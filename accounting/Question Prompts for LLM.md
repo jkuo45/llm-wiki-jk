@@ -1,20 +1,20 @@
 **Scenario-based questions**
 
-1. **Analyzing customer behavior**: A retail company wants to analyze customer behavior on their website. They have a dataset with user interactions, purchase history, and demographic information. What steps would you take to analyze this data and provide insights to the company?
-2. **Sales forecasting**: A company wants to forecast sales for the next quarter. They have historical sales data, seasonal trends, and economic indicators. How would you approach this task, and what data analytics techniques would you use?
+1. **Analyzing customer behavior**: A retail company wants to analyze customer behavior on their website. They have a dataset with user interactions, purchase history, and demographic information. What steps would you take to analyze this data and provide insights to the company? (See [[Customer Data Analytics]])
+2. **Sales forecasting**: A company wants to forecast sales for the next quarter. They have historical sales data, seasonal trends, and economic indicators. How would you approach this task, and what [[Predictive Analytics|data analytics techniques]] would you use?
 3. **Identifying trends in customer complaints**: A company receives customer complaints through various channels (email, phone, social media). They want to identify trends and areas for improvement. What steps would you take to analyze this data and provide actionable insights?
 
 **Open-ended questions**
 
 1. **Data exploration**: You're given a dataset with customer information, including demographics, purchase history, and website interactions. How would you approach exploring this data to identify potential insights and opportunities?
-2. **Data storytelling**: You've analyzed a dataset and found some interesting insights. How would you present these findings to a non-technical stakeholder, and what visualizations would you use to communicate the results?
+2. **Data storytelling**: You've analyzed a dataset and found some interesting insights. How would you present these findings to a non-technical stakeholder, and what [[Data Visualization|visualizations]] would you use to communicate the results?
 3. **Prioritizing analytics projects**: A company has multiple analytics projects with varying priorities and deadlines. How would you approach prioritizing these projects, and what factors would you consider when deciding which projects to tackle first?
 
 **Specific task-oriented questions**
 
 1. **Data preprocessing**: You're given a dataset with missing values, outliers, and inconsistent formatting. What steps would you take to preprocess this data for analysis?
-2. **Feature engineering**: You're working on a predictive modeling project, and you need to engineer new features from existing data. How would you approach this task, and what techniques would you use?
-3. **Model evaluation**: You've trained a machine learning model, and you need to evaluate its performance. What metrics would you use, and how would you interpret the results?
+2. **Feature engineering**: You're working on a [[Predictive Analytics|predictive modeling]] project, and you need to engineer new features from existing data. How would you approach this task, and what techniques would you use?
+3. **Model evaluation**: You've trained a [[Machine Learning|machine learning model]], and you need to evaluate its performance. What metrics would you use, and how would you interpret the results?
 
 **Hypothetical scenario questions**
 
