@@ -1,32 +1,32 @@
 {
-   "@context": "https://schema.org",
+   "@context": "https://[[Schema.org]]",
    "@type": "WebPage",
    "@id": "https://thewizard.marketing/#WebPage",
-   "headline": "Websites, SEO, & Ads | Wizard Marketing SEM Digital Agency",
+   "headline": "Websites, [[SEO]], & Ads | Wizard Marketing SEM Digital Agency",
    "url": "https://thewizard.marketing/",
-   "description": "Top rankings and conversions with The Wizard Marketing SEM Digital Marketing Agency. Specializing in Websites, SEO, and Paid Ads.",
+   "description": "Top rankings and conversions with The Wizard Marketing SEM [[Digital Marketing Agency]]. Specializing in Websites, [[SEO]], and Paid Ads.",
    "keywords": [
-      "search engine",
-      "search engine optimization",
-      "marketing strategy",
-      "brand",
-      "reputation management",
-      "target audience",
-      "market segmentation",
-      "web design",
-      "return on investment",
+      "[[Search Engine]]",
+      "[[Search Engine Optimization]]",
+      "[[Marketing Strategy]]",
+      "[[Brand]]",
+      "[[Reputation Management]]",
+      "[[Target Audience]]",
+      "[[Market Segmentation]]",
+      "[[Web Design]]",
+      "[[Return on Investment]]",
       "customer",
       "risk",
-      "analytics",
+      "[[Analytics]]",
       "consumer",
       "segmentation profile",
-      "strategy",
-      "search engine marketing",
+      "[[Strategy]]",
+      "[[Search Engine Marketing]]",
       "behavior",
-      "social media",
-      "email marketing",
+      "[[Social Media]]",
+      "[[Email Marketing]]",
       "business analyst",
-      "mobile app",
+      "[[Mobile App]]",
       "research",
       "arcgis",
       "price",
@@ -36,13 +36,13 @@
       "tapestry",
       "percentage",
       "organization",
-      "lead generation",
+      "[[Lead Generation]]",
       "geography",
       "parameter",
       "chart",
       "wizardry",
       "workflow",
-      "content marketing",
+      "[[Content Marketing]]",
       "attention",
       "understanding",
       "esri",
@@ -57,7 +57,7 @@
       "social media management",
       "advertising services",
       "customer segmentation profile",
-      "social media marketing",
+      "[[Social Media Marketing]]",
       "leads",
       "marketing services",
       "reputation",
@@ -70,18 +70,18 @@
       "copywriting",
       "graphic design",
       "storytelling",
-      "advertising agency",
+      "[[Advertising Agency]]",
       "customer experience",
       "media buying",
       "consultant",
       "retail",
       "video production",
-      "brand awareness",
+      "[[Brand Awareness]]",
       "media planning",
-      "landing page",
+      "[[Landing Page]]",
       "mobile app development",
       "wizard of ads",
-      "digital marketing agency",
+      "[[Digital Marketing Agency]]",
       "promotional products",
       "organic search results",
       "competitive advantage"
@@ -89,7 +89,7 @@
    "about": [
       {
          "@type": "Thing",
-         "name": "search engine",
+         "name": "[[Search Engine]]",
          "description": "",
          "sameAs": [
             "http://en.wikipedia.org/wiki/Search_engine",
@@ -99,7 +99,7 @@
       },
       {
          "@type": "Thing",
-         "name": "search engine optimization",
+         "name": "[[Search Engine Optimization]]",
          "description": "",
          "sameAs": [
             "http://en.wikipedia.org/wiki/Search_engine_optimization",
@@ -109,7 +109,7 @@
       },
       {
          "@type": "Thing",
-         "name": "marketing strategy",
+         "name": "[[Marketing Strategy]]",
          "description": "",
          "sameAs": [
             "http://en.wikipedia.org/wiki/Marketing_strategy",
@@ -119,7 +119,7 @@
       },
       {
          "@type": "Thing",
-         "name": "brand",
+         "name": "[[Brand]]",
          "description": "",
          "sameAs": [
             "http://en.wikipedia.org/wiki/Brand",
@@ -129,7 +129,7 @@
       },
       {
          "@type": "Thing",
-         "name": "reputation management",
+         "name": "[[Reputation Management]]",
          "description": "",
          "sameAs": [
             "http://en.wikipedia.org/wiki/Reputation_management",
@@ -139,7 +139,7 @@
       },
       {
          "@type": "Thing",
-         "name": "target audience",
+         "name": "[[Target Audience]]",
          "description": "",
          "sameAs": [
             "http://en.wikipedia.org/wiki/Target_audience",
@@ -149,7 +149,7 @@
       },
       {
          "@type": "Thing",
-         "name": "market segmentation",
+         "name": "[[Market Segmentation]]",
          "description": "",
          "sameAs": [
             "http://en.wikipedia.org/wiki/Market_segmentation",
@@ -159,7 +159,7 @@
       },
       {
          "@type": "Thing",
-         "name": "web design",
+         "name": "[[Web Design]]",
          "description": "",
          "sameAs": [
             "http://en.wikipedia.org/wiki/Web_design",
@@ -170,7 +170,7 @@
       },
       {
          "@type": "Thing",
-         "name": "return on investment",
+         "name": "[[Return on Investment]]",
          "description": "",
          "sameAs": [
             "http://en.wikipedia.org/wiki/Return_on_investment",
@@ -200,7 +200,7 @@
       },
       {
          "@type": "Thing",
-         "name": "analytics",
+         "name": "[[Analytics]]",
          "description": "",
          "sameAs": [
             "http://en.wikipedia.org/wiki/Analytics",
@@ -226,7 +226,7 @@
       },
       {
          "@type": "Thing",
-         "name": "strategy",
+         "name": "[[Strategy]]",
          "description": "",
          "sameAs": [
             "http://en.wikipedia.org/wiki/Strategy",
@@ -236,7 +236,7 @@
       },
       {
          "@type": "Thing",
-         "name": "search engine marketing",
+         "name": "[[Search Engine Marketing]]",
          "description": "",
          "sameAs": [
             "http://en.wikipedia.org/wiki/Search_engine_marketing",
@@ -256,7 +256,7 @@
       },
       {
          "@type": "Thing",
-         "name": "social media",
+         "name": "[[Social Media]]",
          "description": "",
          "sameAs": [
             "http://en.wikipedia.org/wiki/Social_media",
@@ -266,7 +266,7 @@
       },
       {
          "@type": "Thing",
-         "name": "email marketing",
+         "name": "[[Email Marketing]]",
          "description": "",
          "sameAs": [
             "http://en.wikipedia.org/wiki/Email_marketing",
@@ -286,7 +286,7 @@
       },
       {
          "@type": "Thing",
-         "name": "mobile app",
+         "name": "[[Mobile App]]",
          "description": "",
          "sameAs": [
             "http://en.wikipedia.org/wiki/Mobile_app",
@@ -386,7 +386,7 @@
       },
       {
          "@type": "Thing",
-         "name": "lead generation",
+         "name": "[[Lead Generation]]",
          "description": "",
          "sameAs": [
             "http://en.wikipedia.org/wiki/Lead_generation",
@@ -446,7 +446,7 @@
       },
       {
          "@type": "Thing",
-         "name": "content marketing",
+         "name": "[[Content Marketing]]",
          "description": "",
          "sameAs": [
             "http://en.wikipedia.org/wiki/Content_marketing",
@@ -561,7 +561,7 @@
       },
       {
          "@type": "Thing",
-         "name": "social media marketing",
+         "name": "[[Social Media Marketing]]",
          "description": "",
          "sameAs": []
       },
@@ -679,7 +679,7 @@
       },
       {
          "@type": "Thing",
-         "name": "advertising agency",
+         "name": "[[Advertising Agency]]",
          "description": "",
          "sameAs": [
             "http://en.wikipedia.org/wiki/Advertising_agency",
@@ -739,7 +739,7 @@
       },
       {
          "@type": "Thing",
-         "name": "brand awareness",
+         "name": "[[Brand Awareness]]",
          "description": "",
          "sameAs": [
             "http://en.wikipedia.org/wiki/Brand_awareness",
@@ -759,7 +759,7 @@
       },
       {
          "@type": "Thing",
-         "name": "landing page",
+         "name": "[[Landing Page]]",
          "description": "",
          "sameAs": [
             "http://en.wikipedia.org/wiki/Landing_page",
@@ -785,7 +785,7 @@
       },
       {
          "@type": "Thing",
-         "name": "digital marketing agency",
+         "name": "[[Digital Marketing Agency]]",
          "description": "",
          "sameAs": []
       },
@@ -818,4 +818,11 @@
    ]
 }
 
+### Connections
+- Related: [[schema.org neil patel]]
+- Agency: [[Digital Marketing Agency]]
 
+### Linking Summary
+- New links added: [[Schema.org]], [[SEO]], [[Digital Marketing Agency]], [[Search Engine]], [[Search Engine Optimization]], [[Marketing Strategy]], [[Brand]], [[Reputation Management]], [[Target Audience]], [[Market Segmentation]], [[Web Design]], [[Return on Investment]], [[Analytics]], [[Strategy]], [[Search Engine Marketing]], [[Social Media]], [[Email Marketing]], [[Mobile App]], [[Lead Generation]], [[Content Marketing]], [[Social Media Marketing]], [[Advertising Agency]], [[Brand Awareness]], [[Landing Page]], [[schema.org neil patel]]
+- Suggested new entity notes to create: [[Reputation Management]], [[Target Audience]], [[Web Design]], [[Search Engine Marketing]], [[Lead Generation]], [[Advertising Agency]]
+- Strong connections to strengthen: [[Digital Marketing Agency]] ↔ [[Search Engine Optimization]]
