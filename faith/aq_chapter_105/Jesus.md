@@ -3,7 +3,7 @@
 The central figure, teacher, and healer who works through the [[Omnific Word]].
 
 ## Connections
-- [[Jesus]] ↔ [[Mary Magdalene]]: Jesus healed her of seven spirits using the [[Omnific Word]].
+- [[Jesus]] ↔ [[Mary Magdalene]]: Jesus healed her of seven spirits using the [[Omnific Word]]; she became a loyal benefactor and was the first to witness and announce his resurrection (Chapter 173).
 - [[Holy Breath]] ↔ [[Jesus]]: Jesus teaches that while sins against the [[Son of Man]] may be pardoned, sins against the [[Holy Breath]] are far more grave.
 
 ## Linking Summary
