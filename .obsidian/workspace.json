@@ -11,13 +11,14 @@
             "id": "7678dab250cd2057",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "index.base",
-                "viewName": "Table"
+                "file": "accounting/Service Notes.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "index"
+              "icon": "lucide-file",
+              "title": "Service Notes"
             }
           }
         ]
@@ -166,34 +167,40 @@
   },
   "active": "ec0dc10e7edea118",
   "lastOpenFiles": [
+    "faith/aq_chapter_105/source.md",
+    "agents/seo/schema.org thewizard.marketing.md",
+    "agents/seo/schema.org neil patel.md",
+    "agents/seo/Social Media Marketing.md",
+    "agents/seo/Search Engine.md",
+    "agents/seo/Search Engine Optimization.md",
+    "agents/seo/Search Engine Marketing.md",
+    "agents/seo/Schema.org.md",
+    "agents/seo/Neil Patel.md",
+    "agents/seo/Marketing Strategy.md",
+    "agents/seo/Digital Marketing.md",
+    "agents/seo/Digital Marketing Agency.md",
+    "agents/seo/Content Marketing.md",
+    "agents/seo/Brand.md",
+    "agents/seo/Analytics.md",
+    "agents/seo",
+    "notes/seo/Schema.org.md",
+    "notes/seo/schema.org thewizard.marketing.md",
+    "notes/seo/schema.org neil patel.md",
+    "notes/seo/Social Media Marketing.md",
+    "notes/seo/Search Engine.md",
+    "notes/seo/Search Engine Optimization.md",
+    "notes/seo/Search Engine Marketing.md",
+    "notes/seo/Neil Patel.md",
+    "notes/seo/Marketing Strategy.md",
+    "notes/seo/Digital Marketing.md",
+    "notes/seo/Content Marketing.md",
+    "notes/seo",
     "index.base",
-    "notes/effective testing.md",
-    "notes/misc notes.md",
-    "notes/dev notes.md",
-    "prompts/Prompt Exa - Similar.md",
-    "services/Customer Data Analytics.md",
-    "services/Service Notes.md",
     "notes",
-    "Higher and Lower Self.md",
-    "services/Question Prompts for LLM.md",
-    "2025-03-28.md",
-    "services/AI Accounting Agents.md",
     "services",
-    "agents/Plan-Execute Agentic Design Pattern.md",
-    "prompts/Prompt Guide Notes.md",
     "prompts",
-    "agents/AI Agents and Multi-Agent Systems (MAS).md",
-    "agents/Prompt Exa - Contents.md",
     "agents",
-    "seo/schema.org neil patel.md",
-    "seo/schema.org thewizard.marketing.md",
     "seo",
-    "Data Analysis Goals.md",
-    "Autism Neurotransmitters.md",
-    "google.md",
-    "Untitled.canvas",
-    "Welcome.md",
-    "create a link change link.md",
-    "2024-05-09.md"
+    "Untitled.canvas"
   ]
 }
