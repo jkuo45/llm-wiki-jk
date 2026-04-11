@@ -1,0 +1,199 @@
+{
+  "main": {
+    "id": "07ded056c25513de",
+    "type": "split",
+    "children": [
+      {
+        "id": "918e40208f4eec38",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7678dab250cd2057",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "index.base",
+                "viewName": "Table"
+              },
+              "icon": "lucide-table",
+              "title": "index"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fd750fc620062258",
+    "type": "split",
+    "children": [
+      {
+        "id": "8ec0bdcf956e5815",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ec0dc10e7edea118",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "96b9940c7e579415",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "a9cbf61888a92027",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "3aa5d9708910284d",
+    "type": "split",
+    "children": [
+      {
+        "id": "f5efb2dda5678392",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0ddeadc0a1a57c7a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "App Dev Notes.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for App Dev Notes"
+            }
+          },
+          {
+            "id": "495e6c6a3939ca52",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "App Dev Notes.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from App Dev Notes"
+            }
+          },
+          {
+            "id": "c51e4caa83e8b304",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "1d2b2768565107c6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "App Dev Notes.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of App Dev Notes"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "ec0dc10e7edea118",
+  "lastOpenFiles": [
+    "index.base",
+    "notes/effective testing.md",
+    "notes/misc notes.md",
+    "notes/dev notes.md",
+    "prompts/Prompt Exa - Similar.md",
+    "services/Customer Data Analytics.md",
+    "services/Service Notes.md",
+    "notes",
+    "Higher and Lower Self.md",
+    "services/Question Prompts for LLM.md",
+    "2025-03-28.md",
+    "services/AI Accounting Agents.md",
+    "services",
+    "agents/Plan-Execute Agentic Design Pattern.md",
+    "prompts/Prompt Guide Notes.md",
+    "prompts",
+    "agents/AI Agents and Multi-Agent Systems (MAS).md",
+    "agents/Prompt Exa - Contents.md",
+    "agents",
+    "seo/schema.org neil patel.md",
+    "seo/schema.org thewizard.marketing.md",
+    "seo",
+    "Data Analysis Goals.md",
+    "Autism Neurotransmitters.md",
+    "google.md",
+    "Untitled.canvas",
+    "Welcome.md",
+    "create a link change link.md",
+    "2024-05-09.md"
+  ]
+}
