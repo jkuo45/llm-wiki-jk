@@ -1,11 +1,11 @@
 
-Title: What is Prompt Engineering?
+Title: What is [[Prompt Engineering]]?
 URL: https://prmpts.ai/blog/what-is-prompt-engineering
 ID: https://prmpts.ai/blog/what-is-prompt-engineering
 Score: 0.8417931199073792
 Published Date: 2023-01-24
 Author: None
-Text: Blog What is Prompt Engineering? 2023-01-24 · 8 minute read Large language models like GPT-3 have spawned a new emerging field called Prompt Engineering. People are coming up with clever techniques to prompt these models to perform different tasks, such as:
+Text: Blog What is [[Prompt Engineering]]? 2023-01-24 · 8 minute read [[Large language models]] like [[GPT-3]] have spawned a new emerging field called [[Prompt Engineering]]. People are coming up with clever techniques to prompt these models to perform different tasks, such as:
 
 TL;DR summarization
 Fix grammar/spelling errors
@@ -15,27 +15,27 @@ Explain what a piece of code does
 Generate stories
 Q&A
 
-These are just a couple of examples among millions of possible use cases. The exciting thing about Prompt Engineering is that the possibilities are endless.
- So what is Prompt Engineering exactly?
-Prompt Engineering is the practice of producing robust prompts for generative language models that can withstand a number of real world challenges:
+These are just a couple of examples among millions of possible use cases. The exciting thing about [[Prompt Engineering]] is that the possibilities are endless.
+ So what is [[Prompt Engineering]] exactly?
+[[Prompt Engineering]] is the practice of producing robust prompts for generative language models that can withstand a number of real world challenges:
 
 How do we craft a prompt to produce a specific result?
 How do we test our prompts to know that they consistently produce the right results?
 How do we trust the language model not to say something incorrect/inappropriate?
-How do we prevent prompt injection?
-How do we pass in a custom data set or knowledge base?
+How do we prevent [[prompt injection]]?
+How do we pass in a custom data set or [[knowledge base]]?
 What do we do if our prompt doesn't fit within the model's token limits?
 How do we estimate cost per prompt when inputs are unknown?
 How do we compare competing language models as more become available?
 
-As a Prompt Engineer, your job is to take the general capabilities of large language models and narrow them to a specific use case. You are responsible for addressing the above challenges and following best practices to accommodate them.
-In this post we will explore the anatomy of a prompt, break down an example prompt, discuss best practices when designing prompts, and answer some common questions about Prompt Engineering.
+As a [[Prompt Engineer]], your job is to take the general capabilities of [[large language models]] and narrow them to a specific use case. You are responsible for addressing the above challenges and following best practices to accommodate them.
+In this post we will explore the anatomy of a prompt, break down an example prompt, discuss best practices when designing prompts, and answer some common questions about [[Prompt Engineering]].
  Anatomy of a prompt
 Prompts are fundamentally made of 3 parts:
 
 Static template: This is the text template that structures the prompt's context, task, and input placeholders. This part of the prompt doesn't change between executions.
  Dynamic inputs: This is dynamic data injected into the prompt based on user input. This could come directly from the user, such as a freeform text input or schema controlled input. It could also contain other injected data, such as externally fetched content. The location of these inputs are set using placeholders in the static template and will vary for every prompt.
- Model parameters: This is where you define which language model you are using and any additional parameters for that model (eg. temperature).
+ Model parameters: This is where you define which language model you are using and any additional parameters for that model (eg. [[temperature]]).
 
 Example: Fruit → Color Hex
 Let's look at one of my favourite examples: Fruit → Color Hex.
@@ -50,7 +50,7 @@ Color hex string:
 completionTokens: 34
 You'll notice the prompt has 3 sections:
 
-The prompt template: This top section is the meat and potatoes of the prompt. It contains the core instructions and structure for the prompt. If you click on it, you'll see how the fruit input placeholder was created.
+The prompt template: This top section is the meat and potatoes of the prompt. It contains the core [[instructions]] and structure for the prompt. If you click on it, you'll see how the fruit input placeholder was created.
  Inputs and preview: For every input placeholder in the template, an input is created below. In this example, the fruit input is a simple free-form text box. Next to the inputs is a text preview to help you visualize what the final prompt will look like before its sent.
  Model parameters: At the bottom you choose which language model you want to use for this prompt. As more language models are released (from multiple organizations), you can experiment with them here.
 
@@ -86,7 +86,7 @@ Context: Give context when applicable. For example, a luxury watch bot will need
 Task: Explain the model's job.
  Answer the following question from a customer about the above watch product.
 
-Conditions: Prevent the model from hallucinating (making up answers) by adding a condition to the task.
+Conditions: Prevent the model from [[hallucinating]] (making up answers) by adding a condition to the task.
  If the answer is not provided above or you are unsure, reply with "Sorry, I don't know."
 
 Labels: Labels help set expectations and structure for the model. Without labels, models will sometimes try to add on to the task itself instead of performing the task. In our example, it would be wise to label our question and answer:
@@ -95,12 +95,12 @@ Labels: Labels help set expectations and structure for the model. Without labels
 """
 Answer:
 
-Notice that we also wrap our question input in triple quotes. This helps make the input explicit for the model. It also helps mitigate against prompt injection.
+Notice that we also wrap our question input in triple quotes. This helps make the input explicit for the model. It also helps mitigate against [[prompt injection]].
 
 User input: As you can see above, we needed a place to inject user input. Most prompt tools will provide a templating language to allow you to set placeholders within your prompt:
  {{ question }}
 
-Keep in mind that any of the above components have the ability to be dynamically injected as required. For example, context is a prime candidate for dynamic injection since this information may be constantly changing and unknown at build time. Likely you would retrieve context from a database, knowledge base, or external API. You can use embeddings to determine which content is most relevant when injecting.
+Keep in mind that any of the above components have the ability to be dynamically injected as required. For example, context is a prime candidate for dynamic injection since this information may be constantly changing and unknown at build time. Likely you would retrieve context from a database, [[knowledge base]], or external API. You can use [[embeddings]] to determine which content is most relevant when injecting.
 Here's the final result:
  Prompt You are a question-answer bot for a luxury watch website. Given the following information about the product:
 productInformation
@@ -122,9 +122,10 @@ What are they made of?
 """
 Answer:
 completionTokens: 121
- Is Prompt Engineering the same as fine-tuning?
-Not exactly. Fine-tuning is the process of re-training the language model itself with custom training data. Fine-tuning is just one of many tools in a Prompt Engineer’s tool belt to produce the desired outcome.
-Fine-tuning is not always the answer. You will often pay a premium to fine-tune a model, both during the training process and for every future completion request after that. You may be surprised how far you can get using other Prompt Engineering techniques like context injection + embeddings.
+ Is [[Prompt Engineering]] the same as [[fine-tuning]]?
+Not exactly. [[Fine-tuning]] is the process of re-training the language model itself with custom training data. [[Fine-tuning]] is just one of many tools in a [[Prompt Engineer]]’s tool belt to produce the desired outcome.
+[[Fine-tuning]] is not always the answer. You will often pay a premium to fine-tune a model, both during the training process and for every future completion request after that. You may be surprised how far you can get using other [[Prompt Engineering]] techniques like context injection + [[embeddings]].
+
  What is prmpts.AI?
  prmpts.AI is a prompt engineering playground to test and share robust prompts with others. Instead of proprietizing our discoveries, let’s keep this technology open and explore it together.
 Highlights: None
@@ -2122,3 +2123,7 @@ Highlights: None
 Highlight Scores: None
 
 ➜  /app git:(dev) ✗
+Linking Summary:
+- New links added: [[Prompt Engineering]], [[Large language models]], [[GPT-3]], [[prompt injection]], [[knowledge base]], [[Prompt Engineer]], [[temperature]], [[instructions]], [[hallucinating]], [[embeddings]], [[fine-tuning]]
+- Suggested new entity notes to create: [[Prompt Engineering]], [[Large Language Models]], [[GPT-3]], [[Prompt Injection]], [[Knowledge Base]], [[Prompt Engineer]], [[Temperature]], [[Instructions]], [[Hallucination]], [[Embeddings]], [[Fine-tuning]]
+- Strong connections to strengthen: [[Prompt Engineering]] ↔ [[Fine-tuning]], [[Prompt Engineering]] ↔ [[Large Language Models]]
