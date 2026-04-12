@@ -1,5 +1,10 @@
 # Wiki-style Knowledge Base
 
+## Maintenance
+- Update the entities.md for entity name and last updated.
+- The date format should be %d_%b_%Y %I:%M %p %Z.
+- Update README.md with last updated and count.
+
 ## Linking
 
 ### Linking Format:
