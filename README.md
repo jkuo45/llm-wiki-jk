@@ -1,10 +1,10 @@
-# llm-wiki-jk
+# llm-wiki (testing)
 
-|topic|last updated|count entities|
-|---|---|---|
-|accounting|||
-|agents|||
-|faith|||
-|fruitage|||
-|notes|||
-|prompting|||
+| collection | date created | last updated | count entities |
+| ---------- | -------------|------------- | -------------- |
+| accounting |              |              |                |
+| agents     |              |              |                |
+| faith      |              |              |                |
+| fruitage   |              |              |                |
+| notes      |              |              |                |
+| prompting  |              |              |                |

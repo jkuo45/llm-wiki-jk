@@ -1,12 +1,18 @@
 # Wiki-style Knowledge Base
 
+
+
 ## Maintenance
-- Update the entities.md for entity name and last updated. Create this file if it does not exist in the directory.
-- The date format should be %d_%b_%Y %I:%M %p %Z.
+- Update entities.md
+- The timestamp format should be %d_%b_%Y %I:%M %p %Z.
 - Create or update README.md with last updated and total count of entities.
+- Create or update entities.md (if not exist) in the following format:
+
+|entity|datetime updated|
+|------|----------------|
 
 
-## Linking Format:
+## Linking Format
 - Use Obsidian-style wiki links: [[Exact Note Title]] or [[Note Title|Display Text]] when the display text differs.
 - Only link to entities that make sense contextually — do not over-link or create trivial links.
 - Prefer precise, canonical note titles (e.g., use [[Large Language Models]] instead of [[LLMs]] unless you know an alias exists).
@@ -20,7 +26,7 @@
 - Each new entity should have a Linking Summary
 
 ### Output Format:
-Return the FULL updated Markdown content with all new [[links]] inserted. At the very end, add a section:
+- Return the FULL updated Markdown content with all new [[links]] inserted. At the very end, add a section:
 
  **Linking Summary:**
 - New links added: [[Entity1]], [[Entity2]], ...
