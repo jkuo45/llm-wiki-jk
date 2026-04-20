@@ -1,12 +1,10 @@
 # Wiki-style Knowledge Base
 
-
-
 ## Maintenance
-- Update entities.md
+- Create or update README.md within the directory of the article/folder.
+    - Last updated and total count of entities.
 - The timestamp format should be %d_%b_%Y %I:%M %p %Z.
-- Create or update README.md with last updated and total count of entities.
-- Create or update entities.md (if not exist) in the following format:
+    - Use the system time stamp.
 
 |entity|datetime updated|
 |------|----------------|
