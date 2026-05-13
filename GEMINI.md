@@ -4,29 +4,28 @@
 - Create or update README.md within the directory of the article/folder.
     - Last updated and total count of entities.
 - The timestamp format should be %d_%b_%Y %I:%M %p %Z.
-    - Use the system time stamp.
-
-|entity|datetime updated|
-|------|----------------|
-
+- If single directory:
+    |entity/term|datetime updated|
+    |------|----------------|
+- If multiple sub-directories:
+    |entity/term|datetime updated|directory|
+    |------|----------------|---------|
 
 ## Linking Format
 - Use Obsidian-style wiki links: [[Exact Note Title]] or [[Note Title|Display Text]] when the display text differs.
-- Only link to entities that make sense contextually — do not over-link or create trivial links.
-- Prefer precise, canonical note titles (e.g., use [[Large Language Models]] instead of [[LLMs]] unless you know an alias exists).
-- If a concept is mentioned but no dedicated note exists yet, suggest creating one by using a clear [[New Entity Name]] and note it at the end.
+- Only link to entities and biomedical terms that make sense contextually — do not over-link or create trivial links.
+- Prefer precise, canonical note titles (e.g., use [[Large Language Models]] instead of [[LLMs]] unless you know an alias exists). e.g. Genes/proteins: [[BRCA1]], [[TP53]], [[CFTR]]
+Diseases/disorders: [[Alzheimer's Disease]], [[Cystic Fibrosis]], [[Type 2 Diabetes Mellitus]]
+- If a concept is mentioned but no dedicated note exists yet, suggest creating one by using a clear [[New Entity Name]] and note it at the end. Prefer space to underscore in the entity name. Create markdown files for each new entity.
 - Add links in the most natural places: first meaningful mention is often best.
 - In a dedicated "Connections" or "Related" section (if it exists, or create one), list important bidirectional connections with brief one-line explanations.
 - Maintain consistency: Use the same exact title for the same entity across files.
+- Each new entity should have a Linking Summary.
 
-### Creating Entities:
-- Create markdown files for new entities
-- Each new entity should have a Linking Summary
-
-### Output Format:
-- Return the FULL updated Markdown content with all new [[links]] inserted. At the very end, add a section:
-
- **Linking Summary:**
+ ### Linking Summary:
 - New links added: [[Entity1]], [[Entity2]], ...
 - Suggested new entity notes to create: [[Missing Concept]]
 - Strong connections to strengthen: [[Note A]] ↔ [[Note B]]
+
+### Output Format:
+- Return the FULL updated Markdown content with all new [[links]] inserted. At the very end, add a section:
