@@ -2,7 +2,7 @@
 
 This directory contains a wiki-style knowledge base focused on the epigenetics of aging and related biomedical terms.
 
-- **Last updated:** 13_May_2026 05:30 PM UTC
+- **Last updated:** 14_May_2026 10:00 AM UTC
 - **Total entities:** 77
 
 | entity/term | datetime updated |
@@ -20,45 +20,45 @@ This directory contains a wiki-style knowledge base focused on the epigenetics o
 | [[Cellular Senescence]] | 13_May_2026 05:30 PM UTC |
 | [[Chromatin]] | 13_May_2026 05:30 PM UTC |
 | [[Coronary Heart Disease]] | 13_May_2026 05:30 PM UTC |
-| [[Diabetes Mellitus]] | 13_May_2026 05:30 PM UTC |
-| [[DNA Methylation]] | 13_May_2026 05:30 PM UTC |
-| [[DNA Methyltransferase]] | 13_May_2026 05:30 PM UTC |
-| [[DNAmGrimAge]] | 13_May_2026 05:30 PM UTC |
-| [[DNMT1]] | 13_May_2026 05:30 PM UTC |
-| [[DNMT3a]] | 13_May_2026 05:30 PM UTC |
-| [[DNMT3b]] | 13_May_2026 05:30 PM UTC |
+| [[Diabetes Mellitus]] | 14_May_2026 10:00 AM UTC |
+| [[DNA Methylation]] | 14_May_2026 10:00 AM UTC |
+| [[DNA Methyltransferase]] | 14_May_2026 10:00 AM UTC |
+| [[DNAmGrimAge]] | 14_May_2026 10:00 AM UTC |
+| [[DNMT1]] | 14_May_2026 10:00 AM UTC |
+| [[DNMT3a]] | 14_May_2026 10:00 AM UTC |
+| [[DNMT3b]] | 14_May_2026 10:00 AM UTC |
 | [[Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks]] | 13_May_2026 05:30 PM UTC |
-| [[Epigenetic Clock]] | 13_May_2026 05:30 PM UTC |
+| [[Epigenetic Clock]] | 14_May_2026 10:00 AM UTC |
 | [[Epigenetics and aging]] | 13_May_2026 05:30 PM UTC |
-| [[Epigenetics]] | 13_May_2026 05:30 PM UTC |
-| [[Epigenome]] | 13_May_2026 05:30 PM UTC |
-| [[Euchromatin]] | 13_May_2026 05:30 PM UTC |
-| [[Genomic Instability]] | 13_May_2026 05:30 PM UTC |
-| [[Geroscience]] | 13_May_2026 05:30 PM UTC |
-| [[HAT]] | 13_May_2026 05:30 PM UTC |
-| [[HDAC]] | 13_May_2026 05:30 PM UTC |
-| [[Heterochromatin]] | 13_May_2026 05:30 PM UTC |
-| [[HGPS]] | 13_May_2026 05:30 PM UTC |
-| [[Histone Acetyltransferase]] | 13_May_2026 05:30 PM UTC |
-| [[Histone Deacetylase]] | 13_May_2026 05:30 PM UTC |
-| [[Histone Methyltransferase]] | 13_May_2026 05:30 PM UTC |
-| [[Histone Modification]] | 13_May_2026 05:30 PM UTC |
-| [[IGF-1]] | 13_May_2026 05:30 PM UTC |
-| [[MAPK]] | 13_May_2026 05:30 PM UTC |
-| [[Metabolic Syndromes]] | 13_May_2026 05:30 PM UTC |
-| [[Metformin]] | 13_May_2026 05:30 PM UTC |
-| [[MicroRNA]] | 13_May_2026 05:30 PM UTC |
-| [[mTOR]] | 13_May_2026 05:30 PM UTC |
-| [[Neurodegenerative Diseases]] | 13_May_2026 05:30 PM UTC |
-| [[Non-coding RNA]] | 13_May_2026 05:30 PM UTC |
-| [[Nucleosome]] | 13_May_2026 05:30 PM UTC |
-| [[PTEN]] | 13_May_2026 05:30 PM UTC |
-| [[Resveratrol]] | 13_May_2026 05:30 PM UTC |
-| [[SIRT1]] | 13_May_2026 05:30 PM UTC |
-| [[SIRT6]] | 13_May_2026 05:30 PM UTC |
-| [[Sirtuin]] | 13_May_2026 05:30 PM UTC |
-| [[Spermidine]] | 13_May_2026 05:30 PM UTC |
-| [[Werner Syndrome]] | 13_May_2026 05:30 PM UTC |
+| [[Epigenetics]] | 14_May_2026 10:00 AM UTC |
+| [[Epigenome]] | 14_May_2026 10:00 AM UTC |
+| [[Euchromatin]] | 14_May_2026 10:00 AM UTC |
+| [[Genomic Instability]] | 14_May_2026 10:00 AM UTC |
+| [[Geroscience]] | 14_May_2026 10:00 AM UTC |
+| [[HAT]] | 14_May_2026 10:00 AM UTC |
+| [[HDAC]] | 14_May_2026 10:00 AM UTC |
+| [[Heterochromatin]] | 14_May_2026 10:00 AM UTC |
+| [[HGPS]] | 14_May_2026 10:00 AM UTC |
+| [[Histone Acetyltransferase]] | 14_May_2026 10:00 AM UTC |
+| [[Histone Deacetylase]] | 14_May_2026 10:00 AM UTC |
+| [[Histone Methyltransferase]] | 14_May_2026 10:00 AM UTC |
+| [[Histone Modification]] | 14_May_2026 10:00 AM UTC |
+| [[IGF-1]] | 14_May_2026 10:00 AM UTC |
+| [[MAPK]] | 14_May_2026 10:00 AM UTC |
+| [[Metabolic Syndromes]] | 14_May_2026 10:00 AM UTC |
+| [[Metformin]] | 14_May_2026 10:00 AM UTC |
+| [[MicroRNA]] | 14_May_2026 10:00 AM UTC |
+| [[mTOR]] | 14_May_2026 10:00 AM UTC |
+| [[Neurodegenerative Diseases]] | 14_May_2026 10:00 AM UTC |
+| [[Non-coding RNA]] | 14_May_2026 10:00 AM UTC |
+| [[Nucleosome]] | 14_May_2026 10:00 AM UTC |
+| [[PTEN]] | 14_May_2026 10:00 AM UTC |
+| [[Resveratrol]] | 14_May_2026 10:00 AM UTC |
+| [[SIRT1]] | 14_May_2026 10:00 AM UTC |
+| [[SIRT6]] | 14_May_2026 10:00 AM UTC |
+| [[Sirtuin]] | 14_May_2026 10:00 AM UTC |
+| [[Spermidine]] | 14_May_2026 10:00 AM UTC |
+| [[Werner Syndrome]] | 14_May_2026 10:00 AM UTC |
 | [[Histone Acetylation]] | 13_May_2026 05:30 PM UTC |
 | [[Histone Methylation]] | 13_May_2026 05:30 PM UTC |
 | [[Nucleosome Remodeling]] | 13_May_2026 05:30 PM UTC |
