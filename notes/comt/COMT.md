@@ -8,7 +8,7 @@ The [[COMT]] gene is well-known for the [[Val158Met]] [[SNP]], which significant
 - **Slow COMT (Met/Met):** Lower enzyme activity (3-4x reduced), leading to higher levels of synaptic dopamine. Often called the "worrier" type.
 
 ## Function
-[[COMT]] requires [[Methyl Groups]] for its reaction (facilitated by the [[Methylation Cycle]]) and uses [[Magnesium]] as a cofactor. It is essential for protecting cells from [[Oxidative Stress]] by preventing the accumulation of catecholamines.
+[[COMT]] requires [[Methyl Groups]] for its reaction (facilitated by the [[Methylation Cycle]]) and uses [[Magnesium]] as a cofactor. It is essential for protecting cells from [[comt/Oxidative stress]] by preventing the accumulation of catecholamines.
 
 ## Clinical Significance
 Genetic variation in [[COMT]] activity is associated with differences in [[Cognitive Performance]], [[Executive Function]], and susceptibility to [[Psychiatric Disorders]] like [[Schizophrenia]].
@@ -20,4 +20,4 @@ Genetic variation in [[COMT]] activity is associated with differences in [[Cogni
 
 ---
 ### Linking Summary:
-- New links added: [[Catechols]], [[Dopamine]], [[Epinephrine]], [[Norepinephrine]], [[Estrogen]], [[Val158Met]], [[SNP]], [[Methyl Groups]], [[Methylation Cycle]], [[Magnesium]], [[Oxidative Stress]], [[Cognitive Performance]], [[Executive Function]], [[Psychiatric Disorders]], [[Schizophrenia]].
+- New links added: [[Catechols]], [[Dopamine]], [[Epinephrine]], [[Norepinephrine]], [[Estrogen]], [[Val158Met]], [[SNP]], [[Methyl Groups]], [[Methylation Cycle]], [[Magnesium]], [[comt/Oxidative stress]], [[Cognitive Performance]], [[Executive Function]], [[Psychiatric Disorders]], [[Schizophrenia]].

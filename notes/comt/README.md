@@ -14,7 +14,7 @@
 | [[Estrogen]] | 12_May_2026 11:45 AM UTC |
 | [[Catechols]] | 12_May_2026 11:45 AM UTC |
 | [[Methylation]] | 12_May_2026 11:45 AM UTC |
-| [[Oxidative stress]] | 12_May_2026 11:45 AM UTC |
+| [[comt/Oxidative stress]] | 12_May_2026 11:45 AM UTC |
 | [[Methyl groups]] | 12_May_2026 11:45 AM UTC |
 | [[Serotonin]] | 12_May_2026 11:45 AM UTC |
 | [[Melatonin]] | 12_May_2026 11:45 AM UTC |
