@@ -9,7 +9,7 @@ Like other [[Catecholamines]], Dopamine can undergo [[Oxidation]] (spontaneous o
 
 ## Clinical Relevance
 - **Parkinson's Disease:** Characterized by the death of dopaminergic neurons and loss of [[Neuromelanin]].
-- **[[Oxidative Stress]]:** Excessive dopamine oxidation is linked to neuronal stress and neurodegeneration.
+- **[[comt/Oxidative stress]]:** Excessive dopamine oxidation is linked to neuronal stress and neurodegeneration.
 
 ## Connections
 - [[Catecholamines]] ↔ Dopamine is a member of this class.
@@ -17,5 +17,5 @@ Like other [[Catecholamines]], Dopamine can undergo [[Oxidation]] (spontaneous o
 - [[Epinephrine]] ↔ Precursor to epinephrine (Dopamine → Norepinephrine → Epinephrine).
 
 ### Linking Summary:
-- New links added: [[Dopamine]], [[Catecholamines]], [[Oxidation]], [[Adrenochrome]], [[Neuromelanin]], [[Oxidative Stress]], [[Epinephrine]]
+- New links added: [[Dopamine]], [[Catecholamines]], [[Oxidation]], [[Adrenochrome]], [[Neuromelanin]], [[comt/Oxidative stress]], [[Epinephrine]]
 - Strong connections to strengthen: [[Dopamine]] ↔ [[Neuromelanin]]

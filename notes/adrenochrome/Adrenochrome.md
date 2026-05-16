@@ -8,10 +8,10 @@
 - **Structure:** Features an indoline core fused to a quinone moiety (o-quinone derivative) with an N-methyl group and a hydroxyl group at position 3.
 
 ## Production in Humans
-Adrenochrome is produced non-enzymatically or via catalytic pathways under conditions of [[Oxidative Stress]]. 
+Adrenochrome is produced non-enzymatically or via catalytic pathways under conditions of [[comt/Oxidative stress]]. 
 
 ### Mechanisms
-- **Non-enzymatic Oxidation:** Driven by [[Reactive Oxygen Species]] (ROS), specifically [[Superoxide anion]] (O₂⁻) and [[Hydrogen peroxide]] (H₂O₂).
+- **Non-enzymatic Oxidation:** Driven by [[oxidative_stress/Reactive Oxygen Species]] (ROS), specifically [[Superoxide anion]] (O₂⁻) and [[Hydrogen peroxide]] (H₂O₂).
 - **Enzymatic Catalysis:** [[Myeloperoxidase]], released by activated [[Neutrophils]] during the respiratory burst, can accelerate the conversion of [[Epinephrine]] to Adrenochrome.
 
 ### Locations
@@ -30,11 +30,11 @@ Aging increases baseline ROS and chronic [[Inflammation]] ("inflammaging"), whic
 
 ## Connections
 - [[Epinephrine]] ↔ Precursor molecule for Adrenochrome formation.
-- [[Reactive Oxygen Species]] ↔ Driving force for the oxidation of catecholamines.
+- [[oxidative_stress/Reactive Oxygen Species]] ↔ Driving force for the oxidation of catecholamines.
 - [[Neuromelanin]] ↔ End-product of aminochrome (including Adrenochrome) polymerization in the brain.
 - [[Smoking]] ↔ Increases systemic oxidative stress and catecholamine levels, promoting Adrenochrome formation.
 
 ### Linking Summary:
-- New links added: [[Adrenochrome]], [[Oxidation]], [[Epinephrine]], [[Catecholamines]], [[Oxidative Stress]], [[Reactive Oxygen Species]], [[Superoxide anion]], [[Hydrogen peroxide]], [[Myeloperoxidase]], [[Neutrophils]], [[Inflammation]], [[Lungs]], [[Neuromelanin]], [[Redox Cycling]], [[Cardiotoxicity]], [[Schizophrenia]], [[Carbazochrome]], [[Smoking]]
-- Suggested new entity notes to create: [[Epinephrine]], [[Reactive Oxygen Species]], [[Neuromelanin]], [[Catecholamines]], [[Oxidative Stress]], [[Redox Cycling]]
-- Strong connections to strengthen: [[Adrenochrome]] ↔ [[Epinephrine]], [[Adrenochrome]] ↔ [[Reactive Oxygen Species]]
+- New links added: [[Adrenochrome]], [[Oxidation]], [[Epinephrine]], [[Catecholamines]], [[comt/Oxidative stress]], [[oxidative_stress/Reactive Oxygen Species]], [[Superoxide anion]], [[Hydrogen peroxide]], [[Myeloperoxidase]], [[Neutrophils]], [[Inflammation]], [[Lungs]], [[Neuromelanin]], [[Redox Cycling]], [[Cardiotoxicity]], [[Schizophrenia]], [[Carbazochrome]], [[Smoking]]
+- Suggested new entity notes to create: [[Epinephrine]], [[oxidative_stress/Reactive Oxygen Species]], [[Neuromelanin]], [[Catecholamines]], [[comt/Oxidative stress]], [[Redox Cycling]]
+- Strong connections to strengthen: [[Adrenochrome]] ↔ [[Epinephrine]], [[Adrenochrome]] ↔ [[oxidative_stress/Reactive Oxygen Species]]

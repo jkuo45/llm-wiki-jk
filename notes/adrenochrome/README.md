@@ -10,10 +10,10 @@ This directory contains notes and research regarding [[Adrenochrome]] and its re
 |------|----------------|
 |[[Adrenochrome]]|13_May_2026 04:45 PM UTC|
 |[[Epinephrine]]|13_May_2026 04:45 PM UTC|
-|[[Reactive Oxygen Species]]|13_May_2026 04:45 PM UTC|
+|[[oxidative_stress/Reactive Oxygen Species]]|13_May_2026 04:45 PM UTC|
 |[[Neuromelanin]]|13_May_2026 04:45 PM UTC|
 |[[Catecholamines]]|13_May_2026 04:45 PM UTC|
-|[[Oxidative Stress]]|13_May_2026 04:45 PM UTC|
+|[[comt/Oxidative stress]]|13_May_2026 04:45 PM UTC|
 |[[Redox Cycling]]|13_May_2026 04:45 PM UTC|
 |[[Dopamine]]|13_May_2026 04:45 PM UTC|
 |[[COMT]]|13_May_2026 04:45 PM UTC|
