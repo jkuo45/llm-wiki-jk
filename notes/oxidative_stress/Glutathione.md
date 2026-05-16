@@ -15,9 +15,9 @@ Glutathione (GSH) is a tripeptide (composed of glutamate, cysteine, and glycine)
 ## Connections
 - [[Glutathione Peroxidase]]: The enzyme that utilizes glutathione to neutralize peroxides.
 - [[Alpha-Lipoic Acid]]: Can regenerate GSH from GSSG directly and increases the availability of cysteine for GSH synthesis.
-- [[Oxidative Stress]]: GSH levels are a key indicator of cellular oxidative state.
+- [[oxidative_stress/Oxidative Stress]]: GSH levels are a key indicator of cellular oxidative state.
 
 ### Linking Summary:
-- New links added: [[Glutathione Peroxidase]], [[Alpha-Lipoic Acid]], [[Oxidative Stress]]
+- New links added: [[Glutathione Peroxidase]], [[Alpha-Lipoic Acid]], [[oxidative_stress/Oxidative Stress]]
 - Suggested new entity notes to create: [[Glutathione Reductase]], [[GSSG]], [[Cysteine]]
 - Strong connections to strengthen: [[Glutathione]] ↔ [[Glutathione Peroxidase]]

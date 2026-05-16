@@ -11,6 +11,6 @@ It acts as a potent antioxidant, particularly in preventing lipid peroxidation a
 - γ-tocopherol
 
 ## Connections
-- [[Oxidative Stress]]
+- [[oxidative_stress/Oxidative Stress]]
 - [[Atherosclerosis]]
 - [[Asthma]]

@@ -11,4 +11,4 @@ They exhibit antioxidant activity by scavenging free radicals and chelating meta
 
 ## Connections
 - [[Polyphenols]]
-- [[Oxidative Stress]]
+- [[oxidative_stress/Oxidative Stress]]

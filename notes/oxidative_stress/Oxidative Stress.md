@@ -1,13 +1,13 @@
 # Oxidative Stress
 
 ## Definition
-Oxidative stress is an imbalance between the production of [[Reactive Oxygen Species]] (ROS) and the body's ability to detoxify them or repair the resulting damage.
+Oxidative stress is an imbalance between the production of [[oxidative_stress/Reactive Oxygen Species]] (ROS) and the body's ability to detoxify them or repair the resulting damage.
 
 ## Impact
 It leads to damage of cellular components, including [[Proteins]], [[Lipids]], and [[Nucleic Acids]].
 
 ## Related Entities
-- [[Reactive Oxygen Species]]
+- [[oxidative_stress/Reactive Oxygen Species]]
 - [[Antioxidants]]
 - [[Superoxide Dismutase]]
 - [[Catalase]]

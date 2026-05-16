@@ -6,8 +6,8 @@ Total count of entities: 52
 
 |entity/term|datetime updated|
 |------|----------------|
-|[[Oxidative Stress]]|11_May_2026 12:53 AM UTC|
-|[[Reactive Oxygen Species]]|11_May_2026 12:53 AM UTC|
+|[[oxidative_stress/Oxidative Stress]]|11_May_2026 12:53 AM UTC|
+|[[oxidative_stress/Reactive Oxygen Species]]|11_May_2026 12:53 AM UTC|
 |[[Superoxide Radicals]]|11_May_2026 12:53 AM UTC|
 |[[Hydrogen Peroxide]]|11_May_2026 12:53 AM UTC|
 |[[Hydroxyl Radicals]]|11_May_2026 12:53 AM UTC|

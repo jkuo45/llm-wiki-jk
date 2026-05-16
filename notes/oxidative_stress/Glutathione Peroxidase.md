@@ -8,5 +8,5 @@ It reduces free [[Hydrogen Peroxide]] to water and organic hydroperoxides to the
 
 ## Connections
 - [[Glutathione]]
-- [[Oxidative Stress]]
-- [[Reactive Oxygen Species]]
+- [[oxidative_stress/Oxidative Stress]]
+- [[oxidative_stress/Reactive Oxygen Species]]

@@ -8,5 +8,5 @@ They are generally considered antioxidants but can exert prooxidant effects unde
 
 ## Connections
 - [[Flavonoids]]
-- [[Oxidative Stress]]
+- [[oxidative_stress/Oxidative Stress]]
 - [[Cancer]]

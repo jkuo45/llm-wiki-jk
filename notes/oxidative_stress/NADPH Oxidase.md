@@ -1,7 +1,7 @@
 # NADPH Oxidase
 
 ## Definition
-NADPH oxidase (NOX) is a family of membrane-bound enzyme complexes whose primary physiological function is the deliberate production of [[Reactive Oxygen Species]] (ROS), specifically [[Superoxide Radicals]].
+NADPH oxidase (NOX) is a family of membrane-bound enzyme complexes whose primary physiological function is the deliberate production of [[oxidative_stress/Reactive Oxygen Species]] (ROS), specifically [[Superoxide Radicals]].
 
 ## Biological Role
 - **Function:** Catalyzes the transfer of electrons from NADPH to molecular oxygen to form superoxide.
@@ -19,6 +19,6 @@ NADPH oxidase (NOX) is a family of membrane-bound enzyme complexes whose primary
 - [[NF-kappa B]]: Often activated by NOX-derived ROS.
 
 ### Linking Summary:
-- New links added: [[Reactive Oxygen Species]], [[Superoxide Radicals]], [[Cardiovascular Disease]], [[Diabetes Mellitus]], [[NF-kappa B]], [[Hydrogen Peroxide]]
+- New links added: [[oxidative_stress/Reactive Oxygen Species]], [[Superoxide Radicals]], [[Cardiovascular Disease]], [[Diabetes Mellitus]], [[NF-kappa B]], [[Hydrogen Peroxide]]
 - Suggested new entity notes to create: [[Respiratory Burst]], [[NOX2]], [[NOX4]]
 - Strong connections to strengthen: [[NADPH Oxidase]] ↔ [[Superoxide Radicals]]

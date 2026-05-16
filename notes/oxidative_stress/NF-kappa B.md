@@ -12,11 +12,11 @@ Nuclear factor-kappa B (NF-κB) is a protein complex that functions as a central
 - **Cytoprotection:** Can sometimes induce antioxidant genes (e.g., MnSOD) to protect cells from oxidative stress.
 
 ## Connections
-- [[Oxidative Stress]]: Acts as a key downstream mediator and amplifier.
+- [[oxidative_stress/Oxidative Stress]]: Acts as a key downstream mediator and amplifier.
 - [[TNF-alpha]]: A primary cytokine regulated by and capable of activating NF-κB.
 - [[Atherosclerosis]]: Plays a central role in the vascular inflammation driven by oxidative stress.
 
 ### Linking Summary:
-- New links added: [[Immunity]], [[Apoptosis]], [[TNF-alpha]], [[IL-1b]], [[VCAM-1]], [[NADPH Oxidase]], [[Oxidative Stress]], [[Atherosclerosis]]
+- New links added: [[Immunity]], [[Apoptosis]], [[TNF-alpha]], [[IL-1b]], [[VCAM-1]], [[NADPH Oxidase]], [[oxidative_stress/Oxidative Stress]], [[Atherosclerosis]]
 - Suggested new entity notes to create: [[IκB]], [[IKK Complex]], [[Pro-inflammatory Cytokines]]
-- Strong connections to strengthen: [[NF-kappa B]] ↔ [[Oxidative Stress]]
+- Strong connections to strengthen: [[NF-kappa B]] ↔ [[oxidative_stress/Oxidative Stress]]

@@ -1,7 +1,7 @@
 # Mitochondria
 
 ## Definition
-Mitochondria are double-membrane-bound organelles found in most eukaryotic organisms. They are often called the "powerhouses of the cell" due to their role in producing ATP, but they are also the primary source and target of [[Reactive Oxygen Species]] (ROS).
+Mitochondria are double-membrane-bound organelles found in most eukaryotic organisms. They are often called the "powerhouses of the cell" due to their role in producing ATP, but they are also the primary source and target of [[oxidative_stress/Reactive Oxygen Species]] (ROS).
 
 ## Role in Oxidative Stress
 - **Primary Source:** Superoxide is produced as a byproduct of the electron transport chain, specifically through electron leakage at **Complex I** and **Complex III**.
@@ -14,11 +14,11 @@ Mitochondria possess their own defense systems, including:
 - **Glutathione System:** Mitochondria maintain a high concentration of [[Glutathione]] for local peroxide neutralization.
 
 ## Connections
-- [[Oxidative Stress]]: Mitochondria are the central hub for both the generation and the impact of oxidative stress.
+- [[oxidative_stress/Oxidative Stress]]: Mitochondria are the central hub for both the generation and the impact of oxidative stress.
 - [[Superoxide Radicals]]: The main ROS byproduct of mitochondrial respiration.
 - [[Apoptosis]]: Triggered by mitochondrial membrane permeabilization.
 
 ### Linking Summary:
-- New links added: [[Reactive Oxygen Species]], [[Apoptosis]], [[Glutathione]], [[Oxidative Stress]], [[Superoxide Radicals]]
+- New links added: [[oxidative_stress/Reactive Oxygen Species]], [[Apoptosis]], [[Glutathione]], [[oxidative_stress/Oxidative Stress]], [[Superoxide Radicals]]
 - Suggested new entity notes to create: [[Electron Transport Chain]], [[Complex I]], [[Complex III]], [[Mitochondrial DNA]]
-- Strong connections to strengthen: [[Mitochondria]] ↔ [[Oxidative Stress]]
+- Strong connections to strengthen: [[Mitochondria]] ↔ [[oxidative_stress/Oxidative Stress]]
