@@ -1,6 +1,6 @@
 # Oxidative Stress
 
-[[Oxidative Stress]] is an imbalance between the production of reactive oxygen species (ROS) and the body's ability to detoxify these reactive intermediates or repair the resulting damage.
+[[neuromelanin/Oxidative Stress]] is an imbalance between the production of reactive oxygen species (ROS) and the body's ability to detoxify these reactive intermediates or repair the resulting damage.
 
 ## In the Context of Parkinson's Disease
 Oxidative stress is considered a major contributing factor to the pathogenesis of [[Parkinson's Disease]].
@@ -10,5 +10,5 @@ Oxidative stress is considered a major contributing factor to the pathogenesis o
 
 ### Linking Summary:
 - New links added: [[Parkinson's Disease]], [[Dopamine]], [[Substantia Nigra]], [[Iron]], [[Neuromelanin]], [[Mitochondrial Dysfunction]].
-- Suggested new entity notes to create: [[Reactive Oxygen Species]], [[Antioxidants]], [[Fenton Reaction]].
-- Strong connections to strengthen: [[Oxidative Stress]] ↔ [[Mitochondrial Dysfunction]].
+- Suggested new entity notes to create: [[oxidative_stress/Reactive Oxygen Species]], [[Antioxidants]], [[Fenton Reaction]].
+- Strong connections to strengthen: [[neuromelanin/Oxidative Stress]] ↔ [[Mitochondrial Dysfunction]].

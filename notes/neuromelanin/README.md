@@ -22,7 +22,7 @@ This directory contains a collection of notes exploring the relationship between
 | [[Tyrosine Hydroxylase]] | 08_May_2026 05:42 PM UTC |
 | [[Substantia Nigra Pars Compacta]] | 08_May_2026 05:42 PM UTC |
 | [[Microgliosis]] | 08_May_2026 05:42 PM UTC |
-| [[Oxidative Stress]] | 08_May_2026 05:42 PM UTC |
+| [[neuromelanin/Oxidative Stress]] | 08_May_2026 05:42 PM UTC |
 | [[Locus Coeruleus]] | 08_May_2026 05:44 PM UTC |
 | [[Ventral Tegmental Area]] | 08_May_2026 05:44 PM UTC |
 | [[Autophagy]] | 08_May_2026 05:44 PM UTC |

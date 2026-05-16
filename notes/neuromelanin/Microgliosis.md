@@ -10,5 +10,5 @@ In the context of [[Parkinson's Disease]], microgliosis is a key component of th
 
 ### Linking Summary:
 - New links added: [[Parkinson's Disease]], [[Neuroinflammation]], [[Substantia Nigra]], [[Neuromelanin]], [[Neuronophagia]].
-- Suggested new entity notes to create: [[Cytokines]], [[Reactive Oxygen Species]].
+- Suggested new entity notes to create: [[Cytokines]], [[oxidative_stress/Reactive Oxygen Species]].
 - Strong connections to strengthen: [[Microgliosis]] ↔ [[Neuroinflammation]].
