@@ -4,22 +4,25 @@
 
 ## Types of ROS
 - [[Superoxide anion]] (O₂⁻•): Primary ROS produced by mitochondria or enzymes like NADPH oxidase.
-- [[Hydrogen peroxide]] (H₂O₂): Stable signaling molecule, can diffuses across membranes.
-- [[Hydroxyl radical]] (•OH): Extremely reactive and damaging to DNA, lipids, and proteins.
+- [[Hydrogen peroxide]] (H₂O₂): Stable signaling molecule, can diffuse across membranes; byproduct of [[MAO]] activity.
+- [[Hydroxyl radical]] (•OH): Extremely reactive and damaging; formed from H₂O₂ via the Fenton reaction.
 
 ## Role in [[Adrenochrome]] Formation
 ROS drive the non-enzymatic [[Oxidation]] of [[Epinephrine]] to [[Adrenochrome]]. This process is often part of a [[Redox Cycling]] loop where Adrenochrome itself generates further [[Superoxide anion]].
 
 ## Sources
-- **Endogenous:** Mitochondria, activated [[Neutrophils]] (respiratory burst), peroxisomes.
+- **Endogenous:** Mitochondria, activated [[Neutrophils]] (respiratory burst), peroxisomes, and enzymes like [[Myeloperoxidase]].
 - **Exogenous:** [[Smoking]], pollution, UV radiation.
 
+## Biological Impact
+At low levels, ROS are essential for cell signaling and immune defense. However, when levels exceed the body's antioxidant capacity, they lead to [[Oxidative Stress]], causing damage to lipids, proteins, and DNA.
+
 ## Connections
-- [[comt/Oxidative stress]] ↔ Condition resulting from an imbalance between ROS production and antioxidant defenses.
+- [[Oxidative Stress]] ↔ Condition resulting from an imbalance between ROS production and antioxidant defenses.
 - [[Adrenochrome]] ↔ Formed via ROS-mediated oxidation of adrenaline.
-- [[Neutrophils]] ↔ Major source of ROS during [[Inflammation]].
+- [[Neutrophils]] ↔ Major source of ROS during [[Inflammation]] and the respiratory burst.
+- [[Redox Cycling]] ↔ Process that catalytically generates ROS using molecules like [[Aminochromes]].
 
 ### Linking Summary:
-- New links added: [[oxidative_stress/Reactive Oxygen Species]], [[Superoxide anion]], [[Hydrogen peroxide]], [[Hydroxyl radical]], [[Adrenochrome]], [[Oxidation]], [[Epinephrine]], [[Redox Cycling]], [[Neutrophils]], [[Smoking]], [[comt/Oxidative stress]], [[Inflammation]]
-- Suggested new entity notes to create: [[Superoxide anion]], [[Hydrogen peroxide]], [[Hydroxyl radical]]
-- Strong connections to strengthen: [[oxidative_stress/Reactive Oxygen Species]] ↔ [[comt/Oxidative stress]]
+- New links added: [[Reactive Oxygen Species]], [[Superoxide anion]], [[Hydrogen peroxide]], [[Hydroxyl radical]], [[MAO]], [[Adrenochrome]], [[Oxidation]], [[Epinephrine]], [[Redox Cycling]], [[Neutrophils]], [[Myeloperoxidase]], [[Smoking]], [[Oxidative Stress]], [[Inflammation]], [[Aminochromes]]
+- Strong connections to strengthen: [[Reactive Oxygen Species]] ↔ [[Oxidative Stress]]
