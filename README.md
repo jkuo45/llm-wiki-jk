@@ -1,10 +1,10 @@
-# llm-wiki (testing)
+# llm-wiki-jk (biomedical)
 
-| collection | date created | last updated | count entities |
-| ---------- | -------------|------------- | -------------- |
-| accounting |              |              |                |
-| agents     |              |              |                |
-| faith      |              |              |                |
-| fruitage   |              |              |                |
-| notes      |              |              |                |
-| prompting  |              |              |                |
+| topic             | date created | last updated | count entities |
+| ----------------- | --- | --- | --- |
+| adrenochrome      | --- | --- | --- |
+| autophagy         | --- | --- | --- |
+| comt              | --- | --- | --- |
+| neuromelanin      | --- | --- | --- | 
+| oxidative_stress  | --- | --- | --- |
+| yamanaka_factors  | --- | --- | --- |
