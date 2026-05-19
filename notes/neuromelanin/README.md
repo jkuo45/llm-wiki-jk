@@ -5,8 +5,8 @@
 This directory contains a collection of notes exploring the relationship between [[Neuromelanin]], brain aging, and the pathogenesis of [[Parkinson's Disease]].
 
 ## Maintenance
-- **Last Updated:** 08_May_2026 05:45 PM UTC
-- **Total Entities:** 26
+- **Last Updated:** 16_May_2026 12:00 PM UTC
+- **Total Entities:** 28
 
 | entity/term | datetime updated |
 | :--- | :--- |
@@ -36,6 +36,7 @@ This directory contains a collection of notes exploring the relationship between
 | [[Dorsal Motor Nucleus of the Vagus]] | 08_May_2026 05:46 PM UTC |
 | [[Cutaneous Melanoma]] | 08_May_2026 05:46 PM UTC |
 | [[Nigrostriatal System]] | 08_May_2026 05:46 PM UTC |
+| [[Proteostasis]] | 16_May_2026 12:00 PM UTC |
 
 ## Overview
 The central theme of this research is the role of neuromelanin as a key factor in the selective vulnerability of catecholaminergic neurons in Parkinson's disease. While initially a neuroprotective antioxidant, its age-dependent accumulation may eventually cross a [[Pathogenic Threshold of Neuromelanin]], leading to cellular dysfunction and neurodegeneration.
