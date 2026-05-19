@@ -5,10 +5,10 @@
     - Last updated and total count of entities.
 - The timestamp format should be %d_%b_%Y %I:%M %p %Z.
 - If single directory:
-    |entity/term|datetime updated|
+    |entity|datetime updated|
     |------|----------------|
 - If multiple sub-directories:
-    |entity/term|datetime updated|directory|
+    |entity|datetime updated|directory|
     |------|----------------|---------|
 
 ## Linking Format
