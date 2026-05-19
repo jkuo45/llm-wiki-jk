@@ -1,0 +1,13 @@
+# Quality Control
+
+**Quality Control** (QC) is a process by which entities review the quality of all factors involved in production.
+
+## Pharmaceutical Context
+In pharmaceutical manufacturing, QC involves rigorous testing of drug products (like [[Epinephrine]]) for purity, potency, and the presence of degradation products or impurities such as [[Leuco-adrenochrome]] and [[Adrenochrome]].
+
+## Connections
+- [[Reference standard]]
+- [[Impurity marker]]
+- [[Epinephrine]]
+- [[HPLC]]
+- [[LC-MS]]
