@@ -1,0 +1,10 @@
+# Hydrazine
+
+Hydrazine is an inorganic compound with the chemical formula $N_2H_4$. It is a simple pnictogen hydride and a highly reactive base and reducing agent.
+
+In [[Adrenochrome]] chemistry, hydrazine derivatives (such as [[Semicarbazide]] and [[Aminoguanidine]]) are used to stabilize the unstable [[o-quinone]] structure of adrenochrome by forming more stable derivatives like [[Carbazochrome]] and [[Adrenochrome monoaminoguanidine]].
+
+## Connections
+- [[Adrenochrome]]: Stabilized by hydrazine derivatives.
+- [[Semicarbazide]]: A hydrazine-related compound used for stabilization.
+- [[Aminoguanidine]]: A hydrazine-related compound used for stabilization.
