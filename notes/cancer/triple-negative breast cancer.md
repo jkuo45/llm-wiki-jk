@@ -11,4 +11,5 @@
 - [[breast cancer]]: The broader disease category.
 - [[EGFR]]: Often overexpressed in TNBC.
 - [[melittin]]: Shown to selectively induce cell death in TNBC.
+- [[Ivermectin]]: Can restore sensitivity to [[tamoxifen]] in TNBC cells and selectively targets [[Cancer Stem Cells]] in this subtype.
 - [[docetaxel]]: A chemotherapy agent often used in combination treatments.

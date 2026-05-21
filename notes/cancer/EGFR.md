@@ -9,5 +9,6 @@
 ## Connections
 - [[triple-negative breast cancer]]: A subtype often overexpressing EGFR.
 - [[melittin]]: Shown to inhibit EGFR phosphorylation.
+- [[Ivermectin]]: Combined with [[erlotinib]], ivermectin achieves a synergistic killing effect by regulating EGFR activity. It also reverses [[multidrug resistance]] by inhibiting EGFR and the downstream [[ERK]]/[[Akt]]/[[NF-kappa B]] pathway.
 - [[PI3K]]: A downstream signaling component.
 - [[Akt]]: A downstream signaling component.

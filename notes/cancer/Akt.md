@@ -4,9 +4,12 @@
 
 ## Role in Cancer
 - **Survival Pathway**: Part of the [[PI3K]]/Akt/[[mTOR]] axis, which is frequently overactive in cancer.
-- **Inhibition**: [[melittin]] has been shown to inhibit Akt phosphorylation in [[breast cancer]] cells.
+- **Inhibition**: 
+    - [[melittin]] has been shown to inhibit Akt phosphorylation in [[breast cancer]] cells.
+    - [[Ivermectin]] inhibits the Akt/mTOR pathway to induce [[autophagy]] in breast cancer and glioma cells.
 
 ## Connections
 - [[PI3K]]: The upstream activator of Akt.
 - [[mTOR]]: A downstream target of Akt.
 - [[melittin]]: Suppresses Akt signaling in various cancer models.
+- [[Ivermectin]]: Inhibits the Akt pathway, often through the degradation of [[PAK1]].
