@@ -1,0 +1,8 @@
+# Honeybee
+
+The European **honeybee** (*[[Apis mellifera]]*) is a species of honeybee that has been used medicinally for thousands of years. Products derived from honeybees include honey, propolis, and [[Honeybee venom|venom]].
+
+## Connections
+- [[Apis mellifera]]: Scientific name for the European honeybee.
+- [[melittin]]: The major active component of honeybee venom.
+- [[apitherapy]]: The medicinal use of honeybee products.
