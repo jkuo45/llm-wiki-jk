@@ -1,0 +1,8 @@
+# Glutamate-gated Cl- channels
+
+Glutamate-gated chloride channels (GluCls) are the primary target of [[Ivermectin]] and other avermectins in invertebrates. They are not present in vertebrates, which contributes to the safety profile of these drugs in humans.
+
+### Linking Summary:
+- New links added: [[Ivermectin]], [[Avermectin]], [[GABA]]
+- Suggested new entity notes to create: [[Chloride channels]], [[Neurotransmission]]
+- Strong connections to strengthen: [[Glutamate-gated Cl- channels]] ↔ [[Ivermectin]]
