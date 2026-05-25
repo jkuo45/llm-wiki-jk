@@ -1,6 +1,6 @@
 # Aniline dyes
 
-[[Aniline dyes]] are a large group of synthetic dyes derived from aniline. They are known chemical triggers for acquired [[methemoglobinemia]] upon skin contact or ingestion.
+[[Aniline dyes]] are a large group of synthetic dyes derived from aniline. They are known chemical triggers for acquired [[Methemoglobinemia]] upon skin contact or ingestion.
 
 ## Connections
 - [[Methemoglobinemia]]: Associated with exposure to aniline-based chemicals.

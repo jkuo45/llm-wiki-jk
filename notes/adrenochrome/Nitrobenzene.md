@@ -1,6 +1,6 @@
 # Nitrobenzene
 
-[[Nitrobenzene]] is an organic compound used in the production of aniline. It is highly toxic and can cause acquired [[methemoglobinemia]] through skin absorption or inhalation.
+[[Nitrobenzene]] is an organic compound used in the production of aniline. It is highly toxic and can cause acquired [[Methemoglobinemia]] through skin absorption or inhalation.
 
 ## Connections
 - [[Methemoglobinemia]]: A primary symptom of nitrobenzene poisoning.

@@ -1,7 +1,7 @@
 # Rasburicase
 
-[[Rasburicase]] is a medication that helps clear uric acid from the blood. It can cause acquired [[methemoglobinemia]] as a side effect, particularly in susceptible individuals.
+[[Rasburicase]] is a medication that helps clear uric acid from the blood. It can cause acquired [[Methemoglobinemia]] as a side effect, particularly in susceptible individuals.
 
 ## Connections
 - [[Methemoglobinemia]]: A potential adverse effect of Rasburicase.
-- [[G6PD deficiency]]: Contraindicated in patients with this deficiency due to risk of [[hemolysis]] and methemoglobinemia.
+- [[G6PD deficiency]]: Contraindicated in patients with this deficiency due to risk of [[Hemolysis]] and methemoglobinemia.

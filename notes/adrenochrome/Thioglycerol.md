@@ -8,4 +8,4 @@ It serves as an antioxidant stabilizer, potentially replacing sulfites in newer 
 ## Connections
 - [[Antioxidants]]
 - [[Epinephrine]]
-- [[Sodium metabisulfite]]
+- [[Sodium Metabisulfite]]

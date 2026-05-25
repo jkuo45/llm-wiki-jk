@@ -1,6 +1,6 @@
 # Cyanosis
 
-[[Cyanosis]] is a bluish or grayish discoloration of the skin, lips, mucous membranes, and nail beds, caused by an increased amount of deoxygenated [[hemoglobin]] or abnormal hemoglobin variants like [[methemoglobin]] in the blood. It is a hallmark symptom of [[methemoglobinemia]].
+[[Cyanosis]] is a bluish or grayish discoloration of the skin, lips, mucous membranes, and nail beds, caused by an increased amount of deoxygenated [[Hemoglobin]] or abnormal hemoglobin variants like [[Methemoglobin]] in the blood. It is a hallmark symptom of [[Methemoglobinemia]].
 
 ## Connections
 - [[Methemoglobinemia]]: Frequently presents with cyanosis.

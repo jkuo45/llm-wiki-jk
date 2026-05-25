@@ -1,6 +1,6 @@
 # Hemolysis
 
-[[Hemolysis]] is the destruction of [[erythrocytes]] (red blood cells), which leads to the release of [[hemoglobin]] into the surrounding plasma. In the context of [[methemoglobinemia]], hemolysis is a significant risk when treating patients with [[G6PD deficiency]] using [[methylene blue]].
+[[Hemolysis]] is the destruction of [[Erythrocytes]] (red blood cells), which leads to the release of [[Hemoglobin]] into the surrounding plasma. In the context of [[Methemoglobinemia]], hemolysis is a significant risk when treating patients with [[G6PD deficiency]] using [[Methylene blue]].
 
 ## Connections
 - [[G6PD deficiency]]: Patients are prone to trigger-induced hemolysis.

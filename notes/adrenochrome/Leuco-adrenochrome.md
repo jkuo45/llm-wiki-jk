@@ -8,7 +8,7 @@
 - **Nature:** It is the reduced ("leuco" meaning white/colorless) form of [[Adrenochrome]].
 
 ## Formation and Mechanism
-In the [[Catecholamine]] oxidation pathway:
+In the [[Catecholamines]] oxidation pathway:
 1. [[Epinephrine]] is oxidized to [[adrenaline-quinone]].
 2. [[adrenaline-quinone]] undergoes internal cyclization to form **Leuco-adrenochrome**.
 3. Leuco-adrenochrome is then further oxidized to [[Adrenochrome]] (the pink/red colored form).

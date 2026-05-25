@@ -1,6 +1,6 @@
 # Isobutyl nitrite
 
-[[Isobutyl nitrite]] is an alkyl nitrite used recreationally as an inhalant. Like [[amyl nitrite]], it is an oxidizing agent that can trigger severe [[methemoglobinemia]].
+[[Isobutyl nitrite]] is an alkyl nitrite used recreationally as an inhalant. Like [[Amyl nitrite]], it is an oxidizing agent that can trigger severe [[Methemoglobinemia]].
 
 ## Connections
 - [[Methemoglobinemia]]: Induced by inhalation of isobutyl nitrite.

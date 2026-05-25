@@ -1,6 +1,6 @@
 # Prilocaine
 
-[[Prilocaine]] is a local anesthetic of the amino amide group. Like [[benzocaine]], it can cause acquired [[methemoglobinemia]] by oxidizing [[hemoglobin]].
+[[Prilocaine]] is a local anesthetic of the amino amide group. Like [[Benzocaine]], it can cause acquired [[Methemoglobinemia]] by oxidizing [[Hemoglobin]].
 
 ## Connections
 - [[Methemoglobinemia]]: A potential complication of Prilocaine use.

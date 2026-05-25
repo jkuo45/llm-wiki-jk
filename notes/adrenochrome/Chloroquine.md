@@ -1,6 +1,6 @@
 # Chloroquine
 
-[[Chloroquine]] is a medication used primarily for the prevention and treatment of malaria. It is identified as a potential trigger for acquired [[methemoglobinemia]].
+[[Chloroquine]] is a medication used primarily for the prevention and treatment of malaria. It is identified as a potential trigger for acquired [[Methemoglobinemia]].
 
 ## Connections
 - [[Methemoglobinemia]]: A rare but possible side effect of Chloroquine.

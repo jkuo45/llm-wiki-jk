@@ -8,3 +8,5 @@ It is also known for its ability to inhibit the formation of advanced glycation 
 - [[Adrenochrome]]: Stabilized by aminoguanidine to form [[Adrenochrome monoaminoguanidine]].
 - [[Adrenochrome monoaminoguanidine]]: The stable derivative formed.
 - [[Hemostatics]]: The resulting derivative is used as a hemostatic.
+
+---

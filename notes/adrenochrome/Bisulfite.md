@@ -7,6 +7,6 @@ Bisulfites are commonly used as [[Antioxidants]] in [[Epinephrine]] formulations
 
 ## Connections
 - [[Antioxidants]]
-- [[Sodium metabisulfite]]
+- [[Sodium Metabisulfite]]
 - [[Adrenochrome sulfonate]]
 - [[Epinephrine]]

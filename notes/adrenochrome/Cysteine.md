@@ -8,4 +8,4 @@ In some pharmaceutical formulations, cysteine is explored as a sulfite-free alte
 ## Connections
 - [[Antioxidants]]
 - [[Epinephrine]]
-- [[Sodium metabisulfite]]
+- [[Sodium Metabisulfite]]
