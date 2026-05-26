@@ -1,7 +1,7 @@
 # Wiki-style Knowledge Base
 
 ## Maintenance
-- Create or update README.md within the directory of the article/folder.
+- Create or update README.md within the directory of the topic/subtopic folder.
     - Last updated and total count of entities.
 - The timestamp format should be %d_%b_%Y %I:%M %p %Z.
 - If single directory:
@@ -10,6 +10,19 @@
 - If multiple sub-directories:
     |entity|datetime updated|directory|
     |------|----------------|---------|
+- documents start with '[document]' in the file name. Depending on task, they may or may not be included in context.
+- Notes directory is organized by topic. 
+
+## Orphan Link Resolution
+Maintain link integrity by performing periodic audits:
+1.  **Scan & Normalize**:
+        - Identify wiki links `[[Link]]` without matching files.
+    - **Case Sensitivity**: Prefer proper noun spelling (match the filename exactly).
+    - **Pluralization**: If `[[Concept]]` is missing but `[[Concepts]]` exists, update the link.
+2. **Resolve True Orphans**:
+    - Create new Markdown files for missing concepts.
+    - Use a standardized template: `# Title`, a one-sentence context, and a `Linking Summary`.
+3. **Automation**: Use `uv run python3` to perform batch updates to minimize manual errors and ensure workspace-wide consistency.
 
 ## Linking Format
 - Use Obsidian-style wiki links: [[Exact Note Title]] or [[Note Title|Display Text]] when the display text differs.

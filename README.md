@@ -1,28 +1,17 @@
-# llm-wiki-jk (biomedical)
-
-## topics
-| topic             | date created | last updated | count entities |
-| ----------------- | --- | --- | --- |
-| adrenochrome      | --- | --- | --- |
-| autophagy         | --- | --- | --- |
-| comt              | --- | --- | --- |
-| epigenetics       | --- | --- | --- |
-| neuromelanin      | --- | --- | --- | 
-| oxidative_stress  | --- | --- | --- |
-| yamanaka_factors  | --- | --- | --- |
+# llm-wiki-jk
 
 
+## topics (notes directory)
 
-## documents
-
-### adrenochrome
-
-### autophagy
-
-### comt
-
-### neuromelanin
-
-### oxidative_stress
-
-### yamanaka_factors
+| topic            | date created | last updated | count entities | count documents |
+| ---------------- | ------------ | ------------ | -------------- | --------------- |
+| adrenochrome     | ---          | ---          | ---            |                 |
+| autophagy        | ---          | ---          | ---            |                 |
+| comt             | ---          | ---          | ---            |                 |
+| epigenetics      | ---          | ---          | ---            |                 |
+| neuromelanin     | ---          | ---          | ---            |                 |
+| oxidative_stress | ---          | ---          | ---            |                 |
+| yamanaka_factors | ---          | ---          | ---            |                 |
+| cancer           | ---          | ---          | ---            |                 |
+| autism           | ---          | ---          | ---            |                 |
+## document list

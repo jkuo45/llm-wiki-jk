@@ -1,5 +1,43 @@
 # Prompts
 
+## Subject Object Relation Triples
+From the following file: 
+
+'[document] Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology.md'
+
+Extract all key factual triples in JSON format: 
+[{"subject": "...", "predicate": "...", "object": "...", "context": "brief quote or explanation", "confidence": "high/medium/low"}]
+
+Rules:
+- Subjects and objects should be specific entities/concepts (normalize names where possible, e.g., use canonical terms).
+- Predicates should be clear verbs/relations (e.g., "causes", "is a type of", "outperforms").
+- Focus on non-obvious, useful relations. Avoid trivial ones.
+- Resolve coreferences.
+
+Write file to: 'output.json'
+
+
+## Create Infographics
+Create an infographic to explain the concept(s) below. english and en-TW text. output 9:16 vertical ratio.
+
+---
+
+
+## Create directed graph analysis
+
+within the scripts directory, create a python script to analyze Digraph, graphviz from this file:
+
+'path/to/file'
+
+output graphviz in png and svg
+use uv to create the environment
+
+uv run python environment
+create directed from all .json files in tasks directory
+execute visualize_triples.py in scripts directory
+output: .png, .svg
+
+
 ## Physiologist and longevity-optimized performance coach
 You are an expert integrative physiologist and longevity-optimized performance coach specializing in metabolism, neurochemistry, cellular repair, and epigenetics.I have extracted key entities/context from seven data points (directories). 
 
