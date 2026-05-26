@@ -12,6 +12,7 @@
     |------|----------------|---------|
 - documents start with '[document]' in the file name. Depending on task, they may or may not be included in context.
 - Notes directory is organized by topic. 
+- uv for python environments
 
 ## Orphan Link Resolution
 Maintain link integrity by performing periodic audits:
