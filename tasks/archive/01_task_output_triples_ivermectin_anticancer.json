@@ -1,0 +1,212 @@
+[
+  {
+    "subject": "Ivermectin",
+    "predicate": "is a type of",
+    "object": "macrolide antiparasitic drug",
+    "context": "Ivermectin is a macrolide antiparasitic drug with a 16-membered ring widely used for parasitic diseases.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "is derived from",
+    "object": "avermectin",
+    "context": "Ivermectin (IVM) is derived from avermectin and composed of 22,23-dihydroavermectin-B1a and -B1b.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Satoshi Ōmura",
+    "predicate": "won",
+    "object": "2015 Nobel Prize in Physiology or Medicine",
+    "context": "Satoshi Ōmura and William C. Campbell won the 2015 Nobel Prize for the discovery of ivermectin.",
+    "confidence": "high"
+  },
+  {
+    "subject": "William C. Campbell",
+    "predicate": "won",
+    "object": "2015 Nobel Prize in Physiology or Medicine",
+    "context": "Satoshi Ōmura and William C. Campbell won the 2015 Nobel Prize for the discovery of ivermectin.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "inhibits",
+    "object": "proliferation of cancer cells",
+    "context": "Ivermectin has powerful antitumor effects, including the inhibition of proliferation in a variety of cancer cells.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "regulates",
+    "object": "PAK1",
+    "context": "Ivermectin regulates multiple signaling pathways through PAK1 kinase.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "promotes",
+    "object": "programmed cell death",
+    "context": "Ivermectin promotes programmed cancer cell death, including apoptosis, autophagy, and pyroptosis.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "reverses",
+    "object": "Multidrug Resistance",
+    "context": "Ivermectin can inhibit Cancer Stem Cells and reverse Multidrug Resistance (MDR).",
+    "confidence": "high"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "targets",
+    "object": "Cancer Stem Cells",
+    "context": "Ivermectin preferentially targets and inhibits Cancer Stem Cells (CSCs).",
+    "confidence": "high"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "inhibits",
+    "object": "Akt/mTOR pathway",
+    "context": "The mechanism involves the inhibition of the Akt/mTOR pathway to induce autophagy.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "inhibits",
+    "object": "Wnt pathway",
+    "context": "Ivermectin inhibits cancer growth by blocking the Wnt signaling pathway.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "inhibits",
+    "object": "YAP1",
+    "context": "The inhibitory effect of ivermectin can depend on the expression of Yes-associated protein 1 (YAP1).",
+    "confidence": "high"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "induces",
+    "object": "mitochondrial dysfunction",
+    "context": "Ivermectin inhibits proliferation through the induction of mitochondrial dysfunction and oxidative stress.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "inhibits",
+    "object": "P-glycoprotein",
+    "context": "Ivermectin reverses drug resistance by inhibiting P-glycoprotein (P-gp) and MDR-associated proteins.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "inhibits",
+    "object": "HSP27 phosphorylation",
+    "context": "Ivermectin acts as an inhibitor of HSP27 phosphorylation to enhance the activity of anti-EGFR drugs.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "activates",
+    "object": "glutamate-gated chloride channels",
+    "context": "Ivermectin activates glutamate-gated chloride channels in parasites, causing neuronal hyperpolarization.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "inhibits",
+    "object": "NS3 helicase",
+    "context": "Ivermectin can inhibit the replication of flavivirus by targeting the NS3 helicase.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "restores sensitivity to",
+    "object": "tamoxifen",
+    "context": "Ivermectin restored the sensitivity of triple-negative breast cancer cells to tamoxifen.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "enhances efficacy of",
+    "object": "cisplatin",
+    "context": "Ivermectin augments the efficacy of cisplatin in epithelial ovarian cancer by suppressing Akt/mTOR signaling.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "synergizes with",
+    "object": "paclitaxel",
+    "context": "Ivermectin and paclitaxel have a synergistic effect on ovarian cancer growth inhibition.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "inhibits",
+    "object": "angiogenesis",
+    "context": "Ivermectin induces apoptosis of microvascular endothelial cells and inhibits tumor angiogenesis.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "inhibits",
+    "object": "metastasis",
+    "context": "Ivermectin suppresses metastatic activity in a variety of cancer cells.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "is a",
+    "object": "SIN3-interaction domain mimic",
+    "context": "Ivermectin functions as a SIN3-interaction domain (SID) mimic to block SID-paired a-helix2 interaction.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "induces",
+    "object": "Reactive Oxygen Species production",
+    "context": "Ivermectin induces apoptosis by causing an influx of chloride ions and induction of ROS production.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "inhibits",
+    "object": "KPNB1",
+    "context": "Ivermectin can block the cell cycle and induce apoptosis through a KPNB1-dependent mechanism in ovarian cancer.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "inhibits",
+    "object": "DDX23/miR-12 signaling pathway",
+    "context": "Ivermectin could inhibit the DDX23/miR-12 signaling pathway by affecting the activity of DDX23 helicase.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "activates",
+    "object": "nuclear translocation of TFE3",
+    "context": "Ivermectin could activate the nuclear translocation of TFE3 and induce autophagy-dependent cell death.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "enhances drug activity of",
+    "object": "enzalutamide",
+    "context": "Ivermectin could enhance the drug activity of the anti-androgen drug enzalutamide in prostate cancer.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "reverses resistance to",
+    "object": "docetaxel",
+    "context": "Ivermectin reverses the resistance of the prostate cancer cell line PC3 to docetaxel.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "reverses resistance to",
+    "object": "gemcitabine",
+    "context": "Gemcitabine-resistant KKU214 cells showed high sensitivity to ivermectin.",
+    "confidence": "high"
+  }
+]
