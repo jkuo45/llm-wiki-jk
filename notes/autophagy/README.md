@@ -3,8 +3,8 @@
 This directory contains notes and articles related to [[Autophagy]] and its role in [[Aging]], [[Immune System]] function, and age-related diseases.
 
 ## Maintenance
-- Last updated: 25_May_2026 10:00 AM PDT
-- Total count of entities: 74
+- Last updated: 25_May_2026 11:00 AM PDT
+- Total count of entities: 90
 
 |entity/term|datetime updated|
 |------|----------------|
@@ -12,33 +12,45 @@ This directory contains notes and articles related to [[Autophagy]] and its role
 |Aging|25_May_2026 10:00 AM PDT|
 |Akt|15_May_2026 01:45 PM PDT|
 |Alzheimer's Disease|15_May_2026 01:45 PM PDT|
+|Ambra-1|25_May_2026 11:00 AM PDT|
 |AMPK|25_May_2026 10:00 AM PDT|
 |Apoptosis|25_May_2026 10:00 AM PDT|
 |Atg5|15_May_2026 01:25 PM PDT|
 |Atg7|15_May_2026 01:45 PM PDT|
 |Atg8|15_May_2026 01:45 PM PDT|
 |Atg12|15_May_2026 01:45 PM PDT|
+|Atg13|25_May_2026 11:00 AM PDT|
 |Atg16|15_May_2026 01:45 PM PDT|
+|Atg101|25_May_2026 11:00 AM PDT|
 |Autophagosome|15_May_2026 01:45 PM PDT|
+|Autophagy and intermittent fasting the connection for cancer therapy?|25_May_2026 11:00 AM PDT|
 |Autophagy Inducer|15_May_2026 01:25 PM PDT|
 |Autophagy takes it all – autophagy inducers target immune aging|15_May_2026 01:21 PM PDT|
 |Autophagic Flux|25_May_2026 10:00 AM PDT|
 |B Cell|25_May_2026 10:00 AM PDT|
 |Beclin1|15_May_2026 01:45 PM PDT|
+|BRCA1|25_May_2026 11:00 AM PDT|
 |Breast Cancer|15_May_2026 01:45 PM PDT|
 |Caloric Restriction|15_May_2026 01:45 PM PDT|
+|Caloric Restriction Mimetics|25_May_2026 11:00 AM PDT|
 |Cancer|25_May_2026 10:00 AM PDT|
 |Cardiovascular Disease|15_May_2026 01:45 PM PDT|
 |CD8+ T Cell|15_May_2026 01:45 PM PDT|
+|CD73|25_May_2026 11:00 AM PDT|
 |Chaperone-Mediated Autophagy|15_May_2026 01:45 PM PDT|
+|Cisplatin|25_May_2026 11:00 AM PDT|
 |Colorectal Cancer|15_May_2026 01:45 PM PDT|
+|Dietary Restriction|25_May_2026 11:00 AM PDT|
 |eIF5A|15_May_2026 01:25 PM PDT|
+|FIP200|25_May_2026 11:00 AM PDT|
 |FOXO1|15_May_2026 01:45 PM PDT|
 |FOXO3a|15_May_2026 01:45 PM PDT|
 |FOXO4|15_May_2026 01:45 PM PDT|
 |Foxp3|15_May_2026 01:25 PM PDT|
 |Hematopoietic Stem Cell|15_May_2026 01:45 PM PDT|
+|HIF1A|25_May_2026 11:00 AM PDT|
 |Huntington's Disease|15_May_2026 01:45 PM PDT|
+|Hypoxia|25_May_2026 11:00 AM PDT|
 |IGF1|15_May_2026 01:45 PM PDT|
 |Immune Aging|15_May_2026 01:21 PM PDT|
 |Immunometabolism|15_May_2026 01:25 PM PDT|
@@ -66,6 +78,8 @@ This directory contains notes and articles related to [[Autophagy]] and its role
 |Polyamine|15_May_2026 01:25 PM PDT|
 |Rapalog|15_May_2026 01:25 PM PDT|
 |Rapamycin|25_May_2026 10:00 AM PDT|
+|RAS|25_May_2026 11:00 AM PDT|
+|ROS|25_May_2026 11:00 AM PDT|
 |Selective Autophagy|15_May_2026 01:25 PM PDT|
 |Senescence|25_May_2026 10:00 AM PDT|
 |Senescence-Associated Beta-Galactosidase|15_May_2026 01:25 PM PDT|
@@ -78,6 +92,8 @@ This directory contains notes and articles related to [[Autophagy]] and its role
 |T Cell|25_May_2026 10:00 AM PDT|
 |TAME Trial|15_May_2026 01:25 PM PDT|
 |TFEB|15_May_2026 01:25 PM PDT|
+|TP53|25_May_2026 11:00 AM PDT|
 |The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|15_May_2026 01:45 PM PDT|
 |Thymic Involution|15_May_2026 01:25 PM PDT|
 |ULK1|15_May_2026 01:45 PM PDT|
+|Yoshinori Ohsumi|25_May_2026 11:00 AM PDT|
