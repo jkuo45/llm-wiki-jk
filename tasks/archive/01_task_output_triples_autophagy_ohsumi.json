@@ -1,0 +1,152 @@
+[
+  {
+    "subject": "Autophagy",
+    "predicate": "is",
+    "object": "evolutionarily conserved lysosomal catabolic process"
+  },
+  {
+    "subject": "Yoshinori Ohsumi",
+    "predicate": "elucidated",
+    "object": "morphological and molecular mechanisms of autophagy"
+  },
+  {
+    "subject": "Microautophagy",
+    "predicate": "involves",
+    "object": "direct engulfment of cargo in endosomal/lysosomal membrane invaginations"
+  },
+  {
+    "subject": "Chaperone-Mediated Autophagy",
+    "predicate": "recycles",
+    "object": "soluble proteins with KFERQ motif"
+  },
+  {
+    "subject": "Macroautophagy",
+    "predicate": "involves",
+    "object": "engulfment of constituents within autophagosomes"
+  },
+  {
+    "subject": "Autophagosome",
+    "predicate": "fuses with",
+    "object": "lysosome"
+  },
+  {
+    "subject": "Autophagy",
+    "predicate": "is upregulated by",
+    "object": "hypoxia"
+  },
+  {
+    "subject": "Autophagy",
+    "predicate": "is upregulated by",
+    "object": "nutritional deprivation"
+  },
+  {
+    "subject": "Autophagy",
+    "predicate": "is upregulated by",
+    "object": "DNA damage"
+  },
+  {
+    "subject": "mTOR",
+    "predicate": "regulates",
+    "object": "autophagy"
+  },
+  {
+    "subject": "AMPK",
+    "predicate": "regulates",
+    "object": "autophagy"
+  },
+  {
+    "subject": "HIFs",
+    "predicate": "regulates",
+    "object": "autophagy"
+  },
+  {
+    "subject": "ULK1 complex",
+    "predicate": "signals for",
+    "object": "autophagosome nucleation"
+  },
+  {
+    "subject": "PI3K III complex",
+    "predicate": "controls",
+    "object": "autophagosome nucleation"
+  },
+  {
+    "subject": "BECN1",
+    "predicate": "encodes",
+    "object": "Beclin-1 protein"
+  },
+  {
+    "subject": "BECN1",
+    "predicate": "is monoallelically deleted in",
+    "object": "ovarian cancer"
+  },
+  {
+    "subject": "BECN1",
+    "predicate": "is monoallelically deleted in",
+    "object": "breast cancer"
+  },
+  {
+    "subject": "BECN1",
+    "predicate": "is located adjacent to",
+    "object": "BRCA1"
+  },
+  {
+    "subject": "Autophagy",
+    "predicate": "suppresses",
+    "object": "tumorigenesis"
+  },
+  {
+    "subject": "Autophagy",
+    "predicate": "enables",
+    "object": "cancer cell adaptation"
+  },
+  {
+    "subject": "Autophagy",
+    "predicate": "favors",
+    "object": "tumor survival in hypoxia"
+  },
+  {
+    "subject": "Dietary Restriction",
+    "predicate": "reduces",
+    "object": "tumor incidence"
+  },
+  {
+    "subject": "Intermittent Fasting",
+    "predicate": "improves",
+    "object": "chemotherapeutic response"
+  },
+  {
+    "subject": "Intermittent Fasting",
+    "predicate": "reduces",
+    "object": "glucose levels"
+  },
+  {
+    "subject": "Intermittent Fasting",
+    "predicate": "reduces",
+    "object": "IGF-1 levels"
+  },
+  {
+    "subject": "Intermittent Fasting",
+    "predicate": "inhibits",
+    "object": "M2 polarization of macrophages"
+  },
+  {
+    "subject": "Intermittent Fasting",
+    "predicate": "downregulates",
+    "object": "CD73"
+  },
+  {
+    "subject": "Caloric Restriction Mimetics",
+    "predicate": "mimic",
+    "object": "biochemical effects of caloric restriction"
+  },
+  {
+    "subject": "Metformin",
+    "predicate": "is a",
+    "object": "caloric restriction mimetic"
+  },
+  {
+    "subject": "Spermidine",
+    "predicate": "is a",
+    "object": "caloric restriction mimetic"
+  }
+]

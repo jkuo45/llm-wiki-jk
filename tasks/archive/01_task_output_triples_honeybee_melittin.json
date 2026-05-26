@@ -1,0 +1,179 @@
+[
+  {
+    "subject": "Honeybee venom",
+    "predicate": "contains",
+    "object": "melittin",
+    "context": "The active component of honeybee venom is melittin, comprising half of honeybee venom by dry weight.",
+    "confidence": "high"
+  },
+  {
+    "subject": "melittin",
+    "predicate": "induces cell death in",
+    "object": "triple-negative breast cancer",
+    "context": "honeybee venom and its major component melittin potently induce cell death, particularly in the aggressive triple-negative and HER2-enriched breast cancer subtypes.",
+    "confidence": "high"
+  },
+  {
+    "subject": "melittin",
+    "predicate": "induces cell death in",
+    "object": "HER2-enriched breast cancer",
+    "context": "honeybee venom and its major component melittin potently induce cell death, particularly in the aggressive triple-negative and HER2-enriched breast cancer subtypes.",
+    "confidence": "high"
+  },
+  {
+    "subject": "melittin",
+    "predicate": "suppresses activation of",
+    "object": "EGFR",
+    "context": "Honeybee venom and melittin suppress the activation of EGFR and HER2 by interfering with the phosphorylation of these receptors.",
+    "confidence": "high"
+  },
+  {
+    "subject": "melittin",
+    "predicate": "suppresses activation of",
+    "object": "HER2",
+    "context": "Honeybee venom and melittin suppress the activation of EGFR and HER2 by interfering with the phosphorylation of these receptors.",
+    "confidence": "high"
+  },
+  {
+    "subject": "melittin",
+    "predicate": "interferes with phosphorylation of",
+    "object": "EGFR",
+    "context": "Honeybee venom and melittin suppress the activation of EGFR and HER2 by interfering with the phosphorylation of these receptors.",
+    "confidence": "high"
+  },
+  {
+    "subject": "melittin",
+    "predicate": "interferes with phosphorylation of",
+    "object": "HER2",
+    "context": "Honeybee venom and melittin suppress the activation of EGFR and HER2 by interfering with the phosphorylation of these receptors.",
+    "confidence": "high"
+  },
+  {
+    "subject": "melittin",
+    "predicate": "forms",
+    "object": "transmembrane toroidal pores",
+    "context": "Melittin... causing cell death by forming ~4.4 nm-diameter transmembrane toroidal pores.",
+    "confidence": "high"
+  },
+  {
+    "subject": "melittin",
+    "predicate": "inhibits",
+    "object": "PI3K/Akt/mTOR axis",
+    "context": "The majority of the antineoplastic activity of honeybee venom has been attributed to melittin through inhibition of the PI3K/Akt/mTOR axis in breast cancer.",
+    "confidence": "high"
+  },
+  {
+    "subject": "melittin",
+    "predicate": "inhibits",
+    "object": "MAPK",
+    "context": "Melittin... through inhibition of... MAPK in melanoma.",
+    "confidence": "high"
+  },
+  {
+    "subject": "melittin",
+    "predicate": "inhibits",
+    "object": "JAK2/STAT3",
+    "context": "Melittin... through inhibition of... JAK2/STAT3 in ovarian cancer.",
+    "confidence": "high"
+  },
+  {
+    "subject": "melittin",
+    "predicate": "inhibits",
+    "object": "NFκB",
+    "context": "Melittin... through inhibition of... NFκB signaling pathways in lung carcinoma cells.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Bumblebee venom",
+    "predicate": "does not contain",
+    "object": "melittin",
+    "context": "In contrast to honeybee venom, bumblebee (Bombus terrestris) venom does not contain melittin.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Bumblebee venom",
+    "predicate": "contains",
+    "object": "phospholipase A2",
+    "context": "bumblebee... venom... contains secretory phospholipase A2.",
+    "confidence": "high"
+  },
+  {
+    "subject": "RGD motif",
+    "predicate": "enhances targeting of",
+    "object": "melittin",
+    "context": "Engineering of an RGD motif further enhances targeting of melittin to malignant cells with minimal toxicity to normal cells.",
+    "confidence": "high"
+  },
+  {
+    "subject": "melittin",
+    "predicate": "sensitizes",
+    "object": "triple-negative breast cancer",
+    "predicate_modifier": "to",
+    "object_modifier": "docetaxel",
+    "context": "melittin sensitizes T11 [TNBC] cells to docetaxel treatment.",
+    "confidence": "high"
+  },
+  {
+    "subject": "melittin",
+    "predicate": "reduces expression of",
+    "object": "PD-L1",
+    "context": "melittin significantly reduced PD-L1 expression in tumors when used alone or with the combination treatment.",
+    "confidence": "high"
+  },
+  {
+    "subject": "melittin",
+    "predicate": "downregulates",
+    "object": "Akt signaling",
+    "context": "Honeybee venom and melittin... modulate the associated PI3K-/Akt and MAPK signaling pathways... melittin treatment in SKBR3 cells strongly downregulated... p-Akt.",
+    "confidence": "high"
+  },
+  {
+    "subject": "melittin",
+    "predicate": "does not bind to",
+    "object": "EGF-binding site of EGFR",
+    "context": "BRET data indicate that melittin may be positioned at a distance within 10 nm from RTKs without interfering with the endogenous growth factor-binding site.",
+    "confidence": "high"
+  },
+  {
+    "subject": "melittin",
+    "predicate": "synergizes with",
+    "object": "docetaxel",
+    "context": "We observed CIs < 1 for all the concentrations tested, indicating strong synergistic interactions [between melittin and docetaxel].",
+    "confidence": "high"
+  },
+  {
+    "subject": "melittin",
+    "predicate": "synergizes with",
+    "object": "cisplatin",
+    "context": "Synergisms were also observed with cisplatin, an agent used to treat TNBCs in the clinic.",
+    "confidence": "high"
+  },
+  {
+    "subject": "C-terminal sequence of melittin",
+    "predicate": "mediates",
+    "object": "plasma membrane interaction",
+    "context": "Mutational studies reveal that a positively charged C-terminal melittin sequence mediates plasma membrane interaction and anticancer activity.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Honeybee venom",
+    "predicate": "induces",
+    "object": "apoptosis",
+    "context": "Honeybee venom and melittin also induced apoptosis in MCF7 cells.",
+    "confidence": "high"
+  },
+  {
+    "subject": "melittin",
+    "predicate": "induces",
+    "object": "cleaved caspase-3",
+    "context": "Immunoblotting confirmed the induction of cleaved caspase-3 in SUM159 cells [by melittin].",
+    "confidence": "high"
+  },
+  {
+    "subject": "melittin",
+    "predicate": "reduces",
+    "object": "tumor cell proliferation",
+    "context": "A significant reduction in tumor cell proliferation (as assessed by Ki-67 expression) was found in the tumors treated with the combination of melittin and docetaxel.",
+    "confidence": "high"
+  }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "subject": "Fenbendazole",
+    "predicate": "is a type of",
+    "object": "Benzimidazole",
+    "context": "Fenbendazole is a Benzimidazole anthelmintic agent commonly used to treat animal parasitic infections.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Fenbendazole",
+    "predicate": "treats",
+    "object": "animal parasitic infections",
+    "context": "Fenbendazole is a Benzimidazole anthelmintic agent commonly used to treat animal parasitic infections.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Mebendazole",
+    "predicate": "is used as",
+    "object": "antiparasitic agent",
+    "context": "In humans, other benzimidazoles, such as Mebendazole and Albendazole, are used as antiparasitic agents.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Albendazole",
+    "predicate": "is used as",
+    "object": "antiparasitic agent",
+    "context": "In humans, other benzimidazoles, such as Mebendazole and Albendazole, are used as antiparasitic agents.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Fenbendazole",
+    "predicate": "is not approved by",
+    "object": "FDA",
+    "context": "Since fenbendazole is not currently approved by the FDA or EMA, its pharmacokinetics and safety in humans have yet to be well-documented.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Fenbendazole",
+    "predicate": "is not approved by",
+    "object": "EMA",
+    "context": "Since fenbendazole is not currently approved by the FDA or EMA, its pharmacokinetics and safety in humans have yet to be well-documented.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Fenbendazole",
+    "predicate": "inhibits",
+    "object": "Glycolysis",
+    "context": "This review focuses on the ... promising anticancer biological activities, such as inhibiting Glycolysis.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Fenbendazole",
+    "predicate": "down-regulates",
+    "object": "Glucose uptake",
+    "context": "This review focuses on the ... promising anticancer biological activities, such as ... down-regulating Glucose uptake.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Fenbendazole",
+    "predicate": "induces",
+    "object": "Oxidative Stress",
+    "context": "This review focuses on the ... promising anticancer biological activities, such as ... inducing Oxidative Stress.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Fenbendazole",
+    "predicate": "enhances",
+    "object": "Apoptosis",
+    "context": "This review focuses on the ... promising anticancer biological activities, such as ... enhancing Apoptosis.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Fenbendazole",
+    "predicate": "destabilizes",
+    "object": "Microtubule",
+    "context": "Fenbendazole acts as a moderate Microtubule destabilizing agent and causes cancer cell death.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Fenbendazole",
+    "predicate": "suppresses growth of",
+    "object": "H4IIE Hepatocellular Carcinoma cells",
+    "context": "Fenbendazole suppresses growth and induces Apoptosis of actively growing H4IIE Hepatocellular Carcinoma cells via p21-mediated cell-cycle arrest.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Fenbendazole",
+    "predicate": "induces",
+    "object": "p21-mediated cell-cycle arrest",
+    "context": "Fenbendazole suppresses growth and induces Apoptosis of actively growing H4IIE Hepatocellular Carcinoma cells via p21-mediated cell-cycle arrest.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Fenbendazole",
+    "predicate": "has anti-cancer effects on",
+    "object": "5-fluorouracil-resistant Colorectal Cancer cells",
+    "context": "Anti-cancer effects of Fenbendazole on 5-fluorouracil-resistant Colorectal Cancer cells.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Fenbendazole-incorporated PLGA nanoparticles",
+    "predicate": "show anti-cancer effect in",
+    "object": "ovarian cancer",
+    "context": "Anti-cancer effect of Fenbendazole-incorporated PLGA nanoparticles in ovarian cancer.",
+    "confidence": "high"
+  },
+  {
+    "subject": "CYP2J2",
+    "predicate": "metabolizes",
+    "object": "Fenbendazole",
+    "context": "CYP2J2 and CYP2C19 are the major enzymes responsible for metabolism of albendazole and fenbendazole in human liver microsomes.",
+    "confidence": "high"
+  },
+  {
+    "subject": "CYP2C19",
+    "predicate": "metabolizes",
+    "object": "Fenbendazole",
+    "context": "CYP2J2 and CYP2C19 are the major enzymes responsible for metabolism of albendazole and fenbendazole in human liver microsomes.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Fenbendazole",
+    "predicate": "attenuates",
+    "object": "bleomycin-induced pulmonary fibrosis",
+    "context": "Fenbendazole attenuates bleomycin-induced pulmonary fibrosis in mice via suppression of fibroblast-to-myofibroblast differentiation.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Fenbendazole",
+    "predicate": "modulates",
+    "object": "MEK3/6-p38-MAPK pathway",
+    "context": "Fenbendazole and its synthetic analog interfere with HeLa cells\u2019 proliferation and energy metabolism via inducing oxidative stress and modulating MEK3/6-p38-MAPK pathway.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Fenbendazole",
+    "predicate": "has treatment potential for",
+    "object": "diffuse large b-cell lymphoma",
+    "context": "Fenbendazole as a treatment for diffuse large b-cell lymphoma.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Fenbendazole self-administration",
+    "predicate": "causes",
+    "object": "Drug-induced liver injury",
+    "context": "Severe drug-induced liver injury due to self-administration of the veterinary anthelmintic medication, fenbendazole.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Fenbendazole",
+    "predicate": "has antitumorigenic effect when combined with",
+    "object": "supplementary vitamins",
+    "context": "Unexpected antitumorigenic effect of fenbendazole when combined with supplementary vitamins.",
+    "confidence": "high"
+  },
+  {
+    "subject": "methyl-\u03b2-cyclodextrin inclusion complexes",
+    "predicate": "improve bioavailability of",
+    "object": "Fenbendazole",
+    "context": "Preparation and evaluation of Fenbendazole methyl-\u03b2-cyclodextrin inclusion complexes.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Cocrystals of Fenbendazole",
+    "predicate": "enhance",
+    "object": "in vitro dissolution performance",
+    "context": "Cocrystals of Fenbendazole with enhanced in vitro dissolution performance.",
+    "confidence": "high"
+  }
+]

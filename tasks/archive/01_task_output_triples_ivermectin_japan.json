@@ -1,0 +1,177 @@
+[
+  {
+    "subject": "Ivermectin",
+    "predicate": "is a derivative of",
+    "object": "Avermectin",
+    "context": "Ivermectin, a dihydro derivative of avermectin",
+    "confidence": "high"
+  },
+  {
+    "subject": "Avermectin",
+    "predicate": "originates from",
+    "object": "Streptomyces avermictinius",
+    "context": "originating solely from a single microorganism isolated at the Kitasato Institute... genetic analysis, and mapping of Streptomyces avermictinius",
+    "confidence": "high"
+  },
+  {
+    "subject": "Satoshi Ōmura",
+    "predicate": "collaborated with",
+    "object": "Merck & Co. Inc.",
+    "context": "a novel international Public Sector–Private Sector partnership was initiated by one of us (Ōmura... forming a collaboration with the US-based Merck & Co. Inc.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "acts as",
+    "object": "Endectocide",
+    "context": "It was the world’s first endectocide, forerunner of a completely new class of antiparasitic agents",
+    "confidence": "high"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "treats",
+    "object": "Onchocerciasis",
+    "context": "Ivermectin is the essential mainstay of two global disease elimination campaigns... Onchocerciasis and Lymphatic Filariasis",
+    "confidence": "high"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "treats",
+    "object": "Lymphatic Filariasis",
+    "context": "Ivermectin is the essential mainstay of two global disease elimination campaigns... Onchocerciasis and Lymphatic Filariasis",
+    "confidence": "high"
+  },
+  {
+    "subject": "Onchocerciasis",
+    "predicate": "is caused by",
+    "object": "Onchocerca volvulus",
+    "context": "Onchocerciasis (or River Blindness), a chronic human filarial disease caused by infection with Onchocerca volvulus worms",
+    "confidence": "high"
+  },
+  {
+    "subject": "Onchocerca volvulus",
+    "predicate": "is transmitted by",
+    "object": "Simulium",
+    "context": "The parasites are transmitted via the bite of infected blackflies of the genus Simulium",
+    "confidence": "high"
+  },
+  {
+    "subject": "Mectizan",
+    "predicate": "is a brand name of",
+    "object": "Ivermectin",
+    "context": "registration of Ivermectin (produced under the brand name Mectizan)",
+    "confidence": "high"
+  },
+  {
+    "subject": "Merck & Co. Inc.",
+    "predicate": "donated",
+    "object": "Mectizan",
+    "context": "Mectizan was donated by the manufacturing company, Merck & Co. Inc., to treat onchocerciasis in all endemic countries",
+    "confidence": "high"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "targets",
+    "object": "Glutamate-gated Cl- channels",
+    "context": "they discovered that it was in fact glutamate-gated Cl− channels (GUCl−) that were the target of Ivermectin",
+    "confidence": "high"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "fails to cross",
+    "object": "Blood-brain barrier",
+    "context": "it cannot cross the blood-brain barrier into the mammalian Central Nervous System",
+    "confidence": "high"
+  },
+  {
+    "subject": "Lymphatic Filariasis",
+    "predicate": "is caused by",
+    "object": "Wuchereria bancrofti",
+    "context": "The disease results from infection with filarial worms, Wuchereria bancrofti, Brugia malayi or B. timori",
+    "confidence": "high"
+  },
+  {
+    "subject": "Lymphatic Filariasis",
+    "predicate": "is caused by",
+    "object": "Brugia malayi",
+    "context": "The disease results from infection with filarial worms, Wuchereria bancrofti, Brugia malayi or B. timori",
+    "confidence": "high"
+  },
+  {
+    "subject": "GlaxoSmithKline",
+    "predicate": "donated",
+    "object": "Albendazole",
+    "context": "GlaxoSmithKline agreeing to donate Albendazole",
+    "confidence": "high"
+  },
+  {
+    "subject": "William C. Campbell",
+    "predicate": "identified activity against",
+    "object": "Onchocerca cervicalis",
+    "context": "William Campbell found that the drug... was effective against skin-dwelling Microfilariae of Onchocerca cervicalis in horses",
+    "confidence": "high"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "inhibits",
+    "object": "Microfilarial release",
+    "context": "inhibiting adult female worms from releasing additional Microfilariae",
+    "confidence": "high"
+  },
+  {
+    "subject": "Mectizan Donation Program",
+    "predicate": "was established by",
+    "object": "Merck & Co. Inc.",
+    "context": "Mectizan Donation Program (MDP) established and funded by Merck",
+    "confidence": "high"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "treats",
+    "object": "Strongyloidiasis",
+    "context": "It is used to treat a variety of internal nematode infections, including... Strongyloidiasis",
+    "confidence": "high"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "treats",
+    "object": "Scabies",
+    "context": "oral treatment of ectoparasitic infections, such as... Scabies",
+    "confidence": "high"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "outperforms",
+    "object": "Diethylcarbamazine",
+    "context": "Ivermectin is superior, virtually eliminating all Microfilariae and maintaining that status for some 90 days, whereas the effect of DEC wanes after little more than a week",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Diethylcarbamazine",
+    "predicate": "causes",
+    "object": "Hypersensitivity reactions",
+    "context": "DEC... caused violent and even dangerous hypersensitivity reactions in the human host",
+    "confidence": "high"
+  },
+  {
+    "subject": "Suramin",
+    "predicate": "kills",
+    "object": "Adult worms",
+    "context": "Suramin... was the only drug considered for killing adult worms",
+    "confidence": "high"
+  },
+  {
+    "subject": "Onchocerca ochengi",
+    "predicate": "is a cattle relative of",
+    "object": "Onchocerca volvulus",
+    "context": "the closest relative to the human parasite is O. ochengi, found in cattle",
+    "confidence": "high"
+  },
+  {
+    "subject": "Ivermectin",
+    "predicate": "was introduced for human use in",
+    "object": "1988",
+    "context": "Ivermectin proved to be even more of a ‘Wonder drug’ in human health... ever since it was first used to treat onchocerciasis in humans in 1988",
+    "confidence": "high"
+  }
+]
