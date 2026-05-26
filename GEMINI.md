@@ -3,16 +3,17 @@
 ## Maintenance
 - Create or update README.md within the directory of the topic/subtopic folder.
     - Last updated and total count of entities.
-- The timestamp format should be %d_%b_%Y %I:%M %p %Z.
+- Project timestamp format %d_%b_%Y %I:%M %p %Z.
 - If single directory:
     |entity|datetime updated|
     |------|----------------|
 - If multiple sub-directories:
     |entity|datetime updated|directory|
     |------|----------------|---------|
-- documents start with '[document]' in the file name. Depending on task, they may or may not be included in context.
-- Notes directory is organized by topic. 
-- uv for python environments
+- documents start with '[document]' in the file name. Depending on task, they may or may not be included in context, counts.
+- notes directory is organized by topic. 
+    - each markdown file within that topic can be counted as a single entity.
+- uv for python environments and executables
 
 ## Orphan Link Resolution
 Maintain link integrity by performing periodic audits:
