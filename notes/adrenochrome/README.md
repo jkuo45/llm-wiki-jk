@@ -29,17 +29,18 @@ To maintain consistency, all entity notes should include an `entity_type` field.
 | **Person** | Historical or scientific figures. | [[Abram Hoffer]], [[Humphry Osmond]] |
 
 ## Maintenance
-- Last updated: 25_May_2026 11:13 AM PDT
-- Total count of entities: 118
+- Last updated: 25_May_2026 11:30 AM PDT
+- Total count of entities: 127
 
 | entity                               | datetime updated         | entity_type            | entity_relevance_score | entity_sentiment_score |
 | :----------------------------------- | :----------------------- | :--------------------- | :--------------------: | :--------------------: |
 | [[ABG]]                              | 20_May_2026 03:15 PM PDT | Diagnostic Test        |           4            |           0            |
+| [[Adrenal medulla]]                  | 24_May_2026 08:52 PM PDT | Anatomy                |           10           |           0            |
 | [[Adrenaline catabolism]]            | 24_May_2026 08:52 PM PDT | Biological Process     |           8            |           0            |
 | [[adrenaline-quinone]]               | 18_May_2026 11:53 AM PDT | Chemical Compound      |           10           |           -1           |
-| [[Adrenal medulla]]                  | 24_May_2026 08:52 PM PDT | Anatomy                |           10           |           0            |
 | [[Adrenochrome Hypothesis]]          | 18_May_2026 11:53 AM PDT | Scientific Theory      |           9            |           0            |
 | [[Adrenochrome monoaminoguanidine]]  | 19_May_2026 02:30 PM PDT | Chemical Compound      |           10           |           1            |
+| [[Adrenochrome Pathway]]             | 25_May_2026 11:30 AM PDT | Biological Process     |           10           |           0            |
 | [[Adrenochrome sulfonate]]           | 18_May_2026 11:54 AM PDT | Chemical Compound      |           9            |           -1           |
 | [[Adrenochrome]]                     | 16_May_2026 05:14 PM PDT | Chemical Compound      |           10           |           -1           |
 | [[Adrenolutin]]                      | 16_May_2026 05:12 PM PDT | Chemical Compound      |           10           |           0            |
@@ -49,6 +50,7 @@ To maintain consistency, all entity notes should include an `entity_type` field.
 | [[Anaphylaxis]]                      | 18_May_2026 11:53 AM PDT | Medical Condition      |           3            |           -1           |
 | [[Aniline dyes]]                     | 20_May_2026 03:15 PM PDT | Chemical Class         |           4            |           -1           |
 | [[Argon]]                            | 18_May_2026 11:53 AM PDT | Chemical Compound      |           2            |           0            |
+| [[Arrhythmias]]                      | 25_May_2026 11:30 AM PDT | Medical Condition      |           8            |           -1           |
 | [[Arterial blood gas]]               | 20_May_2026 03:15 PM PDT | Diagnostic Test        |           4            |           0            |
 | [[Ascorbic Acid]]                    | 18_May_2026 11:49 AM PDT | Chemical Compound      |           6            |           1            |
 | [[Assay]]                            | 18_May_2026 11:54 AM PDT | Laboratory Standard    |           2            |           0            |
@@ -62,11 +64,13 @@ To maintain consistency, all entity notes should include an `entity_type` field.
 | [[Cardiomyocytes]]                   | 24_May_2026 08:52 PM PDT | Cell Type              |           7            |           0            |
 | [[Cardiotoxicity]]                   | 16_May_2026 05:12 PM PDT | Medical Condition      |           8            |           -1           |
 | [[Catecholamines]]                   | 16_May_2026 05:14 PM PDT | Chemical Class         |           8            |           0            |
+| [[Cell necrosis]]                    | 25_May_2026 11:30 AM PDT | Biological Process     |           7            |           -1           |
 | [[Certificate of Analysis]]          | 18_May_2026 11:53 AM PDT | Laboratory Standard    |           2            |           0            |
 | [[Chloroquine]]                      | 20_May_2026 03:15 PM PDT | Chemical Compound      |           4            |           -1           |
 | [[Chromaffin cells]]                 | 24_May_2026 08:52 PM PDT | Cell Type              |           9            |           0            |
-| [[COMT]]                             | 16_May_2026 05:14 PM PDT | Enzyme                 |           6            |           0            |
 | [[Co-oximetry]]                      | 20_May_2026 03:15 PM PDT | Diagnostic Test        |           5            |           0            |
+| [[COMT]]                             | 16_May_2026 05:14 PM PDT | Enzyme                 |           6            |           0            |
+| [[Coronary artery constriction]]     | 25_May_2026 11:30 AM PDT | Medical Condition      |           8            |           -1           |
 | [[Cyanosis]]                         | 20_May_2026 03:15 PM PDT | Medical Condition      |           5            |           -1           |
 | [[Cysteine]]                         | 18_May_2026 11:54 AM PDT | Chemical Compound      |           5            |           1            |
 | [[Cytochrome b5 reductase]]          | 20_May_2026 03:15 PM PDT | Enzyme                 |           6            |           0            |
@@ -74,8 +78,8 @@ To maintain consistency, all entity notes should include an `entity_type` field.
 | [[Diaphorase]]                       | 20_May_2026 03:15 PM PDT | Enzyme                 |           5            |           0            |
 | [[Dopamine hypothesis]]              | 18_May_2026 11:53 AM PDT | Scientific Theory      |           4            |           0            |
 | [[Dopamine]]                         | 16_May_2026 05:18 PM PDT | Chemical Compound      |           7            |           0            |
+| [[Dopaminergic neurons]]             | 24_May_2026 08:52 PM PDT | Cell Type              |           7            |           0            |
 | [[Dopaminochrome]]                   | 16_May_2026 05:12 PM PDT | Chemical Compound      |           8            |           -1           |
-| [[Dopaminergic neurons]]              | 24_May_2026 08:52 PM PDT | Cell Type              |           7            |           0            |
 | [[EDTA]]                             | 18_May_2026 11:49 AM PDT | Chemical Compound      |           5            |           0            |
 | [[Endothelial cells]]                | 24_May_2026 08:52 PM PDT | Cell Type              |           6            |           0            |
 | [[Epinephrine]]                      | 16_May_2026 05:18 PM PDT | Chemical Compound      |           10           |           1            |
@@ -84,6 +88,7 @@ To maintain consistency, all entity notes should include an `entity_type` field.
 | [[Exchange transfusion]]             | 20_May_2026 03:15 PM PDT | Medical Treatment      |           4            |           0            |
 | [[G6PD deficiency]]                  | 20_May_2026 03:15 PM PDT | Medical Condition      |           5            |           -1           |
 | [[H-NMR]]                            | 18_May_2026 11:53 AM PDT | Analytical Technique   |           2            |           0            |
+| [[Heart disease]]                    | 25_May_2026 11:30 AM PDT | Medical Condition      |           8            |           -1           |
 | [[Hemoglobin M]]                     | 20_May_2026 03:15 PM PDT | Protein                |           5            |           -1           |
 | [[Hemoglobin]]                       | 20_May_2026 03:15 PM PDT | Protein                |           6            |           0            |
 | [[Hemolysis]]                        | 20_May_2026 03:15 PM PDT | Biological Process     |           5            |           -1           |
@@ -108,18 +113,21 @@ To maintain consistency, all entity notes should include an `entity_type` field.
 | [[Mass Spectrometry]]                | 18_May_2026 11:53 AM PDT | Analytical Technique   |           2            |           0            |
 | [[Melanins]]                         | 18_May_2026 11:49 AM PDT | Chemical Class         |           7            |           0            |
 | [[Metabolic waste]]                  | 18_May_2026 11:49 AM PDT | Scientific Concept     |           5            |           -1           |
+| [[Metanephrine]]                     | 25_May_2026 11:30 AM PDT | Chemical Compound      |           7            |           0            |
 | [[Methemoglobin]]                    | 20_May_2026 03:15 PM PDT | Protein                |           5            |           -1           |
 | [[Methemoglobinemia]]                | 20_May_2026 03:15 PM PDT | Medical Condition      |           5            |           -1           |
 | [[Methylene blue]]                   | 20_May_2026 03:15 PM PDT | Chemical Compound      |           6            |           1            |
 | [[Michael addition]]                 | 18_May_2026 11:49 AM PDT | Chemical Process       |           6            |           0            |
 | [[Myeloperoxidase]]                  | 16_May_2026 05:12 PM PDT | Enzyme                 |           7            |           0            |
+| [[Myocardial infarction]]            | 25_May_2026 11:30 AM PDT | Medical Condition      |           9            |           -1           |
+| [[Myocardium]]                       | 25_May_2026 11:30 AM PDT | Anatomy                |           7            |           0            |
 | [[NADH-dependent methemoglobin reductase]] | 20_May_2026 03:15 PM PDT | Enzyme                 |           6            |           0            |
 | [[Neffy]]                            | 18_May_2026 11:54 AM PDT | Medical Product        |           5            |           1            |
 | [[Neuromelanin]]                     | 16_May_2026 05:18 PM PDT | Chemical Compound      |           7            |           1            |
 | [[Neutrophils]]                      | 16_May_2026 05:12 PM PDT | Cell Type              |           6            |           0            |
 | [[Nitric oxide]]                     | 20_May_2026 03:15 PM PDT | Biological Molecule    |           5            |           0            |
-| [[Nitrogen gas]]                     | 18_May_2026 11:53 AM PDT | Chemical Compound      |           2            |           0            |
 | [[Nitrobenzene]]                     | 20_May_2026 03:15 PM PDT | Chemical Compound      |           4            |           -1           |
+| [[Nitrogen gas]]                     | 18_May_2026 11:53 AM PDT | Chemical Compound      |           2            |           0            |
 | [[Norepinephrine]]                   | 24_May_2026 08:52 PM PDT | Chemical Compound      |           9            |           0            |
 | [[o-quinone]]                        | 18_May_2026 11:49 AM PDT | Chemical Compound      |           9            |           -1           |
 | [[Oxidative Stress]]                 | 16_May_2026 05:16 PM PDT | Scientific Concept     |           7            |           -1           |
@@ -142,6 +150,7 @@ To maintain consistency, all entity notes should include an `entity_type` field.
 | [[Reference standard]]               | 18_May_2026 11:53 AM PDT | Laboratory Standard    |           3            |           0            |
 | [[Rheumatoid synovial fluid]]        | 24_May_2026 08:52 PM PDT | Anatomy                |           5            |           -1           |
 | [[Semicarbazide]]                    | 19_May_2026 02:30 PM PDT | Chemical Compound      |           8            |           0            |
+| [[Serum]]                            | 25_May_2026 11:30 AM PDT | Anatomy                |           4            |           0            |
 | [[Smoking]]                          | 16_May_2026 05:12 PM PDT | Scientific Concept     |           4            |           -1           |
 | [[Sodium hydrogencarbonate]]         | 19_May_2026 02:30 PM PDT | Chemical Compound      |           6            |           0            |
 | [[Sodium Metabisulfite]]             | 18_May_2026 11:49 AM PDT | Chemical Compound      |           6            |           0            |
@@ -152,4 +161,3 @@ To maintain consistency, all entity notes should include an `entity_type` field.
 | [[Symjepi]]                          | 18_May_2026 11:54 AM PDT | Medical Product        |           5            |           1            |
 | [[Sympathetic nerve endings]]        | 24_May_2026 08:52 PM PDT | Anatomy                |           6            |           0            |
 | [[Thioglycerol]]                     | 18_May_2026 11:54 AM PDT | Chemical Compound      |           5            |           0            |
-
