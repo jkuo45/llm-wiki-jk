@@ -1,0 +1,8 @@
+# Gut-Brain Axis
+
+The gut-brain axis is a bidirectional communication network between the gastrointestinal tract and the central nervous system, involving neural, hormonal, and immunological pathways.
+
+### Linking Summary:
+- New links added: [[Gut Microbiome]], [[Neurodegenerative Diseases]], [[Immune System]]
+- Suggested new entity notes to create: [[Central Nervous System]], [[Hormones]]
+- Strong connections to strengthen: [[Gut-Brain Axis]] ↔ [[Gut Microbiome]]
