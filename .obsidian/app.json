@@ -1,0 +1,11 @@
+{
+  "alwaysUpdateLinks": true,
+  "userIgnoreFilters": [
+    "/.*README\\.md/",
+    "/.*GEMINI\\.md/",
+    "/(^|\\/)\\[document\\].*/",
+    "/^tasks//"
+  ],
+  "newFileLocation": "current",
+  "attachmentFolderPath": "./"
+}
