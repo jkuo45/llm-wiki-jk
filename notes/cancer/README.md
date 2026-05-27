@@ -1,7 +1,7 @@
 # Cancer Notes
 
-Last updated: 21_May_2026 06:45 PM PDT
-Total count of entities: 113
+Last updated: 26_May_2026 05:03 PM PDT
+Total count of entities: 126
 
 | entity                                                                                                                                                               | datetime updated         |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------ |
@@ -10,6 +10,7 @@ Total count of entities: 113
 | [[Albendazole]]                                                                                                                                                      | 21_May_2026 06:45 PM PDT |
 | [[ALIX]]                                                                                                                                                             | 19_May_2026 08:16 PM PDT |
 | [[Andy Crump]]                                                                                                                                                       | 21_May_2026 06:20 PM PDT |
+| [[Angiogenesis]]                                                                                                                                                     | 26_May_2026 05:03 PM PDT |
 | [[Annexin V]]                                                                                                                                                        | 19_May_2026 08:16 PM PDT |
 | [[Apis mellifera]]                                                                                                                                                   | 19_May_2026 08:16 PM PDT |
 | [[apitherapy]]                                                                                                                                                       | 19_May_2026 08:16 PM PDT |
@@ -26,8 +27,10 @@ Total count of entities: 113
 | [[Brugia timori]]                                                                                                                                                    | 21_May_2026 06:20 PM PDT |
 | [[Cancer Stem Cells]]                                                                                                                                                | 21_May_2026 05:45 PM PDT |
 | [[caspase-3]]                                                                                                                                                        | 19_May_2026 08:16 PM PDT |
+| [[CendR motif]]                                                                                                                                                      | 26_May_2026 05:03 PM PDT |
 | [[cervical cancer]]                                                                                                                                                  | 21_May_2026 05:45 PM PDT |
 | [[Cholangiocarcinoma]]                                                                                                                                               | 21_May_2026 05:45 PM PDT |
+| [[Cilengitide]]                                                                                                                                                      | 26_May_2026 05:03 PM PDT |
 | [[cisplatin]]                                                                                                                                                        | 19_May_2026 08:16 PM PDT |
 | [[Colorectal Cancer]]                                                                                                                                                | 21_May_2026 06:45 PM PDT |
 | [[CYP2C19]]                                                                                                                                                          | 21_May_2026 06:45 PM PDT |
@@ -35,9 +38,13 @@ Total count of entities: 113
 | [[Diethylcarbamazine]]                                                                                                                                               | 21_May_2026 06:20 PM PDT |
 | [[docetaxel]]                                                                                                                                                        | 19_May_2026 08:16 PM PDT |
 | [[Drug Repositioning]]                                                                                                                                               | 21_May_2026 06:45 PM PDT |
+| [[ECM]]                                                                                                                                                              | 26_May_2026 05:03 PM PDT |
 | [[EGFR]]                                                                                                                                                             | 21_May_2026 05:45 PM PDT |
 | [[EMT]]                                                                                                                                                              | 21_May_2026 05:45 PM PDT |
+| [[FAK]]                                                                                                                                                              | 26_May_2026 05:03 PM PDT |
 | [[Fenbendazole]]                                                                                                                                                     | 21_May_2026 06:45 PM PDT |
+| [[Fibrinogen]]                                                                                                                                                       | 26_May_2026 05:03 PM PDT |
+| [[Fibronectin]]                                                                                                                                                      | 26_May_2026 05:03 PM PDT |
 | [[GABA]]                                                                                                                                                             | 21_May_2026 06:20 PM PDT |
 | [[Gastric Cancer]]                                                                                                                                                   | 21_May_2026 05:45 PM PDT |
 | [[GlaxoSmithKline]]                                                                                                                                                  | 21_May_2026 06:20 PM PDT |
@@ -57,6 +64,8 @@ Total count of entities: 113
 | [[Honeybee]]                                                                                                                                                         | 19_May_2026 08:16 PM PDT |
 | [[Honeybee venom]]                                                                                                                                                   | 19_May_2026 08:16 PM PDT |
 | [[HSP27]]                                                                                                                                                            | 21_May_2026 05:45 PM PDT |
+| [[Integrins]]                                                                                                                                                        | 26_May_2026 05:03 PM PDT |
+| [[iRGD peptide]]                                                                                                                                                     | 26_May_2026 05:03 PM PDT |
 | [[Ivermectin]]                                                                                                                                                       | 21_May_2026 06:20 PM PDT |
 | [[JAK2]]                                                                                                                                                             | 19_May_2026 08:16 PM PDT |
 | [[Ki-67]]                                                                                                                                                            | 19_May_2026 08:16 PM PDT |
@@ -78,6 +87,7 @@ Total count of entities: 113
 | [[mTOR]]                                                                                                                                                             | 21_May_2026 05:45 PM PDT |
 | [[Multidrug Resistance]]                                                                                                                                             | 21_May_2026 05:45 PM PDT |
 | [[Nasopharyngeal Carcinoma]]                                                                                                                                         | 21_May_2026 05:45 PM PDT |
+| [[Neuropilin-1]]                                                                                                                                                     | 26_May_2026 05:03 PM PDT |
 | [[NFκB]]                                                                                                                                                             | 19_May_2026 08:16 PM PDT |
 | [[non-small-cell lung cancer]]                                                                                                                                       | 21_May_2026 06:45 PM PDT |
 | [[OCP]]                                                                                                                                                              | 21_May_2026 06:20 PM PDT |
@@ -98,6 +108,7 @@ Total count of entities: 113
 | [[Pyruvate Kinase M2]]                                                                                                                                               | 21_May_2026 06:45 PM PDT |
 | [[Pyroptosis]]                                                                                                                                                       | 21_May_2026 05:45 PM PDT |
 | [[Renal Cell Carcinoma]]                                                                                                                                             | 21_May_2026 05:45 PM PDT |
+| [[RGD peptide]]                                                                                                                                                      | 26_May_2026 05:03 PM PDT |
 | [[Satoshi Ōmura]]                                                                                                                                                    | 21_May_2026 06:20 PM PDT |
 | [[Scabies]]                                                                                                                                                          | 21_May_2026 06:20 PM PDT |
 | [[Simulium]]                                                                                                                                                         | 21_May_2026 06:20 PM PDT |
@@ -113,6 +124,8 @@ Total count of entities: 113
 | [[Trichuriasis]]                                                                                                                                                     | 21_May_2026 06:20 PM PDT |
 | [[Trichuris]]                                                                                                                                                        | 21_May_2026 06:20 PM PDT |
 | [[triple-negative breast cancer]]                                                                                                                                    | 21_May_2026 05:45 PM PDT |
+| [[VEGF]]                                                                                                                                                             | 26_May_2026 05:03 PM PDT |
+| [[Vitronectin]]                                                                                                                                                      | 26_May_2026 05:03 PM PDT |
 | [[Warburg Effect]]                                                                                                                                                   | 21_May_2026 06:45 PM PDT |
 | [[William C. Campbell]]                                                                                                                                              | 21_May_2026 06:20 PM PDT |
 | [[Wnt]]                                                                                                                                                              | 21_May_2026 05:45 PM PDT |
