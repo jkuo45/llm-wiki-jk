@@ -1,13 +1,13 @@
 # Oxidative Stress
 
 ## Definition
-Oxidative stress is an imbalance between the production of [[oxidative_stress/Reactive Oxygen Species]] (ROS) and the body's ability to detoxify them or repair the resulting damage.
+Oxidative stress is an imbalance between the production of [[Reactive Oxygen Species]] (ROS) and the body's ability to detoxify them or repair the resulting damage.
 
 ## Impact
 It leads to damage of cellular components, including [[Proteins]], [[Lipids]], and [[Nucleic Acids]].
 
 ## Related Entities
-- [[oxidative_stress/Reactive Oxygen Species]]
+- [[Reactive Oxygen Species]]
 - [[Antioxidants]]
 - [[Superoxide Dismutase]]
 - [[Catalase]]
@@ -17,3 +17,8 @@ It leads to damage of cellular components, including [[Proteins]], [[Lipids]], a
 - [[Atherosclerosis]]: Acts as a primary trigger.
 - [[Cancer]]: Can cause DNA damage leading to mutagenesis.
 - [[Alzheimer's Disease]]: Plays a pivotal role in neuron loss.
+
+### Linking Summary:
+- New links added: [[Reactive Oxygen Species]], [[Antioxidants]], [[Superoxide Dismutase]], [[Catalase]], [[Glutathione Peroxidase]], [[Atherosclerosis]], [[Cancer]], [[Alzheimer's Disease]], [[Proteins]], [[Lipids]], [[Nucleic Acids]]
+- Suggested new entity notes to create: [[Lipids]], [[Proteins]], [[Nucleic Acids]]
+- Strong connections to strengthen: [[Oxidative Stress]] ↔ [[Reactive Oxygen Species]]

@@ -1,9 +1,9 @@
 # Malondialdehyde
-Malondialdehyde (MDA) is a reactive dialdehyde that is a marker for lipid peroxidation and oxidative stress.
+Malondialdehyde (MDA) is a reactive dialdehyde that is a prominent marker for [[Lipid Peroxidation]] and chronic [[Oxidative Stress]]. It is often measured as a [[Biomarker]] to assess the level of oxidative damage in various tissues and fluids.
 
 ## Linking Summary
-- New links added: 
-- Suggested new entity notes to create: 
-- Strong connections to strengthen: 
+- New links added: [[Lipid Peroxidation]], [[Oxidative Stress]], [[Biomarker]]
+- Suggested new entity notes to create: [[Reactive dialdehyde]], [[Biomarker]]
+- Strong connections to strengthen: [[Malondialdehyde]] ↔ [[Lipid Peroxidation]]
 
 entity_type: Biological Molecule

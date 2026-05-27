@@ -4,9 +4,14 @@
 Cancer is a group of diseases involving abnormal cell growth with the potential to invade or spread to other parts of the body.
 
 ## Relation to Oxidative Stress
-[[oxidative_stress/Oxidative Stress]] can induce DNA damage (e.g., [[8-oxo-2'-deoxyguanosine]]), leading to gene mutations and oncogene activation.
+[[Oxidative Stress]] can induce [[DNA damage]] (e.g., [[8-oxo-2'-deoxyguanosine]]), leading to gene mutations and [[oncogene activation]].
 
 ## Connections
-- [[oxidative_stress/Oxidative Stress]]
-- [[oxidative_stress/Reactive Oxygen Species]]
+- [[Oxidative Stress]]
+- [[Reactive Oxygen Species]]
 - [[Ascorbic Acid]] (as a potential prooxidant therapy)
+
+### Linking Summary:
+- New links added: [[Oxidative Stress]], [[8-oxo-2'-deoxyguanosine]], [[Reactive Oxygen Species]], [[Ascorbic Acid]], [[DNA damage]], [[oncogene activation]]
+- Suggested new entity notes to create: [[oncogene activation]], [[DNA damage]]
+- Strong connections to strengthen: [[Cancer]] ↔ [[Oxidative Stress]]
