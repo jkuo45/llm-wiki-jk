@@ -46,7 +46,7 @@ def main():
             'documents': len(documents)
         })
         
-        for doc in documents:
+        for doc in sorted(documents):
             mtime = os.path.getmtime(doc)
             mtime_str = datetime.fromtimestamp(mtime).strftime("%d_%b_%Y")
             word_count = count_words(doc)
@@ -57,19 +57,37 @@ def main():
                 'words': word_count
             })
             
-    # Format tables
-    print(f"LAST_UPDATED_GLOBAL: {get_timestamp()}")
-    print("\nTOPICS_TABLE:")
-    print("| topic | last updated | count entities | count documents |")
-    print("| :--- | :--- | :--- | :--- |")
+    # Prepare new content
+    new_timestamp = get_timestamp()
+    
+    topics_table = ["| topic | last updated | count entities | count documents |",
+                   "| :--- | :--- | :---: | :---: |"]
     for t in topic_data:
-        print(f"| {t['topic']} | {t['last_updated']} | {t['entities']} | {t['documents']} |")
+        topics_table.append(f"| {t['topic']} | {t['last_updated']} | {t['entities']} | {t['documents']} |")
         
-    print("\nDOCUMENTS_TABLE:")
-    print("| topic | date modified | document path | word count |")
-    print("| :--- | :--- | :--- | :--- |")
+    docs_table = ["| topic | date modified | document path | word count |",
+                 "| :--- | :--- | :--- | :--- |"]
     for d in document_data:
-        print(f"| {d['topic']} | {d['date']} | {d['path']} | {d['words']} |")
+        docs_table.append(f"| {d['topic']} | {d['date']} | {d['path']} | {d['words']} |")
+
+    # Construct full README content
+    readme_content = [
+        "# llm-wiki-jk",
+        f"last updated: {new_timestamp} \n",
+        "## topics (notes directory)\n",
+        "\n".join(topics_table),
+        "\n",
+        "---",
+        "## document list\n",
+        "\n".join(docs_table),
+        "\n",
+        "---"
+    ]
+    
+    with open('README.md', 'w', encoding='utf-8') as f:
+        f.write("\n".join(readme_content) + "\n")
+    
+    print(f"Successfully updated README.md at {new_timestamp}")
 
 if __name__ == "__main__":
     main()
