@@ -1,61 +1,61 @@
-# Oxidative Stress Knowledge Base
+# Oxidative Stress
 
 ## Maintenance
-Last updated: 16_May_2026 12:00 PM UTC
-Total count of entities: 52
+Last updated: 27_May_2026 09:27 AM PDT
+Total count of entities: 53
 
-|entity/term|datetime updated|
-|------|----------------|
-|[[oxidative_stress/Oxidative Stress]]|11_May_2026 12:53 AM UTC|
-|[[oxidative_stress/Reactive Oxygen Species]]|11_May_2026 12:53 AM UTC|
-|[[Superoxide Radicals]]|11_May_2026 12:53 AM UTC|
-|[[Hydrogen Peroxide]]|11_May_2026 12:53 AM UTC|
-|[[Hydroxyl Radicals]]|11_May_2026 12:53 AM UTC|
-|[[Singlet Oxygen]]|11_May_2026 12:53 AM UTC|
-|[[Peroxynitrite]]|11_May_2026 12:53 AM UTC|
-|[[Superoxide Dismutase]]|11_May_2026 12:53 AM UTC|
-|[[Catalase]]|11_May_2026 12:53 AM UTC|
-|[[Glutathione Peroxidase]]|11_May_2026 12:53 AM UTC|
-|[[Vitamin E]]|11_May_2026 12:53 AM UTC|
-|[[Flavonoids]]|11_May_2026 12:53 AM UTC|
-|[[Polyphenols]]|11_May_2026 12:53 AM UTC|
-|[[Cancer]]|11_May_2026 12:53 AM UTC|
-|[[Diabetes Mellitus]]|11_May_2026 12:53 AM UTC|
-|[[Atherosclerosis]]|11_May_2026 12:53 AM UTC|
-|[[Cardiovascular Disease]]|11_May_2026 12:53 AM UTC|
-|[[Alzheimer's Disease]]|11_May_2026 12:53 AM UTC|
-|[[Parkinson's Disease]]|11_May_2026 12:53 AM UTC|
-|[[Amyotrophic Lateral Sclerosis]]|11_May_2026 12:53 AM UTC|
-|[[Multiple Sclerosis]]|11_May_2026 12:53 AM UTC|
-|[[Rheumatoid Arthritis]]|11_May_2026 12:53 AM UTC|
-|[[Asthma]]|11_May_2026 12:53 AM UTC|
-|[[Chronic Obstructive Pulmonary Disease]]|16_May_2026 12:00 PM UTC|
-|[[Ascorbic Acid]]|11_May_2026 12:53 AM UTC|
-|[[Genistein]]|11_May_2026 12:53 AM UTC|
-|[[Nitric Oxide]]|11_May_2026 12:53 AM UTC|
-|[[NADPH Oxidase]]|11_May_2026 12:53 AM UTC|
-|[[Xanthine Oxidase]]|11_May_2026 12:53 AM UTC|
-|[[Nitric Oxide Synthase]]|11_May_2026 12:53 AM UTC|
-|[[NF-kappa B]]|11_May_2026 12:53 AM UTC|
-|[[8-oxo-2'-deoxyguanosine]]|11_May_2026 12:53 AM UTC|
-|[[CD36 Receptor]]|11_May_2026 12:53 AM UTC|
-|[[Glutathione]]|11_May_2026 12:53 AM UTC|
-|[[Alpha-Lipoic Acid]]|11_May_2026 12:53 AM UTC|
-|[[Coenzyme Q10]]|16_May_2026 12:00 PM UTC|
-|[[L-arginine]]|11_May_2026 12:53 AM UTC|
-|[[Malondialdehyde]]|11_May_2026 12:53 AM UTC|
-|[[Apoptosis]]|11_May_2026 12:53 AM UTC|
-|[[Mitochondria]]|11_May_2026 12:53 AM UTC|
-|[[Hypochlorous Acid]]|11_May_2026 12:53 AM UTC|
-|[[TNF-alpha]]|11_May_2026 12:53 AM UTC|
-|[[IL-1b]]|11_May_2026 12:53 AM UTC|
-|[[TGF-beta]]|11_May_2026 12:53 AM UTC|
-|[[VCAM-1]]|11_May_2026 12:53 AM UTC|
-|[[PPARγ]]|11_May_2026 12:53 AM UTC|
-|[[LXRα]]|11_May_2026 12:53 AM UTC|
-|[[ABCA1]]|11_May_2026 12:53 AM UTC|
-|[[Ionizing Radiation]]|11_May_2026 12:53 AM UTC|
-|[[Lipid Peroxidation]]|11_May_2026 12:53 AM UTC|
-|[[Endothelial Dysfunction]]|11_May_2026 12:53 AM UTC|
-|[[Nitrative Stress]]|11_May_2026 12:53 AM UTC|
-|[[Antioxidants]]|16_May_2026 12:00 PM UTC|
+| entity                                    | datetime updated         | entity_type         |
+| ----------------------------------------- | ------------------------ | ------------------- |
+| [[Oxidative Stress]]                      | 10_May_2026 05:53 PM PDT | Scientific Concept  |
+| [[Reactive Oxygen Species]]               | 10_May_2026 05:53 PM PDT | Chemical Class      |
+| [[Superoxide Radicals]]                   | 10_May_2026 05:53 PM PDT | Biological Molecule |
+| [[Hydrogen Peroxide]]                     | 10_May_2026 05:53 PM PDT | Chemical Compound   |
+| [[Hydroxyl Radicals]]                     | 10_May_2026 05:53 PM PDT | Biological Molecule |
+| [[Singlet Oxygen]]                        | 10_May_2026 05:53 PM PDT | Biological Molecule |
+| [[Peroxynitrite]]                         | 10_May_2026 05:53 PM PDT | Biological Molecule |
+| [[Superoxide Dismutase]]                  | 10_May_2026 05:53 PM PDT | Enzyme              |
+| [[Catalase]]                              | 10_May_2026 05:53 PM PDT | Enzyme              |
+| [[Glutathione Peroxidase]]                | 10_May_2026 05:53 PM PDT | Enzyme              |
+| [[Vitamin E]]                             | 10_May_2026 05:53 PM PDT | Chemical Compound   |
+| [[Flavonoids]]                            | 10_May_2026 05:53 PM PDT | Chemical Class      |
+| [[Polyphenols]]                           | 10_May_2026 05:53 PM PDT | Chemical Class      |
+| [[Cancer]]                                | 10_May_2026 05:53 PM PDT | Medical Condition   |
+| [[Diabetes Mellitus]]                     | 27_May_2026 09:18 AM PDT | Medical Condition   |
+| [[Atherosclerosis]]                       | 27_May_2026 09:18 AM PDT | Medical Condition   |
+| [[Cardiovascular Disease]]                | 27_May_2026 09:18 AM PDT | Medical Condition   |
+| [[Alzheimer's Disease]]                   | 27_May_2026 09:18 AM PDT | Medical Condition   |
+| [[Parkinson's Disease]]                   | 27_May_2026 09:18 AM PDT | Medical Condition   |
+| [[Amyotrophic Lateral Sclerosis]]         | 27_May_2026 09:18 AM PDT | Medical Condition   |
+| [[Multiple Sclerosis]]                    | 27_May_2026 09:18 AM PDT | Medical Condition   |
+| [[Rheumatoid Arthritis]]                  | 27_May_2026 09:18 AM PDT | Medical Condition   |
+| [[Asthma]]                                | 27_May_2026 09:18 AM PDT | Medical Condition   |
+| [[Chronic Obstructive Pulmonary Disease]] | 16_May_2026 05:00 AM PDT | Medical Condition   |
+| [[Ascorbic Acid]]                         | 10_May_2026 05:53 PM PDT | Chemical Compound   |
+| [[Genistein]]                             | 27_May_2026 09:18 AM PDT | Chemical Compound   |
+| [[Nitric Oxide]]                          | 10_May_2026 05:53 PM PDT | Biological Molecule |
+| [[NADPH Oxidase]]                         | 10_May_2026 05:53 PM PDT | Enzyme              |
+| [[Xanthine Oxidase]]                      | 10_May_2026 05:53 PM PDT | Enzyme              |
+| [[Nitric Oxide Synthase]]                 | 27_May_2026 09:18 AM PDT | Enzyme              |
+| [[NF-kappa B]]                            | 10_May_2026 05:53 PM PDT | Protein             |
+| [[8-oxo-2'-deoxyguanosine]]               | 27_May_2026 09:18 AM PDT | Biological Molecule |
+| [[CD36 Receptor]]                         | 27_May_2026 09:18 AM PDT | Protein             |
+| [[Glutathione]]                           | 10_May_2026 05:53 PM PDT | Biological Molecule |
+| [[Alpha-Lipoic Acid]]                     | 10_May_2026 05:53 PM PDT | Biological Molecule |
+| [[Coenzyme Q10]]                          | 16_May_2026 05:00 AM PDT | Biological Molecule |
+| [[L-arginine]]                            | 27_May_2026 09:18 AM PDT | Chemical Compound   |
+| [[Malondialdehyde]]                       | 27_May_2026 09:18 AM PDT | Biological Molecule |
+| [[Apoptosis]]                             | 10_May_2026 05:53 PM PDT | Biological Process  |
+| [[Mitochondria]]                          | 10_May_2026 05:53 PM PDT | Anatomy             |
+| [[Hypochlorous Acid]]                     | 27_May_2026 09:18 AM PDT | Chemical Compound   |
+| [[TNF-alpha]]                             | 27_May_2026 09:18 AM PDT | Protein             |
+| [[IL-1b]]                                 | 27_May_2026 09:18 AM PDT | Protein             |
+| [[TGF-beta]]                              | 27_May_2026 09:18 AM PDT | Protein             |
+| [[VCAM-1]]                                | 27_May_2026 09:18 AM PDT | Protein             |
+| [[PPARγ]]                                 | 27_May_2026 09:18 AM PDT | Protein             |
+| [[LXRα]]                                  | 27_May_2026 09:18 AM PDT | Protein             |
+| [[ABCA1]]                                 | 27_May_2026 09:18 AM PDT | Protein             |
+| [[Ionizing Radiation]]                    | 27_May_2026 09:18 AM PDT | Scientific Concept  |
+| [[Lipid Peroxidation]]                    | 27_May_2026 09:18 AM PDT | Chemical Process    |
+| [[Endothelial Dysfunction]]               | 27_May_2026 09:18 AM PDT | Biological Process  |
+| [[Nitrative Stress]]                      | 27_May_2026 09:18 AM PDT | Scientific Concept  |
+| [[Antioxidants]]                          | 16_May_2026 05:00 AM PDT | Chemical Class      |
