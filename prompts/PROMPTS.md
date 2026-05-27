@@ -18,7 +18,7 @@ Write file to: 'output.json'
 
 
 ## Create Infographics
-Create an infographic to explain the concept(s) below. english and en-TW text. output 9:16 vertical ratio.
+create an infographic to explain the concept(s) below. english and zh-TW text. output 9:16 vertical ratio.
 
 ---
 
