@@ -1,96 +1,102 @@
-# README
+# Autophagy
 
-This directory contains notes and articles related to [[Autophagy]] and its role in [[Aging]], [[Immune System]] function, and age-related diseases.
+This directory contains notes and research regarding [[Autophagy]], its molecular machinery (including [[Autophagosome]] formation, [[ATG]] proteins, [[Beclin1]], [[LC3]], and [[ULK1]]), different types ([[Macroautophagy]], [[Mitophagy]], [[Chaperone-Mediated Autophagy]]), regulation by [[mTOR]], [[AMPK]], and [[SIRT1]], and its dual roles in cellular homeostasis, quality control, and stress adaptation. Special focus is placed on its involvement in [[Aging]], [[Cancer]], [[Neurodegenerative Disease]] ([[Alzheimer's Disease]], [[Parkinson's Disease]], [[Huntington's Disease]]), immune regulation, and interventions such as [[Rapamycin]], [[Spermidine]], [[Caloric Restriction]], and [[Intermittent Fasting]].
+
 
 ## Maintenance
-- Last updated: 25_May_2026 11:00 AM PDT
+
+- Last updated: 27_May_2026 11:29 AM 
 - Total count of entities: 90
 
-|entity/term|datetime updated|
-|------|----------------|
-|Adaptive Immune Response|15_May_2026 01:25 PM PDT|
-|Aging|25_May_2026 10:00 AM PDT|
-|Akt|15_May_2026 01:45 PM PDT|
-|Alzheimer's Disease|15_May_2026 01:45 PM PDT|
-|Ambra-1|25_May_2026 11:00 AM PDT|
-|AMPK|25_May_2026 10:00 AM PDT|
-|Apoptosis|25_May_2026 10:00 AM PDT|
-|Atg5|15_May_2026 01:25 PM PDT|
-|Atg7|15_May_2026 01:45 PM PDT|
-|Atg8|15_May_2026 01:45 PM PDT|
-|Atg12|15_May_2026 01:45 PM PDT|
-|Atg13|25_May_2026 11:00 AM PDT|
-|Atg16|15_May_2026 01:45 PM PDT|
-|Atg101|25_May_2026 11:00 AM PDT|
-|Autophagosome|15_May_2026 01:45 PM PDT|
-|Autophagy Inducer|15_May_2026 01:25 PM PDT|
-|Autophagic Flux|25_May_2026 10:00 AM PDT|
-|B Cell|25_May_2026 10:00 AM PDT|
-|Beclin1|15_May_2026 01:45 PM PDT|
-|BRCA1|25_May_2026 11:00 AM PDT|
-|Breast Cancer|15_May_2026 01:45 PM PDT|
-|Caloric Restriction|15_May_2026 01:45 PM PDT|
-|Caloric Restriction Mimetics|25_May_2026 11:00 AM PDT|
-|Cancer|25_May_2026 10:00 AM PDT|
-|Cardiovascular Disease|15_May_2026 01:45 PM PDT|
-|CD8+ T Cell|15_May_2026 01:45 PM PDT|
-|CD73|25_May_2026 11:00 AM PDT|
-|Chaperone-Mediated Autophagy|15_May_2026 01:45 PM PDT|
-|Cisplatin|25_May_2026 11:00 AM PDT|
-|Colorectal Cancer|15_May_2026 01:45 PM PDT|
-|Dietary Restriction|25_May_2026 11:00 AM PDT|
-|eIF5A|15_May_2026 01:25 PM PDT|
-|FIP200|25_May_2026 11:00 AM PDT|
-|FOXO1|15_May_2026 01:45 PM PDT|
-|FOXO3a|15_May_2026 01:45 PM PDT|
-|FOXO4|15_May_2026 01:45 PM PDT|
-|Foxp3|15_May_2026 01:25 PM PDT|
-|Hematopoietic Stem Cell|15_May_2026 01:45 PM PDT|
-|HIF1A|25_May_2026 11:00 AM PDT|
-|Huntington's Disease|15_May_2026 01:45 PM PDT|
-|Hypoxia|25_May_2026 11:00 AM PDT|
-|IGF1|15_May_2026 01:45 PM PDT|
-|Immune Aging|15_May_2026 01:21 PM PDT|
-|Immunometabolism|15_May_2026 01:25 PM PDT|
-|Immunosenescence|15_May_2026 01:25 PM PDT|
-|Inflammaging|15_May_2026 01:21 PM PDT|
-|Intermittent Fasting|15_May_2026 01:45 PM PDT|
-|Ketogenesis|15_May_2026 01:45 PM PDT|
-|Ketogenic Diet|15_May_2026 01:45 PM PDT|
-|LC3|15_May_2026 01:45 PM PDT|
-|LKB1|15_May_2026 01:45 PM PDT|
-|Lysosome|15_May_2026 01:45 PM PDT|
-|Macroautophagy|15_May_2026 01:45 PM PDT|
-|Melanoma|15_May_2026 01:45 PM PDT|
-|Metformin|25_May_2026 10:00 AM PDT|
-|Microautophagy|15_May_2026 01:45 PM PDT|
-|Mitochondria|25_May_2026 10:00 AM PDT|
-|Mitochondrial Complex I|15_May_2026 01:25 PM PDT|
-|Mitophagy|15_May_2026 01:21 PM PDT|
-|mTOR|25_May_2026 10:00 AM PDT|
-|mTORC1|25_May_2026 10:00 AM PDT|
-|Neurodegenerative Disease|15_May_2026 01:45 PM PDT|
-|p62|15_May_2026 01:45 PM PDT|
-|Parkinson's Disease|15_May_2026 01:45 PM PDT|
-|PI3K|15_May_2026 01:45 PM PDT|
-|Polyamine|15_May_2026 01:25 PM PDT|
-|Rapalog|15_May_2026 01:25 PM PDT|
-|Rapamycin|25_May_2026 10:00 AM PDT|
-|RAS|25_May_2026 11:00 AM PDT|
-|ROS|25_May_2026 11:00 AM PDT|
-|Selective Autophagy|15_May_2026 01:25 PM PDT|
-|Senescence|25_May_2026 10:00 AM PDT|
-|Senescence-Associated Beta-Galactosidase|15_May_2026 01:25 PM PDT|
-|Senescence-Associated Secretory Phenotype|15_May_2026 01:21 PM PDT|
-|SIRT1|15_May_2026 01:45 PM PDT|
-|SIRT2|15_May_2026 01:45 PM PDT|
-|SIRT3|15_May_2026 01:45 PM PDT|
-|Spermidine|25_May_2026 10:00 AM PDT|
-|STAT3|15_May_2026 01:25 PM PDT|
-|T Cell|25_May_2026 10:00 AM PDT|
-|TAME Trial|15_May_2026 01:25 PM PDT|
-|TFEB|15_May_2026 01:25 PM PDT|
-|TP53|25_May_2026 11:00 AM PDT|
-|Thymic Involution|15_May_2026 01:25 PM PDT|
-|ULK1|15_May_2026 01:45 PM PDT|
-|Yoshinori Ohsumi|25_May_2026 11:00 AM PDT|
+| entity | datetime updated |
+| :--- | :---: |
+| [[Adaptive Immune Response]] | 27_May_2026 09:38 AM  |
+| [[Aging]] | 27_May_2026 09:38 AM  |
+| [[Akt]] | 27_May_2026 09:38 AM  |
+| [[Alzheimer's Disease]] | 27_May_2026 09:38 AM  |
+| [[Ambra-1]] | 25_May_2026 05:23 PM  |
+| [[AMPK]] | 27_May_2026 09:38 AM  |
+| [[Apoptosis]] | 27_May_2026 09:38 AM  |
+| [[Atg101]] | 25_May_2026 05:23 PM  |
+| [[Atg12]] | 27_May_2026 09:38 AM  |
+| [[Atg13]] | 25_May_2026 05:23 PM  |
+| [[Atg16]] | 27_May_2026 09:38 AM  |
+| [[Atg16L1]] | 27_May_2026 10:16 AM  |
+| [[Atg5]] | 27_May_2026 09:38 AM  |
+| [[Atg7]] | 27_May_2026 09:38 AM  |
+| [[Atg8]] | 27_May_2026 09:38 AM  |
+| [[Autophagic Flux]] | 27_May_2026 09:38 AM  |
+| [[Autophagosome]] | 25_May_2026 05:23 PM  |
+| [[Autophagy Inducer]] | 27_May_2026 09:38 AM  |
+| [[Autophagy]] | 27_May_2026 10:16 AM  |
+| [[B Cell]] | 27_May_2026 09:38 AM  |
+| [[Beclin1]] | 27_May_2026 09:38 AM  |
+| [[BRCA1]] | 25_May_2026 05:23 PM  |
+| [[Breast Cancer]] | 27_May_2026 09:38 AM  |
+| [[Caloric Restriction Mimetics]] | 25_May_2026 05:23 PM  |
+| [[Caloric Restriction]] | 27_May_2026 09:38 AM  |
+| [[Cancer]] | 27_May_2026 09:38 AM  |
+| [[Cardiovascular Disease]] | 27_May_2026 09:38 AM  |
+| [[CD73]] | 25_May_2026 05:23 PM  |
+| [[CD8+ T Cell]] | 27_May_2026 09:38 AM  |
+| [[Chaperone-Mediated Autophagy]] | 27_May_2026 09:38 AM  |
+| [[Cisplatin]] | 25_May_2026 05:23 PM  |
+| [[Colorectal Cancer]] | 27_May_2026 09:38 AM  |
+| [[Dietary Restriction]] | 25_May_2026 05:23 PM  |
+| [[eIF5A]] | 27_May_2026 09:38 AM  |
+| [[FIP200]] | 25_May_2026 05:23 PM  |
+| [[FOXO1]] | 27_May_2026 09:38 AM  |
+| [[FOXO3a]] | 27_May_2026 09:38 AM  |
+| [[FOXO4]] | 27_May_2026 09:38 AM  |
+| [[Foxp3]] | 27_May_2026 09:38 AM  |
+| [[Hematopoietic Stem Cell]] | 27_May_2026 09:38 AM  |
+| [[HIF1A]] | 25_May_2026 05:23 PM  |
+| [[Huntington's Disease]] | 27_May_2026 09:38 AM  |
+| [[Hypoxia]] | 25_May_2026 05:23 PM  |
+| [[IGF1]] | 27_May_2026 09:38 AM  |
+| [[Immune Aging]] | 25_May_2026 05:23 PM  |
+| [[Immunometabolism]] | 27_May_2026 09:38 AM  |
+| [[Immunosenescence]] | 25_May_2026 05:23 PM  |
+| [[Inflammaging]] | 25_May_2026 05:23 PM  |
+| [[Intermittent Fasting]] | 27_May_2026 09:38 AM  |
+| [[Ketogenesis]] | 27_May_2026 09:38 AM  |
+| [[Ketogenic Diet]] | 27_May_2026 09:38 AM  |
+| [[LC3]] | 27_May_2026 09:38 AM  |
+| [[LKB1]] | 27_May_2026 09:38 AM  |
+| [[Lysosome]] | 27_May_2026 09:38 AM  |
+| [[Macroautophagy]] | 27_May_2026 09:38 AM  |
+| [[Melanoma]] | 27_May_2026 09:38 AM  |
+| [[Metformin]] | 25_May_2026 05:23 PM  |
+| [[Microautophagy]] | 27_May_2026 09:38 AM  |
+| [[Mitochondria]] | 27_May_2026 09:38 AM  |
+| [[Mitochondrial Complex I]] | 25_May_2026 05:23 PM  |
+| [[Mitophagy]] | 27_May_2026 09:38 AM  |
+| [[mTOR]] | 27_May_2026 09:38 AM  |
+| [[mTORC1]] | 27_May_2026 09:38 AM  |
+| [[Neurodegenerative Disease]] | 27_May_2026 09:38 AM  |
+| [[p62]] | 27_May_2026 09:38 AM  |
+| [[Parkinson's Disease]] | 27_May_2026 09:38 AM  |
+| [[PI3K]] | 27_May_2026 09:38 AM  |
+| [[Polyamine]] | 27_May_2026 09:38 AM  |
+| [[Rapalog]] | 25_May_2026 05:23 PM  |
+| [[Rapamycin]] | 27_May_2026 09:38 AM  |
+| [[RAS]] | 25_May_2026 05:23 PM  |
+| [[ROS]] | 25_May_2026 05:23 PM  |
+| [[Selective Autophagy]] | 27_May_2026 09:38 AM  |
+| [[Senescence-Associated Beta-Galactosidase]] | 25_May_2026 05:23 PM  |
+| [[Senescence-Associated Secretory Phenotype]] | 25_May_2026 05:23 PM  |
+| [[Senescence]] | 27_May_2026 09:38 AM  |
+| [[SIRT1]] | 27_May_2026 09:38 AM  |
+| [[SIRT2]] | 27_May_2026 09:38 AM  |
+| [[SIRT3]] | 25_May_2026 05:23 PM  |
+| [[Spermidine]] | 25_May_2026 05:23 PM  |
+| [[Starvation]] | 27_May_2026 10:16 AM  |
+| [[STAT3]] | 27_May_2026 09:38 AM  |
+| [[T Cell]] | 27_May_2026 09:38 AM  |
+| [[TAME Trial]] | 25_May_2026 05:23 PM  |
+| [[TFEB]] | 27_May_2026 09:38 AM  |
+| [[Thymic Involution]] | 25_May_2026 05:23 PM  |
+| [[TP53]] | 25_May_2026 05:23 PM  |
+| [[ULK1]] | 27_May_2026 09:38 AM  |
+| [[Vps34]] | 27_May_2026 10:15 AM  |
+| [[Yoshinori Ohsumi]] | 25_May_2026 05:23 PM  |

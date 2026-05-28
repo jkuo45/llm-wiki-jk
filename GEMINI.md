@@ -3,28 +3,11 @@
 ## Maintenance
 - Create or update README.md within the directory of the topic/subtopic folder.
     - Last updated and total count of entities.
-- Project timestamp format %d_%b_%Y %I:%M %p %Z.
-- If single directory:
-    |entity|datetime updated|
-    |------|----------------|
-- If multiple sub-directories:
-    |entity|datetime updated|directory|
-    |------|----------------|---------|
+- Project timestamp format %d_%b_%Y %I:%M %p %Z
 - documents start with '[document]' in the file name. Depending on task, they may or may not be included in context, counts.
 - notes directory is organized by topic. 
     - each markdown file within that topic can be counted as a single entity.
-- uv for python environments and executables
-
-## Orphan Link Resolution
-Maintain link integrity by performing periodic audits:
-1.  **Scan & Normalize**:
-        - Identify wiki links `[[Link]]` without matching files.
-    - **Case Sensitivity**: Prefer proper noun spelling (match the filename exactly).
-    - **Pluralization**: If `[[Concept]]` is missing but `[[Concepts]]` exists, update the link.
-2. **Resolve True Orphans**:
-    - Create new Markdown files for missing concepts.
-    - Use a standardized template: `# Title`, a one-sentence context, and a `Linking Summary`.
-3. **Automation**: Use `uv run python3` to perform batch updates to minimize manual errors and ensure workspace-wide consistency.
+- use uv for python environments and executables
 
 ## Linking Format
 - Use Obsidian-style wiki links: [[Exact Note Title]] or [[Note Title|Display Text]] when the display text differs.
@@ -44,3 +27,61 @@ Diseases/disorders: [[Alzheimer's Disease]], [[Cystic Fibrosis]], [[Type 2 Diabe
 
 ### Output Format:
 - Return the FULL updated Markdown content with all new [[links]] inserted. At the very end, add a section:
+
+## Orphan Link Resolution
+Maintain link integrity by performing periodic audits:
+- **Scan & Normalize**:
+    - Identify wiki links `[[Link]]` without matching files.
+    - **Case Sensitivity**: Prefer proper noun spelling (match the filename exactly).
+    - **Pluralization**: If `[[Concept]]` is missing but `[[Concepts]]` exists, update the link.
+-  **Resolve True Orphans**:
+    - Create new Markdown files for missing concepts.
+    - Use a standardized template: `# Title`, a one-sentence context, and a `Linking Summary`.
+-  **Automation**: Use `uv run` to perform batch updates to minimize manual errors and ensure workspace-wide consistency.
+
+## Entity Type Schema
+To maintain consistency, all entity notes should include an `entity_type` field. Suggest additional entity types if they do not exist. These values are intended for README.md and do not need to be included in entity wiki notes. Depending on topic/user preference, more values maybe added.
+
+### entity type 1 schema
+
+| entity_type_1                 | entity_description_1                                                 | entity_examples_1                                                         |
+| ----------------------------- | -------------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| **Chemical Compound**         | Specific small molecules and chemical substances.                    | [[Adrenochrome]], [[Epinephrine]], [[Sodium nitrite]], [[Methylene blue]] |
+| **Chemical Class**            | Groups of chemically related substances.                             | [[Catecholamines]], [[Aminochromes]], [[Persulfates]]                     |
+| **Metabolite**                | Endogenous or drug metabolites (can overlap with Chemical Compound). | [[Adrenochrome]] (as epinephrine metabolite), [[6-Hydroxymelatonin]]      |
+| **Enzyme**                    | Specific biological catalysts.                                       | [[MAO]], [[COMT]], [[Myeloperoxidase]], [[Diaphorase]]                    |
+| **Protein**                   | Large biomolecules, structural or functional proteins (non-enzyme).  | [[Hemoglobin]], [[Cytochrome b5 reductase]]                               |
+| **Receptor**                  | Signal-receiving proteins.                                           | [[Adrenergic receptor]], [[D2 receptor]], [[NMDA receptor]]               |
+| **Transporter**               | Membrane proteins that transport molecules.                          | [[VMAT2]], [[SERT]], [[DAT]]                                              |
+| **Ion Channel**               | Proteins forming ion pores.                                          | [[hERG channel]], [[Voltage-gated sodium channel]]                        |
+| **Gene**                      | Specific genes or genomic loci.                                      | [[COMT gene]], [[MAOA]], [[CYP2D6]]                                       |
+| **Genetic Variant**           | Mutations, SNPs, or alleles.                                         | [[COMT Val158Met]], [[rs4680]]                                            |
+| **Biological Molecule**       | Other metabolites, signaling molecules, radicals, etc.               | [[Glutathione]], [[Nitric oxide]], [[Hydroxyl radical]]                   |
+| **Biomarker**                 | Measurable indicators of biological states.                          | [[Troponin]], [[Methemoglobin level]], [[8-OHdG]]                         |
+| **Antibody**                  | Immunoglobulins or monoclonal antibodies.                            | [[Rituximab]], [[Anti-MPO antibody]]                                      |
+| **Cell Type**                 | Specific types of biological cells.                                  | [[Neutrophils]], [[Erythrocytes]], [[Chromaffin cells]]                   |
+| **Anatomy**                   | Organs, tissues, or physiological structures.                        | [[Adrenal gland]], [[Substantia nigra]], [[Lungs]]                        |
+| **Microorganism**             | Bacteria, viruses, fungi, parasites.                                 | [[Pseudomonas aeruginosa]], [[SARS-CoV-2]]                                |
+| **Toxin**                     | Naturally occurring or synthetic poisons.                            | [[Cyanide]], [[Botulinum toxin]]                                          |
+| **Medical Condition**         | Diseases, syndromes, or pathological states.                         | [[Methemoglobinemia]], [[Anaphylaxis]], [[Schizophrenia]]                 |
+| **Symptom**                   | Subjective patient-reported experiences.                             | [[Dyspnea]], [[Cyanosis]], [[Hallucinations]]                             |
+| **Clinical Sign**             | Objective observable or measurable findings.                         | [[Tachycardia]], [[Cherry-red skin]]                                      |
+| **Adverse Effect**            | Undesired reactions to exposures or treatments.                      | [[Hypertensive crisis]], [[Serotonin syndrome]]                           |
+| **Biological Process**        | Normal or pathological biological events and pathways.               | [[Inflammation]], [[Respiratory Burst]], [[Homeostasis]]                  |
+| **Chemical Process**          | Specific chemical reactions or mechanisms.                           | [[Oxidation]], [[Michael addition]], [[Autoxidation]]                     |
+| **Pharmacological Action**    | Mechanism or effect of a drug/compound.                              | [[MAO inhibition]], [[Antioxidant]], [[Vasoconstriction]]                 |
+| **Diagnostic Test**           | Procedures or tools for medical diagnosis.                           | [[ABG]], [[Pulse oximetry]], [[Co-oximetry]]                              |
+| **Analytical Technique**      | Scientific methods used for laboratory analysis.                     | [[HPLC]], [[LC-MS]], [[Mass Spectrometry]], [[H-NMR]]                     |
+| **Imaging Technique**         | Medical or scientific imaging methods.                               | [[MRI]], [[PET scan]], [[fMRI]]                                           |
+| **Medical Treatment**         | Interventions, therapies, or procedures.                             | [[Exchange transfusion]], [[Hyperbaric oxygen]]                           |
+| **Surgical Procedure**        | Invasive therapeutic or diagnostic interventions.                    | [[Adrenalectomy]], [[Bronchoscopy]]                                       |
+| **Medical Product**           | Prepared devices or specific pharmaceutical products.                | [[EpiPen]], [[Neffy]], [[Symjepi]]                                        |
+| **Vaccine**                   | Preparations to stimulate immunity.                                  | [[mRNA COVID-19 vaccine]]                                                 |
+| **Scientific Theory**         | Hypotheses or scientific models.                                     | [[Adrenochrome Hypothesis]], [[Dopamine hypothesis]]                      |
+| **Scientific Concept**        | Broad scientific principles or mechanisms.                           | [[Redox Cycling]], [[Oxidative Stress]], [[Electrophile]]                 |
+| **Laboratory Standard**       | Quality control and reference materials.                             | [[Reference standard]], [[Certificate of Analysis]], [[Impurity marker]]  |
+| **Pharmacokinetic Parameter** | Quantitative ADME properties.                                        | [[Half-life]], [[Volume of distribution]], [[Bioavailability]]            |
+| **Model Organism**            | Species or strains used in research.                                 | [[Rattus norvegicus]], [[Zebrafish]], [[Knockout mouse]]                  |
+| **Person**                    | Historical or scientific figures.                                    | [[Abram Hoffer]], [[Humphry Osmond]]                                      |
+| Organization                  | Public, private sector organizations                                 | [[Merck & Co. Inc]], [[GlaxoSmithKline]]                                  |
+| NA                            | If none of the above                                                 |                                                                           |
