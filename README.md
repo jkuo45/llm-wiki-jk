@@ -1,5 +1,5 @@
 # llm-wiki-jk
-last updated: 28_May_2026 07:14 AM  
+last updated: 28_May_2026 09:22 AM  
 
 ## topics (notes directory)
 
@@ -12,12 +12,11 @@ last updated: 28_May_2026 07:14 AM
 | comt | 28_May_2026 | 62 | 2 |
 | epigenetics | 28_May_2026 | 108 | 2 |
 | neuromelanin | 28_May_2026 | 27 | 1 |
-| oxidative_stress | 28_May_2026 | 63 | 1 |
-| yamanaka_factors | 28_May_2026 | 55 | 3 |
+| oxidative_stress | 28_May_2026 | 73 | 1 |
+| yamanaka_factors | 28_May_2026 | 83 | 3 |
 
 
 ---
-
 ## document list
 
 | topic | date modified | document path | word count |
@@ -49,8 +48,8 @@ last updated: 28_May_2026 07:14 AM
 | epigenetics | 26_May_2026 | notes/epigenetics/[document] The Gut Microbiome, Aging, and Longevity A Systematic Review.md | 12840 |
 | neuromelanin | 25_May_2026 | notes/neuromelanin/[document] Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease.md | 9659 |
 | oxidative_stress | 27_May_2026 | notes/oxidative_stress/[document] Oxidative Stress Harms and Benefits for Human Health.md | 9120 |
-| yamanaka_factors | 25_May_2026 | notes/yamanaka_factors/[document] Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic.md | 7214 |
-| yamanaka_factors | 25_May_2026 | notes/yamanaka_factors/[document] Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network.md | 13255 |
+| yamanaka_factors | 28_May_2026 | notes/yamanaka_factors/[document] Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic.md | 7214 |
+| yamanaka_factors | 28_May_2026 | notes/yamanaka_factors/[document] Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network.md | 13264 |
 | yamanaka_factors | 25_May_2026 | notes/yamanaka_factors/[document] This method to reverse cellular aging is about to be tested in humans.md | 2345 |
 
 

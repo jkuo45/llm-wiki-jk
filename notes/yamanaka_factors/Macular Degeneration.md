@@ -1,6 +1,6 @@
 # Macular Degeneration
 
-[[Macular Degeneration]], particularly Age-related Macular Degeneration (AMD), is a medical condition that results in blurred or no vision in the center of the visual field. It is caused by damage to the macula of the retina, often involving the deterioration of retinal pigment epithelium (RPE) cells.
+[[Macular Degeneration]], particularly Age-related Macular Degeneration (AMD), is a medical condition that results in blurred or no vision in the center of the visual field. It is caused by damage to the macula of the retina, often involving the deterioration of [[Retinal Pigment Epithelium|retinal pigment epithelium (RPE)]] cells.
 
 ## Role in Cellular Reprogramming and Pluripotency
 
@@ -16,6 +16,6 @@ Subsequent clinical programs have expanded to include allogeneic therapies using
 - [[Retinal Pigment Epithelium]]: The specific cell type affected in [[Macular Degeneration]] that is generated from iPSCs for therapy.
 
 ### Linking Summary:
-- New links added: [[Regenerative Medicine]], [[Induced Pluripotent Stem Cells]], [[Stem Cell Research]]
-- Suggested new entity notes to create: [[Retinal Pigment Epithelium]], [[Age-related Macular Degeneration]], [[Masayo Takahashi]]
+- New links added: [[Regenerative Medicine]], [[Induced Pluripotent Stem Cells]], [[Stem Cell Research]], [[Retinal Pigment Epithelium]]
+- Suggested new entity notes to create: [[Masayo Takahashi]]
 - Strong connections to strengthen: [[Macular Degeneration]] <-> [[Induced Pluripotent Stem Cells]]
