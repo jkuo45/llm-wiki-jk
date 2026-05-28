@@ -5,5 +5,3 @@ Nitric oxide synthases (NOSs) are a family of enzymes catalyzing the production 
 - New links added: [[Nitric Oxide]], [[L-arginine]], [[Endothelial Dysfunction]]
 - Suggested new entity notes to create: [[NOS isoforms]], [[eNOS]], [[iNOS]]
 - Strong connections to strengthen: [[Nitric Oxide Synthase]] ↔ [[Nitric Oxide]]
-
-entity_type: Enzyme

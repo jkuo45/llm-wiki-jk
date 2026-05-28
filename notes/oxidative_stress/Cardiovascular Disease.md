@@ -5,5 +5,3 @@ Cardiovascular disease (CVD) is a class of diseases that involve the heart or bl
 - New links added: [[Atherosclerosis]], [[Endothelial Dysfunction]], [[Oxidative Stress]]
 - Suggested new entity notes to create: [[Heart failure]], [[Myocardial infarction]]
 - Strong connections to strengthen: [[Cardiovascular Disease]] ↔ [[Atherosclerosis]]
-
-entity_type: Medical Condition

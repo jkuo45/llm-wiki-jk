@@ -5,5 +5,3 @@
 - New links added: [[Oxidative Stress]], [[Cancer]], [[DNA oxidation]], [[8-hydroxy-2'-deoxyguanosine]]
 - Suggested new entity notes to create: [[8-hydroxy-2'-deoxyguanosine]], [[DNA oxidation]]
 - Strong connections to strengthen: [[8-oxo-2'-deoxyguanosine]] ↔ [[Oxidative Stress]]
-
-entity_type: Biological Molecule

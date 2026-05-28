@@ -5,5 +5,3 @@ Interleukin-1 beta (IL-1b) is a cytokine protein that is an important mediator o
 - New links added: [[Inflammation]], [[TNF-alpha]], [[NF-kappa B]]
 - Suggested new entity notes to create: [[Cytokine]], [[Inflammation]]
 - Strong connections to strengthen: [[IL-1b]] ↔ [[TNF-alpha]]
-
-entity_type: Protein

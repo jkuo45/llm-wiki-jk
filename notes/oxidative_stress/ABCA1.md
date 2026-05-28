@@ -5,5 +5,3 @@ ATP-binding cassette transporter A1 (ABCA1) is a protein which in humans is enco
 - New links added: [[Cholesterol]], [[Atherosclerosis]], [[LXRα]], [[PPARγ]]
 - Suggested new entity notes to create: [[Cholesterol]], [[Phospholipid homeostasis]]
 - Strong connections to strengthen: [[ABCA1]] ↔ [[Atherosclerosis]]
-
-entity_type: Protein

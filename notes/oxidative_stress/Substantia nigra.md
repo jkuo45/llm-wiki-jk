@@ -5,5 +5,3 @@ The substantia nigra is a basal ganglia structure located in the midbrain that p
 - New links added: [[Parkinson's Disease]]
 - Suggested new entity notes to create: [[Basal ganglia]], [[Midbrain]]
 - Strong connections to strengthen: [[Substantia nigra]] ↔ [[Parkinson's Disease]]
-
-entity_type: Anatomy

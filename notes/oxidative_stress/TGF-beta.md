@@ -5,5 +5,3 @@ Transforming growth factor beta (TGF-beta) is a multifunctional cytokine that pl
 - New links added: [[Fibrosis]], [[Inflammation]], [[Oxidative Stress]]
 - Suggested new entity notes to create: [[Fibrosis]], [[Cytokine signaling]]
 - Strong connections to strengthen: [[TGF-beta]] ↔ [[Fibrosis]]
-
-entity_type: Protein

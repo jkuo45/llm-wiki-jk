@@ -5,5 +5,3 @@ The Fenton reaction is a catalytic process that involves the reaction of [[Hydro
 - New links added: [[Hydrogen Peroxide]], [[Hydroxyl Radicals]]
 - Suggested new entity notes to create: [[Ferrous iron]], [[Free radical chemistry]]
 - Strong connections to strengthen: [[Fenton reaction]] ↔ [[Hydroxyl Radicals]]
-
-entity_type: Chemical Process

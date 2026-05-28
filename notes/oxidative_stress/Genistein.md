@@ -5,5 +5,3 @@ Genistein is an isoflavone that is described as an angiogenesis inhibitor and a 
 - New links added: [[Flavonoids]], [[Antioxidants]], [[Angiogenesis]], [[Phytoestrogen]]
 - Suggested new entity notes to create: [[Angiogenesis]], [[Phytoestrogen]]
 - Strong connections to strengthen: [[Genistein]] ↔ [[Flavonoids]]
-
-entity_type: Chemical Compound

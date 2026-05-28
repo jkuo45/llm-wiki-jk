@@ -5,5 +5,3 @@ Peroxisome proliferator-activated receptor gamma (PPARγ) is a nuclear receptor 
 - New links added: [[ABCA1]], [[LXRα]], [[Diabetes Mellitus]], [[Inflammation]]
 - Suggested new entity notes to create: [[Transcription factor]], [[Glucose metabolism]]
 - Strong connections to strengthen: [[PPARγ]] ↔ [[ABCA1]]
-
-entity_type: Protein

@@ -5,5 +5,3 @@ Rheumatoid arthritis (RA) is a long-term autoimmune disorder that primarily affe
 - New links added: [[Oxidative Stress]], [[Inflammation]], [[TNF-alpha]]
 - Suggested new entity notes to create: [[Autoimmune disorder]], [[Joint destruction]]
 - Strong connections to strengthen: [[Rheumatoid Arthritis]] ↔ [[Inflammation]]
-
-entity_type: Medical Condition

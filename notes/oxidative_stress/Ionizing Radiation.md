@@ -5,5 +5,3 @@ Ionizing radiation is radiation, traveling as particles or electromagnetic waves
 - New links added: [[Reactive Oxygen Species]], [[DNA damage]], [[Oxidative Stress]]
 - Suggested new entity notes to create: [[Free radical generation]], [[Radiation biology]]
 - Strong connections to strengthen: [[Ionizing Radiation]] ↔ [[Reactive Oxygen Species]]
-
-entity_type: Scientific Concept

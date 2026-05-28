@@ -5,5 +5,3 @@ Endothelial dysfunction is a systemic pathological state of the endothelium and 
 - New links added: [[Nitric Oxide]], [[Reactive Oxygen Species]], [[Atherosclerosis]], [[Oxidative Stress]]
 - Suggested new entity notes to create: [[Vasodilation]], [[Vasoconstriction]]
 - Strong connections to strengthen: [[Endothelial Dysfunction]] ↔ [[Nitric Oxide]]
-
-entity_type: Biological Process

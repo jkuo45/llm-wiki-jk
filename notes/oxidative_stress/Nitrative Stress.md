@@ -5,5 +5,3 @@ Nitrative stress is a condition in which the production of [[Reactive Nitrogen S
 - New links added: [[Peroxynitrite]], [[Nitric Oxide]], [[Reactive Nitrogen Species]]
 - Suggested new entity notes to create: [[Reactive Nitrogen Species]], [[Protein nitration]]
 - Strong connections to strengthen: [[Nitrative Stress]] ↔ [[Peroxynitrite]]
-
-entity_type: Scientific Concept

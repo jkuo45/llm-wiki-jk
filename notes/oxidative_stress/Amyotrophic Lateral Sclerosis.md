@@ -5,5 +5,3 @@ Amyotrophic lateral sclerosis (ALS) is a progressive neurodegenerative disease t
 - New links added: [[Oxidative Stress]], [[Superoxide Dismutase]], [[Mitochondria]]
 - Suggested new entity notes to create: [[SOD1 mutations]], [[Motor neurons]]
 - Strong connections to strengthen: [[Amyotrophic Lateral Sclerosis]] ↔ [[Superoxide Dismutase]]
-
-entity_type: Medical Condition

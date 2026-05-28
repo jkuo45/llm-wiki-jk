@@ -5,5 +5,3 @@ Hypochlorous acid (HOCl) is a weak acid that forms when chlorine dissolves in wa
 - New links added: [[Neutrophils]], [[Myeloperoxidase]], [[Reactive Oxygen Species]], [[Oxidative Stress]]
 - Suggested new entity notes to create: [[Neutrophils]], [[Myeloperoxidase]]
 - Strong connections to strengthen: [[Hypochlorous Acid]] ↔ [[Neutrophils]]
-
-entity_type: Chemical Compound

@@ -5,5 +5,3 @@ Atherosclerosis is a disease in which the inside of an artery narrows due to the
 - New links added: [[Oxidative Stress]], [[Lipid Peroxidation]], [[Endothelial Dysfunction]], [[CD36 Receptor]], [[ABCA1]]
 - Suggested new entity notes to create: [[Plaque formation]], [[Foam cells]]
 - Strong connections to strengthen: [[Atherosclerosis]] ↔ [[Oxidative Stress]]
-
-entity_type: Medical Condition

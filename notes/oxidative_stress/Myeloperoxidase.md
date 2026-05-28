@@ -5,5 +5,3 @@ Myeloperoxidase (MPO) is a peroxidase enzyme that in humans is encoded by the MP
 - New links added: [[Neutrophils]], [[Hypochlorous Acid]]
 - Suggested new entity notes to create: [[Peroxidase]], [[MPO gene]]
 - Strong connections to strengthen: [[Myeloperoxidase]] ↔ [[Hypochlorous Acid]]
-
-entity_type: Enzyme

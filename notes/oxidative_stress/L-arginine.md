@@ -5,5 +5,3 @@ L-arginine is an amino acid that serves as a primary precursor for the biosynthe
 - New links added: [[Nitric Oxide]], [[Nitric Oxide Synthase]], [[Endothelial Dysfunction]]
 - Suggested new entity notes to create: [[Amino acid]], [[Urea cycle]]
 - Strong connections to strengthen: [[L-arginine]] ↔ [[Nitric Oxide]]
-
-entity_type: Chemical Compound

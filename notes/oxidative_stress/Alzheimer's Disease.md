@@ -5,5 +5,3 @@ Alzheimer's disease is a chronic neurodegenerative disease that usually starts s
 - New links added: [[Oxidative Stress]], [[Mitochondria]], [[Amyloid-beta]], [[Tau protein]]
 - Suggested new entity notes to create: [[Amyloid-beta]], [[Tau protein]], [[Neurodegeneration]]
 - Strong connections to strengthen: [[Alzheimer's Disease]] ↔ [[Oxidative Stress]]
-
-entity_type: Medical Condition

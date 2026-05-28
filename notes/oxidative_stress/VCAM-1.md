@@ -5,5 +5,3 @@ Vascular cell adhesion protein 1 (VCAM-1) is a protein that mediates the adhesio
 - New links added: [[Endothelial Dysfunction]], [[Atherosclerosis]], [[Inflammation]]
 - Suggested new entity notes to create: [[Adhesion molecules]], [[Leukocyte recruitment]]
 - Strong connections to strengthen: [[VCAM-1]] ↔ [[Endothelial Dysfunction]]
-
-entity_type: Protein

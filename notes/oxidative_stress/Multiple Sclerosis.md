@@ -5,5 +5,3 @@ Multiple sclerosis (MS) is a demyelinating disease in which the insulating cover
 - New links added: [[Oxidative Stress]], [[Inflammation]], [[Demyelination]]
 - Suggested new entity notes to create: [[Demyelination]], [[Autoimmune disease]]
 - Strong connections to strengthen: [[Multiple Sclerosis]] ↔ [[Oxidative Stress]]
-
-entity_type: Medical Condition

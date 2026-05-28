@@ -5,5 +5,3 @@ Tumor necrosis factor alpha (TNF-alpha) is a cell signaling protein (cytokine) i
 - New links added: [[Inflammation]], [[NF-kappa B]], [[Apoptosis]], [[IL-1b]]
 - Suggested new entity notes to create: [[Cytokine]], [[Pro-inflammatory response]]
 - Strong connections to strengthen: [[TNF-alpha]] ↔ [[NF-kappa B]]
-
-entity_type: Protein

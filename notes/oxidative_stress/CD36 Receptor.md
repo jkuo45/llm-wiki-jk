@@ -5,5 +5,3 @@ CD36 is a member of the class B scavenger receptor family and is involved in lip
 - New links added: [[Atherosclerosis]], [[Lipid Peroxidation]], [[Oxidized LDL]]
 - Suggested new entity notes to create: [[Oxidized LDL]], [[Scavenger receptor]]
 - Strong connections to strengthen: [[CD36 Receptor]] ↔ [[Atherosclerosis]]
-
-entity_type: Protein

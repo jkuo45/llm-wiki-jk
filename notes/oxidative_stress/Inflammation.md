@@ -5,5 +5,3 @@ Inflammation is a complex biological response of body tissues to harmful stimuli
 - New links added: [[TNF-alpha]], [[IL-1b]], [[NF-kappa B]]
 - Suggested new entity notes to create: [[Cytokines]], [[Immune response]]
 - Strong connections to strengthen: [[Inflammation]] ↔ [[TNF-alpha]]
-
-entity_type: Biological Process

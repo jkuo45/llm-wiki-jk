@@ -5,5 +5,3 @@ Parkinson's disease is a long-term degenerative disorder of the central nervous 
 - New links added: [[Oxidative Stress]], [[Mitochondria]], [[Dopamine]], [[Substantia nigra]]
 - Suggested new entity notes to create: [[Dopamine]], [[Substantia nigra]], [[Alpha-synuclein]]
 - Strong connections to strengthen: [[Parkinson's Disease]] ↔ [[Oxidative Stress]]
-
-entity_type: Medical Condition

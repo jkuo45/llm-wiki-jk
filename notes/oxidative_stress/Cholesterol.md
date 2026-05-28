@@ -5,5 +5,3 @@ Cholesterol is a type of lipid molecule that is essential for cell membrane stru
 - New links added: [[Oxidized LDL]], [[Atherosclerosis]]
 - Suggested new entity notes to create: [[Oxidized LDL]], [[Lipid metabolism]]
 - Strong connections to strengthen: [[Cholesterol]] ↔ [[Atherosclerosis]]
-
-entity_type: Chemical Compound

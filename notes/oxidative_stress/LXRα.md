@@ -5,5 +5,3 @@ Liver X receptor alpha (LXRα) is a nuclear receptor that plays a central role i
 - New links added: [[ABCA1]], [[Cholesterol]], [[PPARγ]]
 - Suggested new entity notes to create: [[Nuclear receptor]], [[Fatty acid metabolism]]
 - Strong connections to strengthen: [[LXRα]] ↔ [[ABCA1]]
-
-entity_type: Protein

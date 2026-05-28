@@ -5,5 +5,3 @@ Asthma is a common long-term inflammatory disease of the airways of the lungs. I
 - New links added: [[Oxidative Stress]], [[Reactive Oxygen Species]], [[Inflammation]], [[Vitamin E]]
 - Suggested new entity notes to create: [[Inflammation]], [[Airways]]
 - Strong connections to strengthen: [[Asthma]] ↔ [[Oxidative Stress]]
-
-entity_type: Medical Condition

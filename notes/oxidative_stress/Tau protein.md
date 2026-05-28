@@ -5,5 +5,3 @@ Tau proteins are proteins that perform the function of stabilizing microtubules,
 - New links added: [[Alzheimer's Disease]]
 - Suggested new entity notes to create: [[Microtubules]], [[Neurofibrillary tangles]]
 - Strong connections to strengthen: [[Tau protein]] ↔ [[Alzheimer's Disease]]
-
-entity_type: Protein

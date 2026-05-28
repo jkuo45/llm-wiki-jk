@@ -5,5 +5,3 @@ Diabetes Mellitus is a group of metabolic diseases characterized by high blood s
 - New links added: [[Oxidative Stress]], [[Mitochondria]], [[Reactive Oxygen Species]], [[Hyperglycemia]]
 - Suggested new entity notes to create: [[Hyperglycemia]], [[Insulin resistance]]
 - Strong connections to strengthen: [[Diabetes Mellitus]] ↔ [[Oxidative Stress]]
-
-entity_type: Medical Condition
