@@ -1,74 +1,74 @@
-# COMT Knowledge Base
+# COMT
+
+This directory contains notes and research regarding [[COMT]] (Catechol-O-methyltransferase), its critical role in catecholamine (dopamine, norepinephrine, epinephrine) metabolism, and the well-known genetic variant [[Val158Met]] (rs4680).Special emphasis is placed on the "Worrier vs. Warrior" behavioral phenotypes: how the Met allele (lower COMT activity) is associated with higher prefrontal dopamine, enhanced cognitive performance under calm conditions but increased anxiety and stress sensitivity ("Worrier"), while the Val allele (higher COMT activity) is linked to faster dopamine clearance, greater stress resilience, and "Warrior" traits.The directory also covers methylation pathways, interactions with related genes ([[MTHFR]], etc.), neurotransmitter balance, cognitive function, and connections to conditions such as anxiety, mood disorders, and cognitive performance.
+
 
 ## Maintenance
-- Last updated: 12_May_2026 11:45 AM UTC
-- Total count of entities: 70
 
-| entity/term | datetime updated |
-|-------------|------------------|
-| [[COMT]] | 12_May_2026 11:45 AM UTC |
-| [[Catechol-O-methyltransferase]] | 12_May_2026 11:45 AM UTC |
-| [[Dopamine]] | 12_May_2026 11:45 AM UTC |
-| [[Epinephrine]] | 12_May_2026 11:45 AM UTC |
-| [[Norepinephrine]] | 12_May_2026 11:45 AM UTC |
-| [[Estrogen]] | 12_May_2026 11:45 AM UTC |
-| [[Catechols]] | 12_May_2026 11:45 AM UTC |
-| [[Methylation]] | 12_May_2026 11:45 AM UTC |
-| [[comt/Oxidative stress]] | 12_May_2026 11:45 AM UTC |
-| [[Methyl groups]] | 12_May_2026 11:45 AM UTC |
-| [[Serotonin]] | 12_May_2026 11:45 AM UTC |
-| [[Melatonin]] | 12_May_2026 11:45 AM UTC |
-| [[Val158Met]] | 12_May_2026 11:45 AM UTC |
-| [[Methylfolate]] | 12_May_2026 11:45 AM UTC |
-| [[MethylB12]] | 12_May_2026 11:45 AM UTC |
-| [[Quercetin]] | 12_May_2026 11:45 AM UTC |
-| [[Fisetin]] | 12_May_2026 11:45 AM UTC |
-| [[Luteolin]] | 12_May_2026 11:45 AM UTC |
-| [[Rutin]] | 12_May_2026 11:45 AM UTC |
-| [[Oleacein]] | 12_May_2026 11:45 AM UTC |
-| [[EGCG]] | 12_May_2026 11:45 AM UTC |
-| [[Green tea]] | 12_May_2026 11:45 AM UTC |
-| [[Parkinson's Disease]] | 12_May_2026 11:45 AM UTC |
-| [[Levodopa]] | 12_May_2026 11:45 AM UTC |
-| [[Magnesium]] | 12_May_2026 11:45 AM UTC |
-| [[Berberine]] | 12_May_2026 11:45 AM UTC |
-| [[Resveratrol]] | 12_May_2026 11:45 AM UTC |
-| [[Hesperidin]] | 12_May_2026 11:45 AM UTC |
-| [[MTHFR]] | 12_May_2026 11:45 AM UTC |
-| [[SAMe]] | 12_May_2026 11:45 AM UTC |
-| [[S-adenosylmethionine]] | 12_May_2026 11:45 AM UTC |
-| [[TMG]] | 12_May_2026 11:45 AM UTC |
-| [[Betaine]] | 12_May_2026 11:45 AM UTC |
-| [[Vitamin E]] | 12_May_2026 11:45 AM UTC |
-| [[Alpha-tocopherol]] | 12_May_2026 11:45 AM UTC |
-| [[Aspirin]] | 12_May_2026 11:45 AM UTC |
-| [[Cardiovascular Disease]] | 12_May_2026 11:45 AM UTC |
-| [[Modafinil]] | 12_May_2026 11:45 AM UTC |
-| [[Adenosylcobalamin]] | 12_May_2026 11:45 AM UTC |
-| [[Hydroxocobalamin]] | 12_May_2026 11:45 AM UTC |
-| [[MTRR]] | 12_May_2026 11:45 AM UTC |
-| [[MTHFD1]] | 12_May_2026 11:45 AM UTC |
-| [[Creatine]] | 12_May_2026 11:45 AM UTC |
-| [[Folinic acid]] | 12_May_2026 11:45 AM UTC |
-| [[Tyrosine]] | 12_May_2026 11:45 AM UTC |
-| [[Bipolar II Disorder]] | 12_May_2026 11:45 AM UTC |
-| [[Striatum]] | 12_May_2026 11:45 AM UTC |
-| [[Schizophrenia]] | 12_May_2026 11:45 AM UTC |
-| [[D1 receptor]] | 12_May_2026 11:45 AM UTC |
-| [[Prefrontal cortex]] | 12_May_2026 11:45 AM UTC |
-| [[Dopamine transporter]] | 12_May_2026 11:45 AM UTC |
-| [[Monoamine oxidase]] | 12_May_2026 11:45 AM UTC |
-| [[Norepinephrine transporter]] | 12_May_2026 11:45 AM UTC |
-| [[CamKIIα]] | 12_May_2026 11:45 AM UTC |
-| [[Ventral tegmental area]] | 12_May_2026 11:45 AM UTC |
-| [[Tyrosine hydroxylase]] | 12_May_2026 11:45 AM UTC |
-| [[Hippocampus]] | 12_May_2026 11:45 AM UTC |
-| [[Cerebellum]] | 12_May_2026 11:45 AM UTC |
-| [[Stimulus-response learning]] | 12_May_2026 11:45 AM UTC |
-| [[Working memory]] | 12_May_2026 11:45 AM UTC |
-| [[Medium spiny neurons]] | 12_May_2026 11:45 AM UTC |
-| [[Substantia nigra]] | 12_May_2026 11:45 AM UTC |
-| [[D2 receptor]] | 12_May_2026 11:45 AM UTC |
-| [[SNP]] | 12_May_2026 11:45 AM UTC |
+- Last updated: 27_May_2026 11:29 AM 
+- Total count of entities: 62
 
-
+| entity | datetime updated |
+| :--- | :---: |
+| [[Adenosylcobalamin]] | 25_May_2026 05:23 PM  |
+| [[Alpha-tocopherol]] | 25_May_2026 05:23 PM  |
+| [[Aspirin]] | 25_May_2026 05:23 PM  |
+| [[Berberine]] | 25_May_2026 05:23 PM  |
+| [[Betaine]] | 25_May_2026 05:23 PM  |
+| [[Bipolar II Disorder]] | 25_May_2026 05:23 PM  |
+| [[CamKIIα]] | 25_May_2026 05:23 PM  |
+| [[Cardiovascular Disease]] | 25_May_2026 05:23 PM  |
+| [[Catechol-O-methyltransferase]] | 25_May_2026 05:23 PM  |
+| [[Catechols]] | 25_May_2026 05:23 PM  |
+| [[Cerebellum]] | 25_May_2026 05:23 PM  |
+| [[COMT]] | 25_May_2026 05:23 PM  |
+| [[Creatine]] | 25_May_2026 05:23 PM  |
+| [[D2 receptor]] | 25_May_2026 05:23 PM  |
+| [[Dopamine transporter]] | 25_May_2026 05:23 PM  |
+| [[Dopamine]] | 25_May_2026 05:23 PM  |
+| [[EGCG]] | 25_May_2026 05:23 PM  |
+| [[Epinephrine]] | 25_May_2026 05:23 PM  |
+| [[Estrogen]] | 25_May_2026 05:23 PM  |
+| [[Fisetin]] | 25_May_2026 05:23 PM  |
+| [[Folinic acid]] | 25_May_2026 05:23 PM  |
+| [[Green tea]] | 25_May_2026 05:23 PM  |
+| [[Hesperidin]] | 25_May_2026 05:23 PM  |
+| [[Hippocampus]] | 25_May_2026 05:23 PM  |
+| [[Hydroxocobalamin]] | 25_May_2026 05:23 PM  |
+| [[Luteolin]] | 25_May_2026 05:23 PM  |
+| [[Magnesium]] | 25_May_2026 05:23 PM  |
+| [[Medium spiny neurons]] | 25_May_2026 05:23 PM  |
+| [[Melatonin]] | 25_May_2026 05:23 PM  |
+| [[Methyl groups]] | 25_May_2026 05:23 PM  |
+| [[Methylation]] | 25_May_2026 05:23 PM  |
+| [[MethylB12]] | 25_May_2026 05:23 PM  |
+| [[Methylfolate]] | 25_May_2026 05:23 PM  |
+| [[Modafinil]] | 25_May_2026 05:23 PM  |
+| [[Monoamine oxidase]] | 25_May_2026 05:23 PM  |
+| [[MTHFD1]] | 25_May_2026 05:23 PM  |
+| [[MTHFR]] | 25_May_2026 05:23 PM  |
+| [[MTRR]] | 25_May_2026 05:23 PM  |
+| [[Norepinephrine transporter]] | 25_May_2026 05:23 PM  |
+| [[Norepinephrine]] | 25_May_2026 05:23 PM  |
+| [[Oleacein]] | 25_May_2026 05:23 PM  |
+| [[Oxidative stress]] | 25_May_2026 05:23 PM  |
+| [[Parkinson's Disease]] | 25_May_2026 05:23 PM  |
+| [[Prefrontal Cortex]] | 25_May_2026 05:23 PM  |
+| [[Quercetin]] | 25_May_2026 05:23 PM  |
+| [[Resveratrol]] | 25_May_2026 05:23 PM  |
+| [[Rutin]] | 25_May_2026 05:23 PM  |
+| [[S-adenosylmethionine]] | 25_May_2026 05:23 PM  |
+| [[SAMe]] | 25_May_2026 05:23 PM  |
+| [[Schizophrenia]] | 25_May_2026 05:23 PM  |
+| [[Serotonin]] | 25_May_2026 05:23 PM  |
+| [[SNP]] | 25_May_2026 05:23 PM  |
+| [[Stimulus-response learning]] | 25_May_2026 05:23 PM  |
+| [[Striatum]] | 25_May_2026 05:23 PM  |
+| [[Substantia nigra]] | 25_May_2026 05:23 PM  |
+| [[TMG]] | 25_May_2026 05:23 PM  |
+| [[Tyrosine hydroxylase]] | 25_May_2026 05:23 PM  |
+| [[Tyrosine]] | 25_May_2026 05:23 PM  |
+| [[Val158Met]] | 25_May_2026 05:23 PM  |
+| [[Ventral tegmental area]] | 25_May_2026 05:23 PM  |
+| [[Vitamin E]] | 25_May_2026 05:23 PM  |
+| [[Working Memory]] | 25_May_2026 05:23 PM  |
