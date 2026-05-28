@@ -1,74 +1,95 @@
-# Yamanaka Factors Wiki
+# Yamanaka Factors
 
-This directory contains research and notes related to the [[Yamanaka Factors]] and [[Cellular Reprogramming]].
+This directory contains notes and research regarding [[Yamanaka Factors]] (OSKM: [[Oct4]], [[Sox2]], [[Klf4]], and [[c-Myc]]), their discovery by [[Shinya Yamanaka]], role in cellular reprogramming of [[Somatic Cells]] into [[Induced Pluripotent Stem Cells]] (iPSCs), partial reprogramming techniques, and applications in regenerative medicine, disease modeling, rejuvenation, and treatment of age-related and [[Neurodegenerative Diseases]]. Special focus is placed on their mechanisms, safety concerns (including [[Cancer]] risk and [[Teratoma]] formation), epigenetic resetting, and emerging uses in [[Partial Reprogramming]] for [[Rejuvenation]].
+
 
 ## Maintenance
-Last updated: 16_May_2026 05:15 PM UTC
-Total count of entities: 58
 
-| entity | datetime updated |
-|--------|------------------|
-| [[Alzheimer's Disease]] | 16_May_2026 05:00 PM UTC |
-| [[Amyotrophic Lateral Sclerosis]] | 16_May_2026 05:00 PM UTC |
-| [[Apoptosis]] | 16_May_2026 05:00 PM UTC |
-| [[Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic]] | 16_May_2026 05:00 PM UTC |
-| [[B18R]] | 16_May_2026 05:00 PM UTC |
-| [[BIG1]] | 16_May_2026 05:00 PM UTC |
-| [[c-Myc]] | 16_May_2026 05:00 PM UTC |
-| [[Cancer]] | 16_May_2026 05:00 PM UTC |
-| [[Cellular Reprogramming]] | 16_May_2026 05:00 PM UTC |
-| [[CHD4]] | 16_May_2026 05:00 PM UTC |
-| [[Disease Modeling]] | 16_May_2026 05:00 PM UTC |
-| [[DNA Damage]] | 16_May_2026 05:00 PM UTC |
-| [[Dopaminergic Neurons]] | 16_May_2026 05:15 PM UTC |
-| [[Drug Discovery]] | 16_May_2026 05:00 PM UTC |
-| [[Embryonic Stem Cells]] | 16_May_2026 05:00 PM UTC |
-| [[Epithelial-to-Mesenchymal Transition]] | 16_May_2026 05:00 PM UTC |
-| [[Fibroblasts]] | 16_May_2026 05:00 PM UTC |
-| [[Frontotemporal Dementia]] | 16_May_2026 05:00 PM UTC |
-| [[GSK3B]] | 16_May_2026 05:00 PM UTC |
-| [[Hutchinson-Gilford Progeria Syndrome]] | 16_May_2026 05:00 PM UTC |
-| [[Induced Neural Stem Cells]] | 16_May_2026 05:00 PM UTC |
-| [[Induced Pluripotent Stem Cells]] | 16_May_2026 05:00 PM UTC |
-| [[Innate Immunity]] | 16_May_2026 05:00 PM UTC |
-| [[Kazutoshi Takahashi]] | 16_May_2026 05:00 PM UTC |
-| [[Klf4]] | 16_May_2026 05:00 PM UTC |
-| [[Lin28]] | 16_May_2026 05:00 PM UTC |
-| [[Macular Degeneration]] | 16_May_2026 05:00 PM UTC |
-| [[Mesenchymal Stromal Cells]] | 16_May_2026 05:15 PM UTC |
-| [[Mesenchymal-to-Epithelial Transition]] | 16_May_2026 05:00 PM UTC |
-| [[Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network]] | 16_May_2026 05:00 PM UTC |
-| [[MYCN]] | 16_May_2026 05:00 PM UTC |
-| [[Nanog]] | 16_May_2026 05:00 PM UTC |
-| [[Neurodegenerative Diseases]] | 16_May_2026 05:00 PM UTC |
-| [[NuRD complex]] | 16_May_2026 05:00 PM UTC |
-| [[Oct4]] | 16_May_2026 05:00 PM UTC |
-| [[Olivopontocerebellar Atrophy]] | 16_May_2026 05:00 PM UTC |
-| [[OSKM]] | 16_May_2026 05:00 PM UTC |
-| [[p53]] | 16_May_2026 05:00 PM UTC |
-| [[Parkinson's Disease]] | 16_May_2026 05:00 PM UTC |
-| [[Partial Reprogramming]] | 16_May_2026 05:00 PM UTC |
-| [[Pluripotency]] | 16_May_2026 05:00 PM UTC |
-| [[PODXL]] | 16_May_2026 05:00 PM UTC |
-| [[Reactive Oxygen Species]] | 16_May_2026 05:00 PM UTC |
-| [[Regenerative Medicine]] | 16_May_2026 05:00 PM UTC |
-| [[Rejuvenation]] | 16_May_2026 05:00 PM UTC |
-| [[Satellite Cells]] | 16_May_2026 05:00 PM UTC |
-| [[Schizophrenia]] | 16_May_2026 05:00 PM UTC |
-| [[Senescence]] | 16_May_2026 05:00 PM UTC |
-| [[Shinya Yamanaka]] | 16_May_2026 05:00 PM UTC |
-| [[Somatic Cell Nuclear Transfer]] | 16_May_2026 05:00 PM UTC |
-| [[Somatic Cells]] | 16_May_2026 05:00 PM UTC |
-| [[Sox2]] | 16_May_2026 05:00 PM UTC |
-| [[Stem Cell Research]] | 16_May_2026 05:00 PM UTC |
-| [[Teratoma]] | 16_May_2026 05:00 PM UTC |
-| [[This method to reverse cellular aging is about to be tested in humans]] | 16_May_2026 05:00 PM UTC |
-| [[Wnt Signaling]] | 16_May_2026 05:00 PM UTC |
-| [[Yamanaka Factors]] | 16_May_2026 05:00 PM UTC |
-| [[ZIC3]] | 16_May_2026 05:00 PM UTC |
+- Last updated: 28_May_2026 09:21 AM PDT
+- Total count of entities: 83
 
-## Articles
-- [[Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic]]
-- [[Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network]]
-- [[This method to reverse cellular aging is about to be tested in humans]]
-- [[Two decades of induced pluripotent stem cell research From discovery to diverse applications]]
+| entity | datetime updated | entity_type_1 |
+| :--- | :---: | :--- |
+| [[Alzheimer's Disease]] | 25_May_2026 05:23 PM | Medical Condition |
+| [[Amyotrophic Lateral Sclerosis]] | 25_May_2026 05:23 PM | Medical Condition |
+| [[Apoptosis]] | 25_May_2026 05:23 PM | Biological Process |
+| [[Assembloids]] | 28_May_2026 09:05 AM | Biological Process |
+| [[B18R]] | 25_May_2026 05:23 PM | Protein |
+| [[BIG1]] | 25_May_2026 05:23 PM | Protein |
+| [[BMP Signaling Pathway]] | 28_May_2026 09:05 AM | Biological Process |
+| [[Blastocyst]] | 28_May_2026 09:05 AM | Anatomy |
+| [[CDH1]] | 28_May_2026 09:05 AM | Protein |
+| [[CDH2]] | 28_May_2026 09:05 AM | Protein |
+| [[CHD4]] | 25_May_2026 05:23 PM | Protein |
+| [[CRISPR]] | 28_May_2026 09:05 AM | Analytical Technique |
+| [[Cancer]] | 25_May_2026 05:23 PM | Medical Condition |
+| [[Cellular Reprogramming]] | 28_May_2026 09:07 AM | Biological Process |
+| [[DNA Damage]] | 25_May_2026 05:23 PM | Biological Process |
+| [[Differentiation]] | 28_May_2026 09:05 AM | Biological Process |
+| [[Disease Modeling]] | 28_May_2026 09:06 AM | Scientific Concept |
+| [[Dopaminergic Neurons]] | 25_May_2026 05:23 PM | Cell Type |
+| [[Drug Discovery]] | 28_May_2026 09:09 AM | Scientific Concept |
+| [[Dyskinesia]] | 28_May_2026 09:05 AM | Symptom |
+| [[Embryonic Stem Cells]] | 25_May_2026 05:23 PM | Cell Type |
+| [[Epigenetic Remodeling]] | 28_May_2026 09:05 AM | Biological Process |
+| [[Epithelial-to-Mesenchymal Transition]] | 25_May_2026 05:23 PM | Biological Process |
+| [[FRAT2]] | 28_May_2026 09:05 AM | Protein |
+| [[Fibroblasts]] | 28_May_2026 09:08 AM | Cell Type |
+| [[Frontotemporal Dementia]] | 25_May_2026 05:23 PM | Medical Condition |
+| [[GSK3B]] | 28_May_2026 09:07 AM | Enzyme |
+| [[Gastrulation]] | 28_May_2026 09:05 AM | Biological Process |
+| [[HFF1]] | 28_May_2026 09:05 AM | Cell Type |
+| [[HLA Haplobank]] | 28_May_2026 09:05 AM | Scientific Concept |
+| [[High-Throughput Screening]] | 28_May_2026 09:05 AM | Analytical Technique |
+| [[Hutchinson-Gilford Progeria Syndrome]] | 25_May_2026 05:23 PM | Medical Condition |
+| [[Induced Neural Stem Cells]] | 25_May_2026 05:23 PM | Cell Type |
+| [[Induced Pluripotent Stem Cells]] | 25_May_2026 05:23 PM | Cell Type |
+| [[Innate Immunity]] | 25_May_2026 05:23 PM | Biological Process |
+| [[Isogenic Pair]] | 28_May_2026 09:05 AM | Scientific Concept |
+| [[Kazutoshi Takahashi]] | 25_May_2026 05:23 PM | Person |
+| [[Klf4]] | 25_May_2026 05:23 PM | Protein |
+| [[Lin28]] | 25_May_2026 05:23 PM | Protein |
+| [[MYCN]] | 25_May_2026 05:23 PM | Protein |
+| [[Macular Degeneration]] | 28_May_2026 09:09 AM | Medical Condition |
+| [[Mesenchymal Stromal Cells]] | 25_May_2026 05:23 PM | Cell Type |
+| [[Mesenchymal-to-Epithelial Transition]] | 25_May_2026 05:23 PM | Biological Process |
+| [[Nanog]] | 25_May_2026 05:23 PM | Protein |
+| [[Neurodegenerative Diseases]] | 25_May_2026 05:23 PM | Medical Condition |
+| [[NuRD complex]] | 25_May_2026 05:23 PM | Protein |
+| [[OSKM]] | 25_May_2026 05:23 PM | Protein |
+| [[Oct4]] | 25_May_2026 05:23 PM | Protein |
+| [[Olivopontocerebellar Atrophy]] | 25_May_2026 05:23 PM | Medical Condition |
+| [[Organoids]] | 28_May_2026 09:05 AM | Biological Process |
+| [[PODXL]] | 25_May_2026 05:23 PM | Protein |
+| [[Parkinson's Disease]] | 25_May_2026 05:23 PM | Medical Condition |
+| [[Partial Reprogramming]] | 25_May_2026 05:23 PM | Biological Process |
+| [[Pluripotency]] | 25_May_2026 05:23 PM | Biological Process |
+| [[Reactive Oxygen Species]] | 25_May_2026 05:23 PM | Biological Molecule |
+| [[Regenerative Medicine]] | 25_May_2026 05:23 PM | Scientific Concept |
+| [[Rejuvenation]] | 25_May_2026 05:23 PM | Biological Process |
+| [[Retinal Pigment Epithelium]] | 28_May_2026 09:05 AM | Cell Type |
+| [[SOX gene family]] | 28_May_2026 09:06 AM | Gene |
+| [[Satellite Cells]] | 25_May_2026 05:23 PM | Cell Type |
+| [[Schizophrenia]] | 25_May_2026 05:23 PM | Medical Condition |
+| [[Senescence]] | 25_May_2026 05:23 PM | Biological Process |
+| [[Shinya Yamanaka]] | 25_May_2026 05:23 PM | Person |
+| [[Slug]] | 28_May_2026 09:05 AM | Protein |
+| [[Snail]] | 28_May_2026 09:05 AM | Protein |
+| [[Somatic Cell Nuclear Transfer]] | 25_May_2026 05:23 PM | Biological Process |
+| [[Somatic Cells]] | 25_May_2026 05:23 PM | Cell Type |
+| [[Sox2]] | 25_May_2026 05:23 PM | Protein |
+| [[Stem Cell Research]] | 25_May_2026 05:23 PM | Scientific Concept |
+| [[TGF-beta Signaling Pathway]] | 28_May_2026 09:06 AM | Biological Process |
+| [[Teratoma]] | 25_May_2026 05:23 PM | Medical Condition |
+| [[Tissue Engineering]] | 28_May_2026 09:06 AM | Scientific Concept |
+| [[Toxicity Testing]] | 28_May_2026 09:06 AM | Analytical Technique |
+| [[Transcription Factor]] | 28_May_2026 09:06 AM | Scientific Concept |
+| [[Tumorigenicity]] | 28_May_2026 09:06 AM | Biological Process |
+| [[Wnt Signaling]] | 28_May_2026 09:10 AM | Biological Process |
+| [[Yamanaka Factors]] | 25_May_2026 05:23 PM | Protein |
+| [[ZCCHC11]] | 28_May_2026 09:06 AM | Protein |
+| [[ZIC3]] | 25_May_2026 05:23 PM | Protein |
+| [[Zeb1]] | 28_May_2026 09:06 AM | Protein |
+| [[c-Myc]] | 25_May_2026 05:23 PM | Protein |
+| [[let-7 microRNA]] | 28_May_2026 09:05 AM | Biological Molecule |
+| [[p53]] | 28_May_2026 09:09 AM | Protein |

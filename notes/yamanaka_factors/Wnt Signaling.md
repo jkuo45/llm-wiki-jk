@@ -9,8 +9,8 @@ Wnt signaling is known to:
 - Increase the efficiency of reprogramming somatic cells into [[Induced Pluripotent Stem Cells]] (iPSCs).
 
 ## Mechanism during Reprogramming
-A key path identified in the [[OSKM]] interaction network involves [[Oct4|POU5F1]] → *FRAT2* → [[GSK3B]] → *MYCN*.
-- [[Oct4|POU5F1]] activates *FRAT2*, which inhibits [[GSK3B]].
+A key path identified in the [[OSKM]] interaction network involves [[Oct4|POU5F1]] → [[FRAT2]] → [[GSK3B]] → [[MYCN]].
+- [[Oct4|POU5F1]] activates [[FRAT2]], which inhibits [[GSK3B]].
 - Inhibition of [[GSK3B]] leads to the stabilization of $\beta$-catenin (CTNNB1), which translocates to the nucleus to activate Wnt target genes.
 - This pathway is thought to promote reprogramming by preventing [[Epithelial-to-Mesenchymal Transition]] (EMT) and driving epigenomic changes.
 
@@ -20,4 +20,4 @@ A key path identified in the [[OSKM]] interaction network involves [[Oct4|POU5F1
 - [[Oct4]]: Also known as POU5F1, it acts as an upstream regulator of the Wnt pathway in pluripotent cells.
 
 ### Linking Summary:
-- New links added: [[Cellular Reprogramming]], [[Embryonic Stem Cells]], [[Induced Pluripotent Stem Cells]], [[OSKM]], [[Oct4]], [[GSK3B]], [[Epithelial-to-Mesenchymal Transition]]
+- New links added: [[Cellular Reprogramming]], [[Embryonic Stem Cells]], [[Induced Pluripotent Stem Cells]], [[OSKM]], [[Oct4]], [[GSK3B]], [[Epithelial-to-Mesenchymal Transition]], [[FRAT2]], [[MYCN]]

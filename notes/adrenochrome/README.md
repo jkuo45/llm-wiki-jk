@@ -1,163 +1,158 @@
+# Adrenochrome
 
 This directory contains notes and research regarding [[Adrenochrome]] and its related biochemical pathways, physiological effects, and clinical contexts.
 
-- Relevance Score (1-10) 'entity_relevance_score': High for direct precursors (e.g., [[Epinephrine]]), metabolites (e.g., [[Adrenolutin]]), and key oxidative products (e.g., [[adrenaline-quinone]]).
-- Sentiment Score (-1, 0, 1) 'entity_sentiment_score': Negative (-1) for toxic/oxidative processes (e.g., [[Cardiotoxicity]], [[Oxidative Stress]]), positive (1) for protective agents or life-saving treatments (e.g., [[Ascorbic Acid]], [[EpiPen]]), and neutral (0) for laboratory techniques or chemicals (e.g., [[HPLC]], [[Argon]]).
-
-## Entity Type Schema
-To maintain consistency, all entity notes should include an `entity_type` field.
-
-| Entity Type | Description | Examples |
-| :--- | :--- | :--- |
-| **Chemical Compound** | Specific small molecules and chemical substances. | [[Adrenochrome]], [[Epinephrine]], [[Sodium nitrite]] |
-| **Chemical Class** | Groups of chemically related substances. | [[Catecholamines]], [[Aminochromes]], [[Persulfates]] |
-| **Enzyme** | Specific biological catalysts. | [[MAO]], [[COMT]], [[Myeloperoxidase]], [[Diaphorase]] |
-| **Protein** | Large biomolecules (non-enzyme) or structural proteins. | [[Hemoglobin]], [[Cytochrome b5 reductase]] |
-| **Biological Molecule** | Other metabolites or biological signaling molecules. | [[Glutathione]], [[Nitric oxide]], [[Hydroxyl radical]] |
-| **Cell Type** | Specific types of biological cells. | [[Neutrophils]], [[Erythrocytes]], [[Chromaffin cells]] |
-| **Anatomy** | Organs, tissues, or physiological structures. | [[Adrenal gland]], [[Substantia nigra]], [[Lungs]] |
-| **Medical Condition** | Diseases, syndromes, or pathological states. | [[Methemoglobinemia]], [[Anaphylaxis]], [[Schizophrenia]] |
-| **Biological Process** | Normal or pathological biological events/pathways. | [[Inflammation]], [[Respiratory Burst]], [[Homeostasis]] |
-| **Chemical Process** | Specific chemical reactions or mechanisms. | [[Oxidation]], [[Michael addition]], [[Autoxidation]] |
-| **Diagnostic Test** | Procedures or tools for medical diagnosis. | [[ABG]], [[Pulse oximetry]], [[Co-oximetry]] |
-| **Analytical Technique**| Scientific methods used for laboratory analysis. | [[HPLC]], [[LC-MS]], [[Mass Spectrometry]], [[H-NMR]] |
-| **Medical Treatment** | Interventions, therapies, or procedures. | [[Exchange transfusion]], [[Hyperbaric oxygen]] |
-| **Medical Product** | Prepared devices or specific pharmaceutical products. | [[EpiPen]], [[Neffy]], [[Symjepi]] |
-| **Scientific Theory** | Hypotheses or scientific models. | [[Adrenochrome Hypothesis]], [[Dopamine hypothesis]] |
-| **Scientific Concept** | Broad scientific principles or mechanisms. | [[Redox Cycling]], [[Oxidative Stress]], [[Electrophile]] |
-| **Laboratory Standard** | Quality control and reference materials. | [[Reference standard]], [[Certificate of Analysis]], [[Impurity marker]] |
-| **Person** | Historical or scientific figures. | [[Abram Hoffer]], [[Humphry Osmond]] |
+- Relevance Score (1-10) 'entity_relevance_score': High for direct precursors (e.g., [[Epinephrine]]), metabolites (e.g., [[Adrenolutin]]), and central drivers of the oxidative pathway (e.g., [[Oxidative Stress]], [[Myeloperoxidase]]).
+- Sentiment Score (-1, 0, 1) 'entity_sentiment_score': Positive (1) for protective agents (e.g., [[Ascorbic Acid]]), life-saving treatments (e.g., [[EpiPen]]), and encouraged drivers of the adrenochrome pathway (e.g., [[Oxidative Stress]], [[Inflammation]]). Negative (-1) for adverse outcomes unrelated to the desired pathway (e.g., [[Cardiac arrest]], [[Anaphylaxis]]) or impurities. Neutral (0) for laboratory techniques or standard anatomical structures (e.g., [[HPLC]], [[Argon]], [[Lungs]]). 
+- For research and analysis, assume some [[Oxidative Stress]] and [[Inflammation]] are expected/encouraged in adrenochrome formation.
 
 ## Maintenance
-- Last updated: 25_May_2026 11:30 AM PDT
-- Total count of entities: 127
 
-| entity                               | datetime updated         | entity_type            | entity_relevance_score | entity_sentiment_score |
-| :----------------------------------- | :----------------------- | :--------------------- | :--------------------: | :--------------------: |
-| [[ABG]]                              | 20_May_2026 03:15 PM PDT | Diagnostic Test        |           4            |           0            |
-| [[Adrenal medulla]]                  | 24_May_2026 08:52 PM PDT | Anatomy                |           10           |           0            |
-| [[Adrenaline catabolism]]            | 24_May_2026 08:52 PM PDT | Biological Process     |           8            |           0            |
-| [[adrenaline-quinone]]               | 18_May_2026 11:53 AM PDT | Chemical Compound      |           10           |           -1           |
-| [[Adrenochrome Hypothesis]]          | 18_May_2026 11:53 AM PDT | Scientific Theory      |           9            |           0            |
-| [[Adrenochrome monoaminoguanidine]]  | 19_May_2026 02:30 PM PDT | Chemical Compound      |           10           |           1            |
-| [[Adrenochrome Pathway]]             | 25_May_2026 11:30 AM PDT | Biological Process     |           10           |           0            |
-| [[Adrenochrome sulfonate]]           | 18_May_2026 11:54 AM PDT | Chemical Compound      |           9            |           -1           |
-| [[Adrenochrome]]                     | 16_May_2026 05:14 PM PDT | Chemical Compound      |           10           |           -1           |
-| [[Adrenolutin]]                      | 16_May_2026 05:12 PM PDT | Chemical Compound      |           10           |           0            |
-| [[Aminochromes]]                     | 16_May_2026 05:12 PM PDT | Chemical Class         |           9            |           -1           |
-| [[Aminoguanidine]]                   | 19_May_2026 02:30 PM PDT | Chemical Compound      |           8            |           0            |
-| [[Amyl nitrite]]                     | 20_May_2026 03:15 PM PDT | Chemical Compound      |           5            |           -1           |
-| [[Anaphylaxis]]                      | 18_May_2026 11:53 AM PDT | Medical Condition      |           3            |           -1           |
-| [[Aniline dyes]]                     | 20_May_2026 03:15 PM PDT | Chemical Class         |           4            |           -1           |
-| [[Argon]]                            | 18_May_2026 11:53 AM PDT | Chemical Compound      |           2            |           0            |
-| [[Arrhythmias]]                      | 25_May_2026 11:30 AM PDT | Medical Condition      |           8            |           -1           |
-| [[Arterial blood gas]]               | 20_May_2026 03:15 PM PDT | Diagnostic Test        |           4            |           0            |
-| [[Ascorbic Acid]]                    | 18_May_2026 11:49 AM PDT | Chemical Compound      |           6            |           1            |
-| [[Assay]]                            | 18_May_2026 11:54 AM PDT | Laboratory Standard    |           2            |           0            |
-| [[Autoxidation]]                     | 18_May_2026 11:53 AM PDT | Chemical Process       |           8            |           -1           |
-| [[Benzocaine]]                       | 20_May_2026 03:15 PM PDT | Chemical Compound      |           5            |           -1           |
-| [[Bismuth]]                          | 19_May_2026 02:30 PM PDT | Chemical Compound      |           8            |           0            |
-| [[Bisulfite]]                        | 18_May_2026 11:54 AM PDT | Chemical Compound      |           6            |           0            |
-| [[Blue baby syndrome]]               | 20_May_2026 03:15 PM PDT | Medical Condition      |           4            |           -1           |
-| [[Carbazochrome]]                    | 16_May_2026 05:12 PM PDT | Chemical Compound      |           9            |           1            |
-| [[Cardiac arrest]]                   | 18_May_2026 11:53 AM PDT | Medical Condition      |           3            |           -1           |
-| [[Cardiomyocytes]]                   | 24_May_2026 08:52 PM PDT | Cell Type              |           7            |           0            |
-| [[Cardiotoxicity]]                   | 16_May_2026 05:12 PM PDT | Medical Condition      |           8            |           -1           |
-| [[Catecholamines]]                   | 16_May_2026 05:14 PM PDT | Chemical Class         |           8            |           0            |
-| [[Cell necrosis]]                    | 25_May_2026 11:30 AM PDT | Biological Process     |           7            |           -1           |
-| [[Certificate of Analysis]]          | 18_May_2026 11:53 AM PDT | Laboratory Standard    |           2            |           0            |
-| [[Chloroquine]]                      | 20_May_2026 03:15 PM PDT | Chemical Compound      |           4            |           -1           |
-| [[Chromaffin cells]]                 | 24_May_2026 08:52 PM PDT | Cell Type              |           9            |           0            |
-| [[Co-oximetry]]                      | 20_May_2026 03:15 PM PDT | Diagnostic Test        |           5            |           0            |
-| [[COMT]]                             | 16_May_2026 05:14 PM PDT | Enzyme                 |           6            |           0            |
-| [[Coronary artery constriction]]     | 25_May_2026 11:30 AM PDT | Medical Condition      |           8            |           -1           |
-| [[Cyanosis]]                         | 20_May_2026 03:15 PM PDT | Medical Condition      |           5            |           -1           |
-| [[Cysteine]]                         | 18_May_2026 11:54 AM PDT | Chemical Compound      |           5            |           1            |
-| [[Cytochrome b5 reductase]]          | 20_May_2026 03:15 PM PDT | Enzyme                 |           6            |           0            |
-| [[Dapsone]]                          | 20_May_2026 03:15 PM PDT | Chemical Compound      |           5            |           -1           |
-| [[Diaphorase]]                       | 20_May_2026 03:15 PM PDT | Enzyme                 |           5            |           0            |
-| [[Dopamine hypothesis]]              | 18_May_2026 11:53 AM PDT | Scientific Theory      |           4            |           0            |
-| [[Dopamine]]                         | 16_May_2026 05:18 PM PDT | Chemical Compound      |           7            |           0            |
-| [[Dopaminergic neurons]]             | 24_May_2026 08:52 PM PDT | Cell Type              |           7            |           0            |
-| [[Dopaminochrome]]                   | 16_May_2026 05:12 PM PDT | Chemical Compound      |           8            |           -1           |
-| [[EDTA]]                             | 18_May_2026 11:49 AM PDT | Chemical Compound      |           5            |           0            |
-| [[Endothelial cells]]                | 24_May_2026 08:52 PM PDT | Cell Type              |           6            |           0            |
-| [[Epinephrine]]                      | 16_May_2026 05:18 PM PDT | Chemical Compound      |           10           |           1            |
-| [[EpiPen]]                           | 18_May_2026 11:54 AM PDT | Medical Product        |           5            |           1            |
-| [[Erythrocytes]]                     | 18_May_2026 11:54 AM PDT | Cell Type              |           4            |           0            |
-| [[Exchange transfusion]]             | 20_May_2026 03:15 PM PDT | Medical Treatment      |           4            |           0            |
-| [[G6PD deficiency]]                  | 20_May_2026 03:15 PM PDT | Medical Condition      |           5            |           -1           |
-| [[H-NMR]]                            | 18_May_2026 11:53 AM PDT | Analytical Technique   |           2            |           0            |
-| [[Heart disease]]                    | 25_May_2026 11:30 AM PDT | Medical Condition      |           8            |           -1           |
-| [[Hemoglobin M]]                     | 20_May_2026 03:15 PM PDT | Protein                |           5            |           -1           |
-| [[Hemoglobin]]                       | 20_May_2026 03:15 PM PDT | Protein                |           6            |           0            |
-| [[Hemolysis]]                        | 20_May_2026 03:15 PM PDT | Biological Process     |           5            |           -1           |
-| [[Hemostatics]]                      | 19_May_2026 02:30 PM PDT | Chemical Class         |           7            |           1            |
-| [[Homeostasis]]                      | 18_May_2026 11:49 AM PDT | Biological Process     |           5            |           1            |
-| [[HPLC]]                             | 18_May_2026 11:53 AM PDT | Analytical Technique   |           2            |           0            |
-| [[Hydrazine]]                        | 19_May_2026 02:30 PM PDT | Chemical Compound      |           7            |           0            |
-| [[Hydrogen peroxide]]                | 16_May_2026 05:12 PM PDT | Chemical Compound      |           6            |           -1           |
-| [[Hydroxyl radical]]                 | 16_May_2026 05:12 PM PDT | Biological Molecule    |           6            |           -1           |
-| [[Hyperbaric oxygen]]                | 20_May_2026 03:15 PM PDT | Medical Treatment      |           4            |           1            |
-| [[Hypoxia]]                          | 20_May_2026 03:15 PM PDT | Medical Condition      |           5            |           -1           |
-| [[Impurity marker]]                  | 18_May_2026 11:53 AM PDT | Laboratory Standard    |           5            |           0            |
-| [[indoline-5,6-dione]]               | 18_May_2026 11:49 AM PDT | Chemical Compound      |           10           |           -1           |
-| [[Indoline]]                         | 16_May_2026 05:18 PM PDT | Chemical Compound      |           7            |           0            |
-| [[Inflammation]]                     | 16_May_2026 05:12 PM PDT | Biological Process     |           6            |           -1           |
-| [[Isobutyl nitrite]]                 | 20_May_2026 03:15 PM PDT | Chemical Compound      |           5            |           -1           |
-| [[LC-MS]]                            | 18_May_2026 11:53 AM PDT | Analytical Technique   |           2            |           0            |
-| [[Leuco-adrenochrome]]               | 18_May_2026 11:53 AM PDT | Chemical Compound      |           10           |           -1           |
-| [[Lidocaine]]                        | 20_May_2026 03:15 PM PDT | Chemical Compound      |           5            |           -1           |
-| [[Lungs]]                            | 16_May_2026 05:13 PM PDT | Anatomy                |           5            |           0            |
-| [[MAO]]                              | 16_May_2026 05:15 PM PDT | Enzyme                 |           6            |           0            |
-| [[Mass Spectrometry]]                | 18_May_2026 11:53 AM PDT | Analytical Technique   |           2            |           0            |
-| [[Melanins]]                         | 18_May_2026 11:49 AM PDT | Chemical Class         |           7            |           0            |
-| [[Metabolic waste]]                  | 18_May_2026 11:49 AM PDT | Scientific Concept     |           5            |           -1           |
-| [[Metanephrine]]                     | 25_May_2026 11:30 AM PDT | Chemical Compound      |           7            |           0            |
-| [[Methemoglobin]]                    | 20_May_2026 03:15 PM PDT | Protein                |           5            |           -1           |
-| [[Methemoglobinemia]]                | 20_May_2026 03:15 PM PDT | Medical Condition      |           5            |           -1           |
-| [[Methylene blue]]                   | 20_May_2026 03:15 PM PDT | Chemical Compound      |           6            |           1            |
-| [[Michael addition]]                 | 18_May_2026 11:49 AM PDT | Chemical Process       |           6            |           0            |
-| [[Myeloperoxidase]]                  | 16_May_2026 05:12 PM PDT | Enzyme                 |           7            |           0            |
-| [[Myocardial infarction]]            | 25_May_2026 11:30 AM PDT | Medical Condition      |           9            |           -1           |
-| [[Myocardium]]                       | 25_May_2026 11:30 AM PDT | Anatomy                |           7            |           0            |
-| [[NADH-dependent methemoglobin reductase]] | 20_May_2026 03:15 PM PDT | Enzyme                 |           6            |           0            |
-| [[Neffy]]                            | 18_May_2026 11:54 AM PDT | Medical Product        |           5            |           1            |
-| [[Neuromelanin]]                     | 16_May_2026 05:18 PM PDT | Chemical Compound      |           7            |           1            |
-| [[Neutrophils]]                      | 16_May_2026 05:12 PM PDT | Cell Type              |           6            |           0            |
-| [[Nitric oxide]]                     | 20_May_2026 03:15 PM PDT | Biological Molecule    |           5            |           0            |
-| [[Nitrobenzene]]                     | 20_May_2026 03:15 PM PDT | Chemical Compound      |           4            |           -1           |
-| [[Nitrogen gas]]                     | 18_May_2026 11:53 AM PDT | Chemical Compound      |           2            |           0            |
-| [[Norepinephrine]]                   | 24_May_2026 08:52 PM PDT | Chemical Compound      |           9            |           0            |
-| [[o-quinone]]                        | 18_May_2026 11:49 AM PDT | Chemical Compound      |           9            |           -1           |
-| [[Oxidative Stress]]                 | 16_May_2026 05:16 PM PDT | Scientific Concept     |           7            |           -1           |
-| [[Oxygen-dissociation curve]]        | 20_May_2026 03:15 PM PDT | Scientific Concept     |           5            |           0            |
-| [[Oxyhemoglobin]]                    | 18_May_2026 11:53 AM PDT | Protein                |           5            |           0            |
-| [[Peroxidation]]                     | 24_May_2026 08:52 PM PDT | Chemical Process       |           8            |           -1           |
-| [[Persulfates]]                      | 19_May_2026 02:30 PM PDT | Chemical Class         |           9            |           0            |
-| [[Plasma membrane]]                  | 24_May_2026 08:52 PM PDT | Anatomy                |           5            |           0            |
-| [[Polymerization]]                   | 18_May_2026 11:54 AM PDT | Chemical Process       |           6            |           0            |
-| [[Potassium ferricyanide]]           | 19_May_2026 02:30 PM PDT | Chemical Compound      |           8            |           0            |
-| [[Prilocaine]]                       | 20_May_2026 03:15 PM PDT | Chemical Compound      |           5            |           -1           |
-| [[Pulse oximetry]]                   | 20_May_2026 03:15 PM PDT | Diagnostic Test        |           5            |           0            |
-| [[Quality Control]]                  | 18_May_2026 11:53 AM PDT | Laboratory Standard    |           3            |           0            |
-| [[Quinone]]                          | 16_May_2026 05:18 PM PDT | Chemical Class         |           7            |           -1           |
-| [[Racemization]]                     | 18_May_2026 11:54 AM PDT | Chemical Process       |           4            |           -1           |
-| [[Rasburicase]]                      | 20_May_2026 03:15 PM PDT | Enzyme                 |           4            |           -1           |
-| [[Reactive Oxygen Species]]          | 16_May_2026 05:16 PM PDT | Chemical Class         |           7            |           -1           |
-| [[Redox cycle]]                      | 18_May_2026 11:53 AM PDT | Scientific Concept     |           8            |           -1           |
-| [[Redox Cycling]]                    | 16_May_2026 05:17 PM PDT | Scientific Concept     |           8            |           -1           |
-| [[Reference standard]]               | 18_May_2026 11:53 AM PDT | Laboratory Standard    |           3            |           0            |
-| [[Rheumatoid synovial fluid]]        | 24_May_2026 08:52 PM PDT | Anatomy                |           5            |           -1           |
-| [[Semicarbazide]]                    | 19_May_2026 02:30 PM PDT | Chemical Compound      |           8            |           0            |
-| [[Serum]]                            | 25_May_2026 11:30 AM PDT | Anatomy                |           4            |           0            |
-| [[Smoking]]                          | 16_May_2026 05:12 PM PDT | Scientific Concept     |           4            |           -1           |
-| [[Sodium hydrogencarbonate]]         | 19_May_2026 02:30 PM PDT | Chemical Compound      |           6            |           0            |
-| [[Sodium Metabisulfite]]             | 18_May_2026 11:49 AM PDT | Chemical Compound      |           6            |           0            |
-| [[Sodium nitrite]]                   | 20_May_2026 03:15 PM PDT | Chemical Compound      |           5            |           -1           |
-| [[Substantia nigra]]                 | 24_May_2026 08:52 PM PDT | Anatomy                |           7            |           0            |
-| [[Superoxide anion]]                 | 16_May_2026 05:16 PM PDT | Biological Molecule    |           7            |           -1           |
-| [[Superoxide Dismutase]]             | 18_May_2026 11:49 AM PDT | Enzyme                 |           6            |           1            |
-| [[Symjepi]]                          | 18_May_2026 11:54 AM PDT | Medical Product        |           5            |           1            |
-| [[Sympathetic nerve endings]]        | 24_May_2026 08:52 PM PDT | Anatomy                |           6            |           0            |
-| [[Thioglycerol]]                     | 18_May_2026 11:54 AM PDT | Chemical Compound      |           5            |           0            |
+- Last updated: 27_May_2026 01:28 PM 
+- Total count of entities: 143
+
+| entity                                     |   datetime updated   | entity_type_1          | entity_relevance_score | entity_sentiment_score | justification                                                                        |
+| :----------------------------------------- | :------------------: | :--------------------- | :--------------------: | :--------------------: | :----------------------------------------------------------------------------------- |
+| [[ABG]]                                    | 27_May_2026 01:28 PM | Diagnostic Test        |           4            |           0            | Standard clinical test for blood gases; neutral diagnostic tool.                     |
+| [[Abram Hoffer]]                           | 27_May_2026 01:28 PM | Person                 |           3            |           0            | Early researcher of the adrenochrome hypothesis; neutral figure.                     |
+| [[Adrenal gland]]                          | 27_May_2026 01:28 PM | Anatomy                |           9            |           0            | Organ housing the medulla; neutral anatomical structure.                             |
+| [[Adrenal medulla]]                        | 27_May_2026 01:28 PM | Anatomy                |           10           |           0            | Primary site of epinephrine production; neutral anatomical location.                 |
+| [[Adrenaline catabolism]]                  | 27_May_2026 01:28 PM | Biological Process     |           8            |           1            | Broad process including the formation of adrenochrome; positive driver.              |
+| [[adrenaline-quinone]]                     | 27_May_2026 01:28 PM | Chemical Compound      |           10           |           1            | Essential intermediate in the pathway; positive driver of cyclization.               |
+| [[Adrenochrome]]                           | 27_May_2026 01:28 PM | Chemical Compound      |           10           |           1            | The primary entity of research; central to the entire pathway.                       |
+| [[Adrenochrome Hypothesis]]                | 27_May_2026 01:28 PM | Scientific Theory      |           9            |           0            | Historical scientific model explaining schizophrenia; neutral theory.                |
+| [[Adrenochrome monoaminoguanidine]]        | 27_May_2026 01:28 PM | Chemical Compound      |           10           |           1            | Direct derivative of adrenochrome; positive result of chemical modification.         |
+| [[Adrenochrome Pathway]]                   | 27_May_2026 01:28 PM | Biological Process     |           10           |           1            | The core biological sequence of interest; positively viewed process.                 |
+| [[Adrenochrome sulfonate]]                 | 27_May_2026 01:28 PM | Chemical Compound      |           10           |           1            | Direct derivative of adrenochrome; positive result of chemical modification.         |
+| [[Adrenolutin]]                            | 27_May_2026 01:28 PM | Metabolite             |           10           |           0            | Major metabolite of adrenochrome; highly relevant but neutral outcome.               |
+| [[Aminochromes]]                           | 27_May_2026 01:28 PM | Chemical Class         |           9            |           1            | Class of compounds including adrenochrome; positive focus of study.                  |
+| [[Aminoguanidine]]                         | 27_May_2026 01:28 PM | Chemical Compound      |           8            |           1            | Reagent used to stabilize adrenochrome derivatives; positive chemical tool.          |
+| [[Ammonium Persulfate]]                    | 27_May_2026 01:28 PM | Chemical Compound      |           6            |           0            | Common laboratory oxidant; neutral chemical reagent.                                 |
+| [[Amyl nitrite]]                           | 27_May_2026 01:28 PM | Chemical Compound      |           5            |           -1           | Inducer of methemoglobinemia; negative chemical exposure.                            |
+| [[Anaphylaxis]]                            | 27_May_2026 01:28 PM | Medical Condition      |           3            |           -1           | Severe allergic reaction; negative medical condition.                                |
+| [[Aniline dyes]]                           | 27_May_2026 01:28 PM | Chemical Class         |           4            |           -1           | Industrial chemicals causing toxicity; negative chemical class.                      |
+| [[Antioxidants]]                           | 27_May_2026 01:28 PM | Pharmacological Action |           6            |           1            | Protective agents used to control the pathway; positive action.                      |
+| [[Argon]]                                  | 27_May_2026 01:28 PM | Chemical Compound      |           2            |           0            | Inert gas used for storage; neutral chemical compound.                               |
+| [[Arrhythmias]]                            | 27_May_2026 01:28 PM | Medical Condition      |           8            |           -1           | Potential toxic effect of adrenochrome; negative clinical sign.                      |
+| [[Arterial blood gas]]                     | 27_May_2026 01:28 PM | Diagnostic Test        |           4            |           0            | Laboratory measurement of blood oxygen; neutral diagnostic test.                     |
+| [[Ascorbic Acid]]                          | 27_May_2026 01:28 PM | Chemical Compound      |           6            |           1            | Potent antioxidant preventing over-oxidation; positive protective agent.             |
+| [[Assay]]                                  | 27_May_2026 01:28 PM | Analytical Technique   |           2            |           0            | General term for laboratory analysis; neutral analytical technique.                  |
+| [[Autoxidation]]                           | 27_May_2026 01:28 PM | Chemical Process       |           10           |           1            | Key chemical mechanism for adrenochrome formation; positive driver in this context.  |
+| [[Benzocaine]]                             | 27_May_2026 01:28 PM | Chemical Compound      |           5            |           -1           | Common drug causing methemoglobinemia; negative adverse trigger.                     |
+| [[Bismuth]]                                | 27_May_2026 01:28 PM | Chemical Compound      |           8            |           0            | Element used in some oxidative preparations; neutral chemical agent.                 |
+| [[Bisulfite]]                              | 27_May_2026 01:28 PM | Chemical Compound      |           6            |           0            | Used in stabilization of adrenochrome; neutral chemical agent.                       |
+| [[Blue baby syndrome]]                     | 27_May_2026 01:28 PM | Medical Condition      |           4            |           -1           | Pediatric methemoglobinemia; negative medical condition.                             |
+| [[Carbazochrome]]                          | 27_May_2026 01:28 PM | Chemical Compound      |           9            |           1            | Semi-synthetic derivative with medical applications; positive outcome.               |
+| [[Cardiac arrest]]                         | 27_May_2026 01:28 PM | Medical Condition      |           3            |           -1           | Termination of heart function; negative medical outcome.                             |
+| [[Cardiomyocytes]]                         | 27_May_2026 01:28 PM | Cell Type              |           7            |           0            | Cells targeted by adrenochrome toxicity; neutral anatomical target.                  |
+| [[Cardiotoxicity]]                         | 27_May_2026 01:28 PM | Adverse Effect         |           8            |           -1           | Primary toxic concern of adrenochrome; negative adverse effect.                      |
+| [[Catechol]]                               | 27_May_2026 01:28 PM | Chemical Compound      |           7            |           0            | Basic chemical structure of precursors; neutral chemical compound.                   |
+| [[Catecholamines]]                         | 27_May_2026 01:28 PM | Chemical Class         |           8            |           0            | Parent class of precursors; neutral chemical class.                                  |
+| [[Cell necrosis]]                          | 27_May_2026 01:28 PM | Biological Process     |           7            |           -1           | Severe outcome of high oxidative stress; negative biological process.                |
+| [[Certificate of Analysis]]                | 27_May_2026 01:28 PM | Laboratory Standard    |           2            |           0            | Document verifying purity; neutral laboratory standard.                              |
+| [[Chelating agents]]                       | 27_May_2026 01:28 PM | Pharmacological Action |           5            |           0            | Used to remove metal ions that catalyze oxidation; neutral agents.                   |
+| [[Chloroquine]]                            | 27_May_2026 01:28 PM | Chemical Compound      |           4            |           -1           | Drug linked to oxidative hemolysis; negative adverse trigger.                        |
+| [[Chromaffin cells]]                       | 27_May_2026 01:28 PM | Cell Type              |           9            |           0            | Specialized cells secreting precursors; neutral anatomical component.                |
+| [[Co-oximetry]]                            | 27_May_2026 01:28 PM | Diagnostic Test        |           5            |           0            | Method to measure blood gas levels; neutral diagnostic test.                         |
+| [[COMT]]                                   | 27_May_2026 01:28 PM | Enzyme                 |           9            |           0            | Enzyme competing with the oxidative pathway; highly relevant but neutral.            |
+| [[Coronary artery constriction]]           | 27_May_2026 01:28 PM | Adverse Effect         |           8            |           -1           | Pathophysiological effect of adrenochrome; negative outcome.                         |
+| [[Cyanosis]]                               | 27_May_2026 01:28 PM | Symptom                |           5            |           -1           | Visual sign of poor oxygenation; negative clinical symptom.                          |
+| [[Cysteine]]                               | 27_May_2026 01:28 PM | Chemical Compound      |           5            |           1            | Amino acid that can form adducts with aminochromes; positive driver.                 |
+| [[Cytochrome b5 reductase]]                | 27_May_2026 01:28 PM | Enzyme                 |           6            |           0            | Enzyme reducing methemoglobin; neutral protein.                                      |
+| [[Dapsone]]                                | 27_May_2026 01:28 PM | Chemical Compound      |           5            |           -1           | Drug known to cause oxidative stress; negative pharmacological agent.                |
+| [[Diaphorase]]                             | 27_May_2026 01:28 PM | Enzyme                 |           5            |           0            | Enzyme involved in redox reactions; neutral biological catalyst.                     |
+| [[Dopamine]]                               | 27_May_2026 01:28 PM | Chemical Compound      |           7            |           0            | Precursor to dopaminochrome; neutral starting material.                              |
+| [[Dopamine hypothesis]]                    | 27_May_2026 01:28 PM | Scientific Theory      |           4            |           0            | Alternative theory for schizophrenia; neutral scientific model.                      |
+| [[Dopaminergic neurons]]                   | 27_May_2026 01:28 PM | Cell Type              |           7            |           0            | Site of dopamine-derived aminochrome; neutral anatomical location.                   |
+| [[Dopaminochrome]]                         | 27_May_2026 01:28 PM | Chemical Compound      |           8            |           1            | Related aminochrome from dopamine oxidation; positive focus of study.                |
+| [[EDTA]]                                   | 27_May_2026 01:28 PM | Chemical Compound      |           5            |           0            | Common chelating agent; neutral chemical compound.                                   |
+| [[Electrophile]]                           | 27_May_2026 01:28 PM | Scientific Concept     |           6            |           0            | Chemical property of aminochromes; neutral scientific concept.                       |
+| [[Endothelial cells]]                      | 27_May_2026 01:28 PM | Cell Type              |           6            |           0            | Cells lining vessels where reactions occur; neutral location.                        |
+| [[Epinephrine]]                            | 27_May_2026 01:28 PM | Chemical Compound      |           10           |           1            | The primary precursor for adrenochrome; essential starting material.                 |
+| [[EpiPen]]                                 | 27_May_2026 01:28 PM | Medical Product        |           5            |           1            | Life-saving delivery of precursor; positive medical product.                         |
+| [[Erythrocytes]]                           | 27_May_2026 01:28 PM | Cell Type              |           7            |           0            | Cells involved in blood transport of precursors; neutral cell type.                  |
+| [[Exchange transfusion]]                   | 27_May_2026 01:28 PM | Medical Treatment      |           4            |           0            | Procedure to treat severe methemoglobinemia; neutral treatment.                      |
+| [[G6PD deficiency]]                        | 27_May_2026 01:28 PM | Medical Condition      |           5            |           -1           | Genetic condition increasing oxidative vulnerability; negative state.                |
+| [[Glutathione]]                            | 27_May_2026 01:28 PM | Biological Molecule    |           6            |           1            | Endogenous antioxidant regulating redox state; positive protective molecule.         |
+| [[H-NMR]]                                  | 27_May_2026 01:28 PM | Analytical Technique   |           2            |           0            | Spectroscopy technique for structure; neutral analytical method.                     |
+| [[Heart disease]]                          | 27_May_2026 01:28 PM | Medical Condition      |           8            |           -1           | Long-term consequence related to pathway dysregulation; negative state.              |
+| [[Hemoglobin]]                             | 27_May_2026 01:28 PM | Protein                |           6            |           0            | Oxygen carrier protein; neutral biological molecule.                                 |
+| [[Hemoglobin M]]                           | 27_May_2026 01:28 PM | Protein                |           5            |           -1           | Abnormal hemoglobin variant; negative genetic protein.                               |
+| [[Hemolysis]]                              | 27_May_2026 01:28 PM | Biological Process     |           5            |           -1           | Destruction of red blood cells; negative biological process.                         |
+| [[Hemostatics]]                            | 27_May_2026 01:28 PM | Pharmacological Action |           7            |           1            | Medical use of adrenochrome derivatives; positive pharmacological action.            |
+| [[HOCl-mediated Oxidation]]                | 27_May_2026 01:28 PM | Chemical Process       |           10           |           1            | Key enzymatic mechanism for adrenochrome formation; positive driver.                 |
+| [[Homeostasis]]                            | 27_May_2026 01:28 PM | Biological Process     |           5            |           1            | Balanced state the body tries to maintain; positive biological process.              |
+| [[HPLC]]                                   | 27_May_2026 01:28 PM | Analytical Technique   |           2            |           0            | Separation technique for purity; neutral analytical technique.                       |
+| [[Humphry Osmond]]                         | 27_May_2026 01:28 PM | Person                 |           3            |           0            | Psychiatrist who co-developed the hypothesis; neutral person.                        |
+| [[Hydrazine]]                              | 27_May_2026 01:28 PM | Chemical Compound      |           7            |           0            | Chemical used in synthesis/derivatization; neutral compound.                         |
+| [[Hydrogen peroxide]]                      | 27_May_2026 01:28 PM | Chemical Compound      |           10           |           1            | Critical oxidant in the pathway; positive driver of the reaction.                    |
+| [[Hydroxyl radical]]                       | 27_May_2026 01:28 PM | Biological Molecule    |           10           |           1            | Powerful reactive oxygen species driving the pathway; positive driver.               |
+| [[Hyperbaric oxygen]]                      | 27_May_2026 01:28 PM | Medical Treatment      |           4            |           1            | Treatment for severe hypoxia; positive medical intervention.                         |
+| [[Hypoxia]]                                | 27_May_2026 01:28 PM | Symptom                |           5            |           -1           | Lack of oxygen at tissue level; negative physiological symptom.                      |
+| [[Impurity marker]]                        | 27_May_2026 01:28 PM | Laboratory Standard    |           5            |           0            | Used in quality control; neutral laboratory standard.                                |
+| [[Indoline]]                               | 27_May_2026 01:28 PM | Chemical Compound      |           7            |           0            | Core bicyclic structure of adrenochrome; neutral chemical component.                 |
+| [[indoline-5,6-dione]]                     | 27_May_2026 01:28 PM | Chemical Compound      |           10           |           1            | Chemical name for adrenochrome; central to the research.                             |
+| [[Inflammation]]                           | 27_May_2026 01:28 PM | Biological Process     |           10           |           1            | Physiological state promoting oxidation and adrenochrome formation; positive driver. |
+| [[Isobutyl nitrite]]                       | 27_May_2026 01:28 PM | Chemical Compound      |           5            |           -1           | Volatile liquid causing methemoglobinemia; negative compound.                        |
+| [[LC-MS]]                                  | 27_May_2026 01:28 PM | Analytical Technique   |           2            |           0            | Analytical technique for identification; neutral method.                             |
+| [[Leuco-adrenochrome]]                     | 27_May_2026 01:28 PM | Chemical Compound      |           10           |           1            | Intermediate in the redox cycling of adrenochrome; highly relevant.                  |
+| [[Lidocaine]]                              | 27_May_2026 01:28 PM | Chemical Compound      |           5            |           -1           | Local anesthetic with methemoglobinemia risk; negative side effect.                  |
+| [[Lungs]]                                  | 27_May_2026 01:28 PM | Anatomy                |           5            |           0            | Organ involved in oxygenation; neutral anatomical structure.                         |
+| [[MAO]]                                    | 27_May_2026 01:28 PM | Enzyme                 |           9            |           0            | Enzyme competing with the oxidative pathway; highly relevant but neutral.            |
+| [[Mass Spectrometry]]                      | 27_May_2026 01:28 PM | Analytical Technique   |           2            |           0            | Method to determine molecular weight; neutral analytical tool.                       |
+| [[Melanins]]                               | 27_May_2026 01:28 PM | Chemical Class         |           7            |           0            | Broad class of pigments related to pathway end-products; neutral.                    |
+| [[Metabolic waste]]                        | 27_May_2026 01:28 PM | Scientific Concept     |           5            |           -1           | Generally unwanted byproducts of metabolism; negative category.                      |
+| [[Metanephrine]]                           | 27_May_2026 01:28 PM | Metabolite             |           7            |           0            | O-methylated metabolite of epinephrine; neutral pathway branch.                      |
+| [[Methemoglobin]]                          | 27_May_2026 01:28 PM | Protein                |           7            |           -1           | Oxidized hemoglobin; negative biomarker of oxidative stress.                         |
+| [[Methemoglobinemia]]                      | 27_May_2026 01:28 PM | Medical Condition      |           5            |           -1           | Pathological state of oxidized hemoglobin; negative medical condition.               |
+| [[Methylene blue]]                         | 27_May_2026 01:28 PM | Chemical Compound      |           6            |           1            | Treatment for methemoglobinemia; positive medical product.                           |
+| [[Michael addition]]                       | 27_May_2026 01:28 PM | Chemical Process       |           6            |           0            | Chemical reaction mechanism for adduct formation; neutral process.                   |
+| [[Myeloperoxidase]]                        | 27_May_2026 01:28 PM | Enzyme                 |           10           |           1            | Key enzyme responsible for epinephrine oxidation; essential positive driver.         |
+| [[Myeloperoxidase Pathway]]                | 27_May_2026 01:28 PM | Biological Process     |           10           |           1            | Primary enzymatic route for adrenochrome production; positive driver.                |
+| [[Myocardial infarction]]                  | 27_May_2026 01:28 PM | Medical Condition      |           9            |           -1           | Linked to high adrenochrome levels; negative pathological outcome.                   |
+| [[Myocardium]]                             | 27_May_2026 01:28 PM | Anatomy                |           7            |           0            | Heart muscle tissue involved in toxicological studies; neutral location.             |
+| [[NADH-dependent methemoglobin reductase]] | 27_May_2026 01:28 PM | Enzyme                 |           6            |           0            | Physiological reduction system; neutral enzyme.                                      |
+| [[Neffy]]                                  | 27_May_2026 01:28 PM | Medical Product        |           5            |           1            | Intranasal delivery of precursor; positive medical product.                          |
+| [[Neuromelanin]]                           | 27_May_2026 01:28 PM | Chemical Compound      |           7            |           1            | Polymerized byproduct of aminochrome pathways; positive biomarker.                   |
+| [[Neutrophils]]                            | 27_May_2026 01:28 PM | Cell Type              |           10           |           1            | Primary cell type producing the oxidants for the pathway; positive driver.           |
+| [[Nitric oxide]]                           | 27_May_2026 01:28 PM | Biological Molecule    |           5            |           0            | Signaling molecule that can interact with radicals; neutral.                         |
+| [[Nitrobenzene]]                           | 27_May_2026 01:28 PM | Chemical Compound      |           4            |           -1           | Toxic industrial solvent; negative chemical compound.                                |
+| [[Nitrogen gas]]                           | 27_May_2026 01:28 PM | Chemical Compound      |           2            |           0            | Used to provide inert atmosphere; neutral chemical compound.                         |
+| [[Norepinephrine]]                         | 27_May_2026 01:28 PM | Chemical Compound      |           9            |           1            | Secondary precursor that can also form aminochromes; positive driver.                |
+| [[o-quinone]]                              | 27_May_2026 01:28 PM | Chemical Compound      |           10           |           1            | Crucial reactive intermediate in the catecholamine oxidation; positive driver.       |
+| [[Oxidation]]                              | 27_May_2026 01:28 PM | Chemical Process       |           10           |           1            | The fundamental chemical reaction producing adrenochrome; positive driver.           |
+| [[Oxidative Stress]]                       | 27_May_2026 01:28 PM | Scientific Concept     |           10           |           1            | Necessary environment for the adrenochrome pathway to thrive; positive driver.       |
+| [[Oxygen-dissociation curve]]              | 27_May_2026 01:28 PM | Scientific Concept     |           5            |           0            | Concept related to oxygen transport; neutral scientific principle.                   |
+| [[Oxyhemoglobin]]                          | 27_May_2026 01:28 PM | Protein                |           5            |           0            | Oxygenated form of hemoglobin; neutral protein state.                                |
+| [[Peroxidation]]                           | 27_May_2026 01:28 PM | Chemical Process       |           8            |           1            | Specific oxidative mechanism relevant to the pathway; positive driver.               |
+| [[Persulfates]]                            | 27_May_2026 01:28 PM | Chemical Class         |           9            |           0            | Oxidants used in synthetic preparation; neutral laboratory reagents.                 |
+| [[Plasma membrane]]                        | 27_May_2026 01:28 PM | Anatomy                |           5            |           0            | Cell boundary where reactions may occur; neutral anatomy.                            |
+| [[Polymerization]]                         | 27_May_2026 01:28 PM | Chemical Process       |           6            |           0            | Process leading to melanin formation; neutral chemical process.                      |
+| [[Potassium ferricyanide]]                 | 27_May_2026 01:28 PM | Chemical Compound      |           8            |           0            | Classical oxidant for adrenochrome synthesis; neutral reagent.                       |
+| [[Potassium Persulfate]]                   | 27_May_2026 01:28 PM | Chemical Compound      |           6            |           0            | Laboratory oxidant; neutral chemical compound.                                       |
+| [[Prilocaine]]                             | 27_May_2026 01:28 PM | Chemical Compound      |           5            |           -1           | Local anesthetic causing methemoglobinemia; negative drug effect.                    |
+| [[Pulse oximetry]]                         | 27_May_2026 01:28 PM | Diagnostic Test        |           5            |           0            | Non-invasive oxygen monitoring; neutral diagnostic tool.                             |
+| [[Quality Control]]                        | 27_May_2026 01:28 PM | Laboratory Standard    |           3            |           0            | Standard laboratory practices; neutral scientific concept.                           |
+| [[Quinone]]                                | 27_May_2026 01:28 PM | Chemical Class         |           7            |           1            | Reactive chemical class driving the pathway; positive driver.                        |
+| [[Racemization]]                           | 27_May_2026 01:28 PM | Chemical Process       |           4            |           -1           | Loss of optical purity in chemicals; negative chemical process.                      |
+| [[Rasburicase]]                            | 27_May_2026 01:28 PM | Enzyme                 |           4            |           -1           | Drug that can trigger methemoglobinemia; negative adverse effect.                    |
+| [[Reactive Oxygen Species]]                | 27_May_2026 01:28 PM | Chemical Class         |           10           |           1            | Group of molecules that drive the oxidation process; positive drivers.               |
+| [[Redox cycle]]                            | 27_May_2026 01:28 PM | Scientific Concept     |           8            |           1            | Continuous reaction mechanism for adrenochrome; positive driver.                     |
+| [[Redox Cycling]]                          | 27_May_2026 01:28 PM | Scientific Concept     |           8            |           1            | Mechanism of action for aminochromes; positive driver of interest.                   |
+| [[Reference standard]]                     | 27_May_2026 01:28 PM | Laboratory Standard    |           3            |           0            | High-purity material for analysis; neutral laboratory standard.                      |
+| [[Respiratory Burst]]                      | 27_May_2026 01:28 PM | Biological Process     |           10           |           1            | Event in neutrophils that provides necessary oxidants; positive driver.              |
+| [[Rheumatoid synovial fluid]]              | 27_May_2026 01:28 PM | Anatomy                |           5            |           0            | Environment where high oxidation is noted; neutral location.                         |
+| [[Schizophrenia]]                          | 27_May_2026 01:28 PM | Medical Condition      |           5            |           0            | Condition historically linked to the pathway; neutral medical state.                 |
+| [[Semicarbazide]]                          | 27_May_2026 01:28 PM | Chemical Compound      |           8            |           0            | Used to form stable adrenochrome derivatives; neutral chemical agent.                |
+| [[Serum]]                                  | 27_May_2026 01:28 PM | Anatomy                |           4            |           0            | Fluid component of blood; neutral anatomical component.                              |
+| [[Smoking]]                                | 27_May_2026 01:28 PM | Scientific Concept     |           4            |           -1           | Source of oxidative stress and toxins; negative scientific concept.                  |
+| [[Sodium hydrogencarbonate]]               | 27_May_2026 01:28 PM | Chemical Compound      |           6            |           0            | pH buffer used in reactions; neutral chemical agent.                                 |
+| [[Sodium Metabisulfite]]                   | 27_May_2026 01:28 PM | Chemical Compound      |           6            |           0            | Antioxidant used as a stabilizer; neutral agent.                                     |
+| [[Sodium nitrite]]                         | 27_May_2026 01:28 PM | Chemical Compound      |           5            |           -1           | Chemical oxidant causing methemoglobinemia; negative agent.                          |
+| [[Sodium Persulfate]]                      | 27_May_2026 01:28 PM | Chemical Compound      |           6            |           0            | Laboratory oxidant; neutral chemical compound.                                       |
+| [[Substantia nigra]]                       | 27_May_2026 01:28 PM | Anatomy                |           9            |           0            | Brain region where aminochrome formation is significant; neutral location.           |
+| [[Superoxide anion]]                       | 27_May_2026 01:28 PM | Biological Molecule    |           10           |           1            | Key reactive species initiating the oxidative cascade; positive driver.              |
+| [[Superoxide Dismutase]]                   | 27_May_2026 01:28 PM | Enzyme                 |           6            |           1            | Enzyme neutralizing superoxide; positive protective agent.                           |
+| [[Symjepi]]                                | 27_May_2026 01:28 PM | Medical Product        |           5            |           1            | Prefilled syringe of precursor; positive medical product.                            |
+| [[Sympathetic nerve endings]]              | 27_May_2026 01:28 PM | Anatomy                |           6            |           0            | Site of catecholamine release; neutral anatomical structure.                         |
+| [[Thioglycerol]]                           | 27_May_2026 01:28 PM | Chemical Compound      |           5            |           0            | Reducing agent used in experiments; neutral chemical agent.                          |

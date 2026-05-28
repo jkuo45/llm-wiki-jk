@@ -1,9 +1,9 @@
 # Prompts
 
 ## Subject Object Relation Triples
-From the following file: 
+From the following file(s):
 
-'[document] Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology.md'
+'path/to/file'
 
 Extract all key factual triples in JSON format: 
 [{"subject": "...", "predicate": "...", "object": "...", "context": "brief quote or explanation", "confidence": "high/medium/low"}]
@@ -25,7 +25,7 @@ create an infographic to explain the concept(s) below. english and zh-TW text. o
 
 ## Create directed graph analysis
 
-within the scripts directory, create a python script to analyze Digraph, graphviz from this file:
+within the scripts directory, create a python script to analyze Digraph, graphviz from the following file(s):
 
 'path/to/file'
 

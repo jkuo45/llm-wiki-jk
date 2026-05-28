@@ -8,5 +8,10 @@ They are generally considered antioxidants but can exert prooxidant effects unde
 
 ## Connections
 - [[Flavonoids]]
-- [[oxidative_stress/Oxidative Stress]]
+- [[Oxidative Stress]]
 - [[Cancer]]
+
+### Linking Summary:
+- New links added: [[Flavonoids]], [[Oxidative Stress]], [[Cancer]]
+- Suggested new entity notes to create: [[Phenol units]], [[Prooxidant effects]]
+- Strong connections to strengthen: [[Polyphenols]] ↔ [[Flavonoids]]

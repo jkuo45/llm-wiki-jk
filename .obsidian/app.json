@@ -4,7 +4,8 @@
     "/.*README\\.md/",
     "/.*GEMINI\\.md/",
     "/(^|\\/)\\[document\\].*/",
-    "/^tasks//"
+    "/^tasks//",
+    "/^prompts//"
   ],
   "newFileLocation": "current",
   "attachmentFolderPath": "./"

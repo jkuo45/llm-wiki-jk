@@ -23,9 +23,7 @@ This directory contains notes and articles related to [[Autophagy]] and its role
 |Atg16|15_May_2026 01:45 PM PDT|
 |Atg101|25_May_2026 11:00 AM PDT|
 |Autophagosome|15_May_2026 01:45 PM PDT|
-|Autophagy and intermittent fasting the connection for cancer therapy?|25_May_2026 11:00 AM PDT|
 |Autophagy Inducer|15_May_2026 01:25 PM PDT|
-|Autophagy takes it all – autophagy inducers target immune aging|15_May_2026 01:21 PM PDT|
 |Autophagic Flux|25_May_2026 10:00 AM PDT|
 |B Cell|25_May_2026 10:00 AM PDT|
 |Beclin1|15_May_2026 01:45 PM PDT|
@@ -93,7 +91,6 @@ This directory contains notes and articles related to [[Autophagy]] and its role
 |TAME Trial|15_May_2026 01:25 PM PDT|
 |TFEB|15_May_2026 01:25 PM PDT|
 |TP53|25_May_2026 11:00 AM PDT|
-|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|15_May_2026 01:45 PM PDT|
 |Thymic Involution|15_May_2026 01:25 PM PDT|
 |ULK1|15_May_2026 01:45 PM PDT|
 |Yoshinori Ohsumi|25_May_2026 11:00 AM PDT|
