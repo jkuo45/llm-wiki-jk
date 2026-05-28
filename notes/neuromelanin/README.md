@@ -1,42 +1,38 @@
-# README.md
+# Neuromelanin
 
-# Neuromelanin and Parkinson's Disease Knowledge Base
-
-This directory contains a collection of notes exploring the relationship between [[Neuromelanin]], brain aging, and the pathogenesis of [[Parkinson's Disease]].
+This directory contains notes and research regarding [[Neuromelanin]], its biosynthesis in dopaminergic and noradrenergic neurons, accumulation in the [[Substantia Nigra]] and [[Locus Coeruleus]], role in iron binding and oxidative stress, and its involvement in [[Parkinson's Disease]], [[Lewy Bodies]], and related neurodegenerative processes. The central theme of this research is the role of neuromelanin as a key factor in the selective vulnerability of catecholaminergic neurons in Parkinson's disease. While initially a neuroprotective antioxidant, its age-dependent accumulation may eventually cross a [[Pathogenic Threshold of Neuromelanin]], leading to cellular dysfunction and neurodegeneration.
 
 ## Maintenance
-- **Last Updated:** 16_May_2026 12:00 PM UTC
-- **Total Entities:** 28
 
-| entity/term | datetime updated |
-| :--- | :--- |
-| [[Neuromelanin]] | 08_May_2026 05:30 PM UTC |
-| [[Substantia Nigra]] | 08_May_2026 05_30 PM UTC |
-| [[Parkinson's Disease]] | 08_May_2026 05:35 PM UTC |
-| [[Alpha-Synuclein]] | 08_May_2026 05:35 PM UTC |
-| [[Lewy Bodies]] | 08_May_2026 05:35 PM UTC |
-| [[Dopamine]] | 08_May_2026 05:40 PM UTC |
-| [[Tyrosinase]] | 08_May_2026 05:40 PM UTC |
-| [[Neuroinflammation]] | 08_May_2026 05:40 PM UTC |
-| [[L-DOPA]] | 08_May_2026 05:42 PM UTC |
-| [[Tyrosine Hydroxylase]] | 08_May_2026 05:42 PM UTC |
-| [[Substantia Nigra Pars Compacta]] | 08_May_2026 05:42 PM UTC |
-| [[Microgliosis]] | 08_May_2026 05:42 PM UTC |
-| [[neuromelanin/Oxidative Stress]] | 08_May_2026 05:42 PM UTC |
-| [[Locus Coeruleus]] | 08_May_2026 05:44 PM UTC |
-| [[Ventral Tegmental Area]] | 08_May_2026 05:44 PM UTC |
-| [[Autophagy]] | 08_May_2026 05:44 PM UTC |
-| [[Ubiquitin-proteasome system]] | 08_May_2026 05:44 PM UTC |
-| [[Mitochondrial Dysfunction]] | 08_May_2026 05:44 PM UTC |
-| [[Incidental Lewy Body Disease]] | 08_May_2026 05:45 PM UTC |
-| [[Neuronophagia]] | 08_May_2026 05:45 PM UTC |
-| [[MPTP]] | 08_May_2026 05:45 PM UTC |
-| [[Vesicular Monoamine Transporter 2]] | 08_May_2026 05:45 PM UTC |
-| [[Pathogenic Threshold of Neuromelanin]] | 08_May_2026 05:45 PM UTC |
-| [[Dorsal Motor Nucleus of the Vagus]] | 08_May_2026 05:46 PM UTC |
-| [[Cutaneous Melanoma]] | 08_May_2026 05:46 PM UTC |
-| [[Nigrostriatal System]] | 08_May_2026 05:46 PM UTC |
-| [[Proteostasis]] | 16_May_2026 12:00 PM UTC |
+- Last updated: 27_May_2026 11:29 AM 
+- Total count of entities: 27
 
-## Overview
-The central theme of this research is the role of neuromelanin as a key factor in the selective vulnerability of catecholaminergic neurons in Parkinson's disease. While initially a neuroprotective antioxidant, its age-dependent accumulation may eventually cross a [[Pathogenic Threshold of Neuromelanin]], leading to cellular dysfunction and neurodegeneration.
+| entity | datetime updated |
+| :--- | :---: |
+| [[Alpha-Synuclein]] | 25_May_2026 05:23 PM  |
+| [[Autophagy]] | 27_May_2026 09:48 AM  |
+| [[Cutaneous Melanoma]] | 25_May_2026 05:23 PM  |
+| [[Dopamine]] | 27_May_2026 11:21 AM  |
+| [[Dorsal Motor Nucleus of the Vagus]] | 25_May_2026 05:23 PM  |
+| [[Incidental Lewy Body Disease]] | 25_May_2026 05:23 PM  |
+| [[L-DOPA]] | 25_May_2026 05:23 PM  |
+| [[Lewy Bodies]] | 25_May_2026 05:23 PM  |
+| [[Locus Coeruleus]] | 25_May_2026 05:23 PM  |
+| [[Microgliosis]] | 25_May_2026 05:23 PM  |
+| [[Mitochondrial Dysfunction]] | 25_May_2026 05:23 PM  |
+| [[MPTP]] | 25_May_2026 05:23 PM  |
+| [[Neuroinflammation]] | 25_May_2026 05:23 PM  |
+| [[Neuromelanin]] | 25_May_2026 05:23 PM  |
+| [[Neuronophagia]] | 25_May_2026 05:23 PM  |
+| [[Nigrostriatal System]] | 25_May_2026 05:23 PM  |
+| [[Oxidative Stress]] | 25_May_2026 05:23 PM  |
+| [[Parkinson's Disease]] | 25_May_2026 05:23 PM  |
+| [[Pathogenic Threshold of Neuromelanin]] | 27_May_2026 09:46 AM  |
+| [[Proteostasis]] | 27_May_2026 09:46 AM  |
+| [[Substantia Nigra Pars Compacta]] | 25_May_2026 05:23 PM  |
+| [[Substantia Nigra]] | 25_May_2026 05:23 PM  |
+| [[Tyrosinase]] | 25_May_2026 05:23 PM  |
+| [[Tyrosine Hydroxylase]] | 25_May_2026 05:23 PM  |
+| [[Ubiquitin-proteasome system]] | 25_May_2026 05:23 PM  |
+| [[Ventral Tegmental Area]] | 25_May_2026 05:23 PM  |
+| [[Vesicular Monoamine Transporter 2]] | 25_May_2026 05:23 PM  |
