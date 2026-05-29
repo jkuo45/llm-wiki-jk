@@ -1,6 +1,6 @@
 # Aminochromes
 
-**Aminochromes** are a class of deep-colored, cyclic indole-quinone compounds formed by the [[Oxidation]] of [[Catecholamines]]. They are key intermediates in the formation of melanins and are associated with [[Oxidative Stress]].
+**Aminochromes** are a class of deep-colored, cyclic indole-quinone compounds formed by the [[Oxidation]] of [[Catecholamines]]. They are key intermediates in the formation of melanins and are associated with [[notes/comt/Oxidative stress]].
 
 ## Key Examples
 - [[Adrenochrome]]: Derived from the oxidation of [[Epinephrine]].
@@ -23,8 +23,8 @@ The formation of aminochromes is often a sign of excessive catecholamine oxidati
 - [[Adrenochrome]] ↔ A prominent member of the aminochrome family.
 - [[Dopaminochrome]] ↔ Another prominent aminochrome.
 - [[Neuromelanin]] ↔ The dark pigment formed by aminochrome polymerization.
-- [[Oxidative Stress]] ↔ The condition that promotes aminochrome formation.
+- [[notes/comt/Oxidative stress]] ↔ The condition that promotes aminochrome formation.
 
 ### Linking Summary:
-- New links added: [[Aminochromes]], [[Oxidation]], [[Catecholamines]], [[Adrenochrome]], [[Epinephrine]], [[Dopaminochrome]], [[Dopamine]], [[Neuromelanin]], [[Redox Cycling]], [[Superoxide anion]], [[Oxidative Stress]], [[Cardiotoxicity]]
+- New links added: [[Aminochromes]], [[Oxidation]], [[Catecholamines]], [[Adrenochrome]], [[Epinephrine]], [[Dopaminochrome]], [[Dopamine]], [[Neuromelanin]], [[Redox Cycling]], [[Superoxide anion]], [[notes/comt/Oxidative stress]], [[Cardiotoxicity]]
 - Strong connections to strengthen: [[Aminochromes]] ↔ [[Catecholamines]]

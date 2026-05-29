@@ -1,7 +1,7 @@
 # NF-kappa B
 
 ## Definition
-Nuclear factor-kappa B (NF-κB) is a protein complex that functions as a central transcription factor in the regulation of [[Immunity]], [[Apoptosis]], and inflammation. It is highly "redox-sensitive."
+Nuclear factor-kappa B (NF-κB) is a protein complex that functions as a central transcription factor in the regulation of [[Immunity]], [[notes/_link/Apoptosis]], and inflammation. It is highly "redox-sensitive."
 
 ## Biological Role
 - **Activation:** Inactive in the cytoplasm (bound to IκB); oxidative stress triggers its translocation to the nucleus.
@@ -17,6 +17,6 @@ Nuclear factor-kappa B (NF-κB) is a protein complex that functions as a central
 - [[Atherosclerosis]]: Plays a central role in the vascular inflammation driven by oxidative stress.
 
 ### Linking Summary:
-- New links added: [[Immunity]], [[Apoptosis]], [[TNF-alpha]], [[IL-1b]], [[VCAM-1]], [[NADPH Oxidase]], [[oxidative_stress/Oxidative Stress]], [[Atherosclerosis]]
+- New links added: [[Immunity]], [[notes/_link/Apoptosis]], [[TNF-alpha]], [[IL-1b]], [[VCAM-1]], [[NADPH Oxidase]], [[oxidative_stress/Oxidative Stress]], [[Atherosclerosis]]
 - Suggested new entity notes to create: [[IκB]], [[IKK Complex]], [[Pro-inflammatory Cytokines]]
 - Strong connections to strengthen: [[NF-kappa B]] ↔ [[oxidative_stress/Oxidative Stress]]

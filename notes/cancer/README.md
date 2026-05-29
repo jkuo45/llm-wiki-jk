@@ -1,6 +1,6 @@
 # Cancer
 
-This directory contains notes and research regarding [[Cancer]], with a primary focus on drug repurposing, alternative mechanisms, and non-conventional approaches. Emphasis is placed on antiparasitic agents such as [[Ivermectin]], [[Fenbendazole]], [[Mebendazole]], and [[Albendazole]], as well as [[Melittin]] and components of [[Honeybee]] venom ([[Apis mellifera]]), and their potential effects on cancer cell pathways. Special attention is given to mechanisms including [[Apoptosis]], [[Autophagy]], [[Angiogenesis]] inhibition, [[Oxidative Stress]], [[Warburg Effect]], [[Metabolic Reprogramming]], and disruption of [[Microtubule]] dynamics, along with connections to specific cancer types (e.g., [[triple-negative breast cancer]], [[Colorectal Cancer]], [[glioblastoma]]) and the [[Hallmarks of Cancer]].
+This directory contains notes and research regarding [[Cancer]], with a primary focus on drug repurposing, alternative mechanisms, and non-conventional approaches. Emphasis is placed on antiparasitic agents such as [[Ivermectin]], [[Fenbendazole]], [[Mebendazole]], and [[Albendazole]], as well as [[Melittin]] and components of [[Honeybee]] venom ([[Apis mellifera]]), and their potential effects on cancer cell pathways. Special attention is given to mechanisms including [[notes/cancer/apoptosis]], [[Autophagy]], [[Angiogenesis]] inhibition, [[notes/comt/Oxidative stress]], [[Warburg Effect]], [[Metabolic Reprogramming]], and disruption of [[Microtubule]] dynamics, along with connections to specific cancer types (e.g., [[triple-negative breast cancer]], [[Colorectal Cancer]], [[glioblastoma]]) and the [[Hallmarks of Cancer]].
 
 
 ## Maintenance
@@ -19,7 +19,7 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[Annexin V]]                                          | 19_May_2026 08:16 PM PDT  |
 | [[Apis mellifera]]                                     | 19_May_2026 08:16 PM PDT  |
 | [[apitherapy]]                                         | 19_May_2026 08:16 PM PDT  |
-| [[apoptosis]]                                          | 21_May_2026 06:45 PM PDT  |
+| [[notes/cancer/apoptosis]]                                          | 21_May_2026 06:45 PM PDT  |
 | [[Ascariasis]]                                         | 21_May_2026 06:20 PM PDT  |
 | [[Ascaris]]                                            | 21_May_2026 06:20 PM PDT  |
 | [[Autophagy]]                                          | 21_May_2026 05:45 PM PDT  |
@@ -102,7 +102,7 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[Onchocerciasis Chemotherapy Research Centre]]        | 21_May_2026 06:20 PM PDT  |
 | [[ovarian cancer]]                                     | 21_May_2026 06:45 PM PDT  |
 | [[Oxfendazole]]                                        | 21_May_2026 06:45 PM PDT  |
-| [[Oxidative Stress]]                                   | 21_May_2026 06:45 PM PDT  |
+| [[notes/comt/Oxidative stress]]                                   | 21_May_2026 06:45 PM PDT  |
 | [[p53]]                                                | 21_May_2026 06:45 PM PDT  |
 | [[PAK1]]                                               | 21_May_2026 05:45 PM PDT  |
 | [[pancreatic cancer]]                                  | 19_May_2026 08:16 PM PDT  |

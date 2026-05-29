@@ -15,10 +15,10 @@ Pyroptosis can inhibit tumor growth by inducing cell death and stimulating an in
 
 ## Connections
 - [[Ivermectin]]: Induces pyroptosis in certain cancer types.
-- [[Apoptosis]]: Pyroptosis is a form of programmed cell death distinct from apoptosis.
+- [[notes/cancer/apoptosis]]: Pyroptosis is a form of programmed cell death distinct from apoptosis.
 - [[NLRP3]]: A common inflammasome involved in pyroptosis.
 
 ## Linking Summary
-- New links added: [[Ivermectin]], [[apoptosis]], [[NLRP3]].
+- New links added: [[Ivermectin]], [[notes/cancer/apoptosis]], [[NLRP3]].
 - Suggested new entity notes to create: [[ASC]], [[NLRP3]], [[GSDMD]].
 - Strong connections to strengthen: [[Pyroptosis]] ↔ [[Ivermectin]]

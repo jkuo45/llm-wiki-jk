@@ -8,7 +8,7 @@ Ivermectin has been reported to inhibit the proliferation of several tumor cells
 ### Mechanisms of Action
 - **Inhibition of Signaling Pathways:** Regulates [[Wnt/β-catenin]], [[Akt/mTOR]], and [[MAPK]] pathways.
 - **Molecular Targets:** Primarily acts as a [[PAK1]] inhibitor. Also inhibits [[YAP1]], [[HSP27]], and [[KPNB1]].
-- **Programmed Cell Death:** Induces [[apoptosis]], [[autophagy]], and [[pyroptosis]].
+- **Programmed Cell Death:** Induces [[notes/cancer/apoptosis]], [[Autophagy]], and [[pyroptosis]].
 - **Tumor Microenvironment:** Regulates the tumor microenvironment and mediates immunogenic cell death (e.g., through [[HMGB1]] release).
 - **Cancer Stem Cells:** Inhibits [[Cancer Stem Cells]] (CSCs) by regulating the [[PAK1]]-[[STAT3]] axis.
 - **Multidrug Resistance:** Reverses [[Multidrug Resistance]] (MDR) by inhibiting [[P-gp]] and other MDR-associated proteins.
@@ -24,6 +24,6 @@ Ivermectin shows synergistic effects when used in combination with other chemoth
 - [[Multidrug Resistance]]: Ivermectin reverses MDR by inhibiting [[P-gp]].
 
 ## Linking Summary
-- New links added: [[avermectin]], [[PAK1]], [[YAP1]], [[HSP27]], [[KPNB1]], [[apoptosis]], [[autophagy]], [[pyroptosis]], [[HMGB1]], [[Cancer Stem Cells]], [[Multidrug Resistance]], [[P-gp]], [[cisplatin]], [[docetaxel]], [[paclitaxel]], [[daunorubicin]], [[cytarabine]], [[erlotinib]], [[dasatinib]], [[dabrafenib]], [[Akt]], [[mTOR]], [[Wnt]], [[MAPK]].
-- Suggested new entity notes to create: [[avermectin]], [[PAK1]], [[YAP1]], [[HSP27]], [[KPNB1]], [[autophagy]], [[pyroptosis]], [[HMGB1]], [[Cancer Stem Cells]], [[Multidrug Resistance]], [[P-gp]], [[Wnt]], [[MAPK]].
+- New links added: [[avermectin]], [[PAK1]], [[YAP1]], [[HSP27]], [[KPNB1]], [[notes/cancer/apoptosis]], [[Autophagy]], [[pyroptosis]], [[HMGB1]], [[Cancer Stem Cells]], [[Multidrug Resistance]], [[P-gp]], [[cisplatin]], [[docetaxel]], [[paclitaxel]], [[daunorubicin]], [[cytarabine]], [[erlotinib]], [[dasatinib]], [[dabrafenib]], [[Akt]], [[mTOR]], [[Wnt]], [[MAPK]].
+- Suggested new entity notes to create: [[avermectin]], [[PAK1]], [[YAP1]], [[HSP27]], [[KPNB1]], [[Autophagy]], [[pyroptosis]], [[HMGB1]], [[Cancer Stem Cells]], [[Multidrug Resistance]], [[P-gp]], [[Wnt]], [[MAPK]].
 - Strong connections to strengthen: [[Ivermectin]] ↔ [[PAK1]], [[Ivermectin]] ↔ [[Multidrug Resistance]]

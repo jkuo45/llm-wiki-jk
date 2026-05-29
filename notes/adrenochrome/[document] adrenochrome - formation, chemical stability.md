@@ -66,7 +66,7 @@ To understand how [[Epinephrine]] becomes [[Adrenochrome]], it helps to visualiz
 - **The Starting Point ([[Catechol]]):**
 	[[Epinephrine]] consists of a benzene ring with two hydroxyl groups (-OH) attached (the [[Catechol]]) and a "tail" (the amine side chain).
 - **The Oxidation (The "Trigger"):**
-	Under [[Oxidative Stress]] (or in the presence of oxygen in a test tube), the two hydroxyl groups lose hydrogen atoms (or electrons). This transforms the stable [[Catechol]] ring into an**
+	Under [[notes/comt/Oxidative stress]] (or in the presence of oxygen in a test tube), the two hydroxyl groups lose hydrogen atoms (or electrons). This transforms the stable [[Catechol]] ring into an**
 	[[o-quinone]]
 	**.
 	- Why this matters:
@@ -99,7 +99,7 @@ The difference between these two environments is important for understanding why
 	- Therefore, for [[Adrenochrome]] to form
 		in vivo
 		, you need**
-		[[Oxidative Stress]]
+		[[notes/comt/Oxidative stress]]
 		**. This means there is so much adrenaline present, or so many [[Reactive Oxygen Species]] ([[ROS]]) present, that the "cleanup crews" are overwhelmed. The adrenaline is left sitting in the bloodstream/tissues too long, and the chemical "accident" (autoxidation) occurs.
 
 ### 3\. Why it is a "Side Pathway"
@@ -261,6 +261,6 @@ In the body, you have internal systems designed specifically to prevent this pat
 	[[Adrenochrome]] is not a substance the body creates for a purpose; it is a chemical "scar" that forms when the body’s antioxidant protective barriers have been stripped away and the adrenaline has been left to decay.
 
 ### Linking Summary:
-- New links added: [[Adrenochrome]], [[Epinephrine]], [[Catechol]], [[o-quinone]], [[Michael addition]], [[indoline-5,6-dione]], [[MAO]], [[COMT]], [[Reactive Oxygen Species]], [[ROS]], [[Oxidative Stress]], [[Metabolic waste]], [[Homeostasis]], [[Ascorbic Acid]], [[Glutathione]], [[Sodium Metabisulfite]], [[EDTA]], [[Melanins]], [[Superoxide Dismutase]].
+- New links added: [[Adrenochrome]], [[Epinephrine]], [[Catechol]], [[o-quinone]], [[Michael addition]], [[indoline-5,6-dione]], [[MAO]], [[COMT]], [[Reactive Oxygen Species]], [[ROS]], [[notes/comt/Oxidative stress]], [[Metabolic waste]], [[Homeostasis]], [[Ascorbic Acid]], [[Glutathione]], [[Sodium Metabisulfite]], [[EDTA]], [[Melanins]], [[Superoxide Dismutase]].
 - Suggested new entity notes to create: [[o-quinone]], [[indoline-5,6-dione]], [[Michael addition]], [[Metabolic waste]], [[Homeostasis]], [[Ascorbic Acid]], [[Sodium Metabisulfite]], [[EDTA]], [[Melanins]], [[Superoxide Dismutase]].
 - Strong connections to strengthen: [[Epinephrine]] ↔ [[Adrenochrome]]

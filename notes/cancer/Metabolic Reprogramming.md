@@ -15,9 +15,9 @@ Metabolic reprogramming creates vulnerabilities that can be targeted:
 - Compounds like [[Fenbendazole]] are being studied for their ability to interfere with these metabolic shifts.
 
 ## Connections
-- **Related Processes:** [[Warburg Effect]], [[Glycolysis]], [[Oxidative Stress]], [[Hypoxia]]
+- **Related Processes:** [[Warburg Effect]], [[Glycolysis]], [[notes/comt/Oxidative stress]], [[Hypoxia]]
 - **Key Molecules:** [[Glucose]], [[Glutamine]], [[Lactate]], [[ATP]], [[NADPH]]
 - **Regulators:** [[p53]], [[MYC]], [[HIF-1α]], [[mTOR]]
 
 ## Linking Summary
-- New links added: [[Cancer]], [[tumour microenvironment]], [[Hallmarks of Cancer]], [[Warburg Effect]], [[Glycolysis]], [[glutamine]], [[NADPH]], [[GLUT1]], [[Hexokinase 2]], [[Pyruvate Kinase M2]], [[Fenbendazole]], [[Oxidative Stress]], [[Hypoxia]], [[Lactate]], [[ATP]], [[p53]], [[MYC]], [[HIF-1α]], [[mTOR]]
+- New links added: [[Cancer]], [[tumour microenvironment]], [[Hallmarks of Cancer]], [[Warburg Effect]], [[Glycolysis]], [[glutamine]], [[NADPH]], [[GLUT1]], [[Hexokinase 2]], [[Pyruvate Kinase M2]], [[Fenbendazole]], [[notes/comt/Oxidative stress]], [[Hypoxia]], [[Lactate]], [[ATP]], [[p53]], [[MYC]], [[HIF-1α]], [[mTOR]]

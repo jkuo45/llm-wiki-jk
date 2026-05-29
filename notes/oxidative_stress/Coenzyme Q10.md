@@ -15,10 +15,10 @@ Due to its essential role in mitochondrial function and antioxidant defense, CoQ
 
 ## Connections
 - **[[Mitochondria]]**: Essential site of CoQ10 action for [[ATP]] production.
-- **[[Oxidative Stress]]**: CoQ10 helps mitigate damage caused by excessive [[Reactive Oxygen Species]].
+- **[[notes/comt/Oxidative stress]]**: CoQ10 helps mitigate damage caused by excessive [[Reactive Oxygen Species]].
 - **[[Vitamin E]]**: CoQ10 helps regenerate the antioxidant form of Vitamin E.
 
 ### Linking Summary:
-- New links added: [[Antioxidants]], [[Mitochondria]], [[ATP]], [[Lipid Peroxidation]], [[Reactive Oxygen Species]], [[Cardiovascular Disease]], [[Neurodegenerative Disease]], [[Parkinson's Disease]], [[Huntington's Disease]], [[Oxidative Stress]], [[Vitamin E]]
+- New links added: [[Antioxidants]], [[Mitochondria]], [[ATP]], [[Lipid Peroxidation]], [[Reactive Oxygen Species]], [[Cardiovascular Disease]], [[Neurodegenerative Disease]], [[Parkinson's Disease]], [[Huntington's Disease]], [[notes/comt/Oxidative stress]], [[Vitamin E]]
 - Suggested new entity notes to create: [[ATP]], [[Huntington's Disease]]
 - Strong connections to strengthen: [[Coenzyme Q10]] ↔ [[Mitochondria]]

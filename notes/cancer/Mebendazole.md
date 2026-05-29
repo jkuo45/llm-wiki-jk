@@ -11,7 +11,7 @@ Mebendazole is being widely studied for [[Drug Repositioning]] in [[Cancer]]. It
 ## Connections
 - **Related Drugs:** [[Albendazole]], [[Fenbendazole]], [[Oxfendazole]]
 - **Cancer Types:** [[glioblastoma]], [[Colorectal Cancer]], [[Lung Cancer]]
-- **Biological Processes:** [[Apoptosis]], [[cell cycle]] arrest
+- **Biological Processes:** [[notes/cancer/apoptosis]], [[cell cycle]] arrest
 
 ## Linking Summary
-- New links added: [[Benzimidazole]], [[Drug Repositioning]], [[Cancer]], [[Microtubule]], [[Tubulin]], [[Hedgehog signaling pathway]], [[Wnt]], [[NFκB]], [[glioblastoma]], [[Albendazole]], [[Fenbendazole]], [[Oxfendazole]], [[Colorectal Cancer]], [[Lung Cancer]], [[Apoptosis]], [[cell cycle]]
+- New links added: [[Benzimidazole]], [[Drug Repositioning]], [[Cancer]], [[Microtubule]], [[Tubulin]], [[Hedgehog signaling pathway]], [[Wnt]], [[NFκB]], [[glioblastoma]], [[Albendazole]], [[Fenbendazole]], [[Oxfendazole]], [[Colorectal Cancer]], [[Lung Cancer]], [[notes/cancer/apoptosis]], [[cell cycle]]

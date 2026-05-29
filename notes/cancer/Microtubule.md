@@ -10,12 +10,12 @@ Drugs that interfere with microtubule dynamics are classified into two groups:
 - **Microtubule-Stabilizing Agents:** (e.g., [[Taxane]]s like [[paclitaxel]], [[docetaxel]])
 - **Microtubule-Destabilizing Agents:** (e.g., [[vinca alkaloids]] like [[vincristine]], and [[Benzimidazole]]s like [[Fenbendazole]], [[Albendazole]], [[Mebendazole]])
 
-[[Fenbendazole]] acts as a moderate microtubule destabilizing agent, binding to tubulin and inhibiting its polymerization, which leads to cell cycle arrest and [[Apoptosis]] in cancer cells.
+[[Fenbendazole]] acts as a moderate microtubule destabilizing agent, binding to tubulin and inhibiting its polymerization, which leads to cell cycle arrest and [[notes/cancer/apoptosis]] in cancer cells.
 
 ## Connections
 - **Structural Component:** [[Tubulin]] (alpha and beta)
-- **Processes:** [[mitosis]], [[Apoptosis]], [[cell cycle]]
+- **Processes:** [[mitosis]], [[notes/cancer/apoptosis]], [[cell cycle]]
 - **Related Drugs:** [[vincristine]], [[paclitaxel]], [[Fenbendazole]], [[Albendazole]]
 
 ## Linking Summary
-- New links added: [[Tubulin]], [[cytoskeleton]], [[mitosis]], [[cytokinesis]], [[vesicular transport]], [[mitotic spindle]], [[Cancer]], [[Taxane]], [[paclitaxel]], [[docetaxel]], [[vinca alkaloids]], [[vincristine]], [[Benzimidazole]], [[Fenbendazole]], [[Albendazole]], [[Mebendazole]], [[Apoptosis]], [[cell cycle]]
+- New links added: [[Tubulin]], [[cytoskeleton]], [[mitosis]], [[cytokinesis]], [[vesicular transport]], [[mitotic spindle]], [[Cancer]], [[Taxane]], [[paclitaxel]], [[docetaxel]], [[vinca alkaloids]], [[vincristine]], [[Benzimidazole]], [[Fenbendazole]], [[Albendazole]], [[Mebendazole]], [[notes/cancer/apoptosis]], [[cell cycle]]

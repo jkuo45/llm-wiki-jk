@@ -8,7 +8,7 @@
 - [[Epinephrine]] (Adrenaline): Primarily a hormone involved in acute stress responses.
 
 ## Metabolism and [[Aminochromes]]
-Catecholamines are primarily metabolized by enzymatic pathways ([[COMT]] and [[MAO]]). However, they are also susceptible to [[Oxidation]], particularly under conditions of [[Oxidative Stress]]. 
+Catecholamines are primarily metabolized by enzymatic pathways ([[COMT]] and [[MAO]]). However, they are also susceptible to [[Oxidation]], particularly under conditions of [[notes/comt/Oxidative stress]]. 
 - [[Epinephrine]] oxidizes to [[Adrenochrome]].
 - [[Dopamine]] oxidizes to [[Dopaminochrome]].
 - These oxidative intermediates are known as [[Aminochromes]] and can further polymerize into [[Neuromelanin]].
@@ -24,5 +24,5 @@ In response to stress, [[Smoking]], or [[Inflammation]], catecholamine levels ri
 - [[Aminochromes]] ↔ Reactive oxidative intermediates of catecholamines.
 
 ### Linking Summary:
-- New links added: [[Catecholamines]], [[Dopamine]], [[Epinephrine]], [[COMT]], [[MAO]], [[Aminochromes]], [[Oxidation]], [[Oxidative Stress]], [[Adrenochrome]], [[Dopaminochrome]], [[Neuromelanin]], [[Smoking]], [[Inflammation]]
+- New links added: [[Catecholamines]], [[Dopamine]], [[Epinephrine]], [[COMT]], [[MAO]], [[Aminochromes]], [[Oxidation]], [[notes/comt/Oxidative stress]], [[Adrenochrome]], [[Dopaminochrome]], [[Neuromelanin]], [[Smoking]], [[Inflammation]]
 - Strong connections to strengthen: [[Catecholamines]] ↔ [[Aminochromes]]

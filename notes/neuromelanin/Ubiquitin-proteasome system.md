@@ -9,9 +9,9 @@ Proteins destined for degradation are tagged with a small protein called [[Ubiqu
 UPS dysfunction is a hallmark of [[Parkinson's Disease]] and is closely linked to the formation of protein inclusions.
 - **Lewy Bodies:** The presence of [[Ubiquitin]] and p62 in [[Lewy Bodies]] indicates that the cell has attempted, but failed, to degrade aggregated [[Alpha-Synuclein]] via the UPS.
 - **Neuromelanin Interference:** The progressive accumulation of [[Neuromelanin]]-filled autophagic structures can physically interfere with the UPS, leading to a general failure of cellular proteostasis.
-- **Selective Vulnerability:** UPS impairment is specifically observed in neuromelanin-laden regions of the PD brain, such as the [[Substantia Nigra]], further linking pigment accumulation to cellular dysfunction.
+- **Selective Vulnerability:** UPS impairment is specifically observed in neuromelanin-laden regions of the PD brain, such as the [[notes/neuromelanin/Substantia Nigra]], further linking pigment accumulation to cellular dysfunction.
 
 ### Linking Summary:
-- New links added: [[Ubiquitin]], [[Parkinson's Disease]], [[Lewy Bodies]], [[Alpha-Synuclein]], [[Neuromelanin]], [[Substantia Nigra]].
+- New links added: [[Ubiquitin]], [[Parkinson's Disease]], [[Lewy Bodies]], [[Alpha-Synuclein]], [[Neuromelanin]], [[notes/neuromelanin/Substantia Nigra]].
 - Suggested new entity notes to create: [[Proteasome]], [[p62]].
 - Strong connections to strengthen: [[Ubiquitin-proteasome system]] ↔ [[Lewy Bodies]].

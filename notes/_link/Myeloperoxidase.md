@@ -1,0 +1,42 @@
+# Myeloperoxidase
+
+**Myeloperoxidase** (MPO) is a heme-containing enzyme primarily found in the azurophilic granules of [[Neutrophils]]. It plays a critical role in the innate immune system's ability to kill pathogens.
+
+
+Myeloperoxidase (MPO) is a peroxidase enzyme that in humans is encoded by the MPO gene and is most abundantly expressed in [[Neutrophils]], where it produces [[Hypochlorous Acid]] from hydrogen peroxide and chloride ions.
+
+
+## Role in [[Adrenochrome]] Formation
+Myeloperoxidase can catalyze the [[Oxidation]] of [[Epinephrine]] to [[Adrenochrome]]. During the respiratory burst, [[Neutrophils]] release MPO and produce [[Reactive Oxygen Species]] (ROS), creating a highly oxidative environment that favors the formation of [[Adrenochrome]] and other aminochromes.
+
+
+## Function
+MPO uses [[Hydrogen peroxide]] to oxidize halide ions (like chloride) into potent oxidants such as hypochlorous acid (HOCl, the active ingredient in bleach), which are used to destroy bacteria and viruses.
+
+
+## Clinical Relevance
+- **[[Inflammation]]:** Elevated MPO levels are markers of neutrophil activation and systemic inflammation.
+- **Cardiovascular Disease:** MPO-derived oxidants contribute to atherosclerosis and tissue damage during myocardial infarction.
+- **[[notes/_link/Oxidative Stress]]:** Excessive MPO activity can lead to collateral damage to host tissues.
+
+
+## Linking Summary:
+- New links added: [[Myeloperoxidase]], [[Neutrophils]], [[Oxidation]], [[Epinephrine]], [[Adrenochrome]], [[Reactive Oxygen Species]], [[Hydrogen peroxide]], [[Inflammation]], [[notes/_link/Oxidative Stress]]
+- Strong connections to strengthen: [[Myeloperoxidase]] ↔ [[Neutrophils]]
+
+- New links added: [[Neutrophils]], [[Hypochlorous Acid]]
+- Suggested new entity notes to create: [[Peroxidase]], [[MPO gene]]
+- Strong connections to strengthen: [[Myeloperoxidase]] ↔ [[Hypochlorous Acid]]
+
+## Connections
+- [[Neutrophils]] ↔ Primary source of myeloperoxidase.
+- [[Epinephrine]] ↔ Substrate that MPO can oxidize to [[Adrenochrome]].
+- [[Adrenochrome]] ↔ Oxidative byproduct catalyzed by MPO.
+- [[Hydrogen peroxide]] ↔ Required co-factor for MPO activity.
+- [[Inflammation]] ↔ Context in which MPO is released and active.
+
+
+### Linking Summary:
+- New links added: [[Adrenochrome]], [[Epinephrine]], [[Hydrogen peroxide]], [[Hypochlorous Acid]], [[Inflammation]], [[Myeloperoxidase]], [[Neutrophils]], [[Oxidation]], [[notes/_link/Oxidative Stress]], [[Reactive Oxygen Species]]
+- Suggested new entity notes to create: [[MPO gene]], [[Peroxidase]]
+- Strong connections to strengthen: [[Myeloperoxidase]] ↔ [[Hypochlorous Acid]], [[Myeloperoxidase]] ↔ [[Neutrophils]]

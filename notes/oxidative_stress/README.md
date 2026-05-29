@@ -1,6 +1,6 @@
 # Oxidative Stress
 
-This directory contains notes and research regarding [[Oxidative Stress]], its generation via reactive oxygen species (ROS), mitochondrial dysfunction, and enzymes such as [[NADPH Oxidase]] and [[Myeloperoxidase]], the resulting damage (lipid peroxidation, DNA damage, protein oxidation), and its dual role in cellular signaling and pathology. Particular focus is placed on its involvement in [[Adrenochrome]] formation, [[Cancer]], [[Parkinson's Disease]], [[Alzheimer's Disease]], cardiovascular disease, inflammation, and aging, while assuming some level of oxidative stress is expected and encouraged in contexts such as selective cancer cell death, neuromelanin formation, and redox signaling.
+This directory contains notes and research regarding [[notes/comt/Oxidative stress]], its generation via reactive oxygen species (ROS), mitochondrial dysfunction, and enzymes such as [[NADPH Oxidase]] and [[Myeloperoxidase]], the resulting damage (lipid peroxidation, DNA damage, protein oxidation), and its dual role in cellular signaling and pathology. Particular focus is placed on its involvement in [[Adrenochrome]] formation, [[Cancer]], [[Parkinson's Disease]], [[Alzheimer's Disease]], cardiovascular disease, inflammation, and aging, while assuming some level of oxidative stress is expected and encouraged in contexts such as selective cancer cell death, neuromelanin formation, and redox signaling.
 
 
 ## Maintenance
@@ -17,7 +17,7 @@ This directory contains notes and research regarding [[Oxidative Stress]], its g
 | [[Amyloid-beta]]                          | 27_May_2026 11:17 AM | Protein             |
 | [[Amyotrophic Lateral Sclerosis]]         | 27_May_2026 11:14 AM | Medical Condition   |
 | [[Antioxidants]]                          | 27_May_2026 08:24 AM | Chemical Class      |
-| [[Apoptosis]]                             | 25_May_2026 05:23 PM | Biological Process  |
+| [[notes/_link/Apoptosis]]                             | 25_May_2026 05:23 PM | Biological Process  |
 | [[Ascorbic Acid]]                         | 27_May_2026 11:14 AM | Chemical Compound   |
 | [[Asthma]]                                | 27_May_2026 11:14 AM | Medical Condition   |
 | [[Atherosclerosis]]                       | 27_May_2026 11:14 AM | Medical Condition   |
@@ -29,7 +29,7 @@ This directory contains notes and research regarding [[Oxidative Stress]], its g
 | [[Chronic Obstructive Pulmonary Disease]] | 25_May_2026 05:23 PM | Medical Condition   |
 | [[Coenzyme Q10]]                          | 25_May_2026 05:23 PM | Biological Molecule |
 | [[Diabetes Mellitus]]                     | 27_May_2026 11:14 AM | Medical Condition   |
-| [[DNA damage]]                            | 27_May_2026 11:17 AM | Biological Process  |
+| [[notes/oxidative_stress/DNA damage]]                            | 27_May_2026 11:17 AM | Biological Process  |
 | [[DNA Repair]]                            | 28_May_2026 11:35 AM | Biological Process  |
 | [[Dopamine]]                              | 27_May_2026 11:17 AM | Biological Molecule |
 | [[Endothelial Dysfunction]]               | 27_May_2026 11:14 AM | Biological Process  |
@@ -62,7 +62,7 @@ This directory contains notes and research regarding [[Oxidative Stress]], its g
 | [[Nitric Oxide Synthase]]                 | 27_May_2026 11:16 AM | Enzyme              |
 | [[Nitric Oxide]]                          | 25_May_2026 05:23 PM | Biological Molecule |
 | [[Nucleic Acids]]                         | 28_May_2026 10:45 AM | Biological Molecule |
-| [[Oxidative Stress]]                      | 27_May_2026 11:14 AM | Scientific Concept  |
+| [[notes/comt/Oxidative stress]]                      | 27_May_2026 11:14 AM | Scientific Concept  |
 | [[Parkinson's Disease]]                   | 27_May_2026 11:16 AM | Medical Condition   |
 | [[Peroxynitrite]]                         | 25_May_2026 05:23 PM | Biological Molecule |
 | [[Polyphenols]]                           | 27_May_2026 11:14 AM | Chemical Class      |
@@ -74,7 +74,7 @@ This directory contains notes and research regarding [[Oxidative Stress]], its g
 | [[Rheumatoid Arthritis]]                  | 27_May_2026 11:16 AM | Medical Condition   |
 | [[Signaling Molecules]]                   | 28_May_2026 11:15 AM | Biological Molecule |
 | [[Singlet Oxygen]]                        | 25_May_2026 05:23 PM | Biological Molecule |
-| [[Substantia nigra]]                      | 27_May_2026 11:17 AM | Anatomy             |
+| [[notes/_link/Substantia nigra]]                      | 27_May_2026 11:17 AM | Anatomy             |
 | [[Superoxide Dismutase]]                  | 27_May_2026 11:14 AM | Enzyme              |
 | [[Superoxide Radicals]]                   | 25_May_2026 05:23 PM | Biological Molecule |
 | [[Tau protein]]                           | 27_May_2026 11:17 AM | Protein             |

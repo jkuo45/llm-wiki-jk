@@ -12,7 +12,7 @@ This directory contains notes and research regarding [[Yamanaka Factors]] (OSKM:
 | :--- | :---: | :--- |
 | [[Alzheimer's Disease]] | 25_May_2026 05:23 PM | Medical Condition |
 | [[Amyotrophic Lateral Sclerosis]] | 25_May_2026 05:23 PM | Medical Condition |
-| [[Apoptosis]] | 25_May_2026 05:23 PM | Biological Process |
+| [[notes/_link/Apoptosis]] | 25_May_2026 05:23 PM | Biological Process |
 | [[Assembloids]] | 28_May_2026 09:05 AM | Biological Process |
 | [[B18R]] | 25_May_2026 05:23 PM | Protein |
 | [[BIG1]] | 25_May_2026 05:23 PM | Protein |
@@ -24,7 +24,7 @@ This directory contains notes and research regarding [[Yamanaka Factors]] (OSKM:
 | [[CRISPR]] | 28_May_2026 09:05 AM | Analytical Technique |
 | [[Cancer]] | 25_May_2026 05:23 PM | Medical Condition |
 | [[Cellular Reprogramming]] | 28_May_2026 09:07 AM | Biological Process |
-| [[DNA Damage]] | 25_May_2026 05:23 PM | Biological Process |
+| [[notes/_link/DNA Damage]] | 25_May_2026 05:23 PM | Biological Process |
 | [[Differentiation]] | 28_May_2026 09:05 AM | Biological Process |
 | [[Disease Modeling]] | 28_May_2026 09:06 AM | Scientific Concept |
 | [[Dopaminergic Neurons]] | 25_May_2026 05:23 PM | Cell Type |

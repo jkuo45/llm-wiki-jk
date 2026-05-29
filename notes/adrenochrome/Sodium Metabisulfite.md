@@ -8,4 +8,4 @@ In pharmaceutical preparations of [[Epinephrine]] (such as Epi-pens), sodium met
 ## Connections
 - [[Epinephrine]]
 - [[Adrenochrome]]
-- [[Oxidative Stress]]
+- [[notes/comt/Oxidative stress]]

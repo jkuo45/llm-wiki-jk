@@ -3,7 +3,7 @@
 An **o-quinone** (ortho-quinone) is a type of organic compound derived from phenols, specifically catechols. In the context of [[Epinephrine]] metabolism, it represents a highly reactive intermediate formed during oxidation.
 
 ## Formation in Epinephrine Pathway
-Under [[Oxidative Stress]], the [[Catechol]] ring of [[Epinephrine]] loses electrons to form an o-quinone. This intermediate is unstable and rapidly undergoes internal cyclization to form [[Adrenochrome]].
+Under [[notes/comt/Oxidative stress]], the [[Catechol]] ring of [[Epinephrine]] loses electrons to form an o-quinone. This intermediate is unstable and rapidly undergoes internal cyclization to form [[Adrenochrome]].
 
 ## Properties
 - Highly reactive [[Electrophile]].
@@ -13,4 +13,4 @@ Under [[Oxidative Stress]], the [[Catechol]] ring of [[Epinephrine]] loses elect
 ## Connections
 - [[Epinephrine]]
 - [[Adrenochrome]]
-- [[Oxidative Stress]]
+- [[notes/comt/Oxidative stress]]

@@ -12,9 +12,9 @@ The [[Warburg Effect]] refers to the observation that [[Cancer]] cells, unlike m
 - **Therapeutic Inhibition:** Targeting enzymes in the glycolytic pathway (e.g., [[Hexokinase 2]], [[Pyruvate Kinase M2]]) or glucose transporters (e.g., [[GLUT1]]) are active areas of research. [[Fenbendazole]] is thought to interfere with this effect.
 
 ## Connections
-- **Related Processes:** [[Glycolysis]], [[Metabolic Reprogramming]], [[Oxidative Stress]], [[Hypoxia]]
+- **Related Processes:** [[Glycolysis]], [[Metabolic Reprogramming]], [[notes/comt/Oxidative stress]], [[Hypoxia]]
 - **Key Molecules:** [[Glucose]], [[Lactate]], [[Pyruvate]], [[ATP]]
 - **Key Regulators:** [[p53]], [[MYC]], [[HIF-1α]]
 
 ## Linking Summary
-- New links added: [[Cancer]], [[Glycolysis]], [[Lactate]], [[pyruvate]], [[ATP]], [[tumour microenvironment]], [[PET imaging]], [[FDG]], [[MYC]], [[RAS]], [[p53]], [[Hexokinase 2]], [[Pyruvate Kinase M2]], [[GLUT1]], [[Fenbendazole]], [[Metabolic Reprogramming]], [[Oxidative Stress]], [[Hypoxia]], [[HIF-1α]]
+- New links added: [[Cancer]], [[Glycolysis]], [[Lactate]], [[pyruvate]], [[ATP]], [[tumour microenvironment]], [[PET imaging]], [[FDG]], [[MYC]], [[RAS]], [[p53]], [[Hexokinase 2]], [[Pyruvate Kinase M2]], [[GLUT1]], [[Fenbendazole]], [[Metabolic Reprogramming]], [[notes/comt/Oxidative stress]], [[Hypoxia]], [[HIF-1α]]

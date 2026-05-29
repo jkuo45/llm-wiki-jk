@@ -16,9 +16,9 @@
 - [[Adrenochrome]] ↔ A primary mediator of catecholamine-induced cardiotoxicity.
 - [[Epinephrine]] ↔ The precursor whose oxidation leads to toxic products in the heart.
 - [[Redox Cycling]] ↔ The mechanism by which adrenochrome amplifies heart damage.
-- [[Oxidative Stress]] ↔ The broader condition underlying cardiotoxic processes.
+- [[notes/comt/Oxidative stress]] ↔ The broader condition underlying cardiotoxic processes.
 - [[Neutrophils]] ↔ Cells that contribute to cardiotoxicity by producing ROS and adrenochrome during [[Inflammation]].
 
 ### Linking Summary:
-- New links added: [[Cardiotoxicity]], [[Adrenochrome]], [[Redox Cycling]], [[Superoxide anion]], [[Reactive Oxygen Species]], [[Epinephrine]], [[Oxidative Stress]], [[Neutrophils]], [[Inflammation]]
+- New links added: [[Cardiotoxicity]], [[Adrenochrome]], [[Redox Cycling]], [[Superoxide anion]], [[Reactive Oxygen Species]], [[Epinephrine]], [[notes/comt/Oxidative stress]], [[Neutrophils]], [[Inflammation]]
 - Strong connections to strengthen: [[Cardiotoxicity]] ↔ [[Adrenochrome]]

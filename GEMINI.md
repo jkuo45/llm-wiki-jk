@@ -7,7 +7,7 @@
 - documents start with '[document]' in the file name. Depending on task, they may or may not be included in context, counts.
 - notes directory is organized by topic. 
     - each markdown file within that topic can be counted as a single entity.
-- use uv for python environments and executables
+- uv for all python executables
 
 ## Linking Format
 - Use Obsidian-style wiki links: [[Exact Note Title]] or [[Note Title|Display Text]] when the display text differs.
@@ -28,7 +28,7 @@ Diseases/disorders: [[Alzheimer's Disease]], [[Cystic Fibrosis]], [[Type 2 Diabe
 ### Output Format:
 - Return the FULL updated Markdown content with all new [[links]] inserted. At the very end, add a section:
 
-## Orphan Link Resolution
+### Orphan Link Resolution
 Maintain link integrity by performing periodic audits:
 - **Scan & Normalize**:
     - Identify wiki links `[[Link]]` without matching files.
@@ -38,6 +38,21 @@ Maintain link integrity by performing periodic audits:
     - Create new Markdown files for missing concepts.
     - Use a standardized template: `# Title`, a one-sentence context, and a `Linking Summary`.
 -  **Automation**: Use `uv run` to perform batch updates to minimize manual errors and ensure workspace-wide consistency.
+
+### Overlapping Link Resolution
+- The scope of this task is entities and topics in the notes directory.
+- _link directory contains entities that may exist across topics.
+- If the entity already exists in _link directory, append the wiki entry to it.
+- If the entity does not exist, create the entry in _link and move the original topic note into the _link folder.
+- Maintain only the consolidated file in _link to ensure a single source of truth.
+- The goal is to highlight these overlapping entities in graph view as central hubs.
+- Examples (since they are mentioned across topics in notes):
+    - '_link/Cancer.md'
+    - '_link/Autophagy.md'
+    - '_link/Inflammation.md'
+- When a new entity is identified as overlapping, merge its content into the _link version and delete the topic-specific files so that it is centrally linked in _link directory.
+- Validate completeness of the wiki entry.
+- Prefer to write with Shell commands, python scripts if necessary.
 
 ## Entity Type Schema
 To maintain consistency, all entity notes should include an `entity_type` field. Suggest additional entity types if they do not exist. These values are intended for README.md and do not need to be included in entity wiki notes. Depending on topic/user preference, more values maybe added.
@@ -60,7 +75,7 @@ To maintain consistency, all entity notes should include an `entity_type` field.
 | **Biomarker**                 | Measurable indicators of biological states.                          | [[Troponin]], [[Methemoglobin level]], [[8-OHdG]]                         |
 | **Antibody**                  | Immunoglobulins or monoclonal antibodies.                            | [[Rituximab]], [[Anti-MPO antibody]]                                      |
 | **Cell Type**                 | Specific types of biological cells.                                  | [[Neutrophils]], [[Erythrocytes]], [[Chromaffin cells]]                   |
-| **Anatomy**                   | Organs, tissues, or physiological structures.                        | [[Adrenal gland]], [[Substantia nigra]], [[Lungs]]                        |
+| **Anatomy**                   | Organs, tissues, or physiological structures.                        | [[Adrenal gland]], [[notes/_link/Substantia nigra]], [[Lungs]]                        |
 | **Microorganism**             | Bacteria, viruses, fungi, parasites.                                 | [[Pseudomonas aeruginosa]], [[SARS-CoV-2]]                                |
 | **Toxin**                     | Naturally occurring or synthetic poisons.                            | [[Cyanide]], [[Botulinum toxin]]                                          |
 | **Medical Condition**         | Diseases, syndromes, or pathological states.                         | [[Methemoglobinemia]], [[Anaphylaxis]], [[Schizophrenia]]                 |
@@ -78,7 +93,7 @@ To maintain consistency, all entity notes should include an `entity_type` field.
 | **Medical Product**           | Prepared devices or specific pharmaceutical products.                | [[EpiPen]], [[Neffy]], [[Symjepi]]                                        |
 | **Vaccine**                   | Preparations to stimulate immunity.                                  | [[mRNA COVID-19 vaccine]]                                                 |
 | **Scientific Theory**         | Hypotheses or scientific models.                                     | [[Adrenochrome Hypothesis]], [[Dopamine hypothesis]]                      |
-| **Scientific Concept**        | Broad scientific principles or mechanisms.                           | [[Redox Cycling]], [[Oxidative Stress]], [[Electrophile]]                 |
+| **Scientific Concept**        | Broad scientific principles or mechanisms.                           | [[Redox Cycling]], [[notes/comt/Oxidative stress]], [[Electrophile]]                 |
 | **Laboratory Standard**       | Quality control and reference materials.                             | [[Reference standard]], [[Certificate of Analysis]], [[Impurity marker]]  |
 | **Pharmacokinetic Parameter** | Quantitative ADME properties.                                        | [[Half-life]], [[Volume of distribution]], [[Bioavailability]]            |
 | **Model Organism**            | Species or strains used in research.                                 | [[Rattus norvegicus]], [[Zebrafish]], [[Knockout mouse]]                  |

@@ -12,11 +12,11 @@ While often viewed as harmful, low levels of [[Reactive Oxygen Species]] (ROS) a
 - **[[Superoxide Radicals]]**: Can modulate the activity of [[Iron-Sulfur Clusters]] in proteins.
 
 ## Connections
-- [[Apoptosis]]: ROS levels determine the threshold for programmed cell death.
+- [[notes/_link/Apoptosis]]: ROS levels determine the threshold for programmed cell death.
 - [[Immunity]]: ROS are used to signal the presence of pathogens.
 - [[Differentiation]]: Redox state influences stem cell fate.
 
 ### Linking Summary:
-- New links added: [[Reactive Oxygen Species]], [[Reactive Nitrogen Species]], [[Hydrogen Peroxide]], [[Nitric Oxide]], [[Vasodilation]], [[Superoxide Radicals]], [[Iron-Sulfur Clusters]], [[Apoptosis]], [[Immunity]], [[Differentiation]]
+- New links added: [[Reactive Oxygen Species]], [[Reactive Nitrogen Species]], [[Hydrogen Peroxide]], [[Nitric Oxide]], [[Vasodilation]], [[Superoxide Radicals]], [[Iron-Sulfur Clusters]], [[notes/_link/Apoptosis]], [[Immunity]], [[Differentiation]]
 - Suggested new entity notes to create: [[Iron-Sulfur Clusters]], [[Vasodilation]]
 - Strong connections to strengthen: [[Signaling Molecules]] ↔ [[Hydrogen Peroxide]]

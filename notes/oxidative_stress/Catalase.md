@@ -8,9 +8,9 @@ It is a very important enzyme in protecting the cell from oxidative damage by [[
 
 ## Connections
 - [[Hydrogen Peroxide]]
-- [[Oxidative Stress]]
+- [[notes/comt/Oxidative stress]]
 
 ### Linking Summary:
-- New links added: [[Hydrogen Peroxide]], [[Reactive Oxygen Species]], [[Oxidative Stress]]
+- New links added: [[Hydrogen Peroxide]], [[Reactive Oxygen Species]], [[notes/comt/Oxidative stress]]
 - Suggested new entity notes to create: [[Enzyme]], [[Oxidative damage]]
 - Strong connections to strengthen: [[Catalase]] ↔ [[Hydrogen Peroxide]]

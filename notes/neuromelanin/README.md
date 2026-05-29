@@ -1,6 +1,6 @@
 # Neuromelanin
 
-This directory contains notes and research regarding [[Neuromelanin]], its biosynthesis in dopaminergic and noradrenergic neurons, accumulation in the [[Substantia Nigra]] and [[Locus Coeruleus]], role in iron binding and oxidative stress, and its involvement in [[Parkinson's Disease]], [[Lewy Bodies]], and related neurodegenerative processes. The central theme of this research is the role of neuromelanin as a key factor in the selective vulnerability of catecholaminergic neurons in Parkinson's disease. While initially a neuroprotective antioxidant, its age-dependent accumulation may eventually cross a [[Pathogenic Threshold of Neuromelanin]], leading to cellular dysfunction and neurodegeneration.
+This directory contains notes and research regarding [[Neuromelanin]], its biosynthesis in dopaminergic and noradrenergic neurons, accumulation in the [[notes/neuromelanin/Substantia Nigra]] and [[Locus Coeruleus]], role in iron binding and oxidative stress, and its involvement in [[Parkinson's Disease]], [[Lewy Bodies]], and related neurodegenerative processes. The central theme of this research is the role of neuromelanin as a key factor in the selective vulnerability of catecholaminergic neurons in Parkinson's disease. While initially a neuroprotective antioxidant, its age-dependent accumulation may eventually cross a [[Pathogenic Threshold of Neuromelanin]], leading to cellular dysfunction and neurodegeneration.
 
 ## Maintenance
 
@@ -25,12 +25,12 @@ This directory contains notes and research regarding [[Neuromelanin]], its biosy
 | [[Neuromelanin]] | 25_May_2026 05:23 PM  |
 | [[Neuronophagia]] | 25_May_2026 05:23 PM  |
 | [[Nigrostriatal System]] | 25_May_2026 05:23 PM  |
-| [[Oxidative Stress]] | 25_May_2026 05:23 PM  |
+| [[notes/comt/Oxidative stress]] | 25_May_2026 05:23 PM  |
 | [[Parkinson's Disease]] | 25_May_2026 05:23 PM  |
 | [[Pathogenic Threshold of Neuromelanin]] | 27_May_2026 09:46 AM  |
 | [[Proteostasis]] | 27_May_2026 09:46 AM  |
 | [[Substantia Nigra Pars Compacta]] | 25_May_2026 05:23 PM  |
-| [[Substantia Nigra]] | 25_May_2026 05:23 PM  |
+| [[notes/neuromelanin/Substantia Nigra]] | 25_May_2026 05:23 PM  |
 | [[Tyrosinase]] | 25_May_2026 05:23 PM  |
 | [[Tyrosine Hydroxylase]] | 25_May_2026 05:23 PM  |
 | [[Ubiquitin-proteasome system]] | 25_May_2026 05:23 PM  |

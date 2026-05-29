@@ -4,7 +4,7 @@
 
 ## Formation
 Dopaminochrome is produced when the catechol ring of [[Dopamine]] is oxidized to an o-quinone, which then undergoes internal cyclization. This process can be:
-- **Non-enzymatic:** Driven by [[Reactive Oxygen Species]] (ROS) and [[Oxidative Stress]].
+- **Non-enzymatic:** Driven by [[Reactive Oxygen Species]] (ROS) and [[notes/comt/Oxidative stress]].
 - **Enzymatic:** Facilitated by enzymes like tyrosinase or other peroxidases.
 
 ## Role in [[Neuromelanin]] Synthesis
@@ -21,5 +21,5 @@ Like [[Adrenochrome]], dopaminochrome can participate in [[Redox Cycling]], gene
 - [[Redox Cycling]] ↔ Mechanism by which dopaminochrome exacerbates oxidative stress.
 
 ### Linking Summary:
-- New links added: [[Dopaminochrome]], [[Oxidation]], [[Dopamine]], [[Adrenochrome]], [[Reactive Oxygen Species]], [[Oxidative Stress]], [[Neuromelanin]], [[Redox Cycling]], [[Superoxide anion]], [[Catecholamines]], [[Epinephrine]]
+- New links added: [[Dopaminochrome]], [[Oxidation]], [[Dopamine]], [[Adrenochrome]], [[Reactive Oxygen Species]], [[notes/comt/Oxidative stress]], [[Neuromelanin]], [[Redox Cycling]], [[Superoxide anion]], [[Catecholamines]], [[Epinephrine]]
 - Strong connections to strengthen: [[Dopaminochrome]] ↔ [[Dopamine]]

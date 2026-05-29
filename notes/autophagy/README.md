@@ -16,7 +16,7 @@ This directory contains notes and research regarding [[Autophagy]], its molecula
 | [[Alzheimer's Disease]] | 27_May_2026 09:38 AM  |
 | [[Ambra-1]] | 25_May_2026 05:23 PM  |
 | [[AMPK]] | 27_May_2026 09:38 AM  |
-| [[Apoptosis]] | 27_May_2026 09:38 AM  |
+| [[notes/_link/Apoptosis]] | 27_May_2026 09:38 AM  |
 | [[Atg101]] | 25_May_2026 05:23 PM  |
 | [[Atg12]] | 27_May_2026 09:38 AM  |
 | [[Atg13]] | 25_May_2026 05:23 PM  |

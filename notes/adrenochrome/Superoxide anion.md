@@ -6,7 +6,7 @@
 Superoxide is a key driver of the [[Oxidation]] of [[Epinephrine]] into [[Adrenochrome]]. It initiates the radical chain reaction required for the cyclization of the adrenaline molecule.
 
 ## [[Redox Cycling]]
-In the [[Adrenochrome]] redox cycle, an electron is donated to molecular oxygen to regenerate [[Superoxide anion]]. This means that the formation of [[Adrenochrome]] can lead to a self-sustaining loop of superoxide production, exacerbating [[Oxidative Stress]] and contributing to [[Cardiotoxicity]].
+In the [[Adrenochrome]] redox cycle, an electron is donated to molecular oxygen to regenerate [[Superoxide anion]]. This means that the formation of [[Adrenochrome]] can lead to a self-sustaining loop of superoxide production, exacerbating [[notes/comt/Oxidative stress]] and contributing to [[Cardiotoxicity]].
 
 ## Sources
 - **Mitochondria:** Leaked electrons from the respiratory chain.
@@ -21,5 +21,5 @@ In the [[Adrenochrome]] redox cycle, an electron is donated to molecular oxygen 
 - [[Hydrogen peroxide]] ↔ Formed from superoxide via dismutation.
 
 ### Linking Summary:
-- New links added: [[Superoxide anion]], [[Reactive Oxygen Species]], [[Adrenochrome]], [[Oxidation]], [[Epinephrine]], [[Redox Cycling]], [[Oxidative Stress]], [[Cardiotoxicity]], [[Neutrophils]], [[Smoking]], [[Inflammation]], [[Hydrogen peroxide]]
+- New links added: [[Superoxide anion]], [[Reactive Oxygen Species]], [[Adrenochrome]], [[Oxidation]], [[Epinephrine]], [[Redox Cycling]], [[notes/comt/Oxidative stress]], [[Cardiotoxicity]], [[Neutrophils]], [[Smoking]], [[Inflammation]], [[Hydrogen peroxide]]
 - Strong connections to strengthen: [[Superoxide anion]] ↔ [[Adrenochrome]]

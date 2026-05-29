@@ -2,9 +2,9 @@
 
 This directory contains notes and research regarding [[Adrenochrome]] and its related biochemical pathways, physiological effects, and clinical contexts.
 
-- Relevance Score (1-10) 'entity_relevance_score': High for direct precursors (e.g., [[Epinephrine]]), metabolites (e.g., [[Adrenolutin]]), and central drivers of the oxidative pathway (e.g., [[Oxidative Stress]], [[Myeloperoxidase]]).
-- Sentiment Score (-1, 0, 1) 'entity_sentiment_score': Positive (1) for protective agents (e.g., [[Ascorbic Acid]]), life-saving treatments (e.g., [[EpiPen]]), and encouraged drivers of the adrenochrome pathway (e.g., [[Oxidative Stress]], [[Inflammation]]). Negative (-1) for adverse outcomes unrelated to the desired pathway (e.g., [[Cardiac arrest]], [[Anaphylaxis]]) or impurities. Neutral (0) for laboratory techniques or standard anatomical structures (e.g., [[HPLC]], [[Argon]], [[Lungs]]). 
-- For research and analysis, assume some [[Oxidative Stress]] and [[Inflammation]] are expected/encouraged in adrenochrome formation.
+- Relevance Score (1-10) 'entity_relevance_score': High for direct precursors (e.g., [[Epinephrine]]), metabolites (e.g., [[Adrenolutin]]), and central drivers of the oxidative pathway (e.g., [[notes/comt/Oxidative stress]], [[Myeloperoxidase]]).
+- Sentiment Score (-1, 0, 1) 'entity_sentiment_score': Positive (1) for protective agents (e.g., [[Ascorbic Acid]]), life-saving treatments (e.g., [[EpiPen]]), and encouraged drivers of the adrenochrome pathway (e.g., [[notes/comt/Oxidative stress]], [[Inflammation]]). Negative (-1) for adverse outcomes unrelated to the desired pathway (e.g., [[Cardiac arrest]], [[Anaphylaxis]]) or impurities. Neutral (0) for laboratory techniques or standard anatomical structures (e.g., [[HPLC]], [[Argon]], [[Lungs]]). 
+- For research and analysis, assume some [[notes/comt/Oxidative stress]] and [[Inflammation]] are expected/encouraged in adrenochrome formation.
 
 ## Maintenance
 
@@ -121,7 +121,7 @@ This directory contains notes and research regarding [[Adrenochrome]] and its re
 | [[Norepinephrine]]                         | 27_May_2026 01:28 PM | Chemical Compound      |           9            |           1            | Secondary precursor that can also form aminochromes; positive driver.                |
 | [[o-quinone]]                              | 27_May_2026 01:28 PM | Chemical Compound      |           10           |           1            | Crucial reactive intermediate in the catecholamine oxidation; positive driver.       |
 | [[Oxidation]]                              | 27_May_2026 01:28 PM | Chemical Process       |           10           |           1            | The fundamental chemical reaction producing adrenochrome; positive driver.           |
-| [[Oxidative Stress]]                       | 27_May_2026 01:28 PM | Scientific Concept     |           10           |           1            | Necessary environment for the adrenochrome pathway to thrive; positive driver.       |
+| [[notes/comt/Oxidative stress]]                       | 27_May_2026 01:28 PM | Scientific Concept     |           10           |           1            | Necessary environment for the adrenochrome pathway to thrive; positive driver.       |
 | [[Oxygen-dissociation curve]]              | 27_May_2026 01:28 PM | Scientific Concept     |           5            |           0            | Concept related to oxygen transport; neutral scientific principle.                   |
 | [[Oxyhemoglobin]]                          | 27_May_2026 01:28 PM | Protein                |           5            |           0            | Oxygenated form of hemoglobin; neutral protein state.                                |
 | [[Peroxidation]]                           | 27_May_2026 01:28 PM | Chemical Process       |           8            |           1            | Specific oxidative mechanism relevant to the pathway; positive driver.               |
@@ -150,7 +150,7 @@ This directory contains notes and research regarding [[Adrenochrome]] and its re
 | [[Sodium Metabisulfite]]                   | 27_May_2026 01:28 PM | Chemical Compound      |           6            |           0            | Antioxidant used as a stabilizer; neutral agent.                                     |
 | [[Sodium nitrite]]                         | 27_May_2026 01:28 PM | Chemical Compound      |           5            |           -1           | Chemical oxidant causing methemoglobinemia; negative agent.                          |
 | [[Sodium Persulfate]]                      | 27_May_2026 01:28 PM | Chemical Compound      |           6            |           0            | Laboratory oxidant; neutral chemical compound.                                       |
-| [[Substantia nigra]]                       | 27_May_2026 01:28 PM | Anatomy                |           9            |           0            | Brain region where aminochrome formation is significant; neutral location.           |
+| [[notes/_link/Substantia nigra]]                       | 27_May_2026 01:28 PM | Anatomy                |           9            |           0            | Brain region where aminochrome formation is significant; neutral location.           |
 | [[Superoxide anion]]                       | 27_May_2026 01:28 PM | Biological Molecule    |           10           |           1            | Key reactive species initiating the oxidative cascade; positive driver.              |
 | [[Superoxide Dismutase]]                   | 27_May_2026 01:28 PM | Enzyme                 |           6            |           1            | Enzyme neutralizing superoxide; positive protective agent.                           |
 | [[Symjepi]]                                | 27_May_2026 01:28 PM | Medical Product        |           5            |           1            | Prefilled syringe of precursor; positive medical product.                            |

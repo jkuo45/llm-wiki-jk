@@ -6,7 +6,7 @@
 Fenbendazole exhibits multiple anticancer activities:
 - **Microtubule Interference:** Acts as a moderate [[Microtubule-targeting agents|microtubule destabilizing agent]], similar to [[vincristine]] but with lower toxicity.
 - **Metabolic Inhibition:** Suppresses [[Glycolysis]] by down-regulating [[Glucose uptake]] and inhibiting enzymes like [[Hexokinase 2]]. It may also interfere with the [[Warburg Effect]].
-- **Induction of Oxidative Stress:** Increases reactive oxygen species (ROS) levels, leading to [[Oxidative Stress]] and subsequent [[Apoptosis]].
+- **Induction of Oxidative Stress:** Increases reactive oxygen species (ROS) levels, leading to [[notes/comt/Oxidative stress]] and subsequent [[notes/cancer/apoptosis]].
 - **Pathway Modulation:** Modulates pathways such as [[p53]], [[MAPK]], and [[NFκB]]. It has been shown to down-regulate [[Mdm2]] and [[MdmX]], thereby activating p53 in certain tumor cells.
 
 ## Therapeutic Potential
@@ -24,7 +24,7 @@ In animals, Fenbendazole is metabolized in the liver by enzymes such as [[CYP2J2
 ## Connections
 - **Related Drugs:** [[Albendazole]], [[Mebendazole]], [[Oxfendazole]]
 - **Target Proteins:** [[Tubulin]], [[GLUT1]], [[Hexokinase 2]], [[p53]]
-- **Biological Processes:** [[Apoptosis]], [[Glycolysis]], [[Metabolic Reprogramming]], [[Oxidative Stress]]
+- **Biological Processes:** [[notes/cancer/apoptosis]], [[Glycolysis]], [[Metabolic Reprogramming]], [[notes/comt/Oxidative stress]]
 
 ## Linking Summary
-- New links added: [[Benzimidazole]], [[Drug Repositioning]], [[Cancer]], [[Microtubule]], [[Microtubule-targeting agents]], [[vincristine]], [[Glycolysis]], [[Glucose uptake]], [[Hexokinase 2]], [[Warburg Effect]], [[Oxidative Stress]], [[Apoptosis]], [[p53]], [[MAPK]], [[NFκB]], [[Mdm2]], [[MdmX]], [[Colorectal Cancer]], [[Hepatocellular Carcinoma]], [[Ovarian Cancer]], [[Non-small-cell lung cancer]], [[Prostate Cancer]], [[Diffuse large B-cell lymphoma]], [[CYP2J2]], [[CYP2C19]], [[Oxfendazole]], [[liver injury]], [[Albendazole]], [[Mebendazole]], [[Tubulin]], [[GLUT1]], [[Metabolic Reprogramming]]
+- New links added: [[Benzimidazole]], [[Drug Repositioning]], [[Cancer]], [[Microtubule]], [[Microtubule-targeting agents]], [[vincristine]], [[Glycolysis]], [[Glucose uptake]], [[Hexokinase 2]], [[Warburg Effect]], [[notes/comt/Oxidative stress]], [[notes/cancer/apoptosis]], [[p53]], [[MAPK]], [[NFκB]], [[Mdm2]], [[MdmX]], [[Colorectal Cancer]], [[Hepatocellular Carcinoma]], [[Ovarian Cancer]], [[Non-small-cell lung cancer]], [[Prostate Cancer]], [[Diffuse large B-cell lymphoma]], [[CYP2J2]], [[CYP2C19]], [[Oxfendazole]], [[liver injury]], [[Albendazole]], [[Mebendazole]], [[Tubulin]], [[GLUT1]], [[Metabolic Reprogramming]]

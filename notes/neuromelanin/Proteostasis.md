@@ -16,7 +16,7 @@ In [[Neurodegenerative Disease]], the failure of proteostasis is central to path
 - **[[Alzheimer's Disease]]**: Characterized by the accumulation of amyloid-beta plaques and tau tangles.
 
 ## Interaction with Neuromelanin
-In the [[Substantia Nigra]], [[Neuromelanin]] serves as a storage site for metals and potentially toxic protein species. However, excessive accumulation of neuromelanin or its associated proteins may interfere with local [[Proteostasis]], contributing to the selective vulnerability of dopaminergic neurons. Chronic [[Oxidative Stress]] can also damage the proteostasis machinery itself.
+In the [[notes/neuromelanin/Substantia Nigra]], [[Neuromelanin]] serves as a storage site for metals and potentially toxic protein species. However, excessive accumulation of neuromelanin or its associated proteins may interfere with local [[Proteostasis]], contributing to the selective vulnerability of dopaminergic neurons. Chronic [[notes/comt/Oxidative stress]] can also damage the proteostasis machinery itself.
 
 ## Connections
 - **[[Autophagy]]**: A critical arm of the proteostasis network for clearing large aggregates.
@@ -25,6 +25,6 @@ In the [[Substantia Nigra]], [[Neuromelanin]] serves as a storage site for metal
 - **[[Endoplasmic Reticulum Stress]]**: Occurs when the folding capacity of the ER is exceeded.
 
 ### Linking Summary:
-- New links added: [[Ubiquitin-proteasome system]], [[Autophagy]], [[Aging]], [[Neurodegenerative Disease]], [[Parkinson's Disease]], [[Alpha-Synuclein]], [[Lewy Bodies]], [[Alzheimer's Disease]], [[Substantia Nigra]], [[Neuromelanin]], [[Oxidative Stress]], [[Endoplasmic Reticulum Stress]]
+- New links added: [[Ubiquitin-proteasome system]], [[Autophagy]], [[Aging]], [[Neurodegenerative Disease]], [[Parkinson's Disease]], [[Alpha-Synuclein]], [[Lewy Bodies]], [[Alzheimer's Disease]], [[notes/neuromelanin/Substantia Nigra]], [[Neuromelanin]], [[notes/comt/Oxidative stress]], [[Endoplasmic Reticulum Stress]]
 - Suggested new entity notes to create: [[Endoplasmic Reticulum Stress]]
 - Strong connections to strengthen: [[Proteostasis]] ↔ [[Autophagy]]

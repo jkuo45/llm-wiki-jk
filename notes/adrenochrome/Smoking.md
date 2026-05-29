@@ -1,6 +1,6 @@
 # Smoking
 
-**Smoking** (including cigarettes, cigars, and wood smoke) is a major exogenous source of [[Oxidative Stress]] and has a significant impact on [[Catecholamines]] metabolism.
+**Smoking** (including cigarettes, cigars, and wood smoke) is a major exogenous source of [[notes/comt/Oxidative stress]] and has a significant impact on [[Catecholamines]] metabolism.
 
 ## Impact on [[Adrenochrome]] Formation
 Smoking promotes the formation of [[Adrenochrome]] through several mechanisms:
@@ -12,11 +12,11 @@ Smoking promotes the formation of [[Adrenochrome]] through several mechanisms:
 Similar to tobacco, wood smoke contains particulates and reactive compounds that induce systemic [[Inflammation]] and oxidative stress, leading to the same biochemical consequences for catecholamine oxidation.
 
 ## Connections
-- [[Oxidative Stress]] ↔ Smoking is a primary driver of this state.
+- [[notes/comt/Oxidative stress]] ↔ Smoking is a primary driver of this state.
 - [[Reactive Oxygen Species]] ↔ Massive quantities are introduced into the body via smoke.
 - [[Epinephrine]] ↔ Levels are increased by nicotine, leading to more [[Adrenochrome]] formation.
 - [[Adrenochrome]] ↔ An oxidative byproduct whose production is significantly increased by smoking.
 
 ### Linking Summary:
-- New links added: [[Smoking]], [[Oxidative Stress]], [[Catecholamines]], [[Adrenochrome]], [[Epinephrine]], [[Reactive Oxygen Species]], [[Inflammation]]
-- Strong connections to strengthen: [[Smoking]] ↔ [[Oxidative Stress]]
+- New links added: [[Smoking]], [[notes/comt/Oxidative stress]], [[Catecholamines]], [[Adrenochrome]], [[Epinephrine]], [[Reactive Oxygen Species]], [[Inflammation]]
+- Strong connections to strengthen: [[Smoking]] ↔ [[notes/comt/Oxidative stress]]

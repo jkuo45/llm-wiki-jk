@@ -5,9 +5,9 @@
 ## Impact on Reprogramming
 Studies have shown that viral transduction of [[OSKM]] factors into [[Fibroblasts]] induces an innate immune response. This response can lead to:
 - Generation of [[Reactive Oxygen Species]] (ROS).
-- Oxidative [[DNA Damage]].
+- Oxidative [[notes/_link/DNA Damage]].
 - Activation of [[p53]].
-- Induction of [[Senescence]] and [[Apoptosis]].
+- Induction of [[Senescence]] and [[notes/_link/Apoptosis]].
 
 These events can significantly reduce the efficiency of [[Cellular Reprogramming]]. Suppressing the innate immune response, for example by using reagents like [[B18R]], is a proposed strategy to improve reprogramming efficiency.
 
@@ -18,5 +18,5 @@ These events can significantly reduce the efficiency of [[Cellular Reprogramming
 - [[B18R]]: A vaccinia virus-derived protein used to inhibit Type I interferon signaling and suppress innate immunity.
 
 ### Linking Summary:
-- New links added: [[Cellular Reprogramming]], [[OSKM]], [[Fibroblasts]], [[Reactive Oxygen Species]], [[DNA Damage]], [[p53]], [[Senescence]], [[Apoptosis]], [[B18R]]
-- Suggested new entity notes to create: [[Reactive Oxygen Species]], [[DNA Damage]], [[Senescence]], [[Apoptosis]], [[B18R]]
+- New links added: [[Cellular Reprogramming]], [[OSKM]], [[Fibroblasts]], [[Reactive Oxygen Species]], [[notes/_link/DNA Damage]], [[p53]], [[Senescence]], [[notes/_link/Apoptosis]], [[B18R]]
+- Suggested new entity notes to create: [[Reactive Oxygen Species]], [[notes/_link/DNA Damage]], [[Senescence]], [[notes/_link/Apoptosis]], [[B18R]]

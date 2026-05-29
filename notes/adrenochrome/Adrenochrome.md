@@ -9,7 +9,7 @@
 - **Structure:** Features an [[Indoline]] core fused to a [[Quinone]] moiety (o-quinone derivative) with an N-methyl group and a hydroxyl group at position 3.
 
 ## Production in Humans
-Adrenochrome is produced non-enzymatically or via catalytic pathways under conditions of [[Oxidative Stress]]. 
+Adrenochrome is produced non-enzymatically or via catalytic pathways under conditions of [[notes/comt/Oxidative stress]]. 
 
 ### Mechanisms
 - **Non-enzymatic Oxidation:** Driven by [[Reactive Oxygen Species]] (ROS), specifically [[Superoxide anion]] (O₂⁻), [[Hydrogen peroxide]] (H₂O₂), and [[Hydroxyl radical]] (•OH).
@@ -39,6 +39,6 @@ Adrenochrome is produced non-enzymatically or via catalytic pathways under condi
 - [[COMT]] & [[MAO]] ↔ Enzymes whose inhibition increases substrate availability for adrenochrome formation.
 
 ### Linking Summary:
-- New links added: [[Aminochromes]], [[Indoline]], [[Quinone]], [[Hydroxyl radical]], [[Cardiotoxicity]], [[Adrenolutin]], [[Carbazochrome]], [[Smoking]], [[Oxidative Stress]], [[Reactive Oxygen Species]], [[Neutrophils]], [[Inflammation]], [[Lungs]], [[Neuromelanin]], [[Redox Cycling]], [[COMT]], [[MAO]]
+- New links added: [[Aminochromes]], [[Indoline]], [[Quinone]], [[Hydroxyl radical]], [[Cardiotoxicity]], [[Adrenolutin]], [[Carbazochrome]], [[Smoking]], [[notes/comt/Oxidative stress]], [[Reactive Oxygen Species]], [[Neutrophils]], [[Inflammation]], [[Lungs]], [[Neuromelanin]], [[Redox Cycling]], [[COMT]], [[MAO]]
 - Suggested new entity notes to create: [[Indoline]], [[Quinone]], [[Schizophrenia]]
 - Strong connections to strengthen: [[Adrenochrome]] ↔ [[Epinephrine]], [[Adrenochrome]] ↔ [[Redox Cycling]]

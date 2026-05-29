@@ -6,7 +6,7 @@
 The primary driver of COPD is chronic [[Inflammation]] of the airways, often triggered by long-term exposure to irritating particulate matter or gases, most commonly from tobacco [[Smoking]].
 
 Key pathological processes include:
-- **[[Oxidative Stress]]**: An imbalance between [[Reactive Oxygen Species]] (ROS) and antioxidant defenses leads to tissue damage and amplification of the inflammatory response in the [[Lungs]].
+- **[[notes/comt/Oxidative stress]]**: An imbalance between [[Reactive Oxygen Species]] (ROS) and antioxidant defenses leads to tissue damage and amplification of the inflammatory response in the [[Lungs]].
 - **Small Airway Disease**: Chronic bronchiolitis results in narrowing of the airways.
 - **Parenchymal Destruction**: [[Emphysema]] involves the destruction of the alveoli, reducing the surface area available for gas exchange.
 
@@ -24,6 +24,6 @@ In COPD, oxidative stress is markedly increased due to both exogenous sources (c
 - **[[Alpha-1 Antitrypsin]]**: Deficiency in this protein is a genetic risk factor for COPD.
 
 ### Linking Summary:
-- New links added: [[Inflammation]], [[Smoking]], [[Oxidative Stress]], [[Reactive Oxygen Species]], [[Lungs]], [[Emphysema]], [[Neutrophils]], [[NF-kappa B]], [[DNA Repair]], [[Cellular Senescence]]
+- New links added: [[Inflammation]], [[Smoking]], [[notes/comt/Oxidative stress]], [[Reactive Oxygen Species]], [[Lungs]], [[Emphysema]], [[Neutrophils]], [[NF-kappa B]], [[DNA Repair]], [[Cellular Senescence]]
 - Suggested new entity notes to create: [[Emphysema]], [[Alpha-1 Antitrypsin]]
 - Strong connections to strengthen: [[Chronic Obstructive Pulmonary Disease]] ↔ [[Smoking]]

@@ -7,5 +7,5 @@ Transition metals can catalyze the oxidation of [[Epinephrine]]. By sequestering
 
 ## Connections
 - [[Epinephrine]]
-- [[Oxidative Stress]]
+- [[notes/comt/Oxidative stress]]
 - [[Adrenochrome]]

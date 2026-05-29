@@ -18,7 +18,7 @@ This directory contains notes and research regarding [[Epigenetics]], including 
 | [[Alu element]] | 25_May_2026 05:23 PM  |
 | [[Alzheimer's Disease]] | 25_May_2026 05:23 PM  |
 | [[AMPK]] | 27_May_2026 09:48 AM  |
-| [[Apoptosis]] | 25_May_2026 05:23 PM  |
+| [[notes/_link/Apoptosis]] | 25_May_2026 05:23 PM  |
 | [[Atherosclerosis]] | 25_May_2026 05:23 PM  |
 | [[Autophagy]] | 27_May_2026 09:48 AM  |
 | [[Bacteroidetes]] | 26_May_2026 06:37 PM  |
@@ -38,7 +38,7 @@ This directory contains notes and research regarding [[Epigenetics]], including 
 | [[Coronary Heart Disease]] | 25_May_2026 05:23 PM  |
 | [[CpG Island]] | 25_May_2026 05:23 PM  |
 | [[Diabetes Mellitus]] | 25_May_2026 05:23 PM  |
-| [[DNA Damage]] | 25_May_2026 05:23 PM  |
+| [[notes/_link/DNA Damage]] | 25_May_2026 05:23 PM  |
 | [[DNA Methylation]] | 25_May_2026 05:23 PM  |
 | [[DNA Methyltransferase]] | 25_May_2026 05:23 PM  |
 | [[DNA Repair]] | 25_May_2026 05:23 PM  |

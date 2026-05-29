@@ -6,6 +6,6 @@
 The presence of detectable [[Adrenochrome]] levels is often considered a marker of "failed homeostasis," indicating that the body's antioxidant systems (like [[Glutathione]]) and cleanup enzymes are unable to manage the oxidation of catecholamines.
 
 ## Connections
-- [[Oxidative Stress]]
+- [[notes/comt/Oxidative stress]]
 - [[Adrenochrome]]
 - [[Glutathione]]
