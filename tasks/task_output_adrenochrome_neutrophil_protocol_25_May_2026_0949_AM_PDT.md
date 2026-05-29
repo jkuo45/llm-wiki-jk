@@ -47,7 +47,7 @@ Due to the extreme instability of adrenochrome at physiological pH, the solution
 
 ### 3.2 Metabolic Context
 - To maximize the retention of replenished adrenochrome, the subject should avoid conditions that increase clearance or further oxidation:
-    - Avoid [[Smoking]], which increases systemic [[Oxidative Stress]] and drives adrenochrome into the [[Melanins]]/[[Neuromelanin]] pathway.
+    - Avoid [[Smoking]], which increases systemic [[_link/Oxidative stress]] and drives adrenochrome into the [[Melanins]]/[[Neuromelanin]] pathway.
     - Monitor [[MAO]] and [[COMT]] activity; while these "janitor" enzymes primarily target the precursor [[Epinephrine]], their status affects the overall catecholamine redox environment.
 
 ---
@@ -77,6 +77,6 @@ Due to the extreme instability of adrenochrome at physiological pH, the solution
 
 ---
 **Linking Summary:**
-- New links added: [[[document] adrenochrome - Adrenochrome]], [[Carbazochrome]], [[Epinephrine]], [[Leuco-adrenochrome]], [[Adrenolutin]], [[Neuromelanin]], [[Cardiotoxicity]], [[Redox Cycling]], [[Oxidative Stress]], [[Ascorbic Acid]], [[Sodium Metabisulfite]], [[EDTA]], [[Glutathione]], [[Superoxide anion]], [[Hydrogen peroxide]], [[Superoxide Dismutase]], [[Methemoglobinemia]], [[Oxyhemoglobin]], [[Methemoglobin]], [[HPLC]], [[LC-MS]], [[H-NMR]], [[Argon]], [[Nitrogen gas]], [[Autoxidation]], [[pH]], [[Cardiac arrest]], [[MAO]], [[COMT]], [[Smoking]], [[Neutrophils]].
+- New links added: [[[document] adrenochrome - Adrenochrome]], [[Carbazochrome]], [[Epinephrine]], [[Leuco-adrenochrome]], [[Adrenolutin]], [[Neuromelanin]], [[Cardiotoxicity]], [[Redox Cycling]], [[_link/Oxidative stress]], [[Ascorbic Acid]], [[Sodium Metabisulfite]], [[EDTA]], [[Glutathione]], [[Superoxide anion]], [[Hydrogen peroxide]], [[Superoxide Dismutase]], [[Methemoglobinemia]], [[Oxyhemoglobin]], [[Methemoglobin]], [[HPLC]], [[LC-MS]], [[H-NMR]], [[Argon]], [[Nitrogen gas]], [[Autoxidation]], [[pH]], [[Cardiac arrest]], [[MAO]], [[COMT]], [[Smoking]], [[Neutrophils]].
 - Suggested new entity notes to create: [[Adrenochrome Protocol]], [[Redox Optimization]].
-- Strong connections to strengthen: [[[document] adrenochrome - Adrenochrome]] ↔ [[Cardiotoxicity]], [[[document] adrenochrome - Adrenochrome]] ↔ [[Oxidative Stress]].
+- Strong connections to strengthen: [[[document] adrenochrome - Adrenochrome]] ↔ [[Cardiotoxicity]], [[[document] adrenochrome - Adrenochrome]] ↔ [[Oxidative stress]].

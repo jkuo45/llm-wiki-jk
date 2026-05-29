@@ -3,7 +3,7 @@
 This protocol outlines a method for the safe replenishment and stabilization of [[[document] adrenochrome - Adrenochrome]] levels in human subjects, based on existing biochemical research into its precursors, metabolites, and physiological interactions.
 
 ## 1. Objective
-To maintain a controlled systemic concentration of [[[document] adrenochrome - Adrenochrome]] for therapeutic applications while mitigating risks of [[Cardiotoxicity]], [[Oxidative Stress]], and [[Methemoglobinemia]].
+To maintain a controlled systemic concentration of [[[document] adrenochrome - Adrenochrome]] for therapeutic applications while mitigating risks of [[Cardiotoxicity]], [[_link/Oxidative stress]], and [[Methemoglobinemia]].
 
 ## 2. Phase I: Compound Stabilization and Preparation
 Pure [[[document] adrenochrome - Adrenochrome]] (C₉H₉NO₃) is inherently unstable, prone to rearrangement into [[Adrenolutin]] or polymerization into [[Melanin]].

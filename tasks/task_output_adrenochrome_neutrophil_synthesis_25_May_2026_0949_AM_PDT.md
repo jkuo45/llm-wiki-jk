@@ -45,11 +45,11 @@ The primary catalyst for this conversion is [[Myeloperoxidase]] (MPO), an enzyme
 
 ### B. Safety and Toxicity
 *   **ROS Damage:** Assess for lipid peroxidation in the cell membranes using TBARS assay to ensure the process hasn't completely compromised the leukocyte integrity before the cycle is complete.
-*   **[[Oxidative Stress]] Index:** Monitor [[Glutathione]] depletion levels in the surrounding medium.
+*   **[[_link/Oxidative stress]] Index:** Monitor [[Glutathione]] depletion levels in the surrounding medium.
 
 ---
 
 ### Linking Summary:
-- **New links added:** [[Neutrophils]], [[Epinephrine]], [[[document] adrenochrome - Adrenochrome]], [[Reactive Oxygen Species]], [[Myeloperoxidase]], [[Adrenaline catabolism]], [[Inflammation]], [[Superoxide anion]], [[Hydrogen peroxide]], [[Ascorbic Acid]], [[NADPH Oxidase]], [[adrenaline-quinone]], [[Melanins]], [[Adrenolutin]], [[Sodium Metabisulfite]], [[Oxidative Stress]], [[Glutathione]]
+- **New links added:** [[Neutrophils]], [[Epinephrine]], [[[document] adrenochrome - Adrenochrome]], [[Reactive Oxygen Species]], [[Myeloperoxidase]], [[Adrenaline catabolism]], [[Inflammation]], [[Superoxide anion]], [[Hydrogen peroxide]], [[Ascorbic Acid]], [[NADPH Oxidase]], [[adrenaline-quinone]], [[Melanins]], [[Adrenolutin]], [[Sodium Metabisulfite]], [[_link/Oxidative stress]], [[Glutathione]]
 - **Suggested new entity notes to create:** [[Respiratory Burst]], [[Myeloperoxidase Pathway]], [[HOCl-mediated Oxidation]]
 - **Strong connections to strengthen:** [[Neutrophils]] ↔ [[[document] adrenochrome - Adrenochrome]], [[Myeloperoxidase]] ↔ [[Epinephrine]]
