@@ -7,34 +7,34 @@ Inflammation is a complex biological response of body tissues to harmful stimuli
 
 
 ## Role in [[Adrenochrome]] Formation
-Inflammation creates the ideal conditions for the [[Oxidation]] of [[Epinephrine]]:
-- **Neutrophil Recruitment:** [[Neutrophils]] are recruited to the site of inflammation, where they release [[Myeloperoxidase]] and generate [[Reactive Oxygen Species]] (ROS) during the respiratory burst.
-- **Oxidative Environment:** The high local concentration of [[Superoxide anion]] and [[Hydrogen peroxide]] drives the conversion of adrenaline into [[Adrenochrome]].
+Inflammation creates the ideal conditions for the [[Oxidation]] of [[notes/_link/Epinephrine]]:
+- **Neutrophil Recruitment:** [[notes/_link/Neutrophils]] are recruited to the site of inflammation, where they release [[notes/_link/Myeloperoxidase]] and generate [[notes/_link/Reactive Oxygen Species]] (ROS) during the respiratory burst.
+- **Oxidative Environment:** The high local concentration of [[Superoxide anion]] and [[notes/_link/Hydrogen Peroxide]] drives the conversion of adrenaline into [[Adrenochrome]].
 - **Tissue Sites:** This process is particularly prominent in the [[Lungs]] (e.g., pneumonia, ARDS) and the heart (e.g., myocarditis, infarction).
 
 
 ## Chronic vs. Acute Inflammation
 - **Acute:** Rapid production of adrenochrome during the peak of the immune response.
-- **Chronic:** Linked to "inflammaging" and the gradual, age-related accumulation of [[Neuromelanin]] through sustained low-level catecholamine oxidation.
+- **Chronic:** Linked to "inflammaging" and the gradual, age-related accumulation of [[notes/_link/Neuromelanin]] through sustained low-level catecholamine oxidation.
 
 
 ## Linking Summary:
-- New links added: [[Inflammation]], [[Adrenochrome]], [[Oxidation]], [[Epinephrine]], [[Neutrophils]], [[Myeloperoxidase]], [[Reactive Oxygen Species]], [[Superoxide anion]], [[Hydrogen peroxide]], [[Lungs]], [[notes/_link/Oxidative Stress]], [[Neuromelanin]]
-- Strong connections to strengthen: [[Inflammation]] ↔ [[Neutrophils]]
+- New links added: [[notes/_link/Inflammation]], [[Adrenochrome]], [[Oxidation]], [[notes/_link/Epinephrine]], [[notes/_link/Neutrophils]], [[notes/_link/Myeloperoxidase]], [[notes/_link/Reactive Oxygen Species]], [[Superoxide anion]], [[notes/_link/Hydrogen Peroxide]], [[Lungs]], [[notes/_link/Oxidative Stress]], [[notes/_link/Neuromelanin]]
+- Strong connections to strengthen: [[notes/_link/Inflammation]] ↔ [[notes/_link/Neutrophils]]
 
 - New links added: [[TNF-alpha]], [[IL-1b]], [[NF-kappa B]]
 - Suggested new entity notes to create: [[Cytokines]], [[Immune response]]
-- Strong connections to strengthen: [[Inflammation]] ↔ [[TNF-alpha]]
+- Strong connections to strengthen: [[notes/_link/Inflammation]] ↔ [[TNF-alpha]]
 
 ## Connections
-- [[Neutrophils]] ↔ The primary immune cells driving oxidation during inflammation.
+- [[notes/_link/Neutrophils]] ↔ The primary immune cells driving oxidation during inflammation.
 - [[Adrenochrome]] ↔ An oxidative byproduct formed at sites of inflammation.
 - [[notes/_link/Oxidative Stress]] ↔ A state closely linked with and often caused by inflammation.
-- [[Reactive Oxygen Species]] ↔ The chemicals used by immune cells that also oxidize adrenaline.
-- [[Myeloperoxidase]] ↔ The enzyme that catalyzes this process during the inflammatory response.
+- [[notes/_link/Reactive Oxygen Species]] ↔ The chemicals used by immune cells that also oxidize adrenaline.
+- [[notes/_link/Myeloperoxidase]] ↔ The enzyme that catalyzes this process during the inflammatory response.
 
 
 ### Linking Summary:
-- New links added: [[Adrenochrome]], [[Epinephrine]], [[Hydrogen peroxide]], [[IL-1b]], [[Inflammation]], [[Lungs]], [[Myeloperoxidase]], [[NF-kappa B]], [[Neuromelanin]], [[Neutrophils]], [[Oxidation]], [[notes/_link/Oxidative Stress]], [[Reactive Oxygen Species]], [[Superoxide anion]], [[TNF-alpha]]
+- New links added: [[Adrenochrome]], [[notes/_link/Epinephrine]], [[notes/_link/Hydrogen Peroxide]], [[IL-1b]], [[notes/_link/Inflammation]], [[Lungs]], [[notes/_link/Myeloperoxidase]], [[NF-kappa B]], [[notes/_link/Neuromelanin]], [[notes/_link/Neutrophils]], [[Oxidation]], [[notes/_link/Oxidative Stress]], [[notes/_link/Reactive Oxygen Species]], [[Superoxide anion]], [[TNF-alpha]]
 - Suggested new entity notes to create: [[Cytokines]], [[Immune response]]
-- Strong connections to strengthen: [[Inflammation]] ↔ [[Neutrophils]], [[Inflammation]] ↔ [[TNF-alpha]]
+- Strong connections to strengthen: [[notes/_link/Inflammation]] ↔ [[notes/_link/Neutrophils]], [[notes/_link/Inflammation]] ↔ [[TNF-alpha]]

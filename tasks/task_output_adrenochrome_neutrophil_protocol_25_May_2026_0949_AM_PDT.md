@@ -3,10 +3,10 @@
 ## Scientific Rationale and Analysis
 This protocol is derived from an analysis of existing biomedical entity notes concerning [[[document] adrenochrome - Adrenochrome]] and its metabolic pathways. The key findings informing this protocol are:
 
-1.  **Chemical Instability:** Adrenochrome is a transient intermediate in the [[Epinephrine]] oxidation pathway. It is highly sensitive to pH and oxidative environments, rapidly degrading into [[Adrenolutin]] or polymerizing into [[Melanins]]. Stability is maximized in acidic (pH 3.0–4.0), cold, and anaerobic conditions.
-2.  **Oxidative Catalysis:** The formation and further degradation of adrenochrome are driven by [[Reactive Oxygen Species]] (ROS), such as the [[Superoxide anion]] and [[Hydroxyl radical]]. This necessitates the use of potent antioxidants like [[Ascorbic Acid]] and [[Glutathione]] for stabilization.
+1.  **Chemical Instability:** Adrenochrome is a transient intermediate in the [[notes/_link/Epinephrine]] oxidation pathway. It is highly sensitive to pH and oxidative environments, rapidly degrading into [[Adrenolutin]] or polymerizing into [[Melanins]]. Stability is maximized in acidic (pH 3.0–4.0), cold, and anaerobic conditions.
+2.  **Oxidative Catalysis:** The formation and further degradation of adrenochrome are driven by [[notes/_link/Reactive Oxygen Species]] (ROS), such as the [[Superoxide anion]] and [[Hydroxyl radical]]. This necessitates the use of potent antioxidants like [[notes/_link/Ascorbic Acid]] and [[notes/_link/Glutathione]] for stabilization.
 3.  **Redox Cycling Risks:** Adrenochrome participates in a "vicious cycle" of [[Redox Cycling]], where it is reduced to a semiquinone radical and then re-oxidized, generating more superoxide. This process is a primary driver of [[Cardiotoxicity]] and mitochondrial impairment.
-4.  **Endogenous Production Sites:** In humans, adrenochrome is naturally produced at sites of [[Inflammation]] where [[Neutrophils]] undergo a respiratory burst, releasing [[Myeloperoxidase]] and ROS. The [[Lungs]] and cardiac tissue are primary sites of this "chemical accident" under stress.
+4.  **Endogenous Production Sites:** In humans, adrenochrome is naturally produced at sites of [[notes/_link/Inflammation]] where [[notes/_link/Neutrophils]] undergo a respiratory burst, releasing [[notes/_link/Myeloperoxidase]] and ROS. The [[Lungs]] and cardiac tissue are primary sites of this "chemical accident" under stress.
 5.  **Pharmaceutical Stabilization:** The existence of [[Carbazochrome]] (a semicarbazone derivative) and [[Adrenochrome sulfonate]] provides a precedent for creating more stable delivery forms of the molecule.
 
 ---
@@ -33,7 +33,7 @@ Due to the extreme instability of adrenochrome at physiological pH, the solution
 - **pH Adjustment:** Acidify the solution to a **pH of 3.0–4.0** (using dilute hydrochloric acid or acetic acid). This keeps the indoline amine protonated, significantly slowing the rate of cyclization and degradation.
 
 ### 2.2 Stabilization Matrix
-- **Antioxidants (Electron Donors):** Add [[Ascorbic Acid]] (Vitamin C) or [[Sodium Metabisulfite]] as sacrificial anodes to scavenge [[Reactive Oxygen Species]] (ROS) and prevent the formation of the [[o-quinone]] intermediate.
+- **Antioxidants (Electron Donors):** Add [[notes/_link/Ascorbic Acid]] (Vitamin C) or [[Sodium Metabisulfite]] as sacrificial anodes to scavenge [[notes/_link/Reactive Oxygen Species]] (ROS) and prevent the formation of the [[o-quinone]] intermediate.
 - **Chelating Agents:** Add [[EDTA]] to sequester transition metal ions (Fe²⁺, Cu²⁺) that catalyze the autoxidation of the catechol structure.
 - **Buffers:** Use phosphate-buffered saline (PBS) only if stabilization can be maintained; otherwise, unbuffered acidic saline is preferred for peak stability.
 
@@ -43,12 +43,12 @@ Due to the extreme instability of adrenochrome at physiological pH, the solution
 
 ### 3.1 Route of Administration
 - **Intravenous (IV) Infusion:** Slow drip infusion is preferred over bolus injection to minimize the risk of acute [[Cardiotoxicity]] and to allow for real-time monitoring of [[Redox Cycling]].
-- **Co-administration:** Concurrent administration of [[Glutathione]] (the master antioxidant) is recommended to protect systemic cells from the semiquinone radical intermediates.
+- **Co-administration:** Concurrent administration of [[notes/_link/Glutathione]] (the master antioxidant) is recommended to protect systemic cells from the semiquinone radical intermediates.
 
 ### 3.2 Metabolic Context
 - To maximize the retention of replenished adrenochrome, the subject should avoid conditions that increase clearance or further oxidation:
-    - Avoid [[Smoking]], which increases systemic [[_link/Oxidative stress]] and drives adrenochrome into the [[Melanins]]/[[Neuromelanin]] pathway.
-    - Monitor [[MAO]] and [[COMT]] activity; while these "janitor" enzymes primarily target the precursor [[Epinephrine]], their status affects the overall catecholamine redox environment.
+    - Avoid [[Smoking]], which increases systemic [[notes/_link/Oxidative Stress]] and drives adrenochrome into the [[Melanins]]/[[notes/_link/Neuromelanin]] pathway.
+    - Monitor [[MAO]] and [[notes/_link/COMT]] activity; while these "janitor" enzymes primarily target the precursor [[notes/_link/Epinephrine]], their status affects the overall catecholamine redox environment.
 
 ---
 
@@ -59,7 +59,7 @@ Due to the extreme instability of adrenochrome at physiological pH, the solution
 - **Biomarkers:** Track Troponin levels and markers of mitochondrial impairment.
 
 ### 4.2 Redox Status
-- **ROS Assay:** Monitor levels of [[Superoxide anion]] and [[Hydrogen peroxide]]. If a "vicious cycle" of [[Redox Cycling]] is detected, immediately administer [[Superoxide Dismutase]] (SOD) or Catalase.
+- **ROS Assay:** Monitor levels of [[Superoxide anion]] and [[notes/_link/Hydrogen Peroxide]]. If a "vicious cycle" of [[Redox Cycling]] is detected, immediately administer [[notes/_link/Superoxide Dismutase]] (SOD) or Catalase.
 - **Hemoglobin Interaction:** Monitor for [[Methemoglobinemia]]. Adrenochrome can interact with [[Oxyhemoglobin]] to produce [[Methemoglobin]] and further superoxide radicals.
 
 ### 4.3 Degradation Tracking
@@ -69,14 +69,14 @@ Due to the extreme instability of adrenochrome at physiological pH, the solution
 ---
 
 ## 5. Summary of Connections
-- **Precursor:** [[Epinephrine]] (Adrenaline)
+- **Precursor:** [[notes/_link/Epinephrine]] (Adrenaline)
 - **Intermediate:** [[Leuco-adrenochrome]] (reduced form)
 - **Stabilized Form:** [[Carbazochrome]]
-- **Degradant:** [[Adrenolutin]], [[Neuromelanin]]
-- **Inhibitors of Degradation:** [[Ascorbic Acid]], [[Sodium Metabisulfite]], [[EDTA]], Cold/Acidic environments.
+- **Degradant:** [[Adrenolutin]], [[notes/_link/Neuromelanin]]
+- **Inhibitors of Degradation:** [[notes/_link/Ascorbic Acid]], [[Sodium Metabisulfite]], [[EDTA]], Cold/Acidic environments.
 
 ---
 **Linking Summary:**
-- New links added: [[[document] adrenochrome - Adrenochrome]], [[Carbazochrome]], [[Epinephrine]], [[Leuco-adrenochrome]], [[Adrenolutin]], [[Neuromelanin]], [[Cardiotoxicity]], [[Redox Cycling]], [[_link/Oxidative stress]], [[Ascorbic Acid]], [[Sodium Metabisulfite]], [[EDTA]], [[Glutathione]], [[Superoxide anion]], [[Hydrogen peroxide]], [[Superoxide Dismutase]], [[Methemoglobinemia]], [[Oxyhemoglobin]], [[Methemoglobin]], [[HPLC]], [[LC-MS]], [[H-NMR]], [[Argon]], [[Nitrogen gas]], [[Autoxidation]], [[pH]], [[Cardiac arrest]], [[MAO]], [[COMT]], [[Smoking]], [[Neutrophils]].
+- New links added: [[[document] adrenochrome - Adrenochrome]], [[Carbazochrome]], [[notes/_link/Epinephrine]], [[Leuco-adrenochrome]], [[Adrenolutin]], [[notes/_link/Neuromelanin]], [[Cardiotoxicity]], [[Redox Cycling]], [[notes/_link/Oxidative Stress]], [[notes/_link/Ascorbic Acid]], [[Sodium Metabisulfite]], [[EDTA]], [[notes/_link/Glutathione]], [[Superoxide anion]], [[notes/_link/Hydrogen Peroxide]], [[notes/_link/Superoxide Dismutase]], [[Methemoglobinemia]], [[Oxyhemoglobin]], [[Methemoglobin]], [[HPLC]], [[LC-MS]], [[H-NMR]], [[Argon]], [[Nitrogen gas]], [[Autoxidation]], [[pH]], [[Cardiac arrest]], [[MAO]], [[notes/_link/COMT]], [[Smoking]], [[notes/_link/Neutrophils]].
 - Suggested new entity notes to create: [[Adrenochrome Protocol]], [[Redox Optimization]].
-- Strong connections to strengthen: [[[document] adrenochrome - Adrenochrome]] ↔ [[Cardiotoxicity]], [[[document] adrenochrome - Adrenochrome]] ↔ [[Oxidative stress]].
+- Strong connections to strengthen: [[[document] adrenochrome - Adrenochrome]] ↔ [[Cardiotoxicity]], [[[document] adrenochrome - Adrenochrome]] ↔ [[notes/_link/Oxidative Stress]].

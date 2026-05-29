@@ -7,11 +7,11 @@
 - The accumulation of mHTT aggregates is toxic to neurons.
 
 ## Role of Autophagy
-- [[Autophagy]] is the primary mechanism for clearing mHTT aggregates.
+- [[notes/_link/Autophagy]] is the primary mechanism for clearing mHTT aggregates.
 - Enhancing [[Autophagic Flux]] is a major area of research for treating HD.
-- Interventions like [[Caloric Restriction]] and [[Intermittent Fasting]] have been suggested to diminish neurodegenerative changes by promoting the clearance of these deleterious proteins.
+- Interventions like [[notes/_link/Caloric Restriction]] and [[Intermittent Fasting]] have been suggested to diminish neurodegenerative changes by promoting the clearance of these deleterious proteins.
 
 ### Linking Summary:
-- New links added: [[Autophagy]], [[Autophagic Flux]], [[Caloric Restriction]], [[Intermittent Fasting]]
-- Suggested new entity notes to create: [[Autophagic Flux]], [[Caloric Restriction]], [[Intermittent Fasting]]
-- Strong connections to strengthen: [[Huntington's Disease]] ↔ [[Neurodegenerative Disease]], [[Huntington's Disease]] ↔ [[Autophagy]]
+- New links added: [[notes/_link/Autophagy]], [[Autophagic Flux]], [[notes/_link/Caloric Restriction]], [[Intermittent Fasting]]
+- Suggested new entity notes to create: [[Autophagic Flux]], [[notes/_link/Caloric Restriction]], [[Intermittent Fasting]]
+- Strong connections to strengthen: [[Huntington's Disease]] ↔ [[Neurodegenerative Disease]], [[Huntington's Disease]] ↔ [[notes/_link/Autophagy]]

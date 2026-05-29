@@ -1,7 +1,7 @@
 # Endothelial Dysfunction
-Endothelial dysfunction is a systemic pathological state of the endothelium and can be broadly defined as an imbalance between vasodilating and vasoconstricting substances. It is often characterized by reduced bioavailability of [[Nitric Oxide]] and increased levels of [[Reactive Oxygen Species]], serving as an early marker for [[Atherosclerosis]] and other types of [[notes/comt/Oxidative stress]] related vascular diseases.
+Endothelial dysfunction is a systemic pathological state of the endothelium and can be broadly defined as an imbalance between vasodilating and vasoconstricting substances. It is often characterized by reduced bioavailability of [[notes/_link/Nitric Oxide]] and increased levels of [[notes/_link/Reactive Oxygen Species]], serving as an early marker for [[notes/_link/Atherosclerosis]] and other types of [[notes/_link/Oxidative Stress]] related vascular diseases.
 
 ## Linking Summary
-- New links added: [[Nitric Oxide]], [[Reactive Oxygen Species]], [[Atherosclerosis]], [[notes/comt/Oxidative stress]]
+- New links added: [[notes/_link/Nitric Oxide]], [[notes/_link/Reactive Oxygen Species]], [[notes/_link/Atherosclerosis]], [[notes/_link/Oxidative Stress]]
 - Suggested new entity notes to create: [[Vasodilation]], [[Vasoconstriction]]
-- Strong connections to strengthen: [[Endothelial Dysfunction]] ↔ [[Nitric Oxide]]
+- Strong connections to strengthen: [[Endothelial Dysfunction]] ↔ [[notes/_link/Nitric Oxide]]

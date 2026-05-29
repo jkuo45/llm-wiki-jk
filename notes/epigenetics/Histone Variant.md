@@ -9,4 +9,4 @@
 ## Related
 - [[Histone Modification]]
 - [[Nucleosome]]
-- [[Aging]]
+- [[notes/_link/Aging]]

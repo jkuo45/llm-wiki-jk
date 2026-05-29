@@ -10,9 +10,9 @@ tags:
 ---
 
 
-[[Neutrophils]] role in [[Adrenochrome]] production
+[[notes/_link/Neutrophils]] role in [[Adrenochrome]] production
 
 ### Linking Summary:
-- New links added: [[Neutrophils]], [[Adrenochrome]]
+- New links added: [[notes/_link/Neutrophils]], [[Adrenochrome]]
 - Suggested new entity notes to create: None
-- Strong connections to strengthen: [[Neutrophils]] ↔ [[Adrenochrome]]
+- Strong connections to strengthen: [[notes/_link/Neutrophils]] ↔ [[Adrenochrome]]

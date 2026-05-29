@@ -6,9 +6,9 @@ In neurodegenerative research, [[Klf4]] has been shown to bind to the BIG1 promo
 
 ## Connections
 - [[Klf4]]: A Yamanaka factor that regulates BIG1 expression.
-- [[Neurodegenerative Diseases]]: BIG1's role in neuroinflammation and plasticity is relevant for treating these diseases.
+- [[notes/_link/Neurodegenerative Diseases]]: BIG1's role in neuroinflammation and plasticity is relevant for treating these diseases.
 
 ### Linking Summary:
-- New links added: [[Klf4]], [[Neurodegenerative Diseases]]
+- New links added: [[Klf4]], [[notes/_link/Neurodegenerative Diseases]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Klf4]] ↔ [[BIG1]]

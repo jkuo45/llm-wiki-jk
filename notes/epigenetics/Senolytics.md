@@ -7,5 +7,5 @@
 
 ## Related
 - [[Cellular Senescence]]
-- [[Aging]]
+- [[notes/_link/Aging]]
 - [[SASP]]

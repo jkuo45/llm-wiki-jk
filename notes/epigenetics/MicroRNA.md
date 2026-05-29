@@ -5,23 +5,23 @@
 ### 1. miRNA and the [[Epigenome]]
 MicroRNAs are considered a key part of the broader epigenetic landscape. While they don't modify the DNA or histones directly, they are often regulated by [[DNA Methylation]] and [[Histone Modification]]. Conversely, some miRNAs can regulate the expression of epigenetic enzymes (such as [[DNA Methyltransferase|DNMTs]] or [[HDACs]]).
 
-### 2. Changes During [[Aging]]
+### 2. Changes During [[notes/_link/Aging]]
 The "miRNome"—the complete set of miRNAs in a cell—undergoes predictable changes with age:
 *   **Biomarkers of Aging**: Specific miRNAs found in the blood (circulating miRNAs) are being developed as [[Biomarkers]] to measure biological age and healthspan.
 *   **Inflammaging**: Certain "inflammamiRs" increase with age and promote the chronic low-grade inflammation that characterizes the elderly.
 
 ### 3. Role in Disease
 Dysregulation of miRNAs is a hallmark of many age-related conditions:
-*   **[[Cancer]]**: miRNAs can act as either oncogenes or tumor suppressors.
-*   **[[Neurodegenerative Diseases]]**: miRNAs are essential for neuronal survival, and their loss is linked to diseases like Alzheimer's and Parkinson's.
+*   **[[notes/_link/Cancer]]**: miRNAs can act as either oncogenes or tumor suppressors.
+*   **[[notes/_link/Neurodegenerative Diseases]]**: miRNAs are essential for neuronal survival, and their loss is linked to diseases like Alzheimer's and Parkinson's.
 
 ### Connections
 - **[[Non-coding RNA]]**: The broader category of regulatory RNAs to which miRNAs belong.
 - **[[Epigenetics]]**: miRNAs are a major layer of epigenetic control.
-- **[[Aging]]**: Predictable shifts in miRNA expression are a hallmark of aging.
+- **[[notes/_link/Aging]]**: Predictable shifts in miRNA expression are a hallmark of aging.
 - **[[Biomarkers]]**: miRNAs are promising candidates for minimally invasive aging tests.
 
 ### Linking Summary:
-- New links added: [[MicroRNA]], [[Non-coding RNA]], [[Epigenome]], [[DNA Methylation]], [[Histone Modification]], [[DNA Methyltransferase]], [[HDAC]], [[Aging]], [[Biomarkers]], [[Cancer]], [[Neurodegenerative Diseases]], [[Epigenetics]]
+- New links added: [[MicroRNA]], [[Non-coding RNA]], [[Epigenome]], [[DNA Methylation]], [[Histone Modification]], [[DNA Methyltransferase]], [[HDAC]], [[notes/_link/Aging]], [[Biomarkers]], [[notes/_link/Cancer]], [[notes/_link/Neurodegenerative Diseases]], [[Epigenetics]]
 - Suggested new entity notes to create: [[miRNome]], [[InflammamiRs]], [[Dicer Enzyme]]
-- Strong connections to strengthen: [[MicroRNA]] ↔ [[Epigenetics]], [[MicroRNA]] ↔ [[Aging]]
+- Strong connections to strengthen: [[MicroRNA]] ↔ [[Epigenetics]], [[MicroRNA]] ↔ [[notes/_link/Aging]]

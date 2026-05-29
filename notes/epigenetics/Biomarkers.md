@@ -14,7 +14,7 @@ Mathematical models, known as epigenetic clocks, select a specific set of CpG si
 
 ### 3. Clinical and Research Significance
 *   **Age Acceleration:** The difference between an individual's DNAm age and their chronological age is a marker of "age acceleration." A positive value suggests that a person is biologically older than their calendar age.
-*   **Disease Prediction:** Accelerated epigenetic aging is associated with higher risks of [[Cancer]], [[Cardiovascular Disease]], and [[Neurodegenerative Diseases]] like [[Alzheimer's Disease]].
+*   **Disease Prediction:** Accelerated epigenetic aging is associated with higher risks of [[notes/_link/Cancer]], [[notes/_link/Cardiovascular Disease]], and [[notes/_link/Neurodegenerative Diseases]] like [[notes/_link/Alzheimer's Disease]].
 *   **Intervention Testing:** Because epigenetic marks are potentially reversible, these biomarkers are used to test the efficacy of anti-aging interventions, including diet, exercise, and pharmacological treatments.
 
 ### 4. Limitations
@@ -22,11 +22,11 @@ Mathematical models, known as epigenetic clocks, select a specific set of CpG si
 *   **Tissue Specificity:** Different tissues can show varying rates of biological aging within the same individual.
 
 ### Connections
-- **[[Aging]]**: The primary process that biomarkers of aging aim to quantify.
+- **[[notes/_link/Aging]]**: The primary process that biomarkers of aging aim to quantify.
 - **[[DNAmGrimAge]]**: A state-of-the-art epigenetic biomarker for mortality and healthspan.
 - **[[Epigenetic Clock]]**: The broader category of algorithms used to derive biological age from epigenetic data.
 
 ### Linking Summary:
-- New links added: [[Geroscience]], [[Epigenetics]], [[DNA Methylation]], [[CpG Island]], [[Aging]], [[Epigenetic Clock]], [[DNAmGrimAge]], [[Cancer]], [[Cardiovascular Disease]], [[Neurodegenerative Diseases]], [[Alzheimer's Disease]].
+- New links added: [[Geroscience]], [[Epigenetics]], [[DNA Methylation]], [[CpG Island]], [[notes/_link/Aging]], [[Epigenetic Clock]], [[DNAmGrimAge]], [[notes/_link/Cancer]], [[notes/_link/Cardiovascular Disease]], [[notes/_link/Neurodegenerative Diseases]], [[notes/_link/Alzheimer's Disease]].
 - Suggested new entity notes to create: [[PhenoAge]], [[Horvath's Clock]], [[Hannum's Clock]], [[Biological Age]].
-- Strong connections to strengthen: [[Biomarkers]] ↔ [[Epigenetic Clock]], [[Biomarkers]] ↔ [[Aging]]
+- Strong connections to strengthen: [[Biomarkers]] ↔ [[Epigenetic Clock]], [[Biomarkers]] ↔ [[notes/_link/Aging]]

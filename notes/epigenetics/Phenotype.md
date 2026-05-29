@@ -9,4 +9,4 @@ A **phenotype** is the set of observable characteristics or traits of an organis
 ## Related
 - [[Genotype]]
 - [[Epigenetics]]
-- [[Aging]]
+- [[notes/_link/Aging]]

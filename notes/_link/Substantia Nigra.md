@@ -1,6 +1,6 @@
 # Substantia Nigra
 
-The **Substantia Nigra** (SN) is a critical basal ganglia structure located in the midbrain. Its name, Latin for "black substance," is derived from the dark color provided by high concentrations of [[Neuromelanin]] in its neurons.
+The **Substantia Nigra** (SN) is a critical basal ganglia structure located in the midbrain. Its name, Latin for "black substance," is derived from the dark color provided by high concentrations of [[notes/_link/Neuromelanin]] in its neurons.
 
 ## Anatomical Divisions
 The substantia nigra is divided into two primary regions:
@@ -14,17 +14,17 @@ The SNpc is vital for:
 - **Learning:** Facilitating the reinforcement of motor habits and executive functions.
 
 ## Clinical Significance
-- **[[Parkinson's Disease]]:** The progressive loss of dopaminergic neurons in the SNpc is the hallmark of Parkinson's Disease. Motor symptoms like tremors and [[Bradykinesia]] emerge when a significant portion of these neurons have degenerated.
-- **[[COMT]] Expression:** Neurons in the SN can express [[COMT]], which may influence presynaptic dopamine regulation and release capacity in the striatum.
+- **[[notes/_link/Parkinson's Disease]]:** The progressive loss of dopaminergic neurons in the SNpc is the hallmark of Parkinson's Disease. Motor symptoms like tremors and [[Bradykinesia]] emerge when a significant portion of these neurons have degenerated.
+- **[[notes/_link/COMT]] Expression:** Neurons in the SN can express [[notes/_link/COMT]], which may influence presynaptic dopamine regulation and release capacity in the striatum.
 
 ## Connections
-- [[Dopaminergic Neurons]]: The primary cell type in the SNpc.
-- [[Neuromelanin]]: Pigment formed via the oxidation of [[Catecholamines]] (with [[Adrenochrome]] and other [[Aminochromes]] as intermediates).
-- [[Dopamine]]: The primary neurotransmitter produced and released by SNpc neurons.
+- [[notes/_link/Dopaminergic Neurons]]: The primary cell type in the SNpc.
+- [[notes/_link/Neuromelanin]]: Pigment formed via the oxidation of [[Catecholamines]] (with [[Adrenochrome]] and other [[Aminochromes]] as intermediates).
+- [[notes/_link/Dopamine]]: The primary neurotransmitter produced and released by SNpc neurons.
 - [[Striatum]]: The major projection target of the nigrostriatal pathway.
-- [[Ventral Tegmental Area]]: Another major midbrain dopaminergic nucleus.
+- [[notes/_link/Ventral Tegmental Area]]: Another major midbrain dopaminergic nucleus.
 
 ### Linking Summary:
-- New links added: [[Adrenochrome]], [[Aminochromes]], [[Bradykinesia]], [[COMT]], [[Catecholamines]], [[Dopamine]], [[Dopaminergic Neurons]], [[Neuromelanin]], [[Nigrostriatal System]], [[Parkinson's Disease]], [[Striatum]], [[Substantia Nigra Pars Compacta]], [[Ventral Tegmental Area]]
+- New links added: [[Adrenochrome]], [[Aminochromes]], [[Bradykinesia]], [[notes/_link/COMT]], [[Catecholamines]], [[notes/_link/Dopamine]], [[notes/_link/Dopaminergic Neurons]], [[notes/_link/Neuromelanin]], [[Nigrostriatal System]], [[notes/_link/Parkinson's Disease]], [[Striatum]], [[Substantia Nigra Pars Compacta]], [[notes/_link/Ventral Tegmental Area]]
 - Suggested new entity notes to create: [[Basal Ganglia]], [[Midbrain]], [[GABAergic Neurons]]
-- Strong connections to strengthen: [[notes/_link/Substantia Nigra]] ↔ [[Parkinson's Disease]], [[notes/_link/Substantia Nigra]] ↔ [[Striatum]]
+- Strong connections to strengthen: [[notes/_link/Substantia Nigra]] ↔ [[notes/_link/Parkinson's Disease]], [[notes/_link/Substantia Nigra]] ↔ [[Striatum]]

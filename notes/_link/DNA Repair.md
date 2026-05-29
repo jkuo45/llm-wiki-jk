@@ -8,7 +8,7 @@ DNA repair is a collection of processes by which a cell identifies and corrects 
 
 
 ## Oxidative DNA Repair
-In the context of [[notes/_link/Oxidative Stress]], the most important repair pathway is [[Base Excision Repair]] (BER). This pathway is specifically designed to handle small, non-helix-distorting base lesions, such as those caused by [[Reactive Oxygen Species]].
+In the context of [[notes/_link/Oxidative Stress]], the most important repair pathway is [[Base Excision Repair]] (BER). This pathway is specifically designed to handle small, non-helix-distorting base lesions, such as those caused by [[notes/_link/Reactive Oxygen Species]].
 
 
 ## Key Mechanisms
@@ -18,9 +18,9 @@ In the context of [[notes/_link/Oxidative Stress]], the most important repair pa
 
 
 ## Linking Summary:
-- New links added: [[notes/_link/Oxidative Stress]], [[Base Excision Repair]], [[Reactive Oxygen Species]], [[8-oxo-2'-deoxyguanosine]], [[notes/_link/DNA Damage]], [[Cancer]], [[Nucleic Acids]]
+- New links added: [[notes/_link/Oxidative Stress]], [[Base Excision Repair]], [[notes/_link/Reactive Oxygen Species]], [[8-oxo-2'-deoxyguanosine]], [[notes/_link/DNA Damage]], [[notes/_link/Cancer]], [[Nucleic Acids]]
 - Suggested new entity notes to create: [[Base Excision Repair]], [[Nucleotide Excision Repair]]
-- Strong connections to strengthen: [[DNA Repair]] ↔ [[8-oxo-2'-deoxyguanosine]]
+- Strong connections to strengthen: [[notes/_link/DNA Repair]] ↔ [[8-oxo-2'-deoxyguanosine]]
 
 ## Overview
 - Essential for: Maintaining [[Genomic Instability|Genomic Stability]]
@@ -35,11 +35,11 @@ In the context of [[notes/_link/Oxidative Stress]], the most important repair pa
 ## Connections
 - [[notes/_link/DNA Damage]]: The substrate for repair mechanisms.
 - [[8-oxo-2'-deoxyguanosine]]: A major oxidative lesion repaired by the BER pathway.
-- [[Cancer]]: Deficiencies in DNA repair pathways significantly increase the risk of mutagenesis and tumor development.
+- [[notes/_link/Cancer]]: Deficiencies in DNA repair pathways significantly increase the risk of mutagenesis and tumor development.
 - [[Nucleic Acids]]: The biological molecules being protected by these repair systems.
 
 
 ### Linking Summary:
-- New links added: [[8-oxo-2'-deoxyguanosine]], [[Base Excision Repair]], [[Cancer]], [[notes/_link/DNA Damage]], [[Nucleic Acids]], [[notes/_link/Oxidative Stress]], [[Reactive Oxygen Species]]
+- New links added: [[8-oxo-2'-deoxyguanosine]], [[Base Excision Repair]], [[notes/_link/Cancer]], [[notes/_link/DNA Damage]], [[Nucleic Acids]], [[notes/_link/Oxidative Stress]], [[notes/_link/Reactive Oxygen Species]]
 - Suggested new entity notes to create: [[Base Excision Repair]], [[Nucleotide Excision Repair]]
-- Strong connections to strengthen: [[DNA Repair]] ↔ [[8-oxo-2'-deoxyguanosine]]
+- Strong connections to strengthen: [[notes/_link/DNA Repair]] ↔ [[8-oxo-2'-deoxyguanosine]]

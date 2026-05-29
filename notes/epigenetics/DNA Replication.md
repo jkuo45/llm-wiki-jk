@@ -8,5 +8,5 @@
 
 ## Related
 - [[Chromatin]]
-- [[DNA Repair]]
+- [[notes/_link/DNA Repair]]
 - [[Genomic Instability]]

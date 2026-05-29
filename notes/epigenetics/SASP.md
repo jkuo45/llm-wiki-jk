@@ -8,5 +8,5 @@ The **Senescence-Associated Secretory Phenotype (SASP)** refers to a variety of 
 
 ## Related
 - [[Cellular Senescence]]
-- [[Aging]]
-- [[Inflammation]]
+- [[notes/_link/Aging]]
+- [[notes/_link/Inflammation]]

@@ -13,7 +13,7 @@
 - Use Obsidian-style wiki links: [[Exact Note Title]] or [[Note Title|Display Text]] when the display text differs.
 - Only link to entities and biomedical terms that make sense contextually — do not over-link or create trivial links.
 - Prefer precise, canonical note titles (e.g., use [[Large Language Models]] instead of [[LLMs]] unless you know an alias exists). e.g. Genes/proteins: [[BRCA1]], [[TP53]], [[CFTR]]
-Diseases/disorders: [[Alzheimer's Disease]], [[Cystic Fibrosis]], [[Type 2 Diabetes Mellitus]]
+Diseases/disorders: [[notes/_link/Alzheimer's Disease]], [[Cystic Fibrosis]], [[Type 2 Diabetes Mellitus]]
 - If a concept is mentioned but no dedicated note exists yet, suggest creating one by using a clear [[New Entity Name]] and note it at the end. Prefer space to underscore in the entity name. Create markdown files for each new entity.
 - Add links in the most natural places: first meaningful mention is often best.
 - In a dedicated "Connections" or "Related" section (if it exists, or create one), list important bidirectional connections with brief one-line explanations.
@@ -61,28 +61,28 @@ To maintain consistency, all entity notes should include an `entity_type` field.
 
 | entity_type_1                 | entity_description_1                                                 | entity_examples_1                                                         |
 | ----------------------------- | -------------------------------------------------------------------- | ------------------------------------------------------------------------- |
-| **Chemical Compound**         | Specific small molecules and chemical substances.                    | [[Adrenochrome]], [[Epinephrine]], [[Sodium nitrite]], [[Methylene blue]] |
+| **Chemical Compound**         | Specific small molecules and chemical substances.                    | [[Adrenochrome]], [[notes/_link/Epinephrine]], [[Sodium nitrite]], [[Methylene blue]] |
 | **Chemical Class**            | Groups of chemically related substances.                             | [[Catecholamines]], [[Aminochromes]], [[Persulfates]]                     |
 | **Metabolite**                | Endogenous or drug metabolites (can overlap with Chemical Compound). | [[Adrenochrome]] (as epinephrine metabolite), [[6-Hydroxymelatonin]]      |
-| **Enzyme**                    | Specific biological catalysts.                                       | [[MAO]], [[COMT]], [[Myeloperoxidase]], [[Diaphorase]]                    |
+| **Enzyme**                    | Specific biological catalysts.                                       | [[MAO]], [[notes/_link/COMT]], [[notes/_link/Myeloperoxidase]], [[Diaphorase]]                    |
 | **Protein**                   | Large biomolecules, structural or functional proteins (non-enzyme).  | [[Hemoglobin]], [[Cytochrome b5 reductase]]                               |
 | **Receptor**                  | Signal-receiving proteins.                                           | [[Adrenergic receptor]], [[D2 receptor]], [[NMDA receptor]]               |
 | **Transporter**               | Membrane proteins that transport molecules.                          | [[VMAT2]], [[SERT]], [[DAT]]                                              |
 | **Ion Channel**               | Proteins forming ion pores.                                          | [[hERG channel]], [[Voltage-gated sodium channel]]                        |
 | **Gene**                      | Specific genes or genomic loci.                                      | [[COMT gene]], [[MAOA]], [[CYP2D6]]                                       |
 | **Genetic Variant**           | Mutations, SNPs, or alleles.                                         | [[COMT Val158Met]], [[rs4680]]                                            |
-| **Biological Molecule**       | Other metabolites, signaling molecules, radicals, etc.               | [[Glutathione]], [[Nitric oxide]], [[Hydroxyl radical]]                   |
+| **Biological Molecule**       | Other metabolites, signaling molecules, radicals, etc.               | [[notes/_link/Glutathione]], [[notes/_link/Nitric Oxide]], [[Hydroxyl radical]]                   |
 | **Biomarker**                 | Measurable indicators of biological states.                          | [[Troponin]], [[Methemoglobin level]], [[8-OHdG]]                         |
 | **Antibody**                  | Immunoglobulins or monoclonal antibodies.                            | [[Rituximab]], [[Anti-MPO antibody]]                                      |
-| **Cell Type**                 | Specific types of biological cells.                                  | [[Neutrophils]], [[Erythrocytes]], [[Chromaffin cells]]                   |
-| **Anatomy**                   | Organs, tissues, or physiological structures.                        | [[Adrenal gland]], [[notes/_link/Substantia nigra]], [[Lungs]]                        |
+| **Cell Type**                 | Specific types of biological cells.                                  | [[notes/_link/Neutrophils]], [[Erythrocytes]], [[Chromaffin cells]]                   |
+| **Anatomy**                   | Organs, tissues, or physiological structures.                        | [[Adrenal gland]], [[notes/_link/Substantia Nigra]], [[Lungs]]                        |
 | **Microorganism**             | Bacteria, viruses, fungi, parasites.                                 | [[Pseudomonas aeruginosa]], [[SARS-CoV-2]]                                |
 | **Toxin**                     | Naturally occurring or synthetic poisons.                            | [[Cyanide]], [[Botulinum toxin]]                                          |
-| **Medical Condition**         | Diseases, syndromes, or pathological states.                         | [[Methemoglobinemia]], [[Anaphylaxis]], [[Schizophrenia]]                 |
+| **Medical Condition**         | Diseases, syndromes, or pathological states.                         | [[Methemoglobinemia]], [[Anaphylaxis]], [[notes/_link/Schizophrenia]]                 |
 | **Symptom**                   | Subjective patient-reported experiences.                             | [[Dyspnea]], [[Cyanosis]], [[Hallucinations]]                             |
 | **Clinical Sign**             | Objective observable or measurable findings.                         | [[Tachycardia]], [[Cherry-red skin]]                                      |
 | **Adverse Effect**            | Undesired reactions to exposures or treatments.                      | [[Hypertensive crisis]], [[Serotonin syndrome]]                           |
-| **Biological Process**        | Normal or pathological biological events and pathways.               | [[Inflammation]], [[Respiratory Burst]], [[Homeostasis]]                  |
+| **Biological Process**        | Normal or pathological biological events and pathways.               | [[notes/_link/Inflammation]], [[notes/_link/Respiratory Burst]], [[Homeostasis]]                  |
 | **Chemical Process**          | Specific chemical reactions or mechanisms.                           | [[Oxidation]], [[Michael addition]], [[Autoxidation]]                     |
 | **Pharmacological Action**    | Mechanism or effect of a drug/compound.                              | [[MAO inhibition]], [[Antioxidant]], [[Vasoconstriction]]                 |
 | **Diagnostic Test**           | Procedures or tools for medical diagnosis.                           | [[ABG]], [[Pulse oximetry]], [[Co-oximetry]]                              |
@@ -93,7 +93,7 @@ To maintain consistency, all entity notes should include an `entity_type` field.
 | **Medical Product**           | Prepared devices or specific pharmaceutical products.                | [[EpiPen]], [[Neffy]], [[Symjepi]]                                        |
 | **Vaccine**                   | Preparations to stimulate immunity.                                  | [[mRNA COVID-19 vaccine]]                                                 |
 | **Scientific Theory**         | Hypotheses or scientific models.                                     | [[Adrenochrome Hypothesis]], [[Dopamine hypothesis]]                      |
-| **Scientific Concept**        | Broad scientific principles or mechanisms.                           | [[Redox Cycling]], [[notes/comt/Oxidative stress]], [[Electrophile]]                 |
+| **Scientific Concept**        | Broad scientific principles or mechanisms.                           | [[Redox Cycling]], [[notes/_link/Oxidative Stress]], [[Electrophile]]                 |
 | **Laboratory Standard**       | Quality control and reference materials.                             | [[Reference standard]], [[Certificate of Analysis]], [[Impurity marker]]  |
 | **Pharmacokinetic Parameter** | Quantitative ADME properties.                                        | [[Half-life]], [[Volume of distribution]], [[Bioavailability]]            |
 | **Model Organism**            | Species or strains used in research.                                 | [[Rattus norvegicus]], [[Zebrafish]], [[Knockout mouse]]                  |

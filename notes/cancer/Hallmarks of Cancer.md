@@ -5,7 +5,7 @@ The [[Hallmarks of Cancer]] are ten underlying principles shared by all cancers,
 ## The Ten Hallmarks
 1. **Sustaining Proliferative Signaling**
 2. **Evading Growth Suppressors**
-3. **Resisting Cell Death** (e.g., [[notes/cancer/apoptosis]])
+3. **Resisting Cell Death** (e.g., [[notes/_link/Apoptosis]])
 4. **Enabling Replicative Immortality**
 5. **Inducing Angiogenesis**
 6. **Activating Invasion and Metastasis**
@@ -15,9 +15,9 @@ The [[Hallmarks of Cancer]] are ten underlying principles shared by all cancers,
 10. **Tumor-Promoting Inflammation**
 
 ## Connections
-- **Related Processes:** [[Metabolic Reprogramming]], [[notes/cancer/apoptosis]], [[Angiogenesis]], [[Metastasis]]
-- **Regulators:** [[p53]], [[MYC]], [[RAS]], [[RB1]]
+- **Related Processes:** [[Metabolic Reprogramming]], [[notes/_link/Apoptosis]], [[Angiogenesis]], [[Metastasis]]
+- **Regulators:** [[notes/_link/p53]], [[MYC]], [[RAS]], [[RB1]]
 - **Environment:** [[tumour microenvironment]]
 
 ## Linking Summary
-- New links added: [[notes/cancer/apoptosis]], [[Metabolic Reprogramming]], [[Warburg Effect]], [[Angiogenesis]], [[Metastasis]], [[p53]], [[MYC]], [[RAS]], [[RB1]], [[tumour microenvironment]]
+- New links added: [[notes/_link/Apoptosis]], [[Metabolic Reprogramming]], [[Warburg Effect]], [[Angiogenesis]], [[Metastasis]], [[notes/_link/p53]], [[MYC]], [[RAS]], [[RB1]], [[tumour microenvironment]]

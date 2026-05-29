@@ -1,6 +1,6 @@
 # Cancer
 
-This directory contains notes and research regarding [[Cancer]], with a primary focus on drug repurposing, alternative mechanisms, and non-conventional approaches. Emphasis is placed on antiparasitic agents such as [[Ivermectin]], [[Fenbendazole]], [[Mebendazole]], and [[Albendazole]], as well as [[Melittin]] and components of [[Honeybee]] venom ([[Apis mellifera]]), and their potential effects on cancer cell pathways. Special attention is given to mechanisms including [[notes/cancer/apoptosis]], [[Autophagy]], [[Angiogenesis]] inhibition, [[notes/comt/Oxidative stress]], [[Warburg Effect]], [[Metabolic Reprogramming]], and disruption of [[Microtubule]] dynamics, along with connections to specific cancer types (e.g., [[triple-negative breast cancer]], [[Colorectal Cancer]], [[glioblastoma]]) and the [[Hallmarks of Cancer]].
+This directory contains notes and research regarding [[notes/_link/Cancer]], with a primary focus on drug repurposing, alternative mechanisms, and non-conventional approaches. Emphasis is placed on antiparasitic agents such as [[Ivermectin]], [[Fenbendazole]], [[Mebendazole]], and [[Albendazole]], as well as [[Melittin]] and components of [[Honeybee]] venom ([[Apis mellifera]]), and their potential effects on cancer cell pathways. Special attention is given to mechanisms including [[notes/_link/Apoptosis]], [[notes/_link/Autophagy]], [[Angiogenesis]] inhibition, [[notes/_link/Oxidative Stress]], [[Warburg Effect]], [[Metabolic Reprogramming]], and disruption of [[Microtubule]] dynamics, along with connections to specific cancer types (e.g., [[triple-negative breast cancer]], [[notes/_link/Colorectal Cancer]], [[glioblastoma]]) and the [[Hallmarks of Cancer]].
 
 
 ## Maintenance
@@ -11,7 +11,7 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | entity                                                 | datetime updated          |
 | ------------------------------------------------------ | ------------------------- |
 | [[African Programme for Onchocerciasis Control]]       | 21_May_2026 06:20 PM PDT  |
-| [[Akt]]                                                | 21_May_2026 05:45 PM PDT  |
+| [[notes/_link/Akt]]                                                | 21_May_2026 05:45 PM PDT  |
 | [[Albendazole]]                                        | 21_May_2026 06:45 PM PDT  |
 | [[ALIX]]                                               | 19_May_2026 08:16 PM PDT  |
 | [[Andy Crump]]                                         | 21_May_2026 06:20 PM PDT  |
@@ -19,18 +19,18 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[Annexin V]]                                          | 19_May_2026 08:16 PM PDT  |
 | [[Apis mellifera]]                                     | 19_May_2026 08:16 PM PDT  |
 | [[apitherapy]]                                         | 19_May_2026 08:16 PM PDT  |
-| [[notes/cancer/apoptosis]]                                          | 21_May_2026 06:45 PM PDT  |
+| [[notes/_link/Apoptosis]]                                          | 21_May_2026 06:45 PM PDT  |
 | [[Ascariasis]]                                         | 21_May_2026 06:20 PM PDT  |
 | [[Ascaris]]                                            | 21_May_2026 06:20 PM PDT  |
-| [[Autophagy]]                                          | 21_May_2026 05:45 PM PDT  |
+| [[notes/_link/Autophagy]]                                          | 21_May_2026 05:45 PM PDT  |
 | [[Avermectin]]                                         | 21_May_2026 06:20 PM PDT  |
 | [[Benzimidazole]]                                      | 21_May_2026 06:45 PM PDT  |
 | [[bioluminescence resonance energy transfer]]          | 19_May_2026 08:16 PM PDT  |
 | [[BRCA]]                                               | 19_May_2026 08:16 PM PDT  |
-| [[breast cancer]]                                      | 21_May_2026 05:45 PM PDT  |
+| [[notes/_link/Breast Cancer]]                                      | 21_May_2026 05:45 PM PDT  |
 | [[Brugia malayi]]                                      | 21_May_2026 06:20 PM PDT  |
 | [[Brugia timori]]                                      | 21_May_2026 06:20 PM PDT  |
-| [[Cancer]]                                             | 27_May_2026 10:15 AM PDT |
+| [[notes/_link/Cancer]]                                             | 27_May_2026 10:15 AM PDT |
 | [[Cancer Stem Cells]]                                  | 21_May_2026 05:45 PM PDT  |
 | [[caspase-3]]                                          | 19_May_2026 08:16 PM PDT  |
 | [[CendR motif]]                                        | 26_May_2026 05:03 PM PDT  |
@@ -38,7 +38,7 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[Cholangiocarcinoma]]                                 | 21_May_2026 05:45 PM PDT  |
 | [[Cilengitide]]                                        | 26_May_2026 05:03 PM PDT  |
 | [[cisplatin]]                                          | 19_May_2026 08:16 PM PDT  |
-| [[Colorectal Cancer]]                                  | 21_May_2026 06:45 PM PDT  |
+| [[notes/_link/Colorectal Cancer]]                                  | 21_May_2026 06:45 PM PDT  |
 | [[CYP2C19]]                                            | 21_May_2026 06:45 PM PDT  |
 | [[CYP2J2]]                                             | 21_May_2026 06:45 PM PDT  |
 | [[Diethylcarbamazine]]                                 | 21_May_2026 06:20 PM PDT  |
@@ -80,7 +80,7 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[leukemia]]                                           | 21_May_2026 05:45 PM PDT  |
 | [[Lung Cancer]]                                        | 21_May_2026 05:45 PM PDT  |
 | [[Lymphatic Filariasis]]                               | 21_May_2026 06:20 PM PDT  |
-| [[MAPK]]                                               | 21_May_2026 06:45 PM PDT  |
+| [[notes/_link/MAPK]]                                               | 21_May_2026 06:45 PM PDT  |
 | [[Mebendazole]]                                        | 21_May_2026 06:45 PM PDT  |
 | [[Mectizan]]                                           | 21_May_2026 06:20 PM PDT  |
 | [[Mectizan Donation Program]]                          | 21_May_2026 06:20 PM PDT  |
@@ -90,7 +90,7 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[Metabolic Reprogramming]]                            | 21_May_2026 06:45 PM PDT  |
 | [[Microfilariae]]                                      | 21_May_2026 06:20 PM PDT  |
 | [[Microtubule]]                                        | 21_May_2026 06:45 PM PDT  |
-| [[mTOR]]                                               | 21_May_2026 05:45 PM PDT  |
+| [[notes/_link/mTOR]]                                               | 21_May_2026 05:45 PM PDT  |
 | [[Multidrug Resistance]]                               | 21_May_2026 05:45 PM PDT  |
 | [[Nasopharyngeal Carcinoma]]                           | 21_May_2026 05:45 PM PDT  |
 | [[Neuropilin-1]]                                       | 26_May_2026 05:03 PM PDT  |
@@ -102,14 +102,14 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[Onchocerciasis Chemotherapy Research Centre]]        | 21_May_2026 06:20 PM PDT  |
 | [[ovarian cancer]]                                     | 21_May_2026 06:45 PM PDT  |
 | [[Oxfendazole]]                                        | 21_May_2026 06:45 PM PDT  |
-| [[notes/comt/Oxidative stress]]                                   | 21_May_2026 06:45 PM PDT  |
-| [[p53]]                                                | 21_May_2026 06:45 PM PDT  |
+| [[notes/_link/Oxidative Stress]]                                   | 21_May_2026 06:45 PM PDT  |
+| [[notes/_link/p53]]                                                | 21_May_2026 06:45 PM PDT  |
 | [[PAK1]]                                               | 21_May_2026 05:45 PM PDT  |
 | [[pancreatic cancer]]                                  | 19_May_2026 08:16 PM PDT  |
 | [[PD-L1]]                                              | 19_May_2026 08:16 PM PDT  |
 | [[Pediculosis]]                                        | 21_May_2026 06:20 PM PDT  |
 | [[phospholipase A2]]                                   | 19_May_2026 08:16 PM PDT  |
-| [[PI3K]]                                               | 19_May_2026 08:16 PM PDT  |
+| [[notes/_link/PI3K]]                                               | 19_May_2026 08:16 PM PDT  |
 | [[Prostate Cancer]]                                    | 21_May_2026 06:45 PM PDT  |
 | [[Pyruvate Kinase M2]]                                 | 21_May_2026 06:45 PM PDT  |
 | [[Pyroptosis]]                                         | 21_May_2026 05:45 PM PDT  |
@@ -118,7 +118,7 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[Satoshi Ōmura]]                                      | 21_May_2026 06:20 PM PDT  |
 | [[Scabies]]                                            | 21_May_2026 06:20 PM PDT  |
 | [[Simulium]]                                           | 21_May_2026 06:20 PM PDT  |
-| [[STAT3]]                                              | 21_May_2026 05:45 PM PDT  |
+| [[notes/_link/STAT3]]                                              | 21_May_2026 05:45 PM PDT  |
 | [[Strongyloides]]                                      | 21_May_2026 06:20 PM PDT  |
 | [[Strongyloidiasis]]                                   | 21_May_2026 06:20 PM PDT  |
 | [[Suramin]]                                            | 21_May_2026 06:20 PM PDT  |

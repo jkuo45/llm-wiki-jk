@@ -6,10 +6,10 @@ c-Myc is a proto-oncogene and a member of the Myc family of [[Transcription Fact
 While not strictly required for [[Induced Pluripotent Stem Cells|iPSC]] generation (reprogramming can occur with [[Oct4]], [[Sox2]], and [[Klf4]] alone), c-Myc significantly increases the efficiency of [[Cellular Reprogramming]] by promoting a more open chromatin state and accelerating the cell cycle. However, its use is associated with an increased risk of [[Tumorigenicity]].
 
 ## Connections
-- Associated with many types of [[Cancer]].
+- Associated with many types of [[notes/_link/Cancer]].
 - Part of the [[OSKM]] complex.
 
 ### Linking Summary:
-- New links added: [[Transcription Factor]], [[Induced Pluripotent Stem Cells]], [[Oct4]], [[Sox2]], [[Klf4]], [[Cellular Reprogramming]], [[Tumorigenicity]], [[Cancer]], [[OSKM]]
+- New links added: [[Transcription Factor]], [[Induced Pluripotent Stem Cells]], [[Oct4]], [[Sox2]], [[Klf4]], [[Cellular Reprogramming]], [[Tumorigenicity]], [[notes/_link/Cancer]], [[OSKM]]
 - Suggested new entity notes to create: [[Tumorigenicity]]
-- Strong connections to strengthen: [[c-Myc]] ↔ [[Cancer]]
+- Strong connections to strengthen: [[c-Myc]] ↔ [[notes/_link/Cancer]]

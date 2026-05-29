@@ -10,7 +10,7 @@ This protocol outlines a hypothetical framework for replenishing [[[document] ad
 *   **[[Carbazochrome]]:** A stabilized semicarbazone derivative. While traditionally used as a hemostatic agent, it serves as a viable pharmaceutical alternative if natural adrenochrome is too reactive for the intended delivery system.
 
 ### Precursors and Catalysts
-*   **[[Epinephrine]] (Adrenaline):** The primary endogenous precursor.
+*   **[[notes/_link/Epinephrine]] (Adrenaline):** The primary endogenous precursor.
 *   **[[Erythrocytes]] (Red Blood Cells):** Utilized as a "biocatalyst" carrier. The [[Autoxidation]] of [[Oxyhemoglobin]] to [[Methemoglobin]] generates [[Superoxide anion]] radicals, which naturally drive the conversion of epinephrine into adrenochrome.
 
 ## 2. Formulation and Stabilization Matrix
@@ -18,9 +18,9 @@ This protocol outlines a hypothetical framework for replenishing [[[document] ad
 To prevent spontaneous degradation into [[Melanins]] (polymerization) and to mitigate [[Cardiotoxicity]], the replenishment medium must adhere to strict chemical parameters:
 
 *   **pH Regulation:** Maintain an acidic environment (pH 2.5–5.5). In alkaline conditions, adrenochrome rapidly oxidizes and polymerizes; acidity protonates the hydroxyl groups, stabilizing the indoline core.
-*   **Antioxidant Shield:** Co-formulate with high-dose [[Ascorbic Acid]] (Vitamin C) or [[Glutathione]] (GSH). These act as electron donors, maintaining the molecule in the [[Leuco-adrenochrome]] state and preventing the "vicious cycle" of [[Redox Cycling]].
+*   **Antioxidant Shield:** Co-formulate with high-dose [[notes/_link/Ascorbic Acid]] (Vitamin C) or [[notes/_link/Glutathione]] (GSH). These act as electron donors, maintaining the molecule in the [[Leuco-adrenochrome]] state and preventing the "vicious cycle" of [[Redox Cycling]].
 *   **Chelation:** Incorporate [[EDTA]] (Ethylenediaminetetraacetic acid) to sequester trace transition metals (Iron, Copper) which catalyze the autoxidation of the catechol ring.
-*   **Environmental Control:** Store and prepare the formulation under an inert atmosphere ([[Argon]] or [[Nitrogen gas]]) and protect from UV light to prevent the generation of [[Reactive Oxygen Species]] (ROS).
+*   **Environmental Control:** Store and prepare the formulation under an inert atmosphere ([[Argon]] or [[Nitrogen gas]]) and protect from UV light to prevent the generation of [[notes/_link/Reactive Oxygen Species]] (ROS).
 
 ## 3. Administration Protocol
 
@@ -30,29 +30,29 @@ To prevent spontaneous degradation into [[Melanins]] (polymerization) and to mit
 
 ### Method B: Precursor Loading (The Erythrocyte-Mediated Pathway)
 *   **Route:** Intramuscular or Subcutaneous.
-*   **Procedure:** Administration of [[Epinephrine]] in conjunction with [[COMT]] and [[MAO]] inhibitors. By blocking the primary metabolic cleanup pathways, the substrate is shunted toward the minor oxidative pathway.
+*   **Procedure:** Administration of [[notes/_link/Epinephrine]] in conjunction with [[notes/_link/COMT]] and [[MAO]] inhibitors. By blocking the primary metabolic cleanup pathways, the substrate is shunted toward the minor oxidative pathway.
 *   **Facilitation:** Localized production is triggered by the natural redox environment of circulating [[Erythrocytes]], where [[Oxyhemoglobin]] facilitates the "folding" of epinephrine into the adrenochrome structure.
 
 ### Method C: Central Nervous System Delivery
 *   **Route:** Intranasal.
-*   **Objective:** To target catecholaminergic neurons in the brain (e.g., substantia nigra) for the replenishment of [[Neuromelanin]] precursors, potentially bypassing the blood-brain barrier (BBB).
+*   **Objective:** To target catecholaminergic neurons in the brain (e.g., substantia nigra) for the replenishment of [[notes/_link/Neuromelanin]] precursors, potentially bypassing the blood-brain barrier (BBB).
 
 ## 4. Safety Monitoring and Risk Mitigation
 
-Adrenochrome replenishment carries significant risks of [[_link/Oxidative stress]] and organ damage. The following must be monitored:
+Adrenochrome replenishment carries significant risks of [[notes/_link/Oxidative Stress]] and organ damage. The following must be monitored:
 
 *   **Cardioprotection:** [[[document] adrenochrome - Adrenochrome]] is a known cardiotoxic agent that can uncouple oxidative phosphorylation in mitochondria. ECG monitoring and Troponin markers are mandatory to prevent "myocardial stunning."
 *   **Heme Integrity:** Monitor for [[Methemoglobinemia]]. Excessive ROS generated during replenishment can oxidize hemoglobin to [[Methemoglobin]], impairing oxygen transport.
-*   **Redox Balance:** Supplementation with [[Superoxide Dismutase]] (SOD) may be required to neutralize excess [[Superoxide anion]] generated during the [[Redox cycle]].
+*   **Redox Balance:** Supplementation with [[notes/_link/Superoxide Dismutase]] (SOD) may be required to neutralize excess [[Superoxide anion]] generated during the [[Redox cycle]].
 
 ## 5. Connections and Bio-Markers
-*   [[Epinephrine]] ↔ Direct precursor.
+*   [[notes/_link/Epinephrine]] ↔ Direct precursor.
 *   [[Leuco-adrenochrome]] ↔ Key stable intermediate.
 *   [[Oxyhemoglobin]] ↔ Oxidative driver via superoxide production.
 *   [[Cardiotoxicity]] ↔ Primary dose-limiting side effect.
-*   [[Neuromelanin]] ↔ Long-term sequestration product in the brain.
+*   [[notes/_link/Neuromelanin]] ↔ Long-term sequestration product in the brain.
 
 ### Linking Summary:
-- New links added: [[[document] adrenochrome - Adrenochrome]], [[Leuco-adrenochrome]], [[Carbazochrome]], [[Epinephrine]], [[Erythrocytes]], [[Oxyhemoglobin]], [[Methemoglobin]], [[Superoxide anion]], [[Melanins]], [[Cardiotoxicity]], [[Ascorbic Acid]], [[Glutathione]], [[Redox Cycling]], [[EDTA]], [[Argon]], [[Nitrogen gas]], [[Reactive Oxygen Species]], [[COMT]], [[MAO]], [[Neuromelanin]], [[Methemoglobinemia]], [[Superoxide Dismutase]], [[Redox cycle]].
+- New links added: [[[document] adrenochrome - Adrenochrome]], [[Leuco-adrenochrome]], [[Carbazochrome]], [[notes/_link/Epinephrine]], [[Erythrocytes]], [[Oxyhemoglobin]], [[Methemoglobin]], [[Superoxide anion]], [[Melanins]], [[Cardiotoxicity]], [[notes/_link/Ascorbic Acid]], [[notes/_link/Glutathione]], [[Redox Cycling]], [[EDTA]], [[Argon]], [[Nitrogen gas]], [[notes/_link/Reactive Oxygen Species]], [[notes/_link/COMT]], [[MAO]], [[notes/_link/Neuromelanin]], [[Methemoglobinemia]], [[notes/_link/Superoxide Dismutase]], [[Redox cycle]].
 - Suggested new entity notes to create: None (all key terms already exist or were derived from research).
-- Strong connections to strengthen: [[[document] adrenochrome - Adrenochrome]] ↔ [[Leuco-adrenochrome]], [[Epinephrine]] ↔ [[Erythrocytes]], [[[document] adrenochrome - Adrenochrome]] ↔ [[Cardiotoxicity]].
+- Strong connections to strengthen: [[[document] adrenochrome - Adrenochrome]] ↔ [[Leuco-adrenochrome]], [[notes/_link/Epinephrine]] ↔ [[Erythrocytes]], [[[document] adrenochrome - Adrenochrome]] ↔ [[Cardiotoxicity]].

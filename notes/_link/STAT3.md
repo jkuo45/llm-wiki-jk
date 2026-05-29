@@ -15,17 +15,17 @@
 
 ## Role in Aging Immune Cells
 - Aging [[T Cell|CD4+ T cells]] show a STAT3-mediated Th17 inflammatory profile.
-- This profile is characterized by elevated production of interleukins that contribute to [[Inflammaging]] and [[Senescence]].
+- This profile is characterized by elevated production of interleukins that contribute to [[notes/_link/Inflammaging]] and [[notes/_link/Senescence]].
 
 
 ## Modulation
-- [[Metformin]] reverses the STAT3-mediated Th17 phenotype by enhancing [[Autophagy]] and mitochondrial bioenergetics.
+- [[notes/_link/Metformin]] reverses the STAT3-mediated Th17 phenotype by enhancing [[notes/_link/Autophagy]] and mitochondrial bioenergetics.
 
 
 ## Linking Summary:
-- New links added: [[T Cell]], [[Inflammaging]], [[Senescence]], [[Metformin]], [[Autophagy]]
-- Suggested new entity notes to create: [[Inflammaging]]
-- Strong connections to strengthen: [[STAT3]] ↔ [[Metformin]]
+- New links added: [[T Cell]], [[notes/_link/Inflammaging]], [[notes/_link/Senescence]], [[notes/_link/Metformin]], [[notes/_link/Autophagy]]
+- Suggested new entity notes to create: [[notes/_link/Inflammaging]]
+- Strong connections to strengthen: [[notes/_link/STAT3]] ↔ [[notes/_link/Metformin]]
 
 ## Connections
 - [[JAK2]]: An upstream kinase that activates STAT3.
@@ -33,6 +33,6 @@
 - [[Ivermectin]]: Inhibits STAT3 activity via [[PAK1]].
 
 ### Linking Summary:
-- New links added: [[Autophagy]], [[Inflammaging]], [[Metformin]], [[Senescence]], [[T Cell]]
-- Suggested new entity notes to create: [[Inflammaging]]
-- Strong connections to strengthen: [[STAT3]] ↔ [[Metformin]]
+- New links added: [[notes/_link/Autophagy]], [[notes/_link/Inflammaging]], [[notes/_link/Metformin]], [[notes/_link/Senescence]], [[T Cell]]
+- Suggested new entity notes to create: [[notes/_link/Inflammaging]]
+- Strong connections to strengthen: [[notes/_link/STAT3]] ↔ [[notes/_link/Metformin]]

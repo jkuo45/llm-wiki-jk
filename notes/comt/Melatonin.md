@@ -11,8 +11,8 @@ It primarily signals the body that it is time to sleep and acts as a potent anti
 ## Connections
 - [[Serotonin]]: The precursor to melatonin.
 - [[Methyl Groups]]: Required for the synthesis of melatonin from serotonin.
-- [[comt/Oxidative stress]]: Melatonin helps protect the body from oxidative damage.
+- [[notes/_link/Oxidative Stress]]: Melatonin helps protect the body from oxidative damage.
 
 ---
 ### Linking Summary:
-- New links added: [[Serotonin]], [[Methyl Groups]], [[comt/Oxidative stress]].
+- New links added: [[Serotonin]], [[Methyl Groups]], [[notes/_link/Oxidative Stress]].

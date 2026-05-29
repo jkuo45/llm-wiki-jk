@@ -5,21 +5,21 @@
 ### 1. Mechanism of Action
 DNMT1 has a high affinity for hemi-methylated DNA—DNA where only the parent strand is methylated. During the S-phase of the cell cycle, DNMT1 tracks the replication fork and adds methyl groups to the newly synthesized strand, mirroring the pattern found on the template strand.
 
-### 2. Role in [[Aging]]
+### 2. Role in [[notes/_link/Aging]]
 The efficiency and expression of DNMT1 are known to decline as organisms age.
 *   **Epigenetic Drift:** A reduction in DNMT1 activity leads to "leakage" or loss of methylation marks over successive cell divisions, contributing to the global hypomethylation seen in aging tissues.
 *   **[[Cellular Senescence]]**: Decreased DNMT1 levels have been linked to the induction of senescence pathways, as the loss of repressive methylation can lead to the activation of genes like p16INK4a.
 
 ### 3. Clinical Relevance
-DNMT1 is a critical target in [[Cancer]] research, as its overexpression can lead to the silencing of tumor suppressor genes. Conversely, its decline is a hallmark of the aging epigenome, making it a focal point for understanding longevity and genomic stability.
+DNMT1 is a critical target in [[notes/_link/Cancer]] research, as its overexpression can lead to the silencing of tumor suppressor genes. Conversely, its decline is a hallmark of the aging epigenome, making it a focal point for understanding longevity and genomic stability.
 
 ### Connections
 - **[[DNA Methylation]]**: The process DNMT1 maintains.
 - **[[DNA Methyltransferase]]**: The enzyme family to which DNMT1 belongs.
 - **[[DNA Replication]]**: The cellular process during which DNMT1 performs its primary function.
-- **[[Aging]]**: DNMT1 decline is a major contributor to age-related epigenetic changes.
+- **[[notes/_link/Aging]]**: DNMT1 decline is a major contributor to age-related epigenetic changes.
 
 ### Linking Summary:
-- New links added: [[DNMT1]], [[DNA Methylation]], [[DNA Replication]], [[Aging]], [[Cellular Senescence]], [[DNA Methyltransferase]], [[Cancer]]
+- New links added: [[DNMT1]], [[DNA Methylation]], [[DNA Replication]], [[notes/_link/Aging]], [[Cellular Senescence]], [[DNA Methyltransferase]], [[notes/_link/Cancer]]
 - Suggested new entity notes to create: [[Maintenance Methylation]], [[Hemi-methylated DNA]], [[UHRF1]]
-- Strong connections to strengthen: [[DNMT1]] ↔ [[DNA Methylation]], [[DNMT1]] ↔ [[Aging]]
+- Strong connections to strengthen: [[DNMT1]] ↔ [[DNA Methylation]], [[DNMT1]] ↔ [[notes/_link/Aging]]

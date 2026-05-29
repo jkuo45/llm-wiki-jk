@@ -4,20 +4,20 @@
 
 ## The Methylation Cycle
 The cycle involves several key enzymes and nutrients:
-- **Enzymes:** [[MTHFR]], [[MTRR]], [[MTHFD1]], [[COMT]].
+- **Enzymes:** [[MTHFR]], [[MTRR]], [[MTHFD1]], [[notes/_link/COMT]].
 - **Nutrients:** [[Folate]], [[Vitamin B12]], [[SAMe]], [[TMG]].
 
 ## Role in COMT Function
-[[COMT]] ([[Catechol-O-methyltransferase]]) requires a methyl group from [[SAMe]] ([[S-adenosylmethionine]]) to metabolize [[Catechols]] like [[Dopamine]] and [[Estrogen]]. 
+[[notes/_link/COMT]] ([[Catechol-O-methyltransferase]]) requires a methyl group from [[SAMe]] ([[S-adenosylmethionine]]) to metabolize [[Catechols]] like [[notes/_link/Dopamine]] and [[Estrogen]]. 
 
 ## Supplementation
-Individuals with slow [[COMT]] variants may be sensitive to high-dose [[Methyl Donor]] supplements (e.g., [[methylfolate]], [[methylB12]]), which can cause rapid fluctuations in [[Neurotransmitter]] levels leading to irritability or anxiety.
+Individuals with slow [[notes/_link/COMT]] variants may be sensitive to high-dose [[Methyl Donor]] supplements (e.g., [[methylfolate]], [[methylB12]]), which can cause rapid fluctuations in [[Neurotransmitter]] levels leading to irritability or anxiety.
 
 ## Connections
-- [[COMT]]: Utilizes methyl groups for its enzymatic activity.
+- [[notes/_link/COMT]]: Utilizes methyl groups for its enzymatic activity.
 - [[MTHFR]]: Key enzyme providing the substrate for the methylation cycle.
-- [[Dopamine]]: Its degradation is dependent on the availability of methyl donors.
+- [[notes/_link/Dopamine]]: Its degradation is dependent on the availability of methyl donors.
 
 ---
 ### Linking Summary:
-- New links added: [[Methyl Groups]], [[Neurotransmitter]], [[MTHFR]], [[MTRR]], [[MTHFD1]], [[COMT]], [[Folate]], [[Vitamin B12]], [[SAMe]], [[TMG]], [[Catechol-O-methyltransferase]], [[S-adenosylmethionine]], [[Catechols]], [[Dopamine]], [[Estrogen]], [[Methyl Donor]], [[methylfolate]], [[methylB12]].
+- New links added: [[Methyl Groups]], [[Neurotransmitter]], [[MTHFR]], [[MTRR]], [[MTHFD1]], [[notes/_link/COMT]], [[Folate]], [[Vitamin B12]], [[SAMe]], [[TMG]], [[Catechol-O-methyltransferase]], [[S-adenosylmethionine]], [[Catechols]], [[notes/_link/Dopamine]], [[Estrogen]], [[Methyl Donor]], [[methylfolate]], [[methylB12]].

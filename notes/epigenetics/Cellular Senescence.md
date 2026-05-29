@@ -13,7 +13,7 @@
 *   **[[Histone Variant]]s:** Specific variants like macroH2A and H2A.J accumulate in senescent cells. MacroH2A stabilizes SAHFs, while H2A.J is linked to the activation of SASP genes.
 
 ### 3. [[DNA Methylation]] Dynamics
-*   **Global Hypomethylation:** Similar to [[Aging]], senescent cells exhibit a global loss of DNA methylation, particularly in repetitive elements.
+*   **Global Hypomethylation:** Similar to [[notes/_link/Aging]], senescent cells exhibit a global loss of DNA methylation, particularly in repetitive elements.
 *   **Focal Hypermethylation:** Conversely, specific promoter regions—often associated with tumor suppressor genes—become hypermethylated and silenced.
 *   **[[Epigenetic Clock]]:** Predictable shifts in DNA methylation patterns form the basis of clocks used to estimate the biological age of cells.
 
@@ -23,11 +23,11 @@ The SASP is a complex program of pro-inflammatory factors regulated by:
 *   **Innate Immune Sensing:** Fragments of chromatin can leak into the cytoplasm, triggering the **cGAS-STING pathway**, which drives SASP production and chronic inflammation.
 
 ### Connections
-- **[[Aging]]**: The accumulation of senescent cells is a primary driver of tissue aging and age-related diseases.
-- **[[Cancer]]**: Senescence acts as an initial barrier to cancer but can later promote tumor growth via the SASP.
+- **[[notes/_link/Aging]]**: The accumulation of senescent cells is a primary driver of tissue aging and age-related diseases.
+- **[[notes/_link/Cancer]]**: Senescence acts as an initial barrier to cancer but can later promote tumor growth via the SASP.
 - **[[SAHF]]**: Dense chromatin structures that are a hallmark of the senescent state.
 
 ### Linking Summary:
-- New links added: [[Chromatin]], [[Epigenetics]], [[SASP]], [[SAHF]], [[Lamin A]], [[Heterochromatin]], [[Euchromatin]], [[Histone Modification]], [[LINE-1]], [[Histone Variant]], [[DNA Methylation]], [[Aging]], [[Epigenetic Clock]], [[Genomic Instability]], [[Cancer]].
+- New links added: [[Chromatin]], [[Epigenetics]], [[SASP]], [[SAHF]], [[Lamin A]], [[Heterochromatin]], [[Euchromatin]], [[Histone Modification]], [[LINE-1]], [[Histone Variant]], [[DNA Methylation]], [[notes/_link/Aging]], [[Epigenetic Clock]], [[Genomic Instability]], [[notes/_link/Cancer]].
 - Suggested new entity notes to create: [[Lamin B1]], [[cGAS-STING Pathway]], [[Super-enhancer]], [[Lamina-Associated Domains]].
-- Strong connections to strengthen: [[Cellular Senescence]] ↔ [[Aging]], [[Cellular Senescence]] ↔ [[SAHF]]
+- Strong connections to strengthen: [[Cellular Senescence]] ↔ [[notes/_link/Aging]], [[Cellular Senescence]] ↔ [[SAHF]]

@@ -1,12 +1,12 @@
 # Alzheimer's Disease
 
-Alzheimer's disease is a chronic neurodegenerative disease that usually starts slowly and gradually worsens over time. [[notes/_link/Oxidative Stress]] is considered a pivotal factor in its pathogenesis, often involving dysfunction in the [[Mitochondria]] and the accumulation of [[Amyloid-beta]] plaques and [[Tau protein]] tangles.
+Alzheimer's disease is a chronic neurodegenerative disease that usually starts slowly and gradually worsens over time. [[notes/_link/Oxidative Stress]] is considered a pivotal factor in its pathogenesis, often involving dysfunction in the [[notes/_link/Mitochondria]] and the accumulation of [[Amyloid-beta]] plaques and [[Tau protein]] tangles.
 
 
 [[Epigenetics]] plays a critical role in the development and progression of **Alzheimer’s Disease (AD)**, acting as a bridge between genetic predisposition and environmental risk factors. Unlike genetic mutations, epigenetic changes do not alter the DNA sequence itself but instead modify how genes are expressed.
 
 
-Alzheimer's Disease is a progressive [[Neurodegenerative Diseases|neurodegenerative disorder]] that causes brain cells to waste away (degenerate) and die. It is the most common cause of dementia.
+Alzheimer's Disease is a progressive [[notes/_link/Neurodegenerative Diseases|neurodegenerative disorder]] that causes brain cells to waste away (degenerate) and die. It is the most common cause of dementia.
 
 Research using [[Induced Pluripotent Stem Cells]] (iPSCs) aims to improve neuronal plasticity and memory. iPSC therapy has shown potential in increasing brain-derived neurotrophic factors and reducing neuroinflammation in mouse models.
 
@@ -26,7 +26,7 @@ Research has identified three main types of epigenetic modifications that are dy
     *   **[[MicroRNA]] (miRNAs):** Dysregulation of specific miRNAs can lead to the overproduction of amyloid-beta (Aβ) or the hyperphosphorylation of tau proteins.
 
 
-## 2. The Role of [[Aging]] and Environment
+## 2. The Role of [[notes/_link/Aging]] and Environment
 Aging is the most significant non-genetic risk factor for AD, and it is characterized by a progressive "drift" in the [[Epigenome]].
 *   **[[Epigenetic Clock]]:** AD patients often show "epigenetic age acceleration," where their brain tissue appears biologically older than their chronological age.
 *   **Environmental Triggers:** Factors such as diet, exercise, stress, and exposure to toxins can trigger epigenetic changes that either increase or decrease AD risk.
@@ -47,42 +47,42 @@ Because epigenetic modifications are chemically reversible, they represent a pro
 
 
 ## Linking Summary:
-- New links added: [[Epigenetics]], [[DNA Methylation]], [[Histone Modification]], [[Nucleosome]], [[Chromatin]], [[MicroRNA]], [[Aging]], [[Epigenome]], [[Epigenetic Clock]], [[HDAC]], [[DNA Methyltransferase]], [[Biomarkers]], [[Neurodegenerative Diseases]], [[Neuroinflammation]].
+- New links added: [[Epigenetics]], [[DNA Methylation]], [[Histone Modification]], [[Nucleosome]], [[Chromatin]], [[MicroRNA]], [[notes/_link/Aging]], [[Epigenome]], [[Epigenetic Clock]], [[HDAC]], [[DNA Methyltransferase]], [[Biomarkers]], [[notes/_link/Neurodegenerative Diseases]], [[Neuroinflammation]].
 - Suggested new entity notes to create: [[Neuroinflammation]], [[Amyloid Beta]], [[Tau Protein]], [[Synaptic Plasticity]].
-- Strong connections to strengthen: [[Alzheimer's Disease]] ↔ [[Aging]], [[Alzheimer's Disease]] ↔ [[DNA Methylation]]
+- Strong connections to strengthen: [[notes/_link/Alzheimer's Disease]] ↔ [[notes/_link/Aging]], [[notes/_link/Alzheimer's Disease]] ↔ [[DNA Methylation]]
 
-- New links added: [[Neurodegenerative Diseases]], [[Induced Pluripotent Stem Cells]], [[Disease Modeling]], [[Rejuvenation]]
+- New links added: [[notes/_link/Neurodegenerative Diseases]], [[Induced Pluripotent Stem Cells]], [[Disease Modeling]], [[Rejuvenation]]
 - Suggested new entity notes to create: 
-- Strong connections to strengthen: [[Induced Pluripotent Stem Cells]] ↔ [[Alzheimer's Disease]]
+- Strong connections to strengthen: [[Induced Pluripotent Stem Cells]] ↔ [[notes/_link/Alzheimer's Disease]]
 
-- New links added: [[Autophagy]], [[Proteotoxicity]], [[Autophagic Flux]], [[Intermittent Fasting]], [[Caloric Restriction]]
-- Suggested new entity notes to create: [[Proteotoxicity]], [[Autophagic Flux]], [[Intermittent Fasting]], [[Caloric Restriction]]
-- Strong connections to strengthen: [[Alzheimer's Disease]] ↔ [[Neurodegenerative Disease]], [[Alzheimer's Disease]] ↔ [[Autophagy]]
+- New links added: [[notes/_link/Autophagy]], [[Proteotoxicity]], [[Autophagic Flux]], [[Intermittent Fasting]], [[notes/_link/Caloric Restriction]]
+- Suggested new entity notes to create: [[Proteotoxicity]], [[Autophagic Flux]], [[Intermittent Fasting]], [[notes/_link/Caloric Restriction]]
+- Strong connections to strengthen: [[notes/_link/Alzheimer's Disease]] ↔ [[Neurodegenerative Disease]], [[notes/_link/Alzheimer's Disease]] ↔ [[notes/_link/Autophagy]]
 
 ## Pathology
 - Associated with the accumulation of amyloid-beta plaques and tau tangles, which lead to neuronal dysfunction and death.
-- Impaired [[Autophagy]] is a central feature of AD, resulting in the failure to clear these toxic protein aggregates ([[Proteotoxicity]]).
+- Impaired [[notes/_link/Autophagy]] is a central feature of AD, resulting in the failure to clear these toxic protein aggregates ([[Proteotoxicity]]).
 
 
 ## Autophagy and Intervention
-- Inducing [[Autophagic Flux]] via [[Intermittent Fasting]] (IF) or [[Caloric Restriction]] is being investigated as a therapeutic strategy.
+- Inducing [[Autophagic Flux]] via [[Intermittent Fasting]] (IF) or [[notes/_link/Caloric Restriction]] is being investigated as a therapeutic strategy.
 - IF has been shown to reduce hippocampal atrophy and neuro-anatomic deterioration in AD patients.
 - The initiation of IF in the early stages of the disease appears to yield better therapeutic outcomes than in advanced stages.
 
 
 ## Connections
-- **[[Aging]]**: The primary risk factor for AD, characterized by significant epigenetic changes.
-- **[[Neurodegenerative Diseases]]**: AD is the most common form of neurodegenerative disease.
+- **[[notes/_link/Aging]]**: The primary risk factor for AD, characterized by significant epigenetic changes.
+- **[[notes/_link/Neurodegenerative Diseases]]**: AD is the most common form of neurodegenerative disease.
 - **[[DNA Methylation]]**: A key mechanism dysregulated in AD brain tissue.
 
 
-- [[Neurodegenerative Diseases]]: Alzheimer's is a major neurodegenerative condition.
+- [[notes/_link/Neurodegenerative Diseases]]: Alzheimer's is a major neurodegenerative condition.
 - [[Induced Pluripotent Stem Cells]]: Used for disease modeling and exploring regenerative therapies.
 - [[Disease Modeling]]: iPSCs help in understanding the pathophysiology of Alzheimer's.
 - [[Rejuvenation]]: Some research overlaps with efforts to reverse age-related cognitive decline.
 
 
 ### Linking Summary:
-- New links added: [[Aging]], [[Autophagic Flux]], [[Autophagy]], [[Biomarkers]], [[Caloric Restriction]], [[Chromatin]], [[DNA Methylation]], [[DNA Methyltransferase]], [[Disease Modeling]], [[Epigenetic Clock]], [[Epigenetics]], [[Epigenome]], [[HDAC]], [[Histone Modification]], [[Induced Pluripotent Stem Cells]], [[Intermittent Fasting]], [[MicroRNA]], [[Neurodegenerative Diseases]], [[Neuroinflammation]], [[Nucleosome]], [[Proteotoxicity]], [[Rejuvenation]]
-- Suggested new entity notes to create: [[Amyloid Beta]], [[Autophagic Flux]], [[Caloric Restriction]], [[Intermittent Fasting]], [[Neuroinflammation]], [[Proteotoxicity]], [[Synaptic Plasticity]], [[Tau Protein]]
-- Strong connections to strengthen: [[Alzheimer's Disease]] ↔ [[Aging]], [[Alzheimer's Disease]] ↔ [[Autophagy]], [[Alzheimer's Disease]] ↔ [[DNA Methylation]], [[Alzheimer's Disease]] ↔ [[Neurodegenerative Disease]], [[Induced Pluripotent Stem Cells]] ↔ [[Alzheimer's Disease]]
+- New links added: [[notes/_link/Aging]], [[Autophagic Flux]], [[notes/_link/Autophagy]], [[Biomarkers]], [[notes/_link/Caloric Restriction]], [[Chromatin]], [[DNA Methylation]], [[DNA Methyltransferase]], [[Disease Modeling]], [[Epigenetic Clock]], [[Epigenetics]], [[Epigenome]], [[HDAC]], [[Histone Modification]], [[Induced Pluripotent Stem Cells]], [[Intermittent Fasting]], [[MicroRNA]], [[notes/_link/Neurodegenerative Diseases]], [[Neuroinflammation]], [[Nucleosome]], [[Proteotoxicity]], [[Rejuvenation]]
+- Suggested new entity notes to create: [[Amyloid Beta]], [[Autophagic Flux]], [[notes/_link/Caloric Restriction]], [[Intermittent Fasting]], [[Neuroinflammation]], [[Proteotoxicity]], [[Synaptic Plasticity]], [[Tau Protein]]
+- Strong connections to strengthen: [[notes/_link/Alzheimer's Disease]] ↔ [[notes/_link/Aging]], [[notes/_link/Alzheimer's Disease]] ↔ [[notes/_link/Autophagy]], [[notes/_link/Alzheimer's Disease]] ↔ [[DNA Methylation]], [[notes/_link/Alzheimer's Disease]] ↔ [[Neurodegenerative Disease]], [[Induced Pluripotent Stem Cells]] ↔ [[notes/_link/Alzheimer's Disease]]
