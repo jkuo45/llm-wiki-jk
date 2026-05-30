@@ -28,97 +28,97 @@ This directory contains notes and research regarding [[notes/_link/Autophagy]], 
 - Last updated: 30_May_2026 10:25 AM PDT
 - Total count of entities: 90
 
-| entity | datetime updated | entity_type_1 | entity_relevance_score_1 | entity_sentiment_score_1 | justification |
-| :--- | :---: | :--- | :---: | :---: | :--- |
-| [[4E-BP1]] | 30_May_2026 10:25 AM PDT | Protein | 8 | -1 | Downstream mTOR effector; phosphorylation inhibits translation and competes with autophagy. |
-| [[Adaptive Immune Response]] | 30_May_2026 10:25 AM PDT | Biological Process | 6 | 1 | Autophagy is required for antigen presentation and immune memory. |
-| [[AKT]] | 30_May_2026 10:25 AM PDT | Enzyme | 9 | -1 | Key upstream activator of mTORC1; inhibits autophagy induction. |
-| [[Ambra-1]] | 30_May_2026 10:25 AM PDT | Protein | 10 | 0 | Essential regulator of the Beclin1-Vps34 complex during initiation. |
-| [[AMPK]] | 30_May_2026 10:25 AM PDT | Enzyme | 10 | 1 | Primary energy sensor that directly activates ULK1 to trigger autophagy. |
-| [[Atg101]] | 30_May_2026 10:25 AM PDT | Protein | 10 | 0 | Core component of the ULK1 initiation complex. |
-| [[Atg12]] | 30_May_2026 10:25 AM PDT | Protein | 10 | 0 | Essential for the ubiquitin-like conjugation system in phagophore expansion. |
-| [[Atg13]] | 30_May_2026 10:25 AM PDT | Protein | 10 | 0 | Key regulatory subunit of the ULK1 complex. |
-| [[Atg16]] | 30_May_2026 10:25 AM PDT | Protein | 10 | 0 | Part of the expansion complex required for LC3 lipidation. |
-| [[Atg16L1]] | 30_May_2026 10:25 AM PDT | Protein | 10 | 0 | Required for the proper localization of the autophagic machinery. |
-| [[Atg5]] | 30_May_2026 10:25 AM PDT | Protein | 10 | 0 | Critical component of the expansion complex; essential for autophagosome formation. |
-| [[Atg7]] | 30_May_2026 10:25 AM PDT | Enzyme | 10 | 0 | E1-like enzyme essential for Atg12 and Atg8/LC3 conjugation. |
-| [[Atg8]] | 30_May_2026 10:25 AM PDT | Protein | 10 | 0 | Yeast ortholog of LC3; essential for membrane expansion. |
-| [[Autophagic Flux]] | 30_May_2026 10:25 AM PDT | Biological Process | 10 | 1 | Complete process of autophagy; higher flux indicates better cellular health. |
-| [[Autophagosome]] | 30_May_2026 10:25 AM PDT | Anatomy | 10 | 0 | Central organelle of autophagy; hallmark of the process. |
-| [[Autophagy Inducer]] | 30_May_2026 10:25 AM PDT | Pharmacological Action | 9 | 1 | Exogenous agents designed to enhance autophagic activity. |
-| [[B Cell]] | 30_May_2026 10:25 AM PDT | Cell Type | 5 | 1 | Autophagy is necessary for B cell development and survival. |
-| [[Beclin1]] | 30_May_2026 10:25 AM PDT | Protein | 10 | 1 | Core component of the PI3K complex; essential for vesicle nucleation. |
-| [[BRCA1]] | 30_May_2026 10:25 AM PDT | Protein | 5 | 0 | Tumor suppressor that can influence autophagy in DNA damage context. |
-| [[Caloric Restriction Mimetics]] | 30_May_2026 10:25 AM PDT | Chemical Class | 9 | 1 | Compounds like spermidine that induce autophagy without actual fasting. |
-| [[CD73]] | 30_May_2026 10:25 AM PDT | Enzyme | 6 | -1 | Ecto-enzyme that generates adenosine; can suppress immune-driven autophagy. |
-| [[CD8+ T Cell]] | 30_May_2026 10:25 AM PDT | Cell Type | 7 | 1 | Autophagy is critical for memory T cell formation and maintenance. |
-| [[Chaperone-Mediated Autophagy]] | 30_May_2026 10:25 AM PDT | Biological Process | 9 | 1 | Selective protein degradation; vital for quality control. |
-| [[Cisplatin]] | 30_May_2026 10:25 AM PDT | Chemical Compound | 4 | -1 | Chemotherapeutic agent that often leads to autophagic resistance. |
-| [[Deptor]] | 30_May_2026 10:25 AM PDT | Protein | 8 | 1 | Endogenous inhibitor of mTORC1; indirectly promotes autophagy. |
-| [[Dietary Restriction]] | 30_May_2026 10:25 AM PDT | Biological Process | 9 | 1 | Potent natural physiological trigger for systemic autophagy. |
-| [[eIF4E]] | 30_May_2026 10:25 AM PDT | Protein | 7 | -1 | Translation initiation factor; competition between translation and autophagy. |
-| [[eIF5A]] | 30_May_2026 10:25 AM PDT | Protein | 8 | 1 | Required for translation of TFEB; essential for flux. |
-| [[FIP200]] | 30_May_2026 10:25 AM PDT | Protein | 10 | 0 | Essential scaffold protein in the ULK1 initiation complex. |
-| [[FOXO1]] | 30_May_2026 10:25 AM PDT | Protein | 8 | 1 | Transcription factor that induces expression of multiple ATG genes. |
-| [[FOXO3a]] | 30_May_2026 10:25 AM PDT | Protein | 8 | 1 | Key regulator of autophagic gene expression in muscle and neurons. |
-| [[FOXO4]] | 30_May_2026 10:25 AM PDT | Protein | 7 | 1 | Involved in senescence and autophagic regulation during aging. |
-| [[Foxp3]] | 30_May_2026 10:25 AM PDT | Protein | 6 | 1 | Master regulator of Treg cells; autophagy supports Treg stability. |
-| [[Hematopoietic Stem Cell]] | 30_May_2026 10:25 AM PDT | Cell Type | 7 | 1 | Autophagy is required for HSC quiescence and self-renewal. |
-| [[HIF1A]] | 30_May_2026 10:25 AM PDT | Protein | 7 | 1 | Mediates hypoxia-induced autophagy via BNIP3 induction. |
-| [[Huntington's Disease]] | 30_May_2026 10:25 AM PDT | Medical Condition | 8 | -1 | Characterized by toxic aggregates due to impaired autophagic clearance. |
-| [[IGF1]] | 30_May_2026 10:25 AM PDT | Protein | 8 | -1 | Growth factor that activates AKT/mTOR, suppressing autophagy. |
-| [[Immune Aging]] | 30_May_2026 10:25 AM PDT | Biological Process | 8 | -1 | Linked to declining autophagic capacity; optimization can reverse effects. |
-| [[Immunometabolism]] | 30_May_2026 10:25 AM PDT | Scientific Concept | 7 | 1 | Intersection of metabolism and immunity where autophagy is central. |
-| [[Intermittent Fasting]] | 30_May_2026 10:25 AM PDT | Biological Process | 9 | 1 | Cyclical fasting that periodically maximizes autophagic flux. |
-| [[Ketogenesis]] | 30_May_2026 10:25 AM PDT | Biological Process | 8 | 1 | Production of ketones which signal for and support autophagy. |
-| [[Ketogenic Diet]] | 30_May_2026 10:25 AM PDT | Medical Treatment | 8 | 1 | Dietary intervention that mimics fasting and induces autophagy. |
-| [[LC3]] | 30_May_2026 10:25 AM PDT | Protein | 10 | 0 | Gold-standard marker for autophagosome formation and flux. |
-| [[LKB1]] | 30_May_2026 10:25 AM PDT | Enzyme | 9 | 1 | Upstream kinase of AMPK; essential for energy-sensing induction. |
-| [[Lysosome]] | 30_May_2026 10:25 AM PDT | Anatomy | 10 | 0 | Terminal organelle for degradation; essential for flux. |
-| [[Macroautophagy]] | 30_May_2026 10:25 AM PDT | Biological Process | 10 | 1 | Primary form of autophagy; essential for bulk recycling. |
-| [[Melanoma]] | 30_May_2026 10:25 AM PDT | Medical Condition | 5 | -1 | Cancer type where autophagy can be hijacked for survival. |
-| [[Microautophagy]] | 30_May_2026 10:25 AM PDT | Biological Process | 8 | 1 | Direct engulfment of cargo by lysosomes; contributes to homeostasis. |
-| [[Mitochondrial Complex I]] | 30_May_2026 10:25 AM PDT | Protein | 6 | -1 | Target of some inhibitors; dysfunction can trigger mitophagy. |
-| [[Mitophagy]] | 30_May_2026 10:25 AM PDT | Biological Process | 10 | 1 | Selective degradation of damaged mitochondria; critical for health. |
-| [[mLST8]] | 30_May_2026 10:25 AM PDT | Protein | 9 | -1 | Core component of mTORC1 and mTORC2; supports mTOR activity. |
-| [[mSIN1]] | 30_May_2026 10:25 AM PDT | Protein | 8 | -1 | Essential component of mTORC2; indirectly affects autophagy via AKT. |
-| [[mTOR]] | 30_May_2026 10:25 AM PDT | Enzyme | 10 | -1 | Master negative regulator of autophagy; must be inhibited for induction. |
-| [[mTORC1]] | 30_May_2026 10:25 AM PDT | Protein | 10 | -1 | Specific mTOR complex that directly inhibits ULK1. |
-| [[mTORC2]] | 30_May_2026 10:25 AM PDT | Protein | 8 | -1 | Regulates AKT; indirectly suppresses autophagy through AKT/mTORC1. |
-| [[Neurodegenerative Disease]] | 30_May_2026 10:25 AM PDT | Medical Condition | 9 | -1 | Often exacerbated by autophagic failure and protein accumulation. |
-| [[p62]] | 30_May_2026 10:25 AM PDT | Protein | 10 | 0 | Scaffold protein that delivers cargo to the autophagosome. |
-| [[PGC1-α]] | 30_May_2026 10:25 AM PDT | Protein | 8 | 1 | Master regulator of mitochondrial biogenesis and mitophagy inducer. |
-| [[Polyamine]] | 30_May_2026 10:25 AM PDT | Chemical Class | 9 | 1 | Natural compounds like spermidine essential for high autophagic flux. |
-| [[PPARγ]] | 30_May_2026 10:25 AM PDT | Receptor | 7 | 1 | Transcription factor that can promote autophagic gene expression. |
-| [[PRAS40]] | 30_May_2026 10:25 AM PDT | Protein | 8 | -1 | mTORC1 inhibitor; however, its phosphorylation by AKT relieves inhibition. |
-| [[Protor-1]] | 30_May_2026 10:25 AM PDT | Protein | 7 | -1 | Component of mTORC2; generally inhibitory to autophagy via AKT. |
-| [[PTEN]] | 30_May_2026 10:25 AM PDT | Enzyme | 9 | 1 | Inhibits PI3K/AKT pathway, thereby inducing autophagy. |
-| [[Rag proteins]] | 30_May_2026 10:25 AM PDT | Enzyme | 9 | -1 | GTPases that recruit mTORC1 to the lysosome. |
-| [[Rapalog]] | 30_May_2026 10:25 AM PDT | Chemical Class | 9 | 1 | Derivatives of rapamycin used to induce autophagy via mTOR inhibition. |
-| [[Rapamycin]] | 30_May_2026 10:25 AM PDT | Chemical Compound | 10 | 1 | Canonical pharmacological inducer of autophagy via mTORC1 inhibition. |
-| [[Raptor]] | 30_May_2026 10:25 AM PDT | Protein | 10 | -1 | Essential scaffold for mTORC1; required for autophagic inhibition. |
-| [[RAS]] | 30_May_2026 10:25 AM PDT | Enzyme | 7 | -1 | Oncogene that often activates the PI3K/mTOR pathway. |
-| [[Rheb]] | 30_May_2026 10:25 AM PDT | Enzyme | 9 | -1 | GTPase that directly activates mTORC1; inhibition induces autophagy. |
-| [[Rictor]] | 30_May_2026 10:25 AM PDT | Protein | 9 | -1 | Essential component of mTORC2; facilitates AKT activation. |
-| [[ROS]] | 30_May_2026 10:25 AM PDT | Biological Molecule | 7 | 0 | Reactive oxygen species; can trigger protective autophagy at moderate levels. |
-| [[S6K1]] | 30_May_2026 10:25 AM PDT | Enzyme | 9 | -1 | Downstream mTORC1 effector; activity inversely correlated with flux. |
-| [[Selective Autophagy]] | 30_May_2026 10:25 AM PDT | Biological Process | 9 | 1 | Targeted degradation for precision quality control. |
-| [[Senescence-Associated Beta-Galactosidase]] | 30_May_2026 10:25 AM PDT | Biomarker | 6 | -1 | Marker of senescence; associated with declined autophagic activity. |
-| [[Senescence-Associated Secretory Phenotype]] | 30_May_2026 10:25 AM PDT | Biological Process | 7 | -1 | Pro-inflammatory state reduced by restoring autophagy. |
-| [[SGK1]] | 30_May_2026 10:25 AM PDT | Enzyme | 8 | -1 | Kinase related to AKT that can activate mTORC1. |
-| [[SIRT2]] | 30_May_2026 10:25 AM PDT | Enzyme | 8 | 1 | Deacetylase that regulates several ATG proteins. |
-| [[SIRT3]] | 30_May_2026 10:25 AM PDT | Enzyme | 8 | 1 | Mitochondrial deacetylase that promotes mitophagy. |
-| [[SREBP1]] | 30_May_2026 10:25 AM PDT | Protein | 7 | -1 | Master regulator of lipid synthesis; negatively correlated with induction. |
-| [[Starvation]] | 30_May_2026 10:25 AM PDT | Biological Process | 10 | 1 | Most powerful evolutionary conserved stimulus for widespread autophagy. |
-| [[T Cell]] | 30_May_2026 10:25 AM PDT | Cell Type | 7 | 1 | Autophagy is essential for T cell survival and activation. |
-| [[TAME Trial]] | 30_May_2026 10:25 AM PDT | Scientific Concept | 5 | 1 | Clinical trial for metformin targeting aging and autophagy. |
-| [[TFEB]] | 30_May_2026 10:25 AM PDT | Protein | 10 | 1 | Master transcriptional regulator of the lysosomal/autophagic genome. |
-| [[Thymic Involution]] | 30_May_2026 10:25 AM PDT | Biological Process | 6 | -1 | Age-related immune decline associated with reduced autophagy. |
-| [[TP53]] | 30_May_2026 10:25 AM PDT | Protein | 8 | 0 | Dual role: cytoplasmic p53 inhibits while nuclear p53 induces autophagy. |
-| [[TSC1]] | 30_May_2026 10:25 AM PDT | Protein | 9 | 1 | Part of the TSC complex that inhibits Rheb, acting as an inducer. |
-| [[TSC2]] | 30_May_2026 10:25 AM PDT | Protein | 9 | 1 | GAP component of the TSC complex; essential for suppressing mTORC1. |
-| [[ULK1]] | 30_May_2026 10:25 AM PDT | Enzyme | 10 | 1 | Primary initiator kinase; the 'on switch' for the entire process. |
-| [[Vps34]] | 30_May_2026 10:25 AM PDT | Enzyme | 10 | 1 | Class III PI3K essential for vesicle nucleation. |
-| [[Yoshinori Ohsumi]] | 30_May_2026 10:25 AM PDT | Person | 4 | 1 | Nobel laureate who discovered ATG genes; foundational for research. |
+| entity                                        |     datetime updated     | entity_type_1          | relevance_1 | sentiment_1 | justification                                                                               |
+| :-------------------------------------------- | :----------------------: | :--------------------- | :---------: | :---------: | :------------------------------------------------------------------------------------------ |
+| [[4E-BP1]]                                    | 30_May_2026 10:25 AM PDT | Protein                |      8      |     -1      | Downstream mTOR effector; phosphorylation inhibits translation and competes with autophagy. |
+| [[Adaptive Immune Response]]                  | 30_May_2026 10:25 AM PDT | Biological Process     |      6      |      1      | Autophagy is required for antigen presentation and immune memory.                           |
+| [[AKT]]                                       | 30_May_2026 10:25 AM PDT | Enzyme                 |      9      |     -1      | Key upstream activator of mTORC1; inhibits autophagy induction.                             |
+| [[Ambra-1]]                                   | 30_May_2026 10:25 AM PDT | Protein                |     10      |      0      | Essential regulator of the Beclin1-Vps34 complex during initiation.                         |
+| [[AMPK]]                                      | 30_May_2026 10:25 AM PDT | Enzyme                 |     10      |      1      | Primary energy sensor that directly activates ULK1 to trigger autophagy.                    |
+| [[Atg101]]                                    | 30_May_2026 10:25 AM PDT | Protein                |     10      |      0      | Core component of the ULK1 initiation complex.                                              |
+| [[Atg12]]                                     | 30_May_2026 10:25 AM PDT | Protein                |     10      |      0      | Essential for the ubiquitin-like conjugation system in phagophore expansion.                |
+| [[Atg13]]                                     | 30_May_2026 10:25 AM PDT | Protein                |     10      |      0      | Key regulatory subunit of the ULK1 complex.                                                 |
+| [[Atg16]]                                     | 30_May_2026 10:25 AM PDT | Protein                |     10      |      0      | Part of the expansion complex required for LC3 lipidation.                                  |
+| [[Atg16L1]]                                   | 30_May_2026 10:25 AM PDT | Protein                |     10      |      0      | Required for the proper localization of the autophagic machinery.                           |
+| [[Atg5]]                                      | 30_May_2026 10:25 AM PDT | Protein                |     10      |      0      | Critical component of the expansion complex; essential for autophagosome formation.         |
+| [[Atg7]]                                      | 30_May_2026 10:25 AM PDT | Enzyme                 |     10      |      0      | E1-like enzyme essential for Atg12 and Atg8/LC3 conjugation.                                |
+| [[Atg8]]                                      | 30_May_2026 10:25 AM PDT | Protein                |     10      |      0      | Yeast ortholog of LC3; essential for membrane expansion.                                    |
+| [[Autophagic Flux]]                           | 30_May_2026 10:25 AM PDT | Biological Process     |     10      |      1      | Complete process of autophagy; higher flux indicates better cellular health.                |
+| [[Autophagosome]]                             | 30_May_2026 10:25 AM PDT | Anatomy                |     10      |      0      | Central organelle of autophagy; hallmark of the process.                                    |
+| [[Autophagy Inducer]]                         | 30_May_2026 10:25 AM PDT | Pharmacological Action |      9      |      1      | Exogenous agents designed to enhance autophagic activity.                                   |
+| [[B Cell]]                                    | 30_May_2026 10:25 AM PDT | Cell Type              |      5      |      1      | Autophagy is necessary for B cell development and survival.                                 |
+| [[Beclin1]]                                   | 30_May_2026 10:25 AM PDT | Protein                |     10      |      1      | Core component of the PI3K complex; essential for vesicle nucleation.                       |
+| [[BRCA1]]                                     | 30_May_2026 10:25 AM PDT | Protein                |      5      |      0      | Tumor suppressor that can influence autophagy in DNA damage context.                        |
+| [[Caloric Restriction Mimetics]]              | 30_May_2026 10:25 AM PDT | Chemical Class         |      9      |      1      | Compounds like spermidine that induce autophagy without actual fasting.                     |
+| [[CD73]]                                      | 30_May_2026 10:25 AM PDT | Enzyme                 |      6      |     -1      | Ecto-enzyme that generates adenosine; can suppress immune-driven autophagy.                 |
+| [[CD8+ T Cell]]                               | 30_May_2026 10:25 AM PDT | Cell Type              |      7      |      1      | Autophagy is critical for memory T cell formation and maintenance.                          |
+| [[Chaperone-Mediated Autophagy]]              | 30_May_2026 10:25 AM PDT | Biological Process     |      9      |      1      | Selective protein degradation; vital for quality control.                                   |
+| [[Cisplatin]]                                 | 30_May_2026 10:25 AM PDT | Chemical Compound      |      4      |     -1      | Chemotherapeutic agent that often leads to autophagic resistance.                           |
+| [[Deptor]]                                    | 30_May_2026 10:25 AM PDT | Protein                |      8      |      1      | Endogenous inhibitor of mTORC1; indirectly promotes autophagy.                              |
+| [[Dietary Restriction]]                       | 30_May_2026 10:25 AM PDT | Biological Process     |      9      |      1      | Potent natural physiological trigger for systemic autophagy.                                |
+| [[eIF4E]]                                     | 30_May_2026 10:25 AM PDT | Protein                |      7      |     -1      | Translation initiation factor; competition between translation and autophagy.               |
+| [[eIF5A]]                                     | 30_May_2026 10:25 AM PDT | Protein                |      8      |      1      | Required for translation of TFEB; essential for flux.                                       |
+| [[FIP200]]                                    | 30_May_2026 10:25 AM PDT | Protein                |     10      |      0      | Essential scaffold protein in the ULK1 initiation complex.                                  |
+| [[FOXO1]]                                     | 30_May_2026 10:25 AM PDT | Protein                |      8      |      1      | Transcription factor that induces expression of multiple ATG genes.                         |
+| [[FOXO3a]]                                    | 30_May_2026 10:25 AM PDT | Protein                |      8      |      1      | Key regulator of autophagic gene expression in muscle and neurons.                          |
+| [[FOXO4]]                                     | 30_May_2026 10:25 AM PDT | Protein                |      7      |      1      | Involved in senescence and autophagic regulation during aging.                              |
+| [[Foxp3]]                                     | 30_May_2026 10:25 AM PDT | Protein                |      6      |      1      | Master regulator of Treg cells; autophagy supports Treg stability.                          |
+| [[Hematopoietic Stem Cell]]                   | 30_May_2026 10:25 AM PDT | Cell Type              |      7      |      1      | Autophagy is required for HSC quiescence and self-renewal.                                  |
+| [[HIF1A]]                                     | 30_May_2026 10:25 AM PDT | Protein                |      7      |      1      | Mediates hypoxia-induced autophagy via BNIP3 induction.                                     |
+| [[Huntington's Disease]]                      | 30_May_2026 10:25 AM PDT | Medical Condition      |      8      |     -1      | Characterized by toxic aggregates due to impaired autophagic clearance.                     |
+| [[IGF1]]                                      | 30_May_2026 10:25 AM PDT | Protein                |      8      |     -1      | Growth factor that activates AKT/mTOR, suppressing autophagy.                               |
+| [[Immune Aging]]                              | 30_May_2026 10:25 AM PDT | Biological Process     |      8      |     -1      | Linked to declining autophagic capacity; optimization can reverse effects.                  |
+| [[Immunometabolism]]                          | 30_May_2026 10:25 AM PDT | Scientific Concept     |      7      |      1      | Intersection of metabolism and immunity where autophagy is central.                         |
+| [[Intermittent Fasting]]                      | 30_May_2026 10:25 AM PDT | Biological Process     |      9      |      1      | Cyclical fasting that periodically maximizes autophagic flux.                               |
+| [[Ketogenesis]]                               | 30_May_2026 10:25 AM PDT | Biological Process     |      8      |      1      | Production of ketones which signal for and support autophagy.                               |
+| [[Ketogenic Diet]]                            | 30_May_2026 10:25 AM PDT | Medical Treatment      |      8      |      1      | Dietary intervention that mimics fasting and induces autophagy.                             |
+| [[LC3]]                                       | 30_May_2026 10:25 AM PDT | Protein                |     10      |      0      | Gold-standard marker for autophagosome formation and flux.                                  |
+| [[LKB1]]                                      | 30_May_2026 10:25 AM PDT | Enzyme                 |      9      |      1      | Upstream kinase of AMPK; essential for energy-sensing induction.                            |
+| [[Lysosome]]                                  | 30_May_2026 10:25 AM PDT | Anatomy                |     10      |      0      | Terminal organelle for degradation; essential for flux.                                     |
+| [[Macroautophagy]]                            | 30_May_2026 10:25 AM PDT | Biological Process     |     10      |      1      | Primary form of autophagy; essential for bulk recycling.                                    |
+| [[Melanoma]]                                  | 30_May_2026 10:25 AM PDT | Medical Condition      |      5      |     -1      | Cancer type where autophagy can be hijacked for survival.                                   |
+| [[Microautophagy]]                            | 30_May_2026 10:25 AM PDT | Biological Process     |      8      |      1      | Direct engulfment of cargo by lysosomes; contributes to homeostasis.                        |
+| [[Mitochondrial Complex I]]                   | 30_May_2026 10:25 AM PDT | Protein                |      6      |     -1      | Target of some inhibitors; dysfunction can trigger mitophagy.                               |
+| [[Mitophagy]]                                 | 30_May_2026 10:25 AM PDT | Biological Process     |     10      |      1      | Selective degradation of damaged mitochondria; critical for health.                         |
+| [[mLST8]]                                     | 30_May_2026 10:25 AM PDT | Protein                |      9      |     -1      | Core component of mTORC1 and mTORC2; supports mTOR activity.                                |
+| [[mSIN1]]                                     | 30_May_2026 10:25 AM PDT | Protein                |      8      |     -1      | Essential component of mTORC2; indirectly affects autophagy via AKT.                        |
+| [[mTOR]]                                      | 30_May_2026 10:25 AM PDT | Enzyme                 |     10      |     -1      | Master negative regulator of autophagy; must be inhibited for induction.                    |
+| [[mTORC1]]                                    | 30_May_2026 10:25 AM PDT | Protein                |     10      |     -1      | Specific mTOR complex that directly inhibits ULK1.                                          |
+| [[mTORC2]]                                    | 30_May_2026 10:25 AM PDT | Protein                |      8      |     -1      | Regulates AKT; indirectly suppresses autophagy through AKT/mTORC1.                          |
+| [[Neurodegenerative Disease]]                 | 30_May_2026 10:25 AM PDT | Medical Condition      |      9      |     -1      | Often exacerbated by autophagic failure and protein accumulation.                           |
+| [[p62]]                                       | 30_May_2026 10:25 AM PDT | Protein                |     10      |      0      | Scaffold protein that delivers cargo to the autophagosome.                                  |
+| [[PGC1-α]]                                    | 30_May_2026 10:25 AM PDT | Protein                |      8      |      1      | Master regulator of mitochondrial biogenesis and mitophagy inducer.                         |
+| [[Polyamine]]                                 | 30_May_2026 10:25 AM PDT | Chemical Class         |      9      |      1      | Natural compounds like spermidine essential for high autophagic flux.                       |
+| [[PPARγ]]                                     | 30_May_2026 10:25 AM PDT | Receptor               |      7      |      1      | Transcription factor that can promote autophagic gene expression.                           |
+| [[PRAS40]]                                    | 30_May_2026 10:25 AM PDT | Protein                |      8      |     -1      | mTORC1 inhibitor; however, its phosphorylation by AKT relieves inhibition.                  |
+| [[Protor-1]]                                  | 30_May_2026 10:25 AM PDT | Protein                |      7      |     -1      | Component of mTORC2; generally inhibitory to autophagy via AKT.                             |
+| [[PTEN]]                                      | 30_May_2026 10:25 AM PDT | Enzyme                 |      9      |      1      | Inhibits PI3K/AKT pathway, thereby inducing autophagy.                                      |
+| [[Rag proteins]]                              | 30_May_2026 10:25 AM PDT | Enzyme                 |      9      |     -1      | GTPases that recruit mTORC1 to the lysosome.                                                |
+| [[Rapalog]]                                   | 30_May_2026 10:25 AM PDT | Chemical Class         |      9      |      1      | Derivatives of rapamycin used to induce autophagy via mTOR inhibition.                      |
+| [[Rapamycin]]                                 | 30_May_2026 10:25 AM PDT | Chemical Compound      |     10      |      1      | Canonical pharmacological inducer of autophagy via mTORC1 inhibition.                       |
+| [[Raptor]]                                    | 30_May_2026 10:25 AM PDT | Protein                |     10      |     -1      | Essential scaffold for mTORC1; required for autophagic inhibition.                          |
+| [[RAS]]                                       | 30_May_2026 10:25 AM PDT | Enzyme                 |      7      |     -1      | Oncogene that often activates the PI3K/mTOR pathway.                                        |
+| [[Rheb]]                                      | 30_May_2026 10:25 AM PDT | Enzyme                 |      9      |     -1      | GTPase that directly activates mTORC1; inhibition induces autophagy.                        |
+| [[Rictor]]                                    | 30_May_2026 10:25 AM PDT | Protein                |      9      |     -1      | Essential component of mTORC2; facilitates AKT activation.                                  |
+| [[ROS]]                                       | 30_May_2026 10:25 AM PDT | Biological Molecule    |      7      |      0      | Reactive oxygen species; can trigger protective autophagy at moderate levels.               |
+| [[S6K1]]                                      | 30_May_2026 10:25 AM PDT | Enzyme                 |      9      |     -1      | Downstream mTORC1 effector; activity inversely correlated with flux.                        |
+| [[Selective Autophagy]]                       | 30_May_2026 10:25 AM PDT | Biological Process     |      9      |      1      | Targeted degradation for precision quality control.                                         |
+| [[Senescence-Associated Beta-Galactosidase]]  | 30_May_2026 10:25 AM PDT | Biomarker              |      6      |     -1      | Marker of senescence; associated with declined autophagic activity.                         |
+| [[Senescence-Associated Secretory Phenotype]] | 30_May_2026 10:25 AM PDT | Biological Process     |      7      |     -1      | Pro-inflammatory state reduced by restoring autophagy.                                      |
+| [[SGK1]]                                      | 30_May_2026 10:25 AM PDT | Enzyme                 |      8      |     -1      | Kinase related to AKT that can activate mTORC1.                                             |
+| [[SIRT2]]                                     | 30_May_2026 10:25 AM PDT | Enzyme                 |      8      |      1      | Deacetylase that regulates several ATG proteins.                                            |
+| [[SIRT3]]                                     | 30_May_2026 10:25 AM PDT | Enzyme                 |      8      |      1      | Mitochondrial deacetylase that promotes mitophagy.                                          |
+| [[SREBP1]]                                    | 30_May_2026 10:25 AM PDT | Protein                |      7      |     -1      | Master regulator of lipid synthesis; negatively correlated with induction.                  |
+| [[Starvation]]                                | 30_May_2026 10:25 AM PDT | Biological Process     |     10      |      1      | Most powerful evolutionary conserved stimulus for widespread autophagy.                     |
+| [[T Cell]]                                    | 30_May_2026 10:25 AM PDT | Cell Type              |      7      |      1      | Autophagy is essential for T cell survival and activation.                                  |
+| [[TAME Trial]]                                | 30_May_2026 10:25 AM PDT | Scientific Concept     |      5      |      1      | Clinical trial for metformin targeting aging and autophagy.                                 |
+| [[TFEB]]                                      | 30_May_2026 10:25 AM PDT | Protein                |     10      |      1      | Master transcriptional regulator of the lysosomal/autophagic genome.                        |
+| [[Thymic Involution]]                         | 30_May_2026 10:25 AM PDT | Biological Process     |      6      |     -1      | Age-related immune decline associated with reduced autophagy.                               |
+| [[TP53]]                                      | 30_May_2026 10:25 AM PDT | Protein                |      8      |      0      | Dual role: cytoplasmic p53 inhibits while nuclear p53 induces autophagy.                    |
+| [[TSC1]]                                      | 30_May_2026 10:25 AM PDT | Protein                |      9      |      1      | Part of the TSC complex that inhibits Rheb, acting as an inducer.                           |
+| [[TSC2]]                                      | 30_May_2026 10:25 AM PDT | Protein                |      9      |      1      | GAP component of the TSC complex; essential for suppressing mTORC1.                         |
+| [[ULK1]]                                      | 30_May_2026 10:25 AM PDT | Enzyme                 |     10      |      1      | Primary initiator kinase; the 'on switch' for the entire process.                           |
+| [[Vps34]]                                     | 30_May_2026 10:25 AM PDT | Enzyme                 |     10      |      1      | Class III PI3K essential for vesicle nucleation.                                            |
+| [[Yoshinori Ohsumi]]                          | 30_May_2026 10:25 AM PDT | Person                 |      4      |      1      | Nobel laureate who discovered ATG genes; foundational for research.                         |
 
 
