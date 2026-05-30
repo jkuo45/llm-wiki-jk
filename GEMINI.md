@@ -41,17 +41,18 @@ Maintain link integrity by performing periodic audits:
 
 ### Overlapping Link Resolution
 - The scope of this task is entities and topics in the notes directory.
-- _link directory contains entities that may exist across topics.
-- If the entity already exists in _link directory, append the wiki entry to it.
-- If the entity does not exist, create the entry in _link and move the original topic note into the _link folder.
-- The '_link' folder is only for entities that span across multiple topics.
-- Maintain only the consolidated file in _link to ensure a single source of truth.
+- This process does not need to be ran while extracting entities or triples.
+- 'notes/_link/' directory contains entities that may exist across topics.
+- If the entity already exists in 'notes/_link/' directory, append the wiki entry to it.
+- If the entity does not exist, create the entry in 'notes/_link/' and move the original topic note into the 'notes/_link/' folder.
+- The 'notes/_link/' folder is only for entities that span across multiple topics.
+- Maintain only the consolidated file in 'notes/_link/' to ensure a single source of truth.
 - The goal is to highlight these overlapping entities in graph view as central hubs.
 - Examples (since they are mentioned across topics in notes):
-    - '_link/Cancer.md'
-    - '_link/Autophagy.md'
-    - '_link/Inflammation.md'
-- When a new entity is identified as overlapping, merge its content into the _link version and delete the topic-specific files so that it is centrally linked in _link directory.
+    - 'notes/_link/Cancer.md'
+    - 'notes/_link/Autophagy.md'
+    - 'notes/_link/Inflammation.md'
+- When a new entity is identified as overlapping, merge its content into the 'notes/_link/' version and delete the topic-specific files so that it is centrally linked in 'notes/_link/' directory.
 - Validate completeness of the wiki entry.
 - Prefer to write with shell commands, python scripts if necessary (execute using uv).
 - Use git-mv to move files instead of shell mv.
