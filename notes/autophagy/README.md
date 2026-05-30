@@ -5,98 +5,99 @@ This directory contains notes and research regarding [[notes/_link/Autophagy]], 
 
 ## Maintenance
 
-- Last updated: 27_May_2026 11:29 AM 
+- Last updated: 30_May_2026 10:20 AM PDT
 - Total count of entities: 90
 
-| entity | datetime updated |
-| :--- | :---: |
-| [[Adaptive Immune Response]] | 27_May_2026 09:38 AM  |
-| [[notes/_link/Aging]] | 27_May_2026 09:38 AM  |
-| [[notes/_link/Akt]] | 27_May_2026 09:38 AM  |
-| [[notes/_link/Alzheimer's Disease]] | 27_May_2026 09:38 AM  |
-| [[Ambra-1]] | 25_May_2026 05:23 PM  |
-| [[notes/_link/AMPK]] | 27_May_2026 09:38 AM  |
-| [[notes/_link/Apoptosis]] | 27_May_2026 09:38 AM  |
-| [[Atg101]] | 25_May_2026 05:23 PM  |
-| [[Atg12]] | 27_May_2026 09:38 AM  |
-| [[Atg13]] | 25_May_2026 05:23 PM  |
-| [[Atg16]] | 27_May_2026 09:38 AM  |
-| [[Atg16L1]] | 27_May_2026 10:16 AM  |
-| [[Atg5]] | 27_May_2026 09:38 AM  |
-| [[Atg7]] | 27_May_2026 09:38 AM  |
-| [[Atg8]] | 27_May_2026 09:38 AM  |
-| [[Autophagic Flux]] | 27_May_2026 09:38 AM  |
-| [[Autophagosome]] | 25_May_2026 05:23 PM  |
-| [[Autophagy Inducer]] | 27_May_2026 09:38 AM  |
-| [[notes/_link/Autophagy]] | 27_May_2026 10:16 AM  |
-| [[B Cell]] | 27_May_2026 09:38 AM  |
-| [[Beclin1]] | 27_May_2026 09:38 AM  |
-| [[BRCA1]] | 25_May_2026 05:23 PM  |
-| [[notes/_link/Breast Cancer]] | 27_May_2026 09:38 AM  |
-| [[Caloric Restriction Mimetics]] | 25_May_2026 05:23 PM  |
-| [[notes/_link/Caloric Restriction]] | 27_May_2026 09:38 AM  |
-| [[notes/_link/Cancer]] | 27_May_2026 09:38 AM  |
-| [[notes/_link/Cardiovascular Disease]] | 27_May_2026 09:38 AM  |
-| [[CD73]] | 25_May_2026 05:23 PM  |
-| [[CD8+ T Cell]] | 27_May_2026 09:38 AM  |
-| [[Chaperone-Mediated Autophagy]] | 27_May_2026 09:38 AM  |
-| [[Cisplatin]] | 25_May_2026 05:23 PM  |
-| [[notes/_link/Colorectal Cancer]] | 27_May_2026 09:38 AM  |
-| [[Dietary Restriction]] | 25_May_2026 05:23 PM  |
-| [[eIF5A]] | 27_May_2026 09:38 AM  |
-| [[FIP200]] | 25_May_2026 05:23 PM  |
-| [[FOXO1]] | 27_May_2026 09:38 AM  |
-| [[FOXO3a]] | 27_May_2026 09:38 AM  |
-| [[FOXO4]] | 27_May_2026 09:38 AM  |
-| [[Foxp3]] | 27_May_2026 09:38 AM  |
-| [[Hematopoietic Stem Cell]] | 27_May_2026 09:38 AM  |
-| [[HIF1A]] | 25_May_2026 05:23 PM  |
-| [[Huntington's Disease]] | 27_May_2026 09:38 AM  |
-| [[notes/_link/Hypoxia]] | 25_May_2026 05:23 PM  |
-| [[IGF1]] | 27_May_2026 09:38 AM  |
-| [[Immune Aging]] | 25_May_2026 05:23 PM  |
-| [[Immunometabolism]] | 27_May_2026 09:38 AM  |
-| [[notes/_link/Immunosenescence]] | 25_May_2026 05:23 PM  |
-| [[notes/_link/Inflammaging]] | 25_May_2026 05:23 PM  |
-| [[Intermittent Fasting]] | 27_May_2026 09:38 AM  |
-| [[Ketogenesis]] | 27_May_2026 09:38 AM  |
-| [[Ketogenic Diet]] | 27_May_2026 09:38 AM  |
-| [[LC3]] | 27_May_2026 09:38 AM  |
-| [[LKB1]] | 27_May_2026 09:38 AM  |
-| [[Lysosome]] | 27_May_2026 09:38 AM  |
-| [[Macroautophagy]] | 27_May_2026 09:38 AM  |
-| [[Melanoma]] | 27_May_2026 09:38 AM  |
-| [[notes/_link/Metformin]] | 25_May_2026 05:23 PM  |
-| [[Microautophagy]] | 27_May_2026 09:38 AM  |
-| [[notes/_link/Mitochondria]] | 27_May_2026 09:38 AM  |
-| [[Mitochondrial Complex I]] | 25_May_2026 05:23 PM  |
-| [[Mitophagy]] | 27_May_2026 09:38 AM  |
-| [[notes/_link/mTOR]] | 27_May_2026 09:38 AM  |
-| [[mTORC1]] | 27_May_2026 09:38 AM  |
-| [[Neurodegenerative Disease]] | 27_May_2026 09:38 AM  |
-| [[p62]] | 27_May_2026 09:38 AM  |
-| [[notes/_link/Parkinson's Disease]] | 27_May_2026 09:38 AM  |
-| [[notes/_link/PI3K]] | 27_May_2026 09:38 AM  |
-| [[Polyamine]] | 27_May_2026 09:38 AM  |
-| [[Rapalog]] | 25_May_2026 05:23 PM  |
-| [[Rapamycin]] | 27_May_2026 09:38 AM  |
-| [[RAS]] | 25_May_2026 05:23 PM  |
-| [[ROS]] | 25_May_2026 05:23 PM  |
-| [[Selective Autophagy]] | 27_May_2026 09:38 AM  |
-| [[Senescence-Associated Beta-Galactosidase]] | 25_May_2026 05:23 PM  |
-| [[Senescence-Associated Secretory Phenotype]] | 25_May_2026 05:23 PM  |
-| [[notes/_link/Senescence]] | 27_May_2026 09:38 AM  |
-| [[notes/_link/SIRT1]] | 27_May_2026 09:38 AM  |
-| [[SIRT2]] | 27_May_2026 09:38 AM  |
-| [[SIRT3]] | 25_May_2026 05:23 PM  |
-| [[notes/_link/Spermidine]] | 25_May_2026 05:23 PM  |
-| [[Starvation]] | 27_May_2026 10:16 AM  |
-| [[notes/_link/STAT3]] | 27_May_2026 09:38 AM  |
-| [[T Cell]] | 27_May_2026 09:38 AM  |
-| [[TAME Trial]] | 25_May_2026 05:23 PM  |
-| [[TFEB]] | 27_May_2026 09:38 AM  |
-| [[Thymic Involution]] | 25_May_2026 05:23 PM  |
-| [[TP53]] | 25_May_2026 05:23 PM  |
-| [[ULK1]] | 27_May_2026 09:38 AM  |
-| [[Vps34]] | 27_May_2026 10:15 AM  |
-| [[Yoshinori Ohsumi]] | 25_May_2026 05:23 PM  |
+| entity | datetime updated | entity_type_1 |
+| :--- | :---: | :--- |
+| [[4E-BP1]] | 30_May_2026 10:20 AM PDT | Protein |
+| [[Adaptive Immune Response]] | 30_May_2026 10:20 AM PDT | Biological Process |
+| [[AKT]] | 30_May_2026 10:20 AM PDT | Enzyme |
+| [[Ambra-1]] | 30_May_2026 10:20 AM PDT | Protein |
+| [[AMPK]] | 30_May_2026 10:20 AM PDT | Enzyme |
+| [[Atg101]] | 30_May_2026 10:20 AM PDT | Protein |
+| [[Atg12]] | 30_May_2026 10:20 AM PDT | Protein |
+| [[Atg13]] | 30_May_2026 10:20 AM PDT | Protein |
+| [[Atg16]] | 30_May_2026 10:20 AM PDT | Protein |
+| [[Atg16L1]] | 30_May_2026 10:20 AM PDT | Protein |
+| [[Atg5]] | 30_May_2026 10:20 AM PDT | Protein |
+| [[Atg7]] | 30_May_2026 10:20 AM PDT | Enzyme |
+| [[Atg8]] | 30_May_2026 10:20 AM PDT | Protein |
+| [[Autophagic Flux]] | 30_May_2026 10:20 AM PDT | Biological Process |
+| [[Autophagosome]] | 30_May_2026 10:20 AM PDT | Anatomy |
+| [[Autophagy Inducer]] | 30_May_2026 10:20 AM PDT | Pharmacological Action |
+| [[B Cell]] | 30_May_2026 10:20 AM PDT | Cell Type |
+| [[Beclin1]] | 30_May_2026 10:20 AM PDT | Protein |
+| [[BRCA1]] | 30_May_2026 10:20 AM PDT | Protein |
+| [[Caloric Restriction Mimetics]] | 30_May_2026 10:20 AM PDT | Chemical Class |
+| [[CD73]] | 30_May_2026 10:20 AM PDT | Enzyme |
+| [[CD8+ T Cell]] | 30_May_2026 10:20 AM PDT | Cell Type |
+| [[Chaperone-Mediated Autophagy]] | 30_May_2026 10:20 AM PDT | Biological Process |
+| [[Cisplatin]] | 30_May_2026 10:20 AM PDT | Chemical Compound |
+| [[Deptor]] | 30_May_2026 10:20 AM PDT | Protein |
+| [[Dietary Restriction]] | 30_May_2026 10:20 AM PDT | Biological Process |
+| [[eIF4E]] | 30_May_2026 10:20 AM PDT | Protein |
+| [[eIF5A]] | 30_May_2026 10:20 AM PDT | Protein |
+| [[FIP200]] | 30_May_2026 10:20 AM PDT | Protein |
+| [[FOXO1]] | 30_May_2026 10:20 AM PDT | Protein |
+| [[FOXO3a]] | 30_May_2026 10:20 AM PDT | Protein |
+| [[FOXO4]] | 30_May_2026 10:20 AM PDT | Protein |
+| [[Foxp3]] | 30_May_2026 10:20 AM PDT | Protein |
+| [[Hematopoietic Stem Cell]] | 30_May_2026 10:20 AM PDT | Cell Type |
+| [[HIF1A]] | 30_May_2026 10:20 AM PDT | Protein |
+| [[Huntington's Disease]] | 30_May_2026 10:20 AM PDT | Medical Condition |
+| [[IGF1]] | 30_May_2026 10:20 AM PDT | Protein |
+| [[Immune Aging]] | 30_May_2026 10:20 AM PDT | Biological Process |
+| [[Immunometabolism]] | 30_May_2026 10:20 AM PDT | Scientific Concept |
+| [[Intermittent Fasting]] | 30_May_2026 10:20 AM PDT | Biological Process |
+| [[Ketogenesis]] | 30_May_2026 10:20 AM PDT | Biological Process |
+| [[Ketogenic Diet]] | 30_May_2026 10:20 AM PDT | Medical Treatment |
+| [[LC3]] | 30_May_2026 10:20 AM PDT | Protein |
+| [[LKB1]] | 30_May_2026 10:20 AM PDT | Enzyme |
+| [[Lysosome]] | 30_May_2026 10:20 AM PDT | Anatomy |
+| [[Macroautophagy]] | 30_May_2026 10:20 AM PDT | Biological Process |
+| [[Melanoma]] | 30_May_2026 10:20 AM PDT | Medical Condition |
+| [[Microautophagy]] | 30_May_2026 10:20 AM PDT | Biological Process |
+| [[Mitochondrial Complex I]] | 30_May_2026 10:20 AM PDT | Protein |
+| [[Mitophagy]] | 30_May_2026 10:20 AM PDT | Biological Process |
+| [[mLST8]] | 30_May_2026 10:20 AM PDT | Protein |
+| [[mSIN1]] | 30_May_2026 10:20 AM PDT | Protein |
+| [[mTOR]] | 30_May_2026 10:20 AM PDT | Enzyme |
+| [[mTORC1]] | 30_May_2026 10:20 AM PDT | Protein |
+| [[mTORC2]] | 30_May_2026 10:20 AM PDT | Protein |
+| [[Neurodegenerative Disease]] | 30_May_2026 10:20 AM PDT | Medical Condition |
+| [[p62]] | 30_May_2026 10:20 AM PDT | Protein |
+| [[PGC1-α]] | 30_May_2026 10:20 AM PDT | Protein |
+| [[Polyamine]] | 30_May_2026 10:20 AM PDT | Chemical Class |
+| [[PPARγ]] | 30_May_2026 10:20 AM PDT | Receptor |
+| [[PRAS40]] | 30_May_2026 10:20 AM PDT | Protein |
+| [[Protor-1]] | 30_May_2026 10:20 AM PDT | Protein |
+| [[PTEN]] | 30_May_2026 10:20 AM PDT | Enzyme |
+| [[Rag proteins]] | 30_May_2026 10:20 AM PDT | Enzyme |
+| [[Rapalog]] | 30_May_2026 10:20 AM PDT | Chemical Class |
+| [[Rapamycin]] | 30_May_2026 10:20 AM PDT | Chemical Compound |
+| [[Raptor]] | 30_May_2026 10:20 AM PDT | Protein |
+| [[RAS]] | 30_May_2026 10:20 AM PDT | Enzyme |
+| [[Rheb]] | 30_May_2026 10:20 AM PDT | Enzyme |
+| [[Rictor]] | 30_May_2026 10:20 AM PDT | Protein |
+| [[ROS]] | 30_May_2026 10:20 AM PDT | Biological Molecule |
+| [[S6K1]] | 30_May_2026 10:20 AM PDT | Enzyme |
+| [[Selective Autophagy]] | 30_May_2026 10:20 AM PDT | Biological Process |
+| [[Senescence-Associated Beta-Galactosidase]] | 30_May_2026 10:20 AM PDT | Biomarker |
+| [[Senescence-Associated Secretory Phenotype]] | 30_May_2026 10:20 AM PDT | Biological Process |
+| [[SGK1]] | 30_May_2026 10:20 AM PDT | Enzyme |
+| [[SIRT2]] | 30_May_2026 10:20 AM PDT | Enzyme |
+| [[SIRT3]] | 30_May_2026 10:20 AM PDT | Enzyme |
+| [[SREBP1]] | 30_May_2026 10:20 AM PDT | Protein |
+| [[Starvation]] | 30_May_2026 10:20 AM PDT | Biological Process |
+| [[T Cell]] | 30_May_2026 10:20 AM PDT | Cell Type |
+| [[TAME Trial]] | 30_May_2026 10:20 AM PDT | Scientific Concept |
+| [[TFEB]] | 30_May_2026 10:20 AM PDT | Protein |
+| [[Thymic Involution]] | 30_May_2026 10:20 AM PDT | Biological Process |
+| [[TP53]] | 30_May_2026 10:20 AM PDT | Protein |
+| [[TSC1]] | 30_May_2026 10:20 AM PDT | Protein |
+| [[TSC2]] | 30_May_2026 10:20 AM PDT | Protein |
+| [[ULK1]] | 30_May_2026 10:20 AM PDT | Enzyme |
+| [[Vps34]] | 30_May_2026 10:20 AM PDT | Enzyme |
+| [[Yoshinori Ohsumi]] | 30_May_2026 10:20 AM PDT | Person |
+
