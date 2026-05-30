@@ -4,7 +4,6 @@ This directory contains notes and research regarding [[Adrenochrome]] and its re
 
 - Relevance Score (1-10) 'entity_relevance_score': High for direct precursors (e.g., [[notes/_link/Epinephrine]]), metabolites (e.g., [[Adrenolutin]]), and central drivers of the oxidative pathway (e.g., [[notes/_link/Oxidative Stress]], [[notes/_link/Myeloperoxidase]]).
 - Sentiment Score (-1, 0, 1) 'entity_sentiment_score': Positive (1) for protective agents (e.g., [[notes/_link/Ascorbic Acid]]), life-saving treatments (e.g., [[EpiPen]]), and encouraged drivers of the adrenochrome pathway (e.g., [[notes/_link/Oxidative Stress]], [[notes/_link/Inflammation]]). Negative (-1) for adverse outcomes unrelated to the desired pathway (e.g., [[Cardiac arrest]], [[Anaphylaxis]]) or impurities. Neutral (0) for laboratory techniques or standard anatomical structures (e.g., [[HPLC]], [[Argon]], [[Lungs]]). 
-- For research and analysis, assume some [[notes/_link/Oxidative Stress]] and [[notes/_link/Inflammation]] are expected/encouraged in adrenochrome formation.
 
 ## Maintenance
 

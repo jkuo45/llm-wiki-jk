@@ -55,3 +55,6 @@ last updated: 29_May_2026 08:21 AM
 
 
 ---
+
+## User/Patient specific assumptions/scenarios
+- For research and analysis, assume some [[notes/_link/Oxidative Stress]] and [[notes/_link/Inflammation]] are expected/encouraged in adrenochrome formation.
