@@ -7,7 +7,7 @@
 - documents start with '[document]' in the file name. Depending on task, they may or may not be included in context, counts.
 - notes directory is organized by topic. 
     - each markdown file within that topic can be counted as a single entity.
-- uv for all python executables
+- use uv for all python executables
 
 ## Linking Format
 - Use Obsidian-style wiki links: [[Exact Note Title]] or [[Note Title|Display Text]] when the display text differs.
@@ -44,6 +44,7 @@ Maintain link integrity by performing periodic audits:
 - _link directory contains entities that may exist across topics.
 - If the entity already exists in _link directory, append the wiki entry to it.
 - If the entity does not exist, create the entry in _link and move the original topic note into the _link folder.
+- The '_link' folder is only for entities that span across multiple topics.
 - Maintain only the consolidated file in _link to ensure a single source of truth.
 - The goal is to highlight these overlapping entities in graph view as central hubs.
 - Examples (since they are mentioned across topics in notes):
@@ -52,7 +53,8 @@ Maintain link integrity by performing periodic audits:
     - '_link/Inflammation.md'
 - When a new entity is identified as overlapping, merge its content into the _link version and delete the topic-specific files so that it is centrally linked in _link directory.
 - Validate completeness of the wiki entry.
-- Prefer to write with Shell commands, python scripts if necessary.
+- Prefer to write with shell commands, python scripts if necessary (execute using uv).
+- Use git-mv to move files instead of shell mv.
 
 ## Entity Type Schema
 To maintain consistency, all entity notes should include an `entity_type` field. Suggest additional entity types if they do not exist. These values are intended for README.md and do not need to be included in entity wiki notes. Depending on topic/user preference, more values maybe added.
