@@ -22,7 +22,7 @@ ROS drive the non-enzymatic [[Oxidation]] of [[notes/_link/Epinephrine]] to [[Ad
 
 
 ## Biological Impact
-At low levels, ROS are essential for cell signaling and immune defense. However, when levels exceed the body's antioxidant capacity, they lead to [[notes/_link/Oxidative Stress]], causing damage to lipids, proteins, and DNA.
+At low levels, ROS are essential for cell signaling and immune defense. However, when levels exceed the body's antioxidant capacity, they lead to [[notes/_link/Oxidative Stress]], causing damage to lipids, proteins, and DNA. This process is central to the pathogenesis of [[notes/_link/Parkinson's Disease]] and other [[notes/_link/Neurodegenerative Diseases]].
 
 
 ## Linking Summary:

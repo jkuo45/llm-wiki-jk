@@ -26,7 +26,7 @@ mTOR works in a dynamic balance with other key energy sensors:
 Chronic mTOR activation contributes to:
 *   **[[notes/_link/Cancer]]**: By promoting uncontrolled cell growth and division.
 *   **[[Metabolic Syndromes]]**: Linked to insulin resistance and obesity.
-*   **[[notes/_link/Neurodegenerative Diseases]]**: By inhibiting the clearance of toxic protein aggregates through autophagy.
+*   **[[notes/_link/Neurodegenerative Diseases]]**: By inhibiting the clearance of toxic protein aggregates through [[notes/_link/Autophagy]]. Conversely, mTOR inhibition (e.g., by [[Rapamycin]]) is a key strategy for enhancing autophagic clearance of these aggregates.
 
 
 ## Linking Summary:

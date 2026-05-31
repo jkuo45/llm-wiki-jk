@@ -20,7 +20,7 @@ In the [[Prefrontal Cortex]], its clearance is also facilitated by the [[Norepin
 
 
 ## Functions
-It is involved in arousal, attention, and the stress response. It also affects heart rate and blood pressure.
+It is involved in arousal, attention, and the stress response. It also affects heart rate and blood pressure. In the brain, it is primarily synthesized by neurons in the [[Locus Coeruleus]]. These norepinephrine-producing neurons are highly pigmented with [[notes/_link/Neuromelanin]] and consistently degenerate in [[notes/_link/Parkinson's Disease]].
 
 
 ## Connections

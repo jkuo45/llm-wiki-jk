@@ -4,35 +4,74 @@ This directory contains notes and research regarding [[notes/_link/Neuromelanin]
 
 ## Maintenance
 
-- Last updated: 27_May_2026 11:29 AM 
-- Total count of entities: 27
+- Last updated: 31_May_2026 01:25 PM PDT
+- Total count of entities: 66
 
-| entity | datetime updated |
-| :--- | :---: |
-| [[Alpha-Synuclein]] | 25_May_2026 05:23 PM  |
-| [[notes/_link/Autophagy]] | 27_May_2026 09:48 AM  |
-| [[Cutaneous Melanoma]] | 25_May_2026 05:23 PM  |
-| [[notes/_link/Dopamine]] | 27_May_2026 11:21 AM  |
-| [[Dorsal Motor Nucleus of the Vagus]] | 25_May_2026 05:23 PM  |
-| [[Incidental Lewy Body Disease]] | 25_May_2026 05:23 PM  |
-| [[L-DOPA]] | 25_May_2026 05:23 PM  |
-| [[Lewy Bodies]] | 25_May_2026 05:23 PM  |
-| [[Locus Coeruleus]] | 25_May_2026 05:23 PM  |
-| [[Microgliosis]] | 25_May_2026 05:23 PM  |
-| [[Mitochondrial Dysfunction]] | 25_May_2026 05:23 PM  |
-| [[MPTP]] | 25_May_2026 05:23 PM  |
-| [[Neuroinflammation]] | 25_May_2026 05:23 PM  |
-| [[notes/_link/Neuromelanin]] | 25_May_2026 05:23 PM  |
-| [[Neuronophagia]] | 25_May_2026 05:23 PM  |
-| [[Nigrostriatal System]] | 25_May_2026 05:23 PM  |
-| [[notes/_link/Oxidative Stress]] | 25_May_2026 05:23 PM  |
-| [[notes/_link/Parkinson's Disease]] | 25_May_2026 05:23 PM  |
-| [[Pathogenic Threshold of Neuromelanin]] | 27_May_2026 09:46 AM  |
-| [[Proteostasis]] | 27_May_2026 09:46 AM  |
-| [[Substantia Nigra Pars Compacta]] | 25_May_2026 05:23 PM  |
-| [[notes/_link/Substantia Nigra]] | 25_May_2026 05:23 PM  |
-| [[Tyrosinase]] | 25_May_2026 05:23 PM  |
-| [[notes/_link/Tyrosine Hydroxylase]] | 25_May_2026 05:23 PM  |
-| [[Ubiquitin-proteasome system]] | 25_May_2026 05:23 PM  |
-| [[notes/_link/Ventral Tegmental Area]] | 25_May_2026 05:23 PM  |
-| [[Vesicular Monoamine Transporter 2]] | 25_May_2026 05:23 PM  |
+| entity                                       |   datetime updated   | entity_type_1           |
+| :------------------------------------------- | :------------------: | ----------------------- |
+| [[notes/_link/Aging]]                        | 31_May_2026 01:25 PM | Biological Process      |
+| [[Alpha-Synuclein]]                          | 25_May_2026 05:23 PM | Protein                 |
+| [[Alpha-Synuclein Aggregation]]              | 31_May_2026 03:00 PM | Biological Process      |
+| [[Ambroxol]]                                 | 31_May_2026 02:45 PM | Chemical Compound       |
+| [[Antigen Presentation]]                     | 31_May_2026 03:00 PM | Biological Process      |
+| [[notes/_link/Autophagy]]                    | 27_May_2026 09:48 AM | Biological Process      |
+| [[Bradykinesia]]                             | 31_May_2026 02:45 PM | Symptom                 |
+| [[Catecholamines]]                           | 31_May_2026 03:00 PM | Chemical Class          |
+| [[Complex I]]                                | 31_May_2026 02:45 PM | Protein                 |
+| [[Cutaneous Melanoma]]                       | 25_May_2026 05:23 PM | Medical Condition       |
+| [[Dopachrome tautomerase]]                   | 31_May_2026 02:45 PM | Enzyme                  |
+| [[notes/_link/Dopamine]]                     | 27_May_2026 11:21 AM | Biological Molecule     |
+| [[notes/_link/Dopaminergic Neurons]]         | 31_May_2026 01:25 PM | Cell Type               |
+| [[Dorsal Motor Nucleus of the Vagus]]        | 25_May_2026 05:23 PM | Anatomy                 |
+| [[Eumelanin]]                                | 31_May_2026 02:45 PM | Biological Molecule     |
+| [[Glucocerebrosidase]]                       | 31_May_2026 03:00 PM | Enzyme                  |
+| [[Immunoglobulin G]]                         | 31_May_2026 02:45 PM | Antibody                |
+| [[Incidental Lewy Body Disease]]             | 25_May_2026 05:23 PM | Medical Condition       |
+| [[Iron]]                                     | 31_May_2026 02:45 PM | Chemical Compound       |
+| [[Konstantin Nikolaevich Tretiakoff]]        | 31_May_2026 02:45 PM | Person                  |
+| [[L-DOPA]]                                   | 25_May_2026 05:23 PM | Chemical Compound       |
+| [[L-Tyrosine]]                               | 31_May_2026 02:45 PM | Chemical Compound       |
+| [[Lewy Bodies]]                              | 25_May_2026 05:23 PM | Medical Condition       |
+| [[Lipofuscin]]                               | 31_May_2026 02:45 PM | Biological Molecule     |
+| [[Locus Coeruleus]]                          | 25_May_2026 05:23 PM | Anatomy                 |
+| [[Lymphocytes]]                              | 31_May_2026 02:45 PM | Cell Type               |
+| [[Lysosomal Biogenesis]]                     | 31_May_2026 03:00 PM | Biological Process      |
+| [[Lysosomal Exocytosis]]                     | 31_May_2026 03:00 PM | Biological Process      |
+| [[Major histocompatibility complex class I]] | 31_May_2026 02:45 PM | Protein                 |
+| [[MC1R]]                                     | 31_May_2026 02:45 PM | Gene                    |
+| [[Melanogenesis]]                            | 31_May_2026 03:00 PM | Biological Process      |
+| [[Microglia]]                                | 31_May_2026 02:45 PM | Cell Type               |
+| [[Microgliosis]]                             | 25_May_2026 05:23 PM | Biological Process      |
+| [[notes/_link/Mitochondria]]                 | 31_May_2026 01:25 PM | Anatomy                 |
+| [[Mitochondrial Dysfunction]]                | 25_May_2026 05:23 PM | Scientific Concept      |
+| [[MPP+]]                                     | 31_May_2026 02:45 PM | Toxin                   |
+| [[MPTP]]                                     | 25_May_2026 05:23 PM | Toxin                   |
+| [[notes/_link/mTOR]]                         | 31_May_2026 03:00 PM | Enzyme                  |
+| [[notes/_link/Neurodegenerative Diseases]]    | 31_May_2026 01:25 PM | Medical Condition       |
+| [[Neuroinflammation]]                        | 25_May_2026 05:23 PM | Biological Process      |
+| [[notes/_link/Neuromelanin]]                 | 25_May_2026 05:23 PM | Biological Molecule     |
+| [[Neuronophagia]]                            | 25_May_2026 05:23 PM | Biological Process      |
+| [[Neuroprotection]]                          | 31_May_2026 03:00 PM | Pharmacological Action  |
+| [[Nigrostriatal System]]                     | 25_May_2026 05:23 PM | Anatomy                 |
+| [[notes/_link/Norepinephrine]]               | 31_May_2026 03:00 PM | Biological Molecule     |
+| [[notes/_link/Oxidative Stress]]             | 25_May_2026 05:23 PM | Scientific Concept      |
+| [[p62]]                                      | 31_May_2026 02:45 PM | Protein                 |
+| [[Pale Bodies]]                              | 31_May_2026 02:45 PM | Medical Condition       |
+| [[Paraquat]]                                 | 31_May_2026 02:45 PM | Toxin                   |
+| [[notes/_link/Parkinson's Disease]]          | 25_May_2026 05:23 PM | Medical Condition       |
+| [[Pathogenic Threshold of Neuromelanin]]     | 27_May_2026 09:46 AM | Scientific Concept      |
+| [[Pheomelanin]]                              | 31_May_2026 02:45 PM | Biological Molecule     |
+| [[Proteostasis]]                             | 27_May_2026 09:46 AM | Biological Process      |
+| [[Rapamycin]]                                | 31_May_2026 02:45 PM | Chemical Compound       |
+| [[notes/_link/Reactive Oxygen Species]]      | 31_May_2026 02:45 PM | Biological Molecule     |
+| [[Substantia Nigra Pars Compacta]]           | 25_May_2026 05:23 PM | Anatomy                 |
+| [[notes/_link/Substantia Nigra]]             | 25_May_2026 05:23 PM | Anatomy                 |
+| [[TFEB]]                                     | 31_May_2026 02:45 PM | Gene                    |
+| [[Tyrosinase]]                               | 25_May_2026 05:23 PM | Enzyme                  |
+| [[Tyrosinase-related protein-1]]             | 31_May_2026 02:45 PM | Enzyme                  |
+| [[Tyrosinase-related protein-2]]             | 31_May_2026 02:45 PM | Enzyme                  |
+| [[notes/_link/Tyrosine Hydroxylase]]         | 25_May_2026 05:23 PM | Enzyme                  |
+| [[Ubiquitin]]                                | 31_May_2026 02:45 PM | Protein                 |
+| [[Ubiquitin-proteasome system]]              | 25_May_2026 05:23 PM | Biological Process      |
+| [[notes/_link/Ventral Tegmental Area]]       | 25_May_2026 05:23 PM | Anatomy                 |
+| [[Vesicular Monoamine Transporter 2]]        | 25_May_2026 05:23 PM | Protein                 |
