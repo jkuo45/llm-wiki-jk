@@ -10,4 +10,4 @@
 
 ## Related
 - [[Geroscience]]
-- [[Aging]]
+- [[notes/_link/Aging]]

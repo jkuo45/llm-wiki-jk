@@ -7,5 +7,5 @@
 
 ## Related
 - [[HGPS]]
-- [[Aging]]
+- [[notes/_link/Aging]]
 - [[Chromatin]]

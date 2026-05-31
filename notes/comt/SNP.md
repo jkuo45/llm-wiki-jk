@@ -6,14 +6,14 @@ A **[[SNP]]** (Single Nucleotide Polymorphism) is a variation in a single nucleo
 [[SNP|SNPs]] can predict an individual's response to certain drugs, susceptibility to environmental factors, and risk of developing particular diseases.
 
 ## Key Examples in this Knowledge Base
-- **[[COMT]] [[Val158Met]] (rs4680):** Impacts dopamine degradation.
+- **[[notes/_link/COMT]] [[Val158Met]] (rs4680):** Impacts dopamine degradation.
 - **[[MTHFR]] (C677T/A1298C):** Impacts folate metabolism and methylation.
 
 ## Connections
-- [[COMT]]: Contains the functional Val158Met SNP.
+- [[notes/_link/COMT]]: Contains the functional Val158Met SNP.
 - [[MTHFR]]: Notable for common SNPs affecting enzyme activity.
 - [[Methylation]]: Often influenced by SNPs in various pathway enzymes.
 
 ---
 ### Linking Summary:
-- New links added: [[COMT]], [[Val158Met]], [[MTHFR]], [[Methylation]].
+- New links added: [[notes/_link/COMT]], [[Val158Met]], [[MTHFR]], [[Methylation]].

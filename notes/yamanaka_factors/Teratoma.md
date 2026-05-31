@@ -8,9 +8,9 @@ In stem cell research, the formation of teratomas is a key indicator of the plur
 - [[Induced Pluripotent Stem Cells]]: Teratoma formation is used to validate iPSC pluripotency.
 - [[Embryonic Stem Cells]]: Also validated using teratoma assays.
 - [[Pluripotency]]: The ability to form a teratoma is a hallmark of a pluripotent state.
-- [[Cancer]]: While often benign, teratomas represent a risk of uncontrolled growth in cell-based therapies.
+- [[notes/_link/Cancer]]: While often benign, teratomas represent a risk of uncontrolled growth in cell-based therapies.
 
 ### Linking Summary:
-- New links added: [[Induced Pluripotent Stem Cells]], [[Embryonic Stem Cells]], [[Pluripotency]], [[Cancer]]
+- New links added: [[Induced Pluripotent Stem Cells]], [[Embryonic Stem Cells]], [[Pluripotency]], [[notes/_link/Cancer]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Pluripotency]] ↔ [[Teratoma]]

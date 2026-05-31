@@ -5,7 +5,7 @@
 ## Overview
 - Catalyzed by: [[Histone Acetyltransferase]] (HAT)
 - Removed by: [[Histone Deacetylase]] (HDAC)
-- Impact on aging: Changes in acetylation levels (e.g., [[SIRT1]] activity) are linked to longevity and age-related decline.
+- Impact on aging: Changes in acetylation levels (e.g., [[notes/_link/SIRT1]] activity) are linked to longevity and age-related decline.
 
 ## Related
 - [[Epigenetics]]

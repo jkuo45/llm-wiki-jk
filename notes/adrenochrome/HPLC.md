@@ -3,10 +3,10 @@
 **HPLC** (High-Performance Liquid Chromatography) is a technique in analytical chemistry used to separate, identify, and quantify each component in a mixture.
 
 ## Use in Adrenochrome Research
-HPLC is the primary analytical method used to monitor the degradation of [[Epinephrine]] and to quantify the levels of [[Leuco-adrenochrome]] and [[Adrenochrome]] in pharmaceutical formulations.
+HPLC is the primary analytical method used to monitor the degradation of [[notes/_link/Epinephrine]] and to quantify the levels of [[Leuco-adrenochrome]] and [[Adrenochrome]] in pharmaceutical formulations.
 
 ## Connections
 - [[Reference standard]]
 - [[Impurity marker]]
 - [[Quality Control]]
-- [[Epinephrine]]
+- [[notes/_link/Epinephrine]]

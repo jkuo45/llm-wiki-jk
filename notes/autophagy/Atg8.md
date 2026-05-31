@@ -1,6 +1,6 @@
 # Atg8
 
-**Atg8** (Autophagy-related 8) is a ubiquitin-like protein that plays a central role in the formation and maturation of [[Autophagosome|autophagosomes]] during [[Autophagy]].
+**Atg8** (Autophagy-related 8) is a ubiquitin-like protein that plays a central role in the formation and maturation of [[Autophagosome|autophagosomes]] during [[notes/_link/Autophagy]].
 
 ## Mammalian Orthologs
 - In mammals, the Atg8 family includes [[LC3]] (A, B, and C forms) and [[GABARAP]]/[[GATE-16]] proteins.
@@ -14,6 +14,6 @@
 - Its processing and lipidation are mediated by a cascade involving [[Atg4]], [[Atg7]], and [[Atg3]].
 
 ### Linking Summary:
-- New links added: [[Autophagosome]], [[Autophagy]], [[LC3]], [[GABARAP]], [[GATE-16]], [[p62]], [[Lysosome]], [[Atg4]], [[Atg7]], [[Atg3]]
+- New links added: [[Autophagosome]], [[notes/_link/Autophagy]], [[LC3]], [[GABARAP]], [[GATE-16]], [[p62]], [[Lysosome]], [[Atg4]], [[Atg7]], [[Atg3]]
 - Suggested new entity notes to create: [[Autophagosome]], [[LC3]], [[p62]], [[Lysosome]], [[Atg7]]
 - Strong connections to strengthen: [[Atg8]] ↔ [[LC3]], [[Atg8]] ↔ [[Autophagosome]]

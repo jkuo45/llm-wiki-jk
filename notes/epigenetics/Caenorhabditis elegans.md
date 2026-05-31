@@ -8,5 +8,5 @@
 
 ## Related
 - [[Model Organisms]]
-- [[Aging]]
+- [[notes/_link/Aging]]
 - [[IGF-1]]

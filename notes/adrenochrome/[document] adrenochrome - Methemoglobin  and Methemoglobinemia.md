@@ -14,7 +14,7 @@ research [[Methemoglobin]]
 
 Pathophysiology
 
-[[Hemoglobin]] is a tetramer (2α and 2β chains, each with a heme group containing iron). When iron oxidizes to Fe³⁺, that subunit cannot carry oxygen, and it causes a left shift in the [[oxygen-dissociation curve]] of the remaining normal [[hemoglobin]], impairing oxygen release to tissues. This creates a functional anemia despite normal or near-normal total [[hemoglobin]] levels. Elevated levels lead to [[methemoglobinemia]], reducing oxygen delivery and potentially causing tissue [[hypoxia]].
+[[Hemoglobin]] is a tetramer (2α and 2β chains, each with a heme group containing iron). When iron oxidizes to Fe³⁺, that subunit cannot carry oxygen, and it causes a left shift in the [[oxygen-dissociation curve]] of the remaining normal [[hemoglobin]], impairing oxygen release to tissues. This creates a functional anemia despite normal or near-normal total [[hemoglobin]] levels. Elevated levels lead to [[methemoglobinemia]], reducing oxygen delivery and potentially causing tissue [[notes/_link/Hypoxia]].
 
 Normal Levels and Symptom Thresholds
 
@@ -43,7 +43,7 @@ Congenital forms are present from birth (or appear in infancy) and are rarer tha
 2\. Acquired [[Methemoglobinemia]] (Much More Common)
 
 Triggered by exposure to oxidizing agents that overwhelm the body's reducing systems. Common culprits include:
-- Medications: [[Dapsone]] (very common, especially chronic use), topical/local anesthetics ([[benzocaine]], [[prilocaine]], [[lidocaine]]), antimalarials ([[chloroquine]]), [[rasburicase]], inhaled [[nitric oxide]].
+- Medications: [[Dapsone]] (very common, especially chronic use), topical/local anesthetics ([[benzocaine]], [[prilocaine]], [[lidocaine]]), antimalarials ([[chloroquine]]), [[rasburicase]], inhaled [[notes/_link/Nitric Oxide]].
 - Chemicals/Nitrates/Nitrites: [[Amyl nitrite]]/[[isobutyl nitrite]] ("poppers"), [[sodium nitrite]] (suicide attempts or contaminated food), [[aniline dyes]], [[nitrobenzene]].
 - Others: Infections/sepsis (in some cases), well water nitrates (in infants — "[[blue baby syndrome]]"), certain foods or environmental exposures.
 Acquired cases can be acute and severe, especially with high-dose or combined exposures.
@@ -61,8 +61,8 @@ Treatment
 1. Remove the offending agent (stop the drug/chemical).
 2. Supplemental oxygen.
 3. [[Methylene blue]] (first-line for symptomatic or high-level cases): 1–2 mg/kg IV over 5 minutes. It acts as a cofactor to enhance NADPH-methemoglobin reductase pathway, reducing MetHb back to [[hemoglobin]]. Repeat if needed. Avoid or use cautiously in [[G6PD deficiency]] (risk of [[hemolysis]]).
-4. Alternatives/adjuncts: [[Ascorbic acid]] (vitamin C), especially if [[methylene blue]] contraindicated; [[exchange transfusion]] or [[hyperbaric oxygen]] in severe/refractory cases.
-5. For chronic congenital cases: Oral [[methylene blue]] or [[ascorbic acid]] for cosmetic improvement ([[cyanosis]]).
+4. Alternatives/adjuncts: [[notes/_link/Ascorbic Acid]] (vitamin C), especially if [[methylene blue]] contraindicated; [[exchange transfusion]] or [[hyperbaric oxygen]] in severe/refractory cases.
+5. For chronic congenital cases: Oral [[methylene blue]] or [[notes/_link/Ascorbic Acid]] for cosmetic improvement ([[cyanosis]]).
 Most acquired cases respond well if treated promptly. [[Dapsone]]-related cases are often managed by dose reduction/discontinuation rather than always using [[methylene blue]].
 
 [sciencedirect.com](https://www.sciencedirect.com/science/article/pii/S2214750024000283)
@@ -76,6 +76,6 @@ Prognosis and Notes
 [[Methemoglobinemia]] is well-understood in medicine, with reliable diagnostic and therapeutic approaches. For personalized medical advice, consult a healthcare professional (e.g., toxicologist or hematologist). Sources include Wikipedia, NCBI StatPearls, Cleveland Clinic, Medscape, and UpToDate summaries.
 
 ### Linking Summary:
-- New links added: [[Methemoglobin]], [[hemoglobin]], [[NADH-dependent methemoglobin reductase]], [[cytochrome b5 reductase]], [[diaphorase]], [[oxygen-dissociation curve]], [[methemoglobinemia]], [[hypoxia]], [[Cyanosis]], [[Pulse oximetry]], [[arterial blood gas]], [[Co-oximetry]], [[erythrocyte]], [[Hemoglobin M]], [[Dapsone]], [[benzocaine]], [[prilocaine]], [[lidocaine]], [[chloroquine]], [[rasburicase]], [[nitric oxide]], [[Amyl nitrite]], [[isobutyl nitrite]], [[sodium nitrite]], [[aniline dyes]], [[nitrobenzene]], [[blue baby syndrome]], [[Methylene blue]], [[G6PD deficiency]], [[hemolysis]], [[Ascorbic acid]], [[exchange transfusion]], [[hyperbaric oxygen]], [[ABG]].
-- Suggested new entity notes to create: [[Hemoglobin]], [[NADH-dependent methemoglobin reductase]], [[Cytochrome b5 reductase]], [[Diaphorase]], [[Oxygen-dissociation curve]], [[Hypoxia]], [[Cyanosis]], [[Pulse oximetry]], [[Arterial blood gas]], [[Co-oximetry]], [[Hemoglobin M]], [[Dapsone]], [[Benzocaine]], [[Prilocaine]], [[Lidocaine]], [[Chloroquine]], [[Rasburicase]], [[Nitric oxide]], [[Amyl nitrite]], [[Isobutyl nitrite]], [[Sodium nitrite]], [[Aniline dyes]], [[Nitrobenzene]], [[Blue baby syndrome]], [[Methylene blue]], [[G6PD deficiency]], [[Hemolysis]], [[Exchange transfusion]], [[Hyperbaric oxygen]], [[ABG]].
+- New links added: [[Methemoglobin]], [[hemoglobin]], [[NADH-dependent methemoglobin reductase]], [[cytochrome b5 reductase]], [[diaphorase]], [[oxygen-dissociation curve]], [[methemoglobinemia]], [[notes/_link/Hypoxia]], [[Cyanosis]], [[Pulse oximetry]], [[arterial blood gas]], [[Co-oximetry]], [[erythrocyte]], [[Hemoglobin M]], [[Dapsone]], [[benzocaine]], [[prilocaine]], [[lidocaine]], [[chloroquine]], [[rasburicase]], [[notes/_link/Nitric Oxide]], [[Amyl nitrite]], [[isobutyl nitrite]], [[sodium nitrite]], [[aniline dyes]], [[nitrobenzene]], [[blue baby syndrome]], [[Methylene blue]], [[G6PD deficiency]], [[hemolysis]], [[notes/_link/Ascorbic Acid]], [[exchange transfusion]], [[hyperbaric oxygen]], [[ABG]].
+- Suggested new entity notes to create: [[Hemoglobin]], [[NADH-dependent methemoglobin reductase]], [[Cytochrome b5 reductase]], [[Diaphorase]], [[Oxygen-dissociation curve]], [[notes/_link/Hypoxia]], [[Cyanosis]], [[Pulse oximetry]], [[Arterial blood gas]], [[Co-oximetry]], [[Hemoglobin M]], [[Dapsone]], [[Benzocaine]], [[Prilocaine]], [[Lidocaine]], [[Chloroquine]], [[Rasburicase]], [[notes/_link/Nitric Oxide]], [[Amyl nitrite]], [[Isobutyl nitrite]], [[Sodium nitrite]], [[Aniline dyes]], [[Nitrobenzene]], [[Blue baby syndrome]], [[Methylene blue]], [[G6PD deficiency]], [[Hemolysis]], [[Exchange transfusion]], [[Hyperbaric oxygen]], [[ABG]].
 - Strong connections to strengthen: [[Methemoglobin]] ↔ [[Methemoglobinemia]]

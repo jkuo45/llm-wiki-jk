@@ -8,7 +8,7 @@
 *   **Structural Support**: Constitutive heterochromatin is found at the centromeres and telomeres, providing mechanical strength to chromosomes during cell division.
 
 ### 2. The "Heterochromatin Loss Model of Aging"
-One of the earliest and most influential theories in [[Epigenetics]] is that [[Aging]] is driven by the progressive loss of heterochromatin.
+One of the earliest and most influential theories in [[Epigenetics]] is that [[notes/_link/Aging]] is driven by the progressive loss of heterochromatin.
 *   **"Relaxation"**: As cells age, tightly packed regions begin to unravel and become more like [[Euchromatin]].
 *   **Consequences**: This leads to the inappropriate activation of repetitive elements and pro-aging genes, driving inflammation and cellular decline.
 
@@ -19,9 +19,9 @@ Heterochromatin is typically marked by specific [[Histone Modification|histone m
 - **[[Chromatin]]**: The general complex of DNA and protein.
 - **[[Euchromatin]]**: The open, active counterpart to heterochromatin.
 - **[[Genomic Instability]]**: A consequence of heterochromatin loss.
-- **[[Aging]]**: Aging is characterized by a global reduction in heterochromatin levels.
+- **[[notes/_link/Aging]]**: Aging is characterized by a global reduction in heterochromatin levels.
 
 ### Linking Summary:
-- New links added: [[Heterochromatin]], [[Chromatin]], [[Transposable Elements]], [[LINE-1]], [[Genomic Instability]], [[Epigenetics]], [[Aging]], [[Euchromatin]], [[Histone Modification]], [[Histone Deacetylase]], [[Histone Methyltransferase]]
+- New links added: [[Heterochromatin]], [[Chromatin]], [[Transposable Elements]], [[LINE-1]], [[Genomic Instability]], [[Epigenetics]], [[notes/_link/Aging]], [[Euchromatin]], [[Histone Modification]], [[Histone Deacetylase]], [[Histone Methyltransferase]]
 - Suggested new entity notes to create: [[Constitutive Heterochromatin]], [[Facultative Heterochromatin]], [[H3K9me3]]
-- Strong connections to strengthen: [[Heterochromatin]] ↔ [[Aging]], [[Heterochromatin]] ↔ [[Euchromatin]]
+- Strong connections to strengthen: [[Heterochromatin]] ↔ [[notes/_link/Aging]], [[Heterochromatin]] ↔ [[Euchromatin]]

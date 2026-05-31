@@ -7,5 +7,5 @@
 
 ## Related
 - [[Histone Acetylation]]
-- [[Autophagy]]
+- [[notes/_link/Autophagy]]
 - [[Sirtuin]]

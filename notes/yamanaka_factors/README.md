@@ -1,6 +1,6 @@
 # Yamanaka Factors
 
-This directory contains notes and research regarding [[Yamanaka Factors]] (OSKM: [[Oct4]], [[Sox2]], [[Klf4]], and [[c-Myc]]), their discovery by [[Shinya Yamanaka]], role in cellular reprogramming of [[Somatic Cells]] into [[Induced Pluripotent Stem Cells]] (iPSCs), partial reprogramming techniques, and applications in regenerative medicine, disease modeling, rejuvenation, and treatment of age-related and [[Neurodegenerative Diseases]]. Special focus is placed on their mechanisms, safety concerns (including [[Cancer]] risk and [[Teratoma]] formation), epigenetic resetting, and emerging uses in [[Partial Reprogramming]] for [[Rejuvenation]].
+This directory contains notes and research regarding [[Yamanaka Factors]] (OSKM: [[Oct4]], [[Sox2]], [[Klf4]], and [[c-Myc]]), their discovery by [[Shinya Yamanaka]], role in cellular reprogramming of [[Somatic Cells]] into [[Induced Pluripotent Stem Cells]] (iPSCs), partial reprogramming techniques, and applications in regenerative medicine, disease modeling, rejuvenation, and treatment of age-related and [[notes/_link/Neurodegenerative Diseases]]. Special focus is placed on their mechanisms, safety concerns (including [[notes/_link/Cancer]] risk and [[Teratoma]] formation), epigenetic resetting, and emerging uses in [[Partial Reprogramming]] for [[Rejuvenation]].
 
 
 ## Maintenance
@@ -10,9 +10,9 @@ This directory contains notes and research regarding [[Yamanaka Factors]] (OSKM:
 
 | entity | datetime updated | entity_type_1 |
 | :--- | :---: | :--- |
-| [[Alzheimer's Disease]] | 25_May_2026 05:23 PM | Medical Condition |
-| [[Amyotrophic Lateral Sclerosis]] | 25_May_2026 05:23 PM | Medical Condition |
-| [[Apoptosis]] | 25_May_2026 05:23 PM | Biological Process |
+| [[notes/_link/Alzheimer's Disease]] | 25_May_2026 05:23 PM | Medical Condition |
+| [[notes/_link/Amyotrophic Lateral Sclerosis]] | 25_May_2026 05:23 PM | Medical Condition |
+| [[notes/_link/Apoptosis]] | 25_May_2026 05:23 PM | Biological Process |
 | [[Assembloids]] | 28_May_2026 09:05 AM | Biological Process |
 | [[B18R]] | 25_May_2026 05:23 PM | Protein |
 | [[BIG1]] | 25_May_2026 05:23 PM | Protein |
@@ -22,12 +22,12 @@ This directory contains notes and research regarding [[Yamanaka Factors]] (OSKM:
 | [[CDH2]] | 28_May_2026 09:05 AM | Protein |
 | [[CHD4]] | 25_May_2026 05:23 PM | Protein |
 | [[CRISPR]] | 28_May_2026 09:05 AM | Analytical Technique |
-| [[Cancer]] | 25_May_2026 05:23 PM | Medical Condition |
+| [[notes/_link/Cancer]] | 25_May_2026 05:23 PM | Medical Condition |
 | [[Cellular Reprogramming]] | 28_May_2026 09:07 AM | Biological Process |
-| [[DNA Damage]] | 25_May_2026 05:23 PM | Biological Process |
+| [[notes/_link/DNA Damage]] | 25_May_2026 05:23 PM | Biological Process |
 | [[Differentiation]] | 28_May_2026 09:05 AM | Biological Process |
 | [[Disease Modeling]] | 28_May_2026 09:06 AM | Scientific Concept |
-| [[Dopaminergic Neurons]] | 25_May_2026 05:23 PM | Cell Type |
+| [[notes/_link/Dopaminergic Neurons]] | 25_May_2026 05:23 PM | Cell Type |
 | [[Drug Discovery]] | 28_May_2026 09:09 AM | Scientific Concept |
 | [[Dyskinesia]] | 28_May_2026 09:05 AM | Symptom |
 | [[Embryonic Stem Cells]] | 25_May_2026 05:23 PM | Cell Type |
@@ -54,24 +54,24 @@ This directory contains notes and research regarding [[Yamanaka Factors]] (OSKM:
 | [[Mesenchymal Stromal Cells]] | 25_May_2026 05:23 PM | Cell Type |
 | [[Mesenchymal-to-Epithelial Transition]] | 25_May_2026 05:23 PM | Biological Process |
 | [[Nanog]] | 25_May_2026 05:23 PM | Protein |
-| [[Neurodegenerative Diseases]] | 25_May_2026 05:23 PM | Medical Condition |
+| [[notes/_link/Neurodegenerative Diseases]] | 25_May_2026 05:23 PM | Medical Condition |
 | [[NuRD complex]] | 25_May_2026 05:23 PM | Protein |
 | [[OSKM]] | 25_May_2026 05:23 PM | Protein |
 | [[Oct4]] | 25_May_2026 05:23 PM | Protein |
 | [[Olivopontocerebellar Atrophy]] | 25_May_2026 05:23 PM | Medical Condition |
 | [[Organoids]] | 28_May_2026 09:05 AM | Biological Process |
 | [[PODXL]] | 25_May_2026 05:23 PM | Protein |
-| [[Parkinson's Disease]] | 25_May_2026 05:23 PM | Medical Condition |
+| [[notes/_link/Parkinson's Disease]] | 25_May_2026 05:23 PM | Medical Condition |
 | [[Partial Reprogramming]] | 25_May_2026 05:23 PM | Biological Process |
 | [[Pluripotency]] | 25_May_2026 05:23 PM | Biological Process |
-| [[Reactive Oxygen Species]] | 25_May_2026 05:23 PM | Biological Molecule |
+| [[notes/_link/Reactive Oxygen Species]] | 25_May_2026 05:23 PM | Biological Molecule |
 | [[Regenerative Medicine]] | 25_May_2026 05:23 PM | Scientific Concept |
 | [[Rejuvenation]] | 25_May_2026 05:23 PM | Biological Process |
 | [[Retinal Pigment Epithelium]] | 28_May_2026 09:05 AM | Cell Type |
 | [[SOX gene family]] | 28_May_2026 09:06 AM | Gene |
 | [[Satellite Cells]] | 25_May_2026 05:23 PM | Cell Type |
-| [[Schizophrenia]] | 25_May_2026 05:23 PM | Medical Condition |
-| [[Senescence]] | 25_May_2026 05:23 PM | Biological Process |
+| [[notes/_link/Schizophrenia]] | 25_May_2026 05:23 PM | Medical Condition |
+| [[notes/_link/Senescence]] | 25_May_2026 05:23 PM | Biological Process |
 | [[Shinya Yamanaka]] | 25_May_2026 05:23 PM | Person |
 | [[Slug]] | 28_May_2026 09:05 AM | Protein |
 | [[Snail]] | 28_May_2026 09:05 AM | Protein |
@@ -92,4 +92,4 @@ This directory contains notes and research regarding [[Yamanaka Factors]] (OSKM:
 | [[Zeb1]] | 28_May_2026 09:06 AM | Protein |
 | [[c-Myc]] | 25_May_2026 05:23 PM | Protein |
 | [[let-7 microRNA]] | 28_May_2026 09:05 AM | Biological Molecule |
-| [[p53]] | 28_May_2026 09:09 AM | Protein |
+| [[notes/_link/p53]] | 28_May_2026 09:09 AM | Protein |

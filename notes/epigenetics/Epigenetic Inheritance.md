@@ -9,5 +9,5 @@
 
 ## Related
 - [[Epigenetics]]
-- [[Aging]]
+- [[notes/_link/Aging]]
 - [[Transgenerational Epigenetic Inheritance]]

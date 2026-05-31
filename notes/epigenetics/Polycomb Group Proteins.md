@@ -7,9 +7,9 @@
 - Essential for developmental regulation and maintaining cell identity.
 
 ## Link to Aging
-- Changes in PcG-mediated silencing are observed during aging and in [[Cancer]].
+- Changes in PcG-mediated silencing are observed during aging and in [[notes/_link/Cancer]].
 
 ## Related
 - [[Epigenetics]]
 - [[Histone Methylation]]
-- [[Cancer]]
+- [[notes/_link/Cancer]]

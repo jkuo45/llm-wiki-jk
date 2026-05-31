@@ -8,9 +8,9 @@ In the context of [[Yamanaka Factors]], research has used [[OSKM]] factors to ge
 - [[Rejuvenation]]: Research on HGPS provides insights into the mechanisms of aging and potential rejuvenation therapies.
 - [[Partial Reprogramming]]: A key therapeutic approach being explored for HGPS.
 - [[Yamanaka Factors]]: The tools used to induce cellular changes in HGPS models.
-- [[DNA Damage]]: HGPS is characterized by significant genomic instability and DNA damage.
+- [[notes/_link/DNA Damage]]: HGPS is characterized by significant genomic instability and DNA damage.
 
 ### Linking Summary:
-- New links added: [[Rejuvenation]], [[Partial Reprogramming]], [[Yamanaka Factors]], [[OSKM]], [[DNA Damage]]
+- New links added: [[Rejuvenation]], [[Partial Reprogramming]], [[Yamanaka Factors]], [[OSKM]], [[notes/_link/DNA Damage]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Partial Reprogramming]] ↔ [[Hutchinson-Gilford Progeria Syndrome]]

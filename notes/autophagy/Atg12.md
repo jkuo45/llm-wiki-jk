@@ -1,6 +1,6 @@
 # Atg12
 
-**Atg12** (Autophagy-related 12) is a ubiquitin-like protein essential for the initiation and progression of [[Autophagy]].
+**Atg12** (Autophagy-related 12) is a ubiquitin-like protein essential for the initiation and progression of [[notes/_link/Autophagy]].
 
 ## Conjugation System
 - Atg12 is covalently conjugated to [[Atg5]] in a process requiring [[Atg7]] (E1-like enzyme) and Atg10 (E2-like enzyme).
@@ -12,6 +12,6 @@
 - Once the autophagosome is completed, the complex dissociates from the membrane.
 
 ### Linking Summary:
-- New links added: [[Autophagy]], [[Atg5]], [[Atg7]], [[Atg16]], [[LC3]], [[Atg8]], [[Autophagosome]]
+- New links added: [[notes/_link/Autophagy]], [[Atg5]], [[Atg7]], [[Atg16]], [[LC3]], [[Atg8]], [[Autophagosome]]
 - Suggested new entity notes to create: [[Atg5]], [[Atg7]], [[Atg16]], [[LC3]], [[Autophagosome]]
 - Strong connections to strengthen: [[Atg12]] ↔ [[Atg5]], [[Atg12]] ↔ [[LC3]]

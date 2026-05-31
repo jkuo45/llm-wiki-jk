@@ -1,16 +1,16 @@
 # Catalase
 
 ## Definition
-Catalase is a common enzyme found in nearly all living organisms exposed to oxygen. It catalyzes the decomposition of [[Hydrogen Peroxide]] to water and oxygen.
+Catalase is a common enzyme found in nearly all living organisms exposed to oxygen. It catalyzes the decomposition of [[notes/_link/Hydrogen Peroxide]] to water and oxygen.
 
 ## Function
-It is a very important enzyme in protecting the cell from oxidative damage by [[Reactive Oxygen Species]] (ROS).
+It is a very important enzyme in protecting the cell from oxidative damage by [[notes/_link/Reactive Oxygen Species]] (ROS).
 
 ## Connections
-- [[Hydrogen Peroxide]]
-- [[Oxidative Stress]]
+- [[notes/_link/Hydrogen Peroxide]]
+- [[notes/_link/Oxidative Stress]]
 
 ### Linking Summary:
-- New links added: [[Hydrogen Peroxide]], [[Reactive Oxygen Species]], [[Oxidative Stress]]
+- New links added: [[notes/_link/Hydrogen Peroxide]], [[notes/_link/Reactive Oxygen Species]], [[notes/_link/Oxidative Stress]]
 - Suggested new entity notes to create: [[Enzyme]], [[Oxidative damage]]
-- Strong connections to strengthen: [[Catalase]] ↔ [[Hydrogen Peroxide]]
+- Strong connections to strengthen: [[Catalase]] ↔ [[notes/_link/Hydrogen Peroxide]]

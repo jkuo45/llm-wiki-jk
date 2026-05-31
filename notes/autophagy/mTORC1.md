@@ -1,8 +1,7 @@
 # mTORC1
-
-Mechanistic target of rapamycin complex 1 (mTORC1) is a nutrient-sensitive protein kinase complex that negatively regulates [[Autophagy]] and promotes protein synthesis and cell growth.
+Mechanistic target of rapamycin complex 1 (mTORC1) is a nutrient-sensitive protein kinase complex that serves as a master regulator of [[cell growth]] and metabolism by promoting [[protein synthesis]], [[lipid synthesis]], and [[ribosome biogenesis]], while inhibiting catabolic processes such as [[autophagy]].
 
 ### Linking Summary:
-- New links added: [[Autophagy]]
-- Suggested new entity notes to create: [[AMPK]], [[Rapamycin]]
-- Strong connections to strengthen: [[mTORC1]] ↔ [[ULK1]]
+- New links added: [[mTOR]], [[Raptor]], [[mLST8]], [[PRAS40]], [[Deptor]], [[cell growth]], [[protein synthesis]], [[lipid synthesis]], [[ribosome biogenesis]], [[autophagy]], [[Rheb]], [[Rag proteins]], [[AMPK]], [[TSC1]], [[TSC2]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[mTORC1]] ↔ [[mTORC2]], [[mTORC1]] ↔ [[autophagy]], [[mTORC1]] ↔ [[TSC2]]

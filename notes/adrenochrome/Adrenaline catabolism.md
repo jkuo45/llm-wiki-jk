@@ -1,11 +1,11 @@
 # Adrenaline catabolism
 
-The metabolic process by which [[Epinephrine|adrenaline]] is broken down in the body.
+The metabolic process by which [[notes/_link/Epinephrine|adrenaline]] is broken down in the body.
 
 ### Connections
-- [[Neutrophils]]: Actively oxidize [[Epinephrine|adrenaline]] to [[Adrenochrome]] as a pathway for catabolism.
+- [[notes/_link/Neutrophils]]: Actively oxidize [[notes/_link/Epinephrine|adrenaline]] to [[Adrenochrome]] as a pathway for catabolism.
 - [[MAO]]: Enzyme involved in the breakdown of [[Catecholamines]].
-- [[COMT]]: Enzyme involved in the breakdown of [[Catecholamines]].
+- [[notes/_link/COMT]]: Enzyme involved in the breakdown of [[Catecholamines]].
 
 ### Linking Summary:
-- New links added: [[Epinephrine]], [[Neutrophils]], [[Adrenochrome]], [[MAO]], [[COMT]], [[Catecholamines]]
+- New links added: [[notes/_link/Epinephrine]], [[notes/_link/Neutrophils]], [[Adrenochrome]], [[MAO]], [[notes/_link/COMT]], [[Catecholamines]]

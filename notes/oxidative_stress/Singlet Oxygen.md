@@ -13,11 +13,11 @@ Singlet oxygen ($^1O_2$) is an electronically excited state of molecular oxygen.
 - **Genotoxicity:** Can cause DNA damage, though less common than other ROS.
 
 ## Connections
-- [[oxidative_stress/Reactive Oxygen Species]]: A member of the ROS family.
+- [[notes/_link/Reactive Oxygen Species]]: A member of the ROS family.
 - [[Alpha-Lipoic Acid]]: Can act as a scavenger for singlet oxygen.
-- [[Vitamin E]]: Provides protection against singlet oxygen in lipid environments.
+- [[notes/_link/Vitamin E]]: Provides protection against singlet oxygen in lipid environments.
 
 ### Linking Summary:
-- New links added: [[oxidative_stress/Reactive Oxygen Species]], [[Alpha-Lipoic Acid]], [[Vitamin E]]
-- Suggested new entity notes to create: [[Photosensitization]], [[Myeloperoxidase]]
-- Strong connections to strengthen: [[Singlet Oxygen]] ↔ [[Vitamin E]]
+- New links added: [[notes/_link/Reactive Oxygen Species]], [[Alpha-Lipoic Acid]], [[notes/_link/Vitamin E]]
+- Suggested new entity notes to create: [[Photosensitization]], [[notes/_link/Myeloperoxidase]]
+- Strong connections to strengthen: [[Singlet Oxygen]] ↔ [[notes/_link/Vitamin E]]

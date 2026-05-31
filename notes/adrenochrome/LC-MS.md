@@ -8,5 +8,5 @@ It is used for the highly sensitive and specific identification of catecholamine
 ## Connections
 - [[HPLC]]
 - [[Mass Spectrometry]]
-- [[Epinephrine]]
+- [[notes/_link/Epinephrine]]
 - [[Leuco-adrenochrome]]

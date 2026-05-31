@@ -1,16 +1,16 @@
 # Substantia Nigra Pars Compacta
 
-The [[Substantia Nigra Pars Compacta]] (SNpc) is a specific portion of the [[Substantia Nigra]] characterized by a high density of dopamine-producing neurons.
+The [[Substantia Nigra Pars Compacta]] (SNpc) is a specific portion of the [[notes/_link/Substantia Nigra]] characterized by a high density of dopamine-producing neurons.
 
 ## Anatomy and Appearance
-Neurons in the SNpc are heavily pigmented with [[Neuromelanin]], which gives the structure a dark appearance to the naked eye. These neurons project their axons primarily to the [[Striatum]], forming the [[Nigrostriatal System]].
+Neurons in the SNpc are heavily pigmented with [[notes/_link/Neuromelanin]], which gives the structure a dark appearance to the naked eye. These neurons project their axons primarily to the [[Striatum]], forming the [[Nigrostriatal System]].
 
 ## Role in Parkinson's Disease
-The SNpc is the primary site of neurodegeneration in [[Parkinson's Disease]].
+The SNpc is the primary site of neurodegeneration in [[notes/_link/Parkinson's Disease]].
 - **Selective Loss:** For reasons not fully understood, the neuromelanin-containing neurons of the SNpc are uniquely susceptible to the pathological processes of PD.
 - **Diagnostic Pathology:** A significant loss of pigmented neurons in the SNpc is the cardinal pathological diagnostic criterion for PD.
 
 ### Linking Summary:
-- New links added: [[Substantia Nigra]], [[Neuromelanin]], [[Striatum]], [[Nigrostriatal System]], [[Parkinson's Disease]].
-- Suggested new entity notes to create: [[Basal Ganglia]], [[Dopaminergic Neurons]].
-- Strong connections to strengthen: [[Substantia Nigra Pars Compacta]] ↔ [[Parkinson's Disease]].
+- New links added: [[notes/_link/Substantia Nigra]], [[notes/_link/Neuromelanin]], [[Striatum]], [[Nigrostriatal System]], [[notes/_link/Parkinson's Disease]].
+- Suggested new entity notes to create: [[Basal Ganglia]], [[notes/_link/Dopaminergic Neurons]].
+- Strong connections to strengthen: [[Substantia Nigra Pars Compacta]] ↔ [[notes/_link/Parkinson's Disease]].

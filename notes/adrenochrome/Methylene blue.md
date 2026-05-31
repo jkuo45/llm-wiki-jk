@@ -5,4 +5,4 @@
 ## Connections
 - [[Methemoglobinemia]]: Treated with IV methylene blue.
 - [[G6PD deficiency]]: Methylene blue should be used cautiously or avoided due to the risk of inducing [[Hemolysis]].
-- [[Ascorbic Acid]]: An alternative treatment when methylene blue is contraindicated.
+- [[notes/_link/Ascorbic Acid]]: An alternative treatment when methylene blue is contraindicated.

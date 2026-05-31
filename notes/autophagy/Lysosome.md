@@ -1,6 +1,6 @@
 # Lysosome
 
-The **Lysosome** is a membrane-bound organelle containing acidic hydrolases responsible for the degradation and recycling of cellular waste. It is the endpoint for all [[Autophagy]] pathways.
+The **Lysosome** is a membrane-bound organelle containing acidic hydrolases responsible for the degradation and recycling of cellular waste. It is the endpoint for all [[notes/_link/Autophagy]] pathways.
 
 ## Role in Autophagy
 - **[[Macroautophagy]]**: Fuses with [[Autophagosome|autophagosomes]] to degrade sequestered cargo.
@@ -13,9 +13,9 @@ The **Lysosome** is a membrane-bound organelle containing acidic hydrolases resp
 
 ## Homeostasis and Stress
 - Lysosomal health is critical for maintaining [[Cellular Homeostasis]].
-- Lysosomal dysfunction is a hallmark of [[Aging]] and various [[Metabolic Disease|metabolic]] and [[Neurodegenerative Disease|neurodegenerative diseases]].
+- Lysosomal dysfunction is a hallmark of [[notes/_link/Aging]] and various [[Metabolic Disease|metabolic]] and [[Neurodegenerative Disease|neurodegenerative diseases]].
 
 ### Linking Summary:
-- New links added: [[Autophagy]], [[Macroautophagy]], [[Autophagosome]], [[Microautophagy]], [[Chaperone-Mediated Autophagy]], [[LAMP-2A]], [[Cellular Homeostasis]], [[Aging]], [[Metabolic Disease]], [[Neurodegenerative Disease]]
+- New links added: [[notes/_link/Autophagy]], [[Macroautophagy]], [[Autophagosome]], [[Microautophagy]], [[Chaperone-Mediated Autophagy]], [[LAMP-2A]], [[Cellular Homeostasis]], [[notes/_link/Aging]], [[Metabolic Disease]], [[Neurodegenerative Disease]]
 - Suggested new entity notes to create: [[Macroautophagy]], [[Autophagosome]], [[Microautophagy]], [[Chaperone-Mediated Autophagy]], [[LAMP-2A]], [[Cellular Homeostasis]]
-- Strong connections to strengthen: [[Lysosome]] ↔ [[Autophagy]], [[Lysosome]] ↔ [[Autophagosome]]
+- Strong connections to strengthen: [[Lysosome]] ↔ [[notes/_link/Autophagy]], [[Lysosome]] ↔ [[Autophagosome]]

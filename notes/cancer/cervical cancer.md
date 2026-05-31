@@ -4,7 +4,7 @@
 
 ## Research with Bee Venom and Ivermectin
 - Both [[Honeybee venom|honeybee venom]] and [[melittin]] have demonstrated antitumoral effects in cervical cancer. Synergy has been observed between honeybee venom and [[cisplatin]] in treating cervical malignancies.
-- [[Ivermectin]] significantly inhibits the proliferation and migration of HeLa (cervical cancer) cells. It induces G1/S phase cell cycle arrest and [[apoptosis]] via the mitochondrial pathway.
+- [[Ivermectin]] significantly inhibits the proliferation and migration of HeLa (cervical cancer) cells. It induces G1/S phase cell cycle arrest and [[notes/_link/Apoptosis]] via the mitochondrial pathway.
 
 ## Connections
 - [[melittin]]: Active against cervical cancer cells.
