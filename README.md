@@ -1,20 +1,20 @@
 # llm-wiki-jk
-last updated: 29_May_2026 08:21 AM  
+last updated: 30_May_2026 07:41 PM  
 
 ## topics (notes directory)
 
 | topic | last updated | count entities | count documents |
 | :--- | :--- | :---: | :---: |
-| _link | 29_May_2026 | 54 | 0 |
-| adrenochrome | 29_May_2026 | 122 | 11 |
-| autism | 28_May_2026 | 0 | 2 |
-| autophagy | 29_May_2026 | 67 | 3 |
-| cancer | 29_May_2026 | 115 | 5 |
-| comt | 29_May_2026 | 49 | 2 |
-| epigenetics | 29_May_2026 | 87 | 2 |
-| neuromelanin | 29_May_2026 | 19 | 1 |
-| oxidative_stress | 29_May_2026 | 47 | 1 |
-| yamanaka_factors | 29_May_2026 | 71 | 3 |
+| _link | 30_May_2026 | 55 | 0 |
+| adrenochrome | 30_May_2026 | 159 | 11 |
+| autism | 30_May_2026 | 79 | 4 |
+| autophagy | 30_May_2026 | 106 | 4 |
+| cancer | 29_May_2026 | 127 | 5 |
+| comt | 29_May_2026 | 62 | 2 |
+| epigenetics | 29_May_2026 | 108 | 2 |
+| neuromelanin | 29_May_2026 | 27 | 1 |
+| oxidative_stress | 29_May_2026 | 73 | 1 |
+| yamanaka_factors | 29_May_2026 | 83 | 3 |
 
 
 ---
@@ -33,11 +33,14 @@ last updated: 29_May_2026 08:21 AM
 | adrenochrome | 25_May_2026 | notes/adrenochrome/[document] adrenochrome - molecular composition, mechanism.md | 7418 |
 | adrenochrome | 29_May_2026 | notes/adrenochrome/[document] adrenochrome - neutrophil and erthrocyte.md | 781 |
 | adrenochrome | 29_May_2026 | notes/adrenochrome/[document] adrenocrhome - neutrophils role in adrenochrome production.md | 72 |
-| autism | 25_May_2026 | notes/autism/[document] Autism spectrum disorder definition, epidemiology, causes, and clinical evaluation.md | 6906 |
-| autism | 25_May_2026 | notes/autism/[document] Prevalence and Early Identification of Autism Spectrum ....md | 12724 |
+| autism | 30_May_2026 | notes/autism/[document] Autism spectrum disorder definition, epidemiology, causes, and clinical evaluation.md | 4564 |
+| autism | 30_May_2026 | notes/autism/[document] Digitally Diagnosing Multiple Developmental Delays Using Crowdsourcing Fused With Machine Learning Protocol for a Human-in-the-Loop Machine Learning Study.md | 8856 |
+| autism | 30_May_2026 | notes/autism/[document] Multi-modular AI Approach to Streamline Autism Diagnosis in Young Children.md | 6178 |
+| autism | 30_May_2026 | notes/autism/[document] Prevalence and Early Identification of Autism Spectrum ....md | 12724 |
 | autophagy | 29_May_2026 | notes/autophagy/[document] Autophagy and intermittent fasting the connection for cancer therapy?.md | 2709 |
 | autophagy | 29_May_2026 | notes/autophagy/[document] Autophagy takes it all – autophagy inducers target immune aging.md | 3940 |
 | autophagy | 29_May_2026 | notes/autophagy/[document] The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting.md | 6102 |
+| autophagy | 30_May_2026 | notes/autophagy/[document] mTOR signaling at a glance.md | 6612 |
 | cancer | 29_May_2026 | notes/cancer/[document] Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology.md | 12626 |
 | cancer | 29_May_2026 | notes/cancer/[document] Ivermectin, a potential anticancer drug derived from an antiparasitic drug.md | 10575 |
 | cancer | 25_May_2026 | notes/cancer/[document] Ivermectin, ‘Wonder drug’ from Japan the human use perspective.md | 7484 |
@@ -55,6 +58,3 @@ last updated: 29_May_2026 08:21 AM
 
 
 ---
-
-## User/Patient specific assumptions/scenarios
-- For research and analysis, assume some [[notes/_link/Oxidative Stress]] and [[notes/_link/Inflammation]] are expected/encouraged in adrenochrome formation.
