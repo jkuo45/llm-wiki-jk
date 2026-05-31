@@ -1,0 +1,21 @@
+# necrosis
+
+**Necrosis** (from the Greek *nekros*, 'dead') is a form of cell death that is characterized by the loss of membrane integrity and the release of intracellular contents into the surrounding tissue.
+
+## Characteristics
+Unlike [[notes/_link/Apoptosis]], which is a programmed and tidy process, necrosis is typically viewed as an accidental or unregulated event resulting from severe cellular injury (e.g., trauma, extreme heat, or ischemia).
+- **Morphology**: Cell swelling ([[oncosis]]), rupture of the plasma membrane, and inflammation in the surrounding area.
+- **Secondary Necrosis**: Occurs when apoptotic cells are not efficiently phagocytosed and subsequently lose their membrane integrity.
+
+## Role in Cancer
+While apoptosis is the desired outcome of therapy, necrosis in tumors can lead to a proinflammatory environment that may paradoxically support tumor progression and [[metastasis]].
+
+## Connections
+- [[notes/_link/Apoptosis]]: The regulated counterpart to necrotic cell death.
+- [[Pyroptosis]]: A programmed form of necrotic-like cell death.
+- [[metastasis]]: Proinflammatory necrosis can promote tumor spread.
+
+### Linking Summary:
+- New links added: [[notes/_link/Apoptosis]], [[Pyroptosis]], [[metastasis]]
+- Suggested new entity notes to create: [[Pyroptosis]]
+- Strong connections to strengthen: [[necrosis]] ↔ [[notes/_link/Apoptosis]]

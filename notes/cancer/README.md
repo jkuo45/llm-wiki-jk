@@ -16,11 +16,13 @@ This directory contains notes and research regarding [[notes/_link/Cancer]], wit
 
 ## Maintenance
 
-- Last updated: 30_May_2026 08:35 PM PDT
-- Total count of entities: 127
+- Last updated: 31_May_2026 04:45 PM PDT
+- Total count of entities: 148
 
 | entity                                                 | datetime updated         | entity_type_1        | entity_relevance_score_1 | entity_sentiment_score_1 | entity_justification_1 |
 | ------------------------------------------------------ | ------------------------ | -------------------- | ------------------------ | ------------------------ | ---------------------- |
+| [[ABT-263]] | 31_May_2026 12:30 PM PDT | Chemical Compound | 9 | 1 | Orally bioavailable BH3 mimetic and Bcl-2 inhibitor. |
+| [[ABT-737]] | 31_May_2026 12:30 PM PDT | Chemical Compound | 9 | 1 | Potent BH3 mimetic targeting Bcl-2 family proteins. |
 | [[African Programme for Onchocerciasis Control]] | 21_May_2026 06:20 PM PDT | Organization | 4 | 1 | Provided historical, scientific, or institutional context for the research. |
 | [[notes/_link/Akt]] | 21_May_2026 05:45 PM PDT | Enzyme | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
 | [[Albendazole]] | 21_May_2026 06:45 PM PDT | Chemical Compound | 10 | 1 | Broad-spectrum anthelmintic investigated for suppressing tumor growth and angiogenesis. |
@@ -29,15 +31,21 @@ This directory contains notes and research regarding [[notes/_link/Cancer]], wit
 | [[Andy Crump]] | 21_May_2026 06:20 PM PDT | Person | 4 | 1 | Provided historical, scientific, or institutional context for the research. |
 | [[Angiogenesis]] | 26_May_2026 05:03 PM PDT | Biological Process | 9 | 0 | The formation of new blood vessels, a critical process for tumor expansion and metastasis. |
 | [[Annexin V]] | 19_May_2026 08:16 PM PDT | Protein | 7 | 0 | Biological or chemical entity contributing to the broader understanding of the topic. |
+| [[Apaf-1]] | 31_May_2026 12:30 PM PDT | Protein | 8 | 0 | Scaffold protein essential for apoptosome formation in the intrinsic pathway. |
 | [[Apis mellifera]] | 19_May_2026 08:16 PM PDT | Model Organism | 5 | 1 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[apitherapy]] | 19_May_2026 08:16 PM PDT | Medical Treatment | 8 | 1 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[notes/_link/Apoptosis]] | 21_May_2026 06:45 PM PDT | Biological Process | 9 | 1 | Programmed cell death; the primary desired outcome of many anti-cancer interventions. |
+| [[Apoptosome]] | 31_May_2026 12:30 PM PDT | Biological Molecule | 8 | 0 | Multi-protein complex that activates Caspase-9 in the intrinsic pathway. |
 | [[Ascariasis]] | 21_May_2026 06:20 PM PDT | Medical Condition | 6 | -1 | Condition historically associated with the compounds before their repurposing. |
 | [[Ascaris]] | 21_May_2026 06:20 PM PDT | Microorganism | 6 | -1 | Related to the original anti-parasitic application of the discussed drugs. |
 | [[notes/_link/Autophagy]] | 21_May_2026 05:45 PM PDT | Biological Process | 9 | 1 | Cellular degradation process that plays a complex, dual role in tumor survival and death. |
 | [[Avermectin]] | 21_May_2026 06:20 PM PDT | Chemical Compound | 9 | 1 | Significant therapeutic agent or chemical tool used in cancer research. |
+| [[Bax]] | 31_May_2026 12:30 PM PDT | Protein | 9 | 0 | Pro-apoptotic Bcl-2 family member critical for mitochondrial permeability. |
+| [[Bcl-2]] | 31_May_2026 12:30 PM PDT | Protein | 10 | 0 | Anti-apoptotic protein and major regulator of cell death; frequently overexpressed in cancer. |
+| [[Bcl-2 family]] | 31_May_2026 12:30 PM PDT | Chemical Class | 9 | 0 | Group of proteins that regulate the intrinsic pathway of apoptosis. |
 | [[Benzimidazole]] | 21_May_2026 06:45 PM PDT | Chemical Class | 9 | 1 | Biological or chemical entity contributing to the broader understanding of the topic. |
-| [[bioluminescence resonance energy transfer]] | 19_May_2026 08:16 PM PDT | Analytical Technique | 6 | 0 | Biological or chemical entity contributing to the broader understanding of the topic. |
+| [[Bid]] | 31_May_2026 12:30 PM PDT | Protein | 8 | 0 | BH3-only protein that links the extrinsic and intrinsic apoptotic pathways. |
+| [[bioluminescence resonance energy resonance energy transfer]] | 19_May_2026 08:16 PM PDT | Analytical Technique | 6 | 0 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[BRCA]] | 19_May_2026 08:16 PM PDT | Gene | 8 | 0 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[notes/_link/Breast Cancer]] | 21_May_2026 05:45 PM PDT | Medical Condition | 10 | -1 | High-relevance pathological state targeted by the investigated compounds. |
 | [[Brugia malayi]] | 21_May_2026 06:20 PM PDT | Microorganism | 6 | -1 | Related to the original anti-parasitic application of the discussed drugs. |
@@ -45,12 +53,15 @@ This directory contains notes and research regarding [[notes/_link/Cancer]], wit
 | [[notes/_link/Cancer]] | 27_May_2026 10:15 AM PDT | Medical Condition | 10 | -1 | The central pathological focus of this knowledge base directory. |
 | [[Cancer Stem Cells]] | 21_May_2026 05:45 PM PDT | Cell Type | 9 | -1 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[caspase-3]] | 19_May_2026 08:16 PM PDT | Enzyme | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
+| [[Caspase-8]] | 31_May_2026 12:30 PM PDT | Enzyme | 9 | 0 | Initiator caspase of the extrinsic apoptotic pathway. |
+| [[Caspase-9]] | 31_May_2026 12:30 PM PDT | Enzyme | 9 | 0 | Initiator caspase of the intrinsic apoptotic pathway. |
 | [[CendR motif]] | 26_May_2026 05:03 PM PDT | Scientific Concept | 7 | 0 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[cervical cancer]] | 21_May_2026 05:45 PM PDT | Medical Condition | 9 | -1 | High-relevance pathological state targeted by the investigated compounds. |
 | [[Cholangiocarcinoma]] | 21_May_2026 05:45 PM PDT | Medical Condition | 9 | -1 | High-relevance pathological state targeted by the investigated compounds. |
 | [[Cilengitide]] | 26_May_2026 05:03 PM PDT | Chemical Compound | 8 | 1 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[cisplatin]] | 19_May_2026 08:16 PM PDT | Chemical Compound | 9 | 1 | Significant therapeutic agent or chemical tool used in cancer research. |
 | [[notes/_link/Colorectal Cancer]] | 21_May_2026 06:45 PM PDT | Medical Condition | 10 | -1 | High-relevance pathological state targeted by the investigated compounds. |
+| [[Cytochrome c]] | 31_May_2026 12:30 PM PDT | Protein | 8 | 0 | Mitochondrial protein whose release into the cytosol triggers the intrinsic pathway. |
 | [[CYP2C19]] | 21_May_2026 06:45 PM PDT | Enzyme | 7 | 0 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[CYP2J2]] | 21_May_2026 06:45 PM PDT | Enzyme | 7 | 0 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[Diethylcarbamazine]] | 21_May_2026 06:20 PM PDT | Chemical Compound | 7 | 1 | Biological or chemical entity contributing to the broader understanding of the topic. |
@@ -59,7 +70,9 @@ This directory contains notes and research regarding [[notes/_link/Cancer]], wit
 | [[ECM]] | 26_May_2026 05:03 PM PDT | Anatomy | 7 | 0 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[EGFR]] | 21_May_2026 05:45 PM PDT | Receptor | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
 | [[EMT]] | 21_May_2026 05:45 PM PDT | Biological Process | 8 | -1 | Important cellular mechanism involved in cancer progression or response to therapy. |
+| [[Extrinsic Pathway]] | 31_May_2026 12:30 PM PDT | Biological Process | 9 | 0 | Death receptor-mediated pathway of programmed cell death. |
 | [[FAK]] | 26_May_2026 05:03 PM PDT | Enzyme | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
+| [[Fas]] | 31_May_2026 12:30 PM PDT | Receptor | 8 | 0 | Death receptor that initiates the extrinsic apoptotic pathway upon ligand binding. |
 | [[Fenbendazole]] | 21_May_2026 06:45 PM PDT | Chemical Compound | 10 | 1 | Benzimidazole anthelmintic showing significant potential in disrupting microtubule dynamics in cancer. |
 | [[Fibrinogen]] | 26_May_2026 05:03 PM PDT | Protein | 7 | 0 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[Fibronectin]] | 26_May_2026 05:03 PM PDT | Protein | 7 | 0 | Biological or chemical entity contributing to the broader understanding of the topic. |
@@ -82,7 +95,9 @@ This directory contains notes and research regarding [[notes/_link/Cancer]], wit
 | [[Honeybee]] | 19_May_2026 08:16 PM PDT | Model Organism | 6 | 1 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[Honeybee venom]] | 19_May_2026 08:16 PM PDT | Toxin | 8 | 1 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[HSP27]] | 21_May_2026 05:45 PM PDT | Protein | 7 | 0 | Biological or chemical entity contributing to the broader understanding of the topic. |
+| [[Inhibitor of Apoptosis Proteins]] | 31_May_2026 12:30 PM PDT | Chemical Class | 9 | 0 | Family of proteins that serve as endogenous inhibitors of caspases. |
 | [[Integrins]] | 26_May_2026 05:03 PM PDT | Receptor | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
+| [[Intrinsic Pathway]] | 31_May_2026 12:30 PM PDT | Biological Process | 9 | 0 | Mitochondrial-mediated pathway of programmed cell death. |
 | [[iRGD peptide]] | 26_May_2026 05:03 PM PDT | Chemical Compound | 8 | 1 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[Ivermectin]] | 21_May_2026 06:20 PM PDT | Chemical Compound | 10 | 1 | Primary antiparasitic compound being researched for broad-spectrum anti-cancer activity. |
 | [[JAK2]] | 19_May_2026 08:16 PM PDT | Enzyme | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
@@ -109,6 +124,8 @@ This directory contains notes and research regarding [[notes/_link/Cancer]], wit
 | [[Neuropilin-1]] | 26_May_2026 05:03 PM PDT | Receptor | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
 | [[NFκB]] | 19_May_2026 08:16 PM PDT | Protein | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
 | [[non-small-cell lung cancer]] | 21_May_2026 06:45 PM PDT | Medical Condition | 9 | -1 | High-relevance pathological state targeted by the investigated compounds. |
+| [[Nutlins]] | 31_May_2026 12:30 PM PDT | Chemical Class | 8 | 1 | Small-molecule inhibitors of the MDM2-p53 interaction. |
+| [[Oblimersen sodium]] | 31_May_2026 12:30 PM PDT | Medical Product | 8 | 1 | Antisense oligonucleotide designed to inhibit Bcl-2 production. |
 | [[OCP]] | 21_May_2026 06:20 PM PDT | Organization | 4 | 1 | Provided historical, scientific, or institutional context for the research. |
 | [[Onchocerca volvulus]] | 21_May_2026 06:20 PM PDT | Microorganism | 6 | -1 | Related to the original anti-parasitic application of the discussed drugs. |
 | [[Onchocerciasis]] | 21_May_2026 06:20 PM PDT | Medical Condition | 6 | -1 | Condition historically associated with the compounds before their repurposing. |
@@ -133,14 +150,17 @@ This directory contains notes and research regarding [[notes/_link/Cancer]], wit
 | [[Scabies]] | 21_May_2026 06:20 PM PDT | Medical Condition | 6 | -1 | Condition historically associated with the compounds before their repurposing. |
 | [[Simulium]] | 21_May_2026 06:20 PM PDT | Microorganism | 6 | -1 | Related to the original anti-parasitic application of the discussed drugs. |
 | [[notes/_link/SIRT1]] | 30_May_2026 07:45 PM PDT | Enzyme | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
+| [[Smac/DIABLO]] | 31_May_2026 12:30 PM PDT | Protein | 8 | 0 | Mitochondrial protein that neutralizes IAPs to promote apoptosis. |
 | [[notes/_link/STAT3]] | 21_May_2026 05:45 PM PDT | Protein | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
 | [[Strongyloides]] | 21_May_2026 06:20 PM PDT | Microorganism | 6 | -1 | Related to the original anti-parasitic application of the discussed drugs. |
 | [[Strongyloidiasis]] | 21_May_2026 06:20 PM PDT | Medical Condition | 6 | -1 | Condition historically associated with the compounds before their repurposing. |
 | [[Suramin]] | 21_May_2026 06:20 PM PDT | Chemical Compound | 7 | 1 | Biological or chemical entity contributing to the broader understanding of the topic. |
+| [[Survivin]] | 31_May_2026 12:30 PM PDT | Protein | 10 | 0 | Unique IAP family member with roles in inhibiting apoptosis and regulating cell division. |
 | [[SV40]] | 19_May_2026 08:16 PM PDT | Microorganism | 6 | -1 | Related to the original anti-parasitic application of the discussed drugs. |
 | [[TAT]] | 19_May_2026 08:16 PM PDT | Protein | 7 | 0 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[TDR]] | 21_May_2026 06:20 PM PDT | Organization | 4 | 1 | Provided historical, scientific, or institutional context for the research. |
 | [[TGF-β3]] | 19_May_2026 08:16 PM PDT | Protein | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
+| [[TRAIL]] | 31_May_2026 12:30 PM PDT | Biological Molecule | 9 | 1 | Cytokine that selectively induces apoptosis in cancer cells. |
 | [[trastuzumab]] | 19_May_2026 08:16 PM PDT | Antibody | 9 | 1 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[Trichuriasis]] | 21_May_2026 06:20 PM PDT | Medical Condition | 6 | -1 | Condition historically associated with the compounds before their repurposing. |
 | [[Trichuris]] | 21_May_2026 06:20 PM PDT | Microorganism | 6 | -1 | Related to the original anti-parasitic application of the discussed drugs. |
@@ -152,4 +172,5 @@ This directory contains notes and research regarding [[notes/_link/Cancer]], wit
 | [[Wnt]] | 21_May_2026 05:45 PM PDT | Protein | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
 | [[World Health Organization]] | 21_May_2026 06:20 PM PDT | Organization | 4 | 1 | Provided historical, scientific, or institutional context for the research. |
 | [[Wuchereria bancrofti]] | 21_May_2026 06:20 PM PDT | Microorganism | 6 | -1 | Related to the original anti-parasitic application of the discussed drugs. |
+| [[XIAP]] | 31_May_2026 12:30 PM PDT | Protein | 9 | 0 | Most potent IAP family member; directly inhibits several caspases. |
 | [[YAP1]] | 21_May_2026 05:45 PM PDT | Protein | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
