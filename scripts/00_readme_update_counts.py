@@ -1,5 +1,7 @@
 import glob
 import os
+import re
+import argparse
 from datetime import datetime
 
 
@@ -15,12 +17,35 @@ def count_words(filepath):
         with open(filepath, "r", encoding="utf-8") as f:
             content = f.read()
             return len(content.split())
-    except:
+    except Exception:
         return 0
 
 
+def extract_entity_count(readme_path):
+    try:
+        if not os.path.exists(readme_path):
+            return 0
+        with open(readme_path, "r", encoding="utf-8") as f:
+            content = f.read()
+            match = re.search(r"Total count of entities:\s*(\d+)", content)
+            if match:
+                return int(match.group(1))
+    except Exception:
+        pass
+    return 0
+
+
 def main():
-    notes_dir = "notes"
+    parser = argparse.ArgumentParser(description="Update root README.md with topic counts and document lists.")
+    parser.add_argument("--notes_dir", default="notes", help="Directory containing topics (default: notes)")
+    parser.add_argument("--output", default="README.md", help="Path to the output README file (default: README.md)")
+    args = parser.parse_args()
+
+    notes_dir = args.notes_dir
+    if not os.path.isdir(notes_dir):
+        print(f"Notes directory not found: {notes_dir}")
+        return
+
     topics = sorted([
         d for d in os.listdir(notes_dir) if os.path.isdir(os.path.join(notes_dir, d))
     ])
@@ -30,14 +55,15 @@ def main():
 
     for topic in topics:
         topic_path = os.path.join(notes_dir, topic)
+        readme_path = os.path.join(topic_path, "README.md")
         md_files = glob.glob(os.path.join(topic_path, "*.md"))
 
-        entities = [
-            f for f in md_files if not os.path.basename(f).startswith("[document]")
-        ]
         documents = [
             f for f in md_files if os.path.basename(f).startswith("[document]")
         ]
+
+        # Extract entity count from README.md instead of counting files
+        entity_count = extract_entity_count(readme_path)
 
         last_updated_ts = 0
         if md_files:
@@ -51,7 +77,7 @@ def main():
         topic_data.append({
             "topic": topic,
             "last_updated": last_updated_str,
-            "entities": len(entities) - 1,  # remove one for README.md
+            "entities": entity_count,
             "documents": len(documents),
         })
 
@@ -101,10 +127,10 @@ def main():
         "---",
     ]
 
-    with open("README.md", "w", encoding="utf-8") as f:
+    with open(args.output, "w", encoding="utf-8") as f:
         f.write("\n".join(readme_content) + "\n")
 
-    print(f"Successfully updated README.md at {new_timestamp}")
+    print(f"Successfully updated {args.output} at {new_timestamp}")
 
 
 if __name__ == "__main__":

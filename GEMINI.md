@@ -8,6 +8,9 @@
 - notes directory is organized by topic. 
     - each markdown file within that topic can be counted as a single entity.
 - use uv for all python executables
+- scripts directory
+    - periodically audit scripts for reusability.
+    - if they contain values that are task specific, refactor for reusability.
 
 ## Linking Format
 - Use Obsidian-style wiki links: [[Exact Note Title]] or [[Note Title|Display Text]] when the display text differs.
