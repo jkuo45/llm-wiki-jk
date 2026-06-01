@@ -1,5 +1,5 @@
 # llm-wiki-jk
-last updated: 31_May_2026 04:56 PM  
+last updated: 31_May_2026 06:24 PM  
 
 ## topics (notes directory)
 
@@ -9,7 +9,7 @@ last updated: 31_May_2026 04:56 PM
 | adrenochrome | 30_May_2026 | 159 | 11 |
 | autism | 30_May_2026 | 79 | 3 |
 | autophagy | 30_May_2026 | 106 | 4 |
-| cancer | 31_May_2026 | 148 | 6 |
+| cancer | 31_May_2026 | 171 | 7 |
 | comt | 31_May_2026 | 62 | 2 |
 | epigenetics | 29_May_2026 | 108 | 2 |
 | neuromelanin | 31_May_2026 | 66 | 1 |
@@ -41,6 +41,7 @@ last updated: 31_May_2026 04:56 PM
 | autophagy | 29_May_2026 | notes/autophagy/[document] The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting.md | 6102 |
 | autophagy | 30_May_2026 | notes/autophagy/[document] mTOR signaling at a glance.md | 6612 |
 | cancer | 31_May_2026 | notes/cancer/[document] Apoptosis in cancer from pathogenesis to treatment.md | 10378 |
+| cancer | 31_May_2026 | notes/cancer/[document] Evading apoptosis in cancer.md | 12359 |
 | cancer | 29_May_2026 | notes/cancer/[document] Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology.md | 12626 |
 | cancer | 29_May_2026 | notes/cancer/[document] Ivermectin, a potential anticancer drug derived from an antiparasitic drug.md | 10575 |
 | cancer | 25_May_2026 | notes/cancer/[document] Ivermectin, ‘Wonder drug’ from Japan the human use perspective.md | 7484 |
