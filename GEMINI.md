@@ -104,6 +104,6 @@ To maintain consistency, all entity notes should include an `entity_type` field.
 | **Laboratory Standard**       | Quality control and reference materials.                             | [[Reference standard]], [[Certificate of Analysis]], [[Impurity marker]]  |
 | **Pharmacokinetic Parameter** | Quantitative ADME properties.                                        | [[Half-life]], [[Volume of distribution]], [[Bioavailability]]            |
 | **Model Organism**            | Species or strains used in research.                                 | [[Rattus norvegicus]], [[Zebrafish]], [[Knockout mouse]]                  |
-| **Person**                    | Historical or scientific figures.                                    | [[Abram Hoffer]], [[Humphry Osmond]]                                      |
+| **Person**                    | Historical or scientific figures (less emphasis, exclude, for scoring purposes).                                    | [[Abram Hoffer]], [[Humphry Osmond]]                                      |
 | Organization                  | Public, private sector organizations                                 | [[Merck & Co. Inc]], [[GlaxoSmithKline]]                                  |
 | NA                            | If none of the above                                                 |                                                                           |
