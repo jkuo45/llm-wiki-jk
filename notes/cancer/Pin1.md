@@ -1,0 +1,7 @@
+# Pin1
+[[Pin1]] is a prolyl isomerase that interacts with [[Bax]] after it is phosphorylated at Thr167 by [[ERK1/2]], leading to [[Bax]] inactivation and suppression of [[apoptosis]].
+
+### Linking Summary
+- New links added: [[Pin1]], [[Bax]], [[ERK]], [[apoptosis]], [[Phosphorylation]]
+- Suggested new entity notes to create:
+- Strong connections to strengthen: [[Pin1]] ↔ [[Bax]]

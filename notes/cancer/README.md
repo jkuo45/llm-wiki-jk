@@ -16,8 +16,8 @@ This directory contains notes and research regarding [[notes/_link/Cancer]], wit
 
 ## Maintenance
 
-- Last updated: 31_May_2026 05:30 PM PDT
-- Total count of entities: 171
+- Last updated: 01_Jun_2026 10:15 AM PDT
+- Total count of entities: 251
 
 | entity                                                 | datetime updated         | entity_type_1        | entity_relevance_score_1 | entity_sentiment_score_1 | entity_justification_1 |
 | ------------------------------------------------------ | ------------------------ | -------------------- | ------------------------ | ------------------------ | ---------------------- |

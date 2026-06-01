@@ -1,19 +1,19 @@
 # llm-wiki-jk
-last updated: 31_May_2026 06:47 PM  
+last updated: 01_Jun_2026 09:13 AM  
 
 ## topics (notes directory)
 
 | topic | last updated | count entities | count documents |
 | :--- | :--- | :---: | :---: |
-| _link | 31_May_2026 | 67 | 0 |
+| _link | 01_Jun_2026 | 67 | 0 |
 | adrenochrome | 30_May_2026 | 159 | 11 |
 | autism | 30_May_2026 | 79 | 3 |
 | autophagy | 30_May_2026 | 106 | 4 |
-| cancer | 31_May_2026 | 171 | 7 |
+| cancer | 01_Jun_2026 | 251 | 7 |
 | comt | 31_May_2026 | 62 | 2 |
 | epigenetics | 31_May_2026 | 106 | 2 |
 | neuromelanin | 31_May_2026 | 66 | 1 |
-| oxidative_stress | 29_May_2026 | 73 | 1 |
+| oxidative_stress | 01_Jun_2026 | 73 | 1 |
 | yamanaka_factors | 29_May_2026 | 83 | 3 |
 
 
@@ -40,10 +40,10 @@ last updated: 31_May_2026 06:47 PM
 | autophagy | 29_May_2026 | notes/autophagy/[document] Autophagy takes it all – autophagy inducers target immune aging.md | 3940 |
 | autophagy | 29_May_2026 | notes/autophagy/[document] The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting.md | 6102 |
 | autophagy | 30_May_2026 | notes/autophagy/[document] mTOR signaling at a glance.md | 6612 |
-| cancer | 31_May_2026 | notes/cancer/[document] Apoptosis in cancer from pathogenesis to treatment.md | 10378 |
-| cancer | 31_May_2026 | notes/cancer/[document] Evading apoptosis in cancer.md | 12359 |
-| cancer | 29_May_2026 | notes/cancer/[document] Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology.md | 12626 |
-| cancer | 29_May_2026 | notes/cancer/[document] Ivermectin, a potential anticancer drug derived from an antiparasitic drug.md | 10575 |
+| cancer | 01_Jun_2026 | notes/cancer/[document] Apoptosis in cancer from pathogenesis to treatment.md | 10378 |
+| cancer | 01_Jun_2026 | notes/cancer/[document] Evading apoptosis in cancer.md | 12359 |
+| cancer | 01_Jun_2026 | notes/cancer/[document] Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology.md | 12626 |
+| cancer | 01_Jun_2026 | notes/cancer/[document] Ivermectin, a potential anticancer drug derived from an antiparasitic drug.md | 10575 |
 | cancer | 25_May_2026 | notes/cancer/[document] Ivermectin, ‘Wonder drug’ from Japan the human use perspective.md | 7484 |
 | cancer | 29_May_2026 | notes/cancer/[document] Oral Fenbendazole for Cancer Therapy in Humans and Animals.md | 555 |
 | cancer | 25_May_2026 | notes/cancer/[document] RGD peptide in cancer targeting Benefits, challenges, solutions, and possible integrin–RGD interactions.md | 27411 |

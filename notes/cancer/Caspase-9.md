@@ -1,16 +1,19 @@
 # Caspase-9
 
-**Caspase-9** is the primary initiator protease of the [[Intrinsic Pathway]] of [[notes/_link/Apoptosis]].
+**Caspase-9** is the primary initiator protease of the [[Intrinsic Pathway]] of [[notes/_link/Apoptosis|apoptosis]].
 
 ## Mechanism
 Caspase-9 is activated following the release of [[Cytochrome c]] from the mitochondria. Cytochrome c binds to [[Apaf-1]] and pro-caspase-9 in the presence of dATP/ATP to form the [[Apoptosome]] complex.
 
-## Function
-Within the apoptosome, Caspase-9 becomes activated and subsequently cleaves and activates executioner caspases, primarily [[caspase-3]] and [[Caspase-7]].
-
 ## Regulation
-- **IAPs**: [[XIAP]] is a potent endogenous inhibitor of Caspase-9.
-- **Smac/DIABLO**: Relieves IAP-mediated inhibition of Caspase-9.
+Caspase-9 activation is tightly controlled by various inhibitors and post-translational modifications:
+- **[[Inhibitor of Apoptosis Proteins|IAPs]]**: [[XIAP]] is a potent endogenous inhibitor of Caspase-9. [[Smac-DIABLO]] relieves this inhibition.
+- **[[Phosphorylation]]**:
+    - **[[AKT]]**: Phosphorylates Caspase-9 at Ser196 (human specific) to inhibit its activity, particularly in [[prostate cancer]] and [[Colon Cancer]] cells.
+    - **[[PKA]]**: Regulates Caspase-9 at Ser99, Ser183, and Ser195, though some studies show no functional effects.
+    - **[[CDK1]], [[DYRK1A]], [[ERK]], [[p38 MAPK]]**: Phosphorylate Caspase-9 at Thr125, suppressing its activity and mitotic cell death. This can be reversed by the phosphatase [[PP1α]].
+    - **[[PKCζ]]**: Phosphorylates Caspase-9 at Ser144 to inhibit its pro-apoptotic function.
+    - **[[c-ABL]]**: Tyrosine kinase that phosphorylates Caspase-9 at Tyr153 to promote its autocleavage and activation in response to DNA damage.
 
 ## Role in Cancer
 Downregulation of Caspase-9 has been linked to poor clinical outcomes in stage II colorectal cancer.
@@ -20,10 +23,17 @@ Downregulation of Caspase-9 has been linked to poor clinical outcomes in stage I
 - [[Apoptosome]]: The complex required for caspase-9 activation.
 - [[Cytochrome c]]: Triggers the formation of the apoptosome.
 - [[Apaf-1]]: A core component of the apoptosome.
-- [[caspase-3]]: A major downstream target.
+- [[Caspase-3]]: A major downstream target.
 - [[XIAP]]: An inhibitor of caspase-9.
+- [[AKT]] / [[PKA]] / [[ERK]]: Inhibitory kinases for Caspase-9.
+- [[c-ABL]]: Pro-apoptotic activator kinase for Caspase-9.
 
 ### Linking Summary:
-- New links added: [[Intrinsic Pathway]], [[notes/_link/Apoptosis]], [[Cytochrome c]], [[Apaf-1]], [[Apoptosome]], [[caspase-3]], [[Caspase-7]], [[XIAP]], [[Smac/DIABLO]]
-- Suggested new entity notes to create: [[Cytochrome c]], [[Apaf-1]], [[Apoptosome]], [[Smac/DIABLO]]
-- Strong connections to strengthen: [[Caspase-9]] ↔ [[Apoptosome]]
+- New links added: [[PP1α]], [[prostate cancer]], [[Colon Cancer]]
+- Suggested new entity notes to create:
+- Strong connections to strengthen: [[Caspase-9]] ↔ [[Apoptosome]], [[Caspase-9]] ↔ [[AKT]], [[Caspase-9]] ↔ [[c-ABL]]
+
+### Linking Summary:
+- New links added: [[AKT]], [[PKA]], [[ERK]], [[p38 MAPK]], [[DYRK1A]], [[PKCζ]], [[c-ABL]], [[Phosphorylation]], [[Inhibitor of Apoptosis Proteins]], [[Smac-DIABLO]]
+- Suggested new entity notes to create:
+- Strong connections to strengthen: [[Caspase-9]] ↔ [[Apoptosome]], [[Caspase-9]] ↔ [[AKT]]
