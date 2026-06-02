@@ -1,21 +1,22 @@
 # Lysosome
 
-The **Lysosome** is a membrane-bound organelle containing acidic hydrolases responsible for the degradation and recycling of cellular waste. It is the endpoint for all [[notes/_link/Autophagy]] pathways.
+The **Lysosome** is a membrane-bound organelle containing acidic hydrolases responsible for the degradation and recycling of cellular waste. It serves as a central degradative center and signaling hub in cells.
+
+## Biogenesis and Regulation
+- Lysosome biogenesis is master-regulated by the transcription factors [[TFEB]] and [[TFE3]] via [[CLEAR Element]]s.
+- The acidic lumen (pH 4.5–5.5) is maintained by the [[V-ATPase]] proton pump.
+- Lysosomes are dynamic and can be regenerated via various reformation pathways: [[Autophagic Lysosome Reformation]] (ALR), [[Endocytic Lysosome Reformation]] (ELR), and [[Phagocytic Lysosome Reformation]] (PLR).
 
 ## Role in Autophagy
-- **[[Macroautophagy]]**: Fuses with [[Autophagosome|autophagosomes]] to degrade sequestered cargo.
+- **[[Macroautophagy]]**: Fuses with [[Autophagosome|autophagosomes]] to form [[Autolysosome]]s for cargo degradation.
 - **[[Microautophagy]]**: Directly engulfs cytosolic material for degradation.
 - **[[Chaperone-Mediated Autophagy]]**: Receives targeted proteins via the [[LAMP-2A]] receptor.
-
-## Degradation Process
-- The lysosomal interior is maintained at an acidic pH to optimize the activity of its enzymes (acid hydrolases).
-- After fusion with autophagic vesicles, the cargo is broken down into basic components (amino acids, lipids, etc.) and recycled back into the cytosol.
 
 ## Homeostasis and Stress
 - Lysosomal health is critical for maintaining [[Cellular Homeostasis]].
 - Lysosomal dysfunction is a hallmark of [[notes/_link/Aging]] and various [[Metabolic Disease|metabolic]] and [[Neurodegenerative Disease|neurodegenerative diseases]].
 
 ### Linking Summary:
-- New links added: [[notes/_link/Autophagy]], [[Macroautophagy]], [[Autophagosome]], [[Microautophagy]], [[Chaperone-Mediated Autophagy]], [[LAMP-2A]], [[Cellular Homeostasis]], [[notes/_link/Aging]], [[Metabolic Disease]], [[Neurodegenerative Disease]]
-- Suggested new entity notes to create: [[Macroautophagy]], [[Autophagosome]], [[Microautophagy]], [[Chaperone-Mediated Autophagy]], [[LAMP-2A]], [[Cellular Homeostasis]]
-- Strong connections to strengthen: [[Lysosome]] ↔ [[notes/_link/Autophagy]], [[Lysosome]] ↔ [[Autophagosome]]
+- New links added: [[notes/_link/Autophagy]], [[TFEB]], [[TFE3]], [[CLEAR Element]], [[V-ATPase]], [[Autophagic Lysosome Reformation]], [[Endocytic Lysosome Reformation]], [[Phagocytic Lysosome Reformation]], [[Macroautophagy]], [[Autophagosome]], [[Autolysosome]], [[Microautophagy]], [[Chaperone-Mediated Autophagy]], [[LAMP-2A]], [[Cellular Homeostasis]], [[notes/_link/Aging]], [[Metabolic Disease]], [[Neurodegenerative Disease]]
+- Suggested new entity notes to create: [[V-ATPase]], [[Autophagic Lysosome Reformation]], [[Autolysosome]]
+- Strong connections to strengthen: [[Lysosome]] ↔ [[notes/_link/Autophagy]], [[Lysosome]] ↔ [[TFEB]]
