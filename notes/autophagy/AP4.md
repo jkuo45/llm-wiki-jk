@@ -4,5 +4,5 @@
 
 ### Linking Summary:
 - New links added: [[Autophagic Lysosome Reformation]], [[LAMP1]]
-- Suggested new entity notes to create: [[LAMP1]]
+- Suggested new entity notes to create:
 - Strong connections to strengthen: [[AP4]] ↔ [[Autophagic Lysosome Reformation]]

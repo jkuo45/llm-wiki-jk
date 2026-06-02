@@ -9,5 +9,5 @@
 
 ### Linking Summary:
 - New links added: [[notes/_link/Cancer]], [[notes/_link/Autophagy]], [[Intermittent Fasting]]
-- Suggested new entity notes to create: [[Intermittent Fasting]]
+- Suggested new entity notes to create:
 - Strong connections to strengthen: [[Melanoma]] ↔ [[notes/_link/Cancer]], [[Melanoma]] ↔ [[notes/_link/Autophagy]]

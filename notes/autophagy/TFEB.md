@@ -16,5 +16,5 @@
 
 ### Linking Summary:
 - New links added: [[notes/_link/Autophagy]], [[Lysosome]], [[CLEAR Element]], [[TFE3]], [[Autophagosome]], [[mTORC1]], [[calcineurin]], [[eIF5A]], [[notes/_link/Spermidine]], [[B Cell]], [[notes/_link/Senescence]]
-- Suggested new entity notes to create: [[calcineurin]]
+- Suggested new entity notes to create:
 - Strong connections to strengthen: [[TFEB]] ↔ [[TFE3]], [[TFEB]] ↔ [[CLEAR Element]]

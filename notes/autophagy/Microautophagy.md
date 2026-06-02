@@ -13,5 +13,5 @@
 
 ### Linking Summary:
 - New links added: [[notes/_link/Autophagy]], [[Lysosome]], [[Macroautophagy]], [[Autophagosome]]
-- Suggested new entity notes to create: [[Lysosome]], [[Autophagosome]]
+- Suggested new entity notes to create:
 - Strong connections to strengthen: [[Microautophagy]] ↔ [[notes/_link/Autophagy]], [[Microautophagy]] ↔ [[Lysosome]]

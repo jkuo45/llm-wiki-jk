@@ -11,5 +11,5 @@
 
 ### Linking Summary:
 - New links added: [[T Cell]], [[notes/_link/Spermidine]], [[Atg5]], [[notes/_link/Autophagy]]
-- Suggested new entity notes to create: [[Atg5]]
+- Suggested new entity notes to create:
 - Strong connections to strengthen: [[Foxp3]] ↔ [[notes/_link/Spermidine]]

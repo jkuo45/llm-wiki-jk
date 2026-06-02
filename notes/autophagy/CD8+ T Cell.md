@@ -9,5 +9,5 @@
 
 ### Linking Summary:
 - New links added: [[T Cell]], [[Adaptive Immune Response]], [[notes/_link/Autophagy]], [[Intermittent Fasting]]
-- Suggested new entity notes to create: [[Adaptive Immune Response]]
+- Suggested new entity notes to create:
 - Strong connections to strengthen: [[CD8+ T Cell]] ↔ [[Immune Aging]], [[CD8+ T Cell]] ↔ [[notes/_link/Autophagy]]

@@ -12,5 +12,5 @@
 
 ### Linking Summary:
 - New links added: [[notes/_link/Spermidine]], [[notes/_link/Autophagy]], [[TFEB]], [[B Cell]], [[notes/_link/Senescence]]
-- Suggested new entity notes to create: [[TFEB]]
+- Suggested new entity notes to create:
 - Strong connections to strengthen: [[eIF5A]] ↔ [[notes/_link/Spermidine]], [[eIF5A]] ↔ [[TFEB]]

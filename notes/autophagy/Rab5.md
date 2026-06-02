@@ -4,5 +4,5 @@
 
 ### Linking Summary:
 - New links added: [[Rab7]], [[Lysosome]]
-- Suggested new entity notes to create: [[Rab7]]
+- Suggested new entity notes to create:
 - Strong connections to strengthen: [[Rab5]] ↔ [[Rab7]]

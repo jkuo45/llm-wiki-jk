@@ -13,5 +13,5 @@
 
 ### Linking Summary:
 - New links added: [[notes/_link/AMPK]], [[notes/_link/Autophagy]], [[ULK1]], [[mTORC1]], [[notes/_link/Cancer]]
-- Suggested new entity notes to create: [[notes/_link/AMPK]], [[ULK1]], [[mTORC1]]
+- Suggested new entity notes to create:
 - Strong connections to strengthen: [[LKB1]] ↔ [[notes/_link/AMPK]], [[LKB1]] ↔ [[notes/_link/Autophagy]]

@@ -4,5 +4,5 @@
 
 ### Linking Summary:
 - New links added: [[Lysosome]], [[PIKfyve]], [[Phagocytic Lysosome Reformation]]
-- Suggested new entity notes to create: [[SLC36A1-4]]
+- Suggested new entity notes to create:
 - Strong connections to strengthen: [[SLC-36.1]] ↔ [[Phagocytic Lysosome Reformation]]

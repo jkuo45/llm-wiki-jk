@@ -12,5 +12,5 @@
 
 ### Linking Summary:
 - New links added: [[notes/_link/Autophagy]], [[T Cell]], [[Immune Aging]], [[notes/_link/Metformin]]
-- Suggested new entity notes to create: [[Immune Aging]]
+- Suggested new entity notes to create:
 - Strong connections to strengthen: [[Immunometabolism]] ↔ [[notes/_link/Autophagy]], [[Immunometabolism]] ↔ [[Immune Aging]]

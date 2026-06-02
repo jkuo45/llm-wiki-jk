@@ -13,5 +13,5 @@ The **Adaptive Immune Response** is a highly specific immune mechanism character
 
 ### Linking Summary:
 - New links added: [[T Cell]], [[notes/_link/Senescence]], [[B Cell]], [[notes/_link/Autophagy]], [[Autophagy Inducer]], [[notes/_link/Spermidine]]
-- Suggested new entity notes to create: [[Autophagy Inducer]]
+- Suggested new entity notes to create:
 - Strong connections to strengthen: [[Adaptive Immune Response]] ↔ [[Immune Aging]]

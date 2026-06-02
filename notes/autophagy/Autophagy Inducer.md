@@ -14,9 +14,9 @@ Autophagy can be induced through several pathways, most notably:
 - Transcriptional regulation via factors like [[TFEB]].
 
 ## Applications
-Autophagy inducers are being investigated for their potential to rejuvenate the [[Immune System]] ([[Immune Aging]]), improve metabolic health, and extend healthy lifespan.
+Autophagy inducers are being investigated for their potential to rejuvenate the [[notes/_link/Immune System]] ([[Immune Aging]]), improve metabolic health, and extend healthy lifespan.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Autophagy]], [[notes/_link/Aging]], [[notes/_link/Senescence]], [[Rapamycin]], [[notes/_link/Metformin]], [[notes/_link/Spermidine]], [[Rapalog]], [[Everolimus]], [[Dietary Restriction]], [[Exercise]], [[Polyamine]], [[mTORC1]], [[notes/_link/AMPK]], [[TFEB]], [[Immune System]], [[Immune Aging]]
-- Suggested new entity notes to create: [[Rapalog]], [[Polyamine]], [[mTORC1]], [[notes/_link/AMPK]], [[TFEB]]
+- New links added: [[notes/_link/Autophagy]], [[notes/_link/Aging]], [[notes/_link/Senescence]], [[Rapamycin]], [[notes/_link/Metformin]], [[notes/_link/Spermidine]], [[Rapalog]], [[Everolimus]], [[Dietary Restriction]], [[Exercise]], [[Polyamine]], [[mTORC1]], [[notes/_link/AMPK]], [[TFEB]], [[notes/_link/Immune System]], [[Immune Aging]]
+- Suggested new entity notes to create:
 - Strong connections to strengthen: [[Autophagy Inducer]] ↔ [[Immune Aging]], [[Autophagy Inducer]] ↔ [[notes/_link/Autophagy]]

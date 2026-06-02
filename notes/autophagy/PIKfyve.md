@@ -4,5 +4,5 @@
 
 ### Linking Summary:
 - New links added: [[PtdIns3P]], [[PtdIns(3,5)P2]], [[Lysosome]], [[TRPML1]]
-- Suggested new entity notes to create: [[PtdIns3P]], [[PtdIns(3,5)P2]], [[TRPML1]]
+- Suggested new entity notes to create:
 - Strong connections to strengthen: [[PIKfyve]] ↔ [[Lysosome]]

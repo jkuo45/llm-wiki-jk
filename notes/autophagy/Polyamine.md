@@ -13,5 +13,5 @@
 
 ### Linking Summary:
 - New links added: [[notes/_link/Spermidine]], [[B Cell]], [[notes/_link/Autophagy]]
-- Suggested new entity notes to create: [[notes/_link/Spermidine]]
+- Suggested new entity notes to create:
 - Strong connections to strengthen: [[Polyamine]] ↔ [[notes/_link/Spermidine]]

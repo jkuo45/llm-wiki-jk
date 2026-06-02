@@ -4,5 +4,5 @@ Rapamycin (also known as Sirolimus) is a potent immunosuppressant and [[notes/_l
 
 ### Linking Summary:
 - New links added: [[notes/_link/Autophagy]], [[mTORC1]]
-- Suggested new entity notes to create: [[Everolimus]], [[Longevity]]
+- Suggested new entity notes to create: [[Everolimus]]
 - Strong connections to strengthen: [[Rapamycin]] ↔ [[Immune Aging]]

@@ -4,5 +4,5 @@
 
 ### Linking Summary:
 - New links added: [[Pink1]], [[Mitophagy]], [[TFEB]], [[TFE3]]
-- Suggested new entity notes to create: [[Pink1]]
+- Suggested new entity notes to create:
 - Strong connections to strengthen: [[Parkin]] ↔ [[Pink1]]

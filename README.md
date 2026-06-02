@@ -1,20 +1,20 @@
 # llm-wiki-jk
-last updated: 02_Jun_2026 01:00 PM  
+last updated: 02_Jun_2026 01:25 PM  
 
 ## topics (notes directory)
 
-| topic | last updated | count entities | count documents |
-| :--- | :--- | :---: | :---: |
-| _link | 01_Jun_2026 | 67 | 0 |
-| adrenochrome | 30_May_2026 | 159 | 11 |
-| autism | 30_May_2026 | 79 | 3 |
-| autophagy | 02_Jun_2026 | 106 | 5 |
-| cancer | 01_Jun_2026 | 251 | 7 |
-| comt | 31_May_2026 | 62 | 2 |
-| epigenetics | 31_May_2026 | 106 | 2 |
-| neuromelanin | 02_Jun_2026 | 66 | 1 |
-| oxidative_stress | 01_Jun_2026 | 73 | 1 |
-| yamanaka_factors | 29_May_2026 | 83 | 3 |
+| topic            | last updated | count entities | count documents |
+| :--------------- | :----------- | :------------: | :-------------: |
+| _link            | 01_Jun_2026  |       67       |        0        |
+| adrenochrome     | 30_May_2026  |      159       |       11        |
+| autism           | 30_May_2026  |       79       |        3        |
+| autophagy        | 02_Jun_2026  |      125       |        5        |
+| cancer           | 01_Jun_2026  |      251       |        7        |
+| comt             | 31_May_2026  |       62       |        2        |
+| epigenetics      | 31_May_2026  |      106       |        2        |
+| neuromelanin     | 02_Jun_2026  |       66       |        1        |
+| oxidative_stress | 01_Jun_2026  |       73       |        1        |
+| yamanaka_factors | 29_May_2026  |       83       |        3        |
 
 
 ---
@@ -36,11 +36,11 @@ last updated: 02_Jun_2026 01:00 PM
 | autism | 30_May_2026 | notes/autism/[document] Autism spectrum disorder definition, epidemiology, causes, and clinical evaluation.md | 4564 |
 | autism | 30_May_2026 | notes/autism/[document] Digitally Diagnosing Multiple Developmental Delays Using Crowdsourcing Fused With Machine Learning Protocol for a Human-in-the-Loop Machine Learning Study.md | 8856 |
 | autism | 30_May_2026 | notes/autism/[document] Prevalence and Early Identification of Autism Spectrum ....md | 12724 |
-| autophagy | 29_May_2026 | notes/autophagy/[document] Autophagy and intermittent fasting the connection for cancer therapy?.md | 2709 |
-| autophagy | 29_May_2026 | notes/autophagy/[document] Autophagy takes it all – autophagy inducers target immune aging.md | 3940 |
-| autophagy | 02_Jun_2026 | notes/autophagy/[document] Lysosome biogenesis Regulation and functions.md | 7488 |
-| autophagy | 29_May_2026 | notes/autophagy/[document] The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting.md | 6102 |
-| autophagy | 30_May_2026 | notes/autophagy/[document] mTOR signaling at a glance.md | 6612 |
+| autophagy | 02_Jun_2026 | notes/autophagy/[document] Autophagy and intermittent fasting the connection for cancer therapy?.md | 2539 |
+| autophagy | 02_Jun_2026 | notes/autophagy/[document] Autophagy takes it all – autophagy inducers target immune aging.md | 3900 |
+| autophagy | 02_Jun_2026 | notes/autophagy/[document] Lysosome biogenesis Regulation and functions.md | 7476 |
+| autophagy | 02_Jun_2026 | notes/autophagy/[document] The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting.md | 6054 |
+| autophagy | 02_Jun_2026 | notes/autophagy/[document] mTOR signaling at a glance.md | 6589 |
 | cancer | 01_Jun_2026 | notes/cancer/[document] Apoptosis in cancer from pathogenesis to treatment.md | 10378 |
 | cancer | 01_Jun_2026 | notes/cancer/[document] Evading apoptosis in cancer.md | 12359 |
 | cancer | 01_Jun_2026 | notes/cancer/[document] Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology.md | 12626 |

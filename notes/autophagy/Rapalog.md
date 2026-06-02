@@ -16,5 +16,5 @@
 
 ### Linking Summary:
 - New links added: [[Rapamycin]], [[notes/_link/mTOR]], [[Everolimus]], [[Temsirolimus]], [[notes/_link/Cancer]], [[COVID-19]], [[Osteoarthritis]], [[mTORC1]], [[mTORC2]]
-- Suggested new entity notes to create: [[mTORC1]], [[mTORC2]]
+- Suggested new entity notes to create:
 - Strong connections to strengthen: [[Rapalog]] ↔ [[Rapamycin]], [[Rapalog]] ↔ [[mTORC1]]

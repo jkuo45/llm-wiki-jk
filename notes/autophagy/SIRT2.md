@@ -12,5 +12,5 @@
 
 ### Linking Summary:
 - New links added: [[notes/_link/Autophagy]], [[Atg4B]], [[LC3]], [[notes/_link/SIRT1]]
-- Suggested new entity notes to create: [[Atg4B]], [[LC3]], [[notes/_link/SIRT1]]
+- Suggested new entity notes to create: [[Atg4B]]
 - Strong connections to strengthen: [[SIRT2]] ↔ [[notes/_link/Autophagy]], [[SIRT2]] ↔ [[Atg4B]]

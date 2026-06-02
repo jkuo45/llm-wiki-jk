@@ -14,5 +14,5 @@
 
 ### Linking Summary:
 - New links added: [[notes/_link/Autophagy]], [[Lysosome]], [[LAMP-2A]], [[notes/_link/Aging]]
-- Suggested new entity notes to create: [[Lysosome]], [[LAMP-2A]]
+- Suggested new entity notes to create: , [[LAMP-2A]]
 - Strong connections to strengthen: [[Chaperone-Mediated Autophagy]] ↔ [[notes/_link/Autophagy]], [[Chaperone-Mediated Autophagy]] ↔ [[LAMP-2A]]

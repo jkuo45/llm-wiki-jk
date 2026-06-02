@@ -4,5 +4,5 @@
 
 ### Linking Summary:
 - New links added: [[Lysosome]], [[PIKfyve]], [[PtdIns(3,5)P2]], [[TRPML1]]
-- Suggested new entity notes to create: [[PIKfyve]], [[PtdIns(3,5)P2]], [[TRPML1]]
+- Suggested new entity notes to create:
 - Strong connections to strengthen: [[Endocytic Lysosome Reformation]] ↔ [[Lysosome]]

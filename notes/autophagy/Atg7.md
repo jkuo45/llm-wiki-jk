@@ -14,5 +14,5 @@
 
 ### Linking Summary:
 - New links added: [[notes/_link/Autophagy]], [[Atg12]], [[Atg5]], [[LC3]], [[Atg8]], [[Autophagosome]], [[Cellular Homeostasis]], [[Hematopoietic Stem Cell]]
-- Suggested new entity notes to create: [[Atg12]], [[Atg5]], [[LC3]], [[Autophagosome]], [[Hematopoietic Stem Cell]]
+- Suggested new entity notes to create:
 - Strong connections to strengthen: [[Atg7]] ↔ [[LC3]], [[Atg7]] ↔ [[notes/_link/Autophagy]]

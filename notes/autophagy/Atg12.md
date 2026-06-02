@@ -13,5 +13,5 @@
 
 ### Linking Summary:
 - New links added: [[notes/_link/Autophagy]], [[Atg5]], [[Atg7]], [[Atg16]], [[LC3]], [[Atg8]], [[Autophagosome]]
-- Suggested new entity notes to create: [[Atg5]], [[Atg7]], [[Atg16]], [[LC3]], [[Autophagosome]]
+- Suggested new entity notes to create:
 - Strong connections to strengthen: [[Atg12]] ↔ [[Atg5]], [[Atg12]] ↔ [[LC3]]

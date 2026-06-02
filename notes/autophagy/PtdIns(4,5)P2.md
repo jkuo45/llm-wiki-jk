@@ -4,5 +4,5 @@
 
 ### Linking Summary:
 - New links added: [[Autophagic Lysosome Reformation]], [[AP2]]
-- Suggested new entity notes to create: [[AP2]]
+- Suggested new entity notes to create:
 - Strong connections to strengthen: [[PtdIns(4,5)P2]] ↔ [[Autophagic Lysosome Reformation]]

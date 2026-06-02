@@ -12,5 +12,5 @@
 
 ### Linking Summary:
 - New links added: [[Immune Aging]], [[notes/_link/Autophagy]], [[Atg7]], [[Rapamycin]]
-- Suggested new entity notes to create: [[Immune Aging]], [[Atg7]]
+- Suggested new entity notes to create:
 - Strong connections to strengthen: [[Hematopoietic Stem Cell]] ↔ [[Immune Aging]]

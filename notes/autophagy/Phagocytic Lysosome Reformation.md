@@ -4,5 +4,5 @@
 
 ### Linking Summary:
 - New links added: [[Lysosome]], [[PIKfyve]], [[TRPML1]], [[SLC-36.1]]
-- Suggested new entity notes to create: [[PIKfyve]], [[TRPML1]], [[SLC-36.1]]
+- Suggested new entity notes to create:
 - Strong connections to strengthen: [[Phagocytic Lysosome Reformation]] ↔ [[Lysosome]]
