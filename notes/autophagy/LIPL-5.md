@@ -1,0 +1,12 @@
+# LIPL-5
+
+**LIPL-5** is a [[C. elegans]] triglyceride lipase that is upregulated following [[Fasting]]. It is predicted to localize to the [[Lysosome]] and is expressed in the intestine.
+
+## Regulation
+- **Transcriptional Control**: Its expression is repressed by [[MXL-3]] in well-fed animals and induced by [[HLH-30]] during fasting.
+- **Nutrient Sensitivity**: Shows a modest (2-fold) upregulation in response to 6 hours of fasting in adult worms.
+
+### Linking Summary:
+- New links added: [[C. elegans]], [[Fasting]], [[Lysosome]], [[MXL-3]], [[HLH-30]]
+- Suggested new entity notes to create: [[LIPL-4]]
+- Strong connections to strengthen: [[LIPL-5]] ↔ [[MXL-3]], [[LIPL-5]] ↔ [[HLH-30]]

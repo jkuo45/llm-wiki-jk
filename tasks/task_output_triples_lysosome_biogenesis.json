@@ -1,0 +1,303 @@
+[
+  {
+    "subject": "Lysosome",
+    "predicate": "is a",
+    "object": "degradative center",
+    "context": "Lysosomes are degradation centers and signaling hubs in cells.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Lysosome",
+    "predicate": "is a",
+    "object": "signaling hub",
+    "context": "Lysosomes are degradation centers and signaling hubs in cells.",
+    "confidence": "high"
+  },
+  {
+    "subject": "V-ATPase",
+    "predicate": "maintains",
+    "object": "lysosomal acidity",
+    "context": "The acidic lysosomal lumen is maintained by the lysosomal multi-subunit V-ATPase.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Lysosome biogenesis",
+    "predicate": "involves",
+    "object": "lysosomal protein delivery",
+    "context": "regulatory mechanisms of lysosome biogenesis, including synthesis of lysosomal proteins and their delivery via the endosome–lysosome pathway.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Lysosome biogenesis",
+    "predicate": "involves",
+    "object": "lysosome reformation",
+    "context": "regulatory mechanisms of lysosome biogenesis, including ... reformation of lysosomes from degradative vesicles.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Lysosome biogenesis",
+    "predicate": "involves",
+    "object": "transcriptional regulation",
+    "context": "regulatory mechanisms of lysosome biogenesis, including ... transcriptional regulation of lysosomal genes.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Rab switch",
+    "predicate": "involves",
+    "object": "Rab5 inactivation",
+    "context": "The Rab switch involves Rab5 inactivation by TBC-2 and Rab7 activation by the Sand1–Ccz1 complex.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Rab switch",
+    "predicate": "involves",
+    "object": "Rab7 activation",
+    "context": "The Rab switch involves Rab5 inactivation by TBC-2 and Rab7 activation by the Sand1–Ccz1 complex.",
+    "confidence": "high"
+  },
+  {
+    "subject": "PIKfyve",
+    "predicate": "is required for",
+    "object": "Endocytic Lysosome Reformation",
+    "context": "PIKfyve and the lysosomal calcium channel TRPML1 are both required for ELR.",
+    "confidence": "high"
+  },
+  {
+    "subject": "TRPML1",
+    "predicate": "is required for",
+    "object": "Endocytic Lysosome Reformation",
+    "context": "PIKfyve and the lysosomal calcium channel TRPML1 are both required for ELR.",
+    "confidence": "high"
+  },
+  {
+    "subject": "PtdIns(3,5)P2",
+    "predicate": "activates",
+    "object": "TRPML1",
+    "context": "PIKfyve generates PtdIns(3,5)P2, which activates TRPML1 to control lysosomal Ca2+ efflux.",
+    "confidence": "high"
+  },
+  {
+    "subject": "TRPML1",
+    "predicate": "regulates",
+    "object": "lysosomal Ca2+ efflux",
+    "context": "PIKfyve generates PtdIns(3,5)P2, which activates TRPML1 to control lysosomal Ca2+ efflux.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Autophagic Lysosome Reformation",
+    "predicate": "is regulated by",
+    "object": "mTOR",
+    "context": "With prolonged starvation, mTOR is reactivated by lysosomal degradation of macromolecules. This allows Autolysosomes to generate lysosomal tubules...",
+    "confidence": "high"
+  },
+  {
+    "subject": "ALR",
+    "predicate": "requires",
+    "object": "PtdIns(4,5)P2",
+    "context": "ALR is achieved by the coordinated actions of PtdIns(4,5)P2, clathrin, and the adaptor protein complexes AP2 and AP4.",
+    "confidence": "high"
+  },
+  {
+    "subject": "KIF5B",
+    "predicate": "drives",
+    "object": "protolysosomal tubule extension",
+    "context": "The kinesin heavy chain KIF5B ... drives protolysosomal tubule extension along microtubules.",
+    "confidence": "high"
+  },
+  {
+    "subject": "PIKfyve",
+    "predicate": "is an essential regulator of",
+    "object": "Phagocytic Lysosome Reformation",
+    "context": "PIKfyve, TRPML1, and SLC-36.1 are essential regulators of PLR.",
+    "confidence": "high"
+  },
+  {
+    "subject": "TRPML1",
+    "predicate": "is an essential regulator of",
+    "object": "Phagocytic Lysosome Reformation",
+    "context": "PIKfyve, TRPML1, and SLC-36.1 are essential regulators of PLR.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SLC-36.1",
+    "predicate": "is an essential regulator of",
+    "object": "Phagocytic Lysosome Reformation",
+    "context": "PIKfyve, TRPML1, and SLC-36.1 are essential regulators of PLR.",
+    "confidence": "high"
+  },
+  {
+    "subject": "TFEB",
+    "predicate": "binds to",
+    "object": "CLEAR Element",
+    "context": "TFEB and TFE3 bind to CLEAR elements to activate lysosomal gene expression.",
+    "confidence": "high"
+  },
+  {
+    "subject": "TFE3",
+    "predicate": "binds to",
+    "object": "CLEAR Element",
+    "context": "TFEB and TFE3 bind to CLEAR elements to activate lysosomal gene expression.",
+    "confidence": "high"
+  },
+  {
+    "subject": "TFEB",
+    "predicate": "activates",
+    "object": "lysosomal gene expression",
+    "context": "TFEB and TFE3 bind to CLEAR elements to activate lysosomal gene expression.",
+    "confidence": "high"
+  },
+  {
+    "subject": "TFE3",
+    "predicate": "activates",
+    "object": "lysosomal gene expression",
+    "context": "TFEB and TFE3 bind to CLEAR elements to activate lysosomal gene expression.",
+    "confidence": "high"
+  },
+  {
+    "subject": "mTOR",
+    "predicate": "phosphorylates",
+    "object": "TFEB",
+    "context": "mTOR phosphorylates TFEB at Ser142 and Ser211.",
+    "confidence": "high"
+  },
+  {
+    "subject": "mTOR",
+    "predicate": "phosphorylates",
+    "object": "TFE3",
+    "context": "mTOR phosphorylates TFE3 at Ser321.",
+    "confidence": "high"
+  },
+  {
+    "subject": "calcineurin",
+    "predicate": "dephosphorylates",
+    "object": "TFEB",
+    "context": "calcineurin then dephosphorylates TFEB and induces its nuclear translocation.",
+    "confidence": "high"
+  },
+  {
+    "subject": "STAT3",
+    "predicate": "activates",
+    "object": "lysosomal protease expression",
+    "context": "Activated STAT3 ... trigger their expression [of lysosomal proteases].",
+    "confidence": "high"
+  },
+  {
+    "subject": "MYC",
+    "predicate": "represses",
+    "object": "lysosome biogenesis",
+    "context": "MYC represses lysosome biogenesis by occupying the promoters of lysosomal genes.",
+    "confidence": "high"
+  },
+  {
+    "subject": "ZKSCAN3",
+    "predicate": "represses",
+    "object": "lysosomal gene expression",
+    "context": "ZKSCAN3 ... represses gene expression ... [of] a subset of autophagy and lysosome genes.",
+    "confidence": "high"
+  },
+  {
+    "subject": "CARM1",
+    "predicate": "coactivates",
+    "object": "TFEB",
+    "context": "CARM1 interacts with TFEB and serves as a coactivator.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Rag proteins",
+    "predicate": "recruit",
+    "object": "mTORC1",
+    "context": "mTORC1 is recruited to lysosomes by a heterodimeric complex consisting of GTP-bound RagA/B and GDP-bound RagC/D.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Rag proteins",
+    "predicate": "recruit",
+    "object": "TFEB",
+    "context": "When amino acids are available, TFEB/TFE3 are recruited to lysosomes by interacting with active Rag proteins complexes.",
+    "confidence": "high"
+  },
+  {
+    "subject": "CDK4",
+    "predicate": "phosphorylates",
+    "object": "TFEB",
+    "context": "The cyclin D–CDK4/6 complexes interact with and phosphorylate TFEB (at Ser142).",
+    "confidence": "high"
+  },
+  {
+    "subject": "CDK6",
+    "predicate": "phosphorylates",
+    "object": "TFEB",
+    "context": "The cyclin D–CDK4/6 complexes interact with and phosphorylate TFEB (at Ser142).",
+    "confidence": "high"
+  },
+  {
+    "subject": "Quiescent NSCs",
+    "predicate": "contain",
+    "object": "abundant lysosomes",
+    "context": "In quiescent NSCs (qNSCs), lysosomes are larger and more abundant.",
+    "confidence": "high"
+  },
+  {
+    "subject": "HLH-30",
+    "predicate": "is a homologue of",
+    "object": "TFEB",
+    "context": "In C. elegans, the TFEB homologue HLH-30 promotes lifespan.",
+    "confidence": "high"
+  },
+  {
+    "subject": "HLH-30",
+    "predicate": "promotes",
+    "object": "lifespan",
+    "context": "In C. elegans, the TFEB homologue HLH-30 promotes lifespan by enhancing lysosomal lipolysis.",
+    "confidence": "high"
+  },
+  {
+    "subject": "STA-2",
+    "predicate": "activates",
+    "object": "V-ATPase gene expression",
+    "context": "STA-2 and ELT-3 cooperate to ... enhance the expression of V-ATPase genes.",
+    "confidence": "high"
+  },
+  {
+    "subject": "ELT-3",
+    "predicate": "activates",
+    "object": "V-ATPase gene expression",
+    "context": "STA-2 and ELT-3 cooperate to ... enhance the expression of V-ATPase genes.",
+    "confidence": "high"
+  },
+  {
+    "subject": "mTORC1",
+    "predicate": "is activated by",
+    "object": "Rheb",
+    "context": "mTORC1 is ... activated by the Rheb GTPase.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Ragulator",
+    "predicate": "is a",
+    "object": "RagA/B GEF",
+    "context": "The multi-subunit complex Ragulator and GATOR1 were respectively identified as the guanine exchange factor and GTPase activating protein (GAP) of RagA/B.",
+    "confidence": "high"
+  },
+  {
+    "subject": "GATOR1",
+    "predicate": "is a",
+    "object": "RagA/B GAP",
+    "context": "The multi-subunit complex Ragulator and GATOR1 were respectively identified as the guanine exchange factor and GTPase activating protein (GAP) of RagA/B.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Sestrin2",
+    "predicate": "inhibits",
+    "object": "GATOR2",
+    "context": "Sestrin2 and CASTOR1/2 inhibit GATOR2.",
+    "confidence": "high"
+  },
+  {
+    "subject": "CASTOR1",
+    "predicate": "inhibits",
+    "object": "GATOR2",
+    "context": "Sestrin2 and CASTOR1/2 inhibit GATOR2.",
+    "confidence": "high"
+  }
+]
