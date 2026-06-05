@@ -67,6 +67,7 @@ Maintain link integrity by performing periodic audits:
   - 'notes/\_link/Autophagy.md'
   - 'notes/\_link/Inflammation.md'
 - When a new entity is identified as overlapping, merge its content into the 'notes/\_link/' version and delete the topic-specific files so that it is centrally linked in 'notes/\_link/' directory.
+- Make sure to escape Obsidian link syntax when updating documents and readme files (especially in tables).
 - Validate completeness of the wiki entry.
 
 ## Entity Type Schema
