@@ -1,5 +1,5 @@
 # llm-wiki-jk
-last updated: 03_Jun_2026 04:42 PM  
+last updated: 04_Jun_2026 10:10 PM  
 
 ## topics (notes directory)
 
@@ -11,7 +11,7 @@ last updated: 03_Jun_2026 04:42 PM
 | autophagy | 03_Jun_2026 | 160 | 6 |
 | cancer | 01_Jun_2026 | 251 | 7 |
 | comt | 31_May_2026 | 62 | 2 |
-| epigenetics | 31_May_2026 | 106 | 2 |
+| epigenetics | 04_Jun_2026 | 176 | 3 |
 | neuromelanin | 02_Jun_2026 | 66 | 1 |
 | oxidative_stress | 01_Jun_2026 | 73 | 1 |
 | yamanaka_factors | 29_May_2026 | 83 | 3 |
@@ -51,6 +51,7 @@ last updated: 03_Jun_2026 04:42 PM
 | cancer | 25_May_2026 | notes/cancer/[document] RGD peptide in cancer targeting Benefits, challenges, solutions, and possible integrin–RGD interactions.md | 27411 |
 | comt | 29_May_2026 | notes/comt/[document] COMT How to Optimize Your Supplements for Your COMT Genotype.md | 2304 |
 | comt | 29_May_2026 | notes/comt/[document] Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum.md | 1848 |
+| epigenetics | 04_Jun_2026 | notes/epigenetics/[document] Cellular Mechanisms and Regulation of Quiescence.md | 8012 |
 | epigenetics | 29_May_2026 | notes/epigenetics/[document] Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks.md | 4599 |
 | epigenetics | 29_May_2026 | notes/epigenetics/[document] The Gut Microbiome, Aging, and Longevity A Systematic Review.md | 12840 |
 | neuromelanin | 31_May_2026 | notes/neuromelanin/[document] Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease.md | 9726 |

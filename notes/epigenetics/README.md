@@ -4,121 +4,195 @@ This directory contains notes and research regarding [[notes/_link/Epigenetics]]
 
 ## Maintenance
 
-- Last updated: 31_May_2026 12:00 PM 
-- Total count of entities: 106
+- Last updated: 04_Jun_2026 09:15 PM PDT
+- Total count of entities: 176
 
-| entity | datetime updated |
-| :--- | :---: |
-| [[notes/_link/Acetate]] | 31_May_2026 12:00 PM  |
-| [[notes/_link/Acetyl-CoA]] | 31_May_2026 12:00 PM  |
-| [[Actinobacteria]] | 26_May_2026 06:37 PM  |
-| [[notes/_link/Aging]] | 25_May_2026 05:23 PM  |
-| [[Akkermansia]] | 26_May_2026 06:37 PM  |
-| [[notes/_link/Alpha Diversity]] | 26_May_2026 06:37 PM  |
-| [[notes/_link/Alu element]] | 31_May_2026 12:00 PM  |
-| [[notes/_link/Alzheimer's Disease]] | 25_May_2026 05:23 PM  |
-| [[notes/_link/AMPK]] | 27_May_2026 09:48 AM  |
-| [[notes/_link/Apoptosis]] | 25_May_2026 05:23 PM  |
-| [[notes/_link/Atherosclerosis]] | 25_May_2026 05:23 PM  |
-| [[notes/_link/Autophagy]] | 27_May_2026 09:48 AM  |
-| [[Bacteroidetes]] | 26_May_2026 06:37 PM  |
-| [[Beta Diversity]] | 26_May_2026 06:37 PM  |
-| [[Bifidobacterium]] | 26_May_2026 06:37 PM  |
-| [[notes/_link/Biomarkers]] | 31_May_2026 12:00 PM  |
-| [[notes/_link/Butyrate]] | 31_May_2026 12:00 PM  |
-| [[Caenorhabditis elegans]] | 25_May_2026 05:23 PM  |
-| [[notes/_link/Caloric Restriction]] | 25_May_2026 05:23 PM  |
-| [[notes/_link/Cancer]] | 25_May_2026 05:23 PM  |
-| [[notes/_link/Cardiovascular Disease]] | 25_May_2026 05:23 PM  |
-| [[notes/_link/Senescence]] | 25_May_2026 05:23 PM  |
-| [[notes/_link/Centenarians]] | 31_May_2026 12:00 PM  |
-| [[Christensenellaceae]] | 26_May_2026 06:37 PM  |
-| [[notes/_link/Chromatin]] | 31_May_2026 12:00 PM  |
-| [[notes/_link/Cognition]] | 31_May_2026 12:00 PM  |
-| [[notes/_link/Coronary Heart Disease]] | 31_May_2026 12:00 PM  |
-| [[notes/_link/CpG Island]] | 31_May_2026 12:00 PM  |
-| [[notes/_link/Diabetes Mellitus]] | 25_May_2026 05:23 PM  |
-| [[notes/_link/DNA Damage]] | 25_May_2026 05:23 PM  |
-| [[notes/_link/Methylation]] | 31_May_2026 12:00 PM  |
-| [[DNA Methyltransferase]] | 25_May_2026 05:23 PM  |
-| [[notes/_link/DNA Repair]] | 25_May_2026 05:23 PM  |
-| [[DNA Replication]] | 25_May_2026 05:23 PM  |
-| [[DNAmGrimAge]] | 25_May_2026 05:23 PM  |
-| [[DNMT1]] | 25_May_2026 05:23 PM  |
-| [[DNMT3a]] | 25_May_2026 05:23 PM  |
-| [[DNMT3b]] | 25_May_2026 05:23 PM  |
-| [[Drosophila melanogaster]] | 25_May_2026 05:23 PM  |
-| [[Epigenetic Clock]] | 25_May_2026 05:23 PM  |
-| [[notes/_link/Epigenetic Drift]] | 31_May_2026 12:00 PM  |
-| [[Epigenetic Inheritance]] | 25_May_2026 05:23 PM  |
-| [[Epigenetics and aging]] | 27_May_2026 09:48 AM  |
-| [[notes/_link/Epigenetics]] | 31_May_2026 12:00 PM  |
-| [[notes/_link/Epigenome]] | 31_May_2026 12:00 PM  |
-| [[notes/_link/Euchromatin]] | 31_May_2026 12:00 PM  |
-| [[notes/_link/Faecalibacterium]] | 31_May_2026 12:00 PM  |
-| [[notes/_link/Firmicutes]] | 31_May_2026 12:00 PM  |
-| [[notes/_link/Gastrointestinal Tract]] | 31_May_2026 12:00 PM  |
-| [[notes/_link/Genomic Instability]] | 31_May_2026 12:00 PM  |
-| [[notes/_link/Genotype]] | 31_May_2026 12:00 PM  |
-| [[notes/_link/Geroscience]] | 31_May_2026 12:00 PM  |
-| [[notes/_link/Gut Microbiome]] | 31_May_2026 12:00 PM  |
-| [[notes/_link/Gut-Brain Axis]] | 31_May_2026 12:00 PM  |
-| [[notes/_link/Hallmarks of Aging]] | 31_May_2026 12:00 PM  |
-| [[HAT]] | 25_May_2026 05:23 PM  |
-| [[HDAC]] | 25_May_2026 05:23 PM  |
-| [[notes/_link/Heterochromatin]] | 31_May_2026 12:00 PM  |
-| [[notes/_link/Hutchinson-Gilford Progeria Syndrome]] | 31_May_2026 12:00 PM  |
-| [[notes/_link/Histone Acetylation]] | 31_May_2026 12:00 PM  |
-| [[Histone Acetyltransferase]] | 25_May_2026 05:23 PM  |
-| [[Histone Deacetylase]] | 25_May_2026 05:23 PM  |
-| [[notes/_link/Histone Methylation]] | 31_May_2026 12:00 PM  |
-| [[Histone Methyltransferase]] | 25_May_2026 05:23 PM  |
-| [[notes/_link/Histone Modification]] | 31_May_2026 12:00 PM  |
-| [[Histone Variant]] | 25_May_2026 05:23 PM  |
-| [[notes/_link/IGF-1]] | 31_May_2026 12:00 PM  |
-| [[notes/_link/Immune System]] | 31_May_2026 12:00 PM  |
-| [[notes/_link/Immunosenescence]] | 26_May_2026 06:37 PM  |
-| [[notes/_link/Inflammaging]] | 26_May_2026 06:37 PM  |
-| [[notes/_link/Lactobacillus]] | 31_May_2026 12:00 PM  |
-| [[notes/_link/Lamin A]] | 31_May_2026 12:00 PM  |
-| [[notes/_link/LINE-1]] | 31_May_2026 12:00 PM  |
-| [[notes/_link/LMNA Gene]] | 31_May_2026 12:00 PM  |
-| [[notes/_link/Longevity]] | 31_May_2026 12:00 PM  |
-| [[notes/_link/MAPK]] | 25_May_2026 05:23 PM  |
-| [[notes/_link/Metabolic Syndromes]] | 31_May_2026 12:00 PM  |
-| [[notes/_link/Metabolism]] | 31_May_2026 12:00 PM  |
-| [[notes/_link/Metabolites]] | 31_May_2026 12:00 PM  |
-| [[notes/_link/Metabolome]] | 31_May_2026 12:00 PM  |
-| [[notes/_link/Metformin]] | 27_May_2026 09:48 AM  |
-| [[notes/_link/MicroRNA]] | 31_May_2026 12:00 PM  |
-| [[Model Organisms]] | 25_May_2026 05:23 PM  |
-| [[notes/_link/mTOR]] | 27_May_2026 09:48 AM  |
-| [[notes/_link/NAD+]] | 31_May_2026 12:00 PM  |
-| [[notes/_link/Neurodegenerative Diseases]] | 27_May_2026 09:48 AM  |
-| [[notes/_link/Non-coding RNA]] | 31_May_2026 12:00 PM  |
-| [[notes/_link/Progerin]] | 31_May_2026 12:00 PM  |
-| [[notes/_link/TET Enzymes]] | 31_May_2026 12:00 PM  |
-| [[Nucleosome Remodeling]] | 25_May_2026 05:23 PM  |
-| [[notes/_link/Nucleosome]] | 31_May_2026 12:00 PM  |
-| [[notes/_link/Phenotype]] | 31_May_2026 12:00 PM  |
-| [[Polycomb Group Proteins]] | 25_May_2026 05:23 PM  |
-| [[notes/_link/Propionate]] | 31_May_2026 12:00 PM  |
-| [[Proteobacteria]] | 26_May_2026 06:37 PM  |
-| [[notes/_link/PTEN]] | 31_May_2026 12:00 PM  |
-| [[notes/_link/Resveratrol]] | 25_May_2026 05:23 PM  |
-| [[Saccharomyces cerevisiae]] | 25_May_2026 05:23 PM  |
-| [[SAHF]] | 25_May_2026 05:23 PM  |
-| [[notes/_link/SASP]] | 31_May_2026 12:00 PM  |
-| [[notes/_link/Senolytics]] | 31_May_2026 12:00 PM  |
-| [[notes/_link/Short-chain Fatty Acids]] | 31_May_2026 12:00 PM  |
-| [[notes/_link/SIRT1]] | 25_May_2026 05:23 PM  |
-| [[notes/_link/SIRT6]] | 31_May_2026 12:00 PM  |
-| [[notes/_link/Sirtuin]] | 31_May_2026 12:00 PM  |
-| [[notes/_link/Spermidine]] | 27_May_2026 09:48 AM  |
-| [[notes/_link/Stem Cell Exhaustion]] | 31_May_2026 12:00 PM  |
-| [[notes/_link/Successful Aging]] | 31_May_2026 12:00 PM  |
-| [[notes/_link/Telomere Attrition]] | 31_May_2026 12:00 PM  |
-| [[notes/_link/Transcription]] | 31_May_2026 12:00 PM  |
-| [[Transposable Elements]] | 25_May_2026 05:23 PM  |
-| [[Verrucomicrobia]] | 26_May_2026 06:37 PM  |
-| [[notes/_link/Werner Syndrome]] | 31_May_2026 12:00 PM  |
+**entity_relevance_score_1 (1-10):** This score measures the centrality of the entity to core epigenetic mechanisms, chromatin regulation, and associated processes like gene expression control, aging, and disease.
+- **10 (Core)**: Essential master regulators, core machinery, or the processes themselves (e.g., [[DNMT1]], [[DNMT3A]], [[TET enzymes]], [[HDAC1/2]], [[Histone H3K27me3]], [[DNA Methylation]], [[Chromatin Remodeling]], [[Epigenetic Clock]]).
+- **7-9 (High)**: Key writers/readers/erasers, major histone marks, upstream signaling that directly drives epigenetic states, or primary tools/interventions (e.g., [[EZH2]], [[p300/CBP]], [[SWI/SNF complex]], [[Histone Acetylation]], [[CRISPR-based epigenetic editors]], [[Caloric Restriction]] or other longevity interventions that act via epigenetics).
+- **4-6 (Moderate)**: Downstream effectors, specific cell-type contexts, biomarkers, or entities significantly influenced by or influencing epigenetics but not exclusive to it (e.g., [[p53|TP53]], specific miRNAs/lncRNAs, [[Telomeres]] in aging contexts, certain transcription factors).
+- **1-3 (Low/Tangential)**: Distant or context-specific connections (e.g., general environmental toxins without clear epigenetic mechanisms, unrelated diseases, or historical figures in genetics).
+
+**entity_sentiment_score_1 (-1, 0, 1):** This score reflects the functional directionality of the entity relative to healthy epigenetic regulation, proper gene expression, cellular homeostasis, healthy aging, and disease prevention/reversal.
+- **1 (Stimulatory/Positive)**: Promoters of balanced/healthy epigenetic states, gene activation where appropriate, youthful patterns, or beneficial interventions (e.g., [[TET enzymes]] (demethylation), [[Histone Acetyltransferases (HATs)]], [[Dietary Restriction]] or exercise that improve epigenetic clocks, beneficial microbiome influences).
+- **0 (Neutral/Structural)**: Core structural components, general machinery with context-dependent roles, or marks whose effects vary by locus/cell type (e.g., many histone modifications like H3K4me3, core histones, general [[Chromatin Remodeling Complexes]], [[Epigenetic Clock]] as a measurement tool).
+- **-1 (Inhibitory/Negative)**: Drivers of pathological epigenetic changes, aberrant silencing/activation, accelerated aging, or disease-associated states (e.g., hyperactive [[DNMTs]] leading to aberrant methylation in cancer, [[HDACs]] in certain repressive contexts, [[EZH2]] overexpression, [[Inflammation]] or metabolic stress causing epigenetic drift, advanced [[Epigenetic Age]] acceleration).
+
+| entity                                               |   datetime updated   | entity_type_1          | entity_relevance_score_1 | entity_sentiment_score_1 | justification                                                                                               |
+| :--------------------------------------------------- | :------------------: | ---------------------- | ------------------------ | ------------------------ | ----------------------------------------------------------------------------------------------------------- |
+| [[notes/_link/Acetate]]                              | 04_Jun_2026 09:15 PM | Metabolite             | 7                        | 1                        | Metabolic precursor for Acetyl-CoA, providing acetyl groups for histone acetylation.                        |
+| [[notes/_link/Acetyl-CoA]]                           | 04_Jun_2026 09:15 PM | Metabolite             | 10                       | 1                        | Essential metabolic substrate for all histone acetyltransferases (HATs).                                    |
+| [[Actinobacteria]]                                   | 04_Jun_2026 09:15 PM | Microorganism          | 6                        | 0                        | Phylum of bacteria in the gut microbiome that influences host epigenetics via metabolite production.        |
+| [[Actin Cytoskeleton]]                               | 04_Jun_2026 09:15 PM | Anatomy                | 4                        | 0                        | Cytoskeletal structure whose regulation is often downstream of epigenetic changes during cell differentiation. |
+| [[Adherens Junction]]                                | 04_Jun_2026 09:15 PM | Anatomy                | 4                        | 0                        | Cell-cell junctional complex whose components are regulated by epigenetic states in EMT.                    |
+| [[notes/_link/Aging]]                                | 04_Jun_2026 09:15 PM | Biological Process     | 9                        | -1                       | Primary driver of global epigenetic changes, including DNA methylation drift and loss of heterochromatin.   |
+| [[Akkermansia]]                                      | 04_Jun_2026 09:15 PM | Microorganism          | 6                        | 1                        | Beneficial gut bacterium associated with improved metabolic health and favorable epigenetic profiles.       |
+| [[notes/_link/Alpha Diversity]]                      | 04_Jun_2026 09:15 PM | Scientific Concept     | 4                        | 0                        | Measure of microbiome richness that correlates with host health and systemic epigenetic age.                |
+| [[notes/_link/Alu element]]                          | 04_Jun_2026 09:15 PM | Scientific Concept     | 7                        | -1                       | Abundant transposable element whose hypomethylation in aging and cancer leads to genomic instability.       |
+| [[notes/_link/Alzheimer's Disease]]                  | 04_Jun_2026 09:15 PM | Medical Condition      | 6                        | -1                       | Neurodegenerative condition characterized by significant epigenetic dysregulation in brain tissues.         |
+| [[notes/_link/AMPK]]                                 | 04_Jun_2026 09:15 PM | Enzyme                 | 9                        | 1                        | Master metabolic regulator that influences epigenetic states by modulating NAD+ levels and sirtuin activity. |
+| [[Anaphase Promoting Complex-Cyclosome]]             | 04_Jun_2026 09:15 PM | Enzyme                 | 4                        | 0                        | Ubiquitin ligase that regulates cell cycle progression, often influenced by epigenetic control.             |
+| [[Aneuploidy]]                                       | 04_Jun_2026 09:15 PM | Medical Condition      | 6                        | -1                       | Chromosomal abnormality that triggers and is exacerbated by epigenetic instability.                         |
+| [[Antioxidant]]                                      | 04_Jun_2026 09:15 PM | Pharmacological Action | 6                        | 1                        | Substances that mitigate oxidative stress-induced epigenetic damage and preserve DNA methylation patterns.  |
+| [[notes/_link/Apoptosis]]                            | 04_Jun_2026 09:15 PM | Biological Process     | 5                        | 0                        | Programmed cell death regulated by epigenetic silencing or activation of pro-apoptotic genes.               |
+| [[notes/_link/Atherosclerosis]]                      | 04_Jun_2026 09:15 PM | Medical Condition      | 6                        | -1                       | Inflammatory disease of arteries driven by aberrant epigenetic changes in vascular cells.                   |
+| [[notes/_link/Autophagy]]                            | 04_Jun_2026 09:15 PM | Biological Process     | 8                        | 1                        | Cellular recycling process that maintains epigenetic homeostasis and is a hallmark of healthy aging.        |
+| [[Bacteroidetes]]                                    | 04_Jun_2026 09:15 PM | Microorganism          | 6                        | 0                        | Major gut bacterial phylum involved in producing short-chain fatty acids that act as HDAC inhibitors.       |
+| [[Basal Lamina]]                                     | 04_Jun_2026 09:15 PM | Anatomy                | 4                        | 0                        | Extracellular structure that provides signals influencing the epigenetic state of attached cells.           |
+| [[Beta Diversity]]                                   | 04_Jun_2026 09:15 PM | Scientific Concept     | 4                        | 0                        | Microbiome metric comparing composition between samples, reflecting environmental impacts on epigenetics.    |
+| [[Bifidobacterium]]                                  | 04_Jun_2026 09:15 PM | Microorganism          | 6                        | 1                        | Probiotic bacterium known to produce metabolites that promote healthy epigenetic regulation.               |
+| [[notes/_link/Biomarkers]]                           | 04_Jun_2026 09:15 PM | Biomarker              | 5                        | 0                        | Molecular indicators, including epigenetic marks, used to assess biological age and disease risk.           |
+| [[notes/_link/Butyrate]]                             | 04_Jun_2026 09:15 PM | Metabolite             | 9                        | 1                        | Microbial metabolite that acts as a potent endogenous HDAC inhibitor, promoting gene expression.           |
+| [[Cadherin]]                                         | 04_Jun_2026 09:15 PM | Protein                | 4                        | 0                        | Cell adhesion molecule whose gene expression is frequently silenced by promoter hypermethylation in cancer.  |
+| [[Caenorhabditis elegans]]                           | 04_Jun_2026 09:15 PM | Model Organism         | 5                        | 0                        | Key model for studying transgenerational epigenetic inheritance and longevity pathways.                     |
+| [[notes/_link/Caloric Restriction]]                  | 04_Jun_2026 09:15 PM | Biological Process     | 9                        | 1                        | Potent intervention that slows epigenetic aging and enhances sirtuin-mediated chromatin stability.          |
+| [[notes/_link/Cancer]]                               | 04_Jun_2026 09:15 PM | Medical Condition      | 7                        | -1                       | Disease fundamentally driven by epigenetic alterations, including global hypomethylation.                    |
+| [[notes/_link/Cardiovascular Disease]]               | 04_Jun_2026 09:15 PM | Medical Condition      | 6                        | -1                       | Pathological state associated with pro-inflammatory epigenetic shifts in the cardiovascular system.         |
+| [[CDK Inhibitor]]                                    | 04_Jun_2026 09:15 PM | Protein                | 6                        | 0                        | Family of proteins that regulate cell cycle arrest, often subject to epigenetic silencing.                  |
+| [[CDKN1A]]                                           | 04_Jun_2026 09:15 PM | Gene                   | 7                        | -1                       | Gene encoding p21, a key mediator of senescence that is epigenetically upregulated during aging.           |
+| [[CDKN1B]]                                           | 04_Jun_2026 09:15 PM | Gene                   | 6                        | 0                        | Gene encoding p27, a cell cycle inhibitor whose expression is modulated by epigenetic mechanisms.           |
+| [[CDKN1C]]                                           | 04_Jun_2026 09:15 PM | Gene                   | 6                        | 0                        | Imprinted gene encoding p57, whose loss of imprinting or silencing leads to developmental disorders.        |
+| [[Cell Cycle]]                                       | 04_Jun_2026 09:15 PM | Biological Process     | 6                        | 0                        | Ordered series of cellular events tightly coordinated with DNA replication and epigenetic inheritance.      |
+| [[notes/_link/Senescence]]                           | 04_Jun_2026 09:15 PM | Biological Process     | 9                        | -1                       | State of permanent cell cycle arrest characterized by profound chromatin remodeling and the SASP.           |
+| [[notes/_link/Centenarians]]                         | 04_Jun_2026 09:15 PM | Scientific Concept     | 5                        | 1                        | Individuals with exceptional longevity who maintain a more 'youthful' epigenetic profile.                   |
+| [[Christensenellaceae]]                              | 04_Jun_2026 09:15 PM | Microorganism          | 6                        | 1                        | Heritable gut bacterium associated with a lean phenotype and healthy metabolic/epigenetic status.           |
+| [[notes/_link/Chromatin]]                            | 04_Jun_2026 09:15 PM | Anatomy                | 10                       | 0                        | The complex of DNA and proteins that serves as the physical substrate for all epigenetic regulation.        |
+| [[c-Met]]                                            | 04_Jun_2026 09:15 PM | Receptor               | 5                        | 0                        | Receptor tyrosine kinase whose expression and signaling are influenced by epigenetic modifications.         |
+| [[notes/_link/Cognition]]                            | 04_Jun_2026 09:15 PM | Biological Process     | 5                        | 1                        | Higher-order brain function dependent on dynamic epigenetic changes in neurons during learning.             |
+| [[Cohesin]]                                          | 04_Jun_2026 09:15 PM | Protein                | 7                        | 0                        | Protein complex that regulates 3D chromatin architecture and facilitates long-range interactions.           |
+| [[Collagen]]                                         | 04_Jun_2026 09:15 PM | Protein                | 4                        | 0                        | Structural protein whose synthesis in fibroblasts is regulated by epigenetic mechanisms in fibrosis.         |
+| [[Connective Tissue]]                                | 04_Jun_2026 09:15 PM | Anatomy                | 4                        | 0                        | Tissue type where epigenetic programs maintain cellular identity and ECM homeostasis.                       |
+| [[Contact Inhibition]]                               | 04_Jun_2026 09:15 PM | Biological Process     | 5                        | 0                        | Cellular process that prevents overgrowth, regulated by epigenetic control of cell cycle genes.             |
+| [[notes/_link/Coronary Heart Disease]]               | 04_Jun_2026 09:15 PM | Medical Condition      | 6                        | -1                       | Form of heart disease linked to specific DNA methylation patterns in blood cells.                           |
+| [[notes/_link/CpG Island]]                           | 04_Jun_2026 09:15 PM | Scientific Concept     | 9                        | 0                        | DNA regions with high CpG density, often located in promoters and regulated by methylation.                 |
+| [[Cyclin]]                                           | 04_Jun_2026 09:15 PM | Protein                | 5                        | 0                        | Regulatory proteins that control cell cycle progression, often targets of epigenetic regulation.           |
+| [[Cyclin-Dependent Kinase]]                          | 04_Jun_2026 09:15 PM | Enzyme                 | 6                        | 0                        | Kinases that drive the cell cycle; their activity and inhibitors are frequently epigenetically modulated.     |
+| [[notes/_link/Diabetes Mellitus]]                    | 04_Jun_2026 09:15 PM | Medical Condition      | 6                        | -1                       | Metabolic disease characterized by persistent epigenetic changes due to chronic hyperglycemia.               |
+| [[notes/_link/DNA Damage]]                           | 04_Jun_2026 09:15 PM | Biological Process     | 7                        | -1                       | Insult to DNA that triggers chromatin remodeling and can lead to permanent epigenetic scars.               |
+| [[notes/_link/Methylation]]                          | 04_Jun_2026 09:15 PM | Biological Process     | 10                       | 0                        | The addition of methyl groups to DNA, a fundamental and most-studied epigenetic modification.               |
+| [[DNA Methyltransferase]]                            | 04_Jun_2026 09:15 PM | Enzyme                 | 10                       | 0                        | Enzymes responsible for establishing and maintaining DNA methylation patterns across the genome.            |
+| [[notes/_link/DNA Repair]]                           | 04_Jun_2026 09:15 PM | Biological Process     | 7                        | 1                        | System that maintains genomic integrity, closely integrated with chromatin remodeling.                      |
+| [[DNA Replication]]                                  | 04_Jun_2026 09:15 PM | Biological Process     | 6                        | 0                        | Process of copying DNA, during which epigenetic marks must be accurately inherited.                         |
+| [[DNAmGrimAge]]                                      | 04_Jun_2026 09:15 PM | Biomarker              | 9                        | 0                        | A highly accurate epigenetic clock that predicts mortality and healthspan based on methylation patterns.     |
+| [[DNMT1]]                                            | 04_Jun_2026 09:15 PM | Enzyme                 | 10                       | 0                        | The primary maintenance DNA methyltransferase responsible for copying methylation marks during replication. |
+| [[DNMT3a]]                                           | 04_Jun_2026 09:15 PM | Enzyme                 | 10                       | 0                        | De novo DNA methyltransferase essential for establishing new methylation patterns during development.       |
+| [[DNMT3b]]                                           | 04_Jun_2026 09:15 PM | Enzyme                 | 10                       | 0                        | De novo DNA methyltransferase involved in establishing methylation, particularly at centromeric repeats.    |
+| [[Drosophila melanogaster]]                          | 04_Jun_2026 09:15 PM | Model Organism         | 5                        | 0                        | Classic model organism for studying histone modifications and Polycomb regulation.                          |
+| [[E2F]]                                              | 04_Jun_2026 09:15 PM | Protein                | 6                        | 0                        | Family of transcription factors that regulate cell cycle progression, often controlled by RB1.              |
+| [[E2F1]]                                             | 04_Jun_2026 09:15 PM | Protein                | 6                        | 0                        | Member of the E2F family that can promote either cell cycle entry or apoptosis depending on epigenetics.    |
+| [[Epigenetic Clock]]                                 | 04_Jun_2026 09:15 PM | Biomarker              | 10                       | 0                        | A tool that uses DNA methylation levels at specific sites to estimate biological age.                       |
+| [[notes/_link/Epigenetic Drift]]                     | 04_Jun_2026 09:15 PM | Scientific Concept     | 9                        | -1                       | The gradual, stochastic change in the epigenome over time, contributing to aging and disease.               |
+| [[Epigenetic Inheritance]]                           | 04_Jun_2026 09:15 PM | Biological Process     | 8                        | 0                        | The transmission of epigenetic information from parents to offspring or from mother to daughter cells.     |
+| [[Epigenetics and aging]]                            | 04_Jun_2026 09:15 PM | Scientific Concept     | 10                       | -1                       | The overarching study of how epigenetic changes drive the aging process and age-related decline.            |
+| [[notes/_link/Epigenetics]]                          | 04_Jun_2026 09:15 PM | Scientific Concept     | 10                       | 0                        | The study of heritable changes in gene expression that do not involve alterations to the DNA sequence.      |
+| [[notes/_link/Epigenome]]                            | 04_Jun_2026 09:15 PM | Scientific Concept     | 10                       | 0                        | The complete set of epigenetic modifications across the entire genome of a cell or individual.              |
+| [[notes/_link/Euchromatin]]                         | 04_Jun_2026 09:15 PM | Anatomy                | 10                       | 1                        | The lightly packed, transcriptionally active form of chromatin associated with youthful gene expression.    |
+| [[Extracellular Matrix]]                             | 04_Jun_2026 09:15 PM | Anatomy                | 4                        | 0                        | Network of extracellular proteins that provides mechanical cues that can be transduced into epigenetic shifts. |
+| [[FAK Signaling]]                                    | 04_Jun_2026 09:15 PM | Biological Process     | 4                        | 0                        | Signaling pathway that links cell adhesion to changes in gene expression and epigenetic state.              |
+| [[notes/_link/Faecalibacterium]]                     | 04_Jun_2026 09:15 PM | Microorganism          | 6                        | 1                        | Abundant gut bacterium that produces butyrate, a key HDAC inhibitor that supports host health.              |
+| [[Fibroblast]]                                       | 04_Jun_2026 09:15 PM | Cell Type              | 5                        | 0                        | Common connective tissue cell type often used in studies of epigenetic reprogramming and senescence.        |
+| [[notes/_link/Firmicutes]]                           | 04_Jun_2026 09:15 PM | Microorganism          | 6                        | 0                        | Major gut bacterial phylum whose ratio to Bacteroidetes is linked to metabolic health.                      |
+| [[Focal Adhesion]]                                   | 04_Jun_2026 09:15 PM | Anatomy                | 4                        | 0                        | Cellular structure that mediates attachment to the ECM and initiates signaling to the nucleus.               |
+| [[G0 Phase]]                                         | 04_Jun_2026 09:15 PM | Biological Process     | 6                        | 0                        | Quiescent state of the cell cycle characterized by unique epigenetic signatures and repressive chromatin.   |
+| [[G1 Phase]]                                         | 04_Jun_2026 09:15 PM | Biological Process     | 6                        | 0                        | Initial growth phase of the cell cycle where epigenetic cues determine the decision to divide.              |
+| [[notes/_link/Gastrointestinal Tract]]               | 04_Jun_2026 09:15 PM | Anatomy                | 4                        | 0                        | Organ system where host cells interact extensively with the microbiome and its epigenetic metabolites.      |
+| [[Gene Expression]]                                  | 04_Jun_2026 09:15 PM | Biological Process     | 9                        | 0                        | The process by which information from a gene is used to synthesize functional products.                     |
+| [[notes/_link/Genomic Instability]]                  | 04_Jun_2026 09:15 PM | Biological Process     | 8                        | -1                       | Condition of high mutation rates often caused by the loss of repressive epigenetic marks on repetitive DNA. |
+| [[notes/_link/Genotype]]                             | 04_Jun_2026 09:15 PM | Scientific Concept     | 5                        | 0                        | The genetic makeup of an organism, which provides the template upon which the epigenome acts.              |
+| [[notes/_link/Geroscience]]                          | 04_Jun_2026 09:15 PM | Scientific Concept     | 7                        | 1                        | Interdisciplinary field focused on the relationship between aging and chronic disease.                      |
+| [[notes/_link/Gut Microbiome]]                       | 04_Jun_2026 09:15 PM | Scientific Concept     | 7                        | 1                        | The complex community of microbes in the gut that significantly influences host epigenetics.                |
+| [[notes/_link/Gut-Brain Axis]]                       | 04_Jun_2026 09:15 PM | Biological Process     | 5                        | 0                        | Bi-directional communication between the gut and brain, often mediated by microbial epigenetic modulation.  |
+| [[notes/_link/Hallmarks of Aging]]                   | 04_Jun_2026 09:15 PM | Scientific Concept     | 8                        | -1                       | The defining biological characteristics of aging, which include 'Epigenetic Alterations'.                   |
+| [[HAT]]                                              | 04_Jun_2026 09:15 PM | Enzyme                 | 10                       | 1                        | Histone acetyltransferases that add acetyl groups to histones, typically promoting an open chromatin state. |
+| [[HDAC]]                                             | 04_Jun_2026 09:15 PM | Enzyme                 | 10                       | -1                       | Histone deacetylases that remove acetyl groups, generally leading to chromatin compaction.                  |
+| [[Hematopoietic Stem Cell]]                          | 04_Jun_2026 09:15 PM | Cell Type              | 6                        | 0                        | Stem cells in the bone marrow whose aging is tightly regulated by DNA methylation patterns.                |
+| [[Hepatocyte]]                                       | 04_Jun_2026 09:15 PM | Cell Type              | 5                        | 0                        | Primary liver cells where metabolic state and epigenetic regulation are closely coupled.                     |
+| [[Hepatocyte Growth Factor]]                         | 04_Jun_2026 09:15 PM | Protein                | 5                        | 1                        | Growth factor that promotes tissue regeneration and can influence epigenetic states in target cells.       |
+| [[notes/_link/Heterochromatin]]                      | 04_Jun_2026 09:15 PM | Anatomy                | 10                       | 0                        | Tightly packed, transcriptionally silent chromatin whose loss is a major feature of aging.                  |
+| [[Hippo Signaling Pathway]]                          | 04_Jun_2026 09:15 PM | Biological Process     | 6                        | 0                        | Signal transduction pathway that regulates organ size and is integrated with epigenetic control.           |
+| [[notes/_link/Hutchinson-Gilford Progeria Syndrome]] | 04_Jun_2026 09:15 PM | Medical Condition      | 7                        | -1                       | Accelerated aging disorder caused by LMNA mutations, characterized by severe loss of heterochromatin.       |
+| [[notes/_link/Histone Acetylation]]                  | 04_Jun_2026 09:15 PM | Biological Process     | 10                       | 1                        | Dynamic epigenetic mark that neutralizes histone positive charge, loosening chromatin.                      |
+| [[Histone Acetyltransferase]]                        | 04_Jun_2026 09:15 PM | Enzyme                 | 10                       | 1                        | Enzymes that catalyze the addition of acetyl groups to histones, promoting gene expression.                |
+| [[Histone Deacetylase]]                              | 04_Jun_2026 09:15 PM | Enzyme                 | 10                       | -1                       | Enzymes that remove acetyl groups from histones, associated with transcriptional repression and aging.      |
+| [[notes/_link/Histone Methylation]]                  | 04_Jun_2026 09:15 PM | Biological Process     | 10                       | 0                        | The addition of methyl groups to histone tails, which can activate or repress transcription.               |
+| [[Histone Methyltransferase]]                        | 04_Jun_2026 09:15 PM | Enzyme                 | 10                       | 0                        | Enzymes that catalyze the methylation of histones, serving as key readers and writers of the code.          |
+| [[notes/_link/Histone Modification]]                 | 04_Jun_2026 09:15 PM | Biological Process     | 10                       | 0                        | Broad category of covalent changes to histone proteins that regulate chromatin structure and function.      |
+| [[Histone Variant]]                                  | 04_Jun_2026 09:15 PM | Protein                | 9                        | 0                        | Non-canonical histones that replace standard ones to alter chromatin properties and epigenetic states.      |
+| [[notes/_link/IGF-1]]                                | 04_Jun_2026 09:15 PM | Protein                | 7                        | -1                       | Growth factor whose signaling levels are inversely correlated with longevity and influence aging.           |
+| [[notes/_link/Immune System]]                        | 04_Jun_2026 09:15 PM | Anatomy                | 5                        | 0                        | System of biological structures and processes whose function is shaped by complex epigenetic programming.   |
+| [[notes/_link/Immunosenescence]]                     | 04_Jun_2026 09:15 PM | Biological Process     | 7                        | -1                       | The age-related decline in immune function, driven by epigenetic changes in hematopoietic lineages.         |
+| [[notes/_link/Inflammaging]]                         | 04_Jun_2026 09:15 PM | Biological Process     | 8                        | -1                       | Chronic, low-grade inflammation during aging that induces pathological epigenetic shifts.                   |
+| [[Integrin]]                                         | 04_Jun_2026 09:15 PM | Receptor               | 5                        | 0                        | Transmembrane receptor that mediates cell-ECM interactions and influences epigenetic differentiation.      |
+| [[notes/_link/Lactobacillus]]                        | 04_Jun_2026 09:15 PM | Microorganism          | 6                        | 1                        | Beneficial gut bacterium that produces lactate and other metabolites influencing host epigenetics.          |
+| [[Laminin]]                                          | 04_Jun_2026 09:15 PM | Protein                | 4                        | 0                        | Basal lamina protein that provides architectural cues influencing the nuclear envelope and chromatin.       |
+| [[notes/_link/Lamin A]]                              | 04_Jun_2026 09:15 PM | Protein                | 7                        | 0                        | Nuclear envelope protein essential for heterochromatin organization; its mutant form causes aging.          |
+| [[notes/_link/LINE-1]]                               | 04_Jun_2026 09:15 PM | Scientific Concept     | 8                        | -1                       | Retrotransposon whose activation due to loss of silencing causes genomic instability and inflammation.      |
+| [[Liver Regeneration]]                               | 04_Jun_2026 09:15 PM | Biological Process     | 6                        | 1                        | Process of tissue recovery that involves significant and rapid epigenetic reprogramming in hepatocytes.     |
+| [[notes/_link/LMNA Gene]]                            | 04_Jun_2026 09:15 PM | Gene                   | 7                        | 0                        | Gene encoding Lamin A/C, critical for nuclear structure and epigenetic maintenance.                         |
+| [[notes/_link/Longevity]]                            | 04_Jun_2026 09:15 PM | Scientific Concept     | 7                        | 1                        | The pursuit of extended lifespan and healthspan, often achieved through epigenetic-targeted interventions.  |
+| [[Lymphocyte]]                                       | 04_Jun_2026 09:15 PM | Cell Type              | 5                        | 0                        | Immune cells whose differentiation and memory states are defined by distinct epigenetic landscapes.         |
+| [[Major Histocompatibility Complex]]                 | 04_Jun_2026 09:15 PM | Protein                | 5                        | 0                        | Surface proteins essential for the immune system, whose expression is subject to strict epigenetic control. |
+| [[notes/_link/MAPK]]                                 | 04_Jun_2026 09:15 PM | Enzyme                 | 6                        | 0                        | Signaling kinase family that can transmit environmental signals to the nucleus to modify epigenetic marks.  |
+| [[notes/_link/Metabolic Syndromes]]                  | 04_Jun_2026 09:15 PM | Medical Condition      | 6                        | -1                       | Cluster of conditions linked to metabolic-epigenetic crosstalk and accelerated biological aging.            |
+| [[notes/_link/Metabolism]]                           | 04_Jun_2026 09:15 PM | Biological Process     | 7                        | 0                        | The set of chemical reactions that provides all necessary substrates and cofactors for epigenetic enzymes.  |
+| [[notes/_link/Metabolites]]                          | 04_Jun_2026 09:15 PM | Metabolite             | 7                        | 0                        | Small molecules produced during metabolism that act as essential regulators for the epigenetic machinery.   |
+| [[notes/_link/Metabolome]]                           | 04_Jun_2026 09:15 PM | Scientific Concept     | 6                        | 0                        | The complete set of small-molecule metabolites that reflects the metabolic state and influences epigenome.  |
+| [[MET gene]]                                         | 04_Jun_2026 09:15 PM | Gene                   | 5                        | 0                        | Proto-oncogene encoding c-Met, frequently overexpressed due to epigenetic alterations in cancers.           |
+| [[notes/_link/Metformin]]                            | 04_Jun_2026 09:15 PM | Chemical Compound      | 7                        | 1                        | Diabetes drug with longevity-promoting effects, partially mediated by its impact on epigenetic clocks.      |
+| [[notes/_link/MicroRNA]]                             | 04_Jun_2026 09:15 PM | Biological Molecule    | 8                        | 0                        | Small non-coding RNAs that regulate gene expression post-transcriptionally and interact with epigenetics.   |
+| [[Mitochondria]]                                     | 04_Jun_2026 09:15 PM | Anatomy                | 7                        | 1                        | Organelles that provide metabolites for epigenetics; dysfunction drives pathological epigenetic aging.      |
+| [[Mitophagy]]                                        | 04_Jun_2026 09:15 PM | Biological Process     | 7                        | 1                        | The selective degradation of mitochondria by autophagy, critical for maintaining youthful epigenetics.      |
+| [[Model Organisms]]                                  | 04_Jun_2026 09:15 PM | Model Organism         | 5                        | 0                        | Species used in research to dissect the complex mechanisms of epigenetic regulation and inheritance.        |
+| [[notes/_link/mTOR]]                                 | 04_Jun_2026 09:15 PM | Enzyme                 | 9                        | -1                       | Central growth-regulating kinase that, when overactive, accelerates aging and unfavorable epigenetic states. |
+| [[Muscle Stem Cell]]                                 | 04_Jun_2026 09:15 PM | Cell Type              | 6                        | 0                        | Stem cells (satellite cells) whose regenerative capacity is governed by age-related epigenetic changes.     |
+| [[notes/_link/NAD+]]                                 | 04_Jun_2026 09:15 PM | Biological Molecule    | 9                        | 1                        | Essential cofactor for sirtuins; its age-related decline leads to loss of heterochromatin and instability.  |
+| [[Neural Stem Cell]]                                 | 04_Jun_2026 09:15 PM | Cell Type              | 6                        | 0                        | Stem cells in the nervous system whose fate and aging are determined by complex epigenetic programs.        |
+| [[Neurogenesis]]                                     | 04_Jun_2026 09:15 PM | Biological Process     | 6                        | 1                        | The birth of new neurons, a process dependent on precise and dynamic epigenetic transitions.                |
+| [[notes/_link/Neurodegenerative Diseases]]           | 04_Jun_2026 09:15 PM | Medical Condition      | 7                        | -1                       | Diseases of the brain characterized by progressive neuron loss and widespread epigenetic dysregulation.     |
+| [[notes/_link/Non-coding RNA]]                       | 04_Jun_2026 09:15 PM | Biological Molecule    | 8                        | 0                        | RNA molecules not translated into proteins that play crucial roles in guiding epigenetic modifiers.          |
+| [[Nucleosome Remodeling]]                            | 04_Jun_2026 09:15 PM | Biological Process     | 10                       | 0                        | The dynamic sliding or eviction of nucleosomes to control DNA accessibility, a core epigenetic mechanism.   |
+| [[Oocyte]]                                           | 04_Jun_2026 09:15 PM | Cell Type              | 5                        | 0                        | Female germ cell where the epigenetic program is extensively reset for the next generation.                 |
+| [[Oxidative Phosphorylation]]                        | 04_Jun_2026 09:15 PM | Biological Process     | 6                        | 0                        | Mitochondrial process of ATP production that also generates ROS, potentially damaging epigenetic patterns.  |
+| [[Oxidative Stress]]                                 | 04_Jun_2026 09:15 PM | Scientific Concept     | 8                        | -1                       | Imbalance between ROS and antioxidants that disrupts epigenetic marks and accelerates aging.                |
+| [[notes/_link/Phenotype]]                            | 04_Jun_2026 09:15 PM | Scientific Concept     | 5                        | 0                        | The observable characteristics of an organism, resulting from genotype-epigenotype interactions.            |
+| [[Polycomb Group Proteins]]                          | 04_Jun_2026 09:15 PM | Protein                | 9                        | 0                        | Evolutionarily conserved complexes (PRC1/2) that maintain transcriptional repression via histone marks.      |
+| [[notes/_link/Propionate]]                           | 04_Jun_2026 09:15 PM | Metabolite             | 7                        | 1                        | Microbial short-chain fatty acid that influences host metabolism and acts as a weak HDAC inhibitor.         |
+| [[Progenitor Cell]]                                  | 04_Jun_2026 09:15 PM | Cell Type              | 6                        | 0                        | Cells that represent an intermediate epigenetic state between stem cells and fully differentiated cells.     |
+| [[Proteasome]]                                       | 04_Jun_2026 09:15 PM | Protein                | 5                        | 0                        | Large complex that degrades unneeded or damaged proteins, helping maintain epigenetic enzyme levels.        |
+| [[Proteobacteria]]                                   | 04_Jun_2026 09:15 PM | Microorganism          | 6                        | -1                       | Bacterial phylum whose expansion is a marker of gut dysbiosis and associated with pro-inflammatory shifts.  |
+| [[notes/_link/PTEN]]                                 | 04_Jun_2026 09:15 PM | Enzyme                 | 7                        | 1                        | Major tumor suppressor that regulates signaling and is frequently targeted by epigenetic silencing.         |
+| [[Quiescence]]                                       | 04_Jun_2026 09:15 PM | Biological Process     | 7                        | 1                        | Reversible state of cell cycle arrest that preserves stem cell function through specific epigenetic states. |
+| [[RB1]]                                              | 04_Jun_2026 09:15 PM | Gene                   | 7                        | 1                        | Tumor suppressor gene encoding RB protein, a key coordinator of cell cycle and chromatin state.             |
+| [[notes/_link/Resveratrol]]                          | 04_Jun_2026 09:15 PM | Chemical Compound      | 7                        | 1                        | Polyphenol that activates sirtuins, promoting healthy epigenetic patterns and longevity.                    |
+| [[Restriction Point]]                                | 04_Jun_2026 09:15 PM | Scientific Concept     | 5                        | 0                        | Critical point in G1 phase where the cell commits to the cell cycle, governed by RB1 and epigenetics.       |
+| [[Retinoblastoma Protein]]                           | 04_Jun_2026 09:15 PM | Protein                | 7                        | 1                        | Master regulator of the cell cycle that recruits epigenetic modifiers to silence genes for the S phase.     |
+| [[Saccharomyces cerevisiae]]                         | 04_Jun_2026 09:15 PM | Model Organism         | 5                        | 0                        | Yeast model essential for the discovery of sirtuins and basic mechanisms of histone modification.           |
+| [[SAHF]]                                             | 04_Jun_2026 09:15 PM | Anatomy                | 7                        | -1                       | Senescence-associated heterochromatin foci that contribute to permanent gene silencing in senescent cells.  |
+| [[notes/_link/SASP]]                                 | 04_Jun_2026 09:15 PM | Biological Process     | 8                        | -1                       | Senescence-associated secretory phenotype; a pro-inflammatory program driven by epigenetic remodeling.      |
+| [[notes/_link/Senolytics]]                           | 04_Jun_2026 09:15 PM | Pharmacological Action | 7                        | 1                        | Compounds that selectively eliminate senescent cells, potentially reversing age-related epigenetic drift.   |
+| [[notes/_link/Short-chain Fatty Acids]]              | 04_Jun_2026 09:15 PM | Chemical Class         | 9                        | 1                        | Microbial metabolites like butyrate that serve as potent endogenous inhibitors of HDACs.                    |
+| [[notes/_link/SIRT1]]                                | 04_Jun_2026 09:15 PM | Enzyme                 | 10                       | 1                        | The most-studied sirtuin, a NAD+-dependent deacetylase that promotes longevity and heterochromatin.         |
+| [[notes/_link/SIRT6]]                                | 04_Jun_2026 09:15 PM | Enzyme                 | 10                       | 1                        | Sirtuin involved in DNA repair and telomere maintenance, acting as a guardian of the youthful epigenome.    |
+| [[notes/_link/Sirtuin]]                              | 04_Jun_2026 09:15 PM | Enzyme                 | 10                       | 1                        | Family of NAD+-dependent deacylases that serve as key metabolic sensors and regulators of stability.        |
+| [[Sister Chromatids]]                                | 04_Jun_2026 09:15 PM | Anatomy                | 4                        | 0                        | The identical copies of a chromosome that must inherit identical epigenetic marks during cell division.     |
+| [[SMAD Proteins]]                                    | 04_Jun_2026 09:15 PM | Protein                | 6                        | 0                        | Transcription factors that mediate TGF-beta signaling and recruit epigenetic modifiers to target genes.      |
+| [[notes/_link/Spermidine]]                           | 04_Jun_2026 09:15 PM | Chemical Compound      | 7                        | 1                        | Natural polyamine that induces autophagy and modulates histone acetylation to promote longevity.            |
+| [[notes/_link/Stem Cell Exhaustion]]                 | 04_Jun_2026 09:15 PM | Biological Process     | 7                        | -1                       | Age-related loss of stem cell function, largely driven by the accumulation of epigenetic alterations.      |
+| [[notes/_link/Successful Aging]]                     | 04_Jun_2026 09:15 PM | Scientific Concept     | 6                        | 1                        | The avoidance of disease and maintenance of high function, associated with preserved epigenetic health.      |
+| [[T Cell Receptor]]                                  | 04_Jun_2026 09:15 PM | Receptor               | 4                        | 0                        | Immune receptor whose diversity is shaped by complex epigenetic rearrangements and modifications.           |
+| [[notes/_link/TET Enzymes]]                          | 04_Jun_2026 09:15 PM | Enzyme                 | 10                       | 1                        | Ten-eleven translocation enzymes that catalyze DNA demethylation, essential for open chromatin.             |
+| [[notes/_link/Telomere Attrition]]                   | 04_Jun_2026 09:15 PM | Biological Process     | 7                        | -1                       | The shortening of telomeres with age, which triggers DNA damage responses and epigenetic remodeling.        |
+| [[Terminal Differentiation]]                         | 04_Jun_2026 09:15 PM | Biological Process     | 6                        | 1                        | The final stage of cell specialization, characterized by a locked-in, stable epigenetic landscape.          |
+| [[TGF-beta1]]                                        | 04_Jun_2026 09:15 PM | Protein                | 6                        | -1                       | Cytokine that drives fibrosis and senescence, often inducing pathological epigenetic shifts in aging.       |
+| [[TGF-beta Receptor]]                                | 04_Jun_2026 09:15 PM | Receptor               | 6                        | -1                       | Receptor that initiates SMAD signaling, leading to changes in the epigenetic state of target genes.         |
+| [[notes/_link/Transcription]]                        | 04_Jun_2026 09:15 PM | Biological Process     | 9                        | 0                        | The synthesis of RNA from a DNA template, a process highly dependent on the underlying epigenetic state.     |
+| [[Transcription Factor]]                             | 04_Jun_2026 09:15 PM | Protein                | 9                        | 0                        | Proteins that bind specific DNA sequences and recruit epigenetic modifiers to regulate gene expression.      |
+| [[Translation]]                                      | 04_Jun_2026 09:15 PM | Biological Process     | 5                        | 0                        | The synthesis of proteins from mRNA, which can be influenced by epigenetic control of ribosomes.            |
+| [[Transposable Elements]]                            | 04_Jun_2026 09:15 PM | Scientific Concept     | 8                        | -1                       | DNA sequences whose silencing is lost during aging, leading to genomic instability and inflammation.        |
+| [[Trisomy]]                                          | 04_Jun_2026 09:15 PM | Medical Condition      | 6                        | -1                       | Genetic condition leading to widespread and persistent epigenetic dysregulation across the genome.           |
+| [[Tumor Suppressor Gene]]                            | 04_Jun_2026 09:15 PM | Gene                   | 8                        | 1                        | Genes that protect cells from cancer; their epigenetic silencing is a hallmark of tumor development.         |
+| [[Ubiquitin Ligase]]                                 | 04_Jun_2026 09:15 PM | Enzyme                 | 6                        | 0                        | Enzymes that tag proteins for degradation, including key components of the epigenetic machinery.            |
+| [[Verrucomicrobia]]                                  | 04_Jun_2026 09:15 PM | Microorganism          | 6                        | 1                        | Bacterial phylum including Akkermansia, associated with improved metabolic and epigenetic health.           |
+| [[Wnt4]]                                             | 04_Jun_2026 09:15 PM | Protein                | 6                        | 0                        | Member of the Wnt family that can influence epigenetic state during development and tissue repair.          |
+| [[Wnt signaling]]                                    | 04_Jun_2026 09:15 PM | Biological Process     | 7                        | 0                        | Conserved signaling pathway that often targets the nucleus to induce dynamic epigenetic modifications.      |
+| [[notes/_link/Werner Syndrome]]                      | 04_Jun_2026 09:15 PM | Medical Condition      | 7                        | -1                       | Segmental progeroid syndrome caused by WRN mutations, leading to rapid epigenetic aging and loss of heterochromatin. |

@@ -1,0 +1,9 @@
+# Contact Inhibition
+
+[[Contact Inhibition]] is a process of arresting cell growth when cells come into contact with each other, a critical mechanism for maintaining [[Quiescence]] and preventing cancer.
+
+### Linking Summary:
+
+- New links added: [[Quiescence]], [[Cadherin]], [[notes/_link/Cancer]]
+- Suggested new entity notes to create: [[Hippo Signaling Pathway]]
+- Strong connections to strengthen: [[Contact Inhibition]] ↔ [[Cell Cycle]]
