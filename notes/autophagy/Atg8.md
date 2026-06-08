@@ -15,5 +15,5 @@
 
 ### Linking Summary:
 - New links added: [[Autophagosome]], [[notes/_link/Autophagy]], [[LC3]], [[GABARAP]], [[GATE-16]], [[p62]], [[Lysosome]], [[Atg4]], [[Atg7]], [[Atg3]]
-- Suggested new entity notes to create: [[Autophagosome]], [[LC3]], [[p62]], [[Lysosome]], [[Atg7]]
+- Suggested new entity notes to create:
 - Strong connections to strengthen: [[Atg8]] ↔ [[LC3]], [[Atg8]] ↔ [[Autophagosome]]

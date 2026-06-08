@@ -4,5 +4,5 @@ Dietary Restriction (DR) is a nutritional intervention that reduces total food o
 
 ### Linking Summary:
 - New links added: [[Macroautophagy]], [[notes/_link/Caloric Restriction]], [[Intermittent Fasting]]
-- Suggested new entity notes to create: [[Caloric Restriction Mimetics]]
+- Suggested new entity notes to create:
 - Strong connections to strengthen: [[Dietary Restriction]] ↔ [[notes/_link/Aging]]

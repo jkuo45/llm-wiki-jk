@@ -9,7 +9,7 @@
 
 ## Biological Effects
 - IF induces [[Autophagic Flux]] in various tissues, including the liver and brain.
-- It can increase [[Longevity]] and protection against chronic pathologies.
+- It can increase [[notes/_link/Longevity]] and protection against chronic pathologies.
 - In [[notes/_link/Cancer]] patients, IF may increase tolerance to [[Chemotherapy]] by protecting healthy cells from side effects.
 
 ## Mechanisms
@@ -18,6 +18,6 @@
 - IF can also stimulate [[Ketogenesis]], providing alternative energy substrates.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Autophagy]], [[Alternate-day Fasting]], [[Time-restricted Feeding]], [[Autophagic Flux]], [[Longevity]], [[notes/_link/Cancer]], [[Chemotherapy]], [[IGF1]], [[notes/_link/AMPK]], [[mTORC1]], [[Ketogenesis]]
-- Suggested new entity notes to create: [[Autophagic Flux]], [[Longevity]], [[IGF1]], [[notes/_link/AMPK]], [[mTORC1]], [[Ketogenesis]]
+- New links added: [[notes/_link/Autophagy]], [[Alternate-day Fasting]], [[Time-restricted Feeding]], [[Autophagic Flux]], [[notes/_link/Longevity]], [[notes/_link/Cancer]], [[Chemotherapy]], [[IGF1]], [[notes/_link/AMPK]], [[mTORC1]], [[Ketogenesis]]
+- Suggested new entity notes to create:
 - Strong connections to strengthen: [[Intermittent Fasting]] ↔ [[notes/_link/Autophagy]], [[Intermittent Fasting]] ↔ [[notes/_link/Caloric Restriction]]

@@ -1,0 +1,24 @@
+# Survivin
+
+**Survivin** (also known as BIRC5) is a member of the [[Inhibitor of Apoptosis Proteins]] (IAP) family. It is unique among IAPs for its dual role in inhibiting [[notes/_link/Apoptosis]] and regulating cell division.
+
+## Role in Cancer
+- **Overexpression**: Survivin is highly expressed in most human cancers but is nearly undetectable in normal adult tissues, making it an ideal target for cancer therapy.
+- **Resistance**: Its overexpression is associated with resistance to chemotherapy and radiotherapy, particularly in [[non-small-cell lung cancer]] and [[melanoma]].
+- **Prognostic Marker**: High levels of Survivin often correlate with poor clinical outcomes and abbreviated survival.
+
+## Targeting Survivin
+Strategies to target Survivin include:
+- **Antisense strategies**: Using antisense oligonucleotides to trigger apoptosis in melanoma and thyroid carcinoma cells.
+- **siRNA**: Silencing Survivin expression to enhance radiosensitivity in [[pancreatic cancer]] and lung adenocarcinoma.
+- **Small molecule inhibitors**: Cyclin-dependent kinase inhibitors and Hsp90 inhibitors.
+
+## Connections
+- [[Inhibitor of Apoptosis Proteins]]: Survivin is a key member of this family.
+- [[notes/_link/Apoptosis]]: Inhibits the common pathway of apoptosis.
+- [[XIAP]]: Often works in conjunction with XIAP to confer resistance in NSCLC.
+
+### Linking Summary:
+- New links added: [[Inhibitor of Apoptosis Proteins]], [[notes/_link/Apoptosis]], [[non-small-cell lung cancer]], [[melanoma]], [[pancreatic cancer]], [[XIAP]]
+- Suggested new entity notes to create: [[Inhibitor of Apoptosis Proteins]]
+- Strong connections to strengthen: [[Survivin]] ↔ [[XIAP]]

@@ -13,5 +13,5 @@
 
 ### Linking Summary:
 - New links added: [[notes/_link/Autophagy]], [[Autophagic Flux]], [[notes/_link/Caloric Restriction]], [[Intermittent Fasting]]
-- Suggested new entity notes to create: [[Autophagic Flux]], [[notes/_link/Caloric Restriction]], [[Intermittent Fasting]]
-- Strong connections to strengthen: [[Huntington's Disease]] ↔ [[Neurodegenerative Disease]], [[Huntington's Disease]] ↔ [[notes/_link/Autophagy]]
+- Suggested new entity notes to create:
+- Strong connections to strengthen: [[Huntington's Disease]] ↔ [[notes/_link/Neurodegenerative Diseases|Neurodegenerative Disease]], [[Huntington's Disease]] ↔ [[notes/_link/Autophagy]]

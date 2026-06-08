@@ -11,5 +11,5 @@
 
 ### Linking Summary:
 - New links added: [[notes/_link/Autophagy]], [[Atg1]], [[notes/_link/AMPK]], [[mTORC1]], [[Atg13]], [[Beclin1]], [[Vps34]], [[Autophagosome]]
-- Suggested new entity notes to create: [[notes/_link/AMPK]], [[mTORC1]], [[Beclin1]], [[Vps34]], [[Autophagosome]]
+- Suggested new entity notes to create:
 - Strong connections to strengthen: [[ULK1]] ↔ [[notes/_link/AMPK]], [[ULK1]] ↔ [[mTORC1]], [[ULK1]] ↔ [[notes/_link/Autophagy]]

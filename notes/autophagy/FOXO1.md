@@ -14,5 +14,5 @@
 
 ### Linking Summary:
 - New links added: [[notes/_link/Autophagy]], [[IGF1]], [[notes/_link/Akt]], [[notes/_link/Caloric Restriction]], [[Intermittent Fasting]], [[Atg]], [[Atg5]], [[Atg8]], [[LC3]], [[ULK1]], [[Gluconeogenesis]]
-- Suggested new entity notes to create: [[notes/_link/Akt]], [[notes/_link/Caloric Restriction]], [[Intermittent Fasting]], [[Atg]], [[ULK1]]
+- Suggested new entity notes to create: , [[Atg]]
 - Strong connections to strengthen: [[FOXO1]] ↔ [[notes/_link/Akt]], [[FOXO1]] ↔ [[notes/_link/Autophagy]]

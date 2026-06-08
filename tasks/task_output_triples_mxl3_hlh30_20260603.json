@@ -1,0 +1,21 @@
+[
+  {"subject": "MXL-3", "predicate": "represses", "object": "lysosomal lipase genes", "context": "In the presence of nutrients, MXL-3 represses the expression of the lysosomal lipase genes (lipl-1, 2, 3, 5).", "confidence": "high"},
+  {"subject": "HLH-30", "predicate": "induces", "object": "lysosomal lipase genes", "context": "In the nucleus, HLH-30 enables the activation of lipophagy through the induction of lysosomal lipase and autophagy genes.", "confidence": "high"},
+  {"subject": "HLH-30", "predicate": "induces", "object": "autophagy genes", "context": "In the nucleus, HLH-30 enables the activation of lipophagy through the induction of lysosomal lipase and autophagy genes.", "confidence": "high"},
+  {"subject": "Fasting", "predicate": "triggers", "object": "MXL-3 nuclear delocalization", "context": "Following fasting, mxl-3 mRNA levels drop and the protein quickly disappears from the intestinal nuclei.", "confidence": "high"},
+  {"subject": "Fasting", "predicate": "triggers", "object": "HLH-30 nuclear translocation", "context": "Concomitantly, HLH-30 is translocated to the nucleus and the hlh-30 gene is transcriptionally upregulated.", "confidence": "high"},
+  {"subject": "HLH-30", "predicate": "is the orthologue of", "object": "TFEB", "context": "HLH-30 is the Caenorhabditis elegans orthologue of the mammalian transcription factor TFEB.", "confidence": "high"},
+  {"subject": "MXL-3", "predicate": "is the orthologue of", "object": "MAX", "context": "Expression of the closest mammalian homologue of mxl-3, MAX, was not repressed in either fasted mice or serum-deprived hepatocytes.", "confidence": "high"},
+  {"subject": "LIPL-1", "predicate": "is a type of", "object": "lysosomal lipase", "context": "Here we present the lysosomal lipases LIPL-1 and LIPL-3 as key enzymes breaking down lipid-droplet fats through lipophagy in C. elegans.", "confidence": "high"},
+  {"subject": "LIPL-3", "predicate": "is a type of", "object": "lysosomal lipase", "context": "Here we present the lysosomal lipases LIPL-1 and LIPL-3 as key enzymes breaking down lipid-droplet fats through lipophagy in C. elegans.", "confidence": "high"},
+  {"subject": "Lipophagy", "predicate": "involves", "object": "LIPL-1", "context": "LIPL-1 and LIPL-3 are the enzymes breaking down lipids through lipophagy in C. elegans.", "confidence": "high"},
+  {"subject": "Lipophagy", "predicate": "involves", "object": "LIPL-3", "context": "LIPL-1 and LIPL-3 are the enzymes breaking down lipids through lipophagy in C. elegans.", "confidence": "high"},
+  {"subject": "Autophagy", "predicate": "delivers", "object": "lipid-droplet lipids", "context": "In mammals, in basal and fasting conditions, autophagy delivers lipid-droplet lipids to the lysosome: a process termed lipophagy.", "confidence": "high"},
+  {"subject": "mxl-3 mutants", "predicate": "are", "object": "long-lived", "context": "mxl-3 mutant worms are long lived in abundant food conditions.", "confidence": "high"},
+  {"subject": "HLH-30", "predicate": "is required for", "object": "mxl-3 mutant longevity", "context": "loss of hlh-30 function suppressed the longevity phenotype of mxl-3 mutants.", "confidence": "high"},
+  {"subject": "HLH-30", "predicate": "regulates", "object": "lysosomal biogenesis", "context": "hlh-30 links lysosomal biogenesis to nutrient availability in C. elegans.", "confidence": "high"},
+  {"subject": "CeTOR", "predicate": "regulates", "object": "hlh-30 transcription", "context": "Inactivation of CeTOR induces the expression of hlh-30, revealing that mTOR controls hlh-30/CeTfeb at the transcriptional level.", "confidence": "high"},
+  {"subject": "Insulin signaling", "predicate": "represses", "object": "MXL-3", "context": "Impaired insulin signalling (daf-2(e1368)) leads to modest repression of mxl-3 transcription.", "confidence": "medium"},
+  {"subject": "HLH-30", "predicate": "promotes", "object": "starvation survival", "context": "hlh-30 is required to mount an essential metabolic response to starvation.", "confidence": "high"},
+  {"subject": "MXL-3", "predicate": "promotes", "object": "ageing", "context": "MXL-3 promotes ageing and, at least in the context of the mxl-3 mutant model, HLH-30 prevents ageing.", "confidence": "high"}
+]

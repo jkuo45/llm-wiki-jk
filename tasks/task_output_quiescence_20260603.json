@@ -1,0 +1,184 @@
+[
+  {
+    "subject": "Quiescence",
+    "predicate": "is a state of",
+    "object": "reversible proliferative arrest",
+    "context": "Quiescence is a state of reversible proliferative arrest in which cells are not actively dividing, and yet retain the capacity to reenter the cell cycle.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Quiescent cells",
+    "predicate": "retain the capacity to",
+    "object": "reenter the cell cycle",
+    "context": "Quiescent cells... retain the capacity to reenter the cell cycle upon receiving an appropriate stimulus.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Cyclin D-CDK4/6",
+    "predicate": "promote",
+    "object": "G1 progression",
+    "context": "Cyclin D-CDK4/6 and cyclin E-CDK2 complexes promote G1 progression.",
+    "confidence": "high"
+  },
+  {
+    "subject": "CDK inhibitors",
+    "predicate": "promote",
+    "object": "quiescence",
+    "context": "CDK inhibitors promote quiescence and quiescent cells typically display high levels of these proteins.",
+    "confidence": "high"
+  },
+  {
+    "subject": "p21 (CDKN1A)",
+    "predicate": "is a",
+    "object": "CDK inhibitor",
+    "context": "CDK inhibitors, including p21 (CDKN1A), p27 (CDKN1B), and p57 (CDKN1C).",
+    "confidence": "high"
+  },
+  {
+    "subject": "p27 (CDKN1B)",
+    "predicate": "is a",
+    "object": "CDK inhibitor",
+    "context": "CDK inhibitors, including p21 (CDKN1A), p27 (CDKN1B), and p57 (CDKN1C).",
+    "confidence": "high"
+  },
+  {
+    "subject": "Retinoblastoma protein (Rb)",
+    "predicate": "inhibits",
+    "object": "proliferation",
+    "context": "Rb inhibits proliferation by binding to and inactivating E2F1.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Rb",
+    "predicate": "inactivates",
+    "object": "E2F1",
+    "context": "Rb inhibits proliferation by binding to and inactivating E2F1, a key transcriptional activator for cell cycle and cell division genes.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Phosphorylation of Rb",
+    "predicate": "prevents",
+    "object": "repression of E2F",
+    "context": "The phosphorylation of Rb by cyclin D-Cdk4 prevents its ability to repress E2F, allowing for cell cycle entry.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Hypophosphorylated Rb",
+    "predicate": "associates with",
+    "object": "APC/C Cdh1",
+    "context": "In quiescent cells, hypophosphorylated Rb associates with the Cdh1-bound Anaphase Promoting Complex/cyclosome (APC/C Cdh1).",
+    "confidence": "high"
+  },
+  {
+    "subject": "APC/C Cdh1",
+    "predicate": "targets",
+    "object": "Skp2",
+    "context": "APC/C Cdh1 to target Skp2, a negative regulator of the p27 CDK inhibitor, for degradation.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Skp2",
+    "predicate": "is a negative regulator of",
+    "object": "p27",
+    "context": "Skp2, a negative regulator of the p27 CDK inhibitor.",
+    "confidence": "high"
+  },
+  {
+    "subject": "TGF-beta1",
+    "predicate": "promotes",
+    "object": "quiescence",
+    "context": "the niche prevents inappropriate proliferation by producing quiescence-inducing soluble factors, including TGF-β1.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Wnt4",
+    "predicate": "promotes",
+    "object": "quiescence",
+    "context": "the niche prevents inappropriate proliferation by producing quiescence-inducing soluble factors, including... Wnt4.",
+    "confidence": "high"
+  },
+  {
+    "subject": "DNA replication stress",
+    "predicate": "induces",
+    "object": "quiescence",
+    "context": "This spontaneous arrest can be attributed to unresolved endogenous DNA replication stress inherited from the S phase of the previous cell cycle.",
+    "confidence": "high"
+  },
+  {
+    "subject": "miR-489",
+    "predicate": "reinforces",
+    "object": "quiescence",
+    "context": "In muscle stem cells, miR-489 expression reinforces quiescence by suppressing inducers of proliferation.",
+    "confidence": "high"
+  },
+  {
+    "subject": "ZFP36L",
+    "predicate": "promotes",
+    "object": "cell quiescence",
+    "context": "RNA-binding proteins ZFP36L1 and ZFP36L2 promote cell quiescence.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Intron retention",
+    "predicate": "is enriched in",
+    "object": "quiescent adult stem cells",
+    "context": "Specifically, intron-retained transcripts appear to be enriched in quiescent adult stem cells.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Mitophagy",
+    "predicate": "maintains",
+    "object": "quiescence",
+    "context": "the clearance of mitochondria through autophagy (mitophagy) is responsible for decreasing metabolism and is important for maintaining quiescence.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Phosphorylation of eIF2alpha",
+    "predicate": "regulates",
+    "object": "muscle stem cell quiescence",
+    "context": "Phosphorylation of eIF2alpha Is a Translational Control Mechanism Regulating Muscle Stem Cell Quiescence.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Primary cilium",
+    "predicate": "assembles in",
+    "object": "quiescent cells",
+    "context": "In non-dividing cells including quiescent cells, centrioles form the base for the primary cilium.",
+    "confidence": "high"
+  },
+  {
+    "subject": "CENP-A deposition",
+    "predicate": "maintains",
+    "object": "centromere identity",
+    "context": "This ongoing CENP-A deposition maintains centromere identity throughout indefinitely long periods of arrest.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Cohesin loss",
+    "predicate": "causes",
+    "object": "meiotic segregation errors",
+    "context": "During oocyte aging, cohesin proteins are gradually lost... As a result, older quiescent oocytes lose chromosome cohesion, which can result in premature chromosome separation or misorientation of spindle attachments during meiosis.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Quiescent cancer cells",
+    "predicate": "are resistant to",
+    "object": "chemotherapies",
+    "context": "Non-dividing quiescent cancer cells are also resistant to most chemotherapies.",
+    "confidence": "high"
+  },
+  {
+    "subject": "APC/C Cdh1",
+    "predicate": "targets",
+    "object": "Geminin",
+    "context": "Repression of Geminin is achieved through the activity of the Cdh1-bound Anaphase Promoting Complex/cyclosome (APC/C Cdh1), which is active during G0 and targets Geminin for degradation.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Geminin",
+    "predicate": "blocks",
+    "object": "MCM loading",
+    "context": "Geminin acts as a repressor to block MCM loading onto chromatin.",
+    "confidence": "high"
+  }
+]

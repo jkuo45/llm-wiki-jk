@@ -8,9 +8,9 @@
 - Perturbs memory responses in the [[Adaptive Immune Response]].
 
 ## Relationship with Autophagy
-- Strategies to rejuvenate the aged [[Immune System]] often focus on counteracting the effects of thymic involution through [[Autophagy Inducer|autophagy induction]].
+- Strategies to rejuvenate the aged [[notes/_link/Immune System]] often focus on counteracting the effects of thymic involution through [[Autophagy Inducer|autophagy induction]].
 
 ### Linking Summary:
-- New links added: [[notes/_link/Aging]], [[T Cell]], [[Immune System]], [[Immune Aging]], [[Adaptive Immune Response]], [[Autophagy Inducer]]
-- Suggested new entity notes to create: [[Adaptive Immune Response]], [[Autophagy Inducer]]
+- New links added: [[notes/_link/Aging]], [[T Cell]], [[notes/_link/Immune System]], [[Immune Aging]], [[Adaptive Immune Response]], [[Autophagy Inducer]]
+- Suggested new entity notes to create:
 - Strong connections to strengthen: [[Thymic Involution]] ↔ [[Immune Aging]]

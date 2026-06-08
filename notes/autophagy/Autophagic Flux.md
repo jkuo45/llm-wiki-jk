@@ -4,5 +4,5 @@ Autophagic flux refers to the complete dynamic process of [[notes/_link/Autophag
 
 ### Linking Summary:
 - New links added: [[notes/_link/Autophagy]], [[Autophagosome]], [[Lysosome]]
-- Suggested new entity notes to create: [[LC3]], [[p62]]
-- Strong connections to strengthen: [[Autophagic Flux]] ↔ [[Neurodegenerative Disease]]
+- Suggested new entity notes to create:
+- Strong connections to strengthen: [[Autophagic Flux]] ↔ [[notes/_link/Neurodegenerative Diseases|Neurodegenerative Disease]]

@@ -16,5 +16,5 @@
 
 ### Linking Summary:
 - New links added: [[Atg8]], [[notes/_link/Autophagy]], [[Autophagosome]], [[Atg7]], [[Atg3]], [[Atg12]], [[Atg5]], [[Atg16]], [[p62]], [[Autophagic Flux]]
-- Suggested new entity notes to create: [[Autophagosome]], [[Atg7]], [[p62]], [[Autophagic Flux]]
+- Suggested new entity notes to create:
 - Strong connections to strengthen: [[LC3]] ↔ [[Autophagosome]], [[LC3]] ↔ [[notes/_link/Autophagy]]

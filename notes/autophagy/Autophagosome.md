@@ -14,5 +14,5 @@ An **Autophagosome** is a double-membrane vesicle that forms the central structu
 
 ### Linking Summary:
 - New links added: [[Macroautophagy]], [[Lysosome]], [[Atg]], [[ULK1]], [[notes/_link/PI3K]], [[Vps34]], [[LC3]]
-- Suggested new entity notes to create: [[Macroautophagy]], [[Lysosome]], [[Atg]], [[ULK1]], [[notes/_link/PI3K]], [[Vps34]], [[LC3]]
+- Suggested new entity notes to create: , [[Atg]]
 - Strong connections to strengthen: [[Autophagosome]] ↔ [[Macroautophagy]], [[Autophagosome]] ↔ [[LC3]]

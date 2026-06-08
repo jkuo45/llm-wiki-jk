@@ -12,5 +12,5 @@
 
 ### Linking Summary:
 - New links added: [[Mitophagy]], [[notes/_link/Mitochondria]], [[Immunometabolism]]
-- Suggested new entity notes to create: [[Mitophagy]], [[Immunometabolism]]
+- Suggested new entity notes to create:
 - Strong connections to strengthen: [[Selective Autophagy]] ↔ [[notes/_link/Autophagy]], [[Selective Autophagy]] ↔ [[Mitophagy]]

@@ -9,5 +9,5 @@
 
 ### Linking Summary:
 - New links added: [[notes/_link/Autophagy]], [[FOXO1]], [[FOXO3a]], [[notes/_link/Senescence]]
-- Suggested new entity notes to create: [[FOXO1]], [[FOXO3a]]
+- Suggested new entity notes to create:
 - Strong connections to strengthen: [[FOXO4]] ↔ [[FOXO3a]], [[FOXO4]] ↔ [[notes/_link/Senescence]]

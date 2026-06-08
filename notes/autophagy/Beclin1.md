@@ -16,5 +16,5 @@
 
 ### Linking Summary:
 - New links added: [[notes/_link/Autophagy]], [[notes/_link/PI3K]], [[Vps34]], [[Autophagosome]], [[notes/_link/Cancer]], [[BRCA1]]
-- Suggested new entity notes to create: [[notes/_link/PI3K]], [[Vps34]], [[Autophagosome]], [[BRCA1]]
+- Suggested new entity notes to create:
 - Strong connections to strengthen: [[Beclin1]] ↔ [[notes/_link/Autophagy]], [[Beclin1]] ↔ [[notes/_link/Cancer]]

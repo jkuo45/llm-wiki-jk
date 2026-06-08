@@ -12,5 +12,5 @@
 
 ### Linking Summary:
 - New links added: [[notes/_link/Mitochondria]], [[notes/_link/Metformin]], [[notes/_link/AMPK]], [[notes/_link/Reactive Oxygen Species]], [[notes/_link/Senescence]], [[Cytokine]], [[IL-6]], [[IL-1b]]
-- Suggested new entity notes to create: [[notes/_link/AMPK]], [[IL-1b]]
+- Suggested new entity notes to create: , [[IL-1b]]
 - Strong connections to strengthen: [[Mitochondrial Complex I]] ↔ [[notes/_link/Metformin]], [[Mitochondrial Complex I]] ↔ [[notes/_link/AMPK]]
