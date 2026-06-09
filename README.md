@@ -1,15 +1,15 @@
 # llm-wiki-jk
-last updated: 04_Jun_2026 10:10 PM  
+last updated: 09_Jun_2026 08:04 AM  
 
 ## topics (notes directory)
 
 | topic | last updated | count entities | count documents |
 | :--- | :--- | :---: | :---: |
-| _link | 01_Jun_2026 | 67 | 0 |
+| _link | 09_Jun_2026 | 67 | 0 |
 | adrenochrome | 30_May_2026 | 159 | 11 |
 | autism | 30_May_2026 | 79 | 3 |
-| autophagy | 03_Jun_2026 | 160 | 6 |
-| cancer | 01_Jun_2026 | 251 | 7 |
+| autophagy | 09_Jun_2026 | 172 | 7 |
+| cancer | 09_Jun_2026 | 251 | 7 |
 | comt | 31_May_2026 | 62 | 2 |
 | epigenetics | 04_Jun_2026 | 176 | 3 |
 | neuromelanin | 02_Jun_2026 | 66 | 1 |
@@ -40,6 +40,7 @@ last updated: 04_Jun_2026 10:10 PM
 | autophagy | 02_Jun_2026 | notes/autophagy/[document] Autophagy takes it all – autophagy inducers target immune aging.md | 3900 |
 | autophagy | 02_Jun_2026 | notes/autophagy/[document] Lysosome biogenesis Regulation and functions.md | 7476 |
 | autophagy | 03_Jun_2026 | notes/autophagy/[document] MXL-3 and HLH-30 transcriptionally link lipolysis and autophagy to nutrient availability.md | 8221 |
+| autophagy | 09_Jun_2026 | notes/autophagy/[document] TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS.md | 7866 |
 | autophagy | 02_Jun_2026 | notes/autophagy/[document] The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting.md | 6054 |
 | autophagy | 02_Jun_2026 | notes/autophagy/[document] mTOR signaling at a glance.md | 6589 |
 | cancer | 01_Jun_2026 | notes/cancer/[document] Apoptosis in cancer from pathogenesis to treatment.md | 10378 |
