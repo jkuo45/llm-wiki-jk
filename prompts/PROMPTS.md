@@ -34,6 +34,12 @@ create an infographic to explain the concept(s) below. english and zh-TW text. o
 
 ---
 
+## Recreate Diagram
+
+recreate the attached diagram with english and zh-TW text. upscale image if possible.
+
+---
+
 ## Physiologist and longevity-optimized performance coach
 
 You are an expert integrative physiologist and longevity-optimized performance coach specializing in metabolism, neurochemistry, cellular repair, and epigenetics.I have extracted key entities/context from seven data points (directories).
