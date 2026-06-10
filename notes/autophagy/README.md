@@ -25,8 +25,8 @@ This directory contains notes and research regarding [[notes/_link/Autophagy]], 
 
 ## Maintenance
 
-- Last updated: 09_Jun_2026 10:15 AM PDT
-- Total count of entities: 172
+- Last updated: 09_Jun_2026 05:45 PM PDT
+- Total count of entities: 249
 
 | entity                                        |     datetime updated     | entity_type_1          | relevance_1 | sentiment_1 | justification                                                                               |
 | :-------------------------------------------- | :----------------------: | :--------------------- | :---------: | :---------: | :------------------------------------------------------------------------------------------ |

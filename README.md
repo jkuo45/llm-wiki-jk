@@ -1,5 +1,5 @@
 # llm-wiki-jk
-last updated: 09_Jun_2026 08:04 AM  
+last updated: 09_Jun_2026 08:45 PM  
 
 ## topics (notes directory)
 
@@ -8,7 +8,7 @@ last updated: 09_Jun_2026 08:04 AM
 | _link | 09_Jun_2026 | 67 | 0 |
 | adrenochrome | 30_May_2026 | 159 | 11 |
 | autism | 30_May_2026 | 79 | 3 |
-| autophagy | 09_Jun_2026 | 172 | 7 |
+| autophagy | 09_Jun_2026 | 249 | 8 |
 | cancer | 09_Jun_2026 | 251 | 7 |
 | comt | 31_May_2026 | 62 | 2 |
 | epigenetics | 04_Jun_2026 | 176 | 3 |
@@ -38,6 +38,7 @@ last updated: 09_Jun_2026 08:04 AM
 | autism | 30_May_2026 | notes/autism/[document] Prevalence and Early Identification of Autism Spectrum ....md | 12724 |
 | autophagy | 02_Jun_2026 | notes/autophagy/[document] Autophagy and intermittent fasting the connection for cancer therapy?.md | 2539 |
 | autophagy | 02_Jun_2026 | notes/autophagy/[document] Autophagy takes it all – autophagy inducers target immune aging.md | 3900 |
+| autophagy | 09_Jun_2026 | notes/autophagy/[document] From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery.md | 8579 |
 | autophagy | 02_Jun_2026 | notes/autophagy/[document] Lysosome biogenesis Regulation and functions.md | 7476 |
 | autophagy | 03_Jun_2026 | notes/autophagy/[document] MXL-3 and HLH-30 transcriptionally link lipolysis and autophagy to nutrient availability.md | 8221 |
 | autophagy | 09_Jun_2026 | notes/autophagy/[document] TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS.md | 7866 |
