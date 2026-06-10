@@ -25,3 +25,16 @@ Mice with an extra copy of the PTEN gene ("Super-PTEN" mice) are more resistant 
 - New links added: [[PTEN]], [[notes/_link/mTOR]], [[notes/_link/Autophagy]], [[notes/_link/Aging]], [[notes/_link/Cancer]], [[Cellular Senescence]], [[notes/_link/MAPK]]
 - Suggested new entity notes to create: [[Tumor Suppressor]], [[PI3K Pathway]], [[Akt Kinase]]
 - Strong connections to strengthen: [[PTEN]] ↔ [[notes/_link/mTOR]], [[PTEN]] ↔ [[notes/_link/Aging]]
+
+
+---
+
+### Merged from notes/autophagy/PTEN.md
+
+# PTEN
+Phosphatase and tensin homolog (PTEN) is a major tumor suppressor and lipid phosphatase that negatively regulates the [[notes/_link/PI3K]]/[[notes/_link/Akt|AKT]]/[[notes/_link/mTOR]] pathway by dephosphorylating PIP3.
+
+### Linking Summary:
+- New links added: [[notes/_link/PI3K]], [[notes/_link/Akt|AKT]], [[notes/_link/mTOR]], [[notes/_link/Cancer|cancer]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[notes/_link/PTEN]] ↔ [[notes/_link/Akt|AKT]]

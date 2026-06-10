@@ -13,3 +13,18 @@ Mitochondrial dysfunction is a central feature of [[notes/_link/Parkinson's Dise
 - New links added: [[notes/_link/Parkinson's Disease]], [[notes/_link/Substantia Nigra]], [[notes/_link/Oxidative Stress]], [[notes/_link/Neuromelanin]], [[MPTP]].
 - Suggested new entity notes to create: [[ATP]], [[Complex I]], [[Mitophagy]].
 - Strong connections to strengthen: [[Mitochondrial Dysfunction]] ↔ [[notes/_link/Oxidative Stress]].
+
+
+---
+
+### Merged from notes/autophagy/Mitochondrial Dysfunction.md
+
+# Mitochondrial Dysfunction
+
+Mitochondrial dysfunction is the failure of mitochondria to maintain homeostasis and produce energy; it can be mitigated by [[TFEB]]-mediated induction of mitophagy and mitochondrial biogenesis.
+
+### Linking Summary
+
+- New links added: [[TFEB]], [[notes/_link/Mitochondria]], [[notes/_link/Mitophagy]]
+- Suggested new entity notes to create: [[Mitochondrial Biogenesis]]
+- Strong connections to strengthen: [[Mitochondrial Dysfunction]] ↔ [[TFEB]]

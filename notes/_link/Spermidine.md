@@ -43,3 +43,18 @@ Research in humans suggests that higher dietary intake of spermidine (found in f
 - New links added: [[notes/_link/Aging]], [[notes/_link/Autophagy]], [[Autophagy Inducer]], [[Geroscience]], [[Histone Acetyltransferase]], [[Longevity]], [[notes/_link/Neurodegenerative Diseases]], [[Polyamine]], [[notes/_link/Resveratrol]], [[notes/_link/Spermidine]]
 - Suggested new entity notes to create: [[Mitophagy]], [[Polyamines]], [[notes/_link/SIRT1]], [[Wheat Germ]], [[eIF5A]]
 - Strong connections to strengthen: [[notes/_link/Spermidine]] ↔ [[notes/_link/Aging]], [[notes/_link/Spermidine]] ↔ [[notes/_link/Autophagy]], [[notes/_link/Spermidine]] ↔ [[Immune Aging]]
+
+
+---
+
+### Merged from notes/autophagy/Spermidine.md
+
+# Spermidine
+
+Spermidine is an endogenous polyamine metabolite that induces [[TFEB]]-driven autophagy by facilitating its translation via hypusination of [[eIF5A]].
+
+### Linking Summary
+
+- New links added: [[TFEB]], [[eIF5A]]
+- Suggested new entity notes to create: [[Hypusination]]
+- Strong connections to strengthen: [[Spermidine]] ↔ [[TFEB]]

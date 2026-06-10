@@ -88,3 +88,18 @@ In the management of [[notes/_link/Parkinson's Disease]], [[COMT Inhibitors]] ar
 - New links added: [[notes/_link/Aging]], [[Alpha-Synuclein]], [[Autophagic Flux]], [[notes/_link/Autophagy]], [[Bradykinesia]], [[COMT Inhibitors]], [[Disease Modeling]], [[notes/_link/Dopamine]], [[Induced Pluripotent Stem Cells]], [[Intermittent Fasting]], [[Ketogenic Diet]], [[L-DOPA]], [[Levodopa]], [[Lewy Bodies]], [[Mitophagy]], [[notes/_link/Neurodegenerative Diseases]], [[notes/_link/Neuromelanin]], [[Pathogenic Threshold of Neuromelanin]], [[Regenerative Medicine]], [[Substantia Nigra Pars Compacta]]
 - Suggested new entity notes to create: [[Autophagic Flux]], [[Dopamine Agonists]], [[notes/_link/Dopaminergic Neurons]], [[Dyskinesia]], [[Intermittent Fasting]], [[Ketogenic Diet]], [[Mitophagy]], [[Resting Tremor]], [[notes/_link/Substantia Nigra]]
 - Strong connections to strengthen: [[notes/_link/Parkinson's Disease]] <-> [[Induced Pluripotent Stem Cells]], [[notes/_link/Parkinson's Disease]] ↔ [[Mitophagy]], [[notes/_link/Parkinson's Disease]] ↔ [[Neurodegenerative Disease]], [[notes/_link/Parkinson's Disease]] ↔ [[notes/_link/Substantia Nigra]].
+
+
+---
+
+### Merged from notes/autophagy/Parkinson's Disease.md
+
+# Parkinson's Disease
+
+Parkinson's disease is a neurodegenerative disorder associated with [[Alpha-synuclein]] toxicity; [[TFEB]]-mediated autophagy has been shown to rescue dopamine neurons from this toxicity.
+
+### Linking Summary
+
+- New links added: [[Alpha-synuclein]], [[TFEB]]
+- Suggested new entity notes to create: [[Dopamine Neuron]]
+- Strong connections to strengthen: [[Parkinson's Disease]] ↔ [[TFEB]]
