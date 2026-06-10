@@ -16,15 +16,15 @@ Rules:
 - Focus on non-obvious, useful relations. Avoid trivial ones.
 - Resolve coreferences.
 
-Write file to: tasks/task*output*[timestamp].json'
+Write file to: 'tasks/task_output\_[timestamp].json'
 
 **Create directed graph analysis**
 
 - In scripts directory, execute visualize triples python script with output.json.
 - Output graphviz in .png and .svg to the tasks directory.
 - If not output/export name is provided, name the file(s)
-  - 'tasks/task*output*[timestamp].svg'
-  - 'tasks/task*output*[timestamp].png'
+  - 'tasks/task_output\_[timestamp].svg'
+  - 'tasks/task_output\_[timestamp].png'
 
 ---
 
