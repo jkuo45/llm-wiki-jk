@@ -7,8 +7,8 @@ This directory contains notes and research regarding [[Adrenochrome]] and its re
 
 ## Maintenance
 
-- Last updated: 30_May_2026 12:00 PM 
-- Total count of entities: 159
+- Last updated: 11_Jun_2026 02:00 PM 
+- Total count of entities: 167
 
 | entity                                     |   datetime updated   | entity_type_1          | entity_relevance_score | entity_sentiment_score | justification                                                                        |
 | :----------------------------------------- | :------------------: | :--------------------- | :--------------------: | :--------------------: | :----------------------------------------------------------------------------------- |
@@ -18,6 +18,7 @@ This directory contains notes and research regarding [[Adrenochrome]] and its re
 | [[Adrenal medulla]]                        | 27_May_2026 01:28 PM | Anatomy                |           10           |           0            | Primary site of epinephrine production; neutral anatomical location.                 |
 | [[Adrenaline catabolism]]                  | 27_May_2026 01:28 PM | Biological Process     |           8            |           1            | Broad process including the formation of adrenochrome; positive driver.              |
 | [[adrenaline-quinone]]                     | 27_May_2026 01:28 PM | Chemical Compound      |           10           |           1            | Essential intermediate in the pathway; positive driver of cyclization.               |
+| [[Adrenochromatization]]                   | 11_Jun_2026 12:00 PM | Scientific Concept     |           8            |           1            | Process of inducing mitohormetic signals via adrenochrome pathways.                  |
 | [[Adrenochrome]]                           | 27_May_2026 01:28 PM | Chemical Compound      |           10           |           1            | The primary entity of research; central to the entire pathway.                       |
 | [[Adrenochrome Hypothesis]]                | 27_May_2026 01:28 PM | Scientific Theory      |           9            |           0            | Historical scientific model explaining schizophrenia; neutral theory.                |
 | [[Adrenochrome monoaminoguanidine]]        | 27_May_2026 01:28 PM | Chemical Compound      |           10           |           1            | Direct derivative of adrenochrome; positive result of chemical modification.         |
@@ -53,6 +54,7 @@ This directory contains notes and research regarding [[Adrenochrome]] and its re
 | [[Cardiomyocytes]]                         | 27_May_2026 01:28 PM | Cell Type              |           7            |           0            | Cells targeted by adrenochrome toxicity; neutral anatomical target.                  |
 | [[Cardiotoxicity]]                         | 27_May_2026 01:28 PM | Adverse Effect         |           8            |           -1           | Primary toxic concern of adrenochrome; negative adverse effect.                      |
 | [[notes/_link/Cardiovascular Disease]]     | 30_May_2026 12:00 PM | Medical Condition      |           8            |           -1           | Broad category for heart conditions related to adrenochrome cardiotoxicity.           |
+| [[Carnosine]]                              | 11_Jun_2026 02:00 PM | Chemical Compound      |           7            |           1            | Anti-glycation and antioxidant dipeptide; synergistic with adrenochrome hybrids.     |
 | [[Catechol]]                               | 27_May_2026 01:28 PM | Chemical Compound      |           7            |           0            | Basic chemical structure of precursors; neutral chemical compound.                   |
 | [[Catecholamines]]                         | 27_May_2026 01:28 PM | Chemical Class         |           8            |           0            | Parent class of precursors; neutral chemical class.                                  |
 | [[Cell necrosis]]                          | 27_May_2026 01:28 PM | Biological Process     |           7            |           -1           | Severe outcome of high oxidative stress; negative biological process.                |
@@ -81,6 +83,7 @@ This directory contains notes and research regarding [[Adrenochrome]] and its re
 | [[EpiPen]]                                 | 27_May_2026 01:28 PM | Medical Product        |           5            |           1            | Life-saving delivery of precursor; positive medical product.                         |
 | [[Erythrocytes]]                           | 27_May_2026 01:28 PM | Cell Type              |           7            |           0            | Cells involved in blood transport of precursors; neutral cell type.                  |
 | [[Exchange transfusion]]                   | 27_May_2026 01:28 PM | Medical Treatment      |           4            |           0            | Procedure to treat severe methemoglobinemia; neutral treatment.                      |
+| [[Fisetin]]                                | 11_Jun_2026 02:00 PM | Chemical Compound      |           8            |           1            | Potent senolytic and senomorphic agent; synergistic with aminochrome modulation.    |
 | [[G6PD deficiency]]                        | 27_May_2026 01:28 PM | Medical Condition      |           5            |           -1           | Genetic condition increasing oxidative vulnerability; negative state.                |
 | [[notes/_link/Glutathione]]                            | 27_May_2026 01:28 PM | Biological Molecule    |           6            |           1            | Endogenous antioxidant regulating redox state; positive protective molecule.         |
 | [[H-NMR]]                                  | 27_May_2026 01:28 PM | Analytical Technique   |           2            |           0            | Spectroscopy technique for structure; neutral analytical method.                     |
@@ -117,6 +120,7 @@ This directory contains notes and research regarding [[Adrenochrome]] and its re
 | [[Methylene blue]]                         | 27_May_2026 01:28 PM | Chemical Compound      |           6            |           1            | Treatment for methemoglobinemia; positive medical product.                           |
 | [[Michael addition]]                       | 27_May_2026 01:28 PM | Chemical Process       |           6            |           0            | Chemical reaction mechanism for adduct formation; neutral process.                   |
 | [[notes/_link/Mitochondria]]               | 30_May_2026 12:00 PM | Anatomy                |           9            |           0            | Primary source of ROS and site of adrenochrome redox cycling.                         |
+| [[Mitohormesis]]                           | 11_Jun_2026 12:00 PM | Scientific Concept     |           9            |           1            | Adaptive response to low-level mitochondrial stress induced by redox cycling.        |
 | [[notes/_link/Myeloperoxidase]]                        | 27_May_2026 01:28 PM | Enzyme                 |           10           |           1            | Key enzyme responsible for epinephrine oxidation; essential positive driver.         |
 | [[Myeloperoxidase Pathway]]                | 27_May_2026 01:28 PM | Biological Process     |           10           |           1            | Primary enzymatic route for adrenochrome production; positive driver.                |
 | [[Myocardial infarction]]                  | 27_May_2026 01:28 PM | Medical Condition      |           9            |           -1           | Linked to high adrenochrome levels; negative pathological outcome.                   |
@@ -147,6 +151,7 @@ This directory contains notes and research regarding [[Adrenochrome]] and its re
 | [[Quality Control]]                        | 27_May_2026 01:28 PM | Laboratory Standard    |           3            |           0            | Standard laboratory practices; neutral scientific concept.                           |
 | [[Quinone]]                                | 27_May_2026 01:28 PM | Chemical Class         |           7            |           1            | Reactive chemical class driving the pathway; positive driver.                        |
 | [[Racemization]]                           | 27_May_2026 01:28 PM | Chemical Process       |           4            |           -1           | Loss of optical purity in chemicals; negative chemical process.                      |
+| [[Rapamycin]]                              | 11_Jun_2026 02:00 PM | Chemical Compound      |           9            |           1            | Gold-standard longevity drug and mTOR inhibitor; core to senomorphic strategy.       |
 | [[Rasburicase]]                            | 27_May_2026 01:28 PM | Enzyme                 |           4            |           -1           | Drug that can trigger methemoglobinemia; negative adverse effect.                    |
 | [[notes/_link/Reactive Oxygen Species]]                | 27_May_2026 01:28 PM | Chemical Class         |           10           |           1            | Group of molecules that drive the oxidation process; positive drivers.               |
 | [[Redox cycle]]                            | 27_May_2026 01:28 PM | Scientific Concept     |           8            |           1            | Continuous reaction mechanism for adrenochrome; positive driver.                     |
@@ -157,12 +162,14 @@ This directory contains notes and research regarding [[Adrenochrome]] and its re
 | [[notes/_link/Schizophrenia]]                          | 27_May_2026 01:28 PM | Medical Condition      |           5            |           0            | Condition historically linked to the pathway; neutral medical state.                 |
 | [[Semicarbazide]]                          | 27_May_2026 01:28 PM | Chemical Compound      |           8            |           0            | Used to form stable adrenochrome derivatives; neutral chemical agent.                |
 | [[notes/_link/Senescence]]                 | 30_May_2026 12:00 PM | Biological Process     |           7            |           0            | State of cellular arrest linked to chronic oxidative stress and aging.                |
+| [[Senomorphics]]                           | 11_Jun_2026 12:00 PM | Scientific Concept     |           7            |           1            | Class of compounds modulating the phenotype of senescent cells.                      |
 | [[Serum]]                                  | 27_May_2026 01:28 PM | Anatomy                |           4            |           0            | Fluid component of blood; neutral anatomical component.                              |
 | [[Smoking]]                                | 27_May_2026 01:28 PM | Scientific Concept     |           4            |           -1           | Source of oxidative stress and toxins; negative scientific concept.                  |
 | [[Sodium hydrogencarbonate]]               | 27_May_2026 01:28 PM | Chemical Compound      |           6            |           0            | pH buffer used in reactions; neutral chemical agent.                                 |
 | [[Sodium Metabisulfite]]                   | 27_May_2026 01:28 PM | Chemical Compound      |           6            |           0            | Antioxidant used as a stabilizer; neutral agent.                                     |
 | [[Sodium nitrite]]                         | 27_May_2026 01:28 PM | Chemical Compound      |           5            |           -1           | Chemical oxidant causing methemoglobinemia; negative agent.                          |
 | [[Sodium Persulfate]]                      | 27_May_2026 01:28 PM | Chemical Compound      |           6            |           0            | Laboratory oxidant; neutral chemical compound.                                       |
+| [[Spermidine]]                             | 11_Jun_2026 02:00 PM | Chemical Compound      |           8            |           1            | Natural polyamine promoting autophagy and proteostasis; positive longevity factor.    |
 | [[notes/_link/Substantia Nigra]]                       | 27_May_2026 01:28 PM | Anatomy                |           9            |           0            | Brain region where aminochrome formation is significant; neutral location.           |
 | [[Superoxide anion]]                       | 27_May_2026 01:28 PM | Biological Molecule    |           10           |           1            | Key reactive species initiating the oxidative cascade; positive driver.              |
 | [[notes/_link/Superoxide Dismutase]]                   | 27_May_2026 01:28 PM | Enzyme                 |           6            |           1            | Enzyme neutralizing superoxide; positive protective agent.                           |
@@ -170,4 +177,5 @@ This directory contains notes and research regarding [[Adrenochrome]] and its re
 | [[Sympathetic nerve endings]]              | 27_May_2026 01:28 PM | Anatomy                |           6            |           0            | Site of catecholamine release; neutral anatomical structure.                         |
 | [[Thioglycerol]]                           | 27_May_2026 01:28 PM | Chemical Compound      |           5            |           0            | Reducing agent used in experiments; neutral chemical agent.                          |
 | [[notes/_link/Tyrosine Hydroxylase]]       | 30_May_2026 12:00 PM | Enzyme                 |           8            |           0            | Rate-limiting enzyme in the synthesis of epinephrine and dopamine.                    |
+| [[Urolithin A]]                            | 11_Jun_2026 02:00 PM | Metabolite             |           8            |           1            | Mitophagy inducer; critical for resetting mitochondrial homeostasis in MRR strategy. |
 | [[notes/_link/Vitamin E]]                  | 30_May_2026 12:00 PM | Chemical Compound      |           6            |           1            | Lipid-soluble antioxidant that protects against oxidative damage.                      |
