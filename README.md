@@ -1,18 +1,18 @@
 # llm-wiki-jk
-last updated: 09_Jun_2026 08:52 PM  
+last updated: 11_Jun_2026 05:17 PM  
 
 ## topics (notes directory)
 
 | topic | last updated | count entities | count documents |
 | :--- | :--- | :---: | :---: |
 | _link | 09_Jun_2026 | 67 | 0 |
-| adrenochrome | 30_May_2026 | 159 | 11 |
+| adrenochrome | 11_Jun_2026 | 167 | 11 |
 | autism | 30_May_2026 | 79 | 3 |
-| autophagy | 09_Jun_2026 | 249 | 8 |
+| autophagy | 10_Jun_2026 | 249 | 8 |
 | cancer | 09_Jun_2026 | 251 | 7 |
 | comt | 31_May_2026 | 62 | 2 |
 | epigenetics | 04_Jun_2026 | 176 | 3 |
-| neuromelanin | 02_Jun_2026 | 66 | 1 |
+| neuromelanin | 11_Jun_2026 | 91 | 2 |
 | oxidative_stress | 01_Jun_2026 | 73 | 1 |
 | yamanaka_factors | 29_May_2026 | 83 | 3 |
 
@@ -57,6 +57,7 @@ last updated: 09_Jun_2026 08:52 PM
 | epigenetics | 29_May_2026 | notes/epigenetics/[document] Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks.md | 4599 |
 | epigenetics | 29_May_2026 | notes/epigenetics/[document] The Gut Microbiome, Aging, and Longevity A Systematic Review.md | 12840 |
 | neuromelanin | 31_May_2026 | notes/neuromelanin/[document] Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease.md | 9726 |
+| neuromelanin | 11_Jun_2026 | notes/neuromelanin/[document] Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator.md | 3770 |
 | oxidative_stress | 29_May_2026 | notes/oxidative_stress/[document] Oxidative Stress Harms and Benefits for Human Health.md | 9120 |
 | yamanaka_factors | 29_May_2026 | notes/yamanaka_factors/[document] Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic.md | 7214 |
 | yamanaka_factors | 29_May_2026 | notes/yamanaka_factors/[document] Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network.md | 13264 |
