@@ -4,7 +4,7 @@
 
 - Create or update README.md within the directory of the topic/subtopic folder.
   - Last updated and total count of entities.
-- Project timestamp format %d\_%B\_%Y %I:%M %p %Z
+- Project timestamp format %d\_%B\_%Y %I:%M %p %Z (uppercase)
 - Documents start with '[document]' or '\_document\_' in the file name.
   - Depending on task, they may or may not be included in context, counts.
 - 'notes' directory is organized by topic.
