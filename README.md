@@ -1,12 +1,12 @@
 # llm-wiki-jk
-last updated: 11_Jun_2026 05:17 PM  
+last updated: 12_Jun_2026 10:45 PM  
 
 ## topics (notes directory)
 
 | topic | last updated | count entities | count documents |
 | :--- | :--- | :---: | :---: |
-| _link | 09_Jun_2026 | 67 | 0 |
-| adrenochrome | 11_Jun_2026 | 167 | 11 |
+| _link | 12_Jun_2026 | 67 | 0 |
+| adrenochrome | 12_Jun_2026 | 186 | 14 |
 | autism | 30_May_2026 | 79 | 3 |
 | autophagy | 10_Jun_2026 | 249 | 8 |
 | cancer | 09_Jun_2026 | 251 | 7 |
@@ -25,6 +25,9 @@ last updated: 11_Jun_2026 05:17 PM
 | adrenochrome | 25_May_2026 | notes/adrenochrome/[document] adrenochrome - Adrenochrome.md | 1074 |
 | adrenochrome | 25_May_2026 | notes/adrenochrome/[document] adrenochrome - Aminoguanidine.md | 1874 |
 | adrenochrome | 29_May_2026 | notes/adrenochrome/[document] adrenochrome - Methemoglobin  and Methemoglobinemia.md | 801 |
+| adrenochrome | 12_Jun_2026 | notes/adrenochrome/[document] adrenochrome - Mitohormesis - 2014_FEB.md | 9689 |
+| adrenochrome | 12_Jun_2026 | notes/adrenochrome/[document] adrenochrome - Mitohormesis - 2023_NOV.md | 14276 |
+| adrenochrome | 12_Jun_2026 | notes/adrenochrome/[document] adrenochrome - Mitohormesis - Transcriptomic analysis of mitohormesis associated with lifespan extension in Caenorhabditis elegans.md | 457 |
 | adrenochrome | 25_May_2026 | notes/adrenochrome/[document] adrenochrome - Silver(1+) oxide.md | 1906 |
 | adrenochrome | 29_May_2026 | notes/adrenochrome/[document] adrenochrome - The Adrenochrome Pathway.md | 713 |
 | adrenochrome | 29_May_2026 | notes/adrenochrome/[document] adrenochrome - US4501923A - Process for preparing adrenochrome.md | 2511 |
