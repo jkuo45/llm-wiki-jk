@@ -1,307 +1,307 @@
 [
   {
-    "subject": "[[Mitohormesis]]",
+    "subject": "Mitohormesis",
     "predicate": "is a form of",
-    "object": "[[Hormesis]]"
+    "object": "Hormesis"
   },
   {
-    "subject": "[[Mitochondrial stress]]",
+    "subject": "Mitochondrial stress",
     "predicate": "activates",
-    "object": "[[Integrated Stress Response]]"
+    "object": "Integrated Stress Response"
   },
   {
-    "subject": "[[Mitochondrial stress]]",
+    "subject": "Mitochondrial stress",
     "predicate": "activates",
-    "object": "[[OMA1]]"
+    "object": "OMA1"
   },
   {
-    "subject": "[[OMA1]]",
+    "subject": "OMA1",
     "predicate": "cleaves",
-    "object": "[[DELE1]]"
+    "object": "DELE1"
   },
   {
-    "subject": "[[DELE1-S]]",
+    "subject": "DELE1-S",
     "predicate": "accumulates in",
-    "object": "[[Cytosol]]"
+    "object": "Cytosol"
   },
   {
-    "subject": "[[DELE1-S]]",
+    "subject": "DELE1-S",
     "predicate": "binds and activates",
-    "object": "[[HRI]]"
+    "object": "HRI"
   },
   {
-    "subject": "[[HRI]]",
+    "subject": "HRI",
     "predicate": "phosphorylates",
-    "object": "[[eIF2alpha]]"
+    "object": "eIF2alpha"
   },
   {
-    "subject": "[[Phosphorylation]] of [[eIF2alpha]]",
+    "subject": "Phosphorylation of eIF2alpha",
     "predicate": "induces",
-    "object": "[[ATF4]]"
+    "object": "ATF4"
   },
   {
-    "subject": "[[ATF4]]",
+    "subject": "ATF4",
     "predicate": "binds to",
-    "object": "[[Amino Acid Response Element]]"
+    "object": "Amino Acid Response Element"
   },
   {
-    "subject": "[[ATF4]]",
+    "subject": "ATF4",
     "predicate": "increases",
-    "object": "[[Serine biosynthesis]]"
+    "object": "Serine biosynthesis"
   },
   {
-    "subject": "[[ATF4]]",
+    "subject": "ATF4",
     "predicate": "increases",
-    "object": "[[Transsulfuration]]"
+    "object": "Transsulfuration"
   },
   {
-    "subject": "[[DELE1-L]]",
+    "subject": "DELE1-L",
     "predicate": "accumulates on",
-    "object": "[[Outer mitochondrial membrane]]"
+    "object": "Outer mitochondrial membrane"
   },
   {
-    "subject": "[[Iron deficiency]]",
+    "subject": "Iron deficiency",
     "predicate": "triggers",
-    "object": "[[DELE1-L]] accumulation"
+    "object": "DELE1-L accumulation"
   },
   {
-    "subject": "[[ATF5]]",
+    "subject": "ATF5",
     "predicate": "mediates",
-    "object": "[[Mammalian Mitochondrial UPR]]"
+    "object": "Mammalian Mitochondrial UPR"
   },
   {
-    "subject": "[[ATFS-1]]",
+    "subject": "ATFS-1",
     "predicate": "regulates",
-    "object": "[[UPRmt]]"
+    "object": "UPRmt"
   },
   {
-    "subject": "[[ATFS-1]]",
+    "subject": "ATFS-1",
     "predicate": "traffics to",
-    "object": "[[Nucleus]]"
+    "object": "Nucleus"
   },
   {
-    "subject": "[[Mitochondrial stress]]",
+    "subject": "Mitochondrial stress",
     "predicate": "triggers",
-    "object": "[[ATFS-1]] nuclear translocation"
+    "object": "ATFS-1 nuclear translocation"
   },
   {
-    "subject": "[[Lon Protease]]",
+    "subject": "Lon Protease",
     "predicate": "degrades",
-    "object": "[[ATFS-1]]"
+    "object": "ATFS-1"
   },
   {
-    "subject": "[[Mitochondrial dysfunction]]",
+    "subject": "Mitochondrial dysfunction",
     "predicate": "disrupts",
-    "object": "[[PINK1]] mitochondrial import"
+    "object": "PINK1"
   },
   {
-    "subject": "[[PINK1]]",
+    "subject": "PINK1",
     "predicate": "catalyzes",
-    "object": "[[Parkin]]-dependent [[Mitophagy]]"
+    "object": "Parkin-dependent Mitophagy"
   },
   {
-    "subject": "[[UBQLN]]",
+    "subject": "UBQLN",
     "predicate": "binds",
-    "object": "[[Mitochondrial membrane proteins]]"
+    "object": "Mitochondrial membrane proteins"
   },
   {
-    "subject": "[[UBQLN]]",
+    "subject": "UBQLN",
     "predicate": "prevents",
-    "object": "[[Protein aggregation]]"
+    "object": "Protein aggregation"
   },
   {
-    "subject": "[[Ubx2]]",
+    "subject": "Ubx2",
     "predicate": "associates with",
-    "object": "[[TOM complex]]"
+    "object": "TOM complex"
   },
   {
-    "subject": "[[Ubx2]]",
+    "subject": "Ubx2",
     "predicate": "recruits",
-    "object": "[[Cdc48]]"
+    "object": "Cdc48"
   },
   {
-    "subject": "[[Cdc48]]",
+    "subject": "Cdc48",
     "predicate": "extracts",
-    "object": "[[Stalled proteins]]"
+    "object": "Stalled proteins"
   },
   {
-    "subject": "[[Msp1]]",
+    "subject": "Msp1",
     "predicate": "extracts",
-    "object": "[[Mistargeted TA proteins]]"
+    "object": "Mistargeted TA proteins"
   },
   {
-    "subject": "[[PDR3]]",
+    "subject": "PDR3",
     "predicate": "induces",
-    "object": "[[Cis1]]"
+    "object": "Cis1"
   },
   {
-    "subject": "[[Cis1]]",
+    "subject": "Cis1",
     "predicate": "recruits",
-    "object": "[[Msp1]]"
+    "object": "Msp1"
   },
   {
-    "subject": "[[Vms1]]",
+    "subject": "Vms1",
     "predicate": "links",
-    "object": "[[Ribosome quality control]]"
+    "object": "Ribosome quality control"
   },
   {
-    "subject": "[[Mitoprotein-Induced Stress Response]]",
+    "subject": "Mitoprotein-Induced Stress Response",
     "predicate": "orchestrated by",
-    "object": "[[HSF1]]"
+    "object": "HSF1"
   },
   {
-    "subject": "[[HSF1]]",
+    "subject": "HSF1",
     "predicate": "activates",
-    "object": "[[RPN4]]"
+    "object": "RPN4"
   },
   {
-    "subject": "[[RPN4]]",
+    "subject": "RPN4",
     "predicate": "induces",
-    "object": "[[Proteasome]] subunits"
+    "object": "Proteasome subunits"
   },
   {
-    "subject": "[[GDF15]]",
+    "subject": "GDF15",
     "predicate": "acts as",
-    "object": "[[Mitokine]]"
+    "object": "Mitokine"
   },
   {
-    "subject": "[[GDF15]]",
+    "subject": "GDF15",
     "predicate": "acts as",
-    "object": "[[Myokine]]"
+    "object": "Myokine"
   },
   {
-    "subject": "[[GDF15]]",
+    "subject": "GDF15",
     "predicate": "regulates",
-    "object": "[[Body fat mass]]"
+    "object": "Body fat mass"
   },
   {
-    "subject": "[[Metformin]]",
+    "subject": "Metformin",
     "predicate": "induces",
-    "object": "[[GDF15]]"
+    "object": "GDF15"
   },
   {
-    "subject": "[[FGF21]]",
+    "subject": "FGF21",
     "predicate": "is a",
-    "object": "[[Mitokine]]"
+    "object": "Mitokine"
   },
   {
-    "subject": "[[FGF21]] secretion",
+    "subject": "FGF21 secretion",
     "predicate": "is downstream of",
-    "object": "[[OMA1]]-[[DELE1]]-[[ATF4]] pathway"
+    "object": "OMA1-DELE1-ATF4 pathway"
   },
   {
-    "subject": "[[MOTS-c]]",
+    "subject": "MOTS-c",
     "predicate": "is encoded by",
-    "object": "[[Mitochondrial 12S rRNA]]"
+    "object": "Mitochondrial 12S rRNA"
   },
   {
-    "subject": "[[MOTS-c]]",
+    "subject": "MOTS-c",
     "predicate": "increases",
-    "object": "[[Insulin sensitivity]]"
+    "object": "Insulin sensitivity"
   },
   {
-    "subject": "[[Humanin]]",
+    "subject": "Humanin",
     "predicate": "is encoded by",
-    "object": "[[Mitochondrial 16S rRNA]]"
+    "object": "Mitochondrial 16S rRNA"
   },
   {
-    "subject": "[[Humanin]]",
+    "subject": "Humanin",
     "predicate": "exerts",
-    "object": "[[Cytoprotective effects]]"
+    "object": "Cytoprotective effects"
   },
   {
-    "subject": "[[Mitochondrial DNA]]",
+    "subject": "Mitochondrial DNA",
     "predicate": "triggers",
-    "object": "[[cGAS-STING]] pathway"
+    "object": "cGAS-STING pathway"
   },
   {
-    "subject": "[[MAVS]]",
+    "subject": "MAVS",
     "predicate": "orchestrates",
-    "object": "[[Innate immune response]]"
+    "object": "Innate immune response"
   },
   {
-    "subject": "[[Succinate]] oxidation",
+    "subject": "Succinate oxidation",
     "predicate": "generates",
-    "object": "[[Mitochondrial ROS]]"
+    "object": "Mitochondrial ROS"
   },
   {
-    "subject": "[[Mitochondrial ROS]]",
+    "subject": "Mitochondrial ROS",
     "predicate": "stabilizes",
-    "object": "[[HIF1-alpha]]"
+    "object": "HIF1-alpha"
   },
   {
-    "subject": "[[OPA1]] deficiency",
+    "subject": "OPA1 deficiency",
     "predicate": "promotes",
-    "object": "[[FGF21]] secretion"
+    "object": "FGF21 secretion"
   },
   {
-    "subject": "[[Retrograde response]]",
+    "subject": "Retrograde response",
     "predicate": "coordinated by",
-    "object": "[[Rtg1]]/[[Rtg3]]"
+    "object": "Rtg1/Rtg3"
   },
   {
-    "subject": "[[Rtg2]]",
+    "subject": "Rtg2",
     "predicate": "regulates",
-    "object": "[[Rtg1]]/[[Rtg3]]"
+    "object": "Rtg1/Rtg3"
   },
   {
-    "subject": "[[HAF-1]]",
+    "subject": "HAF-1",
     "predicate": "exports",
-    "object": "[[Mitochondrial peptides]]"
+    "object": "Mitochondrial peptides"
   },
   {
-    "subject": "[[NAD+]] restoration",
+    "subject": "NAD+ restoration",
     "predicate": "extends",
-    "object": "[[Longevity]]"
+    "object": "Longevity"
   },
   {
-    "subject": "[[Sirtuin]]",
+    "subject": "Sirtuin",
     "predicate": "modulates",
-    "object": "[[Longevity]]"
+    "object": "Longevity"
   },
   {
-    "subject": "[[Mrps5]] knockdown",
+    "subject": "Mrps5 knockdown",
     "predicate": "extends",
-    "object": "[[Lifespan]]"
+    "object": "Lifespan"
   },
   {
-    "subject": "[[Doxycycline]]",
+    "subject": "Doxycycline",
     "predicate": "activates",
-    "object": "[[UPRmt]]"
+    "object": "UPRmt"
   },
   {
-    "subject": "[[Actinonin]]",
+    "subject": "Actinonin",
     "predicate": "inhibits",
-    "object": "[[Mitochondrial translation]]"
+    "object": "Mitochondrial translation"
   },
   {
-    "subject": "[[Actinonin]]",
+    "subject": "Actinonin",
     "predicate": "causes",
-    "object": "[[Mitochondrial ribosome stalling]]"
+    "object": "Mitochondrial ribosome stalling"
   },
   {
-    "subject": "[[TFEB]]",
+    "subject": "TFEB",
     "predicate": "orchestrates",
-    "object": "[[Lysosome]] biogenesis"
+    "object": "Lysosome biogenesis"
   },
   {
-    "subject": "[[2-deoxy-D-glucose]]",
+    "subject": "2-deoxy-D-glucose",
     "predicate": "extends",
-    "object": "[[Lifespan]]"
+    "object": "Lifespan"
   },
   {
-    "subject": "[[AMPK]]",
+    "subject": "AMPK",
     "predicate": "is required for",
-    "object": "[[2DG]]-induced longevity"
+    "object": "2DG-induced longevity"
   },
   {
-    "subject": "[[Nrf2]]",
+    "subject": "Nrf2",
     "predicate": "mediates",
-    "object": "[[Stress resistance]]"
+    "object": "Stress resistance"
   },
   {
-    "subject": "[[Metformin]]",
+    "subject": "Metformin",
     "predicate": "inhibits",
-    "object": "[[Complex I]]"
+    "object": "Complex I"
   }
 ]
