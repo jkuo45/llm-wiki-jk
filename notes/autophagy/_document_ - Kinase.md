@@ -5,8 +5,8 @@
 | **S211**                            | Dephosphorylation | [[Calcineurin]] | Nucleus translocation                                                                        | 26043755          |
 | **S142**                            | Phosphorylation   | [[mTORC1]]      | Cytoplasmic retention                                                                        | 22343943          |
 | **S142**                            | Phosphorylation   | [[mTORC1]]      | Nuclear export                                                                               | 30120233          |
-| **S142**                            | Phosphorylation   | [[ERK2]]        | Cytoplasmic retention                                                                        | 21617040          |
-| **S142**                            | Phosphorylation   | [[ERK2]]        | Nuclear export                                                                               | 29992949          |
+| **S142**                            | Phosphorylation   | [[notes/autophagy/ERK2]]        | Cytoplasmic retention                                                                        | 21617040          |
+| **S142**                            | Phosphorylation   | [[notes/autophagy/ERK2]]        | Nuclear export                                                                               | 29992949          |
 | **S142**                            | Phosphorylation   | [[CDK4/6]]      | Nuclear export                                                                               | 32662822          |
 | **S142**                            | Dephosphorylation | [[Calcineurin]] | Nucleus translocation                                                                        | 26043755          |
 | **S138**                            | Phosphorylation   | [[mTORC1]]      | Nuclear export                                                                               | 30120233          |
