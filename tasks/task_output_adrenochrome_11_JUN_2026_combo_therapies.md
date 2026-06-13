@@ -17,7 +17,7 @@ This document outlines a series of novel combination therapies that leverage the
 
 ### 1.1 Composition
 - **Trigger:** [[Carbazochrome]] (Stabilized Adrenochrome derivative) at sub-micromolar concentrations.
-- **Amplifier:** [[notes/_link/Methylene blue]] (Mitochondrial electron cycler).
+- **Amplifier:** [[notes/adrenochrome/Methylene blue|Methylene blue]] (Mitochondrial electron cycler).
 - **Fuel:** Nicotinamide Riboside (NR) or NMN (NAD+ precursors).
 - **Cleanup:** Urolithin A (Mitophagy inducer).
 

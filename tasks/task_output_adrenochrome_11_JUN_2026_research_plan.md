@@ -85,7 +85,7 @@ Adrenochrome warrants serious investigation as a "dark horse" in the longevity f
 ### Linking Summary:
 
 - New links added: [[notes/_link/Epinephrine]], [[Cardiotoxicity]], [[Redox Cycling]], [[notes/_link/Oxidative Stress]], [[notes/_link/Alzheimer's Disease]], [[notes/_link/Parkinson's Disease]], [[Adrenochrome monoaminoguanidine]], [[Aminoguanidine]], [[Aminochromes]], [[Cardiomyocytes]], [[notes/_link/Dopaminergic Neurons]], [[Leuco-adrenochrome]], [[notes/_link/Neuromelanin]], [[notes/_link/Glutathione]]
-- Suggested new entity notes to create: [[Mitohormesis]], [[Senomorphics]], [[Adrenochromatization]]
+- Suggested new entity notes to create: [[notes/adrenochrome/Mitohormesis]], [[Senomorphics]], [[Adrenochromatization]]
 - Strong connections to strengthen: [[Adrenochrome]] ↔ [[Redox Cycling]], [[Adrenochrome monoaminoguanidine]] ↔ [[Aminoguanidine]]
 
 ---
@@ -115,7 +115,7 @@ I have proposed a multi-phase research program:
 
 Workspace Updates
 
-- New Entities Created: [[Mitohormesis]], [[Senomorphics]], and [[Adrenochromatization]] have been added to the wiki with preliminary
+- New Entities Created: [[notes/adrenochrome/Mitohormesis]], [[Senomorphics]], and [[Adrenochromatization]] have been added to the wiki with preliminary
   definitions and linking summaries.
 - Research Plan: The full, structured proposal is available in notes/adrenochrome/tasks/adrenochrome_research_11_Jun_2026.md.
 - Wiki Indexing: The README.md has been updated to reflect the new count of 162 entities and the latest research findings.
