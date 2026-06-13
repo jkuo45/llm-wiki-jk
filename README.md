@@ -1,5 +1,5 @@
 # llm-wiki-jk
-last updated: 13_JUN_2026 01:52 PM PDT 
+last updated: 13_JUN_2026 02:27 PM PDT 
 
 ## topics (notes directory)
 
@@ -8,8 +8,8 @@ last updated: 13_JUN_2026 01:52 PM PDT
 | _link | 09_JUN_2026 08:50 PM PDT | 67 | 0 |
 | adrenochrome | 12_JUN_2026 10:45 PM PDT | 186 | 14 |
 | autism | 30_MAY_2026 07:02 PM PDT | 79 | 3 |
-| autophagy | 10_JUN_2026 03:46 PM PDT | 249 | 8 |
-| cancer | 09_JUN_2026 07:56 AM PDT | 251 | 7 |
+| autophagy | 13_JUN_2026 02:12 PM PDT | 249 | 8 |
+| cancer | 13_JUN_2026 02:23 PM PDT | 278 | 8 |
 | comt | 31_MAY_2026 01:03 PM PDT | 62 | 2 |
 | epigenetics | 13_JUN_2026 01:39 PM PDT | 222 | 4 |
 | neuromelanin | 11_JUN_2026 05:13 PM PDT | 91 | 2 |
@@ -41,19 +41,20 @@ last updated: 13_JUN_2026 01:52 PM PDT
 | autism | 30_MAY_2026 12:48 PM PDT | notes/autism/[document] Prevalence and Early Identification of Autism Spectrum ....md | 12724 |
 | autophagy | 02_JUN_2026 01:23 PM PDT | notes/autophagy/[document] Autophagy and intermittent fasting the connection for cancer therapy?.md | 2539 |
 | autophagy | 02_JUN_2026 01:23 PM PDT | notes/autophagy/[document] Autophagy takes it all – autophagy inducers target immune aging.md | 3900 |
-| autophagy | 09_JUN_2026 08:40 PM PDT | notes/autophagy/[document] From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery.md | 8579 |
+| autophagy | 13_JUN_2026 02:12 PM PDT | notes/autophagy/[document] From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery.md | 8579 |
 | autophagy | 02_JUN_2026 01:23 PM PDT | notes/autophagy/[document] Lysosome biogenesis Regulation and functions.md | 7476 |
 | autophagy | 03_JUN_2026 02:53 PM PDT | notes/autophagy/[document] MXL-3 and HLH-30 transcriptionally link lipolysis and autophagy to nutrient availability.md | 8221 |
 | autophagy | 09_JUN_2026 07:55 AM PDT | notes/autophagy/[document] TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS.md | 7866 |
 | autophagy | 02_JUN_2026 01:23 PM PDT | notes/autophagy/[document] The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting.md | 6054 |
-| autophagy | 02_JUN_2026 01:23 PM PDT | notes/autophagy/[document] mTOR signaling at a glance.md | 6589 |
+| autophagy | 13_JUN_2026 02:11 PM PDT | notes/autophagy/[document] mTOR signaling at a glance.md | 6589 |
 | cancer | 01_JUN_2026 05:04 AM PDT | notes/cancer/[document] Apoptosis in cancer from pathogenesis to treatment.md | 10378 |
-| cancer | 01_JUN_2026 05:04 AM PDT | notes/cancer/[document] Evading apoptosis in cancer.md | 12359 |
+| cancer | 13_JUN_2026 01:58 PM PDT | notes/cancer/[document] Evading apoptosis in cancer.md | 12361 |
 | cancer | 01_JUN_2026 05:04 AM PDT | notes/cancer/[document] Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology.md | 12626 |
 | cancer | 01_JUN_2026 05:04 AM PDT | notes/cancer/[document] Ivermectin, a potential anticancer drug derived from an antiparasitic drug.md | 10575 |
 | cancer | 25_MAY_2026 05:23 PM PDT | notes/cancer/[document] Ivermectin, ‘Wonder drug’ from Japan the human use perspective.md | 7484 |
 | cancer | 29_MAY_2026 08:20 AM PDT | notes/cancer/[document] Oral Fenbendazole for Cancer Therapy in Humans and Animals.md | 555 |
 | cancer | 25_MAY_2026 05:23 PM PDT | notes/cancer/[document] RGD peptide in cancer targeting Benefits, challenges, solutions, and possible integrin–RGD interactions.md | 27411 |
+| cancer | 13_JUN_2026 02:12 PM PDT | notes/cancer/_document_ - Caspase.md | 1226 |
 | comt | 29_MAY_2026 08:20 AM PDT | notes/comt/[document] COMT How to Optimize Your Supplements for Your COMT Genotype.md | 2304 |
 | comt | 29_MAY_2026 08:20 AM PDT | notes/comt/[document] Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum.md | 1848 |
 | epigenetics | 04_JUN_2026 08:59 PM PDT | notes/epigenetics/[document] Cellular Mechanisms and Regulation of Quiescence.md | 8012 |

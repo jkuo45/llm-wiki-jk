@@ -9,7 +9,7 @@ PAK1 is located at the intersection of multiple signaling pathways related to tu
 - **Crosstalk:** PAK1 allocates crosstalk between the [[notes/_link/PI3K]]/[[notes/_link/Akt]] and [[notes/_link/MAPK]] pathways.
 - **Upstream:** RAS activation can directly initiate PAK1.
 - **Downstream:** 
-    - Activates [[MEK1/2]] and [[ERK1/2]] via RAF.
+    - Activates [[MEK1/2]] and [[ERK1_2]] via RAF.
     - Increases [[notes/_link/PI3K]]/[[notes/_link/Akt]] signaling by PDK1.
     - Facilitates [[NFκB|NF-κB]] nuclear activation.
     - Facilitates [[Wnt]]/β-catenin signaling.
@@ -31,6 +31,6 @@ Targeting PAK1 is considered a novel and promising method for cancer treatment. 
 - Strong connections to strengthen: [[PAK1]] ↔ [[Ivermectin]], [[PAK1]] ↔ [[Bad]]
 
 ## Linking Summary
-- New links added: [[notes/_link/Apoptosis]], [[notes/_link/PI3K]], [[notes/_link/Akt]], [[notes/_link/MAPK]], [[MEK1/2]], [[ERK1/2]], [[NF-kappa B]], [[Wnt]], [[Ivermectin]].
-- Suggested new entity notes to create: [[notes/_link/PI3K]], [[MEK1/2]], [[ERK1/2]], [[NF-kappa B]], [[Wnt]].
+- New links added: [[notes/_link/Apoptosis]], [[notes/_link/PI3K]], [[notes/_link/Akt]], [[notes/_link/MAPK]], [[MEK1/2]], [[ERK1_2]], [[NF-kappa B]], [[Wnt]], [[Ivermectin]].
+- Suggested new entity notes to create: [[notes/_link/PI3K]], [[MEK1/2]], [[ERK1_2]], [[NF-kappa B]], [[Wnt]].
 - Strong connections to strengthen: [[PAK1]] ↔ [[Ivermectin]], [[PAK1]] ↔ [[notes/_link/MAPK]]
