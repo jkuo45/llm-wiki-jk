@@ -1,0 +1,142 @@
+[
+  {
+    "subject": "Adrenochrome",
+    "predicate": "acts as",
+    "object": "Senotherapeutic agent",
+    "context": "Adrenochrome may act as a senotherapeutic agent, specifically as a senolytic or senomorphic agent.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Adrenochrome",
+    "predicate": "modulates",
+    "object": "SASP",
+    "context": "Preliminary data suggest adrenochrome may modulate the Senescence-Associated Secretory Phenotype (SASP).",
+    "confidence": "high"
+  },
+  {
+    "subject": "Adrenochrome",
+    "predicate": "induces",
+    "object": "Quiescence",
+    "context": "Adrenochrome may induce a 'quiescent-like' state in senescent cells.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Adrenochrome",
+    "predicate": "induces",
+    "object": "Senolysis",
+    "context": "Adrenochrome may selectively induce apoptosis in cells with pre-existing high ROS levels (senolysis).",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Redox cycling",
+    "predicate": "fuels",
+    "object": "Oxidative stress",
+    "context": "The catalytic 'redox cycling' of aminochromes continuously fuels oxidative stress.",
+    "confidence": "high"
+  },
+  {
+    "subject": "NADPH-cytochrome P450 reductase",
+    "predicate": "reduces",
+    "object": "Aminochromes",
+    "context": "Aminochromes undergo one-electron reduction by enzymes like NADPH-cytochrome P450 reductase to form semiquinone radicals.",
+    "confidence": "high"
+  },
+  {
+    "subject": "NQO1",
+    "predicate": "reduces",
+    "object": "Aminochromes",
+    "context": "NQO1 performs a safe, two-electron reduction of quinones to stable hydroquinones, bypassing semiquinone intermediates.",
+    "confidence": "high"
+  },
+  {
+    "subject": "GSTM2",
+    "predicate": "defends against",
+    "object": "Aminochrome-induced toxicity",
+    "context": "Healthy cells typically defend themselves against aminochrome-induced toxicity using enzymes like NQO1 and GSTM2.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Adrenochrome",
+    "predicate": "inhibits",
+    "object": "NF-κB signaling",
+    "context": "Covalent modification of critical cysteine residues by adrenochrome could permanently inhibit NF-κB signaling.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Adrenochrome",
+    "predicate": "modifies",
+    "object": "Keap1",
+    "context": "Electrophilic stress from adrenochrome modifies Keap1, releasing the transcription factor Nrf2.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Nrf2",
+    "predicate": "antagonizes",
+    "object": "NF-κB",
+    "context": "Active Nrf2 signaling is known to mutually antagonize NF-κB and directly repress pro-inflammatory cytokine genes.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Adrenochrome",
+    "predicate": "causes",
+    "object": "Cardiotoxicity",
+    "context": "Adrenochrome is associated with myocardial damage, coronary spasms, and intracellular calcium overload.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Adrenochrome monoaminoguanidine",
+    "predicate": "is a",
+    "object": "Glyco-oxidative modulator",
+    "context": "Adrenochrome monoaminoguanidine represents a novel 'glyco-oxidative' modulator targeting oxidative damage and protein cross-linking.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Adrenochrome monoaminoguanidine",
+    "predicate": "contains",
+    "object": "Indoline-dione core",
+    "context": "Adrenochrome monoaminoguanidine combines the indoline-dione core with an aminoguanidine moiety.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Adrenochrome monoaminoguanidine",
+    "predicate": "contains",
+    "object": "Aminoguanidine",
+    "context": "The molecule combines the indoline-dione core with aminoguanidine via a guanylhydrazone linkage.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Aminoguanidine",
+    "predicate": "inhibits",
+    "object": "Advanced Glycation End-products (AGEs)",
+    "context": "Aminoguanidine is a known inhibitor of Advanced Glycation End-products (AGEs).",
+    "confidence": "high"
+  },
+  {
+    "subject": "Aminoguanidine",
+    "predicate": "traps",
+    "object": "Dicarbonyl intermediates",
+    "context": "Aminoguanidine acts as a nucleophilic 'trap' for highly reactive dicarbonyl intermediates like methylglyoxal.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Adrenochrome monoaminoguanidine",
+    "predicate": "acts as",
+    "object": "Hemostatic capillary stabilizer",
+    "context": "Adrenochrome monoaminoguanidine (S-Adchnon) was used clinically as a hemostatic capillary stabilizer.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Adrenochrome monoaminoguanidine",
+    "predicate": "acts as",
+    "object": "Radioprotective agent",
+    "context": "Adrenochrome monoaminoguanidine was developed and used as a radioprotective agent.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Adrenochrome monoaminoguanidine",
+    "predicate": "protects",
+    "object": "Cell membranes",
+    "context": "The molecule's radioprotective effects stem from its ability to protect cell membranes from radiation-induced oxidative damage.",
+    "confidence": "high"
+  }
+]
