@@ -1,0 +1,101 @@
+<svg width="1080" height="1920" viewBox="0 0 1080 1920" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1080" height="1920" fill="#f8fafc" />
+  
+  <!-- Header Section -->
+  <rect width="1080" height="250" fill="#1e3a8a" />
+  <text x="540" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="52" fill="white">DNA Replication Stress Inducers</text>
+  <text x="540" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="48" fill="#93c5fd">DNA 複製壓力誘導劑</text>
+  
+  <!-- Definition Section -->
+  <rect x="50" y="280" width="980" height="180" rx="20" fill="white" stroke="#e2e8f0" stroke-width="2" />
+  <text x="540" y="345" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" fill="#334155">
+    <tspan x="540" dy="0">Agents that interfere with DNA synthesis, causing replication fork stalling and DNA damage.</tspan>
+    <tspan x="540" dy="50" font-weight="bold">這些物質干擾 DNA 合成，導致複製叉停滯與 DNA 損傷。</tspan>
+  </text>
+  
+  <!-- Diagram: DNA Replication Fork Stalling -->
+  <g transform="translate(540, 600)">
+    <!-- DNA Strands -->
+    <path d="M-400,0 Q-200,0 0,0" stroke="#cbd5e1" stroke-width="12" fill="none" />
+    <path d="M0,0 L200,-100 M0,0 L200,100" stroke="#3b82f6" stroke-width="12" fill="none" />
+    <!-- Stalled Fork Icon -->
+    <circle cx="0" cy="0" r="40" fill="#ef4444" opacity="0.8" />
+    <path d="M-15,-15 L15,15 M-15,15 L15,-15" stroke="white" stroke-width="8" />
+    <text x="0" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="28" fill="#ef4444">Fork Stalling / 複製叉停滯</text>
+  </g>
+  
+  <!-- Key Agents Section -->
+  <text x="50" y="780" font-family="Arial, sans-serif" font-weight="bold" font-size="40" fill="#1e3a8a">Key Agents &amp; Mechanisms | 主要誘導劑與機制</text>
+  
+  <!-- Agent 1: Aphidicolin -->
+  <g transform="translate(50, 820)">
+    <rect width="470" height="160" rx="15" fill="#eff6ff" stroke="#bfdbfe" stroke-width="2" />
+    <text x="20" y="50" font-family="Arial, sans-serif" font-weight="bold" font-size="32" fill="#1d4ed8">Aphidicolin (阿非迪黴素)</text>
+    <text x="20" y="100" font-family="Arial, sans-serif" font-size="24" fill="#1e40af">Inhibits DNA Polymerase α</text>
+    <text x="20" y="135" font-family="Arial, sans-serif" font-size="24" fill="#1e40af" font-weight="bold">抑制 DNA 聚合酶 α</text>
+  </g>
+  
+  <!-- Agent 2: Hydroxyurea -->
+  <g transform="translate(560, 820)">
+    <rect width="470" height="160" rx="15" fill="#fff7ed" stroke="#fed7aa" stroke-width="2" />
+    <text x="20" y="50" font-family="Arial, sans-serif" font-weight="bold" font-size="32" fill="#c2410c">Hydroxyurea (羥基脲)</text>
+    <text x="20" y="100" font-family="Arial, sans-serif" font-size="24" fill="#9a3412">Inhibits Ribonucleotide Reductase (RNR)</text>
+    <text x="20" y="135" font-family="Arial, sans-serif" font-size="24" fill="#9a3412" font-weight="bold">抑制核糖核苷酸還原酶 (RNR)</text>
+  </g>
+  
+  <!-- Agent 3: Gemcitabine -->
+  <g transform="translate(50, 1000)">
+    <rect width="470" height="160" rx="15" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="2" />
+    <text x="20" y="50" font-family="Arial, sans-serif" font-weight="bold" font-size="32" fill="#15803d">Gemcitabine (吉西他濱)</text>
+    <text x="20" y="100" font-family="Arial, sans-serif" font-size="24" fill="#166534">Inhibits RNR and CTP Synthetase</text>
+    <text x="20" y="135" font-family="Arial, sans-serif" font-size="24" fill="#166534" font-weight="bold">抑制 RNR 與 CTP 合成酶</text>
+  </g>
+  
+  <!-- Agent 4: Thymidine & BrdU -->
+  <g transform="translate(560, 1000)">
+    <rect width="470" height="160" rx="15" fill="#faf5ff" stroke="#e9d5ff" stroke-width="2" />
+    <text x="20" y="50" font-family="Arial, sans-serif" font-weight="bold" font-size="32" fill="#7e22ce">Thymidine &amp; BrdU (胸苷與 BrdU)</text>
+    <text x="20" y="100" font-family="Arial, sans-serif" font-size="22" fill="#6b21a8">Nucleoside analogs disrupting balance</text>
+    <text x="20" y="135" font-family="Arial, sans-serif" font-size="24" fill="#6b21a8" font-weight="bold">核苷類似物/過量導致平衡失調</text>
+  </g>
+  
+  <!-- Outcomes Section -->
+  <text x="50" y="1230" font-family="Arial, sans-serif" font-weight="bold" font-size="40" fill="#1e3a8a">Biological Outcomes | 生物學效應</text>
+  
+  <!-- Pathway Visualizer -->
+  <g transform="translate(540, 1300)">
+    <!-- Box 1: DNA Damage -->
+    <rect x="-400" y="0" width="800" height="120" rx="10" fill="#fee2e2" stroke="#fecaca" stroke-width="2" />
+    <text x="0" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="30" fill="#991b1b">DNA Damage (γH2A.X foci)</text>
+    <text x="0" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="28" fill="#991b1b">DNA 損傷 (γH2A.X 焦點)</text>
+    
+    <!-- Arrow -->
+    <path d="M0,120 L0,170" stroke="#94a3b8" stroke-width="4" marker-end="url(#arrow)" />
+    
+    <!-- Box 2: Pathway -->
+    <rect x="-400" y="180" width="800" height="120" rx="10" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="2" />
+    <text x="0" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="30" fill="#334155">Pathway: p53-p21 induction, p-Rb reduction</text>
+    <text x="0" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="28" fill="#334155">路徑：p53-p21 誘導，p-Rb 降低</text>
+    
+    <!-- Arrow -->
+    <path d="M0,300 L0,350" stroke="#94a3b8" stroke-width="4" marker-end="url(#arrow)" />
+    
+    <!-- Box 3: Senescence -->
+    <rect x="-400" y="360" width="800" height="160" rx="10" fill="#f0fdfa" stroke="#99f6e4" stroke-width="2" />
+    <text x="0" y="415" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="32" fill="#0f766e">Cellular Senescence / 細胞衰老</text>
+    <text x="0" y="460" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" fill="#115e59">SA-β-Gal activation, CS-like morphology</text>
+    <text x="0" y="500" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" fill="#115e59" font-weight="bold">SA-β-Gal 活化，類衰老形態</text>
+  </g>
+  
+  <!-- Markers for Arrow -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#94a3b8" />
+    </marker>
+  </defs>
+  
+  <!-- Footer -->
+  <rect y="1860" width="1080" height="60" fill="#1e3a8a" />
+  <text x="540" y="1900" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="white">DNA Replication Stress &amp; Senescence Research | DNA 複製壓力與衰老研究</text>
+</svg>

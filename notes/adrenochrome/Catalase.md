@@ -2,6 +2,10 @@
 
 Catalase is a key antioxidant enzyme that catalyzes the decomposition of [[Hydrogen Peroxide]] into water and oxygen. It is a critical component of the cell's defense against [[Oxidative Stress]].
 
+## Inhibition by Glycation
+
+The activity of catalase can be reduced by [[Glycation]] modifications. Intracellular [[Advanced Glycation End Products]] (AGEs) accumulation impairs the enzymatic function of catalase, thereby increasing cellular oxidative stress and contributing to the [[Aging]] process.
+
 ## Role in Mitohormesis
 
 In the context of [[Mitohormesis]], mild increases in mitochondrial [[Reactive Oxygen Species]] (mROS) can lead to the adaptive upregulation of catalase. This increased antioxidant capacity provides protection against subsequent, more severe oxidative insults.
