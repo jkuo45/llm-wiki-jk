@@ -1,6 +1,6 @@
 # Wiki-style Knowledge Base
 
-## Maintenance
+## Maintenance:
 
 - Create or update README.md within the directory of the topic/subtopic folder.
   - Last updated and total count of entities.
@@ -38,7 +38,7 @@
 
 - Return the FULL updated Markdown content with all new [[links]] inserted. At the very end, add a section:
 
-### Orphan Link Resolution
+### Orphan Link Resolution:
 
 Maintain link integrity by performing periodic audits:
 
@@ -51,7 +51,7 @@ Maintain link integrity by performing periodic audits:
   - Use a standardized template: `# Title`, a one-sentence context, and a `Linking Summary`.
 - **Automation**: Use `uv run` to perform batch updates to minimize manual errors and ensure workspace-wide consistency.
 
-### Overlapping Link Resolution
+### Overlapping Link Resolution:
 
 - The scope of this task is entities and topics in the notes directory.
 - This process does not need to be ran while extracting entities or triples.
@@ -120,7 +120,7 @@ To maintain consistency, all entity notes should include an `entity_type` field.
 | Organization                  | Public, private sector organizations                                             | [[Merck & Co. Inc]], [[GlaxoSmithKline]]                                              |
 | NA                            | If none of the above                                                             |                                                                                       |
 
-## Subject Object Relation Triples
+## Subject Object Relation Triples (on user request):
 
 Extract all key factual triples in JSON format:
 [{"subject": "...", "predicate": "...", "object": "...", "context": "brief quote or explanation", "confidence": "high/medium/low"}]
@@ -132,12 +132,12 @@ Rules:
 - Focus on non-obvious, useful relations. Avoid trivial ones.
 - Resolve coreferences.
 
-Write file to: 'tasks/task_output_truples\_[timestamp].json'
+Write file to (project root): 'tasks/task_output_triples\_[timestamp].json'
 
 **Create directed graph analysis**
 
 - In scripts directory, execute visualize triples python script with output.json.
 - Output graphviz in .png and .svg to the tasks directory.
-- If not output/export name is provided, name the file(s)
+- If not output/export name is provided, name the file(s).
   - 'tasks/task_output\_[timestamp].svg'
   - 'tasks/task_output\_[timestamp].png'
