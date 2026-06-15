@@ -1,0 +1,282 @@
+[
+  {
+    "subject": "Mitohormetic Redox-Relay (MRR)",
+    "predicate": "targets",
+    "object": "Mitochondrial Dysfunction",
+    "context": "Primary Target: Mitochondrial Dysfunction & Energy Failure",
+    "confidence": "high"
+  },
+  {
+    "subject": "Carbazochrome",
+    "predicate": "is a stabilized derivative of",
+    "object": "Adrenochrome",
+    "context": "Composition: Carbazochrome (Stabilized Adrenochrome derivative)",
+    "confidence": "high"
+  },
+  {
+    "subject": "Carbazochrome",
+    "predicate": "induces",
+    "object": "Redox Cycling",
+    "context": "Mechanism: Carbazochrome induces transient, controlled Redox Cycling",
+    "confidence": "high"
+  },
+  {
+    "subject": "Redox Cycling",
+    "predicate": "generates",
+    "object": "Superoxide anion",
+    "context": "Mechanism: generating a low-amplitude superoxide signal",
+    "confidence": "high"
+  },
+  {
+    "subject": "Superoxide anion",
+    "predicate": "activates",
+    "object": "Nrf2",
+    "context": "Mechanism: oxidative pulse activates the Nrf2 antioxidant response",
+    "confidence": "high"
+  },
+  {
+    "subject": "Superoxide anion",
+    "predicate": "activates",
+    "object": "Antioxidant Response Element",
+    "context": "Mechanism: oxidative pulse activates the Antioxidant Response Element (ARE)",
+    "confidence": "high"
+  },
+  {
+    "subject": "Superoxide anion",
+    "predicate": "stimulates",
+    "object": "PGC-1α",
+    "context": "Mechanism: stimulates PGC-1α via the SIRT1/AMPK axis",
+    "confidence": "high"
+  },
+  {
+    "subject": "PGC-1α",
+    "predicate": "stimulated via",
+    "object": "SIRT1/AMPK axis",
+    "context": "Mechanism: stimulates PGC-1α via the SIRT1/AMPK axis",
+    "confidence": "high"
+  },
+  {
+    "subject": "Methylene blue",
+    "predicate": "acts as",
+    "object": "Mitochondrial electron cycler",
+    "context": "Amplifier: Methylene blue (Mitochondrial electron cycler)",
+    "confidence": "high"
+  },
+  {
+    "subject": "Methylene blue",
+    "predicate": "bypasses",
+    "object": "Complex I",
+    "context": "Mechanism: bypassing damaged Complex I/III",
+    "confidence": "high"
+  },
+  {
+    "subject": "Methylene blue",
+    "predicate": "bypasses",
+    "object": "Complex III",
+    "context": "Mechanism: bypassing damaged Complex I/III",
+    "confidence": "high"
+  },
+  {
+    "subject": "Methylene blue",
+    "predicate": "reduces",
+    "object": "ROS generation",
+    "context": "Mechanism: reducing the potential for runaway ROS generation",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Nicotinamide Riboside",
+    "predicate": "is an precursor to",
+    "object": "NAD+",
+    "context": "Fuel: Nicotinamide Riboside (NR) (NAD+ precursor)",
+    "confidence": "high"
+  },
+  {
+    "subject": "Nicotinamide Mononucleotide",
+    "predicate": "is an precursor to",
+    "object": "NAD+",
+    "context": "Fuel: Nicotinamide Mononucleotide (NMN) (NAD+ precursor)",
+    "confidence": "high"
+  },
+  {
+    "subject": "Urolithin A",
+    "predicate": "induces",
+    "object": "Mitophagy",
+    "context": "Cleanup: Urolithin A (Mitophagy inducer)",
+    "confidence": "high"
+  },
+  {
+    "subject": "Urolithin A",
+    "predicate": "clears",
+    "object": "dysfunctional organelles",
+    "context": "Mechanism: ensures the clearance of dysfunctional organelles",
+    "confidence": "high"
+  },
+  {
+    "subject": "Adrenochrome",
+    "predicate": "acts as",
+    "object": "senomorphic agent",
+    "context": "Adrenochrome may act as a senomorphic agent",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Adrenochrome",
+    "predicate": "induces",
+    "object": "quiescent-like state",
+    "context": "inducing a \"quiescent-like\" state in senescent cells",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Adrenochrome",
+    "predicate": "induces",
+    "object": "senolysis",
+    "context": "selectively inducing apoptosis in cells with pre-existing high ROS levels (senolysis)",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Aminochromes",
+    "predicate": "modulate",
+    "object": "SASP",
+    "context": "Aminochromes may modulate the Senescence-Associated Secretory Phenotype (SASP)",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Redox cycling",
+    "predicate": "fuels",
+    "object": "oxidative stress",
+    "context": "This catalytic \"redox cycling\" continuously fuels oxidative stress",
+    "confidence": "high"
+  },
+  {
+    "subject": "NQO1",
+    "predicate": "performs",
+    "object": "two-electron reduction",
+    "context": "NQO1 performs a safe, two-electron reduction of quinones",
+    "confidence": "high"
+  },
+  {
+    "subject": "GSTM2",
+    "predicate": "protects against",
+    "object": "aminochrome-induced toxicity",
+    "context": "healthy cells typically defend themselves against aminochrome-induced toxicity using GSTM2",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senomorphics",
+    "predicate": "suppress",
+    "object": "SASP transcription",
+    "context": "Senomorphics suppress the pro-inflammatory transcription of the SASP",
+    "confidence": "high"
+  },
+  {
+    "subject": "Adrenochrome",
+    "predicate": "inhibits",
+    "object": "NF-\u03baB signaling",
+    "context": "Covalent modification could permanently inhibit NF-\u03baB signaling",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Adrenochrome",
+    "predicate": "inhibits",
+    "object": "IKK",
+    "context": "Key upstream regulators of the SASP\u2014such as IKK\u2014rely on critical cysteine residues",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Nrf2",
+    "predicate": "antagonizes",
+    "object": "NF-\u03baB",
+    "context": "Active Nrf2 signaling is known to mutually antagonize NF-\u03baB",
+    "confidence": "high"
+  },
+  {
+    "subject": "Adrenochrome",
+    "predicate": "is an oxidation product of",
+    "object": "epinephrine",
+    "context": "Adrenochrome is an oxidation product of epinephrine",
+    "confidence": "high"
+  },
+  {
+    "subject": "Adrenochrome",
+    "predicate": "associated with",
+    "object": "myocardial damage",
+    "context": "accumulation of adrenochrome has been associated with myocardial damage",
+    "confidence": "high"
+  },
+  {
+    "subject": "Adrenochrome",
+    "predicate": "associated with",
+    "object": "arrhythmias",
+    "context": "associated with severe arrhythmias",
+    "confidence": "high"
+  },
+  {
+    "subject": "Adrenochrome monoaminoguanidine",
+    "predicate": "combines",
+    "object": "indoline-dione core",
+    "context": "combine the indoline-dione core with Aminoguanidine",
+    "confidence": "high"
+  },
+  {
+    "subject": "Adrenochrome monoaminoguanidine",
+    "predicate": "combines",
+    "object": "Aminoguanidine",
+    "context": "combine the indoline-dione core with Aminoguanidine",
+    "confidence": "high"
+  },
+  {
+    "subject": "Adrenochrome monoaminoguanidine",
+    "predicate": "is a",
+    "object": "glyco-oxidative modulator",
+    "context": "This molecule represents a novel \"glyco-oxidative\" modulator",
+    "confidence": "high"
+  },
+  {
+    "subject": "Adrenochrome monoaminoguanidine",
+    "predicate": "targets",
+    "object": "oxidative damage",
+    "context": "simultaneously address two primary hallmarks of aging: oxidative damage and protein cross-linking",
+    "confidence": "high"
+  },
+  {
+    "subject": "Adrenochrome monoaminoguanidine",
+    "predicate": "targets",
+    "object": "protein cross-linking",
+    "context": "simultaneously address two primary hallmarks of aging: oxidative damage and protein cross-linking",
+    "confidence": "high"
+  },
+  {
+    "subject": "Aminoguanidine",
+    "predicate": "is an inhibitor of",
+    "object": "Advanced Glycation End-products",
+    "context": "Aminoguanidine, a known inhibitor of Advanced Glycation End-products (AGEs)",
+    "confidence": "high"
+  },
+  {
+    "subject": "Aminoguanidine",
+    "predicate": "traps",
+    "object": "reactive dicarbonyl intermediates",
+    "context": "acting as a nucleophilic \"trap\" for highly reactive dicarbonyl intermediates",
+    "confidence": "high"
+  },
+  {
+    "subject": "Indoline-dione core",
+    "predicate": "provides",
+    "object": "redox modulation",
+    "context": "indoline-dione core (Redox Modulation)",
+    "confidence": "high"
+  },
+  {
+    "subject": "Adrenochrome monoaminoguanidine",
+    "predicate": "used as",
+    "object": "hemostatic capillary stabilizer",
+    "context": "used clinically as a hemostatic capillary stabilizer",
+    "confidence": "high"
+  },
+  {
+    "subject": "Adrenochrome monoaminoguanidine",
+    "predicate": "used as",
+    "object": "radioprotective agent",
+    "context": "used clinically as a radioprotective agent",
+    "confidence": "high"
+  }
+]

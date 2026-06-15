@@ -1,14 +1,14 @@
 # llm-wiki-jk
-last updated: 13_JUN_2026 02:27 PM PDT 
+last updated: 15_JUN_2026 01:08 PM PDT 
 
 ## topics (notes directory)
 
 | topic | last updated | count entities | count documents |
 | :--- | :--- | :---: | :---: |
-| _link | 09_JUN_2026 08:50 PM PDT | 67 | 0 |
-| adrenochrome | 12_JUN_2026 10:45 PM PDT | 186 | 14 |
+| _link | 15_JUN_2026 12:50 PM PDT | 67 | 0 |
+| adrenochrome | 15_JUN_2026 01:07 PM PDT | 219 | 19 |
 | autism | 30_MAY_2026 07:02 PM PDT | 79 | 3 |
-| autophagy | 13_JUN_2026 02:12 PM PDT | 249 | 8 |
+| autophagy | 13_JUN_2026 02:12 PM PDT | 249 | 9 |
 | cancer | 13_JUN_2026 02:23 PM PDT | 278 | 8 |
 | comt | 31_MAY_2026 01:03 PM PDT | 62 | 2 |
 | epigenetics | 13_JUN_2026 01:39 PM PDT | 222 | 4 |
@@ -22,7 +22,6 @@ last updated: 13_JUN_2026 02:27 PM PDT
 
 | topic | date modified | document path | word count |
 | :--- | :--- | :--- | :--- |
-| adrenochrome | 25_MAY_2026 01:38 PM PDT | notes/adrenochrome/[document] adrenochrome - Adrenochrome.md | 1074 |
 | adrenochrome | 25_MAY_2026 01:37 PM PDT | notes/adrenochrome/[document] adrenochrome - Aminoguanidine.md | 1874 |
 | adrenochrome | 29_MAY_2026 08:20 AM PDT | notes/adrenochrome/[document] adrenochrome - Methemoglobin  and Methemoglobinemia.md | 801 |
 | adrenochrome | 12_JUN_2026 10:07 PM PDT | notes/adrenochrome/[document] adrenochrome - Mitohormesis - 2014_FEB.md | 9689 |
@@ -36,6 +35,12 @@ last updated: 13_JUN_2026 02:27 PM PDT
 | adrenochrome | 25_MAY_2026 05:23 PM PDT | notes/adrenochrome/[document] adrenochrome - molecular composition, mechanism.md | 7418 |
 | adrenochrome | 29_MAY_2026 08:20 AM PDT | notes/adrenochrome/[document] adrenochrome - neutrophil and erthrocyte.md | 781 |
 | adrenochrome | 29_MAY_2026 08:20 AM PDT | notes/adrenochrome/[document] adrenocrhome - neutrophils role in adrenochrome production.md | 72 |
+| adrenochrome | 25_MAY_2026 01:38 PM PDT | notes/adrenochrome/_document_ -  adrenochrome - Adrenochrome.md | 1074 |
+| adrenochrome | 14_JUN_2026 09:50 PM PDT | notes/adrenochrome/_document_ - Dietary Advanced Glycation End Products and Aging.md | 9406 |
+| adrenochrome | 14_JUN_2026 11:50 AM PDT | notes/adrenochrome/_document_ - The role of glycation in the pathogenesis of aging and its prevention through herbal products and physical exercise.md | 6229 |
+| adrenochrome | 12_JUN_2026 09:55 PM PDT | notes/adrenochrome/_document_ - adrenochrome - as senotherapeutic agents.md | 1667 |
+| adrenochrome | 12_JUN_2026 09:58 PM PDT | notes/adrenochrome/_document_ - adrenochrome - glyco-oxidative modulation.md | 1472 |
+| adrenochrome | 15_JUN_2026 01:06 PM PDT | notes/adrenochrome/_document_ - adrenochrome - mitohormesis.md | 1976 |
 | autism | 30_MAY_2026 06:41 PM PDT | notes/autism/[document] Autism spectrum disorder definition, epidemiology, causes, and clinical evaluation.md | 4564 |
 | autism | 30_MAY_2026 07:00 PM PDT | notes/autism/[document] Digitally Diagnosing Multiple Developmental Delays Using Crowdsourcing Fused With Machine Learning Protocol for a Human-in-the-Loop Machine Learning Study.md | 8856 |
 | autism | 30_MAY_2026 12:48 PM PDT | notes/autism/[document] Prevalence and Early Identification of Autism Spectrum ....md | 12724 |
@@ -47,6 +52,7 @@ last updated: 13_JUN_2026 02:27 PM PDT
 | autophagy | 09_JUN_2026 07:55 AM PDT | notes/autophagy/[document] TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS.md | 7866 |
 | autophagy | 02_JUN_2026 01:23 PM PDT | notes/autophagy/[document] The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting.md | 6054 |
 | autophagy | 13_JUN_2026 02:11 PM PDT | notes/autophagy/[document] mTOR signaling at a glance.md | 6589 |
+| autophagy | 13_JUN_2026 02:12 PM PDT | notes/autophagy/_document_ - Kinase.md | 518 |
 | cancer | 01_JUN_2026 05:04 AM PDT | notes/cancer/[document] Apoptosis in cancer from pathogenesis to treatment.md | 10378 |
 | cancer | 13_JUN_2026 01:58 PM PDT | notes/cancer/[document] Evading apoptosis in cancer.md | 12361 |
 | cancer | 01_JUN_2026 05:04 AM PDT | notes/cancer/[document] Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology.md | 12626 |

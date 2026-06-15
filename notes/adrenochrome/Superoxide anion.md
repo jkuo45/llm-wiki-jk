@@ -21,5 +21,5 @@ In the [[Adrenochrome]] redox cycle, an electron is donated to molecular oxygen 
 - [[notes/_link/Hydrogen Peroxide]] ↔ Formed from superoxide via dismutation.
 
 ### Linking Summary:
-- New links added: [[Superoxide anion]], [[notes/_link/Reactive Oxygen Species]], [[Adrenochrome]], [[Oxidation]], [[notes/_link/Epinephrine]], [[Redox Cycling]], [[notes/_link/Oxidative Stress]], [[Cardiotoxicity]], [[notes/_link/Neutrophils]], [[Smoking]], [[notes/_link/Inflammation]], [[notes/_link/Hydrogen Peroxide]]
-- Strong connections to strengthen: [[Superoxide anion]] ↔ [[Adrenochrome]]
+- New links added: [[Superoxide anion]], [[notes/_link/Reactive Oxygen Species]], [[Adrenochrome]], [[Oxidation]], [[notes/_link/Epinephrine]], [[Redox Cycling]], [[notes/_link/Oxidative Stress]], [[Cardiotoxicity]], [[notes/_link/Neutrophils]], [[Smoking]], [[notes/_link/Inflammation]], [[notes/_link/Hydrogen Peroxide]], [[Mitohormetic Redox-Relay]]
+- Strong connections to strengthen: [[Superoxide anion]] ↔ [[Adrenochrome]], [[Superoxide anion]] ↔ [[Mitohormetic Redox-Relay]]

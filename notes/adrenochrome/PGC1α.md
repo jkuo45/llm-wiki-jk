@@ -19,6 +19,6 @@ PGC1α is a key effector in the [[Mitohormesis]] paradigm, as it not only increa
 
 ## Linking Summary
 
-- New links added: [[AMPK]], [[SIRT1]], [[Mitochondria]], [[Mitohormesis]]
+- New links added: [[AMPK]], [[SIRT1]], [[Mitochondria]], [[Mitohormesis]], [[Mitohormetic Redox-Relay]]
 - Suggested new entity notes to create: [[Mitochondrial biogenesis]]
-- Strong connections to strengthen: [[PGC1α]] ↔ [[Metabolic Homeostasis]]
+- Strong connections to strengthen: [[PGC1α]] ↔ [[Metabolic Homeostasis]], [[PGC1α]] ↔ [[Mitohormetic Redox-Relay]]
