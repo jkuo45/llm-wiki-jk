@@ -86,3 +86,18 @@ Because epigenetic modifications are chemically reversible, they represent a pro
 - New links added: [[notes/_link/Aging]], [[Autophagic Flux]], [[notes/_link/Autophagy]], [[Biomarkers]], [[notes/_link/Caloric Restriction]], [[Chromatin]], [[DNA Methylation]], [[DNA Methyltransferase]], [[Disease Modeling]], [[Epigenetic Clock]], [[Epigenetics]], [[Epigenome]], [[HDAC]], [[Histone Modification]], [[Induced Pluripotent Stem Cells]], [[Intermittent Fasting]], [[MicroRNA]], [[notes/_link/Neurodegenerative Diseases]], [[Neuroinflammation]], [[Nucleosome]], [[Proteotoxicity]], [[Rejuvenation]]
 - Suggested new entity notes to create: [[Amyloid Beta]], [[Autophagic Flux]], [[notes/_link/Caloric Restriction]], [[Intermittent Fasting]], [[Neuroinflammation]], [[Proteotoxicity]], [[Synaptic Plasticity]], [[Tau Protein]]
 - Strong connections to strengthen: [[notes/_link/Alzheimer's Disease]] ↔ [[notes/_link/Aging]], [[notes/_link/Alzheimer's Disease]] ↔ [[notes/_link/Autophagy]], [[notes/_link/Alzheimer's Disease]] ↔ [[DNA Methylation]], [[notes/_link/Alzheimer's Disease]] ↔ [[Neurodegenerative Disease]], [[Induced Pluripotent Stem Cells]] ↔ [[notes/_link/Alzheimer's Disease]]
+
+
+---
+
+### Merged from notes/autophagy/Alzheimer's Disease.md
+
+# Alzheimer's Disease
+
+Alzheimer's disease is a neurodegenerative disorder where enhancing [[TFEB]]-mediated autophagy, for example via [[Celastrol]], can help mitigate Tau pathology and amyloid-beta accumulation.
+
+### Linking Summary
+
+- New links added: [[TFEB]], [[Celastrol]]
+- Suggested new entity notes to create: [[Tau Pathology]]
+- Strong connections to strengthen: [[Alzheimer's Disease]] ↔ [[TFEB]]

@@ -1,7 +1,7 @@
 # Analysis and Protocol for Human Adrenochrome Replenishment (Hypothetical)
 
 ## Scientific Rationale and Analysis
-This protocol is derived from an analysis of existing biomedical entity notes concerning [[[document] adrenochrome - Adrenochrome]] and its metabolic pathways. The key findings informing this protocol are:
+This protocol is derived from an analysis of existing biomedical entity notes concerning [[_document_ -  adrenochrome - Adrenochrome]] and its metabolic pathways. The key findings informing this protocol are:
 
 1.  **Chemical Instability:** Adrenochrome is a transient intermediate in the [[notes/_link/Epinephrine]] oxidation pathway. It is highly sensitive to pH and oxidative environments, rapidly degrading into [[Adrenolutin]] or polymerizing into [[Melanins]]. Stability is maximized in acidic (pH 3.0–4.0), cold, and anaerobic conditions.
 2.  **Oxidative Catalysis:** The formation and further degradation of adrenochrome are driven by [[notes/_link/Reactive Oxygen Species]] (ROS), such as the [[Superoxide anion]] and [[Hydroxyl radical]]. This necessitates the use of potent antioxidants like [[notes/_link/Ascorbic Acid]] and [[notes/_link/Glutathione]] for stabilization.
@@ -14,7 +14,7 @@ This protocol is derived from an analysis of existing biomedical entity notes co
 ## 1. Material Sourcing and Storage
 
 ### 1.1 Compound Selection
-- **Form:** Pure [[[document] adrenochrome - Adrenochrome]] (C₉H₉NO₃) crystals (CAS 54-06-8) or pharmaceutical-grade [[Carbazochrome]] (stabilized semicarbazone derivative) for improved stability.
+- **Form:** Pure [[_document_ -  adrenochrome - Adrenochrome]] (C₉H₉NO₃) crystals (CAS 54-06-8) or pharmaceutical-grade [[Carbazochrome]] (stabilized semicarbazone derivative) for improved stability.
 - **Purity:** Requires a [[Certificate of Analysis]] (CoA) verified via [[HPLC]], [[LC-MS]], and [[H-NMR]].
 
 ### 1.2 Storage Conditions
@@ -77,6 +77,6 @@ Due to the extreme instability of adrenochrome at physiological pH, the solution
 
 ---
 **Linking Summary:**
-- New links added: [[[document] adrenochrome - Adrenochrome]], [[Carbazochrome]], [[notes/_link/Epinephrine]], [[Leuco-adrenochrome]], [[Adrenolutin]], [[notes/_link/Neuromelanin]], [[Cardiotoxicity]], [[Redox Cycling]], [[notes/_link/Oxidative Stress]], [[notes/_link/Ascorbic Acid]], [[Sodium Metabisulfite]], [[EDTA]], [[notes/_link/Glutathione]], [[Superoxide anion]], [[notes/_link/Hydrogen Peroxide]], [[notes/_link/Superoxide Dismutase]], [[Methemoglobinemia]], [[Oxyhemoglobin]], [[Methemoglobin]], [[HPLC]], [[LC-MS]], [[H-NMR]], [[Argon]], [[Nitrogen gas]], [[Autoxidation]], [[pH]], [[Cardiac arrest]], [[MAO]], [[notes/_link/COMT]], [[Smoking]], [[notes/_link/Neutrophils]].
+- New links added: [[_document_ -  adrenochrome - Adrenochrome]], [[Carbazochrome]], [[notes/_link/Epinephrine]], [[Leuco-adrenochrome]], [[Adrenolutin]], [[notes/_link/Neuromelanin]], [[Cardiotoxicity]], [[Redox Cycling]], [[notes/_link/Oxidative Stress]], [[notes/_link/Ascorbic Acid]], [[Sodium Metabisulfite]], [[EDTA]], [[notes/_link/Glutathione]], [[Superoxide anion]], [[notes/_link/Hydrogen Peroxide]], [[notes/_link/Superoxide Dismutase]], [[Methemoglobinemia]], [[Oxyhemoglobin]], [[Methemoglobin]], [[HPLC]], [[LC-MS]], [[H-NMR]], [[Argon]], [[Nitrogen gas]], [[Autoxidation]], [[pH]], [[Cardiac arrest]], [[MAO]], [[notes/_link/COMT]], [[Smoking]], [[notes/_link/Neutrophils]].
 - Suggested new entity notes to create: [[Adrenochrome Protocol]], [[Redox Optimization]].
-- Strong connections to strengthen: [[[document] adrenochrome - Adrenochrome]] ↔ [[Cardiotoxicity]], [[[document] adrenochrome - Adrenochrome]] ↔ [[notes/_link/Oxidative Stress]].
+- Strong connections to strengthen: [[_document_ -  adrenochrome - Adrenochrome]] ↔ [[Cardiotoxicity]], [[_document_ -  adrenochrome - Adrenochrome]] ↔ [[notes/_link/Oxidative Stress]].

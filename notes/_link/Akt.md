@@ -38,3 +38,18 @@
 - New links added: [[notes/_link/Autophagy]], [[notes/_link/Cancer]], [[FOXO1]], [[FOXO3a]], [[IGF1]], [[notes/_link/PI3K]], [[mTORC1]]
 - Suggested new entity notes to create: [[FOXO1]], [[FOXO3a]], [[IGF1]], [[notes/_link/PI3K]], [[mTORC1]]
 - Strong connections to strengthen: [[notes/_link/Akt]] ↔ [[notes/_link/Autophagy]], [[notes/_link/Akt]] ↔ [[notes/_link/PI3K]], [[notes/_link/Akt]] ↔ [[mTORC1]]
+
+
+---
+
+### Merged from notes/autophagy/Akt.md
+
+# Akt
+
+Akt, also known as Protein Kinase B, is a signaling kinase that phosphorylates [[TFEB]] at S467, promoting its cytoplasmic retention by enhancing interaction with [[14-3-3 protein]].
+
+### Linking Summary
+
+- New links added: [[TFEB]], [[14-3-3 protein]]
+- Suggested new entity notes to create: [[PI3K-Akt Signaling]]
+- Strong connections to strengthen: [[Akt]] ↔ [[TFEB]]

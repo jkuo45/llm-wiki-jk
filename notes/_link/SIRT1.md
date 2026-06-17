@@ -53,3 +53,18 @@ Higher levels of SIRT1 activity are generally associated with a longer, healthie
 - New links added: [[notes/_link/AMPK]], [[notes/_link/Aging]], [[Atg]], [[notes/_link/Autophagy]], [[notes/_link/Caloric Restriction]], [[notes/_link/Cardiovascular Disease]], [[notes/_link/Diabetes Mellitus]], [[Epigenome]], [[FOXO1]], [[FOXO3a]], [[Heterochromatin]], [[Intermittent Fasting]], [[notes/_link/Neurodegenerative Diseases]], [[notes/_link/Resveratrol]], [[notes/_link/SIRT1]], [[Sirtuin]]
 - Suggested new entity notes to create: [[notes/_link/AMPK]], [[Atg]], [[notes/_link/Caloric Restriction]], [[FOXO1]], [[FOXO3a]], [[Intermittent Fasting]], [[NAD+]], [[PGC-1alpha]], [[Sirtuin Activators]]
 - Strong connections to strengthen: [[notes/_link/SIRT1]] ↔ [[notes/_link/AMPK]], [[notes/_link/SIRT1]] ↔ [[notes/_link/Autophagy]], [[notes/_link/SIRT1]] ↔ [[notes/_link/Caloric Restriction]], [[notes/_link/SIRT1]] ↔ [[Sirtuin]]
+
+
+---
+
+### Merged from notes/autophagy/SIRT1.md
+
+# SIRT1
+
+Sirtuin 1 (SIRT1) is an NAD+-dependent deacetylase that promotes [[TFEB]] transcriptional activity and nuclear translocation by deacetylating it, notably at K116.
+
+### Linking Summary
+
+- New links added: [[TFEB]]
+- Suggested new entity notes to create: [[Deacetylation]]
+- Strong connections to strengthen: [[SIRT1]] ↔ [[TFEB]]

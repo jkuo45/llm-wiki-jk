@@ -1,19 +1,21 @@
 # Wiki-style Knowledge Base
 
-## Maintenance
+## Maintenance:
 
 - Create or update README.md within the directory of the topic/subtopic folder.
   - Last updated and total count of entities.
-- Project timestamp format %d*%b*%Y %I:%M %p %Z
-- documents start with '[document]' in the file name. Depending on task, they may or may not be included in context, counts.
-- notes directory is organized by topic.
-  - each markdown file within that topic can be counted as a single entity.
-- use uv for all python executables
-- scripts directory
+- Project timestamp format %d\_%B\_%Y %I:%M %p %Z (uppercase)
+- Documents start with '[document]' or '\_document\_' in the file name.
+  - Depending on task, they may or may not be included in context, counts.
+- 'notes' directory is organized by topic.
+  - Each markdown file within that topic can be counted as a single entity.
+- Prefer WriteFile tool to creating python scripts when appropriate.
+- Use uv for all python executables
+- 'scripts' directory:
   - periodically audit scripts for reusability.
   - if they contain values that are task specific, refactor for reusability.
 
-## Linking Format
+## Linking Format:
 
 - Use Obsidian-style wiki links: [[Exact Note Title]] or [[Note Title|Display Text]] when the display text differs.
 - Only link to entities and biomedical terms that make sense contextually — do not over-link or create trivial links.
@@ -36,7 +38,7 @@
 
 - Return the FULL updated Markdown content with all new [[links]] inserted. At the very end, add a section:
 
-### Orphan Link Resolution
+### Orphan Link Resolution:
 
 Maintain link integrity by performing periodic audits:
 
@@ -49,7 +51,7 @@ Maintain link integrity by performing periodic audits:
   - Use a standardized template: `# Title`, a one-sentence context, and a `Linking Summary`.
 - **Automation**: Use `uv run` to perform batch updates to minimize manual errors and ensure workspace-wide consistency.
 
-### Overlapping Link Resolution
+### Overlapping Link Resolution:
 
 - The scope of this task is entities and topics in the notes directory.
 - This process does not need to be ran while extracting entities or triples.
@@ -74,7 +76,7 @@ Maintain link integrity by performing periodic audits:
 
 To maintain consistency, all entity notes should include an `entity_type` field. Suggest additional entity types if they do not exist. These values are intended for README.md and do not need to be included in entity wiki notes. Depending on topic/user preference, more values maybe added.
 
-### entity type 1 schema
+### entity_type_1 schema
 
 | entity_type_1                 | entity_description_1                                                             | entity_examples_1                                                                     |
 | ----------------------------- | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
@@ -117,3 +119,25 @@ To maintain consistency, all entity notes should include an `entity_type` field.
 | **Person**                    | Historical or scientific figures (less emphasis, exclude, for scoring purposes). | [[Abram Hoffer]], [[Humphry Osmond]]                                                  |
 | Organization                  | Public, private sector organizations                                             | [[Merck & Co. Inc]], [[GlaxoSmithKline]]                                              |
 | NA                            | If none of the above                                                             |                                                                                       |
+
+## Subject Object Relation Triples (on user request):
+
+Extract all key factual triples in JSON format:
+[{"subject": "...", "predicate": "...", "object": "...", "context": "brief quote or explanation", "confidence": "high/medium/low"}]
+
+Rules:
+
+- Subjects and objects should be specific entities/concepts (normalize names where possible, e.g., use canonical terms).
+- Predicates should be clear verbs/relations (e.g., "causes", "is a type of", "outperforms").
+- Focus on non-obvious, useful relations. Avoid trivial ones.
+- Resolve coreferences.
+
+Write file to (project root): 'tasks/task_output_triples\_[timestamp].json'
+
+**Create directed graph analysis**
+
+- In scripts directory, execute visualize triples python script with output.json.
+- Output graphviz in .png and .svg to the tasks directory.
+- If not output/export name is provided, name the file(s).
+  - 'tasks/task_output\_[timestamp].svg'
+  - 'tasks/task_output\_[timestamp].png'

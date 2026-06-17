@@ -1,0 +1,170 @@
+[
+  {
+    "subject": "Advanced glycation end products",
+    "predicate": "formed via",
+    "object": "Maillard reaction",
+    "context": "Advanced glycation end products (AGEs) are a heterogeneous, complex group of compounds that are formed mainly via the Maillard reaction.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Maillard reaction",
+    "predicate": "occurs between",
+    "object": "reducing sugar and amino acids",
+    "context": "The Maillard reaction occurs when reducing sugar reacts in a non-enzymatic way with amino acids in proteins, lipids or DNA.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Schiff base",
+    "predicate": "formed from",
+    "object": "glucose and free amino acid",
+    "context": "First, glucose attaches to a free amino acid (mainly lysine and arginine) of a protein, lipid or DNA, in a non–enzymatic way to form a Schiff base.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Amadori products",
+    "predicate": "are",
+    "object": "early glycation products",
+    "context": "During the second phase, the Schiff base undergoes chemical rearrangement over a period of days and form Amadori products (also known as early glycation products).",
+    "confidence": "high"
+  },
+  {
+    "subject": "AGEs",
+    "predicate": "accumulate in",
+    "object": "extracellular matrix",
+    "context": "They are very stable, and accumulate inside and outside the cells and interfere with protein function",
+    "confidence": "high"
+  },
+  {
+    "subject": "AGE-RAGE interaction",
+    "predicate": "triggers",
+    "object": "NF-κB activation",
+    "context": "The interaction of AGEs with the receptor RAGE triggers the activation of the mitogen-activated protein kinases (MAPKs) and the phosphatidylinositol-3 kinase (PI3-K) pathways that will lead to the activation of the transcription factor NF-κB",
+    "confidence": "high"
+  },
+  {
+    "subject": "NF-κB",
+    "predicate": "activates transcription of",
+    "object": "TNFα",
+    "context": "After activation, NF-κB translocates to the nucleus where it will activate the transcription of genes for cytokines... such as tumor necrosis factor α (TNFα)",
+    "confidence": "high"
+  },
+  {
+    "subject": "NF-κB",
+    "predicate": "activates transcription of",
+    "object": "IL-6",
+    "context": "After activation, NF-κB translocates to the nucleus where it will activate the transcription of genes for cytokines... such as interleukin 6 (Il-6)",
+    "confidence": "high"
+  },
+  {
+    "subject": "AGE-RAGE interaction",
+    "predicate": "activates",
+    "object": "NAD(P)H oxidase",
+    "context": "In addition, AGE-RAGE interaction activates NAD(P)H oxidase (a complex of enzymes which produces superoxide)",
+    "confidence": "high"
+  },
+  {
+    "subject": "NAD(P)H oxidase",
+    "predicate": "increases",
+    "object": "intracellular oxidative stress",
+    "context": "The sudden increase in oxidative stress by NAD(P)H oxidase in response to AGE-RAGE interaction will also activate NF-κB",
+    "confidence": "high"
+  },
+  {
+    "subject": "AGEs",
+    "predicate": "associated with",
+    "object": "Alzheimer’s disease",
+    "context": "Accumulation of AGEs has been found in healthy aging persons... but it is also associated with atherosclerosis, Alzheimer’s disease...",
+    "confidence": "high"
+  },
+  {
+    "subject": "AGEs",
+    "predicate": "produce",
+    "object": "arterial stiffness",
+    "context": "The collagen-AGEs cross-linking will produce stiffness of blood vessels.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Glycated LDL",
+    "predicate": "leads to",
+    "object": "foam cell formation",
+    "context": "Macrophages uptake of these modified LDL lead to foam cell formation, and the development of atheroma",
+    "confidence": "high"
+  },
+  {
+    "subject": "AGEs",
+    "predicate": "reduce",
+    "object": "NO synthase activity",
+    "context": "Xu et al. found a decreased in eNOS activity after exposure to CML.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Aminoguanidine",
+    "predicate": "prevents",
+    "object": "age-related cardiac hypertrophy",
+    "context": "A study with long-term (24–30 weeks) administration of aminoguanidine (an inhibitor of AGE formation) showed prevention of the age-related cardiac hypertrophy and arterial stiffness",
+    "confidence": "high"
+  },
+  {
+    "subject": "CML",
+    "predicate": "predicts",
+    "object": "cardiovascular mortality",
+    "context": "CML, a predominant AGE, can serve as a predictor of cardiovascular mortality.",
+    "confidence": "high"
+  },
+  {
+    "subject": "AGEs",
+    "predicate": "contribute to",
+    "object": "sarcopenia",
+    "context": "AGEs may also contribute to this condition by increasing oxidative stress and inflammation.",
+    "confidence": "high"
+  },
+  {
+    "subject": "CML",
+    "predicate": "associated with",
+    "object": "chronic kidney disease",
+    "context": "The results of the study demonstrated an elevated plasma concentration of CML independently associated with chronic kidney disease",
+    "confidence": "high"
+  },
+  {
+    "subject": "Dietary AGEs",
+    "predicate": "contribute to",
+    "object": "body AGE pool",
+    "context": "Those findings support the view that the intake of dietary AGEs is an important contributor to the body AGEs pool",
+    "confidence": "high"
+  },
+  {
+    "subject": "Pyrraline",
+    "predicate": "absorbed by",
+    "object": "hPEPT1",
+    "context": "a recent study trying to answer this question found that pyrraline is absorbed by the peptide transporter hPEPT1.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Caloric restriction",
+    "predicate": "increases",
+    "object": "lifespan",
+    "context": "It has been demonstrated that caloric restriction increases lifespan in C. elegans and mice.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Exercise",
+    "predicate": "reduces",
+    "object": "circulating AGEs",
+    "context": "restriction of dietary intake of AGEs and exercise has been shown to safely reduce circulating AGEs",
+    "confidence": "high"
+  },
+  {
+    "subject": "Metformin",
+    "predicate": "decreases",
+    "object": "circulating AGEs",
+    "context": "metformin has shown to decrease circulating AGEs in patients with diabetes",
+    "confidence": "high"
+  },
+  {
+    "subject": "Orlistat",
+    "predicate": "reduces",
+    "object": "AGEs absorption",
+    "context": "Orlistat, a lipase inhibitor, reduced serum AGEs... by decreasing AGEs absorption",
+    "confidence": "high"
+  }
+]

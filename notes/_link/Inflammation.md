@@ -38,3 +38,18 @@ Inflammation creates the ideal conditions for the [[Oxidation]] of [[notes/_link
 - New links added: [[Adrenochrome]], [[notes/_link/Epinephrine]], [[notes/_link/Hydrogen Peroxide]], [[IL-1b]], [[notes/_link/Inflammation]], [[Lungs]], [[notes/_link/Myeloperoxidase]], [[NF-kappa B]], [[notes/_link/Neuromelanin]], [[notes/_link/Neutrophils]], [[Oxidation]], [[notes/_link/Oxidative Stress]], [[notes/_link/Reactive Oxygen Species]], [[Superoxide anion]], [[TNF-alpha]]
 - Suggested new entity notes to create: [[Cytokines]], [[Immune response]]
 - Strong connections to strengthen: [[notes/_link/Inflammation]] ↔ [[notes/_link/Neutrophils]], [[notes/_link/Inflammation]] ↔ [[TNF-alpha]]
+
+
+---
+
+### Merged from notes/autophagy/Inflammation.md
+
+# Inflammation
+
+Inflammation is a complex biological response to harmful stimuli; [[TFEB]] plays a protective role in various inflammatory conditions by regulating autophagy and lysosomal function.
+
+### Linking Summary
+
+- New links added: [[TFEB]]
+- Suggested new entity notes to create: [[Cytokines]]
+- Strong connections to strengthen: [[Inflammation]] ↔ [[TFEB]]

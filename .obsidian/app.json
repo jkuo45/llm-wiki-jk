@@ -3,9 +3,10 @@
   "userIgnoreFilters": [
     "/.*README\\.md/",
     "/.*GEMINI\\.md/",
-    "/(^|\\/)\\[document\\].*/",
+    "/(^|\\/)(\\[document\\]|_document_).*/",
     "/^tasks//",
-    "/^prompts//"
+    "/^prompts//",
+    "notes/autism/"
   ],
   "newFileLocation": "current",
   "attachmentFolderPath": "./",

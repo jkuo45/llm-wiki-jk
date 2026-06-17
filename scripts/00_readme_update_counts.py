@@ -1,15 +1,15 @@
+import argparse
 import glob
 import os
 import re
-import argparse
 from datetime import datetime
 
 
 def get_timestamp():
-    # Using PDT as requested in GEMINI.md examples, or local if not specified.
-    # The prompt says %d_%b_%Y %I:%M %p %Z
-    now = datetime.now()
-    return now.strftime("%d_%b_%Y %I:%M %p %Z")
+    # Using local timezone with astimezone() as requested.
+    # The project timestamp format is %d_%b_%Y %I:%M %p %Z
+    now = datetime.now().astimezone()
+    return now.strftime("%d_%b_%Y %I:%M %p %Z").upper()
 
 
 def count_words(filepath):
@@ -36,9 +36,19 @@ def extract_entity_count(readme_path):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Update root README.md with topic counts and document lists.")
-    parser.add_argument("--notes_dir", default="notes", help="Directory containing topics (default: notes)")
-    parser.add_argument("--output", default="README.md", help="Path to the output README file (default: README.md)")
+    parser = argparse.ArgumentParser(
+        description="Update root README.md with topic counts and document lists."
+    )
+    parser.add_argument(
+        "--notes_dir",
+        default="notes",
+        help="Directory containing topics (default: notes)",
+    )
+    parser.add_argument(
+        "--output",
+        default="README.md",
+        help="Path to the output README file (default: README.md)",
+    )
     args = parser.parse_args()
 
     notes_dir = args.notes_dir
@@ -59,7 +69,9 @@ def main():
         md_files = glob.glob(os.path.join(topic_path, "*.md"))
 
         documents = [
-            f for f in md_files if os.path.basename(f).startswith("[document]")
+            f
+            for f in md_files
+            if os.path.basename(f).startswith(("[document]", "_document_"))
         ]
 
         # Extract entity count from README.md instead of counting files
@@ -68,8 +80,13 @@ def main():
         last_updated_ts = 0
         if md_files:
             last_updated_ts = max(os.path.getmtime(f) for f in md_files)
-            last_updated_str = datetime.fromtimestamp(last_updated_ts).strftime(
-                "%d_%b_%Y"
+            # GEMINI.md format: %d_%b_%Y %I:%M %p %Z
+            last_updated_str = (
+                datetime
+                .fromtimestamp(last_updated_ts)
+                .astimezone()
+                .strftime("%d_%b_%Y %I:%M %p %Z")
+                .upper()
             )
         else:
             last_updated_str = "---"
@@ -83,7 +100,13 @@ def main():
 
         for doc in sorted(documents):
             mtime = os.path.getmtime(doc)
-            mtime_str = datetime.fromtimestamp(mtime).strftime("%d_%b_%Y")
+            mtime_str = (
+                datetime
+                .fromtimestamp(mtime)
+                .astimezone()
+                .strftime("%d_%b_%Y %I:%M %p %Z")
+                .upper()
+            )
             word_count = count_words(doc)
             document_data.append({
                 "topic": topic,

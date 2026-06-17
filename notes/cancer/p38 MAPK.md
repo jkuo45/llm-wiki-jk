@@ -1,7 +1,9 @@
 # p38 MAPK
-[[p38 MAPK]] is a mitogen-activated protein kinase that promotes [[apoptosis]] by phosphorylating [[Bim]] and [[Bax]], enhancing their pro-apoptotic activities.
+
+The p38 mitogen-activated protein kinases (MAPK) are a class of protein kinases that are responsive to stress stimuli and are involved in cell differentiation, apoptosis, and autophagy.
 
 ### Linking Summary
-- New links added: [[p38 MAPK]], [[apoptosis]], [[Bim]], [[Bax]], [[Phosphorylation]]
-- Suggested new entity notes to create:
-- Strong connections to strengthen: [[p38 MAPK]] ↔ [[Bim]], [[p38 MAPK]] ↔ [[Bax]]
+
+- New links added: [[Caspase-3]], [[Caspase-8]], [[Caspase-9]], [[Bim]], [[notes/_link/Apoptosis|Apoptosis]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[p38 MAPK]] ↔ [[Caspase-8]]

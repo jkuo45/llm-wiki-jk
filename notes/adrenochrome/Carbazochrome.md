@@ -2,6 +2,9 @@
 
 **Carbazochrome** is a stabilized semicarbazone derivative of [[Adrenochrome]]. While adrenochrome itself is too unstable for medical use, carbazochrome is used clinically as a hemostatic agent.
 
+## Mitohormetic Redox-Relay (MRR)
+In the context of longevity research, carbazochrome is utilized at sub-micromolar concentrations as a precision mitohormetic trigger. It induces controlled [[Redox Cycling]], generating a low-amplitude superoxide signal in the mitochondrial matrix. This "oxidative pulse" activates the **Nrf2/ARE** antioxidant response and stimulates **PGC-1α** via the SIRT1/AMPK axis, especially when primed by [[NAD+]] precursors.
+
 ## Medical Use
 Carbazochrome (often administered as carbazochrome sodium sulfonate) is used to promote blood clotting and manage hemorrhaging. It works by:
 - **Increasing Capillary Resistance:** Strengthening the walls of small blood vessels.
@@ -15,7 +18,8 @@ Carbazochrome is chemically synthesized from [[Adrenochrome]] by reacting it wit
 ## Connections
 - [[Adrenochrome]] ↔ The parent molecule from which carbazochrome is derived.
 - [[Cardiotoxicity]] ↔ While adrenochrome is linked to cardiotoxicity, its derivative carbazochrome is used therapeutically in different contexts.
+- [[Mitohormetic Redox-Relay]] ↔ Strategy utilizing carbazochrome for mitochondrial rejuvenation.
 
 ### Linking Summary:
-- New links added: [[Carbazochrome]], [[Adrenochrome]], [[Cardiotoxicity]]
-- Strong connections to strengthen: [[Carbazochrome]] ↔ [[Adrenochrome]]
+- New links added: [[Carbazochrome]], [[Adrenochrome]], [[Cardiotoxicity]], [[Mitohormetic Redox-Relay]], [[Nrf2]], [[PGC-1α]]
+- Strong connections to strengthen: [[Carbazochrome]] ↔ [[Adrenochrome]], [[Carbazochrome]] ↔ [[Mitohormetic Redox-Relay]]

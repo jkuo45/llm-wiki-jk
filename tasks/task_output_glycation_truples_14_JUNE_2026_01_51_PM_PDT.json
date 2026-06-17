@@ -1,0 +1,198 @@
+[
+  {
+    "subject": "Advanced Glycation End Products",
+    "predicate": "are non-enzymatic modifications of",
+    "object": "proteins",
+    "context": "Advanced glycation end products (AGEs) are non-enzymatic modifications of proteins or lipids after exposure to sugars.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Advanced Glycation End Products",
+    "predicate": "are non-enzymatic modifications of",
+    "object": "lipids",
+    "context": "Advanced glycation end products (AGEs) are non-enzymatic modifications of proteins or lipids after exposure to sugars.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Advanced Glycation End Products",
+    "predicate": "form in",
+    "object": "Hyperglycemia",
+    "context": "AGEs form in hyperglycemic conditions and/or the natural process of aging.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Advanced Glycation End Products",
+    "predicate": "accelerate",
+    "object": "Aging",
+    "context": "Numerous publications have demonstrated acceleration of the aging process by AGEs.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Glycation",
+    "predicate": "forms",
+    "object": "Amadori products",
+    "context": "Glycation is a spontaneous non-enzymatic reaction of free reducing sugars with free amino groups... that forms Amadori products.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Amadori products",
+    "predicate": "lead to",
+    "object": "Advanced Glycation End Products",
+    "context": "The Amadori products undergo a variety of irreversible dehydration and rearrangement reactions that lead to the formation of advanced glycation end products (AGEs).",
+    "confidence": "high"
+  },
+  {
+    "subject": "Glycation",
+    "predicate": "impairs",
+    "object": "tissue elasticity",
+    "context": "The glycation process leads to a loss of protein function and impaired elasticity of tissues such as blood vessels, skin, and tendons.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Glycation",
+    "predicate": "is accelerated by",
+    "object": "Hyperglycemia",
+    "context": "The glycation reaction is highly accelerated in the presence of hyperglycemia and tissue oxidative stress.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Glycation",
+    "predicate": "is accelerated by",
+    "object": "Oxidative Stress",
+    "context": "The glycation reaction is highly accelerated in the presence of hyperglycemia and tissue oxidative stress.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Advanced Glycation End Products",
+    "predicate": "induce",
+    "object": "injury to the ECM",
+    "context": "There are three major mechanisms by which AGEs induce injury to the extracellular matrix (ECM) and cells, thereby contributing to aging and age-related diseases.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Advanced Glycation End Products",
+    "predicate": "cross-link",
+    "object": "Collagen",
+    "context": "accumulation of AGEs within the ECM (such as collagen and elastic fibers) and cross-linking between AGEs and ECM...",
+    "confidence": "high"
+  },
+  {
+    "subject": "Advanced Glycation End Products",
+    "predicate": "cross-link",
+    "object": "Elastic fibers",
+    "context": "accumulation of AGEs within the ECM (such as collagen and elastic fibers) and cross-linking between AGEs and ECM...",
+    "confidence": "high"
+  },
+  {
+    "subject": "Advanced Glycation End Products",
+    "predicate": "interact with",
+    "object": "RAGE",
+    "context": "interaction of AGEs with their cellular receptor (RAGE), leading to the subsequent activation of inflammatory signaling pathways...",
+    "confidence": "high"
+  },
+  {
+    "subject": "RAGE",
+    "predicate": "activates",
+    "object": "Inflammation",
+    "context": "...leading to the subsequent activation of inflammatory signaling pathways, ROS generation, and apoptosis.",
+    "confidence": "high"
+  },
+  {
+    "subject": "RAGE",
+    "predicate": "generates",
+    "object": "Reactive Oxygen Species",
+    "context": "...leading to the subsequent activation of inflammatory signaling pathways, ROS generation, and apoptosis.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Advanced Glycation End Products",
+    "predicate": "reduce",
+    "object": "Catalase activity",
+    "context": "the activities of several antioxidant enzymes, including catalase, glutathione peroxidase, and glutathione reductase, are reduced by glycated modifications.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Advanced Glycation End Products",
+    "predicate": "reduce",
+    "object": "Glutathione peroxidase activity",
+    "context": "the activities of several antioxidant enzymes, including catalase, glutathione peroxidase, and glutathione reductase, are reduced by glycated modifications.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Advanced Glycation End Products",
+    "predicate": "reduce",
+    "object": "Glutathione reductase activity",
+    "context": "the activities of several antioxidant enzymes, including catalase, glutathione peroxidase, and glutathione reductase, are reduced by glycated modifications.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Aminoguanidine",
+    "predicate": "inhibits",
+    "object": "Advanced Glycation End Products formation",
+    "context": "Aminoguanidine was first introduced as an AGE inhibitor.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Aminoguanidine",
+    "predicate": "acts as",
+    "object": "carbonyl trap",
+    "context": "AGE inhibitors, including aminoguanidine and pyridoxamine, prevent AGE accumulation by interacting with the highly reactive carbonyl species and acting as carbonyl traps.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Epicatechin",
+    "predicate": "breaks",
+    "object": "AGE cross-links",
+    "context": "we demonstrated a potent AGE breaking property of epicatechin in vitro and in vivo. This compound destroyed preformed glycated serum albumin...",
+    "confidence": "high"
+  },
+  {
+    "subject": "Epicatechin",
+    "predicate": "decreases",
+    "object": "AGE accumulation",
+    "context": "...decreased AGE accumulation in retinal tissues of rats injected with exogenous AGE.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Physical exercise",
+    "predicate": "reduces",
+    "object": "AGE accumulation",
+    "context": "regular physical exercise reduces AGE levels in renal tissues of obese Zucker rats.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Physical exercise",
+    "predicate": "improves",
+    "object": "glycemic control",
+    "context": "physical activity to improve glycemic control, with a consequent reduction of AGE accumulation in diabetic patients and during aging.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Advanced Glycation End Products",
+    "predicate": "accumulate in",
+    "object": "Drosophila melanogaster",
+    "context": "The accumulation of AGEs was shown in Drosophila melanogaster and Caenorhabditis elegans.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Advanced Glycation End Products",
+    "predicate": "accumulate in",
+    "object": "Caenorhabditis elegans",
+    "context": "The accumulation of AGEs was shown in Drosophila melanogaster and Caenorhabditis elegans.",
+    "confidence": "high"
+  },
+  {
+    "subject": "N-(carboxymethyl)-lysine",
+    "predicate": "correlates with",
+    "object": "vessel stiffness",
+    "context": "There is a marked correlation between the serum concentration of N-(carboxymethyl)-lysine (CML) and vessel stiffness in elderly individuals.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Dietary AGEs",
+    "predicate": "accelerate",
+    "object": "endothelial dysfunction",
+    "context": "a 9-month dietary exposure to CML accelerated endothelial dysfunction and arterial aging.",
+    "confidence": "high"
+  }
+]

@@ -51,3 +51,18 @@ The decline of AMPK signaling in old age leads to several downstream epigenetic 
 - New links added: [[Acetyl-CoA]], [[notes/_link/Aging]], [[notes/_link/Autophagy]], [[notes/_link/Caloric Restriction]], [[Cellular Senescence]], [[DNA Methylation]], [[DNA Methyltransferase]], [[Epigenetic Clock]], [[HDAC]], [[Histone Deacetylase]], [[Histone Modification]], [[notes/_link/Metformin]], [[SASP]], [[notes/_link/SIRT1]], [[Sirtuin]]
 - Suggested new entity notes to create: [[LKB1]], [[Mitochondrial Dysfunction]], [[PGC-1α]], [[Proteostasis]], [[mTORC1]]
 - Strong connections to strengthen: [[notes/_link/AMPK]] ↔ [[notes/_link/Aging]], [[notes/_link/AMPK]] ↔ [[notes/_link/SIRT1]], [[notes/_link/Caloric Restriction]] ↔ [[notes/_link/AMPK]]
+
+
+---
+
+### Merged from notes/autophagy/AMPK.md
+
+# AMPK
+
+AMP-activated protein kinase (AMPK) is a key energy sensor that phosphorylates [[TFEB]] at serine clusters (S466, S467, S469) to enhance its transcriptional activity.
+
+### Linking Summary
+
+- New links added: [[TFEB]]
+- Suggested new entity notes to create: [[Energy Homeostasis]]
+- Strong connections to strengthen: [[AMPK]] ↔ [[TFEB]]
