@@ -1,0 +1,23 @@
+# SASP-Remodeling Aminochrome Complex
+
+The **SASP-Remodeling Aminochrome Complex (SRAC)** is a senomorphic therapeutic strategy designed to reprogram the senescent phenotype and mitigate inflammaging.
+
+## Strategy Components
+- **Modulator:** [[Adrenochrome]] (delivered via targeted nanoparticles).
+- **Brake:** [[notes/_link/Rapamycin|Rapamycin]] (mTOR inhibitor).
+- **Synergist:** [[notes/_link/Fisetin|Fisetin]] (Flavonoid senolytic/senomorphic).
+- **Buffer:** [[GlyNAC]] (Glycine + N-Acetylcysteine).
+
+## Mechanism of Action (MOA)
+1. **Phenotypic Reprogramming:** Adrenochrome-induced ROS signals modulate the NF-κB and AP-1 transcription factors. In the presence of Rapamycin, this signaling is diverted from pro-inflammatory SASP production toward a quiescent-like "senomorphic" state.
+2. **Selective Senolysis:** Fisetin exploits the altered metabolic state of the senescent cell (potentially sensitized by adrenochrome-induced stress) to induce apoptosis specifically in high-SASP sub-populations.
+3. **Glutathione Homeostasis:** GlyNAC provides the necessary precursors to maintain high intracellular [[notes/_link/Glutathione]] levels, preventing adrenochrome from crossing the threshold into cytotoxic "vicious" [[Redox Cycling]].
+
+## Expected Outcomes
+- Significant reduction in systemic SASP biomarkers (IL-6, IL-1β, MCP-1).
+- Improved tissue regeneration and reduced chronic "inflammaging."
+
+### Linking Summary:
+- New links added: [[Adrenochrome]], [[notes/_link/Rapamycin]], [[notes/_link/Fisetin]], [[GlyNAC]], [[notes/_link/SASP]], [[notes/_link/Glutathione]], [[notes/_link/Inflammaging]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[SASP-Remodeling Aminochrome Complex]] ↔ [[notes/_link/Senescence]]

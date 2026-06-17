@@ -4,13 +4,14 @@ Mitokines are soluble factors (peptides or proteins) secreted by cells undergoin
 
 ## Discovery and Role
 
-The concept was proposed following observations in *C. elegans* that tissue-specific mitochondrial stress (e.g., in the brain) could induce a stress response in other tissues (e.g., the intestine) and extend the lifespan of the entire organism. Mitokines represent a form of cell non-autonomous signaling.
+The concept was proposed following observations in *C. elegans* that tissue-specific mitochondrial stress, such as knockdown of the cytochrome c oxidase subunit [[cco-1]] in the brain or intestine, could induce a stress response in other tissues and extend the lifespan of the entire organism. Mitokines represent a form of cell non-autonomous signaling.
 
 ## Examples
 
-- [[Humanin]]: A mitochondrially-derived peptide with cytoprotective and metabolic effects.
+- [[Humanin]]: A 24-amino acid peptide derived from a cryptic open reading frame within the mitochondrial 16S rRNA gene. It circulates in plasma and provides cytoprotective and metabolic benefits.
 - [[FGF21]]: Often induced during mitochondrial stress and has systemic metabolic effects.
 - [[GDF15]]: A stress-induced cytokine linked to mitochondrial dysfunction.
+
 
 ## Related Concepts
 

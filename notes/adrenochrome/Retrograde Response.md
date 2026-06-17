@@ -4,11 +4,11 @@ The retrograde response (or retrograde signaling) is a communication pathway fro
 
 ## Function in Yeast
 
-Originally characterized in *S. cerevisiae*, the retrograde response involves the transcription factors [[Rtg1]] and [[Rtg3]]. It allows the cell to sense mitochondrial dysfunction and reconfigure metabolism, such as increasing glycolytic production of [[ATP]] and biosynthetic intermediates.
+Originally characterized in [[S. cerevisiae]], the retrograde response involves the transcription factors [[Rtg1]] and [[Rtg3]], which bind DNA as a heterodimer to coordinate a complex nuclear response. It allows the cell to sense mitochondrial dysfunction and reconfigure metabolism, such as increasing glycolytic production of [[ATP]] and biosynthetic intermediates like glutamate.
 
 ## Function in Mammals
 
-While mammalian analogs of the Rtg system are not fully defined, mitochondrial stress in mammals involves factors like [[NFKB]], [[PGC1α]], and [[JNK]]. It serves as a compensatory mechanism for metabolic defects and is a key component of [[Mitohormesis]].
+While mammalian analogs of the Rtg system are not fully defined, mitochondrial stress in mammals involves factors like [[NF-κB]] (via calcineurin-dependent activation), [[Retinoid X receptor α]], [[PGC1α]], and [[c-Jun N-terminal kinase]] (JNK). It serves as a compensatory mechanism for metabolic defects and is a key component of [[Mitohormesis]]. Recent studies suggest mammalian retrograde signaling also involves mitochondrial calcium transients shaped by the [[Mitochondrial calcium uniporter]] (MCU) and metabolic cofactors like NAD+/NADH.
 
 ## Related Concepts
 

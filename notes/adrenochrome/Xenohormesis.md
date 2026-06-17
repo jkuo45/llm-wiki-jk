@@ -1,10 +1,10 @@
 # Xenohormesis
 
-Xenohormesis is a biological hypothesis proposing that animals have evolved to sense chemical cues from stressed plants (such as secondary metabolites synthesized during drought or nutrient scarcity) to prepare for worsening environmental conditions.
+Xenohormesis is a biological hypothesis proposing that animals have evolved to sense chemical cues from stressed plants to prepare for worsening environmental conditions. For example, plant molecules synthesized during a prolonged drought signal to recipient animals to prepare for a presumed famine.
 
 ## Mechanism
 
-Plants synthesize molecules like [[Resveratrol]], [[Quercetin]], and other polyphenols in response to environmental stress. When animals ingest these "xenohormetic" compounds, they activate conserved stress-response pathways (e.g., [[Sirtuin]] activation), which confer health benefits and stress resistance, effectively "hitching a ride" on the plant's stress signaling.
+Plants synthesize molecules like [[Resveratrol]], [[Quercetin]], and other [[Polyphenols]] in response to environmental stress. When animals ingest these "xenohormetic" compounds, they activate conserved stress-response pathways (e.g., [[Sirtuin]] activation), which confer health benefits and stress resistance.
 
 ## Relation to Aging
 

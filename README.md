@@ -1,12 +1,12 @@
 # llm-wiki-jk
-last updated: 15_JUN_2026 01:08 PM PDT 
+last updated: 16_JUN_2026 10:21 PM PDT 
 
 ## topics (notes directory)
 
 | topic | last updated | count entities | count documents |
 | :--- | :--- | :---: | :---: |
-| _link | 15_JUN_2026 12:50 PM PDT | 67 | 0 |
-| adrenochrome | 15_JUN_2026 01:07 PM PDT | 219 | 19 |
+| _link | 16_JUN_2026 10:18 PM PDT | 67 | 0 |
+| adrenochrome | 16_JUN_2026 10:21 PM PDT | 273 | 20 |
 | autism | 30_MAY_2026 07:02 PM PDT | 79 | 3 |
 | autophagy | 13_JUN_2026 02:12 PM PDT | 249 | 9 |
 | cancer | 13_JUN_2026 02:23 PM PDT | 278 | 8 |
@@ -41,6 +41,7 @@ last updated: 15_JUN_2026 01:08 PM PDT
 | adrenochrome | 12_JUN_2026 09:55 PM PDT | notes/adrenochrome/_document_ - adrenochrome - as senotherapeutic agents.md | 1667 |
 | adrenochrome | 12_JUN_2026 09:58 PM PDT | notes/adrenochrome/_document_ - adrenochrome - glyco-oxidative modulation.md | 1472 |
 | adrenochrome | 15_JUN_2026 01:06 PM PDT | notes/adrenochrome/_document_ - adrenochrome - mitohormesis.md | 1976 |
+| adrenochrome | 15_JUN_2026 04:03 PM PDT | notes/adrenochrome/_document_ - glycation, enzymatic removal.md | 1346 |
 | autism | 30_MAY_2026 06:41 PM PDT | notes/autism/[document] Autism spectrum disorder definition, epidemiology, causes, and clinical evaluation.md | 4564 |
 | autism | 30_MAY_2026 07:00 PM PDT | notes/autism/[document] Digitally Diagnosing Multiple Developmental Delays Using Crowdsourcing Fused With Machine Learning Protocol for a Human-in-the-Loop Machine Learning Study.md | 8856 |
 | autism | 30_MAY_2026 12:48 PM PDT | notes/autism/[document] Prevalence and Early Identification of Autism Spectrum ....md | 12724 |
