@@ -4,8 +4,8 @@ This directory contains notes and research regarding [[notes/_link/Epigenetics]]
 
 ## Maintenance
 
-- Last updated: 13_Jun_2026 12:00 PM PDT
-- Total count of entities: 222
+- Last updated: 16_JUN_2026 11:20 PM PDT
+- Total count of entities: 226
 
 **entity_relevance_score_1 (1-10):** This score measures the centrality of the entity to core epigenetic mechanisms, chromatin regulation, and associated processes like gene expression control, aging, and disease.
 - **10 (Core)**: Essential master regulators, core machinery, or the processes themselves (e.g., [[DNMT1]], [[DNMT3A]], [[TET enzymes]], [[HDAC1/2]], [[Histone H3K27me3]], [[DNA Methylation]], [[Chromatin Remodeling]], [[Epigenetic Clock]]).
@@ -242,3 +242,8 @@ This directory contains notes and research regarding [[notes/_link/Epigenetics]]
 | [[notes/_link/Werner Syndrome]]                      | 04_Jun_2026 09:15 PM | Medical Condition      | 7                        | -1                       | Segmental progeroid syndrome caused by WRN mutations, leading to rapid epigenetic aging and loss of heterochromatin. |
 | [[Wnt signaling]]                                    | 04_Jun_2026 09:15 PM | Biological Process     | 7                        | 0                        | Conserved signaling pathway that often targets the nucleus to induce dynamic epigenetic modifications.      |
 | [[Wnt4]]                                             | 04_Jun_2026 09:15 PM | Protein                | 6                        | 0                        | Member of the Wnt family that can influence epigenetic state during development and tissue repair.          |
+
+| [[Xenohormesis]] | 16_JUN_2026 11:20 PM PDT | Scientific Theory | 6 | 1 | Hypothesis explaining evolutionary adaptation to cross-species stress signals. |
+| [[Hormesis]] | 16_JUN_2026 11:20 PM PDT | Biological Process | 7 | 1 | Beneficial adaptive response triggered by low doses of a stressor. |
+| [[Phytochemicals]] | 16_JUN_2026 11:20 PM PDT | Chemical Class | 6 | 1 | Plant secondary metabolites that act as xenohormetic signals in heterotrophs. |
+| [[Nrf2]] | 16_JUN_2026 11:20 PM PDT | Transcription Factor | 8 | 1 | Master regulator of antioxidant response activated by xenohormetic compounds. |

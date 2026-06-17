@@ -1,20 +1,20 @@
 # llm-wiki-jk
-last updated: 16_JUN_2026 10:21 PM PDT 
+last updated: 16_JUN_2026 11:22 PM PDT 
 
 ## topics (notes directory)
 
-| topic | last updated | count entities | count documents |
-| :--- | :--- | :---: | :---: |
-| _link | 16_JUN_2026 10:18 PM PDT | 67 | 0 |
-| adrenochrome | 16_JUN_2026 10:21 PM PDT | 273 | 20 |
-| autism | 30_MAY_2026 07:02 PM PDT | 79 | 3 |
-| autophagy | 13_JUN_2026 02:12 PM PDT | 249 | 9 |
-| cancer | 13_JUN_2026 02:23 PM PDT | 278 | 8 |
-| comt | 31_MAY_2026 01:03 PM PDT | 62 | 2 |
-| epigenetics | 13_JUN_2026 01:39 PM PDT | 222 | 4 |
-| neuromelanin | 11_JUN_2026 05:13 PM PDT | 91 | 2 |
-| oxidative_stress | 01_JUN_2026 05:02 AM PDT | 73 | 1 |
-| yamanaka_factors | 29_MAY_2026 08:20 AM PDT | 83 | 3 |
+| topic            | last updated             | count entities | count documents |
+| :--------------- | :----------------------- | :------------: | :-------------: |
+| _link            | 16_JUN_2026 10:18 PM PDT |       67       |        0        |
+| adrenochrome     | 16_JUN_2026 10:21 PM PDT |      273       |       20        |
+| autism           | 30_MAY_2026 07:02 PM PDT |       79       |        3        |
+| autophagy        | 13_JUN_2026 02:12 PM PDT |      249       |        9        |
+| cancer           | 13_JUN_2026 02:23 PM PDT |      278       |        8        |
+| comt             | 31_MAY_2026 01:03 PM PDT |       62       |        2        |
+| epigenetics      | 16_JUN_2026 11:20 PM PDT |      226       |        5        |
+| neuromelanin     | 11_JUN_2026 05:13 PM PDT |       91       |        2        |
+| oxidative_stress | 01_JUN_2026 05:02 AM PDT |       73       |        1        |
+| yamanaka_factors | 29_MAY_2026 08:20 AM PDT |       83       |        3        |
 
 
 ---
@@ -68,6 +68,7 @@ last updated: 16_JUN_2026 10:21 PM PDT
 | epigenetics | 29_MAY_2026 08:20 AM PDT | notes/epigenetics/[document] Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks.md | 4599 |
 | epigenetics | 29_MAY_2026 08:20 AM PDT | notes/epigenetics/[document] The Gut Microbiome, Aging, and Longevity A Systematic Review.md | 12840 |
 | epigenetics | 13_JUN_2026 01:29 PM PDT | notes/epigenetics/_document_ - Small molecule compounds that induce cellular senescence.md | 13951 |
+| epigenetics | 16_JUN_2026 11:20 PM PDT | notes/epigenetics/_document_ - xenohormesis, mitohormesis.md | 1386 |
 | neuromelanin | 31_MAY_2026 12:44 PM PDT | notes/neuromelanin/[document] Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease.md | 9726 |
 | neuromelanin | 11_JUN_2026 05:13 PM PDT | notes/neuromelanin/[document] Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator.md | 3770 |
 | oxidative_stress | 29_MAY_2026 08:20 AM PDT | notes/oxidative_stress/[document] Oxidative Stress Harms and Benefits for Human Health.md | 9120 |
