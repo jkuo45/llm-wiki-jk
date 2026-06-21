@@ -1,21 +1,37 @@
+import argparse
 import os
 import subprocess
-import argparse
 
 parser = argparse.ArgumentParser(description="Run AlphaFold analysis for given genes.")
 parser.add_argument("genes", nargs="+", help="List of genes to analyze")
-parser.add_argument("--out-dir", default="/Users/johnnykuo/Documents/llm-wiki-jk/alphafold_data", help="Output directory")
-parser.add_argument("--report", default="/Users/johnnykuo/Documents/llm-wiki-jk/tasks/alphafold_report.md", help="Output report file")
+parser.add_argument(
+    "--out-dir",
+    default=os.path.expanduser("~/Documents/llm-wiki-jk/alphafold_data"),
+    help="Output directory",
+)
+parser.add_argument(
+    "--report",
+    default=os.path.expanduser("~/Documents/llm-wiki-jk/tasks/alphafold_report.md"),
+    help="Output report file",
+)
 args = parser.parse_args()
 
 genes = args.genes
 out_dir = args.out_dir
 os.makedirs(out_dir, exist_ok=True)
 
-uniprot_tool = "/Users/johnnykuo/.gemini/config/plugins/science/skills/uniprot_database/scripts/uniprot_tools.py"
-fetch_tool = "/Users/johnnykuo/.gemini/config/plugins/science/skills/alphafold_database_fetch_and_analyze/scripts/fetch_structure.py"
-plddt_tool = "/Users/johnnykuo/.gemini/config/plugins/science/skills/alphafold_database_fetch_and_analyze/scripts/analyze_plddt.py"
-pae_tool = "/Users/johnnykuo/.gemini/config/plugins/science/skills/alphafold_database_fetch_and_analyze/scripts/analyze_pae.py"
+uniprot_tool = os.path.expanduser(
+    "~/.gemini/config/plugins/science/skills/uniprot_database/scripts/uniprot_tools.py"
+)
+fetch_tool = os.path.expanduser(
+    "~/.gemini/config/plugins/science/skills/alphafold_database_fetch_and_analyze/scripts/fetch_structure.py"
+)
+plddt_tool = os.path.expanduser(
+    "~/.gemini/config/plugins/science/skills/alphafold_database_fetch_and_analyze/scripts/analyze_plddt.py"
+)
+pae_tool = os.path.expanduser(
+    "~/.gemini/config/plugins/science/skills/alphafold_database_fetch_and_analyze/scripts/analyze_pae.py"
+)
 
 report_lines = ["# AlphaFold Structural Analysis Report\n"]
 
