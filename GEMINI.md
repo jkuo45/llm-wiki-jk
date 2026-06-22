@@ -48,7 +48,7 @@ Maintain link integrity by performing periodic audits:
   - **Pluralization**: If `[[Concept]]` is missing but `[[Concepts]]` exists, update the link.
 - **Resolve True Orphans**:
   - Create new Markdown files for missing concepts.
-  - Use a standardized template: `# Title`, a one-sentence context, and a `Linking Summary`.
+  - Use a standardized template: `# Title`, a short paragraph context, and a `Linking Summary`.
 - **Automation**: Use `uv run` to perform batch updates to minimize manual errors and ensure workspace-wide consistency.
 
 ### Overlapping Link Resolution:
