@@ -1,0 +1,163 @@
+[
+  {
+    "subject": "Urolithin A",
+    "predicate": "derived from",
+    "object": "Ellagitannins",
+    "context": "Urolithin A, a natural metabolite derived from ellagitannins, is biosynthesized by the gut microbiota.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Urolithin A",
+    "predicate": "biosynthesized by",
+    "object": "Gut microbiota",
+    "context": "Urolithin A, a natural metabolite derived from ellagitannins, is biosynthesized by the gut microbiota.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Pomegranate",
+    "predicate": "is a dietary source of",
+    "object": "Urolithin A",
+    "context": "Pomegranate, walnut, and almond stand out as the primary and richest dietary sources of Urolithin A.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Walnut",
+    "predicate": "is a dietary source of",
+    "object": "Urolithin A",
+    "context": "Pomegranate, walnut, and almond stand out as the primary and richest dietary sources of Urolithin A.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Almond",
+    "predicate": "is a dietary source of",
+    "object": "Urolithin A",
+    "context": "Pomegranate, walnut, and almond stand out as the primary and richest dietary sources of Urolithin A.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Urolithin A",
+    "predicate": "activates",
+    "object": "PINK1/Parkin signaling pathway",
+    "context": "Research has demonstrated that Urolithin A activates the PINK1/Parkin signaling pathway, which is involved in mitochondrial quality control.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Urolithin A",
+    "predicate": "activates",
+    "object": "Nrf2-ARE signaling pathway",
+    "context": "Urolithin A stimulates the Nrf2-ARE signaling pathway, subsequently upregulating the expression of GSTs...",
+    "confidence": "high"
+  },
+  {
+    "subject": "Urolithin A",
+    "predicate": "upregulates expression of",
+    "object": "Glutathione S-transferases",
+    "context": "Urolithin A stimulates the Nrf2-ARE signaling pathway, subsequently upregulating the expression of GSTs...",
+    "confidence": "high"
+  },
+  {
+    "subject": "Urolithin A",
+    "predicate": "promotes",
+    "object": "Mitochondrial autophagy",
+    "context": "Urolithin A participates in regulating mitochondrial autophagy and quality control...",
+    "confidence": "high"
+  },
+  {
+    "subject": "Urolithin A",
+    "predicate": "upregulates expression of",
+    "object": "Glutathione peroxidase",
+    "context": "Urolithin A can activate the Nrf2 antioxidant pathway and upregulate the expression of various antioxidant enzymes such as Glutathione peroxidase and superoxide dismutase...",
+    "confidence": "high"
+  },
+  {
+    "subject": "Urolithin A",
+    "predicate": "upregulates expression of",
+    "object": "Superoxide dismutase",
+    "context": "Urolithin A can activate the Nrf2 antioxidant pathway and upregulate the expression of various antioxidant enzymes such as Glutathione peroxidase and superoxide dismutase...",
+    "confidence": "high"
+  },
+  {
+    "subject": "Urolithin A",
+    "predicate": "activates",
+    "object": "AMPK",
+    "context": "Research has shown that Urolithin A can activate the adenosine monophosphate-activated protein kinase (AMPK) signaling pathway...",
+    "confidence": "high"
+  },
+  {
+    "subject": "Urolithin A",
+    "predicate": "modulates activity of",
+    "object": "PPARγ",
+    "context": "Additionally, Urolithin A can modulate the activity of peroxisome proliferator-activated receptor gamma (PPARγ)...",
+    "confidence": "high"
+  },
+  {
+    "subject": "Urolithin A",
+    "predicate": "inhibits",
+    "object": "mTOR pathway",
+    "context": "Urolithin A can regulate protein synthesis and growth of muscle cells by inhibiting specific regulatory factors within the mTOR signaling pathway...",
+    "confidence": "high"
+  },
+  {
+    "subject": "Urolithin A",
+    "predicate": "inhibits",
+    "object": "PI3K",
+    "context": "The literature has demonstrated that Urolithin A inhibits mTOR by first inhibiting PI3K and then AKT.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Urolithin A",
+    "predicate": "inhibits",
+    "object": "Akt",
+    "context": "The literature has demonstrated that Urolithin A inhibits mTOR by first inhibiting PI3K and then AKT.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Urolithin A",
+    "predicate": "inhibits",
+    "object": "NF-κB pathway",
+    "context": "Urolithin A has been found to inhibit the activation of NF-κB and reduce the production of inflammatory mediators.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Urolithin A",
+    "predicate": "enhances expression of",
+    "object": "PGC-1α",
+    "context": "Research has found that Urolithin A can enhance the expression and activation of PGC-1α...",
+    "confidence": "high"
+  },
+  {
+    "subject": "Urolithin A",
+    "predicate": "inhibits activation of",
+    "object": "FoxO",
+    "context": "Studies have found that Urolithin A can inhibit the degradation of muscle proteins by suppressing the activation of FoxO.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Urolithin A",
+    "predicate": "inhibits activity of",
+    "object": "Ubiquitin-proteasome system",
+    "context": "Studies have found that Urolithin A can attenuate the degradation of muscle proteins by inhibiting the activity of the ubiquitin–proteasome system.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Urolithin A",
+    "predicate": "inhibits activity of",
+    "object": "mTORC1",
+    "context": "Studies have shown that Urolithin A can regulate muscle protein synthesis and degradation by inhibiting the activity of mTORC1...",
+    "confidence": "high"
+  },
+  {
+    "subject": "Urolithin A",
+    "predicate": "inhibits expression of",
+    "object": "Atrogin-1",
+    "context": "...and the expression of Atrogin-1/MuRF1.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Urolithin A",
+    "predicate": "inhibits expression of",
+    "object": "MuRF1",
+    "context": "...and the expression of Atrogin-1/MuRF1.",
+    "confidence": "high"
+  }
+]

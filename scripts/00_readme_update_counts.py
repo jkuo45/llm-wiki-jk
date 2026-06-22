@@ -2,6 +2,7 @@ import argparse
 import glob
 import os
 import re
+import urllib.parse
 from datetime import datetime
 
 
@@ -123,8 +124,9 @@ def main():
         "| :--- | :--- | :---: | :---: |",
     ]
     for t in topic_data:
+        topic_link = f"[{t['topic']}]({urllib.parse.quote(notes_dir + '/' + t['topic'], safe='/')})"
         topics_table.append(
-            f"| {t['topic']} | {t['last_updated']} | {t['entities']} | {t['documents']} |"
+            f"| {topic_link} | {t['last_updated']} | {t['entities']} | {t['documents']} |"
         )
 
     docs_table = [
@@ -132,8 +134,9 @@ def main():
         "| :--- | :--- | :--- | :--- |",
     ]
     for d in document_data:
+        doc_link = f"[{d['path']}]({urllib.parse.quote(d['path'], safe='/')})"
         docs_table.append(
-            f"| {d['topic']} | {d['date']} | {d['path']} | {d['words']} |"
+            f"| {d['topic']} | {d['date']} | {doc_link} | {d['words']} |"
         )
 
     # Construct full README content
