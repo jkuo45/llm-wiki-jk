@@ -1,5 +1,5 @@
 # llm-wiki-jk
-last updated: 22_JUN_2026 03:47 PM PDT 
+last updated: 26_JUN_2026 10:37 AM PDT 
 
 ## topics (notes directory)
 
@@ -8,7 +8,7 @@ last updated: 22_JUN_2026 03:47 PM PDT
 | [_link](notes/_link) | 17_JUN_2026 12:33 AM PDT | 67 | 0 |
 | [adrenochrome](notes/adrenochrome) | 20_JUN_2026 08:39 PM PDT | 345 | 22 |
 | [autism](notes/autism) | 30_MAY_2026 07:02 PM PDT | 79 | 3 |
-| [autophagy](notes/autophagy) | 13_JUN_2026 02:12 PM PDT | 249 | 9 |
+| [autophagy](notes/autophagy) | 26_JUN_2026 10:36 AM PDT | 172 | 10 |
 | [cancer](notes/cancer) | 13_JUN_2026 02:23 PM PDT | 278 | 8 |
 | [comt](notes/comt) | 31_MAY_2026 01:03 PM PDT | 62 | 2 |
 | [epigenetics](notes/epigenetics) | 16_JUN_2026 11:20 PM PDT | 226 | 5 |
@@ -56,6 +56,7 @@ last updated: 22_JUN_2026 03:47 PM PDT
 | autophagy | 02_JUN_2026 01:23 PM PDT | [notes/autophagy/[document] The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting.md](notes/autophagy/%5Bdocument%5D%20The%20Beneficial%20and%20Adverse%20Effects%20of%20Autophagic%20Response%20to%20Caloric%20Restriction%20and%20Fasting.md) | 6054 |
 | autophagy | 13_JUN_2026 02:11 PM PDT | [notes/autophagy/[document] mTOR signaling at a glance.md](notes/autophagy/%5Bdocument%5D%20mTOR%20signaling%20at%20a%20glance.md) | 6589 |
 | autophagy | 13_JUN_2026 02:12 PM PDT | [notes/autophagy/_document_ - Kinase.md](notes/autophagy/_document_%20-%20Kinase.md) | 518 |
+| autophagy | 26_JUN_2026 10:20 AM PDT | [notes/autophagy/_document_ - peroxisomes, autophagy.md](notes/autophagy/_document_%20-%20peroxisomes%2C%20autophagy.md) | 5482 |
 | cancer | 01_JUN_2026 05:04 AM PDT | [notes/cancer/[document] Apoptosis in cancer from pathogenesis to treatment.md](notes/cancer/%5Bdocument%5D%20Apoptosis%20in%20cancer%20from%20pathogenesis%20to%20treatment.md) | 10378 |
 | cancer | 13_JUN_2026 01:58 PM PDT | [notes/cancer/[document] Evading apoptosis in cancer.md](notes/cancer/%5Bdocument%5D%20Evading%20apoptosis%20in%20cancer.md) | 12361 |
 | cancer | 01_JUN_2026 05:04 AM PDT | [notes/cancer/[document] Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology.md](notes/cancer/%5Bdocument%5D%20Honeybee%20venom%20and%20melittin%20suppress%20growth%20factor%20receptor%20activation%20in%20HER2-enriched%20and%20triple-negative%20breast%20cancer%20-%20npj%20Precision%20Oncology.md) | 12626 |
