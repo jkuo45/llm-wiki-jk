@@ -9,13 +9,12 @@
   - Depending on task, they may or may not be included in context, counts.
 - 'notes' directory is organized by topic.
   - Each markdown file within that topic can be counted as a single entity.
-- Prefer WriteFile tool to creating python scripts when appropriate.
 - Use uv for all python executables
 - 'scripts' directory:
   - periodically audit scripts for reusability.
   - if they contain values that are task specific, refactor for reusability.
 
-## Linking Format:
+## Linking Format (creating wiki entries/notes):
 
 - Use Obsidian-style wiki links: [[Exact Note Title]] or [[Note Title|Display Text]] when the display text differs.
 - Only link to entities and biomedical terms that make sense contextually — do not over-link or create trivial links.
@@ -23,6 +22,7 @@
 - e.g. Genes/proteins/enzymes, etc.: [[miR-29b]], [[miR-101]], and [[miR-193a-3p]],[[BRCA1]],[[CaMKII (PP1)]],[[ERK1/2 (MKP-3)]],[[TP53]],[[CFTR]], [[Ser308]], [[Tyr310]], [[PIKfyve]], [[TRMPL1]], [[SLC-36.1]], [[PtdIns(4,5)P2]]
 - e.g. Diseases/disorders: [[notes/_link/Alzheimer's Disease]], [[Cystic Fibrosis]], [[Type 2 Diabetes Mellitus]]
 - If a concept is mentioned but no dedicated note exists yet, suggest creating one by using a clear [[New Entity Name]] and note it at the end. Prefer space to underscore in the entity name. Create markdown files for each new entity.
+- Prefer WriteFile tool over python scripts to create entities.
 - Add links in the most natural places: first meaningful mention is often best.
 - In a dedicated "Connections" or "Related" section (if it exists, or create one), list important bidirectional connections with brief one-line explanations.
 - Maintain consistency: Use the same exact title for the same entity across files.
@@ -72,7 +72,7 @@ Maintain link integrity by performing periodic audits:
 - Make sure to escape Obsidian link syntax when updating documents and readme files (especially in tables).
 - Validate completeness of the wiki entry.
 
-## Entity Type Schema
+## Entity Type Schema:
 
 To maintain consistency, all entity notes should include an `entity_type` field. Suggest additional entity types if they do not exist. These values are intended for README.md and do not need to be included in entity wiki notes. Depending on topic/user preference, more values maybe added.
 
