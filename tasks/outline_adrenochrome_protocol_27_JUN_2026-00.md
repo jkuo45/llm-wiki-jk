@@ -4,9 +4,10 @@
 ---
 
 Goal: optimize for mitohormesis, autophagy
-	mitohormetic stressors, control reactivity
-		oxidative pulse: [[Methylene Blue]]
-		quinone reactivity: [[Aminoguanidine]]	
+	oxidative pulse, mitohormetic stressor: [[Methylene Blue]]
+	control quinone reactivity: [[Aminoguanidine]]	
+
+---
 
 **MRR (Mitohormetic Redox Relay, mitochondria)** - A mechanism where mild oxidative or metabolic stress triggers adaptive, protective responses within mitochondria, enhancing cellular resilience and longevity.
 
@@ -14,7 +15,9 @@ Goal: optimize for mitohormesis, autophagy
 
 **SRAC (Senescent Cells, lysosomes, SNC's)** - Focuses on the targeted clearance (senolysis) or modulation of senescent cells to reduce the secretion of pro-inflammatory factors (SASP), rejuvenating tissue microenvironments.
 
-| Mechanism | Compound                                        | key mechanism                                                                                                                                                                                                                                      | food_source                                                                      |
+---
+
+| Mechanism | Compound                                        | Mechanism                                                                                                                                                                                                                                          | Food Source                                                                      |
 | --------- | ----------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
 | MRR       | [[NAD+]], NMN, NR                               | Boosts intracellular NAD+ levels, activating sirtuins (SIRT1/3) and PARPs. This enhances mitochondrial oxidative phosphorylation and biogenesis, reversing age-related mitochondrial dysfunction.                                                  | Milk, meat, edamame, broccoli, yeast                                             |
 | MRR       | [[notes/adrenochrome/Urolithin A\|Urolithin A]] | Induces mitophagy by acting as a mitohormetic agent that triggers the clearance of damaged mitochondria. It activates the PINK1/Parkin pathway, leading to improved mitochondrial function and cellular health.                                    | Synthesized by gut microbiome from ellagitannins (pomegranate, berries, walnuts) |
