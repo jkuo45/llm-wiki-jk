@@ -1,11 +1,11 @@
 ---
-
 ---
+
 ---
 
 Goal: optimize for mitohormesis, autophagy
-	oxidative pulse, mitohormetic stressor: [[Methylene Blue]]
-	control quinone reactivity: [[Aminoguanidine]]	
+oxidative pulse, mitohormetic stressor: [[Methylene Blue]]
+control quinone reactivity: [[Aminoguanidine]]
 
 ---
 
