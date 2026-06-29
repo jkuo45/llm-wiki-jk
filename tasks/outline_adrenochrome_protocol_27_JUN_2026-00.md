@@ -3,9 +3,9 @@
 
 ---
 
-Goal: optimize for mitohormesis, autophagy
-oxidative pulse, mitohormetic stressor: [[Methylene Blue]]
-control quinone reactivity: [[Aminoguanidine]]
+goal: optimize for mitohormesis, autophagy
+	[[Methylene Blue]] (1mg/kg over 5-30 minutes): oxidative pulse, mitohormetic stressor
+	[[Aminoguanidine]] HCL (150mg-300mg/day): control quinone reactivity, inhibit AGE's
 
 ---
 
