@@ -1,11 +1,11 @@
-# 🍽️ Executive Chef Protocol — Mitohormesis & Autophagy Optimized Diet
+# 🍽️ Executive Chef Guidelines — Mitohormesis & Autophagy Optimized Diet
 **Based on:** `outline_adrenochrome_protocol_27_JUN_2026-00.md`
 **Created:** 28_June_2026 11:38 PM PDT
 **Goal:** Maximize MRR · GOPS · SRAC pathways through precision nutrition for an active individual (resistance training + cardio, 4–6 days/week)
 
 ---
 
-## 1. Overview
+## Overview
 
 ### Recommended Eating Window
 **16:8 Time-Restricted Eating (TRE)**
@@ -37,7 +37,7 @@
 
 ---
 
-## 2. Supplement Stack & Timing
+## Supplement Stack & Timing
 
 ### Morning (fasted, upon waking — before eating window opens)
 | Supplement | Dose | Rationale |
@@ -75,7 +75,7 @@
 
 ---
 
-## 3. Seven-Day Schedule
+## Seven-Day Schedule
 
 ---
 
@@ -557,7 +557,7 @@
 
 ---
 
-## 4. Weekly Rotation Summary
+## Weekly Rotation Summary
 
 | Day | Theme | Spermidine | Fisetin/Senolytic | Urolithin A Precursors | Creatine Source | Carnosine Source |
 |---|---|---|---|---|---|---|
@@ -571,7 +571,7 @@
 
 ---
 
-## 5. Shopping & Prep Tips
+## Shopping & Prep Tips
 
 ### Weekly Prep (Sunday or Monday, ~2 hrs)
 1. **Bone broth:** Make a large batch of oxtail/shank broth Sunday. Freeze in 1-cup portions. Used across multiple meals.
@@ -594,7 +594,7 @@
 
 ---
 
-## 6. Rationale — The Science Behind the Plate
+## Rationale — The Science Behind the Plate
 
 ### MRR: Mitohormetic Redox Relay
 **NAD+ Precursor Strategy:** Tuna (19 mg niacin/100 g), chicken breast (11 mg/100 g), nutritional yeast (~30 mg/tbsp), and edamame (NMN 1.1 mg/100 g) collectively support the de novo and Preiss-Handler NAD+ synthesis pathways. However, as the protocol notes, supplemental NMN/NR (500 mg/day fasted AM) is **required** — food sources alone are marginal in aging adults.
@@ -627,7 +627,7 @@
 
 ---
 
-## 7. Weekly Protocol Integration Map
+## Weekly Protocol Integration Map
 
 ```
 MON [Upper]    → High protein, carnosine, sulforaphane
