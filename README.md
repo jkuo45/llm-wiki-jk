@@ -1,16 +1,16 @@
 # llm-wiki-jk
-last updated: 30_JUN_2026 12:49 PM PDT 
+last updated: 30_JUN_2026 02:25 PM PDT 
 
 ## topics (notes directory)
 
 | topic | last updated | count entities | count documents |
 | :--- | :--- | :---: | :---: |
-| [_link](notes/_link) | 29_JUN_2026 12:28 PM PDT | 67 | 0 |
-| [adrenochrome](notes/adrenochrome) | 29_JUN_2026 12:44 PM PDT | 345 | 22 |
+| [_link](notes/_link) | 30_JUN_2026 02:22 PM PDT | 67 | 0 |
+| [adrenochrome](notes/adrenochrome) | 30_JUN_2026 02:25 PM PDT | 354 | 23 |
 | [autophagy](notes/autophagy) | 29_JUN_2026 12:28 PM PDT | 172 | 10 |
 | [cancer](notes/cancer) | 29_JUN_2026 12:28 PM PDT | 278 | 8 |
 | [comt](notes/comt) | 29_JUN_2026 12:28 PM PDT | 62 | 2 |
-| [epigenetics](notes/epigenetics) | 30_JUN_2026 12:48 PM PDT | 209 | 9 |
+| [epigenetics](notes/epigenetics) | 30_JUN_2026 12:49 PM PDT | 226 | 9 |
 | [neuromelanin](notes/neuromelanin) | 29_JUN_2026 12:28 PM PDT | 91 | 2 |
 | [oxidative_stress](notes/oxidative_stress) | 29_JUN_2026 12:28 PM PDT | 73 | 1 |
 
@@ -36,6 +36,7 @@ last updated: 30_JUN_2026 12:49 PM PDT
 | adrenochrome | 29_JUN_2026 12:28 PM PDT | [notes/adrenochrome/_document_ -  adrenochrome - Adrenochrome.md](notes/adrenochrome/_document_%20-%20%20adrenochrome%20-%20Adrenochrome.md) | 1074 |
 | adrenochrome | 29_JUN_2026 12:28 PM PDT | [notes/adrenochrome/_document_ - Dietary Advanced Glycation End Products and Aging.md](notes/adrenochrome/_document_%20-%20Dietary%20Advanced%20Glycation%20End%20Products%20and%20Aging.md) | 9406 |
 | adrenochrome | 29_JUN_2026 12:28 PM PDT | [notes/adrenochrome/_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md](notes/adrenochrome/_document_%20-%20NAD%2B%E2%80%89Precursors%20Nicotinamide%20Mononucleotide%20%28NMN%29%20and%20Nicotinamide%20Riboside%20%28NR%29%20Potential%20Dietary%20Contribution%20to%20Health.md) | 14981 |
+| adrenochrome | 30_JUN_2026 02:22 PM PDT | [notes/adrenochrome/_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md](notes/adrenochrome/_document_%20-%20Nicotinamide%20Riboside%E2%80%94The%20Current%20State%20of%20Research%20and%20Therapeutic%20Uses.md) | 14625 |
 | adrenochrome | 29_JUN_2026 12:28 PM PDT | [notes/adrenochrome/_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects.md](notes/adrenochrome/_document_%20-%20Pharmacological%20Effects%20of%20Urolithin%20A%20and%20Its%20Role%20in%20Muscle%20Health%20and%20Performance%20Current%20Knowledge%20and%20Prospects.md) | 9177 |
 | adrenochrome | 29_JUN_2026 12:28 PM PDT | [notes/adrenochrome/_document_ - The role of glycation in the pathogenesis of aging and its prevention through herbal products and physical exercise.md](notes/adrenochrome/_document_%20-%20The%20role%20of%20glycation%20in%20the%20pathogenesis%20of%20aging%20and%20its%20prevention%20through%20herbal%20products%20and%20physical%20exercise.md) | 6229 |
 | adrenochrome | 29_JUN_2026 12:28 PM PDT | [notes/adrenochrome/_document_ - adrenochrome - as senotherapeutic agents.md](notes/adrenochrome/_document_%20-%20adrenochrome%20-%20as%20senotherapeutic%20agents.md) | 1667 |
