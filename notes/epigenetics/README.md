@@ -2,6 +2,8 @@
 
 This directory contains notes and research regarding [[notes/_link/Epigenetics]], including DNA methylation, histone modifications, chromatin remodeling, epigenetic clocks, and their roles in aging, gene expression regulation, disease development (particularly [[notes/_link/Cancer]], neurodegenerative diseases, and metabolic disorders), microbiome influences, and longevity interventions.
 
+This directory contains notes and research regarding [[Yamanaka Factors]] (OSKM: [[Oct4]], [[Sox2]], [[Klf4]], and [[c-Myc]]), their discovery by [[Shinya Yamanaka]], role in cellular reprogramming of [[Somatic Cells]] into [[Induced Pluripotent Stem Cells]] (iPSCs), partial reprogramming techniques, and applications in regenerative medicine, disease modeling, rejuvenation, and treatment of age-related and [[notes/_link/Neurodegenerative Diseases]]. Special focus is placed on their mechanisms, safety concerns (including [[notes/_link/Cancer]] risk and [[Teratoma]] formation), epigenetic resetting, and emerging uses in [[Partial Reprogramming]] for [[Rejuvenation]].
+
 ## Maintenance
 
 - Last updated: 16_JUN_2026 11:20 PM PDT
@@ -247,3 +249,87 @@ This directory contains notes and research regarding [[notes/_link/Epigenetics]]
 | [[Hormesis]] | 16_JUN_2026 11:20 PM PDT | Biological Process | 7 | 1 | Beneficial adaptive response triggered by low doses of a stressor. |
 | [[Phytochemicals]] | 16_JUN_2026 11:20 PM PDT | Chemical Class | 6 | 1 | Plant secondary metabolites that act as xenohormetic signals in heterotrophs. |
 | [[Nrf2]] | 16_JUN_2026 11:20 PM PDT | Transcription Factor | 8 | 1 | Master regulator of antioxidant response activated by xenohormetic compounds. |
+
+| 25_May_2026 05:23 PM | Medical Condition |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Medical Condition |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Biological Process |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:05 AM | Biological Process |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Protein |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Protein |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:05 AM | Biological Process |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:05 AM | Anatomy |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:05 AM | Protein |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:05 AM | Protein |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Protein |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:05 AM | Analytical Technique |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Medical Condition |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:07 AM | Biological Process |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Biological Process |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:05 AM | Biological Process |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:06 AM | Scientific Concept |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Cell Type |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:09 AM | Scientific Concept |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:05 AM | Symptom |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Cell Type |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:05 AM | Biological Process |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Biological Process |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:05 AM | Protein |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:08 AM | Cell Type |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Medical Condition |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:07 AM | Enzyme |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:05 AM | Biological Process |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:05 AM | Cell Type |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:05 AM | Scientific Concept |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:05 AM | Analytical Technique |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Medical Condition |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Cell Type |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Cell Type |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Biological Process |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:05 AM | Scientific Concept |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Person |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Protein |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Protein |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Protein |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:09 AM | Medical Condition |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Cell Type |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Biological Process |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Protein |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Medical Condition |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Protein |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Protein |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Protein |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Medical Condition |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:05 AM | Biological Process |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Protein |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Medical Condition |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Biological Process |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Biological Process |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Biological Molecule |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Scientific Concept |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Biological Process |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:05 AM | Cell Type |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:06 AM | Gene |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Cell Type |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Medical Condition |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Biological Process |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Person |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:05 AM | Protein |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:05 AM | Protein |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Biological Process |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Cell Type |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Protein |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Scientific Concept |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:06 AM | Biological Process |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Medical Condition |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:06 AM | Scientific Concept |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:06 AM | Analytical Technique |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:06 AM | Scientific Concept |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:06 AM | Biological Process |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:10 AM | Biological Process |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Protein |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:06 AM | Protein |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Protein |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:06 AM | Protein |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Protein |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:05 AM | Biological Molecule |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:09 AM | Protein |  | - | - | Merged from Yamanaka Factors |
