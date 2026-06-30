@@ -1,5 +1,5 @@
 # llm-wiki-jk
-last updated: 30_JUN_2026 12:19 PM PDT 
+last updated: 30_JUN_2026 12:49 PM PDT 
 
 ## topics (notes directory)
 
@@ -10,7 +10,7 @@ last updated: 30_JUN_2026 12:19 PM PDT
 | [autophagy](notes/autophagy) | 29_JUN_2026 12:28 PM PDT | 172 | 10 |
 | [cancer](notes/cancer) | 29_JUN_2026 12:28 PM PDT | 278 | 8 |
 | [comt](notes/comt) | 29_JUN_2026 12:28 PM PDT | 62 | 2 |
-| [epigenetics](notes/epigenetics) | 30_JUN_2026 12:19 PM PDT | 226 | 8 |
+| [epigenetics](notes/epigenetics) | 30_JUN_2026 12:48 PM PDT | 209 | 9 |
 | [neuromelanin](notes/neuromelanin) | 29_JUN_2026 12:28 PM PDT | 91 | 2 |
 | [oxidative_stress](notes/oxidative_stress) | 29_JUN_2026 12:28 PM PDT | 73 | 1 |
 
@@ -68,6 +68,7 @@ last updated: 30_JUN_2026 12:19 PM PDT
 | epigenetics | 29_JUN_2026 12:28 PM PDT | [notes/epigenetics/[document] Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network.md](notes/epigenetics/%5Bdocument%5D%20Molecular%20Insights%20into%20Reprogramming-Initiation%20Events%20Mediated%20by%20the%20OSKM%20Gene%20Regulatory%20Network.md) | 13264 |
 | epigenetics | 29_JUN_2026 12:28 PM PDT | [notes/epigenetics/[document] The Gut Microbiome, Aging, and Longevity A Systematic Review.md](notes/epigenetics/%5Bdocument%5D%20The%20Gut%20Microbiome%2C%20Aging%2C%20and%20Longevity%20A%20Systematic%20Review.md) | 12840 |
 | epigenetics | 25_MAY_2026 05:23 PM PDT | [notes/epigenetics/[document] This method to reverse cellular aging is about to be tested in humans.md](notes/epigenetics/%5Bdocument%5D%20This%20method%20to%20reverse%20cellular%20aging%20is%20about%20to%20be%20tested%20in%20humans.md) | 2345 |
+| epigenetics | 30_JUN_2026 12:47 PM PDT | [notes/epigenetics/_document_ - Epigenetic changes during aging and their reprogramming potential.md](notes/epigenetics/_document_%20-%20Epigenetic%20changes%20during%20aging%20and%20their%20reprogramming%20potential.md) | 10873 |
 | epigenetics | 29_JUN_2026 12:28 PM PDT | [notes/epigenetics/_document_ - Small molecule compounds that induce cellular senescence.md](notes/epigenetics/_document_%20-%20Small%20molecule%20compounds%20that%20induce%20cellular%20senescence.md) | 13951 |
 | epigenetics | 29_JUN_2026 12:28 PM PDT | [notes/epigenetics/_document_ - xenohormesis, mitohormesis.md](notes/epigenetics/_document_%20-%20xenohormesis%2C%20mitohormesis.md) | 1386 |
 | neuromelanin | 29_JUN_2026 12:28 PM PDT | [notes/neuromelanin/[document] Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease.md](notes/neuromelanin/%5Bdocument%5D%20Neuromelanin%2C%20aging%2C%20and%20neuronal%20vulnerability%20in%20Parkinson%27s%20disease.md) | 9726 |
