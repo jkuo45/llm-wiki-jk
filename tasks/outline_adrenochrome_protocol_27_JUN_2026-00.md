@@ -27,3 +27,84 @@ goal: optimize for mitohormesis, autophagy
 | SRAC      | [[Rapamycin]]                                   | Potently inhibits the mechanistic target of rapamycin (mTOR) complex 1 (mTORC1). This mimics caloric restriction, robustly activating autophagy and lysosomal clearance mechanisms to remove senescent cells and aggregated proteins.              | **N/A** — Rapamycin (sirolimus) is a macrolide compound originally isolated from *Streptomyces hygroscopicus* bacteria found in Easter Island soil. It is not available from any food source. <br><br>**mTOR-inhibiting dietary strategies:** Caloric restriction (~20–30% caloric deficit), protein cycling (periodic low-protein days), fasting (≥16h), and polyphenol-rich foods (resveratrol, EGCG from green tea, quercetin from capers/onions) can provide partial, indirect mTORC1 inhibition but do not replicate rapamycin's potency or specificity.                                            |
 | SRAC      | [[notes/_link/Fisetin\|Fisetin]]                | Acts as a senolytic agent by inhibiting anti-apoptotic pathways (such as BCL-2 family proteins) in senescent cells. This selectively induces apoptosis in these harmful cells, reducing the senescence-associated secretory phenotype (SASP).      | **Highest sources:** Strawberries (~160 µg/g fresh weight, the richest source), apples (~27 µg/g), persimmons (~11 µg/g), grapes (~4 µg/g), kiwi (~2 µg/g), peaches (~1 µg/g), onions, cucumbers. <br><br>⚠️ Senolytic studies in mice used 100 mg/kg doses; translated human equivalents (~500–1,000 mg fisetin) would require consuming ~3–6 kg of strawberries daily. Therapeutic senolysis requires concentrated supplementation (500–1,500 mg fisetin, typically pulsed 2 consecutive days/month). Bioavailability is also low (~10–15%) due to rapid metabolism; liposomal or quercetin co-administration improves absorption.                               |
 | SRAC      | [[GlyNAC]]                                      | Combines glycine and N-acetylcysteine to provide rate-limiting precursors for glutathione synthesis. This restores intracellular glutathione levels, mitigating oxidative stress and supporting mitochondrial and lysosomal function during aging. | **Glycine:** Bone broth (~2–5 g per cup depending on collagen concentration), pork rinds (~2.5 g/30 g serving), gelatin (~2.4 g/tablespoon), collagen peptides (~3 g per 10 g scoop), chicken skin, beef (connective tissue-rich cuts like oxtail or shank). Typical dietary intake from a collagen-rich diet ~3–5 g/day; therapeutic doses used in GlyNAC trials are 1.33 mmol/kg/day (~7–10 g for a 70 kg adult). <br><br>**NAC (N-Acetylcysteine):** Not present in foods. Its precursor, cysteine, is found in high-sulfur foods: eggs (~0.25 g/egg), garlic (~0.17 g/100 g), broccoli, chicken, sunflower seeds, oats. <br><br>⚠️ Food-derived cysteine is insufficient to overcome age-related glutathione deficit; supplemental NAC (600–1,800 mg/day) is required. |
+
+---
+
+### Summary Comparison
+
+| Agent & Route             | Bioavailability & Kinetics                                                               | Primary Use Context                                                                                  | Dosage Range                                                                                                                                              | Key Safety Risks                                                                                                                             |
+| :------------------------ | :--------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Methylene Blue (Oral)** | **High (~72%–80%)** but slower systemic absorption; concentrates in gut and liver first. | Experimental cognitive/mitochondrial support; adjunct for chronic low-grade infections (e.g., Lyme). | **0.5 mg/kg to 2 mg/kg per day** (Often matching ~10–30 mg daily). *Up to 10–12 mg/kg/day used historically for malaria.*                                 | **High contamination risk** if using non-USP (industrial/textile) grades; Serotonin Syndrome; hemolysis in G6PD deficiency.                  |
+| **Methylene Blue (IV)**   | **100% immediate** systemic bioavailability; bypasses liver and GI tract.                | Acute emergencies like **methemoglobinemia** and refractory **vasoplegic shock**.                    | **1 mg/kg to 2 mg/kg** administered slowly over 5–30 minutes. Can be repeated once if needed.                                                             | **Severe Serotonin Syndrome** if on serotonergic drugs; tissue necrosis/pain if extravasated; acute hemolysis in G6PD deficiency.            |
+| **Aminoguanidine (Oral)** | **Well-absorbed** through the GI tract; metabolizes in the liver.                        | Historically studied for long-term prevention of diabetic complications (AGE-inhibition).            | **2 mg/kg to 8 mg/kg per day** in human trials *(approx. 150–300 mg twice daily)*. In animal studies, doses range from **50 mg/kg to 150 mg/kg per day**. | **Severe dietary histamine intolerance** (from blocking gut DAO enzyme); risk of autoimmune reactions (vasculitis) with long-term human use. |
+| **Aminoguanidine (IV)**   | **100% immediate** systemic bioavailability.                                             | Acute laboratory/animal models of septic shock, ischemia-reperfusion, or stroke.                     | **10 mg/kg to 100 mg/kg** (as a bolus or continuous infusion) in animal research. *No established clinical IV dose for humans.*                           | **Off-target inhibition** of constitutive NOS (eNOS/nNOS) at high doses, potentially causing transient hypertension.                         |
+| **Nicotinamide Riboside (Oral)** | **Variable/Low**; heavy first-pass metabolism to NAM in liver/gut. | Chronic daily mitochondrial support, longevity, metabolic health. | **300 mg to 1,000 mg per day**. | **Methyl depletion** at high doses; mild GI distress. |
+| **NR / NAD+ (IV)** | **100% immediate** systemic bioavailability. | Acute fatigue, addiction recovery, rapid neuro-restoration. | **250 mg to 1,000 mg** (NAD+) infused slowly over 2–4 hours. | **Severe chest tightness / flushing** if infused too quickly; nausea. |
+| **Rapamycin (Oral)** | **Poor/Variable (~14%)**; heavily dependent on fat and CYP3A4. | Pulsed weekly for longevity/autophagy; daily for immunosuppression. | **2 mg to 6 mg once weekly** (Longevity); 1-2 mg daily (Transplant). | **Immunosuppression** (if dosed too frequently); mouth sores; lipid/glucose elevation. |
+| **Rapamycin (IV/Systemic)** | **100% immediate** systemic bioavailability. | Oncology (often as analogs like temsirolimus) or animal research. | *Varies widely*; typically massive mg/m² doses for cancer. | **Severe immunosuppression**, pneumonitis, bone marrow suppression. |
+
+*Note: Aminoguanidine remains an experimental compound, and oral methylene blue for wellness is not standardized. The dosages provided for those routes reflect historical clinical trials or animal model ranges rather than universally approved medical protocols.*
+
+*Note: Methylene blue is a regulated drug with severe interaction risks (especially with antidepressants), and aminoguanidine is not FDA-approved for broad clinical use. Any therapeutic use of these compounds should be supervised by a qualified healthcare provider.*
+### Methylene Blue: Oral vs. Intravenous
+
+#### **Pharmacokinetics & Bioavailability**
+* **Oral (Supplements / Solutions):** Oral methylene blue has a surprisingly high absolute bioavailability, estimated at around **72% to 80%**. However, when taken orally, it concentrates heavily in the intestinal wall, liver, and biliary system first due to first-pass metabolism. This means systemic blood and brain concentrations rise more gradually and peak lower compared to an equivalent IV dose.
+* **Intravenous (IV):** IV administration bypasses the digestive system completely, providing **100% immediate bioavailability**. It distributes rapidly throughout the body, leading to much higher immediate peak concentrations in systemic blood and tissues (including the brain).
+
+#### **Typical Use Cases**
+* **Oral Use:** Typically explored for chronic, lower-dose, or wellness-oriented protocols, such as experimental mitochondrial support, mild cognitive enhancement, or chronic low-grade infections (e.g., in experimental Lyme disease protocols).
+* **IV Use:** Reserved for acute medical emergencies. It is the standard-of-care route for treating **methemoglobinemia** (where rapid conversion of dysfunctional hemoglobin is required) and **refractory vasoplegic shock** (to quickly restore blood pressure by constricting collapsed blood vessels).
+
+#### **The Crucial Issue of Purity (USP vs. Industrial Grade)**
+* **IV Methylene Blue** is strictly pharmaceutical grade (**USP/medical grade**). It is sterile, ultra-pure, and heavily filtered to remove dangerous heavy metals (like lead, arsenic, and mercury).
+* **Oral Methylene Blue** is widely marketed online as a "supplement" or "nootropic." However, because dietary supplements are not strictly regulated by the FDA, many oral products sold online are actually **industrial, chemical, or textile-grade** dye. Ingesting these non-USP grades can lead to chronic heavy metal accumulation and toxicity. Only USP-grade methylene blue should ever be consumed.
+
+---
+
+### Aminoguanidine: Oral vs. Intravenous
+
+#### **Pharmacokinetics & Absorption**
+* **Oral (Supplements / Tablets):** Aminoguanidine is readily absorbed through the gastrointestinal tract. In its historical clinical trials (under the drug name *Pimagedine* for diabetic complications), it was administered orally as a tablet. 
+* **Intravenous (IV / Systemic Injection):** In laboratory and animal research, aminoguanidine is often delivered intravenously or intraperitoneally to achieve rapid, predictable plasma levels.
+
+#### **Typical Use Cases**
+* **Oral Use:** Was primarily studied for long-term, chronic conditions. Its main target was inhibiting the slow, progressive formation of advanced glycation end-products (AGEs) in diabetics to protect blood vessels and kidneys. 
+* **IV Use:** Primarily used in acute experimental animal models of septic shock or tissue ischemia-reperfusion injury, where immediate blockade of the iNOS pathway is required. 
+
+#### **Route-Specific Side Effects (The DAO/Histamine Issue)**
+* When taken **orally**, aminoguanidine acts as a potent inhibitor of **diamine oxidase (DAO)** in the gut. DAO is the primary enzyme responsible for breaking down histamine from the food we eat. 
+* By blocking intestinal DAO, oral aminoguanidine can cause severe, acute **histamine intolerance**. Consuming even normal amounts of histamine-rich foods (like aged cheeses, cured meats, or fermented foods) while taking oral aminoguanidine can trigger severe headaches, flushing, hives, and rapid heart rates. IV administration bypasses the digestive tract, resulting in less direct, immediate inhibition of gut-specific DAO, though systemic DAO is still affected.
+
+---
+
+### [[Nicotinamide Riboside]] (NR): Oral vs. Intravenous
+
+#### **Pharmacokinetics & Absorption**
+* **Oral (Supplements):** Oral NR is subject to extensive first-pass metabolism in the liver and degradation by the gut microbiome. A large portion of oral NR is rapidly converted into standard [[Nicotinamide]] (NAM) before it reaches systemic circulation, making its absolute bioavailability for raising specific tissue [[NAD+]] levels highly variable.
+* **Intravenous (IV):** While pure IV NR is primarily used in laboratory settings, clinical equivalents often use **IV [[NAD+]]** drips. Intravenous delivery bypasses the gut and liver, avoiding immediate degradation to NAM and providing a massive, immediate systemic spike in circulating NAD+ precursors.
+
+#### **Typical Use Cases**
+* **Oral Use:** Standard daily supplementation for longevity, metabolic health, and chronic mitochondrial support (MRR). 
+* **IV Use:** Typically encountered clinically as IV NAD+ therapy, used for acute fatigue, post-viral recovery, neuroregeneration, and addiction detoxification.
+
+#### **Route-Specific Issues (The Methylation Toll)**
+* High-dose **oral** NR (and its conversion to NAM) requires excretion via methylation (forming MeNAM). Chronic high-dose oral use can deplete the body's methyl pool ([[S-adenosylmethionine]] or SAMe), sometimes requiring co-supplementation with methyl donors like [[TMG]] (Trimethylglycine).
+
+---
+
+### [[Rapamycin]]: Oral vs. Intravenous/Systemic
+
+#### **Pharmacokinetics & Bioavailability**
+* **Oral (Tablets/Powder):** Oral rapamycin (sirolimus) has relatively **poor and highly variable bioavailability (~14% to 15%)**. Its absorption is heavily influenced by gut enzymes (specifically [[CYP3A4]]) and the presence of dietary fat.
+* **Intravenous (IV / IP):** Intravenous administration provides 100% bioavailability. In research, mice are often given intraperitoneal (IP) injections to ensure precise dosing. In human medicine, IV rapamycin analogs (like temsirolimus) are used to bypass the gut entirely.
+
+#### **Typical Use Cases**
+* **Oral Use:** Standard for human longevity protocols (pulsed, e.g., once weekly) to induce episodic [[Autophagy]] (SRAC) while minimizing immunosuppression. Also used daily for organ transplant rejection prophylaxis.
+* **IV Use:** Reserved for high-dose oncology treatments (e.g., advanced renal cell carcinoma) to achieve massive, sustained mTOR inhibition to starve cancer cells.
+
+#### **The Crucial Issue of Absorption (The Grapefruit/Fat Effect)**
+* Because **oral** rapamycin is metabolized by intestinal [[CYP3A4]], consuming it with inhibitors like grapefruit juice can spike blood levels by up to 350%, effectively multiplying the dose. Similarly, taking it with a high-fat meal significantly increases its absorption compared to a fasted state.
+
+---
+
