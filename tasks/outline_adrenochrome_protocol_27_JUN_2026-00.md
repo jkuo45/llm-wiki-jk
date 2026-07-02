@@ -1,13 +1,11 @@
 # Outline - adrenochrome (mb, ag) protocol as of 27_JUN_2026
 
----
-
 Goal: optimize for mitohormesis, autophagy
 
 [[Methylene Blue]]: oxidative pulse, mitohormetic stressor
-	*[Methylthioninium chloride](https://pubmed.ncbi.nlm.nih.gov/15918829/)*
+_[methylthioninium chloride](https://pubmed.ncbi.nlm.nih.gov/15918829/)_
 [[Aminoguanidine]] HCL: control quinone reactivity, inhibit AGE's
-	*[pimagedine](https://pubmed.ncbi.nlm.nih.gov/14568006/)*
+_[pimagedine](https://pubmed.ncbi.nlm.nih.gov/14568006/)_
 
 ---
 
