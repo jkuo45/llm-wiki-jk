@@ -43,11 +43,9 @@ _[pimagedine](https://pubmed.ncbi.nlm.nih.gov/14568006/)_
 | **Rapamycin (Oral)**             | **Poor/Variable (~14%)**; heavily dependent on fat and CYP3A4.                           | Pulsed weekly for longevity/autophagy; daily for immunosuppression.                                  | **2 mg to 6 mg once weekly** (Longevity); 1-2 mg daily (Transplant).                                                                                      | **Immunosuppression** (if dosed too frequently); mouth sores; lipid/glucose elevation.                                                       |
 | **Rapamycin (IV/Systemic)**      | **100% immediate** systemic bioavailability.                                             | Oncology (often as analogs like temsirolimus) or animal research.                                    | _Varies widely_; typically massive mg/m² doses for cancer.                                                                                                | **Severe immunosuppression**, pneumonitis, bone marrow suppression.                                                                          |
 
-_Note: Aminoguanidine remains an experimental compound, and oral methylene blue for wellness is not standardized. The dosages provided for those routes reflect historical clinical trials or animal model ranges rather than universally approved medical protocols._
+---
 
-_Note: Methylene blue is a regulated drug with severe interaction risks (especially with antidepressants), and aminoguanidine is not FDA-approved for broad clinical use. Any therapeutic use of these compounds should be supervised by a qualified healthcare provider._
-
-### Methylene Blue: Oral vs. Intravenous
+### [[Methylene Blue]]: Oral vs. Intravenous
 
 #### **Pharmacokinetics & Bioavailability**
 
@@ -64,9 +62,11 @@ _Note: Methylene blue is a regulated drug with severe interaction risks (especia
 - **IV Methylene Blue** is strictly pharmaceutical grade (**USP/medical grade**). It is sterile, ultra-pure, and heavily filtered to remove dangerous heavy metals (like lead, arsenic, and mercury).
 - **Oral Methylene Blue** is widely marketed online as a "supplement" or "nootropic." However, because dietary supplements are not strictly regulated by the FDA, many oral products sold online are actually **industrial, chemical, or textile-grade** dye. Ingesting these non-USP grades can lead to chronic heavy metal accumulation and toxicity. Only USP-grade methylene blue should ever be consumed.
 
+_Note: Methylene blue is a regulated drug with severe interaction risks (especially with antidepressants), and aminoguanidine is not FDA-approved for broad clinical use. Any therapeutic use of these compounds should be supervised by a qualified healthcare provider._
+
 ---
 
-### Aminoguanidine: Oral vs. Intravenous
+### [[Aminoguanidine]]: Oral vs. Intravenous
 
 #### **Pharmacokinetics & Absorption**
 
@@ -82,6 +82,8 @@ _Note: Methylene blue is a regulated drug with severe interaction risks (especia
 
 - When taken **orally**, aminoguanidine acts as a potent inhibitor of **diamine oxidase (DAO)** in the gut. DAO is the primary enzyme responsible for breaking down histamine from the food we eat.
 - By blocking intestinal DAO, oral aminoguanidine can cause severe, acute **histamine intolerance**. Consuming even normal amounts of histamine-rich foods (like aged cheeses, cured meats, or fermented foods) while taking oral aminoguanidine can trigger severe headaches, flushing, hives, and rapid heart rates. IV administration bypasses the digestive tract, resulting in less direct, immediate inhibition of gut-specific DAO, though systemic DAO is still affected.
+
+_Note: Aminoguanidine remains an experimental compound, and oral methylene blue for wellness is not standardized. The dosages provided for those routes reflect historical clinical trials or animal model ranges rather than universally approved medical protocols._
 
 ---
 
@@ -119,4 +121,3 @@ _Note: Methylene blue is a regulated drug with severe interaction risks (especia
 
 - Because **oral** rapamycin is metabolized by intestinal [[CYP3A4]], consuming it with inhibitors like grapefruit juice can spike blood levels by up to 350%, effectively multiplying the dose. Similarly, taking it with a high-fat meal significantly increases its absorption compared to a fasted state.
 
----
