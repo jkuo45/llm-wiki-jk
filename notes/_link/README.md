@@ -54,7 +54,7 @@ This directory contains entities that span across multiple topics within the kno
 | [[Neutrophils]]                          | 29_May_2026 08:20 AM | Cell Type           | Immunology                                      |
 | [[Nitric Oxide]]                         | 29_May_2026 08:20 AM | Biological Molecule | Signaling, Vasodilation                         |
 | [[Norepinephrine]]                       | 31_May_2026 12:52 PM | Chemical Compound   | Neurotransmitter                                |
-| [[Oxidative Stress]]                     | 29_May_2026 08:20 AM | Scientific Concept  | Pathology                                       |
+| [[notes/oxidative_stress/Oxidative Stress]]                     | 29_May_2026 08:20 AM | Scientific Concept  | Pathology                                       |
 | [[p53]]                                  | 29_May_2026 08:20 AM | Protein             | Cancer, DNA Repair                              |
 | [[Parkinson's Disease]]                  | 29_May_2026 08:20 AM | Medical Condition   | Neurodegeneration                               |
 | [[PI3K]]                                 | 29_May_2026 08:20 AM | Protein             | Signaling, Cancer                               |

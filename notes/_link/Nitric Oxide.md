@@ -7,7 +7,7 @@
 - **Neurotransmission:** Acts as a gaseous messenger in the brain.
 - **Immunity:** Produced by macrophages to help kill bacteria and tumor cells.
 
-## Interaction with [[notes/_link/Oxidative Stress]]
+## Interaction with [[notes/oxidative_stress/Oxidative Stress]]
 - **Peroxynitrite Formation:** Nitric oxide reacts nearly instantly with [[Superoxide anion]] to form [[Peroxynitrite]], a highly reactive and damaging oxidant.
 - **Endothelial Dysfunction:** In states of high oxidative stress, NO is "scavenged" by superoxide, reducing its bioavailability and leading to vascular disease.
 
@@ -22,6 +22,6 @@
 - [[Methemoglobin]]: Formed as a byproduct of nitric oxide metabolism.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Cardiovascular Disease]], [[Methemoglobin]], [[Methemoglobinemia]], [[Peroxynitrite]], [[Superoxide anion]], [[notes/_link/Oxidative Stress]]
+- New links added: [[notes/_link/Cardiovascular Disease]], [[Methemoglobin]], [[Methemoglobinemia]], [[Peroxynitrite]], [[Superoxide anion]], [[notes/oxidative_stress/Oxidative Stress]]
 - Suggested new entity notes to create: [[Nitric Oxide Synthase]], [[Endothelial Dysfunction]], [[Nitrative Stress]]
 - Strong connections to strengthen: [[notes/_link/Nitric Oxide]] ↔ [[Peroxynitrite]], [[notes/_link/Nitric Oxide]] ↔ [[Methemoglobin]]

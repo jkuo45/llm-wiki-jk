@@ -4,6 +4,6 @@
 
 ### Linking Summary:
 
-- New links added: [[notes/_link/Oxidative Stress]], [[Reactive Oxygen Species]], [[ROS]], [[notes/_link/Metabolism]]
+- New links added: [[notes/oxidative_stress/Oxidative Stress]], [[Reactive Oxygen Species]], [[ROS]], [[notes/_link/Metabolism]]
 - Suggested new entity notes to create: [[Glutathione]]
 - Strong connections to strengthen: [[Antioxidant]] ↔ [[notes/_link/Aging]]

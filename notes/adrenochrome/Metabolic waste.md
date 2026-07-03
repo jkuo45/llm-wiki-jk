@@ -7,5 +7,5 @@ In the context of catecholamine metabolism, [[Adrenochrome]] is often viewed as 
 
 ## Connections
 - [[Adrenochrome]]
-- [[notes/_link/Oxidative Stress]]
+- [[notes/oxidative_stress/Oxidative Stress]]
 - [[Homeostasis]]

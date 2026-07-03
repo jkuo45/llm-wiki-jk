@@ -19,13 +19,13 @@ Cancer is a group of diseases involving abnormal cell growth with the potential 
 
 
 ## Relation to Oxidative Stress
-[[notes/_link/Oxidative Stress]] can induce [[notes/_link/DNA Damage]] (e.g., [[8-oxo-2'-deoxyguanosine]]), leading to gene mutations and [[oncogene activation]].
+[[notes/oxidative_stress/Oxidative Stress]] can induce [[notes/_link/DNA Damage]] (e.g., [[8-oxo-2'-deoxyguanosine]]), leading to gene mutations and [[oncogene activation]].
 
 
 ## Linking Summary:
-- New links added: [[notes/_link/Oxidative Stress]], [[8-oxo-2'-deoxyguanosine]], [[notes/_link/Reactive Oxygen Species]], [[notes/_link/Ascorbic Acid]], [[notes/_link/DNA Damage]], [[oncogene activation]]
+- New links added: [[notes/oxidative_stress/Oxidative Stress]], [[8-oxo-2'-deoxyguanosine]], [[notes/_link/Reactive Oxygen Species]], [[notes/_link/Ascorbic Acid]], [[notes/_link/DNA Damage]], [[oncogene activation]]
 - Suggested new entity notes to create: [[oncogene activation]], [[notes/_link/DNA Damage]]
-- Strong connections to strengthen: [[Cancer]] ↔ [[notes/_link/Oxidative Stress]]
+- Strong connections to strengthen: [[Cancer]] ↔ [[notes/oxidative_stress/Oxidative Stress]]
 
 - New links added: [[notes/_link/Aging]], [[Epigenetics]], [[DNA Methylation]], [[LINE-1]], [[Heterochromatin]], [[Genomic Instability]], [[Transposable Elements]], [[CpG Island]], [[Cellular Senescence]], [[SASP]], [[Epigenetic Clock]].
 - Suggested new entity notes to create: [[Oncogene]], [[Tumor Suppressor]], [[Telomere]], [[Telomerase]].
@@ -119,7 +119,7 @@ One of the significant challenges in treatment is [[Multidrug Resistance]], whic
 
 
 ## Connections
-- [[notes/_link/Oxidative Stress]]
+- [[notes/oxidative_stress/Oxidative Stress]]
 - [[notes/_link/Reactive Oxygen Species]]
 - [[notes/_link/Ascorbic Acid]] (as a potential prooxidant therapy)
 
@@ -141,6 +141,6 @@ One of the significant challenges in treatment is [[Multidrug Resistance]], whic
 
 
 ### Linking Summary:
-- New links added: [[8-oxo-2'-deoxyguanosine]], [[notes/_link/Aging]], [[notes/_link/Ascorbic Acid]], [[Autophagy]], [[Cellular Reprogramming]], [[Cellular Senescence]], [[CpG Island]], [[DNA Methylation]], [[notes/_link/DNA Damage]], [[Epigenetic Clock]], [[Epigenetics]], [[Genomic Instability]], [[Heterochromatin]], [[Klf4]], [[LINE-1]], [[notes/_link/Oxidative Stress]], [[notes/_link/Reactive Oxygen Species]], [[SASP]], [[Transposable Elements]], [[Yamanaka Factors]], [[c-Myc]], [[oncogene activation]]
+- New links added: [[8-oxo-2'-deoxyguanosine]], [[notes/_link/Aging]], [[notes/_link/Ascorbic Acid]], [[Autophagy]], [[Cellular Reprogramming]], [[Cellular Senescence]], [[CpG Island]], [[DNA Methylation]], [[notes/_link/DNA Damage]], [[Epigenetic Clock]], [[Epigenetics]], [[Genomic Instability]], [[Heterochromatin]], [[Klf4]], [[LINE-1]], [[notes/oxidative_stress/Oxidative Stress]], [[notes/_link/Reactive Oxygen Species]], [[SASP]], [[Transposable Elements]], [[Yamanaka Factors]], [[c-Myc]], [[oncogene activation]]
 - Suggested new entity notes to create: [[notes/_link/Apoptosis]], [[notes/_link/DNA Damage]], [[Metastasis]], [[Oncogene]], [[Telomerase]], [[Telomere]], [[Tumor Suppressor]], [[oncogene activation]]
-- Strong connections to strengthen: [[Cancer]] ↔ [[notes/_link/Aging]], [[Cancer]] ↔ [[DNA Methylation]], [[Cancer]] ↔ [[Metabolic Reprogramming]], [[Cancer]] ↔ [[notes/_link/Oxidative Stress]], [[c-Myc]] ↔ [[Cancer]]
+- Strong connections to strengthen: [[Cancer]] ↔ [[notes/_link/Aging]], [[Cancer]] ↔ [[DNA Methylation]], [[Cancer]] ↔ [[Metabolic Reprogramming]], [[Cancer]] ↔ [[notes/oxidative_stress/Oxidative Stress]], [[c-Myc]] ↔ [[Cancer]]

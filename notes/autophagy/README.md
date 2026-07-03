@@ -141,7 +141,7 @@ This directory contains notes and research regarding [[Autophagy]], its molecula
 | [[notes/_link/mTOR]]                          | 09_Jun_2026 10:15 AM PDT | Enzyme                   |         10         |     -1      | Master negative regulator of autophagy. |
 | [[notes/_link/mTORC1]]                        | 09_Jun_2026 10:15 AM PDT | Protein                  |         10         |      0      | Master negative regulator of autophagy. |
 | [[notes/_link/Neurodegenerative Diseases]]    | 09_Jun_2026 10:15 AM PDT | Medical Condition        |         9          |     -1      | Group of diseases commonly associated with impaired autophagic clearance. |
-| [[notes/_link/Oxidative Stress]]              | 09_Jun_2026 10:15 AM PDT | Scientific Concept       |         9          |      0      | Inducer of autophagy to clear damaged organelles and proteins. |
+| [[notes/oxidative_stress/Oxidative Stress]]              | 09_Jun_2026 10:15 AM PDT | Scientific Concept       |         9          |      0      | Inducer of autophagy to clear damaged organelles and proteins. |
 | [[notes/_link/p53]]                           | 09_Jun_2026 10:15 AM PDT | Protein                  |         8          |      0      | Tumor suppressor with dual, context-dependent roles in autophagy regulation. |
 | [[notes/_link/Parkinson's Disease]]           | 09_Jun_2026 10:15 AM PDT | Medical Condition        |         9          |     -1      | Disease linked to defective mitophagy (e.g., PINK1/Parkin mutations). |
 | [[notes/_link/PDA]]                           | 09_Jun_2026 10:15 AM PDT | Medical Condition        |         6          |     -1      | Pancreatic ductal adenocarcinoma heavily relies on autophagy for survival. |

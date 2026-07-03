@@ -1,6 +1,6 @@
 # Cardiovascular Disease
 
-Cardiovascular disease (CVD) is a class of diseases that involve the heart or blood vessels. Major types include coronary artery disease (e.g., [[notes/_link/Atherosclerosis]]), which is often preceded by [[Endothelial Dysfunction]] and exacerbated by chronic [[notes/_link/Oxidative Stress]].
+Cardiovascular disease (CVD) is a class of diseases that involve the heart or blood vessels. Major types include coronary artery disease (e.g., [[notes/_link/Atherosclerosis]]), which is often preceded by [[Endothelial Dysfunction]] and exacerbated by chronic [[notes/oxidative_stress/Oxidative Stress]].
 
 
 The relationship between **[[Epigenetics]]**, **[[notes/_link/Aging]]**, and **Cardiovascular Disease (CVD)** is a central focus of modern cardiology. Epigenetic modifications act as a bridge between environmental factors (lifestyle, pollution, stress) and the genetic blueprint, driving the progressive decline in heart and vascular function that occurs with age.

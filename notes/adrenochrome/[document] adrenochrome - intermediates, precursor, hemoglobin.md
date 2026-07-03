@@ -75,7 +75,7 @@ The interest in [[Leuco-adrenochrome]] and its parent compound, [[Adrenochrome]]
 - **The Theory:**
 	They proposed the "[[Adrenochrome Hypothesis]]," which suggested that [[Adrenochrome]] might be a psychotomimetic (hallucinogenic) agent formed endogenously. They hypothesized that an imbalance in the oxidation of [[notes/_link/Epinephrine]] into [[Adrenochrome]] might contribute to the etiology of [[notes/_link/Schizophrenia]].
 - **Legacy:**
-	While this hypothesis triggered extensive research into [[Catecholamine]] metabolism, it was largely superseded by the [[Dopamine hypothesis]] of [[notes/_link/Schizophrenia]] in later decades. However, the legacy of this research remains significant in the study of how [[Catecholamine]] metabolites interact with neurological receptors and [[notes/_link/Oxidative Stress]] pathways.
+	While this hypothesis triggered extensive research into [[Catecholamine]] metabolism, it was largely superseded by the [[Dopamine hypothesis]] of [[notes/_link/Schizophrenia]] in later decades. However, the legacy of this research remains significant in the study of how [[Catecholamine]] metabolites interact with neurological receptors and [[notes/oxidative_stress/Oxidative Stress]] pathways.
 
 ### 3\. Current Analytical & Pharmaceutical Usage
 
@@ -211,7 +211,7 @@ Note: Popular culture (e.g., Fear and Loathing in Las Vegas) dramatically exagge
 
 Current Status
 
-Restricted to analytical, scientific, and laboratory use. No approved therapeutic applications. Research continues in [[Biochemistry]] ([[Catecholamine]] [[Metabolism]], [[notes/_link/Oxidative Stress]]) and analytical chemistry.
+Restricted to analytical, scientific, and laboratory use. No approved therapeutic applications. Research continues in [[Biochemistry]] ([[Catecholamine]] [[Metabolism]], [[notes/oxidative_stress/Oxidative Stress]]) and analytical chemistry.
 
 [pubs.acs.org](https://pubs.acs.org/doi/10.1021/tx7000916)
 
@@ -226,7 +226,7 @@ Indirect/Related Interactions via the Oxidation Pathway
 [[Leuco-adrenochrome]] is the reduced (colorless) intermediate formed when adrenaline ([[notes/_link/Epinephrine]]) cyclizes after initial oxidation to [[adrenaline-quinone]]. It is then oxidized to [[Adrenochrome]] (the colored form). This pathway intersects with [[Hemoglobin]]/[[Erythrocytes|red blood cell]] chemistry primarily through [[notes/_link/Reactive Oxygen Species]] ([[ROS]]) and [[Autoxidation]] processes:
 - [[Oxyhemoglobin]] [[Autoxidation]] to [[Methemoglobin]]: The spontaneous [[Autoxidation]] of [[Oxyhemoglobin]] (HbO₂) to [[Methemoglobin]] generates [[Superoxide anion|superoxide radicals]] (O₂⁻•). These radicals (and [[notes/_link/Hydrogen Peroxide]]) can co-oxidize [[notes/_link/Epinephrine]] to [[Adrenochrome]]. This process is well-documented and used as an [[Assay]] for [[Superoxide anion|superoxide]] production.
 	[sciencedirect.com](https://www.sciencedirect.com/science/article/pii/S0021925819446796)
-- [[Leuco-adrenochrome]] participates in [[Redox cycle|redox cycling]]. It can be readily re-oxidized ([[Autoxidation|autoxidizes]] more easily than [[notes/_link/Epinephrine]] at physiological pH) back to [[Adrenochrome]], contributing to [[Superoxide anion|superoxide]] generation and oxygen uptake. In systems involving [[Hemoglobin]]-derived [[ROS]], this cycling could amplify [[notes/_link/Oxidative Stress]] in [[Erythrocytes]].
+- [[Leuco-adrenochrome]] participates in [[Redox cycle|redox cycling]]. It can be readily re-oxidized ([[Autoxidation|autoxidizes]] more easily than [[notes/_link/Epinephrine]] at physiological pH) back to [[Adrenochrome]], contributing to [[Superoxide anion|superoxide]] generation and oxygen uptake. In systems involving [[Hemoglobin]]-derived [[ROS]], this cycling could amplify [[notes/oxidative_stress/Oxidative Stress]] in [[Erythrocytes]].
 	[pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/12835103/)
 - [[Erythrocytes]]/fluorescence observations: Older studies (e.g., in the [[Adrenochrome Hypothesis]] era) noted fluorescent substances in normal [[Erythrocytes]] potentially resembling [[Leuco-adrenochrome]] or related indoles. [[notes/_link/Ascorbic Acid]] (vitamin C) can reduce [[Adrenochrome]] to the leuco form, which might influence [[Redox]] balance in blood.
 	[samorini.it](https://www.samorini.it/doc1/alt_aut/ek/hoffer-adrenochrome-and-adrenolutin-and-their-relationship-to-mental-disease.pdf)
@@ -234,13 +234,13 @@ No strong evidence shows direct binding of [[Leuco-adrenochrome]] to [[Hemoglobi
 
 Potential Effects in Blood
 
-- [[notes/_link/Oxidative Stress]] on RBCs: Compounds in this pathway (including [[Adrenochrome]] and its intermediates) can promote [[Methemoglobin]] formation, [[Hemolysis]] in high concentrations, or [[Lipid peroxidation]] in [[Erythrocytes|erythrocyte]] membranes under oxidative conditions. [[Leuco-adrenochrome]]'s reactivity as a [[Redox]] intermediate could contribute indirectly.
+- [[notes/oxidative_stress/Oxidative Stress]] on RBCs: Compounds in this pathway (including [[Adrenochrome]] and its intermediates) can promote [[Methemoglobin]] formation, [[Hemolysis]] in high concentrations, or [[Lipid peroxidation]] in [[Erythrocytes|erythrocyte]] membranes under oxidative conditions. [[Leuco-adrenochrome]]'s reactivity as a [[Redox]] intermediate could contribute indirectly.
 	[researchgate.net](https://www.researchgate.net/publication/18585364_6_Adrenochrome_and_Related_Compounds)
 - Historical psychiatric research (Hoffer/Osmond) focused more on [[Central nervous system]] effects and did not emphasize strong [[Hemoglobin]] interactions for the leuco form specifically (they noted it as relatively non-toxic/anti-anxiety compared to [[Adrenochrome]]).
 
 Summary
 
-[[Leuco-adrenochrome]] does not appear to have a unique, well-characterized direct interaction with [[Hemoglobin]] like some drugs or toxins (e.g., [[Carbon monoxide|CO]] binding or certain oxidants causing massive [[Methemoglobinemia]]). Its relevance is mainly as part of the [[notes/_link/Epinephrine]] → [[Adrenochrome]] [[Redox]] cascade, where [[Hemoglobin]] [[Autoxidation]] can drive or amplify the process via [[ROS]], and [[Leuco-adrenochrome]] acts as a reactive cycling intermediate that promotes further oxidation and [[Superoxide anion|superoxide]] production.If you're exploring this for biochemical modeling, [[notes/_link/Oxidative Stress]] in blood, or analytical chemistry (e.g., [[notes/_link/Epinephrine]] stability in formulations), more details on context would help narrow it further. Experimental data is sparse compared to [[Adrenochrome]] itself. Let me know if you want paper references or related pathways!
+[[Leuco-adrenochrome]] does not appear to have a unique, well-characterized direct interaction with [[Hemoglobin]] like some drugs or toxins (e.g., [[Carbon monoxide|CO]] binding or certain oxidants causing massive [[Methemoglobinemia]]). Its relevance is mainly as part of the [[notes/_link/Epinephrine]] → [[Adrenochrome]] [[Redox]] cascade, where [[Hemoglobin]] [[Autoxidation]] can drive or amplify the process via [[ROS]], and [[Leuco-adrenochrome]] acts as a reactive cycling intermediate that promotes further oxidation and [[Superoxide anion|superoxide]] production.If you're exploring this for biochemical modeling, [[notes/oxidative_stress/Oxidative Stress]] in blood, or analytical chemistry (e.g., [[notes/_link/Epinephrine]] stability in formulations), more details on context would help narrow it further. Experimental data is sparse compared to [[Adrenochrome]] itself. Let me know if you want paper references or related pathways!
 
 [[notes/_link/Epinephrine]] stability in formulations
 

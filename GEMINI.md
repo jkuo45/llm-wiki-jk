@@ -137,7 +137,7 @@ To maintain consistency, all entity notes should include an `entity_type` field.
 | **Medical Product**           | Prepared devices or specific pharmaceutical products.                            | [[EpiPen]], [[Neffy]], [[Symjepi]]                                                    |
 | **Vaccine**                   | Preparations to stimulate immunity.                                              | [[mRNA COVID-19 vaccine]]                                                             |
 | **Scientific Theory**         | Hypotheses or scientific models.                                                 | [[Adrenochrome Hypothesis]], [[Dopamine hypothesis]]                                  |
-| **Scientific Concept**        | Broad scientific principles or mechanisms.                                       | [[Redox Cycling]], [[notes/_link/Oxidative Stress]], [[Electrophile]]                 |
+| **Scientific Concept**        | Broad scientific principles or mechanisms.                                       | [[Redox Cycling]], [[notes/oxidative_stress/Oxidative Stress]], [[Electrophile]]                 |
 | **Laboratory Standard**       | Quality control and reference materials.                                         | [[Reference standard]], [[Certificate of Analysis]], [[Impurity marker]]              |
 | **Pharmacokinetic Parameter** | Quantitative ADME properties.                                                    | [[Half-life]], [[Volume of distribution]], [[Bioavailability]]                        |
 | **Model Organism**            | Species or strains used in research.                                             | [[Rattus norvegicus]], [[Zebrafish]], [[Knockout mouse]]                              |

@@ -1,6 +1,6 @@
 # Alzheimer's Disease
 
-Alzheimer's disease is a chronic neurodegenerative disease that usually starts slowly and gradually worsens over time. [[notes/_link/Oxidative Stress]] is considered a pivotal factor in its pathogenesis, often involving dysfunction in the [[notes/_link/Mitochondria]] and the accumulation of [[Amyloid-beta]] plaques and [[Tau protein]] tangles.
+Alzheimer's disease is a chronic neurodegenerative disease that usually starts slowly and gradually worsens over time. [[notes/oxidative_stress/Oxidative Stress]] is considered a pivotal factor in its pathogenesis, often involving dysfunction in the [[notes/_link/Mitochondria]] and the accumulation of [[Amyloid-beta]] plaques and [[Tau protein]] tangles.
 
 
 [[Epigenetics]] plays a critical role in the development and progression of **Alzheimer’s Disease (AD)**, acting as a bridge between genetic predisposition and environmental risk factors. Unlike genetic mutations, epigenetic changes do not alter the DNA sequence itself but instead modify how genes are expressed.

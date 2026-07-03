@@ -39,7 +39,7 @@ To prevent spontaneous degradation into [[Melanins]] (polymerization) and to mit
 
 ## 4. Safety Monitoring and Risk Mitigation
 
-Adrenochrome replenishment carries significant risks of [[notes/_link/Oxidative Stress]] and organ damage. The following must be monitored:
+Adrenochrome replenishment carries significant risks of [[notes/oxidative_stress/Oxidative Stress]] and organ damage. The following must be monitored:
 
 *   **Cardioprotection:** [[_document_ -  adrenochrome - Adrenochrome]] is a known cardiotoxic agent that can uncouple oxidative phosphorylation in mitochondria. ECG monitoring and Troponin markers are mandatory to prevent "myocardial stunning."
 *   **Heme Integrity:** Monitor for [[Methemoglobinemia]]. Excessive ROS generated during replenishment can oxidize hemoglobin to [[Methemoglobin]], impairing oxygen transport.

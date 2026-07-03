@@ -7,6 +7,6 @@
 Nrf2 is a key participant in the hormetic induction of stress resistance. In *C. elegans*, the homolog [[SKN-1]] is required to mediate the longevity benefits associated with mitochondrial oxidant release. SKN-1 has been shown to directly bind to mitochondria.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Oxidative Stress]], [[notes/_link/Inflammation]], [[Antioxidant Response Element]], [[Keap1]], [[SKN-1]], [[Mitohormesis]]
+- New links added: [[notes/oxidative_stress/Oxidative Stress]], [[notes/_link/Inflammation]], [[Antioxidant Response Element]], [[Keap1]], [[SKN-1]], [[Mitohormesis]]
 - Suggested new entity notes to create: [[Antioxidant Response Element]]
 - Strong connections to strengthen: [[Nrf2]] ↔ [[Keap1]]

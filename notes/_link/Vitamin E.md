@@ -17,7 +17,7 @@ It acts as a potent antioxidant, particularly in preventing [[Lipid Peroxidation
 
 
 ## Linking Summary:
-- New links added: [[notes/_link/Oxidative Stress]], [[notes/_link/Atherosclerosis]], [[Asthma]], [[Lipid Peroxidation]]
+- New links added: [[notes/oxidative_stress/Oxidative Stress]], [[notes/_link/Atherosclerosis]], [[Asthma]], [[Lipid Peroxidation]]
 - Suggested new entity notes to create: [[Tocopherols]], [[Tocotrienols]], [[Cell membranes]]
 - Strong connections to strengthen: [[notes/_link/Vitamin E]] ↔ [[Lipid Peroxidation]]
 
@@ -30,7 +30,7 @@ Research has shown that [[notes/_link/COMT]] variants can impact the efficacy an
 
 
 ## Connections
-- [[notes/_link/Oxidative Stress]]
+- [[notes/oxidative_stress/Oxidative Stress]]
 - [[notes/_link/Atherosclerosis]]
 - [[Asthma]]
 
@@ -42,6 +42,6 @@ Research has shown that [[notes/_link/COMT]] variants can impact the efficacy an
 ---
 
 ### Linking Summary:
-- New links added: [[Alpha-tocopherol]], [[Asthma]], [[notes/_link/Atherosclerosis]], [[notes/_link/COMT]], [[Cancer]], [[Lipid Peroxidation]], [[notes/_link/Oxidative Stress]]
+- New links added: [[Alpha-tocopherol]], [[Asthma]], [[notes/_link/Atherosclerosis]], [[notes/_link/COMT]], [[Cancer]], [[Lipid Peroxidation]], [[notes/oxidative_stress/Oxidative Stress]]
 - Suggested new entity notes to create: [[Cell membranes]], [[Tocopherols]], [[Tocotrienols]]
 - Strong connections to strengthen: [[notes/_link/Vitamin E]] ↔ [[Lipid Peroxidation]]

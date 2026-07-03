@@ -19,7 +19,7 @@ Inflammation creates the ideal conditions for the [[Oxidation]] of [[notes/_link
 
 
 ## Linking Summary:
-- New links added: [[notes/_link/Inflammation]], [[Adrenochrome]], [[Oxidation]], [[notes/_link/Epinephrine]], [[notes/_link/Neutrophils]], [[notes/_link/Myeloperoxidase]], [[notes/_link/Reactive Oxygen Species]], [[Superoxide anion]], [[notes/_link/Hydrogen Peroxide]], [[Lungs]], [[notes/_link/Oxidative Stress]], [[notes/_link/Neuromelanin]]
+- New links added: [[notes/_link/Inflammation]], [[Adrenochrome]], [[Oxidation]], [[notes/_link/Epinephrine]], [[notes/_link/Neutrophils]], [[notes/_link/Myeloperoxidase]], [[notes/_link/Reactive Oxygen Species]], [[Superoxide anion]], [[notes/_link/Hydrogen Peroxide]], [[Lungs]], [[notes/oxidative_stress/Oxidative Stress]], [[notes/_link/Neuromelanin]]
 - Strong connections to strengthen: [[notes/_link/Inflammation]] ↔ [[notes/_link/Neutrophils]]
 
 - New links added: [[TNF-alpha]], [[IL-1b]], [[NF-kappa B]]
@@ -29,13 +29,13 @@ Inflammation creates the ideal conditions for the [[Oxidation]] of [[notes/_link
 ## Connections
 - [[notes/_link/Neutrophils]] ↔ The primary immune cells driving oxidation during inflammation.
 - [[Adrenochrome]] ↔ An oxidative byproduct formed at sites of inflammation.
-- [[notes/_link/Oxidative Stress]] ↔ A state closely linked with and often caused by inflammation.
+- [[notes/oxidative_stress/Oxidative Stress]] ↔ A state closely linked with and often caused by inflammation.
 - [[notes/_link/Reactive Oxygen Species]] ↔ The chemicals used by immune cells that also oxidize adrenaline.
 - [[notes/_link/Myeloperoxidase]] ↔ The enzyme that catalyzes this process during the inflammatory response.
 
 
 ### Linking Summary:
-- New links added: [[Adrenochrome]], [[notes/_link/Epinephrine]], [[notes/_link/Hydrogen Peroxide]], [[IL-1b]], [[notes/_link/Inflammation]], [[Lungs]], [[notes/_link/Myeloperoxidase]], [[NF-kappa B]], [[notes/_link/Neuromelanin]], [[notes/_link/Neutrophils]], [[Oxidation]], [[notes/_link/Oxidative Stress]], [[notes/_link/Reactive Oxygen Species]], [[Superoxide anion]], [[TNF-alpha]]
+- New links added: [[Adrenochrome]], [[notes/_link/Epinephrine]], [[notes/_link/Hydrogen Peroxide]], [[IL-1b]], [[notes/_link/Inflammation]], [[Lungs]], [[notes/_link/Myeloperoxidase]], [[NF-kappa B]], [[notes/_link/Neuromelanin]], [[notes/_link/Neutrophils]], [[Oxidation]], [[notes/oxidative_stress/Oxidative Stress]], [[notes/_link/Reactive Oxygen Species]], [[Superoxide anion]], [[TNF-alpha]]
 - Suggested new entity notes to create: [[Cytokines]], [[Immune response]]
 - Strong connections to strengthen: [[notes/_link/Inflammation]] ↔ [[notes/_link/Neutrophils]], [[notes/_link/Inflammation]] ↔ [[TNF-alpha]]
 

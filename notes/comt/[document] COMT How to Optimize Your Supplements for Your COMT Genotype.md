@@ -33,7 +33,7 @@ The [[notes/_link/COMT]] gene encodes an enzyme called [[Catechol-O-methyltransf
 
 The [[notes/_link/COMT]] enzyme plays an essential role in maintaining [[Neurotransmitter|neurotransmitter]] levels at the right amount.
 
-Without the [[notes/_link/COMT]]-controlled [[Methylation]] reaction, [[Catecholamines]] can accumulate and generate [[Free Radicals|free radicals]], which can damage DNA. Thus, [[notes/_link/COMT]] is essential in protecting cells, including brain cells, from [[notes/_link/Oxidative Stress]].\[[ref](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6563236/)\]
+Without the [[notes/_link/COMT]]-controlled [[Methylation]] reaction, [[Catecholamines]] can accumulate and generate [[Free Radicals|free radicals]], which can damage DNA. Thus, [[notes/_link/COMT]] is essential in protecting cells, including brain cells, from [[notes/oxidative_stress/Oxidative Stress]].\[[ref](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6563236/)\]
 
 [[notes/_link/COMT]] is also important in converting [[Estrogen]] metabolites into forms that can easily be excreted by the body. \[[ref](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5584523/)\]
 
@@ -230,6 +230,6 @@ Answer: Yes, people with slow [[notes/_link/COMT]] may experience mood swings or
 ---
 
 ### Linking Summary:
-- New links added: [[notes/_link/COMT]], [[Catechol-O-methyltransferase]], [[notes/_link/Dopamine]], [[notes/_link/Epinephrine]], [[notes/_link/Norepinephrine]], [[Estrogen]], [[Catechols]], [[Methylation]], [[notes/_link/Oxidative Stress]], [[Methyl Groups]], [[Serotonin]], [[Melatonin]], [[Val158Met]], [[Methylfolate]], [[MethylB12]], [[Quercetin]], [[Fisetin]], [[Luteolin]], [[Rutin]], [[Oleacein]], [[EGCG]], [[Green Tea]], [[notes/_link/Parkinson's Disease]], [[Levodopa]], [[Magnesium]], [[Berberine]], [[notes/_link/Resveratrol]], [[Hesperidin]], [[MTHFR]], [[SAMe]], [[S-adenosylmethionine]], [[TMG]], [[Betaine]], [[notes/_link/Vitamin E]], [[Alpha-tocopherol]], [[Aspirin]], [[notes/_link/Cardiovascular Disease]], [[Modafinil]], [[Adenosylcobalamin]], [[Hydroxocobalamin]], [[MTRR]], [[MTHFD1]], [[Creatine]], [[Folinic acid]], [[Tyrosine]].
+- New links added: [[notes/_link/COMT]], [[Catechol-O-methyltransferase]], [[notes/_link/Dopamine]], [[notes/_link/Epinephrine]], [[notes/_link/Norepinephrine]], [[Estrogen]], [[Catechols]], [[Methylation]], [[notes/oxidative_stress/Oxidative Stress]], [[Methyl Groups]], [[Serotonin]], [[Melatonin]], [[Val158Met]], [[Methylfolate]], [[MethylB12]], [[Quercetin]], [[Fisetin]], [[Luteolin]], [[Rutin]], [[Oleacein]], [[EGCG]], [[Green Tea]], [[notes/_link/Parkinson's Disease]], [[Levodopa]], [[Magnesium]], [[Berberine]], [[notes/_link/Resveratrol]], [[Hesperidin]], [[MTHFR]], [[SAMe]], [[S-adenosylmethionine]], [[TMG]], [[Betaine]], [[notes/_link/Vitamin E]], [[Alpha-tocopherol]], [[Aspirin]], [[notes/_link/Cardiovascular Disease]], [[Modafinil]], [[Adenosylcobalamin]], [[Hydroxocobalamin]], [[MTRR]], [[MTHFD1]], [[Creatine]], [[Folinic acid]], [[Tyrosine]].
 - Suggested new entity notes to create: [[notes/_link/COMT]], [[Catechol-O-methyltransferase]], [[notes/_link/Dopamine]], [[Methylation]], [[Val158Met]], [[MTHFR]].
 - Strong connections to strengthen: [[notes/_link/COMT]] ↔ [[Methylation]], [[notes/_link/COMT]] ↔ [[notes/_link/Dopamine]].

@@ -9,7 +9,7 @@ The glycation process, also known as the [[Maillard Reaction]], leads to the for
 ## Factors Influencing Glycation
 
 - [[Hyperglycemia]]: Highly accelerates the glycation reaction.
-- [[Oxidative Stress]]: Fuels the generation of reactive carbonyl species and promotes AGE accumulation.
+- [[notes/adrenochrome/Oxidative Stress]]: Fuels the generation of reactive carbonyl species and promotes AGE accumulation.
 
 ## Prevention
 
@@ -17,6 +17,6 @@ Glycation can be attenuated through [[AGE inhibitors]] (like [[Aminoguanidine]])
 
 ## Linking Summary
 
-- New links added: [[Maillard Reaction]], [[Amadori products]], [[Advanced Glycation End Products]], [[Hyperglycemia]], [[Oxidative Stress]], [[Aminoguanidine]], [[Herbal products]], [[Physical exercise]]
+- New links added: [[Maillard Reaction]], [[Amadori products]], [[Advanced Glycation End Products]], [[Hyperglycemia]], [[notes/adrenochrome/Oxidative Stress]], [[Aminoguanidine]], [[Herbal products]], [[Physical exercise]]
 - Suggested new entity notes to create: [[Schiff base]]
 - Strong connections to strengthen: [[Glycation]] ↔ [[Aging]]

@@ -51,7 +51,7 @@ This directory contains notes and research regarding [[notes/_link/COMT]] (Catec
 | [[Norepinephrine transporter]] | 25_May_2026 05:23 PM  |
 | [[notes/_link/Norepinephrine]] | 25_May_2026 05:23 PM  |
 | [[Oleacein]] | 25_May_2026 05:23 PM  |
-| [[notes/_link/Oxidative Stress]] | 25_May_2026 05:23 PM  |
+| [[notes/oxidative_stress/Oxidative Stress]] | 25_May_2026 05:23 PM  |
 | [[notes/_link/Parkinson's Disease]] | 25_May_2026 05:23 PM  |
 | [[Prefrontal Cortex]] | 25_May_2026 05:23 PM  |
 | [[Quercetin]] | 25_May_2026 05:23 PM  |

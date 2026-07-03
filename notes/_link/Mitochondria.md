@@ -20,21 +20,21 @@ Mitochondria possess their own defense systems, including:
 
 
 ## Linking Summary:
-- New links added: [[notes/_link/Reactive Oxygen Species]], [[notes/_link/Apoptosis]], [[notes/_link/Glutathione]], [[notes/_link/Oxidative Stress]], [[Superoxide Radicals]]
+- New links added: [[notes/_link/Reactive Oxygen Species]], [[notes/_link/Apoptosis]], [[notes/_link/Glutathione]], [[notes/oxidative_stress/Oxidative Stress]], [[Superoxide Radicals]]
 - Suggested new entity notes to create: [[Electron Transport Chain]], [[Complex I]], [[Complex III]], [[Mitochondrial DNA]]
-- Strong connections to strengthen: [[notes/_link/Mitochondria]] ↔ [[notes/_link/Oxidative Stress]]
+- Strong connections to strengthen: [[notes/_link/Mitochondria]] ↔ [[notes/oxidative_stress/Oxidative Stress]]
 
 - New links added: [[Mitophagy]]
 - Suggested new entity notes to create: [[Autophagy]], [[notes/_link/Reactive Oxygen Species]]
 - Strong connections to strengthen: [[notes/_link/Mitochondria]] ↔ [[Metabolism]]
 
 ## Connections
-- [[notes/_link/Oxidative Stress]]: Mitochondria are the central hub for both the generation and the impact of oxidative stress.
+- [[notes/oxidative_stress/Oxidative Stress]]: Mitochondria are the central hub for both the generation and the impact of oxidative stress.
 - [[Superoxide Radicals]]: The main ROS byproduct of mitochondrial respiration.
 - [[notes/_link/Apoptosis]]: Triggered by mitochondrial membrane permeabilization.
 
 
 ### Linking Summary:
-- New links added: [[notes/_link/Apoptosis]], [[notes/_link/Glutathione]], [[Mitophagy]], [[Superoxide Radicals]], [[notes/_link/Oxidative Stress]], [[notes/_link/Reactive Oxygen Species]]
+- New links added: [[notes/_link/Apoptosis]], [[notes/_link/Glutathione]], [[Mitophagy]], [[Superoxide Radicals]], [[notes/oxidative_stress/Oxidative Stress]], [[notes/_link/Reactive Oxygen Species]]
 - Suggested new entity notes to create: [[Autophagy]], [[Complex I]], [[Complex III]], [[Electron Transport Chain]], [[Mitochondrial DNA]], [[notes/_link/Reactive Oxygen Species]]
-- Strong connections to strengthen: [[notes/_link/Mitochondria]] ↔ [[Metabolism]], [[notes/_link/Mitochondria]] ↔ [[notes/_link/Oxidative Stress]]
+- Strong connections to strengthen: [[notes/_link/Mitochondria]] ↔ [[Metabolism]], [[notes/_link/Mitochondria]] ↔ [[notes/oxidative_stress/Oxidative Stress]]

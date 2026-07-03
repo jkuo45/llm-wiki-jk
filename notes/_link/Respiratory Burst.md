@@ -8,7 +8,7 @@ The Respiratory Burst is the rapid release of [[notes/_link/Reactive Oxygen Spec
 - Suggested new entity notes to create: [[NADPH Oxidase]]
 - Strong connections to strengthen: [[notes/_link/Respiratory Burst]] ↔ [[notes/_link/Inflammation]]
 
-- New links added: [[notes/_link/Reactive Oxygen Species]], [[Superoxide Radicals]], [[notes/_link/Hydrogen Peroxide]], [[notes/_link/Neutrophils]], [[NADPH Oxidase]], [[notes/_link/Myeloperoxidase]], [[Hypochlorous Acid]], [[Immunity]], [[notes/_link/Inflammation]], [[notes/_link/Oxidative Stress]]
+- New links added: [[notes/_link/Reactive Oxygen Species]], [[Superoxide Radicals]], [[notes/_link/Hydrogen Peroxide]], [[notes/_link/Neutrophils]], [[NADPH Oxidase]], [[notes/_link/Myeloperoxidase]], [[Hypochlorous Acid]], [[Immunity]], [[notes/_link/Inflammation]], [[notes/oxidative_stress/Oxidative Stress]]
 - Suggested new entity notes to create: [[Immunity]]
 - Strong connections to strengthen: [[notes/_link/Respiratory Burst]] ↔ [[NADPH Oxidase]]
 
@@ -22,7 +22,7 @@ The process is driven by the activation of [[NADPH Oxidase]] (NOX), which transf
 
 ## Role in Health and Disease
 - **[[Immunity]]**: Essential for the killing of phagocytosed bacteria and fungi.
-- **[[notes/_link/Inflammation]]**: Excessive or prolonged respiratory burst can lead to collateral tissue damage and chronic [[notes/_link/Oxidative Stress]].
+- **[[notes/_link/Inflammation]]**: Excessive or prolonged respiratory burst can lead to collateral tissue damage and chronic [[notes/oxidative_stress/Oxidative Stress]].
 
 
 ## Connections
@@ -33,6 +33,6 @@ The process is driven by the activation of [[NADPH Oxidase]] (NOX), which transf
 
 
 ### Linking Summary:
-- New links added: [[notes/_link/Hydrogen Peroxide]], [[notes/_link/Hydrogen Peroxide]], [[Hypochlorous Acid]], [[Immunity]], [[notes/_link/Inflammation]], [[notes/_link/Myeloperoxidase]], [[NADPH Oxidase]], [[notes/_link/Neutrophils]], [[notes/_link/Oxidative Stress]], [[notes/_link/Reactive Oxygen Species]], [[Superoxide Radicals]], [[Superoxide anion]]
+- New links added: [[notes/_link/Hydrogen Peroxide]], [[notes/_link/Hydrogen Peroxide]], [[Hypochlorous Acid]], [[Immunity]], [[notes/_link/Inflammation]], [[notes/_link/Myeloperoxidase]], [[NADPH Oxidase]], [[notes/_link/Neutrophils]], [[notes/oxidative_stress/Oxidative Stress]], [[notes/_link/Reactive Oxygen Species]], [[Superoxide Radicals]], [[Superoxide anion]]
 - Suggested new entity notes to create: [[Immunity]], [[NADPH Oxidase]]
 - Strong connections to strengthen: [[notes/_link/Respiratory Burst]] ↔ [[notes/_link/Inflammation]], [[notes/_link/Respiratory Burst]] ↔ [[NADPH Oxidase]]

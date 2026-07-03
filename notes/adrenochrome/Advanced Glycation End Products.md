@@ -4,7 +4,7 @@ Advanced Glycation End Products (AGEs) are non-enzymatic modifications of protei
 
 ## Overview
 
-AGEs are formed through the [[Maillard Reaction]], where reducing sugars react with amino groups. This process is accelerated by [[Hyperglycemia]] and [[Oxidative Stress]]. AGEs accumulate in tissues during [[Aging]] and contribute to the pathogenesis of diabetic complications, vascular stiffness, and organ dysfunction.
+AGEs are formed through the [[Maillard Reaction]], where reducing sugars react with amino groups. This process is accelerated by [[Hyperglycemia]] and [[notes/adrenochrome/Oxidative Stress]]. AGEs accumulate in tissues during [[Aging]] and contribute to the pathogenesis of diabetic complications, vascular stiffness, and organ dysfunction.
 
 ## Mechanisms of Injury
 
@@ -26,7 +26,7 @@ The body and researchers utilize several enzymatic defense systems to manage gly
 
 ## Linking Summary
 
-- New links added: [[Maillard Reaction]], [[Hyperglycemia]], [[Oxidative Stress]], [[Aging]], [[Collagen]], [[Elastic fibers]], [[Catalase]], [[Glutathione peroxidase]], [[RAGE]], [[Reactive Oxygen Species]], [[Aminoguanidine]], [[Pyridoxamine]], [[Polyphenols]], [[Alagebrium]], [[Epicatechin]], [[Glucosepane]], [[Pentosidine]], [[AGER1]], [[Glyoxalase System]], [[GLO1]], [[GLO2]], [[PARK7]], [[Methylglyoxal]], [[Glyoxal]], [[3-deoxyglucosone]], [[Fructosamine-3-kinase]], [[Amadori products]], [[Fructosyl-Amino Acid Oxidases]], [[notes/_link/Lysosome]], [[Cathepsin D]], [[Cathepsin B]], [[Matrix Metalloproteinases]], [[HemF-like]], [[BluB-like]], [[QueE-like]]
+- New links added: [[Maillard Reaction]], [[Hyperglycemia]], [[notes/adrenochrome/Oxidative Stress]], [[Aging]], [[Collagen]], [[Elastic fibers]], [[Catalase]], [[Glutathione peroxidase]], [[RAGE]], [[Reactive Oxygen Species]], [[Aminoguanidine]], [[Pyridoxamine]], [[Polyphenols]], [[Alagebrium]], [[Epicatechin]], [[Glucosepane]], [[Pentosidine]], [[AGER1]], [[Glyoxalase System]], [[GLO1]], [[GLO2]], [[PARK7]], [[Methylglyoxal]], [[Glyoxal]], [[3-deoxyglucosone]], [[Fructosamine-3-kinase]], [[Amadori products]], [[Fructosyl-Amino Acid Oxidases]], [[notes/_link/Lysosome]], [[Cathepsin D]], [[Cathepsin B]], [[Matrix Metalloproteinases]], [[HemF-like]], [[BluB-like]], [[QueE-like]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Advanced Glycation End Products]] ↔ [[Aging]]
 

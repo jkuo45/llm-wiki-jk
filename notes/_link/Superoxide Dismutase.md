@@ -16,21 +16,21 @@ It serves as a key component of the antioxidant defense system, protecting cells
 
 
 ## Linking Summary:
-- New links added: [[Superoxide Radicals]], [[notes/_link/Hydrogen Peroxide]], [[notes/_link/Reactive Oxygen Species]], [[notes/_link/Oxidative Stress]]
+- New links added: [[Superoxide Radicals]], [[notes/_link/Hydrogen Peroxide]], [[notes/_link/Reactive Oxygen Species]], [[notes/oxidative_stress/Oxidative Stress]]
 - Suggested new entity notes to create: [[Antioxidant defense system]]
 - Strong connections to strengthen: [[notes/_link/Superoxide Dismutase]] ↔ [[Superoxide Radicals]]
 
 ## Connections
 - [[Superoxide anion]]
 - [[notes/_link/Hydrogen Peroxide]]
-- [[notes/_link/Oxidative Stress]]
+- [[notes/oxidative_stress/Oxidative Stress]]
 - [[notes/_link/Antioxidants]]
 
 - [[notes/_link/Reactive Oxygen Species]]
-- [[notes/_link/Oxidative Stress]]
+- [[notes/oxidative_stress/Oxidative Stress]]
 
 
 ### Linking Summary:
-- New links added: [[notes/_link/Hydrogen Peroxide]], [[notes/_link/Oxidative Stress]], [[notes/_link/Reactive Oxygen Species]], [[Superoxide Radicals]]
+- New links added: [[notes/_link/Hydrogen Peroxide]], [[notes/oxidative_stress/Oxidative Stress]], [[notes/_link/Reactive Oxygen Species]], [[Superoxide Radicals]]
 - Suggested new entity notes to create: [[Antioxidant defense system]]
 - Strong connections to strengthen: [[notes/_link/Superoxide Dismutase]] ↔ [[Superoxide Radicals]]

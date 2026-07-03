@@ -17,21 +17,21 @@ Ascorbic acid (Vitamin C) is a water-soluble vitamin found in various foods and 
 
 
 ## Linking Summary:
-- New links added: [[notes/_link/Oxidative Stress]], [[Cancer]], [[Fenton reaction]]
+- New links added: [[notes/oxidative_stress/Oxidative Stress]], [[Cancer]], [[Fenton reaction]]
 - Suggested new entity notes to create: [[Fenton reaction]]
-- Strong connections to strengthen: [[notes/_link/Ascorbic Acid]] ↔ [[notes/_link/Oxidative Stress]]
+- Strong connections to strengthen: [[notes/_link/Ascorbic Acid]] ↔ [[notes/oxidative_stress/Oxidative Stress]]
 
 ## Connections
 - [[notes/_link/Antioxidants]]
 - [[notes/_link/Epinephrine]]
-- [[notes/_link/Oxidative Stress]]
+- [[notes/oxidative_stress/Oxidative Stress]]
 - [[notes/_link/Glutathione]]
 
-- [[notes/_link/Oxidative Stress]]
+- [[notes/oxidative_stress/Oxidative Stress]]
 - [[Cancer]]
 
 
 ### Linking Summary:
-- New links added: [[Cancer]], [[Fenton reaction]], [[notes/_link/Oxidative Stress]]
+- New links added: [[Cancer]], [[Fenton reaction]], [[notes/oxidative_stress/Oxidative Stress]]
 - Suggested new entity notes to create: [[Fenton reaction]]
-- Strong connections to strengthen: [[notes/_link/Ascorbic Acid]] ↔ [[notes/_link/Oxidative Stress]]
+- Strong connections to strengthen: [[notes/_link/Ascorbic Acid]] ↔ [[notes/oxidative_stress/Oxidative Stress]]

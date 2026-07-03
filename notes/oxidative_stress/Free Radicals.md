@@ -12,11 +12,11 @@ In biological systems, free radicals are frequently derived from oxygen ([[notes
 - **[[notes/_link/Nitric Oxide]]** (NO•)
 
 ## Connections
-- [[notes/_link/Oxidative Stress]]: The pathological state resulting from an excess of free radicals.
+- [[notes/oxidative_stress/Oxidative Stress]]: The pathological state resulting from an excess of free radicals.
 - [[notes/_link/Antioxidants]]: Molecules that neutralize free radicals by donating an electron.
 - [[notes/_link/Mitochondria]]: The primary site of endogenous free radical production.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Reactive Oxygen Species]], [[Reactive Nitrogen Species]], [[Lipid Peroxidation]], [[Superoxide Radicals]], [[Hydroxyl Radicals]], [[notes/_link/Nitric Oxide]], [[notes/_link/Oxidative Stress]], [[notes/_link/Antioxidants]], [[notes/_link/Mitochondria]]
+- New links added: [[notes/_link/Reactive Oxygen Species]], [[Reactive Nitrogen Species]], [[Lipid Peroxidation]], [[Superoxide Radicals]], [[Hydroxyl Radicals]], [[notes/_link/Nitric Oxide]], [[notes/oxidative_stress/Oxidative Stress]], [[notes/_link/Antioxidants]], [[notes/_link/Mitochondria]]
 - Suggested new entity notes to create: [[Reactive Nitrogen Species]]
-- Strong connections to strengthen: [[Free Radicals]] ↔ [[notes/_link/Oxidative Stress]]
+- Strong connections to strengthen: [[Free Radicals]] ↔ [[notes/oxidative_stress/Oxidative Stress]]

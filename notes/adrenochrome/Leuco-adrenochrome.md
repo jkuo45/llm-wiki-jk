@@ -23,4 +23,4 @@ In the [[Catecholamines]] oxidation pathway:
 - [[Adrenochrome]]
 * [[adrenaline-quinone]]
 - [[Redox cycle]]
-- [[notes/_link/Oxidative Stress]]
+- [[notes/oxidative_stress/Oxidative Stress]]

@@ -19,11 +19,11 @@ Neutrophils are a major site of [[notes/_link/Epinephrine]] [[Oxidation]] in hum
 
 
 ## Biological Significance
-While essential for killing pathogens, the oxidative environment created by neutrophils can lead to localized [[notes/_link/Oxidative Stress]] and the formation of potentially toxic byproducts like [[Adrenochrome]].
+While essential for killing pathogens, the oxidative environment created by neutrophils can lead to localized [[notes/oxidative_stress/Oxidative Stress]] and the formation of potentially toxic byproducts like [[Adrenochrome]].
 
 
 ## Linking Summary:
-- New links added: [[notes/_link/Neutrophils]], [[Adrenochrome]], [[notes/_link/Epinephrine]], [[Oxidation]], [[notes/_link/Inflammation]], [[notes/_link/Reactive Oxygen Species]], [[Superoxide anion]], [[Hydroxyl radical]], [[notes/_link/Myeloperoxidase]], [[Lungs]], [[notes/_link/Oxidative Stress]]
+- New links added: [[notes/_link/Neutrophils]], [[Adrenochrome]], [[notes/_link/Epinephrine]], [[Oxidation]], [[notes/_link/Inflammation]], [[notes/_link/Reactive Oxygen Species]], [[Superoxide anion]], [[Hydroxyl radical]], [[notes/_link/Myeloperoxidase]], [[Lungs]], [[notes/oxidative_stress/Oxidative Stress]]
 - Strong connections to strengthen: [[notes/_link/Neutrophils]] ↔ [[Adrenochrome]]
 
 - New links added: [[Hypochlorous Acid]], [[notes/_link/Myeloperoxidase]]
@@ -39,6 +39,6 @@ While essential for killing pathogens, the oxidative environment created by neut
 
 
 ### Linking Summary:
-- New links added: [[Adrenochrome]], [[notes/_link/Epinephrine]], [[Hydroxyl radical]], [[Hypochlorous Acid]], [[notes/_link/Inflammation]], [[Lungs]], [[notes/_link/Myeloperoxidase]], [[notes/_link/Neutrophils]], [[Oxidation]], [[notes/_link/Oxidative Stress]], [[notes/_link/Reactive Oxygen Species]], [[Superoxide anion]]
+- New links added: [[Adrenochrome]], [[notes/_link/Epinephrine]], [[Hydroxyl radical]], [[Hypochlorous Acid]], [[notes/_link/Inflammation]], [[Lungs]], [[notes/_link/Myeloperoxidase]], [[notes/_link/Neutrophils]], [[Oxidation]], [[notes/oxidative_stress/Oxidative Stress]], [[notes/_link/Reactive Oxygen Species]], [[Superoxide anion]]
 - Suggested new entity notes to create: [[Innate immune system]], [[notes/_link/Respiratory Burst]]
 - Strong connections to strengthen: [[notes/_link/Neutrophils]] ↔ [[Adrenochrome]], [[notes/_link/Neutrophils]] ↔ [[Hypochlorous Acid]]

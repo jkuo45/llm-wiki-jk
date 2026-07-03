@@ -17,11 +17,11 @@ MPO uses [[notes/_link/Hydrogen Peroxide]] to oxidize halide ions (like chloride
 ## Clinical Relevance
 - **[[notes/_link/Inflammation]]:** Elevated MPO levels are markers of neutrophil activation and systemic inflammation.
 - **Cardiovascular Disease:** MPO-derived oxidants contribute to atherosclerosis and tissue damage during myocardial infarction.
-- **[[notes/_link/Oxidative Stress]]:** Excessive MPO activity can lead to collateral damage to host tissues.
+- **[[notes/oxidative_stress/Oxidative Stress]]:** Excessive MPO activity can lead to collateral damage to host tissues.
 
 
 ## Linking Summary:
-- New links added: [[notes/_link/Myeloperoxidase]], [[notes/_link/Neutrophils]], [[Oxidation]], [[notes/_link/Epinephrine]], [[Adrenochrome]], [[notes/_link/Reactive Oxygen Species]], [[notes/_link/Hydrogen Peroxide]], [[notes/_link/Inflammation]], [[notes/_link/Oxidative Stress]]
+- New links added: [[notes/_link/Myeloperoxidase]], [[notes/_link/Neutrophils]], [[Oxidation]], [[notes/_link/Epinephrine]], [[Adrenochrome]], [[notes/_link/Reactive Oxygen Species]], [[notes/_link/Hydrogen Peroxide]], [[notes/_link/Inflammation]], [[notes/oxidative_stress/Oxidative Stress]]
 - Strong connections to strengthen: [[notes/_link/Myeloperoxidase]] ↔ [[notes/_link/Neutrophils]]
 
 - New links added: [[notes/_link/Neutrophils]], [[Hypochlorous Acid]]
@@ -37,6 +37,6 @@ MPO uses [[notes/_link/Hydrogen Peroxide]] to oxidize halide ions (like chloride
 
 
 ### Linking Summary:
-- New links added: [[Adrenochrome]], [[notes/_link/Epinephrine]], [[notes/_link/Hydrogen Peroxide]], [[Hypochlorous Acid]], [[notes/_link/Inflammation]], [[notes/_link/Myeloperoxidase]], [[notes/_link/Neutrophils]], [[Oxidation]], [[notes/_link/Oxidative Stress]], [[notes/_link/Reactive Oxygen Species]]
+- New links added: [[Adrenochrome]], [[notes/_link/Epinephrine]], [[notes/_link/Hydrogen Peroxide]], [[Hypochlorous Acid]], [[notes/_link/Inflammation]], [[notes/_link/Myeloperoxidase]], [[notes/_link/Neutrophils]], [[Oxidation]], [[notes/oxidative_stress/Oxidative Stress]], [[notes/_link/Reactive Oxygen Species]]
 - Suggested new entity notes to create: [[MPO gene]], [[Peroxidase]]
 - Strong connections to strengthen: [[notes/_link/Myeloperoxidase]] ↔ [[Hypochlorous Acid]], [[notes/_link/Myeloperoxidase]] ↔ [[notes/_link/Neutrophils]]

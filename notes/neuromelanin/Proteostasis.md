@@ -16,7 +16,7 @@ In [[Neurodegenerative Disease]], the failure of proteostasis is central to path
 - **[[notes/_link/Alzheimer's Disease]]**: Characterized by the accumulation of amyloid-beta plaques and tau tangles.
 
 ## Interaction with Neuromelanin
-In the [[notes/_link/Substantia Nigra]], [[notes/_link/Neuromelanin]] serves as a storage site for metals and potentially toxic protein species. However, excessive accumulation of neuromelanin or its associated proteins may interfere with local [[Proteostasis]], contributing to the selective vulnerability of dopaminergic neurons. Chronic [[notes/_link/Oxidative Stress]] can also damage the proteostasis machinery itself.
+In the [[notes/_link/Substantia Nigra]], [[notes/_link/Neuromelanin]] serves as a storage site for metals and potentially toxic protein species. However, excessive accumulation of neuromelanin or its associated proteins may interfere with local [[Proteostasis]], contributing to the selective vulnerability of dopaminergic neurons. Chronic [[notes/oxidative_stress/Oxidative Stress]] can also damage the proteostasis machinery itself.
 
 ## Connections
 - **[[Autophagy]]**: A critical arm of the proteostasis network for clearing large aggregates.
@@ -25,6 +25,6 @@ In the [[notes/_link/Substantia Nigra]], [[notes/_link/Neuromelanin]] serves as 
 - **[[Endoplasmic Reticulum Stress]]**: Occurs when the folding capacity of the ER is exceeded.
 
 ### Linking Summary:
-- New links added: [[Ubiquitin-proteasome system]], [[Autophagy]], [[notes/_link/Aging]], [[Neurodegenerative Disease]], [[notes/_link/Parkinson's Disease]], [[Alpha-Synuclein]], [[Lewy Bodies]], [[notes/_link/Alzheimer's Disease]], [[notes/_link/Substantia Nigra]], [[notes/_link/Neuromelanin]], [[notes/_link/Oxidative Stress]], [[Endoplasmic Reticulum Stress]]
+- New links added: [[Ubiquitin-proteasome system]], [[Autophagy]], [[notes/_link/Aging]], [[Neurodegenerative Disease]], [[notes/_link/Parkinson's Disease]], [[Alpha-Synuclein]], [[Lewy Bodies]], [[notes/_link/Alzheimer's Disease]], [[notes/_link/Substantia Nigra]], [[notes/_link/Neuromelanin]], [[notes/oxidative_stress/Oxidative Stress]], [[Endoplasmic Reticulum Stress]]
 - Suggested new entity notes to create: [[Endoplasmic Reticulum Stress]]
 - Strong connections to strengthen: [[Proteostasis]] ↔ [[Autophagy]]

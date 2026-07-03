@@ -1,6 +1,6 @@
 # Diabetes Mellitus
 
-Diabetes Mellitus is a group of metabolic diseases characterized by high blood sugar levels ([[Hyperglycemia]]) over a prolonged period. Chronic hyperglycemia leads to increased production of [[notes/_link/Reactive Oxygen Species]] in the [[notes/_link/Mitochondria]], resulting in systemic [[notes/_link/Oxidative Stress]] and micro/macrovascular complications.
+Diabetes Mellitus is a group of metabolic diseases characterized by high blood sugar levels ([[Hyperglycemia]]) over a prolonged period. Chronic hyperglycemia leads to increased production of [[notes/_link/Reactive Oxygen Species]] in the [[notes/_link/Mitochondria]], resulting in systemic [[notes/oxidative_stress/Oxidative Stress]] and micro/macrovascular complications.
 
 
 **[[notes/_link/Diabetes Mellitus]]** is a chronic metabolic disorder characterized by high blood glucose levels. In the context of [[notes/_link/Aging]] and [[Epigenetics]], diabetes is often viewed as a condition that accelerates the biological aging process through systemic inflammation and metabolic stress.

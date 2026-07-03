@@ -1,6 +1,6 @@
 # Catalase
 
-Catalase is a key antioxidant enzyme that catalyzes the decomposition of [[Hydrogen Peroxide]] into water and oxygen. It is a critical component of the cell's defense against [[Oxidative Stress]].
+Catalase is a key antioxidant enzyme that catalyzes the decomposition of [[Hydrogen Peroxide]] into water and oxygen. It is a critical component of the cell's defense against [[notes/adrenochrome/Oxidative Stress]].
 
 ## Inhibition by Glycation
 
@@ -14,12 +14,12 @@ In the context of [[Mitohormesis]], mild increases in mitochondrial [[Reactive O
 
 - [[Hydrogen Peroxide]]
 - [[Reactive Oxygen Species]]
-- [[Oxidative Stress]]
+- [[notes/adrenochrome/Oxidative Stress]]
 - [[Superoxide Dismutase]]
 - [[Antioxidants]]
 
 ## Linking Summary
 
-- New links added: [[Hydrogen Peroxide]], [[Reactive Oxygen Species]], [[Oxidative Stress]], [[Superoxide Dismutase]], [[Antioxidants]]
+- New links added: [[Hydrogen Peroxide]], [[Reactive Oxygen Species]], [[notes/adrenochrome/Oxidative Stress]], [[Superoxide Dismutase]], [[Antioxidants]]
 - Suggested new entity notes to create: [[Peroxisomes]]
-- Strong connections to strengthen: [[Catalase]] ↔ [[Oxidative Stress]]
+- Strong connections to strengthen: [[Catalase]] ↔ [[notes/adrenochrome/Oxidative Stress]]

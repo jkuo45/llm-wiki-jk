@@ -8,10 +8,10 @@ It reduces free [[notes/_link/Hydrogen Peroxide]] to water and organic hydropero
 
 ## Connections
 - [[notes/_link/Glutathione]]
-- [[notes/_link/Oxidative Stress]]
+- [[notes/oxidative_stress/Oxidative Stress]]
 - [[notes/_link/Reactive Oxygen Species]]
 
 ### Linking Summary:
-- New links added: [[notes/_link/Hydrogen Peroxide]], [[notes/_link/Glutathione]], [[notes/_link/Oxidative Stress]], [[notes/_link/Reactive Oxygen Species]]
+- New links added: [[notes/_link/Hydrogen Peroxide]], [[notes/_link/Glutathione]], [[notes/oxidative_stress/Oxidative Stress]], [[notes/_link/Reactive Oxygen Species]]
 - Suggested new entity notes to create: [[Organic hydroperoxides]]
 - Strong connections to strengthen: [[Glutathione Peroxidase]] ↔ [[notes/_link/Glutathione]]

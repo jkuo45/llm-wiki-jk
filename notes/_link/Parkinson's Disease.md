@@ -1,6 +1,6 @@
 # Parkinson's Disease
 
-Parkinson's disease is a long-term degenerative disorder of the central nervous system that mainly affects the motor system. It is characterized by the loss of [[notes/_link/Dopamine]]-producing neurons in the [[notes/_link/Substantia Nigra]]. Chronic [[notes/_link/Oxidative Stress]] and mitochondrial dysfunction (often involving [[notes/_link/Mitochondria]]) are key contributors to its progression.
+Parkinson's disease is a long-term degenerative disorder of the central nervous system that mainly affects the motor system. It is characterized by the loss of [[notes/_link/Dopamine]]-producing neurons in the [[notes/_link/Substantia Nigra]]. Chronic [[notes/oxidative_stress/Oxidative Stress]] and mitochondrial dysfunction (often involving [[notes/_link/Mitochondria]]) are key contributors to its progression.
 
 
 [[notes/_link/Parkinson's Disease]] is a progressive [[notes/_link/Neurodegenerative Diseases|neurodegenerative disorder]] primarily characterized by the loss of dopaminergic neurons in the substantia nigra, leading to classic motor impairments such as tremors, rigidity, and bradykinesia.

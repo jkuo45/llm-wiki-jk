@@ -8,4 +8,4 @@
 ## Connections
 - [[Adrenochrome]]
 - [[notes/_link/Neuromelanin]]
-- [[notes/_link/Oxidative Stress]]
+- [[notes/oxidative_stress/Oxidative Stress]]

@@ -7,7 +7,7 @@
 
 
 ## Biochemical Role
-- **Precursor to [[Adrenochrome]]:** Under conditions of [[notes/_link/Oxidative Stress]], Epinephrine undergoes [[Oxidation]] to form [[Adrenochrome]]. This process can be non-enzymatic (driven by ROS) or catalyzed by enzymes like [[notes/_link/Myeloperoxidase]].
+- **Precursor to [[Adrenochrome]]:** Under conditions of [[notes/oxidative_stress/Oxidative Stress]], Epinephrine undergoes [[Oxidation]] to form [[Adrenochrome]]. This process can be non-enzymatic (driven by ROS) or catalyzed by enzymes like [[notes/_link/Myeloperoxidase]].
 - **Metabolism:** Primarily metabolized via [[notes/_link/COMT]] (Catechol-O-methyltransferase) and [[MAO]] (Monoamine oxidase) pathways. Inhibition of these pathways can lead to increased Epinephrine levels and shift metabolism toward the [[Adrenochrome]] pathway.
 
 
@@ -18,7 +18,7 @@
 
 
 ## Linking Summary:
-- New links added: [[notes/_link/Epinephrine]], [[Adrenochrome]], [[notes/_link/Oxidative Stress]], [[Oxidation]], [[notes/_link/Myeloperoxidase]], [[notes/_link/COMT]], [[MAO]], [[notes/_link/Inflammation]], [[notes/_link/Neutrophils]], [[Smoking]], [[Catecholamines]], [[Lungs]], [[Cardiotoxicity]]
+- New links added: [[notes/_link/Epinephrine]], [[Adrenochrome]], [[notes/oxidative_stress/Oxidative Stress]], [[Oxidation]], [[notes/_link/Myeloperoxidase]], [[notes/_link/COMT]], [[MAO]], [[notes/_link/Inflammation]], [[notes/_link/Neutrophils]], [[Smoking]], [[Catecholamines]], [[Lungs]], [[Cardiotoxicity]]
 - Strong connections to strengthen: [[notes/_link/Epinephrine]] ↔ [[Adrenochrome]]
 
 - New links added: [[Neurotransmitter]], [[notes/_link/COMT]], [[Catechol-O-methyltransferase]], [[MAO]], [[Catecholamines]], [[notes/_link/Norepinephrine]].
@@ -47,5 +47,5 @@ It increases heart rate, constricts blood vessels, and dilates air passages, par
 ---
 
 ### Linking Summary:
-- New links added: [[Adrenochrome]], [[notes/_link/COMT]], [[Cardiotoxicity]], [[Catechol-O-methyltransferase]], [[Catecholamines]], [[notes/_link/Epinephrine]], [[notes/_link/Inflammation]], [[Lungs]], [[MAO]], [[notes/_link/Myeloperoxidase]], [[Neurotransmitter]], [[notes/_link/Neutrophils]], [[notes/_link/Norepinephrine]], [[Oxidation]], [[notes/_link/Oxidative Stress]], [[Smoking]]
+- New links added: [[Adrenochrome]], [[notes/_link/COMT]], [[Cardiotoxicity]], [[Catechol-O-methyltransferase]], [[Catecholamines]], [[notes/_link/Epinephrine]], [[notes/_link/Inflammation]], [[Lungs]], [[MAO]], [[notes/_link/Myeloperoxidase]], [[Neurotransmitter]], [[notes/_link/Neutrophils]], [[notes/_link/Norepinephrine]], [[Oxidation]], [[notes/oxidative_stress/Oxidative Stress]], [[Smoking]]
 - Strong connections to strengthen: [[notes/_link/Epinephrine]] ↔ [[Adrenochrome]]

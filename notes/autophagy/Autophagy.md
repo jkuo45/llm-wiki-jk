@@ -43,7 +43,7 @@ The relationship between epigenetics and autophagy is bidirectional:
 - Suggested new entity notes to create: [[Autophagosome]], [[Mitophagy]], [[Beclin1]], [[Atg5]].
 - Strong connections to strengthen: [[Autophagy]] ↔ [[notes/_link/Aging]], [[Autophagy]] ↔ [[notes/sirtuins/SIRT1]]
 
-- New links added: [[notes/_link/Parkinson's Disease]], [[notes/_link/Neuromelanin]], [[Lewy Bodies]], [[notes/_link/Oxidative Stress]].
+- New links added: [[notes/_link/Parkinson's Disease]], [[notes/_link/Neuromelanin]], [[Lewy Bodies]], [[notes/oxidative_stress/Oxidative Stress]].
 - Suggested new entity notes to create: [[Lysosomes]], [[Mitophagy]], [[Proteostasis]].
 - Strong connections to strengthen: [[Autophagy]] ↔ [[notes/_link/Neuromelanin]].
 
@@ -70,7 +70,7 @@ Autophagy is critical for maintaining cellular proteostasis by removing damaged 
 In [[notes/_link/Parkinson's Disease]], the autophagy-lysosome pathway is often compromised, particularly in [[notes/_link/Neuromelanin]]-containing neurons.
 - **Neuromelanin Granules:** Neuromelanin is sequestered within specialized autophagic vacuoles. Because neuromelanin is insoluble and cannot be degraded by lysosomal proteases, it remains trapped, leading to the accumulation of undegraded autophagic structures.
 - **Proteostasis Failure:** The continuous build-up of neuromelanin-filled autophagic structures eventually exhausts the cell's vesicular storage capacity, interfering with intracellular trafficking and contributing to the formation of [[Lewy Bodies]].
-- **Mitochondrial Quality Control:** Impaired autophagy also compromises the removal of damaged mitochondria ([[Mitophagy]]), leading to increased [[notes/_link/Oxidative Stress]].
+- **Mitochondrial Quality Control:** Impaired autophagy also compromises the removal of damaged mitochondria ([[Mitophagy]]), leading to increased [[notes/oxidative_stress/Oxidative Stress]].
 
 
 ## Overview
@@ -138,6 +138,6 @@ Autophagy can be modulated by:
 
 
 ### Linking Summary:
-- New links added: [[notes/_link/Aging]], [[notes/_link/Alzheimer's Disease]], [[Cellular Senescence]], [[DNA Methylation]], [[DNA Methyltransferase]], [[Epigenetics]], [[Epigenome]], [[HDAC]], [[Histone Modification]], [[Lewy Bodies]], [[MicroRNA]], [[notes/_link/Neurodegenerative Diseases]], [[notes/_link/Neuromelanin]], [[Non-coding RNA]], [[notes/_link/Parkinson's Disease]], [[notes/sirtuins/SIRT1]], [[Sirtuin]], [[notes/_link/Oxidative Stress]]
+- New links added: [[notes/_link/Aging]], [[notes/_link/Alzheimer's Disease]], [[Cellular Senescence]], [[DNA Methylation]], [[DNA Methyltransferase]], [[Epigenetics]], [[Epigenome]], [[HDAC]], [[Histone Modification]], [[Lewy Bodies]], [[MicroRNA]], [[notes/_link/Neurodegenerative Diseases]], [[notes/_link/Neuromelanin]], [[Non-coding RNA]], [[notes/_link/Parkinson's Disease]], [[notes/sirtuins/SIRT1]], [[Sirtuin]], [[notes/oxidative_stress/Oxidative Stress]]
 - Suggested new entity notes to create: [[Atg5]], [[Autophagosome]], [[Beclin1]], [[Lysosomes]], [[Mitophagy]], [[Proteostasis]]
 - Strong connections to strengthen: [[Autophagy]] ↔ [[notes/_link/Aging]], [[Autophagy]] ↔ [[notes/_link/Neuromelanin]]., [[Autophagy]] ↔ [[notes/sirtuins/SIRT1]]

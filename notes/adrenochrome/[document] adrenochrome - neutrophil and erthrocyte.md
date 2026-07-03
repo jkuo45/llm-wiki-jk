@@ -11,7 +11,7 @@ tags:
 
 where is [[Adrenochrome]] found - type of cells?
 
-[[Adrenochrome]] is primarily produced in the body through the oxidation of [[notes/_link/Epinephrine|adrenaline (epinephrine)]], a hormone synthesized and released mainly by the [[Adrenal medulla]]. It is not stored in large quantities but forms as a metabolite or intermediate, especially under conditions involving [[notes/_link/Oxidative Stress|oxidative stress]] or [[notes/_link/Reactive Oxygen Species|reactive oxygen species (ROS)]].
+[[Adrenochrome]] is primarily produced in the body through the oxidation of [[notes/_link/Epinephrine|adrenaline (epinephrine)]], a hormone synthesized and released mainly by the [[Adrenal medulla]]. It is not stored in large quantities but forms as a metabolite or intermediate, especially under conditions involving [[notes/oxidative_stress/Oxidative Stress|oxidative stress]] or [[notes/_link/Reactive Oxygen Species|reactive oxygen species (ROS)]].
 
 [acs.org](https://www.acs.org/molecule-of-the-week/archive/a/adrenochrome.html)
 
@@ -52,13 +52,13 @@ Relevant Scientific Findings
 
 Summary
 
-[[Adrenochrome]] forms mainly via oxidation of [[notes/_link/Epinephrine|adrenaline]] in places like [[Adrenal medulla|adrenal]] [[Chromaffin cells]], [[notes/_link/Neutrophils]], or under [[notes/_link/Oxidative Stress|oxidative stress]] elsewhere. In blood/[[Erythrocytes|RBCs]], it is more relevant as a potential reactant or byproduct that can damage [[Erythrocytes|RBC]] membranes rather than a molecule normally present or produced inside healthy [[Erythrocytes|erythrocytes]].
+[[Adrenochrome]] forms mainly via oxidation of [[notes/_link/Epinephrine|adrenaline]] in places like [[Adrenal medulla|adrenal]] [[Chromaffin cells]], [[notes/_link/Neutrophils]], or under [[notes/oxidative_stress/Oxidative Stress|oxidative stress]] elsewhere. In blood/[[Erythrocytes|RBCs]], it is more relevant as a potential reactant or byproduct that can damage [[Erythrocytes|RBC]] membranes rather than a molecule normally present or produced inside healthy [[Erythrocytes|erythrocytes]].
 
 [pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/4505137/)
 
 These findings come from older biochemical studies; modern research on [[Adrenochrome]] is limited outside of its chemistry and minor physiological roles. Conspiracy claims about it being harvested from blood are not supported by science.
 
 ### Linking Summary:
-- New links added: [[Adrenochrome]], [[notes/_link/Epinephrine]], [[Adrenal medulla]], [[notes/_link/Oxidative Stress]], [[notes/_link/Reactive Oxygen Species]], [[Chromaffin cells]], [[notes/_link/Neutrophils]], [[notes/_link/Inflammation]], [[Adrenaline catabolism]], [[Cardiomyocytes]], [[Cardiotoxicity]], [[Catecholamines]], [[notes/_link/Neuromelanin]], [[notes/_link/Dopaminergic Neurons]], [[notes/_link/Substantia Nigra]], [[notes/_link/Norepinephrine]], [[Sympathetic nerve endings]], [[Endothelial cells]], [[Rheumatoid synovial fluid]], [[Superoxide anion]], [[Redox Cycling]], [[Erythrocytes]], [[Hemoglobin]], [[Peroxidation]], [[Plasma membrane]], [[Aminochromes]], [[Hemolysis]], [[Adrenochrome Hypothesis]]
+- New links added: [[Adrenochrome]], [[notes/_link/Epinephrine]], [[Adrenal medulla]], [[notes/oxidative_stress/Oxidative Stress]], [[notes/_link/Reactive Oxygen Species]], [[Chromaffin cells]], [[notes/_link/Neutrophils]], [[notes/_link/Inflammation]], [[Adrenaline catabolism]], [[Cardiomyocytes]], [[Cardiotoxicity]], [[Catecholamines]], [[notes/_link/Neuromelanin]], [[notes/_link/Dopaminergic Neurons]], [[notes/_link/Substantia Nigra]], [[notes/_link/Norepinephrine]], [[Sympathetic nerve endings]], [[Endothelial cells]], [[Rheumatoid synovial fluid]], [[Superoxide anion]], [[Redox Cycling]], [[Erythrocytes]], [[Hemoglobin]], [[Peroxidation]], [[Plasma membrane]], [[Aminochromes]], [[Hemolysis]], [[Adrenochrome Hypothesis]]
 - Suggested new entity notes to create: [[Adrenal medulla]], [[Chromaffin cells]], [[Adrenaline catabolism]], [[Cardiomyocytes]], [[notes/_link/Dopaminergic Neurons]], [[notes/_link/Substantia Nigra]], [[notes/_link/Norepinephrine]], [[Sympathetic nerve endings]], [[Endothelial cells]], [[Rheumatoid synovial fluid]], [[Peroxidation]], [[Plasma membrane]]
 - Strong connections to strengthen: [[Adrenochrome]] ↔ [[notes/_link/Neutrophils]], [[Adrenochrome]] ↔ [[Erythrocytes]], [[Adrenochrome]] ↔ [[Cardiotoxicity]]

@@ -20,7 +20,7 @@ Like other [[Catecholamines]], Dopamine can undergo [[Oxidation]] (spontaneous o
 
 ## Clinical Relevance
 - **Parkinson's Disease:** Characterized by the death of dopaminergic neurons and loss of [[notes/_link/Neuromelanin]]. Excess oxidation of dopamine to [[Dopaminochrome]] is linked to neuronal stress.
-- **[[notes/_link/Oxidative Stress]]:** High levels of ROS promote the oxidation of dopamine, bypassing normal enzymatic degradation by [[notes/_link/COMT]] and [[MAO]].
+- **[[notes/oxidative_stress/Oxidative Stress]]:** High levels of ROS promote the oxidation of dopamine, bypassing normal enzymatic degradation by [[notes/_link/COMT]] and [[MAO]].
 
 
 - **[[notes/_link/Parkinson's Disease]]**: Characterized by a lack of dopamine in certain brain regions.
@@ -29,7 +29,7 @@ Like other [[Catecholamines]], Dopamine can undergo [[Oxidation]] (spontaneous o
 
 
 ## Linking Summary:
-- New links added: [[notes/_link/Dopamine]], [[Catecholamines]], [[Oxidation]], [[Dopaminochrome]], [[Adrenochrome]], [[notes/_link/Neuromelanin]], [[notes/_link/Oxidative Stress]], [[notes/_link/Epinephrine]], [[notes/_link/COMT]], [[MAO]]
+- New links added: [[notes/_link/Dopamine]], [[Catecholamines]], [[Oxidation]], [[Dopaminochrome]], [[Adrenochrome]], [[notes/_link/Neuromelanin]], [[notes/oxidative_stress/Oxidative Stress]], [[notes/_link/Epinephrine]], [[notes/_link/COMT]], [[MAO]]
 - Strong connections to strengthen: [[notes/_link/Dopamine]] ↔ [[Dopaminochrome]]
 
 - New links added: [[notes/_link/Substantia Nigra]], [[notes/_link/Parkinson's Disease]]
@@ -87,6 +87,6 @@ The [[notes/_link/COMT]] [[Val158Met]] [[Polymorphism]] significantly affects do
 ---
 
 ### Linking Summary:
-- New links added: [[Adrenochrome]], [[notes/_link/COMT]], [[Catechol-O-methyltransferase]], [[Catecholamines]], [[DAT]], [[notes/_link/Dopamine]], [[Dopamine Transporter]], [[Dopaminochrome]], [[notes/_link/Epinephrine]], [[Executive Function]], [[L-DOPA]], [[MAO]], [[Monoamine Oxidase]], [[NET]], [[notes/_link/Neuromelanin]], [[Neurotransmitter]], [[Norepinephrine Transporter]], [[Oxidation]], [[notes/_link/Oxidative Stress]], [[PFC]], [[notes/_link/Parkinson's Disease]], [[Polymorphism]], [[Prefrontal Cortex]], [[notes/_link/Schizophrenia]], [[Striatum]], [[notes/_link/Substantia Nigra]], [[Substantia Nigra Pars Compacta]], [[notes/_link/Substantia Nigra]], [[notes/_link/Tyrosine Hydroxylase]], [[Val158Met]], [[Vesicular Monoamine Transporter 2]], [[Working Memory]]
+- New links added: [[Adrenochrome]], [[notes/_link/COMT]], [[Catechol-O-methyltransferase]], [[Catecholamines]], [[DAT]], [[notes/_link/Dopamine]], [[Dopamine Transporter]], [[Dopaminochrome]], [[notes/_link/Epinephrine]], [[Executive Function]], [[L-DOPA]], [[MAO]], [[Monoamine Oxidase]], [[NET]], [[notes/_link/Neuromelanin]], [[Neurotransmitter]], [[Norepinephrine Transporter]], [[Oxidation]], [[notes/oxidative_stress/Oxidative Stress]], [[PFC]], [[notes/_link/Parkinson's Disease]], [[Polymorphism]], [[Prefrontal Cortex]], [[notes/_link/Schizophrenia]], [[Striatum]], [[notes/_link/Substantia Nigra]], [[Substantia Nigra Pars Compacta]], [[notes/_link/Substantia Nigra]], [[notes/_link/Tyrosine Hydroxylase]], [[Val158Met]], [[Vesicular Monoamine Transporter 2]], [[Working Memory]]
 - Suggested new entity notes to create: [[Aromatic L-amino acid decarboxylase]], [[Catecholamines]], [[notes/_link/Dopaminergic Neurons]], [[Neurotransmitter]]
 - Strong connections to strengthen: [[notes/_link/Dopamine]] ↔ [[Dopaminochrome]], [[notes/_link/Dopamine]] ↔ [[notes/_link/Parkinson's Disease]], [[notes/_link/Dopamine]] ↔ [[notes/_link/Substantia Nigra]].

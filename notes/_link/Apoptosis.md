@@ -32,7 +32,7 @@
 
 ## Connections
 - [[notes/_link/Mitochondria]]: The central organelle and sensor for the intrinsic apoptotic pathway.
-- [[notes/_link/Oxidative Stress]]: One of the most common physiological triggers for apoptosis.
+- [[notes/oxidative_stress/Oxidative Stress]]: One of the most common physiological triggers for apoptosis.
 - [[Cellular Senescence]]: An alternative fate to apoptosis for damaged cells.
 - [[Cancer]]: Often arises when cells fail to undergo apoptosis.
 

@@ -1,6 +1,6 @@
 # Atherosclerosis
 
-Atherosclerosis is a disease in which the inside of an artery narrows due to the build up of plaque. [[notes/_link/Oxidative Stress]] and [[Lipid Peroxidation]] are key drivers of plaque formation. It often involves [[Endothelial Dysfunction]] and the uptake of lipids via receptors like the [[CD36 Receptor]], while [[ABCA1]] helps in cholesterol efflux.
+Atherosclerosis is a disease in which the inside of an artery narrows due to the build up of plaque. [[notes/oxidative_stress/Oxidative Stress]] and [[Lipid Peroxidation]] are key drivers of plaque formation. It often involves [[Endothelial Dysfunction]] and the uptake of lipids via receptors like the [[CD36 Receptor]], while [[ABCA1]] helps in cholesterol efflux.
 
 
 **Atherosclerosis** is a chronic inflammatory disease characterized by the buildup of plaques within arterial walls. While traditionally viewed through the lens of lipid metabolism and inflammation, recent research has identified **[[Epigenetics]]** as a critical bridge between environmental risk factors and the biological process of **[[notes/_link/Aging]]**, which remains the primary non-modifiable risk factor for cardiovascular disease.

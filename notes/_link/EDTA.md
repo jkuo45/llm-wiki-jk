@@ -10,6 +10,6 @@ Transition metals can catalyze the oxidation of [[notes/_link/Epinephrine]]. By 
 
 ## Connections
 - [[notes/_link/Epinephrine]]
-- [[notes/_link/Oxidative Stress]]
+- [[notes/oxidative_stress/Oxidative Stress]]
 - [[Adrenochrome]]
 - [[Glyco-Oxidative Proteostasis Shield]]

@@ -13,11 +13,11 @@ Hydroxyl radicals ($\bullet OH$) are the most reactive and destructive species a
 - **Protein Carbonylation:** Causes irreversible oxidative modifications to proteins, leading to loss of function.
 
 ## Connections
-- [[notes/_link/Oxidative Stress]]: The terminal and most harmful mediator of oxidative damage.
+- [[notes/oxidative_stress/Oxidative Stress]]: The terminal and most harmful mediator of oxidative damage.
 - [[notes/_link/Hydrogen Peroxide]]: The primary precursor via transition metal catalysis.
 - [[notes/_link/Antioxidants]]: Hard to neutralize directly due to their extreme reactivity; defense relies on preventing their formation (e.g., via [[Catalase]] or metal sequestration).
 
 ### Linking Summary:
-- New links added: [[notes/_link/Hydrogen Peroxide]], [[Superoxide Radicals]], [[8-oxo-2'-deoxyguanosine]], [[notes/_link/Oxidative Stress]], [[notes/_link/Antioxidants]], [[Catalase]]
+- New links added: [[notes/_link/Hydrogen Peroxide]], [[Superoxide Radicals]], [[8-oxo-2'-deoxyguanosine]], [[notes/oxidative_stress/Oxidative Stress]], [[notes/_link/Antioxidants]], [[Catalase]]
 - Suggested new entity notes to create: [[Fenton Reaction]], [[Haber-Weiss Reaction]], [[Lipid Peroxidation]]
 - Strong connections to strengthen: [[Hydroxyl Radicals]] ↔ [[notes/_link/Hydrogen Peroxide]]
