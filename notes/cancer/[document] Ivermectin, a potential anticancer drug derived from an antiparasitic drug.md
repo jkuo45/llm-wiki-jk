@@ -35,7 +35,7 @@ Open in a new tab
 
 **Chemical compounds reviewed in this article:** [[ivermectin]](PubChem CID：6321424), [[avermectin]](PubChem CID：6434889), [[selamectin]](PubChem CID：9578507), [[doramectin]](PubChem CID：9832750), [[moxidectin]](PubChem CID：9832912)
 
-**Keywords:** [[ivermectin]], [[notes/_link/Cancer]], [[drug repositioning]]
+**Keywords:** [[ivermectin]], [[Cancer]], [[drug repositioning]]
 
 ## Abstract
 

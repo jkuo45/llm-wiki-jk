@@ -12,6 +12,6 @@
 - Its downregulation or loss is associated with various cancers, where it leads to impaired metabolic control and defective autophagic responses.
 
 ### Linking Summary:
-- New links added: [[notes/_link/AMPK]], [[Autophagy]], [[ULK1]], [[mTORC1]], [[notes/_link/Cancer]]
+- New links added: [[notes/_link/AMPK]], [[Autophagy]], [[ULK1]], [[mTORC1]], [[Cancer]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[LKB1]] ↔ [[notes/_link/AMPK]], [[LKB1]] ↔ [[Autophagy]]

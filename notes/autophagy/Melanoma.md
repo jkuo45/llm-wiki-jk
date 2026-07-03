@@ -1,6 +1,6 @@
 # Melanoma
 
-**Melanoma** is a highly aggressive type of skin [[notes/_link/Cancer]] that develops from melanocytes.
+**Melanoma** is a highly aggressive type of skin [[Cancer]] that develops from melanocytes.
 
 ## Autophagy and Treatment
 - [[Autophagy]] plays a significant role in melanoma progression and resistance to therapy.
@@ -8,6 +8,6 @@
 - These interventions induce apoptosis via the stimulation of the autophagic response, highlighting the therapeutic potential of modulating autophagy in melanoma.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Cancer]], [[Autophagy]], [[Intermittent Fasting]]
+- New links added: [[Cancer]], [[Autophagy]], [[Intermittent Fasting]]
 - Suggested new entity notes to create:
-- Strong connections to strengthen: [[Melanoma]] ↔ [[notes/_link/Cancer]], [[Melanoma]] ↔ [[Autophagy]]
+- Strong connections to strengthen: [[Melanoma]] ↔ [[Cancer]], [[Melanoma]] ↔ [[Autophagy]]

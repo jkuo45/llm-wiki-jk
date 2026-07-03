@@ -11,7 +11,7 @@ HDACs are categorized into four classes based on their structure and cofactor re
 *   **Class III**: Also known as [[Sirtuin|Sirtuins]], these use NAD+ as a cofactor and are highly linked to longevity and metabolic health.
 
 ### 3. Impact on [[notes/_link/Aging]]
-As we age, the activity of certain HDACs can become dysregulated, leading to "epigenetic drift" and the loss of genomic stability. HDAC inhibitors are currently a major area of research in [[Geroscience]] for their potential to treat [[notes/_link/Cancer]] and extend healthspan.
+As we age, the activity of certain HDACs can become dysregulated, leading to "epigenetic drift" and the loss of genomic stability. HDAC inhibitors are currently a major area of research in [[Geroscience]] for their potential to treat [[Cancer]] and extend healthspan.
 
 ### Connections
 - **[[Histone Deacetylase]]**: The full name for this class of enzymes.
@@ -20,6 +20,6 @@ As we age, the activity of certain HDACs can become dysregulated, leading to "ep
 - **[[Heterochromatin]]**: The condensed state of chromatin promoted by deacetylation.
 
 ### Linking Summary:
-- New links added: [[HDAC]], [[Histone Deacetylase]], [[Chromatin]], [[Heterochromatin]], [[Transcription]], [[Sirtuin]], [[notes/_link/Aging]], [[Geroscience]], [[notes/_link/Cancer]]
+- New links added: [[HDAC]], [[Histone Deacetylase]], [[Chromatin]], [[Heterochromatin]], [[Transcription]], [[Sirtuin]], [[notes/_link/Aging]], [[Geroscience]], [[Cancer]]
 - Suggested new entity notes to create: [[HDAC Inhibitors]], [[Epigenetic Erasers]], [[NAD+]]
 - Strong connections to strengthen: [[HDAC]] ↔ [[Histone Deacetylase]], [[HDAC]] ↔ [[Sirtuin]]

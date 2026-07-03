@@ -20,12 +20,12 @@ Senescence is considered a major roadblock during the induction of pluripotency:
 
 ## Connections
 - [[notes/_link/Aging]]: The accumulation of senescent cells is a primary driver of tissue aging and age-related diseases.
-- [[notes/_link/Cancer]]: Senescence acts as an initial barrier to cancer but can later promote tumor growth via the SASP.
+- [[Cancer]]: Senescence acts as an initial barrier to cancer but can later promote tumor growth via the SASP.
 - [[notes/_link/p53]]: A central mediator of the senescence response.
 - [[Cellular Reprogramming]]: Senescence must be bypassed or suppressed for successful reprogramming.
 - [[Autophagy]]: Often plays a dual role in regulating or being regulated by the senescent state.
 
 ### Linking Summary:
-- New links added: [[Chromatin]], [[Epigenetics]], [[Senescence-Associated Secretory Phenotype]], [[SAHF]], [[Lamin A]], [[Heterochromatin]], [[Euchromatin]], [[Histone Modification]], [[LINE-1]], [[Histone Variant]], [[Methylation]], [[notes/_link/Aging]], [[Epigenetic Clock]], [[Genomic Instability]], [[notes/_link/Cancer]], [[notes/_link/p53]], [[Cellular Reprogramming]], [[notes/_link/DNA Damage]], [[Fibroblasts]], [[Innate Immunity]], [[OSKM]], [[notes/_link/Reactive Oxygen Species]].
+- New links added: [[Chromatin]], [[Epigenetics]], [[Senescence-Associated Secretory Phenotype]], [[SAHF]], [[Lamin A]], [[Heterochromatin]], [[Euchromatin]], [[Histone Modification]], [[LINE-1]], [[Histone Variant]], [[Methylation]], [[notes/_link/Aging]], [[Epigenetic Clock]], [[Genomic Instability]], [[Cancer]], [[notes/_link/p53]], [[Cellular Reprogramming]], [[notes/_link/DNA Damage]], [[Fibroblasts]], [[Innate Immunity]], [[OSKM]], [[notes/_link/Reactive Oxygen Species]].
 - Suggested new entity notes to create: [[Lamin B1]], [[cGAS-STING Pathway]], [[p16]], [[p21]].
 - Strong connections to strengthen: [[notes/_link/Senescence]] ↔ [[notes/_link/Aging]], [[notes/_link/Senescence]] ↔ [[Autophagy]]

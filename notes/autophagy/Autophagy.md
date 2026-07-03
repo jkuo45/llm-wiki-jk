@@ -102,7 +102,7 @@ The autophagic process is governed by a set of "Autophagy-related" ([[Atg]]) gen
 
 
 ## Cancer
-The role of autophagy in [[notes/_link/Cancer]] is context-dependent:
+The role of autophagy in [[Cancer]] is context-dependent:
 *   **Tumor Suppression**: In early stages, autophagy prevents tumorigenesis by maintaining genomic stability and removing damaged organelles that produce [[ROS]]. Deletion of autophagy genes like [[Beclin1]] is associated with increased cancer risk.
 *   **Tumor Promotion**: In established tumors, autophagy acts as a survival mechanism, allowing cancer cells to survive the harsh, nutrient-poor, and hypoxic conditions of the tumor microenvironment.
 

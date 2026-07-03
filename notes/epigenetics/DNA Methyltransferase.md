@@ -10,7 +10,7 @@ In mammals, there are three primary active members:
 ### 2. Impact on [[notes/_link/Aging]]
 The expression and activity of DNMTs often decline with age, contributing to the global hypomethylation observed in older tissues. 
 *   **Reduced Fidelity:** A decline in [[DNMT1]] activity can lead to a loss of methylation patterns during cell division, contributing to epigenetic drift.
-*   **Dysregulation:** Conversely, localized increases or shifts in DNMT activity may contribute to the site-specific hypermethylation seen in aging and [[notes/_link/Cancer]].
+*   **Dysregulation:** Conversely, localized increases or shifts in DNMT activity may contribute to the site-specific hypermethylation seen in aging and [[Cancer]].
 
 ### 3. Therapeutic Potential
 Because DNA methylation is reversible, DNMTs are targets for drug development. DNMT inhibitors (like 5-azacytidine) are used in cancer therapy and are being researched for their potential to modulate the aging process.
@@ -22,6 +22,6 @@ Because DNA methylation is reversible, DNMTs are targets for drug development. D
 - **[[notes/_link/Aging]]**: DNMT dysregulation is a driver of age-associated epigenetic changes.
 
 ### Linking Summary:
-- New links added: [[DNA Methyltransferase]], [[CpG Island]], [[DNA Methylation]], [[DNMT1]], [[DNA Replication]], [[DNMT3a]], [[DNMT3b]], [[notes/_link/Aging]], [[notes/_link/Cancer]]
+- New links added: [[DNA Methyltransferase]], [[CpG Island]], [[DNA Methylation]], [[DNMT1]], [[DNA Replication]], [[DNMT3a]], [[DNMT3b]], [[notes/_link/Aging]], [[Cancer]]
 - Suggested new entity notes to create: [[S-adenosyl-L-methionine]], [[SAM]], [[DNA Methyltransferase Inhibitors]]
 - Strong connections to strengthen: [[DNA Methyltransferase]] ↔ [[DNA Methylation]], [[DNA Methyltransferase]] ↔ [[DNMT1]]

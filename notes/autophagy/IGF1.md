@@ -9,9 +9,9 @@
 
 ## Longevity and Aging
 - Low levels of IGF1 (as seen in [[notes/_link/Caloric Restriction]] or [[Intermittent Fasting]]) are associated with increased [[notes/_link/Longevity]] and the induction of beneficial autophagy.
-- In contrast, high systemic IGF1 and insulin concentrations are often observed in various [[notes/_link/Cancer]] types and are linked to poor therapeutic efficacy.
+- In contrast, high systemic IGF1 and insulin concentrations are often observed in various [[Cancer]] types and are linked to poor therapeutic efficacy.
 
 ### Linking Summary:
-- New links added: [[Autophagy]], [[IGF1R]], [[notes/_link/PI3K]], [[notes/_link/Akt]], [[mTORC1]], [[FOXO1]], [[notes/_link/Caloric Restriction]], [[Intermittent Fasting]], [[notes/_link/Longevity]], [[notes/_link/Cancer]]
+- New links added: [[Autophagy]], [[IGF1R]], [[notes/_link/PI3K]], [[notes/_link/Akt]], [[mTORC1]], [[FOXO1]], [[notes/_link/Caloric Restriction]], [[Intermittent Fasting]], [[notes/_link/Longevity]], [[Cancer]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[IGF1]] ↔ [[notes/_link/Caloric Restriction]], [[IGF1]] ↔ [[Autophagy]]

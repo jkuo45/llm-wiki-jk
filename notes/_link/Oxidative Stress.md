@@ -40,7 +40,7 @@ Plays a pivotal role in neuron loss.
 - **Molecules:** [[notes/_link/Reactive Oxygen Species]] (ROS), [[Superoxide]], [[notes/_link/Hydrogen Peroxide]], [[Hydroxyl radical]], [[notes/_link/Glutathione]], [[Free Radicals]]
 - **Antioxidants:** [[notes/_link/Superoxide Dismutase]], [[Catalase]], [[Glutathione Peroxidase]]
 - **Processes:** [[notes/_link/Apoptosis]], [[Autophagy]], [[Metabolic Reprogramming]], [[Redox Cycling]]
-- **Diseases:** [[notes/_link/Atherosclerosis]], [[notes/_link/Cancer]], [[notes/_link/Alzheimer's Disease]], [[notes/_link/Parkinson's Disease]], [[Methemoglobinemia]], [[Anaphylaxis]], [[notes/_link/Schizophrenia]]
+- **Diseases:** [[notes/_link/Atherosclerosis]], [[Cancer]], [[notes/_link/Alzheimer's Disease]], [[notes/_link/Parkinson's Disease]], [[Methemoglobinemia]], [[Anaphylaxis]], [[notes/_link/Schizophrenia]]
 - **Drugs:** [[Fenbendazole]], [[cisplatin]], [[doxorubicin]]
 
 ## Connections
@@ -52,6 +52,6 @@ Plays a pivotal role in neuron loss.
 - [[Redox Cycling]] ↔ Mechanism of ROS amplification driven by aminochromes.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Reactive Oxygen Species]], [[Adrenochrome]], [[Oxidation]], [[notes/_link/Epinephrine]], [[Superoxide anion]], [[notes/_link/Hydrogen Peroxide]], [[Hydroxyl radical]], [[notes/_link/COMT]], [[MAO]], [[Redox Cycling]], [[notes/_link/Neuromelanin]], [[Cardiotoxicity]], [[Smoking]], [[notes/_link/Inflammation]], [[notes/_link/Neutrophils]], [[notes/_link/Myeloperoxidase]], [[Aminochromes]], [[notes/_link/Antioxidants]], [[notes/_link/Superoxide Dismutase]], [[Catalase]], [[Glutathione Peroxidase]], [[notes/_link/Atherosclerosis]], [[notes/_link/Cancer]], [[notes/_link/Alzheimer's Disease]], [[Proteins]], [[Lipids]], [[Nucleic Acids]], [[notes/_link/Parkinson's Disease]], [[notes/_link/Dopamine]], [[notes/_link/Substantia Nigra]], [[Iron]], [[Mitochondrial Dysfunction]], [[Fenton Reaction]], [[Fenbendazole]], [[cisplatin]], [[doxorubicin]], [[Free Radicals]], [[Catecholamines]]
+- New links added: [[notes/_link/Reactive Oxygen Species]], [[Adrenochrome]], [[Oxidation]], [[notes/_link/Epinephrine]], [[Superoxide anion]], [[notes/_link/Hydrogen Peroxide]], [[Hydroxyl radical]], [[notes/_link/COMT]], [[MAO]], [[Redox Cycling]], [[notes/_link/Neuromelanin]], [[Cardiotoxicity]], [[Smoking]], [[notes/_link/Inflammation]], [[notes/_link/Neutrophils]], [[notes/_link/Myeloperoxidase]], [[Aminochromes]], [[notes/_link/Antioxidants]], [[notes/_link/Superoxide Dismutase]], [[Catalase]], [[Glutathione Peroxidase]], [[notes/_link/Atherosclerosis]], [[Cancer]], [[notes/_link/Alzheimer's Disease]], [[Proteins]], [[Lipids]], [[Nucleic Acids]], [[notes/_link/Parkinson's Disease]], [[notes/_link/Dopamine]], [[notes/_link/Substantia Nigra]], [[Iron]], [[Mitochondrial Dysfunction]], [[Fenton Reaction]], [[Fenbendazole]], [[cisplatin]], [[doxorubicin]], [[Free Radicals]], [[Catecholamines]]
 - Suggested new entity notes to create: [[Fenton Reaction]], [[Lipids]], [[Nucleic Acids]], [[Proteins]], [[notes/_link/Antioxidants]]
 - Strong connections to strengthen: [[notes/_link/Oxidative Stress]] ↔ [[notes/_link/Reactive Oxygen Species]], [[notes/_link/Oxidative Stress]] ↔ [[Mitochondrial Dysfunction]], [[notes/_link/Oxidative Stress]] ↔ [[notes/_link/COMT]]

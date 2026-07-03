@@ -6,4 +6,4 @@
 
 - New links added: [[p21]], [[CDK Inhibitor]], [[Quiescence]]
 - Suggested new entity notes to create: [[p21 protein]]
-- Strong connections to strengthen: [[CDKN1A]] ↔ [[notes/_link/Cancer]]
+- Strong connections to strengthen: [[CDKN1A]] ↔ [[Cancer]]

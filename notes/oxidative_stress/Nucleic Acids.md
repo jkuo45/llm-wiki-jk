@@ -9,10 +9,10 @@ Nucleic acids are prone to damage by [[notes/_link/Reactive Oxygen Species]], pa
 ## Connections
 - [[notes/_link/DNA Damage]]: The broader category of lesions caused by ROS.
 - [[8-oxo-2'-deoxyguanosine]]: A key biomarker and mutagenic lesion in DNA.
-- [[notes/_link/Cancer]]: Unrepaired DNA oxidation can lead to mutations and oncogene activation.
+- [[Cancer]]: Unrepaired DNA oxidation can lead to mutations and oncogene activation.
 - [[notes/_link/DNA Repair]]: The collective mechanisms (like [[Base Excision Repair]]) used to fix oxidative lesions.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Reactive Oxygen Species]], [[Hydroxyl Radicals]], [[8-oxo-2'-deoxyguanosine]], [[notes/_link/Oxidative Stress]], [[notes/_link/DNA Damage]], [[notes/_link/Cancer]], [[notes/_link/DNA Repair]], [[Base Excision Repair]]
+- New links added: [[notes/_link/Reactive Oxygen Species]], [[Hydroxyl Radicals]], [[8-oxo-2'-deoxyguanosine]], [[notes/_link/Oxidative Stress]], [[notes/_link/DNA Damage]], [[Cancer]], [[notes/_link/DNA Repair]], [[Base Excision Repair]]
 - Suggested new entity notes to create: [[notes/_link/DNA Repair]], [[Base Excision Repair]]
 - Strong connections to strengthen: [[Nucleic Acids]] ↔ [[notes/_link/DNA Damage]]

@@ -5,9 +5,9 @@
 ## Functions
 *   **Epigenetic Regulation**: By removing methyl groups, TET enzymes help to "turn on" genes that were previously silenced.
 *   **Development**: Essential for embryonic development and stem cell pluripotency.
-*   **[[notes/_link/Cancer]]**: Mutations in TET2 are frequently observed in blood cancers (leukemias) and are linked to "clonal hematopoiesis."
+*   **[[Cancer]]**: Mutations in TET2 are frequently observed in blood cancers (leukemias) and are linked to "clonal hematopoiesis."
 
 ### Linking Summary:
-- New links added: [[notes/_link/Methylation]], [[notes/_link/Cancer]]
+- New links added: [[notes/_link/Methylation]], [[Cancer]]
 - Suggested new entity notes to create: [[5-hmC]], [[5-mC]], [[DNA Demethylation]]
 - Strong connections to strengthen: [[TET Enzymes]] ↔ [[notes/_link/Methylation]]

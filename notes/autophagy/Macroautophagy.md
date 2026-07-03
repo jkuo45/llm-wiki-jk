@@ -14,9 +14,9 @@
 
 ## Role in Health
 - Essential for maintaining [[Cellular Homeostasis]] by removing damaged organelles and misfolded proteins.
-- Dysregulation is linked to [[notes/_link/Neurodegenerative Diseases|Neurodegenerative Disease]], [[notes/_link/Cancer]], and [[notes/_link/Aging]].
+- Dysregulation is linked to [[notes/_link/Neurodegenerative Diseases|Neurodegenerative Disease]], [[Cancer]], and [[notes/_link/Aging]].
 
 ### Linking Summary:
-- New links added: [[Autophagy]], [[Autophagosome]], [[Lysosome]], [[Atg]], [[Atg1]], [[Atg5]], [[Atg8]], [[LC3]], [[notes/_link/AMPK]], [[mTORC1]], [[Cellular Homeostasis]], [[notes/_link/Neurodegenerative Diseases|Neurodegenerative Disease]], [[notes/_link/Cancer]], [[notes/_link/Aging]]
+- New links added: [[Autophagy]], [[Autophagosome]], [[Lysosome]], [[Atg]], [[Atg1]], [[Atg5]], [[Atg8]], [[LC3]], [[notes/_link/AMPK]], [[mTORC1]], [[Cellular Homeostasis]], [[notes/_link/Neurodegenerative Diseases|Neurodegenerative Disease]], [[Cancer]], [[notes/_link/Aging]]
 - Suggested new entity notes to create: , [[Atg]], [[Cellular Homeostasis]]
 - Strong connections to strengthen: [[Macroautophagy]] ↔ [[Autophagy]], [[Macroautophagy]] ↔ [[Autophagosome]]

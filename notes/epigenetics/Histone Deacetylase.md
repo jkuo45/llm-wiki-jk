@@ -10,7 +10,7 @@ One of the most important families of HDACs in the study of [[notes/_link/Aging]
 
 ### 3. HDACs and [[notes/_link/Aging]]
 As organisms age, the levels and activity of various HDACs change, contributing to "epigenetic drift."
-*   **Inhibitors as Therapy**: HDAC inhibitors are widely used in [[notes/_link/Cancer]] treatment and are being investigated in [[Geroscience]] for their ability to restore youthful gene expression patterns in the brain and heart.
+*   **Inhibitors as Therapy**: HDAC inhibitors are widely used in [[Cancer]] treatment and are being investigated in [[Geroscience]] for their ability to restore youthful gene expression patterns in the brain and heart.
 *   **Balance with HATs**: The dynamic interplay between [[Histone Acetyltransferase|HATs]] and HDACs ensures that the [[Epigenome]] can respond to environmental stimuli.
 
 ### Connections
@@ -20,6 +20,6 @@ As organisms age, the levels and activity of various HDACs change, contributing 
 - **[[Heterochromatin]]**: The condensed chromatin state promoted by HDAC activity.
 
 ### Linking Summary:
-- New links added: [[Histone Deacetylase]], [[Chromatin]], [[Heterochromatin]], [[notes/_link/Aging]], [[Sirtuin]], [[notes/_link/Caloric Restriction]], [[notes/_link/Cancer]], [[Geroscience]], [[Histone Acetyltransferase]], [[Epigenome]], [[HDAC]], [[Histone Acetylation]]
+- New links added: [[Histone Deacetylase]], [[Chromatin]], [[Heterochromatin]], [[notes/_link/Aging]], [[Sirtuin]], [[notes/_link/Caloric Restriction]], [[Cancer]], [[Geroscience]], [[Histone Acetyltransferase]], [[Epigenome]], [[HDAC]], [[Histone Acetylation]]
 - Suggested new entity notes to create: [[NAD+]], [[HDAC Inhibitors]], [[Epigenetic Erasers]]
 - Strong connections to strengthen: [[Histone Deacetylase]] ↔ [[Sirtuin]], [[Histone Deacetylase]] ↔ [[Histone Acetyltransferase]]

@@ -13,9 +13,9 @@ A **Ketogenic Diet** is a high-fat, adequate-protein, low-carbohydrate dietary r
 ## Therapeutic Applications
 - Traditionally used to treat refractory epilepsy in children.
 - Investigated for its potential in treating [[notes/_link/Neurodegenerative Diseases|neurodegenerative diseases]] like [[notes/_link/Alzheimer's Disease]] and [[notes/_link/Parkinson's Disease]].
-- In [[notes/_link/Cancer]] research, its effects are complex; while it can enhance healing mechanisms, it may also contribute to conflicting outcomes depending on the tumor type and treatment regimen.
+- In [[Cancer]] research, its effects are complex; while it can enhance healing mechanisms, it may also contribute to conflicting outcomes depending on the tumor type and treatment regimen.
 
 ### Linking Summary:
-- New links added: [[Ketogenesis]], [[Autophagy]], [[notes/_link/Longevity]], [[notes/_link/Neurodegenerative Diseases|Neurodegenerative Disease]], [[notes/_link/Alzheimer's Disease]], [[notes/_link/Parkinson's Disease]], [[notes/_link/Cancer]]
+- New links added: [[Ketogenesis]], [[Autophagy]], [[notes/_link/Longevity]], [[notes/_link/Neurodegenerative Diseases|Neurodegenerative Disease]], [[notes/_link/Alzheimer's Disease]], [[notes/_link/Parkinson's Disease]], [[Cancer]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[Ketogenic Diet]] ↔ [[Ketogenesis]], [[Ketogenic Diet]] ↔ [[Autophagy]]

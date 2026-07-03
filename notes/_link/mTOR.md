@@ -24,13 +24,13 @@ mTOR works in a dynamic balance with other key energy sensors:
 
 ## 3. Impact on Age-Related Disease
 Chronic mTOR activation contributes to:
-*   **[[notes/_link/Cancer]]**: By promoting uncontrolled cell growth and division.
+*   **[[Cancer]]**: By promoting uncontrolled cell growth and division.
 *   **[[Metabolic Syndromes]]**: Linked to insulin resistance and obesity.
 *   **[[notes/_link/Neurodegenerative Diseases]]**: By inhibiting the clearance of toxic protein aggregates through [[Autophagy]]. Conversely, mTOR inhibition (e.g., by [[Rapamycin]]) is a key strategy for enhancing autophagic clearance of these aggregates.
 
 
 ## Linking Summary:
-- New links added: [[notes/_link/mTOR]], [[Autophagy]], [[notes/_link/Aging]], [[notes/_link/Caloric Restriction]], [[notes/_link/AMPK]], [[IGF-1]], [[notes/_link/Cancer]], [[Metabolic Syndromes]], [[notes/_link/Neurodegenerative Diseases]]
+- New links added: [[notes/_link/mTOR]], [[Autophagy]], [[notes/_link/Aging]], [[notes/_link/Caloric Restriction]], [[notes/_link/AMPK]], [[IGF-1]], [[Cancer]], [[Metabolic Syndromes]], [[notes/_link/Neurodegenerative Diseases]]
 - Suggested new entity notes to create: [[Rapamycin]], [[mTORC1]], [[Protein Synthesis]]
 - Strong connections to strengthen: [[notes/_link/mTOR]] ↔ [[notes/_link/Aging]], [[notes/_link/mTOR]] ↔ [[Autophagy]]
 
@@ -58,6 +58,6 @@ Chronic mTOR activation contributes to:
 - [[Ivermectin]]: Inhibits the mTOR pathway, leading to programmed cell death.
 
 ### Linking Summary:
-- New links added: [[notes/_link/AMPK]], [[notes/_link/Aging]], [[Autophagy]], [[notes/_link/Caloric Restriction]], [[notes/_link/Cancer]], [[IGF-1]], [[Metabolic Syndromes]], [[notes/_link/Neurodegenerative Diseases]], [[notes/_link/mTOR]], [[mTORC1]], [[mTORC2]]
+- New links added: [[notes/_link/AMPK]], [[notes/_link/Aging]], [[Autophagy]], [[notes/_link/Caloric Restriction]], [[Cancer]], [[IGF-1]], [[Metabolic Syndromes]], [[notes/_link/Neurodegenerative Diseases]], [[notes/_link/mTOR]], [[mTORC1]], [[mTORC2]]
 - Suggested new entity notes to create: [[Autophagy]], [[Protein Synthesis]], [[Rapamycin]], [[mTORC1]]
 - Strong connections to strengthen: [[Nutrient Sensing]] ↔ [[notes/_link/mTOR]], [[notes/_link/mTOR]] ↔ [[notes/_link/Aging]], [[notes/_link/mTOR]] ↔ [[Autophagy]]

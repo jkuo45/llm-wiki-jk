@@ -13,7 +13,7 @@ Special emphasis is placed on lifestyle practices that intentionally engage oxid
 - **Breathing practices & meditation** – controlled hypoxia/hyperoxia cycles and stress modulation that influence redox balance, nervous system resilience, and metabolic efficiency.
 - **Campfires, wood smoke, and occasional cigars** – low-dose smoke exposure and plant compounds that interact with redox pathways (hormetic stressors).
 
-The focus includes oxidative stress involvement in [[Adrenochrome]] formation, [[notes/_link/Cancer]], [[notes/_link/Parkinson's Disease]], [[notes/_link/Alzheimer's Disease]], cardiovascular disease, chronic inflammation, and aging. At the same time, the notes assume a healthy baseline of oxidative stress is not only inevitable but **beneficial and encouraged** in contexts such as:
+The focus includes oxidative stress involvement in [[Adrenochrome]] formation, [[Cancer]], [[notes/_link/Parkinson's Disease]], [[notes/_link/Alzheimer's Disease]], cardiovascular disease, chronic inflammation, and aging. At the same time, the notes assume a healthy baseline of oxidative stress is not only inevitable but **beneficial and encouraged** in contexts such as:
 
 - Selective cancer cell targeting
 - Neuromelanin formation
@@ -53,7 +53,7 @@ Sentiment polarity of the entity within the context of oxidative stress and horm
 | [[notes/_link/Ascorbic Acid]]                 | 27_May_2026 11:14 AM | Chemical Compound   | 9           | 1           | Major nutritional antioxidant; protects DNA and lipids from oxidation.                  |
 | [[Asthma]]                                    | 27_May_2026 11:14 AM | Medical Condition   | 7           | -1          | Inflammatory respiratory condition exacerbated by oxidative stress.                     |
 | [[notes/_link/Atherosclerosis]]               | 27_May_2026 11:14 AM | Medical Condition   | 9           | -1          | Vascular pathology initiated by lipid peroxidation and ROS.                             |
-| [[notes/_link/Cancer]]                        | 27_May_2026 11:14 AM | Medical Condition   | 9           | -1          | Disease often driven by oxidative DNA damage; ROS are also used in therapy.             |
+| [[Cancer]]                        | 27_May_2026 11:14 AM | Medical Condition   | 9           | -1          | Disease often driven by oxidative DNA damage; ROS are also used in therapy.             |
 | [[notes/_link/Cardiovascular Disease]]        | 27_May_2026 11:14 AM | Medical Condition   | 9           | -1          | Broad class of pathologies where oxidative stress is a primary driver.                  |
 | [[Catalase]]                                  | 27_May_2026 11:14 AM | Enzyme              | 10          | 1           | Crucial antioxidant enzyme that detoxifies hydrogen peroxide.                           |
 | [[CD36 Receptor]]                             | 27_May_2026 11:14 AM | Protein             | 7           | 0           | Scavenger receptor for oxidized lipids; link between ROS and atherosclerosis.           |

@@ -13,10 +13,10 @@
 - [[Disease Modeling]]: Provides the cellular platforms and "disease in a dish" models used for [[Drug Discovery]].
 - [[Induced Pluripotent Stem Cells]]: The source of human specialized cell types used in modern drug screening.
 - [[notes/_link/Amyotrophic Lateral Sclerosis|ALS]]: A major disease where iPSC-based [[Drug Discovery]] has already led to clinical candidates.
-- [[notes/_link/Cancer]]: iPSC-based models are used to identify targeted therapies and study mechanisms of drug resistance.
+- [[Cancer]]: iPSC-based models are used to identify targeted therapies and study mechanisms of drug resistance.
 - [[Regenerative Medicine]]: Finds synergies with [[Drug Discovery]] in the development of therapies that combine small molecules with cell transplantation.
 
 ### Linking Summary:
-- New links added: [[Induced Pluripotent Stem Cells]], [[Disease Modeling]], [[notes/_link/Amyotrophic Lateral Sclerosis|ALS]], [[notes/_link/Cancer]], [[Regenerative Medicine]], [[Drug Repositioning]], [[High-Throughput Screening]], [[Toxicity Testing]]
+- New links added: [[Induced Pluripotent Stem Cells]], [[Disease Modeling]], [[notes/_link/Amyotrophic Lateral Sclerosis|ALS]], [[Cancer]], [[Regenerative Medicine]], [[Drug Repositioning]], [[High-Throughput Screening]], [[Toxicity Testing]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Drug Discovery]] <-> [[Disease Modeling]]

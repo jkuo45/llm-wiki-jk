@@ -7,7 +7,7 @@ Immunosenescence refers to the gradual deterioration of the immune system associ
 
 
 ## Linking Summary:
-- New links added: [[notes/_link/Aging]], [[notes/_link/Inflammaging]], [[notes/_link/Cancer]], [[Immune System]]
+- New links added: [[notes/_link/Aging]], [[notes/_link/Inflammaging]], [[Cancer]], [[Immune System]]
 - Suggested new entity notes to create: [[Autoimmune Diseases]]
 - Strong connections to strengthen: [[notes/_link/Immunosenescence]] ↔ [[notes/_link/Inflammaging]]
 
@@ -27,6 +27,6 @@ Immunosenescence refers to the gradual deterioration of the immune system associ
 
 
 ### Linking Summary:
-- New links added: [[notes/_link/Aging]], [[Autophagy Inducer]], [[notes/_link/Cancer]], [[Immune Aging]], [[Immune System]], [[notes/_link/Inflammaging]], [[notes/_link/Metformin]], [[Rapamycin]], [[notes/_link/Senescence]], [[notes/_link/Spermidine]], [[T Cell]]
+- New links added: [[notes/_link/Aging]], [[Autophagy Inducer]], [[Cancer]], [[Immune Aging]], [[Immune System]], [[notes/_link/Inflammaging]], [[notes/_link/Metformin]], [[Rapamycin]], [[notes/_link/Senescence]], [[notes/_link/Spermidine]], [[T Cell]]
 - Suggested new entity notes to create: [[Autoimmune Diseases]], [[Autophagy Inducer]], [[Immune Aging]], [[notes/_link/Inflammaging]]
 - Strong connections to strengthen: [[notes/_link/Immunosenescence]] ↔ [[Autophagy Inducer]], [[notes/_link/Immunosenescence]] ↔ [[Immune Aging]], [[notes/_link/Immunosenescence]] ↔ [[notes/_link/Inflammaging]]

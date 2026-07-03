@@ -20,11 +20,11 @@
 
 
 ## Relationship with Cancer
-- Akt is frequently overexpressed or hyperactivated in many types of [[notes/_link/Cancer]], where it promotes tumor growth by suppressing autophagy and stimulating anabolic processes.
+- Akt is frequently overexpressed or hyperactivated in many types of [[Cancer]], where it promotes tumor growth by suppressing autophagy and stimulating anabolic processes.
 
 
 ## Linking Summary:
-- New links added: [[notes/_link/PI3K]], [[IGF1]], [[Autophagy]], [[mTORC1]], [[FOXO1]], [[FOXO3a]], [[notes/_link/Cancer]]
+- New links added: [[notes/_link/PI3K]], [[IGF1]], [[Autophagy]], [[mTORC1]], [[FOXO1]], [[FOXO3a]], [[Cancer]]
 - Suggested new entity notes to create: [[notes/_link/PI3K]], [[IGF1]], [[mTORC1]], [[FOXO1]], [[FOXO3a]]
 - Strong connections to strengthen: [[notes/_link/Akt]] ↔ [[notes/_link/PI3K]], [[notes/_link/Akt]] ↔ [[mTORC1]], [[notes/_link/Akt]] ↔ [[Autophagy]]
 
@@ -35,7 +35,7 @@
 - [[Ivermectin]]: Inhibits the Akt pathway, often through the degradation of [[PAK1]].
 
 ### Linking Summary:
-- New links added: [[Autophagy]], [[notes/_link/Cancer]], [[FOXO1]], [[FOXO3a]], [[IGF1]], [[notes/_link/PI3K]], [[mTORC1]]
+- New links added: [[Autophagy]], [[Cancer]], [[FOXO1]], [[FOXO3a]], [[IGF1]], [[notes/_link/PI3K]], [[mTORC1]]
 - Suggested new entity notes to create: [[FOXO1]], [[FOXO3a]], [[IGF1]], [[notes/_link/PI3K]], [[mTORC1]]
 - Strong connections to strengthen: [[notes/_link/Akt]] ↔ [[Autophagy]], [[notes/_link/Akt]] ↔ [[notes/_link/PI3K]], [[notes/_link/Akt]] ↔ [[mTORC1]]
 

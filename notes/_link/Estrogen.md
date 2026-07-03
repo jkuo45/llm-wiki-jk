@@ -6,7 +6,7 @@
 [[Estrogen]] metabolites, specifically catechol estrogens, are neutralized through [[Methylation]] by the [[notes/_link/COMT]] enzyme. This process is crucial for preventing the accumulation of metabolites that can generate [[Free Radicals]] and damage DNA.
 
 ## Clinical Significance
-Slow [[notes/_link/COMT]] variants ([[Val158Met]] Met/Met) may lead to slower clearance of certain estrogen forms, potentially impacting [[notes/_link/Cancer]] risk or hormonal balance.
+Slow [[notes/_link/COMT]] variants ([[Val158Met]] Met/Met) may lead to slower clearance of certain estrogen forms, potentially impacting [[Cancer]] risk or hormonal balance.
 
 ## Connections
 - [[notes/_link/COMT]]: Enzyme responsible for methylating catechol estrogen metabolites.
@@ -15,4 +15,4 @@ Slow [[notes/_link/COMT]] variants ([[Val158Met]] Met/Met) may lead to slower cl
 
 ---
 ### Linking Summary:
-- New links added: [[Methylation]], [[notes/_link/COMT]], [[Free Radicals]], [[Val158Met]], [[notes/_link/Cancer]].
+- New links added: [[Methylation]], [[notes/_link/COMT]], [[Free Radicals]], [[Val158Met]], [[Cancer]].

@@ -13,9 +13,9 @@
 - Ketogenesis provides an alternative energy source for cells during starvation, helping to maintain [[Cellular Homeostasis]].
 
 ## Therapeutic Potential
-- The promotion of ketogenesis via diet or fasting is investigated for its potential to treat [[notes/_link/Neurodegenerative Diseases|Neurodegenerative Disease]] and enhance the tumoricidal properties of treatments in some [[notes/_link/Cancer]] contexts.
+- The promotion of ketogenesis via diet or fasting is investigated for its potential to treat [[notes/_link/Neurodegenerative Diseases|Neurodegenerative Disease]] and enhance the tumoricidal properties of treatments in some [[Cancer]] contexts.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Caloric Restriction]], [[Intermittent Fasting]], [[Ketogenic Diet]], [[Autophagy]], [[Cellular Homeostasis]], [[notes/_link/Neurodegenerative Diseases|Neurodegenerative Disease]], [[notes/_link/Cancer]]
+- New links added: [[notes/_link/Caloric Restriction]], [[Intermittent Fasting]], [[Ketogenic Diet]], [[Autophagy]], [[Cellular Homeostasis]], [[notes/_link/Neurodegenerative Diseases|Neurodegenerative Disease]], [[Cancer]]
 - Suggested new entity notes to create: , [[Cellular Homeostasis]]
 - Strong connections to strengthen: [[Ketogenesis]] ↔ [[Intermittent Fasting]], [[Ketogenesis]] ↔ [[Autophagy]]

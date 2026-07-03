@@ -151,9 +151,9 @@ Thus, take this as a ‘heads-up’ to watch out for mood swings when increasing
 
 #### [[notes/_link/Vitamin E]] and COMT:
 
-A 10-year follow-up to a trial on [[notes/_link/Vitamin E]] ([[Alpha-tocopherol|alpha-tocopherol]]) supplementation showed that the [[notes/_link/COMT]] rs4680 variants impacted the risk of [[notes/_link/Cancer]]. The study showed that people with rs4680 (A/A – slow) who took [[notes/_link/Vitamin E]] ([[Alpha-tocopherol|alpha-tocopherol]]) had about a 12% reduction in overall [[notes/_link/Cancer|cancer]] rates.
+A 10-year follow-up to a trial on [[notes/_link/Vitamin E]] ([[Alpha-tocopherol|alpha-tocopherol]]) supplementation showed that the [[notes/_link/COMT]] rs4680 variants impacted the risk of [[Cancer]]. The study showed that people with rs4680 (A/A – slow) who took [[notes/_link/Vitamin E]] ([[Alpha-tocopherol|alpha-tocopherol]]) had about a 12% reduction in overall [[Cancer|cancer]] rates.
 
-On the other hand, people with rs4680 (G/G – fast) had a slight increase in [[notes/_link/Cancer|cancer]] rates. In the middle, with no real effect on [[notes/_link/Cancer|cancer]] rate, were the study participants with rs4680 val/met (A/G).\[[ref](https://academic.oup.com/jnci/article-abstract/111/7/684/5260812)\]
+On the other hand, people with rs4680 (G/G – fast) had a slight increase in [[Cancer|cancer]] rates. In the middle, with no real effect on [[Cancer|cancer]] rate, were the study participants with rs4680 val/met (A/G).\[[ref](https://academic.oup.com/jnci/article-abstract/111/7/684/5260812)\]
 
 #### [[Aspirin]] and COMT:
 

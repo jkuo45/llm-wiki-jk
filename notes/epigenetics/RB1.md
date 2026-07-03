@@ -4,6 +4,6 @@
 
 ### Linking Summary:
 
-- New links added: [[Retinoblastoma Protein]], [[Quiescence]], [[notes/_link/Cancer]]
+- New links added: [[Retinoblastoma Protein]], [[Quiescence]], [[Cancer]]
 - Suggested new entity notes to create: [[Tumor Suppressor Gene]]
 - Strong connections to strengthen: [[RB1]] ↔ [[Cell Cycle]]

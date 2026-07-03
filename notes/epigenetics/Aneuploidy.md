@@ -6,4 +6,4 @@
 
 - New links added: [[Oocyte]], [[Meiosis]], [[notes/_link/Aging]]
 - Suggested new entity notes to create: [[Trisomy]]
-- Strong connections to strengthen: [[Aneuploidy]] ↔ [[notes/_link/Cancer]]
+- Strong connections to strengthen: [[Aneuploidy]] ↔ [[Cancer]]

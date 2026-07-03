@@ -1,6 +1,6 @@
 # Cancer
 
-This directory contains notes and research regarding [[notes/_link/Cancer]], with a primary focus on drug repurposing, alternative mechanisms, and non-conventional approaches. Emphasis is placed on antiparasitic agents such as [[Ivermectin]], [[Fenbendazole]], [[Mebendazole]], and [[Albendazole]], as well as [[Melittin]] and components of [[Honeybee]] venom ([[Apis mellifera]]), and their potential effects on cancer cell pathways. Special attention is given to mechanisms including [[notes/_link/Apoptosis]], [[Autophagy]], [[Angiogenesis]] inhibition, [[notes/_link/Oxidative Stress]], [[Warburg Effect]], [[Metabolic Reprogramming]], and disruption of [[Microtubule]] dynamics, along with connections to specific cancer types (e.g., [[triple-negative breast cancer]], [[notes/_link/Colorectal Cancer]], [[glioblastoma]]) and the [[Hallmarks of Cancer]].
+This directory contains notes and research regarding [[Cancer]], with a primary focus on drug repurposing, alternative mechanisms, and non-conventional approaches. Emphasis is placed on antiparasitic agents such as [[Ivermectin]], [[Fenbendazole]], [[Mebendazole]], and [[Albendazole]], as well as [[Melittin]] and components of [[Honeybee]] venom ([[Apis mellifera]]), and their potential effects on cancer cell pathways. Special attention is given to mechanisms including [[notes/_link/Apoptosis]], [[Autophagy]], [[Angiogenesis]] inhibition, [[notes/_link/Oxidative Stress]], [[Warburg Effect]], [[Metabolic Reprogramming]], and disruption of [[Microtubule]] dynamics, along with connections to specific cancer types (e.g., [[triple-negative breast cancer]], [[notes/_link/Colorectal Cancer]], [[glioblastoma]]) and the [[Hallmarks of Cancer]].
 
 
 **entity_relevance_score_1 (1-10):**
@@ -51,7 +51,7 @@ This directory contains notes and research regarding [[notes/_link/Cancer]], wit
 | [[Brugia malayi]] | 21_May_2026 06:20 PM PDT | Microorganism | 6 | -1 | Related to the original anti-parasitic application of the discussed drugs. |
 | [[Brugia timori]] | 21_May_2026 06:20 PM PDT | Microorganism | 6 | -1 | Related to the original anti-parasitic application of the discussed drugs. |
 | [[CaMKII]] | 13_Jun_2026 10:30 AM PDT | Enzyme | 8 | 0 | Calcium/calmodulin-dependent protein kinase II that regulates Caspase-2. |
-| [[notes/_link/Cancer]] | 27_May_2026 10:15 AM PDT | Medical Condition | 10 | -1 | The central pathological focus of this knowledge base directory. |
+| [[Cancer]] | 27_May_2026 10:15 AM PDT | Medical Condition | 10 | -1 | The central pathological focus of this knowledge base directory. |
 | [[Cancer Stem Cells]] | 21_May_2026 05:45 PM PDT | Cell Type | 9 | -1 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[caspase-3]] | 19_May_2026 08:16 PM PDT | Enzyme | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
 | [[Caspase-8]] | 31_May_2026 05:30 PM PDT | Enzyme | 9 | 0 | Initiator caspase of the extrinsic apoptotic pathway. |

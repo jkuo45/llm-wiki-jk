@@ -8,7 +8,7 @@
 *   **Faulty [[notes/_link/DNA Repair]]**: As we age, the efficiency of DNA repair mechanisms often declines, allowing damage to accumulate.
 
 ### 2. Consequences
-*   **[[notes/_link/Cancer]]**: Genomic instability is a prerequisite for the development of most cancers, as it allows for the accumulation of mutations in oncogenes and tumor suppressors.
+*   **[[Cancer]]**: Genomic instability is a prerequisite for the development of most cancers, as it allows for the accumulation of mutations in oncogenes and tumor suppressors.
 *   **[[Cellular Senescence]]**: Severe or irreparable DNA damage can trigger senescence, where the cell stops dividing and begins secreting pro-inflammatory factors (the [[SASP]]).
 *   **Progeria**: Human premature aging syndromes, such as [[Werner Syndrome]] and [[HGPS]], are often caused by mutations in genes involved in maintaining genomic stability.
 
@@ -22,6 +22,6 @@ Epigenetic factors like [[SIRT6]] play a crucial role in maintaining genomic sta
 - **[[Transposable Elements]]**: Mobile genetic elements whose activation drives instability.
 
 ### Linking Summary:
-- New links added: [[Genomic Instability]], [[notes/_link/Aging]], [[notes/_link/DNA Damage]], [[Heterochromatin]], [[Transposable Elements]], [[LINE-1]], [[notes/_link/DNA Repair]], [[notes/_link/Cancer]], [[Cellular Senescence]], [[SASP]], [[Werner Syndrome]], [[HGPS]], [[SIRT6]]
+- New links added: [[Genomic Instability]], [[notes/_link/Aging]], [[notes/_link/DNA Damage]], [[Heterochromatin]], [[Transposable Elements]], [[LINE-1]], [[notes/_link/DNA Repair]], [[Cancer]], [[Cellular Senescence]], [[SASP]], [[Werner Syndrome]], [[HGPS]], [[SIRT6]]
 - Suggested new entity notes to create: [[Aneuploidy]], [[Micronuclei]], [[Somatic Mutations]]
 - Strong connections to strengthen: [[Genomic Instability]] ↔ [[notes/_link/Aging]], [[Genomic Instability]] ↔ [[notes/_link/DNA Damage]]

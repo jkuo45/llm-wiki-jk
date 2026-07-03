@@ -7,7 +7,7 @@ Hypoxia is a condition of low oxygen levels in tissues that acts as a stressful 
 
 
 ## Linking Summary:
-- New links added: [[Macroautophagy]], [[notes/_link/Cancer]]
+- New links added: [[Macroautophagy]], [[Cancer]]
 - Suggested new entity notes to create: [[HIF1A]]
 - Strong connections to strengthen: [[notes/_link/Hypoxia]] ↔ [[Autophagosome]]
 
@@ -16,6 +16,6 @@ Hypoxia is a condition of low oxygen levels in tissues that acts as a stressful 
 - [[Cyanosis]]: A clinical sign of hypoxia.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Cancer]], [[Macroautophagy]]
+- New links added: [[Cancer]], [[Macroautophagy]]
 - Suggested new entity notes to create: [[HIF1A]]
 - Strong connections to strengthen: [[notes/_link/Hypoxia]] ↔ [[Autophagosome]]

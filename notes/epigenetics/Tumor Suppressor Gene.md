@@ -4,6 +4,6 @@ A [[Tumor Suppressor Gene]] (TSG), or antioncogene, is a gene that regulates a c
 
 ### Linking Summary:
 
-- New links added: [[notes/_link/Cancer]], [[Cell Cycle]], [[Retinoblastoma Protein]], [[RB1]], [[CDKN1A]]
+- New links added: [[Cancer]], [[Cell Cycle]], [[Retinoblastoma Protein]], [[RB1]], [[CDKN1A]]
 - Suggested new entity notes to create: [[Oncogene]]
 - Strong connections to strengthen: [[Tumor Suppressor Gene]] ↔ [[notes/_link/DNA Damage]]

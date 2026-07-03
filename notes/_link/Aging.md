@@ -18,7 +18,7 @@ Aging is characterized by a progressive loss of epigenetic information, which le
 ## 2. The [[Epigenetic Clock]]
 One of the most significant breakthroughs in aging research is the development of epigenetic clocks (e.g., the Horvath Clock).
 *   **Biological vs. Chronological Age:** These clocks use algorithms to analyze DNA methylation levels at specific sites (CpG sites) to estimate an individual's "biological age."
-*   **Predictive Power:** If a person's epigenetic age is higher than their chronological age (known as **epigenetic age acceleration**), they are at a higher risk for age-related diseases, including [[notes/_link/Cancer]], [[notes/_link/Cardiovascular Disease]], and [[notes/_link/Neurodegenerative Diseases]].
+*   **Predictive Power:** If a person's epigenetic age is higher than their chronological age (known as **epigenetic age acceleration**), they are at a higher risk for age-related diseases, including [[Cancer]], [[notes/_link/Cardiovascular Disease]], and [[notes/_link/Neurodegenerative Diseases]].
 
 
 ## 3. Epigenetic Drift
@@ -33,13 +33,13 @@ Unlike genetic mutations, epigenetic changes are theoretically **reversible**.
 
 ## 5. Role in Disease
 Epigenetic dysregulation is considered one of the **hallmarks of aging**. It acts as a bridge between environmental exposures and the onset of chronic conditions:
-*   **[[notes/_link/Cancer]]:** Loss of silencing at oncogenes or silencing of tumor suppressors.
+*   **[[Cancer]]:** Loss of silencing at oncogenes or silencing of tumor suppressors.
 *   **[[notes/_link/Neurodegenerative Diseases]]:** Epigenetic changes in the brain affect synaptic plasticity and memory.
 *   **[[Metabolic Syndromes]]:** Altered methylation of genes involved in glucose and lipid metabolism.
 
 
 ## Linking Summary:
-- New links added: [[Epigenetics]], [[Geroscience]], [[DNA Methylation]], [[Genomic Instability]], [[Histone Modification]], [[Chromatin]], [[Heterochromatin]], [[Euchromatin]], [[Non-coding RNA]], [[MicroRNA]], [[Epigenetic Clock]], [[notes/_link/Cancer]], [[notes/_link/Cardiovascular Disease]], [[notes/_link/Neurodegenerative Diseases]], [[Epigenome]], [[notes/_link/Caloric Restriction]], [[Senolytics]], [[HDAC]], [[Metabolic Syndromes]], [[Cellular Senescence]].
+- New links added: [[Epigenetics]], [[Geroscience]], [[DNA Methylation]], [[Genomic Instability]], [[Histone Modification]], [[Chromatin]], [[Heterochromatin]], [[Euchromatin]], [[Non-coding RNA]], [[MicroRNA]], [[Epigenetic Clock]], [[Cancer]], [[notes/_link/Cardiovascular Disease]], [[notes/_link/Neurodegenerative Diseases]], [[Epigenome]], [[notes/_link/Caloric Restriction]], [[Senolytics]], [[HDAC]], [[Metabolic Syndromes]], [[Cellular Senescence]].
 - Suggested new entity notes to create: [[Yamanaka Factors]], [[Epigenetic Drift]], [[Epigenetic Rejuvenation]]
 - Strong connections to strengthen: [[notes/_link/Aging]] ↔ [[DNA Methylation]], [[notes/_link/Aging]] ↔ [[Epigenetic Clock]]
 
@@ -54,6 +54,6 @@ Epigenetic dysregulation is considered one of the **hallmarks of aging**. It act
 
 
 ### Linking Summary:
-- New links added: [[Autophagy]], [[notes/_link/Caloric Restriction]], [[notes/_link/Cancer]], [[notes/_link/Cardiovascular Disease]], [[Cellular Senescence]], [[Chromatin]], [[DNA Methylation]], [[Epigenetic Clock]], [[Epigenetics]], [[Epigenome]], [[Euchromatin]], [[Genomic Instability]], [[Geroscience]], [[HDAC]], [[Heterochromatin]], [[Histone Modification]], [[Metabolic Syndromes]], [[MicroRNA]], [[notes/_link/Neurodegenerative Diseases]], [[Non-coding RNA]], [[Senolytics]]
+- New links added: [[Autophagy]], [[notes/_link/Caloric Restriction]], [[Cancer]], [[notes/_link/Cardiovascular Disease]], [[Cellular Senescence]], [[Chromatin]], [[DNA Methylation]], [[Epigenetic Clock]], [[Epigenetics]], [[Epigenome]], [[Euchromatin]], [[Genomic Instability]], [[Geroscience]], [[HDAC]], [[Heterochromatin]], [[Histone Modification]], [[Metabolic Syndromes]], [[MicroRNA]], [[notes/_link/Neurodegenerative Diseases]], [[Non-coding RNA]], [[Senolytics]]
 - Suggested new entity notes to create: [[Epigenetic Drift]], [[Epigenetic Rejuvenation]], [[notes/_link/Inflammaging]], [[notes/_link/Senescence]], [[Yamanaka Factors]]
 - Strong connections to strengthen: [[notes/_link/Aging]] ↔ [[DNA Methylation]], [[notes/_link/Aging]] ↔ [[Epigenetic Clock]], [[notes/_link/Aging]] ↔ [[Mitochondrial Dysfunction]]
