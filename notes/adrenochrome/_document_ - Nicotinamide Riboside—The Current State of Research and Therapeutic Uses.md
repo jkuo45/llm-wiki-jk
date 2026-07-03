@@ -494,5 +494,5 @@ The authors declare the following competing financial interest(s): M.M and U.S. 
 [^181]: 181.ClinicalTrials.gov. \[(accessed on 29 March 2020)\]; Available online: [https://clinicaltrials.gov/ct2/results?cond=&term=Nicotinamide+riboside&cntry=&state=&city=&dist=](https://clinicaltrials.gov/ct2/results?cond=&term=Nicotinamide+riboside&cntry=&state=&city=&dist=)
 
 ### Linking Summary:
-- New links added: [[SIRT2]], [[SIRT4]], [[SIRT5]], [[SIRT7]], [[PARP1]], [[PARP2]], [[NMNAT]], [[NMRK1]], [[NMRK2]]
+- New links added: [[notes/sirtuins/SIRT2]], [[notes/sirtuins/SIRT4]], [[notes/sirtuins/SIRT5]], [[notes/sirtuins/SIRT7]], [[PARP1]], [[PARP2]], [[NMNAT]], [[NMRK1]], [[NMRK2]]
 - Suggested new entity notes to create: (Created in this task)

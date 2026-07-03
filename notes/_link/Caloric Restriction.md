@@ -187,3 +187,12 @@ When cells become nutrient-starved, sirtuin-**independent** pathways such as **T
 - New links added: [[notes/_link/SIRT1]], [[Sir2 (yeast)]], [[notes/sirtuins/SIRT3]], [[notes/_link/SIRT4]], [[NAD+]], [[Resveratrol]], [[PGC-1α]], [[Longevity]]
 - Suggested new entity notes to create: [[TOR (Target of Rapamycin)]], [[Adiponectin]], [[Longevity]]
 - Strong connections to strengthen: [[Caloric Restriction]] ↔ [[notes/_link/SIRT1]], [[Caloric Restriction]] ↔ [[Sir2 (yeast)]], [[Caloric Restriction]] ↔ [[Longevity]]
+
+# Caloric Restriction
+
+Caloric restriction (CR) is a dietary regimen that reduces calorie intake without incurring malnutrition or a reduction in essential nutrients. It has been shown to increase lifespan and reduce oxidative stress in various model organisms, potentially by lowering the intake of dietary [[Advanced Glycation End Products|AGEs]].
+
+### Linking Summary:
+- New links added: [[Advanced Glycation End Products]], [[Oxidative Stress]], [[Lifespan]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[notes/adrenochrome/Caloric Restriction]] ↔ [[Longevity]]

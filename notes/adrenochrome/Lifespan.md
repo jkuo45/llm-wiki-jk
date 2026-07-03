@@ -1,8 +1,8 @@
 # Lifespan
 
-Lifespan is the maximum number of years an individual of a given species can live. Interventions like [[notes/adrenochrome/Caloric Restriction]] have been shown to increase lifespan, potentially by reducing [[Oxidative Stress]] and the accumulation of [[Advanced Glycation End Products|AGEs]].
+Lifespan is the maximum number of years an individual of a given species can live. Interventions like [[Caloric Restriction]] have been shown to increase lifespan, potentially by reducing [[Oxidative Stress]] and the accumulation of [[Advanced Glycation End Products|AGEs]].
 
 ### Linking Summary:
-- New links added: [[notes/adrenochrome/Caloric Restriction]], [[Oxidative Stress]], [[Advanced Glycation End Products]], [[Aging]]
+- New links added: [[Caloric Restriction]], [[Oxidative Stress]], [[Advanced Glycation End Products]], [[Aging]]
 - Suggested new entity notes to create: 
-- Strong connections to strengthen: [[notes/adrenochrome/Caloric Restriction]] ↔ [[Lifespan]]
+- Strong connections to strengthen: [[Caloric Restriction]] ↔ [[Lifespan]]

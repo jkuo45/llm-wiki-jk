@@ -150,7 +150,7 @@ An analysis of the biochemical mechanisms, potential synergies, critical scienti
 	[[notes/_link/NAD+|NAD+]]
 	**.
 - **The MRR Synergy:**
-	Downstream mitohormetic transcriptional responses (specifically the deacetylation of [[PGC1α|PGC-1α]] by [[notes/_link/SIRT1|SIRT1]] and [[SIRT3]]) are highly [[notes/_link/NAD+|NAD+]]-dependent. By priming the system with [[notes/_link/NAD+|NAD+]] precursors like [[Nicotinamide Riboside]] (NR) or [[Nicotinamide Mononucleotide]] (NMN), the cellular machinery is provided with the necessary cofactor fuel to carry out the [[PGC1α|PGC-1α]]/[[notes/_link/SIRT1|SIRT1]]-driven [[Mitochondrial biogenesis|mitochondrial biogenesis]] initiated by the oxidative pulse.
+	Downstream mitohormetic transcriptional responses (specifically the deacetylation of [[PGC1α|PGC-1α]] by [[notes/_link/SIRT1|SIRT1]] and [[notes/sirtuins/SIRT3]]) are highly [[notes/_link/NAD+|NAD+]]-dependent. By priming the system with [[notes/_link/NAD+|NAD+]] precursors like [[Nicotinamide Riboside]] (NR) or [[Nicotinamide Mononucleotide]] (NMN), the cellular machinery is provided with the necessary cofactor fuel to carry out the [[PGC1α|PGC-1α]]/[[notes/_link/SIRT1|SIRT1]]-driven [[Mitochondrial biogenesis|mitochondrial biogenesis]] initiated by the oxidative pulse.
 
 #### 1.4. Cleanup: [[Urolithin A]] (The Quality Control)
 
@@ -250,6 +250,6 @@ Sources
 Display of Search Suggestions is required when using Grounding with Google Search. [Learn more](https://ai.google.dev/gemini-api/docs/grounding/search-suggestions)
 
 ### Linking Summary:
-- New links added: [[Mitohormetic Redox-Relay]], [[notes/_link/Mitochondrial Dysfunction|Mitochondrial Dysfunction]], [[Carbazochrome]], [[Adrenochrome]], [[Methylene blue]], [[Nicotinamide Riboside]], [[Nicotinamide Mononucleotide]], [[notes/_link/NAD+|NAD+]], [[Urolithin A]], [[notes/_link/Mitophagy|Mitophagy]], [[Redox Cycling]], [[Superoxide anion]], [[Nrf2]], [[Antioxidant Response Element]], [[PGC1α]], [[notes/_link/SIRT1|SIRT1]], [[notes/_link/AMPK|AMPK]], [[SIRT3]], [[Oxygen Consumption Rate]], [[Extracellular Acidification Rate]], [[Seahorse XF Analyzer]], [[HO-1]], [[NQO1]], [[Carbazochrome sulfonic acid]], [[notes/_link/Autophagy|Autophagy]], [[Mitochondrial biogenesis]]
+- New links added: [[Mitohormetic Redox-Relay]], [[notes/_link/Mitochondrial Dysfunction|Mitochondrial Dysfunction]], [[Carbazochrome]], [[Adrenochrome]], [[Methylene blue]], [[Nicotinamide Riboside]], [[Nicotinamide Mononucleotide]], [[notes/_link/NAD+|NAD+]], [[Urolithin A]], [[notes/_link/Mitophagy|Mitophagy]], [[Redox Cycling]], [[Superoxide anion]], [[Nrf2]], [[Antioxidant Response Element]], [[PGC1α]], [[notes/_link/SIRT1|SIRT1]], [[notes/_link/AMPK|AMPK]], [[notes/sirtuins/SIRT3]], [[Oxygen Consumption Rate]], [[Extracellular Acidification Rate]], [[Seahorse XF Analyzer]], [[HO-1]], [[NQO1]], [[Carbazochrome sulfonic acid]], [[notes/_link/Autophagy|Autophagy]], [[Mitochondrial biogenesis]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Mitohormetic Redox-Relay]] ↔ [[Mitochondrial Dysfunction]]
