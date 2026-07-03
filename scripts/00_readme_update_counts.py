@@ -1,7 +1,6 @@
 import argparse
 import glob
 import os
-import re
 import urllib.parse
 from datetime import datetime
 
@@ -21,34 +20,24 @@ def count_words(filepath):
     except Exception:
         return 0
 
+
 def get_dir_size_and_count(directory):
     total_size = 0
     total_files = 0
+    total_words = 0
     for dirpath, dirnames, filenames in os.walk(directory):
         # Optional: skip hidden directories like .git if any
-        dirnames[:] = [d for d in dirnames if not d.startswith('.')]
+        dirnames[:] = [d for d in dirnames if not d.startswith(".")]
         for f in filenames:
-            if not f.startswith('.'):
+            if not f.startswith("."):
                 fp = os.path.join(dirpath, f)
                 if not os.path.islink(fp):
                     total_size += os.path.getsize(fp)
                     total_files += 1
+                    if f.endswith(".md"):
+                        total_words += count_words(fp)
     total_mb = total_size / (1024 * 1024)
-    return total_files, total_mb
-
-
-def extract_entity_count(readme_path):
-    try:
-        if not os.path.exists(readme_path):
-            return 0
-        with open(readme_path, "r", encoding="utf-8") as f:
-            content = f.read()
-            match = re.search(r"Total count of entities:\s*(\d+)", content)
-            if match:
-                return int(match.group(1))
-    except Exception:
-        pass
-    return 0
+    return total_files, total_mb, total_words
 
 
 def main():
@@ -95,8 +84,12 @@ def main():
             if os.path.basename(f).startswith(("[document]", "_document_"))
         ]
 
-        # Extract entity count from README.md or index.md instead of counting files
-        entity_count = extract_entity_count(readme_path)
+        # Count markdown files excluding README.md and index.md
+        entity_count = sum(
+            1
+            for f in md_files
+            if os.path.basename(f).lower() not in ["readme.md", "index.md"]
+        )
 
         last_updated_ts = 0
         if md_files:
@@ -138,17 +131,15 @@ def main():
 
     # Prepare new content
     new_timestamp = get_timestamp()
-    total_files, total_mb = get_dir_size_and_count(notes_dir)
+    total_files, total_mb, total_words = get_dir_size_and_count(notes_dir)
 
     topics_table = [
-        "| topic | last updated | count entities | count documents |",
-        "| :--- | :--- | :---: | :---: |",
+        "| topic | last updated | count entities |",
+        "| :--- | :--- | :---: |",
     ]
     for t in topic_data:
         topic_link = f"[{t['topic']}](https://github.com/jkuo45/llm-wiki/tree/main/{urllib.parse.quote(notes_dir + '/' + t['topic'], safe='/')})"
-        topics_table.append(
-            f"| {topic_link} | {t['last_updated']} | {t['entities']} | {t['documents']} |"
-        )
+        topics_table.append(f"| {topic_link} | {t['last_updated']} | {t['entities']} |")
 
     docs_table = [
         "| topic | date modified | document path | word count |",
@@ -156,22 +147,22 @@ def main():
     ]
     for d in document_data:
         doc_link = f"[{d['path']}](https://github.com/jkuo45/llm-wiki/blob/main/{urllib.parse.quote(d['path'], safe='/')})"
-        docs_table.append(
-            f"| {d['topic']} | {d['date']} | {doc_link} | {d['words']} |"
-        )
+        docs_table.append(f"| {d['topic']} | {d['date']} | {doc_link} | {d['words']} |")
 
     # Construct full README content
     readme_content = [
         "# llm-wiki-jk",
-        f"last updated: {new_timestamp} \n",
-        "## notes directory stats",
-        f"- **total files:** {total_files}",
-        f"- **total size:** {total_mb:.2f} MB",
-        "\n---",
-        "## topics (notes directory)\n",
+        "## Summary Table (notes directory)",
         "\n".join(topics_table),
         "\n",
         "---",
+        "## notes directory stats",
+        f"- last updated: {new_timestamp}",
+        f"- **subtotal files:** {total_files}",
+        f"- **subtotal documents:** {len(document_data)}",
+        f"- **subtotal words:** {total_words}",
+        f"- **subtotal size:** {total_mb:.2f} MB",
+        "\n---",
         "## document list\n",
         "\n".join(docs_table),
         "\n",
