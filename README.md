@@ -2,7 +2,7 @@
 ## Summary Table (notes directory)
 | topic | last updated | count entities | count documents |
 | :--- | :--- | :---: | :---: |
-| [_link](https://github.com/jkuo45/llm-wiki/tree/main/notes/_link) | 03_JUL_2026 | 182 | 0 |
+| [_link](https://github.com/jkuo45/llm-wiki/tree/main/notes/_link) | 03_JUL_2026 | 181 | 0 |
 | [adrenochrome](https://github.com/jkuo45/llm-wiki/tree/main/notes/adrenochrome) | 03_JUL_2026 | 330 | 23 |
 | [autophagy](https://github.com/jkuo45/llm-wiki/tree/main/notes/autophagy) | 03_JUL_2026 | 250 | 10 |
 | [cancer](https://github.com/jkuo45/llm-wiki/tree/main/notes/cancer) | 03_JUL_2026 | 275 | 8 |
@@ -10,16 +10,16 @@
 | [epigenetics](https://github.com/jkuo45/llm-wiki/tree/main/notes/epigenetics) | 03_JUL_2026 | 219 | 9 |
 | [neuromelanin](https://github.com/jkuo45/llm-wiki/tree/main/notes/neuromelanin) | 03_JUL_2026 | 82 | 2 |
 | [oxidative_stress](https://github.com/jkuo45/llm-wiki/tree/main/notes/oxidative_stress) | 03_JUL_2026 | 48 | 1 |
-| [sirtuins](https://github.com/jkuo45/llm-wiki/tree/main/notes/sirtuins) | 03_JUL_2026 | 29 | 5 |
+| [sirtuins](https://github.com/jkuo45/llm-wiki/tree/main/notes/sirtuins) | 03_JUL_2026 | 55 | 5 |
 
 
 ---
 ## Summary Counts (notes directory)
-- last updated: 03_JUL_2026 01:06 PM PDT
-- **file count:** 1,468
-- **word count:** 658,774
+- **last updated:** 03_JUL_2026 03:54 PM PDT
+- **file count:** 1,493
+- **word count:** 668,484
 - **documents:** 60
-- **directory disk size:** 6.61 MB
+- **disk size:** 6.78 MB
 
 ---
 ## Document List
@@ -40,7 +40,7 @@
 | adrenochrome | 03_JUL_2026 | [notes/adrenochrome/[document] adrenochrome - neutrophil and erthrocyte.md](https://github.com/jkuo45/llm-wiki/blob/main/notes/adrenochrome/%5Bdocument%5D%20adrenochrome%20-%20neutrophil%20and%20erthrocyte.md) | 781 |
 | adrenochrome | 29_JUN_2026 | [notes/adrenochrome/_document_ -  adrenochrome - Adrenochrome.md](https://github.com/jkuo45/llm-wiki/blob/main/notes/adrenochrome/_document_%20-%20%20adrenochrome%20-%20Adrenochrome.md) | 1,074 |
 | adrenochrome | 03_JUL_2026 | [notes/adrenochrome/_document_ - Dietary Advanced Glycation End Products and Aging.md](https://github.com/jkuo45/llm-wiki/blob/main/notes/adrenochrome/_document_%20-%20Dietary%20Advanced%20Glycation%20End%20Products%20and%20Aging.md) | 9,406 |
-| adrenochrome | 29_JUN_2026 | [notes/adrenochrome/_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md](https://github.com/jkuo45/llm-wiki/blob/main/notes/adrenochrome/_document_%20-%20NAD%2B%E2%80%89Precursors%20Nicotinamide%20Mononucleotide%20%28NMN%29%20and%20Nicotinamide%20Riboside%20%28NR%29%20Potential%20Dietary%20Contribution%20to%20Health.md) | 14,981 |
+| adrenochrome | 03_JUL_2026 | [notes/adrenochrome/_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md](https://github.com/jkuo45/llm-wiki/blob/main/notes/adrenochrome/_document_%20-%20NAD%2B%E2%80%89Precursors%20Nicotinamide%20Mononucleotide%20%28NMN%29%20and%20Nicotinamide%20Riboside%20%28NR%29%20Potential%20Dietary%20Contribution%20to%20Health.md) | 14,981 |
 | adrenochrome | 02_JUL_2026 | [notes/adrenochrome/_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md](https://github.com/jkuo45/llm-wiki/blob/main/notes/adrenochrome/_document_%20-%20Nicotinamide%20Riboside%E2%80%94The%20Current%20State%20of%20Research%20and%20Therapeutic%20Uses.md) | 14,625 |
 | adrenochrome | 29_JUN_2026 | [notes/adrenochrome/_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects.md](https://github.com/jkuo45/llm-wiki/blob/main/notes/adrenochrome/_document_%20-%20Pharmacological%20Effects%20of%20Urolithin%20A%20and%20Its%20Role%20in%20Muscle%20Health%20and%20Performance%20Current%20Knowledge%20and%20Prospects.md) | 9,177 |
 | adrenochrome | 29_JUN_2026 | [notes/adrenochrome/_document_ - The role of glycation in the pathogenesis of aging and its prevention through herbal products and physical exercise.md](https://github.com/jkuo45/llm-wiki/blob/main/notes/adrenochrome/_document_%20-%20The%20role%20of%20glycation%20in%20the%20pathogenesis%20of%20aging%20and%20its%20prevention%20through%20herbal%20products%20and%20physical%20exercise.md) | 6,229 |
@@ -81,8 +81,8 @@
 | neuromelanin | 29_JUN_2026 | [notes/neuromelanin/[document] Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease.md](https://github.com/jkuo45/llm-wiki/blob/main/notes/neuromelanin/%5Bdocument%5D%20Neuromelanin%2C%20aging%2C%20and%20neuronal%20vulnerability%20in%20Parkinson%27s%20disease.md) | 9,726 |
 | neuromelanin | 03_JUL_2026 | [notes/neuromelanin/[document] Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator.md](https://github.com/jkuo45/llm-wiki/blob/main/notes/neuromelanin/%5Bdocument%5D%20Neuromelanin%2C%20one%20of%20the%20most%20overlooked%20molecules%20in%20modern%20medicine%2C%20is%20not%20a%20spectator.md) | 3,770 |
 | oxidative_stress | 03_JUL_2026 | [notes/oxidative_stress/[document] Oxidative Stress Harms and Benefits for Human Health.md](https://github.com/jkuo45/llm-wiki/blob/main/notes/oxidative_stress/%5Bdocument%5D%20Oxidative%20Stress%20Harms%20and%20Benefits%20for%20Human%20Health.md) | 9,120 |
-| sirtuins | 03_JUL_2026 | [notes/sirtuins/_document_ - sirtuins (overview, CD38 KO risks, cancer therapies).md](https://github.com/jkuo45/llm-wiki/blob/main/notes/sirtuins/_document_%20-%20sirtuins%20%28overview%2C%20CD38%20KO%20risks%2C%20cancer%20therapies%29.md) | 2,442 |
-| sirtuins | 02_JUL_2026 | [notes/sirtuins/_document_ - sirtuins (resveratrol), gemini.md](https://github.com/jkuo45/llm-wiki/blob/main/notes/sirtuins/_document_%20-%20sirtuins%20%28resveratrol%29%2C%20gemini.md) | 4,472 |
+| sirtuins | 03_JUL_2026 | [notes/sirtuins/_document_ - sirtuins (overview, CD38 KO risks, cancer therapies).md](https://github.com/jkuo45/llm-wiki/blob/main/notes/sirtuins/_document_%20-%20sirtuins%20%28overview%2C%20CD38%20KO%20risks%2C%20cancer%20therapies%29.md) | 2,654 |
+| sirtuins | 03_JUL_2026 | [notes/sirtuins/_document_ - sirtuins (resveratrol), gemini.md](https://github.com/jkuo45/llm-wiki/blob/main/notes/sirtuins/_document_%20-%20sirtuins%20%28resveratrol%29%2C%20gemini.md) | 4,660 |
 | sirtuins | 03_JUL_2026 | [notes/sirtuins/_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i.md](https://github.com/jkuo45/llm-wiki/blob/main/notes/sirtuins/_document_%20-%20sirtuins%20Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i.md) | 13,124 |
 | sirtuins | 03_JUL_2026 | [notes/sirtuins/_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md](https://github.com/jkuo45/llm-wiki/blob/main/notes/sirtuins/_document_%20-%20sirtuins%20Shedding%20light%20on%20structure%2C%20function%20and%20regulation%20of%20human%20sirtuins%20a%20comprehensive%20review.md) | 11,162 |
 | sirtuins | 02_JUL_2026 | [notes/sirtuins/_document_ - sirtuins in health and disease s41392-022-01257-8.md](https://github.com/jkuo45/llm-wiki/blob/main/notes/sirtuins/_document_%20-%20sirtuins%20in%20health%20and%20disease%20s41392-022-01257-8.md) | 73,646 |
