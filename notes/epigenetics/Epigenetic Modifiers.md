@@ -2,6 +2,6 @@
 Epigenetic Modifiers are a chemical class of compounds that alter the epigenetic state of a cell by targeting enzymes like HDACs or DNMTs.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Epigenetics]], [[HDAC]], [[DNMT1]]
+- New links added: [[Epigenetics]], [[HDAC]], [[DNMT1]]
 - Suggested new entity notes to create: 
-- Strong connections to strengthen: [[Epigenetic Modifiers]] <-> [[notes/_link/Epigenetics]]
+- Strong connections to strengthen: [[Epigenetic Modifiers]] <-> [[Epigenetics]]

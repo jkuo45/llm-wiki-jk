@@ -6,4 +6,4 @@
 
 - New links added: [[Cell Cycle]], [[Quiescence]], [[notes/_link/Senescence]]
 - Suggested new entity notes to create: [[Gene Expression]]
-- Strong connections to strengthen: [[Terminal Differentiation]] ↔ [[notes/_link/Epigenetics]]
+- Strong connections to strengthen: [[Terminal Differentiation]] ↔ [[Epigenetics]]

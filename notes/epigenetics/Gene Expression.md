@@ -6,4 +6,4 @@
 
 - New links added: [[notes/_link/Transcription]], [[Quiescence]], [[Terminal Differentiation]]
 - Suggested new entity notes to create: [[Translation]]
-- Strong connections to strengthen: [[Gene Expression]] ↔ [[notes/_link/Epigenetics]]
+- Strong connections to strengthen: [[Gene Expression]] ↔ [[Epigenetics]]
