@@ -108,7 +108,7 @@ To maintain consistency, all entity notes should include an `entity_type` field.
 | **Chemical Compound**         | Specific small molecules and chemical substances.                                | [[Adrenochrome]], [[notes/_link/Epinephrine]], [[Sodium nitrite]], [[Methylene blue]] |
 | **Chemical Class**            | Groups of chemically related substances.                                         | [[Catecholamines]], [[Aminochromes]], [[Persulfates]]                                 |
 | **Metabolite**                | Endogenous or drug metabolites (can overlap with Chemical Compound).             | [[Adrenochrome]] (as epinephrine metabolite), [[6-Hydroxymelatonin]]                  |
-| **Enzyme**                    | Specific biological catalysts.                                                   | [[MAO]], [[notes/_link/COMT]], [[notes/_link/Myeloperoxidase]], [[Diaphorase]]        |
+| **Enzyme**                    | Specific biological catalysts.                                                   | [[MAO]], [[COMT]], [[notes/_link/Myeloperoxidase]], [[Diaphorase]]        |
 | **Protein**                   | Large biomolecules, structural or functional proteins (non-enzyme).              | [[Hemoglobin]], [[Cytochrome b5 reductase]]                                           |
 | **Receptor**                  | Signal-receiving proteins.                                                       | [[Adrenergic receptor]], [[D2 receptor]], [[NMDA receptor]]                           |
 | **Transporter**               | Membrane proteins that transport molecules.                                      | [[VMAT2]], [[SERT]], [[DAT]]                                                          |

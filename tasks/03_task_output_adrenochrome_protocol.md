@@ -37,7 +37,7 @@ The "Adrenochrome Replenishment" window is narrow due to the potential for "Fail
 *   **Fluorescence Assay:** Use a [[HPLC]]-coupled fluorescence detector to monitor for [[Adrenolutin]]. An increase in green fluorescence indicates degradation and loss of therapeutic [[_document_ -  adrenochrome - Adrenochrome]].
 
 ### B. Metabolic Tracking
-*   **[[MAO]] and [[notes/_link/COMT]] Activity:** Monitor the activity of Monoamine Oxidase and Catechol-O-methyltransferase. If these enzymes are inhibited, substrate availability for the [[_document_ -  adrenochrome - Adrenochrome]] pathway increases, requiring a downward adjustment of the replenishment dose.
+*   **[[MAO]] and [[COMT]] Activity:** Monitor the activity of Monoamine Oxidase and Catechol-O-methyltransferase. If these enzymes are inhibited, substrate availability for the [[_document_ -  adrenochrome - Adrenochrome]] pathway increases, requiring a downward adjustment of the replenishment dose.
 
 ## 5. Phase IV: Recovery and Clearance
 *   **Promotion of [[notes/_link/Neuromelanin]] Formation:** For long-term management, encourage the safe polymerization of excess aminochromes into [[notes/_link/Neuromelanin]], which acts as a protective "sponge" in the brain.
@@ -46,6 +46,6 @@ The "Adrenochrome Replenishment" window is narrow due to the potential for "Fail
 ---
 
 ### Linking Summary:
-- **New links added:** [[_document_ -  adrenochrome - Adrenochrome]], [[Adrenolutin]], [[notes/_link/Epinephrine]], [[Carbazochrome]], [[Thioglycerol]], [[Sodium Metabisulfite]], [[Argon]], [[Nitrogen gas]], [[Erythrocytes]], [[Hemoglobin]], [[Methemoglobinemia]], [[Methemoglobin]], [[Redox cycle]], [[Oxyhemoglobin]], [[notes/_link/Ascorbic Acid]], [[notes/_link/Glutathione]], [[adrenaline-quinone]], [[Homeostasis]], [[Cardiotoxicity]], [[HPLC]], [[MAO]], [[notes/_link/COMT]], [[notes/_link/Neuromelanin]], [[notes/_link/Reactive Oxygen Species]], [[Redox Cycling]]
+- **New links added:** [[_document_ -  adrenochrome - Adrenochrome]], [[Adrenolutin]], [[notes/_link/Epinephrine]], [[Carbazochrome]], [[Thioglycerol]], [[Sodium Metabisulfite]], [[Argon]], [[Nitrogen gas]], [[Erythrocytes]], [[Hemoglobin]], [[Methemoglobinemia]], [[Methemoglobin]], [[Redox cycle]], [[Oxyhemoglobin]], [[notes/_link/Ascorbic Acid]], [[notes/_link/Glutathione]], [[adrenaline-quinone]], [[Homeostasis]], [[Cardiotoxicity]], [[HPLC]], [[MAO]], [[COMT]], [[notes/_link/Neuromelanin]], [[notes/_link/Reactive Oxygen Species]], [[Redox Cycling]]
 - **Suggested new entity notes to create:** [[Redox Battery]], [[Mitochondrial Uncoupling]]
 - **Strong connections to strengthen:** [[_document_ -  adrenochrome - Adrenochrome]] ↔ [[Hemoglobin]], [[_document_ -  adrenochrome - Adrenochrome]] ↔ [[Methemoglobinemia]]

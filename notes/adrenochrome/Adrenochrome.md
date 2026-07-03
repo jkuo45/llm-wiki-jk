@@ -36,9 +36,9 @@ Adrenochrome is produced non-enzymatically or via catalytic pathways under condi
 - [[Aminochromes]] ↔ Class of molecules to which adrenochrome belongs.
 - [[Redox Cycling]] ↔ Mechanism of ROS amplification.
 - [[notes/_link/Neutrophils]] ↔ Cellular site of production during inflammation.
-- [[notes/_link/COMT]] & [[MAO]] ↔ Enzymes whose inhibition increases substrate availability for adrenochrome formation.
+- [[COMT]] & [[MAO]] ↔ Enzymes whose inhibition increases substrate availability for adrenochrome formation.
 
 ### Linking Summary:
-- New links added: [[Aminochromes]], [[Indoline]], [[Quinone]], [[Hydroxyl radical]], [[Cardiotoxicity]], [[Adrenolutin]], [[Carbazochrome]], [[Smoking]], [[notes/oxidative_stress/Oxidative Stress]], [[notes/_link/Reactive Oxygen Species]], [[notes/_link/Neutrophils]], [[notes/_link/Inflammation]], [[Lungs]], [[notes/_link/Neuromelanin]], [[Redox Cycling]], [[notes/_link/COMT]], [[MAO]]
+- New links added: [[Aminochromes]], [[Indoline]], [[Quinone]], [[Hydroxyl radical]], [[Cardiotoxicity]], [[Adrenolutin]], [[Carbazochrome]], [[Smoking]], [[notes/oxidative_stress/Oxidative Stress]], [[notes/_link/Reactive Oxygen Species]], [[notes/_link/Neutrophils]], [[notes/_link/Inflammation]], [[Lungs]], [[notes/_link/Neuromelanin]], [[Redox Cycling]], [[COMT]], [[MAO]]
 - Suggested new entity notes to create: [[Indoline]], [[Quinone]], [[notes/_link/Schizophrenia]]
 - Strong connections to strengthen: [[Adrenochrome]] ↔ [[notes/_link/Epinephrine]], [[Adrenochrome]] ↔ [[Redox Cycling]]

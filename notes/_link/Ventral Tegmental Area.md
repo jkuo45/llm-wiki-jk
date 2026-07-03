@@ -12,7 +12,7 @@ In contrast to the [[Substantia Nigra Pars Compacta]], dopaminergic neurons in t
 - **Relative Sparing in Parkinson's:** VTA neurons are largely spared in [[notes/_link/Parkinson's Disease]] compared to the severe loss seen in the SNpc. This supports the hypothesis that neuromelanin accumulation contributes to neuronal vulnerability.
 
 ## COMT Expression
-Increased [[notes/_link/COMT]] activity in the dopamine neurons of the VTA can influence dopamine release capacity in target regions like the [[Striatum]].
+Increased [[COMT]] activity in the dopamine neurons of the VTA can influence dopamine release capacity in target regions like the [[Striatum]].
 
 ## Connections
 - [[notes/_link/Dopamine]]: The primary neurotransmitter produced by VTA neurons.
@@ -22,6 +22,6 @@ Increased [[notes/_link/COMT]] activity in the dopamine neurons of the VTA can i
 - [[VTA]]: Common abbreviation for the ventral tegmental area.
 
 ### Linking Summary:
-- New links added: [[notes/_link/COMT]], [[notes/_link/Dopamine]], [[notes/_link/Neuromelanin]], [[Nucleus Accumbens]], [[notes/_link/Parkinson's Disease]], [[Prefrontal Cortex]], [[Striatum]], [[Substantia Nigra Pars Compacta]], [[VTA]]
+- New links added: [[COMT]], [[notes/_link/Dopamine]], [[notes/_link/Neuromelanin]], [[Nucleus Accumbens]], [[notes/_link/Parkinson's Disease]], [[Prefrontal Cortex]], [[Striatum]], [[Substantia Nigra Pars Compacta]], [[VTA]]
 - Suggested new entity notes to create: [[Mesolimbic Pathway]], [[Mesocortical Pathway]], [[Nucleus Accumbens]]
 - Strong connections to strengthen: [[notes/_link/Ventral Tegmental Area]] ↔ [[notes/_link/Parkinson's Disease]], [[notes/_link/Ventral Tegmental Area]] ↔ [[Prefrontal Cortex]]

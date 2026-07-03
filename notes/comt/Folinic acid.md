@@ -3,7 +3,7 @@
 **[[Folinic acid]]** (also known as leucovorin) is a form of [[Folate]] that is already partially reduced and does not require the [[MTHFR]] enzyme for its initial conversion.
 
 ## Use in Slow COMT
-For individuals with slow [[notes/_link/COMT]] variants who are sensitive to high-dose [[methylfolate]], [[Folinic acid]] may be a safer alternative. It provides a source of folate that supports the [[Methylation Cycle]] without the immediate "methyl hit" that can cause mood disturbances.
+For individuals with slow [[COMT]] variants who are sensitive to high-dose [[methylfolate]], [[Folinic acid]] may be a safer alternative. It provides a source of folate that supports the [[Methylation Cycle]] without the immediate "methyl hit" that can cause mood disturbances.
 
 ## Connections
 - [[Folate]]: The vitamin family to which folinic acid belongs.
@@ -12,4 +12,4 @@ For individuals with slow [[notes/_link/COMT]] variants who are sensitive to hig
 
 ---
 ### Linking Summary:
-- New links added: [[Folate]], [[Methylation Cycle]], [[methylfolate]], [[notes/_link/COMT]], [[MTHFR]].
+- New links added: [[Folate]], [[Methylation Cycle]], [[methylfolate]], [[COMT]], [[MTHFR]].

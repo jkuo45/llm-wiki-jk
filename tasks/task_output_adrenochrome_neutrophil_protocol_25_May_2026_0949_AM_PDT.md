@@ -48,7 +48,7 @@ Due to the extreme instability of adrenochrome at physiological pH, the solution
 ### 3.2 Metabolic Context
 - To maximize the retention of replenished adrenochrome, the subject should avoid conditions that increase clearance or further oxidation:
     - Avoid [[Smoking]], which increases systemic [[notes/oxidative_stress/Oxidative Stress]] and drives adrenochrome into the [[Melanins]]/[[notes/_link/Neuromelanin]] pathway.
-    - Monitor [[MAO]] and [[notes/_link/COMT]] activity; while these "janitor" enzymes primarily target the precursor [[notes/_link/Epinephrine]], their status affects the overall catecholamine redox environment.
+    - Monitor [[MAO]] and [[COMT]] activity; while these "janitor" enzymes primarily target the precursor [[notes/_link/Epinephrine]], their status affects the overall catecholamine redox environment.
 
 ---
 
@@ -77,6 +77,6 @@ Due to the extreme instability of adrenochrome at physiological pH, the solution
 
 ---
 **Linking Summary:**
-- New links added: [[_document_ -  adrenochrome - Adrenochrome]], [[Carbazochrome]], [[notes/_link/Epinephrine]], [[Leuco-adrenochrome]], [[Adrenolutin]], [[notes/_link/Neuromelanin]], [[Cardiotoxicity]], [[Redox Cycling]], [[notes/oxidative_stress/Oxidative Stress]], [[notes/_link/Ascorbic Acid]], [[Sodium Metabisulfite]], [[EDTA]], [[notes/_link/Glutathione]], [[Superoxide anion]], [[notes/_link/Hydrogen Peroxide]], [[notes/_link/Superoxide Dismutase]], [[Methemoglobinemia]], [[Oxyhemoglobin]], [[Methemoglobin]], [[HPLC]], [[LC-MS]], [[H-NMR]], [[Argon]], [[Nitrogen gas]], [[Autoxidation]], [[pH]], [[Cardiac arrest]], [[MAO]], [[notes/_link/COMT]], [[Smoking]], [[notes/_link/Neutrophils]].
+- New links added: [[_document_ -  adrenochrome - Adrenochrome]], [[Carbazochrome]], [[notes/_link/Epinephrine]], [[Leuco-adrenochrome]], [[Adrenolutin]], [[notes/_link/Neuromelanin]], [[Cardiotoxicity]], [[Redox Cycling]], [[notes/oxidative_stress/Oxidative Stress]], [[notes/_link/Ascorbic Acid]], [[Sodium Metabisulfite]], [[EDTA]], [[notes/_link/Glutathione]], [[Superoxide anion]], [[notes/_link/Hydrogen Peroxide]], [[notes/_link/Superoxide Dismutase]], [[Methemoglobinemia]], [[Oxyhemoglobin]], [[Methemoglobin]], [[HPLC]], [[LC-MS]], [[H-NMR]], [[Argon]], [[Nitrogen gas]], [[Autoxidation]], [[pH]], [[Cardiac arrest]], [[MAO]], [[COMT]], [[Smoking]], [[notes/_link/Neutrophils]].
 - Suggested new entity notes to create: [[Adrenochrome Protocol]], [[Redox Optimization]].
 - Strong connections to strengthen: [[_document_ -  adrenochrome - Adrenochrome]] ↔ [[Cardiotoxicity]], [[_document_ -  adrenochrome - Adrenochrome]] ↔ [[notes/oxidative_stress/Oxidative Stress]].

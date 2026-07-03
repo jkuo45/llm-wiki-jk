@@ -26,11 +26,11 @@ While resveratrol has shown dramatic results in extending the lifespan of yeast,
 - Suggested new entity notes to create: [[Polyphenols]], [[CR Mimetics]], [[David Sinclair]]
 - Strong connections to strengthen: [[notes/_link/Resveratrol]] ↔ [[notes/sirtuins/SIRT1]], [[notes/_link/Resveratrol]] ↔ [[notes/_link/Caloric Restriction]]
 
-- New links added: [[Anti-inflammatory]], [[notes/_link/COMT]].
+- New links added: [[Anti-inflammatory]], [[COMT]].
 
 ## Alternative for Slow COMT
 
-[[notes/_link/Resveratrol]] is considered a safe [[Anti-inflammatory]] and antioxidant option for people with slow [[notes/_link/COMT]] variants. Since it lacks a catechol structure, it does not compete for the [[notes/_link/COMT]] enzyme or cause its inhibition.
+[[notes/_link/Resveratrol]] is considered a safe [[Anti-inflammatory]] and antioxidant option for people with slow [[COMT]] variants. Since it lacks a catechol structure, it does not compete for the [[COMT]] enzyme or cause its inhibition.
 
 ## Connections
 
@@ -40,13 +40,13 @@ While resveratrol has shown dramatic results in extending the lifespan of yeast,
 - **[[Geroscience]]**: A major focus of research into natural longevity molecules.
 
 - [[Anti-inflammatory]]: One of the key health benefits of resveratrol.
-- [[notes/_link/COMT]]: Resveratrol does not interfere with COMT activity.
+- [[COMT]]: Resveratrol does not interfere with COMT activity.
 - [[Bioavailability]]: Resveratrol studies often focus on its absorption and genetic interactions.
 
 ---
 
 ### Linking Summary:
 
-- New links added: [[notes/_link/Aging]], [[Anti-inflammatory]], [[notes/_link/COMT]], [[notes/_link/Caloric Restriction]], [[notes/_link/Diabetes Mellitus]], [[Geroscience]], [[Metabolic Syndromes]], [[notes/_link/Resveratrol]], [[notes/sirtuins/SIRT1]]
+- New links added: [[notes/_link/Aging]], [[Anti-inflammatory]], [[COMT]], [[notes/_link/Caloric Restriction]], [[notes/_link/Diabetes Mellitus]], [[Geroscience]], [[Metabolic Syndromes]], [[notes/_link/Resveratrol]], [[notes/sirtuins/SIRT1]]
 - Suggested new entity notes to create: [[CR Mimetics]], [[David Sinclair]], [[Polyphenols]]
 - Strong connections to strengthen: [[notes/_link/Resveratrol]] ↔ [[notes/_link/Caloric Restriction]], [[notes/_link/Resveratrol]] ↔ [[notes/sirtuins/SIRT1]]

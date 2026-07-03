@@ -15,7 +15,7 @@ The SNpc is vital for:
 
 ## Clinical Significance
 - **[[notes/_link/Parkinson's Disease]]:** The progressive loss of dopaminergic neurons in the SNpc is the hallmark of Parkinson's Disease. Motor symptoms like tremors and [[Bradykinesia]] emerge when a significant portion of these neurons have degenerated.
-- **[[notes/_link/COMT]] Expression:** Neurons in the SN can express [[notes/_link/COMT]], which may influence presynaptic dopamine regulation and release capacity in the striatum.
+- **[[COMT]] Expression:** Neurons in the SN can express [[COMT]], which may influence presynaptic dopamine regulation and release capacity in the striatum.
 
 ## Connections
 - [[notes/_link/Dopaminergic Neurons]]: The primary cell type in the SNpc.
@@ -25,6 +25,6 @@ The SNpc is vital for:
 - [[notes/_link/Ventral Tegmental Area]]: Another major midbrain dopaminergic nucleus.
 
 ### Linking Summary:
-- New links added: [[Adrenochrome]], [[Aminochromes]], [[Bradykinesia]], [[notes/_link/COMT]], [[Catecholamines]], [[notes/_link/Dopamine]], [[notes/_link/Dopaminergic Neurons]], [[notes/_link/Neuromelanin]], [[Nigrostriatal System]], [[notes/_link/Parkinson's Disease]], [[Striatum]], [[Substantia Nigra Pars Compacta]], [[notes/_link/Ventral Tegmental Area]]
+- New links added: [[Adrenochrome]], [[Aminochromes]], [[Bradykinesia]], [[COMT]], [[Catecholamines]], [[notes/_link/Dopamine]], [[notes/_link/Dopaminergic Neurons]], [[notes/_link/Neuromelanin]], [[Nigrostriatal System]], [[notes/_link/Parkinson's Disease]], [[Striatum]], [[Substantia Nigra Pars Compacta]], [[notes/_link/Ventral Tegmental Area]]
 - Suggested new entity notes to create: [[Basal Ganglia]], [[Midbrain]], [[GABAergic Neurons]]
 - Strong connections to strengthen: [[notes/_link/Substantia Nigra]] ↔ [[notes/_link/Parkinson's Disease]], [[notes/_link/Substantia Nigra]] ↔ [[Striatum]]
