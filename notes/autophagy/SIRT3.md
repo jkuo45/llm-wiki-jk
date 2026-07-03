@@ -9,10 +9,10 @@
 
 ## Role in Autophagy and Cancer
 - SIRT3 acts as a suppressive control checkpoint in response to energy stress.
-- In [[notes/_link/Cancer]] cells, SIRT3 is often inactive, contributing to metabolic inflexibility and genomic instability.
+- In [[Cancer]] cells, SIRT3 is often inactive, contributing to metabolic inflexibility and genomic instability.
 - SIRT3 can promote [[Mitophagy]] to clear damaged mitochondria and maintain cellular homeostasis.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Mitochondria]], [[notes/_link/Reactive Oxygen Species]], [[notes/_link/Caloric Restriction]], [[Intermittent Fasting]], [[notes/_link/Cancer]], [[Mitophagy]], [[Cellular Homeostasis]]
+- New links added: [[notes/_link/Mitochondria]], [[notes/_link/Reactive Oxygen Species]], [[notes/_link/Caloric Restriction]], [[Intermittent Fasting]], [[Cancer]], [[Mitophagy]], [[Cellular Homeostasis]]
 - Suggested new entity notes to create: , [[Cellular Homeostasis]]
 - Strong connections to strengthen: [[notes/autophagy/SIRT3]] ↔ [[notes/_link/Mitochondria]], [[notes/autophagy/SIRT3]] ↔ [[Mitophagy]]

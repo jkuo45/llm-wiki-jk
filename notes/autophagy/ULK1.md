@@ -1,6 +1,6 @@
 # ULK1
 
-**ULK1** (Unc-51 Like Autophagy Activating Kinase 1) is a serine/threonine kinase that serves as a central initiator of [[notes/_link/Autophagy]] in response to nutrient signals. It is the mammalian ortholog of the yeast [[Atg1]].
+**ULK1** (Unc-51 Like Autophagy Activating Kinase 1) is a serine/threonine kinase that serves as a central initiator of [[Autophagy]] in response to nutrient signals. It is the mammalian ortholog of the yeast [[Atg1]].
 
 ## Regulation by Nutrient Sensors
 - **Activation by [[notes/_link/AMPK]]**: Under energy stress, AMPK directly phosphorylates and activates ULK1 to induce autophagy.
@@ -10,6 +10,6 @@
 - Once activated, ULK1 forms a complex (including [[Atg13]], FIP200, and Atg101) that phosphorylates downstream targets, including the [[Beclin1]]/[[Vps34]] complex, to initiate the formation of the [[Autophagosome]].
 
 ### Linking Summary:
-- New links added: [[notes/_link/Autophagy]], [[Atg1]], [[notes/_link/AMPK]], [[mTORC1]], [[Atg13]], [[Beclin1]], [[Vps34]], [[Autophagosome]]
+- New links added: [[Autophagy]], [[Atg1]], [[notes/_link/AMPK]], [[mTORC1]], [[Atg13]], [[Beclin1]], [[Vps34]], [[Autophagosome]]
 - Suggested new entity notes to create:
-- Strong connections to strengthen: [[ULK1]] ↔ [[notes/_link/AMPK]], [[ULK1]] ↔ [[mTORC1]], [[ULK1]] ↔ [[notes/_link/Autophagy]]
+- Strong connections to strengthen: [[ULK1]] ↔ [[notes/_link/AMPK]], [[ULK1]] ↔ [[mTORC1]], [[ULK1]] ↔ [[Autophagy]]

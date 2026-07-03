@@ -3,7 +3,7 @@
 The **[[Norepinephrine transporter]]** (also known as **[[NET]]**) is a protein responsible for the reuptake of [[notes/_link/Norepinephrine]] from the synaptic cleft.
 
 ## Role in the Prefrontal Cortex
-In the [[Prefrontal Cortex]] ([[PFC]]), where the [[Dopamine transporter]] is sparse, the [[Norepinephrine transporter]] also plays a significant role in the reuptake of [[notes/_link/Dopamine]]. This makes it a critical component of catecholamine regulation in the frontal lobes, alongside [[notes/_link/COMT]].
+In the [[Prefrontal Cortex]] ([[PFC]]), where the [[Dopamine transporter]] is sparse, the [[Norepinephrine transporter]] also plays a significant role in the reuptake of [[notes/_link/Dopamine]]. This makes it a critical component of catecholamine regulation in the frontal lobes, alongside [[COMT]].
 
 ## Connections
 - [[notes/_link/Norepinephrine]]: The primary neurotransmitter transported by NET.
@@ -13,4 +13,4 @@ In the [[Prefrontal Cortex]] ([[PFC]]), where the [[Dopamine transporter]] is sp
 
 ---
 ### Linking Summary:
-- New links added: [[notes/_link/Norepinephrine]], [[Prefrontal Cortex]], [[PFC]], [[Dopamine transporter]], [[notes/_link/Dopamine]], [[notes/_link/COMT]], [[NET]].
+- New links added: [[notes/_link/Norepinephrine]], [[Prefrontal Cortex]], [[PFC]], [[Dopamine transporter]], [[notes/_link/Dopamine]], [[COMT]], [[NET]].

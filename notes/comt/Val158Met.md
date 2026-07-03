@@ -1,6 +1,6 @@
 # Val158Met
 
-**[[Val158Met]]** (rs4680) is a common functional [[SNP]] (Single Nucleotide Polymorphism) in the [[notes/_link/COMT]] gene. It involves a substitution of Valine (Val) for Methionine (Met) at position 158 of the enzyme.
+**[[Val158Met]]** (rs4680) is a common functional [[SNP]] (Single Nucleotide Polymorphism) in the [[COMT]] gene. It involves a substitution of Valine (Val) for Methionine (Met) at position 158 of the enzyme.
 
 ## Genotypes
 - **Val/Val (Fast COMT):** High enzyme activity (3-4x faster than Met/Met). Associated with lower [[notes/_link/Dopamine]] levels in the [[Prefrontal Cortex]]. Often called the "Warrior" phenotype due to better stress resilience.
@@ -15,10 +15,10 @@ The [[Val158Met]] polymorphism impacts:
 - Response to certain medications like [[Modafinil]] and [[Aspirin]].
 
 ## Connections
-- [[notes/_link/COMT]]: The gene where this polymorphism occurs.
+- [[COMT]]: The gene where this polymorphism occurs.
 - [[notes/_link/Dopamine]]: Its levels are directly regulated by this enzyme's activity.
 - [[Methylation]]: Slow COMT (Met/Met) individuals are often more sensitive to changes in the methylation cycle.
 
 ---
 ### Linking Summary:
-- New links added: [[SNP]], [[notes/_link/COMT]], [[notes/_link/Dopamine]], [[Prefrontal Cortex]], [[Cognitive Performance]], [[Working Memory]], [[Methyl Donor]], [[COMT Inhibitors]], [[Psychiatric Disorders]], [[notes/_link/Schizophrenia]], [[Modafinil]], [[Aspirin]], [[Methylation]].
+- New links added: [[SNP]], [[COMT]], [[notes/_link/Dopamine]], [[Prefrontal Cortex]], [[Cognitive Performance]], [[Working Memory]], [[Methyl Donor]], [[COMT Inhibitors]], [[Psychiatric Disorders]], [[notes/_link/Schizophrenia]], [[Modafinil]], [[Aspirin]], [[Methylation]].

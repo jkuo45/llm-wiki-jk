@@ -20,19 +20,19 @@ Established and maintained by [[DNA Methyltransferase]] (DNMTs):
 The biochemical cycle involves the transfer of methyl groups for various cellular functions.
 
 ### Key Components
-- **Enzymes**: [[MTHFR]], [[MTRR]], [[MTHFD1]], [[notes/_link/COMT]].
+- **Enzymes**: [[MTHFR]], [[MTRR]], [[MTHFD1]], [[COMT]].
 - **Nutrients/Substrates**: [[Folate]], [[Vitamin B12]], [[SAMe]] ([[S-adenosylmethionine]]), [[TMG]].
 
-### Role in [[notes/_link/COMT]] Function
-[[notes/_link/COMT]] requires a methyl group from [[SAMe]] to metabolize catechols like [[notes/_link/Dopamine]], [[notes/_link/Norepinephrine]], and [[Estrogen]]. 
-- Individuals with slow [[notes/_link/COMT]] variants may be sensitive to [[Methyl Donor]] supplements (e.g., [[methylfolate]], [[methylB12]]), which can affect neurotransmitter levels.
+### Role in [[COMT]] Function
+[[COMT]] requires a methyl group from [[SAMe]] to metabolize catechols like [[notes/_link/Dopamine]], [[notes/_link/Norepinephrine]], and [[Estrogen]]. 
+- Individuals with slow [[COMT]] variants may be sensitive to [[Methyl Donor]] supplements (e.g., [[methylfolate]], [[methylB12]]), which can affect neurotransmitter levels.
 
 ## Connections
 - [[notes/_link/Aging]]: DNA methylation patterns are a primary biomarker for biological aging.
-- [[notes/_link/COMT]]: Utilizes methyl groups for its enzymatic activity.
+- [[COMT]]: Utilizes methyl groups for its enzymatic activity.
 - [[MTHFR]]: Key enzyme providing the substrate for the methylation cycle.
 - [[Epigenetic Clock]]: Tools that use DNA methylation data to measure the rate of aging.
 
 ### Linking Summary:
-- New links added: [[DNA Methylation]], [[CpG Island]], [[notes/_link/Aging]], [[LINE-1]], [[Alu element]], [[Genomic Instability]], [[Transposable Elements]], [[Epigenetic Clock]], [[DNAmGrimAge]], [[DNA Methyltransferase]], [[DNMT1]], [[DNA Replication]], [[DNMT3a]], [[DNMT3b]], [[MTHFR]], [[MTRR]], [[MTHFD1]], [[notes/_link/COMT]], [[Folate]], [[Vitamin B12]], [[SAMe]], [[TMG]], [[notes/_link/Dopamine]], [[notes/_link/Norepinephrine]], [[Estrogen]], [[Methyl Donor]].
+- New links added: [[DNA Methylation]], [[CpG Island]], [[notes/_link/Aging]], [[LINE-1]], [[Alu element]], [[Genomic Instability]], [[Transposable Elements]], [[Epigenetic Clock]], [[DNAmGrimAge]], [[DNA Methyltransferase]], [[DNMT1]], [[DNA Replication]], [[DNMT3a]], [[DNMT3b]], [[MTHFR]], [[MTRR]], [[MTHFD1]], [[COMT]], [[Folate]], [[Vitamin B12]], [[SAMe]], [[TMG]], [[notes/_link/Dopamine]], [[notes/_link/Norepinephrine]], [[Estrogen]], [[Methyl Donor]].
 - Suggested new entity notes to create: [[Epigenetic Drift]], [[5-mC]], [[TET Enzymes]].

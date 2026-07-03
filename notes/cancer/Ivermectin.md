@@ -8,7 +8,7 @@ Ivermectin has been reported to inhibit the proliferation of several tumor cells
 ### Mechanisms of Action
 - **Inhibition of Signaling Pathways:** Regulates [[Wnt/β-catenin]], [[Akt/mTOR]], and [[notes/_link/MAPK]] pathways.
 - **Molecular Targets:** Primarily acts as a [[PAK1]] inhibitor. Also inhibits [[YAP1]], [[HSP27]], and [[KPNB1]].
-- **Programmed Cell Death:** Induces [[notes/_link/Apoptosis]], [[notes/_link/Autophagy]], and [[pyroptosis]].
+- **Programmed Cell Death:** Induces [[notes/_link/Apoptosis]], [[Autophagy]], and [[pyroptosis]].
 - **Tumor Microenvironment:** Regulates the tumor microenvironment and mediates immunogenic cell death (e.g., through [[HMGB1]] release).
 - **Cancer Stem Cells:** Inhibits [[Cancer Stem Cells]] (CSCs) by regulating the [[PAK1]]-[[notes/_link/STAT3]] axis.
 - **Multidrug Resistance:** Reverses [[Multidrug Resistance]] (MDR) by inhibiting [[P-gp]] and other MDR-associated proteins.
@@ -24,6 +24,6 @@ Ivermectin shows synergistic effects when used in combination with other chemoth
 - [[Multidrug Resistance]]: Ivermectin reverses MDR by inhibiting [[P-gp]].
 
 ## Linking Summary
-- New links added: [[avermectin]], [[PAK1]], [[YAP1]], [[HSP27]], [[KPNB1]], [[notes/_link/Apoptosis]], [[notes/_link/Autophagy]], [[pyroptosis]], [[HMGB1]], [[Cancer Stem Cells]], [[Multidrug Resistance]], [[P-gp]], [[cisplatin]], [[docetaxel]], [[paclitaxel]], [[daunorubicin]], [[cytarabine]], [[erlotinib]], [[dasatinib]], [[dabrafenib]], [[notes/_link/Akt]], [[notes/_link/mTOR]], [[Wnt]], [[notes/_link/MAPK]].
-- Suggested new entity notes to create: [[avermectin]], [[PAK1]], [[YAP1]], [[HSP27]], [[KPNB1]], [[notes/_link/Autophagy]], [[pyroptosis]], [[HMGB1]], [[Cancer Stem Cells]], [[Multidrug Resistance]], [[P-gp]], [[Wnt]], [[notes/_link/MAPK]].
+- New links added: [[avermectin]], [[PAK1]], [[YAP1]], [[HSP27]], [[KPNB1]], [[notes/_link/Apoptosis]], [[Autophagy]], [[pyroptosis]], [[HMGB1]], [[Cancer Stem Cells]], [[Multidrug Resistance]], [[P-gp]], [[cisplatin]], [[docetaxel]], [[paclitaxel]], [[daunorubicin]], [[cytarabine]], [[erlotinib]], [[dasatinib]], [[dabrafenib]], [[notes/_link/Akt]], [[notes/_link/mTOR]], [[Wnt]], [[notes/_link/MAPK]].
+- Suggested new entity notes to create: [[avermectin]], [[PAK1]], [[YAP1]], [[HSP27]], [[KPNB1]], [[Autophagy]], [[pyroptosis]], [[HMGB1]], [[Cancer Stem Cells]], [[Multidrug Resistance]], [[P-gp]], [[Wnt]], [[notes/_link/MAPK]].
 - Strong connections to strengthen: [[Ivermectin]] ↔ [[PAK1]], [[Ivermectin]] ↔ [[Multidrug Resistance]]

@@ -8,17 +8,21 @@ def get_link_entities(link_dir):
     return [
         os.path.basename(f)[:-3]
         for f in glob.glob(os.path.join(link_dir, "*.md"))
-        if os.path.basename(f) != "README.md"
+        if os.path.basename(f) not in ("README.md", "index.md")
     ]
 
 
 def get_topic_readmes(notes_dir, link_dir):
-    # Get all README.md files in notes_dir subdirectories, excluding link_dir
+    # Get all README.md or index.md files in notes_dir subdirectories, excluding link_dir
     readmes = []
     for d in os.listdir(notes_dir):
         topic_path = os.path.join(notes_dir, d)
         if os.path.isdir(topic_path) and topic_path != link_dir:
             readme_path = os.path.join(topic_path, "README.md")
+            if not os.path.exists(readme_path):
+                index_path = os.path.join(topic_path, "index.md")
+                if os.path.exists(index_path):
+                    readme_path = index_path
             if os.path.exists(readme_path):
                 readmes.append(readme_path)
     return readmes

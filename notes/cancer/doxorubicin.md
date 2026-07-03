@@ -6,7 +6,7 @@
 Doxorubicin exerts its anticancer effects through multiple mechanisms:
 1.  **Intercalation**: Inserting itself between DNA base pairs, disrupting DNA synthesis.
 2.  **Topoisomerase II Inhibition**: Preventing the repair of DNA strands.
-3.  **Free Radical Generation**: Induction of [[notes/_link/Oxidative Stress|oxidative stress]], which damages cellular membranes and proteins.
+3.  **Free Radical Generation**: Induction of [[notes/oxidative_stress/Oxidative Stress|oxidative stress]], which damages cellular membranes and proteins.
 
 These actions collectively trigger the [[Intrinsic Pathway]] of [[notes/_link/Apoptosis]].
 
@@ -20,6 +20,6 @@ Resistance to doxorubicin is a common clinical problem, often mediated by the ov
 - [[Intrinsic Pathway]]: The primary apoptotic route activated by doxorubicin.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Breast Cancer]], [[leukemia]], [[notes/_link/Oxidative Stress]], [[Intrinsic Pathway]], [[notes/_link/Apoptosis]], [[Bcl-2]], [[Bmi-1]]
+- New links added: [[notes/_link/Breast Cancer]], [[leukemia]], [[notes/oxidative_stress/Oxidative Stress]], [[Intrinsic Pathway]], [[notes/_link/Apoptosis]], [[Bcl-2]], [[Bmi-1]]
 - Suggested new entity notes to create: [[Bmi-1]]
 - Strong connections to strengthen: [[doxorubicin]] ↔ [[Bmi-1]]

@@ -1,9 +1,21 @@
 import argparse
 import glob
 import os
-import re
 import urllib.parse
 from datetime import datetime
+
+
+def format_number(n):
+    """Return an integer formatted with thousands separators (e.g. 12,345)."""
+    return f"{n:,}"
+
+
+def format_size(size_bytes):
+    """Return a human-readable file size string (B / KB / MB / GB)."""
+    for unit, threshold in [("GB", 1024**3), ("MB", 1024**2), ("KB", 1024)]:
+        if size_bytes >= threshold:
+            return f"{size_bytes / threshold:.2f} {unit}"
+    return f"{size_bytes} B"
 
 
 def get_timestamp():
@@ -22,18 +34,22 @@ def count_words(filepath):
         return 0
 
 
-def extract_entity_count(readme_path):
-    try:
-        if not os.path.exists(readme_path):
-            return 0
-        with open(readme_path, "r", encoding="utf-8") as f:
-            content = f.read()
-            match = re.search(r"Total count of entities:\s*(\d+)", content)
-            if match:
-                return int(match.group(1))
-    except Exception:
-        pass
-    return 0
+def get_dir_size_and_count(directory):
+    total_size = 0
+    total_files = 0
+    total_words = 0
+    for dirpath, dirnames, filenames in os.walk(directory):
+        # Optional: skip hidden directories like .git if any
+        dirnames[:] = [d for d in dirnames if not d.startswith(".")]
+        for f in filenames:
+            if not f.startswith("."):
+                fp = os.path.join(dirpath, f)
+                if not os.path.islink(fp):
+                    total_size += os.path.getsize(fp)
+                    total_files += 1
+                    if f.endswith(".md"):
+                        total_words += count_words(fp)
+    return total_files, total_size, total_words
 
 
 def main():
@@ -67,6 +83,11 @@ def main():
     for topic in topics:
         topic_path = os.path.join(notes_dir, topic)
         readme_path = os.path.join(topic_path, "README.md")
+        if not os.path.exists(readme_path):
+            index_path = os.path.join(topic_path, "index.md")
+            if os.path.exists(index_path):
+                readme_path = index_path
+
         md_files = glob.glob(os.path.join(topic_path, "*.md"))
 
         documents = [
@@ -75,8 +96,12 @@ def main():
             if os.path.basename(f).startswith(("[document]", "_document_"))
         ]
 
-        # Extract entity count from README.md instead of counting files
-        entity_count = extract_entity_count(readme_path)
+        # Count markdown files excluding README.md and index.md
+        entity_count = sum(
+            1
+            for f in md_files
+            if os.path.basename(f).lower() not in ["readme.md", "index.md"]
+        )
 
         last_updated_ts = 0
         if md_files:
@@ -86,7 +111,7 @@ def main():
                 datetime
                 .fromtimestamp(last_updated_ts)
                 .astimezone()
-                .strftime("%d_%b_%Y %I:%M %p %Z")
+                .strftime("%d_%b_%Y")
                 .upper()
             )
         else:
@@ -102,11 +127,7 @@ def main():
         for doc in sorted(documents):
             mtime = os.path.getmtime(doc)
             mtime_str = (
-                datetime
-                .fromtimestamp(mtime)
-                .astimezone()
-                .strftime("%d_%b_%Y %I:%M %p %Z")
-                .upper()
+                datetime.fromtimestamp(mtime).astimezone().strftime("%d_%b_%Y").upper()
             )
             word_count = count_words(doc)
             document_data.append({
@@ -118,13 +139,14 @@ def main():
 
     # Prepare new content
     new_timestamp = get_timestamp()
+    total_files, total_size, total_words = get_dir_size_and_count(notes_dir)
 
     topics_table = [
         "| topic | last updated | count entities | count documents |",
         "| :--- | :--- | :---: | :---: |",
     ]
     for t in topic_data:
-        topic_link = f"[{t['topic']}]({urllib.parse.quote(notes_dir + '/' + t['topic'], safe='/')})"
+        topic_link = f"[{t['topic']}](https://github.com/jkuo45/llm-wiki/tree/main/{urllib.parse.quote(notes_dir + '/' + t['topic'], safe='/')})"
         topics_table.append(
             f"| {topic_link} | {t['last_updated']} | {t['entities']} | {t['documents']} |"
         )
@@ -134,20 +156,26 @@ def main():
         "| :--- | :--- | :--- | :--- |",
     ]
     for d in document_data:
-        doc_link = f"[{d['path']}]({urllib.parse.quote(d['path'], safe='/')})"
+        doc_link = f"[{d['path']}](https://github.com/jkuo45/llm-wiki/blob/main/{urllib.parse.quote(d['path'], safe='/')})"
         docs_table.append(
-            f"| {d['topic']} | {d['date']} | {doc_link} | {d['words']} |"
+            f"| {d['topic']} | {d['date']} | {doc_link} | {format_number(d['words'])} |"
         )
 
     # Construct full README content
     readme_content = [
         "# llm-wiki-jk",
-        f"last updated: {new_timestamp} \n",
-        "## topics (notes directory)\n",
+        "## Summary Table (notes directory)",
         "\n".join(topics_table),
         "\n",
         "---",
-        "## document list\n",
+        "## Summary Counts (notes directory)",
+        f"- **last updated:** {new_timestamp}",
+        f"- **file count:** {format_number(total_files)}",
+        f"- **word count:** {format_number(total_words)}",
+        f"- **documents:** {format_number(len(document_data))}",
+        f"- **disk size:** {format_size(total_size)}",
+        "\n---",
+        "## Document List\n",
         "\n".join(docs_table),
         "\n",
         "---",

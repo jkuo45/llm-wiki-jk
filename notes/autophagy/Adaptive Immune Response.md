@@ -8,10 +8,10 @@ The **Adaptive Immune Response** is a highly specific immune mechanism character
 - **Memory Responses**: Perturbed in the aged immune system, leading to ineffective responses in older people.
 
 ## Modulation by Autophagy
-- [[notes/_link/Autophagy]] facilitates adaptive immune cell activation and differentiation.
+- [[Autophagy]] facilitates adaptive immune cell activation and differentiation.
 - [[Autophagy Inducer|Autophagy inducers]] like [[notes/_link/Spermidine]] can rejuvenate B cell responses and enhance the production of virus-specific memory CD8+ T cells.
 
 ### Linking Summary:
-- New links added: [[T Cell]], [[notes/_link/Senescence]], [[B Cell]], [[notes/_link/Autophagy]], [[Autophagy Inducer]], [[notes/_link/Spermidine]]
+- New links added: [[T Cell]], [[notes/_link/Senescence]], [[B Cell]], [[Autophagy]], [[Autophagy Inducer]], [[notes/_link/Spermidine]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[Adaptive Immune Response]] ↔ [[Immune Aging]]

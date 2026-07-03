@@ -7,10 +7,10 @@
 - Hypusination is integral to eIF5A activation.
 
 ## Function in Autophagy
-- Active eIF5A enables efficient biosynthesis of the [[notes/_link/Autophagy]] transcription factor [[TFEB]].
+- Active eIF5A enables efficient biosynthesis of the [[Autophagy]] transcription factor [[TFEB]].
 - This pathway is critical for reversing [[B Cell]] [[notes/_link/Senescence]].
 
 ### Linking Summary:
-- New links added: [[notes/_link/Spermidine]], [[notes/_link/Autophagy]], [[TFEB]], [[B Cell]], [[notes/_link/Senescence]]
+- New links added: [[notes/_link/Spermidine]], [[Autophagy]], [[TFEB]], [[B Cell]], [[notes/_link/Senescence]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[eIF5A]] ↔ [[notes/_link/Spermidine]], [[eIF5A]] ↔ [[TFEB]]

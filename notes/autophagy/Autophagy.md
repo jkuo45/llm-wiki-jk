@@ -6,7 +6,7 @@
 Autophagy is a lysosomal-dependent form of programmed cell death. It utilizes lysosomes to eliminate superfluous or damaged organelles in the cytoplasm to maintain homeostasis. It is characterized by double-layered or multilayered vacuolar structures known as autophagosomes.
 
 
-[[notes/_link/Autophagy]] (or macroautophagy) is a fundamental cellular degradation process that delivers cytoplasmic components to lysosomes for digestion and recycling.
+[[Autophagy]] (or macroautophagy) is a fundamental cellular degradation process that delivers cytoplasmic components to lysosomes for digestion and recycling.
 
 
 **Autophagy** (from the Greek *auto-*, self, and *phagein*, to eat) is an evolutionarily conserved [[Lysosome|lysosomal]] catabolic process by which cells degrade and recycle intracellular components—including damaged organelles, misfolded proteins, and macromolecules—to maintain [[Cellular Homeostasis]].
@@ -41,11 +41,11 @@ The relationship between epigenetics and autophagy is bidirectional:
 ## Linking Summary:
 - New links added: [[notes/_link/Aging]], [[Epigenetics]], [[DNA Methylation]], [[DNA Methyltransferase]], [[Histone Modification]], [[Sirtuin]], [[notes/sirtuins/SIRT1]], [[Non-coding RNA]], [[MicroRNA]], [[HDAC]], [[Epigenome]], [[Cellular Senescence]], [[notes/_link/Alzheimer's Disease]], [[notes/_link/Neurodegenerative Diseases]].
 - Suggested new entity notes to create: [[Autophagosome]], [[Mitophagy]], [[Beclin1]], [[Atg5]].
-- Strong connections to strengthen: [[notes/_link/Autophagy]] ↔ [[notes/_link/Aging]], [[notes/_link/Autophagy]] ↔ [[notes/sirtuins/SIRT1]]
+- Strong connections to strengthen: [[Autophagy]] ↔ [[notes/_link/Aging]], [[Autophagy]] ↔ [[notes/sirtuins/SIRT1]]
 
-- New links added: [[notes/_link/Parkinson's Disease]], [[notes/_link/Neuromelanin]], [[Lewy Bodies]], [[notes/_link/Oxidative Stress]].
+- New links added: [[notes/_link/Parkinson's Disease]], [[notes/_link/Neuromelanin]], [[Lewy Bodies]], [[notes/oxidative_stress/Oxidative Stress]].
 - Suggested new entity notes to create: [[Lysosomes]], [[Mitophagy]], [[Proteostasis]].
-- Strong connections to strengthen: [[notes/_link/Autophagy]] ↔ [[notes/_link/Neuromelanin]].
+- Strong connections to strengthen: [[Autophagy]] ↔ [[notes/_link/Neuromelanin]].
 
 ## Role in Cancer
 Autophagy is often described as a "double-edged sword" in tumor development:
@@ -70,7 +70,7 @@ Autophagy is critical for maintaining cellular proteostasis by removing damaged 
 In [[notes/_link/Parkinson's Disease]], the autophagy-lysosome pathway is often compromised, particularly in [[notes/_link/Neuromelanin]]-containing neurons.
 - **Neuromelanin Granules:** Neuromelanin is sequestered within specialized autophagic vacuoles. Because neuromelanin is insoluble and cannot be degraded by lysosomal proteases, it remains trapped, leading to the accumulation of undegraded autophagic structures.
 - **Proteostasis Failure:** The continuous build-up of neuromelanin-filled autophagic structures eventually exhausts the cell's vesicular storage capacity, interfering with intracellular trafficking and contributing to the formation of [[Lewy Bodies]].
-- **Mitochondrial Quality Control:** Impaired autophagy also compromises the removal of damaged mitochondria ([[Mitophagy]]), leading to increased [[notes/_link/Oxidative Stress]].
+- **Mitochondrial Quality Control:** Impaired autophagy also compromises the removal of damaged mitochondria ([[Mitophagy]]), leading to increased [[notes/oxidative_stress/Oxidative Stress]].
 
 
 ## Overview
@@ -102,7 +102,7 @@ The autophagic process is governed by a set of "Autophagy-related" ([[Atg]]) gen
 
 
 ## Cancer
-The role of autophagy in [[notes/_link/Cancer]] is context-dependent:
+The role of autophagy in [[Cancer]] is context-dependent:
 *   **Tumor Suppression**: In early stages, autophagy prevents tumorigenesis by maintaining genomic stability and removing damaged organelles that produce [[ROS]]. Deletion of autophagy genes like [[Beclin1]] is associated with increased cancer risk.
 *   **Tumor Promotion**: In established tumors, autophagy acts as a survival mechanism, allowing cancer cells to survive the harsh, nutrient-poor, and hypoxic conditions of the tumor microenvironment.
 
@@ -138,6 +138,6 @@ Autophagy can be modulated by:
 
 
 ### Linking Summary:
-- New links added: [[notes/_link/Aging]], [[notes/_link/Alzheimer's Disease]], [[Cellular Senescence]], [[DNA Methylation]], [[DNA Methyltransferase]], [[Epigenetics]], [[Epigenome]], [[HDAC]], [[Histone Modification]], [[Lewy Bodies]], [[MicroRNA]], [[notes/_link/Neurodegenerative Diseases]], [[notes/_link/Neuromelanin]], [[Non-coding RNA]], [[notes/_link/Parkinson's Disease]], [[notes/sirtuins/SIRT1]], [[Sirtuin]], [[notes/_link/Oxidative Stress]]
+- New links added: [[notes/_link/Aging]], [[notes/_link/Alzheimer's Disease]], [[Cellular Senescence]], [[DNA Methylation]], [[DNA Methyltransferase]], [[Epigenetics]], [[Epigenome]], [[HDAC]], [[Histone Modification]], [[Lewy Bodies]], [[MicroRNA]], [[notes/_link/Neurodegenerative Diseases]], [[notes/_link/Neuromelanin]], [[Non-coding RNA]], [[notes/_link/Parkinson's Disease]], [[notes/sirtuins/SIRT1]], [[Sirtuin]], [[notes/oxidative_stress/Oxidative Stress]]
 - Suggested new entity notes to create: [[Atg5]], [[Autophagosome]], [[Beclin1]], [[Lysosomes]], [[Mitophagy]], [[Proteostasis]]
-- Strong connections to strengthen: [[notes/_link/Autophagy]] ↔ [[notes/_link/Aging]], [[notes/_link/Autophagy]] ↔ [[notes/_link/Neuromelanin]]., [[notes/_link/Autophagy]] ↔ [[notes/sirtuins/SIRT1]]
+- Strong connections to strengthen: [[Autophagy]] ↔ [[notes/_link/Aging]], [[Autophagy]] ↔ [[notes/_link/Neuromelanin]]., [[Autophagy]] ↔ [[notes/sirtuins/SIRT1]]

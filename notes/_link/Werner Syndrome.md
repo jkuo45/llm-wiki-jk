@@ -15,7 +15,7 @@ The WRN protein is involved in almost every major DNA metabolic pathway:
 Patients with Werner Syndrome develop many conditions associated with normal aging but much earlier in life, including:
 *   **Cataracts and Osteoporosis**: Typically appearing in the 20s or 30s.
 *   **[[notes/_link/Diabetes Mellitus]] and [[notes/_link/Cardiovascular Disease]]**: Leading to a shortened life expectancy (usually late 40s or early 50s).
-*   **[[notes/_link/Cancer]]**: Increased risk of rare sarcomas and other malignancies.
+*   **[[Cancer]]**: Increased risk of rare sarcomas and other malignancies.
 
 ### Connections
 - **[[notes/_link/Aging]]**: Werner Syndrome is a primary model for "adult-onset progeria."
@@ -24,6 +24,6 @@ Patients with Werner Syndrome develop many conditions associated with normal agi
 - **[[HGPS]]**: Another major progeroid syndrome (childhood-onset).
 
 ### Linking Summary:
-- New links added: [[Werner Syndrome]], [[notes/_link/Aging]], [[HGPS]], [[Genomic Instability]], [[notes/_link/DNA Repair]], [[DNA Replication]], [[notes/_link/Diabetes Mellitus]], [[notes/_link/Cardiovascular Disease]], [[notes/_link/Cancer]]
+- New links added: [[Werner Syndrome]], [[notes/_link/Aging]], [[HGPS]], [[Genomic Instability]], [[notes/_link/DNA Repair]], [[DNA Replication]], [[notes/_link/Diabetes Mellitus]], [[notes/_link/Cardiovascular Disease]], [[Cancer]]
 - Suggested new entity notes to create: [[WRN Protein]], [[Helicase]], [[Adult-Onset Progeria]]
 - Strong connections to strengthen: [[Werner Syndrome]] ↔ [[notes/_link/Aging]], [[Werner Syndrome]] ↔ [[Genomic Instability]]

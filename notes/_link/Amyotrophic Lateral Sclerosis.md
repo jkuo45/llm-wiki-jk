@@ -1,6 +1,6 @@
 # Amyotrophic Lateral Sclerosis
 
-Amyotrophic lateral sclerosis (ALS) is a progressive neurodegenerative disease that affects nerve cells in the brain and the spinal cord. [[notes/_link/Oxidative Stress]] is heavily implicated, particularly through mutations in the [[notes/_link/Superoxide Dismutase]] (SOD1) gene, which lead to mitochondrial impairment and motor neuron death.
+Amyotrophic lateral sclerosis (ALS) is a progressive neurodegenerative disease that affects nerve cells in the brain and the spinal cord. [[notes/oxidative_stress/Oxidative Stress]] is heavily implicated, particularly through mutations in the [[notes/_link/Superoxide Dismutase]] (SOD1) gene, which lead to mitochondrial impairment and motor neuron death.
 
 
 Amyotrophic Lateral Sclerosis (ALS) is a progressive [[notes/_link/Neurodegenerative Diseases|neurodegenerative disease]] that affects nerve cells in the brain and the spinal cord. It leads to the loss of muscle control and eventually death.

@@ -4,6 +4,6 @@ The [[Retinoblastoma Protein]] ([[Rb]]) is a tumor suppressor protein that is dy
 
 ### Linking Summary:
 
-- New links added: [[E2F]], [[Quiescence]], [[Cell Cycle]], [[notes/_link/Cancer]]
+- New links added: [[E2F]], [[Quiescence]], [[Cell Cycle]], [[Cancer]]
 - Suggested new entity notes to create: [[RB1]], [[E2F1]]
 - Strong connections to strengthen: [[Retinoblastoma Protein]] ↔ [[Cyclin-Dependent Kinase]]

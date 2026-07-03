@@ -21,7 +21,7 @@ This directory contains notes and research regarding [[notes/_link/Neuromelanin]
 | [[Apoptosis]]                                | 11_Jun_2026 04:00 PM | Biological Process      |
 | [[Aromatic L-amino acid decarboxylase]]      | 11_Jun_2026 04:00 PM | Enzyme                  |
 | [[Ascorbic acid]]                            | 11_Jun_2026 04:00 PM | Chemical Compound       |
-| [[notes/_link/Autophagy]]                    | 27_May_2026 09:48 AM | Biological Process      |
+| [[Autophagy]]                    | 27_May_2026 09:48 AM | Biological Process      |
 | [[Benzothiazine]]                            | 11_Jun_2026 04:00 PM | Chemical Class          |
 | [[Bradykinesia]]                             | 31_May_2026 02:45 PM | Symptom                 |
 | [[Catecholamines]]                           | 31_May_2026 03:00 PM | Chemical Class          |
@@ -78,7 +78,7 @@ This directory contains notes and research regarding [[notes/_link/Neuromelanin]
 | [[Nicotine]]                                 | 11_Jun_2026 04:00 PM | Chemical Compound       |
 | [[Nigrostriatal System]]                     | 25_May_2026 05:23 PM | Anatomy                 |
 | [[notes/_link/Norepinephrine]]               | 31_May_2026 03:00 PM | Biological Molecule     |
-| [[notes/_link/Oxidative Stress]]             | 25_May_2026 05:23 PM | Scientific Concept      |
+| [[notes/oxidative_stress/Oxidative Stress]]             | 25_May_2026 05:23 PM | Scientific Concept      |
 | [[p62]]                                      | 31_May_2026 02:45 PM | Protein                 |
 | [[Pale Bodies]]                              | 31_May_2026 02:45 PM | Medical Condition       |
 | [[Paraquat]]                                 | 31_May_2026 02:45 PM | Toxin                   |

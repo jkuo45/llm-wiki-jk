@@ -11,7 +11,7 @@ In the context of [[Yamanaka Factors]], research has explored reprogramming canc
 Cancer is a large group of diseases characterized by the uncontrolled growth and spread of abnormal cells, often driven by the acquisition of specific [[Hallmarks of Cancer]].
 
 
-Cancer is a group of diseases involving abnormal cell growth with the potential to invade or spread to other parts of the body, where [[notes/_link/Autophagy]] can play dual roles as both a tumor suppressor and a survival mechanism for established tumors.
+Cancer is a group of diseases involving abnormal cell growth with the potential to invade or spread to other parts of the body, where [[Autophagy]] can play dual roles as both a tumor suppressor and a survival mechanism for established tumors.
 
 
 ## Definition
@@ -19,29 +19,29 @@ Cancer is a group of diseases involving abnormal cell growth with the potential 
 
 
 ## Relation to Oxidative Stress
-[[notes/_link/Oxidative Stress]] can induce [[notes/_link/DNA Damage]] (e.g., [[8-oxo-2'-deoxyguanosine]]), leading to gene mutations and [[oncogene activation]].
+[[notes/oxidative_stress/Oxidative Stress]] can induce [[notes/_link/DNA Damage]] (e.g., [[8-oxo-2'-deoxyguanosine]]), leading to gene mutations and [[oncogene activation]].
 
 
 ## Linking Summary:
-- New links added: [[notes/_link/Oxidative Stress]], [[8-oxo-2'-deoxyguanosine]], [[notes/_link/Reactive Oxygen Species]], [[notes/_link/Ascorbic Acid]], [[notes/_link/DNA Damage]], [[oncogene activation]]
+- New links added: [[notes/oxidative_stress/Oxidative Stress]], [[8-oxo-2'-deoxyguanosine]], [[notes/_link/Reactive Oxygen Species]], [[notes/_link/Ascorbic Acid]], [[notes/_link/DNA Damage]], [[oncogene activation]]
 - Suggested new entity notes to create: [[oncogene activation]], [[notes/_link/DNA Damage]]
-- Strong connections to strengthen: [[notes/_link/Cancer]] ↔ [[notes/_link/Oxidative Stress]]
+- Strong connections to strengthen: [[Cancer]] ↔ [[notes/oxidative_stress/Oxidative Stress]]
 
 - New links added: [[notes/_link/Aging]], [[Epigenetics]], [[DNA Methylation]], [[LINE-1]], [[Heterochromatin]], [[Genomic Instability]], [[Transposable Elements]], [[CpG Island]], [[Cellular Senescence]], [[SASP]], [[Epigenetic Clock]].
 - Suggested new entity notes to create: [[Oncogene]], [[Tumor Suppressor]], [[Telomere]], [[Telomerase]].
-- Strong connections to strengthen: [[notes/_link/Cancer]] ↔ [[notes/_link/Aging]], [[notes/_link/Cancer]] ↔ [[DNA Methylation]]
+- Strong connections to strengthen: [[Cancer]] ↔ [[notes/_link/Aging]], [[Cancer]] ↔ [[DNA Methylation]]
 
 - New links added: [[Yamanaka Factors]], [[c-Myc]], [[Klf4]], [[Cellular Reprogramming]]
 - Suggested new entity notes to create: 
-- Strong connections to strengthen: [[c-Myc]] ↔ [[notes/_link/Cancer]]
+- Strong connections to strengthen: [[c-Myc]] ↔ [[Cancer]]
 
-- New links added: [[Hallmarks of Cancer]], [[Angiogenesis]], [[notes/_link/Apoptosis]], [[notes/_link/Autophagy]], [[Pyroptosis]], [[Metabolic Reprogramming]], [[Warburg Effect]], [[Glycolysis]], [[GLUT1]], [[Hexokinase 2]], [[Pyruvate Kinase M2]], [[EMT]], [[notes/_link/PI3K]], [[notes/_link/Akt]], [[notes/_link/mTOR]], [[notes/_link/MAPK]], [[Wnt]], [[JAK2]], [[notes/_link/STAT3]], [[YAP1]], [[NFκB]], [[Integrins]], [[FAK]], [[EGFR]], [[HER2]], [[notes/_link/p53]], [[BRCA]], [[Ki-67]], [[PD-L1]], [[notes/_link/Breast Cancer]], [[HER2-enriched breast cancer]], [[triple-negative breast cancer]], [[Lung Cancer]], [[non-small-cell lung cancer]], [[notes/_link/Colorectal Cancer]], [[Prostate Cancer]], [[Hepatocellular Carcinoma]], [[Gastric Cancer]], [[pancreatic cancer]], [[ovarian cancer]], [[cervical cancer]], [[Renal Cell Carcinoma]], [[glioblastoma]], [[melanoma]], [[leukemia]], [[Nasopharyngeal Carcinoma]], [[Cholangiocarcinoma]], [[cisplatin]], [[docetaxel]], [[trastuzumab]], [[Drug Repositioning]], [[Ivermectin]], [[Benzimidazole]], [[Fenbendazole]], [[Mebendazole]], [[Albendazole]], [[Oxfendazole]], [[Honeybee venom]], [[melittin]], [[Multidrug Resistance]], [[RGD peptide]], [[CendR motif]], [[ECM]], [[Fibronectin]], [[Fibrinogen]], [[Vitronectin]], [[Glutamate-gated Cl- channels]], [[GABA]].
+- New links added: [[Hallmarks of Cancer]], [[Angiogenesis]], [[notes/_link/Apoptosis]], [[Autophagy]], [[Pyroptosis]], [[Metabolic Reprogramming]], [[Warburg Effect]], [[Glycolysis]], [[GLUT1]], [[Hexokinase 2]], [[Pyruvate Kinase M2]], [[EMT]], [[notes/_link/PI3K]], [[notes/_link/Akt]], [[notes/_link/mTOR]], [[notes/_link/MAPK]], [[Wnt]], [[JAK2]], [[notes/_link/STAT3]], [[YAP1]], [[NFκB]], [[Integrins]], [[FAK]], [[EGFR]], [[HER2]], [[notes/_link/p53]], [[BRCA]], [[Ki-67]], [[PD-L1]], [[notes/_link/Breast Cancer]], [[HER2-enriched breast cancer]], [[triple-negative breast cancer]], [[Lung Cancer]], [[non-small-cell lung cancer]], [[notes/_link/Colorectal Cancer]], [[Prostate Cancer]], [[Hepatocellular Carcinoma]], [[Gastric Cancer]], [[pancreatic cancer]], [[ovarian cancer]], [[cervical cancer]], [[notes/_link/Renal Cell Carcinoma]], [[glioblastoma]], [[melanoma]], [[leukemia]], [[Nasopharyngeal Carcinoma]], [[Cholangiocarcinoma]], [[cisplatin]], [[docetaxel]], [[trastuzumab]], [[Drug Repositioning]], [[Ivermectin]], [[Benzimidazole]], [[Fenbendazole]], [[Mebendazole]], [[Albendazole]], [[Oxfendazole]], [[Honeybee venom]], [[melittin]], [[Multidrug Resistance]], [[RGD peptide]], [[CendR motif]], [[ECM]], [[Fibronectin]], [[Fibrinogen]], [[Vitronectin]], [[Glutamate-gated Cl- channels]], [[GABA]].
 - Suggested new entity notes to create: [[Metastasis]], [[Tumor Microenvironment]], [[Oncogene]], [[Tumor Suppressor Gene]], [[Immunotherapy]], [[Hippo Pathway]], [[MYC]].
 - Strong connections to strengthen: [[Hallmarks of Cancer]] ↔ [[Metabolic Reprogramming]], [[Ivermectin]] ↔ [[Drug Repositioning]], [[Fenbendazole]] ↔ [[Microtubule]].
 
-- New links added: [[notes/_link/Autophagy]]
+- New links added: [[Autophagy]]
 - Suggested new entity notes to create: [[notes/_link/Apoptosis]], [[Metastasis]]
-- Strong connections to strengthen: [[notes/_link/Cancer]] ↔ [[Metabolic Reprogramming]]
+- Strong connections to strengthen: [[Cancer]] ↔ [[Metabolic Reprogramming]]
 
 ## 1. Shared Epigenetic Hallmarks
 Both aging and cancer exhibit a characteristic "epigenetic drift" or erosion of the landscape:
@@ -71,7 +71,7 @@ In essence, **aging provides the epigenetic "soil"** (silencing of protective ge
 
 
 ## Overview
-Cancer development is a complex multi-step process involving genetic mutations and epigenetic changes that lead to dysregulated cellular functions. Key biological processes involved in cancer progression include [[Angiogenesis]], which provides blood supply to tumors, and the evasion of programmed cell death mechanisms such as [[notes/_link/Apoptosis]], [[notes/_link/Autophagy]], and [[Pyroptosis]].
+Cancer development is a complex multi-step process involving genetic mutations and epigenetic changes that lead to dysregulated cellular functions. Key biological processes involved in cancer progression include [[Angiogenesis]], which provides blood supply to tumors, and the evasion of programmed cell death mechanisms such as [[notes/_link/Apoptosis]], [[Autophagy]], and [[Pyroptosis]].
 
 
 ## Pathophysiology
@@ -104,7 +104,7 @@ Research in this knowledge base covers various malignancies, including:
 - [[pancreatic cancer]]
 - [[ovarian cancer]]
 - [[cervical cancer]]
-- [[Renal Cell Carcinoma]]
+- [[notes/_link/Renal Cell Carcinoma]]
 - [[glioblastoma]]
 - [[melanoma]]
 - [[leukemia]]
@@ -119,7 +119,7 @@ One of the significant challenges in treatment is [[Multidrug Resistance]], whic
 
 
 ## Connections
-- [[notes/_link/Oxidative Stress]]
+- [[notes/oxidative_stress/Oxidative Stress]]
 - [[notes/_link/Reactive Oxygen Species]]
 - [[notes/_link/Ascorbic Acid]] (as a potential prooxidant therapy)
 
@@ -141,6 +141,6 @@ One of the significant challenges in treatment is [[Multidrug Resistance]], whic
 
 
 ### Linking Summary:
-- New links added: [[8-oxo-2'-deoxyguanosine]], [[notes/_link/Aging]], [[notes/_link/Ascorbic Acid]], [[notes/_link/Autophagy]], [[Cellular Reprogramming]], [[Cellular Senescence]], [[CpG Island]], [[DNA Methylation]], [[notes/_link/DNA Damage]], [[Epigenetic Clock]], [[Epigenetics]], [[Genomic Instability]], [[Heterochromatin]], [[Klf4]], [[LINE-1]], [[notes/_link/Oxidative Stress]], [[notes/_link/Reactive Oxygen Species]], [[SASP]], [[Transposable Elements]], [[Yamanaka Factors]], [[c-Myc]], [[oncogene activation]]
+- New links added: [[8-oxo-2'-deoxyguanosine]], [[notes/_link/Aging]], [[notes/_link/Ascorbic Acid]], [[Autophagy]], [[Cellular Reprogramming]], [[Cellular Senescence]], [[CpG Island]], [[DNA Methylation]], [[notes/_link/DNA Damage]], [[Epigenetic Clock]], [[Epigenetics]], [[Genomic Instability]], [[Heterochromatin]], [[Klf4]], [[LINE-1]], [[notes/oxidative_stress/Oxidative Stress]], [[notes/_link/Reactive Oxygen Species]], [[SASP]], [[Transposable Elements]], [[Yamanaka Factors]], [[c-Myc]], [[oncogene activation]]
 - Suggested new entity notes to create: [[notes/_link/Apoptosis]], [[notes/_link/DNA Damage]], [[Metastasis]], [[Oncogene]], [[Telomerase]], [[Telomere]], [[Tumor Suppressor]], [[oncogene activation]]
-- Strong connections to strengthen: [[notes/_link/Cancer]] ↔ [[notes/_link/Aging]], [[notes/_link/Cancer]] ↔ [[DNA Methylation]], [[notes/_link/Cancer]] ↔ [[Metabolic Reprogramming]], [[notes/_link/Cancer]] ↔ [[notes/_link/Oxidative Stress]], [[c-Myc]] ↔ [[notes/_link/Cancer]]
+- Strong connections to strengthen: [[Cancer]] ↔ [[notes/_link/Aging]], [[Cancer]] ↔ [[DNA Methylation]], [[Cancer]] ↔ [[Metabolic Reprogramming]], [[Cancer]] ↔ [[notes/oxidative_stress/Oxidative Stress]], [[c-Myc]] ↔ [[Cancer]]

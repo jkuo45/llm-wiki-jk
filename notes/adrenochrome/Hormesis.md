@@ -21,11 +21,11 @@ Hormesis is thought to be an evolutionary adaptation to environmental stress, wh
 
 - [[Mitohormesis]]
 - [[Xenohormesis]]
-- [[Oxidative Stress]]
+- [[notes/adrenochrome/Oxidative Stress]]
 - [[Longevity]]
 
 ## Linking Summary
 
-- New links added: [[Mitohormesis]], [[Xenohormesis]], [[Oxidative Stress]], [[Longevity]]
+- New links added: [[Mitohormesis]], [[Xenohormesis]], [[notes/adrenochrome/Oxidative Stress]], [[Longevity]]
 - Suggested new entity notes to create: [[Biphasic dose response]]
 - Strong connections to strengthen: [[Hormesis]] ↔ [[Evolutionary Biology]]

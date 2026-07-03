@@ -10,7 +10,7 @@
 - **Defense:** Used by the immune system in the killing of pathogens.
 
 ## Role in [[Adrenochrome]] Formation
-Hydrogen peroxide, along with [[Superoxide anion]], serves as an oxidant that can drive the non-enzymatic conversion of [[notes/_link/Epinephrine]] to [[Adrenochrome]]. This process is especially prominent under conditions of [[notes/_link/Oxidative Stress]].
+Hydrogen peroxide, along with [[Superoxide anion]], serves as an oxidant that can drive the non-enzymatic conversion of [[notes/_link/Epinephrine]] to [[Adrenochrome]]. This process is especially prominent under conditions of [[notes/oxidative_stress/Oxidative Stress]].
 
 ## Impact and Toxicity
 - **Precursor to Damage:** In the presence of transition metals (e.g., $Fe^{2+}$, $Cu^+$), it undergoes the Fenton reaction to produce the highly destructive [[Hydroxyl radical]].
@@ -25,9 +25,9 @@ Hydrogen peroxide, along with [[Superoxide anion]], serves as an oxidant that ca
 - [[Superoxide anion]] ↔ Precursor to hydrogen peroxide via dismutation.
 - [[MAO]] ↔ Enzyme that produces H₂O₂ as a metabolic byproduct.
 - [[Adrenochrome]] ↔ Oxidative byproduct whose formation is facilitated by H₂O₂.
-- [[notes/_link/Oxidative Stress]] ↔ Central player in the ROS cascade.
+- [[notes/oxidative_stress/Oxidative Stress]] ↔ Central player in the ROS cascade.
 
 ### Linking Summary:
-- New links added: [[Adrenochrome]], [[Catalase]], [[notes/_link/Epinephrine]], [[notes/_link/Glutathione]], [[Glutathione Peroxidase]], [[Hydroxyl radical]], [[MAO]], [[NADPH Oxidase]], [[notes/_link/Neutrophils]], [[notes/_link/Reactive Oxygen Species]], [[notes/_link/Superoxide Dismutase]], [[Superoxide anion]], [[Xanthine Oxidase]], [[notes/_link/Apoptosis]], [[notes/_link/Oxidative Stress]]
+- New links added: [[Adrenochrome]], [[Catalase]], [[notes/_link/Epinephrine]], [[notes/_link/Glutathione]], [[Glutathione Peroxidase]], [[Hydroxyl radical]], [[MAO]], [[NADPH Oxidase]], [[notes/_link/Neutrophils]], [[notes/_link/Reactive Oxygen Species]], [[notes/_link/Superoxide Dismutase]], [[Superoxide anion]], [[Xanthine Oxidase]], [[notes/_link/Apoptosis]], [[notes/oxidative_stress/Oxidative Stress]]
 - Suggested new entity notes to create: [[Fenton Reaction]], [[Xanthine Oxidase]], [[NADPH Oxidase]]
 - Strong connections to strengthen: [[notes/_link/Hydrogen Peroxide]] ↔ [[Catalase]], [[notes/_link/Hydrogen Peroxide]] ↔ [[MAO]]

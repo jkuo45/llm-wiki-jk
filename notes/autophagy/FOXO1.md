@@ -1,11 +1,11 @@
 # FOXO1
 
-**FOXO1** (Forkhead Box O1) is a transcription factor that plays a central role in regulating metabolism, cell survival, and [[notes/_link/Autophagy]].
+**FOXO1** (Forkhead Box O1) is a transcription factor that plays a central role in regulating metabolism, cell survival, and [[Autophagy]].
 
 ## Regulation by Insulin/Akt
 - Under nutrient-rich conditions, insulin and [[IGF1]] activate the [[notes/_link/Akt]] pathway.
 - Akt phosphorylates FOXO1, leading to its export from the nucleus to the cytoplasm, thereby inhibiting its transcriptional activity.
-- This suppression of FOXO1 is a major mechanism by which insulin inhibits [[notes/_link/Autophagy]].
+- This suppression of FOXO1 is a major mechanism by which insulin inhibits [[Autophagy]].
 
 ## Role in Autophagy Induction
 - During [[notes/_link/Caloric Restriction]] or [[Intermittent Fasting]], the Akt pathway is downregulated.
@@ -13,6 +13,6 @@
 - FOXO1 also promotes [[Gluconeogenesis]] during starvation.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Autophagy]], [[IGF1]], [[notes/_link/Akt]], [[notes/_link/Caloric Restriction]], [[Intermittent Fasting]], [[Atg]], [[Atg5]], [[Atg8]], [[LC3]], [[ULK1]], [[Gluconeogenesis]]
+- New links added: [[Autophagy]], [[IGF1]], [[notes/_link/Akt]], [[notes/_link/Caloric Restriction]], [[Intermittent Fasting]], [[Atg]], [[Atg5]], [[Atg8]], [[LC3]], [[ULK1]], [[Gluconeogenesis]]
 - Suggested new entity notes to create: , [[Atg]]
-- Strong connections to strengthen: [[FOXO1]] ↔ [[notes/_link/Akt]], [[FOXO1]] ↔ [[notes/_link/Autophagy]]
+- Strong connections to strengthen: [[FOXO1]] ↔ [[notes/_link/Akt]], [[FOXO1]] ↔ [[Autophagy]]

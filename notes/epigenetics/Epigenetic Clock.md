@@ -9,7 +9,7 @@ Epigenetic clocks are among the most accurate biomarkers for aging. They typical
 
 ### 2. Applications in Research
 *   **Longevity Interventions:** Clocks are used to test whether interventions like [[notes/_link/Caloric Restriction]] or [[notes/_link/Metformin]] are actually slowing the aging process at a molecular level.
-*   **Disease Risk Assessment:** They can help identify individuals at risk for [[notes/_link/Cardiovascular Disease]], [[notes/_link/Cancer]], and [[notes/_link/Neurodegenerative Diseases]] before clinical symptoms appear.
+*   **Disease Risk Assessment:** They can help identify individuals at risk for [[notes/_link/Cardiovascular Disease]], [[Cancer]], and [[notes/_link/Neurodegenerative Diseases]] before clinical symptoms appear.
 
 ### 3. Reversibility
 One of the most exciting aspects of the epigenetic clock is that it may be reversible. Clinical trials are currently investigating whether specific lifestyle changes or pharmacological agents can "wind back" the clock.
@@ -21,6 +21,6 @@ One of the most exciting aspects of the epigenetic clock is that it may be rever
 - **[[Biomarkers]]**: Epigenetic clocks are considered the "gold standard" of aging biomarkers.
 
 ### Linking Summary:
-- New links added: [[Epigenetic Clock]], [[DNA Methylation]], [[DNAmGrimAge]], [[notes/_link/Aging]], [[notes/_link/Caloric Restriction]], [[notes/_link/Metformin]], [[notes/_link/Cardiovascular Disease]], [[notes/_link/Cancer]], [[notes/_link/Neurodegenerative Diseases]], [[Biomarkers]]
+- New links added: [[Epigenetic Clock]], [[DNA Methylation]], [[DNAmGrimAge]], [[notes/_link/Aging]], [[notes/_link/Caloric Restriction]], [[notes/_link/Metformin]], [[notes/_link/Cardiovascular Disease]], [[Cancer]], [[notes/_link/Neurodegenerative Diseases]], [[Biomarkers]]
 - Suggested new entity notes to create: [[Horvath Clock]], [[Hannum Clock]], [[Age Acceleration]]
 - Strong connections to strengthen: [[Epigenetic Clock]] ↔ [[notes/_link/Aging]], [[Epigenetic Clock]] ↔ [[DNA Methylation]]

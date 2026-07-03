@@ -1,6 +1,6 @@
 # Senescence
 
-[[notes/_link/Senescence]], or cellular senescence, is a state of permanent cell cycle arrest that occurs when cells are subjected to various stressors, including [[notes/_link/DNA Damage]], [[notes/_link/Oxidative Stress]], or oncogene activation. It is characterized by a profound and dynamic remodeling of the [[Chromatin]] landscape and [[Epigenetics]] state.
+[[notes/_link/Senescence]], or cellular senescence, is a state of permanent cell cycle arrest that occurs when cells are subjected to various stressors, including [[notes/_link/DNA Damage]], [[notes/oxidative_stress/Oxidative Stress]], or oncogene activation. It is characterized by a profound and dynamic remodeling of the [[Chromatin]] landscape and [[Epigenetics]] state.
 
 ## Hallmarks of Senescence
 1. **Permanent Cell-Cycle Arrest**: Mediated primarily by the [[notes/_link/p53]]/p21 and p16/RB pathways.
@@ -20,12 +20,12 @@ Senescence is considered a major roadblock during the induction of pluripotency:
 
 ## Connections
 - [[notes/_link/Aging]]: The accumulation of senescent cells is a primary driver of tissue aging and age-related diseases.
-- [[notes/_link/Cancer]]: Senescence acts as an initial barrier to cancer but can later promote tumor growth via the SASP.
+- [[Cancer]]: Senescence acts as an initial barrier to cancer but can later promote tumor growth via the SASP.
 - [[notes/_link/p53]]: A central mediator of the senescence response.
 - [[Cellular Reprogramming]]: Senescence must be bypassed or suppressed for successful reprogramming.
-- [[notes/_link/Autophagy]]: Often plays a dual role in regulating or being regulated by the senescent state.
+- [[Autophagy]]: Often plays a dual role in regulating or being regulated by the senescent state.
 
 ### Linking Summary:
-- New links added: [[Chromatin]], [[Epigenetics]], [[Senescence-Associated Secretory Phenotype]], [[SAHF]], [[Lamin A]], [[Heterochromatin]], [[Euchromatin]], [[Histone Modification]], [[LINE-1]], [[Histone Variant]], [[Methylation]], [[notes/_link/Aging]], [[Epigenetic Clock]], [[Genomic Instability]], [[notes/_link/Cancer]], [[notes/_link/p53]], [[Cellular Reprogramming]], [[notes/_link/DNA Damage]], [[Fibroblasts]], [[Innate Immunity]], [[OSKM]], [[notes/_link/Reactive Oxygen Species]].
+- New links added: [[Chromatin]], [[Epigenetics]], [[Senescence-Associated Secretory Phenotype]], [[SAHF]], [[Lamin A]], [[Heterochromatin]], [[Euchromatin]], [[Histone Modification]], [[LINE-1]], [[Histone Variant]], [[Methylation]], [[notes/_link/Aging]], [[Epigenetic Clock]], [[Genomic Instability]], [[Cancer]], [[notes/_link/p53]], [[Cellular Reprogramming]], [[notes/_link/DNA Damage]], [[Fibroblasts]], [[Innate Immunity]], [[OSKM]], [[notes/_link/Reactive Oxygen Species]].
 - Suggested new entity notes to create: [[Lamin B1]], [[cGAS-STING Pathway]], [[p16]], [[p21]].
-- Strong connections to strengthen: [[notes/_link/Senescence]] ↔ [[notes/_link/Aging]], [[notes/_link/Senescence]] ↔ [[notes/_link/Autophagy]]
+- Strong connections to strengthen: [[notes/_link/Senescence]] ↔ [[notes/_link/Aging]], [[notes/_link/Senescence]] ↔ [[Autophagy]]

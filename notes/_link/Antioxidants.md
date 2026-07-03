@@ -9,9 +9,9 @@ Antioxidants is a concept related to [[Adrenochrome]] and catecholamine metaboli
 ## Linking Summary:
 - New links added: [[Adrenochrome]]
 
-- New links added: [[notes/_link/Reactive Oxygen Species]], [[notes/_link/Superoxide Dismutase]], [[Superoxide Radicals]], [[notes/_link/Hydrogen Peroxide]], [[Catalase]], [[Glutathione Peroxidase]], [[notes/_link/Glutathione]], [[notes/_link/Vitamin E]], [[Vitamin C]], [[Coenzyme Q10]], [[Polyphenols]], [[Flavonoids]], [[Lipid Peroxidation]], [[notes/_link/Oxidative Stress]], [[notes/_link/Cancer]], [[notes/_link/Cardiovascular Disease]], [[Neurodegenerative Disease]], [[notes/_link/Mitochondria]]
+- New links added: [[notes/_link/Reactive Oxygen Species]], [[notes/_link/Superoxide Dismutase]], [[Superoxide Radicals]], [[notes/_link/Hydrogen Peroxide]], [[Catalase]], [[Glutathione Peroxidase]], [[notes/_link/Glutathione]], [[notes/_link/Vitamin E]], [[Vitamin C]], [[Coenzyme Q10]], [[Polyphenols]], [[Flavonoids]], [[Lipid Peroxidation]], [[notes/oxidative_stress/Oxidative Stress]], [[Cancer]], [[notes/_link/Cardiovascular Disease]], [[Neurodegenerative Disease]], [[notes/_link/Mitochondria]]
 - Suggested new entity notes to create: [[Vitamin C]]
-- Strong connections to strengthen: [[notes/_link/Antioxidants]] ↔ [[notes/_link/Oxidative Stress]]
+- Strong connections to strengthen: [[notes/_link/Antioxidants]] ↔ [[notes/oxidative_stress/Oxidative Stress]]
 
 ## Classification
 Antioxidants can be broadly categorized into enzymatic and non-enzymatic systems.
@@ -41,16 +41,16 @@ Antioxidants work by:
 
 
 ## Clinical Importance
-An imbalance between ROS production and antioxidant defenses leads to [[notes/_link/Oxidative Stress]], which is implicated in the pathogenesis of numerous conditions, including [[notes/_link/Cancer]], [[notes/_link/Cardiovascular Disease]], and [[Neurodegenerative Disease]].
+An imbalance between ROS production and antioxidant defenses leads to [[notes/oxidative_stress/Oxidative Stress]], which is implicated in the pathogenesis of numerous conditions, including [[Cancer]], [[notes/_link/Cardiovascular Disease]], and [[Neurodegenerative Disease]].
 
 
 ## Connections
-- **[[notes/_link/Oxidative Stress]]**: The state resulting from insufficient antioxidant capacity.
+- **[[notes/oxidative_stress/Oxidative Stress]]**: The state resulting from insufficient antioxidant capacity.
 - **[[notes/_link/Reactive Oxygen Species]]**: The primary targets of antioxidant defense.
 - **[[notes/_link/Mitochondria]]**: A major site of both ROS production and antioxidant activity.
 
 
 ### Linking Summary:
-- New links added: [[Adrenochrome]], [[notes/_link/Cancer]], [[notes/_link/Cardiovascular Disease]], [[Catalase]], [[Coenzyme Q10]], [[Flavonoids]], [[notes/_link/Glutathione]], [[Glutathione Peroxidase]], [[notes/_link/Hydrogen Peroxide]], [[Lipid Peroxidation]], [[notes/_link/Mitochondria]], [[Neurodegenerative Disease]], [[notes/_link/Oxidative Stress]], [[Polyphenols]], [[notes/_link/Reactive Oxygen Species]], [[notes/_link/Superoxide Dismutase]], [[Superoxide Radicals]], [[Vitamin C]], [[notes/_link/Vitamin E]]
+- New links added: [[Adrenochrome]], [[Cancer]], [[notes/_link/Cardiovascular Disease]], [[Catalase]], [[Coenzyme Q10]], [[Flavonoids]], [[notes/_link/Glutathione]], [[Glutathione Peroxidase]], [[notes/_link/Hydrogen Peroxide]], [[Lipid Peroxidation]], [[notes/_link/Mitochondria]], [[Neurodegenerative Disease]], [[notes/oxidative_stress/Oxidative Stress]], [[Polyphenols]], [[notes/_link/Reactive Oxygen Species]], [[notes/_link/Superoxide Dismutase]], [[Superoxide Radicals]], [[Vitamin C]], [[notes/_link/Vitamin E]]
 - Suggested new entity notes to create: [[Vitamin C]]
-- Strong connections to strengthen: [[notes/_link/Antioxidants]] ↔ [[notes/_link/Oxidative Stress]]
+- Strong connections to strengthen: [[notes/_link/Antioxidants]] ↔ [[notes/oxidative_stress/Oxidative Stress]]

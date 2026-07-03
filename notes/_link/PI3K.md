@@ -3,7 +3,7 @@
 **Phosphoinositide 3-kinase** (PI3K) is a family of enzymes involved in cellular functions such as cell growth, proliferation, differentiation, motility, survival, and intracellular trafficking.
 
 
-**PI3K** (Phosphoinositide 3-kinase) is a family of enzymes involved in cellular signaling pathways that regulate growth, survival, and [[notes/_link/Autophagy]].
+**PI3K** (Phosphoinositide 3-kinase) is a family of enzymes involved in cellular signaling pathways that regulate growth, survival, and [[Autophagy]].
 
 
 ## Role in Cancer
@@ -13,7 +13,7 @@
 
 ## Class I PI3K and Autophagy Inhibition
 - Class I PI3K is activated by growth factors (like insulin and [[IGF1]]).
-- It activates the [[notes/_link/Akt]] pathway, which subsequently stimulates [[mTORC1]] and inhibits [[notes/_link/Autophagy]].
+- It activates the [[notes/_link/Akt]] pathway, which subsequently stimulates [[mTORC1]] and inhibits [[Autophagy]].
 
 
 ## Class III PI3K (Vps34) and Autophagy Initiation
@@ -22,9 +22,9 @@
 
 
 ## Linking Summary:
-- New links added: [[notes/_link/Autophagy]], [[IGF1]], [[notes/_link/Akt]], [[mTORC1]], [[Vps34]], [[Beclin1]], [[Atg14]], [[Autophagosome]]
+- New links added: [[Autophagy]], [[IGF1]], [[notes/_link/Akt]], [[mTORC1]], [[Vps34]], [[Beclin1]], [[Atg14]], [[Autophagosome]]
 - Suggested new entity notes to create: [[IGF1]], [[notes/_link/Akt]], [[mTORC1]], [[Vps34]], [[Beclin1]], [[Autophagosome]]
-- Strong connections to strengthen: [[notes/_link/PI3K]] ↔ [[notes/_link/Akt]], [[notes/_link/PI3K]] ↔ [[Vps34]], [[notes/_link/PI3K]] ↔ [[notes/_link/Autophagy]]
+- Strong connections to strengthen: [[notes/_link/PI3K]] ↔ [[notes/_link/Akt]], [[notes/_link/PI3K]] ↔ [[Vps34]], [[notes/_link/PI3K]] ↔ [[Autophagy]]
 
 ## Connections
 - [[notes/_link/Akt]]: A major downstream effector of PI3K.
@@ -32,6 +32,6 @@
 - [[melittin]]: Shown to inhibit the PI3K/Akt/mTOR axis in breast cancer cells.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Akt]], [[Atg14]], [[Autophagosome]], [[notes/_link/Autophagy]], [[Beclin1]], [[IGF1]], [[Vps34]], [[mTORC1]]
+- New links added: [[notes/_link/Akt]], [[Atg14]], [[Autophagosome]], [[Autophagy]], [[Beclin1]], [[IGF1]], [[Vps34]], [[mTORC1]]
 - Suggested new entity notes to create: [[notes/_link/Akt]], [[Autophagosome]], [[Beclin1]], [[IGF1]], [[Vps34]], [[mTORC1]]
-- Strong connections to strengthen: [[notes/_link/PI3K]] ↔ [[notes/_link/Akt]], [[notes/_link/PI3K]] ↔ [[notes/_link/Autophagy]], [[notes/_link/PI3K]] ↔ [[Vps34]]
+- Strong connections to strengthen: [[notes/_link/PI3K]] ↔ [[notes/_link/Akt]], [[notes/_link/PI3K]] ↔ [[Autophagy]], [[notes/_link/PI3K]] ↔ [[Vps34]]

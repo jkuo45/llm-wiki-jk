@@ -12,7 +12,7 @@ The "miRNome"—the complete set of miRNAs in a cell—undergoes predictable cha
 
 ### 3. Role in Disease
 Dysregulation of miRNAs is a hallmark of many age-related conditions:
-*   **[[notes/_link/Cancer]]**: miRNAs can act as either oncogenes or tumor suppressors.
+*   **[[Cancer]]**: miRNAs can act as either oncogenes or tumor suppressors.
 *   **[[notes/_link/Neurodegenerative Diseases]]**: miRNAs are essential for neuronal survival, and their loss is linked to diseases like Alzheimer's and Parkinson's.
 
 ### Connections
@@ -22,6 +22,6 @@ Dysregulation of miRNAs is a hallmark of many age-related conditions:
 - **[[Biomarkers]]**: miRNAs are promising candidates for minimally invasive aging tests.
 
 ### Linking Summary:
-- New links added: [[MicroRNA]], [[Non-coding RNA]], [[Epigenome]], [[DNA Methylation]], [[Histone Modification]], [[DNA Methyltransferase]], [[HDAC]], [[notes/_link/Aging]], [[Biomarkers]], [[notes/_link/Cancer]], [[notes/_link/Neurodegenerative Diseases]], [[Epigenetics]]
+- New links added: [[MicroRNA]], [[Non-coding RNA]], [[Epigenome]], [[DNA Methylation]], [[Histone Modification]], [[DNA Methyltransferase]], [[HDAC]], [[notes/_link/Aging]], [[Biomarkers]], [[Cancer]], [[notes/_link/Neurodegenerative Diseases]], [[Epigenetics]]
 - Suggested new entity notes to create: [[miRNome]], [[InflammamiRs]], [[Dicer Enzyme]]
 - Strong connections to strengthen: [[MicroRNA]] ↔ [[Epigenetics]], [[MicroRNA]] ↔ [[notes/_link/Aging]]

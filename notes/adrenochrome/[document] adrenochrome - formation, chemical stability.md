@@ -33,7 +33,7 @@ I'm now diving into the chemical mechanism in detail, beginning with [[notes/_li
 
 **Exploring the Chemical Reactivity**
 
-I'm now clarifying the intramolecular process. It's like the side chain of the molecule, which is the tail, reaching around to bond with the ring, which is the body. The resulting closed loop is the final form of the molecule. I'm focusing on why [[Adrenochrome]] isn't the primary product in vivo, and the roles of [[MAO]] and [[notes/_link/COMT]]. I have to avoid conspiratorial narratives surrounding the topic.
+I'm now clarifying the intramolecular process. It's like the side chain of the molecule, which is the tail, reaching around to bond with the ring, which is the body. The resulting closed loop is the final form of the molecule. I'm focusing on why [[Adrenochrome]] isn't the primary product in vivo, and the roles of [[MAO]] and [[COMT]]. I have to avoid conspiratorial narratives surrounding the topic.
 
 **Refining the Explanation**
 
@@ -66,7 +66,7 @@ To understand how [[notes/_link/Epinephrine]] becomes [[Adrenochrome]], it helps
 - **The Starting Point ([[Catechol]]):**
 	[[notes/_link/Epinephrine]] consists of a benzene ring with two hydroxyl groups (-OH) attached (the [[Catechol]]) and a "tail" (the amine side chain).
 - **The Oxidation (The "Trigger"):**
-	Under [[notes/_link/Oxidative Stress]] (or in the presence of oxygen in a test tube), the two hydroxyl groups lose hydrogen atoms (or electrons). This transforms the stable [[Catechol]] ring into an**
+	Under [[notes/oxidative_stress/Oxidative Stress]] (or in the presence of oxygen in a test tube), the two hydroxyl groups lose hydrogen atoms (or electrons). This transforms the stable [[Catechol]] ring into an**
 	[[o-quinone]]
 	**.
 	- Why this matters:
@@ -90,16 +90,16 @@ Imagine a person standing with their arms at their sides ([[notes/_link/Epinephr
 The difference between these two environments is important for understanding why we rarely see high levels of [[Adrenochrome]] in a healthy human body.
 
 - **In Vitro (The Test Tube):**
-	If you put pure [[notes/_link/Epinephrine]] in a beaker of water and let it sit in the air, the oxygen in the water will slowly oxidize it. Because there are no enzymes (like [[MAO]] or [[notes/_link/COMT]]) to clear the adrenaline away, the reaction proceeds until the liquid turns pink/red (the signature color of [[Adrenochrome]]). It is an inevitable chemical reaction when [[notes/_link/Epinephrine]] is left alone.
+	If you put pure [[notes/_link/Epinephrine]] in a beaker of water and let it sit in the air, the oxygen in the water will slowly oxidize it. Because there are no enzymes (like [[MAO]] or [[COMT]]) to clear the adrenaline away, the reaction proceeds until the liquid turns pink/red (the signature color of [[Adrenochrome]]). It is an inevitable chemical reaction when [[notes/_link/Epinephrine]] is left alone.
 - **In Vivo (The Body):**
 	The body is a highly regulated environment.
 	- The "cleanup crews" (
-		**[[notes/_link/COMT]] and [[MAO]]**
+		**[[COMT]] and [[MAO]]**
 		) are incredibly fast. They grab the adrenaline before it has time to sit around and oxidize.
 	- Therefore, for [[Adrenochrome]] to form
 		in vivo
 		, you need**
-		[[notes/_link/Oxidative Stress]]
+		[[notes/oxidative_stress/Oxidative Stress]]
 		**. This means there is so much adrenaline present, or so many [[notes/_link/Reactive Oxygen Species]] ([[ROS]]) present, that the "cleanup crews" are overwhelmed. The adrenaline is left sitting in the bloodstream/tissues too long, and the chemical "accident" (autoxidation) occurs.
 
 ### 3\. Why it is a "Side Pathway"
@@ -110,7 +110,7 @@ In your own description, you hit on the most important point: this is
 
 how the body metabolizes adrenaline.
 
-- **The "Main Route" ([[MAO]]/[[notes/_link/COMT]]):**
+- **The "Main Route" ([[MAO]]/[[COMT]]):**
 	This is a clean, intentional process. Enzymes specifically target adrenaline, chop it up, and prepare it for excretion in urine. It keeps blood pressure and heart rate controlled.
 - **The "Side Pathway" ([[Adrenochrome]]):**
 	This is essentially "**[[Metabolic waste]]**" or a "chemical mishap." It occurs when the body's antioxidant defenses are failing.
@@ -123,7 +123,7 @@ You can think of [[Adrenochrome]] as a
 
 - **[[notes/_link/Epinephrine]]**
 	is the signal (the active chemical).
-- **[[MAO]]/[[notes/_link/COMT]]**
+- **[[MAO]]/[[COMT]]**
 	are the janitors who clean up the signal when it's done.
 - **[[Adrenochrome]]**
 	is what happens when the janitors are overwhelmed, and the [[notes/_link/Epinephrine]] "sours" (oxidizes) on its own because it was left out too long.
@@ -247,7 +247,7 @@ In the body, you have internal systems designed specifically to prevent this pat
 	```
 	) before they have a chance to oxidize [[notes/_link/Epinephrine]].
 - **The "Safety" Ratio:**
-	Under normal health, the cleanup enzymes ([[MAO]]/[[notes/_link/COMT]]) and the antioxidant systems ([[notes/_link/Glutathione]]) are so efficient that the concentration of [[Adrenochrome]] in your blood is effectively**
+	Under normal health, the cleanup enzymes ([[MAO]]/[[COMT]]) and the antioxidant systems ([[notes/_link/Glutathione]]) are so efficient that the concentration of [[Adrenochrome]] in your blood is effectively**
 	zero or undetectable.
 	**
 
@@ -261,6 +261,6 @@ In the body, you have internal systems designed specifically to prevent this pat
 	[[Adrenochrome]] is not a substance the body creates for a purpose; it is a chemical "scar" that forms when the body’s antioxidant protective barriers have been stripped away and the adrenaline has been left to decay.
 
 ### Linking Summary:
-- New links added: [[Adrenochrome]], [[notes/_link/Epinephrine]], [[Catechol]], [[o-quinone]], [[Michael addition]], [[indoline-5,6-dione]], [[MAO]], [[notes/_link/COMT]], [[notes/_link/Reactive Oxygen Species]], [[ROS]], [[notes/_link/Oxidative Stress]], [[Metabolic waste]], [[Homeostasis]], [[notes/_link/Ascorbic Acid]], [[notes/_link/Glutathione]], [[Sodium Metabisulfite]], [[EDTA]], [[Melanins]], [[notes/_link/Superoxide Dismutase]].
+- New links added: [[Adrenochrome]], [[notes/_link/Epinephrine]], [[Catechol]], [[o-quinone]], [[Michael addition]], [[indoline-5,6-dione]], [[MAO]], [[COMT]], [[notes/_link/Reactive Oxygen Species]], [[ROS]], [[notes/oxidative_stress/Oxidative Stress]], [[Metabolic waste]], [[Homeostasis]], [[notes/_link/Ascorbic Acid]], [[notes/_link/Glutathione]], [[Sodium Metabisulfite]], [[EDTA]], [[Melanins]], [[notes/_link/Superoxide Dismutase]].
 - Suggested new entity notes to create: [[o-quinone]], [[indoline-5,6-dione]], [[Michael addition]], [[Metabolic waste]], [[Homeostasis]], [[notes/_link/Ascorbic Acid]], [[Sodium Metabisulfite]], [[EDTA]], [[Melanins]], [[notes/_link/Superoxide Dismutase]].
 - Strong connections to strengthen: [[notes/_link/Epinephrine]] ↔ [[Adrenochrome]]

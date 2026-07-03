@@ -9,12 +9,12 @@
 - **Altered Cell Dynamics**: Changes in the proportions and functions of various immune cell subsets.
 
 ## Clinical Implications
-Immune aging is a major driver of age-related morbidity and mortality, contributing to conditions such as [[notes/_link/Atherosclerosis]], [[notes/_link/Cancer]], and increased severity of viral infections like [[COVID-19]].
+Immune aging is a major driver of age-related morbidity and mortality, contributing to conditions such as [[notes/_link/Atherosclerosis]], [[Cancer]], and increased severity of viral infections like [[COVID-19]].
 
 ## Therapeutic Strategies
 Interventions targeting immune aging include [[Autophagy Inducer|autophagy inducers]] like [[Rapamycin]], [[notes/_link/Metformin]], and [[notes/_link/Spermidine]], as well as lifestyle changes such as [[Dietary Restriction]] and [[Exercise]].
 
 ### Linking Summary:
-- New links added: [[notes/_link/Immunosenescence]], [[notes/_link/Immune System]], [[Thymic Involution]], [[T Cell]], [[notes/_link/Inflammaging]], [[notes/_link/Senescence]], [[Senescence-Associated Secretory Phenotype]], [[notes/_link/Atherosclerosis]], [[notes/_link/Cancer]], [[COVID-19]], [[Autophagy Inducer]], [[Rapamycin]], [[notes/_link/Metformin]], [[notes/_link/Spermidine]], [[Dietary Restriction]], [[Exercise]]
+- New links added: [[notes/_link/Immunosenescence]], [[notes/_link/Immune System]], [[Thymic Involution]], [[T Cell]], [[notes/_link/Inflammaging]], [[notes/_link/Senescence]], [[Senescence-Associated Secretory Phenotype]], [[notes/_link/Atherosclerosis]], [[Cancer]], [[COVID-19]], [[Autophagy Inducer]], [[Rapamycin]], [[notes/_link/Metformin]], [[notes/_link/Spermidine]], [[Dietary Restriction]], [[Exercise]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[Immune Aging]] ↔ [[Autophagy Inducer]], [[Immune Aging]] ↔ [[notes/_link/Immunosenescence]]

@@ -1,0 +1,1416 @@
+[
+  {
+    "subject": "SIR2 (Saccharomyces cerevisiae)",
+    "predicate": "is ancestor of",
+    "object": "Sirtuins (SIRT1\u20137)",
+    "context": "SIR2 from S. cerevisiae is the founding member of the sirtuin family; mammalian homologues are SIRT1\u20137.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Sirtuins",
+    "predicate": "are NAD+-dependent",
+    "object": "Deacetylases",
+    "context": "Sir2 has histone deacetylase activity that is absolutely dependent on NAD+.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Sirtuins",
+    "predicate": "exhibit activity as",
+    "object": "Mono-ADP-ribosyl transferases",
+    "context": "ADP-ribosyl transferase activity; SIRT4 and SIRT6 have this as main enzymatic activity.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Sirtuin deacetylation reaction",
+    "predicate": "produces",
+    "object": "OAADPr (2'-O-acetyl-ADP-ribose)",
+    "context": "Hydrolysis of one NAD+ molecule produced one molecule of nicotinamide, and one of OAADPr.",
+    "confidence": "high"
+  },
+  {
+    "subject": "OAADPr",
+    "predicate": "activates",
+    "object": "TRPM2 ion channel",
+    "context": "OAADPr binds to and activates the cytoplasmic domain of the TRPM2 non-selective cation channel.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "localizes to",
+    "object": "Nucleus (euchromatin)",
+    "context": "SIRT1, SIRT6 and SIRT7 are predominantly in the nucleus; SIRT1 associated with euchromatin.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "localizes to",
+    "object": "Cytoplasm",
+    "context": "The sirtuin that resides most prominently in the cytoplasm is SIRT2.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "localizes to",
+    "object": "Mitochondria",
+    "context": "SIRT3, SIRT4 and SIRT5 have been described as mitochondrial sirtuins.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT4",
+    "predicate": "localizes to",
+    "object": "Mitochondria",
+    "context": "SIRT3, SIRT4 and SIRT5 have been described as mitochondrial sirtuins.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT5",
+    "predicate": "localizes to",
+    "object": "Mitochondria",
+    "context": "SIRT3, SIRT4 and SIRT5 have been described as mitochondrial sirtuins.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "localizes to",
+    "object": "Nucleus (heterochromatin)",
+    "context": "SIRT6 associates with heterochromatin.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT7",
+    "predicate": "localizes to",
+    "object": "Nucleolus",
+    "context": "SIRT7 is found in the nucleolus.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT4",
+    "predicate": "exhibits activity as",
+    "object": "Mono-ADP-ribosyl transferase",
+    "context": "SIRT4 and SIRT6 are mono-ADP-ribosyl transferases.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "exhibits activity as",
+    "object": "Mono-ADP-ribosyl transferase",
+    "context": "SIRT4 and SIRT6 are mono-ADP-ribosyl transferases.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Caloric Restriction (CR)",
+    "predicate": "requires",
+    "object": "SIR2 gene",
+    "context": "Lifespan extension by CR is not seen if cells lack the SIR2 gene.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Caloric Restriction (CR)",
+    "predicate": "extends lifespan in",
+    "object": "Saccharomyces cerevisiae",
+    "context": "On medium with 0.5% glucose vs standard 2% glucose, replicative lifespan was ~30% longer.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Caloric Restriction (CR)",
+    "predicate": "extends lifespan in",
+    "object": "Drosophila melanogaster",
+    "context": "Lifespan extension by dietary restriction also requires the Sir2 gene in Drosophila.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Caloric Restriction (CR)",
+    "predicate": "increases",
+    "object": "SIRT1 expression",
+    "context": "Higher levels of SIRT1 in CR rodents may be one of the reasons for their decreased inflammatory responses.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Caloric Restriction (CR)",
+    "predicate": "increases",
+    "object": "NAD+/nicotinamide ratio (brain)",
+    "context": "CR increases SIRT1 and NAD+/nicotinamide ratios in the brain.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Caloric Restriction (CR)",
+    "predicate": "downregulates",
+    "object": "SIRT4",
+    "context": "Pancreatic islets of mice under a CR diet show effects suggesting SIRT4 is downregulated by CR.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIR2 overexpression (yeast)",
+    "predicate": "extends replicative lifespan by",
+    "object": "30%",
+    "context": "Integration of an extra copy of the SIR2 gene increased the replicative lifespan up to 30%.",
+    "confidence": "high"
+  },
+  {
+    "subject": "sir-2.1 overexpression (C. elegans)",
+    "predicate": "extends lifespan by",
+    "object": "50%",
+    "context": "C. elegans carrying a chromosome duplication containing sir-2.1 exhibits up to a 50% lifespan increase.",
+    "confidence": "high"
+  },
+  {
+    "subject": "sir-2.1 lifespan extension",
+    "predicate": "requires",
+    "object": "DAF-16 (FOXO)",
+    "context": "Lifespan extension is strictly dependent on the forkhead transcriptional factor DAF-16.",
+    "confidence": "high"
+  },
+  {
+    "subject": "dSir2 overexpression (Drosophila)",
+    "predicate": "extends lifespan in females by",
+    "object": "29%",
+    "context": "An extra copy of the Sir2 gene expressed ubiquitously causes females to live longer by 29%.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "p53",
+    "context": "SIRT1 has been shown to deacetylate multiple lysine residues of p53 including Lys317, Lys370, Lys379.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "Histone H1 (Lys9, Lys26)",
+    "context": "SIRT1 targets for deacetylation include lysine residues at positions 9 and 26 of histone H1.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "Histone H3 (Lys14)",
+    "context": "SIRT1 targets for deacetylation include lysine residue at position 14 of H3.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "Histone H4 (Lys16)",
+    "context": "SIRT1 targets for deacetylation include Lys16 of H4.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT1 deacetylation of p53",
+    "predicate": "suppresses",
+    "object": "Apoptosis",
+    "context": "SIRT1-dependent deacetylation of p53 inhibits its transactivation activity and suppresses apoptosis in response to oxidative stress and DNA damage.",
+    "confidence": "high"
+  },
+  {
+    "subject": "HIC1",
+    "predicate": "represses",
+    "object": "SIRT1 promoter",
+    "context": "HIC1 forms a complex with SIRT1 via its N-terminal POZ domain, which binds directly to the SIRT1 promoter and represses its expression.",
+    "confidence": "high"
+  },
+  {
+    "subject": "p53",
+    "predicate": "transactivates",
+    "object": "HIC1 transcription",
+    "context": "p53 is able to transactivate HIC1 transcription.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "Ku70",
+    "context": "SIRT1 regulates cell survival by deacetylating Ku70, a DNA-repair factor and inhibitor of Bax-mediated apoptosis.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Deacetylated Ku70",
+    "predicate": "sequesters",
+    "object": "Bax (pro-apoptotic)",
+    "context": "Deacetylated Ku70 complexes with the proapoptotic factor Bax, sequestering it away from mitochondria.",
+    "confidence": "high"
+  },
+  {
+    "subject": "E2F1",
+    "predicate": "induces transcription of",
+    "object": "SIRT1",
+    "context": "E2F1 binds directly to the SIRT1 promoter and induces its transcription.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "inhibits apoptotic function of",
+    "object": "E2F1",
+    "context": "SIRT1 interaction becomes an efficient inhibitor of E2F1 apoptotic function.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "FOXO1",
+    "context": "SIRT1 has been shown to deacetylate three FOXO factors: Foxo1, Foxo3a and Foxo4.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "FOXO3a",
+    "context": "SIRT1 affects Foxo3a function in mammalian cells, including neurons and fibroblasts, reducing apoptosis.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "FOXO4",
+    "context": "Interaction with SIRT1 reverts FOXO4 suppression and enhances mammalian cellular defences against oxidative stress.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "RelA/p65 (NF-\u03baB subunit)",
+    "context": "SIRT1 deacetylates RelA/p65, the most prevalent form of NF-\u03baB; deacetylation inhibits transactivation potential.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT1 deacetylation of RelA/p65",
+    "predicate": "inhibits",
+    "object": "NF-\u03baB pro-inflammatory signalling",
+    "context": "Deacetylation inhibits the transactivation potential of RelA/p65, reducing inflammation.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Cigarette smoke",
+    "predicate": "decreases interaction between",
+    "object": "SIRT1 and RelA/p65",
+    "context": "Exposure to cigarette smoke extracts decreases the interaction between SIRT1 and RelA/p65, resulting in increased pro-inflammatory responses.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT7",
+    "predicate": "is overexpressed in",
+    "object": "Breast cancer",
+    "context": "SIRT7 levels of expression increase significantly in breast cancer.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT7",
+    "predicate": "activates",
+    "object": "RNA Polymerase I transcription",
+    "context": "SIRT7 activates RNA Pol I-mediated transcription and expression of ribosomal RNA genes.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "represses",
+    "object": "RNA Polymerase I transcription (via TAFI68 deacetylation)",
+    "context": "Deacetylation of TAFI68 decreases its DNA binding activity and represses RNA Pol I-mediated transcription.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "suppresses",
+    "object": "Glioma tumour formation",
+    "context": "SIRT2 resides in a genomic region frequently deleted in human gliomas; ectopic expression markedly reduces colony formation.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "deacetylates",
+    "object": "Histone H4 (Lys16)",
+    "context": "SIRT2 interacts with and deacetylates Lys16 on histone H4, leading to condensed chromatin during G2/M transition.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT2 expression",
+    "predicate": "peaks during",
+    "object": "Mitosis (G2/M phase)",
+    "context": "The expression of this sirtuin increases dramatically during mitosis and is hyperphosphorylated during the G2/M phase transition.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT6 knockout mice",
+    "predicate": "display",
+    "object": "Premature aging phenotype",
+    "context": "SIRT6 knockout mice displayed signs of premature aging, such as decreased size, loss of subcutaneous fat, lymphocyte apoptosis, colitis, abnormal spine curvature.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "required for",
+    "object": "Base excision repair",
+    "context": "A primary defect in SIRT6 KO animals seems to be impairment in base excision repair.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "deacetylates Lys50 of",
+    "object": "Tat (HIV-1 protein)",
+    "context": "SIRT1 deacetylates Lys50 of Tat, leading to its activation, which increases viral transcription.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT1 deacetylation of Tat",
+    "predicate": "increases",
+    "object": "HIV-1 viral transcription",
+    "context": "Activation of Tat increases viral transcription.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "promotes fat mobilization in",
+    "object": "White adipose tissue",
+    "context": "SIRT1 promotes fat mobilization in white adipose tissue by binding to and repressing genes involved in adipogenesis, such as PPAR-\u03b3 and aP2.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "represses",
+    "object": "PPAR-\u03b3 (adipogenesis)",
+    "context": "SIRT1 over-expression or pharmacological activation by resveratrol results in PPAR-\u03b3-mediated transcriptional repression and inhibition of adipogenesis.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "deacetylates and activates",
+    "object": "PGC-1\u03b1",
+    "context": "By deacetylating PGC-1\u03b1, SIRT1 represses glycolysis and increases hepatic glucose output; modulates mitochondrial function.",
+    "confidence": "high"
+  },
+  {
+    "subject": "PGC-1\u03b1",
+    "predicate": "regulates",
+    "object": "Mitochondrial biogenesis",
+    "context": "Through PGC-1\u03b1 regulation, SIRT1 modulates mitochondrial function, metabolic homoeostasis, and induces oxidative phosphorylation genes and mitochondrial biogenesis.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "represses",
+    "object": "UCP2 (Uncoupling Protein 2)",
+    "context": "SIRT1-mediated transcriptional repression of the UCP2 gene; high UCP2 expression observed in SIRT1 knockout mice.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT1 repression of UCP2",
+    "predicate": "enhances",
+    "object": "Glucose-stimulated insulin secretion",
+    "context": "When SIRT1 is overexpressed in pancreatic \u03b2-cells, mice exhibit enhanced glucose-stimulated insulin secretion and ATP production.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "deacetylates and activates",
+    "object": "AceCS2 (mitochondrial acetyl-CoA synthetase)",
+    "context": "SIRT3 deacetylate and thereby activate AceCS2 respectively.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "deacetylates and activates",
+    "object": "AceCS1 (cytoplasmic acetyl-CoA synthetase)",
+    "context": "SIRT1 and SIRT3 deacetylate and thereby activate AceCS1.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "decreases",
+    "object": "Reactive oxygen species production",
+    "context": "SIRT3 decreases mitochondrial membrane potential and the production of reactive oxygen species, while increasing cellular respiration.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "induced by",
+    "object": "Cold exposure (brown adipose tissue)",
+    "context": "During cold exposure, SIRT3 is induced in brown adipose tissue, which promotes the expression of mitochondrial genes.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT4",
+    "predicate": "mono-ADP-ribosylates and inhibits",
+    "object": "GDH (Glutamate Dehydrogenase)",
+    "context": "GDH can be mono-ADP-ribosylated by SIRT4, which inhibits GDH activity, slowing the conversion of glutamate into \u03b1-ketoglutarate.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT4 inhibition of GDH",
+    "predicate": "reduces",
+    "object": "Amino-acid-stimulated insulin secretion",
+    "context": "SIRT4 regulates amino-acid-stimulated insulin secretion in pancreatic \u03b2-cells.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "protects neurons against",
+    "object": "\u03b2-amyloid toxicity",
+    "context": "SIRT1 has been shown to protect neurons against \u03b2-amyloid-induced toxicity by inhibiting NF-\u03baB signalling in microglia.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "provides neuroprotection via",
+    "object": "PGC-1\u03b1 regulation",
+    "context": "The ability of SIRT1 to provide neuroprotection stems, in part, from its regulation of PGC-1\u03b1 activity.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Resveratrol",
+    "predicate": "activates",
+    "object": "SIRT1",
+    "context": "Resveratrol, a small plant molecule synthesized in response to stress, was identified as an activator of mammalian SIRT1 in vitro.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Resveratrol",
+    "predicate": "extends lifespan in",
+    "object": "Saccharomyces cerevisiae",
+    "context": "Resveratrol extends lifespan in organisms of different phyla, such as yeast.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Resveratrol",
+    "predicate": "requires",
+    "object": "SIR2 gene",
+    "context": "Resveratrol only extends lifespan when the SIR2 gene is present.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Resveratrol (high-calorie diet mice)",
+    "predicate": "increases",
+    "object": "Mitochondrial biogenesis",
+    "context": "Animals displayed increased mitochondria concomitant with increased SIRT1 and PGC1-\u03b1 activity.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Resveratrol",
+    "predicate": "lowers",
+    "object": "Blood glucose and insulin",
+    "context": "Animals on high-calorie diet treated with resveratrol showed lower blood glucose and insulin.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT3 gene variant (intron 5 enhancer)",
+    "predicate": "correlates with",
+    "object": "Male longevity beyond 90 years",
+    "context": "A variant of the SIRT3 gene, specifically in an enhancer within intron 5, correlates with male lifespan beyond 90 years.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT1 allele variants",
+    "predicate": "associated with",
+    "object": "Energy expenditure",
+    "context": "Three single nucleotide polymorphisms in the SIRT1 gene of Finnish human subjects were significantly associated with systemic energy expenditure.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "interacts with and represses",
+    "object": "Androgen receptor (Lys630)",
+    "context": "SIRT1 interacts and preferentially deacetylates Lys630 in the androgen receptor lysine motif, which represses its oncogenic signalling.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "interacts with",
+    "object": "HOXA10 (homeobox transcription factor)",
+    "context": "SIRT2 interacts with HOXA10, an evolutionarily conserved homeobox transcription factor important for cell-type determination during embryogenesis.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "interacts with",
+    "object": "Hes1 and Hey2 (bHLH repressors)",
+    "context": "SIRT1 interacts with Hes1 and Hey2, both in vivo and in vitro, and modulates their ability to repress target promoters.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT1 knockout mice",
+    "predicate": "display",
+    "object": "Developmental defects",
+    "context": "SIRT1 knockout mice are markedly smaller than littermates, develop slowly, show eye morphogenesis and cardiac septation perturbations.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT1 knockout mice",
+    "predicate": "display",
+    "object": "Sterility",
+    "context": "Both males and females that survive to adulthood are sterile; males have low sperm counts and females fail to ovulate.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Nmnat (NAD+ biosynthetic enzyme)",
+    "predicate": "protects against",
+    "object": "Axonal/Wallerian degeneration (via SIRT1)",
+    "context": "Nmnat is primarily responsible for protection from axonal degeneration; protection is due primarily to the actions of SIRT1.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "Smad7 (Lys60, Lys70)",
+    "context": "SIRT1-dependent deacetylation of Smad7 at Lys60 and Lys70 enhances its ubiquitin-dependent proteasomal degradation via Smurf1.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT1 deacetylation of Smad7",
+    "predicate": "protects against",
+    "object": "TGF-\u03b2-dependent glomerular apoptosis",
+    "context": "Protects glomerular mesangial cells from TGF-\u03b2 dependent apoptosis.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "Histone H2A.Z (Lys115, Lys121)",
+    "context": "SIRT1 deacetylates Lys115 and Lys121 of the histone variant H2A.Z, promoting its ubiquitination and proteosome-dependent degradation.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT1 deacetylation of H2A.Z",
+    "predicate": "protects against",
+    "object": "Cardiac hypertrophy",
+    "context": "May help protect against heart failure by promoting degradation of H2A.Z, a factor known to promote cardiac hypertrophy.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "p300 (Lys1020, Lys1024)",
+    "context": "SIRT1 negatively regulates the activity of histone acetyltransferase p300 by deacetylating lysine residues at positions 1020 and 1024.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "is a tubulin deacetylase in",
+    "object": "Oligodendrocytes and Schwann cells",
+    "context": "SIRT2 is present in oligodendrocytes and Schwann cells that form the myelin sheaths covering the axons.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "inhibits differentiation of",
+    "object": "Muscle cells (myogenesis)",
+    "context": "SIRT1 deacetylates Lys9 and Lys14 of H3 in myogenin and myosin heavy chain promoters, inhibiting muscle gene expression.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "promotes differentiation of",
+    "object": "Osteoblasts (vs adipocytes)",
+    "context": "SIRT1 activators promote osteoblast differentiation but markedly decrease adipocyte formation.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "p33ING1b",
+    "predicate": "inhibits SIRT1 from deacetylating",
+    "object": "p53 (in hepatocarcinoma)",
+    "context": "p33ING1b interacts with human SIRT1, thereby inhibiting its ability to deacetylate p53, which negatively regulates transcription of AFP.",
+    "confidence": "medium"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "regulates",
+    "object": "Adiponectin gene expression (via FOXO1-C/EBP\u03b1)",
+    "context": "SIRT1 deacetylates FOXO1 and enhances its interaction with C/EBP\u03b1, thereby increasing adiponectin concentrations.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Adiponectin",
+    "predicate": "improves",
+    "object": "Insulin sensitivity",
+    "context": "Administration of adiponectin to high-fat-fed obese mice improves insulin sensitivity while lowering blood glucose.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Caloric Restriction (CR)",
+    "predicate": "prevents",
+    "object": "\u03b2-amyloid neuropathology (Alzheimer's mouse model)",
+    "context": "CR prevents genetically engineered mice prone to Alzheimer's disease from developing \u03b2-amyloid neuropathology.",
+    "confidence": "high"
+  },
+  {
+    "subject": "PGC-1\u03b1 knockout mice",
+    "predicate": "are sensitive to",
+    "object": "MPTP and kainic acid neuronal damage",
+    "context": "PGC-1\u03b1 null-mice are considerably more sensitive to neuronal loss by MPTP and kainic acid.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Sirtuin",
+    "predicate": "are a family of",
+    "object": "NAD+-dependent enzyme",
+    "context": "Sirtuins (SIRT1\u2013SIRT7) are a family of seven NAD\u207a-dependent enzymes.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "p53",
+    "context": "Deacetylates histones and many non-histone proteins (p53, FOXO, NF-\u03baB, PGC-1\u03b1, etc.).",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "FOXO1",
+    "context": "Deacetylates histones and many non-histone proteins (p53, FOXO, NF-\u03baB, PGC-1\u03b1, etc.).",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "PGC-1\u03b1",
+    "context": "Deacetylates histones and many non-histone proteins (p53, FOXO, NF-\u03baB, PGC-1\u03b1, etc.).",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "promotes",
+    "object": "Mitochondrial biogenesis",
+    "context": "Promotes mitochondrial biogenesis...",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "localizes to",
+    "object": "Mitochondria",
+    "context": "Mitochondrial (primarily): SIRT3, SIRT4, SIRT5.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT4",
+    "predicate": "localizes to",
+    "object": "Mitochondria",
+    "context": "Mitochondrial (primarily): SIRT3, SIRT4, SIRT5.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT5",
+    "predicate": "localizes to",
+    "object": "Mitochondria",
+    "context": "Mitochondrial (primarily): SIRT3, SIRT4, SIRT5.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT4",
+    "predicate": "inhibits",
+    "object": "Glutamate dehydrogenase",
+    "context": "Inhibits glutamate dehydrogenase (GDH).",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "represses",
+    "object": "HIF-1\u03b1",
+    "context": "regulates glycolysis and lipid metabolism (represses HIF-1\u03b1, SREBP)",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT7",
+    "predicate": "regulates",
+    "object": "rRNA transcription",
+    "context": "Regulates rRNA transcription (via RNA Pol I)",
+    "confidence": "high"
+  },
+  {
+    "subject": "CD38 inhibition",
+    "predicate": "preserves",
+    "object": "NAD+",
+    "context": "Inhibiting CD38 preserves NAD+ by reducing its consumption",
+    "confidence": "high"
+  },
+  {
+    "subject": "CD38 inhibition",
+    "predicate": "boosts",
+    "object": "SIRT3",
+    "context": "Inhibiting CD38 preserves NAD+ by reducing its consumption, boosts sirtuin (especially SIRT3) activity",
+    "confidence": "high"
+  },
+  {
+    "subject": "Daratumumab",
+    "predicate": "is a",
+    "object": "Anti-CD38 monoclonal antibody",
+    "context": "Daratumumab (Darzalex, first approved 2015) and isatuximab (Sarclisa, approved 2020/2021) are IgG1 mAbs that bind distinct epitopes on CD38.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Isatuximab",
+    "predicate": "is a",
+    "object": "Anti-CD38 monoclonal antibody",
+    "context": "Daratumumab (Darzalex, first approved 2015) and isatuximab (Sarclisa, approved 2020/2021) are IgG1 mAbs that bind distinct epitopes on CD38.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Daratumumab",
+    "predicate": "treats",
+    "object": "Multiple myeloma",
+    "context": "CD38 is a major therapeutic target in cancer, primarily through monoclonal antibodies (mAbs) like daratumumab and isatuximab in multiple myeloma (MM)",
+    "confidence": "high"
+  },
+  {
+    "subject": "Resveratrol",
+    "predicate": "directly activates (allosteric)",
+    "object": "SIRT1",
+    "context": "Resveratrol binds to the N-terminal domain (NTD) of SIRT1 at Glutamate 230 (E230), inducing a conformational change that lowers Km for key substrates like PGC-1\u03b1 and FOXO3a.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Resveratrol",
+    "predicate": "inhibits",
+    "object": "PDE4 (phosphodiesterase 4)",
+    "context": "Resveratrol acts as a competitive inhibitor of cAMP phosphodiesterases, specifically PDE4, preventing cAMP degradation.",
+    "confidence": "high"
+  },
+  {
+    "subject": "PDE4 inhibition (resveratrol)",
+    "predicate": "increases",
+    "object": "intracellular cAMP",
+    "context": "Inhibiting PDE4 prevents cAMP degradation, leading to cAMP accumulation and downstream AMPK activation.",
+    "confidence": "high"
+  },
+  {
+    "subject": "cAMP (elevated)",
+    "predicate": "activates",
+    "object": "Epac1",
+    "context": "High cAMP activates Epac1 (Exchange Protein directly Activated by cAMP), which triggers Ca2+ release from the ER.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Epac1 activation",
+    "predicate": "triggers",
+    "object": "Ca2+ release (ER \u2192 cytoplasm)",
+    "context": "Epac1 activation causes release of calcium from the endoplasmic reticulum into the cytoplasm.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Ca2+ surge (cytoplasmic)",
+    "predicate": "activates",
+    "object": "CaMKK\u03b2 \u2192 AMPK",
+    "context": "Cytoplasmic Ca2+ activates CaMKK\u03b2 (calmodulin-dependent protein kinase kinase beta), which phosphorylates and activates AMPK.",
+    "confidence": "high"
+  },
+  {
+    "subject": "AMPK (activated)",
+    "predicate": "upregulates",
+    "object": "NAMPT",
+    "context": "Activated AMPK increases the expression of NAMPT, the rate-limiting enzyme in the NAD+ salvage pathway.",
+    "confidence": "high"
+  },
+  {
+    "subject": "NAMPT upregulation",
+    "predicate": "increases",
+    "object": "NAD+",
+    "context": "NAMPT is the rate-limiting enzyme in the NAD+ salvage pathway; its upregulation boosts cellular NAD+ levels, fueling SIRT1.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT1 (activated by resveratrol)",
+    "predicate": "deacetylates and activates",
+    "object": "PGC-1\u03b1",
+    "context": "Deacetylated PGC-1\u03b1 migrates to the nucleus to drive mitochondrial biogenesis and oxidative phosphorylation genes.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT1 (activated by resveratrol)",
+    "predicate": "deacetylates",
+    "object": "FOXO3a",
+    "context": "SIRT1 deacetylates FOXO3a, shifting transcription toward stress-resistance genes (SOD2, Catalase) and autophagy, away from apoptosis.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT1 deacetylation of FOXO3a",
+    "predicate": "upregulates",
+    "object": "SOD2 (Superoxide Dismutase 2)",
+    "context": "Deacetylated FOXO3a upregulates endogenous antioxidant enzymes including SOD2 and Catalase.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT1 (activated by resveratrol)",
+    "predicate": "deacetylates and inhibits",
+    "object": "NF-\u03baB",
+    "context": "SIRT1 deacetylates the NF-\u03baB subunit, preventing it from binding DNA and downregulating pro-inflammatory cytokines (TNF-\u03b1, IL-1\u03b2, IL-6).",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT1 deacetylation of NF-\u03baB",
+    "predicate": "downregulates",
+    "object": "Pro-inflammatory cytokines (TNF-\u03b1, IL-1\u03b2, IL-6)",
+    "context": "Deacetylation inhibits NF-\u03baB transcriptional activity, reducing expression of TNF-\u03b1, IL-1\u03b2, and IL-6.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT1 (resveratrol-activated)",
+    "predicate": "activates",
+    "object": "eNOS (endothelial nitric oxide synthase)",
+    "context": "Endothelial SIRT1 activation by resveratrol increases eNOS expression and activity, promoting nitric oxide production and vasodilation.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT1 activation (resveratrol)",
+    "predicate": "reduces",
+    "object": "Hepatic steatosis (fatty liver)",
+    "context": "Via AMPK/SIRT1/PGC-1\u03b1 pathway, resveratrol reduces hepatic steatosis in animal models of diet-induced obesity.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Resveratrol",
+    "predicate": "exhibits",
+    "object": "Hormetic (biphasic) dose-response",
+    "context": "At low-moderate doses, resveratrol acts as a mild stressor triggering beneficial adaptive responses; at very high doses it can induce off-target effects or pro-oxidant states.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Resveratrol",
+    "predicate": "has limited",
+    "object": "Oral bioavailability",
+    "context": "Resveratrol undergoes extensive first-pass metabolism (glucuronidation and sulfation in gut and liver), resulting in very low systemic free resveratrol concentrations.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Honokiol",
+    "predicate": "activates",
+    "object": "SIRT3",
+    "context": "Honokiol physically interacts with SIRT3, increasing its deacetylase activity and upregulating SIRT3 protein expression.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT3 (activated by Honokiol)",
+    "predicate": "deacetylates",
+    "object": "MnSOD (K68, K122)",
+    "context": "Honokiol-activated SIRT3 deacetylates MnSOD at K68 and K122, dramatically increasing its ROS-scavenging activity.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT3 (activated by Honokiol)",
+    "predicate": "deacetylates",
+    "object": "OSCP (ATP synthase subunit)",
+    "context": "SIRT3 deacetylates OSCP, a subunit of the mitochondrial F1Fo-ATPase, optimizing ATP synthase coupling and boosting energy output.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Honokiol (SIRT3 activation)",
+    "predicate": "reverses",
+    "object": "Cardiac hypertrophy",
+    "context": "Honokiol-mediated SIRT3 activation reverses cardiac hypertrophy and protects from doxorubicin-induced cardiotoxicity in preclinical models.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Honokiol (SIRT3 activation)",
+    "predicate": "suppresses",
+    "object": "Renal tubulointerstitial fibrosis",
+    "context": "In kidneys, Honokiol suppresses NF-\u03baB/TGF-\u03b21 pathway via SIRT3, limiting renal tubulointerstitial fibrosis.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Dihydromyricetin",
+    "predicate": "activates",
+    "object": "SIRT3",
+    "context": "Dihydromyricetin (DHM) activates SIRT3 mitochondrial deacetylase activity, leading to MnSOD deacetylation and ROS reduction.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Dihydromyricetin",
+    "predicate": "activates",
+    "object": "AMPK",
+    "context": "DHM activates AMPK, which synergistically increases NAD+ levels via NAMPT upregulation, further potentiating SIRT3.",
+    "confidence": "high"
+  },
+  {
+    "subject": "UBCS039",
+    "predicate": "activates (allosteric)",
+    "object": "SIRT6",
+    "context": "UBCS039 is the first synthetic, specific allosteric activator of SIRT6, binding the distal hydrophobic pocket.",
+    "confidence": "high"
+  },
+  {
+    "subject": "MDL-801",
+    "predicate": "activates (allosteric)",
+    "object": "SIRT6",
+    "context": "MDL-801 is a highly potent, cell-permeable synthetic allosteric activator of SIRT6 binding the hydrophobic pocket.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Cyanidin",
+    "predicate": "activates",
+    "object": "SIRT6",
+    "context": "Cyanidin, a natural anthocyanidin found in red berries, increases SIRT6 activity by over 50-fold in certain in vitro assays.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT6 (activated)",
+    "predicate": "deacetylates",
+    "object": "H3K9ac and H3K56ac",
+    "context": "SIRT6 activation results in rapid deacetylation of H3K9ac and H3K56ac on chromatin, promoting chromatin compaction and DNA repair.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT6 (activated)",
+    "predicate": "suppresses",
+    "object": "Glycolysis (Warburg effect)",
+    "context": "By suppressing glycolysis and driving tumor cells toward autophagy, SIRT6 activators like UBCS039 demonstrate tumor-suppressive activity.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT5",
+    "predicate": "desuccinylates and activates",
+    "object": "CPS1 (carbamoyl phosphate synthase 1)",
+    "context": "SIRT5 activation de-succinylates CPS1, the rate-limiting enzyme of the urea cycle, regulating ammonia detoxification.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT2 overactivity",
+    "predicate": "associated with",
+    "object": "Neurotoxicity",
+    "context": "Direct activation of SIRT2 is rarely sought because overactivity is associated with neurotoxicity in neurodegeneration contexts.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT2 inhibitors (AGK2, AK-7, SirReal2)",
+    "predicate": "investigated for",
+    "object": "Parkinson's and Huntington's disease",
+    "context": "SIRT2 inhibitors are investigated for neurodegenerative diseases where blocking SIRT2 rescues microtubule stability and protects neurons from aggregation toxicity.",
+    "confidence": "high"
+  },
+  {
+    "subject": "NMN (Nicotinamide Mononucleotide)",
+    "predicate": "serves as",
+    "object": "Universal indirect pan-sirtuin activator",
+    "context": "NMN and NR serve as universal indirect pan-sirtuin activators by raising cellular NAD+ levels, the obligate co-substrate for all sirtuins.",
+    "confidence": "high"
+  },
+  {
+    "subject": "NR (Nicotinamide Riboside)",
+    "predicate": "serves as",
+    "object": "Universal indirect pan-sirtuin activator",
+    "context": "NMN and NR serve as universal indirect pan-sirtuin activators by raising cellular NAD+ levels.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT7",
+    "predicate": "deacetylates",
+    "object": "H3K18",
+    "context": "SIRT7 is highly localized to the nucleolus and deacetylates histone H3K18 to regulate ribosome biogenesis.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "NF-\u03baB p65 (RelA)",
+    "context": "SIRT1 has anti-inflammatory effects mediated by the deacetylation and inactivation of the p65 subunit of NF-\u03baB, specifically at Ac-Lys310.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "inhibits",
+    "object": "NF-\u03baB signaling pathway",
+    "context": "SIRT1 inhibits the transcriptional activity of NF-\u03baB via deacetylation of the p65 (RelA) subunit at Ac-Lys310.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "deacetylates",
+    "object": "Histone H3K9",
+    "context": "SIRT6 attenuated NF-\u03baB expression by deacetylating histone H3K9 in the promoters of NF-\u03baB target genes, hence decreasing inflammation.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "suppresses",
+    "object": "NF-\u03baB-mediated inflammatory responses",
+    "context": "SIRT6 overexpression suppressed NF-\u03baB-mediated inflammatory responses in OA development.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "promotes proteasomal degradation of",
+    "object": "NF-\u03baB p65 (RelA)",
+    "context": "Since nuclear SIRT1 and SIRT6 deacetylate RelA/p65 and support its degradation by the proteasome, decreases in both SIRT1 or SIRT6 levels/activity increase NF-\u03baB activity.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "promotes proteasomal degradation of",
+    "object": "NF-\u03baB p65 (RelA)",
+    "context": "Since nuclear SIRT1 and SIRT6 deacetylate RelA/p65 and support its degradation by the proteasome, decreases in both SIRT1 or SIRT6 levels/activity increase NF-\u03baB activity.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT7",
+    "predicate": "inhibits nuclear translocation of",
+    "object": "NF-\u03baB p65 (RelA)",
+    "context": "knockdown of SIRT7 promoted the translocation of NF-\u03baB p-p65 to the nucleus and subsequently increased the secretion of downstream inflammatory cytokines, while SIRT7 overexpression had the opposite effect.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT7-kidney-specific knockout",
+    "predicate": "suppresses nuclear accumulation of",
+    "object": "NF-\u03baB p65 (RelA)",
+    "context": "SIRT7-kidney-specific KO mice exhibited diminished inflammation with a reduction in the level of multiple inflammatory factors such as TNF-\u03b1, IL-1\u03b2 and IL-6, and suppression of nuclear NF-\u03baB p65 accumulation.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "deacetylates",
+    "object": "NF-\u03baB p65 (RelA)",
+    "context": "SIRT2 reduced the levels of pro-inflammatory cytokines and ameliorated the severity of arthritis by deacetylating the p65 subunit of NF-\u03baB.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "inhibits",
+    "object": "NLRP3 inflammasome",
+    "context": "SIRT1 plays an important protective role in the inflammation mediated by the deacetylation and attenuation of NLRP3 activity.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "spliced X-box binding protein 1",
+    "context": "activation of a pathway involving SIRT1 and multipotent mesenchymal stromal/stem cell-mediated AMPK\u03b1 in macrophages, resulting in deacetylation of spliced X-boxbinding protein 1 and subsequent inhibition of the NLRP3 inflammasome.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "reduces",
+    "object": "Mitochondrial ROS",
+    "context": "Zhao et al. suggested that the mechanism of action by which SIRT3 protects against tissue damage involved the attenuation of ROS production and reduction of NLRP3 activity.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "attenuates",
+    "object": "NLRP3 inflammasome",
+    "context": "Zhao et al. suggested that the mechanism of action by which SIRT3 protects against tissue damage involved the attenuation of ROS production and reduction of NLRP3 activity, resulting in the inhibition of oxidative stress.",
+    "confidence": "high"
+  },
+  {
+    "subject": "miR-217",
+    "predicate": "represses",
+    "object": "SIRT1",
+    "context": "microRNAs (miRNAs) can negatively regulate inflammation by repressing SIRT1. Downregulation of miRNAs such as miR-217 and miR-543 mitigated the inflammatory response.",
+    "confidence": "high"
+  },
+  {
+    "subject": "miR-543",
+    "predicate": "represses",
+    "object": "SIRT1",
+    "context": "Downregulation of miRNAs such as miR-217 and miR-543 mitigated the inflammatory response by regulating the SIRT1/AMPK/NF-\u03baB signaling pathway.",
+    "confidence": "high"
+  },
+  {
+    "subject": "miR-378",
+    "predicate": "represses",
+    "object": "SIRT1",
+    "context": "miR-378 reduced SIRT1 activity and facilitated the inflammatory pathway involving NF-\u03baB-TNF\u03b1 by targeting 5'-AMPK subunit gamma-2.",
+    "confidence": "high"
+  },
+  {
+    "subject": "MCPIP1",
+    "predicate": "promotes expression of",
+    "object": "SIRT1",
+    "context": "the RNase monocyte chemoattractant protein-induced protein 1 alleviated inflammatory responses by promoting the expression of SIRT1 mediated via miR-9.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "targets",
+    "object": "p53/miR-22 axis",
+    "context": "SIRT1 targets the p53/miR-22 axis to suppress inflammation, cyclooxygenase (COX)-2 and inducible nitric oxide synthase (iNOS) expression.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "activates",
+    "object": "AMPK",
+    "context": "SIRT1 participates in the regulation of glucose metabolism by upregulating AMPK, and activation of AMPK can ameliorate the glucose metabolic imbalance.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "downregulates",
+    "object": "PTP1B",
+    "context": "SIRT1 increases insulin sensitivity and lowers blood sugar by downregulating protein tyrosine phosphatase 1B, a key negative regulatory protein in the insulin signal transduction pathway.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "inhibits",
+    "object": "HIF-1\u03b1",
+    "context": "Mechanistically, SIRT3 negatively regulates aerobic glycolysis by inhibiting hypoxia-inducible factor 1\u03b1 (HIF-1\u03b1).",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "deacetylates",
+    "object": "FoxO1",
+    "context": "SIRT6 in pancreatic \u03b2 cells deacetylated FoxO1 and subsequently increased the expression of glucose-dependent transporter 2 to maintain the glucose-sensing ability of pancreatic \u03b2 cells.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "CREB",
+    "context": "Qiang et al. found that SIRT1-dependent cAMP Response Element Binding protein (Creb) deacetylation regulates lipid metabolism.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "deacetylates",
+    "object": "HNF4\u03b1",
+    "context": "SIRT2 prevents liver steatosis and lipid metabolic disorders by deacetylation of hepatocyte nuclear factor 4\u03b1.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT5",
+    "predicate": "activates",
+    "object": "AMPK",
+    "context": "SIRT5 inhibited preadipocyte differentiation and lipid deposition by activating AMPK and repressing mitogen-activated protein kinase (MAPK) signaling pathways.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT4",
+    "predicate": "inhibits",
+    "object": "Glutamine metabolism",
+    "context": "Conversely, SIRT4 inhibited glutamine metabolism in colorectal cancer cells, thereby acting as a tumor suppressor.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "activates",
+    "object": "AMPK/PGC-1\u03b1 pathway",
+    "context": "SIRT3 affected mitochondrial metabolic reprogramming by activating the AMPK/peroxisome proliferator-activated receptor-\u03b3 coactivator-1\u03b1 (PGC-1\u03b1) pathway.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "LKB1",
+    "context": "SIRT1 overexpression leads to the deacetylation of LKB1, the translocation of LKB1 from the nucleus to the cytoplasm, and the activation of AMPK to alleviate oxidative stress.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "deacetylates",
+    "object": "LKB1",
+    "context": "SIRT3 reduced ROS and lipid peroxidation by improving mitochondrial function via deacetylation of LKB1 and activation of AMPK.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "upregulates",
+    "object": "MnSOD",
+    "context": "SIRT6 also promoted AMPK expression, thus upregulating antioxidant-encoding gene expression of manganese superoxide dismutase (MnSOD) and catalase (CAT).",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "upregulates",
+    "object": "Catalase",
+    "context": "SIRT6 also promoted AMPK expression, thus upregulating antioxidant-encoding gene expression of manganese superoxide dismutase (MnSOD) and catalase (CAT).",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "activates",
+    "object": "Nrf2",
+    "context": "SIRT1 activated Nrf2 by changing the structure of Keap1, leading to Nrf2 nuclear transfer and promoting the expression of antioxidant genes.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "activates",
+    "object": "Nrf2 signaling",
+    "context": "The overexpression of SIRT6 in the brain through in vivo gene transfer enhanced Nrf2 signaling and reduced oxidative stress.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "inhibits",
+    "object": "JAK2/STAT3 pathway",
+    "context": "SIRT6 inhibits the Janus kinase 2/STAT3 pathway, thereby suppressing the growth of GC.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "inhibits",
+    "object": "Cervical cancer progression",
+    "context": "the expression of SIRT2 is decreased in CC tissue compared with paired adjacent tissue... which predicts favorable survival.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "deacetylates",
+    "object": "ACC1",
+    "context": "Moreover, SIRT3 contributes to the reprogramming of fatty acid synthesis by upregulating acetyl-coA carboxylase 1 to promote de novo lipogenesis by SIRT3 deacetylation, thereby promoting the invasion and metastasis of CC cells.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "LC3",
+    "context": "SIRT1 promotes autophagy and proliferation of EC cells by reducing acetylation of LC3.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "deacetylates",
+    "object": "FoxO1",
+    "context": "SIRT3 promotes autophagy in Ang II-induced myocardial hypertrophy via deacetylation of FoxO1.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "represses",
+    "object": "IGF-Akt signaling",
+    "context": "SIRT6 blocks IGF-Akt signaling and cardiac hypertrophy development by targeting c-Jun.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "deacetylates",
+    "object": "NFATc2",
+    "context": "SIRT2 binds to and deacetylates the nuclear factor of activated T-cell c2 transcription factor, thereby regulating nuclear factor of activated T-cell c2 transcription activity.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT7",
+    "predicate": "deacetylates",
+    "object": "GATA4",
+    "context": "SIRT7 also ameliorates stress-induced cardiac hypertrophy by interacting with and deacetylating GATA4.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT4",
+    "predicate": "inhibits",
+    "object": "MnSOD activity",
+    "context": "SIRT4 overexpression aggravates Ang II-induced cardiac hypertrophy by inhibiting MnSOD activity.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "inhibits",
+    "object": "TGF-\u03b2/Smad3 pathway",
+    "context": "activation of both SIRT1 and SIRT3 by resveratrol attenuates cardiac fibrosis in mice by inhibiting the TGF-\u03b2/Smad3 pathway.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "inhibits",
+    "object": "TGF-\u03b2/Smad3 pathway",
+    "context": "activation of both SIRT1 and SIRT3 by resveratrol attenuates cardiac fibrosis in mice by inhibiting the TGF-\u03b2/Smad3 pathway.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "inhibits",
+    "object": "TGF-\u03b2/Smad3 pathway",
+    "context": "systematic SIRT6 KO induces cardiac fibrosis in mice by activating the TGF-\u03b2/Smad3 pathway.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT4",
+    "predicate": "promotes",
+    "object": "Cardiac fibrosis",
+    "context": "SIRT4 appears to contribute to cardiac fibrosis, and global SIRT4 KO in mice confers resistance to Ang II infusion by significantly suppressing fibrosis deposition.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT7",
+    "predicate": "promotes",
+    "object": "Cardiac fibrosis",
+    "context": "enhanced expression and phosphorylation of SIRT7 plays a role in promoting cardiac fibrosis via activation of Smad2 and ERK signaling pathways.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "deacetylates",
+    "object": "SERCA2a",
+    "context": "the pharmacological activation of SIRT1 restores SERCA2a activity via deacetylation at K492.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "inhibits",
+    "object": "Lox-1-mediated foam cell formation",
+    "context": "SIRT1 activation reduces Lox-1-mediated foam cell formation via suppression of the NF-\u03baB signaling pathway.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT7",
+    "predicate": "inhibits",
+    "object": "VSMC proliferation and migration",
+    "context": "SIRT7 has been reported to regulate the VSMC proliferation and migration via the Wnt/\u03b2-catenin signaling pathway.",
+    "confidence": "high"
+  },
+  {
+    "subject": "UBCS039",
+    "predicate": "activates",
+    "object": "SIRT6",
+    "context": "UBCS039 is a pyrrolo[1,2-a]quinoxaline reported as the first synthetic activator of SIRT6 deacetylase activity (EC50 = 38 \u03bcM).",
+    "confidence": "high"
+  },
+  {
+    "subject": "MDL-800",
+    "predicate": "activates",
+    "object": "SIRT6",
+    "context": "The bis benzenesulfonamide-based prodrug MDL-800 is also reported to be a potent and selective SIRT6 activator with an EC50 value of 10.3 \u03bcM.",
+    "confidence": "high"
+  },
+  {
+    "subject": "EX-527 (Selisistat)",
+    "predicate": "inhibits",
+    "object": "SIRT1",
+    "context": "EX-527, also called Selisistat, is the first known selective (over SIRT2/3) and cell-permeable SIRT1 (IC50 = 0.098 \u03bcM) inhibitor.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SirReal2",
+    "predicate": "inhibits",
+    "object": "SIRT2",
+    "context": "SirReal2 is a potent SIRT2 inhibitor (IC50 = 0.14 \u03bcM) with minimal effects on SIRT1 and SIRT3.",
+    "confidence": "high"
+  },
+  {
+    "subject": "Suramin",
+    "predicate": "inhibits",
+    "object": "SIRT5",
+    "context": "Suramin, a polyanionic urea derivative, was potent SIRT inhibitor with an IC50 of 297 nM, 1150 nM, and 22 \u03bcM for SIRT1, SIRT2, and SIRT5, respectively.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "abolishes",
+    "object": "TGF-\u03b21-induced apoptosis and fibrosis",
+    "context": "overexpression of SIRT1 abolished TGF-\u03b21-induced cell apoptosis and fibrosis, and suppressed CTGF expression via stimulation by TGF-\u03b21 in mouse kidneys.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT2",
+    "predicate": "attenuates",
+    "object": "TGF-\u03b21-induced fibroblast activation",
+    "context": "genetic knockdown and chemical inhibition of SIRT2 attenuated TGF-\u03b21-induced fibroblast activation and mouse double minute 2 protein expression.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT3",
+    "predicate": "deacetylates",
+    "object": "pyruvate dehydrogenase E1\u03b1",
+    "context": "Pyruvate dehydrogenase E1\u03b1 is hyperacetylated at lysine 385 in tubular epithelial cells after TGF\u03b21 stimulation and is regulated by SIRT3.",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT6",
+    "predicate": "suppresses",
+    "object": "osteogenic transdifferentiation of VSMCs",
+    "context": "SIRT6 suppressed the osteogenic transdifferentiation of VSMCs via regulation of runt-related transcription factor 2.",
+    "confidence": "high"
+  },
+  {
+    "subject": "MDL-800",
+    "predicate": "mitigates",
+    "object": "UUO-induced kidney tubulointerstitial inflammation and fibrosis",
+    "context": "the SIRT6 activator MDL-800 mitigated UUO-induced kidney tubulointerstitial inflammation and fibrosis.",
+    "confidence": "high"
+  }
+]

@@ -9,7 +9,7 @@ The **Glyco-Oxidative Proteostasis Shield (GOPS)** is a therapeutic strategy aim
 
 ## Mechanism of Action (MOA)
 1. **Dual Inhibition:** The aminoguanidine moiety of the hybrid molecule directly inhibits the formation of [[Advanced Glycation End Products]] (AGEs) and DNA cross-links.
-2. **Proteostatic Trigger:** The adrenochrome moiety induces a mild ER-stress response ([[Hormesis]]), upregulating chaperone proteins (HSPs) and priming the [[notes/_link/Autophagy]] machinery.
+2. **Proteostatic Trigger:** The adrenochrome moiety induces a mild ER-stress response ([[Hormesis]]), upregulating chaperone proteins (HSPs) and priming the [[Autophagy]] machinery.
 3. **Synergistic Clearance:** Spermidine enhances general macroautophagy, facilitating the removal of proteins already damaged by glycation or oxidation.
 4. **Ion Stabilization:** Metal chelation prevents the transition-metal-catalyzed autoxidation of adrenaline, providing a "kinetic control" over the production of reactive intermediates.
 
@@ -19,6 +19,6 @@ The **Glyco-Oxidative Proteostasis Shield (GOPS)** is a therapeutic strategy aim
 - Enhanced cognitive function via neuro-proteostasis.
 
 ### Linking Summary:
-- New links added: [[Adrenochrome monoaminoguanidine]], [[notes/_link/Spermidine]], [[notes/_link/EDTA]], [[notes/_link/Carnosine]], [[Advanced Glycation End Products]], [[Hormesis]], [[notes/_link/Autophagy]]
+- New links added: [[Adrenochrome monoaminoguanidine]], [[notes/_link/Spermidine]], [[notes/_link/EDTA]], [[notes/_link/Carnosine]], [[Advanced Glycation End Products]], [[Hormesis]], [[Autophagy]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Glyco-Oxidative Proteostasis Shield]] ↔ [[Proteostasis]]

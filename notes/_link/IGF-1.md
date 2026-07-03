@@ -9,7 +9,7 @@ The "Somatotropic Axis" (GH/IGF-1) is essential for growth and reproduction, but
 
 ### 2. Interaction with Other Pathways
 IGF-1 signaling interacts with several other key aging pathways:
-*   **[[notes/_link/mTOR]]**: High IGF-1 levels activate the mTOR pathway, promoting cell growth and protein synthesis while inhibiting [[notes/_link/Autophagy]].
+*   **[[notes/_link/mTOR]]**: High IGF-1 levels activate the mTOR pathway, promoting cell growth and protein synthesis while inhibiting [[Autophagy]].
 *   **[[notes/_link/AMPK]]**: Low levels of IGF-1 signaling are associated with the activation of AMPK, which promotes cellular energy balance and stress resistance.
 
 ### 3. Epigenetic Regulation
@@ -22,6 +22,6 @@ The expression of IGF-1 and its downstream components is subject to epigenetic c
 - [[notes/sirtuins/SIRT1]]: Interacts with the IGF-1 pathway to modulate stress resistance.
 
 ### Linking Summary:
-- New links added: [[IGF-1]], [[notes/_link/Aging]], [[Model Organisms]], [[Caenorhabditis elegans]], [[Drosophila melanogaster]], [[notes/_link/mTOR]], [[notes/_link/Autophagy]], [[notes/_link/AMPK]], [[DNA Methylation]], [[MicroRNA]], [[notes/_link/Caloric Restriction]], [[notes/sirtuins/SIRT1]]
+- New links added: [[IGF-1]], [[notes/_link/Aging]], [[Model Organisms]], [[Caenorhabditis elegans]], [[Drosophila melanogaster]], [[notes/_link/mTOR]], [[Autophagy]], [[notes/_link/AMPK]], [[DNA Methylation]], [[MicroRNA]], [[notes/_link/Caloric Restriction]], [[notes/sirtuins/SIRT1]]
 - Suggested new entity notes to create: [[Somatotropic Axis]], [[Growth Hormone]], [[FoxO Transcription Factors]]
 - Strong connections to strengthen: [[IGF-1]] ↔ [[notes/_link/Aging]], [[IGF-1]] ↔ [[notes/_link/mTOR]]

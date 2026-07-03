@@ -1,6 +1,6 @@
 # Intermittent Fasting
 
-**Intermittent Fasting** (IF) refers to eating patterns that cycle between periods of fasting and eating. It is widely studied for its ability to induce [[notes/_link/Autophagy]] and improve metabolic health.
+**Intermittent Fasting** (IF) refers to eating patterns that cycle between periods of fasting and eating. It is widely studied for its ability to induce [[Autophagy]] and improve metabolic health.
 
 ## Common IF Protocols
 - **[[Alternate-day Fasting]]**: Fasting every other day.
@@ -10,7 +10,7 @@
 ## Biological Effects
 - IF induces [[Autophagic Flux]] in various tissues, including the liver and brain.
 - It can increase [[notes/_link/Longevity]] and protection against chronic pathologies.
-- In [[notes/_link/Cancer]] patients, IF may increase tolerance to [[Chemotherapy]] by protecting healthy cells from side effects.
+- In [[Cancer]] patients, IF may increase tolerance to [[Chemotherapy]] by protecting healthy cells from side effects.
 
 ## Mechanisms
 - IF reduces levels of insulin and [[IGF1]].
@@ -18,6 +18,6 @@
 - IF can also stimulate [[Ketogenesis]], providing alternative energy substrates.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Autophagy]], [[Alternate-day Fasting]], [[Time-restricted Feeding]], [[Autophagic Flux]], [[notes/_link/Longevity]], [[notes/_link/Cancer]], [[Chemotherapy]], [[IGF1]], [[notes/_link/AMPK]], [[mTORC1]], [[Ketogenesis]]
+- New links added: [[Autophagy]], [[Alternate-day Fasting]], [[Time-restricted Feeding]], [[Autophagic Flux]], [[notes/_link/Longevity]], [[Cancer]], [[Chemotherapy]], [[IGF1]], [[notes/_link/AMPK]], [[mTORC1]], [[Ketogenesis]]
 - Suggested new entity notes to create:
-- Strong connections to strengthen: [[Intermittent Fasting]] ↔ [[notes/_link/Autophagy]], [[Intermittent Fasting]] ↔ [[notes/_link/Caloric Restriction]]
+- Strong connections to strengthen: [[Intermittent Fasting]] ↔ [[Autophagy]], [[Intermittent Fasting]] ↔ [[notes/_link/Caloric Restriction]]

@@ -1,6 +1,6 @@
 # Microautophagy
 
-**Microautophagy** is a type of [[notes/_link/Autophagy]] characterized by the direct engulfment of cytoplasmic components by the [[Lysosome|lysosomal]] or vacuolar membrane.
+**Microautophagy** is a type of [[Autophagy]] characterized by the direct engulfment of cytoplasmic components by the [[Lysosome|lysosomal]] or vacuolar membrane.
 
 ## Characteristics
 - Unlike [[Macroautophagy]], it does not involve the formation of [[Autophagosome|autophagosomes]].
@@ -12,6 +12,6 @@
 - Complements other autophagic pathways in responding to metabolic stress.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Autophagy]], [[Lysosome]], [[Macroautophagy]], [[Autophagosome]]
+- New links added: [[Autophagy]], [[Lysosome]], [[Macroautophagy]], [[Autophagosome]]
 - Suggested new entity notes to create:
-- Strong connections to strengthen: [[Microautophagy]] ↔ [[notes/_link/Autophagy]], [[Microautophagy]] ↔ [[Lysosome]]
+- Strong connections to strengthen: [[Microautophagy]] ↔ [[Autophagy]], [[Microautophagy]] ↔ [[Lysosome]]

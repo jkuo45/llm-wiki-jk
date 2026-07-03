@@ -6,4 +6,4 @@
 
 - New links added: [[Quiescence]], [[Cell Cycle]]
 - Suggested new entity notes to create: [[Contact Inhibition]], [[Adherens Junction]]
-- Strong connections to strengthen: [[Cadherin]] ↔ [[notes/_link/Cancer]]
+- Strong connections to strengthen: [[Cadherin]] ↔ [[Cancer]]

@@ -4,6 +4,6 @@
 
 ### Linking Summary:
 
-- New links added: [[Quiescence]], [[Cadherin]], [[notes/_link/Cancer]]
+- New links added: [[Quiescence]], [[Cadherin]], [[Cancer]]
 - Suggested new entity notes to create: [[Hippo Signaling Pathway]]
 - Strong connections to strengthen: [[Contact Inhibition]] ↔ [[Cell Cycle]]

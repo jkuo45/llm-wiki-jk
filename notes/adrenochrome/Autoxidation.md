@@ -11,5 +11,5 @@ Autoxidation is the primary degradation pathway for pharmaceutical [[notes/_link
 ## Connections
 - [[notes/_link/Epinephrine]]
 - [[Adrenochrome]]
-- [[notes/_link/Oxidative Stress]]
+- [[notes/oxidative_stress/Oxidative Stress]]
 - [[notes/_link/Antioxidants]]

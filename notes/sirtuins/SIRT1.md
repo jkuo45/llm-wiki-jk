@@ -28,9 +28,41 @@ relations:
     sources:
       - PMID:14976264
   - predicate: deacetylates
-    target: "[[NF-κB (RelA/p65)]]"
+    target: "[[notes/_link/NFKB|NF-κB (RelA/p65)]]"
     sources:
       - PMID:15152190
+  - predicate: deacetylates
+    target: "[[TAFI68]]"
+    sources:
+      - Michan 2007
+  - predicate: deacetylates
+    target: "[[MEF2D]]"
+    sources:
+      - PMID:16166628
+  - predicate: deacetylates
+    target: "[[Smad7]]"
+    sources:
+      - Michan 2007
+  - predicate: deacetylates
+    target: "[[Ku70]]"
+    sources:
+      - Michan 2007
+  - predicate: deacetylates
+    target: "[[E2F1]]"
+    sources:
+      - Michan 2007
+  - predicate: deacetylates
+    target: "[[p73]]"
+    sources:
+      - Michan 2007
+  - predicate: deacetylates
+    target: "[[AceCS1]]"
+    sources:
+      - Michan 2007
+  - predicate: associated_with
+    target: "[[PML]]"
+    sources:
+      - PMID:12006491
   - predicate: activated_by
     target: "[[Resveratrol]]"
     sources:
@@ -48,7 +80,7 @@ relations:
     sources:
       - PMID:15205477
 created: 2026-07-02
-updated: 2026-07-02
+updated: 2026-07-03
 ---
 
 # SIRT1
@@ -71,23 +103,23 @@ SIRT1 facilitates the formation of heterochromatin by deacetylating:
 
 ### Chromatin and Transcription
 
-- **TAFI68**: Deacetylation reduces DNA binding and represses RNA Pol I-mediated transcription.
+- **[[TAFI68]]**: Deacetylation reduces DNA binding and represses RNA Pol I-mediated transcription.
 - **p300** (Lys¹⁰²⁰/Lys¹⁰²⁴): Negative regulation of this limiting transcriptional cofactor.
-- **MyoD/PCAF complex**: Deacetylation inhibits muscle gene expression and retards muscle differentiation.
-- **MEF2D** (Lys⁴²⁴): In concert with HDAC4, promotes MEF2 sumoylation, negatively regulating myogenesis.
+- **[[MyoD]]/PCAF complex**: Deacetylation inhibits muscle gene expression and retards muscle differentiation.
+- **[[MEF2D]]** (Lys⁴²⁴): In concert with HDAC4, promotes MEF2 sumoylation, negatively regulating myogenesis.
 - **BCL11A / CTIP2**: Recruited to target promoters to deacetylate histones and stimulate transcriptional repression during haematopoietic development.
 - **Hes1 / Hey2 (bHLH repressors)**: Modulates transcriptional repression during metazoan development.
 - **HIV-1 Tat** (Lys⁵⁰): Deacetylation activates Tat, increasing viral transcription.
 
 ### Apoptosis and Cell Survival
 
-- **[[p53]]** (Lys³¹⁷/³⁷⁰/³⁷⁹ in mouse; Lys³²⁰/³⁷³/³⁸² in human): Deacetylation inhibits p53 transactivation and suppresses apoptosis in response to oxidative stress/DNA damage. Part of a HIC1–SIRT1–p53 feedback loop.
-- **Ku70**: Deacetylated Ku70 sequesters pro-apoptotic Bax away from mitochondria.
-- **E2F1**: Mutual negative regulatory feedback loop protecting against DNA damage-induced apoptosis.
-- **p73**: Deacetylation suppresses transcriptional activity and inhibits apoptosis.
-- **FOXO transcription factors** (Foxo1, Foxo3a, Foxo4): Deacetylation reduces apoptosis while enhancing DNA repair and cell-cycle checkpoint gene expression. Foxo4 deacetylation enhances GADD45 expression and suppresses caspase-3/7.
-- **RelA/p65 (NF-κB)**: Deacetylation inhibits transactivation potential, sensitizing cells to TNFα-induced apoptosis.
-- **Smad7** (Lys⁶⁰/Lys⁷⁰): Deacetylation promotes ubiquitin-dependent proteasomal degradation via Smurf1, protecting glomerular mesangial cells from TGF-β-dependent apoptosis.
+- **[[p53]]** (Lys³¹⁷/³⁷⁰/³⁷⁹ in mouse; Lys³²⁰/³⁷³/³⁸² in human): Deacetylation inhibits p53 transactivation and suppresses apoptosis in response to oxidative stress/DNA damage. Part of a [[HIC1]]–SIRT1–p53 feedback loop.
+- **[[Ku70]]**: Deacetylated [[Ku70]] sequesters pro-apoptotic Bax away from mitochondria.
+- **[[E2F1]]**: Mutual negative regulatory feedback loop protecting against DNA damage-induced apoptosis.
+- **[[p73]]**: Deacetylation suppresses transcriptional activity and inhibits apoptosis.
+- **FOXO transcription factors** ([[FOXO1]], [[FOXO3a]], [[FOXO4]]): Deacetylation reduces apoptosis while enhancing DNA repair and cell-cycle checkpoint gene expression. [[FOXO4]] deacetylation enhances GADD45 expression and suppresses caspase-3/7.
+- **[[notes/_link/NFKB|RelA/p65 (NF-κB)]]**: Deacetylation inhibits transactivation potential, sensitizing cells to TNFα-induced apoptosis.
+- **[[Smad7]]** (Lys⁶⁰/Lys⁷⁰): Deacetylation promotes ubiquitin-dependent proteasomal degradation via Smurf1, protecting glomerular mesangial cells from TGF-β-dependent apoptosis.
 - **H2A.Z** (Lys¹¹⁵/Lys¹²¹): Deacetylation promotes ubiquitination and proteasomal degradation, protecting against cardiac hypertrophy.
 - **Androgen receptor** (Lys⁶³⁰): Deacetylation represses oncogenic signalling and inhibits prostate cancer cell growth.
 - **PARP-1**: Promotes PARP-1-mediated cell survival in response to DNA damage via AIF.
@@ -96,34 +128,34 @@ SIRT1 facilitates the formation of heterochromatin by deacetylating:
 
 - **PPAR-γ / aP2**: Represses adipogenesis genes; promotes fat mobilisation in white adipose tissue.
 - **[[PGC-1α]]**: Deacetylation represses glycolysis, increases hepatic glucose output, modulates mitochondrial function, and induces oxidative phosphorylation genes and mitochondrial biogenesis. Key downstream effector for neuroprotection.
-- **FOXO1**: Enhances FOXO1 interaction with C/EBPα, increasing adiponectin concentrations. Also promotes NeuroD and MafA transcription for insulin secretion and β-cell survival.
-- **UCP2**: Transcriptional repression enhances glucose-stimulated insulin secretion and ATP production in pancreatic β-cells.
-- **AceCS1** (cytoplasmic): Deacetylation activates acetyl-CoA synthetase 1, regulating fatty acid synthesis.
+- **[[FOXO1]]**: Enhances [[FOXO1]] interaction with C/EBPα, increasing [[Adiponectin]] concentrations. Also promotes NeuroD and MafA transcription for insulin secretion and β-cell survival.
+- **[[UCP2]]**: Transcriptional repression enhances glucose-stimulated insulin secretion and ATP production in pancreatic β-cells.
+- **[[AceCS1]]** (cytoplasmic): Deacetylation activates acetyl-CoA synthetase 1, regulating fatty acid synthesis.
 
 ### Nervous System and Neuroprotection
 
 SIRT1 is expressed mainly in neuronal bodies and is highly expressed in the embryonic heart, brain, spinal cord, and dorsal root ganglia. SIRT1:
 
 - Protects against axonal/Wallerian degeneration in concert with the NAD⁺ biosynthetic enzyme Nmnat.
-- Protects against β-amyloid toxicity by inhibiting NF-κB signalling in microglia.
+- Protects against β-amyloid toxicity by inhibiting [[notes/_link/NFKB|NF-κB]] signalling in microglia.
 - Downregulates ROCK1 expression in neurons, inducing α-secretase (relevant to Alzheimer's disease prevention under CR).
 - Neuroprotects via [[PGC-1α]]-mediated mitochondrial maintenance.
 
 ### Inflammation
 
-SIRT1 deacetylates RelA/p65, inhibiting NF-κB-dependent pro-inflammatory gene expression. Higher SIRT1 in CR animals may explain their reduced inflammatory responses.
+SIRT1 deacetylates RelA/p65, inhibiting [[notes/_link/NFKB|NF-κB]]-dependent pro-inflammatory gene expression. Higher SIRT1 in CR animals may explain their reduced inflammatory responses.
 
 ### Cellular Senescence
 
 SIRT1's role in senescence is context-dependent:
 
-- In primary mouse embryonic fibroblasts, SIRT1 rescues cells from PML-mediated premature senescence by inhibiting p53.
+- In primary mouse embryonic fibroblasts, SIRT1 rescues cells from [[PML]]-mediated premature senescence by inhibiting [[p53]].
 - Conversely, SIRT1 can promote senescence; SIRT1-deficient MEFs show extended replicative potential.
 - SIRT1 levels decline with serial passaging and in dividing tissues of aged mice (thymus, testis).
 
 ## Subcellular Localisation
 
-Predominantly **nuclear** (associated with euchromatin); also has cytoplasmic functions (e.g., AceCS1 deacetylation). During apoptosis, caspase-9 and Bcl-xL regulate SIRT1 cleavage, shifting localisation from nucleus to cytoplasm.
+Predominantly **nuclear** (associated with euchromatin); also has cytoplasmic functions (e.g., [[AceCS1]] deacetylation). During apoptosis, caspase-9 and Bcl-xL regulate SIRT1 cleavage, shifting localisation from nucleus to cytoplasm.
 
 ## Knockout Phenotype
 
@@ -156,7 +188,7 @@ SIRT1 is a key mediator of [[notes/_link/Caloric Restriction]] benefits in mamma
 
 ## Linking Summary
 
-- New links added: [[Sir2 (yeast)]], [[NAD+]], [[OAADPr]], [[p53]], [[PGC-1α]], [[Resveratrol]], [[notes/_link/Caloric Restriction]], [[SIRT2]], [[SIRT3]], [[FOXO1]], [[FOXO3a]], [[UCP2]], [[NF-κB (RelA/p65)]], [[SIRT4]], [[SIRT6]]
+- New links added: [[Sir2 (yeast)]], [[NAD+]], [[OAADPr]], [[p53]], [[PGC-1α]], [[Resveratrol]], [[notes/_link/Caloric Restriction]], [[SIRT2]], [[SIRT3]], [[FOXO1]], [[FOXO3a]], [[UCP2]], [[notes/_link/NFKB|NF-κB (RelA/p65)]], [[SIRT4]], [[SIRT6]], [[MyoD]]
 - Suggested new entity notes to create: [[FOXO3a]], [[FOXO4]], [[Smad7]], [[Ku70]], [[E2F1]], [[p73]], [[HIC1]], [[Nmnat]], [[MEF2D]], [[PML]]
 - Strong connections to strengthen: [[SIRT1]] ↔ [[p53]], [[SIRT1]] ↔ [[PGC-1α]], [[SIRT1]] ↔ [[notes/_link/Caloric Restriction]]
 
@@ -185,7 +217,7 @@ Because SIRT1 requires NAD+ (a coenzyme involved in energy metabolism) to functi
 As a deacetylase, SIRT1 modifies the [[Epigenome]] by removing acetyl groups from histones and non-histone proteins:
 
 - **Gene Silencing**: SIRT1 promotes the formation of [[Heterochromatin]], helping to keep repetitive elements and pro-inflammatory genes "turned off."
-- **Protein Regulation**: It deacetylates and regulates key transcription factors like p53 (cell cycle), PGC-1α (mitochondrial biogenesis), and NF-κB (inflammation).
+- **Protein Regulation**: It deacetylates and regulates key transcription factors like p53 (cell cycle), PGC-1α (mitochondrial biogenesis), and [[notes/_link/NFKB|NF-κB]] (inflammation).
 
 ## 3. SIRT1 and [[notes/_link/Aging]]
 
@@ -201,13 +233,13 @@ Higher levels of SIRT1 activity are generally associated with a longer, healthie
 - Suggested new entity notes to create: [[NAD+]], [[PGC-1alpha]], [[Sirtuin Activators]]
 - Strong connections to strengthen: [[notes/_link/SIRT1]] ↔ [[Sirtuin]], [[notes/_link/SIRT1]] ↔ [[notes/_link/Caloric Restriction]]
 
-- New links added: [[notes/_link/Autophagy]], [[Atg]], [[FOXO1]], [[FOXO3a]], [[notes/_link/Caloric Restriction]], [[Intermittent Fasting]], [[notes/_link/AMPK]]
+- New links added: [[Autophagy]], [[Atg]], [[FOXO1]], [[FOXO3a]], [[notes/_link/Caloric Restriction]], [[Intermittent Fasting]], [[notes/_link/AMPK]]
 - Suggested new entity notes to create: [[Atg]], [[FOXO1]], [[FOXO3a]], [[notes/_link/Caloric Restriction]], [[Intermittent Fasting]], [[notes/_link/AMPK]]
-- Strong connections to strengthen: [[notes/_link/SIRT1]] ↔ [[notes/_link/Caloric Restriction]], [[notes/_link/SIRT1]] ↔ [[notes/_link/AMPK]], [[notes/_link/SIRT1]] ↔ [[notes/_link/Autophagy]]
+- Strong connections to strengthen: [[notes/_link/SIRT1]] ↔ [[notes/_link/Caloric Restriction]], [[notes/_link/SIRT1]] ↔ [[notes/_link/AMPK]], [[notes/_link/SIRT1]] ↔ [[Autophagy]]
 
 ## Regulation of Autophagy
 
-- SIRT1 is a potent activator of [[notes/_link/Autophagy]].
+- SIRT1 is a potent activator of [[Autophagy]].
 - It deacetylates various autophagy-related proteins, including those in the [[Atg]] machinery and transcription factors like [[FOXO1]] and [[FOXO3a]].
 - SIRT1 activation is strongly induced by [[notes/_link/Caloric Restriction]] and [[Intermittent Fasting]], contributing to their lifespan-extending effects.
 
@@ -224,9 +256,9 @@ Higher levels of SIRT1 activity are generally associated with a longer, healthie
 
 ### Linking Summary:
 
-- New links added: [[notes/_link/AMPK]], [[notes/_link/Aging]], [[Atg]], [[notes/_link/Autophagy]], [[notes/_link/Caloric Restriction]], [[notes/_link/Cardiovascular Disease]], [[notes/_link/Diabetes Mellitus]], [[Epigenome]], [[FOXO1]], [[FOXO3a]], [[Heterochromatin]], [[Intermittent Fasting]], [[notes/_link/Neurodegenerative Diseases]], [[notes/_link/Resveratrol]], [[notes/_link/SIRT1]], [[Sirtuin]]
+- New links added: [[notes/_link/AMPK]], [[notes/_link/Aging]], [[Atg]], [[Autophagy]], [[notes/_link/Caloric Restriction]], [[notes/_link/Cardiovascular Disease]], [[notes/_link/Diabetes Mellitus]], [[Epigenome]], [[FOXO1]], [[FOXO3a]], [[Heterochromatin]], [[Intermittent Fasting]], [[notes/_link/Neurodegenerative Diseases]], [[notes/_link/Resveratrol]], [[notes/_link/SIRT1]], [[Sirtuin]]
 - Suggested new entity notes to create: [[notes/_link/AMPK]], [[Atg]], [[notes/_link/Caloric Restriction]], [[FOXO1]], [[FOXO3a]], [[Intermittent Fasting]], [[NAD+]], [[PGC-1alpha]], [[Sirtuin Activators]]
-- Strong connections to strengthen: [[notes/_link/SIRT1]] ↔ [[notes/_link/AMPK]], [[notes/_link/SIRT1]] ↔ [[notes/_link/Autophagy]], [[notes/_link/SIRT1]] ↔ [[notes/_link/Caloric Restriction]], [[notes/_link/SIRT1]] ↔ [[Sirtuin]]
+- Strong connections to strengthen: [[notes/_link/SIRT1]] ↔ [[notes/_link/AMPK]], [[notes/_link/SIRT1]] ↔ [[Autophagy]], [[notes/_link/SIRT1]] ↔ [[notes/_link/Caloric Restriction]], [[notes/_link/SIRT1]] ↔ [[Sirtuin]]
 
 ---
 

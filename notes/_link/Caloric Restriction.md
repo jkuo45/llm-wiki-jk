@@ -78,18 +78,18 @@ The epigenetic changes induced by CR converge on several critical pathways:
 - Suggested new entity notes to create: [[p16INK4a]], [[NAD+]], [[Telomere]], [[DunedinPACE]].
 - Strong connections to strengthen: [[notes/_link/Caloric Restriction]] ↔ [[notes/_link/Aging]], [[notes/_link/Caloric Restriction]] ↔ [[notes/sirtuins/SIRT1]]
 
-- New links added: [[Longevity]], [[notes/_link/Autophagy]], [[notes/_link/AMPK]], [[Cellular Homeostasis]], [[notes/_link/Cancer]], [[Neurodegenerative Disease]], [[notes/_link/Inflammaging]], [[Autophagic Cell Death]]
+- New links added: [[Longevity]], [[Autophagy]], [[notes/_link/AMPK]], [[Cellular Homeostasis]], [[Cancer]], [[Neurodegenerative Disease]], [[notes/_link/Inflammaging]], [[Autophagic Cell Death]]
 - Suggested new entity notes to create: [[Longevity]], [[notes/_link/AMPK]], [[Cellular Homeostasis]]
-- Strong connections to strengthen: [[notes/_link/Caloric Restriction]] ↔ [[notes/_link/Autophagy]], [[notes/_link/Caloric Restriction]] ↔ [[Longevity]]
+- Strong connections to strengthen: [[notes/_link/Caloric Restriction]] ↔ [[Autophagy]], [[notes/_link/Caloric Restriction]] ↔ [[Longevity]]
 
 ## Relationship with Autophagy
-- Caloric restriction is a potent inducer of [[notes/_link/Autophagy]].
+- Caloric restriction is a potent inducer of [[Autophagy]].
 - It leads to ATP depletion and an increased AMP/ATP ratio, which activates [[notes/_link/AMPK]].
 - AMPK activation subsequently induces autophagy to compensate for energy limitations and maintain [[Cellular Homeostasis]].
 
 
 ## Health Benefits
-- Enhances protection against chronic pathologies like [[notes/_link/Cancer]] and [[Neurodegenerative Disease]].
+- Enhances protection against chronic pathologies like [[Cancer]] and [[Neurodegenerative Disease]].
 - Regulates anti-inflammatory responses and reduces [[notes/_link/Inflammaging]].
 - Improves metabolic health and insulin sensitivity.
 
@@ -106,9 +106,9 @@ The epigenetic changes induced by CR converge on several critical pathways:
 
 
 ### Linking Summary:
-- New links added: [[notes/_link/AMPK]], [[notes/_link/Aging]], [[Autophagic Cell Death]], [[notes/_link/Autophagy]], [[notes/_link/Cancer]], [[Cellular Homeostasis]], [[Cellular Senescence]], [[Chromatin]], [[DNA Methylation]], [[Epigenome]], [[HDAC]], [[Heterochromatin]], [[Histone Modification]], [[notes/_link/Inflammaging]], [[Longevity]], [[Neurodegenerative Disease]], [[notes/sirtuins/SIRT1]], [[Sirtuin]]
+- New links added: [[notes/_link/AMPK]], [[notes/_link/Aging]], [[Autophagic Cell Death]], [[Autophagy]], [[Cancer]], [[Cellular Homeostasis]], [[Cellular Senescence]], [[Chromatin]], [[DNA Methylation]], [[Epigenome]], [[HDAC]], [[Heterochromatin]], [[Histone Modification]], [[notes/_link/Inflammaging]], [[Longevity]], [[Neurodegenerative Disease]], [[notes/sirtuins/SIRT1]], [[Sirtuin]]
 - Suggested new entity notes to create: [[notes/_link/AMPK]], [[Cellular Homeostasis]], [[DunedinPACE]], [[Longevity]], [[NAD+]], [[Telomere]], [[p16INK4a]]
-- Strong connections to strengthen: [[notes/_link/Caloric Restriction]] ↔ [[notes/_link/Aging]], [[notes/_link/Caloric Restriction]] ↔ [[notes/_link/Autophagy]], [[notes/_link/Caloric Restriction]] ↔ [[Longevity]], [[notes/_link/Caloric Restriction]] ↔ [[notes/sirtuins/SIRT1]]
+- Strong connections to strengthen: [[notes/_link/Caloric Restriction]] ↔ [[notes/_link/Aging]], [[notes/_link/Caloric Restriction]] ↔ [[Autophagy]], [[notes/_link/Caloric Restriction]] ↔ [[Longevity]], [[notes/_link/Caloric Restriction]] ↔ [[notes/sirtuins/SIRT1]]
 
 # Caloric Restriction
 
@@ -193,6 +193,6 @@ When cells become nutrient-starved, sirtuin-**independent** pathways such as **T
 Caloric restriction (CR) is a dietary regimen that reduces calorie intake without incurring malnutrition or a reduction in essential nutrients. It has been shown to increase lifespan and reduce oxidative stress in various model organisms, potentially by lowering the intake of dietary [[Advanced Glycation End Products|AGEs]].
 
 ### Linking Summary:
-- New links added: [[Advanced Glycation End Products]], [[Oxidative Stress]], [[Lifespan]]
+- New links added: [[Advanced Glycation End Products]], [[notes/oxidative_stress/Oxidative Stress]], [[Lifespan]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[notes/adrenochrome/Caloric Restriction]] ↔ [[Longevity]]

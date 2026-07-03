@@ -1,6 +1,6 @@
 # Cardiovascular Disease
 
-Cardiovascular disease (CVD) is a class of diseases that involve the heart or blood vessels. Major types include coronary artery disease (e.g., [[notes/_link/Atherosclerosis]]), which is often preceded by [[Endothelial Dysfunction]] and exacerbated by chronic [[notes/_link/Oxidative Stress]].
+Cardiovascular disease (CVD) is a class of diseases that involve the heart or blood vessels. Major types include coronary artery disease (e.g., [[notes/_link/Atherosclerosis]]), which is often preceded by [[Endothelial Dysfunction]] and exacerbated by chronic [[notes/oxidative_stress/Oxidative Stress]].
 
 
 The relationship between **[[Epigenetics]]**, **[[notes/_link/Aging]]**, and **Cardiovascular Disease (CVD)** is a central focus of modern cardiology. Epigenetic modifications act as a bridge between environmental factors (lifestyle, pollution, stress) and the genetic blueprint, driving the progressive decline in heart and vascular function that occurs with age.
@@ -45,15 +45,15 @@ The reversible nature of epigenetic modifications makes them attractive targets 
 - Suggested new entity notes to create: [[Endothelial Dysfunction]], [[Vascular Stiffening]], [[Cardiac Fibrosis]], [[notes/_link/Inflammaging]].
 - Strong connections to strengthen: [[notes/_link/Cardiovascular Disease]] ↔ [[notes/_link/Aging]], [[notes/_link/Cardiovascular Disease]] ↔ [[DNA Methylation]]
 
-- New links added: [[Autophagic Flux]], [[notes/_link/AMPK]], [[notes/_link/Autophagy]], [[Ventricular Remodeling]], [[Cardiomyocyte Toxicity]], [[Intermittent Fasting]], [[notes/_link/Caloric Restriction]], [[Ischemia-reperfusion Injury]], [[Myocardial Infarction]], [[Atg5]]
+- New links added: [[Autophagic Flux]], [[notes/_link/AMPK]], [[Autophagy]], [[Ventricular Remodeling]], [[Cardiomyocyte Toxicity]], [[Intermittent Fasting]], [[notes/_link/Caloric Restriction]], [[Ischemia-reperfusion Injury]], [[Myocardial Infarction]], [[Atg5]]
 - Suggested new entity notes to create: [[Autophagic Flux]], [[notes/_link/AMPK]], [[Ventricular Remodeling]], [[Cardiomyocyte Toxicity]], [[Intermittent Fasting]], [[notes/_link/Caloric Restriction]], [[Ischemia-reperfusion Injury]], [[Myocardial Infarction]]
-- Strong connections to strengthen: [[notes/_link/Cardiovascular Disease]] ↔ [[notes/_link/Autophagy]], [[notes/_link/Cardiovascular Disease]] ↔ [[Myocardial Infarction]]
+- Strong connections to strengthen: [[notes/_link/Cardiovascular Disease]] ↔ [[Autophagy]], [[notes/_link/Cardiovascular Disease]] ↔ [[Myocardial Infarction]]
 
-- New links added: [[notes/_link/COMT]], [[Val158Met]], [[SNP]], [[Aspirin]], [[Catecholamines]], [[notes/_link/Epinephrine]], [[notes/_link/Norepinephrine]].
+- New links added: [[COMT]], [[Val158Met]], [[SNP]], [[Aspirin]], [[Catecholamines]], [[notes/_link/Epinephrine]], [[notes/_link/Norepinephrine]].
 
 ## Role of Autophagy
 - [[Autophagic Flux]] is crucial for maintaining cardiomyocyte homeostasis and heart function.
-- In ischemic conditions, the activation of [[notes/_link/AMPK]] and subsequent [[notes/_link/Autophagy]] acts as a protective mechanism to save injured cells.
+- In ischemic conditions, the activation of [[notes/_link/AMPK]] and subsequent [[Autophagy]] acts as a protective mechanism to save injured cells.
 - Deficient autophagy is linked to [[Ventricular Remodeling]] and [[Cardiomyocyte Toxicity]].
 
 
@@ -64,7 +64,7 @@ The reversible nature of epigenetic modifications makes them attractive targets 
 
 
 ## Role of COMT
-Genetic variation in [[notes/_link/COMT]], particularly the [[Val158Met]] [[SNP]], has been linked to the risk of developing [[notes/_link/Cardiovascular Disease]]. This is partly due to the enzyme's role in regulating [[Catecholamines]] (like [[notes/_link/Epinephrine]] and [[notes/_link/Norepinephrine]]) and the response to medications like [[Aspirin]].
+Genetic variation in [[COMT]], particularly the [[Val158Met]] [[SNP]], has been linked to the risk of developing [[notes/_link/Cardiovascular Disease]]. This is partly due to the enzyme's role in regulating [[Catecholamines]] (like [[notes/_link/Epinephrine]] and [[notes/_link/Norepinephrine]]) and the response to medications like [[Aspirin]].
 
 
 ## Connections
@@ -73,13 +73,13 @@ Genetic variation in [[notes/_link/COMT]], particularly the [[Val158Met]] [[SNP]
 - **[[DNAmGrimAge]]**: A highly predictive epigenetic biomarker for cardiovascular mortality.
 
 
-- [[notes/_link/COMT]]: Enzyme activity impacts cardiovascular health and drug response.
+- [[COMT]]: Enzyme activity impacts cardiovascular health and drug response.
 - [[Aspirin]]: A common medication whose cardiovascular efficacy is dependent on COMT genotype.
 - [[Catecholamines]]: Hormones regulated by COMT that influence blood pressure and heart rate.
 
 ---
 
 ### Linking Summary:
-- New links added: [[notes/_link/AMPK]], [[notes/_link/Aging]], [[Aspirin]], [[Atg5]], [[notes/_link/Atherosclerosis]], [[Autophagic Flux]], [[notes/_link/Autophagy]], [[notes/_link/COMT]], [[notes/_link/Caloric Restriction]], [[Cardiomyocyte Toxicity]], [[Catecholamines]], [[Cellular Senescence]], [[DNA Methylation]], [[DNAmGrimAge]], [[Epigenetic Clock]], [[Epigenetics]], [[notes/_link/Epinephrine]], [[Genomic Instability]], [[HDAC]], [[Histone Modification]], [[Intermittent Fasting]], [[Ischemia-reperfusion Injury]], [[MicroRNA]], [[Myocardial Infarction]], [[Non-coding RNA]], [[notes/_link/Norepinephrine]], [[notes/_link/Resveratrol]], [[notes/sirtuins/SIRT1]], [[SNP]], [[Senolytics]], [[Sirtuin]], [[Val158Met]], [[Ventricular Remodeling]]
+- New links added: [[notes/_link/AMPK]], [[notes/_link/Aging]], [[Aspirin]], [[Atg5]], [[notes/_link/Atherosclerosis]], [[Autophagic Flux]], [[Autophagy]], [[COMT]], [[notes/_link/Caloric Restriction]], [[Cardiomyocyte Toxicity]], [[Catecholamines]], [[Cellular Senescence]], [[DNA Methylation]], [[DNAmGrimAge]], [[Epigenetic Clock]], [[Epigenetics]], [[notes/_link/Epinephrine]], [[Genomic Instability]], [[HDAC]], [[Histone Modification]], [[Intermittent Fasting]], [[Ischemia-reperfusion Injury]], [[MicroRNA]], [[Myocardial Infarction]], [[Non-coding RNA]], [[notes/_link/Norepinephrine]], [[notes/_link/Resveratrol]], [[notes/sirtuins/SIRT1]], [[SNP]], [[Senolytics]], [[Sirtuin]], [[Val158Met]], [[Ventricular Remodeling]]
 - Suggested new entity notes to create: [[notes/_link/AMPK]], [[Autophagic Flux]], [[notes/_link/Caloric Restriction]], [[Cardiac Fibrosis]], [[Cardiomyocyte Toxicity]], [[Endothelial Dysfunction]], [[notes/_link/Inflammaging]], [[Intermittent Fasting]], [[Ischemia-reperfusion Injury]], [[Myocardial Infarction]], [[Vascular Stiffening]], [[Ventricular Remodeling]]
-- Strong connections to strengthen: [[notes/_link/Cardiovascular Disease]] ↔ [[notes/_link/Aging]], [[notes/_link/Cardiovascular Disease]] ↔ [[notes/_link/Autophagy]], [[notes/_link/Cardiovascular Disease]] ↔ [[DNA Methylation]], [[notes/_link/Cardiovascular Disease]] ↔ [[Myocardial Infarction]]
+- Strong connections to strengthen: [[notes/_link/Cardiovascular Disease]] ↔ [[notes/_link/Aging]], [[notes/_link/Cardiovascular Disease]] ↔ [[Autophagy]], [[notes/_link/Cardiovascular Disease]] ↔ [[DNA Methylation]], [[notes/_link/Cardiovascular Disease]] ↔ [[Myocardial Infarction]]

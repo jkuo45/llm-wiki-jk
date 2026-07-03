@@ -1,6 +1,6 @@
 # Metabolic Reprogramming
 
-[[Metabolic Reprogramming]] refers to the ability of [[notes/_link/Cancer]] cells to alter their metabolism to support increased proliferation, survival, and adaptation to the [[tumour microenvironment]]. It is considered one of the [[Hallmarks of Cancer]].
+[[Metabolic Reprogramming]] refers to the ability of [[Cancer]] cells to alter their metabolism to support increased proliferation, survival, and adaptation to the [[tumour microenvironment]]. It is considered one of the [[Hallmarks of Cancer]].
 
 ## Key Features
 - **Aerobic Glycolysis:** Also known as the [[Warburg Effect]], where cells prefer [[Glycolysis]] even in the presence of oxygen.
@@ -15,9 +15,9 @@ Metabolic reprogramming creates vulnerabilities that can be targeted:
 - Compounds like [[Fenbendazole]] are being studied for their ability to interfere with these metabolic shifts.
 
 ## Connections
-- **Related Processes:** [[Warburg Effect]], [[Glycolysis]], [[notes/_link/Oxidative Stress]], [[notes/_link/Hypoxia]]
+- **Related Processes:** [[Warburg Effect]], [[Glycolysis]], [[notes/oxidative_stress/Oxidative Stress]], [[notes/_link/Hypoxia]]
 - **Key Molecules:** [[Glucose]], [[Glutamine]], [[Lactate]], [[ATP]], [[NADPH]]
 - **Regulators:** [[notes/_link/p53]], [[MYC]], [[HIF-1α]], [[notes/_link/mTOR]]
 
 ## Linking Summary
-- New links added: [[notes/_link/Cancer]], [[tumour microenvironment]], [[Hallmarks of Cancer]], [[Warburg Effect]], [[Glycolysis]], [[glutamine]], [[NADPH]], [[GLUT1]], [[Hexokinase 2]], [[Pyruvate Kinase M2]], [[Fenbendazole]], [[notes/_link/Oxidative Stress]], [[notes/_link/Hypoxia]], [[Lactate]], [[ATP]], [[notes/_link/p53]], [[MYC]], [[HIF-1α]], [[notes/_link/mTOR]]
+- New links added: [[Cancer]], [[tumour microenvironment]], [[Hallmarks of Cancer]], [[Warburg Effect]], [[Glycolysis]], [[glutamine]], [[NADPH]], [[GLUT1]], [[Hexokinase 2]], [[Pyruvate Kinase M2]], [[Fenbendazole]], [[notes/oxidative_stress/Oxidative Stress]], [[notes/_link/Hypoxia]], [[Lactate]], [[ATP]], [[notes/_link/p53]], [[MYC]], [[HIF-1α]], [[notes/_link/mTOR]]

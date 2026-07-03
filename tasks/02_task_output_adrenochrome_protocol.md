@@ -30,7 +30,7 @@ To prevent spontaneous degradation into [[Melanins]] (polymerization) and to mit
 
 ### Method B: Precursor Loading (The Erythrocyte-Mediated Pathway)
 *   **Route:** Intramuscular or Subcutaneous.
-*   **Procedure:** Administration of [[notes/_link/Epinephrine]] in conjunction with [[notes/_link/COMT]] and [[MAO]] inhibitors. By blocking the primary metabolic cleanup pathways, the substrate is shunted toward the minor oxidative pathway.
+*   **Procedure:** Administration of [[notes/_link/Epinephrine]] in conjunction with [[COMT]] and [[MAO]] inhibitors. By blocking the primary metabolic cleanup pathways, the substrate is shunted toward the minor oxidative pathway.
 *   **Facilitation:** Localized production is triggered by the natural redox environment of circulating [[Erythrocytes]], where [[Oxyhemoglobin]] facilitates the "folding" of epinephrine into the adrenochrome structure.
 
 ### Method C: Central Nervous System Delivery
@@ -39,7 +39,7 @@ To prevent spontaneous degradation into [[Melanins]] (polymerization) and to mit
 
 ## 4. Safety Monitoring and Risk Mitigation
 
-Adrenochrome replenishment carries significant risks of [[notes/_link/Oxidative Stress]] and organ damage. The following must be monitored:
+Adrenochrome replenishment carries significant risks of [[notes/oxidative_stress/Oxidative Stress]] and organ damage. The following must be monitored:
 
 *   **Cardioprotection:** [[_document_ -  adrenochrome - Adrenochrome]] is a known cardiotoxic agent that can uncouple oxidative phosphorylation in mitochondria. ECG monitoring and Troponin markers are mandatory to prevent "myocardial stunning."
 *   **Heme Integrity:** Monitor for [[Methemoglobinemia]]. Excessive ROS generated during replenishment can oxidize hemoglobin to [[Methemoglobin]], impairing oxygen transport.
@@ -53,6 +53,6 @@ Adrenochrome replenishment carries significant risks of [[notes/_link/Oxidative 
 *   [[notes/_link/Neuromelanin]] ↔ Long-term sequestration product in the brain.
 
 ### Linking Summary:
-- New links added: [[_document_ -  adrenochrome - Adrenochrome]], [[Leuco-adrenochrome]], [[Carbazochrome]], [[notes/_link/Epinephrine]], [[Erythrocytes]], [[Oxyhemoglobin]], [[Methemoglobin]], [[Superoxide anion]], [[Melanins]], [[Cardiotoxicity]], [[notes/_link/Ascorbic Acid]], [[notes/_link/Glutathione]], [[Redox Cycling]], [[EDTA]], [[Argon]], [[Nitrogen gas]], [[notes/_link/Reactive Oxygen Species]], [[notes/_link/COMT]], [[MAO]], [[notes/_link/Neuromelanin]], [[Methemoglobinemia]], [[notes/_link/Superoxide Dismutase]], [[Redox cycle]].
+- New links added: [[_document_ -  adrenochrome - Adrenochrome]], [[Leuco-adrenochrome]], [[Carbazochrome]], [[notes/_link/Epinephrine]], [[Erythrocytes]], [[Oxyhemoglobin]], [[Methemoglobin]], [[Superoxide anion]], [[Melanins]], [[Cardiotoxicity]], [[notes/_link/Ascorbic Acid]], [[notes/_link/Glutathione]], [[Redox Cycling]], [[EDTA]], [[Argon]], [[Nitrogen gas]], [[notes/_link/Reactive Oxygen Species]], [[COMT]], [[MAO]], [[notes/_link/Neuromelanin]], [[Methemoglobinemia]], [[notes/_link/Superoxide Dismutase]], [[Redox cycle]].
 - Suggested new entity notes to create: None (all key terms already exist or were derived from research).
 - Strong connections to strengthen: [[_document_ -  adrenochrome - Adrenochrome]] ↔ [[Leuco-adrenochrome]], [[notes/_link/Epinephrine]] ↔ [[Erythrocytes]], [[_document_ -  adrenochrome - Adrenochrome]] ↔ [[Cardiotoxicity]].

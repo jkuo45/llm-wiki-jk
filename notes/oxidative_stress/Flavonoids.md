@@ -11,9 +11,9 @@ They exhibit antioxidant activity by scavenging free radicals and chelating meta
 
 ## Connections
 - [[Polyphenols]]
-- [[notes/_link/Oxidative Stress]]
+- [[notes/oxidative_stress/Oxidative Stress]]
 
 ### Linking Summary:
-- New links added: [[Genistein]], [[Polyphenols]], [[notes/_link/Oxidative Stress]]
+- New links added: [[Genistein]], [[Polyphenols]], [[notes/oxidative_stress/Oxidative Stress]]
 - Suggested new entity notes to create: [[Metal chelation]], [[Secondary metabolites]]
 - Strong connections to strengthen: [[Flavonoids]] ↔ [[Polyphenols]]

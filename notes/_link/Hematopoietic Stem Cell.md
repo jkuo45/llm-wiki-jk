@@ -22,10 +22,10 @@
 - Senescence in HSCs contributes to age-associated pathologies.
 
 ## Autophagy and Rejuvenation
-- The [[notes/_link/Autophagy]] protein [[Atg7]] is essential for HSC maintenance.
+- The [[Autophagy]] protein [[Atg7]] is essential for HSC maintenance.
 - [[Rapamycin]] treatment has been shown to restore self-renewal and expansion of aged HSCs.
 
 ### Linking Summary:
-- New links added: [[Immune Aging]], [[notes/_link/Autophagy]], [[Atg7]], [[Rapamycin]]
+- New links added: [[Immune Aging]], [[Autophagy]], [[Atg7]], [[Rapamycin]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[Hematopoietic Stem Cell]] ↔ [[Immune Aging]]

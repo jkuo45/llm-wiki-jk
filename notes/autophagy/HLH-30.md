@@ -1,6 +1,6 @@
 # HLH-30
 
-**HLH-30** (Helix-loop-helix 30) is the [[C. elegans]] orthologue of the mammalian transcription factor [[TFEB]], serving as a master regulator of [[notes/_link/Autophagy]] and [[Lysosome]] biogenesis. It plays a key role in lifespan extension, stress resistance, and nutrient mobilization.
+**HLH-30** (Helix-loop-helix 30) is the [[C. elegans]] orthologue of the mammalian transcription factor [[TFEB]], serving as a master regulator of [[Autophagy]] and [[Lysosome]] biogenesis. It plays a key role in lifespan extension, stress resistance, and nutrient mobilization.
 
 ## Function and Regulation
 - **Nutrient Status**: During [[Fasting]] or [[Starvation]], HLH-30 translocates from the cytoplasm to the nucleus.
@@ -14,6 +14,6 @@
 - **Longevity**: HLH-30 is required for the lifespan extension observed in [[MXL-3]] mutants and other longevity models.
 
 ### Linking Summary:
-- New links added: [[C. elegans]], [[TFEB]], [[notes/_link/Autophagy]], [[Lysosome]], [[Fasting]], [[Starvation]], [[LGG-1]], [[LGG-2]], [[ATG-16.2]], [[LIPL-1]], [[LIPL-2]], [[LIPL-3]], [[LIPL-5]], [[MXL-3]], [[Lipophagy]], [[Lysosomal Lipolysis]], [[Nutrient Availability]], [[mTOR]]
+- New links added: [[C. elegans]], [[TFEB]], [[Autophagy]], [[Lysosome]], [[Fasting]], [[Starvation]], [[LGG-1]], [[LGG-2]], [[ATG-16.2]], [[LIPL-1]], [[LIPL-2]], [[LIPL-3]], [[LIPL-5]], [[MXL-3]], [[Lipophagy]], [[Lysosomal Lipolysis]], [[Nutrient Availability]], [[mTOR]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[HLH-30]] ↔ [[MXL-3]], [[HLH-30]] ↔ [[TFEB]], [[HLH-30]] ↔ [[Lipophagy]]

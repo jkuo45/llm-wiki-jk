@@ -1,6 +1,6 @@
 # Chaperone-Mediated Autophagy
 
-**Chaperone-Mediated Autophagy** (CMA) is a highly selective type of [[notes/_link/Autophagy]] that targets specific proteins for degradation in the [[Lysosome]].
+**Chaperone-Mediated Autophagy** (CMA) is a highly selective type of [[Autophagy]] that targets specific proteins for degradation in the [[Lysosome]].
 
 ## Mechanism
 - Targeted proteins containing a KFERQ-like motif are recognized by the chaperone Hsc70.
@@ -13,6 +13,6 @@
 - Its decline with [[notes/_link/Aging]] is associated with the accumulation of toxic protein aggregates.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Autophagy]], [[Lysosome]], [[LAMP-2A]], [[notes/_link/Aging]]
+- New links added: [[Autophagy]], [[Lysosome]], [[LAMP-2A]], [[notes/_link/Aging]]
 - Suggested new entity notes to create: , [[LAMP-2A]]
-- Strong connections to strengthen: [[Chaperone-Mediated Autophagy]] ↔ [[notes/_link/Autophagy]], [[Chaperone-Mediated Autophagy]] ↔ [[LAMP-2A]]
+- Strong connections to strengthen: [[Chaperone-Mediated Autophagy]] ↔ [[Autophagy]], [[Chaperone-Mediated Autophagy]] ↔ [[LAMP-2A]]

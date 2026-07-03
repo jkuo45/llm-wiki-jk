@@ -6,4 +6,4 @@
 
 - New links added: [[Quiescence]], [[notes/_link/Apoptosis]], [[notes/_link/Transcription]]
 - Suggested new entity notes to create: [[SMAD Proteins]]
-- Strong connections to strengthen: [[TGF-beta1]] ↔ [[notes/_link/Cancer]]
+- Strong connections to strengthen: [[TGF-beta1]] ↔ [[Cancer]]

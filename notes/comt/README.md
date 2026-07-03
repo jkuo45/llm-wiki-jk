@@ -1,6 +1,6 @@
 # COMT
 
-This directory contains notes and research regarding [[notes/_link/COMT]] (Catechol-O-methyltransferase), its critical role in catecholamine (dopamine, norepinephrine, epinephrine) metabolism, and the well-known genetic variant [[Val158Met]] (rs4680).Special emphasis is placed on the "Worrier vs. Warrior" behavioral phenotypes: how the Met allele (lower COMT activity) is associated with higher prefrontal dopamine, enhanced cognitive performance under calm conditions but increased anxiety and stress sensitivity ("Worrier"), while the Val allele (higher COMT activity) is linked to faster dopamine clearance, greater stress resilience, and "Warrior" traits.The directory also covers methylation pathways, interactions with related genes ([[MTHFR]], etc.), neurotransmitter balance, cognitive function, and connections to conditions such as anxiety, mood disorders, and cognitive performance.
+This directory contains notes and research regarding [[COMT]] (Catechol-O-methyltransferase), its critical role in catecholamine (dopamine, norepinephrine, epinephrine) metabolism, and the well-known genetic variant [[Val158Met]] (rs4680).Special emphasis is placed on the "Worrier vs. Warrior" behavioral phenotypes: how the Met allele (lower COMT activity) is associated with higher prefrontal dopamine, enhanced cognitive performance under calm conditions but increased anxiety and stress sensitivity ("Worrier"), while the Val allele (higher COMT activity) is linked to faster dopamine clearance, greater stress resilience, and "Warrior" traits.The directory also covers methylation pathways, interactions with related genes ([[MTHFR]], etc.), neurotransmitter balance, cognitive function, and connections to conditions such as anxiety, mood disorders, and cognitive performance.
 
 
 ## Maintenance
@@ -21,7 +21,7 @@ This directory contains notes and research regarding [[notes/_link/COMT]] (Catec
 | [[Catechol-O-methyltransferase]] | 25_May_2026 05:23 PM  |
 | [[Catechols]] | 25_May_2026 05:23 PM  |
 | [[Cerebellum]] | 25_May_2026 05:23 PM  |
-| [[notes/_link/COMT]] | 25_May_2026 05:23 PM  |
+| [[COMT]] | 25_May_2026 05:23 PM  |
 | [[Creatine]] | 25_May_2026 05:23 PM  |
 | [[D2 receptor]] | 25_May_2026 05:23 PM  |
 | [[Dopamine transporter]] | 25_May_2026 05:23 PM  |
@@ -51,7 +51,7 @@ This directory contains notes and research regarding [[notes/_link/COMT]] (Catec
 | [[Norepinephrine transporter]] | 25_May_2026 05:23 PM  |
 | [[notes/_link/Norepinephrine]] | 25_May_2026 05:23 PM  |
 | [[Oleacein]] | 25_May_2026 05:23 PM  |
-| [[notes/_link/Oxidative Stress]] | 25_May_2026 05:23 PM  |
+| [[notes/oxidative_stress/Oxidative Stress]] | 25_May_2026 05:23 PM  |
 | [[notes/_link/Parkinson's Disease]] | 25_May_2026 05:23 PM  |
 | [[Prefrontal Cortex]] | 25_May_2026 05:23 PM  |
 | [[Quercetin]] | 25_May_2026 05:23 PM  |

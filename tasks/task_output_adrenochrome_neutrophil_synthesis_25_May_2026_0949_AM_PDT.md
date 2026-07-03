@@ -45,11 +45,11 @@ The primary catalyst for this conversion is [[notes/_link/Myeloperoxidase]] (MPO
 
 ### B. Safety and Toxicity
 *   **ROS Damage:** Assess for lipid peroxidation in the cell membranes using TBARS assay to ensure the process hasn't completely compromised the leukocyte integrity before the cycle is complete.
-*   **[[notes/_link/Oxidative Stress]] Index:** Monitor [[notes/_link/Glutathione]] depletion levels in the surrounding medium.
+*   **[[notes/oxidative_stress/Oxidative Stress]] Index:** Monitor [[notes/_link/Glutathione]] depletion levels in the surrounding medium.
 
 ---
 
 ### Linking Summary:
-- **New links added:** [[notes/_link/Neutrophils]], [[notes/_link/Epinephrine]], [[_document_ -  adrenochrome - Adrenochrome]], [[notes/_link/Reactive Oxygen Species]], [[notes/_link/Myeloperoxidase]], [[Adrenaline catabolism]], [[notes/_link/Inflammation]], [[Superoxide anion]], [[notes/_link/Hydrogen Peroxide]], [[notes/_link/Ascorbic Acid]], [[NADPH Oxidase]], [[adrenaline-quinone]], [[Melanins]], [[Adrenolutin]], [[Sodium Metabisulfite]], [[notes/_link/Oxidative Stress]], [[notes/_link/Glutathione]]
+- **New links added:** [[notes/_link/Neutrophils]], [[notes/_link/Epinephrine]], [[_document_ -  adrenochrome - Adrenochrome]], [[notes/_link/Reactive Oxygen Species]], [[notes/_link/Myeloperoxidase]], [[Adrenaline catabolism]], [[notes/_link/Inflammation]], [[Superoxide anion]], [[notes/_link/Hydrogen Peroxide]], [[notes/_link/Ascorbic Acid]], [[NADPH Oxidase]], [[adrenaline-quinone]], [[Melanins]], [[Adrenolutin]], [[Sodium Metabisulfite]], [[notes/oxidative_stress/Oxidative Stress]], [[notes/_link/Glutathione]]
 - **Suggested new entity notes to create:** [[notes/_link/Respiratory Burst]], [[Myeloperoxidase Pathway]], [[HOCl-mediated Oxidation]]
 - **Strong connections to strengthen:** [[notes/_link/Neutrophils]] ↔ [[_document_ -  adrenochrome - Adrenochrome]], [[notes/_link/Myeloperoxidase]] ↔ [[notes/_link/Epinephrine]]

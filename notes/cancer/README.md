@@ -1,6 +1,6 @@
 # Cancer
 
-This directory contains notes and research regarding [[notes/_link/Cancer]], with a primary focus on drug repurposing, alternative mechanisms, and non-conventional approaches. Emphasis is placed on antiparasitic agents such as [[Ivermectin]], [[Fenbendazole]], [[Mebendazole]], and [[Albendazole]], as well as [[Melittin]] and components of [[Honeybee]] venom ([[Apis mellifera]]), and their potential effects on cancer cell pathways. Special attention is given to mechanisms including [[notes/_link/Apoptosis]], [[notes/_link/Autophagy]], [[Angiogenesis]] inhibition, [[notes/_link/Oxidative Stress]], [[Warburg Effect]], [[Metabolic Reprogramming]], and disruption of [[Microtubule]] dynamics, along with connections to specific cancer types (e.g., [[triple-negative breast cancer]], [[notes/_link/Colorectal Cancer]], [[glioblastoma]]) and the [[Hallmarks of Cancer]].
+This directory contains notes and research regarding [[Cancer]], with a primary focus on drug repurposing, alternative mechanisms, and non-conventional approaches. Emphasis is placed on antiparasitic agents such as [[Ivermectin]], [[Fenbendazole]], [[Mebendazole]], and [[Albendazole]], as well as [[Melittin]] and components of [[Honeybee]] venom ([[Apis mellifera]]), and their potential effects on cancer cell pathways. Special attention is given to mechanisms including [[notes/_link/Apoptosis]], [[Autophagy]], [[Angiogenesis]] inhibition, [[notes/oxidative_stress/Oxidative Stress]], [[Warburg Effect]], [[Metabolic Reprogramming]], and disruption of [[Microtubule]] dynamics, along with connections to specific cancer types (e.g., [[triple-negative breast cancer]], [[notes/_link/Colorectal Cancer]], [[glioblastoma]]) and the [[Hallmarks of Cancer]].
 
 
 **entity_relevance_score_1 (1-10):**
@@ -38,7 +38,7 @@ This directory contains notes and research regarding [[notes/_link/Cancer]], wit
 | [[Apoptosome]] | 31_May_2026 05:30 PM PDT | Biological Molecule | 8 | 0 | Multi-protein complex that activates Caspase-9 in the intrinsic pathway. |
 | [[Ascariasis]] | 21_May_2026 06:20 PM PDT | Medical Condition | 6 | -1 | Condition historically associated with the compounds before their repurposing. |
 | [[Ascaris]] | 21_May_2026 06:20 PM PDT | Microorganism | 6 | -1 | Related to the original anti-parasitic application of the discussed drugs. |
-| [[notes/_link/Autophagy]] | 21_May_2026 05:45 PM PDT | Biological Process | 9 | 1 | Cellular degradation process that plays a complex, dual role in tumor survival and death. |
+| [[Autophagy]] | 21_May_2026 05:45 PM PDT | Biological Process | 9 | 1 | Cellular degradation process that plays a complex, dual role in tumor survival and death. |
 | [[Avermectin]] | 21_May_2026 06:20 PM PDT | Chemical Compound | 9 | 1 | Significant therapeutic agent or chemical tool used in cancer research. |
 | [[Bax]] | 31_May_2026 05:30 PM PDT | Protein | 9 | 0 | Pro-apoptotic Bcl-2 family member critical for mitochondrial permeability. |
 | [[Bcl-2]] | 31_May_2026 05:30 PM PDT | Protein | 10 | 0 | Anti-apoptotic protein and major regulator of cell death; frequently overexpressed in cancer. |
@@ -51,7 +51,7 @@ This directory contains notes and research regarding [[notes/_link/Cancer]], wit
 | [[Brugia malayi]] | 21_May_2026 06:20 PM PDT | Microorganism | 6 | -1 | Related to the original anti-parasitic application of the discussed drugs. |
 | [[Brugia timori]] | 21_May_2026 06:20 PM PDT | Microorganism | 6 | -1 | Related to the original anti-parasitic application of the discussed drugs. |
 | [[CaMKII]] | 13_Jun_2026 10:30 AM PDT | Enzyme | 8 | 0 | Calcium/calmodulin-dependent protein kinase II that regulates Caspase-2. |
-| [[notes/_link/Cancer]] | 27_May_2026 10:15 AM PDT | Medical Condition | 10 | -1 | The central pathological focus of this knowledge base directory. |
+| [[Cancer]] | 27_May_2026 10:15 AM PDT | Medical Condition | 10 | -1 | The central pathological focus of this knowledge base directory. |
 | [[Cancer Stem Cells]] | 21_May_2026 05:45 PM PDT | Cell Type | 9 | -1 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[caspase-3]] | 19_May_2026 08:16 PM PDT | Enzyme | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
 | [[Caspase-8]] | 31_May_2026 05:30 PM PDT | Enzyme | 9 | 0 | Initiator caspase of the extrinsic apoptotic pathway. |
@@ -139,7 +139,7 @@ This directory contains notes and research regarding [[notes/_link/Cancer]], wit
 | [[Onchocerciasis Chemotherapy Research Centre]] | 21_May_2026 06:20 PM PDT | Organization | 4 | 1 | Provided historical, scientific, or institutional context for the research. |
 | [[ovarian cancer]] | 21_May_2026 06:45 PM PDT | Medical Condition | 9 | -1 | High-relevance pathological state targeted by the investigated compounds. |
 | [[Oxfendazole]] | 21_May_2026 06:45 PM PDT | Chemical Compound | 9 | 1 | Significant therapeutic agent or chemical tool used in cancer research. |
-| [[notes/_link/Oxidative Stress]] | 21_May_2026 06:45 PM PDT | Scientific Concept | 8 | -1 | Biological or chemical entity contributing to the broader understanding of the topic. |
+| [[notes/oxidative_stress/Oxidative Stress]] | 21_May_2026 06:45 PM PDT | Scientific Concept | 8 | -1 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[notes/_link/p53]] | 31_May_2026 05:30 PM PDT | Protein | 9 | 1 | Key molecular component of a signaling pathway relevant to cancer biology. |
 | [[PAK1]] | 31_May_2026 05:30 PM PDT | Enzyme | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
 | [[pancreatic cancer]] | 19_May_2026 08:16 PM PDT | Medical Condition | 9 | -1 | High-relevance pathological state targeted by the investigated compounds. |

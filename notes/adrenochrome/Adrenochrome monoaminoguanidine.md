@@ -7,7 +7,7 @@ It is less colored than products prepared by older methods and is more stable th
 ## Glyco-Oxidative Proteostasis Shield (GOPS)
 This hybrid molecule is a central component of the [[Glyco-Oxidative Proteostasis Shield]] strategy. Its mechanisms include:
 - **AGE Inhibition:** The aminoguanidine moiety directly inhibits the formation of [[Advanced Glycation End Products]] (AGEs) and DNA cross-links.
-- **Proteostatic Trigger:** The adrenochrome moiety induces a mild ER-stress response ([[Hormesis]]), upregulating chaperone proteins (HSPs) and priming the [[notes/_link/Autophagy]] machinery.
+- **Proteostatic Trigger:** The adrenochrome moiety induces a mild ER-stress response ([[Hormesis]]), upregulating chaperone proteins (HSPs) and priming the [[Autophagy]] machinery.
 
 ## Connections
 - [[Adrenochrome]]: The parent molecule and precursor.

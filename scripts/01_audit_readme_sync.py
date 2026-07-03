@@ -20,13 +20,17 @@ def get_entities_from_fs(dir_path):
     if not os.path.isdir(dir_path):
         return entities
     for f in os.listdir(dir_path):
-        if f.endswith('.md') and not f.startswith('[document]') and f != 'README.md':
+        if f.endswith('.md') and not f.startswith('[document]') and f not in ('README.md', 'index.md'):
             entities.add(f[:-3])
     return entities
 
 def audit_topic(topic_dir, link_dir='notes/_link'):
     print(f"\nAuditing: {topic_dir}")
     readme_path = os.path.join(topic_dir, 'README.md')
+    if not os.path.exists(readme_path):
+        index_path = os.path.join(topic_dir, 'index.md')
+        if os.path.exists(index_path):
+            readme_path = index_path
     
     readme_entities = get_entities_from_readme(readme_path)
     fs_entities = get_entities_from_fs(topic_dir)

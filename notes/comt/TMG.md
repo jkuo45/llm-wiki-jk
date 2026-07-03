@@ -6,13 +6,13 @@
 [[TMG]] helps convert [[Homocysteine]] to [[Methionine]], thereby supporting the production of [[SAMe]].
 
 ## Interaction with COMT
-As a [[Methyl Donor]], [[TMG]] supplementation can influence the pool of methyl groups available for [[notes/_link/COMT]]. Individuals with slow [[notes/_link/COMT]] genotypes may experience mood sensitivity when taking high doses of TMG.
+As a [[Methyl Donor]], [[TMG]] supplementation can influence the pool of methyl groups available for [[COMT]]. Individuals with slow [[COMT]] genotypes may experience mood sensitivity when taking high doses of TMG.
 
 ## Connections
 - [[Betaine]]: Another name for TMG.
 - [[Methylation Cycle]]: The metabolic pathway where TMG acts as a methyl donor.
-- [[notes/_link/COMT]]: Enzyme activity can be influenced by TMG-mediated methylation.
+- [[COMT]]: Enzyme activity can be influenced by TMG-mediated methylation.
 
 ---
 ### Linking Summary:
-- New links added: [[Betaine]], [[Methyl Donor]], [[Methylation Cycle]], [[SAMe]], [[notes/_link/COMT]].
+- New links added: [[Betaine]], [[Methyl Donor]], [[Methylation Cycle]], [[SAMe]], [[COMT]].

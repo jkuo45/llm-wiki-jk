@@ -9,4 +9,4 @@ Intermediates in the epinephrine oxidation pathway, such as [[Adrenochrome]] and
 - [[Methemoglobin]]
 - [[Hemoglobin]]
 - [[Adrenochrome]]
-- [[notes/_link/Oxidative Stress]]
+- [[notes/oxidative_stress/Oxidative Stress]]

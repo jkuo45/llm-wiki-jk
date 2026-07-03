@@ -5,4 +5,4 @@ Oxidative stress reflects an imbalance between the systemic manifestation of rea
 ### Linking Summary:
 - New links added: [[Advanced Glycation End Products]], [[Inflammation]], [[Aging]]
 - Suggested new entity notes to create: 
-- Strong connections to strengthen: [[Advanced Glycation End Products]] ↔ [[Oxidative Stress]]
+- Strong connections to strengthen: [[Advanced Glycation End Products]] ↔ [[notes/adrenochrome/Oxidative Stress]]

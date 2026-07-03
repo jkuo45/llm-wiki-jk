@@ -18,10 +18,10 @@ In stem cell research, [[Induced Pluripotent Stem Cells]] (iPSCs) have been gene
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Induced Pluripotent Stem Cells]] ↔ [[notes/_link/Schizophrenia]]
 
-- New links added: [[notes/_link/COMT]], [[Val158Met]], [[SNP]], [[notes/_link/Dopamine]], [[Prefrontal Cortex]].
+- New links added: [[COMT]], [[Val158Met]], [[SNP]], [[notes/_link/Dopamine]], [[Prefrontal Cortex]].
 
 ## COMT and Schizophrenia
-The [[notes/_link/COMT]] [[Val158Met]] [[SNP]] has been extensively studied in relation to [[notes/_link/Schizophrenia]]. The **Fast [[notes/_link/COMT]] (Val/Val)** genotype is sometimes associated with a slightly increased risk of schizophrenia in certain populations and may predict a poorer response to certain antipsychotic medications. This is thought to be related to lower [[notes/_link/Dopamine]] levels in the [[Prefrontal Cortex]].
+The [[COMT]] [[Val158Met]] [[SNP]] has been extensively studied in relation to [[notes/_link/Schizophrenia]]. The **Fast [[COMT]] (Val/Val)** genotype is sometimes associated with a slightly increased risk of schizophrenia in certain populations and may predict a poorer response to certain antipsychotic medications. This is thought to be related to lower [[notes/_link/Dopamine]] levels in the [[Prefrontal Cortex]].
 
 
 ## Connections
@@ -29,12 +29,12 @@ The [[notes/_link/COMT]] [[Val158Met]] [[SNP]] has been extensively studied in r
 - [[notes/_link/Neurodegenerative Diseases]]: While primarily a psychiatric disorder, schizophrenia is sometimes studied alongside neurodegenerative conditions in the context of brain health and inflammation.
 
 
-- [[notes/_link/COMT]]: A major candidate gene for schizophrenia research.
+- [[COMT]]: A major candidate gene for schizophrenia research.
 - [[notes/_link/Dopamine]]: The "dopamine hypothesis" of schizophrenia suggests dysregulated dopamine signaling is a key factor.
 - [[Prefrontal Cortex]]: The brain region where COMT-mediated dopamine regulation is most critical for cognitive symptoms.
 
 ---
 
 ### Linking Summary:
-- New links added: [[Adrenochrome]], [[notes/_link/COMT]], [[notes/_link/Dopamine]], [[Induced Pluripotent Stem Cells]], [[notes/_link/Neurodegenerative Diseases]], [[Prefrontal Cortex]], [[SNP]], [[Val158Met]]
+- New links added: [[Adrenochrome]], [[COMT]], [[notes/_link/Dopamine]], [[Induced Pluripotent Stem Cells]], [[notes/_link/Neurodegenerative Diseases]], [[Prefrontal Cortex]], [[SNP]], [[Val158Met]]
 - Strong connections to strengthen: [[Induced Pluripotent Stem Cells]] ↔ [[notes/_link/Schizophrenia]]
