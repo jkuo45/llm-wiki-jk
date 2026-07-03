@@ -22,6 +22,7 @@ type: index
 
 | Entity | entity_type_1 | Description |
 |--------|--------------|-------------|
+| [[Sirtuins]] | Protein | Mammalian sirtuin family overview (SIRT1–SIRT7); NAD⁺-dependent deacetylases and longevity regulators |
 | [[SIRT1]] | Protein | Class Ia; nuclear; robust NAD⁺-dependent deacetylase; most studied mammalian sirtuin |
 | [[SIRT2]] | Protein | Class Ib; cytoplasmic; tubulin deacetylase; glioma suppressor; cell cycle regulator |
 | [[SIRT3]] | Protein | Class Ib; mitochondrial; AceCS2 deacetylase; metabolic regulation; longevity variant |
@@ -42,6 +43,8 @@ type: index
 |--------|--------------|-------------|
 | [[NAD+]] | Biological Molecule | Obligatory co-substrate for all sirtuin deacetylase/ADP-ribosyl transferase activity |
 | [[OAADPr]] | Metabolite | 2′-*O*-acetyl-ADP-ribose; unique by-product of sirtuin deacetylation; TRPM2 activator |
+| [[cADPR]] | Metabolite | Cyclic ADP-ribose; calcium-mobilizing second messenger synthesized from NAD⁺ by CD38 |
+| [[cAMP]] | Metabolite | Cyclic AMP second messenger; mediates indirect resveratrol SIRT1 activation via PDE4/AMPK |
 
 ### Pharmacological Agents
 
@@ -71,6 +74,7 @@ type: index
 | Entity | entity_type_1 | Description |
 |--------|--------------|-------------|
 | [[notes/_link/Caloric Restriction]] | Scientific Concept | Dietary longevity intervention; activates SIRT1/SIRT3; requires Sir2 in yeast/flies |
+| [[ADP-ribosylation]] | Biological Process | Post-translational modification; mono-ADP-ribosylation catalyzed by SIRT4 and SIRT6 |
 
 ### Key Regulatory Proteins (Sirtuin Targets/Effectors)
 
@@ -79,12 +83,36 @@ type: index
 | [[PGC-1α]] | Protein | Master regulator of mitochondrial biogenesis; deacetylated/activated by SIRT1; neuroprotective |
 | [[p53]] | Protein | Tumour suppressor; deacetylated by SIRT1; SIRT1–HIC1–p53 feedback loop |
 | [[FOXO1]] | Protein | Forkhead transcription factor; SIRT1 deacetylation regulates adiponectin, β-cell survival |
+| [[FOXO3a]] | Protein | Forkhead transcription factor; SIRT1 deacetylation shifts output from apoptosis to stress survival |
+| [[FOXO4]] | Protein | Forkhead transcription factor; deacetylated by SIRT1 to enhance antioxidant defense via GADD45 |
+| [[DAF-16]] | Protein | Nematode FOXO orthologue required for sirtuin-mediated lifespan extension |
+| [[Ku70]] | Protein | DNA repair protein; deacetylated by SIRT1 to sequester Bax and prevent stress-induced apoptosis |
+| [[E2F1]] | Protein | Cell cycle and apoptosis regulator; forms a negative feedback loop with SIRT1 |
+| [[p73]] | Protein | Tumour suppressor related to p53; deacetylated and inhibited by SIRT1 |
+| [[Smad7]] | Protein | TGF-β antagonist; deacetylated by SIRT1 to promote its degradation and protect mesangial cells |
+| [[HIC1]] | Protein | Transcriptional repressor; represses SIRT1; forms HIC1–SIRT1–p53 feedback loop |
+| [[Adiponectin]] | Protein | Adipocyte-derived hormone; transcription activated by SIRT1 via FOXO1 deacetylation |
+| [[AceCS1]] | Enzyme | Cytoplasmic acetyl-CoA synthetase; deacetylated and activated by SIRT1 |
+| [[AceCS2]] | Enzyme | Mitochondrial acetyl-CoA synthetase; deacetylated and activated by SIRT3 |
+| [[NAMPT]] | Enzyme | Rate-limiting enzyme of NAD⁺ salvage; converts nicotinamide to NMN; critical upstream regulator of sirtuins |
+| [[CPS1]] | Enzyme | Rate-limiting enzyme of the urea cycle; mitochondrial; desuccinylated and activated by SIRT5 |
+| [[UCP2]] | Protein | Uncoupling protein 2; transcriptionally repressed by SIRT1 in pancreatic β-cells to enhance ATP |
+| [[Glutamate Dehydrogenase (GDH)]] | Enzyme | Mitochondrial enzyme; mono-ADP-ribosylated and inhibited by SIRT4 in pancreatic β-cells |
+| [[TRPM2]] | Ion Channel | Cation channel gated by sirtuin reaction by-product OAADPr; regulates cell death |
+| [[TAFI68]] | Protein | Ribosome biogenesis factor (TAF1B); deacetylated by SIRT1 to repress RNA Pol I transcription |
+| [[MEF2D]] | Protein | Muscle transcription factor; deacetylated by SIRT1 to promote sumoylation by HDAC4, repressing myogenesis |
+| [[PML]] | Protein | Tumor suppressor; recruits SIRT1 and p53 to nuclear bodies where SIRT1 deacetylates p53 to rescue from senescence |
+| [[CDC14B]] | Protein | Mitotic phosphatase; dephosphorylates and destabilizes SIRT2, triggering proteasomal degradation |
+| [[MyoD]] | Protein | Myogenic transcription factor; deacetylated and inactivated by SIRT1, repressing muscle gene expression |
+| [[notes/_link/NFKB|NF-κB (RelA/p65)]] | Protein | Master inflammatory transcription factor; deacetylated/suppressed by SIRT1 and SIRT2, repressed epigenetically by SIRT6 |
+
 
 ### CD38 & Anti-CD38 Therapeutics
 
 | Entity | entity_type_1 | Description |
 |--------|--------------|-------------|
 | [[CD38]] | Enzyme | ADP-ribosyl cyclase; major NAD⁺ consumer in aging; overexpressed in multiple myeloma; therapeutic target |
+| [[CD38 inhibitor 78c]] | Chemical Compound | Potent and selective small-molecule CD38 inhibitor; preserves NAD⁺ and restores sirtuin activity |
 | [[Daratumumab]] | Medical Product | First anti-CD38 IgG1κ mAb (Darzalex, 2015); ADCC/CDC/ADCP/immunomodulation; standard of care in MM |
 | [[Isatuximab]] | Medical Product | Anti-CD38 IgG1κ mAb (Sarclisa, 2020); distinct epitope; stronger direct apoptosis; approved in MM |
 

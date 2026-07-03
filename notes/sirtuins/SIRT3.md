@@ -44,7 +44,7 @@ SIRT3 exhibits both:
 - **Robust NAD⁺-dependent deacetylase activity** (primary activity; see [[NAD+]])
 - **Mono-ADP-ribosyl transferase activity** (detected)
 
-Key substrate: **AceCS2** (acetyl-CoA synthetase 2, mitochondrial isoform) — deacetylation activates this enzyme, regulating carbon entry into the tricarboxylic acid (TCA) cycle for ATP production.
+Key substrate: **[[AceCS2]]** (acetyl-CoA synthetase 2, mitochondrial isoform) — deacetylation activates this enzyme, regulating carbon entry into the tricarboxylic acid (TCA) cycle for ATP production.
 
 ## Subcellular Localisation
 
@@ -54,7 +54,7 @@ Key substrate: **AceCS2** (acetyl-CoA synthetase 2, mitochondrial isoform) — d
 
 ### AceCS2 Activation
 
-SIRT3 deacetylates and thereby activates **AceCS2**, the mitochondrial isoform of acetyl-CoA synthetase. Given that SIRT3 (like [[SIRT1]]) is induced by [[notes/_link/Caloric Restriction]], this suggests that during food limitation, SIRT3 regulates the rate of fatty acid synthesis and the proportion of carbon shuttled into the TCA cycle for ATP production.
+SIRT3 deacetylates and thereby activates **[[AceCS2]]**, the mitochondrial isoform of acetyl-CoA synthetase. Given that SIRT3 (like [[SIRT1]]) is induced by [[notes/_link/Caloric Restriction]], this suggests that during food limitation, SIRT3 regulates the rate of fatty acid synthesis and the proportion of carbon shuttled into the TCA cycle for ATP production.
 
 ### Mitochondrial Biogenesis and Thermogenesis
 
@@ -97,8 +97,9 @@ SIRT3, by producing [[OAADPr]], may regulate the **TRPM2** ion channel alongside
 
 ## Linking Summary
 
-- New links added: [[NAD+]], [[OAADPr]], [[notes/_link/Caloric Restriction]], [[PGC-1α]], [[SIRT1]], [[SIRT2]], [[SIRT4]], [[SIRT5]], [[Longevity]], [[TRPM2]]
-- Suggested new entity notes to create: [[AceCS2]], [[UCP1]], [[Brown Adipose Tissue (BAT)]], [[TRPM2][[SIRT3]]g connections to strengthen: [[SIRT3]] ↔[[SIRT3]]\_link/Caloric Restriction]], [[SIRT3]] ↔ [[Longevity]]
+- New links added: [[NAD+]], [[OAADPr]], [[notes/_link/Caloric Restriction]], [[PGC-1α]], [[SIRT1]], [[SIRT2]], [[SIRT4]], [[SIRT5]], [[Longevity]], [[TRPM2]], [[AceCS2]]
+- Suggested new entity notes to create: [[UCP1]], [[Brown Adipose Tissue (BAT)]]
+- Strong connections to strengthen: [[SIRT3]] ↔ [[notes/_link/Caloric Restriction]], [[SIRT3]] ↔ [[Longevity]], [[SIRT3]] ↔ [[AceCS2]]
 
 # SIRT3
 

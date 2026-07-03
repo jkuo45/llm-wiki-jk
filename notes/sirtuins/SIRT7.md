@@ -34,8 +34,12 @@ relations:
     target: "[[Histone H2B]]"
     sources:
       - PMID:16618798
+  - predicate: associated_with
+    target: "[[TAFI68]]"
+    sources:
+      - Michan 2007
 created: 2026-07-02
-updated: 2026-07-02
+updated: 2026-07-03
 ---
 
 # SIRT7
@@ -59,7 +63,7 @@ As of the Michan & Sinclair 2007 review, **no robust enzymatic activity** had be
 
 ## RNA Polymerase I Transcription
 
-Unlike [[SIRT1]] (which represses RNA Pol I-mediated transcription by deacetylating TAFI68), SIRT7 **activates** RNA Pol I transcription and promotes expression of **ribosomal RNA genes**. SIRT7 is found as part of the RNA Pol I transcriptional machinery, making it a positive regulator of ribosome biogenesis.
+Unlike [[SIRT1]] (which represses RNA Pol I-mediated transcription by deacetylating [[TAFI68]]), SIRT7 **activates** RNA Pol I transcription and promotes expression of **ribosomal RNA genes**. SIRT7 is found as part of the RNA Pol I transcriptional machinery, making it a positive regulator of ribosome biogenesis.
 
 ## Cancer Associations
 
@@ -80,7 +84,7 @@ SIRT7 belongs to **Class IVb**, which:
 ## Connections
 
 - [[SIRT6]] — fellow Class IV sirtuin; both nuclear; SIRT6 is heterochromatic while SIRT7 is nucleolar
-- [[SIRT1]] — both regulate RNA Pol I transcription but in opposite directions (SIRT1 represses via TAFI68; SIRT7 activates)
+- [[SIRT1]] — both regulate RNA Pol I transcription but in opposite directions (SIRT1 represses via [[TAFI68]]; SIRT7 activates)
 - [[RNA Polymerase I]] — SIRT7 activates RNA Pol I-mediated rDNA transcription
 - [[Breast Cancer]] — SIRT7 is overexpressed in lymph-node positive breast cancer
 - [[SIRT3]] — both co-upregulated in breast cancer lymph-node positive biopsies
@@ -88,9 +92,9 @@ SIRT7 belongs to **Class IVb**, which:
 
 ## Linking Summary
 
-- New links added: [[SIRT6]], [[SIRT1]], [[SIRT3]], [[RNA Polymerase I]], [[Breast Cancer]], [[NAD+]]
-- Suggested new entity notes to create: [[RNA Polymerase I]], [[rDNA]], [[Ribosome Biogenesis]], [[Thyro[[SIRT7]]oma]]
-- Strong connection[[SIRT7]]ngthen: [[SIRT7]] ↔ [[RNA Polymerase I]], [[SIRT7]] ↔ [[Breast Cancer]]
+- New links added: [[SIRT6]], [[SIRT1]], [[SIRT3]], [[RNA Polymerase I]], [[Breast Cancer]], [[NAD+]], [[TAFI68]]
+- Suggested new entity notes to create: [[RNA Polymerase I]], [[rDNA]], [[Ribosome Biogenesis]], [[Thyroid Carcinoma]]
+- Strong connections to strengthen: [[SIRT7]] ↔ [[RNA Polymerase I]], [[SIRT7]] ↔ [[Breast Cancer]], [[SIRT7]] ↔ [[TAFI68]]
 
 # SIRT7
 
