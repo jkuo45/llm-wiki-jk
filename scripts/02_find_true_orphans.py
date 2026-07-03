@@ -9,7 +9,7 @@ def get_orphans(search_dir='notes'):
     # Get all markdown files in the search_dir recursively
     for root, dirs, filenames in os.walk(search_dir):
         for f in filenames:
-            if f.endswith('.md') and f != 'README.md':
+            if f.endswith('.md') and f not in ('README.md', 'index.md'):
                 # Store the entity name (filename without .md)
                 files.add(f[:-3])
             

@@ -29,7 +29,7 @@ def get_deleted_files(notes_dir, link_dir):
     return deleted_map
 
 def get_link_entities(link_dir):
-    return [os.path.basename(f)[:-3] for f in glob.glob(os.path.join(link_dir, '*.md')) if os.path.basename(f) != 'README.md']
+    return [os.path.basename(f)[:-3] for f in glob.glob(os.path.join(link_dir, '*.md')) if os.path.basename(f) not in ('README.md', 'index.md')]
 
 def check_missing_readmes(notes_dir, link_dir):
     deleted_map = get_deleted_files(notes_dir, link_dir)
@@ -38,7 +38,11 @@ def check_missing_readmes(notes_dir, link_dir):
     for topic, deleted in deleted_map.items():
         readme_path = os.path.join(notes_dir, topic, "README.md")
         if not os.path.exists(readme_path):
-            continue
+            index_path = os.path.join(notes_dir, topic, "index.md")
+            if os.path.exists(index_path):
+                readme_path = index_path
+            else:
+                continue
             
         try:
             with open(readme_path, 'r', encoding='utf-8') as f:
