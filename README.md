@@ -1,25 +1,25 @@
 # llm-wiki-jk
-last updated: 03_JUL_2026 12:03 PM PDT 
+## Summary Table (notes directory)
+| topic | last updated | count entities |
+| :--- | :--- | :---: |
+| [_link](https://github.com/jkuo45/llm-wiki/tree/main/notes/_link) | 02_JUL_2026 10:27 PM PDT | 187 |
+| [adrenochrome](https://github.com/jkuo45/llm-wiki/tree/main/notes/adrenochrome) | 02_JUL_2026 10:22 PM PDT | 330 |
+| [autophagy](https://github.com/jkuo45/llm-wiki/tree/main/notes/autophagy) | 02_JUL_2026 10:21 PM PDT | 249 |
+| [cancer](https://github.com/jkuo45/llm-wiki/tree/main/notes/cancer) | 02_JUL_2026 10:21 PM PDT | 274 |
+| [comt](https://github.com/jkuo45/llm-wiki/tree/main/notes/comt) | 29_JUN_2026 12:28 PM PDT | 40 |
+| [epigenetics](https://github.com/jkuo45/llm-wiki/tree/main/notes/epigenetics) | 02_JUL_2026 10:27 PM PDT | 218 |
+| [neuromelanin](https://github.com/jkuo45/llm-wiki/tree/main/notes/neuromelanin) | 29_JUN_2026 12:28 PM PDT | 82 |
+| [oxidative_stress](https://github.com/jkuo45/llm-wiki/tree/main/notes/oxidative_stress) | 29_JUN_2026 12:28 PM PDT | 47 |
+| [sirtuins](https://github.com/jkuo45/llm-wiki/tree/main/notes/sirtuins) | 03_JUL_2026 11:52 AM PDT | 29 |
 
-## notes directory stats
-- **total files:** 1468
-- **total size:** 6.61 MB
 
 ---
-## topics (notes directory)
-
-| topic | last updated | count entities | count documents |
-| :--- | :--- | :---: | :---: |
-| [_link](https://github.com/jkuo45/llm-wiki/tree/main/notes/_link) | 02_JUL_2026 10:27 PM PDT | 67 | 0 |
-| [adrenochrome](https://github.com/jkuo45/llm-wiki/tree/main/notes/adrenochrome) | 02_JUL_2026 10:22 PM PDT | 354 | 23 |
-| [autophagy](https://github.com/jkuo45/llm-wiki/tree/main/notes/autophagy) | 02_JUL_2026 10:21 PM PDT | 172 | 10 |
-| [cancer](https://github.com/jkuo45/llm-wiki/tree/main/notes/cancer) | 02_JUL_2026 10:21 PM PDT | 278 | 8 |
-| [comt](https://github.com/jkuo45/llm-wiki/tree/main/notes/comt) | 29_JUN_2026 12:28 PM PDT | 62 | 2 |
-| [epigenetics](https://github.com/jkuo45/llm-wiki/tree/main/notes/epigenetics) | 02_JUL_2026 10:27 PM PDT | 226 | 9 |
-| [neuromelanin](https://github.com/jkuo45/llm-wiki/tree/main/notes/neuromelanin) | 29_JUN_2026 12:28 PM PDT | 91 | 2 |
-| [oxidative_stress](https://github.com/jkuo45/llm-wiki/tree/main/notes/oxidative_stress) | 29_JUN_2026 12:28 PM PDT | 73 | 1 |
-| [sirtuins](https://github.com/jkuo45/llm-wiki/tree/main/notes/sirtuins) | 03_JUL_2026 11:52 AM PDT | 0 | 5 |
-
+## notes directory stats
+- last updated: 03_JUL_2026 12:23 PM PDT
+- **subtotal files:** 1468
+- **subtotal documents:** 60
+- **subtotal words:** 658774
+- **subtotal size:** 6.61 MB
 
 ---
 ## document list
