@@ -14,15 +14,15 @@
 
 
 ---
-## notes directory stats
-- last updated: 03_JUL_2026 01:00 PM PDT
+## Summary Counts (notes directory)
+- last updated: 03_JUL_2026 01:06 PM PDT
 - **file count:** 1,468
 - **word count:** 658,774
 - **documents:** 60
 - **directory disk size:** 6.61 MB
 
 ---
-## document list
+## Document List
 
 | topic | date modified | document path | word count |
 | :--- | :--- | :--- | :--- |
