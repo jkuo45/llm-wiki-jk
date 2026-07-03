@@ -147,7 +147,9 @@ def main():
     ]
     for t in topic_data:
         topic_link = f"[{t['topic']}](https://github.com/jkuo45/llm-wiki/tree/main/{urllib.parse.quote(notes_dir + '/' + t['topic'], safe='/')})"
-        topics_table.append(f"| {topic_link} | {t['last_updated']} | {t['entities']} | {t['documents']} |")
+        topics_table.append(
+            f"| {topic_link} | {t['last_updated']} | {t['entities']} | {t['documents']} |"
+        )
 
     docs_table = [
         "| topic | date modified | document path | word count |",
@@ -166,14 +168,14 @@ def main():
         "\n".join(topics_table),
         "\n",
         "---",
-        "## notes directory stats",
+        "## Summary Counts (notes directory)",
         f"- last updated: {new_timestamp}",
         f"- **file count:** {format_number(total_files)}",
         f"- **word count:** {format_number(total_words)}",
         f"- **documents:** {format_number(len(document_data))}",
         f"- **directory disk size:** {format_size(total_size)}",
         "\n---",
-        "## document list\n",
+        "## Document List\n",
         "\n".join(docs_table),
         "\n",
         "---",
