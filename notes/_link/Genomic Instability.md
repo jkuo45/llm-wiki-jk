@@ -13,7 +13,7 @@
 *   **Progeria**: Human premature aging syndromes, such as [[Werner Syndrome]] and [[HGPS]], are often caused by mutations in genes involved in maintaining genomic stability.
 
 ### 3. Epigenetic Influence
-Epigenetic factors like [[notes/_link/SIRT6]] play a crucial role in maintaining genomic stability by recruiting repair proteins to sites of damage and keeping repetitive elements silenced.
+Epigenetic factors like [[SIRT6]] play a crucial role in maintaining genomic stability by recruiting repair proteins to sites of damage and keeping repetitive elements silenced.
 
 ### Connections
 - **[[notes/_link/Aging]]**: Genomic instability is one of the primary "hallmarks of aging."
@@ -22,6 +22,6 @@ Epigenetic factors like [[notes/_link/SIRT6]] play a crucial role in maintaining
 - **[[Transposable Elements]]**: Mobile genetic elements whose activation drives instability.
 
 ### Linking Summary:
-- New links added: [[Genomic Instability]], [[notes/_link/Aging]], [[notes/_link/DNA Damage]], [[Heterochromatin]], [[Transposable Elements]], [[LINE-1]], [[notes/_link/DNA Repair]], [[notes/_link/Cancer]], [[Cellular Senescence]], [[SASP]], [[Werner Syndrome]], [[HGPS]], [[notes/_link/SIRT6]]
+- New links added: [[Genomic Instability]], [[notes/_link/Aging]], [[notes/_link/DNA Damage]], [[Heterochromatin]], [[Transposable Elements]], [[LINE-1]], [[notes/_link/DNA Repair]], [[notes/_link/Cancer]], [[Cellular Senescence]], [[SASP]], [[Werner Syndrome]], [[HGPS]], [[SIRT6]]
 - Suggested new entity notes to create: [[Aneuploidy]], [[Micronuclei]], [[Somatic Mutations]]
 - Strong connections to strengthen: [[Genomic Instability]] ↔ [[notes/_link/Aging]], [[Genomic Instability]] ↔ [[notes/_link/DNA Damage]]

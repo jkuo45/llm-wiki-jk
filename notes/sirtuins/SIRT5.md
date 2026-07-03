@@ -17,8 +17,8 @@ relations:
     target: "[[Sirtuin Family]]"
     sources:
       - PMID:MICHAN2007
-created: 02_July_2026 08:57 PM PDT
-updated: 02_July_2026 08:57 PM PDT
+created: 2026-07-02
+updated: 2026-07-02
 ---
 
 # SIRT5
@@ -39,6 +39,7 @@ SIRT5 exhibits **weak NAD⁺-dependent deacetylase activity** — in contrast to
 ## Evolutionary Classification
 
 SIRT5 belongs to **Class III**, which:
+
 - Contains sirtuins broadly distributed in **all prokaryotes** (bacteria and archaea)
 - Represents one of the most ancient sirtuin lineages
 - Along with Class II and Class U (undetermined), was among the **earliest sirtuin classes to evolve**
@@ -65,9 +66,21 @@ Limited functional information was available at the time of Michan & Sinclair (2
 - Strong connect[[notes/sirtuins/SIRT5]]trengthen: [[SIRT5]] ↔ [[note[[notes/sirtuins/SIRT5]]s/SIRT3]], [[SIRT5]] ↔ [[notes/sirtuins/SIRT4]]
 
 # SIRT5
+
 SIRT5 is a mitochondrial sirtuin that regulates cellular energy metabolism. While it has weak deacetylase activity, it primarily acts to desuccinylate, demalonylate, and deglutarylate target proteins. It promotes the growth of various cancers and is resistant to nicotinamide inhibition.
 
 ### Linking Summary:
+
 - New links added: [[NAD+]]
-- Suggested new entity notes to create: 
+- Suggested new entity notes to create:
 - Strong connections to strengthen: [[SIRT5]] ↔ [[NAD+]]
+
+# SIRT5
+
+SIRT5 (Sirtuin 5) is a NAD+-dependent deacylase localized primarily in the mitochondria, but also found in the cytosol and nucleus. It is involved in mitochondrial metabolism, urea cycle regulation, ketone body formation, nitrogenous waste management, and reactive oxygen species (ROS) detoxification.
+
+### Linking Summary:
+
+- New links added: [[NAD+]], [[Sirtuin]], [[Mitochondria]]
+- Suggested new entity notes to create:
+- Strong connections to strengthen: [[notes/_link/SIRT5]] ↔ [[Mitochondria]]

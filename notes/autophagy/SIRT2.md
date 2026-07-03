@@ -8,9 +8,9 @@
 - Loss of SIRT2 (as seen in *Sirt2* −/− models) leads to a suppression of the autophagic response under starvation conditions.
 
 ## Relationship with SIRT1
-- While [[notes/_link/SIRT1]] is often nuclear, SIRT2 provides a cytoplasmic mechanism for responding to energy stress and coordinating autophagic flux.
+- While [[notes/sirtuins/SIRT1]] is often nuclear, SIRT2 provides a cytoplasmic mechanism for responding to energy stress and coordinating autophagic flux.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Autophagy]], [[Atg4B]], [[LC3]], [[notes/_link/SIRT1]]
+- New links added: [[notes/_link/Autophagy]], [[Atg4B]], [[LC3]], [[notes/sirtuins/SIRT1]]
 - Suggested new entity notes to create: [[Atg4B]]
 - Strong connections to strengthen: [[notes/autophagy/SIRT2]] ↔ [[notes/_link/Autophagy]], [[notes/autophagy/SIRT2]] ↔ [[Atg4B]]

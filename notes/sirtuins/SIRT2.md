@@ -29,8 +29,8 @@ relations:
     target: "[[CDC14B]]"
     sources:
       - PMID:12697818
-created: 02_July_2026 08:57 PM PDT
-updated: 02_July_2026 08:57 PM PDT
+created: 2026-07-02
+updated: 2026-07-02
 ---
 
 # SIRT2
@@ -40,6 +40,7 @@ updated: 02_July_2026 08:57 PM PDT
 ## Enzymatic Activity
 
 SIRT2 exhibits both:
+
 - **NAD⁺-dependent deacetylase activity** (primary characterised activity; see [[NAD+]])
 - **Mono-ADP-ribosyl transferase activity** (lower efficiency)
 
@@ -52,6 +53,7 @@ SIRT2 is predominantly **cytoplasmic** under normal conditions. During mitosis, 
 ## Cell Cycle Regulation
 
 SIRT2 expression increases dramatically during **mitosis** and is hyperphosphorylated during the G2/M phase transition. Regulation:
+
 - The phosphatase **CDC14B** dephosphorylates SIRT2, triggering its ubiquitination and degradation by the **26S proteasome**, promoting exit from mitosis.
 - SIRT2 deacetylates Lys¹⁶ of histone H4, leading to condensed chromatin formation during G2/M.
 - Exogenous SIRT2 blocks chromosomal condensation and hyperploidy in glioma cell lines, accompanied by cyclin B/cdc2 activity during mitotic stress.
@@ -60,13 +62,14 @@ SIRT2 expression increases dramatically during **mitosis** and is hyperphosphory
 ## Brain Cancer (Glioma)
 
 SIRT2 acts as a putative **tumour suppressor** in gliomas:
+
 - Resides in a genomic region frequently deleted in human gliomas.
-- Ectopic SIRT2 expression in glioma-derived cell lines markedly reduces colony formation *in vitro*.
+- Ectopic SIRT2 expression in glioma-derived cell lines markedly reduces colony formation _in vitro_.
 - SIRT2 inactivation may be a cause of gliomas; activation may protect against or treat these tumours.
 
 ## Nervous System
 
-SIRT2 is expressed in **oligodendrocytes** and **Schwann cells** that form myelin sheaths covering axons (distinct from [[notes/sirtuins/SIRT1]], which localises to neuronal bodies). It is also expressed in olfactory sensory neurons. Its expression pattern resembles the *Nf155* gene (encoding the 155 kDa isoform of neurofascin), suggesting a role in **axonal myelinisation**. SIRT2 and HDAC6 are both microtubule deacetylases in the nervous system.
+SIRT2 is expressed in **oligodendrocytes** and **Schwann cells** that form myelin sheaths covering axons (distinct from [[notes/sirtuins/SIRT1]], which localises to neuronal bodies). It is also expressed in olfactory sensory neurons. Its expression pattern resembles the _Nf155_ gene (encoding the 155 kDa isoform of neurofascin), suggesting a role in **axonal myelinisation**. SIRT2 and HDAC6 are both microtubule deacetylases in the nervous system.
 
 ## Development
 
@@ -88,12 +91,24 @@ Through the generation of [[OAADPr]], SIRT2 (along with [[notes/sirtuins/SIRT3]]
 ## Linking Summary
 
 - New links added: [[NAD+]], [[OAADPr]], [[Glioma]], [[HOXA10]], [[notes/sirtuins/SIRT1]], [[notes/sirtuins/SIRT3]], [[TRPM2]]
-- Suggested new entity notes to create: [[TRPM2]], [[CDC14B]], [[Neurofascin][[notes/sirtuins/SIRT2]]g connections t[[notes/sirtuins/SIRT2]]hen: [[SIRT2]] ↔ [[Glioma]], [[SIRT2]] ↔ [[OAADPr]]
+- Suggested new entity notes to create: [[TRPM2]], [[CDC14B]], [[Neurofascin][[notes/sirtuins/SIRT2]]g connections t[[notes/sirtuins/SIRT2]]hen: [[notes/sirtuins/SIRT2]] ↔ [[Glioma]], [[notes/sirtuins/SIRT2]] ↔ [[OAADPr]]
 
 # SIRT2
+
 SIRT2 is a predominantly cytoplasmic sirtuin with both deacetylase and mono-ADP-ribosyl transferase activity. It is involved in regulating cell cycle, cell motility, tubulin acetylation, and is overexpressed in various cancers and [[Neurodegeneration|neurodegenerative disorders]].
 
 ### Linking Summary:
+
 - New links added: [[NAD+]], [[Neurodegeneration]]
-- Suggested new entity notes to create: 
-- Strong connections to strengthen: [[SIRT2]] ↔ [[NAD+]], [[SIRT2]] ↔ [[Neurodegeneration]]
+- Suggested new entity notes to create:
+- Strong connections to strengthen: [[notes/sirtuins/SIRT2]] ↔ [[NAD+]], [[notes/sirtuins/SIRT2]] ↔ [[Neurodegeneration]]
+
+# SIRT2
+
+SIRT2 (Sirtuin 2) is a NAD+-dependent deacetylase localized primarily in the cytosol and nucleus. It is involved in cell cycle regulation, adipose tissue development and functionality, blood glucose homeostasis, and the modulation of peripheral myelination.
+
+### Linking Summary:
+
+- New links added: [[NAD+]], [[Sirtuin]]
+- Suggested new entity notes to create:
+- Strong connections to strengthen: [[notes/_link/SIRT2]] ↔ [[Cell Cycle]]

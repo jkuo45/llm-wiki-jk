@@ -1,7 +1,9 @@
 ---
-title: Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i
+title: "Sirtuins in mammals: insights into their biological function"
 source: Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i.pdf
-tags: [pdf, parsed]
+tags:
+  - pdf
+  - parsed
 ---
 
 NIH Public Access **Author Manuscript** 

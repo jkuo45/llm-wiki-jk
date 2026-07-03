@@ -4,9 +4,9 @@
 
 **[[notes/_link/Resveratrol]]** is a plant compound that acts like an antioxidant. The top food sources include red wine, grapes, and some berries.
 
-## 1. Activation of [[notes/_link/SIRT1]]
+## 1. Activation of [[notes/sirtuins/SIRT1]]
 
-The primary mechanism by which resveratrol is thought to promote longevity is through the activation of **[[notes/_link/SIRT1]]**, an NAD+-dependent histone deacetylase. SIRT1 regulates a variety of processes, including metabolism, DNA repair, and mitochondrial function.
+The primary mechanism by which resveratrol is thought to promote longevity is through the activation of **[[notes/sirtuins/SIRT1]]**, an NAD+-dependent histone deacetylase. SIRT1 regulates a variety of processes, including metabolism, DNA repair, and mitochondrial function.
 
 ## 2. Mimicking [[notes/_link/Caloric Restriction]]
 
@@ -22,9 +22,9 @@ While resveratrol has shown dramatic results in extending the lifespan of yeast,
 
 ## Linking Summary:
 
-- New links added: [[notes/_link/Resveratrol]], [[notes/_link/SIRT1]], [[notes/_link/Aging]], [[notes/_link/Caloric Restriction]], [[notes/_link/Diabetes Mellitus]], [[Metabolic Syndromes]], [[Geroscience]]
+- New links added: [[notes/_link/Resveratrol]], [[notes/sirtuins/SIRT1]], [[notes/_link/Aging]], [[notes/_link/Caloric Restriction]], [[notes/_link/Diabetes Mellitus]], [[Metabolic Syndromes]], [[Geroscience]]
 - Suggested new entity notes to create: [[Polyphenols]], [[CR Mimetics]], [[David Sinclair]]
-- Strong connections to strengthen: [[notes/_link/Resveratrol]] ↔ [[notes/_link/SIRT1]], [[notes/_link/Resveratrol]] ↔ [[notes/_link/Caloric Restriction]]
+- Strong connections to strengthen: [[notes/_link/Resveratrol]] ↔ [[notes/sirtuins/SIRT1]], [[notes/_link/Resveratrol]] ↔ [[notes/_link/Caloric Restriction]]
 
 - New links added: [[Anti-inflammatory]], [[notes/_link/COMT]].
 
@@ -34,7 +34,7 @@ While resveratrol has shown dramatic results in extending the lifespan of yeast,
 
 ## Connections
 
-- **[[notes/_link/SIRT1]]**: The primary molecular target of resveratrol.
+- **[[notes/sirtuins/SIRT1]]**: The primary molecular target of resveratrol.
 - **[[notes/_link/Aging]]**: Resveratrol is a leading candidate for a natural geroprotective agent.
 - **[[notes/_link/Caloric Restriction]]**: Resveratrol mimics many of the benefits of CR.
 - **[[Geroscience]]**: A major focus of research into natural longevity molecules.
@@ -47,6 +47,6 @@ While resveratrol has shown dramatic results in extending the lifespan of yeast,
 
 ### Linking Summary:
 
-- New links added: [[notes/_link/Aging]], [[Anti-inflammatory]], [[notes/_link/COMT]], [[notes/_link/Caloric Restriction]], [[notes/_link/Diabetes Mellitus]], [[Geroscience]], [[Metabolic Syndromes]], [[notes/_link/Resveratrol]], [[notes/_link/SIRT1]]
+- New links added: [[notes/_link/Aging]], [[Anti-inflammatory]], [[notes/_link/COMT]], [[notes/_link/Caloric Restriction]], [[notes/_link/Diabetes Mellitus]], [[Geroscience]], [[Metabolic Syndromes]], [[notes/_link/Resveratrol]], [[notes/sirtuins/SIRT1]]
 - Suggested new entity notes to create: [[CR Mimetics]], [[David Sinclair]], [[Polyphenols]]
-- Strong connections to strengthen: [[notes/_link/Resveratrol]] ↔ [[notes/_link/Caloric Restriction]], [[notes/_link/Resveratrol]] ↔ [[notes/_link/SIRT1]]
+- Strong connections to strengthen: [[notes/_link/Resveratrol]] ↔ [[notes/_link/Caloric Restriction]], [[notes/_link/Resveratrol]] ↔ [[notes/sirtuins/SIRT1]]

@@ -34,8 +34,8 @@ relations:
     target: "[[Histone H2B]]"
     sources:
       - PMID:16618798
-created: 02_July_2026 08:57 PM PDT
-updated: 02_July_2026 08:57 PM PDT
+created: 2026-07-02
+updated: 2026-07-02
 ---
 
 # SIRT7
@@ -52,6 +52,7 @@ As of the Michan & Sinclair 2007 review, **no robust enzymatic activity** had be
 ## Subcellular Localisation
 
 **Nucleolar** — SIRT7 localises to the **nucleolus**, where it associates with:
+
 - The promoter and transcribed regions of the **rDNA locus**
 - The RNA Pol I transcriptional machinery
 - **Histones H2A and H2B**
@@ -63,12 +64,14 @@ Unlike [[notes/sirtuins/SIRT1]] (which represses RNA Pol I-mediated transcriptio
 ## Cancer Associations
 
 SIRT7 is linked to multiple cancer types:
+
 - **Breast cancer**: SIRT7 levels increase significantly in breast cancer; along with [[notes/sirtuins/SIRT3]], SIRT7 is highly transcribed in **lymph-node positive breast biopsies** (stage where tumour has spread to lymph nodes, ≥2 mm).
 - **Thyroid carcinoma**: SIRT7 (initially misidentified as "SIRT8") is **overexpressed** in human thyroid carcinoma cell lines and tissues.
 
 ## Evolutionary Context
 
 SIRT7 belongs to **Class IVb**, which:
+
 - Is absent from prokaryotes
 - Broadly distributed in metazoans, plants, and vertebrates
 - Evolved later than Class II and Class III sirtuins
@@ -90,9 +93,21 @@ SIRT7 belongs to **Class IVb**, which:
 - Strong connection[[notes/sirtuins/SIRT7]]ngthen: [[SIRT7]] ↔ [[RNA Polymerase I]], [[SIRT7]] ↔ [[Breast Cancer]]
 
 # SIRT7
+
 SIRT7 is a nucleolar sirtuin possessing deacetylase activity. It is critical for rDNA transcription, heterochromatin stabilization, and counteracting cellular aging. Its role in cancer is complex, acting potentially as both a tumor promoter and suppressor depending on the context.
 
 ### Linking Summary:
+
 - New links added: [[NAD+]]
-- Suggested new entity notes to create: 
+- Suggested new entity notes to create:
 - Strong connections to strengthen: [[SIRT7]] ↔ [[NAD+]]
+
+# SIRT7
+
+SIRT7 (Sirtuin 7) is a NAD+-dependent deacetylase localized primarily in the nucleolus. It plays a role in rRNA transcription, cell cycle regulation, and cardiac protection.
+
+### Linking Summary:
+
+- New links added: [[NAD+]], [[Sirtuin]], [[Cell Cycle]]
+- Suggested new entity notes to create:
+- Strong connections to strengthen: [[notes/_link/SIRT7]] ↔ [[Sirtuin]]

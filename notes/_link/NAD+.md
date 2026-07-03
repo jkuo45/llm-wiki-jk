@@ -10,7 +10,7 @@ database_ids:
   chebi: CHEBI:15846
 relations:
   - predicate: required_by
-    target: "[[notes/_link/SIRT1]]"
+    target: "[[notes/sirtuins/SIRT1]]"
     sources:
       - PMID:10693811
   - predicate: required_by
@@ -34,7 +34,7 @@ updated: 02_July_2026 08:57 PM PDT
 
 ## Functions
 *   **Energy Production**: Acts as an electron carrier in the mitochondria for ATP production.
-*   **Sirtuin Activation**: Serves as a mandatory co-substrate for the **[[notes/_link/Sirtuin]]** family of proteins (e.g., [[notes/_link/SIRT1]], [[notes/_link/SIRT6]]).
+*   **Sirtuin Activation**: Serves as a mandatory co-substrate for the **[[Sirtuin]]** family of proteins (e.g., [[notes/sirtuins/SIRT1]], [[SIRT6]]).
 *   **[[notes/_link/DNA Repair]]**: Used by PARP enzymes to detect and repair DNA damage.
 
 ## NAD+ and [[notes/_link/Aging]]
@@ -44,9 +44,9 @@ NAD+ levels naturally decline with age. This decline is linked to:
 *   **Reduced Repair Capacity**: Accumulation of DNA damage.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Metabolism]], [[notes/_link/Sirtuin]], [[notes/_link/SIRT1]], [[notes/_link/SIRT6]], [[notes/_link/DNA Repair]], [[notes/_link/Aging]], [[notes/_link/Inflammation]]
+- New links added: [[notes/_link/Metabolism]], [[Sirtuin]], [[notes/sirtuins/SIRT1]], [[SIRT6]], [[notes/_link/DNA Repair]], [[notes/_link/Aging]], [[notes/_link/Inflammation]]
 - Suggested new entity notes to create: [[NMN]], [[NR]], [[PARP Enzymes]], [[CD38]]
-- Strong connections to strengthen: [[NAD+]] ↔ [[notes/_link/Sirtuin]], [[NAD+]] ↔ [[notes/_link/Metabolism]]
+- Strong connections to strengthen: [[NAD+]] ↔ [[Sirtuin]], [[NAD+]] ↔ [[notes/_link/Metabolism]]
 
 # NAD+
 
@@ -55,7 +55,7 @@ NAD+ levels naturally decline with age. This decline is linked to:
 ## Role in Sirtuin Biology
 
 ### Obligatory Co-Substrate
-All sirtuins — from bacterial CobB to all seven mammalian sirtuins ([[notes/_link/SIRT1]]–[[notes/_link/SIRT7]]) — absolutely require NAD⁺ to catalyse their reactions. The deacetylation reaction is:
+All sirtuins — from bacterial CobB to all seven mammalian sirtuins ([[notes/sirtuins/SIRT1]]–[[SIRT7]]) — absolutely require NAD⁺ to catalyse their reactions. The deacetylation reaction is:
 
 > **Acetyl-Lys-protein + NAD⁺ → deacetyl-Lys-protein + [[OAADPr]] + nicotinamide**
 
@@ -65,13 +65,13 @@ One molecule of NAD⁺ is hydrolysed per deacetylation event. The unique by-prod
 The absolute dependence on NAD⁺ suggests that sirtuins evolved as **sensors of cellular energy and redox states** coupled to the metabolic status of the cell. As NAD⁺/NADH ratios fluctuate with metabolic activity (e.g., during fasting or caloric restriction), sirtuin activity adjusts accordingly.
 
 ### Caloric Restriction and NAD⁺
-[[notes/_link/Caloric Restriction]] and fasting increase NAD⁺ levels (and/or the NAD⁺/NADH ratio), which in turn activates sirtuins — particularly [[notes/_link/SIRT1]]. This provides a plausible biochemical mechanism linking dietary energy status to sirtuin-mediated longevity pathways.
+[[notes/_link/Caloric Restriction]] and fasting increase NAD⁺ levels (and/or the NAD⁺/NADH ratio), which in turn activates sirtuins — particularly [[notes/sirtuins/SIRT1]]. This provides a plausible biochemical mechanism linking dietary energy status to sirtuin-mediated longevity pathways.
 
 ### Nicotinamide Feedback Inhibition
 Nicotinamide — released as a by-product of sirtuin-mediated NAD⁺ hydrolysis — acts as a **product inhibitor** of sirtuin activity. The yeast enzyme **PNC1** (and its orthologue NAMPT in mammals) can convert nicotinamide back to NAD⁺, maintaining sirtuin activity. This forms a feedback regulation loop relevant to CR-mediated longevity.
 
 ## Role in ADP-Ribosylation
-For sirtuins with primary **mono-ADP-ribosyl transferase activity** (namely [[notes/_link/SIRT4]] and [[notes/_link/SIRT6]]), NAD⁺ serves as an ADP-ribose donor. The ADP-ribose moiety is transferred to target proteins (e.g., GDH by SIRT4), while nicotinamide is released.
+For sirtuins with primary **mono-ADP-ribosyl transferase activity** (namely [[SIRT4]] and [[SIRT6]]), NAD⁺ serves as an ADP-ribose donor. The ADP-ribose moiety is transferred to target proteins (e.g., GDH by SIRT4), while nicotinamide is released.
 
 ## Historical Context
 
@@ -82,20 +82,20 @@ The discovery that Sir2 deacetylase activity is **absolutely dependent on NAD⁺
 
 ## NAD⁺ and Neuroprotection
 
-SIRT1-mediated neuroprotection in the context of axonal degeneration requires **Nmnat** (nicotinate mononucleotide adenylyltransferase), a key NAD⁺ biosynthetic enzyme. Increased nuclear NAD⁺ biosynthesis activates [[notes/_link/SIRT1]] and prevents axonal/Wallerian degeneration, demonstrating NAD⁺ as a neuroprotective metabolite.
+SIRT1-mediated neuroprotection in the context of axonal degeneration requires **Nmnat** (nicotinate mononucleotide adenylyltransferase), a key NAD⁺ biosynthetic enzyme. Increased nuclear NAD⁺ biosynthesis activates [[notes/sirtuins/SIRT1]] and prevents axonal/Wallerian degeneration, demonstrating NAD⁺ as a neuroprotective metabolite.
 
 ## Connections
 
-- [[notes/_link/SIRT1]] — primary mammalian sirtuin; robust NAD⁺-dependent deacetylase
+- [[notes/sirtuins/SIRT1]] — primary mammalian sirtuin; robust NAD⁺-dependent deacetylase
 - [[Sir2 (yeast)]] — founding sirtuin; NAD⁺ dependence first established here
 - [[OAADPr]] — unique metabolic by-product of NAD⁺-dependent deacetylation
 - [[notes/_link/Caloric Restriction]] — increases NAD⁺ levels, activating sirtuins
-- [[notes/_link/SIRT4]] — uses NAD⁺ as ADP-ribose donor for GDH modification
-- [[notes/_link/SIRT6]] — uses NAD⁺ as ADP-ribose donor for ADP-ribosylation
+- [[SIRT4]] — uses NAD⁺ as ADP-ribose donor for GDH modification
+- [[SIRT6]] — uses NAD⁺ as ADP-ribose donor for ADP-ribosylation
 - [[Resveratrol]] — STAC that activates SIRT1 in an NAD⁺-dependent manner
 
 ## Linking Summary
 
-- New links added: [[notes/_link/SIRT1]], [[Sir2 (yeast)]], [[OAADPr]], [[notes/_link/Caloric Restriction]], [[notes/_link/SIRT4]], [[notes/_link/SIRT6]], [[Resveratrol]]
+- New links added: [[notes/sirtuins/SIRT1]], [[Sir2 (yeast)]], [[OAADPr]], [[notes/_link/Caloric Restriction]], [[SIRT4]], [[SIRT6]], [[Resveratrol]]
 - Suggested new entity notes to create: [[Nmnat]], [[PNC1 (yeast)]], [[NAMPT]], [[NAD⁺/NADH Ratio]]
-- Strong connections to strengthen: [[NAD+]] ↔ [[notes/_link/SIRT1]], [[NAD+]] ↔ [[notes/_link/Caloric Restriction]]
+- Strong connections to strengthen: [[NAD+]] ↔ [[notes/sirtuins/SIRT1]], [[NAD+]] ↔ [[notes/_link/Caloric Restriction]]

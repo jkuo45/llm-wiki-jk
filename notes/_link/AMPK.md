@@ -7,7 +7,7 @@ Adenosine monophosphate-activated protein kinase (AMPK) is a key cellular energy
 
 
 ## 1. The AMPK-Sirtuin Axis
-The most well-established link between AMPK and epigenetics is its reciprocal relationship with [[Sirtuin]]s (specifically [[notes/_link/SIRT1]]), which are NAD+-dependent histone deacetylases.
+The most well-established link between AMPK and epigenetics is its reciprocal relationship with [[Sirtuin]]s (specifically [[notes/sirtuins/SIRT1]]), which are NAD+-dependent histone deacetylases.
 *   **Reciprocal Activation:** AMPK increases cellular NAD+ levels, which in turn activates SIRT1. Conversely, SIRT1 can activate AMPK by deacetylating its upstream kinase, LKB1.
 *   **Epigenetic Silencing:** This axis promotes chromatin silencing and downregulates inflammatory genes through histone deacetylation, helping to maintain "epigenetic health" and prevent chronic low-grade inflammation in older age.
 
@@ -33,24 +33,24 @@ The decline of AMPK signaling in old age leads to several downstream epigenetic 
 
 
 ## Linking Summary:
-- New links added: [[notes/_link/Aging]], [[Sirtuin]], [[notes/_link/SIRT1]], [[Histone Modification]], [[Acetyl-CoA]], [[Histone Deacetylase]], [[HDAC]], [[DNA Methylation]], [[Epigenetic Clock]], [[DNA Methyltransferase]], [[notes/_link/Caloric Restriction]], [[notes/_link/Metformin]], [[notes/_link/Autophagy]], [[Cellular Senescence]], [[SASP]].
+- New links added: [[notes/_link/Aging]], [[Sirtuin]], [[notes/sirtuins/SIRT1]], [[Histone Modification]], [[Acetyl-CoA]], [[Histone Deacetylase]], [[HDAC]], [[DNA Methylation]], [[Epigenetic Clock]], [[DNA Methyltransferase]], [[notes/_link/Caloric Restriction]], [[notes/_link/Metformin]], [[notes/_link/Autophagy]], [[Cellular Senescence]], [[SASP]].
 - Suggested new entity notes to create: [[Mitochondrial Dysfunction]], [[Proteostasis]], [[LKB1]], [[PGC-1α]].
-- Strong connections to strengthen: [[notes/_link/AMPK]] ↔ [[notes/_link/SIRT1]], [[notes/_link/AMPK]] ↔ [[notes/_link/Aging]]
+- Strong connections to strengthen: [[notes/_link/AMPK]] ↔ [[notes/sirtuins/SIRT1]], [[notes/_link/AMPK]] ↔ [[notes/_link/Aging]]
 
 - New links added: [[notes/_link/Autophagy]]
 - Suggested new entity notes to create: [[LKB1]], [[mTORC1]]
 - Strong connections to strengthen: [[notes/_link/Caloric Restriction]] ↔ [[notes/_link/AMPK]]
 
 ## Connections
-- **[[notes/_link/SIRT1]]**: Works in tandem with AMPK to regulate metabolism and longevity.
+- **[[notes/sirtuins/SIRT1]]**: Works in tandem with AMPK to regulate metabolism and longevity.
 - **[[notes/_link/Metformin]]**: A common drug used to activate AMPK and study its anti-aging effects.
 - **[[notes/_link/Autophagy]]**: A downstream process regulated by AMPK that is essential for cellular cleanup.
 
 
 ### Linking Summary:
-- New links added: [[Acetyl-CoA]], [[notes/_link/Aging]], [[notes/_link/Autophagy]], [[notes/_link/Caloric Restriction]], [[Cellular Senescence]], [[DNA Methylation]], [[DNA Methyltransferase]], [[Epigenetic Clock]], [[HDAC]], [[Histone Deacetylase]], [[Histone Modification]], [[notes/_link/Metformin]], [[SASP]], [[notes/_link/SIRT1]], [[Sirtuin]]
+- New links added: [[Acetyl-CoA]], [[notes/_link/Aging]], [[notes/_link/Autophagy]], [[notes/_link/Caloric Restriction]], [[Cellular Senescence]], [[DNA Methylation]], [[DNA Methyltransferase]], [[Epigenetic Clock]], [[HDAC]], [[Histone Deacetylase]], [[Histone Modification]], [[notes/_link/Metformin]], [[SASP]], [[notes/sirtuins/SIRT1]], [[Sirtuin]]
 - Suggested new entity notes to create: [[LKB1]], [[Mitochondrial Dysfunction]], [[PGC-1α]], [[Proteostasis]], [[mTORC1]]
-- Strong connections to strengthen: [[notes/_link/AMPK]] ↔ [[notes/_link/Aging]], [[notes/_link/AMPK]] ↔ [[notes/_link/SIRT1]], [[notes/_link/Caloric Restriction]] ↔ [[notes/_link/AMPK]]
+- Strong connections to strengthen: [[notes/_link/AMPK]] ↔ [[notes/_link/Aging]], [[notes/_link/AMPK]] ↔ [[notes/sirtuins/SIRT1]], [[notes/_link/Caloric Restriction]] ↔ [[notes/_link/AMPK]]
 
 
 ---

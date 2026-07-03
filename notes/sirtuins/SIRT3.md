@@ -29,8 +29,8 @@ relations:
     target: "[[Breast Cancer]]"
     sources:
       - PMID:17003781
-created: 02_July_2026 08:57 PM PDT
-updated: 02_July_2026 08:57 PM PDT
+created: 2026-07-02
+updated: 2026-07-02
 ---
 
 # SIRT3
@@ -40,6 +40,7 @@ updated: 02_July_2026 08:57 PM PDT
 ## Enzymatic Activity
 
 SIRT3 exhibits both:
+
 - **Robust NAD⁺-dependent deacetylase activity** (primary activity; see [[NAD+]])
 - **Mono-ADP-ribosyl transferase activity** (detected)
 
@@ -52,10 +53,13 @@ Key substrate: **AceCS2** (acetyl-CoA synthetase 2, mitochondrial isoform) — d
 ## Metabolic Functions
 
 ### AceCS2 Activation
+
 SIRT3 deacetylates and thereby activates **AceCS2**, the mitochondrial isoform of acetyl-CoA synthetase. Given that SIRT3 (like [[notes/sirtuins/SIRT1]]) is induced by [[notes/_link/Caloric Restriction]], this suggests that during food limitation, SIRT3 regulates the rate of fatty acid synthesis and the proportion of carbon shuttled into the TCA cycle for ATP production.
 
 ### Mitochondrial Biogenesis and Thermogenesis
+
 SIRT3 is induced in **brown adipose tissue (BAT)** during cold exposure, where it promotes expression of mitochondrial genes including:
+
 - **UCP1** (uncoupling protein 1, critical for thermogenesis)
 - **[[PGC-1α]]** (master regulator of mitochondrial biogenesis)
 - **Cytochrome c oxidase subunits II and IV** (COX II and COX IV)
@@ -64,11 +68,12 @@ SIRT3 is induced in **brown adipose tissue (BAT)** during cold exposure, where i
 The BAT of obese mice has **less SIRT3 protein** and decreased expression of mitochondrial proteins, implicating SIRT3 in metabolic dysregulation in obesity.
 
 ### ROS Regulation
+
 SIRT3 **decreases mitochondrial membrane potential** and **reduces reactive oxygen species production** while **increasing cellular respiration**.
 
 ## Human Longevity Association
 
-A variant of the *SIRT3* gene — specifically in an **enhancer within intron 5** — correlates with **male lifespan beyond 90 years**, directly implicating SIRT3 in human longevity.
+A variant of the _SIRT3_ gene — specifically in an **enhancer within intron 5** — correlates with **male lifespan beyond 90 years**, directly implicating SIRT3 in human longevity.
 
 ## Cancer
 
@@ -93,12 +98,14 @@ SIRT3, by producing [[OAADPr]], may regulate the **TRPM2** ion channel alongside
 ## Linking Summary
 
 - New links added: [[NAD+]], [[OAADPr]], [[notes/_link/Caloric Restriction]], [[PGC-1α]], [[notes/sirtuins/SIRT1]], [[notes/sirtuins/SIRT2]], [[notes/sirtuins/SIRT4]], [[notes/sirtuins/SIRT5]], [[Longevity]], [[TRPM2]]
-- Suggested new entity notes to create: [[AceCS2]], [[UCP1]], [[Brown Adipose Tissue (BAT)]], [[TRPM2][[notes/sirtuins/SIRT3]]g connections to strengthen: [[SIRT3]] ↔[[notes/sirtuins/SIRT3]]_link/Caloric Restriction]], [[SIRT3]] ↔ [[Longevity]]
+- Suggested new entity notes to create: [[AceCS2]], [[UCP1]], [[Brown Adipose Tissue (BAT)]], [[TRPM2][[notes/sirtuins/SIRT3]]g connections to strengthen: [[SIRT3]] ↔[[notes/sirtuins/SIRT3]]\_link/Caloric Restriction]], [[SIRT3]] ↔ [[Longevity]]
 
 # SIRT3
+
 SIRT3 is a major mitochondrial sirtuin with both deacetylase and mono-ADP-ribosyl transferase activities. It regulates mitochondrial metabolism, thermogenesis, and helps prevent oxidative stress by suppressing [[Reactive Oxygen Species]]. It acts as a tumor suppressor by destabilizing [[HIF-1α]].
 
 ### Linking Summary:
+
 - New links added: [[NAD+]], [[HIF-1α]], [[Reactive Oxygen Species]]
-- Suggested new entity notes to create: 
+- Suggested new entity notes to create:
 - Strong connections to strengthen: [[SIRT3]] ↔ [[HIF-1α]], [[SIRT3]] ↔ [[Reactive Oxygen Species]], [[SIRT3]] ↔ [[NAD+]]

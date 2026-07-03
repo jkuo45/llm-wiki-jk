@@ -1,9 +1,11 @@
 ---
-title: s41392-022-01257-8
+title: The sirtuin family in health and disease
 source: s41392-022-01257-8.pdf
-tags: [pdf, parsed]
+tags:
+  - pdf
+  - parsed
 ---
-
+	
 Signal Transduction and Targeted Therapy 
 
 www.nature.com/sigtrans 

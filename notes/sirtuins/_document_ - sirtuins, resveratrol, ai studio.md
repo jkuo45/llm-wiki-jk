@@ -1,12 +1,13 @@
 ---
-title: "Google AI Studio"
-source: "https://aistudio.google.com/u/0/prompts/1kUJDpdDMR88wWnNR_7kpQlfBdqhbzW7C"
+title: sirtuins, gemini
+source: https://aistudio.google.com/u/0/prompts/1kUJDpdDMR88wWnNR_7kpQlfBdqhbzW7C
 author:
 published:
 created: 2026-07-02
-description: "The fastest path from prompt to production with Gemini"
+description:
 tags:
-  - "clippings"
+  - gemini
+  - clippings
 ---
 18,555 tokens
 

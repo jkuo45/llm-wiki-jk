@@ -19,9 +19,9 @@ The expression of IGF-1 and its downstream components is subject to epigenetic c
 - **[[notes/_link/Aging]]**: IGF-1 is a primary regulator of the rate of aging across species.
 - **[[notes/_link/mTOR]]**: A major downstream effector of IGF-1 signaling.
 - **[[notes/_link/Caloric Restriction]]**: CR extends lifespan in part by lowering systemic IGF-1 levels.
-- [[notes/_link/SIRT1]]: Interacts with the IGF-1 pathway to modulate stress resistance.
+- [[notes/sirtuins/SIRT1]]: Interacts with the IGF-1 pathway to modulate stress resistance.
 
 ### Linking Summary:
-- New links added: [[IGF-1]], [[notes/_link/Aging]], [[Model Organisms]], [[Caenorhabditis elegans]], [[Drosophila melanogaster]], [[notes/_link/mTOR]], [[notes/_link/Autophagy]], [[notes/_link/AMPK]], [[DNA Methylation]], [[MicroRNA]], [[notes/_link/Caloric Restriction]], [[notes/_link/SIRT1]]
+- New links added: [[IGF-1]], [[notes/_link/Aging]], [[Model Organisms]], [[Caenorhabditis elegans]], [[Drosophila melanogaster]], [[notes/_link/mTOR]], [[notes/_link/Autophagy]], [[notes/_link/AMPK]], [[DNA Methylation]], [[MicroRNA]], [[notes/_link/Caloric Restriction]], [[notes/sirtuins/SIRT1]]
 - Suggested new entity notes to create: [[Somatotropic Axis]], [[Growth Hormone]], [[FoxO Transcription Factors]]
 - Strong connections to strengthen: [[IGF-1]] ↔ [[notes/_link/Aging]], [[IGF-1]] ↔ [[notes/_link/mTOR]]

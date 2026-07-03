@@ -66,7 +66,7 @@ This directory contains entities that span across multiple topics within the kno
 | [[Schizophrenia]]                        | 29_May_2026 08:20 AM | Medical Condition   | Psychiatry                                      |
 | [[Senescence]]                           | 31_May_2026 06:45 PM | Biological Process  | Aging, Cancer                                   |
 | [[Serotonin]]                            | 25_May_2026 05:23 PM | Biological Molecule | Neurotransmitter                                |
-| [[notes/_link/SIRT1]]                                | 29_May_2026 08:20 AM | Enzyme              | Longevity, Epigenetics                          |
+| [[notes/sirtuins/SIRT1]]                                | 29_May_2026 08:20 AM | Enzyme              | Longevity, Epigenetics                          |
 | [[Spermidine]]                           | 29_May_2026 08:20 AM | Chemical Compound   | Longevity                                       |
 | [[STAT3]]                                | 29_May_2026 08:20 AM | Protein             | Signaling, Inflammation                         |
 | [[Substantia Nigra]]                     | 29_May_2026 08:20 AM | Anatomy             | Neuroscience                                    |

@@ -25,8 +25,8 @@ relations:
     target: "[[Glutamate Dehydrogenase (GDH)]]"
     sources:
       - PMID:16959573
-created: 02_July_2026 08:57 PM PDT
-updated: 02_July_2026 08:57 PM PDT
+created: 2026-07-02
+updated: 2026-07-02
 ---
 
 # SIRT4
@@ -44,18 +44,23 @@ SIRT4 is a **mono-ADP-ribosyl transferase** using NAD⁺ as a donor (see [[NAD+]
 ## Metabolic Functions
 
 ### Glutamate Dehydrogenase (GDH) Regulation
+
 The primary characterised function of SIRT4 is regulation of **GDH (glutamate dehydrogenase)** in pancreatic β-cells:
+
 - GDH regulates **glutamate and glutamine metabolism**, promotes ATP synthesis, and enhances insulin secretion.
 - SIRT4 **mono-ADP-ribosylates GDH**, thereby **inhibiting its activity** and slowing the conversion of glutamate into α-ketoglutarate.
 - Consequence: **reduced amino-acid-stimulated insulin secretion** from pancreatic β-cells.
 
 ### Caloric Restriction Response
+
 Critically, SIRT4 responds to CR in the **opposite direction** from [[notes/sirtuins/SIRT1]] and [[notes/sirtuins/SIRT3]]:
+
 - **SIRT4 is downregulated by CR**, leading to increased GDH activity.
 - This allows **glutamine to serve as an insulin secretagogue** — an adaptive metabolic response.
 - Pancreatic islets of SIRT4 knockout mice display: increased GDH activity, higher insulin levels, upregulation of amino acid-stimulated insulin secretion, and insulin secretion in response to glutamine.
 
 ### Neurological Relevance
+
 Since **glutamate is the primary neurotransmitter at excitatory synapses**, SIRT4's regulation of GDH may extend to neuronal function. SIRT4 could potentially regulate neuronal impulse transmission or the brain's response to toxic glutamate concentrations released following stroke.
 
 ## Evolutionary Context
@@ -79,9 +84,21 @@ SIRT4 belongs to **Class II**, one of the most evolutionarily ancient sirtuin cl
 - Strong connections to strengthen: [[notes/sirtuins/SIRT4]] ↔ [[notes/_link/Caloric Restriction]], [[notes/sirtuins/SIRT4]] ↔ [[Glutamate Dehydrogenase (GDH)]]
 
 # SIRT4
+
 SIRT4 is a mitochondrial sirtuin with mono-ADP-ribosyl transferase activity and weak deacetylase activity. It primarily regulates glucose metabolism, insulin secretion, and acts as a tumor suppressor in various cancers by downregulating glutamate metabolism.
 
 ### Linking Summary:
+
 - New links added: [[NAD+]]
-- Suggested new entity notes to create: 
+- Suggested new entity notes to create:
 - Strong connections to strengthen: [[SIRT4]] ↔ [[NAD+]]
+
+# SIRT4
+
+SIRT4 (Sirtuin 4) is a NAD+-dependent mitochondrial sirtuin involved in mitochondrial metabolism. It regulates insulin secretion, DNA repair, and apoptosis suppression.
+
+### Linking Summary:
+
+- New links added: [[NAD+]], [[Sirtuin]], [[Mitochondria]]
+- Suggested new entity notes to create:
+- Strong connections to strengthen: [[notes/_link/SIRT4]] ↔ [[Mitochondria]]
