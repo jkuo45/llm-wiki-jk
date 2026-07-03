@@ -8,13 +8,13 @@ type: index
 
 ## Documents
 
-| Document | Description |
-|----------|-------------|
-| [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i\|Michan & Sinclair 2007]] | Sirtuins in mammals: insights into their biological function (Biochem J 2007) |
-| [[_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review\|Comprehensive Sirtuin Review]] | Structure, function and regulation of human sirtuins |
-| [[_document_ - sirtuins in health and disease s41392-022-01257-8\|Sirtuins in Health and Disease]] | Sirtuins in health and disease (2022) |
-| [[_document_ - sirtuins (overview, CD38, cancer therapy)\|Sirtuins (Grok)]] | AI-generated sirtuin overview |
-| [[_document_ - sirtuins, resveratrol, ai studio\|Sirtuins & Resveratrol]] | Sirtuins and resveratrol notes |
+| Document                                                                                                                                              | Description                                                                   |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
+| [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i\|Michan & Sinclair 2007]]                                                  | Sirtuins in mammals: insights into their biological function (Biochem J 2007) |
+| [[_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review\|Comprehensive Sirtuin Review]] | Structure, function and regulation of human sirtuins                          |
+| [[_document_ - sirtuins in health and disease s41392-022-01257-8\|Sirtuins in Health and Disease]]                                                    | Sirtuins in health and disease (2022)                                         |
+| [[_document_ - sirtuins (overview, CD38 KO risks, cancer therapies)\|Sirtuins CD38 KO, Cancer Therapies]]                                             | CD38 KO Risks, Emerging cancer therapies                                      |
+| [[_document_ - sirtuins (resveratrol), gemini\|Sirtuins & Resveratrol]]                                                                               | Sirtuins and resveratrol notes                                                |
 
 ## Entity Notes
 

@@ -1,22 +1,22 @@
-# Sirtuin
+# Sirtuin Overview and Links
 
 **[[Sirtuin|Sirtuins]]** are a family of seven proteins (SIRT1–SIRT7) that are found in almost all living organisms. In humans, they are known as "longevity genes" because of their profound ability to regulate cellular health and extend the lifespan of various model organisms.
 
-### 1. Mechanism of Action
+### Mechanism of Action
 Sirtuins are primarily NAD+-dependent deacetylases. This means they remove acetyl groups from other proteins (including histones) to regulate their activity. Because they require NAD+ to function, they link the cell's metabolic state (energy levels) directly to its [[Epigenome]].
 
-### 2. Key Family Members
+### Key Family Members
 *   **[[SIRT1]]**: Located in the nucleus; regulates metabolism, stress response, and inflammation.
 *   **[[SIRT6]]**: Located in the nucleus; essential for [[notes/_link/DNA Repair]] and silencing [[Transposable Elements]].
-*   **SIRT3**: Located in the mitochondria; controls energy production and reduces oxidative stress.
+*   **[[SIRT3]]**: Located in the mitochondria; controls energy production and reduces oxidative stress.
 
-### 3. Role in [[notes/_link/Aging]]
+### Role in [[notes/_link/Aging]]
 The activity of sirtuins generally declines with age, largely due to a decrease in cellular NAD+ levels. This decline contributes to the "hallmarks of aging," including:
 *   **[[Epigenetic Alterations]]**: Loss of gene silencing and heterochromatin.
 *   **Mitochondrial Decay**: Reduced energy production and increased damage.
 *   **Chronic Inflammation**: Loss of control over pro-inflammatory pathways.
 
-### 4. Therapeutic Targets
+### Therapeutic Targets
 Sirtuins are a major focus of [[Geroscience]]. Strategies to boost sirtuin activity include [[notes/_link/Caloric Restriction]], exercise, and the use of NAD+ precursors or natural activators like [[notes/_link/Resveratrol]].
 
 ### Connections
