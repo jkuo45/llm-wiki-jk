@@ -111,7 +111,7 @@ def main():
                 datetime
                 .fromtimestamp(last_updated_ts)
                 .astimezone()
-                .strftime("%d_%b_%Y %I:%M %p %Z")
+                .strftime("%d_%b_%Y")
                 .upper()
             )
         else:
@@ -127,11 +127,7 @@ def main():
         for doc in sorted(documents):
             mtime = os.path.getmtime(doc)
             mtime_str = (
-                datetime
-                .fromtimestamp(mtime)
-                .astimezone()
-                .strftime("%d_%b_%Y %I")
-                .upper()
+                datetime.fromtimestamp(mtime).astimezone().strftime("%d_%b_%Y").upper()
             )
             word_count = count_words(doc)
             document_data.append({
@@ -146,12 +142,12 @@ def main():
     total_files, total_size, total_words = get_dir_size_and_count(notes_dir)
 
     topics_table = [
-        "| topic | last updated | count entities |",
-        "| :--- | :--- | :---: |",
+        "| topic | last updated | count entities | count documents |",
+        "| :--- | :--- | :---: | :---: |",
     ]
     for t in topic_data:
         topic_link = f"[{t['topic']}](https://github.com/jkuo45/llm-wiki/tree/main/{urllib.parse.quote(notes_dir + '/' + t['topic'], safe='/')})"
-        topics_table.append(f"| {topic_link} | {t['last_updated']} | {t['entities']} |")
+        topics_table.append(f"| {topic_link} | {t['last_updated']} | {t['entities']} | {t['documents']} |")
 
     docs_table = [
         "| topic | date modified | document path | word count |",
@@ -172,10 +168,10 @@ def main():
         "---",
         "## notes directory stats",
         f"- last updated: {new_timestamp}",
-        f"- **subtotal file count:** {format_number(total_files)}",
-        f"- **subtotal documents:** {format_number(len(document_data))}",
-        f"- **subtotal word count:** {format_number(total_words)}",
-        f"- **subtotal size:** {format_size(total_size)}",
+        f"- **file count:** {format_number(total_files)}",
+        f"- **word count:** {format_number(total_words)}",
+        f"- **documents:** {format_number(len(document_data))}",
+        f"- **directory disk size:** {format_size(total_size)}",
         "\n---",
         "## document list\n",
         "\n".join(docs_table),
