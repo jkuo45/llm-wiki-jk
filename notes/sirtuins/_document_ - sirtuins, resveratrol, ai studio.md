@@ -12,7 +12,7 @@ tags:
 
 User
 
-[[Resveratrol]] role [[SIRT1]] in-depth
+[[Resveratrol]] role [[notes/sirtuins/SIRT1]] in-depth
 
 Model
 
@@ -341,27 +341,27 @@ Thoughts
 
 **Defining the Scope**
 
-I'm now clarifying the request. It seems the core focus will be expanding past SIRT1, and now targeting [[SIRT2]]-7 modulators. The emphasis is on understanding STACs and other inhibitors/modulators specifically for these remaining sirtuin targets.
+I'm now clarifying the request. It seems the core focus will be expanding past SIRT1, and now targeting [[notes/sirtuins/SIRT2]]-7 modulators. The emphasis is on understanding STACs and other inhibitors/modulators specifically for these remaining sirtuin targets.
 
 **Analyzing Sirtuin Modulators**
 
 I'm digging into sirtuins 2 through 7, with a focus on their modulators, going for granular detail. I'm focusing on the key activating compounds for each, and will note inhibitors if activation is uncertain. I am considering multi-targeted compounds as well.
 
-**Prioritizing [[SIRT3]] Activators**
+**Prioritizing [[notes/sirtuins/SIRT3]] Activators**
 
 I've decided to structure my thoughts around the sirtuins' cellular locations and activities. I'm prioritizing SIRT3, given its mitochondrial role and its key activators – [[Honokiol]], [[Dihydromyricetin]], and various synthetic compounds like DHP derivatives. I'm now exploring the biochemical mechanisms of these activators, noting how they influence mitochondrial respiration and their subsequent physiological impact. I'm focusing on cardioprotection and renal health specifically.
 
-**Focusing [[SIRT6]] Activators**
+**Focusing [[notes/sirtuins/SIRT6]] Activators**
 
 I'm now zeroing in on SIRT6 activators, especially [[UBCS039]] and [[MDL-801]], noting their allosteric binding to the hydrophobic pocket. It's fascinating how this binding impacts NAD+ and substrate stabilization, driving autophagy and tumor suppression. I'm taking notes on SIRT6's protective effects against organ injury, specifically the role in DNA repair pathways.
 
-**Exploring [[SIRT5]] and SIRT2**
+**Exploring [[notes/sirtuins/SIRT5]] and SIRT2**
 
 I'm now diving into SIRT5, noting its preference for negatively charged modifications due to its unique pocket structure with Arg105 and Tyr102. I'm focusing on how activators boost desuccinylation of [[CPS1]] and modulate the urea cycle. I'm also pivoting to SIRT2 inhibitors, like AGK2 and UBCS0137, as activation is rarely therapeutic, and inhibition is the key focus. I'm taking notes on their use for neurodegenerative diseases and cancer.
 
 While SIRT1 is the most heavily studied member of the sirtuin family, mammals possess six other sirtuins (**
 
-SIRT2 to [[SIRT7]]
+SIRT2 to [[notes/sirtuins/SIRT7]]
 
 **) localized in distinct cellular compartments[1]. Like SIRT1, they are all
 
@@ -833,4 +833,4 @@ I'm revisiting the blackberry and elderberry calculations. I've re-examined the 
 
 ### Linking Summary
 
-- New links added: [[Resveratrol]], [[SIRT1]], [[NAD+]], [[SIRT2]], [[SIRT5]], [[SIRT7]], [[PDE4]], [[AMPK]], [[p53]], [[SIRT6]], [[cAMP]], [[SIRT3]], [[UBCS039]], [[Cyanidin]], [[NAMPT]], [[SREBP-1c]], [[CPS1]], [[Epac1]], [[Honokiol]], [[Dihydromyricetin]], [[FOXO3a]], [[MDL-801]]
+- New links added: [[Resveratrol]], [[notes/sirtuins/SIRT1]], [[NAD+]], [[notes/sirtuins/SIRT2]], [[notes/sirtuins/SIRT5]], [[notes/sirtuins/SIRT7]], [[PDE4]], [[AMPK]], [[p53]], [[notes/sirtuins/SIRT6]], [[cAMP]], [[notes/sirtuins/SIRT3]], [[UBCS039]], [[Cyanidin]], [[NAMPT]], [[SREBP-1c]], [[CPS1]], [[Epac1]], [[Honokiol]], [[Dihydromyricetin]], [[FOXO3a]], [[MDL-801]]

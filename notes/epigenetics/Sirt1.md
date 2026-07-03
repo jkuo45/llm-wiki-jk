@@ -4,4 +4,4 @@ Sirt1 is a protein and member of the sirtuin family that functions as an NAD+-de
 ### Linking Summary:
 - New links added: [[HDAC]], [[notes/_link/Epigenetics]]
 - Suggested new entity notes to create: 
-- Strong connections to strengthen: [[Sirt1]] <-> [[HDAC]]
+- Strong connections to strengthen: [[notes/epigenetics/Sirt1]] <-> [[HDAC]]

@@ -8,4 +8,4 @@
 ## Related
 - [[Transposable Elements]]
 - [[Genomic Instability]]
-- [[SIRT6]]
+- [[notes/_link/SIRT6]]

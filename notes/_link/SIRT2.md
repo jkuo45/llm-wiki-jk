@@ -5,4 +5,4 @@ SIRT2 (Sirtuin 2) is a NAD+-dependent deacetylase localized primarily in the cyt
 ### Linking Summary:
 - New links added: [[NAD+]], [[Sirtuin]]
 - Suggested new entity notes to create: 
-- Strong connections to strengthen: [[SIRT2]] ↔ [[Cell Cycle]]
+- Strong connections to strengthen: [[notes/_link/SIRT2]] ↔ [[Cell Cycle]]

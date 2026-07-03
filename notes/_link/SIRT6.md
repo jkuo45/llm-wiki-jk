@@ -1,6 +1,6 @@
 # SIRT6
 
-**[[SIRT6]]** (Sirtuin 6) is a member of the [[Sirtuin]] family of NAD+-dependent enzymes. It is often referred to as a "longevity gene" because of its critical role in DNA repair, telomere maintenance, and metabolic regulation.
+**[[notes/_link/SIRT6]]** (Sirtuin 6) is a member of the [[Sirtuin]] family of NAD+-dependent enzymes. It is often referred to as a "longevity gene" because of its critical role in DNA repair, telomere maintenance, and metabolic regulation.
 
 ### 1. Guardian of the Genome
 SIRT6 is primarily located in the nucleus, where it acts as a scaffold for various DNA repair proteins. It is essential for:
@@ -21,6 +21,6 @@ SIRT6 also regulates glucose metabolism and fatty acid oxidation. It acts as a c
 - **[[notes/_link/Aging]]**: SIRT6 levels and activity are major determinants of the rate of aging.
 
 ### Linking Summary:
-- New links added: [[SIRT6]], [[Sirtuin]], [[notes/_link/DNA Damage]], [[Transposable Elements]], [[LINE-1]], [[Heterochromatin]], [[Genomic Instability]], [[notes/_link/Diabetes Mellitus]], [[notes/_link/Aging]], [[notes/_link/DNA Repair]]
+- New links added: [[notes/_link/SIRT6]], [[Sirtuin]], [[notes/_link/DNA Damage]], [[Transposable Elements]], [[LINE-1]], [[Heterochromatin]], [[Genomic Instability]], [[notes/_link/Diabetes Mellitus]], [[notes/_link/Aging]], [[notes/_link/DNA Repair]]
 - Suggested new entity notes to create: [[Double-Strand Breaks]], [[Telomere Maintenance]], [[Epigenetic Scaffolding]]
-- Strong connections to strengthen: [[SIRT6]] ↔ [[Genomic Instability]], [[SIRT6]] ↔ [[Sirtuin]]
+- Strong connections to strengthen: [[notes/_link/SIRT6]] ↔ [[Genomic Instability]], [[notes/_link/SIRT6]] ↔ [[Sirtuin]]

@@ -21,7 +21,7 @@ The term is a subset of [[Hormesis]], defined as any adaptive response exhibitin
 ## Related Concepts
 
 - [[Autophagy]]
-- [[Caloric Restriction]]
+- [[notes/adrenochrome/Caloric Restriction]]
 - [[Mithridatism]]
 - [[Antidotum Mithridaticum]]
 - [[Oxidative Stress]]

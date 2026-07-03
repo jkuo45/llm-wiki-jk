@@ -5,4 +5,4 @@ SIRT7 (Sirtuin 7) is a NAD+-dependent deacetylase localized primarily in the nuc
 ### Linking Summary:
 - New links added: [[NAD+]], [[Sirtuin]], [[Cell Cycle]]
 - Suggested new entity notes to create: 
-- Strong connections to strengthen: [[SIRT7]] ↔ [[Sirtuin]]
+- Strong connections to strengthen: [[notes/_link/SIRT7]] ↔ [[Sirtuin]]

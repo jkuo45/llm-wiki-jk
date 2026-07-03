@@ -15,4 +15,4 @@
 ### Linking Summary:
 - New links added: [[notes/_link/Mitochondria]], [[notes/_link/Reactive Oxygen Species]], [[notes/_link/Caloric Restriction]], [[Intermittent Fasting]], [[notes/_link/Cancer]], [[Mitophagy]], [[Cellular Homeostasis]]
 - Suggested new entity notes to create: , [[Cellular Homeostasis]]
-- Strong connections to strengthen: [[SIRT3]] ↔ [[notes/_link/Mitochondria]], [[SIRT3]] ↔ [[Mitophagy]]
+- Strong connections to strengthen: [[notes/autophagy/SIRT3]] ↔ [[notes/_link/Mitochondria]], [[notes/autophagy/SIRT3]] ↔ [[Mitophagy]]

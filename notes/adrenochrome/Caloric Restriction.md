@@ -5,4 +5,4 @@ Caloric restriction (CR) is a dietary regimen that reduces calorie intake withou
 ### Linking Summary:
 - New links added: [[Advanced Glycation End Products]], [[Oxidative Stress]], [[Lifespan]]
 - Suggested new entity notes to create: 
-- Strong connections to strengthen: [[Caloric Restriction]] ↔ [[Longevity]]
+- Strong connections to strengthen: [[notes/adrenochrome/Caloric Restriction]] ↔ [[Longevity]]

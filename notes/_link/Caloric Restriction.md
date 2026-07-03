@@ -1,3 +1,49 @@
+---
+type: entity
+category: concept
+aliases:
+  - Calorie Restriction
+  - CR
+  - dietary restriction
+  - calorie restriction
+database_ids:
+  mesh: D004032
+relations:
+  - predicate: activates
+    target: "[[notes/_link/SIRT1]]"
+    sources:
+      - PMID:15205477
+  - predicate: requires
+    target: "[[Sir2 (yeast)]]"
+    sources:
+      - PMID:11000115
+  - predicate: extends
+    target: "[[Lifespan]]"
+    sources:
+      - PMID:MICHAN2007
+  - predicate: upregulates
+    target: "[[notes/_link/SIRT1]]"
+    sources:
+      - PMID:MICHAN2007
+  - predicate: upregulates
+    target: "[[notes/sirtuins/SIRT3]]"
+    sources:
+      - PMID:15653680
+  - predicate: downregulates
+    target: "[[notes/_link/SIRT4]]"
+    sources:
+      - PMID:16959573
+  - predicate: increases
+    target: "[[NAD+]]"
+    sources:
+      - PMID:11000115
+  - predicate: mimicked_by
+    target: "[[Resveratrol]]"
+    sources:
+      - PMID:15254550
+created: 02_July_2026 08:57 PM PDT
+updated: 02_July_2026 08:57 PM PDT
+---
 # Caloric Restriction
 
 **Caloric restriction (CR)**—reducing calorie intake without malnutrition—is the most robust non-genetic intervention known to delay [[notes/_link/Aging]]. It exerts its effects largely by remodeling the [[Epigenome]], effectively "slowing down" the biological clock and delaying the onset of age-related diseases.
@@ -63,3 +109,81 @@ The epigenetic changes induced by CR converge on several critical pathways:
 - New links added: [[notes/_link/AMPK]], [[notes/_link/Aging]], [[Autophagic Cell Death]], [[notes/_link/Autophagy]], [[notes/_link/Cancer]], [[Cellular Homeostasis]], [[Cellular Senescence]], [[Chromatin]], [[DNA Methylation]], [[Epigenome]], [[HDAC]], [[Heterochromatin]], [[Histone Modification]], [[notes/_link/Inflammaging]], [[Longevity]], [[Neurodegenerative Disease]], [[notes/_link/SIRT1]], [[Sirtuin]]
 - Suggested new entity notes to create: [[notes/_link/AMPK]], [[Cellular Homeostasis]], [[DunedinPACE]], [[Longevity]], [[NAD+]], [[Telomere]], [[p16INK4a]]
 - Strong connections to strengthen: [[notes/_link/Caloric Restriction]] ↔ [[notes/_link/Aging]], [[notes/_link/Caloric Restriction]] ↔ [[notes/_link/Autophagy]], [[notes/_link/Caloric Restriction]] ↔ [[Longevity]], [[notes/_link/Caloric Restriction]] ↔ [[notes/_link/SIRT1]]
+
+# Caloric Restriction
+
+**Caloric Restriction** (CR) is a **dietary regimen** in which an organism is provided with **at least 20% fewer calories** than it would naturally consume *ad libitum*, while maintaining adequate nutrition. CR is the **only non-genetic method** that consistently increases maximal lifespan in mammals, and it represents one of the most powerful and reproducible interventions in the biology of aging.
+
+## Definition and Scope
+
+CR was first systematically described by McCay et al. (1935) and has since been demonstrated across a remarkable range of taxa:
+- *Saccharomyces cerevisiae* (yeast): 0.5% vs. standard 2% (w/v) glucose
+- *Drosophila melanogaster* (fruit fly)
+- *Caenorhabditis elegans* (nematode)
+- *Daphnia longispina* (crustacean)
+- *Frontinella pyramitela* (spider)
+- Rodents (mice and rats)
+- Rhesus monkeys (*Macaca mulatta*) — ongoing studies; shows many benefits without confirmed lifespan extension
+
+The diversity of species responding to CR argues that **the underlying mechanisms are ancient, relatively simple, and well conserved**.
+
+## Effects on Mammals
+
+CR does not simply prolong an unhealthy state — it **retards age-related deterioration**:
+- Decreased collagen rigidity
+- Improved insulin sensitivity (delayed insulin resistance)
+- Better maintenance of immune function
+- Reduced neurobehavioural impairments
+- Delayed onset and reduced incidence of cancer and autoimmune disorders
+- Reduced inflammation (via NF-κB suppression)
+- Increased circulating adiponectin
+
+In rhesus monkeys, CR results in: reduced body weight, lower body fat, decreased blood glucose, lower incidence of diabetes and heart disease, and altered hormonal profiles without compromising circadian patterns or reproductive timing.
+
+## CR and Sirtuins
+
+CR is a central context for understanding sirtuin biology. CR regulates mammalian sirtuins in a **sirtuin-specific manner**:
+
+| Sirtuin | Response to CR |
+|---------|----------------|
+| [[notes/_link/SIRT1]] | **Upregulated** — mediates fat mobilisation, anti-inflammation, neuroprotection, metabolic reprogramming |
+| [[notes/sirtuins/SIRT3]] | **Upregulated** — mediates mitochondrial biogenesis, thermogenesis, AceCS2 activation |
+| [[notes/_link/SIRT4]] | **Downregulated** — allows increased GDH activity and glutamine-stimulated insulin secretion |
+
+CR-mediated lifespan extension in yeast **requires SIR2** and also involves Hst1 and Hst2 (other yeast sirtuins). In *Drosophila*, dietary restriction-mediated lifespan extension also requires the *Sir2* gene. The entire sirtuin family may control lifespan, having potentially evolved from a primordial sirtuin that responded to stress and calorie availability.
+
+## Molecular Mechanisms Linking CR to Sirtuins
+
+1. **NAD⁺ elevation**: CR increases [[NAD+]] levels (or NAD⁺/NADH ratio), directly enhancing sirtuin deacetylase activity.
+2. **SIRT1→PGC-1α axis**: CR-activated [[notes/_link/SIRT1]] deacetylates [[PGC-1α]], inducing mitochondrial biogenesis, oxidative phosphorylation, and hepatic glucose output.
+3. **SIRT1→PPAR-γ/NCoR/SMRT axis**: Promotes fat mobilisation from white adipose tissue.
+4. **SIRT1→UCP2 repression**: Enhances glucose-stimulated insulin secretion from β-cells.
+5. **SIRT3→AceCS2 activation**: Regulates carbon flow into the TCA cycle.
+6. **SIRT1→NF-κB suppression**: Reduces inflammatory responses observed in CR animals.
+7. **SIRT1→adiponectin upregulation** via FOXO1/C/EBPα: CR increases circulating adiponectin in rats.
+
+## TOR Pathway
+
+When cells become nutrient-starved, sirtuin-**independent** pathways such as **TOR (Target of Rapamycin)** are also activated and can extend lifespan, indicating that sirtuins are not the sole mediators of CR-related longevity.
+
+## CR Mimetics
+
+[[Resveratrol]] is the prototypical **CR mimetic** — a small molecule that recapitulates many physiological effects of CR (improved insulin sensitivity, mitochondrial biogenesis, metabolic reprogramming) via SIRT1 activation without requiring food restriction.
+
+## Connections
+
+- [[notes/_link/SIRT1]] — primary mammalian sirtuin activated by CR; mediates most CR benefits
+- [[Sir2 (yeast)]] — required for CR-mediated lifespan extension in yeast
+- [[notes/sirtuins/SIRT3]] — upregulated by CR; mediates mitochondrial metabolic adaptations
+- [[notes/_link/SIRT4]] — downregulated by CR (opposite to SIRT1/3); increases GDH activity
+- [[NAD+]] — elevated by CR; mechanistically links CR to sirtuin activation
+- [[Resveratrol]] — CR mimetic; activates SIRT1 pharmacologically
+- [[PGC-1α]] — key downstream effector of SIRT1 under CR conditions
+- [[Longevity]] — CR is the most reproducible longevity intervention
+- [[TOR (Target of Rapamycin)]] — sirtuin-independent CR-longevity pathway
+
+## Linking Summary
+
+- New links added: [[notes/_link/SIRT1]], [[Sir2 (yeast)]], [[notes/sirtuins/SIRT3]], [[notes/_link/SIRT4]], [[NAD+]], [[Resveratrol]], [[PGC-1α]], [[Longevity]]
+- Suggested new entity notes to create: [[TOR (Target of Rapamycin)]], [[Adiponectin]], [[Longevity]]
+- Strong connections to strengthen: [[Caloric Restriction]] ↔ [[notes/_link/SIRT1]], [[Caloric Restriction]] ↔ [[Sir2 (yeast)]], [[Caloric Restriction]] ↔ [[Longevity]]
