@@ -23,7 +23,7 @@ relations:
     sources:
       - PMID:3297920
   - predicate: homologue_of
-    target: "[[notes/sirtuins/SIRT1]]"
+    target: "[[SIRT1]]"
     sources:
       - PMID:10381378
   - predicate: requires
@@ -83,11 +83,11 @@ Sir2 was initially characterised as an **ADP-ribosyl transferase** (Moazed et al
 
 ## Conservation and Family Expansion
 
-Sir2 is the prototypical member of a large and ancient gene family now called **sirtuins**, present in all domains of life — bacteria, archaea, and eukaryotes. In mammals, seven homologues ([[notes/sirtuins/SIRT1]]–[[notes/sirtuins/SIRT7]]) have been identified, with [[notes/sirtuins/SIRT1]] being the closest mammalian orthologue (Class Ia). The enzymatic mechanism, structural core domain (275 amino acids), and NAD⁺ dependence are all conserved.
+Sir2 is the prototypical member of a large and ancient gene family now called **sirtuins**, present in all domains of life — bacteria, archaea, and eukaryotes. In mammals, seven homologues ([[SIRT1]]–[[SIRT7]]) have been identified, with [[SIRT1]] being the closest mammalian orthologue (Class Ia). The enzymatic mechanism, structural core domain (275 amino acids), and NAD⁺ dependence are all conserved.
 
 ## Connections
 
-- [[notes/sirtuins/SIRT1]] — closest mammalian homologue (Class Ia); conserved biological roles
+- [[SIRT1]] — closest mammalian homologue (Class Ia); conserved biological roles
 - [[NAD+]] — obligatory co-substrate for all Sir2 family deacetylase activity
 - [[OAADPr]] — unique metabolic by-product of Sir2-catalysed deacetylation
 - [[notes/_link/Caloric Restriction]] — Sir2 is required for CR-mediated lifespan extension in yeast and flies
@@ -97,6 +97,6 @@ Sir2 is the prototypical member of a large and ancient gene family now called **
 
 ## Linking Summary
 
-- New links added: [[notes/sirtuins/SIRT1]], [[NAD+]], [[OAADPr]], [[notes/_link/Caloric Restriction]], [[Resveratrol]], [[DAF-16]]
+- New links added: [[SIRT1]], [[NAD+]], [[OAADPr]], [[notes/_link/Caloric Restriction]], [[Resveratrol]], [[DAF-16]]
 - Suggested new entity notes to create: [[Extrachromosomal rDNA Circles (ERCs)]], [[DAF-16]], [[Replicative Lifespan (Yeast)]]
-- Strong connections to strengthen: [[Sir2 (yeast)]] ↔ [[notes/sirtuins/SIRT1]], [[Sir2 (yeast)]] ↔ [[notes/_link/Caloric Restriction]]
+- Strong connections to strengthen: [[Sir2 (yeast)]] ↔ [[SIRT1]], [[Sir2 (yeast)]] ↔ [[notes/_link/Caloric Restriction]]

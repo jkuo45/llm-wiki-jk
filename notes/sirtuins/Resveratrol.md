@@ -14,7 +14,7 @@ database_ids:
   pubchem: 445154
 relations:
   - predicate: activates
-    target: "[[notes/sirtuins/SIRT1]]"
+    target: "[[SIRT1]]"
     sources:
       - PMID:12939617
   - predicate: extends_lifespan_in
@@ -43,11 +43,11 @@ updated: 2026-07-02
 
 # Resveratrol
 
-**Resveratrol** (3,5,4′-trihydroxystilbene) is a **polyphenolic stilbene** found naturally in the skin of grapes, red wine, and a variety of other plants. It is synthesised by plants in response to stress (biotic or abiotic). Resveratrol was identified as a **STAC (sirtuin activating compound)** — the prototypical pharmacological activator of [[notes/sirtuins/SIRT1]] — and has been shown to extend lifespan in diverse organisms and improve metabolic health in mammals.
+**Resveratrol** (3,5,4′-trihydroxystilbene) is a **polyphenolic stilbene** found naturally in the skin of grapes, red wine, and a variety of other plants. It is synthesised by plants in response to stress (biotic or abiotic). Resveratrol was identified as a **STAC (sirtuin activating compound)** — the prototypical pharmacological activator of [[SIRT1]] — and has been shown to extend lifespan in diverse organisms and improve metabolic health in mammals.
 
 ## Discovery as a STAC
 
-A systematic search for sirtuin activating compounds (STACs) that might extend lifespan was prompted by findings that extra copies of _SIR2_ extend lifespan in diverse organisms. Howitz et al. (2003) identified resveratrol as one of a series of STACs that activate mammalian [[notes/sirtuins/SIRT1]] _in vitro_ and extend lifespan in yeast.
+A systematic search for sirtuin activating compounds (STACs) that might extend lifespan was prompted by findings that extra copies of _SIR2_ extend lifespan in diverse organisms. Howitz et al. (2003) identified resveratrol as one of a series of STACs that activate mammalian [[SIRT1]] _in vitro_ and extend lifespan in yeast.
 
 Critically, resveratrol's lifespan-extending effects require the presence of the _SIR2_ gene — it has no apparent effect when _SIR2_ is deleted.
 
@@ -72,7 +72,7 @@ Two pivotal studies demonstrated resveratrol's effects in mice:
   - Increased mitochondrial number
   - Lower blood glucose and insulin
   - Hepatic gene expression profile matching lean mice
-  - Increased [[notes/sirtuins/SIRT1]] and [[PGC-1α]] activity
+  - Increased [[SIRT1]] and [[PGC-1α]] activity
 
 ### Lagouge et al. (2006) — High-fat diet/obesity model
 
@@ -83,11 +83,11 @@ Two pivotal studies demonstrated resveratrol's effects in mice:
   - Enhanced resistance to muscle fatigue
   - Lower blood glucose and insulin
   - Greater cold tolerance
-  - Increased [[notes/sirtuins/SIRT1]] and [[PGC-1α]] activity
+  - Increased [[SIRT1]] and [[PGC-1α]] activity
 
 ### Human Genetic Evidence
 
-Three **single nucleotide polymorphisms (SNPs) in the human _SIRT1_ gene** were significantly associated with systemic energy expenditure in Finnish subjects, implicating the [[notes/sirtuins/SIRT1]]–resveratrol pathway in human metabolism.
+Three **single nucleotide polymorphisms (SNPs) in the human _SIRT1_ gene** were significantly associated with systemic energy expenditure in Finnish subjects, implicating the [[SIRT1]]–resveratrol pathway in human metabolism.
 
 ## Molecular Mechanisms
 
@@ -108,15 +108,15 @@ Resveratrol is widely considered a **CR mimetic** — it recapitulates many of t
 
 ## Connections
 
-- [[notes/sirtuins/SIRT1]] — primary molecular target; resveratrol activates SIRT1 _in vitro_ and in cells
+- [[SIRT1]] — primary molecular target; resveratrol activates SIRT1 _in vitro_ and in cells
 - [[Sir2 (yeast)]] — founding sirtuin; resveratrol extends yeast lifespan in a Sir2-dependent manner
 - [[notes/_link/Caloric Restriction]] — resveratrol mimics CR physiological effects via SIRT1
 - [[PGC-1α]] — key downstream effector activated by resveratrol-stimulated SIRT1
 - [[NAD+]] — resveratrol activates SIRT1 in a NAD⁺-dependent context
-- [[notes/sirtuins/SIRT3]] — may contribute to resveratrol's metabolic effects indirectly
+- [[SIRT3]] — may contribute to resveratrol's metabolic effects indirectly
 
 ## Linking Summary
 
-- New links added: [[notes/sirtuins/SIRT1]], [[Sir2 (yeast)]], [[notes/_link/Caloric Restriction]], [[PGC-1α]], [[NAD+]], [[notes/sirtuins/SIRT3]]
+- New links added: [[SIRT1]], [[Sir2 (yeast)]], [[notes/_link/Caloric Restriction]], [[PGC-1α]], [[NAD+]], [[SIRT3]]
 - Suggested new entity notes to create: [[STACs (Sirtuin Activating Compounds)]], [[AMPK]], [[Polyphenol]]
-- Strong connections to strengthen: [[Resveratrol]] ↔ [[notes/sirtuins/SIRT1]], [[Resveratrol]] ↔ [[notes/_link/Caloric Restriction]]
+- Strong connections to strengthen: [[Resveratrol]] ↔ [[SIRT1]], [[Resveratrol]] ↔ [[notes/_link/Caloric Restriction]]

@@ -23,18 +23,18 @@ updated: 2026-07-02
 
 # SIRT5
 
-**SIRT5** (Sirtuin 5) is a **mitochondrial sirtuin** and the sole mammalian member of phylogenetic **Class III** sirtuins — a class distributed widely in all prokaryotes (both bacteria and archaea). This deep evolutionary conservation positions SIRT5 (along with [[notes/sirtuins/SIRT4]] of Class II) as one of the **most ancient mammalian sirtuins**.
+**SIRT5** (Sirtuin 5) is a **mitochondrial sirtuin** and the sole mammalian member of phylogenetic **Class III** sirtuins — a class distributed widely in all prokaryotes (both bacteria and archaea). This deep evolutionary conservation positions SIRT5 (along with [[SIRT4]] of Class II) as one of the **most ancient mammalian sirtuins**.
 
 ## Enzymatic Activity
 
-SIRT5 exhibits **weak NAD⁺-dependent deacetylase activity** — in contrast to the robust deacetylase activity of [[notes/sirtuins/SIRT1]] and the primary ADP-ribosyl transferase activity of [[notes/sirtuins/SIRT4]] and [[notes/sirtuins/SIRT6]]. As with all sirtuins, the deacetylation reaction produces [[OAADPr]] and nicotinamide as by-products, requiring [[NAD+]] as co-substrate.
+SIRT5 exhibits **weak NAD⁺-dependent deacetylase activity** — in contrast to the robust deacetylase activity of [[SIRT1]] and the primary ADP-ribosyl transferase activity of [[SIRT4]] and [[SIRT6]]. As with all sirtuins, the deacetylation reaction produces [[OAADPr]] and nicotinamide as by-products, requiring [[NAD+]] as co-substrate.
 
 > [!NOTE]
 > As of the Michan & Sinclair 2007 review, no robust enzymatic activity had been definitively characterised for SIRT5 beyond weak deacetylase activity. Subsequent research (post-2007) has identified SIRT5 as a primary **desuccinylase, demalonylase, and deglutarylase**, extending its functional repertoire considerably.
 
 ## Subcellular Localisation
 
-**Mitochondrial** — SIRT5 is one of the three mitochondrial sirtuins, along with [[notes/sirtuins/SIRT3]] and [[notes/sirtuins/SIRT4]], localised to the mitochondrial matrix.
+**Mitochondrial** — SIRT5 is one of the three mitochondrial sirtuins, along with [[SIRT3]] and [[SIRT4]], localised to the mitochondrial matrix.
 
 ## Evolutionary Classification
 
@@ -51,9 +51,9 @@ Limited functional information was available at the time of Michan & Sinclair (2
 
 ## Connections
 
-- [[notes/sirtuins/SIRT3]] — fellow mitochondrial sirtuin; robust deacetylase (contrast with SIRT5's weak activity)
-- [[notes/sirtuins/SIRT4]] — fellow mitochondrial sirtuin; Class II (also ancient)
-- [[notes/sirtuins/SIRT6]] — nuclear sirtuin; primary ADP-ribosyl transferase
+- [[SIRT3]] — fellow mitochondrial sirtuin; robust deacetylase (contrast with SIRT5's weak activity)
+- [[SIRT4]] — fellow mitochondrial sirtuin; Class II (also ancient)
+- [[SIRT6]] — nuclear sirtuin; primary ADP-ribosyl transferase
 - [[NAD+]] — obligatory co-substrate
 - [[OAADPr]] — by-product of deacetylation
 - [[Sir2 (yeast)]] — distantly related founding sirtuin member
@@ -61,9 +61,9 @@ Limited functional information was available at the time of Michan & Sinclair (2
 
 ## Linking Summary
 
-- New links added: [[notes/sirtuins/SIRT3]], [[notes/sirtuins/SIRT4]], [[notes/sirtuins/SIRT6]], [[NAD+]], [[OAADPr]], [[Sir2 (yeast)]]
+- New links added: [[SIRT3]], [[SIRT4]], [[SIRT6]], [[NAD+]], [[OAADPr]], [[Sir2 (yeast)]]
 - Suggested new entity notes to create: [[Desuccinylase Activity]], [[Mitochondrial Matrix]]
-- Strong connect[[notes/sirtuins/SIRT5]]trengthen: [[SIRT5]] ↔ [[note[[notes/sirtuins/SIRT5]]s/SIRT3]], [[SIRT5]] ↔ [[notes/sirtuins/SIRT4]]
+- Strong connect[[SIRT5]]trengthen: [[SIRT5]] ↔ [[note[[SIRT5]]s/SIRT3]], [[SIRT5]] ↔ [[SIRT4]]
 
 # SIRT5
 

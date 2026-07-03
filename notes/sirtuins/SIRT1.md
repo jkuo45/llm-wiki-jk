@@ -57,7 +57,7 @@ updated: 2026-07-02
 
 ## Enzymatic Activity
 
-SIRT1 is a robust [[NAD+]]-dependent protein deacetylase. Its deacetylation reaction produces [[OAADPr]] (2′-_O_-acetyl-ADP-ribose) and nicotinamide as by-products. Unlike [[notes/sirtuins/SIRT4]] and [[notes/sirtuins/SIRT6]], SIRT1's primary activity is deacetylation rather than mono-ADP-ribosylation.
+SIRT1 is a robust [[NAD+]]-dependent protein deacetylase. Its deacetylation reaction produces [[OAADPr]] (2′-_O_-acetyl-ADP-ribose) and nicotinamide as by-products. Unlike [[SIRT4]] and [[SIRT6]], SIRT1's primary activity is deacetylation rather than mono-ADP-ribosylation.
 
 ## Histone Targets
 
@@ -150,15 +150,15 @@ SIRT1 is a key mediator of [[notes/_link/Caloric Restriction]] benefits in mamma
 - [[PGC-1α]] — downstream effector of SIRT1 in metabolism and neuroprotection
 - [[Resveratrol]] — pharmacological activator (STAC)
 - [[notes/_link/Caloric Restriction]] — SIRT1 is proposed mediator of CR-dependent longevity benefits
-- [[notes/sirtuins/SIRT2]] — Class I sirtuin family member; both have deacetylase and ADP-ribosyl transferase activities
-- [[notes/sirtuins/SIRT3]] — mitochondrial counterpart; both deacetylate AceCS isoforms (cytoplasmic vs. mitochondrial)
+- [[SIRT2]] — Class I sirtuin family member; both have deacetylase and ADP-ribosyl transferase activities
+- [[SIRT3]] — mitochondrial counterpart; both deacetylate AceCS isoforms (cytoplasmic vs. mitochondrial)
 - [[FOXO1]] / [[FOXO3a]] / FOXO4 — forkhead transcription factors regulated by SIRT1 deacetylation
 
 ## Linking Summary
 
-- New links added: [[Sir2 (yeast)]], [[NAD+]], [[OAADPr]], [[p53]], [[PGC-1α]], [[Resveratrol]], [[notes/_link/Caloric Restriction]], [[notes/sirtuins/SIRT2]], [[notes/sirtuins/SIRT3]], [[FOXO1]], [[FOXO3a]], [[UCP2]], [[NF-κB (RelA/p65)]], [[notes/sirtuins/SIRT4]], [[notes/sirtuins/SIRT6]]
+- New links added: [[Sir2 (yeast)]], [[NAD+]], [[OAADPr]], [[p53]], [[PGC-1α]], [[Resveratrol]], [[notes/_link/Caloric Restriction]], [[SIRT2]], [[SIRT3]], [[FOXO1]], [[FOXO3a]], [[UCP2]], [[NF-κB (RelA/p65)]], [[SIRT4]], [[SIRT6]]
 - Suggested new entity notes to create: [[FOXO3a]], [[FOXO4]], [[Smad7]], [[Ku70]], [[E2F1]], [[p73]], [[HIC1]], [[Nmnat]], [[MEF2D]], [[PML]]
-- Strong connections to strengthen: [[notes/sirtuins/SIRT1]] ↔ [[p53]], [[notes/sirtuins/SIRT1]] ↔ [[PGC-1α]], [[notes/sirtuins/SIRT1]] ↔ [[notes/_link/Caloric Restriction]]
+- Strong connections to strengthen: [[SIRT1]] ↔ [[p53]], [[SIRT1]] ↔ [[PGC-1α]], [[SIRT1]] ↔ [[notes/_link/Caloric Restriction]]
 
 # SIRT1
 
@@ -168,7 +168,7 @@ SIRT1 is a class III [[NAD+]]-dependent histone deacetylase and one of the seven
 
 - New links added: [[NAD+]], [[p53]], [[AMPK]]
 - Suggested new entity notes to create:
-- Strong connections to strengthen: [[notes/sirtuins/SIRT1]] ↔ [[NAD+]], [[notes/sirtuins/SIRT1]] ↔ [[p53]], [[notes/sirtuins/SIRT1]] ↔ [[AMPK]]
+- Strong connections to strengthen: [[SIRT1]] ↔ [[NAD+]], [[SIRT1]] ↔ [[p53]], [[SIRT1]] ↔ [[AMPK]]
 
 # SIRT1
 

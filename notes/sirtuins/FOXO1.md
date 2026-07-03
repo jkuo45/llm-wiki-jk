@@ -11,7 +11,7 @@ database_ids:
   hgnc: HGNC:3819
 relations:
   - predicate: deacetylated_by
-    target: "[[notes/sirtuins/SIRT1]]"
+    target: "[[SIRT1]]"
     sources:
       - PMID:14980222
   - predicate: regulates
@@ -32,11 +32,11 @@ updated: 2026-07-02
 
 # FOXO1
 
-**FOXO1** (Forkhead Box O1; also known as Foxo1 or FKHR) is a member of the **Forkhead box class O (FOXO)** family of transcription factors and a key regulatory target of [[notes/sirtuins/SIRT1]] in metabolism, cell survival, and cancer biology. FOXO1 integrates sirtuin-mediated deacetylation with insulin/IGF-1 signalling, adipogenesis, and pancreatic β-cell function.
+**FOXO1** (Forkhead Box O1; also known as Foxo1 or FKHR) is a member of the **Forkhead box class O (FOXO)** family of transcription factors and a key regulatory target of [[SIRT1]] in metabolism, cell survival, and cancer biology. FOXO1 integrates sirtuin-mediated deacetylation with insulin/IGF-1 signalling, adipogenesis, and pancreatic β-cell function.
 
 ## FOXO Family and Sirtuin Regulation
 
-There are four FOXO transcription factors in mammals (FOXO1, FOXO3a, FOXO4, FOXO6). [[notes/sirtuins/SIRT1]] has been demonstrated to deacetylate three of them:
+There are four FOXO transcription factors in mammals (FOXO1, FOXO3a, FOXO4, FOXO6). [[SIRT1]] has been demonstrated to deacetylate three of them:
 
 - **FOXO1** (this entry)
 - **FOXO3a** — reduces apoptosis in neurons and fibroblasts; increases DNA repair and cell-cycle checkpoint gene expression
@@ -44,13 +44,13 @@ There are four FOXO transcription factors in mammals (FOXO1, FOXO3a, FOXO4, FOXO
 
 ## FOXO1–SIRT1 Interaction
 
-The **LXXLL motif** of FOXO1 is indispensable for SIRT1 binding and FOXO1 transcriptional regulation. [[notes/sirtuins/SIRT1]] deacetylates FOXO1, modulating its activity in a context-dependent manner.
+The **LXXLL motif** of FOXO1 is indispensable for SIRT1 binding and FOXO1 transcriptional regulation. [[SIRT1]] deacetylates FOXO1, modulating its activity in a context-dependent manner.
 
 ## Metabolic Functions
 
 ### Adiponectin Regulation
 
-FOXO1 forms a transcriptional complex at the mouse adiponectin promoter with **C/EBPα (CCAAT/enhancer-binding protein α)**. [[notes/sirtuins/SIRT1]] deacetylates FOXO1 and **enhances its interaction with C/EBPα**, thereby **increasing adiponectin concentrations**. Elevated adiponectin:
+FOXO1 forms a transcriptional complex at the mouse adiponectin promoter with **C/EBPα (CCAAT/enhancer-binding protein α)**. [[SIRT1]] deacetylates FOXO1 and **enhances its interaction with C/EBPα**, thereby **increasing adiponectin concentrations**. Elevated adiponectin:
 
 - Regulates energy homeostasis and glucose/lipid metabolism
 - Improves insulin sensitivity
@@ -59,7 +59,7 @@ FOXO1 forms a transcriptional complex at the mouse adiponectin promoter with **C
 
 ### Pancreatic β-Cell Function and Insulin Secretion
 
-By deacetylating FOXO1, [[notes/sirtuins/SIRT1]] promotes activation and transcription of:
+By deacetylating FOXO1, [[SIRT1]] promotes activation and transcription of:
 
 - **NeuroD** (neurogenic differentiation factor)
 - **MafA** (a β-cell transcription factor)
@@ -83,7 +83,7 @@ The _C. elegans_ FOXO orthologue **DAF-16** is required for _sir-2.1_-mediated l
 
 ## Connections
 
-- [[notes/sirtuins/SIRT1]] — directly deacetylates FOXO1; primary regulatory relationship
+- [[SIRT1]] — directly deacetylates FOXO1; primary regulatory relationship
 - [[notes/_link/Caloric Restriction]] — SIRT1-mediated FOXO1 deacetylation is a downstream effect of CR
 - [[Adiponectin]] — FOXO1/C/EBPα complex drives adiponectin expression; enhanced by SIRT1
 - [[p53]] — parallel SIRT1 deacetylation target; both regulated in apoptosis/survival decisions
@@ -92,6 +92,6 @@ The _C. elegans_ FOXO orthologue **DAF-16** is required for _sir-2.1_-mediated l
 
 ## Linking Summary
 
-- New links added: [[notes/sirtuins/SIRT1]], [[notes/_link/Caloric Restriction]], [[p53]], [[DAF-16]], [[FOXO3a]], [[Adiponectin]]
+- New links added: [[SIRT1]], [[notes/_link/Caloric Restriction]], [[p53]], [[DAF-16]], [[FOXO3a]], [[Adiponectin]]
 - Suggested new entity notes to create: [[DAF-16]], [[FOXO3a]], [[FOXO4]], [[FHL2]], [[NeuroD]], [[MafA]], [[Adiponectin]]
-- Strong connections to strengthen: [[FOXO1]] ↔ [[notes/sirtuins/SIRT1]], [[FOXO1]] ↔ [[notes/_link/Caloric Restriction]]
+- Strong connections to strengthen: [[FOXO1]] ↔ [[SIRT1]], [[FOXO1]] ↔ [[notes/_link/Caloric Restriction]]

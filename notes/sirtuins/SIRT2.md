@@ -69,7 +69,7 @@ SIRT2 acts as a putative **tumour suppressor** in gliomas:
 
 ## Nervous System
 
-SIRT2 is expressed in **oligodendrocytes** and **Schwann cells** that form myelin sheaths covering axons (distinct from [[notes/sirtuins/SIRT1]], which localises to neuronal bodies). It is also expressed in olfactory sensory neurons. Its expression pattern resembles the _Nf155_ gene (encoding the 155 kDa isoform of neurofascin), suggesting a role in **axonal myelinisation**. SIRT2 and HDAC6 are both microtubule deacetylases in the nervous system.
+SIRT2 is expressed in **oligodendrocytes** and **Schwann cells** that form myelin sheaths covering axons (distinct from [[SIRT1]], which localises to neuronal bodies). It is also expressed in olfactory sensory neurons. Its expression pattern resembles the _Nf155_ gene (encoding the 155 kDa isoform of neurofascin), suggesting a role in **axonal myelinisation**. SIRT2 and HDAC6 are both microtubule deacetylases in the nervous system.
 
 ## Development
 
@@ -77,12 +77,12 @@ SIRT2 interacts with **HOXA10**, an evolutionarily conserved homeobox transcript
 
 ## Ion Channel Regulation
 
-Through the generation of [[OAADPr]], SIRT2 (along with [[notes/sirtuins/SIRT3]]) may regulate the **TRPM2** (transient receptor potential melastatin-related channel 2) non-selective cation channel. Decreasing SIRT2 expression reduces OAADPr-mediated TRPM2 activation and cell death.
+Through the generation of [[OAADPr]], SIRT2 (along with [[SIRT3]]) may regulate the **TRPM2** (transient receptor potential melastatin-related channel 2) non-selective cation channel. Decreasing SIRT2 expression reduces OAADPr-mediated TRPM2 activation and cell death.
 
 ## Connections
 
-- [[notes/sirtuins/SIRT1]] — fellow Class I sirtuin; both have deacetylase and ADP-ribosyl transferase activities
-- [[notes/sirtuins/SIRT3]] — also produces OAADPr; both implicated in TRPM2 channel regulation
+- [[SIRT1]] — fellow Class I sirtuin; both have deacetylase and ADP-ribosyl transferase activities
+- [[SIRT3]] — also produces OAADPr; both implicated in TRPM2 channel regulation
 - [[NAD+]] — required co-substrate for deacetylase activity
 - [[OAADPr]] — by-product of sirtuin-mediated deacetylation
 - [[Glioma]] — SIRT2 deletion is associated with glioma formation
@@ -90,8 +90,8 @@ Through the generation of [[OAADPr]], SIRT2 (along with [[notes/sirtuins/SIRT3]]
 
 ## Linking Summary
 
-- New links added: [[NAD+]], [[OAADPr]], [[Glioma]], [[HOXA10]], [[notes/sirtuins/SIRT1]], [[notes/sirtuins/SIRT3]], [[TRPM2]]
-- Suggested new entity notes to create: [[TRPM2]], [[CDC14B]], [[Neurofascin][[notes/sirtuins/SIRT2]]g connections t[[notes/sirtuins/SIRT2]]hen: [[notes/sirtuins/SIRT2]] ↔ [[Glioma]], [[notes/sirtuins/SIRT2]] ↔ [[OAADPr]]
+- New links added: [[NAD+]], [[OAADPr]], [[Glioma]], [[HOXA10]], [[SIRT1]], [[SIRT3]], [[TRPM2]]
+- Suggested new entity notes to create: [[TRPM2]], [[CDC14B]], [[Neurofascin][[SIRT2]]g connections t[[SIRT2]]hen: [[SIRT2]] ↔ [[Glioma]], [[SIRT2]] ↔ [[OAADPr]]
 
 # SIRT2
 
@@ -101,7 +101,7 @@ SIRT2 is a predominantly cytoplasmic sirtuin with both deacetylase and mono-ADP-
 
 - New links added: [[NAD+]], [[Neurodegeneration]]
 - Suggested new entity notes to create:
-- Strong connections to strengthen: [[notes/sirtuins/SIRT2]] ↔ [[NAD+]], [[notes/sirtuins/SIRT2]] ↔ [[Neurodegeneration]]
+- Strong connections to strengthen: [[SIRT2]] ↔ [[NAD+]], [[SIRT2]] ↔ [[Neurodegeneration]]
 
 # SIRT2
 

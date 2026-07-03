@@ -21,13 +21,13 @@ updated:
 
 | Entity | entity_type_1 | Description |
 |--------|--------------|-------------|
-| [[notes/sirtuins/SIRT1]] | Protein | Class Ia; nuclear; robust NAD⁺-dependent deacetylase; most studied mammalian sirtuin |
-| [[notes/sirtuins/SIRT2]] | Protein | Class Ib; cytoplasmic; tubulin deacetylase; glioma suppressor; cell cycle regulator |
-| [[notes/sirtuins/SIRT3]] | Protein | Class Ib; mitochondrial; AceCS2 deacetylase; metabolic regulation; longevity variant |
-| [[notes/sirtuins/SIRT4]] | Protein | Class II; mitochondrial; primary ADP-ribosyl transferase; inhibits GDH; downregulated by CR |
-| [[notes/sirtuins/SIRT5]] | Protein | Class III; mitochondrial; weak deacetylase; most ancient mammalian sirtuin class |
-| [[notes/sirtuins/SIRT6]] | Protein | Class IVa; nuclear (heterochromatin); ADP-ribosyl transferase; DNA repair; aging |
-| [[notes/sirtuins/SIRT7]] | Protein | Class IVb; nucleolar; RNA Pol I activator; overexpressed in breast and thyroid cancer |
+| [[SIRT1]] | Protein | Class Ia; nuclear; robust NAD⁺-dependent deacetylase; most studied mammalian sirtuin |
+| [[SIRT2]] | Protein | Class Ib; cytoplasmic; tubulin deacetylase; glioma suppressor; cell cycle regulator |
+| [[SIRT3]] | Protein | Class Ib; mitochondrial; AceCS2 deacetylase; metabolic regulation; longevity variant |
+| [[SIRT4]] | Protein | Class II; mitochondrial; primary ADP-ribosyl transferase; inhibits GDH; downregulated by CR |
+| [[SIRT5]] | Protein | Class III; mitochondrial; weak deacetylase; most ancient mammalian sirtuin class |
+| [[SIRT6]] | Protein | Class IVa; nuclear (heterochromatin); ADP-ribosyl transferase; DNA repair; aging |
+| [[SIRT7]] | Protein | Class IVb; nucleolar; RNA Pol I activator; overexpressed in breast and thyroid cancer |
 
 ### Founding/Model Sirtuins
 

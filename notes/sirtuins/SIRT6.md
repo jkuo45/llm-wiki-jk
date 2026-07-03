@@ -31,15 +31,15 @@ updated: 2026-07-02
 
 # SIRT6
 
-**SIRT6** (Sirtuin 6) is a **nuclear sirtuin** classified in phylogenetic **Class IVa** alongside [[notes/sirtuins/SIRT7]] (Class IVb). Class IV sirtuins are not found in prokaryotes but are broadly distributed in metazoans, plants, and vertebrates, reflecting their emergence later in eukaryotic evolution. SIRT6 is characterised by its association with **heterochromatin**, its role in **DNA base excision repair**, and its primary enzymatic activity as a **mono-ADP-ribosyl transferase**.
+**SIRT6** (Sirtuin 6) is a **nuclear sirtuin** classified in phylogenetic **Class IVa** alongside [[SIRT7]] (Class IVb). Class IV sirtuins are not found in prokaryotes but are broadly distributed in metazoans, plants, and vertebrates, reflecting their emergence later in eukaryotic evolution. SIRT6 is characterised by its association with **heterochromatin**, its role in **DNA base excision repair**, and its primary enzymatic activity as a **mono-ADP-ribosyl transferase**.
 
 ## Enzymatic Activity
 
-SIRT6's primary characterised activity is **mono-ADP-ribosylation** using [[NAD+]] as donor — making it one of only two mammalian sirtuins (along with [[notes/sirtuins/SIRT4]]) whose principal function is ADP-ribosylation rather than deacetylation. The reaction generates [[OAADPr]] as a by-product. Subsequent research (post-2007) has also identified SIRT6 as a histone H3-Lys⁹ deacetylase.
+SIRT6's primary characterised activity is **mono-ADP-ribosylation** using [[NAD+]] as donor — making it one of only two mammalian sirtuins (along with [[SIRT4]]) whose principal function is ADP-ribosylation rather than deacetylation. The reaction generates [[OAADPr]] as a by-product. Subsequent research (post-2007) has also identified SIRT6 as a histone H3-Lys⁹ deacetylase.
 
 ## Subcellular Localisation
 
-**Predominantly nuclear**, where a large fraction associates with **heterochromatin** (in contrast to [[notes/sirtuins/SIRT1]], which associates with euchromatin, and [[notes/sirtuins/SIRT7]], which localises to the nucleolus).
+**Predominantly nuclear**, where a large fraction associates with **heterochromatin** (in contrast to [[SIRT1]], which associates with euchromatin, and [[SIRT7]], which localises to the nucleolus).
 
 ## DNA Repair
 
@@ -66,13 +66,13 @@ SIRT6 belongs to **Class IVa** — a subclass within Class IV that:
 
 - Is absent from prokaryotes
 - Broadly distributed in metazoans, plants, and vertebrates
-- Groups with [[notes/sirtuins/SIRT7]] (Class IVb) as the most recently evolved mammalian sirtuin class
+- Groups with [[SIRT7]] (Class IVb) as the most recently evolved mammalian sirtuin class
 
 ## Connections
 
-- [[notes/sirtuins/SIRT7]] — fellow Class IV sirtuin; both nuclear; SIRT7 is nucleolar while SIRT6 is heterochromatic
-- [[notes/sirtuins/SIRT4]] — fellow primary mono-ADP-ribosyl transferase among mammalian sirtuins
-- [[notes/sirtuins/SIRT1]] — both nuclear; SIRT1 associates with euchromatin, SIRT6 with heterochromatin
+- [[SIRT7]] — fellow Class IV sirtuin; both nuclear; SIRT7 is nucleolar while SIRT6 is heterochromatic
+- [[SIRT4]] — fellow primary mono-ADP-ribosyl transferase among mammalian sirtuins
+- [[SIRT1]] — both nuclear; SIRT1 associates with euchromatin, SIRT6 with heterochromatin
 - [[NAD+]] — required co-substrate for ADP-ribosylation
 - [[OAADPr]] — by-product of sirtuin-catalysed reactions
 - [[Base Excision Repair]] — key biological function
@@ -80,9 +80,9 @@ SIRT6 belongs to **Class IVa** — a subclass within Class IV that:
 
 ## Linking Summary
 
-- New links added: [[notes/sirtuins/SIRT7]], [[notes/sirtuins/SIRT4]], [[notes/sirtuins/SIRT1]], [[NAD+]], [[OAADPr]], [[Base Excision Repair]], [[Premature Aging]], [[Heterochromatin]]
+- New links added: [[SIRT7]], [[SIRT4]], [[SIRT1]], [[NAD+]], [[OAADPr]], [[Base Excision Repair]], [[Premature Aging]], [[Heterochromatin]]
 - Suggested new entity notes to create: [[Base Excision Repair]], [[Heterochromatin]]
-- St[[notes/sirtuins/SIRT6]]ections to strengthen: [[[notes/sirtuins/SIRT6]]↔ [[Premature Aging]], [[SIRT6]] ↔ [[Base Excision Repair]]
+- St[[SIRT6]]ections to strengthen: [[[SIRT6]]↔ [[Premature Aging]], [[SIRT6]] ↔ [[Base Excision Repair]]
 
 # SIRT6
 

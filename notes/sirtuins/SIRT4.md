@@ -31,15 +31,15 @@ updated: 2026-07-02
 
 # SIRT4
 
-**SIRT4** (Sirtuin 4) is a **mitochondrial sirtuin** classified in phylogenetic **Class II**, which includes sirtuins from bacteria, insects, nematodes, mould fungus, and protozoans — making SIRT4 and Class II sirtuins among the most ancient in evolutionary terms. Unlike [[notes/sirtuins/SIRT1]] and [[notes/sirtuins/SIRT3]], SIRT4's **primary enzymatic activity is mono-ADP-ribosylation** rather than deacetylation.
+**SIRT4** (Sirtuin 4) is a **mitochondrial sirtuin** classified in phylogenetic **Class II**, which includes sirtuins from bacteria, insects, nematodes, mould fungus, and protozoans — making SIRT4 and Class II sirtuins among the most ancient in evolutionary terms. Unlike [[SIRT1]] and [[SIRT3]], SIRT4's **primary enzymatic activity is mono-ADP-ribosylation** rather than deacetylation.
 
 ## Enzymatic Activity
 
-SIRT4 is a **mono-ADP-ribosyl transferase** using NAD⁺ as a donor (see [[NAD+]]). It generates [[OAADPr]] as a by-product. No robust deacetylase activity has been confirmed as a primary function. This makes SIRT4 one of only two mammalian sirtuins (along with [[notes/sirtuins/SIRT6]]) whose primary characterised activity is mono-ADP-ribosylation.
+SIRT4 is a **mono-ADP-ribosyl transferase** using NAD⁺ as a donor (see [[NAD+]]). It generates [[OAADPr]] as a by-product. No robust deacetylase activity has been confirmed as a primary function. This makes SIRT4 one of only two mammalian sirtuins (along with [[SIRT6]]) whose primary characterised activity is mono-ADP-ribosylation.
 
 ## Subcellular Localisation
 
-**Mitochondrial** — SIRT4, along with [[notes/sirtuins/SIRT3]] and [[notes/sirtuins/SIRT5]], is one of the three mitochondrial sirtuins.
+**Mitochondrial** — SIRT4, along with [[SIRT3]] and [[SIRT5]], is one of the three mitochondrial sirtuins.
 
 ## Metabolic Functions
 
@@ -53,7 +53,7 @@ The primary characterised function of SIRT4 is regulation of **GDH (glutamate de
 
 ### Caloric Restriction Response
 
-Critically, SIRT4 responds to CR in the **opposite direction** from [[notes/sirtuins/SIRT1]] and [[notes/sirtuins/SIRT3]]:
+Critically, SIRT4 responds to CR in the **opposite direction** from [[SIRT1]] and [[SIRT3]]:
 
 - **SIRT4 is downregulated by CR**, leading to increased GDH activity.
 - This allows **glutamine to serve as an insulin secretagogue** — an adaptive metabolic response.
@@ -65,13 +65,13 @@ Since **glutamate is the primary neurotransmitter at excitatory synapses**, SIRT
 
 ## Evolutionary Context
 
-SIRT4 belongs to **Class II**, one of the most evolutionarily ancient sirtuin classes present across bacteria, insects, nematodes, and protozoans. SIRT4 and [[notes/sirtuins/SIRT5]] are proposed to be among the most ancient mammalian sirtuins.
+SIRT4 belongs to **Class II**, one of the most evolutionarily ancient sirtuin classes present across bacteria, insects, nematodes, and protozoans. SIRT4 and [[SIRT5]] are proposed to be among the most ancient mammalian sirtuins.
 
 ## Connections
 
-- [[notes/sirtuins/SIRT3]] — fellow mitochondrial sirtuin; complementary metabolic roles
-- [[notes/sirtuins/SIRT5]] — fellow mitochondrial sirtuin; Class III (more ancient)
-- [[notes/sirtuins/SIRT6]] — both are primary mono-ADP-ribosyl transferases among mammalian sirtuins
+- [[SIRT3]] — fellow mitochondrial sirtuin; complementary metabolic roles
+- [[SIRT5]] — fellow mitochondrial sirtuin; Class III (more ancient)
+- [[SIRT6]] — both are primary mono-ADP-ribosyl transferases among mammalian sirtuins
 - [[NAD+]] — required co-substrate
 - [[OAADPr]] — by-product of ADP-ribosylation
 - [[notes/_link/Caloric Restriction]] — SIRT4 is **downregulated** by CR (contrast with SIRT1/3 which are upregulated)
@@ -79,9 +79,9 @@ SIRT4 belongs to **Class II**, one of the most evolutionarily ancient sirtuin cl
 
 ## Linking Summary
 
-- New links added: [[NAD+]], [[OAADPr]], [[notes/_link/Caloric Restriction]], [[notes/sirtuins/SIRT3]], [[notes/sirtuins/SIRT5]], [[notes/sirtuins/SIRT6]], [[Glutamate Dehydrogenase (GDH)]]
+- New links added: [[NAD+]], [[OAADPr]], [[notes/_link/Caloric Restriction]], [[SIRT3]], [[SIRT5]], [[SIRT6]], [[Glutamate Dehydrogenase (GDH)]]
 - Suggested new entity notes to create: [[Glutamate Dehydrogenase (GDH)]], [[ADP-ribosylation]]
-- Strong connections to strengthen: [[notes/sirtuins/SIRT4]] ↔ [[notes/_link/Caloric Restriction]], [[notes/sirtuins/SIRT4]] ↔ [[Glutamate Dehydrogenase (GDH)]]
+- Strong connections to strengthen: [[SIRT4]] ↔ [[notes/_link/Caloric Restriction]], [[SIRT4]] ↔ [[Glutamate Dehydrogenase (GDH)]]
 
 # SIRT4
 

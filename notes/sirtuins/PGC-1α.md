@@ -11,11 +11,11 @@ database_ids:
   hgnc: HGNC:9237
 relations:
   - predicate: deacetylated_by
-    target: "[[notes/sirtuins/SIRT1]]"
+    target: "[[SIRT1]]"
     sources:
       - PMID:15744310
   - predicate: activated_by
-    target: "[[notes/sirtuins/SIRT1]]"
+    target: "[[SIRT1]]"
     sources:
       - PMID:15744310
   - predicate: activated_by
@@ -40,15 +40,15 @@ updated: 2026-07-02
 
 # PGC-1α
 
-**PGC-1α** (PPAR-γ Co-activator 1α; gene name _PPARGC1A_) is a **master transcriptional coactivator** that acts as a central regulator of **mitochondrial biogenesis**, **oxidative phosphorylation**, and **energy metabolism**. It is a key downstream effector of [[notes/sirtuins/SIRT1]] in multiple tissues, mediating many of the metabolic benefits associated with [[notes/_link/Caloric Restriction]] and [[Resveratrol]] treatment.
+**PGC-1α** (PPAR-γ Co-activator 1α; gene name _PPARGC1A_) is a **master transcriptional coactivator** that acts as a central regulator of **mitochondrial biogenesis**, **oxidative phosphorylation**, and **energy metabolism**. It is a key downstream effector of [[SIRT1]] in multiple tissues, mediating many of the metabolic benefits associated with [[notes/_link/Caloric Restriction]] and [[Resveratrol]] treatment.
 
 ## Regulation by Sirtuins
 
-[[notes/sirtuins/SIRT1]] **deacetylates PGC-1α**, which activates its transcriptional co-activator function. This deacetylation is a critical node linking cellular NAD⁺ status (sensed by [[notes/sirtuins/SIRT1]]) to mitochondrial function:
+[[SIRT1]] **deacetylates PGC-1α**, which activates its transcriptional co-activator function. This deacetylation is a critical node linking cellular NAD⁺ status (sensed by [[SIRT1]]) to mitochondrial function:
 
 - **Hepatic glucose metabolism**: SIRT1-mediated PGC-1α deacetylation represses glycolysis and **increases hepatic glucose output** (gluconeogenesis).
 - **Mitochondrial biogenesis**: SIRT1→PGC-1α activation induces expression of **oxidative phosphorylation genes** and promotes overall mitochondrial number and function.
-- **Brown adipose tissue (BAT)**: [[notes/sirtuins/SIRT3]] promotes PGC-1α expression in BAT during cold exposure, contributing to thermogenesis.
+- **Brown adipose tissue (BAT)**: [[SIRT3]] promotes PGC-1α expression in BAT during cold exposure, contributing to thermogenesis.
 
 ## Metabolic Functions
 
@@ -80,13 +80,13 @@ Both landmark in vivo resveratrol studies confirmed PGC-1α activation:
 
 PGC-1α integrates [[notes/_link/Caloric Restriction]] signals:
 
-- CR increases [[NAD+]] → activates [[notes/sirtuins/SIRT1]] → deacetylates PGC-1α → triggers mitochondrial adaptation programme.
+- CR increases [[NAD+]] → activates [[SIRT1]] → deacetylates PGC-1α → triggers mitochondrial adaptation programme.
 - This axis is proposed to underlie CR-mediated metabolic improvements in mammals.
 
 ## Connections
 
-- [[notes/sirtuins/SIRT1]] — directly deacetylates and activates PGC-1α; primary regulatory relationship
-- [[notes/sirtuins/SIRT3]] — promotes PGC-1α expression in brown adipose tissue
+- [[SIRT1]] — directly deacetylates and activates PGC-1α; primary regulatory relationship
+- [[SIRT3]] — promotes PGC-1α expression in brown adipose tissue
 - [[Resveratrol]] — activates PGC-1α via SIRT1 stimulation _in vivo_
 - [[notes/_link/Caloric Restriction]] — CR activates PGC-1α via the SIRT1 axis
 - [[NAD+]] — elevated NAD⁺ → SIRT1 activation → PGC-1α deacetylation
@@ -95,6 +95,6 @@ PGC-1α integrates [[notes/_link/Caloric Restriction]] signals:
 
 ## Linking Summary
 
-- New links added: [[notes/sirtuins/SIRT1]], [[notes/sirtuins/SIRT3]], [[Resveratrol]], [[notes/_link/Caloric Restriction]], [[NAD+]], [[Mitochondrial Biogenesis]]
+- New links added: [[SIRT1]], [[SIRT3]], [[Resveratrol]], [[notes/_link/Caloric Restriction]], [[NAD+]], [[Mitochondrial Biogenesis]]
 - Suggested new entity notes to create: [[Mitochondrial Biogenesis]], [[MPTP]], [[Oxidative Phosphorylation]]
-- Strong connections to strengthen: [[PGC-1α]] ↔ [[notes/sirtuins/SIRT1]], [[PGC-1α]] ↔ [[notes/_link/Caloric Restriction]], [[PGC-1α]] ↔ [[Neurodegeneration]]
+- Strong connections to strengthen: [[PGC-1α]] ↔ [[SIRT1]], [[PGC-1α]] ↔ [[notes/_link/Caloric Restriction]], [[PGC-1α]] ↔ [[Neurodegeneration]]
