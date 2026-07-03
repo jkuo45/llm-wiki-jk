@@ -7,7 +7,7 @@ Geroscience focuses on a set of interconnected biological drivers that character
 *   **[[Epigenetic Alterations]]**: Changes in [[DNA Methylation]] and [[Histone Modification]].
 *   **[[Genomic Instability]]**: The accumulation of DNA damage.
 *   **[[Cellular Senescence]]**: The accumulation of "zombie" cells that promote inflammation.
-*   **Loss of Proteostasis**: The failure of cellular "quality control" for proteins (often involving [[notes/_link/Autophagy]]).
+*   **Loss of Proteostasis**: The failure of cellular "quality control" for proteins (often involving [[Autophagy]]).
 
 ### 2. Therapeutic Interventions (Geroprotectors)
 Geroscience researchers are investigating various "geroprotective" strategies to extend human healthspan:
@@ -25,6 +25,6 @@ The field relies heavily on accurate [[Biomarkers]] to measure the effectiveness
 - **[[notes/_link/Caloric Restriction]]**: The most widely studied intervention in the field.
 
 ### Linking Summary:
-- New links added: [[Geroscience]], [[notes/_link/Aging]], [[DNA Methylation]], [[Histone Modification]], [[Genomic Instability]], [[Cellular Senescence]], [[notes/_link/Autophagy]], [[notes/_link/Metformin]], [[notes/_link/Resveratrol]], [[notes/_link/Spermidine]], [[notes/_link/Caloric Restriction]], [[Senolytics]], [[Biomarkers]], [[Epigenetic Clock]], [[DNAmGrimAge]]
+- New links added: [[Geroscience]], [[notes/_link/Aging]], [[DNA Methylation]], [[Histone Modification]], [[Genomic Instability]], [[Cellular Senescence]], [[Autophagy]], [[notes/_link/Metformin]], [[notes/_link/Resveratrol]], [[notes/_link/Spermidine]], [[notes/_link/Caloric Restriction]], [[Senolytics]], [[Biomarkers]], [[Epigenetic Clock]], [[DNAmGrimAge]]
 - Suggested new entity notes to create: [[Healthspan]], [[Geroprotectors]], [[Hallmarks of Aging]]
 - Strong connections to strengthen: [[Geroscience]] ↔ [[notes/_link/Aging]], [[Geroscience]] ↔ [[Senolytics]]

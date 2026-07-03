@@ -5,7 +5,7 @@
 ### 1. The PI3K/Akt/[[notes/_link/mTOR]] Pathway
 PTEN's primary function is to antagonize the PI3K/Akt/mTOR signaling pathway. By doing so, it:
 *   **Inhibits Growth**: Prevents excessive cell proliferation.
-*   **Promotes [[notes/_link/Autophagy]]**: By inhibiting mTOR, PTEN allows the cell to perform essential "cleanup" processes.
+*   **Promotes [[Autophagy]]**: By inhibiting mTOR, PTEN allows the cell to perform essential "cleanup" processes.
 
 ### 2. Role in [[notes/_link/Aging]] and Senescence
 The activity and expression of PTEN are critical for a healthy lifespan:
@@ -22,7 +22,7 @@ Mice with an extra copy of the PTEN gene ("Super-PTEN" mice) are more resistant 
 - **[[notes/_link/MAPK]]**: PTEN can also cross-talk with the MAPK pathway to regulate cell survival.
 
 ### Linking Summary:
-- New links added: [[PTEN]], [[notes/_link/mTOR]], [[notes/_link/Autophagy]], [[notes/_link/Aging]], [[notes/_link/Cancer]], [[Cellular Senescence]], [[notes/_link/MAPK]]
+- New links added: [[PTEN]], [[notes/_link/mTOR]], [[Autophagy]], [[notes/_link/Aging]], [[notes/_link/Cancer]], [[Cellular Senescence]], [[notes/_link/MAPK]]
 - Suggested new entity notes to create: [[Tumor Suppressor]], [[PI3K Pathway]], [[Akt Kinase]]
 - Strong connections to strengthen: [[PTEN]] ↔ [[notes/_link/mTOR]], [[PTEN]] ↔ [[notes/_link/Aging]]
 

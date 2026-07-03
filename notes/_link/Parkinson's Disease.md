@@ -31,7 +31,7 @@ In terms of cell replacement therapy, iPSC-derived dopaminergic progenitors have
 - Suggested new entity notes to create: [[Dopamine Agonists]], [[Resting Tremor]].
 - Strong connections to strengthen: [[notes/_link/Parkinson's Disease]] ↔ [[notes/_link/Substantia Nigra]].
 
-- New links added: [[Mitophagy]], [[notes/_link/Autophagy]], [[Autophagic Flux]], [[Intermittent Fasting]], [[Ketogenic Diet]]
+- New links added: [[Mitophagy]], [[Autophagy]], [[Autophagic Flux]], [[Intermittent Fasting]], [[Ketogenic Diet]]
 - Suggested new entity notes to create: [[Mitophagy]], [[Autophagic Flux]], [[Intermittent Fasting]], [[Ketogenic Diet]]
 - Strong connections to strengthen: [[notes/_link/Parkinson's Disease]] ↔ [[Neurodegenerative Disease]], [[notes/_link/Parkinson's Disease]] ↔ [[Mitophagy]]
 
@@ -57,7 +57,7 @@ While there is currently no cure, treatments focus on managing symptoms, primari
 
 ## Pathogenesis
 - Characterized by the loss of dopaminergic neurons in the substantia nigra and the accumulation of alpha-synuclein aggregates (Lewy bodies).
-- Mitochondrial dysfunction and impaired [[Mitophagy]] (selective [[notes/_link/Autophagy]] of mitochondria) are key features.
+- Mitochondrial dysfunction and impaired [[Mitophagy]] (selective [[Autophagy]] of mitochondria) are key features.
 
 
 ## Autophagy Modulation
@@ -85,7 +85,7 @@ In the management of [[notes/_link/Parkinson's Disease]], [[COMT Inhibitors]] ar
 ---
 
 ### Linking Summary:
-- New links added: [[notes/_link/Aging]], [[Alpha-Synuclein]], [[Autophagic Flux]], [[notes/_link/Autophagy]], [[Bradykinesia]], [[COMT Inhibitors]], [[Disease Modeling]], [[notes/_link/Dopamine]], [[Induced Pluripotent Stem Cells]], [[Intermittent Fasting]], [[Ketogenic Diet]], [[L-DOPA]], [[Levodopa]], [[Lewy Bodies]], [[Mitophagy]], [[notes/_link/Neurodegenerative Diseases]], [[notes/_link/Neuromelanin]], [[Pathogenic Threshold of Neuromelanin]], [[Regenerative Medicine]], [[Substantia Nigra Pars Compacta]]
+- New links added: [[notes/_link/Aging]], [[Alpha-Synuclein]], [[Autophagic Flux]], [[Autophagy]], [[Bradykinesia]], [[COMT Inhibitors]], [[Disease Modeling]], [[notes/_link/Dopamine]], [[Induced Pluripotent Stem Cells]], [[Intermittent Fasting]], [[Ketogenic Diet]], [[L-DOPA]], [[Levodopa]], [[Lewy Bodies]], [[Mitophagy]], [[notes/_link/Neurodegenerative Diseases]], [[notes/_link/Neuromelanin]], [[Pathogenic Threshold of Neuromelanin]], [[Regenerative Medicine]], [[Substantia Nigra Pars Compacta]]
 - Suggested new entity notes to create: [[Autophagic Flux]], [[Dopamine Agonists]], [[notes/_link/Dopaminergic Neurons]], [[Dyskinesia]], [[Intermittent Fasting]], [[Ketogenic Diet]], [[Mitophagy]], [[Resting Tremor]], [[notes/_link/Substantia Nigra]]
 - Strong connections to strengthen: [[notes/_link/Parkinson's Disease]] <-> [[Induced Pluripotent Stem Cells]], [[notes/_link/Parkinson's Disease]] ↔ [[Mitophagy]], [[notes/_link/Parkinson's Disease]] ↔ [[Neurodegenerative Disease]], [[notes/_link/Parkinson's Disease]] ↔ [[notes/_link/Substantia Nigra]].
 

@@ -3,7 +3,7 @@
 The relationship between **aging** and [[Epigenetics]] is a central focus of modern [[Geroscience]]. Epigenetics refers to chemical modifications to DNA and its associated proteins that regulate gene expression without changing the underlying genetic sequence. As organisms age, these modifications undergo predictable and stochastic changes, collectively known as **epigenetic aging**.
 
 
-Aging is the time-dependent decline in physiological function and cellular integrity, often characterized by the accumulation of cellular damage and the impairment of protective mechanisms like [[notes/_link/Autophagy]].
+Aging is the time-dependent decline in physiological function and cellular integrity, often characterized by the accumulation of cellular damage and the impairment of protective mechanisms like [[Autophagy]].
 
 
 ## 1. Core Mechanisms of Epigenetic Aging
@@ -43,7 +43,7 @@ Epigenetic dysregulation is considered one of the **hallmarks of aging**. It act
 - Suggested new entity notes to create: [[Yamanaka Factors]], [[Epigenetic Drift]], [[Epigenetic Rejuvenation]]
 - Strong connections to strengthen: [[notes/_link/Aging]] ↔ [[DNA Methylation]], [[notes/_link/Aging]] ↔ [[Epigenetic Clock]]
 
-- New links added: [[notes/_link/Autophagy]]
+- New links added: [[Autophagy]]
 - Suggested new entity notes to create: [[notes/_link/Senescence]], [[notes/_link/Inflammaging]]
 - Strong connections to strengthen: [[notes/_link/Aging]] ↔ [[Mitochondrial Dysfunction]]
 
@@ -54,6 +54,6 @@ Epigenetic dysregulation is considered one of the **hallmarks of aging**. It act
 
 
 ### Linking Summary:
-- New links added: [[notes/_link/Autophagy]], [[notes/_link/Caloric Restriction]], [[notes/_link/Cancer]], [[notes/_link/Cardiovascular Disease]], [[Cellular Senescence]], [[Chromatin]], [[DNA Methylation]], [[Epigenetic Clock]], [[Epigenetics]], [[Epigenome]], [[Euchromatin]], [[Genomic Instability]], [[Geroscience]], [[HDAC]], [[Heterochromatin]], [[Histone Modification]], [[Metabolic Syndromes]], [[MicroRNA]], [[notes/_link/Neurodegenerative Diseases]], [[Non-coding RNA]], [[Senolytics]]
+- New links added: [[Autophagy]], [[notes/_link/Caloric Restriction]], [[notes/_link/Cancer]], [[notes/_link/Cardiovascular Disease]], [[Cellular Senescence]], [[Chromatin]], [[DNA Methylation]], [[Epigenetic Clock]], [[Epigenetics]], [[Epigenome]], [[Euchromatin]], [[Genomic Instability]], [[Geroscience]], [[HDAC]], [[Heterochromatin]], [[Histone Modification]], [[Metabolic Syndromes]], [[MicroRNA]], [[notes/_link/Neurodegenerative Diseases]], [[Non-coding RNA]], [[Senolytics]]
 - Suggested new entity notes to create: [[Epigenetic Drift]], [[Epigenetic Rejuvenation]], [[notes/_link/Inflammaging]], [[notes/_link/Senescence]], [[Yamanaka Factors]]
 - Strong connections to strengthen: [[notes/_link/Aging]] ↔ [[DNA Methylation]], [[notes/_link/Aging]] ↔ [[Epigenetic Clock]], [[notes/_link/Aging]] ↔ [[Mitochondrial Dysfunction]]

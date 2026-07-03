@@ -1,11 +1,11 @@
 # TFEB
 
-[[TFEB]] (Transcription Factor EB) is a master regulator of the autophagy-lysosome pathway. It coordinates the expression of genes involved in lysosomal biogenesis, [[notes/_link/Autophagy]], and lysosomal exocytosis. Overexpression of TFEB has been shown to promote the clearance of [[notes/_link/Neuromelanin]] and protect against neurodegeneration in models of [[notes/_link/Parkinson's Disease]].
+[[TFEB]] (Transcription Factor EB) is a master regulator of the autophagy-lysosome pathway. It coordinates the expression of genes involved in lysosomal biogenesis, [[Autophagy]], and lysosomal exocytosis. Overexpression of TFEB has been shown to promote the clearance of [[notes/_link/Neuromelanin]] and protect against neurodegeneration in models of [[notes/_link/Parkinson's Disease]].
 
 ### Linking Summary:
-- New links added: [[notes/_link/Autophagy]], [[notes/_link/Neuromelanin]], [[notes/_link/Parkinson's Disease]], [[Proteostasis]].
+- New links added: [[Autophagy]], [[notes/_link/Neuromelanin]], [[notes/_link/Parkinson's Disease]], [[Proteostasis]].
 - Suggested new entity notes to create: [[Lysosomal Biogenesis]], [[Lysosomal Exocytosis]].
-- Strong connections to strengthen: [[TFEB]] ↔ [[notes/_link/Autophagy]].
+- Strong connections to strengthen: [[TFEB]] ↔ [[Autophagy]].
 
 
 ---
@@ -14,7 +14,7 @@
 
 # TFEB
 
-**TFEB** (Transcription Factor EB) is a master regulator of [[notes/_link/Autophagy]] and [[Lysosome]] biogenesis. It coordinates the expression of the lysosomal and autophagic genome by binding to [[CLEAR Element]]s.
+**TFEB** (Transcription Factor EB) is a master regulator of [[Autophagy]] and [[Lysosome]] biogenesis. It coordinates the expression of the lysosomal and autophagic genome by binding to [[CLEAR Element]]s.
 
 ## Regulation of Lysosome Biogenesis
 - Along with [[TFE3]], TFEB activates genes involved in lysosome biogenesis and [[Autophagosome]] maturation.
@@ -29,6 +29,6 @@
 - TFEB translation is a key step in reversing [[B Cell]] [[notes/_link/Senescence]] in an autophagy-dependent manner.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Autophagy]], [[Lysosome]], [[CLEAR Element]], [[TFE3]], [[Autophagosome]], [[mTORC1]], [[calcineurin]], [[eIF5A]], [[notes/_link/Spermidine]], [[B Cell]], [[notes/_link/Senescence]]
+- New links added: [[Autophagy]], [[Lysosome]], [[CLEAR Element]], [[TFE3]], [[Autophagosome]], [[mTORC1]], [[calcineurin]], [[eIF5A]], [[notes/_link/Spermidine]], [[B Cell]], [[notes/_link/Senescence]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[TFEB]] ↔ [[TFE3]], [[TFEB]] ↔ [[CLEAR Element]]

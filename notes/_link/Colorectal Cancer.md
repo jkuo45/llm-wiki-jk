@@ -23,11 +23,11 @@ Colorectal cancer (CRC) is a common malignant tumor affecting the colon or rectu
 
 ## Impact of Dietary Restriction
 - [[notes/_link/Caloric Restriction]] (e.g., 70% of normal food intake) can suppress colorectal tumor growth.
-- This effect is often mediated by the induction of [[notes/_link/Autophagy]] and the reduction of macrophage M2 polarization within the tumor microenvironment.
+- This effect is often mediated by the induction of [[Autophagy]] and the reduction of macrophage M2 polarization within the tumor microenvironment.
 
 
 ## Linking Summary:
-- New links added: [[notes/_link/Cancer]], [[Atg4B]], [[notes/_link/Caloric Restriction]], [[notes/_link/Autophagy]]
+- New links added: [[notes/_link/Cancer]], [[Atg4B]], [[notes/_link/Caloric Restriction]], [[Autophagy]]
 - Suggested new entity notes to create: [[Atg4B]], [[notes/_link/Caloric Restriction]]
 - Strong connections to strengthen: [[notes/_link/Colorectal Cancer]] ↔ [[notes/_link/Cancer]], [[notes/_link/Colorectal Cancer]] ↔ [[Atg4B]]
 
@@ -39,6 +39,6 @@ Colorectal cancer (CRC) is a common malignant tumor affecting the colon or rectu
 
 
 ### Linking Summary:
-- New links added: [[Atg4B]], [[notes/_link/Autophagy]], [[notes/_link/Caloric Restriction]], [[notes/_link/Cancer]]
+- New links added: [[Atg4B]], [[Autophagy]], [[notes/_link/Caloric Restriction]], [[notes/_link/Cancer]]
 - Suggested new entity notes to create: [[Atg4B]], [[notes/_link/Caloric Restriction]]
 - Strong connections to strengthen: [[notes/_link/Colorectal Cancer]] ↔ [[Atg4B]], [[notes/_link/Colorectal Cancer]] ↔ [[notes/_link/Cancer]]

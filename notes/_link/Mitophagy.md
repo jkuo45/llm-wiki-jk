@@ -17,4 +17,4 @@ Mitophagy can be modulated by various factors, including energy status (via [[no
 ### Linking Summary:
 - New links added: [[Selective Autophagy]], [[notes/_link/Mitochondria]], [[Autophagosome]], [[Lysosome]], [[notes/_link/Reactive Oxygen Species]], [[notes/_link/Inflammaging]], [[Immune Aging]], [[notes/_link/AMPK]], [[Autophagy Inducer]]
 - Suggested new entity notes to create:
-- Strong connections to strengthen: [[Mitophagy]] ↔ [[notes/_link/Autophagy]], [[Mitophagy]] ↔ [[notes/_link/Mitochondria]]
+- Strong connections to strengthen: [[Mitophagy]] ↔ [[Autophagy]], [[Mitophagy]] ↔ [[notes/_link/Mitochondria]]

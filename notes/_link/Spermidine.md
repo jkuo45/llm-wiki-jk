@@ -6,8 +6,8 @@
 Spermidine is a natural [[Polyamine]] and potent [[Autophagy Inducer]] that promotes [[Longevity]] and cardiovascular health by inhibiting the acetyltransferase p300.
 
 
-## 1. Induction of [[notes/_link/Autophagy]]
-The primary mechanism by which spermidine promotes longevity is through the induction of **[[notes/_link/Autophagy]]**. Autophagy is the cell's internal recycling system that breaks down and removes damaged proteins and organelles.
+## 1. Induction of [[Autophagy]]
+The primary mechanism by which spermidine promotes longevity is through the induction of **[[Autophagy]]**. Autophagy is the cell's internal recycling system that breaks down and removes damaged proteins and organelles.
 *   **Deacetylation**: Spermidine promotes autophagy by inhibiting [[Histone Acetyltransferase|HATs]], leading to the deacetylation of key autophagy-related proteins.
 *   **Cellular Cleanup**: By maintaining high levels of autophagy, spermidine helps prevent the accumulation of toxic cellular "garbage" that drives [[notes/_link/Aging]].
 
@@ -27,25 +27,25 @@ In the [[Glyco-Oxidative Proteostasis Shield]] strategy, Spermidine facilitates 
 
 ## Linking Summary:
 
-- New links added: [[notes/_link/Spermidine]], [[notes/_link/Autophagy]], [[Histone Acetyltransferase]], [[notes/_link/Aging]], [[notes/_link/Neurodegenerative Diseases]], [[Geroscience]], [[notes/_link/Resveratrol]]
+- New links added: [[notes/_link/Spermidine]], [[Autophagy]], [[Histone Acetyltransferase]], [[notes/_link/Aging]], [[notes/_link/Neurodegenerative Diseases]], [[Geroscience]], [[notes/_link/Resveratrol]]
 - Suggested new entity notes to create: [[Polyamines]], [[Mitophagy]], [[Wheat Germ]]
-- Strong connections to strengthen: [[notes/_link/Spermidine]] ↔ [[notes/_link/Autophagy]], [[notes/_link/Spermidine]] ↔ [[notes/_link/Aging]]
+- Strong connections to strengthen: [[notes/_link/Spermidine]] ↔ [[Autophagy]], [[notes/_link/Spermidine]] ↔ [[notes/_link/Aging]]
 
 - New links added: [[Polyamine]], [[Autophagy Inducer]], [[Longevity]]
 - Suggested new entity notes to create: [[eIF5A]], [[notes/sirtuins/SIRT1]]
 - Strong connections to strengthen: [[notes/_link/Spermidine]] ↔ [[Immune Aging]]
 
 ## Connections
-- **[[notes/_link/Autophagy]]**: The primary cellular process induced by spermidine.
+- **[[Autophagy]]**: The primary cellular process induced by spermidine.
 - **[[notes/_link/Aging]]**: Spermidine levels are a determinant of healthy aging.
 - **[[Geroscience]]**: A major natural compound of interest for extending healthspan.
 - **[[notes/_link/Resveratrol]]**: Another natural compound that interacts with longevity pathways (SIRT1).
 
 
 ### Linking Summary:
-- New links added: [[notes/_link/Aging]], [[notes/_link/Autophagy]], [[Autophagy Inducer]], [[Geroscience]], [[Histone Acetyltransferase]], [[Longevity]], [[notes/_link/Neurodegenerative Diseases]], [[Polyamine]], [[notes/_link/Resveratrol]], [[notes/_link/Spermidine]]
+- New links added: [[notes/_link/Aging]], [[Autophagy]], [[Autophagy Inducer]], [[Geroscience]], [[Histone Acetyltransferase]], [[Longevity]], [[notes/_link/Neurodegenerative Diseases]], [[Polyamine]], [[notes/_link/Resveratrol]], [[notes/_link/Spermidine]]
 - Suggested new entity notes to create: [[Mitophagy]], [[Polyamines]], [[notes/sirtuins/SIRT1]], [[Wheat Germ]], [[eIF5A]]
-- Strong connections to strengthen: [[notes/_link/Spermidine]] ↔ [[notes/_link/Aging]], [[notes/_link/Spermidine]] ↔ [[notes/_link/Autophagy]], [[notes/_link/Spermidine]] ↔ [[Immune Aging]]
+- Strong connections to strengthen: [[notes/_link/Spermidine]] ↔ [[notes/_link/Aging]], [[notes/_link/Spermidine]] ↔ [[Autophagy]], [[notes/_link/Spermidine]] ↔ [[Immune Aging]]
 
 
 ---

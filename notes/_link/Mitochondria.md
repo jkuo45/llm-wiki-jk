@@ -25,7 +25,7 @@ Mitochondria possess their own defense systems, including:
 - Strong connections to strengthen: [[notes/_link/Mitochondria]] ↔ [[notes/_link/Oxidative Stress]]
 
 - New links added: [[Mitophagy]]
-- Suggested new entity notes to create: [[notes/_link/Autophagy]], [[notes/_link/Reactive Oxygen Species]]
+- Suggested new entity notes to create: [[Autophagy]], [[notes/_link/Reactive Oxygen Species]]
 - Strong connections to strengthen: [[notes/_link/Mitochondria]] ↔ [[Metabolism]]
 
 ## Connections
@@ -36,5 +36,5 @@ Mitochondria possess their own defense systems, including:
 
 ### Linking Summary:
 - New links added: [[notes/_link/Apoptosis]], [[notes/_link/Glutathione]], [[Mitophagy]], [[Superoxide Radicals]], [[notes/_link/Oxidative Stress]], [[notes/_link/Reactive Oxygen Species]]
-- Suggested new entity notes to create: [[notes/_link/Autophagy]], [[Complex I]], [[Complex III]], [[Electron Transport Chain]], [[Mitochondrial DNA]], [[notes/_link/Reactive Oxygen Species]]
+- Suggested new entity notes to create: [[Autophagy]], [[Complex I]], [[Complex III]], [[Electron Transport Chain]], [[Mitochondrial DNA]], [[notes/_link/Reactive Oxygen Species]]
 - Strong connections to strengthen: [[notes/_link/Mitochondria]] ↔ [[Metabolism]], [[notes/_link/Mitochondria]] ↔ [[notes/_link/Oxidative Stress]]

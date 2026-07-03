@@ -21,7 +21,7 @@ This directory contains notes and research regarding [[notes/_link/Neuromelanin]
 | [[Apoptosis]]                                | 11_Jun_2026 04:00 PM | Biological Process      |
 | [[Aromatic L-amino acid decarboxylase]]      | 11_Jun_2026 04:00 PM | Enzyme                  |
 | [[Ascorbic acid]]                            | 11_Jun_2026 04:00 PM | Chemical Compound       |
-| [[notes/_link/Autophagy]]                    | 27_May_2026 09:48 AM | Biological Process      |
+| [[Autophagy]]                    | 27_May_2026 09:48 AM | Biological Process      |
 | [[Benzothiazine]]                            | 11_Jun_2026 04:00 PM | Chemical Class          |
 | [[Bradykinesia]]                             | 31_May_2026 02:45 PM | Symptom                 |
 | [[Catecholamines]]                           | 31_May_2026 03:00 PM | Chemical Class          |

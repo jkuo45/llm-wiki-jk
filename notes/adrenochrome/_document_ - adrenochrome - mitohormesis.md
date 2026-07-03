@@ -67,7 +67,7 @@ I'm now detailing how [[Methylene blue|methylene blue]] acts as an alternative e
 
 **Assessing Competing Pathways**
 
-I'm now comparing [[Methylene blue|Methylene Blue]]'s electron-shunting efficiency against [[Carbazochrome|carbazochrome]]'s controlled [[Superoxide anion|superoxide]] production in Complex I. I'm focusing on the redox capabilities of the modified [[Carbazochrome|carbazochrome]], especially in comparison to [[Adrenochrome]]. I'll need to empirically validate its pro-oxidant potential. Also, I'm examining any systemic hemostatic risks, to ensure sub-micromolar levels are safe. Lastly, I'll flag conflicting reports suggesting [[Carbazochrome sulfonic acid|carbazochrome]] can inhibit [[notes/_link/Autophagy|autophagy]].
+I'm now comparing [[Methylene blue|Methylene Blue]]'s electron-shunting efficiency against [[Carbazochrome|carbazochrome]]'s controlled [[Superoxide anion|superoxide]] production in Complex I. I'm focusing on the redox capabilities of the modified [[Carbazochrome|carbazochrome]], especially in comparison to [[Adrenochrome]]. I'll need to empirically validate its pro-oxidant potential. Also, I'm examining any systemic hemostatic risks, to ensure sub-micromolar levels are safe. Lastly, I'll flag conflicting reports suggesting [[Carbazochrome sulfonic acid|carbazochrome]] can inhibit [[Autophagy|autophagy]].
 
 This therapeutic concept—the
 
@@ -155,7 +155,7 @@ An analysis of the biochemical mechanisms, potential synergies, critical scienti
 #### 1.4. Cleanup: [[Urolithin A]] (The Quality Control)
 
 - **The Science:**
-	[[notes/_link/Autophagy|Autophagy]] and selective [[notes/_link/Mitophagy|mitophagy]] are essential for clearing dysfunctional mitochondria that fail to recover from stress.
+	[[Autophagy|Autophagy]] and selective [[notes/_link/Mitophagy|mitophagy]] are essential for clearing dysfunctional mitochondria that fail to recover from stress.
 - **The MRR Synergy:**
 	Even with a controlled hormetic pulse, some compromised mitochondria will undergo irreversible depolarization.**
 	[[Urolithin A]]
@@ -183,11 +183,11 @@ While conceptually robust, several scientific challenges and biological nuances 
 - **Competition for Complex I and [[notes/_link/NAD+|NADH]]**
 	- The Issue:
 		Both [[Methylene blue|Methylene Blue]] and [[Carbazochrome|carbazochrome]] (or its metabolites) rely on the reducing equivalents of the mitochondrial matrix (specifically [[notes/_link/NAD+|NADH]]) to undergo reduction. If [[Methylene blue|Methylene Blue]] is highly efficient at shunting electrons from [[notes/_link/NAD+|NADH]] to cytochrome c, it might outcompete [[Carbazochrome|carbazochrome]] for electron transfer at Complex I. If this occurs, MB could inadvertently suppress the [[Carbazochrome|carbazochrome]]-mediated [[Superoxide anion|superoxide]] signaling pulse, blunting the mitohormetic response.
-- **Potential [[notes/_link/Autophagy|Autophagy]]/[[notes/_link/Mitophagy|Mitophagy]] Interference**
+- **Potential [[Autophagy|Autophagy]]/[[notes/_link/Mitophagy|Mitophagy]] Interference**
 	- The Issue:
 		While [[Urolithin A]] is a verified inducer of [[notes/_link/Mitophagy|mitophagy]], some pharmacological screening data has flagged [[Carbazochrome sulfonic acid|carbazochrome sulfonic acid]] (a highly soluble derivative of [[Carbazochrome|carbazochrome]]) as an
 		inhibitor
-		of [[notes/_link/Autophagy|autophagy]] in certain cellular contexts\[[
+		of [[Autophagy|autophagy]] in certain cellular contexts\[[
 		9
 		](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQE79I0lTIkuvX3ZDE4O5a_fu6HDgFjvvMQhrXPMqzNByh0lTmoXvLLEqQ8h5pEMH07wutsQ6pKdiTX6kDvLlYznBzSM5uuHvgBaPfpYIjcN7I1Yyr2zlFDnjz__wQSZlY5eaGm5LsljdCw%3D)\]. If [[Carbazochrome|carbazochrome]] exhibits downstream inhibitory effects on autophagic flux, it could directly counteract the clearing action of [[Urolithin A]], leading to an accumulation of damaged mitochondria rather than their clearance.
 - **Systemic Hemostatic and Vasoconstrictive Signaling**
@@ -250,6 +250,6 @@ Sources
 Display of Search Suggestions is required when using Grounding with Google Search. [Learn more](https://ai.google.dev/gemini-api/docs/grounding/search-suggestions)
 
 ### Linking Summary:
-- New links added: [[Mitohormetic Redox-Relay]], [[notes/_link/Mitochondrial Dysfunction|Mitochondrial Dysfunction]], [[Carbazochrome]], [[Adrenochrome]], [[Methylene blue]], [[Nicotinamide Riboside]], [[Nicotinamide Mononucleotide]], [[notes/_link/NAD+|NAD+]], [[Urolithin A]], [[notes/_link/Mitophagy|Mitophagy]], [[Redox Cycling]], [[Superoxide anion]], [[Nrf2]], [[Antioxidant Response Element]], [[PGC1α]], [[notes/sirtuins/SIRT1|SIRT1]], [[notes/_link/AMPK|AMPK]], [[notes/sirtuins/SIRT3]], [[Oxygen Consumption Rate]], [[Extracellular Acidification Rate]], [[Seahorse XF Analyzer]], [[HO-1]], [[NQO1]], [[Carbazochrome sulfonic acid]], [[notes/_link/Autophagy|Autophagy]], [[Mitochondrial biogenesis]]
+- New links added: [[Mitohormetic Redox-Relay]], [[notes/_link/Mitochondrial Dysfunction|Mitochondrial Dysfunction]], [[Carbazochrome]], [[Adrenochrome]], [[Methylene blue]], [[Nicotinamide Riboside]], [[Nicotinamide Mononucleotide]], [[notes/_link/NAD+|NAD+]], [[Urolithin A]], [[notes/_link/Mitophagy|Mitophagy]], [[Redox Cycling]], [[Superoxide anion]], [[Nrf2]], [[Antioxidant Response Element]], [[PGC1α]], [[notes/sirtuins/SIRT1|SIRT1]], [[notes/_link/AMPK|AMPK]], [[notes/sirtuins/SIRT3]], [[Oxygen Consumption Rate]], [[Extracellular Acidification Rate]], [[Seahorse XF Analyzer]], [[HO-1]], [[NQO1]], [[Carbazochrome sulfonic acid]], [[Autophagy|Autophagy]], [[Mitochondrial biogenesis]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Mitohormetic Redox-Relay]] ↔ [[Mitochondrial Dysfunction]]

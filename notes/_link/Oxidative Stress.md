@@ -39,7 +39,7 @@ Plays a pivotal role in neuron loss.
 ## Related Entities
 - **Molecules:** [[notes/_link/Reactive Oxygen Species]] (ROS), [[Superoxide]], [[notes/_link/Hydrogen Peroxide]], [[Hydroxyl radical]], [[notes/_link/Glutathione]], [[Free Radicals]]
 - **Antioxidants:** [[notes/_link/Superoxide Dismutase]], [[Catalase]], [[Glutathione Peroxidase]]
-- **Processes:** [[notes/_link/Apoptosis]], [[notes/_link/Autophagy]], [[Metabolic Reprogramming]], [[Redox Cycling]]
+- **Processes:** [[notes/_link/Apoptosis]], [[Autophagy]], [[Metabolic Reprogramming]], [[Redox Cycling]]
 - **Diseases:** [[notes/_link/Atherosclerosis]], [[notes/_link/Cancer]], [[notes/_link/Alzheimer's Disease]], [[notes/_link/Parkinson's Disease]], [[Methemoglobinemia]], [[Anaphylaxis]], [[notes/_link/Schizophrenia]]
 - **Drugs:** [[Fenbendazole]], [[cisplatin]], [[doxorubicin]]
 

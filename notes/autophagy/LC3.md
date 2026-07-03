@@ -1,6 +1,6 @@
 # LC3
 
-**LC3** (Microtubule-associated protein 1 Light Chain 3) is a mammalian ortholog of the yeast [[Atg8]] protein and a central marker for [[notes/_link/Autophagy]].
+**LC3** (Microtubule-associated protein 1 Light Chain 3) is a mammalian ortholog of the yeast [[Atg8]] protein and a central marker for [[Autophagy]].
 
 ## Processing and Lipidation
 - **LC3-I**: The cytosolic form of LC3.
@@ -15,6 +15,6 @@
 - The detection of LC3-II levels and the visualization of "LC3 puncta" (representing autophagosomes) are standard methods for monitoring [[Autophagic Flux]].
 
 ### Linking Summary:
-- New links added: [[Atg8]], [[notes/_link/Autophagy]], [[Autophagosome]], [[Atg7]], [[Atg3]], [[Atg12]], [[Atg5]], [[Atg16]], [[p62]], [[Autophagic Flux]]
+- New links added: [[Atg8]], [[Autophagy]], [[Autophagosome]], [[Atg7]], [[Atg3]], [[Atg12]], [[Atg5]], [[Atg16]], [[p62]], [[Autophagic Flux]]
 - Suggested new entity notes to create:
-- Strong connections to strengthen: [[LC3]] ↔ [[Autophagosome]], [[LC3]] ↔ [[notes/_link/Autophagy]]
+- Strong connections to strengthen: [[LC3]] ↔ [[Autophagosome]], [[LC3]] ↔ [[Autophagy]]

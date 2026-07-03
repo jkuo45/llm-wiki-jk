@@ -19,11 +19,11 @@
 
 
 ## Modulation
-- [[notes/_link/Metformin]] reverses the STAT3-mediated Th17 phenotype by enhancing [[notes/_link/Autophagy]] and mitochondrial bioenergetics.
+- [[notes/_link/Metformin]] reverses the STAT3-mediated Th17 phenotype by enhancing [[Autophagy]] and mitochondrial bioenergetics.
 
 
 ## Linking Summary:
-- New links added: [[T Cell]], [[notes/_link/Inflammaging]], [[notes/_link/Senescence]], [[notes/_link/Metformin]], [[notes/_link/Autophagy]]
+- New links added: [[T Cell]], [[notes/_link/Inflammaging]], [[notes/_link/Senescence]], [[notes/_link/Metformin]], [[Autophagy]]
 - Suggested new entity notes to create: [[notes/_link/Inflammaging]]
 - Strong connections to strengthen: [[notes/_link/STAT3]] ↔ [[notes/_link/Metformin]]
 
@@ -33,6 +33,6 @@
 - [[Ivermectin]]: Inhibits STAT3 activity via [[PAK1]].
 
 ### Linking Summary:
-- New links added: [[notes/_link/Autophagy]], [[notes/_link/Inflammaging]], [[notes/_link/Metformin]], [[notes/_link/Senescence]], [[T Cell]]
+- New links added: [[Autophagy]], [[notes/_link/Inflammaging]], [[notes/_link/Metformin]], [[notes/_link/Senescence]], [[T Cell]]
 - Suggested new entity notes to create: [[notes/_link/Inflammaging]]
 - Strong connections to strengthen: [[notes/_link/STAT3]] ↔ [[notes/_link/Metformin]]

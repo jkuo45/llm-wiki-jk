@@ -9,7 +9,7 @@ Metformin is a first-line medication for type 2 diabetes that also acts as a cal
 ## 1. Mechanisms of Action
 Metformin's effects are systemic and pleiotropic:
 *   **Activation of [[notes/_link/AMPK]]**: Metformin activates the AMPK pathway, which mimics the effects of [[notes/_link/Caloric Restriction]] by promoting energy efficiency and cellular repair.
-*   **Inhibition of [[notes/_link/mTOR]]**: By activating AMPK, metformin indirectly inhibits the mTOR pathway, leading to increased [[notes/_link/Autophagy]] and reduced cellular growth.
+*   **Inhibition of [[notes/_link/mTOR]]**: By activating AMPK, metformin indirectly inhibits the mTOR pathway, leading to increased [[Autophagy]] and reduced cellular growth.
 *   **Reduction of Inflammation**: Metformin has been shown to reduce the production of pro-inflammatory factors, including those associated with the [[SASP]].
 
 
@@ -24,7 +24,7 @@ The potential anti-aging effects of metformin are currently being tested in the 
 
 
 ## Linking Summary:
-- New links added: [[notes/_link/Metformin]], [[notes/_link/Diabetes Mellitus]], [[Geroscience]], [[notes/_link/AMPK]], [[notes/_link/Caloric Restriction]], [[notes/_link/mTOR]], [[notes/_link/Autophagy]], [[SASP]], [[Epigenome]], [[Epigenetic Clock]], [[DNAmGrimAge]], [[DNA Methylation]], [[DNMT1]], [[notes/_link/Aging]]
+- New links added: [[notes/_link/Metformin]], [[notes/_link/Diabetes Mellitus]], [[Geroscience]], [[notes/_link/AMPK]], [[notes/_link/Caloric Restriction]], [[notes/_link/mTOR]], [[Autophagy]], [[SASP]], [[Epigenome]], [[Epigenetic Clock]], [[DNAmGrimAge]], [[DNA Methylation]], [[DNMT1]], [[notes/_link/Aging]]
 - Suggested new entity notes to create: [[TAME Trial]], [[Geroprotectors]], [[Nir Barzilai]]
 - Strong connections to strengthen: [[notes/_link/Metformin]] ↔ [[notes/_link/Aging]], [[notes/_link/Metformin]] ↔ [[notes/_link/AMPK]]
 
@@ -40,6 +40,6 @@ The potential anti-aging effects of metformin are currently being tested in the 
 
 
 ### Linking Summary:
-- New links added: [[notes/_link/AMPK]], [[notes/_link/Aging]], [[notes/_link/Autophagy]], [[Autophagy Inducer]], [[notes/_link/Caloric Restriction]], [[DNA Methylation]], [[DNAmGrimAge]], [[DNMT1]], [[notes/_link/Diabetes Mellitus]], [[Epigenetic Clock]], [[Epigenome]], [[Geroscience]], [[notes/_link/Metformin]], [[SASP]], [[notes/_link/mTOR]]
+- New links added: [[notes/_link/AMPK]], [[notes/_link/Aging]], [[Autophagy]], [[Autophagy Inducer]], [[notes/_link/Caloric Restriction]], [[DNA Methylation]], [[DNAmGrimAge]], [[DNMT1]], [[notes/_link/Diabetes Mellitus]], [[Epigenetic Clock]], [[Epigenome]], [[Geroscience]], [[notes/_link/Metformin]], [[SASP]], [[notes/_link/mTOR]]
 - Suggested new entity notes to create: [[notes/_link/Aging]], [[Geroprotectors]], [[Nir Barzilai]], [[TAME Trial]]
 - Strong connections to strengthen: [[notes/_link/Metformin]] ↔ [[notes/_link/AMPK]], [[notes/_link/Metformin]] ↔ [[notes/_link/Aging]], [[notes/_link/Metformin]] ↔ [[Mitochondrial Complex I]]

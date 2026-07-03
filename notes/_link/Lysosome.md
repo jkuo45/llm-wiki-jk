@@ -17,6 +17,6 @@ The **Lysosome** is a membrane-bound organelle containing acidic hydrolases resp
 - Lysosomal dysfunction is a hallmark of [[notes/_link/Aging]] and various [[Metabolic Disease|metabolic]] and [[notes/_link/Neurodegenerative Diseases|neurodegenerative diseases]].
 
 ### Linking Summary:
-- New links added: [[notes/_link/Autophagy]], [[TFEB]], [[TFE3]], [[CLEAR Element]], [[V-ATPase]], [[Autophagic Lysosome Reformation]], [[Endocytic Lysosome Reformation]], [[Phagocytic Lysosome Reformation]], [[Macroautophagy]], [[Autophagosome]], [[Autolysosome]], [[Microautophagy]], [[Chaperone-Mediated Autophagy]], [[LAMP-2A]], [[Cellular Homeostasis]], [[notes/_link/Aging]], [[Metabolic Disease]], [[notes/_link/Neurodegenerative Diseases|Neurodegenerative Disease]]
+- New links added: [[Autophagy]], [[TFEB]], [[TFE3]], [[CLEAR Element]], [[V-ATPase]], [[Autophagic Lysosome Reformation]], [[Endocytic Lysosome Reformation]], [[Phagocytic Lysosome Reformation]], [[Macroautophagy]], [[Autophagosome]], [[Autolysosome]], [[Microautophagy]], [[Chaperone-Mediated Autophagy]], [[LAMP-2A]], [[Cellular Homeostasis]], [[notes/_link/Aging]], [[Metabolic Disease]], [[notes/_link/Neurodegenerative Diseases|Neurodegenerative Disease]]
 - Suggested new entity notes to create:
-- Strong connections to strengthen: [[Lysosome]] ↔ [[notes/_link/Autophagy]], [[Lysosome]] ↔ [[TFEB]]
+- Strong connections to strengthen: [[Lysosome]] ↔ [[Autophagy]], [[Lysosome]] ↔ [[TFEB]]

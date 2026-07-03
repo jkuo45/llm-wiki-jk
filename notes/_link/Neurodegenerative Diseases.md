@@ -18,7 +18,7 @@ Emerging research indicates that epigenetic alterations are a core feature of th
 
 ## 2. Links to Cellular Hallmarks
 *   **[[Genomic Instability]]**: Neurons are particularly vulnerable to DNA damage because they are long-lived and do not divide. Accumulation of damage contributes to neuronal death.
-*   **[[notes/_link/Autophagy]] Failure**: The failure to clear damaged proteins and organelles is a hallmark of neurodegeneration, often linked to the dysregulation of the [[notes/_link/mTOR]] and [[notes/_link/AMPK]] pathways.
+*   **[[Autophagy]] Failure**: The failure to clear damaged proteins and organelles is a hallmark of neurodegeneration, often linked to the dysregulation of the [[notes/_link/mTOR]] and [[notes/_link/AMPK]] pathways.
 
 
 ## 3. Therapeutic Potential
@@ -26,7 +26,7 @@ Because epigenetic changes are reversible, they offer a promising target for new
 
 
 ## Linking Summary:
-- New links added: [[notes/_link/Neurodegenerative Diseases]], [[notes/_link/Aging]], [[Epigenetics]], [[Histone Acetylation]], [[DNA Methylation]], [[Genomic Instability]], [[notes/_link/Autophagy]], [[notes/_link/mTOR]], [[notes/_link/AMPK]], [[HDAC]], [[notes/_link/Alzheimer's Disease]], [[notes/sirtuins/SIRT1]]
+- New links added: [[notes/_link/Neurodegenerative Diseases]], [[notes/_link/Aging]], [[Epigenetics]], [[Histone Acetylation]], [[DNA Methylation]], [[Genomic Instability]], [[Autophagy]], [[notes/_link/mTOR]], [[notes/_link/AMPK]], [[HDAC]], [[notes/_link/Alzheimer's Disease]], [[notes/sirtuins/SIRT1]]
 - Suggested new entity notes to create: [[Amyloid Beta]], [[Tau Protein]], [[Synaptic Plasticity]]
 - Strong connections to strengthen: [[notes/_link/Neurodegenerative Diseases]] ↔ [[notes/_link/Aging]], [[notes/_link/Neurodegenerative Diseases]] ↔ [[notes/_link/Alzheimer's Disease]]
 
@@ -48,6 +48,6 @@ Because epigenetic changes are reversible, they offer a promising target for new
 
 
 ### Linking Summary:
-- New links added: [[notes/_link/AMPK]], [[notes/_link/Aging]], [[notes/_link/Alzheimer's Disease]], [[notes/_link/Amyotrophic Lateral Sclerosis]], [[notes/_link/Autophagy]], [[DNA Methylation]], [[Epigenetics]], [[Genomic Instability]], [[HDAC]], [[Histone Acetylation]], [[Induced Pluripotent Stem Cells]], [[notes/_link/Neurodegenerative Diseases]], [[notes/_link/Parkinson's Disease]], [[notes/sirtuins/SIRT1]], [[Yamanaka Factors]], [[notes/_link/mTOR]]
+- New links added: [[notes/_link/AMPK]], [[notes/_link/Aging]], [[notes/_link/Alzheimer's Disease]], [[notes/_link/Amyotrophic Lateral Sclerosis]], [[Autophagy]], [[DNA Methylation]], [[Epigenetics]], [[Genomic Instability]], [[HDAC]], [[Histone Acetylation]], [[Induced Pluripotent Stem Cells]], [[notes/_link/Neurodegenerative Diseases]], [[notes/_link/Parkinson's Disease]], [[notes/sirtuins/SIRT1]], [[Yamanaka Factors]], [[notes/_link/mTOR]]
 - Suggested new entity notes to create: [[Amyloid Beta]], [[Synaptic Plasticity]], [[Tau Protein]]
 - Strong connections to strengthen: [[Induced Pluripotent Stem Cells]] ↔ [[notes/_link/Neurodegenerative Diseases]], [[notes/_link/Neurodegenerative Diseases]] ↔ [[notes/_link/Aging]], [[notes/_link/Neurodegenerative Diseases]] ↔ [[notes/_link/Alzheimer's Disease]]

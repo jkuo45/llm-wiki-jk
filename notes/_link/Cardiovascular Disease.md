@@ -45,15 +45,15 @@ The reversible nature of epigenetic modifications makes them attractive targets 
 - Suggested new entity notes to create: [[Endothelial Dysfunction]], [[Vascular Stiffening]], [[Cardiac Fibrosis]], [[notes/_link/Inflammaging]].
 - Strong connections to strengthen: [[notes/_link/Cardiovascular Disease]] ↔ [[notes/_link/Aging]], [[notes/_link/Cardiovascular Disease]] ↔ [[DNA Methylation]]
 
-- New links added: [[Autophagic Flux]], [[notes/_link/AMPK]], [[notes/_link/Autophagy]], [[Ventricular Remodeling]], [[Cardiomyocyte Toxicity]], [[Intermittent Fasting]], [[notes/_link/Caloric Restriction]], [[Ischemia-reperfusion Injury]], [[Myocardial Infarction]], [[Atg5]]
+- New links added: [[Autophagic Flux]], [[notes/_link/AMPK]], [[Autophagy]], [[Ventricular Remodeling]], [[Cardiomyocyte Toxicity]], [[Intermittent Fasting]], [[notes/_link/Caloric Restriction]], [[Ischemia-reperfusion Injury]], [[Myocardial Infarction]], [[Atg5]]
 - Suggested new entity notes to create: [[Autophagic Flux]], [[notes/_link/AMPK]], [[Ventricular Remodeling]], [[Cardiomyocyte Toxicity]], [[Intermittent Fasting]], [[notes/_link/Caloric Restriction]], [[Ischemia-reperfusion Injury]], [[Myocardial Infarction]]
-- Strong connections to strengthen: [[notes/_link/Cardiovascular Disease]] ↔ [[notes/_link/Autophagy]], [[notes/_link/Cardiovascular Disease]] ↔ [[Myocardial Infarction]]
+- Strong connections to strengthen: [[notes/_link/Cardiovascular Disease]] ↔ [[Autophagy]], [[notes/_link/Cardiovascular Disease]] ↔ [[Myocardial Infarction]]
 
 - New links added: [[notes/_link/COMT]], [[Val158Met]], [[SNP]], [[Aspirin]], [[Catecholamines]], [[notes/_link/Epinephrine]], [[notes/_link/Norepinephrine]].
 
 ## Role of Autophagy
 - [[Autophagic Flux]] is crucial for maintaining cardiomyocyte homeostasis and heart function.
-- In ischemic conditions, the activation of [[notes/_link/AMPK]] and subsequent [[notes/_link/Autophagy]] acts as a protective mechanism to save injured cells.
+- In ischemic conditions, the activation of [[notes/_link/AMPK]] and subsequent [[Autophagy]] acts as a protective mechanism to save injured cells.
 - Deficient autophagy is linked to [[Ventricular Remodeling]] and [[Cardiomyocyte Toxicity]].
 
 
@@ -80,6 +80,6 @@ Genetic variation in [[notes/_link/COMT]], particularly the [[Val158Met]] [[SNP]
 ---
 
 ### Linking Summary:
-- New links added: [[notes/_link/AMPK]], [[notes/_link/Aging]], [[Aspirin]], [[Atg5]], [[notes/_link/Atherosclerosis]], [[Autophagic Flux]], [[notes/_link/Autophagy]], [[notes/_link/COMT]], [[notes/_link/Caloric Restriction]], [[Cardiomyocyte Toxicity]], [[Catecholamines]], [[Cellular Senescence]], [[DNA Methylation]], [[DNAmGrimAge]], [[Epigenetic Clock]], [[Epigenetics]], [[notes/_link/Epinephrine]], [[Genomic Instability]], [[HDAC]], [[Histone Modification]], [[Intermittent Fasting]], [[Ischemia-reperfusion Injury]], [[MicroRNA]], [[Myocardial Infarction]], [[Non-coding RNA]], [[notes/_link/Norepinephrine]], [[notes/_link/Resveratrol]], [[notes/sirtuins/SIRT1]], [[SNP]], [[Senolytics]], [[Sirtuin]], [[Val158Met]], [[Ventricular Remodeling]]
+- New links added: [[notes/_link/AMPK]], [[notes/_link/Aging]], [[Aspirin]], [[Atg5]], [[notes/_link/Atherosclerosis]], [[Autophagic Flux]], [[Autophagy]], [[notes/_link/COMT]], [[notes/_link/Caloric Restriction]], [[Cardiomyocyte Toxicity]], [[Catecholamines]], [[Cellular Senescence]], [[DNA Methylation]], [[DNAmGrimAge]], [[Epigenetic Clock]], [[Epigenetics]], [[notes/_link/Epinephrine]], [[Genomic Instability]], [[HDAC]], [[Histone Modification]], [[Intermittent Fasting]], [[Ischemia-reperfusion Injury]], [[MicroRNA]], [[Myocardial Infarction]], [[Non-coding RNA]], [[notes/_link/Norepinephrine]], [[notes/_link/Resveratrol]], [[notes/sirtuins/SIRT1]], [[SNP]], [[Senolytics]], [[Sirtuin]], [[Val158Met]], [[Ventricular Remodeling]]
 - Suggested new entity notes to create: [[notes/_link/AMPK]], [[Autophagic Flux]], [[notes/_link/Caloric Restriction]], [[Cardiac Fibrosis]], [[Cardiomyocyte Toxicity]], [[Endothelial Dysfunction]], [[notes/_link/Inflammaging]], [[Intermittent Fasting]], [[Ischemia-reperfusion Injury]], [[Myocardial Infarction]], [[Vascular Stiffening]], [[Ventricular Remodeling]]
-- Strong connections to strengthen: [[notes/_link/Cardiovascular Disease]] ↔ [[notes/_link/Aging]], [[notes/_link/Cardiovascular Disease]] ↔ [[notes/_link/Autophagy]], [[notes/_link/Cardiovascular Disease]] ↔ [[DNA Methylation]], [[notes/_link/Cardiovascular Disease]] ↔ [[Myocardial Infarction]]
+- Strong connections to strengthen: [[notes/_link/Cardiovascular Disease]] ↔ [[notes/_link/Aging]], [[notes/_link/Cardiovascular Disease]] ↔ [[Autophagy]], [[notes/_link/Cardiovascular Disease]] ↔ [[DNA Methylation]], [[notes/_link/Cardiovascular Disease]] ↔ [[Myocardial Infarction]]

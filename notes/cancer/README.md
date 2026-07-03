@@ -1,6 +1,6 @@
 # Cancer
 
-This directory contains notes and research regarding [[notes/_link/Cancer]], with a primary focus on drug repurposing, alternative mechanisms, and non-conventional approaches. Emphasis is placed on antiparasitic agents such as [[Ivermectin]], [[Fenbendazole]], [[Mebendazole]], and [[Albendazole]], as well as [[Melittin]] and components of [[Honeybee]] venom ([[Apis mellifera]]), and their potential effects on cancer cell pathways. Special attention is given to mechanisms including [[notes/_link/Apoptosis]], [[notes/_link/Autophagy]], [[Angiogenesis]] inhibition, [[notes/_link/Oxidative Stress]], [[Warburg Effect]], [[Metabolic Reprogramming]], and disruption of [[Microtubule]] dynamics, along with connections to specific cancer types (e.g., [[triple-negative breast cancer]], [[notes/_link/Colorectal Cancer]], [[glioblastoma]]) and the [[Hallmarks of Cancer]].
+This directory contains notes and research regarding [[notes/_link/Cancer]], with a primary focus on drug repurposing, alternative mechanisms, and non-conventional approaches. Emphasis is placed on antiparasitic agents such as [[Ivermectin]], [[Fenbendazole]], [[Mebendazole]], and [[Albendazole]], as well as [[Melittin]] and components of [[Honeybee]] venom ([[Apis mellifera]]), and their potential effects on cancer cell pathways. Special attention is given to mechanisms including [[notes/_link/Apoptosis]], [[Autophagy]], [[Angiogenesis]] inhibition, [[notes/_link/Oxidative Stress]], [[Warburg Effect]], [[Metabolic Reprogramming]], and disruption of [[Microtubule]] dynamics, along with connections to specific cancer types (e.g., [[triple-negative breast cancer]], [[notes/_link/Colorectal Cancer]], [[glioblastoma]]) and the [[Hallmarks of Cancer]].
 
 
 **entity_relevance_score_1 (1-10):**
@@ -38,7 +38,7 @@ This directory contains notes and research regarding [[notes/_link/Cancer]], wit
 | [[Apoptosome]] | 31_May_2026 05:30 PM PDT | Biological Molecule | 8 | 0 | Multi-protein complex that activates Caspase-9 in the intrinsic pathway. |
 | [[Ascariasis]] | 21_May_2026 06:20 PM PDT | Medical Condition | 6 | -1 | Condition historically associated with the compounds before their repurposing. |
 | [[Ascaris]] | 21_May_2026 06:20 PM PDT | Microorganism | 6 | -1 | Related to the original anti-parasitic application of the discussed drugs. |
-| [[notes/_link/Autophagy]] | 21_May_2026 05:45 PM PDT | Biological Process | 9 | 1 | Cellular degradation process that plays a complex, dual role in tumor survival and death. |
+| [[Autophagy]] | 21_May_2026 05:45 PM PDT | Biological Process | 9 | 1 | Cellular degradation process that plays a complex, dual role in tumor survival and death. |
 | [[Avermectin]] | 21_May_2026 06:20 PM PDT | Chemical Compound | 9 | 1 | Significant therapeutic agent or chemical tool used in cancer research. |
 | [[Bax]] | 31_May_2026 05:30 PM PDT | Protein | 9 | 0 | Pro-apoptotic Bcl-2 family member critical for mitochondrial permeability. |
 | [[Bcl-2]] | 31_May_2026 05:30 PM PDT | Protein | 10 | 0 | Anti-apoptotic protein and major regulator of cell death; frequently overexpressed in cancer. |

@@ -201,13 +201,13 @@ Higher levels of SIRT1 activity are generally associated with a longer, healthie
 - Suggested new entity notes to create: [[NAD+]], [[PGC-1alpha]], [[Sirtuin Activators]]
 - Strong connections to strengthen: [[notes/_link/SIRT1]] ↔ [[Sirtuin]], [[notes/_link/SIRT1]] ↔ [[notes/_link/Caloric Restriction]]
 
-- New links added: [[notes/_link/Autophagy]], [[Atg]], [[FOXO1]], [[FOXO3a]], [[notes/_link/Caloric Restriction]], [[Intermittent Fasting]], [[notes/_link/AMPK]]
+- New links added: [[Autophagy]], [[Atg]], [[FOXO1]], [[FOXO3a]], [[notes/_link/Caloric Restriction]], [[Intermittent Fasting]], [[notes/_link/AMPK]]
 - Suggested new entity notes to create: [[Atg]], [[FOXO1]], [[FOXO3a]], [[notes/_link/Caloric Restriction]], [[Intermittent Fasting]], [[notes/_link/AMPK]]
-- Strong connections to strengthen: [[notes/_link/SIRT1]] ↔ [[notes/_link/Caloric Restriction]], [[notes/_link/SIRT1]] ↔ [[notes/_link/AMPK]], [[notes/_link/SIRT1]] ↔ [[notes/_link/Autophagy]]
+- Strong connections to strengthen: [[notes/_link/SIRT1]] ↔ [[notes/_link/Caloric Restriction]], [[notes/_link/SIRT1]] ↔ [[notes/_link/AMPK]], [[notes/_link/SIRT1]] ↔ [[Autophagy]]
 
 ## Regulation of Autophagy
 
-- SIRT1 is a potent activator of [[notes/_link/Autophagy]].
+- SIRT1 is a potent activator of [[Autophagy]].
 - It deacetylates various autophagy-related proteins, including those in the [[Atg]] machinery and transcription factors like [[FOXO1]] and [[FOXO3a]].
 - SIRT1 activation is strongly induced by [[notes/_link/Caloric Restriction]] and [[Intermittent Fasting]], contributing to their lifespan-extending effects.
 
@@ -224,9 +224,9 @@ Higher levels of SIRT1 activity are generally associated with a longer, healthie
 
 ### Linking Summary:
 
-- New links added: [[notes/_link/AMPK]], [[notes/_link/Aging]], [[Atg]], [[notes/_link/Autophagy]], [[notes/_link/Caloric Restriction]], [[notes/_link/Cardiovascular Disease]], [[notes/_link/Diabetes Mellitus]], [[Epigenome]], [[FOXO1]], [[FOXO3a]], [[Heterochromatin]], [[Intermittent Fasting]], [[notes/_link/Neurodegenerative Diseases]], [[notes/_link/Resveratrol]], [[notes/_link/SIRT1]], [[Sirtuin]]
+- New links added: [[notes/_link/AMPK]], [[notes/_link/Aging]], [[Atg]], [[Autophagy]], [[notes/_link/Caloric Restriction]], [[notes/_link/Cardiovascular Disease]], [[notes/_link/Diabetes Mellitus]], [[Epigenome]], [[FOXO1]], [[FOXO3a]], [[Heterochromatin]], [[Intermittent Fasting]], [[notes/_link/Neurodegenerative Diseases]], [[notes/_link/Resveratrol]], [[notes/_link/SIRT1]], [[Sirtuin]]
 - Suggested new entity notes to create: [[notes/_link/AMPK]], [[Atg]], [[notes/_link/Caloric Restriction]], [[FOXO1]], [[FOXO3a]], [[Intermittent Fasting]], [[NAD+]], [[PGC-1alpha]], [[Sirtuin Activators]]
-- Strong connections to strengthen: [[notes/_link/SIRT1]] ↔ [[notes/_link/AMPK]], [[notes/_link/SIRT1]] ↔ [[notes/_link/Autophagy]], [[notes/_link/SIRT1]] ↔ [[notes/_link/Caloric Restriction]], [[notes/_link/SIRT1]] ↔ [[Sirtuin]]
+- Strong connections to strengthen: [[notes/_link/SIRT1]] ↔ [[notes/_link/AMPK]], [[notes/_link/SIRT1]] ↔ [[Autophagy]], [[notes/_link/SIRT1]] ↔ [[notes/_link/Caloric Restriction]], [[notes/_link/SIRT1]] ↔ [[Sirtuin]]
 
 ---
 
