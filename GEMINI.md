@@ -103,47 +103,46 @@ To maintain consistency, all entity notes should include an `entity_type` field.
 
 ### entity_type_1 schema:
 
-| entity_type_1                 | entity_description_1                                                             | entity_examples_1                                                                     |
-| ----------------------------- | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
-| **Chemical Compound**         | Specific small molecules and chemical substances.                                | [[Adrenochrome]], [[notes/_link/Epinephrine]], [[Sodium nitrite]], [[Methylene blue]] |
-| **Chemical Class**            | Groups of chemically related substances.                                         | [[Catecholamines]], [[Aminochromes]], [[Persulfates]]                                 |
-| **Metabolite**                | Endogenous or drug metabolites (can overlap with Chemical Compound).             | [[Adrenochrome]] (as epinephrine metabolite), [[6-Hydroxymelatonin]]                  |
-| **Enzyme**                    | Specific biological catalysts.                                                   | [[MAO]], [[COMT]], [[notes/_link/Myeloperoxidase]], [[Diaphorase]]        |
-| **Protein**                   | Large biomolecules, structural or functional proteins (non-enzyme).              | [[Hemoglobin]], [[Cytochrome b5 reductase]]                                           |
-| **Receptor**                  | Signal-receiving proteins.                                                       | [[Adrenergic receptor]], [[D2 receptor]], [[NMDA receptor]]                           |
-| **Transporter**               | Membrane proteins that transport molecules.                                      | [[VMAT2]], [[SERT]], [[DAT]]                                                          |
-| **Ion Channel**               | Proteins forming ion pores.                                                      | [[hERG channel]], [[Voltage-gated sodium channel]]                                    |
-| **Gene**                      | Specific genes or genomic loci.                                                  | [[COMT gene]], [[MAOA]], [[CYP2D6]]                                                   |
-| **Genetic Variant**           | Mutations, SNPs, or alleles.                                                     | [[COMT Val158Met]], [[rs4680]]                                                        |
-| **Biological Molecule**       | Other metabolites, signaling molecules, radicals, etc.                           | [[notes/_link/Glutathione]], [[notes/_link/Nitric Oxide]], [[Hydroxyl radical]]       |
-| **Biomarker**                 | Measurable indicators of biological states.                                      | [[Troponin]], [[Methemoglobin level]], [[8-OHdG]]                                     |
-| **Antibody**                  | Immunoglobulins or monoclonal antibodies.                                        | [[Rituximab]], [[Anti-MPO antibody]]                                                  |
-| **Cell Type**                 | Specific types of biological cells.                                              | [[notes/_link/Neutrophils]], [[Erythrocytes]], [[Chromaffin cells]]                   |
-| **Anatomy**                   | Organs, tissues, or physiological structures.                                    | [[Adrenal gland]], [[notes/_link/Substantia Nigra]], [[Lungs]]                        |
-| **Microorganism**             | Bacteria, viruses, fungi, parasites.                                             | [[Pseudomonas aeruginosa]], [[SARS-CoV-2]]                                            |
-| **Toxin**                     | Naturally occurring or synthetic poisons.                                        | [[Cyanide]], [[Botulinum toxin]]                                                      |
-| **Medical Condition**         | Diseases, syndromes, or pathological states.                                     | [[Methemoglobinemia]], [[Anaphylaxis]], [[notes/_link/Schizophrenia]]                 |
-| **Symptom**                   | Subjective patient-reported experiences.                                         | [[Dyspnea]], [[Cyanosis]], [[Hallucinations]]                                         |
-| **Clinical Sign**             | Objective observable or measurable findings.                                     | [[Tachycardia]], [[Cherry-red skin]]                                                  |
-| **Adverse Effect**            | Undesired reactions to exposures or treatments.                                  | [[Hypertensive crisis]], [[Serotonin syndrome]]                                       |
-| **Biological Process**        | Normal or pathological biological events and pathways.                           | [[notes/_link/Inflammation]], [[notes/_link/Respiratory Burst]], [[Homeostasis]]      |
-| **Chemical Process**          | Specific chemical reactions or mechanisms.                                       | [[Oxidation]], [[Michael addition]], [[Autoxidation]]                                 |
-| **Pharmacological Action**    | Mechanism or effect of a drug/compound.                                          | [[MAO inhibition]], [[Antioxidant]], [[Vasoconstriction]]                             |
-| **Diagnostic Test**           | Procedures or tools for medical diagnosis.                                       | [[ABG]], [[Pulse oximetry]], [[Co-oximetry]]                                          |
-| **Analytical Technique**      | Scientific methods used for laboratory analysis.                                 | [[HPLC]], [[LC-MS]], [[Mass Spectrometry]], [[H-NMR]]                                 |
-| **Imaging Technique**         | Medical or scientific imaging methods.                                           | [[MRI]], [[PET scan]], [[fMRI]]                                                       |
-| **Medical Treatment**         | Interventions, therapies, or procedures.                                         | [[Exchange transfusion]], [[Hyperbaric oxygen]]                                       |
-| **Surgical Procedure**        | Invasive therapeutic or diagnostic interventions.                                | [[Adrenalectomy]], [[Bronchoscopy]]                                                   |
-| **Medical Product**           | Prepared devices or specific pharmaceutical products.                            | [[EpiPen]], [[Neffy]], [[Symjepi]]                                                    |
-| **Vaccine**                   | Preparations to stimulate immunity.                                              | [[mRNA COVID-19 vaccine]]                                                             |
-| **Scientific Theory**         | Hypotheses or scientific models.                                                 | [[Adrenochrome Hypothesis]], [[Dopamine hypothesis]]                                  |
-| **Scientific Concept**        | Broad scientific principles or mechanisms.                                       | [[Redox Cycling]], [[notes/oxidative_stress/Oxidative Stress]], [[Electrophile]]                 |
-| **Laboratory Standard**       | Quality control and reference materials.                                         | [[Reference standard]], [[Certificate of Analysis]], [[Impurity marker]]              |
-| **Pharmacokinetic Parameter** | Quantitative ADME properties.                                                    | [[Half-life]], [[Volume of distribution]], [[Bioavailability]]                        |
-| **Model Organism**            | Species or strains used in research.                                             | [[Rattus norvegicus]], [[Zebrafish]], [[Knockout mouse]]                              |
-| **Person**                    | Historical or scientific figures (less emphasis, exclude, for scoring purposes). | [[Abram Hoffer]], [[Humphry Osmond]]                                                  |
-| Organization                  | Public, private sector organizations                                             | [[Merck & Co. Inc]], [[GlaxoSmithKline]]                                              |
-| NA                            | If none of the above                                                             |                                                                                       |
+| entity_type_1                 | entity_description_1                                                 | entity_examples_1                                                                     |
+| ----------------------------- | -------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| **Chemical Compound**         | Specific small molecules and chemical substances.                    | [[Adrenochrome]], [[notes/_link/Epinephrine]], [[Sodium nitrite]], [[Methylene blue]] |
+| **Chemical Class**            | Groups of chemically related substances.                             | [[Catecholamines]], [[Aminochromes]], [[Persulfates]]                                 |
+| **Metabolite**                | Endogenous or drug metabolites (can overlap with Chemical Compound). | [[Adrenochrome]] (as epinephrine metabolite), [[6-Hydroxymelatonin]]                  |
+| **Enzyme**                    | Specific biological catalysts.                                       | [[MAO]], [[COMT]], [[notes/_link/Myeloperoxidase]], [[Diaphorase]]                    |
+| **Protein**                   | Large biomolecules, structural or functional proteins (non-enzyme).  | [[Hemoglobin]], [[Cytochrome b5 reductase]]                                           |
+| **Receptor**                  | Signal-receiving proteins.                                           | [[Adrenergic receptor]], [[D2 receptor]], [[NMDA receptor]]                           |
+| **Transporter**               | Membrane proteins that transport molecules.                          | [[VMAT2]], [[SERT]], [[DAT]]                                                          |
+| **Ion Channel**               | Proteins forming ion pores.                                          | [[hERG channel]], [[Voltage-gated sodium channel]]                                    |
+| **Gene**                      | Specific genes or genomic loci.                                      | [[COMT gene]], [[MAOA]], [[CYP2D6]]                                                   |
+| **Genetic Variant**           | Mutations, SNPs, or alleles.                                         | [[COMT Val158Met]], [[rs4680]]                                                        |
+| **Biological Molecule**       | Other metabolites, signaling molecules, radicals, etc.               | [[notes/_link/Glutathione]], [[notes/_link/Nitric Oxide]], [[Hydroxyl radical]]       |
+| **Biomarker**                 | Measurable indicators of biological states.                          | [[Troponin]], [[Methemoglobin level]], [[8-OHdG]]                                     |
+| **Antibody**                  | Immunoglobulins or monoclonal antibodies.                            | [[Rituximab]], [[Anti-MPO antibody]]                                                  |
+| **Cell Type**                 | Specific types of biological cells.                                  | [[notes/_link/Neutrophils]], [[Erythrocytes]], [[Chromaffin cells]]                   |
+| **Anatomy**                   | Organs, tissues, or physiological structures.                        | [[Adrenal gland]], [[notes/_link/Substantia Nigra]], [[Lungs]]                        |
+| **Microorganism**             | Bacteria, viruses, fungi, parasites.                                 | [[Pseudomonas aeruginosa]], [[SARS-CoV-2]]                                            |
+| **Toxin**                     | Naturally occurring or synthetic poisons.                            | [[Cyanide]], [[Botulinum toxin]]                                                      |
+| **Medical Condition**         | Diseases, syndromes, or pathological states.                         | [[Methemoglobinemia]], [[Anaphylaxis]], [[notes/_link/Schizophrenia]]                 |
+| **Symptom**                   | Subjective patient-reported experiences.                             | [[Dyspnea]], [[Cyanosis]], [[Hallucinations]]                                         |
+| **Clinical Sign**             | Objective observable or measurable findings.                         | [[Tachycardia]], [[Cherry-red skin]]                                                  |
+| **Adverse Effect**            | Undesired reactions to exposures or treatments.                      | [[Hypertensive crisis]], [[Serotonin syndrome]]                                       |
+| **Biological Process**        | Normal or pathological biological events and pathways.               | [[notes/_link/Inflammation]], [[notes/_link/Respiratory Burst]], [[Homeostasis]]      |
+| **Chemical Process**          | Specific chemical reactions or mechanisms.                           | [[Oxidation]], [[Michael addition]], [[Autoxidation]]                                 |
+| **Pharmacological Action**    | Mechanism or effect of a drug/compound.                              | [[MAO inhibition]], [[Antioxidant]], [[Vasoconstriction]]                             |
+| **Diagnostic Test**           | Procedures or tools for medical diagnosis.                           | [[ABG]], [[Pulse oximetry]], [[Co-oximetry]]                                          |
+| **Analytical Technique**      | Scientific methods used for laboratory analysis.                     | [[HPLC]], [[LC-MS]], [[Mass Spectrometry]], [[H-NMR]]                                 |
+| **Imaging Technique**         | Medical or scientific imaging methods.                               | [[MRI]], [[PET scan]], [[fMRI]]                                                       |
+| **Medical Treatment**         | Interventions, therapies, or procedures.                             | [[Exchange transfusion]], [[Hyperbaric oxygen]]                                       |
+| **Surgical Procedure**        | Invasive therapeutic or diagnostic interventions.                    | [[Adrenalectomy]], [[Bronchoscopy]]                                                   |
+| **Medical Product**           | Prepared devices or specific pharmaceutical products.                | [[EpiPen]], [[Neffy]], [[Symjepi]]                                                    |
+| **Vaccine**                   | Preparations to stimulate immunity.                                  | [[mRNA COVID-19 vaccine]]                                                             |
+| **Scientific Theory**         | Hypotheses or scientific models.                                     | [[Adrenochrome Hypothesis]], [[Dopamine hypothesis]]                                  |
+| **Scientific Concept**        | Broad scientific principles or mechanisms.                           | [[Redox Cycling]], [[notes/oxidative_stress/Oxidative Stress]], [[Electrophile]]      |
+| **Laboratory Standard**       | Quality control and reference materials.                             | [[Reference standard]], [[Certificate of Analysis]], [[Impurity marker]]              |
+| **Pharmacokinetic Parameter** | Quantitative ADME properties.                                        | [[Half-life]], [[Volume of distribution]], [[Bioavailability]]                        |
+| **Model Organism**            | Species or strains used in research.                                 | [[Rattus norvegicus]], [[Zebrafish]], [[Knockout mouse]]                              |
+| Organization                  | Public, private sector organizations                                 | [[Merck & Co. Inc]], [[GlaxoSmithKline]]                                              |
+| NA                            | If none of the above                                                 |                                                                                       |
 
 ## Subject Object Relation Triples (on user request):
 
