@@ -142,3 +142,117 @@ Summary Table
 | Demyristoylase              | Myristoyl (C14) | Shorter fatty acid chain    | Protein targeting, apoptosis    |
 
 Key point: Most sirtuins have multiple of these activities, but they differ in preference and efficiency depending on the isoform (SIRT1 is mainly a deacetylase, while SIRT5 is a strong desuccinylase/demalonylase, and SIRT6 has strong de-fatty-acylase activities).These activities allow sirtuins to act as metabolic sensors: they use NAD⁺ as a co-substrate, so their activity rises when cellular energy is low (high NAD⁺/NADH ratio), linking metabolism directly to protein regulation.
+
+
+---
+
+whats the "down side" to this?Inhibiting CD38 preserves NAD+ by reducing its consumption, boosts sirtuin (especially SIRT3) activity, improves mitochondrial function, and ameliorates aspects of metabolic and physical decline in aging models. CD38 knockout mice or inhibition also preserves the NAD+ precursor NMN, enhancing responses to precursors like NMN/NR.
+
+Potential downsides of CD38 inhibition include immune-related risks, sex-specific or off-target effects, neurological/behavioral impacts (from genetic models), and the fact that it's not fully "risk-free" even if promising for aging.
+
+[nad.com](https://www.nad.com/news/inhibiting-nad-breakdown-increases-lifespan-prevents-age-related-physical-decline)
+
+1\. Immune Function and Infection Risk (Main Concern)
+
+CD38 plays a positive role in host defense against certain bacterial, parasitic, and viral infections. It helps regulate immune cell recruitment, activation, cytokine release, phagocytosis, and adaptive responses.
+
+pubmed.ncbi.nlm.nih.gov +1
+
+- CD38 knockout mice or inhibition can impair aspects of immunity (e.g., poorer humoral responses, altered neutrophil/monocyte recruitment in some models), potentially increasing vulnerability to specific pathogens.
+- In humans, anti-CD38 monoclonal antibodies (e.g., daratumumab for multiple myeloma) are associated with higher infection rates, including serious ones. This is partly due to depleting CD38+ immune cells or broader immunomodulation.
+	pmc.ncbi.nlm.nih.gov +1
+- Chronic inhibition (especially systemic/small-molecule) might mimic some of this, though enzymatic inhibitors (like 78c) differ from depleting antibodies.
+This is a trade-off: reducing age-related "inflammaging" and NAD+ consumption via CD38 could blunt beneficial acute immune responses.
+
+2\. Sex-Specific or Adverse Reactions in Studies
+
+In one key longevity study with the CD38 inhibitor 78c in naturally aged mice:
+- It increased lifespan and healthspan markers (exercise, muscle, metabolism, NAD+ levels) more clearly in males (~14% lifespan boost).
+- Many females showed severe adverse reactions leading to early euthanasia (though treated females that tolerated it also showed benefits).
+	[nad.com](https://www.nad.com/news/inhibiting-nad-breakdown-increases-lifespan-prevents-age-related-physical-decline)
+This highlights possible hormonal interactions, differential immune effects, or metabolism differences that need clarification. No major tumor increase was noted, which is reassuring given some links between CD38 and cancer contexts.
+
+3\. Neurological and Behavioral Effects (Primarily from Knockout Models)
+
+CD38 knockout mice often show:
+- Deficits in social memory/recognition, parental nurturing, and some learning/memory tasks (e.g., Morris water maze, fear conditioning).
+- Altered anxiety-like behavior, increased locomotor activity in some cases.
+- Links to oxytocin signaling (CD38 regulates oxytocin release in the hypothalamus).
+	pmc.ncbi.nlm.nih.gov +1
+These are constitutive genetic knockouts (from development onward), so they may not fully translate to adult pharmacological inhibition. Still, they suggest CD38 has roles in brain calcium signaling, oxytocin pathways, and neurodevelopment/behavior. Long-term inhibition in adults might have milder or different effects, but this warrants monitoring.
+
+4\. Other Potential Limitations
+
+- Homeostatic role: CD38 may act as an "arbitrator" of NAD+ levels in normal conditions. Over-inhibition could disrupt fine-tuned NAD+ metabolism or compensatory mechanisms (e.g., some cells upregulate CD38 in response to high NAD+).
+	[mdpi.com](https://www.mdpi.com/2073-4409/13/21/1799)
+- Incomplete translation: Benefits are strong in aging/inflammation-driven NAD+ decline models, but effects in young/healthy subjects or certain diseases (e.g., arrhythmias or specific cardiac contexts) may differ or even be counterproductive.
+- Cancer context is mixed: Inhibiting CD38 can help in some tumor microenvironments (reducing immunosuppression), but CD38 has complex roles; no clear pro-cancer signal in aging mouse studies, but caution is needed.
+- Practical: Small-molecule inhibitors are preclinical; long-term human safety data is limited. Natural inhibitors (e.g., apigenin, quercetin) are weaker/more pleiotropic.
+Bottom line: CD38 inhibition is one of the more compelling NAD+-related anti-aging strategies because it addresses a root cause of decline (especially inflammation-driven) and synergizes with precursors like NMN/NR. However, the immune trade-offs are real and could be the biggest "downside" for otherwise healthy people—potentially raising infection susceptibility in exchange for better metabolic/mitochondrial aging resilience. Genetic models also flag possible brain/behavior effects. More human data (especially long-term) is essential. It may work best in older individuals with high inflammaging or combined carefully with other interventions. Consult experts for personal use.
+
+Investigate CD38's involvement in cancer therapy
+
+CD38 is a major therapeutic target in cancer, primarily through monoclonal antibodies (mAbs) like daratumumab and isatuximab in multiple myeloma (MM), with expanding roles in modulating the tumor microenvironment (TME) for solid tumors and novel approaches like small-molecule inhibitors, CAR-T, and radioligand therapy.
+
+[link.springer.com](https://link.springer.com/article/10.1186/s12967-024-05768-6)
+
+1\. CD38 Expression and Dual Roles in Cancer
+
+CD38 is a multifunctional transmembrane glycoprotein (ADP-ribosyl cyclase) involved in NAD+ metabolism, calcium signaling (via cADPR, NAADP), and immune regulation. It is highly expressed on:
+- Malignant plasma cells in multiple myeloma (primary target).
+- Various hematologic malignancies (e.g., certain lymphomas, leukemias).
+- Subsets of immune cells in the TME (Tregs, MDSCs, TAMs, Bregs, etc.).
+In tumors: High CD38 can promote cancer cell survival, migration, proliferation (e.g., via cADPR in lung cancer models), and immunosuppression (NAD+ depletion, adenosine production, metabolic fitness of suppressive cells).
+
+[nature.com](https://www.nature.com/articles/s41419-021-03968-2)
+
+In immunity: It sustains immunosuppressive cells while also being expressed on some effector cells (NK, activated T cells). Targeting it can deplete suppressors and restore anti-tumor responses.
+
+[frontiersin.org](https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1745988/full)
+
+2\. Approved Therapies: Anti-CD38 Monoclonal Antibodies in Multiple Myeloma
+
+Daratumumab (Darzalex, first approved 2015) and isatuximab (Sarclisa, approved 2020/2021) are IgG1 mAbs that bind distinct epitopes on CD38.
+
+[targetedonc.com](https://www.targetedonc.com/view/role-of-cd38-antibodies-in-multiple-myeloma)
+
+Mechanisms of action:
+- Antibody-dependent cellular cytotoxicity (ADCC) via NK cells.
+- Antibody-dependent cellular phagocytosis (ADCP).
+- Complement-dependent cytotoxicity (CDC).
+- Direct apoptosis (stronger with isatuximab).
+- Immunomodulation: Depletes CD38+ Tregs/MDSCs, boosts T/NK cell anti-tumor activity.
+	[link.springer.com](https://link.springer.com/article/10.1186/s12967-024-05768-6)
+They are transformative in MM:
+- Used in newly diagnosed (frontline, often with VRd or other backbones) and relapsed/refractory settings.
+- Significantly improve progression-free survival and response rates; subcutaneous formulations improve convenience.
+- Other mAbs (e.g., felzartamab/MOR202, mezagitamab/TAK079) are in trials.
+	[link.springer.com](https://link.springer.com/article/10.1186/s12967-024-05768-6)
+
+3\. Expanding Use in Solid Tumors and Combinations
+
+CD38 targeting is being explored to remodel the immunosuppressive TME:
+- Depletes suppressive cells (Tregs, MDSCs, etc.), potentially overcoming resistance to checkpoint inhibitors (e.g., anti-PD-1).
+- Early trials of isatuximab + cemiplimab (anti-PD-1) in advanced solids; broader combos with PD-1/PD-L1, CTLA-4, etc.
+	[frontiersin.org](https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1745988/full)
+- Potential in lung cancer, glioblastoma, prostate, etc., though less mature than in MM.
+	[onlinelibrary.wiley.com](https://onlinelibrary.wiley.com/doi/full/10.1002/cam4.6619)
+
+4\. Emerging Strategies
+
+- Small-molecule inhibitors: Enzymatic inhibitors (e.g., RBN013209) block NAD+ consumption/cADPR production; explored for immunostimulation (e.g., NK enhancement in neuroblastoma) or NAD+ boosting. Preclinical/promising for immunotherapy combos.
+	[aacrjournals.org](https://aacrjournals.org/cancerres/article/85/8_Supplement_1/835/755206/Abstract-835-A-potent-and-selective-small-molecule)
+- CAR-T and cell therapies: CD38 CAR-T for MM; CD38 knockout in CAR-T cells to reduce exhaustion.
+	[hematologyadvisor.com](https://www.hematologyadvisor.com/news/multiple-myeloma-cd38-cart-cell-therapy-promising-treatment-risk/)
+- Bispecifics, ADCs, nanobodies/sdAbs: For better specificity, tumor penetration, or radioligand therapy (imaging + alpha/beta emitters).
+	[link.springer.com](https://link.springer.com/article/10.1186/s12967-024-05768-6)
+- Combinations: With IMiDs, proteasome inhibitors, checkpoint blockade, or metabolic modulators.
+
+5\. Challenges and Risks
+
+- Infections: Increased risk of any-grade/severe infections (including pneumonia) due to immune modulation and plasma cell depletion; prophylaxis important. No clear excess mortality in some analyses.
+	[pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC9685179/)
+- Resistance: Downregulation of CD38, trogocytosis, or compensatory mechanisms in MM.
+- Off-target effects: Impacts on normal immune cells (e.g., NK depletion possible); sex-specific or neurological notes from non-cancer KO models (less relevant here).
+- Variable expression: Not all tumors highly express CD38; patient selection via biomarkers helpful.
+Summary: CD38 targeting is a success story in MM and holds promise for broader immuno-oncology by hitting both tumor cells and the suppressive TME. Anti-CD38 mAbs are standard in MM, while next-gen approaches (inhibitors, combos, advanced constructs) aim to expand efficacy and reduce toxicities. Ongoing trials will clarify its role in solids and optimal combinations. For the aging/NAD+ context from prior discussion, therapeutic inhibition in cancer patients shows immune trade-offs but clear anti-tumor benefits in appropriate settings. Consult current guidelines or specialists for specifics.
