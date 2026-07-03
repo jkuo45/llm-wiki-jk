@@ -1,20 +1,22 @@
 # Wiki-style Knowledge Base
 
-## Maintenance:
+## Project Maintenance:
 
-- Create or update README.md within the directory of the topic/subtopic folder.
-  - Last updated and total count of entities.
 - Project timestamp format %d\_%B\_%Y %I:%M %p %Z (uppercase)
 - Documents start with '[document]' or '\_document\_' in the file name.
   - Depending on task, they may or may not be included in context, counts.
-- 'notes' directory is organized by topic.
+- 'notes' directory:
+  - Directory name represents the topic.
   - Each markdown file within that topic can be counted as a single entity.
-- Use uv for all python executables
 - 'scripts' directory:
-  - periodically audit scripts for reusability.
-  - if they contain values that are task specific, refactor for reusability.
+  - Periodically audit scripts for reusability.
+  - If they contain values that are task specific, refactor for reusability.
+- 'tasks' directory:
+  - Contains task outputs. Default to saving to this directory.
+- Prefer WriteFile tool over python scripts to create entities.
+- Use uv for all python executables
 
-## Linking Format (creating wiki entries/notes):
+## Linking Format (creating wiki entries/notes/documents):
 
 - Use Obsidian-style wiki links: [[Exact Note Title]] or [[Note Title|Display Text]] when the display text differs.
 - Only link to entities and biomedical terms that make sense contextually — do not over-link or create trivial links.
@@ -22,9 +24,8 @@
 - e.g. Genes/proteins/enzymes, etc.: [[miR-29b]], [[miR-101]], and [[miR-193a-3p]],[[BRCA1]],[[CaMKII (PP1)]],[[ERK1/2 (MKP-3)]],[[TP53]],[[CFTR]], [[Ser308]], [[Tyr310]], [[PIKfyve]], [[TRMPL1]], [[SLC-36.1]], [[PtdIns(4,5)P2]]
 - e.g. Diseases/disorders: [[notes/_link/Alzheimer's Disease]], [[Cystic Fibrosis]], [[Type 2 Diabetes Mellitus]]
 - If a concept is mentioned but no dedicated note exists yet, suggest creating one by using a clear [[New Entity Name]] and note it at the end. Prefer space to underscore in the entity name. Create markdown files for each new entity.
-- Prefer WriteFile tool over python scripts to create entities.
 - Add links in the most natural places: first meaningful mention is often best.
-- In a dedicated "Connections" or "Related" section (if it exists, or create one), list important bidirectional connections with brief one-line explanations.
+- In a dedicated "Connections" or "Related" section (if it exists, or create one), list important bidirectional connections with brief explanations.
 - Maintain consistency: Use the same exact title for the same entity across files.
 - Each new entity should have a Linking Summary.
 
@@ -34,11 +35,35 @@
 - Suggested new entity notes to create: [[Missing Concept]]
 - Strong connections to strengthen: [[Note A]] ↔ [[Note B]]
 
+### Semantic Metadata & Properties (Open Knowledge Format, OKF)
+
+When creating or updating a note, include the following frontmatter block:
+
+---
+
+type: entity # [entity | concept | hub]
+category: # [gene | protein | enzyme | disease | chemical | pathway | method]
+aliases: [] # Alternative names, abbreviations, acronyms
+database_ids:
+mesh: # Medical Subject Headings ID if available (e.g., D008164)
+uniprot: # UniProt ID for proteins (e.g., P04637)
+hgnc: # HGNC ID for genes (e.g., HGNC:11998)
+chebi: # ChEBI ID for chemicals/compounds
+relations:
+
+- predicate: # [associated_with | inhibits | activates | regulates | treats | causes]
+  target: "[[Target Entity]]"
+  sources: [] # DOIs, PMIDs, or reference document names
+  created: YYYY-MM-DD
+  updated: YYYY-MM-DD
+
+---
+
 ### Output Format:
 
 - Return the FULL updated Markdown content with all new [[links]] inserted. At the very end, add a section:
 
-### Orphan Link Resolution:
+## Orphan Link Resolution (on user request):
 
 Maintain link integrity by performing periodic audits:
 
@@ -51,7 +76,7 @@ Maintain link integrity by performing periodic audits:
   - Use a standardized template: `# Title`, a short paragraph context, and a `Linking Summary`.
 - **Automation**: Use `uv run` to perform batch updates to minimize manual errors and ensure workspace-wide consistency.
 
-### Overlapping Link Resolution:
+## Overlapping Link Resolution (on user request):
 
 - The scope of this task is entities and topics in the notes directory.
 - This process does not need to be ran while extracting entities or triples.
@@ -76,7 +101,7 @@ Maintain link integrity by performing periodic audits:
 
 To maintain consistency, all entity notes should include an `entity_type` field. Suggest additional entity types if they do not exist. These values are intended for README.md and do not need to be included in entity wiki notes. Depending on topic/user preference, more values maybe added.
 
-### entity_type_1 schema
+### entity_type_1 schema:
 
 | entity_type_1                 | entity_description_1                                                             | entity_examples_1                                                                     |
 | ----------------------------- | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |

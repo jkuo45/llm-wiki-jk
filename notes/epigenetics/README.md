@@ -2,6 +2,8 @@
 
 This directory contains notes and research regarding [[notes/_link/Epigenetics]], including DNA methylation, histone modifications, chromatin remodeling, epigenetic clocks, and their roles in aging, gene expression regulation, disease development (particularly [[notes/_link/Cancer]], neurodegenerative diseases, and metabolic disorders), microbiome influences, and longevity interventions.
 
+This directory contains notes and research regarding [[Yamanaka Factors]] (OSKM: [[Oct4]], [[Sox2]], [[Klf4]], and [[c-Myc]]), their discovery by [[Shinya Yamanaka]], role in cellular reprogramming of [[Somatic Cells]] into [[Induced Pluripotent Stem Cells]] (iPSCs), partial reprogramming techniques, and applications in regenerative medicine, disease modeling, rejuvenation, and treatment of age-related and [[notes/_link/Neurodegenerative Diseases]]. Special focus is placed on their mechanisms, safety concerns (including [[notes/_link/Cancer]] risk and [[Teratoma]] formation), epigenetic resetting, and emerging uses in [[Partial Reprogramming]] for [[Rejuvenation]].
+
 ## Maintenance
 
 - Last updated: 16_JUN_2026 11:20 PM PDT
@@ -9,7 +11,7 @@ This directory contains notes and research regarding [[notes/_link/Epigenetics]]
 
 **entity_relevance_score_1 (1-10):** This score measures the centrality of the entity to core epigenetic mechanisms, chromatin regulation, and associated processes like gene expression control, aging, and disease.
 - **10 (Core)**: Essential master regulators, core machinery, or the processes themselves (e.g., [[DNMT1]], [[DNMT3A]], [[TET enzymes]], [[HDAC1/2]], [[Histone H3K27me3]], [[DNA Methylation]], [[Chromatin Remodeling]], [[Epigenetic Clock]]).
-- **7-9 (High)**: Key writers/readers/erasers, major histone marks, upstream signaling that directly drives epigenetic states, or primary tools/interventions (e.g., [[EZH2]], [[p300/CBP]], [[SWI/SNF complex]], [[Histone Acetylation]], [[CRISPR-based epigenetic editors]], [[Caloric Restriction]] or other longevity interventions that act via epigenetics).
+- **7-9 (High)**: Key writers/readers/erasers, major histone marks, upstream signaling that directly drives epigenetic states, or primary tools/interventions (e.g., [[EZH2]], [[p300/CBP]], [[SWI/SNF complex]], [[Histone Acetylation]], [[CRISPR-based epigenetic editors]], [[notes/_link/Caloric Restriction]] or other longevity interventions that act via epigenetics).
 - **4-6 (Moderate)**: Downstream effectors, specific cell-type contexts, biomarkers, or entities significantly influenced by or influencing epigenetics but not exclusive to it (e.g., [[p53|TP53]], specific miRNAs/lncRNAs, [[Telomeres]] in aging contexts, certain transcription factors).
 - **1-3 (Low/Tangential)**: Distant or context-specific connections (e.g., general environmental toxins without clear epigenetic mechanisms, unrelated diseases, or historical figures in genetics).
 
@@ -209,10 +211,10 @@ This directory contains notes and research regarding [[notes/_link/Epigenetics]]
 | [[Senolytic Drugs]] | 13_Jun_2026 12:00 PM PDT | Pharmacological Action | 9 | 1 | Therapeutics designed to selectively eliminate senescent cells to improve healthspan. |
 | [[notes/_link/Senolytics]]                           | 04_Jun_2026 09:15 PM | Pharmacological Action | 7                        | 1                        | Compounds that selectively eliminate senescent cells, potentially reversing age-related epigenetic drift.   |
 | [[notes/_link/Short-chain Fatty Acids]]              | 04_Jun_2026 09:15 PM | Chemical Class         | 9                        | 1                        | Microbial metabolites like butyrate that serve as potent endogenous inhibitors of HDACs.                    |
-| [[Sirt1]] | 13_Jun_2026 12:00 PM PDT | Protein | 10 | 1 | NAD+-dependent deacylase and critical regulator of longevity and epigenetic stability during aging. |
-| [[notes/_link/SIRT1]]                                | 04_Jun_2026 09:15 PM | Enzyme                 | 10                       | 1                        | The most-studied sirtuin, a NAD+-dependent deacetylase that promotes longevity and heterochromatin.         |
-| [[notes/_link/SIRT6]]                                | 04_Jun_2026 09:15 PM | Enzyme                 | 10                       | 1                        | Sirtuin involved in DNA repair and telomere maintenance, acting as a guardian of the youthful epigenome.    |
-| [[notes/_link/Sirtuin]]                              | 04_Jun_2026 09:15 PM | Enzyme                 | 10                       | 1                        | Family of NAD+-dependent deacylases that serve as key metabolic sensors and regulators of stability.        |
+| [[notes/epigenetics/Sirt1]] | 13_Jun_2026 12:00 PM PDT | Protein | 10 | 1 | NAD+-dependent deacylase and critical regulator of longevity and epigenetic stability during aging. |
+| [[notes/sirtuins/SIRT1]]                                | 04_Jun_2026 09:15 PM | Enzyme                 | 10                       | 1                        | The most-studied sirtuin, a NAD+-dependent deacetylase that promotes longevity and heterochromatin.         |
+| [[SIRT6]]                                | 04_Jun_2026 09:15 PM | Enzyme                 | 10                       | 1                        | Sirtuin involved in DNA repair and telomere maintenance, acting as a guardian of the youthful epigenome.    |
+| [[Sirtuin]]                              | 04_Jun_2026 09:15 PM | Enzyme                 | 10                       | 1                        | Family of NAD+-dependent deacylases that serve as key metabolic sensors and regulators of stability.        |
 | [[Sister Chromatids]]                                | 04_Jun_2026 09:15 PM | Anatomy                | 4                        | 0                        | The identical copies of a chromosome that must inherit identical epigenetic marks during cell division.     |
 | [[SMAD Proteins]]                                    | 04_Jun_2026 09:15 PM | Protein                | 6                        | 0                        | Transcription factors that mediate TGF-beta signaling and recruit epigenetic modifiers to target genes.      |
 | [[Sodium Butyrate]] | 13_Jun_2026 12:00 PM PDT | Chemical Compound | 9 | 1 | Short-chain fatty acid and HDAC inhibitor that can induce senescence or differentiation. |
@@ -247,3 +249,87 @@ This directory contains notes and research regarding [[notes/_link/Epigenetics]]
 | [[Hormesis]] | 16_JUN_2026 11:20 PM PDT | Biological Process | 7 | 1 | Beneficial adaptive response triggered by low doses of a stressor. |
 | [[Phytochemicals]] | 16_JUN_2026 11:20 PM PDT | Chemical Class | 6 | 1 | Plant secondary metabolites that act as xenohormetic signals in heterotrophs. |
 | [[Nrf2]] | 16_JUN_2026 11:20 PM PDT | Transcription Factor | 8 | 1 | Master regulator of antioxidant response activated by xenohormetic compounds. |
+
+| 25_May_2026 05:23 PM | Medical Condition |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Medical Condition |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Biological Process |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:05 AM | Biological Process |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Protein |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Protein |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:05 AM | Biological Process |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:05 AM | Anatomy |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:05 AM | Protein |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:05 AM | Protein |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Protein |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:05 AM | Analytical Technique |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Medical Condition |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:07 AM | Biological Process |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Biological Process |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:05 AM | Biological Process |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:06 AM | Scientific Concept |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Cell Type |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:09 AM | Scientific Concept |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:05 AM | Symptom |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Cell Type |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:05 AM | Biological Process |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Biological Process |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:05 AM | Protein |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:08 AM | Cell Type |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Medical Condition |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:07 AM | Enzyme |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:05 AM | Biological Process |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:05 AM | Cell Type |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:05 AM | Scientific Concept |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:05 AM | Analytical Technique |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Medical Condition |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Cell Type |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Cell Type |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Biological Process |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:05 AM | Scientific Concept |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Person |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Protein |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Protein |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Protein |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:09 AM | Medical Condition |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Cell Type |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Biological Process |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Protein |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Medical Condition |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Protein |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Protein |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Protein |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Medical Condition |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:05 AM | Biological Process |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Protein |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Medical Condition |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Biological Process |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Biological Process |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Biological Molecule |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Scientific Concept |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Biological Process |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:05 AM | Cell Type |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:06 AM | Gene |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Cell Type |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Medical Condition |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Biological Process |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Person |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:05 AM | Protein |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:05 AM | Protein |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Biological Process |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Cell Type |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Protein |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Scientific Concept |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:06 AM | Biological Process |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Medical Condition |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:06 AM | Scientific Concept |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:06 AM | Analytical Technique |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:06 AM | Scientific Concept |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:06 AM | Biological Process |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:10 AM | Biological Process |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Protein |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:06 AM | Protein |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Protein |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:06 AM | Protein |  | - | - | Merged from Yamanaka Factors |
+| 25_May_2026 05:23 PM | Protein |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:05 AM | Biological Molecule |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:09 AM | Protein |  | - | - | Merged from Yamanaka Factors |

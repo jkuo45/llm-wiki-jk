@@ -9,7 +9,7 @@ Diabetes Mellitus is a group of metabolic diseases characterized by high blood s
 ## 1. Epigenetic Mechanisms
 Research has shown that chronic hyperglycemia can lead to lasting changes in the [[Epigenome]], a phenomenon sometimes called "metabolic memory."
 *   **[[DNA Methylation]]**: Diabetic individuals often show altered DNA methylation patterns in genes related to insulin signaling and glucose metabolism.
-*   **[[Histone Modification]]s**: High glucose levels can alter histone acetylation and methylation, particularly affecting genes involved in inflammation and oxidative stress (e.g., through the activity of [[notes/_link/SIRT1]] or [[notes/_link/mTOR]]).
+*   **[[Histone Modification]]s**: High glucose levels can alter histone acetylation and methylation, particularly affecting genes involved in inflammation and oxidative stress (e.g., through the activity of [[notes/sirtuins/SIRT1]] or [[notes/_link/mTOR]]).
 
 
 ## 2. Links to [[notes/_link/Aging]]
@@ -23,7 +23,7 @@ Many anti-aging interventions, such as [[notes/_link/Metformin]] and [[notes/_li
 
 
 ## Linking Summary:
-- New links added: [[notes/_link/Diabetes Mellitus]], [[notes/_link/Aging]], [[Epigenetics]], [[Epigenome]], [[DNA Methylation]], [[Histone Modification]], [[notes/_link/SIRT1]], [[notes/_link/mTOR]], [[Cellular Senescence]], [[Epigenetic Clock]], [[DNAmGrimAge]], [[notes/_link/Metformin]], [[notes/_link/Resveratrol]], [[Metabolic Syndromes]]
+- New links added: [[notes/_link/Diabetes Mellitus]], [[notes/_link/Aging]], [[Epigenetics]], [[Epigenome]], [[DNA Methylation]], [[Histone Modification]], [[notes/sirtuins/SIRT1]], [[notes/_link/mTOR]], [[Cellular Senescence]], [[Epigenetic Clock]], [[DNAmGrimAge]], [[notes/_link/Metformin]], [[notes/_link/Resveratrol]], [[Metabolic Syndromes]]
 - Suggested new entity notes to create: [[Metabolic Memory]], [[Insulin Resistance]], [[Hyperglycemia]]
 - Strong connections to strengthen: [[notes/_link/Diabetes Mellitus]] ↔ [[notes/_link/Aging]], [[notes/_link/Diabetes Mellitus]] ↔ [[notes/_link/Metformin]]
 
@@ -35,6 +35,6 @@ Many anti-aging interventions, such as [[notes/_link/Metformin]] and [[notes/_li
 
 
 ### Linking Summary:
-- New links added: [[notes/_link/Aging]], [[Cellular Senescence]], [[DNA Methylation]], [[DNAmGrimAge]], [[notes/_link/Diabetes Mellitus]], [[Epigenetic Clock]], [[Epigenetics]], [[Epigenome]], [[Histone Modification]], [[Metabolic Syndromes]], [[notes/_link/Metformin]], [[notes/_link/Resveratrol]], [[notes/_link/SIRT1]], [[notes/_link/mTOR]]
+- New links added: [[notes/_link/Aging]], [[Cellular Senescence]], [[DNA Methylation]], [[DNAmGrimAge]], [[notes/_link/Diabetes Mellitus]], [[Epigenetic Clock]], [[Epigenetics]], [[Epigenome]], [[Histone Modification]], [[Metabolic Syndromes]], [[notes/_link/Metformin]], [[notes/_link/Resveratrol]], [[notes/sirtuins/SIRT1]], [[notes/_link/mTOR]]
 - Suggested new entity notes to create: [[Hyperglycemia]], [[Insulin Resistance]], [[Metabolic Memory]]
 - Strong connections to strengthen: [[notes/_link/Diabetes Mellitus]] ↔ [[notes/_link/Aging]], [[notes/_link/Diabetes Mellitus]] ↔ [[notes/_link/Metformin]]

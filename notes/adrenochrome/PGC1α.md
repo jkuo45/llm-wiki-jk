@@ -4,7 +4,7 @@ PGC1α (Peroxisome proliferator-activated receptor gamma coactivator 1-alpha) is
 
 ## Function
 
-PGC1α coordinates the expression of genes involved in mitochondrial respiration, fat oxidation, and thermogenesis. It is activated by energy-sensing pathways, including [[AMPK]] (via phosphorylation) and [[SIRT1]] (via deacetylation), in response to exercise, caloric restriction, or cold exposure.
+PGC1α coordinates the expression of genes involved in mitochondrial respiration, fat oxidation, and thermogenesis. It is activated by energy-sensing pathways, including [[AMPK]] (via phosphorylation) and [[notes/sirtuins/SIRT1]] (via deacetylation), in response to exercise, caloric restriction, or cold exposure.
 
 ## Role in Mitohormesis
 
@@ -13,12 +13,12 @@ PGC1α is a key effector in the [[Mitohormesis]] paradigm, as it not only increa
 ## Related Entities
 
 - [[AMPK]]
-- [[SIRT1]]
+- [[notes/sirtuins/SIRT1]]
 - [[Mitochondria]]
 - [[Mitohormesis]]
 
 ## Linking Summary
 
-- New links added: [[AMPK]], [[SIRT1]], [[Mitochondria]], [[Mitohormesis]], [[Mitohormetic Redox-Relay]]
+- New links added: [[AMPK]], [[notes/sirtuins/SIRT1]], [[Mitochondria]], [[Mitohormesis]], [[Mitohormetic Redox-Relay]]
 - Suggested new entity notes to create: [[Mitochondrial biogenesis]]
 - Strong connections to strengthen: [[PGC1α]] ↔ [[Metabolic Homeostasis]], [[PGC1α]] ↔ [[Mitohormetic Redox-Relay]]

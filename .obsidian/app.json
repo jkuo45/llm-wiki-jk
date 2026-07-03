@@ -5,8 +5,7 @@
     "/.*GEMINI\\.md/",
     "/(^|\\/)(\\[document\\]|_document_).*/",
     "/^tasks//",
-    "/^prompts//",
-    "notes/autism/"
+    "/^prompts//"
   ],
   "newFileLocation": "current",
   "attachmentFolderPath": "./",
@@ -16,5 +15,6 @@
     "landscape": true,
     "margin": "2",
     "downscalePercent": 75
-  }
+  },
+  "strictLineBreaks": true
 }

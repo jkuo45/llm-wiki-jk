@@ -15,7 +15,7 @@ The relationship between **[[Epigenetics]]**, **[[notes/_link/Aging]]**, and **C
 ## 1. Key Epigenetic Mechanisms in CVD
 
 *   **[[DNA Methylation]] and [[Epigenetic Clock]]s:** Global DNA hypomethylation occurs with age, leading to [[Genomic Instability]]. Conversely, specific promoter regions of "atheroprotective" genes often become hypermethylated and silenced. Tools like [[DNAmGrimAge]] use DNA methylation patterns to calculate "biological age." Individuals with accelerated epigenetic aging have a significantly higher risk of myocardial infarction, stroke, and heart failure.
-*   **[[Histone Modification]]s:** Age-related declines in [[Sirtuin]]s (e.g., [[notes/_link/SIRT1]]), which are NAD+-dependent deacetylases, lead to increased histone acetylation and the activation of pro-inflammatory and pro-fibrotic pathways. This contributes to cardiac hypertrophy and vascular stiffening.
+*   **[[Histone Modification]]s:** Age-related declines in [[Sirtuin]]s (e.g., [[notes/sirtuins/SIRT1]]), which are NAD+-dependent deacetylases, lead to increased histone acetylation and the activation of pro-inflammatory and pro-fibrotic pathways. This contributes to cardiac hypertrophy and vascular stiffening.
 *   **[[Non-coding RNA]] (ncRNAs):** Specific [[MicroRNA]] (miRNAs) and long non-coding RNAs (lncRNAs) are dysregulated in the aging heart. Some miRNAs promote [[Cellular Senescence]] in endothelial cells, while others are linked to increased cardiac fibrosis after injury.
 
 
@@ -41,7 +41,7 @@ The reversible nature of epigenetic modifications makes them attractive targets 
 
 
 ## Linking Summary:
-- New links added: [[Epigenetics]], [[notes/_link/Aging]], [[DNA Methylation]], [[Genomic Instability]], [[Epigenetic Clock]], [[DNAmGrimAge]], [[Histone Modification]], [[Sirtuin]], [[notes/_link/SIRT1]], [[Non-coding RNA]], [[MicroRNA]], [[Cellular Senescence]], [[notes/_link/Atherosclerosis]], [[notes/_link/Caloric Restriction]], [[notes/_link/Resveratrol]], [[HDAC]], [[Senolytics]].
+- New links added: [[Epigenetics]], [[notes/_link/Aging]], [[DNA Methylation]], [[Genomic Instability]], [[Epigenetic Clock]], [[DNAmGrimAge]], [[Histone Modification]], [[Sirtuin]], [[notes/sirtuins/SIRT1]], [[Non-coding RNA]], [[MicroRNA]], [[Cellular Senescence]], [[notes/_link/Atherosclerosis]], [[notes/_link/Caloric Restriction]], [[notes/_link/Resveratrol]], [[HDAC]], [[Senolytics]].
 - Suggested new entity notes to create: [[Endothelial Dysfunction]], [[Vascular Stiffening]], [[Cardiac Fibrosis]], [[notes/_link/Inflammaging]].
 - Strong connections to strengthen: [[notes/_link/Cardiovascular Disease]] ↔ [[notes/_link/Aging]], [[notes/_link/Cardiovascular Disease]] ↔ [[DNA Methylation]]
 
@@ -80,6 +80,6 @@ Genetic variation in [[notes/_link/COMT]], particularly the [[Val158Met]] [[SNP]
 ---
 
 ### Linking Summary:
-- New links added: [[notes/_link/AMPK]], [[notes/_link/Aging]], [[Aspirin]], [[Atg5]], [[notes/_link/Atherosclerosis]], [[Autophagic Flux]], [[notes/_link/Autophagy]], [[notes/_link/COMT]], [[notes/_link/Caloric Restriction]], [[Cardiomyocyte Toxicity]], [[Catecholamines]], [[Cellular Senescence]], [[DNA Methylation]], [[DNAmGrimAge]], [[Epigenetic Clock]], [[Epigenetics]], [[notes/_link/Epinephrine]], [[Genomic Instability]], [[HDAC]], [[Histone Modification]], [[Intermittent Fasting]], [[Ischemia-reperfusion Injury]], [[MicroRNA]], [[Myocardial Infarction]], [[Non-coding RNA]], [[notes/_link/Norepinephrine]], [[notes/_link/Resveratrol]], [[notes/_link/SIRT1]], [[SNP]], [[Senolytics]], [[Sirtuin]], [[Val158Met]], [[Ventricular Remodeling]]
+- New links added: [[notes/_link/AMPK]], [[notes/_link/Aging]], [[Aspirin]], [[Atg5]], [[notes/_link/Atherosclerosis]], [[Autophagic Flux]], [[notes/_link/Autophagy]], [[notes/_link/COMT]], [[notes/_link/Caloric Restriction]], [[Cardiomyocyte Toxicity]], [[Catecholamines]], [[Cellular Senescence]], [[DNA Methylation]], [[DNAmGrimAge]], [[Epigenetic Clock]], [[Epigenetics]], [[notes/_link/Epinephrine]], [[Genomic Instability]], [[HDAC]], [[Histone Modification]], [[Intermittent Fasting]], [[Ischemia-reperfusion Injury]], [[MicroRNA]], [[Myocardial Infarction]], [[Non-coding RNA]], [[notes/_link/Norepinephrine]], [[notes/_link/Resveratrol]], [[notes/sirtuins/SIRT1]], [[SNP]], [[Senolytics]], [[Sirtuin]], [[Val158Met]], [[Ventricular Remodeling]]
 - Suggested new entity notes to create: [[notes/_link/AMPK]], [[Autophagic Flux]], [[notes/_link/Caloric Restriction]], [[Cardiac Fibrosis]], [[Cardiomyocyte Toxicity]], [[Endothelial Dysfunction]], [[notes/_link/Inflammaging]], [[Intermittent Fasting]], [[Ischemia-reperfusion Injury]], [[Myocardial Infarction]], [[Vascular Stiffening]], [[Ventricular Remodeling]]
 - Strong connections to strengthen: [[notes/_link/Cardiovascular Disease]] ↔ [[notes/_link/Aging]], [[notes/_link/Cardiovascular Disease]] ↔ [[notes/_link/Autophagy]], [[notes/_link/Cardiovascular Disease]] ↔ [[DNA Methylation]], [[notes/_link/Cardiovascular Disease]] ↔ [[Myocardial Infarction]]

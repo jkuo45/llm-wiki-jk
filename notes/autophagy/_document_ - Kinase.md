@@ -26,7 +26,7 @@
 | **S134**                            | Phosphorylation   | [[GSK3β]]       | Lysosomal localization                                                                       | 27617930          |
 | **S109 and S114**                   | Dephosphorylation | [[PP2A]]        | Nucleus translocation                                                                        | 29945972          |
 | **K116**                            | Acetylation       | [[ACAT1]]       | Hindering TFEB binding to the DNA                                                            | 30059277          |
-| **K116**                            | Deacetylation     | [[SIRT1]]       | Enhancing transcriptional activity                                                           | 27209302          |
+| **K116**                            | Deacetylation     | [[notes/sirtuins/SIRT1]]       | Enhancing transcriptional activity                                                           | 27209302          |
 | **K91, K103 and K430**              | Acetylation       | [[ACAT1]]       | Promoting nuclear translocation and binding to DNA                                           | 30059277          |
 | **K274 and K279**                   | Acetylation       | [[GCN5]]        | Hindering TFEB binding to the DNA                                                            | 31750630          |
 | **–**                               | Ubiquitination    | [[STUB1]]       | Enhancing activity                                                                           | 28754656          |

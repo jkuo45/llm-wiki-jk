@@ -19,7 +19,7 @@ This directory contains entities that span across multiple topics within the kno
 | [[Atherosclerosis]]                      | 29_May_2026 08:20 AM | Medical Condition   | Cardiovascular                                  |
 | [[Autophagy]]                            | 29_May_2026 08:20 AM | Biological Process  | Longevity, Proteostasis                         |
 | [[Breast Cancer]]                        | 29_May_2026 08:20 AM | Medical Condition   | Cancer                                          |
-| [[Caloric Restriction]]                  | 29_May_2026 08:20 AM | Biological Process  | Longevity                                       |
+| [[notes/_link/Caloric Restriction]]                  | 29_May_2026 08:20 AM | Biological Process  | Longevity                                       |
 | [[Cancer]]                               | 29_May_2026 08:20 AM | Medical Condition   | Oncology                                        |
 | [[Cardiovascular Disease]]               | 29_May_2026 08:20 AM | Medical Condition   | Cardiology                                      |
 | [[Colorectal Cancer]]                    | 29_May_2026 08:20 AM | Medical Condition   | Cancer                                          |
@@ -66,7 +66,7 @@ This directory contains entities that span across multiple topics within the kno
 | [[Schizophrenia]]                        | 29_May_2026 08:20 AM | Medical Condition   | Psychiatry                                      |
 | [[Senescence]]                           | 31_May_2026 06:45 PM | Biological Process  | Aging, Cancer                                   |
 | [[Serotonin]]                            | 25_May_2026 05:23 PM | Biological Molecule | Neurotransmitter                                |
-| [[SIRT1]]                                | 29_May_2026 08:20 AM | Enzyme              | Longevity, Epigenetics                          |
+| [[notes/sirtuins/SIRT1]]                                | 29_May_2026 08:20 AM | Enzyme              | Longevity, Epigenetics                          |
 | [[Spermidine]]                           | 29_May_2026 08:20 AM | Chemical Compound   | Longevity                                       |
 | [[STAT3]]                                | 29_May_2026 08:20 AM | Protein             | Signaling, Inflammation                         |
 | [[Substantia Nigra]]                     | 29_May_2026 08:20 AM | Anatomy             | Neuroscience                                    |

@@ -164,7 +164,7 @@ This directory contains notes and research regarding [[notes/_link/Cancer]], wit
 | [[Satoshi Ōmura]] | 21_May_2026 06:20 PM PDT | Person | 4 | 1 | Provided historical, scientific, or institutional context for the research. |
 | [[Scabies]] | 21_May_2026 06:20 PM PDT | Medical Condition | 6 | -1 | Condition historically associated with the compounds before their repurposing. |
 | [[Simulium]] | 21_May_2026 06:20 PM PDT | Microorganism | 6 | -1 | Related to the original anti-parasitic application of the discussed drugs. |
-| [[notes/_link/SIRT1]] | 30_May_2026 07:45 PM PDT | Enzyme | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
+| [[notes/sirtuins/SIRT1]] | 30_May_2026 07:45 PM PDT | Enzyme | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
 | [[Smac/DIABLO]] | 31_May_2026 05:30 PM PDT | Protein | 8 | 0 | Mitochondrial protein that neutralizes IAPs to promote apoptosis. |
 | [[notes/_link/STAT3]] | 31_May_2026 05:30 PM PDT | Protein | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
 | [[Strongyloides]] | 21_May_2026 06:20 PM PDT | Microorganism | 6 | -1 | Related to the original anti-parasitic application of the discussed drugs. |
