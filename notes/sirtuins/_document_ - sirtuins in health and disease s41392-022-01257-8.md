@@ -4,6 +4,7 @@ source: s41392-022-01257-8.pdf
 tags:
   - pdf
   - parsed
+type: document
 ---
 	
 Signal Transduction and Targeted Therapy 

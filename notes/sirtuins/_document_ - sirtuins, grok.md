@@ -3,6 +3,7 @@ title: sirtuins, grok
 tags:
   - grok
 created: 2026-07-01
+type: document
 ---
 
 # Sirtuins Overview

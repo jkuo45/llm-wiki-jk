@@ -4,6 +4,7 @@ source: Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i.pdf
 tags:
   - pdf
   - parsed
+type: document
 ---
 
 NIH Public Access **Author Manuscript** 
