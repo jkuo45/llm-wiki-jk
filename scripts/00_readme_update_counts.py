@@ -5,6 +5,19 @@ import urllib.parse
 from datetime import datetime
 
 
+def format_number(n):
+    """Return an integer formatted with thousands separators (e.g. 12,345)."""
+    return f"{n:,}"
+
+
+def format_size(size_bytes):
+    """Return a human-readable file size string (B / KB / MB / GB)."""
+    for unit, threshold in [("GB", 1024**3), ("MB", 1024**2), ("KB", 1024)]:
+        if size_bytes >= threshold:
+            return f"{size_bytes / threshold:.2f} {unit}"
+    return f"{size_bytes} B"
+
+
 def get_timestamp():
     # Using local timezone with astimezone() as requested.
     # The project timestamp format is %d_%b_%Y %I:%M %p %Z
@@ -36,8 +49,7 @@ def get_dir_size_and_count(directory):
                     total_files += 1
                     if f.endswith(".md"):
                         total_words += count_words(fp)
-    total_mb = total_size / (1024 * 1024)
-    return total_files, total_mb, total_words
+    return total_files, total_size, total_words
 
 
 def main():
@@ -118,7 +130,7 @@ def main():
                 datetime
                 .fromtimestamp(mtime)
                 .astimezone()
-                .strftime("%d_%b_%Y %I:%M %p %Z")
+                .strftime("%d_%b_%Y %I")
                 .upper()
             )
             word_count = count_words(doc)
@@ -131,7 +143,7 @@ def main():
 
     # Prepare new content
     new_timestamp = get_timestamp()
-    total_files, total_mb, total_words = get_dir_size_and_count(notes_dir)
+    total_files, total_size, total_words = get_dir_size_and_count(notes_dir)
 
     topics_table = [
         "| topic | last updated | count entities |",
@@ -147,7 +159,9 @@ def main():
     ]
     for d in document_data:
         doc_link = f"[{d['path']}](https://github.com/jkuo45/llm-wiki/blob/main/{urllib.parse.quote(d['path'], safe='/')})"
-        docs_table.append(f"| {d['topic']} | {d['date']} | {doc_link} | {d['words']} |")
+        docs_table.append(
+            f"| {d['topic']} | {d['date']} | {doc_link} | {format_number(d['words'])} |"
+        )
 
     # Construct full README content
     readme_content = [
@@ -158,10 +172,10 @@ def main():
         "---",
         "## notes directory stats",
         f"- last updated: {new_timestamp}",
-        f"- **subtotal files:** {total_files}",
-        f"- **subtotal documents:** {len(document_data)}",
-        f"- **subtotal words:** {total_words}",
-        f"- **subtotal size:** {total_mb:.2f} MB",
+        f"- **subtotal file count:** {format_number(total_files)}",
+        f"- **subtotal documents:** {format_number(len(document_data))}",
+        f"- **subtotal word count:** {format_number(total_words)}",
+        f"- **subtotal size:** {format_size(total_size)}",
         "\n---",
         "## document list\n",
         "\n".join(docs_table),
