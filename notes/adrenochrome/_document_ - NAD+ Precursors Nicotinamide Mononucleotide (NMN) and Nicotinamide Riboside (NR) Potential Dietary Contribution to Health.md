@@ -20,7 +20,7 @@ PMCID: PMC10240123 PMID: [37273100](https://pubmed.ncbi.nlm.nih.gov/37273100/)
 
 ### Purpose of Review
 
-NAD+ is a vital molecule that takes part as a redox cofactor in several metabolic reactions besides being used as a substrate in important cellular signaling in regulation pathways for energetic, genotoxic, and infectious stress. In stress conditions, NAD+ biosynthesis and levels decrease as well as the activity of consuming enzymes rises. Dietary precursors can promote [[notes/_link/NAD+|NAD+]] biosynthesis and increase intracellular levels, being a potential strategy for reversing physiological decline and preventing diseases. In this review, we will show the biochemistry and metabolism of NAD+ precursors NR ([[notes/_link/Nicotinamide Riboside|nicotinamide riboside]]) and NMN ([[notes/_link/Nicotinamide Mononucleotide|nicotinamide mononucleotide]]), the latest findings on their beneficial physiological effects, their interplay with gut microbiota, and the future perspectives for research in nutrition and food science fields.
+NAD+ is a vital molecule that takes part as a redox cofactor in several metabolic reactions besides being used as a substrate in important cellular signaling in regulation pathways for energetic, genotoxic, and infectious stress. In stress conditions, NAD+ biosynthesis and levels decrease as well as the activity of consuming enzymes rises. Dietary precursors can promote [[NAD+|NAD+]] biosynthesis and increase intracellular levels, being a potential strategy for reversing physiological decline and preventing diseases. In this review, we will show the biochemistry and metabolism of NAD+ precursors NR ([[notes/_link/Nicotinamide Riboside|nicotinamide riboside]]) and NMN ([[notes/_link/Nicotinamide Mononucleotide|nicotinamide mononucleotide]]), the latest findings on their beneficial physiological effects, their interplay with gut microbiota, and the future perspectives for research in nutrition and food science fields.
 
 ### Recent Findings
 
@@ -553,6 +553,6 @@ Springer Nature remains neutral with regard to jurisdictional claims in publishe
 [^141]: 149.Seldeen KL, Shahini A, Thiyagarajan R, Redae Y, Leiker M, Rajabian N, et al. Short-term nicotinamide riboside treatment improves muscle quality and function in mice and increases cellular energetics and differentiating capacity of myogenic progenitors. Nutrition \[Internet\]. 2021;87–88:111189. Available from: [https://www.sciencedirect.com/science/article/pii/S0899900721000514](https://www.sciencedirect.com/science/article/pii/S0899900721000514). \[[DOI](https://doi.org/10.1016/j.nut.2021.111189)\] \[[PMC free article](https://pmc.ncbi.nlm.nih.gov/articles/PMC8713751/)\] \[[PubMed](https://pubmed.ncbi.nlm.nih.gov/33744645/)\]
 
 ### Linking Summary
-- New links added: [[notes/_link/Nicotinamide Mononucleotide|nicotinamide mononucleotide]], [[notes/_link/Nicotinamide Riboside|nicotinamide riboside]], [[notes/_link/NAD+|NAD+]], [[CD38]], [[CD157]], [[SARM1]]
+- New links added: [[notes/_link/Nicotinamide Mononucleotide|nicotinamide mononucleotide]], [[notes/_link/Nicotinamide Riboside|nicotinamide riboside]], [[NAD+|NAD+]], [[CD38]], [[CD157]], [[SARM1]]
 - Suggested new entity notes to create: [[Nicotinamide phosphoribosyltransferase]], [[Preiss-Handler pathway]]
-- Strong connections to strengthen: [[notes/_link/Nicotinamide Mononucleotide]] ↔ [[notes/_link/NAD+]]
+- Strong connections to strengthen: [[notes/_link/Nicotinamide Mononucleotide]] ↔ [[NAD+]]
