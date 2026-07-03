@@ -196,7 +196,7 @@ CD38 is a major therapeutic target in cancer, primarily through monoclonal antib
 
 [link.springer.com](https://link.springer.com/article/10.1186/s12967-024-05768-6)
 
-1\. CD38 Expression and Dual Roles in Cancer
+### CD38 Expression and Dual Roles in Cancer
 
 CD38 is a multifunctional transmembrane glycoprotein (ADP-ribosyl cyclase) involved in NAD+ metabolism, calcium signaling (via cADPR, NAADP), and immune regulation. It is highly expressed on:
 - Malignant plasma cells in multiple myeloma (primary target).
@@ -210,7 +210,7 @@ In immunity: It sustains immunosuppressive cells while also being expressed on s
 
 [frontiersin.org](https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1745988/full)
 
-2\. Approved Therapies: Anti-CD38 Monoclonal Antibodies in Multiple Myeloma
+###  Approved Therapies: Anti-CD38 Monoclonal Antibodies in Multiple Myeloma
 
 Daratumumab (Darzalex, first approved 2015) and isatuximab (Sarclisa, approved 2020/2021) are IgG1 mAbs that bind distinct epitopes on CD38.
 
@@ -229,7 +229,7 @@ They are transformative in MM:
 - Other mAbs (e.g., felzartamab/MOR202, mezagitamab/TAK079) are in trials.
 	[link.springer.com](https://link.springer.com/article/10.1186/s12967-024-05768-6)
 
-3\. Expanding Use in Solid Tumors and Combinations
+### Expanding Use in Solid Tumors and Combinations
 
 CD38 targeting is being explored to remodel the immunosuppressive TME:
 - Depletes suppressive cells (Tregs, MDSCs, etc.), potentially overcoming resistance to checkpoint inhibitors (e.g., anti-PD-1).
@@ -238,7 +238,7 @@ CD38 targeting is being explored to remodel the immunosuppressive TME:
 - Potential in lung cancer, glioblastoma, prostate, etc., though less mature than in MM.
 	[onlinelibrary.wiley.com](https://onlinelibrary.wiley.com/doi/full/10.1002/cam4.6619)
 
-4\. Emerging Strategies
+### Emerging Strategies
 
 - Small-molecule inhibitors: Enzymatic inhibitors (e.g., RBN013209) block NAD+ consumption/cADPR production; explored for immunostimulation (e.g., NK enhancement in neuroblastoma) or NAD+ boosting. Preclinical/promising for immunotherapy combos.
 	[aacrjournals.org](https://aacrjournals.org/cancerres/article/85/8_Supplement_1/835/755206/Abstract-835-A-potent-and-selective-small-molecule)
@@ -248,7 +248,7 @@ CD38 targeting is being explored to remodel the immunosuppressive TME:
 	[link.springer.com](https://link.springer.com/article/10.1186/s12967-024-05768-6)
 - Combinations: With IMiDs, proteasome inhibitors, checkpoint blockade, or metabolic modulators.
 
-5\. Challenges and Risks
+### Challenges and Risks
 
 - Infections: Increased risk of any-grade/severe infections (including pneumonia) due to immune modulation and plasma cell depletion; prophylaxis important. No clear excess mortality in some analyses.
 	[pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC9685179/)
