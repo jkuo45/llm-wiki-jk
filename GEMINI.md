@@ -35,11 +35,35 @@
 - Suggested new entity notes to create: [[Missing Concept]]
 - Strong connections to strengthen: [[Note A]] ↔ [[Note B]]
 
+### Semantic Metadata & Properties (Open Knowledge Format, OKF)
+
+When creating or updating a note, include the following frontmatter block:
+
+---
+
+type: entity # [entity | concept | hub]
+category: # [gene | protein | enzyme | disease | chemical | pathway | method]
+aliases: [] # Alternative names, abbreviations, acronyms
+database_ids:
+mesh: # Medical Subject Headings ID if available (e.g., D008164)
+uniprot: # UniProt ID for proteins (e.g., P04637)
+hgnc: # HGNC ID for genes (e.g., HGNC:11998)
+chebi: # ChEBI ID for chemicals/compounds
+relations:
+
+- predicate: # [associated_with | inhibits | activates | regulates | treats | causes]
+  target: "[[Target Entity]]"
+  sources: [] # DOIs, PMIDs, or reference document names
+  created: YYYY-MM-DD
+  updated: YYYY-MM-DD
+
+---
+
 ### Output Format:
 
 - Return the FULL updated Markdown content with all new [[links]] inserted. At the very end, add a section:
 
-### Orphan Link Resolution (on user request):
+## Orphan Link Resolution (on user request):
 
 Maintain link integrity by performing periodic audits:
 
@@ -52,7 +76,7 @@ Maintain link integrity by performing periodic audits:
   - Use a standardized template: `# Title`, a short paragraph context, and a `Linking Summary`.
 - **Automation**: Use `uv run` to perform batch updates to minimize manual errors and ensure workspace-wide consistency.
 
-### Overlapping Link Resolution (on user request):
+## Overlapping Link Resolution (on user request):
 
 - The scope of this task is entities and topics in the notes directory.
 - This process does not need to be ran while extracting entities or triples.
