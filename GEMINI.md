@@ -35,12 +35,22 @@
   When modifying existing notes, never rewrite or delete any existing content. Only append new information. Insert links naturally, add new subsections or sections toward the end of relevant areas, and preserve the user's original voice and structure completely. Always update the updated: frontmatter date.
   - Prioritize adding value incrementally.
   - Update the `updated:` date in frontmatter.
-
-- Depth First: Do not produce shallow summaries. Expand with mechanisms, historical context, key studies, controversies, open questions, and clinical/research implications. Target 800–3000+ words for established entities (scale appropriately for narrower topics).
-
-- Evidence-Based: Ground everything in real scientific understanding. Reference landmark papers, meta-analyses, and recent reviews (include PMIDs/DOIs where possible).
-
-- Neutral & Precise: Use formal but accessible language. Clearly distinguish established facts from emerging or controversial findings.
+- Each topic contains a default linking entity file (e.g. notes/adrenochrome/Adrenochrome.md).
+  - This file can be used for Obsidian file merging.
+  - Do not create in \_link, append additional content, context to the entity file.
+  - Examples:
+    - 'notes/autophagy/Autophagy.md'
+    - 'notes/cancer/Cancer.md'
+    - 'notes/comt/COMT.md'
+    - 'notes/epigenetics/Epigenetics.md'
+    - 'notes/neuromelanin/Neuromelanin.md'
+    - 'notes/oxidative_stress/Oxidative Stress.md'
+    - 'notes/sirtuins/Sirtuins.md'
+- **Context-dependent content:** Adapt depth, focus, and tone according to the entity type and available scientific literature. For well-studied topics, synthesize multiple high-impact scientific articles, reviews, and meta-analyses. Prioritize recent, high-quality papers (include key PMIDs/DOIs) and clearly distinguish established knowledge from emerging findings.
+- Use scientific articles as the primary foundation for all new content. When appending, integrate insights from relevant studies rather than generic knowledge.
+- **Depth First:** Do not produce shallow summaries. Expand with mechanisms, historical context, key studies, controversies, open questions, and clinical/research implications. Target 800–3000+ words for established entities (scale appropriately for narrower topics).
+- **Evidence-Based:** Ground everything in real scientific understanding. Reference landmark papers, meta-analyses, and recent reviews (include PMIDs/DOIs where possible).
+- **Neutral & Precise:** Use formal but accessible language. Clearly distinguish established facts from emerging or controversial findings.
   Interconnectedness: Make the note a hub that intelligently links to related concepts.
 
 - Example for new entities:
@@ -145,16 +155,20 @@ Rules:
 - Predicates should be clear verbs/relations (e.g., "causes", "is a type of", "outperforms").
 - Focus on non-obvious, useful relations. Avoid trivial ones.
 - Resolve coreferences.
-
-Write file to (project root): 'tasks/task_output_triples\_[timestamp].json'
+- Each topic contains and consolidated triples file.
+  - Example:
+    - 'notes/sirtuins/\_triples_sirtuin.json'
+    - 'notes/oxidative_stress/\_triples_oxidative_stress.json'
+- The goal is to keep each .json file in sync with ingested documents in that topic.
 
 **Create directed graph analysis**
 
 - In scripts directory, execute visualize triples python script with output.json.
-- Output graphviz in .png and .svg to the tasks directory.
+- Output graphviz in .png, .svg, .dot to the tasks directory.
 - If not output/export name is provided, name the file(s).
   - 'tasks/task_output\_[timestamp].svg'
   - 'tasks/task_output\_[timestamp].png'
+  - 'tasks/task_output\_[timestamp].dot'
 
 ## Entity Type Schema:
 

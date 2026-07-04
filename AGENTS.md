@@ -155,16 +155,20 @@ Rules:
 - Predicates should be clear verbs/relations (e.g., "causes", "is a type of", "outperforms").
 - Focus on non-obvious, useful relations. Avoid trivial ones.
 - Resolve coreferences.
-
-Write file to (project root): 'tasks/task_output_triples\_[timestamp].json'
+- Each topic contains and consolidated triples file.
+  - Example:
+    - 'notes/sirtuins/\_triples_sirtuin.json'
+    - 'notes/oxidative_stress/\_triples_oxidative_stress.json'
+- The goal is to keep each .json file in sync with ingested documents in that topic.
 
 **Create directed graph analysis**
 
 - In scripts directory, execute visualize triples python script with output.json.
-- Output graphviz in .png and .svg to the tasks directory.
+- Output graphviz in .png, .svg, .dot to the tasks directory.
 - If not output/export name is provided, name the file(s).
   - 'tasks/task_output\_[timestamp].svg'
   - 'tasks/task_output\_[timestamp].png'
+  - 'tasks/task_output\_[timestamp].dot'
 
 ## Entity Type Schema:
 
