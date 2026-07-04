@@ -1,3 +1,16 @@
+---
+type: entity
+category: "chemical"
+aliases:
+  - "4',5,7-trihydroxyisoflavone"
+tags:
+  - "oxidative_stress"
+  - "flavonoid"
+  - "phytoestrogen"
+created: 2026-05-09
+updated: 2026-07-04
+---
+
 # Genistein
 Genistein is an isoflavone that is described as an angiogenesis inhibitor and a phytoestrogen. It belongs to the class of [[Flavonoids]] and exhibits significant antioxidant activity, contributing to the total pool of dietary [[notes/_link/Antioxidants]].
 
@@ -5,3 +18,65 @@ Genistein is an isoflavone that is described as an angiogenesis inhibitor and a 
 - New links added: [[Flavonoids]], [[notes/_link/Antioxidants]], [[Angiogenesis]], [[Phytoestrogen]]
 - Suggested new entity notes to create: [[Angiogenesis]], [[Phytoestrogen]]
 - Strong connections to strengthen: [[Genistein]] ↔ [[Flavonoids]]
+
+## Chemical Structure and Redox Properties
+
+Genistein (4′,5,7-trihydroxyisoflavone) possesses three hydroxyl groups at positions 4′, 5, and 7, which confer its radical-scavenging and metal-chelating capacity. The isoflavone structure differs from other flavonoids in that its B-ring is attached at the C-3 position (rather than C-2), which alters its electron distribution and reduction potential. Genistein efficiently scavenges [[notes/oxidative_stress/Peroxynitrite]] (ONOO⁻) and [[notes/oxidative_stress/Hydroxyl Radicals]] (•OH) but is less effective against [[notes/oxidative_stress/Superoxide Radicals]] compared to flavonols like [[notes/_link/Quercetin]].
+
+## Molecular Mechanisms in Oxidative Stress
+
+### NRF2/KEAP1 Pathway Activation
+
+Genistein upregulates the antioxidant transcription factor [[NRF2]] via multiple mechanisms:
+- **Covalent modification of KEAP1 cysteine residues** (particularly Cys151, Cys273, Cys288), disrupting KEAP1-mediated NRF2 ubiquitination
+- **Enhanced NRF2 nuclear translocation** and binding to antioxidant response elements (AREs)
+- **Induction of phase II enzymes**: [[notes/oxidative_stress/Glutathione Peroxidase]], [[notes/oxidative_stress/Catalase]], heme oxygenase-1 (HO-1), NAD(P)H:quinone oxidoreductase 1 (NQO1), and [[notes/oxidative_stress/Catalase]]
+
+This coordinated upregulation of the endogenous antioxidant network provides sustained cytoprotection beyond direct radical scavenging.
+
+### Estrogen Receptor-Mediated Antioxidant Effects
+
+As a [[notes/_link/Phytoestrogen]], genistein binds to [[notes/_link/Estrogen]] receptors (ERα and ERβ) with higher affinity for ERβ. ERβ activation upregulates [[notes/oxidative_stress/Superoxide Dismutase]] (SOD) and [[notes/oxidative_stress/Glutathione Peroxidase]] expression, particularly in vascular endothelium and neurons. This ER-dependent antioxidant action is distinct from direct radical scavenging and may underlie many of genistein's vascular protective effects in postmenopausal contexts.
+
+### Inhibition of Pro-oxidant Enzymes
+
+Genistein suppresses ROS generation by:
+- **Inhibiting [[notes/oxidative_stress/NADPH Oxidase]]** (NOX) activity: Reducing superoxide production in endothelial cells and [[notes/_link/Macrophage|macrophages]]
+- **Suppressing [[notes/oxidative_stress/Xanthine Oxidase]]**: Attenuating purine catabolism-derived ROS
+- **Chelating transition metals**: Sequestering Fe²⁺ and Cu⁺ to prevent [[notes/oxidative_stress/Fenton reaction|Fenton chemistry]] and subsequent [[notes/oxidative_stress/Lipid Peroxidation]]
+
+### Tyrosine Kinase Inhibition and Redox Signaling
+
+Genistein is a broad-spectrum **protein tyrosine kinase (PTK) inhibitor** that competes with [[ATP]] at the catalytic domain. This property links genistein to redox signaling:
+- **Inhibition of [[notes/_link/EGFR]] and [[notes/_link/Src]] kinases**: Blocking downstream [[notes/_link/MAPK]]/[[notes/oxidative_stress/NF-kappa B]] signaling that amplifies oxidative stress
+- **Suppression of [[notes/oxidative_stress/TNF-alpha]] signaling**: Reducing NF-κB-mediated pro-inflammatory and pro-oxidant gene expression
+- **Modulation of [[notes/_link/PI3K]]/[[notes/_link/Akt]] pathway**: Affecting [[notes/_link/mTOR]]-dependent redox balance
+
+### Nitric Oxide and Endothelial Function
+
+Genistein enhances [[notes/_link/Nitric Oxide]] (NO) bioavailability by:
+- **Upregulating [[notes/oxidative_stress/Nitric Oxide Synthase|eNOS]] expression**: Via ERβ- and [[notes/_link/PPARγ]]-dependent transcriptional mechanisms
+- **Scavenging [[notes/oxidative_stress/Superoxide Radicals]]**: Preventing NO quenching and [[notes/oxidative_stress/Peroxynitrite]] formation
+- **Inhibiting [[notes/oxidative_stress/NADPH Oxidase]]**: Reducing superoxide-mediated NO inactivation
+- **Enhancing [[notes/oxidative_stress/Endothelial Dysfunction]] reversal**: Improving flow-mediated dilation in clinical studies
+
+## Pathological and Clinical Significance
+
+### Cardiovascular Protection
+Genistein reduces [[notes/oxidative_stress/LDL]] oxidation, a key initiating event in [[notes/_link/Atherosclerosis]], and suppresses [[notes/oxidative_stress/VCAM-1]] expression, limiting monocyte adhesion. These combined effects reduce foam cell formation and plaque progression.
+
+### Cancer Chemoprevention
+Genistein induces [[Apoptosis]] in cancer cells through:
+- **ROS-mediated [[notes/_link/p53]] activation**: Triggering mitochondrial outer membrane permeabilization
+- **Inhibition of [[notes/_link/NFKB]]**: Suppressing anti-apoptotic gene expression
+- **Topoisomerase II inhibition**: Inducing DNA damage selectively in cancer cells
+
+### Neuroprotection
+In models of [[notes/_link/Parkinson's Disease]] and [[notes/_link/Alzheimer's Disease]], genistein protects [[notes/_link/Dopaminergic Neurons]] from oxidative injury by upregulating [[notes/oxidative_stress/Glutathione Peroxidase]] and reducing [[notes/_link/Alpha-synuclein]] aggregation.
+
+### Connections
+- [[notes/oxidative_stress/Flavonoids]]: Genistein as a prototypical isoflavone antioxidant
+- [[notes/_link/Estrogen]]: Mediating ER-dependent antioxidant gene expression
+- [[notes/oxidative_stress/Peroxynitrite]]: Directly scavenged by genistein
+- [[notes/_link/MicroRNA]]: Genistein modulates miR-146a and miR-155, affecting inflammatory gene expression
+- [[notes/oxidative_stress/Lipid Peroxidation]]: Attenuated by genistein via multiple mechanisms
