@@ -134,6 +134,6 @@ Like other sirtuins, SIRT6 acts as a double-edged sword in cancer depending on g
 
 ## 8. Linking Summary
 
-- **New Links Added**: [[SIRT7]], [[SIRT4]], [[p53]], [[notes/_link/NFKB]], [[notes/_link/Aging]], [[Base Excision Repair]], [[UBCS039]], [[MDL-801]], [[Cyanidin]], [[HIF-1α]], [[LINE-1]], [[Heterochromatin]], [[NAD+]], [[Sirtuin]], [[notes/_link/Diabetes Mellitus]], [[notes/_link/Inflammation]]
+- **New Links Added**: [[SIRT7]], [[SIRT4]], [[p53]], [[notes/_link/NFKB]], [[notes/_link/Aging]], [[Base Excision Repair]], [[UBCS039]], [[MDL-801]], [[Cyanidin]], [[HIF-1α]], [[LINE-1]], [[Heterochromatin]], [[NAD+]], [[Sirtuins]], [[notes/_link/Diabetes Mellitus]], [[notes/_link/Inflammation]]
 - **Suggested New Notes to Create**: [[Base Excision Repair]], [[LINE-1]], [[PARP-1]]
 - **Strong Connections to Strengthen**: [[SIRT6]] ↔ [[Base Excision Repair]], [[SIRT6]] ↔ [[notes/_link/Aging]], [[SIRT6]] ↔ [[MDL-801]]

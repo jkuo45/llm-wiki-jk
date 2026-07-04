@@ -1,17 +1,23 @@
 ---
 type: hub
 category: protein
-aliases: [Sirtuin Family, SIRTs, Mammalian Sirtuins]
+aliases:
+  - Sirtuin Family
+  - SIRTs
+  - Mammalian Sirtuins
 relations:
   - predicate: regulates
     target: "[[notes/_link/Aging]]"
-    sources: ["s41392-022-01257-8"]
+    sources:
+      - s41392-022-01257-8
   - predicate: regulates
     target: "[[notes/_link/Inflammation]]"
-    sources: ["s41392-022-01257-8"]
+    sources:
+      - s41392-022-01257-8
   - predicate: regulates
     target: "[[notes/_link/Cardiovascular Disease]]"
-    sources: ["s41392-022-01257-8"]
+    sources:
+      - s41392-022-01257-8
 created: 2026-07-03
 updated: 2026-07-03
 ---

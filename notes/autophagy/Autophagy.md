@@ -21,7 +21,7 @@ DNA methylation is a primary mechanism for silencing genes. In aging, specific a
 
 ## 2. [[Histone Modification]]s
 The way DNA is packaged around histone proteins determines its accessibility. Aging is associated with shifts in histone acetylation and methylation that repress autophagy.
-*   **H4K16 Deacetylation:** The [[Sirtuin]] [[notes/sirtuins/SIRT1]] regulates autophagy by deacetylating Histone H4 at Lysine 16 (H4K16). Loss of proper acetylation patterns in aging can lead to the downregulation of essential autophagy genes.
+*   **H4K16 Deacetylation:** The [[Sirtuins]] [[notes/sirtuins/SIRT1]] regulates autophagy by deacetylating Histone H4 at Lysine 16 (H4K16). Loss of proper acetylation patterns in aging can lead to the downregulation of essential autophagy genes.
 *   **Repressive Methylation:** Specific methyltransferases can add repressive marks (like H3K9me2) to the promoters of autophagy genes, blocking their transcription. In aging, this "off switch" may become more persistent.
 
 
@@ -39,7 +39,7 @@ The relationship between epigenetics and autophagy is bidirectional:
 
 
 ## Linking Summary:
-- New links added: [[notes/_link/Aging]], [[Epigenetics]], [[DNA Methylation]], [[DNA Methyltransferase]], [[Histone Modification]], [[Sirtuin]], [[notes/sirtuins/SIRT1]], [[Non-coding RNA]], [[MicroRNA]], [[HDAC]], [[Epigenome]], [[Cellular Senescence]], [[notes/_link/Alzheimer's Disease]], [[notes/_link/Neurodegenerative Diseases]].
+- New links added: [[notes/_link/Aging]], [[Epigenetics]], [[DNA Methylation]], [[DNA Methyltransferase]], [[Histone Modification]], [[Sirtuins]], [[notes/sirtuins/SIRT1]], [[Non-coding RNA]], [[MicroRNA]], [[HDAC]], [[Epigenome]], [[Cellular Senescence]], [[notes/_link/Alzheimer's Disease]], [[notes/_link/Neurodegenerative Diseases]].
 - Suggested new entity notes to create: [[Autophagosome]], [[Mitophagy]], [[Beclin1]], [[Atg5]].
 - Strong connections to strengthen: [[Autophagy]] ↔ [[notes/_link/Aging]], [[Autophagy]] ↔ [[notes/sirtuins/SIRT1]]
 
@@ -138,6 +138,6 @@ Autophagy can be modulated by:
 
 
 ### Linking Summary:
-- New links added: [[notes/_link/Aging]], [[notes/_link/Alzheimer's Disease]], [[Cellular Senescence]], [[DNA Methylation]], [[DNA Methyltransferase]], [[Epigenetics]], [[Epigenome]], [[HDAC]], [[Histone Modification]], [[Lewy Bodies]], [[MicroRNA]], [[notes/_link/Neurodegenerative Diseases]], [[Neuromelanin]], [[Non-coding RNA]], [[notes/_link/Parkinson's Disease]], [[notes/sirtuins/SIRT1]], [[Sirtuin]], [[notes/oxidative_stress/Oxidative Stress]]
+- New links added: [[notes/_link/Aging]], [[notes/_link/Alzheimer's Disease]], [[Cellular Senescence]], [[DNA Methylation]], [[DNA Methyltransferase]], [[Epigenetics]], [[Epigenome]], [[HDAC]], [[Histone Modification]], [[Lewy Bodies]], [[MicroRNA]], [[notes/_link/Neurodegenerative Diseases]], [[Neuromelanin]], [[Non-coding RNA]], [[notes/_link/Parkinson's Disease]], [[notes/sirtuins/SIRT1]], [[Sirtuins]], [[notes/oxidative_stress/Oxidative Stress]]
 - Suggested new entity notes to create: [[Atg5]], [[Autophagosome]], [[Beclin1]], [[Lysosomes]], [[Mitophagy]], [[Proteostasis]]
 - Strong connections to strengthen: [[Autophagy]] ↔ [[notes/_link/Aging]], [[Autophagy]] ↔ [[Neuromelanin]]., [[Autophagy]] ↔ [[notes/sirtuins/SIRT1]]

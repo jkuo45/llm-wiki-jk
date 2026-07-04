@@ -24,7 +24,7 @@ I am now structuring the response, beginning with an introduction to [[Xenohorme
 
 **Elaborating on Evolutionary Origins**
 
-I'm delving deeper into [[Xenohormesis|xenohormesis]]' evolutionary context, and how heterotrophs, like animals and fungi, benefit from consuming stressed plant secondary metabolites. I'm noting the early warning function of these [[Phytochemicals|phytochemicals]] and how that triggers cellular defense mechanisms. I'm highlighting the metabolic pathways activated, like [[Sirtuin|sirtuins]] and [[notes/_link/AMPK|AMPK]], along with the link to [[notes/_link/Caloric Restriction|caloric restriction]].
+I'm delving deeper into [[Xenohormesis|xenohormesis]]' evolutionary context, and how heterotrophs, like animals and fungi, benefit from consuming stressed plant secondary metabolites. I'm noting the early warning function of these [[Phytochemicals|phytochemicals]] and how that triggers cellular defense mechanisms. I'm highlighting the metabolic pathways activated, like [[Sirtuins|sirtuins]] and [[notes/_link/AMPK|AMPK]], along with the link to [[notes/_link/Caloric Restriction|caloric restriction]].
 
 **Synthesizing Findings Objectively**
 
@@ -40,11 +40,11 @@ and
 
 [[Hormesis|hormesis]]
 
-. This understanding stems from the work of Howitz and Sinclair, particularly their research on [[Sirtuin|sirtuins]]. Specifically, I'm focusing on the evolutionary premise, particularly how heterotrophs respond to chemical stress-signals from autotrophs like plants. This system serves as an "early warning" to trigger cellular defense.
+. This understanding stems from the work of Howitz and Sinclair, particularly their research on [[Sirtuins|sirtuins]]. Specifically, I'm focusing on the evolutionary premise, particularly how heterotrophs respond to chemical stress-signals from autotrophs like plants. This system serves as an "early warning" to trigger cellular defense.
 
 **Detailing Biomolecular Targets**
 
-I'm now detailing the biomolecules and pathways involved. I've pinpointed key compounds like [[notes/_link/Resveratrol|resveratrol]], [[notes/_link/Quercetin|quercetin]], [[Curcumin|curcumin]], and [[notes/_link/EGCG|EGCG]], along with their biochemical targets: [[Sirtuin|sirtuins]], [[notes/_link/AMPK|AMPK]], and the [[Nrf2|[[Nrf2]] Pathway]]. These targets are critical in the survival response, which aligns with [[notes/_link/Caloric Restriction|caloric restriction]]. I'm noting the overlap between these.
+I'm now detailing the biomolecules and pathways involved. I've pinpointed key compounds like [[notes/_link/Resveratrol|resveratrol]], [[notes/_link/Quercetin|quercetin]], [[Curcumin|curcumin]], and [[notes/_link/EGCG|EGCG]], along with their biochemical targets: [[Sirtuins|sirtuins]], [[notes/_link/AMPK|AMPK]], and the [[Nrf2|[[Nrf2]] Pathway]]. These targets are critical in the survival response, which aligns with [[notes/_link/Caloric Restriction|caloric restriction]]. I'm noting the overlap between these.
 
 **Analyzing Agricultural Impact**
 
@@ -155,7 +155,7 @@ Plants produce a vast array of secondary metabolites in response to abiotic and 
 - **Target Pathways in Animal Cells:**
 	  
 	These molecules interact with highly conserved survival and longevity pathways that regulate cellular maintenance over reproduction:
-	- **[[Sirtuin|sirtuins]] (specifically [[notes/sirtuins/SIRT1|SIRT1]]):**
+	- **[[Sirtuins|sirtuins]] (specifically [[notes/sirtuins/SIRT1|SIRT1]]):**
 		Enzymes that play a central role in DNA repair, mitochondrial biogenesis, and metabolic regulation\[[
 		3
 		](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQH8XWLQPuXd_Ply3wRRpqo7MSa9WxlAoVCW7MvSGlqP6D6cStsxXCL4onMC25swsuJiw26OU09YQXFL8WMCDRMfUTH-oh6LIL9ncze3M_i5xliUncArfdC566RxRqT-5A%3D%3D)\]\[[
@@ -262,10 +262,10 @@ Display of Search Suggestions is required when using Grounding with Google Searc
 
 ### Connections
 - [[Xenohormesis]] proposes that heterotrophs benefit from [[Phytochemicals]] indicating environmental stress.
-- [[Hormesis]] and [[Xenohormesis]] activate conserved survival pathways like [[notes/_link/AMPK|AMPK]], [[Sirtuin|Sirtuins]], and [[Nrf2]].
+- [[Hormesis]] and [[Xenohormesis]] activate conserved survival pathways like [[notes/_link/AMPK|AMPK]], [[Sirtuins|Sirtuins]], and [[Nrf2]].
 - Compounds like [[notes/_link/Resveratrol|Resveratrol]], [[notes/_link/Quercetin|Quercetin]], [[Curcumin]], and [[notes/_link/EGCG|EGCG]] act as xenohormetic triggers.
 
 ### Linking Summary:
-- New links added: [[Xenohormesis]], [[Hormesis]], [[Phytochemicals]], [[Nrf2]], [[notes/_link/Resveratrol|Resveratrol]], [[notes/_link/Quercetin|Quercetin]], [[Curcumin]], [[notes/_link/EGCG|EGCG]], [[Sirtuin|Sirtuin]], [[notes/sirtuins/SIRT1|SIRT1]], [[notes/_link/AMPK|AMPK]], [[notes/_link/Caloric Restriction|caloric restriction]]
+- New links added: [[Xenohormesis]], [[Hormesis]], [[Phytochemicals]], [[Nrf2]], [[notes/_link/Resveratrol|Resveratrol]], [[notes/_link/Quercetin|Quercetin]], [[Curcumin]], [[notes/_link/EGCG|EGCG]], [[Sirtuins|Sirtuin]], [[notes/sirtuins/SIRT1|SIRT1]], [[notes/_link/AMPK|AMPK]], [[notes/_link/Caloric Restriction|caloric restriction]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Xenohormesis]] <-> [[Hormesis]]

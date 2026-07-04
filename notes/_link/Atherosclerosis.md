@@ -27,11 +27,11 @@ A major discovery linking aging, epigenetics, and atherosclerosis is **Clonal He
 ## 4. Therapeutic Potential
 Unlike genetic mutations, epigenetic marks are potentially reversible:
 *   **Epigenetic Drugs:** Inhibitors of DNA methyltransferases (DNMTs) and [[Histone Deacetylase]]s ([[HDAC]]s) are being explored to "reset" the vascular epigenome.
-*   **Lifestyle:** [[notes/_link/Caloric Restriction]] and exercise have been shown to delay vascular aging, likely through epigenetic reprogramming of longevity-related pathways like [[Sirtuin]]s.
+*   **Lifestyle:** [[notes/_link/Caloric Restriction]] and exercise have been shown to delay vascular aging, likely through epigenetic reprogramming of longevity-related pathways like [[Sirtuins]]s.
 
 
 ## Linking Summary:
-- New links added: [[Epigenetics]], [[notes/_link/Aging]], [[DNA Methylation]], [[Histone Modification]], [[Non-coding RNA]], [[MicroRNA]], [[Epigenetic Clock]], [[DNAmGrimAge]], [[Clonal Hematopoiesis]], [[DNA Methyltransferase]], [[Histone Deacetylase]], [[HDAC]], [[notes/_link/Caloric Restriction]], [[Sirtuin]], [[notes/_link/Cardiovascular Disease]], [[Cellular Senescence]].
+- New links added: [[Epigenetics]], [[notes/_link/Aging]], [[DNA Methylation]], [[Histone Modification]], [[Non-coding RNA]], [[MicroRNA]], [[Epigenetic Clock]], [[DNAmGrimAge]], [[Clonal Hematopoiesis]], [[DNA Methyltransferase]], [[Histone Deacetylase]], [[HDAC]], [[notes/_link/Caloric Restriction]], [[Sirtuins]], [[notes/_link/Cardiovascular Disease]], [[Cellular Senescence]].
 - Suggested new entity notes to create: [[Clonal Hematopoiesis]], [[Vascular Senescence]], [[Endothelial Dysfunction]].
 - Strong connections to strengthen: [[notes/_link/Atherosclerosis]] ↔ [[notes/_link/Aging]], [[notes/_link/Atherosclerosis]] ↔ [[DNA Methylation]]
 
@@ -42,6 +42,6 @@ Unlike genetic mutations, epigenetic marks are potentially reversible:
 
 
 ### Linking Summary:
-- New links added: [[notes/_link/Aging]], [[notes/_link/Caloric Restriction]], [[notes/_link/Cardiovascular Disease]], [[Cellular Senescence]], [[Clonal Hematopoiesis]], [[DNA Methylation]], [[DNA Methyltransferase]], [[DNAmGrimAge]], [[Epigenetic Clock]], [[Epigenetics]], [[HDAC]], [[Histone Deacetylase]], [[Histone Modification]], [[MicroRNA]], [[Non-coding RNA]], [[Sirtuin]]
+- New links added: [[notes/_link/Aging]], [[notes/_link/Caloric Restriction]], [[notes/_link/Cardiovascular Disease]], [[Cellular Senescence]], [[Clonal Hematopoiesis]], [[DNA Methylation]], [[DNA Methyltransferase]], [[DNAmGrimAge]], [[Epigenetic Clock]], [[Epigenetics]], [[HDAC]], [[Histone Deacetylase]], [[Histone Modification]], [[MicroRNA]], [[Non-coding RNA]], [[Sirtuins]]
 - Suggested new entity notes to create: [[Clonal Hematopoiesis]], [[Endothelial Dysfunction]], [[Vascular Senescence]]
 - Strong connections to strengthen: [[notes/_link/Atherosclerosis]] ↔ [[notes/_link/Aging]], [[notes/_link/Atherosclerosis]] ↔ [[DNA Methylation]]

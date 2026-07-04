@@ -81,6 +81,6 @@ SIRT5 (Sirtuin 5) is a NAD+-dependent deacylase localized primarily in the mitoc
 
 ### Linking Summary:
 
-- New links added: [[NAD+]], [[Sirtuin]], [[Mitochondria]]
+- New links added: [[NAD+]], [[Sirtuins]], [[Mitochondria]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[notes/_link/SIRT5]] ↔ [[Mitochondria]]
