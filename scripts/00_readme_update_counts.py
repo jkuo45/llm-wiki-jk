@@ -143,11 +143,15 @@ def main():
         else:
             last_updated_str = "---"
 
+        topic_files, topic_size, topic_words = get_dir_size_and_count(topic_path)
+
         topic_data.append({
             "topic": topic,
             "last_updated": last_updated_str,
             "entities": entity_count,
             "documents": len(documents),
+            "words": topic_words,
+            "disk_size": topic_size,
         })
 
         for doc in sorted(documents):
@@ -168,13 +172,13 @@ def main():
     total_files, total_size, total_words = get_dir_size_and_count(notes_dir)
 
     topics_table = [
-        "| topic | last updated | count entities | count documents |",
-        "| :--- | :--- | :---: | :---: |",
+        "| topic | last updated | count entities | count documents | count words | disk size |",
+        "| :--- | :--- | :---: | :---: | :---: | :---: |",
     ]
     for t in topic_data:
         topic_link = f"[{t['topic']}](https://github.com/jkuo45/llm-wiki/tree/dev/{urllib.parse.quote(notes_dir + '/' + t['topic'], safe='/')})"
         topics_table.append(
-            f"| {topic_link} | {t['last_updated']} | {t['entities']} | {t['documents']} |"
+            f"| {topic_link} | {t['last_updated']} | {t['entities']} | {t['documents']} | {format_number(t['words'])} | {format_size(t['disk_size'])} |"
         )
 
     docs_table = [
