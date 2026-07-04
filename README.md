@@ -2,26 +2,26 @@
 
 <!-- GENERATED: summary_table -->
 ## Summary Table (notes directory)
-| topic | last updated | count entities | count documents | count words | disk size |
-| :--- | :--- | :---: | :---: | :---: | :---: |
-| [_link](https://github.com/jkuo45/llm-wiki/tree/dev/notes/_link) | 04_JUL_2026 | 185 | 0 | 40,366 | 0.32 MB |
-| [adrenochrome](https://github.com/jkuo45/llm-wiki/tree/dev/notes/adrenochrome) | 04_JUL_2026 | 331 | 23 | 143,153 | 1.56 MB |
-| [autophagy](https://github.com/jkuo45/llm-wiki/tree/dev/notes/autophagy) | 04_JUL_2026 | 251 | 11 | 84,432 | 0.73 MB |
-| [cancer](https://github.com/jkuo45/llm-wiki/tree/dev/notes/cancer) | 04_JUL_2026 | 275 | 8 | 117,262 | 1.27 MB |
-| [comt](https://github.com/jkuo45/llm-wiki/tree/dev/notes/comt) | 04_JUL_2026 | 35 | 2 | 9,913 | 0.11 MB |
-| [epigenetics](https://github.com/jkuo45/llm-wiki/tree/dev/notes/epigenetics) | 04_JUL_2026 | 219 | 9 | 108,738 | 3.23 MB |
-| [neuromelanin](https://github.com/jkuo45/llm-wiki/tree/dev/notes/neuromelanin) | 04_JUL_2026 | 100 | 2 | 24,488 | 0.28 MB |
-| [oxidative_stress](https://github.com/jkuo45/llm-wiki/tree/dev/notes/oxidative_stress) | 04_JUL_2026 | 48 | 1 | 52,834 | 0.55 MB |
-| [sirtuins](https://github.com/jkuo45/llm-wiki/tree/dev/notes/sirtuins) | 04_JUL_2026 | 101 | 6 | 151,302 | 1.24 MB |
+| topic                                                                                  | last updated | count entities | count documents | count words | disk size |
+| :------------------------------------------------------------------------------------- | :----------- | :------------: | :-------------: | :---------: | :-------: |
+| [_link](https://github.com/jkuo45/llm-wiki/tree/dev/notes/_link)                       | 04_JUL_2026  |      192       |        0        |   42,370    |  0.34 MB  |
+| [adrenochrome](https://github.com/jkuo45/llm-wiki/tree/dev/notes/adrenochrome)         | 04_JUL_2026  |      330       |       23        |   142,982   |  1.56 MB  |
+| [autophagy](https://github.com/jkuo45/llm-wiki/tree/dev/notes/autophagy)               | 04_JUL_2026  |      251       |       11        |   84,432    |  0.73 MB  |
+| [cancer](https://github.com/jkuo45/llm-wiki/tree/dev/notes/cancer)                     | 04_JUL_2026  |      275       |        8        |   117,262   |  1.27 MB  |
+| [comt](https://github.com/jkuo45/llm-wiki/tree/dev/notes/comt)                         | 04_JUL_2026  |       35       |        2        |    9,913    |  0.11 MB  |
+| [epigenetics](https://github.com/jkuo45/llm-wiki/tree/dev/notes/epigenetics)           | 04_JUL_2026  |      218       |        9        |   108,672   |  3.23 MB  |
+| [neuromelanin](https://github.com/jkuo45/llm-wiki/tree/dev/notes/neuromelanin)         | 04_JUL_2026  |      100       |        2        |   24,488    |  0.28 MB  |
+| [oxidative_stress](https://github.com/jkuo45/llm-wiki/tree/dev/notes/oxidative_stress) | 04_JUL_2026  |       82       |        1        |   60,644    |  0.62 MB  |
+| [sirtuins](https://github.com/jkuo45/llm-wiki/tree/dev/notes/sirtuins)                 | 04_JUL_2026  |      112       |        6        |   153,890   |  1.26 MB  |
 <!-- END GENERATED: summary_table -->
 
 <!-- GENERATED: summary_counts -->
 ## Summary Counts (notes directory)
-- **last updated:** 04_JUL_2026 02:56 PM PDT
-- **file count:** 1,559
-- **word count:** 732,488
+- **last updated:** 04_JUL_2026 03:27 PM PDT
+- **file count:** 1,609
+- **word count:** 744,653
 - **documents:** 62
-- **disk size:** 9.30 MB
+- **disk size:** 9.41 MB
 <!-- END GENERATED: summary_counts -->
 
 <!-- GENERATED: document_list -->
@@ -86,9 +86,9 @@
 | neuromelanin | 03_JUL_2026 | [notes/neuromelanin/_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/neuromelanin/_document_%20-%20Neuromelanin%2C%20one%20of%20the%20most%20overlooked%20molecules%20in%20modern%20medicine%2C%20is%20not%20a%20spectator.md) | 3,770 |
 | oxidative_stress | 03_JUL_2026 | [notes/oxidative_stress/_document_ - Oxidative Stress Harms and Benefits for Human Health.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/oxidative_stress/_document_%20-%20Oxidative%20Stress%20Harms%20and%20Benefits%20for%20Human%20Health.md) | 9,120 |
 | sirtuins | 04_JUL_2026 | [notes/sirtuins/_document_ - The Sirtuin System The Holy Grail of Resveratrol?.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/_document_%20-%20The%20Sirtuin%20System%20The%20Holy%20Grail%20of%20Resveratrol%3F.md) | 3,868 |
-| sirtuins | 03_JUL_2026 | [notes/sirtuins/_document_ - sirtuins (overview, CD38 KO risks, cancer therapies).md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/_document_%20-%20sirtuins%20%28overview%2C%20CD38%20KO%20risks%2C%20cancer%20therapies%29.md) | 2,654 |
+| sirtuins | 04_JUL_2026 | [notes/sirtuins/_document_ - sirtuins (overview, CD38 KO risks, cancer therapies).md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/_document_%20-%20sirtuins%20%28overview%2C%20CD38%20KO%20risks%2C%20cancer%20therapies%29.md) | 2,654 |
 | sirtuins | 03_JUL_2026 | [notes/sirtuins/_document_ - sirtuins (resveratrol), gemini.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/_document_%20-%20sirtuins%20%28resveratrol%29%2C%20gemini.md) | 4,660 |
 | sirtuins | 04_JUL_2026 | [notes/sirtuins/_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/_document_%20-%20sirtuins%20Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i.md) | 13,325 |
-| sirtuins | 03_JUL_2026 | [notes/sirtuins/_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/_document_%20-%20sirtuins%20Shedding%20light%20on%20structure%2C%20function%20and%20regulation%20of%20human%20sirtuins%20a%20comprehensive%20review.md) | 11,162 |
+| sirtuins | 04_JUL_2026 | [notes/sirtuins/_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/_document_%20-%20sirtuins%20Shedding%20light%20on%20structure%2C%20function%20and%20regulation%20of%20human%20sirtuins%20a%20comprehensive%20review.md) | 11,162 |
 | sirtuins | 02_JUL_2026 | [notes/sirtuins/_document_ - sirtuins in health and disease s41392-022-01257-8.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/_document_%20-%20sirtuins%20in%20health%20and%20disease%20s41392-022-01257-8.md) | 73,646 |
 <!-- END GENERATED: document_list -->
