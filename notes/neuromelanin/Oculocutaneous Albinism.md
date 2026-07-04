@@ -1,3 +1,11 @@
+---
+type: entity
+category: disease
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Oculocutaneous Albinism
 
 Oculocutaneous albinism is a group of rare inherited disorders that result in little or no production of the pigment melanin, affecting the color of the skin, hair, and eyes.

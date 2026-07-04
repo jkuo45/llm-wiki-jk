@@ -13,5 +13,5 @@ UPS dysfunction is a hallmark of [[notes/_link/Parkinson's Disease]] and is clos
 
 ### Linking Summary:
 - New links added: [[Ubiquitin]], [[notes/_link/Parkinson's Disease]], [[Lewy Bodies]], [[Alpha-Synuclein]], [[Neuromelanin]], [[notes/_link/Substantia Nigra]].
-- Suggested new entity notes to create: [[Proteasome]], [[p62]].
+- Suggested new entity notes to create: [[Proteasome]], [[notes/_link/p62|p62]].
 - Strong connections to strengthen: [[Ubiquitin-proteasome system]] ↔ [[Lewy Bodies]].
