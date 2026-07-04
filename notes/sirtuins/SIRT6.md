@@ -25,104 +25,115 @@ relations:
     target: "[[mono-ADP-ribosyl transferase activity]]"
     sources:
       - PMID:15795229
+  - predicate: regulates
+    target: "[[notes/_link/Diabetes Mellitus]]"
+    sources:
+      - s41392-022-01257-8
+  - predicate: associated_with
+    target: "[[notes/_link/Inflammation]]"
+    sources:
+      - s41392-022-01257-8
 created: 2026-07-02
-updated: 2026-07-02
+updated: 2026-07-03
 ---
 
 # SIRT6
 
-**SIRT6** (Sirtuin 6) is a **nuclear sirtuin** classified in phylogenetic **Class IVa** alongside [[SIRT7]] (Class IVb). Class IV sirtuins are not found in prokaryotes but are broadly distributed in metazoans, plants, and vertebrates, reflecting their emergence later in eukaryotic evolution. SIRT6 is characterised by its association with **heterochromatin**, its role in **DNA base excision repair**, and its primary enzymatic activity as a **mono-ADP-ribosyl transferase**.
+**SIRT6** (Sirtuin 6) is a nuclear, chromatin-associated sirtuin classified in phylogenetic **Class IVa** alongside its nucleolar homolog [[SIRT7]] (Class IVb). As a "longevity gene," SIRT6 serves as an essential guardian of genome integrity, an epigenetic scaffold, and a master regulator of mammalian aging and cellular metabolism.
 
-## Enzymatic Activity
+---
 
-SIRT6's primary characterised activity is **mono-ADP-ribosylation** using [[NAD+]] as donor — making it one of only two mammalian sirtuins (along with [[SIRT4]]) whose principal function is ADP-ribosylation rather than deacetylation. The reaction generates [[OAADPr]] as a by-product. Subsequent research (post-2007) has also identified SIRT6 as a histone H3-Lys⁹ deacetylase.
+## 1. Overview & Evolutionary Context
 
-## Subcellular Localisation
+SIRT6 is a member of the class III histone deacetylase (HDAC) family, possessing both NAD⁺-dependent deacetylase and mono-ADP-ribosyltransferase activities. Evolutionary analysis places SIRT6 in **Class IVa**. Class IV sirtuins are absent from prokaryotes but broadly distributed across metazoans, plants, and vertebrates, indicating they evolved later in eukaryotic history to coordinate complex chromatin dynamics.
 
-**Predominantly nuclear**, where a large fraction associates with **heterochromatin** (in contrast to [[SIRT1]], which associates with euchromatin, and [[SIRT7]], which localises to the nucleolus).
+---
 
-## DNA Repair
+## 2. Subcellular Localization & Enzymatic Diversity
 
-SIRT6's role in maintaining genomic stability and aging was first elucidated through the study of **SIRT6 knockout mice**:
+### Subcellular Localization
+Unlike [[SIRT1]], which predominantly associates with euchromatin, or [[SIRT7]], which localizes to the nucleolus, SIRT6 is **predominantly nuclear and tightly associated with heterochromatin**. During cellular stress, SIRT6 coordinates the recruitment of DNA repair machinery directly to damaged chromatin loci.
 
-- Knockout mice display signs of **premature aging** including:
-  - Decreased body size
-  - Loss of subcutaneous fat
-  - Lymphocyte apoptosis
-  - Colitis
-  - Abnormal spine curvature
-  - Metabolic defects
-  - **Premature death after only ~4 weeks of age**
-- The primary defect is **impairment in base excision repair (BER)**.
-- Mechanistically, SIRT6 may regulate accessibility of the BER machinery to DNA damage sites, though the exact mechanism was unclear at the time of this review.
+### Enzymatic Activities
+SIRT6 catalyzes multiple distinct enzymatic modifications:
+1. **Histone Deacetylation**: SIRT6 selectively deacetylates histone H3 at lysine 9 (H3K9ac) and lysine 56 (H3K56ac), promoting a transcriptionally repressive, compacted chromatin state.
+2. **Mono-ADP-Ribosylation**: SIRT6 catalyzes mono-ADP-ribosylation using [[NAD+]] as a donor substrate. Along with [[SIRT4]], it is one of the few mammalian sirtuins whose primary physiological actions depend heavily on ADP-ribosyltransferase activity.
+3. **Long-Chain Fatty Acyl Deacetylation**: Recent biochemical studies reveal that SIRT6 acts as a deacylase, facilitating the hydrolysis of long-chain fatty acyl lysine modifications.
 
-## Aging and Genomic Stability
+---
 
-The dramatic premature aging phenotype of SIRT6 knockout mice establishes SIRT6 as a critical **guardian of genomic stability** and a **regulator of mammalian aging**. Its association with heterochromatin positions it to regulate chromatin accessibility and gene silencing at repetitive and heterochromatic loci.
+## 3. Mechanism of Action & Biological Pathways
 
-## Evolutionary Context
+### DNA Double-Strand Break (DSB) & Base Excision Repair (BER)
+SIRT6 plays a critical role in preserving genomic stability through dual mechanisms:
+- **Base Excision Repair**: SIRT6-deficient cells exhibit severe defects in BER, increasing sensitivity to genotoxic agents. SIRT6 interacts with and deacetylates DNA polymerase $\beta$ to coordinate BER machinery.
+- **Double-Strand Break Repair**: Under conditions of DNA damage, SIRT6 is recruited to DSB sites, where it mono-ADP-ribosylates the nuclear scaffold protein PARP-1, stimulating its activity and facilitating homologous recombination and non-homologous end-joining.
 
-SIRT6 belongs to **Class IVa** — a subclass within Class IV that:
+### Repression of Transposable Elements
+SIRT6 is essential for keeping repetitive and transposable genomic elements (such as [[LINE-1]]) tightly packed in heterochromatin. In senescent and aging cells, the depletion or redistribution of SIRT6 allows these elements to "jump," causing significant genomic instability, DNA damage, and sterile inflammation.
 
-- Is absent from prokaryotes
-- Broadly distributed in metazoans, plants, and vertebrates
-- Groups with [[SIRT7]] (Class IVb) as the most recently evolved mammalian sirtuin class
+### Metabolic Reprogramming & Glycolysis
+SIRT6 acts as a corepressor of **[[HIF-1α]]** and **[[notes/_link/AMPK|AMPK]]** target genes:
+- **Aerobic Glycolysis**: SIRT6 suppresses the transcription of key glycolytic enzymes (e.g., glucose transporters, hexokinase 2) to prevent the "Warburg-like" metabolic reprogramming of cells.
+- **Lipid Homeostasis**: SIRT6 recruits to the SREBP2 promoter, deacetylating histone H3 to suppress SREBP1/2 and ChREBP, thereby inhibiting de novo lipogenesis and hypercholesterolemia.
 
-## Connections
+---
 
-- [[SIRT7]] — fellow Class IV sirtuin; both nuclear; SIRT7 is nucleolar while SIRT6 is heterochromatic
-- [[SIRT4]] — fellow primary mono-ADP-ribosyl transferase among mammalian sirtuins
-- [[SIRT1]] — both nuclear; SIRT1 associates with euchromatin, SIRT6 with heterochromatin
-- [[NAD+]] — required co-substrate for ADP-ribosylation
-- [[OAADPr]] — by-product of sirtuin-catalysed reactions
-- [[Base Excision Repair]] — key biological function
-- [[Premature Aging]] — SIRT6 knockout phenotype
+## 4. Physiological Function & Organ Protection
 
-## Linking Summary
+### Cardiovascular Protection
+SIRT6 protects against cardiorenal remodeling, hypertrophy, and fibrosis:
+- **Pathological Hypertrophy**: Prevents cardiomyocyte hypertrophy by downregulating the transcriptional activity of NF-κB p65 and blocking IGF-Akt signaling.
+- **Cardiac Fibrosis**: Inhibits myofibroblast differentiation by suppressing the profibrotic TGF-$\beta$/Smad3 pathway and targeting AMPK-ACE2 signaling.
 
-- New links added: [[SIRT7]], [[SIRT4]], [[SIRT1]], [[NAD+]], [[OAADPr]], [[Base Excision Repair]], [[Premature Aging]], [[Heterochromatin]]
-- Suggested new entity notes to create: [[Base Excision Repair]], [[Heterochromatin]]
-- St[[SIRT6]]ections to strengthen: [[[SIRT6]]↔ [[Premature Aging]], [[SIRT6]] ↔ [[Base Excision Repair]]
+### Macrophage Polarization & Inflammation
+SIRT6 acts as a potent anti-inflammatory agent by deacetylating the RelA/p65 subunit of [[notes/_link/NFKB|NF-κB]] on chromatin, suppressing its target inflammatory cytokine promoters (such as TNF-$\alpha$ and IL-6). SIRT6 deficiency in myeloid cells drives persistent macrophage activation and accelerates chronic inflammatory diseases (e.g., rheumatoid arthritis).
 
-# SIRT6
+### Diabetic Nephropathy & Podocyte Protection
+SIRT6 protects renal podocytes from apoptosis and structural injury. It maintains glomerular basement membrane integrity, preventing diabetic glomerulosclerosis and albuminuria.
 
-SIRT6 is a nuclear sirtuin primarily associated with heterochromatin. It exhibits mono-ADP-ribosyl transferase and weak deacetylase activity. It plays a key role in DNA repair, glucose homeostasis, maintaining telomere position effects, and managing oxidative stress and [[notes/_link/Inflammation|inflammation]].
+---
 
-### Linking Summary:
+## 5. Pathology & Clinical Relevance
 
-- New links added: [[NAD+]], [[notes/_link/Inflammation]]
-- Suggested new entity notes to create:
-- Strong connections to strengthen: [[SIRT6]] ↔ [[notes/_link/Inflammation]], [[SIRT6]] ↔ [[NAD+]]
+### Premature Aging (Progeroid Phenotype)
+The absolute requirement of SIRT6 for mammalian survival is demonstrated by **SIRT6 knockout (KO) mice**:
+- KO mice develop normally until birth but rapidly exhibit a dramatic progeroid phenotype, including a complete loss of subcutaneous fat, severe lymphopenia, colitis, spinal curvature, and metabolic defects.
+- SIRT6-null mice suffer from profound hypoglycemia and typically **die within approximately 4 weeks of age**.
+- Conversely, male transgenic mice overexpressing SIRT6 display a **significant (up to 30%) extension in median lifespan** accompanied by a reduced incidence of age-related diseases.
 
-# SIRT6
+### Chronic Respiratory Diseases (COPD & Asthma)
+- **COPD**: SIRT6 levels are substantially decreased in the lungs of patients with COPD due to cigarette smoke exposure, driving cellular senescence through deficient autophagy.
+- **Asthma**: Forced overexpression of SIRT6 reduces airway remodeling and suppresses the profibrotic EMT process by blocking TGF-$\beta$1/Smad3 pathways.
 
-**[[notes/_link/SIRT6]]** (Sirtuin 6) is a member of the [[Sirtuin]] family of NAD+-dependent enzymes. It is often referred to as a "longevity gene" because of its critical role in DNA repair, telomere maintenance, and metabolic regulation.
+### Context-Dependent Oncology Roles
+Like other sirtuins, SIRT6 acts as a double-edged sword in cancer depending on genetic context:
+- **Tumor Suppressor**: SIRT6 suppresses tumor growth and aerobic glycolysis in hepatocellular carcinoma (HCC) and glioma cells, acting via the suppression of Janase Kinase 2 (JAK2)/STAT3 signaling.
+- **Oncogenic Promoter**: SIRT6 drives epithelial-to-mesenchymal transition (EMT) and metastasis in non-small cell lung cancer (NSCLC) through snail-dependent transrepression of KLF4.
 
-### 1. Guardian of the Genome
+---
 
-SIRT6 is primarily located in the nucleus, where it acts as a scaffold for various DNA repair proteins. It is essential for:
+## 6. Sirtuin Modulators targeting SIRT6
 
-- **DNA Repair**: SIRT6 helps repair double-strand breaks, a particularly dangerous form of [[notes/_link/DNA Damage]].
-- **Silencing Repetitive Elements**: It is responsible for keeping [[Transposable Elements]] like [[LINE-1]] tightly packed in [[Heterochromatin]]. In old cells, SIRT6 loss allows these elements to "jump," causing significant [[Genomic Instability]].
+- **[[UBCS039]]** — the first synthetic allosteric SIRT6 activator, targeting its distal hydrophobic pocket.
+- **[[MDL-801]] (and MDL-800)** — potent, selective small-molecule allosteric activators of SIRT6 that downregulate the TGF-$\beta$1/Smad pathway, reducing fibrosis and promoting angiogenesis during wound healing.
+- **[[Cyanidin]]** — a natural anthocyanidin that strongly activates SIRT6-mediated H3K9/H3K56 deacetylation *in vitro*.
 
-### 2. Impact on Lifespan
+---
 
-- **Overexpression**: Male mice that are genetically engineered to overexpress SIRT6 show a significant (up to 30%) extension in lifespan and improved healthspan.
-- **Deficiency**: Mice lacking SIRT6 show a dramatic "progeroid" (premature aging) phenotype and die shortly after birth.
+## 7. Connections
 
-### 3. Metabolic Regulation
+- **[[SIRT7]]** — fellow Class IV sirtuin; both nuclear (SIRT6 is chromatin-bound; SIRT7 is nucleolar).
+- **[[SIRT4]]** — fellow mammalian sirtuin with primary mono-ADP-ribosyltransferase activity.
+- **[[p53]]** — interacts with and is deacetylated by SIRT6 to coordinate apoptotic responses.
+- **[[notes/_link/NFKB|NF-κB]]** — transcriptional activity is repressed on chromatin by SIRT6-mediated H3K9 deacetylation.
+- **[[notes/_link/Aging]]** — SIRT6 is a key longevity gene and aging determinant.
+- **[[Base Excision Repair]]** — major DNA repair pathway coordinated by SIRT6.
 
-SIRT6 also regulates glucose metabolism and fatty acid oxidation. It acts as a co-repressor for several transcription factors, helping to prevent the metabolic dysfunction (like [[notes/_link/Diabetes Mellitus]]) that often accompanies [[notes/_link/Aging]].
+---
 
-### Connections
+## 8. Linking Summary
 
-- **[[Sirtuin]]**: The family of proteins that includes SIRT6.
-- **[[Genomic Instability]]**: SIRT6 is a key protector against age-related genomic decay.
-- **[[notes/_link/DNA Repair]]**: The primary cellular process facilitated by SIRT6.
-- **[[notes/_link/Aging]]**: SIRT6 levels and activity are major determinants of the rate of aging.
-
-### Linking Summary:
-
-- New links added: [[notes/_link/SIRT6]], [[Sirtuin]], [[notes/_link/DNA Damage]], [[Transposable Elements]], [[LINE-1]], [[Heterochromatin]], [[Genomic Instability]], [[notes/_link/Diabetes Mellitus]], [[notes/_link/Aging]], [[notes/_link/DNA Repair]]
-- Suggested new entity notes to create: [[Double-Strand Breaks]], [[Telomere Maintenance]], [[Epigenetic Scaffolding]]
-- Strong connections to strengthen: [[notes/_link/SIRT6]] ↔ [[Genomic Instability]], [[notes/_link/SIRT6]] ↔ [[Sirtuin]]
+- **New Links Added**: [[SIRT7]], [[SIRT4]], [[p53]], [[notes/_link/NFKB]], [[notes/_link/Aging]], [[Base Excision Repair]], [[UBCS039]], [[MDL-801]], [[Cyanidin]], [[HIF-1α]], [[LINE-1]], [[Heterochromatin]], [[NAD+]], [[Sirtuin]], [[notes/_link/Diabetes Mellitus]], [[notes/_link/Inflammation]]
+- **Suggested New Notes to Create**: [[Base Excision Repair]], [[LINE-1]], [[PARP-1]]
+- **Strong Connections to Strengthen**: [[SIRT6]] ↔ [[Base Excision Repair]], [[SIRT6]] ↔ [[notes/_link/Aging]], [[SIRT6]] ↔ [[MDL-801]]

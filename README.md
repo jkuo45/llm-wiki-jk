@@ -10,16 +10,16 @@
 | [epigenetics](https://github.com/jkuo45/llm-wiki/tree/main/notes/epigenetics) | 03_JUL_2026 | 219 | 9 |
 | [neuromelanin](https://github.com/jkuo45/llm-wiki/tree/main/notes/neuromelanin) | 03_JUL_2026 | 82 | 2 |
 | [oxidative_stress](https://github.com/jkuo45/llm-wiki/tree/main/notes/oxidative_stress) | 03_JUL_2026 | 48 | 1 |
-| [sirtuins](https://github.com/jkuo45/llm-wiki/tree/main/notes/sirtuins) | 03_JUL_2026 | 55 | 5 |
+| [sirtuins](https://github.com/jkuo45/llm-wiki/tree/main/notes/sirtuins) | 03_JUL_2026 | 65 | 5 |
 
 
 ---
 ## Summary Counts (notes directory)
-- **last updated:** 03_JUL_2026 03:54 PM PDT
-- **file count:** 1,493
-- **word count:** 668,484
+- **last updated:** 03_JUL_2026 06:26 PM PDT
+- **file count:** 1,503
+- **word count:** 673,993
 - **documents:** 60
-- **disk size:** 6.78 MB
+- **disk size:** 6.82 MB
 
 ---
 ## Document List

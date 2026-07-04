@@ -48,26 +48,31 @@ type: index
 
 ### Pharmacological Agents
 
-#### SIRT1 Activators
+#### Sirtuin Activators
 
 | Entity | entity_type_1 | Description |
 |--------|--------------|-------------|
 | [[Resveratrol]] | Chemical Compound | Polyphenol STAC; direct allosteric (E230) + indirect (PDE4/AMPK/NAMPT/NAD⁺) SIRT1 activation |
-
-#### SIRT3 Activators
-
-| Entity | entity_type_1 | Description |
-|--------|--------------|-------------|
+| [[SRT2104]] | Chemical Compound | Synthetic STAC; highly potent, selective allosteric SIRT1 activator; evaluated in clinical trials |
 | [[Honokiol]] | Chemical Compound | Biphenolic lignan from *Magnolia grandiflora*; direct SIRT3 binding; cardioprotective; deacetylates MnSOD/OSCP |
-| [[Dihydromyricetin]] | Chemical Compound | Flavonoid from vine tea (*Ampelopsis grossedentata*); SIRT3 + AMPK activator; hepatoprotective; ~300 mg/1.5 g dry leaves |
+| [[Dihydromyricetin]] | Chemical Compound | Flavonoid from vine tea (*Ampelopsis grossedentata*); SIRT3 + AMPK activator; hepatoprotective |
+| [[UBCS039]] | Chemical Compound | First synthetic SIRT6 allosteric activator; hydrophobic pocket binding; tumor suppressive; liver-protective |
+| [[MDL-801]] | Chemical Compound | Potent synthetic SIRT6 allosteric activator; more potent than parent MDL-800; anti-fibrotic |
+| [[Cyanidin]] | Chemical Compound | Natural anthocyanidin (berries); 50×+ SIRT6 activation in vitro; H3K9/H3K56 deacetylation |
 
-#### SIRT6 Activators
+#### Sirtuin Inhibitors
 
 | Entity | entity_type_1 | Description |
 |--------|--------------|-------------|
-| [[UBCS039]] | Chemical Compound | First synthetic SIRT6 allosteric activator; hydrophobic pocket binding; tumor suppressive; liver-protective |
-| [[MDL-801]] | Chemical Compound | Potent synthetic SIRT6 allosteric activator; same pocket as UBCS039; more potent than MDL-800 |
-| [[Cyanidin]] | Chemical Compound | Natural anthocyanidin (berries); 50×+ SIRT6 activation in vitro; H3K9/H3K56 deacetylation |
+| [[EX-527]] | Chemical Compound | Highly selective, cell-permeable SIRT1 inhibitor; sensitizes cancer cells to chemotherapeutics |
+| [[SirReal2]] | Chemical Compound | Potent, highly selective aminothiazole SIRT2 inhibitor; acts via ligand-induced structural rearrangement |
+| [[AGK2]] | Chemical Compound | Selective SIRT2 inhibitor; neuroprotective in models of PD and ischemic brain injury |
+| [[Tenovins]] | Chemical Compound | Sirtuin inhibitors (Tenovin-1 and Tenovin-6) targeting SIRT1 and SIRT2; promote p53 hyperacetylation |
+| [[Sirtinol]] | Chemical Compound | $\beta$-naphthol-containing dual SIRT1/SIRT2 inhibitor; induces senescence-like growth arrest and apoptosis |
+| [[Splitomicin]] | Chemical Compound | $\beta$-naphthol-containing dual SIRT1/SIRT2 inhibitor; blocks preconditioning-induced cardioprotection |
+| [[Salermide]] | Chemical Compound | Sirtinol analog; potently inhibits SIRT1 and SIRT2; reactivates sirtuin-repressed proapoptotic genes |
+| [[Cambinol]] | Chemical Compound | $\beta$-naphthol-containing dual SIRT1/SIRT2 inhibitor; impairs metastatic invasion and cell migration |
+| [[Suramin]] | Chemical Compound | Polyanionic urea derivative; potent pan-sirtuin inhibitor targeting SIRT1, SIRT2, and SIRT5 |
 
 ### Physiological Concepts
 
