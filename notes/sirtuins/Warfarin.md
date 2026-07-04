@@ -1,3 +1,17 @@
+---
+type: entity
+category: chemical
+aliases:
+  - "Coumadin"
+  - "Vitamin K Antagonist"
+tags:
+  - "sirtuins"
+  - "anticoagulant"
+  - "resveratrol"
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Warfarin
 
 **Warfarin** (brand name [[Coumadin]]) is an oral [[Anticoagulant|anticoagulant]] that inhibits vitamin K-dependent clotting factors (II, VII, IX, X). It is widely prescribed for prevention of [[Thromboembolism|thromboembolic events]] in conditions such as [[Atrial fibrillation]], [[Deep vein thrombosis]], [[Pulmonary embolism]], and mechanical heart valve replacement.

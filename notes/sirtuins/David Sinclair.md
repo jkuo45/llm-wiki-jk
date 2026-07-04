@@ -4,8 +4,8 @@ category: NA
 aliases:
   - David A. Sinclair
   - Sinclair
-created: 04_July_2026 12:00 PM PDT
-updated: 04_July_2026 12:00 PM PDT
+created: 2026-07-04
+updated: 2026-07-04
 ---
 
 # David Sinclair

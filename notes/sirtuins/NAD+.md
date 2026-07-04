@@ -25,8 +25,8 @@ relations:
     target: "[[Sirtuin Family]]"
     sources:
       - PMID:MICHAN2007
-created: 02_July_2026 08:57 PM PDT
-updated: 02_July_2026 08:57 PM PDT
+created: 2026-07-02
+updated: 2026-07-02
 ---
 # NAD+
 
