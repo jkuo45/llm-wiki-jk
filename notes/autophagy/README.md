@@ -150,7 +150,7 @@ This directory contains notes and research regarding [[Autophagy]], its molecula
 | [[notes/_link/PTEN]]                          | 09_Jun_2026 10:15 AM PDT | Enzyme                   |         9          |      1      | Tumor suppressor that promotes autophagy by antagonizing PI3K/Akt. |
 | [[notes/_link/Reactive Oxygen Species]]       | 09_Jun_2026 10:15 AM PDT | Biological Molecule      |         7          |      0      | Signaling molecules that can induce autophagy. |
 | [[notes/_link/Renal Cell Carcinoma]]          | 09_Jun_2026 10:15 AM PDT | Medical Condition        |         6          |     -1      | Associated with mutations in FLCN, linking to mTOR and autophagy. |
-| [[notes/_link/Resveratrol]]                   | 09_Jun_2026 10:15 AM PDT | Chemical Compound        |         8          |      1      | Polyphenol that induces autophagy via SIRT1/AMPK. |
+| [[Resveratrol]]                   | 09_Jun_2026 10:15 AM PDT | Chemical Compound        |         8          |      1      | Polyphenol that induces autophagy via SIRT1/AMPK. |
 | [[notes/_link/Senescence]]                    | 09_Jun_2026 10:15 AM PDT | Biological Process       |         8          |      0      | Cellular state with complex autophagic alterations (often high flux to support SASP). |
 | [[notes/sirtuins/SIRT1]]                         | 09_Jun_2026 10:15 AM PDT | Enzyme                   |         9          |      1      | NAD+-dependent deacetylase that promotes autophagy. |
 | [[notes/_link/Spermidine]]                    | 09_Jun_2026 10:15 AM PDT | Chemical Compound        |         9          |      1      | Polyamine that potently induces autophagy by inhibiting EP300. |

@@ -1,3 +1,11 @@
+---
+type: entity
+category: chemical
+aliases: []
+created: 2026-05-25
+updated: 2026-07-04
+---
+
 # Luteolin
 
 **[[Luteolin]]** is a common [[Flavonoids|flavonoid]] found in many types of plants, including celery, broccoli, and green peppers. It has [[Anti-inflammatory]] and neuroprotective properties.

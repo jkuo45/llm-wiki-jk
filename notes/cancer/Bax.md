@@ -34,3 +34,12 @@ Bax activity and stability are regulated by several pathways:
 - New links added: [[MOMP]], [[AKT]], [[JNK]], [[p38 MAPK]], [[GSK3]], [[PKCζ]], [[IBRDC2]], [[Bcl-xL]], [[Phosphorylation]], [[Ubiquitination]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[Bax]] ↔ [[AKT]], [[Bax]] ↔ [[IBRDC2]]
+
+## Sirtuin Regulation of Bax
+
+[[notes/sirtuins/SIRT1]] deacetylates [[notes/sirtuins/Ku70]], and deacetylated Ku70 sequesters pro-apoptotic Bax away from mitochondria, thereby suppressing apoptosis. This is a key mechanism by which SIRT1 promotes cell survival under stress.
+
+### Linking Summary (Sirtuin Additions):
+- New links added: [[notes/sirtuins/SIRT1]], [[notes/sirtuins/Ku70]]
+- Suggested new entity notes to create:
+- Strong connections to strengthen: [[Bax]] ↔ [[notes/sirtuins/SIRT1]], [[Bax]] ↔ [[notes/sirtuins/Ku70]]

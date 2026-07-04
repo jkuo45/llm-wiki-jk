@@ -19,11 +19,11 @@ Diabetes and aging share many biological hallmarks:
 
 
 ## 3. Therapeutic Intersection
-Many anti-aging interventions, such as [[notes/_link/Metformin]] and [[notes/_link/Resveratrol]], were originally studied or used for their ability to improve insulin sensitivity and manage diabetes, highlighting the deep connection between metabolic health and longevity.
+Many anti-aging interventions, such as [[notes/_link/Metformin]] and [[Resveratrol]], were originally studied or used for their ability to improve insulin sensitivity and manage diabetes, highlighting the deep connection between metabolic health and longevity.
 
 
 ## Linking Summary:
-- New links added: [[notes/_link/Diabetes Mellitus]], [[notes/_link/Aging]], [[Epigenetics]], [[Epigenome]], [[DNA Methylation]], [[Histone Modification]], [[notes/sirtuins/SIRT1]], [[notes/_link/mTOR]], [[Cellular Senescence]], [[Epigenetic Clock]], [[DNAmGrimAge]], [[notes/_link/Metformin]], [[notes/_link/Resveratrol]], [[Metabolic Syndromes]]
+- New links added: [[notes/_link/Diabetes Mellitus]], [[notes/_link/Aging]], [[Epigenetics]], [[Epigenome]], [[DNA Methylation]], [[Histone Modification]], [[notes/sirtuins/SIRT1]], [[notes/_link/mTOR]], [[Cellular Senescence]], [[Epigenetic Clock]], [[DNAmGrimAge]], [[notes/_link/Metformin]], [[Resveratrol]], [[Metabolic Syndromes]]
 - Suggested new entity notes to create: [[Metabolic Memory]], [[Insulin Resistance]], [[Hyperglycemia]]
 - Strong connections to strengthen: [[notes/_link/Diabetes Mellitus]] ↔ [[notes/_link/Aging]], [[notes/_link/Diabetes Mellitus]] ↔ [[notes/_link/Metformin]]
 
@@ -35,6 +35,6 @@ Many anti-aging interventions, such as [[notes/_link/Metformin]] and [[notes/_li
 
 
 ### Linking Summary:
-- New links added: [[notes/_link/Aging]], [[Cellular Senescence]], [[DNA Methylation]], [[DNAmGrimAge]], [[notes/_link/Diabetes Mellitus]], [[Epigenetic Clock]], [[Epigenetics]], [[Epigenome]], [[Histone Modification]], [[Metabolic Syndromes]], [[notes/_link/Metformin]], [[notes/_link/Resveratrol]], [[notes/sirtuins/SIRT1]], [[notes/_link/mTOR]]
+- New links added: [[notes/_link/Aging]], [[Cellular Senescence]], [[DNA Methylation]], [[DNAmGrimAge]], [[notes/_link/Diabetes Mellitus]], [[Epigenetic Clock]], [[Epigenetics]], [[Epigenome]], [[Histone Modification]], [[Metabolic Syndromes]], [[notes/_link/Metformin]], [[Resveratrol]], [[notes/sirtuins/SIRT1]], [[notes/_link/mTOR]]
 - Suggested new entity notes to create: [[Hyperglycemia]], [[Insulin Resistance]], [[Metabolic Memory]]
 - Strong connections to strengthen: [[notes/_link/Diabetes Mellitus]] ↔ [[notes/_link/Aging]], [[notes/_link/Diabetes Mellitus]] ↔ [[notes/_link/Metformin]]

@@ -1,3 +1,11 @@
+---
+type: entity
+category: anatomy
+aliases: []
+created: 2026-05-25
+updated: 2026-07-04
+---
+
 # Cerebellum
 
 The **[[Cerebellum]]** is a major feature of the hindbrain of all vertebrates. It is primarily involved in motor control, coordination, and precision.

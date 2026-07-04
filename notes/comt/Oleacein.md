@@ -1,3 +1,11 @@
+---
+type: entity
+category: chemical
+aliases: []
+created: 2026-05-25
+updated: 2026-07-04
+---
+
 # Oleacein
 
 **[[Oleacein]]** is a phenolic compound found in extra virgin olive oil. It is recognized for its antioxidant and [[Anti-inflammatory]] properties.

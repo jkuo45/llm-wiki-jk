@@ -6,6 +6,6 @@
 In the [[Mitohormetic Redox-Relay]] strategy, NR serves as "fuel." It primes the SIRT1/AMPK axis, allowing the mitohormetic "oxidative pulse" induced by [[Carbazochrome]] to effectively stimulate mitochondrial biogenesis via [[PGC-1α]].
 
 ### Linking Summary:
-- New links added: [[NAD+]], [[Sirtuin]], [[Mitochondria]], [[Mitohormetic Redox-Relay]], [[Carbazochrome]], [[PGC-1α]]
+- New links added: [[NAD+]], [[Sirtuins]], [[Mitochondria]], [[Mitohormetic Redox-Relay]], [[Carbazochrome]], [[PGC-1α]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Nicotinamide Riboside]] ↔ [[Nicotinamide Mononucleotide]], [[Nicotinamide Riboside]] ↔ [[Mitohormetic Redox-Relay]]

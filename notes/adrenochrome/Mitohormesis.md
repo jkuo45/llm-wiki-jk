@@ -25,7 +25,7 @@ The term is a subset of [[Hormesis]], defined as any adaptive response exhibitin
 - [[Mithridatism]]
 - [[Antidotum Mithridaticum]]
 - [[notes/adrenochrome/Oxidative Stress]]
-- [[Sirtuin]]
+- [[Sirtuins]]
 - [[AMPK]]
 
 

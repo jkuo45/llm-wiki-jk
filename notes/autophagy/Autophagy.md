@@ -21,7 +21,7 @@ DNA methylation is a primary mechanism for silencing genes. In aging, specific a
 
 ## 2. [[Histone Modification]]s
 The way DNA is packaged around histone proteins determines its accessibility. Aging is associated with shifts in histone acetylation and methylation that repress autophagy.
-*   **H4K16 Deacetylation:** The [[Sirtuin]] [[notes/sirtuins/SIRT1]] regulates autophagy by deacetylating Histone H4 at Lysine 16 (H4K16). Loss of proper acetylation patterns in aging can lead to the downregulation of essential autophagy genes.
+*   **H4K16 Deacetylation:** The [[Sirtuins]] [[notes/sirtuins/SIRT1]] regulates autophagy by deacetylating Histone H4 at Lysine 16 (H4K16). Loss of proper acetylation patterns in aging can lead to the downregulation of essential autophagy genes.
 *   **Repressive Methylation:** Specific methyltransferases can add repressive marks (like H3K9me2) to the promoters of autophagy genes, blocking their transcription. In aging, this "off switch" may become more persistent.
 
 
@@ -39,13 +39,13 @@ The relationship between epigenetics and autophagy is bidirectional:
 
 
 ## Linking Summary:
-- New links added: [[notes/_link/Aging]], [[Epigenetics]], [[DNA Methylation]], [[DNA Methyltransferase]], [[Histone Modification]], [[Sirtuin]], [[notes/sirtuins/SIRT1]], [[Non-coding RNA]], [[MicroRNA]], [[HDAC]], [[Epigenome]], [[Cellular Senescence]], [[notes/_link/Alzheimer's Disease]], [[notes/_link/Neurodegenerative Diseases]].
+- New links added: [[notes/_link/Aging]], [[Epigenetics]], [[DNA Methylation]], [[DNA Methyltransferase]], [[Histone Modification]], [[Sirtuins]], [[notes/sirtuins/SIRT1]], [[Non-coding RNA]], [[MicroRNA]], [[HDAC]], [[Epigenome]], [[Cellular Senescence]], [[notes/_link/Alzheimer's Disease]], [[notes/_link/Neurodegenerative Diseases]].
 - Suggested new entity notes to create: [[Autophagosome]], [[Mitophagy]], [[Beclin1]], [[Atg5]].
 - Strong connections to strengthen: [[Autophagy]] ↔ [[notes/_link/Aging]], [[Autophagy]] ↔ [[notes/sirtuins/SIRT1]]
 
-- New links added: [[notes/_link/Parkinson's Disease]], [[notes/_link/Neuromelanin]], [[Lewy Bodies]], [[notes/oxidative_stress/Oxidative Stress]].
+- New links added: [[notes/_link/Parkinson's Disease]], [[Neuromelanin]], [[Lewy Bodies]], [[notes/oxidative_stress/Oxidative Stress]].
 - Suggested new entity notes to create: [[Lysosomes]], [[Mitophagy]], [[Proteostasis]].
-- Strong connections to strengthen: [[Autophagy]] ↔ [[notes/_link/Neuromelanin]].
+- Strong connections to strengthen: [[Autophagy]] ↔ [[Neuromelanin]].
 
 ## Role in Cancer
 Autophagy is often described as a "double-edged sword" in tumor development:
@@ -67,7 +67,7 @@ Autophagy is critical for maintaining cellular proteostasis by removing damaged 
 
 
 ## Impairment in Parkinson's Disease
-In [[notes/_link/Parkinson's Disease]], the autophagy-lysosome pathway is often compromised, particularly in [[notes/_link/Neuromelanin]]-containing neurons.
+In [[notes/_link/Parkinson's Disease]], the autophagy-lysosome pathway is often compromised, particularly in [[Neuromelanin]]-containing neurons.
 - **Neuromelanin Granules:** Neuromelanin is sequestered within specialized autophagic vacuoles. Because neuromelanin is insoluble and cannot be degraded by lysosomal proteases, it remains trapped, leading to the accumulation of undegraded autophagic structures.
 - **Proteostasis Failure:** The continuous build-up of neuromelanin-filled autophagic structures eventually exhausts the cell's vesicular storage capacity, interfering with intracellular trafficking and contributing to the formation of [[Lewy Bodies]].
 - **Mitochondrial Quality Control:** Impaired autophagy also compromises the removal of damaged mitochondria ([[Mitophagy]]), leading to increased [[notes/oxidative_stress/Oxidative Stress]].
@@ -138,6 +138,6 @@ Autophagy can be modulated by:
 
 
 ### Linking Summary:
-- New links added: [[notes/_link/Aging]], [[notes/_link/Alzheimer's Disease]], [[Cellular Senescence]], [[DNA Methylation]], [[DNA Methyltransferase]], [[Epigenetics]], [[Epigenome]], [[HDAC]], [[Histone Modification]], [[Lewy Bodies]], [[MicroRNA]], [[notes/_link/Neurodegenerative Diseases]], [[notes/_link/Neuromelanin]], [[Non-coding RNA]], [[notes/_link/Parkinson's Disease]], [[notes/sirtuins/SIRT1]], [[Sirtuin]], [[notes/oxidative_stress/Oxidative Stress]]
+- New links added: [[notes/_link/Aging]], [[notes/_link/Alzheimer's Disease]], [[Cellular Senescence]], [[DNA Methylation]], [[DNA Methyltransferase]], [[Epigenetics]], [[Epigenome]], [[HDAC]], [[Histone Modification]], [[Lewy Bodies]], [[MicroRNA]], [[notes/_link/Neurodegenerative Diseases]], [[Neuromelanin]], [[Non-coding RNA]], [[notes/_link/Parkinson's Disease]], [[notes/sirtuins/SIRT1]], [[Sirtuins]], [[notes/oxidative_stress/Oxidative Stress]]
 - Suggested new entity notes to create: [[Atg5]], [[Autophagosome]], [[Beclin1]], [[Lysosomes]], [[Mitophagy]], [[Proteostasis]]
-- Strong connections to strengthen: [[Autophagy]] ↔ [[notes/_link/Aging]], [[Autophagy]] ↔ [[notes/_link/Neuromelanin]]., [[Autophagy]] ↔ [[notes/sirtuins/SIRT1]]
+- Strong connections to strengthen: [[Autophagy]] ↔ [[notes/_link/Aging]], [[Autophagy]] ↔ [[Neuromelanin]]., [[Autophagy]] ↔ [[notes/sirtuins/SIRT1]]

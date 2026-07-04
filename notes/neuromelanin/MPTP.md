@@ -9,9 +9,9 @@ MPTP is lipid-soluble and can cross the blood-brain barrier.
 3.  **Mitochondrial Inhibition:** Once inside, it inhibits Complex I of the mitochondrial respiratory chain, leading to [[Mitochondrial Dysfunction]], [[notes/oxidative_stress/Oxidative Stress]], and cell death.
 
 ## Use in Research
-MPTP is widely used in laboratory animals to model PD. Interestingly, among dopaminergic neurons, those containing [[notes/_link/Neuromelanin]] are more susceptible to MPTP toxicity than non-melanized neurons, further linking pigment content to neuronal vulnerability.
+MPTP is widely used in laboratory animals to model PD. Interestingly, among dopaminergic neurons, those containing [[Neuromelanin]] are more susceptible to MPTP toxicity than non-melanized neurons, further linking pigment content to neuronal vulnerability.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Parkinson's Disease]], [[Substantia Nigra Pars Compacta]], [[Dopamine Transporter]], [[Mitochondrial Dysfunction]], [[notes/oxidative_stress/Oxidative Stress]], [[notes/_link/Neuromelanin]].
+- New links added: [[notes/_link/Parkinson's Disease]], [[Substantia Nigra Pars Compacta]], [[Dopamine Transporter]], [[Mitochondrial Dysfunction]], [[notes/oxidative_stress/Oxidative Stress]], [[Neuromelanin]].
 - Suggested new entity notes to create: [[MPP+]], [[MAO-B]], [[Complex I]].
 - Strong connections to strengthen: [[MPTP]] ↔ [[notes/_link/Parkinson's Disease]].

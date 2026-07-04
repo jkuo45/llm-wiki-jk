@@ -4,9 +4,9 @@
 
 ## Role in Aging Research
 - Used to study replicative and chronological aging.
-- Key discoveries: Identification of [[Sirtuin|Sir2]] and the effects of [[notes/_link/Caloric Restriction]].
+- Key discoveries: Identification of [[Sirtuins|Sir2]] and the effects of [[notes/_link/Caloric Restriction]].
 
 ## Related
 - [[Model Organisms]]
 - [[notes/_link/Aging]]
-- [[Sirtuin]]
+- [[Sirtuins]]

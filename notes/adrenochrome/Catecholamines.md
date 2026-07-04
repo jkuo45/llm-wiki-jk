@@ -11,7 +11,7 @@
 Catecholamines are primarily metabolized by enzymatic pathways ([[COMT]] and [[MAO]]). However, they are also susceptible to [[Oxidation]], particularly under conditions of [[notes/oxidative_stress/Oxidative Stress]]. 
 - [[notes/_link/Epinephrine]] oxidizes to [[Adrenochrome]].
 - [[notes/_link/Dopamine]] oxidizes to [[Dopaminochrome]].
-- These oxidative intermediates are known as [[Aminochromes]] and can further polymerize into [[notes/_link/Neuromelanin]].
+- These oxidative intermediates are known as [[Aminochromes]] and can further polymerize into [[Neuromelanin]].
 
 ## Physiological Role and Stress
 In response to stress, [[Smoking]], or [[notes/_link/Inflammation]], catecholamine levels rise. In these high-ROS environments, the oxidation pathway becomes more prominent, leading to the formation of reactive byproducts.
@@ -19,10 +19,10 @@ In response to stress, [[Smoking]], or [[notes/_link/Inflammation]], catecholami
 ## Connections
 - [[notes/_link/Epinephrine]] ↔ Member of the catecholamine family.
 - [[notes/_link/Dopamine]] ↔ Member of the catecholamine family.
-- [[notes/_link/Neuromelanin]] ↔ Dark pigment derived from catecholamine oxidation.
+- [[Neuromelanin]] ↔ Dark pigment derived from catecholamine oxidation.
 - [[COMT]] & [[MAO]] ↔ Primary enzymatic pathways for catecholamine degradation.
 - [[Aminochromes]] ↔ Reactive oxidative intermediates of catecholamines.
 
 ### Linking Summary:
-- New links added: [[Catecholamines]], [[notes/_link/Dopamine]], [[notes/_link/Epinephrine]], [[COMT]], [[MAO]], [[Aminochromes]], [[Oxidation]], [[notes/oxidative_stress/Oxidative Stress]], [[Adrenochrome]], [[Dopaminochrome]], [[notes/_link/Neuromelanin]], [[Smoking]], [[notes/_link/Inflammation]]
+- New links added: [[Catecholamines]], [[notes/_link/Dopamine]], [[notes/_link/Epinephrine]], [[COMT]], [[MAO]], [[Aminochromes]], [[Oxidation]], [[notes/oxidative_stress/Oxidative Stress]], [[Adrenochrome]], [[Dopaminochrome]], [[Neuromelanin]], [[Smoking]], [[notes/_link/Inflammation]]
 - Strong connections to strengthen: [[Catecholamines]] ↔ [[Aminochromes]]

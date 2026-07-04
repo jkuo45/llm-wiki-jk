@@ -117,7 +117,7 @@ This document outlines a series of novel combination therapies that leverage the
 
 - **Cardiovascular Monitoring:** Continuous ECG in animal models to detect arrhythmias (potential side effect of aminochromes).
 - **Targeted Delivery:** Use of pH-sensitive or ROS-responsive nanoparticles to release adrenochrome derivatives only in tissues with high basal oxidative stress (e.g., sites of chronic inflammation).
-- **Chemical Stability:** Use of [[Sodium Metabisulfite]] or [[Argon]] atmospheres during formulation to prevent premature polymerization into [[notes/_link/Neuromelanin]].
+- **Chemical Stability:** Use of [[Sodium Metabisulfite]] or [[Argon]] atmospheres during formulation to prevent premature polymerization into [[Neuromelanin]].
 
 ---
 

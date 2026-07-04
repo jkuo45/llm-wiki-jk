@@ -1,6 +1,6 @@
 # Pathogenic Threshold of Neuromelanin
 
-The [[Pathogenic Threshold of Neuromelanin]] is a hypothesized level of intracellular [[notes/_link/Neuromelanin]] accumulation above which neuronal function is compromised and neurodegeneration is triggered.
+The [[Pathogenic Threshold of Neuromelanin]] is a hypothesized level of intracellular [[Neuromelanin]] accumulation above which neuronal function is compromised and neurodegeneration is triggered.
 
 ## The Concept
 In humans, neuromelanin accumulates progressively with [[notes/_link/Aging]]. While initially neuroprotective, its long-term accumulation within autophagic structures may eventually reach a critical threshold.
@@ -11,6 +11,6 @@ In humans, neuromelanin accumulates progressively with [[notes/_link/Aging]]. Wh
 Maintaining or reducing intracellular neuromelanin levels to stay below this pathogenic threshold is proposed as a potential therapeutic strategy for preventing or delaying the onset of PD and mitigating brain aging.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Neuromelanin]], [[notes/_link/Aging]], [[Autophagy]], [[Ubiquitin-proteasome system]], [[Mitochondrial Dysfunction]], [[notes/oxidative_stress/Oxidative Stress]], [[notes/_link/Parkinson's Disease]], [[Incidental Lewy Body Disease]].
+- New links added: [[Neuromelanin]], [[notes/_link/Aging]], [[Autophagy]], [[Ubiquitin-proteasome system]], [[Mitochondrial Dysfunction]], [[notes/oxidative_stress/Oxidative Stress]], [[notes/_link/Parkinson's Disease]], [[Incidental Lewy Body Disease]].
 - Suggested new entity notes to create: [[Proteostasis]], [[Neuroprotection]].
 - Strong connections to strengthen: [[Pathogenic Threshold of Neuromelanin]] ↔ [[notes/_link/Parkinson's Disease]].

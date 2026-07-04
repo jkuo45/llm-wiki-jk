@@ -34,7 +34,7 @@ updated: 02_July_2026 08:57 PM PDT
 
 ## Functions
 *   **Energy Production**: Acts as an electron carrier in the mitochondria for ATP production.
-*   **Sirtuin Activation**: Serves as a mandatory co-substrate for the **[[Sirtuin]]** family of proteins (e.g., [[notes/sirtuins/SIRT1]], [[SIRT6]]).
+*   **Sirtuin Activation**: Serves as a mandatory co-substrate for the **[[Sirtuins]]** family of proteins (e.g., [[notes/sirtuins/SIRT1]], [[SIRT6]]).
 *   **[[notes/_link/DNA Repair]]**: Used by PARP enzymes to detect and repair DNA damage.
 
 ## NAD+ and [[notes/_link/Aging]]
@@ -44,9 +44,9 @@ NAD+ levels naturally decline with age. This decline is linked to:
 *   **Reduced Repair Capacity**: Accumulation of DNA damage.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Metabolism]], [[Sirtuin]], [[notes/sirtuins/SIRT1]], [[SIRT6]], [[notes/_link/DNA Repair]], [[notes/_link/Aging]], [[notes/_link/Inflammation]]
+- New links added: [[notes/_link/Metabolism]], [[Sirtuins]], [[notes/sirtuins/SIRT1]], [[SIRT6]], [[notes/_link/DNA Repair]], [[notes/_link/Aging]], [[notes/_link/Inflammation]]
 - Suggested new entity notes to create: [[NMN]], [[NR]], [[PARP Enzymes]], [[CD38]]
-- Strong connections to strengthen: [[NAD+]] ↔ [[Sirtuin]], [[NAD+]] ↔ [[notes/_link/Metabolism]]
+- Strong connections to strengthen: [[NAD+]] ↔ [[Sirtuins]], [[NAD+]] ↔ [[notes/_link/Metabolism]]
 
 # NAD+
 
@@ -92,10 +92,10 @@ SIRT1-mediated neuroprotection in the context of axonal degeneration requires **
 - [[notes/_link/Caloric Restriction]] — increases NAD⁺ levels, activating sirtuins
 - [[SIRT4]] — uses NAD⁺ as ADP-ribose donor for GDH modification
 - [[SIRT6]] — uses NAD⁺ as ADP-ribose donor for ADP-ribosylation
-- [[notes/_link/Resveratrol]] — STAC that activates SIRT1 in an NAD⁺-dependent manner
+- [[Resveratrol]] — STAC that activates SIRT1 in an NAD⁺-dependent manner
 
 ## Linking Summary
 
-- New links added: [[notes/sirtuins/SIRT1]], [[Sir2 (yeast)]], [[OAADPr]], [[notes/_link/Caloric Restriction]], [[SIRT4]], [[SIRT6]], [[notes/_link/Resveratrol]]
+- New links added: [[notes/sirtuins/SIRT1]], [[Sir2 (yeast)]], [[OAADPr]], [[notes/_link/Caloric Restriction]], [[SIRT4]], [[SIRT6]], [[Resveratrol]]
 - Suggested new entity notes to create: [[Nmnat]], [[PNC1 (yeast)]], [[NAMPT]], [[NAD⁺/NADH Ratio]]
 - Strong connections to strengthen: [[NAD+]] ↔ [[notes/sirtuins/SIRT1]], [[NAD+]] ↔ [[notes/_link/Caloric Restriction]]

@@ -69,7 +69,7 @@ Preliminary data on related [[Aminochromes]] suggest they may modulate the **Sen
 ## 4. Risk Assessment & Mitigation
 
 - **Cardiotoxicity:** The most significant risk. Mitigation includes the use of **stabilized derivatives** and targeted delivery (e.g., nanoparticle-mediated release in specific tissues).
-- **Neurotoxicity:** Potential for promoting [[notes/_link/Neuromelanin]]-mediated inflammation if polymerization is uncontrolled. Co-administration with [[notes/_link/Glutathione]] precursors (NAC) will be explored to regulate the polymerization rate.
+- **Neurotoxicity:** Potential for promoting [[Neuromelanin]]-mediated inflammation if polymerization is uncontrolled. Co-administration with [[notes/_link/Glutathione]] precursors (NAC) will be explored to regulate the polymerization rate.
 - **Regulatory Hurdles:** Addressing the cultural "hype" and historical associations through rigorous, peer-reviewed data and transparent communication of mechanisms.
 
 ---
@@ -84,7 +84,7 @@ Adrenochrome warrants serious investigation as a "dark horse" in the longevity f
 
 ### Linking Summary:
 
-- New links added: [[notes/_link/Epinephrine]], [[Cardiotoxicity]], [[Redox Cycling]], [[notes/oxidative_stress/Oxidative Stress]], [[notes/_link/Alzheimer's Disease]], [[notes/_link/Parkinson's Disease]], [[Adrenochrome monoaminoguanidine]], [[Aminoguanidine]], [[Aminochromes]], [[Cardiomyocytes]], [[notes/_link/Dopaminergic Neurons]], [[Leuco-adrenochrome]], [[notes/_link/Neuromelanin]], [[notes/_link/Glutathione]]
+- New links added: [[notes/_link/Epinephrine]], [[Cardiotoxicity]], [[Redox Cycling]], [[notes/oxidative_stress/Oxidative Stress]], [[notes/_link/Alzheimer's Disease]], [[notes/_link/Parkinson's Disease]], [[Adrenochrome monoaminoguanidine]], [[Aminoguanidine]], [[Aminochromes]], [[Cardiomyocytes]], [[notes/_link/Dopaminergic Neurons]], [[Leuco-adrenochrome]], [[Neuromelanin]], [[notes/_link/Glutathione]]
 - Suggested new entity notes to create: [[notes/adrenochrome/Mitohormesis]], [[Senomorphics]], [[Adrenochromatization]]
 - Strong connections to strengthen: [[Adrenochrome]] ↔ [[Redox Cycling]], [[Adrenochrome monoaminoguanidine]] ↔ [[Aminoguanidine]]
 

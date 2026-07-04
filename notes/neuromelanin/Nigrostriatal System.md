@@ -10,9 +10,9 @@ The pathway consists of dopaminergic neurons in the SNpc that project their axon
 ## Clinical Significance in Parkinson's Disease
 The progressive degeneration of the nigrostriatal system is the defining pathological feature of [[notes/_link/Parkinson's Disease]].
 - **Denervation:** The loss of dopaminergic projections leads to striatal dopamine depletion, resulting in the classic motor symptoms of PD.
-- **Neuromelanin:** The selective vulnerability of the nigrostriatal system is closely tied to the high [[notes/_link/Neuromelanin]] content of the neurons in the SNpc.
+- **Neuromelanin:** The selective vulnerability of the nigrostriatal system is closely tied to the high [[Neuromelanin]] content of the neurons in the SNpc.
 
 ### Linking Summary:
-- New links added: [[Substantia Nigra Pars Compacta]], [[Striatum]], [[notes/_link/Parkinson's Disease]], [[notes/_link/Neuromelanin]].
+- New links added: [[Substantia Nigra Pars Compacta]], [[Striatum]], [[notes/_link/Parkinson's Disease]], [[Neuromelanin]].
 - Suggested new entity notes to create: [[Caudate Nucleus]], [[Putamen]].
 - Strong connections to strengthen: [[Nigrostriatal System]] ↔ [[notes/_link/Parkinson's Disease]].

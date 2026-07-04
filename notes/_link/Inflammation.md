@@ -15,11 +15,11 @@ Inflammation creates the ideal conditions for the [[Oxidation]] of [[notes/_link
 
 ## Chronic vs. Acute Inflammation
 - **Acute:** Rapid production of adrenochrome during the peak of the immune response.
-- **Chronic:** Linked to "inflammaging" and the gradual, age-related accumulation of [[notes/_link/Neuromelanin]] through sustained low-level catecholamine oxidation.
+- **Chronic:** Linked to "inflammaging" and the gradual, age-related accumulation of [[Neuromelanin]] through sustained low-level catecholamine oxidation.
 
 
 ## Linking Summary:
-- New links added: [[notes/_link/Inflammation]], [[Adrenochrome]], [[Oxidation]], [[notes/_link/Epinephrine]], [[notes/_link/Neutrophils]], [[notes/_link/Myeloperoxidase]], [[notes/_link/Reactive Oxygen Species]], [[Superoxide anion]], [[notes/_link/Hydrogen Peroxide]], [[Lungs]], [[notes/oxidative_stress/Oxidative Stress]], [[notes/_link/Neuromelanin]]
+- New links added: [[notes/_link/Inflammation]], [[Adrenochrome]], [[Oxidation]], [[notes/_link/Epinephrine]], [[notes/_link/Neutrophils]], [[notes/_link/Myeloperoxidase]], [[notes/_link/Reactive Oxygen Species]], [[Superoxide anion]], [[notes/_link/Hydrogen Peroxide]], [[Lungs]], [[notes/oxidative_stress/Oxidative Stress]], [[Neuromelanin]]
 - Strong connections to strengthen: [[notes/_link/Inflammation]] ↔ [[notes/_link/Neutrophils]]
 
 - New links added: [[TNF-alpha]], [[IL-1b]], [[NF-kappa B]]
@@ -35,7 +35,7 @@ Inflammation creates the ideal conditions for the [[Oxidation]] of [[notes/_link
 
 
 ### Linking Summary:
-- New links added: [[Adrenochrome]], [[notes/_link/Epinephrine]], [[notes/_link/Hydrogen Peroxide]], [[IL-1b]], [[notes/_link/Inflammation]], [[Lungs]], [[notes/_link/Myeloperoxidase]], [[NF-kappa B]], [[notes/_link/Neuromelanin]], [[notes/_link/Neutrophils]], [[Oxidation]], [[notes/oxidative_stress/Oxidative Stress]], [[notes/_link/Reactive Oxygen Species]], [[Superoxide anion]], [[TNF-alpha]]
+- New links added: [[Adrenochrome]], [[notes/_link/Epinephrine]], [[notes/_link/Hydrogen Peroxide]], [[IL-1b]], [[notes/_link/Inflammation]], [[Lungs]], [[notes/_link/Myeloperoxidase]], [[NF-kappa B]], [[Neuromelanin]], [[notes/_link/Neutrophils]], [[Oxidation]], [[notes/oxidative_stress/Oxidative Stress]], [[notes/_link/Reactive Oxygen Species]], [[Superoxide anion]], [[TNF-alpha]]
 - Suggested new entity notes to create: [[Cytokines]], [[Immune response]]
 - Strong connections to strengthen: [[notes/_link/Inflammation]] ↔ [[notes/_link/Neutrophils]], [[notes/_link/Inflammation]] ↔ [[TNF-alpha]]
 

@@ -1,3 +1,11 @@
+---
+type: entity
+category: chemical
+aliases: []
+created: 2026-05-25
+updated: 2026-07-04
+---
+
 # Berberine
 
 **[[Berberine]]** is a bioactive compound that can be extracted from several different plants, including a group of shrubs called *Berberis*. It has potent [[Anti-inflammatory]] and blood sugar-regulating effects.
@@ -8,8 +16,8 @@
 ## Connections
 - [[Anti-inflammatory]]: A primary therapeutic use of berberine.
 - [[COMT]]: Berberine is a safe alternative that does not inhibit this enzyme.
-- [[Quercetin]]: Unlike quercetin, berberine does not require COMT for metabolism.
+- [[notes/_link/Quercetin]]: Unlike quercetin, berberine does not require COMT for metabolism.
 
 ---
 ### Linking Summary:
-- New links added: [[Anti-inflammatory]], [[COMT]], [[Quercetin]].
+- New links added: [[Anti-inflammatory]], [[COMT]], [[notes/_link/Quercetin]].

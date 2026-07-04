@@ -10,7 +10,7 @@ Metabolic syndrome is deeply linked to changes in the [[Epigenome]]:
 *   **"Metabolic Memory"**: Chronic exposure to high glucose or fatty acids can leave "epigenetic scars" (such as altered [[DNA Methylation]]) that persist even after metabolic factors are normalized.
 *   **Inflammation**: Metabolic syndrome drives systemic inflammation, which is both a cause and a consequence of [[Epigenetic Alterations]] like the loss of [[Heterochromatin]].
 
-### 3. Role of [[Sirtuin|Sirtuins]]
+### 3. Role of [[Sirtuins|Sirtuins]]
 Sirtuins, particularly [[notes/sirtuins/SIRT1]], are critical sensors of metabolic health. They regulate glucose and lipid metabolism through their deacetylase activity. In metabolic syndrome, sirtuin activity is often reduced, contributing to mitochondrial dysfunction and cellular stress.
 
 ### Connections
@@ -20,6 +20,6 @@ Sirtuins, particularly [[notes/sirtuins/SIRT1]], are critical sensors of metabol
 - **[[notes/sirtuins/SIRT1]]**: A key metabolic regulator that is often compromised in these conditions.
 
 ### Linking Summary:
-- New links added: [[Metabolic Syndromes]], [[notes/_link/Aging]], [[Epigenome]], [[DNA Methylation]], [[Epigenetic Alterations]], [[Heterochromatin]], [[Sirtuin]], [[notes/sirtuins/SIRT1]], [[notes/_link/Diabetes Mellitus]], [[notes/_link/Cardiovascular Disease]]
+- New links added: [[Metabolic Syndromes]], [[notes/_link/Aging]], [[Epigenome]], [[DNA Methylation]], [[Epigenetic Alterations]], [[Heterochromatin]], [[Sirtuins]], [[notes/sirtuins/SIRT1]], [[notes/_link/Diabetes Mellitus]], [[notes/_link/Cardiovascular Disease]]
 - Suggested new entity notes to create: [[Insulin Resistance]], [[Hyperlipidemia]], [[Metabolic Memory]]
 - Strong connections to strengthen: [[Metabolic Syndromes]] ↔ [[notes/_link/Aging]], [[Metabolic Syndromes]] ↔ [[notes/_link/Diabetes Mellitus]]

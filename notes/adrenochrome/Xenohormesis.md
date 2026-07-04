@@ -4,7 +4,7 @@ Xenohormesis is a biological hypothesis proposing that animals have evolved to s
 
 ## Mechanism
 
-Plants synthesize molecules like [[Resveratrol]], [[Quercetin]], and other [[Polyphenols]] in response to environmental stress. When animals ingest these "xenohormetic" compounds, they activate conserved stress-response pathways (e.g., [[Sirtuin]] activation), which confer health benefits and stress resistance.
+Plants synthesize molecules like [[Resveratrol]], [[Quercetin]], and other [[Polyphenols]] in response to environmental stress. When animals ingest these "xenohormetic" compounds, they activate conserved stress-response pathways (e.g., [[Sirtuins]] activation), which confer health benefits and stress resistance.
 
 ## Relation to Aging
 
@@ -16,10 +16,10 @@ Xenohormesis provides an evolutionary explanation for why certain plant compound
 - [[Mitohormesis]]
 - [[Resveratrol]]
 - [[Quercetin]]
-- [[Sirtuin]]
+- [[Sirtuins]]
 
 ## Linking Summary
 
-- New links added: [[Hormesis]], [[Mitohormesis]], [[Resveratrol]], [[Quercetin]], [[Sirtuin]]
+- New links added: [[Hormesis]], [[Mitohormesis]], [[Resveratrol]], [[Quercetin]], [[Sirtuins]]
 - Suggested new entity notes to create: [[Polyphenols]]
 - Strong connections to strengthen: [[Xenohormesis]] ↔ [[Evolutionary Medicine]]

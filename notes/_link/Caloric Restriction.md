@@ -61,7 +61,7 @@ Aging is typically characterized by epigenetic drift: a global loss of DNA methy
 
 ## 2. [[Histone Modification]]s and [[Chromatin]] Structure
 CR alters how DNA is packaged, keeping chromatin in a more stable, "youthful" state.
-*   **[[Sirtuin]] Activation:** CR increases levels of NAD+, which activates [[notes/sirtuins/SIRT1]] (a histone deacetylase). SIRT1 removes acetyl groups from histones, leading to tighter DNA packaging ([[Heterochromatin]]) and the silencing of genes that promote inflammation and senescence.
+*   **[[Sirtuins]] Activation:** CR increases levels of NAD+, which activates [[notes/sirtuins/SIRT1]] (a histone deacetylase). SIRT1 removes acetyl groups from histones, leading to tighter DNA packaging ([[Heterochromatin]]) and the silencing of genes that promote inflammation and senescence.
 *   **Specific Marks:** CR has been shown to influence specific histone marks that are associated with telomere maintenance and longevity.
 *   **Neuroprotection:** In the brain, CR prevents the age-related increase of [[HDAC]]s that can otherwise impair synaptic plasticity and memory.
 
@@ -74,7 +74,7 @@ The epigenetic changes induced by CR converge on several critical pathways:
 
 
 ## Linking Summary:
-- New links added: [[notes/_link/Aging]], [[Epigenome]], [[DNA Methylation]], [[Cellular Senescence]], [[Histone Modification]], [[Chromatin]], [[Sirtuin]], [[notes/sirtuins/SIRT1]], [[Heterochromatin]], [[HDAC]].
+- New links added: [[notes/_link/Aging]], [[Epigenome]], [[DNA Methylation]], [[Cellular Senescence]], [[Histone Modification]], [[Chromatin]], [[Sirtuins]], [[notes/sirtuins/SIRT1]], [[Heterochromatin]], [[HDAC]].
 - Suggested new entity notes to create: [[p16INK4a]], [[NAD+]], [[Telomere]], [[DunedinPACE]].
 - Strong connections to strengthen: [[notes/_link/Caloric Restriction]] ↔ [[notes/_link/Aging]], [[notes/_link/Caloric Restriction]] ↔ [[notes/sirtuins/SIRT1]]
 
@@ -106,7 +106,7 @@ The epigenetic changes induced by CR converge on several critical pathways:
 
 
 ### Linking Summary:
-- New links added: [[notes/_link/AMPK]], [[notes/_link/Aging]], [[Autophagic Cell Death]], [[Autophagy]], [[Cancer]], [[Cellular Homeostasis]], [[Cellular Senescence]], [[Chromatin]], [[DNA Methylation]], [[Epigenome]], [[HDAC]], [[Heterochromatin]], [[Histone Modification]], [[notes/_link/Inflammaging]], [[Longevity]], [[Neurodegenerative Disease]], [[notes/sirtuins/SIRT1]], [[Sirtuin]]
+- New links added: [[notes/_link/AMPK]], [[notes/_link/Aging]], [[Autophagic Cell Death]], [[Autophagy]], [[Cancer]], [[Cellular Homeostasis]], [[Cellular Senescence]], [[Chromatin]], [[DNA Methylation]], [[Epigenome]], [[HDAC]], [[Heterochromatin]], [[Histone Modification]], [[notes/_link/Inflammaging]], [[Longevity]], [[Neurodegenerative Disease]], [[notes/sirtuins/SIRT1]], [[Sirtuins]]
 - Suggested new entity notes to create: [[notes/_link/AMPK]], [[Cellular Homeostasis]], [[DunedinPACE]], [[Longevity]], [[NAD+]], [[Telomere]], [[p16INK4a]]
 - Strong connections to strengthen: [[notes/_link/Caloric Restriction]] ↔ [[notes/_link/Aging]], [[notes/_link/Caloric Restriction]] ↔ [[Autophagy]], [[notes/_link/Caloric Restriction]] ↔ [[Longevity]], [[notes/_link/Caloric Restriction]] ↔ [[notes/sirtuins/SIRT1]]
 

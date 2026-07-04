@@ -1,3 +1,11 @@
+---
+type: entity
+category: anatomy
+aliases: []
+created: 2026-05-25
+updated: 2026-07-04
+---
+
 # Hippocampus
 
 The **[[Hippocampus]]** is a major component of the brain of humans and other vertebrates. It belongs to the limbic system and plays important roles in the consolidation of information from short-term memory to long-term memory, and in spatial navigation.

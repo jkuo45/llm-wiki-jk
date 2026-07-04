@@ -1,6 +1,6 @@
 # Substantia Nigra
 
-The **Substantia Nigra** (SN) is a critical basal ganglia structure located in the midbrain. Its name, Latin for "black substance," is derived from the dark color provided by high concentrations of [[notes/_link/Neuromelanin]] in its neurons.
+The **Substantia Nigra** (SN) is a critical basal ganglia structure located in the midbrain. Its name, Latin for "black substance," is derived from the dark color provided by high concentrations of [[Neuromelanin]] in its neurons.
 
 ## Anatomical Divisions
 The substantia nigra is divided into two primary regions:
@@ -19,12 +19,12 @@ The SNpc is vital for:
 
 ## Connections
 - [[notes/_link/Dopaminergic Neurons]]: The primary cell type in the SNpc.
-- [[notes/_link/Neuromelanin]]: Pigment formed via the oxidation of [[Catecholamines]] (with [[Adrenochrome]] and other [[Aminochromes]] as intermediates).
+- [[Neuromelanin]]: Pigment formed via the oxidation of [[Catecholamines]] (with [[Adrenochrome]] and other [[Aminochromes]] as intermediates).
 - [[notes/_link/Dopamine]]: The primary neurotransmitter produced and released by SNpc neurons.
 - [[Striatum]]: The major projection target of the nigrostriatal pathway.
 - [[notes/_link/Ventral Tegmental Area]]: Another major midbrain dopaminergic nucleus.
 
 ### Linking Summary:
-- New links added: [[Adrenochrome]], [[Aminochromes]], [[Bradykinesia]], [[COMT]], [[Catecholamines]], [[notes/_link/Dopamine]], [[notes/_link/Dopaminergic Neurons]], [[notes/_link/Neuromelanin]], [[Nigrostriatal System]], [[notes/_link/Parkinson's Disease]], [[Striatum]], [[Substantia Nigra Pars Compacta]], [[notes/_link/Ventral Tegmental Area]]
+- New links added: [[Adrenochrome]], [[Aminochromes]], [[Bradykinesia]], [[COMT]], [[Catecholamines]], [[notes/_link/Dopamine]], [[notes/_link/Dopaminergic Neurons]], [[Neuromelanin]], [[Nigrostriatal System]], [[notes/_link/Parkinson's Disease]], [[Striatum]], [[Substantia Nigra Pars Compacta]], [[notes/_link/Ventral Tegmental Area]]
 - Suggested new entity notes to create: [[Basal Ganglia]], [[Midbrain]], [[GABAergic Neurons]]
 - Strong connections to strengthen: [[notes/_link/Substantia Nigra]] ↔ [[notes/_link/Parkinson's Disease]], [[notes/_link/Substantia Nigra]] ↔ [[Striatum]]

@@ -15,11 +15,11 @@ Dopamine is a neurotransmitter that plays several important roles in the brain a
 ## Oxidation and Pigmentation
 Like other [[Catecholamines]], Dopamine can undergo [[Oxidation]] (spontaneous or enzymatic) to form reactive intermediates:
 - **[[Dopaminochrome]]:** The aminochrome intermediate analogous to [[Adrenochrome]]. It is produced by the oxidation of the catechol ring to an o-quinone followed by cyclization.
-- **[[notes/_link/Neuromelanin]]:** [[Dopaminochrome]] and its derivatives polymerize to form the dark pigment found in the substantia nigra.
+- **[[Neuromelanin]]:** [[Dopaminochrome]] and its derivatives polymerize to form the dark pigment found in the substantia nigra.
 
 
 ## Clinical Relevance
-- **Parkinson's Disease:** Characterized by the death of dopaminergic neurons and loss of [[notes/_link/Neuromelanin]]. Excess oxidation of dopamine to [[Dopaminochrome]] is linked to neuronal stress.
+- **Parkinson's Disease:** Characterized by the death of dopaminergic neurons and loss of [[Neuromelanin]]. Excess oxidation of dopamine to [[Dopaminochrome]] is linked to neuronal stress.
 - **[[notes/oxidative_stress/Oxidative Stress]]:** High levels of ROS promote the oxidation of dopamine, bypassing normal enzymatic degradation by [[COMT]] and [[MAO]].
 
 
@@ -29,14 +29,14 @@ Like other [[Catecholamines]], Dopamine can undergo [[Oxidation]] (spontaneous o
 
 
 ## Linking Summary:
-- New links added: [[notes/_link/Dopamine]], [[Catecholamines]], [[Oxidation]], [[Dopaminochrome]], [[Adrenochrome]], [[notes/_link/Neuromelanin]], [[notes/oxidative_stress/Oxidative Stress]], [[notes/_link/Epinephrine]], [[COMT]], [[MAO]]
+- New links added: [[notes/_link/Dopamine]], [[Catecholamines]], [[Oxidation]], [[Dopaminochrome]], [[Adrenochrome]], [[Neuromelanin]], [[notes/oxidative_stress/Oxidative Stress]], [[notes/_link/Epinephrine]], [[COMT]], [[MAO]]
 - Strong connections to strengthen: [[notes/_link/Dopamine]] ↔ [[Dopaminochrome]]
 
 - New links added: [[notes/_link/Substantia Nigra]], [[notes/_link/Parkinson's Disease]]
 - Suggested new entity notes to create: [[Neurotransmitter]], [[notes/_link/Dopaminergic Neurons]]
 - Strong connections to strengthen: [[notes/_link/Dopamine]] ↔ [[notes/_link/Parkinson's Disease]]
 
-- New links added: [[notes/_link/Tyrosine Hydroxylase]], [[L-DOPA]], [[Substantia Nigra Pars Compacta]], [[Vesicular Monoamine Transporter 2]], [[notes/_link/Parkinson's Disease]], [[notes/_link/Substantia Nigra]], [[notes/_link/Neuromelanin]].
+- New links added: [[notes/_link/Tyrosine Hydroxylase]], [[L-DOPA]], [[Substantia Nigra Pars Compacta]], [[Vesicular Monoamine Transporter 2]], [[notes/_link/Parkinson's Disease]], [[notes/_link/Substantia Nigra]], [[Neuromelanin]].
 - Suggested new entity notes to create: [[Aromatic L-amino acid decarboxylase]], [[Catecholamines]].
 - Strong connections to strengthen: [[notes/_link/Dopamine]] ↔ [[notes/_link/Substantia Nigra]].
 
@@ -52,7 +52,7 @@ In the [[Substantia Nigra Pars Compacta]], dopamine is produced and then encapsu
 
 ## Role in Parkinson's Disease
 The hallmark of [[notes/_link/Parkinson's Disease]] is the progressive degeneration of dopaminergic neurons in the [[notes/_link/Substantia Nigra]]. The resulting deficiency in dopamine leads to the characteristic motor symptoms of the disease.
-- **Oxidation:** Cytosolic dopamine can undergo auto-oxidation or enzymatic oxidation to form [[notes/_link/Neuromelanin]]. While this is initially a protective mechanism to remove reactive quinones, it leads to the lifelong accumulation of pigment.
+- **Oxidation:** Cytosolic dopamine can undergo auto-oxidation or enzymatic oxidation to form [[Neuromelanin]]. While this is initially a protective mechanism to remove reactive quinones, it leads to the lifelong accumulation of pigment.
 - **Vulnerability:** Neurons with high dopamine turnover and low VMAT2 expression are particularly vulnerable to neurodegeneration.
 
 
@@ -75,7 +75,7 @@ The [[COMT]] [[Val158Met]] [[Polymorphism]] significantly affects dopamine level
 ## Connections
 - [[Catecholamines]] ↔ Dopamine is a member of this class.
 - [[Dopaminochrome]] ↔ Direct oxidative byproduct of dopamine.
-- [[notes/_link/Neuromelanin]] ↔ Derived from dopamine oxidation in the brain.
+- [[Neuromelanin]] ↔ Derived from dopamine oxidation in the brain.
 - [[notes/_link/Epinephrine]] ↔ Precursor to epinephrine (Dopamine → Norepinephrine → Epinephrine).
 - [[COMT]] & [[MAO]] ↔ Primary enzymes for dopamine metabolism.
 
@@ -87,6 +87,6 @@ The [[COMT]] [[Val158Met]] [[Polymorphism]] significantly affects dopamine level
 ---
 
 ### Linking Summary:
-- New links added: [[Adrenochrome]], [[COMT]], [[Catechol-O-methyltransferase]], [[Catecholamines]], [[DAT]], [[notes/_link/Dopamine]], [[Dopamine Transporter]], [[Dopaminochrome]], [[notes/_link/Epinephrine]], [[Executive Function]], [[L-DOPA]], [[MAO]], [[Monoamine Oxidase]], [[NET]], [[notes/_link/Neuromelanin]], [[Neurotransmitter]], [[Norepinephrine Transporter]], [[Oxidation]], [[notes/oxidative_stress/Oxidative Stress]], [[PFC]], [[notes/_link/Parkinson's Disease]], [[Polymorphism]], [[Prefrontal Cortex]], [[notes/_link/Schizophrenia]], [[Striatum]], [[notes/_link/Substantia Nigra]], [[Substantia Nigra Pars Compacta]], [[notes/_link/Substantia Nigra]], [[notes/_link/Tyrosine Hydroxylase]], [[Val158Met]], [[Vesicular Monoamine Transporter 2]], [[Working Memory]]
+- New links added: [[Adrenochrome]], [[COMT]], [[Catechol-O-methyltransferase]], [[Catecholamines]], [[DAT]], [[notes/_link/Dopamine]], [[Dopamine Transporter]], [[Dopaminochrome]], [[notes/_link/Epinephrine]], [[Executive Function]], [[L-DOPA]], [[MAO]], [[Monoamine Oxidase]], [[NET]], [[Neuromelanin]], [[Neurotransmitter]], [[Norepinephrine Transporter]], [[Oxidation]], [[notes/oxidative_stress/Oxidative Stress]], [[PFC]], [[notes/_link/Parkinson's Disease]], [[Polymorphism]], [[Prefrontal Cortex]], [[notes/_link/Schizophrenia]], [[Striatum]], [[notes/_link/Substantia Nigra]], [[Substantia Nigra Pars Compacta]], [[notes/_link/Substantia Nigra]], [[notes/_link/Tyrosine Hydroxylase]], [[Val158Met]], [[Vesicular Monoamine Transporter 2]], [[Working Memory]]
 - Suggested new entity notes to create: [[Aromatic L-amino acid decarboxylase]], [[Catecholamines]], [[notes/_link/Dopaminergic Neurons]], [[Neurotransmitter]]
 - Strong connections to strengthen: [[notes/_link/Dopamine]] ↔ [[Dopaminochrome]], [[notes/_link/Dopamine]] ↔ [[notes/_link/Parkinson's Disease]], [[notes/_link/Dopamine]] ↔ [[notes/_link/Substantia Nigra]].

@@ -1,3 +1,12 @@
+---
+type: entity
+category: chemical
+aliases:
+  - 'dibencozide'
+created: 2026-05-25
+updated: 2026-07-04
+---
+
 # Adenosylcobalamin
 
 **[[Adenosylcobalamin]]** (also known as dibencozide) is one of the two active coenzyme forms of [[Vitamin B12]].

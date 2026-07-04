@@ -1,3 +1,11 @@
+---
+type: entity
+category: chemical
+aliases: []
+created: 2026-05-25
+updated: 2026-07-04
+---
+
 # Alpha-tocopherol
 
 **[[Alpha-tocopherol]]** is the primary form of [[notes/_link/Vitamin E]] that is preferentially used by the human body.
