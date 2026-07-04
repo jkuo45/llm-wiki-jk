@@ -8,7 +8,7 @@ Oxidative stress reflects an imbalance between the systemic manifestation of [[n
 ## Mechanism and Consequences
 - **Cellular Damage:** ROS can damage DNA, proteins, and lipids (lipid peroxidation). It leads to damage of cellular components, including [[Proteins]], [[Lipids]], and [[Nucleic Acids]].
 - **[[Redox Cycling]]:** Certain metabolites, like [[Adrenochrome]], can participate in redox cycling, which further amplifies oxidative stress in a "vicious cycle."
-- **Aging:** Chronic oxidative stress is a key component of "inflammaging" and the age-related accumulation of [[notes/_link/Neuromelanin]].
+- **Aging:** Chronic oxidative stress is a key component of "inflammaging" and the age-related accumulation of [[Neuromelanin]].
 - **[[Cardiotoxicity]]:** In the heart, oxidative stress leads to mitochondrial damage and cell death, often exacerbated by adrenochrome.
 - **[[Mitochondrial Dysfunction]]:** Impaired mitochondrial function further increases the production of ROS, leading to a cycle of oxidative damage to lipids, proteins, and DNA.
 
@@ -27,7 +27,7 @@ The [[COMT]] enzyme helps protect cells from oxidative stress by breaking down [
 ### [[notes/_link/Parkinson's Disease]]
 Oxidative stress is considered a major contributing factor to the pathogenesis of [[notes/_link/Parkinson's Disease]].
 - **Dopamine Metabolism:** The metabolism of [[notes/_link/Dopamine]] naturally generates reactive quinones and ROS.
-- **Iron and Neuromelanin:** The [[notes/_link/Substantia Nigra]] contains high levels of [[Iron]], which can promote the formation of highly reactive hydroxyl radicals via the Fenton reaction. [[notes/_link/Neuromelanin]] normally protects neurons by chelating iron, but its structural alteration or saturation in PD may compromise this defense.
+- **Iron and Neuromelanin:** The [[notes/_link/Substantia Nigra]] contains high levels of [[Iron]], which can promote the formation of highly reactive hydroxyl radicals via the Fenton reaction. [[Neuromelanin]] normally protects neurons by chelating iron, but its structural alteration or saturation in PD may compromise this defense.
 
 ### [[notes/_link/Alzheimer's Disease]]
 Plays a pivotal role in neuron loss.
@@ -52,6 +52,6 @@ Plays a pivotal role in neuron loss.
 - [[Redox Cycling]] ↔ Mechanism of ROS amplification driven by aminochromes.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Reactive Oxygen Species]], [[Adrenochrome]], [[Oxidation]], [[notes/_link/Epinephrine]], [[Superoxide anion]], [[notes/_link/Hydrogen Peroxide]], [[Hydroxyl radical]], [[COMT]], [[MAO]], [[Redox Cycling]], [[notes/_link/Neuromelanin]], [[Cardiotoxicity]], [[Smoking]], [[notes/_link/Inflammation]], [[notes/_link/Neutrophils]], [[notes/_link/Myeloperoxidase]], [[Aminochromes]], [[notes/_link/Antioxidants]], [[notes/_link/Superoxide Dismutase]], [[notes/adrenochrome/Catalase]], [[notes/adrenochrome/Glutathione peroxidase]], [[notes/_link/Atherosclerosis]], [[Cancer]], [[notes/_link/Alzheimer's Disease]], [[Proteins]], [[Lipids]], [[Nucleic Acids]], [[notes/_link/Parkinson's Disease]], [[notes/_link/Dopamine]], [[notes/_link/Substantia Nigra]], [[Iron]], [[Mitochondrial Dysfunction]], [[Fenton Reaction]], [[Fenbendazole]], [[cisplatin]], [[doxorubicin]], [[Free Radicals]], [[Catecholamines]]
+- New links added: [[notes/_link/Reactive Oxygen Species]], [[Adrenochrome]], [[Oxidation]], [[notes/_link/Epinephrine]], [[Superoxide anion]], [[notes/_link/Hydrogen Peroxide]], [[Hydroxyl radical]], [[COMT]], [[MAO]], [[Redox Cycling]], [[Neuromelanin]], [[Cardiotoxicity]], [[Smoking]], [[notes/_link/Inflammation]], [[notes/_link/Neutrophils]], [[notes/_link/Myeloperoxidase]], [[Aminochromes]], [[notes/_link/Antioxidants]], [[notes/_link/Superoxide Dismutase]], [[notes/adrenochrome/Catalase]], [[notes/adrenochrome/Glutathione peroxidase]], [[notes/_link/Atherosclerosis]], [[Cancer]], [[notes/_link/Alzheimer's Disease]], [[Proteins]], [[Lipids]], [[Nucleic Acids]], [[notes/_link/Parkinson's Disease]], [[notes/_link/Dopamine]], [[notes/_link/Substantia Nigra]], [[Iron]], [[Mitochondrial Dysfunction]], [[Fenton Reaction]], [[Fenbendazole]], [[cisplatin]], [[doxorubicin]], [[Free Radicals]], [[Catecholamines]]
 - Suggested new entity notes to create: [[Fenton Reaction]], [[Lipids]], [[Nucleic Acids]], [[Proteins]], [[notes/_link/Antioxidants]]
 - Strong connections to strengthen: [[notes/oxidative_stress/Oxidative Stress]] ↔ [[notes/_link/Reactive Oxygen Species]], [[notes/oxidative_stress/Oxidative Stress]] ↔ [[Mitochondrial Dysfunction]], [[notes/oxidative_stress/Oxidative Stress]] ↔ [[COMT]]

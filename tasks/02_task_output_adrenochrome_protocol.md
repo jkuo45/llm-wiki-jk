@@ -35,7 +35,7 @@ To prevent spontaneous degradation into [[Melanins]] (polymerization) and to mit
 
 ### Method C: Central Nervous System Delivery
 *   **Route:** Intranasal.
-*   **Objective:** To target catecholaminergic neurons in the brain (e.g., substantia nigra) for the replenishment of [[notes/_link/Neuromelanin]] precursors, potentially bypassing the blood-brain barrier (BBB).
+*   **Objective:** To target catecholaminergic neurons in the brain (e.g., substantia nigra) for the replenishment of [[Neuromelanin]] precursors, potentially bypassing the blood-brain barrier (BBB).
 
 ## 4. Safety Monitoring and Risk Mitigation
 
@@ -50,9 +50,9 @@ Adrenochrome replenishment carries significant risks of [[notes/oxidative_stress
 *   [[Leuco-adrenochrome]] ↔ Key stable intermediate.
 *   [[Oxyhemoglobin]] ↔ Oxidative driver via superoxide production.
 *   [[Cardiotoxicity]] ↔ Primary dose-limiting side effect.
-*   [[notes/_link/Neuromelanin]] ↔ Long-term sequestration product in the brain.
+*   [[Neuromelanin]] ↔ Long-term sequestration product in the brain.
 
 ### Linking Summary:
-- New links added: [[_document_ -  adrenochrome - Adrenochrome]], [[Leuco-adrenochrome]], [[Carbazochrome]], [[notes/_link/Epinephrine]], [[Erythrocytes]], [[Oxyhemoglobin]], [[Methemoglobin]], [[Superoxide anion]], [[Melanins]], [[Cardiotoxicity]], [[notes/_link/Ascorbic Acid]], [[notes/_link/Glutathione]], [[Redox Cycling]], [[EDTA]], [[Argon]], [[Nitrogen gas]], [[notes/_link/Reactive Oxygen Species]], [[COMT]], [[MAO]], [[notes/_link/Neuromelanin]], [[Methemoglobinemia]], [[notes/_link/Superoxide Dismutase]], [[Redox cycle]].
+- New links added: [[_document_ -  adrenochrome - Adrenochrome]], [[Leuco-adrenochrome]], [[Carbazochrome]], [[notes/_link/Epinephrine]], [[Erythrocytes]], [[Oxyhemoglobin]], [[Methemoglobin]], [[Superoxide anion]], [[Melanins]], [[Cardiotoxicity]], [[notes/_link/Ascorbic Acid]], [[notes/_link/Glutathione]], [[Redox Cycling]], [[EDTA]], [[Argon]], [[Nitrogen gas]], [[notes/_link/Reactive Oxygen Species]], [[COMT]], [[MAO]], [[Neuromelanin]], [[Methemoglobinemia]], [[notes/_link/Superoxide Dismutase]], [[Redox cycle]].
 - Suggested new entity notes to create: None (all key terms already exist or were derived from research).
 - Strong connections to strengthen: [[_document_ -  adrenochrome - Adrenochrome]] ↔ [[Leuco-adrenochrome]], [[notes/_link/Epinephrine]] ↔ [[Erythrocytes]], [[_document_ -  adrenochrome - Adrenochrome]] ↔ [[Cardiotoxicity]].

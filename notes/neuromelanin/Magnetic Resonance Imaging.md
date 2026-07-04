@@ -5,4 +5,4 @@ Magnetic Resonance Imaging (MRI) is a non-invasive imaging technology that produ
 ### Linking Summary:
 - New links added: [[notes/_link/Substantia Nigra]], [[Locus Coeruleus]], [[Biomarker]]
 - Suggested new entity notes to create: 
-- Strong connections to strengthen: [[notes/_link/Neuromelanin]] ↔ [[Magnetic Resonance Imaging]]
+- Strong connections to strengthen: [[Neuromelanin]] ↔ [[Magnetic Resonance Imaging]]

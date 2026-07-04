@@ -18,12 +18,12 @@ Adrenochrome is produced non-enzymatically or via catalytic pathways under condi
 ### Locations
 - **Sites of [[notes/_link/Inflammation]]:** Prominent where [[notes/_link/Neutrophils]] infiltrate (e.g., infected tissues, [[Lungs]] during pneumonia or ARDS).
 - **Cardiac Tissue:** Observed during myocardial infarction or cardiomyopathy due to high local adrenaline and ROS, contributing to [[Cardiotoxicity]].
-- **Brain:** Intermediate in the formation of [[notes/_link/Neuromelanin]] within catecholaminergic neurons (e.g., substantia nigra).
+- **Brain:** Intermediate in the formation of [[Neuromelanin]] within catecholaminergic neurons (e.g., substantia nigra).
 
 ## Metabolism and Derivatives
 - **[[Adrenolutin]]:** A fluorescent rearrangement product of adrenochrome.
 - **[[Carbazochrome]]:** A stabilized derivative used clinically as a hemostatic agent.
-- **Melanin:** Adrenochrome can polymerize into melanin-like pigments, including [[notes/_link/Neuromelanin]].
+- **Melanin:** Adrenochrome can polymerize into melanin-like pigments, including [[Neuromelanin]].
 
 ## Physiological & Clinical Significance
 - **[[Redox Cycling]]:** Adrenochrome can be reduced to a semiquinone radical, which then reacts with oxygen to regenerate Adrenochrome and produce more superoxide, creating a "vicious cycle" of oxidative damage.
@@ -39,6 +39,6 @@ Adrenochrome is produced non-enzymatically or via catalytic pathways under condi
 - [[COMT]] & [[MAO]] ↔ Enzymes whose inhibition increases substrate availability for adrenochrome formation.
 
 ### Linking Summary:
-- New links added: [[Aminochromes]], [[Indoline]], [[Quinone]], [[Hydroxyl radical]], [[Cardiotoxicity]], [[Adrenolutin]], [[Carbazochrome]], [[Smoking]], [[notes/oxidative_stress/Oxidative Stress]], [[notes/_link/Reactive Oxygen Species]], [[notes/_link/Neutrophils]], [[notes/_link/Inflammation]], [[Lungs]], [[notes/_link/Neuromelanin]], [[Redox Cycling]], [[COMT]], [[MAO]]
+- New links added: [[Aminochromes]], [[Indoline]], [[Quinone]], [[Hydroxyl radical]], [[Cardiotoxicity]], [[Adrenolutin]], [[Carbazochrome]], [[Smoking]], [[notes/oxidative_stress/Oxidative Stress]], [[notes/_link/Reactive Oxygen Species]], [[notes/_link/Neutrophils]], [[notes/_link/Inflammation]], [[Lungs]], [[Neuromelanin]], [[Redox Cycling]], [[COMT]], [[MAO]]
 - Suggested new entity notes to create: [[Indoline]], [[Quinone]], [[notes/_link/Schizophrenia]]
 - Strong connections to strengthen: [[Adrenochrome]] ↔ [[notes/_link/Epinephrine]], [[Adrenochrome]] ↔ [[Redox Cycling]]

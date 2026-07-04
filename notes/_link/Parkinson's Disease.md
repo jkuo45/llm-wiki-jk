@@ -27,7 +27,7 @@ In terms of cell replacement therapy, iPSC-derived dopaminergic progenitors have
 - Suggested new entity notes to create: [[notes/_link/Dopaminergic Neurons]], [[notes/_link/Substantia Nigra]], [[Dyskinesia]]
 - Strong connections to strengthen: [[notes/_link/Parkinson's Disease]] <-> [[Induced Pluripotent Stem Cells]]
 
-- New links added: [[Substantia Nigra Pars Compacta]], [[Alpha-Synuclein]], [[Lewy Bodies]], [[Bradykinesia]], [[notes/_link/Aging]], [[notes/_link/Neuromelanin]], [[Pathogenic Threshold of Neuromelanin]], [[L-DOPA]].
+- New links added: [[Substantia Nigra Pars Compacta]], [[Alpha-Synuclein]], [[Lewy Bodies]], [[Bradykinesia]], [[notes/_link/Aging]], [[Neuromelanin]], [[Pathogenic Threshold of Neuromelanin]], [[L-DOPA]].
 - Suggested new entity notes to create: [[Dopamine Agonists]], [[Resting Tremor]].
 - Strong connections to strengthen: [[notes/_link/Parkinson's Disease]] ↔ [[notes/_link/Substantia Nigra]].
 
@@ -48,7 +48,7 @@ Non-motor symptoms can also occur, including cognitive impairment, depression, a
 
 
 ## Pathology
-The primary pathological feature of PD is the selective degeneration of neuromelanin-containing neurons. The disease is closely linked to [[notes/_link/Aging]], which is the main risk factor. Progressive intracellular accumulation of [[notes/_link/Neuromelanin]] above a [[Pathogenic Threshold of Neuromelanin]] is hypothesized to trigger neuronal dysfunction and neurodegeneration.
+The primary pathological feature of PD is the selective degeneration of neuromelanin-containing neurons. The disease is closely linked to [[notes/_link/Aging]], which is the main risk factor. Progressive intracellular accumulation of [[Neuromelanin]] above a [[Pathogenic Threshold of Neuromelanin]] is hypothesized to trigger neuronal dysfunction and neurodegeneration.
 
 
 ## Treatments
@@ -85,7 +85,7 @@ In the management of [[notes/_link/Parkinson's Disease]], [[COMT Inhibitors]] ar
 ---
 
 ### Linking Summary:
-- New links added: [[notes/_link/Aging]], [[Alpha-Synuclein]], [[Autophagic Flux]], [[Autophagy]], [[Bradykinesia]], [[COMT Inhibitors]], [[Disease Modeling]], [[notes/_link/Dopamine]], [[Induced Pluripotent Stem Cells]], [[Intermittent Fasting]], [[Ketogenic Diet]], [[L-DOPA]], [[Levodopa]], [[Lewy Bodies]], [[Mitophagy]], [[notes/_link/Neurodegenerative Diseases]], [[notes/_link/Neuromelanin]], [[Pathogenic Threshold of Neuromelanin]], [[Regenerative Medicine]], [[Substantia Nigra Pars Compacta]]
+- New links added: [[notes/_link/Aging]], [[Alpha-Synuclein]], [[Autophagic Flux]], [[Autophagy]], [[Bradykinesia]], [[COMT Inhibitors]], [[Disease Modeling]], [[notes/_link/Dopamine]], [[Induced Pluripotent Stem Cells]], [[Intermittent Fasting]], [[Ketogenic Diet]], [[L-DOPA]], [[Levodopa]], [[Lewy Bodies]], [[Mitophagy]], [[notes/_link/Neurodegenerative Diseases]], [[Neuromelanin]], [[Pathogenic Threshold of Neuromelanin]], [[Regenerative Medicine]], [[Substantia Nigra Pars Compacta]]
 - Suggested new entity notes to create: [[Autophagic Flux]], [[Dopamine Agonists]], [[notes/_link/Dopaminergic Neurons]], [[Dyskinesia]], [[Intermittent Fasting]], [[Ketogenic Diet]], [[Mitophagy]], [[Resting Tremor]], [[notes/_link/Substantia Nigra]]
 - Strong connections to strengthen: [[notes/_link/Parkinson's Disease]] <-> [[Induced Pluripotent Stem Cells]], [[notes/_link/Parkinson's Disease]] ↔ [[Mitophagy]], [[notes/_link/Parkinson's Disease]] ↔ [[Neurodegenerative Disease]], [[notes/_link/Parkinson's Disease]] ↔ [[notes/_link/Substantia Nigra]].
 

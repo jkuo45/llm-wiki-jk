@@ -9,9 +9,9 @@ While its exact physiological function is not fully understood, it is thought to
 In [[notes/_link/Parkinson's Disease]] and other "synucleinopathies," alpha-synuclein undergoes a structural change that causes it to misfold and aggregate.
 - **Aggregation:** Misfolded alpha-synuclein proteins clump together to form insoluble fibrils.
 - **Lewy Bodies:** These fibrils are the primary component of [[Lewy Bodies]], the pathological hallmark of PD.
-- **Neurotoxicity:** The accumulation of alpha-synuclein oligomers and fibrils is associated with neuronal dysfunction and cell death, particularly in [[notes/_link/Neuromelanin]]-containing neurons.
+- **Neurotoxicity:** The accumulation of alpha-synuclein oligomers and fibrils is associated with neuronal dysfunction and cell death, particularly in [[Neuromelanin]]-containing neurons.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Dopamine]], [[notes/_link/Parkinson's Disease]], [[Lewy Bodies]], [[notes/_link/Neuromelanin]].
+- New links added: [[notes/_link/Dopamine]], [[notes/_link/Parkinson's Disease]], [[Lewy Bodies]], [[Neuromelanin]].
 - Suggested new entity notes to create: [[Synucleinopathies]], [[Synaptic Vesicles]].
 - Strong connections to strengthen: [[Alpha-Synuclein]] ↔ [[Lewy Bodies]].

@@ -8,7 +8,7 @@ The VTA is one of the two major dopamine-producing areas in the brain. It contai
 - **Mesolimbic Pathway:** Projects to the [[Nucleus Accumbens]].
 
 ## Neuromelanin and Disease Resistance
-In contrast to the [[Substantia Nigra Pars Compacta]], dopaminergic neurons in the VTA produce minimal [[notes/_link/Neuromelanin]] over a lifetime.
+In contrast to the [[Substantia Nigra Pars Compacta]], dopaminergic neurons in the VTA produce minimal [[Neuromelanin]] over a lifetime.
 - **Relative Sparing in Parkinson's:** VTA neurons are largely spared in [[notes/_link/Parkinson's Disease]] compared to the severe loss seen in the SNpc. This supports the hypothesis that neuromelanin accumulation contributes to neuronal vulnerability.
 
 ## COMT Expression
@@ -22,6 +22,6 @@ Increased [[COMT]] activity in the dopamine neurons of the VTA can influence dop
 - [[VTA]]: Common abbreviation for the ventral tegmental area.
 
 ### Linking Summary:
-- New links added: [[COMT]], [[notes/_link/Dopamine]], [[notes/_link/Neuromelanin]], [[Nucleus Accumbens]], [[notes/_link/Parkinson's Disease]], [[Prefrontal Cortex]], [[Striatum]], [[Substantia Nigra Pars Compacta]], [[VTA]]
+- New links added: [[COMT]], [[notes/_link/Dopamine]], [[Neuromelanin]], [[Nucleus Accumbens]], [[notes/_link/Parkinson's Disease]], [[Prefrontal Cortex]], [[Striatum]], [[Substantia Nigra Pars Compacta]], [[VTA]]
 - Suggested new entity notes to create: [[Mesolimbic Pathway]], [[Mesocortical Pathway]], [[Nucleus Accumbens]]
 - Strong connections to strengthen: [[notes/_link/Ventral Tegmental Area]] ↔ [[notes/_link/Parkinson's Disease]], [[notes/_link/Ventral Tegmental Area]] ↔ [[Prefrontal Cortex]]

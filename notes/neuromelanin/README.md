@@ -1,6 +1,6 @@
 # Neuromelanin
 
-This directory contains notes and research regarding [[notes/_link/Neuromelanin]], its biosynthesis in dopaminergic and noradrenergic neurons, accumulation in the [[notes/_link/Substantia Nigra]] and [[Locus Coeruleus]], role in iron binding and oxidative stress, and its involvement in [[notes/_link/Parkinson's Disease]], [[Lewy Bodies]], and related neurodegenerative processes. The central theme of this research is the role of neuromelanin as a key factor in the selective vulnerability of catecholaminergic neurons in Parkinson's disease. While initially a neuroprotective antioxidant, its age-dependent accumulation may eventually cross a [[Pathogenic Threshold of Neuromelanin]], leading to cellular dysfunction and neurodegeneration.
+This directory contains notes and research regarding [[Neuromelanin]], its biosynthesis in dopaminergic and noradrenergic neurons, accumulation in the [[notes/_link/Substantia Nigra]] and [[Locus Coeruleus]], role in iron binding and oxidative stress, and its involvement in [[notes/_link/Parkinson's Disease]], [[Lewy Bodies]], and related neurodegenerative processes. The central theme of this research is the role of neuromelanin as a key factor in the selective vulnerability of catecholaminergic neurons in Parkinson's disease. While initially a neuroprotective antioxidant, its age-dependent accumulation may eventually cross a [[Pathogenic Threshold of Neuromelanin]], leading to cellular dysfunction and neurodegeneration.
 
 ## Maintenance
 
@@ -71,7 +71,7 @@ This directory contains notes and research regarding [[notes/_link/Neuromelanin]
 | [[notes/_link/mTOR]]                         | 31_May_2026 03:00 PM | Enzyme                  |
 | [[notes/_link/Neurodegenerative Diseases]]    | 31_May_2026 01:25 PM | Medical Condition       |
 | [[Neuroinflammation]]                        | 25_May_2026 05:23 PM | Biological Process      |
-| [[notes/_link/Neuromelanin]]                 | 25_May_2026 05:23 PM | Biological Molecule     |
+| [[Neuromelanin]]                 | 25_May_2026 05:23 PM | Biological Molecule     |
 | [[Neuronophagia]]                            | 25_May_2026 05:23 PM | Biological Process      |
 | [[Neuroprotection]]                          | 31_May_2026 03:00 PM | Pharmacological Action  |
 | [[Neurotransmission]]                        | 11_Jun_2026 04:00 PM | Biological Process      |

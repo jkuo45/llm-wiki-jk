@@ -5,4 +5,4 @@ Macromolecular crowding is the high concentration of macromolecules in the cellu
 ### Linking Summary:
 - New links added: [[Proteostasis]], [[Autophagy]]
 - Suggested new entity notes to create: 
-- Strong connections to strengthen: [[notes/_link/Neuromelanin]] ↔ [[Macromolecular Crowding]]
+- Strong connections to strengthen: [[Neuromelanin]] ↔ [[Macromolecular Crowding]]

@@ -3,18 +3,18 @@
 **Neuromelanin** is a dark pigment found in specific populations of catecholaminergic neurons in the brain, most notably in the substantia nigra and locus coeruleus.
 
 
-[[notes/_link/Neuromelanin]] (NM) is a dark brown to black intracellular pigment found primarily in the human brain, specifically within catecholaminergic neurons. It is most abundant in the [[notes/_link/Substantia Nigra]] (SN) and the [[Locus Coeruleus]].
+[[Neuromelanin]] (NM) is a dark brown to black intracellular pigment found primarily in the human brain, specifically within catecholaminergic neurons. It is most abundant in the [[notes/_link/Substantia Nigra]] (SN) and the [[Locus Coeruleus]].
 
 
 ## Formation
-It is formed through the polymerization of [[Aminochromes]], which are oxidative intermediates of [[Catecholamines]]. 
+It is formed through the polymerization of [[Aminochromes]], which are oxidative intermediates of [[notes/adrenochrome/Catecholamines]]. 
 - [[notes/_link/Dopamine]] → [[Dopaminochrome]] → Neuromelanin
 - [[notes/_link/Epinephrine]] → [[Adrenochrome]] → Neuromelanin
 This process involves the conversion of the catechol ring into a quinone, followed by cyclization and polymerization.
 
 
 ## Protective Role
-Research suggests [[notes/_link/Neuromelanin]] may act as a protective "sponge" or sequestration system. By trapping and incorporating toxic [[Aminochromes]], quinones, and heavy metals (like iron) into its stable polymer structure, it prevents them from causing neuronal damage.
+Research suggests [[Neuromelanin]] may act as a protective "sponge" or sequestration system. By trapping and incorporating toxic [[Aminochromes]], quinones, and heavy metals (like iron) into its stable polymer structure, it prevents them from causing neuronal damage.
 
 
 ## Age-Related Accumulation
@@ -27,12 +27,12 @@ Neuromelanin levels are virtually absent at birth and progressively increase wit
 
 
 ## Linking Summary:
-- New links added: [[notes/_link/Neuromelanin]], [[Aminochromes]], [[Catecholamines]], [[notes/_link/Dopamine]], [[Dopaminochrome]], [[notes/_link/Epinephrine]], [[Adrenochrome]], [[Oxidation]], [[notes/_link/Inflammation]], [[notes/oxidative_stress/Oxidative Stress]]
-- Strong connections to strengthen: [[notes/_link/Neuromelanin]] ↔ [[Aminochromes]]
+- New links added: [[Neuromelanin]], [[Aminochromes]], [[notes/adrenochrome/Catecholamines]], [[notes/_link/Dopamine]], [[Dopaminochrome]], [[notes/_link/Epinephrine]], [[Adrenochrome]], [[Oxidation]], [[notes/_link/Inflammation]], [[notes/oxidative_stress/Oxidative Stress]]
+- Strong connections to strengthen: [[Neuromelanin]] ↔ [[Aminochromes]]
 
 - New links added: [[notes/_link/Substantia Nigra]], [[Locus Coeruleus]], [[Iron]], [[notes/_link/Dopamine]], [[notes/oxidative_stress/Oxidative Stress]], [[notes/_link/Parkinson's Disease]], [[Substantia Nigra Pars Compacta]], [[Pathogenic Threshold of Neuromelanin]], [[Microgliosis]].
 - Suggested new entity notes to create: [[Fenton Reaction]], [[Proteostasis]].
-- Strong connections to strengthen: [[notes/_link/Neuromelanin]] ↔ [[notes/_link/Parkinson's Disease]].
+- Strong connections to strengthen: [[Neuromelanin]] ↔ [[notes/_link/Parkinson's Disease]].
 
 ## Biological Functions
 Under normal physiological conditions, neuromelanin is thought to serve several neuroprotective roles:
@@ -52,11 +52,11 @@ In [[notes/_link/Parkinson's Disease]], the relationship between neuromelanin an
 - [[Aminochromes]] ↔ The class of reactive intermediates that polymerize into neuromelanin.
 - [[Dopaminochrome]] ↔ The primary intermediate for neuromelanin in the substantia nigra.
 - [[Adrenochrome]] ↔ An intermediate that can also contribute to neuromelanin formation.
-- [[Catecholamines]] ↔ The parent neurotransmitters.
+- [[notes/adrenochrome/Catecholamines]] ↔ The parent neurotransmitters.
 - [[notes/oxidative_stress/Oxidative Stress]] ↔ The state that promotes the formation of the oxidative precursors.
 
 
 ### Linking Summary:
-- New links added: [[Adrenochrome]], [[Aminochromes]], [[Catecholamines]], [[notes/_link/Dopamine]], [[Dopaminochrome]], [[notes/_link/Epinephrine]], [[notes/_link/Inflammation]], [[Iron]], [[Locus Coeruleus]], [[Microgliosis]], [[notes/_link/Neuromelanin]], [[Oxidation]], [[notes/oxidative_stress/Oxidative Stress]], [[notes/_link/Parkinson's Disease]], [[Pathogenic Threshold of Neuromelanin]], [[notes/_link/Substantia Nigra]], [[Substantia Nigra Pars Compacta]], [[notes/oxidative_stress/Oxidative Stress]]
+- New links added: [[Adrenochrome]], [[Aminochromes]], [[notes/adrenochrome/Catecholamines]], [[notes/_link/Dopamine]], [[Dopaminochrome]], [[notes/_link/Epinephrine]], [[notes/_link/Inflammation]], [[Iron]], [[Locus Coeruleus]], [[Microgliosis]], [[Neuromelanin]], [[Oxidation]], [[notes/oxidative_stress/Oxidative Stress]], [[notes/_link/Parkinson's Disease]], [[Pathogenic Threshold of Neuromelanin]], [[notes/_link/Substantia Nigra]], [[Substantia Nigra Pars Compacta]], [[notes/oxidative_stress/Oxidative Stress]]
 - Suggested new entity notes to create: [[Fenton Reaction]], [[Proteostasis]]
-- Strong connections to strengthen: [[notes/_link/Neuromelanin]] ↔ [[Aminochromes]], [[notes/_link/Neuromelanin]] ↔ [[notes/_link/Parkinson's Disease]].
+- Strong connections to strengthen: [[Neuromelanin]] ↔ [[Aminochromes]], [[Neuromelanin]] ↔ [[notes/_link/Parkinson's Disease]].

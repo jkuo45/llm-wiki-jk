@@ -5,4 +5,4 @@ Positron emission tomography (PET) is a functional imaging technique that uses r
 ### Linking Summary:
 - New links added: [[Flortaucipir]], [[Biomarker]]
 - Suggested new entity notes to create: 
-- Strong connections to strengthen: [[notes/_link/Neuromelanin]] ↔ [[Positron Emission Tomography]]
+- Strong connections to strengthen: [[Neuromelanin]] ↔ [[Positron Emission Tomography]]

@@ -7,7 +7,7 @@ TH catalyzes the conversion of the amino acid [[Tyrosine]] to [[L-DOPA]]. This s
 
 ## Clinical Significance
 ### [[notes/_link/Parkinson's Disease]]
-- **Marker of Vulnerability:** The distribution of TH in the human midbrain does not perfectly match that of [[notes/_link/Neuromelanin]]. Some dopamine-producing neurons lack neuromelanin, and these are often less vulnerable to degeneration in PD.
+- **Marker of Vulnerability:** The distribution of TH in the human midbrain does not perfectly match that of [[Neuromelanin]]. Some dopamine-producing neurons lack neuromelanin, and these are often less vulnerable to degeneration in PD.
 - **Phenotypic Loss:** During the early stages of neurodegeneration, neurons may exhibit a loss of TH expression before actual cell death occurs, representing a potential window for therapeutic intervention.
 
 ## Related Entities
@@ -17,9 +17,9 @@ TH catalyzes the conversion of the amino acid [[Tyrosine]] to [[L-DOPA]]. This s
 
 ## Connections
 - [[notes/_link/Dopamine]]: The primary end-product of the pathway initiated by TH.
-- [[notes/_link/Neuromelanin]]: Pigment found in dopaminergic neurons, whose presence correlates with neuronal vulnerability.
+- [[Neuromelanin]]: Pigment found in dopaminergic neurons, whose presence correlates with neuronal vulnerability.
 
 ### Linking Summary:
-- New links added: [[Catecholamines]], [[notes/_link/Dopamine]], [[notes/_link/Epinephrine]], [[L-DOPA]], [[notes/_link/Neuromelanin]], [[notes/_link/Norepinephrine]], [[notes/_link/Parkinson's Disease]], [[TH]], [[Tyrosine]]
+- New links added: [[Catecholamines]], [[notes/_link/Dopamine]], [[notes/_link/Epinephrine]], [[L-DOPA]], [[Neuromelanin]], [[notes/_link/Norepinephrine]], [[notes/_link/Parkinson's Disease]], [[TH]], [[Tyrosine]]
 - Suggested new entity notes to create: [[L-DOPA]], [[notes/_link/Norepinephrine]]
 - Strong connections to strengthen: [[notes/_link/Tyrosine Hydroxylase]] ↔ [[notes/_link/Dopamine]], [[notes/_link/Tyrosine Hydroxylase]] ↔ [[notes/_link/Parkinson's Disease]]
