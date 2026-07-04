@@ -1,3 +1,13 @@
+---
+type: entity
+category: chemical
+aliases:
+  - 'L-5-Methyltetrahydrofolate'
+  - 'L-methylfolate'
+created: 2026-05-25
+updated: 2026-07-04
+---
+
 # Methylfolate
 
 **[[Methylfolate]]** (L-5-Methyltetrahydrofolate) is the active, methylated form of [[Folate]]. It is a critical component of the [[Methylation Cycle]].

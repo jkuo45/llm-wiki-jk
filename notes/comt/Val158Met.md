@@ -1,3 +1,13 @@
+---
+type: entity
+category: gene
+aliases:
+  - 'rs4680'
+  - 'COMT Val158Met'
+created: 2026-05-25
+updated: 2026-07-04
+---
+
 # Val158Met
 
 **[[Val158Met]]** (rs4680) is a common functional [[SNP]] (Single Nucleotide Polymorphism) in the [[COMT]] gene. It involves a substitution of Valine (Val) for Methionine (Met) at position 158 of the enzyme.
@@ -17,8 +27,8 @@ The [[Val158Met]] polymorphism impacts:
 ## Connections
 - [[COMT]]: The gene where this polymorphism occurs.
 - [[notes/_link/Dopamine]]: Its levels are directly regulated by this enzyme's activity.
-- [[Methylation]]: Slow COMT (Met/Met) individuals are often more sensitive to changes in the methylation cycle.
+- [[notes/_link/Methylation]]: Slow COMT (Met/Met) individuals are often more sensitive to changes in the methylation cycle.
 
 ---
 ### Linking Summary:
-- New links added: [[SNP]], [[COMT]], [[notes/_link/Dopamine]], [[Prefrontal Cortex]], [[Cognitive Performance]], [[Working Memory]], [[Methyl Donor]], [[COMT Inhibitors]], [[Psychiatric Disorders]], [[notes/_link/Schizophrenia]], [[Modafinil]], [[Aspirin]], [[Methylation]].
+- New links added: [[SNP]], [[COMT]], [[notes/_link/Dopamine]], [[Prefrontal Cortex]], [[Cognitive Performance]], [[Working Memory]], [[Methyl Donor]], [[COMT Inhibitors]], [[Psychiatric Disorders]], [[notes/_link/Schizophrenia]], [[Modafinil]], [[Aspirin]], [[notes/_link/Methylation]].

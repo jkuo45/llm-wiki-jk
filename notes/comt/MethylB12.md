@@ -1,3 +1,12 @@
+---
+type: entity
+category: chemical
+aliases:
+  - 'Methylcobalamin'
+created: 2026-05-25
+updated: 2026-07-04
+---
+
 # MethylB12
 
 **[[MethylB12]]** (Methylcobalamin) is one of the active forms of [[Vitamin B12]] and a key [[Methyl Donor]] in the [[Methylation Cycle]].

@@ -1,3 +1,13 @@
+---
+type: entity
+category: protein
+aliases:
+  - 'CaMKIIα'
+  - 'Calcium/calmodulin-dependent protein kinase II alpha'
+created: 2026-05-25
+updated: 2026-07-04
+---
+
 # CamKIIα
 
 **[[CamKIIα]]** (Calcium/calmodulin-dependent protein kinase II alpha) is a protein kinase that is highly abundant in the brain and is essential for synaptic plasticity and memory formation.
@@ -8,8 +18,8 @@ In transgenic mouse models, such as the COMT-OE mice, the **[[CamKIIα]] promote
 ## Connections
 - [[COMT]]: Transgenic models often use CamKIIα to overexpress COMT in the forebrain.
 - [[Prefrontal Cortex]]: One of the primary regions where the CamKIIα promoter is active.
-- [[Striatum]]: Another forebrain region targeted by CamKIIα-driven transgenes.
+- [[notes/_link/Striatum]]: Another forebrain region targeted by CamKIIα-driven transgenes.
 
 ---
 ### Linking Summary:
-- New links added: [[COMT]], [[Prefrontal Cortex]], [[Striatum]].
+- New links added: [[COMT]], [[Prefrontal Cortex]], [[notes/_link/Striatum]].
