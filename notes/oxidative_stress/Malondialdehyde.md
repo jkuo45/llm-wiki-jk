@@ -32,7 +32,7 @@ Normal plasma MDA levels in healthy humans are typically 0.5–1.5 μM by specif
 - **[[notes/_link/Diabetes Mellitus]]**: Elevated in plasma and erythrocytes, correlating with hemoglobin A1c (HbA1c) and diabetic complications.
 - **[[notes/_link/Neurodegenerative Diseases]]**: Higher MDA in cerebrospinal fluid and brain tissue in [[notes/_link/Alzheimer's Disease]] and [[notes/_link/Parkinson's Disease]].
 - **[[notes/_link/Chronic Kidney Disease]]**: Increased plasma MDA reflective of uremic oxidative stress.
-- **[[notes/_link/Cancer]]**: Elevated in plasma and tumor tissue of breast, lung, colorectal, and liver cancers.
+- **[[Cancer]]**: Elevated in plasma and tumor tissue of breast, lung, colorectal, and liver cancers.
 
 ## Therapeutic Implications
 Pharmacological interventions that lower MDA include [[notes/_link/Statins]] (via pleiotropic antioxidant effects independent of cholesterol lowering), [[notes/_link/Metformin]] (through AMPK-dependent reduction of mitochondrial ROS), [[notes/_link/Vitamin E]] supplementation (chain-breaking antioxidant in lipid membranes), and [[notes/_link/N-Acetylcysteine]] (replenishing [[notes/_link/Glutathione]] stores). Lifestyle interventions including [[notes/_link/Caloric Restriction]], [[notes/_link/Exercise]], and adherence to [[notes/_link/Mediterranean Diet]] (rich in [[notes/_link/Polyphenols]] and [[notes/_link/Flavonoids]]) are associated with reduced serum MDA levels in human intervention trials.
@@ -49,5 +49,5 @@ Pharmacological interventions that lower MDA include [[notes/_link/Statins]] (vi
 - Strong connections to strengthen: [[Malondialdehyde]] ↔ [[Lipid Peroxidation]]
 
 ### New Linking Summary (Added 2026-07-04):
-- New links added: [[notes/_link/DNA]], [[notes/_link/Atherosclerosis]], [[notes/_link/Macrophage]], [[notes/_link/Cardiovascular Disease]], [[notes/_link/Diabetes Mellitus]], [[notes/_link/Neurodegenerative Diseases]], [[notes/_link/Alzheimer's Disease]], [[notes/_link/Parkinson's Disease]], [[notes/_link/Cancer]], [[notes/_link/Vitamin E]], [[notes/_link/N-Acetylcysteine]], [[notes/_link/Glutathione]], [[notes/_link/Caloric Restriction]], [[notes/_link/Exercise]], [[notes/_link/Polyphenols]], [[notes/_link/Flavonoids]], [[notes/_link/Metformin]], [[notes/_link/Inflammation]], [[CD36 Receptor]]
+- New links added: [[notes/_link/DNA]], [[notes/_link/Atherosclerosis]], [[notes/_link/Macrophage]], [[notes/_link/Cardiovascular Disease]], [[notes/_link/Diabetes Mellitus]], [[notes/_link/Neurodegenerative Diseases]], [[notes/_link/Alzheimer's Disease]], [[notes/_link/Parkinson's Disease]], [[Cancer]], [[notes/_link/Vitamin E]], [[notes/_link/N-Acetylcysteine]], [[notes/_link/Glutathione]], [[notes/_link/Caloric Restriction]], [[notes/_link/Exercise]], [[notes/_link/Polyphenols]], [[notes/_link/Flavonoids]], [[notes/_link/Metformin]], [[notes/_link/Inflammation]], [[CD36 Receptor]]
 - Suggested new entity notes to create: [[M₁dG]], [[TBARS Assay]], [[MDA-LDL]], [[RAGE Receptor]], [[Oxidized LDL]]

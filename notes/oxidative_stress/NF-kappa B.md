@@ -54,19 +54,19 @@ The balance between NF-κB (pro-inflammatory) and [[notes/_link/Nrf2]] (cytoprot
 
 ## Role in Disease and Therapeutic Targeting
 
-NF-κB hyperactivation is a characteristic feature of [[notes/_link/Cancer]], [[notes/_link/Atherosclerosis]], [[Rheumatoid Arthritis]], [[notes/_link/Inflammatory Bowel Disease]], [[Asthma]], and [[notes/_link/Neurodegenerative Diseases]]. In [[notes/_link/Cancer]], NF-κB promotes survival (via [[BCL-XL|Bcl-XL]], [[XIAP|XIAP]], [[c-FLIP|c-FLIP]]), proliferation (via [[Cyclin D1]], [[c-Myc]]), angiogenesis (via [[VEGF|VEGF]]), and metastasis (via [[MMP9|MMP-9]], [[ICAM1|ICAM-1]]). Therapeutic strategies include proteasome inhibitors ([[Bortezomib]]), which block IκB degradation; IKKβ inhibitors (e.g., [[MLN120B]], [[TPCA-1]]); and naturally occurring inhibitors such as [[Curcumin]], [[Resveratrol]], and [[EGCG]] ([[notes/_link/EGCG]]), which suppress IKK activity or p65 nuclear translocation. However, systemic NF-κB inhibition carries risks due to its essential role in [[notes/_link/Immunity|host defense]] and [[Liver|hepatic]] homeostasis, explaining the [[Hepatotoxicity|hepatotoxicity]] and increased infection risk observed with high-dose [[Curcumin]] or broad IKK inhibitors in clinical trials.
+NF-κB hyperactivation is a characteristic feature of [[Cancer]], [[notes/_link/Atherosclerosis]], [[Rheumatoid Arthritis]], [[notes/_link/Inflammatory Bowel Disease]], [[Asthma]], and [[notes/_link/Neurodegenerative Diseases]]. In [[Cancer]], NF-κB promotes survival (via [[BCL-XL|Bcl-XL]], [[XIAP|XIAP]], [[c-FLIP|c-FLIP]]), proliferation (via [[Cyclin D1]], [[c-Myc]]), angiogenesis (via [[VEGF|VEGF]]), and metastasis (via [[MMP9|MMP-9]], [[ICAM1|ICAM-1]]). Therapeutic strategies include proteasome inhibitors ([[Bortezomib]]), which block IκB degradation; IKKβ inhibitors (e.g., [[MLN120B]], [[TPCA-1]]); and naturally occurring inhibitors such as [[Curcumin]], [[Resveratrol]], and [[EGCG]] ([[notes/_link/EGCG]]), which suppress IKK activity or p65 nuclear translocation. However, systemic NF-κB inhibition carries risks due to its essential role in [[notes/_link/Immunity|host defense]] and [[Liver|hepatic]] homeostasis, explaining the [[Hepatotoxicity|hepatotoxicity]] and increased infection risk observed with high-dose [[Curcumin]] or broad IKK inhibitors in clinical trials.
 
 ## Connections
 - [[notes/_link/Nrf2]]: Master transcriptional antagonist of NF-κB.
 - [[A20]]: Key ubiquitin-editing negative regulator of NF-κB.
 - [[IκB]]: The inhibitory anchor that retains NF-κB in the cytoplasm.
 - [[proteasome]]: Degrades IκB to allow NF-κB activation.
-- [[notes/_link/Cancer]]: NF-κB promotes tumorigenesis through survival and proliferation genes.
+- [[Cancer]]: NF-κB promotes tumorigenesis through survival and proliferation genes.
 - [[p50]], [[p65/RelA]], [[c-Rel]], [[RelB]]: NF-κB subunit family members.
 - [[Bortezomib]]: Proteasome inhibitor that blocks NF-κB activation.
 - [[notes/_link/Inflammation]]: NF-κB is the "master switch" for inflammatory gene expression.
 - [[Rheumatoid Arthritis]]: Pathogenic NF-κB activation in synovial fibroblasts.
 
 ### Updated Linking Summary:
-- New links added in this revision: [[LPS]], [[HIF-1α]], [[PP2A]], [[S-Nitrosylation]], [[Rheumatoid Arthritis]], [[notes/_link/Nrf2]], [[p62/SQSTM1]], [[HO-1]], [[Alpha-Lipoic Acid]], [[notes/_link/Neurodegenerative Diseases]], [[notes/_link/Cancer]], [[BCL-XL]], [[c-FLIP]], [[Curcumin]], [[Resveratrol]], [[notes/_link/EGCG]], [[Bortezomib]], [[CD40L]], [[BAFF]], [[RANKL]], [[Zinc Finger]], [[A20]], [[CYLD]], [[proteasome]], [[notes/_link/Inflammation]], [[Notes/_link/Inflammatory Bowel Disease]], [[Vitamin E]], [[notes/_link/Sulforaphane]]
+- New links added in this revision: [[LPS]], [[HIF-1α]], [[PP2A]], [[S-Nitrosylation]], [[Rheumatoid Arthritis]], [[notes/_link/Nrf2]], [[p62/SQSTM1]], [[HO-1]], [[Alpha-Lipoic Acid]], [[notes/_link/Neurodegenerative Diseases]], [[Cancer]], [[BCL-XL]], [[c-FLIP]], [[Curcumin]], [[Resveratrol]], [[notes/_link/EGCG]], [[Bortezomib]], [[CD40L]], [[BAFF]], [[RANKL]], [[Zinc Finger]], [[A20]], [[CYLD]], [[proteasome]], [[notes/_link/Inflammation]], [[Notes/_link/Inflammatory Bowel Disease]], [[Vitamin E]], [[notes/_link/Sulforaphane]]
 - Suggested new entity notes to create: [[NEMO]], [[IκBα]], [[TNFAIP3 Polymorphisms]], [[CBP/p300]], [[Dimethyl fumarate]]
