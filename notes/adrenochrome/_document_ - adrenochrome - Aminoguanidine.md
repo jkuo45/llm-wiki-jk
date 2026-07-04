@@ -1,4 +1,5 @@
 ---
+type: document
 title: "Aminoguanidine"
 source: "https://pubchem.ncbi.nlm.nih.gov/compound/Aminoguanidine"
 author:

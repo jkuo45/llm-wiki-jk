@@ -1,3 +1,11 @@
+---
+type: entity
+category: Diagnostic Test
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Pulse oximetry
 
 [[Pulse oximetry]] is a non-invasive method for monitoring a person's oxygen saturation. In the presence of [[Methemoglobin]], pulse oximeters often read inaccurately (typically hovering around 85%) and fail to reflect the true severity of oxygen deprivation.

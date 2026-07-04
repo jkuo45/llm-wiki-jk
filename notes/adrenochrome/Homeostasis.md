@@ -1,3 +1,11 @@
+---
+type: entity
+category: Biological Process
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Homeostasis
 
 **Homeostasis** is the state of steady internal, physical, and chemical conditions maintained by living systems. This is the condition of optimal functioning for the organism and includes many variables, such as body temperature and fluid balance, being kept within certain pre-set limits.

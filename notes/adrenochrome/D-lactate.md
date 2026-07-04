@@ -1,3 +1,11 @@
+---
+type: entity
+category: Metabolite
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # D-lactate
 
 D-lactate is a stereoisomer of lactate produced in cellular metabolism, serving as the end product of methylglyoxal detoxification.

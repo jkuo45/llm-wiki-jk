@@ -1,4 +1,5 @@
 ---
+type: document
 title: "US4501923A - Process for preparing adrenochrome"
 source: "https://patents.google.com/patent/US4501923A/en"
 author:

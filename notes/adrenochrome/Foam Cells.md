@@ -1,3 +1,11 @@
+---
+type: entity
+category: Cell Type
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Foam Cells
 
 Foam cells are fat-laden macrophages that serve as a hallmark of [[Atherosclerosis]]. They form when macrophages ingest modified [[Low-Density Lipoprotein|LDL]], such as glycated LDL.

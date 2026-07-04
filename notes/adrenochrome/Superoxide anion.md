@@ -1,3 +1,11 @@
+---
+type: entity
+category: Biological Molecule
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Superoxide anion
 
 **Superoxide anion** (O₂⁻•) is a highly reactive free radical and a primary type of [[notes/_link/Reactive Oxygen Species]] (ROS). It is formed by the one-electron reduction of molecular oxygen.

@@ -1,3 +1,11 @@
+---
+type: entity
+category: Medical Condition
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Atherosclerosis
 
 Atherosclerosis is a disease in which the inside of an artery narrows due to the build up of plaque. The accumulation of [[Advanced Glycation End Products|AGEs]] contributes to atherosclerosis by promoting [[Arterial Stiffening]], endothelial dysfunction, and the formation of [[Foam Cells]] through the modification of [[Low-Density Lipoprotein|LDL]].

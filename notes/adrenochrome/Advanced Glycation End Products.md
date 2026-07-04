@@ -1,3 +1,11 @@
+---
+type: entity
+category: Chemical Class
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Advanced Glycation End Products
 
 Advanced Glycation End Products (AGEs) are non-enzymatic modifications of proteins or lipids that form after exposure to sugars.

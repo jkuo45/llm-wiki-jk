@@ -1,3 +1,11 @@
+---
+type: entity
+category: Chemical Compound
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Alagebrium
 
 Alagebrium (also known as ALT-711) is a synthetic compound developed as a breaker of [[Advanced Glycation End Products]] (AGEs).

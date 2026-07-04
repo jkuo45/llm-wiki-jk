@@ -1,3 +1,11 @@
+---
+type: entity
+category: Biological Molecule
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Humanin
 
 Humanin is a 24-amino acid peptide encoded by a cryptic open reading frame within the mitochondrial 16S ribosomal RNA gene. It is considered a founding member of the class of [[Mitokines]] or mitochondrially-derived peptides (MDPs).

@@ -1,3 +1,11 @@
+---
+type: entity
+category: Chemical Compound
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Carbazochrome
 
 **Carbazochrome** is a stabilized semicarbazone derivative of [[Adrenochrome]]. While adrenochrome itself is too unstable for medical use, carbazochrome is used clinically as a hemostatic agent.

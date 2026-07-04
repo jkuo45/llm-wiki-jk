@@ -1,3 +1,11 @@
+---
+type: entity
+category: Chemical Compound
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Leuco-adrenochrome
 
 **Leuco-adrenochrome** (also known as leuko-adrenochrome) is a chemical intermediate and a natural byproduct formed during the oxidation of [[notes/_link/Epinephrine]] (adrenaline) into [[Adrenochrome]]. 

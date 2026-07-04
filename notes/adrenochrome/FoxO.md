@@ -1,3 +1,11 @@
+---
+type: entity
+category: Protein
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # FoxO
 
 The FoxO (forkhead box O) family is a group of transcription factors that regulate the expression of genes involved in cell growth, proliferation, differentiation, apoptosis, and longevity. In muscle tissue, FoxO factors play a major role in regulating muscle protein degradation by upregulating the expression of E3 ubiquitin ligases, such as Atrogin-1 and MuRF1, leading to muscle atrophy when overly active.

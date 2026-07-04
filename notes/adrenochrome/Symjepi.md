@@ -1,3 +1,11 @@
+---
+type: entity
+category: Medical Product
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Symjepi
 
 **Symjepi** is a pre-filled syringe containing [[notes/_link/Epinephrine]] used for the emergency treatment of [[Anaphylaxis]].

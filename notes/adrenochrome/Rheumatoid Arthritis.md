@@ -1,3 +1,11 @@
+---
+type: entity
+category: Medical Condition
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Rheumatoid Arthritis
 
 Rheumatoid arthritis (RA) is a long-term, progressive, and disabling autoimmune disease that causes inflammation, swelling, and pain in and around the joints and other body organs. The accumulation of [[Advanced Glycation End Products|AGEs]] in synovial fluid and tissues is associated with the inflammatory processes in RA.

@@ -1,3 +1,11 @@
+---
+type: entity
+category: Chemical Compound
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Sodium Metabisulfite
 
 **Sodium Metabisulfite** is an inorganic compound used as a disinfectant, antioxidant, and preservative agent.

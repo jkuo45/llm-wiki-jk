@@ -1,3 +1,11 @@
+---
+type: entity
+category: Chemical Class
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Flavonoids
 
 Flavonoids are a diverse group of phytonutrients (plant chemicals) found in almost all fruits and vegetables.

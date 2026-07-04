@@ -1,4 +1,5 @@
 ---
+type: document
 title: "NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR): Potential Dietary Contribution to Health"
 source: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10240123/"
 author:

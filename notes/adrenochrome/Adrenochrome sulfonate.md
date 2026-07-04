@@ -1,3 +1,11 @@
+---
+type: entity
+category: Chemical Compound
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Adrenochrome sulfonate
 
 **Adrenochrome sulfonate** is a degradation product formed by the reaction of [[Adrenochrome]] with [[Bisulfite]] antioxidants in the presence of light.

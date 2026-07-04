@@ -1,3 +1,11 @@
+---
+type: entity
+category: Biological Process
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Adrenochrome Pathway
 
 The Adrenochrome Pathway is a metabolic route involving the oxidation of [[notes/_link/Epinephrine]] (adrenaline) into [[Adrenochrome]] and its subsequent catabolites like [[Adrenolutin]].

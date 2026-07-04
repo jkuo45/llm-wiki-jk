@@ -1,3 +1,11 @@
+---
+type: entity
+category: Scientific Theory
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Dopamine hypothesis
 
 The **Dopamine hypothesis** of [[notes/_link/Schizophrenia]] is a model that attributes the symptoms of schizophrenia to a disturbed and hyperactive dopaminergic signal transduction.

@@ -1,3 +1,11 @@
+---
+type: entity
+category: Scientific Concept
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # SASP-Remodeling Aminochrome Complex
 
 The **SASP-Remodeling Aminochrome Complex (SRAC)** is a senomorphic therapeutic strategy designed to reprogram the senescent phenotype and mitigate inflammaging.

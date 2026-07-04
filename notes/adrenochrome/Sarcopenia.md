@@ -1,3 +1,11 @@
+---
+type: entity
+category: Medical Condition
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Sarcopenia
 
 Sarcopenia is the progressive and generalized loss of skeletal muscle mass and strength. It is a serious problem among older populations and is associated with increased [[notes/adrenochrome/Oxidative Stress]] and [[Inflammation]], potentially exacerbated by the accumulation of [[Advanced Glycation End Products|AGEs]] in muscle tissue.

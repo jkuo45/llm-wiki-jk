@@ -1,3 +1,11 @@
+---
+type: entity
+category: Chemical Compound
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # indoline-5,6-dione
 
 **Indoline-5,6-dione** is the chemical structure corresponding to [[Adrenochrome]]. It is formed through the internal cyclization of an [[o-quinone]] intermediate derived from [[notes/_link/Epinephrine]].

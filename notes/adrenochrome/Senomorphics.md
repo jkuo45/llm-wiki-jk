@@ -1,3 +1,11 @@
+---
+type: entity
+category: Scientific Concept
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Senomorphics
 
 **Senomorphics** are a class of compounds that modulate the phenotype of senescent cells without necessarily killing them. Unlike senolytics (which induce apoptosis in senescent cells), senomorphics typically aim to suppress the **Senescence-Associated Secretory Phenotype (SASP)**, reducing chronic inflammation and tissue damage.

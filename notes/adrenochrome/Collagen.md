@@ -1,3 +1,11 @@
+---
+type: entity
+category: Protein
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Collagen
 
 Collagen is the main structural protein in the extracellular matrix of various connective tissues in the body.

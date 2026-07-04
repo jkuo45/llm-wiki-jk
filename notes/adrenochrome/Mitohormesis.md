@@ -1,3 +1,11 @@
+---
+type: entity
+category: Scientific Concept
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Mitohormesis
 
 Mitohormesis is an adaptive response where mild mitochondrial stress triggers cytoprotective signaling pathways, leading to long-lasting metabolic and biochemical changes that reduce susceptibility to disease and may extend lifespan.

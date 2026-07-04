@@ -1,3 +1,11 @@
+---
+type: entity
+category: Scientific Concept
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Adrenochromatization
 
 **Adrenochromatization** refers to the process or state of increasing systemic or localized levels of [[Adrenochrome]] and its reactive intermediates, particularly in the context of controlled experimental administration or stress-induced endogenous production.

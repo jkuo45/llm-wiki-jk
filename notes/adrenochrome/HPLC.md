@@ -1,3 +1,11 @@
+---
+type: entity
+category: Analytical Technique
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # HPLC
 
 **HPLC** (High-Performance Liquid Chromatography) is a technique in analytical chemistry used to separate, identify, and quantify each component in a mixture.

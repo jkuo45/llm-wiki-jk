@@ -1,3 +1,11 @@
+---
+type: entity
+category: Scientific Concept
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Rossmann fold
 The Rossmann fold is a highly conserved structural protein motif found in many nucleotide-binding proteins, particularly those that bind [[NAD+]]/NADH. In the sirtuin family, this large domain serves as the primary binding site for the NAD+ cofactor required for enzymatic activity.
 

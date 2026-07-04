@@ -1,3 +1,11 @@
+---
+type: entity
+category: Scientific Concept
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Longevity
 
 Longevity refers to a long duration of individual life. It is influenced by genetic and environmental factors, and research into [[Aging]] often focuses on mechanisms to promote longevity, such as reducing [[Advanced Glycation End Products|AGEs]].

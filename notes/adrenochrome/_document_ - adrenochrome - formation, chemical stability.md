@@ -1,4 +1,5 @@
 ---
+type: document
 title: adrenochrome - formation, chemical stability
 source: https://aistudio.google.com/u/0/prompts/1dRO36_hNUA6IkRsYL0Sq9fBKp3hjnLGQ
 author:

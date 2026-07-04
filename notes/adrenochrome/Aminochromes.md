@@ -1,3 +1,11 @@
+---
+type: entity
+category: Chemical Class
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Aminochromes
 
 **Aminochromes** are a class of deep-colored, cyclic indole-quinone compounds formed by the [[Oxidation]] of [[Catecholamines]]. They are key intermediates in the formation of melanins and are associated with [[notes/oxidative_stress/Oxidative Stress]].

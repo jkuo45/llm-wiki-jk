@@ -1,4 +1,5 @@
 ---
+type: document
 title: "Dietary Advanced Glycation End Products and Aging"
 source: "https://pmc.ncbi.nlm.nih.gov/articles/PMC3257625/"
 author:

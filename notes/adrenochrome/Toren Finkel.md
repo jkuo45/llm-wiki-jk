@@ -1,3 +1,11 @@
+---
+type: entity
+category: Person
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Toren Finkel
 
 Toren Finkel is a prominent scientist specializing in mitochondria, aging, and signal transduction, and co-author of the influential 2014 review on mitohormesis.

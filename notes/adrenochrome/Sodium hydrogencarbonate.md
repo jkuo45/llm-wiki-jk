@@ -1,3 +1,11 @@
+---
+type: entity
+category: Chemical Compound
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Sodium hydrogencarbonate
 
 Sodium hydrogencarbonate (also known as sodium bicarbonate or baking soda) is a chemical compound with the formula $NaHCO_3$.

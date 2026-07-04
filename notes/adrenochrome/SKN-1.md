@@ -1,3 +1,11 @@
+---
+type: entity
+category: Gene
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # SKN-1
 
 SKN-1 is the *C. elegans* homolog of [[Nrf2]], which coordinates the response to [[notes/adrenochrome/Oxidative Stress]] and is essential for the lifespan extension associated with mitochondrial ROS release.

@@ -1,3 +1,11 @@
+---
+type: entity
+category: Scientific Concept
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Lifespan
 
 Lifespan is the maximum number of years an individual of a given species can live. Interventions like [[Caloric Restriction]] have been shown to increase lifespan, potentially by reducing [[notes/adrenochrome/Oxidative Stress]] and the accumulation of [[Advanced Glycation End Products|AGEs]].

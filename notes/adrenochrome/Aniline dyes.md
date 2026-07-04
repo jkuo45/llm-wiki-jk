@@ -1,3 +1,11 @@
+---
+type: entity
+category: Chemical Class
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Aniline dyes
 
 [[Aniline dyes]] are a large group of synthetic dyes derived from aniline. They are known chemical triggers for acquired [[Methemoglobinemia]] upon skin contact or ingestion.

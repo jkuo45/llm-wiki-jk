@@ -1,4 +1,5 @@
 ---
+type: document
 title: Grok - Methemoglobin  and Methemoglobinemia
 source: https://x.com/i/grok?conversation=2057280570129100952
 author:

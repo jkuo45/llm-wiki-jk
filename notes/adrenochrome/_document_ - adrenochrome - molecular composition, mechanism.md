@@ -1,4 +1,5 @@
 ---
+type: document
 title: "Grok"
 source: "https://x.com/i/grok?conversation=2049208684165939646"
 author:

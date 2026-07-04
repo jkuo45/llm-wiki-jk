@@ -1,3 +1,11 @@
+---
+type: entity
+category: Chemical Compound
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Dopaminochrome
 
 **Dopaminochrome** is an aminochrome intermediate formed by the [[Oxidation]] of [[notes/_link/Dopamine]]. It is the structural and biochemical analog of [[Adrenochrome]] in the dopaminergic pathway.

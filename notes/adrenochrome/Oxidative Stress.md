@@ -1,3 +1,11 @@
+---
+type: entity
+category: Scientific Concept
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Oxidative Stress
 
 Oxidative stress reflects an imbalance between the systemic manifestation of reactive oxygen species and a biological system's ability to readily detoxify the reactive intermediates or to repair the resulting damage. It is both a cause and a consequence of [[Advanced Glycation End Products|AGE]] formation and is a key factor in the development of chronic diseases.

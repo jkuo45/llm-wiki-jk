@@ -1,3 +1,11 @@
+---
+type: entity
+category: Biological Process
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Adrenaline catabolism
 
 The metabolic process by which [[notes/_link/Epinephrine|adrenaline]] is broken down in the body.

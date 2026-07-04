@@ -1,3 +1,11 @@
+---
+type: entity
+category: Chemical Compound
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Adrenochrome
 
 [[Adrenochrome]] (C₉H₉NO₃) is a chemical compound formed by the [[Oxidation]] of [[notes/_link/Epinephrine]] (Adrenaline). It is a member of the [[Aminochromes]] family and serves as a minor metabolic byproduct rather than a primary hormone or neurotransmitter.

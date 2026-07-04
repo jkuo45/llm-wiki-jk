@@ -1,3 +1,11 @@
+---
+type: entity
+category: Pharmacological Action
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Hemostatics
 
 Hemostatics (or haemostatics) are substances or agents that stop bleeding (hemostasis). 

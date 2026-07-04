@@ -1,3 +1,11 @@
+---
+type: entity
+category: Analytical Technique
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Assay
 
 An **Assay** is an investigative (analytic) procedure in laboratory medicine, pharmacology, environmental biology and molecular biology for qualitatively assessing or quantitatively measuring the presence, amount, or functional activity of a target entity (the analyte).

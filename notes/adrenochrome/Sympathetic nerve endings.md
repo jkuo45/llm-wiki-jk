@@ -1,3 +1,11 @@
+---
+type: entity
+category: Anatomy
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Sympathetic nerve endings
 
 The terminals of the sympathetic nervous system where neurotransmitters like [[notes/_link/Norepinephrine]] are released.

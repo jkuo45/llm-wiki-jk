@@ -1,3 +1,11 @@
+---
+type: entity
+category: Cell Type
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Endothelial cells
 
 Cells that line the interior surface of blood vessels and lymphatic vessels.

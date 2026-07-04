@@ -1,4 +1,5 @@
 ---
+type: document
 title: "Mitohormesis"
 source: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4016106/"
 author:

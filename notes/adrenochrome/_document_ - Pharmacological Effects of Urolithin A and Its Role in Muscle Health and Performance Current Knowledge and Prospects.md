@@ -1,4 +1,5 @@
 ---
+type: document
 title: "Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance: Current Knowledge and Prospects"
 source: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10609777/"
 author:

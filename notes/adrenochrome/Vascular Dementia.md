@@ -1,3 +1,11 @@
+---
+type: entity
+category: Medical Condition
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Vascular Dementia
 
 Vascular dementia is a general term describing problems with reasoning, planning, judgment, memory and other thought processes caused by brain damage from impaired blood flow to the brain. It is associated with the accumulation of [[Advanced Glycation End Products|AGEs]], which contribute to vascular damage and stiffening.

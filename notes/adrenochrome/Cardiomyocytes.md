@@ -1,3 +1,11 @@
+---
+type: entity
+category: Cell Type
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Cardiomyocytes
 
 Muscle cells (myocytes) that make up the cardiac muscle (heart muscle).

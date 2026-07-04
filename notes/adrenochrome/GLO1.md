@@ -1,3 +1,11 @@
+---
+type: entity
+category: Enzyme
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # GLO1
 
 GLO1 (Glyoxalase 1, or lactoylglutathione lyase) is the rate-limiting enzyme of the cellular [[Glyoxalase System]].

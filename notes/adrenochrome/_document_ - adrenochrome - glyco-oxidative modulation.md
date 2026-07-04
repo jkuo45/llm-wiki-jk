@@ -1,4 +1,5 @@
 ---
+type: document
 title: "Google AI Studio"
 source: "https://aistudio.google.com/u/0/prompts/1MyzjFK-JfaKQO3zMMs8vsHWtSkuDav5N"
 author:

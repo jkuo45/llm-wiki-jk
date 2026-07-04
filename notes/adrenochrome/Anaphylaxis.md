@@ -1,3 +1,11 @@
+---
+type: entity
+category: Medical Condition
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Anaphylaxis
 
 **Anaphylaxis** is a serious, potentially life-threatening allergic reaction that occurs quickly after exposure to an allergen.

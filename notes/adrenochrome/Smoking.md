@@ -1,3 +1,11 @@
+---
+type: entity
+category: Scientific Concept
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Smoking
 
 **Smoking** (including cigarettes, cigars, and wood smoke) is a major exogenous source of [[notes/oxidative_stress/Oxidative Stress]] and has a significant impact on [[Catecholamines]] metabolism.

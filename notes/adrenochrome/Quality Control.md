@@ -1,3 +1,11 @@
+---
+type: entity
+category: Laboratory Standard
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Quality Control
 
 **Quality Control** (QC) is a process by which entities review the quality of all factors involved in production.

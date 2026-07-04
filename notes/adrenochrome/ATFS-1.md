@@ -1,3 +1,11 @@
+---
+type: entity
+category: Gene
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # ATFS-1
 
 ATFS-1 (Activating Transcription Factor associated with Stress-1) is a basic helix-loop-helix transcription factor in *C. elegans* that is the primary regulator of the [[Mitochondrial Unfolded Protein Response]].

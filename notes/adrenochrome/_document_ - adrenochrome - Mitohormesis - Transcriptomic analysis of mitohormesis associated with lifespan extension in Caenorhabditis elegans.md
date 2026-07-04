@@ -1,4 +1,5 @@
 ---
+type: document
 title: "Transcriptomic analysis of mitohormesis associated with lifespan extension in Caenorhabditis elegans"
 source: "https://www.biorxiv.org/content/10.1101/2025.04.15.648933v1.full#sec-37"
 author:

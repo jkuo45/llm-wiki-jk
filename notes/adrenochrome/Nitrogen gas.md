@@ -1,3 +1,11 @@
+---
+type: entity
+category: Chemical Compound
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Nitrogen gas
 
 **Nitrogen gas** (N₂) is an inert gas commonly used in laboratory and industrial settings.

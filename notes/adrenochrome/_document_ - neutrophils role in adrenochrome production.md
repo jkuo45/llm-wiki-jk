@@ -1,4 +1,5 @@
 ---
+type: document
 title: "neutrophils role in adrenochrome production"
 source: "https://x.com/i/grok?conversation=2058359627398750275"
 author:

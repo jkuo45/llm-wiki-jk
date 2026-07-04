@@ -1,3 +1,11 @@
+---
+type: entity
+category: Enzyme
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Glutathione reductase
 
 Glutathione reductase (GR) is an enzyme that reduces glutathione disulfide (GSSG) to the sulfhydryl form GSH, which is a critical molecule in resisting [[notes/adrenochrome/Oxidative Stress]].

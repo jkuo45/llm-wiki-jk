@@ -1,3 +1,11 @@
+---
+type: entity
+category: Scientific Concept
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Hormesis
 
 Hormesis is a biological phenomenon where a beneficial effect (improved health, stress tolerance, growth, or longevity) results from exposure to low doses of an agent that is otherwise toxic or lethal at higher doses.

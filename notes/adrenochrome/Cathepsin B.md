@@ -1,3 +1,11 @@
+---
+type: entity
+category: Enzyme
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Cathepsin B
 
 Cathepsin B is a cysteine protease localized to the [[notes/_link/Lysosome]] that contributes to intracellular proteolysis and cellular protein turnover.

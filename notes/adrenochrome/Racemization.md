@@ -1,3 +1,11 @@
+---
+type: entity
+category: Chemical Process
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Racemization
 
 **Racemization** is a chemical process in which one enantiomer of a compound is converted into an equal mixture of both enantiomers (a racemic mixture).

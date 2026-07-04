@@ -1,3 +1,11 @@
+---
+type: entity
+category: Biological Process
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Inflammation
 
 Inflammation is a part of the complex biological response of body tissues to harmful stimuli, such as pathogens, damaged cells, or irritants. Chronic inflammation is closely linked to the accumulation of [[Advanced Glycation End Products|AGEs]] and the activation of the [[NF-κB]] pathway, contributing to various chronic degenerative diseases.

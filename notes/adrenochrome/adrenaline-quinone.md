@@ -1,3 +1,11 @@
+---
+type: entity
+category: Chemical Compound
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # adrenaline-quinone
 
 **Adrenaline-quinone** is a highly reactive, electrophilic intermediate formed during the oxidation of [[notes/_link/Epinephrine]].

@@ -1,3 +1,11 @@
+---
+type: entity
+category: Enzyme
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Glutathione peroxidase
 
 Glutathione peroxidase (GPx) is an enzyme family with peroxidase activity whose main biological role is to protect the organism from oxidative damage.

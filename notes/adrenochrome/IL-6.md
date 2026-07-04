@@ -1,3 +1,11 @@
+---
+type: entity
+category: Biological Molecule
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # IL-6
 
 Interleukin 6 (IL-6) is an interleukin that acts as both a pro-inflammatory cytokine and an anti-inflammatory myokine. In humans, it is encoded by the IL6 gene. Its expression is often upregulated by the activation of [[NF-κB]] following [[Advanced Glycation End Products|AGE]]-induced stress.

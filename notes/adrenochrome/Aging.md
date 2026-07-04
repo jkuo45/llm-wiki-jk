@@ -1,3 +1,11 @@
+---
+type: entity
+category: Biological Process
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Aging
 
 Aging is the process of becoming older. In the context of biochemical research, it is often associated with the accumulation of [[Advanced Glycation End Products]] (AGEs), increased [[notes/adrenochrome/Oxidative Stress]], and chronic [[Inflammation]]. The interaction between dietary AGEs and endogenous glycation processes is a significant focus in understanding the pathogenesis of age-related diseases.

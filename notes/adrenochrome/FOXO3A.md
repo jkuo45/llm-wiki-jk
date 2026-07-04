@@ -1,3 +1,11 @@
+---
+type: entity
+category: Protein
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # FOXO3A
 Forkhead box O3 (FOXO3A) is a transcription factor involved in regulating genes related to apoptosis, cell cycle progression, and oxidative stress resistance. Deacetylation of FOXO3A by sirtuins like [[notes/sirtuins/SIRT5]] can inhibit [[Apoptosis|apoptosis]].
 

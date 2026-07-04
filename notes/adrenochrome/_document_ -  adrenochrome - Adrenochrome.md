@@ -1,4 +1,5 @@
 ---
+type: document
 title: "Adrenochrome"
 source: "https://pubchem.ncbi.nlm.nih.gov/compound/adrenochrome"
 author:

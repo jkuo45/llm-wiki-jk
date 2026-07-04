@@ -1,3 +1,11 @@
+---
+type: entity
+category: Chemical Compound
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Isourolithin A
 
 **Isourolithin A** is a microbially derived metabolite and isomer of [[notes/_link/Urolithin A|Urolithin A]] produced by gut bacteria (such as [[notes/adrenochrome/Ellagibacter isourolithinifaciens|Ellagibacter isourolithinifaciens]]) from dietary [[notes/adrenochrome/Ellagic acid|ellagic acid]].

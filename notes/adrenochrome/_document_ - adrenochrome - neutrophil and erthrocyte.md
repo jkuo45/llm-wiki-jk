@@ -1,4 +1,5 @@
 ---
+type: document
 title: adrenochrome neutrophil and erthrocyte
 source: https://x.com/i/grok?conversation=2058754535729049865
 author:

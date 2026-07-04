@@ -1,4 +1,5 @@
 ---
+type: document
 title: "Nicotinamide Riboside—The Current State of Research and Therapeutic Uses"
 source: "https://pmc.ncbi.nlm.nih.gov/articles/PMC7352172/"
 author:

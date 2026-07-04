@@ -1,4 +1,5 @@
 ---
+type: document
 title: "Silver(1+) oxide"
 source: "https://pubchem.ncbi.nlm.nih.gov/compound/Silver_1_-oxide"
 author:

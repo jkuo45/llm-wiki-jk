@@ -1,3 +1,11 @@
+---
+type: entity
+category: Chemical Compound
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Glycolic acid
 
 Glycolic acid (or hydroxyacetic acid) is a small organic acid metabolite.

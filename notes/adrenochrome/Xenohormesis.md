@@ -1,3 +1,11 @@
+---
+type: entity
+category: Scientific Theory
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Xenohormesis
 
 Xenohormesis is a biological hypothesis proposing that animals have evolved to sense chemical cues from stressed plants to prepare for worsening environmental conditions. For example, plant molecules synthesized during a prolonged drought signal to recipient animals to prepare for a presumed famine.

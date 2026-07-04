@@ -1,3 +1,11 @@
+---
+type: entity
+category: Enzyme
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Fructosamine-3-kinase
 
 Fructosamine-3-kinase (FN3K) is an intracellular enzyme responsible for initiating protein deglycation, reversing early glycation intermediates before they transition into irreversible [[Advanced Glycation End Products]].

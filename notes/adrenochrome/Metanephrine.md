@@ -1,3 +1,11 @@
+---
+type: entity
+category: Metabolite
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Metanephrine
 
 Metanephrine is a metabolite of [[notes/_link/Epinephrine]] (adrenaline) created by the action of the enzyme [[COMT]] on adrenaline.

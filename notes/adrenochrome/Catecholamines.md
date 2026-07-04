@@ -1,3 +1,11 @@
+---
+type: entity
+category: Chemical Class
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Catecholamines
 
 **Catecholamines** are a class of aromatic amines that serve as hormones and neurotransmitters. They are characterized by a catechol group (a benzene ring with two hydroxyl groups) and an amine side chain.

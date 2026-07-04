@@ -1,3 +1,11 @@
+---
+type: entity
+category: Anatomy
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Plasma membrane
 
 The semipermeable membrane surrounding the cytoplasm of a cell.

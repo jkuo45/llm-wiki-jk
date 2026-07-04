@@ -1,3 +1,11 @@
+---
+type: entity
+category: Receptor
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # RAGE
 
 RAGE (Receptor for Advanced Glycation End Products) is a cell surface molecule that recognizes and binds to [[Advanced Glycation End Products]].

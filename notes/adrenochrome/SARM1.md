@@ -1,3 +1,11 @@
+---
+type: entity
+category: Enzyme
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # SARM1
 SARM1 is an enzyme that acts as a consumer of NAD+, contributing to its degradation in cellular processes.
 

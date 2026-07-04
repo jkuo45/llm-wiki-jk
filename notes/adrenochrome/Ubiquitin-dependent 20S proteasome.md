@@ -1,3 +1,11 @@
+---
+type: entity
+category: Enzyme
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Ubiquitin-dependent 20S proteasome
 
 The ubiquitin-dependent 20S proteasome is a multi-protein complex responsible for the degradation of damaged or unneeded proteins in the cell.

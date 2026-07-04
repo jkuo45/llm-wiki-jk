@@ -1,3 +1,11 @@
+---
+type: entity
+category: Enzyme
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # NADH-dependent methemoglobin reductase
 
 [[NADH-dependent methemoglobin reductase]] (also known as [[Cytochrome b5 reductase]] or [[Diaphorase]]) is the primary enzyme responsible for reducing [[Methemoglobin]] (Fe³⁺) back into functional [[Hemoglobin]] (Fe²⁺) in healthy individuals.

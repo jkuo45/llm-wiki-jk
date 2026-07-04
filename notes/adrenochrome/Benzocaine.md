@@ -1,3 +1,11 @@
+---
+type: entity
+category: Chemical Compound
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Benzocaine
 
 [[Benzocaine]] is a local anesthetic commonly found in over-the-counter topical gels and sprays. It is a known oxidizing agent that can trigger acquired [[Methemoglobinemia]].

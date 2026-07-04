@@ -1,7 +1,7 @@
 ---
 title: Adrenochrome Semiquinone Radical
 type: entity
-category: metabolite
+category: Metabolite
 aliases:
   - Adrenochrome semiquinone
   - Semiquinone radical

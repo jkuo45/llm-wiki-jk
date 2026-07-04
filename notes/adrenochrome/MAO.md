@@ -1,3 +1,11 @@
+---
+type: entity
+category: Enzyme
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # MAO (Monoamine oxidase)
 
 **MAO** (Monoamine oxidase) is a family of enzymes (MAO-A and MAO-B) that catalyze the oxidative deamination of monoamines, including [[Catecholamines]] like [[notes/_link/Dopamine]] and [[notes/_link/Epinephrine]].
