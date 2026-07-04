@@ -2,6 +2,7 @@
   "alwaysUpdateLinks": true,
   "userIgnoreFilters": [
     "/.*README\\.md/",
+    "/.*AGENTS\\.md/",
     "/.*GEMINI\\.md/",
     "/.*index\\.md/",
     "/(^|\\/)(\\[document\\]|_document_).*/",
