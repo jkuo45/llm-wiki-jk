@@ -2,24 +2,24 @@
 
 <!-- GENERATED: summary_table -->
 ## Summary Table (notes directory)
-| topic                                                                                  | last updated | count entities | count documents | count words | disk size |
-| :------------------------------------------------------------------------------------- | :----------- | :------------: | :-------------: | :---------: | :-------: |
-| [_link](https://github.com/jkuo45/llm-wiki/tree/dev/notes/_link)                       | 04_JUL_2026  |      192       |        0        |   42,370    |  0.34 MB  |
-| [adrenochrome](https://github.com/jkuo45/llm-wiki/tree/dev/notes/adrenochrome)         | 04_JUL_2026  |      330       |       23        |   142,982   |  1.56 MB  |
-| [autophagy](https://github.com/jkuo45/llm-wiki/tree/dev/notes/autophagy)               | 04_JUL_2026  |      251       |       11        |   84,432    |  0.73 MB  |
-| [cancer](https://github.com/jkuo45/llm-wiki/tree/dev/notes/cancer)                     | 04_JUL_2026  |      275       |        8        |   117,262   |  1.27 MB  |
-| [comt](https://github.com/jkuo45/llm-wiki/tree/dev/notes/comt)                         | 04_JUL_2026  |       35       |        2        |    9,913    |  0.11 MB  |
-| [epigenetics](https://github.com/jkuo45/llm-wiki/tree/dev/notes/epigenetics)           | 04_JUL_2026  |      218       |        9        |   108,672   |  3.23 MB  |
-| [neuromelanin](https://github.com/jkuo45/llm-wiki/tree/dev/notes/neuromelanin)         | 04_JUL_2026  |      100       |        2        |   24,488    |  0.28 MB  |
-| [oxidative_stress](https://github.com/jkuo45/llm-wiki/tree/dev/notes/oxidative_stress) | 04_JUL_2026  |       82       |        1        |   60,644    |  0.62 MB  |
-| [sirtuins](https://github.com/jkuo45/llm-wiki/tree/dev/notes/sirtuins)                 | 04_JUL_2026  |      112       |        6        |   153,890   |  1.26 MB  |
+| topic | last updated | count entities | count documents | count words | disk size |
+| :--- | :--- | :---: | :---: | :---: | :---: |
+| [_link](https://github.com/jkuo45/llm-wiki/tree/dev/notes/_link) | 04_JUL_2026 | 192 | 0 | 42,370 | 0.34 MB |
+| [adrenochrome](https://github.com/jkuo45/llm-wiki/tree/dev/notes/adrenochrome) | 04_JUL_2026 | 330 | 23 | 142,982 | 1.56 MB |
+| [autophagy](https://github.com/jkuo45/llm-wiki/tree/dev/notes/autophagy) | 04_JUL_2026 | 251 | 11 | 84,432 | 0.73 MB |
+| [cancer](https://github.com/jkuo45/llm-wiki/tree/dev/notes/cancer) | 04_JUL_2026 | 275 | 8 | 117,262 | 1.27 MB |
+| [comt](https://github.com/jkuo45/llm-wiki/tree/dev/notes/comt) | 04_JUL_2026 | 35 | 2 | 9,913 | 0.11 MB |
+| [epigenetics](https://github.com/jkuo45/llm-wiki/tree/dev/notes/epigenetics) | 04_JUL_2026 | 218 | 9 | 108,672 | 3.23 MB |
+| [neuromelanin](https://github.com/jkuo45/llm-wiki/tree/dev/notes/neuromelanin) | 04_JUL_2026 | 100 | 2 | 24,488 | 0.28 MB |
+| [oxidative_stress](https://github.com/jkuo45/llm-wiki/tree/dev/notes/oxidative_stress) | 04_JUL_2026 | 82 | 1 | 60,696 | 0.62 MB |
+| [sirtuins](https://github.com/jkuo45/llm-wiki/tree/dev/notes/sirtuins) | 04_JUL_2026 | 112 | 6 | 153,969 | 1.26 MB |
 <!-- END GENERATED: summary_table -->
 
 <!-- GENERATED: summary_counts -->
 ## Summary Counts (notes directory)
-- **last updated:** 04_JUL_2026 03:27 PM PDT
+- **last updated:** 04_JUL_2026 03:49 PM PDT
 - **file count:** 1,609
-- **word count:** 744,653
+- **word count:** 744,784
 - **documents:** 62
 - **disk size:** 9.41 MB
 <!-- END GENERATED: summary_counts -->
@@ -84,7 +84,7 @@
 | epigenetics | 04_JUL_2026 | [notes/epigenetics/_document_ - xenohormesis, mitohormesis.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/epigenetics/_document_%20-%20xenohormesis%2C%20mitohormesis.md) | 1,388 |
 | neuromelanin | 03_JUL_2026 | [notes/neuromelanin/_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/neuromelanin/_document_%20-%20Neuromelanin%2C%20aging%2C%20and%20neuronal%20vulnerability%20in%20Parkinson%27s%20disease.md) | 9,726 |
 | neuromelanin | 03_JUL_2026 | [notes/neuromelanin/_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/neuromelanin/_document_%20-%20Neuromelanin%2C%20one%20of%20the%20most%20overlooked%20molecules%20in%20modern%20medicine%2C%20is%20not%20a%20spectator.md) | 3,770 |
-| oxidative_stress | 03_JUL_2026 | [notes/oxidative_stress/_document_ - Oxidative Stress Harms and Benefits for Human Health.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/oxidative_stress/_document_%20-%20Oxidative%20Stress%20Harms%20and%20Benefits%20for%20Human%20Health.md) | 9,120 |
+| oxidative_stress | 04_JUL_2026 | [notes/oxidative_stress/_document_ - Oxidative Stress Harms and Benefits for Human Health.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/oxidative_stress/_document_%20-%20Oxidative%20Stress%20Harms%20and%20Benefits%20for%20Human%20Health.md) | 9,119 |
 | sirtuins | 04_JUL_2026 | [notes/sirtuins/_document_ - The Sirtuin System The Holy Grail of Resveratrol?.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/_document_%20-%20The%20Sirtuin%20System%20The%20Holy%20Grail%20of%20Resveratrol%3F.md) | 3,868 |
 | sirtuins | 04_JUL_2026 | [notes/sirtuins/_document_ - sirtuins (overview, CD38 KO risks, cancer therapies).md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/_document_%20-%20sirtuins%20%28overview%2C%20CD38%20KO%20risks%2C%20cancer%20therapies%29.md) | 2,654 |
 | sirtuins | 03_JUL_2026 | [notes/sirtuins/_document_ - sirtuins (resveratrol), gemini.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/_document_%20-%20sirtuins%20%28resveratrol%29%2C%20gemini.md) | 4,660 |
