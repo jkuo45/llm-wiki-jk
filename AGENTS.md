@@ -35,12 +35,22 @@
   When modifying existing notes, never rewrite or delete any existing content. Only append new information. Insert links naturally, add new subsections or sections toward the end of relevant areas, and preserve the user's original voice and structure completely. Always update the updated: frontmatter date.
   - Prioritize adding value incrementally.
   - Update the `updated:` date in frontmatter.
-
-- Depth First: Do not produce shallow summaries. Expand with mechanisms, historical context, key studies, controversies, open questions, and clinical/research implications. Target 800–3000+ words for established entities (scale appropriately for narrower topics).
-
-- Evidence-Based: Ground everything in real scientific understanding. Reference landmark papers, meta-analyses, and recent reviews (include PMIDs/DOIs where possible).
-
-- Neutral & Precise: Use formal but accessible language. Clearly distinguish established facts from emerging or controversial findings.
+- Each topic contains a default linking entity file (e.g. notes/adrenochrome/Adrenochrome.md).
+  - This file can be used for Obsidian file merging.
+  - Do not create in \_link, append additional content, context to the entity file.
+  - Examples:
+    - 'notes/autophagy/Autophagy.md'
+    - 'notes/cancer/Cancer.md'
+    - 'notes/comt/COMT.md'
+    - 'notes/epigenetics/Epigenetics.md'
+    - 'notes/neuromelanin/Neuromelanin.md'
+    - 'notes/oxidative_stress/Oxidative Stress.md'
+    - 'notes/sirtuins/Sirtuins.md'
+- **Context-dependent content:** Adapt depth, focus, and tone according to the entity type and available scientific literature. For well-studied topics, synthesize multiple high-impact scientific articles, reviews, and meta-analyses. Prioritize recent, high-quality papers (include key PMIDs/DOIs) and clearly distinguish established knowledge from emerging findings.
+- Use scientific articles as the primary foundation for all new content. When appending, integrate insights from relevant studies rather than generic knowledge.
+- **Depth First:** Do not produce shallow summaries. Expand with mechanisms, historical context, key studies, controversies, open questions, and clinical/research implications. Target 800–3000+ words for established entities (scale appropriately for narrower topics).
+- **Evidence-Based:** Ground everything in real scientific understanding. Reference landmark papers, meta-analyses, and recent reviews (include PMIDs/DOIs where possible).
+- **Neutral & Precise:** Use formal but accessible language. Clearly distinguish established facts from emerging or controversial findings.
   Interconnectedness: Make the note a hub that intelligently links to related concepts.
 
 - Example for new entities:
