@@ -12,11 +12,8 @@ def format_number(n):
 
 
 def format_size(size_bytes):
-    """Return a human-readable file size string (B / KB / MB / GB)."""
-    for unit, threshold in [("GB", 1024**3), ("MB", 1024**2), ("KB", 1024)]:
-        if size_bytes >= threshold:
-            return f"{size_bytes / threshold:.2f} {unit}"
-    return f"{size_bytes} B"
+    """Return a file size string in MB only."""
+    return f"{size_bytes / (1024**2):.2f} MB"
 
 
 def get_timestamp():
