@@ -1,6 +1,6 @@
 ---
 description: index of entities and documents in this directory
-updated: 2026-07-03
+updated: 2026-07-04
 type: index
 ---
 
@@ -110,7 +110,35 @@ type: index
 | [[CDC14B]] | Protein | Mitotic phosphatase; dephosphorylates and destabilizes SIRT2, triggering proteasomal degradation |
 | [[MyoD]] | Protein | Myogenic transcription factor; deacetylated and inactivated by SIRT1, repressing muscle gene expression |
 | [[notes/_link/NFKB|NF-κB (RelA/p65)]] | Protein | Master inflammatory transcription factor; deacetylated/suppressed by SIRT1 and SIRT2, repressed epigenetically by SIRT6 |
+| [[eNOS]] | Enzyme | Endothelial nitric oxide synthase; deacetylated/activated by SIRT1; promotes vasodilation |
+| [[CREB]] | Protein | cAMP Response Element Binding protein; deacetylated by SIRT1 at K136; regulates lipid metabolism |
+| [[MnSOD]] | Enzyme | Mitochondrial superoxide dismutase; deacetylated/activated by SIRT3 at K68/K122; antioxidant |
+| [[PTP1B]] | Enzyme | Protein tyrosine phosphatase 1B; downregulated by SIRT1; increases insulin sensitivity |
+| [[SERCA2a]] | Protein | Cardiac Ca²⁺-ATPase; deacetylated/activated by SIRT1 at K492; restores contractile function |
+| [[GATA4]] | Protein | Cardiac transcription factor; deacetylated by SIRT7; anti-hypertrophic |
+| [[Androgen receptor]] | Protein | Nuclear receptor; deacetylated by SIRT1 at K630; represses oncogenic signalling |
+| [[HNF4α]] | Protein | Hepatocyte nuclear factor 4α; deacetylated by SIRT2; prevents hepatic steatosis |
+| [[TIMP3]] | Protein | Tissue inhibitor of metalloproteinases 3; regulated by SIRT1; vascular protection |
+| [[ACC1]] | Enzyme | Acetyl-CoA carboxylase 1; deacetylated by SIRT3; promotes de novo lipogenesis |
+| [[LDHB]] | Enzyme | Lactate dehydrogenase B; deacetylated by SIRT5; hyperactivates autophagy |
+| [[OSCP]] | Protein | ATP synthase peripheral stalk subunit; deacetylated by SIRT3; optimizes energy output |
+| [[GLUT2]] | Protein | Glucose transporter 2; expression increased by SIRT6 via FoxO1 deacetylation |
+| [[GATA5]] | Protein | GATA binding protein 5; induced by SIRT6; prevents endothelial injury |
+| [[Lox-1]] | Protein | Lectin-like oxidized LDL receptor 1; suppressed by SIRT1; reduces foam cell formation |
+| [[Histone H1]] | Protein | Linker histone; deacetylated by SIRT1 at K9/K26; chromatin structure |
+| [[Histone H4]] | Protein | Core histone; deacetylated at K16 by SIRT1 and SIRT2; mitotic chromatin condensation |
+| [[Histone H2A.Z]] | Protein | Histone variant; deacetylated by SIRT1 at K115/K121; protects against cardiac hypertrophy |
+| [[Hes1 and Hey2]] | Protein | bHLH Notch repressors; interact with SIRT1; modulate transcriptional repression |
+| [[HOXA10]] | Protein | Homeobox transcription factor; interacts with SIRT2; embryogenesis |
+| [[p33ING1b]] | Protein | Inhibitor of growth protein 1; inhibits SIRT1 deacetylation of p53; tumour suppressor |
 
+### Resveratrol Signalling Cascade
+
+| Entity | entity_type_1 | Description |
+|--------|--------------|-------------|
+| [[PDE4]] | Enzyme | Phosphodiesterase 4; competitively inhibited by resveratrol; prevents cAMP degradation |
+| [[Epac1]] | Protein | Exchange protein directly activated by cAMP 1; triggers Ca²⁺ release from ER |
+| [[CaMKKβ]] | Enzyme | Ca²⁺/calmodulin-dependent kinase kinase β; phosphorylates/activates AMPK |
 
 ### CD38 & Anti-CD38 Therapeutics
 

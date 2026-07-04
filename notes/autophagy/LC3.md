@@ -1,3 +1,11 @@
+---
+type: entity
+category: protein
+aliases: [Microtubule-associated protein 1 Light Chain 3, MAP1LC3]
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # LC3
 
 **LC3** (Microtubule-associated protein 1 Light Chain 3) is a mammalian ortholog of the yeast [[Atg8]] protein and a central marker for [[Autophagy]].
@@ -14,7 +22,11 @@
 ## Marker for Autophagy
 - The detection of LC3-II levels and the visualization of "LC3 puncta" (representing autophagosomes) are standard methods for monitoring [[Autophagic Flux]].
 
+## Sirtuin Regulation
+
+[[SIRT1]] promotes autophagy by deacetylating LC3 (Microtubule-associated protein 1A/1B-light chain 3). SIRT1 deacetylation of LC3 reduces its acetylation, enhancing autophagic flux in endothelial cells and cancer contexts.
+
 ### Linking Summary:
-- New links added: [[Atg8]], [[Autophagy]], [[Autophagosome]], [[Atg7]], [[Atg3]], [[Atg12]], [[Atg5]], [[Atg16]], [[p62]], [[Autophagic Flux]]
+- New links added: [[Atg8]], [[Autophagy]], [[Autophagosome]], [[Atg7]], [[Atg3]], [[Atg12]], [[Atg5]], [[Atg16]], [[p62]], [[Autophagic Flux]], [[SIRT1]]
 - Suggested new entity notes to create:
-- Strong connections to strengthen: [[LC3]] ↔ [[Autophagosome]], [[LC3]] ↔ [[Autophagy]]
+- Strong connections to strengthen: [[LC3]] ↔ [[Autophagosome]], [[LC3]] ↔ [[Autophagy]], [[SIRT1]] ↔ [[LC3]]

@@ -32,3 +32,12 @@
 - New links added: [[Autophagy]], [[Lysosome]], [[CLEAR Element]], [[TFE3]], [[Autophagosome]], [[mTORC1]], [[calcineurin]], [[eIF5A]], [[notes/_link/Spermidine]], [[B Cell]], [[notes/_link/Senescence]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[TFEB]] ↔ [[TFE3]], [[TFEB]] ↔ [[CLEAR Element]]
+
+## Sirtuin Regulation of TFEB
+
+[[notes/sirtuins/SIRT2]] directly binds to the 3'UTR of TFEB mRNA and facilitates its mRNA stability. SIRT2 promotes TFEB expression, which then promotes autophagosome-lysosome fusion. Additionally, [[notes/sirtuins/SIRT1]] deacetylates TFEB at K116 to promote its nuclear translocation and transcriptional activity.
+
+### Linking Summary (Sirtuin Additions):
+- New links added: [[notes/sirtuins/SIRT2]], [[notes/sirtuins/SIRT1]]
+- Suggested new entity notes to create:
+- Strong connections to strengthen: [[TFEB]] ↔ [[notes/sirtuins/SIRT2]], [[TFEB]] ↔ [[notes/sirtuins/SIRT1]]

@@ -49,3 +49,12 @@ Anti-TNF biologics — [[Infliximab]] (chimeric monoclonal), [[Adalimumab]] (hum
 - New links added: [[notes/oxidative_stress/Mitochondria]], [[notes/oxidative_stress/Superoxide Radicals]], [[notes/oxidative_stress/Respiratory Chain Complex I]], [[notes/oxidative_stress/HO-1]], [[notes/oxidative_stress/Glutathione Peroxidase]], [[notes/oxidative_stress/Catalase]], [[notes/oxidative_stress/Oxidative Stress]], [[notes/oxidative_stress/IL-1b]], [[notes/oxidative_stress/Malondialdehyde]], [[notes/_link/Glutathione]], [[notes/_link/Apoptosis]], [[notes/_link/Diabetes Mellitus]], [[Rheumatoid Arthritis]], [[Obesity]]
 - Suggested new entity notes to create: [[TNFR1]], [[TRADD]], [[RIPK1]], [[RIPK3]], [[MLKL]], [[Necroptosis]], [[Necrosome]], [[Infliximab]], [[Adalimumab]], [[Etanercept]], [[IRS-1]], [[Adiponectin]], [[MnSOD]]
 - Strong connections to strengthen: [[TNF-alpha]] ↔ [[notes/oxidative_stress/Mitochondria]], [[TNF-alpha]] ↔ [[Necroptosis]], [[TNF-alpha]] ↔ [[Rheumatoid Arthritis]]
+
+## Sirtuin Regulation of TNF-α
+
+[[notes/sirtuins/SIRT1]] deacetylation of [[NF-κB]] downregulates pro-inflammatory cytokines including TNF-α. [[notes/sirtuins/SIRT7]] kidney-specific knockout reduces TNF-α and other inflammatory factors.
+
+### Linking Summary (Sirtuin Additions):
+- New links added: [[notes/sirtuins/SIRT1]], [[notes/sirtuins/SIRT7]]
+- Suggested new entity notes to create:
+- Strong connections to strengthen: [[TNF-alpha]] ↔ [[notes/sirtuins/SIRT1]], [[TNF-alpha]] ↔ [[notes/sirtuins/SIRT7]]

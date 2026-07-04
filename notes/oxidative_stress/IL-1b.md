@@ -43,3 +43,12 @@ In the central nervous system, IL-1β is produced primarily by [[Microglia]] and
 - New links added: [[notes/oxidative_stress/Oxidative Stress]], [[notes/_link/Reactive Oxygen Species]], [[notes/oxidative_stress/Mitochondria]], [[notes/oxidative_stress/Mitochondrial Dysfunction]], [[notes/oxidative_stress/p38 MAPK]], [[notes/oxidative_stress/Amyloid-beta]], [[notes/_link/Cardiovascular Disease]], [[notes/_link/Atherosclerosis]], [[notes/_link/Alzheimer's Disease]], [[notes/_link/Parkinson's Disease]], [[notes/oxidative_stress/Neurodegeneration]]
 - Suggested new entity notes to create: [[NLRP3 inflammasome]], [[TXNIP]], [[Caspase-1]], [[ASC protein]], [[Cathepsin B]], [[Microglia]], [[Astrocytes]], [[Anakinra]], [[Canakinumab]]
 - Strong connections to strengthen: [[IL-1b]] ↔ [[NLRP3 inflammasome]], [[IL-1b]] ↔ [[notes/oxidative_stress/Mitochondria]]
+
+## Sirtuin Regulation of IL-1β
+
+[[notes/sirtuins/SIRT1]] deacetylation of [[NF-κB]] downregulates pro-inflammatory cytokines including IL-1β. [[notes/sirtuins/SIRT7]] kidney-specific knockout reduces IL-1β and other inflammatory factors.
+
+### Linking Summary (Sirtuin Additions):
+- New links added: [[notes/sirtuins/SIRT1]], [[notes/sirtuins/SIRT7]]
+- Suggested new entity notes to create:
+- Strong connections to strengthen: [[IL-1b]] ↔ [[notes/sirtuins/SIRT1]], [[IL-1b]] ↔ [[notes/sirtuins/SIRT7]]

@@ -1,10 +1,22 @@
+---
+type: entity
+category: protein
+aliases: [PPAR-gamma, Peroxisome proliferator-activated receptor gamma]
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # PPARγ
 Peroxisome proliferator-activated receptor gamma (PPARγ) is a nuclear receptor that regulates fatty acid storage and glucose metabolism. It is a key target for treating [[notes/_link/Diabetes Mellitus]] and plays a role in suppressing [[notes/_link/Inflammation]]. Along with [[LXRα]], it regulates the expression of transporters like [[ABCA1]].
 
+## Sirtuin Regulation
+
+[[SIRT1]] represses PPAR-γ-mediated transcription, inhibiting adipogenesis. SIRT1 over-expression or pharmacological activation by [[Resveratrol]] results in PPAR-γ-mediated transcriptional repression. SIRT1 promotes fat mobilization by repressing PPAR-γ and aP2 genes.
+
 ## Linking Summary
-- New links added: [[ABCA1]], [[LXRα]], [[notes/_link/Diabetes Mellitus]], [[notes/_link/Inflammation]]
+- New links added: [[ABCA1]], [[LXRα]], [[notes/_link/Diabetes Mellitus]], [[notes/_link/Inflammation]], [[SIRT1]], [[Resveratrol]]
 - Suggested new entity notes to create: [[Transcription factor]], [[Glucose metabolism]]
-- Strong connections to strengthen: [[PPARγ]] ↔ [[ABCA1]]
+- Strong connections to strengthen: [[PPARγ]] ↔ [[ABCA1]], [[SIRT1]] ↔ [[PPARγ]]
 
 
 ---
@@ -16,5 +28,5 @@ Peroxisome proliferator-activated receptor-γ (PPARγ) is a transcription factor
 
 ### Linking Summary:
 - New links added: [[notes/_link/mTOR]], [[adipogenesis]], [[lipid synthesis]]
-- Suggested new entity notes to create: 
+- Suggested new entity notes to create:
 - Strong connections to strengthen: [[PPARγ]] ↔ [[notes/_link/mTOR]]
