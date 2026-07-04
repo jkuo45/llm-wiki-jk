@@ -1,6 +1,6 @@
 ---
 type: entity
-category: "metabolite"
+category: metabolite
 aliases:
   - "8-oxodG"
   - "8-OHdG"

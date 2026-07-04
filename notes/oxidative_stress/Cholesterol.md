@@ -1,8 +1,8 @@
 ---
 type: entity
-category: "chemical"
+category: chemical
 aliases:
-
+  - "Cholesterol"
 tags:
   - "oxidative_stress"
   - "lipid"

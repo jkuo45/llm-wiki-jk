@@ -1,8 +1,8 @@
 ---
 type: entity
-category: "metabolite"
+category: metabolite
 aliases:
-
+  - "Lipids"
 tags:
   - "oxidative_stress"
   - "cell_membrane"

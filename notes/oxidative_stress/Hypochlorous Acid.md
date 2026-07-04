@@ -1,6 +1,6 @@
 ---
 type: entity
-category: "chemical"
+category: chemical
 aliases:
   - "HOCl"
   - "HClO"

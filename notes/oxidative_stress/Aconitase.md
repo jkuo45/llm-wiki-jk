@@ -3,8 +3,7 @@ type: entity
 category: enzyme
 aliases: [Aconitate hydratase, cis-aconitase, Iron regulatory protein 1, IRP1]
 database_ids:
-  uniprot: Q99798 (human cytosolic)
-  uniprot: Q99798 (human mitochondrial)
+  uniprot: [Q99798 (human cytosolic), Q99798 (human mitochondrial)]
 created: 2026-07-04
 updated: 2026-07-04
 ---

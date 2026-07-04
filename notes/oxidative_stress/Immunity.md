@@ -1,6 +1,6 @@
 ---
 type: entity
-category: "biological_process"
+category: biological_process
 aliases:
   - "immune response"
   - "immune system"

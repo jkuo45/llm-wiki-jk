@@ -1,6 +1,6 @@
 ---
 type: entity
-category: "protein"
+category: protein
 aliases:
   - "NF-kappa B"
   - "NFKB"

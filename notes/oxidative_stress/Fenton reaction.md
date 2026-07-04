@@ -1,6 +1,6 @@
 ---
 type: entity
-category: "chemical_process"
+category: chemical_process
 aliases:
   - "Fenton chemistry"
   - "Fenton process"

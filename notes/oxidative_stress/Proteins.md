@@ -1,8 +1,8 @@
 ---
 type: entity
-category: "protein"
+category: protein
 aliases:
-
+  - "Proteins"
 tags:
   - "oxidative_stress"
   - "protein_oxidation"

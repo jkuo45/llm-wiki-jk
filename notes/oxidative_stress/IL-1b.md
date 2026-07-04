@@ -1,6 +1,6 @@
 ---
 type: entity
-category: "protein"
+category: protein
 aliases:
   - "IL-1b"
   - "Interleukin-1 beta"

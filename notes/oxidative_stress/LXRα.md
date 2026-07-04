@@ -1,6 +1,6 @@
 ---
 type: entity
-category: "protein"
+category: protein
 aliases:
   - "Liver X receptor alpha"
   - "NR1H3"

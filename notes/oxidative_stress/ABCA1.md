@@ -1,6 +1,6 @@
 ---
 type: entity
-category: "protein"
+category: protein
 aliases:
   - "ATP-binding cassette transporter A1"
   - "ABC-1"

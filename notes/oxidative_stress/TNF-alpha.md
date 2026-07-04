@@ -1,6 +1,6 @@
 ---
 type: entity
-category: "protein"
+category: protein
 aliases:
   - "TNF-alpha"
   - "tumor necrosis factor alpha"

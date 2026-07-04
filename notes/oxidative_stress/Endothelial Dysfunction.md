@@ -1,8 +1,8 @@
 ---
 type: entity
-category: "biological_process"
+category: biological_process
 aliases:
-
+  - "Endothelial Dysfunction"
 tags:
   - "oxidative_stress"
   - "cardiovascular"

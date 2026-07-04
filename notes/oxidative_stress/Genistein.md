@@ -1,6 +1,6 @@
 ---
 type: entity
-category: "chemical"
+category: chemical
 aliases:
   - "4',5,7-trihydroxyisoflavone"
 tags:

@@ -1,6 +1,6 @@
 ---
 type: entity
-category: "protein"
+category: protein
 aliases:
   - "CD36"
   - "scavenger receptor class B member 3"

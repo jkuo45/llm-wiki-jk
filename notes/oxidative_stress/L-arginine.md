@@ -1,6 +1,6 @@
 ---
 type: entity
-category: "chemical"
+category: chemical
 aliases:
   - "arginine"
   - "2-amino-5-guanidinopentanoic acid"

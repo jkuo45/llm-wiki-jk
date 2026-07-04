@@ -1,6 +1,6 @@
 ---
 type: entity
-category: "metabolite"
+category: metabolite
 aliases:
   - "DNA"
   - "RNA"

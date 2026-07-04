@@ -1,6 +1,6 @@
 ---
 type: entity
-category: "scientific_concept"
+category: scientific_concept
 aliases:
   - "IR"
   - "radiation"

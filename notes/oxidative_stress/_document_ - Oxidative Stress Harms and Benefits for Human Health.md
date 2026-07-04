@@ -11,7 +11,6 @@ author:
   - "[[Francesco Squadrito]]"
   - "[[Domenica Altavilla]]"
   - "[[Alessandra Bitto]]"
-published:
 created: 2026-05-09
 description: "Oxidative stress is a phenomenon caused by an imbalance between production and accumulation of oxygen reactive species (ROS) in cells and tissues and the ability of a biological system to detoxify these reactive products. ROS can play, and in fact ..."
 tags:

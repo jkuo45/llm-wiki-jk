@@ -1,6 +1,6 @@
 ---
 type: entity
-category: "disease"
+category: disease
 aliases:
   - "COPD"
   - "chronic obstructive lung disease"

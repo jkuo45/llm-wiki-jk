@@ -1,6 +1,6 @@
 ---
 type: entity
-category: "chemical"
+category: chemical
 aliases:
   - "CoQ10"
   - "ubiquinone"

@@ -1,6 +1,6 @@
 ---
 type: entity
-category: "chemical_class"
+category: chemical_class
 aliases:
   - "bioflavonoids"
 tags:

@@ -3,8 +3,7 @@ type: entity
 category: protein
 aliases: [FTH1, FTL, Ferritin heavy chain, Ferritin light chain]
 database_ids:
-  uniprot: P02794 (FTH1)
-  uniprot: P02792 (FTL)
+  uniprot: [P02794 (FTH1), P02792 (FTL)]
 created: 2026-07-04
 updated: 2026-07-04
 ---

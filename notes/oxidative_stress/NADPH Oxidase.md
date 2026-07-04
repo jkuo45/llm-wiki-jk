@@ -1,6 +1,6 @@
 ---
 type: entity
-category: "enzyme"
+category: enzyme
 aliases:
   - "NOX"
   - "NADPH oxidase complex"

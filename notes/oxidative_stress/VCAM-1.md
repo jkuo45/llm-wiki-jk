@@ -1,6 +1,6 @@
 ---
 type: entity
-category: "protein"
+category: protein
 aliases:
   - "vascular cell adhesion protein 1"
   - "CD106"

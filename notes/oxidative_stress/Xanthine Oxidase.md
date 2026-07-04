@@ -1,6 +1,6 @@
 ---
 type: entity
-category: "enzyme"
+category: enzyme
 aliases:
   - "XO"
   - "xanthine oxidoreductase"

@@ -1,6 +1,6 @@
 ---
 type: entity
-category: "chemical_process"
+category: chemical_process
 aliases:
   - "LPO"
 tags:
