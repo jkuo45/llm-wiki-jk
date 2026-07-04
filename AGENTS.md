@@ -84,25 +84,26 @@
 
 ### Semantic Metadata & Properties (Open Knowledge Format, OKF)
 
-When creating or updating a note, include the following frontmatter block:
+When creating or updating a note, include the following frontmatter block. Refer to entity type 1 schema for categories.
 
 ---
 
-type: entity # [entity | concept | hub]
+type: entity # [entity | document]
 category: # [gene | protein | enzyme | disease | chemical | pathway | method]
 aliases: [] # Alternative names, abbreviations, acronyms
-database_ids:
+database_ids: # If applicable
 mesh: # Medical Subject Headings ID if available (e.g., D008164)
 uniprot: # UniProt ID for proteins (e.g., P04637)
 hgnc: # HGNC ID for genes (e.g., HGNC:11998)
 chebi: # ChEBI ID for chemicals/compounds
-relations:
+relations: # If applicable
 
 - predicate: # [associated_with | inhibits | activates | regulates | treats | causes]
   target: "[[Target Entity]]"
   sources: [] # DOIs, PMIDs, or reference document names
-  created: YYYY-MM-DD
-  updated: YYYY-MM-DD
+
+created: YYYY-MM-DD
+updated: YYYY-MM-DD
 
 ---
 
