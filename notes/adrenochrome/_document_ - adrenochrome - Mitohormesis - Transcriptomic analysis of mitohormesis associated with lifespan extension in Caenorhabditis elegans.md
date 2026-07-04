@@ -42,7 +42,7 @@ You can now receive automatic notifications when a preprint is revised, withdraw
 
 [^5]: 7.
 
-[CrossRef](https://www.biorxiv.org/lookup/external-ref?access_num=10.1002/mco2.462&link_type=DOI) [Google Scholar](https://www.biorxiv.org/lookup/google-scholar?link_type=googlescholar&gs_type=article&author[0]=Y.+Wang&title=The+role+of+[[mitochondrial dynamics]]+in+disease&publication_year=2023&journal=MedComm&volume=4)
+[CrossRef](https://www.biorxiv.org/lookup/external-ref?access_num=10.1002/mco2.462&link_type=DOI) [Google Scholar](https://www.biorxiv.org/lookup/google-scholar?link_type=googlescholar&gs_type=article&author[0]=Y.+Wang&title=The+role+of+[[Mitochondrial Dynamics]]+in+disease&publication_year=2023&journal=MedComm&volume=4)
 
 [^6]: 8.
 
