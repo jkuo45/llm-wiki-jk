@@ -29,6 +29,43 @@
 - Maintain consistency: Use the same exact title for the same entity across files.
 - Each new entity should have a Linking Summary.
 
+### Wiki Entries:
+
+- Append-Only Guidelines:
+  When modifying existing notes, never rewrite or delete any existing content. Only append new information. Insert links naturally, add new subsections or sections toward the end of relevant areas, and preserve the user's original voice and structure completely. Always update the updated: frontmatter date.
+  - Prioritize adding value incrementally.
+  - Update the `updated:` date in frontmatter.
+
+- Depth First: Do not produce shallow summaries. Expand with mechanisms, historical context, key studies, controversies, open questions, and clinical/research implications. Target 800–3000+ words for established entities (scale appropriately for narrower topics).
+
+- Evidence-Based: Ground everything in real scientific understanding. Reference landmark papers, meta-analyses, and recent reviews (include PMIDs/DOIs where possible).
+
+- Neutral & Precise: Use formal but accessible language. Clearly distinguish established facts from emerging or controversial findings.
+  Interconnectedness: Make the note a hub that intelligently links to related concepts.
+
+- Example for new entities:
+  Standard Structure for Gene / Protein / Enzyme:
+  - **Overview**: A concise definition, biological role, and cellular localization.
+  - **Structure & Domains**: Key structural features, active sites, and post-translational modifications (e.g., phosphorylation sites like [[Ser308]]).
+  - **Mechanism of Action & Pathways**: Detailed biochemical pathways, upstream activators, downstream targets, and regulatory feedback loops.
+  - **Physiological Function**: Its role in normal tissue development, homeostasis, or systemic physiology.
+  - **Pathology & Clinical Relevance**: Associated mutations, overexpression/downregulation in diseases (e.g., cancer, neurodegeneration), and its viability as a therapeutic target.
+
+  ### Standard Structure for Disease / Disorder:
+  - **Etiology & Pathophysiology**: Molecular and cellular mechanisms driving the pathology, including genetic risk factors or environmental triggers.
+  - **Clinical Presentation & Biomarkers**: Key symptoms, diagnostic criteria, and molecular biomarkers.
+  - **Therapeutic Landscape**: Current standard-of-care treatments, mechanism of action of key drugs, and emerging clinical trials or therapeutic strategies.
+
+  ### Standard Structure for Chemicals / Compounds / Drugs:
+  - **Chemical Properties & Classification**: Basic structure, class, and target selectivity.
+  - **Pharmacodynamics & Pharmacokinetics**: Mechanism of action at the molecular level, absorption, distribution, metabolism, and excretion (ADME) where relevant.
+  - **Applications**: Research uses or clinical indications.
+
+- **Format Preferences**:
+  - Prefer simple, professional, scientific markdown headings (less enumerated)
+  - Enumerated headings only if it makes sense (chronological, scale, etc.)
+  - Caution when using backslash in entity note title names, as they may clash with markdown table formats.
+
 ### Linking Summary:
 
 - New links added: [[Entity1]], [[Entity2]], ...
