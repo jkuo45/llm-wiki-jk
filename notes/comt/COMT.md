@@ -81,7 +81,7 @@ COMT genotype influences response to numerous substances:
 - [[Modafinil]] efficacy is markedly better in Val/Val individuals
 - [[Aspirin]] cardiovascular protection is effective in slow COMT (A/A) but may increase risk in fast COMT (G/G)
 - [[notes/_link/Vitamin E]] ([[Alpha-tocopherol]]) cancer prevention varies by COMT genotype
-- [[Methyl Donor]] supplements ([[methylfolate]], [[MethylB12]], [[notes/_link/SAMe]], [[TMG]]) can cause mood side effects in slow COMT individuals due to rapid neurotransmitter cycling
+- [[Methyl Donor]] supplements ([[methylfolate]], [[MethylB12]], [[notes/_link/SAMe]], [[Betaine]]) can cause mood side effects in slow COMT individuals due to rapid neurotransmitter cycling
 
 ## Connections
 

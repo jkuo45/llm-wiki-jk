@@ -27,7 +27,7 @@ This directory contains notes and research regarding [[COMT]] (Catechol-O-methyl
 | [[notes/_link/EGCG]] | 04_July_2026 12:00 PM  |
 | [[notes/_link/Epinephrine]] | 04_July_2026 12:00 PM  |
 | [[notes/_link/Estrogen]] | 04_July_2026 12:00 PM  |
-| [[Fisetin]] | 04_July_2026 12:00 PM  |
+| [[notes/_link/Fisetin]] | 04_July_2026 12:00 PM  |
 | [[Folinic acid]] | 04_July_2026 12:00 PM  |
 | [[Green tea]] | 04_July_2026 12:00 PM  |
 | [[Hesperidin]] | 04_July_2026 12:00 PM  |
