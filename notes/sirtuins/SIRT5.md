@@ -63,7 +63,7 @@ Limited functional information was available at the time of Michan & Sinclair (2
 
 - New links added: [[SIRT3]], [[SIRT4]], [[SIRT6]], [[NAD+]], [[OAADPr]], [[Sir2 (yeast)]]
 - Suggested new entity notes to create: [[Desuccinylase Activity]], [[Mitochondrial Matrix]]
-- Strong connect[[SIRT5]]trengthen: [[SIRT5]] ↔ [[note[[SIRT5]]s/SIRT3]], [[SIRT5]] ↔ [[SIRT4]]
+- Strong connections to strengthen: [[SIRT5]] ↔ [[notes/sirtuins/SIRT3]], [[SIRT5]] ↔ [[SIRT4]]
 
 # SIRT5
 

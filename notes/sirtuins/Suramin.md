@@ -62,12 +62,12 @@ Suramin features multiple highly charged sulfonic acid groups that enable it to 
 
 - **[[SIRT1]]**, **[[SIRT2]]**, & **[[SIRT5]]** — direct molecular sirtuin targets.
 - **[[notes/_link/NFKB|NF-κB]]** — pathway inhibited by suramin to alleviate spinal disc degeneration.
-- **[[notes/_link/Cancer]]** — disease context where suramin's anti-sirtuin and mitochondrial effects are exploited.
+- **[[Cancer]]** — disease context where suramin's anti-sirtuin and mitochondrial effects are exploited.
 
 ---
 
 ## Linking Summary
 
-- **New Links Added**: [[SIRT1]], [[SIRT2]], [[SIRT5]], [[notes/_link/NFKB]], [[notes/_link/Cancer]]
+- **New Links Added**: [[SIRT1]], [[SIRT2]], [[SIRT5]], [[notes/_link/NFKB]], [[Cancer]]
 - **Suggested New Notes to Create**: [[Trypanosomiasis]], [[Intervertebral Disc Degeneration]]
 - **Strong Connections to Strengthen**: [[Suramin]] ↔ [[SIRT1]], [[Suramin]] ↔ [[SIRT5]]

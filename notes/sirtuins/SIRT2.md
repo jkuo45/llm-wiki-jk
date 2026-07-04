@@ -91,7 +91,8 @@ Through the generation of [[OAADPr]], SIRT2 (along with [[SIRT3]]) may regulate 
 ## Linking Summary
 
 - New links added: [[NAD+]], [[OAADPr]], [[Glioma]], [[HOXA10]], [[SIRT1]], [[SIRT3]], [[TRPM2]]
-- Suggested new entity notes to create: [[TRPM2]], [[CDC14B]], [[Neurofascin][[SIRT2]]g connections t[[SIRT2]]hen: [[SIRT2]] ↔ [[Glioma]], [[SIRT2]] ↔ [[OAADPr]]
+- Suggested new entity notes to create: [[TRPM2]], [[CDC14B]], [[Neurofascin]]
+- Strong connections to strengthen: [[SIRT2]] ↔ [[Glioma]], [[SIRT2]] ↔ [[OAADPr]]
 
 # SIRT2
 

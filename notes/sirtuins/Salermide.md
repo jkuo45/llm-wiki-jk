@@ -56,12 +56,12 @@ Salermide blocks the NAD⁺-dependent deacetylation of sirtuin targets. A key me
 
 - **[[SIRT1]]** & **[[SIRT2]]** — direct molecular targets.
 - **[[Sirtinol]]** — parent compound from which salermide was derived via structural optimization.
-- **[[notes/_link/Cancer]]** — primary therapeutic target disease state.
+- **[[Cancer]]** — primary therapeutic target disease state.
 
 ---
 
 ## Linking Summary
 
-- **New Links Added**: [[SIRT1]], [[SIRT2]], [[Sirtinol]], [[notes/_link/Cancer]]
+- **New Links Added**: [[SIRT1]], [[SIRT2]], [[Sirtinol]], [[Cancer]]
 - **Suggested New Notes to Create**: [[Colorectal Cancer Stem Cells]], [[H4K16 Deacetylation]]
 - **Strong Connections to Strengthen**: [[Salermide]] ↔ [[Sirtinol]], [[Salermide]] ↔ [[SIRT1]]

@@ -118,14 +118,14 @@ Resveratrol is widely considered a **CR mimetic** — it recapitulates many of t
 ## Linking Summary
 
 - New links added: [[SIRT1]], [[Sir2 (yeast)]], [[notes/_link/Caloric Restriction]], [[PGC-1α]], [[NAD+]], [[SIRT3]]
-- Suggested new entity notes to create: [[STACs (Sirtuin Activating Compounds)]], [[AMPK]], [[Polyphenol]]
+- Suggested new entity notes to create: [[STACs]], [[AMPK]], [[Polyphenol]]
 - Strong connections to strengthen: [[Resveratrol]] ↔ [[SIRT1]], [[Resveratrol]] ↔ [[notes/_link/Caloric Restriction]]
 
 # Resveratrol
 
-**[[Resveratrol 1]]** is a natural polyphenol compound found in the skin of grapes, blueberries, raspberries, and mulberries. It is perhaps the most famous "anti-aging" molecule in popular culture due to its presence in red wine and its purported ability to extend lifespan.
+**[[Resveratrol]]** is a natural polyphenol compound found in the skin of grapes, blueberries, raspberries, and mulberries. It is perhaps the most famous "anti-aging" molecule in popular culture due to its presence in red wine and its purported ability to extend lifespan.
 
-**[[Resveratrol 1]]** is a plant compound that acts like an antioxidant. The top food sources include red wine, grapes, and some berries.
+**[[Resveratrol]]** is a plant compound that acts like an antioxidant. The top food sources include red wine, grapes, and some berries.
 
 ## 1. Activation of [[notes/sirtuins/SIRT1]]
 
@@ -145,15 +145,15 @@ While resveratrol has shown dramatic results in extending the lifespan of yeast,
 
 ## Linking Summary:
 
-- New links added: [[Resveratrol 1]], [[notes/sirtuins/SIRT1]], [[notes/_link/Aging]], [[notes/_link/Caloric Restriction]], [[notes/_link/Diabetes Mellitus]], [[Metabolic Syndromes]], [[Geroscience]]
+- New links added: [[Resveratrol]], [[notes/sirtuins/SIRT1]], [[notes/_link/Aging]], [[notes/_link/Caloric Restriction]], [[notes/_link/Diabetes Mellitus]], [[Metabolic Syndromes]], [[Geroscience]]
 - Suggested new entity notes to create: [[Polyphenols]], [[CR Mimetics]], [[David Sinclair]]
-- Strong connections to strengthen: [[Resveratrol 1]] ↔ [[notes/sirtuins/SIRT1]], [[Resveratrol 1]] ↔ [[notes/_link/Caloric Restriction]]
+- Strong connections to strengthen: [[Resveratrol]] ↔ [[notes/sirtuins/SIRT1]], [[Resveratrol]] ↔ [[notes/_link/Caloric Restriction]]
 
 - New links added: [[Anti-inflammatory]], [[COMT]].
 
 ## Alternative for Slow COMT
 
-[[Resveratrol 1]] is considered a safe [[Anti-inflammatory]] and antioxidant option for people with slow [[COMT]] variants. Since it lacks a catechol structure, it does not compete for the [[COMT]] enzyme or cause its inhibition.
+[[Resveratrol]] is considered a safe [[Anti-inflammatory]] and antioxidant option for people with slow [[COMT]] variants. Since it lacks a catechol structure, it does not compete for the [[COMT]] enzyme or cause its inhibition.
 
 ## Connections
 
@@ -170,6 +170,6 @@ While resveratrol has shown dramatic results in extending the lifespan of yeast,
 
 ### Linking Summary:
 
-- New links added: [[notes/_link/Aging]], [[Anti-inflammatory]], [[COMT]], [[notes/_link/Caloric Restriction]], [[notes/_link/Diabetes Mellitus]], [[Geroscience]], [[Metabolic Syndromes]], [[Resveratrol 1]], [[notes/sirtuins/SIRT1]]
+- New links added: [[notes/_link/Aging]], [[Anti-inflammatory]], [[COMT]], [[notes/_link/Caloric Restriction]], [[notes/_link/Diabetes Mellitus]], [[Geroscience]], [[Metabolic Syndromes]], [[Resveratrol]], [[notes/sirtuins/SIRT1]]
 - Suggested new entity notes to create: [[CR Mimetics]], [[David Sinclair]], [[Polyphenols]]
-- Strong connections to strengthen: [[Resveratrol 1]] ↔ [[notes/_link/Caloric Restriction]], [[Resveratrol 1]] ↔ [[notes/sirtuins/SIRT1]]
+- Strong connections to strengthen: [[Resveratrol]] ↔ [[notes/_link/Caloric Restriction]], [[Resveratrol]] ↔ [[notes/sirtuins/SIRT1]]

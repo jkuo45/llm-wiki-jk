@@ -144,7 +144,7 @@ The specific deacylase activities listed are subtypes based on the exact acyl gr
 
 | Activity                    | Group Removed   | Typical Chain/Structure     | Main Biological Context         |
 | --------------------------- | --------------- | --------------------------- | ------------------------------- |
-| Mono-[[ADP-ribosylation\|ADP-ribosyltransferase]] | ADP-ribose      | Large nucleotide derivative | Signaling, [[notes/_link/DNA Repair|DNA repair]]           |
+| Mono-[[ADP-ribosylation|ADP-ribosyltransferase]] | ADP-ribose      | Large nucleotide derivative | Signaling, [[notes/_link/DNA Repair|DNA repair]]           |
 | Deacetylase                 | Acetyl (C2)     | –COCH₃                      | Gene expression, [[notes/_link/Metabolism|metabolism]]     |
 | Demalonylase                | Malonyl         | –COCH₂COO⁻                  | Lipid [[notes/_link/Metabolism|metabolism]]                |
 | Desuccinylase               | Succinyl        | –COCH₂CH₂COO⁻               | [[notes/_link/Mitochondria|Mitochondrial metabolism]]        |
