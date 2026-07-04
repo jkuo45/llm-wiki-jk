@@ -1,6 +1,7 @@
 import argparse
 import glob
 import os
+import re
 import urllib.parse
 from datetime import datetime
 
@@ -32,6 +33,31 @@ def count_words(filepath):
             return len(content.split())
     except Exception:
         return 0
+
+
+MARKER_RE = re.compile(
+    r'<!--\s*GENERATED:\s*(\w+)\s*-->\n.*?\n<!--\s*END\s+GENERATED:\s*\1\s*-->',
+    re.DOTALL,
+)
+
+
+def make_marker_block(name, content):
+    return f"<!-- GENERATED: {name} -->\n{content}\n<!-- END GENERATED: {name} -->"
+
+
+def update_section(existing, name, content):
+    block = make_marker_block(name, content)
+    pattern = re.compile(
+        rf'<!--\s*GENERATED:\s*{re.escape(name)}\s*-->\n.*?\n<!--\s*END\s+GENERATED:\s*{re.escape(name)}\s*-->',
+        re.DOTALL,
+    )
+    if pattern.search(existing):
+        return pattern.sub(block, existing, count=1)
+    return existing.rstrip() + "\n\n" + block + "\n"
+
+
+def has_markers(content):
+    return bool(MARKER_RE.search(content))
 
 
 def get_dir_size_and_count(directory):
@@ -161,28 +187,44 @@ def main():
             f"| {d['topic']} | {d['date']} | {doc_link} | {format_number(d['words'])} |"
         )
 
-    # Construct full README content
-    readme_content = [
-        "# llm-wiki-jk",
-        "## Summary Table (notes directory)",
-        "\n".join(topics_table),
-        "\n",
-        "---",
-        "## Summary Counts (notes directory)",
-        f"- **last updated:** {new_timestamp}",
-        f"- **file count:** {format_number(total_files)}",
-        f"- **word count:** {format_number(total_words)}",
-        f"- **documents:** {format_number(len(document_data))}",
-        f"- **disk size:** {format_size(total_size)}",
-        "\n---",
-        "## Document List\n",
-        "\n".join(docs_table),
-        "\n",
-        "---",
-    ]
+    # Build marker-delimited sections
+    summary_table_content = "## Summary Table (notes directory)\n" + "\n".join(topics_table)
+    summary_counts_content = (
+        "## Summary Counts (notes directory)\n"
+        f"- **last updated:** {new_timestamp}\n"
+        f"- **file count:** {format_number(total_files)}\n"
+        f"- **word count:** {format_number(total_words)}\n"
+        f"- **documents:** {format_number(len(document_data))}\n"
+        f"- **disk size:** {format_size(total_size)}"
+    )
+    doc_list_content = "## Document List\n\n" + "\n".join(docs_table)
+
+    sections = {
+        "summary_table": summary_table_content,
+        "summary_counts": summary_counts_content,
+        "document_list": doc_list_content,
+    }
+
+    # Read existing README if present
+    if os.path.exists(args.output):
+        with open(args.output, "r", encoding="utf-8") as f:
+            existing = f.read()
+    else:
+        existing = ""
+
+    if not existing or not has_markers(existing):
+        # Fresh build (first run or pre-marker README)
+        final = "# llm-wiki-jk\n\n"
+        for name, content in sections.items():
+            final += make_marker_block(name, content) + "\n\n"
+    else:
+        # Update markers in-place, preserving everything else
+        final = existing
+        for name, content in sections.items():
+            final = update_section(final, name, content)
 
     with open(args.output, "w", encoding="utf-8") as f:
-        f.write("\n".join(readme_content) + "\n")
+        f.write(final.rstrip() + "\n")
 
     print(f"Successfully updated {args.output} at {new_timestamp}")
 
