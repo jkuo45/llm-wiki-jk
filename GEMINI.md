@@ -96,14 +96,13 @@ mesh: # Medical Subject Headings ID if available (e.g., D008164)
 uniprot: # UniProt ID for proteins (e.g., P04637)
 hgnc: # HGNC ID for genes (e.g., HGNC:11998)
 chebi: # ChEBI ID for chemicals/compounds
+created: YYYY-MM-DD
+updated: YYYY-MM-DD
 relations: # If applicable
 
 - predicate: # [associated_with | inhibits | activates | regulates | treats | causes]
   target: "[[Target Entity]]"
   sources: [] # DOIs, PMIDs, or reference document names
-
-created: YYYY-MM-DD
-updated: YYYY-MM-DD
 
 ---
 
