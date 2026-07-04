@@ -3,6 +3,7 @@
 ## Project Maintenance:
 
 - Project timestamp format %d\_%B\_%Y %I:%M %p %Z (uppercase)
+  - Note: frontmatter dates use YYYY-MM-DD format; the timestamp format above is for README display, task outputs, and file naming only
 - Documents start with '[document]' or '\_document\_' in the file name.
   - Depending on task, they may or may not be included in context, counts.
 - 'notes' directory:
@@ -85,6 +86,12 @@
 ### Semantic Metadata & Properties (Open Knowledge Format, OKF)
 
 When creating or updating a note, include the following frontmatter block. Refer to entity type 1 schema for categories.
+
+Frontmatter:
+
+- **Date format**: frontmatter `created:` / `updated:` must use `YYYY-MM-DD`, _not_ the project display format (`DD_MMMM_YYYY`).
+- **Quoting**: Prefer unquoted scalar values (`category: enzyme`, not `category: "enzyme"`). Use quotes only when required (e.g., values containing colons or special characters).
+- **Duplicate YAML keys**: No key should appear twice at the same indentation level.
 
 ---
 
