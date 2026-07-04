@@ -1,0 +1,1402 @@
+[
+  {
+    "subject": "Adenosylcobalamin",
+    "predicate": "is",
+    "object": "active coenzyme form of B12",
+    "context": "Adenosylcobalamin is one of the two active coenzyme forms of vitamin B12",
+    "confidence": "high"
+  },
+  {
+    "subject": "Adenosylcobalamin",
+    "predicate": "is",
+    "object": "non-methylated B12 alternative",
+    "context": "Adenosylcobalamin is recommended for slow COMT sensitive to MethylB12",
+    "confidence": "high"
+  },
+  {
+    "subject": "Adenosylcobalamin",
+    "predicate": "is_alternative_for",
+    "object": "MethylB12 sensitivity",
+    "context": "Non-methylated B12 forms are alternatives for sensitive individuals",
+    "confidence": "high"
+  },
+  {
+    "subject": "Adenosylcobalamin",
+    "predicate": "supports",
+    "object": "mitochondrial health",
+    "context": "Adenosylcobalamin supports mitochondrial health and energy production",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Alpha-tocopherol",
+    "predicate": "is",
+    "object": "primary form of vitamin E",
+    "context": "Alpha-tocopherol is the primary form of vitamin E used by the body",
+    "confidence": "high"
+  },
+  {
+    "subject": "Aspirin",
+    "predicate": "increases_risk_of",
+    "object": "CVD in fast COMT",
+    "context": "Aspirin may increase cardiovascular risk in fast COMT (G/G)",
+    "confidence": "high"
+  },
+  {
+    "subject": "Aspirin",
+    "predicate": "may_increase_risk_in",
+    "object": "fast COMT genotype",
+    "context": "Aspirin may increase CVD risk in fast COMT (G/G)",
+    "confidence": "high"
+  },
+  {
+    "subject": "Aspirin",
+    "predicate": "prevents",
+    "object": "cardiovascular disease in slow COMT",
+    "context": "Aspirin is effective in preventing heart disease in slow COMT",
+    "confidence": "high"
+  },
+  {
+    "subject": "Aspirin",
+    "predicate": "prevents_cardiovascular_disease_in",
+    "object": "slow COMT genotype",
+    "context": "Aspirin CVD protection effective in slow COMT (A/A)",
+    "confidence": "high"
+  },
+  {
+    "subject": "Berberine",
+    "predicate": "does_not_inhibit",
+    "object": "COMT",
+    "context": "Berberine lacks a catechol structure and does not inhibit COMT",
+    "confidence": "high"
+  },
+  {
+    "subject": "Berberine",
+    "predicate": "has",
+    "object": "anti-inflammatory effects",
+    "context": "Berberine has potent anti-inflammatory effects",
+    "confidence": "high"
+  },
+  {
+    "subject": "Berberine",
+    "predicate": "is",
+    "object": "safe anti-inflammatory for slow COMT",
+    "context": "Berberine is recommended as an alternative anti-inflammatory for slow COMT",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Berberine",
+    "predicate": "is",
+    "object": "alternative anti-inflammatory for slow COMT",
+    "context": "Berberine does not interact with COMT",
+    "confidence": "high"
+  },
+  {
+    "subject": "Betaine",
+    "predicate": "converts",
+    "object": "homocysteine to methionine",
+    "context": "Betaine converts homocysteine to methionine",
+    "confidence": "high"
+  },
+  {
+    "subject": "Betaine",
+    "predicate": "is",
+    "object": "methyl donor",
+    "context": "Betaine acts as a methyl donor in the methylation cycle",
+    "confidence": "high"
+  },
+  {
+    "subject": "Betaine",
+    "predicate": "supports",
+    "object": "SAMe production",
+    "context": "Betaine supports SAMe synthesis",
+    "confidence": "high"
+  },
+  {
+    "subject": "Betaine supplementation",
+    "predicate": "can_cause",
+    "object": "mood sensitivity in slow COMT",
+    "context": "Slow COMT individuals may experience mood side effects from TMG",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Bipolar II Disorder",
+    "predicate": "is_characterized_by",
+    "object": "hypomania and depression",
+    "context": "Bipolar II has at least one hypomanic and one major depressive episode",
+    "confidence": "high"
+  },
+  {
+    "subject": "COMT",
+    "predicate": "dominates_dopamine_clearance_in",
+    "object": "PFC",
+    "context": "Dopamine clearance in PFC depends heavily on COMT",
+    "confidence": "high"
+  },
+  {
+    "subject": "COMT",
+    "predicate": "exists_in",
+    "object": "two forms",
+    "context": "COMT has soluble (S-COMT) and membrane-bound (MB-COMT) forms",
+    "confidence": "high"
+  },
+  {
+    "subject": "COMT",
+    "predicate": "is_expressed_in",
+    "object": "Hippocampus",
+    "context": "COMT protein and enzyme activity are present in the hippocampus",
+    "confidence": "high"
+  },
+  {
+    "subject": "COMT",
+    "predicate": "is_expressed_in",
+    "object": "MSNs",
+    "context": "COMT immunoreactivity detected in MSN cell bodies and spines",
+    "confidence": "high"
+  },
+  {
+    "subject": "COMT",
+    "predicate": "is_located_on",
+    "object": "chromosome 22q11.21",
+    "context": "COMT gene is located on chromosome 22q11.21",
+    "confidence": "high"
+  },
+  {
+    "subject": "COMT",
+    "predicate": "metabolizes",
+    "object": "Dopamine",
+    "context": "COMT degrades catecholamines including dopamine",
+    "confidence": "high"
+  },
+  {
+    "subject": "COMT",
+    "predicate": "metabolizes",
+    "object": "Norepinephrine",
+    "context": "COMT degrades catecholamines including norepinephrine",
+    "confidence": "high"
+  },
+  {
+    "subject": "COMT",
+    "predicate": "metabolizes",
+    "object": "Epinephrine",
+    "context": "COMT degrades catecholamines including epinephrine",
+    "confidence": "high"
+  },
+  {
+    "subject": "COMT",
+    "predicate": "methylates",
+    "object": "catechols",
+    "context": "COMT transfers a methyl group to catechol structures",
+    "confidence": "high"
+  },
+  {
+    "subject": "COMT",
+    "predicate": "modulates",
+    "object": "cognitive performance",
+    "context": "COMT genetic variation affects cognitive function via inverted-U relationship",
+    "confidence": "high"
+  },
+  {
+    "subject": "COMT",
+    "predicate": "predominates_in",
+    "object": "PFC dopamine clearance",
+    "context": "COMT and NET predominate in PFC dopamine clearance",
+    "confidence": "high"
+  },
+  {
+    "subject": "COMT",
+    "predicate": "regulates_dopamine_availability_for",
+    "object": "D2 receptor",
+    "context": "COMT activity impacts dopamine available for D2 stimulation",
+    "confidence": "high"
+  },
+  {
+    "subject": "COMT",
+    "predicate": "requires",
+    "object": "SAMe",
+    "context": "COMT requires SAMe as methyl donor",
+    "confidence": "high"
+  },
+  {
+    "subject": "COMT",
+    "predicate": "requires",
+    "object": "Magnesium",
+    "context": "COMT requires magnesium as cofactor",
+    "confidence": "high"
+  },
+  {
+    "subject": "COMT",
+    "predicate": "requires",
+    "object": "methyl groups from SAMe",
+    "context": "COMT requires SAMe as a source of methyl groups",
+    "confidence": "high"
+  },
+  {
+    "subject": "COMT Met/Met",
+    "predicate": "is_associated_with",
+    "object": "better working memory performance",
+    "context": "Slow COMT associated with better performance on complex working memory tasks",
+    "confidence": "medium"
+  },
+  {
+    "subject": "COMT Val allele",
+    "predicate": "is_associated_with",
+    "object": "schizophrenia risk",
+    "context": "Val allele linked to increased schizophrenia risk in some populations",
+    "confidence": "medium"
+  },
+  {
+    "subject": "COMT Val/Val",
+    "predicate": "is_associated_with",
+    "object": "poorer working memory under stress",
+    "context": "Fast COMT associated with poorer working memory especially under stress",
+    "confidence": "medium"
+  },
+  {
+    "subject": "COMT Val158 allele",
+    "predicate": "impacts",
+    "object": "stimulus-response learning",
+    "context": "Val158 allele affects S-R learning and working memory",
+    "confidence": "high"
+  },
+  {
+    "subject": "COMT Val158 allele",
+    "predicate": "impacts",
+    "object": "working memory",
+    "context": "Val158 allele affects S-R learning and working memory",
+    "confidence": "high"
+  },
+  {
+    "subject": "COMT Val158 allele",
+    "predicate": "increases",
+    "object": "schizophrenia risk",
+    "context": "Val158 allele linked with increased risk for schizophrenia",
+    "confidence": "medium"
+  },
+  {
+    "subject": "COMT Val158 allele",
+    "predicate": "is_associated_with",
+    "object": "poorer cognitive performance",
+    "context": "Val158 allele associates with poorer cognitive performance",
+    "confidence": "high"
+  },
+  {
+    "subject": "COMT Val158Met",
+    "predicate": "is",
+    "object": "functional SNP",
+    "context": "Val158Met impacts dopamine degradation",
+    "confidence": "high"
+  },
+  {
+    "subject": "COMT Val158Met",
+    "predicate": "modulates",
+    "object": "vitamin E cancer prevention",
+    "context": "Response to alpha-tocopherol is influenced by COMT Val158Met",
+    "confidence": "high"
+  },
+  {
+    "subject": "COMT genotype",
+    "predicate": "determines",
+    "object": "aspirin cardiovascular response",
+    "context": "The COMT variant determines the cardiovascular response to aspirin",
+    "confidence": "high"
+  },
+  {
+    "subject": "COMT inhibition",
+    "predicate": "increases",
+    "object": "Epinephrine levels",
+    "context": "COMT inhibition can cause epinephrine levels to rise",
+    "confidence": "high"
+  },
+  {
+    "subject": "COMT inhibition",
+    "predicate": "promotes",
+    "object": "Adrenochrome pathway",
+    "context": "When COMT is blocked, adrenaline may shift to adrenochrome pathway",
+    "confidence": "medium"
+  },
+  {
+    "subject": "COMT overexpression",
+    "predicate": "impairs",
+    "object": "stimulus-response learning",
+    "context": "Increased COMT activity leads to slower acquisition of S-R tasks",
+    "confidence": "high"
+  },
+  {
+    "subject": "COMT overexpression",
+    "predicate": "increases",
+    "object": "striatal dopamine release",
+    "context": "COMT-OE mice show increased dopamine release capacity in striatum",
+    "confidence": "high"
+  },
+  {
+    "subject": "COMT overexpression",
+    "predicate": "increases",
+    "object": "impulsivity",
+    "context": "COMT-OE mice show increased impulsivity",
+    "confidence": "medium"
+  },
+  {
+    "subject": "COMT variants",
+    "predicate": "may_influence",
+    "object": "bipolar II susceptibility",
+    "context": "COMT and MTHFR genetic variants may influence bipolar disorder",
+    "confidence": "medium"
+  },
+  {
+    "subject": "COMT-OE mice",
+    "predicate": "display",
+    "object": "increased striatal dopamine release",
+    "context": "COMT-OE mice show increased dopamine release capacity in striatum",
+    "confidence": "high"
+  },
+  {
+    "subject": "COMT-OE mice",
+    "predicate": "show",
+    "object": "specific cognitive deficits",
+    "context": "COMT-OE mice exhibit deficits in stimulus-response learning and working memory",
+    "confidence": "high"
+  },
+  {
+    "subject": "COMT-OE mice",
+    "predicate": "show",
+    "object": "increased impulsive behavior",
+    "context": "COMT-OE mice make more premature responses",
+    "confidence": "high"
+  },
+  {
+    "subject": "COMT-OE mice",
+    "predicate": "show",
+    "object": "increased compulsive behavior",
+    "context": "COMT-OE mice make more perseverative responses",
+    "confidence": "high"
+  },
+  {
+    "subject": "CamKIIα",
+    "predicate": "is",
+    "object": "calcium/calmodulin-dependent protein kinase",
+    "context": "CamKIIα is a protein kinase essential for synaptic plasticity",
+    "confidence": "high"
+  },
+  {
+    "subject": "CamKIIα",
+    "predicate": "is_essential_for",
+    "object": "synaptic plasticity",
+    "context": "CamKIIα is essential for synaptic plasticity and memory formation",
+    "confidence": "high"
+  },
+  {
+    "subject": "CamKIIα",
+    "predicate": "is_essential_for",
+    "object": "memory formation",
+    "context": "CamKIIα is essential for synaptic plasticity and memory formation",
+    "confidence": "high"
+  },
+  {
+    "subject": "CamKIIα",
+    "predicate": "is_inactive_in",
+    "object": "Cerebellum",
+    "context": "CamKIIα promoters are not typically active in the cerebellum",
+    "confidence": "high"
+  },
+  {
+    "subject": "CamKIIα promoter",
+    "predicate": "is_used_in",
+    "object": "COMT-OE mouse models",
+    "context": "The CamKIIα promoter drives transgene expression in forebrain neurons",
+    "confidence": "high"
+  },
+  {
+    "subject": "Catecholamines",
+    "predicate": "are",
+    "object": "catechols",
+    "context": "Dopamine, epinephrine, norepinephrine are catechols",
+    "confidence": "high"
+  },
+  {
+    "subject": "Catechols",
+    "predicate": "contain",
+    "object": "benzene ring with two hydroxyl groups",
+    "context": "Catechols have a benzene ring with adjacent hydroxyl groups",
+    "confidence": "high"
+  },
+  {
+    "subject": "Cerebellum",
+    "predicate": "controls",
+    "object": "motor coordination",
+    "context": "Cerebellum is involved in motor control, coordination, and precision",
+    "confidence": "high"
+  },
+  {
+    "subject": "Cerebellum",
+    "predicate": "serves_as",
+    "object": "negative control in COMT-OE studies",
+    "context": "Cerebellum remains unaffected in COMT-OE mice",
+    "confidence": "high"
+  },
+  {
+    "subject": "Creatine",
+    "predicate": "supports",
+    "object": "COMT function",
+    "context": "Supplementing creatine frees up methyl groups for COMT",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Creatine",
+    "predicate": "supports",
+    "object": "MTHFR function",
+    "context": "Supplementing creatine benefits slow MTHFR variants",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Creatine synthesis",
+    "predicate": "consumes",
+    "object": "40% of methyl groups",
+    "context": "Creatine synthesis consumes approximately 40% of the body's methyl groups",
+    "confidence": "high"
+  },
+  {
+    "subject": "D2 receptor",
+    "predicate": "is",
+    "object": "inhibitory dopamine receptor",
+    "context": "D2 receptor is primarily inhibitory in the CNS",
+    "confidence": "high"
+  },
+  {
+    "subject": "D2 receptor",
+    "predicate": "is_highly_expressed_in",
+    "object": "Striatum",
+    "context": "Striatum has high D2 receptor density",
+    "confidence": "high"
+  },
+  {
+    "subject": "D2 receptor",
+    "predicate": "is_targeted_by",
+    "object": "antipsychotic medications",
+    "context": "D2 receptor is a major target for antipsychotics",
+    "confidence": "high"
+  },
+  {
+    "subject": "D2 receptor",
+    "predicate": "modulates",
+    "object": "reward",
+    "context": "D2 receptor modulates reward, movement, and working memory",
+    "confidence": "high"
+  },
+  {
+    "subject": "D2 receptor",
+    "predicate": "modulates",
+    "object": "movement",
+    "context": "D2 receptor modulates movement",
+    "confidence": "high"
+  },
+  {
+    "subject": "D2 receptor",
+    "predicate": "modulates",
+    "object": "working memory",
+    "context": "D2 receptor modulates working memory",
+    "confidence": "high"
+  },
+  {
+    "subject": "DAT",
+    "predicate": "is_highly_abundant_in",
+    "object": "Striatum",
+    "context": "DAT is the primary dopamine clearance mechanism in striatum",
+    "confidence": "high"
+  },
+  {
+    "subject": "DAT",
+    "predicate": "is_highly_abundant_in",
+    "object": "striatum",
+    "context": "DAT is highly abundant in the striatum",
+    "confidence": "high"
+  },
+  {
+    "subject": "DAT",
+    "predicate": "is_sparse_in",
+    "object": "Prefrontal Cortex",
+    "context": "DAT is much less abundant in PFC",
+    "confidence": "high"
+  },
+  {
+    "subject": "DAT",
+    "predicate": "is_sparse_in",
+    "object": "PFC",
+    "context": "Dopamine transporters are less abundant in PFC",
+    "confidence": "high"
+  },
+  {
+    "subject": "Dietary green tea",
+    "predicate": "does_not_significantly_inhibit",
+    "object": "COMT in humans",
+    "context": "Human studies show normal dietary levels do not impair COMT activity",
+    "confidence": "high"
+  },
+  {
+    "subject": "Dopamine Transporter",
+    "predicate": "is_primary_clearance_in",
+    "object": "Striatum",
+    "context": "DAT is the primary mechanism for terminating dopamine in striatum",
+    "confidence": "high"
+  },
+  {
+    "subject": "EGCG",
+    "predicate": "is_metabolized_by",
+    "object": "COMT",
+    "context": "EGCG is metabolized by the COMT enzyme",
+    "confidence": "high"
+  },
+  {
+    "subject": "EGCG supplementation",
+    "predicate": "does_not_impair",
+    "object": "COMT activity in humans",
+    "context": "750mg of EGCG did not impair COMT activity in human study",
+    "confidence": "high"
+  },
+  {
+    "subject": "Entacapone",
+    "predicate": "inhibits",
+    "object": "COMT",
+    "context": "Entacapone is a COMT inhibitor used in Parkinson's disease",
+    "confidence": "high"
+  },
+  {
+    "subject": "Estrogen metabolites",
+    "predicate": "are",
+    "object": "catechols",
+    "context": "Estrogen metabolites are examples of catechols",
+    "confidence": "high"
+  },
+  {
+    "subject": "Fisetin",
+    "predicate": "is_a",
+    "object": "catechol flavonoid",
+    "context": "Fisetin is a dietary catechol",
+    "confidence": "high"
+  },
+  {
+    "subject": "Flavonoids",
+    "predicate": "inhibit",
+    "object": "COMT at high doses",
+    "context": "Flavonoids with catechol structure can inhibit COMT at high doses",
+    "confidence": "high"
+  },
+  {
+    "subject": "Folinic acid",
+    "predicate": "bypasses",
+    "object": "MTHFR",
+    "context": "Folinic acid does not require MTHFR for its initial conversion",
+    "confidence": "high"
+  },
+  {
+    "subject": "Folinic acid",
+    "predicate": "is",
+    "object": "alternative to methylfolate",
+    "context": "Folinic acid is a safer alternative for slow COMT individuals",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Green tea",
+    "predicate": "contains",
+    "object": "EGCG",
+    "context": "Green tea is rich in polyphenols, particularly EGCG",
+    "confidence": "high"
+  },
+  {
+    "subject": "Hesperidin",
+    "predicate": "does_not_inhibit",
+    "object": "COMT",
+    "context": "Hesperidin lacks a catechol structure and does not interact with COMT",
+    "confidence": "high"
+  },
+  {
+    "subject": "Hesperidin",
+    "predicate": "is",
+    "object": "flavanone",
+    "context": "Hesperidin is classified as a flavanone",
+    "confidence": "high"
+  },
+  {
+    "subject": "Hesperidin",
+    "predicate": "is",
+    "object": "safe anti-inflammatory for slow COMT",
+    "context": "Hesperidin is safe for slow COMT individuals",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Hippocampus",
+    "predicate": "is_involved_in",
+    "object": "memory consolidation",
+    "context": "Hippocampus plays important roles in memory consolidation",
+    "confidence": "high"
+  },
+  {
+    "subject": "Hippocampus",
+    "predicate": "is_involved_in",
+    "object": "spatial navigation",
+    "context": "Hippocampus plays important roles in spatial navigation",
+    "confidence": "high"
+  },
+  {
+    "subject": "Hydroxocobalamin",
+    "predicate": "avoids",
+    "object": "methyl trap",
+    "context": "Hydroxocobalamin avoids sudden mood swings associated with MethylB12",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Hydroxocobalamin",
+    "predicate": "is",
+    "object": "precursor to active B12 forms",
+    "context": "Hydroxocobalamin is a precursor to the two active coenzyme forms of B12",
+    "confidence": "high"
+  },
+  {
+    "subject": "Hydroxocobalamin",
+    "predicate": "is",
+    "object": "non-methylated B12 form for slow COMT",
+    "context": "Hydroxocobalamin is recommended for slow COMT individuals",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Hydroxocobalamin",
+    "predicate": "is_alternative_for",
+    "object": "MethylB12 sensitivity",
+    "context": "Non-methylated B12 forms are alternatives for sensitive individuals",
+    "confidence": "high"
+  },
+  {
+    "subject": "Luteolin",
+    "predicate": "can_inhibit",
+    "object": "COMT at high doses",
+    "context": "Luteolin can inhibit COMT activity when taken in supplemental doses",
+    "confidence": "high"
+  },
+  {
+    "subject": "Luteolin",
+    "predicate": "has",
+    "object": "anti-inflammatory properties",
+    "context": "Luteolin has anti-inflammatory and neuroprotective properties",
+    "confidence": "high"
+  },
+  {
+    "subject": "Luteolin",
+    "predicate": "has",
+    "object": "neuroprotective properties",
+    "context": "Luteolin has anti-inflammatory and neuroprotective properties",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Luteolin",
+    "predicate": "is_a",
+    "object": "catechol flavonoid",
+    "context": "Luteolin is a dietary catechol",
+    "confidence": "high"
+  },
+  {
+    "subject": "Luteolin",
+    "predicate": "is_metabolized_by",
+    "object": "COMT",
+    "context": "Luteolin contains a catechol structure and is metabolized by COMT",
+    "confidence": "high"
+  },
+  {
+    "subject": "MB-COMT",
+    "predicate": "has_higher_affinity_for",
+    "object": "catecholamines",
+    "context": "MB-COMT has higher affinity than S-COMT",
+    "confidence": "high"
+  },
+  {
+    "subject": "MB-COMT",
+    "predicate": "predominates_in",
+    "object": "brain",
+    "context": "MB-COMT is the predominant form in the brain",
+    "confidence": "high"
+  },
+  {
+    "subject": "MTHFD1",
+    "predicate": "is_part_of",
+    "object": "methylation cycle",
+    "context": "MTHFD1 contributes to production of folate derivatives for methylation",
+    "confidence": "high"
+  },
+  {
+    "subject": "MTHFD1",
+    "predicate": "metabolizes",
+    "object": "folate",
+    "context": "MTHFD1 is a trifunctional enzyme in folate metabolism",
+    "confidence": "high"
+  },
+  {
+    "subject": "MTHFD1 mutations",
+    "predicate": "impact",
+    "object": "methylation efficiency",
+    "context": "Mutations in MTHFD1 can impact pathway efficiency similar to MTHFR",
+    "confidence": "high"
+  },
+  {
+    "subject": "MTHFR A1298C",
+    "predicate": "is",
+    "object": "functional SNP",
+    "context": "MTHFR SNPs impact folate metabolism and methylation",
+    "confidence": "high"
+  },
+  {
+    "subject": "MTHFR C677T",
+    "predicate": "is",
+    "object": "functional SNP",
+    "context": "MTHFR SNPs impact folate metabolism and methylation",
+    "confidence": "high"
+  },
+  {
+    "subject": "MTHFR variants",
+    "predicate": "may_influence",
+    "object": "bipolar II susceptibility",
+    "context": "COMT and MTHFR genetic variants may influence bipolar disorder",
+    "confidence": "medium"
+  },
+  {
+    "subject": "MTRR",
+    "predicate": "is_part_of",
+    "object": "methylation cycle",
+    "context": "MTRR plays a critical role in the methylation cycle",
+    "confidence": "high"
+  },
+  {
+    "subject": "MTRR",
+    "predicate": "maintains",
+    "object": "methionine synthase activity",
+    "context": "MTRR ensures methionine synthase remains in its active state",
+    "confidence": "high"
+  },
+  {
+    "subject": "MTRR",
+    "predicate": "supports",
+    "object": "SAMe production",
+    "context": "MTRR indirectly supports COMT by maintaining SAMe levels",
+    "confidence": "high"
+  },
+  {
+    "subject": "MTRR",
+    "predicate": "supports",
+    "object": "COMT function",
+    "context": "MTRR activity indirectly supports COMT function",
+    "confidence": "high"
+  },
+  {
+    "subject": "Magnesium",
+    "predicate": "is",
+    "object": "cofactor for COMT",
+    "context": "COMT requires magnesium as a cofactor",
+    "confidence": "high"
+  },
+  {
+    "subject": "Medium spiny neurons",
+    "predicate": "are",
+    "object": "GABAergic inhibitory cells",
+    "context": "MSNs are GABAergic inhibitory cells",
+    "confidence": "high"
+  },
+  {
+    "subject": "Medium spiny neurons",
+    "predicate": "comprise",
+    "object": "95% of striatal neurons",
+    "context": "MSNs represent 95% of neurons in the striatum",
+    "confidence": "high"
+  },
+  {
+    "subject": "Medium spiny neurons",
+    "predicate": "express",
+    "object": "D1 receptor",
+    "context": "MSNs express D1 or D2 receptors",
+    "confidence": "high"
+  },
+  {
+    "subject": "Medium spiny neurons",
+    "predicate": "express",
+    "object": "D2 receptor",
+    "context": "MSNs express D1 or D2 receptors",
+    "confidence": "high"
+  },
+  {
+    "subject": "Medium spiny neurons",
+    "predicate": "receive_dopamine_from",
+    "object": "nigrostriatal projection",
+    "context": "MSNs are primary targets of dopamine projections",
+    "confidence": "high"
+  },
+  {
+    "subject": "Melatonin",
+    "predicate": "is",
+    "object": "alternative anti-inflammatory for slow COMT",
+    "context": "Melatonin does not interact with COMT",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Met/Met genotype",
+    "predicate": "is_associated_with",
+    "object": "lower COMT activity",
+    "context": "Met/Met produces 3-4x reduced enzyme activity",
+    "confidence": "high"
+  },
+  {
+    "subject": "Met/Met genotype",
+    "predicate": "is_associated_with",
+    "object": "higher anxiety",
+    "context": "Met/Met is called the worrier type",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Met/Met genotype",
+    "predicate": "is_associated_with",
+    "object": "better working memory",
+    "context": "Slow COMT associated with better performance on complex cognitive tasks",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Met/Met genotype",
+    "predicate": "is_associated_with",
+    "object": "higher baseline dopamine",
+    "context": "Low enzyme activity increases baseline dopamine",
+    "confidence": "high"
+  },
+  {
+    "subject": "Met/Met genotype",
+    "predicate": "is_called",
+    "object": "Worrier phenotype",
+    "context": "Met/Met is often called the Worrier phenotype",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Met/Met genotype",
+    "predicate": "produces",
+    "object": "low COMT activity",
+    "context": "Met/Met results in lower enzyme activity",
+    "confidence": "high"
+  },
+  {
+    "subject": "Methyl donor supplements",
+    "predicate": "can_cause",
+    "object": "irritability in slow COMT",
+    "context": "Methyl donor supplements may cause mood side effects in slow COMT",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Methyl groups",
+    "predicate": "are",
+    "object": "-CH3",
+    "context": "Methyl groups consist of one carbon bonded to three hydrogen atoms",
+    "confidence": "high"
+  },
+  {
+    "subject": "MethylB12",
+    "predicate": "can_cause",
+    "object": "mood side effects in slow COMT",
+    "context": "Slow COMT individuals may experience mood side effects from high-dose MethylB12",
+    "confidence": "medium"
+  },
+  {
+    "subject": "MethylB12",
+    "predicate": "is",
+    "object": "active B12 form",
+    "context": "Methylcobalamin is an active form of vitamin B12",
+    "confidence": "high"
+  },
+  {
+    "subject": "MethylB12",
+    "predicate": "is",
+    "object": "methyl donor",
+    "context": "MethylB12 is a key methyl donor in the methylation cycle",
+    "confidence": "high"
+  },
+  {
+    "subject": "Methylation",
+    "predicate": "converts",
+    "object": "serotonin to melatonin",
+    "context": "Methylation converts serotonin to melatonin",
+    "confidence": "high"
+  },
+  {
+    "subject": "Methylation",
+    "predicate": "neutralizes",
+    "object": "catechols via COMT",
+    "context": "Methylation neutralizes catechols via COMT",
+    "confidence": "high"
+  },
+  {
+    "subject": "Methylation",
+    "predicate": "regulates",
+    "object": "gene expression",
+    "context": "Methylation regulates gene expression",
+    "confidence": "high"
+  },
+  {
+    "subject": "Methylation",
+    "predicate": "transfers",
+    "object": "methyl groups",
+    "context": "The transfer of methyl groups is known as methylation",
+    "confidence": "high"
+  },
+  {
+    "subject": "Methylfolate",
+    "predicate": "can_cause",
+    "object": "irritability in slow COMT",
+    "context": "Slow COMT individuals may experience irritability from high-dose methylfolate",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Methylfolate",
+    "predicate": "can_cause",
+    "object": "anxiety in slow COMT",
+    "context": "Slow COMT individuals may experience anxiety from high-dose methylfolate",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Methylfolate",
+    "predicate": "is",
+    "object": "active folate form",
+    "context": "Methylfolate is the active, methylated form of folate",
+    "confidence": "high"
+  },
+  {
+    "subject": "Methylfolate",
+    "predicate": "is",
+    "object": "methylation cycle component",
+    "context": "Methylfolate is a critical component of the methylation cycle",
+    "confidence": "high"
+  },
+  {
+    "subject": "Modafinil",
+    "predicate": "increases",
+    "object": "dopaminergic neurotransmission",
+    "context": "Modafinil works in part by increasing dopaminergic transmission",
+    "confidence": "high"
+  },
+  {
+    "subject": "Modafinil",
+    "predicate": "is_more_effective_in",
+    "object": "Val/Val genotype",
+    "context": "Modafinil response is markedly better in Val/Val individuals",
+    "confidence": "high"
+  },
+  {
+    "subject": "Modafinil",
+    "predicate": "is_used_off-label_as",
+    "object": "nootropic",
+    "context": "Modafinil is widely used off-label as a nootropic",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Modafinil",
+    "predicate": "treats",
+    "object": "narcolepsy",
+    "context": "Modafinil is a wakefulness-promoting agent for narcolepsy",
+    "confidence": "high"
+  },
+  {
+    "subject": "NET",
+    "predicate": "also_reuptakes",
+    "object": "dopamine in PFC",
+    "context": "NET also plays a significant role in dopamine reuptake in the PFC",
+    "confidence": "high"
+  },
+  {
+    "subject": "NET",
+    "predicate": "contributes_to_dopamine_clearance_in",
+    "object": "PFC",
+    "context": "Norepinephrine transporter also clears dopamine in PFC",
+    "confidence": "high"
+  },
+  {
+    "subject": "NET",
+    "predicate": "is_critical_for",
+    "object": "catecholamine balance in PFC",
+    "context": "NET is a critical component of catecholamine regulation in the frontal lobes",
+    "confidence": "high"
+  },
+  {
+    "subject": "NET",
+    "predicate": "predominates_in",
+    "object": "PFC dopamine clearance",
+    "context": "COMT and NET predominate in PFC dopamine clearance",
+    "confidence": "high"
+  },
+  {
+    "subject": "NET",
+    "predicate": "reuptakes",
+    "object": "norepinephrine",
+    "context": "NET is responsible for the reuptake of norepinephrine",
+    "confidence": "high"
+  },
+  {
+    "subject": "Oleacein",
+    "predicate": "has",
+    "object": "anti-inflammatory properties",
+    "context": "Oleacein has antioxidant and anti-inflammatory properties",
+    "confidence": "high"
+  },
+  {
+    "subject": "Oleacein",
+    "predicate": "has",
+    "object": "antioxidant properties",
+    "context": "Oleacein has antioxidant and anti-inflammatory properties",
+    "confidence": "high"
+  },
+  {
+    "subject": "Oleacein",
+    "predicate": "is",
+    "object": "dual substrate-inhibitor of COMT",
+    "context": "Oleacein is both metabolized by COMT and competes for its activity",
+    "confidence": "high"
+  },
+  {
+    "subject": "Oleacein",
+    "predicate": "is_found_in",
+    "object": "extra virgin olive oil",
+    "context": "Oleacein is a phenolic compound found in extra virgin olive oil",
+    "confidence": "high"
+  },
+  {
+    "subject": "Opicapone",
+    "predicate": "inhibits",
+    "object": "COMT",
+    "context": "Opicapone is a COMT inhibitor used in Parkinson's disease",
+    "confidence": "high"
+  },
+  {
+    "subject": "Prefrontal Cortex",
+    "predicate": "controls",
+    "object": "executive function",
+    "context": "PFC is essential for executive function",
+    "confidence": "high"
+  },
+  {
+    "subject": "Prefrontal Cortex",
+    "predicate": "controls",
+    "object": "working memory",
+    "context": "PFC is essential for working memory",
+    "confidence": "high"
+  },
+  {
+    "subject": "Prefrontal Cortex",
+    "predicate": "has_limited",
+    "object": "DAT expression",
+    "context": "Dopamine transporter is less abundant in PFC than striatum",
+    "confidence": "high"
+  },
+  {
+    "subject": "Prefrontal Cortex",
+    "predicate": "is",
+    "object": "primary brain region for working memory",
+    "context": "PFC is the primary brain region associated with working memory",
+    "confidence": "high"
+  },
+  {
+    "subject": "Quercetin",
+    "predicate": "enhances",
+    "object": "EGCG bioavailability",
+    "context": "Quercetin increases the bioactive form of EGCG",
+    "confidence": "high"
+  },
+  {
+    "subject": "Quercetin",
+    "predicate": "is_a",
+    "object": "catechol flavonoid",
+    "context": "Quercetin is a dietary catechol",
+    "confidence": "high"
+  },
+  {
+    "subject": "Resveratrol",
+    "predicate": "is",
+    "object": "alternative anti-inflammatory for slow COMT",
+    "context": "Resveratrol does not interact with COMT",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Rutin",
+    "predicate": "can_inhibit",
+    "object": "COMT at high levels",
+    "context": "Rutin can potentially inhibit COMT at high supplemental levels",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Rutin",
+    "predicate": "is",
+    "object": "glycoside of quercetin",
+    "context": "Rutin is a glycoside of quercetin",
+    "confidence": "high"
+  },
+  {
+    "subject": "Rutin",
+    "predicate": "is_metabolized_by",
+    "object": "COMT",
+    "context": "Rutin contains a catechol structure and is metabolized by COMT",
+    "confidence": "high"
+  },
+  {
+    "subject": "S-COMT",
+    "predicate": "predominates_in",
+    "object": "peripheral tissues",
+    "context": "S-COMT is the predominant form in liver, kidney, blood",
+    "confidence": "high"
+  },
+  {
+    "subject": "SAMe",
+    "predicate": "is_required_by",
+    "object": "COMT",
+    "context": "SAMe is required by the COMT enzyme",
+    "confidence": "high"
+  },
+  {
+    "subject": "SNP",
+    "predicate": "is",
+    "object": "single nucleotide variation",
+    "context": "An SNP is a variation in a single nucleotide at a specific genome position",
+    "confidence": "high"
+  },
+  {
+    "subject": "SNPs",
+    "predicate": "predict",
+    "object": "drug response",
+    "context": "SNPs can predict individual drug response",
+    "confidence": "high"
+  },
+  {
+    "subject": "Slow COMT",
+    "predicate": "is_sensitive_to",
+    "object": "methylated vitamins",
+    "context": "Slow COMT individuals may experience side effects from methylated vitamins",
+    "confidence": "high"
+  },
+  {
+    "subject": "Slow COMT",
+    "predicate": "is_sensitive_to",
+    "object": "methyl donor supplements",
+    "context": "Slow COMT individuals may experience side effects from methyl donors",
+    "confidence": "high"
+  },
+  {
+    "subject": "Slow COMT",
+    "predicate": "is_sensitive_to",
+    "object": "COMT inhibitor supplements",
+    "context": "Slow COMT individuals may experience side effects from COMT inhibitors",
+    "confidence": "high"
+  },
+  {
+    "subject": "Slow COMT",
+    "predicate": "metabolizes",
+    "object": "EGCG more slowly",
+    "context": "People with slow COMT break down EGCG more slowly",
+    "confidence": "high"
+  },
+  {
+    "subject": "Slow COMT",
+    "predicate": "slows",
+    "object": "estrogen metabolite clearance",
+    "context": "Slow COMT may lead to slower clearance of certain estrogen forms",
+    "confidence": "high"
+  },
+  {
+    "subject": "Stimulus-response learning",
+    "predicate": "depends_on",
+    "object": "dopamine in striatum",
+    "context": "S-R learning is heavily influenced by dopamine signaling in the striatum",
+    "confidence": "high"
+  },
+  {
+    "subject": "Striatum",
+    "predicate": "controls",
+    "object": "motor control",
+    "context": "Striatum is involved in motor control",
+    "confidence": "high"
+  },
+  {
+    "subject": "Striatum",
+    "predicate": "controls",
+    "object": "habit formation",
+    "context": "Striatum is involved in habit formation",
+    "confidence": "high"
+  },
+  {
+    "subject": "Striatum",
+    "predicate": "controls",
+    "object": "reward learning",
+    "context": "Striatum is involved in reward-related learning",
+    "confidence": "high"
+  },
+  {
+    "subject": "Striatum",
+    "predicate": "is_part_of",
+    "object": "basal ganglia",
+    "context": "Striatum is a critical component of the basal ganglia",
+    "confidence": "high"
+  },
+  {
+    "subject": "Striatum",
+    "predicate": "receives_dopamine_from",
+    "object": "Substantia Nigra",
+    "context": "Striatum receives dopaminergic input from SNpc",
+    "confidence": "high"
+  },
+  {
+    "subject": "Striatum dysfunction",
+    "predicate": "causes",
+    "object": "Parkinson's disease motor symptoms",
+    "context": "Dysfunction in striatum is linked to Parkinson's",
+    "confidence": "high"
+  },
+  {
+    "subject": "Tolcapone",
+    "predicate": "inhibits",
+    "object": "COMT",
+    "context": "Tolcapone is a COMT inhibitor used in Parkinson's disease",
+    "confidence": "high"
+  },
+  {
+    "subject": "Val/Val genotype",
+    "predicate": "is_associated_with",
+    "object": "higher COMT activity",
+    "context": "Val/Val produces 3-4x faster enzyme activity",
+    "confidence": "high"
+  },
+  {
+    "subject": "Val/Val genotype",
+    "predicate": "is_associated_with",
+    "object": "stress resilience",
+    "context": "Val/Val is called the warrior type",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Val/Val genotype",
+    "predicate": "is_associated_with",
+    "object": "lower prefrontal dopamine",
+    "context": "High enzyme activity reduces dopamine levels in PFC",
+    "confidence": "high"
+  },
+  {
+    "subject": "Val/Val genotype",
+    "predicate": "is_called",
+    "object": "Warrior phenotype",
+    "context": "Val/Val is often called the Warrior phenotype",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Val/Val genotype",
+    "predicate": "produces",
+    "object": "high COMT activity",
+    "context": "Val/Val results in 3-4x faster enzyme activity",
+    "confidence": "high"
+  },
+  {
+    "subject": "Val/Val genotype",
+    "predicate": "responds_better_to",
+    "object": "Modafinil",
+    "context": "Fast COMT (Val/Val) individuals have better response to modafinil",
+    "confidence": "high"
+  },
+  {
+    "subject": "Val158Met",
+    "predicate": "impacts",
+    "object": "COMT activity",
+    "context": "Val158Met SNP significantly impacts COMT enzyme activity",
+    "confidence": "high"
+  },
+  {
+    "subject": "Val158Met",
+    "predicate": "impacts",
+    "object": "cognitive performance",
+    "context": "The polymorphism impacts cognitive performance and working memory",
+    "confidence": "high"
+  },
+  {
+    "subject": "Val158Met",
+    "predicate": "impacts",
+    "object": "response to methyl donor supplements",
+    "context": "Impacts sensitivity to methyl donor supplements",
+    "confidence": "high"
+  },
+  {
+    "subject": "Val158Met",
+    "predicate": "impacts",
+    "object": "psychiatric disorder risk",
+    "context": "Impacts risk for psychiatric disorders like schizophrenia",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Val158Met",
+    "predicate": "involves",
+    "object": "Valine to Methionine substitution",
+    "context": "Substitution at position 158 of the enzyme",
+    "confidence": "high"
+  },
+  {
+    "subject": "Val158Met",
+    "predicate": "is",
+    "object": "rs4680",
+    "context": "Val158Met is also known as rs4680",
+    "confidence": "high"
+  },
+  {
+    "subject": "Val158Met",
+    "predicate": "is_a",
+    "object": "SNP in COMT gene",
+    "context": "Val158Met is a functional SNP in the COMT gene",
+    "confidence": "high"
+  },
+  {
+    "subject": "Val158Met",
+    "predicate": "modulates",
+    "object": "Modafinil response",
+    "context": "Response to modafinil depends on COMT genotype",
+    "confidence": "high"
+  },
+  {
+    "subject": "Val158Met",
+    "predicate": "modulates",
+    "object": "Aspirin response",
+    "context": "Cardiovascular response to aspirin varies by genotype",
+    "confidence": "high"
+  },
+  {
+    "subject": "Vitamin E",
+    "predicate": "increases_risk_of",
+    "object": "cancer in fast COMT",
+    "context": "Vitamin E slightly increased cancer rates in fast COMT",
+    "confidence": "high"
+  },
+  {
+    "subject": "Vitamin E",
+    "predicate": "prevents_cancer_in",
+    "object": "slow COMT genotype",
+    "context": "Vitamin E cancer prevention varies by COMT genotype",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Vitamin E",
+    "predicate": "reduces",
+    "object": "cancer risk in slow COMT",
+    "context": "Vitamin E supplementation reduced cancer rates in slow COMT",
+    "confidence": "high"
+  },
+  {
+    "subject": "Working Memory",
+    "predicate": "depends_on",
+    "object": "balanced dopamine in PFC",
+    "context": "Optimal working memory depends on balanced dopamine signaling in PFC",
+    "confidence": "high"
+  },
+  {
+    "subject": "Working Memory",
+    "predicate": "is",
+    "object": "limited-capacity cognitive system",
+    "context": "Working memory temporarily holds and processes information",
+    "confidence": "high"
+  },
+  {
+    "subject": "Working Memory",
+    "predicate": "is_component_of",
+    "object": "executive function",
+    "context": "Working memory is a core component of executive function",
+    "confidence": "high"
+  }
+]
