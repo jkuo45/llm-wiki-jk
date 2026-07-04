@@ -4,24 +4,24 @@
 ## Summary Table (notes directory)
 | topic | last updated | count entities | count documents | count words | disk size |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| [_link](https://github.com/jkuo45/llm-wiki/tree/dev/notes/_link) | 04_JUL_2026 | 185 | 0 | 40,243 | 331.26 KB |
-| [adrenochrome](https://github.com/jkuo45/llm-wiki/tree/dev/notes/adrenochrome) | 04_JUL_2026 | 331 | 23 | 142,870 | 1.56 MB |
-| [autophagy](https://github.com/jkuo45/llm-wiki/tree/dev/notes/autophagy) | 04_JUL_2026 | 251 | 11 | 84,324 | 748.90 KB |
-| [cancer](https://github.com/jkuo45/llm-wiki/tree/dev/notes/cancer) | 04_JUL_2026 | 275 | 8 | 117,200 | 1.27 MB |
-| [comt](https://github.com/jkuo45/llm-wiki/tree/dev/notes/comt) | 04_JUL_2026 | 35 | 2 | 9,913 | 116.76 KB |
+| [_link](https://github.com/jkuo45/llm-wiki/tree/dev/notes/_link) | 04_JUL_2026 | 185 | 0 | 40,366 | 0.32 MB |
+| [adrenochrome](https://github.com/jkuo45/llm-wiki/tree/dev/notes/adrenochrome) | 04_JUL_2026 | 331 | 23 | 143,153 | 1.56 MB |
+| [autophagy](https://github.com/jkuo45/llm-wiki/tree/dev/notes/autophagy) | 04_JUL_2026 | 251 | 11 | 84,432 | 0.73 MB |
+| [cancer](https://github.com/jkuo45/llm-wiki/tree/dev/notes/cancer) | 04_JUL_2026 | 275 | 8 | 117,262 | 1.27 MB |
+| [comt](https://github.com/jkuo45/llm-wiki/tree/dev/notes/comt) | 04_JUL_2026 | 35 | 2 | 9,913 | 0.11 MB |
 | [epigenetics](https://github.com/jkuo45/llm-wiki/tree/dev/notes/epigenetics) | 04_JUL_2026 | 219 | 9 | 108,738 | 3.23 MB |
-| [neuromelanin](https://github.com/jkuo45/llm-wiki/tree/dev/notes/neuromelanin) | 04_JUL_2026 | 100 | 2 | 24,488 | 288.96 KB |
-| [oxidative_stress](https://github.com/jkuo45/llm-wiki/tree/dev/notes/oxidative_stress) | 04_JUL_2026 | 48 | 1 | 52,730 | 562.88 KB |
-| [sirtuins](https://github.com/jkuo45/llm-wiki/tree/dev/notes/sirtuins) | 04_JUL_2026 | 77 | 6 | 143,266 | 1.18 MB |
+| [neuromelanin](https://github.com/jkuo45/llm-wiki/tree/dev/notes/neuromelanin) | 04_JUL_2026 | 100 | 2 | 24,488 | 0.28 MB |
+| [oxidative_stress](https://github.com/jkuo45/llm-wiki/tree/dev/notes/oxidative_stress) | 04_JUL_2026 | 48 | 1 | 52,834 | 0.55 MB |
+| [sirtuins](https://github.com/jkuo45/llm-wiki/tree/dev/notes/sirtuins) | 04_JUL_2026 | 101 | 6 | 151,302 | 1.24 MB |
 <!-- END GENERATED: summary_table -->
 
 <!-- GENERATED: summary_counts -->
 ## Summary Counts (notes directory)
-- **last updated:** 04_JUL_2026 02:25 PM PDT
-- **file count:** 1,535
-- **word count:** 723,772
+- **last updated:** 04_JUL_2026 02:56 PM PDT
+- **file count:** 1,559
+- **word count:** 732,488
 - **documents:** 62
-- **disk size:** 9.24 MB
+- **disk size:** 9.30 MB
 <!-- END GENERATED: summary_counts -->
 
 <!-- GENERATED: document_list -->
