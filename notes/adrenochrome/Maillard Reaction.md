@@ -18,8 +18,28 @@ In a biological context, the Maillard reaction is responsible for the endogenous
 
 The accumulation of Maillard reaction products is a hallmark of [[Aging]] and is highly accelerated in [[Hyperglycemia]].
 
+## Chemical Stages
+
+The Maillard reaction is conventionally divided into three stages. **Early stage** (at temperatures >50°C or over extended periods at 37°C): condensation of the reducing sugar carbonyl with an amino group yields the [[Schiff base]], which undergoes [[Amadori rearrangement]] to form the corresponding 1-amino-1-deoxy-2-ketose (Amadori compound). This stage is reversible and does not involve color formation. **Intermediate (advanced) stage**: Amadori products degrade via enolization, dehydration, and β-elimination to yield heterocyclic [[Furfurals]], [[Reductones]], and dicarbonyl compounds ([[3-Deoxyglucosone]], [[Glyoxal]], [[Methylglyoxal]]). These intermediates participate in further condensation reactions, generating yellow fluorescent products. **Final stage**: Polymerization and crosslinking of the intermediate compounds produces brown melanoidin pigments and irreversible [[Advanced Glycation End Products]] (AGEs). The reaction rate increases exponentially with temperature (Q₁₀ ≈ 2–3) and is highly pH-dependent.
+
+## Flavor Compound Formation in Food
+
+In culinary contexts, the Maillard reaction generates hundreds of volatile flavor compounds. [[2-Acetyl-1-pyrroline]] (roasted, popcorn-like aroma), [[Furaneol]] (caramel-like), and [[Pyrazines]] (nutty, roasted notes) are among the most important. The specific amino acid-sugar pair governs the flavor profile: [[Cysteine]] with reducing sugars produces meaty [[Thiols]] and [[Thiophenes]]; [[Proline]] generates bread-crust and cereal aromas; [[Methionine]] yields cooked-cabbage notes. The reaction is responsible for the browning of [[Steak]] crust, [[Bread]] crust, [[Coffee]] roasting, [[Beer]] malt, and [[French fries]].
+
+## Relevance to Biological Aging
+
+Under physiological conditions (37°C, neutral pH), the Maillard reaction proceeds slowly but progressively over the human lifespan. Long-lived structural proteins — [[Collagen]], [[Elastin]], and [[Lens crystallins]] — accumulate Maillard-derived crosslinks, contributing to arterial stiffness, loss of skin compliance, and [[Cataract]] formation. The dicarbonyl intermediates are particularly damaging, as they propagate crosslinking more efficiently than parent sugars. The receptor [[RAGE]] mediates the pathological cellular response to Maillard products, activating [[NF-κB]] and promoting [[Vascular inflammation]].
+
+## Nutritional Implications of Dietary AGEs
+
+Dietary AGEs (dAGEs), pre-formed during high-temperature cooking (grilling, roasting, frying), are absorbed through the [[Gastrointestinal tract]] and contribute to the systemic AGE pool. Approximately 10–30% of ingested dAGEs are absorbed and only partially eliminated by the kidney. High-dAGE diets are associated with elevated serum AGE levels, increased [[Oxidative Stress]], and pro-inflammatory states. Cooking methods that reduce browning (steaming, poaching, slow cooking at lower temperatures) significantly decrease dAGE content.
+
 ## Linking Summary
 
 - New links added: [[Advanced Glycation End Products]], [[Schiff base]], [[Amadori products]], [[Aging]], [[Hyperglycemia]]
 - Suggested new entity notes to create: [[Glycotoxins]]
 - Strong connections to strengthen: [[Maillard Reaction]] ↔ [[Glycation]]
+
+## Updated Links
+
+- Additional new links: [[Furfurals]], [[Reductones]], [[3-Deoxyglucosone]], [[Glyoxal]], [[Methylglyoxal]], [[2-Acetyl-1-pyrroline]], [[Furaneol]], [[Pyrazines]], [[Cysteine]], [[Thiols]], [[Thiophenes]], [[Proline]], [[Methionine]], [[Steak]], [[Bread]], [[Coffee]], [[Beer]], [[French fries]], [[Collagen]], [[Elastin]], [[Lens crystallins]], [[Cataract]], [[RAGE]], [[NF-κB]], [[Vascular inflammation]], [[Gastrointestinal tract]], [[Oxidative Stress]]

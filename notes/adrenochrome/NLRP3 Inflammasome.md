@@ -18,6 +18,26 @@ Mitochondria are critical for the activation of the NLRP3 inflammasome. Mitochon
 
 The NLRP3 inflammasome represents a key interface where mitochondrial dysfunction leads to systemic [[Inflammation]].
 
+## Two-Step Activation Model
+
+NLRP3 inflammasome activation follows a strict two-step mechanism. Signal 1 (priming) is provided by [[Toll-like receptor]] (TLR) agonists, [[TNFα]], or [[IL-1β]], which activate [[NF-κB]] to upregulate transcription of NLRP3, pro-[[Interleukin 1β|IL-1β]], and pro-[[IL-18]]. This priming step also licenses NLRP3 through post-translational modifications, including deubiquitination by [[BRCC3]]. Signal 2 (activation) is triggered by diverse stimuli including extracellular [[ATP]] (via [[P2X7 receptor]]), pore-forming toxins (nigericin), particulate matter (uric acid crystals, silica, alum, amyloid β), [[Mitochondrial ROS]], and [[Mitochondrial DNA|mtDNA]] release.
+
+## Assembly Mechanism
+
+Upon activation, NLRP3 nucleates the assembly of a multiprotein complex through homotypic PYD-PYD interactions with the adaptor protein [[ASC]] (apoptosis-associated speck-like protein containing a CARD). ASC polymerizes into large filamentous structures termed ASC specks, which provide a signaling platform for [[Caspase-1]] recruitment via CARD-CARD interactions. Proximity-induced dimerization of pro-caspase-1 drives its autoproteolytic cleavage into active [[Caspase-1]] (p20/p10 tetramer). A single active NLRP3 inflammasome can generate thousands of active caspase-1 molecules, conferring tremendous signal amplification.
+
+## Downstream Effects
+
+Active caspase-1 cleaves pro-[[Interleukin 1β|IL-1β]] (p31 → p17) and pro-[[IL-18]] (p24 → p18) into their mature, secreted forms. Caspase-1 also cleaves [[Gasdermin D]] (GSDMD) to release its N-terminal pore-forming domain, which oligomerizes in the [[Plasma membrane]] to form lytic pores (10–20 nm inner diameter). This [[Pyroptosis]] execution pathway releases cytosolic contents including [[DAMPs]] such as [[HMGB1]], [[ATP]], and [[IL-1α]], amplifying the inflammatory response.
+
+## Mitochondrial ROS and mtDNA in Activation
+
+Mitochondria are central to NLRP3 activation. Damaged mitochondria release [[Reactive Oxygen Species|ROS]] (primarily from [[Complex I]] and [[Complex III]]) that activate NLRP3 through [[Thioredoxin-interacting protein]] (TXNIP) dissociation from [[Thioredoxin]]. [[Mitochondrial DNA|mtDNA]] released into the cytosol binds directly to NLRP3. [[Cardiolipin]] externalization on damaged mitochondria also provides a docking surface for NLRP3 recruitment. These mitochondrial signals are amplified by mitophagy deficiency, establishing the NLRP3 inflammasome as a critical sensor of [[Mitochondrial dysfunction]].
+
+## Implications for Inflammatory Disease
+
+NLRP3 hyperactivation is implicated in [[Gout]], [[Type 2 Diabetes Mellitus]], [[Atherosclerosis]], [[Alzheimer's Disease]], inflammatory bowel disease, and cryopyrin-associated periodic syndromes (CAPS). Gain-of-function mutations in [[NLRP3]] cause CAPS, characterized by systemic inflammation, fever, and urticarial rash. Therapeutic [[Interleukin 1β|IL-1β]] blockade (anakinra, canakinumab, rilonacept) is effective in CAPS and increasingly explored in cardiovascular disease (CANTOS trial). Small-molecule NLRP3 inhibitors (e.g., [[MCC950]]) are in clinical development.
+
 ## Related Entities
 
 - [[Inflammation]]
