@@ -134,6 +134,28 @@ Maintain link integrity by performing periodic audits:
 - Make sure to escape Obsidian link syntax when updating documents and readme files (especially in tables).
 - Validate completeness of the wiki entry.
 
+## Subject Object Relation Triples (on user request):
+
+Extract all key factual triples in JSON format:
+[{"subject": "...", "predicate": "...", "object": "...", "context": "brief quote or explanation", "confidence": "high/medium/low"}]
+
+Rules:
+
+- Subjects and objects should be specific entities/concepts (normalize names where possible, e.g., use canonical terms).
+- Predicates should be clear verbs/relations (e.g., "causes", "is a type of", "outperforms").
+- Focus on non-obvious, useful relations. Avoid trivial ones.
+- Resolve coreferences.
+
+Write file to (project root): 'tasks/task_output_triples\_[timestamp].json'
+
+**Create directed graph analysis**
+
+- In scripts directory, execute visualize triples python script with output.json.
+- Output graphviz in .png and .svg to the tasks directory.
+- If not output/export name is provided, name the file(s).
+  - 'tasks/task_output\_[timestamp].svg'
+  - 'tasks/task_output\_[timestamp].png'
+
 ## Entity Type Schema:
 
 To maintain consistency, all entity notes should include an `entity_type` field. Suggest additional entity types if they do not exist. These values are intended for README.md and do not need to be included in entity wiki notes. Depending on topic/user preference, more values maybe added.
@@ -180,25 +202,3 @@ To maintain consistency, all entity notes should include an `entity_type` field.
 | **Model Organism**            | Species or strains used in research.                                 | [[Rattus norvegicus]], [[Zebrafish]], [[Knockout mouse]]                              |
 | Organization                  | Public, private sector organizations                                 | [[Merck & Co. Inc]], [[GlaxoSmithKline]]                                              |
 | NA                            | If none of the above                                                 |                                                                                       |
-
-## Subject Object Relation Triples (on user request):
-
-Extract all key factual triples in JSON format:
-[{"subject": "...", "predicate": "...", "object": "...", "context": "brief quote or explanation", "confidence": "high/medium/low"}]
-
-Rules:
-
-- Subjects and objects should be specific entities/concepts (normalize names where possible, e.g., use canonical terms).
-- Predicates should be clear verbs/relations (e.g., "causes", "is a type of", "outperforms").
-- Focus on non-obvious, useful relations. Avoid trivial ones.
-- Resolve coreferences.
-
-Write file to (project root): 'tasks/task_output_triples\_[timestamp].json'
-
-**Create directed graph analysis**
-
-- In scripts directory, execute visualize triples python script with output.json.
-- Output graphviz in .png and .svg to the tasks directory.
-- If not output/export name is provided, name the file(s).
-  - 'tasks/task_output\_[timestamp].svg'
-  - 'tasks/task_output\_[timestamp].png'
