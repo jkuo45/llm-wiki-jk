@@ -92,10 +92,10 @@ SIRT1-mediated neuroprotection in the context of axonal degeneration requires **
 - [[notes/_link/Caloric Restriction]] — increases NAD⁺ levels, activating sirtuins
 - [[SIRT4]] — uses NAD⁺ as ADP-ribose donor for GDH modification
 - [[SIRT6]] — uses NAD⁺ as ADP-ribose donor for ADP-ribosylation
-- [[notes/_link/Resveratrol]] — STAC that activates SIRT1 in an NAD⁺-dependent manner
+- [[Resveratrol]] — STAC that activates SIRT1 in an NAD⁺-dependent manner
 
 ## Linking Summary
 
-- New links added: [[notes/sirtuins/SIRT1]], [[Sir2 (yeast)]], [[OAADPr]], [[notes/_link/Caloric Restriction]], [[SIRT4]], [[SIRT6]], [[notes/_link/Resveratrol]]
+- New links added: [[notes/sirtuins/SIRT1]], [[Sir2 (yeast)]], [[OAADPr]], [[notes/_link/Caloric Restriction]], [[SIRT4]], [[SIRT6]], [[Resveratrol]]
 - Suggested new entity notes to create: [[Nmnat]], [[PNC1 (yeast)]], [[NAMPT]], [[NAD⁺/NADH Ratio]]
 - Strong connections to strengthen: [[NAD+]] ↔ [[notes/sirtuins/SIRT1]], [[NAD+]] ↔ [[notes/_link/Caloric Restriction]]

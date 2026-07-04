@@ -131,7 +131,7 @@ The development of specific sirtuin inhibitors and activators is a rapidly expan
 ### Sirtuin Activators
 
 - **Natural Polyphenols**:
-  - **[[notes/_link/Resveratrol]]**: The first identified allosteric activator of SIRT1.
+  - **[[Resveratrol]]**: The first identified allosteric activator of SIRT1.
   - **Fisetin, Butein, Quercetin**: Structurally related polyphenols that increase lifespan in model organisms.
 - **Synthetic SIRT1 Activators (STACs)**:
   - **SRT1720, SRT2104, SRT2183, SRT3025**: Highly potent compounds that bind SIRT1 with high affinity, improving metabolic homeostasis and lifespan in models of obesity.
@@ -161,6 +161,6 @@ The development of specific sirtuin inhibitors and activators is a rapidly expan
 
 ### Linking Summary:
 
-- **New Links Added**: [[SIRT1]], [[SIRT2]], [[SIRT3]], [[SIRT4]], [[SIRT5]], [[SIRT6]], [[SIRT7]], [[p53]], [[PGC-1α]], [[FOXO1]], [[FOXO3a]], [[notes/_link/NFKB|NF-κB]], [[notes/_link/Resveratrol]], [[notes/_link/AMPK|AMPK]], [[TFEB]], [[notes/_link/Cardiovascular Disease]], [[notes/_link/Aging]], [[HIF-1α]]
+- **New Links Added**: [[SIRT1]], [[SIRT2]], [[SIRT3]], [[SIRT4]], [[SIRT5]], [[SIRT6]], [[SIRT7]], [[p53]], [[PGC-1α]], [[FOXO1]], [[FOXO3a]], [[notes/_link/NFKB|NF-κB]], [[Resveratrol]], [[notes/_link/AMPK|AMPK]], [[TFEB]], [[notes/_link/Cardiovascular Disease]], [[notes/_link/Aging]], [[HIF-1α]]
 - **Suggested New Notes to Create**: [[UBCS039]], [[MDL-800]], [[SirReal2]], [[EX-527]], [[NLRP3]], [[AceCS2]]
-- **Strong Connections to Strengthen**: [[Sirtuins]] ↔ [[SIRT1]], [[Sirtuins]] ↔ [[notes/_link/Aging]], [[Sirtuins]] ↔ [[notes/_link/Resveratrol]]
+- **Strong Connections to Strengthen**: [[Sirtuins]] ↔ [[SIRT1]], [[Sirtuins]] ↔ [[notes/_link/Aging]], [[Sirtuins]] ↔ [[Resveratrol]]

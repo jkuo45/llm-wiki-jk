@@ -27,7 +27,7 @@ In the [[Glyco-Oxidative Proteostasis Shield]] strategy, Spermidine facilitates 
 
 ## Linking Summary:
 
-- New links added: [[notes/_link/Spermidine]], [[Autophagy]], [[Histone Acetyltransferase]], [[notes/_link/Aging]], [[notes/_link/Neurodegenerative Diseases]], [[Geroscience]], [[notes/_link/Resveratrol]]
+- New links added: [[notes/_link/Spermidine]], [[Autophagy]], [[Histone Acetyltransferase]], [[notes/_link/Aging]], [[notes/_link/Neurodegenerative Diseases]], [[Geroscience]], [[Resveratrol]]
 - Suggested new entity notes to create: [[Polyamines]], [[Mitophagy]], [[Wheat Germ]]
 - Strong connections to strengthen: [[notes/_link/Spermidine]] ↔ [[Autophagy]], [[notes/_link/Spermidine]] ↔ [[notes/_link/Aging]]
 
@@ -39,11 +39,11 @@ In the [[Glyco-Oxidative Proteostasis Shield]] strategy, Spermidine facilitates 
 - **[[Autophagy]]**: The primary cellular process induced by spermidine.
 - **[[notes/_link/Aging]]**: Spermidine levels are a determinant of healthy aging.
 - **[[Geroscience]]**: A major natural compound of interest for extending healthspan.
-- **[[notes/_link/Resveratrol]]**: Another natural compound that interacts with longevity pathways (SIRT1).
+- **[[Resveratrol]]**: Another natural compound that interacts with longevity pathways (SIRT1).
 
 
 ### Linking Summary:
-- New links added: [[notes/_link/Aging]], [[Autophagy]], [[Autophagy Inducer]], [[Geroscience]], [[Histone Acetyltransferase]], [[Longevity]], [[notes/_link/Neurodegenerative Diseases]], [[Polyamine]], [[notes/_link/Resveratrol]], [[notes/_link/Spermidine]]
+- New links added: [[notes/_link/Aging]], [[Autophagy]], [[Autophagy Inducer]], [[Geroscience]], [[Histone Acetyltransferase]], [[Longevity]], [[notes/_link/Neurodegenerative Diseases]], [[Polyamine]], [[Resveratrol]], [[notes/_link/Spermidine]]
 - Suggested new entity notes to create: [[Mitophagy]], [[Polyamines]], [[notes/sirtuins/SIRT1]], [[Wheat Germ]], [[eIF5A]]
 - Strong connections to strengthen: [[notes/_link/Spermidine]] ↔ [[notes/_link/Aging]], [[notes/_link/Spermidine]] ↔ [[Autophagy]], [[notes/_link/Spermidine]] ↔ [[Immune Aging]]
 

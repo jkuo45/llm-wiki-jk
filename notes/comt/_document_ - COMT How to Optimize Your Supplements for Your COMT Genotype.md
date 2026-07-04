@@ -121,7 +121,7 @@ Reactions using [[COMT]] also include [[Magnesium]] as a cofactor.\[[ref](https:
 You may be wondering which natural [[Flavonoids|flavonoid]] supplements you can take with [[COMT]] that won’t cause an interaction. Here are some alternative natural [[Anti-inflammatory|anti-inflammatory]] supplements that don’t interact with [[COMT]]:
 
 - [[Berberine]]
-- [[notes/_link/Resveratrol]]
+- [[Resveratrol]]
 - [[Melatonin]]
 - [[Hesperidin]]
 
@@ -230,6 +230,6 @@ Answer: Yes, people with slow [[COMT]] may experience mood swings or anxiety fro
 ---
 
 ### Linking Summary:
-- New links added: [[COMT]], [[Catechol-O-methyltransferase]], [[notes/_link/Dopamine]], [[notes/_link/Epinephrine]], [[notes/_link/Norepinephrine]], [[Estrogen]], [[Catechols]], [[Methylation]], [[notes/oxidative_stress/Oxidative Stress]], [[Methyl Groups]], [[Serotonin]], [[Melatonin]], [[Val158Met]], [[Methylfolate]], [[MethylB12]], [[Quercetin]], [[Fisetin]], [[Luteolin]], [[Rutin]], [[Oleacein]], [[EGCG]], [[Green Tea]], [[notes/_link/Parkinson's Disease]], [[Levodopa]], [[Magnesium]], [[Berberine]], [[notes/_link/Resveratrol]], [[Hesperidin]], [[MTHFR]], [[SAMe]], [[S-adenosylmethionine]], [[TMG]], [[Betaine]], [[notes/_link/Vitamin E]], [[Alpha-tocopherol]], [[Aspirin]], [[notes/_link/Cardiovascular Disease]], [[Modafinil]], [[Adenosylcobalamin]], [[Hydroxocobalamin]], [[MTRR]], [[MTHFD1]], [[Creatine]], [[Folinic acid]], [[Tyrosine]].
+- New links added: [[COMT]], [[Catechol-O-methyltransferase]], [[notes/_link/Dopamine]], [[notes/_link/Epinephrine]], [[notes/_link/Norepinephrine]], [[Estrogen]], [[Catechols]], [[Methylation]], [[notes/oxidative_stress/Oxidative Stress]], [[Methyl Groups]], [[Serotonin]], [[Melatonin]], [[Val158Met]], [[Methylfolate]], [[MethylB12]], [[Quercetin]], [[Fisetin]], [[Luteolin]], [[Rutin]], [[Oleacein]], [[EGCG]], [[Green Tea]], [[notes/_link/Parkinson's Disease]], [[Levodopa]], [[Magnesium]], [[Berberine]], [[Resveratrol]], [[Hesperidin]], [[MTHFR]], [[SAMe]], [[S-adenosylmethionine]], [[TMG]], [[Betaine]], [[notes/_link/Vitamin E]], [[Alpha-tocopherol]], [[Aspirin]], [[notes/_link/Cardiovascular Disease]], [[Modafinil]], [[Adenosylcobalamin]], [[Hydroxocobalamin]], [[MTRR]], [[MTHFD1]], [[Creatine]], [[Folinic acid]], [[Tyrosine]].
 - Suggested new entity notes to create: [[COMT]], [[Catechol-O-methyltransferase]], [[notes/_link/Dopamine]], [[Methylation]], [[Val158Met]], [[MTHFR]].
 - Strong connections to strengthen: [[COMT]] ↔ [[Methylation]], [[COMT]] ↔ [[notes/_link/Dopamine]].

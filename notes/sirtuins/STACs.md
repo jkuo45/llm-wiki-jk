@@ -29,7 +29,7 @@ updated: 2026-07-03
 ## Classification of STACs
 
 ### Natural Polyphenols (First-Generation)
-The founding member and most famous first-generation STAC is **[[notes/_link/Resveratrol|Resveratrol]]**, a natural polyphenol synthesized by grapes, berries, and other plants in response to environmental stress (a concept known as **[[notes/epigenetics/Xenohormesis|Xenohormesis]]**).
+The founding member and most famous first-generation STAC is **[[Resveratrol|Resveratrol 1]]**, a natural polyphenol synthesized by grapes, berries, and other plants in response to environmental stress (a concept known as **[[notes/epigenetics/Xenohormesis|Xenohormesis]]**).
 - Other natural STACs include fisetin, quercetin, butein, and piceatannol.
 - These compounds are relatively weak activators *in vitro* and exhibit low bioavailability and poor target selectivity.
 
@@ -67,6 +67,6 @@ STACs protect against axonal degeneration (Wallerian degeneration) and clear pat
 
 ## Connections & Related Concepts
 - **[[SIRT1]]**: The primary molecular target of allosteric STACs.
-- **[[notes/_link/Resveratrol|Resveratrol]]**: The classic natural STAC that initiated sirtuin-based drug discovery.
+- **[[Resveratrol|Resveratrol 1]]**: The classic natural STAC that initiated sirtuin-based drug discovery.
 - **[[notes/sirtuins/PGC-1α|PGC-1α]]**: Deacetylated and activated downstream of STAC-stimulated SIRT1, driving mitochondrial biogenesis.
 - **[[notes/_link/Caloric Restriction|Caloric Restriction]]**: STACs act as chemical mimetics of this lifespan-extending dietary intervention.

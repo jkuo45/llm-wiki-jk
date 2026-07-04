@@ -30,7 +30,7 @@ The accumulation of these epigenetic changes leads to several hallmarks of cardi
 ## 3. Environmental and Lifestyle Influences
 Epigenetic marks are dynamic and sensitive to external factors:
 *   **Accelerators:** Smoking, air pollution, high-fat diets, chronic stress, and physical inactivity.
-*   **Decelerators:** [[notes/_link/Caloric Restriction]], regular exercise, and diets rich in polyphenols (e.g., [[notes/_link/Resveratrol]]) have been shown to "rejuvenate" epigenetic signatures, potentially delaying the onset of CVD.
+*   **Decelerators:** [[notes/_link/Caloric Restriction]], regular exercise, and diets rich in polyphenols (e.g., [[Resveratrol]]) have been shown to "rejuvenate" epigenetic signatures, potentially delaying the onset of CVD.
 
 
 ## 4. Therapeutic Potential
@@ -41,7 +41,7 @@ The reversible nature of epigenetic modifications makes them attractive targets 
 
 
 ## Linking Summary:
-- New links added: [[Epigenetics]], [[notes/_link/Aging]], [[DNA Methylation]], [[Genomic Instability]], [[Epigenetic Clock]], [[DNAmGrimAge]], [[Histone Modification]], [[Sirtuins]], [[notes/sirtuins/SIRT1]], [[Non-coding RNA]], [[MicroRNA]], [[Cellular Senescence]], [[notes/_link/Atherosclerosis]], [[notes/_link/Caloric Restriction]], [[notes/_link/Resveratrol]], [[HDAC]], [[Senolytics]].
+- New links added: [[Epigenetics]], [[notes/_link/Aging]], [[DNA Methylation]], [[Genomic Instability]], [[Epigenetic Clock]], [[DNAmGrimAge]], [[Histone Modification]], [[Sirtuins]], [[notes/sirtuins/SIRT1]], [[Non-coding RNA]], [[MicroRNA]], [[Cellular Senescence]], [[notes/_link/Atherosclerosis]], [[notes/_link/Caloric Restriction]], [[Resveratrol]], [[HDAC]], [[Senolytics]].
 - Suggested new entity notes to create: [[Endothelial Dysfunction]], [[Vascular Stiffening]], [[Cardiac Fibrosis]], [[notes/_link/Inflammaging]].
 - Strong connections to strengthen: [[notes/_link/Cardiovascular Disease]] ↔ [[notes/_link/Aging]], [[notes/_link/Cardiovascular Disease]] ↔ [[DNA Methylation]]
 
@@ -80,6 +80,6 @@ Genetic variation in [[COMT]], particularly the [[Val158Met]] [[SNP]], has been 
 ---
 
 ### Linking Summary:
-- New links added: [[notes/_link/AMPK]], [[notes/_link/Aging]], [[Aspirin]], [[Atg5]], [[notes/_link/Atherosclerosis]], [[Autophagic Flux]], [[Autophagy]], [[COMT]], [[notes/_link/Caloric Restriction]], [[Cardiomyocyte Toxicity]], [[Catecholamines]], [[Cellular Senescence]], [[DNA Methylation]], [[DNAmGrimAge]], [[Epigenetic Clock]], [[Epigenetics]], [[notes/_link/Epinephrine]], [[Genomic Instability]], [[HDAC]], [[Histone Modification]], [[Intermittent Fasting]], [[Ischemia-reperfusion Injury]], [[MicroRNA]], [[Myocardial Infarction]], [[Non-coding RNA]], [[notes/_link/Norepinephrine]], [[notes/_link/Resveratrol]], [[notes/sirtuins/SIRT1]], [[SNP]], [[Senolytics]], [[Sirtuins]], [[Val158Met]], [[Ventricular Remodeling]]
+- New links added: [[notes/_link/AMPK]], [[notes/_link/Aging]], [[Aspirin]], [[Atg5]], [[notes/_link/Atherosclerosis]], [[Autophagic Flux]], [[Autophagy]], [[COMT]], [[notes/_link/Caloric Restriction]], [[Cardiomyocyte Toxicity]], [[Catecholamines]], [[Cellular Senescence]], [[DNA Methylation]], [[DNAmGrimAge]], [[Epigenetic Clock]], [[Epigenetics]], [[notes/_link/Epinephrine]], [[Genomic Instability]], [[HDAC]], [[Histone Modification]], [[Intermittent Fasting]], [[Ischemia-reperfusion Injury]], [[MicroRNA]], [[Myocardial Infarction]], [[Non-coding RNA]], [[notes/_link/Norepinephrine]], [[Resveratrol]], [[notes/sirtuins/SIRT1]], [[SNP]], [[Senolytics]], [[Sirtuins]], [[Val158Met]], [[Ventricular Remodeling]]
 - Suggested new entity notes to create: [[notes/_link/AMPK]], [[Autophagic Flux]], [[notes/_link/Caloric Restriction]], [[Cardiac Fibrosis]], [[Cardiomyocyte Toxicity]], [[Endothelial Dysfunction]], [[notes/_link/Inflammaging]], [[Intermittent Fasting]], [[Ischemia-reperfusion Injury]], [[Myocardial Infarction]], [[Vascular Stiffening]], [[Ventricular Remodeling]]
 - Strong connections to strengthen: [[notes/_link/Cardiovascular Disease]] ↔ [[notes/_link/Aging]], [[notes/_link/Cardiovascular Disease]] ↔ [[Autophagy]], [[notes/_link/Cardiovascular Disease]] ↔ [[DNA Methylation]], [[notes/_link/Cardiovascular Disease]] ↔ [[Myocardial Infarction]]

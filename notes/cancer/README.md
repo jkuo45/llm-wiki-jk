@@ -159,7 +159,7 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[Pyroptosis]] | 21_May_2026 05:45 PM PDT | Biological Process | 8 | 1 | Important cellular mechanism involved in cancer progression or response to therapy. |
 | [[RAF1]] | 13_Jun_2026 10:30 AM PDT | Enzyme | 8 | 0 | Serine/threonine kinase that phosphorylates and inactivates Bad. |
 | [[Renal Cell Carcinoma]] | 21_May_2026 05:45 PM PDT | Medical Condition | 9 | -1 | High-relevance pathological state targeted by the investigated compounds. |
-| [[notes/_link/Resveratrol]] | 30_May_2026 07:45 PM PDT | Chemical Compound | 8 | 1 | Biological or chemical entity contributing to the broader understanding of the topic. |
+| [[Resveratrol]] | 30_May_2026 07:45 PM PDT | Chemical Compound | 8 | 1 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[RGD peptide]] | 26_May_2026 05:03 PM PDT | Chemical Compound | 8 | 1 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[Satoshi Ōmura]] | 21_May_2026 06:20 PM PDT | Person | 4 | 1 | Provided historical, scientific, or institutional context for the research. |
 | [[Scabies]] | 21_May_2026 06:20 PM PDT | Medical Condition | 6 | -1 | Condition historically associated with the compounds before their repurposing. |

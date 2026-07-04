@@ -229,7 +229,7 @@ Higher levels of SIRT1 activity are generally associated with a longer, healthie
 
 ## Linking Summary:
 
-- New links added: [[notes/_link/SIRT1]], [[Sirtuins]], [[notes/_link/Caloric Restriction]], [[Epigenome]], [[Heterochromatin]], [[notes/_link/Aging]], [[notes/_link/Cardiovascular Disease]], [[notes/_link/Neurodegenerative Diseases]], [[notes/_link/Diabetes Mellitus]], [[notes/_link/Resveratrol]]
+- New links added: [[notes/_link/SIRT1]], [[Sirtuins]], [[notes/_link/Caloric Restriction]], [[Epigenome]], [[Heterochromatin]], [[notes/_link/Aging]], [[notes/_link/Cardiovascular Disease]], [[notes/_link/Neurodegenerative Diseases]], [[notes/_link/Diabetes Mellitus]], [[Resveratrol]]
 - Suggested new entity notes to create: [[NAD+]], [[PGC-1alpha]], [[Sirtuin Activators]]
 - Strong connections to strengthen: [[notes/_link/SIRT1]] ↔ [[Sirtuins]], [[notes/_link/SIRT1]] ↔ [[notes/_link/Caloric Restriction]]
 
@@ -252,11 +252,11 @@ Higher levels of SIRT1 activity are generally associated with a longer, healthie
 - **[[Sirtuins]]**: The family of proteins to which SIRT1 belongs.
 - **[[notes/_link/Aging]]**: SIRT1 is a central regulator of the aging process.
 - **[[notes/_link/Caloric Restriction]]**: SIRT1 is a primary mediator of the benefits of CR.
-- **[[notes/_link/Resveratrol]]**: A natural compound known to activate SIRT1.
+- **[[Resveratrol]]**: A natural compound known to activate SIRT1.
 
 ### Linking Summary:
 
-- New links added: [[notes/_link/AMPK]], [[notes/_link/Aging]], [[Atg]], [[Autophagy]], [[notes/_link/Caloric Restriction]], [[notes/_link/Cardiovascular Disease]], [[notes/_link/Diabetes Mellitus]], [[Epigenome]], [[FOXO1]], [[FOXO3a]], [[Heterochromatin]], [[Intermittent Fasting]], [[notes/_link/Neurodegenerative Diseases]], [[notes/_link/Resveratrol]], [[notes/_link/SIRT1]], [[Sirtuins]]
+- New links added: [[notes/_link/AMPK]], [[notes/_link/Aging]], [[Atg]], [[Autophagy]], [[notes/_link/Caloric Restriction]], [[notes/_link/Cardiovascular Disease]], [[notes/_link/Diabetes Mellitus]], [[Epigenome]], [[FOXO1]], [[FOXO3a]], [[Heterochromatin]], [[Intermittent Fasting]], [[notes/_link/Neurodegenerative Diseases]], [[Resveratrol]], [[notes/_link/SIRT1]], [[Sirtuins]]
 - Suggested new entity notes to create: [[notes/_link/AMPK]], [[Atg]], [[notes/_link/Caloric Restriction]], [[FOXO1]], [[FOXO3a]], [[Intermittent Fasting]], [[NAD+]], [[PGC-1alpha]], [[Sirtuin Activators]]
 - Strong connections to strengthen: [[notes/_link/SIRT1]] ↔ [[notes/_link/AMPK]], [[notes/_link/SIRT1]] ↔ [[Autophagy]], [[notes/_link/SIRT1]] ↔ [[notes/_link/Caloric Restriction]], [[notes/_link/SIRT1]] ↔ [[Sirtuins]]
 

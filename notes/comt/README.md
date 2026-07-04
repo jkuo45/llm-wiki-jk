@@ -55,7 +55,7 @@ This directory contains notes and research regarding [[COMT]] (Catechol-O-methyl
 | [[notes/_link/Parkinson's Disease]] | 25_May_2026 05:23 PM  |
 | [[Prefrontal Cortex]] | 25_May_2026 05:23 PM  |
 | [[Quercetin]] | 25_May_2026 05:23 PM  |
-| [[notes/_link/Resveratrol]] | 25_May_2026 05:23 PM  |
+| [[Resveratrol]] | 25_May_2026 05:23 PM  |
 | [[Rutin]] | 25_May_2026 05:23 PM  |
 | [[S-adenosylmethionine]] | 25_May_2026 05:23 PM  |
 | [[SAMe]] | 25_May_2026 05:23 PM  |

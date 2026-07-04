@@ -44,7 +44,7 @@ and
 
 **Detailing Biomolecular Targets**
 
-I'm now detailing the biomolecules and pathways involved. I've pinpointed key compounds like [[notes/_link/Resveratrol|resveratrol]], [[notes/_link/Quercetin|quercetin]], [[Curcumin|curcumin]], and [[notes/_link/EGCG|EGCG]], along with their biochemical targets: [[Sirtuins|sirtuins]], [[notes/_link/AMPK|AMPK]], and the [[Nrf2|[[Nrf2]] Pathway]]. These targets are critical in the survival response, which aligns with [[notes/_link/Caloric Restriction|caloric restriction]]. I'm noting the overlap between these.
+I'm now detailing the biomolecules and pathways involved. I've pinpointed key compounds like [[Resveratrol|resveratrol]], [[notes/_link/Quercetin|quercetin]], [[Curcumin|curcumin]], and [[notes/_link/EGCG|EGCG]], along with their biochemical targets: [[Sirtuins|sirtuins]], [[notes/_link/AMPK|AMPK]], and the [[Nrf2|[[Nrf2]] Pathway]]. These targets are critical in the survival response, which aligns with [[notes/_link/Caloric Restriction|caloric restriction]]. I'm noting the overlap between these.
 
 **Analyzing Agricultural Impact**
 
@@ -134,7 +134,7 @@ Plants produce a vast array of secondary metabolites in response to abiotic and 
 ](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQGYMd6MLwBnO8EeKApNFMv1R9nZE1NIQFuetzzb_unyGvFv9S9UHph4Gc_8kvkNy8FDf1fHiQLABKVuXjtPnyo1yW3pawVJKTpK4U-5-gSgPwHnRIs-kYtuK5MmX7lFq5758L5IgvGnOUvaNfhpupkJ5ioKFtTiFjj4ucYI030D4Zc%3D)\]. When ingested, certain classes of these compounds function as xenohormetic triggers:
 
 - **Key [[Phytochemicals|phytochemicals]] (Hormetins):**
-	- **[[notes/_link/Resveratrol|resveratrol]]:**
+	- **[[Resveratrol|resveratrol]]:**
 		Produced by grapevines and berries under fungal attack or UV stress\[[
 		7
 		](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQHFOixZ-7LyfbkrBQhILT0SchW8-xBOOqZw7fmObIKt22Gki9SEXCphTyB04941YqYQxgdMDiSaY1aoS-2bNJwLPI6nVEpyrXXjHd2c-Tw4oDkbU4D4-uwmpHlxuozePSjW_oaqlXuJQ6TQpfqv_K6Tb4hyoRgm1jTD9E3oz1Eb60YRPKHAU2I%3D)\]\[[
@@ -160,7 +160,7 @@ Plants produce a vast array of secondary metabolites in response to abiotic and 
 		3
 		](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQH8XWLQPuXd_Ply3wRRpqo7MSa9WxlAoVCW7MvSGlqP6D6cStsxXCL4onMC25swsuJiw26OU09YQXFL8WMCDRMfUTH-oh6LIL9ncze3M_i5xliUncArfdC566RxRqT-5A%3D%3D)\]\[[
 		6
-		](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQHbNkQo_Jp3khz_gvgZ1ic4pS9x7tiMpS_TjxqhtqrmR81q_TqyL3JXpCduSBWIZ-6H6QfiU3ctTrHFD0dlCJlO0Cl4GHA4Ty3HLUAM0a0uE0YYFsUgDDcVSP52As0_hxhjt0Fo2yL-j0pb_g2cAGR9Qf5TFQw_xED9y-OQ-5wdvDrX2Rk3xSQ%3D)\]. [[notes/_link/Resveratrol|resveratrol]], for example, is a known sirtuin activator\[[
+		](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQHbNkQo_Jp3khz_gvgZ1ic4pS9x7tiMpS_TjxqhtqrmR81q_TqyL3JXpCduSBWIZ-6H6QfiU3ctTrHFD0dlCJlO0Cl4GHA4Ty3HLUAM0a0uE0YYFsUgDDcVSP52As0_hxhjt0Fo2yL-j0pb_g2cAGR9Qf5TFQw_xED9y-OQ-5wdvDrX2Rk3xSQ%3D)\]. [[Resveratrol|resveratrol]], for example, is a known sirtuin activator\[[
 		3
 		](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQH8XWLQPuXd_Ply3wRRpqo7MSa9WxlAoVCW7MvSGlqP6D6cStsxXCL4onMC25swsuJiw26OU09YQXFL8WMCDRMfUTH-oh6LIL9ncze3M_i5xliUncArfdC566RxRqT-5A%3D%3D)\].
 	- **[[notes/_link/AMPK|AMPK]] (AMP-activated protein kinase):**
@@ -212,7 +212,7 @@ The [[Xenohormesis|xenohormesis]] hypothesis suggests that the modern human rela
 While the [[Xenohormesis|xenohormesis]] hypothesis is an elegant evolutionary model, it is met with scientific caution and several critical caveats:
 
 - **The Bioavailability Problem:**
-	Many highly researched xenohormetic compounds, such as [[notes/_link/Resveratrol|resveratrol]], suffer from exceptionally low bioavailability in humans\[[
+	Many highly researched xenohormetic compounds, such as [[Resveratrol|resveratrol]], suffer from exceptionally low bioavailability in humans\[[
 	8
 	](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQFqAPgV8vJZHo68Rh8cATgVgUWQMezvrU9hrpYxx6UK5-UayJHBcJlR_2AcAIsO0uk3ex7S87qzLdWUXsKi_KiTexkPglb5TU0dli7GMPgSsCmMLglOZItN14COBbroleAu5gqHsXq7mqpDCKH1bpdZrmgFcKQHt7Dn-lolMNh1Rq1iixXwRVzBVL9APTN2)\]. When ingested orally, they are rapidly metabolized and cleared by the liver, raising questions about whether physiologically significant concentrations ever reach target tissues in human organs\[[
 	8
@@ -263,9 +263,9 @@ Display of Search Suggestions is required when using Grounding with Google Searc
 ### Connections
 - [[Xenohormesis]] proposes that heterotrophs benefit from [[Phytochemicals]] indicating environmental stress.
 - [[Hormesis]] and [[Xenohormesis]] activate conserved survival pathways like [[notes/_link/AMPK|AMPK]], [[Sirtuins|Sirtuins]], and [[Nrf2]].
-- Compounds like [[notes/_link/Resveratrol|Resveratrol]], [[notes/_link/Quercetin|Quercetin]], [[Curcumin]], and [[notes/_link/EGCG|EGCG]] act as xenohormetic triggers.
+- Compounds like [[Resveratrol|Resveratrol 1]], [[notes/_link/Quercetin|Quercetin]], [[Curcumin]], and [[notes/_link/EGCG|EGCG]] act as xenohormetic triggers.
 
 ### Linking Summary:
-- New links added: [[Xenohormesis]], [[Hormesis]], [[Phytochemicals]], [[Nrf2]], [[notes/_link/Resveratrol|Resveratrol]], [[notes/_link/Quercetin|Quercetin]], [[Curcumin]], [[notes/_link/EGCG|EGCG]], [[Sirtuins|Sirtuin]], [[notes/sirtuins/SIRT1|SIRT1]], [[notes/_link/AMPK|AMPK]], [[notes/_link/Caloric Restriction|caloric restriction]]
+- New links added: [[Xenohormesis]], [[Hormesis]], [[Phytochemicals]], [[Nrf2]], [[Resveratrol|Resveratrol 1]], [[notes/_link/Quercetin|Quercetin]], [[Curcumin]], [[notes/_link/EGCG|EGCG]], [[Sirtuins|Sirtuin]], [[notes/sirtuins/SIRT1|SIRT1]], [[notes/_link/AMPK|AMPK]], [[notes/_link/Caloric Restriction|caloric restriction]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Xenohormesis]] <-> [[Hormesis]]
