@@ -36,7 +36,7 @@ def count_words(filepath):
 
 
 MARKER_RE = re.compile(
-    r'<!--\s*GENERATED:\s*(\w+)\s*-->\n.*?\n<!--\s*END\s+GENERATED:\s*\1\s*-->',
+    r"<!--\s*GENERATED:\s*(\w+)\s*-->\n.*?\n<!--\s*END\s+GENERATED:\s*\1\s*-->",
     re.DOTALL,
 )
 
@@ -48,7 +48,7 @@ def make_marker_block(name, content):
 def update_section(existing, name, content):
     block = make_marker_block(name, content)
     pattern = re.compile(
-        rf'<!--\s*GENERATED:\s*{re.escape(name)}\s*-->\n.*?\n<!--\s*END\s+GENERATED:\s*{re.escape(name)}\s*-->',
+        rf"<!--\s*GENERATED:\s*{re.escape(name)}\s*-->\n.*?\n<!--\s*END\s+GENERATED:\s*{re.escape(name)}\s*-->",
         re.DOTALL,
     )
     if pattern.search(existing):
@@ -172,7 +172,7 @@ def main():
         "| :--- | :--- | :---: | :---: |",
     ]
     for t in topic_data:
-        topic_link = f"[{t['topic']}](https://github.com/jkuo45/llm-wiki/tree/main/{urllib.parse.quote(notes_dir + '/' + t['topic'], safe='/')})"
+        topic_link = f"[{t['topic']}](https://github.com/jkuo45/llm-wiki/tree/dev/{urllib.parse.quote(notes_dir + '/' + t['topic'], safe='/')})"
         topics_table.append(
             f"| {topic_link} | {t['last_updated']} | {t['entities']} | {t['documents']} |"
         )
@@ -182,13 +182,15 @@ def main():
         "| :--- | :--- | :--- | :--- |",
     ]
     for d in document_data:
-        doc_link = f"[{d['path']}](https://github.com/jkuo45/llm-wiki/blob/main/{urllib.parse.quote(d['path'], safe='/')})"
+        doc_link = f"[{d['path']}](https://github.com/jkuo45/llm-wiki/blob/dev/{urllib.parse.quote(d['path'], safe='/')})"
         docs_table.append(
             f"| {d['topic']} | {d['date']} | {doc_link} | {format_number(d['words'])} |"
         )
 
     # Build marker-delimited sections
-    summary_table_content = "## Summary Table (notes directory)\n" + "\n".join(topics_table)
+    summary_table_content = "## Summary Table (notes directory)\n" + "\n".join(
+        topics_table
+    )
     summary_counts_content = (
         "## Summary Counts (notes directory)\n"
         f"- **last updated:** {new_timestamp}\n"
