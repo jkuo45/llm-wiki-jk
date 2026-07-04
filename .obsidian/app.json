@@ -3,6 +3,7 @@
   "userIgnoreFilters": [
     "/.*README\\.md/",
     "/.*GEMINI\\.md/",
+    "/.*index\\.md/",
     "/(^|\\/)(\\[document\\]|_document_).*/",
     "/^tasks//",
     "/^prompts//"
