@@ -1,27 +1,74 @@
 ---
-aliases:
-- Unc-51-like kinase 1
-category: Enzyme
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+category: enzyme
+aliases:
+  - Unc-51-like kinase 1
+  - ATG1
+  - Serine/threonine-protein kinase ULK1
+database_ids:
+  uniprot: O75385
+  hgnc: HGNC:12558
+created: 2026-07-04
+updated: 2026-07-05
 ---
+
 # ULK1
 
-**ULK1** (Unc-51 Like Autophagy Activating Kinase 1) is a serine/threonine kinase that serves as a central initiator of [[Autophagy]] in response to nutrient signals. It is the mammalian ortholog of the yeast [[Atg1]].
+**ULK1** (Unc-51 Like Autophagy Activating Kinase 1) is a serine/threonine protein kinase that serves as the central initiator of [[Autophagy]] in response to nutrient and energy signals. It is the mammalian ortholog of the yeast [[Atg1]] and is essential for autophagosome formation.
+
+## Structure and Domains
+
+ULK1 is a 1,050-amino-acid protein with an N-terminal serine/threonine kinase domain, a central proline/serine-rich (PS) domain, and a C-terminal domain that mediates interactions with [[ATG13]] and [[FIP200]] (RB1CC1). The C-terminal region also contains a MAPK-interacting motif and a putative LC3-interacting region (LIR) that may regulate its localisation to autophagic membranes.
+
+## ULK1 Complex Assembly
+
+ULK1 functions as part of a stable complex (the ULK1 complex) that includes:
+
+- **[[ATG13]]**: Directly binds and stabilises ULK1. ATG13 phosphorylation by [[mTORC1]] regulates ULK1 activity.
+- **[[FIP200]]** (RB1CC1): A scaffold protein that anchors the complex and links it to autophagy substrates.
+- **[[ATG101]]**: A small 25-kDa protein that stabilises ULK1 by preventing its proteasomal degradation.
 
 ## Regulation by Nutrient Sensors
-- **Activation by [[notes/_link/AMPK]]**: Under energy stress, AMPK directly phosphorylates and activates ULK1 to induce autophagy.
-- **Inhibition by [[mTORC1]]**: Under nutrient-rich conditions, mTORC1 phosphorylates ULK1 at inhibitory sites to suppress autophagy induction.
 
-## Function in Autophagy Initiation
-- Once activated, ULK1 forms a complex (including [[Atg13]], FIP200, and Atg101) that phosphorylates downstream targets, including the [[Beclin1]]/[[Vps34]] complex, to initiate the formation of the [[Autophagosome]].
+ULK1 integrates signals from two master nutrient-sensing pathways:
 
-## Function
+- **[[mTORC1]] Inhibition**: Under nutrient-rich conditions, mTORC1 directly phosphorylates ULK1 at Ser757 (human), disrupting the ULK1-AMPK interaction and suppressing autophagy. Under nutrient deprivation or rapamycin treatment, mTORC1 dissociates from the ULK1 complex, relieving inhibition.
+- **[[notes/_link/AMPK]] Activation**: Under energy stress (low ATP/high AMP), AMPK directly phosphorylates ULK1 at multiple sites (Ser317, Ser467, Ser555, Ser574, Ser637, and Ser777). These phosphorylations activate ULK1 and promote its translocation to autophagosome formation sites.
 
-ULK1 is the mammalian [[Atg1]] kinase that initiates [[Autophagy]]. Part of the ULK1-[[Atg13]]-[[FIP200]]-[[Atg101]] complex regulated by [[mTORC1]].
+## Kinase Substrates and Downstream Targets
 
-### Linking Summary:
-- New links added: [[Autophagy]], [[Atg1]], [[notes/_link/AMPK]], [[mTORC1]], [[Atg13]], [[Beclin1]], [[Vps34]], [[Autophagosome]]
-- Suggested new entity notes to create:
-- Strong connections to strengthen: [[ULK1]] ↔ [[notes/_link/AMPK]], [[ULK1]] ↔ [[mTORC1]], [[ULK1]] ↔ [[Autophagy]]
+Once activated, ULK1 phosphorylates numerous substrates that coordinate early autophagy:
+
+- **[[Beclin1]]**: ULK1 phosphorylates Beclin1 at Ser14, enhancing the activity of the class III [[notes/_link/PI3K]]/[[Vps34]] complex.
+- **[[ATG9]]**: ULK1 phosphorylates ATG9A, promoting its trafficking from the trans-Golgi network to the phagophore assembly site (PAS).
+- **[[VPS34]]**: Indirectly regulates VPS34 complex activity via Beclin1 phosphorylation.
+- **[[p62]]/[[SQSTM1]]**: ULK1 phosphorylates p62, promoting selective autophagy.
+- **[[SESN2]]** (Sestrin 2): Phosphorylated by ULK1 to promote autophagic degradation.
+- **[[DENND3]]**: A Rab12 GEF that regulates amino acid homeostasis.
+
+## Sirtuin Regulation of ULK1
+
+- **[[SIRT1]]**: Deacetylates ULK1 at multiple lysine residues, promoting its kinase activity and autophagy initiation. SIRT1-mediated ULK1 deacetylation is required for glucose starvation-induced autophagy.
+- **[[SIRT2]]**: Regulates ULK1 indirectly through AMPK and mTORC1 modulation.
+- **[[SIRT3]]**: Promotes mitophagy through ULK1 activation via AMPK in the context of mitochondrial stress.
+
+## Role in Disease
+
+- **Cancer**: ULK1 functions as a contextual tumour suppressor by maintaining metabolic homeostasis and genomic stability. ULK1 deletion accelerates tumour growth in KRAS-driven cancers, but ULK1 inhibition may sensitise certain cancers to chemotherapy.
+- **Neurodegeneration**: Impaired ULK1 activity contributes to defective autophagy in Alzheimer's and Parkinson's diseases. ULK1 activation promotes clearance of protein aggregates ([[Tau]], [[α-synuclein]]).
+- **Metabolic Disease**: ULK1 regulates hepatic lipid metabolism and insulin sensitivity. ULK1 deficiency exacerbates steatosis and insulin resistance.
+
+## Connections
+
+- [[Autophagy]]: ULK1 is the master initiator of autophagy.
+- [[notes/_link/AMPK]]: Activates ULK1 under energy stress, sirtuin-responsive.
+- [[mTORC1]]: Inhibits ULK1 under nutrient-rich conditions.
+- [[Beclin1]]: Direct substrate of ULK1; coordinates VPS34 complex.
+- [[ATG13]] / [[FIP200]] / [[ATG101]]: Core complex components.
+- [[SIRT1]]: Deacetylates and activates ULK1.
+
+## Linking Summary
+
+- New links added: [[Autophagy]], [[Atg1]], [[notes/_link/AMPK]], [[mTORC1]], [[ATG13]], [[FIP200]], [[ATG101]], [[Beclin1]], [[Vps34]], [[notes/_link/PI3K]], [[SIRT1]], [[SIRT2]], [[SIRT3]]
+- Suggested new entity notes to create: [[ATG9]], [[FIP200]], [[ATG101]], [[SESN2]]
+- Strong connections to strengthen: [[ULK1]] ↔ [[notes/_link/AMPK]], [[ULK1]] ↔ [[mTORC1]], [[ULK1]] ↔ [[Autophagy]], [[ULK1]] ↔ [[SIRT1]]

@@ -1,21 +1,77 @@
 ---
-aliases:
-- MADH3
-category: Protein
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+category: protein
+aliases:
+  - MADH3
+  - Mothers against decapentaplegic homolog 3
+  - SMAD family member 3
+database_ids:
+  uniprot: P84022
+  hgnc: HGNC:6769
+created: 2026-07-04
+updated: 2026-07-05
 ---
+
 # SMAD3
 
-SMAD3 is a signal transducer for TGF-β that regulates [[TFEB]] expression; hyperactivated SMAD3 can inhibit TFEB transcription by binding to its 3’-UTR, leading to lysosomal depletion in diabetic conditions.
+**SMAD3** (Mothers against decapentaplegic homolog 3) is a receptor-regulated [[SMAD]] (R-SMAD) transcription factor that mediates signalling from the [[TGF-β]] superfamily. It is centrally involved in cell cycle control, extracellular matrix production, immune regulation, and autophagy modulation.
 
-## Function
+## TGF-β Signalling and SMAD3 Activation
 
-SMAD3 is a receptor-regulated [[TGF-β Signaling]] transcription factor. It induces autophagy genes in response to [[TGF-β]].
+SMAD3 is directly phosphorylated at C-terminal serines (SSXS motif) by the [[TGFBR1]] (ALK5) receptor kinase upon TGF-β ligand binding. Phosphorylated SMAD3 forms a heteromeric complex with [[SMAD4]] and translocates to the nucleus, where it regulates target gene transcription in concert with transcription factors (e.g., [[AP-1]], [[Sp1]], [[Runx2]]) and co-activators/co-repressors ([[p300]], [[c-Myc]], [[Ski]]).
 
-### Linking Summary
+## Transcriptional Targets
 
-- New links added: [[TFEB]], [[TGF-β]]
-- Suggested new entity notes to create: [[TGF-β Signaling]]
-- Strong connections to strengthen: [[SMAD3]] ↔ [[TFEB]]
+SMAD3 regulates a broad set of target genes depending on cellular context:
+
+- **Pro-Fibrotic**: [[COL1A1]], [[COL3A1]], [[COL5A2]], [[FN1]] (fibronectin), [[ACTA2]] (α-SMA), [[TIMP1]], [[PAI1]] (SERPINE1)
+- **Cell Cycle**: [[CDKN1A]] (p21), [[CDKN2B]] (p15), [[MYC]] repression
+- **Autophagy**: [[TFEB]] — SMAD3 binds the 3'-UTR of TFEB and represses its transcription, reducing lysosomal biogenesis and autophagic flux
+- **Immune**: [[FOXP3]] (Treg differentiation), [[IL10]] (anti-inflammatory cytokine)
+
+## Role in Autophagy Regulation
+
+SMAD3 is a critical negative regulator of autophagy through its repression of [[TFEB]]:
+
+- TFEB is the master transcription factor of the CLEAR network (Coordinated Lysosomal Expression and Regulation), governing lysosomal biogenesis and autophagy.
+- Hyperactivated SMAD3 (under diabetic conditions or chronic TGF-β stimulation) binds the 3'-UTR of the TFEB gene and inhibits its transcription.
+- Reduced TFEB expression leads to lysosomal depletion, impaired autophagic clearance, and accumulation of protein aggregates and damaged organelles.
+- SIRT6 suppresses this pathway by deacetylating H3K9 at SMAD3 target gene promoters, providing a sirtuin-mediated counterbalance.
+
+## Role in Fibrosis
+
+SMAD3 is the primary TGF-β effector driving pathological fibrosis:
+
+- SMAD3 directly activates transcription of extracellular matrix (ECM) genes in fibroblasts and myofibroblasts.
+- Smad3-knockout mice are protected from bleomycin-induced pulmonary fibrosis and carbon tetrachloride-induced liver fibrosis.
+- SMAD3 also promotes EMT (epithelial-to-mesenchymal transition), contributing to fibroblast expansion in fibrotic organs.
+
+## Role in the Immune System
+
+SMAD3 is essential for the anti-inflammatory and immunosuppressive functions of TGF-β:
+
+- Promotes differentiation of [[FOXP3]]+ [[Regulatory T cells]] (Tregs)
+- Suppresses [[Th1]] and [[Th2]] effector T cell differentiation
+- Inhibits pro-inflammatory cytokine production by macrophages and dendritic cells
+- Smad3-knockout mice develop systemic inflammation and are susceptible to chronic infections
+
+## Sirtuin Interactions
+
+- **[[SIRT1]]**: Deacetylates and destabilises SMAD7, relieving SMAD7-mediated inhibition of SMAD3 phosphorylation, thereby enhancing TGF-β/SMAD3 signalling in some contexts.
+- **[[SIRT6]]**: Suppresses SMAD3 transcriptional activity by deacetylating H3K9 at SMAD3 target gene promoters, reducing pro-fibrotic gene expression.
+- **[[SIRT7]]**: Deacetylates SMAD3 directly, reducing its transcriptional activity and pro-fibrotic output.
+
+## Connections
+
+- [[TGF-β]] — upstream ligand that activates SMAD3
+- [[SMAD4]] — co-SMAD required for SMAD3 nuclear function
+- [[TFEB]] — direct transcriptional target of SMAD3; negative regulator of autophagy
+- [[SIRT6]] / [[SIRT7]] — suppress SMAD3 activity
+- [[notes/_link/Inflammation]] — SMAD3 mediates anti-inflammatory TGF-β signalling
+- [[Fibrosis]] — SMAD3 is a central pro-fibrotic transcription factor
+
+## Linking Summary
+
+- New links added: [[TFEB]], [[TGF-β]], [[SMAD4]], [[SIRT1]], [[SIRT6]], [[SIRT7]], [[notes/_link/Inflammation]], [[Fibrosis]], [[FOXP3]], [[Regulatory T cells]]
+- Suggested new entity notes to create: [[TGF-β Signalling]], [[CLEAR network]], [[SMAD family]]
+- Strong connections to strengthen: [[SMAD3]] ↔ [[TFEB]], [[SMAD3]] ↔ [[TGF-β]], [[SMAD3]] ↔ [[SIRT6]]

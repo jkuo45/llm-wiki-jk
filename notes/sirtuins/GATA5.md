@@ -37,6 +37,7 @@ GATA5 is a risk locus for coronary artery disease and bicuspid aortic valve. SIR
 ## Connections
 
 - [[SIRT6]] — Induces GATA5 expression, preventing endothelial injury
+- [[Nkx3.2]] — transcriptional repressor of GATA5; silenced by SIRT6 to derepress GATA5
 - [[EndMT]] — Endothelial-to-mesenchymal transition suppressed by the SIRT6–GATA5 axis
 - [[GATA4]] — Related GATA factor; cooperates with GATA5 in cardiac gene regulation
 - [[Vascular Endothelial Injury]] — Pathological state mitigated by GATA5 upregulation
@@ -45,6 +46,6 @@ GATA5 is a risk locus for coronary artery disease and bicuspid aortic valve. SIR
 
 ## Linking Summary
 
-- New links added: [[GATA5]], [[EndMT]], [[GATA4]], [[Vascular Endothelial Injury]], [[Bicuspid Aortic Valve]]
+- New links added: [[GATA5]], [[EndMT]], [[GATA4]], [[Vascular Endothelial Injury]], [[Bicuspid Aortic Valve]], [[Nkx3.2]]
 - Suggested new entity notes to create: [[GATA6]], [[Atrial septal defect]], [[Cardiac bifida]]
-- Strong connections to strengthen: [[SIRT6]] ↔ [[GATA5]]
+- Strong connections to strengthen: [[SIRT6]] ↔ [[GATA5]], [[Nkx3.2]] ↔ [[GATA5]]

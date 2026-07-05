@@ -4,7 +4,7 @@ category: protein
 aliases:
   - Sirtuin 5
   - mitochondrial sirtuin 5
-  - SIRT5 deacetylase
+  - SIRT5 deacylase
 database_ids:
   uniprot: Q9NXA8
   hgnc: HGNC:14933
@@ -17,8 +17,20 @@ relations:
     target: "Sirtuin Family"
     sources:
       - PMID:MICHAN2007
+  - predicate: desuccinylates
+    target: "CPS1"
+    sources:
+      - PMID:21504829
+  - predicate: demalonylates
+    target: "Mitochondrial proteins"
+    sources:
+      - PMID:21504829
+  - predicate: deglutarylates
+    target: "Mitochondrial proteins"
+    sources:
+      - PMID:24861043
 created: 2026-07-02
-updated: 2026-07-02
+updated: 2026-07-05
 ---
 
 # SIRT5
@@ -27,14 +39,11 @@ updated: 2026-07-02
 
 ## Enzymatic Activity
 
-SIRT5 exhibits **weak NAD⁺-dependent deacetylase activity** — in contrast to the robust deacetylase activity of [[SIRT1]] and the primary ADP-ribosyl transferase activity of [[SIRT4]] and [[SIRT6]]. As with all sirtuins, the deacetylation reaction produces [[OAADPr]] and nicotinamide as by-products, requiring [[NAD+]] as co-substrate.
-
-> [!NOTE]
-> As of the Michan & Sinclair 2007 review, no robust enzymatic activity had been definitively characterised for SIRT5 beyond weak deacetylase activity. Subsequent research (post-2007) has identified SIRT5 as a primary **desuccinylase, demalonylase, and deglutarylase**, extending its functional repertoire considerably.
+Unlike most other sirtuins, SIRT5 possesses **very weak NAD⁺-dependent deacetylase activity**. Its primary catalytic functions are **lysine desuccinylation, demalonylation, and deglutarylation** — the removal of negatively charged five-carbon succinyl, three-carbon malonyl, and five-carbon glutaryl groups from lysine residues. This broad deacylase activity allows SIRT5 to regulate mitochondrial metabolism at multiple nodes simultaneously. The reactions consume [[NAD+]] and produce nicotinamide and the corresponding acyl-ADP-ribose by-products.
 
 ## Subcellular Localisation
 
-**Mitochondrial** — SIRT5 is one of the three mitochondrial sirtuins, along with [[SIRT3]] and [[SIRT4]], localised to the mitochondrial matrix.
+**Mitochondrial** — SIRT5 is one of the three mitochondrial sirtuins, along with [[SIRT3]] and [[SIRT4]], localised to the mitochondrial matrix. SIRT5 has also been detected in the cytosol and nucleus under specific conditions, suggesting context-dependent subcellular trafficking.
 
 ## Evolutionary Classification
 
@@ -45,42 +54,48 @@ SIRT5 belongs to **Class III**, which:
 - Along with Class II and Class U (undetermined), was among the **earliest sirtuin classes to evolve**
 - Is absent from Class I and Class IV, which are restricted to eukaryotes
 
-## Known Functions (as of 2007)
+## Metabolic Functions
 
-Limited functional information was available at the time of Michan & Sinclair (2007). SIRT5's role in the nervous system was entirely unknown, though mitochondrial uncoupling proteins (UCP2, UCP4, UCP5/BMCP1) — which SIRT5 might potentially modulate — are highly expressed in the central nervous system and are relevant to Alzheimer's disease pathology.
+### Urea Cycle Regulation
+
+SIRT5 desuccinylates and activates **[[CPS1]] (carbamoyl phosphate synthetase 1)**, the rate-limiting enzyme of the urea cycle. Under fasting conditions, SIRT5 desuccinylation of CPS1 enhances ammonia detoxification and urea production. SIRT5 knockout mice exhibit elevated blood ammonia levels under fasting stress, indicating a critical role in nitrogenous waste management.
+
+### Ketone Body Formation
+
+SIRT5 regulates ketogenesis by desuccinylating **HMGCS2** (3-hydroxy-3-methylglutaryl-CoA synthase 2), the rate-limiting enzyme of ketone body synthesis. This supports energy production during fasting and prolonged exercise.
+
+### Fatty Acid Oxidation and TCA Cycle
+
+SIRT5 desuccinylates multiple enzymes in fatty acid β-oxidation (e.g., [[LCAD]], [[ACADS]]) and the TCA cycle (e.g., [[IDH2]], [[SDHA]]), thereby coordinating mitochondrial energy metabolism.
+
+### Reactive Oxygen Species (ROS) Detoxification
+
+SIRT5 activates antioxidant enzymes such as [[SOD1]] and [[IDH2]] through desuccinylation, enhancing NADPH production and glutathione recycling. This positions SIRT5 as a key regulator of redox homeostasis and mitochondrial ROS detoxification.
+
+## Cancer Biology
+
+SIRT5 exhibits context-dependent roles in oncology:
+
+- **Tumour Promoter**: SIRT5 is overexpressed in hepatocellular carcinoma, colorectal cancer, and non-small cell lung cancer, where it promotes proliferation by reprogramming metabolism toward glutaminolysis and glycolysis. SIRT5 desuccinylates [[LDHB]] to hyperactivate autophagy, providing cancer cells with recycled nutrients.
+- **Resistance to Nicotinamide Inhibition**: Unlike SIRT1–SIRT3, SIRT5 is resistant to inhibition by nicotinamide, which may contribute to its sustained activity in the tumour microenvironment.
+
+## Neurological and Cardiovascular Functions
+
+SIRT5 protects against myocardial ischaemia-reperfusion injury by maintaining mitochondrial integrity and reducing oxidative stress. In the brain, SIRT5 regulates ammonia detoxification and energy metabolism in astrocytes, and its deficiency has been linked to enhanced susceptibility to excitotoxicity.
 
 ## Connections
 
-- [[SIRT3]] — fellow mitochondrial sirtuin; robust deacetylase (contrast with SIRT5's weak activity)
+- [[SIRT3]] — fellow mitochondrial sirtuin; robust deacetylase (contrast with SIRT5's deacylase activities)
 - [[SIRT4]] — fellow mitochondrial sirtuin; Class II (also ancient)
 - [[SIRT6]] — nuclear sirtuin; primary ADP-ribosyl transferase
 - [[NAD+]] — obligatory co-substrate
-- [[OAADPr]] — by-product of deacetylation
+- [[CPS1]] — primary substrate; desuccinylated and activated by SIRT5
+- [[LDHB]] — deacetylated by SIRT5 to activate autophagy
 - [[Sir2 (yeast)]] — distantly related founding sirtuin member
 - [[Sirtuin Family]] — conserved enzymatic family spanning all domains of life
 
 ## Linking Summary
 
-- New links added: [[SIRT3]], [[SIRT4]], [[SIRT6]], [[NAD+]], [[OAADPr]], [[Sir2 (yeast)]]
-- Suggested new entity notes to create: [[Desuccinylase Activity]], [[Mitochondrial Matrix]]
-- Strong connections to strengthen: [[SIRT5]] ↔ [[SIRT3]], [[SIRT5]] ↔ [[SIRT4]]
-
-# SIRT5
-
-SIRT5 is a mitochondrial sirtuin that regulates cellular energy metabolism. While it has weak deacetylase activity, it primarily acts to desuccinylate, demalonylate, and deglutarylate target proteins. It promotes the growth of various cancers and is resistant to nicotinamide inhibition.
-
-### Linking Summary:
-
-- New links added: [[NAD+]]
-- Suggested new entity notes to create:
-- Strong connections to strengthen: [[SIRT5]] ↔ [[NAD+]]
-
-# SIRT5
-
-SIRT5 (Sirtuin 5) is a NAD+-dependent deacylase localized primarily in the mitochondria, but also found in the cytosol and nucleus. It is involved in mitochondrial metabolism, urea cycle regulation, ketone body formation, nitrogenous waste management, and reactive oxygen species (ROS) detoxification.
-
-### Linking Summary:
-
-- New links added: [[NAD+]], [[Sirtuins]], [[Mitochondria]]
-- Suggested new entity notes to create:
-- Strong connections to strengthen: [[SIRT5]] ↔ [[Mitochondria]]
+- New links added: [[SIRT3]], [[SIRT4]], [[SIRT6]], [[NAD+]], [[CPS1]], [[LDHB]], [[Sir2 (yeast)]]
+- Suggested new entity notes to create: [[Desuccinylase Activity]], [[Mitochondrial Matrix]], [[HMGCS2]]
+- Strong connections to strengthen: [[SIRT5]] ↔ [[SIRT3]], [[SIRT5]] ↔ [[CPS1]], [[SIRT5]] ↔ [[NAD+]]

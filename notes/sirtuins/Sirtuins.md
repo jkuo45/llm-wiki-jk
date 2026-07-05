@@ -1,10 +1,11 @@
 ---
 type: entity
-category: anatomy
+category: protein
 aliases:
   - Sirtuin Family
   - SIRTs
   - Mammalian Sirtuins
+  - Class III HDACs
 relations:
   - predicate: regulates
     target: "notes/_link/Aging"
@@ -18,22 +19,8 @@ relations:
     target: "notes/_link/Cardiovascular Disease"
     sources:
       - s41392-022-01257-8
-  - predicate: part_of
-    target: "Basal Ganglia"
-    sources: []
-  - predicate: receives_input_from
-    target: "notes/_link/Substantia Nigra"
-    sources: []
-  - predicate: associated_with
-    target: "notes/_link/Parkinson's Disease"
-    sources: []
-  - predicate: associated_with
-    target: "notes/_link/Dopamine"
-    sources: []
 created: 2026-07-04
-updated: 2026-07-04
-database_ids:
-  mesh: D003342
+updated: 2026-07-05
 ---
 
 # Sirtuins: The Sirtuin Family in Health and Disease
@@ -179,44 +166,3 @@ The development of specific sirtuin inhibitors and activators is a rapidly expan
 - **Suggested New Notes to Create**: [[UBCS039]], [[MDL-800]], [[SirReal2]], [[EX-527]], [[NLRP3]], [[AceCS2]]
 - **Strong Connections to Strengthen**: [[Sirtuins]] ↔ [[SIRT1]], [[Sirtuins]] ↔ [[notes/_link/Aging]], [[Sirtuins]] ↔ [[Resveratrol]]
 
-# Striatum
-
-The **[[Striatum]]** is a subcortical part of the forebrain and a critical component of the basal ganglia. It consists of the [[Caudate Nucleus]] and [[Putamen]]. The striatum is involved in motor control, habit formation, reward-related learning, and stimulus-response learning.
-
-## Anatomy and Connectivity
-
-The striatum receives dopaminergic input from the [[Substantia Nigra Pars Compacta]] via the [[Nigrostriatal System]]; degeneration of this pathway is the central pathological event in [[notes/_link/Parkinson's Disease]]. It also receives cortical input from the [[Prefrontal Cortex]], forming cortico-basal ganglia loops essential for executive control.
-
-## Dopamine Signaling
-
-The [[Striatum]] is characterized by high levels of [[notes/_link/Dopamine]] and the [[Dopamine Transporter]] ([[DAT]]).
-- In the **dorsomedial striatum**, dopamine activity is crucial for [[Stimulus-response learning]].
-- Research in [[COMT]] overexpressing models shows that increased [[COMT]] activity can lead to increased dopamine release capacity in the striatum, suggesting a novel mechanism by which COMT variation impacts striatal function beyond its canonical role in the PFC.
-
-## Cellular Components
-
-The primary neurons in the striatum are [[Medium spiny neurons]] ([[MSNs]]), which comprise ~95% of striatal neurons and express either [[D1 Receptor|D1]] or [[D2 receptor|D2]] dopamine receptors, forming the direct and indirect pathways of the basal ganglia.
-
-## Clinical Significance
-
-Dysfunction in the striatum is linked to:
-- [[notes/_link/Parkinson's Disease]] — dopamine depletion in the putamen causes motor symptoms
-- [[Impulsive Behavior]] and [[Compulsive Behavior]] — associated with dysregulated striatal dopamine signaling
-- Huntington's Disease — selective degeneration of striatal MSNs
-- Obsessive-compulsive disorder — hyperactivity in cortico-striatal circuits
-
-## Connections
-
-- [[notes/_link/Dopamine]]: Major neurotransmitter signaling in the striatum.
-- [[COMT]]: Enzyme that, when overexpressed, impacts striatal dopamine release.
-- [[Prefrontal Cortex]]: Works in tandem with the striatum for executive control.
-- [[notes/_link/Parkinson's Disease]]: Striatal dopamine depletion underlies motor symptoms.
-- [[Medium spiny neurons]]: The primary cell type of the striatum.
-- [[Caudate Nucleus]] / [[Putamen]]: The two anatomical subdivisions of the striatum.
-
----
-
-### Linking Summary:
-
-- New links added: [[Caudate Nucleus]], [[Putamen]], [[Substantia Nigra Pars Compacta]], [[Nigrostriatal System]], [[notes/_link/Parkinson's Disease]], [[notes/_link/Substantia Nigra]], [[notes/_link/Dopamine]], [[Dopamine Transporter]], [[DAT]], [[Stimulus-response learning]], [[COMT]], [[Medium spiny neurons]], [[MSNs]], [[D1 Receptor]], [[D2 receptor]], [[Impulsive Behavior]], [[Compulsive Behavior]], [[Prefrontal Cortex]], [[notes/_link/Dopamine]]
-- Strong connections to strengthen: [[Striatum]] ↔ [[Nigrostriatal System]], [[Striatum]] ↔ [[notes/_link/Dopamine]]
