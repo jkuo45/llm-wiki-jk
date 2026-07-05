@@ -183,7 +183,8 @@ def main():
         "| :--- | :--- | :--- | :--- |",
     ]
     for d in document_data:
-        doc_link = f"[{d['path']}](https://github.com/jkuo45/llm-wiki/blob/dev/{urllib.parse.quote(d['path'], safe='/')})"
+        basename = os.path.basename(d['path'])
+        doc_link = f"[{basename}](https://github.com/jkuo45/llm-wiki/blob/dev/{urllib.parse.quote(d['path'], safe='/')})"
         docs_table.append(
             f"| {d['topic']} | {d['date']} | {doc_link} | {format_number(d['words'])} |"
         )
