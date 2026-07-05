@@ -169,43 +169,42 @@ def main():
     total_files, total_size, total_words = get_dir_size_and_count(notes_dir)
 
     topics_table = [
-        "| topic | last updated | documents | entities | words | disk |",
+        "| topic | updated | documents | entities | words | disk |",
         "| :--- | :--- | :---: | :---: | :---: | :---: |",
     ]
+    total_entities = 0
+    total_docs = 0
     for t in topic_data:
         topic_link = f"[{t['topic']}](https://github.com/jkuo45/llm-wiki/tree/dev/{urllib.parse.quote(notes_dir + '/' + t['topic'], safe='/')})"
         topics_table.append(
             f"| {topic_link} | {t['last_updated']} | {t['documents']} | {t['entities']} | {format_number(t['words'])} | {format_size(t['disk_size'])} |"
         )
+        total_entities += t['entities']
+        total_docs += t['documents']
+    topics_table.append(
+        "| --- | --- | ---: | ---: | ---: | ---: |"
+    )
+    topics_table.append(
+        f"| **subtotal** | {max(t['last_updated'] for t in topic_data)} | **{total_docs}** | **{total_entities}** | **{format_number(total_words)}** | **{format_size(total_size)}** |"
+    )
 
     docs_table = [
-        "| topic | date modified | document path | word count |",
+        "| topic | updated | document path | word count |",
         "| :--- | :--- | :--- | :--- |",
     ]
     for d in document_data:
-        basename = os.path.basename(d['path'])
+        basename = os.path.basename(d["path"])
         doc_link = f"[{basename}](https://github.com/jkuo45/llm-wiki/blob/dev/{urllib.parse.quote(d['path'], safe='/')})"
         docs_table.append(
             f"| {d['topic']} | {d['date']} | {doc_link} | {format_number(d['words'])} |"
         )
 
     # Build marker-delimited sections
-    summary_table_content = "## Summary Table (notes directory)\n" + "\n".join(
-        topics_table
-    )
-    summary_counts_content = (
-        "## Summary Counts (notes directory)\n"
-        f"- **last updated:** {new_timestamp}\n"
-        f"- **files:** {format_number(total_files)}\n"
-        f"- **words:** {format_number(total_words)}\n"
-        f"- **documents:** {format_number(len(document_data))}\n"
-        f"- **disk:** {format_size(total_size)}"
-    )
+    summary_table_content = "## ℹ Summary Table\n" + "\n".join(topics_table)
     doc_list_content = "## Document List\n\n" + "\n".join(docs_table)
 
     sections = {
         "summary_table": summary_table_content,
-        "summary_counts": summary_counts_content,
         "document_list": doc_list_content,
     }
 
