@@ -2,26 +2,26 @@
 
 <!-- GENERATED: summary_table -->
 ## Summary Table (notes directory)
-| topic | last updated | count entities | count documents | count words | disk size |
+| topic | last updated | documents | entities | words | disk |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| [_link](https://github.com/jkuo45/llm-wiki/tree/dev/notes/_link) | 04_JUL_2026 | 558 | 0 | 129,364 | 1.03 MB |
-| [adrenochrome](https://github.com/jkuo45/llm-wiki/tree/dev/notes/adrenochrome) | 04_JUL_2026 | 289 | 23 | 163,626 | 1.96 MB |
-| [autophagy](https://github.com/jkuo45/llm-wiki/tree/dev/notes/autophagy) | 04_JUL_2026 | 235 | 11 | 93,634 | 0.98 MB |
-| [cancer](https://github.com/jkuo45/llm-wiki/tree/dev/notes/cancer) | 04_JUL_2026 | 245 | 8 | 116,826 | 1.27 MB |
-| [comt](https://github.com/jkuo45/llm-wiki/tree/dev/notes/comt) | 04_JUL_2026 | 35 | 2 | 9,913 | 0.43 MB |
-| [epigenetics](https://github.com/jkuo45/llm-wiki/tree/dev/notes/epigenetics) | 04_JUL_2026 | 195 | 9 | 115,867 | 3.91 MB |
-| [neuromelanin](https://github.com/jkuo45/llm-wiki/tree/dev/notes/neuromelanin) | 04_JUL_2026 | 88 | 2 | 24,092 | 0.48 MB |
-| [oxidative_stress](https://github.com/jkuo45/llm-wiki/tree/dev/notes/oxidative_stress) | 04_JUL_2026 | 68 | 1 | 54,758 | 0.82 MB |
-| [sirtuins](https://github.com/jkuo45/llm-wiki/tree/dev/notes/sirtuins) | 04_JUL_2026 | 94 | 6 | 143,514 | 1.47 MB |
+| [_link](https://github.com/jkuo45/llm-wiki/tree/dev/notes/_link) | 04_JUL_2026 | 0 | 551 | 127,852 | 1.02 MB |
+| [adrenochrome](https://github.com/jkuo45/llm-wiki/tree/dev/notes/adrenochrome) | 04_JUL_2026 | 23 | 289 | 163,636 | 1.96 MB |
+| [autophagy](https://github.com/jkuo45/llm-wiki/tree/dev/notes/autophagy) | 04_JUL_2026 | 11 | 235 | 93,640 | 0.98 MB |
+| [cancer](https://github.com/jkuo45/llm-wiki/tree/dev/notes/cancer) | 04_JUL_2026 | 8 | 245 | 116,824 | 1.27 MB |
+| [comt](https://github.com/jkuo45/llm-wiki/tree/dev/notes/comt) | 04_JUL_2026 | 2 | 35 | 9,913 | 0.43 MB |
+| [epigenetics](https://github.com/jkuo45/llm-wiki/tree/dev/notes/epigenetics) | 04_JUL_2026 | 9 | 195 | 115,868 | 3.91 MB |
+| [neuromelanin](https://github.com/jkuo45/llm-wiki/tree/dev/notes/neuromelanin) | 04_JUL_2026 | 2 | 88 | 24,094 | 0.48 MB |
+| [oxidative_stress](https://github.com/jkuo45/llm-wiki/tree/dev/notes/oxidative_stress) | 04_JUL_2026 | 1 | 68 | 54,768 | 0.82 MB |
+| [sirtuins](https://github.com/jkuo45/llm-wiki/tree/dev/notes/sirtuins) | 04_JUL_2026 | 6 | 94 | 143,519 | 1.47 MB |
 <!-- END GENERATED: summary_table -->
 
 <!-- GENERATED: summary_counts -->
 ## Summary Counts (notes directory)
-- **last updated:** 04_JUL_2026 06:58 PM PDT
-- **file count:** 1,833
-- **word count:** 851,594
+- **last updated:** 04_JUL_2026 08:02 PM PDT
+- **file count:** 1,826
+- **word count:** 850,114
 - **documents:** 62
-- **disk size:** 12.35 MB
+- **disk:** 12.34 MB
 <!-- END GENERATED: summary_counts -->
 
 <!-- GENERATED: document_list -->
@@ -47,7 +47,7 @@
 | adrenochrome | 04_JUL_2026 | [_document_ - formation, chemical stability.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20formation%2C%20chemical%20stability.md) | 2,173 |
 | adrenochrome | 04_JUL_2026 | [_document_ - glycation, enzymatic removal.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20glycation%2C%20enzymatic%20removal.md) | 1,348 |
 | adrenochrome | 04_JUL_2026 | [_document_ - glyco-oxidative modulation.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20glyco-oxidative%20modulation.md) | 1,474 |
-| adrenochrome | 04_JUL_2026 | [_document_ - intermediates, precursor, hemoglobin.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20intermediates%2C%20precursor%2C%20hemoglobin.md) | 2,969 |
+| adrenochrome | 04_JUL_2026 | [_document_ - intermediates, precursor, hemoglobin.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20intermediates%2C%20precursor%2C%20hemoglobin.md) | 2,970 |
 | adrenochrome | 04_JUL_2026 | [_document_ - mitohormesis.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20mitohormesis.md) | 1,978 |
 | adrenochrome | 04_JUL_2026 | [_document_ - molecular composition, mechanism.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20molecular%20composition%2C%20mechanism.md) | 7,420 |
 | adrenochrome | 04_JUL_2026 | [_document_ - neutrophil and erthrocyte.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20neutrophil%20and%20erthrocyte.md) | 783 |
@@ -56,31 +56,31 @@
 | autophagy | 04_JUL_2026 | [_document_ - Autophagy takes it all – autophagy inducers target immune aging.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/autophagy/_document_%20-%20Autophagy%20takes%20it%20all%20%E2%80%93%20autophagy%20inducers%20target%20immune%20aging.md) | 3,900 |
 | autophagy | 04_JUL_2026 | [_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/autophagy/_document_%20-%20From%20the%20regulatory%20mechanism%20of%20TFEB%20to%20its%20therapeutic%20implications%20-%20Cell%20Death%20Discovery.md) | 8,579 |
 | autophagy | 04_JUL_2026 | [_document_ - Kinase.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/autophagy/_document_%20-%20Kinase.md) | 518 |
-| autophagy | 03_JUL_2026 | [_document_ - Lysosome biogenesis Regulation and functions.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/autophagy/_document_%20-%20Lysosome%20biogenesis%20Regulation%20and%20functions.md) | 7,476 |
-| autophagy | 29_JUN_2026 | [_document_ - MXL-3 and HLH-30 transcriptionally link lipolysis and autophagy to nutrient availability.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/autophagy/_document_%20-%20MXL-3%20and%20HLH-30%20transcriptionally%20link%20lipolysis%20and%20autophagy%20to%20nutrient%20availability.md) | 8,221 |
+| autophagy | 04_JUL_2026 | [_document_ - Lysosome biogenesis Regulation and functions.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/autophagy/_document_%20-%20Lysosome%20biogenesis%20Regulation%20and%20functions.md) | 7,476 |
+| autophagy | 04_JUL_2026 | [_document_ - MXL-3 and HLH-30 transcriptionally link lipolysis and autophagy to nutrient availability.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/autophagy/_document_%20-%20MXL-3%20and%20HLH-30%20transcriptionally%20link%20lipolysis%20and%20autophagy%20to%20nutrient%20availability.md) | 8,221 |
 | autophagy | 04_JUL_2026 | [_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/autophagy/_document_%20-%20TFEB%20AND%20TFE3%2C%20LINKING%20LYSOSOMES%20TO%20CELLULAR%20ADAPTATION%20TO%20STRESS.md) | 7,866 |
 | autophagy | 04_JUL_2026 | [_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/autophagy/_document_%20-%20The%20Beneficial%20and%20Adverse%20Effects%20of%20Autophagic%20Response%20to%20Caloric%20Restriction%20and%20Fasting.md) | 6,054 |
 | autophagy | 04_JUL_2026 | [_document_ - The autophagy enhancer spermidine reverses arterial aging.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/autophagy/_document_%20-%20The%20autophagy%20enhancer%20spermidine%20reverses%20arterial%20aging.md) | 1,546 |
-| autophagy | 04_JUL_2026 | [_document_ - mTOR signaling at a glance.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/autophagy/_document_%20-%20mTOR%20signaling%20at%20a%20glance.md) | 6,584 |
+| autophagy | 04_JUL_2026 | [_document_ - mTOR signaling at a glance.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/autophagy/_document_%20-%20mTOR%20signaling%20at%20a%20glance.md) | 6,589 |
 | autophagy | 29_JUN_2026 | [_document_ - peroxisomes, autophagy.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/autophagy/_document_%20-%20peroxisomes%2C%20autophagy.md) | 5,482 |
 | cancer | 04_JUL_2026 | [_document_ - Apoptosis in cancer from pathogenesis to treatment.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/cancer/_document_%20-%20Apoptosis%20in%20cancer%20from%20pathogenesis%20to%20treatment.md) | 10,375 |
 | cancer | 04_JUL_2026 | [_document_ - Caspase.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/cancer/_document_%20-%20Caspase.md) | 1,226 |
-| cancer | 03_JUL_2026 | [_document_ - Evading apoptosis in cancer.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/cancer/_document_%20-%20Evading%20apoptosis%20in%20cancer.md) | 12,361 |
-| cancer | 29_JUN_2026 | [_document_ - Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/cancer/_document_%20-%20Honeybee%20venom%20and%20melittin%20suppress%20growth%20factor%20receptor%20activation%20in%20HER2-enriched%20and%20triple-negative%20breast%20cancer%20-%20npj%20Precision%20Oncology.md) | 12,626 |
-| cancer | 03_JUL_2026 | [_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/cancer/_document_%20-%20Ivermectin%2C%20a%20potential%20anticancer%20drug%20derived%20from%20an%20antiparasitic%20drug.md) | 10,575 |
-| cancer | 25_MAY_2026 | [_document_ - Ivermectin, ‘Wonder drug’ from Japan the human use perspective.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/cancer/_document_%20-%20Ivermectin%2C%20%E2%80%98Wonder%20drug%E2%80%99%20from%20Japan%20the%20human%20use%20perspective.md) | 7,484 |
-| cancer | 29_JUN_2026 | [_document_ - Oral Fenbendazole for Cancer Therapy in Humans and Animals.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/cancer/_document_%20-%20Oral%20Fenbendazole%20for%20Cancer%20Therapy%20in%20Humans%20and%20Animals.md) | 555 |
-| cancer | 25_MAY_2026 | [_document_ - RGD peptide in cancer targeting Benefits, challenges, solutions, and possible integrin–RGD interactions.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/cancer/_document_%20-%20RGD%20peptide%20in%20cancer%20targeting%20Benefits%2C%20challenges%2C%20solutions%2C%20and%20possible%20integrin%E2%80%93RGD%20interactions.md) | 27,411 |
+| cancer | 04_JUL_2026 | [_document_ - Evading apoptosis in cancer.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/cancer/_document_%20-%20Evading%20apoptosis%20in%20cancer.md) | 12,361 |
+| cancer | 04_JUL_2026 | [_document_ - Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/cancer/_document_%20-%20Honeybee%20venom%20and%20melittin%20suppress%20growth%20factor%20receptor%20activation%20in%20HER2-enriched%20and%20triple-negative%20breast%20cancer%20-%20npj%20Precision%20Oncology.md) | 12,624 |
+| cancer | 04_JUL_2026 | [_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/cancer/_document_%20-%20Ivermectin%2C%20a%20potential%20anticancer%20drug%20derived%20from%20an%20antiparasitic%20drug.md) | 10,575 |
+| cancer | 04_JUL_2026 | [_document_ - Ivermectin, ‘Wonder drug’ from Japan the human use perspective.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/cancer/_document_%20-%20Ivermectin%2C%20%E2%80%98Wonder%20drug%E2%80%99%20from%20Japan%20the%20human%20use%20perspective.md) | 7,484 |
+| cancer | 04_JUL_2026 | [_document_ - Oral Fenbendazole for Cancer Therapy in Humans and Animals.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/cancer/_document_%20-%20Oral%20Fenbendazole%20for%20Cancer%20Therapy%20in%20Humans%20and%20Animals.md) | 555 |
+| cancer | 04_JUL_2026 | [_document_ - RGD peptide in cancer targeting Benefits, challenges, solutions, and possible integrin–RGD interactions.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/cancer/_document_%20-%20RGD%20peptide%20in%20cancer%20targeting%20Benefits%2C%20challenges%2C%20solutions%2C%20and%20possible%20integrin%E2%80%93RGD%20interactions.md) | 27,411 |
 | comt | 04_JUL_2026 | [_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/comt/_document_%20-%20COMT%20How%20to%20Optimize%20Your%20Supplements%20for%20Your%20COMT%20Genotype.md) | 2,304 |
 | comt | 04_JUL_2026 | [_document_ - Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/comt/_document_%20-%20Genetic%20variation%20in%20COMT%20activity%20impacts%20learning%20and%20dopamine%20release%20capacity%20in%20the%20striatum.md) | 1,848 |
-| epigenetics | 03_JUL_2026 | [_document_ - Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/epigenetics/_document_%20-%20Application%20of%20the%20Yamanaka%20Transcription%20Factors%20Oct4%2C%20Sox2%2C%20Klf4%2C%20and%20c-Myc%20from%20the%20Laboratory%20to%20the%20Clinic.md) | 7,214 |
-| epigenetics | 04_JUL_2026 | [_document_ - Cellular Mechanisms and Regulation of Quiescence.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/epigenetics/_document_%20-%20Cellular%20Mechanisms%20and%20Regulation%20of%20Quiescence.md) | 8,004 |
-| epigenetics | 03_JUL_2026 | [_document_ - Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/epigenetics/_document_%20-%20Epigenetic%20alterations%E2%80%94The%20silent%20indicator%20for%20early%20aging%20and%20age%E2%80%90associated%20health%E2%80%90risks.md) | 4,599 |
-| epigenetics | 04_JUL_2026 | [_document_ - Epigenetic changes during aging and their reprogramming potential.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/epigenetics/_document_%20-%20Epigenetic%20changes%20during%20aging%20and%20their%20reprogramming%20potential.md) | 10,873 |
-| epigenetics | 29_JUN_2026 | [_document_ - Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/epigenetics/_document_%20-%20Molecular%20Insights%20into%20Reprogramming-Initiation%20Events%20Mediated%20by%20the%20OSKM%20Gene%20Regulatory%20Network.md) | 13,264 |
+| epigenetics | 04_JUL_2026 | [_document_ - Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/epigenetics/_document_%20-%20Application%20of%20the%20Yamanaka%20Transcription%20Factors%20Oct4%2C%20Sox2%2C%20Klf4%2C%20and%20c-Myc%20from%20the%20Laboratory%20to%20the%20Clinic.md) | 7,210 |
+| epigenetics | 04_JUL_2026 | [_document_ - Cellular Mechanisms and Regulation of Quiescence.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/epigenetics/_document_%20-%20Cellular%20Mechanisms%20and%20Regulation%20of%20Quiescence.md) | 8,012 |
+| epigenetics | 04_JUL_2026 | [_document_ - Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/epigenetics/_document_%20-%20Epigenetic%20alterations%E2%80%94The%20silent%20indicator%20for%20early%20aging%20and%20age%E2%80%90associated%20health%E2%80%90risks.md) | 4,592 |
+| epigenetics | 04_JUL_2026 | [_document_ - Epigenetic changes during aging and their reprogramming potential.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/epigenetics/_document_%20-%20Epigenetic%20changes%20during%20aging%20and%20their%20reprogramming%20potential.md) | 10,872 |
+| epigenetics | 04_JUL_2026 | [_document_ - Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/epigenetics/_document_%20-%20Molecular%20Insights%20into%20Reprogramming-Initiation%20Events%20Mediated%20by%20the%20OSKM%20Gene%20Regulatory%20Network.md) | 13,264 |
 | epigenetics | 04_JUL_2026 | [_document_ - Small molecule compounds that induce cellular senescence.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/epigenetics/_document_%20-%20Small%20molecule%20compounds%20that%20induce%20cellular%20senescence.md) | 13,945 |
-| epigenetics | 04_JUL_2026 | [_document_ - The Gut Microbiome, Aging, and Longevity A Systematic Review.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/epigenetics/_document_%20-%20The%20Gut%20Microbiome%2C%20Aging%2C%20and%20Longevity%20A%20Systematic%20Review.md) | 12,838 |
-| epigenetics | 25_MAY_2026 | [_document_ - This method to reverse cellular aging is about to be tested in humans.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/epigenetics/_document_%20-%20This%20method%20to%20reverse%20cellular%20aging%20is%20about%20to%20be%20tested%20in%20humans.md) | 2,345 |
+| epigenetics | 04_JUL_2026 | [_document_ - The Gut Microbiome, Aging, and Longevity A Systematic Review.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/epigenetics/_document_%20-%20The%20Gut%20Microbiome%2C%20Aging%2C%20and%20Longevity%20A%20Systematic%20Review.md) | 12,840 |
+| epigenetics | 04_JUL_2026 | [_document_ - This method to reverse cellular aging is about to be tested in humans.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/epigenetics/_document_%20-%20This%20method%20to%20reverse%20cellular%20aging%20is%20about%20to%20be%20tested%20in%20humans.md) | 2,345 |
 | epigenetics | 04_JUL_2026 | [_document_ - xenohormesis, mitohormesis.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/epigenetics/_document_%20-%20xenohormesis%2C%20mitohormesis.md) | 1,388 |
 | neuromelanin | 04_JUL_2026 | [_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/neuromelanin/_document_%20-%20Neuromelanin%2C%20aging%2C%20and%20neuronal%20vulnerability%20in%20Parkinson%27s%20disease.md) | 9,727 |
 | neuromelanin | 04_JUL_2026 | [_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/neuromelanin/_document_%20-%20Neuromelanin%2C%20one%20of%20the%20most%20overlooked%20molecules%20in%20modern%20medicine%2C%20is%20not%20a%20spectator.md) | 3,771 |
