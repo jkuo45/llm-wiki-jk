@@ -23,7 +23,7 @@ tags:
 
 ## Resveratrol and SIRT1
 
-The interaction between **[[Resveratrol]]** (a natural polyphenolic compound found in grapes, berries, and red wine) and **[[SIRT1]]** (Sirtuin 1, an [[NAD+]]-dependent deacetylase) is one of the most thoroughly researched pathways in molecular biology. SIRT1 plays a vital role in regulating cellular health, metabolic homeostasis, inflammation, mitochondrial function, and aging.
+The interaction between **[Resveratrol](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/Resveratrol.md)** (a natural polyphenolic compound found in grapes, berries, and red wine) and **[SIRT1](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/SIRT1.md)** (Sirtuin 1, an [NAD+](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/NAD+.md)-dependent deacetylase) is one of the most thoroughly researched pathways in molecular biology. SIRT1 plays a vital role in regulating cellular health, metabolic homeostasis, inflammation, mitochondrial function, and aging.
 
 Initially, the mechanism by which resveratrol activates SIRT1 was a subject of scientific controversy. However, research has clarified that resveratrol activates SIRT1 through a combination of **direct allosteric activation** and **indirect, network-based pathways**.
 
@@ -58,17 +58,17 @@ Subsequent structural biology and biochemical studies resolved this, demonstrati
 
 - **Binding Site:** Resveratrol binds to a specific region within the N-terminal domain (NTD) of SIRT1 (specifically requiring the **Glutamate 230 (E230)** residue).
 - **Conformational Change:** Upon binding, resveratrol stabilizes the interaction between SIRT1's NTD and the substrate.
-- **Substrate Selectivity:** This binding induces a conformational change that lowers the Michaelis constant (Km) of SIRT1 for specific target proteins. This means SIRT1 develops a much higher affinity for key physiological substrates, such as **[[PGC-1α]]** and **[[FOXO3a]]**, promoting their deacetylation even at lower baseline levels.
+- **Substrate Selectivity:** This binding induces a conformational change that lowers the Michaelis constant (Km) of SIRT1 for specific target proteins. This means SIRT1 develops a much higher affinity for key physiological substrates, such as **[PGC-1α](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/PGC-1α.md)** and **[FOXO3a](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/FOXO3a.md)**, promoting their deacetylation even at lower baseline levels.
 
 #### B. Indirect Activation (The AMPK-PDE Axis)
 
-While direct binding occurs, a significant portion of resveratrol's in vivo effects is mediated indirectly by increasing cellular levels of nicotinamide adenine dinucleotide ([[NAD+]]), the obligate co-substrate for SIRT1 activity.
+While direct binding occurs, a significant portion of resveratrol's in vivo effects is mediated indirectly by increasing cellular levels of nicotinamide adenine dinucleotide ([NAD+](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/NAD+.md)), the obligate co-substrate for SIRT1 activity.
 
-1. **Phosphodiesterase (PDE) Inhibition:** Resveratrol acts as a competitive inhibitor of cyclic adenosine monophosphate ([[cAMP]]) phosphodiesterases (specifically **[[PDE4]]**).
+1. **Phosphodiesterase (PDE) Inhibition:** Resveratrol acts as a competitive inhibitor of cyclic adenosine monophosphate ([cAMP](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/cAMP.md)) phosphodiesterases (specifically **[PDE4](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/PDE4.md)**).
 2. **cAMP Accumulation:** Inhibiting PDE prevents cAMP degradation, leading to an accumulation of intracellular cAMP.
-3. **Calcium Signaling:** High cAMP activates **[[Epac1]]** (Exchange Protein directly Activated by cAMP), which triggers the release of Calcium ([[Ca2+]]) from the endoplasmic reticulum into the cytoplasm.
-4. **AMPK Activation:** The surge in cytoplasmic Ca2+ activates **[[CaMKKβ]]** (calmodulin-dependent protein kinase kinase beta), which phosphorylates and activates **[[AMPK]]** (AMP-activated protein kinase).
-5. **NAD+ Synthesis:** Activated AMPK increases the expression of **[[NAMPT]]** (nicotinamide phosphoribosyltransferase), the rate-limiting enzyme in the [[NAD+]] salvage pathway.
+3. **Calcium Signaling:** High cAMP activates **[Epac1](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/Epac1.md)** (Exchange Protein directly Activated by cAMP), which triggers the release of Calcium (**Ca2+**) from the endoplasmic reticulum into the cytoplasm.
+4. **AMPK Activation:** The surge in cytoplasmic Ca2+ activates **[CaMKKβ](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/CaMKKβ.md)** (calmodulin-dependent protein kinase kinase beta), which phosphorylates and activates **[AMPK](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/AMPK.md)** (AMP-activated protein kinase).
+5. **NAD+ Synthesis:** Activated AMPK increases the expression of **[NAMPT](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/NAMPT.md)** (nicotinamide phosphoribosyltransferase), the rate-limiting enzyme in the [NAD+](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/NAD+.md) salvage pathway.
 6. **SIRT1 Stimulation:** The resulting boost in cellular NAD+ levels fuels SIRT1, dramatically increasing its deacetylase activity.
 
 ### Downstream Effects of SIRT1 Activation
@@ -77,29 +77,29 @@ Once activated by resveratrol, SIRT1 deacetylates several downstream transcripti
 
 #### PGC-1α (Mitochondrial Biogenesis)
 
-- **Mechanism:** SIRT1 deacetylates **[[PGC-1α]]** (peroxisome proliferator-activated receptor-gamma coactivator 1-alpha).
-- **Result:** Deacetylated PGC-1α becomes active, migrating to the nucleus to drive the transcription of nuclear and mitochondrial genes. This leads to **[[Mitochondrial Biogenesis]]**, increased oxygen consumption, and enhanced oxidative phosphorylation (OXPHOS).
+- **Mechanism:** SIRT1 deacetylates **[PGC-1α](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/PGC-1α.md)** (peroxisome proliferator-activated receptor-gamma coactivator 1-alpha).
+- **Result:** Deacetylated PGC-1α becomes active, migrating to the nucleus to drive the transcription of nuclear and mitochondrial genes. This leads to **[Mitochondrial Biogenesis](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/Mitochondrial Biogenesis.md)**, increased oxygen consumption, and enhanced oxidative phosphorylation (OXPHOS).
 
 #### FOXO Transcription Factors (Stress Resistance & Autophagy)
 
-- **Mechanism:** SIRT1 deacetylates **[[FOXO1]]** and **[[FOXO3a]]**.
-- **Result:** This shifts FOXO-mediated transcription away from apoptosis-inducing genes and toward stress-resistance genes. It upregulates endogenous antioxidant enzymes (such as **[[SOD2]]** and **Catalase**) and induces autophagy genes, allowing cells to clear damaged proteins and organelles.
+- **Mechanism:** SIRT1 deacetylates ****FOXO1**** and **[FOXO3a](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/FOXO3a.md)**.
+- **Result:** This shifts FOXO-mediated transcription away from apoptosis-inducing genes and toward stress-resistance genes. It upregulates endogenous antioxidant enzymes (such as **[SOD2](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/SOD2.md)** and **Catalase**) and induces autophagy genes, allowing cells to clear damaged proteins and organelles.
 
 #### NF-κB (Anti-Inflammatory Effects)
 
-- **Mechanism:** SIRT1 deacetylates the **p65 subunit of [[NFKB|NF-κB]]** (Nuclear Factor kappa B).
+- **Mechanism:** SIRT1 deacetylates the **p65 subunit of [NF-κB](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/NFKB.md)** (Nuclear Factor kappa B).
 - **Result:** Deacetylation inhibits NF-κB's transcriptional activity, preventing it from binding to DNA. This downregulates the expression of pro-inflammatory cytokines (such as **TNF-α**, **IL-1β**, and **IL-6**), making resveratrol a highly potent anti-inflammatory agent.
 
 #### p53 (Cell Survival vs. Apoptosis)
 
-- **Mechanism:** SIRT1 deacetylates the tumor suppressor **[[p53]]**.
+- **Mechanism:** SIRT1 deacetylates the tumor suppressor **[p53](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/p53.md)**.
 - **Result:** Deacetylation of p53 reduces its transcriptional activity, suppressing p53-mediated apoptosis under moderate cellular stress. This allows cells time to undergo DNA repair rather than undergoing programmed cell death.
 
 ### Therapeutic Implications
 
 The resveratrol-SIRT1 axis has been studied extensively across several broad domains of health:
 
-- **Metabolic Health:** By activating the AMPK/SIRT1/PGC-1α pathway, resveratrol mimics many of the physiological effects of [[Caloric Restriction]]. In animal models of diet-induced obesity, it has been shown to improve [[Insulin Sensitivity]], reduce hepatic steatosis (fatty liver), and lower blood glucose levels.
+- **Metabolic Health:** By activating the AMPK/SIRT1/PGC-1α pathway, resveratrol mimics many of the physiological effects of [Caloric Restriction](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/Caloric Restriction.md). In animal models of diet-induced obesity, it has been shown to improve [Insulin Sensitivity](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/Insulin Sensitivity.md), reduce hepatic steatosis (fatty liver), and lower blood glucose levels.
 - **Cardiovascular Protection:** Endothelial SIRT1 activation by resveratrol increases the expression and activity of **eNOS** (endothelial nitric oxide synthase). This promotes nitric oxide production, resulting in vasodilation, improved blood pressure regulation, and reduced oxidative damage in vascular walls.
 - **Neuroprotection:** In neurodegenerative models, resveratrol-mediated SIRT1 activation promotes the clearance of misfolded protein aggregates and enhances neuronal survival.
 
@@ -117,18 +117,18 @@ Despite the robust biochemistry observed in laboratory settings, translating res
 
 ## SIRT2–SIRT7 Modulators
 
-While SIRT1 is the most heavily studied member of the sirtuin family, mammals possess six other sirtuins (**[[SIRT2]] to [[SIRT7]]**) localized in distinct cellular compartments. Like SIRT1, they are all NAD+-dependent enzymes, but they exhibit diverse catalytic activities — including deacetylation, demalonylation, desuccinylation, and [[ADP-ribosylation]].
+While SIRT1 is the most heavily studied member of the sirtuin family, mammals possess six other sirtuins (**[SIRT2](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/SIRT2.md) to [SIRT7](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/SIRT7.md)**) localized in distinct cellular compartments. Like SIRT1, they are all NAD+-dependent enzymes, but they exhibit diverse catalytic activities — including deacetylation, demalonylation, desuccinylation, and [ADP-ribosylation](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/ADP-ribosylation.md).
 
-Over the years, researchers have identified several natural and synthetic compounds capable of modulating these other sirtuins. The most notable progress has been made with **[[SIRT3]]** and **[[SIRT6]]**, while others present unique structural challenges that favor inhibition rather than activation.
+Over the years, researchers have identified several natural and synthetic compounds capable of modulating these other sirtuins. The most notable progress has been made with **[SIRT3](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/SIRT3.md)** and **[SIRT6](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/SIRT6.md)**, while others present unique structural challenges that favor inhibition rather than activation.
 
 ### SIRT3 Activators (Mitochondrial Deacetylase)
 
-[[SIRT3]] is the primary deacetylase inside the mitochondria. It deacetylates enzymes involved in the tricarboxylic acid (TCA) cycle, fatty acid oxidation, the urea cycle, and oxidative phosphorylation.
+[SIRT3](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/SIRT3.md) is the primary deacetylase inside the mitochondria. It deacetylates enzymes involved in the tricarboxylic acid (TCA) cycle, fatty acid oxidation, the urea cycle, and oxidative phosphorylation.
 
 #### Key Compounds
 
-- **[[Honokiol]] (HKL):** A natural biphenolic lignan extracted from the bark of *Magnolia grandiflora*.
-- **[[Dihydromyricetin]] (DHM):** A natural flavonoid found in plants like the *Ampelopsis grossedentata* (Vine Tea).
+- **[Honokiol](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/Honokiol.md) (HKL):** A natural biphenolic lignan extracted from the bark of *Magnolia grandiflora*.
+- **[Dihydromyricetin](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/Dihydromyricetin.md) (DHM):** A natural flavonoid found in plants like the *Ampelopsis grossedentata* (Vine Tea).
 - **1,4-Dihydropyridines (DHPs):** Synthetic compounds engineered to allosterically activate mitochondrial sirtuins.
 
 ```
@@ -149,22 +149,22 @@ Over the years, researchers have identified several natural and synthetic compou
 
 - **Direct Binding and Expression:** Honokiol has been shown to physically interact with SIRT3, increasing its deacetylase activity and upregulating its protein expression.
 - **Targeting MnSOD (Manganese Superoxide Dismutase):** Once activated, SIRT3 deacetylates MnSOD (at lysine residues K68 and K122). Deacetylated MnSOD becomes highly active, converting damaging superoxide radicals into hydrogen peroxide, which dramatically lowers mitochondrial oxidative stress.
-- **Enhancing ATP Synthesis:** SIRT3 deacetylates **[[OSCP]]** (oligomycin-sensitivity conferring protein), a subunit of the mitochondrial F1Fo-ATPase. This modification optimizes ATP synthase coupling, boosting cellular energy output while minimizing mitochondrial "leakage" and fission.
+- **Enhancing ATP Synthesis:** SIRT3 deacetylates **[OSCP](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/OSCP.md)** (oligomycin-sensitivity conferring protein), a subunit of the mitochondrial F1Fo-ATPase. This modification optimizes ATP synthase coupling, boosting cellular energy output while minimizing mitochondrial "leakage" and fission.
 
 #### Physiological Impact
 
-- **Cardioprotection:** Honokiol-mediated SIRT3 activation has been shown to reverse [[Cardiac Hypertrophy]] and protect heart tissue from doxorubicin-induced cardiotoxicity without blunting the drug's anti-tumor activity in preclinical models.
+- **Cardioprotection:** Honokiol-mediated SIRT3 activation has been shown to reverse [Cardiac Hypertrophy](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/Cardiac Hypertrophy.md) and protect heart tissue from doxorubicin-induced cardiotoxicity without blunting the drug's anti-tumor activity in preclinical models.
 - **Anti-Fibrotic Effects:** In kidneys, activating SIRT3 with Honokiol suppresses the NF-κB/TGF-β1 pathway, limiting renal tubulointerstitial fibrosis.
 
 ### SIRT6 Activators (Nuclear Deacetylase & Deacylase)
 
-[[SIRT6]] is a nuclear scaffold protein essential for DNA repair, telomere maintenance, glycolysis suppression, and genomic stability. Uniquely, SIRT6 has a very high affinity for removing long-chain fatty acyl groups (such as myristoyl and palmitoyl groups) from histones rather than simple acetyl groups.
+[SIRT6](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/SIRT6.md) is a nuclear scaffold protein essential for DNA repair, telomere maintenance, glycolysis suppression, and genomic stability. Uniquely, SIRT6 has a very high affinity for removing long-chain fatty acyl groups (such as myristoyl and palmitoyl groups) from histones rather than simple acetyl groups.
 
 #### Key Compounds
 
-- **[[UBCS039]]:** The first synthetic, specific allosteric activator of SIRT6.
-- **[[MDL-800]] & [[MDL-801]]:** Highly potent, cell-permeable synthetic allosteric activators of SIRT6.
-- **[[Cyanidin]]:** A natural anthocyanidin (found in red berries) capable of increasing SIRT6 activity by over 50-fold in certain in vitro assays.
+- **[UBCS039](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/UBCS039.md):** The first synthetic, specific allosteric activator of SIRT6.
+- **[MDL-800](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/MDL-800.md) & [MDL-801](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/MDL-801.md):** Highly potent, cell-permeable synthetic allosteric activators of SIRT6.
+- **[Cyanidin](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/Cyanidin.md):** A natural anthocyanidin (found in red berries) capable of increasing SIRT6 activity by over 50-fold in certain in vitro assays.
 
 ```
 [ UBCS039 / MDL-801 / Cyanidin ]
@@ -197,10 +197,10 @@ Over the years, researchers have identified several natural and synthetic compou
 
 ### SIRT5 Activators (Mitochondrial Desuccinylase & Demalonylase)
 
-[[SIRT5]] is located in the mitochondria but possesses virtually no deacetylase activity. Instead, its catalytic pocket contains specific residues (Arg105 and Tyr102) that favor negatively charged modifications, making SIRT5 an active **desuccinylase**, **demalonylase**, and **deglutarylase**.
+[SIRT5](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/SIRT5.md) is located in the mitochondria but possesses virtually no deacetylase activity. Instead, its catalytic pocket contains specific residues (Arg105 and Tyr102) that favor negatively charged modifications, making SIRT5 an active **desuccinylase**, **demalonylase**, and **deglutarylase**.
 
 - **Compounds:** Specific **1,4-dihydropyridine (DHP)** derivatives have been synthesized that selectively activate SIRT5, though research on specific clinical candidates is in earlier stages compared to SIRT1, 3, and 6.
-- **Mechanism & Physiological Impact:** SIRT5 activation de-succinylated **[[CPS1]]** (carbamoyl phosphate synthase 1), the rate-limiting enzyme of the urea cycle. This action regulates ammonia detoxification and maintains metabolic flux under fasting or high-protein diet conditions.
+- **Mechanism & Physiological Impact:** SIRT5 activation de-succinylated **[CPS1](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/CPS1.md)** (carbamoyl phosphate synthase 1), the rate-limiting enzyme of the urea cycle. This action regulates ammonia detoxification and maintains metabolic flux under fasting or high-protein diet conditions.
 
 ### Sirtuins Lacking Prominent Activators (SIRT2, SIRT4, SIRT7)
 
@@ -209,28 +209,28 @@ For the remaining sirtuins, therapeutic strategies generally focus on **inhibiti
 #### SIRT2 (Cytoplasmic Deacetylase)
 
 - **The Paradigm:** SIRT2 deacetylates tubulin and plays a critical role in cell cycle progression, myelination, and myelin maintenance.
-- **Inhibitors over Activators:** Direct activation of SIRT2 is rarely sought because its overactivity is associated with neurotoxicity. Instead, **SIRT2 inhibitors** (e.g., **[[AGK2]]**, **AK-7**, and **[[SirReal2]]**) are being heavily investigated for neurodegenerative diseases like Parkinson's and Huntington's, where blocking SIRT2 helps rescue microtubule stability and protects neurons from aggregation-induced toxicity.
+- **Inhibitors over Activators:** Direct activation of SIRT2 is rarely sought because its overactivity is associated with neurotoxicity. Instead, **SIRT2 inhibitors** (e.g., **[AGK2](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/AGK2.md)**, **AK-7**, and **[SirReal2](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/SirReal2.md)**) are being heavily investigated for neurodegenerative diseases like Parkinson's and Huntington's, where blocking SIRT2 helps rescue microtubule stability and protects neurons from aggregation-induced toxicity.
 
 #### SIRT4 (Mitochondrial Lipoamidase & ADP-Ribosyltransferase)
 
-- **The Challenge:** [[SIRT4]] has incredibly weak deacetylase activity. It primarily acts to ADP-ribosylate and inhibit **[[Glutamate Dehydrogenase (GDH)|Glutamate Dehydrogenase]]**, opposing SIRT3 by downregulating insulin secretion and amino acid-stimulated metabolism.
+- **The Challenge:** [SIRT4](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/SIRT4.md) has incredibly weak deacetylase activity. It primarily acts to ADP-ribosylate and inhibit **[Glutamate Dehydrogenase](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/Glutamate Dehydrogenase (GDH).md)**, opposing SIRT3 by downregulating insulin secretion and amino acid-stimulated metabolism.
 - **Compounds:** No selective, potent direct small-molecule activators of SIRT4 are currently established.
 
 #### SIRT7 (Nucleolar Deacetylase)
 
-- **The Challenge:** [[SIRT7]] is highly localized to the nucleolus and deacetylates histone **H3K18** to regulate ribosome biogenesis. Due to its highly restricted, nucleolar-specific microenvironment, developing selective small-molecule activators has remained structurally challenging, with no dominant drug candidates in advanced development.
+- **The Challenge:** [SIRT7](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/SIRT7.md) is highly localized to the nucleolus and deacetylates histone **H3K18** to regulate ribosome biogenesis. Due to its highly restricted, nucleolar-specific microenvironment, developing selective small-molecule activators has remained structurally challenging, with no dominant drug candidates in advanced development.
 
 ### Summary of Sirtuin Activators
 
 | Sirtuin | Localization | Activity | Notable Activators | Key Targets / Effects |
 |---------|-------------|----------|-------------------|----------------------|
-| **[[SIRT1]]** | Nucleus / Cytoplasm | Deacetylation | [[Resveratrol]], [[SRT1720]] | [[PGC-1α]], [[FOXO3a]], [[NFKB\|NF-κB]]; metabolic homeostasis |
-| **[[SIRT2]]** | Cytoplasm | Deacetylation | None prominent (inhibitors used) | Microtubule/tubulin regulation |
-| **[[SIRT3]]** | Mitochondria | Deacetylation | [[Honokiol]], [[Dihydromyricetin]] | [[MnSOD]], [[OSCP]]; mitochondrial biogenesis, ROS reduction |
-| **[[SIRT4]]** | Mitochondria | ADP-ribosylation, Lipoamidase | None prominent | GDH regulation, insulin secretion |
-| **[[SIRT5]]** | Mitochondria | Desuccinylase, Demalonylase | DHP derivatives (early stage) | [[CPS1]], urea cycle regulation |
-| **[[SIRT6]]** | Nucleus | Deacetylation, Deacylation | [[UBCS039]], [[MDL-801]], [[Cyanidin]] | H3K9/H3K56, DNA repair, autophagy |
-| **[[SIRT7]]** | Nucleolus | Deacetylation | None prominent | H3K18, ribosome biogenesis |
+| **[SIRT1](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/SIRT1.md)** | Nucleus / Cytoplasm | Deacetylation | [Resveratrol](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/Resveratrol.md), [SRT1720](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/SRT1720.md) | [PGC-1α](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/PGC-1α.md), [FOXO3a](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/FOXO3a.md), **NF-κB**; metabolic homeostasis |
+| **[SIRT2](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/SIRT2.md)** | Cytoplasm | Deacetylation | None prominent (inhibitors used) | Microtubule/tubulin regulation |
+| **[SIRT3](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/SIRT3.md)** | Mitochondria | Deacetylation | [Honokiol](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/Honokiol.md), [Dihydromyricetin](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/Dihydromyricetin.md) | [MnSOD](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/MnSOD.md), [OSCP](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/OSCP.md); mitochondrial biogenesis, ROS reduction |
+| **[SIRT4](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/SIRT4.md)** | Mitochondria | ADP-ribosylation, Lipoamidase | None prominent | GDH regulation, insulin secretion |
+| **[SIRT5](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/SIRT5.md)** | Mitochondria | Desuccinylase, Demalonylase | DHP derivatives (early stage) | [CPS1](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/CPS1.md), urea cycle regulation |
+| **[SIRT6](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/SIRT6.md)** | Nucleus | Deacetylation, Deacylation | [UBCS039](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/UBCS039.md), [MDL-801](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/MDL-801.md), [Cyanidin](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/Cyanidin.md) | H3K9/H3K56, DNA repair, autophagy |
+| **[SIRT7](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/SIRT7.md)** | Nucleolus | Deacetylation | None prominent | H3K18, ribosome biogenesis |
 
 > [!tip] Universal NAD+ Boosters
 > To boost NAD+ levels, precursors like **NMN (Nicotinamide Mononucleotide)** and **NR (Nicotinamide Riboside)** serve as universal, indirect pan-sirtuin activators by raising the concentration of their required co-substrate.
@@ -260,7 +260,7 @@ Resveratrol is found primarily in the skins of red grapes, red wine, peanuts, co
 
 ### Dihydromyricetin / DHM (SIRT3 Activator)
 
-[[Dihydromyricetin]] is a flavonoid found predominantly in **Vine Tea** (also known as Rattan Tea or Teng Cha; *Ampelopsis grossedentata*), a traditional herbal beverage consumed in Southwestern China.
+[Dihydromyricetin](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/Dihydromyricetin.md) is a flavonoid found predominantly in **Vine Tea** (also known as Rattan Tea or Teng Cha; *Ampelopsis grossedentata*), a traditional herbal beverage consumed in Southwestern China.
 
 - **Target Therapeutic Daily Dose:** Typically **100 mg to 300 mg** (often utilized at 300 mg to 600 mg for metabolic health or liver protection).
 - **Concentration in Diet:**
@@ -273,7 +273,7 @@ Resveratrol is found primarily in the skins of red grapes, red wine, peanuts, co
 
 ### Cyanidin / Cyanidin-3-Glucoside (SIRT6 Activator)
 
-[[Cyanidin]] and its primary derivative, cyanidin-3-glucoside (C3G), are natural anthocyanidins responsible for the deep red, blue, and purple pigments in dark berries.
+[Cyanidin](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/Cyanidin.md) and its primary derivative, cyanidin-3-glucoside (C3G), are natural anthocyanidins responsible for the deep red, blue, and purple pigments in dark berries.
 
 - **Target Therapeutic Daily Dose:** Clinical and animal extrapolations generally target **100 mg to 300 mg** of cyanidin-3-glucoside daily.
 - **Concentration in Diet:**
@@ -289,7 +289,7 @@ Resveratrol is found primarily in the skins of red grapes, red wine, peanuts, co
 
 ### Honokiol (SIRT3 Activator)
 
-[[Honokiol]] is not found in standard grocery store foods. Its primary source is the bark of the **Magnolia tree** (*Magnolia grandiflora* or *Magnolia officinalis*), which is commonly used in traditional Asian medicine as a brewed herbal decoction (tea).
+[Honokiol](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/Honokiol.md) is not found in standard grocery store foods. Its primary source is the bark of the **Magnolia tree** (*Magnolia grandiflora* or *Magnolia officinalis*), which is commonly used in traditional Asian medicine as a brewed herbal decoction (tea).
 
 - **Target Therapeutic Daily Dose:** Typically **100 mg to 300 mg** daily.
 - **Concentration in Diet:**
@@ -303,19 +303,20 @@ Resveratrol is found primarily in the skins of red grapes, red wine, peanuts, co
 
 ### Summary Checklist
 
-| Compound (Sirtuin Target) | Target Dose | Feasibility via Whole Foods | Required Daily Intake |
-|---------------------------|-------------|-----------------------------|----------------------|
-| **[[Resveratrol]]** (SIRT1) | 500 mg | **No** | ~1,778 glasses of red wine OR ~102 lbs of red grapes |
-| **[[Dihydromyricetin]]** (SIRT3) | 300 mg | **Yes** | 1–2 cups of brewed Vine (Rattan) Tea |
-| **[[Cyanidin]]** (SIRT6) | 300 mg | **Yes** | ~1 cup of elderberries OR ~2.5 cups of blackberries |
-| **[[Honokiol]]** (SIRT3) | 200 mg | **Difficult** | 4–20g raw magnolia bark (poor water solubility; use extracts) |
+| Compound (Sirtuin Target)                                                                                      | Target Dose | Feasibility via Whole Foods | Required Daily Intake                                         |
+| -------------------------------------------------------------------------------------------------------------- | ----------- | --------------------------- | ------------------------------------------------------------- |
+| **[Resveratrol](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/Resveratrol.md)** (SIRT1)              | 500 mg      | **No**                      | ~1,778 glasses of red wine OR ~102 lbs of red grapes          |
+| **[Dihydromyricetin](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/Dihydromyricetin.md)** (SIRT3) | 300 mg      | **Yes**                     | 1–2 cups of brewed Vine (Rattan) Tea                          |
+| **[Cyanidin](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/Cyanidin.md)** (SIRT6)                 | 300 mg      | **Yes**                     | ~1 cup of elderberries OR ~2.5 cups of blackberries           |
+| **[Honokiol](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/Honokiol.md)** (SIRT3)                 | 200 mg      | **Difficult**               | 4–20g raw magnolia bark (poor water solubility; use extracts) |
+
 To verify these figures, we can look at the raw chemical composition databases and the step-by-step mathematical calculations. Because natural compounds vary based on agricultural factors, soil quality, and preparation methods, these numbers represent realistic estimates rather than static, absolute values. 
 
 The underlying data and mathematical checks for each compound are explained below.
 
 ---
 
-### 1. Resveratrol (SIRT1)
+### 1. [Resveratrol](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/Resveratrol.md) ([SIRT1](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/SIRT1.md))
 *   **Target Dose:** 500 mg
 *   **Red Wine Data:** Systematic reviews and databases (such as *Phenol-Explorer*) show that the average trans-resveratrol concentration in red wine is approximately **1.9 mg per liter** (typically ranging from 0.5 to 4.0 mg/L depending on the grape variety and skin contact time during fermentation).
     *   **Calculation:** 
@@ -331,7 +332,7 @@ The underlying data and mathematical checks for each compound are explained belo
 
 ---
 
-### 2. Dihydromyricetin / DHM (SIRT3)
+### 2. [Dihydromyricetin](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/Dihydromyricetin.md) / DHM ([SIRT3](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/SIRT3.md))
 *   **Target Dose:** 300 mg
 *   **Vine Tea (*Ampelopsis grossedentata*) Data:** Dried leaves of this specific plant are remarkably rich in DHM, frequently testing between **20% and 30% DHM by weight** in dry leaf samples. 
     *   **Calculation (at 20% DHM content):** 
@@ -342,7 +343,7 @@ The underlying data and mathematical checks for each compound are explained belo
 
 ---
 
-### 3. Cyanidin-3-Glucoside / C3G (SIRT6)
+### 3. Cyanidin-3-Glucoside / C3G ([SIRT6](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/SIRT6.md))
 *   **Target Dose:** 300 mg
 *   **Blackberry Data:** The *Phenol-Explorer* database lists the mean concentration of cyanidin-3-glucoside in raw blackberries as **138.72 mg per 100 grams FW**, with a recorded minimum of **85.21 mg/100g FW**.
     *   **Calculation (at mean concentration):** 
@@ -359,7 +360,7 @@ The underlying data and mathematical checks for each compound are explained belo
 
 ---
 
-### 4. Honokiol (SIRT3) — *A Solubility Correction*
+### 4. [Honokiol](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/Honokiol.md) ([SIRT3](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/SIRT3.md)) — *A Solubility Correction*
 Upon closer inspection of the physical chemistry, the raw tea estimate for Honokiol requires an important scientific clarification regarding **solubility**:
 
 *   **Target Dose:** 200 mg
