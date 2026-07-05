@@ -23,5 +23,5 @@ updated: 2026-07-04
 ## Linking Summary
 
 - New links added: [[notes/_link/Atherosclerosis]], [[notes/_link/Endothelial Dysfunction]], [[CD36 Receptor]], [[Lipid Peroxidation]], [[notes/_link/Myeloperoxidase]], [[notes/_link/Reactive Oxygen Species]]
-- Suggested new entity notes to create: [[LOX-1]], [[Scavenger Receptor]], [[Foam_Cells]]
+- Suggested new entity notes to create: [[Lox-1]], [[Scavenger Receptor]], [[Foam Cells]]
 - Strong connections to strengthen: [[Oxidized LDL]] ↔ [[notes/_link/Atherosclerosis]]

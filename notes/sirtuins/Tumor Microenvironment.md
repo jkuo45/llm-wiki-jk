@@ -9,16 +9,16 @@ database_ids:
   mesh: D059016
 relations:
   - predicate: contains
-    target: "[[CD38]]"
+    target: "CD38"
     sources: []
   - predicate: associated_with
-    target: "[[Cancer]]"
+    target: "Cancer"
     sources: []
   - predicate: modulated_by
-    target: "[[Daratumumab]]"
+    target: "Daratumumab"
     sources: []
   - predicate: modulated_by
-    target: "[[Isatuximab]]"
+    target: "Isatuximab"
     sources: []
 created: 2026-07-03
 updated: 2026-07-03

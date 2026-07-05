@@ -1,6 +1,6 @@
 # BH3 mimetics
 
-BH3 mimetics are small molecule inhibitors (e.g., [[ABT-737]], [[ABT-263]], [[ABT-199]]) designed to bind to the hydrophobic grooves of anti-apoptotic [[Bcl-2 family]] proteins, thereby inducing [[apoptosis]].
+BH3 mimetics are small molecule inhibitors (e.g., [[ABT-737]], [[ABT-263]], [[ABT-199]]) designed to bind to the hydrophobic grooves of anti-apoptotic [[Bcl-2 family]] proteins, thereby inducing [[Apoptosis]].
 
 ### Linking Summary:
 - New links added:

@@ -13,7 +13,7 @@ updated: 2026-07-04
 ## Types
 
 - **[[notes/_link/Neutrophils]]**: The most abundant phagocytes (~60% of circulating leukocytes). Contain [[notes/_link/Myeloperoxidase]] (MPO) which generates [[Hypochlorous Acid|HOCl]] from H₂O₂ and Cl⁻, producing the most potent microbicidal oxidant system.
-- **[[notes/_link/Macrophage|Macrophages]]**: Tissue-resident phagocytes that use both ROS (via [[NOX2]]) and RNS (via [[iNOS]]/[[INOS|NOS2]]) for pathogen killing.
+- **[[notes/_link/Macrophage|Macrophages]]**: Tissue-resident phagocytes that use both ROS (via [[NOX2]]) and RNS (via [[iNOS]]/[[iNOS|NOS2]]) for pathogen killing.
 
 ## ROS/RNS Generation
 
@@ -26,4 +26,4 @@ Upon pathogen recognition via TLRs, Fc receptors, and complement receptors, phag
 
 - **[[Chronic Granulomatous Disease]] (CGD)**: Defective NOX2 → no respiratory burst → severe recurrent infections
 - **[[notes/_link/Myeloperoxidase Deficiency]]**: Impaired HOCl production → increased susceptibility to *Candida* infections
-- **Excessive Phagocyte Activation**: Contributes to tissue damage in [[notes/_link/Ischemia-reperfusion Injury]], [[Rheumatoid Arthritis|rheumatoid arthritis]], [[Chronic Obstructive Pulmonary Disease|COPD]], and [[atherosclerosis]]
+- **Excessive Phagocyte Activation**: Contributes to tissue damage in [[notes/_link/Ischemia-reperfusion Injury]], [[Rheumatoid Arthritis|rheumatoid arthritis]], [[Chronic Obstructive Pulmonary Disease|COPD]], and [[Atherosclerosis]]

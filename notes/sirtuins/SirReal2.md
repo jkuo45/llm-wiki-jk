@@ -8,7 +8,7 @@ database_ids:
   pubchem: 86289063
 relations:
   - predicate: inhibits
-    target: "[[SIRT2]]"
+    target: "SIRT2"
     sources:
       - s41392-022-01257-8
 created: 2026-07-03

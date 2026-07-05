@@ -8,7 +8,7 @@ Caspase-8 is activated upon the binding of death ligands (e.g., [[FasL]], [[TRAI
 ## Regulation
 Caspase-8 activity is regulated by several kinases through [[Phosphorylation|phosphorylation]]:
 - **[[p38 MAPK]]**: Phosphorylates Caspase-8 at Ser364, suppressing its activity.
-- **[[SRC kinase|SRC]], [[FYN]], [[LYN]]**: Phosphorylate Caspase-8 at **Tyr380** (or **Tyr397**), providing a mechanism for [[apoptosis]] suppression. This phosphorylated form (pY-Casp8) can act as a pro-survival scaffold, recruiting **FAK** and **PI3K** to promote cell migration and metastasis, particularly in [[Colon Cancer]] and glioblastoma.
+- **[[SRC kinase|SRC]], [[FYN]], [[LYN]]**: Phosphorylate Caspase-8 at **Tyr380** (or **Tyr397**), providing a mechanism for [[Apoptosis]] suppression. This phosphorylated form (pY-Casp8) can act as a pro-survival scaffold, recruiting **FAK** and **PI3K** to promote cell migration and metastasis, particularly in [[Colon Cancer]] and glioblastoma.
 - **[[LYN]]**: Can also phosphorylate Caspase-8 at Tyr465 to suppress its activity.
 - **[[SHP1]]**: A phosphatase that dephosphorylates Caspase-8 at Tyr380/397 to restore its pro-apoptotic function. Recruitment of SHP1 is facilitated by phosphorylation at **Tyr310**.
 

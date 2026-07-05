@@ -7,7 +7,7 @@ aliases:
 database_ids: {}
 relations:
   - predicate: deacetylated_by
-    target: "[[SIRT1]]"
+    target: "SIRT1"
     sources:
       - PMID:19202068
 created: 2026-07-04

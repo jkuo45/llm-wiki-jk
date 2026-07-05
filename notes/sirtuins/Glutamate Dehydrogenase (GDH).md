@@ -9,11 +9,11 @@ database_ids:
   hgnc: HGNC:4232
 relations:
   - predicate: inhibited_by
-    target: "[[SIRT4]]"
+    target: "SIRT4"
     sources:
       - PMID:16959573
   - predicate: regulated_by
-    target: "[[notes/_link/Caloric Restriction]]"
+    target: "notes/_link/Caloric Restriction"
     sources:
       - PMID:16959573
 created: 2026-07-03

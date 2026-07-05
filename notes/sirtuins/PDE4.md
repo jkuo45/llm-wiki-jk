@@ -10,11 +10,11 @@ database_ids:
   hgnc: HGNC:8783 (PDE4A)
 relations:
   - predicate: inhibited_by
-    target: "[[Resveratrol]]"
+    target: "Resveratrol"
     sources:
       - Park 2012
   - predicate: upstream_of
-    target: "[[AMPK]]"
+    target: "AMPK"
     sources:
       - Park 2012
 created: 2026-07-04

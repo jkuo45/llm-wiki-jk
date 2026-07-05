@@ -16,5 +16,5 @@ Cholangiocarcinoma is a malignant tumor that originates in the bile duct, inside
 
 ## Linking Summary
 - New links added: [[Ivermectin]], [[notes/_link/Apoptosis]].
-- Suggested new entity notes to create: [[gemcitabine]].
+- Suggested new entity notes to create: [[Gemcitabine]].
 - Strong connections to strengthen: [[Cholangiocarcinoma]] ↔ [[Ivermectin]]

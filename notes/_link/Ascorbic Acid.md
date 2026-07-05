@@ -20,12 +20,12 @@ Ascorbic acid (Vitamin C) is a water-soluble vitamin found in various foods and 
 
 ## Dual Role
 - **Antioxidant**: Quenches ROS at physiological concentrations.
-- **Prooxidant**: Can promote the generation of free radicals via the [[Fenton reaction]] at pharmacological concentrations, potentially useful in [[Cancer]] therapy.
+- **Prooxidant**: Can promote the generation of free radicals via the [[Fenton Reaction]] at pharmacological concentrations, potentially useful in [[Cancer]] therapy.
 
 
 ## Linking Summary:
-- New links added: [[Oxidative Stress]], [[Cancer]], [[Fenton reaction]]
-- Suggested new entity notes to create: [[Fenton reaction]]
+- New links added: [[Oxidative Stress]], [[Cancer]], [[Fenton Reaction]]
+- Suggested new entity notes to create: [[Fenton Reaction]]
 - Strong connections to strengthen: [[notes/_link/Ascorbic Acid]] ↔ [[Oxidative Stress]]
 
 ## Connections
@@ -39,17 +39,17 @@ Ascorbic acid (Vitamin C) is a water-soluble vitamin found in various foods and 
 
 
 ### Linking Summary:
-- New links added: [[Cancer]], [[Fenton reaction]], [[Oxidative Stress]]
-- Suggested new entity notes to create: [[Fenton reaction]]
+- New links added: [[Cancer]], [[Fenton Reaction]], [[Oxidative Stress]]
+- Suggested new entity notes to create: [[Fenton Reaction]]
 - Strong connections to strengthen: [[notes/_link/Ascorbic Acid]] ↔ [[Oxidative Stress]]
 
 ## Content from [[neuromelanin/Ascorbic acid.md]]
 
 # Ascorbic acid
 
-[[Ascorbic acid]] (Vitamin C) is an antioxidant that co-localizes with [[notes/_link/Dopamine]] in secretory vesicles to protect it from auto-oxidation.
+[[Ascorbic Acid]] (Vitamin C) is an antioxidant that co-localizes with [[notes/_link/Dopamine]] in secretory vesicles to protect it from auto-oxidation.
 
 ### Linking Summary:
 - New links added: [[notes/_link/Dopamine]], [[Oxidative Stress]].
 - Suggested new entity notes to create: [[Antioxidants]], [[Glutathione]].
-- Strong connections to strengthen: [[Ascorbic acid]] ↔ [[notes/_link/Dopamine]].
+- Strong connections to strengthen: [[Ascorbic Acid]] ↔ [[notes/_link/Dopamine]].

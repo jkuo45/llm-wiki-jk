@@ -22,7 +22,7 @@ The ensuing signaling cascade phosphorylates and stabilizes [[notes/_link/p53|p5
 2. **[[SA-beta-gal]] activity:** Increased lysosomal β-galactosidase activity at pH 6.0, the most widely used senescence biomarker.
 3. **[[SASP]]:** Secretion of pro-inflammatory cytokines ([[IL-6]], [[IL-8]]), chemokines, and matrix metalloproteinases.
 4. **[[SAHF]]:** Senescence-associated heterochromatin foci that repress proliferation-promoting genes.
-5. **Resistance to [[notes/_link/Apoptosis|apoptosis]]** via upregulation of [[BCL-2 family]] anti-apoptotic proteins.
+5. **Resistance to [[notes/_link/Apoptosis|apoptosis]]** via upregulation of [[Bcl-2 family]] anti-apoptotic proteins.
 
 ## Cellular Physiology
 
@@ -30,11 +30,11 @@ Replicative senescence evolved as a potent tumor suppressor mechanism — it pre
 
 - **Stem cell depletion:** Senescent [[Hematopoietic Stem Cell|hematopoietic]], [[Muscle Stem Cell|muscle]], and [[Neural Stem Cell|neural stem cells]] lose regenerative capacity.
 - **Tissue inflammation:** The SASP recruits immune cells and remodels the [[Extracellular Matrix|extracellular matrix]], promoting fibrosis and degeneration.
-- **Paracrine senescence:** Senescent cells induce senescence in neighbors via ROS, SASP factors, and [[NOTCH signaling]], propagating the senescent state.
+- **Paracrine senescence:** Senescent cells induce senescence in neighbors via ROS, SASP factors, and [[Notch Signaling]], propagating the senescent state.
 
 ## Experimental Induction
 
-In the laboratory, replicative senescence is modeled by serial passaging of primary cells (usually human [[Fibroblast|fibroblasts]] such as [[HFF1|HFF1]] or [[IMR-90]]). Population doublings are monitored via cumulative growth curves. Alternatively, [[telomerase]]-negative cells can be induced to senescence more rapidly by siRNA knockdown of [[TERT]] or chemical inhibition of telomerase.
+In the laboratory, replicative senescence is modeled by serial passaging of primary cells (usually human [[Fibroblast|fibroblasts]] such as [[HFF1|HFF1]] or [[IMR-90]]). Population doublings are monitored via cumulative growth curves. Alternatively, [[Telomerase]]-negative cells can be induced to senescence more rapidly by siRNA knockdown of [[TERT]] or chemical inhibition of telomerase.
 
 ## Therapeutic Implications
 

@@ -8,7 +8,7 @@ updated: 2026-07-04
 
 # Incidental Lewy Body Disease
 
-[[Incidental Lewy Body Disease]] (iLBD) refers to the presence of [[Lewy Bodies]] and [[Alpha-Synuclein]] pathology in the brains of individuals who did not exhibit clinical symptoms of [[notes/_link/Parkinson's Disease]] (PD) during their lifetime.
+[[Incidental Lewy Body Disease]] (iLBD) refers to the presence of [[Lewy Bodies]] and [[Alpha-synuclein]] pathology in the brains of individuals who did not exhibit clinical symptoms of [[notes/_link/Parkinson's Disease]] (PD) during their lifetime.
 
 ## Significance
 iLBD is widely considered to represent an early, presymptomatic stage of Parkinson's disease.
@@ -17,6 +17,6 @@ iLBD is widely considered to represent an early, presymptomatic stage of Parkins
 - **Research Value:** Studying iLBD provides crucial insights into the early pathological changes that precede the clinical onset of PD, potentially identifying a window for neuroprotective therapies.
 
 ### Linking Summary:
-- New links added: [[Lewy Bodies]], [[Alpha-Synuclein]], [[notes/_link/Parkinson's Disease]], [[Neuromelanin]], [[notes/_link/Substantia Nigra]], [[Pathogenic Threshold of Neuromelanin]].
+- New links added: [[Lewy Bodies]], [[Alpha-synuclein]], [[notes/_link/Parkinson's Disease]], [[Neuromelanin]], [[notes/_link/Substantia Nigra]], [[Pathogenic Threshold of Neuromelanin]].
 - Suggested new entity notes to create: [[Presymptomatic Parkinson's]], [[Neuropathology]].
 - Strong connections to strengthen: [[Incidental Lewy Body Disease]] ↔ [[notes/_link/Parkinson's Disease]].

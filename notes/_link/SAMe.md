@@ -11,16 +11,16 @@ database_ids:
   mesh: D012536
 relations:
   - predicate: acts_as
-    target: "[[Methyl Donor]]"
+    target: "Methyl Donor"
     sources: []
   - predicate: part_of
-    target: "[[notes/_link/Methylation|Methylation Cycle]]"
+    target: "Methylation Cycle"
     sources: []
   - predicate: required_by
-    target: "[[COMT]]"
+    target: "COMT"
     sources: []
   - predicate: required_by
-    target: "[[notes/_link/Methylation]]"
+    target: "notes/_link/Methylation"
     sources: []
 created: 2026-05-25
 updated: 2026-07-04

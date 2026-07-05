@@ -8,14 +8,14 @@ Unlike [[notes/_link/Apoptosis]], which is a programmed and tidy process, necros
 - **Secondary Necrosis**: Occurs when apoptotic cells are not efficiently phagocytosed and subsequently lose their membrane integrity.
 
 ## Role in Cancer
-While apoptosis is the desired outcome of therapy, necrosis in tumors can lead to a proinflammatory environment that may paradoxically support tumor progression and [[metastasis]].
+While apoptosis is the desired outcome of therapy, necrosis in tumors can lead to a proinflammatory environment that may paradoxically support tumor progression and [[Metastasis]].
 
 ## Connections
 - [[notes/_link/Apoptosis]]: The regulated counterpart to necrotic cell death.
 - [[Pyroptosis]]: A programmed form of necrotic-like cell death.
-- [[metastasis]]: Proinflammatory necrosis can promote tumor spread.
+- [[Metastasis]]: Proinflammatory necrosis can promote tumor spread.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Apoptosis]], [[Pyroptosis]], [[metastasis]]
+- New links added: [[notes/_link/Apoptosis]], [[Pyroptosis]], [[Metastasis]]
 - Suggested new entity notes to create: [[Pyroptosis]]
 - Strong connections to strengthen: [[necrosis]] ↔ [[notes/_link/Apoptosis]]

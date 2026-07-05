@@ -12,7 +12,7 @@ updated: 2026-07-04
 **[[MethylB12]]** (Methylcobalamin) is one of the active forms of [[Vitamin B12]] and a key [[Methyl Donor]] in the [[Methylation Cycle]].
 
 ## Interaction with COMT
-Like [[methylfolate]], [[MethylB12]] provides methyl groups that can influence the rate of [[COMT]]-mediated reactions. Individuals with slow [[COMT]] variants may experience mood-related side effects from high doses of methylB12.
+Like [[Methylfolate]], [[MethylB12]] provides methyl groups that can influence the rate of [[COMT]]-mediated reactions. Individuals with slow [[COMT]] variants may experience mood-related side effects from high doses of methylB12.
 
 ## Alternatives for Slow COMT
 For those sensitive to [[MethylB12]], non-methylated forms like [[Adenosylcobalamin]] or [[Hydroxocobalamin]] are often recommended.
@@ -24,4 +24,4 @@ For those sensitive to [[MethylB12]], non-methylated forms like [[Adenosylcobala
 
 ---
 ### Linking Summary:
-- New links added: [[Vitamin B12]], [[Methyl Donor]], [[Methylation Cycle]], [[COMT]], [[methylfolate]], [[Adenosylcobalamin]], [[Hydroxocobalamin]].
+- New links added: [[Vitamin B12]], [[Methyl Donor]], [[Methylation Cycle]], [[COMT]], [[Methylfolate]], [[Adenosylcobalamin]], [[Hydroxocobalamin]].

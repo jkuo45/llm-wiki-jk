@@ -8,7 +8,7 @@ Oblimersen is a 18-base phosphorothioate DNA oligomer that is complementary to t
 ## Clinical Use
 It was the first agent targeting Bcl-2 to enter clinical trials. It has been investigated for use in:
 - [[Chronic lymphocytic leukaemia]] (CLL)
-- [[melanoma]]
+- [[Melanoma]]
 - Non-Hodgkin lymphoma
 
 ## Connections
@@ -17,6 +17,6 @@ It was the first agent targeting Bcl-2 to enter clinical trials. It has been inv
 - [[leukemia]]: Investigated for treatment of CLL.
 
 ### Linking Summary:
-- New links added: [[Bcl-2]], [[notes/_link/Apoptosis]], [[melukemia]], [[melanoma]]
-- Suggested new entity notes to create: [[melanoma]]
+- New links added: [[Bcl-2]], [[notes/_link/Apoptosis]], [[melukemia]], [[Melanoma]]
+- Suggested new entity notes to create: [[Melanoma]]
 - Strong connections to strengthen: [[Oblimersen sodium]] ↔ [[Bcl-2]]

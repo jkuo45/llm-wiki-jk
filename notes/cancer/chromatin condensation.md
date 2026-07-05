@@ -3,7 +3,7 @@
 **Chromatin condensation** is a morphological hallmark of [[notes/_link/Apoptosis]]. It is characterized by the tight packing of chromatin into dense, crescent-shaped or ring-like structures at the periphery of the nucleus.
 
 ## Mechanism
-This process is primarily mediated by the activation of executioner caspases, such as [[caspase-3]] and [[Caspase-6]]. Caspase-6, in particular, cleaves nuclear lamins, leading to the collapse of the nuclear envelope and the subsequent condensation of chromatin.
+This process is primarily mediated by the activation of executioner caspases, such as [[Caspase-3]] and [[Caspase-6]]. Caspase-6, in particular, cleaves nuclear lamins, leading to the collapse of the nuclear envelope and the subsequent condensation of chromatin.
 
 ## Significance
 Chromatin condensation is used as a diagnostic feature to distinguish apoptosis from [[necrosis]], where the nucleus typically undergoes swelling and irregular fragmentation.
@@ -15,6 +15,6 @@ Chromatin condensation is used as a diagnostic feature to distinguish apoptosis 
 - [[necrosis]]: Contrast with the nuclear morphology of necrotic death.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Apoptosis]], [[caspase-3]], [[Caspase-6]], [[AIF]], [[necrosis]]
+- New links added: [[notes/_link/Apoptosis]], [[Caspase-3]], [[Caspase-6]], [[AIF]], [[necrosis]]
 - Suggested new entity notes to create: [[AIF]]
 - Strong connections to strengthen: [[chromatin condensation]] ↔ [[notes/_link/Apoptosis]]

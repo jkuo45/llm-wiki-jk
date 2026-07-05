@@ -18,4 +18,4 @@ The activity of glutathione reductase is essential for maintaining the pool of r
 
 - New links added: [[Oxidative Stress]], [[Glycation]], [[Advanced Glycation End Products]]
 - Suggested new entity notes to create: [[GSH]]
-- Strong connections to strengthen: [[Glutathione reductase]] ↔ [[Oxidative Stress]]
+- Strong connections to strengthen: [[Glutathione Reductase]] ↔ [[Oxidative Stress]]

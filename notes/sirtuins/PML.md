@@ -10,11 +10,11 @@ database_ids:
   hgnc: HGNC:9113
 relations:
   - predicate: associated_with
-    target: "[[SIRT1]]"
+    target: "SIRT1"
     sources:
       - PMID:12006491
   - predicate: regulates
-    target: "[[p53]]"
+    target: "p53"
     sources:
       - PMID:12006491
 created: 2026-07-03

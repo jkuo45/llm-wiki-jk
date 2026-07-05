@@ -8,11 +8,11 @@ updated: 2026-07-04
 
 # Keap1
 
-**Keap1 (Kelch-like ECH-associated protein 1)** is a redox-sensitive protein that functions as a sensor for oxidative stress and regulates the degradation and nuclear translocation of [[Nrf2]].
+**Keap1 (Kelch-like ECH-associated protein 1)** is a redox-sensitive protein that functions as a sensor for oxidative stress and regulates the degradation and nuclear translocation of [[NRF2]].
 
 ## Domain Architecture
 
-Keap1 is a 624-amino acid protein with modular structure comprising five distinct domains: an N-terminal BTB (Broad-Complex, Tramtrack, and Bric-à-Brac) domain, an intervening linker region (IVR), a central BTB and C-terminal Kelch (BACK) domain, and six C-terminal Kelch repeats forming a β-propeller structure. The BTB domain mediates Keap1 homodimerization and recruitment of [[Cullin3]] (Cul3) and [[RBX1]] to form a functional [[Cullin-RING E3 ubiquitin ligase]] complex. The Kelch repeats bind directly to the [[Nrf2]] ETGE and DLG motifs, tethering Nrf2 for ubiquitination.
+Keap1 is a 624-amino acid protein with modular structure comprising five distinct domains: an N-terminal BTB (Broad-Complex, Tramtrack, and Bric-à-Brac) domain, an intervening linker region (IVR), a central BTB and C-terminal Kelch (BACK) domain, and six C-terminal Kelch repeats forming a β-propeller structure. The BTB domain mediates Keap1 homodimerization and recruitment of [[Cullin3]] (Cul3) and [[RBX1]] to form a functional [[Cullin-RING E3 ubiquitin ligase]] complex. The Kelch repeats bind directly to the [[NRF2]] ETGE and DLG motifs, tethering Nrf2 for ubiquitination.
 
 ## Mechanism of Nrf2 Regulation
 
@@ -28,9 +28,9 @@ Electrophile modification of Keap1's sensor cysteines, particularly Cys151, caus
 
 ## Connection to Adrenochrome and Electrophile Sensing
 
-In the context of the [[Adrenochrome Pathway]], adrenochrome and its redox-cycling products act as [[Electrophile|electrophiles]] that can modify Keap1 sensor cysteines, thereby activating the [[Nrf2]] stress response. This Keap1-Nrf2-adrenochrome axis represents a feed-forward adaptive mechanism: electrophilic [[Aminochromes]] induce their own detoxification by upregulating [[NQO1]], [[HO-1]], and glutathione-synthesizing enzymes. Therapeutic targeting of Keap1 with small-molecule electrophiles (e.g., [[Sulforaphane]], [[Dimethyl fumarate]]) is an active strategy to boost endogenous antioxidant defenses in neurodegeneration, [[Diabetes]], [[Chronic Kidney Disease]], and [[Aging]].
+In the context of the [[Adrenochrome Pathway]], adrenochrome and its redox-cycling products act as [[Electrophile|electrophiles]] that can modify Keap1 sensor cysteines, thereby activating the [[NRF2]] stress response. This Keap1-Nrf2-adrenochrome axis represents a feed-forward adaptive mechanism: electrophilic [[Aminochromes]] induce their own detoxification by upregulating [[NQO1]], [[HO-1]], and glutathione-synthesizing enzymes. Therapeutic targeting of Keap1 with small-molecule electrophiles (e.g., [[Sulforaphane]], [[Dimethyl fumarate]]) is an active strategy to boost endogenous antioxidant defenses in neurodegeneration, [[Diabetes]], [[Chronic Kidney Disease]], and [[Aging]].
 
 ### Linking Summary:
-- New links added: [[Nrf2]], [[Oxidative Stress]]
+- New links added: [[NRF2]], [[Oxidative Stress]]
 - Suggested new entity notes to create: 
-- Strong connections to strengthen: [[Keap1]] ↔ [[Nrf2]]
+- Strong connections to strengthen: [[Keap1]] ↔ [[NRF2]]

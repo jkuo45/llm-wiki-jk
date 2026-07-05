@@ -11,15 +11,15 @@ database_ids:
   pubchem: 969516
 relations:
   - predicate: inhibits
-    target: "[[p300]]/[[CBP]] HAT"
+    target: "p300/CBP HAT"
     sources:
       - PMID:15192185
   - predicate: suppresses
-    target: "[[NF-κB]]"
+    target: "NF-κB"
     sources:
       - PMID:15210812
   - predicate: induces
-    target: "[[notes/_link/Senescence]]"
+    target: "notes/_link/Senescence"
     sources:
       - PMID:24842829
 created: 2026-07-04
@@ -28,11 +28,11 @@ updated: 2026-07-04
 
 # Curcumin
 
-**Curcumin** is a polyphenolic compound derived from _[[Curcuma longa]]_ (turmeric) with pleiotropic biological activities including [[histone acetyltransferase]] (HAT) inhibition, [[NF-κB]] suppression, and antioxidant activity.
+**Curcumin** is a polyphenolic compound derived from _[[Curcuma longa]]_ (turmeric) with pleiotropic biological activities including [[Histone Acetyltransferase]] (HAT) inhibition, [[NF-κB]] suppression, and antioxidant activity.
 
 ## Epigenetic Mechanism
 
-Curcumin is a selective [[p300]]/[[CBP]] HAT inhibitor (IC50 ~25 µM), blocking [[Histone Acetylation]] at p300/CBP target genes, leading to repression of [[NF-κB]] targets ([[IL6]], [[IL8]], [[TNFα]]) and reduced [[H3K27ac]] at super-enhancers.
+Curcumin is a selective [[P300]]/[[CBP]] HAT inhibitor (IC50 ~25 µM), blocking [[Histone Acetylation]] at p300/CBP target genes, leading to repression of [[NF-κB]] targets ([[IL6]], [[IL8]], [[TNFα]]) and reduced [[H3K27ac]] at super-enhancers.
 
 ## Senescence-Inducing Activity
 
@@ -48,7 +48,7 @@ Oral bioavailability < 1%. Formulation strategies include liposomal curcumin, Me
 
 ## Connections
 
-- [[p300]]/[[CBP]] — Direct HAT inhibition target
+- [[P300]]/[[CBP]] — Direct HAT inhibition target
 - [[NF-κB]] — Suppressed by curcumin
 - [[notes/_link/Senescence]] — Induced at higher concentrations
 - [[Oxidative Stress]] — Dual pro/antioxidant effects
@@ -60,11 +60,11 @@ Oral bioavailability < 1%. Formulation strategies include liposomal curcumin, Me
 
 # Curcumin
 
-**Curcumin** is a polyphenolic compound derived from the rhizome of *[[Curcuma longa]]* (turmeric). It is a [[Phytochemicals|phytochemical]] with pleiotropic biological activities relevant to aging and senescence, including [[histone acetyltransferase]] (HAT) inhibition, [[NF-κB]] suppression, and [[Oxidative Stress|antioxidant]] activity. Despite extensive study, its translation to clinical use is limited by poor bioavailability and off-target promiscuity.
+**Curcumin** is a polyphenolic compound derived from the rhizome of *[[Curcuma longa]]* (turmeric). It is a [[Phytochemicals|phytochemical]] with pleiotropic biological activities relevant to aging and senescence, including [[Histone Acetyltransferase]] (HAT) inhibition, [[NF-κB]] suppression, and [[Oxidative Stress|antioxidant]] activity. Despite extensive study, its translation to clinical use is limited by poor bioavailability and off-target promiscuity.
 
 ## Epigenetic Mechanism
 
-Curcumin is a selective [[p300]]/[[CBP]] HAT inhibitor (IC50 ~25 µM), blocking [[Histone Acetylation|histone acetylation]] at a subset of p300/CBP target genes. This leads to:
+Curcumin is a selective [[P300]]/[[CBP]] HAT inhibitor (IC50 ~25 µM), blocking [[Histone Acetylation|histone acetylation]] at a subset of p300/CBP target genes. This leads to:
 
 - Repression of [[NF-κB]] target genes ([[IL6]], [[IL8]], [[TNFα]]) — providing anti-inflammatory activity.
 - Suppression of [[CREB]]-dependent transcription.
@@ -80,7 +80,7 @@ At 10–40 µM in vitro, curcumin induces [[p16INK4A|p16^INK4a^]]-dependent sene
 
 ## Anti-Aging Evidence
 
-In model organisms, curcumin extends lifespan in *[[Caenorhabditis elegans]]* (via [[DAF-16]]/[[FOXO]]), *[[Drosophila melanogaster]]* (via [[Sirt1]]/[[Sir2]]), and [[rodents]] (reduced [[Cancer]] incidence, improved cognitive function). In humans, epidemiological data associate turmeric consumption with lower rates of [[Alzheimer's Disease]] in India, though direct causal evidence from randomized controlled trials is weak.
+In model organisms, curcumin extends lifespan in *[[Caenorhabditis elegans]]* (via [[DAF-16]]/[[FOXO]]), *[[Drosophila melanogaster]]* (via [[SIRT1]]/[[Sir2]]), and [[rodents]] (reduced [[Cancer]] incidence, improved cognitive function). In humans, epidemiological data associate turmeric consumption with lower rates of [[Alzheimer's Disease]] in India, though direct causal evidence from randomized controlled trials is weak.
 
 ## Bioavailability and Formulations
 
@@ -96,11 +96,11 @@ In model organisms, curcumin extends lifespan in *[[Caenorhabditis elegans]]* (v
 
 ### Linking Summary:
 - New links added: [[HAT]], [[notes/_link/NFKB]], [[notes/_link/Senescence]], [[p16INK4A]], [[SASP]], [[Oxidative Stress]]
-- Suggested new entity notes to create: [[p300/CBP]], [[Nrf2]], [[Keap1]], [[Piperine]], [[PAINS compounds]]
+- Suggested new entity notes to create: [[p300/CBP]], [[NRF2]], [[Keap1]], [[Piperine]], [[PAINS compounds]]
 - Strong connections to strengthen: [[Curcumin]] ↔ [[HAT]], [[Curcumin]] ↔ [[notes/_link/Senescence]]
 
 ## Linking Summary
 
-- New links added: [[p300]], [[CBP]], [[Histone Acetylation]], [[NF-κB]], [[notes/_link/Senescence]], [[Oxidative Stress]], [[p38 MAPK]], [[FOXO]], [[Piperine]]
+- New links added: [[P300]], [[CBP]], [[Histone Acetylation]], [[NF-κB]], [[notes/_link/Senescence]], [[Oxidative Stress]], [[p38 MAPK]], [[FOXO]], [[Piperine]]
 - Suggested new entity notes to create: [[PAINS compounds]], [[Theracurmin]], [[Meriva]]
-- Strong connections to strengthen: [[Curcumin]] ↔ [[p300]], [[Curcumin]] ↔ [[notes/_link/Senescence]]
+- Strong connections to strengthen: [[Curcumin]] ↔ [[P300]], [[Curcumin]] ↔ [[notes/_link/Senescence]]

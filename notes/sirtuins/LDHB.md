@@ -11,7 +11,7 @@ database_ids:
   hgnc: HGNC:6541
 relations:
   - predicate: deacetylated_by
-    target: "[[SIRT5]]"
+    target: "SIRT5"
     sources:
       - Kumar 2023
       - Shi 2023

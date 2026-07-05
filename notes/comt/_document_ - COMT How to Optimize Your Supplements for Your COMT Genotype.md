@@ -2,8 +2,8 @@
 title: "COMT: How to Optimize Your Supplements for Your COMT Genotype"
 source: "https://www.geneticlifehacks.com/comt-and-supplement-interactions/"
 author:
-  - "[[Debbie Moon]]"
-  - "[[MSc]]"
+  - "Debbie Moon"
+  - "MSc"
 published: 2023-04-27
 created: 2026-05-11
 description: "Some supplements interact with COMT variants to impact the rate at which neurotransmitters are broken down. Check your COMT genetic variants."
@@ -13,13 +13,13 @@ tags:
 **Key takeaways:**
 
 - The [[COMT]] enzyme can be slow or fast, depending on your genes.
-- Some people with slow [[COMT]] enzyme function have side effects from [[Methylated Vitamins|methylated vitamins]] ([[methylfolate]], [[methylB12]]), [[Methyl Donor|methyl donor]] supplements, and [[COMT Inhibitors|COMT inhibitor]] supplements.
+- Some people with slow [[COMT]] enzyme function have side effects from [[Methylated Vitamins|methylated vitamins]] ([[Methylfolate]], [[MethylB12]]), [[Methyl Donor|methyl donor]] supplements, and [[COMT Inhibitors|COMT inhibitor]] supplements.
 - Understanding your [[COMT]] [[SNP|SNPs]] can help you with deciding which supplements may work best for you.
 **Members** will also see their genotype report below, plus additional solutions in the Lifehacks section. [Join today](https://www.geneticlifehacks.com/membership/).
 
 ## [[COMT]] Gene & Supplements: How Slow or Fast COMT Affects Your Response
 
-Have you ever taken a supplement, such as [[methylfolate]] or [[methylB12]], and noticed an immediate improvement in your mood? Only to have that rebound on you to the point that you are angry and irritable with everyone around you…
+Have you ever taken a supplement, such as [[Methylfolate]] or [[MethylB12]], and noticed an immediate improvement in your mood? Only to have that rebound on you to the point that you are angry and irritable with everyone around you…
 
 [[COMT]] has recently gained attention in the [[Biohacking|biohacking]] and personalized health communities as a key gene for understanding supplement tolerance and [[Neurotransmitters|neurotransmitter]] balance. In this article, I’ll explain how some supplements can interact with [[COMT]] variants ([[COMT]] slow and fast [[SNP|SNPs]]), causing noticeable side effects.
 
@@ -39,7 +39,7 @@ Without the [[COMT]]-controlled [[Methylation]] reaction, [[Catecholamines]] can
 
 ### How does COMT relate to methylation?
 
-The **methyl** in [[Catechol-O-methyltransferase]] ([[COMT]]) is because [[COMT]] uses a [[Methyl Groups|methyl group]] in the process of metabolizing [[Catechols]]. [[Methyl Groups|Methyl groups]] are used in hundreds of reactions in the body, and adding a methyl group can change one substance into another. For example, [[Serotonin]] is converted into [[Melatonin]] through a process that involves adding a methyl group.
+The **methyl** in [[Catechol-O-methyltransferase]] ([[COMT]]) is because [[COMT]] uses a [[Methyl groups|methyl group]] in the process of metabolizing [[Catechols]]. [[Methyl groups|Methyl groups]] are used in hundreds of reactions in the body, and adding a methyl group can change one substance into another. For example, [[Serotonin]] is converted into [[Melatonin]] through a process that involves adding a methyl group.
 
 ### COMT Variants: Slow COMT vs. Fast COMT ([[Val158Met]])
 
@@ -53,11 +53,11 @@ A common genetic variant, called [[COMT]] [[Val158Met]] changes the way that the
 
 People with slow [[COMT]] enzyme variants may find that supplements that affect the [[Methylation Cycle|methylation cycle]] can affect their [[Neurotransmitters|neurotransmitter]] levels.
 
-For example, a sudden influx of [[Methyl Groups|methyl groups]] from high doses of [[Methyl Donor|methyl donor]] supplements may increase and then decrease the pool of [[Methyl Groups|methyl groups]] available for [[COMT]] to use in [[Neurotransmitters|neurotransmitter]] reactions.
+For example, a sudden influx of [[Methyl groups|methyl groups]] from high doses of [[Methyl Donor|methyl donor]] supplements may increase and then decrease the pool of [[Methyl groups|methyl groups]] available for [[COMT]] to use in [[Neurotransmitters|neurotransmitter]] reactions.
 
 A **quick cycling of [[Neurotransmitters|neurotransmitter]] levels** may make someone **irritable, angry, or anxious.**
 
-For example, some people with slow [[COMT]] function initially feel great when taking supplemental [[methylfolate]], but then they may notice later in the day that they are more irritable and anxious than normal. Or, their friends and family may notice their irritability and mood swings.
+For example, some people with slow [[COMT]] function initially feel great when taking supplemental [[Methylfolate]], but then they may notice later in the day that they are more irritable and anxious than normal. Or, their friends and family may notice their irritability and mood swings.
 
 [[COMT]] also interacts with the perception of pain through [[Neurotransmitters|neurotransmitter]] levels. Research shows that there can be interactions between slow [[COMT]] and medications in pain management.\[[ref](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5743122/)\] Adding [[Methyl Donor|methyl donor]] supplements to the stack may cause fluctuations in how well pain medications work.
 
@@ -104,7 +104,7 @@ Research does show that people with slow [[COMT]] break down [[EGCG]] more slowl
 
 While the word ‘inhibit’ may sound bad, this isn’t always a bad thing… stick with me here for different scenarios in which [[COMT Inhibitors|COMT inhibitors]] are good or bad.
 
-**Scenario #1)** Supplements that inhibit [[COMT]] function may hang around a bit longer in your system and have more beneficial effects. For example, if you are looking to enhance the beneficial effects of [[EGCG]], research shows that [[Quercetin|quercetin]] or [[Fisetin|fisetin]] supplements along with [[EGCG]] ([[Green Tea|green tea]]) increased the bioactive form of [[EGCG]] in cells.\[[ref](https://www.sciencedirect.com/science/article/pii/S0022282821000833)\]\[[ref](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3363324/)\]\[[ref](https://pubmed.ncbi.nlm.nih.gov/29168878/)\] This may be most beneficial in people with fast [[COMT]] enzyme function.
+**Scenario #1)** Supplements that inhibit [[COMT]] function may hang around a bit longer in your system and have more beneficial effects. For example, if you are looking to enhance the beneficial effects of [[EGCG]], research shows that [[Quercetin|quercetin]] or [[Fisetin|fisetin]] supplements along with [[EGCG]] ([[Green tea|green tea]]) increased the bioactive form of [[EGCG]] in cells.\[[ref](https://www.sciencedirect.com/science/article/pii/S0022282821000833)\]\[[ref](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3363324/)\]\[[ref](https://pubmed.ncbi.nlm.nih.gov/29168878/)\] This may be most beneficial in people with fast [[COMT]] enzyme function.
 
 **Scenario #2)** In [[notes/_link/Parkinson's Disease]], there is not enough [[notes/_link/Dopamine|dopamine]] in certain regions of the brain. [[COMT Inhibitors|COMT inhibitors]] are used to increase [[notes/_link/Dopamine|dopamine]] levels in people who are taking [[Levodopa]].\[[ref](https://parkinsonsdisease.net/medications/comt-inhibitors)\] [[EGCG]] and [[Quercetin|quercetin]] have been tested for this in animal models of Parkinson’s.\[[ref](https://pubmed.ncbi.nlm.nih.gov/23206800/)\]
 
@@ -112,7 +112,7 @@ While the word ‘inhibit’ may sound bad, this isn’t always a bad thing… s
 
 #### Does diet affect COMT?
 
-Should you stop drinking tea or eating apples that contain [[Quercetin|quercetin]]? Research shows that at levels found in drinking [[Green Tea|green tea]], [[EGCG]] doesn’t have much of an effect on [[COMT]].\[[ref](https://pubmed.ncbi.nlm.nih.gov/21445620/)\] While apples are high in [[Quercetin|quercetin]], it would take a ton of apples to reach the levels of [[Quercetin|quercetin]] that are used in studies to inhibit [[COMT]].
+Should you stop drinking tea or eating apples that contain [[Quercetin|quercetin]]? Research shows that at levels found in drinking [[Green tea|green tea]], [[EGCG]] doesn’t have much of an effect on [[COMT]].\[[ref](https://pubmed.ncbi.nlm.nih.gov/21445620/)\] While apples are high in [[Quercetin|quercetin]], it would take a ton of apples to reach the levels of [[Quercetin|quercetin]] that are used in studies to inhibit [[COMT]].
 
 Reactions using [[COMT]] also include [[Magnesium]] as a cofactor.\[[ref](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6563236/)\] Thus, it is important to get plenty of [[Magnesium|magnesium]] in your diet or through a mineral supplement to support [[COMT]] function.
 
@@ -127,7 +127,7 @@ You may be wondering which natural [[Flavonoids|flavonoid]] supplements you can 
 
 ### Methyl-donor supplements increase COMT reactions:
 
-The [[COMT]] enzyme needs [[Methyl Groups|methyl groups]] for its reactions, and increasing [[Methyl Donor|methyl donors]] through high-dose supplements can increase [[COMT]] reactions.
+The [[COMT]] enzyme needs [[Methyl groups|methyl groups]] for its reactions, and increasing [[Methyl Donor|methyl donors]] through high-dose supplements can increase [[COMT]] reactions.
 
 BUT… Many **clinicians recommend against taking any [[Methyl Donor|methyl donor]] supplements for slow [[COMT]]** (rs4680 A/A).
 
@@ -138,8 +138,8 @@ The reasoning for this is that suddenly adding a bunch of **[[Methyl Donor|methy
 
 **[[Methyl Donor|Methyl-donor]] supplements include:**
 
-- [[methylfolate]]
-- [[Methylcobalamin]] ([[methylB12]])
+- [[Methylfolate]]
+- [[Methylcobalamin]] ([[MethylB12]])
 - [[TMG]]/[[Betaine|betaine]]
 - [[SAMe]] ([[S-adenosylmethionine]])
 
@@ -179,7 +179,7 @@ Let’s dig into some specifics of how to optimize your supplements if you have 
 
 ### Which type of [[Vitamin B12]] should you take if you have slow COMT?
 
-If you plan to take supplemental [[Vitamin B12]] **instead of** [[methylB12]], look for
+If you plan to take supplemental [[Vitamin B12]] **instead of** [[MethylB12]], look for
 
 - [[Adenosylcobalamin]] (AdenosylB12)
 - [[Hydroxocobalamin]] (HydroxyB12)
@@ -187,22 +187,22 @@ If you plan to take supplemental [[Vitamin B12]] **instead of** [[methylB12]], l
 
 ### 5 Diet and supplements options for Slow COMT:
 
-If you have [[MTHFR]] variants along with slow [[COMT]], you may be wondering, “What should I do?” Many functional medicine practitioners, health websites, and podcast hosts recommend [[methylfolate]] and [[methylB12]] for anyone with [[MTHFR]], [[MTRR]], or [[MTHFD1]] [[SNP|SNPs]].
+If you have [[MTHFR]] variants along with slow [[COMT]], you may be wondering, “What should I do?” Many functional medicine practitioners, health websites, and podcast hosts recommend [[Methylfolate]] and [[MethylB12]] for anyone with [[MTHFR]], [[MTRR]], or [[MTHFD1]] [[SNP|SNPs]].
 
 Here are 5 options for improving your [[Methylation Cycle|methylation cycle]] function without resorting to high-dose [[Methyl Donor|methyl donor]] supplements.
 
 **1) [[Creatine]] to take the strain off the methylation cycle:**
 
-About 40% of [[Methyl Groups|methyl groups]] are used in the body to synthesize [[Creatine]]. Thus, adding in [[Creatine]] (low doses) may help to take the strain off the [[Methylation Pathways|pathways]].
+About 40% of [[Methyl groups|methyl groups]] are used in the body to synthesize [[Creatine]]. Thus, adding in [[Creatine]] (low doses) may help to take the strain off the [[Methylation Pathways|pathways]].
 
 **2) Dietary [[Folate]] instead of methyl folate supplements:**
 
 If you have slow [[COMT]], there are a couple of dietary changes that may help you optimize [[Neurotransmitters|neurotransmitter]] function.
 
-Instead of a high-dose [[methylfolate]] supplement, you could try:
+Instead of a high-dose [[Methylfolate]] supplement, you could try:
 
 - Consume more [[Folate|folate-rich foods]] in your diet (RDA is 400 mcg).
-- If you rarely eat [[Folate|folate]]-containing foods, then try a low dose of [[methylfolate]] – such as 100 to 200 mcg.
+- If you rarely eat [[Folate|folate]]-containing foods, then try a low dose of [[Methylfolate]] – such as 100 to 200 mcg.
 - [[Folinic acid]] may be another alternative.
 
 ### FAQ’s about COMT
@@ -213,7 +213,7 @@ Answer: The [[COMT]] [[Val158Met]] variant (Met/Met genotype) produces an enzyme
 
 **What supplements should you avoid with slow COMT?**
 
-Answer: People with slow [[COMT]] may want to be cautious with high-dose [[methylfolate]], [[methylB12]], [[SAMe]], [[Tyrosine]], and [[COMT Inhibitors]] like [[EGCG]] and [[Quercetin]], as these can increase [[Neurotransmitters|neurotransmitter]] levels that are already elevated.
+Answer: People with slow [[COMT]] may want to be cautious with high-dose [[Methylfolate]], [[MethylB12]], [[SAMe]], [[Tyrosine]], and [[COMT Inhibitors]] like [[EGCG]] and [[Quercetin]], as these can increase [[Neurotransmitters|neurotransmitter]] levels that are already elevated.
 
 **Does COMT affect estrogen levels?**
 
@@ -225,11 +225,11 @@ Answer: The [[Val158Met]] variant is sometimes called the [[Warrior/Worrier Gene
 
 **Can COMT variants affect how methylfolate works?**
 
-Answer: Yes, people with slow [[COMT]] may experience mood swings or anxiety from [[methylfolate]] because the sudden influx of [[Methyl Groups|methyl groups]] can cause rapid cycling of [[Neurotransmitters|neurotransmitter]] levels.
+Answer: Yes, people with slow [[COMT]] may experience mood swings or anxiety from [[Methylfolate]] because the sudden influx of [[Methyl groups|methyl groups]] can cause rapid cycling of [[Neurotransmitters|neurotransmitter]] levels.
 
 ---
 
 ### Linking Summary:
-- New links added: [[COMT]], [[Catechol-O-methyltransferase]], [[notes/_link/Dopamine]], [[notes/_link/Epinephrine]], [[notes/_link/Norepinephrine]], [[Estrogen]], [[Catechols]], [[Methylation]], [[Oxidative Stress]], [[Methyl Groups]], [[Serotonin]], [[Melatonin]], [[Val158Met]], [[Methylfolate]], [[MethylB12]], [[Quercetin]], [[Fisetin]], [[Luteolin]], [[Rutin]], [[Oleacein]], [[EGCG]], [[Green Tea]], [[notes/_link/Parkinson's Disease]], [[Levodopa]], [[Magnesium]], [[Berberine]], [[Resveratrol]], [[Hesperidin]], [[MTHFR]], [[SAMe]], [[S-adenosylmethionine]], [[TMG]], [[Betaine]], [[notes/_link/Vitamin E]], [[Alpha-tocopherol]], [[Aspirin]], [[notes/_link/Cardiovascular Disease]], [[Modafinil]], [[Adenosylcobalamin]], [[Hydroxocobalamin]], [[MTRR]], [[MTHFD1]], [[Creatine]], [[Folinic acid]], [[Tyrosine]].
+- New links added: [[COMT]], [[Catechol-O-methyltransferase]], [[notes/_link/Dopamine]], [[notes/_link/Epinephrine]], [[notes/_link/Norepinephrine]], [[Estrogen]], [[Catechols]], [[Methylation]], [[Oxidative Stress]], [[Methyl groups]], [[Serotonin]], [[Melatonin]], [[Val158Met]], [[Methylfolate]], [[MethylB12]], [[Quercetin]], [[Fisetin]], [[Luteolin]], [[Rutin]], [[Oleacein]], [[EGCG]], [[Green tea]], [[notes/_link/Parkinson's Disease]], [[Levodopa]], [[Magnesium]], [[Berberine]], [[Resveratrol]], [[Hesperidin]], [[MTHFR]], [[SAMe]], [[S-adenosylmethionine]], [[TMG]], [[Betaine]], [[notes/_link/Vitamin E]], [[Alpha-tocopherol]], [[Aspirin]], [[notes/_link/Cardiovascular Disease]], [[Modafinil]], [[Adenosylcobalamin]], [[Hydroxocobalamin]], [[MTRR]], [[MTHFD1]], [[Creatine]], [[Folinic acid]], [[Tyrosine]].
 - Suggested new entity notes to create: [[COMT]], [[Catechol-O-methyltransferase]], [[notes/_link/Dopamine]], [[Methylation]], [[Val158Met]], [[MTHFR]].
 - Strong connections to strengthen: [[COMT]] ↔ [[Methylation]], [[COMT]] ↔ [[notes/_link/Dopamine]].

@@ -9,7 +9,7 @@ database_ids:
   hgnc: HGNC:6997
 relations:
   - predicate: regulated_by
-    target: "[[SIRT1]]"
+    target: "SIRT1"
     sources:
       - PMID:16166628
 created: 2026-07-03
@@ -36,5 +36,5 @@ The activity of MEF2D during myogenesis is tightly regulated by a molecular swit
 ## Linking Summary
 
 - New links added: [[SIRT1]], [[Sirtuins]]
-- Suggested new entity notes to create: [[MyoD]], [[HDAC4]], [[Sumoylation]], [[Myogenesis]]
+- Suggested new entity notes to create: [[MyoD]], [[HDAC4]], [[SUMOylation]], [[Myogenesis]]
 - Strong connections to strengthen: [[MEF2D]] ↔ [[SIRT1]]

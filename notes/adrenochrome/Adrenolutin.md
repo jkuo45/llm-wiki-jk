@@ -29,7 +29,7 @@ Adrenolutin is a colorless-to-pale-yellow compound in its pure form, distinguish
 
 ## Analytical Methods
 
-The fluorescence of adrenolutin is exploited for sensitive detection. The trihydroxyindole (THI) method, first described by Lund in 1949, remains a reference technique: catecholamines are oxidized by [[Potassium Ferricyanide]] or [[Iodine]] to the corresponding aminochromes, then rearranged in alkaline ascorbate to the fluorescent trihydroxyindole derivatives. Detection limits reach the low nanomolar range (0.1–1.0 pmol). High-performance liquid chromatography coupled to fluorescence detection (HPLC-FL) using C18 reverse-phase columns provides specificity, separating adrenolutin from [[Adrenochrome]] and related catecholamine metabolites. Liquid chromatography-tandem mass spectrometry (LC-MS/MS) in multiple reaction monitoring mode offers superior specificity, monitoring the parent-to-product ion transition m/z 180 → 134 for adrenolutin.
+The fluorescence of adrenolutin is exploited for sensitive detection. The trihydroxyindole (THI) method, first described by Lund in 1949, remains a reference technique: catecholamines are oxidized by [[Potassium ferricyanide]] or Iodine to the corresponding aminochromes, then rearranged in alkaline ascorbate to the fluorescent trihydroxyindole derivatives. Detection limits reach the low nanomolar range (0.1–1.0 pmol). High-performance liquid chromatography coupled to fluorescence detection (HPLC-FL) using C18 reverse-phase columns provides specificity, separating adrenolutin from [[Adrenochrome]] and related catecholamine metabolites. Liquid chromatography-tandem mass spectrometry (LC-MS/MS) in multiple reaction monitoring mode offers superior specificity, monitoring the parent-to-product ion transition m/z 180 → 134 for adrenolutin.
 
 ## Biological Activity
 
@@ -45,5 +45,5 @@ Adrenolutin may serve as a stable downstream biomarker of catecholamine oxidatio
 - [[Oxidation]] ↔ The process that leads to the formation of both adrenochrome and adrenolutin.
 
 ### Linking Summary:
-- New links added: [[Adrenolutin]], [[Adrenochrome]], [[notes/_link/Epinephrine]], [[Oxidation]], [[NAD(P)H Quinone Dehydrogenase 1]], [[NQO1]], [[Potassium Ferricyanide]], [[Iodine]], [[Pheochromocytoma]], [[Diabetic Ketoacidosis]], [[Septic Shock]], [[notes/_link/Norepinephrine]], [[Na⁺/K⁺-ATPase]], [[Cysteine]], [[Glutathione]], [[HPLC-FL]], [[LC-MS/MS]]
+- New links added: [[Adrenolutin]], [[Adrenochrome]], [[notes/_link/Epinephrine]], [[Oxidation]], [[NAD(P)H Quinone Dehydrogenase 1]], [[NQO1]], [[Potassium ferricyanide]], Iodine, [[Pheochromocytoma]], [[Diabetic Ketoacidosis]], [[Septic Shock]], [[notes/_link/Norepinephrine]], [[Na⁺/K⁺-ATPase]], [[Cysteine]], [[Glutathione]], [[HPLC-FL]], [[LC-MS/MS]]
 - Strong connections to strengthen: [[Adrenolutin]] ↔ [[Adrenochrome]], [[Adrenolutin]] ↔ [[notes/_link/Epinephrine]]

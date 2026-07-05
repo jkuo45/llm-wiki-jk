@@ -4,13 +4,13 @@
 
 ## Role in Cancer
 - **Overexpression**: Survivin is highly expressed in most human cancers but is nearly undetectable in normal adult tissues, making it an ideal target for cancer therapy.
-- **Resistance**: Its overexpression is associated with resistance to chemotherapy and radiotherapy, particularly in [[non-small-cell lung cancer]] and [[melanoma]].
+- **Resistance**: Its overexpression is associated with resistance to chemotherapy and radiotherapy, particularly in [[non-small-cell lung cancer]] and [[Melanoma]].
 - **Prognostic Marker**: High levels of Survivin often correlate with poor clinical outcomes and abbreviated survival.
 
 ## Targeting Survivin
 Strategies to target Survivin include:
 - **Antisense strategies**: Using antisense oligonucleotides to trigger apoptosis in melanoma and thyroid carcinoma cells.
-- **siRNA**: Silencing Survivin expression to enhance radiosensitivity in [[pancreatic cancer]] and lung adenocarcinoma.
+- **siRNA**: Silencing Survivin expression to enhance radiosensitivity in [[Pancreatic Cancer]] and lung adenocarcinoma.
 - **Small molecule inhibitors**: Cyclin-dependent kinase inhibitors and Hsp90 inhibitors.
 
 ## Connections
@@ -19,6 +19,6 @@ Strategies to target Survivin include:
 - [[XIAP]]: Often works in conjunction with XIAP to confer resistance in NSCLC.
 
 ### Linking Summary:
-- New links added: [[Inhibitor of Apoptosis Proteins]], [[notes/_link/Apoptosis]], [[non-small-cell lung cancer]], [[melanoma]], [[pancreatic cancer]], [[XIAP]]
+- New links added: [[Inhibitor of Apoptosis Proteins]], [[notes/_link/Apoptosis]], [[non-small-cell lung cancer]], [[Melanoma]], [[Pancreatic Cancer]], [[XIAP]]
 - Suggested new entity notes to create: [[Inhibitor of Apoptosis Proteins]]
 - Strong connections to strengthen: [[Survivin]] ↔ [[XIAP]]

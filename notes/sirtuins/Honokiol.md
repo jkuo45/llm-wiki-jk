@@ -10,16 +10,16 @@ database_ids:
   chebi: CHEBI:74763
 relations:
   - predicate: activates
-    target: "[[SIRT3]]"
+    target: "SIRT3"
     sources: []
   - predicate: reduces
-    target: "[[Reactive Oxygen Species]]"
+    target: "Reactive Oxygen Species"
     sources: []
   - predicate: inhibits
-    target: "[[Inflammation]]"
+    target: "Inflammation"
     sources: []
   - predicate: protects_against
-    target: "[[Cardiovascular Disease]]"
+    target: "Cardiovascular Disease"
     sources: []
 created: 2026-07-03
 updated: 2026-07-03

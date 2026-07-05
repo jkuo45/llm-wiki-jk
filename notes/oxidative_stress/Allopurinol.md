@@ -12,7 +12,7 @@ updated: 2026-07-04
 
 ## Mechanism
 
-Allopurinol and its active metabolite **Oxypurinol** (alloxanthine) competitively inhibit XO, blocking the conversion of hypoxanthine → xanthine → [[Uric Acid|uric acid]]. Oxypurinol forms a tight, slowly reversible complex with the reduced (Mo⁴⁺) form of XO. By inhibiting XO, allopurinol also reduces XO-derived [[Superoxide Radicals|superoxide production]], which is significant in [[ischemia-reperfusion injury]] where XO activation generates a burst of ROS.
+Allopurinol and its active metabolite **Oxypurinol** (alloxanthine) competitively inhibit XO, blocking the conversion of hypoxanthine → xanthine → [[Uric Acid|uric acid]]. Oxypurinol forms a tight, slowly reversible complex with the reduced (Mo⁴⁺) form of XO. By inhibiting XO, allopurinol also reduces XO-derived [[Superoxide Radicals|superoxide production]], which is significant in [[Ischemia-reperfusion Injury]] where XO activation generates a burst of ROS.
 
 ## Clinical Applications
 

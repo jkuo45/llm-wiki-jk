@@ -30,7 +30,7 @@ A protein that is abundant in the human brain and is linked to [[Parkinson's Dis
 
 # Alpha-Synuclein
 
-[[Alpha-Synuclein]] (α-synuclein) is a protein that is abundant in the human brain, primarily found at the tips of nerve cells in specialized structures called presynaptic terminals.
+[[Alpha-synuclein]] (α-synuclein) is a protein that is abundant in the human brain, primarily found at the tips of nerve cells in specialized structures called presynaptic terminals.
 
 ## Function
 While its exact physiological function is not fully understood, it is thought to play a role in maintaining a supply of synaptic vesicles in presynaptic terminals and may be involved in the release of neurotransmitters like [[notes/_link/Dopamine]].
@@ -44,4 +44,4 @@ In [[notes/_link/Parkinson's Disease]] and other "synucleinopathies," alpha-synu
 ### Linking Summary:
 - New links added: [[notes/_link/Dopamine]], [[notes/_link/Parkinson's Disease]], [[Lewy Bodies]], [[Neuromelanin]].
 - Suggested new entity notes to create: [[Synucleinopathies]], [[Synaptic Vesicles]].
-- Strong connections to strengthen: [[Alpha-Synuclein]] ↔ [[Lewy Bodies]].
+- Strong connections to strengthen: [[Alpha-synuclein]] ↔ [[Lewy Bodies]].

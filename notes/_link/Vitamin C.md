@@ -28,7 +28,7 @@ Vitamin C acts as an electron donor (reducing agent), protecting cells from [[no
 
 ## Dual Pro-Oxidant Role
 
-At pharmacological concentrations, Vitamin C can act as a pro-oxidant via the [[Fenton reaction]] (Fe²⁺ + H₂O₂ → Fe³⁺ + •OH + OH⁻), generating [[Hydroxyl Radicals|hydroxyl radicals]] that selectively kill [[Cancer]] cells in preclinical models.
+At pharmacological concentrations, Vitamin C can act as a pro-oxidant via the [[Fenton Reaction]] (Fe²⁺ + H₂O₂ → Fe³⁺ + •OH + OH⁻), generating [[Hydroxyl Radicals|hydroxyl radicals]] that selectively kill [[Cancer]] cells in preclinical models.
 
 ## Connections
 
@@ -39,6 +39,6 @@ At pharmacological concentrations, Vitamin C can act as a pro-oxidant via the [[
 
 ## Linking Summary
 
-- New links added: [[notes/_link/Ascorbic Acid]], [[notes/_link/Vitamin E]], [[notes/_link/Glutathione]], [[notes/_link/Epinephrine]], [[notes/_link/Reactive Oxygen Species]], [[Singlet Oxygen]], [[Hydroxyl Radicals]], [[Fenton reaction]], [[Cancer]]
+- New links added: [[notes/_link/Ascorbic Acid]], [[notes/_link/Vitamin E]], [[notes/_link/Glutathione]], [[notes/_link/Epinephrine]], [[notes/_link/Reactive Oxygen Species]], [[Singlet Oxygen]], [[Hydroxyl Radicals]], [[Fenton Reaction]], [[Cancer]]
 - Suggested new entity notes to create: [[Dehydroascorbate]], [[SVCT1]], [[SVCT2]]
 - Strong connections to strengthen: [[Vitamin C]] ↔ [[notes/_link/Ascorbic Acid]], [[Vitamin C]] ↔ [[notes/_link/Vitamin E]]

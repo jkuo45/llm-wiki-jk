@@ -13,22 +13,22 @@ database_ids:
   mesh: D016328
 relations:
   - predicate: regulated_by
-    target: "[[SIRT1]]"
+    target: "SIRT1"
     sources:
       - PMID:15152190
       - Michan 2007
   - predicate: regulated_by
-    target: "[[SIRT2]]"
+    target: "SIRT2"
     sources:
       - PMID:24556264
       - Sirtuins in Health and Disease 2022
   - predicate: regulated_by
-    target: "[[SIRT6]]"
+    target: "SIRT6"
     sources:
       - PMID:22006491
       - Sirtuins in Health and Disease 2022
   - predicate: regulated_by
-    target: "[[SIRT7]]"
+    target: "SIRT7"
     sources:
       - Sirtuins in Health and Disease 2022
 created: 2026-07-03
@@ -112,5 +112,5 @@ NF-κB is a master regulator of the **Senescence-Associated Secretory Phenotype 
 ### Linking Summary
 
 - New links added: [[SIRT1]], [[SIRT2]], [[SIRT3]], [[SIRT6]], [[notes/_link/Inflammation]], [[notes/_link/Apoptosis]]
-- Suggested new entity notes to create: [[TNF-α]], [[MnSOD]], [[IκB]], [[RelA]]
+- Suggested new entity notes to create: [[TNFα]], [[MnSOD]], [[IκB]], [[RelA]]
 - Strong connections to strengthen: [[SIRT1]] ↔ [[notes/_link/NFKB]], [[SIRT6]] ↔ [[notes/_link/NFKB]], [[notes/_link/Inflammation]] ↔ [[notes/_link/NFKB]]

@@ -11,13 +11,13 @@ database_ids:
   chebi: CHEBI:174697
 relations:
   - predicate: targets
-    target: "[[CD38]]"
+    target: "CD38"
     sources: []
   - predicate: treats
-    target: "[[Multiple Myeloma]]"
+    target: "Multiple Myeloma"
     sources: []
   - predicate: inhibits
-    target: "[[CD38]]"
+    target: "CD38"
     sources: []
 created: 2026-07-03
 updated: 2026-07-03

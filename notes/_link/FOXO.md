@@ -23,4 +23,4 @@ The FoxO (forkhead box O) family is a group of transcription factors that regula
 
 - New links added: [[Atrogin-1]], [[MuRF1]], [[Akt]]
 - Suggested new entity notes to create: 
-- Strong connections to strengthen: [[Akt]] ↔ [[FoxO]]
+- Strong connections to strengthen: [[Akt]] ↔ [[FOXO]]

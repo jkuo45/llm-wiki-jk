@@ -43,7 +43,7 @@ Response rates in MDS are 40–50%, with better outcomes in patients with [[TET2
 - **Chemical instability:** Rapid hydrolysis in aqueous solution (half-life ~4 h at 37°C, pH 7.4); must be freshly prepared.
 - **Cytidine deaminase sensitivity:** Rapidly inactivated (t½ ~20 min in plasma).
 - **DNA vs. RNA effects:** RNA incorporation contributes to cytotoxicity; [[Decitabine]] (deoxyribose analog) is more selective for DNA.
-- **Resistance:** Occurs through dCK downregulation, CDA upregulation, and compensatory methylation by [[DNMT3A]]/[[DNMT3B]].
+- **Resistance:** Occurs through dCK downregulation, CDA upregulation, and compensatory methylation by [[DNMT3a]]/[[DNMT3b]].
 
 ## Research Notes
 

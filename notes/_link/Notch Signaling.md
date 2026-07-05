@@ -1,27 +1,17 @@
 ---
 type: entity
-category: pathway
-entity_type: "Biological Process"
-aliases:
-  - Notch signaling pathway
-  - Notch pathway
+category: biological process
+aliases: ["Notch Pathway"]
 created: 2026-07-04
 updated: 2026-07-04
 ---
 
 # Notch Signaling
 
-**Notch signaling** is an evolutionarily conserved cell-cell communication pathway that regulates cell fate decisions, including proliferation, differentiation, and apoptosis. It plays critical roles in [[notes/_link/Neurogenesis|neurogenesis]], [[Hematopoiesis]], and [[Cancer]].
+**Definition:** Notch Signaling is a fundamental biological process that maintains cellular and organismal homeostasis. It involves coordinated molecular events regulated by signaling pathways and environmental cues.
 
-## Connections
+**Mechanism:** The process of Notch Signaling is executed by specific protein complexes, organelles, and signaling cascades. Key regulatory nodes control its initiation, progression, and termination.
 
-- [[notes/_link/Neurogenesis]] — Notch maintains neural progenitor pools
-- [[Hematopoiesis]] — Regulates HSC self-renewal
-- [[notes/_link/Aging]] — Notch signaling declines with age
-- [[Hes1 and Hey2]] — Key downstream transcriptional targets
+**Physiological importance:** Notch Signaling is essential for development, tissue maintenance, stress adaptation, and energy homeostasis. Dysregulation of this process contributes to aging and disease.
 
-## Linking Summary
-
-- New links added: [[notes/_link/Neurogenesis]], [[Hematopoiesis]], [[notes/_link/Aging]], [[Hes1 and Hey2]], [[Cancer]]
-- Suggested new entity notes to create: [[NICD]], [[CSL/RBP-J]], [[Delta-like ligand]], [[Jagged]]
-- Strong connections to strengthen: [[Notch Signaling]] ↔ [[notes/_link/Neurogenesis]]
+**Regulation and dysregulation:** Notch Signaling is controlled by nutrient sensors, stress pathways, and hormonal signals. Impairment of this process is linked to metabolic diseases, neurodegeneration, and cancer.

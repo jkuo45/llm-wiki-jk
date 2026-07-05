@@ -1,27 +1,17 @@
 ---
 type: entity
-category: medical_condition
-entity_type: "Medical Condition"
-aliases:
-  - PH
-  - Pulmonary arterial hypertension
-  - PAH
+category: medical condition
+aliases: ["PH"]
 created: 2026-07-04
 updated: 2026-07-04
 ---
 
 # Pulmonary Hypertension
 
-**Pulmonary hypertension** is a type of high blood pressure affecting the arteries of the lungs. It is characterized by remodeling of pulmonary arterioles, leading to right heart strain and [[notes/_link/Cardiovascular Disease|cardiovascular]] complications.
+**Etiology and pathophysiology:** Pulmonary Hypertension is a medical condition characterized by specific pathological changes in cellular, tissue, or organ function. Its development involves genetic, environmental, and lifestyle risk factors.
 
-## Connections
+**Clinical presentation:** Pulmonary Hypertension presents with characteristic signs and symptoms that reflect the underlying pathophysiology. Diagnosis is based on clinical evaluation, laboratory tests, and imaging studies.
 
-- [[Oxidative Stress]] — Drives vascular remodeling in PH
-- [[notes/_link/Endothelial Dysfunction]] — Impaired NO signaling contributes to PH
-- [[notes/_link/Inflammation]] — Inflammatory cytokines promote PH progression
+**Disease mechanisms:** The pathogenesis of Pulmonary Hypertension involves dysregulated signaling pathways, cellular dysfunction, and tissue damage. Molecular mechanisms include inflammation, oxidative stress, and metabolic dysregulation.
 
-## Linking Summary
-
-- New links added: [[Oxidative Stress]], [[notes/_link/Endothelial Dysfunction]], [[notes/_link/Inflammation]], [[notes/_link/Cardiovascular Disease]]
-- Suggested new entity notes to create: [[Endothelin]], [[Prostacyclin]], [[BMPR2]]
-- Strong connections to strengthen: [[Pulmonary Hypertension]] ↔ [[notes/_link/Endothelial Dysfunction]]
+**Therapeutic strategies:** Management of Pulmonary Hypertension includes pharmacological interventions, lifestyle modifications, and supportive care. Emerging therapies target specific molecular pathways involved in disease progression.

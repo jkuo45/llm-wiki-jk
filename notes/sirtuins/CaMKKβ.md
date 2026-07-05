@@ -11,15 +11,15 @@ database_ids:
   hgnc: HGNC:1470
 relations:
   - predicate: activated_by
-    target: "[[Ca2+]]/[[Calmodulin]]"
+    target: "Ca2+/Calmodulin"
     sources:
       - Park 2012
   - predicate: phosphorylates_and_activates
-    target: "[[AMPK]]"
+    target: "AMPK"
     sources:
       - Park 2012
   - predicate: upstream_of
-    target: "[[SIRT1]]"
+    target: "SIRT1"
     sources:
       - Park 2012
 created: 2026-07-04

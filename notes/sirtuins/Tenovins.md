@@ -9,15 +9,15 @@ database_ids:
   pubchem: 135565345
 relations:
   - predicate: inhibits
-    target: "[[SIRT1]]"
+    target: "SIRT1"
     sources:
       - s41392-022-01257-8
   - predicate: inhibits
-    target: "[[SIRT2]]"
+    target: "SIRT2"
     sources:
       - s41392-022-01257-8
   - predicate: inhibits
-    target: "[[SIRT3]]"
+    target: "SIRT3"
     sources:
       - s41392-022-01257-8
 created: 2026-07-03

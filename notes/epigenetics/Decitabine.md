@@ -35,7 +35,7 @@ Decitabine is a prodrug phosphorylated by [[Deoxycytidine kinase]] (dCK) to its 
 
 Resistance arises through:
 - Reduced [[dCK]] expression / increased [[CDA]] expression.
-- [[DNMT3A]] / [[DNMT3B]] compensation.
+- [[DNMT3a]] / [[DNMT3b]] compensation.
 - [[ABCB1]] (P-glycoprotein) efflux.
 - Selection for cells with pre-existing demethylated genomes.
 

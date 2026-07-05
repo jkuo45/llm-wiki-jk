@@ -9,13 +9,13 @@ database_ids:
   pubchem:
 relations:
   - predicate: intermediate_of
-    target: "[[Adrenochrome]]"
+    target: "Adrenochrome"
     sources: []
   - predicate: formed_by
-    target: "[[Redox Cycling]]"
+    target: "Redox Cycling"
     sources: []
   - predicate: produces
-    target: "[[Superoxide anion]]"
+    target: "Superoxide anion"
     sources: []
 created: 2026-07-04
 updated: 2026-07-04

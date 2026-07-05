@@ -15,7 +15,7 @@ Peroxisome proliferator-activated receptor gamma (PPARγ) is a nuclear receptor 
 
 ## Linking Summary
 - New links added: [[ABCA1]], [[LXRα]], [[notes/_link/Diabetes Mellitus]], [[notes/_link/Inflammation]], [[SIRT1]], [[Resveratrol]]
-- Suggested new entity notes to create: [[Transcription factor]], [[Glucose metabolism]]
+- Suggested new entity notes to create: [[Transcription Factor]], [[Glucose metabolism]]
 - Strong connections to strengthen: [[PPARγ]] ↔ [[ABCA1]], [[SIRT1]] ↔ [[PPARγ]]
 
 
@@ -27,7 +27,7 @@ Peroxisome proliferator-activated receptor gamma (PPARγ) is a nuclear receptor 
 Peroxisome proliferator-activated receptor-γ (PPARγ) is a transcription factor that plays a central role in [[adipogenesis]], lipid storage, and glucose metabolism, and is regulated in part by the [[notes/_link/mTOR]] pathway.
 
 ### Linking Summary:
-- New links added: [[notes/_link/mTOR]], [[adipogenesis]], [[lipid synthesis]]
+- New links added: [[notes/_link/mTOR]], [[adipogenesis]], [[Lipid Synthesis]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[PPARγ]] ↔ [[notes/_link/mTOR]]
 

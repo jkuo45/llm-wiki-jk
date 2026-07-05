@@ -19,17 +19,17 @@ See [[Ferroptosis]].
 
 ## Mechanism
 
-Ferroptosis is initiated when the glutathione-dependent antioxidant enzyme [[GPx4]] is inactivated, either by genetic deletion, pharmacological inhibition (e.g., RSL3, ML162), or depletion of its cofactor [[notes/_link/Glutathione]] (e.g., by erastin-mediated inhibition of system Xc⁻). This inactivation permits unchecked iron-dependent [[Lipid Peroxidation]] of polyunsaturated fatty acid-containing phospholipids (particularly phosphatidylethanolamines), leading to membrane rupture and cell death. The process requires redox-active iron (Fe²⁺), which drives [[Fenton reaction]] chemistry to propagate lipid radical chain reactions. [[Ferritin]]ophagy — the autophagic degradation of ferritin mediated by [[NCOA4]] — can liberate additional iron to fuel ferroptosis.
+Ferroptosis is initiated when the glutathione-dependent antioxidant enzyme [[GPX4]] is inactivated, either by genetic deletion, pharmacological inhibition (e.g., RSL3, ML162), or depletion of its cofactor [[notes/_link/Glutathione]] (e.g., by erastin-mediated inhibition of system Xc⁻). This inactivation permits unchecked iron-dependent [[Lipid Peroxidation]] of polyunsaturated fatty acid-containing phospholipids (particularly phosphatidylethanolamines), leading to membrane rupture and cell death. The process requires redox-active iron (Fe²⁺), which drives [[Fenton Reaction]] chemistry to propagate lipid radical chain reactions. [[Ferritin]]ophagy — the autophagic degradation of ferritin mediated by [[NCOA4]] — can liberate additional iron to fuel ferroptosis.
 
 ## Key Regulators
 
-- **Negative regulators**: [[GPx4]] (master negative regulator), [[FSP1]] (CoQ10-dependent oxidoreductase), [[DHODH]], [[notes/_link/Glutathione]], [[System Xc⁻]] (cystine/glutamate antiporter)
+- **Negative regulators**: [[GPX4]] (master negative regulator), [[FSP1]] (CoQ10-dependent oxidoreductase), [[DHODH]], [[notes/_link/Glutathione]], [[System Xc⁻]] (cystine/glutamate antiporter)
 - **Positive regulators**: [[ACSL4]] (acyl-CoA synthetase that enriches membranes with oxidizable PUFAs), [[LPCAT3]] (remodels membrane phospholipids), [[NOX]] family NADPH oxidases, mitochondrial electron transport chain
 - **Iron regulators**: [[Transferrin receptor 1|TFR1]] (iron uptake), [[Ferritin]] (iron storage), [[NCOA4]] (ferritinophagy cargo receptor), [[HO-1]] (heme degradation liberating iron)
 
 ## Detection & Biomarkers
 
-- Loss of [[GPx4]] or [[System Xc⁻]] (SLC7A11) expression
+- Loss of [[GPX4]] or [[System Xc⁻]] (SLC7A11) expression
 - Accumulation of lipid hydroperoxides (C11-BODIPY 581/591 oxidation by flow cytometry)
 - [[Malondialdehyde]] (MDA) and [[4-Hydroxynonenal]] (4-HNE) adducts
 - Transmission electron microscopy showing shrunken mitochondria with increased membrane density
@@ -37,4 +37,4 @@ Ferroptosis is initiated when the glutathione-dependent antioxidant enzyme [[GPx
 
 ## Clinical Relevance
 
-Ferroptosis has been implicated in [[Neurodegeneration|neurodegenerative diseases]] ([[notes/_link/Parkinson's Disease]], [[notes/_link/Alzheimer's Disease]], [[notes/_link/Huntington's Disease]]), [[notes/_link/Ischemia-reperfusion Injury]] (kidney, heart, brain), [[notes/_link/Diabetes Mellitus]] (pancreatic β-cell loss), and [[Cancer]]. In oncology, ferroptosis induction is a promising therapeutic strategy for therapy-resistant cancers (e.g., [[notes/_link/Breast Cancer]], [[notes/_link/Renal Cell Carcinoma]], [[Melanoma]], [[Leukemia]]), particularly those with mesenchymal or drug-tolerant persister cell states that are highly dependent on GPx4 activity.
+Ferroptosis has been implicated in [[Neurodegeneration|neurodegenerative diseases]] ([[notes/_link/Parkinson's Disease]], [[notes/_link/Alzheimer's Disease]], [[notes/_link/Huntington's Disease]]), [[notes/_link/Ischemia-reperfusion Injury]] (kidney, heart, brain), [[notes/_link/Diabetes Mellitus]] (pancreatic β-cell loss), and [[Cancer]]. In oncology, ferroptosis induction is a promising therapeutic strategy for therapy-resistant cancers (e.g., [[notes/_link/Breast Cancer]], [[notes/_link/Renal Cell Carcinoma]], [[Melanoma]], [[leukemia]]), particularly those with mesenchymal or drug-tolerant persister cell states that are highly dependent on GPx4 activity.

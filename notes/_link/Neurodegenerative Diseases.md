@@ -34,7 +34,7 @@ Because epigenetic changes are reversible, they offer a promising target for new
 
 ## Linking Summary:
 - New links added: [[notes/_link/Neurodegenerative Diseases]], [[notes/_link/Aging]], [[Epigenetics]], [[Histone Acetylation]], [[DNA Methylation]], [[Genomic Instability]], [[Autophagy]], [[notes/_link/mTOR]], [[notes/_link/AMPK]], [[HDAC]], [[notes/_link/Alzheimer's Disease]], [[SIRT1]]
-- Suggested new entity notes to create: [[Amyloid Beta]], [[Tau Protein]], [[Synaptic Plasticity]]
+- Suggested new entity notes to create: [[Amyloid Beta]], [[Tau Protein]], [[Synaptic plasticity]]
 - Strong connections to strengthen: [[notes/_link/Neurodegenerative Diseases]] ↔ [[notes/_link/Aging]], [[notes/_link/Neurodegenerative Diseases]] ↔ [[notes/_link/Alzheimer's Disease]]
 
 - New links added: [[notes/_link/Parkinson's Disease]], [[notes/_link/Alzheimer's Disease]], [[notes/_link/Amyotrophic Lateral Sclerosis]], [[Yamanaka Factors]], [[Induced Pluripotent Stem Cells]]
@@ -56,5 +56,5 @@ Because epigenetic changes are reversible, they offer a promising target for new
 
 ### Linking Summary:
 - New links added: [[notes/_link/AMPK]], [[notes/_link/Aging]], [[notes/_link/Alzheimer's Disease]], [[notes/_link/Amyotrophic Lateral Sclerosis]], [[Autophagy]], [[DNA Methylation]], [[Epigenetics]], [[Genomic Instability]], [[HDAC]], [[Histone Acetylation]], [[Induced Pluripotent Stem Cells]], [[notes/_link/Neurodegenerative Diseases]], [[notes/_link/Parkinson's Disease]], [[SIRT1]], [[Yamanaka Factors]], [[notes/_link/mTOR]]
-- Suggested new entity notes to create: [[Amyloid Beta]], [[Synaptic Plasticity]], [[Tau Protein]]
+- Suggested new entity notes to create: [[Amyloid Beta]], [[Synaptic plasticity]], [[Tau Protein]]
 - Strong connections to strengthen: [[Induced Pluripotent Stem Cells]] ↔ [[notes/_link/Neurodegenerative Diseases]], [[notes/_link/Neurodegenerative Diseases]] ↔ [[notes/_link/Aging]], [[notes/_link/Neurodegenerative Diseases]] ↔ [[notes/_link/Alzheimer's Disease]]

@@ -10,11 +10,11 @@ database_ids:
   hgnc: HGNC:3703
 relations:
   - predicate: regulates
-    target: "[[SIRT1]]"
+    target: "SIRT1"
     sources:
       - "PMID:15692560"
   - predicate: regulates
-    target: "[[FOXO1]]"
+    target: "FOXO1"
     sources:
       - "PMID:15692560"
 created: 2026-07-03
@@ -42,7 +42,7 @@ FHL2 is composed of four and a half highly conserved **LIM domains**:
 
 FHL2 plays a key role in modulating cell survival pathways under oxidative or genotoxic stress, particularly in the context of prostate cancer:
 
-- **FOXO1 Repression**: In prostate cancer cells, FHL2 binds directly to the forkhead transcription factor **[[FOXO1]]** and the Class III deacetylase **[[SIRT1]]**, forming a ternary complex.
+- **FOXO1 Repression**: In prostate cancer cells, FHL2 binds directly to the forkhead transcription factor **[[FoxO1]]** and the Class III deacetylase **[[SIRT1]]**, forming a ternary complex.
 - **Enhanced Deacetylation**: Within this complex, FHL2 acts as a molecular matchmaker that dramatically enhances the physical interaction between SIRT1 and FOXO1, driving the SIRT1-dependent deacetylation of FOXO1.
 - **Tumor Survival Advantage**: While deacetylation of FOXO transcription factors by SIRT1 usually shifts the cell toward stress resistance and cell cycle arrest, the specific FHL2-promoted deacetylation of FOXO1 in cancer cells suppresses its pro-apoptotic transactivation potential. This effect shields prostate cancer cells from apoptotic triggers during aging, promoting tumorigenesis and tumor cell survival in androgen-depleted states.
 
@@ -63,5 +63,5 @@ FHL2 regulates osteoblast differentiation and bone formation by interacting with
 ## Connections & Related Concepts
 
 - **[[SIRT1]]**: Scaffolding by FHL2 accelerates SIRT1's ability to deacetylate target proteins like FOXO1.
-- **[[FOXO1]]**: Deacetylated and suppressed in cancer cells via FHL2 scaffolding, providing a cell survival advantage.
+- **[[FoxO1]]**: Deacetylated and suppressed in cancer cells via FHL2 scaffolding, providing a cell survival advantage.
 - **Androgen Receptor**: FHL2 acts as a co-activator of the androgen receptor, driving oncogenic programs in prostate cancer.

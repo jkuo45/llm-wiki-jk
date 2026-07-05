@@ -23,4 +23,4 @@ Arginase upregulation is a major contributor to [[Endothelial Dysfunction|endoth
 
 ## Clinical Significance
 
-Arginase is elevated in [[notes/_link/Cardiovascular Disease|cardiovascular disease]], [[notes/_link/Diabetes Mellitus|diabetes]], [[Asthma]], [[chronic inflammation]], and [[aging]]. Arginase inhibitors (e.g., [[Nor-NOHA]], [[ABH]]) are being investigated for improving vascular function, wound healing, and reducing airway hyperresponsiveness in asthma.
+Arginase is elevated in [[notes/_link/Cardiovascular Disease|cardiovascular disease]], [[notes/_link/Diabetes Mellitus|diabetes]], [[Asthma]], [[chronic inflammation]], and [[Aging]]. Arginase inhibitors (e.g., [[Nor-NOHA]], [[ABH]]) are being investigated for improving vascular function, wound healing, and reducing airway hyperresponsiveness in asthma.

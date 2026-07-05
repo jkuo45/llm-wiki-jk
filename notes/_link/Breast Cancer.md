@@ -24,7 +24,7 @@ updated: 2026-05-29
 
 ## Research with [[melittin]] and [[Ivermectin]]
 - [[melittin]] and [[Honeybee venom]] have shown high selectivity and potency against aggressive breast cancer subtypes like TNBC and HER2-enriched.
-- [[Ivermectin]] inhibits the proliferation of breast cancer cell lines (e.g., MCF-7, MDA-MB-231) by blocking the [[notes/_link/Akt]]/[[notes/_link/mTOR]] pathway and acting as a [[PAK1]] inhibitor. It also induces [[pyroptosis]] and targets [[Cancer Stem Cells]].
+- [[Ivermectin]] inhibits the proliferation of breast cancer cell lines (e.g., MCF-7, MDA-MB-231) by blocking the [[notes/_link/Akt]]/[[notes/_link/mTOR]] pathway and acting as a [[PAK1]] inhibitor. It also induces [[Pyroptosis]] and targets [[Cancer Stem Cells]].
 
 ## Connections
 - [[triple-negative breast cancer]]: An aggressive subtype sensitive to both melittin and ivermectin.
@@ -33,8 +33,8 @@ updated: 2026-05-29
 - [[Beclin1]]: Often suppressed or co-deleted with [[BRCA1]].
 
 ### Linking Summary:
-- New links added: [[notes/_link/Akt]], [[Autophagy]], [[Beclin1]], [[BRCA1]], [[CK2]], [[notes/_link/Caloric Restriction]], [[Cancer Stem Cells]], [[HER2]], [[Honeybee venom]], [[Ivermectin]], [[MCF-7]], [[PAK1]], [[SIRT1]], [[melittin]], [[notes/_link/mTOR]], [[pyroptosis]], [[triple-negative breast cancer]]
-- Suggested new entity notes to create: [[HER2]], [[ER]], [[PR]], [[MCF-7]], [[PAK1]], [[CK2]], [[pyroptosis]]
+- New links added: [[notes/_link/Akt]], [[Autophagy]], [[Beclin1]], [[BRCA1]], [[CK2]], [[notes/_link/Caloric Restriction]], [[Cancer Stem Cells]], [[HER2]], [[Honeybee venom]], [[Ivermectin]], [[MCF-7]], [[PAK1]], [[SIRT1]], [[melittin]], [[notes/_link/mTOR]], [[Pyroptosis]], [[triple-negative breast cancer]]
+- Suggested new entity notes to create: [[HER2]], [[ER]], [[PR]], [[MCF-7]], [[PAK1]], [[CK2]], [[Pyroptosis]]
 - Strong connections to strengthen: [[notes/_link/Breast Cancer]] ↔ [[Beclin1]], [[notes/_link/Breast Cancer]] ↔ [[BRCA1]], [[notes/_link/Breast Cancer]] ↔ [[Ivermectin]]
 
 ## Content from [[cancer/Breast Cancer.md]]

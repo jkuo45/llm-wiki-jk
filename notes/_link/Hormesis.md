@@ -58,18 +58,18 @@ The overcompensation hypothesis posits that a mild disruption to homeostasis tri
 ### Stress Response Pathways
 
 Multiple conserved signaling cascades mediate hormetic effects:
-- **[[Nrf2]]/[[ARE]]**: Master regulator of electrophilic and oxidative stress resistance. Briefly induced, it upregulates [[NQO1]], [[HO-1]], [[Glutathione S-transferase]], and [[Catalase]].
-- **[[Heat shock response]]**: [[HSF1]] activation drives [[HSP70]], [[HSP90]], and other chaperones that restore proteostasis.
-- **[[Unfolded Protein Response]] (UPR)**: Both [[ER stress]] ([[PERK]]/[[ATF6]]/[[IRE1α]]) and [[Mitochondrial UPR]] (UPRmt) branches are engaged.
+- **[[NRF2]]/[[ARE]]**: Master regulator of electrophilic and oxidative stress resistance. Briefly induced, it upregulates [[NQO1]], [[HO-1]], [[Glutathione S-transferase]], and [[Catalase]].
+- **[[Heat shock response]]**: [[HSF1]] activation drives [[HSP70]], [[Hsp90]], and other chaperones that restore proteostasis.
+- **[[Unfolded Protein Response]] (UPR)**: Both [[ER Stress]] ([[PERK]]/[[ATF6]]/[[IRE1α]]) and [[Mitochondrial UPR]] (UPRmt) branches are engaged.
 - **[[Autophagy]] and [[Mitophagy]]**: [[AMPK]] and [[SIRT1]] activate the ULK1 complex and [[TFEB]] for lysosomal biogenesis.
-- **[[DNA damage response]]**: [[ATM]]/[[ATR]] and [[FOXO]] transcription factors coordinate DNA repair and antioxidant gene expression.
+- **[[DNA Damage Response]]**: [[ATM]]/[[ATR]] and [[FOXO]] transcription factors coordinate DNA repair and antioxidant gene expression.
 
 ## Examples Across Biological Systems
 
 - **Ionizing radiation**: Low-dose radiation (<10 cGy) reduces cancer incidence in some models (the "radiation hormesis" hypothesis) via enhanced DNA repair and immune surveillance.
-- **Exercise**: Physical activity imposes oxidative, mechanical, and metabolic stress that stimulates [[Mitochondrial biogenesis]], [[Autophagy]], and [[Insulin sensitivity]].
+- **Exercise**: Physical activity imposes oxidative, mechanical, and metabolic stress that stimulates [[Mitochondrial Biogenesis]], [[Autophagy]], and [[Insulin Sensitivity]].
 - **Caloric restriction**: Reduced energy intake imposes a mild metabolic stress that extends lifespan across taxa via [[AMPK]] and sirtuin activation.
-- **Phytochemicals**: [[Resveratrol]], [[Sulforaphane]], [[Curcumin]], and [[Epicatechin]] act as hormetic stressors, activating [[Nrf2]] and [[HSF1]] at low doses.
+- **Phytochemicals**: [[Resveratrol]], [[Sulforaphane]], [[Curcumin]], and [[Epicatechin]] act as hormetic stressors, activating [[NRF2]] and [[HSF1]] at low doses.
 - **Temperature**: Heat shock (sauna) and cold exposure (cryotherapy) trigger adaptive thermoregulatory and cytoprotective responses.
 
 ## Biphasic Dose-Response Modeling
@@ -96,7 +96,7 @@ Quantitative features:
 
 ## Linking Summary
 
-- New links added: [[Mitohormesis]], [[Xenohormesis]], [[Oxidative Stress]], [[Longevity]], [[Nrf2]], [[ARE]], [[NQO1]], [[HO-1]], [[Glutathione S-transferase]], [[Catalase]], [[HSF1]], [[HSP70]], [[HSP90]], [[Unfolded Protein Response]], [[PERK]], [[ATF6]], [[IRE1α]], [[Autophagy]], [[Mitophagy]], [[AMPK]], [[SIRT1]], [[TFEB]], [[DNA damage response]], [[ATM]], [[ATR]], [[FOXO]], [[Mitochondrial biogenesis]], [[Insulin sensitivity]], [[Resveratrol]], [[Sulforaphane]], [[Curcumin]], [[Epicatechin]], [[Mithridatism]], [[Mithridates VI]], [[Antidotum Mithridaticum]]
+- New links added: [[Mitohormesis]], [[Xenohormesis]], [[Oxidative Stress]], [[Longevity]], [[NRF2]], [[ARE]], [[NQO1]], [[HO-1]], [[Glutathione S-transferase]], [[Catalase]], [[HSF1]], [[HSP70]], [[Hsp90]], [[Unfolded Protein Response]], [[PERK]], [[ATF6]], [[IRE1α]], [[Autophagy]], [[Mitophagy]], [[AMPK]], [[SIRT1]], [[TFEB]], [[DNA Damage Response]], [[ATM]], [[ATR]], [[FOXO]], [[Mitochondrial Biogenesis]], [[Insulin Sensitivity]], [[Resveratrol]], [[Sulforaphane]], [[Curcumin]], [[Epicatechin]], [[Mithridatism]], [[Mithridates VI]], [[Antidotum Mithridaticum]]
 - Suggested new entity notes to create: [[Arndt-Schulz Law]], [[Biphasic dose response]], [[Overcompensation Hypothesis]]
 - Strong connections to strengthen: [[Hormesis]] ↔ [[Evolutionary Biology]], [[Hormesis]] ↔ [[Mithridatism]]
 

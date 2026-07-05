@@ -11,35 +11,35 @@ database_ids:
   mesh: D004032
 relations:
   - predicate: activates
-    target: "[[SIRT1]]"
+    target: "SIRT1"
     sources:
       - PMID:15205477
   - predicate: requires
-    target: "[[Sir2 (yeast)]]"
+    target: "Sir2 (yeast)"
     sources:
       - PMID:11000115
   - predicate: extends
-    target: "[[Lifespan]]"
+    target: "Lifespan"
     sources:
       - PMID:MICHAN2007
   - predicate: upregulates
-    target: "[[SIRT1]]"
+    target: "SIRT1"
     sources:
       - PMID:MICHAN2007
   - predicate: upregulates
-    target: "[[SIRT3]]"
+    target: "SIRT3"
     sources:
       - PMID:15653680
   - predicate: downregulates
-    target: "[[SIRT4]]"
+    target: "SIRT4"
     sources:
       - PMID:16959573
   - predicate: increases
-    target: "[[NAD+]]"
+    target: "NAD+"
     sources:
       - PMID:11000115
   - predicate: mimicked_by
-    target: "[[Resveratrol]]"
+    target: "Resveratrol"
     sources:
       - PMID:15254550
 created: 02_July_2026 08:57 PM PDT
@@ -76,10 +76,10 @@ The epigenetic changes induced by CR converge on several critical pathways:
 
 ## Linking Summary:
 - New links added: [[notes/_link/Aging]], [[Epigenome]], [[DNA Methylation]], [[Cellular Senescence]], [[Histone Modification]], [[Chromatin]], [[Sirtuins]], [[SIRT1]], [[Heterochromatin]], [[HDAC]].
-- Suggested new entity notes to create: [[p16INK4a]], [[NAD+]], [[Telomere]], [[DunedinPACE]].
+- Suggested new entity notes to create: [[p16INK4A]], [[NAD+]], [[Telomere]], [[DunedinPACE]].
 - Strong connections to strengthen: [[notes/_link/Caloric Restriction]] ↔ [[notes/_link/Aging]], [[notes/_link/Caloric Restriction]] ↔ [[SIRT1]]
 
-- New links added: [[Longevity]], [[Autophagy]], [[notes/_link/AMPK]], [[Cellular Homeostasis]], [[Cancer]], [[Neurodegenerative_Disease]], [[notes/_link/Inflammaging]], [[Autophagic Cell Death]]
+- New links added: [[Longevity]], [[Autophagy]], [[notes/_link/AMPK]], [[Cellular Homeostasis]], [[Cancer]], [[Neurodegenerative Disease]], [[notes/_link/Inflammaging]], [[Autophagic Cell Death]]
 - Suggested new entity notes to create: [[Longevity]], [[notes/_link/AMPK]], [[Cellular Homeostasis]]
 - Strong connections to strengthen: [[notes/_link/Caloric Restriction]] ↔ [[Autophagy]], [[notes/_link/Caloric Restriction]] ↔ [[Longevity]]
 
@@ -90,7 +90,7 @@ The epigenetic changes induced by CR converge on several critical pathways:
 
 
 ## Health Benefits
-- Enhances protection against chronic pathologies like [[Cancer]] and [[Neurodegenerative_Disease]].
+- Enhances protection against chronic pathologies like [[Cancer]] and [[Neurodegenerative Disease]].
 - Regulates anti-inflammatory responses and reduces [[notes/_link/Inflammaging]].
 - Improves metabolic health and insulin sensitivity.
 
@@ -107,8 +107,8 @@ The epigenetic changes induced by CR converge on several critical pathways:
 
 
 ### Linking Summary:
-- New links added: [[notes/_link/AMPK]], [[notes/_link/Aging]], [[Autophagic Cell Death]], [[Autophagy]], [[Cancer]], [[Cellular Homeostasis]], [[Cellular Senescence]], [[Chromatin]], [[DNA Methylation]], [[Epigenome]], [[HDAC]], [[Heterochromatin]], [[Histone Modification]], [[notes/_link/Inflammaging]], [[Longevity]], [[Neurodegenerative_Disease]], [[SIRT1]], [[Sirtuins]]
-- Suggested new entity notes to create: [[notes/_link/AMPK]], [[Cellular Homeostasis]], [[DunedinPACE]], [[Longevity]], [[NAD+]], [[Telomere]], [[p16INK4a]]
+- New links added: [[notes/_link/AMPK]], [[notes/_link/Aging]], [[Autophagic Cell Death]], [[Autophagy]], [[Cancer]], [[Cellular Homeostasis]], [[Cellular Senescence]], [[Chromatin]], [[DNA Methylation]], [[Epigenome]], [[HDAC]], [[Heterochromatin]], [[Histone Modification]], [[notes/_link/Inflammaging]], [[Longevity]], [[Neurodegenerative Disease]], [[SIRT1]], [[Sirtuins]]
+- Suggested new entity notes to create: [[notes/_link/AMPK]], [[Cellular Homeostasis]], [[DunedinPACE]], [[Longevity]], [[NAD+]], [[Telomere]], [[p16INK4A]]
 - Strong connections to strengthen: [[notes/_link/Caloric Restriction]] ↔ [[notes/_link/Aging]], [[notes/_link/Caloric Restriction]] ↔ [[Autophagy]], [[notes/_link/Caloric Restriction]] ↔ [[Longevity]], [[notes/_link/Caloric Restriction]] ↔ [[SIRT1]]
 
 # Caloric Restriction

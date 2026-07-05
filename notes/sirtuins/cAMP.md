@@ -8,12 +8,12 @@ database_ids:
   mesh: D000242
 relations:
   - predicate: activates
-    target: "[[notes/_link/AMPK|AMPK]]"
+    target: "AMPK"
     sources: [doi:10.1016/j.cmet.2012.01.003]
     created: 2026-07-03
     updated: 2026-07-03
   - predicate: associated_with
-    target: "[[SIRT1]]"
+    target: "SIRT1"
     sources: [doi:10.1016/j.cmet.2012.01.003]
     created: 2026-07-03
     updated: 2026-07-03

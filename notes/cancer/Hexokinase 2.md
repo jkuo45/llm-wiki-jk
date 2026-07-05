@@ -1,6 +1,6 @@
 # Hexokinase 2
 
-[[Hexokinase 2]] (HK2) is an enzyme that in humans is encoded by the [[HK2]] gene. It catalyzes the first step of [[Glycolysis]], the phosphorylation of [[glucose]] to [[glucose-6-phosphate]].
+[[Hexokinase 2]] (HK2) is an enzyme that in humans is encoded by the [[HK2]] gene. It catalyzes the first step of [[Glycolysis]], the phosphorylation of [[Glucose]] to [[glucose-6-phosphate]].
 
 ## Role in Cancer
 - **Metabolic Control:** HK2 is highly expressed in many cancer cells and plays a key role in the [[Warburg Effect]].
@@ -11,7 +11,7 @@
 - **Pathway:** [[Glycolysis]]
 - **Target Molecule:** [[Glucose]]
 - **Regulators:** [[notes/_link/Akt]], [[HIF-1α]]
-- **Related Drugs:** [[2-Deoxy-D-glucose]], [[Fenbendazole]]
+- **Related Drugs:** [[2-deoxy-D-glucose]], [[Fenbendazole]]
 
 ## Linking Summary
-- New links added: [[HK2]], [[Glycolysis]], [[glucose]], [[glucose-6-phosphate]], [[Warburg Effect]], [[VDAC]], [[ATP]], [[notes/_link/Apoptosis]], [[Fenbendazole]], [[notes/_link/Akt]], [[HIF-1α]], [[2-Deoxy-D-glucose]]
+- New links added: [[HK2]], [[Glycolysis]], [[Glucose]], [[glucose-6-phosphate]], [[Warburg Effect]], [[VDAC]], [[ATP]], [[notes/_link/Apoptosis]], [[Fenbendazole]], [[notes/_link/Akt]], [[HIF-1α]], [[2-deoxy-D-glucose]]

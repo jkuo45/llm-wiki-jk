@@ -10,11 +10,11 @@ database_ids:
   hgnc: HGNC:17183
 relations:
   - predicate: regulates
-    target: "[[SIRT1]]"
+    target: "SIRT1"
     sources:
       - "PMID:16998474"
   - predicate: regulates
-    target: "[[notes/_link/NFKB|NF-κB]]"
+    target: "NF-κB"
     sources:
       - "PMID:16998474"
 created: 2026-07-03

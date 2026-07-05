@@ -16,7 +16,7 @@ aliases:
 
 ## Mechanism
 
-PGC-1α coactivates transcription factors including [[NRF1]], [[NRF2]], [[PPARγ]], [[PPARα]], [[ERRα]], and [[FOXO1]] by recruiting [[Histone Acetyltransferase|histone acetyltransferases]] ([[p300]]/[[CBP]], [[SRC-1]]) and the [[Mediator complex|Mediator complex]]. Key gene targets include:
+PGC-1α coactivates transcription factors including [[NRF1]], [[NRF2]], [[PPARγ]], [[PPARα]], [[ERRα]], and [[FoxO1]] by recruiting [[Histone Acetyltransferase|histone acetyltransferases]] ([[P300]]/[[CBP]], [[SRC-1]]) and the [[Mediator complex|Mediator complex]]. Key gene targets include:
 
 - [[TFAM]] (mitochondrial transcription factor A)
 - [[NRF1]] (nuclear respiratory factor 1)
@@ -26,26 +26,26 @@ PGC-1α coactivates transcription factors including [[NRF1]], [[NRF2]], [[PPARγ
 
 ## Role in Aging
 
-PGC-1α expression declines with age in multiple tissues, contributing to [[Mitochondrial Dysfunction|mitochondrial dysfunction]], reduced oxidative capacity, and metabolic inflexibility. Upregulation of PGC-1α by exercise, [[Caloric Restriction|caloric restriction]], or pharmacological agents ([[Resveratrol]] via [[Sirt1|Sirt1]]) improves metabolic health and extends healthspan in model organisms.
+PGC-1α expression declines with age in multiple tissues, contributing to [[Mitochondrial Dysfunction|mitochondrial dysfunction]], reduced oxidative capacity, and metabolic inflexibility. Upregulation of PGC-1α by exercise, [[Caloric Restriction|caloric restriction]], or pharmacological agents ([[Resveratrol]] via [[SIRT1|Sirt1]]) improves metabolic health and extends healthspan in model organisms.
 
 ## Regulation
 
 PGC-1α is regulated by:
 - **Phosphorylation:** [[AMPK]], [[p38 MAPK]], [[Akt]]
-- **Deacetylation:** [[Sirt1]] (NAD+-dependent)
+- **Deacetylation:** [[SIRT1]] (NAD+-dependent)
 - **Methylation:** [[PRMT1]]
 - **Transcriptional:** [[CREB]], [[MEF2]], [[FOXO]]
 
 ## Connections
 - [[Mitochondrial Biogenesis]]
 - [[Oxidative Stress]]
-- [[Sirt1]]
+- [[SIRT1]]
 - [[Caloric Restriction]]
 
 ### Linking Summary:
-- New links added: [[Mitochondrial Biogenesis]], [[NRF1]], [[TFAM]], [[PPARγ]], [[Sirt1]], [[AMPK]], [[Oxidative Stress]]
+- New links added: [[Mitochondrial Biogenesis]], [[NRF1]], [[TFAM]], [[PPARγ]], [[SIRT1]], [[AMPK]], [[Oxidative Stress]]
 - Suggested new entity notes to create: [[PPARGC1A]], [[ERRα]], [[PRMT1]]
-- Strong connections to strengthen: [[PGC-1α]] ↔ [[Mitochondrial Biogenesis]], [[PGC-1α]] ↔ [[Sirt1]]
+- Strong connections to strengthen: [[PGC-1α]] ↔ [[Mitochondrial Biogenesis]], [[PGC-1α]] ↔ [[SIRT1]]
 
 ## Content from [[sirtuins/PGC-1α.md]]
 

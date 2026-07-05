@@ -10,19 +10,19 @@ database_ids:
   hgnc: HGNC:14932
 relations:
   - predicate: inhibits
-    target: "[[Glutamate Dehydrogenase (GDH)]]"
+    target: "Glutamate Dehydrogenase (GDH)"
     sources:
       - PMID:16959573
   - predicate: inhibits
-    target: "[[Insulin Secretion]]"
+    target: "Insulin Secretion"
     sources:
       - PMID:16959573
   - predicate: downregulated_by
-    target: "[[notes/_link/Caloric Restriction]]"
+    target: "notes/_link/Caloric Restriction"
     sources:
       - PMID:16959573
   - predicate: mono-ADP-ribosylates
-    target: "[[Glutamate Dehydrogenase (GDH)]]"
+    target: "Glutamate Dehydrogenase (GDH)"
     sources:
       - PMID:16959573
 created: 2026-07-02

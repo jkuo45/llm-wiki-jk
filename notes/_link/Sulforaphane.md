@@ -10,11 +10,11 @@ database_ids:
   pubchem: 5350
 relations:
   - predicate: activates
-    target: "[[NRF2]]"
+    target: "NRF2"
     sources:
       - PMID:15601911
   - predicate: inhibits
-    target: "[[NF-κB]]"
+    target: "NF-κB"
     sources:
       - PMID:18222410
 created: 2026-07-04
@@ -27,7 +27,7 @@ updated: 2026-07-04
 
 ## Mechanism
 
-Sulforaphane covalently modifies [[KEAP1]] at Cys151, preventing [[NRF2]] ubiquitination. Stabilized NRF2 drives expression of over 200 cytoprotective genes via ARE, including [[NQO1]], [[HO-1]], [[GCLM]]/[[GCLC]], and [[notes/_link/Glutathione]] synthesis enzymes.
+Sulforaphane covalently modifies [[Keap1]] at Cys151, preventing [[NRF2]] ubiquitination. Stabilized NRF2 drives expression of over 200 cytoprotective genes via ARE, including [[NQO1]], [[HO-1]], [[GCLM]]/[[GCLC]], and [[notes/_link/Glutathione]] synthesis enzymes.
 
 ## Additional Mechanisms
 
@@ -58,7 +58,7 @@ Investigated in trials for [[Asthma]], [[Chronic Obstructive Pulmonary Disease|C
 
 ## Mechanism
 
-Sulforaphane is released by the action of [[myrosinase]] enzyme on glucoraphanin upon plant tissue damage (chewing, chopping). It rapidly enters cells and covalently modifies reactive cysteine residues (particularly Cys151) on [[KEAP1]], inducing a conformational change that prevents [[notes/_link/NRF2]] ubiquitination and proteasomal degradation. Stabilized NRF2 accumulates and translocates to the nucleus, driving expression of over 200 cytoprotective genes via the antioxidant response element (ARE), including [[NQO1]], [[HO-1]], [[GCLM]]/[[GCLC]], and [[notes/_link/Glutathione]] synthesis enzymes.
+Sulforaphane is released by the action of [[myrosinase]] enzyme on glucoraphanin upon plant tissue damage (chewing, chopping). It rapidly enters cells and covalently modifies reactive cysteine residues (particularly Cys151) on [[Keap1]], inducing a conformational change that prevents [[notes/_link/NRF2]] ubiquitination and proteasomal degradation. Stabilized NRF2 accumulates and translocates to the nucleus, driving expression of over 200 cytoprotective genes via the antioxidant response element (ARE), including [[NQO1]], [[HO-1]], [[GCLM]]/[[GCLC]], and [[notes/_link/Glutathione]] synthesis enzymes.
 
 ## Additional Mechanisms
 
@@ -74,5 +74,5 @@ Sulforaphane has been investigated in clinical trials for [[Asthma]] (restoring 
 ## Linking Summary
 
 - New links added: [[NRF2]], [[NF-κB]], [[notes/_link/Glutathione]], [[HO-1]], [[AMPK]], [[HDAC]], [[Ferroptosis]], [[notes/_link/Alzheimer's Disease]], [[notes/_link/Parkinson's Disease]], [[Cancer]], [[notes/_link/Diabetes Mellitus]], [[Asthma]]
-- Suggested new entity notes to create: [[KEAP1]], [[GCLM]], [[Glucoraphanin]], [[Myrosinase]]
+- Suggested new entity notes to create: [[Keap1]], [[GCLM]], [[Glucoraphanin]], [[Myrosinase]]
 - Strong connections to strengthen: [[Sulforaphane]] ↔ [[NRF2]], [[Sulforaphane]] ↔ [[NF-κB]]

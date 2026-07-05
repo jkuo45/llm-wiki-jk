@@ -10,10 +10,10 @@ database_ids:
   chebi: CHEBI:27843
 relations:
   - predicate: activates
-    target: "[[SIRT6]]"
+    target: "SIRT6"
     sources: []
   - predicate: associated_with
-    target: "[[Antioxidants]]"
+    target: "Antioxidants"
     sources: []
 created: 2026-07-03
 updated: 2026-07-03

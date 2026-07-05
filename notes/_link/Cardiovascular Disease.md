@@ -52,9 +52,9 @@ The reversible nature of epigenetic modifications makes them attractive targets 
 - Suggested new entity notes to create: [[Endothelial Dysfunction]], [[Vascular Stiffening]], [[Cardiac Fibrosis]], [[notes/_link/Inflammaging]].
 - Strong connections to strengthen: [[notes/_link/Cardiovascular Disease]] ↔ [[notes/_link/Aging]], [[notes/_link/Cardiovascular Disease]] ↔ [[DNA Methylation]]
 
-- New links added: [[Autophagic Flux]], [[notes/_link/AMPK]], [[Autophagy]], [[Ventricular Remodeling]], [[Cardiomyocyte Toxicity]], [[Intermittent Fasting]], [[notes/_link/Caloric Restriction]], [[Ischemia-reperfusion Injury]], [[Myocardial Infarction]], [[Atg5]]
-- Suggested new entity notes to create: [[Autophagic Flux]], [[notes/_link/AMPK]], [[Ventricular Remodeling]], [[Cardiomyocyte Toxicity]], [[Intermittent Fasting]], [[notes/_link/Caloric Restriction]], [[Ischemia-reperfusion Injury]], [[Myocardial Infarction]]
-- Strong connections to strengthen: [[notes/_link/Cardiovascular Disease]] ↔ [[Autophagy]], [[notes/_link/Cardiovascular Disease]] ↔ [[Myocardial Infarction]]
+- New links added: [[Autophagic Flux]], [[notes/_link/AMPK]], [[Autophagy]], [[Ventricular Remodeling]], [[Cardiomyocyte Toxicity]], [[Intermittent Fasting]], [[notes/_link/Caloric Restriction]], [[Ischemia-reperfusion Injury]], [[Myocardial infarction]], [[Atg5]]
+- Suggested new entity notes to create: [[Autophagic Flux]], [[notes/_link/AMPK]], [[Ventricular Remodeling]], [[Cardiomyocyte Toxicity]], [[Intermittent Fasting]], [[notes/_link/Caloric Restriction]], [[Ischemia-reperfusion Injury]], [[Myocardial infarction]]
+- Strong connections to strengthen: [[notes/_link/Cardiovascular Disease]] ↔ [[Autophagy]], [[notes/_link/Cardiovascular Disease]] ↔ [[Myocardial infarction]]
 
 - New links added: [[COMT]], [[Val158Met]], [[SNP]], [[Aspirin]], [[Catecholamines]], [[notes/_link/Epinephrine]], [[notes/_link/Norepinephrine]].
 
@@ -67,7 +67,7 @@ The reversible nature of epigenetic modifications makes them attractive targets 
 ## Impact of Dietary Interventions
 - [[Intermittent Fasting]] (IF) and [[notes/_link/Caloric Restriction]] have been shown to exert cardioprotective roles.
 - IF can reduce infarct area in mouse models of [[Ischemia-reperfusion Injury]] by promoting autophagic flux.
-- In aged models of acute [[Myocardial Infarction]], IF leads to the upregulation of [[Atg5]] and reduction of cardiac injury markers.
+- In aged models of acute [[Myocardial infarction]], IF leads to the upregulation of [[Atg5]] and reduction of cardiac injury markers.
 
 
 ## Role of COMT
@@ -87,6 +87,6 @@ Genetic variation in [[COMT]], particularly the [[Val158Met]] [[SNP]], has been 
 ---
 
 ### Linking Summary:
-- New links added: [[notes/_link/AMPK]], [[notes/_link/Aging]], [[Aspirin]], [[Atg5]], [[notes/_link/Atherosclerosis]], [[Autophagic Flux]], [[Autophagy]], [[COMT]], [[notes/_link/Caloric Restriction]], [[Cardiomyocyte Toxicity]], [[Catecholamines]], [[Cellular Senescence]], [[DNA Methylation]], [[DNAmGrimAge]], [[Epigenetic Clock]], [[Epigenetics]], [[notes/_link/Epinephrine]], [[Genomic Instability]], [[HDAC]], [[Histone Modification]], [[Intermittent Fasting]], [[Ischemia-reperfusion Injury]], [[MicroRNA]], [[Myocardial Infarction]], [[Non-coding RNA]], [[notes/_link/Norepinephrine]], [[Resveratrol]], [[SIRT1]], [[SNP]], [[Senolytics]], [[Sirtuins]], [[Val158Met]], [[Ventricular Remodeling]]
-- Suggested new entity notes to create: [[notes/_link/AMPK]], [[Autophagic Flux]], [[notes/_link/Caloric Restriction]], [[Cardiac Fibrosis]], [[Cardiomyocyte Toxicity]], [[Endothelial Dysfunction]], [[notes/_link/Inflammaging]], [[Intermittent Fasting]], [[Ischemia-reperfusion Injury]], [[Myocardial Infarction]], [[Vascular Stiffening]], [[Ventricular Remodeling]]
-- Strong connections to strengthen: [[notes/_link/Cardiovascular Disease]] ↔ [[notes/_link/Aging]], [[notes/_link/Cardiovascular Disease]] ↔ [[Autophagy]], [[notes/_link/Cardiovascular Disease]] ↔ [[DNA Methylation]], [[notes/_link/Cardiovascular Disease]] ↔ [[Myocardial Infarction]]
+- New links added: [[notes/_link/AMPK]], [[notes/_link/Aging]], [[Aspirin]], [[Atg5]], [[notes/_link/Atherosclerosis]], [[Autophagic Flux]], [[Autophagy]], [[COMT]], [[notes/_link/Caloric Restriction]], [[Cardiomyocyte Toxicity]], [[Catecholamines]], [[Cellular Senescence]], [[DNA Methylation]], [[DNAmGrimAge]], [[Epigenetic Clock]], [[Epigenetics]], [[notes/_link/Epinephrine]], [[Genomic Instability]], [[HDAC]], [[Histone Modification]], [[Intermittent Fasting]], [[Ischemia-reperfusion Injury]], [[MicroRNA]], [[Myocardial infarction]], [[Non-coding RNA]], [[notes/_link/Norepinephrine]], [[Resveratrol]], [[SIRT1]], [[SNP]], [[Senolytics]], [[Sirtuins]], [[Val158Met]], [[Ventricular Remodeling]]
+- Suggested new entity notes to create: [[notes/_link/AMPK]], [[Autophagic Flux]], [[notes/_link/Caloric Restriction]], [[Cardiac Fibrosis]], [[Cardiomyocyte Toxicity]], [[Endothelial Dysfunction]], [[notes/_link/Inflammaging]], [[Intermittent Fasting]], [[Ischemia-reperfusion Injury]], [[Myocardial infarction]], [[Vascular Stiffening]], [[Ventricular Remodeling]]
+- Strong connections to strengthen: [[notes/_link/Cardiovascular Disease]] ↔ [[notes/_link/Aging]], [[notes/_link/Cardiovascular Disease]] ↔ [[Autophagy]], [[notes/_link/Cardiovascular Disease]] ↔ [[DNA Methylation]], [[notes/_link/Cardiovascular Disease]] ↔ [[Myocardial infarction]]

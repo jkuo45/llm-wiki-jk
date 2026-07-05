@@ -32,15 +32,15 @@ Mitophagy can be modulated by various factors, including energy status (via [[no
 
 # Mitophagy
 
-The selective degradation of mitochondria by [[Autophagy]]. It is a critical quality control mechanism to remove damaged or dysfunctional mitochondria, often regulated by the [[Pink1]]/[[Parkin]] pathway.
+The selective degradation of mitochondria by [[Autophagy]]. It is a critical quality control mechanism to remove damaged or dysfunctional mitochondria, often regulated by the [[PINK1]]/[[Parkin]] pathway.
 
 ### Linking Summary
 
-- New links added: [[Pink1]], [[Parkin]], [[Autophagy]]
+- New links added: [[PINK1]], [[Parkin]], [[Autophagy]]
 
 ## Pink1/Parkin Pathway Mechanism
 
-The PTEN-induced putative kinase 1 ([[Pink1]])/[[Parkin]] pathway is the most extensively characterized mitophagy mechanism. In healthy mitochondria, [[Pink1]] (a serine/threonine kinase) is constitutively imported into the inner mitochondrial membrane via the TOM/TIM complexes and cleaved by [[PARL]] (presenilin-associated rhomboid-like protease), followed by rapid proteasomal degradation. When mitochondria become depolarized — due to electron transport chain dysfunction, [[Mitochondrial calcium uniporter]] overload, or oxidative damage — Pink1 import is arrested at the outer mitochondrial membrane (OMM). Full-length Pink1 accumulates on the OMM, where it dimerizes and autophosphorylates, activating its kinase domain. Activated Pink1 phosphorylates both [[Parkin]] (an E3 ubiquitin ligase) at Ser65 and ubiquitin molecules at Ser65, creating a phospho-ubiquitin signal that recruits and fully activates Parkin. Parkin then ubiquitinates a network of OMM proteins, including MFN1, MFN2, and VDAC1, building ubiquitin chains that serve as a recognition signal for autophagy receptors such as p62/SQSTM1, NBR1, OPTN, and NDP52. These receptors simultaneously bind ubiquitin and LC3/GABARAP family proteins on the phagophore membrane, tethering the damaged mitochondrion to the forming autophagosome.
+The PTEN-induced putative kinase 1 ([[PINK1]])/[[Parkin]] pathway is the most extensively characterized mitophagy mechanism. In healthy mitochondria, [[PINK1]] (a serine/threonine kinase) is constitutively imported into the inner mitochondrial membrane via the TOM/TIM complexes and cleaved by [[PARL]] (presenilin-associated rhomboid-like protease), followed by rapid proteasomal degradation. When mitochondria become depolarized — due to electron transport chain dysfunction, [[Mitochondrial calcium uniporter]] overload, or oxidative damage — Pink1 import is arrested at the outer mitochondrial membrane (OMM). Full-length Pink1 accumulates on the OMM, where it dimerizes and autophosphorylates, activating its kinase domain. Activated Pink1 phosphorylates both [[Parkin]] (an E3 ubiquitin ligase) at Ser65 and ubiquitin molecules at Ser65, creating a phospho-ubiquitin signal that recruits and fully activates Parkin. Parkin then ubiquitinates a network of OMM proteins, including MFN1, MFN2, and VDAC1, building ubiquitin chains that serve as a recognition signal for autophagy receptors such as p62/SQSTM1, NBR1, OPTN, and NDP52. These receptors simultaneously bind ubiquitin and LC3/GABARAP family proteins on the phagophore membrane, tethering the damaged mitochondrion to the forming autophagosome.
 
 ## Receptor-Mediated Mitophagy
 

@@ -8,7 +8,7 @@ updated: 2024-07-04
 
 # Gene Expression
 
-**[[Gene Expression]]** is the biological process by which information from a [[Gene|gene]] is used to synthesize a functional gene product — typically [[Protein|protein]] via [[Transcription|transcription]] and [[Translation|translation]], or functional [[Non-coding RNA|non-coding RNA]]. Epigenetic regulation controls every level of gene expression from chromatin accessibility to mRNA stability.
+**[[Gene Expression]]** is the biological process by which information from a [[Gene|gene]] is used to synthesize a functional gene product — typically [[Proteins|protein]] via [[Transcription|transcription]] and [[Translation|translation]], or functional [[Non-coding RNA|non-coding RNA]]. Epigenetic regulation controls every level of gene expression from chromatin accessibility to mRNA stability.
 
 ## Epigenetic Layers of Regulation
 
@@ -20,7 +20,7 @@ Even after transcription initiation, [[RNA Polymerase II]] often pauses at promo
 
 **3. Co-transcriptional and Post-transcriptional Regulation**
 - [[Alternative Splicing|Alternative splicing]] is influenced by [[H3K36me3]] (recruits splicing factors via [[SRSF1]], [[MRG15]]).
-- [[mRNA stability]] is regulated by [[MicroRNA|miRNAs]] (e.g., [[let-7]] targets [[HMGA2]], [[LIN28]]), which are themselves epigenetically controlled.
+- [[mRNA stability]] is regulated by [[MicroRNA|miRNAs]] (e.g., [[let-7]] targets [[HMGA2]], [[Lin28]]), which are themselves epigenetically controlled.
 - [[N6-methyladenosine|m⁶A]] modification of mRNA (by [[METTL3/METTL14]]) affects splicing, export, and translation, and is linked to the [[Epigenetic Clock|aging clock]].
 
 ## Quantitative Methods for Measuring Gene Expression

@@ -4,7 +4,7 @@
 
 ## Research with Melittin and Ivermectin
 - [[melittin]] has demonstrated antitumoral effects in ovarian cancer cells. It has been shown to inhibit the [[JAK2]]/[[notes/_link/STAT3]] signaling pathway in this cancer type.
-- [[Ivermectin]] inhibits the proliferation of various ovarian cancer cell lines by inactivating [[PAK1]]. It also works through a [[KPNB1]]-dependent mechanism and enhances the efficacy of [[cisplatin]] and [[paclitaxel]] by suppressing [[notes/_link/Akt]]/[[notes/_link/mTOR]] signaling.
+- [[Ivermectin]] inhibits the proliferation of various ovarian cancer cell lines by inactivating [[PAK1]]. It also works through a [[KPNB1]]-dependent mechanism and enhances the efficacy of [[Cisplatin]] and [[paclitaxel]] by suppressing [[notes/_link/Akt]]/[[notes/_link/mTOR]] signaling.
 
 ## Connections
 - [[melittin]]: Active against ovarian cancer cells.

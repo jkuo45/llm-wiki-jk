@@ -23,7 +23,7 @@ A critical distinction in aging research:
 
 Discovered through [[C. elegans]] genetics:
 - Reduced signaling through [[DAF-2]] (IGF-1 receptor homolog) extends lifespan via [[DAF-16]]/[[FOXO]].
-- [[FOXO3A]] polymorphisms (rs2802292) are associated with human longevity in multiple cohorts.
+- [[FOXO3a]] polymorphisms (rs2802292) are associated with human longevity in multiple cohorts.
 - [[IGF-1]] receptor mutations in mice (Igf1r⁺/⁻) extend lifespan, especially in females.
 
 ### [[TOR]] Pathway
@@ -61,14 +61,14 @@ Mild mitochondrial stress triggers adaptive responses:
 ### [[Retrograde Response]]
 
 Communication from mitochondria to the nucleus:
-- In [[S. cerevisiae]], the [[RTG1]]/[[RTG3]] pathway responds to mitochondrial dysfunction.
+- In [[S. cerevisiae]], the [[Rtg1]]/[[Rtg3]] pathway responds to mitochondrial dysfunction.
 - In mammals, [[DELE1]]-[[HRI]]-[[ATF4]] signaling ([[Integrated Stress Response]]) mediates mitochondrial-to-nuclear communication.
 - [[OMA1]]-[[DELE1]] pathway: OMA1 cleaves [[OPA1]] under mitochondrial stress, releasing DELE1 to activate HRI.
 
 ### [[Mitokines]]
 
 Cell non-autonomous signals:
-- [[FGF21]]: Induced by mitochondrial stress, improves [[Insulin sensitivity]] and extends healthspan.
+- [[FGF21]]: Induced by mitochondrial stress, improves [[Insulin Sensitivity]] and extends healthspan.
 - [[GDF15]]: Stress-responsive mitokine; elevated in mitochondrial disease and aging.
 - [[Humanin]]: Encoded in [[Mitochondrial DNA]], protects against [[Alzheimer's Disease]] and [[Stroke]].
 - Tissue crosstalk via mitokines coordinates systemic adaptation to mitochondrial stress.
@@ -77,11 +77,11 @@ Cell non-autonomous signals:
 
 | Organism | Intervention | Lifespan Extension | Key Finding |
 |----------|-------------|-------------------|-------------|
-| *C. elegans* | [[daf-2]] RNAi | ~100% | IIS suppression requires [[DAF-16]]/[[FOXO]] |
+| *C. elegans* | [[DAF-2]] RNAi | ~100% | IIS suppression requires [[DAF-16]]/[[FOXO]] |
 | *C. elegans* | [[isp-1]] mutation | ~60% | ETC impairment induces mitohormesis |
 | *Drosophila* | [[Chico]] (Irs1) mutation | ~50% | IIS extends lifespan in flies |
 | *Drosophila* | [[TOR]] inhibition | ~30% | Dietary amino acid restriction |
-| *Mus musculus* | [[Caloric restriction]] | ~30–50% | Robust across strains |
+| *Mus musculus* | [[Caloric Restriction]] | ~30–50% | Robust across strains |
 | *Mus musculus* | [[Rapamycin]] | ~10–25% | Both genders, even late-life start |
 | *Mus musculus* | [[SIRT1]] OE | ~10% | On high-fat diet background |
 | *Mus musculus* | [[SIRT6]] OE | ~15% | Male-specific extension |
@@ -98,12 +98,12 @@ Translation of longevity mechanisms to humans is constrained by:
 ## Relationship to Stress Resistance and Proteostasis
 
 Lifespan extension often correlates with enhanced stress resistance:
-- Long-lived mutants ([[daf-2]], [[age-1]]) are resistant to [[Oxidative Stress]], [[Heat shock]], and [[UV radiation]].
+- Long-lived mutants ([[DAF-2]], [[age-1]]) are resistant to [[Oxidative Stress]], [[Heat shock]], and [[UV radiation]].
 - [[Heat shock response]] declines with age; boosting [[HSP70]] extends lifespan.
-- [[Proteasome]] activation by [[Nrf2]]/[[ARE]] signaling clears damaged proteins.
+- [[Proteasome]] activation by [[NRF2]]/[[ARE]] signaling clears damaged proteins.
 - The [[Glyco-Oxidative Proteostasis Shield]] concept explicitly links proteostasis maintenance — through [[Redox Cycling]] and [[UPRmt]] activation — to lifespan extension.
 
 ### Linking Summary:
-- New links added: [[Caloric Restriction]], [[Oxidative Stress]], [[Advanced Glycation End Products]], [[Aging]], [[Healthspan]], [[Metformin]], [[Insulin/IGF-1 Signaling (IIS)]], [[DAF-2]], [[DAF-16]], [[FOXO]], [[FOXO3A]], [[IGF-1]], [[TOR]], [[mTORC1]], [[Rapamycin]], [[SASP]], [[Autophagy]], [[S6K1]], [[AMPK]], [[AICAR]], [[Adiponectin]], [[Leptin]], [[PGC1α]], [[ULK1]], [[SIRT1]], [[SIRT6]], [[SIRT3]], [[SOD2]], [[Mitohormesis]], [[isp-1]], [[clk-1]], [[nuo-6]], [[UPRmt]], [[ATFS-1]], [[HAF-1]], [[UBL-5]], [[DVE-1]], [[Mitophagy]], [[Sarcopenia]], [[Neurodegeneration]], [[Retrograde Response]], [[S. cerevisiae]], [[RTG1]], [[RTG3]], [[DELE1]], [[HRI]], [[ATF4]], [[Integrated Stress Response]], [[OMA1]], [[OPA1]], [[Mitokines]], [[FGF21]], [[Insulin sensitivity]], [[GDF15]], [[Humanin]], [[Mitochondrial DNA]], [[Alzheimer's Disease]], [[Stroke]], [[C. elegans]], [[Drosophila melanogaster]], [[Mus musculus]], [[Caloric restriction]], [[Frailty index]], [[Oxidative Stress]], [[Heat shock]], [[UV radiation]], [[HSP70]], [[Proteasome]], [[Nrf2]], [[ARE]], [[Glyco-Oxidative Proteostasis Shield]], [[Redox Cycling]]
+- New links added: [[Caloric Restriction]], [[Oxidative Stress]], [[Advanced Glycation End Products]], [[Aging]], [[Healthspan]], [[Metformin]], [[Insulin/IGF-1 Signaling (IIS)]], [[DAF-2]], [[DAF-16]], [[FOXO]], [[FOXO3a]], [[IGF-1]], [[TOR]], [[mTORC1]], [[Rapamycin]], [[SASP]], [[Autophagy]], [[S6K1]], [[AMPK]], [[AICAR]], [[Adiponectin]], [[Leptin]], [[PGC1α]], [[ULK1]], [[SIRT1]], [[SIRT6]], [[SIRT3]], [[SOD2]], [[Mitohormesis]], [[isp-1]], [[clk-1]], [[nuo-6]], [[UPRmt]], [[ATFS-1]], [[HAF-1]], [[UBL-5]], [[DVE-1]], [[Mitophagy]], [[Sarcopenia]], [[Neurodegeneration]], [[Retrograde Response]], [[S. cerevisiae]], [[Rtg1]], [[Rtg3]], [[DELE1]], [[HRI]], [[ATF4]], [[Integrated Stress Response]], [[OMA1]], [[OPA1]], [[Mitokines]], [[FGF21]], [[Insulin Sensitivity]], [[GDF15]], [[Humanin]], [[Mitochondrial DNA]], [[Alzheimer's Disease]], [[Stroke]], [[C. elegans]], [[Drosophila melanogaster]], [[Mus musculus]], [[Caloric Restriction]], [[Frailty index]], [[Oxidative Stress]], [[Heat shock]], [[UV radiation]], [[HSP70]], [[Proteasome]], [[NRF2]], [[ARE]], [[Glyco-Oxidative Proteostasis Shield]], [[Redox Cycling]]
 - Suggested new entity notes to create: [[Biomarkers of Aging]], [[Morbidity Compression]]
 - Strong connections to strengthen: [[Caloric Restriction]] ↔ [[Lifespan]], [[Mitohormesis]] ↔ [[Lifespan]]

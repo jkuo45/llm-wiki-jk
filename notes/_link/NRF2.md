@@ -7,22 +7,22 @@ database_ids:
   uniprot: Q16236
 relations:
   - predicate: regulates
-    target: "[[notes/_link/Glutathione]]"
+    target: "notes/_link/Glutathione"
     sources: []
   - predicate: inhibits
-    target: "[[NF-kappa B]]"
+    target: "NF-kappa B"
     sources: []
   - predicate: is activated by
-    target: "[[SIRT1]]"
+    target: "SIRT1"
     sources: []
   - predicate: is activated by
-    target: "[[Alpha-Lipoic Acid]]"
+    target: "Alpha-Lipoic Acid"
     sources: []
   - predicate: is activated by
-    target: "[[Flavonoids]]"
+    target: "Flavonoids"
     sources: []
   - predicate: induces
-    target: "[[Ferritin]]"
+    target: "Ferritin"
     sources: []
 
 created: 2026-07-04
@@ -43,7 +43,7 @@ NRF2 induces over 200 cytoprotective genes, including:
 - **Antioxidant Enzymes**: [[notes/_link/Superoxide Dismutase|SOD1]], [[Catalase]], [[Glutathione Peroxidase|GPx]], [[Peroxiredoxin]]
 - **Glutathione Synthesis**: Glutamate-cysteine ligase (GCL, both catalytic GCLC and modifier GCLM subunits), Glutathione synthetase (GSS), [[notes/_link/Glutathione|GSH]]
 - **Phase II Detoxification**: [[NQO1]], [[HO-1]] (HMOX1), [[UGT1A1]]
-- **Iron Metabolism**: Ferritin heavy chain (FTH1) — whose ferroxidase activity converts Fe2+ to Fe3+ for safe storage, limiting [[Fenton reaction]] chemistry
+- **Iron Metabolism**: Ferritin heavy chain (FTH1) — whose ferroxidase activity converts Fe2+ to Fe3+ for safe storage, limiting [[Fenton Reaction]] chemistry
 - **NADPH Regeneration**: [[G6PD]], [[PGD]], [[ME1]], [[IDH1]] — supporting reducing equivalents for antioxidant systems
 - **Thioredoxin System**: [[Thioredoxin]] (TXN), [[Thioredoxin reductase]] (TXNRD1)
 - **Proteasome Subunits**: [[PSMB5]], [[PSMA1]] — enhancing proteasomal degradation of oxidized proteins
@@ -58,7 +58,7 @@ NRF2 is a key participant in the hormetic induction of stress resistance. In *C.
 
 ## Redox Signaling & Cross-talk
 
-NRF2 exhibits mutual antagonism with [[NF-kappa B]]: RelA (p65) competes with NRF2 for the transcriptional coactivator [[CBP]]/[[p300]], and NRF2 activation suppresses NF-κB target genes through multiple mechanisms, including heme oxygenase-1 (HO-1) activity. This cross-talk positions NRF2 as a central node in the switch between pro-inflammatory and anti-inflammatory transcriptional programs.
+NRF2 exhibits mutual antagonism with [[NF-kappa B]]: RelA (p65) competes with NRF2 for the transcriptional coactivator [[CBP]]/[[P300]], and NRF2 activation suppresses NF-κB target genes through multiple mechanisms, including heme oxygenase-1 (HO-1) activity. This cross-talk positions NRF2 as a central node in the switch between pro-inflammatory and anti-inflammatory transcriptional programs.
 
 ## Clinical Relevance
 

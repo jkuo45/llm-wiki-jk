@@ -35,8 +35,8 @@ MAPK signaling can influence the [[Epigenome]] by phosphorylating histones and r
 ## Role in Cancer
 - **Proliferation**: Critical for cell growth and survival.
 - **Inhibition**: 
-    - [[melittin]] has been reported to inhibit MAPK signaling in [[melanoma]] and [[notes/_link/Breast Cancer]].
-    - [[Ivermectin]] inhibits the MAPK pathway in [[nasopharyngeal carcinoma]] and [[melanoma]] by reducing [[PAK1]] kinase activity.
+    - [[melittin]] has been reported to inhibit MAPK signaling in [[Melanoma]] and [[notes/_link/Breast Cancer]].
+    - [[Ivermectin]] inhibits the MAPK pathway in [[Nasopharyngeal Carcinoma]] and [[Melanoma]] by reducing [[PAK1]] kinase activity.
 
 
 ## Connections
@@ -49,7 +49,7 @@ MAPK signaling can influence the [[Epigenome]] by phosphorylating histones and r
 - [[EGFR]]: An upstream activator of the MAPK pathway.
 - [[melittin]]: Modulates MAPK signaling to induce cell death.
 - [[Ivermectin]]: Inhibits MAPK signaling via [[PAK1]].
-- [[melanoma]]: A cancer type where both melittin and ivermectin inhibit MAPK.
+- [[Melanoma]]: A cancer type where both melittin and ivermectin inhibit MAPK.
 
 ### Linking Summary:
 - New links added: [[notes/_link/Aging]], [[Cellular Senescence]], [[Epigenome]], [[Histone Modification]], [[notes/_link/MAPK]], [[PTEN]], [[SASP]]

@@ -11,11 +11,11 @@ database_ids:
   hgnc: HGNC:9642
 relations:
   - predicate: downregulates
-    target: "[[PTP1B]]"
+    target: "PTP1B"
     sources:
       - Sun 2007
   - predicate: increases
-    target: "[[Insulin Sensitivity]]"
+    target: "Insulin Sensitivity"
     sources:
       - Sun 2007
 created: 2026-07-04

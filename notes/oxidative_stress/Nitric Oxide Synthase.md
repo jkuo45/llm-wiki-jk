@@ -57,7 +57,7 @@ All NOS isoforms are homodimeric flavo-hemoproteins. Each monomer consists of:
 | [[FAD]] | Accepts electrons from NADPH | Impaired electron transfer |
 | [[FMN]] | Transfers electrons to heme | Impaired NO synthesis |
 | [[Heme]] (Fe-protoporphyrin IX) | Binds O₂ for L-arginine hydroxylation | Complete loss of catalytic activity |
-| [[Zinc]] (Zn²⁺) | Stabilizes dimer interface | Dimer dissociation and inactivation |
+| Zinc (Zn²⁺) | Stabilizes dimer interface | Dimer dissociation and inactivation |
 
 ## eNOS Regulation and Post-Translational Modifications
 

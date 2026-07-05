@@ -11,11 +11,11 @@ database_ids:
   hgnc: HGNC:5024
 relations:
   - predicate: deacetylated_by
-    target: "[[SIRT2]]"
+    target: "SIRT2"
     sources:
       - Xu 2020
   - predicate: stabilized_by
-    target: "[[SIRT2]]"
+    target: "SIRT2"
     sources:
       - Xu 2020
 created: 2026-07-04

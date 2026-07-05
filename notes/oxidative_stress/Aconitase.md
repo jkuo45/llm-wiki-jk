@@ -20,7 +20,7 @@ Aconitase contains a [4Fe-4S] cluster at its active site. One iron atom (Feₐ) 
 
 **[[Superoxide Radicals]]**, [[Peroxynitrite]], and [[Hydroxyl Radicals]] rapidly oxidize the [4Fe-4S] cluster, releasing Fe²⁺ and converting aconitase to an inactive [3Fe-4S]⁺ form. This inactivation:
 1. **Disrupts the TCA cycle**: Accumulation of citrate and decreased isocitrate/α-ketoglutarate, impairing [[ATP]] production and [[mitochondrial]] respiration
-2. **Releases redox-active iron**: The liberated Fe²⁺ can participate in [[Fenton reaction]] chemistry, amplifying oxidative damage
+2. **Releases redox-active iron**: The liberated Fe²⁺ can participate in [[Fenton Reaction]] chemistry, amplifying oxidative damage
 3. **Activates [[IRP1]]**: In mammalian cells, the aconitase apoprotein (lacking its Fe-S cluster) functions as the [[Iron Regulatory Protein 1]] (IRP1), binding to iron-responsive elements (IREs) in mRNAs of [[Ferritin]] and [[Transferrin receptor]] to regulate iron homeostasis
 
 ## Clinical Relevance

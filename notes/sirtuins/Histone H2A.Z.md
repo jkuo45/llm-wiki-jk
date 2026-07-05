@@ -9,7 +9,7 @@ database_ids:
   hgnc: HGNC:4741
 relations:
   - predicate: deacetylated_by
-    target: "[[SIRT1]]"
+    target: "SIRT1"
     sources:
       - PMID:24312627
 created: 2026-07-04
@@ -32,10 +32,10 @@ This SIRT1–H2A.Z axis has been specifically implicated in protection against *
 
 - [[SIRT1]] — deacetylates H2A.Z at K115 and K121, promoting its degradation
 - [[Cardiac Hypertrophy]] — pathophysiological context for SIRT1-H2A.Z regulation
-- [[Ubiquitin-Proteasome System]] — degradation pathway for deacetylated H2A.Z
+- [[Ubiquitin-proteasome system]] — degradation pathway for deacetylated H2A.Z
 
 ## Linking Summary
 
-- New links added: [[SIRT1]], [[Cardiac Hypertrophy]], [[Ubiquitin-Proteasome System]]
+- New links added: [[SIRT1]], [[Cardiac Hypertrophy]], [[Ubiquitin-proteasome system]]
 - Suggested new entity notes to create: [[H2AFZ]], [[Histone Variant]], [[Proteasome-Dependent Degradation]]
 - Strong connections to strengthen: [[Histone H2A.Z]] ↔ [[SIRT1]]

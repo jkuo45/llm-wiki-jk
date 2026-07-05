@@ -11,10 +11,10 @@ database_ids:
   chebi: CHEBI:68096
 relations:
   - predicate: activates
-    target: "[[SIRT3]]"
+    target: "SIRT3"
     sources: []
   - predicate: reduces
-    target: "[[Reactive Oxygen Species]]"
+    target: "Reactive Oxygen Species"
     sources: []
 created: 2026-07-03
 updated: 2026-07-03

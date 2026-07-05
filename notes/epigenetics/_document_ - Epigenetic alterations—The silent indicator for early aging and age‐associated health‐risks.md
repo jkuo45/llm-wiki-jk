@@ -2,9 +2,9 @@
 title: "Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks"
 source: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9805292/"
 author:
-  - "[[Poulami Dhar]]"
-  - "[[Shailaja S Moodithaya]]"
-  - "[[Prakash Patil]]"
+  - "Poulami Dhar"
+  - "Shailaja S Moodithaya"
+  - "Prakash Patil"
 published:
 created: 2026-05-13
 description: "Aging is the process of gradual physiological deterioration till death and this process perpetually reduce the functionality of an individual. To address the rationale and provide geriatric care, the constant target of geroscience is to identify ..."
@@ -179,5 +179,5 @@ Dhar P, Moodithaya SS, Patil P. Epigenetic alterations—The silent indicator fo
 
 ### Linking Summary:
 - New links added: [[notes/_link/Aging]], [[Geroscience]], [[Biomarkers]], [[Epigenetics]], [[DNA Methylation]], [[Histone Modification]], [[MicroRNA]], [[Epigenome]], [[notes/_link/Apoptosis]], [[notes/_link/Cardiovascular Disease]], [[Metabolic Syndromes]], [[notes/_link/Neurodegenerative Diseases]], [[Cellular Senescence]], [[Genomic Instability]], [[Chromatin]], [[DNA Methyltransferase]], [[DNMT1]], [[DNMT3a]], [[DNMT3b]], [[Epigenetic Clock]], [[Nucleosome]], [[Histone Methyltransferase]], [[HGPS]], [[Histone Acetyltransferase]], [[Histone Deacetylase]], [[Non-coding RNA]], [[IGF-1]], [[PTEN]], [[notes/_link/mTOR]], [[notes/_link/AMPK]], [[Sirtuins]], [[notes/_link/MAPK]], [[notes/_link/Alzheimer's Disease]], [[notes/_link/Atherosclerosis]], [[notes/_link/Diabetes Mellitus]], [[Cancer]], [[Coronary Heart Disease]], [[DNAmGrimAge]]
-- Suggested new entity notes to create: [[Poulami Dhar]], [[Shailaja S Moodithaya]], [[Prakash Patil]]
+- Suggested new entity notes to create: 
 - Strong connections to strengthen: [[notes/_link/Aging]] ↔ [[Epigenetics]]

@@ -47,8 +47,8 @@ The susceptibility of individual amino acid side chains to [[notes/_link/Reactiv
 
 ### Carbonylation
 Protein carbonylation is an **irreversible** modification introducing carbonyl groups (aldehydes, ketones) into proteins. It occurs via:
-1. **Direct metal-catalyzed oxidation**: [[Fenton reaction|Fenton chemistry]] at metal-binding sites (e.g., Fe²⁺ bound to ATP-binding motifs) oxidizes Lys, Arg, Pro, and Thr residues to carbonyls
-2. **Secondary reaction with lipid peroxidation products**: [[Malondialdehyde]] (MDA) and [[4-hydroxynonenal]] (4-HNE) form covalent Michael adducts with Cys, His, and Lys residues
+1. **Direct metal-catalyzed oxidation**: [[Fenton Reaction|Fenton chemistry]] at metal-binding sites (e.g., Fe²⁺ bound to ATP-binding motifs) oxidizes Lys, Arg, Pro, and Thr residues to carbonyls
+2. **Secondary reaction with lipid peroxidation products**: [[Malondialdehyde]] (MDA) and [[4-Hydroxynonenal]] (4-HNE) form covalent Michael adducts with Cys, His, and Lys residues
 3. **Reaction with reducing sugars (glycoxidation)**: Advanced glycation end-products (AGEs) contain carbonyl groups
 
 **Consequences**: Carbonylated proteins are recognized by the [[20S Proteasome]] and preferentially degraded. Accumulation of carbonylated proteins is a hallmark of aging and is elevated in [[notes/_link/Alzheimer's Disease]], [[notes/_link/Parkinson's Disease]], and [[notes/_link/Cataract]].
@@ -129,7 +129,7 @@ GSSG is recycled by [[Glutathione Peroxidase]]
 
 ### Consequences of Impaired Clearance
 When clearance systems are overwhelmed or decline with age:
-- **Protein aggregation**: Accumulation of [[Amyloid-beta|Aβ]], [[notes/_link/Alpha-synuclein|α-synuclein]], and [[Tau protein|Tau]]
+- **Protein aggregation**: Accumulation of [[Amyloid-beta|Aβ]], [[notes/_link/Alpha-synuclein|α-synuclein]], and [[Tau Protein|Tau]]
 - **Proteasome inhibition**: Cross-linked oxidized proteins physically block the 20S barrel
 - **Lipofuscin accumulation**: Autofluorescent, non-degradable aggregates ("age pigment") in post-mitotic cells
 
@@ -167,7 +167,7 @@ Protein oxidation is not merely damage—it is a regulated mechanism of **redox 
 ### Diabetes
 - **AGE formation**: Hyperglycemia drives protein glycation and oxidative cross-linking
 - **β-cell dysfunction**: Oxidized [[PDX1]] and [[Glucokinase]] impair insulin secretion
-- **Insulin resistance**: Oxidized [[IRS-1]] and [[AKT]] reduce insulin signaling
+- **Insulin resistance**: Oxidized [[IRS1]] and [[Akt]] reduce insulin signaling
 
 ### Biomarkers of Clinical Protein Oxidation
 

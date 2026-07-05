@@ -12,15 +12,15 @@ database_ids:
   mesh: D009243
 relations:
   - predicate: required_by
-    target: "[[SIRT1]]"
+    target: "SIRT1"
     sources:
       - PMID:10693811
   - predicate: consumed_in
-    target: "[[Sirtuin Deacetylation Reaction]]"
+    target: "Sirtuin Deacetylation Reaction"
     sources:
       - PMID:11106374
   - predicate: sensed_by
-    target: "[[Sirtuins]]"
+    target: "Sirtuins"
     sources:
       - PMID:MICHAN2007
 created: 2026-07-04
@@ -127,7 +127,7 @@ SIRT1-mediated neuroprotection in the context of axonal degeneration requires **
 ## Linking Summary
 
 - New links added: [[SIRT1]], [[Sir2 (yeast)]], [[OAADPr]], [[notes/_link/Caloric Restriction]], [[SIRT4]], [[SIRT6]], [[Resveratrol]]
-- Suggested new entity notes to create: [[Nmnat]], [[PNC1 (yeast)]], [[NAMPT]], [[NAD⁺/NADH Ratio]]
+- Suggested new entity notes to create: [[NMNAT]], [[PNC1 (yeast)]], [[NAMPT]], [[NAD⁺/NADH Ratio]]
 - Strong connections to strengthen: [[NAD+]] ↔ [[SIRT1]], [[NAD+]] ↔ [[notes/_link/Caloric Restriction]]
 
 ## Linking Summary

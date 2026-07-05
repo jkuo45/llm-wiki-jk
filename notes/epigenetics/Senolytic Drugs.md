@@ -14,10 +14,10 @@ updated: 2024-07-04
 
 Senescent cells acquire a complex anti-apoptotic network that protects them from their own [[SASP|SASP]]-associated cytotoxic signaling. The major SCAPs include:
 
-- **BCL-2 family:** [[BCL-2]], [[BCL-XL]], and [[BCL-W]] are upregulated in many senescent cell types, blocking [[BAX]]/[[BAK]]-mediated mitochondrial outer membrane permeabilization.
-- **PI3K/Akt pathway:** [[Akt]] activation suppresses pro-apoptotic [[BAD]] and [[CASP9]].
+- **BCL-2 family:** [[Bcl-2]], [[Bcl-xL]], and [[Bcl-w]] are upregulated in many senescent cell types, blocking [[Bax]]/[[Bak]]-mediated mitochondrial outer membrane permeabilization.
+- **PI3K/Akt pathway:** [[Akt]] activation suppresses pro-apoptotic [[Bad]] and [[CASP9]].
 - **p53/p21 axis:** Paradoxically, p21 activation inhibits [[CASP3]] activation downstream of mitochondrial signals.
-- **HSP90/FOXO:** [[HSP90]] chaperones stabilize pro-survival FOXO transcription factors.
+- **HSP90/FOXO:** [[Hsp90]] chaperones stabilize pro-survival FOXO transcription factors.
 
 Senolytics target these survival circuits. For example, [[Navitoclax]] (ABT-263) inhibits BCL-2/BCL-XL/BCL-W, and [[Dasatinib]] inhibits SFK-dependent anti-apoptotic pathways.
 
@@ -45,11 +45,11 @@ Senolytics target these survival circuits. For example, [[Navitoclax]] (ABT-263)
 
 ## Future Directions
 
-- **Senomorphic agents:** Compounds that suppress the [[SASP]] without killing senescent cells (e.g., [[metformin]], [[rapamycin]], [[JAK inhibitors]]).
+- **Senomorphic agents:** Compounds that suppress the [[SASP]] without killing senescent cells (e.g., [[Metformin]], [[Rapamycin]], [[JAK inhibitors]]).
 - **Next-generation senolytics:** PROTACs targeting BCL-XL for ubiquitination; CAR-T cells specific for senescent cell surface markers (e.g., [[uPAR]], [[DDR1]]).
 - **Combination strategies:** Sequential senolytic + [[Partial Reprogramming|partial reprogramming]] to reset the epigenome after clearing senescent cells.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Senescence]], [[notes/_link/Apoptosis]], [[SASP]], [[BCL-2]], [[Dasatinib]], [[Quercetin]], [[Fisetin]], [[Navitoclax]]
+- New links added: [[notes/_link/Senescence]], [[notes/_link/Apoptosis]], [[SASP]], [[Bcl-2]], [[Dasatinib]], [[Quercetin]], [[Fisetin]], [[Navitoclax]]
 - Suggested new entity notes to create: [[SCAPs]], [[Senomorphics]], [[PROTAC]]
 - Strong connections to strengthen: [[Senolytic Drugs]] ↔ [[notes/_link/Senescence]], [[Senolytic Drugs]] ↔ [[notes/_link/Senolytics]]

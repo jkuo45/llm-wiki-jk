@@ -16,14 +16,14 @@ A [[Catecholamines|catecholamine]] that functions as both a hormone and a neurot
 ## Linking Summary:
 - New links added: [[Catecholamines]], [[notes/_link/Epinephrine]], [[Adrenal medulla]], [[Adrenochrome]]
 
-- New links added: [[Neurotransmitters]], [[COMT]], [[Catechol-O-methyltransferase]], [[MAO]], [[Prefrontal Cortex]], [[Norepinephrine Transporter]], [[NET]], [[notes/_link/Dopamine]], [[notes/_link/Epinephrine]].
+- New links added: [[Neurotransmitters]], [[COMT]], [[Catechol-O-methyltransferase]], [[MAO]], [[Prefrontal Cortex]], [[Norepinephrine transporter]], [[NET]], [[notes/_link/Dopamine]], [[notes/_link/Epinephrine]].
 
 ## Metabolism
 As a catecholamine, [[notes/_link/Norepinephrine]] is degraded by:
 1. [[COMT]] ([[Catechol-O-methyltransferase]])
-2. [[Monoamine Oxidase]] ([[MAO]])
+2. [[Monoamine oxidase]] ([[MAO]])
 
-In the [[Prefrontal Cortex]], its clearance is also facilitated by the [[Norepinephrine Transporter]] ([[NET]]).
+In the [[Prefrontal Cortex]], its clearance is also facilitated by the [[Norepinephrine transporter]] ([[NET]]).
 
 
 ## Functions
@@ -43,4 +43,4 @@ It is involved in arousal, attention, and the stress response. It also affects h
 ---
 
 ### Linking Summary:
-- New links added: [[Adrenal medulla]], [[Adrenochrome]], [[COMT]], [[Catechol-O-methyltransferase]], [[Catecholamines]], [[notes/_link/Dopamine]], [[notes/_link/Epinephrine]], [[MAO]], [[NET]], [[Neurotransmitters]], [[Norepinephrine Transporter]], [[Prefrontal Cortex]]
+- New links added: [[Adrenal medulla]], [[Adrenochrome]], [[COMT]], [[Catechol-O-methyltransferase]], [[Catecholamines]], [[notes/_link/Dopamine]], [[notes/_link/Epinephrine]], [[MAO]], [[NET]], [[Neurotransmitters]], [[Norepinephrine transporter]], [[Prefrontal Cortex]]

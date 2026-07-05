@@ -11,11 +11,11 @@ database_ids:
   hgnc: HGNC:812
 relations:
   - predicate: deacetylated_by
-    target: "[[SIRT1]]"
+    target: "SIRT1"
     sources:
       - Shinmura 2015
   - predicate: restored_by
-    target: "[[SIRT1]]"
+    target: "SIRT1"
     sources:
       - Shinmura 2015
       - Gorski 2019

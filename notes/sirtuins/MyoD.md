@@ -11,12 +11,12 @@ database_ids:
   hgnc: HGNC:7611
 relations:
   - predicate: regulated_by
-    target: "[[SIRT1]]"
+    target: "SIRT1"
     sources:
       - PMID:15485910
       - Michan 2007
   - predicate: interacts_with
-    target: "[[MEF2D]]"
+    target: "MEF2D"
     sources:
       - Michan 2007
 created: 2026-07-03

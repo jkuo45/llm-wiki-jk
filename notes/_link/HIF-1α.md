@@ -11,11 +11,11 @@ database_ids:
   mesh: D051792
 relations:
   - predicate: regulated_by
-    target: "[[SIRT3]]"
+    target: "SIRT3"
     sources:
       - PMID:21149515
   - predicate: regulated_by
-    target: "[[SIRT6]]"
+    target: "SIRT6"
     sources:
       - PMID:22955984
 created: 2026-07-04

@@ -24,7 +24,7 @@ updated: '2026-07-04'
 
 ## Regulation
 
-Beclin1 is regulated by [[BCL-2]] binding, which inhibits its autophagy function. Phosphorylation by [[ULK1]], [[MAPKAPK2]], and [[DAPK]] modulates its activity.
+Beclin1 is regulated by [[Bcl-2]] binding, which inhibits its autophagy function. Phosphorylation by [[ULK1]], [[MAPKAPK2]], and [[DAPK]] modulates its activity.
 
 ### Linking Summary:
 - New links added: [[Autophagy]], [[notes/_link/PI3K]], [[Vps34]], [[Autophagosome]], [[Cancer]], [[BRCA1]]

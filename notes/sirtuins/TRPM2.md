@@ -10,16 +10,16 @@ database_ids:
   hgnc: HGNC:12334
 relations:
   - predicate: activated_by
-    target: "[[OAADPr]]"
+    target: "OAADPr"
     sources:
       - PMID:16565078
       - PMID:11812793
   - predicate: associated_with
-    target: "[[SIRT2]]"
+    target: "SIRT2"
     sources:
       - PMID:16565078
   - predicate: associated_with
-    target: "[[SIRT3]]"
+    target: "SIRT3"
     sources:
       - PMID:16565078
 created: 2026-07-03

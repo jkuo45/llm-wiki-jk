@@ -12,7 +12,7 @@ database_ids:
   hgnc: HGNC:8139
 relations:
   - predicate: expression_suppressed_by
-    target: "[[SIRT1]]"
+    target: "SIRT1"
     sources:
       - Li 2015
       - Zhang 2017
@@ -34,7 +34,7 @@ Lox-1 is a type II transmembrane protein with a C-terminal C-type lectin-like do
 
 ## Clinical Relevance
 
-Lox-1 expression is upregulated in human atherosclerotic lesions, acute coronary syndromes, and in the setting of [[Metabolic_Syndrome|metabolic syndrome]] and [[Diabetes Mellitus|diabetes]]. Serum soluble Lox-1 (sLOX-1) is a biomarker for plaque instability. SIRT1 activators (e.g., [[Resveratrol]], [[SRT1720]]) that suppress Lox-1 have atheroprotective effects in preclinical models.
+Lox-1 expression is upregulated in human atherosclerotic lesions, acute coronary syndromes, and in the setting of [[Metabolic Syndrome|metabolic syndrome]] and [[Diabetes Mellitus|diabetes]]. Serum soluble Lox-1 (sLOX-1) is a biomarker for plaque instability. SIRT1 activators (e.g., [[Resveratrol]], [[SRT1720]]) that suppress Lox-1 have atheroprotective effects in preclinical models.
 
 ## Connections
 

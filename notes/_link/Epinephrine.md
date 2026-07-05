@@ -33,7 +33,7 @@ updated: 2026-05-29
 ## Metabolism
 [[notes/_link/Epinephrine]] is a catecholamine and is primary metabolized by:
 1. [[COMT]] ([[Catechol-O-methyltransferase]])
-2. [[Monoamine Oxidase]] ([[MAO]])
+2. [[Monoamine oxidase]] ([[MAO]])
 
 
 ## Functions

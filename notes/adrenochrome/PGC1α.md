@@ -20,7 +20,7 @@ PGC1α is a key effector in the [[Mitohormesis]] paradigm, as it not only increa
 
 ## Structural Organization
 
-PGC1α is a 798-amino acid protein with modular domain architecture. The N-terminal region contains a highly conserved activation domain that recruits histone acetyltransferases ([[p300]]/[[CBP]]) and the TRAP/Mediator complex to facilitate transcriptional initiation. The C-terminal region contains an [[RNA recognition motif]] (RRM) and a serine/arginine-rich (RS) domain that couples transcription to pre-mRNA splicing. The central regulatory region harbors phosphorylation sites for [[AMPK]] and [[p38 MAPK]], as well as acetylation sites targeted by [[SIRT1]] and the acetyltransferase [[GCN5]].
+PGC1α is a 798-amino acid protein with modular domain architecture. The N-terminal region contains a highly conserved activation domain that recruits histone acetyltransferases ([[P300]]/[[CBP]]) and the TRAP/Mediator complex to facilitate transcriptional initiation. The C-terminal region contains an [[RNA recognition motif]] (RRM) and a serine/arginine-rich (RS) domain that couples transcription to pre-mRNA splicing. The central regulatory region harbors phosphorylation sites for [[AMPK]] and [[p38 MAPK]], as well as acetylation sites targeted by [[SIRT1]] and the acetyltransferase [[GCN5]].
 
 ## Interaction with Transcription Factors
 
@@ -36,7 +36,7 @@ PGC1α induces mitochondrial biogenesis by coactivating [[NRF1]] and [[NRF2]], w
 
 ## Connection to Mitohormesis and Therapeutic Potential
 
-In the [[Mitohormesis]] paradigm, PGC1α is both a downstream effector and an upstream regulator of adaptive responses to mitochondrial stress. Mild mitochondrial dysfunction activates PGC1α via [[AMPK]] and [[CaMK]], which in turn induces [[Manganese superoxide dismutase|SOD2]], [[Catalase]], [[Glutathione peroxidase]], and [[UCP2]] as part of the mitohormetic antioxidant program. Therapeutically, PGC1α activation by exercise mimetics ([[AICAR]], [[GW501516]]), NAD+ precursors ([[Nicotinamide Riboside]], [[Nicotinamide Mononucleotide]]), or natural compounds ([[Resveratrol]], [[Urolithin A]]) holds promise for [[Aging]], neurodegeneration, [[Metabolic_Syndrome]], and [[Sarcopenia]].
+In the [[Mitohormesis]] paradigm, PGC1α is both a downstream effector and an upstream regulator of adaptive responses to mitochondrial stress. Mild mitochondrial dysfunction activates PGC1α via [[AMPK]] and [[CaMK]], which in turn induces [[Manganese superoxide dismutase|SOD2]], [[Catalase]], [[Glutathione Peroxidase]], and [[UCP2]] as part of the mitohormetic antioxidant program. Therapeutically, PGC1α activation by exercise mimetics ([[AICAR]], [[GW501516]]), NAD+ precursors ([[Nicotinamide Riboside]], [[Nicotinamide Mononucleotide]]), or natural compounds ([[Resveratrol]], [[Urolithin A]]) holds promise for [[Aging]], neurodegeneration, [[Metabolic Syndrome]], and [[Sarcopenia]].
 
 ## Related Entities
 
@@ -48,5 +48,5 @@ In the [[Mitohormesis]] paradigm, PGC1α is both a downstream effector and an up
 ## Linking Summary
 
 - New links added: [[AMPK]], [[SIRT1]], [[Mitochondria]], [[Mitohormesis]], [[Mitohormetic Redox-Relay]]
-- Suggested new entity notes to create: [[Mitochondrial biogenesis]]
+- Suggested new entity notes to create: [[Mitochondrial Biogenesis]]
 - Strong connections to strengthen: [[PGC1α]] ↔ [[Metabolic Homeostasis]], [[PGC1α]] ↔ [[Mitohormetic Redox-Relay]]

@@ -20,7 +20,7 @@ ARE-regulated genes include [[NQO1]], [[HO-1]], [[GCLM]]/[[GCLC]] (glutathione s
 
 ## Activation
 
-[[NRF2]] binds ARE sequences upon release from [[KEAP1]]. Inducers of ARE include [[Sulforaphane]], [[Curcumin]], and [[Oxidative Stress]].
+[[NRF2]] binds ARE sequences upon release from [[Keap1]]. Inducers of ARE include [[Sulforaphane]], [[Curcumin]], and [[Oxidative Stress]].
 
 ## Connections
 
@@ -32,5 +32,5 @@ ARE-regulated genes include [[NQO1]], [[HO-1]], [[GCLM]]/[[GCLC]] (glutathione s
 ## Linking Summary
 
 - New links added: [[NRF2]], [[Sulforaphane]], [[HO-1]], [[notes/_link/Glutathione]], [[Oxidative Stress]], [[Curcumin]]
-- Suggested new entity notes to create: [[KEAP1]], [[NQO1]], [[GCLM]]
+- Suggested new entity notes to create: [[Keap1]], [[NQO1]], [[GCLM]]
 - Strong connections to strengthen: [[ARE]] ↔ [[NRF2]]

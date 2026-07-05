@@ -23,4 +23,4 @@ updated: 2026-07-04
 
 ## Clinical Relevance
 
-7-KC is a biomarker and mediator of [[notes/_link/Atherosclerosis]], plaque vulnerability, and [[notes/_link/Cardiovascular Disease]]. It is also elevated in [[notes/_link/Alzheimer's Disease]] brains, [[Age-related Macular Degeneration|age-related macular degeneration]], and [[Non-alcoholic Steatohepatitis|NASH]]. [[PON1]] (paraoxonase 1) can hydrolyze 7-KC and other oxidized lipid species, contributing to HDL's anti-atherogenic effects.
+7-KC is a biomarker and mediator of [[notes/_link/Atherosclerosis]], plaque vulnerability, and [[notes/_link/Cardiovascular Disease]]. It is also elevated in [[notes/_link/Alzheimer's Disease]] brains, [[Age-related Macular Degeneration|age-related macular degeneration]], and [[Nonalcoholic Steatohepatitis|NASH]]. [[PON1]] (paraoxonase 1) can hydrolyze 7-KC and other oxidized lipid species, contributing to HDL's anti-atherogenic effects.

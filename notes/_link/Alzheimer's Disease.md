@@ -7,7 +7,7 @@ updated: 2026-05-29
 ---
 # Alzheimer's Disease
 
-Alzheimer's disease is a chronic neurodegenerative disease that usually starts slowly and gradually worsens over time. [[Oxidative Stress]] is considered a pivotal factor in its pathogenesis, often involving dysfunction in the [[notes/_link/Mitochondria]] and the accumulation of [[Amyloid-beta]] plaques and [[Tau protein]] tangles.
+Alzheimer's disease is a chronic neurodegenerative disease that usually starts slowly and gradually worsens over time. [[Oxidative Stress]] is considered a pivotal factor in its pathogenesis, often involving dysfunction in the [[notes/_link/Mitochondria]] and the accumulation of [[Amyloid-beta]] plaques and [[Tau Protein]] tangles.
 
 
 [[Epigenetics]] plays a critical role in the development and progression of **Alzheimer’s Disease (AD)**, acting as a bridge between genetic predisposition and environmental risk factors. Unlike genetic mutations, epigenetic changes do not alter the DNA sequence itself but instead modify how genes are expressed.
@@ -55,7 +55,7 @@ Because epigenetic modifications are chemically reversible, they represent a pro
 
 ## Linking Summary:
 - New links added: [[Epigenetics]], [[DNA Methylation]], [[Histone Modification]], [[Nucleosome]], [[Chromatin]], [[MicroRNA]], [[notes/_link/Aging]], [[Epigenome]], [[Epigenetic Clock]], [[HDAC]], [[DNA Methyltransferase]], [[Biomarkers]], [[notes/_link/Neurodegenerative Diseases]], [[Neuroinflammation]].
-- Suggested new entity notes to create: [[Neuroinflammation]], [[Amyloid Beta]], [[Tau Protein]], [[Synaptic Plasticity]].
+- Suggested new entity notes to create: [[Neuroinflammation]], [[Amyloid Beta]], [[Tau Protein]], [[Synaptic plasticity]].
 - Strong connections to strengthen: [[notes/_link/Alzheimer's Disease]] ↔ [[notes/_link/Aging]], [[notes/_link/Alzheimer's Disease]] ↔ [[DNA Methylation]]
 
 - New links added: [[notes/_link/Neurodegenerative Diseases]], [[Induced Pluripotent Stem Cells]], [[Disease Modeling]], [[Rejuvenation]]
@@ -64,7 +64,7 @@ Because epigenetic modifications are chemically reversible, they represent a pro
 
 - New links added: [[Autophagy]], [[Proteotoxicity]], [[Autophagic Flux]], [[Intermittent Fasting]], [[notes/_link/Caloric Restriction]]
 - Suggested new entity notes to create: [[Proteotoxicity]], [[Autophagic Flux]], [[Intermittent Fasting]], [[notes/_link/Caloric Restriction]]
-- Strong connections to strengthen: [[notes/_link/Alzheimer's Disease]] ↔ [[Neurodegenerative_Disease]], [[notes/_link/Alzheimer's Disease]] ↔ [[Autophagy]]
+- Strong connections to strengthen: [[notes/_link/Alzheimer's Disease]] ↔ [[Neurodegenerative Disease]], [[notes/_link/Alzheimer's Disease]] ↔ [[Autophagy]]
 
 ## Pathology
 - Associated with the accumulation of amyloid-beta plaques and tau tangles, which lead to neuronal dysfunction and death.
@@ -91,8 +91,8 @@ Because epigenetic modifications are chemically reversible, they represent a pro
 
 ### Linking Summary:
 - New links added: [[notes/_link/Aging]], [[Autophagic Flux]], [[Autophagy]], [[Biomarkers]], [[notes/_link/Caloric Restriction]], [[Chromatin]], [[DNA Methylation]], [[DNA Methyltransferase]], [[Disease Modeling]], [[Epigenetic Clock]], [[Epigenetics]], [[Epigenome]], [[HDAC]], [[Histone Modification]], [[Induced Pluripotent Stem Cells]], [[Intermittent Fasting]], [[MicroRNA]], [[notes/_link/Neurodegenerative Diseases]], [[Neuroinflammation]], [[Nucleosome]], [[Proteotoxicity]], [[Rejuvenation]]
-- Suggested new entity notes to create: [[Amyloid Beta]], [[Autophagic Flux]], [[notes/_link/Caloric Restriction]], [[Intermittent Fasting]], [[Neuroinflammation]], [[Proteotoxicity]], [[Synaptic Plasticity]], [[Tau Protein]]
-- Strong connections to strengthen: [[notes/_link/Alzheimer's Disease]] ↔ [[notes/_link/Aging]], [[notes/_link/Alzheimer's Disease]] ↔ [[Autophagy]], [[notes/_link/Alzheimer's Disease]] ↔ [[DNA Methylation]], [[notes/_link/Alzheimer's Disease]] ↔ [[Neurodegenerative_Disease]], [[Induced Pluripotent Stem Cells]] ↔ [[notes/_link/Alzheimer's Disease]]
+- Suggested new entity notes to create: [[Amyloid Beta]], [[Autophagic Flux]], [[notes/_link/Caloric Restriction]], [[Intermittent Fasting]], [[Neuroinflammation]], [[Proteotoxicity]], [[Synaptic plasticity]], [[Tau Protein]]
+- Strong connections to strengthen: [[notes/_link/Alzheimer's Disease]] ↔ [[notes/_link/Aging]], [[notes/_link/Alzheimer's Disease]] ↔ [[Autophagy]], [[notes/_link/Alzheimer's Disease]] ↔ [[DNA Methylation]], [[notes/_link/Alzheimer's Disease]] ↔ [[Neurodegenerative Disease]], [[Induced Pluripotent Stem Cells]] ↔ [[notes/_link/Alzheimer's Disease]]
 
 
 ---

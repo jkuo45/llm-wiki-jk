@@ -10,7 +10,7 @@ The PI3K-Akt signaling pathway is a key intracellular pathway that regulates sur
 
 ## Pathway
 
-PI3K is activated by RTKs or [[RAS]], generating PIP3 to recruit [[AKT]]/[[PDK1]]. AKT activates [[mTORC1]] via [[TSC2]] inhibition and [[PRAS40]] phosphorylation.
+PI3K is activated by RTKs or [[RAS]], generating PIP3 to recruit [[Akt]]/[[PDK1]]. AKT activates [[mTORC1]] via [[TSC2]] inhibition and [[PRAS40]] phosphorylation.
 ## Autophagy Regulation
 
 PI3K-Akt signaling suppresses [[Autophagy]] via mTORC1 activation. [[PI3K inhibitors]] ([[Wortmannin]], [[LY294002]]) induce autophagy.

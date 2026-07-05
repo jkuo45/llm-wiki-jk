@@ -13,7 +13,7 @@ Tankyrase 1 (TNKS1) is a poly(ADP-ribose) polymerase that parsylates [[TFEB]], t
 
 ## Function
 
-Tankyrase 1 (TNKS1) is a poly-ADP-ribosyltransferase (PARP family) that modifies target proteins with ADP-ribose chains, marking them for ubiquitination and degradation via the [[Ubiquitin-Proteasome System]].
+Tankyrase 1 (TNKS1) is a poly-ADP-ribosyltransferase (PARP family) that modifies target proteins with ADP-ribose chains, marking them for ubiquitination and degradation via the [[Ubiquitin-proteasome system]].
 ## Autophagy Regulation
 
 TNKS1 PARsylates [[ULK1]] and [[TFEB]] to regulate their stability and activity. TNKS inhibition (e.g., XAV939, G007-LK) stabilizes ULK1 and enhances [[Autophagic Flux]], making tankyrases therapeutic targets for autophagy induction in neurodegeneration.

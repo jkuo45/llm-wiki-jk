@@ -60,7 +60,7 @@ Flavonoids share a common diphenylpropane (C6-C3-C6) backbone consisting of two 
 - **Flavones** (e.g., luteolin, apigenin): No 3-hydroxyl, found in parsley and celery
 - **Isoflavones** (e.g., [[Genistein]], daidzein): B-ring attached at C3, found in soy
 - **Flavanones** (e.g., naringenin, hesperetin): Saturated C-ring, abundant in citrus
-- **Flavanols** (e.g., [[notes/_link/EGCG|catechins]], epicatechins): Present in [[Green Tea]] and cocoa
+- **Flavanols** (e.g., [[notes/_link/EGCG|catechins]], epicatechins): Present in [[Green tea]] and cocoa
 - **Anthocyanidins** (e.g., cyanidin, delphinidin): Pigments responsible for red-blue colors in berries
 
 ### Structure-Antioxidant Activity Relationships
@@ -84,7 +84,7 @@ Flavonoids neutralize free radicals by donating a hydrogen atom (H⁺) or an ele
 
 ### Metal Chelation
 
-Flavonoids chelate redox-active transition metals (Fe²⁺, Cu⁺) through their catechol and keto-enol moieties, preventing the [[Fenton reaction]]:
+Flavonoids chelate redox-active transition metals (Fe²⁺, Cu⁺) through their catechol and keto-enol moieties, preventing the [[Fenton Reaction]]:
   Fe²⁺ + H₂O₂ → Fe³⁺ + •OH + OH⁻
 By sequestering iron and copper, flavonoids suppress hydroxyl radical generation, which is central to [[Lipid Peroxidation]] and [[notes/_link/DNA Damage]].
 
@@ -117,7 +117,7 @@ These conjugates reach micromolar plasma concentrations and retain partial biolo
 
 At high concentrations or in the presence of excess transition metals, flavonoids can act as **pro-oxidants**:
 - **Autoxidation**: Generation of superoxide and semiquinone radicals
-- [[Fenton reaction]] amplification: Reducing Fe³⁺ to Fe²⁺, promoting •OH generation
+- [[Fenton Reaction]] amplification: Reducing Fe³⁺ to Fe²⁺, promoting •OH generation
 - **Depletion of [[notes/_link/Glutathione]]**: Formation of flavonoid-quinone conjugates
 - **[[Signaling Molecules]]**: Pro-oxidant effects activate adaptive stress responses (hormesis) that ultimately enhance cellular resilience
 

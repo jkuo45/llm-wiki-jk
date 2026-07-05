@@ -54,7 +54,7 @@ They are generally considered antioxidants but can exert prooxidant effects unde
 Polyphenols encompass over 8,000 identified compounds broadly classified into four main groups based on carbon skeleton:
 
 ### 1. Phenolic Acids
-- **Hydroxybenzoic acids** (C6-C1): gallic acid, vanillic acid, syringic acid—present in [[Tea]], [[Red Wine]], and [[Berries]]
+- **Hydroxybenzoic acids** (C6-C1): gallic acid, vanillic acid, syringic acid—present in Tea, Red Wine, and Berries
 - **Hydroxycinnamic acids** (C6-C3): caffeic acid, ferulic acid, p-coumaric acid, sinapic acid—abundant in coffee, fruits, and cereals; often esterified as **chlorogenic acid** (caffeoylquinic acid)
 
 ### 2. Flavonoids
@@ -103,7 +103,7 @@ Rate constants for polyphenol reactions with peroxyl radicals (ROO•) and [[Hyd
 ### Metal Chelation
 
 Polyphenols chelate Fe²⁺/Fe³⁺ and Cu⁺/Cu²⁺ through catechol (o-dihydroxyl) and galloyl (trihydroxyl) groups, forming stable complexes that:
-- **Prevent [[Fenton reaction]]**: Suppressing •OH generation
+- **Prevent [[Fenton Reaction]]**: Suppressing •OH generation
 - **Inhibit [[Lipid Peroxidation]]**: Removing catalytic iron from membranes
 - **Modulate iron absorption**: Dietary polyphenols reduce non-heme iron bioavailability
 

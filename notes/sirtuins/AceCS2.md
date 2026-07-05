@@ -10,11 +10,11 @@ database_ids:
   hgnc: HGNC:15951
 relations:
   - predicate: activated_by
-    target: "[[SIRT3]]"
+    target: "SIRT3"
     sources:
       - PMID:16788062
   - predicate: regulated_by
-    target: "[[notes/_link/Caloric Restriction]]"
+    target: "notes/_link/Caloric Restriction"
     sources:
       - PMID:16788062
 created: 2026-07-03

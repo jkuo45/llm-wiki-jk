@@ -35,5 +35,5 @@ Huntington's disease (HD) is a neurodegenerative disorder characterized by prote
 ### Linking Summary
 
 - New links added: [[TFEB]], [[PGC-1α]]
-- Suggested new entity notes to create: [[Neurodegenerative_Disease]]
+- Suggested new entity notes to create: [[Neurodegenerative Disease]]
 - Strong connections to strengthen: [[Huntington's Disease]] ↔ [[TFEB]]

@@ -8,7 +8,7 @@ Upon receiving apoptotic signals, Bax undergoes a conformational change and tran
 ## Regulation
 Bax activity and stability are regulated by several pathways:
 - **[[Phosphorylation]]**:
-    - **[[AKT]]**: Phosphorylates Bax at Ser184, which inhibits its translocation to the mitochondria and its pro-apoptotic activity.
+    - **[[Akt]]**: Phosphorylates Bax at Ser184, which inhibits its translocation to the mitochondria and its pro-apoptotic activity.
     - **[[ERK]]**: Phosphorylates Bax at **Thr167**. This creates a binding dock for the isomerase **[[Pin1]]**, which catalyzes a conformational change that locks Bax in an inactive state, promoting cell survival.
     - **[[JNK]] / [[p38 MAPK]]**: Phosphorylation (including at Thr167 in certain contexts) can also lead to Bax activation and mitochondrial translocation.
     - **[[GSK3]]**: Phosphorylates Bax to promote its mitochondrial localization.
@@ -26,14 +26,14 @@ Bax activity and stability are regulated by several pathways:
 - [[Intrinsic Pathway]]: Bax is essential for mitochondrial-mediated apoptosis.
 - [[Bak]]: Synergizes with Bax to form mitochondrial pores.
 - [[Cytochrome c]]: Released following Bax activation.
-- [[AKT]] / [[PKCζ]]: Inhibitors of Bax.
+- [[Akt]] / [[PKCζ]]: Inhibitors of Bax.
 - [[JNK]] / [[p38 MAPK]] / [[GSK3]]: Activators of Bax.
 - [[IBRDC2]]: E3 ligase for Bax.
 
 ### Linking Summary:
-- New links added: [[MOMP]], [[AKT]], [[JNK]], [[p38 MAPK]], [[GSK3]], [[PKCζ]], [[IBRDC2]], [[Bcl-xL]], [[Phosphorylation]], [[Ubiquitination]]
+- New links added: [[MOMP]], [[Akt]], [[JNK]], [[p38 MAPK]], [[GSK3]], [[PKCζ]], [[IBRDC2]], [[Bcl-xL]], [[Phosphorylation]], [[Ubiquitination]]
 - Suggested new entity notes to create:
-- Strong connections to strengthen: [[Bax]] ↔ [[AKT]], [[Bax]] ↔ [[IBRDC2]]
+- Strong connections to strengthen: [[Bax]] ↔ [[Akt]], [[Bax]] ↔ [[IBRDC2]]
 
 ## Sirtuin Regulation of Bax
 

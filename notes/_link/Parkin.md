@@ -13,7 +13,7 @@ updated: 2026-07-04
 
 # Parkin
 
-An E3 ubiquitin ligase that plays a critical role in [[Mitophagy]]. It is recruited to damaged mitochondria by [[Pink1]] and labels them for degradation by the lysosome.
+An E3 ubiquitin ligase that plays a critical role in [[Mitophagy]]. It is recruited to damaged mitochondria by [[PINK1]] and labels them for degradation by the lysosome.
 
 ## Domain Architecture and E3 Ligase Activity
 
@@ -21,7 +21,7 @@ Parkin (encoded by [[PARK2]]) is a 465-amino acid RING-between-RING (RBR) E3 ubi
 
 ## Autoinhibition and Pink1-Dependent Activation
 
-In its basal state, Parkin exists in an autoinhibited conformation where the UBL domain blocks the RING1:E2-binding interface and RING0 sterically occludes the RING2 catalytic cysteine. Activation requires [[Pink1]]-mediated phosphorylation of both [[Ubiquitin]] (at Ser65) and the Parkin UBL domain (also at Ser65). Phosphoubiquitin binding to RING1 releases the UBL, enabling Parkin to assume an open, active conformation. This two-step phosphorylation mechanism ensures selective activation on damaged mitochondria where Pink1 accumulates.
+In its basal state, Parkin exists in an autoinhibited conformation where the UBL domain blocks the RING1:E2-binding interface and RING0 sterically occludes the RING2 catalytic cysteine. Activation requires [[PINK1]]-mediated phosphorylation of both [[Ubiquitin]] (at Ser65) and the Parkin UBL domain (also at Ser65). Phosphoubiquitin binding to RING1 releases the UBL, enabling Parkin to assume an open, active conformation. This two-step phosphorylation mechanism ensures selective activation on damaged mitochondria where Pink1 accumulates.
 
 ## Role in Mitophagy and Mitochondrial Quality Control
 
@@ -37,19 +37,19 @@ Parkin-mediated mitophagy protects against mitochondrial dysfunction caused by [
 
 ### Linking Summary
 
-- New links added: [[Pink1]], [[Mitophagy]]
+- New links added: [[PINK1]], [[Mitophagy]]
 
 ## From [[autophagy/Parkin.md]]
 
 # Parkin
 
-**Parkin** is an E3 ubiquitin ligase that is recruited to damaged mitochondria by [[Pink1]] to initiate [[Mitophagy]], a process that also involves the activation of [[TFEB]] and [[TFE3]] for lysosome biogenesis.
+**Parkin** is an E3 ubiquitin ligase that is recruited to damaged mitochondria by [[PINK1]] to initiate [[Mitophagy]], a process that also involves the activation of [[TFEB]] and [[TFE3]] for lysosome biogenesis.
 
 ## Function
 
 Parkin (PRKN) is an E3 ubiquitin ligase recruited by [[PINK1]] to depolarized mitochondria for [[Mitophagy]]. Mutations cause early-onset [[Parkinson's Disease]].
 
 ### Linking Summary:
-- New links added: [[Pink1]], [[Mitophagy]], [[TFEB]], [[TFE3]]
+- New links added: [[PINK1]], [[Mitophagy]], [[TFEB]], [[TFE3]]
 - Suggested new entity notes to create:
-- Strong connections to strengthen: [[Parkin]] ↔ [[Pink1]]
+- Strong connections to strengthen: [[Parkin]] ↔ [[PINK1]]

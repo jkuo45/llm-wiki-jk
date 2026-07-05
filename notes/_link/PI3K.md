@@ -59,7 +59,7 @@ Phosphoinositide 3-kinases (PI3Ks) are a family of intracellular signal transduc
 
 # PI3K
 
-Phosphoinositide 3-kinase (PI3K) is an enzyme that generates lipid second messengers to activate signaling pathways like [[AKT]], promoting cell growth and survival.
+Phosphoinositide 3-kinase (PI3K) is an enzyme that generates lipid second messengers to activate signaling pathways like [[Akt]], promoting cell growth and survival.
 
 ### Linking Summary:
 - New links added:

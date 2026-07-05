@@ -43,7 +43,7 @@ As a [[notes/_link/Phytoestrogen]], genistein binds to [[notes/_link/Estrogen]] 
 Genistein suppresses ROS generation by:
 - **Inhibiting [[NADPH Oxidase]]** (NOX) activity: Reducing superoxide production in endothelial cells and [[notes/_link/Macrophage|macrophages]]
 - **Suppressing [[Xanthine Oxidase]]**: Attenuating purine catabolism-derived ROS
-- **Chelating transition metals**: Sequestering Fe²⁺ and Cu⁺ to prevent [[Fenton reaction|Fenton chemistry]] and subsequent [[Lipid Peroxidation]]
+- **Chelating transition metals**: Sequestering Fe²⁺ and Cu⁺ to prevent [[Fenton Reaction|Fenton chemistry]] and subsequent [[Lipid Peroxidation]]
 
 ### Tyrosine Kinase Inhibition and Redox Signaling
 

@@ -8,27 +8,27 @@ aliases:
   - Neoplasm
 relations:
   - predicate: associated_with
-    target: "[[notes/_link/Aging]]"
+    target: "notes/_link/Aging"
     sources:
       - PMID:26610253
   - predicate: associated_with
-    target: "[[Oxidative Stress]]"
+    target: "Oxidative Stress"
     sources:
       - PMID:24946746
   - predicate: regulated_by
-    target: "[[Autophagy]]"
+    target: "Autophagy"
     sources:
       - PMID:22628519
   - predicate: associated_with
-    target: "[[notes/_link/Aging]]"
+    target: "notes/_link/Aging"
     sources:
       - PMID:26610253
   - predicate: associated_with
-    target: "[[Oxidative Stress]]"
+    target: "Oxidative Stress"
     sources:
       - PMID:24946746
   - predicate: regulated_by
-    target: "[[Autophagy]]"
+    target: "Autophagy"
     sources:
       - PMID:22628519
 created: 2026-07-04
@@ -60,7 +60,7 @@ Key hallmarks include sustained proliferative signaling, evasion of growth suppr
 
 ## Therapeutics
 
-Approaches include chemotherapy ([[cisplatin]], [[docetaxel]]), targeted therapy ([[trastuzumab]]), [[Drug Repositioning]] ([[Ivermectin]], [[Fenbendazole]]), and natural products ([[Melittin]]).
+Approaches include chemotherapy ([[Cisplatin]], [[docetaxel]]), targeted therapy ([[trastuzumab]]), [[Drug Repositioning]] ([[Ivermectin]], [[Fenbendazole]]), and natural products ([[melittin]]).
 
 ## Connections
 
@@ -111,7 +111,7 @@ Cancer is a group of diseases involving abnormal cell growth with the potential 
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[c-Myc]] ↔ [[Cancer]]
 
-- New links added: [[Hallmarks of Cancer]], [[Angiogenesis]], [[notes/_link/Apoptosis]], [[Autophagy]], [[Pyroptosis]], [[Metabolic Reprogramming]], [[Warburg Effect]], [[Glycolysis]], [[GLUT1]], [[Hexokinase 2]], [[Pyruvate Kinase M2]], [[EMT]], [[notes/_link/PI3K]], [[notes/_link/Akt]], [[notes/_link/mTOR]], [[notes/_link/MAPK]], [[Wnt]], [[JAK2]], [[notes/_link/STAT3]], [[YAP1]], [[NFκB]], [[Integrins]], [[FAK]], [[EGFR]], [[HER2]], [[notes/_link/p53]], [[BRCA]], [[Ki-67]], [[PD-L1]], [[notes/_link/Breast Cancer]], [[HER2-enriched breast cancer]], [[triple-negative breast cancer]], [[Lung Cancer]], [[non-small-cell lung cancer]], [[notes/_link/Colorectal Cancer]], [[Prostate Cancer]], [[Hepatocellular Carcinoma]], [[Gastric Cancer]], [[pancreatic cancer]], [[ovarian cancer]], [[cervical cancer]], [[notes/_link/Renal Cell Carcinoma]], [[glioblastoma]], [[melanoma]], [[leukemia]], [[Nasopharyngeal Carcinoma]], [[Cholangiocarcinoma]], [[cisplatin]], [[docetaxel]], [[trastuzumab]], [[Drug Repositioning]], [[Ivermectin]], [[Benzimidazole]], [[Fenbendazole]], [[Mebendazole]], [[Albendazole]], [[Oxfendazole]], [[Honeybee venom]], [[melittin]], [[Multidrug Resistance]], [[RGD peptide]], [[CendR motif]], [[ECM]], [[Fibronectin]], [[Fibrinogen]], [[Vitronectin]], [[Glutamate-gated Cl- channels]], [[GABA]].
+- New links added: [[Hallmarks of Cancer]], [[Angiogenesis]], [[notes/_link/Apoptosis]], [[Autophagy]], [[Pyroptosis]], [[Metabolic Reprogramming]], [[Warburg Effect]], [[Glycolysis]], [[GLUT1]], [[Hexokinase 2]], [[Pyruvate Kinase M2]], [[EMT]], [[notes/_link/PI3K]], [[notes/_link/Akt]], [[notes/_link/mTOR]], [[notes/_link/MAPK]], [[Wnt]], [[JAK2]], [[notes/_link/STAT3]], [[YAP1]], [[NFκB]], [[Integrins]], [[FAK]], [[EGFR]], [[HER2]], [[notes/_link/p53]], [[BRCA]], [[Ki-67]], [[PD-L1]], [[notes/_link/Breast Cancer]], [[HER2-enriched breast cancer]], [[triple-negative breast cancer]], [[Lung Cancer]], [[non-small-cell lung cancer]], [[notes/_link/Colorectal Cancer]], [[Prostate Cancer]], [[Hepatocellular Carcinoma]], [[Gastric Cancer]], [[Pancreatic Cancer]], [[ovarian cancer]], [[cervical cancer]], [[notes/_link/Renal Cell Carcinoma]], [[glioblastoma]], [[Melanoma]], [[leukemia]], [[Nasopharyngeal Carcinoma]], [[Cholangiocarcinoma]], [[Cisplatin]], [[docetaxel]], [[trastuzumab]], [[Drug Repositioning]], [[Ivermectin]], [[Benzimidazole]], [[Fenbendazole]], [[Mebendazole]], [[Albendazole]], [[Oxfendazole]], [[Honeybee venom]], [[melittin]], [[Multidrug Resistance]], [[RGD peptide]], [[CendR motif]], [[ECM]], [[Fibronectin]], [[Fibrinogen]], [[Vitronectin]], [[Glutamate-gated Cl- channels]], [[GABA]].
 - Suggested new entity notes to create: [[Metastasis]], [[Tumor Microenvironment]], [[Oncogene]], [[Tumor Suppressor Gene]], [[Immunotherapy]], [[Hippo Pathway]], [[MYC]].
 - Strong connections to strengthen: [[Hallmarks of Cancer]] ↔ [[Metabolic Reprogramming]], [[Ivermectin]] ↔ [[Drug Repositioning]], [[Fenbendazole]] ↔ [[Microtubule]].
 
@@ -177,19 +177,19 @@ Research in this knowledge base covers various malignancies, including:
 - [[Prostate Cancer]]
 - [[Hepatocellular Carcinoma]]
 - [[Gastric Cancer]]
-- [[pancreatic cancer]]
+- [[Pancreatic Cancer]]
 - [[ovarian cancer]]
 - [[cervical cancer]]
 - [[notes/_link/Renal Cell Carcinoma]]
 - [[glioblastoma]]
-- [[melanoma]]
+- [[Melanoma]]
 - [[leukemia]]
 - [[Nasopharyngeal Carcinoma]]
 - [[Cholangiocarcinoma]]
 
 
 ## Therapeutics and Research
-Treatment strategies include traditional [[cisplatin]] and [[docetaxel]], as well as targeted therapies like [[trastuzumab]]. Recent research has explored [[Drug Repositioning]], investigating the anticancer potential of antiparasitic agents such as [[Ivermectin]] and the [[Benzimidazole]] class (e.g., [[Fenbendazole]], [[Mebendazole]], [[Albendazole]], and [[Oxfendazole]]). Natural products like [[Honeybee venom]] and its active component [[melittin]] are also under investigation for their ability to suppress growth factor receptors.
+Treatment strategies include traditional [[Cisplatin]] and [[docetaxel]], as well as targeted therapies like [[trastuzumab]]. Recent research has explored [[Drug Repositioning]], investigating the anticancer potential of antiparasitic agents such as [[Ivermectin]] and the [[Benzimidazole]] class (e.g., [[Fenbendazole]], [[Mebendazole]], [[Albendazole]], and [[Oxfendazole]]). Natural products like [[Honeybee venom]] and its active component [[melittin]] are also under investigation for their ability to suppress growth factor receptors.
 
 One of the significant challenges in treatment is [[Multidrug Resistance]], which often leads to treatment failure and recurrence.
 
@@ -224,7 +224,7 @@ One of the significant challenges in treatment is [[Multidrug Resistance]], whic
 
 ## Linking Summary
 
-- New links added: [[notes/_link/Aging]], [[Oxidative Stress]], [[Autophagy]], [[notes/_link/Apoptosis]], [[notes/_link/PI3K]], [[notes/_link/Akt]], [[mTOR]], [[MAPK]], [[Wnt]], [[NF-κB]], [[notes/_link/Breast Cancer]], [[notes/_link/Colorectal Cancer]], [[notes/_link/Renal Cell Carcinoma]], [[Ivermectin]], [[Fenbendazole]], [[Melittin]], [[Drug Repositioning]]
+- New links added: [[notes/_link/Aging]], [[Oxidative Stress]], [[Autophagy]], [[notes/_link/Apoptosis]], [[notes/_link/PI3K]], [[notes/_link/Akt]], [[mTOR]], [[MAPK]], [[Wnt]], [[NF-κB]], [[notes/_link/Breast Cancer]], [[notes/_link/Colorectal Cancer]], [[notes/_link/Renal Cell Carcinoma]], [[Ivermectin]], [[Fenbendazole]], [[melittin]], [[Drug Repositioning]]
 - Suggested new entity notes to create: [[Metastasis]], [[Tumor Microenvironment]], [[Immunotherapy]], [[Oncogene]], [[Tumor Suppressor]]
 - Strong connections to strengthen: [[Cancer]] ↔ [[notes/_link/Aging]], [[Cancer]] ↔ [[Oxidative Stress]]
 
@@ -253,7 +253,7 @@ Key hallmarks include sustained proliferative signaling, evasion of growth suppr
 
 ## Therapeutics
 
-Approaches include chemotherapy ([[cisplatin]], [[docetaxel]]), targeted therapy ([[trastuzumab]]), [[Drug Repositioning]] ([[Ivermectin]], [[Fenbendazole]]), and natural products ([[Melittin]]).
+Approaches include chemotherapy ([[Cisplatin]], [[docetaxel]]), targeted therapy ([[trastuzumab]]), [[Drug Repositioning]] ([[Ivermectin]], [[Fenbendazole]]), and natural products ([[melittin]]).
 
 ## Connections
 
@@ -304,7 +304,7 @@ Cancer is a group of diseases involving abnormal cell growth with the potential 
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[c-Myc]] ↔ [[Cancer]]
 
-- New links added: [[Hallmarks of Cancer]], [[Angiogenesis]], [[notes/_link/Apoptosis]], [[Autophagy]], [[Pyroptosis]], [[Metabolic Reprogramming]], [[Warburg Effect]], [[Glycolysis]], [[GLUT1]], [[Hexokinase 2]], [[Pyruvate Kinase M2]], [[EMT]], [[notes/_link/PI3K]], [[notes/_link/Akt]], [[notes/_link/mTOR]], [[notes/_link/MAPK]], [[Wnt]], [[JAK2]], [[notes/_link/STAT3]], [[YAP1]], [[NFκB]], [[Integrins]], [[FAK]], [[EGFR]], [[HER2]], [[notes/_link/p53]], [[BRCA]], [[Ki-67]], [[PD-L1]], [[notes/_link/Breast Cancer]], [[HER2-enriched breast cancer]], [[triple-negative breast cancer]], [[Lung Cancer]], [[non-small-cell lung cancer]], [[notes/_link/Colorectal Cancer]], [[Prostate Cancer]], [[Hepatocellular Carcinoma]], [[Gastric Cancer]], [[pancreatic cancer]], [[ovarian cancer]], [[cervical cancer]], [[notes/_link/Renal Cell Carcinoma]], [[glioblastoma]], [[melanoma]], [[leukemia]], [[Nasopharyngeal Carcinoma]], [[Cholangiocarcinoma]], [[cisplatin]], [[docetaxel]], [[trastuzumab]], [[Drug Repositioning]], [[Ivermectin]], [[Benzimidazole]], [[Fenbendazole]], [[Mebendazole]], [[Albendazole]], [[Oxfendazole]], [[Honeybee venom]], [[melittin]], [[Multidrug Resistance]], [[RGD peptide]], [[CendR motif]], [[ECM]], [[Fibronectin]], [[Fibrinogen]], [[Vitronectin]], [[Glutamate-gated Cl- channels]], [[GABA]].
+- New links added: [[Hallmarks of Cancer]], [[Angiogenesis]], [[notes/_link/Apoptosis]], [[Autophagy]], [[Pyroptosis]], [[Metabolic Reprogramming]], [[Warburg Effect]], [[Glycolysis]], [[GLUT1]], [[Hexokinase 2]], [[Pyruvate Kinase M2]], [[EMT]], [[notes/_link/PI3K]], [[notes/_link/Akt]], [[notes/_link/mTOR]], [[notes/_link/MAPK]], [[Wnt]], [[JAK2]], [[notes/_link/STAT3]], [[YAP1]], [[NFκB]], [[Integrins]], [[FAK]], [[EGFR]], [[HER2]], [[notes/_link/p53]], [[BRCA]], [[Ki-67]], [[PD-L1]], [[notes/_link/Breast Cancer]], [[HER2-enriched breast cancer]], [[triple-negative breast cancer]], [[Lung Cancer]], [[non-small-cell lung cancer]], [[notes/_link/Colorectal Cancer]], [[Prostate Cancer]], [[Hepatocellular Carcinoma]], [[Gastric Cancer]], [[Pancreatic Cancer]], [[ovarian cancer]], [[cervical cancer]], [[notes/_link/Renal Cell Carcinoma]], [[glioblastoma]], [[Melanoma]], [[leukemia]], [[Nasopharyngeal Carcinoma]], [[Cholangiocarcinoma]], [[Cisplatin]], [[docetaxel]], [[trastuzumab]], [[Drug Repositioning]], [[Ivermectin]], [[Benzimidazole]], [[Fenbendazole]], [[Mebendazole]], [[Albendazole]], [[Oxfendazole]], [[Honeybee venom]], [[melittin]], [[Multidrug Resistance]], [[RGD peptide]], [[CendR motif]], [[ECM]], [[Fibronectin]], [[Fibrinogen]], [[Vitronectin]], [[Glutamate-gated Cl- channels]], [[GABA]].
 - Suggested new entity notes to create: [[Metastasis]], [[Tumor Microenvironment]], [[Oncogene]], [[Tumor Suppressor Gene]], [[Immunotherapy]], [[Hippo Pathway]], [[MYC]].
 - Strong connections to strengthen: [[Hallmarks of Cancer]] ↔ [[Metabolic Reprogramming]], [[Ivermectin]] ↔ [[Drug Repositioning]], [[Fenbendazole]] ↔ [[Microtubule]].
 
@@ -370,19 +370,19 @@ Research in this knowledge base covers various malignancies, including:
 - [[Prostate Cancer]]
 - [[Hepatocellular Carcinoma]]
 - [[Gastric Cancer]]
-- [[pancreatic cancer]]
+- [[Pancreatic Cancer]]
 - [[ovarian cancer]]
 - [[cervical cancer]]
 - [[notes/_link/Renal Cell Carcinoma]]
 - [[glioblastoma]]
-- [[melanoma]]
+- [[Melanoma]]
 - [[leukemia]]
 - [[Nasopharyngeal Carcinoma]]
 - [[Cholangiocarcinoma]]
 
 
 ## Therapeutics and Research
-Treatment strategies include traditional [[cisplatin]] and [[docetaxel]], as well as targeted therapies like [[trastuzumab]]. Recent research has explored [[Drug Repositioning]], investigating the anticancer potential of antiparasitic agents such as [[Ivermectin]] and the [[Benzimidazole]] class (e.g., [[Fenbendazole]], [[Mebendazole]], [[Albendazole]], and [[Oxfendazole]]). Natural products like [[Honeybee venom]] and its active component [[melittin]] are also under investigation for their ability to suppress growth factor receptors.
+Treatment strategies include traditional [[Cisplatin]] and [[docetaxel]], as well as targeted therapies like [[trastuzumab]]. Recent research has explored [[Drug Repositioning]], investigating the anticancer potential of antiparasitic agents such as [[Ivermectin]] and the [[Benzimidazole]] class (e.g., [[Fenbendazole]], [[Mebendazole]], [[Albendazole]], and [[Oxfendazole]]). Natural products like [[Honeybee venom]] and its active component [[melittin]] are also under investigation for their ability to suppress growth factor receptors.
 
 One of the significant challenges in treatment is [[Multidrug Resistance]], which often leads to treatment failure and recurrence.
 
@@ -417,6 +417,6 @@ One of the significant challenges in treatment is [[Multidrug Resistance]], whic
 
 ## Linking Summary
 
-- New links added: [[notes/_link/Aging]], [[Oxidative Stress]], [[Autophagy]], [[notes/_link/Apoptosis]], [[notes/_link/PI3K]], [[notes/_link/Akt]], [[mTOR]], [[MAPK]], [[Wnt]], [[NF-κB]], [[notes/_link/Breast Cancer]], [[notes/_link/Colorectal Cancer]], [[notes/_link/Renal Cell Carcinoma]], [[Ivermectin]], [[Fenbendazole]], [[Melittin]], [[Drug Repositioning]]
+- New links added: [[notes/_link/Aging]], [[Oxidative Stress]], [[Autophagy]], [[notes/_link/Apoptosis]], [[notes/_link/PI3K]], [[notes/_link/Akt]], [[mTOR]], [[MAPK]], [[Wnt]], [[NF-κB]], [[notes/_link/Breast Cancer]], [[notes/_link/Colorectal Cancer]], [[notes/_link/Renal Cell Carcinoma]], [[Ivermectin]], [[Fenbendazole]], [[melittin]], [[Drug Repositioning]]
 - Suggested new entity notes to create: [[Metastasis]], [[Tumor Microenvironment]], [[Immunotherapy]], [[Oncogene]], [[Tumor Suppressor]]
 - Strong connections to strengthen: [[Cancer]] ↔ [[notes/_link/Aging]], [[Cancer]] ↔ [[Oxidative Stress]]

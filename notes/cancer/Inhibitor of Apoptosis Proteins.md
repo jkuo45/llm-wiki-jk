@@ -15,7 +15,7 @@ To date, eight human IAPs have been identified:
 
 ## Mechanism
 IAPs inhibit apoptosis by:
-- Binding to the active sites of caspases (e.g., [[caspase-3]], [[Caspase-7]], [[Caspase-9]]).
+- Binding to the active sites of caspases (e.g., [[Caspase-3]], [[Caspase-7]], [[Caspase-9]]).
 - Promoting the degradation of active caspases.
 - Sequestering caspases away from their substrates.
 
@@ -29,6 +29,6 @@ IAPs are frequently overexpressed in cancer, contributing to drug resistance and
 - [[notes/_link/Apoptosis]]: Regulated by IAPs.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Apoptosis]], [[XIAP]], [[Survivin]], [[Smac/DIABLO]], [[caspase-3]], [[Caspase-7]], [[Caspase-9]]
+- New links added: [[notes/_link/Apoptosis]], [[XIAP]], [[Survivin]], [[Smac/DIABLO]], [[Caspase-3]], [[Caspase-7]], [[Caspase-9]]
 - Suggested new entity notes to create: [[Smac/DIABLO]], [[Caspase-7]]
 - Strong connections to strengthen: [[Inhibitor of Apoptosis Proteins]] ↔ [[Smac/DIABLO]]

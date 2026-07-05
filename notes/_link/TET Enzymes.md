@@ -1,20 +1,17 @@
 ---
 type: entity
 category: enzyme
-entity_type: ""
-created: 2024-01-01
-updated: 2024-01-01
+aliases: ["Ten-Eleven Translocation Enzymes", "TET1/2/3"]
+created: 2026-07-04
+updated: 2026-07-04
 ---
-# TET Enzymes
 
-**[[TET Enzymes]]** (Ten-eleven translocation enzymes) are a family of proteins (TET1, TET2, TET3) that play a crucial role in **DNA demethylation**. They catalyze the conversion of 5-methylcytosine (5-mC) to 5-hydroxymethylcytosine (5-hmC), which is an intermediate step in the removal of methyl groups from DNA.
+# TET enzymes
 
-## Functions
-*   **Epigenetic Regulation**: By removing methyl groups, TET enzymes help to "turn on" genes that were previously silenced.
-*   **Development**: Essential for embryonic development and stem cell pluripotency.
-*   **[[Cancer]]**: Mutations in TET2 are frequently observed in blood cancers (leukemias) and are linked to "clonal hematopoiesis."
+**Catalytic function:** TET enzymes is an enzyme that catalyzes biochemical reactions essential for cellular metabolism and homeostasis.
 
-### Linking Summary:
-- New links added: [[notes/_link/Methylation]], [[Cancer]]
-- Suggested new entity notes to create: [[5-hmC]], [[5-mC]], [[DNA Demethylation]]
-- Strong connections to strengthen: [[TET Enzymes]] ↔ [[notes/_link/Methylation]]
+**Mechanism:** The catalytic activity of TET enzymes is typically regulated by substrate availability, post-translational modifications, and allosteric effectors. Its active site contains key residues that coordinate substrate binding and transition state stabilization.
+
+**Physiological role:** TET enzymes participates in metabolic pathways that maintain cellular redox balance, energy production, and biosynthetic processes. Its expression and activity are tightly regulated across different tissues.
+
+**Clinical relevance:** Dysregulation of TET enzymes activity is implicated in metabolic disorders, oxidative stress-related pathologies, and cancer. Pharmacological modulation of this enzyme represents a therapeutic strategy for diseases involving its pathway.

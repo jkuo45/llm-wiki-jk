@@ -24,5 +24,5 @@ DAF-2 is the C. elegans insulin/IGF-1 receptor. Reduced DAF-2 signaling extends 
 
 ### Linking Summary:
 - New links added: [[C. elegans]], [[IGF-1]], [[notes/_link/Longevity|lifespan]], [[Autophagy]], [[Akt]], [[DAF-16]], [[Starvation]], [[Lipophagy]], [[Lysosomal Lipolysis]], [[MXL-3]]
-- Suggested new entity notes to create: [[AGE-1]], [[PDK-1]]
+- Suggested new entity notes to create: [[AGE-1]], [[PDK1]]
 - Strong connections to strengthen: [[DAF-2]] ↔ [[DAF-16]], [[DAF-2]] ↔ [[Autophagy]]

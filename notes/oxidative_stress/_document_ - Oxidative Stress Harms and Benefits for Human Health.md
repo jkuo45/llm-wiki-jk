@@ -2,15 +2,15 @@
 title: "Oxidative Stress: Harms and Benefits for Human Health"
 source: "https://pmc.ncbi.nlm.nih.gov/articles/PMC5551541/"
 author:
-  - "[[Gabriele Pizzino]]"
-  - "[[Natasha Irrera]]"
-  - "[[Mariapaola Cucinotta]]"
-  - "[[Giovanni Pallio]]"
-  - "[[Federica Mannino]]"
-  - "[[Vincenzo Arcoraci]]"
-  - "[[Francesco Squadrito]]"
-  - "[[Domenica Altavilla]]"
-  - "[[Alessandra Bitto]]"
+  - "Gabriele Pizzino"
+  - "Natasha Irrera"
+  - "Mariapaola Cucinotta"
+  - "Giovanni Pallio"
+  - "Federica Mannino"
+  - "Vincenzo Arcoraci"
+  - "Francesco Squadrito"
+  - "Domenica Altavilla"
+  - "Alessandra Bitto"
 created: 2026-05-09
 description: "Oxidative stress is a phenomenon caused by an imbalance between production and accumulation of oxygen reactive species (ROS) in cells and tissues and the ability of a biological system to detoxify these reactive products. ROS can play, and in fact ..."
 tags:
@@ -28,7 +28,7 @@ PMCID: PMC5551541 PMID: [28819546](https://pubmed.ncbi.nlm.nih.gov/28819546/)
 
 ## 1\. Introduction
 
-[[Superoxide Radicals]] (O <sub>2</sub> <sup>•−</sup>), [[notes/_link/Hydrogen Peroxide]] (H <sub>2</sub> O <sub>2</sub>), [[Hydroxyl Radicals]] (•OH), and [[Singlet Oxygen]] (<sup>1</sup> O <sub>2</sub>) are commonly defined reactive oxygen species (ROS); they are generated as metabolic by-products by biological systems \[[^1], [^2]\]. Processes, like protein phosphorylation, activation of several transcriptional factors, [[notes/_link/Apoptosis]], [[Immunity]], and [[Differentiation]], are all dependent on a proper ROS production and presence inside cells that need to be kept at a low level \[[^3]\]. When ROS production increases, they start showing harmful effects on important cellular structures like [[Proteins]], [[Lipids]], and [[Nucleic Acids]] \[[^4]\]. A large body of evidences shows that oxidative stress can be responsible, with different degrees of importance, in the onset and/or progression of several diseases (i.e., cancer, [[notes/_link/Diabetes Mellitus|diabetes]], [[Metabolic Disorders]], [[notes/_link/Atherosclerosis]], and [[notes/_link/Cardiovascular Disease|cardiovascular diseases]]) \[[^5]\].
+[[Superoxide Radicals]] (O <sub>2</sub> <sup>•−</sup>), [[notes/_link/Hydrogen Peroxide]] (H <sub>2</sub> O <sub>2</sub>), [[Hydroxyl Radicals]] (•OH), and [[Singlet Oxygen]] (<sup>1</sup> O <sub>2</sub>) are commonly defined reactive oxygen species (ROS); they are generated as metabolic by-products by biological systems \[[^1], [^2]\]. Processes, like protein phosphorylation, activation of several transcriptional factors, [[notes/_link/Apoptosis]], [[Immunity]], and [[Differentiation]], are all dependent on a proper ROS production and presence inside cells that need to be kept at a low level \[[^3]\]. When ROS production increases, they start showing harmful effects on important cellular structures like [[Proteins]], [[Lipids]], and [[Nucleic Acids]] \[[^4]\]. A large body of evidences shows that oxidative stress can be responsible, with different degrees of importance, in the onset and/or progression of several diseases (i.e., cancer, [[notes/_link/Diabetes Mellitus|diabetes]], [[metabolic disorders]], [[notes/_link/Atherosclerosis]], and [[notes/_link/Cardiovascular Disease|cardiovascular diseases]]) \[[^5]\].
 
 ROS are mainly produced by [[notes/_link/Mitochondria]], during both physiological and pathological conditions, that is, O <sub>2</sub> <sup>•−</sup> can be formed by cellular respiration, by lipoxygenases (LOX) and cyclooxygenases (COX) during the arachidonic acid metabolism, and by endothelial and inflammatory cells \[[^6]\]. Despite the fact that these organelles have an intrinsic ROS scavenging capacity \[[^7]\], it is worth to note that this is not enough to address the cellular need to clear the amount of ROS produced by mitochondria \[[^8]\].
 

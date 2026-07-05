@@ -16,7 +16,7 @@ updated: 2026-07-04
 
 ## Biological Targets
 
-- **Proteins**: 4-HNE forms covalent Michael adducts with cysteine (Cys), histidine (His), and lysine (Lys) residues via the C=C bond, and Schiff bases via its aldehyde group. These modifications can inactivate enzymes (e.g., [[GLUT4]], [[GAPDH]], [[Na⁺/K⁺-ATPase]]), alter receptor function, and trigger protein aggregation. 4-HNE modification of [[Tau protein]] promotes Tau oligomerization and is implicated in [[notes/_link/Alzheimer's Disease]].
+- **Proteins**: 4-HNE forms covalent Michael adducts with cysteine (Cys), histidine (His), and lysine (Lys) residues via the C=C bond, and Schiff bases via its aldehyde group. These modifications can inactivate enzymes (e.g., [[GLUT4]], [[GAPDH]], [[Na⁺/K⁺-ATPase]]), alter receptor function, and trigger protein aggregation. 4-HNE modification of [[Tau Protein]] promotes Tau oligomerization and is implicated in [[notes/_link/Alzheimer's Disease]].
 - **DNA**: 4-HNE forms etheno-DNA adducts (e.g., 1,N⁶-etheno-dA, 3,N⁴-etheno-dC), which are mutagenic and linked to genomic instability and [[Cancer]].
 - **Signaling**: At low concentrations, 4-HNE acts as a signaling molecule, activating stress-responsive transcription factors including [[notes/_link/NRF2]] (via KEAP1 modification), [[NF-kappa B]], and [[AP-1]], and inducing phase II detoxification enzymes as part of a hormetic adaptive response.
 

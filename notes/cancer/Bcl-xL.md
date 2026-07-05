@@ -10,7 +10,7 @@
 ## Regulation
 Bcl-xL activity is modulated by [[Phosphorylation|phosphorylation]]:
 - **[[Polo kinase 3]]**: Phosphorylates Bcl-xL at Ser49 during cell cycle progression and checkpoints.
-- **[[CDK1]]**: Phosphorylates Bcl-xL during mitotic arrest, providing a link between mitosis and [[apoptosis]].
+- **[[CDK1]]**: Phosphorylates Bcl-xL during mitotic arrest, providing a link between mitosis and [[Apoptosis]].
 - **Retrotranslocation**: Bcl-xL can block the mitochondrial translocation of [[Bax]] by re-directing it back to the cytoplasm.
 
 ## Side Effects of Targeting

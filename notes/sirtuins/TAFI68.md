@@ -11,11 +11,11 @@ database_ids:
   hgnc: HGNC:11571
 relations:
   - predicate: regulated_by
-    target: "[[SIRT1]]"
+    target: "SIRT1"
     sources:
       - Michan 2007
   - predicate: associated_with
-    target: "[[SIRT7]]"
+    target: "SIRT7"
     sources:
       - Michan 2007
 created: 2026-07-03

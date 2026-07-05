@@ -15,7 +15,7 @@ updated: 2024-07-04
 Nutlin-3a occupies the p53-binding pocket of MDM2 with an IC50 of ~90 nM in biochemical assays. The binding mimics three key p53 residues (Phe19, Trp23, Leu26), competing with endogenous p53 for MDM2 binding. This leads to:
 
 - Rapid p53 accumulation (detectable within 1–2 hours).
-- Selective activation of p53 target genes ([[p21|CDKN1A/p21]], [[BAX]], [[PUMA]], [[NOXA]], [[TIGAR]]).
+- Selective activation of p53 target genes ([[p21|CDKN1A/p21]], [[Bax]], [[Puma]], [[Noxa]], [[TIGAR]]).
 - Cell cycle arrest predominantly at [[G1 Phase|G1/S]] via p21-mediated [[CDK2]] inhibition.
 
 ## Cellular Effects
@@ -32,7 +32,7 @@ Nutlin-3a is the most widely used tool for activating wild-type p53 without caus
 
 - p53-dependent senescence vs. [[DDR]]-dependent senescence.
 - p53 target gene specificity (which targets drive senescence vs. apoptosis).
-- p53-mediated [[Epigenetic Remodeling|epigenetic remodeling]] during senescence (recruitment of [[DNMT3A]], [[HDAC1]], [[p300]]).
+- p53-mediated [[Epigenetic Remodeling|epigenetic remodeling]] during senescence (recruitment of [[DNMT3a]], [[HDAC1]], [[P300]]).
 
 ## Limitations
 
@@ -43,5 +43,5 @@ Nutlin-3a is the most widely used tool for activating wild-type p53 without caus
 
 ### Linking Summary:
 - New links added: [[notes/_link/p53]], [[notes/_link/Senescence]], [[notes/_link/Apoptosis]], [[MDM2]], [[p21]]
-- Suggested new entity notes to create: [[MDM4]], [[PUMA]], [[NOXA]], [[Nutlin-3]]
+- Suggested new entity notes to create: [[MDM4]], [[Puma]], [[Noxa]], [[Nutlin-3]]
 - Strong connections to strengthen: [[Nutlin-3a]] ↔ [[notes/_link/p53]], [[Nutlin-3a]] ↔ [[notes/_link/Senescence]]

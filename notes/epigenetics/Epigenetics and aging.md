@@ -2,8 +2,8 @@
 title: "Epigenetics and aging"
 source: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4966880/"
 author:
-  - "[[Sangita Pal]]"
-  - "[[Jessica K Tyler]]"
+  - "Sangita Pal"
+  - "Jessica K Tyler"
 published:
 created: 2026-05-13
 description: "Researchers review how random changes and our environment (for example, diet) determines our life span. Keywords: Epigenetics, aging, histones, chromatin"

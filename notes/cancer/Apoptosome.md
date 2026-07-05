@@ -10,7 +10,7 @@ The apoptosome is composed of:
 4.  **pro-[[Caspase-9]]**: Recruited to the center of the wheel.
 
 ## Function
-The primary function of the apoptosome is to facilitate the activation of [[Caspase-9]], the initiator caspase of the intrinsic pathway. Once activated, Caspase-9 then cleaves and activates executioner caspases like [[caspase-3]].
+The primary function of the apoptosome is to facilitate the activation of [[Caspase-9]], the initiator caspase of the intrinsic pathway. Once activated, Caspase-9 then cleaves and activates executioner caspases like [[Caspase-3]].
 
 ## Connections
 - [[Intrinsic Pathway]]: The central activation platform for mitochondrial-mediated apoptosis.
@@ -19,6 +19,6 @@ The primary function of the apoptosome is to facilitate the activation of [[Casp
 - [[Caspase-9]]: The enzyme activated by the apoptosome.
 
 ### Linking Summary:
-- New links added: [[Intrinsic Pathway]], [[notes/_link/Apoptosis]], [[Apaf-1]], [[Cytochrome c]], [[Caspase-9]], [[caspase-3]]
+- New links added: [[Intrinsic Pathway]], [[notes/_link/Apoptosis]], [[Apaf-1]], [[Cytochrome c]], [[Caspase-9]], [[Caspase-3]]
 - Suggested new entity notes to create: [[Caspase-9]]
 - Strong connections to strengthen: [[Apoptosome]] ↔ [[Caspase-9]], [[Apoptosome]] ↔ [[Apaf-1]]

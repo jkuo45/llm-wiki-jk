@@ -11,6 +11,6 @@ The [[Anaphase Promoting Complex/Cyclosome]] ([[APC/C]]) is an E3 ubiquitin liga
 
 ### Linking Summary:
 
-- New links added: [[Quiescence]], [[Mitosis]], [[Cdh1]], [[Skp2]], [[Geminin]]
+- New links added: [[Quiescence]], [[Mitosis]], [[CDH1]], [[Skp2]], [[Geminin]]
 - Suggested new entity notes to create: [[Ubiquitin Ligase]]
 - Strong connections to strengthen: [[Anaphase Promoting Complex/Cyclosome]] ↔ [[Retinoblastoma Protein]]

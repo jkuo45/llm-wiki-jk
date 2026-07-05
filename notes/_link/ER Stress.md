@@ -19,7 +19,7 @@ ER stress activates three proximal sensors: [[PERK]] (EIF2AK3), [[IRE1]] (ERN1),
 All three UPR arms converge on [[Autophagy]] induction. PERK-ATF4 induces [[LC3B]] and [[Atg5]]; IRE1-XBP1 activates [[Beclin1]] and [[BAG3]]; ATF6 upregulates [[BiP]] and lysosomal genes. Autophagy serves as a quality control mechanism to remove aggregated proteins and damaged ER fragments ([[Reticulophagy]]/ER-phagy), thereby resolving ER stress.
 
 ## Pathological Relevance
-Chronic ER stress and dysregulated autophagy underpin [[Neurodegenerative Diseases]] (Alzheimer's, Parkinson's, Huntington's), [[Type 2 Diabetes Mellitus]] (β-cell failure), [[Cancer]] (tumor adaptation), and [[Ischemia-Reperfusion Injury]].
+Chronic ER stress and dysregulated autophagy underpin [[Neurodegenerative Diseases]] (Alzheimer's, Parkinson's, Huntington's), [[Type 2 Diabetes Mellitus]] (β-cell failure), [[Cancer]] (tumor adaptation), and [[Ischemia-reperfusion Injury]].
 
 ## Therapeutic Targeting
 Chemical chaperones ([[TUDCA]], [[4-PBA]]) and UPR modulators ([[ISRIB]] for PERK, kinase inhibitors for IRE1) are in preclinical development. [[Autophagy Inducer]]s like [[Trehalose]] and [[Spermidine]] also alleviate ER stress by enhancing proteostasis.

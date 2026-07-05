@@ -17,7 +17,7 @@ updated: 2026-07-04
 
 ## Function
 - FOXO4 coordinates the cellular response to oxidative stress and nutrient deprivation.
-- It acts alongside [[FOXO1]] and [[FOXO3a]] to induce the expression of autophagy-related genes under metabolic stress.
+- It acts alongside [[FoxO1]] and [[FOXO3a]] to induce the expression of autophagy-related genes under metabolic stress.
 - FOXO4 has also been implicated in the regulation of cellular [[notes/_link/Senescence]] and is a target for senolytic interventions.
 
 ## Function
@@ -25,7 +25,7 @@ updated: 2026-07-04
 FOXO4 is a forkhead transcription factor that regulates stress resistance, [[Autophagy]], and [[Senescence]]. FOXO4-p53 interaction is targeted by senolytic peptide FOXO4-DRI.
 
 ### Linking Summary:
-- New links added: [[Autophagy]], [[FOXO1]], [[FOXO3a]], [[notes/_link/Senescence]]
+- New links added: [[Autophagy]], [[FoxO1]], [[FOXO3a]], [[notes/_link/Senescence]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[FOXO4]] ↔ [[FOXO3a]], [[FOXO4]] ↔ [[notes/_link/Senescence]]
 
@@ -33,7 +33,7 @@ FOXO4 is a forkhead transcription factor that regulates stress resistance, [[Aut
 
 # FOXO4
 
-**FOXO4** (Forkhead Box O4; also encoded by *FOXO4*, originally called AFX) is a mammalian member of the **Forkhead box class O (FOXO)** transcription factor family. Like its counterparts [[FOXO1]] and [[FOXO3a]], FOXO4 integrates extracellular signals, oxidative stress, and metabolic cues to regulate transcription of genes responsible for cell cycle progression, DNA repair, and senescence.
+**FOXO4** (Forkhead Box O4; also encoded by *FOXO4*, originally called AFX) is a mammalian member of the **Forkhead box class O (FOXO)** transcription factor family. Like its counterparts [[FoxO1]] and [[FOXO3a]], FOXO4 integrates extracellular signals, oxidative stress, and metabolic cues to regulate transcription of genes responsible for cell cycle progression, DNA repair, and senescence.
 
 ## Regulation by SIRT1
 
@@ -47,11 +47,11 @@ FOXO4 is directly targeted by sirtuin-mediated deacetylation in response to oxid
 ## Connections
 
 - [[SIRT1]] — deacetylates FOXO4, restoring its transactivation potential under oxidative stress
-- [[FOXO1]] / [[FOXO3a]] — sister transcription factors also deacetylated by SIRT1
+- [[FoxO1]] / [[FOXO3a]] — sister transcription factors also deacetylated by SIRT1
 - [[notes/_link/DNA Repair]] — process enhanced by the SIRT1–FOXO4 axis via GADD45 expression
 
 ## Linking Summary
 
-- New links added: [[SIRT1]], [[FOXO1]], [[FOXO3a]], [[notes/_link/DNA Repair]]
+- New links added: [[SIRT1]], [[FoxO1]], [[FOXO3a]], [[notes/_link/DNA Repair]]
 - Suggested new entity notes to create: [[GADD45]], [[Caspase-3]]
 - Strong connections to strengthen: [[FOXO4]] ↔ [[SIRT1]]

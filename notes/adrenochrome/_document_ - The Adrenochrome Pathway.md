@@ -3,8 +3,8 @@ type: document
 title: "The Adrenochrome Pathway - Its Potential Significance in Stress Induced Heart Disease"
 source: "Matthews SB, Campbell AK - Royal Gwent Hospital, University of Wales College of Medicine"
 author:
-  - "[[Stephanie B. Matthews]]"
-  - "[[Anthony K. Campbell]]"
+  - "Stephanie B. Matthews"
+  - "Anthony K. Campbell"
 created: 2026-07-04
 tags:
   - clippings

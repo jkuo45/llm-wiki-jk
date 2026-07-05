@@ -25,7 +25,7 @@ updated: 2026-07-04
 
 ## Function
 
-SIRT2 is a cytoplasmic and nuclear NAD+-dependent deacetylase that regulates [[Autophagy]] by deacetylating [[FOXO1]] and [[FOXO3a]].
+SIRT2 is a cytoplasmic and nuclear NAD+-dependent deacetylase that regulates [[Autophagy]] by deacetylating [[FoxO1]] and [[FOXO3a]].
 
 ### Linking Summary:
 - New links added: [[Autophagy]], [[Atg4B]], [[LC3]], [[SIRT1]]
