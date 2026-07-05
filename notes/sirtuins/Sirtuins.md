@@ -21,6 +21,10 @@ relations:
       - s41392-022-01257-8
 created: 2026-07-04
 updated: 2026-07-05
+sources:
+  - "_document_ - sirtuins (resveratrol), gemini.md"
+  - "_document_ - sirtuins in health and disease s41392-022-01257-8.md"
+  - "_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i.md"
 ---
 
 # Sirtuins: The Sirtuin Family in Health and Disease
@@ -136,9 +140,13 @@ The development of specific sirtuin inhibitors and activators is a rapidly expan
   - **Fisetin, Butein, Quercetin**: Structurally related polyphenols that increase lifespan in model organisms.
 - **Synthetic SIRT1 Activators (STACs)**:
   - **SRT1720, SRT2104, SRT2183, SRT3025**: Highly potent compounds that bind SIRT1 with high affinity, improving metabolic homeostasis and lifespan in models of obesity.
+- **NAD+ Precursors (Pan-Sirtuin Activators)**:
+  - **[[NMN]] (Nicotinamide Mononucleotide)**: Direct NAD+ precursor; elevates NAD+ to fuel all sirtuins.
+  - **[[Nicotinamide Riboside]] (NR)**: Another NAD+ precursor phosphorylated to NMN before entering the NAD+ pool.
 - **SIRT6-Specific Activators**:
   - **UBCS039**: The first synthetic activator of SIRT6 deacetylase activity.
   - **MDL-800**: A potent, highly selective allosteric activator of SIRT6 that reduces myofibroblast differentiation and accelerates wound healing.
+  - **Cyanidin**: A natural anthocyanidin (from dark berries) capable of increasing SIRT6 activity >50-fold in vitro.
 
 ### Sirtuin Inhibitors
 
@@ -162,7 +170,7 @@ The development of specific sirtuin inhibitors and activators is a rapidly expan
 
 ### Linking Summary:
 
-- **New Links Added**: [[SIRT1]], [[SIRT2]], [[SIRT3]], [[SIRT4]], [[SIRT5]], [[SIRT6]], [[SIRT7]], [[p53]], [[PGC-1α]], [[FoxO1]], [[FOXO3a]], [[notes/_link/NFKB|NF-κB]], [[Resveratrol]], [[notes/_link/AMPK|AMPK]], [[TFEB]], [[notes/_link/Cardiovascular Disease]], [[notes/_link/Aging]], [[HIF-1α]]
+- **New Links Added**: [[SIRT1]], [[SIRT2]], [[SIRT3]], [[SIRT4]], [[SIRT5]], [[SIRT6]], [[SIRT7]], [[p53]], [[PGC-1α]], [[FoxO1]], [[FOXO3a]], [[notes/_link/NFKB|NF-κB]], [[Resveratrol]], [[notes/_link/AMPK|AMPK]], [[TFEB]], [[notes/_link/Cardiovascular Disease]], [[notes/_link/Aging]], [[HIF-1α]], [[NMN]], [[Nicotinamide Riboside]], [[Cyanidin]], [[Honokiol]], [[Dihydromyricetin]]
 - **Suggested New Notes to Create**: [[UBCS039]], [[MDL-800]], [[SirReal2]], [[EX-527]], [[NLRP3]], [[AceCS2]]
-- **Strong Connections to Strengthen**: [[Sirtuins]] ↔ [[SIRT1]], [[Sirtuins]] ↔ [[notes/_link/Aging]], [[Sirtuins]] ↔ [[Resveratrol]]
+- **Strong Connections to Strengthen**: [[Sirtuins]] ↔ [[SIRT1]], [[Sirtuins]] ↔ [[notes/_link/Aging]], [[Sirtuins]] ↔ [[Resveratrol]], [[NMN]] ↔ [[NAD+]], [[Nicotinamide Riboside]] ↔ [[NAD+]]
 
