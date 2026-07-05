@@ -30,31 +30,15 @@ I'm now outlining a comprehensive structure for explaining [[Resveratrol|resvera
 
 **Analyzing Resveratrol's Role**
 
-I'm delving deeper into [[Resveratrol|resveratrol]]'s mechanism, specifically its direct allosteric activation of [[SIRT1]]. My focus is now on the historical debate surrounding its activation in vitro, the structural biology confirming the direct interaction, and the crucial binding location on the N-terminal domain. I'm noting how this binding alters the Michaelis constant for substrates like [[PGC-1α|PGC-1
-```
-α\alpha
-```
-]] and [[FOXO3a]], aiding in cooperative substrate-dependent activation.
+I'm delving deeper into [[Resveratrol|resveratrol]]'s mechanism, specifically its direct allosteric activation of [[SIRT1]]. My focus is now on the historical debate surrounding its activation in vitro, the structural biology confirming the direct interaction, and the crucial binding location on the N-terminal domain. I'm noting how this binding alters the Michaelis constant for substrates like [[PGC-1α|PGC-1 α\alpha]] and [[FOXO3a]], aiding in cooperative substrate-dependent activation.
 
 **Exploring Indirect Activation**
 
-I'm now focusing on [[Resveratrol|resveratrol]]'s indirect mechanisms via the [[notes/_link/AMPK|AMPK]] pathway. I'm noting how it elevates [[NAD+]] through [[notes/_link/AMPK|AMPK]]'s influence on [[NAMPT]]. The inhibition of PDEs, specifically [[PDE4]], leading to [[cAMP]] accumulation, also seems critical. This process involves [[Epac1]], calcium release, and CaMKK
-```
-β\beta
-```
-, ultimately driving [[SIRT1]] activity through [[notes/_link/AMPK|AMPK]] activation, creating a detailed cascade.
+I'm now focusing on [[Resveratrol|resveratrol]]'s indirect mechanisms via the [[notes/_link/AMPK|AMPK]] pathway. I'm noting how it elevates [[NAD+]] through [[notes/_link/AMPK|AMPK]]'s influence on [[NAMPT]]. The inhibition of PDEs, specifically [[PDE4]], leading to [[cAMP]] accumulation, also seems critical. This process involves [[Epac1]], calcium release, and CaMKK β\beta, ultimately driving [[SIRT1]] activity through [[notes/_link/AMPK|AMPK]] activation, creating a detailed cascade.
 
 **Detailing Downstream Effects**
 
-I'm now outlining the downstream consequences of [[SIRT1]] activation. I'm focusing on the key proteins deacetylated and their functions. Specifically, [[PGC-1α|PGC-1
-```
-α\alpha
-```
-]], NF-
-```
-κ\kappa
-```
-B (RelA/p65), [[p53]], and SREBP-1c are now the focus. The anti-inflammatory, metabolic, and survival benefits are coming into sharper focus. I'm noting the specific outcomes and interactions of each protein now.
+I'm now outlining the downstream consequences of [[SIRT1]] activation. I'm focusing on the key proteins deacetylated and their functions. Specifically, [[PGC-1α|PGC-1 α\alpha]], NF-κ\kappaB (RelA/p65), [[p53]], and SREBP-1c are now the focus. The anti-inflammatory, metabolic, and survival benefits are coming into sharper focus. I'm noting the specific outcomes and interactions of each protein now.
 
 **Outlining Further Benefits**
 
@@ -71,11 +55,7 @@ The interaction between**
 [[SIRT1]]
 
 **(Sirtuin 1, an**
-
-```
 NAD+NAD^+
-```
-
 **-dependent deacetylase) is one of the most thoroughly researched pathways in molecular biology[1][2]. [[SIRT1]] plays a vital role in regulating cellular health, metabolic homeostasis, [[notes/_link/Inflammation|inflammation]], [[notes/_link/Mitochondria|mitochondrial]] function, and [[notes/_link/Aging|aging]][3].
 
 Initially, the mechanism by which [[Resveratrol|resveratrol]] activates [[SIRT1]] was a subject of scientific controversy[4]. However, research has clarified that [[Resveratrol|resveratrol]] activates [[SIRT1]] through a combination of**
@@ -126,24 +106,16 @@ Subsequent structural biology and biochemical studies resolved this, demonstrati
 [4][6]:
 
 - **Binding Site:**
-	[[Resveratrol]] binds to a specific region within the N-terminal domain (NTD) of [[SIRT1]] (specifically requiring the**
-	Glutamate 230 (E230)
-	**residue)[5].
+ [[Resveratrol]] binds to a specific region within the N-terminal domain (NTD) of [[SIRT1]] (specifically requiring the**
+ Glutamate 230 (E230)
+ **residue)[5].
 - **Conformational Change:**
-	Upon binding, [[Resveratrol|resveratrol]] stabilizes the interaction between [[SIRT1]]’s NTD and the substrate[4].
+ Upon binding, [[Resveratrol|resveratrol]] stabilizes the interaction between [[SIRT1]]’s NTD and the substrate[4].
 - **
-	Substrate Selectivity:
-	**This binding induces a conformational change that lowers the Michaelis constant (
-	```
-	KmK_m
-	```
-	) of [[SIRT1]] for specific target proteins[6]. This means [[SIRT1]] develops a much higher affinity for key physiological substrates, such as**
-	```
-	α\alpha
-	```
-	**and**
-	[[FOXO3a]]
-	**, promoting their deacetylation even at lower baseline levels[5].
+ Substrate Selectivity:
+ **This binding induces a conformational change that lowers the Michaelis constant (KmK_m ) of [[SIRT1]] for specific target proteins[6]. This means [[SIRT1]] develops a much higher affinity for key physiological substrates, such as**α\alpha **and**
+ [[FOXO3a]]
+ **, promoting their deacetylation even at lower baseline levels[5].
 
 #### B. Indirect Activation (The AMPK-PDE Axis)
 
@@ -152,57 +124,33 @@ While direct binding occurs, a significant portion of [[Resveratrol|resveratrol]
 in vivo
 
 effects is mediated indirectly by increasing cellular levels of nicotinamide adenine dinucleotide (
-
-```
 NAD+NAD^+
-```
-
 ), the obligate co-substrate for [[SIRT1]] activity[5][7].
 
 - **Phosphodiesterase (PDE) Inhibition:**
-	[[Resveratrol]] acts as a competitive inhibitor of cyclic adenosine monophosphate ([[cAMP]]) phosphodiesterases (specifically**
-	[[PDE4]]
-	**)[7].
+ [[Resveratrol]] acts as a competitive inhibitor of cyclic adenosine monophosphate ([[cAMP]]) phosphodiesterases (specifically**
+ [[PDE4]]
+ **)[7].
 - **cAMP Accumulation:**
-	Inhibiting PDE prevents [[cAMP]] degradation, leading to an accumulation of intracellular [[cAMP]][5][7].
+ Inhibiting PDE prevents [[cAMP]] degradation, leading to an accumulation of intracellular [[cAMP]][5][7].
 - **
-	Calcium Signaling:
-	**High [[cAMP]] activates**
-	[[Epac1]]
-	**(Exchange Protein directly Activated by cAMP), which triggers the release of Calcium (
-	```
-	Ca2+Ca^{2+}
-	```
-	) from the endoplasmic reticulum into the cytoplasm[5][7].
+ Calcium Signaling:
+ **High [[cAMP]] activates**
+ [[Epac1]]
+ **(Exchange Protein directly Activated by cAMP), which triggers the release of Calcium (Ca2+Ca^{2+} ) from the endoplasmic reticulum into the cytoplasm[5][7].
 - **
-	AMPK Activation:
-	**The surge in cytoplasmic
-	```
-	Ca2+Ca^{2+}
-	```
-	activates**
-	```
-	β\beta
-	```
-	**(calmodulin-dependent protein kinase kinase beta), which phosphorylates and activates**
-	[[notes/_link/AMPK|AMPK]]
-	**(AMP-activated protein kinase)[5][7].
+ AMPK Activation:
+ **The surge in cytoplasmic Ca2+Ca^{2+} activates**β\beta **(calmodulin-dependent protein kinase kinase beta), which phosphorylates and activates**
+ [[notes/_link/AMPK|AMPK]]
+ **(AMP-activated protein kinase)[5][7].
 - **
-	NAD+ Synthesis:
-	**Activated [[notes/_link/AMPK|AMPK]] increases the expression of**
-	[[NAMPT]]
-	**(nicotinamide phosphoribosyltransferase), the rate-limiting enzyme in the
-	```
-	NAD+NAD^+
-	```
-	salvage pathway.
+ NAD+ Synthesis:
+ **Activated [[notes/_link/AMPK|AMPK]] increases the expression of**
+ [[NAMPT]]
+ **(nicotinamide phosphoribosyltransferase), the rate-limiting enzyme in the NAD+NAD^+ salvage pathway.
 - **
-	SIRT1 Stimulation:
-	**The resulting boost in cellular
-	```
-	NAD+NAD^+
-	```
-	levels fuels [[SIRT1]], dramatically increasing its deacetylase activity[5][7].
+ SIRT1 Stimulation:
+ **The resulting boost in cellular NAD+NAD^+ levels fuels [[SIRT1]], dramatically increasing its deacetylase activity[5][7].
 
 ---
 
@@ -213,70 +161,46 @@ Once activated by [[Resveratrol|resveratrol]], [[SIRT1]] deacetylates several do
 #### α\alpha
 
 - **Mechanism:**
-	[[SIRT1]] deacetylates**
-	```
-	α\alpha
-	```
-	**(peroxisome proliferator-activated receptor-gamma coactivator 1-alpha / [[PGC-1α]])[5].
+ [[SIRT1]] deacetylates**α\alpha **(peroxisome proliferator-activated receptor-gamma coactivator 1-alpha / [[PGC-1α]])[5].
 - **
-	Result:
-	**Deacetylated [[PGC-1α]]
-	```
-	α\alpha
-	```
-	becomes active, migrating to the nucleus to drive the transcription of nuclear and mitochondrial genes. This leads to**
-	[[notes/_link/Mitochondrial Dysfunction|mitochondrial biogenesis]]
-	**, increased oxygen consumption, and enhanced oxidative phosphorylation (OXPHOS)[8].
+ Result:
+ **Deacetylated [[PGC-1α]] α\alpha becomes active, migrating to the nucleus to drive the transcription of nuclear and mitochondrial genes. This leads to**
+ [[notes/_link/Mitochondrial Dysfunction|mitochondrial biogenesis]]
+ **, increased oxygen consumption, and enhanced oxidative phosphorylation (OXPHOS)[8].
 
 #### FOXO Transcription Factors (Stress Resistance & Autophagy)
 
 - **Mechanism:**
-	[[SIRT1]] deacetylates**
-	[[FoxO1]]
-	**and**
-	[[FOXO3a]]
-	**[5].
+ [[SIRT1]] deacetylates**
+ [[FoxO1]]
+ **and**
+ [[FOXO3a]]
+ **[5].
 - **Result:**
-	This shifts FOXO-mediated transcription away from apoptosis-inducing genes and toward stress-resistance genes[3]. It upregulates endogenous antioxidant enzymes (such as**
-	[[notes/_link/Superoxide Dismutase|Superoxide Dismutase 2 (SOD2)]]
-	**and**
-	Catalase
-	**) and induces [[Autophagy|autophagy]] genes, allowing cells to clear damaged proteins and organelles[3][9].
+ This shifts FOXO-mediated transcription away from apoptosis-inducing genes and toward stress-resistance genes[3]. It upregulates endogenous antioxidant enzymes (such as**
+ [[notes/_link/Superoxide Dismutase|Superoxide Dismutase 2 (SOD2)]]
+ **and**
+ Catalase
+ **) and induces [[Autophagy|autophagy]] genes, allowing cells to clear damaged proteins and organelles[3][9].
 
 #### κ\kappa
 
 - **Mechanism:**
-	[[SIRT1]] deacetylates the**
-	```
-	κ\kappa
-	```
-	**(Nuclear Factor kappa B / [[notes/_link/NFKB|NF-κB]]).
+ [[SIRT1]] deacetylates the**κ\kappa **(Nuclear Factor kappa B / [[notes/_link/NFKB|NF-κB]]).
 - **
-	Result:
-	**Deacetylation inhibits [[notes/_link/NFKB|NF-κB]]'s
-	```
-	κ\kappa
-	```
-	B's transcriptional activity, preventing it from binding to DNA. This downregulates the expression of pro-inflammatory cytokines (such as**
-	```
-	α\alpha
-	```
-	**,**
-	```
-	β\beta
-	```
-	**, and**
-	IL-6
-	**), making [[Resveratrol|resveratrol]] a highly potent [[notes/_link/Inflammation|anti-inflammatory]] agent[10].
+ Result:
+ **Deacetylation inhibits [[notes/_link/NFKB|NF-κB]]'s κ\kappa B's transcriptional activity, preventing it from binding to DNA. This downregulates the expression of pro-inflammatory cytokines (such as**α\alpha **,**β\beta **, and**
+ IL-6
+ **), making [[Resveratrol|resveratrol]] a highly potent [[notes/_link/Inflammation|anti-inflammatory]] agent[10].
 
 #### p53 (Cell Survival vs. Apoptosis)
 
 - **Mechanism:**
-	[[SIRT1]] deacetylates the tumor suppressor**
-	[[p53]]
-	**[1][3].
+ [[SIRT1]] deacetylates the tumor suppressor**
+ [[p53]]
+ **[1][3].
 - **Result:**
-	Deacetylation of [[p53]] reduces its transcriptional activity, suppressing [[p53]]-mediated [[notes/_link/Apoptosis|apoptosis]] under moderate cellular stress. This allows cells time to undergo [[notes/_link/DNA Repair|DNA repair]] rather than undergoing programmed cell death[3].
+ Deacetylation of [[p53]] reduces its transcriptional activity, suppressing [[p53]]-mediated [[notes/_link/Apoptosis|apoptosis]] under moderate cellular stress. This allows cells time to undergo [[notes/_link/DNA Repair|DNA repair]] rather than undergoing programmed cell death[3].
 
 ---
 
@@ -285,18 +209,14 @@ Once activated by [[Resveratrol|resveratrol]], [[SIRT1]] deacetylates several do
 The [[Resveratrol|resveratrol]]-[[SIRT1]] axis has been studied extensively across several broad domains of health:
 
 - **
-	Metabolic Health:
-	**By activating the [[notes/_link/AMPK|AMPK]]/[[SIRT1]]/[[PGC-1α]]
-	```
-	α\alpha
-	```
-	pathway, [[Resveratrol|resveratrol]] mimics many of the physiological effects of [[notes/_link/Caloric Restriction|caloric restriction]][2][7]. In animal models of diet-induced obesity, it has been shown to improve insulin sensitivity, reduce hepatic steatosis (fatty liver), and lower blood glucose levels[6][7].
+ Metabolic Health:
+ **By activating the [[notes/_link/AMPK|AMPK]]/[[SIRT1]]/[[PGC-1α]] α\alpha pathway, [[Resveratrol|resveratrol]] mimics many of the physiological effects of [[notes/_link/Caloric Restriction|caloric restriction]][2][7]. In animal models of diet-induced obesity, it has been shown to improve insulin sensitivity, reduce hepatic steatosis (fatty liver), and lower blood glucose levels[6][7].
 - **Cardiovascular Protection:**
-	Endothelial [[SIRT1]] activation by [[Resveratrol|resveratrol]] increases the expression and activity of**
-	eNOS
-	**(endothelial nitric oxide synthase). This promotes [[notes/_link/Nitric Oxide|nitric oxide]] production, resulting in vasodilation, improved blood pressure regulation, and reduced [[notes/_link/Reactive Oxygen Species|oxidative damage]] in vascular walls[11].
+ Endothelial [[SIRT1]] activation by [[Resveratrol|resveratrol]] increases the expression and activity of**
+ eNOS
+ **(endothelial nitric oxide synthase). This promotes [[notes/_link/Nitric Oxide|nitric oxide]] production, resulting in vasodilation, improved blood pressure regulation, and reduced [[notes/_link/Reactive Oxygen Species|oxidative damage]] in vascular walls[11].
 - **Neuroprotection:**
-	In neurodegenerative models, [[Resveratrol|resveratrol]]-mediated [[SIRT1]] activation promotes the clearance of misfolded proteins (such as amyloid-beta and hyperphosphorylated [[notes/_link/Tau|tau]]) via [[Autophagy|autophagy]] and reduces neuroinflammation, protecting cognitive function[3][10].
+ In neurodegenerative models, [[Resveratrol|resveratrol]]-mediated [[SIRT1]] activation promotes the clearance of misfolded proteins (such as amyloid-beta and hyperphosphorylated [[notes/_link/Tau|tau]]) via [[Autophagy|autophagy]] and reduces neuroinflammation, protecting cognitive function[3][10].
 
 ---
 
@@ -305,11 +225,11 @@ The [[Resveratrol|resveratrol]]-[[SIRT1]] axis has been studied extensively acro
 Despite the robust biochemistry observed in laboratory settings, translating [[Resveratrol|resveratrol]]'s [[SIRT1]]-activating properties to human clinical therapies has faced significant hurdles:
 
 - **Poor Bioavailability:**
-	[[Resveratrol]] is highly lipophilic and rapidly absorbed in the human gastrointestinal tract, but it undergoes extensive first-pass metabolism (rapid glucuronidation and sulfation in the gut and liver)[11][12]. Consequently, extremely low concentrations of free, active [[Resveratrol|resveratrol]] reach the systemic circulation and target tissues[11].
+ [[Resveratrol]] is highly lipophilic and rapidly absorbed in the human gastrointestinal tract, but it undergoes extensive first-pass metabolism (rapid glucuronidation and sulfation in the gut and liver)[11][12]. Consequently, extremely low concentrations of free, active [[Resveratrol|resveratrol]] reach the systemic circulation and target tissues[11].
 - **Hormetic (Biphasic) Effects:**
-	[[Resveratrol]] often exhibits a biphasic dose-response curve. At low to moderate concentrations, it acts as a mild stressor that triggers beneficial adaptive responses ([[SIRT1]] activation, antioxidant upregulation)[11]. However, at very high concentrations, it can induce off-target effects, cell cycle arrest, or pro-oxidant states depending on the cell type.
+ [[Resveratrol]] often exhibits a biphasic dose-response curve. At low to moderate concentrations, it acts as a mild stressor that triggers beneficial adaptive responses ([[SIRT1]] activation, antioxidant upregulation)[11]. However, at very high concentrations, it can induce off-target effects, cell cycle arrest, or pro-oxidant states depending on the cell type.
 - **Clinical Consistency:**
-	Due to differences in formulation, dosing, and individual metabolic rates, clinical trials evaluating [[Resveratrol|resveratrol]]'s efficacy in humans have yielded mixed results compared to the highly consistent benefits seen in controlled, rodent-based research[13].
+ Due to differences in formulation, dosing, and individual metabolic rates, clinical trials evaluating [[Resveratrol|resveratrol]]'s efficacy in humans have yielded mixed results compared to the highly consistent benefits seen in controlled, rodent-based research[13].
 
 Sources
 
@@ -360,11 +280,7 @@ While [[SIRT1]] is the most heavily studied member of the sirtuin family, mammal
 [[SIRT2]] to [[SIRT7]]
 
 **) localized in distinct cellular compartments[1]. Like [[SIRT1]], they are all
-
-```
 NAD+NAD^+
-```
-
 \-dependent enzymes, but they exhibit diverse catalytic activities—including deacetylation, demalonylation, desuccinylation, and [[ADP-ribosylation]][2][3].
 
 Over the years, researchers have identified several natural and synthetic compounds capable of modulating these other sirtuins. The most notable progress has been made with
@@ -386,15 +302,15 @@ and**
 #### Key Compounds:
 
 - **[[Honokiol]] (HKL):**
-	A natural biphenolic lignan extracted from the bark of
-	Magnolia grandiflora
-	[6][7].
+ A natural biphenolic lignan extracted from the bark of
+ Magnolia grandiflora
+ [6][7].
 - **[[Dihydromyricetin]] (DHM):**
-	A natural flavonoid found in plants like the
-	Ampelopsis grossedentata
-	(Rattan tea)[8][9].
+ A natural flavonoid found in plants like the
+ Ampelopsis grossedentata
+ (Rattan tea)[8][9].
 - **1,4-Dihydropyridines (DHPs):**
-	Synthetic compounds engineered to allosterically activate mitochondrial sirtuins[3].
+ Synthetic compounds engineered to allosterically activate mitochondrial sirtuins[3].
 
 Code
 
@@ -415,34 +331,22 @@ Code
 #### Mechanisms of Action:
 
 - **Direct Binding and Expression:**
-	[[Honokiol]] has been shown to physically interact with [[SIRT3]], increasing its deacetylase activity and upregulating its protein expression[6][7].
+ [[Honokiol]] has been shown to physically interact with [[SIRT3]], increasing its deacetylase activity and upregulating its protein expression[6][7].
 - **Targeting MnSOD (Manganese Superoxide Dismutase):**
-	Once activated, [[SIRT3]] deacetylates MnSOD (at lysine residues K68 and K122)[10]. Deacetylated MnSOD becomes highly active, converting damaging superoxide radicals into hydrogen peroxide, which dramatically lowers mitochondrial [[notes/_link/Reactive Oxygen Species|oxidative stress]][7][11].
+ Once activated, [[SIRT3]] deacetylates MnSOD (at lysine residues K68 and K122)[10]. Deacetylated MnSOD becomes highly active, converting damaging superoxide radicals into hydrogen peroxide, which dramatically lowers mitochondrial [[notes/_link/Reactive Oxygen Species|oxidative stress]][7][11].
 - **
-	Enhancing ATP Synthesis:
-	**[[SIRT3]] deacetylates**
-	[[OSCP]]
-	**(oligomycin-sensitivity conferring protein), a subunit of the mitochondrial
-	```
-	F1FOF_1F_O
-	```
-	\-ATPase[7]. This modification optimizes ATP synthase coupling, boosting cellular energy output while minimizing mitochondrial "leakage" and fission[7][12].
+ Enhancing ATP Synthesis:
+ **[[SIRT3]] deacetylates**
+ [[OSCP]]
+ **(oligomycin-sensitivity conferring protein), a subunit of the mitochondrial F1FOF_1F_O \-ATPase[7]. This modification optimizes ATP synthase coupling, boosting cellular energy output while minimizing mitochondrial "leakage" and fission[7][12].
 
 #### Physiological Impact:
 
 - **Cardioprotection:**
-	[[Honokiol]]-mediated [[SIRT3]] activation has been shown to reverse cardiac hypertrophy and protect heart tissue from doxorubicin-induced cardiotoxicity without blunting the drug’s anti-tumor activity in preclinical models[7][11].
+ [[Honokiol]]-mediated [[SIRT3]] activation has been shown to reverse cardiac hypertrophy and protect heart tissue from doxorubicin-induced cardiotoxicity without blunting the drug’s anti-tumor activity in preclinical models[7][11].
 - **
-	Anti-Fibrotic Effects:
-	**In kidneys, activating [[SIRT3]] with [[Honokiol]] suppresses the NF-
-	```
-	κ\kappa
-	```
-	B/TGF-
-	```
-	β\beta
-	```
-	1 pathway, limiting renal tubulointerstitial fibrosis[12].
+ Anti-Fibrotic Effects:
+ **In kidneys, activating [[SIRT3]] with [[Honokiol]] suppresses the NF-κ\kappa B/TGF-β\beta 1 pathway, limiting renal tubulointerstitial fibrosis[12].
 
 ---
 
@@ -453,13 +357,13 @@ Code
 #### Key Compounds:
 
 - **[[UBCS039]]:**
-	The first synthetic, specific allosteric activator of [[SIRT6]][15][16].
+ The first synthetic, specific allosteric activator of [[SIRT6]][15][16].
 - **MDL-800 & [[MDL-801]]:**
-	Highly potent, cell-permeable synthetic allosteric activators of [[SIRT6]][17].
+ Highly potent, cell-permeable synthetic allosteric activators of [[SIRT6]][17].
 - **[[Cyanidin]]:**
-	A natural anthocyanidin (found in red berries) capable of increasing [[SIRT6]] activity by over 50-fold in certain
-	in vitro
-	assays[18].
+ A natural anthocyanidin (found in red berries) capable of increasing [[SIRT6]] activity by over 50-fold in certain
+ in vitro
+ assays[18].
 
 Code
 
@@ -470,7 +374,7 @@ Code
                 Binds Allosteric Hydrophobic Pocket
                                  │
                                  ▼
-             Stabilizes Active Conformation of NAD+ 
+             Stabilizes Active Conformation of NAD+
                   and Histone Acyl Substrates
                                  │
              ┌───────────────────┴───────────────────┐
@@ -484,31 +388,27 @@ Code
 #### Mechanisms of Action:
 
 - **Targeting the Unique Hydrophobic Pocket:**
-	[[SIRT6]] features a "splayed open" structure containing a distinct, elongated hydrophobic pocket designed to hold long-chain fatty acyls[13]. Crystal structures show that**
-	[[MDL-801]]
-	**and**
-	[[UBCS039]]
-	**bind to this distal allosteric pocket[13].
+ [[SIRT6]] features a "splayed open" structure containing a distinct, elongated hydrophobic pocket designed to hold long-chain fatty acyls[13]. Crystal structures show that**
+ [[MDL-801]]
+ **and**
+ [[UBCS039]]
+ **bind to this distal allosteric pocket[13].
 - **
-	Conformational Stabilization:
-	**This binding stabilizes the catalytically active conformation of both the
-	```
-	NAD+NAD^+
-	```
-	co-substrate and the target acetylated/acylated peptide substrate, facilitating efficient deacetylation[14].
+ Conformational Stabilization:
+ **This binding stabilizes the catalytically active conformation of both the NAD+NAD^+ co-substrate and the target acetylated/acylated peptide substrate, facilitating efficient deacetylation[14].
 - **Epigenetic Regulation:**
-	[[SIRT6]] activation results in the rapid deacetylation of**
-	[[H3K9ac]]
-	**and**
-	[[H3K56ac]]
-	**on chromatin, allowing chromatin compaction and facilitating the recruitment of double-strand break repair machinery.
+ [[SIRT6]] activation results in the rapid deacetylation of**
+ [[H3K9ac]]
+ **and**
+ [[H3K56ac]]
+ **on chromatin, allowing chromatin compaction and facilitating the recruitment of double-strand break repair machinery.
 
 #### Physiological Impact:
 
 - **Oncological Regulation:**
-	By suppressing glycolysis (the Warburg effect) and driving tumor cells toward [[Autophagy|autophagy]], [[SIRT6]] activators like [[UBCS039]] have demonstrated tumor-suppressive activity in several cancer cell lines[16][19].
+ By suppressing glycolysis (the Warburg effect) and driving tumor cells toward [[Autophagy|autophagy]], [[SIRT6]] activators like [[UBCS039]] have demonstrated tumor-suppressive activity in several cancer cell lines[16][19].
 - **Organ Protection:**
-	[[UBCS039]] has been evaluated in models of acute liver failure, where it significantly mitigated [[notes/_link/Reactive Oxygen Species|oxidative stress]] and inflammatory damage in a [[SIRT6]]-dependent manner[20][21].
+ [[UBCS039]] has been evaluated in models of acute liver failure, where it significantly mitigated [[notes/_link/Reactive Oxygen Species|oxidative stress]] and inflammatory damage in a [[SIRT6]]-dependent manner[20][21].
 
 ---
 
@@ -529,13 +429,13 @@ Code
 **[3].
 
 - **Compounds:**
-	Specific**
-	1,4-dihydropyridine (DHP)
-	**derivatives have been synthesized that selectively activate [[SIRT5]], though research on specific clinical candidates is in earlier stages compared to [[SIRT1]], 3, and 6[3][22].
+ Specific**
+ 1,4-dihydropyridine (DHP)
+ **derivatives have been synthesized that selectively activate [[SIRT5]], though research on specific clinical candidates is in earlier stages compared to [[SIRT1]], 3, and 6[3][22].
 - **Mechanism & Physiological Impact:**
-	[[SIRT5]] activation de-succinylated**
-	[[CPS1]]
-	**(carbamoyl phosphate synthase 1), the rate-limiting enzyme of the urea cycle[3]. This action regulates ammonia detoxification and maintains metabolic flux under fasting or high-protein diet conditions.
+ [[SIRT5]] activation de-succinylated**
+ [[CPS1]]
+ **(carbamoyl phosphate synthase 1), the rate-limiting enzyme of the urea cycle[3]. This action regulates ammonia detoxification and maintains metabolic flux under fasting or high-protein diet conditions.
 
 ---
 
@@ -550,33 +450,33 @@ rather than activation, or direct small-molecule activation has proven difficult
 #### SIRT2 (Cytoplasmic Deacetylase)
 
 - **The Paradigm:**
-	[[SIRT2]] deacetylates tubulin and plays a critical role in cell cycle progression, myelination, and myelin maintenance[1][4].
+ [[SIRT2]] deacetylates tubulin and plays a critical role in cell cycle progression, myelination, and myelin maintenance[1][4].
 - **Inhibitors over Activators:**
-	Direct activation of [[SIRT2]] is rarely sought because its overactivity is associated with neurotoxicity[23]. Instead,**
-	[[SIRT2 inhibitors]]
-	**(e.g.,**
-	[[AGK2]]
-	**,**
-	[[AK-7]]
-	**, and**
-	[[SirReal2]]
-	**) are being heavily investigated for neurodegenerative diseases like [[notes/_link/Parkinson's Disease|Parkinson’s]] and [[notes/_link/Huntington's Disease|Huntington’s]], where blocking [[SIRT2]] helps rescue microtubule stability and protects neurons from aggregation-induced toxicity.
+ Direct activation of [[SIRT2]] is rarely sought because its overactivity is associated with neurotoxicity[23]. Instead,**
+ [[SIRT2 inhibitors]]
+ **(e.g.,**
+ [[AGK2]]
+ **,**
+ [[AK-7]]
+ **, and**
+ [[SirReal2]]
+ **) are being heavily investigated for neurodegenerative diseases like [[notes/_link/Parkinson's Disease|Parkinson’s]] and [[notes/_link/Huntington's Disease|Huntington’s]], where blocking [[SIRT2]] helps rescue microtubule stability and protects neurons from aggregation-induced toxicity.
 
 #### SIRT4 (Mitochondrial Lipoamidase & ADP-Ribosyltransferase)
 
 - **The Challenge:**
-	[[SIRT4]] has incredibly weak deacetylase activity[3]. It primarily acts to [[ADP-ribosylation|ADP-ribosylate]] and inhibit**
-	[[Glutamate Dehydrogenase (GDH)|glutamate dehydrogenase (GDH)]]
-	**, opposing [[SIRT3]] by downregulating insulin secretion and amino acid-stimulated metabolism.
+ [[SIRT4]] has incredibly weak deacetylase activity[3]. It primarily acts to [[ADP-ribosylation|ADP-ribosylate]] and inhibit**
+ [[Glutamate Dehydrogenase (GDH)|glutamate dehydrogenase (GDH)]]
+ **, opposing [[SIRT3]] by downregulating insulin secretion and amino acid-stimulated metabolism.
 - **Compounds:**
-	No selective, potent direct small-molecule activators of [[SIRT4]] are currently established[5].
+ No selective, potent direct small-molecule activators of [[SIRT4]] are currently established[5].
 
 #### SIRT7 (Nucleolar Deacetylase)
 
 - **The Challenge:**
-	[[SIRT7]] is highly localized to the nucleolus and deacetylates histone**
-	[[H3K18]]
-	**to regulate ribosome biogenesis[24]. Due to its highly restricted, nucleolar-specific microenvironment, developing selective small-molecule activators has remained structurally challenging, with no dominant drug candidates in advanced development[5].
+ [[SIRT7]] is highly localized to the nucleolus and deacetylates histone**
+ [[H3K18]]
+ **to regulate ribosome biogenesis[24]. Due to its highly restricted, nucleolar-specific microenvironment, developing selective small-molecule activators has remained structurally challenging, with no dominant drug candidates in advanced development[5].
 
 ---
 
@@ -593,11 +493,7 @@ rather than activation, or direct small-molecule activation has proven difficult
 | **[[SIRT7]]** | Nucleolus[24] | Deacetylation | None prominent [5] | H3K18; ribosome biogenesis |
 
 Note: Because all seven sirtuins are strictly dependent on cellular
-
-```
 NAD+NAD^+
-```
-
 levels, precursors like**
 
 [[notes/_link/Nicotinamide Mononucleotide|NMN (Nicotinamide Mononucleotide)]]
@@ -672,8 +568,6 @@ I'm now focusing on dietary [[Dihydromyricetin|DHM]] intake from vine tea. To re
 **Assessing DHM Feasibility**
 
 Now, I'm finding that [[Dihydromyricetin|DHM]] offers a unique advantage: it's one of the few SIRT-activating compounds realistically obtainable in therapeutic doses through diet. I only need to consume 1 to 1.5 grams of dry vine tea leaves to achieve a 300 mg dose. This is about 1 to 2 standard tea bags or a large cup.
-
-\n\n
 
 **Evaluating Cyanidin Intake**
 
