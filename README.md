@@ -65,7 +65,43 @@
 ```from latest changes in git: open knowledge format, etc.```
 
 - 🛠️ [obsidian agent skills](https://github.com/jkuo45/llm-wiki/blob/dev/raw/_article_%20-%20kepanoobsidian-skills%20Agent%20skills%20for%20Obsidian.%20Teach%20your%20agent%20to%20use%20Obsidian%20CLI%20and%20open%20formats%20including%20Markdown%2C%20Bases%2C%20JSON%20Canvas..md)
-- 📐 [open knowledge spec](https://github.com/jkuo45/llm-wiki/blob/dev/raw/_article_%20-%20knowledge-catalogokfSPEC.md%20at%20main.md)
+- 📐 [open knowledge spec](https://github.com/jkuo45/llm-wiki/blob/dev/raw/_article%20-%20knowledge-catalogokfSPEC.md%20at%20main.md)
+
+#### triples overview (as of 05_JUL_2026)
+---
+
+Two extraction styles produce the triples below, each serving a different analytical purpose.
+
+**Mechanistic extraction** (six topics, 83–99% high confidence) outputs tight knowledge graphs with domain-specific predicates — `deacetylates`, `phosphorylates`, `activates`, `inhibits`, `causes` — each encoding a direct causal or functional relationship. These graphs are small (~150–250 edges) and high precision, best for pathway verification, drug mechanism reasoning, and literature-backed claims. They answer *"what does X directly do to Y?"* 80–99% in this style indicates a mature, cohesive field where entities routinely co-occur in the same sentence (textbook knowledge).
+
+**Co-occurrence extraction** (epigenetics, 30.3% high confidence) prioritizes recall over precision. Entities are linked when they appear in the same textual context; confidence is determined by textual proximity (same sentence = high, same paragraph = medium, same document = low). With 7,338 edges across 830 nodes — 30–50× larger than any mechanistic topic — and predicates dominated by `co_occurs_with` (4,528) and `mentions` (1,803), this graph captures bibliometric associations rather than causal mechanisms. It is designed for *discovery*: surfacing weak signals and cross-domain connections in fragmented or emerging fields. 20–30% in this style indicates a research frontier where most links are document-level, not yet tightly coupled in the literature.
+
+Neither style is "better" — they are complementary. Mechanistic confirms known pathways; co-occurrence reveals potential connections. Confidence % in co-occurrence acts as a **cohesion metric**: how tightly entities cluster in the literature, not how "correct" the triples are. There is no fixed target — the appropriate range depends on the goal (90%+ for verification, 20–40% for exploration).
+
+| Range      | Interpretation                                                                                                                                                                                                                                                                   |
+| ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **80–99%** | Highly cohesive, mature field. Entities are routinely mentioned in the *same sentence* — well-established coupling (e.g., "SIRT1 deacetylates p53") dominates. Low hanging fruit; the graph confirms known clusters without much discovery value.                                |
+| **20–30%** | Fragmented or emerging field. Most links are document-level — entities appear in the same paper but not necessarily in the same claim. High discovery potential: the graph surfaces weak signals and cross-domain connections that aren't yet tightly coupled in the literature. |
+
+>[!NOTE]
+>
+>In other words: 80% = textbook knowledge, 20% = research frontier
+>
+>- Mechanistic extraction — what it produces, predicate types, use cases, and what 80–99% means
+>
+>- Co-occurrence extraction — confidence model, scale comparison, design for discovery, and what 20–30% means
+>  
+>- Complementary nature — neither is "better", confidence as cohesion metric, no fixed target
+
+| Topic            | High %    | Edges     | Predicates | Top predicate                             | Extraction style |
+| ---------------- | --------- | --------- | ---------- | ----------------------------------------- | ---------------- |
+| oxidative_stress | **99.2%** | 236       | 127        | `produces`, `causes`, `activates`         | mechanistic      |
+| neuromelanin     | **97.7%** | 218       | 25         | `bidirectionally_linked_with`             | mechanistic      |
+| adrenochrome     | **97.2%** | 213       | 38         | `has_type` (149x)                         | mechanistic      |
+| sirtuins         | **97.2%** | 247       | 100        | `deacetylates`, `inhibits`, `activates`   | mechanistic      |
+| autophagy        | **89.6%** | 154       | 79         | `phosphorylates`, `activates`, `inhibits` | mechanistic      |
+| comt             | **83.5%** | 200       | 89         | `is`, `is_associated_with`                | mechanistic      |
+| **epigenetics**  | **30.3%** | **7,338** | **19**     | `co_occurs_with` (4,528), `mentions`      | co-occurrence    |
 
 #### adrenochrome triples
 **adrenochrome** — 195 nodes · 213 edges · 38 relation types · 97.2% high confidence
