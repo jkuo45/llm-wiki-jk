@@ -44,7 +44,7 @@ Sirt1 levels decline in multiple tissues with age, coinciding with [[NAD+|NAD^+]
 - Suggested new entity notes to create: [[CLOCK]], [[BMAL1]], [[SRT1720]]
 - Strong connections to strengthen: [[SIRT1]] ↔ [[notes/_link/NAD+]], [[SIRT1]] ↔ [[HDAC]]
 
-## From [[sirtuins/SIRT1.md]]
+## From [[SIRT1]]
 
 # SIRT1
 

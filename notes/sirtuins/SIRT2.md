@@ -32,7 +32,7 @@ SIRT2 is a cytoplasmic and nuclear NAD+-dependent deacetylase that regulates [[A
 - Suggested new entity notes to create: [[Atg4B]]
 - Strong connections to strengthen: [[SIRT2]] ↔ [[Autophagy]], [[SIRT2]] ↔ [[Atg4B]]
 
-## From [[sirtuins/SIRT2.md]]
+## From [[SIRT2]]
 
 # SIRT2
 

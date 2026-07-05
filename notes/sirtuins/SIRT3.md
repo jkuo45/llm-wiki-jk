@@ -34,7 +34,7 @@ SIRT3 is a mitochondrial NAD+-dependent deacetylase that activates [[Mitochondri
 - Suggested new entity notes to create: , [[Cellular Homeostasis]]
 - Strong connections to strengthen: [[SIRT3]] ↔ [[notes/_link/Mitochondria]], [[SIRT3]] ↔ [[Mitophagy]]
 
-## From [[sirtuins/SIRT3.md]]
+## From [[SIRT3]]
 
 # SIRT3
 
