@@ -73,6 +73,9 @@ An integrated model recognizes that low-level oxidative stress — induced by [[
 - **Diseases:** [[notes/_link/Atherosclerosis]], [[Cancer]], [[notes/_link/Alzheimer's Disease]], [[notes/_link/Parkinson's Disease]], [[notes/_link/Diabetes Mellitus]], [[Chronic Obstructive Pulmonary Disease]], [[Methemoglobinemia]], [[Anaphylaxis]], [[notes/_link/Schizophrenia]]
 - **Drugs:** [[Fenbendazole]], [[cisplatin]], [[doxorubicin]]
 
+## Autophagy Connection (Therapeutic Axis)
+ROS are potent [[Autophagy]] inducers. [[notes/_link/Hydrogen Peroxide]] directly activates [[notes/_link/AMPK]] and [[ATG4]] oxidation, and promotes [[notes/_link/TFEB]] nuclear translocation via [[notes/_link/TRPML1]]-[[Calcineurin]] signaling (oxidation at TFEB C212 enhances its transcriptional activity). [[Mitophagy]] selectively removes ROS-producing damaged [[notes/_link/Mitochondria]], and conversely, autophagy deficiency elevates ROS by failing to clear damaged organelles. From a therapeutic perspective, autophagy-enhancing strategies ([[Spermidine]], [[Trehalose]]) may more effectively mitigate oxidative damage than direct antioxidant supplementation, which has shown mixed clinical results.
+
 ## Connections
 - [[notes/_link/Reactive Oxygen Species]] ↔ The agents that cause oxidative stress.
 - [[Adrenochrome]] ↔ An oxidative byproduct whose formation is promoted by this state.
@@ -91,3 +94,7 @@ An integrated model recognizes that low-level oxidative stress — induced by [[
 - New links added: [[Peroxynitrite]], [[Reactive Nitrogen Species]], [[Catalase]], [[Glutathione Peroxidase]], [[Coenzyme Q10]], [[Alpha-Lipoic Acid]], [[notes/_link/Vitamin E]], [[notes/_link/Ascorbic Acid]], [[notes/_link/Glutathione]], [[notes/_link/NRF2]], [[notes/_link/DNA Damage]], [[notes/_link/DNA Repair]], [[notes/_link/Autophagy]], [[notes/_link/Proteasome]], [[notes/_link/Exercise]], [[Caloric Restriction]], [[Mitohormesis]], [[Lipid Peroxidation]], [[Malondialdehyde]], [[4-Hydroxynonenal]], [[notes/_link/Mitochondrial Biogenesis]], [[Chronic Obstructive Pulmonary Disease]], [[notes/_link/Diabetes Mellitus]]
 - Suggested new entity notes to create: [[Mitohormesis]], [[Redox Code]], [[4-Hydroxynonenal]], [[KEAP1]], [[PTEN]], [[Protein Tyrosine Phosphatases]]
 - Strong connections to strengthen: [[notes/oxidative_stress/Oxidative Stress]] ↔ [[notes/_link/Mitochondria]], [[notes/oxidative_stress/Oxidative Stress]] ↔ [[notes/_link/NRF2]], [[notes/oxidative_stress/Oxidative Stress]] ↔ [[Lipid Peroxidation]]
+
+### New Linking Summary (Added 2026-07-04, _link merge):
+- New links added: [[notes/_link/AMPK]], [[ATG4]], [[notes/_link/TFEB]], [[notes/_link/TRPML1]], [[Calcineurin]], [[Spermidine]], [[Trehalose]]
+- Strong connections to strengthen: [[notes/oxidative_stress/Oxidative Stress]] ↔ [[notes/_link/Autophagy]], [[notes/oxidative_stress/Oxidative Stress]] ↔ [[notes/_link/AMPK]], [[notes/oxidative_stress/Oxidative Stress]] ↔ [[notes/_link/TFEB]]

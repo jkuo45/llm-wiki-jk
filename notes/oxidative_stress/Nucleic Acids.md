@@ -131,7 +131,7 @@ Oxidative modifications to DNA intersect with [[notes/_link/Epigenome|epigenetic
 
 - **TET enzyme inhibition**: 8-oxo-dG adjacent to 5-methylcytosine inhibits [[notes/_link/TET Enzymes]], altering [[DNA demethylation]] dynamics
 - **OGG1-mediated gene regulation**: OGG1 binding to 8-oxo-dG in gene promoters recruits [[notes/_link/NFKB]] and [[notes/_link/KRAS]], activating transcription of inflammatory genes
-- **DNMT inhibition**: Oxidized CpG dinucleotides inhibit [[DNA methyltransferase]] activity, potentially causing [[notes/_link/Epigenetic Drift]]
+- **DNMT inhibition**: Oxidized CpG dinucleotides inhibit [[DNA methyltransferase]] activity, potentially causing [[Epigenetic Drift]]
 - **Histone modification crosstalk**: Oxidative DNA damage triggers [[notes/_link/Histone Modification|histone]] H2AX phosphorylation (γH2AX) and local [[notes/_link/Chromatin]] remodeling
 
 ## Clinical and Pathological Significance

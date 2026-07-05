@@ -80,7 +80,7 @@ relations:
     sources:
       - PMID:15205477
 created: 2026-07-02
-updated: 2026-07-03
+updated: 2026-07-04
 ---
 
 # SIRT1
@@ -240,7 +240,7 @@ Higher levels of SIRT1 activity are generally associated with a longer, healthie
 ## Regulation of Autophagy
 
 - SIRT1 is a potent activator of [[Autophagy]].
-- It deacetylates various autophagy-related proteins, including those in the [[Atg]] machinery and transcription factors like [[FOXO1]] and [[FOXO3a]].
+- It deacetylates various autophagy-related proteins, including [[ATG5]], [[ATG7]], [[ATG8]]/[[LC3]], and transcription factors like [[FOXO1]] and [[FOXO3a]] (inducing [[LC3B]], [[BNIP3]], [[GABARAPL1]]).
 - SIRT1 activation is strongly induced by [[notes/_link/Caloric Restriction]] and [[Intermittent Fasting]], contributing to their lifespan-extending effects.
 
 ## Relationship with AMPK
@@ -293,3 +293,7 @@ Sirtuin 1 (SIRT1) is an NAD+-dependent deacetylase that promotes [[TFEB]] transc
 - New links added: [[TFEB]]
 - Suggested new entity notes to create: [[Deacetylation]]
 - Strong connections to strengthen: [[notes/_link/SIRT1]] ↔ [[TFEB]]
+
+### New Linking Summary (Added 2026-07-04, _link merge):
+- New links added: [[ATG5]], [[ATG7]], [[ATG8]], [[LC3]], [[LC3B]], [[BNIP3]], [[GABARAPL1]]
+- Strong connections to strengthen: [[SIRT1]] ↔ [[Autophagy]], [[SIRT1]] ↔ [[TFEB]]

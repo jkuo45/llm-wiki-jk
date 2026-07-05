@@ -1,7 +1,10 @@
 ---
 type: entity
 category: Enzyme
-aliases: []
+aliases:
+  - DT-diaphorase
+  - NAD(P)H dehydrogenase [quinone] 1
+  - DTD
 created: 2026-07-04
 updated: 2026-07-04
 ---

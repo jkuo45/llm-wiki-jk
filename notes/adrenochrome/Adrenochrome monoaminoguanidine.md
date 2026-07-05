@@ -1,7 +1,9 @@
 ---
 type: entity
 category: Chemical Compound
-aliases: []
+aliases:
+  - AMM
+  - Glyco-oxidative modulator
 created: 2026-07-04
 updated: 2026-07-04
 ---
@@ -16,6 +18,10 @@ It is less colored than products prepared by older methods and is more stable th
 This hybrid molecule is a central component of the [[Glyco-Oxidative Proteostasis Shield]] strategy. Its mechanisms include:
 - **AGE Inhibition:** The aminoguanidine moiety directly inhibits the formation of [[Advanced Glycation End Products]] (AGEs) and DNA cross-links.
 - **Proteostatic Trigger:** The adrenochrome moiety induces a mild ER-stress response ([[Hormesis]]), upregulating chaperone proteins (HSPs) and priming the [[Autophagy]] machinery.
+
+## Glyco-Oxidative Modulation
+
+Adrenochrome monoaminoguanidine functions as a **glyco-oxidative modulator** — a hybrid agent that simultaneously targets both glycation and oxidative stress pathways. The aminoguanidine moiety scavenges reactive dicarbonyl species ([[Methylglyoxal]], [[Glyoxal]]), preventing them from forming [[Advanced Glycation End Products]], while the adrenochrome moiety engages the [[Mitohormetic Redox-Relay]] to induce adaptive stress responses.
 
 ## Connections
 - [[Adrenochrome]]: The parent molecule and precursor.
