@@ -4,24 +4,24 @@
 ## Summary Table (notes directory)
 | topic | last updated | count entities | count documents | count words | disk size |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| [_link](https://github.com/jkuo45/llm-wiki/tree/dev/notes/_link) | 04_JUL_2026 | 192 | 0 | 42,370 | 0.34 MB |
-| [adrenochrome](https://github.com/jkuo45/llm-wiki/tree/dev/notes/adrenochrome) | 04_JUL_2026 | 330 | 23 | 142,982 | 1.56 MB |
-| [autophagy](https://github.com/jkuo45/llm-wiki/tree/dev/notes/autophagy) | 04_JUL_2026 | 251 | 11 | 84,432 | 0.73 MB |
+| [_link](https://github.com/jkuo45/llm-wiki/tree/dev/notes/_link) | 04_JUL_2026 | 195 | 0 | 43,053 | 0.35 MB |
+| [adrenochrome](https://github.com/jkuo45/llm-wiki/tree/dev/notes/adrenochrome) | 04_JUL_2026 | 332 | 23 | 177,140 | 2.07 MB |
+| [autophagy](https://github.com/jkuo45/llm-wiki/tree/dev/notes/autophagy) | 04_JUL_2026 | 255 | 11 | 97,987 | 1.02 MB |
 | [cancer](https://github.com/jkuo45/llm-wiki/tree/dev/notes/cancer) | 04_JUL_2026 | 275 | 8 | 117,262 | 1.27 MB |
-| [comt](https://github.com/jkuo45/llm-wiki/tree/dev/notes/comt) | 04_JUL_2026 | 35 | 2 | 9,913 | 0.11 MB |
-| [epigenetics](https://github.com/jkuo45/llm-wiki/tree/dev/notes/epigenetics) | 04_JUL_2026 | 218 | 9 | 108,672 | 3.23 MB |
-| [neuromelanin](https://github.com/jkuo45/llm-wiki/tree/dev/notes/neuromelanin) | 04_JUL_2026 | 100 | 2 | 24,488 | 0.28 MB |
-| [oxidative_stress](https://github.com/jkuo45/llm-wiki/tree/dev/notes/oxidative_stress) | 04_JUL_2026 | 82 | 1 | 60,696 | 0.62 MB |
-| [sirtuins](https://github.com/jkuo45/llm-wiki/tree/dev/notes/sirtuins) | 04_JUL_2026 | 112 | 6 | 153,969 | 1.26 MB |
+| [comt](https://github.com/jkuo45/llm-wiki/tree/dev/notes/comt) | 04_JUL_2026 | 35 | 2 | 9,913 | 0.43 MB |
+| [epigenetics](https://github.com/jkuo45/llm-wiki/tree/dev/notes/epigenetics) | 04_JUL_2026 | 219 | 9 | 108,854 | 3.86 MB |
+| [neuromelanin](https://github.com/jkuo45/llm-wiki/tree/dev/notes/neuromelanin) | 04_JUL_2026 | 100 | 2 | 24,488 | 0.48 MB |
+| [oxidative_stress](https://github.com/jkuo45/llm-wiki/tree/dev/notes/oxidative_stress) | 04_JUL_2026 | 82 | 1 | 60,808 | 0.89 MB |
+| [sirtuins](https://github.com/jkuo45/llm-wiki/tree/dev/notes/sirtuins) | 04_JUL_2026 | 112 | 6 | 154,500 | 1.56 MB |
 <!-- END GENERATED: summary_table -->
 
 <!-- GENERATED: summary_counts -->
 ## Summary Counts (notes directory)
-- **last updated:** 04_JUL_2026 03:49 PM PDT
-- **file count:** 1,609
-- **word count:** 744,784
+- **last updated:** 04_JUL_2026 05:29 PM PDT
+- **file count:** 1,631
+- **word count:** 794,005
 - **documents:** 62
-- **disk size:** 9.41 MB
+- **disk size:** 11.92 MB
 <!-- END GENERATED: summary_counts -->
 
 <!-- GENERATED: document_list -->
@@ -29,29 +29,29 @@
 
 | topic | date modified | document path | word count |
 | :--- | :--- | :--- | :--- |
-| adrenochrome | 29_JUN_2026 | [notes/adrenochrome/_document_ -  adrenochrome - Adrenochrome.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20%20adrenochrome%20-%20Adrenochrome.md) | 1,074 |
-| adrenochrome | 04_JUL_2026 | [notes/adrenochrome/_document_ - Dietary Advanced Glycation End Products and Aging.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20Dietary%20Advanced%20Glycation%20End%20Products%20and%20Aging.md) | 9,406 |
-| adrenochrome | 03_JUL_2026 | [notes/adrenochrome/_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20NAD%2B%E2%80%89Precursors%20Nicotinamide%20Mononucleotide%20%28NMN%29%20and%20Nicotinamide%20Riboside%20%28NR%29%20Potential%20Dietary%20Contribution%20to%20Health.md) | 14,981 |
-| adrenochrome | 02_JUL_2026 | [notes/adrenochrome/_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20Nicotinamide%20Riboside%E2%80%94The%20Current%20State%20of%20Research%20and%20Therapeutic%20Uses.md) | 14,625 |
-| adrenochrome | 29_JUN_2026 | [notes/adrenochrome/_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20Pharmacological%20Effects%20of%20Urolithin%20A%20and%20Its%20Role%20in%20Muscle%20Health%20and%20Performance%20Current%20Knowledge%20and%20Prospects.md) | 9,177 |
-| adrenochrome | 29_JUN_2026 | [notes/adrenochrome/_document_ - The role of glycation in the pathogenesis of aging and its prevention through herbal products and physical exercise.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20The%20role%20of%20glycation%20in%20the%20pathogenesis%20of%20aging%20and%20its%20prevention%20through%20herbal%20products%20and%20physical%20exercise.md) | 6,229 |
-| adrenochrome | 29_JUN_2026 | [notes/adrenochrome/_document_ - adrenochrome - Aminoguanidine.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20adrenochrome%20-%20Aminoguanidine.md) | 1,874 |
-| adrenochrome | 04_JUL_2026 | [notes/adrenochrome/_document_ - adrenochrome - Methemoglobin  and Methemoglobinemia.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20adrenochrome%20-%20Methemoglobin%20%20and%20Methemoglobinemia.md) | 801 |
-| adrenochrome | 29_JUN_2026 | [notes/adrenochrome/_document_ - adrenochrome - Mitohormesis - 2014_FEB.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20adrenochrome%20-%20Mitohormesis%20-%202014_FEB.md) | 9,689 |
-| adrenochrome | 04_JUL_2026 | [notes/adrenochrome/_document_ - adrenochrome - Mitohormesis - 2023_NOV.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20adrenochrome%20-%20Mitohormesis%20-%202023_NOV.md) | 14,276 |
-| adrenochrome | 04_JUL_2026 | [notes/adrenochrome/_document_ - adrenochrome - Mitohormesis - Transcriptomic analysis of mitohormesis associated with lifespan extension in Caenorhabditis elegans.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20adrenochrome%20-%20Mitohormesis%20-%20Transcriptomic%20analysis%20of%20mitohormesis%20associated%20with%20lifespan%20extension%20in%20Caenorhabditis%20elegans.md) | 457 |
-| adrenochrome | 29_JUN_2026 | [notes/adrenochrome/_document_ - adrenochrome - Silver(1+) oxide.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20adrenochrome%20-%20Silver%281%2B%29%20oxide.md) | 1,906 |
-| adrenochrome | 04_JUL_2026 | [notes/adrenochrome/_document_ - adrenochrome - The Adrenochrome Pathway.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20adrenochrome%20-%20The%20Adrenochrome%20Pathway.md) | 341 |
-| adrenochrome | 29_JUN_2026 | [notes/adrenochrome/_document_ - adrenochrome - US4501923A - Process for preparing adrenochrome.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20adrenochrome%20-%20US4501923A%20-%20Process%20for%20preparing%20adrenochrome.md) | 2,511 |
-| adrenochrome | 29_JUN_2026 | [notes/adrenochrome/_document_ - adrenochrome - as senotherapeutic agents.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20adrenochrome%20-%20as%20senotherapeutic%20agents.md) | 1,667 |
-| adrenochrome | 03_JUL_2026 | [notes/adrenochrome/_document_ - adrenochrome - formation, chemical stability.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20adrenochrome%20-%20formation%2C%20chemical%20stability.md) | 2,171 |
-| adrenochrome | 29_JUN_2026 | [notes/adrenochrome/_document_ - adrenochrome - glyco-oxidative modulation.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20adrenochrome%20-%20glyco-oxidative%20modulation.md) | 1,472 |
-| adrenochrome | 04_JUL_2026 | [notes/adrenochrome/_document_ - adrenochrome - intermediates, precursor, hemoglobin.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20adrenochrome%20-%20intermediates%2C%20precursor%2C%20hemoglobin.md) | 2,968 |
-| adrenochrome | 03_JUL_2026 | [notes/adrenochrome/_document_ - adrenochrome - mitohormesis.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20adrenochrome%20-%20mitohormesis.md) | 1,976 |
-| adrenochrome | 25_MAY_2026 | [notes/adrenochrome/_document_ - adrenochrome - molecular composition, mechanism.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20adrenochrome%20-%20molecular%20composition%2C%20mechanism.md) | 7,418 |
-| adrenochrome | 03_JUL_2026 | [notes/adrenochrome/_document_ - adrenochrome - neutrophil and erthrocyte.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20adrenochrome%20-%20neutrophil%20and%20erthrocyte.md) | 781 |
-| adrenochrome | 29_JUN_2026 | [notes/adrenochrome/_document_ - glycation, enzymatic removal.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20glycation%2C%20enzymatic%20removal.md) | 1,346 |
-| adrenochrome | 02_JUL_2026 | [notes/adrenochrome/_document_ - neutrophils role in adrenochrome production.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20neutrophils%20role%20in%20adrenochrome%20production.md) | 1,119 |
+| adrenochrome | 04_JUL_2026 | [notes/adrenochrome/_document_ -  adrenochrome - Adrenochrome.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20%20adrenochrome%20-%20Adrenochrome.md) | 1,076 |
+| adrenochrome | 04_JUL_2026 | [notes/adrenochrome/_document_ - Dietary Advanced Glycation End Products and Aging.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20Dietary%20Advanced%20Glycation%20End%20Products%20and%20Aging.md) | 9,408 |
+| adrenochrome | 04_JUL_2026 | [notes/adrenochrome/_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20NAD%2B%E2%80%89Precursors%20Nicotinamide%20Mononucleotide%20%28NMN%29%20and%20Nicotinamide%20Riboside%20%28NR%29%20Potential%20Dietary%20Contribution%20to%20Health.md) | 14,983 |
+| adrenochrome | 04_JUL_2026 | [notes/adrenochrome/_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20Nicotinamide%20Riboside%E2%80%94The%20Current%20State%20of%20Research%20and%20Therapeutic%20Uses.md) | 14,627 |
+| adrenochrome | 04_JUL_2026 | [notes/adrenochrome/_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20Pharmacological%20Effects%20of%20Urolithin%20A%20and%20Its%20Role%20in%20Muscle%20Health%20and%20Performance%20Current%20Knowledge%20and%20Prospects.md) | 9,179 |
+| adrenochrome | 04_JUL_2026 | [notes/adrenochrome/_document_ - The role of glycation in the pathogenesis of aging and its prevention through herbal products and physical exercise.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20The%20role%20of%20glycation%20in%20the%20pathogenesis%20of%20aging%20and%20its%20prevention%20through%20herbal%20products%20and%20physical%20exercise.md) | 6,231 |
+| adrenochrome | 04_JUL_2026 | [notes/adrenochrome/_document_ - adrenochrome - Aminoguanidine.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20adrenochrome%20-%20Aminoguanidine.md) | 1,876 |
+| adrenochrome | 04_JUL_2026 | [notes/adrenochrome/_document_ - adrenochrome - Methemoglobin  and Methemoglobinemia.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20adrenochrome%20-%20Methemoglobin%20%20and%20Methemoglobinemia.md) | 803 |
+| adrenochrome | 04_JUL_2026 | [notes/adrenochrome/_document_ - adrenochrome - Mitohormesis - 2014_FEB.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20adrenochrome%20-%20Mitohormesis%20-%202014_FEB.md) | 9,691 |
+| adrenochrome | 04_JUL_2026 | [notes/adrenochrome/_document_ - adrenochrome - Mitohormesis - 2023_NOV.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20adrenochrome%20-%20Mitohormesis%20-%202023_NOV.md) | 14,278 |
+| adrenochrome | 04_JUL_2026 | [notes/adrenochrome/_document_ - adrenochrome - Mitohormesis - Transcriptomic analysis of mitohormesis associated with lifespan extension in Caenorhabditis elegans.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20adrenochrome%20-%20Mitohormesis%20-%20Transcriptomic%20analysis%20of%20mitohormesis%20associated%20with%20lifespan%20extension%20in%20Caenorhabditis%20elegans.md) | 459 |
+| adrenochrome | 04_JUL_2026 | [notes/adrenochrome/_document_ - adrenochrome - Silver(1+) oxide.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20adrenochrome%20-%20Silver%281%2B%29%20oxide.md) | 1,908 |
+| adrenochrome | 04_JUL_2026 | [notes/adrenochrome/_document_ - adrenochrome - The Adrenochrome Pathway.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20adrenochrome%20-%20The%20Adrenochrome%20Pathway.md) | 343 |
+| adrenochrome | 04_JUL_2026 | [notes/adrenochrome/_document_ - adrenochrome - US4501923A - Process for preparing adrenochrome.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20adrenochrome%20-%20US4501923A%20-%20Process%20for%20preparing%20adrenochrome.md) | 2,513 |
+| adrenochrome | 04_JUL_2026 | [notes/adrenochrome/_document_ - adrenochrome - as senotherapeutic agents.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20adrenochrome%20-%20as%20senotherapeutic%20agents.md) | 1,669 |
+| adrenochrome | 04_JUL_2026 | [notes/adrenochrome/_document_ - adrenochrome - formation, chemical stability.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20adrenochrome%20-%20formation%2C%20chemical%20stability.md) | 2,173 |
+| adrenochrome | 04_JUL_2026 | [notes/adrenochrome/_document_ - adrenochrome - glyco-oxidative modulation.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20adrenochrome%20-%20glyco-oxidative%20modulation.md) | 1,474 |
+| adrenochrome | 04_JUL_2026 | [notes/adrenochrome/_document_ - adrenochrome - intermediates, precursor, hemoglobin.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20adrenochrome%20-%20intermediates%2C%20precursor%2C%20hemoglobin.md) | 2,970 |
+| adrenochrome | 04_JUL_2026 | [notes/adrenochrome/_document_ - adrenochrome - mitohormesis.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20adrenochrome%20-%20mitohormesis.md) | 1,978 |
+| adrenochrome | 04_JUL_2026 | [notes/adrenochrome/_document_ - adrenochrome - molecular composition, mechanism.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20adrenochrome%20-%20molecular%20composition%2C%20mechanism.md) | 7,420 |
+| adrenochrome | 04_JUL_2026 | [notes/adrenochrome/_document_ - adrenochrome - neutrophil and erthrocyte.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20adrenochrome%20-%20neutrophil%20and%20erthrocyte.md) | 783 |
+| adrenochrome | 04_JUL_2026 | [notes/adrenochrome/_document_ - glycation, enzymatic removal.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20glycation%2C%20enzymatic%20removal.md) | 1,348 |
+| adrenochrome | 04_JUL_2026 | [notes/adrenochrome/_document_ - neutrophils role in adrenochrome production.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20neutrophils%20role%20in%20adrenochrome%20production.md) | 1,121 |
 | autophagy | 03_JUL_2026 | [notes/autophagy/_document_ - Autophagy and intermittent fasting the connection for cancer therapy?.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/autophagy/_document_%20-%20Autophagy%20and%20intermittent%20fasting%20the%20connection%20for%20cancer%20therapy%3F.md) | 2,539 |
 | autophagy | 03_JUL_2026 | [notes/autophagy/_document_ - Autophagy takes it all – autophagy inducers target immune aging.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/autophagy/_document_%20-%20Autophagy%20takes%20it%20all%20%E2%80%93%20autophagy%20inducers%20target%20immune%20aging.md) | 3,900 |
 | autophagy | 02_JUL_2026 | [notes/autophagy/_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/autophagy/_document_%20-%20From%20the%20regulatory%20mechanism%20of%20TFEB%20to%20its%20therapeutic%20implications%20-%20Cell%20Death%20Discovery.md) | 8,579 |
