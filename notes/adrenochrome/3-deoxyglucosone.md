@@ -1,3 +1,11 @@
+---
+type: entity
+category: Chemical Compound
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # 3-deoxyglucosone
 
 3-deoxyglucosone (3-DG) is a highly reactive dicarbonyl intermediate that serves as a potent precursor to [[Advanced Glycation End Products]] (AGEs).

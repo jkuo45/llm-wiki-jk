@@ -1,3 +1,12 @@
+---
+aliases:
+- adipose triglyceride lipase
+- PNPLA2
+category: Enzyme
+created: '2026-07-04'
+type: entity
+updated: '2026-07-04'
+---
 # ATGL
 
 **ATGL** (Adipose Triglyceride Lipase) is a key enzyme involved in cytosolic lipolysis, catalyzing the initial step of triglyceride breakdown in [[Lipid Droplet]]s.
@@ -6,6 +15,10 @@
 - **Cytosolic Lipolysis**: ATGL localizes to the surface of lipid droplets and hydrolyzes triglycerides into diacylglycerols and free fatty acids.
 - **Independence from Lipophagy**: In [[C. elegans]], ATGL (encoded by *atgl-1*) acts in parallel to the [[Lipophagy]] pathway involving [[LIPL-1]] and [[LIPL-3]].
 - **Nutrient Status**: Activated during [[Starvation]] and [[Fasting]] to mobilize energy reserves.
+
+## Function
+
+ATGL (PNPLA2) catalyzes the first step of triglyceride lipolysis. Its activity provides substrate for [[Lipophagy]] and fatty acid oxidation.
 
 ### Linking Summary:
 - New links added: [[Lipid Droplet]], [[C. elegans]], [[Lipophagy]], [[LIPL-1]], [[LIPL-3]], [[Starvation]], [[Fasting]]

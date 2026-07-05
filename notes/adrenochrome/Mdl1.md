@@ -1,3 +1,11 @@
+---
+type: entity
+category: Transporter
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Mdl1
 
 Mdl1 is an ATP-binding cassette (ABC) transporter protein in yeast that exports matrix-generated peptides across the inner mitochondrial membrane, potentially acting as a stress signal.

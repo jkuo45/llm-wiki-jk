@@ -49,7 +49,7 @@ This directory contains notes and research regarding [[COMT]] (Catechol-O-methyl
 | [[Norepinephrine transporter]] | 04_July_2026 12:00 PM  |
 | [[notes/_link/Norepinephrine]] | 04_July_2026 12:00 PM  |
 | [[Oleacein]] | 04_July_2026 12:00 PM  |
-| [[notes/oxidative_stress/Oxidative Stress]] | 04_July_2026 12:00 PM  |
+| [[Oxidative Stress]] | 04_July_2026 12:00 PM  |
 | [[notes/_link/Parkinson's Disease]] | 04_July_2026 12:00 PM  |
 | [[Prefrontal Cortex]] | 04_July_2026 12:00 PM  |
 | [[notes/_link/Quercetin]] | 04_July_2026 12:00 PM  |
@@ -58,7 +58,7 @@ This directory contains notes and research regarding [[COMT]] (Catechol-O-methyl
 | [[notes/_link/Serotonin]] | 04_July_2026 12:00 PM  |
 | [[SNP]] | 04_July_2026 12:00 PM  |
 | [[Stimulus-response learning]] | 04_July_2026 12:00 PM  |
-| [[notes/_link/Striatum]] | 04_July_2026 12:00 PM  |
+| [[Sirtuins]] | 04_July_2026 12:00 PM  |
 | [[notes/_link/Substantia Nigra]] | 04_July_2026 12:00 PM  |
 | [[notes/_link/Tyrosine]] | 04_July_2026 12:00 PM  |
 | [[notes/_link/Tyrosine Hydroxylase]] | 04_July_2026 12:00 PM  |

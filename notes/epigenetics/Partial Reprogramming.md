@@ -1,3 +1,10 @@
+---
+type: entity
+category: other
+entity_type: "NA"
+created: 2024-01-01
+updated: 2024-01-01
+---
 # Partial Reprogramming
 
 Partial reprogramming, also known as epigenetic rejuvenation, is a technique used to reverse signs of cellular aging without completely resetting the cell to a pluripotent state. 

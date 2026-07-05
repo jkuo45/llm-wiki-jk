@@ -1,3 +1,10 @@
+---
+type: entity
+category: enzyme
+entity_type: "Enzyme"
+created: 2024-01-01
+updated: 2024-01-01
+---
 # Histone Deacetylase
 
 **[[Histone Deacetylase]] (HDAC)** is a class of enzymes that remove acetyl groups from histone tails. This action increases the positive charge of the histones, causing them to bind more tightly to DNA and results in a more condensed, transcriptionally silent [[Chromatin]] structure.

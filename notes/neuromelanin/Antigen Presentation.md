@@ -1,3 +1,11 @@
+---
+type: entity
+category: biological_process
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Antigen Presentation
 
 [[Antigen Presentation]] is a biological process in which cells display fragments of antigens on their surface via MHC molecules to be recognized by T cells. In [[notes/_link/Parkinson's Disease]], the expression of [[Major histocompatibility complex class I|MHC-I]] on [[Neuromelanin]]-containing neurons may lead to their selective targeting by the immune system.

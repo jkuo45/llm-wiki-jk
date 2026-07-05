@@ -37,5 +37,5 @@ The sirtuin-FOXO axis is an evolutionarily ancient longevity-regulating mechanis
 ## Linking Summary
 
 - New links added: [[Sir2 (yeast)]], [[SIRT1]], [[FOXO1]], [[notes/_link/Caloric Restriction]]
-- Suggested new entity notes to create: [[Dauer Larva]], [[14-3-3 Proteins]]
+- Suggested new entity notes to create: [[Dauer Larva]], [[14-3-3_protein]]
 - Strong connections to strengthen: [[DAF-16]] ↔ [[Sir2 (yeast)]]

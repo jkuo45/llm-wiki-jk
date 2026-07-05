@@ -1,7 +1,48 @@
+---
+type: entity
+category: biological_process
+entity_type: "Biological Process"
+created: 2024-01-01
+updated: 2024-07-04
+---
+
 # Replicative Senescence
-Replicative Senescence is a biological process referring to the state of permanent cell cycle arrest caused by telomere shortening after a finite number of cell divisions.
+
+**Replicative Senescence** (also termed the Hayflick limit) is the state of irreversible cell cycle arrest that normal somatic cells enter after a finite number of divisions. First described by [[Leonard Hayflick]] in 1961 in cultured human [[Fibroblast|fibroblasts]], this process is driven by progressive [[Telomere Attrition|telomere shortening]] that ultimately triggers a persistent [[DNA Damage Response|DNA damage response]].
+
+## Mechanism
+
+During each round of [[DNA Replication|DNA replication]], telomeres shorten by 50–200 bp due to the end-replication problem — the inability of [[DNA Polymerase]] to fully replicate the 3' ends of linear chromosomes. After 40–60 population doublings in human fibroblasts, telomeres become critically short and lose their protective [[Shelterin complex]] (especially [[TRF2]]). This exposes chromosome ends as [[DNA double-strand break|DNA double-strand breaks]], activating the [[ATM]] / [[ATR]] kinase pathways and establishing persistent DDR signaling foci (DNA-SCARS).
+
+The ensuing signaling cascade phosphorylates and stabilizes [[notes/_link/p53|p53]], driving [[p21|CDKN1A/p21]] transcription. p21 inhibits [[CDK2|CDK2]]-[[Cyclin E|CyclinE]], maintaining [[RB1]] in its active hypophosphorylated form and enforcing [[G1 Phase|G1/S]] arrest. In human cells, this arrest is reinforced by [[p16INK4A|p16^INK4a^]] upregulation in a subset of cells (the "senescence timer"), establishing a secondary, p53-independent lock on the arrest state.
+
+## Hallmarks of Replicative Senescence
+
+1. **Irreversible growth arrest:** Cannot be reversed by mitogenic stimulation or even [[p53]] inactivation (once p16^INK4a^ is engaged).
+2. **[[SA-beta-gal]] activity:** Increased lysosomal β-galactosidase activity at pH 6.0, the most widely used senescence biomarker.
+3. **[[SASP]]:** Secretion of pro-inflammatory cytokines ([[IL-6]], [[IL-8]]), chemokines, and matrix metalloproteinases.
+4. **[[SAHF]]:** Senescence-associated heterochromatin foci that repress proliferation-promoting genes.
+5. **Resistance to [[notes/_link/Apoptosis|apoptosis]]** via upregulation of [[BCL-2 family]] anti-apoptotic proteins.
+
+## Cellular Physiology
+
+Replicative senescence evolved as a potent tumor suppressor mechanism — it prevents cells with critically short telomeres from acquiring further mutations. However, the accumulation of senescent cells with age contributes to tissue dysfunction through three mechanisms:
+
+- **Stem cell depletion:** Senescent [[Hematopoietic Stem Cell|hematopoietic]], [[Muscle Stem Cell|muscle]], and [[Neural Stem Cell|neural stem cells]] lose regenerative capacity.
+- **Tissue inflammation:** The SASP recruits immune cells and remodels the [[Extracellular Matrix|extracellular matrix]], promoting fibrosis and degeneration.
+- **Paracrine senescence:** Senescent cells induce senescence in neighbors via ROS, SASP factors, and [[NOTCH signaling]], propagating the senescent state.
+
+## Experimental Induction
+
+In the laboratory, replicative senescence is modeled by serial passaging of primary cells (usually human [[Fibroblast|fibroblasts]] such as [[HFF1|HFF1]] or [[IMR-90]]). Population doublings are monitored via cumulative growth curves. Alternatively, [[telomerase]]-negative cells can be induced to senescence more rapidly by siRNA knockdown of [[TERT]] or chemical inhibition of telomerase.
+
+## Therapeutic Implications
+
+- **[[Senolytic Drugs]]:** The selective elimination of replicatively senescent cells (e.g., via [[Dasatinib]]+[[Quercetin]] or [[Navitoclax]]) improves healthspan in aged mice.
+- **Telomerase activation:** Gene therapy with [[TERT]] extends lifespan in mice without increasing cancer incidence in some models, though the safety of systemic telomerase activation remains controversial.
+- **[[Partial Reprogramming]]:** Transient [[OSKM]] expression can erase senescence-associated epigenetic marks and restore proliferative capacity in some cell types.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Senescence]], [[notes/_link/Telomere]]
-- Suggested new entity notes to create: 
-- Strong connections to strengthen: [[Replicative Senescence]] <-> [[notes/_link/Senescence]]
+- New links added: [[notes/_link/Senescence]], [[notes/_link/Telomere Attrition]], [[notes/_link/DNA Damage]], [[notes/_link/p53]], [[notes/_link/Apoptosis]], [[SASP]], [[SAHF]], [[SA-beta-gal]], [[Senolytic Drugs]], [[Partial Reprogramming]]
+- Suggested new entity notes to create: [[Hayflick limit]], [[Shelterin complex]], [[TRF2]], [[Telomerase]]
+- Strong connections to strengthen: [[Replicative Senescence]] ↔ [[notes/_link/Senescence]], [[Replicative Senescence]] ↔ [[notes/_link/Telomere Attrition]]

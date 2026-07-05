@@ -1,6 +1,6 @@
 ---
 type: entity
-category: "chemical_process"
+category: chemical_process
 aliases:
   - "LPO"
 tags:
@@ -12,7 +12,7 @@ updated: 2026-07-04
 ---
 
 # Lipid Peroxidation
-Lipid peroxidation is the process in which free radicals "steal" electrons from the lipids in [[Cell membranes]], resulting in cell damage. It leads to the formation of reactive products like [[Malondialdehyde]] and is a hallmark of [[notes/oxidative_stress/Oxidative Stress]]. Antioxidants like [[notes/_link/Vitamin E]] are essential for inhibiting this process.
+Lipid peroxidation is the process in which free radicals "steal" electrons from the lipids in [[Cell membranes]], resulting in cell damage. It leads to the formation of reactive products like [[Malondialdehyde]] and is a hallmark of [[Oxidative Stress]]. Antioxidants like [[notes/_link/Vitamin E]] are essential for inhibiting this process.
 
 ## Initiation, Propagation, and Termination
 Lipid peroxidation proceeds through three classical free radical chain reaction phases: initiation, propagation, and termination.
@@ -26,10 +26,10 @@ Lipid peroxidation proceeds through three classical free radical chain reaction 
 ## Major Products and Downstream Reactivity
 The primary products of lipid peroxidation are **lipid hydroperoxides** (LOOH), which are relatively stable but can decompose into a wide array of secondary products. Among the most pathologically relevant are:
 
-- **[[Malondialdehyde]] (MDA)**: A three-carbon dialdehyde formed from the cyclization and fragmentation of PUFAs with ≥3 double bonds, particularly arachidonic acid and docosahexaenoic acid. MDA is a genotoxic electrophile that forms adducts with [[notes/_link/DNA]] (primarily dG residues, generating M₁dG lesions) and proteins (lysine, histidine, and arginine side chains).
+- **[[Malondialdehyde]] (MDA)**: A three-carbon dialdehyde formed from the cyclization and fragmentation of PUFAs with ≥3 double bonds, particularly arachidonic acid and docosahexaenoic acid. MDA is a genotoxic electrophile that forms adducts with [[DNA]] (primarily dG residues, generating M₁dG lesions) and proteins (lysine, histidine, and arginine side chains).
 - **4-Hydroxynonenal (4-HNE)**: A highly reactive α,β-unsaturated aldehyde produced specifically from n-6 PUFAs (arachidonic acid, linoleic acid). 4-HNE is a weak acid ($pK_a$ ~4.7) that forms covalent adducts with proteins via Michael addition to cysteine, histidine, and lysine residues, and can be detoxified by [[notes/_link/Glutathione]]-S-transferases (GST) and aldehyde dehydrogenases (ALDH). 4-HNE is also a signaling molecule at low concentrations, activating the [[notes/_link/NRF2]]/ARE cytoprotective pathway.
 - **Acrolein**: The simplest and most reactive unsaturated aldehyde, formed from PUFA peroxidation and polyamine metabolism. Acrolein has the highest electrophilicity among lipid peroxidation products, rapidly depleting glutathione and forming protein adducts that impair proteasomal function.
-- **Isoprostanes**: Prostaglandin-like compounds formed non-enzymatically by free radical-catalyzed peroxidation of arachidonic acid. F₂-isoprostanes (e.g., 8-iso-PGF₂α) are widely considered the most reliable biomarkers of endogenous [[notes/oxidative_stress/Oxidative Stress]] in vivo.
+- **Isoprostanes**: Prostaglandin-like compounds formed non-enzymatically by free radical-catalyzed peroxidation of arachidonic acid. F₂-isoprostanes (e.g., 8-iso-PGF₂α) are widely considered the most reliable biomarkers of endogenous [[Oxidative Stress]] in vivo.
 
 ## Physiological and Pathological Consequences
 Lipid peroxidation compromises membrane integrity in several ways. The introduction of polar hydroperoxide groups into the hydrophobic core of the bilayer increases membrane fluidity, ion permeability, and the tendency toward fusion or fission. In [[notes/_link/Mitochondria]], cardiolipin peroxidation (mediated by [[notes/_link/Reactive Oxygen Species]] generated at Complex III) facilitates cytochrome c release and [[notes/_link/Apoptosis]] initiation. Loss of membrane barrier function in the [[notes/_link/Plasma Membrane]] leads to calcium influx, activation of [[notes/_link/Calpain]] proteases, and eventual necrotic cell death.
@@ -39,15 +39,15 @@ In [[notes/_link/Atherosclerosis]], the oxidative modification of LDL (oxLDL) by
 ## Connections
 - [[notes/_link/Vitamin E]]: Crucial chain-breaking antioxidant in lipid phases.
 - [[Malondialdehyde]]: A key reactive aldehyde product and biomarker.
-- [[notes/oxidative_stress/Oxidative Stress]]: The pathological condition under which lipid peroxidation escalates.
+- [[Oxidative Stress]]: The pathological condition under which lipid peroxidation escalates.
 - [[notes/_link/Atherosclerosis]]: oxLDL formation via lipid peroxidation is a core pathogenic mechanism.
 - [[notes/_link/Ferroptosis]]: A form of regulated cell death driven by iron-dependent lipid peroxidation.
 
 ### Linking Summary
-- New links added: [[Malondialdehyde]], [[notes/_link/Vitamin E]], [[notes/oxidative_stress/Oxidative Stress]], [[Cell membranes]]
+- New links added: [[Malondialdehyde]], [[notes/_link/Vitamin E]], [[Oxidative Stress]], [[Cell membranes]]
 - Suggested new entity notes to create: [[Free radicals]], [[Membrane damage]]
 - Strong connections to strengthen: [[Lipid Peroxidation]] ↔ [[notes/_link/Vitamin E]]
 
 ### New Linking Summary (Added 2026-07-04):
-- New links added: [[Hydroxyl Radicals]], [[Peroxynitrite]], [[Fenton reaction]], [[notes/_link/Antioxidants]], [[notes/_link/Ascorbic Acid]], [[notes/_link/DNA]], [[notes/_link/Glutathione]], [[notes/_link/NRF2]], [[notes/_link/Mitochondria]], [[notes/_link/Apoptosis]], [[notes/_link/Macrophage]], [[notes/_link/CD36 Receptor]], [[notes/_link/NFKB]], [[notes/_link/Neurodegenerative Diseases]], [[notes/_link/Alzheimer's Disease]], [[notes/_link/Parkinson's Disease]], [[notes/_link/Amyotrophic Lateral Sclerosis]], [[notes/_link/Ferroptosis]], [[notes/_link/Inflammation]], [[notes/_link/Cardiovascular Disease]]
+- New links added: [[Hydroxyl Radicals]], [[Peroxynitrite]], [[Fenton reaction]], [[notes/_link/Antioxidants]], [[notes/_link/Ascorbic Acid]], [[DNA]], [[notes/_link/Glutathione]], [[notes/_link/NRF2]], [[notes/_link/Mitochondria]], [[notes/_link/Apoptosis]], [[notes/_link/Macrophage]], [[CD36 Receptor]], [[notes/_link/NFKB]], [[notes/_link/Neurodegenerative Diseases]], [[notes/_link/Alzheimer's Disease]], [[notes/_link/Parkinson's Disease]], [[notes/_link/Amyotrophic Lateral Sclerosis]], [[notes/_link/Ferroptosis]], [[notes/_link/Inflammation]], [[notes/_link/Cardiovascular Disease]]
 - Suggested new entity notes to create: [[4-Hydroxynonenal]], [[Isoprostanes]], [[Acrolein]], [[Oxidized LDL]], [[Calpain]]

@@ -241,7 +241,7 @@ Once activated by [[Resveratrol|resveratrol]], [[SIRT1]] deacetylates several do
 	[[notes/_link/Superoxide Dismutase|Superoxide Dismutase 2 (SOD2)]]
 	**and**
 	Catalase
-	**) and induces [[notes/_link/Autophagy|autophagy]] genes, allowing cells to clear damaged proteins and organelles[3][9].
+	**) and induces [[Autophagy|autophagy]] genes, allowing cells to clear damaged proteins and organelles[3][9].
 
 #### κ\kappa
 
@@ -296,7 +296,7 @@ The [[Resveratrol|resveratrol]]-[[SIRT1]] axis has been studied extensively acro
 	eNOS
 	**(endothelial nitric oxide synthase). This promotes [[notes/_link/Nitric Oxide|nitric oxide]] production, resulting in vasodilation, improved blood pressure regulation, and reduced [[notes/_link/Reactive Oxygen Species|oxidative damage]] in vascular walls[11].
 - **Neuroprotection:**
-	In neurodegenerative models, [[Resveratrol|resveratrol]]-mediated [[SIRT1]] activation promotes the clearance of misfolded proteins (such as amyloid-beta and hyperphosphorylated [[notes/_link/Tau|tau]]) via [[notes/_link/Autophagy|autophagy]] and reduces neuroinflammation, protecting cognitive function[3][10].
+	In neurodegenerative models, [[Resveratrol|resveratrol]]-mediated [[SIRT1]] activation promotes the clearance of misfolded proteins (such as amyloid-beta and hyperphosphorylated [[notes/_link/Tau|tau]]) via [[Autophagy|autophagy]] and reduces neuroinflammation, protecting cognitive function[3][10].
 
 ---
 
@@ -349,7 +349,7 @@ I've decided to structure my thoughts around the sirtuins' cellular locations an
 
 **Focusing [[SIRT6]] Activators**
 
-I'm now zeroing in on [[SIRT6]] activators, especially [[UBCS039]] and [[MDL-801]], noting their allosteric binding to the hydrophobic pocket. It's fascinating how this binding impacts [[NAD+]] and substrate stabilization, driving [[notes/_link/Autophagy|autophagy]] and tumor suppression. I'm taking notes on [[SIRT6]]'s protective effects against organ injury, specifically the role in [[notes/_link/DNA Repair|DNA repair]] pathways.
+I'm now zeroing in on [[SIRT6]] activators, especially [[UBCS039]] and [[MDL-801]], noting their allosteric binding to the hydrophobic pocket. It's fascinating how this binding impacts [[NAD+]] and substrate stabilization, driving [[Autophagy|autophagy]] and tumor suppression. I'm taking notes on [[SIRT6]]'s protective effects against organ injury, specifically the role in [[notes/_link/DNA Repair|DNA repair]] pathways.
 
 **Exploring [[SIRT5]] and [[SIRT2]]**
 
@@ -506,7 +506,7 @@ Code
 #### Physiological Impact:
 
 - **Oncological Regulation:**
-	By suppressing glycolysis (the Warburg effect) and driving tumor cells toward [[notes/_link/Autophagy|autophagy]], [[SIRT6]] activators like [[UBCS039]] have demonstrated tumor-suppressive activity in several cancer cell lines[16][19].
+	By suppressing glycolysis (the Warburg effect) and driving tumor cells toward [[Autophagy|autophagy]], [[SIRT6]] activators like [[UBCS039]] have demonstrated tumor-suppressive activity in several cancer cell lines[16][19].
 - **Organ Protection:**
 	[[UBCS039]] has been evaluated in models of acute liver failure, where it significantly mitigated [[notes/_link/Reactive Oxygen Species|oxidative stress]] and inflammatory damage in a [[SIRT6]]-dependent manner[20][21].
 
@@ -745,6 +745,6 @@ I'm revisiting the blackberry and elderberry calculations. I've re-examined the 
 
 ## Linking Summary:
 
-- New links added: [[Resveratrol]], [[SIRT1]], [[Sirtuins]], [[NAD+]], [[PGC-1α]], [[FOXO3a]], [[notes/_link/AMPK|AMPK]], [[NAMPT]], [[PDE4]], [[cAMP]], [[Epac1]], [[notes/_link/Reactive Oxygen Species|oxidative stress]], [[notes/_link/Aging|aging]], [[notes/_link/Longevity|longevity]], [[notes/_link/Inflammation|inflammation]], [[notes/_link/Mitochondria|mitochondrial]], [[FOXO1]], [[notes/_link/Superoxide Dismutase|Superoxide Dismutase 2]], [[notes/_link/Autophagy|autophagy]], [[notes/_link/NFKB|NF-κB]], [[p53]], [[notes/_link/Apoptosis|apoptosis]], [[notes/_link/DNA Repair|DNA repair]], [[notes/_link/Caloric Restriction|caloric restriction]], [[notes/_link/Diabetes Mellitus|insulin sensitivity]], [[notes/_link/Cardiovascular Disease|cardiovascular]], [[notes/_link/Nitric Oxide|nitric oxide]], [[notes/_link/Neurodegenerative Diseases|neuroprotective]], [[notes/_link/Beta-amyloid|amyloid-beta]], [[notes/_link/Tau|tau]], [[SIRT2]], [[SIRT3]], [[SIRT4]], [[SIRT5]], [[SIRT6]], [[SIRT7]], [[ADP-ribosylation]], [[Honokiol]], [[Dihydromyricetin]], [[OSCP]], [[notes/_link/ATP|ATP Synthase]], [[UBCS039]], [[MDL-800]], [[MDL-801]], [[Cyanidin]], [[H3K9ac]], [[H3K56ac]], [[CPS1]], [[AGK2]], [[AK-7]], [[SirReal2]], [[notes/_link/Parkinson's Disease|Parkinson’s]], [[notes/_link/Huntington's Disease|Huntington’s]], [[Glutamate Dehydrogenase (GDH)]], [[H3K18]], [[notes/_link/Nicotinamide Mononucleotide|NMN]], [[notes/_link/Nicotinamide Riboside|NR]]
+- New links added: [[Resveratrol]], [[SIRT1]], [[Sirtuins]], [[NAD+]], [[PGC-1α]], [[FOXO3a]], [[notes/_link/AMPK|AMPK]], [[NAMPT]], [[PDE4]], [[cAMP]], [[Epac1]], [[notes/_link/Reactive Oxygen Species|oxidative stress]], [[notes/_link/Aging|aging]], [[notes/_link/Longevity|longevity]], [[notes/_link/Inflammation|inflammation]], [[notes/_link/Mitochondria|mitochondrial]], [[FOXO1]], [[notes/_link/Superoxide Dismutase|Superoxide Dismutase 2]], [[Autophagy|autophagy]], [[notes/_link/NFKB|NF-κB]], [[p53]], [[notes/_link/Apoptosis|apoptosis]], [[notes/_link/DNA Repair|DNA repair]], [[notes/_link/Caloric Restriction|caloric restriction]], [[notes/_link/Diabetes Mellitus|insulin sensitivity]], [[notes/_link/Cardiovascular Disease|cardiovascular]], [[notes/_link/Nitric Oxide|nitric oxide]], [[notes/_link/Neurodegenerative Diseases|neuroprotective]], [[notes/_link/Beta-amyloid|amyloid-beta]], [[notes/_link/Tau|tau]], [[SIRT2]], [[SIRT3]], [[SIRT4]], [[SIRT5]], [[SIRT6]], [[SIRT7]], [[ADP-ribosylation]], [[Honokiol]], [[Dihydromyricetin]], [[OSCP]], [[notes/_link/ATP|ATP Synthase]], [[UBCS039]], [[MDL-800]], [[MDL-801]], [[Cyanidin]], [[H3K9ac]], [[H3K56ac]], [[CPS1]], [[AGK2]], [[AK-7]], [[SirReal2]], [[notes/_link/Parkinson's Disease|Parkinson’s]], [[notes/_link/Huntington's Disease|Huntington’s]], [[Glutamate Dehydrogenase (GDH)]], [[H3K18]], [[notes/_link/Nicotinamide Mononucleotide|NMN]], [[notes/_link/Nicotinamide Riboside|NR]]
 - Suggested new entity notes to create: [[PDE4]], [[Epac1]], [[CaMKKβ]], [[OSCP]], [[MDL-800]], [[H3K9ac]], [[H3K56ac]], [[AGK2]], [[AK-7]], [[SirReal2]], [[H3K18]]
 - Strong connections to strengthen: [[Resveratrol]] ↔ [[SIRT1]], [[SIRT3]] ↔ [[Honokiol]], [[SIRT3]] ↔ [[Dihydromyricetin]], [[SIRT6]] ↔ [[UBCS039]], [[SIRT6]] ↔ [[MDL-801]], [[SIRT6]] ↔ [[Cyanidin]], [[SIRT5]] ↔ [[CPS1]]

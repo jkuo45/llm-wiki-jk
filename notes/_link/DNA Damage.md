@@ -1,3 +1,10 @@
+---
+type: entity
+category: biological_process
+entity_type: "Biological Process"
+created: 2026-05-29
+updated: 2026-05-29
+---
 # DNA Damage
 
 **DNA Damage** refers to physical or chemical alterations to the DNA molecule that can lead to mutations or cell death if not repaired.

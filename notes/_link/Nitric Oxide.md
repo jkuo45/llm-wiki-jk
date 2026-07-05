@@ -1,3 +1,10 @@
+---
+type: entity
+category: biological_molecule
+entity_type: "Biological Molecule"
+created: 2026-05-29
+updated: 2026-05-29
+---
 # Nitric Oxide
 
 **Nitric Oxide** ($NO^{\bullet}$) is a gaseous signaling molecule that plays critical roles in the cardiovascular, nervous, and immune systems. It is also a key player in the development of "nitrative stress."
@@ -7,7 +14,7 @@
 - **Neurotransmission:** Acts as a gaseous messenger in the brain.
 - **Immunity:** Produced by macrophages to help kill bacteria and tumor cells.
 
-## Interaction with [[notes/oxidative_stress/Oxidative Stress]]
+## Interaction with [[Oxidative Stress]]
 - **Peroxynitrite Formation:** Nitric oxide reacts nearly instantly with [[Superoxide anion]] to form [[Peroxynitrite]], a highly reactive and damaging oxidant.
 - **Endothelial Dysfunction:** In states of high oxidative stress, NO is "scavenged" by superoxide, reducing its bioavailability and leading to vascular disease.
 
@@ -22,6 +29,6 @@
 - [[Methemoglobin]]: Formed as a byproduct of nitric oxide metabolism.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Cardiovascular Disease]], [[Methemoglobin]], [[Methemoglobinemia]], [[Peroxynitrite]], [[Superoxide anion]], [[notes/oxidative_stress/Oxidative Stress]]
+- New links added: [[notes/_link/Cardiovascular Disease]], [[Methemoglobin]], [[Methemoglobinemia]], [[Peroxynitrite]], [[Superoxide anion]], [[Oxidative Stress]]
 - Suggested new entity notes to create: [[Nitric Oxide Synthase]], [[Endothelial Dysfunction]], [[Nitrative Stress]]
 - Strong connections to strengthen: [[notes/_link/Nitric Oxide]] ↔ [[Peroxynitrite]], [[notes/_link/Nitric Oxide]] ↔ [[Methemoglobin]]

@@ -1,3 +1,11 @@
+---
+type: entity
+category: Chemical Compound
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Nitrobenzene
 
 [[Nitrobenzene]] is an organic compound used in the production of aniline. It is highly toxic and can cause acquired [[Methemoglobinemia]] through skin absorption or inhalation.

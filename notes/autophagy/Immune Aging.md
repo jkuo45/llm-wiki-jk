@@ -1,3 +1,11 @@
+---
+aliases:
+- immunosenescence
+category: Medical Condition
+created: '2026-07-04'
+type: entity
+updated: '2026-07-04'
+---
 # Immune Aging
 
 [[Immune Aging]], also known as [[notes/_link/Immunosenescence]], refers to the gradual deterioration of the [[notes/_link/Immune System]] with age. It is characterized by a decline in both innate and adaptive immune responses, making older individuals more susceptible to infections, reduced vaccine efficacy, and a higher risk of chronic inflammatory diseases.

@@ -1,3 +1,11 @@
+---
+type: entity
+category: Enzyme
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Cathepsins
 
 Cathepsins are proteases typically found in lysosomes that can be released into the cytosol during lysosomal membrane permeabilization, leading to cell death.

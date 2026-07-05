@@ -3,6 +3,7 @@
 ## Project Maintenance:
 
 - Project timestamp format %d\_%B\_%Y %I:%M %p %Z (uppercase)
+  - Note: frontmatter dates use YYYY-MM-DD format; the timestamp format above is for README display, task outputs, and file naming only
 - Documents start with '[document]' or '\_document\_' in the file name.
   - Depending on task, they may or may not be included in context, counts.
 - 'notes' directory:
@@ -86,6 +87,12 @@
 
 When creating or updating a note, include the following frontmatter block. Refer to entity type 1 schema for categories.
 
+Frontmatter:
+
+- **Date format**: frontmatter `created:` / `updated:` must use `YYYY-MM-DD`, _not_ the project display format (`DD_MMMM_YYYY`).
+- **Quoting**: Prefer unquoted scalar values (`category: enzyme`, not `category: "enzyme"`). Use quotes only when required (e.g., values containing colons or special characters).
+- **Duplicate YAML keys**: No key should appear twice at the same indentation level.
+
 ---
 
 type: entity # [entity | document]
@@ -96,14 +103,13 @@ mesh: # Medical Subject Headings ID if available (e.g., D008164)
 uniprot: # UniProt ID for proteins (e.g., P04637)
 hgnc: # HGNC ID for genes (e.g., HGNC:11998)
 chebi: # ChEBI ID for chemicals/compounds
+created: YYYY-MM-DD
+updated: YYYY-MM-DD
 relations: # If applicable
 
 - predicate: # [associated_with | inhibits | activates | regulates | treats | causes]
   target: "[[Target Entity]]"
   sources: [] # DOIs, PMIDs, or reference document names
-
-created: YYYY-MM-DD
-updated: YYYY-MM-DD
 
 ---
 

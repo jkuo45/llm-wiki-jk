@@ -1,3 +1,11 @@
+---
+type: entity
+category: Medical Product
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Neffy
 
 **Neffy** is a brand of needle-free nasal spray delivery system for [[notes/_link/Epinephrine]].

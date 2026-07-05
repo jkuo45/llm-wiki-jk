@@ -1,3 +1,10 @@
+---
+type: entity
+category: biological_process
+entity_type: ""
+created: 2024-01-01
+updated: 2024-01-01
+---
 # Telomere Attrition
 
 Telomere attrition is the process of telomere shortening that occurs with each cell division, eventually leading to cellular senescence or apoptosis.

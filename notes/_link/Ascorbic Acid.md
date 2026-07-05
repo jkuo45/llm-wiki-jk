@@ -1,3 +1,10 @@
+---
+type: entity
+category: chemical
+entity_type: "Chemical Compound"
+created: 2026-05-29
+updated: 2026-05-29
+---
 # Ascorbic Acid
 
 **Ascorbic Acid**, also known as **Vitamin C**, is a potent antioxidant and essential nutrient found in various foods and used as a dietary supplement.
@@ -17,21 +24,32 @@ Ascorbic acid (Vitamin C) is a water-soluble vitamin found in various foods and 
 
 
 ## Linking Summary:
-- New links added: [[notes/oxidative_stress/Oxidative Stress]], [[Cancer]], [[Fenton reaction]]
+- New links added: [[Oxidative Stress]], [[Cancer]], [[Fenton reaction]]
 - Suggested new entity notes to create: [[Fenton reaction]]
-- Strong connections to strengthen: [[notes/_link/Ascorbic Acid]] ↔ [[notes/oxidative_stress/Oxidative Stress]]
+- Strong connections to strengthen: [[notes/_link/Ascorbic Acid]] ↔ [[Oxidative Stress]]
 
 ## Connections
 - [[notes/_link/Antioxidants]]
 - [[notes/_link/Epinephrine]]
-- [[notes/oxidative_stress/Oxidative Stress]]
+- [[Oxidative Stress]]
 - [[notes/_link/Glutathione]]
 
-- [[notes/oxidative_stress/Oxidative Stress]]
+- [[Oxidative Stress]]
 - [[Cancer]]
 
 
 ### Linking Summary:
-- New links added: [[Cancer]], [[Fenton reaction]], [[notes/oxidative_stress/Oxidative Stress]]
+- New links added: [[Cancer]], [[Fenton reaction]], [[Oxidative Stress]]
 - Suggested new entity notes to create: [[Fenton reaction]]
-- Strong connections to strengthen: [[notes/_link/Ascorbic Acid]] ↔ [[notes/oxidative_stress/Oxidative Stress]]
+- Strong connections to strengthen: [[notes/_link/Ascorbic Acid]] ↔ [[Oxidative Stress]]
+
+## Content from [[neuromelanin/Ascorbic acid.md]]
+
+# Ascorbic acid
+
+[[Ascorbic acid]] (Vitamin C) is an antioxidant that co-localizes with [[notes/_link/Dopamine]] in secretory vesicles to protect it from auto-oxidation.
+
+### Linking Summary:
+- New links added: [[notes/_link/Dopamine]], [[Oxidative Stress]].
+- Suggested new entity notes to create: [[Antioxidants]], [[Glutathione]].
+- Strong connections to strengthen: [[Ascorbic acid]] ↔ [[notes/_link/Dopamine]].

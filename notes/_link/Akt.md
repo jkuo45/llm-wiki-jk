@@ -1,3 +1,10 @@
+---
+type: entity
+category: protein
+entity_type: "Protein"
+created: 2026-05-29
+updated: 2026-05-29
+---
 # Akt
 
 **Akt** (also known as Protein Kinase B or PKB) is a serine/threonine-specific protein kinase that plays a key role in multiple cellular processes such as glucose metabolism, apoptosis, cell proliferation, transcription, and cell migration.
@@ -53,3 +60,26 @@ Akt, also known as Protein Kinase B, is a signaling kinase that phosphorylates [
 - New links added: [[TFEB]], [[14-3-3 protein]]
 - Suggested new entity notes to create: [[PI3K-Akt Signaling]]
 - Strong connections to strengthen: [[Akt]] ↔ [[TFEB]]
+
+## Content from [[adrenochrome/Akt.md]]
+
+# Akt
+
+Protein kinase B (Akt) is a serine/threonine-specific protein kinase that plays a key role in multiple cellular processes such as glucose metabolism, apoptosis, cell proliferation, transcription, and cell migration. In the context of muscle health, Akt is a central node downstream of PI3K that promotes protein synthesis by activating mTOR and inhibits protein degradation by phosphorylating and inactivating FoxO transcription factors.
+
+### Linking Summary:
+
+- New links added: [[PI3K]], [[Target of rapamycin]], [[FoxO]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[Akt]] ↔ [[Target of rapamycin]], [[Akt]] ↔ [[FoxO]]
+
+## Content from [[cancer/AKT.md]]
+
+# AKT
+
+AKT (also known as Protein Kinase B) is a serine/threonine kinase that plays a central role in promoting cell survival by inhibiting pro-apoptotic factors and activating pro-survival transcription factors.
+
+### Linking Summary:
+- New links added:
+- Suggested new entity notes to create:
+- Strong connections to strengthen:

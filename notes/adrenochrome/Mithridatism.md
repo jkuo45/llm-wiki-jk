@@ -1,3 +1,11 @@
+---
+type: entity
+category: Scientific Concept
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Mithridatism
 
 Mithridatism is the practice of protecting oneself against a poison by gradually self-administering non-lethal amounts. 

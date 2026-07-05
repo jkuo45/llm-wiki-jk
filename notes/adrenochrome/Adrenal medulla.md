@@ -1,3 +1,11 @@
+---
+type: entity
+category: Anatomy
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Adrenal medulla
 
 The inner part of the [[Adrenal gland]] that produces [[Catecholamines]], including [[notes/_link/Epinephrine]] and [[notes/_link/Norepinephrine]].

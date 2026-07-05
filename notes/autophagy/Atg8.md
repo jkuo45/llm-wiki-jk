@@ -1,3 +1,12 @@
+---
+aliases:
+- LC3
+- GABARAP family
+category: Protein
+created: '2026-07-04'
+type: entity
+updated: '2026-07-04'
+---
 # Atg8
 
 **Atg8** (Autophagy-related 8) is a ubiquitin-like protein that plays a central role in the formation and maturation of [[Autophagosome|autophagosomes]] during [[Autophagy]].
@@ -12,6 +21,10 @@
 
 ## Mechanism
 - Its processing and lipidation are mediated by a cascade involving [[Atg4]], [[Atg7]], and [[Atg3]].
+
+## Function
+
+Atg8 family ([[LC3]]/[[GABARAP]]/[[GATE-16]]) are ubiquitin-like proteins conjugated to PE on autophagosome membranes. They recruit cargo receptors (e.g., [[p62]]/[[NBR1]]).
 
 ### Linking Summary:
 - New links added: [[Autophagosome]], [[Autophagy]], [[LC3]], [[GABARAP]], [[GATE-16]], [[p62]], [[Lysosome]], [[Atg4]], [[Atg7]], [[Atg3]]

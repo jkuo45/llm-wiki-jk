@@ -1,6 +1,13 @@
+---
+type: entity
+category: medical_condition
+entity_type: "Medical Condition"
+created: 2026-05-29
+updated: 2026-05-29
+---
 # Parkinson's Disease
 
-Parkinson's disease is a long-term degenerative disorder of the central nervous system that mainly affects the motor system. It is characterized by the loss of [[notes/_link/Dopamine]]-producing neurons in the [[notes/_link/Substantia Nigra]]. Chronic [[notes/oxidative_stress/Oxidative Stress]] and mitochondrial dysfunction (often involving [[notes/_link/Mitochondria]]) are key contributors to its progression.
+Parkinson's disease is a long-term degenerative disorder of the central nervous system that mainly affects the motor system. It is characterized by the loss of [[notes/_link/Dopamine]]-producing neurons in the [[notes/_link/Substantia Nigra]]. Chronic [[Oxidative Stress]] and mitochondrial dysfunction (often involving [[notes/_link/Mitochondria]]) are key contributors to its progression.
 
 
 [[notes/_link/Parkinson's Disease]] is a progressive [[notes/_link/Neurodegenerative Diseases|neurodegenerative disorder]] primarily characterized by the loss of dopaminergic neurons in the substantia nigra, leading to classic motor impairments such as tremors, rigidity, and bradykinesia.
@@ -33,7 +40,7 @@ In terms of cell replacement therapy, iPSC-derived dopaminergic progenitors have
 
 - New links added: [[Mitophagy]], [[Autophagy]], [[Autophagic Flux]], [[Intermittent Fasting]], [[Ketogenic Diet]]
 - Suggested new entity notes to create: [[Mitophagy]], [[Autophagic Flux]], [[Intermittent Fasting]], [[Ketogenic Diet]]
-- Strong connections to strengthen: [[notes/_link/Parkinson's Disease]] ↔ [[Neurodegenerative Disease]], [[notes/_link/Parkinson's Disease]] ↔ [[Mitophagy]]
+- Strong connections to strengthen: [[notes/_link/Parkinson's Disease]] ↔ [[Neurodegenerative_Disease]], [[notes/_link/Parkinson's Disease]] ↔ [[Mitophagy]]
 
 - New links added: [[notes/_link/Dopamine]], [[COMT Inhibitors]], [[Levodopa]].
 
@@ -87,7 +94,7 @@ In the management of [[notes/_link/Parkinson's Disease]], [[COMT Inhibitors]] ar
 ### Linking Summary:
 - New links added: [[notes/_link/Aging]], [[Alpha-Synuclein]], [[Autophagic Flux]], [[Autophagy]], [[Bradykinesia]], [[COMT Inhibitors]], [[Disease Modeling]], [[notes/_link/Dopamine]], [[Induced Pluripotent Stem Cells]], [[Intermittent Fasting]], [[Ketogenic Diet]], [[L-DOPA]], [[Levodopa]], [[Lewy Bodies]], [[Mitophagy]], [[notes/_link/Neurodegenerative Diseases]], [[Neuromelanin]], [[Pathogenic Threshold of Neuromelanin]], [[Regenerative Medicine]], [[Substantia Nigra Pars Compacta]]
 - Suggested new entity notes to create: [[Autophagic Flux]], [[Dopamine Agonists]], [[notes/_link/Dopaminergic Neurons]], [[Dyskinesia]], [[Intermittent Fasting]], [[Ketogenic Diet]], [[Mitophagy]], [[Resting Tremor]], [[notes/_link/Substantia Nigra]]
-- Strong connections to strengthen: [[notes/_link/Parkinson's Disease]] <-> [[Induced Pluripotent Stem Cells]], [[notes/_link/Parkinson's Disease]] ↔ [[Mitophagy]], [[notes/_link/Parkinson's Disease]] ↔ [[Neurodegenerative Disease]], [[notes/_link/Parkinson's Disease]] ↔ [[notes/_link/Substantia Nigra]].
+- Strong connections to strengthen: [[notes/_link/Parkinson's Disease]] <-> [[Induced Pluripotent Stem Cells]], [[notes/_link/Parkinson's Disease]] ↔ [[Mitophagy]], [[notes/_link/Parkinson's Disease]] ↔ [[Neurodegenerative_Disease]], [[notes/_link/Parkinson's Disease]] ↔ [[notes/_link/Substantia Nigra]].
 
 
 ---
@@ -103,3 +110,14 @@ Parkinson's disease is a neurodegenerative disorder associated with [[Alpha-synu
 - New links added: [[Alpha-synuclein]], [[TFEB]]
 - Suggested new entity notes to create: [[Dopamine Neuron]]
 - Strong connections to strengthen: [[Parkinson's Disease]] ↔ [[TFEB]]
+
+## Content from [[adrenochrome/Parkinson's Disease.md]]
+
+# Parkinson's Disease
+
+Parkinson's disease (PD) is a long-term degenerative disorder of the central nervous system that mainly affects the motor system. Like other neurodegenerative diseases, its pathogenesis may involve [[Oxidative Stress]] and the accumulation of [[Advanced Glycation End Products|AGEs]], which can interfere with protein function and promote neuronal damage.
+
+### Linking Summary:
+- New links added: [[Oxidative Stress]], [[Advanced Glycation End Products]], [[Neurodegeneration]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[Advanced Glycation End Products]] ↔ [[Parkinson's Disease]]

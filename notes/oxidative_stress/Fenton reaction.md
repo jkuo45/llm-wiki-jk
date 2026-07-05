@@ -1,6 +1,6 @@
 ---
 type: entity
-category: "chemical_process"
+category: chemical_process
 aliases:
   - "Fenton chemistry"
   - "Fenton process"
@@ -28,7 +28,7 @@ The Fenton reaction is the primary mechanism by which [[notes/_link/Hydrogen Per
 
 ## Iron Homeostasis and Its Regulation
 
-Because of the destructive capacity of the Fenton reaction, cellular iron is stringently regulated. Free (labile) iron pools are maintained at extremely low concentrations (~1 μM in the cytosol) through sequestration by [[Ferritin]], the iron-storage protein that can accommodate up to 4,500 Fe³⁺ atoms per molecule. The transcription factor [[Iron Regulatory Protein]] (IRP) system post-transcriptionally controls ferritin and [[Transferrin receptor]] expression in response to iron availability. Under [[notes/oxidative_stress/Oxidative Stress]], [[notes/_link/NRF2]] induces ferritin heavy chain (FTH1) expression, which possesses ferroxidase activity that converts Fe²⁺ to Fe³⁺ for safe storage, thereby limiting Fenton chemistry. [[Heme oxygenase-1]] ([[HO-1]]), also NRF2-regulated, degrades pro-oxidant heme to release Fe²⁺ (which is then sequestered by ferritin), biliverdin/bilirubin (antioxidants), and carbon monoxide (anti-inflammatory).
+Because of the destructive capacity of the Fenton reaction, cellular iron is stringently regulated. Free (labile) iron pools are maintained at extremely low concentrations (~1 μM in the cytosol) through sequestration by [[Ferritin]], the iron-storage protein that can accommodate up to 4,500 Fe³⁺ atoms per molecule. The transcription factor [[Iron Regulatory Protein]] (IRP) system post-transcriptionally controls ferritin and [[Transferrin receptor]] expression in response to iron availability. Under [[Oxidative Stress]], [[notes/_link/NRF2]] induces ferritin heavy chain (FTH1) expression, which possesses ferroxidase activity that converts Fe²⁺ to Fe³⁺ for safe storage, thereby limiting Fenton chemistry. [[Heme oxygenase-1]] ([[HO-1]]), also NRF2-regulated, degrades pro-oxidant heme to release Fe²⁺ (which is then sequestered by ferritin), biliverdin/bilirubin (antioxidants), and carbon monoxide (anti-inflammatory).
 
 ## Clinical Relevance
 
@@ -46,7 +46,7 @@ Because of the destructive capacity of the Fenton reaction, cellular iron is str
 - [[notes/_link/Superoxide Dismutase]]: Removes superoxide, indirectly reducing Fe³⁺ reduction.
 - [[Ferritin]]: Iron storage protein that limits Fenton chemistry.
 - [[notes/_link/Ascorbic Acid]]: Can reduce Fe³⁺ to Fe²⁺, potentially promoting Fenton chemistry.
-- [[notes/oxidative_stress/Oxidative Stress]]: The Fenton reaction is a central amplification mechanism.
+- [[Oxidative Stress]]: The Fenton reaction is a central amplification mechanism.
 
 ### Linking Summary:
 - New links added: [[notes/_link/Hydrogen Peroxide]], [[Hydroxyl Radicals]]
@@ -54,6 +54,6 @@ Because of the destructive capacity of the Fenton reaction, cellular iron is str
 - Strong connections to strengthen: [[Fenton reaction]] ↔ [[Hydroxyl Radicals]]
 
 ### New Linking Summary (Added 2026-07-04):
-- New links added: [[notes/_link/Ascorbic Acid]], [[notes/_link/Superoxide Dismutase]], [[notes/oxidative_stress/Oxidative Stress]], [[Ferritin]], [[Transferrin receptor 1]], [[8-oxo-2'-deoxyguanosine]], [[notes/_link/DNA Damage]], [[notes/_link/NRF2]], [[HO-1]], [[notes/_link/Parkinson's Disease]], [[notes/_link/Substantia Nigra]], [[Neurodegeneration]], [[notes/_link/Cancer]], [[Ferroptosis]], [[Lipid Peroxidation]], [[Xanthine Oxidase]], [[notes/_link/Aging]]
+- New links added: [[notes/_link/Ascorbic Acid]], [[notes/_link/Superoxide Dismutase]], [[Oxidative Stress]], [[Ferritin]], [[Transferrin receptor 1]], [[8-oxo-2'-deoxyguanosine]], [[notes/_link/DNA Damage]], [[notes/_link/NRF2]], [[HO-1]], [[notes/_link/Parkinson's Disease]], [[notes/_link/Substantia Nigra]], [[Neurodegeneration]], [[Cancer]], [[Ferroptosis]], [[Lipid Peroxidation]], [[Xanthine Oxidase]], [[notes/_link/Aging]]
 - Suggested new entity notes to create: [[Ferritin]], [[Haber-Weiss Reaction]], [[HO-1]], [[Ferroptosis]], [[Iron Regulatory Protein]], [[Ischemia-Reperfusion Injury]]
 - Strong connections to strengthen: [[Fenton reaction]] ↔ [[Ferroptosis]], [[Fenton reaction]] ↔ [[notes/_link/Parkinson's Disease]]

@@ -1,3 +1,10 @@
+---
+type: entity
+category: other
+entity_type: "NA"
+created: 2024-01-01
+updated: 2024-01-01
+---
 # Innate Immunity
 
 [[Innate Immunity]] is the first line of defense against pathogens and foreign genetic material. In the context of [[Cellular Reprogramming]], it is often triggered as an immediate response to viral transduction or other methods of introducing exogenous genes.

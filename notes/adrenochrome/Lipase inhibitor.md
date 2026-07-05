@@ -1,3 +1,11 @@
+---
+type: entity
+category: Pharmacological Action
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Lipase inhibitor
 
 A lipase inhibitor is a substance that reduces the activity of lipases, enzymes that break down fats. [[Orlistat]] is a well-known lipase inhibitor that has also been shown to reduce the absorption of dietary [[Advanced Glycation End Products|AGEs]].

@@ -1,3 +1,11 @@
+---
+type: entity
+category: Receptor
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # AGER1
 
 Advanced Glycation End Product Receptor 1 (AGER1) is a cell surface receptor involved in the detoxification and counterregulation of [[Advanced Glycation End Products|AGEs]]. It facilitates the uptake and degradation of AGEs, thereby opposing the pro-oxidant and pro-inflammatory effects mediated by [[RAGE]].

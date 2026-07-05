@@ -1,3 +1,17 @@
+---
+type: entity
+category: chemical
+aliases:
+  - "Unfractionated Heparin"
+  - "UFH"
+tags:
+  - "sirtuins"
+  - "anticoagulant"
+  - "resveratrol"
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Heparin
 
 **Heparin** is a [[Glycosaminoglycan|glycosaminoglycan]] [[Anticoagulant|anticoagulant]] that potentiates [[Antithrombin III]] (ATIII) activity, leading to rapid inactivation of [[Thrombin]] (factor IIa) and factor Xa. It is administered intravenously or subcutaneously for the acute treatment and prevention of [[Thromboembolism|thromboembolic disorders]].

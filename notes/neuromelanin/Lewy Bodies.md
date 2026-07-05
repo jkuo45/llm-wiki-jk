@@ -1,3 +1,11 @@
+---
+type: entity
+category: medical_condition
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Lewy Bodies
 
 [[Lewy Bodies]] (LB) are abnormal aggregates of protein that develop inside nerve cells in [[notes/_link/Parkinson's Disease]] and other related disorders.

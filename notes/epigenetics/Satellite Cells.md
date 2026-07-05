@@ -1,3 +1,10 @@
+---
+type: entity
+category: other
+entity_type: "NA"
+created: 2024-01-01
+updated: 2024-01-01
+---
 # Satellite Cells
 
 Satellite cells (SCs), also known as muscle stem cells, are small mononuclear cells found in mature muscle. They are situated between the sarcolemma and the basement membrane of a muscle fiber.

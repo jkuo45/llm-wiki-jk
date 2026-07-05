@@ -1,3 +1,11 @@
+---
+type: entity
+category: Metabolite
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # L-lactate
 
 L-lactate is the physiological stereoisomer of lactate generated predominantly during anaerobic metabolism and glycolysis.

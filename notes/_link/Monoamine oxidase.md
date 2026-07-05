@@ -1,9 +1,16 @@
+---
+type: entity
+category: enzyme
+entity_type: "Enzyme"
+created: 2026-05-29
+updated: 2026-05-29
+---
 # Monoamine oxidase
 
 **[[Monoamine oxidase]]** (also known as **[[MAO]]**) is a family of enzymes that catalyze the oxidation of monoamines.
 
 ## Role in Neurotransmitter Metabolism
-[[Monoamine oxidase]] is responsible for the degradation of various [[Neurotransmitter|neurotransmitters]], including:
+[[Monoamine oxidase]] is responsible for the degradation of various [[Neurotransmitters|neurotransmitters]], including:
 - [[notes/_link/Dopamine]]
 - [[notes/_link/Epinephrine]]
 - [[notes/_link/Norepinephrine]]
@@ -19,4 +26,4 @@ Both [[MAO]] and [[COMT]] are involved in the metabolism of catecholamines. Whil
 
 ---
 ### Linking Summary:
-- New links added: [[Neurotransmitter]], [[notes/_link/Dopamine]], [[notes/_link/Epinephrine]], [[notes/_link/Norepinephrine]], [[Serotonin]], [[COMT]], [[MAO]].
+- New links added: [[Neurotransmitters]], [[notes/_link/Dopamine]], [[notes/_link/Epinephrine]], [[notes/_link/Norepinephrine]], [[Serotonin]], [[COMT]], [[MAO]].

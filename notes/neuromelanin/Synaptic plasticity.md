@@ -1,3 +1,11 @@
+---
+type: entity
+category: biological_process
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Synaptic plasticity
 
 [[Synaptic plasticity]] is the ability of synapses to strengthen or weaken over time in response to increases or decreases in their activity, a process that may be influenced by [[Neuromelanin]]-mediated storage and release of [[notes/_link/Dopamine]].

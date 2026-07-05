@@ -1,3 +1,11 @@
+---
+type: entity
+category: Gene
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # aak-2
 
 aak-2 is the *C. elegans* homolog of [[AMPK]], which acts as an energy sensor and is required for the longevity benefits of glucose restriction and [[Mitohormesis]].

@@ -1,3 +1,11 @@
+---
+type: entity
+category: Chemical Compound
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Semicarbazide
 
 Semicarbazide is a chemical compound with the formula $H_2NNHCONH_2$. It is often used in the form of its hydrochloride salt.

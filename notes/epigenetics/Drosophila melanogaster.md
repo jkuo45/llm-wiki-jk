@@ -1,3 +1,10 @@
+---
+type: entity
+category: model_organism
+entity_type: "Model Organism"
+created: 2024-01-01
+updated: 2024-01-01
+---
 # Drosophila melanogaster
 
 **Drosophila melanogaster** is a species of fly (the common fruit fly) and a widely used [[Model Organisms|Model Organism]] in genetics and developmental biology.

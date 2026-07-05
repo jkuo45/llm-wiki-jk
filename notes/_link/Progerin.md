@@ -1,3 +1,10 @@
+---
+type: entity
+category: protein
+entity_type: ""
+created: 2024-01-01
+updated: 2024-01-01
+---
 # Progerin
 
 **[[Progerin]]** is a truncated, farnesylated version of the [[notes/_link/Lamin A]] protein. It is the primary molecular driver of **[[notes/_link/Hutchinson-Gilford Progeria Syndrome]]** (HGPS).

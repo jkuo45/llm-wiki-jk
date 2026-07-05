@@ -1,3 +1,9 @@
+---
+category: Biological Process
+created: '2026-07-04'
+type: entity
+updated: '2026-07-04'
+---
 # Thymic Involution
 
 **Thymic Involution** is the shrinking of the thymus gland with [[notes/_link/Aging]], which leads to a significant reduction in the output of naïve [[T Cell|T cells]].
@@ -9,6 +15,10 @@
 
 ## Relationship with Autophagy
 - Strategies to rejuvenate the aged [[notes/_link/Immune System]] often focus on counteracting the effects of thymic involution through [[Autophagy Inducer|autophagy induction]].
+
+## Process
+
+Thymic involution is age-related thymus atrophy that reduces naïve T cell output. [[Autophagy]] decline contributes to thymic aging.
 
 ### Linking Summary:
 - New links added: [[notes/_link/Aging]], [[T Cell]], [[notes/_link/Immune System]], [[Immune Aging]], [[Adaptive Immune Response]], [[Autophagy Inducer]]

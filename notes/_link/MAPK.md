@@ -1,3 +1,10 @@
+---
+type: entity
+category: protein
+entity_type: "Protein"
+created: 2026-05-29
+updated: 2026-05-29
+---
 # MAPK
 
 The **[[notes/_link/MAPK]]** (Mitogen-Activated Protein Kinase) pathway is a series of proteins in the cell that communicates a signal from a receptor on the surface of the cell to the DNA in the nucleus. It is a critical regulator of cell growth, survival, and stress response.

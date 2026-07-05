@@ -5,7 +5,7 @@ This directory contains notes and research regarding [[Neuromelanin]], its biosy
 ## Maintenance
 
 - Last updated: 04_Jul_2026 12:00 PM PDT
-- Total count of entities: 112
+- Total count of entities: 116
 
 | entity                                       |   datetime updated   | entity_type_1           |
 | :------------------------------------------- | :------------------: | ----------------------- |
@@ -46,10 +46,14 @@ This directory contains notes and research regarding [[Neuromelanin]], its biosy
 | [[Dorsal Motor Nucleus of the Vagus]]        | 25_May_2026 05:23 PM | Anatomy                 |
 | [[Endoplasmic reticulum stress]]             | 11_Jun_2026 04:00 PM | Biological Process      |
 | [[Eumelanin]]                                | 31_May_2026 02:45 PM | Biological Molecule     |
+| [[Fenton Reaction]]                          | 04_Jul_2026 12:00 PM | Chemical Process        |
+| [[Flortaucipir]]                             | 04_Jul_2026 12:00 PM | Chemical Compound       |
+| [[GBA Gene]]                                 | 04_Jul_2026 12:00 PM | Gene                    |
 | [[Glial cells]]                              | 11_Jun_2026 04:00 PM | Cell Type               |
 | [[Glucocerebrosidase]]                       | 31_May_2026 03:00 PM | Enzyme                  |
 | [[Haloperidol]]                              | 11_Jun_2026 04:00 PM | Chemical Compound       |
 | [[HPP+]]                                     | 11_Jun_2026 04:00 PM | Toxin                   |
+| [[Hypokinesia]]                              | 04_Jul_2026 12:00 PM | Symptom                 |
 | [[Immunoglobulin G]]                         | 31_May_2026 02:45 PM | Antibody                |
 | [[Incidental Lewy Body Disease]]             | 25_May_2026 05:23 PM | Medical Condition       |
 | [[Indole]]                                   | 11_Jun_2026 04:00 PM | Chemical Class          |
@@ -90,7 +94,7 @@ This directory contains notes and research regarding [[Neuromelanin]], its biosy
 | [[Nigrostriatal System]]                     | 25_May_2026 05:23 PM | Anatomy                 |
 | [[notes/_link/Norepinephrine]]               | 31_May_2026 03:00 PM | Biological Molecule     |
 | [[Oculocutaneous Albinism]]                  | 04_Jul_2026 12:00 PM | Medical Condition       |
-| [[notes/oxidative_stress/Oxidative Stress]]             | 25_May_2026 05:23 PM | Scientific Concept      |
+| [[Oxidative Stress]]             | 25_May_2026 05:23 PM | Scientific Concept      |
 | [[Oxidation]]                                | 04_Jul_2026 12:00 PM | Chemical Process        |
 | [[notes/_link/p62|p62]]                      | 31_May_2026 02:45 PM | Protein                 |
 | [[Pale Bodies]]                              | 31_May_2026 02:45 PM | Medical Condition       |
@@ -105,7 +109,7 @@ This directory contains notes and research regarding [[Neuromelanin]], its biosy
 | [[Quinones]]                                 | 11_Jun_2026 04:00 PM | Chemical Class          |
 | [[Rapamycin]]                                | 31_May_2026 02:45 PM | Chemical Compound       |
 | [[notes/_link/Reactive Oxygen Species]]      | 31_May_2026 02:45 PM | Biological Molecule     |
-| [[Striatum]]                                 | 04_Jul_2026 12:00 PM | Anatomy                 |
+| [[Sirtuins]]                                 | 04_Jul_2026 12:00 PM | Anatomy                 |
 | [[Substantia Nigra Pars Compacta]]           | 25_May_2026 05:23 PM | Anatomy                 |
 | [[notes/_link/Substantia Nigra]]             | 25_May_2026 05:23 PM | Anatomy                 |
 | [[Synapse]]                                  | 04_Jul_2026 12:00 PM | Anatomy                 |

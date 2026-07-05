@@ -18,15 +18,15 @@ The [[PFC]] is essential for:
 - Attention and focus
 
 ## Neurotransmitter Regulation
-In the [[PFC]], the [[notes/_link/Dopamine Transporter]] ([[DAT]]) is less abundant than in the [[notes/_link/Striatum]]. Consequently, [[notes/_link/Dopamine]] clearance depends heavily on:
+In the [[PFC]], the [[notes/_link/Dopamine Transporter]] ([[DAT]]) is less abundant than in the [[Sirtuins]]. Consequently, [[notes/_link/Dopamine]] clearance depends heavily on:
 1. [[COMT]] ([[Catechol-O-methyltransferase]])
 2. [[Norepinephrine Transporter]] ([[NET]])
 
 ## Connections
 - [[Working Memory]]: A key cognitive process managed by the PFC.
 - [[COMT]]: The primary enzyme for dopamine degradation in this region.
-- [[notes/_link/Striatum]]: Works with the PFC in the cortico-basal ganglia loops.
+- [[Sirtuins]]: Works with the PFC in the cortico-basal ganglia loops.
 
 ---
 ### Linking Summary:
-- New links added: [[Working Memory]], [[Executive Function]], [[notes/_link/Dopamine Transporter]], [[DAT]], [[notes/_link/Striatum]], [[notes/_link/Dopamine]], [[COMT]], [[Catechol-O-methyltransferase]], [[Norepinephrine Transporter]], [[NET]].
+- New links added: [[Working Memory]], [[Executive Function]], [[notes/_link/Dopamine Transporter]], [[DAT]], [[Sirtuins]], [[notes/_link/Dopamine]], [[COMT]], [[Catechol-O-methyltransferase]], [[Norepinephrine Transporter]], [[NET]].

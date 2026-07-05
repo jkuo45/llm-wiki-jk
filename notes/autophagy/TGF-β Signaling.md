@@ -1,6 +1,19 @@
+---
+category: Scientific Concept
+created: '2026-07-04'
+type: entity
+updated: '2026-07-04'
+---
 # TGF-β Signaling
 
 Transforming growth factor-beta (TGF-β) signaling is a pathway involved in regulating many cellular processes; hyperactivation of its transducer [[SMAD3]] can inhibit [[TFEB]] expression.
+
+## Pathway
+
+TGF-β signaling proceeds through SMAD2/3 phosphorylation by the TβRI kinase, complex formation with [[SMAD4]], and nuclear translocation for target gene regulation.
+## Autophagy Crosstalk
+
+TGF-β induces autophagy via SMAD3 and [[ATF4]]. Conversely, autophagy regulates TGF-β by degrading key pathway components. This bidirectional crosstalk is important in fibrosis and cancer.
 
 ### Linking Summary
 

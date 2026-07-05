@@ -1,3 +1,9 @@
+---
+category: Biological Process
+created: '2026-07-04'
+type: entity
+updated: '2026-07-04'
+---
 # Autophagosome
 
 An **Autophagosome** is a double-membrane vesicle that forms the central structure of [[Macroautophagy]]. It sequester cytoplasmic cargo, such as damaged organelles or protein aggregates, and delivers them to the [[Lysosome]] for degradation.
@@ -11,6 +17,10 @@ An **Autophagosome** is a double-membrane vesicle that forms the central structu
 - Completed autophagosomes translocate toward the cell center.
 - They fuse with [[Lysosome|lysosomes]] (forming autophagolysosomes) or endosomes (forming amphisomes).
 - Fusion is promoted by Rab GTPases, SNARE proteins, and tethering adaptors.
+
+## Formation
+
+Autophagosomes are double-membrane vesicles that sequester cytoplasmic cargo for delivery to lysosomes. Nucleation requires the ULK1 and PI3K complexes.
 
 ### Linking Summary:
 - New links added: [[Macroautophagy]], [[Lysosome]], [[Atg]], [[ULK1]], [[notes/_link/PI3K]], [[Vps34]], [[LC3]]

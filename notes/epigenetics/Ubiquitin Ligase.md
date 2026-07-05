@@ -1,3 +1,10 @@
+---
+type: entity
+category: enzyme
+entity_type: "Enzyme"
+created: 2024-01-01
+updated: 2024-01-01
+---
 # Ubiquitin Ligase
 
 A [[Ubiquitin Ligase]] (also called an E3 ubiquitin ligase) is a protein that recruits an E2 ubiquitin-conjugating enzyme that has been loaded with ubiquitin, recognizes a protein substrate, and assists or directly catalyzes the transfer of ubiquitin from the E2 to the protein substrate.

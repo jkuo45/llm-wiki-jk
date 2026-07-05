@@ -1,3 +1,11 @@
+---
+aliases:
+- eukaryotic initiation factor 5A
+category: Protein
+created: '2026-07-04'
+type: entity
+updated: '2026-07-04'
+---
 # eIF5A
 
 **eIF5A** (Eukaryotic Translation Initiation Factor 5A) is a highly conserved translation factor.
@@ -9,6 +17,10 @@
 ## Function in Autophagy
 - Active eIF5A enables efficient biosynthesis of the [[Autophagy]] transcription factor [[TFEB]].
 - This pathway is critical for reversing [[B Cell]] [[notes/_link/Senescence]].
+
+## Function
+
+eIF5A is a translation elongation factor with the unique amino acid [[Hypusination|hypusine]]. It is essential for [[Autophagy]] by promoting translation of [[LC3]] and [[p62]].
 
 ### Linking Summary:
 - New links added: [[notes/_link/Spermidine]], [[Autophagy]], [[TFEB]], [[B Cell]], [[notes/_link/Senescence]]

@@ -11,7 +11,6 @@ author:
   - "[[Francesco Squadrito]]"
   - "[[Domenica Altavilla]]"
   - "[[Alessandra Bitto]]"
-published:
 created: 2026-05-09
 description: "Oxidative stress is a phenomenon caused by an imbalance between production and accumulation of oxygen reactive species (ROS) in cells and tissues and the ability of a biological system to detoxify these reactive products. ROS can play, and in fact ..."
 tags:
@@ -25,7 +24,7 @@ PMCID: PMC5551541 PMID: [28819546](https://pubmed.ncbi.nlm.nih.gov/28819546/)
 
 ## Abstract
 
-[[notes/oxidative_stress/Oxidative Stress]] is a phenomenon caused by an imbalance between production and accumulation of [[notes/_link/Reactive Oxygen Species|oxygen reactive species (ROS)]] in cells and tissues and the ability of a biological system to detoxify these reactive products. ROS can play, and in fact they do it, several physiological roles (i.e., cell signaling), and they are normally generated as by-products of oxygen metabolism; despite this, environmental stressors (i.e., UV, ionizing radiations, pollutants, and heavy metals) and xenobiotics (i.e., antiblastic drugs) contribute to greatly increase ROS production, therefore causing the imbalance that leads to cell and tissue damage (oxidative stress). Several antioxidants have been exploited in recent years for their actual or supposed beneficial effect against oxidative stress, such as [[notes/_link/Vitamin E]], [[Flavonoids]], and [[Polyphenols]]. While we tend to describe oxidative stress just as harmful for human body, it is true as well that it is exploited as a therapeutic approach to treat clinical conditions such as [[Cancer]], with a certain degree of clinical success. In this review, we will describe the most recent findings in the oxidative stress field, highlighting both its bad and good sides for human health.
+[[Oxidative Stress]] is a phenomenon caused by an imbalance between production and accumulation of [[notes/_link/Reactive Oxygen Species|oxygen reactive species (ROS)]] in cells and tissues and the ability of a biological system to detoxify these reactive products. ROS can play, and in fact they do it, several physiological roles (i.e., cell signaling), and they are normally generated as by-products of oxygen metabolism; despite this, environmental stressors (i.e., UV, ionizing radiations, pollutants, and heavy metals) and xenobiotics (i.e., antiblastic drugs) contribute to greatly increase ROS production, therefore causing the imbalance that leads to cell and tissue damage (oxidative stress). Several antioxidants have been exploited in recent years for their actual or supposed beneficial effect against oxidative stress, such as [[notes/_link/Vitamin E]], [[Flavonoids]], and [[Polyphenols]]. While we tend to describe oxidative stress just as harmful for human body, it is true as well that it is exploited as a therapeutic approach to treat clinical conditions such as [[Cancer]], with a certain degree of clinical success. In this review, we will describe the most recent findings in the oxidative stress field, highlighting both its bad and good sides for human health.
 
 ## 1\. Introduction
 
@@ -190,7 +189,7 @@ We can reach to the conclusion that oxidative stress, as phenomenon, although be
 ### Linking Summary:
 - New links added: [[Superoxide Radicals]], [[notes/_link/Hydrogen Peroxide]], [[Hydroxyl Radicals]], [[Singlet Oxygen]], [[Peroxynitrite]], [[NADPH Oxidase]], [[Xanthine Oxidase]], [[notes/_link/Glutathione]], [[Alpha-Lipoic Acid]], [[NF-kappa B]], [[notes/_link/Apoptosis]], [[notes/_link/Mitochondria]], [[notes/_link/Nitric Oxide]], [[8-oxo-2'-deoxyguanosine]], [[Base Excision Repair]], [[PPARγ]], [[LXRα]], [[ABCA1]], [[VCAM-1]], [[TNF-alpha]], [[IL-1b]], [[TGF-beta]], [[Uremia]], [[Proteinuria]], [[Renal Failure]], [[Malondialdehyde]], [[L-arginine]], [[Coenzyme Q10]], [[Genistein]]
 - Suggested new entity notes to create: [[8-oxo-2'-deoxyguanosine]], [[Base Excision Repair]], [[PPARγ]], [[LXRα]], [[ABCA1]], [[VCAM-1]], [[TNF-alpha]], [[IL-1b]], [[TGF-beta]], [[Uremia]], [[Proteinuria]], [[Renal Failure]], [[Malondialdehyde]], [[L-arginine]], [[Coenzyme Q10]], [[Genistein]], [[Lipid Peroxidation]], [[Endothelial Dysfunction]], [[Nitrative Stress]]
-- Strong connections to strengthen: [[notes/oxidative_stress/Oxidative Stress]] ↔ [[notes/_link/Reactive Oxygen Species]], [[notes/_link/Mitochondria]] ↔ [[notes/_link/Apoptosis]], [[notes/_link/Glutathione]] ↔ [[Glutathione Peroxidase]]
+- Strong connections to strengthen: [[Oxidative Stress]] ↔ [[notes/_link/Reactive Oxygen Species]], [[notes/_link/Mitochondria]] ↔ [[notes/_link/Apoptosis]], [[notes/_link/Glutathione]] ↔ [[Glutathione Peroxidase]]
 
 ## References
 

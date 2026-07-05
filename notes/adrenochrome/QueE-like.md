@@ -1,3 +1,11 @@
+---
+type: entity
+category: Enzyme
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # QueE-like
 
 QueE-like (7-carboxy-7-deazaguanine synthase-like) enzymes are a class of bacterial biocatalysts capable of degrading the stable crosslink [[Glucosepane]].

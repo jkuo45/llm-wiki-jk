@@ -1,6 +1,6 @@
 ---
 type: entity
-category: "enzyme"
+category: enzyme
 aliases:
   - "XO"
   - "xanthine oxidoreductase"
@@ -77,4 +77,4 @@ Recent evidence indicates that XO plays roles beyond purine catabolism. Under [[
 
 ### Updated Linking Summary:
 - New links added in this revision: [[notes/_link/Thioredoxin]], [[notes/_link/Glutathione]], [[notes/_link/Ischemia-reperfusion Injury]], [[notes/_link/Neutrophils]], [[notes/_link/Hypoxia]], [[notes/_link/Mitochondria]], [[notes/_link/Chronic Heart Failure]], [[notes/_link/Diabetes Mellitus]], [[Chronic Kidney Disease]], [[Gout]], [[notes/_link/Heart Failure]], [[notes/_link/Hypertension]], [[Allopurinol]], [[Febuxostat]], [[Uric Acid]], [[notes/_link/Inflammation]], [[Calpain]], [[Iron]], [[Fenton reaction]], [[Hydroxyl Radicals]], [[NADPH Oxidase]], [[Myocardial Infarction]], [[notes/_link/Nitric Oxide]], [[PPARγ]], [[Adipose Tissue]], [[notes/_link/Metabolic Syndromes]], [[notes/_link/Gut Microbiome]], [[Butyrate]], [[NLRP3 Inflammasome]], [[notes/_link/Atherosclerosis]], [[Flow-Mediated Dilation]]
-- Suggested new entity notes to create: [[Calpain]], [[Oxypurinol]], [[Topiroxostat]], [[NLRP3 Inflammasome]], [[Cytokine|Purine Metabolism]], [[Molybdenum Cofactor]], [[CARES Trial]], [[CONFIRMS Trial]]
+- Suggested new entity notes to create: [[Calpain]], [[Oxypurinol]], [[Topiroxostat]], [[NLRP3 Inflammasome]], [[Cytokines|Purine Metabolism]], [[Molybdenum Cofactor]], [[CARES Trial]], [[CONFIRMS Trial]]

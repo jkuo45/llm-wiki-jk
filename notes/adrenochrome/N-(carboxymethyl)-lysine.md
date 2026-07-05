@@ -1,3 +1,11 @@
+---
+type: entity
+category: Chemical Compound
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # N-(carboxymethyl)-lysine
 
 N-(carboxymethyl)-lysine (CML) is a well-characterized and major compound within the class of [[Advanced Glycation End Products]] (AGEs).

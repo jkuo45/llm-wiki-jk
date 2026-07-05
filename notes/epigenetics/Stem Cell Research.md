@@ -1,3 +1,10 @@
+---
+type: entity
+category: other
+entity_type: "NA"
+created: 2024-01-01
+updated: 2024-01-01
+---
 # Stem Cell Research
 
 [[Stem Cell Research]] is a field of biology that explores the properties of stem cells—cells with the unique ability to both self-renew and differentiate into specialized cell types. This research is fundamental to understanding developmental biology and the mechanisms of human disease.

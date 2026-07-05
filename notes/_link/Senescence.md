@@ -1,6 +1,13 @@
+---
+type: entity
+category: biological_process
+entity_type: "Biological Process"
+created: 2026-05-31
+updated: 2026-05-31
+---
 # Senescence
 
-[[notes/_link/Senescence]], or cellular senescence, is a state of permanent cell cycle arrest that occurs when cells are subjected to various stressors, including [[notes/_link/DNA Damage]], [[notes/oxidative_stress/Oxidative Stress]], or oncogene activation. It is characterized by a profound and dynamic remodeling of the [[Chromatin]] landscape and [[Epigenetics]] state.
+[[notes/_link/Senescence]], or cellular senescence, is a state of permanent cell cycle arrest that occurs when cells are subjected to various stressors, including [[notes/_link/DNA Damage]], [[Oxidative Stress]], or oncogene activation. It is characterized by a profound and dynamic remodeling of the [[Chromatin]] landscape and [[Epigenetics]] state.
 
 ## Hallmarks of Senescence
 1. **Permanent Cell-Cycle Arrest**: Mediated primarily by the [[notes/_link/p53]]/p21 and p16/RB pathways.

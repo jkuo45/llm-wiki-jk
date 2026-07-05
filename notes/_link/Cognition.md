@@ -1,3 +1,10 @@
+---
+type: entity
+category: biological_process
+entity_type: ""
+created: 2024-01-01
+updated: 2024-01-01
+---
 # Cognition
 
 Cognition refers to the mental action or process of acquiring knowledge and understanding through thought, experience, and the senses.

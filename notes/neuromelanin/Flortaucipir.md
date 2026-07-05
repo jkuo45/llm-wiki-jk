@@ -1,3 +1,11 @@
+---
+type: entity
+category: chemical_compound
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Flortaucipir
 
 Flortaucipir ([18F]-AV-1451) is a positron emission tomography (PET) tracer originally developed for imaging tau protein aggregates but also found to bind strongly to [[Neuromelanin]].

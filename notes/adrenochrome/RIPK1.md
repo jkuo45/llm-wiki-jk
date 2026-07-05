@@ -1,3 +1,11 @@
+---
+type: entity
+category: Enzyme
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # RIPK1
 
 RIPK1 (Receptor-interacting serine/threonine-protein kinase 1) is a signaling molecule involved in the [[MAVS]] complex and various pathways regulating cell death and inflammation.

@@ -1,3 +1,11 @@
+---
+type: entity
+category: imaging_technique
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Positron Emission Tomography
 
 Positron emission tomography (PET) is a functional imaging technique that uses radioactive substances known as radiotracers to visualize and measure changes in metabolic processes, and other physiological activities.

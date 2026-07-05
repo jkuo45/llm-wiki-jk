@@ -1,3 +1,11 @@
+---
+type: entity
+category: Scientific Theory
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Adrenochrome Hypothesis
 
 The **Adrenochrome Hypothesis** was a theory proposed in the 1950s by [[Abram Hoffer]] and [[Humphry Osmond]].
@@ -12,4 +20,4 @@ While the hypothesis triggered significant research into [[Catecholamines]] meta
 - [[Adrenochrome]]
 - [[notes/_link/Schizophrenia]]
 - [[notes/_link/Epinephrine]]
-- [[notes/oxidative_stress/Oxidative Stress]]
+- [[Oxidative Stress]]

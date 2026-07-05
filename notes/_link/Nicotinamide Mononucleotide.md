@@ -1,3 +1,10 @@
+---
+type: entity
+category: chemical
+entity_type: ""
+created: 2024-01-01
+updated: 2024-01-01
+---
 # Nicotinamide Mononucleotide
 
 **Nicotinamide Mononucleotide (NMN)** is a direct precursor to [[NAD+]] and a key intermediate in the biosynthesis of NAD+ in cells, used to enhance mitochondrial energy production and support longevity pathways.

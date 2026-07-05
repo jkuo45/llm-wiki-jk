@@ -1,3 +1,10 @@
+---
+type: entity
+category: other
+entity_type: "NA"
+created: 2024-01-01
+updated: 2024-01-01
+---
 # Olivopontocerebellar Atrophy
 
 Olivopontocerebellar Atrophy (OPCA) is the degeneration of neurons in the cerebellum, pons, and inferior olives. It is a form of [[notes/_link/Neurodegenerative Diseases|neurodegeneration]] that often presents with progressive ataxia and other motor impairments.

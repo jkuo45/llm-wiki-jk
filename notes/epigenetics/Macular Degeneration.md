@@ -1,3 +1,10 @@
+---
+type: entity
+category: other
+entity_type: "NA"
+created: 2024-01-01
+updated: 2024-01-01
+---
 # Macular Degeneration
 
 [[Macular Degeneration]], particularly Age-related Macular Degeneration (AMD), is a medical condition that results in blurred or no vision in the center of the visual field. It is caused by damage to the macula of the retina, often involving the deterioration of [[Retinal Pigment Epithelium|retinal pigment epithelium (RPE)]] cells.

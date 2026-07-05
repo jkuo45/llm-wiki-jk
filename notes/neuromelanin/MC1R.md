@@ -1,3 +1,11 @@
+---
+type: entity
+category: gene
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # MC1R
 
 [[MC1R]] (Melanocortin 1 Receptor) is a G protein-coupled receptor primarily known for its role in determining skin and hair color. Variants of the MC1R gene, particularly those associated with red hair and fair skin, have been linked to an increased risk of both [[Cutaneous Melanoma]] and [[notes/_link/Parkinson's Disease]]. Recent studies suggest that MC1R may also influence the survival of dopaminergic neurons.

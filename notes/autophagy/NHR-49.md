@@ -1,3 +1,11 @@
+---
+aliases:
+- C. elegans nuclear hormone receptor 49
+category: Gene
+created: '2026-07-04'
+type: entity
+updated: '2026-07-04'
+---
 # NHR-49
 
 **NHR-49** (Nuclear Hormone Receptor 49) is a key transcriptional regulator of fat metabolism in [[C. elegans]], often considered a functional orthologue of mammalian PPARα.
@@ -6,6 +14,10 @@
 - **Metabolic Control**: Regulates the expression of genes involved in fatty acid β-oxidation, transport, and desaturation.
 - **Nutrient Response**: NHR-49 is critical for the metabolic adaptation to [[Starvation]].
 - **Independence from MXL-3**: The transcriptional regulation of lysosomal lipolysis mediated by [[MXL-3]] and [[HLH-30]] is reported to function independently of NHR-49.
+
+## Function
+
+NHR-49 is the C. elegans ortholog of mammalian [[PPARα]]. It regulates [[Lipophagy]], [[Beta-Oxidation]], and lifespan extension downstream of [[LIPL-4]].
 
 ### Linking Summary:
 - New links added: [[C. elegans]], [[Starvation]], [[MXL-3]], [[HLH-30]]

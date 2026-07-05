@@ -1,0 +1,25 @@
+---
+type: entity
+category: chemical_compound
+aliases: [4-HNE, 4-hydroxy-2-nonenal, HNE]
+created: 2026-07-04
+updated: 2026-07-04
+---
+
+# 4-Hydroxynonenal
+
+**4-Hydroxynonenal (4-HNE, 4-hydroxy-2-nonenal)** is a highly reactive α,β-unsaturated aldehyde generated as a major end-product of n-6 polyunsaturated fatty acid ([[Lipid Peroxidation|peroxidation]]), particularly during the oxidative degradation of arachidonic acid and linoleic acid.
+
+## Formation & Chemistry
+
+4-HNE is produced through the peroxidation of n-6 PUFAs via a cascade of free radical-mediated reactions. Following hydrogen abstraction from bis-allylic methylene groups and subsequent peroxidation, β-scission of lipid hydroperoxides yields the 4-hydroxyalkenal structure. At physiological pH, 4-HNE exists in equilibrium between its aldehyde form and a cyclic hemiacetal. It is a bifunctional electrophile, possessing both an aldehyde group and a C=C double bond conjugated to the carbonyl, making it highly reactive toward nucleophilic residues in proteins, DNA, and phospholipids.
+
+## Biological Targets
+
+- **Proteins**: 4-HNE forms covalent Michael adducts with cysteine (Cys), histidine (His), and lysine (Lys) residues via the C=C bond, and Schiff bases via its aldehyde group. These modifications can inactivate enzymes (e.g., [[GLUT4]], [[GAPDH]], [[Na⁺/K⁺-ATPase]]), alter receptor function, and trigger protein aggregation. 4-HNE modification of [[Tau protein]] promotes Tau oligomerization and is implicated in [[notes/_link/Alzheimer's Disease]].
+- **DNA**: 4-HNE forms etheno-DNA adducts (e.g., 1,N⁶-etheno-dA, 3,N⁴-etheno-dC), which are mutagenic and linked to genomic instability and [[Cancer]].
+- **Signaling**: At low concentrations, 4-HNE acts as a signaling molecule, activating stress-responsive transcription factors including [[notes/_link/NRF2]] (via KEAP1 modification), [[NF-kappa B]], and [[AP-1]], and inducing phase II detoxification enzymes as part of a hormetic adaptive response.
+
+## Clinical Relevance
+
+Elevated 4-HNE levels are detected in [[Oxidative Stress|oxidative stress]]-associated diseases: [[notes/_link/Cardiovascular Disease|cardiovascular disease]] (atherosclerotic plaques), [[Neurodegeneration|neurodegenerative diseases]] ([[notes/_link/Alzheimer's Disease]], [[notes/_link/Parkinson's Disease]], [[notes/_link/Amyotrophic Lateral Sclerosis]]), [[notes/_link/Diabetes Mellitus]], [[Chronic Obstructive Pulmonary Disease|COPD]], [[Rheumatoid Arthritis]], and [[Multiple Sclerosis]]. 4-HNE is measured as a biomarker of lipid peroxidation in plasma, CSF, and tissue samples using HPLC, LC-MS/MS, or ELISA against protein-conjugated 4-HNE.

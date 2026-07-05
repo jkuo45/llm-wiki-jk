@@ -1,3 +1,10 @@
+---
+type: entity
+category: model_organism
+entity_type: "Model Organism"
+created: 2024-01-01
+updated: 2024-01-01
+---
 # Model Organisms
 
 **Model organisms** are non-human species used in biomedical research to understand biological processes, such as aging, in a controlled environment.

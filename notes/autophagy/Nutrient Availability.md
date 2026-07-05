@@ -1,3 +1,9 @@
+---
+category: Scientific Concept
+created: '2026-07-04'
+type: entity
+updated: '2026-07-04'
+---
 # Nutrient Availability
 
 **Nutrient Availability** refers to the presence and concentration of essential nutrients (e.g., glucose, amino acids, lipids) in the cellular environment, which dictates metabolic priorities and autophagic activity.

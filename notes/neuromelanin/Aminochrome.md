@@ -1,3 +1,11 @@
+---
+type: entity
+category: chemical_compound
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Aminochrome
 
 [[Aminochrome]] is an intermediate product in the oxidation of [[notes/_link/Dopamine]] that can form neurotoxic oligomers with [[Alpha-Synuclein]] or polymerize to form [[Neuromelanin]].

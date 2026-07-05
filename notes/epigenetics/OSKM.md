@@ -1,3 +1,10 @@
+---
+type: entity
+category: other
+entity_type: "NA"
+created: 2024-01-01
+updated: 2024-01-01
+---
 # OSKM
 
 [[OSKM]] refers to the combination of the four core transcription factors used to induce pluripotency in somatic cells: [[Oct4]], [[Sox2]], [[Klf4]], and [[c-Myc]]. These are also known as the [[Yamanaka Factors]].

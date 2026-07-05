@@ -1,3 +1,11 @@
+---
+type: entity
+category: Protein
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # MAVS
 
 MAVS (Mitochondrial Antiviral Signaling protein) is an outer mitochondrial membrane protein that plays a central role in the innate immune response to viral infection.

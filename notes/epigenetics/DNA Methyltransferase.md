@@ -1,3 +1,10 @@
+---
+type: entity
+category: enzyme
+entity_type: "Enzyme"
+created: 2024-01-01
+updated: 2024-01-01
+---
 # DNA Methyltransferase
 
 **[[DNA Methyltransferase]] (DNMT)** is a family of enzymes responsible for catalyzing the transfer of a methyl group from S-adenosyl-L-methionine (SAM) to the C5 position of cytosine residues, primarily in [[CpG Island|CpG dinucleotides]]. This process, known as [[DNA Methylation]], is a cornerstone of epigenetic regulation.

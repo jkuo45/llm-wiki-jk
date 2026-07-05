@@ -1,3 +1,10 @@
+---
+type: entity
+category: other
+entity_type: "NA"
+created: 2024-01-01
+updated: 2024-01-01
+---
 # Fibroblasts
 
 [[Fibroblasts]] are a versatile type of cell that synthesizes the [[ECM|extracellular matrix]] and collagen, forming the structural framework (stroma) for animal tissues. They are the most common cells of connective tissue and play a critical role in wound healing.

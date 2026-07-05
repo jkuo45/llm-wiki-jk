@@ -1,6 +1,19 @@
+---
+category: Chemical Compound
+created: '2026-07-04'
+type: entity
+updated: '2026-07-04'
+---
 # Torin1
 
 Torin1 is a potent inhibitor of [[mTORC1]] and mTORC2 that induces the nuclear translocation of [[TFEB]] by blocking its inhibitory phosphorylation.
+
+## Pharmacology
+
+Torin1 is a potent, selective [[mTORC1]] and [[mTORC2]] inhibitor (ATP-competitive). It is a research tool for studying autophagy and mTOR signaling.
+## Autophagy Induction
+
+Torin1 robustly induces [[Autophagy]] by inhibiting mTORC1, leading to [[ULK1]] activation and [[TFEB]] nuclear translocation. It is widely used to study the CLEAR network and mTOR-dependent autophagy.
 
 ### Linking Summary
 

@@ -1,3 +1,11 @@
+---
+type: entity
+category: biological_molecule
+entity_type: ""
+created: 2024-01-01
+updated: 2024-01-01
+---
+
 # Heterochromatin
 
 **[[Heterochromatin]]** is a tightly packed form of DNA or condensed [[Chromatin]], which is typically transcriptionally inactive. It plays a vital role in maintaining the structure of chromosomes and protecting the genome from instability.
@@ -21,7 +29,7 @@ Heterochromatin is typically marked by specific [[Histone Modification|histone m
 - **[[Genomic Instability]]**: A consequence of heterochromatin loss.
 - **[[notes/_link/Aging]]**: Aging is characterized by a global reduction in heterochromatin levels.
 
-### Linking Summary:
-- New links added: [[Heterochromatin]], [[Chromatin]], [[Transposable Elements]], [[LINE-1]], [[Genomic Instability]], [[Epigenetics]], [[notes/_link/Aging]], [[Euchromatin]], [[Histone Modification]], [[Histone Deacetylase]], [[Histone Methyltransferase]]
-- Suggested new entity notes to create: [[Constitutive Heterochromatin]], [[Facultative Heterochromatin]], [[H3K9me3]]
-- Strong connections to strengthen: [[Heterochromatin]] ↔ [[notes/_link/Aging]], [[Heterochromatin]] ↔ [[Euchromatin]]
+## Linking Summary
+- New links added: [[HP1]], [[H3K9me3]], [[SAHF]], [[Chromatin]]
+- Suggested new entity notes to create: [[HP1]], [[Chromatin]]
+- Strong connections to strengthen: [[Heterochromatin]] ↔ [[SAHF]]

@@ -1,3 +1,11 @@
+---
+type: entity
+category: biological_process
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Microgliosis
 
 [[Microgliosis]] refers to the activation and proliferation of microglia, the resident macrophages and primary immune cells of the central nervous system.

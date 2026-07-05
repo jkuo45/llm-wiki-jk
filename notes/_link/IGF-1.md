@@ -1,3 +1,10 @@
+---
+type: entity
+category: protein
+entity_type: ""
+created: 2024-01-01
+updated: 2024-01-01
+---
 # IGF-1
 
 **[[IGF-1]]** (Insulin-like Growth Factor 1) is a hormone similar in molecular structure to insulin. It plays a central role in childhood growth and continues to have anabolic effects in adults. In the context of [[notes/_link/Aging]], the IGF-1 signaling pathway is one of the most important and well-conserved regulators of lifespan.
@@ -19,9 +26,9 @@ The expression of IGF-1 and its downstream components is subject to epigenetic c
 - **[[notes/_link/Aging]]**: IGF-1 is a primary regulator of the rate of aging across species.
 - **[[notes/_link/mTOR]]**: A major downstream effector of IGF-1 signaling.
 - **[[notes/_link/Caloric Restriction]]**: CR extends lifespan in part by lowering systemic IGF-1 levels.
-- [[notes/sirtuins/SIRT1]]: Interacts with the IGF-1 pathway to modulate stress resistance.
+- [[SIRT1]]: Interacts with the IGF-1 pathway to modulate stress resistance.
 
 ### Linking Summary:
-- New links added: [[IGF-1]], [[notes/_link/Aging]], [[Model Organisms]], [[Caenorhabditis elegans]], [[Drosophila melanogaster]], [[notes/_link/mTOR]], [[Autophagy]], [[notes/_link/AMPK]], [[DNA Methylation]], [[MicroRNA]], [[notes/_link/Caloric Restriction]], [[notes/sirtuins/SIRT1]]
+- New links added: [[IGF-1]], [[notes/_link/Aging]], [[Model Organisms]], [[Caenorhabditis elegans]], [[Drosophila melanogaster]], [[notes/_link/mTOR]], [[Autophagy]], [[notes/_link/AMPK]], [[DNA Methylation]], [[MicroRNA]], [[notes/_link/Caloric Restriction]], [[SIRT1]]
 - Suggested new entity notes to create: [[Somatotropic Axis]], [[Growth Hormone]], [[FoxO Transcription Factors]]
 - Strong connections to strengthen: [[IGF-1]] ↔ [[notes/_link/Aging]], [[IGF-1]] ↔ [[notes/_link/mTOR]]

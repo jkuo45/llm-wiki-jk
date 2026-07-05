@@ -1,3 +1,11 @@
+---
+type: entity
+category: Gene
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # ATF5
 
 ATF5 (Activating Transcription Factor 5) is a mammalian transcription factor that is functionally analogous to the *C. elegans* [[ATFS-1]] in mediating the [[Mitochondrial Unfolded Protein Response]] (UPRmt).

@@ -1,3 +1,10 @@
+---
+type: entity
+category: other
+entity_type: "NA"
+created: 2024-01-01
+updated: 2024-01-01
+---
 # Cellular Reprogramming
 
 Cellular reprogramming is the process of converting one specific cell type into another, typically by resetting its epigenetic state to a more primitive or pluripotent condition. The most famous example is the induction of [[Induced Pluripotent Stem Cells]] (iPSCs) from [[Somatic Cells]] using the [[Yamanaka Factors]].

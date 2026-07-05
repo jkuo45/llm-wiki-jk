@@ -1,3 +1,10 @@
+---
+type: entity
+category: chemical
+entity_type: "Chemical Class"
+created: 2024-01-01
+updated: 2024-01-01
+---
 # Phytochemicals
 Phytochemicals are a diverse group of secondary metabolites produced by plants, often synthesized in response to environmental stressors (such as UV radiation, drought, or pathogens), and which can exert various biological effects when consumed by animals.
 

@@ -155,7 +155,7 @@ Plants produce a vast array of secondary metabolites in response to abiotic and 
 - **Target Pathways in Animal Cells:**
 	  
 	These molecules interact with highly conserved survival and longevity pathways that regulate cellular maintenance over reproduction:
-	- **[[Sirtuins|sirtuins]] (specifically [[notes/sirtuins/SIRT1|SIRT1]]):**
+	- **[[Sirtuins|sirtuins]] (specifically [[SIRT1|SIRT1]]):**
 		Enzymes that play a central role in DNA repair, mitochondrial biogenesis, and metabolic regulation\[[
 		3
 		](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQH8XWLQPuXd_Ply3wRRpqo7MSa9WxlAoVCW7MvSGlqP6D6cStsxXCL4onMC25swsuJiw26OU09YQXFL8WMCDRMfUTH-oh6LIL9ncze3M_i5xliUncArfdC566RxRqT-5A%3D%3D)\]\[[
@@ -266,6 +266,6 @@ Display of Search Suggestions is required when using Grounding with Google Searc
 - Compounds like [[Resveratrol|Resveratrol 1]], [[notes/_link/Quercetin|Quercetin]], [[Curcumin]], and [[notes/_link/EGCG|EGCG]] act as xenohormetic triggers.
 
 ### Linking Summary:
-- New links added: [[Xenohormesis]], [[Hormesis]], [[Phytochemicals]], [[Nrf2]], [[Resveratrol|Resveratrol 1]], [[notes/_link/Quercetin|Quercetin]], [[Curcumin]], [[notes/_link/EGCG|EGCG]], [[Sirtuins|Sirtuin]], [[notes/sirtuins/SIRT1|SIRT1]], [[notes/_link/AMPK|AMPK]], [[notes/_link/Caloric Restriction|caloric restriction]]
+- New links added: [[Xenohormesis]], [[Hormesis]], [[Phytochemicals]], [[Nrf2]], [[Resveratrol|Resveratrol 1]], [[notes/_link/Quercetin|Quercetin]], [[Curcumin]], [[notes/_link/EGCG|EGCG]], [[Sirtuins|Sirtuin]], [[SIRT1|SIRT1]], [[notes/_link/AMPK|AMPK]], [[notes/_link/Caloric Restriction|caloric restriction]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Xenohormesis]] <-> [[Hormesis]]

@@ -1,3 +1,10 @@
+---
+type: entity
+category: enzyme
+entity_type: "Enzyme"
+created: 2024-01-01
+updated: 2024-01-01
+---
 # DNMT1
 
 **[[DNMT1]]** (DNA Methyltransferase 1) is the primary enzyme responsible for maintaining [[DNA Methylation]] patterns during the process of [[DNA Replication]]. It is often referred to as the "maintenance" methyltransferase because it ensures that epigenetic information is inherited by daughter cells after division.

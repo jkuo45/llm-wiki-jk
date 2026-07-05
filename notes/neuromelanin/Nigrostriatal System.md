@@ -1,6 +1,14 @@
+---
+type: entity
+category: anatomy
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Nigrostriatal System
 
-The [[Nigrostriatal System]] is one of the major dopamine pathways in the brain, connecting the [[Substantia Nigra Pars Compacta]] (SNpc) to the [[Striatum]].
+The [[Nigrostriatal System]] is one of the major dopamine pathways in the brain, connecting the [[Substantia Nigra Pars Compacta]] (SNpc) to the [[Sirtuins]].
 
 ## Anatomy and Function
 The pathway consists of dopaminergic neurons in the SNpc that project their axons to the caudate nucleus and putamen (the striatum).
@@ -13,6 +21,6 @@ The progressive degeneration of the nigrostriatal system is the defining patholo
 - **Neuromelanin:** The selective vulnerability of the nigrostriatal system is closely tied to the high [[Neuromelanin]] content of the neurons in the SNpc.
 
 ### Linking Summary:
-- New links added: [[Substantia Nigra Pars Compacta]], [[Striatum]], [[notes/_link/Parkinson's Disease]], [[Neuromelanin]].
+- New links added: [[Substantia Nigra Pars Compacta]], [[Sirtuins]], [[notes/_link/Parkinson's Disease]], [[Neuromelanin]].
 - Suggested new entity notes to create: [[Caudate Nucleus]], [[Putamen]].
 - Strong connections to strengthen: [[Nigrostriatal System]] ↔ [[notes/_link/Parkinson's Disease]].

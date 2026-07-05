@@ -101,4 +101,4 @@ SIRT4 (Sirtuin 4) is a NAD+-dependent mitochondrial sirtuin involved in mitochon
 
 - New links added: [[NAD+]], [[Sirtuins]], [[Mitochondria]]
 - Suggested new entity notes to create:
-- Strong connections to strengthen: [[notes/_link/SIRT4]] ↔ [[Mitochondria]]
+- Strong connections to strengthen: [[SIRT4]] ↔ [[Mitochondria]]

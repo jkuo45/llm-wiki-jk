@@ -1,3 +1,10 @@
+---
+type: entity
+category: protein
+entity_type: "Protein"
+created: 2024-01-01
+updated: 2024-01-01
+---
 # Cyclin
 
 [[Cyclin|Cyclins]] are a family of proteins that control the progression of a cell through the [[Cell Cycle]] by activating [[Cyclin-Dependent Kinase|cyclin-dependent kinase]] ([[CDK|CDK]]) enzymes or group of enzymes required for synthesis of cell cycle.

@@ -1,3 +1,10 @@
+---
+type: entity
+category: pharmacological_action
+entity_type: ""
+created: 2024-01-01
+updated: 2024-01-01
+---
 # Senolytics
 
 **Senolytics** are a class of small molecules that selectively induce death in senescent cells.

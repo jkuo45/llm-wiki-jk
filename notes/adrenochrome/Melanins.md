@@ -1,3 +1,11 @@
+---
+type: entity
+category: Chemical Class
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Melanins
 
 **Melanins** are a broad group of natural pigments found in most organisms.
@@ -8,4 +16,4 @@
 ## Connections
 - [[Adrenochrome]]
 - [[Neuromelanin]]
-- [[notes/oxidative_stress/Oxidative Stress]]
+- [[Oxidative Stress]]

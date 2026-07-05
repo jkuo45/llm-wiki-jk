@@ -1,3 +1,10 @@
+---
+type: entity
+category: enzyme
+entity_type: "Enzyme"
+created: 2026-05-29
+updated: 2026-05-29
+---
 # Superoxide Dismutase
 
 **Superoxide Dismutase** (SOD) is an enzyme that alternately catalyzes the dismutation of the [[Superoxide anion]] (O₂⁻) radical into ordinary molecular oxygen (O₂) and [[notes/_link/Hydrogen Peroxide]] (H₂O₂).
@@ -16,21 +23,21 @@ It serves as a key component of the antioxidant defense system, protecting cells
 
 
 ## Linking Summary:
-- New links added: [[Superoxide Radicals]], [[notes/_link/Hydrogen Peroxide]], [[notes/_link/Reactive Oxygen Species]], [[notes/oxidative_stress/Oxidative Stress]]
+- New links added: [[Superoxide Radicals]], [[notes/_link/Hydrogen Peroxide]], [[notes/_link/Reactive Oxygen Species]], [[Oxidative Stress]]
 - Suggested new entity notes to create: [[Antioxidant defense system]]
 - Strong connections to strengthen: [[notes/_link/Superoxide Dismutase]] ↔ [[Superoxide Radicals]]
 
 ## Connections
 - [[Superoxide anion]]
 - [[notes/_link/Hydrogen Peroxide]]
-- [[notes/oxidative_stress/Oxidative Stress]]
+- [[Oxidative Stress]]
 - [[notes/_link/Antioxidants]]
 
 - [[notes/_link/Reactive Oxygen Species]]
-- [[notes/oxidative_stress/Oxidative Stress]]
+- [[Oxidative Stress]]
 
 
 ### Linking Summary:
-- New links added: [[notes/_link/Hydrogen Peroxide]], [[notes/oxidative_stress/Oxidative Stress]], [[notes/_link/Reactive Oxygen Species]], [[Superoxide Radicals]]
+- New links added: [[notes/_link/Hydrogen Peroxide]], [[Oxidative Stress]], [[notes/_link/Reactive Oxygen Species]], [[Superoxide Radicals]]
 - Suggested new entity notes to create: [[Antioxidant defense system]]
 - Strong connections to strengthen: [[notes/_link/Superoxide Dismutase]] ↔ [[Superoxide Radicals]]

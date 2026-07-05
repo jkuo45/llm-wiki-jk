@@ -1,3 +1,11 @@
+---
+type: entity
+category: anatomy
+entity_type: "Anatomy"
+created: 2026-05-29
+updated: 2026-05-29
+---
+
 # Mitochondria
 
 Mitochondria are the primary energy-producing organelles in eukaryotic cells, which are selectively degraded via [[Mitophagy]] to maintain cellular health and prevent oxidative stress.
@@ -17,24 +25,13 @@ Mitochondria are double-membrane-bound organelles found in most eukaryotic organ
 Mitochondria possess their own defense systems, including:
 - **SOD2 (Mn-SOD):** Specifically neutralizes superoxide within the mitochondrial matrix.
 - **Glutathione System:** Mitochondria maintain a high concentration of [[notes/_link/Glutathione]] for local peroxide neutralization.
-
-
-## Linking Summary:
-- New links added: [[notes/_link/Reactive Oxygen Species]], [[notes/_link/Apoptosis]], [[notes/_link/Glutathione]], [[notes/oxidative_stress/Oxidative Stress]], [[Superoxide Radicals]]
-- Suggested new entity notes to create: [[Electron Transport Chain]], [[Complex I]], [[Complex III]], [[Mitochondrial DNA]]
-- Strong connections to strengthen: [[notes/_link/Mitochondria]] ↔ [[notes/oxidative_stress/Oxidative Stress]]
-
-- New links added: [[Mitophagy]]
-- Suggested new entity notes to create: [[Autophagy]], [[notes/_link/Reactive Oxygen Species]]
-- Strong connections to strengthen: [[notes/_link/Mitochondria]] ↔ [[Metabolism]]
-
 ## Connections
-- [[notes/oxidative_stress/Oxidative Stress]]: Mitochondria are the central hub for both the generation and the impact of oxidative stress.
+- [[Oxidative Stress]]: Mitochondria are the central hub for both the generation and the impact of oxidative stress.
 - [[Superoxide Radicals]]: The main ROS byproduct of mitochondrial respiration.
 - [[notes/_link/Apoptosis]]: Triggered by mitochondrial membrane permeabilization.
 
-
 ### Linking Summary:
-- New links added: [[notes/_link/Apoptosis]], [[notes/_link/Glutathione]], [[Mitophagy]], [[Superoxide Radicals]], [[notes/oxidative_stress/Oxidative Stress]], [[notes/_link/Reactive Oxygen Species]]
-- Suggested new entity notes to create: [[Autophagy]], [[Complex I]], [[Complex III]], [[Electron Transport Chain]], [[Mitochondrial DNA]], [[notes/_link/Reactive Oxygen Species]]
-- Strong connections to strengthen: [[notes/_link/Mitochondria]] ↔ [[Metabolism]], [[notes/_link/Mitochondria]] ↔ [[notes/oxidative_stress/Oxidative Stress]]
+
+- New links added: [[ATP]], [[Metabolism]], [[Mitophagy]]
+- Suggested new entity notes to create: [[Oxidative Phosphorylation]]
+- Strong connections to strengthen: [[Mitochondria]] ↔ [[notes/_link/Aging]]

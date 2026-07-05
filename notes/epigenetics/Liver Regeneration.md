@@ -1,3 +1,10 @@
+---
+type: entity
+category: biological_process
+entity_type: "Biological Process"
+created: 2024-01-01
+updated: 2024-01-01
+---
 # Liver Regeneration
 
 [[Liver Regeneration]] is the process by which the liver is able to replace lost liver tissue from the remaining tissue, primarily through the activation of quiescent [[Hepatocyte|hepatocytes]].

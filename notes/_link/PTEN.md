@@ -1,3 +1,10 @@
+---
+type: entity
+category: enzyme
+entity_type: ""
+created: 2024-01-01
+updated: 2024-01-01
+---
 # PTEN
 
 **[[PTEN]]** (Phosphatase and Tensin homolog) is a powerful tumor suppressor protein that is found in almost all tissues in the body. It acts as a "brake" on cellular growth and division.

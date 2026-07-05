@@ -1,3 +1,10 @@
+---
+type: entity
+category: other
+entity_type: "NA"
+created: 2024-01-01
+updated: 2024-01-01
+---
 # Oct4
 
 Oct4 (Octamer-binding transcription factor 4), also known as POU5F1 (POU domain, class 5, transcription factor 1), is a protein that in humans is encoded by the POU5F1 gene. It is a critical [[Transcription Factor]] involved in the self-renewal of undifferentiated [[Embryonic Stem Cells]] and is one of the four [[Yamanaka Factors]] used to induce [[Pluripotency]] in [[Somatic Cells]].

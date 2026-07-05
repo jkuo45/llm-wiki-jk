@@ -1,3 +1,10 @@
+---
+type: entity
+category: anatomy
+entity_type: ""
+created: 2024-01-01
+updated: 2024-01-01
+---
 # Gastrointestinal Tract
 
 The gastrointestinal tract (GIT) is the organ system responsible for consuming and digesting foodstuffs, absorbing nutrients, and expelling waste.

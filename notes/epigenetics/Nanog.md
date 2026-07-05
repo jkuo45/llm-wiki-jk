@@ -1,3 +1,10 @@
+---
+type: entity
+category: other
+entity_type: "NA"
+created: 2024-01-01
+updated: 2024-01-01
+---
 # Nanog
 
 [[Nanog]] is a homeodomain transcription factor that plays a critical role in maintaining [[Pluripotency]] and self-renewal in [[Embryonic Stem Cells]] and [[Induced Pluripotent Stem Cells]]. It is named after "Tír na nÓg," the mythical Irish land of the ever-young.

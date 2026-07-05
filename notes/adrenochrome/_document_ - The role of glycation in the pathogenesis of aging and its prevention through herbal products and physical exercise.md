@@ -1,4 +1,5 @@
 ---
+type: document
 title: "The role of glycation in the pathogenesis of aging and its prevention through herbal products and physical exercise"
 source: "https://pmc.ncbi.nlm.nih.gov/articles/PMC5643203/"
 author:

@@ -1,3 +1,11 @@
+---
+type: entity
+category: Chemical Compound
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Nicotinamide
 Nicotinamide (NAM) is a form of vitamin B3 and an essential precursor in the salvage pathway for NAD+ biosynthesis.
 

@@ -54,12 +54,12 @@ Cambinol enters the sirtuin catalytic pocket, where its $\beta$-naphthol group p
 
 - **[[SIRT1]]** & **[[SIRT2]]** — direct sirtuin targets.
 - **[[Sirtinol]]** — fellow $\beta$-naphthol-containing sirtuin inhibitor.
-- **[[notes/_link/Cancer]]** — primary therapeutic application area.
+- **[[Cancer]]** — primary therapeutic application area.
 
 ---
 
 ## Linking Summary
 
-- **New Links Added**: [[SIRT1]], [[SIRT2]], [[Sirtinol]], [[notes/_link/Cancer]], [[p53]]
+- **New Links Added**: [[SIRT1]], [[SIRT2]], [[Sirtinol]], [[Cancer]], [[p53]]
 - **Suggested New Notes to Create**: [[Alpha-Fetoprotein]], [[Chemosensitization]]
 - **Strong Connections to Strengthen**: [[Cambinol]] ↔ [[SIRT1]], [[Cambinol]] ↔ [[SIRT2]]

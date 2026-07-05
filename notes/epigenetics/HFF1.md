@@ -1,3 +1,10 @@
+---
+type: entity
+category: other
+entity_type: "NA"
+created: 2024-01-01
+updated: 2024-01-01
+---
 # HFF1
 
 A line of human foreskin fibroblasts often used as feeder cells or in reprogramming studies.

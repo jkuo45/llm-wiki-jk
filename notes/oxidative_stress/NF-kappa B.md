@@ -1,6 +1,6 @@
 ---
 type: entity
-category: "protein"
+category: protein
 aliases:
   - "NF-kappa B"
   - "NFKB"
@@ -27,14 +27,14 @@ Nuclear factor-kappa B (NF-κB) is a protein complex that functions as a central
 - **Cytoprotection:** Can sometimes induce antioxidant genes (e.g., MnSOD) to protect cells from oxidative stress.
 
 ## Connections
-- [[notes/oxidative_stress/Oxidative Stress]]: Acts as a key downstream mediator and amplifier.
+- [[Oxidative Stress]]: Acts as a key downstream mediator and amplifier.
 - [[TNF-alpha]]: A primary cytokine regulated by and capable of activating NF-κB.
 - [[notes/_link/Atherosclerosis]]: Plays a central role in the vascular inflammation driven by oxidative stress.
 
 ### Linking Summary:
-- New links added: [[Immunity]], [[notes/_link/Apoptosis]], [[TNF-alpha]], [[IL-1b]], [[VCAM-1]], [[NADPH Oxidase]], [[notes/oxidative_stress/Oxidative Stress]], [[notes/_link/Atherosclerosis]]
+- New links added: [[Immunity]], [[notes/_link/Apoptosis]], [[TNF-alpha]], [[IL-1b]], [[VCAM-1]], [[NADPH Oxidase]], [[Oxidative Stress]], [[notes/_link/Atherosclerosis]]
 - Suggested new entity notes to create: [[IκB]], [[IKK Complex]], [[Pro-inflammatory Cytokines]]
-- Strong connections to strengthen: [[NF-kappa B]] ↔ [[notes/oxidative_stress/Oxidative Stress]]
+- Strong connections to strengthen: [[NF-kappa B]] ↔ [[Oxidative Stress]]
 
 ## Canonical and Non-Canonical Pathways
 
@@ -50,23 +50,23 @@ NF-κB signaling is tightly controlled by a network of negative regulators that 
 
 ## NF-κB–Nrf2 Crosstalk
 
-The balance between NF-κB (pro-inflammatory) and [[notes/_link/Nrf2]] (cytoprotective/antioxidant) signaling is a central determinant of the cellular response to [[notes/oxidative_stress/Oxidative Stress]]. These two transcription factors exhibit mutual antagonism at multiple levels. First, the Nrf2 target gene p62 ([[p62/SQSTM1|SQSTM1]]) competes with IκB for binding to the E3 ligase β-TrCP, stabilizing IκB and thereby inhibiting NF-κB activation. Second, [[HO-1|Heme oxygenase-1]] (HO-1), an Nrf2 target, degrades free heme, which is required for [[NADPH Oxidase|NOX2]] assembly, reducing ROS production. Third, RelA (p65) directly competes with Nrf2 for the transcriptional coactivator [[CREB-binding protein]] (CBP/p300), which has limiting nuclear levels. Under chronic oxidative stress where NF-κB is persistently activated, Nrf2 activity is suppressed, shifting the balance toward inflammation and tissue damage. This antagonism underlies the therapeutic rationale for Nrf2-activating interventions (e.g., [[Alpha-Lipoic Acid]], [[notes/_link/Sulforaphane]], [[Dimethyl fumarate]]) in [[notes/_link/Inflammation|inflammatory]] and [[notes/_link/Neurodegenerative Diseases|neurodegenerative]] diseases where NF-κB hyperactivity is pathogenic.
+The balance between NF-κB (pro-inflammatory) and [[notes/_link/Nrf2]] (cytoprotective/antioxidant) signaling is a central determinant of the cellular response to [[Oxidative Stress]]. These two transcription factors exhibit mutual antagonism at multiple levels. First, the Nrf2 target gene p62 ([[p62/SQSTM1|SQSTM1]]) competes with IκB for binding to the E3 ligase β-TrCP, stabilizing IκB and thereby inhibiting NF-κB activation. Second, [[HO-1|Heme oxygenase-1]] (HO-1), an Nrf2 target, degrades free heme, which is required for [[NADPH Oxidase|NOX2]] assembly, reducing ROS production. Third, RelA (p65) directly competes with Nrf2 for the transcriptional coactivator [[CREB-binding protein]] (CBP/p300), which has limiting nuclear levels. Under chronic oxidative stress where NF-κB is persistently activated, Nrf2 activity is suppressed, shifting the balance toward inflammation and tissue damage. This antagonism underlies the therapeutic rationale for Nrf2-activating interventions (e.g., [[Alpha-Lipoic Acid]], [[notes/_link/Sulforaphane]], [[Dimethyl fumarate]]) in [[notes/_link/Inflammation|inflammatory]] and [[notes/_link/Neurodegenerative Diseases|neurodegenerative]] diseases where NF-κB hyperactivity is pathogenic.
 
 ## Role in Disease and Therapeutic Targeting
 
-NF-κB hyperactivation is a characteristic feature of [[notes/_link/Cancer]], [[notes/_link/Atherosclerosis]], [[Rheumatoid Arthritis]], [[notes/_link/Inflammatory Bowel Disease]], [[Asthma]], and [[notes/_link/Neurodegenerative Diseases]]. In [[notes/_link/Cancer]], NF-κB promotes survival (via [[BCL-XL|Bcl-XL]], [[XIAP|XIAP]], [[c-FLIP|c-FLIP]]), proliferation (via [[Cyclin D1]], [[c-Myc]]), angiogenesis (via [[VEGF|VEGF]]), and metastasis (via [[MMP9|MMP-9]], [[ICAM1|ICAM-1]]). Therapeutic strategies include proteasome inhibitors ([[Bortezomib]]), which block IκB degradation; IKKβ inhibitors (e.g., [[MLN120B]], [[TPCA-1]]); and naturally occurring inhibitors such as [[Curcumin]], [[Resveratrol]], and [[EGCG]] ([[notes/_link/EGCG]]), which suppress IKK activity or p65 nuclear translocation. However, systemic NF-κB inhibition carries risks due to its essential role in [[notes/_link/Immunity|host defense]] and [[Liver|hepatic]] homeostasis, explaining the [[Hepatotoxicity|hepatotoxicity]] and increased infection risk observed with high-dose [[Curcumin]] or broad IKK inhibitors in clinical trials.
+NF-κB hyperactivation is a characteristic feature of [[Cancer]], [[notes/_link/Atherosclerosis]], [[Rheumatoid Arthritis]], [[notes/_link/Inflammatory Bowel Disease]], [[Asthma]], and [[notes/_link/Neurodegenerative Diseases]]. In [[Cancer]], NF-κB promotes survival (via [[BCL-XL|Bcl-XL]], [[XIAP|XIAP]], [[c-FLIP|c-FLIP]]), proliferation (via [[Cyclin D1]], [[c-Myc]]), angiogenesis (via [[VEGF|VEGF]]), and metastasis (via [[MMP9|MMP-9]], [[ICAM1|ICAM-1]]). Therapeutic strategies include proteasome inhibitors ([[Bortezomib]]), which block IκB degradation; IKKβ inhibitors (e.g., [[MLN120B]], [[TPCA-1]]); and naturally occurring inhibitors such as [[Curcumin]], [[Resveratrol]], and [[EGCG]] ([[notes/_link/EGCG]]), which suppress IKK activity or p65 nuclear translocation. However, systemic NF-κB inhibition carries risks due to its essential role in [[host defense]] and [[Liver|hepatic]] homeostasis, explaining the [[Hepatotoxicity|hepatotoxicity]] and increased infection risk observed with high-dose [[Curcumin]] or broad IKK inhibitors in clinical trials.
 
 ## Connections
 - [[notes/_link/Nrf2]]: Master transcriptional antagonist of NF-κB.
 - [[A20]]: Key ubiquitin-editing negative regulator of NF-κB.
 - [[IκB]]: The inhibitory anchor that retains NF-κB in the cytoplasm.
 - [[proteasome]]: Degrades IκB to allow NF-κB activation.
-- [[notes/_link/Cancer]]: NF-κB promotes tumorigenesis through survival and proliferation genes.
+- [[Cancer]]: NF-κB promotes tumorigenesis through survival and proliferation genes.
 - [[p50]], [[p65/RelA]], [[c-Rel]], [[RelB]]: NF-κB subunit family members.
 - [[Bortezomib]]: Proteasome inhibitor that blocks NF-κB activation.
 - [[notes/_link/Inflammation]]: NF-κB is the "master switch" for inflammatory gene expression.
 - [[Rheumatoid Arthritis]]: Pathogenic NF-κB activation in synovial fibroblasts.
 
 ### Updated Linking Summary:
-- New links added in this revision: [[LPS]], [[HIF-1α]], [[PP2A]], [[S-Nitrosylation]], [[Rheumatoid Arthritis]], [[notes/_link/Nrf2]], [[p62/SQSTM1]], [[HO-1]], [[Alpha-Lipoic Acid]], [[notes/_link/Neurodegenerative Diseases]], [[notes/_link/Cancer]], [[BCL-XL]], [[c-FLIP]], [[Curcumin]], [[Resveratrol]], [[notes/_link/EGCG]], [[Bortezomib]], [[CD40L]], [[BAFF]], [[RANKL]], [[Zinc Finger]], [[A20]], [[CYLD]], [[proteasome]], [[notes/_link/Inflammation]], [[Notes/_link/Inflammatory Bowel Disease]], [[Vitamin E]], [[notes/_link/Sulforaphane]]
+- New links added in this revision: [[LPS]], [[HIF-1α]], [[PP2A]], [[S-Nitrosylation]], [[Rheumatoid Arthritis]], [[notes/_link/Nrf2]], [[p62/SQSTM1]], [[HO-1]], [[Alpha-Lipoic Acid]], [[notes/_link/Neurodegenerative Diseases]], [[Cancer]], [[BCL-XL]], [[c-FLIP]], [[Curcumin]], [[Resveratrol]], [[notes/_link/EGCG]], [[Bortezomib]], [[CD40L]], [[BAFF]], [[RANKL]], [[Zinc Finger]], [[A20]], [[CYLD]], [[proteasome]], [[notes/_link/Inflammation]], [[Notes/_link/Inflammatory Bowel Disease]], [[Vitamin E]], [[notes/_link/Sulforaphane]]
 - Suggested new entity notes to create: [[NEMO]], [[IκBα]], [[TNFAIP3 Polymorphisms]], [[CBP/p300]], [[Dimethyl fumarate]]

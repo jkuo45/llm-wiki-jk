@@ -1,3 +1,10 @@
+---
+type: entity
+category: other
+entity_type: "NA"
+created: 2024-01-01
+updated: 2024-01-01
+---
 # Slug
 
 A transcription factor (SNAI2) that promotes epithelial-to-mesenchymal transition (EMT).

@@ -33,7 +33,7 @@ OSCP forms the central component of the peripheral stalk that statically links t
 
 ## Clinical Relevance
 
-OSCP acetylation increases with age and in metabolic disease, correlating with reduced ATP synthase efficiency and mitochondrial uncoupling. SIRT3 activators ([[Honokiol]], NAD+ precursors) that target OSCP deacetylation could restore mitochondrial energetics in [[Heart Failure|heart failure]], [[Neurodegeneration|neurodegeneration]], and [[Metabolic Syndrome|metabolic syndrome]].
+OSCP acetylation increases with age and in metabolic disease, correlating with reduced ATP synthase efficiency and mitochondrial uncoupling. SIRT3 activators ([[Honokiol]], NAD+ precursors) that target OSCP deacetylation could restore mitochondrial energetics in [[Heart Failure|heart failure]], [[Neurodegeneration|neurodegeneration]], and [[Metabolic_Syndrome|metabolic syndrome]].
 
 ## Connections
 

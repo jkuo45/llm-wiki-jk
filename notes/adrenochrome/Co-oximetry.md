@@ -1,3 +1,11 @@
+---
+type: entity
+category: Diagnostic Test
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Co-oximetry
 
 [[Co-oximetry]] is the gold standard diagnostic tool for [[Methemoglobinemia]]. Unlike standard [[Pulse oximetry]], it directly measures the percentage of different hemoglobin species, including [[Methemoglobin]], [[Oxyhemoglobin]], and carboxyhemoglobin.

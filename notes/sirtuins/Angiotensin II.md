@@ -1,3 +1,16 @@
+---
+type: entity
+category: protein
+aliases:
+  - "Ang II"
+tags:
+  - "sirtuins"
+  - "cardiovascular"
+  - "hypertension"
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Angiotensin II
 
 **Angiotensin II** (Ang II) is a peptide hormone central to the [[Renin-angiotensin system|renin-angiotensin system (RAS)]]. It acts as a potent vasoconstrictor, raising blood pressure, and also drives [[Inflammation|inflammatory]], [[Oxidative Stress|oxidative]], and [[Fibrosis|pro-fibrotic]] signaling in the [[Cardiovascular Disease|cardiovascular system]].

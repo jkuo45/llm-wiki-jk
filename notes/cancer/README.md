@@ -1,6 +1,6 @@
 # Cancer
 
-This directory contains notes and research regarding [[Cancer]], with a primary focus on drug repurposing, alternative mechanisms, and non-conventional approaches. Emphasis is placed on antiparasitic agents such as [[Ivermectin]], [[Fenbendazole]], [[Mebendazole]], and [[Albendazole]], as well as [[Melittin]] and components of [[Honeybee]] venom ([[Apis mellifera]]), and their potential effects on cancer cell pathways. Special attention is given to mechanisms including [[notes/_link/Apoptosis]], [[Autophagy]], [[Angiogenesis]] inhibition, [[notes/oxidative_stress/Oxidative Stress]], [[Warburg Effect]], [[Metabolic Reprogramming]], and disruption of [[Microtubule]] dynamics, along with connections to specific cancer types (e.g., [[triple-negative breast cancer]], [[notes/_link/Colorectal Cancer]], [[glioblastoma]]) and the [[Hallmarks of Cancer]].
+This directory contains notes and research regarding [[Cancer]], with a primary focus on drug repurposing, alternative mechanisms, and non-conventional approaches. Emphasis is placed on antiparasitic agents such as [[Ivermectin]], [[Fenbendazole]], [[Mebendazole]], and [[Albendazole]], as well as [[Melittin]] and components of [[Honeybee]] venom ([[Apis mellifera]]), and their potential effects on cancer cell pathways. Special attention is given to mechanisms including [[notes/_link/Apoptosis]], [[Autophagy]], [[Angiogenesis]] inhibition, [[Oxidative Stress]], [[Warburg Effect]], [[Metabolic Reprogramming]], and disruption of [[Microtubule]] dynamics, along with connections to specific cancer types (e.g., [[triple-negative breast cancer]], [[notes/_link/Colorectal Cancer]], [[glioblastoma]]) and the [[Hallmarks of Cancer]].
 
 
 **entity_relevance_score_1 (1-10):**
@@ -139,7 +139,7 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[Onchocerciasis Chemotherapy Research Centre]] | 21_May_2026 06:20 PM PDT | Organization | 4 | 1 | Provided historical, scientific, or institutional context for the research. |
 | [[ovarian cancer]] | 21_May_2026 06:45 PM PDT | Medical Condition | 9 | -1 | High-relevance pathological state targeted by the investigated compounds. |
 | [[Oxfendazole]] | 21_May_2026 06:45 PM PDT | Chemical Compound | 9 | 1 | Significant therapeutic agent or chemical tool used in cancer research. |
-| [[notes/oxidative_stress/Oxidative Stress]] | 21_May_2026 06:45 PM PDT | Scientific Concept | 8 | -1 | Biological or chemical entity contributing to the broader understanding of the topic. |
+| [[Oxidative Stress]] | 21_May_2026 06:45 PM PDT | Scientific Concept | 8 | -1 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[notes/_link/p53]] | 31_May_2026 05:30 PM PDT | Protein | 9 | 1 | Key molecular component of a signaling pathway relevant to cancer biology. |
 | [[PAK1]] | 31_May_2026 05:30 PM PDT | Enzyme | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
 | [[pancreatic cancer]] | 19_May_2026 08:16 PM PDT | Medical Condition | 9 | -1 | High-relevance pathological state targeted by the investigated compounds. |
@@ -164,7 +164,7 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[Satoshi Ōmura]] | 21_May_2026 06:20 PM PDT | Person | 4 | 1 | Provided historical, scientific, or institutional context for the research. |
 | [[Scabies]] | 21_May_2026 06:20 PM PDT | Medical Condition | 6 | -1 | Condition historically associated with the compounds before their repurposing. |
 | [[Simulium]] | 21_May_2026 06:20 PM PDT | Microorganism | 6 | -1 | Related to the original anti-parasitic application of the discussed drugs. |
-| [[notes/sirtuins/SIRT1]] | 30_May_2026 07:45 PM PDT | Enzyme | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
+| [[SIRT1]] | 30_May_2026 07:45 PM PDT | Enzyme | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
 | [[Smac/DIABLO]] | 31_May_2026 05:30 PM PDT | Protein | 8 | 0 | Mitochondrial protein that neutralizes IAPs to promote apoptosis. |
 | [[notes/_link/STAT3]] | 31_May_2026 05:30 PM PDT | Protein | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
 | [[Strongyloides]] | 21_May_2026 06:20 PM PDT | Microorganism | 6 | -1 | Related to the original anti-parasitic application of the discussed drugs. |

@@ -1,3 +1,11 @@
+---
+type: entity
+category: biological_process
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Neuroinflammation
 
 [[Neuroinflammation]] refers to the inflammatory response within the central nervous system, characterized by the activation of glial cells and the release of pro-inflammatory cytokines.

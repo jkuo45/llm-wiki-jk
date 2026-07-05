@@ -1,5 +1,5 @@
 ---
-type: hub
+type: entity
 category: protein
 aliases:
   - NF-κB

@@ -1,3 +1,10 @@
+---
+type: entity
+category: medical_condition
+entity_type: ""
+created: 2024-01-01
+updated: 2024-01-01
+---
 # Metabolic Syndromes
 
 **[[Metabolic Syndromes]]** refer to a cluster of conditions—including increased blood pressure, high blood sugar, excess body fat around the waist, and abnormal cholesterol or triglyceride levels—that occur together, increasing the risk of heart disease, stroke, and type 2 diabetes.
@@ -11,15 +18,15 @@ Metabolic syndrome is deeply linked to changes in the [[Epigenome]]:
 *   **Inflammation**: Metabolic syndrome drives systemic inflammation, which is both a cause and a consequence of [[Epigenetic Alterations]] like the loss of [[Heterochromatin]].
 
 ### 3. Role of [[Sirtuins|Sirtuins]]
-Sirtuins, particularly [[notes/sirtuins/SIRT1]], are critical sensors of metabolic health. They regulate glucose and lipid metabolism through their deacetylase activity. In metabolic syndrome, sirtuin activity is often reduced, contributing to mitochondrial dysfunction and cellular stress.
+Sirtuins, particularly [[SIRT1]], are critical sensors of metabolic health. They regulate glucose and lipid metabolism through their deacetylase activity. In metabolic syndrome, sirtuin activity is often reduced, contributing to mitochondrial dysfunction and cellular stress.
 
 ### Connections
 - **[[notes/_link/Aging]]**: Metabolic syndrome is a major driver of biological age acceleration.
 - **[[notes/_link/Diabetes Mellitus]]**: One of the primary diseases associated with metabolic syndrome.
 - **[[notes/_link/Cardiovascular Disease]]**: A frequent complication of metabolic dysfunction.
-- **[[notes/sirtuins/SIRT1]]**: A key metabolic regulator that is often compromised in these conditions.
+- **[[SIRT1]]**: A key metabolic regulator that is often compromised in these conditions.
 
 ### Linking Summary:
-- New links added: [[Metabolic Syndromes]], [[notes/_link/Aging]], [[Epigenome]], [[DNA Methylation]], [[Epigenetic Alterations]], [[Heterochromatin]], [[Sirtuins]], [[notes/sirtuins/SIRT1]], [[notes/_link/Diabetes Mellitus]], [[notes/_link/Cardiovascular Disease]]
+- New links added: [[Metabolic Syndromes]], [[notes/_link/Aging]], [[Epigenome]], [[DNA Methylation]], [[Epigenetic Alterations]], [[Heterochromatin]], [[Sirtuins]], [[SIRT1]], [[notes/_link/Diabetes Mellitus]], [[notes/_link/Cardiovascular Disease]]
 - Suggested new entity notes to create: [[Insulin Resistance]], [[Hyperlipidemia]], [[Metabolic Memory]]
 - Strong connections to strengthen: [[Metabolic Syndromes]] ↔ [[notes/_link/Aging]], [[Metabolic Syndromes]] ↔ [[notes/_link/Diabetes Mellitus]]

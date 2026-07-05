@@ -1,3 +1,10 @@
+---
+type: entity
+category: model_organism
+entity_type: "Model Organism"
+created: 2024-01-01
+updated: 2024-01-01
+---
 # Caenorhabditis elegans
 
 **Caenorhabditis elegans** is a free-living transparent nematode (roundworm) that lives in temperate soil environments. It is a widely used [[Model Organisms|Model Organism]] in aging research.

@@ -1,6 +1,21 @@
+---
+aliases:
+- methyltransferase-like 3
+category: Enzyme
+created: '2026-07-04'
+type: entity
+updated: '2026-07-04'
+---
 # METTL3
 
 Methyltransferase-like 3 (METTL3) is a major RNA methyltransferase that negatively regulates autophagy flux by decreasing the expression of [[TFEB]] via m6A modification.
+
+## Function
+
+METTL3 is the catalytic subunit of the m6A methyltransferase complex. It installs [[m6A Modification]] on mRNA, regulating splicing, export, translation, and decay.
+## Autophagy Regulation
+
+METTL3-mediated m6A methylation of autophagy gene transcripts (e.g., [[ULK1]], [[Beclin1]], [[LC3B]]) modulates their expression. Dysregulated m6A in autophagy genes is implicated in cancer and metabolic disease.
 
 ### Linking Summary
 

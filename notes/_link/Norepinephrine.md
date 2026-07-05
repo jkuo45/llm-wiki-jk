@@ -1,15 +1,22 @@
+---
+type: entity
+category: chemical
+entity_type: "Chemical Compound"
+created: 2026-05-31
+updated: 2026-05-31
+---
 # Norepinephrine
 
 A [[Catecholamines|catecholamine]] that functions as both a hormone and a neurotransmitter.
 
 
-**[[notes/_link/Norepinephrine]]** (also known as noradrenaline) is a chemical that functions in the brain and body as both a hormone and a [[Neurotransmitter]].
+**[[notes/_link/Norepinephrine]]** (also known as noradrenaline) is a chemical that functions in the brain and body as both a hormone and a [[Neurotransmitters]].
 
 
 ## Linking Summary:
 - New links added: [[Catecholamines]], [[notes/_link/Epinephrine]], [[Adrenal medulla]], [[Adrenochrome]]
 
-- New links added: [[Neurotransmitter]], [[COMT]], [[Catechol-O-methyltransferase]], [[MAO]], [[Prefrontal Cortex]], [[Norepinephrine Transporter]], [[NET]], [[notes/_link/Dopamine]], [[notes/_link/Epinephrine]].
+- New links added: [[Neurotransmitters]], [[COMT]], [[Catechol-O-methyltransferase]], [[MAO]], [[Prefrontal Cortex]], [[Norepinephrine Transporter]], [[NET]], [[notes/_link/Dopamine]], [[notes/_link/Epinephrine]].
 
 ## Metabolism
 As a catecholamine, [[notes/_link/Norepinephrine]] is degraded by:
@@ -36,4 +43,4 @@ It is involved in arousal, attention, and the stress response. It also affects h
 ---
 
 ### Linking Summary:
-- New links added: [[Adrenal medulla]], [[Adrenochrome]], [[COMT]], [[Catechol-O-methyltransferase]], [[Catecholamines]], [[notes/_link/Dopamine]], [[notes/_link/Epinephrine]], [[MAO]], [[NET]], [[Neurotransmitter]], [[Norepinephrine Transporter]], [[Prefrontal Cortex]]
+- New links added: [[Adrenal medulla]], [[Adrenochrome]], [[COMT]], [[Catechol-O-methyltransferase]], [[Catecholamines]], [[notes/_link/Dopamine]], [[notes/_link/Epinephrine]], [[MAO]], [[NET]], [[Neurotransmitters]], [[Norepinephrine Transporter]], [[Prefrontal Cortex]]

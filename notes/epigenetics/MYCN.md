@@ -1,3 +1,10 @@
+---
+type: entity
+category: other
+entity_type: "NA"
+created: 2024-01-01
+updated: 2024-01-01
+---
 # MYCN
 
 [[MYCN]] is a member of the MYC family of transcription factors, closely related to [[c-Myc]]. It is traditionally known for its role in neuroblastoma and other cancers, but it also plays a significant part in the pluripotency gene regulatory network.

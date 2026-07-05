@@ -1,3 +1,9 @@
+---
+category: Biological Process
+created: '2026-07-04'
+type: entity
+updated: '2026-07-04'
+---
 # Ketogenesis
 
 **Ketogenesis** is the metabolic process by which the liver produces ketone bodies (such as acetoacetate and β-hydroxybutyrate) from fatty acids.
@@ -14,6 +20,10 @@
 
 ## Therapeutic Potential
 - The promotion of ketogenesis via diet or fasting is investigated for its potential to treat [[notes/_link/Neurodegenerative Diseases|Neurodegenerative Disease]] and enhance the tumoricidal properties of treatments in some [[Cancer]] contexts.
+
+## Process
+
+Ketogenesis produces acetoacetate and β-hydroxybutyrate during fasting. β-Hydroxybutyrate induces [[Autophagy]] by inhibiting HDACs and activating [[FOXO]].
 
 ### Linking Summary:
 - New links added: [[notes/_link/Caloric Restriction]], [[Intermittent Fasting]], [[Ketogenic Diet]], [[Autophagy]], [[Cellular Homeostasis]], [[notes/_link/Neurodegenerative Diseases|Neurodegenerative Disease]], [[Cancer]]

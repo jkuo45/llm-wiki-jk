@@ -1,3 +1,10 @@
+---
+type: entity
+category: biological_molecule
+entity_type: ""
+created: 2024-01-01
+updated: 2024-01-01
+---
 # Euchromatin
 
 **[[Euchromatin]]** is the lightly packed, transcriptionally active form of [[Chromatin]]. It is characterized by high levels of [[Histone Acetylation]] and low levels of DNA methylation, which keep the DNA accessible to the machinery responsible for [[Transcription]].

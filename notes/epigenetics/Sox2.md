@@ -1,3 +1,10 @@
+---
+type: entity
+category: other
+entity_type: "NA"
+created: 2024-01-01
+updated: 2024-01-01
+---
 # Sox2
 
 Sox2 (SRY-box transcription factor 2) is a [[Transcription Factor]] that is essential for maintaining self-renewal, or pluripotency, of undifferentiated [[Embryonic Stem Cells]]. It is one of the four [[Yamanaka Factors]] (along with [[Oct4]], [[Klf4]], and [[c-Myc]]) used to generate [[Induced Pluripotent Stem Cells]].

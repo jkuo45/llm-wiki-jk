@@ -1,3 +1,10 @@
+---
+type: entity
+category: other
+entity_type: "NA"
+created: 2024-01-01
+updated: 2024-01-01
+---
 # CHD4
 
 Chromodomain Helicase DNA-binding protein 4 (CHD4) is a protein that in humans is encoded by the CHD4 gene. It is a major component of the nucleosome remodeling and deacetylase (NuRD) complex.

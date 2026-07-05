@@ -1,3 +1,9 @@
+---
+category: Scientific Concept
+created: '2026-07-04'
+type: entity
+updated: '2026-07-04'
+---
 # Lipid Droplet
 
 **Lipid Droplets** are organelles composed of a neutral lipid core (primarily triglycerides and cholesteryl esters) surrounded by a phospholipid monolayer and associated proteins (e.g., perilipins). They serve as the primary storage sites for metabolic energy.
@@ -9,6 +15,10 @@
 ## Physiological Role
 - Lipid droplets are critical for maintaining energy homeostasis and protecting cells from lipotoxicity by sequestering excess fatty acids.
 - Their mobilization is tightly regulated by nutritional status, primarily via [[Fasting]] and [[Starvation]] responses.
+
+## Structure
+
+Lipid droplets are lipid storage organelles surrounded by a phospholipid monolayer. They are degraded by [[Lipophagy]] during fasting.
 
 ### Linking Summary:
 - New links added: [[ATGL]], [[Lipophagy]], [[Selective Autophagy]], [[Lysosome]], [[Lysosomal Acid Lipase]], [[LIPL-1]], [[LIPL-3]], [[Fasting]], [[Starvation]]

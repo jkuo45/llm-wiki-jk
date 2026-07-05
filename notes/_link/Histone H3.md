@@ -13,18 +13,20 @@ database_ids:
   mesh: D006653
 relations:
   - predicate: regulates
-    target: "[[notes/autophagy/Autophagy]]"
-    sources: ["10.1016/j.mad.2013.04.004"]
+    target: "[[Autophagy]]"
+    sources:
+      - 10.1016/j.mad.2013.04.004
   - predicate: activated_by
     target: "[[notes/_link/Spermidine]]"
-    sources: ["10.1038/ncb1909"]
+    sources:
+      - 10.1038/ncb1909
 created: 2026-07-04
 updated: 2026-07-04
 ---
 
 # Histone H3
 
-**Histone H3** is one of the five core histone proteins that form the [[notes/_link/Nucleosome|nucleosome]] structure in eukaryotic chromatin. Along with [[notes/_link/Histone H4]], [[Histone H2A]], and [[Histone H2B]], it packages DNA into structural units. Histone H3 is among the most highly conserved proteins across eukaryotes and is extensively modified by post-translational modifications that regulate chromatin dynamics, gene expression, and [[notes/_link/DNA Damage]] repair.
+**Histone H3** is one of the five core histone proteins that form the [[notes/_link/Nucleosome|nucleosome]] structure in eukaryotic chromatin. Along with [[Histone H4]], [[Histone H2A]], and [[Histone H2B]], it packages DNA into structural units. Histone H3 is among the most highly conserved proteins across eukaryotes and is extensively modified by post-translational modifications that regulate chromatin dynamics, gene expression, and [[notes/_link/DNA Damage]] repair.
 
 ## Structure
 
@@ -66,7 +68,7 @@ Lysine and arginine methylation can be activating or repressive depending on the
 
 ## Role in Autophagy Regulation
 
-Histone H3 serves as a critical epigenetic node through which [[notes/_link/Spermidine|spermidine]] induces [[notes/autophagy/Autophagy|autophagy]]. Spermidine inhibits histone acetyltransferases (particularly EP300/p300), leading to global de-acetylation of histone H3. This de-acetylation promotes the transcription of autophagy-related genes (e.g., [[notes/_link/LC3|LC3]], [[notes/_link/Atg|Atg]] family members) by altering chromatin accessibility at their promoters. The mechanism is independent of [[notes/_link/mTOR]] inhibition, distinguishing spermidine from rapamycin-class autophagy inducers.
+Histone H3 serves as a critical epigenetic node through which [[notes/_link/Spermidine|spermidine]] induces [[Autophagy|autophagy]]. Spermidine inhibits histone acetyltransferases (particularly EP300/p300), leading to global de-acetylation of histone H3. This de-acetylation promotes the transcription of autophagy-related genes (e.g., [[notes/_link/LC3|LC3]], [[notes/_link/Atg|Atg]] family members) by altering chromatin accessibility at their promoters. The mechanism is independent of [[notes/_link/mTOR]] inhibition, distinguishing spermidine from rapamycin-class autophagy inducers.
 
 ## Role in Aging
 
@@ -82,19 +84,19 @@ These age-related histone H3 changes are counteracted by interventions that exte
 Abnormal histone H3 modifications are implicated in:
 - **Cancer**: Mutations in H3.3 (H3F3A, H3F3B) and H3.1 (HIST1H3B) drive pediatric gliomas (H3K27M) and bone tumors (H3G34W/V)
 - **Neurodegeneration**: Altered H3 acetylation contributes to memory decline and [[notes/_link/Tau|tau]] pathology
-- **Cardiovascular Disease**: H3 modification patterns influence [[notes/oxidative_stress/Endothelial Dysfunction|endothelial dysfunction]] and [[Arterial Stiffness|arterial stiffening]]
+- **Cardiovascular Disease**: H3 modification patterns influence [[Endothelial Dysfunction|endothelial dysfunction]] and [[Arterial Stiffness|arterial stiffening]]
 
 ## Connections
 
-- **[[notes/autophagy/Autophagy]]**: Spermidine-induced H3 de-acetylation activates autophagy gene transcription
+- **[[Autophagy]]**: Spermidine-induced H3 de-acetylation activates autophagy gene transcription
 - **[[notes/_link/Spermidine]]**: Inhibits HATs (p300) leading to H3 de-acetylation
 - **[[notes/_link/Aging]]**: Age-related H3 modification changes drive heterochromatin loss and cellular dysfunction
-- **[[notes/_link/Epigenetics]]**: Histone H3 PTMs constitute a major layer of epigenetic regulation
+- **[[Epigenetics]]**: Histone H3 PTMs constitute a major layer of epigenetic regulation
 - **[[notes/_link/Histone Modification]]**: Broader category encompassing all histone PTMs
-- **[[notes/_link/Histone Acetyltransferase]]**: Enzymes that acetylate H3; inhibited by spermidine
+- **[[Histone Acetyltransferase]]**: Enzymes that acetylate H3; inhibited by spermidine
 
 ## Linking Summary
 
-- New links added: [[notes/_link/Histone H3]], [[notes/_link/Nucleosome]], [[Histone H4]], [[Histone H2A]], [[Histone H2B]], [[notes/_link/Alternative Splicing]], [[notes/_link/LC3]], [[notes/_link/Atg]], [[notes/_link/Epigenetics]], [[Arterial Stiffness]]
+- New links added: [[notes/_link/Histone H3]], [[notes/_link/Nucleosome]], [[Histone H4]], [[Histone H2A]], [[Histone H2B]], [[notes/_link/Alternative Splicing]], [[notes/_link/LC3]], [[notes/_link/Atg]], [[Epigenetics]], [[Arterial Stiffness]]
 - Suggested new entity notes to create: [[Histone H4]], [[Histone H2A]], [[Histone H2B]], [[Heterochromatin]], [[Euchromatin]], [[Histone Deacetylase]]
-- Strong connections to strengthen: [[notes/_link/Spermidine]] ↔ [[notes/_link/Histone H3]], [[notes/_link/Histone H3]] ↔ [[notes/autophagy/Autophagy]]
+- Strong connections to strengthen: [[notes/_link/Spermidine]] ↔ [[notes/_link/Histone H3]], [[notes/_link/Histone H3]] ↔ [[Autophagy]]

@@ -1,3 +1,10 @@
+---
+type: entity
+category: chemical
+entity_type: ""
+created: 2024-01-01
+updated: 2024-01-01
+---
 # EDTA
 
 **EDTA** (Ethylenediaminetetraacetic acid) is a chelating agent used to bind metal ions such as iron and copper.
@@ -10,6 +17,6 @@ Transition metals can catalyze the oxidation of [[notes/_link/Epinephrine]]. By 
 
 ## Connections
 - [[notes/_link/Epinephrine]]
-- [[notes/oxidative_stress/Oxidative Stress]]
+- [[Oxidative Stress]]
 - [[Adrenochrome]]
 - [[Glyco-Oxidative Proteostasis Shield]]

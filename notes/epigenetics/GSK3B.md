@@ -1,3 +1,10 @@
+---
+type: entity
+category: other
+entity_type: "NA"
+created: 2024-01-01
+updated: 2024-01-01
+---
 # GSK3B
 
 [[GSK3B]] (Glycogen Synthase Kinase-3 Beta) is a multi-functional serine/threonine kinase that regulates numerous signaling pathways, including [[Wnt Signaling]], and plays vital roles in cell fate determination, metabolism, and proliferation.

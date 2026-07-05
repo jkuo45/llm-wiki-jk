@@ -1,3 +1,10 @@
+---
+type: entity
+category: medical_condition
+entity_type: ""
+created: 2024-01-01
+updated: 2024-01-01
+---
 # Huntington's Disease
 
 **Huntington's Disease** (HD) is an inherited neurodegenerative disorder characterized by motor dysfunction, cognitive decline, and psychiatric symptoms.
@@ -28,5 +35,5 @@ Huntington's disease (HD) is a neurodegenerative disorder characterized by prote
 ### Linking Summary
 
 - New links added: [[TFEB]], [[PGC-1α]]
-- Suggested new entity notes to create: [[Neurodegenerative Disease]]
+- Suggested new entity notes to create: [[Neurodegenerative_Disease]]
 - Strong connections to strengthen: [[Huntington's Disease]] ↔ [[TFEB]]

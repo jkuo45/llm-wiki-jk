@@ -1,3 +1,9 @@
+---
+category: Biological Process
+created: '2026-07-04'
+type: entity
+updated: '2026-07-04'
+---
 # Starvation
 
 **Starvation** is a state of severe nutrient deficiency that triggers profound metabolic and cellular adaptations, including the massive activation of [[Autophagy]].
@@ -9,6 +15,10 @@
 
 ## Survival Mechanisms
 - In [[C. elegans]], the ability to survive starvation is dependent on [[HLH-30]] and the activation of [[Lipophagy]].
+
+## Physiology
+
+Starvation is the strongest physiological inducer of [[Autophagy]]. It activates [[AMPK]], inhibits [[mTORC1]], and induces [[TFEB]] nuclear translocation.
 
 ### Linking Summary:
 - New links added: [[Autophagy]], [[mTORC1]], [[ULK1]], [[TFEB]], [[HLH-30]], [[Lipophagy]], [[Lysosomal Lipolysis]], [[Lipid Droplet]], [[MXL-3]], [[C. elegans]]

@@ -1,3 +1,10 @@
+---
+type: entity
+category: biological_process
+entity_type: "Biological Process"
+created: 2024-01-01
+updated: 2024-01-01
+---
 # G1 Phase
 
 The [[G1 Phase]] (Gap 1 phase) is the first of four phases of the [[Cell Cycle]] that takes place in eukaryotic cell division.

@@ -1,3 +1,9 @@
+---
+category: Biological Process
+created: '2026-07-04'
+type: entity
+updated: '2026-07-04'
+---
 # Lysosomal Lipolysis
 
 **Lysosomal Lipolysis** is the breakdown of lipids (triglycerides and cholesteryl esters) within the acidic environment of the [[Lysosome]]. This process is primarily executed by [[Lysosomal Acid Lipase]] (LAL) and its orthologues.

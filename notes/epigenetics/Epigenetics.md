@@ -1,3 +1,10 @@
+---
+type: entity
+category: scientific_concept
+entity_type: "Scientific Concept"
+created: 2024-01-01
+updated: 2024-01-01
+---
 # Epigenetics
 
 **[[Epigenetics]]** refers to the study of heritable changes in gene expression or cellular phenotype that do not involve alterations to the underlying DNA sequence. These changes are essentially "tags" on the DNA or the proteins around which DNA is wrapped, acting as a set of instructions that tell the cell which genes to turn on or off.

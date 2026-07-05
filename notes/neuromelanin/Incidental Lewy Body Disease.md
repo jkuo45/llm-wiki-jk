@@ -1,3 +1,11 @@
+---
+type: entity
+category: medical_condition
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Incidental Lewy Body Disease
 
 [[Incidental Lewy Body Disease]] (iLBD) refers to the presence of [[Lewy Bodies]] and [[Alpha-Synuclein]] pathology in the brains of individuals who did not exhibit clinical symptoms of [[notes/_link/Parkinson's Disease]] (PD) during their lifetime.

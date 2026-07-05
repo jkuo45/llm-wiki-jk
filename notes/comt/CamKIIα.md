@@ -18,8 +18,8 @@ In transgenic mouse models, such as the COMT-OE mice, the **[[CamKIIα]] promote
 ## Connections
 - [[COMT]]: Transgenic models often use CamKIIα to overexpress COMT in the forebrain.
 - [[Prefrontal Cortex]]: One of the primary regions where the CamKIIα promoter is active.
-- [[notes/_link/Striatum]]: Another forebrain region targeted by CamKIIα-driven transgenes.
+- [[Sirtuins]]: Another forebrain region targeted by CamKIIα-driven transgenes.
 
 ---
 ### Linking Summary:
-- New links added: [[COMT]], [[Prefrontal Cortex]], [[notes/_link/Striatum]].
+- New links added: [[COMT]], [[Prefrontal Cortex]], [[Sirtuins]].

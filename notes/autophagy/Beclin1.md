@@ -1,3 +1,11 @@
+---
+aliases:
+- BECN1
+category: Protein
+created: '2026-07-04'
+type: entity
+updated: '2026-07-04'
+---
 # Beclin1
 
 **Beclin1** (also known as **Atg6**) is a key regulatory protein in the initiation and regulation of [[Autophagy]].
@@ -13,6 +21,10 @@
 
 ## Regulation
 - Beclin1 activity is modulated by its interaction with Bcl-2, which can sequester Beclin1 and inhibit autophagy.
+
+## Regulation
+
+Beclin1 is regulated by [[BCL-2]] binding, which inhibits its autophagy function. Phosphorylation by [[ULK1]], [[MAPKAPK2]], and [[DAPK]] modulates its activity.
 
 ### Linking Summary:
 - New links added: [[Autophagy]], [[notes/_link/PI3K]], [[Vps34]], [[Autophagosome]], [[Cancer]], [[BRCA1]]

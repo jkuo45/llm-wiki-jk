@@ -1,3 +1,10 @@
+---
+type: entity
+category: other
+entity_type: "NA"
+created: 2024-01-01
+updated: 2024-01-01
+---
 # Organoids
 
 Tiny, self-organized three-dimensional tissue cultures that are derived from stem cells.

@@ -1,3 +1,10 @@
+---
+type: entity
+category: biological_process
+entity_type: "Biological Process"
+created: 2026-05-29
+updated: 2026-05-29
+---
 # DNA Repair
 
 **DNA repair** refers to the collection of processes by which a cell identifies and corrects damage to the DNA molecules that encode its genome.
@@ -8,7 +15,7 @@ DNA repair is a collection of processes by which a cell identifies and corrects 
 
 
 ## Oxidative DNA Repair
-In the context of [[notes/oxidative_stress/Oxidative Stress]], the most important repair pathway is [[Base Excision Repair]] (BER). This pathway is specifically designed to handle small, non-helix-distorting base lesions, such as those caused by [[notes/_link/Reactive Oxygen Species]].
+In the context of [[Oxidative Stress]], the most important repair pathway is [[Base Excision Repair]] (BER). This pathway is specifically designed to handle small, non-helix-distorting base lesions, such as those caused by [[notes/_link/Reactive Oxygen Species]].
 
 
 ## Key Mechanisms
@@ -18,7 +25,7 @@ In the context of [[notes/oxidative_stress/Oxidative Stress]], the most importan
 
 
 ## Linking Summary:
-- New links added: [[notes/oxidative_stress/Oxidative Stress]], [[Base Excision Repair]], [[notes/_link/Reactive Oxygen Species]], [[8-oxo-2'-deoxyguanosine]], [[notes/_link/DNA Damage]], [[Cancer]], [[Nucleic Acids]]
+- New links added: [[Oxidative Stress]], [[Base Excision Repair]], [[notes/_link/Reactive Oxygen Species]], [[8-oxo-2'-deoxyguanosine]], [[notes/_link/DNA Damage]], [[Cancer]], [[Nucleic Acids]]
 - Suggested new entity notes to create: [[Base Excision Repair]], [[Nucleotide Excision Repair]]
 - Strong connections to strengthen: [[notes/_link/DNA Repair]] ↔ [[8-oxo-2'-deoxyguanosine]]
 
@@ -40,6 +47,6 @@ In the context of [[notes/oxidative_stress/Oxidative Stress]], the most importan
 
 
 ### Linking Summary:
-- New links added: [[8-oxo-2'-deoxyguanosine]], [[Base Excision Repair]], [[Cancer]], [[notes/_link/DNA Damage]], [[Nucleic Acids]], [[notes/oxidative_stress/Oxidative Stress]], [[notes/_link/Reactive Oxygen Species]]
+- New links added: [[8-oxo-2'-deoxyguanosine]], [[Base Excision Repair]], [[Cancer]], [[notes/_link/DNA Damage]], [[Nucleic Acids]], [[Oxidative Stress]], [[notes/_link/Reactive Oxygen Species]]
 - Suggested new entity notes to create: [[Base Excision Repair]], [[Nucleotide Excision Repair]]
 - Strong connections to strengthen: [[notes/_link/DNA Repair]] ↔ [[8-oxo-2'-deoxyguanosine]]

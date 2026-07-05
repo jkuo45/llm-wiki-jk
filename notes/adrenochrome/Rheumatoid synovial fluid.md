@@ -1,3 +1,11 @@
+---
+type: entity
+category: Anatomy
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Rheumatoid synovial fluid
 
 The fluid found in the joint cavities of individuals with rheumatoid arthritis.

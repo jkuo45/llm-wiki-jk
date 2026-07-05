@@ -1,3 +1,10 @@
+---
+type: entity
+category: biological_molecule
+entity_type: "Biological Molecule"
+created: 2026-05-29
+updated: 2026-05-29
+---
 # Melatonin
 
 **[[Melatonin]]** is a hormone produced by the pineal gland that regulates the sleep-wake cycle.
@@ -11,8 +18,8 @@ It primarily signals the body that it is time to sleep and acts as a potent anti
 ## Connections
 - [[Serotonin]]: The precursor to melatonin.
 - [[Methyl Groups]]: Required for the synthesis of melatonin from serotonin.
-- [[notes/oxidative_stress/Oxidative Stress]]: Melatonin helps protect the body from oxidative damage.
+- [[Oxidative Stress]]: Melatonin helps protect the body from oxidative damage.
 
 ---
 ### Linking Summary:
-- New links added: [[Serotonin]], [[Methyl Groups]], [[notes/oxidative_stress/Oxidative Stress]].
+- New links added: [[Serotonin]], [[Methyl Groups]], [[Oxidative Stress]].

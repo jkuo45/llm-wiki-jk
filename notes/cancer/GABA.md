@@ -4,5 +4,5 @@ Gamma-aminobutyric acid (GABA) is the chief inhibitory neurotransmitter in the d
 
 ### Linking Summary:
 - New links added: [[Ivermectin]], [[Glutamate-gated Cl- channels]]
-- Suggested new entity notes to create: [[Neurotransmitter]]
+- Suggested new entity notes to create: [[Neurotransmitters]]
 - Strong connections to strengthen: [[GABA]] ↔ [[Ivermectin]]

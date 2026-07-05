@@ -1,6 +1,18 @@
+---
+aliases:
+- sodium-coupled amino acid transporter 9
+category: Transporter
+created: '2026-07-04'
+type: entity
+updated: '2026-07-04'
+---
 # SLC38A9
 
 **SLC38A9** is a lysosomal amino acid transporter that functions as an arginine sensor, interacting with the [[Ragulator]] and [[Rag proteins]] complex to activate [[mTORC1]] in response to intralysosomal nutrient levels.
+
+## Function
+
+SLC38A9 is a lysosomal amino acid transporter that effluxes arginine from the lysosome to signal to [[mTORC1]] via the [[Ragulator]]-[[Rag proteins]] complex.
 
 ### Linking Summary:
 - New links added: [[Lysosome]], [[Ragulator]], [[Rag proteins]], [[mTORC1]]

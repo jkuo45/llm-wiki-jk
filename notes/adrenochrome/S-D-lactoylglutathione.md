@@ -1,3 +1,11 @@
+---
+type: entity
+category: Metabolite
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # S-D-lactoylglutathione
 
 S-D-lactoylglutathione is an intermediate metabolite within the [[Glyoxalase System]] pathway.

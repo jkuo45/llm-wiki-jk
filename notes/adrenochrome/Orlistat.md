@@ -1,3 +1,11 @@
+---
+type: entity
+category: Chemical Compound
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Orlistat
 
 Orlistat is a lipase inhibitor used as an anti-obesity medication. In addition to reducing fat absorption, it has been found to decrease the absorption of dietary [[Advanced Glycation End Products|AGEs]], potentially offering protective effects against AGE-induced damage.

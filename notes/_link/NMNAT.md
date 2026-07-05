@@ -1,3 +1,10 @@
+---
+type: entity
+category: enzyme
+entity_type: ""
+created: 2024-01-01
+updated: 2024-01-01
+---
 # NMNAT
 
 NMNAT (Nicotinamide mononucleotide adenylyltransferase) is a crucial enzyme in the NAD+ biosynthetic pathway. It catalyzes the final step of converting nicotinamide mononucleotide (NMN) or nicotinic acid mononucleotide (NaMN) to NAD+ or NAAD, respectively.

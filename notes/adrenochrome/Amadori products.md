@@ -1,3 +1,11 @@
+---
+type: entity
+category: Chemical Class
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Amadori products
 
 Amadori products are stable intermediate compounds formed during the early stages of [[Glycation]].

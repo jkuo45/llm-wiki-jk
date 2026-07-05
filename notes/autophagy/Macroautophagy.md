@@ -1,3 +1,11 @@
+---
+aliases:
+- autophagy
+category: Biological Process
+created: '2026-07-04'
+type: entity
+updated: '2026-07-04'
+---
 # Macroautophagy
 
 **Macroautophagy** is the primary and most well-studied type of [[Autophagy]]. It involves the sequestration of cytoplasmic components into double-membrane vesicles called [[Autophagosome|autophagosomes]], which then fuse with [[Lysosome|lysosomes]] for degradation.
@@ -15,6 +23,10 @@
 ## Role in Health
 - Essential for maintaining [[Cellular Homeostasis]] by removing damaged organelles and misfolded proteins.
 - Dysregulation is linked to [[notes/_link/Neurodegenerative Diseases|Neurodegenerative Disease]], [[Cancer]], and [[notes/_link/Aging]].
+
+## Process
+
+Macroautophagy is the canonical autophagy pathway involving autophagosome formation, fusion with the lysosome, and degradation of cytoplasmic contents.
 
 ### Linking Summary:
 - New links added: [[Autophagy]], [[Autophagosome]], [[Lysosome]], [[Atg]], [[Atg1]], [[Atg5]], [[Atg8]], [[LC3]], [[notes/_link/AMPK]], [[mTORC1]], [[Cellular Homeostasis]], [[notes/_link/Neurodegenerative Diseases|Neurodegenerative Disease]], [[Cancer]], [[notes/_link/Aging]]

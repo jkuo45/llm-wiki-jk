@@ -1,3 +1,11 @@
+---
+type: entity
+category: enzyme
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Glucocerebrosidase
 
 [[Glucocerebrosidase]] (GCase) is a lysosomal enzyme responsible for the breakdown of glucosylceramide. Mutations in the GBA1 gene, which encodes GCase, are the most common genetic risk factor for [[notes/_link/Parkinson's Disease]]. Reduced GCase activity leads to lysosomal dysfunction and promotes the aggregation of [[Alpha-Synuclein]].

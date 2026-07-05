@@ -1,3 +1,10 @@
+---
+type: entity
+category: other
+entity_type: "NA"
+created: 2024-01-01
+updated: 2024-01-01
+---
 # Disease Modeling
 
 [[Disease Modeling]] is a scientific approach that uses patient-derived cells, such as [[Induced Pluripotent Stem Cells]] (iPSCs), to recreate a disease in a laboratory environment. This allows for the detailed study of a disease's molecular and cellular mechanisms outside the human body.

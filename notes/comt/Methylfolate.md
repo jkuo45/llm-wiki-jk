@@ -13,7 +13,7 @@ updated: 2026-07-04
 **[[Methylfolate]]** (L-5-Methyltetrahydrofolate) is the active, methylated form of [[Folate]]. It is a critical component of the [[Methylation Cycle]].
 
 ## Interaction with COMT
-Individuals with slow [[COMT]] variants may be sensitive to high-dose [[Methylfolate]] supplementation. A sudden influx of methyl groups can cause rapid cycling of [[Neurotransmitter]] levels, potentially leading to irritability, anger, or anxiety.
+Individuals with slow [[COMT]] variants may be sensitive to high-dose [[Methylfolate]] supplementation. A sudden influx of methyl groups can cause rapid cycling of [[Neurotransmitters]] levels, potentially leading to irritability, anger, or anxiety.
 
 ## Connections
 - [[Folate]]: The base nutrient of which methylfolate is the active form.
@@ -22,4 +22,4 @@ Individuals with slow [[COMT]] variants may be sensitive to high-dose [[Methylfo
 
 ---
 ### Linking Summary:
-- New links added: [[Folate]], [[Methylation Cycle]], [[COMT]], [[Neurotransmitter]].
+- New links added: [[Folate]], [[Methylation Cycle]], [[COMT]], [[Neurotransmitters]].

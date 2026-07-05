@@ -1,3 +1,10 @@
+---
+type: entity
+category: other
+entity_type: "NA"
+created: 2024-01-01
+updated: 2024-01-01
+---
 # Lin28
 
 [[Lin28]] is an RNA-binding protein that acts as a key regulator of developmental timing and [[Pluripotency]]. It is particularly known for its role in inhibiting the maturation of the let-7 family of microRNAs.
