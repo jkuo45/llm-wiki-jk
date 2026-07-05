@@ -4,7 +4,7 @@
 
 - Project timestamp format %d\_%B\_%Y %I:%M %p %Z (uppercase)
   - Note: frontmatter dates use YYYY-MM-DD format; the timestamp format above is for README display, task outputs, and file naming only
-- Documents start with '[document]' or '\_document\_' in the file name.
+- Documents start with '[document]', '\_article\_', or '\_document\_' in the file name.
   - Depending on task, they may or may not be included in context, counts.
 - 'notes' directory:
   - Directory name represents the topic.
@@ -19,7 +19,33 @@
   - Contains task outputs. Default to saving to this directory.
 - Prefer WriteFile tool over python scripts to create entities.
 - Use uv for all python executables.
-- **On ingest of a file within a topic**: Extract/update triples into the topic's `_triples_.json`, then regenerate the corresponding `.svg` and `.dot` visualizations to `tasks/`. (See Subject Object Relation Triples section below.)
+- **On ingest of a file within a topic**: Extract/update triples into the topic's `_triples_<topic>.json`, then regenerate the corresponding `.svg` and `.dot` visualizations to `notes/<topic>/` (alongside the triples file). (See Subject Object Relation Triples section below.)
+
+## Single Document Ingestion Workflow
+
+**Prerequisites:** Document in `raw/` with `[document]`, `_article_`, or `_document_` prefix.
+
+| Step                             | Action                                                                                                                                                                                                                                                                                                                              | Output                                             |
+| -------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- |
+| **1. Ingest**                    | **Use `obsidian-markdown` skill** — read raw document, convert to Obsidian-flavored markdown with wiki links, callouts, properties, embeds                                                                                                                                                                                          | Structured markdown content for triples/entities   |
+| **2. Extract Triples**           | Append new triples to topic's `_triples_<topic>.json` (normalize entity names to canonical forms)                                                                                                                                                                                                                                   | Updated triples JSON in `notes/<topic>/`           |
+| **3. Regenerate Visualizations** | Run `uv run scripts/visualize_triples.py` on updated JSON → output `.svg`, `.dot` to `notes/<topic>/`topic/`(alongside`_triples_<topic>.json`)                                                                                                                                                                                      | Graph visualizations co-located with triples       |
+| **4. Enrich/Create Entities**    | **Use `research-scientist` agent skill** — for each new entity: create `.md` in topic dir with OKF frontmatter, wiki links, Connections section, Linking Summary. For existing entities: append new content, update `updated:` date.                                                                                                | New/updated entity notes / enriched existing notes |
+| **5. Review Stubs & Orphans**    | **Use `research-scientist` agent skill** — cross-reference all triples subjects/objects against existing notes (all topics + `_link/`). For stubs: create entity notes for high-frequency/well-defined concepts; normalize composites to canonical entities. Apply Orphan Link Resolution (scan & normalize, resolve true orphans). | Resolved stubs, normalized triples                 |
+| **6. Update README**             | Update summary table (date, entity count, word count) + triples overview section (nodes, edges, predicates, high%, top subjects/objects/predicates, zh-TW)                                                                                                                                                                          | Current README metrics                             |
+| **7. Cross-Topic Links**         | If new entity spans topics → consolidate in `notes/_link/` per Overlapping Link Resolution rules (topic hubs stay in topic dir)                                                                                                                                                                                                     | `_link/` consistency                               |
+
+**Key Principles:**
+
+- Prefer append to existing notes, rewrite if necessary
+- Use bare `[[Entity]]` wiki links (no path prefixes)
+- Frontmatter dates: `YYYY-MM-DD`; display dates: `DD_MMMM_YYYY`
+- Triples: normalize names to canonical entity titles for graph coherence
+
+**Agent Skills Used:**
+
+- `obsidian-markdown` — Step 1 (ingest & markup raw documents)
+- `research-scientist` — Steps 4 & 5 (entity enrichment, stub analysis, orphan resolution)
 
 ## Linking Format (creating wiki entries/notes/documents):
 
