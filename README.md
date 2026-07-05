@@ -2,17 +2,17 @@
 
 <!-- GENERATED: summary_table -->
 ## Summary Table (notes directory)
-| topic | last updated | count entities | count documents | count words | disk size |
-| :--- | :--- | :---: | :---: | :---: | :---: |
-| [_link](https://github.com/jkuo45/llm-wiki/tree/dev/notes/_link) | 04_JUL_2026 | 195 | 0 | 43,053 | 0.35 MB |
-| [adrenochrome](https://github.com/jkuo45/llm-wiki/tree/dev/notes/adrenochrome) | 04_JUL_2026 | 332 | 23 | 177,140 | 2.07 MB |
-| [autophagy](https://github.com/jkuo45/llm-wiki/tree/dev/notes/autophagy) | 04_JUL_2026 | 255 | 11 | 97,987 | 1.02 MB |
-| [cancer](https://github.com/jkuo45/llm-wiki/tree/dev/notes/cancer) | 04_JUL_2026 | 275 | 8 | 117,262 | 1.27 MB |
-| [comt](https://github.com/jkuo45/llm-wiki/tree/dev/notes/comt) | 04_JUL_2026 | 35 | 2 | 9,913 | 0.43 MB |
-| [epigenetics](https://github.com/jkuo45/llm-wiki/tree/dev/notes/epigenetics) | 04_JUL_2026 | 219 | 9 | 108,854 | 3.86 MB |
-| [neuromelanin](https://github.com/jkuo45/llm-wiki/tree/dev/notes/neuromelanin) | 04_JUL_2026 | 100 | 2 | 24,488 | 0.48 MB |
-| [oxidative_stress](https://github.com/jkuo45/llm-wiki/tree/dev/notes/oxidative_stress) | 04_JUL_2026 | 82 | 1 | 60,808 | 0.89 MB |
-| [sirtuins](https://github.com/jkuo45/llm-wiki/tree/dev/notes/sirtuins) | 04_JUL_2026 | 112 | 6 | 154,500 | 1.56 MB |
+| topic                                                                                  | last updated | count entities | count documents | count words | disk size |
+| :------------------------------------------------------------------------------------- | :----------- | :------------: | :-------------: | :---------: | :-------: |
+| [_link](https://github.com/jkuo45/llm-wiki/tree/dev/notes/_link)                       | 04_JUL_2026  |      195       |        0        |   43,053    |  0.35 MB  |
+| [adrenochrome](https://github.com/jkuo45/llm-wiki/tree/dev/notes/adrenochrome)         | 04_JUL_2026  |      332       |       23        |   177,140   |  2.07 MB  |
+| [autophagy](https://github.com/jkuo45/llm-wiki/tree/dev/notes/autophagy)               | 04_JUL_2026  |      255       |       11        |   97,987    |  1.02 MB  |
+| [cancer](https://github.com/jkuo45/llm-wiki/tree/dev/notes/cancer)                     | 04_JUL_2026  |      275       |        8        |   117,262   |  1.27 MB  |
+| [comt](https://github.com/jkuo45/llm-wiki/tree/dev/notes/comt)                         | 04_JUL_2026  |       35       |        2        |    9,913    |  0.43 MB  |
+| [epigenetics](https://github.com/jkuo45/llm-wiki/tree/dev/notes/epigenetics)           | 04_JUL_2026  |      219       |        9        |   108,854   |  3.86 MB  |
+| [neuromelanin](https://github.com/jkuo45/llm-wiki/tree/dev/notes/neuromelanin)         | 04_JUL_2026  |      100       |        2        |   24,488    |  0.48 MB  |
+| [oxidative_stress](https://github.com/jkuo45/llm-wiki/tree/dev/notes/oxidative_stress) | 04_JUL_2026  |       82       |        1        |   60,808    |  0.89 MB  |
+| [sirtuins](https://github.com/jkuo45/llm-wiki/tree/dev/notes/sirtuins)                 | 04_JUL_2026  |      112       |        6        |   154,500   |  1.56 MB  |
 <!-- END GENERATED: summary_table -->
 
 <!-- GENERATED: summary_counts -->
