@@ -2,26 +2,57 @@
 
 <!-- GENERATED: summary_table -->
 ## ℹ Summary Table
-| topic                                                                                  | updated     | documents | entities  |    words    |     disk     |
-| :------------------------------------------------------------------------------------- | :---------- | :-------: | :-------: | :---------: | :----------: |
-| [_link](https://github.com/jkuo45/llm-wiki/tree/dev/notes/_link)                       | 04_JUL_2026 |     0     |    551    |   127,852   |   1.02 MB    |
-| [adrenochrome](https://github.com/jkuo45/llm-wiki/tree/dev/notes/adrenochrome)         | 04_JUL_2026 |    23     |    289    |   163,636   |   1.96 MB    |
-| [autophagy](https://github.com/jkuo45/llm-wiki/tree/dev/notes/autophagy)               | 04_JUL_2026 |    11     |    235    |   93,640    |   0.98 MB    |
-| [cancer](https://github.com/jkuo45/llm-wiki/tree/dev/notes/cancer)                     | 04_JUL_2026 |     8     |    245    |   116,824   |   1.27 MB    |
-| [comt](https://github.com/jkuo45/llm-wiki/tree/dev/notes/comt)                         | 04_JUL_2026 |     2     |    35     |    9,913    |   0.43 MB    |
-| [epigenetics](https://github.com/jkuo45/llm-wiki/tree/dev/notes/epigenetics)           | 04_JUL_2026 |     9     |    195    |   115,868   |   3.91 MB    |
-| [neuromelanin](https://github.com/jkuo45/llm-wiki/tree/dev/notes/neuromelanin)         | 04_JUL_2026 |     2     |    88     |   24,094    |   0.48 MB    |
-| [oxidative_stress](https://github.com/jkuo45/llm-wiki/tree/dev/notes/oxidative_stress) | 04_JUL_2026 |     1     |    68     |   54,768    |   0.82 MB    |
-| [sirtuins](https://github.com/jkuo45/llm-wiki/tree/dev/notes/sirtuins)                 | 04_JUL_2026 |     6     |    94     |   143,519   |   1.47 MB    |
-| **subtotal**                                                                           | 04_JUL_2026 |  **62**   | **1,800** | **850,114** | **12.34 MB** |
+| topic                                                                                  | updated     | documents | entities |    words    |     disk     |
+| :------------------------------------------------------------------------------------- | :---------- | :-------: | :------: | :---------: | :----------: |
+| [_link](https://github.com/jkuo45/llm-wiki/tree/dev/notes/_link)                       | 04_JUL_2026 |     0     |   551    |   127,852   |   1.02 MB    |
+| [adrenochrome](https://github.com/jkuo45/llm-wiki/tree/dev/notes/adrenochrome)         | 04_JUL_2026 |    23     |   289    |   163,636   |   1.96 MB    |
+| [autophagy](https://github.com/jkuo45/llm-wiki/tree/dev/notes/autophagy)               | 04_JUL_2026 |    11     |   235    |   93,640    |   0.98 MB    |
+| [cancer](https://github.com/jkuo45/llm-wiki/tree/dev/notes/cancer)                     | 04_JUL_2026 |     8     |   245    |   116,824   |   1.27 MB    |
+| [comt](https://github.com/jkuo45/llm-wiki/tree/dev/notes/comt)                         | 04_JUL_2026 |     2     |    35    |    9,913    |   0.43 MB    |
+| [epigenetics](https://github.com/jkuo45/llm-wiki/tree/dev/notes/epigenetics)           | 04_JUL_2026 |     9     |   195    |   115,868   |   4.21 MB    |
+| [neuromelanin](https://github.com/jkuo45/llm-wiki/tree/dev/notes/neuromelanin)         | 04_JUL_2026 |     2     |    88    |   24,094    |   0.54 MB    |
+| [oxidative_stress](https://github.com/jkuo45/llm-wiki/tree/dev/notes/oxidative_stress) | 04_JUL_2026 |     1     |    68    |   54,768    |   0.87 MB    |
+| [sirtuins](https://github.com/jkuo45/llm-wiki/tree/dev/notes/sirtuins)                 | 04_JUL_2026 |     6     |    94    |   143,519   |   1.51 MB    |
+| **subtotal**                                                                           | 04_JUL_2026 |  **62**   | **1800** | **850,114** | **12.78 MB** |
 <!-- END GENERATED: summary_table -->
+*\*notes directory only*\*
 
 ---
 
 ## 📝 updates
-### most recent
-### notable
+
+> [!current]
+> NAD+, Sirtuins, raw(Clippings), `task_output`, Expert Judgement in Financial Tasks, etc.
+
+### 📌 notable:
+
+```from recent modified or notes directory: sirtuins, NAD+, Urolithin A, SIRT1, inflammation, etc.```
+
+- 🔬 [sirtuins in health and disease](https://github.com/jkuo45/llm-wiki-jk/blob/dev/notes/sirtuins/_document_%20-%20sirtuins%20in%20health%20and%20disease%20s41392-022-01257-8.md)
+- 💊 [Nicotinamide Riboside — Current State of Research](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20Nicotinamide%20Riboside%E2%80%94The%20Current%20State%20of%20Research%20and%20Therapeutic%20Uses.md)
+- ⚡ [Oxidative Stress: Harms and Benefits for Human Health](https://github.com/jkuo45/llm-wiki/blob/dev/notes/oxidative_stress/_document_%20-%20Oxidative%20Stress%20Harms%20and%20Benefits%20for%20Human%20Health.md)
+- 📈 [Biochemical Basis of Hormesis](https://github.com/jkuo45/llm-wiki/blob/dev/raw/_document_%20-%20biochemical_basis_hormesis_2026.04.20.719646v1.full.md)
+
 ---
+### 📅 recent:
+
+```from notes, raw: expert judgement in biomedical tasks, wine grape calculation for resvertrol, task_output recommendations, expert judgement fine-tuning (zh-TW), etc.```
+
+- 📋 [research-scientist: sirtuins recommendations](https://github.com/jkuo45/llm-wiki/blob/dev/tasks/task_output_sirtuins_recommendations_03_JULY_2026_03_55_PM_PDT.md)
+- 🤖 [Learning to Replicate Expert Judgment in Financial Tasks](https://github.com/jkuo45/llm-wiki/blob/dev/raw/_article_%20-%20Learning%20to%20Replicate%20Expert%20Judgment%20in%20Financial%20Tasks.md)
+- 🌿 [Fisetin — A Senotherapeutic That Extends Health and Lifespan](https://github.com/jkuo45/llm-wiki/blob/dev/raw/_document_%20-%20Fisetin%20is%20a%20senotherapeutic%20that%20extends%20health%20and%20lifespan.md)
+- 💪 [Creatine in Health and Disease](https://github.com/jkuo45/llm-wiki/blob/dev/raw/_document_%20-%20Creatine%20in%20Health%20and%20Disease.md)
+
+---
+### 💾 project:
+
+```from latest changes in git: open knowledge format, etc.```
+
+- 🛠️ [obsidian agent skills](https://github.com/jkuo45/llm-wiki/blob/dev/raw/_article_%20-%20kepanoobsidian-skills%20Agent%20skills%20for%20Obsidian.%20Teach%20your%20agent%20to%20use%20Obsidian%20CLI%20and%20open%20formats%20including%20Markdown%2C%20Bases%2C%20JSON%20Canvas..md)
+- 📐 [open knowledge spec](https://github.com/jkuo45/llm-wiki/blob/dev/raw/_article_%20-%20knowledge-catalogokfSPEC.md%20at%20main.md)
+
+---
+
 <!-- GENERATED: document_list -->
 ## Document List
 
