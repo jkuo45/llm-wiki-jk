@@ -1,3 +1,10 @@
+---
+type: entity
+category: anatomy
+entity_type: "Anatomy"
+created: 2026-05-29
+updated: 2026-05-29
+---
 # Ventral Tegmental Area
 
 The **Ventral Tegmental Area** (VTA) is a group of neurons located close to the midline on the floor of the midbrain. It is a key component of the brain's reward and motivation system.
@@ -12,16 +19,16 @@ In contrast to the [[Substantia Nigra Pars Compacta]], dopaminergic neurons in t
 - **Relative Sparing in Parkinson's:** VTA neurons are largely spared in [[notes/_link/Parkinson's Disease]] compared to the severe loss seen in the SNpc. This supports the hypothesis that neuromelanin accumulation contributes to neuronal vulnerability.
 
 ## COMT Expression
-Increased [[COMT]] activity in the dopamine neurons of the VTA can influence dopamine release capacity in target regions like the [[Striatum]].
+Increased [[COMT]] activity in the dopamine neurons of the VTA can influence dopamine release capacity in target regions like the [[Sirtuins]].
 
 ## Connections
 - [[notes/_link/Dopamine]]: The primary neurotransmitter produced by VTA neurons.
 - [[Prefrontal Cortex]]: A major projection target of the mesocortical pathway.
-- [[Striatum]]: Influenced by VTA dopamine, though primarily served by the substantia nigra.
+- [[Sirtuins]]: Influenced by VTA dopamine, though primarily served by the substantia nigra.
 - [[notes/_link/Parkinson's Disease]]: VTA neurons are relatively resistant compared to SNpc neurons.
 - [[VTA]]: Common abbreviation for the ventral tegmental area.
 
 ### Linking Summary:
-- New links added: [[COMT]], [[notes/_link/Dopamine]], [[Neuromelanin]], [[Nucleus Accumbens]], [[notes/_link/Parkinson's Disease]], [[Prefrontal Cortex]], [[Striatum]], [[Substantia Nigra Pars Compacta]], [[VTA]]
+- New links added: [[COMT]], [[notes/_link/Dopamine]], [[Neuromelanin]], [[Nucleus Accumbens]], [[notes/_link/Parkinson's Disease]], [[Prefrontal Cortex]], [[Sirtuins]], [[Substantia Nigra Pars Compacta]], [[VTA]]
 - Suggested new entity notes to create: [[Mesolimbic Pathway]], [[Mesocortical Pathway]], [[Nucleus Accumbens]]
 - Strong connections to strengthen: [[notes/_link/Ventral Tegmental Area]] ↔ [[notes/_link/Parkinson's Disease]], [[notes/_link/Ventral Tegmental Area]] ↔ [[Prefrontal Cortex]]

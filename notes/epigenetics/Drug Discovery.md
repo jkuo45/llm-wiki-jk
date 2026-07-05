@@ -1,3 +1,10 @@
+---
+type: entity
+category: other
+entity_type: "NA"
+created: 2024-01-01
+updated: 2024-01-01
+---
 # Drug Discovery
 
 [[Drug Discovery]] is the comprehensive process by which new candidate medications are identified. It involves a range of scientific disciplines, including biology, chemistry, and pharmacology, and traditionally progresses from target identification to clinical trials.

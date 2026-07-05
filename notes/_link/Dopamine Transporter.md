@@ -24,7 +24,7 @@ The **[[Dopamine Transporter]]** (also known as **[[DAT]]**) is a membrane prote
 
 ## Regional Distribution
 
-The [[Dopamine Transporter]] is highly abundant in the [[Striatum]], where it is the primary mechanism for terminating dopamine signaling via rapid uptake into dopaminergic terminals. In contrast, DAT is much less abundant and located farther from synaptic sites in the [[Prefrontal Cortex]], where [[COMT]] and the [[Norepinephrine Transporter]] ([[NET]]) play more significant roles in dopamine clearance.
+The [[Dopamine Transporter]] is highly abundant in the [[Sirtuins]], where it is the primary mechanism for terminating dopamine signaling via rapid uptake into dopaminergic terminals. In contrast, DAT is much less abundant and located farther from synaptic sites in the [[Prefrontal Cortex]], where [[COMT]] and the [[Norepinephrine Transporter]] ([[NET]]) play more significant roles in dopamine clearance.
 
 ## Interaction with COMT
 
@@ -35,7 +35,7 @@ The regional complementarity between DAT and COMT is a key principle of catechol
 ## Connections
 
 - [[notes/_link/Dopamine]]: The neurotransmitter transported by DAT.
-- [[Striatum]]: The brain region where DAT activity is most prominent.
+- [[Sirtuins]]: The brain region where DAT activity is most prominent.
 - [[Prefrontal Cortex]]: The region where DAT is sparse and COMT is more dominant.
 - [[DAT]]: The common abbreviation for the dopamine transporter.
 - [[COMT]]: The primary dopamine-metabolizing enzyme in brain regions with sparse DAT.
@@ -46,5 +46,5 @@ The regional complementarity between DAT and COMT is a key principle of catechol
 
 ### Linking Summary:
 
-- New links added: [[notes/_link/Dopamine]], [[Striatum]], [[Prefrontal Cortex]], [[COMT]], [[DAT]], [[Norepinephrine Transporter]], [[Vesicular Monoamine Transporter 2]]
+- New links added: [[notes/_link/Dopamine]], [[Sirtuins]], [[Prefrontal Cortex]], [[COMT]], [[DAT]], [[Norepinephrine Transporter]], [[Vesicular Monoamine Transporter 2]]
 - Strong connections to strengthen: [[Dopamine]] ↔ [[Dopamine Transporter]], [[COMT]] ↔ [[Dopamine Transporter]]

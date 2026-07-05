@@ -1,3 +1,10 @@
+---
+type: entity
+category: medical_condition
+entity_type: "Medical Condition"
+created: 2026-05-29
+updated: 2026-05-29
+---
 # Neurodegenerative Diseases
 
 **[[notes/_link/Neurodegenerative Diseases]]** are a group of disorders characterized by the progressive loss of structure or function of neurons, including death of neurons. [[notes/_link/Aging]] is the single most significant risk factor for these conditions, which include Alzheimer's Disease, Parkinson's Disease, and Huntington's Disease.
@@ -26,7 +33,7 @@ Because epigenetic changes are reversible, they offer a promising target for new
 
 
 ## Linking Summary:
-- New links added: [[notes/_link/Neurodegenerative Diseases]], [[notes/_link/Aging]], [[Epigenetics]], [[Histone Acetylation]], [[DNA Methylation]], [[Genomic Instability]], [[Autophagy]], [[notes/_link/mTOR]], [[notes/_link/AMPK]], [[HDAC]], [[notes/_link/Alzheimer's Disease]], [[notes/sirtuins/SIRT1]]
+- New links added: [[notes/_link/Neurodegenerative Diseases]], [[notes/_link/Aging]], [[Epigenetics]], [[Histone Acetylation]], [[DNA Methylation]], [[Genomic Instability]], [[Autophagy]], [[notes/_link/mTOR]], [[notes/_link/AMPK]], [[HDAC]], [[notes/_link/Alzheimer's Disease]], [[SIRT1]]
 - Suggested new entity notes to create: [[Amyloid Beta]], [[Tau Protein]], [[Synaptic Plasticity]]
 - Strong connections to strengthen: [[notes/_link/Neurodegenerative Diseases]] ↔ [[notes/_link/Aging]], [[notes/_link/Neurodegenerative Diseases]] ↔ [[notes/_link/Alzheimer's Disease]]
 
@@ -38,7 +45,7 @@ Because epigenetic changes are reversible, they offer a promising target for new
 - **[[notes/_link/Aging]]**: The primary driver and risk factor for neurodegeneration.
 - **[[notes/_link/Alzheimer's Disease]]**: The most common neurodegenerative disorder.
 - **[[Histone Acetylation]]**: A key epigenetic mark that is often compromised in the aging brain.
-- **[[notes/sirtuins/SIRT1]]**: A sirtuin that has shown neuroprotective effects in various disease models.
+- **[[SIRT1]]**: A sirtuin that has shown neuroprotective effects in various disease models.
 
 
 - [[Induced Pluripotent Stem Cells]]: Used to create patient-specific neurons for modeling and potential therapy.
@@ -48,6 +55,6 @@ Because epigenetic changes are reversible, they offer a promising target for new
 
 
 ### Linking Summary:
-- New links added: [[notes/_link/AMPK]], [[notes/_link/Aging]], [[notes/_link/Alzheimer's Disease]], [[notes/_link/Amyotrophic Lateral Sclerosis]], [[Autophagy]], [[DNA Methylation]], [[Epigenetics]], [[Genomic Instability]], [[HDAC]], [[Histone Acetylation]], [[Induced Pluripotent Stem Cells]], [[notes/_link/Neurodegenerative Diseases]], [[notes/_link/Parkinson's Disease]], [[notes/sirtuins/SIRT1]], [[Yamanaka Factors]], [[notes/_link/mTOR]]
+- New links added: [[notes/_link/AMPK]], [[notes/_link/Aging]], [[notes/_link/Alzheimer's Disease]], [[notes/_link/Amyotrophic Lateral Sclerosis]], [[Autophagy]], [[DNA Methylation]], [[Epigenetics]], [[Genomic Instability]], [[HDAC]], [[Histone Acetylation]], [[Induced Pluripotent Stem Cells]], [[notes/_link/Neurodegenerative Diseases]], [[notes/_link/Parkinson's Disease]], [[SIRT1]], [[Yamanaka Factors]], [[notes/_link/mTOR]]
 - Suggested new entity notes to create: [[Amyloid Beta]], [[Synaptic Plasticity]], [[Tau Protein]]
 - Strong connections to strengthen: [[Induced Pluripotent Stem Cells]] ↔ [[notes/_link/Neurodegenerative Diseases]], [[notes/_link/Neurodegenerative Diseases]] ↔ [[notes/_link/Aging]], [[notes/_link/Neurodegenerative Diseases]] ↔ [[notes/_link/Alzheimer's Disease]]

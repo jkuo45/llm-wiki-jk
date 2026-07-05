@@ -17,4 +17,4 @@ It is formed by the oxidation of [[Hemoglobin]]. This can be driven by reactive 
 - [[Hemoglobin]]
 - [[Methemoglobinemia]]
 - [[Adrenochrome]]
-- [[notes/oxidative_stress/Oxidative Stress]]
+- [[Oxidative Stress]]

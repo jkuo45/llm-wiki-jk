@@ -1,3 +1,10 @@
+---
+type: entity
+category: chemical
+entity_type: ""
+created: 2024-01-01
+updated: 2024-01-01
+---
 # Nicotinamide Riboside
 
 **Nicotinamide Riboside (NR)** is a form of vitamin B3 that acts as a potent precursor to [[NAD+]], essential for mitochondrial function, DNA repair, and the activation of sirtuins.

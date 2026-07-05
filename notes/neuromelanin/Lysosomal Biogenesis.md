@@ -1,3 +1,11 @@
+---
+type: entity
+category: biological_process
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Lysosomal Biogenesis
 
 [[Lysosomal Biogenesis]] is the cellular process of creating new lysosomes. It is a highly regulated process, primarily controlled by the transcription factor [[notes/_link/TFEB|TFEB]]. Proper lysosomal biogenesis is essential for maintaining cellular [[Proteostasis]] and for the degradation of materials like [[Neuromelanin]].

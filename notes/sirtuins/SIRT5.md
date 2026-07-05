@@ -63,7 +63,7 @@ Limited functional information was available at the time of Michan & Sinclair (2
 
 - New links added: [[SIRT3]], [[SIRT4]], [[SIRT6]], [[NAD+]], [[OAADPr]], [[Sir2 (yeast)]]
 - Suggested new entity notes to create: [[Desuccinylase Activity]], [[Mitochondrial Matrix]]
-- Strong connections to strengthen: [[SIRT5]] ↔ [[notes/sirtuins/SIRT3]], [[SIRT5]] ↔ [[SIRT4]]
+- Strong connections to strengthen: [[SIRT5]] ↔ [[SIRT3]], [[SIRT5]] ↔ [[SIRT4]]
 
 # SIRT5
 
@@ -83,4 +83,4 @@ SIRT5 (Sirtuin 5) is a NAD+-dependent deacylase localized primarily in the mitoc
 
 - New links added: [[NAD+]], [[Sirtuins]], [[Mitochondria]]
 - Suggested new entity notes to create:
-- Strong connections to strengthen: [[notes/_link/SIRT5]] ↔ [[Mitochondria]]
+- Strong connections to strengthen: [[SIRT5]] ↔ [[Mitochondria]]

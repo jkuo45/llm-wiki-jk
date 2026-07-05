@@ -28,4 +28,12 @@ The co-localization of H₂O₂-producing enzymes and Catalase within the same o
 
 ## Clinical Relevance
 
-Peroxisomal disorders include **Zellweger Syndrome** (severe peroxisome biogenesis disorder), **X-linked Adrenoleukodystrophy** (defective VLCFA transport), and **Acatalasemia** (Catalase deficiency leading to oral gangrene). Peroxisomes also play roles in [[notes/_link/Aging]], [[notes/oxidative_stress/Inflammation|inflammation]], and [[notes/oxidative_stress/Neurodegeneration|neurodegeneration]], as peroxisomal dysfunction increases oxidative stress.
+Peroxisomal disorders include **Zellweger Syndrome** (severe peroxisome biogenesis disorder), **X-linked Adrenoleukodystrophy** (defective VLCFA transport), and **Acatalasemia** (Catalase deficiency leading to oral gangrene). Peroxisomes also play roles in [[notes/_link/Aging]], [[inflammation]], and [[Neurodegeneration|neurodegeneration]], as peroxisomal dysfunction increases oxidative stress.
+
+## Content from [[oxidative_stress/Peroxisomes.md]]
+
+# Peroxisomes
+
+Peroxisomes are single-membrane organelles present in virtually all eukaryotic cells, central to β-oxidation of very-long-chain fatty acids and the metabolism of ROS.
+
+See [[notes/_link/Peroxisomes]].

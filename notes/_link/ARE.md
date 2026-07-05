@@ -1,0 +1,36 @@
+---
+type: entity
+category: biological_process
+entity_type: "Scientific Concept"
+aliases:
+  - Antioxidant Response Element
+  - EpRE
+  - Electrophile Response Element
+created: 2026-07-04
+updated: 2026-07-04
+---
+
+# ARE (Antioxidant Response Element)
+
+**ARE** (Antioxidant Response Element) is a cis-acting regulatory element in the promoter regions of over 200 cytoprotective genes. It is the primary DNA sequence through which [[NRF2]] drives the expression of antioxidant and detoxification enzymes.
+
+## Target Genes
+
+ARE-regulated genes include [[NQO1]], [[HO-1]], [[GCLM]]/[[GCLC]] (glutathione synthesis), [[notes/_link/Glutathione]] S-transferases (GSTs), and [[notes/_link/Superoxide Dismutase]].
+
+## Activation
+
+[[NRF2]] binds ARE sequences upon release from [[KEAP1]]. Inducers of ARE include [[Sulforaphane]], [[Curcumin]], and [[Oxidative Stress]].
+
+## Connections
+
+- [[NRF2]] — Transcription factor binding ARE
+- [[Sulforaphane]] — Potent ARE activator
+- [[HO-1]] — Canonical ARE target gene
+- [[notes/_link/Glutathione]] — Synthesis enzymes are ARE targets
+
+## Linking Summary
+
+- New links added: [[NRF2]], [[Sulforaphane]], [[HO-1]], [[notes/_link/Glutathione]], [[Oxidative Stress]], [[Curcumin]]
+- Suggested new entity notes to create: [[KEAP1]], [[NQO1]], [[GCLM]]
+- Strong connections to strengthen: [[ARE]] ↔ [[NRF2]]

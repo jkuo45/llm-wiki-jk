@@ -21,7 +21,7 @@ tags:
 
 Have you ever taken a supplement, such as [[methylfolate]] or [[methylB12]], and noticed an immediate improvement in your mood? Only to have that rebound on you to the point that you are angry and irritable with everyone around you…
 
-[[COMT]] has recently gained attention in the [[Biohacking|biohacking]] and personalized health communities as a key gene for understanding supplement tolerance and [[Neurotransmitter|neurotransmitter]] balance. In this article, I’ll explain how some supplements can interact with [[COMT]] variants ([[COMT]] slow and fast [[SNP|SNPs]]), causing noticeable side effects.
+[[COMT]] has recently gained attention in the [[Biohacking|biohacking]] and personalized health communities as a key gene for understanding supplement tolerance and [[Neurotransmitters|neurotransmitter]] balance. In this article, I’ll explain how some supplements can interact with [[COMT]] variants ([[COMT]] slow and fast [[SNP|SNPs]]), causing noticeable side effects.
 
 ### What is the [[COMT]] Enzyme?
 
@@ -29,11 +29,11 @@ The [[COMT]] gene encodes an enzyme called [[Catechol-O-methyltransferase]], whi
 
 *What are catechols — and why do we need to break them down?*
 
-[[Catechols]] include [[Neurotransmitter|neurotransmitters]] such as [[notes/_link/Dopamine]], [[notes/_link/Epinephrine]], and [[notes/_link/Norepinephrine]]. Other [[Catechols|catechols]] include [[Estrogen]] metabolites as well as drugs and [[Natural Substances|natural substances]] with a catechol structure.
+[[Catechols]] include [[Neurotransmitters|neurotransmitters]] such as [[notes/_link/Dopamine]], [[notes/_link/Epinephrine]], and [[notes/_link/Norepinephrine]]. Other [[Catechols|catechols]] include [[Estrogen]] metabolites as well as drugs and [[Natural Substances|natural substances]] with a catechol structure.
 
-The [[COMT]] enzyme plays an essential role in maintaining [[Neurotransmitter|neurotransmitter]] levels at the right amount.
+The [[COMT]] enzyme plays an essential role in maintaining [[Neurotransmitters|neurotransmitter]] levels at the right amount.
 
-Without the [[COMT]]-controlled [[Methylation]] reaction, [[Catecholamines]] can accumulate and generate [[Free Radicals|free radicals]], which can damage DNA. Thus, [[COMT]] is essential in protecting cells, including brain cells, from [[notes/oxidative_stress/Oxidative Stress]].\[[ref](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6563236/)\]
+Without the [[COMT]]-controlled [[Methylation]] reaction, [[Catecholamines]] can accumulate and generate [[Free Radicals|free radicals]], which can damage DNA. Thus, [[COMT]] is essential in protecting cells, including brain cells, from [[Oxidative Stress]].\[[ref](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6563236/)\]
 
 [[COMT]] is also important in converting [[Estrogen]] metabolites into forms that can easily be excreted by the body. \[[ref](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5584523/)\]
 
@@ -51,15 +51,15 @@ A common genetic variant, called [[COMT]] [[Val158Met]] changes the way that the
 
 ### Side effects of methylated vitamins with slow COMT:
 
-People with slow [[COMT]] enzyme variants may find that supplements that affect the [[Methylation Cycle|methylation cycle]] can affect their [[Neurotransmitter|neurotransmitter]] levels.
+People with slow [[COMT]] enzyme variants may find that supplements that affect the [[Methylation Cycle|methylation cycle]] can affect their [[Neurotransmitters|neurotransmitter]] levels.
 
-For example, a sudden influx of [[Methyl Groups|methyl groups]] from high doses of [[Methyl Donor|methyl donor]] supplements may increase and then decrease the pool of [[Methyl Groups|methyl groups]] available for [[COMT]] to use in [[Neurotransmitter|neurotransmitter]] reactions.
+For example, a sudden influx of [[Methyl Groups|methyl groups]] from high doses of [[Methyl Donor|methyl donor]] supplements may increase and then decrease the pool of [[Methyl Groups|methyl groups]] available for [[COMT]] to use in [[Neurotransmitters|neurotransmitter]] reactions.
 
-A **quick cycling of [[Neurotransmitter|neurotransmitter]] levels** may make someone **irritable, angry, or anxious.**
+A **quick cycling of [[Neurotransmitters|neurotransmitter]] levels** may make someone **irritable, angry, or anxious.**
 
 For example, some people with slow [[COMT]] function initially feel great when taking supplemental [[methylfolate]], but then they may notice later in the day that they are more irritable and anxious than normal. Or, their friends and family may notice their irritability and mood swings.
 
-[[COMT]] also interacts with the perception of pain through [[Neurotransmitter|neurotransmitter]] levels. Research shows that there can be interactions between slow [[COMT]] and medications in pain management.\[[ref](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5743122/)\] Adding [[Methyl Donor|methyl donor]] supplements to the stack may cause fluctuations in how well pain medications work.
+[[COMT]] also interacts with the perception of pain through [[Neurotransmitters|neurotransmitter]] levels. Research shows that there can be interactions between slow [[COMT]] and medications in pain management.\[[ref](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5743122/)\] Adding [[Methyl Donor|methyl donor]] supplements to the stack may cause fluctuations in how well pain medications work.
 
 ### How common are COMT polymorphisms?
 
@@ -79,9 +79,9 @@ Let’s dig into the details on which supplements interact with the [[COMT]] enz
 
 ### Supplements that inhibit COMT:
 
-Certain [[Flavonoids|flavonoids]] use [[COMT]] for metabolism, and high doses of them can inhibit (slow down) the availability of [[COMT]] for breaking down [[Neurotransmitter|neurotransmitters]].
+Certain [[Flavonoids|flavonoids]] use [[COMT]] for metabolism, and high doses of them can inhibit (slow down) the availability of [[COMT]] for breaking down [[Neurotransmitters|neurotransmitters]].
 
-Some people with slow [[COMT]] function may find that supplements that inhibit [[COMT]] also affect their [[Neurotransmitter|neurotransmitter]] levels, leading to irritability, anger, or anxiousness.
+Some people with slow [[COMT]] function may find that supplements that inhibit [[COMT]] also affect their [[Neurotransmitters|neurotransmitter]] levels, leading to irritability, anger, or anxiousness.
 
 The following are commonly used natural [[Anti-inflammatory|anti-inflammatory]] and [[Mast Cell Inhibitors|mast cell inhibitor]] supplements. These natural [[Flavonoids|flavonoids]] contain a catechol structure and are metabolized by [[COMT]].\[[ref](https://www.tandfonline.com/doi/abs/10.1080/03602532.2016.1258075)\]\[[ref](https://www.sciencedirect.com/science/article/abs/pii/S0278691519301772)\]\[[ref](http://accurateclinic.com/wp-content/uploads/2016/02/Role-of-Catechol-O-Methyltransferase-in-the-Disposition-of-Luteolin-in-Rats-2011.pdf)\]
 
@@ -131,7 +131,7 @@ The [[COMT]] enzyme needs [[Methyl Groups|methyl groups]] for its reactions, and
 
 BUT… Many **clinicians recommend against taking any [[Methyl Donor|methyl donor]] supplements for slow [[COMT]]** (rs4680 A/A).
 
-The reasoning for this is that suddenly adding a bunch of **[[Methyl Donor|methyl donors]] may** **affect mood** in people with slow [[COMT]]. Revving up the rate at which [[Neurotransmitter|neurotransmitters]] are broken down can affect mood. Adding a large dose of [[Methyl Donor|methyl donors]] increases and then decreases [[Neurotransmitter|neurotransmitter]] metabolism rates.
+The reasoning for this is that suddenly adding a bunch of **[[Methyl Donor|methyl donors]] may** **affect mood** in people with slow [[COMT]]. Revving up the rate at which [[Neurotransmitters|neurotransmitters]] are broken down can affect mood. Adding a large dose of [[Methyl Donor|methyl donors]] increases and then decreases [[Neurotransmitters|neurotransmitter]] metabolism rates.
 
 *Personal experience shows this to be true*:  
 [[Methyl Donor|Methyl donor]] supplements at higher doses may cause irritability, anger, or anxiety in people with slow [[COMT]]. This is anecdotal, but it is worth watching out for these types of reactions if you have the slow [[COMT]] variant.
@@ -197,7 +197,7 @@ About 40% of [[Methyl Groups|methyl groups]] are used in the body to synthesize 
 
 **2) Dietary [[Folate]] instead of methyl folate supplements:**
 
-If you have slow [[COMT]], there are a couple of dietary changes that may help you optimize [[Neurotransmitter|neurotransmitter]] function.
+If you have slow [[COMT]], there are a couple of dietary changes that may help you optimize [[Neurotransmitters|neurotransmitter]] function.
 
 Instead of a high-dose [[methylfolate]] supplement, you could try:
 
@@ -213,7 +213,7 @@ Answer: The [[COMT]] [[Val158Met]] variant (Met/Met genotype) produces an enzyme
 
 **What supplements should you avoid with slow COMT?**
 
-Answer: People with slow [[COMT]] may want to be cautious with high-dose [[methylfolate]], [[methylB12]], [[SAMe]], [[Tyrosine]], and [[COMT Inhibitors]] like [[EGCG]] and [[Quercetin]], as these can increase [[Neurotransmitter|neurotransmitter]] levels that are already elevated.
+Answer: People with slow [[COMT]] may want to be cautious with high-dose [[methylfolate]], [[methylB12]], [[SAMe]], [[Tyrosine]], and [[COMT Inhibitors]] like [[EGCG]] and [[Quercetin]], as these can increase [[Neurotransmitters|neurotransmitter]] levels that are already elevated.
 
 **Does COMT affect estrogen levels?**
 
@@ -225,11 +225,11 @@ Answer: The [[Val158Met]] variant is sometimes called the [[Warrior/Worrier Gene
 
 **Can COMT variants affect how methylfolate works?**
 
-Answer: Yes, people with slow [[COMT]] may experience mood swings or anxiety from [[methylfolate]] because the sudden influx of [[Methyl Groups|methyl groups]] can cause rapid cycling of [[Neurotransmitter|neurotransmitter]] levels.
+Answer: Yes, people with slow [[COMT]] may experience mood swings or anxiety from [[methylfolate]] because the sudden influx of [[Methyl Groups|methyl groups]] can cause rapid cycling of [[Neurotransmitters|neurotransmitter]] levels.
 
 ---
 
 ### Linking Summary:
-- New links added: [[COMT]], [[Catechol-O-methyltransferase]], [[notes/_link/Dopamine]], [[notes/_link/Epinephrine]], [[notes/_link/Norepinephrine]], [[Estrogen]], [[Catechols]], [[Methylation]], [[notes/oxidative_stress/Oxidative Stress]], [[Methyl Groups]], [[Serotonin]], [[Melatonin]], [[Val158Met]], [[Methylfolate]], [[MethylB12]], [[Quercetin]], [[Fisetin]], [[Luteolin]], [[Rutin]], [[Oleacein]], [[EGCG]], [[Green Tea]], [[notes/_link/Parkinson's Disease]], [[Levodopa]], [[Magnesium]], [[Berberine]], [[Resveratrol]], [[Hesperidin]], [[MTHFR]], [[SAMe]], [[S-adenosylmethionine]], [[TMG]], [[Betaine]], [[notes/_link/Vitamin E]], [[Alpha-tocopherol]], [[Aspirin]], [[notes/_link/Cardiovascular Disease]], [[Modafinil]], [[Adenosylcobalamin]], [[Hydroxocobalamin]], [[MTRR]], [[MTHFD1]], [[Creatine]], [[Folinic acid]], [[Tyrosine]].
+- New links added: [[COMT]], [[Catechol-O-methyltransferase]], [[notes/_link/Dopamine]], [[notes/_link/Epinephrine]], [[notes/_link/Norepinephrine]], [[Estrogen]], [[Catechols]], [[Methylation]], [[Oxidative Stress]], [[Methyl Groups]], [[Serotonin]], [[Melatonin]], [[Val158Met]], [[Methylfolate]], [[MethylB12]], [[Quercetin]], [[Fisetin]], [[Luteolin]], [[Rutin]], [[Oleacein]], [[EGCG]], [[Green Tea]], [[notes/_link/Parkinson's Disease]], [[Levodopa]], [[Magnesium]], [[Berberine]], [[Resveratrol]], [[Hesperidin]], [[MTHFR]], [[SAMe]], [[S-adenosylmethionine]], [[TMG]], [[Betaine]], [[notes/_link/Vitamin E]], [[Alpha-tocopherol]], [[Aspirin]], [[notes/_link/Cardiovascular Disease]], [[Modafinil]], [[Adenosylcobalamin]], [[Hydroxocobalamin]], [[MTRR]], [[MTHFD1]], [[Creatine]], [[Folinic acid]], [[Tyrosine]].
 - Suggested new entity notes to create: [[COMT]], [[Catechol-O-methyltransferase]], [[notes/_link/Dopamine]], [[Methylation]], [[Val158Met]], [[MTHFR]].
 - Strong connections to strengthen: [[COMT]] ↔ [[Methylation]], [[COMT]] ↔ [[notes/_link/Dopamine]].

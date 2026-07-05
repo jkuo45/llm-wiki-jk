@@ -11,6 +11,6 @@ updated: 2026-07-04
 Menadione is a redox-cycling compound that can induce mitochondrial ROS production and has been shown to extend lifespan in yeast through [[Mitohormesis]].
 
 ### Linking Summary:
-- New links added: [[Mitohormesis]], [[Redox Cycling]], [[notes/adrenochrome/Oxidative Stress]]
+- New links added: [[Mitohormesis]], [[Redox Cycling]], [[Oxidative Stress]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Menadione]] ↔ [[Mitohormesis]]

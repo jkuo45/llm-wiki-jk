@@ -1,3 +1,11 @@
+---
+type: entity
+category: imaging_technique
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Magnetic Resonance Imaging
 
 Magnetic Resonance Imaging (MRI) is a non-invasive imaging technology that produces three dimensional detailed anatomical images. Neuromelanin-sensitive MRI is used to visualize the [[notes/_link/Substantia Nigra]] and [[Locus Coeruleus]].

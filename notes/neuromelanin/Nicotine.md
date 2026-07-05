@@ -1,3 +1,11 @@
+---
+type: entity
+category: chemical_compound
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Nicotine
 
 [[Nicotine]] is an alkaloid found in tobacco that has been shown to bind to synthetic [[Neuromelanin]], with some epidemiological evidence suggesting a protective effect against [[notes/_link/Parkinson's Disease]].

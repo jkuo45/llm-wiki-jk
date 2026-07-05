@@ -1,3 +1,10 @@
+---
+type: entity
+category: anatomy
+entity_type: "Anatomy"
+created: 2024-01-01
+updated: 2024-01-01
+---
 # Focal Adhesion
 
 [[Focal Adhesion|Focal adhesions]] are large macromolecular assemblies through which mechanical force and regulatory signals are transmitted between the extracellular matrix ([[ECM]]) and an interacting cell.

@@ -13,7 +13,7 @@ relations:
     target: "[[NF-kappa B]]"
     sources: []
   - predicate: is activated by
-    target: "[[notes/sirtuins/SIRT1]]"
+    target: "[[SIRT1]]"
     sources: []
   - predicate: is activated by
     target: "[[Alpha-Lipoic Acid]]"
@@ -40,7 +40,7 @@ NRF2 belongs to the basic leucine zipper (bZIP) transcription factor family and 
 ## Target Genes & Functions
 
 NRF2 induces over 200 cytoprotective genes, including:
-- **Antioxidant Enzymes**: [[notes/_link/Superoxide Dismutase|SOD1]], [[Catalase]], [[Glutathione Peroxidase|GPx]], [[Peroxiredoxins]]
+- **Antioxidant Enzymes**: [[notes/_link/Superoxide Dismutase|SOD1]], [[Catalase]], [[Glutathione Peroxidase|GPx]], [[Peroxiredoxin]]
 - **Glutathione Synthesis**: Glutamate-cysteine ligase (GCL, both catalytic GCLC and modifier GCLM subunits), Glutathione synthetase (GSS), [[notes/_link/Glutathione|GSH]]
 - **Phase II Detoxification**: [[NQO1]], [[HO-1]] (HMOX1), [[UGT1A1]]
 - **Iron Metabolism**: Ferritin heavy chain (FTH1) — whose ferroxidase activity converts Fe2+ to Fe3+ for safe storage, limiting [[Fenton reaction]] chemistry
@@ -54,7 +54,7 @@ NRF2 is a key participant in the hormetic induction of stress resistance. In *C.
 
 ## Sirtuin Regulation
 
-[[notes/sirtuins/SIRT1]] activates NRF2 by modifying KEAP1 structure, leading to NRF2 nuclear translocation and promoting antioxidant gene expression. [[notes/sirtuins/SIRT6]] overexpression in the brain enhances NRF2 signaling and reduces [[notes/oxidative_stress/Oxidative Stress]].
+[[SIRT1]] activates NRF2 by modifying KEAP1 structure, leading to NRF2 nuclear translocation and promoting antioxidant gene expression. [[SIRT6]] overexpression in the brain enhances NRF2 signaling and reduces [[Oxidative Stress]].
 
 ## Redox Signaling & Cross-talk
 
@@ -62,4 +62,12 @@ NRF2 exhibits mutual antagonism with [[NF-kappa B]]: RelA (p65) competes with NR
 
 ## Clinical Relevance
 
-NRF2 activation is a therapeutic strategy for conditions characterized by oxidative stress, including [[notes/oxidative_stress/Chronic Obstructive Pulmonary Disease]], [[Asthma]], [[notes/_link/Neurodegenerative Diseases|neurodegenerative diseases]], [[notes/_link/Cardiovascular Disease]], and [[notes/_link/Diabetes Mellitus]]. Pharmacological NRF2 activators include [[Sulforaphane]] (from broccoli sprouts), [[Dimethyl fumarate]] (Tecfidera, approved for [[Multiple Sclerosis]]), [[Bardoxolone methyl]], and [[Oltipraz]]. Paradoxically, in established [[Cancer|cancers]], constitutive NRF2 activation can confer therapeutic resistance by enhancing detoxification of chemotherapeutic agents and promoting cell survival, a phenomenon termed the "NRF2 paradox."
+NRF2 activation is a therapeutic strategy for conditions characterized by oxidative stress, including [[Chronic Obstructive Pulmonary Disease]], [[Asthma]], [[notes/_link/Neurodegenerative Diseases|neurodegenerative diseases]], [[notes/_link/Cardiovascular Disease]], and [[notes/_link/Diabetes Mellitus]]. Pharmacological NRF2 activators include [[Sulforaphane]] (from broccoli sprouts), [[Dimethyl fumarate]] (Tecfidera, approved for [[Multiple Sclerosis]]), [[Bardoxolone methyl]], and [[Oltipraz]]. Paradoxically, in established [[Cancer|cancers]], constitutive NRF2 activation can confer therapeutic resistance by enhancing detoxification of chemotherapeutic agents and promoting cell survival, a phenomenon termed the "NRF2 paradox."
+
+## Content from [[oxidative_stress/NRF2.md]]
+
+# NRF2
+
+NRF2 is a master transcription factor regulating antioxidant defense.
+
+See [[notes/_link/NRF2]].

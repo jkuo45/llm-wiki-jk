@@ -1,0 +1,17 @@
+---
+type: entity
+category: enzyme
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
+# CYP2C9
+
+**Catalytic function:** CYP2C9 is an enzyme that catalyzes biochemical reactions essential for cellular metabolism and homeostasis.
+
+**Mechanism:** The catalytic activity of CYP2C9 is typically regulated by substrate availability, post-translational modifications, and allosteric effectors. Its active site contains key residues that coordinate substrate binding and transition state stabilization.
+
+**Physiological role:** CYP2C9 participates in metabolic pathways that maintain cellular redox balance, energy production, and biosynthetic processes. Its expression and activity are tightly regulated across different tissues.
+
+**Clinical relevance:** Dysregulation of CYP2C9 activity is implicated in metabolic disorders, oxidative stress-related pathologies, and cancer. Pharmacological modulation of this enzyme represents a therapeutic strategy for diseases involving its pathway.

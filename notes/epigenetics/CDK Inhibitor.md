@@ -1,3 +1,10 @@
+---
+type: entity
+category: protein
+entity_type: "Protein"
+created: 2024-01-01
+updated: 2024-01-01
+---
 # CDK Inhibitor
 
 A [[CDK Inhibitor]] is any of several proteins that inhibit the activity of [[Cyclin-Dependent Kinase|cyclin-dependent kinases]] ([[CDK|CDKs]]). They are critical for inducing and maintaining [[Quiescence]]. Examples include [[p21]], [[p27]], and [[p57]].

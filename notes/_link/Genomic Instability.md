@@ -1,3 +1,10 @@
+---
+type: entity
+category: biological_process
+entity_type: ""
+created: 2024-01-01
+updated: 2024-01-01
+---
 # Genomic Instability
 
 **[[Genomic Instability]]** is a hallmark of [[notes/_link/Aging]] characterized by an increased tendency of the genome to acquire mutations, deletions, and structural alterations. It is both a cause and a consequence of the aging process, leading to cellular dysfunction and an increased risk of disease.

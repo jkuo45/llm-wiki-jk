@@ -1,3 +1,10 @@
+---
+type: entity
+category: other
+entity_type: "NA"
+created: 2024-01-01
+updated: 2024-01-01
+---
 # PODXL
 
 [[PODXL]] (Podocalyxin-like) is a cell surface glycoprotein originally identified in kidney podocytes but later found to be a highly specific marker for undifferentiated [[Embryonic Stem Cells]] (ESCs) and [[Induced Pluripotent Stem Cells]] (iPSCs).

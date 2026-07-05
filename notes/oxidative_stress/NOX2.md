@@ -24,6 +24,6 @@ In [[notes/_link/Neutrophils]] and [[notes/_link/Macrophage|macrophages]], NOX2 
 ## Pathological Roles
 
 - **[[Chronic Granulomatous Disease]] (CGD)**: Mutations in *CYBB* (X-linked) or other NOX2 subunits cause CGD, characterized by recurrent, life-threatening bacterial and fungal infections and dysregulated inflammatory granuloma formation.
-- **[[notes/oxidative_stress/Neurodegeneration|Neurodegeneration]]**: Microglial NOX2 activation drives sustained [[notes/oxidative_stress/Nitrative Stress|nitrative stress]] and contributes to neuronal loss in [[notes/_link/Parkinson's Disease]], [[notes/_link/Alzheimer's Disease]], and [[notes/_link/Amyotrophic Lateral Sclerosis]].
+- **[[Neurodegeneration|Neurodegeneration]]**: Microglial NOX2 activation drives sustained [[Nitrative Stress|nitrative stress]] and contributes to neuronal loss in [[notes/_link/Parkinson's Disease]], [[notes/_link/Alzheimer's Disease]], and [[notes/_link/Amyotrophic Lateral Sclerosis]].
 - **[[notes/_link/Ischemia-reperfusion Injury]]**: Neutrophil NOX2 produces a burst of superoxide upon reperfusion, contributing to tissue damage.
-- **[[notes/_link/Cardiovascular Disease]]**: NOX2-derived superoxide in the vascular wall consumes [[notes/_link/Nitric Oxide|NO]], impairing vasodilation and promoting [[notes/oxidative_stress/Endothelial Dysfunction|endothelial dysfunction]].
+- **[[notes/_link/Cardiovascular Disease]]**: NOX2-derived superoxide in the vascular wall consumes [[notes/_link/Nitric Oxide|NO]], impairing vasodilation and promoting [[Endothelial Dysfunction|endothelial dysfunction]].

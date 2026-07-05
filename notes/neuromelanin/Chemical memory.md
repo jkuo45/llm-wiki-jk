@@ -1,3 +1,11 @@
+---
+type: entity
+category: scientific_concept
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Chemical memory
 
 [[Chemical memory]] is a hypothesized form of molecular memory in dopaminergic neurons based on the intracellular sequestration and triggered release of [[notes/_link/Dopamine]] by [[Neuromelanin]] granules.

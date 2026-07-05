@@ -12,7 +12,7 @@ PGC1α (Peroxisome proliferator-activated receptor gamma coactivator 1-alpha) is
 
 ## Function
 
-PGC1α coordinates the expression of genes involved in mitochondrial respiration, fat oxidation, and thermogenesis. It is activated by energy-sensing pathways, including [[AMPK]] (via phosphorylation) and [[notes/sirtuins/SIRT1]] (via deacetylation), in response to exercise, caloric restriction, or cold exposure.
+PGC1α coordinates the expression of genes involved in mitochondrial respiration, fat oxidation, and thermogenesis. It is activated by energy-sensing pathways, including [[AMPK]] (via phosphorylation) and [[SIRT1]] (via deacetylation), in response to exercise, caloric restriction, or cold exposure.
 
 ## Role in Mitohormesis
 
@@ -20,7 +20,7 @@ PGC1α is a key effector in the [[Mitohormesis]] paradigm, as it not only increa
 
 ## Structural Organization
 
-PGC1α is a 798-amino acid protein with modular domain architecture. The N-terminal region contains a highly conserved activation domain that recruits histone acetyltransferases ([[p300]]/[[CBP]]) and the TRAP/Mediator complex to facilitate transcriptional initiation. The C-terminal region contains an [[RNA recognition motif]] (RRM) and a serine/arginine-rich (RS) domain that couples transcription to pre-mRNA splicing. The central regulatory region harbors phosphorylation sites for [[AMPK]] and [[p38 MAPK]], as well as acetylation sites targeted by [[notes/sirtuins/SIRT1]] and the acetyltransferase [[GCN5]].
+PGC1α is a 798-amino acid protein with modular domain architecture. The N-terminal region contains a highly conserved activation domain that recruits histone acetyltransferases ([[p300]]/[[CBP]]) and the TRAP/Mediator complex to facilitate transcriptional initiation. The C-terminal region contains an [[RNA recognition motif]] (RRM) and a serine/arginine-rich (RS) domain that couples transcription to pre-mRNA splicing. The central regulatory region harbors phosphorylation sites for [[AMPK]] and [[p38 MAPK]], as well as acetylation sites targeted by [[SIRT1]] and the acetyltransferase [[GCN5]].
 
 ## Interaction with Transcription Factors
 
@@ -28,7 +28,7 @@ PGC1α lacks intrinsic DNA-binding activity and exerts its coactivator functions
 
 ## Regulation by SIRT1 Deacetylation and AMPK Phosphorylation
 
-PGC1α activity is tightly regulated by cellular energy status. [[notes/sirtuins/SIRT1]] deacetylates PGC1α at multiple lysine residues (e.g., K778) in an [[NAD+]]-dependent manner, enhancing its transcriptional activity. [[AMPK]] directly phosphorylates PGC1α at Thr177 and Ser538, promoting its deacetylation by SIRT1 and increasing its stability. This reciprocal regulation establishes a feed-forward loop wherein AMPK senses energy deficit and activates PGC1α while SIRT1 links activation to NAD+ availability, coupling mitochondrial biogenesis to the metabolic state.
+PGC1α activity is tightly regulated by cellular energy status. [[SIRT1]] deacetylates PGC1α at multiple lysine residues (e.g., K778) in an [[NAD+]]-dependent manner, enhancing its transcriptional activity. [[AMPK]] directly phosphorylates PGC1α at Thr177 and Ser538, promoting its deacetylation by SIRT1 and increasing its stability. This reciprocal regulation establishes a feed-forward loop wherein AMPK senses energy deficit and activates PGC1α while SIRT1 links activation to NAD+ availability, coupling mitochondrial biogenesis to the metabolic state.
 
 ## Role in Mitochondrial Biogenesis
 
@@ -36,17 +36,17 @@ PGC1α induces mitochondrial biogenesis by coactivating [[NRF1]] and [[NRF2]], w
 
 ## Connection to Mitohormesis and Therapeutic Potential
 
-In the [[Mitohormesis]] paradigm, PGC1α is both a downstream effector and an upstream regulator of adaptive responses to mitochondrial stress. Mild mitochondrial dysfunction activates PGC1α via [[AMPK]] and [[CaMK]], which in turn induces [[Manganese superoxide dismutase|SOD2]], [[Catalase]], [[Glutathione peroxidase]], and [[UCP2]] as part of the mitohormetic antioxidant program. Therapeutically, PGC1α activation by exercise mimetics ([[AICAR]], [[GW501516]]), NAD+ precursors ([[Nicotinamide Riboside]], [[Nicotinamide Mononucleotide]]), or natural compounds ([[Resveratrol]], [[Urolithin A]]) holds promise for [[Aging]], neurodegeneration, [[Metabolic syndrome]], and [[Sarcopenia]].
+In the [[Mitohormesis]] paradigm, PGC1α is both a downstream effector and an upstream regulator of adaptive responses to mitochondrial stress. Mild mitochondrial dysfunction activates PGC1α via [[AMPK]] and [[CaMK]], which in turn induces [[Manganese superoxide dismutase|SOD2]], [[Catalase]], [[Glutathione peroxidase]], and [[UCP2]] as part of the mitohormetic antioxidant program. Therapeutically, PGC1α activation by exercise mimetics ([[AICAR]], [[GW501516]]), NAD+ precursors ([[Nicotinamide Riboside]], [[Nicotinamide Mononucleotide]]), or natural compounds ([[Resveratrol]], [[Urolithin A]]) holds promise for [[Aging]], neurodegeneration, [[Metabolic_Syndrome]], and [[Sarcopenia]].
 
 ## Related Entities
 
 - [[AMPK]]
-- [[notes/sirtuins/SIRT1]]
+- [[SIRT1]]
 - [[Mitochondria]]
 - [[Mitohormesis]]
 
 ## Linking Summary
 
-- New links added: [[AMPK]], [[notes/sirtuins/SIRT1]], [[Mitochondria]], [[Mitohormesis]], [[Mitohormetic Redox-Relay]]
+- New links added: [[AMPK]], [[SIRT1]], [[Mitochondria]], [[Mitohormesis]], [[Mitohormetic Redox-Relay]]
 - Suggested new entity notes to create: [[Mitochondrial biogenesis]]
 - Strong connections to strengthen: [[PGC1α]] ↔ [[Metabolic Homeostasis]], [[PGC1α]] ↔ [[Mitohormetic Redox-Relay]]

@@ -1,6 +1,6 @@
 ---
 type: entity
-category: Biological Process
+category: biological_process
 aliases:
   - endoplasmic reticulum stress
   - unfolded protein response

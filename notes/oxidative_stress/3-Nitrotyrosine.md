@@ -8,7 +8,7 @@ updated: 2026-07-04
 
 # 3-Nitrotyrosine
 
-**3-Nitrotyrosine (3-NT)** is a covalent protein modification formed by the reaction of [[Peroxynitrite]] (ONOO⁻) with tyrosine residues, serving as a specific biomarker of [[notes/oxidative_stress/Nitrative Stress|nitrative stress]].
+**3-Nitrotyrosine (3-NT)** is a covalent protein modification formed by the reaction of [[Peroxynitrite]] (ONOO⁻) with tyrosine residues, serving as a specific biomarker of [[Nitrative Stress|nitrative stress]].
 
 ## Formation
 
@@ -20,4 +20,4 @@ Peroxynitrite reacts with protein tyrosine residues via two mechanisms: (1) dire
 
 ## Clinical Relevance
 
-Elevated 3-NT is detected in over 50 human pathologies, including [[notes/_link/Cardiovascular Disease|cardiovascular disease]] (atherosclerotic plaques, myocarditis), [[notes/oxidative_stress/Neurodegeneration|neurodegenerative diseases]] ([[notes/_link/Alzheimer's Disease]], [[notes/_link/Parkinson's Disease]], [[notes/_link/Amyotrophic Lateral Sclerosis]]), [[notes/oxidative_stress/Inflammation|inflammatory diseases]] ([[notes/oxidative_stress/Rheumatoid Arthritis|rheumatoid arthritis]], [[Asthma|asthma]], [[notes/oxidative_stress/Chronic Obstructive Pulmonary Disease|COPD]]), [[notes/_link/Diabetes Mellitus]], and [[notes/oxidative_stress/Multiple Sclerosis]]. 3-NT is detected by immunohistochemistry, ELISA, or LC-MS/MS.
+Elevated 3-NT is detected in over 50 human pathologies, including [[notes/_link/Cardiovascular Disease|cardiovascular disease]] (atherosclerotic plaques, myocarditis), [[Neurodegeneration|neurodegenerative diseases]] ([[notes/_link/Alzheimer's Disease]], [[notes/_link/Parkinson's Disease]], [[notes/_link/Amyotrophic Lateral Sclerosis]]), [[inflammatory diseases]] ([[Rheumatoid Arthritis|rheumatoid arthritis]], [[Asthma|asthma]], [[Chronic Obstructive Pulmonary Disease|COPD]]), [[notes/_link/Diabetes Mellitus]], and [[Multiple Sclerosis]]. 3-NT is detected by immunohistochemistry, ELISA, or LC-MS/MS.

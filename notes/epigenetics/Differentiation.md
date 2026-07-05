@@ -1,3 +1,10 @@
+---
+type: entity
+category: other
+entity_type: "NA"
+created: 2024-01-01
+updated: 2024-01-01
+---
 # Differentiation
 
 The process by which a less specialized cell becomes a more specialized cell type.

@@ -1,6 +1,6 @@
 ---
 type: entity
-category: chemical_class
+category: chemical
 aliases: [HMG-CoA reductase inhibitors, HMGCR inhibitors]
 created: 2026-07-04
 updated: 2026-07-04
@@ -8,7 +8,7 @@ updated: 2026-07-04
 
 # Statins
 
-**Statins** are a class of lipid-lowering medications that competitively inhibit [[HMG-CoA reductase]] — the rate-limiting enzyme in the mevalonate pathway — reducing endogenous cholesterol synthesis. Beyond their lipid-lowering effects, statins exert pleiotropic actions relevant to [[notes/oxidative_stress/Oxidative Stress|oxidative stress]].
+**Statins** are a class of lipid-lowering medications that competitively inhibit [[HMG-CoA reductase]] — the rate-limiting enzyme in the mevalonate pathway — reducing endogenous cholesterol synthesis. Beyond their lipid-lowering effects, statins exert pleiotropic actions relevant to [[Oxidative Stress|oxidative stress]].
 
 ## Mechanism
 
@@ -18,7 +18,7 @@ By inhibiting the mevalonate pathway, statins reduce synthesis of both cholester
 
 - **XO Inhibition**: Some statins (particularly atorvastatin) directly inhibit [[Xanthine Oxidase]].
 - **[[notes/_link/NRF2]] Activation**: Statins can activate NRF2/ARE signaling, inducing antioxidant genes.
-- **[[notes/oxidative_stress/Lipid Peroxidation]] Reduction**: Statins reduce LDL oxidation and oxLDL levels.
+- **[[Lipid Peroxidation]] Reduction**: Statins reduce LDL oxidation and oxLDL levels.
 - **[[Coenzyme Q10]] Depletion**: Statins reduce endogenous [[Coenzyme Q10]] synthesis (by inhibiting HMG-CoA reductase, the same enzyme required for CoQ10 biosynthesis), potentially contributing to statin-associated muscle symptoms.
 
 ## Clinical Relevance

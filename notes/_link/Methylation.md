@@ -1,3 +1,10 @@
+---
+type: entity
+category: chemical_process
+entity_type: "Chemical Process"
+created: 2026-05-31
+updated: 2026-05-31
+---
 # Methylation
 
 **[[Methylation]]** is a fundamental biochemical and epigenetic process involving the transfer of a methyl group to a substrate. It is critical for the regulation of gene expression, neurotransmitter metabolism, and detoxification.

@@ -28,18 +28,18 @@ Three distinct NOS isoforms, encoded by separate genes, differ in regulation, ti
 - **Gene**: NOS1 (chromosome 12q24.22)
 - **Expression**: Central and peripheral neurons, skeletal muscle, kidney macula densa
 - **Regulation**: Calcium/calmodulin-dependent; activated by [[notes/_link/NMDA receptor]] stimulation and calcium influx
-- **Function**: [[notes/_link/Neurotransmission]], [[notes/_link/Long-term potentiation]] (LTP), regulation of cerebral blood flow; NO from nNOS acts as a [[notes/_link/Non-coding RNA|retrograde messenger]]
+- **Function**: [[Neurotransmission]], [[notes/_link/Long-term potentiation]] (LTP), regulation of cerebral blood flow; NO from nNOS acts as a [[notes/_link/Non-coding RNA|retrograde messenger]]
 
 ### Inducible NOS (iNOS, NOS2)
 - **Gene**: NOS2 (chromosome 17q11.2-q12)
 - **Expression**: [[notes/_link/Macrophage|Macrophages]], [[notes/_link/Neutrophils]], hepatocytes, vascular smooth muscle, endothelial cells (induced)
-- **Regulation**: Transcriptionally regulated by [[notes/oxidative_stress/NF-kappa B]], [[notes/oxidative_stress/TNF-alpha]], [[notes/oxidative_stress/IL-1b]], and [[notes/_link/LPS]]; calcium-independent once expressed
+- **Regulation**: Transcriptionally regulated by [[NF-kappa B]], [[TNF-alpha]], [[IL-1b]], and [[notes/_link/LPS]]; calcium-independent once expressed
 - **Function**: High-output NO production for [[Innate Immunity|innate immune defense]]; sustained NO at nanomolar–micromolar levels mediates [[notes/_link/Macrophage]] killing of pathogens
 
 ### Endothelial NOS (eNOS, NOS3)
 - **Gene**: NOS3 (chromosome 7q36.1)
 - **Expression**: Vascular endothelium, cardiac myocytes, platelets, [[Hippocampus|hippocampal neurons]]
-- **Regulation**: Calcium/calmodulin-dependent; activated by [[Shear Stress]], [[notes/_link/VEGF]], [[notes/_link/Bradykinin]], [[notes/_link/Estrogen]]; regulated by [[notes/_link/Akt]]-mediated phosphorylation at Ser1177 and [[notes/_link/PP2A]]-mediated dephosphorylation
+- **Regulation**: Calcium/calmodulin-dependent; activated by [[Shear Stress]], [[VEGF]], [[notes/_link/Bradykinin]], [[notes/_link/Estrogen]]; regulated by [[notes/_link/Akt]]-mediated phosphorylation at Ser1177 and [[notes/_link/PP2A]]-mediated dephosphorylation
 - **Function**: [[notes/_link/Vasodilation]], inhibition of [[Platelet aggregation]], maintenance of vascular barrier function, regulation of [[Angiogenesis]]
 
 ## Domain Structure and Cofactor Requirements
@@ -65,7 +65,7 @@ eNOS activity is exquisitely controlled through:
 
 ### Phosphorylation Sites
 - **Ser1177** (human eNOS): [[notes/_link/Akt]]-mediated activating phosphorylation (most critical)
-- **Ser633**: [[notes/_link/PKA]]- and [[notes/_link/AMPK]]-mediated activation
+- **Ser633**: [[PKA]]- and [[notes/_link/AMPK]]-mediated activation
 - **Thr495**: [[notes/_link/PKC]]-mediated inhibitory phosphorylation; dephosphorylation by [[notes/_link/PP2A]] activates eNOS
 - **Ser114**: [[notes/_link/p38 MAPK]]-mediated inhibitory phosphorylation under inflammatory stress
 
@@ -79,27 +79,27 @@ eNOS is predominantly membrane-associated at the [[Golgi apparatus]] and [[Plasm
 
 ## eNOS Uncoupling: Mechanisms and Consequences
 
-When BH₄ or L-arginine are limiting, the NOS dimer reduces O₂ instead of L-arginine, producing [[notes/oxidative_stress/Superoxide Radicals]] rather than NO. This **eNOS uncoupling** is a central mechanism in [[notes/oxidative_stress/Endothelial Dysfunction]]:
+When BH₄ or L-arginine are limiting, the NOS dimer reduces O₂ instead of L-arginine, producing [[Superoxide Radicals]] rather than NO. This **eNOS uncoupling** is a central mechanism in [[Endothelial Dysfunction]]:
 
 ### Triggers for Uncoupling
-1. **BH₄ oxidation**: [[notes/oxidative_stress/Peroxynitrite]] (ONOO⁻) rapidly oxidizes BH₄ to BH₂ (k ≈ 10⁶ M⁻¹s⁻¹), which cannot support coupled NO synthesis
-2. **L-arginine depletion**: Arginase upregulation (by [[notes/oxidative_stress/TNF-alpha]] and [[notes/oxidative_stress/IL-1b]]) and [[ADMA]] accumulation reduce substrate availability
+1. **BH₄ oxidation**: [[Peroxynitrite]] (ONOO⁻) rapidly oxidizes BH₄ to BH₂ (k ≈ 10⁶ M⁻¹s⁻¹), which cannot support coupled NO synthesis
+2. **L-arginine depletion**: Arginase upregulation (by [[TNF-alpha]] and [[IL-1b]]) and [[ADMA]] accumulation reduce substrate availability
 3. **Cysteine oxidation**: [[notes/_link/Reactive Oxygen Species]] oxidize the zinc-thiolate cluster (Cys96 and Cys101) in eNOS, disrupting dimerization
 4. **S-glutathionylation**: eNOS S-glutathionylation at Cys689 and Cys908 switches eNOS from NO to O₂⁻• production
 
 ### Consequences of Uncoupling
 - **Loss of NO production**: Impaired vasodilation, platelet inhibition
-- **Superoxide generation**: O₂⁻• scavenges any remaining NO (k ≈ 1.9 × 10¹⁰ M⁻¹s⁻¹) to form [[notes/oxidative_stress/Peroxynitrite]]
+- **Superoxide generation**: O₂⁻• scavenges any remaining NO (k ≈ 1.9 × 10¹⁰ M⁻¹s⁻¹) to form [[Peroxynitrite]]
 - **Amplification cycle**: Peroxynitrite further oxidizes BH₄ and nitrates eNOS tyrosine residues, sustaining uncoupling
 
 ## iNOS and Inflammatory Nitrative Stress
 
-iNOS produces NO at high rates (µM/min) sustained over hours to days following [[notes/_link/LPS]] or cytokine stimulation. This high-output NO interacts with [[notes/oxidative_stress/NADPH Oxidase]]-derived superoxide to generate [[notes/oxidative_stress/Peroxynitrite]], driving [[notes/oxidative_stress/Nitrative Stress]]:
+iNOS produces NO at high rates (µM/min) sustained over hours to days following [[notes/_link/LPS]] or cytokine stimulation. This high-output NO interacts with [[NADPH Oxidase]]-derived superoxide to generate [[Peroxynitrite]], driving [[Nitrative Stress]]:
 
 - **Protein tyrosine nitration**: 3-nitrotyrosine formation (biomarker of nitrative stress in [[notes/_link/Inflammation]])
 - **Lipid peroxidation**: Initiation by NO₂• and ONOO⁻
-- **[[notes/oxidative_stress/Mitochondrial Dysfunction]]**: Inhibition of complex I and IV by ONOO⁻
-- **DNA damage**: Deamination and nitration of [[notes/oxidative_stress/Nucleic Acids|DNA bases]]
+- **[[notes/_link/Mitochondrial Dysfunction]]**: Inhibition of complex I and IV by ONOO⁻
+- **DNA damage**: Deamination and nitration of [[Nucleic Acids|DNA bases]]
 
 iNOS-derived NO also exerts immunosuppressive effects by inhibiting [[notes/_link/NFRB|NF-κB]] in a negative feedback loop and by modulating [[notes/_link/T cell]] function.
 
@@ -112,23 +112,23 @@ iNOS-derived NO also exerts immunosuppressive effects by inhibiting [[notes/_lin
 - **eNOS-sparing**: Given the essential role of eNOS in vascular health
 
 ### Therapeutic Strategies
-- **BH₄ supplementation**: Sepiapterin restores BH₄ levels and recouples eNOS in clinical trials for [[notes/oxidative_stress/Pulmonary Hypertension]] and [[notes/_link/Diabetes Mellitus]]
+- **BH₄ supplementation**: Sepiapterin restores BH₄ levels and recouples eNOS in clinical trials for [[notes/_link/Pulmonary Hypertension]] and [[notes/_link/Diabetes Mellitus]]
 - **Folic acid**: Stabilizes BH₄ binding and directly scavenges superoxide
 - **L-arginine / L-citrulline**: Restoring substrate availability
-- **Antioxidant recoupling**: [[notes/oxidative_stress/Catalase]] and [[notes/oxidative_stress/Superoxide Dismutase]] mimetics (e.g., [[notes/_link/MitoQ]]) reduce superoxide and BH₄ oxidation
+- **Antioxidant recoupling**: [[Catalase]] and [[notes/_link/Superoxide Dismutase]] mimetics (e.g., [[MitoQ]]) reduce superoxide and BH₄ oxidation
 
 ### Clinical Relevance
-- [[notes/oxidative_stress/Endothelial Dysfunction]]: eNOS uncoupling is a core pathological mechanism
+- [[Endothelial Dysfunction]]: eNOS uncoupling is a core pathological mechanism
 - [[notes/_link/Sepsis]]: iNOS overproduction causes refractory hypotension
 - [[notes/_link/Stroke]]: nNOS-derived NO mediates excitotoxic neuronal death
 - [[notes/_link/Atherosclerosis]]: Impaired eNOS activity accelerates plaque formation
 - [[notes/_link/Parkinson's Disease]]: nNOS and iNOS contribute to dopaminergic neuron loss
 
 ### Connections
-- [[notes/oxidative_stress/NADPH Oxidase]]: Cooperative partner in ROS-RNS crosstalk
-- [[notes/oxidative_stress/Peroxynitrite]]: Principal cytotoxic product of NO-superoxide interaction
-- [[notes/oxidative_stress/Reactive Nitrogen Species]]: Broader RNS family
-- [[notes/oxidative_stress/Endothelial Dysfunction]]: Arising from NOS uncoupling
-- [[notes/_link/ADMA]]: Endogenous NOS inhibitor
-- [[notes/oxidative_stress/Nitrative Stress]]: iNOS-driven pathology
+- [[NADPH Oxidase]]: Cooperative partner in ROS-RNS crosstalk
+- [[Peroxynitrite]]: Principal cytotoxic product of NO-superoxide interaction
+- [[Reactive Nitrogen Species]]: Broader RNS family
+- [[Endothelial Dysfunction]]: Arising from NOS uncoupling
+- [[ADMA]]: Endogenous NOS inhibitor
+- [[Nitrative Stress]]: iNOS-driven pathology
 - [[notes/_link/Akt]]: Key upstream kinase for eNOS Ser1177 phosphorylation

@@ -30,11 +30,11 @@ NF-κB regulates hundreds of target genes encoding: (i) pro-inflammatory cytokin
 
 ## Regulation by SIRT1 and Redox State
 
-As described above, [[notes/sirtuins/SIRT1]] deacetylates RelA at Lys310, reducing its transcriptional activity. Additional sirtuins ([[SIRT2]], [[SIRT6]], [[SIRT7]]) regulate NF-κB through distinct mechanisms, including H3K9 deacetylation at target gene promoters (SIRT6) and inhibition of nuclear translocation (SIRT7). The cellular redox state also modulates NF-κB: moderate [[Reactive Oxygen Species|ROS]] levels activate the pathway via IKK oxidation, whereas excessive ROS can inhibit DNA binding through direct oxidation of redox-sensitive cysteine residues in the RHD.
+As described above, [[SIRT1]] deacetylates RelA at Lys310, reducing its transcriptional activity. Additional sirtuins ([[SIRT2]], [[SIRT6]], [[SIRT7]]) regulate NF-κB through distinct mechanisms, including H3K9 deacetylation at target gene promoters (SIRT6) and inhibition of nuclear translocation (SIRT7). The cellular redox state also modulates NF-κB: moderate [[Reactive Oxygen Species|ROS]] levels activate the pathway via IKK oxidation, whereas excessive ROS can inhibit DNA binding through direct oxidation of redox-sensitive cysteine residues in the RHD.
 
 ## Connection to Inflammation and Aging
 
-Chronic NF-κB activation is a hallmark of inflammaging — the low-grade, sterile inflammation that drives age-related functional decline. NF-κB activity increases with age in multiple tissues, driven by accumulated [[Advanced Glycation End Products|AGE]]-[[RAGE]] signaling, mitochondrial dysfunction, and [[DNA damage]]. This sustained activation promotes [[Insulin Resistance]], [[Atherosclerosis]], [[Sarcopenia]], neurodegeneration, and frailty. Therapeutic strategies targeting NF-κB, including [[notes/sirtuins/SIRT1]] activators and [[RAGE]] antagonists, are under investigation to mitigate inflammaging and extend healthspan.
+Chronic NF-κB activation is a hallmark of inflammaging — the low-grade, sterile inflammation that drives age-related functional decline. NF-κB activity increases with age in multiple tissues, driven by accumulated [[Advanced Glycation End Products|AGE]]-[[RAGE]] signaling, mitochondrial dysfunction, and [[DNA damage]]. This sustained activation promotes [[Insulin Resistance]], [[Atherosclerosis]], [[Sarcopenia]], neurodegeneration, and frailty. Therapeutic strategies targeting NF-κB, including [[SIRT1]] activators and [[RAGE]] antagonists, are under investigation to mitigate inflammaging and extend healthspan.
 
 ### Linking Summary:
 - New links added: [[Advanced Glycation End Products]], [[RAGE]], [[TNFα]], [[IL-6]], [[SIRT1]], [[SIRT2]], [[SIRT6]], [[SIRT7]]

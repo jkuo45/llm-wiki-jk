@@ -18,7 +18,7 @@ RAGE is a member of the immunoglobulin superfamily. The interaction between AGEs
 
 RAGE signaling is implicated in:
 - [[Inflammation]]
-- [[notes/adrenochrome/Oxidative Stress]]
+- [[Oxidative Stress]]
 - [[Aging]]
 - [[Autophagy]]
 - Vascular alterations and diabetic vasculopathy.
@@ -37,7 +37,7 @@ Ligand engagement of RAGE activates multiple downstream signaling cascades: (i) 
 
 ## Soluble RAGE as a Decoy Receptor
 
-Alternate splicing and proteolytic cleavage by [[ADAM10]] and [[MMP9]] generate soluble RAGE (sRAGE) and endogenous secretory RAGE (esRAGE), which lack the transmembrane and intracellular domains. sRAGE functions as a decoy receptor, sequestering RAGE ligands and preventing membrane-bound RAGE activation. Low serum sRAGE levels are a biomarker for increased risk of [[Cardiovascular disease]], [[Diabetes]], [[Metabolic syndrome]], [[Rheumatoid Arthritis]], and [[Alzheimer's Disease]]. Administration of recombinant sRAGE attenuates disease progression in preclinical models of diabetic vasculopathy, atherosclerosis, and neuroinflammation.
+Alternate splicing and proteolytic cleavage by [[ADAM10]] and [[MMP9]] generate soluble RAGE (sRAGE) and endogenous secretory RAGE (esRAGE), which lack the transmembrane and intracellular domains. sRAGE functions as a decoy receptor, sequestering RAGE ligands and preventing membrane-bound RAGE activation. Low serum sRAGE levels are a biomarker for increased risk of [[Cardiovascular disease]], [[Diabetes]], [[Metabolic_Syndrome]], [[Rheumatoid Arthritis]], and [[Alzheimer's Disease]]. Administration of recombinant sRAGE attenuates disease progression in preclinical models of diabetic vasculopathy, atherosclerosis, and neuroinflammation.
 
 ## Role in Diabetic and Neurodegenerative Disease
 
@@ -49,6 +49,6 @@ RAGE signaling intersects with the [[Adrenochrome Pathway]] through multiple mec
 
 ## Linking Summary
 
-- New links added: [[Advanced Glycation End Products]], [[Reactive Oxygen Species]], [[Apoptosis]], [[Inflammation]], [[notes/adrenochrome/Oxidative Stress]], [[Aging]], [[Autophagy]]
+- New links added: [[Advanced Glycation End Products]], [[Reactive Oxygen Species]], [[Apoptosis]], [[Inflammation]], [[Oxidative Stress]], [[Aging]], [[Autophagy]]
 - Suggested new entity notes to create: [[Soluble RAGE]]
 - Strong connections to strengthen: [[RAGE]] ↔ [[Advanced Glycation End Products]]

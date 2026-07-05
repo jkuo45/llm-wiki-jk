@@ -1,3 +1,10 @@
+---
+type: entity
+category: other
+entity_type: "NA"
+created: 2024-01-01
+updated: 2024-01-01
+---
 # Somatic Cells
 
 [[Somatic Cells]] are any cells of the body that are not gametes (sperm or egg cells) or undifferentiated stem cells. They are typically differentiated and have a specific function within an organism.

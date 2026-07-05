@@ -1,6 +1,6 @@
 ---
 type: entity
-category: Enzyme
+category: enzyme
 aliases:
   - protein kinase C
   - PKC family
@@ -25,3 +25,15 @@ PKCβ inhibitors ([[Enzastaurin]], [[Ruboxistaurin]]) are being investigated for
 
 ### Linking Summary
 - New links added: [[TFEB]], [[Autophagy]], [[GSK3β]], [[Calcineurin]], [[mTORC1]], [[PMA]], [[B Cell]], [[T Cell]]
+
+## Content from [[cancer/PKC.md]]
+
+# PKC
+
+Protein kinase C (PKC) is a family of protein kinase enzymes that are involved in controlling the function of other proteins through the phosphorylation of hydroxyl groups of serine and threonine amino acid residues.
+
+### Linking Summary
+
+- New links added: [[Bcl-2]], [[Phosphorylation]], [[PKCδ]], [[PKCζ]], [[PKCι]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[PKC]] ↔ [[Bcl-2]]

@@ -65,7 +65,7 @@ Senomorphics hold promise across multiple age-related pathologies:
 - **[[Osteoarthritis]]**: Senescent [[Chondrocytes]] secrete [[MMP]] and inflammatory cytokines that degrade cartilage.
 - **[[Parkinson's Disease]]**: Senescent [[Astrocytes]] and [[Microglia]] contribute to neuroinflammation; senomorphics may slow neurodegeneration.
 - **[[Chronic Kidney Disease]]**: Tubular cell senescence drives renal fibrosis; senomorphic interventions preserve kidney function.
-- **[[Idiopathic Pulmonary Fibrosis]]**: Senescent [[Lung]] fibroblasts produce pro-fibrotic SASP factors.
+- **[[Idiopathic Pulmonary Fibrosis]]**: Senescent [[Lungs]] fibroblasts produce pro-fibrotic SASP factors.
 
 ## Distinction from SASP-Remodeling Aminochrome Complex
 

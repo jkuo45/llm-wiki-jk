@@ -1,3 +1,10 @@
+---
+type: entity
+category: medical_condition
+entity_type: "Medical Condition"
+created: 2026-05-29
+updated: 2026-05-29
+---
 # Schizophrenia
 
 Schizophrenia is a concept related to [[Adrenochrome]] and catecholamine metabolism.

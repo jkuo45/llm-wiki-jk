@@ -1,3 +1,10 @@
+---
+type: entity
+category: enzyme
+entity_type: "Enzyme"
+created: 2026-05-29
+updated: 2026-05-29
+---
 # Tyrosine Hydroxylase
 
 **Tyrosine Hydroxylase** (TH) is the rate-limiting enzyme in the biosynthesis of [[Catecholamines]], including [[notes/_link/Dopamine]], [[notes/_link/Norepinephrine]], and [[notes/_link/Epinephrine]].

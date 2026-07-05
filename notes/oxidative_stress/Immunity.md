@@ -18,7 +18,7 @@ updated: 2026-07-04
 Immunity is the capability of multicellular organisms to resist harmful microorganisms. It involves both specific and nonspecific components.
 
 ## Role of Oxidative Stress
-[[notes/oxidative_stress/Oxidative Stress]] is fundamentally intertwined with the immune response. Phagocytes, such as [[notes/_link/Neutrophils]] and macrophages, utilize a process called [[notes/_link/Respiratory Burst]] to produce high concentrations of [[notes/_link/Reactive Oxygen Species]] (ROS) and [[Reactive Nitrogen Species]] (RNS) to destroy invading pathogens.
+[[Oxidative Stress]] is fundamentally intertwined with the immune response. Phagocytes, such as [[notes/_link/Neutrophils]] and macrophages, utilize a process called [[notes/_link/Respiratory Burst]] to produce high concentrations of [[notes/_link/Reactive Oxygen Species]] (ROS) and [[Reactive Nitrogen Species]] (RNS) to destroy invading pathogens.
 
 ## Redox Signaling in Immunity
 Beyond direct pathogen killing, ROS function as [[Signaling Molecules]] that regulate the activation of immune cells and the production of [[Pro-inflammatory Cytokines]] via pathways like [[NF-kappa B]].
@@ -30,7 +30,7 @@ Beyond direct pathogen killing, ROS function as [[Signaling Molecules]] that reg
 - [[NADPH Oxidase]]: The enzyme complex that powers the oxidative immune response.
 
 ### Linking Summary:
-- New links added: [[notes/oxidative_stress/Oxidative Stress]], [[notes/_link/Neutrophils]], [[notes/_link/Respiratory Burst]], [[notes/_link/Reactive Oxygen Species]], [[Reactive Nitrogen Species]], [[Signaling Molecules]], [[Pro-inflammatory Cytokines]], [[NF-kappa B]], [[notes/_link/Inflammation]], [[NADPH Oxidase]]
+- New links added: [[Oxidative Stress]], [[notes/_link/Neutrophils]], [[notes/_link/Respiratory Burst]], [[notes/_link/Reactive Oxygen Species]], [[Reactive Nitrogen Species]], [[Signaling Molecules]], [[Pro-inflammatory Cytokines]], [[NF-kappa B]], [[notes/_link/Inflammation]], [[NADPH Oxidase]]
 - Suggested new entity notes to create: [[Pro-inflammatory Cytokines]]
 - Strong connections to strengthen: [[Immunity]] ↔ [[notes/_link/Respiratory Burst]]
 
@@ -40,7 +40,7 @@ The professional phagocyte NADPH oxidase (NOX2) is the central enzymatic engine 
 
 ## Macrophage Redox Biology and iNOS
 
-Macrophages utilize both [[NADPH Oxidase|NOX2]] and the inducible isoform of [[Nitric Oxide Synthase]] (iNOS, NOS2) to produce [[notes/_link/Nitric Oxide]] (NO) and [[notes/_link/Reactive Oxygen Species|ROS]] simultaneously. Under inflammatory stimulation (e.g., [[LPS|bacterial lipopolysaccharide]] + [[IFN-γ|interferon-γ]]), iNOS is transcriptionally induced via [[NF-kappa B]] and [[STAT1|STAT1 signaling]], generating micromolar concentrations of NO. The simultaneous production of NO and superoxide by iNOS and NOX2 yields [[Peroxynitrite]] at diffusion-limited rates. Peroxynitrite nitrates tyrosine residues on bacterial proteins (forming 3-nitrotyrosine), inactivates bacterial [[Iron-Sulfur Clusters|iron-sulfur cluster]] enzymes, and damages [[Bacterial DNA|bacterial DNA]]. In alternatively activated (M2) macrophages, arginine metabolism shifts toward [[Arginase|arginase I]] instead of iNOS, producing [[Ornithine]] and [[Polyamines]] that promote tissue repair and fibrosis, illustrating how redox pathway choice determines [[Macrophage Polarization|macrophage polarization]].
+Macrophages utilize both [[NADPH Oxidase|NOX2]] and the inducible isoform of [[Nitric Oxide Synthase]] (iNOS, NOS2) to produce [[notes/_link/Nitric Oxide]] (NO) and [[notes/_link/Reactive Oxygen Species|ROS]] simultaneously. Under inflammatory stimulation (e.g., [[LPS|bacterial lipopolysaccharide]] + [[IFN-γ|interferon-γ]]), iNOS is transcriptionally induced via [[NF-kappa B]] and [[STAT1|STAT1 signaling]], generating micromolar concentrations of NO. The simultaneous production of NO and superoxide by iNOS and NOX2 yields [[Peroxynitrite]] at diffusion-limited rates. Peroxynitrite nitrates tyrosine residues on bacterial proteins (forming 3-nitrotyrosine), inactivates bacterial [[Iron-Sulfur Clusters|iron-sulfur cluster]] enzymes, and damages [[Bacterial DNA|bacterial DNA]]. In alternatively activated (M2) macrophages, arginine metabolism shifts toward [[Arginase|arginase I]] instead of iNOS, producing [[Ornithine]] and [[Polyamine]] that promote tissue repair and fibrosis, illustrating how redox pathway choice determines [[Macrophage Polarization|macrophage polarization]].
 
 ## T Cell Redox Regulation and the Glutathione Axis
 
@@ -48,7 +48,7 @@ Macrophages utilize both [[NADPH Oxidase|NOX2]] and the inducible isoform of [[N
 
 ## Immunometabolism: The Redox-Metabolic Axis
 
-Activated immune cells undergo a metabolic switch from oxidative phosphorylation to aerobic glycolysis (the "Warburg effect" in immunology), which is coupled to ROS production. In T cells, the [[notes/_link/mTOR|mTOR]]/[[HIF-1α]] axis drives glycolytic gene expression, while in macrophages, [[LPS]] stimulation triggers a break in the TCA cycle at isocitrate dehydrogenase and succinate dehydrogenase, leading to accumulation of [[succinate]] and [[citrate]]. Succinate oxidation at [[notes/_link/Mitochondria|mitochondrial]] Complex II drives reverse electron transport at Complex I, generating bursts of [[Mitochondrial ROS|mitochondrial ROS]] (mROS) that stabilize HIF-1α and enhance [[IL-1b]] production. Citrate is exported from mitochondria and used for [[notes/_link/Lipids|fatty acid]] synthesis (needed for membrane expansion) and [[itaconate]] production. Itaconate is a recently discovered anti-inflammatory metabolite that activates [[Nrf2]] through alkylation of [[Keap1]] and inhibits succinate dehydrogenase, forming a negative feedback loop that limits excessive [[notes/_link/Inflammation|inflammation]].
+Activated immune cells undergo a metabolic switch from oxidative phosphorylation to aerobic glycolysis (the "Warburg effect" in immunology), which is coupled to ROS production. In T cells, the [[notes/_link/mTOR|mTOR]]/[[HIF-1α]] axis drives glycolytic gene expression, while in macrophages, [[LPS]] stimulation triggers a break in the TCA cycle at isocitrate dehydrogenase and succinate dehydrogenase, leading to accumulation of [[succinate]] and [[citrate]]. Succinate oxidation at [[notes/_link/Mitochondria|mitochondrial]] Complex II drives reverse electron transport at Complex I, generating bursts of [[Mitochondrial ROS|mitochondrial ROS]] (mROS) that stabilize HIF-1α and enhance [[IL-1b]] production. Citrate is exported from mitochondria and used for [[fatty acid]] synthesis (needed for membrane expansion) and [[itaconate]] production. Itaconate is a recently discovered anti-inflammatory metabolite that activates [[Nrf2]] through alkylation of [[Keap1]] and inhibits succinate dehydrogenase, forming a negative feedback loop that limits excessive [[notes/_link/Inflammation|inflammation]].
 
 ## Oxidative Stress and Immune Senescence
 

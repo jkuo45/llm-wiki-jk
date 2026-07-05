@@ -130,7 +130,7 @@ Sentiment polarity of the entity within the context of oxidative stress and horm
 | [[Nitric Oxide Synthase]]                     | 04_July_2026 08:00 PM | Enzyme              | 9           | 1           | Enzyme producing nitric oxide, a critical signaling molecule.                           |
 | [[notes/_link/Nitric Oxide]]                  | 25_May_2026 05:23 PM | Biological Molecule | 10          | 1           | Essential signaling molecule for vascular health and neurotransmission.                 |
 | [[Nucleic Acids]]                             | 04_July_2026 08:00 PM | Biological Molecule | 8           | 0           | Targets of ROS; damage leads to mutations and aging.                                    |
-| [[notes/oxidative_stress/Oxidative Stress]]   | 04_July_2026 08:00 PM | Scientific Concept  | 10          | 0           | The central phenomenon; viewed as a dual role of damage and vital signaling.            |
+| [[Oxidative Stress]]   | 04_July_2026 08:00 PM | Scientific Concept  | 10          | 0           | The central phenomenon; viewed as a dual role of damage and vital signaling.            |
 | [[notes/_link/Parkinson's Disease]]           | 27_May_2026 11:16 AM | Medical Condition   | 9           | -1          | Neurodegeneration driven by mitochondrial dysfunction and ROS.                          |
 | [[Peroxynitrite]]                             | 04_July_2026 08:00 PM | Biological Molecule | 10          | -1          | Potent and damaging RNS formed from nitric oxide and superoxide.                        |
 | [[Polyphenols]]                               | 04_July_2026 08:00 PM | Chemical Class      | 8           | 1           | Dietary antioxidants that induce hormetic adaptive responses.                           |

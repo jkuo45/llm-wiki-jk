@@ -1,3 +1,11 @@
+---
+type: entity
+category: biological_process
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Ubiquitin-proteasome system
 
 The [[Ubiquitin-proteasome system]] (UPS) is the primary mechanism for the regulated degradation of short-lived, damaged, or misfolded proteins within the cell.

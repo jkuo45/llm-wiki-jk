@@ -57,9 +57,9 @@ Leuco-adrenochrome occupies a pivotal position in the [[Adrenochrome]] redox cyc
 - [[Adrenochrome]]
 * [[adrenaline-quinone]]
 - [[Redox cycle]]
-- [[notes/oxidative_stress/Oxidative Stress]]
+- [[Oxidative Stress]]
 
 ### Linking Summary:
-- New links added: [[notes/_link/Epinephrine]], [[Adrenochrome]], [[Catecholamines]], [[Superoxide anion]], [[Impurity marker]], [[Reference standard]], [[Adrenochrome Hypothesis]], [[Redox cycle]], [[notes/oxidative_stress/Oxidative Stress]], [[Tyrosinase]], [[Ceruloplasmin]], [[Adrenochrome Semiquinone Radical]], [[Peroxynitrite]], [[notes/_link/Ascorbic Acid]], [[Tocopherol]], [[N-Ethylmaleimide]], [[HPLC-ECD]], [[Multiple Reaction Monitoring]], [[N-Acetylcysteine]], [[notes/_link/Glutathione]], [[Lipoid Acid]], [[Carbazochrome]], [[Hydroxyl radical]]
+- New links added: [[notes/_link/Epinephrine]], [[Adrenochrome]], [[Catecholamines]], [[Superoxide anion]], [[Impurity marker]], [[Reference standard]], [[Adrenochrome Hypothesis]], [[Redox cycle]], [[Oxidative Stress]], [[Tyrosinase]], [[Ceruloplasmin]], [[Adrenochrome Semiquinone Radical]], [[Peroxynitrite]], [[notes/_link/Ascorbic Acid]], [[Tocopherol]], [[N-Ethylmaleimide]], [[HPLC-ECD]], [[Multiple Reaction Monitoring]], [[N-Acetylcysteine]], [[notes/_link/Glutathione]], [[Lipoid Acid]], [[Carbazochrome]], [[Hydroxyl radical]]
 - Suggested new entity notes to create: [[Adrenochrome Semiquinone Radical]], [[adrenaline-quinone]]
 - Strong connections to strengthen: [[Leuco-adrenochrome]] ↔ [[Adrenochrome]], [[Leuco-adrenochrome]] ↔ [[Redox Cycling]]

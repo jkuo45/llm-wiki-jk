@@ -12,7 +12,7 @@ Advanced Glycation End Products (AGEs) are non-enzymatic modifications of protei
 
 ## Overview
 
-AGEs are formed through the [[Maillard Reaction]], where reducing sugars react with amino groups. This process is accelerated by [[Hyperglycemia]] and [[notes/adrenochrome/Oxidative Stress]]. AGEs accumulate in tissues during [[Aging]] and contribute to the pathogenesis of diabetic complications, vascular stiffness, and organ dysfunction.
+AGEs are formed through the [[Maillard Reaction]], where reducing sugars react with amino groups. This process is accelerated by [[Hyperglycemia]] and [[Oxidative Stress]]. AGEs accumulate in tissues during [[Aging]] and contribute to the pathogenesis of diabetic complications, vascular stiffness, and organ dysfunction.
 
 ## Mechanisms of Injury
 
@@ -58,6 +58,6 @@ A bidirectional relationship exists between AGE formation and [[Adrenochrome]] g
 
 ## Linking Summary
 
-- New links added: [[Maillard Reaction]], [[Hyperglycemia]], [[notes/adrenochrome/Oxidative Stress]], [[Aging]], [[Collagen]], [[Elastic fibers]], [[Catalase]], [[Glutathione peroxidase]], [[RAGE]], [[Reactive Oxygen Species]], [[Aminoguanidine]], [[Pyridoxamine]], [[Polyphenols]], [[Alagebrium]], [[Epicatechin]], [[Glucosepane]], [[Pentosidine]], [[AGER1]], [[Glyoxalase System]], [[GLO1]], [[GLO2]], [[PARK7]], [[Methylglyoxal]], [[Glyoxal]], [[3-deoxyglucosone]], [[Fructosamine-3-kinase]], [[Amadori products]], [[Fructosyl-Amino Acid Oxidases]], [[notes/_link/Lysosome]], [[Cathepsin D]], [[Cathepsin B]], [[Matrix Metalloproteinases]], [[HemF-like]], [[BluB-like]], [[QueE-like]], [[Carboxymethyllysine]], [[Carboxyethyllysine]], [[Laminin]], [[Fibronectin]], [[Type IV collagen]], [[GAPDH]], [[Aconitase]], [[Low-Density Lipoprotein]], [[Scavenger Receptor]], [[Proteasome]], [[Proteotoxicity]], [[Thiamine]], [[Benfotiamine]], [[Diastolic Dysfunction]], [[Arterial Stiffness]], [[Vascular Permeability]], [[Adrenochrome]]
+- New links added: [[Maillard Reaction]], [[Hyperglycemia]], [[Oxidative Stress]], [[Aging]], [[Collagen]], [[Elastic fibers]], [[Catalase]], [[Glutathione peroxidase]], [[RAGE]], [[Reactive Oxygen Species]], [[Aminoguanidine]], [[Pyridoxamine]], [[Polyphenols]], [[Alagebrium]], [[Epicatechin]], [[Glucosepane]], [[Pentosidine]], [[AGER1]], [[Glyoxalase System]], [[GLO1]], [[GLO2]], [[PARK7]], [[Methylglyoxal]], [[Glyoxal]], [[3-deoxyglucosone]], [[Fructosamine-3-kinase]], [[Amadori products]], [[Fructosyl-Amino Acid Oxidases]], [[notes/_link/Lysosome]], [[Cathepsin D]], [[Cathepsin B]], [[Matrix Metalloproteinases]], [[HemF-like]], [[BluB-like]], [[QueE-like]], [[Carboxymethyllysine]], [[Carboxyethyllysine]], [[Laminin]], [[Fibronectin]], [[Type IV collagen]], [[GAPDH]], [[Aconitase]], [[Low-Density Lipoprotein]], [[Scavenger Receptor]], [[Proteasome]], [[Proteotoxicity]], [[Thiamine]], [[Benfotiamine]], [[Diastolic Dysfunction]], [[Arterial Stiffness]], [[Vascular Permeability]], [[Adrenochrome]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Advanced Glycation End Products]] ↔ [[Aging]], [[Methylglyoxal]] ↔ [[Adrenochrome]]

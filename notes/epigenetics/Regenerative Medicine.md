@@ -1,3 +1,10 @@
+---
+type: entity
+category: other
+entity_type: "NA"
+created: 2024-01-01
+updated: 2024-01-01
+---
 # Regenerative Medicine
 
 [[Regenerative Medicine]] is an interdisciplinary branch of medicine that focuses on the repair, replacement, or regeneration of human cells, tissues, or organs to restore or establish normal function. It encompasses a wide range of approaches, including [[Stem Cell Research]], tissue engineering, and molecular biology.

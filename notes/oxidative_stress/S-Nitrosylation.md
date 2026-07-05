@@ -25,4 +25,4 @@ NO does not directly react with thiols; S-nitrosylation requires higher nitrogen
 
 ## Clinical Relevance
 
-Dysregulated S-nitrosylation is implicated in [[notes/oxidative_stress/Neurodegeneration|neurodegenerative diseases]] ([[notes/_link/Alzheimer's Disease]], [[notes/_link/Parkinson's Disease]]), [[notes/_link/Cardiovascular Disease|cardiovascular disease]] (endothelial dysfunction), [[Asthma]] (increased SNO in airway lining fluid), and [[notes/oxidative_stress/Cancer|cancer]] (dysregulated NO signaling promotes angiogenesis and metastasis).
+Dysregulated S-nitrosylation is implicated in [[Neurodegeneration|neurodegenerative diseases]] ([[notes/_link/Alzheimer's Disease]], [[notes/_link/Parkinson's Disease]]), [[notes/_link/Cardiovascular Disease|cardiovascular disease]] (endothelial dysfunction), [[Asthma]] (increased SNO in airway lining fluid), and [[Cancer]] (dysregulated NO signaling promotes angiogenesis and metastasis).

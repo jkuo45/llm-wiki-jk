@@ -1,6 +1,7 @@
 ---
+entity_type: "Biological Process"
 type: entity
-category: concept
+category: scientific_concept
 aliases:
   - Calorie Restriction
   - CR
@@ -10,7 +11,7 @@ database_ids:
   mesh: D004032
 relations:
   - predicate: activates
-    target: "[[notes/sirtuins/SIRT1]]"
+    target: "[[SIRT1]]"
     sources:
       - PMID:15205477
   - predicate: requires
@@ -22,11 +23,11 @@ relations:
     sources:
       - PMID:MICHAN2007
   - predicate: upregulates
-    target: "[[notes/sirtuins/SIRT1]]"
+    target: "[[SIRT1]]"
     sources:
       - PMID:MICHAN2007
   - predicate: upregulates
-    target: "[[notes/sirtuins/SIRT3]]"
+    target: "[[SIRT3]]"
     sources:
       - PMID:15653680
   - predicate: downregulates
@@ -61,7 +62,7 @@ Aging is typically characterized by epigenetic drift: a global loss of DNA methy
 
 ## 2. [[Histone Modification]]s and [[Chromatin]] Structure
 CR alters how DNA is packaged, keeping chromatin in a more stable, "youthful" state.
-*   **[[Sirtuins]] Activation:** CR increases levels of NAD+, which activates [[notes/sirtuins/SIRT1]] (a histone deacetylase). SIRT1 removes acetyl groups from histones, leading to tighter DNA packaging ([[Heterochromatin]]) and the silencing of genes that promote inflammation and senescence.
+*   **[[Sirtuins]] Activation:** CR increases levels of NAD+, which activates [[SIRT1]] (a histone deacetylase). SIRT1 removes acetyl groups from histones, leading to tighter DNA packaging ([[Heterochromatin]]) and the silencing of genes that promote inflammation and senescence.
 *   **Specific Marks:** CR has been shown to influence specific histone marks that are associated with telomere maintenance and longevity.
 *   **Neuroprotection:** In the brain, CR prevents the age-related increase of [[HDAC]]s that can otherwise impair synaptic plasticity and memory.
 
@@ -74,11 +75,11 @@ The epigenetic changes induced by CR converge on several critical pathways:
 
 
 ## Linking Summary:
-- New links added: [[notes/_link/Aging]], [[Epigenome]], [[DNA Methylation]], [[Cellular Senescence]], [[Histone Modification]], [[Chromatin]], [[Sirtuins]], [[notes/sirtuins/SIRT1]], [[Heterochromatin]], [[HDAC]].
+- New links added: [[notes/_link/Aging]], [[Epigenome]], [[DNA Methylation]], [[Cellular Senescence]], [[Histone Modification]], [[Chromatin]], [[Sirtuins]], [[SIRT1]], [[Heterochromatin]], [[HDAC]].
 - Suggested new entity notes to create: [[p16INK4a]], [[NAD+]], [[Telomere]], [[DunedinPACE]].
-- Strong connections to strengthen: [[notes/_link/Caloric Restriction]] ↔ [[notes/_link/Aging]], [[notes/_link/Caloric Restriction]] ↔ [[notes/sirtuins/SIRT1]]
+- Strong connections to strengthen: [[notes/_link/Caloric Restriction]] ↔ [[notes/_link/Aging]], [[notes/_link/Caloric Restriction]] ↔ [[SIRT1]]
 
-- New links added: [[Longevity]], [[Autophagy]], [[notes/_link/AMPK]], [[Cellular Homeostasis]], [[Cancer]], [[Neurodegenerative Disease]], [[notes/_link/Inflammaging]], [[Autophagic Cell Death]]
+- New links added: [[Longevity]], [[Autophagy]], [[notes/_link/AMPK]], [[Cellular Homeostasis]], [[Cancer]], [[Neurodegenerative_Disease]], [[notes/_link/Inflammaging]], [[Autophagic Cell Death]]
 - Suggested new entity notes to create: [[Longevity]], [[notes/_link/AMPK]], [[Cellular Homeostasis]]
 - Strong connections to strengthen: [[notes/_link/Caloric Restriction]] ↔ [[Autophagy]], [[notes/_link/Caloric Restriction]] ↔ [[Longevity]]
 
@@ -89,7 +90,7 @@ The epigenetic changes induced by CR converge on several critical pathways:
 
 
 ## Health Benefits
-- Enhances protection against chronic pathologies like [[Cancer]] and [[Neurodegenerative Disease]].
+- Enhances protection against chronic pathologies like [[Cancer]] and [[Neurodegenerative_Disease]].
 - Regulates anti-inflammatory responses and reduces [[notes/_link/Inflammaging]].
 - Improves metabolic health and insulin sensitivity.
 
@@ -101,14 +102,14 @@ The epigenetic changes induced by CR converge on several critical pathways:
 
 ## Connections
 - **[[notes/_link/Aging]]**: CR is the gold standard for interventions that extend lifespan and healthspan across species.
-- **[[notes/sirtuins/SIRT1]]**: A primary mediator of the beneficial effects of caloric restriction on the epigenome.
+- **[[SIRT1]]**: A primary mediator of the beneficial effects of caloric restriction on the epigenome.
 - **[[Cellular Senescence]]**: CR delays the accumulation of senescent cells by maintaining a more stable epigenetic state.
 
 
 ### Linking Summary:
-- New links added: [[notes/_link/AMPK]], [[notes/_link/Aging]], [[Autophagic Cell Death]], [[Autophagy]], [[Cancer]], [[Cellular Homeostasis]], [[Cellular Senescence]], [[Chromatin]], [[DNA Methylation]], [[Epigenome]], [[HDAC]], [[Heterochromatin]], [[Histone Modification]], [[notes/_link/Inflammaging]], [[Longevity]], [[Neurodegenerative Disease]], [[notes/sirtuins/SIRT1]], [[Sirtuins]]
+- New links added: [[notes/_link/AMPK]], [[notes/_link/Aging]], [[Autophagic Cell Death]], [[Autophagy]], [[Cancer]], [[Cellular Homeostasis]], [[Cellular Senescence]], [[Chromatin]], [[DNA Methylation]], [[Epigenome]], [[HDAC]], [[Heterochromatin]], [[Histone Modification]], [[notes/_link/Inflammaging]], [[Longevity]], [[Neurodegenerative_Disease]], [[SIRT1]], [[Sirtuins]]
 - Suggested new entity notes to create: [[notes/_link/AMPK]], [[Cellular Homeostasis]], [[DunedinPACE]], [[Longevity]], [[NAD+]], [[Telomere]], [[p16INK4a]]
-- Strong connections to strengthen: [[notes/_link/Caloric Restriction]] ↔ [[notes/_link/Aging]], [[notes/_link/Caloric Restriction]] ↔ [[Autophagy]], [[notes/_link/Caloric Restriction]] ↔ [[Longevity]], [[notes/_link/Caloric Restriction]] ↔ [[notes/sirtuins/SIRT1]]
+- Strong connections to strengthen: [[notes/_link/Caloric Restriction]] ↔ [[notes/_link/Aging]], [[notes/_link/Caloric Restriction]] ↔ [[Autophagy]], [[notes/_link/Caloric Restriction]] ↔ [[Longevity]], [[notes/_link/Caloric Restriction]] ↔ [[SIRT1]]
 
 # Caloric Restriction
 
@@ -146,8 +147,8 @@ CR is a central context for understanding sirtuin biology. CR regulates mammalia
 
 | Sirtuin | Response to CR |
 |---------|----------------|
-| [[notes/sirtuins/SIRT1]] | **Upregulated** — mediates fat mobilisation, anti-inflammation, neuroprotection, metabolic reprogramming |
-| [[notes/sirtuins/SIRT3]] | **Upregulated** — mediates mitochondrial biogenesis, thermogenesis, AceCS2 activation |
+| [[SIRT1]] | **Upregulated** — mediates fat mobilisation, anti-inflammation, neuroprotection, metabolic reprogramming |
+| [[SIRT3]] | **Upregulated** — mediates mitochondrial biogenesis, thermogenesis, AceCS2 activation |
 | [[SIRT4]] | **Downregulated** — allows increased GDH activity and glutamine-stimulated insulin secretion |
 
 CR-mediated lifespan extension in yeast **requires SIR2** and also involves Hst1 and Hst2 (other yeast sirtuins). In *Drosophila*, dietary restriction-mediated lifespan extension also requires the *Sir2* gene. The entire sirtuin family may control lifespan, having potentially evolved from a primordial sirtuin that responded to stress and calorie availability.
@@ -155,7 +156,7 @@ CR-mediated lifespan extension in yeast **requires SIR2** and also involves Hst1
 ## Molecular Mechanisms Linking CR to Sirtuins
 
 1. **NAD⁺ elevation**: CR increases [[NAD+]] levels (or NAD⁺/NADH ratio), directly enhancing sirtuin deacetylase activity.
-2. **SIRT1→PGC-1α axis**: CR-activated [[notes/sirtuins/SIRT1]] deacetylates [[PGC-1α]], inducing mitochondrial biogenesis, oxidative phosphorylation, and hepatic glucose output.
+2. **SIRT1→PGC-1α axis**: CR-activated [[SIRT1]] deacetylates [[PGC-1α]], inducing mitochondrial biogenesis, oxidative phosphorylation, and hepatic glucose output.
 3. **SIRT1→PPAR-γ/NCoR/SMRT axis**: Promotes fat mobilisation from white adipose tissue.
 4. **SIRT1→UCP2 repression**: Enhances glucose-stimulated insulin secretion from β-cells.
 5. **SIRT3→AceCS2 activation**: Regulates carbon flow into the TCA cycle.
@@ -172,9 +173,9 @@ When cells become nutrient-starved, sirtuin-**independent** pathways such as **T
 
 ## Connections
 
-- [[notes/sirtuins/SIRT1]] — primary mammalian sirtuin activated by CR; mediates most CR benefits
+- [[SIRT1]] — primary mammalian sirtuin activated by CR; mediates most CR benefits
 - [[Sir2 (yeast)]] — required for CR-mediated lifespan extension in yeast
-- [[notes/sirtuins/SIRT3]] — upregulated by CR; mediates mitochondrial metabolic adaptations
+- [[SIRT3]] — upregulated by CR; mediates mitochondrial metabolic adaptations
 - [[SIRT4]] — downregulated by CR (opposite to SIRT1/3); increases GDH activity
 - [[NAD+]] — elevated by CR; mechanistically links CR to sirtuin activation
 - [[Resveratrol]] — CR mimetic; activates SIRT1 pharmacologically
@@ -184,15 +185,15 @@ When cells become nutrient-starved, sirtuin-**independent** pathways such as **T
 
 ## Linking Summary
 
-- New links added: [[notes/sirtuins/SIRT1]], [[Sir2 (yeast)]], [[notes/sirtuins/SIRT3]], [[SIRT4]], [[NAD+]], [[Resveratrol]], [[PGC-1α]], [[Longevity]]
+- New links added: [[SIRT1]], [[Sir2 (yeast)]], [[SIRT3]], [[SIRT4]], [[NAD+]], [[Resveratrol]], [[PGC-1α]], [[Longevity]]
 - Suggested new entity notes to create: [[TOR (Target of Rapamycin)]], [[Adiponectin]], [[Longevity]]
-- Strong connections to strengthen: [[Caloric Restriction]] ↔ [[notes/sirtuins/SIRT1]], [[Caloric Restriction]] ↔ [[Sir2 (yeast)]], [[Caloric Restriction]] ↔ [[Longevity]]
+- Strong connections to strengthen: [[Caloric Restriction]] ↔ [[SIRT1]], [[Caloric Restriction]] ↔ [[Sir2 (yeast)]], [[Caloric Restriction]] ↔ [[Longevity]]
 
 # Caloric Restriction
 
 Caloric restriction (CR) is a dietary regimen that reduces calorie intake without incurring malnutrition or a reduction in essential nutrients. It has been shown to increase lifespan and reduce oxidative stress in various model organisms, potentially by lowering the intake of dietary [[Advanced Glycation End Products|AGEs]].
 
 ### Linking Summary:
-- New links added: [[Advanced Glycation End Products]], [[notes/oxidative_stress/Oxidative Stress]], [[Lifespan]]
+- New links added: [[Advanced Glycation End Products]], [[Oxidative Stress]], [[Lifespan]]
 - Suggested new entity notes to create: 
-- Strong connections to strengthen: [[notes/adrenochrome/Caloric Restriction]] ↔ [[Longevity]]
+- Strong connections to strengthen: [[notes/_link/Caloric Restriction]] ↔ [[Longevity]]

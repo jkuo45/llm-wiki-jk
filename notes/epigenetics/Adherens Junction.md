@@ -1,3 +1,10 @@
+---
+type: entity
+category: anatomy
+entity_type: "Anatomy"
+created: 2024-01-01
+updated: 2024-01-01
+---
 # Adherens Junction
 
 An [[Adherens Junction]] (or zonula adherens, intermediate junction, or belt desmosome) is a cell junction whose cytoplasmic face is linked to the actin cytoskeleton.

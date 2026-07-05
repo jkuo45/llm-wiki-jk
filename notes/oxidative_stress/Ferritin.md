@@ -10,7 +10,7 @@ updated: 2026-07-04
 
 # Ferritin
 
-**Ferritin** is a conserved multimeric iron storage protein that sequesters intracellular iron in a bioavailable, non-toxic form, limiting [[Fenton reaction]] chemistry and protecting against [[notes/oxidative_stress/Ferroptosis|ferroptosis]].
+**Ferritin** is a conserved multimeric iron storage protein that sequesters intracellular iron in a bioavailable, non-toxic form, limiting [[Fenton reaction]] chemistry and protecting against [[Ferroptosis|ferroptosis]].
 
 ## Structure
 
@@ -23,8 +23,8 @@ Ferritin is a hollow, spherical protein shell composed of 24 subunits of two typ
 
 ## Clinical Relevance
 
-- **[[notes/oxidative_stress/Ferroptosis]]**: Low ferritin levels increase susceptibility to ferroptosis by providing a larger pool of labile iron. NRF2-mediated ferritin induction protects against ferroptosis.
-- **[[notes/oxidative_stress/Neurodegeneration|Neurodegeneration]]**: Iron accumulation (with ferritin dysregulation) in the [[notes/_link/Substantia Nigra]] is a hallmark of [[notes/_link/Parkinson's Disease]]; elevated ferritin in [[notes/_link/Alzheimer's Disease]] plaques.
+- **[[Ferroptosis]]**: Low ferritin levels increase susceptibility to ferroptosis by providing a larger pool of labile iron. NRF2-mediated ferritin induction protects against ferroptosis.
+- **[[Neurodegeneration|Neurodegeneration]]**: Iron accumulation (with ferritin dysregulation) in the [[notes/_link/Substantia Nigra]] is a hallmark of [[notes/_link/Parkinson's Disease]]; elevated ferritin in [[notes/_link/Alzheimer's Disease]] plaques.
 - **[[notes/_link/Cardiovascular Disease]]**: Serum ferritin is a marker of body iron stores; elevated ferritin is an independent risk factor for atherosclerosis and cardiovascular events.
 - **Inflammation**: Ferritin is an acute-phase reactant induced by [[IL-1b]] and [[TNF-alpha]]; hyperferritinemia occurs in chronic inflammatory conditions.
 - **Ferritin Heavy Chain Mutations**: Rare mutations in *FTH1* cause a dominantly inherited form of [[Adult-Onset Basal Ganglia Disease]] (neuroferritinopathy), with iron accumulation in the basal ganglia leading to progressive motor dysfunction.

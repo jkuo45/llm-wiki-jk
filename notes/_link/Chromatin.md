@@ -1,3 +1,10 @@
+---
+type: entity
+category: biological_molecule
+entity_type: ""
+created: 2024-01-01
+updated: 2024-01-01
+---
 # Chromatin
 
 **Chromatin** is the complex of DNA and proteins (primarily histones) that packages the genome within the cell nucleus. In young, healthy cells, chromatin is organized into a precise landscape of tightly packed [[Heterochromatin]] (transcriptionally silent) and open [[Euchromatin]] (transcriptionally active). During [[notes/_link/Aging]], this structure undergoes significant remodeling, often referred to as **epigenetic drift**.

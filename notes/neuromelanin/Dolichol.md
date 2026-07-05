@@ -1,3 +1,11 @@
+---
+type: entity
+category: biological_molecule
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Dolichol
 
 [[Dolichol]] is a polyisoprenoid lipid that has been identified as a major lipid component of human [[Neuromelanin]] granules in the [[Substantia Nigra Pars Compacta]].

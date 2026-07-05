@@ -1,3 +1,10 @@
+---
+type: entity
+category: protein
+entity_type: "Protein"
+created: 2026-05-29
+updated: 2026-05-29
+---
 # STAT3
 
 **Signal transducer and activator of transcription 3** (STAT3) is a transcription factor which in humans is encoded by the *STAT3* gene.
@@ -36,3 +43,14 @@
 - New links added: [[Autophagy]], [[notes/_link/Inflammaging]], [[notes/_link/Metformin]], [[notes/_link/Senescence]], [[T Cell]]
 - Suggested new entity notes to create: [[notes/_link/Inflammaging]]
 - Strong connections to strengthen: [[notes/_link/STAT3]] ↔ [[notes/_link/Metformin]]
+
+## Content from [[cancer/STAT3.md]]
+
+# STAT3
+
+Signal transducer and activator of transcription 3 (STAT3) is a transcription factor that mediates cellular responses to growth factors and cytokines, often promoting cell survival in cancer.
+
+### Linking Summary:
+- New links added:
+- Suggested new entity notes to create:
+- Strong connections to strengthen:

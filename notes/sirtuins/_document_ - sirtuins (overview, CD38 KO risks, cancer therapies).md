@@ -35,14 +35,14 @@ Localization can vary by cell type, [[notes/_link/Cell Cycle|cell cycle]] stage,
 ### SIRT2 (Cytosolic/Nuclear, Class I)
 
 - Primary roles: Mainly cytosolic; enters nucleus during mitosis. Deacetylase and deacylase.
-- Key functions: Regulates [[notes/_link/Cell Cycle|cell cycle]] (e.g., tubulin deacetylation), mitosis, cytoskeletal dynamics, glucose and lipid [[notes/_link/Metabolism|metabolism]]. Involved in [[notes/oxidative_stress/Oxidative Stress|oxidative stress]] response and [[notes/_link/Neurodegenerative Diseases|neurodegeneration]] (e.g., [[notes/_link/Parkinson's Disease|Parkinson's]] links).
+- Key functions: Regulates [[notes/_link/Cell Cycle|cell cycle]] (e.g., tubulin deacetylation), mitosis, cytoskeletal dynamics, glucose and lipid [[notes/_link/Metabolism|metabolism]]. Involved in [[Oxidative Stress|oxidative stress]] response and [[notes/_link/Neurodegenerative Diseases|neurodegeneration]] (e.g., [[notes/_link/Parkinson's Disease|Parkinson's]] links).
 - Significance: Dual roles in [[Cancer|cancer]] (tumor suppressor or promoter depending on context).
   nature.com
 
 ### SIRT3 (Mitochondrial, Class I)
 
 - Primary roles: Major [[notes/_link/Mitochondria|mitochondrial]] deacetylase (also decrotonylase). Has a mitochondrial targeting sequence.
-- Key functions: Regulates [[notes/_link/Mitochondria|mitochondrial metabolism]], fatty acid oxidation, TCA cycle, electron transport chain, [[notes/_link/Reactive Oxygen Species|ROS]] detoxification (e.g., via [[notes/_link/Superoxide Dismutase|SOD2/Mn-SOD]]). Protects against [[notes/oxidative_stress/Oxidative Stress|oxidative stress]] and maintains mitochondrial integrity.
+- Key functions: Regulates [[notes/_link/Mitochondria|mitochondrial metabolism]], fatty acid oxidation, TCA cycle, electron transport chain, [[notes/_link/Reactive Oxygen Species|ROS]] detoxification (e.g., via [[notes/_link/Superoxide Dismutase|SOD2/Mn-SOD]]). Protects against [[Oxidative Stress|oxidative stress]] and maintains mitochondrial integrity.
 - Significance: Key for energy homeostasis; decline linked to [[notes/_link/Aging|aging]] and metabolic diseases. Often protective in heart and liver.
   lifespan.io
 
@@ -70,7 +70,7 @@ Localization can vary by cell type, [[notes/_link/Cell Cycle|cell cycle]] stage,
 ### SIRT7 (Nucleolar/Nuclear, Class IV)
 
 - Primary roles: Deacetylase (histones) and desuccinylase; enriched in nucleolus.
-- Key functions: Regulates [[notes/sirtuins/TAFI68|rRNA transcription]] (via RNA Pol I), ribosome biogenesis, [[notes/_link/DNA Damage|DNA damage]] repair, chromatin organization. Involved in stress response and [[notes/_link/Metabolism|metabolism]].
+- Key functions: Regulates [[TAFI68|rRNA transcription]] (via RNA Pol I), ribosome biogenesis, [[notes/_link/DNA Damage|DNA damage]] repair, chromatin organization. Involved in stress response and [[notes/_link/Metabolism|metabolism]].
 - Significance: Supports cell growth/proliferation; roles in [[Cancer|cancer]] and heart function.
   mdpi.com
 
@@ -84,7 +84,7 @@ Localization can vary by cell type, [[notes/_link/Cell Cycle|cell cycle]] stage,
 | [[SIRT4]]   | Mitochondria        | [[ADP-ribosylation|ADP-ribosyltransferase]]    | Insulin secretion, glutamine metab. |
 | [[SIRT5]]   | Mitochondria        | Desuccinylase etc.        | Urea cycle, ketogenesis             |
 | [[SIRT6]]   | Nucleus (chromatin) | Deacetylase/Deacylase     | Genomic stability, [[notes/_link/Metabolism|metabolism]]       |
-| [[SIRT7]]   | Nucleolus/Nucleus   | Deacetylase/Desuccinylase | [[notes/sirtuins/TAFI68|rRNA transcription]], stress response |
+| [[SIRT7]]   | Nucleolus/Nucleus   | Deacetylase/Desuccinylase | [[TAFI68|rRNA transcription]], stress response |
 
 Sirtuins are promising therapeutic targets. Activators (e.g., [[Resveratrol|resveratrol]] for [[SIRT1]], [[NAD+]] precursors like [[notes/_link/Nicotinamide Mononucleotide|NMN]]/[[notes/_link/Nicotinamide Riboside|NR]]) and inhibitors are under study for metabolic, [[notes/_link/Neurodegenerative Diseases|neurodegenerative]], and oncologic conditions. Effects can be context-dependent (tissue, disease state). Consult recent reviews or specialists for the latest research, as the field evolves rapidly.
 
@@ -218,7 +218,7 @@ These are constitutive genetic knockouts (from development onward), so they may 
 - Various hematologic malignancies (e.g., certain lymphomas, leukemias).
 - Subsets of immune cells in the [[Tumor Microenvironment|TME]] (Tregs, MDSCs, TAMs, Bregs, etc.).
 
-In tumors: High [[CD38]] can promote cancer cell survival, migration, proliferation (e.g., via [[cADPR]] in [[notes/cancer/Lung Cancer|lung cancer]] models), and immunosuppression ([[NAD+]] depletion, adenosine production, metabolic fitness of suppressive cells).
+In tumors: High [[CD38]] can promote cancer cell survival, migration, proliferation (e.g., via [[cADPR]] in [[Lung Cancer|lung cancer]] models), and immunosuppression ([[NAD+]] depletion, adenosine production, metabolic fitness of suppressive cells).
 
 [nature.com](https://www.nature.com/articles/s41419-021-03968-2)
 
@@ -252,7 +252,7 @@ They are transformative in [[Multiple Myeloma|MM]]:
 - Depletes suppressive cells (Tregs, MDSCs, etc.), potentially overcoming resistance to checkpoint inhibitors (e.g., anti-PD-1).
 - Early trials of [[Isatuximab|isatuximab]] + cemiplimab (anti-PD-1) in advanced solids; broader combos with PD-1/PD-L1, CTLA-4, etc.
 	[frontiersin.org](https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1745988/full)
-- Potential in [[notes/cancer/Lung Cancer|lung cancer]], [[notes/cancer/glioblastoma|glioblastoma]], [[notes/cancer/Prostate Cancer|prostate]], etc., though less mature than in [[Multiple Myeloma|MM]].
+- Potential in [[Lung Cancer|lung cancer]], [[glioblastoma|glioblastoma]], [[Prostate Cancer|prostate]], etc., though less mature than in [[Multiple Myeloma|MM]].
 	[onlinelibrary.wiley.com](https://onlinelibrary.wiley.com/doi/full/10.1002/cam4.6619)
 
 ### Emerging Strategies
@@ -278,6 +278,6 @@ They are transformative in [[Multiple Myeloma|MM]]:
 ---
 
 ## Linking Summary:
-- New links added: [[Sirtuins]], [[SIRT1]], [[SIRT2]], [[SIRT3]], [[SIRT4]], [[SIRT5]], [[SIRT6]], [[SIRT7]], [[NAD+]], [[notes/_link/Histone Modification|histone deacetylases]], [[notes/_link/Metabolism|metabolism]], [[notes/_link/Aging|aging]], [[notes/_link/DNA Repair|DNA repair]], [[notes/_link/Inflammation|inflammation]], [[ADP-ribosylation]], [[notes/_link/Longevity|longevity]], [[notes/_link/Caloric Restriction|calorie restriction]], [[notes/_link/Diabetes Mellitus|diabetes]], [[Cancer|cancer]], [[notes/_link/Neurodegenerative Diseases|neurodegeneration]], [[notes/_link/Cardiovascular Disease|cardiovascular issues]], [[notes/_link/Cell Cycle|cell cycle]], [[notes/oxidative_stress/Oxidative Stress|oxidative stress]], [[notes/_link/Parkinson's Disease|Parkinson's]], [[notes/_link/Reactive Oxygen Species|ROS]], [[notes/_link/Superoxide Dismutase|SOD2/Mn-SOD]], [[p53]], [[notes/_link/FOXO|FOXO]], [[notes/_link/NFKB|NF-κB]], [[PGC-1α]], [[Autophagy|autophagy]], [[Glutamate Dehydrogenase (GDH)]], [[notes/_link/Telomere Attrition|telomere function]], [[HIF1A|HIF-1α]], [[SREBP1|SREBP]], [[notes/sirtuins/TAFI68|rRNA transcription]], [[Resveratrol|resveratrol]], [[notes/_link/Nicotinamide Mononucleotide|NMN]], [[notes/_link/Nicotinamide Riboside|NR]], [[CD38]], [[CD38 inhibitor 78c|78c]], [[notes/_link/Inflammaging|inflammaging]], [[Daratumumab]], [[Multiple Myeloma|multiple myeloma]], [[notes/_link/Apoptosis|apoptosis]], [[Tumor Microenvironment|TME]], [[notes/_link/Quercetin|quercetin]], [[cADPR]], [[notes/cancer/Prostate Cancer|prostate]], [[notes/cancer/Lung Cancer|lung cancer]], [[notes/cancer/glioblastoma|glioblastoma]]
+- New links added: [[Sirtuins]], [[SIRT1]], [[SIRT2]], [[SIRT3]], [[SIRT4]], [[SIRT5]], [[SIRT6]], [[SIRT7]], [[NAD+]], [[notes/_link/Histone Modification|histone deacetylases]], [[notes/_link/Metabolism|metabolism]], [[notes/_link/Aging|aging]], [[notes/_link/DNA Repair|DNA repair]], [[notes/_link/Inflammation|inflammation]], [[ADP-ribosylation]], [[notes/_link/Longevity|longevity]], [[notes/_link/Caloric Restriction|calorie restriction]], [[notes/_link/Diabetes Mellitus|diabetes]], [[Cancer|cancer]], [[notes/_link/Neurodegenerative Diseases|neurodegeneration]], [[notes/_link/Cardiovascular Disease|cardiovascular issues]], [[notes/_link/Cell Cycle|cell cycle]], [[Oxidative Stress|oxidative stress]], [[notes/_link/Parkinson's Disease|Parkinson's]], [[notes/_link/Reactive Oxygen Species|ROS]], [[notes/_link/Superoxide Dismutase|SOD2/Mn-SOD]], [[p53]], [[notes/_link/FOXO|FOXO]], [[notes/_link/NFKB|NF-κB]], [[PGC-1α]], [[Autophagy|autophagy]], [[Glutamate Dehydrogenase (GDH)]], [[notes/_link/Telomere Attrition|telomere function]], [[HIF1A|HIF-1α]], [[SREBP1|SREBP]], [[TAFI68|rRNA transcription]], [[Resveratrol|resveratrol]], [[notes/_link/Nicotinamide Mononucleotide|NMN]], [[notes/_link/Nicotinamide Riboside|NR]], [[CD38]], [[CD38 inhibitor 78c|78c]], [[notes/_link/Inflammaging|inflammaging]], [[Daratumumab]], [[Multiple Myeloma|multiple myeloma]], [[notes/_link/Apoptosis|apoptosis]], [[Tumor Microenvironment|TME]], [[notes/_link/Quercetin|quercetin]], [[cADPR]], [[Prostate Cancer|prostate]], [[Lung Cancer|lung cancer]], [[glioblastoma|glioblastoma]]
 - Suggested new entity notes to create: [[CD38 inhibitor 78c]], [[ADP-ribosylation]], [[cADPR]]
 - Strong connections to strengthen: [[Sirtuins]] ↔ [[CD38]], [[CD38]] ↔ [[CD38 inhibitor 78c]], [[CD38]] ↔ [[cADPR]]

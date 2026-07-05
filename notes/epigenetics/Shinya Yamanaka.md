@@ -1,3 +1,10 @@
+---
+type: entity
+category: other
+entity_type: "NA"
+created: 2024-01-01
+updated: 2024-01-01
+---
 # Shinya Yamanaka
 
 Shinya Yamanaka (born September 4, 1962) is a Japanese stem cell researcher and Nobel Prize laureate. He is best known for the discovery of [[Induced Pluripotent Stem Cells]] (iPSCs), for which he was awarded the Nobel Prize in Physiology or Medicine in 2012, shared with [[John Gurdon]].

@@ -1,3 +1,11 @@
+---
+type: entity
+category: enzyme
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Tyrosinase
 
 [[Tyrosinase]] (hTyr) is a copper-containing enzyme that is the rate-limiting enzyme in the production of melanin pigments in the skin and hair.

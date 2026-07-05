@@ -1,3 +1,10 @@
+---
+type: entity
+category: other
+entity_type: "NA"
+created: 2024-01-01
+updated: 2024-01-01
+---
 # Klf4
 
 Klf4 (Krüppel-like factor 4) is a member of the Krüppel-like factor family of [[Transcription Factor|transcription factors]]. It is involved in the regulation of proliferation, differentiation, apoptosis, and somatic cell reprogramming. Klf4 is one of the four [[Yamanaka Factors]].

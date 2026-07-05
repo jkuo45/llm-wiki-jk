@@ -19,8 +19,8 @@ updated: 2026-07-04
 
 ## Role in Oxidative Stress
 
-Arginase upregulation is a major contributor to [[notes/oxidative_stress/Endothelial Dysfunction|endothelial dysfunction]]: by depleting the local L-arginine pool, arginase limits [[eNOS]] substrate availability, promoting [[eNOS uncoupling|eNOS uncoupling]] and shifting NO production toward [[Superoxide Radicals|superoxide]] generation. This creates a feed-forward loop: oxidative stress → arginase activation (via oxidative activation of arginase and transcription via [[TNF-alpha]]/[[NF-kappa B]]) → L-arginine depletion → eNOS uncoupling → more superoxide → more arginase activation.
+Arginase upregulation is a major contributor to [[Endothelial Dysfunction|endothelial dysfunction]]: by depleting the local L-arginine pool, arginase limits [[eNOS]] substrate availability, promoting [[eNOS uncoupling|eNOS uncoupling]] and shifting NO production toward [[Superoxide Radicals|superoxide]] generation. This creates a feed-forward loop: oxidative stress → arginase activation (via oxidative activation of arginase and transcription via [[TNF-alpha]]/[[NF-kappa B]]) → L-arginine depletion → eNOS uncoupling → more superoxide → more arginase activation.
 
 ## Clinical Significance
 
-Arginase is elevated in [[notes/_link/Cardiovascular Disease|cardiovascular disease]], [[notes/_link/Diabetes Mellitus|diabetes]], [[Asthma]], [[notes/oxidative_stress/Inflammation|chronic inflammation]], and [[notes/oxidative_stress/Aging|aging]]. Arginase inhibitors (e.g., [[Nor-NOHA]], [[ABH]]) are being investigated for improving vascular function, wound healing, and reducing airway hyperresponsiveness in asthma.
+Arginase is elevated in [[notes/_link/Cardiovascular Disease|cardiovascular disease]], [[notes/_link/Diabetes Mellitus|diabetes]], [[Asthma]], [[chronic inflammation]], and [[aging]]. Arginase inhibitors (e.g., [[Nor-NOHA]], [[ABH]]) are being investigated for improving vascular function, wound healing, and reducing airway hyperresponsiveness in asthma.

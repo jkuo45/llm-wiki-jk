@@ -1,6 +1,6 @@
 ---
 type: entity
-category: diagnostic test
+category: diagnostic_test
 aliases:
   - PWV
   - Aortic pulse wave velocity
@@ -79,8 +79,8 @@ Aortic PWV is a strong, independent predictor of cardiovascular events and all-c
 Elevated PWV reflects:
 - Loss of [[Elastic Fiber|elastic fiber]] integrity in the aortic wall
 - Accumulation of [[Advanced Glycation End Products|AGE]] cross-linked [[Collagen|collagen]]
-- [[notes/oxidative_stress/Endothelial Dysfunction|Endothelial dysfunction]] and reduced NO bioavailability
-- Increased [[notes/oxidative_stress/Oxidative Stress|oxidative stress]] and chronic low-grade [[notes/_link/Inflammation|inflammation]]
+- [[Endothelial Dysfunction|Endothelial dysfunction]] and reduced NO bioavailability
+- Increased [[Oxidative Stress|oxidative stress]] and chronic low-grade [[notes/_link/Inflammation|inflammation]]
 
 ## Use in Aging Research
 

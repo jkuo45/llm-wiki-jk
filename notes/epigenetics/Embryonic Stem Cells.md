@@ -1,3 +1,10 @@
+---
+type: entity
+category: other
+entity_type: "NA"
+created: 2024-01-01
+updated: 2024-01-01
+---
 # Embryonic Stem Cells
 
 Embryonic Stem Cells (ESCs) are pluripotent stem cells derived from the inner cell mass of a blastocyst, an early-stage pre-implantation embryo. They are characterized by their ability to undergo indefinite self-renewal and their potential to differentiate into all three germ layers.

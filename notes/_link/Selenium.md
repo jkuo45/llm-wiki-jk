@@ -35,6 +35,6 @@ Major dietary sources include Brazil nuts, seafood, organ meats, eggs, and grain
 
 ## Clinical Relevance
 
-- [[notes/oxidative_stress/Cancer|Cancer Prevention]]: Epidemiological studies associate higher selenium status with reduced risk of prostate, lung, colorectal, and bladder cancers (SELECT trial found no benefit with selenomethionine alone, but secondary analyses suggest benefit in men with low baseline selenium).
-- [[notes/oxidative_stress/Inflammation|Inflammatory Diseases]]: Selenium supplementation reduces inflammatory markers in [[notes/oxidative_stress/Rheumatoid Arthritis|rheumatoid arthritis]], [[Asthma|asthma]], and [[notes/oxidative_stress/Chronic Obstructive Pulmonary Disease|COPD]].
-- [[notes/oxidative_stress/Neurodegeneration|Neurodegeneration]]: Selenoprotein P and GPx4 protect against ferroptosis in neurons; selenium deficiency increases susceptibility.
+- [[Cancer Prevention]]: Epidemiological studies associate higher selenium status with reduced risk of prostate, lung, colorectal, and bladder cancers (SELECT trial found no benefit with selenomethionine alone, but secondary analyses suggest benefit in men with low baseline selenium).
+- [[Inflammatory Diseases]]: Selenium supplementation reduces inflammatory markers in [[Rheumatoid Arthritis|rheumatoid arthritis]], [[Asthma|asthma]], and [[Chronic Obstructive Pulmonary Disease|COPD]].
+- [[Neurodegeneration|Neurodegeneration]]: Selenoprotein P and GPx4 protect against ferroptosis in neurons; selenium deficiency increases susceptibility.

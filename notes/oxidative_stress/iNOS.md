@@ -25,9 +25,9 @@ iNOS is not constitutively expressed; its transcription is induced by pro-inflam
 
 ## Pathological Roles
 
-- **[[notes/oxidative_stress/Nitrative Stress]]**: iNOS-derived NO rapidly reacts with [[Superoxide Radicals]] to form [[Peroxynitrite]], driving 3-nitrotyrosine formation, protein nitration, and oxidative damage.
+- **[[Nitrative Stress]]**: iNOS-derived NO rapidly reacts with [[Superoxide Radicals]] to form [[Peroxynitrite]], driving 3-nitrotyrosine formation, protein nitration, and oxidative damage.
 - **[[notes/_link/Septic Shock]]**: Excessive iNOS-derived NO causes systemic vasodilation, hypotension, and vascular hyporeactivity to vasoconstrictors.
-- **[[notes/_link/Cardiovascular Disease]]**: Vascular iNOS contributes to [[notes/oxidative_stress/Endothelial Dysfunction|endothelial dysfunction]] and atherosclerotic plaque instability.
-- **[[notes/oxidative_stress/Neurodegeneration|Neurodegenerative Diseases]]**: Glial iNOS produces sustained NO bursts that contribute to neuronal injury in [[notes/_link/Alzheimer's Disease]], [[notes/_link/Parkinson's Disease]], [[notes/_link/Amyotrophic Lateral Sclerosis]], and [[notes/oxidative_stress/Multiple Sclerosis]].
+- **[[notes/_link/Cardiovascular Disease]]**: Vascular iNOS contributes to [[Endothelial Dysfunction|endothelial dysfunction]] and atherosclerotic plaque instability.
+- **[[Neurodegeneration|Neurodegenerative Diseases]]**: Glial iNOS produces sustained NO bursts that contribute to neuronal injury in [[notes/_link/Alzheimer's Disease]], [[notes/_link/Parkinson's Disease]], [[notes/_link/Amyotrophic Lateral Sclerosis]], and [[Multiple Sclerosis]].
 - **[[notes/_link/Diabetes Mellitus]]**: iNOS upregulation in pancreatic islets and [[Peroxynitrite]] formation damage β-cells.
-- **[[notes/oxidative_stress/Inflammation|Chronic Inflammatory Diseases]]**: iNOS is elevated in [[notes/oxidative_stress/Rheumatoid Arthritis]] synovium, inflammatory bowel disease, and [[notes/oxidative_stress/Asthma]].
+- **[[Chronic Inflammatory Diseases]]**: iNOS is elevated in [[Rheumatoid Arthritis]] synovium, inflammatory bowel disease, and [[Asthma]].

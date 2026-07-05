@@ -1,3 +1,11 @@
+---
+type: entity
+category: biological_process
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Neuronophagia
 
 [[Neuronophagia]] is a pathological process in which activated [[Microgliosis|microglia]] or macrophages surround and ingest a degenerating neuron or its debris.

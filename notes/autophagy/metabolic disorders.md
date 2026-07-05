@@ -10,7 +10,7 @@ Metabolic disorders are conditions that disrupt normal metabolism; many of these
 
 ## Overview
 
-Metabolic disorders include [[Obesity]], [[Type 2 Diabetes Mellitus]], [[NAFLD]], [[Metabolic Syndrome]]. [[Autophagy]] dysfunction is a common feature.
+Metabolic disorders include [[Obesity]], [[Type 2 Diabetes Mellitus]], [[NAFLD]], [[Metabolic_Syndrome]]. [[Autophagy]] dysfunction is a common feature.
 
 ### Linking Summary
 

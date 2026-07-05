@@ -1,3 +1,10 @@
+---
+type: entity
+category: microorganism
+entity_type: ""
+created: 2024-01-01
+updated: 2024-01-01
+---
 # Christensenellaceae
 
 Christensenellaceae is a family of bacteria in the phylum Firmicutes, found to be highly heritable and associated with a lean body mass index and healthy aging.

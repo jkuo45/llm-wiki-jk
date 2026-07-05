@@ -1,3 +1,10 @@
+---
+type: entity
+category: medical_condition
+entity_type: "Medical Condition"
+created: 2026-05-29
+updated: 2026-05-29
+---
 # Colorectal Cancer
 
 Colorectal cancer (CRC) is a common malignant tumor affecting the colon or rectum.

@@ -16,4 +16,4 @@ In pharmaceutical preparations of [[notes/_link/Epinephrine]] (such as Epi-pens)
 ## Connections
 - [[notes/_link/Epinephrine]]
 - [[Adrenochrome]]
-- [[notes/oxidative_stress/Oxidative Stress]]
+- [[Oxidative Stress]]

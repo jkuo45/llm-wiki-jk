@@ -36,10 +36,10 @@ In hepatocarcinoma (HepG2) cells, the p33ING1b–SIRT1 interaction negatively re
 
 - [[SIRT1]] — p33ING1b binds to and inhibits SIRT1 deacetylase activity toward p53
 - [[p53]] — downstream target of the p33ING1b–SIRT1 interaction
-- [[notes/_link/Hepatocellular Carcinoma]] — disease context for the p33ING1b-SIRT1-p53-AFP axis
+- [[Hepatocellular Carcinoma]] — disease context for the p33ING1b-SIRT1-p53-AFP axis
 
 ## Linking Summary
 
-- New links added: [[SIRT1]], [[p53]], [[notes/_link/Hepatocellular Carcinoma]]
+- New links added: [[SIRT1]], [[p53]], [[Hepatocellular Carcinoma]]
 - Suggested new entity notes to create: [[ING1 Gene]], [[AFP (Alpha-Fetoprotein)]], [[PHD Finger]]
 - Strong connections to strengthen: [[p33ING1b]] ↔ [[SIRT1]], [[p33ING1b]] ↔ [[p53]]

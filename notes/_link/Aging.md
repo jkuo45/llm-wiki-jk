@@ -1,3 +1,10 @@
+---
+type: entity
+category: biological_process
+entity_type: "Biological Process"
+created: 2026-05-29
+updated: 2026-05-29
+---
 # Aging
 
 The relationship between **aging** and [[Epigenetics]] is a central focus of modern [[Geroscience]]. Epigenetics refers to chemical modifications to DNA and its associated proteins that regulate gene expression without changing the underlying genetic sequence. As organisms age, these modifications undergo predictable and stochastic changes, collectively known as **epigenetic aging**.
@@ -57,3 +64,14 @@ Epigenetic dysregulation is considered one of the **hallmarks of aging**. It act
 - New links added: [[Autophagy]], [[notes/_link/Caloric Restriction]], [[Cancer]], [[notes/_link/Cardiovascular Disease]], [[Cellular Senescence]], [[Chromatin]], [[DNA Methylation]], [[Epigenetic Clock]], [[Epigenetics]], [[Epigenome]], [[Euchromatin]], [[Genomic Instability]], [[Geroscience]], [[HDAC]], [[Heterochromatin]], [[Histone Modification]], [[Metabolic Syndromes]], [[MicroRNA]], [[notes/_link/Neurodegenerative Diseases]], [[Non-coding RNA]], [[Senolytics]]
 - Suggested new entity notes to create: [[Epigenetic Drift]], [[Epigenetic Rejuvenation]], [[notes/_link/Inflammaging]], [[notes/_link/Senescence]], [[Yamanaka Factors]]
 - Strong connections to strengthen: [[notes/_link/Aging]] ↔ [[DNA Methylation]], [[notes/_link/Aging]] ↔ [[Epigenetic Clock]], [[notes/_link/Aging]] ↔ [[Mitochondrial Dysfunction]]
+
+## Content from [[adrenochrome/Aging.md]]
+
+# Aging
+
+Aging is the process of becoming older. In the context of biochemical research, it is often associated with the accumulation of [[Advanced Glycation End Products]] (AGEs), increased [[Oxidative Stress]], and chronic [[Inflammation]]. The interaction between dietary AGEs and endogenous glycation processes is a significant focus in understanding the pathogenesis of age-related diseases.
+
+### Linking Summary:
+- New links added: [[Advanced Glycation End Products]], [[Oxidative Stress]], [[Inflammation]], [[Lifespan]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[Advanced Glycation End Products]] ↔ [[Aging]]

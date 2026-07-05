@@ -1,3 +1,10 @@
+---
+type: entity
+category: chemical
+entity_type: "Chemical Class"
+created: 2026-05-31
+updated: 2026-05-31
+---
 # Reactive Oxygen Species
 
 **Reactive Oxygen Species (ROS)** are highly reactive molecules containing oxygen, formed as natural byproducts of oxygen metabolism. They play dual roles as signaling molecules and agents of oxidative damage.
@@ -22,16 +29,16 @@ ROS drive the non-enzymatic [[Oxidation]] of [[notes/_link/Epinephrine]] to [[Ad
 
 
 ## Biological Impact
-At low levels, ROS are essential for cell signaling and immune defense. However, when levels exceed the body's antioxidant capacity, they lead to [[notes/oxidative_stress/Oxidative Stress]], causing damage to lipids, proteins, and DNA. This process is central to the pathogenesis of [[notes/_link/Parkinson's Disease]] and other [[notes/_link/Neurodegenerative Diseases]].
+At low levels, ROS are essential for cell signaling and immune defense. However, when levels exceed the body's antioxidant capacity, they lead to [[Oxidative Stress]], causing damage to lipids, proteins, and DNA. This process is central to the pathogenesis of [[notes/_link/Parkinson's Disease]] and other [[notes/_link/Neurodegenerative Diseases]].
 
 
 ## Linking Summary:
-- New links added: [[notes/_link/Reactive Oxygen Species]], [[Superoxide anion]], [[notes/_link/Hydrogen Peroxide]], [[Hydroxyl radical]], [[MAO]], [[Adrenochrome]], [[Oxidation]], [[notes/_link/Epinephrine]], [[Redox Cycling]], [[notes/_link/Neutrophils]], [[notes/_link/Myeloperoxidase]], [[Smoking]], [[notes/oxidative_stress/Oxidative Stress]], [[notes/_link/Inflammation]], [[Aminochromes]]
-- Strong connections to strengthen: [[notes/_link/Reactive Oxygen Species]] ↔ [[notes/oxidative_stress/Oxidative Stress]]
+- New links added: [[notes/_link/Reactive Oxygen Species]], [[Superoxide anion]], [[notes/_link/Hydrogen Peroxide]], [[Hydroxyl radical]], [[MAO]], [[Adrenochrome]], [[Oxidation]], [[notes/_link/Epinephrine]], [[Redox Cycling]], [[notes/_link/Neutrophils]], [[notes/_link/Myeloperoxidase]], [[Smoking]], [[Oxidative Stress]], [[notes/_link/Inflammation]], [[Aminochromes]]
+- Strong connections to strengthen: [[notes/_link/Reactive Oxygen Species]] ↔ [[Oxidative Stress]]
 
-- New links added: [[Superoxide Radicals]], [[notes/_link/Hydrogen Peroxide]], [[Hydroxyl Radicals]], [[notes/_link/Apoptosis]], [[Immunity]], [[notes/oxidative_stress/Oxidative Stress]], [[Singlet Oxygen]]
+- New links added: [[Superoxide Radicals]], [[notes/_link/Hydrogen Peroxide]], [[Hydroxyl Radicals]], [[notes/_link/Apoptosis]], [[Immunity]], [[Oxidative Stress]], [[Singlet Oxygen]]
 - Suggested new entity notes to create: [[Immunity]], [[Signaling molecules]]
-- Strong connections to strengthen: [[notes/_link/Reactive Oxygen Species]] ↔ [[notes/oxidative_stress/Oxidative Stress]]
+- Strong connections to strengthen: [[notes/_link/Reactive Oxygen Species]] ↔ [[Oxidative Stress]]
 
 - New links added: [[Cellular Reprogramming]], [[OSKM]], [[notes/_link/DNA Damage]], [[notes/_link/p53]], [[notes/_link/Apoptosis]], [[notes/_link/Senescence]], [[Embryonic Stem Cells]], [[Pluripotency]], [[Innate Immunity]]
 
@@ -44,7 +51,7 @@ At low levels, ROS serve as important signaling molecules in processes like [[no
 
 
 ## Pathological Role
-At high levels, they cause [[notes/oxidative_stress/Oxidative Stress]] and damage cellular structures.
+At high levels, they cause [[Oxidative Stress]] and damage cellular structures.
 
 
 ## Key Species
@@ -67,7 +74,7 @@ The use of ROS scavengers (antioxidants like Vitamin C) and hypoxic growth condi
 
 
 ## Connections
-- [[notes/oxidative_stress/Oxidative Stress]] ↔ Condition resulting from an imbalance between ROS production and antioxidant defenses.
+- [[Oxidative Stress]] ↔ Condition resulting from an imbalance between ROS production and antioxidant defenses.
 - [[Adrenochrome]] ↔ Formed via ROS-mediated oxidation of adrenaline.
 - [[notes/_link/Neutrophils]] ↔ Major source of ROS during [[notes/_link/Inflammation]] and the respiratory burst.
 - [[Redox Cycling]] ↔ Process that catalytically generates ROS using molecules like [[Aminochromes]].
@@ -80,6 +87,6 @@ The use of ROS scavengers (antioxidants like Vitamin C) and hypoxic growth condi
 
 
 ### Linking Summary:
-- New links added: [[Adrenochrome]], [[Aminochromes]], [[notes/_link/Apoptosis]], [[Cellular Reprogramming]], [[notes/_link/DNA Damage]], [[Embryonic Stem Cells]], [[notes/_link/Epinephrine]], [[notes/_link/Hydrogen Peroxide]], [[notes/_link/Hydrogen Peroxide]], [[Hydroxyl Radicals]], [[Hydroxyl radical]], [[Immunity]], [[notes/_link/Inflammation]], [[Innate Immunity]], [[MAO]], [[notes/_link/Myeloperoxidase]], [[notes/_link/Neutrophils]], [[OSKM]], [[Oxidation]], [[notes/oxidative_stress/Oxidative Stress]], [[Pluripotency]], [[notes/_link/Reactive Oxygen Species]], [[Redox Cycling]], [[notes/_link/Senescence]], [[Singlet Oxygen]], [[Smoking]], [[Superoxide Radicals]], [[Superoxide anion]], [[notes/_link/p53]]
+- New links added: [[Adrenochrome]], [[Aminochromes]], [[notes/_link/Apoptosis]], [[Cellular Reprogramming]], [[notes/_link/DNA Damage]], [[Embryonic Stem Cells]], [[notes/_link/Epinephrine]], [[notes/_link/Hydrogen Peroxide]], [[notes/_link/Hydrogen Peroxide]], [[Hydroxyl Radicals]], [[Hydroxyl radical]], [[Immunity]], [[notes/_link/Inflammation]], [[Innate Immunity]], [[MAO]], [[notes/_link/Myeloperoxidase]], [[notes/_link/Neutrophils]], [[OSKM]], [[Oxidation]], [[Oxidative Stress]], [[Pluripotency]], [[notes/_link/Reactive Oxygen Species]], [[Redox Cycling]], [[notes/_link/Senescence]], [[Singlet Oxygen]], [[Smoking]], [[Superoxide Radicals]], [[Superoxide anion]], [[notes/_link/p53]]
 - Suggested new entity notes to create: [[Immunity]], [[Signaling molecules]]
-- Strong connections to strengthen: [[notes/_link/Reactive Oxygen Species]] ↔ [[notes/oxidative_stress/Oxidative Stress]]
+- Strong connections to strengthen: [[notes/_link/Reactive Oxygen Species]] ↔ [[Oxidative Stress]]

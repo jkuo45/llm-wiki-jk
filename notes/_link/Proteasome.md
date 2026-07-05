@@ -8,7 +8,7 @@ updated: 2026-07-04
 
 # 20S Proteasome
 
-**The 20S Proteasome** is a core catalytic particle of the ubiquitin-proteasome system that degrades oxidized, misfolded, and damaged proteins independently of ubiquitination, serving as a primary line of defense against [[notes/oxidative_stress/Oxidative Stress|oxidative protein damage]].
+**The 20S Proteasome** is a core catalytic particle of the ubiquitin-proteasome system that degrades oxidized, misfolded, and damaged proteins independently of ubiquitination, serving as a primary line of defense against [[Oxidative Stress|oxidative protein damage]].
 
 ## Structure
 
@@ -29,6 +29,22 @@ Unlike the 26S proteasome (20S + 19S regulatory particles), the 20S proteasome d
 ## Clinical Relevance
 
 - **[[notes/_link/Aging]]**: Proteasome activity declines with age, contributing to accumulation of oxidized and aggregated proteins, a hallmark of aging.
-- **[[notes/oxidative_stress/Neurodegeneration|Neurodegenerative diseases]]**: Impaired 20S proteasome function contributes to protein aggregation pathology in [[notes/_link/Alzheimer's Disease]], [[notes/_link/Parkinson's Disease]], and [[notes/_link/Huntington's Disease]].
+- **[[Neurodegeneration|Neurodegenerative diseases]]**: Impaired 20S proteasome function contributes to protein aggregation pathology in [[notes/_link/Alzheimer's Disease]], [[notes/_link/Parkinson's Disease]], and [[notes/_link/Huntington's Disease]].
 - **[[Cancer]]**: Cancer cells upregulate proteasome activity to handle increased oxidative stress; [[Bortezomib]] (a proteasome inhibitor) is used in multiple myeloma and mantle cell lymphoma.
-- **[[notes/oxidative_stress/Cardiovascular Disease|Cardiovascular disease]]**: Oxidized LDL-induced proteasome dysfunction in endothelial cells promotes atherosclerosis.
+- **[[Cardiovascular disease]]**: Oxidized LDL-induced proteasome dysfunction in endothelial cells promotes atherosclerosis.
+
+### Linking Summary:
+
+- New links added: [[Ubiquitin Ligase]], [[Mitophagy]]
+- Suggested new entity notes to create: [[Ubiquitin]]
+- Strong connections to strengthen: [[Proteasome]] ↔ [[notes/_link/Aging]]
+
+## Content from [[neuromelanin/Proteasome.md]]
+
+# Proteasome
+
+The [[Proteasome]] is a large multi-catalytic protease complex responsible for the degradation of ubiquitinated proteins. It is the central effector of the [[Ubiquitin-proteasome system]] (UPS), which tags proteins with [[Ubiquitin]] for targeted destruction. Proteasomal dysfunction is implicated in [[notes/_link/Parkinson's Disease]], where aggregated [[Alpha-Synuclein]] overwhelms the degradation machinery and contributes to [[Proteostasis]] failure.
+
+### Linking Summary:
+- New links added: [[Ubiquitin-proteasome system]], [[Ubiquitin]], [[notes/_link/Parkinson's Disease]], [[Alpha-Synuclein]], [[Proteostasis]]
+- Strong connections to strengthen: [[Proteasome]] ↔ [[Ubiquitin-proteasome system]]

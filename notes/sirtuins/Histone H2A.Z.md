@@ -31,11 +31,11 @@ This SIRT1–H2A.Z axis has been specifically implicated in protection against *
 ## Connections
 
 - [[SIRT1]] — deacetylates H2A.Z at K115 and K121, promoting its degradation
-- [[notes/_link/Cardiac Hypertrophy]] — pathophysiological context for SIRT1-H2A.Z regulation
-- [[notes/_link/Ubiquitin-Proteasome System]] — degradation pathway for deacetylated H2A.Z
+- [[Cardiac Hypertrophy]] — pathophysiological context for SIRT1-H2A.Z regulation
+- [[Ubiquitin-Proteasome System]] — degradation pathway for deacetylated H2A.Z
 
 ## Linking Summary
 
-- New links added: [[SIRT1]], [[notes/_link/Cardiac Hypertrophy]], [[notes/_link/Ubiquitin-Proteasome System]]
+- New links added: [[SIRT1]], [[Cardiac Hypertrophy]], [[Ubiquitin-Proteasome System]]
 - Suggested new entity notes to create: [[H2AFZ]], [[Histone Variant]], [[Proteasome-Dependent Degradation]]
 - Strong connections to strengthen: [[Histone H2A.Z]] ↔ [[SIRT1]]

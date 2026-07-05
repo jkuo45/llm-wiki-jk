@@ -17,7 +17,7 @@ The MiTF/TFE family comprises four members in vertebrates: [[MITF]] (microphthal
 These transcription factors bind as homo- or heterodimers to the [[CLEAR Element|Coordinated Lysosomal Expression and Regulation (CLEAR) element]] in the promoters of target genes encoding lysosomal hydrolases, membrane proteins, and autophagy machinery. Under nutrient-replete conditions, they are phosphorylated by [[mTORC1]] and [[ERK2]], leading to cytosolic retention via binding to [[14-3-3 protein]]. During starvation or [[lysosomal stress]], they undergo nuclear translocation to activate the CLEAR gene network.
 
 ## Physiological Functions
-The MiTF/TFE family governs [[Lysosomal Biogenesis]], [[Autophagic Flux]], [[Lipophagy]], and [[Mitophagy]]. They also control cell lineage specification: [[MITF]] is a master regulator of [[Melanocyte]] and [[Osteoclast]] development, while [[TFE3]] regulates [[B Cell|B cell]] and [[T Cell|T cell]] activation.
+The MiTF/TFE family governs [[Lysosomal Biogenesis]], [[Autophagic Flux]], [[Lipophagy]], and [[Mitophagy]]. They also control cell lineage specification: [[MITF]] is a master regulator of [[Melanocytes]] and [[Osteoclast]] development, while [[TFE3]] regulates [[B Cell|B cell]] and [[T Cell|T cell]] activation.
 
 ## Pathology & Clinical Relevance
 - **[[Melanoma]]**: MITF amplification is an oncogenic driver in melanoma.

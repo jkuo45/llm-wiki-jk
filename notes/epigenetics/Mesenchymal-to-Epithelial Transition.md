@@ -1,3 +1,10 @@
+---
+type: entity
+category: other
+entity_type: "NA"
+created: 2024-01-01
+updated: 2024-01-01
+---
 # Mesenchymal-to-Epithelial Transition
 
 The [[Mesenchymal-to-Epithelial Transition]] (MET) is a reversible biological process in which cells transform from a mesenchymal phenotype (characterized by high motility and a spindle-like shape) to an epithelial phenotype (characterized by cell-to-cell adhesion and polarity).

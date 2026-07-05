@@ -20,4 +20,4 @@ While the hypothesis triggered significant research into [[Catecholamines]] meta
 - [[Adrenochrome]]
 - [[notes/_link/Schizophrenia]]
 - [[notes/_link/Epinephrine]]
-- [[notes/oxidative_stress/Oxidative Stress]]
+- [[Oxidative Stress]]

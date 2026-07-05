@@ -16,21 +16,21 @@ updated: 2026-07-04
 Proteins are large biomolecules consisting of one or more long chains of amino acid residues. They perform a vast array of functions within organisms, including catalyzing metabolic reactions, DNA replication, responding to stimuli, and transporting molecules.
 
 ## Role in Oxidative Stress
-Proteins are major targets of [[notes/oxidative_stress/Oxidative Stress]]. Radical-mediated damage to proteins, often termed **protein oxidation**, can lead to side-chain modification, backbone fragmentation, and cross-linking. These modifications can result in the loss of enzymatic activity, altered structural integrity, and the accumulation of protein aggregates.
+Proteins are major targets of [[Oxidative Stress]]. Radical-mediated damage to proteins, often termed **protein oxidation**, can lead to side-chain modification, backbone fragmentation, and cross-linking. These modifications can result in the loss of enzymatic activity, altered structural integrity, and the accumulation of protein aggregates.
 
 ## Connections
-- [[notes/oxidative_stress/Oxidative Stress]]: Proteins are primary targets for damage by [[notes/_link/Reactive Oxygen Species]].
+- [[Oxidative Stress]]: Proteins are primary targets for damage by [[notes/_link/Reactive Oxygen Species]].
 - [[Enzyme]]: Many enzymes are inactivated by oxidative modifications to their active sites.
 - [[Neurodegeneration]]: The accumulation of oxidized and misfolded proteins is a hallmark of diseases like [[notes/_link/Alzheimer's Disease]] and [[notes/_link/Parkinson's Disease]].
 
 ### Linking Summary:
-- New links added: [[notes/oxidative_stress/Oxidative Stress]], [[notes/_link/Reactive Oxygen Species]], [[Enzyme]], [[Neurodegeneration]], [[notes/_link/Alzheimer's Disease]], [[notes/_link/Parkinson's Disease]]
+- New links added: [[Oxidative Stress]], [[notes/_link/Reactive Oxygen Species]], [[Enzyme]], [[Neurodegeneration]], [[notes/_link/Alzheimer's Disease]], [[notes/_link/Parkinson's Disease]]
 - Suggested new entity notes to create: [[Neurodegeneration]]
-- Strong connections to strengthen: [[Proteins]] ↔ [[notes/oxidative_stress/Oxidative Stress]]
+- Strong connections to strengthen: [[Proteins]] ↔ [[Oxidative Stress]]
 
 ## Amino Acid Susceptibility to Oxidation
 
-The susceptibility of individual amino acid side chains to [[notes/_link/Reactive Oxygen Species]] (ROS) and [[notes/oxidative_stress/Reactive Nitrogen Species]] (RNS) varies widely:
+The susceptibility of individual amino acid side chains to [[notes/_link/Reactive Oxygen Species]] (ROS) and [[Reactive Nitrogen Species]] (RNS) varies widely:
 
 | Amino Acid | ROS Susceptibility | Major Oxidative Products | Biological Consequence |
 |------------|-------------------|------------------------|----------------------|
@@ -47,17 +47,17 @@ The susceptibility of individual amino acid side chains to [[notes/_link/Reactiv
 
 ### Carbonylation
 Protein carbonylation is an **irreversible** modification introducing carbonyl groups (aldehydes, ketones) into proteins. It occurs via:
-1. **Direct metal-catalyzed oxidation**: [[notes/oxidative_stress/Fenton reaction|Fenton chemistry]] at metal-binding sites (e.g., Fe²⁺ bound to ATP-binding motifs) oxidizes Lys, Arg, Pro, and Thr residues to carbonyls
-2. **Secondary reaction with lipid peroxidation products**: [[notes/oxidative_stress/Malondialdehyde]] (MDA) and [[4-hydroxynonenal]] (4-HNE) form covalent Michael adducts with Cys, His, and Lys residues
+1. **Direct metal-catalyzed oxidation**: [[Fenton reaction|Fenton chemistry]] at metal-binding sites (e.g., Fe²⁺ bound to ATP-binding motifs) oxidizes Lys, Arg, Pro, and Thr residues to carbonyls
+2. **Secondary reaction with lipid peroxidation products**: [[Malondialdehyde]] (MDA) and [[4-hydroxynonenal]] (4-HNE) form covalent Michael adducts with Cys, His, and Lys residues
 3. **Reaction with reducing sugars (glycoxidation)**: Advanced glycation end-products (AGEs) contain carbonyl groups
 
-**Consequences**: Carbonylated proteins are recognized by the [[20S Proteasome]] and preferentially degraded. Accumulation of carbonylated proteins is a hallmark of aging and is elevated in [[notes/_link/Alzheimer's Disease]], [[notes/_link/Parkinson's Disease]], and [[notes/oxidative_stress/Cataract]].
+**Consequences**: Carbonylated proteins are recognized by the [[20S Proteasome]] and preferentially degraded. Accumulation of carbonylated proteins is a hallmark of aging and is elevated in [[notes/_link/Alzheimer's Disease]], [[notes/_link/Parkinson's Disease]], and [[notes/_link/Cataract]].
 
 ### Sulfur Oxidation
 
 #### Cysteine Modifications
 - **Reversible oxidation**:
-  - **S-nitrosylation** (−SNO): Formation by [[notes/_link/Nitric Oxide]]-derived species; regulates enzyme activity (e.g., [[notes/_link/NFRB|NF-κB]], [[notes/oxidative_stress/Caspases]])
+  - **S-nitrosylation** (−SNO): Formation by [[notes/_link/Nitric Oxide]]-derived species; regulates enzyme activity (e.g., [[notes/_link/NFRB|NF-κB]], [[notes/_link/Caspases]])
   - **S-glutathionylation** (−SSG): Mixed disulfide with [[notes/_link/Glutathione]]; protects Cys from irreversible oxidation
   - **Sulfenylation** (−SOH): Transient intermediate in redox signaling
   - **Disulfide formation** (−S−S−): Intra- or intermolecular; structural and regulatory
@@ -78,10 +78,10 @@ Two tyrosyl radicals cross-link to form dityrosine (ﬂuorescent, λex ≈ 315 n
 - **Biomarker utility**: Dityrosine levels in urine and plasma reflect whole-body oxidative stress
 
 #### Tyrosine Nitration
-[[notes/oxidative_stress/Peroxynitrite]] (ONOO⁻) and [[notes/oxidative_stress/Hypochlorous Acid|HOCl]]-derived nitrating species convert tyrosine to **3-nitrotyrosine** (3-NT):
+[[Peroxynitrite]] (ONOO⁻) and [[Hypochlorous Acid|HOCl]]-derived nitrating species convert tyrosine to **3-nitrotyrosine** (3-NT):
 - **Mechanism**: ONOO⁻ + CO₂ → ONOOCO₂⁻ → •NO₂ + CO₃⁻•; •NO₂ + Tyr → 3-NT
-- **Functional impact**: 3-NT incorporation alters protein conformation and can either inactivate (e.g., [[notes/oxidative_stress/Superoxide Dismutase|MnSOD]]) or constitutively activate (e.g., [[notes/_link/Src kinase]]) proteins
-- **Clinical relevance**: 3-NT levels are elevated 4–10 fold in [[notes/_link/Atherosclerosis|atherosclerotic plaques]], [[notes/oxidative_stress/Rheumatoid Arthritis|arthritic joints]], and [[notes/_link/Neurodegenerative Diseases|neurodegenerative brain tissue]]
+- **Functional impact**: 3-NT incorporation alters protein conformation and can either inactivate (e.g., [[MnSOD]]) or constitutively activate (e.g., [[notes/_link/Src kinase]]) proteins
+- **Clinical relevance**: 3-NT levels are elevated 4–10 fold in [[notes/_link/Atherosclerosis|atherosclerotic plaques]], [[Rheumatoid Arthritis|arthritic joints]], and [[notes/_link/Neurodegenerative Diseases|neurodegenerative brain tissue]]
 
 ### Tryptophan Oxidation
 
@@ -91,11 +91,11 @@ Two tyrosyl radicals cross-link to form dityrosine (ﬂuorescent, λex ≈ 315 n
 
 ### Advanced Oxidation Protein Products (AOPPs)
 
-AOPPs are dityrosine-containing, carbonylated, aggregated protein species formed primarily by [[notes/oxidative_stress/Hypochlorous Acid]] (HOCl) during [[notes/_link/Inflammation]]. They:
+AOPPs are dityrosine-containing, carbonylated, aggregated protein species formed primarily by [[Hypochlorous Acid]] (HOCl) during [[notes/_link/Inflammation]]. They:
 - Are measured as a marker of protein oxidative damage in plasma
 - Activate [[notes/_link/Macrophage|macrophages]] and [[notes/_link/Neutrophils]] via [[RAGE]] receptor binding
 - Predict cardiovascular events in [[Chronic Kidney Disease]] patients
-- Stimulate [[notes/oxidative_stress/NF-kappa B]] activation in endothelial cells
+- Stimulate [[NF-kappa B]] activation in endothelial cells
 
 ## Protein Repair Systems
 
@@ -105,12 +105,12 @@ AOPPs are dityrosine-containing, carbonylated, aggregated protein species formed
 - **Thioredoxin/Thioredoxin reductase**: Regenerates Msr activity at the expense of [[NADPH]]
 
 ### Sulfiredoxin (Srx)
-Specifically reduces **sulfinic acid** (−SO₂H) on 2-Cys peroxiredoxins (Prx), reactivating these peroxide-scavenging enzymes. Srx is induced by [[notes/oxidative_stress/NRF2]] under oxidative stress.
+Specifically reduces **sulfinic acid** (−SO₂H) on 2-Cys peroxiredoxins (Prx), reactivating these peroxide-scavenging enzymes. Srx is induced by [[NRF2]] under oxidative stress.
 
 ### Glutaredoxin and Glutathione
 Catalyze the reduction of **S-glutathionylated proteins**:
   Protein-SSG + 2 GSH → Protein-SH + GSSG
-GSSG is recycled by [[notes/oxidative_stress/Glutathione Peroxidase]]
+GSSG is recycled by [[Glutathione Peroxidase]]
 
 ### Disulfide Isomerases
 [[Protein Disulfide Isomerase]] (PDI) in the [[Endoplasmic Reticulum]] reshuffles aberrant disulfides formed during oxidative stress, but is itself inactivated by hyper-oxidation.
@@ -123,13 +123,13 @@ GSSG is recycled by [[notes/oxidative_stress/Glutathione Peroxidase]]
 - **Immunoproteasome**: IFN-γ-induced variant with altered catalytic subunits (β1i, β2i, β5i) that show enhanced clearance of oxidized proteins during inflammation
 
 ### Autophagic Clearance
-- **[[notes/_link/Macroautophagy]]**: Engulfs oxidized protein aggregates into [[notes/_link/Autophagosomes]], delivering them to [[notes/_link/Lysosome|lysosomes]] for degradation
+- **[[Macroautophagy]]**: Engulfs oxidized protein aggregates into [[notes/_link/Autophagosomes]], delivering them to [[notes/_link/Lysosome|lysosomes]] for degradation
 - **[[notes/_link/Chaperone-mediated autophagy]] (CMA)**: Recognizes proteins with KFERQ-like motifs; oxidized proteins are CMA substrates
 - **[[notes/_link/p62]]/SQSTM1**: Shuttles ubiquitinated oxidized proteins to autophagosomes
 
 ### Consequences of Impaired Clearance
 When clearance systems are overwhelmed or decline with age:
-- **Protein aggregation**: Accumulation of [[notes/oxidative_stress/Amyloid-beta|Aβ]], [[notes/_link/Alpha-synuclein|α-synuclein]], and [[notes/oxidative_stress/Tau protein|Tau]]
+- **Protein aggregation**: Accumulation of [[Amyloid-beta|Aβ]], [[notes/_link/Alpha-synuclein|α-synuclein]], and [[Tau protein|Tau]]
 - **Proteasome inhibition**: Cross-linked oxidized proteins physically block the 20S barrel
 - **Lipofuscin accumulation**: Autofluorescent, non-degradable aggregates ("age pigment") in post-mitotic cells
 
@@ -141,7 +141,7 @@ Protein oxidation is not merely damage—it is a regulated mechanism of **redox 
 - **H₂O₂-mediated inactivation of [[Protein Tyrosine Phosphatases]]** (PTPs): Reversible oxidation of the catalytic Cys enables sustained tyrosine kinase signaling
 - **[[notes/_link/PTEN]] oxidation**: Cys124-SOH formation inactivates PTEN, activating [[notes/_link/PI3K]]/[[notes/_link/Akt]] signaling
 - **[[notes/_link/NFRB]] regulation**: IκB oxidation promotes its degradation, activating NF-κB
-- **[[notes/_link/KEAP1]] oxidation**: Cys151/Cys273 modification releases [[notes/oxidative_stress/NRF2]]
+- **[[notes/_link/KEAP1]] oxidation**: Cys151/Cys273 modification releases [[NRF2]]
 
 ### Methionine-Based Signaling
 - **Calmodulin oxidation**: Met oxidation (Met76, Met144, Met145) alters Ca²⁺ binding affinity
@@ -156,13 +156,13 @@ Protein oxidation is not merely damage—it is a regulated mechanism of **redox 
 - **AOPPs** accumulate and activate inflammatory pathways
 
 ### Neurodegeneration
-- [[notes/_link/Alzheimer's Disease]]: Tau hyperphosphorylation and [[notes/oxidative_stress/Amyloid-beta|Aβ]] aggregation are promoted by oxidative cross-linking; oxidized [[notes/oxidative_stress/GAPDH]] and [[notes/oxidative_stress/Creatine kinase]] impair neuronal energy metabolism
+- [[notes/_link/Alzheimer's Disease]]: Tau hyperphosphorylation and [[Amyloid-beta|Aβ]] aggregation are promoted by oxidative cross-linking; oxidized [[notes/_link/GAPDH]] and [[notes/_link/Creatine kinase]] impair neuronal energy metabolism
 - [[notes/_link/Parkinson's Disease]]: [[notes/_link/Alpha-synuclein]] nitration (3-NT) at Tyr39, Tyr125, Tyr133 stabilizes oligomers; oxidized [[DJ-1]] loses its protective function
 - [[notes/_link/Huntington's Disease]]: [[notes/_link/Huntingtin]] fragments form aggregates via transglutaminase-catalyzed cross-links and oxidative modifications
 
 ### Cardiovascular Disease
-- [[notes/_link/Atherosclerosis]]: Oxidized [[notes/oxidative_stress/Apolipoprotein B]] in LDL; MPO-catalyzed protein chlorination in plaques
-- [[Myocardial infarction]]: Ischemia-reperfusion oxidizes [[notes/oxidative_stress/Complex I]] and [[notes/oxidative_stress/Complex III]] subunits, amplifying ROS production
+- [[notes/_link/Atherosclerosis]]: Oxidized [[notes/_link/Apolipoprotein B]] in LDL; MPO-catalyzed protein chlorination in plaques
+- [[Myocardial infarction]]: Ischemia-reperfusion oxidizes [[Complex I]] and [[notes/_link/Complex III]] subunits, amplifying ROS production
 
 ### Diabetes
 - **AGE formation**: Hyperglycemia drives protein glycation and oxidative cross-linking
@@ -181,10 +181,10 @@ Protein oxidation is not merely damage—it is a regulated mechanism of **redox 
 | **Chlorotyrosine** | Tyr chlorination | MPO-specific activity marker |
 
 ### Connections
-- [[notes/oxidative_stress/Glutathione Peroxidase]]: Reduces H₂O₂ and regenerates reduced thiols
-- [[notes/oxidative_stress/Catalase]]: H₂O₂ decomposition
+- [[Glutathione Peroxidase]]: Reduces H₂O₂ and regenerates reduced thiols
+- [[Catalase]]: H₂O₂ decomposition
 - [[notes/_link/Thioredoxin]]: Reducing Msr and Prx
 - [[notes/_link/Unfolded Protein Response]]: ER stress response to oxidized proteins
-- [[notes/_link/Autophagy]]: Bulk degradation of oxidatively damaged proteins
+- [[Autophagy]]: Bulk degradation of oxidatively damaged proteins
 - [[notes/_link/Mitochondrial Dysfunction]]: Oxidized ETC proteins amplify ROS production
-- [[notes/oxidative_stress/Carbonyl Stress]]: Broader concept of protein carbonylation
+- [[notes/_link/Carbonyl Stress]]: Broader concept of protein carbonylation

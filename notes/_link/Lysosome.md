@@ -1,3 +1,10 @@
+---
+type: entity
+category: anatomy
+entity_type: ""
+created: 2024-01-01
+updated: 2024-01-01
+---
 # Lysosome
 
 The **Lysosome** is a membrane-bound organelle containing acidic hydrolases responsible for the degradation and recycling of cellular waste. It serves as a central degradative center and signaling hub in cells.

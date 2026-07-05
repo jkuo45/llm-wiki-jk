@@ -11,7 +11,7 @@ updated: 2026-07-04
 
 # TXNIP
 
-**TXNIP (Thioredoxin-interacting protein)** is a redox-sensitive negative regulator of the [[Thioredoxin]] system that links [[notes/oxidative_stress/Oxidative Stress|oxidative stress]] to [[notes/oxidative_stress/Inflammation|inflammasome activation]] and metabolic dysfunction.
+**TXNIP (Thioredoxin-interacting protein)** is a redox-sensitive negative regulator of the [[Thioredoxin]] system that links [[Oxidative Stress|oxidative stress]] to [[inflammasome activation]] and metabolic dysfunction.
 
 ## Mechanism
 
@@ -19,4 +19,4 @@ Under basal conditions, TXNIP is sequestered by binding to reduced [[Thioredoxin
 
 ## Clinical Significance
 
-TXNIP is implicated in [[notes/_link/Diabetes Mellitus|type 2 diabetes]] (β-cell dysfunction), [[notes/oxidative_stress/Cardiovascular Disease|cardiovascular disease]] (endothelial NLRP3 activation), [[notes/oxidative_stress/Neurodegeneration|neurodegeneration]] (microglial inflammasome activation), and [[notes/oxidative_stress/Chronic Kidney Disease|kidney disease]]. TXNIP deletion in mice protects from diet-induced obesity, insulin resistance, and hepatic steatosis. [[Verapamil]] (a calcium channel blocker) inhibits TXNIP transcription and is being investigated as a TXNIP-targeting therapy.
+TXNIP is implicated in [[notes/_link/Diabetes Mellitus|type 2 diabetes]] (β-cell dysfunction), [[cardiovascular disease]] (endothelial NLRP3 activation), [[Neurodegeneration|neurodegeneration]] (microglial inflammasome activation), and [[kidney disease]]. TXNIP deletion in mice protects from diet-induced obesity, insulin resistance, and hepatic steatosis. [[Verapamil]] (a calcium channel blocker) inhibits TXNIP transcription and is being investigated as a TXNIP-targeting therapy.

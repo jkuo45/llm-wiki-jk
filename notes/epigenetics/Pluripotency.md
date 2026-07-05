@@ -1,3 +1,10 @@
+---
+type: entity
+category: other
+entity_type: "NA"
+created: 2024-01-01
+updated: 2024-01-01
+---
 # Pluripotency
 
 Pluripotency refers to the ability of a cell to differentiate into any of the three germ layers: ectoderm, endoderm, and mesoderm. These cells can give rise to all the cell types of the body but cannot form extra-embryonic tissues like the placenta (which would make them totipotent).

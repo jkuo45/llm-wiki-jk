@@ -1,3 +1,10 @@
+---
+type: entity
+category: chemical
+entity_type: "Chemical Compound"
+created: 2026-05-29
+updated: 2026-05-29
+---
 # EGCG
 
 **[[EGCG]]** (Epigallocatechin gallate) is a type of catechin and the most abundant polyphenol in [[Green Tea]]. It is known for its potent antioxidant and potential health-promoting properties.

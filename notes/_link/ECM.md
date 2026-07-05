@@ -1,3 +1,10 @@
+---
+type: entity
+category: anatomy
+entity_type: ""
+created: 2024-01-01
+updated: 2024-01-01
+---
 # ECM
 
 The Extracellular Matrix (ECM) is a complex network of extracellular macromolecules, such as collagen, enzymes, and glycoproteins like [[Fibronectin]] and [[Vitronectin]], that provide structural and biochemical support to surrounding cells.

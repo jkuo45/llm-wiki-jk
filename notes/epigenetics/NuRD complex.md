@@ -1,3 +1,10 @@
+---
+type: entity
+category: other
+entity_type: "NA"
+created: 2024-01-01
+updated: 2024-01-01
+---
 # NuRD complex
 
 The Nucleosome Remodeling and Deacetylase (NuRD) complex is a major protein complex that plays a critical role in chromatin remodeling and gene silencing. It combines ATP-dependent nucleosome remodeling with histone deacetylase activities.

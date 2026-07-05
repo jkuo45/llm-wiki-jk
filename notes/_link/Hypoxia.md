@@ -1,3 +1,10 @@
+---
+type: entity
+category: scientific_concept
+entity_type: "Scientific Concept"
+created: 2026-05-29
+updated: 2026-05-29
+---
 # Hypoxia
 
 [[notes/_link/Hypoxia]] is a condition in which the body or a region of the body is deprived of adequate oxygen supply at the tissue level. In [[Methemoglobinemia]], the impaired oxygen delivery and release lead to tissue hypoxia.

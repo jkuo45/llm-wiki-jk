@@ -1,3 +1,10 @@
+---
+type: entity
+category: enzyme
+entity_type: ""
+created: 2024-01-01
+updated: 2024-01-01
+---
 # TET Enzymes
 
 **[[TET Enzymes]]** (Ten-eleven translocation enzymes) are a family of proteins (TET1, TET2, TET3) that play a crucial role in **DNA demethylation**. They catalyze the conversion of 5-methylcytosine (5-mC) to 5-hydroxymethylcytosine (5-hmC), which is an intermediate step in the removal of methyl groups from DNA.

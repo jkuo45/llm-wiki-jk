@@ -1,3 +1,10 @@
+---
+type: entity
+category: biological_process
+entity_type: ""
+created: 2024-01-01
+updated: 2024-01-01
+---
 # Histone Modification
 
 **[[Histone Modification]]** refers to the various post-translational modifications (PTMs) that occur on the "tails" of histone proteins. These modifications are a central part of the [[Epigenetics|epigenetic code]], dictating whether the underlying DNA is accessible for [[Transcription]] or remains tightly packed.

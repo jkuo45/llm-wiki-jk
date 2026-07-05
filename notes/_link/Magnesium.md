@@ -1,3 +1,10 @@
+---
+type: entity
+category: chemical
+entity_type: "Chemical Compound"
+created: 2026-05-29
+updated: 2026-05-29
+---
 # Magnesium
 
 **[[Magnesium]]** is an essential mineral involved in over 300 biochemical reactions in the body.

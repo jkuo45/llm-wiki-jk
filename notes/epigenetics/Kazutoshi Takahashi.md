@@ -1,3 +1,10 @@
+---
+type: entity
+category: other
+entity_type: "NA"
+created: 2024-01-01
+updated: 2024-01-01
+---
 # Kazutoshi Takahashi
 
 Kazutoshi Takahashi is a Japanese scientist known for his work in stem cell research. Working in the laboratory of [[Shinya Yamanaka]] at Kyoto University, he co-discovered that [[Somatic Cells]] can be reprogrammed into [[Induced Pluripotent Stem Cells]] (iPSCs) by introducing a specific set of four transcription factors: [[Oct4]], [[Sox2]], [[Klf4]], and [[c-Myc]] (collectively known as the [[Yamanaka Factors]] or [[OSKM]]).

@@ -31,6 +31,6 @@ Electrophile modification of Keap1's sensor cysteines, particularly Cys151, caus
 In the context of the [[Adrenochrome Pathway]], adrenochrome and its redox-cycling products act as [[Electrophile|electrophiles]] that can modify Keap1 sensor cysteines, thereby activating the [[Nrf2]] stress response. This Keap1-Nrf2-adrenochrome axis represents a feed-forward adaptive mechanism: electrophilic [[Aminochromes]] induce their own detoxification by upregulating [[NQO1]], [[HO-1]], and glutathione-synthesizing enzymes. Therapeutic targeting of Keap1 with small-molecule electrophiles (e.g., [[Sulforaphane]], [[Dimethyl fumarate]]) is an active strategy to boost endogenous antioxidant defenses in neurodegeneration, [[Diabetes]], [[Chronic Kidney Disease]], and [[Aging]].
 
 ### Linking Summary:
-- New links added: [[Nrf2]], [[notes/oxidative_stress/Oxidative Stress]]
+- New links added: [[Nrf2]], [[Oxidative Stress]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Keap1]] ↔ [[Nrf2]]

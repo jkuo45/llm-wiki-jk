@@ -8,7 +8,7 @@ updated: 2026-07-04
 
 # Oxysterols
 
-**Oxysterols** are oxygenated derivatives of [[Cholesterol]] formed either enzymatically (via cytochrome P450 enzymes like CYP27A1, CYP46A1, CYP7A1) or non-enzymatically by [[notes/oxidative_stress/Reactive Oxygen Species|reactive oxygen species]] yielding over 30 distinct species including [[7-Ketocholesterol]], [[7β-hydroxycholesterol]], and [[25-hydroxycholesterol]].
+**Oxysterols** are oxygenated derivatives of [[Cholesterol]] formed either enzymatically (via cytochrome P450 enzymes like CYP27A1, CYP46A1, CYP7A1) or non-enzymatically by [[reactive oxygen species]] yielding over 30 distinct species including [[7-Ketocholesterol]], [[7β-hydroxycholesterol]], and [[25-hydroxycholesterol]].
 
 ## Biological Functions
 
@@ -18,4 +18,4 @@ updated: 2026-07-04
 
 ## Pathological Relevance
 
-Oxidized cholesterol species, particularly [[7-Ketocholesterol]], accumulate in [[notes/oxidative_stress/Lipid Peroxidation|oxidized LDL]] within atherosclerotic plaques, promoting foam cell death, inflammation, and plaque instability. Oxysterols are elevated in [[notes/_link/Atherosclerosis]], [[notes/_link/Alzheimer's Disease|neurodegenerative diseases]], and age-related macular degeneration.
+Oxidized cholesterol species, particularly [[7-Ketocholesterol]], accumulate in [[Lipid Peroxidation|oxidized LDL]] within atherosclerotic plaques, promoting foam cell death, inflammation, and plaque instability. Oxysterols are elevated in [[notes/_link/Atherosclerosis]], [[notes/_link/Alzheimer's Disease|neurodegenerative diseases]], and age-related macular degeneration.

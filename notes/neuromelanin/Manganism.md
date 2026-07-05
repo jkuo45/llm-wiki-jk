@@ -1,3 +1,11 @@
+---
+type: entity
+category: medical_condition
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Manganism
 
 [[Manganism]] is a neurological disorder caused by chronic exposure to [[Manganese]], characterized by motor symptoms that resemble [[notes/_link/Parkinson's Disease]] but typically involve different pathological mechanisms.

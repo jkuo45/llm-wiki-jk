@@ -1,3 +1,10 @@
+---
+type: entity
+category: other
+entity_type: "NA"
+created: 2024-01-01
+updated: 2024-01-01
+---
 # Mesenchymal Stromal Cells
 
 Mesenchymal Stromal Cells (MSCs), also known as mesenchymal stem cells, are multipotent stromal cells that can differentiate into a variety of cell types, including osteoblasts, chondrocytes, myocytes, and adipocytes.

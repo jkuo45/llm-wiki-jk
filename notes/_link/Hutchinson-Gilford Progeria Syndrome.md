@@ -1,3 +1,11 @@
+---
+type: entity
+category: medical_condition
+entity_type: "Medical Condition"
+created: 2026-05-31
+updated: 2026-05-31
+---
+
 # Hutchinson-Gilford Progeria Syndrome
 
 **Hutchinson-Gilford Progeria Syndrome (HGPS)** is an extremely rare, fatal genetic condition characterized by an appearance of dramatic, rapid [[notes/_link/Aging]] beginning in childhood. It serves as a critical human model for understanding the biological processes of normal aging and is the primary model for **segmented progeria** (accelerated aging).
@@ -26,6 +34,6 @@ Children with HGPS typically appear healthy at birth but begin to show signs of 
 - [[Werner Syndrome]]: Another prominent progeroid syndrome.
 
 ### Linking Summary:
-- New links added: [[HGPS]], [[notes/_link/Aging]], [[Lamin A]], [[Epigenome]], [[Genomic Instability]], [[Heterochromatin]], [[notes/_link/Senescence]], [[Senescence-Associated Secretory Phenotype]], [[Werner Syndrome]], [[Rejuvenation]], [[Partial Reprogramming]], [[Yamanaka Factors]], [[OSKM]], [[notes/_link/DNA Damage]]
-- Suggested new entity notes to create: [[Progerin]], [[LMNA Gene]], [[Segmented Progeria]]
-- Strong connections to strengthen: [[Hutchinson-Gilford Progeria Syndrome]] ↔ [[notes/_link/Aging]], [[Hutchinson-Gilford Progeria Syndrome]] ↔ [[Partial Reprogramming]]
+- New links added: [[Rejuvenation]], [[Partial Reprogramming]], [[Yamanaka Factors]], [[OSKM]], [[notes/_link/DNA Damage]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[Partial Reprogramming]] ↔ [[Hutchinson-Gilford Progeria Syndrome]]

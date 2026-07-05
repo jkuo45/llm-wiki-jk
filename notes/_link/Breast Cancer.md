@@ -1,3 +1,10 @@
+---
+type: entity
+category: medical_condition
+entity_type: "Medical Condition"
+created: 2026-05-29
+updated: 2026-05-29
+---
 # Breast Cancer
 
 **Breast Cancer** is a major malignancy affecting breast tissue, primarily in women. It is the most common cancer in women worldwide.
@@ -12,7 +19,7 @@
 - The tumor suppressor gene [[BRCA1]] is physically close to BCLN1, and their co-deletion is a common occurrence in aggressive breast cancers.
 
 ## Response to [[notes/_link/Caloric Restriction]]
-- In vitro studies of breast cancer cell lines (e.g., [[MCF-7]]) show that [[notes/_link/Caloric Restriction]] leads to the activation of [[Autophagy]] molecular machinery via the upregulation of protein kinase [[CK2]] and [[notes/sirtuins/SIRT1]].
+- In vitro studies of breast cancer cell lines (e.g., [[MCF-7]]) show that [[notes/_link/Caloric Restriction]] leads to the activation of [[Autophagy]] molecular machinery via the upregulation of protein kinase [[CK2]] and [[SIRT1]].
 - Caloric restriction can sensitize breast cancer cells to chemotherapy-induced injury.
 
 ## Research with [[melittin]] and [[Ivermectin]]
@@ -26,6 +33,18 @@
 - [[Beclin1]]: Often suppressed or co-deleted with [[BRCA1]].
 
 ### Linking Summary:
-- New links added: [[notes/_link/Akt]], [[Autophagy]], [[Beclin1]], [[BRCA1]], [[CK2]], [[notes/_link/Caloric Restriction]], [[Cancer Stem Cells]], [[HER2]], [[Honeybee venom]], [[Ivermectin]], [[MCF-7]], [[PAK1]], [[notes/sirtuins/SIRT1]], [[melittin]], [[notes/_link/mTOR]], [[pyroptosis]], [[triple-negative breast cancer]]
+- New links added: [[notes/_link/Akt]], [[Autophagy]], [[Beclin1]], [[BRCA1]], [[CK2]], [[notes/_link/Caloric Restriction]], [[Cancer Stem Cells]], [[HER2]], [[Honeybee venom]], [[Ivermectin]], [[MCF-7]], [[PAK1]], [[SIRT1]], [[melittin]], [[notes/_link/mTOR]], [[pyroptosis]], [[triple-negative breast cancer]]
 - Suggested new entity notes to create: [[HER2]], [[ER]], [[PR]], [[MCF-7]], [[PAK1]], [[CK2]], [[pyroptosis]]
 - Strong connections to strengthen: [[notes/_link/Breast Cancer]] ↔ [[Beclin1]], [[notes/_link/Breast Cancer]] ↔ [[BRCA1]], [[notes/_link/Breast Cancer]] ↔ [[Ivermectin]]
+
+## Content from [[cancer/Breast Cancer.md]]
+
+# Breast Cancer
+
+Breast cancer is cancer that forms in the cells of the breasts, commonly occurring in the milk-producing ducts or the lobules.
+
+### Linking Summary
+
+- New links added: [[Caspase-7]], [[Puma]], [[Bcl-xL]], [[Mcl-1]], [[HER2]], [[HER2-enriched breast cancer]], [[triple-negative breast cancer]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[Caspase-7]] ↔ [[Breast Cancer]]

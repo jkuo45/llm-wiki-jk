@@ -1,3 +1,10 @@
+---
+type: entity
+category: protein
+entity_type: "Protein"
+created: 2024-01-01
+updated: 2024-01-01
+---
 # TGF-beta1
 
 [[TGF-beta1|Transforming growth factor beta 1]] ([[TGF-beta1|TGF-β1]]) is a polypeptide member of the transforming growth factor beta superfamily of cytokines. It is a secreted protein that performs many cellular functions, including the control of cell growth, cell proliferation, cell differentiation, and apoptosis. It acts as a quiescence-inducing factor in several stem cell niches.

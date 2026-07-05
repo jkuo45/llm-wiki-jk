@@ -23,5 +23,5 @@ MTH1 functions upstream of [[Base Excision Repair|BER]]: while [[OGG1]] repairs 
 
 ## Clinical Relevance
 
-- **[[notes/oxidative_stress/Cancer|Cancer]]**: MTH1 is overexpressed in many cancer types (lung, breast, colorectal, bladder, melanoma), reflecting the elevated oxidative stress in cancer cells and their increased reliance on nucleotide pool sanitization. MTH1 knockdown in cancer cells leads to DNA damage, cell cycle arrest, and cell death, while normal cells with lower oxidative burdens are less affected — making MTH1 a potential therapeutic target (MTH1 inhibitors: [[TH287]], [[TH588]], [[IACS-4759]]).
-- **[[notes/oxidative_stress/Neurodegeneration]]**: MTH1 protects post-mitotic neurons from oxidative DNA damage accumulation; MTH1⁻/⁻ mice show elevated 8-oxoG in brain and accelerated age-related behavioral decline.
+- **[[Cancer]]**: MTH1 is overexpressed in many cancer types (lung, breast, colorectal, bladder, melanoma), reflecting the elevated oxidative stress in cancer cells and their increased reliance on nucleotide pool sanitization. MTH1 knockdown in cancer cells leads to DNA damage, cell cycle arrest, and cell death, while normal cells with lower oxidative burdens are less affected — making MTH1 a potential therapeutic target (MTH1 inhibitors: [[TH287]], [[TH588]], [[IACS-4759]]).
+- **[[Neurodegeneration]]**: MTH1 protects post-mitotic neurons from oxidative DNA damage accumulation; MTH1⁻/⁻ mice show elevated 8-oxoG in brain and accelerated age-related behavioral decline.

@@ -8,7 +8,7 @@ updated: 2026-07-04
 
 # Polyunsaturated Fatty Acids
 
-**Polyunsaturated fatty acids (PUFAs)** are fatty acids containing two or more carbon-carbon double bonds. They are essential structural components of cell membranes and are particularly susceptible to [[notes/oxidative_stress/Lipid Peroxidation|lipid peroxidation]].
+**Polyunsaturated fatty acids (PUFAs)** are fatty acids containing two or more carbon-carbon double bonds. They are essential structural components of cell membranes and are particularly susceptible to [[Lipid Peroxidation|lipid peroxidation]].
 
 ## Susceptibility to Oxidation
 
@@ -23,4 +23,4 @@ The bis-allylic methylene groups (CH₂ groups flanked by two double bonds) in P
 
 ## Role in Oxidative Stress & Disease
 
-PUFA peroxidation generates reactive aldehydes ([[Malondialdehyde]], [[4-Hydroxynonenal]]) that propagate damage to proteins and DNA. While PUFA-rich membranes are more susceptible to oxidation, PUFAs also serve as signaling molecules (eicosanoids, resolvins, protectins) and their controlled oxidation is essential for [[notes/oxidative_stress/Inflammation|inflammation]] and its resolution. Peroxidation of PUFAs in membrane phospholipids is the driving force of [[notes/oxidative_stress/Ferroptosis|ferroptosis]].
+PUFA peroxidation generates reactive aldehydes ([[Malondialdehyde]], [[4-Hydroxynonenal]]) that propagate damage to proteins and DNA. While PUFA-rich membranes are more susceptible to oxidation, PUFAs also serve as signaling molecules (eicosanoids, resolvins, protectins) and their controlled oxidation is essential for [[inflammation]] and its resolution. Peroxidation of PUFAs in membrane phospholipids is the driving force of [[Ferroptosis|ferroptosis]].

@@ -1,3 +1,10 @@
+---
+type: entity
+category: cell_type
+entity_type: "Cell Type"
+created: 2026-05-29
+updated: 2026-05-29
+---
 # Dopaminergic Neurons
 
 **Dopaminergic Neurons** are the primary source of the neurotransmitter [[notes/_link/Dopamine]] in the mammalian central nervous system. They play a critical role in the control of metabolic processes, executive functions, and motor control.

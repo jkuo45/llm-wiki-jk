@@ -1,3 +1,10 @@
+---
+type: entity
+category: biological_molecule
+entity_type: ""
+created: 2024-01-01
+updated: 2024-01-01
+---
 # MicroRNA
 
 **[[MicroRNA]]** (miRNA) is a class of small, non-coding RNA molecules (typically 21-25 nucleotides long) that play a crucial role in the post-transcriptional regulation of gene expression. They function by binding to target messenger RNAs (mRNAs), leading to their degradation or the inhibition of their translation into proteins.

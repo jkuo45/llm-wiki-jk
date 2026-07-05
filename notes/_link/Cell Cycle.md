@@ -1,3 +1,10 @@
+---
+type: entity
+category: biological_process
+entity_type: ""
+created: 2024-01-01
+updated: 2024-01-01
+---
 # Cell Cycle
 
 The [[Cell Cycle]] is the series of events that take place in a cell leading to its division and duplication of its DNA (DNA replication) to produce two daughter cells. It is tightly regulated by [[Cyclin|cyclins]], [[Cyclin-Dependent Kinase|cyclin-dependent kinases]] ([[CDK|CDKs]]), and [[CDK Inhibitor|CDK inhibitors]].
@@ -20,5 +27,5 @@ The cell cycle is the series of events leading to cell division; cell cycle regu
 ### Linking Summary
 
 - New links added: [[CDK4/6]], [[TFEB]]
-- Suggested new entity notes to create: [[Cyclins]]
+- Suggested new entity notes to create: [[Cyclin]]
 - Strong connections to strengthen: [[Cell Cycle]] ↔ [[CDK4/6]]

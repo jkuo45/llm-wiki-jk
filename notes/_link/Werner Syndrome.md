@@ -1,3 +1,10 @@
+---
+type: entity
+category: medical_condition
+entity_type: ""
+created: 2024-01-01
+updated: 2024-01-01
+---
 # Werner Syndrome
 
 **[[Werner Syndrome]]** (WS) is a rare, autosomal recessive progeroid syndrome characterized by the appearance of premature [[notes/_link/Aging]]. Unlike [[HGPS]], which begins in early childhood, Werner Syndrome typically manifests during adolescence, often first noticed as a lack of a pubertal growth spurt.

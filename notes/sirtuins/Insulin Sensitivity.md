@@ -11,7 +11,7 @@ updated: 2026-07-04
 
 # Insulin Sensitivity
 
-[[Insulin Sensitivity]] refers to the efficiency with which cells (primarily muscle, adipose, and liver) respond to [[Insulin Signaling|insulin signaling]] to uptake glucose from the bloodstream. Reduced insulin sensitivity — [[Insulin Resistance|insulin resistance]] — is a hallmark of [[Type 2 Diabetes Mellitus]], [[Metabolic Syndrome|Metabolic Syndromes]], and [[Obesity|obesity]].
+[[Insulin Sensitivity]] refers to the efficiency with which cells (primarily muscle, adipose, and liver) respond to [[Insulin Signaling|insulin signaling]] to uptake glucose from the bloodstream. Reduced insulin sensitivity — [[Insulin Resistance|insulin resistance]] — is a hallmark of [[Type 2 Diabetes Mellitus]], [[Metabolic_Syndrome|Metabolic Syndromes]], and [[Obesity|obesity]].
 
 ## Sirtuin Connections
 

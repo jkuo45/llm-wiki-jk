@@ -1,3 +1,10 @@
+---
+type: entity
+category: chemical
+entity_type: "Chemical Compound"
+created: 2026-05-29
+updated: 2026-05-29
+---
 # Tyrosine
 
 **[[Tyrosine]]** is a non-essential amino acid that is the precursor to [[Catecholamines]], including [[notes/_link/Dopamine]], [[notes/_link/Epinephrine]], and [[notes/_link/Norepinephrine]].

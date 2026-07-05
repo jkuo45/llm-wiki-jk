@@ -1,3 +1,11 @@
+---
+type: entity
+category: antibody
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Immunoglobulin G
 
 [[Immunoglobulin G]] (IgG) is the most common type of antibody found in blood circulation. In the brains of [[notes/_link/Parkinson's Disease]] patients, IgG accumulation has been observed in [[Neuromelanin]]-containing neurons, correlating with neuronal loss and suggesting an involvement of the adaptive immune system in the disease pathogenesis.

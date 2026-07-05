@@ -1,3 +1,10 @@
+---
+type: entity
+category: protein
+entity_type: ""
+created: 2024-01-01
+updated: 2024-01-01
+---
 # TFEB
 
 [[TFEB]] (Transcription Factor EB) is a master regulator of the autophagy-lysosome pathway. It coordinates the expression of genes involved in lysosomal biogenesis, [[Autophagy]], and lysosomal exocytosis. Overexpression of TFEB has been shown to promote the clearance of [[Neuromelanin]] and protect against neurodegeneration in models of [[notes/_link/Parkinson's Disease]].
@@ -35,9 +42,9 @@
 
 ## Sirtuin Regulation of TFEB
 
-[[notes/sirtuins/SIRT2]] directly binds to the 3'UTR of TFEB mRNA and facilitates its mRNA stability. SIRT2 promotes TFEB expression, which then promotes autophagosome-lysosome fusion. Additionally, [[notes/sirtuins/SIRT1]] deacetylates TFEB at K116 to promote its nuclear translocation and transcriptional activity.
+[[SIRT2]] directly binds to the 3'UTR of TFEB mRNA and facilitates its mRNA stability. SIRT2 promotes TFEB expression, which then promotes autophagosome-lysosome fusion. Additionally, [[SIRT1]] deacetylates TFEB at K116 to promote its nuclear translocation and transcriptional activity.
 
 ### Linking Summary (Sirtuin Additions):
-- New links added: [[notes/sirtuins/SIRT2]], [[notes/sirtuins/SIRT1]]
+- New links added: [[SIRT2]], [[SIRT1]]
 - Suggested new entity notes to create:
-- Strong connections to strengthen: [[TFEB]] ↔ [[notes/sirtuins/SIRT2]], [[TFEB]] ↔ [[notes/sirtuins/SIRT1]]
+- Strong connections to strengthen: [[TFEB]] ↔ [[SIRT2]], [[TFEB]] ↔ [[SIRT1]]

@@ -1,3 +1,10 @@
+---
+type: entity
+category: biological_molecule
+entity_type: "Biological Molecule"
+created: 2026-05-29
+updated: 2026-05-29
+---
 # Glutathione
 
 Glutathione is a concept related to [[Adrenochrome]] and catecholamine metabolism.
@@ -6,7 +13,7 @@ Glutathione is a concept related to [[Adrenochrome]] and catecholamine metabolis
 ## Linking Summary:
 - New links added: [[Adrenochrome]]
 
-- New links added: [[Glutathione Peroxidase]], [[Alpha-Lipoic Acid]], [[notes/oxidative_stress/Oxidative Stress]]
+- New links added: [[Glutathione Peroxidase]], [[Alpha-Lipoic Acid]], [[Oxidative Stress]]
 - Suggested new entity notes to create: [[Glutathione Reductase]], [[GSSG]], [[Cysteine]]
 - Strong connections to strengthen: [[notes/_link/Glutathione]] ↔ [[Glutathione Peroxidase]]
 
@@ -28,10 +35,10 @@ Glutathione (GSH) is a tripeptide (composed of glutamate, cysteine, and glycine)
 ## Connections
 - [[Glutathione Peroxidase]]: The enzyme that utilizes glutathione to neutralize peroxides.
 - [[Alpha-Lipoic Acid]]: Can regenerate GSH from GSSG directly and increases the availability of cysteine for GSH synthesis.
-- [[notes/oxidative_stress/Oxidative Stress]]: GSH levels are a key indicator of cellular oxidative state.
+- [[Oxidative Stress]]: GSH levels are a key indicator of cellular oxidative state.
 
 
 ### Linking Summary:
-- New links added: [[Adrenochrome]], [[Alpha-Lipoic Acid]], [[Glutathione Peroxidase]], [[notes/oxidative_stress/Oxidative Stress]]
+- New links added: [[Adrenochrome]], [[Alpha-Lipoic Acid]], [[Glutathione Peroxidase]], [[Oxidative Stress]]
 - Suggested new entity notes to create: [[Cysteine]], [[GSSG]], [[Glutathione Reductase]]
 - Strong connections to strengthen: [[notes/_link/Glutathione]] ↔ [[Glutathione Peroxidase]]

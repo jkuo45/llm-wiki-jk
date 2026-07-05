@@ -1,3 +1,10 @@
+---
+type: entity
+category: other
+entity_type: "NA"
+created: 2024-01-01
+updated: 2024-01-01
+---
 # Induced Pluripotent Stem Cells
 
 Induced Pluripotent Stem Cells (iPSCs) are a type of pluripotent stem cell that can be generated directly from adult [[Somatic Cells]]. The technology was pioneered by [[Shinya Yamanaka]] in 2006, who showed that the introduction of four specific genes—[[Oct4]], [[Sox2]], [[Klf4]], and [[c-Myc]] (known as the [[Yamanaka Factors]])—could reprogram differentiated cells back to a state of [[Pluripotency]].

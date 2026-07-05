@@ -1,9 +1,17 @@
+---
+type: entity
+category: anatomy
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Substantia Nigra Pars Compacta
 
 The [[Substantia Nigra Pars Compacta]] (SNpc) is a specific portion of the [[notes/_link/Substantia Nigra]] characterized by a high density of dopamine-producing neurons.
 
 ## Anatomy and Appearance
-Neurons in the SNpc are heavily pigmented with [[Neuromelanin]], which gives the structure a dark appearance to the naked eye. These neurons project their axons primarily to the [[Striatum]], forming the [[Nigrostriatal System]].
+Neurons in the SNpc are heavily pigmented with [[Neuromelanin]], which gives the structure a dark appearance to the naked eye. These neurons project their axons primarily to the [[Sirtuins]], forming the [[Nigrostriatal System]].
 
 ## Role in Parkinson's Disease
 The SNpc is the primary site of neurodegeneration in [[notes/_link/Parkinson's Disease]].
@@ -11,6 +19,6 @@ The SNpc is the primary site of neurodegeneration in [[notes/_link/Parkinson's D
 - **Diagnostic Pathology:** A significant loss of pigmented neurons in the SNpc is the cardinal pathological diagnostic criterion for PD.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Substantia Nigra]], [[Neuromelanin]], [[Striatum]], [[Nigrostriatal System]], [[notes/_link/Parkinson's Disease]].
+- New links added: [[notes/_link/Substantia Nigra]], [[Neuromelanin]], [[Sirtuins]], [[Nigrostriatal System]], [[notes/_link/Parkinson's Disease]].
 - Suggested new entity notes to create: [[Basal Ganglia]], [[notes/_link/Dopaminergic Neurons]].
 - Strong connections to strengthen: [[Substantia Nigra Pars Compacta]] ↔ [[notes/_link/Parkinson's Disease]].

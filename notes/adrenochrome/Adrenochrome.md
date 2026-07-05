@@ -17,7 +17,7 @@ updated: 2026-07-04
 - **Structure:** Features an [[Indoline]] core fused to a [[Quinone]] moiety (o-quinone derivative) with an N-methyl group and a hydroxyl group at position 3.
 
 ## Production in Humans
-Adrenochrome is produced non-enzymatically or via catalytic pathways under conditions of [[notes/oxidative_stress/Oxidative Stress]]. 
+Adrenochrome is produced non-enzymatically or via catalytic pathways under conditions of [[Oxidative Stress]]. 
 
 ### Mechanisms
 - **Non-enzymatic Oxidation:** Driven by [[notes/_link/Reactive Oxygen Species]] (ROS), specifically [[Superoxide anion]] (O₂⁻), [[notes/_link/Hydrogen Peroxide]] (H₂O₂), and [[Hydroxyl radical]] (•OH).
@@ -67,6 +67,6 @@ Critical unresolved questions include the development of sensitive and specific 
 - [[COMT]] & [[MAO]] ↔ Enzymes whose inhibition increases substrate availability for adrenochrome formation.
 
 ### Linking Summary:
-- New links added: [[Aminochromes]], [[Indoline]], [[Quinone]], [[Hydroxyl radical]], [[Cardiotoxicity]], [[Adrenolutin]], [[Carbazochrome]], [[Smoking]], [[notes/oxidative_stress/Oxidative Stress]], [[notes/_link/Reactive Oxygen Species]], [[notes/_link/Neutrophils]], [[notes/_link/Inflammation]], [[Lungs]], [[Neuromelanin]], [[Redox Cycling]], [[COMT]], [[MAO]], [[Diaphorase]], [[Dithiothreitol]], [[Septic Shock]], [[Ischemia-Reperfusion Injury]], [[Preeclampsia]], [[Adrenergic receptor]], [[β₂-adrenergic receptor]], [[Catechol-O-methyltransferase]], [[Long QT Syndrome]], [[Na⁺/K⁺-ATPase]], [[MAP Kinase]], [[NF-κB]], [[N-Acetylcysteine]], [[Mitohormetic Redox-Relay]]
+- New links added: [[Aminochromes]], [[Indoline]], [[Quinone]], [[Hydroxyl radical]], [[Cardiotoxicity]], [[Adrenolutin]], [[Carbazochrome]], [[Smoking]], [[Oxidative Stress]], [[notes/_link/Reactive Oxygen Species]], [[notes/_link/Neutrophils]], [[notes/_link/Inflammation]], [[Lungs]], [[Neuromelanin]], [[Redox Cycling]], [[COMT]], [[MAO]], [[Diaphorase]], [[Dithiothreitol]], [[Septic Shock]], [[Ischemia-Reperfusion Injury]], [[Preeclampsia]], [[Adrenergic receptor]], [[β₂-adrenergic receptor]], [[Catechol-O-methyltransferase]], [[Long QT Syndrome]], [[Na⁺/K⁺-ATPase]], [[MAP Kinase]], [[NF-κB]], [[N-Acetylcysteine]], [[Mitohormetic Redox-Relay]]
 - Suggested new entity notes to create: [[Indoline]], [[Quinone]], [[notes/_link/Schizophrenia]], [[Adrenochrome Hypothesis]]
 - Strong connections to strengthen: [[Adrenochrome]] ↔ [[notes/_link/Epinephrine]], [[Adrenochrome]] ↔ [[Redox Cycling]], [[Adrenochrome]] ↔ [[Mitohormetic Redox-Relay]]

@@ -1,6 +1,6 @@
 ---
 type: entity
-category: concept
+category: scientific_concept
 aliases: []
 created: 2026-07-04
 updated: 2026-07-04

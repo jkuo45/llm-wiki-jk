@@ -1,3 +1,11 @@
+---
+type: entity
+category: medical_condition
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Cutaneous Melanoma
 
 [[Cutaneous Melanoma]] is a type of skin cancer that develops from the pigment-producing cells known as melanocytes.

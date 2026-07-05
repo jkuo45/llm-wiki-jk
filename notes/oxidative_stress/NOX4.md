@@ -26,4 +26,4 @@ Unlike NOX1 and NOX2, NOX4 does not require p47ᵖʰᵒˣ or p67ᵖʰᵒˣ for a
 
 ## Pathological Roles
 
-NOX4 is upregulated in [[notes/oxidative_stress/Chronic Obstructive Pulmonary Disease|COPD]] (airway epithelial cells), [[notes/oxidative_stress/NADPH Oxidase|pulmonary fibrosis]] (myofibroblasts), [[notes/_link/Cardiovascular Disease|cardiovascular disease]] (endothelial dysfunction), diabetic nephropathy, and [[Cancer|various cancers]] (including [[notes/_link/Breast Cancer]], [[notes/_link/Renal Cell Carcinoma]], and [[notes/_link/Colorectal Cancer]]) where it promotes proliferation, migration, and resistance to [[notes/oxidative_stress/Ferroptosis|ferroptosis]].
+NOX4 is upregulated in [[Chronic Obstructive Pulmonary Disease|COPD]] (airway epithelial cells), [[NADPH Oxidase|pulmonary fibrosis]] (myofibroblasts), [[notes/_link/Cardiovascular Disease|cardiovascular disease]] (endothelial dysfunction), diabetic nephropathy, and [[Cancer|various cancers]] (including [[notes/_link/Breast Cancer]], [[notes/_link/Renal Cell Carcinoma]], and [[notes/_link/Colorectal Cancer]]) where it promotes proliferation, migration, and resistance to [[Ferroptosis|ferroptosis]].

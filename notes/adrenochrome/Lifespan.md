@@ -8,7 +8,7 @@ updated: 2026-07-04
 
 # Lifespan
 
-Lifespan is the maximum number of years an individual of a given species can humanly live. Interventions like [[Caloric Restriction]] have been shown to increase lifespan, potentially by reducing [[notes/adrenochrome/Oxidative Stress]] and the accumulation of [[Advanced Glycation End Products|AGEs]].
+Lifespan is the maximum number of years an individual of a given species can humanly live. Interventions like [[Caloric Restriction]] have been shown to increase lifespan, potentially by reducing [[Oxidative Stress]] and the accumulation of [[Advanced Glycation End Products|AGEs]].
 
 ## Lifespan vs. Healthspan
 
@@ -98,12 +98,12 @@ Translation of longevity mechanisms to humans is constrained by:
 ## Relationship to Stress Resistance and Proteostasis
 
 Lifespan extension often correlates with enhanced stress resistance:
-- Long-lived mutants ([[daf-2]], [[age-1]]) are resistant to [[Oxidative stress]], [[Heat shock]], and [[UV radiation]].
+- Long-lived mutants ([[daf-2]], [[age-1]]) are resistant to [[Oxidative Stress]], [[Heat shock]], and [[UV radiation]].
 - [[Heat shock response]] declines with age; boosting [[HSP70]] extends lifespan.
 - [[Proteasome]] activation by [[Nrf2]]/[[ARE]] signaling clears damaged proteins.
 - The [[Glyco-Oxidative Proteostasis Shield]] concept explicitly links proteostasis maintenance — through [[Redox Cycling]] and [[UPRmt]] activation — to lifespan extension.
 
 ### Linking Summary:
-- New links added: [[Caloric Restriction]], [[notes/adrenochrome/Oxidative Stress]], [[Advanced Glycation End Products]], [[Aging]], [[Healthspan]], [[Metformin]], [[Insulin/IGF-1 Signaling (IIS)]], [[DAF-2]], [[DAF-16]], [[FOXO]], [[FOXO3A]], [[IGF-1]], [[TOR]], [[mTORC1]], [[Rapamycin]], [[SASP]], [[Autophagy]], [[S6K1]], [[AMPK]], [[AICAR]], [[Adiponectin]], [[Leptin]], [[PGC1α]], [[ULK1]], [[SIRT1]], [[SIRT6]], [[SIRT3]], [[SOD2]], [[Mitohormesis]], [[isp-1]], [[clk-1]], [[nuo-6]], [[UPRmt]], [[ATFS-1]], [[HAF-1]], [[UBL-5]], [[DVE-1]], [[Mitophagy]], [[Sarcopenia]], [[Neurodegeneration]], [[Retrograde Response]], [[S. cerevisiae]], [[RTG1]], [[RTG3]], [[DELE1]], [[HRI]], [[ATF4]], [[Integrated Stress Response]], [[OMA1]], [[OPA1]], [[Mitokines]], [[FGF21]], [[Insulin sensitivity]], [[GDF15]], [[Humanin]], [[Mitochondrial DNA]], [[Alzheimer's Disease]], [[Stroke]], [[C. elegans]], [[Drosophila melanogaster]], [[Mus musculus]], [[Caloric restriction]], [[Frailty index]], [[Oxidative stress]], [[Heat shock]], [[UV radiation]], [[HSP70]], [[Proteasome]], [[Nrf2]], [[ARE]], [[Glyco-Oxidative Proteostasis Shield]], [[Redox Cycling]]
+- New links added: [[Caloric Restriction]], [[Oxidative Stress]], [[Advanced Glycation End Products]], [[Aging]], [[Healthspan]], [[Metformin]], [[Insulin/IGF-1 Signaling (IIS)]], [[DAF-2]], [[DAF-16]], [[FOXO]], [[FOXO3A]], [[IGF-1]], [[TOR]], [[mTORC1]], [[Rapamycin]], [[SASP]], [[Autophagy]], [[S6K1]], [[AMPK]], [[AICAR]], [[Adiponectin]], [[Leptin]], [[PGC1α]], [[ULK1]], [[SIRT1]], [[SIRT6]], [[SIRT3]], [[SOD2]], [[Mitohormesis]], [[isp-1]], [[clk-1]], [[nuo-6]], [[UPRmt]], [[ATFS-1]], [[HAF-1]], [[UBL-5]], [[DVE-1]], [[Mitophagy]], [[Sarcopenia]], [[Neurodegeneration]], [[Retrograde Response]], [[S. cerevisiae]], [[RTG1]], [[RTG3]], [[DELE1]], [[HRI]], [[ATF4]], [[Integrated Stress Response]], [[OMA1]], [[OPA1]], [[Mitokines]], [[FGF21]], [[Insulin sensitivity]], [[GDF15]], [[Humanin]], [[Mitochondrial DNA]], [[Alzheimer's Disease]], [[Stroke]], [[C. elegans]], [[Drosophila melanogaster]], [[Mus musculus]], [[Caloric restriction]], [[Frailty index]], [[Oxidative Stress]], [[Heat shock]], [[UV radiation]], [[HSP70]], [[Proteasome]], [[Nrf2]], [[ARE]], [[Glyco-Oxidative Proteostasis Shield]], [[Redox Cycling]]
 - Suggested new entity notes to create: [[Biomarkers of Aging]], [[Morbidity Compression]]
 - Strong connections to strengthen: [[Caloric Restriction]] ↔ [[Lifespan]], [[Mitohormesis]] ↔ [[Lifespan]]

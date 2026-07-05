@@ -21,5 +21,5 @@ TGF-β induces [[Autophagy]] via SMAD3-dependent upregulation of autophagy genes
 ### Linking Summary
 
 - New links added: [[SMAD3]], [[TFEB]]
-- Suggested new entity notes to create: [[Cytokine]]
+- Suggested new entity notes to create: [[Cytokines]]
 - Strong connections to strengthen: [[TGF-β]] ↔ [[SMAD3]]

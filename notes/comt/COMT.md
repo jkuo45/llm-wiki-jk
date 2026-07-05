@@ -35,7 +35,7 @@ updated: 2026-07-04
 
 # COMT (Catechol-O-methyltransferase)
 
-**COMT** (Catechol-O-methyltransferase) is one of the primary enzymes responsible for the degradation of [[Catecholamines]], including [[notes/_link/Dopamine]], [[notes/_link/Norepinephrine]], and [[notes/_link/Epinephrine]]. It is essential for protecting cells from [[notes/oxidative_stress/Oxidative Stress]] by preventing the accumulation of catecholamines and protecting the body from reactive [[Catechols]].
+**COMT** (Catechol-O-methyltransferase) is one of the primary enzymes responsible for the degradation of [[Catecholamines]], including [[notes/_link/Dopamine]], [[notes/_link/Norepinephrine]], and [[notes/_link/Epinephrine]]. It is essential for protecting cells from [[Oxidative Stress]] by preventing the accumulation of catecholamines and protecting the body from reactive [[Catechols]].
 
 ## Biochemical Function
 
@@ -59,7 +59,7 @@ Population frequencies vary: the Met/Met (slow) genotype occurs in approximately
 
 ## Role in Adrenochrome Pathway
 
-Under normal conditions, COMT and [[notes/_link/Monoamine oxidase]] (MAO) are the dominant routes for adrenaline metabolism. If COMT is inhibited (e.g., by drugs used in Parkinson's disease or certain [[Flavonoids]] like [[notes/_link/Quercetin]]), levels of [[notes/_link/Epinephrine]] can rise. This increased substrate availability, combined with [[notes/oxidative_stress/Oxidative Stress]], may shift more adrenaline toward the minor [[Adrenochrome]] oxidative pathway via autoxidation.
+Under normal conditions, COMT and [[notes/_link/Monoamine oxidase]] (MAO) are the dominant routes for adrenaline metabolism. If COMT is inhibited (e.g., by drugs used in Parkinson's disease or certain [[Flavonoids]] like [[notes/_link/Quercetin]]), levels of [[notes/_link/Epinephrine]] can rise. This increased substrate availability, combined with [[Oxidative Stress]], may shift more adrenaline toward the minor [[Adrenochrome]] oxidative pathway via autoxidation.
 
 ## Clinical Relevance
 
@@ -89,7 +89,7 @@ COMT genotype influences response to numerous substances:
 - [[notes/_link/Epinephrine]] ↔ Metabolized by COMT.
 - [[notes/_link/Monoamine oxidase]] ↔ The other major enzymatic pathway for catecholamine degradation.
 - [[Adrenochrome]] ↔ Pathway that becomes more prominent when enzymatic degradation is blocked.
-- [[notes/oxidative_stress/Oxidative Stress]] ↔ Condition that favors the alternative oxidation pathway.
+- [[Oxidative Stress]] ↔ Condition that favors the alternative oxidation pathway.
 - [[notes/_link/Dopamine]]: Primary substrate for degradation in the PFC.
 - [[notes/_link/Methylation]]: Provides the methyl groups necessary for COMT function.
 - [[notes/_link/Estrogen]]: COMT is involved in the metabolism of catechol estrogens.
@@ -101,5 +101,5 @@ COMT genotype influences response to numerous substances:
 
 ### Linking Summary:
 
-- New links added: [[Adrenochrome]], [[Aminochromes]], [[COMT]], [[Catecholamines]], [[Catechols]], [[Cognitive Performance]], [[notes/_link/Dopamine]], [[Dopaminochrome]], [[notes/_link/Epinephrine]], [[notes/_link/Estrogen]], [[Executive Function]], [[notes/_link/Monoamine oxidase]], [[notes/_link/Magnesium]], [[Methyl Groups]], [[notes/_link/Methylation]], [[notes/_link/Norepinephrine]], [[notes/oxidative_stress/Oxidative Stress]], [[Psychiatric Disorders]], [[SNP]], [[notes/_link/Schizophrenia]], [[Val158Met]], [[Working Memory]], [[notes/_link/SAMe]], [[notes/_link/Quercetin]], [[Flavonoids]]
+- New links added: [[Adrenochrome]], [[Aminochromes]], [[COMT]], [[Catecholamines]], [[Catechols]], [[Cognitive Performance]], [[notes/_link/Dopamine]], [[Dopaminochrome]], [[notes/_link/Epinephrine]], [[notes/_link/Estrogen]], [[Executive Function]], [[notes/_link/Monoamine oxidase]], [[notes/_link/Magnesium]], [[Methyl Groups]], [[notes/_link/Methylation]], [[notes/_link/Norepinephrine]], [[Oxidative Stress]], [[Psychiatric Disorders]], [[SNP]], [[notes/_link/Schizophrenia]], [[Val158Met]], [[Working Memory]], [[notes/_link/SAMe]], [[notes/_link/Quercetin]], [[Flavonoids]]
 - Strong connections to strengthen: [[COMT]] ↔ [[Catecholamines]]

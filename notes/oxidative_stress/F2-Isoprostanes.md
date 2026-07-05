@@ -8,7 +8,7 @@ updated: 2026-07-04
 
 # F2-Isoprostanes
 
-**F2-Isoprostanes (F2-IsoPs)** are prostaglandin-like compounds formed non-enzymatically by free radical-mediated [[Lipid Peroxidation|peroxidation]] of [[Arachidonic acid]], widely considered the gold-standard biomarker for endogenous [[notes/oxidative_stress/Oxidative Stress|oxidative stress]].
+**F2-Isoprostanes (F2-IsoPs)** are prostaglandin-like compounds formed non-enzymatically by free radical-mediated [[Lipid Peroxidation|peroxidation]] of [[Arachidonic acid]], widely considered the gold-standard biomarker for endogenous [[Oxidative Stress|oxidative stress]].
 
 ## Formation
 
@@ -20,4 +20,4 @@ F2-IsoPs are measured by gas chromatography-mass spectrometry (GC-MS) or liquid 
 
 ## Clinical Relevance
 
-Elevated F2-IsoPs are found in virtually every disease involving oxidative stress, including [[notes/_link/Cardiovascular Disease|cardiovascular disease]] (plaque formation, reperfusion injury), [[notes/oxidative_stress/Neurodegeneration|neurodegeneration]] ([[notes/_link/Alzheimer's Disease]], [[notes/_link/Parkinson's Disease]]), [[notes/_link/Diabetes Mellitus]], [[notes/oxidative_stress/Chronic Obstructive Pulmonary Disease|COPD]], [[notes/oxidative_stress/Rheumatoid Arthritis|rheumatoid arthritis]], and [[notes/_link/Aging]]. They also possess biological activity as weak vasoconstrictors and can modulate platelet activation through thromboxane receptor (TP) binding.
+Elevated F2-IsoPs are found in virtually every disease involving oxidative stress, including [[notes/_link/Cardiovascular Disease|cardiovascular disease]] (plaque formation, reperfusion injury), [[Neurodegeneration|neurodegeneration]] ([[notes/_link/Alzheimer's Disease]], [[notes/_link/Parkinson's Disease]]), [[notes/_link/Diabetes Mellitus]], [[Chronic Obstructive Pulmonary Disease|COPD]], [[Rheumatoid Arthritis|rheumatoid arthritis]], and [[notes/_link/Aging]]. They also possess biological activity as weak vasoconstrictors and can modulate platelet activation through thromboxane receptor (TP) binding.

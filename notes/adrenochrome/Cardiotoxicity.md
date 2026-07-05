@@ -38,12 +38,12 @@ These effects position adrenochrome as a mechanistic link between acute catechol
 - [[Adrenochrome]] ↔ A primary mediator of catecholamine-induced cardiotoxicity.
 - [[notes/_link/Epinephrine]] ↔ The precursor whose oxidation leads to toxic products in the heart.
 - [[Redox Cycling]] ↔ The mechanism by which adrenochrome amplifies heart damage.
-- [[notes/oxidative_stress/Oxidative Stress]] ↔ The broader condition underlying cardiotoxic processes.
+- [[Oxidative Stress]] ↔ The broader condition underlying cardiotoxic processes.
 - [[notes/_link/Neutrophils]] ↔ Cells that contribute to cardiotoxicity by producing ROS and adrenochrome during [[notes/_link/Inflammation]].
 - [[Arrhythmias]] ↔ Specific cardiac rhythm disturbance caused by adrenochrome.
 - [[Coronary artery constriction]] ↔ Specific vasospastic effect of adrenochrome.
 - [[Cell necrosis]] ↔ Necrotic cell death triggered by high adrenochrome concentrations.
 
 ### Linking Summary:
-- New links added: [[Cardiotoxicity]], [[Adrenochrome]], [[Redox Cycling]], [[Superoxide anion]], [[notes/_link/Reactive Oxygen Species]], [[notes/_link/Epinephrine]], [[notes/oxidative_stress/Oxidative Stress]], [[notes/_link/Neutrophils]], [[notes/_link/Inflammation]], [[Arrhythmias]], [[Coronary artery constriction]], [[Cell necrosis]], [[notes/_link/Nitric Oxide]], [[Myocardium]], [[Calcium Handling]]
+- New links added: [[Cardiotoxicity]], [[Adrenochrome]], [[Redox Cycling]], [[Superoxide anion]], [[notes/_link/Reactive Oxygen Species]], [[notes/_link/Epinephrine]], [[Oxidative Stress]], [[notes/_link/Neutrophils]], [[notes/_link/Inflammation]], [[Arrhythmias]], [[Coronary artery constriction]], [[Cell necrosis]], [[notes/_link/Nitric Oxide]], [[Myocardium]], [[Calcium Handling]]
 - Strong connections to strengthen: [[Cardiotoxicity]] ↔ [[Adrenochrome]]

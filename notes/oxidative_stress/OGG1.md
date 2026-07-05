@@ -27,7 +27,7 @@ OGG1 expression is not strongly induced by oxidative stress; regulation occurs p
 
 ## Clinical Relevance
 
-- **[[notes/oxidative_stress/Cancer|Cancer Susceptibility]]**: OGG1 polymorphisms (especially Ser326Cys) are associated with increased risk of lung, breast, and prostate cancers. OGG1⁻/⁻ mice accumulate 8-oxoG and show increased tumor incidence.
+- **[[Cancer Susceptibility]]**: OGG1 polymorphisms (especially Ser326Cys) are associated with increased risk of lung, breast, and prostate cancers. OGG1⁻/⁻ mice accumulate 8-oxoG and show increased tumor incidence.
 - **[[notes/_link/Aging]]**: OGG1 activity declines with age, contributing to age-related accumulation of oxidative DNA damage and [[notes/_link/Genomic Instability|genomic instability]].
-- **[[notes/oxidative_stress/Neurodegeneration|Neurodegenerative diseases]]**: Reduced OGG1 activity in [[notes/_link/Alzheimer's Disease]] and [[notes/_link/Parkinson's Disease]] brains correlates with elevated 8-oxoG levels in mitochondrial DNA.
+- **[[Neurodegeneration|Neurodegenerative diseases]]**: Reduced OGG1 activity in [[notes/_link/Alzheimer's Disease]] and [[notes/_link/Parkinson's Disease]] brains correlates with elevated 8-oxoG levels in mitochondrial DNA.
 - **Mitochondrial Repair**: Mitochondrial OGG1 (mtOGG1) protects mtDNA from oxidative damage; mtOGG1 overexpression extends lifespan in mice by preserving mitochondrial function.

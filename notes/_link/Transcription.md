@@ -1,3 +1,10 @@
+---
+type: entity
+category: biological_process
+entity_type: ""
+created: 2024-01-01
+updated: 2024-01-01
+---
 # Transcription
 
 **Transcription** is the first step of gene expression, in which a particular segment of DNA is copied into RNA by the enzyme RNA polymerase.

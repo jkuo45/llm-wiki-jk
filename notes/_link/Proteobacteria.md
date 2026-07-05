@@ -1,3 +1,10 @@
+---
+type: entity
+category: microorganism
+entity_type: ""
+created: 2024-01-01
+updated: 2024-01-01
+---
 # Proteobacteria
 
 Proteobacteria is a major phylum of Gram-negative bacteria, including a wide variety of pathogens, and its increased abundance in the gut is often associated with dysbiosis and inflammation.

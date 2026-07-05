@@ -1,3 +1,10 @@
+---
+type: entity
+category: protein
+entity_type: "Protein"
+created: 2026-05-29
+updated: 2026-05-29
+---
 # PI3K
 
 **Phosphoinositide 3-kinase** (PI3K) is a family of enzymes involved in cellular functions such as cell growth, proliferation, differentiation, motility, survival, and intracellular trafficking.
@@ -35,3 +42,26 @@
 - New links added: [[notes/_link/Akt]], [[Atg14]], [[Autophagosome]], [[Autophagy]], [[Beclin1]], [[IGF1]], [[Vps34]], [[mTORC1]]
 - Suggested new entity notes to create: [[notes/_link/Akt]], [[Autophagosome]], [[Beclin1]], [[IGF1]], [[Vps34]], [[mTORC1]]
 - Strong connections to strengthen: [[notes/_link/PI3K]] ↔ [[notes/_link/Akt]], [[notes/_link/PI3K]] ↔ [[Autophagy]], [[notes/_link/PI3K]] ↔ [[Vps34]]
+
+## Content from [[adrenochrome/PI3K.md]]
+
+# PI3K
+
+Phosphoinositide 3-kinases (PI3Ks) are a family of intracellular signal transducer enzymes capable of phosphorylating the 3 position hydroxyl group of the inositol ring of phosphatidylinositol. They are involved in cellular functions such as cell growth, proliferation, differentiation, motility, and survival. In skeletal muscle, PI3K is a critical upstream activator of the Akt/mTOR pathway, regulating muscle protein synthesis.
+
+### Linking Summary:
+
+- New links added: [[Akt]], [[Target of rapamycin]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[PI3K]] ↔ [[Akt]]
+
+## Content from [[cancer/PI3K.md]]
+
+# PI3K
+
+Phosphoinositide 3-kinase (PI3K) is an enzyme that generates lipid second messengers to activate signaling pathways like [[AKT]], promoting cell growth and survival.
+
+### Linking Summary:
+- New links added:
+- Suggested new entity notes to create:
+- Strong connections to strengthen:

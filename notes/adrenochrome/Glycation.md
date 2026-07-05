@@ -17,7 +17,7 @@ The glycation process, also known as the [[Maillard Reaction]], leads to the for
 ## Factors Influencing Glycation
 
 - [[Hyperglycemia]]: Highly accelerates the glycation reaction.
-- [[notes/adrenochrome/Oxidative Stress]]: Fuels the generation of reactive carbonyl species and promotes AGE accumulation.
+- [[Oxidative Stress]]: Fuels the generation of reactive carbonyl species and promotes AGE accumulation.
 
 ## Prevention
 
@@ -25,11 +25,11 @@ Glycation can be attenuated through [[AGE inhibitors]] (like [[Aminoguanidine]])
 
 ## Chemical Steps of the Maillard Reaction
 
-Glycation proceeds through three sequential stages. **Stage 1** begins with the nucleophilic addition of the free ε-amino group of [[Lysine]] or the α-amino group of N-terminal residues to the carbonyl carbon of a reducing sugar (e.g., [[Glucose]], [[Fructose]], [[Ribose]]). This forms an unstable [[Schiff base]] (aldimine), which undergoes the [[Amadori rearrangement]] to yield a more stable ketoamine — the [[Amadori product]] (e.g., fructoselysine). **Stage 2** involves further dehydration, oxidation, and fragmentation of Amadori products into highly reactive dicarbonyl species, including [[3-Deoxyglucosone]] (3-DG), [[Glyoxal]], and [[Methylglyoxal]] (MGO). These α-oxoaldehydes are the true propagating intermediates of glycation. **Stage 3** culminates in the irreversible formation of [[Advanced Glycation End Products]] (AGEs) such as [[Nε-carboxymethyllysine]] (CML), [[Pentosidine]], and [[Crossline]], which accumulate on long-lived proteins.
+Glycation proceeds through three sequential stages. **Stage 1** begins with the nucleophilic addition of the free ε-amino group of [[Lysine]] or the α-amino group of N-terminal residues to the carbonyl carbon of a reducing sugar (e.g., [[Glucose]], [[Fructose]], [[Ribose]]). This forms an unstable [[Schiff base]] (aldimine), which undergoes the [[Amadori rearrangement]] to yield a more stable ketoamine — the [[Amadori_products]] (e.g., fructoselysine). **Stage 2** involves further dehydration, oxidation, and fragmentation of Amadori products into highly reactive dicarbonyl species, including [[3-Deoxyglucosone]] (3-DG), [[Glyoxal]], and [[Methylglyoxal]] (MGO). These α-oxoaldehydes are the true propagating intermediates of glycation. **Stage 3** culminates in the irreversible formation of [[Advanced Glycation End Products]] (AGEs) such as [[Nε-carboxymethyllysine]] (CML), [[Pentosidine]], and [[Crossline]], which accumulate on long-lived proteins.
 
 ## Kinetics of Glycation vs Glycoxidation
 
-The rate of glycation is governed by the concentration and reactivity of the sugar. [[Glucose]], despite being the most abundant circulating sugar, is the least reactive due to its predominant cyclic hemiacetal form (only ~0.002% exists as the open-chain aldehyde). [[Fructose]] and [[Ribose]] are markedly more reactive. Glycoxidation refers to the synergistic acceleration of glycation under oxidative conditions: [[Oxidative Stress]] enhances the fragmentation of Amadori products to dicarbonyls, while the resulting AGEs generate additional [[notes/_link/Reactive Oxygen Species]] through metal-catalyzed redox cycling. This creates a destructive feedback loop between glycation and [[notes/adrenochrome/Oxidative Stress]].
+The rate of glycation is governed by the concentration and reactivity of the sugar. [[Glucose]], despite being the most abundant circulating sugar, is the least reactive due to its predominant cyclic hemiacetal form (only ~0.002% exists as the open-chain aldehyde). [[Fructose]] and [[Ribose]] are markedly more reactive. Glycoxidation refers to the synergistic acceleration of glycation under oxidative conditions: [[Oxidative Stress]] enhances the fragmentation of Amadori products to dicarbonyls, while the resulting AGEs generate additional [[notes/_link/Reactive Oxygen Species]] through metal-catalyzed redox cycling. This creates a destructive feedback loop between glycation and [[Oxidative Stress]].
 
 ## Accumulation in Aging Tissues
 
@@ -37,7 +37,7 @@ AGEs accumulate progressively in long-lived proteins, including [[Collagen]], [[
 
 ## Linking Summary
 
-- New links added: [[Maillard Reaction]], [[Amadori products]], [[Advanced Glycation End Products]], [[Hyperglycemia]], [[notes/adrenochrome/Oxidative Stress]], [[Aminoguanidine]], [[Herbal products]], [[Physical exercise]]
+- New links added: [[Maillard Reaction]], [[Amadori products]], [[Advanced Glycation End Products]], [[Hyperglycemia]], [[Oxidative Stress]], [[Aminoguanidine]], [[Herbal products]], [[Physical exercise]]
 - Suggested new entity notes to create: [[Schiff base]]
 - Strong connections to strengthen: [[Glycation]] ↔ [[Aging]]
 

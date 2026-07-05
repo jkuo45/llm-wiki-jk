@@ -1,3 +1,10 @@
+---
+type: entity
+category: other
+entity_type: "NA"
+created: 2024-01-01
+updated: 2024-01-01
+---
 # FRAT2
 
 A protein involved in the Wnt signaling pathway, specifically inhibiting GSK3B.

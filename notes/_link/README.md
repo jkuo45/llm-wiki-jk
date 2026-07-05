@@ -3,8 +3,8 @@
 This directory contains entities that span across multiple topics within the knowledge base. Consolidating these entities here ensures a single source of truth and highlights them as central hubs in the graph view.
 
 ## Maintenance
-- Last updated: 31_May_2026 06:45 PM PDT
-- Total count of entities: 67
+- Last updated: 04_JUL_2026 12:00 PM PDT
+- Total count of entities: 76
 
 | entity                                   | datetime updated     | entity_type_1       | related topics                                  |
 | :--------------------------------------- | :------------------- | :------------------ | :---------------------------------------------- |
@@ -54,7 +54,7 @@ This directory contains entities that span across multiple topics within the kno
 | [[Neutrophils]]                          | 29_May_2026 08:20 AM | Cell Type           | Immunology                                      |
 | [[Nitric Oxide]]                         | 29_May_2026 08:20 AM | Biological Molecule | Signaling, Vasodilation                         |
 | [[Norepinephrine]]                       | 31_May_2026 12:52 PM | Chemical Compound   | Neurotransmitter                                |
-| [[notes/oxidative_stress/Oxidative Stress]]                     | 29_May_2026 08:20 AM | Scientific Concept  | Pathology                                       |
+| [[Oxidative Stress]]                     | 29_May_2026 08:20 AM | Scientific Concept  | Pathology                                       |
 | [[p53]]                                  | 29_May_2026 08:20 AM | Protein             | Cancer, DNA Repair                              |
 | [[Parkinson's Disease]]                  | 29_May_2026 08:20 AM | Medical Condition   | Neurodegeneration                               |
 | [[PI3K]]                                 | 29_May_2026 08:20 AM | Protein             | Signaling, Cancer                               |
@@ -66,7 +66,7 @@ This directory contains entities that span across multiple topics within the kno
 | [[Schizophrenia]]                        | 29_May_2026 08:20 AM | Medical Condition   | Psychiatry                                      |
 | [[Senescence]]                           | 31_May_2026 06:45 PM | Biological Process  | Aging, Cancer                                   |
 | [[Serotonin]]                            | 25_May_2026 05:23 PM | Biological Molecule | Neurotransmitter                                |
-| [[notes/sirtuins/SIRT1]]                                | 29_May_2026 08:20 AM | Enzyme              | Longevity, Epigenetics                          |
+| [[SIRT1]]                                | 29_May_2026 08:20 AM | Enzyme              | Longevity, Epigenetics                          |
 | [[Spermidine]]                           | 29_May_2026 08:20 AM | Chemical Compound   | Longevity                                       |
 | [[STAT3]]                                | 29_May_2026 08:20 AM | Protein             | Signaling, Inflammation                         |
 | [[Substantia Nigra]]                     | 29_May_2026 08:20 AM | Anatomy             | Neuroscience                                    |

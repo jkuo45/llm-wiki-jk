@@ -1,3 +1,10 @@
+---
+type: entity
+category: cell_type
+entity_type: ""
+created: 2024-01-01
+updated: 2024-01-01
+---
 # Hematopoietic Stem Cell
 
 [[Hematopoietic Stem Cell|Hematopoietic stem cells]] ([[HSC|HSCs]]) are the stem cells that give rise to all the other blood cells through the process of haematopoiesis. They reside in the [[Bone Marrow]] and are often in a state of [[Quiescence]].

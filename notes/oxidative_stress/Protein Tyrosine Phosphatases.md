@@ -24,4 +24,4 @@ The transient inactivation of PTPs by H₂O₂ during growth factor signaling al
 
 ## Clinical Relevance
 
-Dysregulated PTP redox regulation is implicated in [[Cancer]] (PTEN inactivation promotes PI3K/Akt signaling), [[notes/_link/Diabetes Mellitus]] (PTP1B oxidation impairs insulin signaling), [[notes/oxidative_stress/Inflammation|inflammatory diseases]], and [[notes/oxidative_stress/Neurodegeneration|neurodegeneration]].
+Dysregulated PTP redox regulation is implicated in [[Cancer]] (PTEN inactivation promotes PI3K/Akt signaling), [[notes/_link/Diabetes Mellitus]] (PTP1B oxidation impairs insulin signaling), [[inflammatory diseases]], and [[Neurodegeneration|neurodegeneration]].

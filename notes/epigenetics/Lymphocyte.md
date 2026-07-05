@@ -1,3 +1,10 @@
+---
+type: entity
+category: cell_type
+entity_type: "Cell Type"
+created: 2024-01-01
+updated: 2024-01-01
+---
 # Lymphocyte
 
 A [[Lymphocyte]] is a type of white blood cell in the [[notes/_link/Immune System]] of jawed vertebrates. Lymphocytes include [[notes/_link/Natural Killer Cell|natural killer cells]], [[T Lymphocyte|T cells]], and [[B Cell|B cells]]. Many lymphocytes reside in a state of [[Quiescence]] until activated by antigens.

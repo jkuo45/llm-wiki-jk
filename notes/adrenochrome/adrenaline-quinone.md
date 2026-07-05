@@ -11,7 +11,7 @@ updated: 2026-07-04
 **Adrenaline-quinone** is a highly reactive, electrophilic intermediate formed during the oxidation of [[notes/_link/Epinephrine]].
 
 ## Formation
-It is the first major intermediate in the "side pathway" of epinephrine metabolism. Under [[notes/oxidative_stress/Oxidative Stress]] or alkaline conditions, the [[Catechol]] ring of [[notes/_link/Epinephrine]] loses two electrons to become a [[Quinone]].
+It is the first major intermediate in the "side pathway" of epinephrine metabolism. Under [[Oxidative Stress]] or alkaline conditions, the [[Catechol]] ring of [[notes/_link/Epinephrine]] loses two electrons to become a [[Quinone]].
 
 ## Role in Adrenochrome Pathway
 Once formed, adrenaline-quinone is extremely unstable and rapidly undergoes intramolecular [[Michael addition]] (cyclization) to form [[Leuco-adrenochrome]].
@@ -23,4 +23,4 @@ As a potent [[Electrophile]], adrenaline-quinone can damage cellular proteins an
 - [[notes/_link/Epinephrine]]
 - [[Leuco-adrenochrome]]
 - [[Adrenochrome]]
-- [[notes/oxidative_stress/Oxidative Stress]]
+- [[Oxidative Stress]]

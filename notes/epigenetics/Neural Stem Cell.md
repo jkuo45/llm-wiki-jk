@@ -1,3 +1,10 @@
+---
+type: entity
+category: cell_type
+entity_type: "Cell Type"
+created: 2024-01-01
+updated: 2024-01-01
+---
 # Neural Stem Cell
 
 [[Neural Stem Cell|Neural stem cells]] ([[NSC|NSCs]]) are self-renewing, multipotent cells that first generate the radial glial progenitor cells that generate the neurons and glia of the nervous system of all animals during embryonic development. Some [[NSC|NSCs]] persist in the adult brain in a state of [[Quiescence]].

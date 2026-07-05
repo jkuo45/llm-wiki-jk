@@ -1,3 +1,11 @@
+---
+type: entity
+category: chemical_compound
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Ambroxol
 
 [[Ambroxol]] is a drug used to treat respiratory diseases involving excessive mucus. Recent research has identified it as a potential chaperone that enhances glucocerebrosidase activity and promotes the autophagy-lysosome pathway. It is being investigated as a potential disease-modifying therapy for [[notes/_link/Parkinson's Disease]].

@@ -13,7 +13,7 @@ The **Mitohormetic Redox-Relay (MRR)** is a therapeutic strategy designed to add
 ## Strategy Components
 - **Trigger:** [[Carbazochrome]] (a stabilized [[Adrenochrome]] derivative) used at sub-micromolar concentrations to induce controlled [[Redox Cycling]] and generate a [[Superoxide anion]] signaling pulse.
 - **Amplifier/Shunt:** [[Methylene blue]], which acts as an alternative mitochondrial electron carrier, bypassing damaged complexes and preventing runaway ROS generation.
-- **Fuel:** [[NAD+]] precursors like [[Nicotinamide Riboside]] or [[Nicotinamide Mononucleotide]] to prime the [[notes/sirtuins/SIRT1]]/[[AMPK]]/[[PGC1α]] axis.
+- **Fuel:** [[NAD+]] precursors like [[Nicotinamide Riboside]] or [[Nicotinamide Mononucleotide]] to prime the [[SIRT1]]/[[AMPK]]/[[PGC1α]] axis.
 - **Cleanup:** [[Urolithin A]] to induce selective [[Mitophagy]] and ensure the removal of dysfunctional mitochondria.
 
 ## Mechanism of Action
@@ -87,11 +87,11 @@ The MRR framework suggests several clinical applications:
 - **[[Mitochondrial myopathy]]**: Bypass of ETC defects by MB + NAD⁺ precursors.
 - **[[Parkinson's Disease]]**: [[Pink1]]/[[Parkin]] mitophagy pathway enhancement by [[Urolithin A]].
 - **[[Heart failure]]**: Preserved [[Mitochondrial energetics]] via FGF21 induction.
-- **[[Metabolic syndrome]]**: [[Insulin sensitivity]] improvement via AMPK-PGC1α activation.
+- **[[Metabolic_Syndrome]]**: [[Insulin sensitivity]] improvement via AMPK-PGC1α activation.
 - **[[Neuroprotection]]**: [[BDNF]] upregulation via FGF21 signaling.
 - **[[Aging]]**: Senomorphic effects of controlled ROS signaling combined with senolytic clearance by intermittent mitophagy induction.
 
 ### Linking Summary:
-- New links added: [[Mitohormesis]], [[Carbazochrome]], [[Adrenochrome]], [[Redox Cycling]], [[Superoxide anion]], [[Methylene blue]], [[NAD+]], [[Nicotinamide Riboside]], [[Nicotinamide Mononucleotide]], [[notes/sirtuins/SIRT1]], [[AMPK]], [[PGC1α]], [[Urolithin A]], [[Mitophagy]], [[Nrf2]], [[Mitochondrial biogenesis]], [[Complex I]], [[Complex III]], [[SOD2]], [[Aquaporins]], [[HIF-1α]], [[PHD2]], [[Glycolysis]], [[VEGF]], [[Keap1]], [[Integrated Stress Response]], [[OMA1]], [[OPA1]], [[DELE1]], [[HRI]], [[ATF4]], [[Mitokines]], [[FGF21]], [[PPARα]], [[Adipose tissue]], [[Liver]], [[Fatty acid oxidation]], [[Ketogenesis]], [[GDF15]], [[CHOP]], [[GFRAL]], [[Brainstem]], [[Humanin]], [[FPRL2]], [[IL-6 receptor β]], [[Apoptosis]], [[Inflammation]], [[TFAM]], [[TFEB]], [[FOXO]], [[Cathepsins]], [[Ubiquitin-proteasome]], [[NADH]], [[NADH dehydrogenase]], [[Cytochrome c]], [[ATP]], [[Neurogenesis]], [[BDNF]], [[Browning of white adipose tissue]], [[Cardiomyocytes]], [[Ischemia-reperfusion injury]], [[Mitochondrial myopathy]], [[Parkinson's Disease]], [[Pink1]], [[Parkin]], [[Heart failure]], [[Metabolic syndrome]], [[Insulin sensitivity]], [[Neuroprotection]], [[Aging]], [[NQO1]], [[HO-1]], [[Glutathione]], [[Thioredoxin]], [[Redox homeostasis]], [[Amino acid metabolism]], [[Nrf1]], [[ERRα]], [[Proteostasis]]
+- New links added: [[Mitohormesis]], [[Carbazochrome]], [[Adrenochrome]], [[Redox Cycling]], [[Superoxide anion]], [[Methylene blue]], [[NAD+]], [[Nicotinamide Riboside]], [[Nicotinamide Mononucleotide]], [[SIRT1]], [[AMPK]], [[PGC1α]], [[Urolithin A]], [[Mitophagy]], [[Nrf2]], [[Mitochondrial biogenesis]], [[Complex I]], [[Complex III]], [[SOD2]], [[Aquaporins]], [[HIF-1α]], [[PHD2]], [[Glycolysis]], [[VEGF]], [[Keap1]], [[Integrated Stress Response]], [[OMA1]], [[OPA1]], [[DELE1]], [[HRI]], [[ATF4]], [[Mitokines]], [[FGF21]], [[PPARα]], [[Adipose tissue]], [[Liver]], [[Fatty acid oxidation]], [[Ketogenesis]], [[GDF15]], [[CHOP]], [[GFRAL]], [[Brainstem]], [[Humanin]], [[FPRL2]], [[IL-6 receptor β]], [[Apoptosis]], [[Inflammation]], [[TFAM]], [[TFEB]], [[FOXO]], [[Cathepsins]], [[Ubiquitin-proteasome]], [[NADH]], [[NADH dehydrogenase]], [[Cytochrome c]], [[ATP]], [[Neurogenesis]], [[BDNF]], [[Browning of white adipose tissue]], [[Cardiomyocytes]], [[Ischemia-reperfusion injury]], [[Mitochondrial myopathy]], [[Parkinson's Disease]], [[Pink1]], [[Parkin]], [[Heart failure]], [[Metabolic_Syndrome]], [[Insulin sensitivity]], [[Neuroprotection]], [[Aging]], [[NQO1]], [[HO-1]], [[Glutathione]], [[Thioredoxin]], [[Redox homeostasis]], [[Amino acid metabolism]], [[Nrf1]], [[ERRα]], [[Proteostasis]]
 - Suggested new entity notes to create: [[Mitohormetic Window Optimization]], [[Redox Relay Therapeutics]]
 - Strong connections to strengthen: [[Mitohormetic Redox-Relay]] ↔ [[Mitochondrial Dysfunction]]

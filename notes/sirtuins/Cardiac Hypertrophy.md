@@ -11,7 +11,7 @@ updated: 2026-07-04
 
 # Cardiac Hypertrophy
 
-[[Cardiac Hypertrophy]] is an adaptive enlargement of cardiomyocytes in response to increased workload, neurohumoral stimulation (e.g., [[Angiotensin II]], [[Endothelin-1|endothelin-1]]), or mechanical stress. While initially compensatory, sustained pathological hypertrophy progresses to [[Heart Failure|heart failure]], [[Cardiomyopathy|cardiomyopathy]], and increased risk of [[Arrhythmia|arrhythmias]].
+[[Cardiac Hypertrophy]] is an adaptive enlargement of cardiomyocytes in response to increased workload, neurohumoral stimulation (e.g., [[Angiotensin II]], [[Endothelin-1|endothelin-1]]), or mechanical stress. While initially compensatory, sustained pathological hypertrophy progresses to [[Heart Failure|heart failure]], [[Cardiomyopathy|cardiomyopathy]], and increased risk of [[Arrhythmias|arrhythmias]].
 
 ## Sirtuin Connections
 

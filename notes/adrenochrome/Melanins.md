@@ -16,4 +16,4 @@ updated: 2026-07-04
 ## Connections
 - [[Adrenochrome]]
 - [[Neuromelanin]]
-- [[notes/oxidative_stress/Oxidative Stress]]
+- [[Oxidative Stress]]

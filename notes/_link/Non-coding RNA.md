@@ -1,3 +1,10 @@
+---
+type: entity
+category: biological_molecule
+entity_type: ""
+created: 2024-01-01
+updated: 2024-01-01
+---
 # Non-coding RNA
 
 **[[Non-coding RNA]]** (ncRNA) refers to RNA molecules that are not translated into proteins. Once thought to be "junk," ncRNAs are now recognized as powerful regulators of the [[Epigenome]] and are involved in almost every aspect of cell biology, including [[notes/_link/Aging]].

@@ -1,3 +1,10 @@
+---
+type: entity
+category: protein
+entity_type: "Protein"
+created: 2024-01-01
+updated: 2024-01-01
+---
 # Retinoblastoma Protein
 
 The [[Retinoblastoma Protein]] ([[Rb]]) is a tumor suppressor protein that is dysfunctional in several major cancers. One function of [[Rb]] is to inhibit excessive cell cycle progression by inhibiting [[E2F]] transcription factors. It is a key regulator of the decision between proliferation and [[Quiescence]].

@@ -1,3 +1,10 @@
+---
+type: entity
+category: biological_process
+entity_type: "Biological Process"
+created: 2026-05-29
+updated: 2026-05-29
+---
 # Immunosenescence
 
 Immunosenescence refers to the gradual deterioration of the immune system associated with aging, leading to increased susceptibility to infections, autoimmune diseases, and cancer.

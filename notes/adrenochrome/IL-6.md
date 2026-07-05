@@ -17,9 +17,9 @@ Interleukin 6 (IL-6) is an interleukin that acts as both a pro-inflammatory cyto
 
 ## Sirtuin Regulation of IL-6
 
-[[notes/sirtuins/SIRT1]] deacetylation of [[NF-κB]] downregulates pro-inflammatory cytokines including IL-6. [[notes/sirtuins/SIRT7]] kidney-specific knockout reduces IL-6 and other inflammatory factors.
+[[SIRT1]] deacetylation of [[NF-κB]] downregulates pro-inflammatory cytokines including IL-6. [[SIRT7]] kidney-specific knockout reduces IL-6 and other inflammatory factors.
 
 ### Linking Summary (Sirtuin Additions):
-- New links added: [[notes/sirtuins/SIRT1]], [[notes/sirtuins/SIRT7]]
+- New links added: [[SIRT1]], [[SIRT7]]
 - Suggested new entity notes to create:
-- Strong connections to strengthen: [[IL-6]] ↔ [[notes/sirtuins/SIRT1]], [[IL-6]] ↔ [[notes/sirtuins/SIRT7]]
+- Strong connections to strengthen: [[IL-6]] ↔ [[SIRT1]], [[IL-6]] ↔ [[SIRT7]]

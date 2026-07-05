@@ -14,8 +14,8 @@ This term is used in the proposed research plan to describe the induction of a "
 
 ## Connections
 - [[Adrenochrome]] ↔ The central molecule in the process.
-- [[notes/adrenochrome/Mitohormesis]] ↔ The intended physiological outcome of controlled adrenochromatization.
+- [[Mitohormesis]] ↔ The intended physiological outcome of controlled adrenochromatization.
 - [[Redox Cycling]] ↔ The underlying chemical mechanism.
 
 ### Linking Summary:
-- New links added: [[Adrenochrome]], [[notes/adrenochrome/Mitohormesis]], [[Redox Cycling]]
+- New links added: [[Adrenochrome]], [[Mitohormesis]], [[Redox Cycling]]

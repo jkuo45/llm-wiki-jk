@@ -1,3 +1,11 @@
+---
+type: entity
+category: chemical_compound
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
+---
+
 # Manganese
 
 [[Manganese]] is a transition metal that can exhibit high binding affinity for [[Neuromelanin]] and is associated with a Parkinsonian-like syndrome known as [[Manganism]].
