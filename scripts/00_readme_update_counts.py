@@ -169,13 +169,13 @@ def main():
     total_files, total_size, total_words = get_dir_size_and_count(notes_dir)
 
     topics_table = [
-        "| topic | last updated | count entities | count documents | count words | disk size |",
+        "| topic | last updated | documents | entities | words | disk |",
         "| :--- | :--- | :---: | :---: | :---: | :---: |",
     ]
     for t in topic_data:
         topic_link = f"[{t['topic']}](https://github.com/jkuo45/llm-wiki/tree/dev/{urllib.parse.quote(notes_dir + '/' + t['topic'], safe='/')})"
         topics_table.append(
-            f"| {topic_link} | {t['last_updated']} | {t['entities']} | {t['documents']} | {format_number(t['words'])} | {format_size(t['disk_size'])} |"
+            f"| {topic_link} | {t['last_updated']} | {t['documents']} | {t['entities']} | {format_number(t['words'])} | {format_size(t['disk_size'])} |"
         )
 
     docs_table = [
@@ -199,7 +199,7 @@ def main():
         f"- **file count:** {format_number(total_files)}\n"
         f"- **word count:** {format_number(total_words)}\n"
         f"- **documents:** {format_number(len(document_data))}\n"
-        f"- **disk size:** {format_size(total_size)}"
+        f"- **disk:** {format_size(total_size)}"
     )
     doc_list_content = "## Document List\n\n" + "\n".join(docs_table)
 
