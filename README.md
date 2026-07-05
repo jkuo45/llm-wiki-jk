@@ -90,8 +90,7 @@
 | oxidative_stress | **99.2%** | 236   | 127        | `produces (13), causes (13), activates (11), contributes to (9), reduces (7)`               | mechanistic      |
 | sirtuins         | **97.7%** | 305   | 119        | `deacetylates (53), inhibits (30), activates (22), localizes to (10), represses (10)`       | mechanistic      |
 
-
-```Entity count vs. triples nodes: The summary table "entities" column counts markdown files in `notes/<topic>/` (created during ingestion step 4). The triples "nodes" count only entities with extracted relationships. For example, adrenochrome has 289 entity notes but only 81 nodes in mechanistic triples (64 edges, excludes `has_type`); an older extraction with `has_type` yielded 195 nodes (213 edges, 149 `has_type`). Many entities exist as notes but lack mechanistic relations in the current extraction.```
+note: Entity count (summary table) vs. triples nodes/edges: The summary table "entities" column counts all markdown files in `notes/<topic>/` (created during ingestion step 4 for every mentioned concept). The triples "nodes" and "edges" count only entities with extracted relationships. For mechanistic topics (all except epigenetics), nodes ≪ entity notes because extraction captures only direct causal/functional relations (e.g., adrenochrome: 289 notes → 81 nodes, 64 edges). Epigenetics uses co-occurrence extraction yielding more nodes (830) and far more edges (7,338) by linking any co-mentioned entities.
 
 >Two extraction styles produce the triples above, each serving a different analytical purpose.
 
