@@ -18,8 +18,8 @@
 <!-- GENERATED: summary_counts -->
 ## Summary Counts (notes directory)
 - **last updated:** 04_JUL_2026 08:02 PM PDT
-- **file count:** 1,826
-- **word count:** 850,114
+- **files:** 1,826
+- **words:** 850,114
 - **documents:** 62
 - **disk:** 12.34 MB
 <!-- END GENERATED: summary_counts -->
