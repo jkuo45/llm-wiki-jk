@@ -90,7 +90,10 @@
 | oxidative_stress | **99.2%** | 236   | 127        | `produces (13), causes (13), activates (11), contributes to (9), reduces (7)`               | mechanistic      |
 | sirtuins         | **97.7%** | 305   | 119        | `deacetylates (53), inhibits (30), activates (22), localizes to (10), represses (10)`       | mechanistic      |
 
-Two extraction styles produce the triples above, each serving a different analytical purpose.
+
+```Entity count vs. triples nodes: The summary table "entities" column counts markdown files in `notes/<topic>/` (created during ingestion step 4). The triples "nodes" count only entities with extracted relationships. For example, adrenochrome has 289 entity notes but only 81 nodes in mechanistic triples (64 edges, excludes `has_type`); an older extraction with `has_type` yielded 195 nodes (213 edges, 149 `has_type`). Many entities exist as notes but lack mechanistic relations in the current extraction.```
+
+>Two extraction styles produce the triples above, each serving a different analytical purpose.
 
 **Mechanistic extraction** (filtered: excludes `has_type` triples) outputs tight knowledge graphs with domain-specific predicates — `deacetylates`, `phosphorylates`, `activates`, `inhibits`, `causes` — each encoding a direct causal or functional relationship. These graphs are small (~150–250 edges) and high precision, best for pathway verification, drug mechanism reasoning, and literature-backed claims. They answer *"what does X directly do to Y?"* 80–99% in this style indicates a mature, cohesive field where entities routinely co-occur in the same sentence (textbook knowledge).
 
