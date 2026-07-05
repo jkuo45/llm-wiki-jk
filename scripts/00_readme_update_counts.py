@@ -1,8 +1,10 @@
 import argparse
 import glob
+import json
 import os
 import re
 import urllib.parse
+from collections import Counter
 from datetime import datetime
 
 
@@ -73,6 +75,161 @@ def get_dir_size_and_count(directory):
                     if f.endswith(".md"):
                         total_words += count_words(fp)
     return total_files, total_size, total_words
+
+
+def load_triples(topic_path):
+    """Load triples from _triples_<topic>.json"""
+    triples_file = os.path.join(topic_path, f"_triples_{os.path.basename(topic_path)}.json")
+    if os.path.exists(triples_file):
+        with open(triples_file, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return []
+
+
+def compute_triple_metrics(triples, exclude_has_type=True):
+    """Compute metrics from triples, optionally excluding has_type."""
+    if exclude_has_type:
+        triples = [t for t in triples if t.get("predicate") != "has_type"]
+    
+    if not triples:
+        return {
+            "nodes": 0,
+            "edges": 0,
+            "predicates": 0,
+            "high_confidence": 0,
+            "high_pct": 0.0,
+            "top_subjects": [],
+            "top_objects": [],
+            "top_predicates": [],
+        }
+    
+    # Collect all entities (subjects + objects)
+    entities = set()
+    for t in triples:
+        entities.add(t.get("subject", ""))
+        entities.add(t.get("object", ""))
+    
+    # Count predicates
+    predicate_counts = Counter(t.get("predicate", "") for t in triples)
+    
+    # Count subjects and objects
+    subject_counts = Counter(t.get("subject", "") for t in triples)
+    object_counts = Counter(t.get("object", "") for t in triples)
+    
+    # High confidence count
+    high_conf = sum(1 for t in triples if t.get("confidence") == "high")
+    
+    return {
+        "nodes": len(entities),
+        "edges": len(triples),
+        "predicates": len(predicate_counts),
+        "high_confidence": high_conf,
+        "high_pct": (high_conf / len(triples) * 100) if triples else 0,
+        "top_subjects": subject_counts.most_common(5),
+        "top_objects": object_counts.most_common(5),
+        "top_predicates": predicate_counts.most_common(5),
+    }
+
+
+def format_top_items(items, limit=5):
+    """Format top items as string."""
+    if not items:
+        return "N/A"
+    return ", ".join(f"{k} ({v})" for k, v in items[:limit])
+
+
+def build_triples_overview(notes_dir):
+    """Build the triples overview markdown section."""
+    topics = sorted([
+        d for d in os.listdir(notes_dir) 
+        if os.path.isdir(os.path.join(notes_dir, d)) and not d.startswith("_")
+    ])
+    
+    timestamp = get_timestamp()
+    overview_lines = [
+        f"#### triples overview (as of {timestamp})",
+        "---",
+        "",
+        "Two extraction styles produce the triples below, each serving a different analytical purpose.",
+        "",
+        "**Mechanistic extraction** (filtered: excludes `has_type` triples) outputs tight knowledge graphs with domain-specific predicates — `deacetylates`, `phosphorylates`, `activates`, `inhibits`, `causes` — each encoding a direct causal or functional relationship. These graphs are small (~150–250 edges) and high precision, best for pathway verification, drug mechanism reasoning, and literature-backed claims. They answer *\"what does X directly do to Y?\"* 80–99% in this style indicates a mature, cohesive field where entities routinely co-occur in the same sentence (textbook knowledge).",
+        "",
+        "**Co-occurrence extraction** (epigenetics, 30.3% high confidence) prioritizes recall over precision. Entities are linked when they appear in the same textual context; confidence is determined by textual proximity (same sentence = high, same paragraph = medium, same document = low). With 7,338 edges across 830 nodes — 30–50× larger than any mechanistic topic — and predicates dominated by `co_occurs_with` (4,528) and `mentions` (1,803), this graph captures bibliometric associations rather than causal mechanisms. It is designed for *discovery*: surfacing weak signals and cross-domain connections in fragmented or emerging fields. 20–30% in this style indicates a research frontier where most links are document-level, not yet tightly coupled in the literature.",
+        "",
+        "Neither style is \"better\" — they are complementary. Mechanistic confirms known pathways; co-occurrence reveals potential connections. Confidence % in co-occurrence acts as a **cohesion metric**: how tightly entities cluster in the literature, not how \"correct\" the triples are. There is no fixed target — the appropriate range depends on the goal (90%+ for verification, 20–40% for exploration).",
+        "",
+        ">[!NOTE]",
+        ">",
+        ">In other words: 80% = textbook knowledge, 20% = research frontier",
+        ">",
+        ">- Mechanistic extraction — what it produces, predicate types, use cases, and what 80–99% means",
+        ">",
+        ">- Co-occurrence extraction — confidence model, scale comparison, design for discovery, and what 20–30% means",
+        ">  ",
+        ">- Complementary nature — neither is \"better\", confidence as cohesion metric, no fixed target",
+        "",
+        "| Topic | High % | Edges | Predicates | Top predicate | Extraction style |",
+        "| ----- | ------ | ----- | ---------- | ------------- | ---------------- |",
+    ]
+    
+    topic_details = {}
+    
+    for topic in topics:
+        topic_path = os.path.join(notes_dir, topic)
+        triples = load_triples(topic_path)
+        
+        if not triples:
+            continue
+        
+        # Compute metrics excluding has_type
+        metrics = compute_triple_metrics(triples, exclude_has_type=True)
+        
+        # Determine extraction style
+        is_cooccurrence = topic == "epigenetics"
+        style = "co-occurrence" if is_cooccurrence else "mechanistic"
+        
+        top_pred_str = format_top_items(metrics["top_predicates"])
+        
+        overview_lines.append(
+            f"| {topic} | **{metrics['high_pct']:.1f}%** | {metrics['edges']} | "
+            f"{metrics['predicates']} | `{top_pred_str}` | {style} |"
+        )
+        
+        # Store detailed metrics for per-topic sections
+        topic_details[topic] = {
+            "metrics": metrics,
+            "triples": triples,
+            "style": style,
+        }
+    
+    overview_lines.append("")
+    
+    # Add per-topic detail sections
+    for topic, data in topic_details.items():
+        m = data["metrics"]
+        overview_lines.append(f"---")
+        overview_lines.append(f"#### {topic} triples")
+        overview_lines.append(f"**{topic}** — {m['nodes']} nodes · {m['edges']} edges · {m['predicates']} relation types · {m['high_pct']:.1f}% high confidence")
+        overview_lines.append("")
+        overview_lines.append("| Metric | Value |")
+        overview_lines.append("| ------ | ----- |")
+        overview_lines.append(f"| Entities (nodes) | {m['nodes']} |")
+        overview_lines.append(f"| Triples (edges) | {m['edges']} |")
+        overview_lines.append(f"| Unique predicates | {m['predicates']} |")
+        overview_lines.append(f"| Confidence high | {m['high_confidence']} ({m['high_pct']:.1f}%) |")
+        overview_lines.append(f"| Top subjects | {format_top_items(m['top_subjects'])} |")
+        overview_lines.append(f"| Top objects | {format_top_items(m['top_objects'])} |")
+        overview_lines.append(f"| Top predicates | {format_top_items(m['top_predicates'])} |")
+        overview_lines.append("")
+        
+        # Add SVG if exists
+        svg_path = os.path.join(notes_dir, topic, f"_triples_{topic}.svg")
+        if os.path.exists(svg_path):
+            rel_path = os.path.relpath(svg_path, os.path.dirname("README.md"))
+            overview_lines.append(f'<img src="{rel_path}" alt="{topic} triples" width="100%">')
+            overview_lines.append("")
+    
+    return "\n".join(overview_lines)
 
 
 def main():
@@ -203,9 +360,13 @@ def main():
     summary_table_content = "## ℹ Summary Table\n" + "\n".join(topics_table)
     doc_list_content = "## Document List\n\n" + "\n".join(docs_table)
 
+    # Build triples overview
+    triples_overview = build_triples_overview(notes_dir)
+
     sections = {
         "summary_table": summary_table_content,
         "document_list": doc_list_content,
+        "triples_overview": triples_overview,
     }
 
     # Read existing README if present
