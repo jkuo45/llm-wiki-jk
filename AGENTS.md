@@ -94,6 +94,7 @@ Frontmatter:
 - **Date format**: frontmatter `created:` / `updated:` must use `YYYY-MM-DD`, _not_ the project display format (`DD_MMMM_YYYY`).
 - **Quoting**: Prefer unquoted scalar values (`category: enzyme`, not `category: "enzyme"`). Use quotes only when required (e.g., values containing colons or special characters).
 - **Duplicate YAML keys**: No key should appear twice at the same indentation level.
+- **No wiki links in frontmatter**: Frontmatter values must be plain text only. Never use `[[Wiki Link]]` or `[[Link|Display]]` syntax inside YAML fields. Obsidian does not render wiki links in frontmatter, and they leak into non-body context.
 
 ---
 
@@ -126,7 +127,11 @@ Maintain link integrity by performing periodic audits:
 - **Scan & Normalize**:
   - Identify wiki links `[[Link]]` without matching files.
   - **Case Sensitivity**: Prefer proper noun spelling (match the filename exactly).
+  - Capitalize all wiki links to match the actual filename (e.g., `[[cisplatin]]` → `[[Cisplatin]]`, `[[apoptosis]]` → `[[Apoptosis]]`). Proper nouns in scientific terms should always use title/proper case as defined by the canonical file.
   - **Pluralization**: If `[[Concept]]` is missing but `[[Concepts]]` exists, update the link.
+  - **Hyphen/Space Normalization**: Resolve format variants where a file exists with different hyphenation or spacing (e.g., `[[Caspase 9]]` → `[[Caspase-9]]`, `[[TNF-α]]` → `[[TNFα]]`, `[[IRS-1]]` → `[[IRS1]]`).
+  - **Escaped Pipe Fix**: In table cells, `\|` escapes the pipe character. Strip the backslash from the link target so `[[Link\|Display]]` resolves as `[[Link|Display]]`.
+  - **Triple-Bracket Errors**: Fix malformed links like `[[[rapamycin]]` → `[[Rapamycin]]` (remove the extra opening bracket).
 - **Resolve True Orphans**:
   - Create new Markdown files for missing concepts.
   - Use a standardized template: `# Title`, a short paragraph context, and a `Linking Summary`.
