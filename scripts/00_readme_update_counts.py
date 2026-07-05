@@ -196,8 +196,8 @@ def main():
     summary_counts_content = (
         "## Summary Counts (notes directory)\n"
         f"- **last updated:** {new_timestamp}\n"
-        f"- **file count:** {format_number(total_files)}\n"
-        f"- **word count:** {format_number(total_words)}\n"
+        f"- **files:** {format_number(total_files)}\n"
+        f"- **words:** {format_number(total_words)}\n"
         f"- **documents:** {format_number(len(document_data))}\n"
         f"- **disk:** {format_size(total_size)}"
     )
