@@ -1,33 +1,31 @@
 # llm-wiki-jk
 
 <!-- GENERATED: summary_table -->
-## Summary Table (notes directory)
-| topic | last updated | documents | entities | words | disk |
-| :--- | :--- | :---: | :---: | :---: | :---: |
-| [_link](https://github.com/jkuo45/llm-wiki/tree/dev/notes/_link) | 04_JUL_2026 | 0 | 551 | 127,852 | 1.02 MB |
-| [adrenochrome](https://github.com/jkuo45/llm-wiki/tree/dev/notes/adrenochrome) | 04_JUL_2026 | 23 | 289 | 163,636 | 1.96 MB |
-| [autophagy](https://github.com/jkuo45/llm-wiki/tree/dev/notes/autophagy) | 04_JUL_2026 | 11 | 235 | 93,640 | 0.98 MB |
-| [cancer](https://github.com/jkuo45/llm-wiki/tree/dev/notes/cancer) | 04_JUL_2026 | 8 | 245 | 116,824 | 1.27 MB |
-| [comt](https://github.com/jkuo45/llm-wiki/tree/dev/notes/comt) | 04_JUL_2026 | 2 | 35 | 9,913 | 0.43 MB |
-| [epigenetics](https://github.com/jkuo45/llm-wiki/tree/dev/notes/epigenetics) | 04_JUL_2026 | 9 | 195 | 115,868 | 3.91 MB |
-| [neuromelanin](https://github.com/jkuo45/llm-wiki/tree/dev/notes/neuromelanin) | 04_JUL_2026 | 2 | 88 | 24,094 | 0.48 MB |
-| [oxidative_stress](https://github.com/jkuo45/llm-wiki/tree/dev/notes/oxidative_stress) | 04_JUL_2026 | 1 | 68 | 54,768 | 0.82 MB |
-| [sirtuins](https://github.com/jkuo45/llm-wiki/tree/dev/notes/sirtuins) | 04_JUL_2026 | 6 | 94 | 143,519 | 1.47 MB |
+## ℹ Summary Table
+| topic                                                                                  | updated     | documents | entities  |    words    |     disk     |
+| :------------------------------------------------------------------------------------- | :---------- | :-------: | :-------: | :---------: | :----------: |
+| [_link](https://github.com/jkuo45/llm-wiki/tree/dev/notes/_link)                       | 04_JUL_2026 |     0     |    551    |   127,852   |   1.02 MB    |
+| [adrenochrome](https://github.com/jkuo45/llm-wiki/tree/dev/notes/adrenochrome)         | 04_JUL_2026 |    23     |    289    |   163,636   |   1.96 MB    |
+| [autophagy](https://github.com/jkuo45/llm-wiki/tree/dev/notes/autophagy)               | 04_JUL_2026 |    11     |    235    |   93,640    |   0.98 MB    |
+| [cancer](https://github.com/jkuo45/llm-wiki/tree/dev/notes/cancer)                     | 04_JUL_2026 |     8     |    245    |   116,824   |   1.27 MB    |
+| [comt](https://github.com/jkuo45/llm-wiki/tree/dev/notes/comt)                         | 04_JUL_2026 |     2     |    35     |    9,913    |   0.43 MB    |
+| [epigenetics](https://github.com/jkuo45/llm-wiki/tree/dev/notes/epigenetics)           | 04_JUL_2026 |     9     |    195    |   115,868   |   3.91 MB    |
+| [neuromelanin](https://github.com/jkuo45/llm-wiki/tree/dev/notes/neuromelanin)         | 04_JUL_2026 |     2     |    88     |   24,094    |   0.48 MB    |
+| [oxidative_stress](https://github.com/jkuo45/llm-wiki/tree/dev/notes/oxidative_stress) | 04_JUL_2026 |     1     |    68     |   54,768    |   0.82 MB    |
+| [sirtuins](https://github.com/jkuo45/llm-wiki/tree/dev/notes/sirtuins)                 | 04_JUL_2026 |     6     |    94     |   143,519   |   1.47 MB    |
+| **subtotal**                                                                           | 04_JUL_2026 |  **62**   | **1,800** | **850,114** | **12.34 MB** |
 <!-- END GENERATED: summary_table -->
 
-<!-- GENERATED: summary_counts -->
-## Summary Counts (notes directory)
-- **last updated:** 04_JUL_2026 08:02 PM PDT
-- **files:** 1,826
-- **words:** 850,114
-- **documents:** 62
-- **disk:** 12.34 MB
-<!-- END GENERATED: summary_counts -->
+---
 
+## 📝 updates
+### most recent
+### notable
+---
 <!-- GENERATED: document_list -->
 ## Document List
 
-| topic | date modified | document path | word count |
+| topic | updated | document path | word count |
 | :--- | :--- | :--- | :--- |
 | adrenochrome | 04_JUL_2026 | [_document_ - Adrenochrome.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20Adrenochrome.md) | 1,076 |
 | adrenochrome | 04_JUL_2026 | [_document_ - Aminoguanidine.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20Aminoguanidine.md) | 1,876 |
