@@ -28,10 +28,18 @@
 
 ```from recent modified or notes directory: sirtuins, NAD+, Urolithin A, SIRT1, inflammation, etc.```
 
-- 🔬 [sirtuins in health and disease](https://github.com/jkuo45/llm-wiki-jk/blob/dev/notes/sirtuins/_document_%20-%20sirtuins%20in%20health%20and%20disease%20s41392-022-01257-8.md)
+- 🔬 [sirtuins in health and disease](https://github.com/jkuo45/llm-wiki-jk/blob/dev/notes/sirtuins/_document_%20-%20sirtuins%20in%20health%20and%20disease%20s41392-022-01257-8.md) 
+	- Comprehensive review of the seven mammalian sirtuins (SIRT1–7), NAD⁺-dependent deacetylases regulating inflammation, metabolism, oxidative stress, and apoptosis, with roles in cancer, CVD, and other diseases; surveys SIRT modulators in clinical trials.
+	- 🀄️ (zh-TW): 綜述七種哺乳動物去乙醯酶（SIRT1–7），為NAD⁺依賴性酵素，調控發炎、代謝、氧化壓力與細胞凋亡，在癌症、心血管疾病等病理中扮演角色，並回顧SIRT調節劑的臨床試驗。
 - 💊 [Nicotinamide Riboside — Current State of Research](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20Nicotinamide%20Riboside%E2%80%94The%20Current%20State%20of%20Research%20and%20Therapeutic%20Uses.md)
+	- Reviews NR as an NAD⁺ precursor for treating metabolic, cardiovascular, and neurodegenerative disorders, covering bioavailability, safety, and potential against SARS-CoV-2.
+	- 🀄️ (zh-TW): 探討菸醯胺核醣苷（NR）作為NAD⁺前驅物，用於治療代謝、心血管及神經退化性疾病，涵蓋生物利用度、安全性及對抗SARS-CoV-2的潛力。
 - ⚡ [Oxidative Stress: Harms and Benefits for Human Health](https://github.com/jkuo45/llm-wiki/blob/dev/notes/oxidative_stress/_document_%20-%20Oxidative%20Stress%20Harms%20and%20Benefits%20for%20Human%20Health.md)
+	- Describes ROS as a double-edged sword: physiological roles in signaling/immunity vs. pathological roles in cancer, diabetes, and CVD; discusses therapeutic exploitation of oxidative stress.
+	- 🀄️ (zh-TW): 闡述活性氧（ROS）的雙面性——在訊息傳遞與免疫中的生理角色，與在癌症、糖尿病、心血管疾病中的病理作用，並討論氧化壓力的治療性應用。
 - 📈 [Biochemical Basis of Hormesis](https://github.com/jkuo45/llm-wiki/blob/dev/raw/_document_%20-%20biochemical_basis_hormesis_2026.04.20.719646v1.full.md)
+	- Uses high-throughput computational screening to show hormetic (biphasic) dose-responses arise from an incoherent bivalent network motif, with rapamycin/mTOR as a case study.
+	- 🀄️ (zh-TW): 透過高通量計算篩選，證明毒物興奮效應（雙相劑量反應）源自以藥物標靶為中心的「不相干雙價網路模組」，並以雷帕黴素/mTOR為案例說明。
 
 ---
 ### 📅 recent:
@@ -39,9 +47,17 @@
 ```from notes, raw: expert judgement in biomedical tasks, wine grape calculation for resvertrol, task_output recommendations, expert judgement fine-tuning (zh-TW), etc.```
 
 - 📋 [research-scientist: sirtuins recommendations](https://github.com/jkuo45/llm-wiki/blob/dev/tasks/task_output_sirtuins_recommendations_03_JULY_2026_03_55_PM_PDT.md)
+	- Strategic report outlining five targeted sirtuin-centric longevity interventions: SIRT6 allosteric activation, SIRT3/SIRT4 mitochondrial axis modulation, SIRT2-TFEB autophagy pathway enhancement, CD38-mediated NAD⁺ restoration, and miRNA-based SIRT1 epigenetic derepression.
+	- 🀄️ (zh-TW): 戰略報告提出五項針對性去乙醯酶長壽干預策略：SIRT6異位激活、SIRT3/SIRT4粒線體軸調控、SIRT2-TFEB自噬路徑增強、CD38介導的NAD⁺恢復及miRNA基礎的SIRT1表觀遺傳去抑制。
 - 🤖 [Learning to Replicate Expert Judgment in Financial Tasks](https://github.com/jkuo45/llm-wiki/blob/dev/raw/_article_%20-%20Learning%20to%20Replicate%20Expert%20Judgment%20in%20Financial%20Tasks.md)
+	- Demonstrates that models fine-tuned on expert-labeled financial data outperform frontier LLMs on information-filtering tasks at a fraction of the cost, advancing the concept of "differentiated intelligence."
+	- 🀄️ (zh-TW): 展示以專家標註金融數據微調的模型，在資訊篩選任務上以極低成本超越前沿LLM，推動「差異化智能」概念。
 - 🌿 [Fisetin — A Senotherapeutic That Extends Health and Lifespan](https://github.com/jkuo45/llm-wiki/blob/dev/raw/_document_%20-%20Fisetin%20is%20a%20senotherapeutic%20that%20extends%20health%20and%20lifespan.md)
+	- Screened 10 flavonoids; fisetin was the most potent senolytic. Intermittent treatment in aged mice reduced senescence markers, restored tissue homeostasis, and extended median and maximum lifespan.
+	- 🀄️ (zh-TW): 篩選10種類黃酮，非瑟酮為最強衰老細胞清除劑。間歇性治療老年小鼠可降低衰老標誌物、恢復組織穩態，並延長中位數與最大壽命。
 - 💪 [Creatine in Health and Disease](https://github.com/jkuo45/llm-wiki/blob/dev/raw/_document_%20-%20Creatine%20in%20Health%20and%20Disease.md)
+	- Systematic review showing creatine benefits beyond ergogenic aid: supports muscle mass, bone density, cognitive function, and glycemic control, with therapeutic potential in sarcopenia, neurodegeneration, and rehabilitation.
+	- 🀄️ (zh-TW): 系統性回顧顯示肌酸益處超越運動增能：支持肌肉量、骨密度、認知功能與血糖控制，在肌少症、神經退化與復健中具治療潛力。
 
 ---
 ### 💾 project:
@@ -50,6 +66,124 @@
 
 - 🛠️ [obsidian agent skills](https://github.com/jkuo45/llm-wiki/blob/dev/raw/_article_%20-%20kepanoobsidian-skills%20Agent%20skills%20for%20Obsidian.%20Teach%20your%20agent%20to%20use%20Obsidian%20CLI%20and%20open%20formats%20including%20Markdown%2C%20Bases%2C%20JSON%20Canvas..md)
 - 📐 [open knowledge spec](https://github.com/jkuo45/llm-wiki/blob/dev/raw/_article_%20-%20knowledge-catalogokfSPEC.md%20at%20main.md)
+
+#### adrenochrome triples
+**adrenochrome** — 195 nodes · 213 edges · 38 relation types · 97.2% high confidence
+
+| Metric             | Value                                                                                                      |
+| ------------------ | ---------------------------------------------------------------------------------------------------------- |
+| Entities (nodes)   | 195                                                                                                        |
+| Triples (edges)    | 213                                                                                                        |
+| Unique predicates  | 38                                                                                                         |
+| Confidence high    | 207 (97.2%)                                                                                                |
+| Top subjects       | Adrenochrome (10), Epinephrine (4), Leuco-adrenochrome (4), Adrenochrome Hypothesis (4), Methemoglobin (3) |
+| Top domain objects | Epinephrine (4), Adrenochrome (4), Adrenochrome formation (3), PGC1α (2), Oxidative Stress (2)             |
+| Top predicates     | has_type (149), is (9), promotes (4), activates (4), induces (3)                                           |
+| zh-TW              | 主詞：腎上腺素紅(10)、腎上腺素(4)、白腎上腺素紅(4)、腎上腺素紅假說(4)、變性血紅蛋白(3)；受詞：腎上腺素(4)、腎上腺素紅(4)、腎上腺素紅形成(3)、PGC1α(2)、氧化壓力(2)；謂語：類型為(149)、是(9)、促進(4)、激活(4)、誘導(3) |
+
+<img src="notes/adrenochrome/_triples_adrenochrome.svg" alt="Adrenochrome triples" width="100%">
+
+---
+#### autophagy triples
+**autophagy** — 179 nodes · 154 edges · 79 relation types · 89.6% high confidence
+
+| Metric            | Value                                                                          |
+| ----------------- | ------------------------------------------------------------------------------ |
+| Entities (nodes)  | 179                                                                            |
+| Triples (edges)   | 154                                                                            |
+| Unique predicates | 79                                                                             |
+| Confidence high   | 138 (89.6%)                                                                    |
+| Top subjects | TFEB (18), mTORC1 (14), Autophagy (8), Spermidine (7), HLH-30 (5) |
+| Top objects | Autophagy (15), mTORC1 (6), TFEB at S211 (5), Intermittent Fasting (3), Aging (3) |
+| Top predicates | phosphorylates (19), activates (11), inhibits (10), regulates (8), induces (6) |
+| zh-TW | 主詞：TFEB(18)、mTORC1(14)、自噬(8)、亞精胺(7)、HLH-30(5)；受詞：自噬(15)、mTORC1(6)、S211位點TFEB(5)、間歇性禁食(3)、衰老(3)；謂語：磷酸化(19)、激活(11)、抑制(10)、調控(8)、誘導(6) |
+
+<img src="notes/autophagy/_triples_autophagy.svg" alt="Autophagy triples" width="100%">
+
+---
+#### comt triples
+**comt** — 228 nodes · 200 edges · 89 relation types · 83.5% high confidence
+
+| Metric | Value |
+|---|---|
+| Entities (nodes) | 228 |
+| Triples (edges) | 200 |
+| Unique predicates | 89 |
+| Confidence high | 167 (83.5%) |
+| Top subjects | COMT (15), Val158Met (9), D2 receptor (6), Met/Met (6), Val/Val (6) |
+| Top objects | COMT (9), alternative anti-inflammatory for slow COMT (3), PFC (3), catechols (3), working memory (3) |
+| Top predicates | is (29), is_associated_with (11), modulates (7), supports (6), impacts (6) |
+| zh-TW | 主詞：COMT(15)、Val158Met(9)、D2受體(6)、Met/Met(6)、Val/Val(6)；受詞：COMT(9)、慢COMT替代抗炎劑(3)、前額葉皮層(3)、兒茶酚(3)、工作記憶(3)；謂語：是(29)、與...相關(11)、調節(7)、支持(6)、影響(6) |
+
+<img src="notes/comt/_triples_comt.svg" alt="COMT triples" width="100%">
+
+---
+#### epigenetics triples
+**epigenetics** — 830 nodes · 7,338 edges · 19 relation types · 30.3% high confidence
+
+| Metric | Value |
+|---|---|
+| Entities (nodes) | 830 |
+| Triples (edges) | 7,338 |
+| Unique predicates | 19 |
+| Confidence high | 2,225 (30.3%) |
+| Top subjects | Cellular Mechanisms and Regulation of Quiescence (179), Epigenetics and aging (121), Small molecule compounds that induce cellular senescence (112), Induced Pluripotent Stem Cells (96), OSKM (94) |
+| Top objects | Induced Pluripotent Stem Cells (134), Yamanaka Factors (130), Cancer (123), Cellular Reprogramming (93), Aging (77) |
+| Top predicates | co_occurs_with (4,528), mentions (1,803), causes (406), connected_to (322), links_to (90) |
+| zh-TW | 主詞：細胞靜止機制與調控(179)、表觀遺傳學與衰老(121)、誘導細胞衰老的小分子化合物(112)、誘導多能幹細胞(96)、OSKM(94)；受詞：誘導多能幹細胞(134)、山中因子(130)、癌症(123)、細胞重編程(93)、衰老(77)；謂語：與...共現(4,528)、提及(1,803)、導致(406)、連接至(322)、鏈接至(90) |
+
+<img src="notes/epigenetics/_triples_epigenetics.svg" alt="Epigenetics triples" width="100%">
+
+---
+#### neuromelanin triples
+**neuromelanin** — 139 nodes · 218 edges · 25 relation types · 97.7% high confidence
+
+| Metric | Value |
+|---|---|
+| Entities (nodes) | 139 |
+| Triples (edges) | 218 |
+| Unique predicates | 25 |
+| Confidence high | 213 (97.7%) |
+| Top subjects | Neuromelanin (35), Autophagy (8), Parkinson's Disease (8), Dopamine (7), Alpha-Synuclein (4) |
+| Top objects | Parkinson's Disease (28), Neuromelanin (25), Dopamine (8), Neuroinflammation (7), Alpha-Synuclein (6) |
+| Top predicates | bidirectionally_linked_with (104), is_a (30), causes (18), converts_to (12), binds_to (8) |
+| zh-TW | 主詞：神經黑色素(35)、自噬(8)、帕金森病(8)、多巴胺(7)、α-突觸核蛋白(4)；受詞：帕金森病(28)、神經黑色素(25)、多巴胺(8)、神經炎症(7)、α-突觸核蛋白(6)；謂語：雙向關聯(104)、是一種(30)、導致(18)、轉化為(12)、結合至(8) |
+
+<img src="notes/neuromelanin/_triples_neuromelanin.svg" alt="Neuromelanin triples" width="100%">
+
+---
+#### oxidative_stress triples
+**oxidative_stress** — 239 nodes · 236 edges · 127 relation types · 99.2% high confidence
+
+| Metric | Value |
+|---|---|
+| Entities (nodes) | 239 |
+| Triples (edges) | 236 |
+| Unique predicates | 127 |
+| Confidence high | 234 (99.2%) |
+| Top subjects | Peroxynitrite (11), Oxidative Stress (8), Superoxide Radicals (7), Hydroxyl Radicals (6), NADPH Oxidase (6) |
+| Top objects | Lipid Peroxidation (9), Superoxide Radicals (8), Hydrogen Peroxide (7), NF-kappa B (7), Nitric Oxide (6) |
+| Top predicates | produces (13), causes (13), activates (11), contributes to (9), reduces (7) |
+| zh-TW | 主詞：過氧亞硝酸鹽(11)、氧化壓力(8)、超氧自由基(7)、羥自由基(6)、NADPH氧化酶(6)；受詞：脂質過氧化(9)、超氧自由基(8)、過氧化氫(7)、NF-κB(7)、一氧化氮(6)；謂語：產生(13)、導致(13)、激活(11)、促成(9)、減少(7) |
+
+<img src="notes/oxidative_stress/_triples_oxidative_stress.svg" alt="Oxidative Stress triples" width="100%">
+
+---
+#### sirtuins triples
+**sirtuins** — 274 nodes · 247 edges · 100 relation types · 97.2% high confidence
+
+| Metric | Value |
+|---|---|
+| Entities (nodes) | 274 |
+| Triples (edges) | 247 |
+| Unique predicates | 100 |
+| Confidence high | 240 (97.2%) |
+| Top subjects | SIRT1 (54), Resveratrol (25), SIRT6 (19), SIRT3 (14), SIRT2 (11) |
+| Top objects | SIRT1 (8), Mitochondria (6), NF-κB p65 (RelA) (6), SIRT6 (5), FoxO1 (4) |
+| Top predicates | deacetylates (40), inhibits (22), activates (17), localizes to (10), represses (9) |
+| zh-TW | 主詞：SIRT1(54)、白藜蘆醇(25)、SIRT6(19)、SIRT3(14)、SIRT2(11)；受詞：SIRT1(8)、線粒體(6)、NF-κB p65(RelA)(6)、SIRT6(5)、FoxO1(4)；謂語：去乙醯化(40)、抑制(22)、激活(17)、定位至(10)、抑制轉錄(9) |
+
+<img src="notes/sirtuins/_triples_sirtuins.svg" alt="Sirtuins triples" width="100%">
 
 ---
 
