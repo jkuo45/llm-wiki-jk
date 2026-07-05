@@ -17,7 +17,7 @@ Forkhead box O3 (FOXO3A) is a transcription factor involved in regulating genes 
 ### Linking Summary:
 - New links added: [[SIRT5]], [[Apoptosis]]
 - Suggested new entity notes to create: 
-- Strong connections to strengthen: [[FOXO3A]] ↔ [[SIRT5]], [[FOXO3A]] ↔ [[Apoptosis]]
+- Strong connections to strengthen: [[FOXO3a]] ↔ [[SIRT5]], [[FOXO3a]] ↔ [[Apoptosis]]
 
 ## From [[autophagy/FOXO3a.md]]
 
@@ -41,7 +41,7 @@ FOXO3a is a forkhead transcription factor that induces [[Autophagy]] genes ([[LC
 ### Linking Summary:
 - New links added: [[Autophagy]], [[Intermittent Fasting]], [[Atg]], [[LC3]], [[p62]], [[Atg12]], [[Atg16]], [[notes/_link/Akt]], [[notes/_link/Longevity]], [[notes/_link/Aging]], [[Cellular Homeostasis]], [[Proteotoxicity]]
 - Suggested new entity notes to create: [[Atg]], [[Cellular Homeostasis]], [[Proteotoxicity]]
-- Strong connections to strengthen: [[FOXO3a]] ↔ [[FOXO1]], [[FOXO3a]] ↔ [[Autophagy]]
+- Strong connections to strengthen: [[FOXO3a]] ↔ [[FoxO1]], [[FOXO3a]] ↔ [[Autophagy]]
 
 ## From [[sirtuins/FOXO3a.md]]
 
@@ -60,11 +60,11 @@ Under oxidative stress or DNA damage, FOXO3a is post-translationally regulated b
 ## Connections
 
 - [[SIRT1]] — deacetylates FOXO3a to shift its transcriptional output from apoptosis to stress survival
-- [[FOXO1]] — sister FOXO transcription factor regulated by SIRT1
+- [[FoxO1]] — sister FOXO transcription factor regulated by SIRT1
 - [[Apoptosis]] — process inhibited in a cell-context dependent manner by the SIRT1–FOXO3a axis
 
 ## Linking Summary
 
-- New links added: [[SIRT1]], [[FOXO1]], [[Apoptosis]]
+- New links added: [[SIRT1]], [[FoxO1]], [[Apoptosis]]
 - Suggested new entity notes to create: [[GADD45]], [[MnSOD]]
 - Strong connections to strengthen: [[FOXO3a]] ↔ [[SIRT1]]

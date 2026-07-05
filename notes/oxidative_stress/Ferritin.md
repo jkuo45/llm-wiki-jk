@@ -10,7 +10,7 @@ updated: 2026-07-04
 
 # Ferritin
 
-**Ferritin** is a conserved multimeric iron storage protein that sequesters intracellular iron in a bioavailable, non-toxic form, limiting [[Fenton reaction]] chemistry and protecting against [[Ferroptosis|ferroptosis]].
+**Ferritin** is a conserved multimeric iron storage protein that sequesters intracellular iron in a bioavailable, non-toxic form, limiting [[Fenton Reaction]] chemistry and protecting against [[Ferroptosis|ferroptosis]].
 
 ## Structure
 

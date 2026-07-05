@@ -14,7 +14,7 @@ database_ids:
     - HGNC: (Hey2)
 relations:
   - predicate: interacts_with
-    target: "[[SIRT1]]"
+    target: "SIRT1"
     sources:
       - PMID:17202159
 created: 2026-07-04

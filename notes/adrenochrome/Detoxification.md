@@ -40,7 +40,7 @@ When [[notes/_link/Glutathione]] is depleted — as occurs under sustained oxida
 
 ## Nrf2-Regulated Antioxidant Enzymes
 
-The [[Nrf2]]-[[Antioxidant Response Element]] transcriptional program orchestrates the coordinated upregulation of multiple detoxification and antioxidant enzymes in response to electrophilic stress. Among the Nrf2 target genes most relevant to catecholamine detoxification are:
+The [[NRF2]]-[[Antioxidant Response Element]] transcriptional program orchestrates the coordinated upregulation of multiple detoxification and antioxidant enzymes in response to electrophilic stress. Among the Nrf2 target genes most relevant to catecholamine detoxification are:
 - **[[NQO1]]** (NAD(P)H:quinone oxidoreductase 1): Reduces [[o-quinone]] and [[Quinone]] species directly to hydroquinones, bypassing semiquinone radical formation and preventing redox cycling. NQO1 can reduce both adrenochrome and its quinone precursors.
 - **[[HO-1]]** (heme oxygenase 1): Cleaves pro-oxidant heme into biliverdin (a potent antioxidant), free iron (sequestered by ferritin), and carbon monoxide (a signaling molecule with anti-inflammatory effects).
 - **[[Glutathione]] synthesis enzymes**: GCLc (catalytic subunit of glutamate-cysteine ligase) and GCLm (modifier subunit) are Nrf2 targets, increasing GSH synthetic capacity.
@@ -51,6 +51,6 @@ The [[Nrf2]]-[[Antioxidant Response Element]] transcriptional program orchestrat
 Detoxification capacity is a key determinant of redox homeostasis. The failure to efficiently process catecholamine oxidation products — due to genetic polymorphisms, GSH depletion, or transcriptional downregulation of detoxification enzymes — shifts the cellular redox balance toward sustained oxidation. Conversely, pharmacological activation of Nrf2 (e.g., by sulforaphane from broccoli sprouts, [[Dimethyl fumarate]], or [[Oltipraz]]) enhances the entire Phase II/III detoxification network, representing a promising strategy to mitigate aminochrome toxicity. The interplay between catecholamine flux, GSH availability, and Nrf2-driven detoxification capacity defines the threshold for [[Oxidative Stress]]-induced cell injury.
 
 ### Linking Summary:
-- New links added: [[MAO]], [[COMT]], [[adrenaline-quinone]], [[Adrenochrome]], [[Dopaminochrome]], [[o-quinone]], [[Quinone]], [[notes/_link/Glutathione]], [[Nrf2]], [[Antioxidant Response Element]], [[NQO1]], [[HO-1]], [[Thioredoxin]], [[Oxidative Stress]], [[Aminochromes]], [[Redox Cycling]], [[Polymorphism]], [[P-glycoprotein]], [[Glutathione peroxidase]], [[Glutathione reductase]], [[GSTs]]
+- New links added: [[MAO]], [[COMT]], [[adrenaline-quinone]], [[Adrenochrome]], [[Dopaminochrome]], [[o-quinone]], [[Quinone]], [[notes/_link/Glutathione]], [[NRF2]], [[Antioxidant Response Element]], [[NQO1]], [[HO-1]], [[Thioredoxin]], [[Oxidative Stress]], [[Aminochromes]], [[Redox Cycling]], [[Polymorphism]], [[P-glycoprotein]], [[Glutathione Peroxidase]], [[Glutathione Reductase]], [[GSTs]]
 - Suggested new entity notes to create: [[Thioredoxin System]], [[GSTs (Glutathione S-Transferases)]]
-- Strong connections to strengthen: [[Detoxification]] ↔ [[Adrenochrome]], [[Detoxification]] ↔ [[notes/_link/Glutathione]], [[Detoxification]] ↔ [[Nrf2]]
+- Strong connections to strengthen: [[Detoxification]] ↔ [[Adrenochrome]], [[Detoxification]] ↔ [[notes/_link/Glutathione]], [[Detoxification]] ↔ [[NRF2]]

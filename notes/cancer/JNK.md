@@ -1,6 +1,6 @@
 # JNK
 
-c-Jun N-terminal kinase (JNK) is a member of the MAPK family involved in stress signaling and the regulation of [[apoptosis]], particularly by phosphorylating [[Bim]] and [[Mcl-1]].
+c-Jun N-terminal kinase (JNK) is a member of the MAPK family involved in stress signaling and the regulation of [[Apoptosis]], particularly by phosphorylating [[Bim]] and [[Mcl-1]].
 
 ### Linking Summary:
 - New links added:

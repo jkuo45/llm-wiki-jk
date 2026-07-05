@@ -16,9 +16,9 @@ MDM2 regulates p53 through several mechanisms:
 - [[notes/_link/p53]]: The primary substrate and target of MDM2.
 - [[Nutlins]]: Small molecule inhibitors that block the MDM2-p53 interaction.
 - [[notes/_link/Apoptosis]]: MDM2 prevents p53-mediated apoptosis.
-- [[senescence]]: MDM2 prevents p53-mediated senescence.
+- [[Senescence]]: MDM2 prevents p53-mediated senescence.
 
 ### Linking Summary:
-- New links added: [[notes/_link/p53]], [[glioblastoma]], [[Nutlins]], [[notes/_link/Apoptosis]], [[senescence]]
+- New links added: [[notes/_link/p53]], [[glioblastoma]], [[Nutlins]], [[notes/_link/Apoptosis]], [[Senescence]]
 - Suggested new entity notes to create: [[Nutlins]]
 - Strong connections to strengthen: [[MDM2]] ↔ [[notes/_link/p53]], [[MDM2]] ↔ [[Nutlins]]

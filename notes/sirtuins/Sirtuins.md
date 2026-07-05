@@ -7,28 +7,28 @@ aliases:
   - Mammalian Sirtuins
 relations:
   - predicate: regulates
-    target: "[[notes/_link/Aging]]"
+    target: "notes/_link/Aging"
     sources:
       - s41392-022-01257-8
   - predicate: regulates
-    target: "[[notes/_link/Inflammation]]"
+    target: "notes/_link/Inflammation"
     sources:
       - s41392-022-01257-8
   - predicate: regulates
-    target: "[[notes/_link/Cardiovascular Disease]]"
+    target: "notes/_link/Cardiovascular Disease"
     sources:
       - s41392-022-01257-8
   - predicate: part_of
-    target: "[[Basal Ganglia]]"
+    target: "Basal Ganglia"
     sources: []
   - predicate: receives_input_from
-    target: "[[notes/_link/Substantia Nigra]]"
+    target: "notes/_link/Substantia Nigra"
     sources: []
   - predicate: associated_with
-    target: "[[notes/_link/Parkinson's Disease]]"
+    target: "notes/_link/Parkinson's Disease"
     sources: []
   - predicate: associated_with
-    target: "[[notes/_link/Dopamine]]"
+    target: "notes/_link/Dopamine"
     sources: []
 created: 2026-07-04
 updated: 2026-07-04
@@ -75,7 +75,7 @@ The functional specialization of mammalian sirtuins is largely dictated by their
 
 | Sirtuin       | Primary Localization                      | Major Enzymatic Activities                         | Primary Substrates                                                                    |
 | :------------ | :---------------------------------------- | :------------------------------------------------- | :------------------------------------------------------------------------------------ |
-| **[[SIRT1]]** | Nucleus (shuttles to cytosol)             | Deacetylation                                      | Histones (H1, H3, H4), [[p53]], [[PGC-1α]], [[FOXO1]], [[FOXO3a]], [[TFEB]], RelA/p65 |
+| **[[SIRT1]]** | Nucleus (shuttles to cytosol)             | Deacetylation                                      | Histones (H1, H3, H4), [[p53]], [[PGC-1α]], [[FoxO1]], [[FOXO3a]], [[TFEB]], RelA/p65 |
 | **[[SIRT2]]** | Cytosol (translocates to nucleus in G2/M) | Deacetylation                                      | $\alpha$-tubulin, Histone H4K16, AKR1C1, IDH1, NF-κB p65, FoxO3a                      |
 | **[[SIRT3]]** | Mitochondria (Matrix)                     | Robust Deacetylation                               | AceCS2, GDH, IDH2, LCAD, LKB1, SOD2/MnSOD                                             |
 | **[[SIRT4]]** | Mitochondria (Matrix)                     | Mono-ADP-ribosylation, Lipidase                    | Glutamate Dehydrogenase (GDH), MTP$\alpha$, malonyl-CoA decarboxylase                 |
@@ -175,7 +175,7 @@ The development of specific sirtuin inhibitors and activators is a rapidly expan
 
 ### Linking Summary:
 
-- **New Links Added**: [[SIRT1]], [[SIRT2]], [[SIRT3]], [[SIRT4]], [[SIRT5]], [[SIRT6]], [[SIRT7]], [[p53]], [[PGC-1α]], [[FOXO1]], [[FOXO3a]], [[notes/_link/NFKB|NF-κB]], [[Resveratrol]], [[notes/_link/AMPK|AMPK]], [[TFEB]], [[notes/_link/Cardiovascular Disease]], [[notes/_link/Aging]], [[HIF-1α]]
+- **New Links Added**: [[SIRT1]], [[SIRT2]], [[SIRT3]], [[SIRT4]], [[SIRT5]], [[SIRT6]], [[SIRT7]], [[p53]], [[PGC-1α]], [[FoxO1]], [[FOXO3a]], [[notes/_link/NFKB|NF-κB]], [[Resveratrol]], [[notes/_link/AMPK|AMPK]], [[TFEB]], [[notes/_link/Cardiovascular Disease]], [[notes/_link/Aging]], [[HIF-1α]]
 - **Suggested New Notes to Create**: [[UBCS039]], [[MDL-800]], [[SirReal2]], [[EX-527]], [[NLRP3]], [[AceCS2]]
 - **Strong Connections to Strengthen**: [[Sirtuins]] ↔ [[SIRT1]], [[Sirtuins]] ↔ [[notes/_link/Aging]], [[Sirtuins]] ↔ [[Resveratrol]]
 
@@ -190,12 +190,12 @@ The striatum receives dopaminergic input from the [[Substantia Nigra Pars Compac
 ## Dopamine Signaling
 
 The [[Striatum]] is characterized by high levels of [[notes/_link/Dopamine]] and the [[Dopamine Transporter]] ([[DAT]]).
-- In the **dorsomedial striatum**, dopamine activity is crucial for [[Stimulus-Response Learning]].
+- In the **dorsomedial striatum**, dopamine activity is crucial for [[Stimulus-response learning]].
 - Research in [[COMT]] overexpressing models shows that increased [[COMT]] activity can lead to increased dopamine release capacity in the striatum, suggesting a novel mechanism by which COMT variation impacts striatal function beyond its canonical role in the PFC.
 
 ## Cellular Components
 
-The primary neurons in the striatum are [[Medium Spiny Neurons]] ([[MSNs]]), which comprise ~95% of striatal neurons and express either [[D1 Receptor|D1]] or [[D2 Receptor|D2]] dopamine receptors, forming the direct and indirect pathways of the basal ganglia.
+The primary neurons in the striatum are [[Medium spiny neurons]] ([[MSNs]]), which comprise ~95% of striatal neurons and express either [[D1 Receptor|D1]] or [[D2 receptor|D2]] dopamine receptors, forming the direct and indirect pathways of the basal ganglia.
 
 ## Clinical Significance
 
@@ -211,12 +211,12 @@ Dysfunction in the striatum is linked to:
 - [[COMT]]: Enzyme that, when overexpressed, impacts striatal dopamine release.
 - [[Prefrontal Cortex]]: Works in tandem with the striatum for executive control.
 - [[notes/_link/Parkinson's Disease]]: Striatal dopamine depletion underlies motor symptoms.
-- [[Medium Spiny Neurons]]: The primary cell type of the striatum.
+- [[Medium spiny neurons]]: The primary cell type of the striatum.
 - [[Caudate Nucleus]] / [[Putamen]]: The two anatomical subdivisions of the striatum.
 
 ---
 
 ### Linking Summary:
 
-- New links added: [[Caudate Nucleus]], [[Putamen]], [[Substantia Nigra Pars Compacta]], [[Nigrostriatal System]], [[notes/_link/Parkinson's Disease]], [[notes/_link/Substantia Nigra]], [[notes/_link/Dopamine]], [[Dopamine Transporter]], [[DAT]], [[Stimulus-Response Learning]], [[COMT]], [[Medium Spiny Neurons]], [[MSNs]], [[D1 Receptor]], [[D2 Receptor]], [[Impulsive Behavior]], [[Compulsive Behavior]], [[Prefrontal Cortex]], [[notes/_link/Dopamine]]
+- New links added: [[Caudate Nucleus]], [[Putamen]], [[Substantia Nigra Pars Compacta]], [[Nigrostriatal System]], [[notes/_link/Parkinson's Disease]], [[notes/_link/Substantia Nigra]], [[notes/_link/Dopamine]], [[Dopamine Transporter]], [[DAT]], [[Stimulus-response learning]], [[COMT]], [[Medium spiny neurons]], [[MSNs]], [[D1 Receptor]], [[D2 receptor]], [[Impulsive Behavior]], [[Compulsive Behavior]], [[Prefrontal Cortex]], [[notes/_link/Dopamine]]
 - Strong connections to strengthen: [[Striatum]] ↔ [[Nigrostriatal System]], [[Striatum]] ↔ [[notes/_link/Dopamine]]

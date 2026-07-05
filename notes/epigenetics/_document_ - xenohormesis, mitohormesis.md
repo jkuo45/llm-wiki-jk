@@ -44,7 +44,7 @@ and
 
 **Detailing Biomolecular Targets**
 
-I'm now detailing the biomolecules and pathways involved. I've pinpointed key compounds like [[Resveratrol|resveratrol]], [[notes/_link/Quercetin|quercetin]], [[Curcumin|curcumin]], and [[notes/_link/EGCG|EGCG]], along with their biochemical targets: [[Sirtuins|sirtuins]], [[notes/_link/AMPK|AMPK]], and the [[Nrf2|[[Nrf2]] Pathway]]. These targets are critical in the survival response, which aligns with [[notes/_link/Caloric Restriction|caloric restriction]]. I'm noting the overlap between these.
+I'm now detailing the biomolecules and pathways involved. I've pinpointed key compounds like [[Resveratrol|resveratrol]], [[notes/_link/Quercetin|quercetin]], [[Curcumin|curcumin]], and [[notes/_link/EGCG|EGCG]], along with their biochemical targets: [[Sirtuins|sirtuins]], [[notes/_link/AMPK|AMPK]], and the [[NRF2|[[NRF2]] Pathway]]. These targets are critical in the survival response, which aligns with [[notes/_link/Caloric Restriction|caloric restriction]]. I'm noting the overlap between these.
 
 **Analyzing Agricultural Impact**
 
@@ -167,7 +167,7 @@ Plants produce a vast array of secondary metabolites in response to abiotic and 
 		The cellular energy sensor that promotes autophagy and glucose uptake\[[
 		9
 		](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQHPzaDCY5vDo6YXBANmE55VUM8Zd1uNM8GqfDXw7mxLOxlh5nxkSJWbybvSPZdn0rUXRu5fLgEqCvKBk-l04Bm-4uCQ3xydMGK0pWdkfXGkvqDOo6mWOHz3JQN0ojdiM54A6g-N5DQQPVWtGJ_cShk%3D)\].
-	- **[[Nrf2|[[Nrf2]] Pathway]]:**
+	- **[[NRF2|[[NRF2]] Pathway]]:**
 		A transcription factor that upregulates endogenous antioxidant enzymes and cellular detoxification systems\[[
 		9
 		](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQHPzaDCY5vDo6YXBANmE55VUM8Zd1uNM8GqfDXw7mxLOxlh5nxkSJWbybvSPZdn0rUXRu5fLgEqCvKBk-l04Bm-4uCQ3xydMGK0pWdkfXGkvqDOo6mWOHz3JQN0ojdiM54A6g-N5DQQPVWtGJ_cShk%3D)\].
@@ -262,10 +262,10 @@ Display of Search Suggestions is required when using Grounding with Google Searc
 
 ### Connections
 - [[Xenohormesis]] proposes that heterotrophs benefit from [[Phytochemicals]] indicating environmental stress.
-- [[Hormesis]] and [[Xenohormesis]] activate conserved survival pathways like [[notes/_link/AMPK|AMPK]], [[Sirtuins|Sirtuins]], and [[Nrf2]].
+- [[Hormesis]] and [[Xenohormesis]] activate conserved survival pathways like [[notes/_link/AMPK|AMPK]], [[Sirtuins|Sirtuins]], and [[NRF2]].
 - Compounds like [[Resveratrol|Resveratrol 1]], [[notes/_link/Quercetin|Quercetin]], [[Curcumin]], and [[notes/_link/EGCG|EGCG]] act as xenohormetic triggers.
 
 ### Linking Summary:
-- New links added: [[Xenohormesis]], [[Hormesis]], [[Phytochemicals]], [[Nrf2]], [[Resveratrol|Resveratrol 1]], [[notes/_link/Quercetin|Quercetin]], [[Curcumin]], [[notes/_link/EGCG|EGCG]], [[Sirtuins|Sirtuin]], [[SIRT1|SIRT1]], [[notes/_link/AMPK|AMPK]], [[notes/_link/Caloric Restriction|caloric restriction]]
+- New links added: [[Xenohormesis]], [[Hormesis]], [[Phytochemicals]], [[NRF2]], [[Resveratrol|Resveratrol 1]], [[notes/_link/Quercetin|Quercetin]], [[Curcumin]], [[notes/_link/EGCG|EGCG]], [[Sirtuins|Sirtuin]], [[SIRT1|SIRT1]], [[notes/_link/AMPK|AMPK]], [[notes/_link/Caloric Restriction|caloric restriction]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Xenohormesis]] <-> [[Hormesis]]

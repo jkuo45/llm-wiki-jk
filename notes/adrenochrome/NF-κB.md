@@ -22,7 +22,7 @@ NF-κB transcription factors are homo- or heterodimers formed from five Rel homo
 
 Canonical NF-κB activation is mediated primarily by the IKK complex ([[IKKα]], [[IKKβ]], and [[NEMO]]/[[IKKγ]]). Pro-inflammatory stimuli ([[TNFα]], [[IL-1β]], [[LPS]], [[RAGE]] ligands, [[Reactive Oxygen Species|ROS]]) activate the [[TAK1]] kinase, which phosphorylates IKKβ. Activated IKKβ phosphorylates [[IκBα]] at Ser32 and Ser36, triggering K48-linked polyubiquitination and proteasomal degradation. Freed NF-κB dimers translocate to the nucleus to activate target genes.
 
-Non-canonical activation is mediated by [[IKKα]] homodimers phosphorylated by [[NIK]] (NF-κB-inducing kinase). This pathway processes p100 to p52, generating RelB-p52 dimers that regulate genes involved in lymphoid organogenesis, [[B cell]] maturation, and adaptive immunity. Non-canonical signaling responds to [[CD40L]], [[BAFF]], lymphotoxin β, and [[RANKL]].
+Non-canonical activation is mediated by [[IKKα]] homodimers phosphorylated by [[NIK]] (NF-κB-inducing kinase). This pathway processes p100 to p52, generating RelB-p52 dimers that regulate genes involved in lymphoid organogenesis, [[B Cell]] maturation, and adaptive immunity. Non-canonical signaling responds to [[CD40L]], [[BAFF]], lymphotoxin β, and [[RANKL]].
 
 ## Target Genes
 
@@ -34,7 +34,7 @@ As described above, [[SIRT1]] deacetylates RelA at Lys310, reducing its transcri
 
 ## Connection to Inflammation and Aging
 
-Chronic NF-κB activation is a hallmark of inflammaging — the low-grade, sterile inflammation that drives age-related functional decline. NF-κB activity increases with age in multiple tissues, driven by accumulated [[Advanced Glycation End Products|AGE]]-[[RAGE]] signaling, mitochondrial dysfunction, and [[DNA damage]]. This sustained activation promotes [[Insulin Resistance]], [[Atherosclerosis]], [[Sarcopenia]], neurodegeneration, and frailty. Therapeutic strategies targeting NF-κB, including [[SIRT1]] activators and [[RAGE]] antagonists, are under investigation to mitigate inflammaging and extend healthspan.
+Chronic NF-κB activation is a hallmark of inflammaging — the low-grade, sterile inflammation that drives age-related functional decline. NF-κB activity increases with age in multiple tissues, driven by accumulated [[Advanced Glycation End Products|AGE]]-[[RAGE]] signaling, mitochondrial dysfunction, and [[DNA Damage]]. This sustained activation promotes [[Insulin Resistance]], [[Atherosclerosis]], [[Sarcopenia]], neurodegeneration, and frailty. Therapeutic strategies targeting NF-κB, including [[SIRT1]] activators and [[RAGE]] antagonists, are under investigation to mitigate inflammaging and extend healthspan.
 
 ### Linking Summary:
 - New links added: [[Advanced Glycation End Products]], [[RAGE]], [[TNFα]], [[IL-6]], [[SIRT1]], [[SIRT2]], [[SIRT6]], [[SIRT7]]

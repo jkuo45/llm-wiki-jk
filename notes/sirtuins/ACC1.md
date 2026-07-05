@@ -10,11 +10,11 @@ database_ids:
   hgnc: HGNC:84
 relations:
   - predicate: deacetylated_by
-    target: "[[SIRT3]]"
+    target: "SIRT3"
     sources:
       - Shi 2022
   - predicate: activated_by
-    target: "[[SIRT3]]"
+    target: "SIRT3"
     sources:
       - Shi 2022
 created: 2026-07-04

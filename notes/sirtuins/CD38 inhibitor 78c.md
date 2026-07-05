@@ -6,12 +6,12 @@ database_ids:
   pubchem: 137330762
 relations:
   - predicate: inhibits
-    target: "[[CD38]]"
+    target: "CD38"
     sources: [pmc.ncbi.nlm.nih.gov/articles/PMC5482811/]
     created: 2026-07-03
     updated: 2026-07-03
   - predicate: regulates
-    target: "[[NAD+]]"
+    target: "NAD+"
     sources: [pmc.ncbi.nlm.nih.gov/articles/PMC5482811/]
     created: 2026-07-03
     updated: 2026-07-03

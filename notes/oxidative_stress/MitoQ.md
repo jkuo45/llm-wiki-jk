@@ -16,4 +16,4 @@ The TPP⁺ cation drives potential-dependent accumulation across the inner mitoc
 
 ## Clinical Research
 
-MitoQ has been investigated in clinical trials for [[notes/_link/Parkinson's Disease]] (Phase II — trend toward slowing progression), [[notes/_link/Hepatitis C]] (reduced liver damage), [[Endothelial Dysfunction|endothelial dysfunction]] in aging (improved vascular function in older adults), and [[notes/_link/Chronic Fatigue Syndrome]]. It also shows preclinical efficacy in [[cerebral ischemia-reperfusion]], [[notes/_link/Alzheimer's Disease]], and [[cardiac hypertrophy]].
+MitoQ has been investigated in clinical trials for [[notes/_link/Parkinson's Disease]] (Phase II — trend toward slowing progression), [[notes/_link/Hepatitis C]] (reduced liver damage), [[Endothelial Dysfunction|endothelial dysfunction]] in aging (improved vascular function in older adults), and [[notes/_link/Chronic Fatigue Syndrome]]. It also shows preclinical efficacy in [[cerebral ischemia-reperfusion]], [[notes/_link/Alzheimer's Disease]], and [[Cardiac Hypertrophy]].

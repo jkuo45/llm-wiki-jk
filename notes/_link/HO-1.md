@@ -20,7 +20,7 @@ updated: 2026-07-04
 
 ## Protective Functions
 
-- **Antioxidant**: Biliverdin is converted to [[bilirubin]], a potent antioxidant
+- **Antioxidant**: Biliverdin is converted to [[Bilirubin]], a potent antioxidant
 - **Anti-inflammatory**: CO has anti-inflammatory and vasodilatory effects
 - **Cytoprotective**: Induced in response to [[Oxidative Stress]], [[Hypoxia]], and inflammation
 
@@ -45,7 +45,7 @@ HO-1 expression is primarily regulated by [[NRF2]] via the [[ARE|Antioxidant Res
 
 # HO-1
 
-**HO-1 (Heme oxygenase 1)** is an enzyme that catalyzes the degradation of heme and is strongly induced by oxidative stress via the [[Nrf2]]/ARE pathway, providing potent antioxidant and anti-inflammatory effects.
+**HO-1 (Heme oxygenase 1)** is an enzyme that catalyzes the degradation of heme and is strongly induced by oxidative stress via the [[NRF2]]/ARE pathway, providing potent antioxidant and anti-inflammatory effects.
 
 ## Catalytic Mechanism
 
@@ -57,13 +57,13 @@ Each product of HO-1 activity exerts distinct cytoprotective effects: (i) bilive
 
 ## Regulation by Nrf2 and Therapeutic Induction
 
-HO-1 is among the most highly inducible antioxidant enzymes, driven primarily by [[Nrf2]] binding to the [[Antioxidant Response Element]] in its promoter. Induction occurs in response to diverse stimuli including [[Heme]], heavy metals, [[Nitric oxide]], electrophiles, ultraviolet radiation, and [[Inflammatory cytokines]]. Pharmacological inducers of HO-1, such as hemin, cobalt protoporphyrin, [[Curcumin]], and [[Sulforaphane]], are investigated for therapeutic benefit in [[Diabetes]], [[Atherosclerosis]], ischemia-reperfusion injury, and [[Chronic Kidney Disease]].
+HO-1 is among the most highly inducible antioxidant enzymes, driven primarily by [[NRF2]] binding to the [[Antioxidant Response Element]] in its promoter. Induction occurs in response to diverse stimuli including [[Heme]], heavy metals, [[Nitric Oxide]], electrophiles, ultraviolet radiation, and [[Inflammatory cytokines]]. Pharmacological inducers of HO-1, such as hemin, cobalt protoporphyrin, [[Curcumin]], and [[Sulforaphane]], are investigated for therapeutic benefit in [[Diabetes]], [[Atherosclerosis]], ischemia-reperfusion injury, and [[Chronic Kidney Disease]].
 
 ## Connection to Adrenochrome and Oxidative Stress
 
 In the context of the [[Adrenochrome Pathway]], HO-1 induction represents an adaptive antioxidant response to catecholamine-derived [[Redox Cycling]] and heme dysregulation. HO-1 activity reduces the availability of free heme that could otherwise catalyze adrenochrome formation via peroxidase-like reactions. Additionally, the CO produced by HO-1 may counteract [[Vasoconstriction]] induced by adrenochrome. The Nrf2-HO-1 axis constitutes a critical node at the intersection of heme metabolism, [[Aging]], and aminochrome toxicity.
 
 ### Linking Summary:
-- New links added: [[Nrf2]], [[Antioxidant Response Element]], [[Oxidative Stress]]
+- New links added: [[NRF2]], [[Antioxidant Response Element]], [[Oxidative Stress]]
 - Suggested new entity notes to create: 
-- Strong connections to strengthen: [[HO-1]] ↔ [[Nrf2]]
+- Strong connections to strengthen: [[HO-1]] ↔ [[NRF2]]

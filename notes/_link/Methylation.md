@@ -32,7 +32,7 @@ The biochemical cycle involves the transfer of methyl groups for various cellula
 
 ### Role in [[COMT]] Function
 [[COMT]] requires a methyl group from [[SAMe]] to metabolize catechols like [[notes/_link/Dopamine]], [[notes/_link/Norepinephrine]], and [[Estrogen]]. 
-- Individuals with slow [[COMT]] variants may be sensitive to [[Methyl Donor]] supplements (e.g., [[methylfolate]], [[methylB12]]), which can affect neurotransmitter levels.
+- Individuals with slow [[COMT]] variants may be sensitive to [[Methyl Donor]] supplements (e.g., [[Methylfolate]], [[MethylB12]]), which can affect neurotransmitter levels.
 
 ## Connections
 - [[notes/_link/Aging]]: DNA methylation patterns are a primary biomarker for biological aging.

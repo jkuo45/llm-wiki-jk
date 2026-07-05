@@ -31,7 +31,7 @@ Unlike the 26S proteasome (20S + 19S regulatory particles), the 20S proteasome d
 - **[[notes/_link/Aging]]**: Proteasome activity declines with age, contributing to accumulation of oxidized and aggregated proteins, a hallmark of aging.
 - **[[Neurodegeneration|Neurodegenerative diseases]]**: Impaired 20S proteasome function contributes to protein aggregation pathology in [[notes/_link/Alzheimer's Disease]], [[notes/_link/Parkinson's Disease]], and [[notes/_link/Huntington's Disease]].
 - **[[Cancer]]**: Cancer cells upregulate proteasome activity to handle increased oxidative stress; [[Bortezomib]] (a proteasome inhibitor) is used in multiple myeloma and mantle cell lymphoma.
-- **[[Cardiovascular disease]]**: Oxidized LDL-induced proteasome dysfunction in endothelial cells promotes atherosclerosis.
+- **[[Cardiovascular Disease]]**: Oxidized LDL-induced proteasome dysfunction in endothelial cells promotes atherosclerosis.
 
 ### Linking Summary:
 
@@ -43,8 +43,8 @@ Unlike the 26S proteasome (20S + 19S regulatory particles), the 20S proteasome d
 
 # Proteasome
 
-The [[Proteasome]] is a large multi-catalytic protease complex responsible for the degradation of ubiquitinated proteins. It is the central effector of the [[Ubiquitin-proteasome system]] (UPS), which tags proteins with [[Ubiquitin]] for targeted destruction. Proteasomal dysfunction is implicated in [[notes/_link/Parkinson's Disease]], where aggregated [[Alpha-Synuclein]] overwhelms the degradation machinery and contributes to [[Proteostasis]] failure.
+The [[Proteasome]] is a large multi-catalytic protease complex responsible for the degradation of ubiquitinated proteins. It is the central effector of the [[Ubiquitin-proteasome system]] (UPS), which tags proteins with [[Ubiquitin]] for targeted destruction. Proteasomal dysfunction is implicated in [[notes/_link/Parkinson's Disease]], where aggregated [[Alpha-synuclein]] overwhelms the degradation machinery and contributes to [[Proteostasis]] failure.
 
 ### Linking Summary:
-- New links added: [[Ubiquitin-proteasome system]], [[Ubiquitin]], [[notes/_link/Parkinson's Disease]], [[Alpha-Synuclein]], [[Proteostasis]]
+- New links added: [[Ubiquitin-proteasome system]], [[Ubiquitin]], [[notes/_link/Parkinson's Disease]], [[Alpha-synuclein]], [[Proteostasis]]
 - Strong connections to strengthen: [[Proteasome]] ↔ [[Ubiquitin-proteasome system]]

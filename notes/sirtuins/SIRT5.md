@@ -10,11 +10,11 @@ database_ids:
   hgnc: HGNC:14933
 relations:
   - predicate: exhibits
-    target: "[[NAD-dependent deacetylase activity]]"
+    target: "NAD-dependent deacetylase activity"
     sources:
       - PMID:MICHAN2007
   - predicate: member_of
-    target: "[[Sirtuin Family]]"
+    target: "Sirtuin Family"
     sources:
       - PMID:MICHAN2007
 created: 2026-07-02

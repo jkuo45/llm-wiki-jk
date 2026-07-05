@@ -15,7 +15,7 @@ A **[[Transcription Factor]]** (TF) is a protein that binds specific [[DNA]] seq
 Most TFs contain:
 
 - **DNA-binding domain (DBD):** Sequence-specific recognition motifs such as [[Homeodomain|homeodomains]], [[Zinc finger|zinc fingers]], [[Basic helix-loop-helix|bHLH]], [[Leucine zipper|bZIP]], and [[Forkhead box|forkhead]] domains.
-- **Transactivation domain (TAD):** Recruits coactivator complexes ([[p300]]/[[CBP]], [[Mediator complex]]).
+- **Transactivation domain (TAD):** Recruits coactivator complexes ([[P300]]/[[CBP]], [[Mediator complex]]).
 - **Regulatory domains:** Sites for post-translational modifications (phosphorylation, acetylation, methylation) that control TF stability, localization, and activity.
 
 ## TF-Epigenetic Crosstalk
@@ -23,9 +23,9 @@ Most TFs contain:
 TFs and the [[Epigenome]] engage in bidirectional regulation:
 
 **TFs shape the epigenome:**
-- [[Oct4]], [[Sox2]], and [[Nanog]] ([[Pluripotency factors]]) bind super-enhancers and recruit [[p300]] for [[H3K27ac]] deposition at pluripotency genes.
+- [[Oct4]], [[Sox2]], and [[Nanog]] ([[Pluripotency factors]]) bind super-enhancers and recruit [[P300]] for [[H3K27ac]] deposition at pluripotency genes.
 - [[MYC]] recruits [[P-TEFb]] for Pol II pause release and [[H3K4me3]] methyltransferases.
-- [[p53]] recruits [[DNMT3A]] and [[HDAC1]] to repress anti-apoptotic targets.
+- [[p53]] recruits [[DNMT3a]] and [[HDAC1]] to repress anti-apoptotic targets.
 
 **The epigenome shapes TF binding:**
 - [[DNA Methylation]] at CpG dinucleotides within TF motifs can block binding (e.g., [[CTCF]] binding is methylation-sensitive).
@@ -34,15 +34,15 @@ TFs and the [[Epigenome]] engage in bidirectional regulation:
 
 ## TFs in Senescence and Aging
 
-- **[[p53]]:** Master senescence inducer; activates [[p21|CDKN1A/p21]] and [[BAX]]; acetylation by [[p300]] at K120/K164 enhances pro-senescence activity.
+- **[[p53]]:** Master senescence inducer; activates [[p21|CDKN1A/p21]] and [[Bax]]; acetylation by [[P300]] at K120/K164 enhances pro-senescence activity.
 - **[[E2F]]:** Proliferation-driving TFs that are silenced in senescence by RB1-mediated chromatin compaction.
 - **[[NF-κB]]:** Master regulator of the [[SASP]]; its activity increases with age, driving [[Inflammaging|inflammaging]].
-- **[[FOXO3]]:** Longevity-associated TF; acetylated by [[CBP]] and deacetylated by [[Sirt1]] to control stress resistance.
-- **[[Nrf2]]:** Antioxidant master regulator; declines with age, exacerbating [[Oxidative Stress|oxidative stress]].
+- **[[FOXO3]]:** Longevity-associated TF; acetylated by [[CBP]] and deacetylated by [[SIRT1]] to control stress resistance.
+- **[[NRF2]]:** Antioxidant master regulator; declines with age, exacerbating [[Oxidative Stress|oxidative stress]].
 
 ## Therapeutic Approaches
 
-- **Small molecule TF inhibitors:** Disrupting TF-coactivator interactions (e.g., [[nutlin-3a|Nutlin-3a]] disrupts [[MDM2]]-[[p53]] binding).
+- **Small molecule TF inhibitors:** Disrupting TF-coactivator interactions (e.g., [[Nutlin-3a|Nutlin-3a]] disrupts [[MDM2]]-[[p53]] binding).
 - **TF decoys:** Double-stranded oligonucleotides that competitively bind TFs.
 - **dCas9-based TFs:** [[CRISPRa]] and [[CRISPRi]] to modulate endogenous gene expression without altering the genome.
 

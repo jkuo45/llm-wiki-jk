@@ -17,5 +17,5 @@ Tau pathology involves hyperphosphorylation, aggregation, and spreading of tau p
 ### Linking Summary
 
 - New links added: [[TFEB]], [[Celastrol]], [[Alzheimer's Disease]]
-- Suggested new entity notes to create: [[Neurofibrillary Tangles]]
+- Suggested new entity notes to create: [[Neurofibrillary tangles]]
 - Strong connections to strengthen: [[Tau Pathology]] ↔ [[TFEB]]

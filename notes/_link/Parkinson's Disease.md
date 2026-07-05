@@ -13,7 +13,7 @@ Parkinson's disease is a long-term degenerative disorder of the central nervous 
 [[notes/_link/Parkinson's Disease]] is a progressive [[notes/_link/Neurodegenerative Diseases|neurodegenerative disorder]] primarily characterized by the loss of dopaminergic neurons in the substantia nigra, leading to classic motor impairments such as tremors, rigidity, and bradykinesia.
 
 
-[[notes/_link/Parkinson's Disease]] (PD) is a progressive neurodegenerative disorder that primarily affects the motor system. It is characterized by the loss of dopamine-producing neurons in the [[Substantia Nigra Pars Compacta]] and the accumulation of [[Alpha-Synuclein]] protein aggregates known as [[Lewy Bodies]].
+[[notes/_link/Parkinson's Disease]] (PD) is a progressive neurodegenerative disorder that primarily affects the motor system. It is characterized by the loss of dopamine-producing neurons in the [[Substantia Nigra Pars Compacta]] and the accumulation of [[Alpha-synuclein]] protein aggregates known as [[Lewy Bodies]].
 
 
 **Parkinson's Disease** (PD) is a progressive neurodegenerative disorder primarily affecting the motor system.
@@ -34,13 +34,13 @@ In terms of cell replacement therapy, iPSC-derived dopaminergic progenitors have
 - Suggested new entity notes to create: [[notes/_link/Dopaminergic Neurons]], [[notes/_link/Substantia Nigra]], [[Dyskinesia]]
 - Strong connections to strengthen: [[notes/_link/Parkinson's Disease]] <-> [[Induced Pluripotent Stem Cells]]
 
-- New links added: [[Substantia Nigra Pars Compacta]], [[Alpha-Synuclein]], [[Lewy Bodies]], [[Bradykinesia]], [[notes/_link/Aging]], [[Neuromelanin]], [[Pathogenic Threshold of Neuromelanin]], [[L-DOPA]].
+- New links added: [[Substantia Nigra Pars Compacta]], [[Alpha-synuclein]], [[Lewy Bodies]], [[Bradykinesia]], [[notes/_link/Aging]], [[Neuromelanin]], [[Pathogenic Threshold of Neuromelanin]], [[L-DOPA]].
 - Suggested new entity notes to create: [[Dopamine Agonists]], [[Resting Tremor]].
 - Strong connections to strengthen: [[notes/_link/Parkinson's Disease]] ↔ [[notes/_link/Substantia Nigra]].
 
 - New links added: [[Mitophagy]], [[Autophagy]], [[Autophagic Flux]], [[Intermittent Fasting]], [[Ketogenic Diet]]
 - Suggested new entity notes to create: [[Mitophagy]], [[Autophagic Flux]], [[Intermittent Fasting]], [[Ketogenic Diet]]
-- Strong connections to strengthen: [[notes/_link/Parkinson's Disease]] ↔ [[Neurodegenerative_Disease]], [[notes/_link/Parkinson's Disease]] ↔ [[Mitophagy]]
+- Strong connections to strengthen: [[notes/_link/Parkinson's Disease]] ↔ [[Neurodegenerative Disease]], [[notes/_link/Parkinson's Disease]] ↔ [[Mitophagy]]
 
 - New links added: [[notes/_link/Dopamine]], [[COMT Inhibitors]], [[Levodopa]].
 
@@ -92,9 +92,9 @@ In the management of [[notes/_link/Parkinson's Disease]], [[COMT Inhibitors]] ar
 ---
 
 ### Linking Summary:
-- New links added: [[notes/_link/Aging]], [[Alpha-Synuclein]], [[Autophagic Flux]], [[Autophagy]], [[Bradykinesia]], [[COMT Inhibitors]], [[Disease Modeling]], [[notes/_link/Dopamine]], [[Induced Pluripotent Stem Cells]], [[Intermittent Fasting]], [[Ketogenic Diet]], [[L-DOPA]], [[Levodopa]], [[Lewy Bodies]], [[Mitophagy]], [[notes/_link/Neurodegenerative Diseases]], [[Neuromelanin]], [[Pathogenic Threshold of Neuromelanin]], [[Regenerative Medicine]], [[Substantia Nigra Pars Compacta]]
+- New links added: [[notes/_link/Aging]], [[Alpha-synuclein]], [[Autophagic Flux]], [[Autophagy]], [[Bradykinesia]], [[COMT Inhibitors]], [[Disease Modeling]], [[notes/_link/Dopamine]], [[Induced Pluripotent Stem Cells]], [[Intermittent Fasting]], [[Ketogenic Diet]], [[L-DOPA]], [[Levodopa]], [[Lewy Bodies]], [[Mitophagy]], [[notes/_link/Neurodegenerative Diseases]], [[Neuromelanin]], [[Pathogenic Threshold of Neuromelanin]], [[Regenerative Medicine]], [[Substantia Nigra Pars Compacta]]
 - Suggested new entity notes to create: [[Autophagic Flux]], [[Dopamine Agonists]], [[notes/_link/Dopaminergic Neurons]], [[Dyskinesia]], [[Intermittent Fasting]], [[Ketogenic Diet]], [[Mitophagy]], [[Resting Tremor]], [[notes/_link/Substantia Nigra]]
-- Strong connections to strengthen: [[notes/_link/Parkinson's Disease]] <-> [[Induced Pluripotent Stem Cells]], [[notes/_link/Parkinson's Disease]] ↔ [[Mitophagy]], [[notes/_link/Parkinson's Disease]] ↔ [[Neurodegenerative_Disease]], [[notes/_link/Parkinson's Disease]] ↔ [[notes/_link/Substantia Nigra]].
+- Strong connections to strengthen: [[notes/_link/Parkinson's Disease]] <-> [[Induced Pluripotent Stem Cells]], [[notes/_link/Parkinson's Disease]] ↔ [[Mitophagy]], [[notes/_link/Parkinson's Disease]] ↔ [[Neurodegenerative Disease]], [[notes/_link/Parkinson's Disease]] ↔ [[notes/_link/Substantia Nigra]].
 
 
 ---

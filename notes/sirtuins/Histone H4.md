@@ -9,11 +9,11 @@ database_ids:
   hgnc: HGNC:4781
 relations:
   - predicate: deacetylated_by
-    target: "[[SIRT1]]"
+    target: "SIRT1"
     sources:
       - PMID:17000746
   - predicate: deacetylated_by
-    target: "[[SIRT2]]"
+    target: "SIRT2"
     sources:
       - PMID:17000746
 created: 2026-07-04
@@ -41,5 +41,5 @@ updated: 2026-07-04
 ## Linking Summary
 
 - New links added: [[SIRT1]], [[SIRT2]], [[Histone H1]]
-- Suggested new entity notes to create: [[H4K16ac]], [[Chromatin Condensation]], [[Nucleosome]]
+- Suggested new entity notes to create: [[H4K16ac]], [[chromatin condensation]], [[Nucleosome]]
 - Strong connections to strengthen: [[Histone H4]] ↔ [[SIRT1]], [[Histone H4]] ↔ [[SIRT2]]

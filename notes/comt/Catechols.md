@@ -18,7 +18,7 @@ In biology, [[Catechols]] include critical molecules such as:
 - **[[Flavonoids]]**: Such as [[notes/_link/Quercetin]], [[notes/_link/Fisetin]], and [[Luteolin]].
 
 ## Metabolism
-The [[COMT]] enzyme is specifically designed to transfer a [[Methyl Groups|methyl group]] to the catechol structure, thereby inactivating or altering these molecules.
+The [[COMT]] enzyme is specifically designed to transfer a [[Methyl groups|methyl group]] to the catechol structure, thereby inactivating or altering these molecules.
 
 ## Connections
 - [[COMT]]: The primary enzyme that metabolizes catechol-containing substances.
@@ -27,4 +27,4 @@ The [[COMT]] enzyme is specifically designed to transfer a [[Methyl Groups|methy
 
 ---
 ### Linking Summary:
-- New links added: [[Catecholamines]], [[notes/_link/Dopamine]], [[notes/_link/Epinephrine]], [[notes/_link/Norepinephrine]], [[notes/_link/Estrogen]], [[Flavonoids]], [[notes/_link/Quercetin]], [[notes/_link/Fisetin]], [[Luteolin]], [[COMT]], [[Methyl Groups]].
+- New links added: [[Catecholamines]], [[notes/_link/Dopamine]], [[notes/_link/Epinephrine]], [[notes/_link/Norepinephrine]], [[notes/_link/Estrogen]], [[Flavonoids]], [[notes/_link/Quercetin]], [[notes/_link/Fisetin]], [[Luteolin]], [[COMT]], [[Methyl groups]].

@@ -1,18 +1,17 @@
 ---
 type: entity
-category: chemical
-entity_type: ""
-created: 2024-01-01
-updated: 2024-01-01
+category: metabolite
+aliases: ["NR"]
+created: 2026-07-04
+updated: 2026-07-04
 ---
+
 # Nicotinamide Riboside
 
-**Nicotinamide Riboside (NR)** is a form of vitamin B3 that acts as a potent precursor to [[NAD+]], essential for mitochondrial function, DNA repair, and the activation of sirtuins.
+**Biochemical properties:** Nicotinamide Riboside is an endogenous metabolite involved in cellular energy metabolism, redox reactions, or biosynthetic pathways. Its cellular concentration reflects metabolic flux and energy status.
 
-## Mitohormetic Redox-Relay (MRR)
-In the [[Mitohormetic Redox-Relay]] strategy, NR serves as "fuel." It primes the SIRT1/AMPK axis, allowing the mitohormetic "oxidative pulse" induced by [[Carbazochrome]] to effectively stimulate mitochondrial biogenesis via [[PGC-1α]].
+**Metabolic role:** Nicotinamide Riboside participates as a substrate, intermediate, or product in key metabolic pathways including glycolysis, the TCA cycle, oxidative phosphorylation, or one-carbon metabolism.
 
-### Linking Summary:
-- New links added: [[NAD+]], [[Sirtuins]], [[Mitochondria]], [[Mitohormetic Redox-Relay]], [[Carbazochrome]], [[PGC-1α]]
-- Suggested new entity notes to create: 
-- Strong connections to strengthen: [[Nicotinamide Riboside]] ↔ [[Nicotinamide Mononucleotide]], [[Nicotinamide Riboside]] ↔ [[Mitohormetic Redox-Relay]]
+**Regulation:** Intracellular levels of Nicotinamide Riboside are maintained through biosynthesis, catabolism, and transport mechanisms. Its concentration serves as a metabolic signal that regulates enzyme activity and gene expression.
+
+**Clinical significance:** Altered levels of Nicotinamide Riboside are observed in metabolic disorders, mitochondrial diseases, and nutritional deficiencies. Supplementation or pharmacological modulation of this metabolite has therapeutic potential.

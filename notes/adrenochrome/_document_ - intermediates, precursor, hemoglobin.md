@@ -86,7 +86,7 @@ In modern chemistry, the focus has shifted from psychiatric theories to
 
 - **[[Impurity marker|Impurity Profiling]]:**
 	[[notes/_link/Epinephrine]] is a vital medication (used for [[Anaphylaxis]], [[Cardiac arrest]], etc.). Because [[notes/_link/Epinephrine]] is chemically unstable and prone to oxidation when exposed to light, heat, or air, pharmaceutical manufacturers must carefully monitor degradation products.
-- **[[Reference_standard]]:**
+- **[[Reference standard]]:**
 	[[Leuco-adrenochrome]] is synthesized in high-purity laboratory settings to serve as a**
 	[[Reference standard]]
 	**. By using [[HPLC]] (High-Performance Liquid Chromatography) or [[LC-MS]] (Liquid Chromatography-Mass Spectrometry), analysts compare the peaks in a commercial [[notes/_link/Epinephrine]] sample against the [[Reference standard]] to ensure that the medication is pure and safe for clinical use.

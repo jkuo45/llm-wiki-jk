@@ -12,5 +12,5 @@ updated: 2026-07-04
 
 ### Linking Summary:
 - New links added: [[notes/_link/Parkinson's Disease]], [[notes/_link/Substantia Nigra]], [[Neuromelanin]], [[Major histocompatibility complex class I]].
-- Suggested new entity notes to create: [[T_Cell]], [[B_Cell]], [[Adaptive Immunity]].
+- Suggested new entity notes to create: [[T Cell]], [[B Cell]], [[Adaptive Immunity]].
 - Strong connections to strengthen: [[Lymphocytes]] ↔ [[notes/_link/Parkinson's Disease]].

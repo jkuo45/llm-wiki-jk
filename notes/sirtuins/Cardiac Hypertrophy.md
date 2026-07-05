@@ -15,7 +15,7 @@ updated: 2026-07-04
 
 ## Sirtuin Connections
 
-- [[SIRT1]] protects against [[Cardiac Hypertrophy]] by deacetylating [[FOXO1]] and [[FOXO3a]], suppressing pathological [[Gene Expression|gene expression]] programs, and activating [[PGC-1α]]-driven [[Mitochondrial Biogenesis|mitochondrial biogenesis]].
+- [[SIRT1]] protects against [[Cardiac Hypertrophy]] by deacetylating [[FoxO1]] and [[FOXO3a]], suppressing pathological [[Gene Expression|gene expression]] programs, and activating [[PGC-1α]]-driven [[Mitochondrial Biogenesis|mitochondrial biogenesis]].
 - [[SIRT3]] deficiency exacerbates [[Cardiac Hypertrophy]] by increasing mitochondrial [[Reactive Oxygen Species|ROS]] and impairing [[OXPHOS|OXPHOS]].
 - [[SIRT7]] represses [[Cardiac Hypertrophy]] by deacetylating [[GATA4]], a key transcription factor for hypertrophic gene expression. SIRT7 knockout mice develop spontaneous cardiac hypertrophy and fibrosis.
 - [[SIRT6]] attenuates [[Cardiac Hypertrophy]] through [[Histone H3]] K9 deacetylation and suppression of [[NFKB|NF-κB]]-dependent inflammatory signaling.
@@ -29,4 +29,4 @@ updated: 2026-07-04
 
 ### Linking Summary:
 
-- New links added: [[SIRT1]], [[SIRT3]], [[SIRT6]], [[SIRT7]], [[FOXO1]], [[FOXO3a]], [[PGC-1α]], [[Mitochondrial Biogenesis]], [[GATA4]], [[Histone H3]], [[NFKB]], [[Angiotensin II]], [[Caloric Restriction]], [[Intermittent Fasting]], [[Heart Failure]], [[Cardiomyopathy]], [[Autophagy]], [[Reactive Oxygen Species]], [[OXPHOS]], [[Gene Expression]], [[NAD+]]
+- New links added: [[SIRT1]], [[SIRT3]], [[SIRT6]], [[SIRT7]], [[FoxO1]], [[FOXO3a]], [[PGC-1α]], [[Mitochondrial Biogenesis]], [[GATA4]], [[Histone H3]], [[NFKB]], [[Angiotensin II]], [[Caloric Restriction]], [[Intermittent Fasting]], [[Heart Failure]], [[Cardiomyopathy]], [[Autophagy]], [[Reactive Oxygen Species]], [[OXPHOS]], [[Gene Expression]], [[NAD+]]

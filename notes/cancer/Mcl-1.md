@@ -3,7 +3,7 @@
 **Mcl-1** (Myeloid cell leukemia 1) is a potent anti-apoptotic member of the [[Bcl-2 family]]. It plays a critical role in the regulation of [[notes/_link/Apoptosis|apoptosis]] and is a major factor in cancer cell survival and drug resistance.
 
 ## Role in Cancer
-- **Overexpression**: Mcl-1 is one of the most frequently amplified genes in human cancers, including [[leukemia]], [[lymphoma]], and various solid tumors.
+- **Overexpression**: Mcl-1 is one of the most frequently amplified genes in human cancers, including [[leukemia]], [[Lymphoma]], and various solid tumors.
 - **Resistance to BH3 Mimetics**: Resistance to BH3 mimetics like [[ABT-737]] and [[ABT-263]] is often mediated by the upregulation of Mcl-1, which these drugs do not effectively inhibit.
 - **Rapid Turnover**: Unlike [[Bcl-2]] or [[Bcl-xL]], Mcl-1 has a very short half-life and is rapidly degraded in response to various cellular stresses.
 

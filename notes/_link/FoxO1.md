@@ -28,12 +28,12 @@ Transcription factor regulated by Akt that controls gluconeogenesis, adipogenesi
 
 ## Function
 
-FOXO1 is a forkhead transcription factor that regulates [[Autophagy]], metabolism, and immune function. It is inhibited by [[AKT]] phosphorylation under growth factor signaling.
+FOXO1 is a forkhead transcription factor that regulates [[Autophagy]], metabolism, and immune function. It is inhibited by [[Akt]] phosphorylation under growth factor signaling.
 
 ### Linking Summary:
 - New links added: [[Autophagy]], [[IGF1]], [[notes/_link/Akt]], [[notes/_link/Caloric Restriction]], [[Intermittent Fasting]], [[Atg]], [[Atg5]], [[Atg8]], [[LC3]], [[ULK1]], [[Gluconeogenesis]]
 - Suggested new entity notes to create: , [[Atg]]
-- Strong connections to strengthen: [[FOXO1]] ↔ [[notes/_link/Akt]], [[FOXO1]] ↔ [[Autophagy]]
+- Strong connections to strengthen: [[FoxO1]] ↔ [[notes/_link/Akt]], [[FoxO1]] ↔ [[Autophagy]]
 
 ## Content from [[sirtuins/FOXO1.md]]
 
@@ -101,4 +101,4 @@ The _C. elegans_ FOXO orthologue **DAF-16** is required for _sir-2.1_-mediated l
 
 - New links added: [[SIRT1]], [[notes/_link/Caloric Restriction]], [[p53]], [[DAF-16]], [[FOXO3a]], [[Adiponectin]]
 - Suggested new entity notes to create: [[DAF-16]], [[FOXO3a]], [[FOXO4]], [[FHL2]], [[NeuroD]], [[MafA]], [[Adiponectin]]
-- Strong connections to strengthen: [[FOXO1]] ↔ [[SIRT1]], [[FOXO1]] ↔ [[notes/_link/Caloric Restriction]]
+- Strong connections to strengthen: [[FoxO1]] ↔ [[SIRT1]], [[FoxO1]] ↔ [[notes/_link/Caloric Restriction]]

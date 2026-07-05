@@ -21,7 +21,7 @@ updated: 2026-07-04
 
 ## Active Forms
 
-- **[[MethylB12|Methylcobalamin]]** (MeCbl) — cofactor for [[Methionine Synthase]] (MTR), converting [[homocysteine]] to [[methionine]]; essential for the [[notes/_link/Methylation|methylation cycle]]
+- **[[MethylB12|Methylcobalamin]]** (MeCbl) — cofactor for [[Methionine Synthase]] (MTR), converting [[Homocysteine]] to [[Methionine]]; essential for the [[notes/_link/Methylation|methylation cycle]]
 - **[[Adenosylcobalamin]]** (AdoCbl) — cofactor for [[Methylmalonyl-CoA Mutase]] (MUT), converting methylmalonyl-CoA to succinyl-CoA
 - **[[Hydroxocobalamin]]** — precursor form; used therapeutically for cyanide poisoning
 

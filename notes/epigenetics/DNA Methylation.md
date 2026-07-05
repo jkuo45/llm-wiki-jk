@@ -11,6 +11,6 @@ DNA methylation of the cytosine in a CpG nucleotide is critical for the regulati
 
 
 ## Linking Summary
-- New links added: [[CpG island]], [[Gene Expression]], [[DNA Methyltransferase]]
+- New links added: [[CpG Island]], [[Gene Expression]], [[DNA Methyltransferase]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[DNA Methylation]] ↔ [[Epigenetic Clock]]

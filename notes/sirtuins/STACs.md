@@ -7,12 +7,12 @@ aliases:
   - SIRT1 Activators
 relations:
   - predicate: activates
-    target: "[[SIRT1]]"
+    target: "SIRT1"
     sources:
       - "PMID:12939617"
       - "PMID:17112576"
   - predicate: mimics
-    target: "[[notes/_link/Caloric Restriction]]"
+    target: "notes/_link/Caloric Restriction"
     sources:
       - "PMID:15254550"
 created: 2026-07-03

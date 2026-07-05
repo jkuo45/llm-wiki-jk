@@ -10,7 +10,7 @@ database_ids:
   hgnc: HGNC:2345
 relations:
   - predicate: deacetylates
-    target: "[[CREB]]"
+    target: "CREB"
     sources:
       - Michan 2007
 created: 2026-07-04

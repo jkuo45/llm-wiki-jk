@@ -7,7 +7,7 @@ The **Extrinsic Pathway**, also known as the **death receptor pathway** of [[not
 2.  **Ligand Binding**: Ligands such as TNF, [[FasL]], and [[TRAIL]] bind to their respective receptors.
 3.  **DISC Formation**: Receptor activation recruits adaptor proteins like [[FADD]] or [[TRADD]] and pro-[[Caspase-8]], forming the **Death-Inducing Signaling Complex** (DISC).
 4.  **Caspase Activation**: DISC activates the initiator [[Caspase-8]].
-5.  **Execution**: Activated [[Caspase-8]] directly cleaves and activates executioner caspases like [[caspase-3]].
+5.  **Execution**: Activated [[Caspase-8]] directly cleaves and activates executioner caspases like [[Caspase-3]].
 
 ## Connections
 - [[Intrinsic Pathway]]: Both pathways converge at the [[Common Pathway]] (caspase-3).
@@ -16,6 +16,6 @@ The **Extrinsic Pathway**, also known as the **death receptor pathway** of [[not
 - [[TRAIL]]: A death ligand frequently targeted for cancer therapy.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Apoptosis]], [[TNFR1]], [[Fas]], [[DR4]], [[DR5]], [[FasL]], [[TRAIL]], [[FADD]], [[TRADD]], [[Caspase-8]], [[caspase-3]], [[Intrinsic Pathway]], [[Common Pathway]]
+- New links added: [[notes/_link/Apoptosis]], [[TNFR1]], [[Fas]], [[DR4]], [[DR5]], [[FasL]], [[TRAIL]], [[FADD]], [[TRADD]], [[Caspase-8]], [[Caspase-3]], [[Intrinsic Pathway]], [[Common Pathway]]
 - Suggested new entity notes to create: [[TNFR1]], [[Fas]], [[DR4]], [[DR5]], [[FasL]], [[TRAIL]], [[FADD]], [[TRADD]], [[Caspase-8]]
 - Strong connections to strengthen: [[Extrinsic Pathway]] ↔ [[Caspase-8]], [[Extrinsic Pathway]] ↔ [[TRAIL]]

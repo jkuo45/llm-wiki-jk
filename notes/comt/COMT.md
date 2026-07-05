@@ -9,25 +9,25 @@ database_ids:
   mesh: D002395
 relations:
   - predicate: metabolizes
-    target: "[[notes/_link/Dopamine]]"
+    target: "notes/_link/Dopamine"
     sources: []
   - predicate: metabolizes
-    target: "[[notes/_link/Epinephrine]]"
+    target: "notes/_link/Epinephrine"
     sources: []
   - predicate: metabolizes
-    target: "[[notes/_link/Norepinephrine]]"
+    target: "notes/_link/Norepinephrine"
     sources: []
   - predicate: requires
-    target: "[[notes/_link/SAMe]]"
+    target: "notes/_link/SAMe"
     sources: []
   - predicate: inhibited_by
-    target: "[[notes/_link/Quercetin]]"
+    target: "notes/_link/Quercetin"
     sources: []
   - predicate: inhibited_by
-    target: "[[Fisetin]]"
+    target: "Fisetin"
     sources: []
   - predicate: associated_with
-    target: "[[Val158Met]]"
+    target: "Val158Met"
     sources: []
 created: 2026-05-25
 updated: 2026-07-04
@@ -39,7 +39,7 @@ updated: 2026-07-04
 
 ## Biochemical Function
 
-The enzyme performs a [[notes/_link/Methylation]] reaction, transferring a [[Methyl Groups|methyl group]] from [[notes/_link/SAMe]] (S-adenosylmethionine) to a catechol substrate. This process requires [[notes/_link/Magnesium]] as a cofactor and is facilitated by the [[notes/_link/Methylation|Methylation Cycle]]. COMT is also involved in the metabolism of catechol [[notes/_link/Estrogen]] metabolites.
+The enzyme performs a [[notes/_link/Methylation]] reaction, transferring a [[Methyl groups|methyl group]] from [[notes/_link/SAMe]] (S-adenosylmethionine) to a catechol substrate. This process requires [[notes/_link/Magnesium]] as a cofactor and is facilitated by the [[notes/_link/Methylation|Methylation Cycle]]. COMT is also involved in the metabolism of catechol [[notes/_link/Estrogen]] metabolites.
 
 ### Two Forms of COMT
 
@@ -81,7 +81,7 @@ COMT genotype influences response to numerous substances:
 - [[Modafinil]] efficacy is markedly better in Val/Val individuals
 - [[Aspirin]] cardiovascular protection is effective in slow COMT (A/A) but may increase risk in fast COMT (G/G)
 - [[notes/_link/Vitamin E]] ([[Alpha-tocopherol]]) cancer prevention varies by COMT genotype
-- [[Methyl Donor]] supplements ([[methylfolate]], [[MethylB12]], [[notes/_link/SAMe]], [[Betaine]]) can cause mood side effects in slow COMT individuals due to rapid neurotransmitter cycling
+- [[Methyl Donor]] supplements ([[Methylfolate]], [[MethylB12]], [[notes/_link/SAMe]], [[Betaine]]) can cause mood side effects in slow COMT individuals due to rapid neurotransmitter cycling
 
 ## Connections
 
@@ -101,5 +101,5 @@ COMT genotype influences response to numerous substances:
 
 ### Linking Summary:
 
-- New links added: [[Adrenochrome]], [[Aminochromes]], [[COMT]], [[Catecholamines]], [[Catechols]], [[Cognitive Performance]], [[notes/_link/Dopamine]], [[Dopaminochrome]], [[notes/_link/Epinephrine]], [[notes/_link/Estrogen]], [[Executive Function]], [[notes/_link/Monoamine oxidase]], [[notes/_link/Magnesium]], [[Methyl Groups]], [[notes/_link/Methylation]], [[notes/_link/Norepinephrine]], [[Oxidative Stress]], [[Psychiatric Disorders]], [[SNP]], [[notes/_link/Schizophrenia]], [[Val158Met]], [[Working Memory]], [[notes/_link/SAMe]], [[notes/_link/Quercetin]], [[Flavonoids]]
+- New links added: [[Adrenochrome]], [[Aminochromes]], [[COMT]], [[Catecholamines]], [[Catechols]], [[Cognitive Performance]], [[notes/_link/Dopamine]], [[Dopaminochrome]], [[notes/_link/Epinephrine]], [[notes/_link/Estrogen]], [[Executive Function]], [[notes/_link/Monoamine oxidase]], [[notes/_link/Magnesium]], [[Methyl groups]], [[notes/_link/Methylation]], [[notes/_link/Norepinephrine]], [[Oxidative Stress]], [[Psychiatric Disorders]], [[SNP]], [[notes/_link/Schizophrenia]], [[Val158Met]], [[Working Memory]], [[notes/_link/SAMe]], [[notes/_link/Quercetin]], [[Flavonoids]]
 - Strong connections to strengthen: [[COMT]] ↔ [[Catecholamines]]

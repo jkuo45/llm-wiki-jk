@@ -7,12 +7,12 @@ database_ids:
   chebi: 16824
 relations:
   - predicate: associated_with
-    target: "[[CD38]]"
+    target: "CD38"
     sources: [pmc.ncbi.nlm.nih.gov/articles/PMC6102604/]
     created: 2026-07-03
     updated: 2026-07-03
   - predicate: associated_with
-    target: "[[NAD+]]"
+    target: "NAD+"
     sources: [pmc.ncbi.nlm.nih.gov/articles/PMC6102604/]
     created: 2026-07-03
     updated: 2026-07-03

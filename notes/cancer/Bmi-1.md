@@ -6,15 +6,15 @@
 Bmi-1 is a well-known oncogene that is overexpressed in various cancers, including [[notes/_link/Breast Cancer|breast cancer]], lung cancer, and [[leukemia]].
 - **Apoptosis Evasion**: Bmi-1 promotes survival by downregulating pro-apoptotic genes and potentially maintaining active [[notes/_link/Akt]] signaling.
 - **Stemness**: It is essential for the self-renewal and maintenance of [[Cancer Stem Cells]].
-- **Chemosensitivity**: Silencing Bmi-1 (e.g., via [[siRNA]]) has been shown to sensitize breast cancer cells to [[doxorubicin]] by downregulating anti-apoptotic proteins like [[Bcl-2]].
+- **Chemosensitivity**: Silencing Bmi-1 (e.g., via [[siRNA]]) has been shown to sensitize breast cancer cells to [[Doxorubicin]] by downregulating anti-apoptotic proteins like [[Bcl-2]].
 
 ## Connections
 - [[Cancer Stem Cells]]: Bmi-1 is a key marker and regulator of stemness.
-- [[doxorubicin]]: Bmi-1 expression confers resistance to this drug.
+- [[Doxorubicin]]: Bmi-1 expression confers resistance to this drug.
 - [[Bcl-2]]: Bmi-1 silencing leads to reduced Bcl-2 levels.
 - [[notes/_link/Akt]]: Bmi-1 helps maintain survival signaling via Akt.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Breast Cancer]], [[leukemia]], [[notes/_link/Akt]], [[Cancer Stem Cells]], [[siRNA]], [[doxorubicin]], [[Bcl-2]]
+- New links added: [[notes/_link/Breast Cancer]], [[leukemia]], [[notes/_link/Akt]], [[Cancer Stem Cells]], [[siRNA]], [[Doxorubicin]], [[Bcl-2]]
 - Suggested new entity notes to create: [[siRNA]]
 - Strong connections to strengthen: [[Bmi-1]] ↔ [[Cancer Stem Cells]]

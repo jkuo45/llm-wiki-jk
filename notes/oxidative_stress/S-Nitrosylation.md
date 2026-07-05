@@ -12,7 +12,7 @@ updated: 2026-07-04
 
 ## Chemistry
 
-NO does not directly react with thiols; S-nitrosylation requires higher nitrogen oxides (N₂O₃, generated from NO + O₂) or transition metal-catalyzed pathways. The modification is specific: only a subset of cysteine residues within specific acid-base and hydrophobic microenvironments are susceptible (the "SNO motif"). S-Nitrosylation is reversed by denitrosylases including [[thioredoxin]] (TRX)/[[thioredoxin reductase]] and [[S-nitrosoglutathione reductase]] (GSNOR/ADH5).
+NO does not directly react with thiols; S-nitrosylation requires higher nitrogen oxides (N₂O₃, generated from NO + O₂) or transition metal-catalyzed pathways. The modification is specific: only a subset of cysteine residues within specific acid-base and hydrophobic microenvironments are susceptible (the "SNO motif"). S-Nitrosylation is reversed by denitrosylases including [[Thioredoxin]] (TRX)/[[Thioredoxin reductase]] and [[S-nitrosoglutathione reductase]] (GSNOR/ADH5).
 
 ## Protein Targets & Effects
 

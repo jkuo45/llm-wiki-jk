@@ -14,7 +14,7 @@ updated: 2026-07-04
 
 # Type 2 Diabetes Mellitus
 
-[[Type 2 Diabetes Mellitus]] (T2DM) is a chronic metabolic disorder characterized by [[Insulin Resistance|insulin resistance]], progressive pancreatic β-cell dysfunction, and [[Hyperglycemia|hyperglycemia]]. It accounts for ~90% of all diabetes cases and is strongly associated with [[Obesity]], [[Metabolic_Syndrome|Metabolic Syndromes]], [[Physical Inactivity|physical inactivity]], and [[Aging|aging]].
+[[Type 2 Diabetes Mellitus]] (T2DM) is a chronic metabolic disorder characterized by [[Insulin Resistance|insulin resistance]], progressive pancreatic β-cell dysfunction, and [[Hyperglycemia|hyperglycemia]]. It accounts for ~90% of all diabetes cases and is strongly associated with [[Obesity]], [[Metabolic Syndrome|Metabolic Syndromes]], [[Physical Inactivity|physical inactivity]], and [[Aging|aging]].
 
 ## Sirtuin Connections
 

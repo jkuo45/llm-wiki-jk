@@ -23,9 +23,9 @@ Longevity refers to a long duration of individual life. It is influenced by gene
 ## Hallmarks of Aging
 
 The landmark framework by [[Carlos López-Otín]] et al. (2013, *Cell* 153(6):1194–1217; updated 2023, *Cell* 186(2):243–278) categorizes aging into twelve interconnected hallmarks:
-1. **Genomic instability**: Accumulation of [[DNA damage]] and [[Mutations]].
+1. **Genomic instability**: Accumulation of [[DNA Damage]] and [[Mutations]].
 2. **Telomere attrition**: Progressive shortening of [[Telomeres]].
-3. **Epigenetic alterations**: Changes in [[DNA methylation]], [[Histone modification]], and [[Chromatin remodeling]].
+3. **Epigenetic alterations**: Changes in [[DNA Methylation]], [[Histone Modification]], and [[Chromatin Remodeling]].
 4. **Loss of proteostasis**: Decline in [[Autophagy]], [[Unfolded Protein Response]], and [[Proteasome]] function.
 5. **Disabled macroautophagy**: Impaired [[Autophagy]] contributes to aggregate accumulation.
 6. **Mitochondrial dysfunction**: [[ETC]] defects, [[Redox imbalance]], [[Mitochondrial Dynamics]] fragmentation.
@@ -44,7 +44,7 @@ Each hallmark serves as both a contributor to and a consequence of the aging pro
 
 Reduced [[mTORC1]] signaling and [[IGF-1]] pathway extends lifespan in all model organisms tested:
 - [[Rapamycin]] extends murine lifespan even when started late in life.
-- [[Dietary restriction]] suppresses mTOR via [[AMPK]] and [[Sestrin]]. [[S6K1]] knockout mice show female-specific lifespan extension.
+- [[Dietary Restriction]] suppresses mTOR via [[AMPK]] and [[Sestrin]]. [[S6K1]] knockout mice show female-specific lifespan extension.
 
 ### [[AMPK]] Activation
 
@@ -75,8 +75,8 @@ Mild mitochondrial stress triggers adaptive responses that extend lifespan:
 | [[C. elegans]] | ~3 d | [[IIS (DAF-16/FOXO)]], [[Mitohormesis]], [[UPRmt]] | Conservation of longevity pathways |
 | [[Drosophila melanogaster]] | ~10 d | [[TOR]], [[IIS]], [[JNK]] | [[Immunosenescence]], [[Stem cells]] |
 | [[Mus musculus]] | ~10 wks | All mammalian hallmarks | Drug testing, [[Genetic manipulation]] |
-| *[[Rattus norvegicus]]* | ~12 wks | [[Caloric restriction]], [[AMPK]] | Physiological similarity |
-| [[Zebrafish]] | ~3 mo | [[Telomere biology]], [[Regeneration]] | [[Regenerative medicine]] |
+| *[[Rattus norvegicus]]* | ~12 wks | [[Caloric Restriction]], [[AMPK]] | Physiological similarity |
+| [[Zebrafish]] | ~3 mo | [[Telomere biology]], [[Regeneration]] | [[Regenerative Medicine]] |
 
 ## Interventions
 
@@ -84,15 +84,15 @@ Mild mitochondrial stress triggers adaptive responses that extend lifespan:
 
 The most robust lifespan-extending intervention across taxa:
 - **[[Caloric Restriction]]** (20–40% reduction): Extends lifespan in rodents, primates, and likely humans.
-- **[[Intermittent fasting]]**: Periodic fasting without caloric restriction may confer similar benefits.
+- **[[Intermittent Fasting]]**: Periodic fasting without caloric restriction may confer similar benefits.
 - **[[Protein restriction]]**: Low protein intake (particularly [[Methionine]] and [[Branched-chain amino acids]]) reduces [[mTORC1]] and [[IIS]] signaling.
 - **[[Time-restricted feeding]]**: Circadian alignment of feeding windows.
 
 ### Exercise
 
 Physical activity extends healthspan and reduces all-cause mortality:
-- Induces [[Mitochondrial biogenesis]], [[Autophagy]], [[Antioxidant]] defense.
-- Improves [[Insulin sensitivity]], [[Cardiovascular function]], [[Cognitive function]].
+- Induces [[Mitochondrial Biogenesis]], [[Autophagy]], [[Antioxidant]] defense.
+- Improves [[Insulin Sensitivity]], [[Cardiovascular function]], [[Cognitive function]].
 - [[HIIT]] and [[Endurance training]] engage distinct but overlapping longevity pathways.
 
 ### Pharmacological
@@ -112,6 +112,6 @@ Longevity is intimately connected to cellular redox state:
 - [[Longevity]] may depend less on minimizing oxidative damage than on optimizing adaptive responses to redox challenges — what might be termed "redox robustness."
 
 ### Linking Summary:
-- New links added: [[Aging]], [[Advanced Glycation End Products]], [[Lifespan]], [[Carlos López-Otín]], [[DNA damage]], [[Telomeres]], [[DNA methylation]], [[Histone modification]], [[Chromatin remodeling]], [[Autophagy]], [[Unfolded Protein Response]], [[Proteasome]], [[Mitochondrial Dynamics]], [[Senescent cells]], [[SASP]], [[Stem cells]], [[Inflammaging]], [[Immunosenescence]], [[mTOR]], [[AMPK]], [[Sirtuins]], [[IIS]], [[Rapamycin]], [[Dietary restriction]], [[Metformin]], [[AICAR]], [[PGC1α]], [[ULK1]], [[TSC2]], [[FOXO]], [[SIRT1]], [[SIRT3]], [[Nicotinamide Riboside]], [[Nicotinamide Mononucleotide]], [[Mitohormesis]], [[UPRmt]], [[Retrograde Response]], [[Mitokines]], [[isp-1]], [[clk-1]], [[nuo-6]], [[Mitophagy]], [[Urolithin A]], [[Actinonin]], [[S. cerevisiae]], [[C. elegans]], [[Drosophila melanogaster]], [[Mus musculus]], [[Rattus norvegicus]], [[Zebrafish]], [[Caloric Restriction]], [[Intermittent fasting]], [[Protein restriction]], [[Methionine]], [[Branched-chain amino acids]], [[Time-restricted feeding]], [[Insulin sensitivity]], [[Cardiovascular function]], [[Cognitive function]], [[HIIT]], [[Endurance training]], [[TAME]], [[Everolimus]], [[Resveratrol]], [[Senolytics]], [[Dasatinib]], [[Quercetin]], [[Reactive Oxygen Species]], [[Glyco-Oxidative Proteostasis Shield]], [[Redox Cycling]], [[Carbazochrome]]
+- New links added: [[Aging]], [[Advanced Glycation End Products]], [[Lifespan]], [[Carlos López-Otín]], [[DNA Damage]], [[Telomeres]], [[DNA Methylation]], [[Histone Modification]], [[Chromatin Remodeling]], [[Autophagy]], [[Unfolded Protein Response]], [[Proteasome]], [[Mitochondrial Dynamics]], [[Senescent cells]], [[SASP]], [[Stem cells]], [[Inflammaging]], [[Immunosenescence]], [[mTOR]], [[AMPK]], [[Sirtuins]], [[IIS]], [[Rapamycin]], [[Dietary Restriction]], [[Metformin]], [[AICAR]], [[PGC1α]], [[ULK1]], [[TSC2]], [[FOXO]], [[SIRT1]], [[SIRT3]], [[Nicotinamide Riboside]], [[Nicotinamide Mononucleotide]], [[Mitohormesis]], [[UPRmt]], [[Retrograde Response]], [[Mitokines]], [[isp-1]], [[clk-1]], [[nuo-6]], [[Mitophagy]], [[Urolithin A]], [[Actinonin]], [[S. cerevisiae]], [[C. elegans]], [[Drosophila melanogaster]], [[Mus musculus]], [[Rattus norvegicus]], [[Zebrafish]], [[Caloric Restriction]], [[Intermittent Fasting]], [[Protein restriction]], [[Methionine]], [[Branched-chain amino acids]], [[Time-restricted feeding]], [[Insulin Sensitivity]], [[Cardiovascular function]], [[Cognitive function]], [[HIIT]], [[Endurance training]], [[TAME]], [[Everolimus]], [[Resveratrol]], [[Senolytics]], [[Dasatinib]], [[Quercetin]], [[Reactive Oxygen Species]], [[Glyco-Oxidative Proteostasis Shield]], [[Redox Cycling]], [[Carbazochrome]]
 - Suggested new entity notes to create: [[Redox Robustness]], [[Healthspan]]
 - Strong connections to strengthen: [[Aging]] ↔ [[Longevity]], [[Mitohormesis]] ↔ [[Longevity]]

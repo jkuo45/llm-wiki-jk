@@ -32,7 +32,7 @@ Palbociclib induces [[Autophagy]] as a cytoprotective resistance mechanism in ca
 
 # Palbociclib
 
-**Palbociclib** (PD-0332991; trade name Ibrance) is a highly selective, orally bioavailable [[CDK4]]/[[CDK6]] inhibitor that induces [[G1 Phase|G1/S]] cell cycle arrest. Approved for [[HR+]]/[[HER2-]] advanced [[Breast Cancer|breast cancer]], it is also widely used in senescence research as a tool compound to model [[Cellular Senescence|therapeutic senescence]].
+**Palbociclib** (PD-0332991; trade name Ibrance) is a highly selective, orally bioavailable [[CDK4]]/[[CDK6]] inhibitor that induces [[G1 Phase|G1/S]] cell cycle arrest. Approved for [[HR+]]/[[HER2]] advanced [[Breast Cancer|breast cancer]], it is also widely used in senescence research as a tool compound to model [[Cellular Senescence|therapeutic senescence]].
 
 ## Mechanism of Action
 

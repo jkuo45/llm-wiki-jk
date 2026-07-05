@@ -9,11 +9,11 @@ database_ids:
   hgnc: HGNC:12518
 relations:
   - predicate: inhibited_by
-    target: "[[SIRT1]]"
+    target: "SIRT1"
     sources:
       - PMID:16366736
   - predicate: associated_with
-    target: "[[Insulin Secretion]]"
+    target: "Insulin Secretion"
     sources:
       - PMID:16366736
 created: 2026-07-03

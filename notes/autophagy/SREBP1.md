@@ -18,6 +18,6 @@ SREBP1 is a transcription factor controlling lipid biosynthesis genes for fatty 
 SREBP1 regulates lipogenic enzyme expression. [[Autophagy]] and lipogenesis are coordinately regulated by [[mTORC1]] to balance lipid anabolism and catabolism.
 
 ### Linking Summary:
-- New links added: [[mTORC1]], [[lipid synthesis]], [[cholesterol homeostasis]]
+- New links added: [[mTORC1]], [[Lipid Synthesis]], [[cholesterol homeostasis]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[SREBP1]] ↔ [[mTORC1]]

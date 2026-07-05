@@ -12,13 +12,13 @@ database_ids:
   mesh: D063846
 relations:
   - predicate: measures
-    target: "[[notes/_link/Arterial Stiffness]]"
+    target: "notes/_link/Arterial Stiffness"
     sources: ["10.1016/j.jacc.2006.07.050"]
   - predicate: associated_with
-    target: "[[notes/_link/Cardiovascular Disease]]"
+    target: "notes/_link/Cardiovascular Disease"
     sources: []
   - predicate: associated_with
-    target: "[[notes/_link/Aging]]"
+    target: "notes/_link/Aging"
     sources: []
 created: 2026-07-04
 updated: 2026-07-04

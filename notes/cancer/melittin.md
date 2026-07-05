@@ -6,14 +6,14 @@
 Melittin has shown selective cytotoxic effects against several cancer types, particularly:
 - [[triple-negative breast cancer]]
 - [[HER2-enriched breast cancer]]
-- [[melanoma]]
+- [[Melanoma]]
 - [[non-small-cell lung cancer]]
 - [[glioblastoma]]
 
 ## Mechanism of Action
 - **Membrane Disruption**: Forms ~4.4 nm-diameter transmembrane toroidal pores.
 - **Signaling Inhibition**: Suppresses the phosphorylation and activation of receptor tyrosine kinases such as [[EGFR]] and [[HER2]].
-- **Synergy**: Enhances the effect of chemotherapeutic agents like [[docetaxel]] and [[cisplatin]].
+- **Synergy**: Enhances the effect of chemotherapeutic agents like [[docetaxel]] and [[Cisplatin]].
 
 ## Connections
 - [[Honeybee]]: The source of melittin.

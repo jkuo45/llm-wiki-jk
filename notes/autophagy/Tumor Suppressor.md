@@ -10,7 +10,7 @@ A tumor suppressor is a protein that protects a cell from one step on the path t
 
 ## Definition
 
-Tumor suppressors ([[p53]], [[RB]], [[PTEN]], [[BRCA1]], [[Beclin1]], [[Folliculin]], [[TSC1]]/[[TSC2]]) inhibit cell proliferation and promote [[Autophagy]] as a tumor-suppressive mechanism.
+Tumor suppressors ([[p53]], [[Rb]], [[PTEN]], [[BRCA1]], [[Beclin1]], [[Folliculin]], [[TSC1]]/[[TSC2]]) inhibit cell proliferation and promote [[Autophagy]] as a tumor-suppressive mechanism.
 
 ### Linking Summary
 

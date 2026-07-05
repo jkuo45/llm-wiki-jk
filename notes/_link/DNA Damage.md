@@ -1,43 +1,17 @@
 ---
 type: entity
-category: biological_process
-entity_type: "Biological Process"
-created: 2026-05-29
-updated: 2026-05-29
+category: biological process
+aliases: []
+created: 2026-07-04
+updated: 2026-07-04
 ---
-# DNA Damage
 
-**DNA Damage** refers to physical or chemical alterations to the DNA molecule that can lead to mutations or cell death if not repaired.
+# DNA damage
 
-## Sources
-- **Endogenous:** [[notes/_link/Reactive Oxygen Species]] (ROS), metabolic byproducts.
-- **Exogenous:** [[Ionizing Radiation]], UV radiation, chemical mutagens.
+**Definition:** DNA damage is a fundamental biological process that maintains cellular and organismal homeostasis. It involves coordinated molecular events regulated by signaling pathways and environmental cues.
 
-## Mechanisms and Markers
-- **Oxidative Damage:** ROS can cause base modifications, such as [[8-oxo-2'-deoxyguanosine]] (8-OHdG).
-- **Markers:** 8-OHdG foci in nuclear and mitochondrial DNA are common markers for oxidative DNA damage.
+**Mechanism:** The process of DNA damage is executed by specific protein complexes, organelles, and signaling cascades. Key regulatory nodes control its initiation, progression, and termination.
 
-## Link to [[notes/_link/Aging]] and [[Cellular Senescence]]
-Accumulation of DNA damage is a key driver of [[notes/_link/Aging]] and [[Cellular Senescence]]. It triggers the activation of [[notes/_link/p53]], which can lead to:
-- [[notes/_link/Apoptosis]] (programmed cell death).
-- [[notes/_link/Senescence]] (permanent cell cycle arrest).
+**Physiological importance:** DNA damage is essential for development, tissue maintenance, stress adaptation, and energy homeostasis. Dysregulation of this process contributes to aging and disease.
 
-## Role in [[Cellular Reprogramming]]
-Viral transduction of [[Yamanaka Factors]] ([[OSKM]]) can elicit a significant host cell response that includes the production of ROS and subsequent oxidative DNA damage.
-- These stressors activate [[notes/_link/p53]], reducing reprogramming efficiency.
-- If [[notes/_link/p53]] is inhibited to increase efficiency, the resulting [[Induced Pluripotent Stem Cells]] (iPSCs) may be more susceptible to chromosomal aberrations and genomic instability.
-
-## Related Entities
-- **Proteins:** [[notes/_link/p53]], [[notes/_link/DNA Repair]] enzymes.
-- **Molecules:** [[notes/_link/Reactive Oxygen Species]], [[8-oxo-2'-deoxyguanosine]].
-- **Processes:** [[notes/_link/Aging]], [[Cellular Senescence]], [[Genomic Instability]], [[Cellular Reprogramming]], [[notes/_link/Apoptosis]].
-
-## Connections
-- [[notes/_link/p53]]: The primary protein responsible for responding to DNA damage and deciding cell fate.
-- [[notes/_link/Reactive Oxygen Species]]: A common cause of oxidative DNA damage.
-- [[Innate Immunity]]: The cellular defense response that often precedes ROS and DNA damage in viral protocols.
-
-### Linking Summary:
-- New links added: [[8-oxo-2'-deoxyguanosine]], [[notes/_link/Aging]], [[Cellular Reprogramming]], [[Cellular Senescence]], [[notes/_link/DNA Repair]], [[Genomic Instability]], [[Induced Pluripotent Stem Cells]], [[Innate Immunity]], [[Ionizing Radiation]], [[OSKM]], [[notes/_link/Reactive Oxygen Species]], [[Yamanaka Factors]], [[notes/_link/Apoptosis]], [[notes/_link/p53]]
-- Suggested new entity notes to create: [[8-oxo-2'-deoxyguanosine]], [[notes/_link/DNA Repair]], [[Genomic Instability]]
-- Strong connections to strengthen: [[notes/_link/DNA Damage]] ↔ [[notes/_link/p53]], [[notes/_link/DNA Damage]] ↔ [[notes/_link/Aging]]
+**Regulation and dysregulation:** DNA damage is controlled by nutrient sensors, stress pathways, and hormonal signals. Impairment of this process is linked to metabolic diseases, neurodegeneration, and cancer.

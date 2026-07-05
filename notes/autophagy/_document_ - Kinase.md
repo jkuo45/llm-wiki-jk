@@ -2,13 +2,13 @@
 | ----------------------------------- | ----------------- | --------------- | -------------------------------------------------------------------------------------------- | ----------------- |
 | **S211**                            | Phosphorylation   | [[mTORC1]]      | Cytoplasmic retention                                                                        | 28055300          |
 | **S211**                            | Phosphorylation   | [[p38 MAPK]]    | Cytoplasmic retention                                                                        | 34930303          |
-| **S211**                            | Dephosphorylation | [[Calcineurin]] | Nucleus translocation                                                                        | 26043755          |
+| **S211**                            | Dephosphorylation | [[calcineurin]] | Nucleus translocation                                                                        | 26043755          |
 | **S142**                            | Phosphorylation   | [[mTORC1]]      | Cytoplasmic retention                                                                        | 22343943          |
 | **S142**                            | Phosphorylation   | [[mTORC1]]      | Nuclear export                                                                               | 30120233          |
 | **S142**                            | Phosphorylation   | [[ERK2]]        | Cytoplasmic retention                                                                        | 21617040          |
 | **S142**                            | Phosphorylation   | [[ERK2]]        | Nuclear export                                                                               | 29992949          |
 | **S142**                            | Phosphorylation   | [[CDK4/6]]      | Nuclear export                                                                               | 32662822          |
-| **S142**                            | Dephosphorylation | [[Calcineurin]] | Nucleus translocation                                                                        | 26043755          |
+| **S142**                            | Dephosphorylation | [[calcineurin]] | Nucleus translocation                                                                        | 26043755          |
 | **S138**                            | Phosphorylation   | [[mTORC1]]      | Nuclear export                                                                               | 30120233          |
 | **S138**                            | Phosphorylation   | [[GSK3β]]       | Lysosomal localization                                                                       | 27617930          |
 | **S138**                            | Phosphorylation   | [[GSK3β]]       | Nuclear export                                                                               | 29992949          |

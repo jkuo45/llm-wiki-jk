@@ -37,7 +37,7 @@ At low levels, ROS are essential for cell signaling and immune defense. However,
 - Strong connections to strengthen: [[notes/_link/Reactive Oxygen Species]] ↔ [[Oxidative Stress]]
 
 - New links added: [[Superoxide Radicals]], [[notes/_link/Hydrogen Peroxide]], [[Hydroxyl Radicals]], [[notes/_link/Apoptosis]], [[Immunity]], [[Oxidative Stress]], [[Singlet Oxygen]]
-- Suggested new entity notes to create: [[Immunity]], [[Signaling molecules]]
+- Suggested new entity notes to create: [[Immunity]], [[Signaling Molecules]]
 - Strong connections to strengthen: [[notes/_link/Reactive Oxygen Species]] ↔ [[Oxidative Stress]]
 
 - New links added: [[Cellular Reprogramming]], [[OSKM]], [[notes/_link/DNA Damage]], [[notes/_link/p53]], [[notes/_link/Apoptosis]], [[notes/_link/Senescence]], [[Embryonic Stem Cells]], [[Pluripotency]], [[Innate Immunity]]
@@ -88,5 +88,5 @@ The use of ROS scavengers (antioxidants like Vitamin C) and hypoxic growth condi
 
 ### Linking Summary:
 - New links added: [[Adrenochrome]], [[Aminochromes]], [[notes/_link/Apoptosis]], [[Cellular Reprogramming]], [[notes/_link/DNA Damage]], [[Embryonic Stem Cells]], [[notes/_link/Epinephrine]], [[notes/_link/Hydrogen Peroxide]], [[notes/_link/Hydrogen Peroxide]], [[Hydroxyl Radicals]], [[Hydroxyl radical]], [[Immunity]], [[notes/_link/Inflammation]], [[Innate Immunity]], [[MAO]], [[notes/_link/Myeloperoxidase]], [[notes/_link/Neutrophils]], [[OSKM]], [[Oxidation]], [[Oxidative Stress]], [[Pluripotency]], [[notes/_link/Reactive Oxygen Species]], [[Redox Cycling]], [[notes/_link/Senescence]], [[Singlet Oxygen]], [[Smoking]], [[Superoxide Radicals]], [[Superoxide anion]], [[notes/_link/p53]]
-- Suggested new entity notes to create: [[Immunity]], [[Signaling molecules]]
+- Suggested new entity notes to create: [[Immunity]], [[Signaling Molecules]]
 - Strong connections to strengthen: [[notes/_link/Reactive Oxygen Species]] ↔ [[Oxidative Stress]]

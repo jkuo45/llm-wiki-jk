@@ -17,7 +17,7 @@ AGEs are formed through the [[Maillard Reaction]], where reducing sugars react w
 ## Mechanisms of Injury
 
 1. **Extracellular Cross-linking**: AGEs form cross-links (such as the highly stable [[Glucosepane]] and [[Pentosidine]]) with structural proteins like [[Collagen]] and [[Elastic fibers]], reducing tissue elasticity.
-2. **Intracellular Modification**: Glycation of intracellular proteins impairs cellular functions and antioxidant enzyme activities (e.g., [[Catalase]], [[Glutathione peroxidase]]).
+2. **Intracellular Modification**: Glycation of intracellular proteins impairs cellular functions and antioxidant enzyme activities (e.g., [[Catalase]], [[Glutathione Peroxidase]]).
 3. **RAGE Activation**: Interaction with the [[RAGE]] receptor triggers inflammatory signaling and [[Reactive Oxygen Species]] generation, which is opposed by [[AGER1]].
 
 ## Enzymatic Management and Clearance
@@ -58,6 +58,6 @@ A bidirectional relationship exists between AGE formation and [[Adrenochrome]] g
 
 ## Linking Summary
 
-- New links added: [[Maillard Reaction]], [[Hyperglycemia]], [[Oxidative Stress]], [[Aging]], [[Collagen]], [[Elastic fibers]], [[Catalase]], [[Glutathione peroxidase]], [[RAGE]], [[Reactive Oxygen Species]], [[Aminoguanidine]], [[Pyridoxamine]], [[Polyphenols]], [[Alagebrium]], [[Epicatechin]], [[Glucosepane]], [[Pentosidine]], [[AGER1]], [[Glyoxalase System]], [[GLO1]], [[GLO2]], [[PARK7]], [[Methylglyoxal]], [[Glyoxal]], [[3-deoxyglucosone]], [[Fructosamine-3-kinase]], [[Amadori products]], [[Fructosyl-Amino Acid Oxidases]], [[notes/_link/Lysosome]], [[Cathepsin D]], [[Cathepsin B]], [[Matrix Metalloproteinases]], [[HemF-like]], [[BluB-like]], [[QueE-like]], [[Carboxymethyllysine]], [[Carboxyethyllysine]], [[Laminin]], [[Fibronectin]], [[Type IV collagen]], [[GAPDH]], [[Aconitase]], [[Low-Density Lipoprotein]], [[Scavenger Receptor]], [[Proteasome]], [[Proteotoxicity]], [[Thiamine]], [[Benfotiamine]], [[Diastolic Dysfunction]], [[Arterial Stiffness]], [[Vascular Permeability]], [[Adrenochrome]]
+- New links added: [[Maillard Reaction]], [[Hyperglycemia]], [[Oxidative Stress]], [[Aging]], [[Collagen]], [[Elastic fibers]], [[Catalase]], [[Glutathione Peroxidase]], [[RAGE]], [[Reactive Oxygen Species]], [[Aminoguanidine]], [[Pyridoxamine]], [[Polyphenols]], [[Alagebrium]], [[Epicatechin]], [[Glucosepane]], [[Pentosidine]], [[AGER1]], [[Glyoxalase System]], [[GLO1]], [[GLO2]], [[PARK7]], [[Methylglyoxal]], [[Glyoxal]], [[3-deoxyglucosone]], [[Fructosamine-3-kinase]], [[Amadori products]], [[Fructosyl-Amino Acid Oxidases]], [[notes/_link/Lysosome]], [[Cathepsin D]], [[Cathepsin B]], [[Matrix Metalloproteinases]], [[HemF-like]], [[BluB-like]], [[QueE-like]], [[Carboxymethyllysine]], [[Carboxyethyllysine]], [[Laminin]], [[Fibronectin]], [[Type IV collagen]], [[GAPDH]], [[Aconitase]], [[Low-Density Lipoprotein]], [[Scavenger Receptor]], [[Proteasome]], [[Proteotoxicity]], [[Thiamine]], [[Benfotiamine]], [[Diastolic Dysfunction]], [[Arterial Stiffness]], [[Vascular Permeability]], [[Adrenochrome]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Advanced Glycation End Products]] ↔ [[Aging]], [[Methylglyoxal]] ↔ [[Adrenochrome]]

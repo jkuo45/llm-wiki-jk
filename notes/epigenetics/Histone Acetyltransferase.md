@@ -28,5 +28,5 @@ The balance of HAT/HDAC activity is often disrupted in aging.
 
 ### Linking Summary:
 - New links added: [[Histone Acetyltransferase]], [[Chromatin]], [[Nucleosome]], [[Euchromatin]], [[Transcription]], [[Histone Deacetylase]], [[notes/_link/Aging]], [[notes/_link/Neurodegenerative Diseases]], [[notes/_link/AMPK]], [[Sirtuins]], [[Epigenome]], [[HAT]], [[Histone Acetylation]]
-- Suggested new entity notes to create: [[Acetyl-CoA]], [[p300]], [[CBP]]
+- Suggested new entity notes to create: [[Acetyl-CoA]], [[P300]], [[CBP]]
 - Strong connections to strengthen: [[Histone Acetyltransferase]] ↔ [[Histone Acetylation]], [[Histone Acetyltransferase]] ↔ [[Histone Deacetylase]]

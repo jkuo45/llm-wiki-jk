@@ -10,19 +10,19 @@ database_ids:
   chebi: CHEBI:16950
 relations:
   - predicate: produced_by
-    target: "[[SIRT1]]"
+    target: "SIRT1"
     sources:
       - PMID:11106374
   - predicate: produced_by
-    target: "[[Sir2 (yeast)]]"
+    target: "Sir2 (yeast)"
     sources:
       - PMID:11106374
   - predicate: activates
-    target: "[[TRPM2]]"
+    target: "TRPM2"
     sources:
       - PMID:16565078
   - predicate: delays
-    target: "[[Embryonic Cell Division]]"
+    target: "Embryonic Cell Division"
     sources:
       - PMID:11812793
 created: 2026-07-02

@@ -15,7 +15,7 @@ updated: 2024-01-01
 *   **Environmental Influence**: Drift can be accelerated by environmental factors such as diet, stress, and exposure to toxins.
 
 ## Relationship to [[notes/_link/Aging]]
-Epigenetic drift is a core component of the **[[notes/_link/Hallmarks of Aging]]**. It provides the basis for **[[Epigenetic_Clock]]**, which measure the cumulative "noise" or drift to estimate biological age.
+Epigenetic drift is a core component of the **[[notes/_link/Hallmarks of Aging]]**. It provides the basis for **[[Epigenetic Clock]]**, which measure the cumulative "noise" or drift to estimate biological age.
 
 ### Linking Summary:
 - New links added: [[notes/_link/Epigenome]], [[notes/_link/Methylation]], [[notes/_link/Aging]], [[notes/_link/Hallmarks of Aging]], [[Epigenetic Clock]]

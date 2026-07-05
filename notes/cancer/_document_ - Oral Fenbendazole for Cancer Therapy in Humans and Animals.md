@@ -2,13 +2,13 @@
 title: "Oral Fenbendazole for Cancer Therapy in Humans and Animals"
 source: "https://ar.iiarjournals.org/content/44/9/3725"
 author:
-  - "[[JOLIE NGUYEN]]"
-  - "[[THAI Q. NGUYEN]]"
-  - "[[BO HAN]]"
-  - "[[BA X. HOANG]]"
+  - "JOLIE NGUYEN"
+  - "THAI Q. NGUYEN"
+  - "BO HAN"
+  - "BA X. HOANG"
 published:
 created: 2026-05-19
-description: "[[Fenbendazole]] is a [[Benzimidazole]] anthelmintic agent commonly used to treat animal parasitic infections. In humans, other benzimidazoles, such as [[Mebendazole]] and [[Albendazole]], are used as antiparasitic agents. Since fenbendazole is not currently approved by the FDA or EMA, its pharmacokinetics and safety in humans have yet to be well-documented in medical literature. Despite this, insights can be drawn from existing in vitro and in vivo animal studies on its pharmacokinetics. Given the low cost of fenbendazole, its high safety profile, accessibility, and unique anti-proliferative activities, fenbendazole would be the preferred benzimidazole compound to treat [[notes/_link/Cancer]]. To ensure patient safety in the repurposing use of fenbendazole, it is crucial to perform clinical trials to assess its potential anticancer effects, optimal doses, therapeutic regimen, and tolerance profiles. This review focuses on the pharmacokinetics of orally administered fenbendazole and its promising anticancer biological activities, such as inhibiting [[Glycolysis]], down-regulating [[Glucose uptake]], inducing [[notes/_link/Oxidative Stress]], and enhancing [[notes/_link/Apoptosis]] in published experimental studies. Additionally, we evaluated the toxicity profile of fenbendazole and discussed possibilities for improving the bioavailability of the drug, enhancing its efficacy, and reducing potential toxicity."
+description: "Fenbendazole is a Benzimidazole anthelmintic agent commonly used to treat animal parasitic infections. In humans, other benzimidazoles, such as Mebendazole and Albendazole, are used as antiparasitic agents. Since fenbendazole is not currently approved by the FDA or EMA, its pharmacokinetics and safety in humans have yet to be well-documented in medical literature. Despite this, insights can be drawn from existing in vitro and in vivo animal studies on its pharmacokinetics. Given the low cost of fenbendazole, its high safety profile, accessibility, and unique anti-proliferative activities, fenbendazole would be the preferred benzimidazole compound to treat notes/_link/Cancer. To ensure patient safety in the repurposing use of fenbendazole, it is crucial to perform clinical trials to assess its potential anticancer effects, optimal doses, therapeutic regimen, and tolerance profiles. This review focuses on the pharmacokinetics of orally administered fenbendazole and its promising anticancer biological activities, such as inhibiting Glycolysis, down-regulating Glucose uptake, inducing notes/_link/Oxidative Stress, and enhancing notes/_link/Apoptosis in published experimental studies. Additionally, we evaluated the toxicity profile of fenbendazole and discussed possibilities for improving the bioavailability of the drug, enhancing its efficacy, and reducing potential toxicity."
 tags:
   - "clippings"
 ---

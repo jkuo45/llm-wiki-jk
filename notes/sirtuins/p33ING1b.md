@@ -9,11 +9,11 @@ database_ids:
   hgnc: HGNC:6062
 relations:
   - predicate: interacts_with
-    target: "[[SIRT1]]"
+    target: "SIRT1"
     sources:
       - PMID:16269335
   - predicate: inhibits
-    target: "[[SIRT1]]"
+    target: "SIRT1"
     sources:
       - PMID:16269335
 created: 2026-07-04

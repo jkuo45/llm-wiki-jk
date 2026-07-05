@@ -117,7 +117,7 @@ In many cancers, autophagy is regulated by the [[notes/_link/Akt]]/[[notes/_link
 
 ## Inducers
 - [[Ivermectin]]: Induces autophagy in breast cancer and glioma cells by inhibiting the [[PAK1]]/[[notes/_link/Akt]]/[[notes/_link/mTOR]] axis.
-- [[Melittin]]: Also known to involve autophagy-related mechanisms in some contexts.
+- [[melittin]]: Also known to involve autophagy-related mechanisms in some contexts.
 
 
 ## Role in Cellular Homeostasis
@@ -156,7 +156,7 @@ The autophagic process is governed by a set of "Autophagy-related" ([[Atg]]) gen
 
 
 ## Aging and Longevity
-[[Autophagic Flux]] typically declines with [[notes/_link/Aging]], leading to the accumulation of cellular "garbage," which contributes to [[notes/_link/Senescence]], [[notes/_link/Inflammaging]], and [[Neurodegenerative_Disease]]. Conversely, the induction of autophagy through [[notes/_link/Caloric Restriction]], [[Intermittent Fasting]], or [[Autophagy Inducer|autophagy inducers]] (like [[notes/_link/Spermidine]], [[Rapamycin]], and [[notes/_link/Metformin]]) has been shown to extend lifespan and improve healthspan in various model organisms.
+[[Autophagic Flux]] typically declines with [[notes/_link/Aging]], leading to the accumulation of cellular "garbage," which contributes to [[notes/_link/Senescence]], [[notes/_link/Inflammaging]], and [[Neurodegenerative Disease]]. Conversely, the induction of autophagy through [[notes/_link/Caloric Restriction]], [[Intermittent Fasting]], or [[Autophagy Inducer|autophagy inducers]] (like [[notes/_link/Spermidine]], [[Rapamycin]], and [[notes/_link/Metformin]]) has been shown to extend lifespan and improve healthspan in various model organisms.
 
 
 ## Cancer
@@ -216,7 +216,7 @@ In post-mitotic neurons, autophagy is essential for maintaining [[Proteostasis]]
 
 ## Relevance to Parkinson's Disease
 Impaired autophagy is a central feature of [[notes/_link/Parkinson's Disease]]:
-- [[Alpha-Synuclein]] aggregates are normally cleared by autophagy; when autophagy fails, they accumulate into [[Lewy Bodies]].
+- [[Alpha-synuclein]] aggregates are normally cleared by autophagy; when autophagy fails, they accumulate into [[Lewy Bodies]].
 - [[Neuromelanin]]-filled autophagic structures may physically overwhelm the lysosomal system, pushing neurons toward the [[Pathogenic Threshold of Neuromelanin]].
 - Genetic risk factors such as [[Glucocerebrosidase]] (GBA) mutations impair lysosomal function and reduce autophagic capacity.
 - Compounds that enhance autophagy, such as [[Ambroxol]] and [[Rapamycin]], are being investigated as disease-modifying therapies.
@@ -228,7 +228,7 @@ Impaired autophagy is a central feature of [[notes/_link/Parkinson's Disease]]:
 - [[notes/_link/p62|p62]] ↔ Selective autophagy receptor that targets ubiquitinated cargo to the autophagosome.
 
 ### Linking Summary:
-- New links added: [[notes/_link/TFEB|TFEB]], [[notes/_link/mTOR]], [[Proteostasis]], [[Neuromelanin]], [[notes/_link/Parkinson's Disease]], [[Alpha-Synuclein]], [[Lewy Bodies]], [[Pathogenic Threshold of Neuromelanin]], [[Glucocerebrosidase]], [[Ambroxol]], [[Rapamycin]], [[Lysosomal Biogenesis]], [[Ubiquitin-proteasome system]], [[notes/_link/p62|p62]]
+- New links added: [[notes/_link/TFEB|TFEB]], [[notes/_link/mTOR]], [[Proteostasis]], [[Neuromelanin]], [[notes/_link/Parkinson's Disease]], [[Alpha-synuclein]], [[Lewy Bodies]], [[Pathogenic Threshold of Neuromelanin]], [[Glucocerebrosidase]], [[Ambroxol]], [[Rapamycin]], [[Lysosomal Biogenesis]], [[Ubiquitin-proteasome system]], [[notes/_link/p62|p62]]
 - Strong connections to strengthen: [[Autophagy]] ↔ [[notes/_link/TFEB|TFEB]], [[Autophagy]] ↔ [[Proteostasis]]
 
 ## Linking Summary
@@ -342,7 +342,7 @@ In many cancers, autophagy is regulated by the [[notes/_link/Akt]]/[[notes/_link
 
 ## Inducers
 - [[Ivermectin]]: Induces autophagy in breast cancer and glioma cells by inhibiting the [[PAK1]]/[[notes/_link/Akt]]/[[notes/_link/mTOR]] axis.
-- [[Melittin]]: Also known to involve autophagy-related mechanisms in some contexts.
+- [[melittin]]: Also known to involve autophagy-related mechanisms in some contexts.
 
 
 ## Role in Cellular Homeostasis
@@ -381,7 +381,7 @@ The autophagic process is governed by a set of "Autophagy-related" ([[Atg]]) gen
 
 
 ## Aging and Longevity
-[[Autophagic Flux]] typically declines with [[notes/_link/Aging]], leading to the accumulation of cellular "garbage," which contributes to [[notes/_link/Senescence]], [[notes/_link/Inflammaging]], and [[Neurodegenerative_Disease]]. Conversely, the induction of autophagy through [[notes/_link/Caloric Restriction]], [[Intermittent Fasting]], or [[Autophagy Inducer|autophagy inducers]] (like [[notes/_link/Spermidine]], [[Rapamycin]], and [[notes/_link/Metformin]]) has been shown to extend lifespan and improve healthspan in various model organisms.
+[[Autophagic Flux]] typically declines with [[notes/_link/Aging]], leading to the accumulation of cellular "garbage," which contributes to [[notes/_link/Senescence]], [[notes/_link/Inflammaging]], and [[Neurodegenerative Disease]]. Conversely, the induction of autophagy through [[notes/_link/Caloric Restriction]], [[Intermittent Fasting]], or [[Autophagy Inducer|autophagy inducers]] (like [[notes/_link/Spermidine]], [[Rapamycin]], and [[notes/_link/Metformin]]) has been shown to extend lifespan and improve healthspan in various model organisms.
 
 
 ## Cancer
@@ -441,7 +441,7 @@ In post-mitotic neurons, autophagy is essential for maintaining [[Proteostasis]]
 
 ## Relevance to Parkinson's Disease
 Impaired autophagy is a central feature of [[notes/_link/Parkinson's Disease]]:
-- [[Alpha-Synuclein]] aggregates are normally cleared by autophagy; when autophagy fails, they accumulate into [[Lewy Bodies]].
+- [[Alpha-synuclein]] aggregates are normally cleared by autophagy; when autophagy fails, they accumulate into [[Lewy Bodies]].
 - [[Neuromelanin]]-filled autophagic structures may physically overwhelm the lysosomal system, pushing neurons toward the [[Pathogenic Threshold of Neuromelanin]].
 - Genetic risk factors such as [[Glucocerebrosidase]] (GBA) mutations impair lysosomal function and reduce autophagic capacity.
 - Compounds that enhance autophagy, such as [[Ambroxol]] and [[Rapamycin]], are being investigated as disease-modifying therapies.
@@ -453,7 +453,7 @@ Impaired autophagy is a central feature of [[notes/_link/Parkinson's Disease]]:
 - [[notes/_link/p62|p62]] ↔ Selective autophagy receptor that targets ubiquitinated cargo to the autophagosome.
 
 ### Linking Summary:
-- New links added: [[notes/_link/TFEB|TFEB]], [[notes/_link/mTOR]], [[Proteostasis]], [[Neuromelanin]], [[notes/_link/Parkinson's Disease]], [[Alpha-Synuclein]], [[Lewy Bodies]], [[Pathogenic Threshold of Neuromelanin]], [[Glucocerebrosidase]], [[Ambroxol]], [[Rapamycin]], [[Lysosomal Biogenesis]], [[Ubiquitin-proteasome system]], [[notes/_link/p62|p62]]
+- New links added: [[notes/_link/TFEB|TFEB]], [[notes/_link/mTOR]], [[Proteostasis]], [[Neuromelanin]], [[notes/_link/Parkinson's Disease]], [[Alpha-synuclein]], [[Lewy Bodies]], [[Pathogenic Threshold of Neuromelanin]], [[Glucocerebrosidase]], [[Ambroxol]], [[Rapamycin]], [[Lysosomal Biogenesis]], [[Ubiquitin-proteasome system]], [[notes/_link/p62|p62]]
 - Strong connections to strengthen: [[Autophagy]] ↔ [[notes/_link/TFEB|TFEB]], [[Autophagy]] ↔ [[Proteostasis]]
 
 ## Linking Summary

@@ -25,7 +25,7 @@ Glycation can be attenuated through [[AGE inhibitors]] (like [[Aminoguanidine]])
 
 ## Chemical Steps of the Maillard Reaction
 
-Glycation proceeds through three sequential stages. **Stage 1** begins with the nucleophilic addition of the free ε-amino group of [[Lysine]] or the α-amino group of N-terminal residues to the carbonyl carbon of a reducing sugar (e.g., [[Glucose]], [[Fructose]], [[Ribose]]). This forms an unstable [[Schiff base]] (aldimine), which undergoes the [[Amadori rearrangement]] to yield a more stable ketoamine — the [[Amadori_products]] (e.g., fructoselysine). **Stage 2** involves further dehydration, oxidation, and fragmentation of Amadori products into highly reactive dicarbonyl species, including [[3-Deoxyglucosone]] (3-DG), [[Glyoxal]], and [[Methylglyoxal]] (MGO). These α-oxoaldehydes are the true propagating intermediates of glycation. **Stage 3** culminates in the irreversible formation of [[Advanced Glycation End Products]] (AGEs) such as [[Nε-carboxymethyllysine]] (CML), [[Pentosidine]], and [[Crossline]], which accumulate on long-lived proteins.
+Glycation proceeds through three sequential stages. **Stage 1** begins with the nucleophilic addition of the free ε-amino group of [[Lysine]] or the α-amino group of N-terminal residues to the carbonyl carbon of a reducing sugar (e.g., [[Glucose]], [[Fructose]], [[Ribose]]). This forms an unstable [[Schiff base]] (aldimine), which undergoes the [[Amadori rearrangement]] to yield a more stable ketoamine — the [[Amadori products]] (e.g., fructoselysine). **Stage 2** involves further dehydration, oxidation, and fragmentation of Amadori products into highly reactive dicarbonyl species, including [[3-deoxyglucosone]] (3-DG), [[Glyoxal]], and [[Methylglyoxal]] (MGO). These α-oxoaldehydes are the true propagating intermediates of glycation. **Stage 3** culminates in the irreversible formation of [[Advanced Glycation End Products]] (AGEs) such as [[Nε-carboxymethyllysine]] (CML), [[Pentosidine]], and [[Crossline]], which accumulate on long-lived proteins.
 
 ## Kinetics of Glycation vs Glycoxidation
 
@@ -43,4 +43,4 @@ AGEs accumulate progressively in long-lived proteins, including [[Collagen]], [[
 
 ## Updated Links
 
-- Additional new links: [[Lysine]], [[Glucose]], [[Fructose]], [[Ribose]], [[Schiff base]], [[Amadori rearrangement]], [[3-Deoxyglucosone]], [[Glyoxal]], [[Methylglyoxal]], [[Nε-carboxymethyllysine]], [[Pentosidine]], [[Crossline]], [[Collagen]], [[Elastin]], [[Lens crystallins]], [[Myelin]], [[Cataract]], [[RAGE]], [[NF-κB]], [[Inflammaging]], [[Alagebrium]]
+- Additional new links: [[Lysine]], [[Glucose]], [[Fructose]], [[Ribose]], [[Schiff base]], [[Amadori rearrangement]], [[3-deoxyglucosone]], [[Glyoxal]], [[Methylglyoxal]], [[Nε-carboxymethyllysine]], [[Pentosidine]], [[Crossline]], [[Collagen]], [[Elastin]], [[Lens crystallins]], [[Myelin]], [[Cataract]], [[RAGE]], [[NF-κB]], [[Inflammaging]], [[Alagebrium]]

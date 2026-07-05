@@ -2,9 +2,9 @@
 title: "The autophagy enhancer spermidine reverses arterial aging"
 source: "https://www.sciencedirect.com/science/article/abs/pii/S004763741300050X"
 author:
-  - "[[Thomas J.]]"
-  - "[[Christopher M.]]"
-  - "[[Douglas R.]]"
+  - "Thomas J."
+  - "Christopher M."
+  - "Douglas R."
 published:
 created: 2026-06-19
 updated: 2026-07-04

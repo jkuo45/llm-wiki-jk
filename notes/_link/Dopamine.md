@@ -47,7 +47,7 @@ Like other [[Catecholamines]], Dopamine can undergo [[Oxidation]] (spontaneous o
 - Suggested new entity notes to create: [[Aromatic L-amino acid decarboxylase]], [[Catecholamines]].
 - Strong connections to strengthen: [[notes/_link/Dopamine]] ↔ [[notes/_link/Substantia Nigra]].
 
-- New links added: [[Neurotransmitters]], [[Executive Function]], [[COMT]], [[Catechol-O-methyltransferase]], [[Monoamine Oxidase]], [[MAO]], [[Sirtuins]], [[Dopamine Transporter]], [[DAT]], [[Prefrontal Cortex]], [[PFC]], [[Norepinephrine Transporter]], [[NET]], [[notes/_link/Parkinson's Disease]], [[notes/_link/Schizophrenia]], [[Working Memory]], [[Val158Met]], [[Polymorphism]].
+- New links added: [[Neurotransmitters]], [[Executive Function]], [[COMT]], [[Catechol-O-methyltransferase]], [[Monoamine oxidase]], [[MAO]], [[Sirtuins]], [[Dopamine Transporter]], [[DAT]], [[Prefrontal Cortex]], [[PFC]], [[Norepinephrine transporter]], [[NET]], [[notes/_link/Parkinson's Disease]], [[notes/_link/Schizophrenia]], [[Working Memory]], [[Val158Met]], [[Polymorphism]].
 
 ## Biosynthesis
 Dopamine is synthesized from the amino acid tyrosine. The process involves two main steps:
@@ -70,9 +70,9 @@ The hallmark of [[notes/_link/Parkinson's Disease]] is the progressive degenerat
 ## Metabolism
 [[notes/_link/Dopamine]] is primarily degraded by two enzymes:
 1. [[COMT]] ([[Catechol-O-methyltransferase]])
-2. [[Monoamine Oxidase]] ([[MAO]])
+2. [[Monoamine oxidase]] ([[MAO]])
 
-In the [[Sirtuins]], the [[Dopamine Transporter]] ([[DAT]]) is responsible for rapid uptake, whereas in the [[Prefrontal Cortex]] ([[PFC]]), [[COMT]] and the [[Norepinephrine Transporter]] ([[NET]]) play more dominant roles in clearance.
+In the [[Sirtuins]], the [[Dopamine Transporter]] ([[DAT]]) is responsible for rapid uptake, whereas in the [[Prefrontal Cortex]] ([[PFC]]), [[COMT]] and the [[Norepinephrine transporter]] ([[NET]]) play more dominant roles in clearance.
 
 
 ## Genetic Influence
@@ -94,6 +94,6 @@ The [[COMT]] [[Val158Met]] [[Polymorphism]] significantly affects dopamine level
 ---
 
 ### Linking Summary:
-- New links added: [[Adrenochrome]], [[COMT]], [[Catechol-O-methyltransferase]], [[Catecholamines]], [[DAT]], [[notes/_link/Dopamine]], [[Dopamine Transporter]], [[Dopaminochrome]], [[notes/_link/Epinephrine]], [[Executive Function]], [[L-DOPA]], [[MAO]], [[Monoamine Oxidase]], [[NET]], [[Neuromelanin]], [[Neurotransmitters]], [[Norepinephrine Transporter]], [[Oxidation]], [[Oxidative Stress]], [[PFC]], [[notes/_link/Parkinson's Disease]], [[Polymorphism]], [[Prefrontal Cortex]], [[notes/_link/Schizophrenia]], [[Sirtuins]], [[notes/_link/Substantia Nigra]], [[Substantia Nigra Pars Compacta]], [[notes/_link/Substantia Nigra]], [[notes/_link/Tyrosine Hydroxylase]], [[Val158Met]], [[Vesicular Monoamine Transporter 2]], [[Working Memory]]
+- New links added: [[Adrenochrome]], [[COMT]], [[Catechol-O-methyltransferase]], [[Catecholamines]], [[DAT]], [[notes/_link/Dopamine]], [[Dopamine Transporter]], [[Dopaminochrome]], [[notes/_link/Epinephrine]], [[Executive Function]], [[L-DOPA]], [[MAO]], [[Monoamine oxidase]], [[NET]], [[Neuromelanin]], [[Neurotransmitters]], [[Norepinephrine transporter]], [[Oxidation]], [[Oxidative Stress]], [[PFC]], [[notes/_link/Parkinson's Disease]], [[Polymorphism]], [[Prefrontal Cortex]], [[notes/_link/Schizophrenia]], [[Sirtuins]], [[notes/_link/Substantia Nigra]], [[Substantia Nigra Pars Compacta]], [[notes/_link/Substantia Nigra]], [[notes/_link/Tyrosine Hydroxylase]], [[Val158Met]], [[Vesicular Monoamine Transporter 2]], [[Working Memory]]
 - Suggested new entity notes to create: [[Aromatic L-amino acid decarboxylase]], [[Catecholamines]], [[notes/_link/Dopaminergic Neurons]], [[Neurotransmitters]]
 - Strong connections to strengthen: [[notes/_link/Dopamine]] ↔ [[Dopaminochrome]], [[notes/_link/Dopamine]] ↔ [[notes/_link/Parkinson's Disease]], [[notes/_link/Dopamine]] ↔ [[notes/_link/Substantia Nigra]].

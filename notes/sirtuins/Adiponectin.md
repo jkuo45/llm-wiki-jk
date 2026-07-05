@@ -10,15 +10,15 @@ database_ids:
   hgnc: HGNC:13633
 relations:
   - predicate: regulated_by
-    target: "[[SIRT1]]"
+    target: "SIRT1"
     sources:
       - PMID:17090532
   - predicate: regulated_by
-    target: "[[FOXO1]]"
+    target: "FOXO1"
     sources:
       - PMID:17090532
   - predicate: regulated_by
-    target: "[[notes/_link/Caloric Restriction]]"
+    target: "notes/_link/Caloric Restriction"
     sources:
       - PMID:17236764
 created: 2026-07-03
@@ -34,7 +34,7 @@ updated: 2026-07-03
 Adiponectin transcription and secretion are directly regulated by a nutrient-sensing sirtuin pathway:
 
 - **Transcription Complex**: FOXO1 forms a transcription factor complex at the adiponectin promoter with **C/EBP$\alpha$ (CCAAT/enhancer-binding protein $\alpha$)**.
-- **SIRT1 Deacetylation**: [[SIRT1]] deacetylates [[FOXO1]] on key lysine residues, which enhances its physical interaction with C/EBP$\alpha$, directly activating the adiponectin promoter and boosting its expression and secretion.
+- **SIRT1 Deacetylation**: [[SIRT1]] deacetylates [[FoxO1]] on key lysine residues, which enhances its physical interaction with C/EBP$\alpha$, directly activating the adiponectin promoter and boosting its expression and secretion.
 - **Caloric Restriction**: [[notes/_link/Caloric Restriction|Caloric Restriction]] increases circulating adiponectin levels in rodents and primates. This upregulation is mediated in part by SIRT1 activation in response to low nutrient availability.
 
 ## Physiological Functions
@@ -47,11 +47,11 @@ Adiponectin acts via its receptors (AdipoR1 and AdipoR2) to:
 ## Connections
 
 - [[SIRT1]] — deacetylates FOXO1, enhancing transcription of adiponectin
-- [[FOXO1]] — forms a transcription complex with C/EBP$\alpha$ to drive adiponectin expression
+- [[FoxO1]] — forms a transcription complex with C/EBP$\alpha$ to drive adiponectin expression
 - [[notes/_link/Caloric Restriction]] — increases circulating adiponectin levels
 
 ## Linking Summary
 
-- New links added: [[SIRT1]], [[FOXO1]], [[notes/_link/Caloric Restriction]]
+- New links added: [[SIRT1]], [[FoxO1]], [[notes/_link/Caloric Restriction]]
 - Suggested new entity notes to create: [[AMPK]], [[Adiponectin Receptors]]
 - Strong connections to strengthen: [[Adiponectin]] ↔ [[SIRT1]]

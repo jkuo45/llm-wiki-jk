@@ -7,7 +7,7 @@ database_ids:
   chebi: ""
 relations:
   - predicate: activates
-    target: "[[SIRT6]]"
+    target: "SIRT6"
     sources: []
 created: 2026-07-03
 updated: 2026-07-03

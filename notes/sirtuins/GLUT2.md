@@ -10,12 +10,12 @@ database_ids:
   hgnc: HGNC:11006
 relations:
   - predicate: expression_regulated_by
-    target: "[[SIRT6]]"
+    target: "SIRT6"
     sources:
       - Song 2016
       - Xiong 2016
   - predicate: expression_increased_by
-    target: "[[SIRT6]]"
+    target: "SIRT6"
     sources:
       - Song 2016
 created: 2026-07-04

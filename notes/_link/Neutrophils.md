@@ -34,7 +34,7 @@ While essential for killing pathogens, the oxidative environment created by neut
 - Strong connections to strengthen: [[notes/_link/Neutrophils]] ↔ [[Adrenochrome]]
 
 - New links added: [[Hypochlorous Acid]], [[notes/_link/Myeloperoxidase]]
-- Suggested new entity notes to create: [[Innate immune system]], [[notes/_link/Respiratory Burst]]
+- Suggested new entity notes to create: [[Innate Immune System]], [[notes/_link/Respiratory Burst]]
 - Strong connections to strengthen: [[notes/_link/Neutrophils]] ↔ [[Hypochlorous Acid]]
 
 ## Connections
@@ -47,5 +47,5 @@ While essential for killing pathogens, the oxidative environment created by neut
 
 ### Linking Summary:
 - New links added: [[Adrenochrome]], [[notes/_link/Epinephrine]], [[Hydroxyl radical]], [[Hypochlorous Acid]], [[notes/_link/Inflammation]], [[Lungs]], [[notes/_link/Myeloperoxidase]], [[notes/_link/Neutrophils]], [[Oxidation]], [[Oxidative Stress]], [[notes/_link/Reactive Oxygen Species]], [[Superoxide anion]]
-- Suggested new entity notes to create: [[Innate immune system]], [[notes/_link/Respiratory Burst]]
+- Suggested new entity notes to create: [[Innate Immune System]], [[notes/_link/Respiratory Burst]]
 - Strong connections to strengthen: [[notes/_link/Neutrophils]] ↔ [[Adrenochrome]], [[notes/_link/Neutrophils]] ↔ [[Hypochlorous Acid]]

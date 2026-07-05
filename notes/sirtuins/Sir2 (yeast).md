@@ -11,28 +11,28 @@ database_ids:
   uniprot: P06700
 relations:
   - predicate: suppresses
-    target: "[[Ribosomal DNA Recombination]]"
+    target: "Ribosomal DNA Recombination"
     sources:
       - PMID:2647300
   - predicate: extends
-    target: "[[Replicative Lifespan]]"
+    target: "Replicative Lifespan"
     sources:
       - PMID:10521401
   - predicate: regulates
-    target: "[[Gene Silencing]]"
+    target: "Gene Silencing"
     sources:
       - PMID:3297920
   - predicate: homologue_of
-    target: "[[SIRT1]]"
+    target: "SIRT1"
     sources:
       - PMID:10381378
   - predicate: requires
-    target: "[[NAD+]]"
+    target: "NAD+"
     sources:
       - PMID:10811920
       - PMID:10693811
   - predicate: mediates
-    target: "[[notes/_link/Caloric Restriction]]"
+    target: "notes/_link/Caloric Restriction"
     sources:
       - PMID:15520384
 created: 2026-07-02

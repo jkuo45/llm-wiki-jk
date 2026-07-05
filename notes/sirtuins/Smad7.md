@@ -10,7 +10,7 @@ database_ids:
   hgnc: HGNC:6773
 relations:
   - predicate: deacetylated_by
-    target: "[[SIRT1]]"
+    target: "SIRT1"
     sources:
       - PMID:17098745
 created: 2026-07-03

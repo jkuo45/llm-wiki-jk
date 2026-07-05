@@ -11,20 +11,20 @@ database_ids:
   hgnc: HGNC:11180
 relations:
   - predicate: deacetylates_and_activates
-    target: "[[MnSOD]]"
+    target: "MnSOD"
     sources:
       - Tao 2010
       - Chen 2011
   - predicate: upregulates
-    target: "[[MnSOD]]"
+    target: "MnSOD"
     sources:
       - Michan 2007
   - predicate: upregulates_via_AMPK
-    target: "[[MnSOD]]"
+    target: "MnSOD"
     sources:
       - Kim 2020
   - predicate: inhibits
-    target: "[[MnSOD]]"
+    target: "MnSOD"
     sources:
       - Luo 2017
 created: 2026-07-04

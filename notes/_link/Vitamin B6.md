@@ -16,7 +16,7 @@ updated: 2026-07-04
 
 # Vitamin B6
 
-**Vitamin B6** refers to a group of six interconvertible compounds: [[pyridoxine]], [[pyridoxal]], [[pyridoxamine]], and their phosphorylated derivatives. The active form, [[pyridoxal 5'-phosphate]] (PLP), serves as a cofactor for over 140 enzymatic reactions.
+**Vitamin B6** refers to a group of six interconvertible compounds: [[pyridoxine]], [[pyridoxal]], [[Pyridoxamine]], and their phosphorylated derivatives. The active form, [[pyridoxal 5'-phosphate]] (PLP), serves as a cofactor for over 140 enzymatic reactions.
 
 ## Biological Functions
 
@@ -27,7 +27,7 @@ updated: 2026-07-04
 
 ## Clinical Relevance
 
-Vitamin B6 deficiency is implicated in [[COMT]] dysfunction, [[notes/_link/Depression]], [[notes/_link/Cardiovascular Disease]] (via elevated homocysteine), and [[neuroinflammation]].
+Vitamin B6 deficiency is implicated in [[COMT]] dysfunction, [[notes/_link/Depression]], [[notes/_link/Cardiovascular Disease]] (via elevated homocysteine), and [[Neuroinflammation]].
 
 ## Connections
 

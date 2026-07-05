@@ -22,4 +22,4 @@ updated: 2024-01-01
 ## Linking Summary
 - New links added: [[DNA Methylation]]
 - Suggested new entity notes to create: 
-- Strong connections to strengthen: [[CpG island]] ↔ [[DNA Methylation]]
+- Strong connections to strengthen: [[CpG Island]] ↔ [[DNA Methylation]]

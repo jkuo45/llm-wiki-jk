@@ -11,16 +11,16 @@ database_ids:
   mesh: D059350
 relations:
   - predicate: associated_with
-    target: "[[notes/_link/Cardiovascular Disease]]"
+    target: "notes/_link/Cardiovascular Disease"
     sources: ["10.1016/j.jacc.2006.07.050"]
   - predicate: associated_with
-    target: "[[Endothelial Dysfunction]]"
+    target: "Endothelial Dysfunction"
     sources: ["10.1016/j.mad.2013.04.004"]
   - predicate: treated_by
-    target: "[[notes/_link/Spermidine]]"
+    target: "notes/_link/Spermidine"
     sources: ["10.1016/j.mad.2013.04.004"]
   - predicate: caused_by
-    target: "[[notes/_link/Aging]]"
+    target: "notes/_link/Aging"
     sources: []
 created: 2026-07-04
 updated: 2026-07-04
@@ -96,5 +96,5 @@ The mechanism involves spermidine-induced de-acetylation of [[notes/_link/Histon
 ## Linking Summary
 
 - New links added: [[notes/_link/Arterial Stiffness]], [[Pulse Wave Velocity]], [[notes/_link/Mortality]], [[notes/_link/Heart Failure]], [[Elastic Fiber]], [[Maillard Reaction]]
-- Suggested new entity notes to create: [[Collagen I]], [[Matrix Metalloproteinase]], [[Arterial Calcification]], [[Pulse Pressure]], [[Vascular Smooth Muscle Cell]]
+- Suggested new entity notes to create: [[Collagen I]], [[Matrix Metalloproteinases]], [[Arterial Calcification]], [[Pulse Pressure]], [[Vascular Smooth Muscle Cell]]
 - Strong connections to strengthen: [[notes/_link/Arterial Stiffness]] ↔ [[notes/_link/Cardiovascular Disease]], [[notes/_link/Arterial Stiffness]] ↔ [[Endothelial Dysfunction]], [[notes/_link/Spermidine]] ↔ [[notes/_link/Arterial Stiffness]]

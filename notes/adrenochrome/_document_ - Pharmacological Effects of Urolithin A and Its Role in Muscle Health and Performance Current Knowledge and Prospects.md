@@ -3,14 +3,14 @@ type: document
 title: "Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance: Current Knowledge and Prospects"
 source: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10609777/"
 author:
-  - "[[Haotian Zhao]]"
-  - "[[Ge Song]]"
-  - "[[Hongkang Zhu]]"
-  - "[[He Qian]]"
-  - "[[Xinliang Pan]]"
-  - "[[Xiaoneng Song]]"
-  - "[[Yijie Xie]]"
-  - "[[Chang Liu]]"
+  - "Haotian Zhao"
+  - "Ge Song"
+  - "Hongkang Zhu"
+  - "He Qian"
+  - "Xinliang Pan"
+  - "Xiaoneng Song"
+  - "Yijie Xie"
+  - "Chang Liu"
 published:
 created: 2026-06-20
 description: "Urolithin A (UA) is a naturally occurring compound derived from the metabolism of gut microbiota, which has attracted considerable research attention due to its pharmacological effects and potential implications in muscle health and performance. ..."
@@ -87,11 +87,11 @@ Although the factors mentioned above may influence the absorption and distributi
 
 ### 4.1. Activation of Mitochondrial Autophagy and Regeneration
 
-[[Mitophagy|Mitochondrial autophagy]], also known as [[Mitophagy|mitophagy]], refers to the selective degradation of mitochondria through the autophagic process. This process typically occurs in mitochondria that are damaged or defective due to stress. Mitochondrial autophagy plays a pivotal role in maintaining cellular health by facilitating the turnover of mitochondria and preventing the accumulation of dysfunctional ones, which could otherwise lead to cellular degeneration. The regulation of mitochondrial autophagy is mediated by proteins such as [[Pink1|PINK1]] and [[Parkin]] \[[^39],[^40],[^41]\].
+[[Mitophagy|Mitochondrial autophagy]], also known as [[Mitophagy|mitophagy]], refers to the selective degradation of mitochondria through the autophagic process. This process typically occurs in mitochondria that are damaged or defective due to stress. Mitochondrial autophagy plays a pivotal role in maintaining cellular health by facilitating the turnover of mitochondria and preventing the accumulation of dysfunctional ones, which could otherwise lead to cellular degeneration. The regulation of mitochondrial autophagy is mediated by proteins such as [[PINK1|PINK1]] and [[Parkin]] \[[^39],[^40],[^41]\].
 
 Apart from its function in selectively eliminating damaged mitochondria, mitochondrial autophagy is essential for adjusting the mitochondrial population to meet changing cellular metabolic demands, ensuring mitochondrial turnover and homeostasis. Research has demonstrated that Urolithin A activates the PINK1/Parkin signaling pathway, which is involved in mitochondrial quality control. Consequently, this activation promotes the selective aggregation, degradation, and removal of damaged mitochondria \[[^42]\].
 
-Furthermore, research has illuminated Urolithin A’s capacity to enhance mitochondrial autophagy by activating the expression of glutathione S-transferases (GSTs). GSTs are pivotal detoxifying enzymes intricately related to antioxidant capacity. Urolithin A stimulates the [[Nrf2]]-[[Antioxidant Response Element|ARE]] signaling pathway, subsequently upregulating the expression of GSTs, thereby enhancing cellular autophagy and mitochondrial quality control \[[^43]\].
+Furthermore, research has illuminated Urolithin A’s capacity to enhance mitochondrial autophagy by activating the expression of glutathione S-transferases (GSTs). GSTs are pivotal detoxifying enzymes intricately related to antioxidant capacity. Urolithin A stimulates the [[NRF2]]-[[Antioxidant Response Element|ARE]] signaling pathway, subsequently upregulating the expression of GSTs, thereby enhancing cellular autophagy and mitochondrial quality control \[[^43]\].
 
 In summary, Urolithin A participates in regulating mitochondrial autophagy and quality control by activating the PINK1/Parkin and glutathione S-transferases signaling pathway.
 
@@ -177,7 +177,7 @@ PGC-1α is an important transcription coactivator that regulates mitochondrial b
 
 #### 7.2.1. FoxO Family
 
-The [[FoxO]] (forkhead box O) family is a group of transcription factors that are involved in regulating the synthesis and degradation of muscle proteins \[[^84],[^85]\]. Studies have found that Urolithin A can inhibit the degradation of muscle proteins by suppressing the activation of FoxO \[[^86]\]. This is primarily achieved by inhibiting the nuclear activity of FoxO and reducing their regulation of specific protein degradation pathways.
+The [[FOXO]] (forkhead box O) family is a group of transcription factors that are involved in regulating the synthesis and degradation of muscle proteins \[[^84],[^85]\]. Studies have found that Urolithin A can inhibit the degradation of muscle proteins by suppressing the activation of FoxO \[[^86]\]. This is primarily achieved by inhibiting the nuclear activity of FoxO and reducing their regulation of specific protein degradation pathways.
 
 #### 7.2.2. Ubiquitin-Proteasome System
 
@@ -441,6 +441,6 @@ This work was supported by the 14th five-year Education Plan of Jiangsu Province
 
 ### Linking Summary:
 
-- New links added: [[Urolithin A]], [[Ellagitannins]], [[Mitophagy]], [[Pink1]], [[Parkin]], [[Nrf2]], [[Antioxidant Response Element]], [[AMPK]], [[PPARγ]], [[Target of rapamycin]], [[PI3K]], [[Akt]], [[NF-κB]], [[FoxO]]
-- Suggested new entity notes to create: [[Urolithin A]], [[PI3K]], [[Akt]], [[PPARγ]], [[FoxO]], [[Antioxidant Response Element]], [[Target of rapamycin]]
+- New links added: [[Urolithin A]], [[Ellagitannins]], [[Mitophagy]], [[PINK1]], [[Parkin]], [[NRF2]], [[Antioxidant Response Element]], [[AMPK]], [[PPARγ]], [[Target of rapamycin]], [[PI3K]], [[Akt]], [[NF-κB]], [[FOXO]]
+- Suggested new entity notes to create: [[Urolithin A]], [[PI3K]], [[Akt]], [[PPARγ]], [[FOXO]], [[Antioxidant Response Element]], [[Target of rapamycin]]
 - Strong connections to strengthen: [[Urolithin A]] ↔ [[Mitophagy]], [[Urolithin A]] ↔ [[AMPK]]

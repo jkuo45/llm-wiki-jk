@@ -20,11 +20,11 @@ The accumulation of Maillard reaction products is a hallmark of [[Aging]] and is
 
 ## Chemical Stages
 
-The Maillard reaction is conventionally divided into three stages. **Early stage** (at temperatures >50°C or over extended periods at 37°C): condensation of the reducing sugar carbonyl with an amino group yields the [[Schiff base]], which undergoes [[Amadori rearrangement]] to form the corresponding 1-amino-1-deoxy-2-ketose (Amadori compound). This stage is reversible and does not involve color formation. **Intermediate (advanced) stage**: Amadori products degrade via enolization, dehydration, and β-elimination to yield heterocyclic [[Furfurals]], [[Reductones]], and dicarbonyl compounds ([[3-Deoxyglucosone]], [[Glyoxal]], [[Methylglyoxal]]). These intermediates participate in further condensation reactions, generating yellow fluorescent products. **Final stage**: Polymerization and crosslinking of the intermediate compounds produces brown melanoidin pigments and irreversible [[Advanced Glycation End Products]] (AGEs). The reaction rate increases exponentially with temperature (Q₁₀ ≈ 2–3) and is highly pH-dependent.
+The Maillard reaction is conventionally divided into three stages. **Early stage** (at temperatures >50°C or over extended periods at 37°C): condensation of the reducing sugar carbonyl with an amino group yields the [[Schiff base]], which undergoes [[Amadori rearrangement]] to form the corresponding 1-amino-1-deoxy-2-ketose (Amadori compound). This stage is reversible and does not involve color formation. **Intermediate (advanced) stage**: Amadori products degrade via enolization, dehydration, and β-elimination to yield heterocyclic [[Furfurals]], [[Reductones]], and dicarbonyl compounds ([[3-deoxyglucosone]], [[Glyoxal]], [[Methylglyoxal]]). These intermediates participate in further condensation reactions, generating yellow fluorescent products. **Final stage**: Polymerization and crosslinking of the intermediate compounds produces brown melanoidin pigments and irreversible [[Advanced Glycation End Products]] (AGEs). The reaction rate increases exponentially with temperature (Q₁₀ ≈ 2–3) and is highly pH-dependent.
 
 ## Flavor Compound Formation in Food
 
-In culinary contexts, the Maillard reaction generates hundreds of volatile flavor compounds. [[2-Acetyl-1-pyrroline]] (roasted, popcorn-like aroma), [[Furaneol]] (caramel-like), and [[Pyrazines]] (nutty, roasted notes) are among the most important. The specific amino acid-sugar pair governs the flavor profile: [[Cysteine]] with reducing sugars produces meaty [[Thiols]] and [[Thiophenes]]; [[Proline]] generates bread-crust and cereal aromas; [[Methionine]] yields cooked-cabbage notes. The reaction is responsible for the browning of [[Steak]] crust, [[Bread]] crust, [[Coffee]] roasting, [[Beer]] malt, and [[French fries]].
+In culinary contexts, the Maillard reaction generates hundreds of volatile flavor compounds. [[2-Acetyl-1-pyrroline]] (roasted, popcorn-like aroma), [[Furaneol]] (caramel-like), and [[Pyrazines]] (nutty, roasted notes) are among the most important. The specific amino acid-sugar pair governs the flavor profile: [[Cysteine]] with reducing sugars produces meaty [[Thiols]] and [[Thiophenes]]; [[Proline]] generates bread-crust and cereal aromas; [[Methionine]] yields cooked-cabbage notes. The reaction is responsible for the browning of Steak crust, Bread crust, Coffee roasting, Beer malt, and French fries.
 
 ## Relevance to Biological Aging
 
@@ -32,7 +32,7 @@ Under physiological conditions (37°C, neutral pH), the Maillard reaction procee
 
 ## Nutritional Implications of Dietary AGEs
 
-Dietary AGEs (dAGEs), pre-formed during high-temperature cooking (grilling, roasting, frying), are absorbed through the [[Gastrointestinal tract]] and contribute to the systemic AGE pool. Approximately 10–30% of ingested dAGEs are absorbed and only partially eliminated by the kidney. High-dAGE diets are associated with elevated serum AGE levels, increased [[Oxidative Stress]], and pro-inflammatory states. Cooking methods that reduce browning (steaming, poaching, slow cooking at lower temperatures) significantly decrease dAGE content.
+Dietary AGEs (dAGEs), pre-formed during high-temperature cooking (grilling, roasting, frying), are absorbed through the [[Gastrointestinal Tract]] and contribute to the systemic AGE pool. Approximately 10–30% of ingested dAGEs are absorbed and only partially eliminated by the kidney. High-dAGE diets are associated with elevated serum AGE levels, increased [[Oxidative Stress]], and pro-inflammatory states. Cooking methods that reduce browning (steaming, poaching, slow cooking at lower temperatures) significantly decrease dAGE content.
 
 ## Linking Summary
 
@@ -42,4 +42,4 @@ Dietary AGEs (dAGEs), pre-formed during high-temperature cooking (grilling, roas
 
 ## Updated Links
 
-- Additional new links: [[Furfurals]], [[Reductones]], [[3-Deoxyglucosone]], [[Glyoxal]], [[Methylglyoxal]], [[2-Acetyl-1-pyrroline]], [[Furaneol]], [[Pyrazines]], [[Cysteine]], [[Thiols]], [[Thiophenes]], [[Proline]], [[Methionine]], [[Steak]], [[Bread]], [[Coffee]], [[Beer]], [[French fries]], [[Collagen]], [[Elastin]], [[Lens crystallins]], [[Cataract]], [[RAGE]], [[NF-κB]], [[Vascular inflammation]], [[Gastrointestinal tract]], [[Oxidative Stress]]
+- Additional new links: [[Furfurals]], [[Reductones]], [[3-deoxyglucosone]], [[Glyoxal]], [[Methylglyoxal]], [[2-Acetyl-1-pyrroline]], [[Furaneol]], [[Pyrazines]], [[Cysteine]], [[Thiols]], [[Thiophenes]], [[Proline]], [[Methionine]], Steak, Bread, Coffee, Beer, French fries, [[Collagen]], [[Elastin]], [[Lens crystallins]], [[Cataract]], [[RAGE]], [[NF-κB]], [[Vascular inflammation]], [[Gastrointestinal Tract]], [[Oxidative Stress]]

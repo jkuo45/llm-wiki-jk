@@ -10,27 +10,27 @@ database_ids:
   hgnc: HGNC:14934
 relations:
   - predicate: regulates
-    target: "[[Base Excision Repair]]"
+    target: "Base Excision Repair"
     sources:
       - PMID:16439206
   - predicate: associated_with
-    target: "[[Premature Aging]]"
+    target: "Premature Aging"
     sources:
       - PMID:16439206
   - predicate: localises_to
-    target: "[[Heterochromatin]]"
+    target: "Heterochromatin"
     sources:
       - PMID:16079181
   - predicate: exhibits
-    target: "[[mono-ADP-ribosyl transferase activity]]"
+    target: "mono-ADP-ribosyl transferase activity"
     sources:
       - PMID:15795229
   - predicate: regulates
-    target: "[[notes/_link/Diabetes Mellitus]]"
+    target: "notes/_link/Diabetes Mellitus"
     sources:
       - s41392-022-01257-8
   - predicate: associated_with
-    target: "[[notes/_link/Inflammation]]"
+    target: "notes/_link/Inflammation"
     sources:
       - s41392-022-01257-8
 created: 2026-07-02
@@ -135,5 +135,5 @@ Like other sirtuins, SIRT6 acts as a double-edged sword in cancer depending on g
 ## 8. Linking Summary
 
 - **New Links Added**: [[SIRT7]], [[SIRT4]], [[p53]], [[notes/_link/NFKB]], [[notes/_link/Aging]], [[Base Excision Repair]], [[UBCS039]], [[MDL-801]], [[Cyanidin]], [[HIF-1α]], [[LINE-1]], [[Heterochromatin]], [[NAD+]], [[Sirtuins]], [[notes/_link/Diabetes Mellitus]], [[notes/_link/Inflammation]]
-- **Suggested New Notes to Create**: [[Base Excision Repair]], [[LINE-1]], [[PARP-1]]
+- **Suggested New Notes to Create**: [[Base Excision Repair]], [[LINE-1]], [[PARP1]]
 - **Strong Connections to Strengthen**: [[SIRT6]] ↔ [[Base Excision Repair]], [[SIRT6]] ↔ [[notes/_link/Aging]], [[SIRT6]] ↔ [[MDL-801]]

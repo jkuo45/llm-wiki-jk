@@ -10,7 +10,7 @@ database_ids:
   hgnc: HGNC:11822
 relations:
   - predicate: regulated_by
-    target: "[[SIRT1]]"
+    target: "SIRT1"
     sources:
       - Cardellini 2009
       - Federici 2013

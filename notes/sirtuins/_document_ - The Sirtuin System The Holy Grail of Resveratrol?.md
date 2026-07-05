@@ -2,8 +2,8 @@
 title: "The Sirtuin System: The Holy Grail of Resveratrol?"
 source: "https://pmc.ncbi.nlm.nih.gov/articles/PMC3613783/"
 author:
-  - "[[Dilbahar S Mohar]]"
-  - "[[Shaista Malik]]"
+  - "Dilbahar S Mohar"
+  - "Shaista Malik"
 published:
 created: 2026-07-04
 updated: 2026-07-04

@@ -36,6 +36,6 @@ ERK2 directly phosphorylates [[TFEB]] at Ser142, promoting its cytosolic retenti
 
 ### Linking Summary
 
-- New links added: [[MAPK]], [[Bmf]], [[melanoma]]
+- New links added: [[MAPK]], [[Bmf]], [[Melanoma]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[ERK2]] ↔ [[Bmf]]

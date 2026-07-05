@@ -10,7 +10,7 @@ Bak activity is regulated by [[Phosphorylation|phosphorylation]]:
 - **Inhibitory Phosphorylation (Tyr108)**: Phosphorylation at Tyr108 maintains Bak in an inactive state on the mitochondria.
 - **"Licensing" for Activation**: Bak must be dephosphorylated at Tyr108 by the **[[PTPN family]]** (primarily **PTPN5/STEP**, but also **PTPN2** and **PTPN23**) before it can be activated by BH3-only proteins.
 - **Cancer Evasion**: In cancers with hyperactive **K-RAS/ERK** signaling (e.g., [[Colon Cancer]]), **PTPN5** is inactivated, locking Bak in its inhibitory phosphorylated state and promoting drug resistance.
-- **Inhibitory Phosphorylation (Ser117)**: Can also block the Bak hydrophobic groove, preventing its activation and commitment to [[apoptosis]].
+- **Inhibitory Phosphorylation (Ser117)**: Can also block the Bak hydrophobic groove, preventing its activation and commitment to [[Apoptosis]].
 
 ## Role in Cancer
 Loss of Bak expression or function, often in combination with loss of Bax, is a common mechanism by which cancer cells evade apoptosis.

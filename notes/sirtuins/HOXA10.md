@@ -8,7 +8,7 @@ database_ids:
   hgnc: HGNC:5100
 relations:
   - predicate: interacts_with
-    target: "[[SIRT2]]"
+    target: "SIRT2"
     sources:
       - PMID:17655269
 created: 2026-07-04

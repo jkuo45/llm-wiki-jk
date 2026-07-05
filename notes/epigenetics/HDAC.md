@@ -28,5 +28,5 @@ As we age, the activity of certain HDACs can become dysregulated, leading to "ep
 
 ### Linking Summary:
 - New links added: [[HDAC]], [[Histone Deacetylase]], [[Chromatin]], [[Heterochromatin]], [[Transcription]], [[Sirtuins]], [[notes/_link/Aging]], [[Geroscience]], [[Cancer]]
-- Suggested new entity notes to create: [[HDAC Inhibitors]], [[Epigenetic Erasers]], [[NAD+]]
+- Suggested new entity notes to create: [[HDAC inhibitors]], [[Epigenetic Erasers]], [[NAD+]]
 - Strong connections to strengthen: [[HDAC]] ↔ [[Histone Deacetylase]], [[HDAC]] ↔ [[Sirtuins]]

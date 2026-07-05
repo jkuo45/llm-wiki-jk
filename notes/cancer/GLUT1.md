@@ -1,6 +1,6 @@
 # GLUT1
 
-[[GLUT1]] (Glucose transporter 1) is a uniporter protein that in humans is encoded by the [[SLC2A1]] gene. It facilitates the transport of [[glucose]] across the plasma membranes of mammalian cells.
+[[GLUT1]] (Glucose transporter 1) is a uniporter protein that in humans is encoded by the [[SLC2A1]] gene. It facilitates the transport of [[Glucose]] across the plasma membranes of mammalian cells.
 
 ## Role in Cancer
 - **Overexpression:** GLUT1 is frequently overexpressed in various cancers to meet the high demand for glucose required by the [[Warburg Effect]].
@@ -13,4 +13,4 @@
 - **Regulators:** [[HIF-1α]], [[notes/_link/p53]]
 
 ## Linking Summary
-- New links added: [[SLC2A1]], [[glucose]], [[Warburg Effect]], [[non-small-cell lung cancer]], [[Fenbendazole]], [[Glucose uptake]], [[GLUT2]], [[GLUT3]], [[GLUT4]], [[Glycolysis]], [[HIF-1α]], [[notes/_link/p53]]
+- New links added: [[SLC2A1]], [[Glucose]], [[Warburg Effect]], [[non-small-cell lung cancer]], [[Fenbendazole]], [[Glucose uptake]], [[GLUT2]], [[GLUT3]], [[GLUT4]], [[Glycolysis]], [[HIF-1α]], [[notes/_link/p53]]

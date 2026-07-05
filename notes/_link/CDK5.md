@@ -15,26 +15,26 @@ updated: 2026-07-04
 
 # CDK5
 
-**CDK5** (Cyclin-dependent kinase 5) is a proline-directed serine/threonine kinase that, despite its name, is not primarily involved in cell cycle regulation. It is activated by [[p35]] or [[p39]] and plays critical roles in neuronal development, synaptic plasticity, and [[Tau protein|Tau]] phosphorylation.
+**CDK5** (Cyclin-dependent kinase 5) is a proline-directed serine/threonine kinase that, despite its name, is not primarily involved in cell cycle regulation. It is activated by [[p35]] or [[p39]] and plays critical roles in neuronal development, synaptic plasticity, and [[Tau Protein|Tau]] phosphorylation.
 
 ## Connections
 
-- [[Tau protein]] — CDK5 hyperphosphorylates Tau in [[notes/_link/Alzheimer's Disease]]
+- [[Tau Protein]] — CDK5 hyperphosphorylates Tau in [[notes/_link/Alzheimer's Disease]]
 - [[notes/_link/Neurodegenerative Diseases]] — Dysregulated CDK5 contributes to pathology
 - [[Oxidative Stress]] — CDK5 is activated by oxidative stress
 
 ## Linking Summary
 
-- New links added: [[Tau protein]], [[notes/_link/Alzheimer's Disease]], [[notes/_link/Neurodegenerative Diseases]], [[Oxidative Stress]]
+- New links added: [[Tau Protein]], [[notes/_link/Alzheimer's Disease]], [[notes/_link/Neurodegenerative Diseases]], [[Oxidative Stress]]
 - Suggested new entity notes to create: [[p35]], [[p39]]
-- Strong connections to strengthen: [[CDK5]] ↔ [[Tau protein]]
+- Strong connections to strengthen: [[CDK5]] ↔ [[Tau Protein]]
 
 ## Content from [[cancer/Cdk5.md]]
 
 # Cdk5
-[[Cdk5]] is a kinase that regulates the pro-apoptotic function of [[Noxa]] in human [[leukemia]] cells in response to glucose levels.
+[[CDK5]] is a kinase that regulates the pro-apoptotic function of [[Noxa]] in human [[leukemia]] cells in response to glucose levels.
 
 ### Linking Summary
-- New links added: [[Cdk5]], [[Noxa]], [[leukemia]], [[Phosphorylation]]
+- New links added: [[CDK5]], [[Noxa]], [[leukemia]], [[Phosphorylation]]
 - Suggested new entity notes to create:
-- Strong connections to strengthen: [[Cdk5]] ↔ [[Noxa]]
+- Strong connections to strengthen: [[CDK5]] ↔ [[Noxa]]

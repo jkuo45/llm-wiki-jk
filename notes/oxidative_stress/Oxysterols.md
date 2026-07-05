@@ -8,7 +8,7 @@ updated: 2026-07-04
 
 # Oxysterols
 
-**Oxysterols** are oxygenated derivatives of [[Cholesterol]] formed either enzymatically (via cytochrome P450 enzymes like CYP27A1, CYP46A1, CYP7A1) or non-enzymatically by [[reactive oxygen species]] yielding over 30 distinct species including [[7-Ketocholesterol]], [[7β-hydroxycholesterol]], and [[25-hydroxycholesterol]].
+**Oxysterols** are oxygenated derivatives of [[Cholesterol]] formed either enzymatically (via cytochrome P450 enzymes like CYP27A1, CYP46A1, CYP7A1) or non-enzymatically by [[Reactive Oxygen Species]] yielding over 30 distinct species including [[7-Ketocholesterol]], [[7β-hydroxycholesterol]], and [[25-hydroxycholesterol]].
 
 ## Biological Functions
 

@@ -10,7 +10,7 @@ database_ids:
   hgnc: HGNC:15851
 relations:
   - predicate: expression_regulated_by
-    target: "[[SIRT6]]"
+    target: "SIRT6"
     sources:
       - Wang 2020
       - Liu 2021

@@ -14,6 +14,6 @@ Serum- and glucocorticoid-induced protein kinase 1 (SGK1) is a member of the AGC
 SGK1 is phosphorylated by [[mTORC2]] (S422) and [[PDK1]] (T256). It regulates ion transport, cell survival, and [[Autophagy]].
 
 ### Linking Summary:
-- New links added: [[mTORC2]], [[notes/_link/Akt|AKT]], [[cell survival]], [[FOXO1]], [[FOXO3a]]
+- New links added: [[mTORC2]], [[notes/_link/Akt|AKT]], [[cell survival]], [[FoxO1]], [[FOXO3a]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[SGK1]] ↔ [[mTORC2]]

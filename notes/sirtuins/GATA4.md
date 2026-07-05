@@ -10,11 +10,11 @@ database_ids:
   hgnc: HGNC:4173
 relations:
   - predicate: deacetylates
-    target: "[[GATA4]]"
+    target: "GATA4"
     sources:
       - Yamamura 2020
   - predicate: ameliorates
-    target: "[[Cardiac Hypertrophy]]"
+    target: "Cardiac Hypertrophy"
     sources:
       - Yamamura 2020
 created: 2026-07-04

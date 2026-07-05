@@ -8,11 +8,11 @@ database_ids:
   pubchem: 3105
 relations:
   - predicate: inhibits
-    target: "[[SIRT2]]"
+    target: "SIRT2"
     sources:
       - s41392-022-01257-8
   - predicate: regulates
-    target: "[[FOXO3a]]"
+    target: "FOXO3a"
     sources:
       - s41392-022-01257-8
 created: 2026-07-03

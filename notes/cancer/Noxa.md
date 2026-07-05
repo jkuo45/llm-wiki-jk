@@ -7,7 +7,7 @@ Noxa is a transcriptional target of [[p53]]. It functions by selectively binding
 
 ## Regulation
 The pro-apoptotic function of Noxa is regulated by several kinases through [[Phosphorylation|phosphorylation]]:
-- **[[Cdk5]]**: Regulates Noxa in human [[leukemia]] cells in response to glucose levels.
+- **[[CDK5]]**: Regulates Noxa in human [[leukemia]] cells in response to glucose levels.
 - **[[GSK3]] / [[JNK]]**: Can also modulate Noxa stability or activity.
 
 ## Role in Cancer
@@ -18,9 +18,9 @@ Noxa is involved in the apoptotic response to chemotherapy and its downregulatio
 - [[p53]]: Noxa expression is induced by p53.
 - [[Mcl-1]]: The primary target of Noxa.
 - [[Intrinsic Pathway]]: Facilitates mitochondrial-mediated death.
-- [[Cdk5]]: Regulates Noxa activity.
+- [[CDK5]]: Regulates Noxa activity.
 
 ### Linking Summary:
-- New links added: [[Cdk5]], [[GSK3]], [[JNK]], [[Phosphorylation]], [[leukemia]]
+- New links added: [[CDK5]], [[GSK3]], [[JNK]], [[Phosphorylation]], [[leukemia]]
 - Suggested new entity notes to create:
-- Strong connections to strengthen: [[Noxa]] ↔ [[Mcl-1]], [[Noxa]] ↔ [[Cdk5]]
+- Strong connections to strengthen: [[Noxa]] ↔ [[Mcl-1]], [[Noxa]] ↔ [[CDK5]]

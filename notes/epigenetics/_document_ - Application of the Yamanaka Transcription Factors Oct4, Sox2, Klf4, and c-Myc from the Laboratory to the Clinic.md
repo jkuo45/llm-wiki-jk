@@ -2,19 +2,19 @@
 title: "Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic"
 source: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10531188/"
 author:
-  - "[[Marisol Aguirre]]"
-  - "[[Manuela Escobar]]"
-  - "[[Sebastián Forero Amézquita]]"
-  - "[[David Cubillos]]"
-  - "[[Camilo Rincón]]"
-  - "[[Paula Vanegas]]"
-  - "[[María Paula Tarazona]]"
-  - "[[Sofía Atuesta Escobar]]"
-  - "[[Juan Camilo Blanco]]"
-  - "[[Luis Gustavo Celis]]"
+  - "Marisol Aguirre"
+  - "Manuela Escobar"
+  - "Sebastián Forero Amézquita"
+  - "David Cubillos"
+  - "Camilo Rincón"
+  - "Paula Vanegas"
+  - "María Paula Tarazona"
+  - "Sofía Atuesta Escobar"
+  - "Juan Camilo Blanco"
+  - "Luis Gustavo Celis"
 published:
 created: 2026-05-13
-description: "The transcription factors [[Oct4]], [[Sox2]], [[Klf4]], and [[c-Myc]] enable the [[Cellular Reprogramming|reprogramming]] of [[Somatic Cells]] into [[Induced Pluripotent Stem Cells|induced pluripotent cells]]. Reprogramming generates newly differentiated cells for potential therapies in [[notes/_link/Cancer]], [[notes/_link/Neurodegenerative Diseases]], and rejuvenation processes."
+description: "The transcription factors Oct4, Sox2, Klf4, and c-Myc enable the reprogramming of Somatic Cells into induced pluripotent cells. Reprogramming generates newly differentiated cells for potential therapies in notes/_link/Cancer, notes/_link/Neurodegenerative Diseases, and rejuvenation processes."
 tags:
   - "clippings"
 ---

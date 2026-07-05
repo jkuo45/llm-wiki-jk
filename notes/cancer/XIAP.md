@@ -10,11 +10,11 @@ XIAP directly binds to and inhibits both initiator and executioner caspases:
 ## Regulation
 XIAP levels and activity are regulated by several mechanisms:
 - **[[Phosphorylation]]**:
-    - **[[AKT]]**: Phosphorylates XIAP at Ser87, which stabilizes the protein by inhibiting its autoubiquitination.
-    - **[[TBK1]] / [[IKKε]]**: Phosphorylate XIAP at **Ser430** in the RING domain (e.g., during viral infection). This triggers **Lys48-linked autoubiquitination** (specifically at **Lys322** and **Lys328**) and rapid proteasomal degradation, sensitizing the cell to [[apoptosis]].
+    - **[[Akt]]**: Phosphorylates XIAP at Ser87, which stabilizes the protein by inhibiting its autoubiquitination.
+    - **[[TBK1]] / [[IKKε]]**: Phosphorylate XIAP at **Ser430** in the RING domain (e.g., during viral infection). This triggers **Lys48-linked autoubiquitination** (specifically at **Lys322** and **Lys328**) and rapid proteasomal degradation, sensitizing the cell to [[Apoptosis]].
     - **IRF3 Interaction**: Phosphorylation at Ser430 also facilitates an interaction with **IRF3**, potentially promoting IRF3-Bax-mediated cell death.
-- **MicroRNAs**: [[XIAP]] expression is downregulated by [[miR-24]] and [[miR-7]], which reduces the [[apoptosis]] threshold in cancer cells.
-- **[[Smac-DIABLO]]**: An endogenous antagonist that binds to XIAP and relieves its inhibition of [[caspases]].
+- **MicroRNAs**: [[XIAP]] expression is downregulated by [[miR-24]] and [[miR-7]], which reduces the [[Apoptosis]] threshold in cancer cells.
+- **[[Smac-DIABLO]]**: An endogenous antagonist that binds to XIAP and relieves its inhibition of [[Caspases]].
 
 ## Role in Cancer
 - **Therapeutic Target**: XIAP is an attractive molecular target due to its broad inhibition of apoptotic pathways.
@@ -24,11 +24,11 @@ XIAP levels and activity are regulated by several mechanisms:
 ## Connections
 - [[Inhibitor of Apoptosis Proteins]]: The most potent member of the family.
 - [[Caspase-3]] / [[Caspase-9]]: Directly inhibited by XIAP.
-- [[AKT]]: Stabilizes XIAP through phosphorylation.
+- [[Akt]]: Stabilizes XIAP through phosphorylation.
 - [[Smac-DIABLO]]: Endogenous XIAP antagonist.
 - [[TRAIL]]: XIAP antagonists enhance TRAIL-induced apoptosis.
 
 ### Linking Summary:
-- New links added: [[AKT]], [[Phosphorylation]], [[apoptosis]], [[Smac-DIABLO]]
+- New links added: [[Akt]], [[Phosphorylation]], [[Apoptosis]], [[Smac-DIABLO]]
 - Suggested new entity notes to create: [[IKKε]], [[miR-24]], [[miR-7]]
-- Strong connections to strengthen: [[XIAP]] ↔ [[Caspase-3]], [[XIAP]] ↔ [[AKT]]
+- Strong connections to strengthen: [[XIAP]] ↔ [[Caspase-3]], [[XIAP]] ↔ [[Akt]]

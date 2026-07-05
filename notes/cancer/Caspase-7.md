@@ -7,7 +7,7 @@ Caspase-7 is activated by initiator caspases, such as [[Caspase-8]] (from the [[
 
 ## Regulation
 - **IAPs**: [[XIAP]] and other [[Inhibitor of Apoptosis Proteins]] can directly bind and inhibit active Caspase-7.
-- **[[PAK2]]**: Phosphorylates Caspase-7 at **Ser30**, **Thr173**, and **Ser239**, which suppresses its activity, particularly in [[breast cancer]] cells.
+- **[[PAK2]]**: Phosphorylates Caspase-7 at **Ser30**, **Thr173**, and **Ser239**, which suppresses its activity, particularly in [[Breast Cancer]] cells.
     - **Ser30**: Prevents activation by [[Caspase-9]].
     - **Ser239**: Sterically hinders substrate binding in the active enzyme.
 - **Smac/DIABLO**: Relieves IAP-mediated inhibition of Caspase-7.
@@ -20,7 +20,7 @@ Caspase-7 is activated by initiator caspases, such as [[Caspase-8]] (from the [[
 - [[Intrinsic Pathway]] / [[Extrinsic Pathway]]: Converge on Caspase-7 activation.
 
 ### Linking Summary:
-- New links added: [[PAK2]], [[breast cancer]], [[Caspase-3]]
+- New links added: [[PAK2]], [[Breast Cancer]], [[Caspase-3]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[Caspase-7]] ↔ [[XIAP]], [[Caspase-7]] ↔ [[PAK2]]
 

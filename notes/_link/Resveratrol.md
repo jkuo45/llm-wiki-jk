@@ -10,19 +10,19 @@ database_ids:
   pubchem: 445154
 relations:
   - predicate: activates
-    target: "[[SIRT1]]"
+    target: "SIRT1"
     sources:
       - PMID:12939617
   - predicate: extends_lifespan_in
-    target: "[[Sir2 (yeast)]]"
+    target: "Sir2 (yeast)"
     sources:
       - PMID:12939617
   - predicate: mimics
-    target: "[[notes/_link/Caloric Restriction]]"
+    target: "notes/_link/Caloric Restriction"
     sources:
       - PMID:15254550
   - predicate: activates
-    target: "[[PGC-1α]]"
+    target: "PGC-1α"
     sources:
       - PMID:17112576
 created: 2026-07-04

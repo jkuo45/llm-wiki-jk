@@ -3,7 +3,7 @@
 Pyroptosis is a type of inflammatory cell death induced by inflammasomes. It is characterized by cell swelling and rupturing, leading to the release of proinflammatory cytokines.
 
 ## Mechanism
-Pyroptosis is initiated by the assembly of inflammasomes, which typically contain a pattern recognition receptor (PRR), [[ASC]], and pro-caspase-1. This leads to the activation of [[caspase-1]], which:
+Pyroptosis is initiated by the assembly of inflammasomes, which typically contain a pattern recognition receptor (PRR), [[ASC]], and pro-caspase-1. This leads to the activation of [[Caspase-1]], which:
 - Cleaves pro-IL-1β and pro-IL-18 into their mature forms.
 - Cleaves [[GSDMD]] (Gasdermin D), which forms pores in the plasma membrane, executing pyroptosis.
 

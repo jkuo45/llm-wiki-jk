@@ -12,15 +12,15 @@ database_ids:
   hgnc: HGNC:16729
 relations:
   - predicate: activated_by
-    target: "[[cAMP]]"
+    target: "cAMP"
     sources:
       - Park 2012
   - predicate: triggers
-    target: "[[Ca2+]] release"
+    target: "Ca2+ release"
     sources:
       - Park 2012
   - predicate: upstream_of
-    target: "[[AMPK]]"
+    target: "AMPK"
     sources:
       - Park 2012
 created: 2026-07-04

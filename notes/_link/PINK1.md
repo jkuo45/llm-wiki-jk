@@ -26,7 +26,7 @@ When mitochondria lose their membrane potential (Δψₘ) due to damage, toxin e
 
 ## Kinase Activity and Substrates
 
-Active Pink1 phosphorylates both [[Ubiquitin]] and [[Parkin]] at Ser65, a residue within the conserved β-grasp fold of ubiquitin. Phosphoubiquitin (pUb) binding to Parkin's RING1 domain releases its autoinhibited conformation. Pink1 also phosphorylates ubiquitin chains pre-existing on mitochondrial proteins, creating a feed-forward amplification loop for Parkin recruitment. Beyond the Pink1-Parkin axis, Pink1 phosphorylates [[Mitochondrial complex I]] subunits (e.g., [[NDUFA10]]), [[TRAP1]] (a mitochondrial heat shock protein), and [[HtrA2/Omi]], regulating bioenergetic efficiency and [[Mitochondrial Unfolded Protein Response|UPRᵐᵗ]] activation.
+Active Pink1 phosphorylates both [[Ubiquitin]] and [[Parkin]] at Ser65, a residue within the conserved β-grasp fold of ubiquitin. Phosphoubiquitin (pUb) binding to Parkin's RING1 domain releases its autoinhibited conformation. Pink1 also phosphorylates ubiquitin chains pre-existing on mitochondrial proteins, creating a feed-forward amplification loop for Parkin recruitment. Beyond the Pink1-Parkin axis, Pink1 phosphorylates [[Mitochondrial Complex I]] subunits (e.g., [[NDUFA10]]), [[TRAP1]] (a mitochondrial heat shock protein), and [[HtrA2/Omi]], regulating bioenergetic efficiency and [[Mitochondrial Unfolded Protein Response|UPRᵐᵗ]] activation.
 
 ## Role in Mitophagy Initiation
 
@@ -34,7 +34,7 @@ Pink1 acts as the gatekeeper of [[Mitophagy]] by converting a general signal (Δ
 
 ## Mutations in Parkinson's Disease
 
-Over 50 pathogenic mutations in [[PINK1]] cause autosomal recessive early-onset [[Parkinson's Disease]], the second most common genetic cause after [[PARK2]]. Mutations cluster in the kinase domain, impairing catalytic activity and preventing downstream Parkin activation. Loss of Pink1 function recapitulates hallmark Parkinsonian phenotypes, including mitochondrial fragmentation, impaired [[Complex I]] activity, increased sensitivity to [[Reactive Oxygen Species|ROS]], and selective [[Dopaminergic_Neurons]] degeneration.
+Over 50 pathogenic mutations in [[PINK1]] cause autosomal recessive early-onset [[Parkinson's Disease]], the second most common genetic cause after [[PARK2]]. Mutations cluster in the kinase domain, impairing catalytic activity and preventing downstream Parkin activation. Loss of Pink1 function recapitulates hallmark Parkinsonian phenotypes, including mitochondrial fragmentation, impaired [[Complex I]] activity, increased sensitivity to [[Reactive Oxygen Species|ROS]], and selective [[Dopaminergic Neurons]] degeneration.
 
 ## Connection to Adrenochrome Pathway and Aging
 
@@ -60,4 +60,4 @@ PINK1 is constitutively imported into mitochondria and cleaved by [[PARL]]; loss
 ### Linking Summary:
 - New links added: [[Parkin]], [[Mitophagy]]
 - Suggested new entity notes to create: 
-- Strong connections to strengthen: [[Pink1]] ↔ [[Parkin]]
+- Strong connections to strengthen: [[PINK1]] ↔ [[Parkin]]

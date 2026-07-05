@@ -11,12 +11,12 @@ database_ids:
   hgnc: HGNC:644
 relations:
   - predicate: deacetylated_by
-    target: "[[SIRT1]]"
+    target: "SIRT1"
     sources:
       - Dai 2007
       - Fu 2006
   - predicate: repressed_by
-    target: "[[SIRT1]]"
+    target: "SIRT1"
     sources:
       - Dai 2007
 created: 2026-07-04
@@ -45,11 +45,11 @@ Anti-androgen therapies (e.g., enzalutamide, abiraterone) are first-line treatme
 - [[Prostate Cancer]] — Malignancy driven by AR signalling; SIRT1-mediated AR deacetylation suppresses tumour progression
 - [[Lys630]] — Critical acetylation site on AR targeted by SIRT1
 - [[NAD+]] — Required co-substrate for SIRT1 deacetylase activity
-- [[p300]] — Transcriptional coactivator that acetylates AR; antagonized by SIRT1
+- [[P300]] — Transcriptional coactivator that acetylates AR; antagonized by SIRT1
 - [[Resveratrol]] — SIRT1 activator shown to suppress AR activity in prostate cancer cell lines
 
 ## Linking Summary
 
-- New links added: [[Androgen receptor]], [[Lys630]], [[Prostate Cancer]], [[p300]]
+- New links added: [[Androgen receptor]], [[Lys630]], [[Prostate Cancer]], [[P300]]
 - Suggested new entity notes to create: [[Enzalutamide]], [[Abiraterone]], [[CBP/p300]]
 - Strong connections to strengthen: [[SIRT1]] ↔ [[Androgen receptor]]

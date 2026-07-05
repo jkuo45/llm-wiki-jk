@@ -20,4 +20,4 @@ During hypoxia, the electron transport chain becomes reduced (accumulating elect
 
 ## Clinical Relevance
 
-Hypoxia-reoxygenation is the molecular basis of [[notes/_link/Ischemia-reperfusion Injury]] in [[Myocardial Infarction|myocardial infarction]], [[cerebral stroke]], [[Chronic Obstructive Pulmonary Disease|organ transplantation]], and [[Rheumatoid Arthritis|rheumatoid arthritis]] (reoxygenation of ischemic synovium produces ROS burst analogous to ischemia-reperfusion injury).
+Hypoxia-reoxygenation is the molecular basis of [[notes/_link/Ischemia-reperfusion Injury]] in [[Myocardial infarction|myocardial infarction]], [[cerebral stroke]], [[Chronic Obstructive Pulmonary Disease|organ transplantation]], and [[Rheumatoid Arthritis|rheumatoid arthritis]] (reoxygenation of ischemic synovium produces ROS burst analogous to ischemia-reperfusion injury).

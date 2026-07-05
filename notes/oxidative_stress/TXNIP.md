@@ -15,8 +15,8 @@ updated: 2026-07-04
 
 ## Mechanism
 
-Under basal conditions, TXNIP is sequestered by binding to reduced [[Thioredoxin]] (TRX). Oxidative stress oxidizes TRX at its active-site cysteines (Cys32, Cys35), releasing TXNIP. Free TXNIP then translocates to the [[NLRP3 inflammasome]], where it directly binds NLRP3 and triggers ASC oligomerization, caspase-1 activation, and [[IL-1b|IL-1β]]/IL-18 maturation. TXNIP is transcriptionally induced by glucose via [[ChREBP]]/[[MondoA]] factors, linking [[notes/_link/Diabetes Mellitus|hyperglycemia]] to IL-1β production in pancreatic β-cells.
+Under basal conditions, TXNIP is sequestered by binding to reduced [[Thioredoxin]] (TRX). Oxidative stress oxidizes TRX at its active-site cysteines (Cys32, Cys35), releasing TXNIP. Free TXNIP then translocates to the [[NLRP3 Inflammasome]], where it directly binds NLRP3 and triggers ASC oligomerization, caspase-1 activation, and [[IL-1b|IL-1β]]/IL-18 maturation. TXNIP is transcriptionally induced by glucose via [[ChREBP]]/[[MondoA]] factors, linking [[notes/_link/Diabetes Mellitus|hyperglycemia]] to IL-1β production in pancreatic β-cells.
 
 ## Clinical Significance
 
-TXNIP is implicated in [[notes/_link/Diabetes Mellitus|type 2 diabetes]] (β-cell dysfunction), [[cardiovascular disease]] (endothelial NLRP3 activation), [[Neurodegeneration|neurodegeneration]] (microglial inflammasome activation), and [[kidney disease]]. TXNIP deletion in mice protects from diet-induced obesity, insulin resistance, and hepatic steatosis. [[Verapamil]] (a calcium channel blocker) inhibits TXNIP transcription and is being investigated as a TXNIP-targeting therapy.
+TXNIP is implicated in [[notes/_link/Diabetes Mellitus|type 2 diabetes]] (β-cell dysfunction), [[Cardiovascular Disease]] (endothelial NLRP3 activation), [[Neurodegeneration|neurodegeneration]] (microglial inflammasome activation), and [[kidney disease]]. TXNIP deletion in mice protects from diet-induced obesity, insulin resistance, and hepatic steatosis. [[Verapamil]] (a calcium channel blocker) inhibits TXNIP transcription and is being investigated as a TXNIP-targeting therapy.

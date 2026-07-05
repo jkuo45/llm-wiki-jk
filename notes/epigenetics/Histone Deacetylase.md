@@ -28,5 +28,5 @@ As organisms age, the levels and activity of various HDACs change, contributing 
 
 ### Linking Summary:
 - New links added: [[Histone Deacetylase]], [[Chromatin]], [[Heterochromatin]], [[notes/_link/Aging]], [[Sirtuins]], [[notes/_link/Caloric Restriction]], [[Cancer]], [[Geroscience]], [[Histone Acetyltransferase]], [[Epigenome]], [[HDAC]], [[Histone Acetylation]]
-- Suggested new entity notes to create: [[NAD+]], [[HDAC Inhibitors]], [[Epigenetic Erasers]]
+- Suggested new entity notes to create: [[NAD+]], [[HDAC inhibitors]], [[Epigenetic Erasers]]
 - Strong connections to strengthen: [[Histone Deacetylase]] ↔ [[Sirtuins]], [[Histone Deacetylase]] ↔ [[Histone Acetyltransferase]]

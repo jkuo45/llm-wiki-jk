@@ -49,7 +49,7 @@ In COPD, oxidative stress is markedly increased due to both exogenous sources (c
 - **[[Cigarette smoke]]**: Contains >10¹⁵ free radicals per puff, including:
   - **Tar-phase radicals**: Semiquinone radicals that reduce O₂ to O₂⁻• via redox cycling
   - **Gas-phase radicals**: [[Hydroxyl Radicals|•OH]], [[Nitric Oxide Synthase|•NO]], alkyl radicals, [[Hydroperoxides]]
-  - **Transition metals**: Fe, Cu (catalytic for [[Fenton reaction|Fenton chemistry]])
+  - **Transition metals**: Fe, Cu (catalytic for [[Fenton Reaction|Fenton chemistry]])
   - **Aldehydes**: [[Malondialdehyde|Acrolein]], 4-HNE, formaldehyde
 - **Air pollution**: [[Particulate matter]] (PM₂.₅), ozone, diesel exhaust particles
 - **Occupational exposures**: Silica, coal dust, cadmium
@@ -63,7 +63,7 @@ In COPD, oxidative stress is markedly increased due to both exogenous sources (c
 - **[[notes/_link/Mitochondrial Dysfunction]]**:
   - Impaired [[Electron Transport Chain]] complexes I and III in COPD lung cells
   - Increased [[notes/_link/Mitophagy]] and mitochondrial ROS (mtROS) production
-  - Reduced [[Mitochondrial biogenesis]] (PGC-1α downregulation)
+  - Reduced [[Mitochondrial Biogenesis]] (PGC-1α downregulation)
 - **[[Xanthine Oxidase]]**: Increased activity in COPD plasma; converts hypoxanthine/xanthine to O₂⁻• and uric acid
 - **[[notes/_link/Uncoupled eNOS]]**: Endothelial NOS in pulmonary vessels produces O₂⁻• instead of [[notes/_link/Nitric Oxide]] (NO) when BH₄ is oxidized
 
@@ -97,7 +97,7 @@ HOCl directly induces mucus cross-linking, increasing sputum viscosity.
 Oxidative modifications generate **neoepitopes**:
 - **Carbonylated proteins**: Recognized as damage-associated molecular patterns (DAMPs)
 - **3-Nitrotyrosine**: Elevated in COPD lung tissue; anti-3-NT antibodies are elevated in ~30% of COPD patients
-- **Elastin fragments**: Oxidized elastin peptides activate [[notes/_link/Toll-like Receptor|TLR4]] and promote [[Matrix metalloproteinase|MMP-9]] release
+- **Elastin fragments**: Oxidized elastin peptides activate [[notes/_link/Toll-like Receptor|TLR4]] and promote [[Matrix Metalloproteinases|MMP-9]] release
 
 ## Defective Antioxidant Defenses in COPD
 

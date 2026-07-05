@@ -20,7 +20,7 @@ The proteostasis network ensures that proteins are correctly folded and that dam
 A decline in proteostasis capacity is a hallmark of [[notes/_link/Aging]]. When the network is overwhelmed, misfolded proteins can aggregate, leading to "proteotoxicity."
 
 In [[notes/_link/Neurodegenerative Diseases|Neurodegenerative Disease]], the failure of proteostasis is central to pathogenesis:
-- **[[notes/_link/Parkinson's Disease]]**: Aggregation of [[Alpha-Synuclein]] into [[Lewy Bodies]] is linked to impaired [[Autophagy]] and UPS function.
+- **[[notes/_link/Parkinson's Disease]]**: Aggregation of [[Alpha-synuclein]] into [[Lewy Bodies]] is linked to impaired [[Autophagy]] and UPS function.
 - **[[notes/_link/Alzheimer's Disease]]**: Characterized by the accumulation of amyloid-beta plaques and tau tangles.
 
 ## Interaction with Neuromelanin
@@ -33,6 +33,6 @@ In the [[notes/_link/Substantia Nigra]], [[Neuromelanin]] serves as a storage si
 - **[[Endoplasmic reticulum stress|Endoplasmic Reticulum Stress]]**: Occurs when the folding capacity of the ER is exceeded.
 
 ### Linking Summary:
-- New links added: [[Ubiquitin-proteasome system]], [[Autophagy]], [[notes/_link/Aging]], [[notes/_link/Neurodegenerative Diseases|Neurodegenerative Disease]], [[notes/_link/Parkinson's Disease]], [[Alpha-Synuclein]], [[Lewy Bodies]], [[notes/_link/Alzheimer's Disease]], [[notes/_link/Substantia Nigra]], [[Neuromelanin]], [[Oxidative Stress]], [[Endoplasmic reticulum stress|Endoplasmic Reticulum Stress]]
-- Suggested new entity notes to create: [[Endoplasmic Reticulum Stress]]
+- New links added: [[Ubiquitin-proteasome system]], [[Autophagy]], [[notes/_link/Aging]], [[notes/_link/Neurodegenerative Diseases|Neurodegenerative Disease]], [[notes/_link/Parkinson's Disease]], [[Alpha-synuclein]], [[Lewy Bodies]], [[notes/_link/Alzheimer's Disease]], [[notes/_link/Substantia Nigra]], [[Neuromelanin]], [[Oxidative Stress]], [[Endoplasmic reticulum stress|Endoplasmic Reticulum Stress]]
+- Suggested new entity notes to create: [[Endoplasmic reticulum stress]]
 - Strong connections to strengthen: [[Proteostasis]] ↔ [[Autophagy]]

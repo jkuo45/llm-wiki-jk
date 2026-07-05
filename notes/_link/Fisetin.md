@@ -7,16 +7,16 @@ database_ids:
   mesh: D017604
 relations:
   - predicate: metabolized_by
-    target: "[[COMT]]"
+    target: "COMT"
     sources: []
   - predicate: inhibits
-    target: "[[COMT]]"
+    target: "COMT"
     sources: []
   - predicate: associated_with
-    target: "[[notes/_link/Senescence]]"
+    target: "notes/_link/Senescence"
     sources: []
   - predicate: induces
-    target: "[[Senomorphics]]"
+    target: "Senomorphics"
     sources: []
 created: 2026-05-25
 updated: 2026-07-04

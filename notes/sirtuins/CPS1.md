@@ -8,7 +8,7 @@ database_ids:
   mesh: D002221
 relations:
   - predicate: associated_with
-    target: "[[SIRT5]]"
+    target: "SIRT5"
     sources: [doi:10.1016/j.cell.2011.10.025]
     created: 2026-07-03
     updated: 2026-07-03
@@ -42,5 +42,5 @@ In the mitochondria, CPS1 activity is highly regulated by post-translational mod
 
 ## Linking Summary:
 - New links added: [[SIRT5]], [[NAD+]], [[notes/_link/ATP]]
-- Suggested new entity notes to create: [[Ornithine Transcarbamylase]], [[N-Acetylglutamate]]
+- Suggested new entity notes to create: [[Ornithine transcarbamylase]], [[N-Acetylglutamate]]
 - Strong connections to strengthen: [[CPS1]] ↔ [[SIRT5]]

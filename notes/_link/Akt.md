@@ -23,7 +23,7 @@ updated: 2026-05-29
 ## Role in Autophagy Inhibition
 - The activation of Akt by growth factors (like insulin and [[IGF1]]) is a major inhibitory signal for [[Autophagy]].
 - Akt activates [[mTORC1]], a master suppressor of autophagy.
-- Akt also phosphorylates [[FOXO1|FOXO]] transcription factors (like [[FOXO1]] and [[FOXO3a]]), leading to their nuclear exclusion and suppression of autophagy-related gene expression.
+- Akt also phosphorylates [[FoxO1|FOXO]] transcription factors (like [[FoxO1]] and [[FOXO3a]]), leading to their nuclear exclusion and suppression of autophagy-related gene expression.
 
 
 ## Relationship with Cancer
@@ -31,8 +31,8 @@ updated: 2026-05-29
 
 
 ## Linking Summary:
-- New links added: [[notes/_link/PI3K]], [[IGF1]], [[Autophagy]], [[mTORC1]], [[FOXO1]], [[FOXO3a]], [[Cancer]]
-- Suggested new entity notes to create: [[notes/_link/PI3K]], [[IGF1]], [[mTORC1]], [[FOXO1]], [[FOXO3a]]
+- New links added: [[notes/_link/PI3K]], [[IGF1]], [[Autophagy]], [[mTORC1]], [[FoxO1]], [[FOXO3a]], [[Cancer]]
+- Suggested new entity notes to create: [[notes/_link/PI3K]], [[IGF1]], [[mTORC1]], [[FoxO1]], [[FOXO3a]]
 - Strong connections to strengthen: [[notes/_link/Akt]] ↔ [[notes/_link/PI3K]], [[notes/_link/Akt]] ↔ [[mTORC1]], [[notes/_link/Akt]] ↔ [[Autophagy]]
 
 ## Connections
@@ -42,8 +42,8 @@ updated: 2026-05-29
 - [[Ivermectin]]: Inhibits the Akt pathway, often through the degradation of [[PAK1]].
 
 ### Linking Summary:
-- New links added: [[Autophagy]], [[Cancer]], [[FOXO1]], [[FOXO3a]], [[IGF1]], [[notes/_link/PI3K]], [[mTORC1]]
-- Suggested new entity notes to create: [[FOXO1]], [[FOXO3a]], [[IGF1]], [[notes/_link/PI3K]], [[mTORC1]]
+- New links added: [[Autophagy]], [[Cancer]], [[FoxO1]], [[FOXO3a]], [[IGF1]], [[notes/_link/PI3K]], [[mTORC1]]
+- Suggested new entity notes to create: [[FoxO1]], [[FOXO3a]], [[IGF1]], [[notes/_link/PI3K]], [[mTORC1]]
 - Strong connections to strengthen: [[notes/_link/Akt]] ↔ [[Autophagy]], [[notes/_link/Akt]] ↔ [[notes/_link/PI3K]], [[notes/_link/Akt]] ↔ [[mTORC1]]
 
 
@@ -69,9 +69,9 @@ Protein kinase B (Akt) is a serine/threonine-specific protein kinase that plays 
 
 ### Linking Summary:
 
-- New links added: [[PI3K]], [[Target of rapamycin]], [[FoxO]]
+- New links added: [[PI3K]], [[Target of rapamycin]], [[FOXO]]
 - Suggested new entity notes to create: 
-- Strong connections to strengthen: [[Akt]] ↔ [[Target of rapamycin]], [[Akt]] ↔ [[FoxO]]
+- Strong connections to strengthen: [[Akt]] ↔ [[Target of rapamycin]], [[Akt]] ↔ [[FOXO]]
 
 ## Content from [[cancer/AKT.md]]
 

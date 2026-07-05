@@ -19,7 +19,7 @@ Tau proteins are proteins that perform the function of stabilizing microtubules,
 ### Linking Summary:
 - New links added: [[notes/_link/Alzheimer's Disease]]
 - Suggested new entity notes to create: [[Microtubule]], [[Neurofibrillary tangles]]
-- Strong connections to strengthen: [[Tau protein]] ↔ [[notes/_link/Alzheimer's Disease]]
+- Strong connections to strengthen: [[Tau Protein]] ↔ [[notes/_link/Alzheimer's Disease]]
 
 ## Oxidative Stress and Tau Pathology
 
@@ -31,18 +31,18 @@ Tau protein itself is subject to multiple oxidative post-translational modificat
 * **Cysteine oxidation**: Tau contains two cysteine residues (Cys291 and Cys322). Under oxidizing conditions, intermolecular disulfide bridge formation between Cys322 residues promotes tau dimerization — a critical nucleation step for aggregation. In the reducing environment maintained by [[notes/_link/Glutathione]], Cys residues are kept reduced, preventing dimerization.
 * **Methionine sulfoxidation**: Tau's methionine residues (Met) are oxidized to [[methionine sulfoxide]] (MetO) by ROS. MetO formation in the microtubule-binding repeat region alters tau conformation and impairs microtubule binding.
 * **4-Hydroxynonenal adduction**: The lipid peroxidation product [[4-Hydroxynonenal]] (4-HNE) forms covalent Michael adducts with tau's cysteine and lysine residues, promoting tau oligomerization and inhibiting proteasomal degradation. 4-HNE-modified tau accumulates in [[Neurofibrillary tangles]] in [[notes/_link/Alzheimer's Disease]].
-* **Tyrosine nitration**: [[Peroxynitrite]] (ONOO⁻) nitrates tau at Tyr18, Tyr29, and Tyr394, generating [[3-nitrotyrosine]]. Nitration impairs tau-microtubule interaction and enhances PHF formation.
+* **Tyrosine nitration**: [[Peroxynitrite]] (ONOO⁻) nitrates tau at Tyr18, Tyr29, and Tyr394, generating [[3-Nitrotyrosine]]. Nitration impairs tau-microtubule interaction and enhances PHF formation.
 
 ### Tau and Mitochondrial Dysfunction: A Bidirectional Relationship
 Tau pathology and [[mitochondrial]] dysfunction engage in a mutually reinforcing cycle. In [[notes/_link/Alzheimer's Disease]], pathological tau accumulates within mitochondria, where it binds to [[VDAC]] (voltage-dependent anion channel) and impairs the [[mitochondrial permeability transition pore]] (mPTP), increasing ROS leakage and reducing [[notes/_link/ATP]] production. Conversely, mitochondrial ROS activate the kinases that hyperphosphorylate tau. Tau knockout mice are resistant to mitochondrial toxin-induced neurodegeneration, and tau reduction mitigates [[Amyloid-beta]]-induced mitochondrial dysfunction — positioning tau as a critical mediator of oxidative damage in [[Neurodegeneration|neurodegeneration]].
 
 ### Tau Acetylation and Its Redox Sensitivity
-Tau acetylation at Lys residues (particularly Lys174, Lys274, Lys280, Lys281) — mediated by [[p300]]/[[CREB-binding protein]] (CBP) acetyltransferases — is elevated in AD and promotes tau aggregation by neutralizing positive charges in the microtubule-binding region. The deacetylase [[SIRT1]] (a [[NAD⁺]]-dependent enzyme) removes tau acetylation; however, SIRT1 activity is reduced under oxidative conditions due to NAD⁺ depletion and direct ROS-mediated inhibition. Reduced SIRT1 activity leads to increased tau acetylation, providing another mechanism through which [[Oxidative Stress]] drives tau pathology.
+Tau acetylation at Lys residues (particularly Lys174, Lys274, Lys280, Lys281) — mediated by [[P300]]/[[CREB-binding protein]] (CBP) acetyltransferases — is elevated in AD and promotes tau aggregation by neutralizing positive charges in the microtubule-binding region. The deacetylase [[SIRT1]] (a [[NAD⁺]]-dependent enzyme) removes tau acetylation; however, SIRT1 activity is reduced under oxidative conditions due to NAD⁺ depletion and direct ROS-mediated inhibition. Reduced SIRT1 activity leads to increased tau acetylation, providing another mechanism through which [[Oxidative Stress]] drives tau pathology.
 
 ### Clinical Correlates and Therapeutic Directions
-Cerebrospinal fluid (CSF) levels of tau phosphorylated at Thr181 (p-tau181), Thr217 (p-tau217), and total tau are established biomarkers of tau pathology in AD. [[Positron emission tomography]] (PET) with tau-binding radiotracers ([[Florzolotau|18F-florzolotau]] [previously 18F-THK5351], [[Flortaucipir|18F-flortaucipir]] [AV-1451/Tauvid]) enables in vivo visualization of tau burden. Therapeutic strategies targeting tau–oxidative stress interplay include [[Methylene blue]] (inhibits tau aggregation and acts as a redox cycler), [[N-acetylcysteine|N-Acetylcysteine]] (replenishes [[notes/_link/Glutathione]], thereby reducing cysteine oxidation-mediated tau dimerization), and [[GSK-3β inhibitors]] ([[Lithium]], [[Tideglusib]]).
+Cerebrospinal fluid (CSF) levels of tau phosphorylated at Thr181 (p-tau181), Thr217 (p-tau217), and total tau are established biomarkers of tau pathology in AD. [[Positron Emission Tomography]] (PET) with tau-binding radiotracers ([[Florzolotau|18F-florzolotau]] [previously 18F-THK5351], [[Flortaucipir|18F-flortaucipir]] [AV-1451/Tauvid]) enables in vivo visualization of tau burden. Therapeutic strategies targeting tau–oxidative stress interplay include [[Methylene blue]] (inhibits tau aggregation and acts as a redox cycler), [[N-Acetylcysteine|N-Acetylcysteine]] (replenishes [[notes/_link/Glutathione]], thereby reducing cysteine oxidation-mediated tau dimerization), and [[GSK-3β inhibitors]] ([[Lithium]], [[Tideglusib]]).
 
 ## Linking Summary (New Additions)
 - New links added: [[Oxidative Stress]], [[notes/_link/GSK3]], [[notes/_link/p38 MAPK]], [[notes/_link/Mitochondria]], [[notes/_link/Glutathione]], [[4-Hydroxynonenal]], [[Peroxynitrite]], [[Amyloid-beta]], [[Neurodegeneration]], [[notes/_link/Alzheimer's Disease]], [[notes/_link/N-Acetylcysteine]], [[Methylene blue]]
-- Suggested new entity notes to create: [[Microtubule]], [[Neurofibrillary tangles]], [[GSK-3β]], [[CDK5]], [[p25]], [[SIRT1]], [[p300]], [[Fluortaucipir]], [[Tideglusib]], [[VDAC]]
-- Strong connections to strengthen: [[Tau protein]] ↔ [[notes/_link/Mitochondria]], [[Tau protein]] ↔ [[Oxidative Stress]], [[Tau protein]] ↔ [[4-Hydroxynonenal]]
+- Suggested new entity notes to create: [[Microtubule]], [[Neurofibrillary tangles]], [[GSK3β]], [[CDK5]], [[p25]], [[SIRT1]], [[P300]], [[Fluortaucipir]], [[Tideglusib]], [[VDAC]]
+- Strong connections to strengthen: [[Tau Protein]] ↔ [[notes/_link/Mitochondria]], [[Tau Protein]] ↔ [[Oxidative Stress]], [[Tau Protein]] ↔ [[4-Hydroxynonenal]]

@@ -18,7 +18,7 @@ The **Mediterranean Diet** is a dietary pattern based on traditional eating habi
 
 ## Core Components
 
-- High consumption of [[Polyphenols|polyphenol]]-rich [[Olive oil]], fruits, vegetables, legumes, whole grains, nuts, and seeds
+- High consumption of [[Polyphenols|polyphenol]]-rich Olive oil, fruits, vegetables, legumes, whole grains, nuts, and seeds
 - Moderate consumption of fish, poultry, and red wine (containing [[Resveratrol]] and other [[Stilbene|stilbenoids]])
 - Low consumption of red meat, processed foods, and dairy
 - Red wine consumed in moderation, often with meals — a key variable in the [[French Paradox]]
@@ -29,7 +29,7 @@ The **Mediterranean Diet** is a dietary pattern based on traditional eating habi
 - **[[Nitric Oxide]] modulation**: Polyphenols such as [[Resveratrol]] enhance endothelial [[Nitric Oxide]] production, improving [[Endothelial Dysfunction|endothelial function]]
 - **[[Sirtuins|Sirtuin activation]]**: [[Resveratrol]] activates [[SIRT1]], linking the diet to longevity pathways
 - **Anti-[[Inflammation|inflammatory]]**: Reduced [[NFKB]] signaling and lower circulating inflammatory cytokines
-- **Lipid profile improvement**: Raises [[High-density lipoprotein|HDL]] while reducing [[Low-density lipoprotein|LDL]] oxidation
+- **Lipid profile improvement**: Raises [[High-density lipoprotein|HDL]] while reducing [[Low-Density Lipoprotein|LDL]] oxidation
 
 ## Clinical Evidence
 
@@ -39,6 +39,6 @@ The **Mediterranean Diet** is a dietary pattern based on traditional eating habi
 
 ## Linking Summary
 
-- New links added: [[Cardiovascular Disease]], [[Longevity]], [[Inflammation]], [[Polyphenols]], [[Resveratrol]], [[Stilbene]], [[French Paradox]], [[Antioxidants]], [[Reactive Oxygen Species]], [[Superoxide Dismutase]], [[Nitric Oxide]], [[Endothelial Dysfunction]], [[Sirtuins]], [[SIRT1]], [[NFKB]], [[High-density lipoprotein]], [[Low-density lipoprotein]], [[Diabetes Mellitus]], [[Atherosclerosis]], [[Cancer]], [[Oxidative Stress]]
+- New links added: [[Cardiovascular Disease]], [[Longevity]], [[Inflammation]], [[Polyphenols]], [[Resveratrol]], [[Stilbene]], [[French Paradox]], [[Antioxidants]], [[Reactive Oxygen Species]], [[Superoxide Dismutase]], [[Nitric Oxide]], [[Endothelial Dysfunction]], [[Sirtuins]], [[SIRT1]], [[NFKB]], [[High-density lipoprotein]], [[Low-Density Lipoprotein]], [[Diabetes Mellitus]], [[Atherosclerosis]], [[Cancer]], [[Oxidative Stress]]
 - Suggested new entity notes to create: None
 - Strong connections to strengthen: [[Mediterranean Diet]] ↔ [[French Paradox]], [[Mediterranean Diet]] ↔ [[Resveratrol]]

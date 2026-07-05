@@ -16,7 +16,7 @@ updated: 2026-07-04
 
 # Vitamin B3
 
-**Vitamin B3** (niacin) encompasses [[nicotinic acid]] and [[nicotinamide]] (niacinamide). It is the precursor to [[NAD+|NAD⁺]] and [[NADP+]], making it essential for cellular energy metabolism, [[notes/_link/DNA Repair|DNA repair]], and [[Sirtuins]] activation.
+**Vitamin B3** (niacin) encompasses [[Nicotinic acid]] and [[Nicotinamide]] (niacinamide). It is the precursor to [[NAD+|NAD⁺]] and [[NADP+]], making it essential for cellular energy metabolism, [[notes/_link/DNA Repair|DNA repair]], and [[Sirtuins]] activation.
 
 ## Forms
 
