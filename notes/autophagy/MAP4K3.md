@@ -1,6 +1,18 @@
+---
+aliases:
+- mitogen-activated protein kinase kinase kinase kinase 3
+category: Enzyme
+created: '2026-07-04'
+type: entity
+updated: '2026-07-04'
+---
 # MAP4K3
 
 Mitogen-activating protein kinase kinase kinase kinase-3 (MAP4K3) is a kinase that phosphorylates [[TFEB]] at S3, a modification necessary for subsequent phosphorylation by [[mTORC1]].
+
+## Function
+
+MAP4K3 (GLK) is a Ste20 family kinase that activates the JNK and ERK pathways downstream of amino acid signaling. It positively regulates [[mTORC1]] via [[Rag proteins|Rag GTPases]].
 
 ### Linking Summary
 

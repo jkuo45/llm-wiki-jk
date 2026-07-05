@@ -1,6 +1,16 @@
+---
+category: Medical Condition
+created: '2026-07-04'
+type: entity
+updated: '2026-07-04'
+---
 # metabolic disorders
 
 Metabolic disorders are conditions that disrupt normal metabolism; many of these, including steatosis and diabetic kidney disease, are associated with lysosomal dysfunction and can be improved by targeting [[TFEB]].
+
+## Overview
+
+Metabolic disorders include [[Obesity]], [[Type 2 Diabetes Mellitus]], [[NAFLD]], [[Metabolic Syndrome]]. [[Autophagy]] dysfunction is a common feature.
 
 ### Linking Summary
 

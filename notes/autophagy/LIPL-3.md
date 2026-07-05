@@ -1,3 +1,11 @@
+---
+aliases:
+- C. elegans lysosomal lipase 3
+category: Enzyme
+created: '2026-07-04'
+type: entity
+updated: '2026-07-04'
+---
 # LIPL-3
 
 **LIPL-3** is a lysosomal lipase in [[C. elegans]] that, along with [[LIPL-1]], is essential for [[Lysosomal Lipolysis]] and the mobilization of fat stores via [[Lipophagy]]. It is a functional orthologue of human [[Lysosomal Acid Lipase]] ([[LAL]]).
@@ -10,6 +18,10 @@
     - Induced by [[HLH-30]] during [[Fasting]].
 - **Synergy with LIPL-1**: Dual inactivation of *lipl-1* and *lipl-3* significantly increases cytosolic fat stores and blocks fat utilization during starvation.
 - **Longevity**: Overexpression of LIPL-3 extends [[C. elegans]] lifespan, possibly by enhancing cellular clearance and energy re-routing.
+
+## Function
+
+LIPL-3 is a C. elegans lysosomal lipase involved in [[Lipophagy]] and fat storage mobilization.
 
 ### Linking Summary:
 - New links added: [[C. elegans]], [[LIPL-1]], [[Lysosomal Lipolysis]], [[Lipophagy]], [[Lysosomal Acid Lipase]], [[LAL]], [[PGP-2]], [[MXL-3]], [[HLH-30]], [[Fasting]]

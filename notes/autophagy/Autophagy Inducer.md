@@ -1,3 +1,9 @@
+---
+category: Scientific Concept
+created: '2026-07-04'
+type: entity
+updated: '2026-07-04'
+---
 # Autophagy Inducer
 
 An **Autophagy Inducer** is a substance or intervention that stimulates [[Autophagy]], the cellular process of degrading and recycling damaged organelles and proteins. Inducing autophagy is a promising strategy to counteract [[notes/_link/Aging]], [[notes/_link/Senescence]], and various age-related diseases.
@@ -15,6 +21,10 @@ Autophagy can be induced through several pathways, most notably:
 
 ## Applications
 Autophagy inducers are being investigated for their potential to rejuvenate the [[notes/_link/Immune System]] ([[Immune Aging]]), improve metabolic health, and extend healthy lifespan.
+
+## Classes
+
+Autophagy inducers include mTOR inhibitors ([[Rapamycin]], [[Torin1]]), AMPK activators ([[Metformin]], [[AICAR]]), [[Trehalose]], [[Spermidine]], [[Lithium]], and [[Celastrol]].
 
 ### Linking Summary:
 - New links added: [[Autophagy]], [[notes/_link/Aging]], [[notes/_link/Senescence]], [[Rapamycin]], [[notes/_link/Metformin]], [[notes/_link/Spermidine]], [[Rapalog]], [[Everolimus]], [[Dietary Restriction]], [[Exercise]], [[Polyamine]], [[mTORC1]], [[notes/_link/AMPK]], [[TFEB]], [[notes/_link/Immune System]], [[Immune Aging]]

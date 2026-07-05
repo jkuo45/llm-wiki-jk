@@ -1,6 +1,18 @@
+---
+aliases:
+- T lymphocyte
+category: Cell Type
+created: '2026-07-04'
+type: entity
+updated: '2026-07-04'
+---
 # T Cell
 
 T cells are a type of lymphocyte that play a central role in the [[Adaptive Immune Response]], where [[Autophagy]] is critical for their development, survival, and metabolic fitness.
+
+## Function
+
+T cells mediate adaptive cellular immunity. [[Autophagy]] regulates T cell activation, metabolism, and memory formation by controlling organelle quality and nutrient supply.
 
 ### Linking Summary:
 - New links added: [[Adaptive Immune Response]], [[Autophagy]]

@@ -1,6 +1,22 @@
+---
+aliases:
+- DDIT4
+- DNA damage inducible transcript 4
+category: Protein
+created: '2026-07-04'
+type: entity
+updated: '2026-07-04'
+---
 # REDD1
 
 REDD1 (Regulated in Development and DNA Damage Response 1) is a protein that inhibits [[mTORC1]] activity in response to various stressors, including [[notes/_link/Hypoxia]] and DNA damage.
+
+## Function
+
+REDD1 (DDIT4) is a stress-induced protein that inhibits [[mTORC1]] by displacing [[TSC1]]/[[TSC2]] from inhibitory inputs. It is induced by [[HIF1A]], [[ATF4]], and [[FOXO]] transcription factors.
+## Autophagy Role
+
+REDD1-mediated mTORC1 inhibition under hypoxia, ER stress, or DNA damage promotes [[Autophagy]] as a survival mechanism.
 
 ### Linking Summary:
 - New links added: [[mTORC1]], [[notes/_link/Hypoxia]]

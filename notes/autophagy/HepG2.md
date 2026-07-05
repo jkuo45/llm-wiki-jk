@@ -1,3 +1,11 @@
+---
+aliases:
+- hepatocellular carcinoma cell line
+category: Cell Type
+created: '2026-07-04'
+type: entity
+updated: '2026-07-04'
+---
 # HepG2
 
 **HepG2** is a human liver carcinoma cell line commonly used as a model for studying human liver metabolism, protein synthesis, and [[Autophagy]].
@@ -6,6 +14,10 @@
 - Used to study the effects of nutrient deprivation (e.g., incubation in EBSS) on human hepatocytes.
 - **Lipophagy Study**: HepG2 cells have been used to demonstrate the conserved transcriptional induction of [[Lysosomal Acid Lipase|LAL]] and [[LC3]] by [[TFEB]] during nutrient stress.
 - **siRNA Studies**: Amenable to siRNA-mediated knockdown (e.g., of [[TFEB]]) to investigate regulatory pathways.
+
+## Cell Line
+
+HepG2 is a human hepatocellular carcinoma cell line widely used for studying [[Autophagy]], lipid metabolism, and drug toxicity.
 
 ### Linking Summary:
 - New links added: [[Autophagy]], [[Lysosomal Acid Lipase]], [[LC3]], [[TFEB]]

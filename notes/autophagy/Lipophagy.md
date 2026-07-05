@@ -1,3 +1,9 @@
+---
+category: Biological Process
+created: '2026-07-04'
+type: entity
+updated: '2026-07-04'
+---
 # Lipophagy
 
 **Lipophagy** is a form of [[Selective Autophagy]] involving the degradation of [[Lipid Droplet]]s within [[Lysosome]]s. It is a critical mechanism for mobilizing fat stores in response to [[Nutrient Availability]].

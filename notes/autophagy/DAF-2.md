@@ -1,3 +1,11 @@
+---
+aliases:
+- C. elegans insulin/IGF receptor ortholog
+category: Gene
+created: '2026-07-04'
+type: entity
+updated: '2026-07-04'
+---
 # DAF-2
 
 **DAF-2** is the [[C. elegans]] orthologue of the insulin/[[IGF-1]] receptor. It is a central regulator of development, metabolism, and [[notes/_link/Longevity|lifespan]].
@@ -9,6 +17,10 @@
 
 ## Longevity
 - Mutations that reduce DAF-2 activity (hypomorphs) significantly extend the lifespan of [[C. elegans]], a phenotype that is dependent on autophagy.
+
+## Function
+
+DAF-2 is the C. elegans insulin/IGF-1 receptor. Reduced DAF-2 signaling extends lifespan via [[DAF-16]]/FOXO and [[Autophagy]] activation.
 
 ### Linking Summary:
 - New links added: [[C. elegans]], [[IGF-1]], [[notes/_link/Longevity|lifespan]], [[Autophagy]], [[Akt]], [[DAF-16]], [[Starvation]], [[Lipophagy]], [[Lysosomal Lipolysis]], [[MXL-3]]

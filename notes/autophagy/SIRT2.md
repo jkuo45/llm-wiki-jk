@@ -1,3 +1,11 @@
+---
+aliases:
+- sirtuin 2
+category: Enzyme
+created: '2026-07-04'
+type: entity
+updated: '2026-07-04'
+---
 # SIRT2
 
 **SIRT2** (Sirtuin 2) is a member of the sirtuin family of NAD+-dependent deacetylases, primarily localized in the cytosol.
@@ -9,6 +17,10 @@
 
 ## Relationship with SIRT1
 - While [[notes/sirtuins/SIRT1]] is often nuclear, SIRT2 provides a cytoplasmic mechanism for responding to energy stress and coordinating autophagic flux.
+
+## Function
+
+SIRT2 is a cytoplasmic and nuclear NAD+-dependent deacetylase that regulates [[Autophagy]] by deacetylating [[FOXO1]] and [[FOXO3a]].
 
 ### Linking Summary:
 - New links added: [[Autophagy]], [[Atg4B]], [[LC3]], [[notes/sirtuins/SIRT1]]

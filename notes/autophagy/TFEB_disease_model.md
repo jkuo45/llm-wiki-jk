@@ -1,3 +1,9 @@
+---
+category: Scientific Concept
+created: '2026-07-04'
+type: entity
+updated: '2026-07-04'
+---
 | Targeting regulatory mechanisms of TFEB    | Disease                            | Characteristics of disease                                                                                                           | The disease models                                                                            | Methods of targeting TFEB                                                                                       | The improved phenotype                                                                                     | References (PMID) |
 | ------------------------------------------ | ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ----------------- |
 | **Gene therapy**                           | Pompe disease                      | An LSD and severe metabolic myopathy caused by the deficiency of acid alpha-glucosidase (GAA)                                        | GAA knockdown mice                                                                            | Intramuscular injection of AAV-TFEB                                                                             | Increasing clearance of glycogen stores and amelioration of muscle pathology                               | 23606558          |

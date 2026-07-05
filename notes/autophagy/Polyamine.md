@@ -1,3 +1,9 @@
+---
+category: Chemical Class
+created: '2026-07-04'
+type: entity
+updated: '2026-07-04'
+---
 # Polyamine
 
 **Polyamines** are organic compounds that play essential roles in cell growth, survival, and stress adaptation.
@@ -10,6 +16,10 @@
 - Polyamine-rich foods boost longevity in various model organisms.
 - Spermidine levels decrease in aged somatic and immune cells.
 - Restoration of polyamines protects from age-induced memory impairment and rejuvenates [[B Cell]] responses in an [[Autophagy]]-dependent manner.
+
+## Class
+
+Polyamines ([[Spermidine]], [[Spermine]], [[Putrescine]]) are autophagy inducers. [[Spermidine]] extends lifespan via [[Autophagy]] and [[Hypusination]] of [[eIF5A]].
 
 ### Linking Summary:
 - New links added: [[notes/_link/Spermidine]], [[B Cell]], [[Autophagy]]

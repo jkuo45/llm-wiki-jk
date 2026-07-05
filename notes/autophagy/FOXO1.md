@@ -1,3 +1,11 @@
+---
+aliases:
+- forkhead box O1
+category: Gene
+created: '2026-07-04'
+type: entity
+updated: '2026-07-04'
+---
 # FOXO1
 
 **FOXO1** (Forkhead Box O1) is a transcription factor that plays a central role in regulating metabolism, cell survival, and [[Autophagy]].
@@ -11,6 +19,10 @@
 - During [[notes/_link/Caloric Restriction]] or [[Intermittent Fasting]], the Akt pathway is downregulated.
 - Dephosphorylated FOXO1 translocates to the nucleus, where it induces the expression of many [[Atg|autophagy-related genes]] (e.g., [[Atg5]], [[Atg8]]/[[LC3]], [[ULK1]]).
 - FOXO1 also promotes [[Gluconeogenesis]] during starvation.
+
+## Function
+
+FOXO1 is a forkhead transcription factor that regulates [[Autophagy]], metabolism, and immune function. It is inhibited by [[AKT]] phosphorylation under growth factor signaling.
 
 ### Linking Summary:
 - New links added: [[Autophagy]], [[IGF1]], [[notes/_link/Akt]], [[notes/_link/Caloric Restriction]], [[Intermittent Fasting]], [[Atg]], [[Atg5]], [[Atg8]], [[LC3]], [[ULK1]], [[Gluconeogenesis]]

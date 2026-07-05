@@ -1,6 +1,22 @@
+---
+aliases:
+- PARP5
+- TNKS
+category: Enzyme
+created: '2026-07-04'
+type: entity
+updated: '2026-07-04'
+---
 # Tankyrases
 
 Tankyrases (TNKS1 and TNKS2) are poly(ADP-ribose) polymerases (PARPs) that interact with and parsylate [[TFEB]], promoting its nuclear translocation.
+
+## Family & Structure
+
+Tankyrases (TNKS1/[[TNKS1]], TNKS2/[[TNKS2]]) are PARP5 enzymes with ankyrin repeat domains for protein-protein interactions, a sterile alpha motif (SAM) for polymerization, and a PARP catalytic domain.
+## Functions
+
+Regulate telomere maintenance (via TRF1), Wnt/β-catenin signaling (via AXIN degradation), GLUT4 trafficking, and [[Autophagy]] (via ULK1/TFEB stabilization). Tankyrase inhibitors are in development for cancer and fibrosis.
 
 ### Linking Summary
 

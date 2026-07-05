@@ -1,3 +1,9 @@
+---
+category: Biological Process
+created: '2026-07-04'
+type: entity
+updated: '2026-07-04'
+---
 # Autophagy
 
 **Autophagy** (the cell's primary "waste management" system) is a critical regulator of the [[notes/_link/Aging]] process. As organisms age, autophagic activity typically declines, leading to the accumulation of damaged proteins and organelles. This decline is increasingly attributed to [[Epigenetics]] modifications that repress the expression of Autophagy-Related (ATG) genes.

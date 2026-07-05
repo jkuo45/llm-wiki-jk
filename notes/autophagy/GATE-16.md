@@ -1,6 +1,19 @@
+---
+aliases:
+- GABARAPL2
+- Golgi-associated ATPase enhancer of 16 kDa
+category: Protein
+created: '2026-07-04'
+type: entity
+updated: '2026-07-04'
+---
 # GATE-16
 
 GATE-16, also known as GABARAPL2, is a member of the [[Atg8]] protein family that plays a crucial role in intra-Golgi transport and [[Autophagosome]] formation.
+
+## Function
+
+GATE-16 (GABARAPL2) is a Golgi-associated [[Atg8]] family member involved in intra-Golgi transport and [[Autophagy]]. It is conjugated to autophagosomal membranes similarly to [[LC3]] and [[GABARAP]].
 
 ### Linking Summary:
 - New links added: [[Atg8]], [[Autophagosome]]

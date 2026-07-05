@@ -3,9 +3,8 @@ type: entity
 category: protein
 aliases: [STK11, Liver Kinase B1]
 created: 2026-07-04
-updated: 2026-07-04
+updated: '2026-07-04'
 ---
-
 # LKB1
 
 **LKB1** (Liver Kinase B1), also known as STK11, is a master upstream kinase that regulates cellular energy metabolism and polarity.
@@ -22,6 +21,10 @@ updated: 2026-07-04
 ## Sirtuin Regulation
 
 [[SIRT1]] and [[SIRT3]] deacetylate LKB1. SIRT1 deacetylation of LKB1 promotes its translocation from nucleus to cytoplasm and activation of AMPK. SIRT3 deacetylation of LKB1 improves mitochondrial function and reduces ROS.
+
+## Function
+
+LKB1 (STK11) is a kinase that activates [[AMPK]] and 12 other AMPK-related kinases. It is a tumor suppressor that promotes [[Autophagy]] under energy stress.
 
 ### Linking Summary:
 - New links added: [[notes/_link/AMPK]], [[Autophagy]], [[ULK1]], [[mTORC1]], [[Cancer]], [[SIRT1]], [[SIRT3]]

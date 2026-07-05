@@ -1,3 +1,11 @@
+---
+aliases:
+- C. elegans lysosomal lipase 1
+category: Enzyme
+created: '2026-07-04'
+type: entity
+updated: '2026-07-04'
+---
 # LIPL-1
 
 **LIPL-1** is a lysosomal lipase in [[C. elegans]] that plays a critical role in [[Lysosomal Lipolysis]] and [[Lipophagy]]. It is a functional orthologue of the human [[Lysosomal Acid Lipase]] ([[LAL]]).
@@ -10,6 +18,10 @@
     - During [[Fasting]] or [[Starvation]], its expression is induced by [[HLH-30]].
 - **Metabolism**: Inactivation of *lipl-1* (especially in combination with [[LIPL-3]]) leads to increased fat accumulation and impaired fat mobilization during fasting.
 - **Ageing**: Overexpression of *lipl-1* has been shown to extend [[C. elegans]] lifespan.
+
+## Function
+
+LIPL-1 is a C. elegans lysosomal lipase required for [[Lipophagy]] and lifespan extension by dietary restriction.
 
 ### Linking Summary:
 - New links added: [[C. elegans]], [[Lysosomal Lipolysis]], [[Lipophagy]], [[Lysosomal Acid Lipase]], [[LAL]], [[LRO]], [[Lipid Droplet]], [[MXL-3]], [[Fasting]], [[Starvation]], [[HLH-30]], [[LIPL-3]]

@@ -1,6 +1,16 @@
+---
+category: Biological Process
+created: '2026-07-04'
+type: entity
+updated: '2026-07-04'
+---
 # Nuclear Export
 
 Nuclear export is the process of transporting proteins from the nucleus to the cytoplasm; [[TFEB]] nuclear export is mediated by [[CRM1]] and promoted by phosphorylation at S142 and S138.
+
+## Mechanism
+
+Nuclear export of autophagy transcription factors ([[TFEB]], [[ZKSCAN3]], [[FOXO]]) is CRM1-dependent. CRM1 inhibition induces autophagy.
 
 ### Linking Summary
 
