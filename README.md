@@ -70,15 +70,6 @@
 
 #### triples overview (as of 05_JUL_2026 03:20 AM PDT)
 ---
-
-Two extraction styles produce the triples below, each serving a different analytical purpose.
-
-**Mechanistic extraction** (filtered: excludes `has_type` triples) outputs tight knowledge graphs with domain-specific predicates — `deacetylates`, `phosphorylates`, `activates`, `inhibits`, `causes` — each encoding a direct causal or functional relationship. These graphs are small (~150–250 edges) and high precision, best for pathway verification, drug mechanism reasoning, and literature-backed claims. They answer *"what does X directly do to Y?"* 80–99% in this style indicates a mature, cohesive field where entities routinely co-occur in the same sentence (textbook knowledge).
-
-**Co-occurrence extraction** (epigenetics, 30.3% high confidence) prioritizes recall over precision. Entities are linked when they appear in the same textual context; confidence is determined by textual proximity (same sentence = high, same paragraph = medium, same document = low). With 7,338 edges across 830 nodes — 30–50× larger than any mechanistic topic — and predicates dominated by `co_occurs_with` (4,528) and `mentions` (1,803), this graph captures bibliometric associations rather than causal mechanisms. It is designed for *discovery*: surfacing weak signals and cross-domain connections in fragmented or emerging fields. 20–30% in this style indicates a research frontier where most links are document-level, not yet tightly coupled in the literature.
-
-Neither style is "better" — they are complementary. Mechanistic confirms known pathways; co-occurrence reveals potential connections. Confidence % in co-occurrence acts as a **cohesion metric**: how tightly entities cluster in the literature, not how "correct" the triples are. There is no fixed target — the appropriate range depends on the goal (90%+ for verification, 20–40% for exploration).
-
 >[!NOTE]
 >
 >In other words: 80% = textbook knowledge, 20% = research frontier
@@ -89,15 +80,23 @@ Neither style is "better" — they are complementary. Mechanistic confirms known
 >  
 >- Complementary nature — neither is "better", confidence as cohesion metric, no fixed target
 
-| Topic | High % | Edges | Predicates | Top predicate | Extraction style |
-| ----- | ------ | ----- | ---------- | ------------- | ---------------- |
-| adrenochrome | **90.6%** | 64 | 37 | `is (9), promotes (4), activates (4), induces (3), causes (3)` | mechanistic |
-| autophagy | **89.6%** | 154 | 79 | `phosphorylates (19), activates (11), inhibits (10), regulates (8), induces (6)` | mechanistic |
-| comt | **83.5%** | 200 | 89 | `is (29), is_associated_with (11), modulates (7), supports (6), impacts (6)` | mechanistic |
-| epigenetics | **30.3%** | 7338 | 19 | `co_occurs_with (4528), mentions (1803), causes (406), connected_to (322), links_to (90)` | co-occurrence |
-| neuromelanin | **97.7%** | 218 | 25 | `bidirectionally_linked_with (104), is_a (30), causes (18), converts_to (12), binds_to (8)` | mechanistic |
-| oxidative_stress | **99.2%** | 236 | 127 | `produces (13), causes (13), activates (11), contributes to (9), reduces (7)` | mechanistic |
-| sirtuins | **97.7%** | 305 | 119 | `deacetylates (53), inhibits (30), activates (22), localizes to (10), represses (10)` | mechanistic |
+| Topic            | High %    | Edges | Predicates | Top predicate                                                                               | Extraction style |
+| ---------------- | --------- | ----- | ---------- | ------------------------------------------------------------------------------------------- | ---------------- |
+| adrenochrome     | **90.6%** | 64    | 37         | `is (9), promotes (4), activates (4), induces (3), causes (3)`                              | mechanistic      |
+| autophagy        | **89.6%** | 154   | 79         | `phosphorylates (19), activates (11), inhibits (10), regulates (8), induces (6)`            | mechanistic      |
+| comt             | **83.5%** | 200   | 89         | `is (29), is_associated_with (11), modulates (7), supports (6), impacts (6)`                | mechanistic      |
+| epigenetics      | **30.3%** | 7338  | 19         | `co_occurs_with (4528), mentions (1803), causes (406), connected_to (322), links_to (90)`   | co-occurrence    |
+| neuromelanin     | **97.7%** | 218   | 25         | `bidirectionally_linked_with (104), is_a (30), causes (18), converts_to (12), binds_to (8)` | mechanistic      |
+| oxidative_stress | **99.2%** | 236   | 127        | `produces (13), causes (13), activates (11), contributes to (9), reduces (7)`               | mechanistic      |
+| sirtuins         | **97.7%** | 305   | 119        | `deacetylates (53), inhibits (30), activates (22), localizes to (10), represses (10)`       | mechanistic      |
+
+Two extraction styles produce the triples above, each serving a different analytical purpose.
+
+**Mechanistic extraction** (filtered: excludes `has_type` triples) outputs tight knowledge graphs with domain-specific predicates — `deacetylates`, `phosphorylates`, `activates`, `inhibits`, `causes` — each encoding a direct causal or functional relationship. These graphs are small (~150–250 edges) and high precision, best for pathway verification, drug mechanism reasoning, and literature-backed claims. They answer *"what does X directly do to Y?"* 80–99% in this style indicates a mature, cohesive field where entities routinely co-occur in the same sentence (textbook knowledge).
+
+**Co-occurrence extraction** (epigenetics, 30.3% high confidence) prioritizes recall over precision. Entities are linked when they appear in the same textual context; confidence is determined by textual proximity (same sentence = high, same paragraph = medium, same document = low). With 7,338 edges across 830 nodes — 30–50× larger than any mechanistic topic — and predicates dominated by `co_occurs_with` (4,528) and `mentions` (1,803), this graph captures bibliometric associations rather than causal mechanisms. It is designed for *discovery*: surfacing weak signals and cross-domain connections in fragmented or emerging fields. 20–30% in this style indicates a research frontier where most links are document-level, not yet tightly coupled in the literature.
+
+Neither style is "better" — they are complementary. Mechanistic confirms known pathways; co-occurrence reveals potential connections. Confidence % in co-occurrence acts as a **cohesion metric**: how tightly entities cluster in the literature, not how "correct" the triples are. There is no fixed target — the appropriate range depends on the goal (90%+ for verification, 20–40% for exploration).
 
 ---
 #### adrenochrome triples
@@ -624,16 +623,8 @@ Neither style is "better" — they are complementary. Mechanistic confirms known
 <!-- END GENERATED: document_list -->
 
 <!-- GENERATED: triples_overview -->
-#### triples overview (as of 05_JUL_2026 03:31 AM PDT)
+#### triples overview (as of 05_JUL_2026 03:41 AM PDT)
 ---
-
-Two extraction styles produce the triples below, each serving a different analytical purpose.
-
-**Mechanistic extraction** (filtered: excludes `has_type` triples) outputs tight knowledge graphs with domain-specific predicates — `deacetylates`, `phosphorylates`, `activates`, `inhibits`, `causes` — each encoding a direct causal or functional relationship. These graphs are small (~150–250 edges) and high precision, best for pathway verification, drug mechanism reasoning, and literature-backed claims. They answer *"what does X directly do to Y?"* 80–99% in this style indicates a mature, cohesive field where entities routinely co-occur in the same sentence (textbook knowledge).
-
-**Co-occurrence extraction** (epigenetics, 30.3% high confidence) prioritizes recall over precision. Entities are linked when they appear in the same textual context; confidence is determined by textual proximity (same sentence = high, same paragraph = medium, same document = low). With 7,338 edges across 830 nodes — 30–50× larger than any mechanistic topic — and predicates dominated by `co_occurs_with` (4,528) and `mentions` (1,803), this graph captures bibliometric associations rather than causal mechanisms. It is designed for *discovery*: surfacing weak signals and cross-domain connections in fragmented or emerging fields. 20–30% in this style indicates a research frontier where most links are document-level, not yet tightly coupled in the literature.
-
-Neither style is "better" — they are complementary. Mechanistic confirms known pathways; co-occurrence reveals potential connections. Confidence % in co-occurrence acts as a **cohesion metric**: how tightly entities cluster in the literature, not how "correct" the triples are. There is no fixed target — the appropriate range depends on the goal (90%+ for verification, 20–40% for exploration).
 
 >[!NOTE]
 >
@@ -647,6 +638,15 @@ Neither style is "better" — they are complementary. Mechanistic confirms known
 
 | Topic | High % | Edges | Predicates | Top predicate | Extraction style |
 | ----- | ------ | ----- | ---------- | ------------- | ---------------- |
+
+Two extraction styles produce the triples below, each serving a different analytical purpose.
+
+**Mechanistic extraction** (filtered: excludes `has_type` triples) outputs tight knowledge graphs with domain-specific predicates — `deacetylates`, `phosphorylates`, `activates`, `inhibits`, `causes` — each encoding a direct causal or functional relationship. These graphs are small (~150–250 edges) and high precision, best for pathway verification, drug mechanism reasoning, and literature-backed claims. They answer *"what does X directly do to Y?"* 80–99% in this style indicates a mature, cohesive field where entities routinely co-occur in the same sentence (textbook knowledge).
+
+**Co-occurrence extraction** (epigenetics, 30.3% high confidence) prioritizes recall over precision. Entities are linked when they appear in the same textual context; confidence is determined by textual proximity (same sentence = high, same paragraph = medium, same document = low). With 7,338 edges across 830 nodes — 30–50× larger than any mechanistic topic — and predicates dominated by `co_occurs_with` (4,528) and `mentions` (1,803), this graph captures bibliometric associations rather than causal mechanisms. It is designed for *discovery*: surfacing weak signals and cross-domain connections in fragmented or emerging fields. 20–30% in this style indicates a research frontier where most links are document-level, not yet tightly coupled in the literature.
+
+Neither style is "better" — they are complementary. Mechanistic confirms known pathways; co-occurrence reveals potential connections. Confidence % in co-occurrence acts as a **cohesion metric**: how tightly entities cluster in the literature, not how "correct" the triples are. There is no fixed target — the appropriate range depends on the goal (90%+ for verification, 20–40% for exploration).
+
 | adrenochrome | **90.6%** | 64 | 37 | `is (9), promotes (4), activates (4), induces (3), causes (3)` | mechanistic |
 | autophagy | **89.6%** | 154 | 79 | `phosphorylates (19), activates (11), inhibits (10), regulates (8), induces (6)` | mechanistic |
 | comt | **83.5%** | 200 | 89 | `is (29), is_associated_with (11), modulates (7), supports (6), impacts (6)` | mechanistic |
