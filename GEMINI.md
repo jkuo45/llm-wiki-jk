@@ -56,11 +56,15 @@
 - Maintain consistency: Use the same exact title for the same entity across files.
 - Each new entity should have a Linking Summary.
 
-### Wiki Entries:
+## Wiki Entries:
 
-- **Context-Dependent Modification:** When modifying existing notes, prefer appending new information to preserve existing content, but reorganize or rewrite when necessary to improve coherence, accuracy, and flow. Prioritize accuracy and contextual relevance over strict preservation. Always update the `updated:` date in frontmatter.
-- **Context-Dependent Content:** Adapt depth, focus, and tone according to the entity type and available scientific literature. For well-studied topics, synthesize multiple high-impact articles, reviews, and meta-analyses. Prioritize recent, high-quality papers (include key PMIDs/DOIs) and clearly distinguish established knowledge from emerging findings.
-- **Context-Driven Depth:** Scale depth according to topic importance and available literature. For well-established entities, provide comprehensive coverage with mechanisms, historical context, key studies, controversies, open questions, and clinical/research implications. For narrower topics, focus on essential context. Target 800–3000+ words for established entities (scale appropriately for narrower topics).
+- When adding new content to an existing note, **append new connections** to the existing `## Connections` section (deduplicating by target entity).
+- **Merge Linking Summaries**: Combine new links with existing `### Linking Summary` — deduplicate across `New links added`, `Suggested new entity notes to create`, and `Strong connections to strengthen`.
+- Keep only one `### Connections` and `### Linking Summary` at the end of the note.
+- The `### Connections` section belongs above `### Linking Summary`, NOT below it.
+- **Modification:** When modifying existing notes, prefer appending new information to preserve existing content, but reorganize or rewrite when necessary to improve coherence, accuracy, and flow. Prioritize accuracy and contextual relevance over strict preservation. Always update the `updated:` date in frontmatter.
+- **Content:** Adapt depth, focus, and tone according to the entity type and available scientific literature. For well-studied topics, synthesize multiple high-impact articles, reviews, and meta-analyses. Prioritize recent, high-quality papers (include key PMIDs/DOIs) and clearly distinguish established knowledge from emerging findings.
+- **Depth:** Scale depth according to topic importance and available literature. For well-established entities, provide comprehensive coverage with mechanisms, historical context, key studies, controversies, open questions, and clinical/research implications. For narrower topics, focus on essential context. Target 800–3000+ words for established entities (scale appropriately for narrower topics).
 - **Evidence-Based:** Ground everything in real scientific understanding. Reference landmark papers, meta-analyses, and recent reviews (include PMIDs/DOIs where possible).
 - **Neutral & Precise:** Use formal but accessible language. Clearly distinguish established facts from emerging or controversial findings. Make each note a hub that intelligently links to related concepts.
 - Each topic contains a default linking entity file (e.g. notes/adrenochrome/Adrenochrome.md).
@@ -142,11 +146,16 @@ relations: # If applicable
 - Return the FULL updated Markdown content with all new [[links]] inserted. At the very end, add a section:
 
 ```
+
+### Connections
+
+  - Entity Name - short description
+
 ### Linking Summary:
 
-- New links added: [[Entity1]], [[Entity2]], ...
-- Suggested new entity notes to create: [[Missing Concept]]
-- Strong connections to strengthen: [[Note A]] ↔ [[Note B]]
+  - New links added: [[Entity1]], [[Entity2]], ...
+  - Suggested new entity notes to create: [[Missing Concept]]
+  - Strong connections to strengthen: [[Note A]] ↔ [[Note B]]
 ```
 
 ## Orphan Link Resolution (on user request):
@@ -165,7 +174,6 @@ Maintain link integrity by performing periodic audits:
 - **Resolve True Orphans**:
   - Create new Markdown files for missing concepts.
   - Use a standardized template: `# Title`, a short paragraph context, and a `Linking Summary`.
-- **Automation**: Use `uv run` to perform batch updates to minimize manual errors and ensure workspace-wide consistency.
 
 ## Overlapping Link Resolution (on user request):
 
@@ -187,8 +195,17 @@ Maintain link integrity by performing periodic audits:
   - 'notes/\_link/NAD+.md'
 - When a new entity is identified as overlapping, merge its content into the 'notes/\_link/' version and delete the topic-specific files so that it is centrally linked in 'notes/\_link/' directory.
 - Make sure to escape Obsidian link syntax when updating documents and readme files (especially in tables).
-- Validate completeness of the wiki entry.
+- Validate completeness of the wiki entry: after merging, there should be one H1, no `## Source:` attribution lines, no redundant stub paragraphs, and only one `### Linking Summary` (at the end). Use `research-scientist` skill to synthesize overlapping content from multiple sources into coherent, flowing text.
 - **Prevention check**: Before creating any new entity in `_link/`, verify a topic-dir hub file with the same name does not already exist. If it does, do NOT create a `_link/` version — the topic hub is canonical.
+- **Post-merge cleanup**: After appending/merging topic content into the `_link/` entity note:
+  - Remove path-prefixed wiki links (`[[topic/Entity]]` → `[[Entity]]`) and `.md` extensions in link targets.
+  - Convert `## From [[topic/Entity]]` or `## Content from [[topic/Entity]]` headings to `## Source: topic/Entity` as plain-text provenance (no wiki link).
+  - Remove duplicate H1 lines (keep only the first).
+  - Remove all `## Source:` lines — provenance notation is a transitional artifact; once content is integrated, they are no longer needed.
+  - Remove stub paragraphs (<300 chars) that are redundant with more detailed content below.
+  - Remove early/redundant `### Linking Summary` sections that appear before the first `##` section heading (keep only the last one).
+  - **Do not concatenate paragraphs without newlines** — ensure blank line separation between H1 and subsequent content.
+  - Use `uv run python` scripts for batch cleanup to minimize manual errors.
 
 ## Subject Object Relation Triples:
 
