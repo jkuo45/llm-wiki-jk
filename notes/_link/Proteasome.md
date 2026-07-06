@@ -33,15 +33,9 @@ Unlike the 26S proteasome (20S + 19S regulatory particles), the 20S proteasome d
 - **[[Cancer]]**: Cancer cells upregulate proteasome activity to handle increased oxidative stress; [[Bortezomib]] (a proteasome inhibitor) is used in multiple myeloma and mantle cell lymphoma.
 - **[[Cardiovascular Disease]]**: Oxidized LDL-induced proteasome dysfunction in endothelial cells promotes atherosclerosis.
 
-### Linking Summary:
-
 - New links added: [[Ubiquitin Ligase]], [[Mitophagy]]
 - Suggested new entity notes to create: [[Ubiquitin]]
 - Strong connections to strengthen: [[Proteasome]] ↔ [[Aging]]
-
-## Content from [[neuromelanin/Proteasome.md]]
-
-# Proteasome
 
 The [[Proteasome]] is a large multi-catalytic protease complex responsible for the degradation of ubiquitinated proteins. It is the central effector of the [[Ubiquitin-Proteasome System]] (UPS), which tags proteins with [[Ubiquitin]] for targeted destruction. Proteasomal dysfunction is implicated in [[Parkinson's Disease]], where aggregated [[Alpha-synuclein]] overwhelms the degradation machinery and contributes to [[Proteostasis]] failure.
 

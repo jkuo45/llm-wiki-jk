@@ -68,5 +68,5 @@ NF-κB hyperactivation is a characteristic feature of [[Cancer]], [[Atherosclero
 - [[Rheumatoid Arthritis]]: Pathogenic NF-κB activation in synovial fibroblasts.
 
 ### Updated Linking Summary:
-- New links added in this revision: [[LPS]], [[HIF-1α]], [[PP2A]], [[S-Nitrosylation]], [[Rheumatoid Arthritis]], [[Nrf2]], [[p62/SQSTM1]], [[HO-1]], [[Alpha-Lipoic Acid]], [[Neurodegenerative Diseases]], [[Cancer]], [[Bcl-xL]], [[c-FLIP]], [[Curcumin]], [[Resveratrol]], [[EGCG]], [[Bortezomib]], [[CD40L]], [[BAFF]], [[RANKL]], [[Zinc Finger]], [[A20]], [[CYLD]], [[Proteasome]], [[Inflammation]], [[Notes/_link/Inflammatory Bowel Disease]], [[Vitamin E]], [[Sulforaphane]]
-- Suggested new entity notes to create: [[NEMO]], [[IκBα]], [[TNFAIP3 Polymorphisms]], [[CBP/p300]], [[Dimethyl fumarate]]
+- New links added in this revision: [[LPS]], [[HIF-1α]], [[PP2A]], [[S-Nitrosylation]], [[Rheumatoid Arthritis]], [[Nrf2]], [[p62/SQSTM1]], [[HO-1]], [[Alpha-Lipoic Acid]], [[Neurodegenerative Diseases]], [[Cancer]], [[Bcl-xL]], [[c-FLIP]], [[Curcumin]], [[Resveratrol]], [[EGCG]], [[Bortezomib]], [[CD40L]], [[BAFF]], [[RANKL]], [[Zinc Finger]], [[A20]], [[CYLD]], [[Proteasome]], [[Inflammation]], [[Inflammatory Bowel Disease]], [[Vitamin E]], [[Sulforaphane]]
+- Suggested new entity notes to create: [[NEMO]], [[IκBα]], [[TNFAIP3 Polymorphisms]], [[CBP]]/[[p300]], [[Dimethyl fumarate]]

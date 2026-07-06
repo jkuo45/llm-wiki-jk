@@ -48,11 +48,7 @@ Investigated in trials for [[Asthma]], [[Chronic Obstructive Pulmonary Disease|C
 - [[HO-1]] — NRF2 target gene induced by SFN
 - [[AMPK]] — Activated by SFN
 
-
-
 ## Additional Content from Topic Directory
-
-# Sulforaphane
 
 **Sulforaphane (SFN)** is an isothiocyanate compound derived from glucoraphanin (a glucosinolate) found in cruciferous vegetables (broccoli, Brussels sprouts, cabbage) and one of the most potent known dietary activators of the [[NRF2]] pathway.
 

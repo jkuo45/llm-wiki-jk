@@ -33,7 +33,7 @@ RAGE is a multi-ligand receptor with remarkable ligand promiscuity. Beyond [[Adv
 
 ## Signaling Pathways
 
-Ligand engagement of RAGE activates multiple downstream signaling cascades: (i) the [[NF-κB]] pathway via [[IKKα]]/[[IKKβ]] activation, creating a self-amplifying loop as NF-κB upregulates RAGE expression; (ii) [[MAPK]] pathways ([[ERK1/2]], [[p38 MAPK]], [[c-Jun N-terminal kinase|JNK]]), promoting [[AP-1]] activation and inflammatory gene expression; (iii) [[JAK/STAT]] signaling, particularly [[STAT3]]; and (iv) [[PI3K]]/[[Akt]] pathway, activating [[mTOR]] and inhibiting [[Autophagy]]. Prolonged RAGE activation shifts cells from transient inflammatory responses to sustained pro-inflammatory and pro-fibrotic states.
+Ligand engagement of RAGE activates multiple downstream signaling cascades: (i) the [[NF-κB]] pathway via [[IKKα]]/[[IKKβ]] activation, creating a self-amplifying loop as NF-κB upregulates RAGE expression; (ii) [[MAPK]] pathways ([[ERK1/2]], [[p38 MAPK]], [[c-Jun N-terminal kinase|JNK]]), promoting [[AP-1]] activation and inflammatory gene expression; (iii) [[JAK]]/[[STAT]] signaling, particularly [[STAT3]]; and (iv) [[PI3K]]/[[Akt]] pathway, activating [[mTOR]] and inhibiting [[Autophagy]]. Prolonged RAGE activation shifts cells from transient inflammatory responses to sustained pro-inflammatory and pro-fibrotic states.
 
 ## Soluble RAGE as a Decoy Receptor
 

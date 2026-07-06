@@ -51,5 +51,5 @@ Anti-androgen therapies (e.g., enzalutamide, abiraterone) are first-line treatme
 ## Linking Summary
 
 - New links added: [[Androgen receptor]], [[Lys630]], [[Prostate Cancer]], [[P300]]
-- Suggested new entity notes to create: [[Enzalutamide]], [[Abiraterone]], [[CBP/p300]]
+- Suggested new entity notes to create: [[Enzalutamide]], [[Abiraterone]], [[CBP]]/[[p300]]
 - Strong connections to strengthen: [[SIRT1]] ↔ [[Androgen receptor]]

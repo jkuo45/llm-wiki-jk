@@ -10,10 +10,6 @@ updated: 2026-07-04
 
 Mitochondrial serine/threonine kinase that recruits Parkin to damaged mitochondria to initiate mitophagy.
 
-## Content from [[adrenochrome/Pink1.md]]
-
-# Pink1
-
 PTEN-induced kinase 1, a mitochondrial serine/threonine-protein kinase that acts as a sensor of mitochondrial health. It recruits [[Parkin]] to damaged mitochondria to initiate [[Mitophagy]].
 
 ## Mitochondrial Targeting and Processing
@@ -40,13 +36,7 @@ Over 50 pathogenic mutations in [[PINK1]] cause autosomal recessive early-onset 
 
 [[Aminochromes]] including [[Adrenochrome]] dissipate the mitochondrial membrane potential, creating the precise signal that Pink1 detects. The Pink1-Parkin axis thus serves as a quality control mechanism against aminochrome-induced mitochondrial damage. Age-related declines in Pink1 expression compromise this protective response, allowing damaged mitochondria to accumulate and perpetuate [[Oxidative Stress]] and [[Inflammation]]. Enhancing Pink1 activity is an emerging therapeutic strategy to counteract mitochondrial dysfunction in [[Aging]] and neurodegeneration.
 
-### Linking Summary
-
 - New links added: [[Parkin]], [[Mitophagy]]
-
-## Content from [[autophagy/Pink1.md]]
-
-# Pink1
 
 **Pink1** (PTEN-induced kinase 1) is a mitochondrial serine/threonine kinase that senses mitochondrial dysfunction and recruits [[Parkin]] to initiate the selective degradation of mitochondria via [[Mitophagy]].
 

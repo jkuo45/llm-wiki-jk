@@ -10,9 +10,6 @@ updated: 2026-07-04
 
 CDK that regulates G1/S transition and S phase progression in complex with cyclin E/A.
 
-## Content from [[cancer/CDK2.md]]
-
-# CDK2
 [[CDK2]] (Cyclin-dependent kinase 2) is a kinase that phosphorylates [[Mcl-1]] at Ser64, enhancing its binding to pro-apoptotic proteins like [[Bim]], [[Noxa]], and [[Bak]].
 
 ### Linking Summary

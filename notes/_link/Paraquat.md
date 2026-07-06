@@ -8,20 +8,11 @@ updated: 2026-07-04
 
 # Paraquat
 
-
-## From [[epigenetics/Paraquat.md]]
-
-# Paraquat
 Paraquat is a chemical compound and toxic herbicide that induces cellular oxidative stress and reactive oxygen species (ROS) production.
 
-### Linking Summary:
 - New links added: [[Oxidative Stress]], [[Senescence]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Paraquat]] <-> [[Oxidative Stress]]
-
-## From [[neuromelanin/Paraquat.md]]
-
-# Paraquat
 
 [[Paraquat]] is a widely used herbicide that is structurally similar to the neurotoxin [[MPP+]]. Exposure to paraquat has been epidemiologically linked to an increased risk of [[Parkinson's Disease]]. Like MPP+, paraquat can cause [[Mitochondrial Dysfunction]] by inhibiting [[Complex I]] and generating [[Reactive Oxygen Species]].
 

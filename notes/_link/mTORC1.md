@@ -13,13 +13,4 @@ Mechanistic target of rapamycin complex 1 (mTORC1) is a nutrient-sensitive prote
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[mTORC1]] ↔ [[mTORC2]], [[mTORC1]] ↔ [[Autophagy|autophagy]], [[mTORC1]] ↔ [[TSC2]]
 
-## Content from [[cancer/mTORC1.md]]
-
-# mTORC1
-
 Mammalian target of rapamycin complex 1 (mTORC1) is a protein complex that functions as a nutrient sensor and regulates protein synthesis and cell growth, often acting downstream of [[PI3K]]/[[Akt]] signaling.
-
-### Linking Summary:
-- New links added:
-- Suggested new entity notes to create:
-- Strong connections to strengthen:

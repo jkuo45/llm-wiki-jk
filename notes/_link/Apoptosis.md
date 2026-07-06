@@ -43,14 +43,9 @@ updated: 2026-05-29
 - [[Cellular Senescence]]: An alternative fate to apoptosis for damaged cells.
 - [[Cancer]]: Often arises when cells fail to undergo apoptosis.
 
-### Linking Summary:
 - New links added: [[Aging]], [[Alzheimer's Disease]], [[Annexin V]], [[Ascorbic Acid]], [[Autophagy]], [[Bax]], [[Bcl-2]], [[Beclin1]], [[Cancer]], [[Cellular Reprogramming]], [[Cellular Senescence]], [[Cytochrome c]], [[DNA Damage]], [[Epigenetics]], [[Honeybee venom]], [[Induced Pluripotent Stem Cells]], [[Inflammation]], [[Ionizing Radiation]], [[Ivermectin]], [[Mitochondria]], [[Neurodegenerative Diseases]], [[Parkinson's Disease]], [[Reactive Oxygen Species]], [[SASP]], [[SIRT1]], [[SIRT6]], [[Sirtuins]], [[Caspase-3]], [[melittin]], [[p53]], [[c-Myc]]
 - Suggested new entity notes to create: [[Cytochrome c]], [[Bax]], [[Bcl-2]], [[Annexin V]], [[Caspase-3]]
 - Strong connections to strengthen: [[Apoptosis]] ↔ [[Mitochondria]], [[Apoptosis]] ↔ [[Cellular Senescence]], [[Apoptosis]] ↔ [[p53]]
-
-## Content from [[neuromelanin/Apoptosis.md]]
-
-# Apoptosis
 
 [[Apoptosis]] is a process of programmed cell death that occurs in multicellular organisms and can be triggered by the sequestration and subsequent release of toxins like [[MPP+]] from [[Neuromelanin]].
 

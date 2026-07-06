@@ -8,11 +8,6 @@ updated: 2026-07-04
 
 # Etoposide
 
-
-## From [[cancer/etoposide.md]]
-
-# etoposide
-
 **Etoposide** (also known as VP-16) is a chemotherapy medication used for the treatment of a number of types of cancer, including testicular cancer, lung cancer, [[Lymphoma]], and [[leukemia]].
 
 ## Mechanism of Action
@@ -26,14 +21,10 @@ Etoposide is frequently used in combination with other agents to enhance its eff
 - [[Caspase-3]]: Its efficacy can be enhanced by restoring caspase-3 expression.
 - [[Cisplatin]]: Often used in combination with cisplatin for lung cancer treatment.
 
-### Linking Summary:
 - New links added: [[Apoptosis]], [[leukemia]], [[Caspase-3]], [[Cisplatin]]
 - Suggested new entity notes to create: [[Cisplatin]]
 - Strong connections to strengthen: [[Etoposide]] ↔ [[Apoptosis]]
 
-## From [[epigenetics/Etoposide.md]]
-
-# Etoposide
 Etoposide is a chemical compound used as a chemotherapy medication that inhibits topoisomerase II, causing DNA double-strand breaks and triggering the DNA damage response.
 
 ### Linking Summary:

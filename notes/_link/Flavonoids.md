@@ -8,11 +8,6 @@ updated: 2026-07-04
 
 # Flavonoids
 
-
-## From [[adrenochrome/Flavonoids.md]]
-
-# Flavonoids
-
 Flavonoids are a diverse group of phytonutrients (plant chemicals) found in almost all fruits and vegetables.
 
 ## Overview
@@ -30,10 +25,6 @@ Flavonoids are a major class of [[Polyphenols]] known for their antioxidant and 
 - New links added: [[Polyphenols]], [[Quercetin]], [[Genistein]], [[Kaempferol]], [[Glycation]], [[Advanced Glycation End Products]], [[Epicatechin]]
 - Suggested new entity notes to create: [[Methylglyoxal]]
 - Strong connections to strengthen: [[Flavonoids]] ↔ [[Antioxidants]]
-
-## From [[oxidative_stress/Flavonoids.md]]
-
-# Flavonoids
 
 ## Definition
 Flavonoids are a class of polyphenolic secondary metabolites found in plants, often responsible for pigments.

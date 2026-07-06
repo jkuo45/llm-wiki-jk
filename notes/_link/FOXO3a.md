@@ -8,20 +8,11 @@ updated: 2026-07-04
 
 # FOXO3a
 
-
-## From [[adrenochrome/FOXO3a.md]]
-
-# FOXO3A
 Forkhead box O3 (FOXO3A) is a transcription factor involved in regulating genes related to apoptosis, cell cycle progression, and oxidative stress resistance. Deacetylation of FOXO3A by sirtuins like [[SIRT5]] can inhibit [[Apoptosis|apoptosis]].
 
-### Linking Summary:
 - New links added: [[SIRT5]], [[Apoptosis]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[FOXO3a]] ↔ [[SIRT5]], [[FOXO3a]] ↔ [[Apoptosis]]
-
-## From [[autophagy/FOXO3a.md]]
-
-# FOXO3a
 
 **FOXO3a** (Forkhead Box O3a) is a transcription factor of the FOXO family that regulates genes involved in cell cycle arrest, apoptosis, and [[Autophagy]].
 
@@ -42,10 +33,6 @@ FOXO3a is a forkhead transcription factor that induces [[Autophagy]] genes ([[LC
 - New links added: [[Autophagy]], [[Intermittent Fasting]], [[Atg]], [[LC3]], [[p62]], [[Atg12]], [[Atg16]], [[Akt]], [[Longevity]], [[Aging]], [[Cellular Homeostasis]], [[Proteotoxicity]]
 - Suggested new entity notes to create: [[Atg]], [[Cellular Homeostasis]], [[Proteotoxicity]]
 - Strong connections to strengthen: [[FOXO3a]] ↔ [[FoxO1]], [[FOXO3a]] ↔ [[Autophagy]]
-
-## From [[sirtuins/FOXO3a.md]]
-
-# FOXO3a
 
 **FOXO3a** (Forkhead Box O3; also encoded by *FOXO3*) is an evolutionarily conserved member of the **Forkhead box class O (FOXO)** transcription factor family. It acts as a central integrator of growth factor signaling, oxidative stress, and longevity pathways. In mammals, FOXO3a regulates genes involved in cell cycle arrest, DNA repair, apoptosis, and reactive oxygen species (ROS) detoxification.
 

@@ -3,7 +3,7 @@
 **Omi/HtrA2** (High temperature requirement protein A2) is a serine protease that is released from the mitochondrial intermembrane space during [[Apoptosis]].
 
 ## Mechanism
-Like [[Cytochrome c]] and [[Smac/DIABLO]], Omi/HtrA2 is released into the cytoplasm following mitochondrial outer membrane permeabilization in the [[Intrinsic Pathway]].
+Like [[Cytochrome c]] and [[Smac]]/[[DIABLO]], Omi/HtrA2 is released into the cytoplasm following mitochondrial outer membrane permeabilization in the [[Intrinsic Pathway]].
 
 ## Function
 Omi/HtrA2 promotes apoptosis through two distinct mechanisms:
@@ -14,9 +14,9 @@ Omi/HtrA2 promotes apoptosis through two distinct mechanisms:
 - [[Intrinsic Pathway]]: A pro-apoptotic factor released from mitochondria.
 - [[Inhibitor of Apoptosis Proteins]]: The primary target of Omi/HtrA2.
 - [[XIAP]]: Directly neutralized by Omi/HtrA2.
-- [[Smac/DIABLO]]: Works alongside Smac/DIABLO to overcome IAP-mediated resistance.
+- [[Smac]]/[[DIABLO]]: Works alongside Smac/DIABLO to overcome IAP-mediated resistance.
 
 ### Linking Summary:
-- New links added: [[Apoptosis]], [[Cytochrome c]], [[Smac/DIABLO]], [[Intrinsic Pathway]], [[Inhibitor of Apoptosis Proteins]], [[XIAP]]
+- New links added: [[Apoptosis]], [[Cytochrome c]], [[Smac]]/[[DIABLO]], [[Intrinsic Pathway]], [[Inhibitor of Apoptosis Proteins]], [[XIAP]]
 - Suggested new entity notes to create: [[XIAP]]
-- Strong connections to strengthen: [[Omi/HtrA2]] ↔ [[XIAP]]
+- Strong connections to strengthen: [[Omi]]/[[HtrA2]] ↔ [[XIAP]]

@@ -8,20 +8,9 @@ updated: 2026-07-04
 
 # HIF1A
 
-
-## From [[adrenochrome/HIF1A.md]]
-
-# HIF1A
-
 Hypoxia-inducible factor 1-alpha, a key transcription factor that mediates the cellular response to low oxygen levels and certain types of mitochondrial stress. It regulates genes involved in glycolysis, angiogenesis, and cell survival.
 
-### Linking Summary
-
 - New links added: [[Mitohormesis]]
-
-## From [[autophagy/HIF1A.md]]
-
-# HIF1A
 
 HIF1A (Hypoxia-Inducible Factor 1 Subunit Alpha) is a stress-responsive transcription factor that regulates the cellular response to [[Hypoxia|low oxygen levels]] and can modulate [[Macroautophagy|autophagy]].
 

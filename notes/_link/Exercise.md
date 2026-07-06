@@ -33,10 +33,6 @@ updated: 2026-07-04
 - Suggested new entity notes to create: [[BDNF]], [[VO2max]], [[HIIT]]
 - Strong connections to strengthen: [[Exercise]] ↔ [[Mitohormesis]]
 
-## Content from [[sirtuins/Exercise.md]]
-
-# Exercise
-
 [[Exercise]] is a structured, repetitive physical activity that induces acute and chronic adaptations in [[Metabolism|metabolism]], [[Cardiovascular Disease|cardiovascular]] function, [[Mitochondria|mitochondrial]] capacity, and [[Neuroplasticity|neuroplasticity]]. It is one of the most potent non-pharmacological interventions for extending healthspan and delaying [[Aging|aging]].
 
 ## Sirtuin Connections
@@ -54,7 +50,5 @@ updated: 2026-07-04
 - [[Mitochondrial Biogenesis]]: A primary exercise adaptation dependent on the SIRT1/PGC-1α axis.
 - [[Autophagy]]: Exercise promotes [[Autophagy|autophagy]] in a SIRT1-dependent manner.
 - [[Longevity]]: Regular [[Exercise]] is associated with reduced all-cause mortality and extended healthspan.
-
-### Linking Summary:
 
 - New links added: [[SIRT1]], [[SIRT3]], [[SIRT6]], [[NAD+]], [[PGC-1α]], [[Mitochondrial Biogenesis]], [[Insulin Sensitivity]], [[BDNF]], [[Neurogenesis]], [[Autophagy]], [[Caloric Restriction]], [[Intermittent Fasting]], [[Mitochondria]], [[OXPHOS]], [[Reactive Oxygen Species]], [[DNA Repair]], [[Cardiovascular Disease]], [[Brain]], [[Longevity]]

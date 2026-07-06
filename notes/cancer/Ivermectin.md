@@ -6,7 +6,7 @@ Ivermectin is a macrolide [[antiparasitic drug]] with a 16-membered ring that is
 Ivermectin has been reported to inhibit the proliferation of several tumor cells by regulating multiple signaling pathways. It exerts powerful antitumor effects, including the inhibition of proliferation, [[Metastasis]], and [[angiogenic activity]].
 
 ### Mechanisms of Action
-- **Inhibition of Signaling Pathways:** Regulates [[Wnt/β-catenin]], [[Akt/mTOR]], and [[MAPK]] pathways.
+- **Inhibition of Signaling Pathways:** Regulates [[Wnt/β-catenin]], [[Akt]]/[[mTOR]], and [[MAPK]] pathways.
 - **Molecular Targets:** Primarily acts as a [[PAK1]] inhibitor. Also inhibits [[YAP1]], [[HSP27]], and [[KPNB1]].
 - **Programmed Cell Death:** Induces [[Apoptosis]], [[Autophagy]], and [[Pyroptosis]].
 - **Tumor Microenvironment:** Regulates the tumor microenvironment and mediates immunogenic cell death (e.g., through [[HMGB1]] release).

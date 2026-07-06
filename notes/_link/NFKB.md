@@ -109,8 +109,6 @@ NF-κB is a master regulator of the **Senescence-Associated Secretory Phenotype 
 - **[[Inflammation]]** — NF-κB is the master transcriptional driver of inflammatory pathology.
 - **[[Apoptosis]]** — NF-κB transcriptional suppression by sirtuins sensitizes cells to TNF-α-induced apoptosis.
 
-### Linking Summary
-
 - New links added: [[SIRT1]], [[SIRT2]], [[SIRT3]], [[SIRT6]], [[Inflammation]], [[Apoptosis]]
 - Suggested new entity notes to create: [[TNFα]], [[MnSOD]], [[IκB]], [[RelA]]
 - Strong connections to strengthen: [[SIRT1]] ↔ [[NFKB]], [[SIRT6]] ↔ [[NFKB]], [[Inflammation]] ↔ [[NFKB]]

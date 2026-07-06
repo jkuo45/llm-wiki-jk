@@ -8,11 +8,6 @@ updated: 2026-07-04
 
 # Oxidation
 
-
-## From [[adrenochrome/Oxidation.md]]
-
-# Oxidation
-
 Oxidation is a concept related to [[Adrenochrome]] and catecholamine metabolism.
 
 ## Chemical Principles
@@ -33,16 +28,11 @@ Catecholamine oxidation proceeds through sequential one-electron transfers. The 
 
 Oxidation is both a normal metabolic fate and a pathological liability for catecholamines. Under physiological conditions, enzymatic oxidation via [[MAO]] and [[COMT]] produces inactive metabolites cleared by the kidney. However, when enzymatic capacity is overwhelmed or antioxidant defenses are compromised, non-enzymatic oxidation divers catecholamine flux toward [[Aminochromes]] and melanin-like polymers. The accumulation of oxidized catecholamine species in [[Substantia Nigra]] dopaminergic neurons — forming [[Neuromelanin]] — is a hallmark of [[Parkinson's Disease]] and normal aging. The intersection of oxidation, [[Mitochondrial Dysfunction]], and accumulated macromolecular damage represents a core tenet of the [[Free radical theory of aging]].
 
-### Linking Summary:
 - New links added: [[Adrenochrome]]
 
 ## Updated Links
 
 - Additional new links: [[Reactive Oxygen Species]], [[o-semiquinone]], [[MAO]], [[COMT]], [[Cyclooxygenases]], [[Lipoxygenases]], [[Myeloperoxidase]], [[Hypochlorous Acid]], [[Superoxide]], [[Hydrogen Peroxide]], [[EPR spectroscopy]], [[o-quinone]], [[Oxidative Stress]], [[Aminochromes]], [[Substantia Nigra]], [[Neuromelanin]], [[Parkinson's Disease]], [[Mitochondrial Dysfunction]], [[Free radical theory of aging]]
-
-## From [[neuromelanin/Oxidation.md]]
-
-# Oxidation
 
 [[Oxidation]] is a chemical reaction involving the loss of electrons, often resulting in the formation of [[Quinones]] from catechol compounds. In the context of the brain, the oxidation of [[Dopamine]] and other catecholamines is the initiating step for [[Neuromelanin]] biosynthesis. Uncontrolled oxidation contributes to [[Oxidative Stress]] and is implicated in the selective vulnerability of dopaminergic neurons in [[Parkinson's Disease]].
 

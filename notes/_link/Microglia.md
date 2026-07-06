@@ -15,13 +15,8 @@ Microglia originate from yolk-sac progenitors during early embryogenesis and are
 ## Role in Parkinson's Disease
 The release of extracellular [[Neuromelanin]] from dying dopaminergic neurons acts as a potent activator of microglia. This triggers a chronic [[Neuroinflammation|neuroinflammatory]] response that perpetuates neuronal loss in the [[Substantia Nigra]].
 
-### Linking Summary:
 - New links added: [[Parkinson's Disease]], [[Neuromelanin]], [[Microgliosis]], [[Neuronophagia]], [[Cytokines]], [[Reactive Oxygen Species]], [[Neuroinflammation]], [[Substantia Nigra]]
 - Strong connections to strengthen: [[Microglia]] ↔ [[Microgliosis]], [[Microglia]] ↔ [[Neuroinflammation]]
-
-## Content from [[neuromelanin/Microglia.md]]
-
-# Microglia
 
 [[Microglia]] are the resident macrophages and primary immune cells of the central nervous system. They play a crucial role in maintaining brain homeostasis and responding to injury or infection. In [[Parkinson's Disease]], activated microglia are localized in [[Neuromelanin]]-containing areas and are involved in [[Microgliosis]] and [[Neuronophagia]].
 

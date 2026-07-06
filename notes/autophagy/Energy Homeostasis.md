@@ -18,5 +18,5 @@ Energy homeostasis is the balance between energy intake, storage, and expenditur
 ### Linking Summary
 
 - New links added: [[AMPK]], [[TFEB]], [[Autophagy]]
-- Suggested new entity notes to create: [[ATP/AMP ratio]]
+- Suggested new entity notes to create: [[ATP]]/[[AMP]] ratio
 - Strong connections to strengthen: [[Energy Homeostasis]] ↔ [[AMPK]]

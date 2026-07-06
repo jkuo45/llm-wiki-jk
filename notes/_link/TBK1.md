@@ -9,13 +9,8 @@ updated: 2024-01-01
 
 TANK-binding kinase 1, an enzyme involved in the innate immune response, activated by [[STING]] and regulated by [[TFEB]].
 
-### Linking Summary
-
 - New links added: [[STING]], [[TFEB]]
 
-## Content from [[cancer/TBK1.md]]
-
-# TBK1
 [[TBK1]] (TANK-binding kinase 1) is a kinase involved in innate immunity and cell survival. It phosphorylates [[XIAP]] at Ser430, leading to its autoubiquitination and degradation, particularly in [[Colon Cancer]] cells.
 
 ### Linking Summary

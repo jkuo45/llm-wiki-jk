@@ -41,10 +41,6 @@ HO-1 expression is primarily regulated by [[NRF2]] via the [[ARE|Antioxidant Res
 - Suggested new entity notes to create: [[Biliverdin]], [[Bilirubin]], [[Carbon Monoxide]]
 - Strong connections to strengthen: [[HO-1]] ↔ [[NRF2]], [[HO-1]] ↔ [[Oxidative Stress]]
 
-## Content from [[adrenochrome/HO-1.md]]
-
-# HO-1
-
 **HO-1 (Heme oxygenase 1)** is an enzyme that catalyzes the degradation of heme and is strongly induced by oxidative stress via the [[NRF2]]/ARE pathway, providing potent antioxidant and anti-inflammatory effects.
 
 ## Catalytic Mechanism

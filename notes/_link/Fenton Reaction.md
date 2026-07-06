@@ -8,20 +8,10 @@ updated: 2026-07-04
 
 # Fenton Reaction
 
-
-## From [[neuromelanin/Fenton Reaction.md]]
-
-# Fenton Reaction
-
 The [[Fenton Reaction]] is a chemical process in which [[Iron]] (Fe²⁺) reduces hydrogen peroxide (H₂O₂) to generate the highly reactive hydroxyl radical (•OH), a potent [[Reactive Oxygen Species]]. In the brain, iron sequestered by [[Neuromelanin]] can participate in Fenton chemistry, contributing to [[Oxidative Stress]] and neurodegeneration in [[Parkinson's Disease]].
 
-### Linking Summary:
 - New links added: [[Iron]], [[Reactive Oxygen Species]], [[Neuromelanin]], [[Oxidative Stress]], [[Parkinson's Disease]]
 - Strong connections to strengthen: [[Fenton Reaction]] ↔ [[Iron]]
-
-## From [[oxidative_stress/Fenton reaction.md]]
-
-# Fenton Reaction
 
 The Fenton reaction is a catalytic process that involves the reaction of [[Hydrogen Peroxide]] with ferrous iron (Fe2+) to produce highly reactive [[Hydroxyl Radicals]].
 

@@ -8,11 +8,6 @@ updated: 2026-07-04
 
 # FOXO4
 
-
-## From [[autophagy/FOXO4.md]]
-
-# FOXO4
-
 **FOXO4** (Forkhead Box O4) is a transcription factor belonging to the FOXO family, involved in cellular senescence, stress response, and [[Autophagy]].
 
 ## Function
@@ -28,10 +23,6 @@ FOXO4 is a forkhead transcription factor that regulates stress resistance, [[Aut
 - New links added: [[Autophagy]], [[FoxO1]], [[FOXO3a]], [[Senescence]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[FOXO4]] ↔ [[FOXO3a]], [[FOXO4]] ↔ [[Senescence]]
-
-## From [[sirtuins/FOXO4.md]]
-
-# FOXO4
 
 **FOXO4** (Forkhead Box O4; also encoded by *FOXO4*, originally called AFX) is a mammalian member of the **Forkhead box class O (FOXO)** transcription factor family. Like its counterparts [[FoxO1]] and [[FOXO3a]], FOXO4 integrates extracellular signals, oxidative stress, and metabolic cues to regulate transcription of genes responsible for cell cycle progression, DNA repair, and senescence.
 

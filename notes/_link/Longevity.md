@@ -9,14 +9,9 @@ updated: 2024-01-01
 
 Longevity refers to the capacity of an organism to survive beyond the average lifespan, often influenced by a combination of genetic, environmental, and lifestyle factors.
 
-### Linking Summary:
 - New links added: [[Aging]], [[Genotype]], [[Successful Aging]], [[Centenarians]]
 - Suggested new entity notes to create: [[Lifespan]]
 - Strong connections to strengthen: [[Longevity]] ↔ [[Epigenetics]]
-
-## Content from [[adrenochrome/Longevity.md]]
-
-# Longevity
 
 Longevity refers to a long duration of individual life. It is influenced by genetic and environmental factors, and research into [[Aging]] often focuses on mechanisms to promote longevity, such as reducing [[Advanced Glycation End Products|AGEs]].
 

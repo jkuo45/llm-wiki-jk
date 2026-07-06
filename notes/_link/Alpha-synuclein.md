@@ -9,26 +9,15 @@ updated: 2024-01-01
 
 A protein that is abundant in the human brain and is linked to [[Parkinson's Disease]].
 
-### Linking Summary
-
 - New links added: [[Parkinson's Disease]], [[TFEB]]
-
 
 ---
 
 ### Merged from notes/autophagy/Alpha-synuclein.md
 
-# Alpha-synuclein
-
 A protein that is abundant in the human brain and is linked to [[Parkinson's Disease]]; its clearance is promoted by [[TFEB]].
 
-### Linking Summary
-
 - New links added: [[Parkinson's Disease]], [[TFEB]]
-
-## Content from [[neuromelanin/Alpha-Synuclein.md]]
-
-# Alpha-Synuclein
 
 [[Alpha-synuclein]] (α-synuclein) is a protein that is abundant in the human brain, primarily found at the tips of nerve cells in specialized structures called presynaptic terminals.
 

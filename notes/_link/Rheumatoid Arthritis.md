@@ -13,11 +13,6 @@ updated: 2026-07-06
 
 # Rheumatoid Arthritis
 
-
-## From [[adrenochrome/Rheumatoid Arthritis.md]]
-
-# Rheumatoid Arthritis
-
 Rheumatoid arthritis (RA) is a long-term, progressive, and disabling autoimmune disease that causes inflammation, swelling, and pain in and around the joints and other body organs. The accumulation of [[Advanced Glycation End Products|AGEs]] in synovial fluid and tissues is associated with the inflammatory processes in RA.
 
 ### Linking Summary:
@@ -25,9 +20,6 @@ Rheumatoid arthritis (RA) is a long-term, progressive, and disabling autoimmune 
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Inflammation]] ↔ [[Rheumatoid Arthritis]]
 
-## From [[oxidative_stress/Rheumatoid Arthritis.md]]
-
-# Rheumatoid Arthritis
 Rheumatoid arthritis (RA) is a long-term autoimmune disorder that primarily affects joints. It involves persistent synovial [[Inflammation]] and is often exacerbated by [[Oxidative Stress]], with pro-inflammatory cytokines like [[TNF-alpha]] playing a major role in tissue damage.
 
 ## Linking Summary

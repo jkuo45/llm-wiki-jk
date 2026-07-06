@@ -33,10 +33,6 @@ LC3 is conjugated to phosphatidylethanolamine (PE) to form lipidated LC3-II, whi
 - Suggested new entity notes to create: [[LC3-II]], [[LIR motif]], [[Atg4]]
 - Strong connections to strengthen: [[LC3]] ↔ [[Autophagy]]
 
-## Content from [[autophagy/LC3.md]]
-
-# LC3
-
 **LC3** (Microtubule-associated protein 1 Light Chain 3) is a mammalian ortholog of the yeast [[Atg8]] protein and a central marker for [[Autophagy]].
 
 ## Processing and Lipidation

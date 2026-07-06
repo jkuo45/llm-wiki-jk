@@ -9,17 +9,13 @@ updated: 2024-01-01
 
 [[TFEB]] (Transcription Factor EB) is a master regulator of the autophagy-lysosome pathway. It coordinates the expression of genes involved in lysosomal biogenesis, [[Autophagy]], and lysosomal exocytosis. Overexpression of TFEB has been shown to promote the clearance of [[Neuromelanin]] and protect against neurodegeneration in models of [[Parkinson's Disease]].
 
-### Linking Summary:
 - New links added: [[Autophagy]], [[Neuromelanin]], [[Parkinson's Disease]], [[Proteostasis]].
 - Suggested new entity notes to create: [[Lysosomal Biogenesis]], [[Lysosomal Exocytosis]].
 - Strong connections to strengthen: [[TFEB]] ↔ [[Autophagy]].
 
-
 ---
 
 ### Merged from notes/autophagy/TFEB.md
-
-# TFEB
 
 **TFEB** (Transcription Factor EB) is a master regulator of [[Autophagy]] and [[Lysosome]] biogenesis. It coordinates the expression of the lysosomal and autophagic genome by binding to [[CLEAR Element]]s.
 
@@ -35,7 +31,6 @@ updated: 2024-01-01
 ## Role in Rejuvenation
 - TFEB translation is a key step in reversing [[B Cell]] [[Senescence]] in an autophagy-dependent manner.
 
-### Linking Summary:
 - New links added: [[Autophagy]], [[Lysosome]], [[CLEAR Element]], [[TFE3]], [[Autophagosome]], [[mTORC1]], [[calcineurin]], [[eIF5A]], [[Spermidine]], [[B Cell]], [[Senescence]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[TFEB]] ↔ [[TFE3]], [[TFEB]] ↔ [[CLEAR Element]]

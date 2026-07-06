@@ -12,17 +12,13 @@ updated: 2024-01-01
 ## SASP-Remodeling Aminochrome Complex (SRAC)
 In the [[SASP-Remodeling Aminochrome Complex]] strategy, Rapamycin acts as a "brake." It ensures that [[Adrenochrome]]-induced ROS signals are diverted from pro-inflammatory [[SASP]] production toward a quiescent-like "senomorphic" state.
 
-### Linking Summary:
 - New links added: [[Autophagy]], [[Parkinson's Disease]], [[Proteostasis]], [[SASP-Remodeling Aminochrome Complex]], [[Adrenochrome]], [[SASP]].
 - Suggested new entity notes to create: [[mTOR]], [[mTOR Inhibition]].
 - Strong connections to strengthen: [[Rapamycin]] ↔ [[Autophagy]], [[Rapamycin]] ↔ [[SASP-Remodeling Aminochrome Complex]].
 
-
 ---
 
 ### Merged from notes/autophagy/Rapamycin.md
-
-# Rapamycin
 
 Rapamycin (also known as Sirolimus) is a potent immunosuppressant and [[Autophagy]] inducer that specifically inhibits the [[mTORC1]] complex.
 

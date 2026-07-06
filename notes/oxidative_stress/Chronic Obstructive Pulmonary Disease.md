@@ -78,7 +78,7 @@ The **elastase-antielastase hypothesis** is central to COPD pathogenesis:
 ### Corticosteroid Resistance
 A hallmark of severe COPD is **resistance to [[Glucocorticoid]] therapy**:
 - **HDAC2 inactivation**: [[H₂O₂]] and [[Peroxynitrite|ONOO⁻]] oxidize and nitrate [[HDAC2]], reducing its deacetylase activity by >50%
-- **Impaired glucocorticoid receptor (GR) function**: Oxidative modification of GRα prevents its nuclear translocation and interaction with [[Notes/_link/Histone Acetylation|acetylated histones]]
+- **Impaired glucocorticoid receptor (GR) function**: Oxidative modification of GRα prevents its nuclear translocation and interaction with [[Histone Acetylation|acetylated histones]]
 - **PI₃Kδ activation**: ROS-activated [[PI3K]]/[[Akt]] signaling further reduces HDAC2 expression
 - **Clinical consequence**: Reduced efficacy of inhaled corticosteroids, necessitating higher doses
 

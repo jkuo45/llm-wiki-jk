@@ -12,5 +12,5 @@ The [[TGF-beta Receptor|TGF-β receptors]] are single-pass serine/threonine kina
 ### Linking Summary:
 
 - New links added: [[TGF-beta1]], [[SMAD Proteins]], [[Transcription]]
-- Suggested new entity notes to create: [[Serine/Threonine Kinase]]
+- Suggested new entity notes to create: Serine/Threonine Kinase
 - Strong connections to strengthen: [[TGF-beta Receptor]] ↔ [[Quiescence]]

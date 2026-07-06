@@ -10,10 +10,6 @@ updated: 2026-07-04
 
 Transcription factor regulated by Akt that controls gluconeogenesis, adipogenesis, and beta-cell function.
 
-## Content from [[autophagy/FOXO1.md]]
-
-# FOXO1
-
 **FOXO1** (Forkhead Box O1) is a transcription factor that plays a central role in regulating metabolism, cell survival, and [[Autophagy]].
 
 ## Regulation by Insulin/Akt
@@ -34,10 +30,6 @@ FOXO1 is a forkhead transcription factor that regulates [[Autophagy]], metabolis
 - New links added: [[Autophagy]], [[IGF1]], [[Akt]], [[Caloric Restriction]], [[Intermittent Fasting]], [[Atg]], [[Atg5]], [[Atg8]], [[LC3]], [[ULK1]], [[Gluconeogenesis]]
 - Suggested new entity notes to create: , [[Atg]]
 - Strong connections to strengthen: [[FoxO1]] ↔ [[Akt]], [[FoxO1]] ↔ [[Autophagy]]
-
-## Content from [[sirtuins/FOXO1.md]]
-
-# FOXO1
 
 **FOXO1** (Forkhead Box O1; also known as Foxo1 or FKHR) is a member of the **Forkhead box class O (FOXO)** family of transcription factors and a key regulatory target of [[SIRT1]] in metabolism, cell survival, and cancer biology. FOXO1 integrates sirtuin-mediated deacetylation with insulin/IGF-1 signalling, adipogenesis, and pancreatic β-cell function.
 

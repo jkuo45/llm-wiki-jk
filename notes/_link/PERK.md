@@ -8,20 +8,9 @@ updated: 2026-07-04
 
 # PERK
 
-
-## From [[adrenochrome/PERK.md]]
-
-# PERK
-
 Protein kinase RNA-activated-like ER kinase (encoded by the [[EIF2AK3]] gene). PERK is a key sensor of the integrated stress response that phosphorylates [[EIF2A]], leading to a global reduction in protein synthesis while selectively increasing the translation of [[ATF4]].
 
-### Linking Summary
-
 - New links added: [[EIF2AK3]], [[EIF2A]], [[ATF4]]
-
-## From [[autophagy/PERK.md]]
-
-# PERK
 
 Protein kinase RNA-like endoplasmic reticulum kinase, an ER transmembrane protein that senses misfolded proteins and activates the [[Unfolded Protein Response]].
 
@@ -34,7 +23,5 @@ PERK-mediated eIF2α phosphorylation induces [[Autophagy]] as a cytoprotective r
 ## Pathological Implications
 
 Chronic PERK activation is linked to [[Neurodegenerative Diseases]] (Alzheimer's, Parkinson's, prion disorders), [[Type 2 Diabetes Mellitus]] (β-cell loss), and [[Cancer]] (tumor adaptation to microenvironmental stress). PERK inhibitors are being explored as cancer therapeutics.
-
-### Linking Summary
 
 - New links added: [[Unfolded Protein Response]]

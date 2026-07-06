@@ -8,11 +8,6 @@ updated: 2026-07-04
 
 # Glutathione Peroxidase
 
-
-## From [[adrenochrome/Glutathione peroxidase.md]]
-
-# Glutathione peroxidase
-
 Glutathione peroxidase (GPx) is an enzyme family with peroxidase activity whose main biological role is to protect the organism from oxidative damage.
 
 ## Overview
@@ -24,10 +19,6 @@ GPx reduces lipid hydroperoxides to their corresponding alcohols and reduces fre
 - New links added: [[Hydrogen Peroxide]], [[Glycation]], [[Oxidative Stress]]
 - Suggested new entity notes to create: [[Glutathione]]
 - Strong connections to strengthen: [[Glutathione Peroxidase]] ↔ [[Oxidative Stress]]
-
-## From [[oxidative_stress/Glutathione Peroxidase.md]]
-
-# Glutathione Peroxidase
 
 ## Definition
 Glutathione peroxidase (GPx) is the general name of an enzyme family with peroxidase activity whose main biological role is to protect the organism from oxidative damage.

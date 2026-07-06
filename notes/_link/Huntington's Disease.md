@@ -23,16 +23,11 @@ updated: 2024-01-01
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[Huntington's Disease]] ↔ [[Neurodegenerative Diseases|Neurodegenerative Disease]], [[Huntington's Disease]] ↔ [[Autophagy]]
 
-
 ---
 
 ### Merged from notes/autophagy/Huntington's Disease.md
 
-# Huntington's Disease
-
 Huntington's disease (HD) is a neurodegenerative disorder characterized by protein aggregation; increasing [[TFEB]] function via [[PGC-1α]] has been shown to rescue its proteotoxicity.
-
-### Linking Summary
 
 - New links added: [[TFEB]], [[PGC-1α]]
 - Suggested new entity notes to create: [[Neurodegenerative Disease]]

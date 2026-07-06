@@ -9,18 +9,13 @@ updated: 2024-01-01
 
 [[Hematopoietic Stem Cell|Hematopoietic stem cells]] ([[HSC|HSCs]]) are the stem cells that give rise to all the other blood cells through the process of haematopoiesis. They reside in the Bone Marrow and are often in a state of [[Quiescence]].
 
-### Linking Summary:
-
 - New links added: [[Quiescence]], Bone Marrow, [[Metabolism]]
 - Suggested new entity notes to create: [[Mitophagy]], [[Mitochondria]]
 - Strong connections to strengthen: [[Hematopoietic Stem Cell]] ↔ [[Immune System]]
 
-
 ---
 
 ### Merged from notes/autophagy/Hematopoietic Stem Cell.md
-
-# Hematopoietic Stem Cell
 
 **Hematopoietic Stem Cells** (HSCs) are multipotent precursors with the capacity to both self-renew and differentiate into functional immune cells, red blood cells, and platelets.
 

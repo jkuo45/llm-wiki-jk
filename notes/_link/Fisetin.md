@@ -48,8 +48,6 @@ Research indicates that [[Fisetin]] can enhance the plasma levels of other [[Fla
 
 ---
 
-### Linking Summary:
-
 - New links added: [[Flavonoids]], [[COMT]], [[COMT Inhibitors]], [[EGCG]], [[Quercetin]], [[Senescence]], [[Senomorphics]], [[SASP-Remodeling Aminochrome Complex]], [[Adrenochrome]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Fisetin]] ↔ [[Senescence]], [[Fisetin]] ↔ [[SASP-Remodeling Aminochrome Complex]], [[Fisetin]] ↔ [[COMT]]

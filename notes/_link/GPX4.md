@@ -10,10 +10,6 @@ updated: 2026-07-04
 
 Selenoprotein that reduces phospholipid hydroperoxides, a key inhibitor of ferroptosis.
 
-## Content from [[oxidative_stress/GPx4.md]]
-
-# GPx4
-
 **GPx4 (Glutathione Peroxidase 4, Phospholipid Hydroperoxide Glutathione Peroxidase, PHGPx)** is a selenium-dependent antioxidant enzyme that uniquely reduces complex lipid hydroperoxides within membranes and lipoproteins, functioning as the master negative regulator of [[Ferroptosis|ferroptosis]].
 
 ## Structural & Functional Distinctions

@@ -54,11 +54,7 @@ Oral bioavailability < 1%. Formulation strategies include liposomal curcumin, Me
 - [[Oxidative Stress]] — Dual pro/antioxidant effects
 - [[Piperine]] — Bioavailability enhancer
 
-
-
 ## Additional Content from Topic Directory
-
-# Curcumin
 
 **Curcumin** is a polyphenolic compound derived from the rhizome of *[[Curcuma longa]]* (turmeric). It is a [[Phytochemicals|phytochemical]] with pleiotropic biological activities relevant to aging and senescence, including [[Histone Acetyltransferase]] (HAT) inhibition, [[NF-κB]] suppression, and [[Oxidative Stress|antioxidant]] activity. Despite extensive study, its translation to clinical use is limited by poor bioavailability and off-target promiscuity.
 

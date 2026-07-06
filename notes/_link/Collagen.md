@@ -8,11 +8,6 @@ updated: 2026-07-04
 
 # Collagen
 
-
-## From [[adrenochrome/Collagen.md]]
-
-# Collagen
-
 Collagen is the main structural protein in the extracellular matrix of various connective tissues in the body.
 
 ## Overview
@@ -31,13 +26,7 @@ Collagen provides structural support and elasticity to tissues such as skin, blo
 - Suggested new entity notes to create: [[Extracellular Matrix]]
 - Strong connections to strengthen: [[Collagen]] ↔ [[Aging]]
 
-## From [[epigenetics/Collagen.md]]
-
-# Collagen
-
 [[Collagen]] is the main structural protein in the extracellular matrix found in the body's various connective tissues.
-
-### Linking Summary:
 
 - New links added: [[Extracellular Matrix]], [[ECM]], [[Fibroblast]]
 - Suggested new entity notes to create: [[Connective Tissue]]

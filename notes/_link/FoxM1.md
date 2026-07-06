@@ -17,4 +17,3 @@ updated: 2026-07-05
 - **[[SIRT7]]**: Silencing FoxM1 promotes apoptosis and autophagy through the SIRT7/mTOR/IGF2 pathway in gastric cancer cells. FoxM1 is indirectly regulated by SIRT7-mediated signaling.
 
 ## Linking Summary
-

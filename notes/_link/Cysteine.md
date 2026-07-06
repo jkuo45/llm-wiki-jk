@@ -8,11 +8,6 @@ updated: 2026-07-04
 
 # Cysteine
 
-
-## From [[adrenochrome/Cysteine.md]]
-
-# Cysteine
-
 **Cysteine** is a semi-essential proteinogenic amino acid.
 
 ## Antioxidant Role
@@ -22,10 +17,6 @@ In some pharmaceutical formulations, cysteine is explored as a sulfite-free alte
 - [[Antioxidants]]
 - [[Epinephrine]]
 - [[Sodium Metabisulfite]]
-
-## From [[neuromelanin/Cysteine.md]]
-
-# Cysteine
 
 [[Cysteine]] is a sulfur-containing amino acid that plays a crucial role in the biosynthesis of [[Pheomelanin]] and is incorporated into the core of [[Neuromelanin]].
 

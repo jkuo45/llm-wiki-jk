@@ -18,4 +18,4 @@ See [[MiTF TFE family]] for comprehensive information. Consists of [[MITF]], [[T
 
 - New links added: [[TFEB]], [[TFE3]], [[MITF]], [[TFEC]], [[CLEAR Element]]
 - Suggested new entity notes to create: [[bHLH-LZ Transcription Factors]]
-- Strong connections to strengthen: [[MiT/TFE family]] ↔ [[TFEB]]
+- Strong connections to strengthen: [[MiT]]/[[TFE]] family ↔ [[TFEB]]

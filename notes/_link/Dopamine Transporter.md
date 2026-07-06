@@ -44,7 +44,5 @@ The regional complementarity between DAT and COMT is a key principle of catechol
 
 ---
 
-### Linking Summary:
-
 - New links added: [[Dopamine]], [[Sirtuins]], [[Prefrontal Cortex]], [[COMT]], [[DAT]], [[Norepinephrine transporter]], [[Vesicular Monoamine Transporter 2]]
 - Strong connections to strengthen: [[Dopamine]] ↔ [[Dopamine Transporter]], [[COMT]] ↔ [[Dopamine Transporter]]

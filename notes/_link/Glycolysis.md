@@ -8,21 +8,12 @@ updated: 2026-07-04
 
 # Glycolysis
 
-
-## From [[adrenochrome/Glycolysis.md]]
-
-# Glycolysis
-
 Glycolysis is the metabolic pathway that converts glucose into pyruvate. A byproduct of this pathway is the formation of [[Methylglyoxal]], a potent precursor for [[Advanced Glycation End Products|AGEs]].
 
 ### Linking Summary:
 - New links added: [[Glucose]], [[Methylglyoxal]], [[Advanced Glycation End Products]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Glycolysis]] ↔ [[Methylglyoxal]]
-
-## From [[cancer/Glycolysis.md]]
-
-# Glycolysis
 
 [[Glycolysis]] is the metabolic pathway that converts [[Glucose]] into [[pyruvate]], releasing energy in the form of [[ATP]] and [[NADH]]. In [[Cancer]] cells, glycolysis is often upregulated even in the presence of oxygen, a phenomenon known as the [[Warburg Effect]].
 

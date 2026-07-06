@@ -35,7 +35,7 @@ The susceptibility of individual amino acid side chains to [[Reactive Oxygen Spe
 | Amino Acid | ROS Susceptibility | Major Oxidative Products | Biological Consequence |
 |------------|-------------------|------------------------|----------------------|
 | **Cysteine** (Cys) | Very High (k ≈ 10⁸–10⁹ M⁻¹s⁻¹) | Sulfenic (−SOH), sulfinic (−SO₂H), sulfonic (−SO₃H) acids; disulfides (−S−S−); S-nitrosothiols (−SNO) | Redox signaling; enzyme inactivation; structural disulfide scrambling |
-| **Methionine** (Met) | High (k ≈ 10⁷–10⁸ M⁻¹s⁻¹) | Methionine sulfoxide (MetSO); methionine sulfone (MetSO₂) | Loss of function; repaired by [[MsrA/MsrB]] |
+| **Methionine** (Met) | High (k ≈ 10⁷–10⁸ M⁻¹s⁻¹) | Methionine sulfoxide (MetSO); methionine sulfone (MetSO₂) | Loss of function; repaired by [[MsrA]]/[[MsrB]] |
 | **Tryptophan** (Trp) | High | N-formylkynurenine; kynurenine; 5-hydroxytryptophan | Fluorescence loss; protein aggregation |
 | **Tyrosine** (Tyr) | Moderate | Dityrosine; 3,4-dihydroxyphenylalanine (DOPA); 3-nitrotyrosine (with RNS) | Cross-linking; nitration biomarker |
 | **Histidine** (His) | Moderate | 2-oxohistidine; 4-hydroxyglutamate | Metal-binding disruption; enzyme inactivation |

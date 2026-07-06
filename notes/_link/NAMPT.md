@@ -8,20 +8,12 @@ updated: 2026-07-04
 
 # NAMPT
 
-
-## From [[adrenochrome/NAMPT.md]]
-
-# NAMPT
 NAMPT (Nicotinamide phosphoribosyltransferase) is a key enzyme in the salvage pathway of NAD+ biosynthesis, whose levels decrease significantly in various tissues during aging.
 
 ### Linking Summary
 - New links added: [[NAD+]], [[Aging]]
 - Suggested new entity notes to create: [[Nicotinamide phosphoribosyltransferase]], [[Salvage pathway]]
 - Strong connections to strengthen: [[NAMPT]] ↔ [[NAD+]]
-
-## From [[sirtuins/NAMPT.md]]
-
-# NAMPT (Nicotinamide Phosphoribosyltransferase)
 
 **Nicotinamide Phosphoribosyltransferase** (NAMPT) is the rate-limiting enzyme in the nicotinamide adenine dinucleotide ([[NAD+]]) salvage pathway in mammals. It converts nicotinamide (NAM) and 5-phosphoribosyl-1-pyrophosphate (PRPP) into nicotinamide mononucleotide ([[Nicotinamide Mononucleotide|NMN]]), which is then converted into NAD⁺ by NMN adenylyltransferases ([[NMNAT]]).
 

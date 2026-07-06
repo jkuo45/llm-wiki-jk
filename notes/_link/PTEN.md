@@ -28,17 +28,14 @@ Mice with an extra copy of the PTEN gene ("Super-PTEN" mice) are more resistant 
 - **[[Cancer]]**: PTEN is a major tumor suppressor.
 - **[[MAPK]]**: PTEN can also cross-talk with the MAPK pathway to regulate cell survival.
 
-### Linking Summary:
 - New links added: [[PTEN]], [[mTOR]], [[Autophagy]], [[Aging]], [[Cancer]], [[Cellular Senescence]], [[MAPK]]
 - Suggested new entity notes to create: [[Tumor Suppressor]], [[PI3K Pathway]], [[Akt Kinase]]
 - Strong connections to strengthen: [[PTEN]] ↔ [[mTOR]], [[PTEN]] ↔ [[Aging]]
-
 
 ---
 
 ### Merged from notes/autophagy/PTEN.md
 
-# PTEN
 Phosphatase and tensin homolog (PTEN) is a major tumor suppressor and lipid phosphatase that negatively regulates the [[PI3K]]/[[Akt|AKT]]/[[mTOR]] pathway by dephosphorylating PIP3.
 
 ### Linking Summary:

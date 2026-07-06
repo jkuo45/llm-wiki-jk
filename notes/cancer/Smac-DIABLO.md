@@ -20,4 +20,4 @@ The discovery of Smac/DIABLO has led to the development of **Smac mimetics** (e.
 ### Linking Summary:
 - New links added: [[Apoptosis]], [[Cytochrome c]], [[Inhibitor of Apoptosis Proteins]], [[XIAP]], [[Survivin]], [[Caspase-9]], [[Caspase-3]], [[Caspase-7]], [[Intrinsic Pathway]], [[TRAIL]]
 - Suggested new entity notes to create: [[Caspase-7]], [[SM-164]]
-- Strong connections to strengthen: [[Smac/DIABLO]] ↔ [[XIAP]], [[Smac/DIABLO]] ↔ [[Inhibitor of Apoptosis Proteins]]
+- Strong connections to strengthen: [[Smac]]/[[DIABLO]] ↔ [[XIAP]], [[Smac]]/[[DIABLO]] ↔ [[Inhibitor of Apoptosis Proteins]]

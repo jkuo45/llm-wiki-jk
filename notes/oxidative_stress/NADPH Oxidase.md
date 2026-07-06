@@ -41,7 +41,7 @@ The phagocyte NOX2 system requires the assembly of multiple cytosolic subunits f
 | NOX3 | Inner ear (vestibular and cochlear) | Required for otolith formation; hearing loss in null mice |
 | **NOX4** | **Kidney**, vascular endothelium, fibroblasts, liver | Constitutively active; produces primarily $H_2O_2$ not superoxide; no need for cytosolic subunits |
 | NOX5 | Lymphoid tissues, testis, vascular endothelium | Contains N-terminal Ca²⁺-binding EF-hand domains; activated by calcium |
-| DUOX1/2 | Thyroid, lung airway epithelium, salivary glands | Peroxidase homology domain; produce $H_2O_2$ for [[Notes/Thyroid Hormone]] synthesis (DUOX2) |
+| DUOX1/2 | Thyroid, lung airway epithelium, salivary glands | Peroxidase homology domain; produce $H_2O_2$ for [[Thyroid Hormone]] synthesis (DUOX2) |
 NOX4 is unique among the family in that it is constitutively active and generates [[Hydrogen Peroxide]] directly rather than superoxide, likely through a rapid intramolecular dismutation or a two-electron reduction mechanism. NOX4 is predominantly intracellular, localized to the [[Endoplasmic Reticulum]] and [[Nucleus]], where it functions in cell differentiation, senescence, and insulin signaling rather than host defense.
 
 ## Physiological Roles Beyond Host Defense

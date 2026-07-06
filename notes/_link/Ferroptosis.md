@@ -11,10 +11,6 @@ Ferroptosis is a non-apoptotic form of regulated cell death driven by iron-depen
 
 See [[Ferroptosis]].
 
-## Content from [[oxidative_stress/Ferroptosis.md]]
-
-# Ferroptosis
-
 **Ferroptosis** is a non-apoptotic form of regulated cell death driven by iron-dependent accumulation of lipid peroxides to lethal levels. It is morphologically, biochemically, and genetically distinct from apoptosis, necroptosis, and autophagy.
 
 ## Mechanism

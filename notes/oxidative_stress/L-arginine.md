@@ -63,7 +63,7 @@ The plasma **L-arginine:ADMA ratio** is a clinically relevant biomarker of NO bi
 ## Therapeutic Supplementation and Controversies
 
 Oral L-arginine supplementation (3–9 g/day) has been investigated for:
-- **[[Cardiovascular Disease]]**: Improving flow-mediated dilation and reducing [[Notes/_link/Arterial Stiffness|arterial stiffness]]
+- **[[Cardiovascular Disease]]**: Improving flow-mediated dilation and reducing [[Arterial Stiffness|arterial stiffness]]
 - **[[Raynaud's Phenomenon]]**: Enhancing NO-dependent vasodilation
 - **[[Erectile Dysfunction]]**: Enhancing NO-dependent corpus cavernosum relaxation
 - **[[Wound Healing]]**: Promoting NO-dependent angiogenesis

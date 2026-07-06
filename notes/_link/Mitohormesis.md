@@ -26,10 +26,6 @@ updated: 2026-07-04
 - Suggested new entity notes to create: [[Mitochondrial Uncoupling]], [[ETC Complex I inhibition]]
 - Strong connections to strengthen: [[Mitohormesis]] ↔ [[Exercise]]
 
-## Content from [[adrenochrome/Mitohormesis.md]]
-
-# Mitohormesis
-
 Mitohormesis is an adaptive response where mild mitochondrial stress triggers cytoprotective signaling pathways, leading to long-lasting metabolic and biochemical changes that reduce susceptibility to disease and may extend lifespan.
 
 ## Overview

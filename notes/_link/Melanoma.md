@@ -8,11 +8,6 @@ updated: 2026-07-04
 
 # Melanoma
 
-
-## From [[autophagy/Melanoma.md]]
-
-# Melanoma
-
 **Melanoma** is a highly aggressive type of skin [[Cancer]] that develops from melanocytes.
 
 ## Autophagy and Treatment
@@ -28,10 +23,6 @@ Melanoma is an aggressive skin cancer from [[Melanocytes]]s. [[MITF]] amplificat
 - New links added: [[Cancer]], [[Autophagy]], [[Intermittent Fasting]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[Melanoma]] ↔ [[Cancer]], [[Melanoma]] ↔ [[Autophagy]]
-
-## From [[cancer/melanoma.md]]
-
-# Melanoma
 
 **Melanoma** is a type of cancer that develops from the pigment-producing cells known as melanocytes.
 

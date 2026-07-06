@@ -8,20 +8,11 @@ updated: 2026-07-04
 
 # ATM
 
-
-## From [[cancer/ATM.md]]
-
-# ATM
 [[ATM]] (Ataxia-telangiectasia mutated) is a protein kinase that coordinates the DNA damage response. It phosphorylates [[Bid]] at Ser61 and Ser78, leading to S phase arrest in response to DNA damage.
 
-### Linking Summary
 - New links added: [[ATM]], [[Bid]], [[Phosphorylation]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[ATM]] ↔ [[Bid]]
-
-## From [[epigenetics/ATM.md]]
-
-# ATM
 
 **ATM (Ataxia-Telangiectasia Mutated)** is a ~350 kDa serine/threonine protein kinase belonging to the [[PI3K-related kinase]] (PIKK) family. It functions as the master initiator of the [[DNA Damage Response|DNA damage response (DDR)]] to [[DNA double-strand breaks]] (DSBs), orchestrating cell cycle checkpoint activation, chromatin remodeling, DNA repair, and — if damage is irreparable — [[Apoptosis|apoptosis]] or [[Cellular Senescence|senescence]].
 

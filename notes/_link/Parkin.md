@@ -8,11 +8,6 @@ updated: 2026-07-04
 
 # Parkin
 
-
-## From [[adrenochrome/Parkin.md]]
-
-# Parkin
-
 An E3 ubiquitin ligase that plays a critical role in [[Mitophagy]]. It is recruited to damaged mitochondria by [[PINK1]] and labels them for degradation by the lysosome.
 
 ## Domain Architecture and E3 Ligase Activity
@@ -35,13 +30,7 @@ Mutations in [[PARK2]] are the most common cause of autosomal recessive early-on
 
 Parkin-mediated mitophagy protects against mitochondrial dysfunction caused by [[Catecholamines|catecholamine]]-derived [[Aminochromes]] and their redox cycling products. [[Adrenochrome]] and [[Dopaminochrome]] damage mitochondria through [[Electrophile|electrophilic]] modification of respiratory chain proteins and dissipation of the mitochondrial membrane potential (Δψₘ). By eliminating damaged mitochondria, Parkin prevents propagation of oxidative damage and release of pro-inflammatory [[Mitochondrial DNA|mtDNA]]. Age-related decline in Parkin expression may contribute to the progressive accumulation of aminochrome-damaged mitochondria in aging tissues.
 
-### Linking Summary
-
 - New links added: [[PINK1]], [[Mitophagy]]
-
-## From [[autophagy/Parkin.md]]
-
-# Parkin
 
 **Parkin** is an E3 ubiquitin ligase that is recruited to damaged mitochondria by [[PINK1]] to initiate [[Mitophagy]], a process that also involves the activation of [[TFEB]] and [[TFE3]] for lysosome biogenesis.
 

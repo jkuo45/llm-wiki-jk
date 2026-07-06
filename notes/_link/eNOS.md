@@ -8,11 +8,6 @@ updated: 2026-07-04
 
 # eNOS
 
-
-## From [[oxidative_stress/eNOS.md]]
-
-# eNOS
-
 **eNOS (Endothelial Nitric Oxide Synthase, NOS3)** is a constitutively expressed, calcium/calmodulin-dependent isoform of [[Nitric Oxide Synthase]] that produces low, pulsatile fluxes of [[Nitric Oxide]] critical for vascular homeostasis.
 
 ## Structure & Regulation
@@ -38,10 +33,6 @@ Under conditions of [[BH4]] deficiency or [[L-arginine]] depletion, eNOS becomes
 - [[Oxidative Stress]] disrupting the zinc-thiolate complex
 
 Uncoupled eNOS is a major contributor to [[Endothelial Dysfunction|endothelial dysfunction]] in [[Cardiovascular Disease|cardiovascular disease]], [[Diabetes Mellitus|diabetes]], and [[Hypertension|hypertension]].
-
-## From [[sirtuins/eNOS.md]]
-
-# Endothelial Nitric Oxide Synthase (eNOS)
 
 **Endothelial Nitric Oxide Synthase (eNOS/NOS3)** is a constitutively expressed enzyme that catalyzes the conversion of L-arginine to [[Nitric Oxide]] (NO) in the vascular endothelium. NO produced by eNOS diffuses to underlying vascular smooth muscle, activating soluble guanylyl cyclase and promoting [[Vasodilation]].
 

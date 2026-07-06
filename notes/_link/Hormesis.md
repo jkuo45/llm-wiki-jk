@@ -8,11 +8,6 @@ updated: 2026-07-04
 
 # Hormesis
 
-
-## From [[adrenochrome/Hormesis.md]]
-
-# Hormesis
-
 Hormesis is a biological phenomenon where a beneficial effect (improved health, stress tolerance, growth, or longevity) results from exposure to low doses of an agent that is otherwise toxic or lethal at higher doses.
 
 ## Dose-Response Relationship
@@ -100,9 +95,6 @@ Quantitative features:
 - Suggested new entity notes to create: [[Arndt-Schulz Law]], [[Biphasic dose response]], [[Overcompensation Hypothesis]]
 - Strong connections to strengthen: [[Hormesis]] ↔ [[Evolutionary Biology]], [[Hormesis]] ↔ [[Mithridatism]], [[Hormesis]] ↔ [[Hormetic Window]]
 
-## From [[epigenetics/Hormesis.md]]
-
-# Hormesis
 Hormesis is a biological phenomenon characterized by a biphasic dose response, where exposure to low doses of a stressor or toxin triggers a beneficial, adaptive, and protective response in an organism, whereas high doses are harmful.
 
 ### Linking Summary:

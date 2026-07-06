@@ -8,21 +8,12 @@ updated: 2026-07-04
 
 # Suramin
 
-
-## From [[cancer/Suramin.md]]
-
-# Suramin
-
 Suramin is a medication used to treat African sleeping sickness and [[Onchocerciasis]]. It was one of the few drugs available for onchocerciasis before [[Ivermectin]].
 
 ### Linking Summary:
 - New links added: [[Onchocerciasis]], [[Ivermectin]]
 - Suggested new entity notes to create: [[Sleeping sickness]]
 - Strong connections to strengthen: [[Suramin]] ↔ [[Onchocerciasis]]
-
-## From [[sirtuins/Suramin.md]]
-
-# Suramin
 
 **Suramin** is a large polyanionic urea derivative originally developed in the early 20th century as an antiparasitic drug for the treatment of African trypanosomiasis (sleeping sickness). Beyond its classic anti-protozoal and purinergic antagonist properties, suramin is recognized as a highly potent **pan-sirtuin inhibitor** targeting **[[SIRT1]]**, **[[SIRT2]]**, and **[[SIRT5]]**.
 

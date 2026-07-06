@@ -20,15 +20,15 @@ IAPs inhibit apoptosis by:
 - Sequestering caspases away from their substrates.
 
 ## Role in Cancer
-IAPs are frequently overexpressed in cancer, contributing to drug resistance and tumor survival. They are targeted by [[Smac/DIABLO]] mimetics to restore apoptotic sensitivity.
+IAPs are frequently overexpressed in cancer, contributing to drug resistance and tumor survival. They are targeted by [[Smac]]/[[DIABLO]] mimetics to restore apoptotic sensitivity.
 
 ## Connections
 - [[XIAP]]: The most potent member.
 - [[Survivin]]: A key member overexpressed in many cancers.
-- [[Smac/DIABLO]]: An endogenous antagonist of IAPs.
+- [[Smac]]/[[DIABLO]]: An endogenous antagonist of IAPs.
 - [[Apoptosis]]: Regulated by IAPs.
 
 ### Linking Summary:
-- New links added: [[Apoptosis]], [[XIAP]], [[Survivin]], [[Smac/DIABLO]], [[Caspase-3]], [[Caspase-7]], [[Caspase-9]]
-- Suggested new entity notes to create: [[Smac/DIABLO]], [[Caspase-7]]
-- Strong connections to strengthen: [[Inhibitor of Apoptosis Proteins]] ↔ [[Smac/DIABLO]]
+- New links added: [[Apoptosis]], [[XIAP]], [[Survivin]], [[Smac]]/[[DIABLO]], [[Caspase-3]], [[Caspase-7]], [[Caspase-9]]
+- Suggested new entity notes to create: [[Smac]]/[[DIABLO]], [[Caspase-7]]
+- Strong connections to strengthen: [[Inhibitor of Apoptosis Proteins]] ↔ [[Smac]]/[[DIABLO]]

@@ -8,11 +8,6 @@ updated: 2026-07-04
 
 # Polyphenols
 
-
-## From [[adrenochrome/Polyphenols.md]]
-
-# Polyphenols
-
 Polyphenols are a category of phytochemicals that are naturally found in plants.
 
 ## Overview
@@ -28,10 +23,6 @@ By neutralizing [[Reactive Oxygen Species]] and trapping reactive carbonyls, pol
 - New links added: [[Glycation]], [[Advanced Glycation End Products]], [[Flavonoids]], [[Reactive Oxygen Species]]
 - Suggested new entity notes to create: [[Phenolic acids]]
 - Strong connections to strengthen: [[Polyphenols]] ↔ [[Antioxidants]]
-
-## From [[oxidative_stress/Polyphenols.md]]
-
-# Polyphenols
 
 ## Definition
 Polyphenols are a large class of chemical compounds characterized by the presence of multiple phenol units.

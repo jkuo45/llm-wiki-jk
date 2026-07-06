@@ -9,7 +9,7 @@ updated: 2026-07-04
 # SIRT3
 
 
-## From [[autophagy/SIRT3.md]]
+## From [[SIRT3]]
 
 # SIRT3
 

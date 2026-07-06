@@ -8,11 +8,6 @@ updated: 2026-07-04
 
 # Xenohormesis
 
-
-## From [[adrenochrome/Xenohormesis.md]]
-
-# Xenohormesis
-
 Xenohormesis is a biological hypothesis proposing that animals have evolved to sense chemical cues from stressed plants to prepare for worsening environmental conditions. For example, plant molecules synthesized during a prolonged drought signal to recipient animals to prepare for a presumed famine.
 
 ## Mechanism
@@ -88,9 +83,6 @@ The [[Glyco-Oxidative Proteostasis Shield]] (GOPS) framework explicitly incorpor
 - Suggested new entity notes to create: [[Dietary Phytochemicals as Signaling Molecules]], [[Xenohormetic Dosing Protocol]]
 - Strong connections to strengthen: [[Xenohormesis]] ↔ [[Evolutionary Medicine]], [[Xenohormesis]] ↔ [[Glyco-Oxidative Proteostasis Shield]]
 
-## From [[epigenetics/Xenohormesis.md]]
-
-# Xenohormesis
 Xenohormesis is a biological hypothesis proposing that heterotrophic organisms have evolved the ability to sense and respond to chemical stress signals (secondary metabolites) produced by autotrophs (such as plants) in their environment, preparing the heterotroph for impending environmental adversity.
 
 ### Linking Summary:

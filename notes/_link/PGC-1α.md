@@ -47,10 +47,6 @@ PGC-1α is regulated by:
 - Suggested new entity notes to create: [[PPARGC1A]], [[ERRα]], [[PRMT1]]
 - Strong connections to strengthen: [[PGC-1α]] ↔ [[Mitochondrial Biogenesis]], [[PGC-1α]] ↔ [[SIRT1]]
 
-## Content from [[sirtuins/PGC-1α.md]]
-
-# PGC-1α
-
 **PGC-1α** (PPAR-γ Co-activator 1α; gene name _PPARGC1A_) is a **master transcriptional coactivator** that acts as a central regulator of **mitochondrial biogenesis**, **oxidative phosphorylation**, and **energy metabolism**. It is a key downstream effector of [[SIRT1]] in multiple tissues, mediating many of the metabolic benefits associated with [[Caloric Restriction]] and [[Resveratrol]] treatment.
 
 ## Regulation by Sirtuins

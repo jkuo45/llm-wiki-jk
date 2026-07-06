@@ -54,11 +54,7 @@ NAD+ is synthesized from [[Vitamin B3]] precursors ([[Nicotinamide]], [[Nicotini
 - [[DNA Repair]] — PARP enzymes consume NAD+ for DNA repair
 - [[Resveratrol]] — STAC that activates SIRT1 in an NAD+-dependent manner
 
-
-
 ## Additional Content from Topic Directory
-
-# NAD+
 
 **[[NAD+]]** (Nicotinamide Adenine Dinucleotide) is a critical coenzyme found in every cell in the body. It is essential for energy [[Metabolism]] and serves as a vital signaling molecule for various biological processes.
 
@@ -77,8 +73,6 @@ NAD+ levels naturally decline with age. This decline is linked to:
 - New links added: [[Metabolism]], [[Sirtuins]], [[SIRT1]], [[SIRT6]], [[DNA Repair]], [[Aging]], [[Inflammation]]
 - Suggested new entity notes to create: [[NMN]], [[NR]], [[PARP Enzymes]], [[CD38]]
 - Strong connections to strengthen: [[NAD+]] ↔ [[Sirtuins]], [[NAD+]] ↔ [[Metabolism]]
-
-# NAD+
 
 **NAD⁺** (nicotinamide adenine dinucleotide, oxidised form) is a fundamental coenzyme and metabolite in all living cells that serves as an **obligatory co-substrate** for all sirtuin-catalysed reactions. NAD⁺ links cellular energy status and redox state to sirtuin-mediated gene regulation, establishing sirtuins as metabolic sensors.
 

@@ -22,19 +22,11 @@ A decline in mitophagy is associated with the accumulation of dysfunctional mito
 ## Regulation
 Mitophagy can be modulated by various factors, including energy status (via [[AMPK]]), and pharmacological agents that act as [[Autophagy Inducer|autophagy inducers]].
 
-### Linking Summary:
-
 - New links added: [[Autophagy]], [[Mitochondria]], [[Quiescence]], [[Reactive Oxygen Species]], [[ROS]]
 - Suggested new entity notes to create: [[Oxidative Stress]]
 - Strong connections to strengthen: [[Mitophagy]] ↔ [[Hematopoietic Stem Cell]]
 
-## Content from [[adrenochrome/Mitophagy.md]]
-
-# Mitophagy
-
 The selective degradation of mitochondria by [[Autophagy]]. It is a critical quality control mechanism to remove damaged or dysfunctional mitochondria, often regulated by the [[PINK1]]/[[Parkin]] pathway.
-
-### Linking Summary
 
 - New links added: [[PINK1]], [[Parkin]], [[Autophagy]]
 

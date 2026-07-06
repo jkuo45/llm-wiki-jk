@@ -8,11 +8,6 @@ updated: 2026-07-04
 
 # Catecholamines
 
-
-## From [[adrenochrome/Catecholamines.md]]
-
-# Catecholamines
-
 **Catecholamines** are a class of aromatic amines that serve as hormones and neurotransmitters. They are characterized by a catechol group (a benzene ring with two hydroxyl groups) and an amine side chain.
 
 ## Primary Types
@@ -36,13 +31,8 @@ In response to stress, [[Smoking]], or [[Inflammation]], catecholamine levels ri
 - [[COMT]] & [[MAO]] ↔ Primary enzymatic pathways for catecholamine degradation.
 - [[Aminochromes]] ↔ Reactive oxidative intermediates of catecholamines.
 
-### Linking Summary:
 - New links added: [[Catecholamines]], [[Dopamine]], [[Epinephrine]], [[COMT]], [[MAO]], [[Aminochromes]], [[Oxidation]], [[Oxidative Stress]], [[Adrenochrome]], [[Dopaminochrome]], [[Neuromelanin]], [[Smoking]], [[Inflammation]]
 - Strong connections to strengthen: [[Catecholamines]] ↔ [[Aminochromes]]
-
-## From [[neuromelanin/Catecholamines.md]]
-
-# Catecholamines
 
 [[Catecholamines]] are a class of monoamine neurotransmitters and hormones that include [[Dopamine]], [[Norepinephrine]], and epinephrine. They are all derived from the amino acid [[L-Tyrosine]]. Neurons that produce catecholamines often accumulate [[Neuromelanin]] and show selective vulnerability in [[Parkinson's Disease]].
 

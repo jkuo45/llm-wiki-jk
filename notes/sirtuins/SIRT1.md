@@ -9,7 +9,7 @@ updated: 2026-07-04
 # SIRT1
 
 
-## From [[epigenetics/Sirt1.md]]
+## From [[Sirt1]]
 
 # Sirt1
 

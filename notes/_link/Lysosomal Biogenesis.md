@@ -8,11 +8,6 @@ updated: 2026-07-04
 
 # Lysosomal Biogenesis
 
-
-## From [[autophagy/Lysosomal Biogenesis.md]]
-
-# Lysosomal Biogenesis
-
 **Lysosomal biogenesis** is the process of synthesizing and assembling lysosomal components—including acid hydrolases, membrane proteins ([[LAMP1]], [[LAMP2]], [[V-ATPase]] subunits), and regulatory proteins—into functional [[Lysosome]]s. It is transcriptionally controlled by the [[MiTF TFE family]] of transcription factors via the [[CLEAR Element]].
 
 ## Transcriptional Regulation
@@ -27,12 +22,7 @@ Lysosomal biogenesis is negatively regulated by [[MYC]], [[ZKSCAN3]], and [[mTOR
 ## Pathological Relevance
 Impaired lysosomal biogenesis underlies [[Lysosomal Storage Disorders]] ([[Mucopolysaccharidosis-IIIA]], [[Multiple Sulfatase Deficiency]], [[Neuronal Ceroid Lipofuscinosis]]). [[TFEB]] activation is a therapeutic strategy to enhance lysosomal exocytosis and reduce storage. Enhanced lysosomal biogenesis is implicated in the anti-aging effects of [[Dietary Restriction]] and [[Caloric Restriction Mimetics]].
 
-### Linking Summary
 - New links added: [[Lysosome]], [[TFEB]], [[TFE3]], [[MITF]], [[CLEAR Element]], [[mTORC1]], [[Autophagy]], [[Autophagic Flux]], [[TRPML1]], [[Trehalose]], [[Spermidine]]
-
-## From [[neuromelanin/Lysosomal Biogenesis.md]]
-
-# Lysosomal Biogenesis
 
 [[Lysosomal Biogenesis]] is the cellular process of creating new lysosomes. It is a highly regulated process, primarily controlled by the transcription factor [[TFEB|TFEB]]. Proper lysosomal biogenesis is essential for maintaining cellular [[Proteostasis]] and for the degradation of materials like [[Neuromelanin]].
 

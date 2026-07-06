@@ -64,10 +64,6 @@ NRF2 exhibits mutual antagonism with [[NF-kappa B]]: RelA (p65) competes with NR
 
 NRF2 activation is a therapeutic strategy for conditions characterized by oxidative stress, including [[Chronic Obstructive Pulmonary Disease]], [[Asthma]], [[Neurodegenerative Diseases|neurodegenerative diseases]], [[Cardiovascular Disease]], and [[Diabetes Mellitus]]. Pharmacological NRF2 activators include [[Sulforaphane]] (from broccoli sprouts), [[Dimethyl fumarate]] (Tecfidera, approved for [[Multiple Sclerosis]]), [[Bardoxolone methyl]], and [[Oltipraz]]. Paradoxically, in established [[Cancer|cancers]], constitutive NRF2 activation can confer therapeutic resistance by enhancing detoxification of chemotherapeutic agents and promoting cell survival, a phenomenon termed the "NRF2 paradox."
 
-## Content from [[oxidative_stress/NRF2.md]]
-
-# NRF2
-
 NRF2 is a master transcription factor regulating antioxidant defense.
 
 See [[NRF2]].

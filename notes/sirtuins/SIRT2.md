@@ -9,7 +9,7 @@ updated: 2026-07-04
 # SIRT2
 
 
-## From [[autophagy/SIRT2.md]]
+## From [[SIRT2]]
 
 # SIRT2
 

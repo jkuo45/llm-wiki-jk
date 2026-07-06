@@ -9,9 +9,7 @@ updated: 2026-05-31
 
 A [[Catecholamines|catecholamine]] that functions as both a hormone and a neurotransmitter.
 
-
 **[[Norepinephrine]]** (also known as noradrenaline) is a chemical that functions in the brain and body as both a hormone and a [[Neurotransmitters]].
-
 
 ## Linking Summary:
 - New links added: [[Catecholamines]], [[Epinephrine]], [[Adrenal medulla]], [[Adrenochrome]]
@@ -25,16 +23,13 @@ As a catecholamine, [[Norepinephrine]] is degraded by:
 
 In the [[Prefrontal Cortex]], its clearance is also facilitated by the [[Norepinephrine transporter]] ([[NET]]).
 
-
 ## Functions
 It is involved in arousal, attention, and the stress response. It also affects heart rate and blood pressure. In the brain, it is primarily synthesized by neurons in the [[Locus Coeruleus]]. These norepinephrine-producing neurons are highly pigmented with [[Neuromelanin]] and consistently degenerate in [[Parkinson's Disease]].
-
 
 ## Connections
 - [[Epinephrine]]: Closely related to norepinephrine in the biosynthetic pathway.
 - [[Adrenal medulla]]: Site of norepinephrine synthesis and release.
 - [[Adrenochrome]]: Can form from the oxidation of [[Catecholamines]] like norepinephrine.
-
 
 - [[COMT]]: Major enzyme for its metabolism.
 - [[Dopamine]]: The precursor to norepinephrine.

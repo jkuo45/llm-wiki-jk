@@ -42,6 +42,4 @@ Hydrogen peroxide, along with [[Superoxide anion]], serves as an oxidant that ca
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Hydrogen Peroxide]] <-> [[Stress-Induced Premature Senescence]]
 
-# Hydrogen peroxide
-
 Reactive oxygen species that participates in redox signaling and can cause oxidative damage at high levels.

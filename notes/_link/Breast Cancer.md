@@ -37,13 +37,7 @@ updated: 2026-05-29
 - Suggested new entity notes to create: [[HER2]], [[ER]], [[PR]], [[MCF-7]], [[PAK1]], [[CK2]], [[Pyroptosis]]
 - Strong connections to strengthen: [[Breast Cancer]] ↔ [[Beclin1]], [[Breast Cancer]] ↔ [[BRCA1]], [[Breast Cancer]] ↔ [[Ivermectin]]
 
-## Content from [[cancer/Breast Cancer.md]]
-
-# Breast Cancer
-
 Breast cancer is cancer that forms in the cells of the breasts, commonly occurring in the milk-producing ducts or the lobules.
-
-### Linking Summary
 
 - New links added: [[Caspase-7]], [[Puma]], [[Bcl-xL]], [[Mcl-1]], [[HER2]], [[HER2-enriched breast cancer]], [[triple-negative breast cancer]]
 - Suggested new entity notes to create: 

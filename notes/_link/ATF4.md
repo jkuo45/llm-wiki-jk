@@ -8,11 +8,6 @@ updated: 2026-07-04
 
 # ATF4
 
-
-## From [[adrenochrome/ATF4.md]]
-
-# ATF4
-
 ATF4 (Activating Transcription Factor 4) is a stress-induced transcription factor that serves as a central hub for the [[Integrated Stress Response]] (ISR) in mammals.
 
 ## Mechanism of Activation
@@ -41,10 +36,6 @@ In mammalian cells, ATF4 is a major downstream mediator of the metabolic reprogr
 - Suggested new entity notes to create: [[eIF2α]], [[MTHFD2]], [[DELE1]], [[HRI]]
 - Strong connections to strengthen: [[ATF4]] ↔ [[Mitochondrial Stress]]
 
-## From [[autophagy/ATF4.md]]
-
-# ATF4
-
 Activating transcription factor 4, a master regulator of the integrated stress response downstream of [[PERK]] and target of [[TFE3]].
 
 ## Regulation & Activation
@@ -56,7 +47,5 @@ ATF4 activates pro-survival genes including [[CHOP]], [[GADD34]], [[BiP]], and a
 ## Role in Autophagy & Metabolism
 
 ATF4 bridges the unfolded protein response (UPR) to [[Autophagy]] by inducing autophagy genes under [[Amino Acid Sensing|amino acid deprivation]]. It interacts with [[TFE3]] to co-regulate lysosomal gene expression and is a downstream effector of the [[GCN2]]-eIF2α pathway.
-
-### Linking Summary
 
 - New links added: [[PERK]], [[TFE3]]

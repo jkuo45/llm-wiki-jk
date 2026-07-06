@@ -10,7 +10,7 @@ updated: 2026-07-04
 
 Cellular degradation pathway that delivers cytoplasmic material to lysosomes for recycling; maintains energy homeostasis and quality control.
 
-## Content from [[autophagy/Autophagy.md]]
+## Content from [[Autophagy]]
 
 # Autophagy
 

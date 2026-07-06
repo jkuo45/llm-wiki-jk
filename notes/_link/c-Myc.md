@@ -8,20 +8,9 @@ updated: 2026-07-04
 
 # c-Myc
 
-
-## From [[adrenochrome/c-Myc.md]]
-
-# c-Myc
-
 A proto-oncogene and transcription factor ([[MYC]]) that regulates cell cycle progression, apoptosis, and cellular transformation. In the context of mitochondrial stress, c-Myc can influence metabolic reprogramming and [[Mitohormesis]].
 
-### Linking Summary
-
 - New links added: [[Mitohormesis]]
-
-## From [[epigenetics/c-Myc.md]]
-
-# c-Myc
 
 c-Myc is a proto-oncogene and a member of the Myc family of [[Transcription Factor|transcription factors]]. It is a pleiotropic regulator of many cellular processes, including cell cycle progression, apoptosis, and cellular metabolism. It is one of the four original [[Yamanaka Factors]].
 

@@ -8,11 +8,6 @@ updated: 2026-07-04
 
 # Catalase
 
-
-## From [[adrenochrome/Catalase.md]]
-
-# Catalase
-
 Catalase is a key antioxidant enzyme that catalyzes the decomposition of [[Hydrogen Peroxide]] into water and oxygen. It is a critical component of the cell's defense against [[Oxidative Stress]].
 
 ## Inhibition by Glycation
@@ -56,10 +51,6 @@ Within the [[Mitohormesis]] framework, catalase expression is upregulated as an 
 - New links added: [[Hydrogen Peroxide]], [[Reactive Oxygen Species]], [[Oxidative Stress]], [[Superoxide Dismutase]], [[Antioxidants]]
 - Suggested new entity notes to create: [[Peroxisomes]]
 - Strong connections to strengthen: [[Catalase]] ↔ [[Oxidative Stress]]
-
-## From [[oxidative_stress/Catalase.md]]
-
-# Catalase
 
 ## Definition
 Catalase is a common enzyme found in nearly all living organisms exposed to oxygen. It catalyzes the decomposition of [[Hydrogen Peroxide]] to water and oxygen.

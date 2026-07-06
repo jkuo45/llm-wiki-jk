@@ -25,10 +25,6 @@ updated: 2026-07-04
 - Suggested new entity notes to create: [[VEGF]], [[VEGFR]], [[Anti-angiogenic therapy]]
 - Strong connections to strengthen: [[Angiogenesis]] ↔ [[Cancer]]
 
-## Content from [[cancer/Angiogenesis.md]]
-
-# Angiogenesis
-
 Angiogenesis is the physiological process through which new blood vessels form from pre-existing vessels, a hallmark of cancer that is often targeted via [[Integrins]] and [[RGD peptide]] conjugates.
 
 ### Linking Summary

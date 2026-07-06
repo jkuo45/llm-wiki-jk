@@ -43,11 +43,7 @@ EGFR is a major drug target. Tyrosine kinase inhibitors ([[erlotinib]], [[gefiti
 - [[Ivermectin]] — Combined with [[erlotinib]] achieves synergistic killing
 - [[melittin]] — Inhibits EGFR phosphorylation
 
-
-
 ## Additional Content from Topic Directory
-
-# EGFR
 
 **Epidermal growth factor receptor** (EGFR; also known as ErbB-1 or HER1) is a transmembrane protein that is a receptor for members of the epidermal growth factor family (EGF family) of extracellular protein ligands.
 
@@ -61,7 +57,6 @@ EGFR is a major drug target. Tyrosine kinase inhibitors ([[erlotinib]], [[gefiti
 - [[Ivermectin]]: Combined with [[erlotinib]], ivermectin achieves a synergistic killing effect by regulating EGFR activity. It also reverses [[Multidrug Resistance]] by inhibiting EGFR and the downstream [[ERK]]/[[Akt]]/[[NF-kappa B]] pathway.
 - [[PI3K]]: A downstream signaling component.
 - [[Akt]]: A downstream signaling component.
-
 
 ## Linking Summary
 

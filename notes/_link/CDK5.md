@@ -29,9 +29,6 @@ updated: 2026-07-04
 - Suggested new entity notes to create: [[p35]], [[p39]]
 - Strong connections to strengthen: [[CDK5]] ↔ [[Tau Protein]]
 
-## Content from [[cancer/Cdk5.md]]
-
-# Cdk5
 [[CDK5]] is a kinase that regulates the pro-apoptotic function of [[Noxa]] in human [[leukemia]] cells in response to glucose levels.
 
 ### Linking Summary

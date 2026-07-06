@@ -8,11 +8,6 @@ updated: 2026-07-04
 
 # Doxorubicin
 
-
-## From [[cancer/doxorubicin.md]]
-
-# doxorubicin
-
 **Doxorubicin** (also known as Adriamycin) is a powerful anthracycline chemotherapy drug used to treat various types of cancer, including [[Breast Cancer|breast cancer]], bladder cancer, and [[leukemia]].
 
 ## Mechanism of Action
@@ -32,14 +27,10 @@ Resistance to doxorubicin is a common clinical problem, often mediated by the ov
 - [[Bcl-2]]: High levels of Bcl-2 confer resistance.
 - [[Intrinsic Pathway]]: The primary apoptotic route activated by doxorubicin.
 
-### Linking Summary:
 - New links added: [[Breast Cancer]], [[leukemia]], [[Oxidative Stress]], [[Intrinsic Pathway]], [[Apoptosis]], [[Bcl-2]], [[Bmi-1]]
 - Suggested new entity notes to create: [[Bmi-1]]
 - Strong connections to strengthen: [[Doxorubicin]] ↔ [[Bmi-1]]
 
-## From [[epigenetics/Doxorubicin.md]]
-
-# Doxorubicin
 Doxorubicin is a chemical compound and potent anticancer drug that inhibits topoisomerase II, leading to DNA damage and the induction of senescence or apoptosis.
 
 ### Linking Summary:

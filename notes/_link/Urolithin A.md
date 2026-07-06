@@ -17,10 +17,6 @@ In the [[Mitohormetic Redox-Relay]] strategy, Urolithin A serves as the "cleanup
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Urolithin A]] ↔ [[Mitohormesis]], [[Urolithin A]] ↔ [[Mitohormetic Redox-Relay]]
 
-## Content from [[adrenochrome/Urolithin A.md]]
-
-# Urolithin A
-
 Urolithin A is a natural metabolite derived from the microbial metabolism of ellagitannins in the gut. It exhibits various pharmacological effects, including antioxidant, anti-inflammatory, and anti-aging properties. It is notable for its ability to activate mitophagy, enhance mitochondrial function, and improve muscle health and performance.
 
 ## Metabolic Pathway and Bioavailability

@@ -48,7 +48,7 @@ Howitz et al. (2003) identified resveratrol as an activator of mammalian [[SIRT1
 ## Molecular Mechanisms
 
 - Activates [[SIRT1]] → [[PGC-1α]] axis
-- [[Notes/_link/Caloric Restriction]] mimetic
+- [[Caloric Restriction]] mimetic
 - Neuroprotection, anti-inflammation, tumour suppression
 - May also activate [[AMPK]] upstream of SIRT1
 
@@ -64,11 +64,7 @@ Resveratrol lacks a catechol structure and does not compete for [[COMT]], making
 - [[NAD+]] — Required for SIRT1 activation
 - [[COMT]] — No interference; safe for slow COMT variants
 
-
-
 ## Additional Content from Topic Directory
-
-# Resveratrol
 
 **Resveratrol** (3,5,4′-trihydroxystilbene) is a **polyphenolic stilbene** found naturally in the skin of grapes, red wine, and a variety of other plants. It is synthesised by plants in response to stress (biotic or abiotic). Resveratrol was identified as a **STAC (sirtuin activating compound)** — the prototypical pharmacological activator of [[SIRT1]] — and has been shown to extend lifespan in diverse organisms and improve metabolic health in mammals.
 
@@ -148,8 +144,6 @@ Resveratrol is widely considered a **CR mimetic** — it recapitulates many of t
 - Suggested new entity notes to create: [[STACs]], [[AMPK]], [[Polyphenols]]
 - Strong connections to strengthen: [[Resveratrol]] ↔ [[SIRT1]], [[Resveratrol]] ↔ [[Caloric Restriction]]
 
-# Resveratrol
-
 **[[Resveratrol]]** is a natural polyphenol compound found in the skin of grapes, blueberries, raspberries, and mulberries. It is perhaps the most famous "anti-aging" molecule in popular culture due to its presence in red wine and its purported ability to extend lifespan.
 
 **[[Resveratrol]]** is a plant compound that acts like an antioxidant. The top food sources include red wine, grapes, and some berries.
@@ -194,8 +188,6 @@ While resveratrol has shown dramatic results in extending the lifespan of yeast,
 - [[Bioavailability]]: Resveratrol studies often focus on its absorption and genetic interactions.
 
 ---
-
-### Linking Summary:
 
 - New links added: [[Aging]], [[Anti-inflammatory]], [[COMT]], [[Caloric Restriction]], [[Diabetes Mellitus]], [[Geroscience]], [[Metabolic Syndromes]], [[Resveratrol]], [[SIRT1]]
 - Suggested new entity notes to create: [[CR Mimetics]], [[David Sinclair]], [[Polyphenols]]

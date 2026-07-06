@@ -10,10 +10,6 @@ updated: 2026-07-04
 
 Anti-apoptotic protein that localizes to the mitochondrial outer membrane and inhibits cytochrome c release.
 
-## Content from [[cancer/Bcl-2.md]]
-
-# Bcl-2
-
 **Bcl-2** (B-cell lymphoma 2) is the founding member of the [[Bcl-2 family]] of proteins which regulate cell death ([[Apoptosis]]) by either inducing (pro-apoptotic) or inhibiting (anti-apoptotic) apoptosis. It is specifically an anti-apoptotic protein.
 
 ## Role in Cancer

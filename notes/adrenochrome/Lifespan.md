@@ -19,7 +19,7 @@ A critical distinction in aging research:
 
 ## Longevity Pathways
 
-### [[Insulin/IGF-1 Signaling]] (IIS) Pathway
+### [[Insulin]]/[[IGF-1]] Signaling (IIS) Pathway
 
 Discovered through [[C. elegans]] genetics:
 - Reduced signaling through [[DAF-2]] (IGF-1 receptor homolog) extends lifespan via [[DAF-16]]/[[FOXO]].
@@ -104,6 +104,6 @@ Lifespan extension often correlates with enhanced stress resistance:
 - The [[Glyco-Oxidative Proteostasis Shield]] concept explicitly links proteostasis maintenance — through [[Redox Cycling]] and [[UPRmt]] activation — to lifespan extension.
 
 ### Linking Summary:
-- New links added: [[Caloric Restriction]], [[Oxidative Stress]], [[Advanced Glycation End Products]], [[Aging]], [[Healthspan]], [[Metformin]], [[Insulin/IGF-1 Signaling (IIS)]], [[DAF-2]], [[DAF-16]], [[FOXO]], [[FOXO3a]], [[IGF-1]], [[TOR]], [[mTORC1]], [[Rapamycin]], [[SASP]], [[Autophagy]], [[S6K1]], [[AMPK]], [[AICAR]], [[Adiponectin]], [[Leptin]], [[PGC1α]], [[ULK1]], [[SIRT1]], [[SIRT6]], [[SIRT3]], [[SOD2]], [[Mitohormesis]], [[isp-1]], [[clk-1]], [[nuo-6]], [[UPRmt]], [[ATFS-1]], [[HAF-1]], [[UBL-5]], [[DVE-1]], [[Mitophagy]], [[Sarcopenia]], [[Neurodegeneration]], [[Retrograde Response]], [[S. cerevisiae]], [[Rtg1]], [[Rtg3]], [[DELE1]], [[HRI]], [[ATF4]], [[Integrated Stress Response]], [[OMA1]], [[OPA1]], [[Mitokines]], [[FGF21]], [[Insulin Sensitivity]], [[GDF15]], [[Humanin]], [[Mitochondrial DNA]], [[Alzheimer's Disease]], [[Stroke]], [[C. elegans]], [[Drosophila melanogaster]], [[Mus musculus]], [[Caloric Restriction]], [[Frailty index]], [[Oxidative Stress]], [[Heat shock]], [[UV radiation]], [[HSP70]], [[Proteasome]], [[NRF2]], [[ARE]], [[Glyco-Oxidative Proteostasis Shield]], [[Redox Cycling]]
+- New links added: [[Caloric Restriction]], [[Oxidative Stress]], [[Advanced Glycation End Products]], [[Aging]], [[Healthspan]], [[Metformin]], [[Insulin]]/[[IGF-1]] Signaling (IIS), [[DAF-2]], [[DAF-16]], [[FOXO]], [[FOXO3a]], [[IGF-1]], [[TOR]], [[mTORC1]], [[Rapamycin]], [[SASP]], [[Autophagy]], [[S6K1]], [[AMPK]], [[AICAR]], [[Adiponectin]], [[Leptin]], [[PGC1α]], [[ULK1]], [[SIRT1]], [[SIRT6]], [[SIRT3]], [[SOD2]], [[Mitohormesis]], [[isp-1]], [[clk-1]], [[nuo-6]], [[UPRmt]], [[ATFS-1]], [[HAF-1]], [[UBL-5]], [[DVE-1]], [[Mitophagy]], [[Sarcopenia]], [[Neurodegeneration]], [[Retrograde Response]], [[S. cerevisiae]], [[Rtg1]], [[Rtg3]], [[DELE1]], [[HRI]], [[ATF4]], [[Integrated Stress Response]], [[OMA1]], [[OPA1]], [[Mitokines]], [[FGF21]], [[Insulin Sensitivity]], [[GDF15]], [[Humanin]], [[Mitochondrial DNA]], [[Alzheimer's Disease]], [[Stroke]], [[C. elegans]], [[Drosophila melanogaster]], [[Mus musculus]], [[Caloric Restriction]], [[Frailty index]], [[Oxidative Stress]], [[Heat shock]], [[UV radiation]], [[HSP70]], [[Proteasome]], [[NRF2]], [[ARE]], [[Glyco-Oxidative Proteostasis Shield]], [[Redox Cycling]]
 - Suggested new entity notes to create: [[Biomarkers of Aging]], [[Morbidity Compression]]
 - Strong connections to strengthen: [[Caloric Restriction]] ↔ [[Lifespan]], [[Mitohormesis]] ↔ [[Lifespan]]

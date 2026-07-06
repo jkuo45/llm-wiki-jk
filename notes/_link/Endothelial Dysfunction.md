@@ -38,9 +38,6 @@ Measured by flow-mediated dilation (FMD), [[Pulse Wave Velocity]], and circulati
 - Suggested new entity notes to create: [[eNOS]], [[VCAM-1]], [[ICAM-1]], [[Flow-Mediated Dilation]]
 - Strong connections to strengthen: [[Endothelial Dysfunction]] ↔ [[Atherosclerosis]], [[Endothelial Dysfunction]] ↔ [[Nitric Oxide]]
 
-## Content from [[oxidative_stress/Endothelial Dysfunction.md]]
-
-# Endothelial Dysfunction
 Endothelial dysfunction is a systemic pathological state of the endothelium and can be broadly defined as an imbalance between vasodilating and vasoconstricting substances. It is often characterized by reduced bioavailability of [[Nitric Oxide]] and increased levels of [[Reactive Oxygen Species]], serving as an early marker for [[Atherosclerosis]] and other types of [[Oxidative Stress]] related vascular diseases.
 
 ## Linking Summary

@@ -10,9 +10,6 @@ updated: 2026-07-04
 
 Pro-inflammatory cytokine involved in systemic inflammation and the acute phase response.
 
-## Content from [[oxidative_stress/TNF-alpha.md]]
-
-# TNF-alpha
 Tumor necrosis factor alpha (TNF-alpha) is a cell signaling protein (cytokine) involved in systemic [[Inflammation]] and is one of the cytokines that make up the acute phase reaction. It is a potent activator of the [[NF-kappa B]] pathway and can induce [[Apoptosis]] and the production of other cytokines like [[IL-1b]].
 
 ## Linking Summary

@@ -8,11 +8,6 @@ updated: 2026-07-04
 
 # Dopaminochrome
 
-
-## From [[adrenochrome/Dopaminochrome.md]]
-
-# Dopaminochrome
-
 **Dopaminochrome** is an aminochrome intermediate formed by the [[Oxidation]] of [[Dopamine]]. It is the structural and biochemical analog of [[Adrenochrome]] in the dopaminergic pathway.
 
 ## Formation
@@ -57,13 +52,8 @@ Dopaminochrome polymerization proceeds through a biochemically distinct pathway 
 - [[Catecholamines]] ↔ Class of molecules to which dopamine belongs.
 - [[Redox Cycling]] ↔ Mechanism by which dopaminochrome exacerbates oxidative stress.
 
-### Linking Summary:
 - New links added: [[Dopaminochrome]], [[Oxidation]], [[Dopamine]], [[Adrenochrome]], [[Reactive Oxygen Species]], [[Oxidative Stress]], [[Neuromelanin]], [[Redox Cycling]], [[Superoxide anion]], [[Catecholamines]], [[Epinephrine]], [[5-S-Cysteinyl-Dopamine]], [[Parkinson's Disease]], [[VMAT2]], [[NMDA Receptor]], [[L-Type Calcium Channel]], [[Parkin]], [[DJ-1]], [[SNCA]], [[1-Methyl-4-phenyl-1,2,3,6-tetrahydropyridine]], [[5,6-Dihydroxyindole]], [[5,6-Dihydroxyindole-2-Carboxylic Acid]], [[Dopachrome tautomerase]], [[NDUFS1]], [[NDUFS3]], [[Ascorbic Acid]], [[Glutathione]], [[Tyrosinase]]
 - Strong connections to strengthen: [[Dopaminochrome]] ↔ [[Dopamine]], [[Dopaminochrome]] ↔ [[Parkinson's Disease]]
-
-## From [[neuromelanin/Dopaminochrome.md]]
-
-# Dopaminochrome
 
 [[Dopaminochrome]] is a reactive cyclized intermediate formed from the oxidation of [[Dopamine]] via [[Dopamine o-quinone]]. It belongs to the [[Aminochromes]] class of compounds and serves as one of the primary monomeric precursors for [[Neuromelanin]] biosynthesis in dopaminergic neurons of the [[Substantia Nigra]].
 
