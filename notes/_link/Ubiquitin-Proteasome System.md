@@ -1,9 +1,14 @@
 ---
 type: entity
-category: NA
-aliases: ["Ubiquitin Proteasome System"]
+category: biological_process
+aliases:
+  - "UPS"
+  - "Ubiquitin Proteasome System"
+tags:
+  - "protein_degradation"
+  - "proteostasis"
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-07-06
 ---
 
 # Ubiquitin-Proteasome System
@@ -26,13 +31,13 @@ UPS and [[Autophagy]] are complementary degradation systems. When the proteasome
 
 - New links added: [[TFEB]], [[STUB1]]
 - Suggested new entity notes to create: [[26S Proteasome]]
-- Strong connections to strengthen: [[Ubiquitin-proteasome system]] ↔ [[STUB1]]
+- Strong connections to strengthen: [[Ubiquitin-Proteasome System]] ↔ [[STUB1]]
 
 ## From [[neuromelanin/Ubiquitin-proteasome system.md]]
 
 # Ubiquitin-proteasome system
 
-The [[Ubiquitin-proteasome system]] (UPS) is the primary mechanism for the regulated degradation of short-lived, damaged, or misfolded proteins within the cell.
+The [[Ubiquitin-Proteasome System]] (UPS) is the primary mechanism for the regulated degradation of short-lived, damaged, or misfolded proteins within the cell.
 
 ## Mechanism
 Proteins destined for degradation are tagged with a small protein called [[Ubiquitin]]. These ubiquitinated proteins are then recognized and broken down by a large protein complex called the proteasome.
@@ -46,4 +51,4 @@ UPS dysfunction is a hallmark of [[notes/_link/Parkinson's Disease]] and is clos
 ### Linking Summary:
 - New links added: [[Ubiquitin]], [[notes/_link/Parkinson's Disease]], [[Lewy Bodies]], [[Alpha-synuclein]], [[Neuromelanin]], [[notes/_link/Substantia Nigra]].
 - Suggested new entity notes to create: [[Proteasome]], [[notes/_link/p62|p62]].
-- Strong connections to strengthen: [[Ubiquitin-proteasome system]] ↔ [[Lewy Bodies]].
+- Strong connections to strengthen: [[Ubiquitin-Proteasome System]] ↔ [[Lewy Bodies]].

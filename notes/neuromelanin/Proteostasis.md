@@ -13,7 +13,7 @@ updated: 2026-07-04
 ## The Proteostasis Network
 The proteostasis network ensures that proteins are correctly folded and that damaged or misfolded proteins are efficiently removed. Key components include:
 - **Chaperones**: Proteins that assist in the correct folding of newly synthesized polypeptides and prevent aggregation.
-- **[[Ubiquitin-proteasome system]] (UPS)**: The primary pathway for the targeted degradation of short-lived and misfolded proteins.
+- **[[Ubiquitin-Proteasome System]] (UPS)**: The primary pathway for the targeted degradation of short-lived and misfolded proteins.
 - **[[Autophagy]]**: A lysosomal degradation pathway used for the removal of large protein aggregates and damaged organelles.
 
 ## Proteostasis in Aging and Disease
@@ -28,11 +28,11 @@ In the [[notes/_link/Substantia Nigra]], [[Neuromelanin]] serves as a storage si
 
 ## Connections
 - **[[Autophagy]]**: A critical arm of the proteostasis network for clearing large aggregates.
-- **[[Ubiquitin-proteasome system]]**: Responsible for the degradation of most intracellular proteins.
+- **[[Ubiquitin-Proteasome System]]**: Responsible for the degradation of most intracellular proteins.
 - **[[Neuromelanin]]**: Its synthesis and storage are intimately tied to the cell's ability to handle protein and pigment loads.
-- **[[Endoplasmic reticulum stress|Endoplasmic Reticulum Stress]]**: Occurs when the folding capacity of the ER is exceeded.
+- **[[Endoplasmic Reticulum Stress|Endoplasmic Reticulum Stress]]**: Occurs when the folding capacity of the ER is exceeded.
 
 ### Linking Summary:
-- New links added: [[Ubiquitin-proteasome system]], [[Autophagy]], [[notes/_link/Aging]], [[notes/_link/Neurodegenerative Diseases|Neurodegenerative Disease]], [[notes/_link/Parkinson's Disease]], [[Alpha-synuclein]], [[Lewy Bodies]], [[notes/_link/Alzheimer's Disease]], [[notes/_link/Substantia Nigra]], [[Neuromelanin]], [[Oxidative Stress]], [[Endoplasmic reticulum stress|Endoplasmic Reticulum Stress]]
-- Suggested new entity notes to create: [[Endoplasmic reticulum stress]]
+- New links added: [[Ubiquitin-Proteasome System]], [[Autophagy]], [[notes/_link/Aging]], [[notes/_link/Neurodegenerative Diseases|Neurodegenerative Disease]], [[notes/_link/Parkinson's Disease]], [[Alpha-synuclein]], [[Lewy Bodies]], [[notes/_link/Alzheimer's Disease]], [[notes/_link/Substantia Nigra]], [[Neuromelanin]], [[Oxidative Stress]], [[Endoplasmic Reticulum Stress|Endoplasmic Reticulum Stress]]
+- Suggested new entity notes to create: [[Endoplasmic Reticulum Stress]]
 - Strong connections to strengthen: [[Proteostasis]] ↔ [[Autophagy]]

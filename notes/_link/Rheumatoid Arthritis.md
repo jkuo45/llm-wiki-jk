@@ -1,9 +1,14 @@
 ---
 type: entity
-category: NA
-aliases: ["Rheumatoid Arthritis"]
-created: 2026-07-04
-updated: 2026-07-04
+category: disease
+aliases:
+  - "RA"
+tags:
+  - "oxidative_stress"
+  - "inflammation"
+  - "autoimmune"
+created: 2026-05-09
+updated: 2026-07-06
 ---
 
 # Rheumatoid Arthritis

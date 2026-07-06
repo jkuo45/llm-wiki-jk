@@ -85,7 +85,7 @@ SIRT4 belongs to **Class II**, one of the most evolutionarily ancient sirtuin cl
 
 ## Connections
 
-- [[SIRT3]] — fellow mitochondrial sirtuin; complementary metabolic roles
+- [[SIRT3]] — fellow mitochondrial sirtuin; complementary metabolic roles. Together they form the [[SIRT3/SIRT4 Ratio]], a mitochondrial redox dial
 - [[SIRT5]] — fellow mitochondrial sirtuin; Class III (more ancient)
 - [[SIRT6]] — both are primary mono-ADP-ribosyl transferases among mammalian sirtuins
 - [[NAD+]] — required co-substrate

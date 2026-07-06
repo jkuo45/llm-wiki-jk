@@ -90,7 +90,7 @@ SIRT3, by producing [[OAADPr]], may regulate the **TRPM2** ion channel alongside
 
 - [[SIRT1]] — cytoplasmic counterpart; SIRT1 deacetylates AceCS1 (cytoplasmic) while SIRT3 deacetylates AceCS2 (mitochondrial)
 - [[SIRT2]] — same phylogenetic class; both produce OAADPr and regulate TRPM2
-- [[SIRT4]] — fellow mitochondrial sirtuin; different primary enzymatic activity (ADP-ribosylation)
+- [[SIRT4]] — fellow mitochondrial sirtuin; different primary enzymatic activity (ADP-ribosylation). The [[SIRT3/SIRT4 Ratio]] determines mitochondrial redox balance
 - [[SIRT5]] — fellow mitochondrial sirtuin
 - [[NAD+]] — obligatory co-substrate
 - [[OAADPr]] — by-product of deacetylation

@@ -44,7 +44,7 @@ This directory contains notes and research regarding [[Neuromelanin]], its biosy
 | [[notes/_link/Dopaminergic Neurons]]         | 31_May_2026 01:25 PM | Cell Type               |
 | [[Dopamine Transporter]]                     | 25_May_2026 05:23 PM | Transporter             |
 | [[Dorsal Motor Nucleus of the Vagus]]        | 25_May_2026 05:23 PM | Anatomy                 |
-| [[Endoplasmic reticulum stress]]             | 11_Jun_2026 04:00 PM | Biological Process      |
+| [[Endoplasmic Reticulum Stress]]             | 11_Jun_2026 04:00 PM | Biological Process      |
 | [[Eumelanin]]                                | 31_May_2026 02:45 PM | Biological Molecule     |
 | [[Fenton Reaction]]                          | 04_Jul_2026 12:00 PM | Chemical Process        |
 | [[Flortaucipir]]                             | 04_Jul_2026 12:00 PM | Chemical Compound       |
@@ -121,7 +121,7 @@ This directory contains notes and research regarding [[Neuromelanin]], its biosy
 | [[Tyrosinase-related protein-2]]             | 31_May_2026 02:45 PM | Enzyme                  |
 | [[notes/_link/Tyrosine Hydroxylase]]         | 25_May_2026 05:23 PM | Enzyme                  |
 | [[Ubiquitin]]                                | 31_May_2026 02:45 PM | Protein                 |
-| [[Ubiquitin-proteasome system]]              | 25_May_2026 05:23 PM | Biological Process      |
+| [[Ubiquitin-Proteasome System]]              | 25_May_2026 05:23 PM | Biological Process      |
 | [[Vagus Nerve]]                              | 04_Jul_2026 12:00 PM | Anatomy                 |
 | [[notes/_link/Ventral Tegmental Area]]       | 25_May_2026 05:23 PM | Anatomy                 |
 | [[Vesicular Monoamine Transporter 2]]        | 25_May_2026 05:23 PM | Protein                 |

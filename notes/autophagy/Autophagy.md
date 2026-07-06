@@ -223,12 +223,12 @@ Impaired autophagy is a central feature of [[notes/_link/Parkinson's Disease]]:
 
 ## Connections
 - [[Lysosomal Biogenesis]] ↔ TFEB-driven process that expands autophagic capacity.
-- [[Ubiquitin-proteasome system]] ↔ Complementary protein degradation pathway.
+- [[Ubiquitin-Proteasome System]] ↔ Complementary protein degradation pathway.
 - [[Proteostasis]] ↔ The network autophagy supports.
 - [[notes/_link/p62|p62]] ↔ Selective autophagy receptor that targets ubiquitinated cargo to the autophagosome.
 
 ### Linking Summary:
-- New links added: [[notes/_link/TFEB|TFEB]], [[notes/_link/mTOR]], [[Proteostasis]], [[Neuromelanin]], [[notes/_link/Parkinson's Disease]], [[Alpha-synuclein]], [[Lewy Bodies]], [[Pathogenic Threshold of Neuromelanin]], [[Glucocerebrosidase]], [[Ambroxol]], [[Rapamycin]], [[Lysosomal Biogenesis]], [[Ubiquitin-proteasome system]], [[notes/_link/p62|p62]]
+- New links added: [[notes/_link/TFEB|TFEB]], [[notes/_link/mTOR]], [[Proteostasis]], [[Neuromelanin]], [[notes/_link/Parkinson's Disease]], [[Alpha-synuclein]], [[Lewy Bodies]], [[Pathogenic Threshold of Neuromelanin]], [[Glucocerebrosidase]], [[Ambroxol]], [[Rapamycin]], [[Lysosomal Biogenesis]], [[Ubiquitin-Proteasome System]], [[notes/_link/p62|p62]]
 - Strong connections to strengthen: [[Autophagy]] ↔ [[notes/_link/TFEB|TFEB]], [[Autophagy]] ↔ [[Proteostasis]]
 
 ## Linking Summary
@@ -448,12 +448,12 @@ Impaired autophagy is a central feature of [[notes/_link/Parkinson's Disease]]:
 
 ## Connections
 - [[Lysosomal Biogenesis]] ↔ TFEB-driven process that expands autophagic capacity.
-- [[Ubiquitin-proteasome system]] ↔ Complementary protein degradation pathway.
+- [[Ubiquitin-Proteasome System]] ↔ Complementary protein degradation pathway.
 - [[Proteostasis]] ↔ The network autophagy supports.
 - [[notes/_link/p62|p62]] ↔ Selective autophagy receptor that targets ubiquitinated cargo to the autophagosome.
 
 ### Linking Summary:
-- New links added: [[notes/_link/TFEB|TFEB]], [[notes/_link/mTOR]], [[Proteostasis]], [[Neuromelanin]], [[notes/_link/Parkinson's Disease]], [[Alpha-synuclein]], [[Lewy Bodies]], [[Pathogenic Threshold of Neuromelanin]], [[Glucocerebrosidase]], [[Ambroxol]], [[Rapamycin]], [[Lysosomal Biogenesis]], [[Ubiquitin-proteasome system]], [[notes/_link/p62|p62]]
+- New links added: [[notes/_link/TFEB|TFEB]], [[notes/_link/mTOR]], [[Proteostasis]], [[Neuromelanin]], [[notes/_link/Parkinson's Disease]], [[Alpha-synuclein]], [[Lewy Bodies]], [[Pathogenic Threshold of Neuromelanin]], [[Glucocerebrosidase]], [[Ambroxol]], [[Rapamycin]], [[Lysosomal Biogenesis]], [[Ubiquitin-Proteasome System]], [[notes/_link/p62|p62]]
 - Strong connections to strengthen: [[Autophagy]] ↔ [[notes/_link/TFEB|TFEB]], [[Autophagy]] ↔ [[Proteostasis]]
 
 ## Linking Summary

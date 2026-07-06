@@ -3,7 +3,7 @@ type: entity
 category: enzyme
 aliases: ["GR", "GSR"]
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-07-06
 ---
 
 # Glutathione Reductase
@@ -15,3 +15,16 @@ updated: 2026-07-04
 **Physiological role:** Glutathione Reductase participates in metabolic pathways that maintain cellular redox balance, energy production, and biosynthetic processes. Its expression and activity are tightly regulated across different tissues.
 
 **Clinical relevance:** Dysregulation of Glutathione Reductase activity is implicated in metabolic disorders, oxidative stress-related pathologies, and cancer. Pharmacological modulation of this enzyme represents a therapeutic strategy for diseases involving its pathway.
+
+## Adrenochrome Context
+
+Glutathione reductase (GR) is an enzyme that reduces glutathione disulfide (GSSG) to the sulfhydryl form GSH, which is a critical molecule in resisting [[Oxidative Stress]].
+
+### Overview
+
+The activity of glutathione reductase is essential for maintaining the pool of reduced glutathione. Like other antioxidant enzymes, its function can be impaired by [[Glycation]] and the accumulation of [[Advanced Glycation End Products]] (AGEs), contributing to a pathological environment.
+
+### Linking Summary
+- New links added: [[Oxidative Stress]], [[Glycation]], [[Advanced Glycation End Products]]
+- Suggested new entity notes to create: [[GSH]]
+- Strong connections to strengthen: [[Glutathione Reductase]] ↔ [[Oxidative Stress]]

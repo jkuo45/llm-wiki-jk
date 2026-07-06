@@ -21,5 +21,5 @@ STUB1 ubiquitinates [[ULK1]] to regulate its stability and activity. It is also 
 ### Linking Summary
 
 - New links added: [[TFEB]]
-- Suggested new entity notes to create: [[Ubiquitin-proteasome system]]
+- Suggested new entity notes to create: [[Ubiquitin-Proteasome System]]
 - Strong connections to strengthen: [[STUB1]] ↔ [[TFEB]]
