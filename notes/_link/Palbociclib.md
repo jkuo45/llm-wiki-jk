@@ -70,6 +70,6 @@ Palbociclib (125 mg/day, 21 days on / 7 days off) is standard first-line therapy
 - Chronic treatment selects for therapy-resistant cycling cells.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Senescence]], [[CDK Inhibitor]], [[SA-beta-gal]], [[SASP]], [[RB1]], [[Breast Cancer]]
+- New links added: [[Senescence]], [[CDK Inhibitor]], [[SA-beta-gal]], [[SASP]], [[RB1]], [[Breast Cancer]]
 - Suggested new entity notes to create: [[CDK4]], [[CDK6]], [[Ibrance]], [[Therapeutic Senescence]]
-- Strong connections to strengthen: [[Palbociclib]] ↔ [[notes/_link/Senescence]], [[Palbociclib]] ↔ [[CDK Inhibitor]]
+- Strong connections to strengthen: [[Palbociclib]] ↔ [[Senescence]], [[Palbociclib]] ↔ [[CDK Inhibitor]]

@@ -17,6 +17,6 @@ Allopurinol and its active metabolite **Oxypurinol** (alloxanthine) competitivel
 ## Clinical Applications
 
 - **[[Gout]] and Hyperuricemia**: First-line urate-lowering therapy; starting dose 100–300 mg/d, titrated to serum urate <6 mg/dL. Major side effects include hypersensitivity reactions (DRESS syndrome, Stevens-Johnson syndrome in HLA-B*5801 carriers).
-- **[[notes/_link/Cardiovascular Disease]]**: Allopurinol improves endothelial function, reduces arterial stiffness, and slows progression of left ventricular hypertrophy in chronic kidney disease — effects attributed to reduced oxidative stress rather than urate lowering alone.
-- **[[notes/_link/Ischemia-reperfusion Injury]]**: Used experimentally to attenuate reperfusion injury in myocardial infarction, stroke, and organ transplantation by blocking XO-derived ROS.
+- **[[Cardiovascular Disease]]**: Allopurinol improves endothelial function, reduces arterial stiffness, and slows progression of left ventricular hypertrophy in chronic kidney disease — effects attributed to reduced oxidative stress rather than urate lowering alone.
+- **[[Ischemia-reperfusion Injury]]**: Used experimentally to attenuate reperfusion injury in myocardial infarction, stroke, and organ transplantation by blocking XO-derived ROS.
 - **[[Tumor Lysis Syndrome]]**: Standard prophylaxis (with rasburicase for high-risk cases) during chemotherapy of hematologic malignancies.

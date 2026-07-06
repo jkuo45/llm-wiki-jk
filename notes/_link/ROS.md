@@ -11,12 +11,12 @@ updated: 2026-07-04
 
 # ROS
 
-**Reactive Oxygen Species (ROS)** are chemically reactive molecules containing oxygen, including [[Superoxide Radicals|superoxide]], [[Hydrogen Peroxide]], [[Hydroxyl Radicals|hydroxyl radicals]], and [[Singlet Oxygen|singlet oxygen]]. They serve dual roles in [[Oxidative Stress|pathology]] and [[notes/_link/Mitohormesis|hormetic signaling]].
+**Reactive Oxygen Species (ROS)** are chemically reactive molecules containing oxygen, including [[Superoxide Radicals|superoxide]], [[Hydrogen Peroxide]], [[Hydroxyl Radicals|hydroxyl radicals]], and [[Singlet Oxygen|singlet oxygen]]. They serve dual roles in [[Oxidative Stress|pathology]] and [[Mitohormesis|hormetic signaling]].
 
-*See [[notes/_link/Reactive Oxygen Species]] for the canonical entity.*
+*See [[Reactive Oxygen Species]] for the canonical entity.*
 
 ## Linking Summary
 
-- New links added: [[notes/_link/Reactive Oxygen Species]], [[Oxidative Stress]], [[notes/_link/Mitohormesis]]
+- New links added: [[Reactive Oxygen Species]], [[Oxidative Stress]], [[Mitohormesis]]
 - Suggested new entity notes to create: [[None]]
-- Strong connections to strengthen: [[ROS]] ↔ [[notes/_link/Reactive Oxygen Species]]
+- Strong connections to strengthen: [[ROS]] ↔ [[Reactive Oxygen Species]]

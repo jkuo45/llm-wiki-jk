@@ -24,7 +24,7 @@ I am now structuring the response, beginning with an introduction to [[Xenohorme
 
 **Elaborating on Evolutionary Origins**
 
-I'm delving deeper into [[Xenohormesis|xenohormesis]]' evolutionary context, and how heterotrophs, like animals and fungi, benefit from consuming stressed plant secondary metabolites. I'm noting the early warning function of these [[Phytochemicals|phytochemicals]] and how that triggers cellular defense mechanisms. I'm highlighting the metabolic pathways activated, like [[Sirtuins|sirtuins]] and [[notes/_link/AMPK|AMPK]], along with the link to [[notes/_link/Caloric Restriction|caloric restriction]].
+I'm delving deeper into [[Xenohormesis|xenohormesis]]' evolutionary context, and how heterotrophs, like animals and fungi, benefit from consuming stressed plant secondary metabolites. I'm noting the early warning function of these [[Phytochemicals|phytochemicals]] and how that triggers cellular defense mechanisms. I'm highlighting the metabolic pathways activated, like [[Sirtuins|sirtuins]] and [[AMPK|AMPK]], along with the link to [[Caloric Restriction|caloric restriction]].
 
 **Synthesizing Findings Objectively**
 
@@ -44,7 +44,7 @@ and
 
 **Detailing Biomolecular Targets**
 
-I'm now detailing the biomolecules and pathways involved. I've pinpointed key compounds like [[Resveratrol|resveratrol]], [[notes/_link/Quercetin|quercetin]], [[Curcumin|curcumin]], and [[notes/_link/EGCG|EGCG]], along with their biochemical targets: [[Sirtuins|sirtuins]], [[notes/_link/AMPK|AMPK]], and the [[NRF2|[[NRF2]] Pathway]]. These targets are critical in the survival response, which aligns with [[notes/_link/Caloric Restriction|caloric restriction]]. I'm noting the overlap between these.
+I'm now detailing the biomolecules and pathways involved. I've pinpointed key compounds like [[Resveratrol|resveratrol]], [[Quercetin|quercetin]], [[Curcumin|curcumin]], and [[EGCG|EGCG]], along with their biochemical targets: [[Sirtuins|sirtuins]], [[AMPK|AMPK]], and the [[NRF2|[[NRF2]] Pathway]]. These targets are critical in the survival response, which aligns with [[Caloric Restriction|caloric restriction]]. I'm noting the overlap between these.
 
 **Analyzing Agricultural Impact**
 
@@ -115,7 +115,7 @@ In traditional evolutionary models, organisms adapt primarily to direct physical
 	1
 	](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQEFHGFXHATVLbyukIMCkiPFVBvCVxpp24YO3xW50ydVlDirq8QtzIkNSGV3lA7LlOuUUcIZsFIjpT43kJl9LDh4uaXSoDfBMLGqUb3_y1O5FcK6YPII8fjhLw0VAqUD6A%3D%3D)\]\[[
 	3
-	](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQH8XWLQPuXd_Ply3wRRpqo7MSa9WxlAoVCW7MvSGlqP6D6cStsxXCL4onMC25swsuJiw26OU09YQXFL8WMCDRMfUTH-oh6LIL9ncze3M_i5xliUncArfdC566RxRqT-5A%3D%3D)\]. In response, the animal’s cellular machinery activates defensive, anti-aging, and metabolic preservation pathways (mimicking state of [[notes/_link/Caloric Restriction|caloric restriction]])\[[
+	](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQH8XWLQPuXd_Ply3wRRpqo7MSa9WxlAoVCW7MvSGlqP6D6cStsxXCL4onMC25swsuJiw26OU09YQXFL8WMCDRMfUTH-oh6LIL9ncze3M_i5xliUncArfdC566RxRqT-5A%3D%3D)\]. In response, the animal’s cellular machinery activates defensive, anti-aging, and metabolic preservation pathways (mimicking state of [[Caloric Restriction|caloric restriction]])\[[
 	3
 	](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQH8XWLQPuXd_Ply3wRRpqo7MSa9WxlAoVCW7MvSGlqP6D6cStsxXCL4onMC25swsuJiw26OU09YQXFL8WMCDRMfUTH-oh6LIL9ncze3M_i5xliUncArfdC566RxRqT-5A%3D%3D)\]. This prepares the animal for impending hardships (such as famine or drought) before they physically manifest\[[
 	3
@@ -140,7 +140,7 @@ Plants produce a vast array of secondary metabolites in response to abiotic and 
 		](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQHFOixZ-7LyfbkrBQhILT0SchW8-xBOOqZw7fmObIKt22Gki9SEXCphTyB04941YqYQxgdMDiSaY1aoS-2bNJwLPI6nVEpyrXXjHd2c-Tw4oDkbU4D4-uwmpHlxuozePSjW_oaqlXuJQ6TQpfqv_K6Tb4hyoRgm1jTD9E3oz1Eb60YRPKHAU2I%3D)\]\[[
 		8
 		](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQFqAPgV8vJZHo68Rh8cATgVgUWQMezvrU9hrpYxx6UK5-UayJHBcJlR_2AcAIsO0uk3ex7S87qzLdWUXsKi_KiTexkPglb5TU0dli7GMPgSsCmMLglOZItN14COBbroleAu5gqHsXq7mqpDCKH1bpdZrmgFcKQHt7Dn-lolMNh1Rq1iixXwRVzBVL9APTN2)\].
-	- **[[notes/_link/Quercetin|quercetin]]:**
+	- **[[Quercetin|quercetin]]:**
 		Abundant in onions, apples, and capers, particularly when grown under challenging conditions\[[
 		7
 		](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQHFOixZ-7LyfbkrBQhILT0SchW8-xBOOqZw7fmObIKt22Gki9SEXCphTyB04941YqYQxgdMDiSaY1aoS-2bNJwLPI6nVEpyrXXjHd2c-Tw4oDkbU4D4-uwmpHlxuozePSjW_oaqlXuJQ6TQpfqv_K6Tb4hyoRgm1jTD9E3oz1Eb60YRPKHAU2I%3D)\].
@@ -148,7 +148,7 @@ Plants produce a vast array of secondary metabolites in response to abiotic and 
 		Derived from the turmeric plant\[[
 		7
 		](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQHFOixZ-7LyfbkrBQhILT0SchW8-xBOOqZw7fmObIKt22Gki9SEXCphTyB04941YqYQxgdMDiSaY1aoS-2bNJwLPI6nVEpyrXXjHd2c-Tw4oDkbU4D4-uwmpHlxuozePSjW_oaqlXuJQ6TQpfqv_K6Tb4hyoRgm1jTD9E3oz1Eb60YRPKHAU2I%3D)\].
-	- **[[notes/_link/EGCG|EGCG]] (Epigallocatechin gallate):**
+	- **[[EGCG|EGCG]] (Epigallocatechin gallate):**
 		Found in green tea leaves\[[
 		7
 		](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQHFOixZ-7LyfbkrBQhILT0SchW8-xBOOqZw7fmObIKt22Gki9SEXCphTyB04941YqYQxgdMDiSaY1aoS-2bNJwLPI6nVEpyrXXjHd2c-Tw4oDkbU4D4-uwmpHlxuozePSjW_oaqlXuJQ6TQpfqv_K6Tb4hyoRgm1jTD9E3oz1Eb60YRPKHAU2I%3D)\].
@@ -163,7 +163,7 @@ Plants produce a vast array of secondary metabolites in response to abiotic and 
 		](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQHbNkQo_Jp3khz_gvgZ1ic4pS9x7tiMpS_TjxqhtqrmR81q_TqyL3JXpCduSBWIZ-6H6QfiU3ctTrHFD0dlCJlO0Cl4GHA4Ty3HLUAM0a0uE0YYFsUgDDcVSP52As0_hxhjt0Fo2yL-j0pb_g2cAGR9Qf5TFQw_xED9y-OQ-5wdvDrX2Rk3xSQ%3D)\]. [[Resveratrol|resveratrol]], for example, is a known sirtuin activator\[[
 		3
 		](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQH8XWLQPuXd_Ply3wRRpqo7MSa9WxlAoVCW7MvSGlqP6D6cStsxXCL4onMC25swsuJiw26OU09YQXFL8WMCDRMfUTH-oh6LIL9ncze3M_i5xliUncArfdC566RxRqT-5A%3D%3D)\].
-	- **[[notes/_link/AMPK|AMPK]] (AMP-activated protein kinase):**
+	- **[[AMPK|AMPK]] (AMP-activated protein kinase):**
 		The cellular energy sensor that promotes autophagy and glucose uptake\[[
 		9
 		](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQHPzaDCY5vDo6YXBANmE55VUM8Zd1uNM8GqfDXw7mxLOxlh5nxkSJWbybvSPZdn0rUXRu5fLgEqCvKBk-l04Bm-4uCQ3xydMGK0pWdkfXGkvqDOo6mWOHz3JQN0ojdiM54A6g-N5DQQPVWtGJ_cShk%3D)\].
@@ -262,10 +262,10 @@ Display of Search Suggestions is required when using Grounding with Google Searc
 
 ### Connections
 - [[Xenohormesis]] proposes that heterotrophs benefit from [[Phytochemicals]] indicating environmental stress.
-- [[Hormesis]] and [[Xenohormesis]] activate conserved survival pathways like [[notes/_link/AMPK|AMPK]], [[Sirtuins|Sirtuins]], and [[NRF2]].
-- Compounds like [[Resveratrol|Resveratrol 1]], [[notes/_link/Quercetin|Quercetin]], [[Curcumin]], and [[notes/_link/EGCG|EGCG]] act as xenohormetic triggers.
+- [[Hormesis]] and [[Xenohormesis]] activate conserved survival pathways like [[AMPK|AMPK]], [[Sirtuins|Sirtuins]], and [[NRF2]].
+- Compounds like [[Resveratrol|Resveratrol 1]], [[Quercetin|Quercetin]], [[Curcumin]], and [[EGCG|EGCG]] act as xenohormetic triggers.
 
 ### Linking Summary:
-- New links added: [[Xenohormesis]], [[Hormesis]], [[Phytochemicals]], [[NRF2]], [[Resveratrol|Resveratrol 1]], [[notes/_link/Quercetin|Quercetin]], [[Curcumin]], [[notes/_link/EGCG|EGCG]], [[Sirtuins|Sirtuin]], [[SIRT1|SIRT1]], [[notes/_link/AMPK|AMPK]], [[notes/_link/Caloric Restriction|caloric restriction]]
+- New links added: [[Xenohormesis]], [[Hormesis]], [[Phytochemicals]], [[NRF2]], [[Resveratrol|Resveratrol 1]], [[Quercetin|Quercetin]], [[Curcumin]], [[EGCG|EGCG]], [[Sirtuins|Sirtuin]], [[SIRT1|SIRT1]], [[AMPK|AMPK]], [[Caloric Restriction|caloric restriction]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Xenohormesis]] <-> [[Hormesis]]

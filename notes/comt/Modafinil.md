@@ -15,9 +15,9 @@ The response to [[Modafinil]] is strongly influenced by the [[COMT]] [[Val158Met
 
 ## Connections
 - [[COMT]]: The enzyme that modulates the dopaminergic response to modafinil.
-- [[notes/_link/Dopamine]]: Modafinil works in part by increasing dopaminergic neurotransmission.
+- [[Dopamine]]: Modafinil works in part by increasing dopaminergic neurotransmission.
 - [[Val158Met]]: The polymorphism that predicts the efficacy of modafinil.
 
 ---
 ### Linking Summary:
-- New links added: [[COMT]], [[notes/_link/Dopamine]], [[Val158Met]].
+- New links added: [[COMT]], [[Dopamine]], [[Val158Met]].

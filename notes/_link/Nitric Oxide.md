@@ -25,10 +25,10 @@ updated: 2026-05-29
 ## Connections
 - [[Peroxynitrite]]: The primary byproduct of its reaction with superoxide.
 - [[Superoxide anion]]: Its primary reactant in the ROS/RNS cascade.
-- [[notes/_link/Cardiovascular Disease]]: Loss of NO bioavailability is a hallmark of atherosclerosis and hypertension.
+- [[Cardiovascular Disease]]: Loss of NO bioavailability is a hallmark of atherosclerosis and hypertension.
 - [[Methemoglobin]]: Formed as a byproduct of nitric oxide metabolism.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Cardiovascular Disease]], [[Methemoglobin]], [[Methemoglobinemia]], [[Peroxynitrite]], [[Superoxide anion]], [[Oxidative Stress]]
+- New links added: [[Cardiovascular Disease]], [[Methemoglobin]], [[Methemoglobinemia]], [[Peroxynitrite]], [[Superoxide anion]], [[Oxidative Stress]]
 - Suggested new entity notes to create: [[Nitric Oxide Synthase]], [[Endothelial Dysfunction]], [[Nitrative Stress]]
-- Strong connections to strengthen: [[notes/_link/Nitric Oxide]] ↔ [[Peroxynitrite]], [[notes/_link/Nitric Oxide]] ↔ [[Methemoglobin]]
+- Strong connections to strengthen: [[Nitric Oxide]] ↔ [[Peroxynitrite]], [[Nitric Oxide]] ↔ [[Methemoglobin]]

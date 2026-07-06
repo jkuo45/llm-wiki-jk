@@ -13,4 +13,4 @@ updated: 2024-01-01
 
 - New links added: [[Extracellular Matrix]], [[ECM]], [[Fibroblast]]
 - Suggested new entity notes to create: [[Basal Lamina]]
-- Strong connections to strengthen: [[Laminin]] ↔ [[notes/_link/Aging]]
+- Strong connections to strengthen: [[Laminin]] ↔ [[Aging]]

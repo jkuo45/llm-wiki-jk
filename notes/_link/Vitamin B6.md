@@ -20,24 +20,24 @@ updated: 2026-07-04
 
 ## Biological Functions
 
-- Cofactor for [[Aromatic L-amino acid decarboxylase]] in the synthesis of [[Dopamine]], [[Serotonin]], and [[notes/_link/Norepinephrine]]
+- Cofactor for [[Aromatic L-amino acid decarboxylase]] in the synthesis of [[Dopamine]], [[Serotonin]], and [[Norepinephrine]]
 - Required for [[Homocysteine]] metabolism via [[cystathionine beta-synthase]]
-- Modulates [[notes/_link/Inflammation]] by regulating [[NF-κB]] signaling
-- Involved in [[notes/_link/Methylation]] cycle as a cofactor for serine hydroxymethyltransferase (SHMT)
+- Modulates [[Inflammation]] by regulating [[NF-κB]] signaling
+- Involved in [[Methylation]] cycle as a cofactor for serine hydroxymethyltransferase (SHMT)
 
 ## Clinical Relevance
 
-Vitamin B6 deficiency is implicated in [[COMT]] dysfunction, [[notes/_link/Depression]], [[notes/_link/Cardiovascular Disease]] (via elevated homocysteine), and [[Neuroinflammation]].
+Vitamin B6 deficiency is implicated in [[COMT]] dysfunction, [[Depression]], [[Cardiovascular Disease]] (via elevated homocysteine), and [[Neuroinflammation]].
 
 ## Connections
 
 - [[Aromatic L-amino acid decarboxylase]] — PLP-dependent enzyme for neurotransmitter synthesis
 - [[COMT]] — Interacts with B6-dependent pathways
-- [[notes/_link/Methylation]] — One-carbon metabolism role
+- [[Methylation]] — One-carbon metabolism role
 - [[Homocysteine]] — B6 is essential for its transsulfuration
 
 ## Linking Summary
 
-- New links added: [[Aromatic L-amino acid decarboxylase]], [[COMT]], [[notes/_link/Methylation]], [[notes/_link/Inflammation]], [[notes/_link/Depression]], [[notes/_link/Cardiovascular Disease]], [[Dopamine]], [[Serotonin]], [[notes/_link/Norepinephrine]], [[Homocysteine]]
+- New links added: [[Aromatic L-amino acid decarboxylase]], [[COMT]], [[Methylation]], [[Inflammation]], [[Depression]], [[Cardiovascular Disease]], [[Dopamine]], [[Serotonin]], [[Norepinephrine]], [[Homocysteine]]
 - Suggested new entity notes to create: [[Pyridoxal 5'-phosphate]], [[Cystathionine beta-synthase]]
 - Strong connections to strengthen: [[Vitamin B6]] ↔ [[Aromatic L-amino acid decarboxylase]]

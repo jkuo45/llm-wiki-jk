@@ -14,6 +14,6 @@ Lysosomal positioning is regulated by [[Rab7]] effectors: [[FYCO1]] (plus-end tr
 
 ### Linking Summary
 
-- New links added: [[TFEB]], [[mTORC1]], [[GSK3β]], [[notes/_link/Lysosome]]
+- New links added: [[TFEB]], [[mTORC1]], [[GSK3β]], [[Lysosome]]
 - Suggested new entity notes to create: [[V-ATPase]]
 - Strong connections to strengthen: [[Lysosomal Localization]] ↔ [[TFEB]]

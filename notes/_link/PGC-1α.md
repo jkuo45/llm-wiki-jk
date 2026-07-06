@@ -51,7 +51,7 @@ PGC-1α is regulated by:
 
 # PGC-1α
 
-**PGC-1α** (PPAR-γ Co-activator 1α; gene name _PPARGC1A_) is a **master transcriptional coactivator** that acts as a central regulator of **mitochondrial biogenesis**, **oxidative phosphorylation**, and **energy metabolism**. It is a key downstream effector of [[SIRT1]] in multiple tissues, mediating many of the metabolic benefits associated with [[notes/_link/Caloric Restriction]] and [[Resveratrol]] treatment.
+**PGC-1α** (PPAR-γ Co-activator 1α; gene name _PPARGC1A_) is a **master transcriptional coactivator** that acts as a central regulator of **mitochondrial biogenesis**, **oxidative phosphorylation**, and **energy metabolism**. It is a key downstream effector of [[SIRT1]] in multiple tissues, mediating many of the metabolic benefits associated with [[Caloric Restriction]] and [[Resveratrol]] treatment.
 
 ## Regulation by Sirtuins
 
@@ -89,7 +89,7 @@ Both landmark in vivo resveratrol studies confirmed PGC-1α activation:
 
 ## Caloric Restriction and Energy Sensing
 
-PGC-1α integrates [[notes/_link/Caloric Restriction]] signals:
+PGC-1α integrates [[Caloric Restriction]] signals:
 
 - CR increases [[NAD+]] → activates [[SIRT1]] → deacetylates PGC-1α → triggers mitochondrial adaptation programme.
 - This axis is proposed to underlie CR-mediated metabolic improvements in mammals.
@@ -99,13 +99,13 @@ PGC-1α integrates [[notes/_link/Caloric Restriction]] signals:
 - [[SIRT1]] — directly deacetylates and activates PGC-1α; primary regulatory relationship
 - [[SIRT3]] — promotes PGC-1α expression in brown adipose tissue
 - [[Resveratrol]] — activates PGC-1α via SIRT1 stimulation _in vivo_
-- [[notes/_link/Caloric Restriction]] — CR activates PGC-1α via the SIRT1 axis
+- [[Caloric Restriction]] — CR activates PGC-1α via the SIRT1 axis
 - [[NAD+]] — elevated NAD⁺ → SIRT1 activation → PGC-1α deacetylation
 - [[Mitochondrial Biogenesis]] — PGC-1α is the master regulator
 - [[Neurodegeneration]] — PGC-1α loss sensitises neurons to oxidative damage (MPTP, kainic acid)
 
 ## Linking Summary
 
-- New links added: [[SIRT1]], [[SIRT3]], [[Resveratrol]], [[notes/_link/Caloric Restriction]], [[NAD+]], [[Mitochondrial Biogenesis]]
+- New links added: [[SIRT1]], [[SIRT3]], [[Resveratrol]], [[Caloric Restriction]], [[NAD+]], [[Mitochondrial Biogenesis]]
 - Suggested new entity notes to create: [[Mitochondrial Biogenesis]], [[MPTP]], [[Oxidative Phosphorylation]]
-- Strong connections to strengthen: [[PGC-1α]] ↔ [[SIRT1]], [[PGC-1α]] ↔ [[notes/_link/Caloric Restriction]], [[PGC-1α]] ↔ [[Neurodegeneration]]
+- Strong connections to strengthen: [[PGC-1α]] ↔ [[SIRT1]], [[PGC-1α]] ↔ [[Caloric Restriction]], [[PGC-1α]] ↔ [[Neurodegeneration]]

@@ -8,9 +8,9 @@ updated: 2026-07-04
 
 # Synaptic plasticity
 
-[[Synaptic plasticity]] is the ability of synapses to strengthen or weaken over time in response to increases or decreases in their activity, a process that may be influenced by [[Neuromelanin]]-mediated storage and release of [[notes/_link/Dopamine]].
+[[Synaptic plasticity]] is the ability of synapses to strengthen or weaken over time in response to increases or decreases in their activity, a process that may be influenced by [[Neuromelanin]]-mediated storage and release of [[Dopamine]].
 
 ### Linking Summary:
-- New links added: [[Neuromelanin]], [[notes/_link/Dopamine]].
+- New links added: [[Neuromelanin]], [[Dopamine]].
 - Suggested new entity notes to create: [[Long-term potentiation]], [[Chemical memory]].
 - Strong connections to strengthen: [[Synaptic plasticity]] ↔ [[Chemical memory]].

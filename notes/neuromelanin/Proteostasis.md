@@ -17,14 +17,14 @@ The proteostasis network ensures that proteins are correctly folded and that dam
 - **[[Autophagy]]**: A lysosomal degradation pathway used for the removal of large protein aggregates and damaged organelles.
 
 ## Proteostasis in Aging and Disease
-A decline in proteostasis capacity is a hallmark of [[notes/_link/Aging]]. When the network is overwhelmed, misfolded proteins can aggregate, leading to "proteotoxicity."
+A decline in proteostasis capacity is a hallmark of [[Aging]]. When the network is overwhelmed, misfolded proteins can aggregate, leading to "proteotoxicity."
 
-In [[notes/_link/Neurodegenerative Diseases|Neurodegenerative Disease]], the failure of proteostasis is central to pathogenesis:
-- **[[notes/_link/Parkinson's Disease]]**: Aggregation of [[Alpha-synuclein]] into [[Lewy Bodies]] is linked to impaired [[Autophagy]] and UPS function.
-- **[[notes/_link/Alzheimer's Disease]]**: Characterized by the accumulation of amyloid-beta plaques and tau tangles.
+In [[Neurodegenerative Diseases|Neurodegenerative Disease]], the failure of proteostasis is central to pathogenesis:
+- **[[Parkinson's Disease]]**: Aggregation of [[Alpha-synuclein]] into [[Lewy Bodies]] is linked to impaired [[Autophagy]] and UPS function.
+- **[[Alzheimer's Disease]]**: Characterized by the accumulation of amyloid-beta plaques and tau tangles.
 
 ## Interaction with Neuromelanin
-In the [[notes/_link/Substantia Nigra]], [[Neuromelanin]] serves as a storage site for metals and potentially toxic protein species. However, excessive accumulation of neuromelanin or its associated proteins may interfere with local [[Proteostasis]], contributing to the selective vulnerability of dopaminergic neurons. Chronic [[Oxidative Stress]] can also damage the proteostasis machinery itself.
+In the [[Substantia Nigra]], [[Neuromelanin]] serves as a storage site for metals and potentially toxic protein species. However, excessive accumulation of neuromelanin or its associated proteins may interfere with local [[Proteostasis]], contributing to the selective vulnerability of dopaminergic neurons. Chronic [[Oxidative Stress]] can also damage the proteostasis machinery itself.
 
 ## Connections
 - **[[Autophagy]]**: A critical arm of the proteostasis network for clearing large aggregates.
@@ -33,6 +33,6 @@ In the [[notes/_link/Substantia Nigra]], [[Neuromelanin]] serves as a storage si
 - **[[Endoplasmic Reticulum Stress|Endoplasmic Reticulum Stress]]**: Occurs when the folding capacity of the ER is exceeded.
 
 ### Linking Summary:
-- New links added: [[Ubiquitin-Proteasome System]], [[Autophagy]], [[notes/_link/Aging]], [[notes/_link/Neurodegenerative Diseases|Neurodegenerative Disease]], [[notes/_link/Parkinson's Disease]], [[Alpha-synuclein]], [[Lewy Bodies]], [[notes/_link/Alzheimer's Disease]], [[notes/_link/Substantia Nigra]], [[Neuromelanin]], [[Oxidative Stress]], [[Endoplasmic Reticulum Stress|Endoplasmic Reticulum Stress]]
+- New links added: [[Ubiquitin-Proteasome System]], [[Autophagy]], [[Aging]], [[Neurodegenerative Diseases|Neurodegenerative Disease]], [[Parkinson's Disease]], [[Alpha-synuclein]], [[Lewy Bodies]], [[Alzheimer's Disease]], [[Substantia Nigra]], [[Neuromelanin]], [[Oxidative Stress]], [[Endoplasmic Reticulum Stress|Endoplasmic Reticulum Stress]]
 - Suggested new entity notes to create: [[Endoplasmic Reticulum Stress]]
 - Strong connections to strengthen: [[Proteostasis]] ↔ [[Autophagy]]

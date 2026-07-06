@@ -13,7 +13,7 @@ updated: 2024-01-01
 *   **Repressive Marks**: trimethylation of H3K9 (H3K9me3) and H3K27 (H3K27me3) are hallmarks of [[Heterochromatin]] and gene silencing. These marks are added by enzymes like SUV39H1 and the [[Polycomb Group Proteins|Polycomb repressive complexes]].
 *   **Activating Marks**: trimethylation of H3K4 (H3K4me3) is found at the promoters of actively transcribed genes.
 
-### 2. Role in [[notes/_link/Aging]]
+### 2. Role in [[Aging]]
 The patterns of histone methylation undergo significant changes during the aging process:
 *   **Loss of Silencing**: A decline in the levels of repressive marks (like H3K9me3) is observed in both normal aging and progeroid syndromes like [[HGPS]], leading to [[Genomic Instability]].
 *   **Longevity Regulation**: In [[Model Organisms]] like *[[Caenorhabditis elegans]]*, modulating the activity of HMTs (such as ASH-2 or SET-2) has been shown to significantly extend lifespan.
@@ -25,9 +25,9 @@ Histone methylation is a key mechanism for [[Epigenetic Inheritance]], allowing 
 - **[[Histone Modification]]**: The broader class of modifications to which methylation belongs.
 - [[Histone Methylation]]: The biochemical process catalyzed by HMTs.
 - **[[Polycomb Group Proteins]]**: Major complexes that utilize histone methylation to silence genes.
-- **[[notes/_link/Aging]]**: Histone methylation drift is a primary driver of age-related cellular dysfunction.
+- **[[Aging]]**: Histone methylation drift is a primary driver of age-related cellular dysfunction.
 
 ### Linking Summary:
-- New links added: [[Histone Methyltransferase]], [[Heterochromatin]], [[Polycomb Group Proteins]], [[notes/_link/Aging]], [[HGPS]], [[Genomic Instability]], [[Model Organisms]], [[Caenorhabditis elegans]], [[Epigenetic Inheritance]], [[Histone Modification]]
+- New links added: [[Histone Methyltransferase]], [[Heterochromatin]], [[Polycomb Group Proteins]], [[Aging]], [[HGPS]], [[Genomic Instability]], [[Model Organisms]], [[Caenorhabditis elegans]], [[Epigenetic Inheritance]], [[Histone Modification]]
 - Suggested new entity notes to create: [[SUV39H1]], [[H3K9me3]], [[H3K27me3]], [[H3K4me3]]
 - Strong connections to strengthen: [[Histone Methyltransferase]] ↔ [[Histone Modification]], [[Histone Methyltransferase]] ↔ [[Polycomb Group Proteins]]

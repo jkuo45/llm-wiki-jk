@@ -11,6 +11,6 @@ updated: 2024-01-01
 
 ### Linking Summary:
 
-- New links added: [[TGF-beta1]], [[notes/_link/Transcription]]
+- New links added: [[TGF-beta1]], [[Transcription]]
 - Suggested new entity notes to create: [[TGF-beta Receptor]]
 - Strong connections to strengthen: [[SMAD Proteins]] ↔ [[Quiescence]]

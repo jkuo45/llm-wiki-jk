@@ -8,19 +8,19 @@ updated: 2024-01-01
 
 # Mitophagy
 
-**Mitophagy** is a specialized form of [[Selective Autophagy]] that targets damaged or dysfunctional [[notes/_link/Mitochondria]] for degradation. It is a critical quality control mechanism for maintaining mitochondrial health and cellular homeostasis.
+**Mitophagy** is a specialized form of [[Selective Autophagy]] that targets damaged or dysfunctional [[Mitochondria]] for degradation. It is a critical quality control mechanism for maintaining mitochondrial health and cellular homeostasis.
 
 ## Mechanism
 Mitophagy typically involves the recognition of damaged mitochondria by receptors (like PINK1/Parkin) and their subsequent engulfment by [[Autophagosome|autophagosomes]], which then fuse with [[Lysosome|lysosomes]].
 
 ## Importance in Aging
 A decline in mitophagy is associated with the accumulation of dysfunctional mitochondria, which can lead to:
-- Increased [[notes/_link/Reactive Oxygen Species]] (ROS) production.
-- Triggering of [[notes/_link/Inflammaging]].
+- Increased [[Reactive Oxygen Species]] (ROS) production.
+- Triggering of [[Inflammaging]].
 - Impaired [[Immune Aging|immune cell function]].
 
 ## Regulation
-Mitophagy can be modulated by various factors, including energy status (via [[notes/_link/AMPK]]), and pharmacological agents that act as [[Autophagy Inducer|autophagy inducers]].
+Mitophagy can be modulated by various factors, including energy status (via [[AMPK]]), and pharmacological agents that act as [[Autophagy Inducer|autophagy inducers]].
 
 ### Linking Summary:
 
@@ -55,13 +55,13 @@ Mitophagy operates within a broader mitochondrial quality control network that i
 
 ## Role in Aging and Neurodegeneration
 
-Mitophagy efficiency declines with age, contributing to the accumulation of dysfunctional mitochondria that generate excessive [[notes/_link/Reactive Oxygen Species]], release pro-apoptotic factors, and trigger inflammatory signaling via cytosolic mtDNA and [[NLRP3 Inflammasome]] activation. Impaired mitophagy is a hallmark of [[Parkinson's Disease]], where Pink1 and Parkin mutations cause early-onset familial forms, and of [[Alzheimer's Disease]], where amyloid-β and tau pathology impair mitophagy flux. Enhancing mitophagy through pharmacological interventions (e.g., [[Urolithin A]], [[Actinonin]], [[Metformin]], NAD⁺ precursors) restores mitochondrial function and extends healthspan in model organisms.
+Mitophagy efficiency declines with age, contributing to the accumulation of dysfunctional mitochondria that generate excessive [[Reactive Oxygen Species]], release pro-apoptotic factors, and trigger inflammatory signaling via cytosolic mtDNA and [[NLRP3 Inflammasome]] activation. Impaired mitophagy is a hallmark of [[Parkinson's Disease]], where Pink1 and Parkin mutations cause early-onset familial forms, and of [[Alzheimer's Disease]], where amyloid-β and tau pathology impair mitophagy flux. Enhancing mitophagy through pharmacological interventions (e.g., [[Urolithin A]], [[Actinonin]], [[Metformin]], NAD⁺ precursors) restores mitochondrial function and extends healthspan in model organisms.
 
 ## Links to Adrenochrome-Induced Mitochondrial Damage
 
 [[Adrenochrome]] and related aminochromes are mitochondrial toxins that directly compromise the organelle they trigger removal of. Adrenochrome undergoes redox cycling at Complex I of the electron transport chain, generating superoxide and consuming NADH. This leads to mitochondrial depolarization — precisely the signal that activates the Pink1/Parkin mitophagy pathway. Sustained adrenochrome exposure may exhaust mitophagic capacity, creating a scenario where damaged mitochondria accumulate and amplify ROS production. This mitophagy-impairment feedback loop is a plausible mechanism linking catecholamine oxidation to the mitochondrial dysfunction observed in aging, neurodegeneration, and cardiovascular disease. The interplay between [[Adrenochrome Pathway]] activity and mitophagy competence represents a critical nexus for therapeutic intervention.
 
 ### Linking Summary:
-- New links added: [[PARL]], [[Mitochondrial calcium uniporter]], [[BNIP3]], [[NIX]], [[FUNDC1]], [[HIF-1α]], [[DRP1]], [[MFN1]], [[MFN2]], [[ATFS-1]], [[ATF4]], [[ATF5]], [[CHOP]], [[Mitochondrial Unfolded Protein Response]], [[Mitochondrial Dynamics]], [[notes/_link/Reactive Oxygen Species]], [[NLRP3 Inflammasome]], [[Parkinson's Disease]], [[Alzheimer's Disease]], [[Urolithin A]], [[Actinonin]], [[Metformin]], [[NAD+]], [[Aging]], [[Longevity]]
+- New links added: [[PARL]], [[Mitochondrial calcium uniporter]], [[BNIP3]], [[NIX]], [[FUNDC1]], [[HIF-1α]], [[DRP1]], [[MFN1]], [[MFN2]], [[ATFS-1]], [[ATF4]], [[ATF5]], [[CHOP]], [[Mitochondrial Unfolded Protein Response]], [[Mitochondrial Dynamics]], [[Reactive Oxygen Species]], [[NLRP3 Inflammasome]], [[Parkinson's Disease]], [[Alzheimer's Disease]], [[Urolithin A]], [[Actinonin]], [[Metformin]], [[NAD+]], [[Aging]], [[Longevity]]
 - Suggested new entity notes to create: [[MDV (Mitochondrial-Derived Vesicles)]], [[p62/SQSTM1]]
 - Strong connections to strengthen: [[Mitophagy]] ↔ [[Parkinson's Disease]], [[Mitophagy]] ↔ [[Adrenochrome]], [[Mitophagy]] ↔ [[Aging]]

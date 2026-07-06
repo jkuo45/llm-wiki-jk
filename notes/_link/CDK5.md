@@ -19,13 +19,13 @@ updated: 2026-07-04
 
 ## Connections
 
-- [[Tau Protein]] — CDK5 hyperphosphorylates Tau in [[notes/_link/Alzheimer's Disease]]
-- [[notes/_link/Neurodegenerative Diseases]] — Dysregulated CDK5 contributes to pathology
+- [[Tau Protein]] — CDK5 hyperphosphorylates Tau in [[Alzheimer's Disease]]
+- [[Neurodegenerative Diseases]] — Dysregulated CDK5 contributes to pathology
 - [[Oxidative Stress]] — CDK5 is activated by oxidative stress
 
 ## Linking Summary
 
-- New links added: [[Tau Protein]], [[notes/_link/Alzheimer's Disease]], [[notes/_link/Neurodegenerative Diseases]], [[Oxidative Stress]]
+- New links added: [[Tau Protein]], [[Alzheimer's Disease]], [[Neurodegenerative Diseases]], [[Oxidative Stress]]
 - Suggested new entity notes to create: [[p35]], [[p39]]
 - Strong connections to strengthen: [[CDK5]] ↔ [[Tau Protein]]
 

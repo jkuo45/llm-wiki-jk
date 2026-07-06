@@ -11,6 +11,6 @@ updated: 2024-01-01
 
 ### Linking Summary:
 
-- New links added: [[Quiescence]], [[notes/_link/Aging]], [[notes/_link/Cognition]]
+- New links added: [[Quiescence]], [[Aging]], [[Cognition]]
 - Suggested new entity notes to create: [[Neurogenesis]]
-- Strong connections to strengthen: [[Neural Stem Cell]] ↔ [[notes/_link/Neurodegenerative Diseases]]
+- Strong connections to strengthen: [[Neural Stem Cell]] ↔ [[Neurodegenerative Diseases]]

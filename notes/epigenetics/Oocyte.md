@@ -11,6 +11,6 @@ An [[Oocyte]] is a female gametocyte or germ cell involved in reproduction. In m
 
 ### Linking Summary:
 
-- New links added: [[Quiescence]], [[Prophase I]], [[Meiosis]], [[notes/_link/Aging]]
+- New links added: [[Quiescence]], [[Prophase I]], [[Meiosis]], [[Aging]]
 - Suggested new entity notes to create: [[Cohesin]], [[Aneuploidy]]
 - Strong connections to strengthen: [[Oocyte]] ↔ [[CENP-A]]

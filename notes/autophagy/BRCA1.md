@@ -61,11 +61,11 @@ BRCA1 physically neighbours [[Beclin1]] on chromosome 17q21 and its expression c
 - [[BRCA2]] — downstream effector in homologous recombination
 - [[RAD51]] — recombinase loaded at DNA breaks by BRCA1/PALB2/BRCA2
 - [[PARP Inhibitors]] — synthetic lethal with BRCA1 deficiency
-- [[notes/_link/Breast Cancer]] — condition associated with BRCA1 mutation
+- [[Breast Cancer]] — condition associated with BRCA1 mutation
 - [[Ovarian Cancer]] — second major cancer risk from BRCA1 mutation
 
 ## Linking Summary
 
-- New links added: [[notes/_link/Breast Cancer]], [[Cancer]], [[Beclin1]], [[SIRT2]], [[PARP Inhibitors]], [[BRCA2]], [[RAD51]], [[BARD1]], [[Homologous Recombination]], [[ATM]], [[ATR]]
+- New links added: [[Breast Cancer]], [[Cancer]], [[Beclin1]], [[SIRT2]], [[PARP Inhibitors]], [[BRCA2]], [[RAD51]], [[BARD1]], [[Homologous Recombination]], [[ATM]], [[ATR]]
 - Suggested new entity notes to create: [[PALB2]], [[Abraxas]], [[CtIP]], [[BRIP1]]
 - Strong connections to strengthen: [[BRCA1]] ↔ [[Beclin1]], [[BRCA1]] ↔ [[SIRT2]], [[BRCA1]] ↔ [[PARP Inhibitors]]

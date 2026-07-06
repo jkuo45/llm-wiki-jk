@@ -22,11 +22,11 @@ The striatum is anatomically subdivided into:
 - **Dorsal Striatum**: Comprising the caudate nucleus and putamen, primarily involved in motor control, cognitive function, and habit learning.
 - **Ventral Striatum**: Including the [[Nucleus Accumbens]] and olfactory tubercle, primarily involved in reward processing, motivation, and addiction.
 
-The striatum receives dopaminergic input from the [[Substantia Nigra Pars Compacta]] via the [[Nigrostriatal System]]; degeneration of this pathway is the central pathological event in [[notes/_link/Parkinson's Disease]]. It also receives cortical input from the [[Prefrontal Cortex]], forming cortico-basal ganglia loops essential for executive control.
+The striatum receives dopaminergic input from the [[Substantia Nigra Pars Compacta]] via the [[Nigrostriatal System]]; degeneration of this pathway is the central pathological event in [[Parkinson's Disease]]. It also receives cortical input from the [[Prefrontal Cortex]], forming cortico-basal ganglia loops essential for executive control.
 
 ## Dopamine Signaling
 
-The [[Striatum]] is characterised by high levels of [[notes/_link/Dopamine]] and the [[Dopamine Transporter]] ([[DAT]]). Dopamine signalling in the striatum is modulated by several enzymes and transporters:
+The [[Striatum]] is characterised by high levels of [[Dopamine]] and the [[Dopamine Transporter]] ([[DAT]]). Dopamine signalling in the striatum is modulated by several enzymes and transporters:
 
 - **[[COMT]]**: Catechol-O-methyltransferase degrades dopamine in the striatum. Research in [[COMT]] overexpressing models shows that increased [[COMT]] activity can lead to increased dopamine release capacity in the striatum, suggesting a novel mechanism by which COMT variation impacts striatal function beyond its canonical role in the PFC.
 - In the **dorsomedial striatum**, dopamine activity is crucial for [[Stimulus-response learning]].
@@ -44,7 +44,7 @@ The primary neurons in the striatum are [[Medium spiny neurons]] ([[MSNs]]), whi
 
 Dysfunction in the striatum is linked to a range of neurological and psychiatric disorders:
 
-- [[notes/_link/Parkinson's Disease]] — dopamine depletion in the putamen causes motor symptoms (bradykinesia, rigidity, tremor)
+- [[Parkinson's Disease]] — dopamine depletion in the putamen causes motor symptoms (bradykinesia, rigidity, tremor)
 - [[Huntington's Disease]] — selective degeneration of striatal MSNs, particularly in the caudate nucleus
 - [[Obsessive-Compulsive Disorder]] — hyperactivity in cortico-striatal circuits
 - [[Impulsive Behavior]] and [[Compulsive Behavior]] — associated with dysregulated striatal dopamine signalling
@@ -53,10 +53,10 @@ Dysfunction in the striatum is linked to a range of neurological and psychiatric
 
 ## Connections
 
-- [[notes/_link/Dopamine]]: Major neurotransmitter signalling in the striatum.
+- [[Dopamine]]: Major neurotransmitter signalling in the striatum.
 - [[COMT]]: Enzyme that, when overexpressed, impacts striatal dopamine release.
 - [[Prefrontal Cortex]]: Works in tandem with the striatum for executive control.
-- [[notes/_link/Parkinson's Disease]]: Striatal dopamine depletion underlies motor symptoms.
+- [[Parkinson's Disease]]: Striatal dopamine depletion underlies motor symptoms.
 - [[Medium spiny neurons]]: The primary cell type of the striatum.
 - [[Caudate Nucleus]] / [[Putamen]]: The two anatomical subdivisions of the striatum.
 - [[Substantia Nigra Pars Compacta]]: Source of dopaminergic input to the striatum.
@@ -64,6 +64,6 @@ Dysfunction in the striatum is linked to a range of neurological and psychiatric
 
 ## Linking Summary
 
-- New links added: [[Caudate Nucleus]], [[Putamen]], [[Substantia Nigra Pars Compacta]], [[Nigrostriatal System]], [[notes/_link/Parkinson's Disease]], [[notes/_link/Dopamine]], [[Dopamine Transporter]], [[DAT]], [[COMT]], [[Medium spiny neurons]], [[MSNs]], [[D1 Receptor]], [[D2 receptor]], [[Prefrontal Cortex]], [[Basal Ganglia]], [[Nucleus Accumbens]]
+- New links added: [[Caudate Nucleus]], [[Putamen]], [[Substantia Nigra Pars Compacta]], [[Nigrostriatal System]], [[Parkinson's Disease]], [[Dopamine]], [[Dopamine Transporter]], [[DAT]], [[COMT]], [[Medium spiny neurons]], [[MSNs]], [[D1 Receptor]], [[D2 receptor]], [[Prefrontal Cortex]], [[Basal Ganglia]], [[Nucleus Accumbens]]
 - Suggested new entity notes to create: [[Cholinergic interneurons]], [[Parvalbumin-positive fast-spiking interneurons]], [[Somatostatin-positive interneurons]]
-- Strong connections to strengthen: [[Striatum]] ↔ [[Nigrostriatal System]], [[Striatum]] ↔ [[notes/_link/Dopamine]], [[Striatum]] ↔ [[Basal Ganglia]]
+- Strong connections to strengthen: [[Striatum]] ↔ [[Nigrostriatal System]], [[Striatum]] ↔ [[Dopamine]], [[Striatum]] ↔ [[Basal Ganglia]]

@@ -17,6 +17,6 @@ PI3K-Akt signaling suppresses [[Autophagy]] via mTORC1 activation. [[PI3K inhibi
 
 ### Linking Summary
 
-- New links added: [[Akt]], [[TFEB]], [[notes/_link/PI3K]]
+- New links added: [[Akt]], [[TFEB]], [[PI3K]]
 - Suggested new entity notes to create: [[PTEN]]
 - Strong connections to strengthen: [[PI3K-Akt Signaling]] ↔ [[Akt]]

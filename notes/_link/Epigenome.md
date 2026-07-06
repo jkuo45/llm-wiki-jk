@@ -15,21 +15,21 @@ The epigenome is made up of several layers of information:
 *   **Proteins associated with DNA**: Including histones and the various [[Histone Modification|histone modifications]] that alter [[Chromatin]] structure.
 *   **Regulatory RNAs**: Such as [[Non-coding RNA]] that fine-tune gene expression.
 
-### 2. The Epigenome and [[notes/_link/Aging]]
-One of the defining features of [[notes/_link/Aging]] is the progressive loss of epigenetic information. This can manifest as:
+### 2. The Epigenome and [[Aging]]
+One of the defining features of [[Aging]] is the progressive loss of epigenetic information. This can manifest as:
 *   **Loss of Heterochromatin**: Repressive regions of the genome become more open, leading to the activation of genes that should be silenced.
 *   **Transcriptional Drift**: Gene expression patterns become more erratic and less coordinated within a tissue.
 
 ### 3. Interaction with Environment
-The epigenome is highly responsive to external factors like [[notes/_link/Caloric Restriction]], exercise, and environmental toxins. This flexibility allows organisms to adapt to their surroundings but also makes them vulnerable to "epigenetic scars" from harmful exposures.
+The epigenome is highly responsive to external factors like [[Caloric Restriction]], exercise, and environmental toxins. This flexibility allows organisms to adapt to their surroundings but also makes them vulnerable to "epigenetic scars" from harmful exposures.
 
 ### Connections
 - **[[Epigenetics]]**: The study of the marks that make up the epigenome.
 - **[[Chromatin]]**: The structural framework of the epigenome.
-- **[[notes/_link/Aging]]**: The process of epigenome deterioration over time.
+- **[[Aging]]**: The process of epigenome deterioration over time.
 - **[[DNA Methylation]]**: A key component of the epigenomic landscape.
 
 ### Linking Summary:
-- New links added: [[Epigenome]], [[DNA Methylation]], [[Histone Modification]], [[Chromatin]], [[Non-coding RNA]], [[notes/_link/Aging]], [[Heterochromatin]], [[notes/_link/Caloric Restriction]], [[Epigenetics]]
+- New links added: [[Epigenome]], [[DNA Methylation]], [[Histone Modification]], [[Chromatin]], [[Non-coding RNA]], [[Aging]], [[Heterochromatin]], [[Caloric Restriction]], [[Epigenetics]]
 - Suggested new entity notes to create: [[Transcriptional Drift]], [[Epigenomic Landscapes]], [[Epigenetic Inheritance]]
-- Strong connections to strengthen: [[Epigenome]] ↔ [[notes/_link/Aging]], [[Epigenome]] ↔ [[Chromatin]]
+- Strong connections to strengthen: [[Epigenome]] ↔ [[Aging]], [[Epigenome]] ↔ [[Chromatin]]

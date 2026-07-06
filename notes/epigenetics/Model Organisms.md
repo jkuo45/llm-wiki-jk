@@ -17,4 +17,4 @@ updated: 2024-01-01
 
 ## Related
 - [[Geroscience]]
-- [[notes/_link/Aging]]
+- [[Aging]]

@@ -16,7 +16,7 @@ updated: 2026-07-05
 
 # Caspase-3
 
-**Caspase-3** is a protease enzyme that plays a central role in the execution-phase of cell [[notes/_link/Apoptosis|apoptosis]]. It is the primary executioner caspase, responsible for cleaving a wide array of cellular substrates that orchestrate apoptotic cell death — including structural proteins ([[Lamins]], [[Actin]]), DNA repair enzymes ([[PARP1]], [[DNA-PKcs]]), and inhibitors of nucleases ([[ICAD]]/[[DFF45]]).
+**Caspase-3** is a protease enzyme that plays a central role in the execution-phase of cell [[Apoptosis|apoptosis]]. It is the primary executioner caspase, responsible for cleaving a wide array of cellular substrates that orchestrate apoptotic cell death — including structural proteins ([[Lamins]], [[Actin]]), DNA repair enzymes ([[PARP1]], [[DNA-PKcs]]), and inhibitors of nucleases ([[ICAD]]/[[DFF45]]).
 
 ## Structure and Activation
 
@@ -53,7 +53,7 @@ Caspase-3 activity is modulated by post-translational modifications:
 
 ## Connections
 
-- [[notes/_link/Apoptosis|Apoptosis]]: The process where caspase-3 is the key executioner.
+- [[Apoptosis|Apoptosis]]: The process where caspase-3 is the key executioner.
 - [[Caspase-9]]: Upstream initiator caspase that activates Caspase-3 in the intrinsic pathway.
 - [[Caspase-8]]: Upstream initiator caspase that activates Caspase-3 in the extrinsic pathway.
 - [[PARP1]]: Classical Caspase-3 cleavage substrate used as apoptosis marker.

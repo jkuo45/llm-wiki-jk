@@ -62,12 +62,12 @@ The largest subclass (see [[Flavonoids]]), including flavonols, flavones, isofla
 
 ### 3. Stilbenes
 Characterized by the C6-C2-C6 framework:
-- **[[Resveratrol]]** (3,5,4′-trihydroxy-trans-stilbene): The most studied stilbene, found in red wine, grapes, and [[Polygonum cuspidatum]]; activates [[notes/_link/Sirtuin 1|SIRT1]] and [[notes/_link/AMPK]]
+- **[[Resveratrol]]** (3,5,4′-trihydroxy-trans-stilbene): The most studied stilbene, found in red wine, grapes, and [[Polygonum cuspidatum]]; activates [[Sirtuin 1|SIRT1]] and [[AMPK]]
 - **Piceatannol** and **pterostilbene**: Methoxylated analogues with improved bioavailability
 
 ### 4. Lignans
 Dimeric phenylpropanoid compounds (C6-C3 dimer):
-- **Secoisolariciresinol** and **matairesinol**: Found in flaxseed, sesame seeds, and whole grains; metabolized by [[notes/_link/Gut Microbiome]] to enterolactone and enterodiol
+- **Secoisolariciresinol** and **matairesinol**: Found in flaxseed, sesame seeds, and whole grains; metabolized by [[Gut Microbiome]] to enterolactone and enterodiol
 
 ## Structure-Antioxidant Activity Relationships
 
@@ -83,7 +83,7 @@ The radical-scavenging capacity of polyphenols depends on:
 Methylation of hydroxyl groups (e.g., in metabolized flavonoids) reduces antioxidant capacity by 2–10 fold but enhances membrane partitioning and metabolic stability.
 
 ### Galloylation
-The galloyl ester moiety (present in [[notes/_link/EGCG]]) provides additional hydroxyl groups, making galloylated catechins among the most potent natural antioxidants (TEAC values 4–5× greater than Trolox).
+The galloyl ester moiety (present in [[EGCG]]) provides additional hydroxyl groups, making galloylated catechins among the most potent natural antioxidants (TEAC values 4–5× greater than Trolox).
 
 ## Molecular Mechanisms of Antioxidant Action
 
@@ -118,37 +118,37 @@ Polyphenols are **electrophilic** or are metabolized to electrophilic quinones t
    - [[Catalase]]
    - Heme oxygenase-1 (HO-1)
    - [[NAD(P)H:quinone oxidoreductase 1]] (NQO1)
-   - [[notes/_link/Superoxide Dismutase]]
-   - [[notes/_link/Glutathione]] S-transferases (GSTs)
+   - [[Superoxide Dismutase]]
+   - [[Glutathione]] S-transferases (GSTs)
 
 ### Inhibition of Pro-Oxidant Enzymes
 
 | Enzyme | Polyphenol Inhibitors | Mechanism |
 |--------|----------------------|-----------|
-| [[NADPH Oxidase]] | [[notes/_link/Quercetin]], apocynin, resveratrol | Block p47phox translocation |
+| [[NADPH Oxidase]] | [[Quercetin]], apocynin, resveratrol | Block p47phox translocation |
 | [[Xanthine Oxidase]] | Luteolin, kaempferol, quercetin | Competitive inhibition at Mo-pterin site |
-| [[notes/_link/Lipoxygenase]] | Catechins, genistein | Iron chelation at active site |
-| [[notes/_link/Myeloperoxidase]] | Resveratrol, flavonoids | Heme binding and redox cycling interference |
+| [[Lipoxygenase]] | Catechins, genistein | Iron chelation at active site |
+| [[Myeloperoxidase]] | Resveratrol, flavonoids | Heme binding and redox cycling interference |
 
 ## The Biphasic Hormetic Response
 
 Polyphenols exhibit **hormesis**—low-dose beneficial, high-dose potentially harmful effects:
 
 ### Low-Dose Protective Effects (µM range)
-- Activation of NRF2, SIRT1, [[notes/_link/AMPK]]
+- Activation of NRF2, SIRT1, [[AMPK]]
 - Enhancement of [[Mitochondrial Biogenesis]]
-- Improved [[notes/_link/Glutathione]] levels
-- Suppression of [[NF-kappa B]] and [[notes/_link/Inflammation]]
+- Improved [[Glutathione]] levels
+- Suppression of [[NF-kappa B]] and [[Inflammation]]
 
 ### High-Dose Pro-Oxidant Effects (≥100 µM)
 - **Autoxidation**: Polyphenol → semiquinone → quinone + O₂⁻•
 - **Reduction of Fe³⁺ to Fe²⁺**: Promoting Fenton chemistry
-- **Quinone-mediated toxicity**: Covalent modification of proteins and [[notes/_link/Glutathione]] depletion
+- **Quinone-mediated toxicity**: Covalent modification of proteins and [[Glutathione]] depletion
 - **DNA damage**: Topoisomerase-mediated DNA cleavage (especially relevant for dietary carcinogenesis studies)
 
 ## Gut Microbiota Metabolism
 
-The majority of dietary polyphenols reach the colon intact where they are metabolized by [[notes/_link/Gut Microbiome]]:
+The majority of dietary polyphenols reach the colon intact where they are metabolized by [[Gut Microbiome]]:
 
 - **Ring fission**: Conversion of flavonoid C-ring to phenolic acids (e.g., 3-hydroxyphenylacetic acid, 4-hydroxyphenylpropionic acid)
 - **Dehydroxylation**: Loss of hydroxyl groups (e.g., daidzein → equol by [[Lactobacillus]] and [[Bifidobacterium]])
@@ -160,17 +160,17 @@ These microbial metabolites are absorbed systemically and may contribute signifi
 ## Clinical and Pathological Significance
 
 ### Cardiovascular Protection
-Polyphenols reduce [[notes/_link/Cardiovascular Disease]] risk through:
+Polyphenols reduce [[Cardiovascular Disease]] risk through:
 - **Improved [[Endothelial Dysfunction]]**: Enhancing eNOS activity and NO bioavailability
-- **LDL oxidation inhibition**: [[notes/_link/Quercetin]] and resveratrol inhibit Cu²⁺-mediated and cell-mediated LDL oxidation
+- **LDL oxidation inhibition**: [[Quercetin]] and resveratrol inhibit Cu²⁺-mediated and cell-mediated LDL oxidation
 - **Blood pressure reduction**: Anthocyanins and flavanols lower BP by 2–5 mmHg in meta-analyses
 - **Platelet aggregation inhibition**: Resveratrol suppresses thromboxane A₂ synthesis
 
 ### Neuroprotection
-Polyphenols cross the [[Blood-Brain Barrier]] and protect against [[notes/_link/Neurodegenerative Diseases]]:
-- **Amyloid-β aggregation inhibition**: [[notes/_link/EGCG]] remodels Aβ fibrils into non-toxic oligomers
-- **Metal chelation in [[notes/_link/Alzheimer's Disease]]**: Removing Cu²⁺/Zn²⁺ from Aβ aggregates
-- **Dopaminergic neuron protection**: [[notes/_link/Quercetin]] and resveratrol attenuate MPTP/MPP⁺ toxicity in [[notes/_link/Parkinson's Disease]] models
+Polyphenols cross the [[Blood-Brain Barrier]] and protect against [[Neurodegenerative Diseases]]:
+- **Amyloid-β aggregation inhibition**: [[EGCG]] remodels Aβ fibrils into non-toxic oligomers
+- **Metal chelation in [[Alzheimer's Disease]]**: Removing Cu²⁺/Zn²⁺ from Aβ aggregates
+- **Dopaminergic neuron protection**: [[Quercetin]] and resveratrol attenuate MPTP/MPP⁺ toxicity in [[Parkinson's Disease]] models
 
 ### Cancer Chemoprevention
 - **Phase I enzyme modulation**: Inhibition of CYP1A1 by flavonoids
@@ -179,15 +179,15 @@ Polyphenols cross the [[Blood-Brain Barrier]] and protect against [[notes/_link/
 - **Apoptosis induction**: Pro-oxidant effects selectively eliminate cancer cells
 
 ### Metabolic Benefits
-- [[notes/_link/Diabetes Mellitus]]: Improved insulin sensitivity through [[notes/_link/AMPK]] activation
-- [[notes/_link/Obesity]]: Anthocyanins reduce adipocyte differentiation
-- [[notes/_link/Metabolic Syndromes]]: Reduced oxidative stress and inflammation
+- [[Diabetes Mellitus]]: Improved insulin sensitivity through [[AMPK]] activation
+- [[Obesity]]: Anthocyanins reduce adipocyte differentiation
+- [[Metabolic Syndromes]]: Reduced oxidative stress and inflammation
 
 ### Connections
 - [[Flavonoids]]: Major subclass of polyphenols
-- [[notes/_link/Resveratrol]]: Prototypical stilbene polyphenol
+- [[Resveratrol]]: Prototypical stilbene polyphenol
 - [[Genistein]]: Isoflavone polyphenol with phytoestrogen activity
-- [[notes/_link/Gut Microbiome]]: Critical for polyphenol biotransformation
-- [[notes/_link/Caloric Restriction]]: Polyphenols mimic CR effects via SIRT1/AMPK
-- [[notes/_link/Melatonin]]: Synergistic antioxidant with polyphenols
+- [[Gut Microbiome]]: Critical for polyphenol biotransformation
+- [[Caloric Restriction]]: Polyphenols mimic CR effects via SIRT1/AMPK
+- [[Melatonin]]: Synergistic antioxidant with polyphenols
 - [[NRF2]]: Key downstream mediator of polyphenol benefits

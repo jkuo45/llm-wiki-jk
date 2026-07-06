@@ -11,6 +11,6 @@ updated: 2024-01-01
 
 ### Linking Summary:
 
-- New links added: [[Aneuploidy]], [[Oocyte]], [[notes/_link/Aging]]
+- New links added: [[Aneuploidy]], [[Oocyte]], [[Aging]]
 - Suggested new entity notes to create: [[Down Syndrome]]
 - Strong connections to strengthen: [[Trisomy]] ↔ [[Meiosis]]

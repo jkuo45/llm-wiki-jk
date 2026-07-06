@@ -11,17 +11,17 @@ updated: 2026-07-04
 
 # Hypertension
 
-**Hypertension** is a chronic medical condition characterized by persistently elevated arterial blood pressure. It is a major risk factor for [[notes/_link/Cardiovascular Disease]], [[notes/_link/Stroke|stroke]], [[Chronic Kidney Disease]], and [[notes/_link/Heart Failure|heart failure]].
+**Hypertension** is a chronic medical condition characterized by persistently elevated arterial blood pressure. It is a major risk factor for [[Cardiovascular Disease]], [[Stroke|stroke]], [[Chronic Kidney Disease]], and [[Heart Failure|heart failure]].
 
 ## Connections
 
-- [[notes/_link/Cardiovascular Disease]] — Primary risk factor
-- [[notes/_link/Stroke]] — Hypertension is the leading modifiable risk factor
-- [[notes/_link/Endothelial Dysfunction]] — Both cause and consequence
-- [[notes/_link/Heart Failure]] — Chronic pressure overload leads to heart failure
+- [[Cardiovascular Disease]] — Primary risk factor
+- [[Stroke]] — Hypertension is the leading modifiable risk factor
+- [[Endothelial Dysfunction]] — Both cause and consequence
+- [[Heart Failure]] — Chronic pressure overload leads to heart failure
 
 ## Linking Summary
 
-- New links added: [[notes/_link/Cardiovascular Disease]], [[notes/_link/Stroke]], [[notes/_link/Endothelial Dysfunction]], [[notes/_link/Heart Failure]]
+- New links added: [[Cardiovascular Disease]], [[Stroke]], [[Endothelial Dysfunction]], [[Heart Failure]]
 - Suggested new entity notes to create: [[RAAS]], [[Aldosterone]], [[ACE Inhibitors]]
-- Strong connections to strengthen: [[Hypertension]] ↔ [[notes/_link/Cardiovascular Disease]]
+- Strong connections to strengthen: [[Hypertension]] ↔ [[Cardiovascular Disease]]

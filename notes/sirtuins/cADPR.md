@@ -47,9 +47,9 @@ In tumor microenvironments, elevated cADPR can promote cancer cell survival, mig
 
 - **[[CD38]]**: The primary enzyme responsible for both the synthesis and degradation of cADPR.
 - **[[NAD+]]**: The precursor molecule from which cADPR is synthesized.
-- **[[notes/_link/Apoptosis|Apoptosis]]**: Regulated by calcium fluxes modulated by cADPR.
+- **[[Apoptosis|Apoptosis]]**: Regulated by calcium fluxes modulated by cADPR.
 
 ## Linking Summary:
-- New links added: [[CD38]], [[NAD+]], [[notes/_link/Apoptosis]]
+- New links added: [[CD38]], [[NAD+]], [[Apoptosis]]
 - Suggested new entity notes to create: [[Ryanodine Receptors]], [[Oxytocin]]
 - Strong connections to strengthen: [[cADPR]] ↔ [[CD38]], [[cADPR]] ↔ [[NAD+]]

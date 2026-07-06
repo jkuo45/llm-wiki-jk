@@ -55,12 +55,12 @@ Splitomicin selectively blocks the NAD⁺-dependent deacetylation reaction catal
 
 - **[[SIRT1]]** & **[[SIRT2]]** — target proteins inhibited by splitomicin.
 - **[[Sirtinol]]** — sibling inhibitor discovered in the same yeast phenotypic screen.
-- **[[notes/_link/Cardiovascular Disease]]** — cardiovascular context where splitomicin-mediated sirtuin inhibition is studied.
+- **[[Cardiovascular Disease]]** — cardiovascular context where splitomicin-mediated sirtuin inhibition is studied.
 
 ---
 
 ## Linking Summary
 
-- **New Links Added**: [[SIRT1]], [[SIRT2]], [[Sirtinol]], [[notes/_link/Cardiovascular Disease]]
+- **New Links Added**: [[SIRT1]], [[SIRT2]], [[Sirtinol]], [[Cardiovascular Disease]]
 - **Suggested New Notes to Create**: [[Ischemic Preconditioning]], [[Tissue Factor]]
 - **Strong Connections to Strengthen**: [[Splitomicin]] ↔ [[SIRT1]], [[Splitomicin]] ↔ [[SIRT2]]

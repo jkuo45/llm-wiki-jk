@@ -15,7 +15,7 @@ Glutathione is a concept related to [[Adrenochrome]] and catecholamine metabolis
 
 - New links added: [[Glutathione Peroxidase]], [[Alpha-Lipoic Acid]], [[Oxidative Stress]]
 - Suggested new entity notes to create: [[Glutathione Reductase]], [[GSSG]], [[Cysteine]]
-- Strong connections to strengthen: [[notes/_link/Glutathione]] ↔ [[Glutathione Peroxidase]]
+- Strong connections to strengthen: [[Glutathione]] ↔ [[Glutathione Peroxidase]]
 
 ## Definition
 Glutathione (GSH) is a tripeptide (composed of glutamate, cysteine, and glycine) and the most abundant endogenous antioxidant in most cells. It is often referred to as the "master antioxidant."
@@ -41,4 +41,4 @@ Glutathione (GSH) is a tripeptide (composed of glutamate, cysteine, and glycine)
 ### Linking Summary:
 - New links added: [[Adrenochrome]], [[Alpha-Lipoic Acid]], [[Glutathione Peroxidase]], [[Oxidative Stress]]
 - Suggested new entity notes to create: [[Cysteine]], [[GSSG]], [[Glutathione Reductase]]
-- Strong connections to strengthen: [[notes/_link/Glutathione]] ↔ [[Glutathione Peroxidase]]
+- Strong connections to strengthen: [[Glutathione]] ↔ [[Glutathione Peroxidase]]

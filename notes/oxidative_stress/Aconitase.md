@@ -25,4 +25,4 @@ Aconitase contains a [4Fe-4S] cluster at its active site. One iron atom (Feₐ) 
 
 ## Clinical Relevance
 
-Aconitase inactivation is a sensitive marker of [[mitochondrial oxidative stress]] and is observed in [[notes/_link/Parkinson's Disease]] (substantia nigra), [[notes/_link/Alzheimer's Disease]], [[notes/_link/Ischemia-reperfusion Injury]], and [[notes/_link/Aging]].
+Aconitase inactivation is a sensitive marker of [[mitochondrial oxidative stress]] and is observed in [[Parkinson's Disease]] (substantia nigra), [[Alzheimer's Disease]], [[Ischemia-reperfusion Injury]], and [[Aging]].

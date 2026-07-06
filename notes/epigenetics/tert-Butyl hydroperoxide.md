@@ -9,6 +9,6 @@ updated: 2024-01-01
 tert-Butyl hydroperoxide is a chemical compound and organic peroxide used as an oxidant to induce cellular senescence in experimental models.
 
 ### Linking Summary:
-- New links added: [[Oxidative Stress]], [[notes/_link/Senescence]]
+- New links added: [[Oxidative Stress]], [[Senescence]]
 - Suggested new entity notes to create: 
-- Strong connections to strengthen: [[tert-Butyl hydroperoxide]] <-> [[notes/_link/Senescence]]
+- Strong connections to strengthen: [[tert-Butyl hydroperoxide]] <-> [[Senescence]]

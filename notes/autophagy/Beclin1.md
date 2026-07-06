@@ -15,7 +15,7 @@ updated: 2026-07-05
 
 # Beclin1
 
-**Beclin1** (also known as **Atg6** and **BECN1**) is a key regulatory protein in the initiation and regulation of [[Autophagy]]. It functions as a molecular scaffold that assembles the class III [[notes/_link/PI3K]] complex, which produces phosphatidylinositol 3-phosphate (PI3P) to nucleate autophagosome formation.
+**Beclin1** (also known as **Atg6** and **BECN1**) is a key regulatory protein in the initiation and regulation of [[Autophagy]]. It functions as a molecular scaffold that assembles the class III [[PI3K]] complex, which produces phosphatidylinositol 3-phosphate (PI3P) to nucleate autophagosome formation.
 
 ## Structure and Domains
 
@@ -28,7 +28,7 @@ Beclin1 is a 450-amino-acid protein containing several conserved domains:
 
 ## The Class III PI3K Complexes
 
-Beclin1 is the central scaffold of three distinct class III [[notes/_link/PI3K]] complexes:
+Beclin1 is the central scaffold of three distinct class III [[PI3K]] complexes:
 
 | Complex | Subunits | Function |
 |---------|----------|----------|
@@ -75,7 +75,7 @@ Beclin1 is a well-characterised tumour suppressor:
 ## Connections
 
 - [[Autophagy]]: Beclin1 is the central scaffold of autophagosome nucleation.
-- [[notes/_link/PI3K]]: Class III PI3K complex is assembled by Beclin1.
+- [[PI3K]]: Class III PI3K complex is assembled by Beclin1.
 - [[Vps34]]: Catalytic subunit of the class III PI3K complex.
 - [[Bcl-2]] / [[Bcl-xL]]: Inhibit Beclin1 through BH3 domain binding.
 - [[ULK1]]: Phosphorylates and activates Beclin1.
@@ -85,6 +85,6 @@ Beclin1 is a well-characterised tumour suppressor:
 
 ## Linking Summary
 
-- New links added: [[Autophagy]], [[notes/_link/PI3K]], [[Vps34]], [[Autophagosome]], [[Cancer]], [[BRCA1]], [[ULK1]], [[Bcl-2]], [[Bcl-xL]], [[SIRT1]], [[SIRT2]], [[SIRT3]], [[UVRAG]], [[Rubicon]], [[Vps15]]
+- New links added: [[Autophagy]], [[PI3K]], [[Vps34]], [[Autophagosome]], [[Cancer]], [[BRCA1]], [[ULK1]], [[Bcl-2]], [[Bcl-xL]], [[SIRT1]], [[SIRT2]], [[SIRT3]], [[UVRAG]], [[Rubicon]], [[Vps15]]
 - Suggested new entity notes to create: [[Atg14L]], [[UVRAG]], [[Rubicon]], [[Bif-1]], [[DAPK]], [[TRAF6]]
 - Strong connections to strengthen: [[Beclin1]] ↔ [[Autophagy]], [[Beclin1]] ↔ [[Cancer]], [[Beclin1]] ↔ [[SIRT1]], [[Beclin1]] ↔ [[BRCA1]]

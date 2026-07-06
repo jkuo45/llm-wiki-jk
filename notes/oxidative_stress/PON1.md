@@ -26,6 +26,6 @@ PON1 reduces [[Lipid Peroxidation|lipid peroxidation]] in LDL by hydrolyzing spe
 
 ## Clinical Relevance
 
-Low PON1 activity is an independent risk factor for [[notes/_link/Cardiovascular Disease|cardiovascular disease]]. PON1 activity is modulated by:
+Low PON1 activity is an independent risk factor for [[Cardiovascular Disease|cardiovascular disease]]. PON1 activity is modulated by:
 - **Polymorphisms**: Q192R (determines paraoxon hydrolysis rate) and L55M (affects expression level)
 - **Lifestyle**: Smoking, diabetes, and [[Oxidative Stress|oxidative stress]] reduce activity; moderate alcohol consumption, statins, and polyphenols increase activity

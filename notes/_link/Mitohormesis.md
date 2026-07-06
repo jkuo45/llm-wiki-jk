@@ -11,20 +11,20 @@ updated: 2026-07-04
 
 # Mitohormesis
 
-**Mitohormesis** is a biological process where low-level mitochondrial stress (e.g., mild [[Oxidative Stress]]) triggers adaptive cytoprotective responses that increase resilience and lifespan. [[notes/_link/Exercise]], [[notes/_link/Caloric Restriction]], and [[notes/_link/Metformin]] are classic mitohormetic interventions.
+**Mitohormesis** is a biological process where low-level mitochondrial stress (e.g., mild [[Oxidative Stress]]) triggers adaptive cytoprotective responses that increase resilience and lifespan. [[Exercise]], [[Caloric Restriction]], and [[Metformin]] are classic mitohormetic interventions.
 
 ## Connections
 
 - [[Oxidative Stress]] — Low-level ROS are the signaling molecules
-- [[notes/_link/Exercise]] — Induces mitohormetic adaptations
-- [[notes/_link/Caloric Restriction]] — Mitohormesis mediates CR benefits
-- [[notes/_link/NRF2]] — Activated downstream of mitohormetic signals
+- [[Exercise]] — Induces mitohormetic adaptations
+- [[Caloric Restriction]] — Mitohormesis mediates CR benefits
+- [[NRF2]] — Activated downstream of mitohormetic signals
 
 ## Linking Summary
 
-- New links added: [[Oxidative Stress]], [[notes/_link/Exercise]], [[notes/_link/Caloric Restriction]], [[notes/_link/Metformin]], [[notes/_link/NRF2]], [[notes/_link/Mitochondria]]
+- New links added: [[Oxidative Stress]], [[Exercise]], [[Caloric Restriction]], [[Metformin]], [[NRF2]], [[Mitochondria]]
 - Suggested new entity notes to create: [[Mitochondrial Uncoupling]], [[ETC Complex I inhibition]]
-- Strong connections to strengthen: [[Mitohormesis]] ↔ [[notes/_link/Exercise]]
+- Strong connections to strengthen: [[Mitohormesis]] ↔ [[Exercise]]
 
 ## Content from [[adrenochrome/Mitohormesis.md]]
 

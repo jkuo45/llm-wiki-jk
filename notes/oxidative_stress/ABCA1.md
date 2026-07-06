@@ -13,12 +13,12 @@ updated: 2026-07-04
 ---
 
 # ABCA1
-ATP-binding cassette transporter A1 (ABCA1) is a protein which in humans is encoded by the ABCA1 gene and is a major regulator of cellular [[Cholesterol]] and phospholipid homeostasis. It plays a critical role in preventing [[notes/_link/Atherosclerosis]] by mediating the efflux of cholesterol to apolipoproteins. Its expression is regulated by transcription factors such as [[LXRα]] and [[PPARγ]].
+ATP-binding cassette transporter A1 (ABCA1) is a protein which in humans is encoded by the ABCA1 gene and is a major regulator of cellular [[Cholesterol]] and phospholipid homeostasis. It plays a critical role in preventing [[Atherosclerosis]] by mediating the efflux of cholesterol to apolipoproteins. Its expression is regulated by transcription factors such as [[LXRα]] and [[PPARγ]].
 
 ## Linking Summary
-- New links added: [[Cholesterol]], [[notes/_link/Atherosclerosis]], [[LXRα]], [[PPARγ]]
+- New links added: [[Cholesterol]], [[Atherosclerosis]], [[LXRα]], [[PPARγ]]
 - Suggested new entity notes to create: [[Cholesterol]], [[Phospholipid homeostasis]]
-- Strong connections to strengthen: [[ABCA1]] ↔ [[notes/_link/Atherosclerosis]]
+- Strong connections to strengthen: [[ABCA1]] ↔ [[Atherosclerosis]]
 
 ## Role in Oxidative Stress
 
@@ -26,30 +26,30 @@ ABCA1 is intimately connected to [[Oxidative Stress]] at multiple levels. The AB
 
 ### Oxidative Modification and Degradation
 
-ABCA1 itself is susceptible to oxidative modification. [[notes/_link/Reactive Oxygen Species]], particularly [[Hydroxyl Radicals]] and [[Peroxynitrite]], can directly oxidize ABCA1 at critical cysteine and methionine residues, leading to:
+ABCA1 itself is susceptible to oxidative modification. [[Reactive Oxygen Species]], particularly [[Hydroxyl Radicals]] and [[Peroxynitrite]], can directly oxidize ABCA1 at critical cysteine and methionine residues, leading to:
 - **Conformational disruption**: Impairing ATP-binding and hydrolysis necessary for cholesterol translocation
 - **Enhanced proteasomal degradation**: Oxidized ABCA1 is recognized by the ubiquitin-proteasome system, reducing its half-life
-- **Loss of efflux capacity**: Directly compromising the removal of excess cholesterol from [[notes/_link/Macrophage|macrophages]]
+- **Loss of efflux capacity**: Directly compromising the removal of excess cholesterol from [[Macrophage|macrophages]]
 
 ### Connection to Myeloperoxidase and Hypochlorous Acid
 
-[[notes/_link/Myeloperoxidase]] (MPO) derived [[Hypochlorous Acid]] (HOCl) selectively chlorinates and inactivates ABCA1 in macrophages. HOCl targets the critical tryptophan and lysine residues in the ATP-binding domains of ABCA1, impairing its ATPase activity. This MPO-mediated ABCA1 dysfunction promotes foam cell formation and accelerates [[notes/_link/Atherosclerosis]] independently of plasma LDL levels.
+[[Myeloperoxidase]] (MPO) derived [[Hypochlorous Acid]] (HOCl) selectively chlorinates and inactivates ABCA1 in macrophages. HOCl targets the critical tryptophan and lysine residues in the ATP-binding domains of ABCA1, impairing its ATPase activity. This MPO-mediated ABCA1 dysfunction promotes foam cell formation and accelerates [[Atherosclerosis]] independently of plasma LDL levels.
 
 ### ABCA1 and Lipid Peroxidation
 
-ABCA1 facilitates the efflux of oxidized phospholipids and [[Malondialdehyde]] (MDA)-modified lipids to [[notes/_link/Apolipoprotein A-I]] (apoA-I). This process is critical for:
+ABCA1 facilitates the efflux of oxidized phospholipids and [[Malondialdehyde]] (MDA)-modified lipids to [[Apolipoprotein A-I]] (apoA-I). This process is critical for:
 - Removing toxic lipid peroxidation products from cells
-- Preventing secondary oxidative damage to intracellular [[notes/_link/Mitochondria]] and endoplasmic reticulum
-- Reducing [[notes/_link/Inflammation]] by clearing pro-inflammatory lipid species
+- Preventing secondary oxidative damage to intracellular [[Mitochondria]] and endoplasmic reticulum
+- Reducing [[Inflammation]] by clearing pro-inflammatory lipid species
 
 ### Clinical and Therapeutic Implications
 
-Mutations in ABCA1 cause **Tangier disease**, characterized by extremely low HDL, accumulation of cholesterol esters in tissues, and increased risk of [[notes/_link/Cardiovascular Disease]]. Conversely, ABCA1 upregulation by pharmacological LXR agonists is a therapeutic strategy, though limited by hepatic steatotic side effects. Antioxidants such as [[notes/_link/Vitamin E]] and [[notes/_link/Glutathione]] precursors preserve ABCA1 function by protecting it from oxidative inactivation.
+Mutations in ABCA1 cause **Tangier disease**, characterized by extremely low HDL, accumulation of cholesterol esters in tissues, and increased risk of [[Cardiovascular Disease]]. Conversely, ABCA1 upregulation by pharmacological LXR agonists is a therapeutic strategy, though limited by hepatic steatotic side effects. Antioxidants such as [[Vitamin E]] and [[Glutathione]] precursors preserve ABCA1 function by protecting it from oxidative inactivation.
 
 ### Connections
 - [[Lipid Peroxidation]]: ABCA1 effluxes oxidized lipids as a detoxification mechanism
 - [[Endothelial Dysfunction]]: ABCA1 preserves endothelial function by reducing foam cell formation
-- [[notes/_link/NFR2 pathway]]: ABCA1 expression is regulated by NRF2 under oxidative stress
-- [[notes/_link/Mitochondria]]: ABCA1 modulates mitochondrial cholesterol content and redox balance
+- [[NFR2 pathway]]: ABCA1 expression is regulated by NRF2 under oxidative stress
+- [[Mitochondria]]: ABCA1 modulates mitochondrial cholesterol content and redox balance
 - [[LXRα]]: Nuclear receptor controlling ABCA1 transcription
 - [[VCAM-1]]: ABCA1 activity inversely correlates with endothelial adhesion molecule expression

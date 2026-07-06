@@ -14,5 +14,5 @@ updated: 2024-01-01
 
 ## Related
 - [[HGPS]]
-- [[notes/_link/Aging]]
+- [[Aging]]
 - [[Chromatin]]

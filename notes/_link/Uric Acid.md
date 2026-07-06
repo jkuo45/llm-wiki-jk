@@ -22,7 +22,7 @@ At high concentrations (>6 mg/dL), uric acid can act as a pro-oxidant: urate rad
 ## Clinical Relevance
 
 - **[[Gout]]**: Crystallization of MSU in joints triggers intense inflammatory arthritis; treated with [[Allopurinol]] (XO inhibitor), [[Febuxostat]], or [[Uricosuric agents]] ([[Probenecid]], [[Benzbromarone]]).
-- **[[notes/_link/Cardiovascular Disease]]**: Elevated uric acid is an independent risk factor for hypertension, coronary artery disease, and stroke, possibly through oxidative and inflammatory mechanisms.
-- **[[Neurodegeneration|Neurodegenerative diseases]]**: Higher serum urate is associated with slower progression of [[notes/_link/Parkinson's Disease]] and [[notes/_link/Amyotrophic Lateral Sclerosis]], likely due to its antioxidant and iron-chelating properties.
+- **[[Cardiovascular Disease]]**: Elevated uric acid is an independent risk factor for hypertension, coronary artery disease, and stroke, possibly through oxidative and inflammatory mechanisms.
+- **[[Neurodegeneration|Neurodegenerative diseases]]**: Higher serum urate is associated with slower progression of [[Parkinson's Disease]] and [[Amyotrophic Lateral Sclerosis]], likely due to its antioxidant and iron-chelating properties.
 - **[[Metabolic Syndrome]]**: Hyperuricemia correlates with obesity, insulin resistance, and dyslipidemia.
 - **[[Tumor Lysis Syndrome]]**: Massive release of purines from lysed cancer cells (during chemotherapy) causes acute urate nephropathy; prevented with allopurinol or [[Rasburicase]] (recombinant urate oxidase).

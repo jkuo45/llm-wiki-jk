@@ -14,12 +14,12 @@ Colorectal cancer (CRC) is a common malignant tumor affecting the colon or rectu
 
 
 ## Role of Ivermectin
-[[Ivermectin]] has been found to inhibit CRC cell proliferation and induce [[notes/_link/Apoptosis]].
+[[Ivermectin]] has been found to inhibit CRC cell proliferation and induce [[Apoptosis]].
 
 
 ## Mechanisms
 - **Wnt Inhibition:** Ivermectin inhibits the [[Wnt]]/β-catenin pathway, reducing the expression of downstream genes like AXIN2, LGR5, and ASCL2.
-- **Multidrug Resistance Reversal:** Ivermectin reverses drug resistance (e.g., to vincristine) by inhibiting [[P-gp]] expression via the [[EGFR]]/[[ERK]]/[[notes/_link/Akt]]/[[NF-kappa B]] pathway.
+- **Multidrug Resistance Reversal:** Ivermectin reverses drug resistance (e.g., to vincristine) by inhibiting [[P-gp]] expression via the [[EGFR]]/[[ERK]]/[[Akt]]/[[NF-kappa B]] pathway.
 - **EGFR Targeting:** Ivermectin enhances the activity of anti-EGFR drugs like [[cetuximab]].
 
 
@@ -29,14 +29,14 @@ Colorectal cancer (CRC) is a common malignant tumor affecting the colon or rectu
 
 
 ## Impact of Dietary Restriction
-- [[notes/_link/Caloric Restriction]] (e.g., 70% of normal food intake) can suppress colorectal tumor growth.
+- [[Caloric Restriction]] (e.g., 70% of normal food intake) can suppress colorectal tumor growth.
 - This effect is often mediated by the induction of [[Autophagy]] and the reduction of macrophage M2 polarization within the tumor microenvironment.
 
 
 ## Linking Summary:
-- New links added: [[Cancer]], [[Atg4B]], [[notes/_link/Caloric Restriction]], [[Autophagy]]
-- Suggested new entity notes to create: [[Atg4B]], [[notes/_link/Caloric Restriction]]
-- Strong connections to strengthen: [[notes/_link/Colorectal Cancer]] ↔ [[Cancer]], [[notes/_link/Colorectal Cancer]] ↔ [[Atg4B]]
+- New links added: [[Cancer]], [[Atg4B]], [[Caloric Restriction]], [[Autophagy]]
+- Suggested new entity notes to create: [[Atg4B]], [[Caloric Restriction]]
+- Strong connections to strengthen: [[Colorectal Cancer]] ↔ [[Cancer]], [[Colorectal Cancer]] ↔ [[Atg4B]]
 
 ## Connections
 - [[Ivermectin]]: Inhibits proliferation and reverses MDR in CRC.
@@ -46,6 +46,6 @@ Colorectal cancer (CRC) is a common malignant tumor affecting the colon or rectu
 
 
 ### Linking Summary:
-- New links added: [[Atg4B]], [[Autophagy]], [[notes/_link/Caloric Restriction]], [[Cancer]]
-- Suggested new entity notes to create: [[Atg4B]], [[notes/_link/Caloric Restriction]]
-- Strong connections to strengthen: [[notes/_link/Colorectal Cancer]] ↔ [[Atg4B]], [[notes/_link/Colorectal Cancer]] ↔ [[Cancer]]
+- New links added: [[Atg4B]], [[Autophagy]], [[Caloric Restriction]], [[Cancer]]
+- Suggested new entity notes to create: [[Atg4B]], [[Caloric Restriction]]
+- Strong connections to strengthen: [[Colorectal Cancer]] ↔ [[Atg4B]], [[Colorectal Cancer]] ↔ [[Cancer]]

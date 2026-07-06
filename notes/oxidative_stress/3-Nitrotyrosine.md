@@ -16,8 +16,8 @@ Peroxynitrite reacts with protein tyrosine residues via two mechanisms: (1) dire
 
 ## Pathological Significance
 
-3-NT modification can alter protein function through: (1) blocking tyrosine phosphorylation (e.g., inactivating [[MnSOD]] at Tyr34, disrupting mitochondrial antioxidant defense), (2) inducing conformational changes (e.g., promoting [[Alpha-synuclein]] aggregation in [[notes/_link/Parkinson's Disease]]), and (3) creating neoantigens that trigger autoimmune responses.
+3-NT modification can alter protein function through: (1) blocking tyrosine phosphorylation (e.g., inactivating [[MnSOD]] at Tyr34, disrupting mitochondrial antioxidant defense), (2) inducing conformational changes (e.g., promoting [[Alpha-synuclein]] aggregation in [[Parkinson's Disease]]), and (3) creating neoantigens that trigger autoimmune responses.
 
 ## Clinical Relevance
 
-Elevated 3-NT is detected in over 50 human pathologies, including [[notes/_link/Cardiovascular Disease|cardiovascular disease]] (atherosclerotic plaques, myocarditis), [[Neurodegeneration|neurodegenerative diseases]] ([[notes/_link/Alzheimer's Disease]], [[notes/_link/Parkinson's Disease]], [[notes/_link/Amyotrophic Lateral Sclerosis]]), [[inflammatory diseases]] ([[Rheumatoid Arthritis|rheumatoid arthritis]], [[Asthma|asthma]], [[Chronic Obstructive Pulmonary Disease|COPD]]), [[notes/_link/Diabetes Mellitus]], and [[Multiple Sclerosis]]. 3-NT is detected by immunohistochemistry, ELISA, or LC-MS/MS.
+Elevated 3-NT is detected in over 50 human pathologies, including [[Cardiovascular Disease|cardiovascular disease]] (atherosclerotic plaques, myocarditis), [[Neurodegeneration|neurodegenerative diseases]] ([[Alzheimer's Disease]], [[Parkinson's Disease]], [[Amyotrophic Lateral Sclerosis]]), [[inflammatory diseases]] ([[Rheumatoid Arthritis|rheumatoid arthritis]], [[Asthma|asthma]], [[Chronic Obstructive Pulmonary Disease|COPD]]), [[Diabetes Mellitus]], and [[Multiple Sclerosis]]. 3-NT is detected by immunohistochemistry, ELISA, or LC-MS/MS.

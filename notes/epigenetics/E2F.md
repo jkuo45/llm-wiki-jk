@@ -13,4 +13,4 @@ updated: 2024-01-01
 
 - New links added: [[Cell Cycle]], [[Retinoblastoma Protein]], [[Rb]], [[Quiescence]]
 - Suggested new entity notes to create: [[E2F1]]
-- Strong connections to strengthen: [[E2F]] ↔ [[notes/_link/Transcription]]
+- Strong connections to strengthen: [[E2F]] ↔ [[Transcription]]

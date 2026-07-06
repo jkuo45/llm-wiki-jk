@@ -12,5 +12,5 @@ updated: 2026-07-04
 
 ## Connections
 - [[Methemoglobinemia]]: Frequently presents with cyanosis.
-- [[notes/_link/Hypoxia]]: Cyanosis is a clinical indicator of tissue hypoxia.
+- [[Hypoxia]]: Cyanosis is a clinical indicator of tissue hypoxia.
 - [[Methylene blue]]: Used to treat symptomatic cyanosis in methemoglobinemia.

@@ -17,12 +17,12 @@ Transcription factor regulated by Akt that controls gluconeogenesis, adipogenesi
 **FOXO1** (Forkhead Box O1) is a transcription factor that plays a central role in regulating metabolism, cell survival, and [[Autophagy]].
 
 ## Regulation by Insulin/Akt
-- Under nutrient-rich conditions, insulin and [[IGF1]] activate the [[notes/_link/Akt]] pathway.
+- Under nutrient-rich conditions, insulin and [[IGF1]] activate the [[Akt]] pathway.
 - Akt phosphorylates FOXO1, leading to its export from the nucleus to the cytoplasm, thereby inhibiting its transcriptional activity.
 - This suppression of FOXO1 is a major mechanism by which insulin inhibits [[Autophagy]].
 
 ## Role in Autophagy Induction
-- During [[notes/_link/Caloric Restriction]] or [[Intermittent Fasting]], the Akt pathway is downregulated.
+- During [[Caloric Restriction]] or [[Intermittent Fasting]], the Akt pathway is downregulated.
 - Dephosphorylated FOXO1 translocates to the nucleus, where it induces the expression of many [[Atg|autophagy-related genes]] (e.g., [[Atg5]], [[Atg8]]/[[LC3]], [[ULK1]]).
 - FOXO1 also promotes [[Gluconeogenesis]] during starvation.
 
@@ -31,9 +31,9 @@ Transcription factor regulated by Akt that controls gluconeogenesis, adipogenesi
 FOXO1 is a forkhead transcription factor that regulates [[Autophagy]], metabolism, and immune function. It is inhibited by [[Akt]] phosphorylation under growth factor signaling.
 
 ### Linking Summary:
-- New links added: [[Autophagy]], [[IGF1]], [[notes/_link/Akt]], [[notes/_link/Caloric Restriction]], [[Intermittent Fasting]], [[Atg]], [[Atg5]], [[Atg8]], [[LC3]], [[ULK1]], [[Gluconeogenesis]]
+- New links added: [[Autophagy]], [[IGF1]], [[Akt]], [[Caloric Restriction]], [[Intermittent Fasting]], [[Atg]], [[Atg5]], [[Atg8]], [[LC3]], [[ULK1]], [[Gluconeogenesis]]
 - Suggested new entity notes to create: , [[Atg]]
-- Strong connections to strengthen: [[FoxO1]] ↔ [[notes/_link/Akt]], [[FoxO1]] ↔ [[Autophagy]]
+- Strong connections to strengthen: [[FoxO1]] ↔ [[Akt]], [[FoxO1]] ↔ [[Autophagy]]
 
 ## Content from [[sirtuins/FOXO1.md]]
 
@@ -62,7 +62,7 @@ FOXO1 forms a transcriptional complex at the mouse adiponectin promoter with **C
 - Regulates energy homeostasis and glucose/lipid metabolism
 - Improves insulin sensitivity
 - Lowers blood glucose in obese and diabetic mouse models
-- Is increased by [[notes/_link/Caloric Restriction]] in rats (possibly mediated by SIRT1)
+- Is increased by [[Caloric Restriction]] in rats (possibly mediated by SIRT1)
 
 ### Pancreatic β-Cell Function and Insulin Secretion
 
@@ -91,7 +91,7 @@ The _C. elegans_ FOXO orthologue **DAF-16** is required for _sir-2.1_-mediated l
 ## Connections
 
 - [[SIRT1]] — directly deacetylates FOXO1; primary regulatory relationship
-- [[notes/_link/Caloric Restriction]] — SIRT1-mediated FOXO1 deacetylation is a downstream effect of CR
+- [[Caloric Restriction]] — SIRT1-mediated FOXO1 deacetylation is a downstream effect of CR
 - [[Adiponectin]] — FOXO1/C/EBPα complex drives adiponectin expression; enhanced by SIRT1
 - [[p53]] — parallel SIRT1 deacetylation target; both regulated in apoptosis/survival decisions
 - [[DAF-16]] — _C. elegans_ orthologue; required for sirtuin-mediated lifespan extension
@@ -99,6 +99,6 @@ The _C. elegans_ FOXO orthologue **DAF-16** is required for _sir-2.1_-mediated l
 
 ## Linking Summary
 
-- New links added: [[SIRT1]], [[notes/_link/Caloric Restriction]], [[p53]], [[DAF-16]], [[FOXO3a]], [[Adiponectin]]
+- New links added: [[SIRT1]], [[Caloric Restriction]], [[p53]], [[DAF-16]], [[FOXO3a]], [[Adiponectin]]
 - Suggested new entity notes to create: [[DAF-16]], [[FOXO3a]], [[FOXO4]], [[FHL2]], [[NeuroD]], [[MafA]], [[Adiponectin]]
-- Strong connections to strengthen: [[FoxO1]] ↔ [[SIRT1]], [[FoxO1]] ↔ [[notes/_link/Caloric Restriction]]
+- Strong connections to strengthen: [[FoxO1]] ↔ [[SIRT1]], [[FoxO1]] ↔ [[Caloric Restriction]]

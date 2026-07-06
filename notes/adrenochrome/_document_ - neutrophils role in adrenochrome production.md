@@ -122,9 +122,9 @@ pmc.ncbi.nlm.nih.gov
 
 If you want details on specific studies, inhibitors, measurement methods, or links to other pathways, let me know!
 
-[[notes/_link/Neutrophils]] role in [[Adrenochrome]] production
+[[Neutrophils]] role in [[Adrenochrome]] production
 
 ### Linking Summary:
-- New links added: [[notes/_link/Neutrophils]], [[Adrenochrome]]
+- New links added: [[Neutrophils]], [[Adrenochrome]]
 - Suggested new entity notes to create: None
-- Strong connections to strengthen: [[notes/_link/Neutrophils]] ↔ [[Adrenochrome]]
+- Strong connections to strengthen: [[Neutrophils]] ↔ [[Adrenochrome]]

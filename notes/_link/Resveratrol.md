@@ -59,7 +59,7 @@ Resveratrol lacks a catechol structure and does not compete for [[COMT]], making
 ## Connections
 
 - [[SIRT1]] — Primary molecular target
-- [[notes/_link/Caloric Restriction]] — Resveratrol mimics CR effects
+- [[Caloric Restriction]] — Resveratrol mimics CR effects
 - [[PGC-1α]] — Key downstream effector
 - [[NAD+]] — Required for SIRT1 activation
 - [[COMT]] — No interference; safe for slow COMT variants
@@ -128,7 +128,7 @@ Resveratrol's pharmacological effects in mammalian cells are SIRT1-dependent and
 
 ## Caloric Restriction Mimicry
 
-Resveratrol is widely considered a **CR mimetic** — it recapitulates many of the physiological effects of [[notes/_link/Caloric Restriction]] without reducing food intake. The shared mechanism is proposed to be SIRT1 activation and downstream PGC-1α-mediated metabolic reprogramming.
+Resveratrol is widely considered a **CR mimetic** — it recapitulates many of the physiological effects of [[Caloric Restriction]] without reducing food intake. The shared mechanism is proposed to be SIRT1 activation and downstream PGC-1α-mediated metabolic reprogramming.
 
 > [!NOTE]
 > Whether resveratrol's effects are _truly_ SIRT1-dependent in mammals remains debated (as noted by Michan & Sinclair 2007). Subsequent research has clarified that resveratrol's primary direct target may be AMPK rather than SIRT1 directly, though SIRT1 is activated as a downstream consequence.
@@ -137,16 +137,16 @@ Resveratrol is widely considered a **CR mimetic** — it recapitulates many of t
 
 - [[SIRT1]] — primary molecular target; resveratrol activates SIRT1 _in vitro_ and in cells
 - [[Sir2 (yeast)]] — founding sirtuin; resveratrol extends yeast lifespan in a Sir2-dependent manner
-- [[notes/_link/Caloric Restriction]] — resveratrol mimics CR physiological effects via SIRT1
+- [[Caloric Restriction]] — resveratrol mimics CR physiological effects via SIRT1
 - [[PGC-1α]] — key downstream effector activated by resveratrol-stimulated SIRT1
 - [[NAD+]] — resveratrol activates SIRT1 in a NAD⁺-dependent context
 - [[SIRT3]] — may contribute to resveratrol's metabolic effects indirectly
 
 ## Linking Summary
 
-- New links added: [[SIRT1]], [[Sir2 (yeast)]], [[notes/_link/Caloric Restriction]], [[PGC-1α]], [[NAD+]], [[SIRT3]]
+- New links added: [[SIRT1]], [[Sir2 (yeast)]], [[Caloric Restriction]], [[PGC-1α]], [[NAD+]], [[SIRT3]]
 - Suggested new entity notes to create: [[STACs]], [[AMPK]], [[Polyphenols]]
-- Strong connections to strengthen: [[Resveratrol]] ↔ [[SIRT1]], [[Resveratrol]] ↔ [[notes/_link/Caloric Restriction]]
+- Strong connections to strengthen: [[Resveratrol]] ↔ [[SIRT1]], [[Resveratrol]] ↔ [[Caloric Restriction]]
 
 # Resveratrol
 
@@ -158,13 +158,13 @@ Resveratrol is widely considered a **CR mimetic** — it recapitulates many of t
 
 The primary mechanism by which resveratrol is thought to promote longevity is through the activation of **[[SIRT1]]**, an NAD+-dependent histone deacetylase. SIRT1 regulates a variety of processes, including metabolism, DNA repair, and mitochondrial function.
 
-## 2. Mimicking [[notes/_link/Caloric Restriction]]
+## 2. Mimicking [[Caloric Restriction]]
 
 Resveratrol is often called a "caloric restriction mimetic" because it triggers many of the same biological pathways as CR without the need for actual fasting. It promotes:
 
 - **Mitochondrial Biogenesis**: Improving cellular energy production.
 - **Reduced Inflammation**: Inhibiting the production of pro-inflammatory cytokines.
-- **Improved Insulin Sensitivity**: Helping to prevent [[notes/_link/Diabetes Mellitus]] and [[Metabolic Syndromes]].
+- **Improved Insulin Sensitivity**: Helping to prevent [[Diabetes Mellitus]] and [[Metabolic Syndromes]].
 
 ## 3. Clinical Research
 
@@ -172,9 +172,9 @@ While resveratrol has shown dramatic results in extending the lifespan of yeast,
 
 ## Linking Summary:
 
-- New links added: [[Resveratrol]], [[SIRT1]], [[notes/_link/Aging]], [[notes/_link/Caloric Restriction]], [[notes/_link/Diabetes Mellitus]], [[Metabolic Syndromes]], [[Geroscience]]
+- New links added: [[Resveratrol]], [[SIRT1]], [[Aging]], [[Caloric Restriction]], [[Diabetes Mellitus]], [[Metabolic Syndromes]], [[Geroscience]]
 - Suggested new entity notes to create: [[Polyphenols]], [[CR Mimetics]], [[David Sinclair]]
-- Strong connections to strengthen: [[Resveratrol]] ↔ [[SIRT1]], [[Resveratrol]] ↔ [[notes/_link/Caloric Restriction]]
+- Strong connections to strengthen: [[Resveratrol]] ↔ [[SIRT1]], [[Resveratrol]] ↔ [[Caloric Restriction]]
 
 - New links added: [[Anti-inflammatory]], [[COMT]].
 
@@ -185,8 +185,8 @@ While resveratrol has shown dramatic results in extending the lifespan of yeast,
 ## Connections
 
 - **[[SIRT1]]**: The primary molecular target of resveratrol.
-- **[[notes/_link/Aging]]**: Resveratrol is a leading candidate for a natural geroprotective agent.
-- **[[notes/_link/Caloric Restriction]]**: Resveratrol mimics many of the benefits of CR.
+- **[[Aging]]**: Resveratrol is a leading candidate for a natural geroprotective agent.
+- **[[Caloric Restriction]]**: Resveratrol mimics many of the benefits of CR.
 - **[[Geroscience]]**: A major focus of research into natural longevity molecules.
 
 - [[Anti-inflammatory]]: One of the key health benefits of resveratrol.
@@ -197,12 +197,12 @@ While resveratrol has shown dramatic results in extending the lifespan of yeast,
 
 ### Linking Summary:
 
-- New links added: [[notes/_link/Aging]], [[Anti-inflammatory]], [[COMT]], [[notes/_link/Caloric Restriction]], [[notes/_link/Diabetes Mellitus]], [[Geroscience]], [[Metabolic Syndromes]], [[Resveratrol]], [[SIRT1]]
+- New links added: [[Aging]], [[Anti-inflammatory]], [[COMT]], [[Caloric Restriction]], [[Diabetes Mellitus]], [[Geroscience]], [[Metabolic Syndromes]], [[Resveratrol]], [[SIRT1]]
 - Suggested new entity notes to create: [[CR Mimetics]], [[David Sinclair]], [[Polyphenols]]
-- Strong connections to strengthen: [[Resveratrol]] ↔ [[notes/_link/Caloric Restriction]], [[Resveratrol]] ↔ [[SIRT1]]
+- Strong connections to strengthen: [[Resveratrol]] ↔ [[Caloric Restriction]], [[Resveratrol]] ↔ [[SIRT1]]
 
 ## Linking Summary
 
-- New links added: [[SIRT1]], [[notes/_link/Caloric Restriction]], [[PGC-1α]], [[NAD+]], [[COMT]], [[notes/_link/Aging]], [[notes/_link/Diabetes Mellitus]], [[Geroscience]], [[Anti-inflammatory]]
+- New links added: [[SIRT1]], [[Caloric Restriction]], [[PGC-1α]], [[NAD+]], [[COMT]], [[Aging]], [[Diabetes Mellitus]], [[Geroscience]], [[Anti-inflammatory]]
 - Suggested new entity notes to create: [[STACs]], [[Polyphenols]], [[CR Mimetics]]
-- Strong connections to strengthen: [[Resveratrol]] ↔ [[SIRT1]], [[Resveratrol]] ↔ [[notes/_link/Caloric Restriction]]
+- Strong connections to strengthen: [[Resveratrol]] ↔ [[SIRT1]], [[Resveratrol]] ↔ [[Caloric Restriction]]

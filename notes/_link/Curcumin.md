@@ -50,7 +50,7 @@ Oral bioavailability < 1%. Formulation strategies include liposomal curcumin, Me
 
 - [[P300]]/[[CBP]] — Direct HAT inhibition target
 - [[NF-κB]] — Suppressed by curcumin
-- [[notes/_link/Senescence]] — Induced at higher concentrations
+- [[Senescence]] — Induced at higher concentrations
 - [[Oxidative Stress]] — Dual pro/antioxidant effects
 - [[Piperine]] — Bioavailability enhancer
 
@@ -95,12 +95,12 @@ In model organisms, curcumin extends lifespan in *[[Caenorhabditis elegans]]* (v
 - **Clinical challenge:** No double-blind RCT has convincingly demonstrated a disease-modifying effect of curcumin in any age-related condition.
 
 ### Linking Summary:
-- New links added: [[HAT]], [[notes/_link/NFKB]], [[notes/_link/Senescence]], [[p16INK4A]], [[SASP]], [[Oxidative Stress]]
+- New links added: [[HAT]], [[NFKB]], [[Senescence]], [[p16INK4A]], [[SASP]], [[Oxidative Stress]]
 - Suggested new entity notes to create: [[p300/CBP]], [[NRF2]], [[Keap1]], [[Piperine]], [[PAINS compounds]]
-- Strong connections to strengthen: [[Curcumin]] ↔ [[HAT]], [[Curcumin]] ↔ [[notes/_link/Senescence]]
+- Strong connections to strengthen: [[Curcumin]] ↔ [[HAT]], [[Curcumin]] ↔ [[Senescence]]
 
 ## Linking Summary
 
-- New links added: [[P300]], [[CBP]], [[Histone Acetylation]], [[NF-κB]], [[notes/_link/Senescence]], [[Oxidative Stress]], [[p38 MAPK]], [[FOXO]], [[Piperine]]
+- New links added: [[P300]], [[CBP]], [[Histone Acetylation]], [[NF-κB]], [[Senescence]], [[Oxidative Stress]], [[p38 MAPK]], [[FOXO]], [[Piperine]]
 - Suggested new entity notes to create: [[PAINS compounds]], [[Theracurmin]], [[Meriva]]
-- Strong connections to strengthen: [[Curcumin]] ↔ [[P300]], [[Curcumin]] ↔ [[notes/_link/Senescence]]
+- Strong connections to strengthen: [[Curcumin]] ↔ [[P300]], [[Curcumin]] ↔ [[Senescence]]

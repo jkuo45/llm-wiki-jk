@@ -12,4 +12,4 @@ updated: 2026-07-04
 
 ## Connections
 - [[Methemoglobinemia]]: Used in severe or refractory cases.
-- [[notes/_link/Hypoxia]]: Helps alleviate tissue hypoxia by increasing dissolved oxygen.
+- [[Hypoxia]]: Helps alleviate tissue hypoxia by increasing dissolved oxygen.

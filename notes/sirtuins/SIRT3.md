@@ -13,12 +13,12 @@ updated: 2026-07-04
 
 # SIRT3
 
-**SIRT3** (Sirtuin 3) is the primary NAD+-dependent deacetylase localized within the [[notes/_link/Mitochondria]].
+**SIRT3** (Sirtuin 3) is the primary NAD+-dependent deacetylase localized within the [[Mitochondria]].
 
 ## Functions
 - SIRT3 is a master regulator of mitochondrial metabolism and antioxidant defenses.
-- It is essential for maintaining mitochondrial health and preventing the accumulation of [[notes/_link/Reactive Oxygen Species]] (ROS).
-- SIRT3 is induced by [[notes/_link/Caloric Restriction]] and [[Intermittent Fasting]].
+- It is essential for maintaining mitochondrial health and preventing the accumulation of [[Reactive Oxygen Species]] (ROS).
+- SIRT3 is induced by [[Caloric Restriction]] and [[Intermittent Fasting]].
 
 ## Role in Autophagy and Cancer
 - SIRT3 acts as a suppressive control checkpoint in response to energy stress.
@@ -30,9 +30,9 @@ updated: 2026-07-04
 SIRT3 is a mitochondrial NAD+-dependent deacetylase that activates [[Mitochondrial Complex I]], [[SOD2]], and fatty acid oxidation. It promotes [[Mitophagy]] by deacetylating [[FOXO3a]].
 
 ### Linking Summary:
-- New links added: [[notes/_link/Mitochondria]], [[notes/_link/Reactive Oxygen Species]], [[notes/_link/Caloric Restriction]], [[Intermittent Fasting]], [[Cancer]], [[Mitophagy]], [[Cellular Homeostasis]]
+- New links added: [[Mitochondria]], [[Reactive Oxygen Species]], [[Caloric Restriction]], [[Intermittent Fasting]], [[Cancer]], [[Mitophagy]], [[Cellular Homeostasis]]
 - Suggested new entity notes to create: , [[Cellular Homeostasis]]
-- Strong connections to strengthen: [[SIRT3]] ↔ [[notes/_link/Mitochondria]], [[SIRT3]] ↔ [[Mitophagy]]
+- Strong connections to strengthen: [[SIRT3]] ↔ [[Mitochondria]], [[SIRT3]] ↔ [[Mitophagy]]
 
 ## From [[SIRT3]]
 
@@ -57,7 +57,7 @@ Key substrate: **[[AceCS2]]** (acetyl-CoA synthetase 2, mitochondrial isoform) �
 
 ### AceCS2 Activation
 
-SIRT3 deacetylates and thereby activates **[[AceCS2]]**, the mitochondrial isoform of acetyl-CoA synthetase. Given that SIRT3 (like [[SIRT1]]) is induced by [[notes/_link/Caloric Restriction]], this suggests that during food limitation, SIRT3 regulates the rate of fatty acid synthesis and the proportion of carbon shuttled into the TCA cycle for ATP production.
+SIRT3 deacetylates and thereby activates **[[AceCS2]]**, the mitochondrial isoform of acetyl-CoA synthetase. Given that SIRT3 (like [[SIRT1]]) is induced by [[Caloric Restriction]], this suggests that during food limitation, SIRT3 regulates the rate of fatty acid synthesis and the proportion of carbon shuttled into the TCA cycle for ATP production.
 
 ### Mitochondrial Biogenesis and Thermogenesis
 
@@ -94,15 +94,15 @@ SIRT3, by producing [[OAADPr]], may regulate the **TRPM2** ion channel alongside
 - [[SIRT5]] — fellow mitochondrial sirtuin
 - [[NAD+]] — obligatory co-substrate
 - [[OAADPr]] — by-product of deacetylation
-- [[notes/_link/Caloric Restriction]] — SIRT3 is induced by CR; mediates metabolic adaptations
+- [[Caloric Restriction]] — SIRT3 is induced by CR; mediates metabolic adaptations
 - [[PGC-1α]] — target gene; SIRT3 promotes PGC-1α expression in BAT
 - [[Longevity]] — SIRT3 intron 5 enhancer variant associated with male lifespan >90 years
 
 ## Linking Summary
 
-- New links added: [[NAD+]], [[OAADPr]], [[notes/_link/Caloric Restriction]], [[PGC-1α]], [[SIRT1]], [[SIRT2]], [[SIRT4]], [[SIRT5]], [[Longevity]], [[TRPM2]], [[AceCS2]]
+- New links added: [[NAD+]], [[OAADPr]], [[Caloric Restriction]], [[PGC-1α]], [[SIRT1]], [[SIRT2]], [[SIRT4]], [[SIRT5]], [[Longevity]], [[TRPM2]], [[AceCS2]]
 - Suggested new entity notes to create: [[UCP1]], [[Brown Adipose Tissue (BAT)]]
-- Strong connections to strengthen: [[SIRT3]] ↔ [[notes/_link/Caloric Restriction]], [[SIRT3]] ↔ [[Longevity]], [[SIRT3]] ↔ [[AceCS2]]
+- Strong connections to strengthen: [[SIRT3]] ↔ [[Caloric Restriction]], [[SIRT3]] ↔ [[Longevity]], [[SIRT3]] ↔ [[AceCS2]]
 
 # SIRT3
 

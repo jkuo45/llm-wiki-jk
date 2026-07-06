@@ -11,6 +11,6 @@ In molecular biology and genetics, [[Translation]] is the process in which ribos
 
 ### Linking Summary:
 
-- New links added: [[notes/_link/Transcription]], [[Gene Expression]], [[notes/_link/Ribosome]]
+- New links added: [[Transcription]], [[Gene Expression]], [[Ribosome]]
 - Suggested new entity notes to create: [[Protein Synthesis]]
 - Strong connections to strengthen: [[Translation]] ↔ [[Quiescence]]

@@ -30,7 +30,7 @@ updated: 2026-07-04
 
 ## Function
 
-[[Betaine]] acts as a [[Methyl Donor]], particularly in the conversion of [[Homocysteine]] to [[Methionine]]. This process supports the synthesis of [[notes/_link/SAMe]], which is required by the [[COMT]] enzyme.
+[[Betaine]] acts as a [[Methyl Donor]], particularly in the conversion of [[Homocysteine]] to [[Methionine]]. This process supports the synthesis of [[SAMe]], which is required by the [[COMT]] enzyme.
 
 ## Interaction with COMT
 
@@ -40,11 +40,11 @@ As a [[Methyl Donor]], [[TMG]] supplementation can influence the pool of methyl 
 
 - [[TMG]]: Another name for betaine.
 - [[Methylation Cycle]]: The metabolic pathway where betaine acts as a methyl donor.
-- [[notes/_link/SAMe]]: Betaine supports SAMe production through homocysteine remethylation.
+- [[SAMe]]: Betaine supports SAMe production through homocysteine remethylation.
 - [[COMT]]: Enzyme activity can be influenced by betaine-mediated methylation.
 
 ---
 
 ### Linking Summary:
 
-- New links added: [[TMG]], [[Methylation Cycle]], [[Methyl Donor]], [[notes/_link/SAMe]], [[COMT]].
+- New links added: [[TMG]], [[Methylation Cycle]], [[Methyl Donor]], [[SAMe]], [[COMT]].

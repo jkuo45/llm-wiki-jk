@@ -10,7 +10,7 @@
 ## Connections
 - **Related Proteins:** [[GLUT2]], [[GLUT3]], [[GLUT4]]
 - **Biological Processes:** [[Glucose uptake]], [[Glycolysis]], [[Warburg Effect]]
-- **Regulators:** [[HIF-1α]], [[notes/_link/p53]]
+- **Regulators:** [[HIF-1α]], [[p53]]
 
 ## Linking Summary
-- New links added: [[SLC2A1]], [[Glucose]], [[Warburg Effect]], [[non-small-cell lung cancer]], [[Fenbendazole]], [[Glucose uptake]], [[GLUT2]], [[GLUT3]], [[GLUT4]], [[Glycolysis]], [[HIF-1α]], [[notes/_link/p53]]
+- New links added: [[SLC2A1]], [[Glucose]], [[Warburg Effect]], [[non-small-cell lung cancer]], [[Fenbendazole]], [[Glucose uptake]], [[GLUT2]], [[GLUT3]], [[GLUT4]], [[Glycolysis]], [[HIF-1α]], [[p53]]

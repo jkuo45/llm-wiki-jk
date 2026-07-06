@@ -8,11 +8,11 @@ updated: 2026-07-04
 
 # Sympathetic nerve endings
 
-The terminals of the sympathetic nervous system where neurotransmitters like [[notes/_link/Norepinephrine]] are released.
+The terminals of the sympathetic nervous system where neurotransmitters like [[Norepinephrine]] are released.
 
 ### Connections
-- [[notes/_link/Norepinephrine]]: The primary neurotransmitter released at these endings.
-- [[Adrenochrome]]: Can form wherever [[notes/_link/Epinephrine]] or [[notes/_link/Norepinephrine]] is present and oxidized.
+- [[Norepinephrine]]: The primary neurotransmitter released at these endings.
+- [[Adrenochrome]]: Can form wherever [[Epinephrine]] or [[Norepinephrine]] is present and oxidized.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Norepinephrine]], [[Adrenochrome]], [[notes/_link/Epinephrine]]
+- New links added: [[Norepinephrine]], [[Adrenochrome]], [[Epinephrine]]

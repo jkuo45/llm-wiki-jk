@@ -9,8 +9,8 @@
 
 ## Connections
 - **Pathway:** [[Glycolysis]]
-- **Biological Processes:** [[Metabolic Reprogramming]], [[Cell Proliferation]], [[notes/_link/DNA Repair]]
-- **Regulators:** [[Fructose-1,6-bisphosphate]], [[notes/_link/p53]]
+- **Biological Processes:** [[Metabolic Reprogramming]], [[Cell Proliferation]], [[DNA Repair]]
+- **Regulators:** [[Fructose-1,6-bisphosphate]], [[p53]]
 
 ## Linking Summary
-- New links added: [[pyruvate kinase]], [[Glycolysis]], [[phosphoenolpyruvate]], [[pyruvate]], [[Cancer]], [[Warburg Effect]], [[HIF-1α]], [[β-catenin]], [[Homologous Recombination]], [[DNA double-strand break repair]], [[Metabolic Reprogramming]], [[Cell Proliferation]], [[notes/_link/DNA Repair]], [[Fructose-1,6-bisphosphate]], [[notes/_link/p53]]
+- New links added: [[pyruvate kinase]], [[Glycolysis]], [[phosphoenolpyruvate]], [[pyruvate]], [[Cancer]], [[Warburg Effect]], [[HIF-1α]], [[β-catenin]], [[Homologous Recombination]], [[DNA double-strand break repair]], [[Metabolic Reprogramming]], [[Cell Proliferation]], [[DNA Repair]], [[Fructose-1,6-bisphosphate]], [[p53]]

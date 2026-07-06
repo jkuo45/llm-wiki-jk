@@ -1,13 +1,13 @@
 # Autophagy
 
-This directory contains notes and research regarding [[Autophagy]], its molecular machinery (including [[Autophagosome]] formation, [[ATG]] proteins, [[Beclin1]], [[LC3]], and [[ULK1]]), different types ([[Macroautophagy]], [[Mitophagy]], [[Chaperone-Mediated Autophagy]]), regulation by [[notes/_link/mTOR]], [[notes/_link/AMPK]], and [[SIRT1]], and its dual roles in cellular homeostasis, quality control, and stress adaptation. Special focus is placed on its involvement in [[notes/_link/Aging]], [[Cancer]], [[notes/_link/Neurodegenerative Diseases|Neurodegenerative Disease]] ([[notes/_link/Alzheimer's Disease]], [[notes/_link/Parkinson's Disease]], [[Huntington's Disease]]), immune regulation, and interventions such as [[Rapamycin]], [[notes/_link/Spermidine]], [[notes/_link/Caloric Restriction]], and [[Intermittent Fasting]].
+This directory contains notes and research regarding [[Autophagy]], its molecular machinery (including [[Autophagosome]] formation, [[ATG]] proteins, [[Beclin1]], [[LC3]], and [[ULK1]]), different types ([[Macroautophagy]], [[Mitophagy]], [[Chaperone-Mediated Autophagy]]), regulation by [[mTOR]], [[AMPK]], and [[SIRT1]], and its dual roles in cellular homeostasis, quality control, and stress adaptation. Special focus is placed on its involvement in [[Aging]], [[Cancer]], [[Neurodegenerative Diseases|Neurodegenerative Disease]] ([[Alzheimer's Disease]], [[Parkinson's Disease]], [[Huntington's Disease]]), immune regulation, and interventions such as [[Rapamycin]], [[Spermidine]], [[Caloric Restriction]], and [[Intermittent Fasting]].
 
 
   **entity_relevance_score_1 (1-10)**: This score measures the centrality of the entity to the core autophagic machinery and physiological fasting response.
 
-   * 10 (Core): Essential, master regulators, or the process itself (e.g., [[ULK1]], [[notes/_link/mTOR]], [[LC3]],
+   * 10 (Core): Essential, master regulators, or the process itself (e.g., [[ULK1]], [[mTOR]], [[LC3]],
      [[Autophagosome]]).
-   * 7-9 (High): Potent upstream signaling nodes, canonical pharmacological inducers, or primary forms of autophagy (e.g., [[notes/_link/AMPK]],
+   * 7-9 (High): Potent upstream signaling nodes, canonical pharmacological inducers, or primary forms of autophagy (e.g., [[AMPK]],
      [[Rapamycin]], [[Mitophagy]], [[Intermittent Fasting]]).
    * 4-6 (Moderate): Specific cell types, downstream effectors, or biomarkers that are significantly influenced by but not exclusive to
      autophagy (e.g., [[T Cell]], [[4E-BP1]], [[CD73]]).
@@ -17,11 +17,11 @@ This directory contains notes and research regarding [[Autophagy]], its molecula
 **entity_sentiment_score_1 (-1,0,1):**  This score reflects the functional directionality of the entity relative to autophagic flux and cellular homeostasis.
 
    * 1 (Stimulatory/Positive): Autophagy inducers, survival-promoting factors, or beneficial physiological states that enhance flux (e.g.,
-     [[notes/_link/AMPK]], [[TFEB]], [[Dietary Restriction]]).
+     [[AMPK]], [[TFEB]], [[Dietary Restriction]]).
    * 0 (Neutral/Structural): Core structural components of the autophagosome, scaffold proteins, or entities with complex, dual roles depending
-     on cellular context (e.g., [[Atg5]], [[p62]], [[notes/_link/p53|TP53]]).
+     on cellular context (e.g., [[Atg5]], [[p62]], [[p53|TP53]]).
    * -1 (Inhibitory/Negative): Negative regulators that suppress autophagy, pro-aging factors, or pathological states associated with
-     autophagic failure (e.g., [[notes/_link/mTOR]], [[notes/_link/Akt|AKT]], [[notes/_link/Neurodegenerative Diseases|Neurodegenerative Disease]], [[S6K1]]).
+     autophagic failure (e.g., [[mTOR]], [[Akt|AKT]], [[Neurodegenerative Diseases|Neurodegenerative Disease]], [[S6K1]]).
 
 ## Maintenance
 
@@ -33,7 +33,7 @@ This directory contains notes and research regarding [[Autophagy]], its molecula
 | [[4E-BP1]]                                    | 09_Jun_2026 10:15 AM PDT | Protein                  |         8          |     -1      | Downstream mTOR effector; phosphorylation inhibits translation and competes with autophagy. |
 | [[Adaptive Immune Response]]                  | 09_Jun_2026 10:15 AM PDT | Biological Process       |         6          |      1      | Autophagy is required for antigen presentation and immune memory. |
 | [[Ambra-1]]                                   | 09_Jun_2026 10:15 AM PDT | Protein                  |         10         |      0      | Essential regulator of the Beclin1-Vps34 complex during initiation. |
-| [[notes/_link/APP]]                           | 09_Jun_2026 10:15 AM PDT | Protein                  |         7          |      0      | Amyloid precursor protein processed into beta-amyloid. |
+| [[APP]]                           | 09_Jun_2026 10:15 AM PDT | Protein                  |         7          |      0      | Amyloid precursor protein processed into beta-amyloid. |
 | [[ATF4]]                                      | 09_Jun_2026 10:15 AM PDT | Protein                  |         8          |      1      | Transcription factor in stress response and TFE3 target. |
 | [[Atg1]]                                      | 09_Jun_2026 10:15 AM PDT | Protein                  |         10         |      0      | Core initiator kinase in the ULK1 complex. |
 | [[Atg101]]                                    | 09_Jun_2026 10:15 AM PDT | Protein                  |         10         |      0      | Core component of the ULK1 initiation complex. |
@@ -53,7 +53,7 @@ This directory contains notes and research regarding [[Autophagy]], its molecula
 | [[Autophagy Inducer]]                         | 09_Jun_2026 10:15 AM PDT | Pharmacological Action   |         9          |      1      | Exogenous agents designed to enhance autophagic activity. |
 | [[B Cell]]                                    | 09_Jun_2026 10:15 AM PDT | Cell Type                |         5          |      1      | Autophagy is necessary for B cell development and survival. |
 | [[Beclin1]]                                   | 09_Jun_2026 10:15 AM PDT | Protein                  |         10         |      1      | Core component of the PI3K complex; essential for vesicle nucleation. |
-| [[notes/_link/Beta-amyloid]]                  | 09_Jun_2026 10:15 AM PDT | Protein                  |         8          |     -1      | Aggregating peptide in Alzheimer's cleared by TFEB. |
+| [[Beta-amyloid]]                  | 09_Jun_2026 10:15 AM PDT | Protein                  |         8          |     -1      | Aggregating peptide in Alzheimer's cleared by TFEB. |
 | [[Birt-Hogg-Dube syndrome]]                   | 09_Jun_2026 10:15 AM PDT | Medical Condition        |         7          |     -1      | Syndrome caused by FLCN mutations linked to renal cancer. |
 | [[BRCA1]]                                     | 09_Jun_2026 10:15 AM PDT | Protein                  |         5          |      0      | Tumor suppressor that can influence autophagy in DNA damage context. |
 | [[Caloric Restriction Mimetics]]              | 09_Jun_2026 10:15 AM PDT | Chemical Class           |         9          |      1      | Compounds like spermidine that induce autophagy without actual fasting. |
@@ -72,7 +72,7 @@ This directory contains notes and research regarding [[Autophagy]], its molecula
 | [[FNIP1]]                                     | 09_Jun_2026 10:15 AM PDT | Protein                  |         8          |      0      | Folliculin-interacting protein regulating TFE3. |
 | [[FNIP2]]                                     | 09_Jun_2026 10:15 AM PDT | Protein                  |         8          |      0      | Folliculin-interacting protein regulating TFE3. |
 | [[Folliculin]]                                | 09_Jun_2026 10:15 AM PDT | Protein                  |         9          |     -1      | Rag GEF that regulates mTORC1 and lysosome positioning. |
-| [[notes/_link/FOXO]]                          | 09_Jun_2026 10:15 AM PDT | Protein Class            |         8          |      1      | Transcription factor family regulating autophagy. |
+| [[FOXO]]                          | 09_Jun_2026 10:15 AM PDT | Protein Class            |         8          |      1      | Transcription factor family regulating autophagy. |
 | [[FOXO1]]                                     | 09_Jun_2026 10:15 AM PDT | Protein                  |         8          |      1      | Transcription factor that induces expression of multiple ATG genes. |
 | [[FOXO3a]]                                    | 09_Jun_2026 10:15 AM PDT | Protein                  |         8          |      1      | Key regulator of autophagic gene expression in muscle and neurons. |
 | [[FOXO4]]                                     | 09_Jun_2026 10:15 AM PDT | Protein                  |         7          |      1      | Involved in senescence and autophagic regulation during aging. |
@@ -81,10 +81,10 @@ This directory contains notes and research regarding [[Autophagy]], its molecula
 | [[GATE-16]]                                   | 09_Jun_2026 10:15 AM PDT | Protein                  |         10         |      0      | Atg8 family member involved in autophagosome formation. |
 | [[GATOR1]]                                    | 09_Jun_2026 10:15 AM PDT | Protein                  |         9          |      1      | Negative regulator of mTORC1 in response to amino acids. |
 | [[GATOR2]]                                    | 09_Jun_2026 10:15 AM PDT | Protein                  |         9          |     -1      | Positive regulator of mTORC1 (via GATOR1 inhibition). |
-| [[notes/_link/GSK3]]                          | 09_Jun_2026 10:15 AM PDT | Enzyme                   |         8          |     -1      | Kinase that inhibits TFEB/MITF. |
+| [[GSK3]]                          | 09_Jun_2026 10:15 AM PDT | Enzyme                   |         8          |     -1      | Kinase that inhibits TFEB/MITF. |
 | [[Hematopoietic Stem Cell]]                   | 09_Jun_2026 10:15 AM PDT | Cell Type                |         7          |      1      | Autophagy is required for HSC quiescence and self-renewal. |
 | [[HIF1A]]                                     | 09_Jun_2026 10:15 AM PDT | Protein                  |         7          |      1      | Mediates hypoxia-induced autophagy via BNIP3 induction. |
-| [[notes/_link/Huntingtin]]                    | 09_Jun_2026 10:15 AM PDT | Protein                  |         8          |     -1      | Aggregating protein in Huntington's cleared by TFEB. |
+| [[Huntingtin]]                    | 09_Jun_2026 10:15 AM PDT | Protein                  |         8          |     -1      | Aggregating protein in Huntington's cleared by TFEB. |
 | [[IGF1]]                                      | 09_Jun_2026 10:15 AM PDT | Protein                  |         8          |     -1      | Growth factor that activates AKT/mTOR, suppressing autophagy. |
 | [[Immune Aging]]                              | 09_Jun_2026 10:15 AM PDT | Biological Process       |         8          |     -1      | Linked to declining autophagic capacity; optimization can reverse effects. |
 | [[Immunometabolism]]                          | 09_Jun_2026 10:15 AM PDT | Scientific Concept       |         7          |      1      | Intersection of metabolism and immunity where autophagy is central. |
@@ -93,9 +93,9 @@ This directory contains notes and research regarding [[Autophagy]], its molecula
 | [[Ketogenic Diet]]                            | 09_Jun_2026 10:15 AM PDT | Medical Treatment        |         8          |      1      | Dietary intervention that mimics fasting and induces autophagy. |
 | [[LC3]]                                       | 09_Jun_2026 10:15 AM PDT | Protein                  |         10         |      0      | Gold-standard marker for autophagosome formation and flux. |
 | [[LKB1]]                                      | 09_Jun_2026 10:15 AM PDT | Enzyme                   |         9          |      1      | Upstream kinase of AMPK; essential for energy-sensing induction. |
-| [[notes/_link/LPS]]                           | 09_Jun_2026 10:15 AM PDT | Biological Molecule      |         8          |      1      | Bacterial endotoxin that triggers TFE3 translocation. |
+| [[LPS]]                           | 09_Jun_2026 10:15 AM PDT | Biological Molecule      |         8          |      1      | Bacterial endotoxin that triggers TFE3 translocation. |
 | [[Macroautophagy]]                            | 09_Jun_2026 10:15 AM PDT | Biological Process       |         10         |      1      | Primary form of autophagy; essential for bulk recycling. |
-| [[notes/_link/Macrophage]]                    | 09_Jun_2026 10:15 AM PDT | Cell Type                |         8          |      1      | Immune cell utilizing autophagy for pathogen clearance. |
+| [[Macrophage]]                    | 09_Jun_2026 10:15 AM PDT | Cell Type                |         8          |      1      | Immune cell utilizing autophagy for pathogen clearance. |
 | [[MALAT1]]                                    | 09_Jun_2026 10:15 AM PDT | Non-coding RNA           |         6          |     -1      | LncRNA involved in TFEB fusions in renal cancer. |
 | [[Melanoma]]                                  | 09_Jun_2026 10:15 AM PDT | Medical Condition        |         5          |     -1      | Cancer type where autophagy can be hijacked for survival. |
 | [[Microautophagy]]                            | 09_Jun_2026 10:15 AM PDT | Biological Process       |         8          |      1      | Direct engulfment of cytosolic material by the lysosome. |
@@ -108,56 +108,56 @@ This directory contains notes and research regarding [[Autophagy]], its molecula
 | [[Mucopolysaccharidosis-IIIA]]                | 09_Jun_2026 10:15 AM PDT | Medical Condition        |         8          |     -1      | LSD also known as Sanfilippo syndrome. |
 | [[Multiple Sulfatase Deficiency]]             | 09_Jun_2026 10:15 AM PDT | Medical Condition        |         8          |     -1      | LSD improved by TFEB activation in models. |
 | [[Neuronal Ceroid Lipofuscinosis]]            | 09_Jun_2026 10:15 AM PDT | Medical Condition        |         8          |     -1      | Neurodegenerative LSD improved by TFEB. |
-| [[notes/_link/NFKB]]                          | 09_Jun_2026 10:15 AM PDT | Protein Complex          |         8          |      0      | Inflammatory master regulator with complex autophagy links. |
-| [[notes/_link/14-3-3]]                        | 09_Jun_2026 10:15 AM PDT | Protein                  |         8          |      0      | Scaffolding protein involved in regulating autophagy kinases. |
-| [[notes/_link/Acid Hydrolases]]               | 09_Jun_2026 10:15 AM PDT | Enzyme Class             |         9          |      1      | Lysosomal enzymes responsible for degrading autophagic cargo. |
-| [[notes/_link/Acid Sphingomyelinase]]         | 09_Jun_2026 10:15 AM PDT | Enzyme                   |         7          |      0      | Lysosomal enzyme affecting membrane lipid composition and autophagy. |
-| [[notes/_link/Aging]]                         | 09_Jun_2026 10:15 AM PDT | Biological Process       |         10         |     -1      | Decline in autophagic flux is a hallmark of aging. |
-| [[notes/_link/Akt]]                           | 09_Jun_2026 10:15 AM PDT | Enzyme                   |         9          |     -1      | Pro-survival kinase that activates mTOR and inhibits autophagy. |
-| [[notes/_link/Alpha-synuclein]]               | 09_Jun_2026 10:15 AM PDT | Protein                  |         8          |     -1      | Aggregation-prone protein cleared by autophagy; linked to Parkinson's. |
-| [[notes/_link/Alzheimer's Disease]]           | 09_Jun_2026 10:15 AM PDT | Medical Condition        |         9          |     -1      | Neurodegenerative disease exacerbated by autophagic dysfunction. |
-| [[notes/_link/AMPK]]                          | 09_Jun_2026 10:15 AM PDT | Enzyme                   |         10         |      1      | Energy sensor that strongly induces autophagy by inhibiting mTOR and activating ULK1. |
-| [[notes/_link/Aneuploidy]]                    | 09_Jun_2026 10:15 AM PDT | Medical Condition        |         5          |     -1      | Chromosomal abnormality that can induce proteotoxic stress and autophagy. |
-| [[notes/_link/Apoptosis]]                     | 09_Jun_2026 10:15 AM PDT | Biological Process       |         8          |      0      | Programmed cell death that often cross-talks or competes with autophagy. |
-| [[notes/_link/Breast Cancer]]                 | 09_Jun_2026 10:15 AM PDT | Medical Condition        |         7          |      0      | Autophagy plays dual roles in tumor suppression and survival. |
-| [[notes/_link/Caloric Restriction]]           | 09_Jun_2026 10:15 AM PDT | Biological Process       |         10         |      1      | Potent physiological inducer of autophagy via nutrient sensing pathways. |
+| [[NFKB]]                          | 09_Jun_2026 10:15 AM PDT | Protein Complex          |         8          |      0      | Inflammatory master regulator with complex autophagy links. |
+| [[14-3-3]]                        | 09_Jun_2026 10:15 AM PDT | Protein                  |         8          |      0      | Scaffolding protein involved in regulating autophagy kinases. |
+| [[Acid Hydrolases]]               | 09_Jun_2026 10:15 AM PDT | Enzyme Class             |         9          |      1      | Lysosomal enzymes responsible for degrading autophagic cargo. |
+| [[Acid Sphingomyelinase]]         | 09_Jun_2026 10:15 AM PDT | Enzyme                   |         7          |      0      | Lysosomal enzyme affecting membrane lipid composition and autophagy. |
+| [[Aging]]                         | 09_Jun_2026 10:15 AM PDT | Biological Process       |         10         |     -1      | Decline in autophagic flux is a hallmark of aging. |
+| [[Akt]]                           | 09_Jun_2026 10:15 AM PDT | Enzyme                   |         9          |     -1      | Pro-survival kinase that activates mTOR and inhibits autophagy. |
+| [[Alpha-synuclein]]               | 09_Jun_2026 10:15 AM PDT | Protein                  |         8          |     -1      | Aggregation-prone protein cleared by autophagy; linked to Parkinson's. |
+| [[Alzheimer's Disease]]           | 09_Jun_2026 10:15 AM PDT | Medical Condition        |         9          |     -1      | Neurodegenerative disease exacerbated by autophagic dysfunction. |
+| [[AMPK]]                          | 09_Jun_2026 10:15 AM PDT | Enzyme                   |         10         |      1      | Energy sensor that strongly induces autophagy by inhibiting mTOR and activating ULK1. |
+| [[Aneuploidy]]                    | 09_Jun_2026 10:15 AM PDT | Medical Condition        |         5          |     -1      | Chromosomal abnormality that can induce proteotoxic stress and autophagy. |
+| [[Apoptosis]]                     | 09_Jun_2026 10:15 AM PDT | Biological Process       |         8          |      0      | Programmed cell death that often cross-talks or competes with autophagy. |
+| [[Breast Cancer]]                 | 09_Jun_2026 10:15 AM PDT | Medical Condition        |         7          |      0      | Autophagy plays dual roles in tumor suppression and survival. |
+| [[Caloric Restriction]]           | 09_Jun_2026 10:15 AM PDT | Biological Process       |         10         |      1      | Potent physiological inducer of autophagy via nutrient sensing pathways. |
 | [[Cancer]]                        | 09_Jun_2026 10:15 AM PDT | Medical Condition        |         9          |      0      | Autophagy suppresses early tumorigenesis but promotes advanced cancer survival. |
-| [[notes/_link/Cardiovascular Disease]]        | 09_Jun_2026 10:15 AM PDT | Medical Condition        |         8          |     -1      | Autophagy is cardioprotective against stress but detrimental in excess. |
-| [[notes/_link/Colorectal Cancer]]             | 09_Jun_2026 10:15 AM PDT | Medical Condition        |         7          |      0      | Autophagy suppresses early tumorigenesis but promotes advanced cancer survival. |
-| [[notes/_link/DNA Damage]]                    | 09_Jun_2026 10:15 AM PDT | Biological Process       |         8          |      0      | Triggers autophagy to promote cell survival and repair. |
-| [[notes/_link/DNA Repair]]                    | 09_Jun_2026 10:15 AM PDT | Biological Process       |         7          |      1      | Autophagy supports DNA repair by providing necessary metabolites. |
-| [[notes/_link/Huntington's Disease]]          | 09_Jun_2026 10:15 AM PDT | Medical Condition        |         8          |      0      | Neurodegenerative disorder caused by mutant huntingtin, cleared by autophagy. |
-| [[notes/_link/Hypoxia]]                       | 09_Jun_2026 10:15 AM PDT | Scientific Concept       |         7          |      1      | Low oxygen state that strongly induces autophagy via HIF-1alpha. |
-| [[notes/_link/Immunosenescence]]              | 09_Jun_2026 10:15 AM PDT | Biological Process       |         8          |     -1      | Aging of the immune system linked to reduced autophagic capacity. |
-| [[notes/_link/Inflammaging]]                  | 09_Jun_2026 10:15 AM PDT | Biological Process       |         9          |     -1      | Chronic inflammation in aging partially due to impaired autophagy. |
-| [[notes/_link/Inflammation]]                  | 09_Jun_2026 10:15 AM PDT | Biological Process       |         8          |     -1      | Autophagy generally suppresses excessive inflammation (e.g., inflammasomes). |
-| [[notes/_link/Ischemia-reperfusion Injury]]   | 09_Jun_2026 10:15 AM PDT | Medical Condition        |         7          |      0      | Pathological state where excessive autophagy can be detrimental. |
-| [[notes/_link/Lysosomal Storage Diseases]]    | 09_Jun_2026 10:15 AM PDT | Medical Condition        |         9          |     -1      | Diseases characterized by lysosomal dysfunction, impairing autophagic flux. |
-| [[notes/_link/Lysosome]]                      | 09_Jun_2026 10:15 AM PDT | Anatomy                  |         10         |      0      | Terminal organelle of autophagy responsible for cargo degradation. |
-| [[notes/_link/Metformin]]                     | 09_Jun_2026 10:15 AM PDT | Chemical Compound        |         9          |      1      | AMPK activator that pharmacologically induces autophagy. |
-| [[notes/_link/MHC type II]]                   | 09_Jun_2026 10:15 AM PDT | Protein Complex          |         7          |      1      | Autophagy regulates antigen presentation on MHC-II. |
-| [[notes/_link/Mitochondria]]                  | 09_Jun_2026 10:15 AM PDT | Anatomy                  |         10         |      0      | Organelles frequently targeted for autophagic degradation (mitophagy). |
-| [[notes/_link/Mitophagy]]                     | 09_Jun_2026 10:15 AM PDT | Biological Process       |         10         |      0      | Selective autophagic degradation of dysfunctional mitochondria. |
-| [[notes/_link/mTOR]]                          | 09_Jun_2026 10:15 AM PDT | Enzyme                   |         10         |     -1      | Master negative regulator of autophagy. |
-| [[notes/_link/mTORC1]]                        | 09_Jun_2026 10:15 AM PDT | Protein                  |         10         |      0      | Master negative regulator of autophagy. |
-| [[notes/_link/Neurodegenerative Diseases]]    | 09_Jun_2026 10:15 AM PDT | Medical Condition        |         9          |     -1      | Group of diseases commonly associated with impaired autophagic clearance. |
+| [[Cardiovascular Disease]]        | 09_Jun_2026 10:15 AM PDT | Medical Condition        |         8          |     -1      | Autophagy is cardioprotective against stress but detrimental in excess. |
+| [[Colorectal Cancer]]             | 09_Jun_2026 10:15 AM PDT | Medical Condition        |         7          |      0      | Autophagy suppresses early tumorigenesis but promotes advanced cancer survival. |
+| [[DNA Damage]]                    | 09_Jun_2026 10:15 AM PDT | Biological Process       |         8          |      0      | Triggers autophagy to promote cell survival and repair. |
+| [[DNA Repair]]                    | 09_Jun_2026 10:15 AM PDT | Biological Process       |         7          |      1      | Autophagy supports DNA repair by providing necessary metabolites. |
+| [[Huntington's Disease]]          | 09_Jun_2026 10:15 AM PDT | Medical Condition        |         8          |      0      | Neurodegenerative disorder caused by mutant huntingtin, cleared by autophagy. |
+| [[Hypoxia]]                       | 09_Jun_2026 10:15 AM PDT | Scientific Concept       |         7          |      1      | Low oxygen state that strongly induces autophagy via HIF-1alpha. |
+| [[Immunosenescence]]              | 09_Jun_2026 10:15 AM PDT | Biological Process       |         8          |     -1      | Aging of the immune system linked to reduced autophagic capacity. |
+| [[Inflammaging]]                  | 09_Jun_2026 10:15 AM PDT | Biological Process       |         9          |     -1      | Chronic inflammation in aging partially due to impaired autophagy. |
+| [[Inflammation]]                  | 09_Jun_2026 10:15 AM PDT | Biological Process       |         8          |     -1      | Autophagy generally suppresses excessive inflammation (e.g., inflammasomes). |
+| [[Ischemia-reperfusion Injury]]   | 09_Jun_2026 10:15 AM PDT | Medical Condition        |         7          |      0      | Pathological state where excessive autophagy can be detrimental. |
+| [[Lysosomal Storage Diseases]]    | 09_Jun_2026 10:15 AM PDT | Medical Condition        |         9          |     -1      | Diseases characterized by lysosomal dysfunction, impairing autophagic flux. |
+| [[Lysosome]]                      | 09_Jun_2026 10:15 AM PDT | Anatomy                  |         10         |      0      | Terminal organelle of autophagy responsible for cargo degradation. |
+| [[Metformin]]                     | 09_Jun_2026 10:15 AM PDT | Chemical Compound        |         9          |      1      | AMPK activator that pharmacologically induces autophagy. |
+| [[MHC type II]]                   | 09_Jun_2026 10:15 AM PDT | Protein Complex          |         7          |      1      | Autophagy regulates antigen presentation on MHC-II. |
+| [[Mitochondria]]                  | 09_Jun_2026 10:15 AM PDT | Anatomy                  |         10         |      0      | Organelles frequently targeted for autophagic degradation (mitophagy). |
+| [[Mitophagy]]                     | 09_Jun_2026 10:15 AM PDT | Biological Process       |         10         |      0      | Selective autophagic degradation of dysfunctional mitochondria. |
+| [[mTOR]]                          | 09_Jun_2026 10:15 AM PDT | Enzyme                   |         10         |     -1      | Master negative regulator of autophagy. |
+| [[mTORC1]]                        | 09_Jun_2026 10:15 AM PDT | Protein                  |         10         |      0      | Master negative regulator of autophagy. |
+| [[Neurodegenerative Diseases]]    | 09_Jun_2026 10:15 AM PDT | Medical Condition        |         9          |     -1      | Group of diseases commonly associated with impaired autophagic clearance. |
 | [[Oxidative Stress]]              | 09_Jun_2026 10:15 AM PDT | Scientific Concept       |         9          |      0      | Inducer of autophagy to clear damaged organelles and proteins. |
-| [[notes/_link/p53]]                           | 09_Jun_2026 10:15 AM PDT | Protein                  |         8          |      0      | Tumor suppressor with dual, context-dependent roles in autophagy regulation. |
-| [[notes/_link/Parkinson's Disease]]           | 09_Jun_2026 10:15 AM PDT | Medical Condition        |         9          |     -1      | Disease linked to defective mitophagy (e.g., PINK1/Parkin mutations). |
-| [[notes/_link/PDA]]                           | 09_Jun_2026 10:15 AM PDT | Medical Condition        |         6          |     -1      | Pancreatic ductal adenocarcinoma heavily relies on autophagy for survival. |
-| [[notes/_link/PI3K]]                          | 09_Jun_2026 10:15 AM PDT | Enzyme                   |         10         |     -1      | Class I PI3K inhibits autophagy (via Akt/mTOR); Class III promotes it (Vps34). |
-| [[notes/_link/Pompe Disease]]                 | 09_Jun_2026 10:15 AM PDT | Medical Condition        |         8          |     -1      | Lysosomal storage disease with massive autophagic buildup. |
-| [[notes/_link/PTEN]]                          | 09_Jun_2026 10:15 AM PDT | Enzyme                   |         9          |      1      | Tumor suppressor that promotes autophagy by antagonizing PI3K/Akt. |
-| [[notes/_link/Reactive Oxygen Species]]       | 09_Jun_2026 10:15 AM PDT | Biological Molecule      |         7          |      0      | Signaling molecules that can induce autophagy. |
-| [[notes/_link/Renal Cell Carcinoma]]          | 09_Jun_2026 10:15 AM PDT | Medical Condition        |         6          |     -1      | Associated with mutations in FLCN, linking to mTOR and autophagy. |
+| [[p53]]                           | 09_Jun_2026 10:15 AM PDT | Protein                  |         8          |      0      | Tumor suppressor with dual, context-dependent roles in autophagy regulation. |
+| [[Parkinson's Disease]]           | 09_Jun_2026 10:15 AM PDT | Medical Condition        |         9          |     -1      | Disease linked to defective mitophagy (e.g., PINK1/Parkin mutations). |
+| [[PDA]]                           | 09_Jun_2026 10:15 AM PDT | Medical Condition        |         6          |     -1      | Pancreatic ductal adenocarcinoma heavily relies on autophagy for survival. |
+| [[PI3K]]                          | 09_Jun_2026 10:15 AM PDT | Enzyme                   |         10         |     -1      | Class I PI3K inhibits autophagy (via Akt/mTOR); Class III promotes it (Vps34). |
+| [[Pompe Disease]]                 | 09_Jun_2026 10:15 AM PDT | Medical Condition        |         8          |     -1      | Lysosomal storage disease with massive autophagic buildup. |
+| [[PTEN]]                          | 09_Jun_2026 10:15 AM PDT | Enzyme                   |         9          |      1      | Tumor suppressor that promotes autophagy by antagonizing PI3K/Akt. |
+| [[Reactive Oxygen Species]]       | 09_Jun_2026 10:15 AM PDT | Biological Molecule      |         7          |      0      | Signaling molecules that can induce autophagy. |
+| [[Renal Cell Carcinoma]]          | 09_Jun_2026 10:15 AM PDT | Medical Condition        |         6          |     -1      | Associated with mutations in FLCN, linking to mTOR and autophagy. |
 | [[Resveratrol]]                   | 09_Jun_2026 10:15 AM PDT | Chemical Compound        |         8          |      1      | Polyphenol that induces autophagy via SIRT1/AMPK. |
-| [[notes/_link/Senescence]]                    | 09_Jun_2026 10:15 AM PDT | Biological Process       |         8          |      0      | Cellular state with complex autophagic alterations (often high flux to support SASP). |
+| [[Senescence]]                    | 09_Jun_2026 10:15 AM PDT | Biological Process       |         8          |      0      | Cellular state with complex autophagic alterations (often high flux to support SASP). |
 | [[SIRT1]]                         | 09_Jun_2026 10:15 AM PDT | Enzyme                   |         9          |      1      | NAD+-dependent deacetylase that promotes autophagy. |
-| [[notes/_link/Spermidine]]                    | 09_Jun_2026 10:15 AM PDT | Chemical Compound        |         9          |      1      | Polyamine that potently induces autophagy by inhibiting EP300. |
-| [[notes/_link/STAT3]]                         | 09_Jun_2026 10:15 AM PDT | Protein                  |         8          |     -1      | Transcription factor that generally suppresses autophagy. |
-| [[notes/_link/Tau]]                           | 09_Jun_2026 10:15 AM PDT | Protein                  |         8          |     -1      | Aggregation-prone protein in Alzheimer's cleared by autophagy. |
-| [[notes/_link/Unfolded Protein Response]]     | 09_Jun_2026 10:15 AM PDT | Biological Process       |         8          |      1      | ER stress response that induces autophagy for quality control. |
-| [[notes/_link/Wnt signaling]]                 | 09_Jun_2026 10:15 AM PDT | Biological Process       |         7          |      0      | Developmental pathway that can negatively regulate autophagy. |
+| [[Spermidine]]                    | 09_Jun_2026 10:15 AM PDT | Chemical Compound        |         9          |      1      | Polyamine that potently induces autophagy by inhibiting EP300. |
+| [[STAT3]]                         | 09_Jun_2026 10:15 AM PDT | Protein                  |         8          |     -1      | Transcription factor that generally suppresses autophagy. |
+| [[Tau]]                           | 09_Jun_2026 10:15 AM PDT | Protein                  |         8          |     -1      | Aggregation-prone protein in Alzheimer's cleared by autophagy. |
+| [[Unfolded Protein Response]]     | 09_Jun_2026 10:15 AM PDT | Biological Process       |         8          |      1      | ER stress response that induces autophagy for quality control. |
+| [[Wnt signaling]]                 | 09_Jun_2026 10:15 AM PDT | Biological Process       |         7          |      0      | Developmental pathway that can negatively regulate autophagy. |
 | [[Osteoclast]]                                | 09_Jun_2026 10:15 AM PDT | Cell Type                |         7          |      1      | Bone-resorbing cell regulated by TFEB/MITF. |
 | [[p62]]                                       | 09_Jun_2026 10:15 AM PDT | Protein                  |         10         |      0      | Receptor protein that binds to LC3 and ubiquitinated cargo for degradation. |
 | [[PERK]]                                      | 09_Jun_2026 10:15 AM PDT | Enzyme                   |         8          |      1      | ER stress sensor activating TFEB/TFE3. |
@@ -186,15 +186,15 @@ This directory contains notes and research regarding [[Autophagy]], its molecula
 | [[SIRT3]]                                     | 09_Jun_2026 10:15 AM PDT | Enzyme                   |         8          |      1      | Mitochondrial sirtuin that regulates mitophagy and metabolic homeostasis. |
 | [[SREBP1]]                                    | 09_Jun_2026 10:15 AM PDT | Protein                  |         7          |     -1      | Master regulator of lipid synthesis, inhibited by autophagy/mTOR suppression. |
 | [[Starvation]]                                | 09_Jun_2026 10:15 AM PDT | Biological Process       |         10         |      1      | Canonical physiological trigger for massive autophagic induction. |
-| [[notes/_link/STING]]                         | 09_Jun_2026 10:15 AM PDT | Protein                  |         8          |      1      | Cytosolic DNA sensor linked to TFEB. |
+| [[STING]]                         | 09_Jun_2026 10:15 AM PDT | Protein                  |         8          |      1      | Cytosolic DNA sensor linked to TFEB. |
 | [[T Cell]]                                    | 09_Jun_2026 10:15 AM PDT | Cell Type                |         7          |      1      | Autophagy is crucial for T cell survival, memory formation, and homeostasis. |
 | [[TAME Trial]]                                | 09_Jun_2026 10:15 AM PDT | Scientific Concept       |         5          |      1      | Clinical trial investigating metformin as an anti-aging intervention, partly through autophagy. |
-| [[notes/_link/TBK1]]                          | 09_Jun_2026 10:15 AM PDT | Enzyme                   |         8          |      1      | Innate immune kinase regulated by TFEB. |
+| [[TBK1]]                          | 09_Jun_2026 10:15 AM PDT | Enzyme                   |         8          |      1      | Innate immune kinase regulated by TFEB. |
 | [[TFEB]]                                      | 09_Jun_2026 10:15 AM PDT | Protein                  |         10         |      1      | Master transcriptional regulator of lysosomal biogenesis and autophagy. |
 | [[TFEC]]                                      | 09_Jun_2026 10:15 AM PDT | Protein                  |         9          |      1      | Member of MiTF/TFE family. |
 | [[Thymic Involution]]                         | 09_Jun_2026 10:15 AM PDT | Biological Process       |         6          |     -1      | Age-related decline in thymus function, partly due to reduced autophagy. |
-| [[notes/_link/Toll-like Receptor]]            | 09_Jun_2026 10:15 AM PDT | Receptor                 |         8          |      1      | Innate immune receptor linked to TFEB/TFE3. |
-| [[notes/_link/TREX1]]                         | 09_Jun_2026 10:15 AM PDT | Enzyme                   |         7          |      0      | Exonuclease whose loss activates TFEB. |
+| [[Toll-like Receptor]]            | 09_Jun_2026 10:15 AM PDT | Receptor                 |         8          |      1      | Innate immune receptor linked to TFEB/TFE3. |
+| [[TREX1]]                         | 09_Jun_2026 10:15 AM PDT | Enzyme                   |         7          |      0      | Exonuclease whose loss activates TFEB. |
 | [[TSC1]]                                      | 09_Jun_2026 10:15 AM PDT | Protein                  |         9          |      1      | Forms a complex with TSC2 to negatively regulate mTORC1 via Rheb. |
 | [[TSC2]]                                      | 09_Jun_2026 10:15 AM PDT | Protein                  |         9          |      1      | GAP for Rheb; its inhibition by Akt activates mTORC1 and suppresses autophagy. |
 | [[ULK1]]                                      | 09_Jun_2026 10:15 AM PDT | Enzyme                   |         10         |      1      | Initiator kinase of the autophagic cascade, activated by AMPK and inhibited by mTORC1. |

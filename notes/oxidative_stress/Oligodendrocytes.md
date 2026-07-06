@@ -14,7 +14,7 @@ updated: 2026-07-04
 
 Oligodendrocytes exhibit heightened sensitivity to ROS/RNS through multiple mechanisms:
 - **High Iron Content**: Oligodendrocytes accumulate the highest levels of intracellular iron of any CNS cell type, required for the iron-dependent enzymes of myelin synthesis (e.g., [[Aconitase]] in cholesterol/lipid metabolism). This iron pool can catalyze [[Fenton Reaction]] chemistry, generating [[Hydroxyl Radicals|hydroxyl radicals]].
-- **Low [[notes/_link/Glutathione]] Levels**: Compared to astrocytes, oligodendrocytes have relatively low GSH content and limited capacity to upregulate antioxidant defenses.
+- **Low [[Glutathione]] Levels**: Compared to astrocytes, oligodendrocytes have relatively low GSH content and limited capacity to upregulate antioxidant defenses.
 - **High ATP Demand**: Myelination requires extensive mitochondrial activity, producing large amounts of [[Superoxide Radicals|superoxide]] as a byproduct.
 - **Lipid-Rich Membranes**: Myelin is composed of ~70% lipid (high in PUFAs), making it a prime substrate for [[Lipid Peroxidation|lipid peroxidation]].
 

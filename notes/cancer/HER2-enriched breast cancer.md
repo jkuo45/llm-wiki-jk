@@ -1,13 +1,13 @@
 # HER2-enriched Breast Cancer
 
-**HER2-enriched breast cancer** is a subtype of [[notes/_link/Breast Cancer]] characterized by the overexpression of the [[HER2]] (human epidermal growth factor receptor 2) protein.
+**HER2-enriched breast cancer** is a subtype of [[Breast Cancer]] characterized by the overexpression of the [[HER2]] (human epidermal growth factor receptor 2) protein.
 
 ## Characteristics
-- **Oncogenic Signaling**: Driven by the activation of HER2 and downstream pathways such as [[notes/_link/PI3K]]/[[notes/_link/Akt]].
+- **Oncogenic Signaling**: Driven by the activation of HER2 and downstream pathways such as [[PI3K]]/[[Akt]].
 - **Therapeutics**: Targeted by anti-HER2 therapies such as [[trastuzumab]].
 
 ## Connections
-- [[notes/_link/Breast Cancer]]: The broader disease category.
+- [[Breast Cancer]]: The broader disease category.
 - [[HER2]]: The primary driver and biomarker for this subtype.
 - [[melittin]]: Shown to suppress HER2 phosphorylation and induce cell death in this subtype.
 - [[trastuzumab]]: A standard targeted therapy for HER2+ breast cancer.

@@ -37,65 +37,65 @@ updated: 2026-07-04
 
 # Oxidative Stress
 
-**Oxidative stress** is a phenomenon caused by an imbalance between production and accumulation of [[notes/_link/Reactive Oxygen Species]] (ROS) and the ability of a biological system to detoxify them. It plays dual roles in physiology and pathology.
+**Oxidative stress** is a phenomenon caused by an imbalance between production and accumulation of [[Reactive Oxygen Species]] (ROS) and the ability of a biological system to detoxify them. It plays dual roles in physiology and pathology.
 
 ## Source of ROS
 
-- **Endogenous**: [[notes/_link/Mitochondria]] (Complex I and III), [[NADPH Oxidase]], [[Myeloperoxidase]], [[Xanthine Oxidase]], [[Cytochrome P450]], [[MAO]]
+- **Endogenous**: [[Mitochondria]] (Complex I and III), [[NADPH Oxidase]], [[Myeloperoxidase]], [[Xanthine Oxidase]], [[Cytochrome P450]], [[MAO]]
 - **Exogenous**: UV radiation, ionizing radiation, pollutants, heavy metals, xenobiotics
 
 ## Antioxidant Defenses
 
 ### Enzymatic
-- [[notes/_link/Superoxide Dismutase]] (SOD1, SOD2, SOD3)
+- [[Superoxide Dismutase]] (SOD1, SOD2, SOD3)
 - [[Catalase]]
 - [[Glutathione Peroxidase]]
 - [[Peroxiredoxin]], [[Thioredoxin reductase]]
 
 ### Non-Enzymatic
-- [[notes/_link/Glutathione]] (1–10 mM intracellular)
-- [[notes/_link/Ascorbic Acid]] (Vitamin C)
-- [[notes/_link/Vitamin E]] (α-tocopherol)
-- [[notes/_link/Uric Acid]], [[notes/_link/Melatonin]], [[Bilirubin]]
+- [[Glutathione]] (1–10 mM intracellular)
+- [[Ascorbic Acid]] (Vitamin C)
+- [[Vitamin E]] (α-tocopherol)
+- [[Uric Acid]], [[Melatonin]], [[Bilirubin]]
 
 ## Physiological Roles
 
 - [[Redox Signaling]] — ROS act as second messengers in cell signaling
 - [[Mitohormesis]] — Low-level ROS trigger adaptive cytoprotective responses
-- [[notes/_link/Inflammation]] — ROS drive NF-κB activation
+- [[Inflammation]] — ROS drive NF-κB activation
 
 ## Pathological Roles
 
-- [[notes/_link/Aging]] — Cumulative oxidative damage drives aging
-- [[notes/_link/Cardiovascular Disease]] — LDL oxidation, endothelial dysfunction
-- [[notes/_link/Neurodegenerative Diseases]] — Protein aggregation, mitochondrial dysfunction
+- [[Aging]] — Cumulative oxidative damage drives aging
+- [[Cardiovascular Disease]] — LDL oxidation, endothelial dysfunction
+- [[Neurodegenerative Diseases]] — Protein aggregation, mitochondrial dysfunction
 - [[Cancer]] — DNA damage and mutagenesis
 - [[Diabetes Mellitus]] — β-cell dysfunction, insulin resistance
 
 ## Connections
 
-- [[notes/_link/Reactive Oxygen Species]] — The primary agents of oxidative stress
-- [[notes/_link/Mitochondria]] — Major source of endogenous ROS
-- [[notes/_link/Aging]] — Causal role in age-related decline
-- [[notes/_link/Inflammation]] — Bidirectional relationship
-- [[notes/_link/NRF2]] — Master regulator of antioxidant response
+- [[Reactive Oxygen Species]] — The primary agents of oxidative stress
+- [[Mitochondria]] — Major source of endogenous ROS
+- [[Aging]] — Causal role in age-related decline
+- [[Inflammation]] — Bidirectional relationship
+- [[NRF2]] — Master regulator of antioxidant response
 - [[Mitohormesis]] — Hormetic ROS signaling
 
 ## Linking Summary
 
-- New links added: [[notes/_link/Reactive Oxygen Species]], [[notes/_link/Mitochondria]], [[notes/_link/Superoxide Dismutase]], [[notes/_link/Glutathione]], [[notes/_link/Ascorbic Acid]], [[notes/_link/Vitamin E]], [[notes/_link/NRF2]], [[notes/_link/Aging]], [[notes/_link/Inflammation]], [[notes/_link/Cardiovascular Disease]], [[notes/_link/Neurodegenerative Diseases]], [[Cancer]], [[notes/_link/Diabetes Mellitus]], [[Mitohormesis]], [[Redox Signaling]], [[Catalase]], [[Glutathione Peroxidase]], [[notes/_link/Melatonin]], [[notes/_link/Uric Acid]], [[NADPH Oxidase]], [[Myeloperoxidase]]
+- New links added: [[Reactive Oxygen Species]], [[Mitochondria]], [[Superoxide Dismutase]], [[Glutathione]], [[Ascorbic Acid]], [[Vitamin E]], [[NRF2]], [[Aging]], [[Inflammation]], [[Cardiovascular Disease]], [[Neurodegenerative Diseases]], [[Cancer]], [[Diabetes Mellitus]], [[Mitohormesis]], [[Redox Signaling]], [[Catalase]], [[Glutathione Peroxidase]], [[Melatonin]], [[Uric Acid]], [[NADPH Oxidase]], [[Myeloperoxidase]]
 - Suggested new entity notes to create: [[Redox Signaling]], [[Lipid Peroxidation]], [[Fenton Chemistry]], [[Protein Carbonylation]]
-- Strong connections to strengthen: [[Oxidative Stress]] ↔ [[notes/_link/Aging]], [[Oxidative Stress]] ↔ [[notes/_link/Inflammation]], [[Oxidative Stress]] ↔ [[notes/_link/Mitochondria]]
+- Strong connections to strengthen: [[Oxidative Stress]] ↔ [[Aging]], [[Oxidative Stress]] ↔ [[Inflammation]], [[Oxidative Stress]] ↔ [[Mitochondria]]
 
 
 ## Content from oxidative_stress/Oxidative Stress.md
 
 # Oxidative Stress
 
-**Oxidative Stress** is a physiological condition characterized by an imbalance between the production of [[notes/_link/Reactive Oxygen Species]] (ROS) and the body's ability to detoxify these reactive intermediates or repair the resulting damage.
+**Oxidative Stress** is a physiological condition characterized by an imbalance between the production of [[Reactive Oxygen Species]] (ROS) and the body's ability to detoxify these reactive intermediates or repair the resulting damage.
 
 ## Definition
-Oxidative stress reflects an imbalance between the systemic manifestation of [[notes/_link/Reactive Oxygen Species]] (ROS) and a biological system's ability to readily detoxify the reactive intermediates or to repair the resulting damage.
+Oxidative stress reflects an imbalance between the systemic manifestation of [[Reactive Oxygen Species]] (ROS) and a biological system's ability to readily detoxify the reactive intermediates or to repair the resulting damage.
 
 ## Mechanism and Consequences
 - **Cellular Damage:** ROS can damage DNA, proteins, and lipids (lipid peroxidation). It leads to damage of cellular components, including [[Proteins]], [[Lipids]], and [[Nucleic Acids]].
@@ -105,78 +105,78 @@ Oxidative stress reflects an imbalance between the systemic manifestation of [[n
 - **[[Mitochondrial Dysfunction]]:** Impaired mitochondrial function further increases the production of ROS, leading to a cycle of oxidative damage to lipids, proteins, and DNA.
 
 ## Role in [[Adrenochrome]] Formation
-Oxidative stress is the primary driver for the non-enzymatic [[Oxidation]] of [[notes/_link/Epinephrine]] into [[Adrenochrome]]. High levels of [[Superoxide anion]], [[notes/_link/Hydrogen Peroxide]], and [[Hydroxyl radical]] favor this pathway over normal enzymatic degradation via [[COMT]] or [[MAO]].
+Oxidative stress is the primary driver for the non-enzymatic [[Oxidation]] of [[Epinephrine]] into [[Adrenochrome]]. High levels of [[Superoxide anion]], [[Hydrogen Peroxide]], and [[Hydroxyl radical]] favor this pathway over normal enzymatic degradation via [[COMT]] or [[MAO]].
 
 ## Role of [[COMT]]
 The [[COMT]] enzyme helps protect cells from oxidative stress by breaking down [[Catecholamines]]. Without this methylation reaction, catecholamines can accumulate and generate [[Free Radicals]], which can damage DNA and brain cells.
 
 ## In the Context of Cancer
 - **Tumor Progression:** Moderate levels of ROS can promote cell proliferation and survival.
-- **Therapeutic Induction:** High levels of ROS can damage cellular components (DNA, proteins, lipids) and induce [[notes/_link/Apoptosis]].
+- **Therapeutic Induction:** High levels of ROS can damage cellular components (DNA, proteins, lipids) and induce [[Apoptosis]].
 - **Mechanism of Drugs:** Many anticancer agents, including [[Fenbendazole]], exert their effects by inducing oxidative stress in tumor cells, often by interfering with mitochondrial function or antioxidant defenses.
 
 ## In the Context of Neurodegenerative Diseases
-### [[notes/_link/Parkinson's Disease]]
-Oxidative stress is considered a major contributing factor to the pathogenesis of [[notes/_link/Parkinson's Disease]].
-- **Dopamine Metabolism:** The metabolism of [[notes/_link/Dopamine]] naturally generates reactive quinones and ROS.
-- **Iron and Neuromelanin:** The [[notes/_link/Substantia Nigra]] contains high levels of [[Iron]], which can promote the formation of highly reactive hydroxyl radicals via the Fenton reaction. [[Neuromelanin]] normally protects neurons by chelating iron, but its structural alteration or saturation in PD may compromise this defense.
+### [[Parkinson's Disease]]
+Oxidative stress is considered a major contributing factor to the pathogenesis of [[Parkinson's Disease]].
+- **Dopamine Metabolism:** The metabolism of [[Dopamine]] naturally generates reactive quinones and ROS.
+- **Iron and Neuromelanin:** The [[Substantia Nigra]] contains high levels of [[Iron]], which can promote the formation of highly reactive hydroxyl radicals via the Fenton reaction. [[Neuromelanin]] normally protects neurons by chelating iron, but its structural alteration or saturation in PD may compromise this defense.
 
-### [[notes/_link/Alzheimer's Disease]]
+### [[Alzheimer's Disease]]
 Plays a pivotal role in neuron loss.
 
 ## Exogenous Triggers
 - **[[Smoking]]:** Introduces massive amounts of ROS and triggers catecholamine release.
-- **[[notes/_link/Inflammation]]:** Often accompanied by high ROS production from activated [[notes/_link/Neutrophils]]. Activated neutrophils produce ROS and [[notes/_link/Myeloperoxidase]], which catalyzes the formation of [[Aminochromes]].
+- **[[Inflammation]]:** Often accompanied by high ROS production from activated [[Neutrophils]]. Activated neutrophils produce ROS and [[Myeloperoxidase]], which catalyzes the formation of [[Aminochromes]].
 
 ## Molecular Mechanisms of ROS Production and Detoxification
 
 ### Endogenous ROS Sources
-The primary sources of cellular ROS include the [[notes/_link/Mitochondria|mitochondrial]] electron transport chain (Complex I and III), where electron leakage generates [[Superoxide Radicals]]; the [[NADPH Oxidase]] (NOX) family of enzymes, which deliberately produce superoxide for signaling and immunity; [[Xanthine Oxidase]] during purine catabolism; [[Nitric Oxide Synthase]] (particularly under uncoupled conditions); and peroxisomal oxidases. Under normal physiological conditions, approximately 1–3% of consumed oxygen is diverted to superoxide production at the mitochondria, though this estimate has been revised downward in recent years with more accurate measurement techniques.
+The primary sources of cellular ROS include the [[Mitochondria|mitochondrial]] electron transport chain (Complex I and III), where electron leakage generates [[Superoxide Radicals]]; the [[NADPH Oxidase]] (NOX) family of enzymes, which deliberately produce superoxide for signaling and immunity; [[Xanthine Oxidase]] during purine catabolism; [[Nitric Oxide Synthase]] (particularly under uncoupled conditions); and peroxisomal oxidases. Under normal physiological conditions, approximately 1–3% of consumed oxygen is diverted to superoxide production at the mitochondria, though this estimate has been revised downward in recent years with more accurate measurement techniques.
 
 ### The Redox Signaling Paradigm
-While historically viewed as purely damaging, ROS at low-to-moderate concentrations function as essential [[Signaling Molecules]]. [[notes/_link/Hydrogen Peroxide]] (H₂O₂) is the primary redox signaling agent due to its relative stability and selective reactivity with cysteine thiolates in proteins. Reversible oxidation of catalytic or regulatory cysteines — particularly in [[Protein Tyrosine Phosphatases]] (PTPs), [[PTEN]], [[Keap1]], and [[NF-kappa B]] subunits — modulates a vast array of signaling cascades. This "redox code" concept has fundamentally reshaped the understanding of oxidative stress as a continuum from physiological signaling (eustress) to pathological damage (distress).
+While historically viewed as purely damaging, ROS at low-to-moderate concentrations function as essential [[Signaling Molecules]]. [[Hydrogen Peroxide]] (H₂O₂) is the primary redox signaling agent due to its relative stability and selective reactivity with cysteine thiolates in proteins. Reversible oxidation of catalytic or regulatory cysteines — particularly in [[Protein Tyrosine Phosphatases]] (PTPs), [[PTEN]], [[Keap1]], and [[NF-kappa B]] subunits — modulates a vast array of signaling cascades. This "redox code" concept has fundamentally reshaped the understanding of oxidative stress as a continuum from physiological signaling (eustress) to pathological damage (distress).
 
 ### Antioxidant Defense Systems
-Cells deploy a multilayered defense: **primary enzymatic defenses** include [[notes/_link/Superoxide Dismutase]] (SOD1 in cytosol, SOD2 in mitochondria, SOD3 extracellular), [[Catalase]] (peroxisomes), and [[Glutathione Peroxidase]] (GPx1–4, cytosol and mitochondria). **Secondary non-enzymatic defenses** comprise small-molecule antioxidants: [[notes/_link/Glutathione]] (the most abundant intracellular thiol, 1–10 mM), [[notes/_link/Ascorbic Acid]] (vitamin C, aqueous phase), [[notes/_link/Vitamin E]] (α-tocopherol, lipid phase), [[notes/_link/Uric Acid]], and [[notes/_link/Bilirubin]]. The transcription factor [[notes/_link/NRF2]] (nuclear factor erythroid 2-related factor 2) serves as the master regulator of the antioxidant response, inducing over 200 cytoprotective genes including those encoding glutathione synthesis, thioredoxin, and NADPH regeneration enzymes.
+Cells deploy a multilayered defense: **primary enzymatic defenses** include [[Superoxide Dismutase]] (SOD1 in cytosol, SOD2 in mitochondria, SOD3 extracellular), [[Catalase]] (peroxisomes), and [[Glutathione Peroxidase]] (GPx1–4, cytosol and mitochondria). **Secondary non-enzymatic defenses** comprise small-molecule antioxidants: [[Glutathione]] (the most abundant intracellular thiol, 1–10 mM), [[Ascorbic Acid]] (vitamin C, aqueous phase), [[Vitamin E]] (α-tocopherol, lipid phase), [[Uric Acid]], and [[Bilirubin]]. The transcription factor [[NRF2]] (nuclear factor erythroid 2-related factor 2) serves as the master regulator of the antioxidant response, inducing over 200 cytoprotective genes including those encoding glutathione synthesis, thioredoxin, and NADPH regeneration enzymes.
 
 ## Oxidative Stress in Aging and Age-Related Disease
-The **free radical theory of aging** (Harman, 1956) proposed that accumulated oxidative damage to macromolecules drives the aging process. While the original formulation has been refined — particularly by the discovery that ROS signaling is essential for longevity in some model organisms (mitohormesis) — the role of oxidative stress in age-related pathology remains robust. [[notes/_link/DNA Damage]] accumulates with age, particularly in [[notes/_link/Mitochondria|mitochondrial DNA]]; protein oxidation products (carbonyls, 3-nitrotyrosine) increase in aging tissues; and [[Lipid Peroxidation]] products ([[Malondialdehyde]], [[4-Hydroxynonenal]]) form adducts that impair cellular function. Age-related decline in [[Autophagy]] and [[notes/_link/Proteasome]] activity exacerbates the accumulation of oxidized macromolecules, creating a feed-forward loop of damage.
+The **free radical theory of aging** (Harman, 1956) proposed that accumulated oxidative damage to macromolecules drives the aging process. While the original formulation has been refined — particularly by the discovery that ROS signaling is essential for longevity in some model organisms (mitohormesis) — the role of oxidative stress in age-related pathology remains robust. [[DNA Damage]] accumulates with age, particularly in [[Mitochondria|mitochondrial DNA]]; protein oxidation products (carbonyls, 3-nitrotyrosine) increase in aging tissues; and [[Lipid Peroxidation]] products ([[Malondialdehyde]], [[4-Hydroxynonenal]]) form adducts that impair cellular function. Age-related decline in [[Autophagy]] and [[Proteasome]] activity exacerbates the accumulation of oxidized macromolecules, creating a feed-forward loop of damage.
 
 ## The Hormetic Perspective
-An integrated model recognizes that low-level oxidative stress — induced by [[Exercise]], [[Caloric Restriction]], cold/heat exposure, and certain phytochemicals — activates adaptive stress responses that enhance resilience. This concept, termed **mitohormesis** or **oxidative hormesis**, posits that transient ROS elevations upregulate [[notes/_link/DNA Repair]], antioxidant defenses, [[Autophagy]], and [[Mitochondrial Biogenesis]]. The result is an elevated resting metabolic rate, improved redox capacity, and increased resistance to subsequent, more severe stressors. This framework aligns with the lifestyle practices emphasized in this knowledge base, where intentional hormetic stressors are leveraged for vitality and longevity without the need for pharmacological interventions.
+An integrated model recognizes that low-level oxidative stress — induced by [[Exercise]], [[Caloric Restriction]], cold/heat exposure, and certain phytochemicals — activates adaptive stress responses that enhance resilience. This concept, termed **mitohormesis** or **oxidative hormesis**, posits that transient ROS elevations upregulate [[DNA Repair]], antioxidant defenses, [[Autophagy]], and [[Mitochondrial Biogenesis]]. The result is an elevated resting metabolic rate, improved redox capacity, and increased resistance to subsequent, more severe stressors. This framework aligns with the lifestyle practices emphasized in this knowledge base, where intentional hormetic stressors are leveraged for vitality and longevity without the need for pharmacological interventions.
 
 ## Related Entities
-- **Molecules:** [[notes/_link/Reactive Oxygen Species]] (ROS), [[Superoxide]], [[notes/_link/Hydrogen Peroxide]], [[Hydroxyl radical]], [[notes/_link/Glutathione]], [[Free Radicals]], [[Peroxynitrite]], [[Reactive Nitrogen Species]]
-- **Antioxidants:** [[notes/_link/Superoxide Dismutase]], [[Catalase]], [[Glutathione Peroxidase]], [[notes/_link/Vitamin E]], [[notes/_link/Ascorbic Acid]], [[Coenzyme Q10]], [[Alpha-Lipoic Acid]], [[notes/_link/Glutathione]]
-- **Processes:** [[notes/_link/Apoptosis]], [[Autophagy]], [[Metabolic Reprogramming]], [[Redox Cycling]], [[Lipid Peroxidation]], [[notes/_link/DNA Damage]], [[Mitohormesis]]
-- **Diseases:** [[notes/_link/Atherosclerosis]], [[Cancer]], [[notes/_link/Alzheimer's Disease]], [[notes/_link/Parkinson's Disease]], [[notes/_link/Diabetes Mellitus]], [[Chronic Obstructive Pulmonary Disease]], [[Methemoglobinemia]], [[Anaphylaxis]], [[notes/_link/Schizophrenia]]
+- **Molecules:** [[Reactive Oxygen Species]] (ROS), [[Superoxide]], [[Hydrogen Peroxide]], [[Hydroxyl radical]], [[Glutathione]], [[Free Radicals]], [[Peroxynitrite]], [[Reactive Nitrogen Species]]
+- **Antioxidants:** [[Superoxide Dismutase]], [[Catalase]], [[Glutathione Peroxidase]], [[Vitamin E]], [[Ascorbic Acid]], [[Coenzyme Q10]], [[Alpha-Lipoic Acid]], [[Glutathione]]
+- **Processes:** [[Apoptosis]], [[Autophagy]], [[Metabolic Reprogramming]], [[Redox Cycling]], [[Lipid Peroxidation]], [[DNA Damage]], [[Mitohormesis]]
+- **Diseases:** [[Atherosclerosis]], [[Cancer]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Diabetes Mellitus]], [[Chronic Obstructive Pulmonary Disease]], [[Methemoglobinemia]], [[Anaphylaxis]], [[Schizophrenia]]
 - **Drugs:** [[Fenbendazole]], [[Cisplatin]], [[Doxorubicin]]
 
 ## Autophagy Connection (Therapeutic Axis)
-ROS are potent [[Autophagy]] inducers. [[notes/_link/Hydrogen Peroxide]] directly activates [[notes/_link/AMPK]] and [[Atg4]] oxidation, and promotes [[notes/_link/TFEB]] nuclear translocation via [[TRPML1]]-[[calcineurin]] signaling (oxidation at TFEB C212 enhances its transcriptional activity). [[Mitophagy]] selectively removes ROS-producing damaged [[notes/_link/Mitochondria]], and conversely, autophagy deficiency elevates ROS by failing to clear damaged organelles. From a therapeutic perspective, autophagy-enhancing strategies ([[Spermidine]], [[Trehalose]]) may more effectively mitigate oxidative damage than direct antioxidant supplementation, which has shown mixed clinical results.
+ROS are potent [[Autophagy]] inducers. [[Hydrogen Peroxide]] directly activates [[AMPK]] and [[Atg4]] oxidation, and promotes [[TFEB]] nuclear translocation via [[TRPML1]]-[[calcineurin]] signaling (oxidation at TFEB C212 enhances its transcriptional activity). [[Mitophagy]] selectively removes ROS-producing damaged [[Mitochondria]], and conversely, autophagy deficiency elevates ROS by failing to clear damaged organelles. From a therapeutic perspective, autophagy-enhancing strategies ([[Spermidine]], [[Trehalose]]) may more effectively mitigate oxidative damage than direct antioxidant supplementation, which has shown mixed clinical results.
 
 ## Connections
-- [[notes/_link/Reactive Oxygen Species]] ↔ The agents that cause oxidative stress.
+- [[Reactive Oxygen Species]] ↔ The agents that cause oxidative stress.
 - [[Adrenochrome]] ↔ An oxidative byproduct whose formation is promoted by this state.
 - [[COMT]] ↔ Protects against oxidative stress by metabolizing catechols.
-- [[notes/_link/Inflammation]] ↔ Often accompanied by high ROS production from activated [[notes/_link/Neutrophils]].
+- [[Inflammation]] ↔ Often accompanied by high ROS production from activated [[Neutrophils]].
 - [[Smoking]] ↔ Major lifestyle source of oxidative stress.
 - [[Redox Cycling]] ↔ Mechanism of ROS amplification driven by aminochromes.
-- [[notes/_link/NRF2]] ↔ Master transcription factor coordinating the antioxidant response.
+- [[NRF2]] ↔ Master transcription factor coordinating the antioxidant response.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Reactive Oxygen Species]], [[Adrenochrome]], [[Oxidation]], [[notes/_link/Epinephrine]], [[Superoxide anion]], [[notes/_link/Hydrogen Peroxide]], [[Hydroxyl radical]], [[COMT]], [[MAO]], [[Redox Cycling]], [[Neuromelanin]], [[Cardiotoxicity]], [[Smoking]], [[notes/_link/Inflammation]], [[notes/_link/Neutrophils]], [[notes/_link/Myeloperoxidase]], [[Aminochromes]], [[notes/_link/Antioxidants]], [[notes/_link/Superoxide Dismutase]], [[Catalase]], [[Glutathione Peroxidase]], [[notes/_link/Atherosclerosis]], [[Cancer]], [[notes/_link/Alzheimer's Disease]], [[Proteins]], [[Lipids]], [[Nucleic Acids]], [[notes/_link/Parkinson's Disease]], [[notes/_link/Dopamine]], [[notes/_link/Substantia Nigra]], [[Iron]], [[Mitochondrial Dysfunction]], [[Fenton Reaction]], [[Fenbendazole]], [[Cisplatin]], [[Doxorubicin]], [[Free Radicals]], [[Catecholamines]]
-- Suggested new entity notes to create: [[Fenton Reaction]], [[Lipids]], [[Nucleic Acids]], [[Proteins]], [[notes/_link/Antioxidants]]
-- Strong connections to strengthen: [[Oxidative Stress]] ↔ [[notes/_link/Reactive Oxygen Species]], [[Oxidative Stress]] ↔ [[Mitochondrial Dysfunction]], [[Oxidative Stress]] ↔ [[COMT]]
+- New links added: [[Reactive Oxygen Species]], [[Adrenochrome]], [[Oxidation]], [[Epinephrine]], [[Superoxide anion]], [[Hydrogen Peroxide]], [[Hydroxyl radical]], [[COMT]], [[MAO]], [[Redox Cycling]], [[Neuromelanin]], [[Cardiotoxicity]], [[Smoking]], [[Inflammation]], [[Neutrophils]], [[Myeloperoxidase]], [[Aminochromes]], [[Antioxidants]], [[Superoxide Dismutase]], [[Catalase]], [[Glutathione Peroxidase]], [[Atherosclerosis]], [[Cancer]], [[Alzheimer's Disease]], [[Proteins]], [[Lipids]], [[Nucleic Acids]], [[Parkinson's Disease]], [[Dopamine]], [[Substantia Nigra]], [[Iron]], [[Mitochondrial Dysfunction]], [[Fenton Reaction]], [[Fenbendazole]], [[Cisplatin]], [[Doxorubicin]], [[Free Radicals]], [[Catecholamines]]
+- Suggested new entity notes to create: [[Fenton Reaction]], [[Lipids]], [[Nucleic Acids]], [[Proteins]], [[Antioxidants]]
+- Strong connections to strengthen: [[Oxidative Stress]] ↔ [[Reactive Oxygen Species]], [[Oxidative Stress]] ↔ [[Mitochondrial Dysfunction]], [[Oxidative Stress]] ↔ [[COMT]]
 
 ### New Linking Summary (Added 2026-07-04):
-- New links added: [[Peroxynitrite]], [[Reactive Nitrogen Species]], [[Catalase]], [[Glutathione Peroxidase]], [[Coenzyme Q10]], [[Alpha-Lipoic Acid]], [[notes/_link/Vitamin E]], [[notes/_link/Ascorbic Acid]], [[notes/_link/Glutathione]], [[notes/_link/NRF2]], [[notes/_link/DNA Damage]], [[notes/_link/DNA Repair]], [[Autophagy]], [[notes/_link/Proteasome]], [[Exercise]], [[Caloric Restriction]], [[Mitohormesis]], [[Lipid Peroxidation]], [[Malondialdehyde]], [[4-Hydroxynonenal]], [[Mitochondrial Biogenesis]], [[Chronic Obstructive Pulmonary Disease]], [[notes/_link/Diabetes Mellitus]]
+- New links added: [[Peroxynitrite]], [[Reactive Nitrogen Species]], [[Catalase]], [[Glutathione Peroxidase]], [[Coenzyme Q10]], [[Alpha-Lipoic Acid]], [[Vitamin E]], [[Ascorbic Acid]], [[Glutathione]], [[NRF2]], [[DNA Damage]], [[DNA Repair]], [[Autophagy]], [[Proteasome]], [[Exercise]], [[Caloric Restriction]], [[Mitohormesis]], [[Lipid Peroxidation]], [[Malondialdehyde]], [[4-Hydroxynonenal]], [[Mitochondrial Biogenesis]], [[Chronic Obstructive Pulmonary Disease]], [[Diabetes Mellitus]]
 - Suggested new entity notes to create: [[Mitohormesis]], [[Redox Code]], [[4-Hydroxynonenal]], [[Keap1]], [[PTEN]], [[Protein Tyrosine Phosphatases]]
-- Strong connections to strengthen: [[Oxidative Stress]] ↔ [[notes/_link/Mitochondria]], [[Oxidative Stress]] ↔ [[notes/_link/NRF2]], [[Oxidative Stress]] ↔ [[Lipid Peroxidation]]
+- Strong connections to strengthen: [[Oxidative Stress]] ↔ [[Mitochondria]], [[Oxidative Stress]] ↔ [[NRF2]], [[Oxidative Stress]] ↔ [[Lipid Peroxidation]]
 
 ### New Linking Summary (Added 2026-07-04, _link merge):
-- New links added: [[notes/_link/AMPK]], [[Atg4]], [[notes/_link/TFEB]], [[TRPML1]], [[calcineurin]], [[Spermidine]], [[Trehalose]]
-- Strong connections to strengthen: [[Oxidative Stress]] ↔ [[Autophagy]], [[Oxidative Stress]] ↔ [[notes/_link/AMPK]], [[Oxidative Stress]] ↔ [[notes/_link/TFEB]]
+- New links added: [[AMPK]], [[Atg4]], [[TFEB]], [[TRPML1]], [[calcineurin]], [[Spermidine]], [[Trehalose]]
+- Strong connections to strengthen: [[Oxidative Stress]] ↔ [[Autophagy]], [[Oxidative Stress]] ↔ [[AMPK]], [[Oxidative Stress]] ↔ [[TFEB]]
 
 
 ## Content from adrenochrome/Oxidative Stress.md
@@ -194,7 +194,7 @@ The modern definition was formalized by [[Helmut Sies]]: oxidative stress is "an
 | Species | Symbol | Half-life | Reactivity | Primary Source |
 |---------|--------|-----------|------------|----------------|
 | [[Superoxide anion]] | O₂⁻• | ~1–4 μs (in cells) | Moderate; dismutates to H₂O₂ | [[Mitochondrial Complex I]]/[[III]], [[NADPH Oxidase]] |
-| [[Hydrogen Peroxide]] | H₂O₂ | ~1 ms (in cells) | Moderate; diffuses through membranes | [[SOD]]-catalyzed dismutation, [[notes/_link/Peroxisomes]] |
+| [[Hydrogen Peroxide]] | H₂O₂ | ~1 ms (in cells) | Moderate; diffuses through membranes | [[SOD]]-catalyzed dismutation, [[Peroxisomes]] |
 | [[Hydroxyl radical]] | •OH | ~1 ns | Extremely high; reacts at diffusion limit | [[Fenton Reaction]] (Fe²⁺ + H₂O₂) |
 | [[Peroxynitrite]] | ONOO⁻ | ~10–20 ms | High; nitrates tyrosine residues | [[Superoxide anion]] + [[Nitric Oxide]] |
 
@@ -256,30 +256,30 @@ Supraphysiological ROS directly damage:
 At physiological concentrations, H₂O₂ functions as a second messenger:
 - Reversible oxidation of active-site cysteine residues in [[Protein Tyrosine Phosphatases]] (PTPs) regulates [[Receptor Tyrosine Kinases]] signaling.
 - [[Peroxiredoxin]]-mediated H₂O₂ relay enables targeted oxidation of specific signaling proteins.
-- [[notes/_link/NRF2]]-dependent transcriptional programs respond to moderate ROS elevations.
+- [[NRF2]]-dependent transcriptional programs respond to moderate ROS elevations.
 - [[Mitohormesis]] is built entirely on adaptive ROS signaling.
 
 ## Hormetic and Pathophysiological Thresholds
 
 The transition from signaling to damage is governed by redox thresholds:
 - **Basal (10–100 nM H₂O₂)**: Homeostatic signaling; [[Peroxiredoxin]] and [[Glutathione Peroxidase]] maintain set point.
-- **Adaptive (100–500 nM H₂O₂)**: [[notes/_link/NRF2]] activation, [[FOXO]] induction, [[Mitochondrial Biogenesis]].
+- **Adaptive (100–500 nM H₂O₂)**: [[NRF2]] activation, [[FOXO]] induction, [[Mitochondrial Biogenesis]].
 - **Stress (500 nM–1 μM H₂O₂)**: [[JNK]] and [[p38]] activation, [[Apoptosis]] priming.
 - **Toxic (>1 μM H₂O₂)**: [[Cell necrosis]], [[MPTP]] opening, [[PARP]] hyperactivation.
 
 These thresholds are cell-type and context dependent, influenced by baseline [[NADPH]]/[[NADP⁺]] ratios, [[Glutathione]] levels, and [[Thioredoxin]] reductase activity.
 
 ### Linking Summary:
-- New links added: [[Advanced Glycation End Products]], [[Inflammation]], [[Aging]], [[Helmut Sies]], [[Redox Signaling]], [[Superoxide anion]], [[Hydrogen Peroxide]], [[Hydroxyl radical]], [[Peroxynitrite]], [[Mitochondrial Complex I]], [[NADPH Oxidase]], [[Myeloperoxidase]], [[Xanthine Oxidase]], [[Cytochrome P450]], [[MAO]], [[SOD1]], [[SOD2]], [[Catalase]], [[Glutathione Peroxidase]], [[Peroxiredoxin]], [[Thioredoxin reductase]], [[Glutathione]], [[Vitamin C]], [[Vitamin E]], [[Uric Acid]], [[Melatonin]], [[Autoxidation]], [[o-Semiquinone]], [[o-quinone]], [[Aminochrome]], [[Melanins]], [[Redox Cycling]], [[Fenton chemistry]], [[Lipids]], [[PUFAs]], [[4-HNE]], [[MDA]], [[DNA]], [[8-oxo-dG]], [[Protein Tyrosine Phosphatases]], [[Receptor Tyrosine Kinases]], [[notes/_link/NRF2]], [[Mitohormesis]], [[FOXO]], [[Mitoc[[Oxidative Stress]][[p38]], [[Apoptosis]], [[Cell necrosis]], [[MPTP]], [[PARP]], [[NADPH]], [[NADP⁺]], [[Thioredoxin]]
+- New links added: [[Advanced Glycation End Products]], [[Inflammation]], [[Aging]], [[Helmut Sies]], [[Redox Signaling]], [[Superoxide anion]], [[Hydrogen Peroxide]], [[Hydroxyl radical]], [[Peroxynitrite]], [[Mitochondrial Complex I]], [[NADPH Oxidase]], [[Myeloperoxidase]], [[Xanthine Oxidase]], [[Cytochrome P450]], [[MAO]], [[SOD1]], [[SOD2]], [[Catalase]], [[Glutathione Peroxidase]], [[Peroxiredoxin]], [[Thioredoxin reductase]], [[Glutathione]], [[Vitamin C]], [[Vitamin E]], [[Uric Acid]], [[Melatonin]], [[Autoxidation]], [[o-Semiquinone]], [[o-quinone]], [[Aminochrome]], [[Melanins]], [[Redox Cycling]], [[Fenton chemistry]], [[Lipids]], [[PUFAs]], [[4-HNE]], [[MDA]], [[DNA]], [[8-oxo-dG]], [[Protein Tyrosine Phosphatases]], [[Receptor Tyrosine Kinases]], [[NRF2]], [[Mitohormesis]], [[FOXO]], [[Mitoc[[Oxidative Stress]][[p38]], [[Apoptosis]], [[Cell necrosis]], [[MPTP]], [[PARP]], [[NADPH]], [[NADP⁺]], [[Thioredoxin]]
 - Suggested new entity notes to create: [[Redox Threshold]], [[Redox Signaling]], [[Fenton Reaction]]
-- Strong connections to strengthen: [[Advanced Glycation End Products]] ↔ [[notes/_link/Oxidative Stress]]
+- Strong connections to strengthen: [[Advanced Glycation End Products]] ↔ [[Oxidative Stress]]
 
 
 ## Content from epigenetics/Oxidative Stress.md
 
 # Oxidative Stress
 
-**[[Oxidative Stress|Oxidative Stress]]** reflects an imbalance between the production of [[Reactive Oxygen Species|reactive oxygen species (ROS)]] and a biological system's capacity to detoxify them or repair the resulting damage. It is a hallmark driver of [[notes/_link/Aging|aging]] and a key trigger of [[Cellular Senescence|cellular senescence]].
+**[[Oxidative Stress|Oxidative Stress]]** reflects an imbalance between the production of [[Reactive Oxygen Species|reactive oxygen species (ROS)]] and a biological system's capacity to detoxify them or repair the resulting damage. It is a hallmark driver of [[Aging|aging]] and a key trigger of [[Cellular Senescence|cellular senescence]].
 
 ## ROS Sources and Species
 
@@ -310,7 +310,7 @@ ROS are potent inducers of [[Stress-Induced Premature Senescence|premature senes
 
 - **Enzymatic:** [[Superoxide Dismutase]] (SOD1/2/3), [[Catalase]], [[Glutathione Peroxidase]] (GPX1-8), [[Peroxiredoxin]] (PRDX1-6), [[Thioredoxin]] (TXN/TXNRD1).
 - **Non-enzymatic:** [[Glutathione]] (GSH, major intracellular thiol buffer), [[Vitamin E]], [[Vitamin C]], [[Uric Acid]], [[Melatonin]], [[N-Acetylcysteine|NAC]].
-- **Transcriptional:** [[notes/_link/NRF2]]-[[Keap1]] pathway (master regulator of ~200 antioxidant and detoxification genes).
+- **Transcriptional:** [[NRF2]]-[[Keap1]] pathway (master regulator of ~200 antioxidant and detoxification genes).
 
 ## Pharmacological Modulation
 
@@ -319,58 +319,58 @@ ROS are potent inducers of [[Stress-Induced Premature Senescence|premature senes
 - **Caution:** High-dose antioxidants can paradoxically increase mortality in clinical trials (SELECT, HOPE), likely by interfering with beneficial ROS signaling (mitohormesis).
 
 ### Linking Summary:
-- New links added: [[Reactive Oxygen Species]], [[Mitochondria]], [[Mitophagy]], [[notes/_link/Senescence]], [[Stress-Induced Premature Senescence]], [[notes/_link/NFKB]], [[p38 MAPK]], [[notes/_link/p53]], [[notes/_link/NRF2]], [[notes/_link/Glutathione]], [[N-Acetylcysteine]]
+- New links added: [[Reactive Oxygen Species]], [[Mitochondria]], [[Mitophagy]], [[Senescence]], [[Stress-Induced Premature Senescence]], [[NFKB]], [[p38 MAPK]], [[p53]], [[NRF2]], [[Glutathione]], [[N-Acetylcysteine]]
 - Suggested new entity notes to create: [[Mitohormesis]], [[MitoQ]], [[SS-31]], [[p38 MAPK]]
-- Strong connections to strengthen: [[Oxidative Stress]] ↔ [[notes/_link/Aging]], [[Oxidative Stress]] ↔ [[notes/_link/Senescence]]
+- Strong connections to strengthen: [[Oxidative Stress]] ↔ [[Aging]], [[Oxidative Stress]] ↔ [[Senescence]]
 
 # Oxidative Stress
 
-**Oxidative stress** is a phenomenon caused by an imbalance between production and accumulation of [[notes/_link/Reactive Oxygen Species]] (ROS) and the ability of a biological system to detoxify them. It plays dual roles in physiology and pathology.
+**Oxidative stress** is a phenomenon caused by an imbalance between production and accumulation of [[Reactive Oxygen Species]] (ROS) and the ability of a biological system to detoxify them. It plays dual roles in physiology and pathology.
 
 ## Source of ROS
 
-- **Endogenous**: [[notes/_link/Mitochondria]] (Complex I and III), [[NADPH Oxidase]], [[Myeloperoxidase]], [[Xanthine Oxidase]], [[Cytochrome P450]], [[MAO]]
+- **Endogenous**: [[Mitochondria]] (Complex I and III), [[NADPH Oxidase]], [[Myeloperoxidase]], [[Xanthine Oxidase]], [[Cytochrome P450]], [[MAO]]
 - **Exogenous**: UV radiation, ionizing radiation, pollutants, heavy metals, xenobiotics
 
 ## Antioxidant Defenses
 
 ### Enzymatic
-- [[notes/_link/Superoxide Dismutase]] (SOD1, SOD2, SOD3)
+- [[Superoxide Dismutase]] (SOD1, SOD2, SOD3)
 - [[Catalase]]
 - [[Glutathione Peroxidase]]
 - [[Peroxiredoxin]], [[Thioredoxin reductase]]
 
 ### Non-Enzymatic
-- [[notes/_link/Glutathione]] (1–10 mM intracellular)
-- [[notes/_link/Ascorbic Acid]] (Vitamin C)
-- [[notes/_link/Vitamin E]] (α-tocopherol)
-- [[notes/_link/Uric Acid]], [[notes/_link/Melatonin]], [[Bilirubin]]
+- [[Glutathione]] (1–10 mM intracellular)
+- [[Ascorbic Acid]] (Vitamin C)
+- [[Vitamin E]] (α-tocopherol)
+- [[Uric Acid]], [[Melatonin]], [[Bilirubin]]
 
 ## Physiological Roles
 
 - [[Redox Signaling]] — ROS act as second messengers in cell signaling
 - [[Mitohormesis]] — Low-level ROS trigger adaptive cytoprotective responses
-- [[notes/_link/Inflammation]] — ROS drive NF-κB activation
+- [[Inflammation]] — ROS drive NF-κB activation
 
 ## Pathological Roles
 
-- [[notes/_link/Aging]] — Cumulative oxidative damage drives aging
-- [[notes/_link/Cardiovascular Disease]] — LDL oxidation, endothelial dysfunction
-- [[notes/_link/Neurodegenerative Diseases]] — Protein aggregation, mitochondrial dysfunction
+- [[Aging]] — Cumulative oxidative damage drives aging
+- [[Cardiovascular Disease]] — LDL oxidation, endothelial dysfunction
+- [[Neurodegenerative Diseases]] — Protein aggregation, mitochondrial dysfunction
 - [[Cancer]] — DNA damage and mutagenesis
 - [[Diabetes Mellitus]] — β-cell dysfunction, insulin resistance
 
 ## Connections
 
-- [[notes/_link/Reactive Oxygen Species]] — The primary agents of oxidative stress
-- [[notes/_link/Mitochondria]] — Major source of endogenous ROS
-- [[notes/_link/Aging]] — Causal role in age-related decline
-- [[notes/_link/Inflammation]] — Bidirectional relationship
-- [[notes/_link/NRF2]] — Master regulator of antioxidant response
+- [[Reactive Oxygen Species]] — The primary agents of oxidative stress
+- [[Mitochondria]] — Major source of endogenous ROS
+- [[Aging]] — Causal role in age-related decline
+- [[Inflammation]] — Bidirectional relationship
+- [[NRF2]] — Master regulator of antioxidant response
 - [[Mitohormesis]] — Hormetic ROS signaling
 
 ## Linking Summary
 
-- New links added: [[notes/_link/Reactive Oxygen Species]], [[notes/_link/Mitochondria]], [[notes/_link/Superoxide Dismutase]], [[notes/_link/Glutathione]], [[notes/_link/Ascorbic Acid]], [[notes/_link/Vitamin E]], [[notes/_link/NRF2]], [[notes/_link/Aging]], [[notes/_link/Inflammation]], [[notes/_link/Cardiovascular Disease]], [[notes/_link/Neurodegenerative Diseases]], [[Cancer]], [[notes/_link/Diabetes Mellitus]], [[Mitohormesis]], [[Redox Signaling]], [[Catalase]], [[Glutathione Peroxidase]], [[notes/_link/Melatonin]], [[notes/_link/Uric Acid]], [[NADPH Oxidase]], [[Myeloperoxidase]]
+- New links added: [[Reactive Oxygen Species]], [[Mitochondria]], [[Superoxide Dismutase]], [[Glutathione]], [[Ascorbic Acid]], [[Vitamin E]], [[NRF2]], [[Aging]], [[Inflammation]], [[Cardiovascular Disease]], [[Neurodegenerative Diseases]], [[Cancer]], [[Diabetes Mellitus]], [[Mitohormesis]], [[Redox Signaling]], [[Catalase]], [[Glutathione Peroxidase]], [[Melatonin]], [[Uric Acid]], [[NADPH Oxidase]], [[Myeloperoxidase]]
 - Suggested new entity notes to create: [[Redox Signaling]], [[Lipid Peroxidation]], [[Fenton Chemistry]], [[Protein Carbonylation]]
-- Strong connections to strengthen: [[Oxidative Stress]] ↔ [[notes/_link/Aging]], [[Oxidative Stress]] ↔ [[notes/_link/Inflammation]], [[Oxidative Stress]] ↔ [[notes/_link/Mitochondria]]
+- Strong connections to strengthen: [[Oxidative Stress]] ↔ [[Aging]], [[Oxidative Stress]] ↔ [[Inflammation]], [[Oxidative Stress]] ↔ [[Mitochondria]]

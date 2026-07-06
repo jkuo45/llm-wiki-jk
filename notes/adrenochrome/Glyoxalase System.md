@@ -13,21 +13,21 @@ The Glyoxalase System is the primary cellular defense pathway against dicarbonyl
 ## Pathway and Components
 
 The pathway is responsible for detoxifying reactive dicarbonyl intermediates generated during [[Glycolysis]] and [[Peroxidation]]. It consists of two sequentially acting enzymes:
-1. [[GLO1]] (Glyoxalase 1): The rate-limiting enzyme that catalyzes the conversion of hemithioacetals (formed spontaneously from [[Methylglyoxal]] and [[notes/_link/Glutathione]]) into [[S-D-lactoylglutathione]].
-2. [[GLO2]] (Glyoxalase 2): Catalyzes the hydrolysis of [[S-D-lactoylglutathione]] to yield [[D-lactate]], regenerating [[notes/_link/Glutathione]] in the process.
+1. [[GLO1]] (Glyoxalase 1): The rate-limiting enzyme that catalyzes the conversion of hemithioacetals (formed spontaneously from [[Methylglyoxal]] and [[Glutathione]]) into [[S-D-lactoylglutathione]].
+2. [[GLO2]] (Glyoxalase 2): Catalyzes the hydrolysis of [[S-D-lactoylglutathione]] to yield [[D-lactate]], regenerating [[Glutathione]] in the process.
 
 Maintaining glyoxalase pathway activity is considered a primary target for reducing endogenous AGE accumulation and mitigating complications of [[Diabetes]].
 
 ### Linking Summary:
-- New links added: [[Advanced Glycation End Products]], [[Glycolysis]], [[Peroxidation]], [[GLO1]], [[GLO2]], [[Methylglyoxal]], [[notes/_link/Glutathione]], [[S-D-lactoylglutathione]], [[D-lactate]], [[Diabetes]]
+- New links added: [[Advanced Glycation End Products]], [[Glycolysis]], [[Peroxidation]], [[GLO1]], [[GLO2]], [[Methylglyoxal]], [[Glutathione]], [[S-D-lactoylglutathione]], [[D-lactate]], [[Diabetes]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Glyoxalase System]] ↔ [[Methylglyoxal]]
 
 ## Enzyme Mechanisms
 
-[[GLO1]] (glyoxalase 1, lactoylglutathione lyase) is a zinc-dependent metalloenzyme that catalyzes the rate-limiting isomerization of the hemithioacetal (spontaneously formed between [[Methylglyoxal]] and [[notes/_link/Glutathione]]) into S-D-lactoylglutathione. The active site Zn²⁺ coordinates the hemithioacetal, facilitating proton abstraction from C1 and hydride transfer to C2 via a cis-enediolate intermediate. GLO1 exhibits broad substrate specificity for α-ketoaldehydes beyond methylglyoxal, including glyoxal, phenylglyoxal, and 3-deoxyglucosone at substantially reduced catalytic efficiency (kcat/Km values 10–100-fold lower than for methylglyoxal). Human GLO1 is a homodimer of 184-amino-acid subunits (each ~21 kDa), with allosteric regulation by GSH and S-D-lactoylglutathione.
+[[GLO1]] (glyoxalase 1, lactoylglutathione lyase) is a zinc-dependent metalloenzyme that catalyzes the rate-limiting isomerization of the hemithioacetal (spontaneously formed between [[Methylglyoxal]] and [[Glutathione]]) into S-D-lactoylglutathione. The active site Zn²⁺ coordinates the hemithioacetal, facilitating proton abstraction from C1 and hydride transfer to C2 via a cis-enediolate intermediate. GLO1 exhibits broad substrate specificity for α-ketoaldehydes beyond methylglyoxal, including glyoxal, phenylglyoxal, and 3-deoxyglucosone at substantially reduced catalytic efficiency (kcat/Km values 10–100-fold lower than for methylglyoxal). Human GLO1 is a homodimer of 184-amino-acid subunits (each ~21 kDa), with allosteric regulation by GSH and S-D-lactoylglutathione.
 
-[[GLO2]] (glyoxalase 2, hydroxyacylglutathione hydrolase) catalyzes the irreversible hydrolysis of S-D-lactoylglutathione to [[D-lactate]] and [[notes/_link/Glutathione]]. GLO2 belongs to the metallo-β-lactamase superfamily, and its active site can coordinate Zn²⁺, Fe²⁺, or Mn²⁺ depending on cellular metal availability. The reaction proceeds via nucleophilic attack of water on the thioester carbonyl, releasing GSH for re-entry into the catalytic cycle. This regeneration ensures that the glyoxalase system does not deplete cellular GSH under normal conditions — a key distinction from direct GSH-conjugation reactions.
+[[GLO2]] (glyoxalase 2, hydroxyacylglutathione hydrolase) catalyzes the irreversible hydrolysis of S-D-lactoylglutathione to [[D-lactate]] and [[Glutathione]]. GLO2 belongs to the metallo-β-lactamase superfamily, and its active site can coordinate Zn²⁺, Fe²⁺, or Mn²⁺ depending on cellular metal availability. The reaction proceeds via nucleophilic attack of water on the thioester carbonyl, releasing GSH for re-entry into the catalytic cycle. This regeneration ensures that the glyoxalase system does not deplete cellular GSH under normal conditions — a key distinction from direct GSH-conjugation reactions.
 
 ## Substrate Specificity and Methylglyoxal
 

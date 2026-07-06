@@ -14,7 +14,7 @@ updated: 2026-07-04
 
 ## Isoforms
 
-- **Arginase 1 (ARG1)**: Cytosolic; highly expressed in the liver as a core component of the urea cycle. Also expressed in [[notes/_link/Macrophage|macrophages]] (M2-polarized), vascular smooth muscle cells, and endothelial cells.
+- **Arginase 1 (ARG1)**: Cytosolic; highly expressed in the liver as a core component of the urea cycle. Also expressed in [[Macrophage|macrophages]] (M2-polarized), vascular smooth muscle cells, and endothelial cells.
 - **Arginase 2 (ARG2)**: Mitochondrial; widely expressed in kidney, brain, small intestine, and endothelial cells.
 
 ## Role in Oxidative Stress
@@ -23,4 +23,4 @@ Arginase upregulation is a major contributor to [[Endothelial Dysfunction|endoth
 
 ## Clinical Significance
 
-Arginase is elevated in [[notes/_link/Cardiovascular Disease|cardiovascular disease]], [[notes/_link/Diabetes Mellitus|diabetes]], [[Asthma]], [[chronic inflammation]], and [[Aging]]. Arginase inhibitors (e.g., [[Nor-NOHA]], [[ABH]]) are being investigated for improving vascular function, wound healing, and reducing airway hyperresponsiveness in asthma.
+Arginase is elevated in [[Cardiovascular Disease|cardiovascular disease]], [[Diabetes Mellitus|diabetes]], [[Asthma]], [[chronic inflammation]], and [[Aging]]. Arginase inhibitors (e.g., [[Nor-NOHA]], [[ABH]]) are being investigated for improving vascular function, wound healing, and reducing airway hyperresponsiveness in asthma.

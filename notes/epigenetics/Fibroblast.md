@@ -13,4 +13,4 @@ A [[Fibroblast]] is a type of biological cell that synthesizes the [[Extracellul
 
 - New links added: [[Extracellular Matrix]], [[ECM]], [[Quiescence]], [[Metabolism]]
 - Suggested new entity notes to create: [[Contact Inhibition]]
-- Strong connections to strengthen: [[Fibroblast]] ↔ [[notes/_link/Aging]]
+- Strong connections to strengthen: [[Fibroblast]] ↔ [[Aging]]

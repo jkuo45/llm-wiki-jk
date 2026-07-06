@@ -15,4 +15,4 @@ Autophagic flux is the rate of autophagic degradation through the entire pathway
 ### Linking Summary:
 - New links added: [[Autophagy]], [[Autophagosome]], [[Lysosome]]
 - Suggested new entity notes to create:
-- Strong connections to strengthen: [[Autophagic Flux]] ↔ [[notes/_link/Neurodegenerative Diseases|Neurodegenerative Disease]]
+- Strong connections to strengthen: [[Autophagic Flux]] ↔ [[Neurodegenerative Diseases|Neurodegenerative Disease]]

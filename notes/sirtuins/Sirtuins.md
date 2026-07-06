@@ -82,7 +82,7 @@ Mammalian sirtuins operate in concert or compensate for one another to regulate 
 
 ### A. Inflammation and Immune Cell Function
 
-- **SIRT1 and SIRT6**: Act as primary anti-inflammatory sirtuins by deacetylating the RelA/p65 subunit of [[notes/_link/NFKB|NF-κB]], suppressing its transcriptional activity and reducing the secretion of pro-inflammatory cytokines like TNF-$\alpha$, IL-6, and IL-1$\beta$.
+- **SIRT1 and SIRT6**: Act as primary anti-inflammatory sirtuins by deacetylating the RelA/p65 subunit of [[NFKB|NF-κB]], suppressing its transcriptional activity and reducing the secretion of pro-inflammatory cytokines like TNF-$\alpha$, IL-6, and IL-1$\beta$.
 - **SIRT3**: Diminishes macrophage-mediated inflammation by reducing reactive oxygen species (ROS) and directly suppressing [[NLRP3]] inflammasome activation.
 - **Inflammatory Polarization**: SIRT3 and SIRT6 promote the anti-inflammatory M2 phenotype in macrophages, whereas loss of sirtuins leads to systemic and microvascular inflammation.
 
@@ -94,7 +94,7 @@ Mammalian sirtuins operate in concert or compensate for one another to regulate 
 
 ### C. Oxidative Stress and Redox Homeostasis
 
-- **AMPK Loop**: SIRT1, SIRT3, and SIRT6 establish a reciprocal positive feedback loop with **[[notes/_link/AMPK|AMPK]]**, coordinating cell survival and ATP production under oxidative stress.
+- **AMPK Loop**: SIRT1, SIRT3, and SIRT6 establish a reciprocal positive feedback loop with **[[AMPK|AMPK]]**, coordinating cell survival and ATP production under oxidative stress.
 - **Nrf2 Activation**: SIRT1, SIRT2, and SIRT6 upregulate **Nrf2** signaling, promoting the expression of antioxidant defense enzymes.
 - **FoxO-Mediated Defense**: SIRT1 and SIRT3 deacetylate and activate **[[FOXO3a]]**, driving the expression of manganese superoxide dismutase (MnSOD/SOD2) and catalase (CAT) to eliminate mitochondrial ROS.
 
@@ -170,7 +170,7 @@ The development of specific sirtuin inhibitors and activators is a rapidly expan
 
 ### Linking Summary:
 
-- **New Links Added**: [[SIRT1]], [[SIRT2]], [[SIRT3]], [[SIRT4]], [[SIRT5]], [[SIRT6]], [[SIRT7]], [[p53]], [[PGC-1α]], [[FoxO1]], [[FOXO3a]], [[notes/_link/NFKB|NF-κB]], [[Resveratrol]], [[notes/_link/AMPK|AMPK]], [[TFEB]], [[notes/_link/Cardiovascular Disease]], [[notes/_link/Aging]], [[HIF-1α]], [[NMN]], [[Nicotinamide Riboside]], [[Cyanidin]], [[Honokiol]], [[Dihydromyricetin]]
+- **New Links Added**: [[SIRT1]], [[SIRT2]], [[SIRT3]], [[SIRT4]], [[SIRT5]], [[SIRT6]], [[SIRT7]], [[p53]], [[PGC-1α]], [[FoxO1]], [[FOXO3a]], [[NFKB|NF-κB]], [[Resveratrol]], [[AMPK|AMPK]], [[TFEB]], [[Cardiovascular Disease]], [[Aging]], [[HIF-1α]], [[NMN]], [[Nicotinamide Riboside]], [[Cyanidin]], [[Honokiol]], [[Dihydromyricetin]]
 - **Suggested New Notes to Create**: [[UBCS039]], [[MDL-800]], [[SirReal2]], [[EX-527]], [[NLRP3]], [[AceCS2]]
-- **Strong Connections to Strengthen**: [[Sirtuins]] ↔ [[SIRT1]], [[Sirtuins]] ↔ [[notes/_link/Aging]], [[Sirtuins]] ↔ [[Resveratrol]], [[NMN]] ↔ [[NAD+]], [[Nicotinamide Riboside]] ↔ [[NAD+]]
+- **Strong Connections to Strengthen**: [[Sirtuins]] ↔ [[SIRT1]], [[Sirtuins]] ↔ [[Aging]], [[Sirtuins]] ↔ [[Resveratrol]], [[NMN]] ↔ [[NAD+]], [[Nicotinamide Riboside]] ↔ [[NAD+]]
 

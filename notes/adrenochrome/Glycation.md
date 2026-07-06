@@ -29,7 +29,7 @@ Glycation proceeds through three sequential stages. **Stage 1** begins with the 
 
 ## Kinetics of Glycation vs Glycoxidation
 
-The rate of glycation is governed by the concentration and reactivity of the sugar. [[Glucose]], despite being the most abundant circulating sugar, is the least reactive due to its predominant cyclic hemiacetal form (only ~0.002% exists as the open-chain aldehyde). [[Fructose]] and [[Ribose]] are markedly more reactive. Glycoxidation refers to the synergistic acceleration of glycation under oxidative conditions: [[Oxidative Stress]] enhances the fragmentation of Amadori products to dicarbonyls, while the resulting AGEs generate additional [[notes/_link/Reactive Oxygen Species]] through metal-catalyzed redox cycling. This creates a destructive feedback loop between glycation and [[Oxidative Stress]].
+The rate of glycation is governed by the concentration and reactivity of the sugar. [[Glucose]], despite being the most abundant circulating sugar, is the least reactive due to its predominant cyclic hemiacetal form (only ~0.002% exists as the open-chain aldehyde). [[Fructose]] and [[Ribose]] are markedly more reactive. Glycoxidation refers to the synergistic acceleration of glycation under oxidative conditions: [[Oxidative Stress]] enhances the fragmentation of Amadori products to dicarbonyls, while the resulting AGEs generate additional [[Reactive Oxygen Species]] through metal-catalyzed redox cycling. This creates a destructive feedback loop between glycation and [[Oxidative Stress]].
 
 ## Accumulation in Aging Tissues
 

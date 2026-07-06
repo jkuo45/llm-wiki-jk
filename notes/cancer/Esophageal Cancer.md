@@ -4,6 +4,6 @@ Esophageal cancer is a malignancy that occurs in the esophagus—the hollow, mus
 
 ### Linking Summary
 
-- New links added: [[Caspase-2]], [[notes/_link/Apoptosis|Apoptosis]]
+- New links added: [[Caspase-2]], [[Apoptosis|Apoptosis]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Caspase-2]] ↔ [[Esophageal Cancer]]

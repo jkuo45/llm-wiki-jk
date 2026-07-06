@@ -1,6 +1,6 @@
 # Caspase-7
 
-**Caspase-7** is an effector (executioner) protease that plays a critical role in the final stages of [[notes/_link/Apoptosis|apoptosis]].
+**Caspase-7** is an effector (executioner) protease that plays a critical role in the final stages of [[Apoptosis|apoptosis]].
 
 ## Mechanism
 Caspase-7 is activated by initiator caspases, such as [[Caspase-8]] (from the [[Extrinsic Pathway]]) and [[Caspase-9]] (from the [[Intrinsic Pathway]]). Once activated, it coordinates with [[Caspase-3]] to cleave a wide range of cellular substrates, including structural proteins and DNA repair enzymes, leading to the characteristic morphological changes of cell death.

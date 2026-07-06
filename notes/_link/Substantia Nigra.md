@@ -21,17 +21,17 @@ The SNpc is vital for:
 - **Learning:** Facilitating the reinforcement of motor habits and executive functions.
 
 ## Clinical Significance
-- **[[notes/_link/Parkinson's Disease]]:** The progressive loss of dopaminergic neurons in the SNpc is the hallmark of Parkinson's Disease. Motor symptoms like tremors and [[Bradykinesia]] emerge when a significant portion of these neurons have degenerated.
+- **[[Parkinson's Disease]]:** The progressive loss of dopaminergic neurons in the SNpc is the hallmark of Parkinson's Disease. Motor symptoms like tremors and [[Bradykinesia]] emerge when a significant portion of these neurons have degenerated.
 - **[[COMT]] Expression:** Neurons in the SN can express [[COMT]], which may influence presynaptic dopamine regulation and release capacity in the striatum.
 
 ## Connections
-- [[notes/_link/Dopaminergic Neurons]]: The primary cell type in the SNpc.
+- [[Dopaminergic Neurons]]: The primary cell type in the SNpc.
 - [[Neuromelanin]]: Pigment formed via the oxidation of [[Catecholamines]] (with [[Adrenochrome]] and other [[Aminochromes]] as intermediates).
-- [[notes/_link/Dopamine]]: The primary neurotransmitter produced and released by SNpc neurons.
+- [[Dopamine]]: The primary neurotransmitter produced and released by SNpc neurons.
 - [[Sirtuins]]: The major projection target of the nigrostriatal pathway.
-- [[notes/_link/Ventral Tegmental Area]]: Another major midbrain dopaminergic nucleus.
+- [[Ventral Tegmental Area]]: Another major midbrain dopaminergic nucleus.
 
 ### Linking Summary:
-- New links added: [[Adrenochrome]], [[Aminochromes]], [[Bradykinesia]], [[COMT]], [[Catecholamines]], [[notes/_link/Dopamine]], [[notes/_link/Dopaminergic Neurons]], [[Neuromelanin]], [[Nigrostriatal System]], [[notes/_link/Parkinson's Disease]], [[Sirtuins]], [[Substantia Nigra Pars Compacta]], [[notes/_link/Ventral Tegmental Area]]
+- New links added: [[Adrenochrome]], [[Aminochromes]], [[Bradykinesia]], [[COMT]], [[Catecholamines]], [[Dopamine]], [[Dopaminergic Neurons]], [[Neuromelanin]], [[Nigrostriatal System]], [[Parkinson's Disease]], [[Sirtuins]], [[Substantia Nigra Pars Compacta]], [[Ventral Tegmental Area]]
 - Suggested new entity notes to create: [[Basal Ganglia]], [[Midbrain]], [[GABAergic Neurons]]
-- Strong connections to strengthen: [[notes/_link/Substantia Nigra]] ↔ [[notes/_link/Parkinson's Disease]], [[notes/_link/Substantia Nigra]] ↔ [[Sirtuins]]
+- Strong connections to strengthen: [[Substantia Nigra]] ↔ [[Parkinson's Disease]], [[Substantia Nigra]] ↔ [[Sirtuins]]

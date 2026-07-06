@@ -29,7 +29,7 @@ Without STRAD and MO25 binding, LKB1 remains in the nucleus and exhibits minimal
 
 ## Regulation of AMPK and Energy Homeostasis
 
-LKB1 is the primary upstream kinase that activates [[notes/_link/AMPK]] in response to energy stress:
+LKB1 is the primary upstream kinase that activates [[AMPK]] in response to energy stress:
 
 1. **Energy Stress Detection**: Rising AMP:ATP or ADP:ATP ratios are sensed by AMPK, which undergoes conformational changes promoting LKB1-mediated phosphorylation.
 2. **Phosphorylation**: LKB1 phosphorylates AMPK at **Thr172** within the activation loop of the AMPK α-subunit, increasing AMPK activity by >100-fold.
@@ -59,7 +59,7 @@ LKB1 is a well-characterised tumour suppressor:
 
 ## Connections
 
-- [[notes/_link/AMPK]]: Primary downstream effector; LKB1 is the major AMPK kinase.
+- [[AMPK]]: Primary downstream effector; LKB1 is the major AMPK kinase.
 - [[ULK1]]: Downstream target of AMPK; autophagy initiation.
 - [[mTORC1]]: Suppressed by LKB1-AMPK via TSC2 and Raptor phosphorylation.
 - [[SIRT1]] / [[SIRT3]]: Deacetylate and activate LKB1.
@@ -69,6 +69,6 @@ LKB1 is a well-characterised tumour suppressor:
 
 ## Linking Summary
 
-- New links added: [[notes/_link/AMPK]], [[Autophagy]], [[ULK1]], [[mTORC1]], [[Cancer]], [[SIRT1]], [[SIRT3]], [[STRAD]], [[MO25]], [[TSC2]], [[Raptor]], [[Peutz-Jeghers Syndrome]]
+- New links added: [[AMPK]], [[Autophagy]], [[ULK1]], [[mTORC1]], [[Cancer]], [[SIRT1]], [[SIRT3]], [[STRAD]], [[MO25]], [[TSC2]], [[Raptor]], [[Peutz-Jeghers Syndrome]]
 - Suggested new entity notes to create: [[STRAD]], [[MO25]], [[AMPK-related kinases]]
-- Strong connections to strengthen: [[LKB1]] ↔ [[notes/_link/AMPK]], [[LKB1]] ↔ [[Autophagy]], [[SIRT1]] ↔ [[LKB1]], [[SIRT3]] ↔ [[LKB1]]
+- Strong connections to strengthen: [[LKB1]] ↔ [[AMPK]], [[LKB1]] ↔ [[Autophagy]], [[SIRT1]] ↔ [[LKB1]], [[SIRT3]] ↔ [[LKB1]]

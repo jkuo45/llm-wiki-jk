@@ -29,7 +29,7 @@ The [[COMT]] gene encodes an enzyme called [[Catechol-O-methyltransferase]], whi
 
 *What are catechols — and why do we need to break them down?*
 
-[[Catechols]] include [[Neurotransmitters|neurotransmitters]] such as [[notes/_link/Dopamine]], [[notes/_link/Epinephrine]], and [[notes/_link/Norepinephrine]]. Other [[Catechols|catechols]] include [[Estrogen]] metabolites as well as drugs and [[Natural Substances|natural substances]] with a catechol structure.
+[[Catechols]] include [[Neurotransmitters|neurotransmitters]] such as [[Dopamine]], [[Epinephrine]], and [[Norepinephrine]]. Other [[Catechols|catechols]] include [[Estrogen]] metabolites as well as drugs and [[Natural Substances|natural substances]] with a catechol structure.
 
 The [[COMT]] enzyme plays an essential role in maintaining [[Neurotransmitters|neurotransmitter]] levels at the right amount.
 
@@ -45,9 +45,9 @@ The **methyl** in [[Catechol-O-methyltransferase]] ([[COMT]]) is because [[COMT]
 
 A common genetic variant, called [[COMT]] [[Val158Met]] changes the way that the [[COMT]] enzyme functions.
 
-- **Fast (Higher) [[COMT]]**: Val/Val, usually lower [[notes/_link/Dopamine|dopamine]] levels, sometimes referred to as the ‘warrior’ type
+- **Fast (Higher) [[COMT]]**: Val/Val, usually lower [[Dopamine|dopamine]] levels, sometimes referred to as the ‘warrior’ type
 - **Intermediate [[COMT]]**: Val/Met, one allele for high activity (Val) and one for low activity (Met). This is usually considered the normal type.
-- **Slow (Lower) [[COMT]]**: Met/Met, usually higher [[notes/_link/Dopamine|dopamine]] levels, referred to as the ‘worrier’ type, ~20–30% of European-ancestry people are Met/Met
+- **Slow (Lower) [[COMT]]**: Met/Met, usually higher [[Dopamine|dopamine]] levels, referred to as the ‘worrier’ type, ~20–30% of European-ancestry people are Met/Met
 
 ### Side effects of methylated vitamins with slow COMT:
 
@@ -106,7 +106,7 @@ While the word ‘inhibit’ may sound bad, this isn’t always a bad thing… s
 
 **Scenario #1)** Supplements that inhibit [[COMT]] function may hang around a bit longer in your system and have more beneficial effects. For example, if you are looking to enhance the beneficial effects of [[EGCG]], research shows that [[Quercetin|quercetin]] or [[Fisetin|fisetin]] supplements along with [[EGCG]] ([[Green tea|green tea]]) increased the bioactive form of [[EGCG]] in cells.\[[ref](https://www.sciencedirect.com/science/article/pii/S0022282821000833)\]\[[ref](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3363324/)\]\[[ref](https://pubmed.ncbi.nlm.nih.gov/29168878/)\] This may be most beneficial in people with fast [[COMT]] enzyme function.
 
-**Scenario #2)** In [[notes/_link/Parkinson's Disease]], there is not enough [[notes/_link/Dopamine|dopamine]] in certain regions of the brain. [[COMT Inhibitors|COMT inhibitors]] are used to increase [[notes/_link/Dopamine|dopamine]] levels in people who are taking [[Levodopa]].\[[ref](https://parkinsonsdisease.net/medications/comt-inhibitors)\] [[EGCG]] and [[Quercetin|quercetin]] have been tested for this in animal models of Parkinson’s.\[[ref](https://pubmed.ncbi.nlm.nih.gov/23206800/)\]
+**Scenario #2)** In [[Parkinson's Disease]], there is not enough [[Dopamine|dopamine]] in certain regions of the brain. [[COMT Inhibitors|COMT inhibitors]] are used to increase [[Dopamine|dopamine]] levels in people who are taking [[Levodopa]].\[[ref](https://parkinsonsdisease.net/medications/comt-inhibitors)\] [[EGCG]] and [[Quercetin|quercetin]] have been tested for this in animal models of Parkinson’s.\[[ref](https://pubmed.ncbi.nlm.nih.gov/23206800/)\]
 
 **Scenario #3)** On the other hand, if you have slow [[COMT]] and need to get rid of [[Estrogen]] in ways that limit cancer risk, then the [[COMT]]-inhibiting [[Flavonoids|flavonoids]] may have **negative** consequences.\[[ref](https://www.sciencedirect.com/science/article/abs/pii/S0041008X1000205X)\]\[[ref](https://pubmed.ncbi.nlm.nih.gov/27826992/)\]
 
@@ -149,15 +149,15 @@ Thus, take this as a ‘heads-up’ to watch out for mood swings when increasing
 
 ### Medication and vitamin interactions with COMT:
 
-#### [[notes/_link/Vitamin E]] and COMT:
+#### [[Vitamin E]] and COMT:
 
-A 10-year follow-up to a trial on [[notes/_link/Vitamin E]] ([[Alpha-tocopherol|alpha-tocopherol]]) supplementation showed that the [[COMT]] rs4680 variants impacted the risk of [[Cancer]]. The study showed that people with rs4680 (A/A – slow) who took [[notes/_link/Vitamin E]] ([[Alpha-tocopherol|alpha-tocopherol]]) had about a 12% reduction in overall [[Cancer|cancer]] rates.
+A 10-year follow-up to a trial on [[Vitamin E]] ([[Alpha-tocopherol|alpha-tocopherol]]) supplementation showed that the [[COMT]] rs4680 variants impacted the risk of [[Cancer]]. The study showed that people with rs4680 (A/A – slow) who took [[Vitamin E]] ([[Alpha-tocopherol|alpha-tocopherol]]) had about a 12% reduction in overall [[Cancer|cancer]] rates.
 
 On the other hand, people with rs4680 (G/G – fast) had a slight increase in [[Cancer|cancer]] rates. In the middle, with no real effect on [[Cancer|cancer]] rate, were the study participants with rs4680 val/met (A/G).\[[ref](https://academic.oup.com/jnci/article-abstract/111/7/684/5260812)\]
 
 #### [[Aspirin]] and COMT:
 
-A study of women who took [[Aspirin|aspirin]] or a placebo for heart disease prevention found that incidents of **[[notes/_link/Cardiovascular Disease]] increased** in women with rs4680 val/val (G/G, **fast**) who took [[Aspirin|aspirin]].
+A study of women who took [[Aspirin|aspirin]] or a placebo for heart disease prevention found that incidents of **[[Cardiovascular Disease]] increased** in women with rs4680 val/val (G/G, **fast**) who took [[Aspirin|aspirin]].
 
 The opposite was true for women with the **slow [[COMT]]** variant, and [[Aspirin|aspirin]] **prevented heart disease** compared to placebo.\[[ref](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4148908/)\]
 
@@ -209,7 +209,7 @@ Instead of a high-dose [[Methylfolate]] supplement, you could try:
 
 **What is slow COMT?**
 
-Answer: The [[COMT]] [[Val158Met]] variant (Met/Met genotype) produces an enzyme with 3–4x reduced activity, meaning [[notes/_link/Dopamine|dopamine]], [[notes/_link/Norepinephrine|norepinephrine]], and [[Estrogen]] metabolites are broken down more slowly.
+Answer: The [[COMT]] [[Val158Met]] variant (Met/Met genotype) produces an enzyme with 3–4x reduced activity, meaning [[Dopamine|dopamine]], [[Norepinephrine|norepinephrine]], and [[Estrogen]] metabolites are broken down more slowly.
 
 **What supplements should you avoid with slow COMT?**
 
@@ -221,7 +221,7 @@ Answer: Yes, [[COMT]] is responsible for methylating catechol [[Estrogen]] metab
 
 **What is the COMT warrior/worrier gene?**
 
-Answer: The [[Val158Met]] variant is sometimes called the [[Warrior/Worrier Gene|warrior vs. worrier]] gene because it affects stress resilience and cognitive style through [[notes/_link/Dopamine|dopamine]] levels.
+Answer: The [[Val158Met]] variant is sometimes called the [[Warrior/Worrier Gene|warrior vs. worrier]] gene because it affects stress resilience and cognitive style through [[Dopamine|dopamine]] levels.
 
 **Can COMT variants affect how methylfolate works?**
 
@@ -230,6 +230,6 @@ Answer: Yes, people with slow [[COMT]] may experience mood swings or anxiety fro
 ---
 
 ### Linking Summary:
-- New links added: [[COMT]], [[Catechol-O-methyltransferase]], [[notes/_link/Dopamine]], [[notes/_link/Epinephrine]], [[notes/_link/Norepinephrine]], [[Estrogen]], [[Catechols]], [[Methylation]], [[Oxidative Stress]], [[Methyl groups]], [[Serotonin]], [[Melatonin]], [[Val158Met]], [[Methylfolate]], [[MethylB12]], [[Quercetin]], [[Fisetin]], [[Luteolin]], [[Rutin]], [[Oleacein]], [[EGCG]], [[Green tea]], [[notes/_link/Parkinson's Disease]], [[Levodopa]], [[Magnesium]], [[Berberine]], [[Resveratrol]], [[Hesperidin]], [[MTHFR]], [[SAMe]], [[S-adenosylmethionine]], [[TMG]], [[Betaine]], [[notes/_link/Vitamin E]], [[Alpha-tocopherol]], [[Aspirin]], [[notes/_link/Cardiovascular Disease]], [[Modafinil]], [[Adenosylcobalamin]], [[Hydroxocobalamin]], [[MTRR]], [[MTHFD1]], [[Creatine]], [[Folinic acid]], [[Tyrosine]].
-- Suggested new entity notes to create: [[COMT]], [[Catechol-O-methyltransferase]], [[notes/_link/Dopamine]], [[Methylation]], [[Val158Met]], [[MTHFR]].
-- Strong connections to strengthen: [[COMT]] ↔ [[Methylation]], [[COMT]] ↔ [[notes/_link/Dopamine]].
+- New links added: [[COMT]], [[Catechol-O-methyltransferase]], [[Dopamine]], [[Epinephrine]], [[Norepinephrine]], [[Estrogen]], [[Catechols]], [[Methylation]], [[Oxidative Stress]], [[Methyl groups]], [[Serotonin]], [[Melatonin]], [[Val158Met]], [[Methylfolate]], [[MethylB12]], [[Quercetin]], [[Fisetin]], [[Luteolin]], [[Rutin]], [[Oleacein]], [[EGCG]], [[Green tea]], [[Parkinson's Disease]], [[Levodopa]], [[Magnesium]], [[Berberine]], [[Resveratrol]], [[Hesperidin]], [[MTHFR]], [[SAMe]], [[S-adenosylmethionine]], [[TMG]], [[Betaine]], [[Vitamin E]], [[Alpha-tocopherol]], [[Aspirin]], [[Cardiovascular Disease]], [[Modafinil]], [[Adenosylcobalamin]], [[Hydroxocobalamin]], [[MTRR]], [[MTHFD1]], [[Creatine]], [[Folinic acid]], [[Tyrosine]].
+- Suggested new entity notes to create: [[COMT]], [[Catechol-O-methyltransferase]], [[Dopamine]], [[Methylation]], [[Val158Met]], [[MTHFR]].
+- Strong connections to strengthen: [[COMT]] ↔ [[Methylation]], [[COMT]] ↔ [[Dopamine]].

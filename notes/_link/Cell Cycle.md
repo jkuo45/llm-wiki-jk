@@ -13,7 +13,7 @@ The [[Cell Cycle]] is the series of events that take place in a cell leading to 
 
 - New links added: [[Cyclin]], [[Cyclin-Dependent Kinase]], [[CDK]], [[CDK Inhibitor]], [[G0 Phase]], [[G1 Phase]], [[S Phase]], [[Mitosis]]
 - Suggested new entity notes to create: [[Quiescence]], [[DNA Replication]]
-- Strong connections to strengthen: [[Cell Cycle]] ↔ [[Cancer]], [[Cell Cycle]] ↔ [[notes/_link/DNA Damage]]
+- Strong connections to strengthen: [[Cell Cycle]] ↔ [[Cancer]], [[Cell Cycle]] ↔ [[DNA Damage]]
 
 
 ---

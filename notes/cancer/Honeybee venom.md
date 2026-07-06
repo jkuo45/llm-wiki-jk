@@ -7,7 +7,7 @@
 - **[[phospholipase A2]]**: An enzyme that works with melittin to disrupt cell membranes.
 
 ## anticancer Properties
-Honeybee venom has demonstrated antitumoral effects in various cancers, including [[notes/_link/Breast Cancer]], [[Melanoma]], and [[leukemia]]. It is highly selective for aggressive cancer subtypes like [[triple-negative breast cancer]] and [[HER2-enriched breast cancer]].
+Honeybee venom has demonstrated antitumoral effects in various cancers, including [[Breast Cancer]], [[Melanoma]], and [[leukemia]]. It is highly selective for aggressive cancer subtypes like [[triple-negative breast cancer]] and [[HER2-enriched breast cancer]].
 
 ## Connections
 - [[Honeybee]]: The source of the venom.

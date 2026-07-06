@@ -13,4 +13,4 @@ A [[Hepatocyte]] is a cell of the main parenchymal tissue of the liver. Hepatocy
 
 - New links added: [[Quiescence]], [[Cell Cycle]], [[APC/C]]
 - Suggested new entity notes to create: [[Liver Regeneration]]
-- Strong connections to strengthen: [[Hepatocyte]] ↔ [[notes/_link/Metabolism]]
+- Strong connections to strengthen: [[Hepatocyte]] ↔ [[Metabolism]]

@@ -1,6 +1,6 @@
 # Cancer
 
-This directory contains notes and research regarding [[Cancer]], with a primary focus on drug repurposing, alternative mechanisms, and non-conventional approaches. Emphasis is placed on antiparasitic agents such as [[Ivermectin]], [[Fenbendazole]], [[Mebendazole]], and [[Albendazole]], as well as [[Melittin]] and components of [[Honeybee]] venom ([[Apis mellifera]]), and their potential effects on cancer cell pathways. Special attention is given to mechanisms including [[notes/_link/Apoptosis]], [[Autophagy]], [[Angiogenesis]] inhibition, [[Oxidative Stress]], [[Warburg Effect]], [[Metabolic Reprogramming]], and disruption of [[Microtubule]] dynamics, along with connections to specific cancer types (e.g., [[triple-negative breast cancer]], [[notes/_link/Colorectal Cancer]], [[glioblastoma]]) and the [[Hallmarks of Cancer]].
+This directory contains notes and research regarding [[Cancer]], with a primary focus on drug repurposing, alternative mechanisms, and non-conventional approaches. Emphasis is placed on antiparasitic agents such as [[Ivermectin]], [[Fenbendazole]], [[Mebendazole]], and [[Albendazole]], as well as [[Melittin]] and components of [[Honeybee]] venom ([[Apis mellifera]]), and their potential effects on cancer cell pathways. Special attention is given to mechanisms including [[Apoptosis]], [[Autophagy]], [[Angiogenesis]] inhibition, [[Oxidative Stress]], [[Warburg Effect]], [[Metabolic Reprogramming]], and disruption of [[Microtubule]] dynamics, along with connections to specific cancer types (e.g., [[triple-negative breast cancer]], [[Colorectal Cancer]], [[glioblastoma]]) and the [[Hallmarks of Cancer]].
 
 
 **entity_relevance_score_1 (1-10):**
@@ -24,9 +24,9 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[ABT-263]] | 31_May_2026 12:30 PM PDT | Chemical Compound | 9 | 1 | Orally bioavailable BH3 mimetic and Bcl-2 inhibitor. |
 | [[ABT-737]] | 31_May_2026 12:30 PM PDT | Chemical Compound | 9 | 1 | Potent BH3 mimetic targeting Bcl-2 family proteins. |
 | [[African Programme for Onchocerciasis Control]] | 21_May_2026 06:20 PM PDT | Organization | 4 | 1 | Provided historical, scientific, or institutional context for the research. |
-| [[notes/_link/Akt]] | 31_May_2026 05:30 PM PDT | Enzyme | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
+| [[Akt]] | 31_May_2026 05:30 PM PDT | Enzyme | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
 | [[Albendazole]] | 21_May_2026 06:45 PM PDT | Chemical Compound | 10 | 1 | Broad-spectrum anthelmintic investigated for suppressing tumor growth and angiogenesis. |
-| [[notes/_link/AMPK]] | 30_May_2026 07:45 PM PDT | Enzyme | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
+| [[AMPK]] | 30_May_2026 07:45 PM PDT | Enzyme | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
 | [[ALIX]] | 19_May_2026 08:16 PM PDT | Protein | 7 | 0 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[Andy Crump]] | 21_May_2026 06:20 PM PDT | Person | 4 | 1 | Provided historical, scientific, or institutional context for the research. |
 | [[Angiogenesis]] | 26_May_2026 05:03 PM PDT | Biological Process | 9 | 0 | The formation of new blood vessels, a critical process for tumor expansion and metastasis. |
@@ -34,7 +34,7 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[Apaf-1]] | 31_May_2026 05:30 PM PDT | Protein | 8 | 0 | Scaffold protein essential for apoptosome formation in the intrinsic pathway. |
 | [[Apis mellifera]] | 19_May_2026 08:16 PM PDT | Model Organism | 5 | 1 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[apitherapy]] | 19_May_2026 08:16 PM PDT | Medical Treatment | 8 | 1 | Biological or chemical entity contributing to the broader understanding of the topic. |
-| [[notes/_link/Apoptosis]] | 21_May_2026 06:45 PM PDT | Biological Process | 9 | 1 | Programmed cell death; the primary desired outcome of many anti-cancer interventions. |
+| [[Apoptosis]] | 21_May_2026 06:45 PM PDT | Biological Process | 9 | 1 | Programmed cell death; the primary desired outcome of many anti-cancer interventions. |
 | [[Apoptosome]] | 31_May_2026 05:30 PM PDT | Biological Molecule | 8 | 0 | Multi-protein complex that activates Caspase-9 in the intrinsic pathway. |
 | [[Ascariasis]] | 21_May_2026 06:20 PM PDT | Medical Condition | 6 | -1 | Condition historically associated with the compounds before their repurposing. |
 | [[Ascaris]] | 21_May_2026 06:20 PM PDT | Microorganism | 6 | -1 | Related to the original anti-parasitic application of the discussed drugs. |
@@ -47,7 +47,7 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[Bid]] | 31_May_2026 05:30 PM PDT | Protein | 8 | 0 | BH3-only protein that links the extrinsic and intrinsic apoptotic pathways. |
 | [[bioluminescence resonance energy resonance energy transfer]] | 19_May_2026 08:16 PM PDT | Analytical Technique | 6 | 0 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[BRCA]] | 19_May_2026 08:16 PM PDT | Gene | 8 | 0 | Biological or chemical entity contributing to the broader understanding of the topic. |
-| [[notes/_link/Breast Cancer]] | 21_May_2026 05:45 PM PDT | Medical Condition | 10 | -1 | High-relevance pathological state targeted by the investigated compounds. |
+| [[Breast Cancer]] | 21_May_2026 05:45 PM PDT | Medical Condition | 10 | -1 | High-relevance pathological state targeted by the investigated compounds. |
 | [[Brugia malayi]] | 21_May_2026 06:20 PM PDT | Microorganism | 6 | -1 | Related to the original anti-parasitic application of the discussed drugs. |
 | [[Brugia timori]] | 21_May_2026 06:20 PM PDT | Microorganism | 6 | -1 | Related to the original anti-parasitic application of the discussed drugs. |
 | [[CaMKII]] | 13_Jun_2026 10:30 AM PDT | Enzyme | 8 | 0 | Calcium/calmodulin-dependent protein kinase II that regulates Caspase-2. |
@@ -64,7 +64,7 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[CK1]] | 13_Jun_2026 10:30 AM PDT | Enzyme | 7 | 0 | Casein kinase 1 involved in phosphorylating Bid to prevent its cleavage. |
 | [[CK2]] | 13_Jun_2026 10:30 AM PDT | Enzyme | 8 | 0 | Casein kinase 2 that suppresses Caspase-2 activity and stabilizes Bid. |
 | [[CKII]] | 13_Jun_2026 10:30 AM PDT | Enzyme | 8 | 0 | Serine/threonine kinase regulating apoptosis and cell cycle. |
-| [[notes/_link/Colorectal Cancer]] | 21_May_2026 06:45 PM PDT | Medical Condition | 10 | -1 | High-relevance pathological state targeted by the investigated compounds. |
+| [[Colorectal Cancer]] | 21_May_2026 06:45 PM PDT | Medical Condition | 10 | -1 | High-relevance pathological state targeted by the investigated compounds. |
 | [[Cytochrome c]] | 31_May_2026 05:30 PM PDT | Protein | 8 | 0 | Mitochondrial protein whose release into the cytosol triggers the intrinsic pathway. |
 | [[CYP2C19]] | 21_May_2026 06:45 PM PDT | Enzyme | 7 | 0 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[CYP2J2]] | 21_May_2026 06:45 PM PDT | Enzyme | 7 | 0 | Biological or chemical entity contributing to the broader understanding of the topic. |
@@ -113,11 +113,11 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[leukemia]] | 21_May_2026 05:45 PM PDT | Medical Condition | 9 | -1 | High-relevance pathological state targeted by the investigated compounds. |
 | [[Lung Cancer]] | 21_May_2026 05:45 PM PDT | Medical Condition | 9 | -1 | High-relevance pathological state targeted by the investigated compounds. |
 | [[Lymphatic Filariasis]] | 21_May_2026 06:20 PM PDT | Medical Condition | 6 | -1 | Condition historically associated with the compounds before their repurposing. |
-| [[notes/_link/MAPK]] | 31_May_2026 05:30 PM PDT | Enzyme | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
+| [[MAPK]] | 31_May_2026 05:30 PM PDT | Enzyme | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
 | [[Mebendazole]] | 21_May_2026 06:45 PM PDT | Chemical Compound | 10 | 1 | Repurposed anthelmintic with well-documented inhibition of cancer cell proliferation. |
 | [[Mectizan]] | 21_May_2026 06:20 PM PDT | Medical Product | 8 | 1 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[Mectizan Donation Program]] | 21_May_2026 06:20 PM PDT | Organization | 4 | 1 | Provided historical, scientific, or institutional context for the research. |
-| [[notes/_link/Metformin]] | 30_May_2026 07:45 PM PDT | Chemical Compound | 9 | 1 | Significant therapeutic agent or chemical tool used in cancer research. |
+| [[Metformin]] | 30_May_2026 07:45 PM PDT | Chemical Compound | 9 | 1 | Significant therapeutic agent or chemical tool used in cancer research. |
 | [[melanoma]] | 21_May_2026 05:45 PM PDT | Medical Condition | 9 | -1 | High-relevance pathological state targeted by the investigated compounds. |
 | [[melittin]] | 19_May_2026 08:16 PM PDT | Chemical Compound | 10 | 1 | Significant therapeutic agent or chemical tool used in cancer research. |
 | [[MKP-3]] | 13_Jun_2026 10:30 AM PDT | Enzyme | 7 | 0 | Dual-specificity phosphatase that dephosphorylates and stabilizes Bcl-2. |
@@ -125,7 +125,7 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[Metabolic Reprogramming]] | 21_May_2026 06:45 PM PDT | Biological Process | 9 | 0 | The alteration of metabolic pathways to support rapid tumor growth and survival. |
 | [[Microfilariae]] | 21_May_2026 06:20 PM PDT | Cell Type | 6 | -1 | Related to the original anti-parasitic application of the discussed drugs. |
 | [[Microtubule]] | 21_May_2026 06:45 PM PDT | Anatomy | 8 | 0 | Structural component of the cytoskeleton and a key target for benzimidazole compounds. |
-| [[notes/_link/mTOR]] | 31_May_2026 05:30 PM PDT | Protein | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
+| [[mTOR]] | 31_May_2026 05:30 PM PDT | Protein | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
 | [[Multidrug Resistance]] | 21_May_2026 05:45 PM PDT | Adverse Effect | 8 | -1 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[Nasopharyngeal Carcinoma]] | 21_May_2026 05:45 PM PDT | Medical Condition | 9 | -1 | High-relevance pathological state targeted by the investigated compounds. |
 | [[Neuropilin-1]] | 26_May_2026 05:03 PM PDT | Receptor | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
@@ -140,14 +140,14 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[ovarian cancer]] | 21_May_2026 06:45 PM PDT | Medical Condition | 9 | -1 | High-relevance pathological state targeted by the investigated compounds. |
 | [[Oxfendazole]] | 21_May_2026 06:45 PM PDT | Chemical Compound | 9 | 1 | Significant therapeutic agent or chemical tool used in cancer research. |
 | [[Oxidative Stress]] | 21_May_2026 06:45 PM PDT | Scientific Concept | 8 | -1 | Biological or chemical entity contributing to the broader understanding of the topic. |
-| [[notes/_link/p53]] | 31_May_2026 05:30 PM PDT | Protein | 9 | 1 | Key molecular component of a signaling pathway relevant to cancer biology. |
+| [[p53]] | 31_May_2026 05:30 PM PDT | Protein | 9 | 1 | Key molecular component of a signaling pathway relevant to cancer biology. |
 | [[PAK1]] | 31_May_2026 05:30 PM PDT | Enzyme | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
 | [[pancreatic cancer]] | 19_May_2026 08:16 PM PDT | Medical Condition | 9 | -1 | High-relevance pathological state targeted by the investigated compounds. |
 | [[PD-L1]] | 19_May_2026 08:16 PM PDT | Protein | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
 | [[Pediculosis]] | 21_May_2026 06:20 PM PDT | Medical Condition | 6 | -1 | Condition historically associated with the compounds before their repurposing. |
 | [[phospholipase A2]] | 19_May_2026 08:16 PM PDT | Enzyme | 7 | 0 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[Pin1]] | 13_Jun_2026 10:30 AM PDT | Enzyme | 8 | 0 | Peptidyl-prolyl cis/trans isomerase that regulates Bax inactivation. |
-| [[notes/_link/PI3K]] | 31_May_2026 05:30 PM PDT | Enzyme | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
+| [[PI3K]] | 31_May_2026 05:30 PM PDT | Enzyme | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
 | [[PLK3]] | 13_Jun_2026 10:30 AM PDT | Enzyme | 8 | 0 | Polo-like kinase involved in cell cycle regulation and apoptosis. |
 | [[PP1]] | 13_Jun_2026 10:30 AM PDT | Enzyme | 8 | 0 | Protein phosphatase 1 that dephosphorylates Caspase-2 and Caspase-9. |
 | [[PP2A]] | 13_Jun_2026 10:30 AM PDT | Enzyme | 8 | 0 | Protein phosphatase 2A that regulates the phosphorylation state of Caspase-3 and Bax. |
@@ -166,7 +166,7 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[Simulium]] | 21_May_2026 06:20 PM PDT | Microorganism | 6 | -1 | Related to the original anti-parasitic application of the discussed drugs. |
 | [[SIRT1]] | 30_May_2026 07:45 PM PDT | Enzyme | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
 | [[Smac/DIABLO]] | 31_May_2026 05:30 PM PDT | Protein | 8 | 0 | Mitochondrial protein that neutralizes IAPs to promote apoptosis. |
-| [[notes/_link/STAT3]] | 31_May_2026 05:30 PM PDT | Protein | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
+| [[STAT3]] | 31_May_2026 05:30 PM PDT | Protein | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
 | [[Strongyloides]] | 21_May_2026 06:20 PM PDT | Microorganism | 6 | -1 | Related to the original anti-parasitic application of the discussed drugs. |
 | [[Strongyloidiasis]] | 21_May_2026 06:20 PM PDT | Medical Condition | 6 | -1 | Condition historically associated with the compounds before their repurposing. |
 | [[Suramin]] | 21_May_2026 06:20 PM PDT | Chemical Compound | 7 | 1 | Biological or chemical entity contributing to the broader understanding of the topic. |

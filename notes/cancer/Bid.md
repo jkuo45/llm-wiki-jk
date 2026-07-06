@@ -1,6 +1,6 @@
 # Bid
 
-**Bid** (BH3 interacting-domain death agonist) is a pro-apoptotic member of the [[Bcl-2 family]] that serves as a critical link between the [[Extrinsic Pathway]] and the [[Intrinsic Pathway]] of [[notes/_link/Apoptosis|apoptosis]].
+**Bid** (BH3 interacting-domain death agonist) is a pro-apoptotic member of the [[Bcl-2 family]] that serves as a critical link between the [[Extrinsic Pathway]] and the [[Intrinsic Pathway]] of [[Apoptosis|apoptosis]].
 
 ## Mechanism
 Bid is normally an inactive cytosolic protein. It is activated by [[Caspase-8]] (from the extrinsic pathway) which cleaves it into its truncated form, **tBid**.

@@ -7,7 +7,7 @@ updated: 2024-01-01
 ---
 # Chromatin
 
-**Chromatin** is the complex of DNA and proteins (primarily histones) that packages the genome within the cell nucleus. In young, healthy cells, chromatin is organized into a precise landscape of tightly packed [[Heterochromatin]] (transcriptionally silent) and open [[Euchromatin]] (transcriptionally active). During [[notes/_link/Aging]], this structure undergoes significant remodeling, often referred to as **epigenetic drift**.
+**Chromatin** is the complex of DNA and proteins (primarily histones) that packages the genome within the cell nucleus. In young, healthy cells, chromatin is organized into a precise landscape of tightly packed [[Heterochromatin]] (transcriptionally silent) and open [[Euchromatin]] (transcriptionally active). During [[Aging]], this structure undergoes significant remodeling, often referred to as **epigenetic drift**.
 
 ### 1. Loss of [[Heterochromatin]]
 One of the most consistent hallmarks of aging is the global loss of heterochromatin, known as the **Heterochromatin Loss Model of Aging**.
@@ -37,6 +37,6 @@ The physical folding of chromatin into loops and domains changes with age.
 - **[[Genomic Instability]]**: A direct consequence of the loss of chromatin integrity during aging.
 
 ### Linking Summary:
-- New links added: [[Heterochromatin]], [[Euchromatin]], [[notes/_link/Aging]], [[Transposable Elements]], [[Genomic Instability]], [[SAHF]], [[Nucleosome]], [[DNA Methylation]], [[Epigenetic Clock]].
+- New links added: [[Heterochromatin]], [[Euchromatin]], [[Aging]], [[Transposable Elements]], [[Genomic Instability]], [[SAHF]], [[Nucleosome]], [[DNA Methylation]], [[Epigenetic Clock]].
 - Suggested new entity notes to create: [[Heterochromatin Loss Model]], [[3D Genome Organization]], [[Histone H3K9me3]], [[Histone H4K16ac]].
 - Strong connections to strengthen: [[Chromatin]] ↔ [[Nucleosome]], [[Chromatin]] ↔ [[Heterochromatin]]

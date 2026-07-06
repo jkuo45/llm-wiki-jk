@@ -13,4 +13,4 @@ The [[T Cell Receptor]] ([[TCR]]) is a protein complex found on the surface of [
 
 - New links added: [[T Lymphocyte]], [[Lymphocyte]], [[Quiescence]]
 - Suggested new entity notes to create: [[Major Histocompatibility Complex]]
-- Strong connections to strengthen: [[T Cell Receptor]] ↔ [[notes/_link/Immune System]]
+- Strong connections to strengthen: [[T Cell Receptor]] ↔ [[Immune System]]

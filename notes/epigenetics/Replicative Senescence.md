@@ -14,7 +14,7 @@ updated: 2024-07-04
 
 During each round of [[DNA Replication|DNA replication]], telomeres shorten by 50–200 bp due to the end-replication problem — the inability of [[DNA Polymerase]] to fully replicate the 3' ends of linear chromosomes. After 40–60 population doublings in human fibroblasts, telomeres become critically short and lose their protective [[Shelterin complex]] (especially [[TRF2]]). This exposes chromosome ends as [[DNA double-strand break|DNA double-strand breaks]], activating the [[ATM]] / [[ATR]] kinase pathways and establishing persistent DDR signaling foci (DNA-SCARS).
 
-The ensuing signaling cascade phosphorylates and stabilizes [[notes/_link/p53|p53]], driving [[p21|CDKN1A/p21]] transcription. p21 inhibits [[CDK2|CDK2]]-[[Cyclin E|CyclinE]], maintaining [[RB1]] in its active hypophosphorylated form and enforcing [[G1 Phase|G1/S]] arrest. In human cells, this arrest is reinforced by [[p16INK4A|p16^INK4a^]] upregulation in a subset of cells (the "senescence timer"), establishing a secondary, p53-independent lock on the arrest state.
+The ensuing signaling cascade phosphorylates and stabilizes [[p53|p53]], driving [[p21|CDKN1A/p21]] transcription. p21 inhibits [[CDK2|CDK2]]-[[Cyclin E|CyclinE]], maintaining [[RB1]] in its active hypophosphorylated form and enforcing [[G1 Phase|G1/S]] arrest. In human cells, this arrest is reinforced by [[p16INK4A|p16^INK4a^]] upregulation in a subset of cells (the "senescence timer"), establishing a secondary, p53-independent lock on the arrest state.
 
 ## Hallmarks of Replicative Senescence
 
@@ -22,7 +22,7 @@ The ensuing signaling cascade phosphorylates and stabilizes [[notes/_link/p53|p5
 2. **[[SA-beta-gal]] activity:** Increased lysosomal β-galactosidase activity at pH 6.0, the most widely used senescence biomarker.
 3. **[[SASP]]:** Secretion of pro-inflammatory cytokines ([[IL-6]], [[IL-8]]), chemokines, and matrix metalloproteinases.
 4. **[[SAHF]]:** Senescence-associated heterochromatin foci that repress proliferation-promoting genes.
-5. **Resistance to [[notes/_link/Apoptosis|apoptosis]]** via upregulation of [[Bcl-2 family]] anti-apoptotic proteins.
+5. **Resistance to [[Apoptosis|apoptosis]]** via upregulation of [[Bcl-2 family]] anti-apoptotic proteins.
 
 ## Cellular Physiology
 
@@ -43,6 +43,6 @@ In the laboratory, replicative senescence is modeled by serial passaging of prim
 - **[[Partial Reprogramming]]:** Transient [[OSKM]] expression can erase senescence-associated epigenetic marks and restore proliferative capacity in some cell types.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Senescence]], [[notes/_link/Telomere Attrition]], [[notes/_link/DNA Damage]], [[notes/_link/p53]], [[notes/_link/Apoptosis]], [[SASP]], [[SAHF]], [[SA-beta-gal]], [[Senolytic Drugs]], [[Partial Reprogramming]]
+- New links added: [[Senescence]], [[Telomere Attrition]], [[DNA Damage]], [[p53]], [[Apoptosis]], [[SASP]], [[SAHF]], [[SA-beta-gal]], [[Senolytic Drugs]], [[Partial Reprogramming]]
 - Suggested new entity notes to create: [[Hayflick limit]], [[Shelterin complex]], [[TRF2]], [[Telomerase]]
-- Strong connections to strengthen: [[Replicative Senescence]] ↔ [[notes/_link/Senescence]], [[Replicative Senescence]] ↔ [[notes/_link/Telomere Attrition]]
+- Strong connections to strengthen: [[Replicative Senescence]] ↔ [[Senescence]], [[Replicative Senescence]] ↔ [[Telomere Attrition]]

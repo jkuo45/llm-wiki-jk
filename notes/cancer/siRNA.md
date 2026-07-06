@@ -12,12 +12,12 @@ siRNA is a powerful tool used to investigate the function of genes and to develo
 - **Radiosensitization**: Enhancing the response of tumors to radiation therapy.
 
 ## Connections
-- [[notes/_link/Apoptosis]]: Used to induce death by silencing anti-apoptotic genes.
+- [[Apoptosis]]: Used to induce death by silencing anti-apoptotic genes.
 - [[XIAP]] / [[Survivin]]: Common targets for siRNA-mediated sensitization.
 - [[Bmi-1]]: Targeted to overcome drug resistance.
 - [[Doxorubicin]]: Cells can be sensitized to doxorubicin using siRNA.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Apoptosis]], [[XIAP]], [[Survivin]], [[Bcl-2]], [[Bmi-1]], [[Doxorubicin]]
+- New links added: [[Apoptosis]], [[XIAP]], [[Survivin]], [[Bcl-2]], [[Bmi-1]], [[Doxorubicin]]
 - Suggested new entity notes to create: [[Bmi-1]]
-- Strong connections to strengthen: [[siRNA]] ↔ [[notes/_link/Apoptosis]]
+- Strong connections to strengthen: [[siRNA]] ↔ [[Apoptosis]]

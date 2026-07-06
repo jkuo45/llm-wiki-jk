@@ -17,6 +17,6 @@ Ischemia-reperfusion injury (IRI) involves ATP depletion, oxidative stress, Ca2+
 
 ### Linking Summary
 
-- New links added: [[TFEB]], [[notes/_link/Ischemia-reperfusion Injury]]
+- New links added: [[TFEB]], [[Ischemia-reperfusion Injury]]
 - Suggested new entity notes to create: [[Hypoxia]]
 - Strong connections to strengthen: [[ischemic injury]] ↔ [[TFEB]]

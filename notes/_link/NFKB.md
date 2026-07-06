@@ -106,11 +106,11 @@ NF-κB is a master regulator of the **Senescence-Associated Secretory Phenotype 
 - **[[SIRT2]]** — Cytoplasmic deacetylase regulating RelA/p65 acetylation and microglial activation.
 - **[[SIRT3]]** — Indirect regulator via mitochondrial ROS control.
 - **[[SIRT6]]** — Chromatin-associated repressor deacetylating H3K9ac at NF-κB target promoters.
-- **[[notes/_link/Inflammation]]** — NF-κB is the master transcriptional driver of inflammatory pathology.
-- **[[notes/_link/Apoptosis]]** — NF-κB transcriptional suppression by sirtuins sensitizes cells to TNF-α-induced apoptosis.
+- **[[Inflammation]]** — NF-κB is the master transcriptional driver of inflammatory pathology.
+- **[[Apoptosis]]** — NF-κB transcriptional suppression by sirtuins sensitizes cells to TNF-α-induced apoptosis.
 
 ### Linking Summary
 
-- New links added: [[SIRT1]], [[SIRT2]], [[SIRT3]], [[SIRT6]], [[notes/_link/Inflammation]], [[notes/_link/Apoptosis]]
+- New links added: [[SIRT1]], [[SIRT2]], [[SIRT3]], [[SIRT6]], [[Inflammation]], [[Apoptosis]]
 - Suggested new entity notes to create: [[TNFα]], [[MnSOD]], [[IκB]], [[RelA]]
-- Strong connections to strengthen: [[SIRT1]] ↔ [[notes/_link/NFKB]], [[SIRT6]] ↔ [[notes/_link/NFKB]], [[notes/_link/Inflammation]] ↔ [[notes/_link/NFKB]]
+- Strong connections to strengthen: [[SIRT1]] ↔ [[NFKB]], [[SIRT6]] ↔ [[NFKB]], [[Inflammation]] ↔ [[NFKB]]

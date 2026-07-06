@@ -13,18 +13,18 @@ updated: 2026-07-04
 
 ## Biological Importance
 In biology, [[Catechols]] include critical molecules such as:
-- **[[Catecholamines]]**: [[notes/_link/Dopamine]], [[notes/_link/Epinephrine]], and [[notes/_link/Norepinephrine]].
-- **[[notes/_link/Estrogen]] metabolites**.
-- **[[Flavonoids]]**: Such as [[notes/_link/Quercetin]], [[notes/_link/Fisetin]], and [[Luteolin]].
+- **[[Catecholamines]]**: [[Dopamine]], [[Epinephrine]], and [[Norepinephrine]].
+- **[[Estrogen]] metabolites**.
+- **[[Flavonoids]]**: Such as [[Quercetin]], [[Fisetin]], and [[Luteolin]].
 
 ## Metabolism
 The [[COMT]] enzyme is specifically designed to transfer a [[Methyl groups|methyl group]] to the catechol structure, thereby inactivating or altering these molecules.
 
 ## Connections
 - [[COMT]]: The primary enzyme that metabolizes catechol-containing substances.
-- [[notes/_link/Dopamine]]: A major endogenous catechol.
-- [[notes/_link/Quercetin]]: A dietary catechol that can inhibit COMT.
+- [[Dopamine]]: A major endogenous catechol.
+- [[Quercetin]]: A dietary catechol that can inhibit COMT.
 
 ---
 ### Linking Summary:
-- New links added: [[Catecholamines]], [[notes/_link/Dopamine]], [[notes/_link/Epinephrine]], [[notes/_link/Norepinephrine]], [[notes/_link/Estrogen]], [[Flavonoids]], [[notes/_link/Quercetin]], [[notes/_link/Fisetin]], [[Luteolin]], [[COMT]], [[Methyl groups]].
+- New links added: [[Catecholamines]], [[Dopamine]], [[Epinephrine]], [[Norepinephrine]], [[Estrogen]], [[Flavonoids]], [[Quercetin]], [[Fisetin]], [[Luteolin]], [[COMT]], [[Methyl groups]].

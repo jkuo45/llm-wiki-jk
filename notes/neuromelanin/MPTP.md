@@ -8,7 +8,7 @@ updated: 2026-07-04
 
 # MPTP
 
-[[MPTP]] (1-methyl-4-phenyl-1,2,3,6-tetrahydropyridine) is a prodrug to the neurotoxin MPP+, which causes permanent symptoms of [[notes/_link/Parkinson's Disease]] by destroying dopaminergic neurons in the [[Substantia Nigra Pars Compacta]].
+[[MPTP]] (1-methyl-4-phenyl-1,2,3,6-tetrahydropyridine) is a prodrug to the neurotoxin MPP+, which causes permanent symptoms of [[Parkinson's Disease]] by destroying dopaminergic neurons in the [[Substantia Nigra Pars Compacta]].
 
 ## Mechanism of Toxicity
 MPTP is lipid-soluble and can cross the blood-brain barrier.
@@ -20,6 +20,6 @@ MPTP is lipid-soluble and can cross the blood-brain barrier.
 MPTP is widely used in laboratory animals to model PD. Interestingly, among dopaminergic neurons, those containing [[Neuromelanin]] are more susceptible to MPTP toxicity than non-melanized neurons, further linking pigment content to neuronal vulnerability.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Parkinson's Disease]], [[Substantia Nigra Pars Compacta]], [[Dopamine Transporter]], [[Mitochondrial Dysfunction]], [[Oxidative Stress]], [[Neuromelanin]].
+- New links added: [[Parkinson's Disease]], [[Substantia Nigra Pars Compacta]], [[Dopamine Transporter]], [[Mitochondrial Dysfunction]], [[Oxidative Stress]], [[Neuromelanin]].
 - Suggested new entity notes to create: [[MPP+]], [[MAO-B]], [[Complex I]].
-- Strong connections to strengthen: [[MPTP]] ↔ [[notes/_link/Parkinson's Disease]].
+- Strong connections to strengthen: [[MPTP]] ↔ [[Parkinson's Disease]].

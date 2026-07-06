@@ -1,6 +1,6 @@
 # Apoptosome
 
-The **Apoptosome** is a large, wheel-like multi-protein complex that forms during the [[Intrinsic Pathway]] of [[notes/_link/Apoptosis]].
+The **Apoptosome** is a large, wheel-like multi-protein complex that forms during the [[Intrinsic Pathway]] of [[Apoptosis]].
 
 ## Composition
 The apoptosome is composed of:
@@ -19,6 +19,6 @@ The primary function of the apoptosome is to facilitate the activation of [[Casp
 - [[Caspase-9]]: The enzyme activated by the apoptosome.
 
 ### Linking Summary:
-- New links added: [[Intrinsic Pathway]], [[notes/_link/Apoptosis]], [[Apaf-1]], [[Cytochrome c]], [[Caspase-9]], [[Caspase-3]]
+- New links added: [[Intrinsic Pathway]], [[Apoptosis]], [[Apaf-1]], [[Cytochrome c]], [[Caspase-9]], [[Caspase-3]]
 - Suggested new entity notes to create: [[Caspase-9]]
 - Strong connections to strengthen: [[Apoptosome]] ↔ [[Caspase-9]], [[Apoptosome]] ↔ [[Apaf-1]]

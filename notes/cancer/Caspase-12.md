@@ -1,6 +1,6 @@
 # Caspase-12
 
-**Caspase-12** is a protease that is primarily involved in the [[Endoplasmic Reticulum Pathway]] of [[notes/_link/Apoptosis]].
+**Caspase-12** is a protease that is primarily involved in the [[Endoplasmic Reticulum Pathway]] of [[Apoptosis]].
 
 ## Mechanism
 Caspase-12 is localized to the outer membrane of the endoplasmic reticulum (ER). It is activated specifically by ER stress (e.g., calcium depletion or accumulation of unfolded proteins) rather than by mitochondrial or death receptor signals.
@@ -13,9 +13,9 @@ While Caspase-12 is a major mediator of ER stress-induced apoptosis in rodents, 
 ## Connections
 - [[Endoplasmic Reticulum Pathway]]: The primary protease of this pathway.
 - [[TRAF2]]: A regulatory adaptor protein.
-- [[notes/_link/Apoptosis]]: Executes death in response to ER-specific stimuli.
+- [[Apoptosis]]: Executes death in response to ER-specific stimuli.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Apoptosis]], [[Endoplasmic Reticulum Pathway]], [[TRAF2]], [[Intrinsic Pathway]], [[Extrinsic Pathway]]
+- New links added: [[Apoptosis]], [[Endoplasmic Reticulum Pathway]], [[TRAF2]], [[Intrinsic Pathway]], [[Extrinsic Pathway]]
 - Suggested new entity notes to create: [[TRAF2]]
 - Strong connections to strengthen: [[Caspase-12]] ↔ [[Endoplasmic Reticulum Pathway]]

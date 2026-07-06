@@ -18,7 +18,7 @@ The [[PFC]] is essential for:
 - Attention and focus
 
 ## Neurotransmitter Regulation
-In the [[PFC]], the [[notes/_link/Dopamine Transporter]] ([[DAT]]) is less abundant than in the [[Sirtuins]]. Consequently, [[notes/_link/Dopamine]] clearance depends heavily on:
+In the [[PFC]], the [[Dopamine Transporter]] ([[DAT]]) is less abundant than in the [[Sirtuins]]. Consequently, [[Dopamine]] clearance depends heavily on:
 1. [[COMT]] ([[Catechol-O-methyltransferase]])
 2. [[Norepinephrine transporter]] ([[NET]])
 
@@ -29,4 +29,4 @@ In the [[PFC]], the [[notes/_link/Dopamine Transporter]] ([[DAT]]) is less abund
 
 ---
 ### Linking Summary:
-- New links added: [[Working Memory]], [[Executive Function]], [[notes/_link/Dopamine Transporter]], [[DAT]], [[Sirtuins]], [[notes/_link/Dopamine]], [[COMT]], [[Catechol-O-methyltransferase]], [[Norepinephrine transporter]], [[NET]].
+- New links added: [[Working Memory]], [[Executive Function]], [[Dopamine Transporter]], [[DAT]], [[Sirtuins]], [[Dopamine]], [[COMT]], [[Catechol-O-methyltransferase]], [[Norepinephrine transporter]], [[NET]].

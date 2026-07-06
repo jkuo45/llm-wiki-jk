@@ -3,7 +3,7 @@
 **Human epidermal growth factor receptor 2** (HER2; also known as ErbB-2 or CD340) is a protein encoded by the *ERBB2* gene. It is a member of the epidermal growth factor receptor (EGFR/ErbB) family.
 
 ## Role in Cancer
-- **Amplification**: Overexpression or amplification of this oncogene plays an important role in the development and progression of certain aggressive types of [[notes/_link/Breast Cancer]].
+- **Amplification**: Overexpression or amplification of this oncogene plays an important role in the development and progression of certain aggressive types of [[Breast Cancer]].
 - **HER2-enriched**: A specific subtype of breast cancer defined by HER2 overexpression.
 
 ## Therapeutics

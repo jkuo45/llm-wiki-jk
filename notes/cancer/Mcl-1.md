@@ -1,6 +1,6 @@
 # Mcl-1
 
-**Mcl-1** (Myeloid cell leukemia 1) is a potent anti-apoptotic member of the [[Bcl-2 family]]. It plays a critical role in the regulation of [[notes/_link/Apoptosis|apoptosis]] and is a major factor in cancer cell survival and drug resistance.
+**Mcl-1** (Myeloid cell leukemia 1) is a potent anti-apoptotic member of the [[Bcl-2 family]]. It plays a critical role in the regulation of [[Apoptosis|apoptosis]] and is a major factor in cancer cell survival and drug resistance.
 
 ## Role in Cancer
 - **Overexpression**: Mcl-1 is one of the most frequently amplified genes in human cancers, including [[leukemia]], [[Lymphoma]], and various solid tumors.

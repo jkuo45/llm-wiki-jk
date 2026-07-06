@@ -7,16 +7,16 @@ updated: 2026-05-29
 ---
 # Cardiovascular Disease
 
-Cardiovascular disease (CVD) is a class of diseases that involve the heart or blood vessels. Major types include coronary artery disease (e.g., [[notes/_link/Atherosclerosis]]), which is often preceded by [[Endothelial Dysfunction]] and exacerbated by chronic [[Oxidative Stress]].
+Cardiovascular disease (CVD) is a class of diseases that involve the heart or blood vessels. Major types include coronary artery disease (e.g., [[Atherosclerosis]]), which is often preceded by [[Endothelial Dysfunction]] and exacerbated by chronic [[Oxidative Stress]].
 
 
-The relationship between **[[Epigenetics]]**, **[[notes/_link/Aging]]**, and **Cardiovascular Disease (CVD)** is a central focus of modern cardiology. Epigenetic modifications act as a bridge between environmental factors (lifestyle, pollution, stress) and the genetic blueprint, driving the progressive decline in heart and vascular function that occurs with age.
+The relationship between **[[Epigenetics]]**, **[[Aging]]**, and **Cardiovascular Disease (CVD)** is a central focus of modern cardiology. Epigenetic modifications act as a bridge between environmental factors (lifestyle, pollution, stress) and the genetic blueprint, driving the progressive decline in heart and vascular function that occurs with age.
 
 
 **Cardiovascular Diseases** (CVDs) are a group of disorders involving the heart or blood vessels.
 
 
-**[[notes/_link/Cardiovascular Disease]]** (CVD) refers to a class of diseases that involve the heart or blood vessels.
+**[[Cardiovascular Disease]]** (CVD) refers to a class of diseases that involve the heart or blood vessels.
 
 
 ## 1. Key Epigenetic Mechanisms in CVD
@@ -31,13 +31,13 @@ The accumulation of these epigenetic changes leads to several hallmarks of cardi
 *   **Endothelial Dysfunction:** Reduced nitric oxide production and increased vascular permeability.
 *   **Vascular Stiffening:** Epigenetic regulation of the extracellular matrix leads to collagen buildup and loss of elastin.
 *   **Myocyte Senescence:** Heart muscle cells lose their ability to repair and regenerate, leading to metabolic inflexibility.
-*   **Chronic Inflammation:** Often termed "Inflammaging," epigenetic shifts trigger a low-grade, persistent inflammatory state that accelerates [[notes/_link/Atherosclerosis]].
+*   **Chronic Inflammation:** Often termed "Inflammaging," epigenetic shifts trigger a low-grade, persistent inflammatory state that accelerates [[Atherosclerosis]].
 
 
 ## 3. Environmental and Lifestyle Influences
 Epigenetic marks are dynamic and sensitive to external factors:
 *   **Accelerators:** Smoking, air pollution, high-fat diets, chronic stress, and physical inactivity.
-*   **Decelerators:** [[notes/_link/Caloric Restriction]], regular exercise, and diets rich in polyphenols (e.g., [[Resveratrol]]) have been shown to "rejuvenate" epigenetic signatures, potentially delaying the onset of CVD.
+*   **Decelerators:** [[Caloric Restriction]], regular exercise, and diets rich in polyphenols (e.g., [[Resveratrol]]) have been shown to "rejuvenate" epigenetic signatures, potentially delaying the onset of CVD.
 
 
 ## 4. Therapeutic Potential
@@ -48,35 +48,35 @@ The reversible nature of epigenetic modifications makes them attractive targets 
 
 
 ## Linking Summary:
-- New links added: [[Epigenetics]], [[notes/_link/Aging]], [[DNA Methylation]], [[Genomic Instability]], [[Epigenetic Clock]], [[DNAmGrimAge]], [[Histone Modification]], [[Sirtuins]], [[SIRT1]], [[Non-coding RNA]], [[MicroRNA]], [[Cellular Senescence]], [[notes/_link/Atherosclerosis]], [[notes/_link/Caloric Restriction]], [[Resveratrol]], [[HDAC]], [[Senolytics]].
-- Suggested new entity notes to create: [[Endothelial Dysfunction]], [[Vascular Stiffening]], [[Cardiac Fibrosis]], [[notes/_link/Inflammaging]].
-- Strong connections to strengthen: [[notes/_link/Cardiovascular Disease]] ↔ [[notes/_link/Aging]], [[notes/_link/Cardiovascular Disease]] ↔ [[DNA Methylation]]
+- New links added: [[Epigenetics]], [[Aging]], [[DNA Methylation]], [[Genomic Instability]], [[Epigenetic Clock]], [[DNAmGrimAge]], [[Histone Modification]], [[Sirtuins]], [[SIRT1]], [[Non-coding RNA]], [[MicroRNA]], [[Cellular Senescence]], [[Atherosclerosis]], [[Caloric Restriction]], [[Resveratrol]], [[HDAC]], [[Senolytics]].
+- Suggested new entity notes to create: [[Endothelial Dysfunction]], [[Vascular Stiffening]], [[Cardiac Fibrosis]], [[Inflammaging]].
+- Strong connections to strengthen: [[Cardiovascular Disease]] ↔ [[Aging]], [[Cardiovascular Disease]] ↔ [[DNA Methylation]]
 
-- New links added: [[Autophagic Flux]], [[notes/_link/AMPK]], [[Autophagy]], [[Ventricular Remodeling]], [[Cardiomyocyte Toxicity]], [[Intermittent Fasting]], [[notes/_link/Caloric Restriction]], [[Ischemia-reperfusion Injury]], [[Myocardial infarction]], [[Atg5]]
-- Suggested new entity notes to create: [[Autophagic Flux]], [[notes/_link/AMPK]], [[Ventricular Remodeling]], [[Cardiomyocyte Toxicity]], [[Intermittent Fasting]], [[notes/_link/Caloric Restriction]], [[Ischemia-reperfusion Injury]], [[Myocardial infarction]]
-- Strong connections to strengthen: [[notes/_link/Cardiovascular Disease]] ↔ [[Autophagy]], [[notes/_link/Cardiovascular Disease]] ↔ [[Myocardial infarction]]
+- New links added: [[Autophagic Flux]], [[AMPK]], [[Autophagy]], [[Ventricular Remodeling]], [[Cardiomyocyte Toxicity]], [[Intermittent Fasting]], [[Caloric Restriction]], [[Ischemia-reperfusion Injury]], [[Myocardial infarction]], [[Atg5]]
+- Suggested new entity notes to create: [[Autophagic Flux]], [[AMPK]], [[Ventricular Remodeling]], [[Cardiomyocyte Toxicity]], [[Intermittent Fasting]], [[Caloric Restriction]], [[Ischemia-reperfusion Injury]], [[Myocardial infarction]]
+- Strong connections to strengthen: [[Cardiovascular Disease]] ↔ [[Autophagy]], [[Cardiovascular Disease]] ↔ [[Myocardial infarction]]
 
-- New links added: [[COMT]], [[Val158Met]], [[SNP]], [[Aspirin]], [[Catecholamines]], [[notes/_link/Epinephrine]], [[notes/_link/Norepinephrine]].
+- New links added: [[COMT]], [[Val158Met]], [[SNP]], [[Aspirin]], [[Catecholamines]], [[Epinephrine]], [[Norepinephrine]].
 
 ## Role of Autophagy
 - [[Autophagic Flux]] is crucial for maintaining cardiomyocyte homeostasis and heart function.
-- In ischemic conditions, the activation of [[notes/_link/AMPK]] and subsequent [[Autophagy]] acts as a protective mechanism to save injured cells.
+- In ischemic conditions, the activation of [[AMPK]] and subsequent [[Autophagy]] acts as a protective mechanism to save injured cells.
 - Deficient autophagy is linked to [[Ventricular Remodeling]] and [[Cardiomyocyte Toxicity]].
 
 
 ## Impact of Dietary Interventions
-- [[Intermittent Fasting]] (IF) and [[notes/_link/Caloric Restriction]] have been shown to exert cardioprotective roles.
+- [[Intermittent Fasting]] (IF) and [[Caloric Restriction]] have been shown to exert cardioprotective roles.
 - IF can reduce infarct area in mouse models of [[Ischemia-reperfusion Injury]] by promoting autophagic flux.
 - In aged models of acute [[Myocardial infarction]], IF leads to the upregulation of [[Atg5]] and reduction of cardiac injury markers.
 
 
 ## Role of COMT
-Genetic variation in [[COMT]], particularly the [[Val158Met]] [[SNP]], has been linked to the risk of developing [[notes/_link/Cardiovascular Disease]]. This is partly due to the enzyme's role in regulating [[Catecholamines]] (like [[notes/_link/Epinephrine]] and [[notes/_link/Norepinephrine]]) and the response to medications like [[Aspirin]].
+Genetic variation in [[COMT]], particularly the [[Val158Met]] [[SNP]], has been linked to the risk of developing [[Cardiovascular Disease]]. This is partly due to the enzyme's role in regulating [[Catecholamines]] (like [[Epinephrine]] and [[Norepinephrine]]) and the response to medications like [[Aspirin]].
 
 
 ## Connections
-- **[[notes/_link/Atherosclerosis]]**: The primary underlying cause of most cardiovascular diseases, heavily influenced by epigenetic factors.
-- **[[notes/_link/Aging]]**: The most significant non-modifiable risk factor for CVD, characterized by deep epigenetic changes.
+- **[[Atherosclerosis]]**: The primary underlying cause of most cardiovascular diseases, heavily influenced by epigenetic factors.
+- **[[Aging]]**: The most significant non-modifiable risk factor for CVD, characterized by deep epigenetic changes.
 - **[[DNAmGrimAge]]**: A highly predictive epigenetic biomarker for cardiovascular mortality.
 
 
@@ -87,6 +87,6 @@ Genetic variation in [[COMT]], particularly the [[Val158Met]] [[SNP]], has been 
 ---
 
 ### Linking Summary:
-- New links added: [[notes/_link/AMPK]], [[notes/_link/Aging]], [[Aspirin]], [[Atg5]], [[notes/_link/Atherosclerosis]], [[Autophagic Flux]], [[Autophagy]], [[COMT]], [[notes/_link/Caloric Restriction]], [[Cardiomyocyte Toxicity]], [[Catecholamines]], [[Cellular Senescence]], [[DNA Methylation]], [[DNAmGrimAge]], [[Epigenetic Clock]], [[Epigenetics]], [[notes/_link/Epinephrine]], [[Genomic Instability]], [[HDAC]], [[Histone Modification]], [[Intermittent Fasting]], [[Ischemia-reperfusion Injury]], [[MicroRNA]], [[Myocardial infarction]], [[Non-coding RNA]], [[notes/_link/Norepinephrine]], [[Resveratrol]], [[SIRT1]], [[SNP]], [[Senolytics]], [[Sirtuins]], [[Val158Met]], [[Ventricular Remodeling]]
-- Suggested new entity notes to create: [[notes/_link/AMPK]], [[Autophagic Flux]], [[notes/_link/Caloric Restriction]], [[Cardiac Fibrosis]], [[Cardiomyocyte Toxicity]], [[Endothelial Dysfunction]], [[notes/_link/Inflammaging]], [[Intermittent Fasting]], [[Ischemia-reperfusion Injury]], [[Myocardial infarction]], [[Vascular Stiffening]], [[Ventricular Remodeling]]
-- Strong connections to strengthen: [[notes/_link/Cardiovascular Disease]] ↔ [[notes/_link/Aging]], [[notes/_link/Cardiovascular Disease]] ↔ [[Autophagy]], [[notes/_link/Cardiovascular Disease]] ↔ [[DNA Methylation]], [[notes/_link/Cardiovascular Disease]] ↔ [[Myocardial infarction]]
+- New links added: [[AMPK]], [[Aging]], [[Aspirin]], [[Atg5]], [[Atherosclerosis]], [[Autophagic Flux]], [[Autophagy]], [[COMT]], [[Caloric Restriction]], [[Cardiomyocyte Toxicity]], [[Catecholamines]], [[Cellular Senescence]], [[DNA Methylation]], [[DNAmGrimAge]], [[Epigenetic Clock]], [[Epigenetics]], [[Epinephrine]], [[Genomic Instability]], [[HDAC]], [[Histone Modification]], [[Intermittent Fasting]], [[Ischemia-reperfusion Injury]], [[MicroRNA]], [[Myocardial infarction]], [[Non-coding RNA]], [[Norepinephrine]], [[Resveratrol]], [[SIRT1]], [[SNP]], [[Senolytics]], [[Sirtuins]], [[Val158Met]], [[Ventricular Remodeling]]
+- Suggested new entity notes to create: [[AMPK]], [[Autophagic Flux]], [[Caloric Restriction]], [[Cardiac Fibrosis]], [[Cardiomyocyte Toxicity]], [[Endothelial Dysfunction]], [[Inflammaging]], [[Intermittent Fasting]], [[Ischemia-reperfusion Injury]], [[Myocardial infarction]], [[Vascular Stiffening]], [[Ventricular Remodeling]]
+- Strong connections to strengthen: [[Cardiovascular Disease]] ↔ [[Aging]], [[Cardiovascular Disease]] ↔ [[Autophagy]], [[Cardiovascular Disease]] ↔ [[DNA Methylation]], [[Cardiovascular Disease]] ↔ [[Myocardial infarction]]

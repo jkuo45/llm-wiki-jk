@@ -10,12 +10,12 @@ updated: 2026-05-29
 **Neutrophils** (also known as polymorphonuclear leukocytes or granulocytes) are the most abundant type of white blood cell and serve as the first line of defense in the innate immune system.
 
 
-Neutrophils are the most abundant type of granulocytes and a central part of the innate immune system, capable of generating [[Hypochlorous Acid]] via [[notes/_link/Myeloperoxidase]] during the respiratory burst.
+Neutrophils are the most abundant type of granulocytes and a central part of the innate immune system, capable of generating [[Hypochlorous Acid]] via [[Myeloperoxidase]] during the respiratory burst.
 
 
 ## Role in [[Adrenochrome]] Production
-Neutrophils are a major site of [[notes/_link/Epinephrine]] [[Oxidation]] in humans. When activated during an infection or [[notes/_link/Inflammation]], they undergo a **respiratory burst**, producing massive quantities of [[notes/_link/Reactive Oxygen Species]] (ROS).
-- **Mechanism:** ROS like [[Superoxide anion]] and [[Hydroxyl radical]], along with the enzyme [[notes/_link/Myeloperoxidase]], drive the radical chain process that converts adrenaline into [[Adrenochrome]].
+Neutrophils are a major site of [[Epinephrine]] [[Oxidation]] in humans. When activated during an infection or [[Inflammation]], they undergo a **respiratory burst**, producing massive quantities of [[Reactive Oxygen Species]] (ROS).
+- **Mechanism:** ROS like [[Superoxide anion]] and [[Hydroxyl radical]], along with the enzyme [[Myeloperoxidase]], drive the radical chain process that converts adrenaline into [[Adrenochrome]].
 - **Impact:** In certain inflammatory conditions, this pathway can account for over 80% of adrenaline oxidation, far exceeding normal enzymatic degradation.
 
 
@@ -30,22 +30,22 @@ While essential for killing pathogens, the oxidative environment created by neut
 
 
 ## Linking Summary:
-- New links added: [[notes/_link/Neutrophils]], [[Adrenochrome]], [[notes/_link/Epinephrine]], [[Oxidation]], [[notes/_link/Inflammation]], [[notes/_link/Reactive Oxygen Species]], [[Superoxide anion]], [[Hydroxyl radical]], [[notes/_link/Myeloperoxidase]], [[Lungs]], [[Oxidative Stress]]
-- Strong connections to strengthen: [[notes/_link/Neutrophils]] ↔ [[Adrenochrome]]
+- New links added: [[Neutrophils]], [[Adrenochrome]], [[Epinephrine]], [[Oxidation]], [[Inflammation]], [[Reactive Oxygen Species]], [[Superoxide anion]], [[Hydroxyl radical]], [[Myeloperoxidase]], [[Lungs]], [[Oxidative Stress]]
+- Strong connections to strengthen: [[Neutrophils]] ↔ [[Adrenochrome]]
 
-- New links added: [[Hypochlorous Acid]], [[notes/_link/Myeloperoxidase]]
-- Suggested new entity notes to create: [[Innate Immune System]], [[notes/_link/Respiratory Burst]]
-- Strong connections to strengthen: [[notes/_link/Neutrophils]] ↔ [[Hypochlorous Acid]]
+- New links added: [[Hypochlorous Acid]], [[Myeloperoxidase]]
+- Suggested new entity notes to create: [[Innate Immune System]], [[Respiratory Burst]]
+- Strong connections to strengthen: [[Neutrophils]] ↔ [[Hypochlorous Acid]]
 
 ## Connections
 - [[Adrenochrome]] ↔ Formed by neutrophil-mediated oxidation of adrenaline.
-- [[notes/_link/Epinephrine]] ↔ Substrate for oxidation in the neutrophil environment.
-- [[notes/_link/Myeloperoxidase]] ↔ Enzyme released by neutrophils that catalyzes adrenochrome formation.
-- [[notes/_link/Reactive Oxygen Species]] ↔ The primary agents of the neutrophil respiratory burst.
-- [[notes/_link/Inflammation]] ↔ The state that triggers neutrophil recruitment and activation.
+- [[Epinephrine]] ↔ Substrate for oxidation in the neutrophil environment.
+- [[Myeloperoxidase]] ↔ Enzyme released by neutrophils that catalyzes adrenochrome formation.
+- [[Reactive Oxygen Species]] ↔ The primary agents of the neutrophil respiratory burst.
+- [[Inflammation]] ↔ The state that triggers neutrophil recruitment and activation.
 
 
 ### Linking Summary:
-- New links added: [[Adrenochrome]], [[notes/_link/Epinephrine]], [[Hydroxyl radical]], [[Hypochlorous Acid]], [[notes/_link/Inflammation]], [[Lungs]], [[notes/_link/Myeloperoxidase]], [[notes/_link/Neutrophils]], [[Oxidation]], [[Oxidative Stress]], [[notes/_link/Reactive Oxygen Species]], [[Superoxide anion]]
-- Suggested new entity notes to create: [[Innate Immune System]], [[notes/_link/Respiratory Burst]]
-- Strong connections to strengthen: [[notes/_link/Neutrophils]] ↔ [[Adrenochrome]], [[notes/_link/Neutrophils]] ↔ [[Hypochlorous Acid]]
+- New links added: [[Adrenochrome]], [[Epinephrine]], [[Hydroxyl radical]], [[Hypochlorous Acid]], [[Inflammation]], [[Lungs]], [[Myeloperoxidase]], [[Neutrophils]], [[Oxidation]], [[Oxidative Stress]], [[Reactive Oxygen Species]], [[Superoxide anion]]
+- Suggested new entity notes to create: [[Innate Immune System]], [[Respiratory Burst]]
+- Strong connections to strengthen: [[Neutrophils]] ↔ [[Adrenochrome]], [[Neutrophils]] ↔ [[Hypochlorous Acid]]

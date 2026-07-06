@@ -12,17 +12,17 @@ updated: 2026-07-04
 
 # Heart Failure
 
-**Heart failure** is a complex clinical syndrome where the heart is unable to pump sufficiently to maintain blood flow. It is a common end-stage of [[notes/_link/Cardiovascular Disease]] and [[notes/_link/Hypertension]].
+**Heart failure** is a complex clinical syndrome where the heart is unable to pump sufficiently to maintain blood flow. It is a common end-stage of [[Cardiovascular Disease]] and [[Hypertension]].
 
 ## Connections
 
-- [[notes/_link/Cardiovascular Disease]] — Major cause of heart failure
-- [[notes/_link/Hypertension]] — Chronic pressure overload leads to HF
+- [[Cardiovascular Disease]] — Major cause of heart failure
+- [[Hypertension]] — Chronic pressure overload leads to HF
 - [[Oxidative Stress]] — Drives myocardial remodeling
-- [[notes/_link/Mitochondria|Mitochondrial]] dysfunction — Impaired energetics in failing hearts
+- [[Mitochondria|Mitochondrial]] dysfunction — Impaired energetics in failing hearts
 
 ## Linking Summary
 
-- New links added: [[notes/_link/Cardiovascular Disease]], [[notes/_link/Hypertension]], [[Oxidative Stress]], [[notes/_link/Mitochondria]]
+- New links added: [[Cardiovascular Disease]], [[Hypertension]], [[Oxidative Stress]], [[Mitochondria]]
 - Suggested new entity notes to create: [[Ejection Fraction]], [[BNP]], [[Cardiac Remodeling]]
-- Strong connections to strengthen: [[Heart Failure]] ↔ [[notes/_link/Cardiovascular Disease]]
+- Strong connections to strengthen: [[Heart Failure]] ↔ [[Cardiovascular Disease]]

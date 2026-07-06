@@ -11,7 +11,7 @@ updated: 2026-07-04
 
 # NOX2
 
-**NOX2** (gp91ᵖʰᵒˣ, NADPH oxidase 2) is the prototypical catalytic subunit of the NADPH oxidase family, encoded by the *CYBB* gene. It is the primary source of superoxide production in phagocytes during the [[notes/_link/Respiratory Burst|respiratory burst]] and is also expressed in microglia, endothelial cells, and cardiomyocytes.
+**NOX2** (gp91ᵖʰᵒˣ, NADPH oxidase 2) is the prototypical catalytic subunit of the NADPH oxidase family, encoded by the *CYBB* gene. It is the primary source of superoxide production in phagocytes during the [[Respiratory Burst|respiratory burst]] and is also expressed in microglia, endothelial cells, and cardiomyocytes.
 
 ## Structure & Activation
 
@@ -19,11 +19,11 @@ NOX2 is a transmembrane flavocytochrome that transfers electrons from cytosolic 
 
 ## Role in Immunity
 
-In [[notes/_link/Neutrophils]] and [[notes/_link/Macrophage|macrophages]], NOX2 generates high local concentrations of superoxide in the phagosome, which dismutates to [[notes/_link/Hydrogen Peroxide|H₂O₂]] and is converted to [[Hypochlorous Acid]] by [[notes/_link/Myeloperoxidase]]. This oxidative burst is essential for killing bacterial and fungal pathogens.
+In [[Neutrophils]] and [[Macrophage|macrophages]], NOX2 generates high local concentrations of superoxide in the phagosome, which dismutates to [[Hydrogen Peroxide|H₂O₂]] and is converted to [[Hypochlorous Acid]] by [[Myeloperoxidase]]. This oxidative burst is essential for killing bacterial and fungal pathogens.
 
 ## Pathological Roles
 
 - **[[Chronic Granulomatous Disease]] (CGD)**: Mutations in *CYBB* (X-linked) or other NOX2 subunits cause CGD, characterized by recurrent, life-threatening bacterial and fungal infections and dysregulated inflammatory granuloma formation.
-- **[[Neurodegeneration|Neurodegeneration]]**: Microglial NOX2 activation drives sustained [[Nitrative Stress|nitrative stress]] and contributes to neuronal loss in [[notes/_link/Parkinson's Disease]], [[notes/_link/Alzheimer's Disease]], and [[notes/_link/Amyotrophic Lateral Sclerosis]].
-- **[[notes/_link/Ischemia-reperfusion Injury]]**: Neutrophil NOX2 produces a burst of superoxide upon reperfusion, contributing to tissue damage.
-- **[[notes/_link/Cardiovascular Disease]]**: NOX2-derived superoxide in the vascular wall consumes [[notes/_link/Nitric Oxide|NO]], impairing vasodilation and promoting [[Endothelial Dysfunction|endothelial dysfunction]].
+- **[[Neurodegeneration|Neurodegeneration]]**: Microglial NOX2 activation drives sustained [[Nitrative Stress|nitrative stress]] and contributes to neuronal loss in [[Parkinson's Disease]], [[Alzheimer's Disease]], and [[Amyotrophic Lateral Sclerosis]].
+- **[[Ischemia-reperfusion Injury]]**: Neutrophil NOX2 produces a burst of superoxide upon reperfusion, contributing to tissue damage.
+- **[[Cardiovascular Disease]]**: NOX2-derived superoxide in the vascular wall consumes [[Nitric Oxide|NO]], impairing vasodilation and promoting [[Endothelial Dysfunction|endothelial dysfunction]].

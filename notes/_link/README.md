@@ -19,7 +19,7 @@ This directory contains entities that span across multiple topics within the kno
 | [[Atherosclerosis]]                      | 29_May_2026 08:20 AM | Medical Condition   | Cardiovascular                                  |
 | [[Autophagy]]                            | 29_May_2026 08:20 AM | Biological Process  | Longevity, Proteostasis                         |
 | [[Breast Cancer]]                        | 29_May_2026 08:20 AM | Medical Condition   | Cancer                                          |
-| [[notes/_link/Caloric Restriction]]                  | 29_May_2026 08:20 AM | Biological Process  | Longevity                                       |
+| [[Caloric Restriction]]                  | 29_May_2026 08:20 AM | Biological Process  | Longevity                                       |
 | [[Cancer]]                               | 29_May_2026 08:20 AM | Medical Condition   | Oncology                                        |
 | [[Cardiovascular Disease]]               | 29_May_2026 08:20 AM | Medical Condition   | Cardiology                                      |
 | [[Colorectal Cancer]]                    | 29_May_2026 08:20 AM | Medical Condition   | Cancer                                          |

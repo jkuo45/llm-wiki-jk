@@ -34,14 +34,14 @@ updated: 2026-07-04
 
 ## Clinical Relevance
 
-HIF-1α is frequently overexpressed in [[Cancer]] and linked to poor prognosis. It is a therapeutic target in [[notes/_link/Renal Cell Carcinoma]], [[glioblastoma]], and [[notes/_link/Breast Cancer]].
+HIF-1α is frequently overexpressed in [[Cancer]] and linked to poor prognosis. It is a therapeutic target in [[Renal Cell Carcinoma]], [[glioblastoma]], and [[Breast Cancer]].
 
 ## Connections
 
 - [[SIRT3]] — Destabilizes HIF-1α
 - [[SIRT6]] — Represses HIF-1α target genes
 - [[Warburg Effect]] — HIF-1α drives aerobic glycolysis
-- [[notes/_link/Breast Cancer]] — Overexpressed in hypoxic tumors
+- [[Breast Cancer]] — Overexpressed in hypoxic tumors
 - [[Glycolysis]] — Key downstream metabolic target
 
 
@@ -67,6 +67,6 @@ Hypoxia-inducible factor 1-alpha (HIF-1α) is a transcription factor that mediat
 
 ## Linking Summary
 
-- New links added: [[SIRT3]], [[SIRT6]], [[SIRT2]], [[Glycolysis]], [[Warburg Effect]], [[Angiogenesis]], [[VEGF]], [[Cancer]], [[notes/_link/Renal Cell Carcinoma]], [[notes/_link/Breast Cancer]]
+- New links added: [[SIRT3]], [[SIRT6]], [[SIRT2]], [[Glycolysis]], [[Warburg Effect]], [[Angiogenesis]], [[VEGF]], [[Cancer]], [[Renal Cell Carcinoma]], [[Breast Cancer]]
 - Suggested new entity notes to create: [[VHL]], [[PHD enzymes]], [[HIF-1β]]
 - Strong connections to strengthen: [[HIF-1α]] ↔ [[SIRT3]], [[HIF-1α]] ↔ [[SIRT6]]

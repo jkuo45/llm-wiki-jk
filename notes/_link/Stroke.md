@@ -22,17 +22,17 @@ updated: 2026-07-04
 
 ## Pathophysiology
 
-Stroke involves [[Oxidative Stress]], [[notes/_link/Inflammation]], [[Excitotoxicity]], and [[notes/_link/Apoptosis]] in the [[Ischemia-reperfusion Injury|ischemia-reperfusion]] cascade.
+Stroke involves [[Oxidative Stress]], [[Inflammation]], [[Excitotoxicity]], and [[Apoptosis]] in the [[Ischemia-reperfusion Injury|ischemia-reperfusion]] cascade.
 
 ## Connections
 
-- [[notes/_link/Cardiovascular Disease]] — Shared risk factors
-- [[notes/_link/Ischemia-reperfusion Injury]] — Key pathological process
-- [[notes/_link/Aging]] — Primary risk factor
-- [[notes/_link/Hypertension]] — Major modifiable risk factor
+- [[Cardiovascular Disease]] — Shared risk factors
+- [[Ischemia-reperfusion Injury]] — Key pathological process
+- [[Aging]] — Primary risk factor
+- [[Hypertension]] — Major modifiable risk factor
 
 ## Linking Summary
 
-- New links added: [[Oxidative Stress]], [[notes/_link/Inflammation]], [[notes/_link/Apoptosis]], [[notes/_link/Cardiovascular Disease]], [[notes/_link/Ischemia-reperfusion Injury]], [[notes/_link/Aging]]
+- New links added: [[Oxidative Stress]], [[Inflammation]], [[Apoptosis]], [[Cardiovascular Disease]], [[Ischemia-reperfusion Injury]], [[Aging]]
 - Suggested new entity notes to create: [[Thrombectomy]], [[tPA]], [[Excitotoxicity]]
-- Strong connections to strengthen: [[Stroke]] ↔ [[notes/_link/Ischemia-reperfusion Injury]]
+- Strong connections to strengthen: [[Stroke]] ↔ [[Ischemia-reperfusion Injury]]

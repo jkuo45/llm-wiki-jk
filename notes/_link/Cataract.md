@@ -16,11 +16,11 @@ updated: 2026-07-04
 ## Connections
 
 - [[Oxidative Stress]] — Primary driver of lens protein damage
-- [[notes/_link/Aging]] — Cataract prevalence increases with age
+- [[Aging]] — Cataract prevalence increases with age
 - [[UV-induced photoaging]] — UV exposure accelerates cataract formation
 
 ## Linking Summary
 
-- New links added: [[Oxidative Stress]], [[notes/_link/Aging]], [[UV-induced photoaging]]
+- New links added: [[Oxidative Stress]], [[Aging]], [[UV-induced photoaging]]
 - Suggested new entity notes to create: [[Crystallins]], [[Lens Epithelium]], [[Protein Carbonylation]]
 - Strong connections to strengthen: [[Cataract]] ↔ [[Oxidative Stress]]

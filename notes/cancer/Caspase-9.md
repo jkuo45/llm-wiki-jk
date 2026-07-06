@@ -1,6 +1,6 @@
 # Caspase-9
 
-**Caspase-9** is the primary initiator protease of the [[Intrinsic Pathway]] of [[notes/_link/Apoptosis|apoptosis]].
+**Caspase-9** is the primary initiator protease of the [[Intrinsic Pathway]] of [[Apoptosis|apoptosis]].
 
 ## Mechanism
 Caspase-9 is activated following the release of [[Cytochrome c]] from the mitochondria. Cytochrome c binds to [[Apaf-1]] and pro-caspase-9 in the presence of dATP/ATP to form the [[Apoptosome]] complex.

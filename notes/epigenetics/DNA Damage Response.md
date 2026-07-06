@@ -8,7 +8,7 @@ updated: 2024-07-04
 
 # DNA Damage Response
 
-The **DNA Damage Response (DDR)** is a coordinated signaling network that detects, signals, and repairs DNA lesions to maintain [[Genomic Instability|genomic stability]]. It integrates sensor proteins, transducer kinases, and effector pathways to enforce cell cycle checkpoints, activate [[DNA Repair|DNA repair mechanisms]], and — when damage is excessive — trigger [[notes/_link/Apoptosis|apoptosis]] or [[Cellular Senescence|senescence]].
+The **DNA Damage Response (DDR)** is a coordinated signaling network that detects, signals, and repairs DNA lesions to maintain [[Genomic Instability|genomic stability]]. It integrates sensor proteins, transducer kinases, and effector pathways to enforce cell cycle checkpoints, activate [[DNA Repair|DNA repair mechanisms]], and — when damage is excessive — trigger [[Apoptosis|apoptosis]] or [[Cellular Senescence|senescence]].
 
 ## Molecular Architecture
 
@@ -43,6 +43,6 @@ Persistent DDR signaling is a hallmark of [[Cellular Senescence]]. Three feature
 - **Aging:** Pharmacological DDR modulation is explored to reduce sterile inflammation from accumulated senescent cells, though cancer risk must be carefully managed.
 
 ### Linking Summary:
-- New links added: [[notes/_link/DNA Damage]], [[notes/_link/Senescence]], [[notes/_link/DNA Repair]], [[ATM]], [[ATR]], [[notes/_link/p53]], [[notes/_link/Apoptosis]], [[SASP]], [[Genomic Instability]]
+- New links added: [[DNA Damage]], [[Senescence]], [[DNA Repair]], [[ATM]], [[ATR]], [[p53]], [[Apoptosis]], [[SASP]], [[Genomic Instability]]
 - Suggested new entity notes to create: [[γH2AX]], [[MRN complex]], [[CHK1]], [[CHK2]], [[DNA-SCARS]]
-- Strong connections to strengthen: [[DNA Damage Response]] ↔ [[notes/_link/Senescence]], [[DNA Damage Response]] ↔ [[notes/_link/DNA Damage]]
+- Strong connections to strengthen: [[DNA Damage Response]] ↔ [[Senescence]], [[DNA Damage Response]] ↔ [[DNA Damage]]

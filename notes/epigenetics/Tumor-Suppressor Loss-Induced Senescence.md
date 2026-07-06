@@ -9,6 +9,6 @@ updated: 2024-01-01
 Tumor-Suppressor Loss-Induced Senescence is a biological process where the loss or inactivation of specific tumor suppressor genes, such as PTEN, leads to the induction of cellular senescence.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Senescence]], [[Tumor Suppressor Gene]]
+- New links added: [[Senescence]], [[Tumor Suppressor Gene]]
 - Suggested new entity notes to create: 
-- Strong connections to strengthen: [[Tumor-Suppressor Loss-Induced Senescence]] <-> [[notes/_link/Senescence]]
+- Strong connections to strengthen: [[Tumor-Suppressor Loss-Induced Senescence]] <-> [[Senescence]]

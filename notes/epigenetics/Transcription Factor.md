@@ -47,6 +47,6 @@ TFs and the [[Epigenome]] engage in bidirectional regulation:
 - **dCas9-based TFs:** [[CRISPRa]] and [[CRISPRi]] to modulate endogenous gene expression without altering the genome.
 
 ### Linking Summary:
-- New links added: [[Gene Expression]], [[Promoter]], [[Enhancer]], [[DNA Methylation]], [[Histone Modification]], [[notes/_link/Senescence]], [[notes/_link/p53]], [[NF-κB]], [[FOXO3]]
+- New links added: [[Gene Expression]], [[Promoter]], [[Enhancer]], [[DNA Methylation]], [[Histone Modification]], [[Senescence]], [[p53]], [[NF-κB]], [[FOXO3]]
 - Suggested new entity notes to create: [[DNA-binding domain]], [[Transactivation domain]], [[Super-enhancers]]
 - Strong connections to strengthen: [[Transcription Factor]] ↔ [[Gene Expression]], [[Transcription Factor]] ↔ [[Epigenetics]]

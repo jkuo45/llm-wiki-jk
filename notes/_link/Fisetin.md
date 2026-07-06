@@ -36,20 +36,20 @@ Within the [[SASP-Remodeling Aminochrome Complex]] strategy, Fisetin exploits th
 
 ## Bioavailability
 
-Research indicates that [[Fisetin]] can enhance the plasma levels of other [[Flavonoids|flavonoids]] like [[notes/_link/EGCG]] by inhibiting [[COMT]], potentially increasing the bioavailability of co-administered polyphenols.
+Research indicates that [[Fisetin]] can enhance the plasma levels of other [[Flavonoids|flavonoids]] like [[EGCG]] by inhibiting [[COMT]], potentially increasing the bioavailability of co-administered polyphenols.
 
 ## Connections
 
 - [[COMT]]: The enzyme responsible for fisetin's metabolism.
-- [[notes/_link/EGCG]]: Fisetin can increase the bioactive form of EGCG.
-- [[notes/_link/Quercetin]]: Often used alongside fisetin for similar antioxidant properties.
-- [[notes/_link/Senescence]]: Fisetin selectively targets senescent cells.
+- [[EGCG]]: Fisetin can increase the bioactive form of EGCG.
+- [[Quercetin]]: Often used alongside fisetin for similar antioxidant properties.
+- [[Senescence]]: Fisetin selectively targets senescent cells.
 - [[SASP-Remodeling Aminochrome Complex]]: A therapeutic strategy using fisetin.
 
 ---
 
 ### Linking Summary:
 
-- New links added: [[Flavonoids]], [[COMT]], [[COMT Inhibitors]], [[notes/_link/EGCG]], [[notes/_link/Quercetin]], [[notes/_link/Senescence]], [[Senomorphics]], [[SASP-Remodeling Aminochrome Complex]], [[Adrenochrome]]
+- New links added: [[Flavonoids]], [[COMT]], [[COMT Inhibitors]], [[EGCG]], [[Quercetin]], [[Senescence]], [[Senomorphics]], [[SASP-Remodeling Aminochrome Complex]], [[Adrenochrome]]
 - Suggested new entity notes to create: 
-- Strong connections to strengthen: [[Fisetin]] ↔ [[notes/_link/Senescence]], [[Fisetin]] ↔ [[SASP-Remodeling Aminochrome Complex]], [[Fisetin]] ↔ [[COMT]]
+- Strong connections to strengthen: [[Fisetin]] ↔ [[Senescence]], [[Fisetin]] ↔ [[SASP-Remodeling Aminochrome Complex]], [[Fisetin]] ↔ [[COMT]]

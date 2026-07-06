@@ -20,7 +20,7 @@ updated: 2026-07-04
 
 # Dopamine Transporter
 
-The **[[Dopamine Transporter]]** (also known as **[[DAT]]**) is a membrane protein responsible for the reuptake of [[notes/_link/Dopamine]] from the synaptic cleft back into the presynaptic neuron, terminating the signal and recycling the neurotransmitter.
+The **[[Dopamine Transporter]]** (also known as **[[DAT]]**) is a membrane protein responsible for the reuptake of [[Dopamine]] from the synaptic cleft back into the presynaptic neuron, terminating the signal and recycling the neurotransmitter.
 
 ## Regional Distribution
 
@@ -34,7 +34,7 @@ The regional complementarity between DAT and COMT is a key principle of catechol
 
 ## Connections
 
-- [[notes/_link/Dopamine]]: The neurotransmitter transported by DAT.
+- [[Dopamine]]: The neurotransmitter transported by DAT.
 - [[Sirtuins]]: The brain region where DAT activity is most prominent.
 - [[Prefrontal Cortex]]: The region where DAT is sparse and COMT is more dominant.
 - [[DAT]]: The common abbreviation for the dopamine transporter.
@@ -46,5 +46,5 @@ The regional complementarity between DAT and COMT is a key principle of catechol
 
 ### Linking Summary:
 
-- New links added: [[notes/_link/Dopamine]], [[Sirtuins]], [[Prefrontal Cortex]], [[COMT]], [[DAT]], [[Norepinephrine transporter]], [[Vesicular Monoamine Transporter 2]]
+- New links added: [[Dopamine]], [[Sirtuins]], [[Prefrontal Cortex]], [[COMT]], [[DAT]], [[Norepinephrine transporter]], [[Vesicular Monoamine Transporter 2]]
 - Strong connections to strengthen: [[Dopamine]] ↔ [[Dopamine Transporter]], [[COMT]] ↔ [[Dopamine Transporter]]

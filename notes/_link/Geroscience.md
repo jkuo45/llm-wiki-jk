@@ -7,7 +7,7 @@ updated: 2024-01-01
 ---
 # Geroscience
 
-**[[Geroscience]]** is an interdisciplinary field that seeks to understand the biological relationship between [[notes/_link/Aging]] and age-related diseases. The central hypothesis of geroscience is that because aging is the single greatest risk factor for most chronic diseases, slowing the fundamental processes of aging will delay the onset of multiple diseases simultaneously.
+**[[Geroscience]]** is an interdisciplinary field that seeks to understand the biological relationship between [[Aging]] and age-related diseases. The central hypothesis of geroscience is that because aging is the single greatest risk factor for most chronic diseases, slowing the fundamental processes of aging will delay the onset of multiple diseases simultaneously.
 
 ### 1. The "Hallmarks of Aging"
 Geroscience focuses on a set of interconnected biological drivers that characterize the aging process across species. These include:
@@ -18,20 +18,20 @@ Geroscience focuses on a set of interconnected biological drivers that character
 
 ### 2. Therapeutic Interventions (Geroprotectors)
 Geroscience researchers are investigating various "geroprotective" strategies to extend human healthspan:
-*   **Pharmacology**: Drugs like [[notes/_link/Metformin]], [[Resveratrol]], and [[notes/_link/Spermidine]].
-*   **Lifestyle**: Interventions like [[notes/_link/Caloric Restriction]] and exercise.
+*   **Pharmacology**: Drugs like [[Metformin]], [[Resveratrol]], and [[Spermidine]].
+*   **Lifestyle**: Interventions like [[Caloric Restriction]] and exercise.
 *   **New Technologies**: Emerging treatments like [[Senolytics]] that target and remove senescent cells.
 
 ### 3. Measuring Success
 The field relies heavily on accurate [[Biomarkers]] to measure the effectiveness of interventions. Tools like the [[Epigenetic Clock]] (e.g., [[DNAmGrimAge]]) are essential for determining whether a treatment is truly slowing biological aging.
 
 ### Connections
-- **[[notes/_link/Aging]]**: The central focus of geroscience research.
+- **[[Aging]]**: The central focus of geroscience research.
 - **[[Biomarkers]]**: Tools used to quantify biological age and the rate of decline.
 - **[[Senolytics]]**: A prominent class of drugs developed within the geroscience framework.
-- **[[notes/_link/Caloric Restriction]]**: The most widely studied intervention in the field.
+- **[[Caloric Restriction]]**: The most widely studied intervention in the field.
 
 ### Linking Summary:
-- New links added: [[Geroscience]], [[notes/_link/Aging]], [[DNA Methylation]], [[Histone Modification]], [[Genomic Instability]], [[Cellular Senescence]], [[Autophagy]], [[notes/_link/Metformin]], [[Resveratrol]], [[notes/_link/Spermidine]], [[notes/_link/Caloric Restriction]], [[Senolytics]], [[Biomarkers]], [[Epigenetic Clock]], [[DNAmGrimAge]]
+- New links added: [[Geroscience]], [[Aging]], [[DNA Methylation]], [[Histone Modification]], [[Genomic Instability]], [[Cellular Senescence]], [[Autophagy]], [[Metformin]], [[Resveratrol]], [[Spermidine]], [[Caloric Restriction]], [[Senolytics]], [[Biomarkers]], [[Epigenetic Clock]], [[DNAmGrimAge]]
 - Suggested new entity notes to create: [[Healthspan]], [[Geroprotectors]], [[Hallmarks of Aging]]
-- Strong connections to strengthen: [[Geroscience]] ↔ [[notes/_link/Aging]], [[Geroscience]] ↔ [[Senolytics]]
+- Strong connections to strengthen: [[Geroscience]] ↔ [[Aging]], [[Geroscience]] ↔ [[Senolytics]]

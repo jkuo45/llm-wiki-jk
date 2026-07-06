@@ -16,8 +16,8 @@ updated: 2026-07-04
 **Aminochromes** are a class of deep-colored, cyclic indole-quinone compounds formed by the [[Oxidation]] of [[Catecholamines]]. They are key intermediates in the formation of melanins and are associated with [[Oxidative Stress]].
 
 ## Key Examples
-- [[Adrenochrome]]: Derived from the oxidation of [[notes/_link/Epinephrine]].
-- [[Dopaminochrome]]: Derived from the oxidation of [[notes/_link/Dopamine]].
+- [[Adrenochrome]]: Derived from the oxidation of [[Epinephrine]].
+- [[Dopaminochrome]]: Derived from the oxidation of [[Dopamine]].
 - **Noradrenochrome:** Derived from the oxidation of Norepinephrine.
 
 ## Biochemical Properties
@@ -39,15 +39,15 @@ The formation of aminochromes is often a sign of excessive catecholamine oxidati
 - [[Oxidative Stress]] ↔ The condition that promotes aminochrome formation.
 
 ### Linking Summary:
-- New links added: [[Aminochromes]], [[Oxidation]], [[Catecholamines]], [[Adrenochrome]], [[notes/_link/Epinephrine]], [[Dopaminochrome]], [[notes/_link/Dopamine]], [[Neuromelanin]], [[Redox Cycling]], [[Superoxide anion]], [[Oxidative Stress]], [[Cardiotoxicity]]
+- New links added: [[Aminochromes]], [[Oxidation]], [[Catecholamines]], [[Adrenochrome]], [[Epinephrine]], [[Dopaminochrome]], [[Dopamine]], [[Neuromelanin]], [[Redox Cycling]], [[Superoxide anion]], [[Oxidative Stress]], [[Cardiotoxicity]]
 - Strong connections to strengthen: [[Aminochromes]] ↔ [[Catecholamines]]
 
 ## From [[neuromelanin/Aminochromes.md]]
 
 # Aminochromes
 
-[[Aminochromes]] are a class of cyclized quinone intermediates formed from the oxidation of [[Catecholamines]]. Key members include [[Dopaminochrome]] (from [[notes/_link/Dopamine]]) and [[Adrenochrome]] (from [[notes/_link/Epinephrine]]). Aminochromes are highly reactive and serve as the primary monomeric building blocks for [[Neuromelanin]] polymerization.
+[[Aminochromes]] are a class of cyclized quinone intermediates formed from the oxidation of [[Catecholamines]]. Key members include [[Dopaminochrome]] (from [[Dopamine]]) and [[Adrenochrome]] (from [[Epinephrine]]). Aminochromes are highly reactive and serve as the primary monomeric building blocks for [[Neuromelanin]] polymerization.
 
 ### Linking Summary:
-- New links added: [[Catecholamines]], [[Dopaminochrome]], [[notes/_link/Dopamine]], [[Adrenochrome]], [[notes/_link/Epinephrine]], [[Neuromelanin]]
+- New links added: [[Catecholamines]], [[Dopaminochrome]], [[Dopamine]], [[Adrenochrome]], [[Epinephrine]], [[Neuromelanin]]
 - Strong connections to strengthen: [[Aminochromes]] ↔ [[Neuromelanin]]

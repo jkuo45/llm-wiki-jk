@@ -41,4 +41,4 @@ Collagen provides structural support and elasticity to tissues such as skin, blo
 
 - New links added: [[Extracellular Matrix]], [[ECM]], [[Fibroblast]]
 - Suggested new entity notes to create: [[Connective Tissue]]
-- Strong connections to strengthen: [[Collagen]] ↔ [[notes/_link/Aging]]
+- Strong connections to strengthen: [[Collagen]] ↔ [[Aging]]

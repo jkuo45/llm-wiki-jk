@@ -17,4 +17,4 @@ T cells mediate adaptive cellular immunity. [[Autophagy]] regulates T cell activ
 ### Linking Summary:
 - New links added: [[Adaptive Immune Response]], [[Autophagy]]
 - Suggested new entity notes to create:
-- Strong connections to strengthen: [[T Cell]] ↔ [[notes/_link/Immunosenescence]]
+- Strong connections to strengthen: [[T Cell]] ↔ [[Immunosenescence]]

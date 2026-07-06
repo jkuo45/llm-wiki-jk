@@ -20,7 +20,7 @@ relations:
 
 ## Metabolic Role and Urea Cycle
 
-CPS1 is primarily expressed in hepatocytes and intestinal mucosal cells. Within the mitochondrial matrix, CPS1 combines ammonium ($NH_4^+$), bicarbonate ($HCO_3^-$), and two molecules of [[notes/_link/ATP|ATP]] to form carbamoyl phosphate. This product then enters the urea cycle by condensing with ornithine to form citrulline, facilitated by ornithine transcarbamylase (OTC).
+CPS1 is primarily expressed in hepatocytes and intestinal mucosal cells. Within the mitochondrial matrix, CPS1 combines ammonium ($NH_4^+$), bicarbonate ($HCO_3^-$), and two molecules of [[ATP|ATP]] to form carbamoyl phosphate. This product then enters the urea cycle by condensing with ornithine to form citrulline, facilitated by ornithine transcarbamylase (OTC).
 
 ## Regulation by SIRT5-Mediated Desuccinylation
 
@@ -38,9 +38,9 @@ In the mitochondria, CPS1 activity is highly regulated by post-translational mod
 
 - **[[SIRT5]]**: The mitochondrial desuccinylase that directly binds, deacylates, and activates CPS1.
 - **[[NAD+]]**: The obligatory co-substrate required by SIRT5 to deacetylate and desuccinylate CPS1.
-- **[[notes/_link/ATP|ATP]]**: The energy donor consumed during the rate-limiting reaction catalyzed by CPS1.
+- **[[ATP|ATP]]**: The energy donor consumed during the rate-limiting reaction catalyzed by CPS1.
 
 ## Linking Summary:
-- New links added: [[SIRT5]], [[NAD+]], [[notes/_link/ATP]]
+- New links added: [[SIRT5]], [[NAD+]], [[ATP]]
 - Suggested new entity notes to create: [[Ornithine transcarbamylase]], [[N-Acetylglutamate]]
 - Strong connections to strengthen: [[CPS1]] ↔ [[SIRT5]]

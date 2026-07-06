@@ -10,7 +10,7 @@ updated: 2024-01-01
 Longevity refers to the capacity of an organism to survive beyond the average lifespan, often influenced by a combination of genetic, environmental, and lifestyle factors.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Aging]], [[Genotype]], [[Successful Aging]], [[Centenarians]]
+- New links added: [[Aging]], [[Genotype]], [[Successful Aging]], [[Centenarians]]
 - Suggested new entity notes to create: [[Lifespan]]
 - Strong connections to strengthen: [[Longevity]] ↔ [[Epigenetics]]
 
@@ -69,14 +69,14 @@ Mild mitochondrial stress triggers adaptive responses that extend lifespan:
 
 ## Model Organisms and Their Relevance
 
-| Organism | Generation Time | Known Pathways | Relevance to Humans |
-|----------|----------------|----------------|-------------------|
-| [[S. cerevisiae]] | ~2 h | [[TOR]], [[RAS]], [[Sirtuins]] | [[Autophagy]], [[Proteostasis]] |
-| [[C. elegans]] | ~3 d | [[IIS (DAF-16/FOXO)]], [[Mitohormesis]], [[UPRmt]] | Conservation of longevity pathways |
-| [[Drosophila melanogaster]] | ~10 d | [[TOR]], [[IIS]], [[JNK]] | [[Immunosenescence]], [[Stem cells]] |
-| [[Mus musculus]] | ~10 wks | All mammalian hallmarks | Drug testing, [[Genetic manipulation]] |
-| *[[Rattus norvegicus]]* | ~12 wks | [[Caloric Restriction]], [[AMPK]] | Physiological similarity |
-| [[Zebrafish]] | ~3 mo | [[Telomere biology]], [[Regeneration]] | [[Regenerative Medicine]] |
+| Organism                    | Generation Time | Known Pathways                                         | Relevance to Humans                    |
+| --------------------------- | --------------- | ------------------------------------------------------ | -------------------------------------- |
+| [[S. cerevisiae]]           | ~2 h            | [[TOR]], [[RAS]], [[Sirtuins]]                         | [[Autophagy]], [[Proteostasis]]        |
+| [[C. elegans]]              | ~3 d            | ([[IIS DAF-16]]/[[FOXO]]), [[Mitohormesis]], [[UPRmt]] | Conservation of longevity pathways     |
+| [[Drosophila melanogaster]] | ~10 d           | [[TOR]], [[IIS]], [[JNK]]                              | [[Immunosenescence]], [[Stem cells]]   |
+| [[Mus musculus]]            | ~10 wks         | All mammalian hallmarks                                | Drug testing, [[Genetic manipulation]] |
+| *[[Rattus norvegicus]]*     | ~12 wks         | [[Caloric Restriction]], [[AMPK]]                      | Physiological similarity               |
+| [[Zebrafish]]               | ~3 mo           | [[Telomere biology]], [[Regeneration]]                 | [[Regenerative Medicine]]              |
 
 ## Interventions
 

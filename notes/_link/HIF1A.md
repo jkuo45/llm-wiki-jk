@@ -23,7 +23,7 @@ Hypoxia-inducible factor 1-alpha, a key transcription factor that mediates the c
 
 # HIF1A
 
-HIF1A (Hypoxia-Inducible Factor 1 Subunit Alpha) is a stress-responsive transcription factor that regulates the cellular response to [[notes/_link/Hypoxia|low oxygen levels]] and can modulate [[Macroautophagy|autophagy]].
+HIF1A (Hypoxia-Inducible Factor 1 Subunit Alpha) is a stress-responsive transcription factor that regulates the cellular response to [[Hypoxia|low oxygen levels]] and can modulate [[Macroautophagy|autophagy]].
 
 ## Function
 
@@ -33,6 +33,6 @@ HIF1A is a hypoxia-inducible transcription factor that regulates the cellular re
 HIF1A induces [[Autophagy]] under hypoxia through [[BNIP3]] and [[BNIP3L]]/NIX-mediated displacement of [[Beclin1]] from BCL-2. HIF1A also activates [[REDD1]] to inhibit [[mTORC1]].
 
 ### Linking Summary:
-- New links added: [[notes/_link/Hypoxia]], [[Macroautophagy]]
+- New links added: [[Hypoxia]], [[Macroautophagy]]
 - Suggested new entity notes to create: 
-- Strong connections to strengthen: [[HIF1A]] ↔ [[notes/_link/Hypoxia]]
+- Strong connections to strengthen: [[HIF1A]] ↔ [[Hypoxia]]

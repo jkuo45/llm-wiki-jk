@@ -1,6 +1,6 @@
 # DR4
 
-**DR4** (Death Receptor 4), also known as TRAIL-R1 or TNFRSF10A, is a cell surface receptor that triggers [[notes/_link/Apoptosis]] upon binding its ligand, [[TRAIL]].
+**DR4** (Death Receptor 4), also known as TRAIL-R1 or TNFRSF10A, is a cell surface receptor that triggers [[Apoptosis]] upon binding its ligand, [[TRAIL]].
 
 ## Mechanism
 Binding of [[TRAIL]] to DR4 induces receptor trimerization and the recruitment of the adaptor protein [[FADD]] and pro-[[Caspase-8]]. This assembly forms the **Death-Inducing Signaling Complex** (DISC), which activates the [[Extrinsic Pathway]].
@@ -16,6 +16,6 @@ Binding of [[TRAIL]] to DR4 induces receptor trimerization and the recruitment o
 - [[DR5]]: A closely related TRAIL receptor.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Apoptosis]], [[TRAIL]], [[FADD]], [[Caspase-8]], [[Extrinsic Pathway]], [[DR5]]
+- New links added: [[Apoptosis]], [[TRAIL]], [[FADD]], [[Caspase-8]], [[Extrinsic Pathway]], [[DR5]]
 - Suggested new entity notes to create: [[FADD]], [[DR5]]
 - Strong connections to strengthen: [[DR4]] ↔ [[TRAIL]]

@@ -11,6 +11,6 @@ The [[Hippo Signaling Pathway]], also known as the Salvador-Warts-Hippo (SWH) pa
 
 ### Linking Summary:
 
-- New links added: [[Contact Inhibition]], [[notes/_link/Apoptosis]], [[Cell Cycle]]
+- New links added: [[Contact Inhibition]], [[Apoptosis]], [[Cell Cycle]]
 - Suggested new entity notes to create: [[YAP/TAZ]]
 - Strong connections to strengthen: [[Hippo Signaling Pathway]] ↔ [[Cancer]]

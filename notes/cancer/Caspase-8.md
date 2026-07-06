@@ -1,6 +1,6 @@
 # Caspase-8
 
-**Caspase-8** is an initiator protease that plays a central role in the [[Extrinsic Pathway]] of [[notes/_link/Apoptosis|apoptosis]].
+**Caspase-8** is an initiator protease that plays a central role in the [[Extrinsic Pathway]] of [[Apoptosis|apoptosis]].
 
 ## Mechanism
 Caspase-8 is activated upon the binding of death ligands (e.g., [[FasL]], [[TRAIL]]) to their respective death receptors (e.g., [[Fas]], [[DR4]], [[DR5]]). This leads to the formation of the **Death-Inducing Signaling Complex** ([[DISC]]), which recruits and activates pro-caspase-8.

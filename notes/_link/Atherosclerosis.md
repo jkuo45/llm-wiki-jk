@@ -10,7 +10,7 @@ updated: 2026-05-29
 Atherosclerosis is a disease in which the inside of an artery narrows due to the build up of plaque. [[Oxidative Stress]] and [[Lipid Peroxidation]] are key drivers of plaque formation. It often involves [[Endothelial Dysfunction]] and the uptake of lipids via receptors like the [[CD36 Receptor]], while [[ABCA1]] helps in cholesterol efflux.
 
 
-**Atherosclerosis** is a chronic inflammatory disease characterized by the buildup of plaques within arterial walls. While traditionally viewed through the lens of lipid metabolism and inflammation, recent research has identified **[[Epigenetics]]** as a critical bridge between environmental risk factors and the biological process of **[[notes/_link/Aging]]**, which remains the primary non-modifiable risk factor for cardiovascular disease.
+**Atherosclerosis** is a chronic inflammatory disease characterized by the buildup of plaques within arterial walls. While traditionally viewed through the lens of lipid metabolism and inflammation, recent research has identified **[[Epigenetics]]** as a critical bridge between environmental risk factors and the biological process of **[[Aging]]**, which remains the primary non-modifiable risk factor for cardiovascular disease.
 
 
 ## 1. The Epigenetic Landscape of Atherosclerosis
@@ -34,24 +34,24 @@ A major discovery linking aging, epigenetics, and atherosclerosis is **Clonal He
 ## 4. Therapeutic Potential
 Unlike genetic mutations, epigenetic marks are potentially reversible:
 *   **Epigenetic Drugs:** Inhibitors of DNA methyltransferases (DNMTs) and [[Histone Deacetylase]]s ([[HDAC]]s) are being explored to "reset" the vascular epigenome.
-*   **Lifestyle:** [[notes/_link/Caloric Restriction]] and exercise have been shown to delay vascular aging, likely through epigenetic reprogramming of longevity-related pathways like [[Sirtuins]]s.
+*   **Lifestyle:** [[Caloric Restriction]] and exercise have been shown to delay vascular aging, likely through epigenetic reprogramming of longevity-related pathways like [[Sirtuins]]s.
 
 
 ## Linking Summary:
-- New links added: [[Epigenetics]], [[notes/_link/Aging]], [[DNA Methylation]], [[Histone Modification]], [[Non-coding RNA]], [[MicroRNA]], [[Epigenetic Clock]], [[DNAmGrimAge]], [[Clonal Hematopoiesis]], [[DNA Methyltransferase]], [[Histone Deacetylase]], [[HDAC]], [[notes/_link/Caloric Restriction]], [[Sirtuins]], [[notes/_link/Cardiovascular Disease]], [[Cellular Senescence]].
+- New links added: [[Epigenetics]], [[Aging]], [[DNA Methylation]], [[Histone Modification]], [[Non-coding RNA]], [[MicroRNA]], [[Epigenetic Clock]], [[DNAmGrimAge]], [[Clonal Hematopoiesis]], [[DNA Methyltransferase]], [[Histone Deacetylase]], [[HDAC]], [[Caloric Restriction]], [[Sirtuins]], [[Cardiovascular Disease]], [[Cellular Senescence]].
 - Suggested new entity notes to create: [[Clonal Hematopoiesis]], [[Vascular Senescence]], [[Endothelial Dysfunction]].
-- Strong connections to strengthen: [[notes/_link/Atherosclerosis]] ↔ [[notes/_link/Aging]], [[notes/_link/Atherosclerosis]] ↔ [[DNA Methylation]]
+- Strong connections to strengthen: [[Atherosclerosis]] ↔ [[Aging]], [[Atherosclerosis]] ↔ [[DNA Methylation]]
 
 ## Connections
-- **[[notes/_link/Cardiovascular Disease]]**: Atherosclerosis is the underlying cause of most cardiovascular diseases.
+- **[[Cardiovascular Disease]]**: Atherosclerosis is the underlying cause of most cardiovascular diseases.
 - **[[Cellular Senescence]]**: Vascular senescence contributes to plaque vulnerability and arterial stiffness.
 - **[[DNA Methylation]]**: Key marker for measuring biological age and vascular health.
 
 
 ### Linking Summary:
-- New links added: [[notes/_link/Aging]], [[notes/_link/Caloric Restriction]], [[notes/_link/Cardiovascular Disease]], [[Cellular Senescence]], [[Clonal Hematopoiesis]], [[DNA Methylation]], [[DNA Methyltransferase]], [[DNAmGrimAge]], [[Epigenetic Clock]], [[Epigenetics]], [[HDAC]], [[Histone Deacetylase]], [[Histone Modification]], [[MicroRNA]], [[Non-coding RNA]], [[Sirtuins]]
+- New links added: [[Aging]], [[Caloric Restriction]], [[Cardiovascular Disease]], [[Cellular Senescence]], [[Clonal Hematopoiesis]], [[DNA Methylation]], [[DNA Methyltransferase]], [[DNAmGrimAge]], [[Epigenetic Clock]], [[Epigenetics]], [[HDAC]], [[Histone Deacetylase]], [[Histone Modification]], [[MicroRNA]], [[Non-coding RNA]], [[Sirtuins]]
 - Suggested new entity notes to create: [[Clonal Hematopoiesis]], [[Endothelial Dysfunction]], [[Vascular Senescence]]
-- Strong connections to strengthen: [[notes/_link/Atherosclerosis]] ↔ [[notes/_link/Aging]], [[notes/_link/Atherosclerosis]] ↔ [[DNA Methylation]]
+- Strong connections to strengthen: [[Atherosclerosis]] ↔ [[Aging]], [[Atherosclerosis]] ↔ [[DNA Methylation]]
 
 ## Content from [[adrenochrome/Atherosclerosis.md]]
 

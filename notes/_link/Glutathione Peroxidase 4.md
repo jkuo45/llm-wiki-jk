@@ -20,12 +20,12 @@ updated: 2026-07-04
 ## Connections
 
 - [[Ferroptosis]] — GPx4 inactivation is the central trigger of ferroptosis
-- [[notes/_link/Glutathione]] — GPx4 requires GSH as a cofactor
+- [[Glutathione]] — GPx4 requires GSH as a cofactor
 - [[Lipid Peroxidation]] — GPx4 reduces lipid peroxides
-- [[notes/_link/Selenium]] — GPx4 is selenium-dependent
+- [[Selenium]] — GPx4 is selenium-dependent
 
 ## Linking Summary
 
-- New links added: [[Ferroptosis]], [[notes/_link/Glutathione]], [[Lipid Peroxidation]], [[notes/_link/Selenium]]
+- New links added: [[Ferroptosis]], [[Glutathione]], [[Lipid Peroxidation]], [[Selenium]]
 - Suggested new entity notes to create: [[GPx1]], [[GPx2]], [[GPx3]]
 - Strong connections to strengthen: [[Glutathione Peroxidase 4]] ↔ [[Ferroptosis]]

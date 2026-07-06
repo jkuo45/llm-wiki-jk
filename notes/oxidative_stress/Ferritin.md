@@ -18,13 +18,13 @@ Ferritin is a hollow, spherical protein shell composed of 24 subunits of two typ
 
 ## Regulation
 
-- **Transcriptional**: Ferritin is induced by [[notes/_link/NRF2]] (via ARE elements in FTH1 promoter) in response to oxidative stress and by [[Iron Regulatory Proteins]] (IRP1/IRP2) at the post-transcriptional level through binding iron-responsive elements (IREs) in the 5′ UTR.
+- **Transcriptional**: Ferritin is induced by [[NRF2]] (via ARE elements in FTH1 promoter) in response to oxidative stress and by [[Iron Regulatory Proteins]] (IRP1/IRP2) at the post-transcriptional level through binding iron-responsive elements (IREs) in the 5′ UTR.
 - **Degradation**: [[Ferritinophagy]] — the selective autophagic degradation of ferritin mediated by the cargo receptor [[NCOA4]] — liberates free iron, fueling ferroptosis.
 
 ## Clinical Relevance
 
 - **[[Ferroptosis]]**: Low ferritin levels increase susceptibility to ferroptosis by providing a larger pool of labile iron. NRF2-mediated ferritin induction protects against ferroptosis.
-- **[[Neurodegeneration|Neurodegeneration]]**: Iron accumulation (with ferritin dysregulation) in the [[notes/_link/Substantia Nigra]] is a hallmark of [[notes/_link/Parkinson's Disease]]; elevated ferritin in [[notes/_link/Alzheimer's Disease]] plaques.
-- **[[notes/_link/Cardiovascular Disease]]**: Serum ferritin is a marker of body iron stores; elevated ferritin is an independent risk factor for atherosclerosis and cardiovascular events.
+- **[[Neurodegeneration|Neurodegeneration]]**: Iron accumulation (with ferritin dysregulation) in the [[Substantia Nigra]] is a hallmark of [[Parkinson's Disease]]; elevated ferritin in [[Alzheimer's Disease]] plaques.
+- **[[Cardiovascular Disease]]**: Serum ferritin is a marker of body iron stores; elevated ferritin is an independent risk factor for atherosclerosis and cardiovascular events.
 - **Inflammation**: Ferritin is an acute-phase reactant induced by [[IL-1b]] and [[TNF-alpha]]; hyperferritinemia occurs in chronic inflammatory conditions.
 - **Ferritin Heavy Chain Mutations**: Rare mutations in *FTH1* cause a dominantly inherited form of [[Adult-Onset Basal Ganglia Disease]] (neuroferritinopathy), with iron accumulation in the basal ganglia leading to progressive motor dysfunction.

@@ -18,4 +18,4 @@ updated: 2026-07-04
 
 ## Pathological Relevance
 
-Oxidized cholesterol species, particularly [[7-Ketocholesterol]], accumulate in [[Lipid Peroxidation|oxidized LDL]] within atherosclerotic plaques, promoting foam cell death, inflammation, and plaque instability. Oxysterols are elevated in [[notes/_link/Atherosclerosis]], [[notes/_link/Alzheimer's Disease|neurodegenerative diseases]], and age-related macular degeneration.
+Oxidized cholesterol species, particularly [[7-Ketocholesterol]], accumulate in [[Lipid Peroxidation|oxidized LDL]] within atherosclerotic plaques, promoting foam cell death, inflammation, and plaque instability. Oxysterols are elevated in [[Atherosclerosis]], [[Alzheimer's Disease|neurodegenerative diseases]], and age-related macular degeneration.

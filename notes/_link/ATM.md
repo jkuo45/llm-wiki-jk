@@ -23,7 +23,7 @@ updated: 2026-07-04
 
 # ATM
 
-**ATM (Ataxia-Telangiectasia Mutated)** is a ~350 kDa serine/threonine protein kinase belonging to the [[PI3K-related kinase]] (PIKK) family. It functions as the master initiator of the [[DNA Damage Response|DNA damage response (DDR)]] to [[DNA double-strand breaks]] (DSBs), orchestrating cell cycle checkpoint activation, chromatin remodeling, DNA repair, and — if damage is irreparable — [[notes/_link/Apoptosis|apoptosis]] or [[Cellular Senescence|senescence]].
+**ATM (Ataxia-Telangiectasia Mutated)** is a ~350 kDa serine/threonine protein kinase belonging to the [[PI3K-related kinase]] (PIKK) family. It functions as the master initiator of the [[DNA Damage Response|DNA damage response (DDR)]] to [[DNA double-strand breaks]] (DSBs), orchestrating cell cycle checkpoint activation, chromatin remodeling, DNA repair, and — if damage is irreparable — [[Apoptosis|apoptosis]] or [[Cellular Senescence|senescence]].
 
 ## Mechanism of Activation
 
@@ -48,10 +48,10 @@ ATM activity declines with age in human tissues, correlating with increased geno
 ## Clinical Relevance
 
 - **Ataxia-Telangiectasia:** Biallelic ATM loss-of-function mutations cause the neurodegenerative disorder ataxia-telangiectasia, characterized by cerebellar degeneration, immunodeficiency, radiation sensitivity, and cancer predisposition.
-- **Cancer:** ATM somatic mutations are common in lymphoid malignancies, [[notes/_link/Breast Cancer|breast cancer]], and [[Pancreatic Cancer|pancreatic cancer]]. ATM-deficient tumors are selectively vulnerable to [[PARP inhibitors]] (e.g., [[Olaparib]]) and [[ATR inhibitors]].
+- **Cancer:** ATM somatic mutations are common in lymphoid malignancies, [[Breast Cancer|breast cancer]], and [[Pancreatic Cancer|pancreatic cancer]]. ATM-deficient tumors are selectively vulnerable to [[PARP inhibitors]] (e.g., [[Olaparib]]) and [[ATR inhibitors]].
 - **Aging:** Individuals with monoallelic ATM mutations show intermediate phenotypes, including increased [[DNA Damage|DNA damage]] accumulation and potentially accelerated [[Epigenetic Clock|epigenetic aging]].
 
 ### Linking Summary:
-- New links added: [[notes/_link/DNA Damage]], [[DNA Damage Response]], [[notes/_link/Senescence]], [[notes/_link/Apoptosis]], [[notes/_link/p53]], [[Cancer]], [[SASP]]
+- New links added: [[DNA Damage]], [[DNA Damage Response]], [[Senescence]], [[Apoptosis]], [[p53]], [[Cancer]], [[SASP]]
 - Suggested new entity notes to create: [[MRN complex]], [[H2AX]], [[CHK2]], [[ATR]]
-- Strong connections to strengthen: [[ATM]] ↔ [[DNA Damage Response]], [[ATM]] ↔ [[notes/_link/Senescence]]
+- Strong connections to strengthen: [[ATM]] ↔ [[DNA Damage Response]], [[ATM]] ↔ [[Senescence]]

@@ -8,11 +8,11 @@ type: document
 
 # Sirtuins Overview
 
-[[Sirtuins]] ([[SIRT1]]–[[SIRT7]]) are a family of seven [[NAD+]]-dependent enzymes (class III [[notes/_link/Histone Modification|histone deacetylases]]/deacylases) in humans. They play key roles in [[notes/_link/Metabolism|metabolism]], [[notes/_link/Aging|aging]], stress response, [[notes/_link/DNA Repair|DNA repair]], [[notes/_link/Inflammation|inflammation]], gene expression, and cellular homeostasis.
+[[Sirtuins]] ([[SIRT1]]–[[SIRT7]]) are a family of seven [[NAD+]]-dependent enzymes (class III [[Histone Modification|histone deacetylases]]/deacylases) in humans. They play key roles in [[Metabolism|metabolism]], [[Aging|aging]], stress response, [[DNA Repair|DNA repair]], [[Inflammation|inflammation]], gene expression, and cellular homeostasis.
 
 nature.com
 
-They share a conserved catalytic core but differ in subcellular localization, enzymatic activities ([[ADP-ribosylation]], deacetylation, desuccinylation, etc.), and specific functions. Their activity depends on [[NAD+]] levels, linking them to cellular energy status. They are implicated in [[notes/_link/Longevity|longevity]], [[notes/_link/Caloric Restriction|calorie restriction]] benefits, and age-related diseases like [[notes/_link/Diabetes Mellitus|diabetes]], [[Cancer|cancer]], [[notes/_link/Neurodegenerative Diseases|neurodegeneration]], and [[notes/_link/Cardiovascular Disease|cardiovascular issues]].
+They share a conserved catalytic core but differ in subcellular localization, enzymatic activities ([[ADP-ribosylation]], deacetylation, desuccinylation, etc.), and specific functions. Their activity depends on [[NAD+]] levels, linking them to cellular energy status. They are implicated in [[Longevity|longevity]], [[Caloric Restriction|calorie restriction]] benefits, and age-related diseases like [[Diabetes Mellitus|diabetes]], [[Cancer|cancer]], [[Neurodegenerative Diseases|neurodegeneration]], and [[Cardiovascular Disease|cardiovascular issues]].
 
 lifespan.io
 
@@ -23,54 +23,54 @@ Overview of Localization and Classes
 - Nuclear (Class IV): [[SIRT6]] (chromatin-associated), [[SIRT7]] (nucleolar).
   nature.com
 
-Localization can vary by cell type, [[notes/_link/Cell Cycle|cell cycle]] stage, and conditions.
+Localization can vary by cell type, [[Cell Cycle|cell cycle]] stage, and conditions.
 
 ### SIRT1 (Nuclear/Cytosolic, Class I)
 
-- Primary roles: Master regulator of [[notes/_link/Metabolism|metabolism]], stress resistance, and [[notes/_link/Longevity|longevity]]. Deacetylates histones (e.g., H3K9, H3K26) and many non-histone proteins ([[p53]], [[notes/_link/FOXO|FOXO]], [[notes/_link/NFKB|NF-κB]], [[PGC-1α]], etc.).
-- Key functions: Promotes [[notes/_link/Mitochondria|mitochondrial]] biogenesis, fatty acid oxidation, gluconeogenesis regulation, insulin sensitivity, [[notes/_link/DNA Repair|DNA repair]], [[Autophagy|autophagy]], reduces [[notes/_link/Inflammation|inflammation]]. Involved in [[notes/_link/Caloric Restriction|caloric restriction]] benefits.
+- Primary roles: Master regulator of [[Metabolism|metabolism]], stress resistance, and [[Longevity|longevity]]. Deacetylates histones (e.g., H3K9, H3K26) and many non-histone proteins ([[p53]], [[FOXO|FOXO]], [[NFKB|NF-κB]], [[PGC-1α]], etc.).
+- Key functions: Promotes [[Mitochondria|mitochondrial]] biogenesis, fatty acid oxidation, gluconeogenesis regulation, insulin sensitivity, [[DNA Repair|DNA repair]], [[Autophagy|autophagy]], reduces [[Inflammation|inflammation]]. Involved in [[Caloric Restriction|caloric restriction]] benefits.
 - Significance: Often called the "longevity sirtuin." Activation linked to anti-aging effects.
   lifespan.io
 
 ### SIRT2 (Cytosolic/Nuclear, Class I)
 
 - Primary roles: Mainly cytosolic; enters nucleus during mitosis. Deacetylase and deacylase.
-- Key functions: Regulates [[notes/_link/Cell Cycle|cell cycle]] (e.g., tubulin deacetylation), mitosis, cytoskeletal dynamics, glucose and lipid [[notes/_link/Metabolism|metabolism]]. Involved in [[Oxidative Stress|oxidative stress]] response and [[notes/_link/Neurodegenerative Diseases|neurodegeneration]] (e.g., [[notes/_link/Parkinson's Disease|Parkinson's]] links).
+- Key functions: Regulates [[Cell Cycle|cell cycle]] (e.g., tubulin deacetylation), mitosis, cytoskeletal dynamics, glucose and lipid [[Metabolism|metabolism]]. Involved in [[Oxidative Stress|oxidative stress]] response and [[Neurodegenerative Diseases|neurodegeneration]] (e.g., [[Parkinson's Disease|Parkinson's]] links).
 - Significance: Dual roles in [[Cancer|cancer]] (tumor suppressor or promoter depending on context).
   nature.com
 
 ### SIRT3 (Mitochondrial, Class I)
 
-- Primary roles: Major [[notes/_link/Mitochondria|mitochondrial]] deacetylase (also decrotonylase). Has a mitochondrial targeting sequence.
-- Key functions: Regulates [[notes/_link/Mitochondria|mitochondrial metabolism]], fatty acid oxidation, TCA cycle, electron transport chain, [[notes/_link/Reactive Oxygen Species|ROS]] detoxification (e.g., via [[notes/_link/Superoxide Dismutase|SOD2/Mn-SOD]]). Protects against [[Oxidative Stress|oxidative stress]] and maintains mitochondrial integrity.
-- Significance: Key for energy homeostasis; decline linked to [[notes/_link/Aging|aging]] and metabolic diseases. Often protective in heart and liver.
+- Primary roles: Major [[Mitochondria|mitochondrial]] deacetylase (also decrotonylase). Has a mitochondrial targeting sequence.
+- Key functions: Regulates [[Mitochondria|mitochondrial metabolism]], fatty acid oxidation, TCA cycle, electron transport chain, [[Reactive Oxygen Species|ROS]] detoxification (e.g., via [[Superoxide Dismutase|SOD2/Mn-SOD]]). Protects against [[Oxidative Stress|oxidative stress]] and maintains mitochondrial integrity.
+- Significance: Key for energy homeostasis; decline linked to [[Aging|aging]] and metabolic diseases. Often protective in heart and liver.
   lifespan.io
 
 ### SIRT4 (Mitochondrial, Class II)
 
 - Primary roles: Primarily [[ADP-ribosylation|ADP-ribosyltransferase]] (weaker deacetylase).
-- Key functions: Regulates insulin secretion, glutamine metabolism, fatty acid oxidation, and [[notes/_link/Mitochondria|mitochondrial function]]. Inhibits [[Glutamate Dehydrogenase (GDH)]].
-- Significance: More inhibitory role in [[notes/_link/Metabolism|metabolism]] compared to [[SIRT3]]; involved in nutrient sensing.
+- Key functions: Regulates insulin secretion, glutamine metabolism, fatty acid oxidation, and [[Mitochondria|mitochondrial function]]. Inhibits [[Glutamate Dehydrogenase (GDH)]].
+- Significance: More inhibitory role in [[Metabolism|metabolism]] compared to [[SIRT3]]; involved in nutrient sensing.
   aginganddisease.org
 
 ### SIRT5 (Mitochondrial, Class III)
 
 - Primary roles: Deacylase with preference for desuccinylation, demalonylation, and deglutarylation.
-- Key functions: Regulates urea cycle (e.g., CPS1), fatty acid oxidation, [[notes/_link/Reactive Oxygen Species|ROS]] management, and ketogenesis. Modulates [[notes/_link/Mitochondria|mitochondrial]] enzymes.
+- Key functions: Regulates urea cycle (e.g., CPS1), fatty acid oxidation, [[Reactive Oxygen Species|ROS]] management, and ketogenesis. Modulates [[Mitochondria|mitochondrial]] enzymes.
 - Significance: Important in ammonia detoxification and metabolic adaptation (e.g., fasting).
   aginganddisease.org
 
 ### SIRT6 (Nuclear/Chromatin, Class IV)
 
 - Primary roles: Deacetylase (e.g., H3K9, H3K56) and deacylase; chromatin-associated.
-- Key functions: Maintains genomic stability, [[notes/_link/Telomere Attrition|telomere function]], [[notes/_link/DNA Repair|DNA repair]] (base excision repair), regulates glycolysis and lipid [[notes/_link/Metabolism|metabolism]] (represses [[HIF1A|HIF-1α]], [[SREBP1|SREBP]]), [[notes/_link/Inflammation|inflammation]] control.
-- Significance: Strong links to [[notes/_link/Longevity|longevity]]; [[SIRT6]] overexpression extends lifespan in mice. Tumor suppressor role.
+- Key functions: Maintains genomic stability, [[Telomere Attrition|telomere function]], [[DNA Repair|DNA repair]] (base excision repair), regulates glycolysis and lipid [[Metabolism|metabolism]] (represses [[HIF1A|HIF-1α]], [[SREBP1|SREBP]]), [[Inflammation|inflammation]] control.
+- Significance: Strong links to [[Longevity|longevity]]; [[SIRT6]] overexpression extends lifespan in mice. Tumor suppressor role.
   lifespan.io
 
 ### SIRT7 (Nucleolar/Nuclear, Class IV)
 
 - Primary roles: Deacetylase (histones) and desuccinylase; enriched in nucleolus.
-- Key functions: Regulates [[TAFI68|rRNA transcription]] (via RNA Pol I), ribosome biogenesis, [[notes/_link/DNA Damage|DNA damage]] repair, chromatin organization. Involved in stress response and [[notes/_link/Metabolism|metabolism]].
+- Key functions: Regulates [[TAFI68|rRNA transcription]] (via RNA Pol I), ribosome biogenesis, [[DNA Damage|DNA damage]] repair, chromatin organization. Involved in stress response and [[Metabolism|metabolism]].
 - Significance: Supports cell growth/proliferation; roles in [[Cancer|cancer]] and heart function.
   mdpi.com
 
@@ -78,19 +78,19 @@ Localization can vary by cell type, [[notes/_link/Cell Cycle|cell cycle]] stage,
 
 | Sirtuin | Localization        | Main Activities           | Key Functions                       |
 | ------- | ------------------- | ------------------------- | ----------------------------------- |
-| [[SIRT1]]   | Nucleus/Cytosol     | Deacetylase               | [[notes/_link/Metabolism|Metabolism]], [[notes/_link/Longevity|longevity]], [[notes/_link/DNA Repair|DNA repair]]   |
-| [[SIRT2]]   | Cytosol/Nucleus     | Deacetylase/Deacylase     | [[notes/_link/Cell Cycle|Cell cycle]], cytoskeleton            |
-| [[SIRT3]]   | Mitochondria        | Deacetylase               | [[notes/_link/Mitochondria|Mitochondrial metabolism]], [[notes/_link/Reactive Oxygen Species|ROS]]       |
+| [[SIRT1]]   | Nucleus/Cytosol     | Deacetylase               | [[Metabolism|Metabolism]], [[Longevity|longevity]], [[DNA Repair|DNA repair]]   |
+| [[SIRT2]]   | Cytosol/Nucleus     | Deacetylase/Deacylase     | [[Cell Cycle|Cell cycle]], cytoskeleton            |
+| [[SIRT3]]   | Mitochondria        | Deacetylase               | [[Mitochondria|Mitochondrial metabolism]], [[Reactive Oxygen Species|ROS]]       |
 | [[SIRT4]]   | Mitochondria        | [[ADP-ribosylation|ADP-ribosyltransferase]]    | Insulin secretion, glutamine metab. |
 | [[SIRT5]]   | Mitochondria        | Desuccinylase etc.        | Urea cycle, ketogenesis             |
-| [[SIRT6]]   | Nucleus (chromatin) | Deacetylase/Deacylase     | Genomic stability, [[notes/_link/Metabolism|metabolism]]       |
+| [[SIRT6]]   | Nucleus (chromatin) | Deacetylase/Deacylase     | Genomic stability, [[Metabolism|metabolism]]       |
 | [[SIRT7]]   | Nucleolus/Nucleus   | Deacetylase/Desuccinylase | [[TAFI68|rRNA transcription]], stress response |
 
-Sirtuins are promising therapeutic targets. Activators (e.g., [[Resveratrol|resveratrol]] for [[SIRT1]], [[NAD+]] precursors like [[notes/_link/Nicotinamide Mononucleotide|NMN]]/[[notes/_link/Nicotinamide Riboside|NR]]) and inhibitors are under study for metabolic, [[notes/_link/Neurodegenerative Diseases|neurodegenerative]], and oncologic conditions. Effects can be context-dependent (tissue, disease state). Consult recent reviews or specialists for the latest research, as the field evolves rapidly.
+Sirtuins are promising therapeutic targets. Activators (e.g., [[Resveratrol|resveratrol]] for [[SIRT1]], [[NAD+]] precursors like [[Nicotinamide Mononucleotide|NMN]]/[[Nicotinamide Riboside|NR]]) and inhibitors are under study for metabolic, [[Neurodegenerative Diseases|neurodegenerative]], and oncologic conditions. Effects can be context-dependent (tissue, disease state). Consult recent reviews or specialists for the latest research, as the field evolves rapidly.
 
 ---
 
-Sirtuins are a family of [[NAD+]]-dependent enzymes (usually 7 in mammals: [[SIRT1]]–[[SIRT7]]) that play key roles in metabolic regulation, stress response, [[notes/_link/DNA Repair|DNA repair]], [[notes/_link/Aging|aging]], and gene expression. They act primarily by removing specific chemical modifications from proteins (and sometimes other molecules).
+Sirtuins are a family of [[NAD+]]-dependent enzymes (usually 7 in mammals: [[SIRT1]]–[[SIRT7]]) that play key roles in metabolic regulation, stress response, [[DNA Repair|DNA repair]], [[Aging|aging]], and gene expression. They act primarily by removing specific chemical modifications from proteins (and sometimes other molecules).
 
 Here is a clear explanation of each activity mentioned:
 
@@ -110,20 +110,20 @@ The specific deacylase activities listed are subtypes based on the exact acyl gr
 - Removes: An acetyl group (–COCH₃) from lysine residues (Lys-acetyl).
 - Most common and best-studied sirtuin activity.
 - Examples: [[SIRT1]], [[SIRT2]], [[SIRT3]] are strong deacetylases.
-- Biological role: Regulates histones (gene expression), transcription factors (e.g., [[p53]], [[notes/_link/FOXO|FOXO]], [[PGC-1α]]), metabolic enzymes, etc. Often linked to [[notes/_link/Longevity|longevity]] and [[notes/_link/Caloric Restriction|caloric restriction]] benefits.
+- Biological role: Regulates histones (gene expression), transcription factors (e.g., [[p53]], [[FOXO|FOXO]], [[PGC-1α]]), metabolic enzymes, etc. Often linked to [[Longevity|longevity]] and [[Caloric Restriction|caloric restriction]] benefits.
 
 #### • Demalonylase activity
 
 - Removes: A malonyl group (–COCH₂COO⁻) from lysine.
 - Less common.
 - Malonylation is a metabolic mark often associated with high glucose/lipid conditions.
-- Helps regulate [[notes/_link/Mitochondria|mitochondrial metabolism]] and fatty acid synthesis.
+- Helps regulate [[Mitochondria|mitochondrial metabolism]] and fatty acid synthesis.
 
 #### • Desuccinylase activity
 
 - Removes: A succinyl group (–COCH₂CH₂COO⁻) from lysine.
-- Important in [[notes/_link/Mitochondria|mitochondria]] (especially [[SIRT5]]).
-- Succinylation is a marker of metabolic status; removing it regulates enzymes in the TCA cycle, fatty acid oxidation, and ketone body [[notes/_link/Metabolism|metabolism]].
+- Important in [[Mitochondria|mitochondria]] (especially [[SIRT5]]).
+- Succinylation is a marker of metabolic status; removing it regulates enzymes in the TCA cycle, fatty acid oxidation, and ketone body [[Metabolism|metabolism]].
 
 #### • Depalmitoylase activity
 
@@ -135,7 +135,7 @@ The specific deacylase activities listed are subtypes based on the exact acyl gr
 
 - Removes: A myristoyl group (C14 saturated fatty acid chain) from lysine.
 - Similar to depalmitoylation but with a slightly shorter chain.
-- Myristoylation is involved in protein targeting to membranes and in [[notes/_link/Apoptosis|apoptotic]] pathways.
+- Myristoylation is involved in protein targeting to membranes and in [[Apoptosis|apoptotic]] pathways.
 - Some sirtuins (e.g., [[SIRT6]]) show efficient demyristoylase activity.
 
 ---
@@ -144,23 +144,23 @@ The specific deacylase activities listed are subtypes based on the exact acyl gr
 
 | Activity                    | Group Removed   | Typical Chain/Structure     | Main Biological Context         |
 | --------------------------- | --------------- | --------------------------- | ------------------------------- |
-| Mono-[[ADP-ribosylation|ADP-ribosyltransferase]] | ADP-ribose      | Large nucleotide derivative | Signaling, [[notes/_link/DNA Repair|DNA repair]]           |
-| Deacetylase                 | Acetyl (C2)     | –COCH₃                      | Gene expression, [[notes/_link/Metabolism|metabolism]]     |
-| Demalonylase                | Malonyl         | –COCH₂COO⁻                  | Lipid [[notes/_link/Metabolism|metabolism]]                |
-| Desuccinylase               | Succinyl        | –COCH₂CH₂COO⁻               | [[notes/_link/Mitochondria|Mitochondrial metabolism]]        |
+| Mono-[[ADP-ribosylation|ADP-ribosyltransferase]] | ADP-ribose      | Large nucleotide derivative | Signaling, [[DNA Repair|DNA repair]]           |
+| Deacetylase                 | Acetyl (C2)     | –COCH₃                      | Gene expression, [[Metabolism|metabolism]]     |
+| Demalonylase                | Malonyl         | –COCH₂COO⁻                  | Lipid [[Metabolism|metabolism]]                |
+| Desuccinylase               | Succinyl        | –COCH₂CH₂COO⁻               | [[Mitochondria|Mitochondrial metabolism]]        |
 | Depalmitoylase              | Palmitoyl (C16) | Long fatty acid chain       | Membrane association, signaling |
-| Demyristoylase              | Myristoyl (C14) | Shorter fatty acid chain    | Protein targeting, [[notes/_link/Apoptosis|apoptosis]]    |
+| Demyristoylase              | Myristoyl (C14) | Shorter fatty acid chain    | Protein targeting, [[Apoptosis|apoptosis]]    |
 
-Key point: Most sirtuins have multiple of these activities, but they differ in preference and efficiency depending on the isoform ([[SIRT1]] is mainly a deacetylase, while [[SIRT5]] is a strong desuccinylase/demalonylase, and [[SIRT6]] has strong de-fatty-acylase activities). These activities allow sirtuins to act as metabolic sensors: they use [[NAD+]] as a co-substrate, so their activity rises when cellular energy is low (high [[NAD+]]/NADH ratio), linking [[notes/_link/Metabolism|metabolism]] directly to protein regulation.
+Key point: Most sirtuins have multiple of these activities, but they differ in preference and efficiency depending on the isoform ([[SIRT1]] is mainly a deacetylase, while [[SIRT5]] is a strong desuccinylase/demalonylase, and [[SIRT6]] has strong de-fatty-acylase activities). These activities allow sirtuins to act as metabolic sensors: they use [[NAD+]] as a co-substrate, so their activity rises when cellular energy is low (high [[NAD+]]/NADH ratio), linking [[Metabolism|metabolism]] directly to protein regulation.
 
 
 ---
 
 # What is the "down side" to this CD38 inhibition?
 
-Inhibiting [[CD38]] preserves [[NAD+]] by reducing its consumption, boosts [[Sirtuins|sirtuin]] (especially [[SIRT3]]) activity, improves [[notes/_link/Mitochondria|mitochondrial function]], and ameliorates aspects of metabolic and physical decline in [[notes/_link/Aging|aging]] models. [[CD38]] knockout mice or inhibition also preserves the [[NAD+]] precursor [[notes/_link/Nicotinamide Mononucleotide|NMN]], enhancing responses to precursors like [[notes/_link/Nicotinamide Mononucleotide|NMN]]/[[notes/_link/Nicotinamide Riboside|NR]].
+Inhibiting [[CD38]] preserves [[NAD+]] by reducing its consumption, boosts [[Sirtuins|sirtuin]] (especially [[SIRT3]]) activity, improves [[Mitochondria|mitochondrial function]], and ameliorates aspects of metabolic and physical decline in [[Aging|aging]] models. [[CD38]] knockout mice or inhibition also preserves the [[NAD+]] precursor [[Nicotinamide Mononucleotide|NMN]], enhancing responses to precursors like [[Nicotinamide Mononucleotide|NMN]]/[[Nicotinamide Riboside|NR]].
 
-Potential downsides of [[CD38]] inhibition include immune-related risks, sex-specific or off-target effects, neurological/behavioral impacts (from genetic models), and the fact that it's not fully "risk-free" even if promising for [[notes/_link/Aging|aging]].
+Potential downsides of [[CD38]] inhibition include immune-related risks, sex-specific or off-target effects, neurological/behavioral impacts (from genetic models), and the fact that it's not fully "risk-free" even if promising for [[Aging|aging]].
 
 [nad.com](https://www.nad.com/news/inhibiting-nad-breakdown-increases-lifespan-prevents-age-related-physical-decline)
 
@@ -174,7 +174,7 @@ pubmed.ncbi.nlm.nih.gov +1
 - In humans, anti-[[CD38]] monoclonal antibodies (e.g., [[Daratumumab|daratumumab]] for [[Multiple Myeloma|multiple myeloma]]) are associated with higher infection rates, including serious ones. This is partly due to depleting CD38+ immune cells or broader immunomodulation.
 	pmc.ncbi.nlm.nih.gov +1
 - Chronic inhibition (especially systemic/small-molecule) might mimic some of this, though enzymatic inhibitors (like [[CD38 inhibitor 78c|78c]]) differ from depleting antibodies.
-This is a trade-off: reducing age-related [[notes/_link/Inflammaging|"inflammaging"]] and [[NAD+]] consumption via [[CD38]] could blunt beneficial acute immune responses.
+This is a trade-off: reducing age-related [[Inflammaging|"inflammaging"]] and [[NAD+]] consumption via [[CD38]] could blunt beneficial acute immune responses.
 
 ### 2. Sex-Specific or Adverse Reactions in Studies
 
@@ -182,7 +182,7 @@ In one key longevity study with the [[CD38]] inhibitor [[CD38 inhibitor 78c|78c]
 - It increased lifespan and healthspan markers (exercise, muscle, metabolism, [[NAD+]] levels) more clearly in males (~14% lifespan boost).
 - Many females showed severe adverse reactions leading to early euthanasia (though treated females that tolerated it also showed benefits).
 	[nad.com](https://www.nad.com/news/inhibiting-nad-breakdown-increases-lifespan-prevents-age-related-physical-decline)
-This highlights possible hormonal interactions, differential immune effects, or [[notes/_link/Metabolism|metabolism]] differences that need clarification. No major tumor increase was noted, which is reassuring given some links between [[CD38]] and [[Cancer|cancer]] contexts.
+This highlights possible hormonal interactions, differential immune effects, or [[Metabolism|metabolism]] differences that need clarification. No major tumor increase was noted, which is reassuring given some links between [[CD38]] and [[Cancer|cancer]] contexts.
 
 ### 3. Neurological and Behavioral Effects (Primarily from Knockout Models)
 
@@ -195,13 +195,13 @@ These are constitutive genetic knockouts (from development onward), so they may 
 
 ### 4. Other Potential Limitations
 
-- Homeostatic role: [[CD38]] may act as an "arbitrator" of [[NAD+]] levels in normal conditions. Over-inhibition could disrupt fine-tuned [[NAD+]] [[notes/_link/Metabolism|metabolism]] or compensatory mechanisms (e.g., some cells upregulate [[CD38]] in response to high [[NAD+]]).
+- Homeostatic role: [[CD38]] may act as an "arbitrator" of [[NAD+]] levels in normal conditions. Over-inhibition could disrupt fine-tuned [[NAD+]] [[Metabolism|metabolism]] or compensatory mechanisms (e.g., some cells upregulate [[CD38]] in response to high [[NAD+]]).
 	[mdpi.com](https://www.mdpi.com/2073-4409/13/21/1799)
 - Incomplete translation: Benefits are strong in aging/inflammation-driven [[NAD+]] decline models, but effects in young/healthy subjects or certain diseases (e.g., arrhythmias or specific cardiac contexts) may differ or even be counterproductive.
 - [[Cancer|Cancer]] context is mixed: Inhibiting [[CD38]] can help in some [[Tumor Microenvironment|tumor microenvironments]] (reducing immunosuppression), but [[CD38]] has complex roles; no clear pro-cancer signal in aging mouse studies, but caution is needed.
-- Practical: Small-molecule inhibitors are preclinical; long-term human safety data is limited. Natural inhibitors (e.g., apigenin, [[notes/_link/Quercetin|quercetin]]) are weaker/more pleiotropic.
+- Practical: Small-molecule inhibitors are preclinical; long-term human safety data is limited. Natural inhibitors (e.g., apigenin, [[Quercetin|quercetin]]) are weaker/more pleiotropic.
 
-**Bottom line:** [[CD38]] inhibition is one of the more compelling [[NAD+]]-related anti-aging strategies because it addresses a root cause of decline (especially inflammation-driven) and synergizes with precursors like [[notes/_link/Nicotinamide Mononucleotide|NMN]]/[[notes/_link/Nicotinamide Riboside|NR]]. However, the immune trade-offs are real and could be the biggest "downside" for otherwise healthy people—potentially raising infection susceptibility in exchange for better metabolic/mitochondrial aging resilience. Genetic models also flag possible brain/behavior effects. More human data (especially long-term) is essential. It may work best in older individuals with high [[notes/_link/Inflammaging|inflammaging]] or combined carefully with other interventions. Consult experts for personal use.
+**Bottom line:** [[CD38]] inhibition is one of the more compelling [[NAD+]]-related anti-aging strategies because it addresses a root cause of decline (especially inflammation-driven) and synergizes with precursors like [[Nicotinamide Mononucleotide|NMN]]/[[Nicotinamide Riboside|NR]]. However, the immune trade-offs are real and could be the biggest "downside" for otherwise healthy people—potentially raising infection susceptibility in exchange for better metabolic/mitochondrial aging resilience. Genetic models also flag possible brain/behavior effects. More human data (especially long-term) is essential. It may work best in older individuals with high [[Inflammaging|inflammaging]] or combined carefully with other interventions. Consult experts for personal use.
 
 ---
 
@@ -213,7 +213,7 @@ These are constitutive genetic knockouts (from development onward), so they may 
 
 ### CD38 Expression and Dual Roles in Cancer
 
-[[CD38]] is a multifunctional transmembrane glycoprotein (ADP-ribosyl cyclase) involved in [[NAD+]] [[notes/_link/Metabolism|metabolism]], calcium signaling (via [[cADPR]], NAADP), and immune regulation. It is highly expressed on:
+[[CD38]] is a multifunctional transmembrane glycoprotein (ADP-ribosyl cyclase) involved in [[NAD+]] [[Metabolism|metabolism]], calcium signaling (via [[cADPR]], NAADP), and immune regulation. It is highly expressed on:
 - Malignant plasma cells in [[Multiple Myeloma|multiple myeloma]] (primary target).
 - Various hematologic malignancies (e.g., certain lymphomas, leukemias).
 - Subsets of immune cells in the [[Tumor Microenvironment|TME]] (Tregs, MDSCs, TAMs, Bregs, etc.).
@@ -236,7 +236,7 @@ Mechanisms of action:
 - Antibody-dependent cellular cytotoxicity (ADCC) via NK cells.
 - Antibody-dependent cellular phagocytosis (ADCP).
 - Complement-dependent cytotoxicity (CDC).
-- Direct [[notes/_link/Apoptosis|apoptosis]] (stronger with [[Isatuximab|isatuximab]]).
+- Direct [[Apoptosis|apoptosis]] (stronger with [[Isatuximab|isatuximab]]).
 - Immunomodulation: Depletes CD38+ Tregs/MDSCs, boosts T/NK cell anti-tumor activity.
 	[link.springer.com](https://link.springer.com/article/10.1186/s12967-024-05768-6)
 
@@ -278,6 +278,6 @@ They are transformative in [[Multiple Myeloma|MM]]:
 ---
 
 ## Linking Summary:
-- New links added: [[Sirtuins]], [[SIRT1]], [[SIRT2]], [[SIRT3]], [[SIRT4]], [[SIRT5]], [[SIRT6]], [[SIRT7]], [[NAD+]], [[notes/_link/Histone Modification|histone deacetylases]], [[notes/_link/Metabolism|metabolism]], [[notes/_link/Aging|aging]], [[notes/_link/DNA Repair|DNA repair]], [[notes/_link/Inflammation|inflammation]], [[ADP-ribosylation]], [[notes/_link/Longevity|longevity]], [[notes/_link/Caloric Restriction|calorie restriction]], [[notes/_link/Diabetes Mellitus|diabetes]], [[Cancer|cancer]], [[notes/_link/Neurodegenerative Diseases|neurodegeneration]], [[notes/_link/Cardiovascular Disease|cardiovascular issues]], [[notes/_link/Cell Cycle|cell cycle]], [[Oxidative Stress|oxidative stress]], [[notes/_link/Parkinson's Disease|Parkinson's]], [[notes/_link/Reactive Oxygen Species|ROS]], [[notes/_link/Superoxide Dismutase|SOD2/Mn-SOD]], [[p53]], [[notes/_link/FOXO|FOXO]], [[notes/_link/NFKB|NF-κB]], [[PGC-1α]], [[Autophagy|autophagy]], [[Glutamate Dehydrogenase (GDH)]], [[notes/_link/Telomere Attrition|telomere function]], [[HIF1A|HIF-1α]], [[SREBP1|SREBP]], [[TAFI68|rRNA transcription]], [[Resveratrol|resveratrol]], [[notes/_link/Nicotinamide Mononucleotide|NMN]], [[notes/_link/Nicotinamide Riboside|NR]], [[CD38]], [[CD38 inhibitor 78c|78c]], [[notes/_link/Inflammaging|inflammaging]], [[Daratumumab]], [[Multiple Myeloma|multiple myeloma]], [[notes/_link/Apoptosis|apoptosis]], [[Tumor Microenvironment|TME]], [[notes/_link/Quercetin|quercetin]], [[cADPR]], [[Prostate Cancer|prostate]], [[Lung Cancer|lung cancer]], [[glioblastoma|glioblastoma]]
+- New links added: [[Sirtuins]], [[SIRT1]], [[SIRT2]], [[SIRT3]], [[SIRT4]], [[SIRT5]], [[SIRT6]], [[SIRT7]], [[NAD+]], [[Histone Modification|histone deacetylases]], [[Metabolism|metabolism]], [[Aging|aging]], [[DNA Repair|DNA repair]], [[Inflammation|inflammation]], [[ADP-ribosylation]], [[Longevity|longevity]], [[Caloric Restriction|calorie restriction]], [[Diabetes Mellitus|diabetes]], [[Cancer|cancer]], [[Neurodegenerative Diseases|neurodegeneration]], [[Cardiovascular Disease|cardiovascular issues]], [[Cell Cycle|cell cycle]], [[Oxidative Stress|oxidative stress]], [[Parkinson's Disease|Parkinson's]], [[Reactive Oxygen Species|ROS]], [[Superoxide Dismutase|SOD2/Mn-SOD]], [[p53]], [[FOXO|FOXO]], [[NFKB|NF-κB]], [[PGC-1α]], [[Autophagy|autophagy]], [[Glutamate Dehydrogenase (GDH)]], [[Telomere Attrition|telomere function]], [[HIF1A|HIF-1α]], [[SREBP1|SREBP]], [[TAFI68|rRNA transcription]], [[Resveratrol|resveratrol]], [[Nicotinamide Mononucleotide|NMN]], [[Nicotinamide Riboside|NR]], [[CD38]], [[CD38 inhibitor 78c|78c]], [[Inflammaging|inflammaging]], [[Daratumumab]], [[Multiple Myeloma|multiple myeloma]], [[Apoptosis|apoptosis]], [[Tumor Microenvironment|TME]], [[Quercetin|quercetin]], [[cADPR]], [[Prostate Cancer|prostate]], [[Lung Cancer|lung cancer]], [[glioblastoma|glioblastoma]]
 - Suggested new entity notes to create: [[CD38 inhibitor 78c]], [[ADP-ribosylation]], [[cADPR]]
 - Strong connections to strengthen: [[Sirtuins]] ↔ [[CD38]], [[CD38]] ↔ [[CD38 inhibitor 78c]], [[CD38]] ↔ [[cADPR]]

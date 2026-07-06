@@ -33,10 +33,10 @@ In glomerular mesangial cells, Smad7 stability and TGF-$\beta$-induced apoptotic
 
 - [[SIRT1]] — deacetylates Smad7 on Lys⁶⁰ and Lys⁷⁰, promoting its Smurf1-mediated degradation
 - [[Apoptosis]] — cell death pathway inhibited by SIRT1-mediated Smad7 degradation in kidney cells
-- [[notes/_link/Kidney Diseases|Kidney Diseases]] — pathological context where the SIRT1–Smad7 axis is protective (e.g., glomerular apoptosis)
+- [[Kidney Diseases|Kidney Diseases]] — pathological context where the SIRT1–Smad7 axis is protective (e.g., glomerular apoptosis)
 
 ## Linking Summary
 
-- New links added: [[SIRT1]], [[Apoptosis]], [[notes/_link/Kidney Diseases]]
+- New links added: [[SIRT1]], [[Apoptosis]], [[Kidney Diseases]]
 - Suggested new entity notes to create: [[Smurf1]], [[TGF-beta Signaling]]
 - Strong connections to strengthen: [[Smad7]] ↔ [[SIRT1]]

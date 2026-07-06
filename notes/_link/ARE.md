@@ -16,7 +16,7 @@ updated: 2026-07-04
 
 ## Target Genes
 
-ARE-regulated genes include [[NQO1]], [[HO-1]], [[GCLM]]/[[GCLC]] (glutathione synthesis), [[notes/_link/Glutathione]] S-transferases (GSTs), and [[notes/_link/Superoxide Dismutase]].
+ARE-regulated genes include [[NQO1]], [[HO-1]], [[GCLM]]/[[GCLC]] (glutathione synthesis), [[Glutathione]] S-transferases (GSTs), and [[Superoxide Dismutase]].
 
 ## Activation
 
@@ -27,10 +27,10 @@ ARE-regulated genes include [[NQO1]], [[HO-1]], [[GCLM]]/[[GCLC]] (glutathione s
 - [[NRF2]] — Transcription factor binding ARE
 - [[Sulforaphane]] — Potent ARE activator
 - [[HO-1]] — Canonical ARE target gene
-- [[notes/_link/Glutathione]] — Synthesis enzymes are ARE targets
+- [[Glutathione]] — Synthesis enzymes are ARE targets
 
 ## Linking Summary
 
-- New links added: [[NRF2]], [[Sulforaphane]], [[HO-1]], [[notes/_link/Glutathione]], [[Oxidative Stress]], [[Curcumin]]
+- New links added: [[NRF2]], [[Sulforaphane]], [[HO-1]], [[Glutathione]], [[Oxidative Stress]], [[Curcumin]]
 - Suggested new entity notes to create: [[Keap1]], [[NQO1]], [[GCLM]]
 - Strong connections to strengthen: [[ARE]] ↔ [[NRF2]]

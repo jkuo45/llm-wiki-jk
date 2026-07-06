@@ -15,5 +15,5 @@ updated: 2024-01-01
 
 ## Related
 - [[Model Organisms]]
-- [[notes/_link/Aging]]
+- [[Aging]]
 - [[IGF-1]]

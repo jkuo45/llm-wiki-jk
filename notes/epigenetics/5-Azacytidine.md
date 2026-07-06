@@ -53,6 +53,6 @@ Response rates in MDS are 40–50%, with better outcomes in patients with [[TET2
 - **Positive control:** [[Decitabine]] at equivalent concentrations for comparative studies.
 
 ### Linking Summary:
-- New links added: [[DNMT1]], [[Epigenetic Modifiers]], [[notes/_link/Senescence]], [[Stress-Induced Premature Senescence]], [[DNA Methylation]], [[notes/_link/DNA Damage]], [[p53]], [[p16INK4A]], [[SASP]]
+- New links added: [[DNMT1]], [[Epigenetic Modifiers]], [[Senescence]], [[Stress-Induced Premature Senescence]], [[DNA Methylation]], [[DNA Damage]], [[p53]], [[p16INK4A]], [[SASP]]
 - Suggested new entity notes to create: [[Vidaza]], [[Myelodysplastic Syndrome]], [[TET2 mutations in MDS]]
 - Strong connections to strengthen: [[5-Azacytidine]] ↔ [[Decitabine]], [[5-Azacytidine]] ↔ [[DNMT1]]

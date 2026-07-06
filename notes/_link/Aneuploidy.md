@@ -12,6 +12,6 @@ The presence of an abnormal number of chromosomes in a cell.
 
 ### Linking Summary:
 
-- New links added: [[Oocyte]], [[Meiosis]], [[notes/_link/Aging]]
+- New links added: [[Oocyte]], [[Meiosis]], [[Aging]]
 - Suggested new entity notes to create: [[Trisomy]]
 - Strong connections to strengthen: [[Aneuploidy]] ↔ [[Cancer]]

@@ -1,6 +1,6 @@
 # Smac/DIABLO
 
-**Smac/DIABLO** (Second mitochondria-derived activator of caspases / Direct IAP-binding protein with low pI) is a pro-apoptotic protein released from the mitochondria during [[notes/_link/Apoptosis]].
+**Smac/DIABLO** (Second mitochondria-derived activator of caspases / Direct IAP-binding protein with low pI) is a pro-apoptotic protein released from the mitochondria during [[Apoptosis]].
 
 ## Mechanism
 Like [[Cytochrome c]], Smac/DIABLO is released into the cytoplasm following mitochondrial outer membrane permeabilization. Its primary function is to neutralize [[Inhibitor of Apoptosis Proteins]] (IAPs), such as [[XIAP]], [[Survivin]], and c-IAP1/2.
@@ -18,6 +18,6 @@ The discovery of Smac/DIABLO has led to the development of **Smac mimetics** (e.
 - [[TRAIL]]: Smac mimetics often synergize with TRAIL to induce apoptosis in resistant cells.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Apoptosis]], [[Cytochrome c]], [[Inhibitor of Apoptosis Proteins]], [[XIAP]], [[Survivin]], [[Caspase-9]], [[Caspase-3]], [[Caspase-7]], [[Intrinsic Pathway]], [[TRAIL]]
+- New links added: [[Apoptosis]], [[Cytochrome c]], [[Inhibitor of Apoptosis Proteins]], [[XIAP]], [[Survivin]], [[Caspase-9]], [[Caspase-3]], [[Caspase-7]], [[Intrinsic Pathway]], [[TRAIL]]
 - Suggested new entity notes to create: [[Caspase-7]], [[SM-164]]
 - Strong connections to strengthen: [[Smac/DIABLO]] ↔ [[XIAP]], [[Smac/DIABLO]] ↔ [[Inhibitor of Apoptosis Proteins]]

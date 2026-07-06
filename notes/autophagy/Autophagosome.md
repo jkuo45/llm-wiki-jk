@@ -10,7 +10,7 @@ An **Autophagosome** is a double-membrane vesicle that forms the central structu
 
 ## Formation
 - Initiated by the formation of a phagophore, which expands and eventually closes to form the autophagosome.
-- Regulated by the [[Atg]] machinery, including the [[ULK1]] complex and [[notes/_link/PI3K]]/[[Vps34]] complex.
+- Regulated by the [[Atg]] machinery, including the [[ULK1]] complex and [[PI3K]]/[[Vps34]] complex.
 - **[[LC3]] (Atg8)**: A key protein that is lipidated (LC3-II) and incorporated into the autophagosomal membrane, serving as a standard marker for autophagosomes.
 
 ## Maturation and Fusion
@@ -23,6 +23,6 @@ An **Autophagosome** is a double-membrane vesicle that forms the central structu
 Autophagosomes are double-membrane vesicles that sequester cytoplasmic cargo for delivery to lysosomes. Nucleation requires the ULK1 and PI3K complexes.
 
 ### Linking Summary:
-- New links added: [[Macroautophagy]], [[Lysosome]], [[Atg]], [[ULK1]], [[notes/_link/PI3K]], [[Vps34]], [[LC3]]
+- New links added: [[Macroautophagy]], [[Lysosome]], [[Atg]], [[ULK1]], [[PI3K]], [[Vps34]], [[LC3]]
 - Suggested new entity notes to create: , [[Atg]]
 - Strong connections to strengthen: [[Autophagosome]] ↔ [[Macroautophagy]], [[Autophagosome]] ↔ [[LC3]]

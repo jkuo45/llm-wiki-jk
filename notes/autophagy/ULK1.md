@@ -33,13 +33,13 @@ ULK1 functions as part of a stable complex (the ULK1 complex) that includes:
 ULK1 integrates signals from two master nutrient-sensing pathways:
 
 - **[[mTORC1]] Inhibition**: Under nutrient-rich conditions, mTORC1 directly phosphorylates ULK1 at Ser757 (human), disrupting the ULK1-AMPK interaction and suppressing autophagy. Under nutrient deprivation or rapamycin treatment, mTORC1 dissociates from the ULK1 complex, relieving inhibition.
-- **[[notes/_link/AMPK]] Activation**: Under energy stress (low ATP/high AMP), AMPK directly phosphorylates ULK1 at multiple sites (Ser317, Ser467, Ser555, Ser574, Ser637, and Ser777). These phosphorylations activate ULK1 and promote its translocation to autophagosome formation sites.
+- **[[AMPK]] Activation**: Under energy stress (low ATP/high AMP), AMPK directly phosphorylates ULK1 at multiple sites (Ser317, Ser467, Ser555, Ser574, Ser637, and Ser777). These phosphorylations activate ULK1 and promote its translocation to autophagosome formation sites.
 
 ## Kinase Substrates and Downstream Targets
 
 Once activated, ULK1 phosphorylates numerous substrates that coordinate early autophagy:
 
-- **[[Beclin1]]**: ULK1 phosphorylates Beclin1 at Ser14, enhancing the activity of the class III [[notes/_link/PI3K]]/[[Vps34]] complex.
+- **[[Beclin1]]**: ULK1 phosphorylates Beclin1 at Ser14, enhancing the activity of the class III [[PI3K]]/[[Vps34]] complex.
 - **[[ATG9]]**: ULK1 phosphorylates ATG9A, promoting its trafficking from the trans-Golgi network to the phagophore assembly site (PAS).
 - **[[VPS34]]**: Indirectly regulates VPS34 complex activity via Beclin1 phosphorylation.
 - **[[p62]]/[[SQSTM1]]**: ULK1 phosphorylates p62, promoting selective autophagy.
@@ -61,7 +61,7 @@ Once activated, ULK1 phosphorylates numerous substrates that coordinate early au
 ## Connections
 
 - [[Autophagy]]: ULK1 is the master initiator of autophagy.
-- [[notes/_link/AMPK]]: Activates ULK1 under energy stress, sirtuin-responsive.
+- [[AMPK]]: Activates ULK1 under energy stress, sirtuin-responsive.
 - [[mTORC1]]: Inhibits ULK1 under nutrient-rich conditions.
 - [[Beclin1]]: Direct substrate of ULK1; coordinates VPS34 complex.
 - [[ATG13]] / [[FIP200]] / [[ATG101]]: Core complex components.
@@ -69,6 +69,6 @@ Once activated, ULK1 phosphorylates numerous substrates that coordinate early au
 
 ## Linking Summary
 
-- New links added: [[Autophagy]], [[Atg1]], [[notes/_link/AMPK]], [[mTORC1]], [[ATG13]], [[FIP200]], [[ATG101]], [[Beclin1]], [[Vps34]], [[notes/_link/PI3K]], [[SIRT1]], [[SIRT2]], [[SIRT3]]
+- New links added: [[Autophagy]], [[Atg1]], [[AMPK]], [[mTORC1]], [[ATG13]], [[FIP200]], [[ATG101]], [[Beclin1]], [[Vps34]], [[PI3K]], [[SIRT1]], [[SIRT2]], [[SIRT3]]
 - Suggested new entity notes to create: [[ATG9]], [[FIP200]], [[ATG101]], [[SESN2]]
-- Strong connections to strengthen: [[ULK1]] ↔ [[notes/_link/AMPK]], [[ULK1]] ↔ [[mTORC1]], [[ULK1]] ↔ [[Autophagy]], [[ULK1]] ↔ [[SIRT1]]
+- Strong connections to strengthen: [[ULK1]] ↔ [[AMPK]], [[ULK1]] ↔ [[mTORC1]], [[ULK1]] ↔ [[Autophagy]], [[ULK1]] ↔ [[SIRT1]]

@@ -15,5 +15,5 @@ updated: 2024-01-01
 
 ## Related
 - [[Chromatin]]
-- [[notes/_link/DNA Repair]]
+- [[DNA Repair]]
 - [[Genomic Instability]]

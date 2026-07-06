@@ -1,6 +1,6 @@
 # MDM2
 
-**MDM2** (Mouse double minute 2 homolog) is a nuclear phosphoprotein that functions as the primary negative regulator of the [[notes/_link/p53]] tumor suppressor protein.
+**MDM2** (Mouse double minute 2 homolog) is a nuclear phosphoprotein that functions as the primary negative regulator of the [[p53]] tumor suppressor protein.
 
 ## Mechanism
 MDM2 regulates p53 through several mechanisms:
@@ -13,12 +13,12 @@ MDM2 regulates p53 through several mechanisms:
 - **Drug Target**: Inhibiting the MDM2-p53 interaction (e.g., with [[Nutlins]]) is a major therapeutic strategy to restore p53 function.
 
 ## Connections
-- [[notes/_link/p53]]: The primary substrate and target of MDM2.
+- [[p53]]: The primary substrate and target of MDM2.
 - [[Nutlins]]: Small molecule inhibitors that block the MDM2-p53 interaction.
-- [[notes/_link/Apoptosis]]: MDM2 prevents p53-mediated apoptosis.
+- [[Apoptosis]]: MDM2 prevents p53-mediated apoptosis.
 - [[Senescence]]: MDM2 prevents p53-mediated senescence.
 
 ### Linking Summary:
-- New links added: [[notes/_link/p53]], [[glioblastoma]], [[Nutlins]], [[notes/_link/Apoptosis]], [[Senescence]]
+- New links added: [[p53]], [[glioblastoma]], [[Nutlins]], [[Apoptosis]], [[Senescence]]
 - Suggested new entity notes to create: [[Nutlins]]
-- Strong connections to strengthen: [[MDM2]] ↔ [[notes/_link/p53]], [[MDM2]] ↔ [[Nutlins]]
+- Strong connections to strengthen: [[MDM2]] ↔ [[p53]], [[MDM2]] ↔ [[Nutlins]]

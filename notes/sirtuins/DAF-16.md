@@ -32,10 +32,10 @@ The sirtuin-FOXO axis is an evolutionarily ancient longevity-regulating mechanis
 - [[Sir2 (yeast)]] — yeast Sir2 is the evolutionary ancestor; worm SIR-2.1 interacts with DAF-16
 - [[SIRT1]] — mammalian sirtuin; SIRT1 deacetylates mammalian FOXO orthologues (FOXO1/3a/4)
 - [[FoxO1]] — mammalian FOXO orthologue
-- [[notes/_link/Caloric Restriction]] — longevity pathway linked to sirtuin and DAF-16 activation
+- [[Caloric Restriction]] — longevity pathway linked to sirtuin and DAF-16 activation
 
 ## Linking Summary
 
-- New links added: [[Sir2 (yeast)]], [[SIRT1]], [[FoxO1]], [[notes/_link/Caloric Restriction]]
+- New links added: [[Sir2 (yeast)]], [[SIRT1]], [[FoxO1]], [[Caloric Restriction]]
 - Suggested new entity notes to create: [[Dauer Larva]], [[14-3-3 protein]]
 - Strong connections to strengthen: [[DAF-16]] ↔ [[Sir2 (yeast)]]

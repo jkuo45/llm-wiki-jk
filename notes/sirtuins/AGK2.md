@@ -59,12 +59,12 @@ AGK2 selectively binds to the catalytic cleft of [[SIRT2]], blocking its deacety
 - **[[SIRT2]]** — direct molecular target inhibited by AGK2.
 - **[[FOXO3a]]** — downstream transcription factor regulated by AGK2/SIRT2-dependent deacetylation.
 - **[[SirReal2]]** — fellow, highly selective SIRT2 inhibitor.
-- **[[notes/_link/Alzheimer's Disease]]** — neurological context where SIRT2 inhibition shows therapeutic promise.
+- **[[Alzheimer's Disease]]** — neurological context where SIRT2 inhibition shows therapeutic promise.
 
 ---
 
 ## Linking Summary
 
-- **New Links Added**: [[SIRT2]], [[FOXO3a]], [[SirReal2]], [[notes/_link/Alzheimer's Disease]], [[p53]]
+- **New Links Added**: [[SIRT2]], [[FOXO3a]], [[SirReal2]], [[Alzheimer's Disease]], [[p53]]
 - **Suggested New Notes to Create**: [[Alpha-Synuclein Toxicity]], [[Microtubule Acetylation]]
 - **Strong Connections to Strengthen**: [[AGK2]] ↔ [[SIRT2]], [[AGK2]] ↔ [[FOXO3a]]

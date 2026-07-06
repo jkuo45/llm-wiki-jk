@@ -32,11 +32,11 @@ updated: 2026-07-04
 ## Connections
 
 - [[SIRT1]] — interacts with and modulates the repressor activity of Hes1 and Hey2
-- [[notes/_link/Notch Signaling]] — upstream pathway activating Hes1 and Hey2 expression
-- [[notes/_link/Neurogenesis]] — developmental process regulated by Hes1
+- [[Notch Signaling]] — upstream pathway activating Hes1 and Hey2 expression
+- [[Neurogenesis]] — developmental process regulated by Hes1
 
 ## Linking Summary
 
-- New links added: [[SIRT1]], [[notes/_link/Notch Signaling]], [[notes/_link/Neurogenesis]]
+- New links added: [[SIRT1]], [[Notch Signaling]], [[Neurogenesis]]
 - Suggested new entity notes to create: [[Hes1]], [[Hey2]], [[bHLH Transcription Factors]], [[Notch Signaling]]
 - Strong connections to strengthen: [[Hes1 and Hey2]] ↔ [[SIRT1]]

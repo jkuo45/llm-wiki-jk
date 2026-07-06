@@ -13,4 +13,4 @@ updated: 2024-01-01
 
 - New links added: [[Cell Cycle]], [[Cyclin]], [[CDK]], [[CDK2]], [[CDK4]], [[CDK6]]
 - Suggested new entity notes to create: [[CDK Inhibitor]]
-- Strong connections to strengthen: [[Cyclin-Dependent Kinase]] ↔ [[notes/_link/Transcription]]
+- Strong connections to strengthen: [[Cyclin-Dependent Kinase]] ↔ [[Transcription]]

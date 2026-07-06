@@ -11,9 +11,9 @@ updated: 2024-01-01
 
 ## Role in Aging Research
 - Used to study the genetic basis of longevity and the impact of diet on life span.
-- Key discoveries: Role of [[notes/_link/mTOR]] and sirtuins in aging.
+- Key discoveries: Role of [[mTOR]] and sirtuins in aging.
 
 ## Related
 - [[Model Organisms]]
-- [[notes/_link/Aging]]
-- [[notes/_link/mTOR]]
+- [[Aging]]
+- [[mTOR]]

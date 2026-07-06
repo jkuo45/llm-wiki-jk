@@ -12,11 +12,11 @@ updated: 2026-07-04
 
 ## Role in [[Aminochromes]]
 The formation of a **quinone moiety** is the first step in the [[Oxidation]] of [[Catecholamines]] to [[Aminochromes]].
-- **Catechol to o-Quinone:** The two hydroxyl groups on the benzene ring of a catecholamine (like [[notes/_link/Dopamine]] or [[notes/_link/Epinephrine]]) are oxidized to carbonyl groups, forming an unstable ortho-quinone (o-quinone).
+- **Catechol to o-Quinone:** The two hydroxyl groups on the benzene ring of a catecholamine (like [[Dopamine]] or [[Epinephrine]]) are oxidized to carbonyl groups, forming an unstable ortho-quinone (o-quinone).
 - **Cyclization:** This o-quinone intermediate then undergoes internal cyclization to form the [[Indoline]] ring system found in [[Adrenochrome]] and [[Dopaminochrome]].
 
 ## Biochemical Properties
-Quinones are highly reactive and are potent electrophiles. They can react with cellular nucleophiles (like glutathione or proteins) or participate in [[Redox Cycling]], generating [[notes/_link/Reactive Oxygen Species]] (ROS).
+Quinones are highly reactive and are potent electrophiles. They can react with cellular nucleophiles (like glutathione or proteins) or participate in [[Redox Cycling]], generating [[Reactive Oxygen Species]] (ROS).
 
 ## Connections
 - [[Aminochromes]] ↔ Molecules that contain a fused quinone-indoline structure.
@@ -26,5 +26,5 @@ Quinones are highly reactive and are potent electrophiles. They can react with c
 - [[Indoline]] ↔ The ring system fused to the quinone moiety in aminochromes.
 
 ### Linking Summary:
-- New links added: [[Quinone]], [[Aminochromes]], [[Oxidation]], [[Catecholamines]], [[notes/_link/Dopamine]], [[notes/_link/Epinephrine]], [[Indoline]], [[Adrenochrome]], [[Dopaminochrome]], [[Redox Cycling]], [[notes/_link/Reactive Oxygen Species]]
+- New links added: [[Quinone]], [[Aminochromes]], [[Oxidation]], [[Catecholamines]], [[Dopamine]], [[Epinephrine]], [[Indoline]], [[Adrenochrome]], [[Dopaminochrome]], [[Redox Cycling]], [[Reactive Oxygen Species]]
 - Strong connections to strengthen: [[Quinone]] ↔ [[Oxidation]]

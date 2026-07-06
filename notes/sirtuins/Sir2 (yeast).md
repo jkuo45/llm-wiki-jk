@@ -90,13 +90,13 @@ Sir2 is the prototypical member of a large and ancient gene family now called **
 - [[SIRT1]] — closest mammalian homologue (Class Ia); conserved biological roles
 - [[NAD+]] — obligatory co-substrate for all Sir2 family deacetylase activity
 - [[OAADPr]] — unique metabolic by-product of Sir2-catalysed deacetylation
-- [[notes/_link/Caloric Restriction]] — Sir2 is required for CR-mediated lifespan extension in yeast and flies
+- [[Caloric Restriction]] — Sir2 is required for CR-mediated lifespan extension in yeast and flies
 - [[Extrachromosomal rDNA Circles (ERCs)]] — Sir2 suppresses ERC formation, preventing accelerated aging
 - [[Resveratrol]] — pharmacological activator of Sir2/SIRT1; extends lifespan in yeast and other organisms
 - [[DAF-16]] — required for _sir-2.1_-dependent lifespan extension in _C. elegans_
 
 ## Linking Summary
 
-- New links added: [[SIRT1]], [[NAD+]], [[OAADPr]], [[notes/_link/Caloric Restriction]], [[Resveratrol]], [[DAF-16]]
+- New links added: [[SIRT1]], [[NAD+]], [[OAADPr]], [[Caloric Restriction]], [[Resveratrol]], [[DAF-16]]
 - Suggested new entity notes to create: [[Extrachromosomal rDNA Circles (ERCs)]], [[DAF-16]], [[Replicative Lifespan (Yeast)]]
-- Strong connections to strengthen: [[Sir2 (yeast)]] ↔ [[SIRT1]], [[Sir2 (yeast)]] ↔ [[notes/_link/Caloric Restriction]]
+- Strong connections to strengthen: [[Sir2 (yeast)]] ↔ [[SIRT1]], [[Sir2 (yeast)]] ↔ [[Caloric Restriction]]

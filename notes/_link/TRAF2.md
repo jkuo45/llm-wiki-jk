@@ -41,6 +41,6 @@ Because of its role in survival signaling, overactivity of TRAF2 can contribute 
 - [[NFκB]]: A major pro-survival pathway mediated by TRAF2.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Apoptosis]], [[Endoplasmic Reticulum Pathway]], [[Caspase-12]], [[TNFR1]], [[NFκB]]
+- New links added: [[Apoptosis]], [[Endoplasmic Reticulum Pathway]], [[Caspase-12]], [[TNFR1]], [[NFκB]]
 - Suggested new entity notes to create: [[Caspase-12]]
 - Strong connections to strengthen: [[TRAF2]] ↔ [[Endoplasmic Reticulum Pathway]]

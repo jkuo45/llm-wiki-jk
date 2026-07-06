@@ -39,11 +39,11 @@ UCP2 is highly expressed in the central nervous system, where it plays a neuropr
 ## Connections
 
 - [[SIRT1]] — transcriptionally represses UCP2 to enhance ATP production and insulin secretion
-- [[notes/_link/Caloric Restriction]] — physiological state that regulates SIRT1-mediated UCP2 repression
+- [[Caloric Restriction]] — physiological state that regulates SIRT1-mediated UCP2 repression
 - [[SIRT4]] — mitochondrial sirtuin; also regulates pancreatic insulin secretion (via GDH)
 
 ## Linking Summary
 
-- New links added: [[SIRT1]], [[notes/_link/Caloric Restriction]], [[SIRT4]]
+- New links added: [[SIRT1]], [[Caloric Restriction]], [[SIRT4]]
 - Suggested new entity notes to create: [[Proton Leak]], [[Glucose-stimulated Insulin Secretion (GSIS)]]
 - Strong connections to strengthen: [[UCP2]] ↔ [[SIRT1]]

@@ -19,9 +19,9 @@ updated: '2026-07-04'
 - **Transcriptional Switches**: In [[C. elegans]], [[MXL-3]] (repressor) and [[HLH-30]] (activator) link nutrient status to the mobilization of fat reserves.
 
 ## Physiological Impact
-- Proper sensing and response to nutrient availability are essential for survival during food deprivation and are linked to [[notes/_link/Aging|lifespan]] regulation and [[Metabolic Diseases]].
+- Proper sensing and response to nutrient availability are essential for survival during food deprivation and are linked to [[Aging|lifespan]] regulation and [[Metabolic Diseases]].
 
 ### Linking Summary:
-- New links added: [[mTORC1]], [[Autophagy]], [[AMPK]], [[TFEB]], [[HLH-30]], [[Starvation]], [[Fasting]], [[Lipophagy]], [[Lipid Droplet]], [[Lysosomal Lipolysis]], [[C. elegans]], [[MXL-3]], [[notes/_link/Aging|lifespan]], [[Metabolic Diseases]]
+- New links added: [[mTORC1]], [[Autophagy]], [[AMPK]], [[TFEB]], [[HLH-30]], [[Starvation]], [[Fasting]], [[Lipophagy]], [[Lipid Droplet]], [[Lysosomal Lipolysis]], [[C. elegans]], [[MXL-3]], [[Aging|lifespan]], [[Metabolic Diseases]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Nutrient Availability]] ↔ [[mTORC1]], [[Nutrient Availability]] ↔ [[HLH-30]]

@@ -7,7 +7,7 @@ Glioblastoma is one of the tumors known to overexpress [[EGFR]].
 
 ## Research with Melittin and Ivermectin
 - [[melittin]] and [[Honeybee venom|honeybee venom]] have demonstrated antitumoral effects in glioblastoma models.
-- [[Ivermectin]] inhibits the proliferation of glioblastoma cells (e.g., U87, T98 G, U251) in a dose-dependent manner. It induces caspase-dependent [[notes/_link/Apoptosis]] and [[Autophagy]] via the [[notes/_link/Akt]]/[[notes/_link/mTOR]] pathway. It also inhibits [[Angiogenesis]].
+- [[Ivermectin]] inhibits the proliferation of glioblastoma cells (e.g., U87, T98 G, U251) in a dose-dependent manner. It induces caspase-dependent [[Apoptosis]] and [[Autophagy]] via the [[Akt]]/[[mTOR]] pathway. It also inhibits [[Angiogenesis]].
 
 ## Connections
 - [[EGFR]]: Frequently overexpressed in glioblastoma.

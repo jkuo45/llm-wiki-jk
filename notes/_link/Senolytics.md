@@ -14,5 +14,5 @@ updated: 2024-01-01
 
 ## Related
 - [[Cellular Senescence]]
-- [[notes/_link/Aging]]
+- [[Aging]]
 - [[SASP]]

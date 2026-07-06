@@ -11,27 +11,27 @@ updated: 2026-07-04
 
 # Exercise
 
-**Exercise** is planned, structured physical activity that improves or maintains physical fitness. It is one of the most effective interventions for extending healthspan, reducing [[Oxidative Stress|oxidative stress]], enhancing [[Autophagy|autophagy]], and improving [[notes/_link/Mitochondria|mitochondrial]] function.
+**Exercise** is planned, structured physical activity that improves or maintains physical fitness. It is one of the most effective interventions for extending healthspan, reducing [[Oxidative Stress|oxidative stress]], enhancing [[Autophagy|autophagy]], and improving [[Mitochondria|mitochondrial]] function.
 
 ## Health Benefits
 
-- Induces [[notes/_link/Mitohormesis]] — hormetic ROS signaling that upregulates [[notes/_link/NRF2]] and [[notes/_link/Superoxide Dismutase]]
-- Stimulates [[notes/_link/Mitophagy]] and mitochondrial biogenesis via [[PGC-1α]]
-- Improves [[Insulin Sensitivity]] and [[notes/_link/Cardiovascular Disease|cardiovascular]] health
-- Promotes [[notes/_link/Neurogenesis]] via BDNF upregulation
+- Induces [[Mitohormesis]] — hormetic ROS signaling that upregulates [[NRF2]] and [[Superoxide Dismutase]]
+- Stimulates [[Mitophagy]] and mitochondrial biogenesis via [[PGC-1α]]
+- Improves [[Insulin Sensitivity]] and [[Cardiovascular Disease|cardiovascular]] health
+- Promotes [[Neurogenesis]] via BDNF upregulation
 
 ## Connections
 
-- [[notes/_link/Mitohormesis]] — Exercise-induced ROS trigger adaptive responses
-- [[notes/_link/Neurogenesis]] — Exercise stimulates adult neurogenesis
-- [[notes/_link/Caloric Restriction]] — Complementary longevity intervention
-- [[notes/_link/Aging]] — Exercise attenuates age-related decline
+- [[Mitohormesis]] — Exercise-induced ROS trigger adaptive responses
+- [[Neurogenesis]] — Exercise stimulates adult neurogenesis
+- [[Caloric Restriction]] — Complementary longevity intervention
+- [[Aging]] — Exercise attenuates age-related decline
 
 ## Linking Summary
 
-- New links added: [[notes/_link/Mitohormesis]], [[notes/_link/NRF2]], [[notes/_link/Superoxide Dismutase]], [[notes/_link/Mitophagy]], [[PGC-1α]], [[Insulin Sensitivity]], [[notes/_link/Neurogenesis]], [[notes/_link/Caloric Restriction]], [[notes/_link/Aging]], [[notes/_link/Cardiovascular Disease]], [[Oxidative Stress]]
+- New links added: [[Mitohormesis]], [[NRF2]], [[Superoxide Dismutase]], [[Mitophagy]], [[PGC-1α]], [[Insulin Sensitivity]], [[Neurogenesis]], [[Caloric Restriction]], [[Aging]], [[Cardiovascular Disease]], [[Oxidative Stress]]
 - Suggested new entity notes to create: [[BDNF]], [[VO2max]], [[HIIT]]
-- Strong connections to strengthen: [[Exercise]] ↔ [[notes/_link/Mitohormesis]]
+- Strong connections to strengthen: [[Exercise]] ↔ [[Mitohormesis]]
 
 ## Content from [[sirtuins/Exercise.md]]
 

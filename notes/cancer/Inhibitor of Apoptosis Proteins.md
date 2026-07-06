@@ -1,6 +1,6 @@
 # Inhibitor of Apoptosis Proteins
 
-**Inhibitor of Apoptosis Proteins** (IAPs) are a family of proteins that serve as endogenous inhibitors of caspases, thereby regulating [[notes/_link/Apoptosis]], cytokinesis, and signal transduction.
+**Inhibitor of Apoptosis Proteins** (IAPs) are a family of proteins that serve as endogenous inhibitors of caspases, thereby regulating [[Apoptosis]], cytokinesis, and signal transduction.
 
 ## Members
 To date, eight human IAPs have been identified:
@@ -26,9 +26,9 @@ IAPs are frequently overexpressed in cancer, contributing to drug resistance and
 - [[XIAP]]: The most potent member.
 - [[Survivin]]: A key member overexpressed in many cancers.
 - [[Smac/DIABLO]]: An endogenous antagonist of IAPs.
-- [[notes/_link/Apoptosis]]: Regulated by IAPs.
+- [[Apoptosis]]: Regulated by IAPs.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Apoptosis]], [[XIAP]], [[Survivin]], [[Smac/DIABLO]], [[Caspase-3]], [[Caspase-7]], [[Caspase-9]]
+- New links added: [[Apoptosis]], [[XIAP]], [[Survivin]], [[Smac/DIABLO]], [[Caspase-3]], [[Caspase-7]], [[Caspase-9]]
 - Suggested new entity notes to create: [[Smac/DIABLO]], [[Caspase-7]]
 - Strong connections to strengthen: [[Inhibitor of Apoptosis Proteins]] ↔ [[Smac/DIABLO]]

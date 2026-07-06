@@ -23,9 +23,9 @@ Cisplatin is a platinum-based DNA crosslinking agent that causes intra- and inte
 Cisplatin induces [[Autophagy]] as a resistance mechanism in cancer cells. Autophagy inhibition enhances cisplatin cytotoxicity. Cisplatin also damages [[Mitochondria]] and triggers [[Mitophagy]].
 
 ### Linking Summary:
-- New links added: [[Cancer]], [[Intermittent Fasting]], [[notes/_link/Apoptosis]]
+- New links added: [[Cancer]], [[Intermittent Fasting]], [[Apoptosis]]
 - Suggested new entity notes to create: 
-- Strong connections to strengthen: [[Cisplatin]] ↔ [[notes/_link/DNA Damage]]
+- Strong connections to strengthen: [[Cisplatin]] ↔ [[DNA Damage]]
 
 ## From [[cancer/cisplatin.md]]
 
@@ -46,6 +46,6 @@ Cisplatin induces [[Autophagy]] as a resistance mechanism in cancer cells. Autop
 Cisplatin is a chemical compound and chemotherapy drug that induces DNA cross-linking, resulting in DNA damage that can lead to apoptosis or cellular senescence.
 
 ### Linking Summary:
-- New links added: [[notes/_link/DNA Damage]], [[notes/_link/Senescence]]
+- New links added: [[DNA Damage]], [[Senescence]]
 - Suggested new entity notes to create: 
-- Strong connections to strengthen: [[Cisplatin]] <-> [[notes/_link/DNA Damage]]
+- Strong connections to strengthen: [[Cisplatin]] <-> [[DNA Damage]]

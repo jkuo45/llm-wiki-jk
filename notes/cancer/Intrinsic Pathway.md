@@ -1,6 +1,6 @@
 # Intrinsic Pathway
 
-The **Intrinsic Pathway**, also known as the **mitochondrial pathway** of [[notes/_link/Apoptosis]], is initiated by internal cellular stimuli such as genetic damage, hypoxia, and oxidative stress.
+The **Intrinsic Pathway**, also known as the **mitochondrial pathway** of [[Apoptosis]], is initiated by internal cellular stimuli such as genetic damage, hypoxia, and oxidative stress.
 
 ## Mechanism
 1.  **Stimuli**: Triggers include DNA damage, high cytosolic Ca<sup>2+</sup>, and severe oxidative stress.
@@ -15,11 +15,11 @@ The **Intrinsic Pathway**, also known as the **mitochondrial pathway** of [[note
 
 ## Connections
 - [[Extrinsic Pathway]]: Both pathways converge at the [[Common Pathway]] (caspase-3).
-- [[notes/_link/Apoptosis]]: The primary internal mechanism for programmed cell death.
+- [[Apoptosis]]: The primary internal mechanism for programmed cell death.
 - [[Bcl-2]]: An anti-apoptotic regulator of this pathway.
 - [[Bax]]: A pro-apoptotic promoter of mitochondrial outer membrane permeabilization.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Apoptosis]], [[Bcl-2 family]], [[Bax]], [[Bak]], [[Cytochrome c]], [[Smac/DIABLO]], [[Omi/HtrA2]], [[Apaf-1]], [[Caspase-9]], [[Apoptosome]], [[Caspase-3]], [[XIAP]], [[Extrinsic Pathway]], [[Common Pathway]], [[Bcl-2]]
+- New links added: [[Apoptosis]], [[Bcl-2 family]], [[Bax]], [[Bak]], [[Cytochrome c]], [[Smac/DIABLO]], [[Omi/HtrA2]], [[Apaf-1]], [[Caspase-9]], [[Apoptosome]], [[Caspase-3]], [[XIAP]], [[Extrinsic Pathway]], [[Common Pathway]], [[Bcl-2]]
 - Suggested new entity notes to create: [[Bak]], [[Cytochrome c]], [[Smac/DIABLO]], [[Omi/HtrA2]], [[Apaf-1]], [[Caspase-9]], [[Apoptosome]]
 - Strong connections to strengthen: [[Intrinsic Pathway]] ↔ [[Bcl-2 family]]

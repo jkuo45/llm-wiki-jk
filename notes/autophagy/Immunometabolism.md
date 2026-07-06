@@ -14,13 +14,13 @@ updated: '2026-07-04'
 
 ## Aging and Reprogramming
 - [[Immune Aging]] involves transcriptional and metabolic reprogramming in individual cells.
-- [[notes/_link/Metformin]] improves memory immune responses by metabolically reprogramming memory CD8+ T cells.
+- [[Metformin]] improves memory immune responses by metabolically reprogramming memory CD8+ T cells.
 
 ## Definition
 
 Immunometabolism studies how metabolic pathways ([[Autophagy]], [[Glycolysis]], [[OxPhos]]) regulate immune cell function and differentiation.
 
 ### Linking Summary:
-- New links added: [[Autophagy]], [[T Cell]], [[Immune Aging]], [[notes/_link/Metformin]]
+- New links added: [[Autophagy]], [[T Cell]], [[Immune Aging]], [[Metformin]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[Immunometabolism]] ↔ [[Autophagy]], [[Immunometabolism]] ↔ [[Immune Aging]]

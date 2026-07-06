@@ -19,11 +19,11 @@ updated: 2026-07-04
 ## Connections
 
 - [[LDL]] — ApoB is the main structural protein of LDL
-- [[notes/_link/Atherosclerosis]] — ApoB-containing lipoproteins drive plaque formation
-- [[notes/_link/Cardiovascular Disease]] — Elevated ApoB is a strong risk marker
+- [[Atherosclerosis]] — ApoB-containing lipoproteins drive plaque formation
+- [[Cardiovascular Disease]] — Elevated ApoB is a strong risk marker
 
 ## Linking Summary
 
-- New links added: [[LDL]], [[notes/_link/Atherosclerosis]], [[notes/_link/Cardiovascular Disease]]
+- New links added: [[LDL]], [[Atherosclerosis]], [[Cardiovascular Disease]]
 - Suggested new entity notes to create: [[LDL Receptor]], [[ApoB-48]], [[ApoE]]
 - Strong connections to strengthen: [[Apolipoprotein B]] ↔ [[LDL]]

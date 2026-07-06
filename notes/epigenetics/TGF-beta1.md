@@ -65,13 +65,13 @@ Multiple sirtuins converge on the TGF-β1 pathway:
 - [[SMAD2]] / [[SMAD3]] — downstream transcriptional effectors of TGF-β1 signalling
 - [[SMAD4]] — co-SMAD required for transcriptional regulation
 - [[SMAD7]] — inhibitory SMAD, negative feedback regulator
-- [[notes/_link/Inflammation]] — TGF-β1 is a master anti-inflammatory cytokine
+- [[Inflammation]] — TGF-β1 is a master anti-inflammatory cytokine
 - [[Cancer]] — dual tumour suppressor/promoter role
 - [[Pulmonary Fibrosis]] — TGF-β1 is the central driver
 - [[SIRT1]] / [[SIRT6]] / [[SIRT7]] — sirtuins that modulate TGF-β1 signalling
 
 ## Linking Summary
 
-- New links added: [[SMAD2]], [[SMAD3]], [[SMAD4]], [[SMAD7]], [[SIRT1]], [[SIRT6]], [[SIRT7]], [[MDL-801]], [[notes/_link/Inflammation]], [[Cancer]], [[Pulmonary Fibrosis]], [[Regulatory T cell]]
+- New links added: [[SMAD2]], [[SMAD3]], [[SMAD4]], [[SMAD7]], [[SIRT1]], [[SIRT6]], [[SIRT7]], [[MDL-801]], [[Inflammation]], [[Cancer]], [[Pulmonary Fibrosis]], [[Regulatory T cell]]
 - Suggested new entity notes to create: [[SMAD Proteins]], [[Latent TGF-β complex]], [[LTBP]]
-- Strong connections to strengthen: [[TGF-beta1]] ↔ [[Cancer]], [[TGF-beta1]] ↔ [[SIRT6]], [[TGF-beta1]] ↔ [[notes/_link/Inflammation]]
+- Strong connections to strengthen: [[TGF-beta1]] ↔ [[Cancer]], [[TGF-beta1]] ↔ [[SIRT6]], [[TGF-beta1]] ↔ [[Inflammation]]

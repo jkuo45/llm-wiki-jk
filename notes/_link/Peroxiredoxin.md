@@ -17,11 +17,11 @@ updated: 2026-07-04
 ## Connections
 
 - [[Thioredoxin]] — Reduces oxidized peroxiredoxin
-- [[notes/_link/Glutathione]] — Parallel antioxidant system
+- [[Glutathione]] — Parallel antioxidant system
 - [[Oxidative Stress]] — Prx are critical for redox homeostasis
 
 ## Linking Summary
 
-- New links added: [[Thioredoxin]], [[notes/_link/Glutathione]], [[Oxidative Stress]], [[Hydrogen Peroxide]], [[Peroxynitrite]]
+- New links added: [[Thioredoxin]], [[Glutathione]], [[Oxidative Stress]], [[Hydrogen Peroxide]], [[Peroxynitrite]]
 - Suggested new entity notes to create: [[Prx1]], [[Prx2]], [[Sulfiredoxin]], [[Hyperoxidation]]
 - Strong connections to strengthen: [[Peroxiredoxin]] ↔ [[Thioredoxin]]

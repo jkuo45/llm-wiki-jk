@@ -16,7 +16,7 @@ Peroxisomes are a major site of cellular oxygen consumption and H₂O₂ product
 - **Acyl-CoA oxidases**: First step of very-long-chain fatty acid β-oxidation, producing H₂O₂
 - **D-amino acid oxidase**, **L-α-hydroxyacid oxidase**, **Polyamine oxidase**, **Xanthine oxidase** (converted from XDH)
 
-The co-localization of H₂O₂-producing enzymes and Catalase within the same organelle is a classic example of metabolic compartmentalization. Peroxisomes also contain [[notes/_link/Superoxide Dismutase|SOD1]] (CuZn-SOD) and peroxiredoxin PRDX5, contributing to their ROS detoxification capacity.
+The co-localization of H₂O₂-producing enzymes and Catalase within the same organelle is a classic example of metabolic compartmentalization. Peroxisomes also contain [[Superoxide Dismutase|SOD1]] (CuZn-SOD) and peroxiredoxin PRDX5, contributing to their ROS detoxification capacity.
 
 ## Metabolic Roles
 
@@ -28,7 +28,7 @@ The co-localization of H₂O₂-producing enzymes and Catalase within the same o
 
 ## Clinical Relevance
 
-Peroxisomal disorders include **Zellweger Syndrome** (severe peroxisome biogenesis disorder), **X-linked Adrenoleukodystrophy** (defective VLCFA transport), and **Acatalasemia** (Catalase deficiency leading to oral gangrene). Peroxisomes also play roles in [[notes/_link/Aging]], [[Inflammation]], and [[Neurodegeneration|neurodegeneration]], as peroxisomal dysfunction increases oxidative stress.
+Peroxisomal disorders include **Zellweger Syndrome** (severe peroxisome biogenesis disorder), **X-linked Adrenoleukodystrophy** (defective VLCFA transport), and **Acatalasemia** (Catalase deficiency leading to oral gangrene). Peroxisomes also play roles in [[Aging]], [[Inflammation]], and [[Neurodegeneration|neurodegeneration]], as peroxisomal dysfunction increases oxidative stress.
 
 ## Content from [[oxidative_stress/Peroxisomes.md]]
 
@@ -36,4 +36,4 @@ Peroxisomal disorders include **Zellweger Syndrome** (severe peroxisome biogenes
 
 Peroxisomes are single-membrane organelles present in virtually all eukaryotic cells, central to β-oxidation of very-long-chain fatty acids and the metabolism of ROS.
 
-See [[notes/_link/Peroxisomes]].
+See [[Peroxisomes]].

@@ -90,13 +90,13 @@ SIRT4 belongs to **Class II**, one of the most evolutionarily ancient sirtuin cl
 - [[SIRT6]] — both are primary mono-ADP-ribosyl transferases among mammalian sirtuins
 - [[NAD+]] — required co-substrate
 - [[OAADPr]] — by-product of ADP-ribosylation
-- [[notes/_link/Caloric Restriction]] — SIRT4 is **downregulated** by CR (contrast with SIRT1/3 which are upregulated)
+- [[Caloric Restriction]] — SIRT4 is **downregulated** by CR (contrast with SIRT1/3 which are upregulated)
 - [[Glutamate Dehydrogenase (GDH)]] — primary substrate; SIRT4 inhibits GDH via ADP-ribosylation
 - [[MTPα]] — SIRT4 inhibits this fatty acid oxidation enzyme
 - [[mTOR]] — SIRT4 suppresses mTOR signalling via metabolic regulation
 
 ## Linking Summary
 
-- New links added: [[NAD+]], [[OAADPr]], [[notes/_link/Caloric Restriction]], [[SIRT3]], [[SIRT5]], [[SIRT6]], [[Glutamate Dehydrogenase (GDH)]], [[MTPα]], [[mTOR]]
+- New links added: [[NAD+]], [[OAADPr]], [[Caloric Restriction]], [[SIRT3]], [[SIRT5]], [[SIRT6]], [[Glutamate Dehydrogenase (GDH)]], [[MTPα]], [[mTOR]]
 - Suggested new entity notes to create: [[Glutamate Dehydrogenase (GDH)]], [[ADP-ribosylation]], [[MTPα]]
-- Strong connections to strengthen: [[SIRT4]] ↔ [[notes/_link/Caloric Restriction]], [[SIRT4]] ↔ [[Glutamate Dehydrogenase (GDH)]]
+- Strong connections to strengthen: [[SIRT4]] ↔ [[Caloric Restriction]], [[SIRT4]] ↔ [[Glutamate Dehydrogenase (GDH)]]

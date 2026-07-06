@@ -16,12 +16,12 @@ updated: 2026-07-04
 ## Connections
 
 - [[Cancer]] — Tumor angiogenesis is a hallmark of cancer
-- [[notes/_link/HIF-1α]] — Master transcription factor driving VEGF expression
+- [[HIF-1α]] — Master transcription factor driving VEGF expression
 - [[Oxidative Stress]] — ROS promote angiogenic signaling
 
 ## Linking Summary
 
-- New links added: [[Cancer]], [[notes/_link/HIF-1α]], [[Oxidative Stress]]
+- New links added: [[Cancer]], [[HIF-1α]], [[Oxidative Stress]]
 - Suggested new entity notes to create: [[VEGF]], [[VEGFR]], [[Anti-angiogenic therapy]]
 - Strong connections to strengthen: [[Angiogenesis]] ↔ [[Cancer]]
 
@@ -32,6 +32,6 @@ updated: 2026-07-04
 Angiogenesis is the physiological process through which new blood vessels form from pre-existing vessels, a hallmark of cancer that is often targeted via [[Integrins]] and [[RGD peptide]] conjugates.
 
 ### Linking Summary
-- New links added: [[Integrins]], [[RGD peptide]], [[notes/_link/Breast Cancer]], [[glioblastoma]]
+- New links added: [[Integrins]], [[RGD peptide]], [[Breast Cancer]], [[glioblastoma]]
 - Suggested new entity notes to create: [[VEGF]]
 - Strong connections to strengthen: [[Angiogenesis]] ↔ [[Integrins]]

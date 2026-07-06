@@ -16,8 +16,8 @@ updated: 2026-07-04
 ## Connections
 - [[COMT]]: Metabolizes rutin and can be inhibited by it.
 - [[Flavonoids]]: The class of compounds to which rutin belongs.
-- [[notes/_link/Quercetin]]: Rutin is a glycoside of quercetin.
+- [[Quercetin]]: Rutin is a glycoside of quercetin.
 
 ---
 ### Linking Summary:
-- New links added: [[Flavonoids]], [[COMT]], [[notes/_link/Quercetin]].
+- New links added: [[Flavonoids]], [[COMT]], [[Quercetin]].

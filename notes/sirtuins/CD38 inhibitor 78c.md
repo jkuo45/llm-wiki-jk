@@ -23,13 +23,13 @@ relations:
 
 ## Mechanism and Biological Action
 
-CD38 is the primary enzymatic consumer of [[NAD+]] in mammalian tissues during [[notes/_link/Aging|aging]]. As tissues age, chronic low-grade inflammation ([[notes/_link/Inflammaging|inflammaging]]) causes a significant upregulation of CD38 on [[notes/_link/Neutrophils|neutrophils]], [[notes/_link/Macrophage|macrophages]], and other immune cells. This upregulation depletes NAD⁺, starving other NAD⁺-dependent longevity enzymes such as [[Sirtuins]] (especially mitochondrial [[SIRT3]] and nuclear [[SIRT1]]).
+CD38 is the primary enzymatic consumer of [[NAD+]] in mammalian tissues during [[Aging|aging]]. As tissues age, chronic low-grade inflammation ([[Inflammaging|inflammaging]]) causes a significant upregulation of CD38 on [[Neutrophils|neutrophils]], [[Macrophage|macrophages]], and other immune cells. This upregulation depletes NAD⁺, starving other NAD⁺-dependent longevity enzymes such as [[Sirtuins]] (especially mitochondrial [[SIRT3]] and nuclear [[SIRT1]]).
 
 By selectively inhibiting CD38, **78c**:
 1. **Preserves NAD⁺ levels:** Prevents the age-related degradation of NAD⁺, keeping cellular pools high.
 2. **Restores Sirtuin Activity:** Indirectly boosts [[Sirtuins]] (specifically mitochondrial [[SIRT3]] and nuclear [[SIRT1]]) by maintaining co-substrate availability.
 3. **Improves Mitochondrial Function:** Alleviates mitochondrial decay and metabolic decline associated with aging.
-4. **Synergizes with NAD⁺ Precursors:** Enhances the efficacy of exogenous precursors like [[notes/_link/Nicotinamide Mononucleotide|NMN]] and [[notes/_link/Nicotinamide Riboside|NR]] by preventing their rapid degradation by CD38.
+4. **Synergizes with NAD⁺ Precursors:** Enhances the efficacy of exogenous precursors like [[Nicotinamide Mononucleotide|NMN]] and [[Nicotinamide Riboside|NR]] by preventing their rapid degradation by CD38.
 
 ## Preclinical Research and Longevity Benefits
 
@@ -49,9 +49,9 @@ Despite its therapeutic promise, studies using 78c and genetic CD38 knockouts ha
 - **[[CD38]]**: Target enzyme directly inhibited by 78c.
 - **[[NAD+]]**: Molecule preserved from enzymatic degradation through 78c action.
 - **[[Sirtuins]]**: Activated downstream due to restored NAD⁺ pools.
-- **[[notes/_link/Inflammaging]]**: The biological driver that upregulates CD38, creating the therapeutic need for 78c.
+- **[[Inflammaging]]**: The biological driver that upregulates CD38, creating the therapeutic need for 78c.
 
 ## Linking Summary:
-- New links added: [[CD38]], [[NAD+]], [[Sirtuins]], [[SIRT1]], [[SIRT3]], [[notes/_link/Aging]], [[notes/_link/Inflammaging]], [[notes/_link/Nicotinamide Mononucleotide]], [[notes/_link/Nicotinamide Riboside]]
+- New links added: [[CD38]], [[NAD+]], [[Sirtuins]], [[SIRT1]], [[SIRT3]], [[Aging]], [[Inflammaging]], [[Nicotinamide Mononucleotide]], [[Nicotinamide Riboside]]
 - Suggested new entity notes to create: [[CD38 Inhibitors]]
 - Strong connections to strengthen: [[CD38 inhibitor 78c]] ↔ [[CD38]], [[CD38 inhibitor 78c]] ↔ [[NAD+]]

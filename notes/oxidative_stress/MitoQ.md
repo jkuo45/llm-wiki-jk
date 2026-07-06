@@ -12,8 +12,8 @@ updated: 2026-07-04
 
 ## Mechanism
 
-The TPP⁺ cation drives potential-dependent accumulation across the inner mitochondrial membrane, achieving 100–1,000-fold higher concentrations in mitochondria than in the cytosol. Once inside, the ubiquinone moiety is reduced to ubiquinol by Complex II of the electron transport chain and functions as a chain-breaking antioxidant, reducing lipid peroxyl radicals and regenerating [[notes/_link/Vitamin E|α-tocopherol]] within the mitochondrial membrane. MitoQ also reacts directly with [[Peroxynitrite]] and [[Superoxide Radicals|superoxide]].
+The TPP⁺ cation drives potential-dependent accumulation across the inner mitochondrial membrane, achieving 100–1,000-fold higher concentrations in mitochondria than in the cytosol. Once inside, the ubiquinone moiety is reduced to ubiquinol by Complex II of the electron transport chain and functions as a chain-breaking antioxidant, reducing lipid peroxyl radicals and regenerating [[Vitamin E|α-tocopherol]] within the mitochondrial membrane. MitoQ also reacts directly with [[Peroxynitrite]] and [[Superoxide Radicals|superoxide]].
 
 ## Clinical Research
 
-MitoQ has been investigated in clinical trials for [[notes/_link/Parkinson's Disease]] (Phase II — trend toward slowing progression), [[notes/_link/Hepatitis C]] (reduced liver damage), [[Endothelial Dysfunction|endothelial dysfunction]] in aging (improved vascular function in older adults), and [[notes/_link/Chronic Fatigue Syndrome]]. It also shows preclinical efficacy in [[cerebral ischemia-reperfusion]], [[notes/_link/Alzheimer's Disease]], and [[Cardiac Hypertrophy]].
+MitoQ has been investigated in clinical trials for [[Parkinson's Disease]] (Phase II — trend toward slowing progression), [[Hepatitis C]] (reduced liver damage), [[Endothelial Dysfunction|endothelial dysfunction]] in aging (improved vascular function in older adults), and [[Chronic Fatigue Syndrome]]. It also shows preclinical efficacy in [[cerebral ischemia-reperfusion]], [[Alzheimer's Disease]], and [[Cardiac Hypertrophy]].

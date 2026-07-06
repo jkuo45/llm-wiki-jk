@@ -1,6 +1,6 @@
 # TRAIL
 
-**TRAIL** (TNF-related apoptosis-inducing ligand), also known as TNFSF10, is a cytokine that induces [[notes/_link/Apoptosis]] by binding to its death receptors.
+**TRAIL** (TNF-related apoptosis-inducing ligand), also known as TNFSF10, is a cytokine that induces [[Apoptosis]] by binding to its death receptors.
 
 ## Mechanism
 TRAIL initiates the [[Extrinsic Pathway]] by binding to death receptors [[DR4]] (TRAIL-R1) and [[DR5]] (TRAIL-R2). This binding leads to the formation of the **Death-Inducing Signaling Complex** (DISC) and the activation of [[Caspase-8]].
@@ -21,6 +21,6 @@ Many therapeutic strategies aim to harness the TRAIL pathway, including:
 - [[XIAP]]: High levels of XIAP can confer resistance to TRAIL-induced apoptosis.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Apoptosis]], [[Extrinsic Pathway]], [[DR4]], [[DR5]], [[Caspase-8]], [[Smac/DIABLO]], [[XIAP]]
+- New links added: [[Apoptosis]], [[Extrinsic Pathway]], [[DR4]], [[DR5]], [[Caspase-8]], [[Smac/DIABLO]], [[XIAP]]
 - Suggested new entity notes to create: [[DR4]], [[DR5]], [[Smac/DIABLO]]
 - Strong connections to strengthen: [[TRAIL]] ↔ [[Extrinsic Pathway]]

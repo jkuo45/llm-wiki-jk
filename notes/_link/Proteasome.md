@@ -21,15 +21,15 @@ The 20S proteasome is a barrel-shaped ~700 kDa complex composed of four stacked 
 
 Mild oxidative stress increases 20S proteasome activity through:
 1. **Gate Opening**: Direct oxidation of α-subunits loosens the gate, allowing substrate entry without ATP or ubiquitination
-2. **Subunit Induction**: [[notes/_link/NRF2]] induces PSMB5 and other proteasome subunits via ARE elements
+2. **Subunit Induction**: [[NRF2]] induces PSMB5 and other proteasome subunits via ARE elements
 3. **Increased Substrate Availability**: Oxidized proteins become partially unfolded, exposing hydrophobic patches that facilitate direct translocation into the catalytic chamber
 
 Unlike the 26S proteasome (20S + 19S regulatory particles), the 20S proteasome degrades oxidized proteins in an ATP- and ubiquitin-independent manner. This is particularly important under oxidative stress when ATP levels are depleted.
 
 ## Clinical Relevance
 
-- **[[notes/_link/Aging]]**: Proteasome activity declines with age, contributing to accumulation of oxidized and aggregated proteins, a hallmark of aging.
-- **[[Neurodegeneration|Neurodegenerative diseases]]**: Impaired 20S proteasome function contributes to protein aggregation pathology in [[notes/_link/Alzheimer's Disease]], [[notes/_link/Parkinson's Disease]], and [[notes/_link/Huntington's Disease]].
+- **[[Aging]]**: Proteasome activity declines with age, contributing to accumulation of oxidized and aggregated proteins, a hallmark of aging.
+- **[[Neurodegeneration|Neurodegenerative diseases]]**: Impaired 20S proteasome function contributes to protein aggregation pathology in [[Alzheimer's Disease]], [[Parkinson's Disease]], and [[Huntington's Disease]].
 - **[[Cancer]]**: Cancer cells upregulate proteasome activity to handle increased oxidative stress; [[Bortezomib]] (a proteasome inhibitor) is used in multiple myeloma and mantle cell lymphoma.
 - **[[Cardiovascular Disease]]**: Oxidized LDL-induced proteasome dysfunction in endothelial cells promotes atherosclerosis.
 
@@ -37,14 +37,14 @@ Unlike the 26S proteasome (20S + 19S regulatory particles), the 20S proteasome d
 
 - New links added: [[Ubiquitin Ligase]], [[Mitophagy]]
 - Suggested new entity notes to create: [[Ubiquitin]]
-- Strong connections to strengthen: [[Proteasome]] ↔ [[notes/_link/Aging]]
+- Strong connections to strengthen: [[Proteasome]] ↔ [[Aging]]
 
 ## Content from [[neuromelanin/Proteasome.md]]
 
 # Proteasome
 
-The [[Proteasome]] is a large multi-catalytic protease complex responsible for the degradation of ubiquitinated proteins. It is the central effector of the [[Ubiquitin-Proteasome System]] (UPS), which tags proteins with [[Ubiquitin]] for targeted destruction. Proteasomal dysfunction is implicated in [[notes/_link/Parkinson's Disease]], where aggregated [[Alpha-synuclein]] overwhelms the degradation machinery and contributes to [[Proteostasis]] failure.
+The [[Proteasome]] is a large multi-catalytic protease complex responsible for the degradation of ubiquitinated proteins. It is the central effector of the [[Ubiquitin-Proteasome System]] (UPS), which tags proteins with [[Ubiquitin]] for targeted destruction. Proteasomal dysfunction is implicated in [[Parkinson's Disease]], where aggregated [[Alpha-synuclein]] overwhelms the degradation machinery and contributes to [[Proteostasis]] failure.
 
 ### Linking Summary:
-- New links added: [[Ubiquitin-Proteasome System]], [[Ubiquitin]], [[notes/_link/Parkinson's Disease]], [[Alpha-synuclein]], [[Proteostasis]]
+- New links added: [[Ubiquitin-Proteasome System]], [[Ubiquitin]], [[Parkinson's Disease]], [[Alpha-synuclein]], [[Proteostasis]]
 - Strong connections to strengthen: [[Proteasome]] ↔ [[Ubiquitin-Proteasome System]]

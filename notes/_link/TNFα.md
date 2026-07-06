@@ -28,6 +28,6 @@ Tumor necrosis factor alpha (TNFα) is a cell signaling protein (cytokine) invol
 
 ### Linking Summary
 
-- New links added: [[Bad]], [[notes/_link/Apoptosis|Apoptosis]], [[notes/_link/Inflammation|Inflammation]]
+- New links added: [[Bad]], [[Apoptosis|Apoptosis]], [[Inflammation|Inflammation]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[TNFα]] ↔ [[Bad]]

@@ -10,7 +10,7 @@ updated: 2026-05-29
 **[[Quercetin]]** is a plant [[Flavonoids|flavonoid]] found in many fruits, vegetables, and grains. It is commonly used as an [[Anti-inflammatory]] and antioxidant supplement.
 
 ## Interaction with COMT
-[[Quercetin]] has a catechol structure, meaning it is metabolized by the [[COMT]] enzyme. Because it competes for the same enzyme, high doses of quercetin can act as a [[COMT Inhibitors|COMT inhibitor]], slowing the breakdown of [[Neurotransmitters|neurotransmitters]] like [[notes/_link/Dopamine]] and [[notes/_link/Norepinephrine]].
+[[Quercetin]] has a catechol structure, meaning it is metabolized by the [[COMT]] enzyme. Because it competes for the same enzyme, high doses of quercetin can act as a [[COMT Inhibitors|COMT inhibitor]], slowing the breakdown of [[Neurotransmitters|neurotransmitters]] like [[Dopamine]] and [[Norepinephrine]].
 
 ## Clinical Considerations
 Individuals with slow [[COMT]] variants may experience side effects such as irritability or anxiety when taking high doses of [[Quercetin]] due to the further reduction in [[COMT]] activity.
@@ -18,8 +18,8 @@ Individuals with slow [[COMT]] variants may experience side effects such as irri
 ## Connections
 - [[COMT]]: The enzyme responsible for quercetin's metabolism.
 - [[EGCG]]: Quercetin may enhance the bioavailability of EGCG by inhibiting COMT.
-- [[notes/_link/Dopamine]]: Levels may increase when COMT is inhibited by quercetin.
+- [[Dopamine]]: Levels may increase when COMT is inhibited by quercetin.
 
 ---
 ### Linking Summary:
-- New links added: [[Flavonoids]], [[Anti-inflammatory]], [[COMT]], [[COMT Inhibitors]], [[Neurotransmitters]], [[notes/_link/Dopamine]], [[notes/_link/Norepinephrine]], [[EGCG]].
+- New links added: [[Flavonoids]], [[Anti-inflammatory]], [[COMT]], [[COMT Inhibitors]], [[Neurotransmitters]], [[Dopamine]], [[Norepinephrine]], [[EGCG]].

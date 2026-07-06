@@ -51,13 +51,13 @@ X-ray crystallography reveals that SirReal2 induces a **ligand-induced structura
 ## Connections & Related Entities
 
 - **[[SIRT2]]** — direct molecular target selectively inhibited by SirReal2.
-- **[[notes/_link/Aging]]** — SIRT2 is a key regulator of mitotic exit and aging, pathways probed using SirReal2.
+- **[[Aging]]** — SIRT2 is a key regulator of mitotic exit and aging, pathways probed using SirReal2.
 - **[[AGK2]]** — another selective SIRT2 inhibitor, utilizing a different binding mechanism.
 
 ---
 
 ## Linking Summary
 
-- **New Links Added**: [[SIRT2]], [[AGK2]], [[notes/_link/Aging]]
+- **New Links Added**: [[SIRT2]], [[AGK2]], [[Aging]]
 - **Suggested New Notes to Create**: [[Connexin 43]], [[Selective Pocket]]
 - **Strong Connections to Strengthen**: [[SirReal2]] ↔ [[SIRT2]]

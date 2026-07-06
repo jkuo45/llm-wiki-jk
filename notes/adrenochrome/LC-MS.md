@@ -16,5 +16,5 @@ It is used for the highly sensitive and specific identification of catecholamine
 ## Connections
 - [[HPLC]]
 - [[Mass Spectrometry]]
-- [[notes/_link/Epinephrine]]
+- [[Epinephrine]]
 - [[Leuco-adrenochrome]]

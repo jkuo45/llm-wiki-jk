@@ -16,8 +16,8 @@ updated: 2026-07-04
 ## Connections
 - [[Anti-inflammatory]]: A primary therapeutic use of berberine.
 - [[COMT]]: Berberine is a safe alternative that does not inhibit this enzyme.
-- [[notes/_link/Quercetin]]: Unlike quercetin, berberine does not require COMT for metabolism.
+- [[Quercetin]]: Unlike quercetin, berberine does not require COMT for metabolism.
 
 ---
 ### Linking Summary:
-- New links added: [[Anti-inflammatory]], [[COMT]], [[notes/_link/Quercetin]].
+- New links added: [[Anti-inflammatory]], [[COMT]], [[Quercetin]].

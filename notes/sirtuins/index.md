@@ -78,7 +78,7 @@ type: index
 
 | Entity | entity_type_1 | Description |
 |--------|--------------|-------------|
-| [[notes/_link/Caloric Restriction]] | Scientific Concept | Dietary longevity intervention; activates SIRT1/SIRT3; requires Sir2 in yeast/flies |
+| [[Caloric Restriction]] | Scientific Concept | Dietary longevity intervention; activates SIRT1/SIRT3; requires Sir2 in yeast/flies |
 | [[ADP-ribosylation]] | Biological Process | Post-translational modification; mono-ADP-ribosylation catalyzed by SIRT4 and SIRT6 |
 
 ### Key Regulatory Proteins (Sirtuin Targets/Effectors)
@@ -109,7 +109,7 @@ type: index
 | [[PML]] | Protein | Tumor suppressor; recruits SIRT1 and p53 to nuclear bodies where SIRT1 deacetylates p53 to rescue from senescence |
 | [[CDC14B]] | Protein | Mitotic phosphatase; dephosphorylates and destabilizes SIRT2, triggering proteasomal degradation |
 | [[MyoD]] | Protein | Myogenic transcription factor; deacetylated and inactivated by SIRT1, repressing muscle gene expression |
-| [[notes/_link/NFKB|NF-κB (RelA/p65)]] | Protein | Master inflammatory transcription factor; deacetylated/suppressed by SIRT1 and SIRT2, repressed epigenetically by SIRT6 |
+| [[NFKB|NF-κB (RelA/p65)]] | Protein | Master inflammatory transcription factor; deacetylated/suppressed by SIRT1 and SIRT2, repressed epigenetically by SIRT6 |
 | [[eNOS]] | Enzyme | Endothelial nitric oxide synthase; deacetylated/activated by SIRT1; promotes vasodilation |
 | [[CREB]] | Protein | cAMP Response Element Binding protein; deacetylated by SIRT1 at K136; regulates lipid metabolism |
 | [[MnSOD]] | Enzyme | Mitochondrial superoxide dismutase; deacetylated/activated by SIRT3 at K68/K122; antioxidant |

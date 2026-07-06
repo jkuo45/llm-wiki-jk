@@ -16,5 +16,5 @@ updated: 2024-01-01
 
 ## Related
 - [[Epigenetics]]
-- [[notes/_link/Aging]]
+- [[Aging]]
 - [[Transgenerational Epigenetic Inheritance]]

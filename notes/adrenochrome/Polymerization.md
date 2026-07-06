@@ -11,7 +11,7 @@ updated: 2026-07-04
 **Polymerization** is a process of reacting monomer molecules together in a chemical reaction to form polymer chains or three-dimensional networks.
 
 ## In Adrenochrome Pathway
-[[Adrenochrome]] is a highly unstable intermediate that readily undergoes polymerization to form melanin-like pigments ([[Melanins]]). This process is responsible for the brown discoloration seen in degraded [[notes/_link/Epinephrine]] solutions.
+[[Adrenochrome]] is a highly unstable intermediate that readily undergoes polymerization to form melanin-like pigments ([[Melanins]]). This process is responsible for the brown discoloration seen in degraded [[Epinephrine]] solutions.
 
 ## Connections
 - [[Adrenochrome]]
@@ -28,11 +28,11 @@ The [[Semiquinone radical]] is the critical chain-propagating species in oxidati
 
 ## Melanins and Neuromelanin
 
-The final polymeric product of catecholamine oxidation is [[Neuromelanin]], a dark brown pigment that accumulates in catecholaminergic neurons of the [[notes/_link/Substantia Nigra]] and [[Locus Coeruleus]] over the human lifespan. Unlike peripheral melanins ([[Eumelanin]] and [[Pheomelanin]]) synthesized in melanocytes via [[Tyrosinase]], neuromelanin is formed by spontaneous autoxidation of cytosolic catecholamines, particularly [[Dopamine]] and [[notes/_link/Epinephrine|Norepinephrine]]. Neuromelanin granules are complex organelles that incorporate not only polymerized indoles but also [[Lipids]], [[Proteins]], and [[Iron]], giving them both pigmentary and metal-sequestering functions.
+The final polymeric product of catecholamine oxidation is [[Neuromelanin]], a dark brown pigment that accumulates in catecholaminergic neurons of the [[Substantia Nigra]] and [[Locus Coeruleus]] over the human lifespan. Unlike peripheral melanins ([[Eumelanin]] and [[Pheomelanin]]) synthesized in melanocytes via [[Tyrosinase]], neuromelanin is formed by spontaneous autoxidation of cytosolic catecholamines, particularly [[Dopamine]] and [[Epinephrine|Norepinephrine]]. Neuromelanin granules are complex organelles that incorporate not only polymerized indoles but also [[Lipids]], [[Proteins]], and [[Iron]], giving them both pigmentary and metal-sequestering functions.
 
 ## Implications for Pigmentation and Neurodegeneration
 
 Neuromelanin accumulation is a normal aging process, but its role in neurodegeneration is dual-edged. Initially, neuromelanin may serve a protective function by sequestering redox-active [[Iron]] and potentially toxic catecholamine oxidation products. However, when neuromelanin granules become saturated with metals, they can release pro-oxidant iron in response to cellular acidification or [[Inflammation]], amplifying [[Oxidative Stress]]. In [[Parkinson's Disease]], neuromelanin-containing neurons of the substantia nigra pars compacta are selectively vulnerable, and extracellular neuromelanin released from dying neurons activates [[Microglia]], perpetuating a cycle of neuroinflammation and dopaminergic cell loss. The polymerization pathway thus links catecholamine oxidation chemistry directly to the pathogenesis of age-related neurodegenerative disorders.
 
 ### Linking Summary:
-- New links added: [[Melanins]], [[Autoxidation]], [[o-quinone]], [[Aminochrome]], [[Indole-5,6-quinone]], [[Semiquinone radical]], [[Comp proportionation]], [[Electron paramagnetic resonance]], [[Neuromelanin]], [[notes/_link/Substantia Nigra]], [[Locus Coeruleus]], [[Eumelanin]], [[Pheomelanin]], [[Tyrosinase]], [[Dopamine]], [[Lipids]], [[Proteins]], [[Iron]], [[Inflammation]], [[Oxidative Stress]], [[Parkinson's Disease]], [[Microglia]]
+- New links added: [[Melanins]], [[Autoxidation]], [[o-quinone]], [[Aminochrome]], [[Indole-5,6-quinone]], [[Semiquinone radical]], [[Comp proportionation]], [[Electron paramagnetic resonance]], [[Neuromelanin]], [[Substantia Nigra]], [[Locus Coeruleus]], [[Eumelanin]], [[Pheomelanin]], [[Tyrosinase]], [[Dopamine]], [[Lipids]], [[Proteins]], [[Iron]], [[Inflammation]], [[Oxidative Stress]], [[Parkinson's Disease]], [[Microglia]]

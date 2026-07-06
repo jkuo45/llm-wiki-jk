@@ -50,6 +50,6 @@ Senolytics target these survival circuits. For example, [[Navitoclax]] (ABT-263)
 - **Combination strategies:** Sequential senolytic + [[Partial Reprogramming|partial reprogramming]] to reset the epigenome after clearing senescent cells.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Senescence]], [[notes/_link/Apoptosis]], [[SASP]], [[Bcl-2]], [[Dasatinib]], [[Quercetin]], [[Fisetin]], [[Navitoclax]]
+- New links added: [[Senescence]], [[Apoptosis]], [[SASP]], [[Bcl-2]], [[Dasatinib]], [[Quercetin]], [[Fisetin]], [[Navitoclax]]
 - Suggested new entity notes to create: [[SCAPs]], [[Senomorphics]], [[PROTAC]]
-- Strong connections to strengthen: [[Senolytic Drugs]] ↔ [[notes/_link/Senescence]], [[Senolytic Drugs]] ↔ [[notes/_link/Senolytics]]
+- Strong connections to strengthen: [[Senolytic Drugs]] ↔ [[Senescence]], [[Senolytic Drugs]] ↔ [[Senolytics]]

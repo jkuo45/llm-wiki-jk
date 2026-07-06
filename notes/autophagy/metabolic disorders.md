@@ -14,6 +14,6 @@ Metabolic disorders include [[Obesity]], [[Type 2 Diabetes Mellitus]], [[NAFLD]]
 
 ### Linking Summary
 
-- New links added: [[TFEB]], [[notes/_link/Lysosomal Storage Diseases]]
+- New links added: [[TFEB]], [[Lysosomal Storage Diseases]]
 - Suggested new entity notes to create: [[Diabetes Mellitus]]
 - Strong connections to strengthen: [[metabolic disorders]] ↔ [[TFEB]]

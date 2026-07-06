@@ -11,9 +11,9 @@ updated: 2026-07-04
 **Thioglycerol** is a chemical compound used in some pharmaceutical formulations.
 
 ## Application
-It serves as an antioxidant stabilizer, potentially replacing sulfites in newer [[notes/_link/Epinephrine]] formulations to minimize degradation and improve shelf life.
+It serves as an antioxidant stabilizer, potentially replacing sulfites in newer [[Epinephrine]] formulations to minimize degradation and improve shelf life.
 
 ## Connections
-- [[notes/_link/Antioxidants]]
-- [[notes/_link/Epinephrine]]
+- [[Antioxidants]]
+- [[Epinephrine]]
 - [[Sodium Metabisulfite]]

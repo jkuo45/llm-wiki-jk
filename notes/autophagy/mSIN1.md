@@ -14,6 +14,6 @@ Mammalian stress-activated protein kinase interacting protein (mSIN1) is an esse
 mSIN1 (MAPKAP1) is a component of [[mTORC2]] that binds [[Rictor]] and confers substrate specificity toward [[Akt]] and [[SGK1]].
 
 ### Linking Summary:
-- New links added: [[mTORC2]], [[Plasma Membrane]], [[PH]], [[notes/_link/Akt|AKT]]
+- New links added: [[mTORC2]], [[Plasma Membrane]], [[PH]], [[Akt|AKT]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[mSIN1]] ↔ [[mTORC2]]

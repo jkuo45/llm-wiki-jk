@@ -15,7 +15,7 @@ updated: 2026-07-04
 Paraquat is a chemical compound and toxic herbicide that induces cellular oxidative stress and reactive oxygen species (ROS) production.
 
 ### Linking Summary:
-- New links added: [[Oxidative Stress]], [[notes/_link/Senescence]]
+- New links added: [[Oxidative Stress]], [[Senescence]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Paraquat]] <-> [[Oxidative Stress]]
 
@@ -23,9 +23,9 @@ Paraquat is a chemical compound and toxic herbicide that induces cellular oxidat
 
 # Paraquat
 
-[[Paraquat]] is a widely used herbicide that is structurally similar to the neurotoxin [[MPP+]]. Exposure to paraquat has been epidemiologically linked to an increased risk of [[notes/_link/Parkinson's Disease]]. Like MPP+, paraquat can cause [[Mitochondrial Dysfunction]] by inhibiting [[Complex I]] and generating [[notes/_link/Reactive Oxygen Species]].
+[[Paraquat]] is a widely used herbicide that is structurally similar to the neurotoxin [[MPP+]]. Exposure to paraquat has been epidemiologically linked to an increased risk of [[Parkinson's Disease]]. Like MPP+, paraquat can cause [[Mitochondrial Dysfunction]] by inhibiting [[Complex I]] and generating [[Reactive Oxygen Species]].
 
 ### Linking Summary:
-- New links added: [[notes/_link/Parkinson's Disease]], [[MPP+]], [[Mitochondrial Dysfunction]], [[Complex I]], [[notes/_link/Reactive Oxygen Species]].
+- New links added: [[Parkinson's Disease]], [[MPP+]], [[Mitochondrial Dysfunction]], [[Complex I]], [[Reactive Oxygen Species]].
 - Suggested new entity notes to create: [[Pesticides]], [[Environmental Toxins]].
-- Strong connections to strengthen: [[Paraquat]] ↔ [[notes/_link/Parkinson's Disease]].
+- Strong connections to strengthen: [[Paraquat]] ↔ [[Parkinson's Disease]].

@@ -37,6 +37,6 @@ PcG proteins are central to the senescence gene expression program:
 - **Epigenetic therapy:** PRC2 inhibitors represent a major class of [[Epigenetic Modifiers]]. Combining EZH2 inhibitors with [[Senolytic Drugs]] is being explored to prevent senescence escape in cancer.
 
 ### Linking Summary:
-- New links added: [[Epigenetics]], [[Histone Methylation]], [[Cancer]], [[notes/_link/Senescence]], [[p16INK4A]], [[H3K27me3]], [[SAHF]], [[EZH2]], [[SUZ12]], [[EED]], [[RING1B]]
+- New links added: [[Epigenetics]], [[Histone Methylation]], [[Cancer]], [[Senescence]], [[p16INK4A]], [[H3K27me3]], [[SAHF]], [[EZH2]], [[SUZ12]], [[EED]], [[RING1B]]
 - Suggested new entity notes to create: [[PRC1]], [[PRC2]], [[H2AK119ub1]], [[Tazemetostat]], [[Drosophila melanogaster]]
-- Strong connections to strengthen: [[Polycomb Group Proteins]] ↔ [[notes/_link/Senescence]], [[Polycomb Group Proteins]] ↔ [[Cancer]]
+- Strong connections to strengthen: [[Polycomb Group Proteins]] ↔ [[Senescence]], [[Polycomb Group Proteins]] ↔ [[Cancer]]

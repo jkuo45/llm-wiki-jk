@@ -13,7 +13,7 @@ updated: 2024-01-01
 
 - New links added: [[Quiescence]], Bone Marrow, [[Metabolism]]
 - Suggested new entity notes to create: [[Mitophagy]], [[Mitochondria]]
-- Strong connections to strengthen: [[Hematopoietic Stem Cell]] ↔ [[notes/_link/Immune System]]
+- Strong connections to strengthen: [[Hematopoietic Stem Cell]] ↔ [[Immune System]]
 
 
 ---

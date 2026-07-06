@@ -10,13 +10,13 @@ updated: 2026-05-29
 **Akt** (also known as Protein Kinase B or PKB) is a serine/threonine-specific protein kinase that plays a key role in multiple cellular processes such as glucose metabolism, apoptosis, cell proliferation, transcription, and cell migration.
 
 
-**Akt**, also known as **Protein Kinase B** (PKB), is a key signaling protein in the [[notes/_link/PI3K]]/Akt pathway, which regulates cell survival, growth, and metabolism.
+**Akt**, also known as **Protein Kinase B** (PKB), is a key signaling protein in the [[PI3K]]/Akt pathway, which regulates cell survival, growth, and metabolism.
 
 
 ## Role in Cancer
-- **Survival Pathway**: Part of the [[notes/_link/PI3K]]/Akt/[[notes/_link/mTOR]] axis, which is frequently overactive in cancer.
+- **Survival Pathway**: Part of the [[PI3K]]/Akt/[[mTOR]] axis, which is frequently overactive in cancer.
 - **Inhibition**: 
-    - [[melittin]] has been shown to inhibit Akt phosphorylation in [[notes/_link/Breast Cancer]] cells.
+    - [[melittin]] has been shown to inhibit Akt phosphorylation in [[Breast Cancer]] cells.
     - [[Ivermectin]] inhibits the Akt/mTOR pathway to induce [[Autophagy]] in breast cancer and glioma cells.
 
 
@@ -31,20 +31,20 @@ updated: 2026-05-29
 
 
 ## Linking Summary:
-- New links added: [[notes/_link/PI3K]], [[IGF1]], [[Autophagy]], [[mTORC1]], [[FoxO1]], [[FOXO3a]], [[Cancer]]
-- Suggested new entity notes to create: [[notes/_link/PI3K]], [[IGF1]], [[mTORC1]], [[FoxO1]], [[FOXO3a]]
-- Strong connections to strengthen: [[notes/_link/Akt]] ↔ [[notes/_link/PI3K]], [[notes/_link/Akt]] ↔ [[mTORC1]], [[notes/_link/Akt]] ↔ [[Autophagy]]
+- New links added: [[PI3K]], [[IGF1]], [[Autophagy]], [[mTORC1]], [[FoxO1]], [[FOXO3a]], [[Cancer]]
+- Suggested new entity notes to create: [[PI3K]], [[IGF1]], [[mTORC1]], [[FoxO1]], [[FOXO3a]]
+- Strong connections to strengthen: [[Akt]] ↔ [[PI3K]], [[Akt]] ↔ [[mTORC1]], [[Akt]] ↔ [[Autophagy]]
 
 ## Connections
-- [[notes/_link/PI3K]]: The upstream activator of Akt.
-- [[notes/_link/mTOR]]: A downstream target of Akt.
+- [[PI3K]]: The upstream activator of Akt.
+- [[mTOR]]: A downstream target of Akt.
 - [[melittin]]: Suppresses Akt signaling in various cancer models.
 - [[Ivermectin]]: Inhibits the Akt pathway, often through the degradation of [[PAK1]].
 
 ### Linking Summary:
-- New links added: [[Autophagy]], [[Cancer]], [[FoxO1]], [[FOXO3a]], [[IGF1]], [[notes/_link/PI3K]], [[mTORC1]]
-- Suggested new entity notes to create: [[FoxO1]], [[FOXO3a]], [[IGF1]], [[notes/_link/PI3K]], [[mTORC1]]
-- Strong connections to strengthen: [[notes/_link/Akt]] ↔ [[Autophagy]], [[notes/_link/Akt]] ↔ [[notes/_link/PI3K]], [[notes/_link/Akt]] ↔ [[mTORC1]]
+- New links added: [[Autophagy]], [[Cancer]], [[FoxO1]], [[FOXO3a]], [[IGF1]], [[PI3K]], [[mTORC1]]
+- Suggested new entity notes to create: [[FoxO1]], [[FOXO3a]], [[IGF1]], [[PI3K]], [[mTORC1]]
+- Strong connections to strengthen: [[Akt]] ↔ [[Autophagy]], [[Akt]] ↔ [[PI3K]], [[Akt]] ↔ [[mTORC1]]
 
 
 ---

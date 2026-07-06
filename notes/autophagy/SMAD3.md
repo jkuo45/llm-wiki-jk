@@ -67,11 +67,11 @@ SMAD3 is essential for the anti-inflammatory and immunosuppressive functions of 
 - [[SMAD4]] — co-SMAD required for SMAD3 nuclear function
 - [[TFEB]] — direct transcriptional target of SMAD3; negative regulator of autophagy
 - [[SIRT6]] / [[SIRT7]] — suppress SMAD3 activity
-- [[notes/_link/Inflammation]] — SMAD3 mediates anti-inflammatory TGF-β signalling
+- [[Inflammation]] — SMAD3 mediates anti-inflammatory TGF-β signalling
 - [[Fibrosis]] — SMAD3 is a central pro-fibrotic transcription factor
 
 ## Linking Summary
 
-- New links added: [[TFEB]], [[TGF-β]], [[SMAD4]], [[SIRT1]], [[SIRT6]], [[SIRT7]], [[notes/_link/Inflammation]], [[Fibrosis]], [[FOXP3]], [[Regulatory T cells]]
+- New links added: [[TFEB]], [[TGF-β]], [[SMAD4]], [[SIRT1]], [[SIRT6]], [[SIRT7]], [[Inflammation]], [[Fibrosis]], [[FOXP3]], [[Regulatory T cells]]
 - Suggested new entity notes to create: [[TGF-β Signalling]], [[CLEAR network]], [[SMAD family]]
 - Strong connections to strengthen: [[SMAD3]] ↔ [[TFEB]], [[SMAD3]] ↔ [[TGF-β]], [[SMAD3]] ↔ [[SIRT6]]

@@ -20,7 +20,7 @@ updated: 2026-05-29
 
 ## Class I PI3K and Autophagy Inhibition
 - Class I PI3K is activated by growth factors (like insulin and [[IGF1]]).
-- It activates the [[notes/_link/Akt]] pathway, which subsequently stimulates [[mTORC1]] and inhibits [[Autophagy]].
+- It activates the [[Akt]] pathway, which subsequently stimulates [[mTORC1]] and inhibits [[Autophagy]].
 
 
 ## Class III PI3K (Vps34) and Autophagy Initiation
@@ -29,19 +29,19 @@ updated: 2026-05-29
 
 
 ## Linking Summary:
-- New links added: [[Autophagy]], [[IGF1]], [[notes/_link/Akt]], [[mTORC1]], [[Vps34]], [[Beclin1]], [[Atg14]], [[Autophagosome]]
-- Suggested new entity notes to create: [[IGF1]], [[notes/_link/Akt]], [[mTORC1]], [[Vps34]], [[Beclin1]], [[Autophagosome]]
-- Strong connections to strengthen: [[notes/_link/PI3K]] ↔ [[notes/_link/Akt]], [[notes/_link/PI3K]] ↔ [[Vps34]], [[notes/_link/PI3K]] ↔ [[Autophagy]]
+- New links added: [[Autophagy]], [[IGF1]], [[Akt]], [[mTORC1]], [[Vps34]], [[Beclin1]], [[Atg14]], [[Autophagosome]]
+- Suggested new entity notes to create: [[IGF1]], [[Akt]], [[mTORC1]], [[Vps34]], [[Beclin1]], [[Autophagosome]]
+- Strong connections to strengthen: [[PI3K]] ↔ [[Akt]], [[PI3K]] ↔ [[Vps34]], [[PI3K]] ↔ [[Autophagy]]
 
 ## Connections
-- [[notes/_link/Akt]]: A major downstream effector of PI3K.
-- [[notes/_link/mTOR]]: A component of the PI3K/Akt signaling axis.
+- [[Akt]]: A major downstream effector of PI3K.
+- [[mTOR]]: A component of the PI3K/Akt signaling axis.
 - [[melittin]]: Shown to inhibit the PI3K/Akt/mTOR axis in breast cancer cells.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Akt]], [[Atg14]], [[Autophagosome]], [[Autophagy]], [[Beclin1]], [[IGF1]], [[Vps34]], [[mTORC1]]
-- Suggested new entity notes to create: [[notes/_link/Akt]], [[Autophagosome]], [[Beclin1]], [[IGF1]], [[Vps34]], [[mTORC1]]
-- Strong connections to strengthen: [[notes/_link/PI3K]] ↔ [[notes/_link/Akt]], [[notes/_link/PI3K]] ↔ [[Autophagy]], [[notes/_link/PI3K]] ↔ [[Vps34]]
+- New links added: [[Akt]], [[Atg14]], [[Autophagosome]], [[Autophagy]], [[Beclin1]], [[IGF1]], [[Vps34]], [[mTORC1]]
+- Suggested new entity notes to create: [[Akt]], [[Autophagosome]], [[Beclin1]], [[IGF1]], [[Vps34]], [[mTORC1]]
+- Strong connections to strengthen: [[PI3K]] ↔ [[Akt]], [[PI3K]] ↔ [[Autophagy]], [[PI3K]] ↔ [[Vps34]]
 
 ## Content from [[adrenochrome/PI3K.md]]
 

@@ -35,7 +35,7 @@ Glycolysis is the metabolic pathway that converts glucose into pyruvate. A bypro
 ## Connections
 - **Related Processes:** [[Warburg Effect]], [[Metabolic Reprogramming]], [[Oxidative Phosphorylation]], [[Gluconeogenesis]]
 - **Key Molecules:** [[Glucose]], [[Pyruvate]], [[Lactate]], [[ATP]]
-- **Regulators:** [[notes/_link/p53]], [[HIF-1α]], [[MYC]]
+- **Regulators:** [[p53]], [[HIF-1α]], [[MYC]]
 
 ## Linking Summary
-- New links added: [[Glucose]], [[pyruvate]], [[ATP]], [[NADH]], [[Cancer]], [[Warburg Effect]], [[Metabolic Reprogramming]], [[Hexokinase 2]], [[Phosphofructokinase]], [[Pyruvate Kinase M2]], [[GLUT1]], [[Glucose uptake]], [[Benzimidazole]], [[Fenbendazole]], [[Oxidative Phosphorylation]], [[Gluconeogenesis]], [[Lactate]], [[notes/_link/p53]], [[HIF-1α]], [[MYC]]
+- New links added: [[Glucose]], [[pyruvate]], [[ATP]], [[NADH]], [[Cancer]], [[Warburg Effect]], [[Metabolic Reprogramming]], [[Hexokinase 2]], [[Phosphofructokinase]], [[Pyruvate Kinase M2]], [[GLUT1]], [[Glucose uptake]], [[Benzimidazole]], [[Fenbendazole]], [[Oxidative Phosphorylation]], [[Gluconeogenesis]], [[Lactate]], [[p53]], [[HIF-1α]], [[MYC]]

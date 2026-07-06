@@ -33,10 +33,10 @@ HOXA10 is essential for:
 ## Connections
 
 - [[SIRT2]] — interacts with HOXA10, potentially modulating its transcriptional activity
-- [[notes/_link/Hematopoiesis]] — key process regulated by HOXA10
+- [[Hematopoiesis]] — key process regulated by HOXA10
 
 ## Linking Summary
 
-- New links added: [[SIRT2]], [[notes/_link/Hematopoiesis]]
+- New links added: [[SIRT2]], [[Hematopoiesis]]
 - Suggested new entity notes to create: [[HOX Gene Family]], [[Homeodomain]], [[Implantation]]
 - Strong connections to strengthen: [[HOXA10]] ↔ [[SIRT2]]

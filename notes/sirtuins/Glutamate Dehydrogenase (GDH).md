@@ -29,7 +29,7 @@ updated: 2026-07-03
 In pancreatic $\beta$-cells, GDH activity is a central regulator of amino-acid-stimulated insulin secretion. Its activity is directly controlled by the mitochondrial sirtuin [[SIRT4]]:
 
 - **Enzymatic Inhibition**: [[SIRT4]] mono-ADP-ribosylates GDH, which inhibits its enzymatic activity. This blocks the conversion of glutamate to $\alpha$-ketoglutarate, suppressing mitochondrial ATP production and insulin secretion in response to amino acids like glutamine.
-- **Caloric Restriction Response**: During [[notes/_link/Caloric Restriction|Caloric Restriction]], SIRT4 expression is downregulated. This relieves the inhibition on GDH, allowing glutamine to serve as an active insulin secretagogue. This mechanism is key to adaptive metabolic regulation under low-nutrient conditions.
+- **Caloric Restriction Response**: During [[Caloric Restriction|Caloric Restriction]], SIRT4 expression is downregulated. This relieves the inhibition on GDH, allowing glutamine to serve as an active insulin secretagogue. This mechanism is key to adaptive metabolic regulation under low-nutrient conditions.
 
 ## Knockout Phenotype
 
@@ -45,11 +45,11 @@ Given that glutamate is the primary excitatory neurotransmitter in the central n
 ## Connections
 
 - [[SIRT4]] — directly mono-ADP-ribosylates and inhibits GDH
-- [[notes/_link/Caloric Restriction]] — downregulates SIRT4, thereby activating GDH
+- [[Caloric Restriction]] — downregulates SIRT4, thereby activating GDH
 - [[Sirtuins]] — sirtuin family members that regulate mitochondrial metabolism
 
 ## Linking Summary
 
-- New links added: [[SIRT4]], [[notes/_link/Caloric Restriction]], [[Sirtuins]]
+- New links added: [[SIRT4]], [[Caloric Restriction]], [[Sirtuins]]
 - Suggested new entity notes to create: [[Alpha-ketoglutarate]], [[Excitotoxicity]]
 - Strong connections to strengthen: [[Glutamate Dehydrogenase (GDH)]] ↔ [[SIRT4]]

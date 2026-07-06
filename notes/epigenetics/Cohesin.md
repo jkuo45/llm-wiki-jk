@@ -11,6 +11,6 @@ updated: 2024-01-01
 
 ### Linking Summary:
 
-- New links added: [[Oocyte]], [[Meiosis]], [[notes/_link/Aging]]
+- New links added: [[Oocyte]], [[Meiosis]], [[Aging]]
 - Suggested new entity notes to create: [[Sister Chromatids]]
 - Strong connections to strengthen: [[Cohesin]] ↔ [[Centromere]]
