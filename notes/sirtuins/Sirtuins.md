@@ -16,10 +16,7 @@ aliases:
   - Mammalian Sirtuins
   - Class III HDACs
 
-sources:
-  - "_document_ - sirtuins (resveratrol), gemini.md"
-  - "_document_ - sirtuins in health and disease s41392-022-01257-8.md"
-  - "_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i.md"
+source: _document_ - sirtuins (resveratrol), gemini.md, _document_ - sirtuins in health and disease s41392-022-01257-8.md, _document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i.md
 ---
 
 

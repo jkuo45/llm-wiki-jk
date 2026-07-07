@@ -10,7 +10,6 @@ tags:
   - chemical-compound
 aliases: [UBCS039]
 
-sources: []
 
 ---
 

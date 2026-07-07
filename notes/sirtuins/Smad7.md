@@ -7,9 +7,7 @@ updated: 2026-07-07
 tags:
   - protein
 aliases: [Smad7, SMAD7, MADH7]
-
-sources:
-- PMID:17098745
+source: PMID:17098745
 ---
 
 # Smad7

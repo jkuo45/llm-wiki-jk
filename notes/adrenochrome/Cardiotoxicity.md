@@ -8,7 +8,6 @@ updated: 2026-07-04
 tags:
   - medical-condition
 aliases: []
-sources: []
 
 ---
 

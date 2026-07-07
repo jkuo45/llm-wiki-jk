@@ -7,10 +7,7 @@ updated: 2026-07-07
 tags:
   - protein
 aliases: [TIMP3, Tissue Inhibitor of Metalloproteinases 3, MMP inhibitor 3]
-
-sources:
-- Cardellini 2009
-- Federici 2013
+source: Cardellini 2009, Federici 2013
 ---
 
 # TIMP3

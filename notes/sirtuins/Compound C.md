@@ -9,7 +9,6 @@ updated: 2026-07-07
 tags:
   - chemical-compound
 aliases: [Dorsomorphin, Dorsomorphin dihydrochloride, BML-275]
-sources: []
 ---
 
 # Compound C

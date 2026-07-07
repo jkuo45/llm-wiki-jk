@@ -10,10 +10,7 @@ tags:
   - protein
   - epigenetics
 aliases: [H1, Linker Histone H1]
-
-sources:
-- PMID:19202068
-
+source: PMID:19202068
 ---
 
 

@@ -9,8 +9,7 @@ updated: 2026-07-07
 tags:
   - protein
 aliases: [DAF-16, abnormal dauer formation 16, C. elegans DAF-16]
-sources:
-  - PMID:11242085
+source: PMID:11242085
 ---
 
 # DAF-16

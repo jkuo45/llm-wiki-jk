@@ -10,10 +10,7 @@ tags:
   - protein
   - epigenetics
 aliases: [H2AFZ, H2A Histone Family Member Z]
-
-sources:
-- PMID:24312627
-
+source: PMID:24312627
 ---
 
 

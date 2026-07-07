@@ -9,10 +9,7 @@ updated: 2026-07-07
 tags:
   - protein
 aliases: [HES1, HEY2, bHLH repressors]
-
-sources:
-- PMID:17202159
-
+source: PMID:17202159
 ---
 
 

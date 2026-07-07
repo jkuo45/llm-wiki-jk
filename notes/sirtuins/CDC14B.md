@@ -9,8 +9,7 @@ updated: 2026-07-07
 tags:
   - protein
 aliases: [CDC14B, Dual Specificity Protein Phosphatase CDC14B]
-sources:
-  - PMID:19136623
+source: PMID:19136623
 ---
 
 # CDC14B

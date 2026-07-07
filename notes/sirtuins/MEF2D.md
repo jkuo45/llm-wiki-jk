@@ -9,10 +9,7 @@ updated: 2026-07-07
 tags:
   - protein
 aliases: [MEF2D, Myocyte-Specific Enhancer Factor 2D]
-
-sources:
-- PMID:16166628
-
+source: PMID:16166628
 ---
 
 

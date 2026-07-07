@@ -7,10 +7,7 @@ updated: 2026-07-07
 tags:
   - protein
 aliases: [ATP5PO, ATP Synthase Peripheral Stalk Subunit OSCP, Oligomycin Sensitivity Conferral Protein, Oligomycin sensitivity-conferring protein]
-
-sources:
-- Yang 2021
-- Luo 2022
+source: Yang 2021, Luo 2022
 ---
 
 # OSCP

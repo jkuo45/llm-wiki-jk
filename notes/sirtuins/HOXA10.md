@@ -9,10 +9,7 @@ updated: 2026-07-07
 tags:
   - protein
 aliases: [Homeobox A10]
-
-sources:
-- PMID:17655269
-
+source: PMID:17655269
 ---
 
 

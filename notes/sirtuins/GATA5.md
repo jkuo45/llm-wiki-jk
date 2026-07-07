@@ -9,11 +9,7 @@ updated: 2026-07-04
 tags:
   - protein
 aliases: [GATA5, GATA Binding Protein 5, GATA transcription factor 5]
-
-sources:
-- Wang 2020
-- Liu 2021
-
+source: Wang 2020, Liu 2021
 ---
 
 

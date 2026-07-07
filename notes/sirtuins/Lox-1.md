@@ -9,11 +9,7 @@ updated: 2026-07-07
 tags:
   - receptor
 aliases: [OLR1, Lectin-like Oxidized LDL Receptor 1, Oxidized LDL receptor 1, LOX1, CLEC8A]
-
-sources:
-- Li 2015
-- Zhang 2017
-
+source: Li 2015, Zhang 2017
 ---
 
 
