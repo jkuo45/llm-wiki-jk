@@ -5,8 +5,8 @@ description: GLUT2 (Glucose Transporter 2, encoded by SLC2A2) is a facilitative 
   transporter with low affinity and high capacity for glucose. It is the principal
   glucose transporter in pancreatic β-cells...
 created: 2026-07-04
-updated: 2026-07-04
-entity_type_1: Protein
+updated: 2026-07-07
+entity_type_1: Transporter
 aliases:
   - SLC2A2
   - Glucose Transporter 2
@@ -15,14 +15,17 @@ aliases:
 
 
 
-
 # GLUT2
 
 **GLUT2** (Glucose Transporter 2, encoded by *SLC2A2*) is a facilitative glucose transporter with low affinity and high capacity for glucose. It is the principal glucose transporter in pancreatic β-cells, hepatocytes, renal tubular cells, and enterocytes. Its high Km (~17 mM) allows it to function as a glucose sensor, equilibrating extracellular and intracellular glucose concentrations over the physiological range.
 
+## Structure & Mechanism
+
+GLUT2 is a 12-transmembrane-helix facilitative transporter of the SLC2A family. Unlike insulin-dependent GLUT4, GLUT2 does not require translocation to the plasma membrane in response to insulin; it is constitutively expressed at the cell surface. Because it is not saturable at normal blood glucose, the rate of glucose equilibration through GLUT2 reports ambient glucose concentration to the cell.
+
 ## Physiological Role
 
-In pancreatic β-cells, GLUT2-mediated glucose uptake is the first step in glucose-stimulated insulin secretion ([[GSIS]]). Intracellular glucose is phosphorylated by glucokinase, initiating glycolysis, ATP production, closure of KATP channels, membrane depolarization, and Ca2+-triggered insulin granule exocytosis. In hepatocytes, GLUT2 exports glucose during gluconeogenesis and imports it after a meal.
+In pancreatic β-cells, GLUT2-mediated glucose uptake is the first step in glucose-stimulated insulin secretion ([[GSIS]]). Intracellular glucose is phosphorylated by [[Glucokinase]], initiating glycolysis, ATP production, closure of [[KATP channel|KATP channels]], membrane depolarization, Ca2+ influx, and insulin granule exocytosis. In hepatocytes, GLUT2 exports glucose produced by gluconeogenesis and glycogenolysis and imports it after a meal. In enterocytes and renal epithelium, GLUT2 handles basolateral glucose exit and reabsorption.
 
 ## Regulation by SIRT6
 
@@ -30,7 +33,7 @@ In pancreatic β-cells, GLUT2-mediated glucose uptake is the first step in gluco
 
 ## Clinical Relevance
 
-Loss of GLUT2 expression in β-cells underlies the progressive decline in glucose-stimulated insulin secretion in [[Type 2 Diabetes Mellitus]] (T2DM). SIRT6 activation or FoxO1 modulation may restore GLUT2 levels and β-cell glucose competence.
+Loss of GLUT2 expression in β-cells underlies the progressive decline in glucose-stimulated insulin secretion in [[Type 2 Diabetes Mellitus]] (T2DM). Rare *SLC2A2* loss-of-function causes Fanconi–Bickel syndrome, a glycogenosis with renal glucosuria. SIRT6 activation or FoxO1 modulation may restore GLUT2 levels and β-cell glucose competence, positioning the SIRT6–FoxO1 axis as a therapeutic target for preserving insulin secretion.
 
 ## Connections
 
@@ -40,6 +43,7 @@ Loss of GLUT2 expression in β-cells underlies the progressive decline in glucos
 - [[Type 2 Diabetes Mellitus]] — Disease of β-cell dysfunction linked to GLUT2 downregulation
 - [[Glucokinase]] — Rate-limiting glucose phosphorylation enzyme in β-cells; partners with GLUT2
 - [[KATP channel]] — ATP-sensitive potassium channel that couples metabolism to insulin secretion
+- [[NAD+]] — Cofactor required for SIRT6 deacetylase function
 
 ## Linking Summary
 - New links added: [[GLUT2]], [[GSIS]], [[FoxO1]], [[Type 2 Diabetes Mellitus]], [[Glucokinase]], [[KATP channel]]

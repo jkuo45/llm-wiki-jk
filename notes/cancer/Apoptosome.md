@@ -1,36 +1,52 @@
 ---
-
 type: entity
 title: Apoptosome
-description: The Apoptosome is a large, wheel-like multi-protein complex that
-  forms during the Intrinsic Pathway of Apoptosis.
+description: The Apoptosome is a large, wheel-like heptameric multi-protein complex that forms during the Intrinsic Pathway of Apoptosis to activate Caspase-9.
 created: 2026-07-06
-updated: 2026-07-06
-entity_type_1: Enzyme
-
+updated: 2026-07-07
+entity_type_1: Biological Process
 ---
 
 # Apoptosome
 
-The **Apoptosome** is a large, wheel-like multi-protein complex that forms during the [[Intrinsic Pathway]] of [[Apoptosis]].
+The **Apoptosome** is a ~700–1,400 kDa, wheel-like heptameric complex that assembles in the cytosol during the [[Intrinsic Pathway]] of [[Apoptosis]] to activate the initiator [[Caspase-9]]. It is the central execution platform linking mitochondrial outer membrane permeabilization to the caspase cascade.
 
-## Composition
-The apoptosome is composed of:
-1.  **[[Apaf-1]]**: Seven molecules of Apaf-1 form the scaffold.
-2.  **[[Cytochrome c]]**: Released from the mitochondria, it binds to Apaf-1 to trigger its oligomerization.
-3.  **dATP/ATP**: Required for the conformational change in Apaf-1.
-4.  **pro-[[Caspase-9]]**: Recruited to the center of the wheel.
+## Composition & Assembly
 
-## Function
-The primary function of the apoptosome is to facilitate the activation of [[Caspase-9]], the initiator caspase of the intrinsic pathway. Once activated, Caspase-9 then cleaves and activates executioner caspases like [[Caspase-3]].
+The apoptosome is built from seven copies each of:
+1. **[[Apaf-1]]** (apoptotic protease-activating factor 1) — the scaffold, containing CARD, nucleotide-binding (NB-ARC), and WD40 domains.
+2. **[[Cytochrome c]]** — released from mitochondria; binds the Apaf-1 WD40 domain, triggering dATP/ATP-dependent oligomerization.
+3. **dATP/ATP** — induces the conformational change enabling heptamerization.
+4. **pro-[[Caspase-9]]** — recruited via CARD–CARD interaction to the central hub.
+
+Cytochrome c binding causes Apaf-1 to swap from an autoinhibited monomer to an active oligomer, forming the characteristic seven-spoked wheel.
+
+## Mechanism of Action
+
+Recruitment concentrates pro-caspase-9 at the apoptosome, enabling **induced proximity** and autocleavage that generate active caspase-9. Active caspase-9 then proteolytically activates executioner [[Caspase-3]] and [[Caspase-7]], which dismantle the cell through chromatin condensation, DNA fragmentation, and membrane blebbing. The apoptosome thus converts a mitochondrial "damage signal" into an irreversible proteolytic program.
+
+## Regulation
+
+- **Inhibitors**: [[XIAP]] and other [[IAPs]] can suppress caspase-9; [[SMAC]]/DIABLO released from mitochondria relieves this inhibition.
+- **Cross-talk**: The extrinsic pathway can amplify via [[Bid]] truncation, feeding into the mitochondrial/ apoptosome axis.
+- **Dysregulation in Cancer**: Overexpression of [[BCL-2 family]] anti-apoptotics or loss of [[Cytochrome c]] release capacity blocks apoptosome formation, a major mechanism of chemotherapy resistance.
+
+## Therapeutic Relevance
+
+Because the apoptosome is proximal to execution, agents that promote Cytochrome c release ([[BH3 mimetics]], [[MOMP]] inducers) or that mimic apoptosome function are explored to overcome resistant tumors. Conversely, excessive apoptosome activity underlies neurodegenerative and ischemic injury.
 
 ## Connections
-- [[Intrinsic Pathway]]: The central activation platform for mitochondrial-mediated apoptosis.
-- [[Apaf-1]]: The structural scaffold of the apoptosome.
-- [[Cytochrome c]]: The trigger for apoptosome assembly.
-- [[Caspase-9]]: The enzyme activated by the apoptosome.
+
+- [[Intrinsic Pathway]]: Central activation platform for mitochondrial apoptosis.
+- [[Apaf-1]]: Structural scaffold of the apoptosome.
+- [[Cytochrome c]]: Mitochondrial trigger of assembly.
+- [[Caspase-9]]: Initiator caspase activated by the complex.
+- [[Caspase-3]]: Executioner downstream of apoptosome.
+- [[BH3 mimetics]]: Agents that engage upstream release.
+- [[IAPs]]: Negative regulators of caspase activation.
 
 ## Linking Summary
-- New links added: [[Intrinsic Pathway]], [[Apoptosis]], [[Apaf-1]], [[Cytochrome c]], [[Caspase-9]], [[Caspase-3]]
-- Suggested new entity notes to create: [[Caspase-9]]
+
+- New links added: [[Intrinsic Pathway]], [[Apoptosis]], [[Apaf-1]], [[Cytochrome c]], [[Caspase-9]], [[Caspase-3]], [[Caspase-7]], [[XIAP]], [[IAPs]], [[SMAC]], [[BCL-2 family]], [[BH3 mimetics]], [[Bid]]
+- Suggested new entity notes to create: [[Caspase-9]], [[Apaf-1]], [[SMAC/DIABLO]]
 - Strong connections to strengthen: [[Apoptosome]] ↔ [[Caspase-9]], [[Apoptosome]] ↔ [[Apaf-1]]

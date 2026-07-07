@@ -1,24 +1,42 @@
 ---
-
 type: entity
 title: RB1
-description: 'RB1 is the gene that encodes the Retinoblastoma Protein (pRb), a tumor suppressor protein that is dysfunctional in several major cancers.'
+description: RB1 is the gene encoding the Retinoblastoma Protein (pRb), a tumor suppressor that gates the G1/S transition by inhibiting E2F and enforcing quiescence.
 created: 2024-01-01
-updated: 2024-01-01
+updated: 2026-07-06
 entity_type_1: Gene
-
 ---
 
 # RB1
 
-[[RB1]] is the gene that encodes the [[Retinoblastoma Protein]] (pRb), a tumor suppressor protein that is dysfunctional in several major cancers.
+[[RB1]] is the gene encoding the [[Retinoblastoma Protein]] (pRb), a tumor-suppressor that governs the G1/S transition of the [[Cell Cycle]]. Located on chromosome 13q14, RB1 is a founding member of the [[Tumor Suppressor Gene]] family; its inactivation underlies not only retinoblastoma but also many major cancers.
+
+## Structure and Function of pRb
+
+pRb is a pocket protein with N-terminal, central pocket, and C-terminal domains. In its hypophosphorylated state, pRb binds E2F transcription factors, masking their transactivation domains and recruiting chromatin repressors (HDAC, SUV39H1) to silence S-phase genes. Phosphorylation by G1 cyclin–CDK complexes (cyclin D–CDK4/6, cyclin E–CDK2) at the **[[Restriction Point]]** releases E2F, permitting entry into S phase. pRb also interfaces with differentiation and apoptotic programs.
+
+## Regulation of Quiescence
+
+By holding E2F in check, pRb enforces exit into [[G0 Phase]] and [[Quiescence]]. CDK inhibitors (p16^INK4a^, p21, p27) reinforce this arrest; loss of pRb removes the gate, driving uncontrolled proliferation. pRb thus couples external anti-proliferative signals to durable cell-cycle exit.
+
+## Pathology and Cancer
+
+Germline RB1 mutations cause hereditary retinoblastoma (often bilateral, early-onset); somatic loss occurs in small-cell lung, bladder, osteosarcoma, and many other carcinomas. Beyond mutation, pRb function is inactivated by CDK4/6 amplification, cyclin D overexpression, or viral oncoproteins (HPV E7, SV40 T). pRb status predicts response to CDK4/6 inhibitors (palbociclib, abemaciclib), now standard in HR+ breast cancer.
+
+## Research Relevance
+
+RB1 is a paradigm for tumor-suppressor biology and a biomarker for proliferation (the "retinoblastoma protein pathway"). Its restoration or pharmacological mimicry (CDK inhibition) is a mainstay anticancer strategy, and pRb pathway profiling guides precision therapy.
 
 ## Connections
 
-- [[RB1]]: RB1 is the gene that encodes the [[Retinoblastoma Protein]] (pRb), a tumor suppressor protein that is dysfunctional i...
-- [[Retinoblastoma Protein]]: [[RB1]] is the gene that encodes the Retinoblastoma Protein (pRb), a tumor suppressor protein that is dysfunctional i...
+- [[Retinoblastoma Protein]] - protein product of RB1.
+- [[Restriction Point]] - pRb phosphorylation site controlling G1/S.
+- [[G1 Phase]] - phase gated by pRb/E2F.
+- [[E2F]] - transcription factor inhibited by pRb.
+- [[Tumor Suppressor Gene]] - RB1 is a canonical member.
 
 ## Linking Summary
-- New links added: [[Retinoblastoma Protein]], [[Quiescence]], [[Cancer]]
-- Suggested new entity notes to create: [[Tumor Suppressor Gene]]
-- Strong connections to strengthen: [[RB1]] ↔ [[Cell Cycle]]
+
+- New links added: [[Retinoblastoma Protein]], [[Restriction Point]], [[G1 Phase]], [[E2F]], [[Tumor Suppressor Gene]], [[Cell Cycle]], [[Quiescence]], [[G0 Phase]], [[CDK4/6 Inhibitor]]
+- Suggested new entity notes to create: [[CDK4/6 Inhibitor]], [[p16^INK4a^]], [[Pocket Protein]]
+- Strong connections to strengthen: [[RB1]] ↔ [[Cell Cycle]], [[RB1]] ↔ [[Quiescence]]

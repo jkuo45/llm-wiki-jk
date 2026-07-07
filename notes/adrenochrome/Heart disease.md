@@ -71,5 +71,5 @@ The adrenochrome hypothesis proposes that oxidation products of catecholamines, 
 ## Linking Summary
 
 - New links added: [[Atherosclerosis]], [[Hypertension]], [[Type 2 Diabetes Mellitus]], [[Inflammation]], [[Epinephrine]], [[Norepinephrine]], [[Cardiomyocytes]], [[Oxidative Stress]], [[Adrenal gland]], [[Heart failure]], [[Myocardial infarction]], [[Arrhythmias]], [[Coronary artery constriction]], [[Adrenochrome]]
-- Suggested new entity notes to create: [[Metabolic Syndrome]], [[Plaque Rupture]], [[Foam Cells]], [[Oxidized LDL]], [[Catecholamine-Induced Cardiomyopathy]]
+- Suggested new entity notes to create: [[Metabolic Syndrome]], [[Plaque Rupture]], [[Foam Cells]], [[Oxidized LDL]], [[Catecholamine-induced cardiomyopathy]]
 - Strong connections to strengthen: [[Atherosclerosis]] ↔ [[Heart disease]], [[Adrenochrome]] ↔ [[Oxidative Stress]] ↔ [[Cardiomyocytes]]

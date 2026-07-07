@@ -1,44 +1,52 @@
 ---
-
 type: entity
 title: MitoQ
-description: 'MitoQ (Mitoquinone mesylate) is a mitochondria-targeted antioxidant
-  composed of a ubiquinone (Coenzyme Q10) moiety covalently linked to a triphenylphosphonium
-  (TPP⁺) lipophilic cation, enabling...'
+description: MitoQ (Mitoquinone mesylate) is a mitochondria-targeted antioxidant composed of a ubiquinone (Coenzyme Q10) moiety covalently linked to a triphenylphosphonium cation, enabling selective accumulation in the mitochondrial matrix.
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-07-07
 entity_type_1: Chemical Compound
 aliases: [Mitoquinone, Mitoquinone mesylate, mitoQ]
-
 ---
 
 # MitoQ
 
-**MitoQ (Mitoquinone mesylate)** is a mitochondria-targeted antioxidant composed of a ubiquinone ([[Coenzyme Q10|CoQ10]]) moiety covalently linked to a triphenylphosphonium (TPP⁺) lipophilic cation, enabling selective accumulation in the mitochondrial matrix.
+**MitoQ (Mitoquinone mesylate)** is a mitochondria-targeted antioxidant composed of a ubiquinone ([[Coenzyme Q10|CoQ10]]) moiety covalently linked to a triphenylphosphonium (TPP⁺) lipophilic cation, enabling selective accumulation in the mitochondrial matrix—the principal site of endogenous [[Superoxide Radicals]] production.
 
-## Mechanism
+## Design and Mechanism
 
-The TPP⁺ cation drives potential-dependent accumulation across the inner mitochondrial membrane, achieving 100–1,000-fold higher concentrations in mitochondria than in the cytosol. Once inside, the ubiquinone moiety is reduced to ubiquinol by Complex II of the electron transport chain and functions as a chain-breaking antioxidant, reducing lipid peroxyl radicals and regenerating [[Vitamin E|α-tocopherol]] within the mitochondrial membrane. MitoQ also reacts directly with [[Peroxynitrite]] and [[Superoxide Radicals|superoxide]].
+The TPP⁺ cation exploits the ~150–180 mV negative membrane potential across the inner [[Mitochondria]]l membrane, driving potential-dependent accumulation ~100–1,000-fold higher in mitochondria than cytosol. Once inside, the ubiquinone moiety is reduced to ubiquinol (by Complex II of the electron transport chain) and acts as a chain-breaking antioxidant: it reduces lipid peroxyl radicals and regenerates [[Vitamin E|α-tocopherol]] within the inner membrane. MitoQ also directly scavenges [[Superoxide Radicals]] and [[Peroxynitrite]], and by intercepting radicals at their source it prevents the propagation of [[Lipid Peroxidation]] and the inactivation of iron-sulfur enzymes such as aconitase.
 
-## Clinical Research
+Unlike untargeted CoQ10—which is poorly taken up by mitochondria—the TPP⁺ delivery vector concentrates the active moiety where ROS originate, a principle termed "mitochondrial medicine." MitoQ's quinone can also cycle redox, providing sustained catalytic antioxidant capacity.
 
-MitoQ has been investigated in clinical trials for [[Parkinson's Disease]] (Phase II — trend toward slowing progression), [[Hepatitis C]] (reduced liver damage), [[Endothelial Dysfunction|endothelial dysfunction]] in aging (improved vascular function in older adults), and [[Chronic Fatigue Syndrome]]. It also shows preclinical efficacy in [[cerebral ischemia-reperfusion]], [[Alzheimer's Disease]], and [[Cardiac Hypertrophy]].
+## Preclinical and Clinical Research
+
+MitoQ has been studied across a spectrum of oxidative and mitochondrial diseases:
+
+- **[[Parkinson's Disease]]**: A Phase II trial showed a trend toward slowed progression, consistent with protection of dopaminergic neurons from mitochondrial ROS.
+- **[[Alzheimer's Disease]]**: Preclinical studies report reduced amyloid-associated oxidative damage and improved cognition in models.
+- **Endothelial dysfunction in aging**: Older adults given MitoQ showed improved vascular function (flow-mediated dilation), indicating restored NO bioavailability.
+- **[[Hepatitis C]]** and non-alcoholic fatty liver disease: reduced liver transaminases and oxidative injury.
+- **[[Chronic Fatigue Syndrome]]** and [[Diabetes Mellitus]]: exploratory benefits on fatigue and endothelial function.
+- **Cerebral and cardiac ischemia–reperfusion**: preclinical efficacy reducing infarct size via suppressed XO/mitochondrial ROS.
+- **[[Cardiac Hypertrophy]]**: attenuation in pressure-overload models.
+
+## Safety and Limitations
+
+MitoQ is generally well tolerated at doses up to ~80 mg/day, though high concentrations can paradoxically inhibit Complex I. Its efficacy in large outcome trials remains limited, and it is not an approved disease-modifying therapy. Combination with exercise or other [[Mitohormesis]]-inducing interventions is an area of active study.
 
 ## Connections
 
-- [[Coenzyme Q10]]: **MitoQ (Mitoquinone mesylate)** is a mitochondria-targeted antioxidant composed of a ubiquinone (CoQ10) moiety coval...
-- [[Vitamin E]]: Once inside, the ubiquinone moiety is reduced to ubiquinol by Complex II of the electron transport chain and function...
-- [[Peroxynitrite]]: MitoQ also reacts directly with Peroxynitrite and [[Superoxide Radicals|superoxide]].
-- [[Superoxide Radicals]]: MitoQ also reacts directly with [[Peroxynitrite]] and superoxide.
-- [[Parkinson's Disease]]: MitoQ has been investigated in clinical trials for Parkinson's Disease (Phase II — trend toward slowing progression),...
-- [[Hepatitis C]]: MitoQ has been investigated in clinical trials for [[Parkinson's Disease]] (Phase II — trend toward slowing progressi...
-- [[Endothelial Dysfunction]]: MitoQ has been investigated in clinical trials for [[Parkinson's Disease]] (Phase II — trend toward slowing progressi...
-- [[Chronic Fatigue Syndrome]]: MitoQ has been investigated in clinical trials for [[Parkinson's Disease]] (Phase II — trend toward slowing progressi...
-- [[cerebral ischemia-reperfusion]]: It also shows preclinical efficacy in cerebral ischemia-reperfusion, [[Alzheimer's Disease]], and [[Cardiac Hypertrop...
-- [[Alzheimer's Disease]]: It also shows preclinical efficacy in [[cerebral ischemia-reperfusion]], Alzheimer's Disease, and [[Cardiac Hypertrop...
-- [[Cardiac Hypertrophy]]: It also shows preclinical efficacy in [[cerebral ischemia-reperfusion]], [[Alzheimer's Disease]], and Cardiac Hypertr...
+- [[Coenzyme Q10]]: The ubiquinone antioxidant moiety of MitoQ, delivered to mitochondria.
+- [[Mitochondria]]: MitoQ accumulates ~100–1000× in the matrix via TPP⁺ targeting.
+- [[Superoxide Radicals]]: Primary ROS scavenged at its mitochondrial source.
+- [[Vitamin E]]: MitoQ regenerates α-tocopherol in the inner membrane.
+- [[Peroxynitrite]]: Directly neutralized by MitoQ.
+- [[Lipid Peroxidation]]: Interception at source prevents chain propagation.
+- [[Parkinson's Disease]]: Phase II evidence for slowed progression.
+- [[Endothelial Dysfunction]]: Improved vascular function in aging adults.
 
 ## Linking Summary
-- New links added: [[Alzheimer's Disease]], [[Cardiac Hypertrophy]], [[Chronic Fatigue Syndrome]], [[Coenzyme Q10]], [[Endothelial Dysfunction]], [[Hepatitis C]], [[Parkinson's Disease]], [[Peroxynitrite]], [[Superoxide Radicals]], [[Vitamin E]], [[cerebral ischemia-reperfusion]]
+
+- New links added: [[Diabetes Mellitus]], [[Mitohormesis]]
 - Suggested new entity notes to create: [[Chronic Fatigue Syndrome]], [[Hepatitis C]], [[cerebral ischemia-reperfusion]]
-- Strong connections to strengthen: [[MitoQ]] ↔ [[cerebral ischemia-reperfusion]], [[MitoQ]] ↔ [[Chronic Fatigue Syndrome]], [[MitoQ]] ↔ [[Endothelial Dysfunction]]
+- Strong connections to strengthen: [[MitoQ]] ↔ [[Mitochondria]], [[MitoQ]] ↔ [[Superoxide Radicals]], [[MitoQ]] ↔ [[Endothelial Dysfunction]]

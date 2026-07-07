@@ -1,28 +1,43 @@
 ---
 type: entity
 title: HSP27
-description: Heat shock protein 27 (HSP27) is a molecular chaperone protein that is
-  highly expressed in many cancers.
+description: Heat shock protein 27 (HSP27/HSPB1) is a small molecular chaperone highly expressed in many cancers, where it promotes survival, drug resistance, and poor prognosis.
 created: 2026-07-06
-updated: 2026-07-06
-entity_type_1: Medical Condition
+updated: 2026-07-07
+entity_type_1: Protein
 ---
+
 # HSP27
 
-Heat shock protein 27 (HSP27) is a molecular chaperone protein that is highly expressed in many cancers.
+Heat shock protein 27 (HSP27, encoded by *HSPB1*) is a small (≈27 kDa) intracellular chaperone of the small heat-shock protein family. Inducible by stress and oncogenic signaling, HSP27 protects cells against proteotoxic, oxidative, and apoptotic insults and is frequently overexpressed in malignancy, where it confers survival and therapy resistance.
 
-## Role in Cancer
-HSP27 is associated with drug resistance, poor prognosis, and the survival of cancer cells under stress. It is considered a promising target for cancer therapy.
+## Structure & Regulation
 
-## Therapeutic Targeting
-- [[Ivermectin]]: Acts as an inhibitor of HSP27 phosphorylation. By inhibiting HSP27, ivermectin can enhance the activity of anti-[[EGFR]] drugs (like [[erlotinib]] and [[cetuximab]]) in [[EGFR]]/[[HER2]]-driven tumors, such as [[Lung Cancer]] and [[Prostate Cancer]].
+HSP27 forms dynamic oligomers whose size is modulated by phosphorylation at Ser15, Ser78, and Ser82 by MAPKAPK-2 (downstream of p38) and by [[Akt]]. Phosphorylation shifts HSP27 from large aggregates to smaller dimers/monomers, altering its chaperone and anti-apoptotic activity. Its chaperone function is ATP-independent, relying on hydrophobic motif exposure to bind partially unfolded client proteins.
+
+## Mechanism of Action
+
+HSP27 suppresses apoptosis through multiple mechanisms: it inhibits [[Cytochrome c]]-mediated [[Apoptosome]] assembly, binds and stabilizes client proteins (e.g., [[ASK1]], [[caspase-3]] intermediates), and buffers reactive oxygen species via interactions with [[Glutathione]] pathways, countering [[Oxidative Stress]]. It also stabilizes the actin cytoskeleton, promoting motility and [[Metastasis]], and supports [[Angiogenesis]].
+
+## Pathological & Clinical Relevance
+
+High HSP27 marks poor prognosis and resistance across [[Breast Cancer]], [[Prostate Cancer]], [[Lung Cancer]], [[Ovarian Cancer]], and [[Glioblastoma]]. It diminishes responses to [[Chemotherapy]], radiation, and targeted agents. Notably, [[Ivermectin]] inhibits HSP27 phosphorylation; by suppressing HSP27, ivermectin sensitizes [[EGFR]]/[[HER2]]-driven tumors (e.g., [[Lung Cancer]], [[Prostate Cancer]]) to anti-EGFR drugs such as [[erlotinib]] and [[cetuximab]]. HSP27 antisense oligonucleotides (OGX-427) and small-molecule inhibitors are in clinical evaluation as chemosensitizers.
 
 ## Connections
-- [[Ivermectin]]: Inhibits HSP27 to sensitize tumors to targeted therapies.
-- [[EGFR]]: Targeted therapy efficacy is enhanced by HSP27 inhibition.
-- [[Lung Cancer]]: Cancer type where ivermectin inhibits HSP27 to improve erlotinib activity.
+
+- [[Ivermectin]]: Inhibits HSP27 phosphorylation, restoring therapy sensitivity.
+- [[EGFR]]: Targeted-therapy efficacy enhanced by HSP27 inhibition.
+- [[HER2]]: HER2-driven tumors sensitized via HSP27 blockade.
+- [[erlotinib]]: EGFR-TKI potentiated by HSP27 inhibition.
+- [[cetuximab]]: Anti-EGFR antibody synergized with HSP27 blockade.
+- [[Apoptosis]]: HSP27 suppresses death via apoptosome blockade.
+- [[Oxidative Stress]]: Buffered by HSP27 glutathione crosstalk.
+- [[Metastasis]]: Cytoskeletal stabilization by HSP27 aids dissemination.
+- [[Lung Cancer]]: Tumor where ivermectin+HSP27 inhibition helps.
+- [[Prostate Cancer]]: Tumor sensitive to HSP27 targeting.
 
 ## Linking Summary
-- New links added: [[Ivermectin]], [[EGFR]], [[Lung Cancer]].
-- Suggested new entity notes to create: [[erlotinib]], [[cetuximab]].
-- Strong connections to strengthen: [[HSP27]] ↔ [[Ivermectin]]
+
+- New links added: [[Ivermectin]], [[EGFR]], [[HER2]], [[erlotinib]], [[cetuximab]], [[Apoptosis]], [[Oxidative Stress]], [[Metastasis]], [[Angiogenesis]], [[Chemotherapy]], [[Lung Cancer]], [[Prostate Cancer]], [[Breast Cancer]], [[Ovarian Cancer]], [[Glioblastoma]], [[Cytochrome c]], [[Apoptosome]], [[ASK1], [[Glutathione], [[Akt], [[caspase-3]]
+- Suggested new entity notes to create: [[MAPKAPK-2]], [[OGX-427]], [[HSPB1]]
+- Strong connections to strengthen: [[HSP27]] ↔ [[Ivermectin]], [[HSP27]] ↔ [[EGFR]

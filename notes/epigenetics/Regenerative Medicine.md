@@ -1,32 +1,43 @@
 ---
 type: entity
 title: Regenerative Medicine
-description: The advent of Induced Pluripotent Stem Cells (iPSC) technology has been
-  a paradigm shift for Regenerative Medicine. Before iPSCs, Stem Cell Research relied
-  heavily on Embryonic Stem Cells (ESCs), w...
+description: The advent of iPSC technology has been a paradigm shift for Regenerative
+  Medicine, enabling patient-specific, immunocompatible cell therapies.
 created: 2024-01-01
-updated: 2024-01-01
-entity_type_1: NA
+updated: 2026-07-06
+entity_type_1: Scientific Concept
 ---
+
 # Regenerative Medicine
 
-[[Regenerative Medicine]] is an interdisciplinary branch of medicine that focuses on the repair, replacement, or regeneration of human cells, tissues, or organs to restore or establish normal function. It encompasses a wide range of approaches, including [[Stem Cell Research]], tissue engineering, and molecular biology.
+[[Regenerative Medicine]] is an interdisciplinary field aiming to repair, replace, or regenerate human cells, tissues, and organs to restore normal function. It integrates [[Stem Cell Research]], [[Tissue Engineering]], biomaterials, and gene editing to reverse damage from injury, degeneration, and aging.
 
-## Role in Cellular Reprogramming and Pluripotency
+## Core Approaches
 
-The advent of [[Induced Pluripotent Stem Cells]] (iPSC) technology has been a paradigm shift for [[Regenerative Medicine]]. Before iPSCs, [[Stem Cell Research]] relied heavily on [[Embryonic Stem Cells]] (ESCs), which faced significant ethical and immunological challenges. iPSCs, being derived from a patient's own [[Somatic Cells]], offer a source of pluripotent cells that are immunologically compatible, thus bypassing the risk of rejection.
+Major strategies include (1) cell replacement using stem-cell-derived specialized cells; (2) [[Tissue Engineering]] of scaffolds and bio-printed constructs seeded with patient cells; (3) activation of endogenous repair (e.g., via [[Partial Reprogramming]] or growth factors); and (4) combination devices (e.g., stem-cell-seeded grafts). The unifying goal is to restore structure and function rather than merely manage symptoms.
 
-In the clinic, [[Regenerative Medicine]] utilizes iPSCs to generate specialized cell types for transplantation. Examples include retinal pigment epithelium (RPE) cells for treating [[Macular Degeneration]], dopaminergic neurons for [[Parkinson's Disease]], and cardiomyocytes for heart repair. The development of clinical-grade HLA-homozygous iPSC haplobanks and "universal" donor lines further enhances the potential for off-the-shelf regenerative therapies that are scalable and broadly accessible.
+## Role of Induced Pluripotency
+
+The advent of [[Induced Pluripotent Stem Cells]] (iPSCs) was a paradigm shift. Before iPSCs, [[Stem Cell Research]] relied on [[Embryonic Stem Cells]] (ESCs), which carried ethical and immunological barriers. iPSCs derived from a patient's own [[Somatic Cells]] provide immunocompatible pluripotent cells, bypassing rejection risk. iPSCs are differentiated into retinal pigment epithelium (for [[Macular Degeneration]]), dopaminergic neurons (for [[Parkinson's Disease]]), cardiomyocytes (for heart repair), and pancreatic β-cells (for diabetes). Clinical-grade HLA-homozygous iPSC haplobanks and "universal" donor lines enable scalable, off-the-shelf therapies.
+
+## Rejuvenation and Aging
+
+Regenerative medicine increasingly overlaps with [[Rejuvenation]] biology. [[Partial Reprogramming]] with [[Yamanaka Factors]] can restore youthful transcriptomic and epigenetic profiles in aged tissues without full dedifferentiation, suggesting a route to treat age-related degeneration directly.
+
+## Clinical and Research Relevance
+
+First-in-human iPSC trials (e.g., subretinal RPE transplantation for macular degeneration) have demonstrated safety, establishing a translational pipeline. Challenges include tumorigenicity from residual undifferentiated cells, manufacturing cost, and genomic stability of long-term cultures.
 
 ## Connections
 
-- [[Stem Cell Research]]: [[Regenerative Medicine]] is the primary field of application for stem cell-based biological discoveries.
-- [[Induced Pluripotent Stem Cells]]: A foundational technology that enables patient-specific regenerative therapies.
-- [[Macular Degeneration]]: One of the first clinical indications for iPSC-based regenerative therapy.
-- [[Parkinson's Disease]]: A major target for cell replacement strategies in [[Regenerative Medicine]].
-- [[Cellular Reprogramming]]: The biological process that allows for the creation of the starting materials for many regenerative therapies.
+- [[Stem Cell Research]]: The foundational discovery engine for regenerative therapies.
+- [[Induced Pluripotent Stem Cells]]: Enables patient-specific regenerative medicine.
+- [[Tissue Engineering]]: Engineering scaffold-based organs and tissues.
+- [[Partial Reprogramming]]: A rejuvenation strategy within regenerative medicine.
+- [[Rejuvenation]]: Overlap with longevity/aging repair.
+- [[Macular Degeneration]] / [[Parkinson's Disease]]: Leading clinical indications.
 
 ## Linking Summary
-- New links added: [[Stem Cell Research]], [[Induced Pluripotent Stem Cells]], [[Embryonic Stem Cells]], [[Somatic Cells]], [[Macular Degeneration]], [[Parkinson's Disease]], [[Cellular Reprogramming]]
-- Suggested new entity notes to create: [[HLA Haplobank]], [[Tissue Engineering]]
-- Strong connections to strengthen: [[Regenerative Medicine]] <-> [[Induced Pluripotent Stem Cells]]
+- New links added: [[Tissue Engineering]], [[Partial Reprogramming]], [[Rejuvenation]], [[Macular Degeneration]], [[Parkinson's Disease]], [[Somatic Cells]]
+- Suggested new entity notes to create: [[HLA Haplobank]], [[Cardiomyocytes]], [[β-cell]]
+- Strong connections to strengthen: [[Regenerative Medicine]] ↔ [[Induced Pluripotent Stem Cells]]

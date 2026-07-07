@@ -27,14 +27,14 @@ Compared to traditional 2D co-cultures, assembloids provide a more physiological
 ## Connections
 
 - [[Organoids]] — Assembloids are built by fusing two or more organoids.
-- [[Yamanaka Factors]] — iPSCs derived via Yamanaka reprogramming are the primary cell source for most assembloid protocols.
 - [[Induced Pluripotent Stem Cells]] — Used to generate region-specific organoids for fusion.
+- [[Neural Stem Cell]] — Source populations that self-organize within brain assembloids.
+- [[Disease Modeling]] — Assembloids recapitulate human pathophysiology in vitro.
 - [[Tumor Microenvironment]] — Tumor assembloids model immune-stromal-tumor interactions.
-- [[Tissue Engineering]] — Principles of guided fusion and scaffold design.
-- [[Neurodevelopment]] — Brain assembloids model interneuron migration and circuit formation.
+- [[Single-Cell RNA Sequencing]] — Used to profile cell states across the fused interface.
 
 ## Linking Summary
 
-- New links added: [[Organoids]], [[Tumor Microenvironment]], [[T Cell]], [[Macrophage]], [[Cancer-Associated Fibroblasts]], [[Single-Cell RNA Sequencing]], [[Zika Virus]], [[Neurodevelopment]], [[Tissue Engineering]]
-- Suggested new entity notes to create: [[Medial Ganglionic Eminence]]
-- Strong connections to strengthen: [[Assembloids]] ↔ [[Organoids]], [[Assembloids]] ↔ [[Induced Pluripotent Stem Cells]]
+- New links added: [[Organoids]], [[Induced Pluripotent Stem Cells]], [[Neural Stem Cell]], [[Disease Modeling]], [[Tumor Microenvironment]], [[T cells]], [[Macrophage]], [[Cancer-Associated Fibroblasts]], [[Single-Cell RNA Sequencing]], [[Zika Virus]]
+- Suggested new entity notes to create: [[Medial Ganglionic Eminence]], [[Vascular Organoids]], [[Bioprinting]]
+- Strong connections to strengthen: [[Assembloids]] ↔ [[Organoids]], [[Assembloids]] ↔ [[Disease Modeling]]

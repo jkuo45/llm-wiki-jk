@@ -1,38 +1,40 @@
 ---
 type: entity
 title: Cellular Reprogramming
-description: Cellular reprogramming is the process of converting one specific cell
-  type into another, typically by resetting its epigenetic state to a more primitive
-  or pluripotent condition. The most famous ex...
+description: Cellular reprogramming resets a somatic cell's identity by extensive epigenetic
+  remodeling, most famously generating iPSCs via Yamanaka Factors; partial reprogramming
+  enables rejuvenation.
 created: 2024-01-01
-updated: 2024-01-01
-entity_type_1: NA
+updated: 2026-07-06
+entity_type_1: Biological Process
 ---
+
 # Cellular Reprogramming
 
-Cellular reprogramming is the process of converting one specific cell type into another, typically by resetting its epigenetic state to a more primitive or pluripotent condition. The most famous example is the induction of [[Induced Pluripotent Stem Cells]] (iPSCs) from [[Somatic Cells]] using the [[Yamanaka Factors]].
+[[Cellular Reprogramming]] is the conversion of one cell type into another—most famously the reset of [[Somatic Cells]] to a pluripotent state to generate [[Induced Pluripotent Stem Cells]] (iPSCs) using the [[Yamanaka Factors]] (OSKM: [[Oct4]], [[Sox2]], [[Klf4]], [[c-Myc]]). It is fundamentally an [[Epigenetic Remodeling]] process that erases somatic memory and installs a new identity.
 
 ## Mechanisms
-Reprogramming involves extensive [[Epigenetic Remodeling]], including changes in DNA methylation and histone modifications. The process often involves intermediate states like the [[Mesenchymal-to-Epithelial Transition]] (MET).
+
+Reprogramming proceeds through defined phases: an early "stress" phase, a mesenchymal-to-epithelial transition ([[Mesenchymal-to-Epithelial Transition]]), and late stabilization of the pluripotency network ([[Oct4]]–[[Sox2]]–[[Nanog]]). It requires global erasure of somatic [[DNA Methylation]], reconfiguration of histone marks (loss of H3K9me3/H3K27me3 at pluripotency loci, gain of H3K4me3/H3K27me3 bivalency), chromatin opening, and X-chromosome reactivation. MET is essential because fibroblasts are mesenchymal while iPSCs are epithelial.
+
+## Methods
+
+Beyond transcription-factor delivery (retroviral, sendai viral, episomal, mRNA, or protein), reprogramming can be achieved by small molecules (e.g., [[GSK3B]] and MEK inhibitors), [[CRISPR]]-based locus activation, and chemical-only ("RNA-free") protocols. Efficiency remains low and stochastic, limited by incomplete epigenetic remodeling and persistence of partially reprogrammed intermediates.
 
 ## Applications
-- [[Regenerative Medicine]]
-- [[Disease Modeling]]
-- [[Rejuvenation]] biology (e.g., [[Partial Reprogramming|Partial Cell Reprogramming]])
+
+Reprogramming underpins [[Regenerative Medicine]], [[Disease Modeling]] (patient-specific iPSC lines carrying disease alleles), drug screening, and developmental studies. [[Partial Reprogramming]]—transient, incomplete reset—has emerged as a [[Rejuvenation]] strategy: it restores youthful transcriptomic and epigenetic profiles in aged cells and tissues (e.g., in vivo OSKM expression in mice) without teratoma risk from full dedifferentiation.
 
 ## Connections
 
-- [[Induced Pluripotent Stem Cells]]: The most famous example is the induction of Induced Pluripotent Stem Cells (iPSCs) from [[Somatic Cells]] using the [...
-- [[Somatic Cells]]: The most famous example is the induction of [[Induced Pluripotent Stem Cells]] (iPSCs) from Somatic Cells using the [...
-- [[Yamanaka Factors]]: The most famous example is the induction of [[Induced Pluripotent Stem Cells]] (iPSCs) from [[Somatic Cells]] using t...
-- [[Epigenetic Remodeling]]: ## Mechanisms Reprogramming involves extensive Epigenetic Remodeling, including changes in DNA methylation and histon...
-- [[Mesenchymal-to-Epithelial Transition]]: The process often involves intermediate states like the Mesenchymal-to-Epithelial Transition (MET).
-- [[Regenerative Medicine]]: ## Applications - Regenerative Medicine - [[Disease Modeling]] - [[Rejuvenation]] biology (e.g., [[Partial Reprogramm...
-- [[Disease Modeling]]: ## Applications - [[Regenerative Medicine]] - Disease Modeling - [[Rejuvenation]] biology (e.g., [[Partial Reprogramm...
-- [[Rejuvenation]]: ## Applications - [[Regenerative Medicine]] - [[Disease Modeling]] - Rejuvenation biology (e.g., [[Partial Reprogramm...
-- [[Partial Reprogramming]]: ## Applications - [[Regenerative Medicine]] - [[Disease Modeling]] - [[Rejuvenation]] biology (e.g., [[Partial Reprog...
+- [[Induced Pluripotent Stem Cells]]: The canonical product of somatic reprogramming.
+- [[Yamanaka Factors]]: The OSKM factors that drive reprogramming.
+- [[Epigenetic Remodeling]]: The core molecular process of reprogramming.
+- [[Mesenchymal-to-Epithelial Transition]]: A required early morphological transition.
+- [[Partial Reprogramming]]: Incomplete reprogramming used for rejuvenation.
+- [[Rejuvenation]]: A major emerging application of reprogramming.
 
 ## Linking Summary
-- New links added: [[Induced Pluripotent Stem Cells]], [[Somatic Cells]], [[Yamanaka Factors]], [[Epigenetic Remodeling]], [[Mesenchymal-to-Epithelial Transition]], [[Regenerative Medicine]], [[Disease Modeling]], [[Rejuvenation]], [[Partial Reprogramming]]
-- Suggested new entity notes to create: 
-- Strong connections to strengthen: [[Cellular Reprogramming]] ↔ [[Pluripotency]]
+- New links added: [[Somatic Cells]], [[Yamanaka Factors]], [[Oct4]], [[Sox2]], [[Klf4]], [[c-Myc]], [[Epigenetic Remodeling]], [[Mesenchymal-to-Epithelial Transition]], [[DNA Methylation]], [[GSK3B]], [[CRISPR]], [[Regenerative Medicine]], [[Disease Modeling]], [[Partial Reprogramming], [Rejuvenation]]
+- Suggested new entity notes to create: [[Sendai Virus]], [[X-chromosome Reactivation]], [[Partially Reprogrammed Intermediates]]
+- Strong connections to strengthen: [[Cellular Reprogramming]] ↔ [[Pluripotency]], [[Cellular Reprogramming]] ↔ [[Epigenetic Remodeling]]

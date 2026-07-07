@@ -1,18 +1,19 @@
 ---
 type: entity
 title: Benzimidazole
-description: 'Several benzimidazole derivatives are used to treat parasitic infections
-  by binding to Tubulin and inhibiting Microtubule polymerization in parasites:'
+description: 'Benzimidazole is a benz fused imidazole heterocycle serving as the scaffold for anthelmintic drugs (albendazole, mebendazole) and investigated as a tubulin-targeting anticancer chemotype.'
 created: 2026-07-06
-updated: 2026-07-06
-entity_type_1: Medical Condition
+updated: 2026-07-07
+entity_type_1: Chemical Class
 ---
+
 # Benzimidazole
 
-[[Benzimidazole]] is a heterocyclic aromatic organic compound consisting of the fusion of [[benzene]] and [[imidazole]]. It is a common scaffold in various pharmaceutical agents, particularly anthelmintics (antiparasitics).
+**Benzimidazole** is a heterocyclic aromatic compound formed by fusing [[benzene]] with [[imidazole]]. It is a privileged scaffold in medicinal chemistry, underlying major anthelmintics and a growing repertoire of anticancer agents. Benzimidazole derivatives bind the colchicine site of β-[[Tubulin]], disrupting [[Microtubule]] dynamics and triggering mitotic arrest and [[Apoptosis]].
 
-## Anthelmintic Agents
-Several benzimidazole derivatives are used to treat parasitic infections by binding to [[Tubulin]] and inhibiting [[Microtubule]] polymerization in parasites:
+## Anthelmintic Derivatives
+
+Several benzimidazoles treat parasitic infections by binding parasite β-tubulin and blocking microtubule polymerization:
 - [[Albendazole]]
 - [[Mebendazole]]
 - [[Fenbendazole]]
@@ -20,17 +21,33 @@ Several benzimidazole derivatives are used to treat parasitic infections by bind
 - [[Flubendazole]]
 - [[Thiabendazole]]
 
-## Anticancer Potential
-Benzimidazoles are being repositioned as anticancer agents because they can also target mammalian tubulin and interfere with [[Cancer]] cell metabolism. They have been shown to:
-- Induce [[Apoptosis]]
-- Inhibit [[Glycolysis]] and the [[Warburg Effect]]
-- Activate [[p53]] by suppressing [[MDM2]] and [[MdmX]]
-- Overcome [[Multidrug Resistance]]
+They are cornerstones of mass drug administration against soil-transmitted helminths and lymphatic filariasis (often with [[Ivermectin]]).
+
+## Anticancer Potential & Mechanisms
+
+Repositioning benzimidazoles as anticancer agents exploits their ability to also engage mammalian tubulin and tumor metabolism:
+- Induce [[Apoptosis]] via G2/M arrest and mitotic catastrophe.
+- Inhibit [[Glycolysis]] and the [[Warburg Effect]], notably by suppressing [[Hexokinase II]].
+- Activate [[p53]] by suppressing the E3 ligases [[MDM2]] and [[MdmX]].
+- Overcome [[Multidrug Resistance]] by evading classical P-glycoprotein efflux.
+
+Preclinical studies report activity against glioblastoma, colorectal, breast, and leukemia models. Novel synthetic benzimidazoles (e.g., ABT-751) have entered clinical evaluation as vascular-disrupting/tubulin agents.
+
+## Structure–Activity Relationships
+
+Electron-withdrawing substituents at the 2-position and hydrophobic groups at 5/6 enhance tubulin affinity. The carbamate side chain of albendazole/mebendazole is critical for anthelmintic but not strictly required for antitumor activity, enabling chemically tailored derivatives.
 
 ## Connections
-- **Related Drugs:** [[Albendazole]], [[Mebendazole]], [[Fenbendazole]]
-- **Target Proteins:** [[Tubulin]], [[p53]], [[MDM2]]
-- **Biological Processes:** [[Apoptosis]], [[Glycolysis]], [[Microtubule]] dynamics
+
+- [[Albendazole]], [[Mebendazole]], [[Fenbendazole]]: Key drug derivatives.
+- [[Tubulin]], [[Microtubule]]: Direct molecular targets.
+- [[Cancer]]: Repositioning disease context.
+- [[Apoptosis]], [[Glycolysis]], [[Warburg Effect]]: Affected processes.
+- [[p53]], [[MDM2]], [[MdmX]]: Apoptotic regulatory axis.
+- [[Multidrug Resistance]]: Overcome by these agents.
 
 ## Linking Summary
-- New links added: [[benzene]], [[imidazole]], [[Tubulin]], [[Microtubule]], [[Albendazole]], [[Mebendazole]], [[Fenbendazole]], [[Oxfendazole]], [[Flubendazole]], [[Thiabendazole]], [[Cancer]], [[Apoptosis]], [[Glycolysis]], [[Warburg Effect]], [[p53]], [[MDM2]], [[MdmX]], [[Multidrug Resistance]]
+
+- New links added: [[benzene]], [[imidazole]], [[Tubulin]], [[Microtubule]], [[Albendazole]], [[Mebendazole]], [[Fenbendazole]], [[Oxfendazole]], [[Flubendazole]], [[Thiabendazole]], [[Cancer]], [[Apoptosis]], [[Glycolysis]], [[Warburg Effect]], [[Hexokinase II]], [[p53]], [[MDM2]], [[MdmX]], [[Multidrug Resistance]], [[Ivermectin]]
+- Suggested new entity notes to create: [[Anthelmintic]], [[ABT-751], [[Hexokinase II]]
+- Strong connections to strengthen: [[Benzimidazole]] ↔ [[Tubulin]], [[Benzimidazole]] ↔ [[Cancer]]

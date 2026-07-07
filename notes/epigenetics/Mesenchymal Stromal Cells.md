@@ -1,25 +1,43 @@
 ---
 type: entity
 title: Mesenchymal Stromal Cells
-description: Mesenchymal Stromal Cells (MSCs), also known as mesenchymal stem cells,
-  are multipotent stromal cells that can differentiate into a variety of cell types,
-  including osteoblasts, chondrocytes, myocy...
+description: Mesenchymal Stromal Cells (MSCs) are multipotent, fibroblast-like stromal cells with trilineage differentiation and immunomodulatory capacity.
 created: 2024-01-01
-updated: 2024-01-01
-entity_type_1: NA
+updated: 2026-07-06
+entity_type_1: Cell Type
 ---
+
 # Mesenchymal Stromal Cells
 
-Mesenchymal Stromal Cells (MSCs), also known as mesenchymal stem cells, are multipotent stromal cells that can differentiate into a variety of cell types, including osteoblasts, chondrocytes, myocytes, and adipocytes.
+[[Mesenchymal Stromal Cells]] (MSCs), historically termed mesenchymal stem cells, are multipotent, self-adherent, fibroblast-like stromal cells found in nearly all postnatal tissues (bone marrow, adipose, umbilical cord, dental pulp). They differentiate into osteoblasts, chondrocytes, adipocytes, and myocytes, and — critically — exert potent paracrine and [[Immunomodulation|immunomodulatory]] effects. Minimal criteria from the ISCT require plastic adherence, expression of CD73/CD90/CD105, absence of hematopoietic markers (CD34/CD45), and trilineage differentiation *in vitro*.
 
-In the context of [[Yamanaka Factors]] research, MSCs have been used as a source for [[Cellular Reprogramming]] to generate [[Induced Neural Stem Cells]] (iNSCs). They are also investigated for their immunomodulatory properties and potential in [[Regenerative Medicine]].
+## Origin & Identity
+
+MSCs reside in a perivascular niche as [[Pericyte|pericytes]] and are mobilized during injury. They are distinct from [[Fibroblast|fibroblasts]] (which lack trilineage potential and defined surface markers) yet share secretory profiles. Their immunophenotype and secretome vary by tissue source and passage number, raising reproducibility challenges in translation.
+
+## Mechanism of Action & Immunomodulation
+
+MSCs modulate immunity chiefly via their secretome — a milieu of cytokines, exosomes, and [[Hepatocyte Growth Factor]] (HGF), [[TGF-β]], [[PGE2]], and IDO. They suppress T-cell proliferation, bias macrophages toward an M2 reparative phenotype, inhibit NK cytotoxicity, and promote regulatory T-cell expansion. These effects are license-dependent: inflammatory cytokines ([[IFN-γ]], [[TNF]]) prime MSCs to upregulate IDO and PD-L1, establishing a feedback that dampens inflammation. MSCs also secrete factors that support [[Muscle Stem Cell|satellite cell]] and [[Neural Stem Cell]] niches.
+
+## Physiological & Reparative Function
+
+Beyond differentiation, MSCs drive [[Tissue Repair]] through trophic support: anti-apoptosis, pro-angiogenic signaling ([[VEGF]]), and recruitment of endogenous progenitors. They contribute to fracture healing, cartilage maintenance, and stromal support of hematopoiesis.
+
+## Pathology & Clinical Relevance
+
+MSCs are the most clinically utilized cell therapy product, with approved indications for graft-versus-host disease and Crohn's perianal fistulas, and trials in myocardial infarction, osteoarthritis, and [[Neurodegeneration]]. Their low tumorigenicity (unlike [[Induced Pluripotent Stem Cells]]/[[Teratoma]]-forming pluripotent cells) makes them attractive for [[Regenerative Medicine]]. They also serve as reprogramming substrates: forced expression of [[Yamanaka Factors]] converts MSCs into [[Induced Neural Stem Cells]] (iNSCs) for modeling [[Frontotemporal Dementia]] and [[Olivopontocerebellar Atrophy]]. Concerns include senescence with passaging, batch variability, and limited long-term engraftment — issues addressed by understanding [[Quiescence]] and rejuvenation of the stromal compartment.
 
 ## Connections
-- [[Cellular Reprogramming]]: MSCs can be reprogrammed into other cell types, including iNSCs.
-- [[Induced Neural Stem Cells]]: Generated from MSCs for potential treatment of [[Neurodegenerative Diseases]].
-- [[Regenerative Medicine]]: MSCs are widely used in regenerative therapies due to their multipotency and paracrine effects.
+
+- [[Fibroblast]] — a related but distinct stromal cell type.
+- [[Regenerative Medicine]] — MSCs are a cornerstone therapeutic cell product.
+- [[Tissue Repair]] — their principal reparative role via trophic and differentiation effects.
+- [[Immunomodulation]] — central to MSC therapeutic action.
+- [[Yamanaka Factors]] — used to reprogram MSCs into iNSCs.
+- [[Induced Neural Stem Cells]] — reprogrammed derivative of MSCs.
 
 ## Linking Summary
-- New links added: [[Yamanaka Factors]], [[Cellular Reprogramming]], [[Induced Neural Stem Cells]], [[Regenerative Medicine]], [[Neurodegenerative Diseases]]
-- Suggested new entity notes to create: 
-- Strong connections to strengthen: [[Mesenchymal Stromal Cells]] ↔ [[Induced Neural Stem Cells]]
+
+- New links added: [[Fibroblast]], [[Regenerative Medicine]], [[Tissue Repair]], [[Immunomodulation]], [[Yamanaka Factors]], [[Induced Neural Stem Cells]], [[Pericyte]], [[TGF-β]], [[PGE2]], [[IFN-γ]], [[TNF]], [[VEGF]], [[Hepatocyte Growth Factor]], [[Muscle Stem Cell]], [[Neural Stem Cell]], [[Induced Pluripotent Stem Cells]], [[Teratoma]], [[Frontotemporal Dementia]], [[Olivopontocerebellar Atrophy]], [[Quiescence]], [[Neurodegeneration]]
+- Suggested new entity notes to create: [[Pericyte]], [[IDO (Indoleamine 2,3-Dioxygenase)]], [[ISCT Criteria]]
+- Strong connections to strengthen: [[Mesenchymal Stromal Cells]] ↔ [[Induced Neural Stem Cells]], [[Mesenchymal Stromal Cells]] ↔ [[Regenerative Medicine]]
