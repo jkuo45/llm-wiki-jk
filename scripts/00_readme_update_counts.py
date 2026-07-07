@@ -232,7 +232,7 @@ def main():
     total_files, total_size, total_words = get_dir_size_and_count(notes_dir)
 
     topics_table = [
-        "| topic | obsidian | updated | documents | entities | words | disk |",
+        "| topic | wiki | updated | documents | entities | words | disk |",
         "| :--- | :--- | :--- | :---: | :---: | :---: | :---: |",
     ]
     total_entities = 0

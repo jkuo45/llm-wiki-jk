@@ -1,23 +1,20 @@
 # llm-wiki-jk
 
 <!-- GENERATED: summary_table -->
-
 ## Summary Table
-
-| topic                                                                                  | obsidian                                 | updated     | documents | entities |     words     |     disk     |
-| :------------------------------------------------------------------------------------- | :--------------------------------------- | :---------- | :-------: | :------: | :-----------: | :----------: |
-| [\_link](https://github.com/jkuo45/llm-wiki/tree/dev/notes/_link)                      | [[notes/_link/README\|notes]]            | 06_JUL_2026 |     0     |   594    |    163,919    |   1.26 MB    |
-| [adrenochrome](https://github.com/jkuo45/llm-wiki/tree/dev/notes/adrenochrome)         | [[notes/adrenochrome/README\|notes]]     | 06_JUL_2026 |    23     |   287    |    191,647    |   2.04 MB    |
-| [autophagy](https://github.com/jkuo45/llm-wiki/tree/dev/notes/autophagy)               | [[notes/autophagy/README\|notes]]        | 06_JUL_2026 |    11     |   236    |    130,329    |   1.25 MB    |
-| [cancer](https://github.com/jkuo45/llm-wiki/tree/dev/notes/cancer)                     | [[notes/cancer/README\|notes]]           | 06_JUL_2026 |     8     |   247    |    133,507    |   1.38 MB    |
-| [comt](https://github.com/jkuo45/llm-wiki/tree/dev/notes/comt)                         | [[notes/comt/README\|notes]]             | 06_JUL_2026 |     2     |    35    |    10,875     |   0.44 MB    |
-| [epigenetics](https://github.com/jkuo45/llm-wiki/tree/dev/notes/epigenetics)           | [[notes/epigenetics/README\|notes]]      | 06_JUL_2026 |     9     |   194    |    136,832    |   4.35 MB    |
-| [neuromelanin](https://github.com/jkuo45/llm-wiki/tree/dev/notes/neuromelanin)         | [[notes/neuromelanin/README\|notes]]     | 06_JUL_2026 |     2     |    85    |    31,882     |   0.59 MB    |
-| [oxidative_stress](https://github.com/jkuo45/llm-wiki/tree/dev/notes/oxidative_stress) | [[notes/oxidative_stress/README\|notes]] | 06_JUL_2026 |     1     |    65    |    66,475     |   0.94 MB    |
-| [sirtuins](https://github.com/jkuo45/llm-wiki/tree/dev/notes/sirtuins)                 | [[notes/sirtuins/README\|notes]]         | 06_JUL_2026 |     6     |   105    |    154,881    |   1.41 MB    |
-| ---                                                                                    | ---                                      | ---         |   ---:    |   ---:   |     ---:      |     ---:     |
-| **subtotal**                                                                           |                                          | 06_JUL_2026 |  **62**   | **1848** | **1,020,347** | **13.67 MB** |
-
+| topic | wiki | updated | documents | entities | words | disk |
+| :--- | :--- | :--- | :---: | :---: | :---: | :---: |
+| [_link](https://github.com/jkuo45/llm-wiki/tree/dev/notes/_link) | [[notes/_link/README\|notes]] | 06_JUL_2026 | 0 | 594 | 163,919 | 1.26 MB |
+| [adrenochrome](https://github.com/jkuo45/llm-wiki/tree/dev/notes/adrenochrome) | [[notes/adrenochrome/README\|notes]] | 06_JUL_2026 | 23 | 287 | 191,647 | 2.04 MB |
+| [autophagy](https://github.com/jkuo45/llm-wiki/tree/dev/notes/autophagy) | [[notes/autophagy/README\|notes]] | 06_JUL_2026 | 11 | 236 | 130,329 | 1.25 MB |
+| [cancer](https://github.com/jkuo45/llm-wiki/tree/dev/notes/cancer) | [[notes/cancer/README\|notes]] | 06_JUL_2026 | 8 | 247 | 133,507 | 1.38 MB |
+| [comt](https://github.com/jkuo45/llm-wiki/tree/dev/notes/comt) | [[notes/comt/README\|notes]] | 06_JUL_2026 | 2 | 35 | 10,875 | 0.44 MB |
+| [epigenetics](https://github.com/jkuo45/llm-wiki/tree/dev/notes/epigenetics) | [[notes/epigenetics/README\|notes]] | 06_JUL_2026 | 9 | 194 | 136,832 | 4.35 MB |
+| [neuromelanin](https://github.com/jkuo45/llm-wiki/tree/dev/notes/neuromelanin) | [[notes/neuromelanin/README\|notes]] | 06_JUL_2026 | 2 | 85 | 31,882 | 0.59 MB |
+| [oxidative_stress](https://github.com/jkuo45/llm-wiki/tree/dev/notes/oxidative_stress) | [[notes/oxidative_stress/README\|notes]] | 06_JUL_2026 | 1 | 65 | 66,475 | 0.94 MB |
+| [sirtuins](https://github.com/jkuo45/llm-wiki/tree/dev/notes/sirtuins) | [[notes/sirtuins/README\|notes]] | 06_JUL_2026 | 6 | 105 | 154,881 | 1.41 MB |
+| --- | --- | --- | ---: | ---: | ---: | ---: |
+| **subtotal** | | 06_JUL_2026 | **62** | **1848** | **1,020,347** | **13.67 MB** |
 <!-- END GENERATED: summary_table -->
 
 _\*notes directory only_\*
