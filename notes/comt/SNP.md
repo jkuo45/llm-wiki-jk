@@ -1,33 +1,48 @@
 ---
-
-type: entity
 title: SNP
-description: A SNP (Single Nucleotide Polymorphism) is a variation in a single
-  nucleotide that occurs at a specific position in the genome. SNP are the most common
-  type of genetic variation among people.
+description: A single nucleotide polymorphism (SNP) is a single-base genomic variant; common in the population, SNPs underlie pharmacogenetic differences such as COMT Val158Met.
+type: entity
 created: 2026-05-25
-updated: 2026-07-04
-entity_type_1: Gene
+updated: 2026-07-07
+tags:
+  - Genetic Variant
 aliases: [Single Nucleotide Polymorphism]
-
 ---
 
 # SNP
 
-A **[[SNP]]** (Single Nucleotide Polymorphism) is a variation in a single nucleotide that occurs at a specific position in the genome. [[SNP|SNPs]] are the most common type of genetic variation among people.
+A **[[SNP]]** (single nucleotide polymorphism; often pluralized SNPs) is a DNA sequence variation at a single nucleotide position present in at least 1% of the population. SNPs are the most common form of human genetic variation, occurring roughly once per 300 bases across the genome, and they serve as the primary markers in genome-wide association studies (GWAS).
+
+## Molecular Basis
+
+A SNP arises when a single base (A, T, C, or G) at a specific locus differs among individuals. SNPs in coding regions may be synonymous (no amino-acid change) or nonsynonymous (altering protein sequence); those in promoters, splice sites, or regulatory regions can alter gene expression. Because they are stable, heritable, and dense, SNPs are ideal for mapping trait and disease associations.
 
 ## Importance in Pharmacogenomics
-[[SNP|SNPs]] can predict an individual's response to certain drugs, susceptibility to environmental factors, and risk of developing particular diseases.
+
+[[SNP|SNPs]] predict interindividual drug response, environmental susceptibility, and disease risk. They explain why two patients given the same dose of a drug may have opposite outcomes — a cornerstone of precision medicine. Within methylation and catecholamine biology, SNPs in pathway enzymes fine-tune metabolic flux.
 
 ## Key Examples in this Knowledge Base
-- **[[COMT]] [[Val158Met]] (rs4680):** Impacts dopamine degradation.
-- **[[MTHFR]] (C677T/A1298C):** Impacts folate metabolism and methylation.
+
+- **[[COMT]] [[Val158Met]] (rs4680):** A nonsynonymous SNP substituting valine for methatine at codon 158, lowering COMT thermal stability and enzymatic activity ~3–4 fold in Met carriers. It governs prefrontal [[Dopamine]] clearance and modifies response to [[Modafinil]], psychosis risk in [[Schizophrenia]], and methyl-donor sensitivity.
+- **[[MTHFR]] C677T (rs1801133) / A1298C (rs1801131):** SNPs that reduce methylenetetrahydrofolate dehydrogenase activity, lowering [[Methylfolate]] generation and raising homocysteine.
+- **[[MTRR]] A66G:** Reduces methionine synthase reductase efficiency, impairing B12 recycling.
+- **[[MTHFD1]] variants:** Alter one-carbon flux feeding the [[Methylation Cycle]].
+
+## Clinical and Research Relevance
+
+SNP genotyping enables stratification of patients for methyl-folate/B12 regimens, COMT-aware supplementation, and drug selection. The COMT Val158Met SNP is among the most extensively characterized functional variants linking a single base change to cognition and psychiatric risk.
 
 ## Connections
-- [[COMT]]: Contains the functional Val158Met SNP.
-- [[MTHFR]]: Notable for common SNPs affecting enzyme activity.
-- [[Methylation]]: Often influenced by SNPs in various pathway enzymes.
 
----
+- [[COMT]]: Harbors the functional Val158Met SNP (rs4680).
+- [[Val158Met]]: The COMT SNP altering dopamine degradation.
+- [[MTHFR]]: Notable for common methylation-affecting SNPs.
+- [[Methylation]]: Often influenced by pathway SNPs.
+- [[MTRR]] / [[MTHFD1]]: Additional methylation-cycle SNPs.
+- [[Schizophrenia]]: Disorder with COMT SNP associations.
+
 ## Linking Summary
-- New links added: [[COMT]], [[Val158Met]], [[MTHFR]], [[Methylation]].
+
+- New links added: [[COMT]], [[Val158Met]], [[MTHFR]], [[MTRR]], [[MTHFD1]], [[Methylation]], [[Methylation Cycle]], [[Methylfolate]], [[Modafinil]], [[Dopamine]], [[Schizophrenia]].
+- Suggested new entity notes to create: [[Genome-Wide Association Study]], [[rs4680]], [[Pharmacogenomics]].
+- Strong connections to strengthen: [[SNP]] ↔ [[COMT]]; [[SNP]] ↔ [[Val158Met]].

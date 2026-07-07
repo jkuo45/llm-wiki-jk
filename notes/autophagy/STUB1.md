@@ -1,12 +1,13 @@
 ---
-type: entity
 title: STUB1
 description: STIP1 homology and U-box containing protein 1 (STUB1), also known as
   CHIP, is an E3 ubiquitin ligase that targets phosphorylated TFEB for degradation
   via the ubiquitin-proteasome pathway.
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Enzyme
+tags:
+  - Enzyme
 aliases: [CHIP, E3 ubiquitin ligase]
 ---
 # STUB1

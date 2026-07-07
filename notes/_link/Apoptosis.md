@@ -1,14 +1,15 @@
 ---
-
-type: entity
 title: Apoptosis
 description: 'Apoptosis (programmed cell death) is a highly regulated mechanism
   for removing damaged, infected, redundant, or potentially cancerous cells without
   inducing inflammation.'
+type: entity
 created: 2026-05-29
 updated: 2026-05-29
-entity_type_1: Biological Process
-
+tags:
+  - Biological Process
+  - apoptosis
+aliases: []
 ---
 
 # Apoptosis

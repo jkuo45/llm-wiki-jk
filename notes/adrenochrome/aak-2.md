@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: aak-2
 description: aak-2 is the C. elegans homolog of AMPK, which acts as an energy sensor
   and is required for the longevity benefits of glucose restriction and Mitohormesis.
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Gene
-
+tags:
+  - Gene
+aliases: []
 ---
 
 # aak-2

@@ -1,12 +1,14 @@
 ---
-type: entity
 title: IL-6
 description: Interleukin 6 (IL-6) is an interleukin that acts as both a pro-inflammatory
   cytokine and an anti-inflammatory myokine. In humans, it is encoded by the IL6 gene.
   Its expression is often upregulated ...
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Biological Molecule
+tags:
+  - Biological Molecule
+aliases: []
 ---
 # IL-6
 

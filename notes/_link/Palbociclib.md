@@ -1,11 +1,12 @@
 ---
-type: entity
 title: Palbociclib
 description: Palbociclib (PD0332991) is a CDK4/CDK6 inhibitor that induces lysosomal
   biogenesis by inhibiting the nuclear export of TFEB.
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: NA
+tags:
+  - Chemical Compound
 aliases: [Palbociclib]
 ---
 # Palbociclib

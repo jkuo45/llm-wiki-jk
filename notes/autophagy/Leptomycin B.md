@@ -1,11 +1,13 @@
 ---
-type: entity
 title: Leptomycin B
 description: Leptomycin B is a specific inhibitor of CRM1 that impairs the nuclear
   export of TFEB, leading to its accumulation in the nucleus.
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Chemical Compound
+tags:
+  - Chemical Compound
+aliases: []
 ---
 # Leptomycin B
 

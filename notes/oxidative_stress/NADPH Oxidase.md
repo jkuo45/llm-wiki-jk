@@ -1,14 +1,18 @@
 ---
-type: entity
 title: NADPH Oxidase
 description: NADPH oxidase (NOX) is a family of membrane-bound enzyme complexes whose
   primary physiological function is the deliberate production of Reactive Oxygen Species
   (ROS), specifically Superoxide Radicals.
+type: entity
 created: 2026-05-09
 updated: 2026-07-04
-entity_type_1: Enzyme
+tags:
+  - oxidative stress
+  - superoxide
+  - immune system
+  - Enzyme
+  - NAD+
 aliases: [NOX, NADPH oxidase complex, NOX family]
-tags: [oxidative_stress, superoxide, immune_system]
 ---
 # NADPH Oxidase
 

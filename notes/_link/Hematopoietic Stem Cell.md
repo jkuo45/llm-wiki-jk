@@ -1,11 +1,13 @@
 ---
-type: entity
 title: Hematopoietic Stem Cell
 description: Multipotent stem cells that give rise to all blood cell types through
   haematopoiesis
+type: entity
 created: 2024-01-01
 updated: 2024-01-01
-entity_type_1: Cell Type
+tags:
+  - Cell Type
+aliases: []
 ---
 # Hematopoietic Stem Cell
 [[Hematopoietic Stem Cell|Hematopoietic stem cells]] ([[HSC|HSCs]]) are the stem cells that give rise to all the other blood cells through the process of haematopoiesis. They reside in the Bone Marrow and are often in a state of [[Quiescence]].

@@ -1,12 +1,14 @@
 ---
-type: entity
 title: Tumor Suppressor
 description: A tumor suppressor is a protein that protects a cell from one step on
   the path to cancer; an example is PDCD4, which inhibits the translation of the potentially
   oncogenic TFEB.
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Scientific Concept
+tags:
+  - Scientific Concept
+aliases: []
 ---
 # Tumor Suppressor
 

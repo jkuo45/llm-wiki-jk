@@ -1,14 +1,15 @@
 ---
-
-type: entity
 title: Stress-Induced Premature Senescence
 description: 'Stress-Induced Premature Senescence (SIPS) is a form of Cellular
   Senescence triggered acutely by exposure to subcytotoxic stress — including oxidative,
   genotoxic, and epigenetic stressors — wit...'
+type: entity
 created: 2024-01-01
 updated: 2024-07-04
-entity_type_1: Biological Process
-
+tags:
+  - Biological Process
+  - senescence
+aliases: []
 ---
 
 # Stress-Induced Premature Senescence

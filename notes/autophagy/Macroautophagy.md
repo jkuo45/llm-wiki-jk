@@ -1,13 +1,14 @@
 ---
-
-type: entity
 title: Macroautophagy
 description: 'Macroautophagy is the primary and most well-studied type of Autophagy.
   It involves the sequestration of cytoplasmic components into double-membrane vesicles
   called Autophagosome, which then fus...'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Biological Process
+tags:
+  - Biological Process
+  - autophagy
 aliases: [autophagy]
 
 ---

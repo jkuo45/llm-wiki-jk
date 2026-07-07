@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: Transferrin receptor 1
 description: 'Overview: Transferrin receptor 1 is a membrane transport protein
   that facilitates the movement of molecules across biological membranes. It mediates
   substrate translocation through conformation...'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Transporter
+tags:
+  - Transporter
 aliases: [TfR1, CD71, TFRC]
 
 ---

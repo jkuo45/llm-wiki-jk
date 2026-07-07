@@ -1,14 +1,14 @@
 ---
-
-type: entity
 title: CpG Island
 description: 'CpG islands are regions of the genome with a high frequency of CpG
   sites (cytosine-guanine dinucleotides), often located in the promoter regions of
   genes.'
+type: entity
 created: 2024-01-01
 updated: 2024-01-01
-entity_type_1: Scientific Concept
-
+tags:
+  - Scientific Concept
+aliases: []
 ---
 
 # CpG Island

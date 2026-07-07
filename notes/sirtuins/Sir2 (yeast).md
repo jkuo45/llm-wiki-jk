@@ -1,12 +1,13 @@
 ---
-type: entity
 title: Sir2 (yeast)
 description: Sir2 (Silent Information Regulator 2) from _Saccharomyces cerevisiae_
   is the founding member of the sirtuin family of proteins. Originally discovered
   as MAR1 (mating-type regulator 1) and subsequen...
+type: entity
 created: 2026-07-02
 updated: 2026-07-02
-entity_type_1: Chemical Compound
+tags:
+  - Chemical Compound
 aliases:
   - SIR2
   - silent information regulator 2

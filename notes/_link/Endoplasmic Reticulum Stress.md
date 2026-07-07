@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: Endoplasmic Reticulum Stress
 description: 'Definition: Endoplasmic Reticulum Stress is a fundamental biological
   process that maintains cellular and organismal homeostasis. It involves coordinated
   molecular events regulated by signaling ...'
+type: entity
 created: 2026-07-04
 updated: 2026-07-06
-entity_type_1: Biological Process
+tags:
+  - Biological Process
 aliases: [ER Stress]
 
 ---

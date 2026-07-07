@@ -1,12 +1,12 @@
 ---
-
-type: entity
 title: LGG-2
 description: 'LGG-2 is one of the C. elegans orthologues of the yeast Atg8 and
   mammalian LC3/GABARAP proteins.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Protein
+tags:
+  - Protein
 aliases: [C. elegans GABARAP ortholog]
 
 ---

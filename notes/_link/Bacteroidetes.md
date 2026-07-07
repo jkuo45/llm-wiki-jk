@@ -1,12 +1,14 @@
 ---
-type: entity
 title: Bacteroidetes
 description: Bacteroidetes is a phylum of Gram-negative, non-spore-forming, anaerobic
   or aerobic, and rod-shaped bacteria that are widely distributed in the environment,
   including the human gut.
+type: entity
 created: 2024-01-01
 updated: 2024-01-01
-entity_type_1: Microorganism
+tags:
+  - Microorganism
+aliases: []
 ---
 # Bacteroidetes
 Bacteroidetes is a phylum of Gram-negative, non-spore-forming, anaerobic or aerobic, and rod-shaped bacteria that are widely distributed in the environment, including the human gut.

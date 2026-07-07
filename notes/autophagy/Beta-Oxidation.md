@@ -1,12 +1,14 @@
 ---
-type: entity
 title: Beta-Oxidation
 description: Beta-Oxidation is a key metabolic process in which fatty acid molecules
   are broken down into smaller components, such as Acetyl-CoA, to generate cellular
   energy. While mitochondria handle the bulk ...
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Biological Process
+tags:
+  - Biological Process
+aliases: []
 ---
 # Beta-Oxidation
 

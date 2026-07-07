@@ -1,12 +1,14 @@
 ---
-type: entity
 title: BRCA2
 description: BRCA2 (Breast Cancer Type 2 Susceptibility Protein) is a Tumor Suppressor
   protein critical for Homologous Recombination repair of Double-Strand Breaks. It
   interacts with RAD51 to mediate the loadin...
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Medical Condition
+tags:
+  - Medical Condition
+aliases: []
 ---
 # BRCA2
 

@@ -1,12 +1,13 @@
 ---
-type: entity
 title: PARsylation
 description: Poly-ADP-ribosylation (PARsylation) is a reversible post-translational
   modification where poly(ADP-ribose) is added to proteins; it regulates TFEB nuclear
   localization via Tankyrases.
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Chemical Process
+tags:
+  - Chemical Process
 aliases: [poly-ADP-ribosylation]
 ---
 # PARsylation

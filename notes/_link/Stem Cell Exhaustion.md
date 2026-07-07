@@ -1,11 +1,13 @@
 ---
-type: entity
 title: Stem Cell Exhaustion
 description: Stem cell exhaustion is the age-related decline in the number and function
   of stem cells, which impairs tissue regeneration and contributes to the aging process.
+type: entity
 created: 2024-01-01
 updated: 2024-01-01
-entity_type_1: Biological Process
+tags:
+  - Biological Process
+aliases: []
 ---
 # Stem Cell Exhaustion
 Stem cell exhaustion is the age-related decline in the number and function of stem cells, which impairs tissue regeneration and contributes to the aging process.

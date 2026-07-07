@@ -1,12 +1,14 @@
 ---
-type: entity
 title: Hypoxia
 description: Hypoxia is a condition of low oxygen levels in tissues that acts as a
   stressful stimulus, often triggering Macroautophagy as a survival mechanism in tumor
   cells.
+type: entity
 created: 2026-05-29
 updated: 2026-05-29
-entity_type_1: Scientific Concept
+tags:
+  - Scientific Concept
+aliases: []
 ---
 # Hypoxia
 [[Hypoxia]] is a condition in which the body or a region of the body is deprived of adequate oxygen supply at the tissue level. In [[Methemoglobinemia]], the impaired oxygen delivery and release lead to tissue hypoxia.

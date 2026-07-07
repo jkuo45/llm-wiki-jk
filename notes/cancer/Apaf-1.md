@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: Apaf-1
 description: 'Apaf-1 (Apoptotic protease-activating factor 1) is a key cytoplasmic
   protein involved in the Intrinsic Pathway of Apoptosis.'
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Enzyme
-
+tags:
+  - Enzyme
+aliases: []
 ---
 
 # Apaf-1

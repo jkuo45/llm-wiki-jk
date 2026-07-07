@@ -1,12 +1,13 @@
 ---
-type: entity
 title: Uric Acid
 description: Uric Acid (UA, 2,6,8-trihydroxypurine) is the end-product of purine metabolism
   in humans, produced by Xanthine Oxidase—mediated oxidation of hypoxanthine and xanthine.
   It functions as both a major ...
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Chemical Compound
+tags:
+  - Chemical Compound
 aliases: [UA, Urate, 2,6,8-trihydroxypurine]
 chebi: CHEBI:17790
 ---

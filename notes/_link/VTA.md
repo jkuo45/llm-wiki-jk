@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: VTA
 description: The ventral tegmental area (VTA) is a midbrain nucleus located adjacent
   to the Substantia Nigra. It contains Dopamine, GABA, and Glutamate neurons and is
   a core component of the brain's Reward ...
+type: entity
 created: 2026-07-04
 updated: 2026-07-06
-entity_type_1: Anatomy
+tags:
+  - Anatomy
 aliases: [Ventral Tegmental Area]
 
 ---

@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: Lox-1
 description: 'Lox-1 (Lectin-like Oxidized LDL Receptor 1, encoded by OLR1) is
   a scavenger receptor expressed on endothelial cells, smooth muscle cells, and macrophages.
   It binds, internalizes, and mediates...'
+type: entity
 created: 2026-07-04
-updated: 2026-07-04
-entity_type_1: Protein
+updated: 2026-07-07
+tags:
+  - Receptor
 aliases: [OLR1, Lectin-like Oxidized LDL Receptor 1, Oxidized LDL receptor 1, LOX1, CLEC8A]
 
 sources:
@@ -18,13 +18,18 @@ target: SIRT1
 ---
 
 
+
 # Lox-1
 
 **Lox-1** (Lectin-like Oxidized LDL Receptor 1, encoded by *OLR1*) is a scavenger receptor expressed on endothelial cells, smooth muscle cells, and macrophages. It binds, internalizes, and mediates the pro-atherogenic effects of oxidized low-density lipoprotein ([[Oxidized LDL|oxLDL]]). Lox-1 is a key player in [[Atherosclerosis|atherosclerosis]] initiation and progression.
 
 ## Structure and Mechanism
 
-Lox-1 is a type II transmembrane protein with a C-terminal C-type lectin-like domain (CTLD) responsible for oxLDL recognition. Lox-1 activation triggers multiple signalling cascades: NF-κB, MAPK, and PI3K/Akt pathways, leading to pro-inflammatory cytokine expression, adhesion molecule upregulation, and [[Reactive Oxygen Species]] (ROS) production.
+Lox-1 is a type II transmembrane protein with a C-terminal C-type lectin-like domain (CTLD) responsible for oxLDL recognition. Lox-1 activation triggers multiple signalling cascades: NF-κB, MAPK, and PI3K/Akt pathways, leading to pro-inflammatory cytokine expression, adhesion molecule upregulation, and [[Reactive Oxygen Species]] (ROS) production. A positive feedback loop exists — oxLDL-induced Lox-1 expression amplifies further oxLDL uptake, accelerating plaque formation.
+
+## Physiological & Pathological Role
+
+Beyond lipid scavenging, Lox-1 mediates endothelial dysfunction, reduces nitric oxide bioavailability, promotes monocyte adhesion, and drives [[Macrophage]] conversion into [[Foam Cell Formation|foam cells]]. It also participates in inflammatory responses of the kidney, lung, and myocardium.
 
 ## Regulation by SIRT1
 
@@ -32,7 +37,7 @@ Lox-1 is a type II transmembrane protein with a C-terminal C-type lectin-like do
 
 ## Clinical Relevance
 
-Lox-1 expression is upregulated in human atherosclerotic lesions, acute coronary syndromes, and in the setting of [[Metabolic Syndrome|metabolic syndrome]] and [[Diabetes Mellitus|diabetes]]. Serum soluble Lox-1 (sLOX-1) is a biomarker for plaque instability. SIRT1 activators (e.g., [[Resveratrol]], [[SRT1720]]) that suppress Lox-1 have atheroprotective effects in preclinical models.
+Lox-1 expression is upregulated in human atherosclerotic lesions, acute coronary syndromes, and in the setting of [[Metabolic Syndrome|metabolic syndrome]] and [[Diabetes Mellitus|diabetes]]. Serum soluble Lox-1 (sLOX-1) is a biomarker for plaque instability. SIRT1 activators (e.g., [[Resveratrol]], [[SRT1720]]) that suppress Lox-1 have atheroprotective effects in preclinical models, suggesting a vascular-protective facet of sirtuin activation.
 
 ## Connections
 
@@ -42,6 +47,7 @@ Lox-1 expression is upregulated in human atherosclerotic lesions, acute coronary
 - [[Oxidized LDL]] — Ligand for Lox-1; abundant in atherosclerotic plaques
 - [[Atherosclerosis]] — Inflammatory disease driven by Lox-1-mediated lipid uptake
 - [[Macrophage]] — Immune cell that expresses Lox-1 and becomes foam cell upon oxLDL uptake
+- [[NAD+]] — cofactor for SIRT1-mediated Lox-1 suppression
 
 ## Linking Summary
 - New links added: [[Lox-1]], [[Oxidized LDL]], [[Foam Cell Formation]], [[NFκB]], [[Macrophage]], [[SRT1720]]

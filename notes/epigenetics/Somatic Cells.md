@@ -1,27 +1,40 @@
 ---
-type: entity
 title: Somatic Cells
-description: Somatic cells, such as Fibroblasts, can be reprogrammed to a pluripotent
-  state to create Induced Pluripotent Stem Cells (iPSCs) using defined factors like
-  Oct4, Sox2, Klf4, and c-Myc (OSKM).
+description: Somatic cells are the differentiated, non-germ body cells of an organism
+  (excluding gametes and undifferentiated stem cells). They are the starting material
+  for Cellular Reprogramming into Induced Pluripotent Stem Cells.
+type: entity
 created: 2024-01-01
-updated: 2024-01-01
-entity_type_1: NA
+updated: 2026-07-06
+tags:
+  - Cell Type
+aliases: []
 ---
+
 # Somatic Cells
 
-[[Somatic Cells]] are any cells of the body that are not gametes (sperm or egg cells) or undifferentiated stem cells. They are typically differentiated and have a specific function within an organism.
+[[Somatic Cells]] are all the cells of a multicellular organism's body that are not germ cells (sperm and egg) and are not pluripotent/undifferentiated stem cells. They constitute the vast majority of an organism's tissues — skin [[Fibroblasts]], cardiomyocytes, hepatocytes, neurons, and epithelial cells — each carrying out a specialized function dictated by its differentiated gene-expression program and epigenetic state.
 
-## Reprogramming
-Somatic cells, such as [[Fibroblasts]], can be reprogrammed to a pluripotent state to create [[Induced Pluripotent Stem Cells]] (iPSCs) using defined factors like [[Oct4]], [[Sox2]], [[Klf4]], and [[c-Myc]] ([[OSKM]]).
+## Epigenetic Identity & Stability
 
-## Role in Research
-Somatic cells are the primary starting material for creating patient-specific iPSCs, which are used in [[Disease Modeling]], [[Drug Discovery]], and potential [[Regenerative Medicine]] therapies.
+Somatic differentiation is maintained by stable epigenetic marks: tissue-specific DNA methylation, histone modifications, and chromatin architecture that silence pluripotency genes (e.g., [[Oct4]], [[Nanog]]) while locking in lineage-defining transcription factors. Although the genome is identical across somatic cell types, this epigenetic landscape is what distinguishes a fibroblast from a neuron. This stable but reversible patterning is precisely what [[Cellular Reprogramming]] must overwrite.
+
+## Reprogramming to Pluripotency
+
+Somatic cells are the universal starting material for generating [[Induced Pluripotent Stem Cells]] (iPSCs). Forced expression of the [[Yamanaka Factors]] — [[Oct4]], [[Sox2]], [[Klf4]], and [[c-Myc]] ([[OSKM]]) — resets the somatic epigenome to a pluripotent state. The transition involves an early [[Mesenchymal-to-Epithelial Transition]] (MET), widespread chromatin opening, and X-chromosome reactivation in females. Alternative routes to the same endpoint include [[Somatic Cell Nuclear Transfer]] (oocyte-cytoplasm-mediated reset) and direct lineage conversion into, for example, [[Induced Neural Stem Cells]].
+
+## Role in Research & Medicine
+
+Patient-derived somatic cells (often easily obtained skin fibroblasts or blood lymphocytes) enable the creation of autologous iPSCs for [[Disease Modeling]], [[Drug Discovery]], and [[Regenerative Medicine]]. Because iPSCs retain the donor's genetic background, they capture individual susceptibility and are amenable to [[CRISPR]] editing to build [[Isogenic Pair|isogenic pairs]] for causal inference.
 
 ## Connections
-- [[Fibroblasts]]: A common type of somatic cell used in reprogramming experiments.
-- [[Induced Pluripotent Stem Cells]]: The state achieved by reprogramming somatic cells.
-- [[Cellular Reprogramming]]: The process of reverting a somatic cell to a pluripotent state.
+- [[Induced Pluripotent Stem Cells]]: The pluripotent state achieved by reprogramming somatic cells.
+- [[Reprogramming]]: The process of reverting somatic identity to pluripotency.
+- [[Differentiation]]: The developmental path that produces the diverse somatic cell types.
+- [[Somatic Cell Nuclear Transfer]]: An oocyte-based method that also reprograms somatic nuclei.
+- [[Fibroblasts]]: The most common somatic donor cell used in reprogramming.
 
 ## Linking Summary
-- New links added: [[Fibroblasts]], [[Induced Pluripotent Stem Cells]], [[Oct4]], [[Sox2]], [[Klf4]], [[c-Myc]], [[OSKM]], [[Disease Modeling]], [[Drug Discovery]], [[Regenerative Medicine]], [[Cellular Reprogramming]]
+- New links added: [[Induced Pluripotent Stem Cells]], [[Reprogramming]], [[Differentiation]], [[Somatic Cell Nuclear Transfer]], [[Fibroblasts]], [[Oct4]], [[Sox2]], [[Klf4]], [[c-Myc]], [[OSKM]], [[Yamanaka Factors]], [[Nanog]], [[Mesenchymal-to-Epithelial Transition]], [[Induced Neural Stem Cells]], [[Disease Modeling]], [[Drug Discovery]], [[Regenerative Medicine]], [[CRISPR]], [[Isogenic Pair]]
+- Suggested new entity notes to create: [[Mesenchymal-to-Epithelial Transition]], [[Isogenic Pair]]
+- Strong connections to strengthen: [[Somatic Cells]] ↔ [[Induced Pluripotent Stem Cells]]

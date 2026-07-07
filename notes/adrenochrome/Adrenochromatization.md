@@ -1,14 +1,14 @@
 ---
-
-type: entity
 title: Adrenochromatization
 description: 'Adrenochromatization refers to the process or state of increasing
   systemic or localized levels of Adrenochrome and its reactive intermediates, particularly
   in the context of controlled experime...'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Scientific Concept
-
+tags:
+  - Scientific Concept
+aliases: []
 ---
 
 # Adrenochromatization

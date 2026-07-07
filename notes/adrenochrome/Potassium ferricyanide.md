@@ -1,12 +1,14 @@
 ---
-type: entity
 title: Potassium ferricyanide
 description: Potassium ferricyanide is a chemical compound with the formula $K_3[Fe(CN)_6]$.
   It is a bright red salt used as a classic oxidizing agent in the preparation of
   Adrenochrome from Epinephrine.
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Chemical Compound
+tags:
+  - Chemical Compound
+aliases: []
 ---
 # Potassium ferricyanide
 

@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: iNOS
 description: 'iNOS (Inducible Nitric Oxide Synthase, NOS2) is a calcium-independent
   isoform of Nitric Oxide Synthase that produces high, sustained fluxes of Nitric
   Oxide (micromolar range) in response to inf...'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Enzyme
+tags:
+  - Enzyme
 aliases: [NOS2, Inducible nitric oxide synthase, Macrophage NOS, Ca²⁺-independent NOS]
 database_ids:
   uniprot: P35228

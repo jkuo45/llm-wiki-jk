@@ -1,19 +1,19 @@
 ---
 title: Glutamine
+description: A conditional essential amino acid and the most abundant free amino acid in the body, serving as a critical fuel source for rapidly dividing cells, including immune cells and cancer cells.
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Amino Acid
-entity_type_2: Metabolite
-description: A conditional essential amino acid and the most abundant free amino acid in the body, serving as a critical fuel source for rapidly dividing cells, including immune cells and cancer cells.
 tags:
-  - amino acid
-  - metabolism
+  - Amino Acid
+  - Metabolism
   - cancer metabolism
   - fuel source
+source: https://en.wikipedia.org/wiki/Glutamine
 aliases:
   - Gln
   - L-Glutamine
-source: https://en.wikipedia.org/wiki/Glutamine
+entity_type_2: Metabolite
 ---
 
 # Glutamine

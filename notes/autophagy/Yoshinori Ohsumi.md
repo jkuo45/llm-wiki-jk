@@ -1,11 +1,12 @@
 ---
-type: entity
 title: Yoshinori Ohsumi
 description: Yoshinori Ohsumi is a Japanese cell biologist who was awarded the 2016
   Nobel Prize in Physiology or Medicine for his discoveries of mechanisms for Macroautophagy.
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: NA
+tags:
+  - Person
 aliases: [Yoshinori Ohsumi]
 ---
 # Yoshinori Ohsumi

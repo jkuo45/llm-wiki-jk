@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: Aminochromes
 description: 'Aminochromes are a class of deep-colored, cyclic indole-quinone
   compounds formed by the Oxidation of Catecholamines. They are key intermediates
   in the formation of melanins and are associated w...'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: NA
+tags:
+  - Chemical Class
 aliases: [Aminochromes]
 
 ---

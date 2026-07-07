@@ -1,13 +1,14 @@
 ---
-
-type: entity
 title: ARE (Antioxidant Response Element)
 description: 'ARE (Antioxidant Response Element) is a cis-acting regulatory element
   in the promoter regions of over 200 cytoprotective genes. It is the primary DNA
   sequence through which NRF2 drives the expr...'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Biological Process
+tags:
+  - Biological Process
+  - antioxidant
 aliases: [Antioxidant Response Element, EpRE, Electrophile Response Element]
 
 ---

@@ -1,14 +1,14 @@
 ---
-
-type: entity
 title: Nitric Oxide
 description: "Nitric Oxide ($NO^{\bullet}$) is a gaseous signaling molecule that\
   \ plays critical roles in the cardiovascular, nervous, and immune systems. It is\
   \ also a key player in the development of 'nitrat..."
+type: entity
 created: 2026-05-29
 updated: 2026-05-29
-entity_type_1: Biological Molecule
-
+tags:
+  - Biological Molecule
+aliases: []
 ---
 
 # Nitric Oxide

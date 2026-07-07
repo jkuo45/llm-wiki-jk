@@ -1,14 +1,14 @@
 ---
-
-type: entity
 title: Metabolic waste
 description: 'Metabolic waste refers to substances left over from metabolic processes
   (such as cellular respiration) which cannot be used by the organism and must therefore
   be excreted.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Scientific Concept
-
+tags:
+  - Scientific Concept
+aliases: []
 ---
 
 # Metabolic waste

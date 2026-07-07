@@ -1,12 +1,13 @@
 ---
-type: entity
 title: HIF1A
 description: Hypoxia-inducible factor 1-alpha, a key transcription factor that mediates
   the cellular response to low oxygen levels and certain types of mitochondrial stress.
   It regulates genes involved in glyco...
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: NA
+tags:
+  - Protein
 aliases: [Hif1A]
 ---
 # HIF1A

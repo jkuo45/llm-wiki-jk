@@ -1,12 +1,14 @@
 ---
-type: entity
 title: ATP Synthase
 description: ATP Synthase (Complex V, F1FO-ATPase) is the enzyme that synthesizes
   ATP from ADP and inorganic phosphate using the Proton Motive Force across the inner
   Mitochondria membrane. It consists of two ma...
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Enzyme
+tags:
+  - Enzyme
+aliases: []
 ---
 # ATP Synthase
 

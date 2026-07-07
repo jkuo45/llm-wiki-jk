@@ -1,13 +1,16 @@
 ---
-type: entity
 title: Immunity
 description: Immunity is the capability of multicellular organisms to resist harmful
   microorganisms. It involves both specific and nonspecific components.
+type: entity
 created: 2026-05-09
 updated: 2026-07-04
-entity_type_1: Biological Process
+tags:
+  - oxidative stress
+  - immune
+  - ROS
+  - Biological Process
 aliases: [immune response, immune system]
-tags: [oxidative_stress, immune, ros]
 ---
 # Immunity
 

@@ -1,12 +1,13 @@
 ---
-type: entity
 title: Splitomicin
 description: Splitomicin is a small-molecule, cell-permeable sirtuin inhibitor containing
   a $\beta$-naphthol ring structure. Discovered alongside Sirtinol in yeast cell-based
   screens for inhibitors of Silent In...
+type: entity
 created: 2026-07-03
 updated: 2026-07-03
-entity_type_1: Chemical Compound
+tags:
+  - Chemical Compound
 aliases:
   - Splitomicin
 ---

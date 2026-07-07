@@ -1,12 +1,13 @@
 ---
-type: entity
 title: ESCRT
 description: The Endosomal Sorting Complexes Required for Transport (ESCRT) is a protein
   machinery generally involved in membrane remodeling, vesicle budding, and cargo
   sorting within endosomes. In the context ...
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Scientific Concept
+tags:
+  - Scientific Concept
 aliases: [endosomal sorting complexes required for transport]
 ---
 # ESCRT

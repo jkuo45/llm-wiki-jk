@@ -1,12 +1,14 @@
 ---
-type: entity
 title: Retinoic-acid-inducible protein I-like receptor
 description: Retinoic-acid-inducible protein I-like receptors (RLR) are a family of
   pattern recognition receptors that bind to viral RNA structures and interact with
   MAVS to trigger an immune response.
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Receptor
+tags:
+  - Receptor
+aliases: []
 ---
 # Retinoic-acid-inducible protein I-like receptor
 

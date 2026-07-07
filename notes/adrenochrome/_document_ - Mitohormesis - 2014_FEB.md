@@ -1,17 +1,18 @@
 ---
-type: document
 title: Mitohormesis
-source: https://pmc.ncbi.nlm.nih.gov/articles/PMC4016106/
-author:
-- Jeanho Yun
-- Toren Finkel
-created: 2026-06-12
 description: For many years, mitochondria were viewed as semi-autonomous organelles,
   required only for cellular energetics. This view has been largely supplanted by
   the concept that mitochondria are fully integrated into the cell and that mitochondrial
   stresses ...
+type: document
+created: 2026-06-12
+source: https://pmc.ncbi.nlm.nih.gov/articles/PMC4016106/
+author:
+- Jeanho Yun
+- Toren Finkel
 tags:
   - "clippings"
+aliases: []
 ---
 . Author manuscript; available in PMC: 2015 May 6.
 

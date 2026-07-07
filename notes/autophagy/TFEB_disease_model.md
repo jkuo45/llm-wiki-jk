@@ -1,11 +1,14 @@
 ---
-type: entity
 title: TFEB_disease_model
 description: '| Targeting regulatory mechanisms of TFEB    | Disease                            |
   Characteristics of disease                                                                                       ...'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Scientific Concept
+tags:
+  - Scientific Concept
+  - autophagy
+aliases: []
 ---
 | Targeting regulatory mechanisms of TFEB    | Disease                            | Characteristics of disease                                                                                                           | The disease models                                                                            | Methods of targeting TFEB                                                                                       | The improved phenotype                                                                                     | References (PMID) |
 | ------------------------------------------ | ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ----------------- |

@@ -1,14 +1,14 @@
 ---
-
-type: entity
 title: Tumor Suppressor Gene
 description: A Tumor Suppressor Gene (TSG) encodes a protein that protects cells
   from neoplastic transformation. Unlike Oncogene (which promote proliferation when
   mutated or overexpressed), TSGs suppress tu...
+type: entity
 created: 2024-01-01
 updated: 2024-07-04
-entity_type_1: Gene
-
+tags:
+  - Gene
+aliases: []
 ---
 
 # Tumor Suppressor Gene

@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: Insulin Signaling
 description: 'Insulin signaling is a conserved growth factor pathway that regulates
   metabolism, growth, and lifespan. It is a central suppressor of Autophagy via PI3K-Akt
   Signaling-dependent activation of mT...'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Scientific Concept
+tags:
+  - Scientific Concept
 aliases: [insulin/IGF-1 signaling, IIS pathway]
 
 ---

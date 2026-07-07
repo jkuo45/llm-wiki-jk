@@ -1,12 +1,13 @@
 ---
-type: entity
 title: CD38 Inhibitor 78c
 description: CD38 Inhibitor 78c (also known as compound 78c) is a highly potent, selective,
   and orally bioactive small-molecule inhibitor of the enzymatic activity of CD38
   (specifically its NAD⁺-glycohydrolase ...
+type: entity
 created: 2026-07-03
 updated: 2026-07-06
-entity_type_1: Chemical Compound
+tags:
+  - Chemical Compound
 aliases: [78c, compound 78c, CD38-IN-78c]
 ---
 

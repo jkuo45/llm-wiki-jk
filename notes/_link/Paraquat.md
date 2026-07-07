@@ -1,11 +1,12 @@
 ---
-type: entity
 title: Paraquat
 description: Paraquat is a chemical compound and toxic herbicide that induces cellular
   oxidative stress and reactive oxygen species (ROS) production.
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: NA
+tags:
+  - Chemical Compound
 aliases: [Paraquat]
 ---
 # Paraquat

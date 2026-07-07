@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: LIPL-2
 description: 'LIPL-2 is one of several C. elegans triglyceride lipases upregulated
   during Fasting. It is localized to the lumen of the gut and/or vesicles within the
   intestine and is predicted to have lysoso...'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Enzyme
+tags:
+  - Enzyme
 aliases: [C. elegans lysosomal lipase 2]
 
 ---

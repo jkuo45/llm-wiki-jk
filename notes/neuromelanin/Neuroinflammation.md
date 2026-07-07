@@ -1,33 +1,55 @@
 ---
-type: entity
 title: Neuroinflammation
-description: In Parkinson's Disease, neuroinflammation is a prominent feature and
-  is notably restricted to regions containing Neuromelanin.
+description: In Parkinson's Disease, neuroinflammation is a prominent feature and is notably restricted to regions containing Neuromelanin.
+type: entity
 created: 2026-07-04
-updated: 2026-07-04
-entity_type_1: Biological Process
+updated: 2026-07-07
+tags:
+  - Biological Process
+  - inflammation
+aliases: []
 ---
+
 # Neuroinflammation
 
-[[Neuroinflammation]] refers to the inflammatory response within the central nervous system, characterized by the activation of glial cells and the release of pro-inflammatory cytokines.
+[[Neuroinflammation]] is the innate and adaptive immune response within the central nervous system, characterized by activation of glial cells and the release of pro-inflammatory mediators. Once considered a secondary response to neuronal injury, it is now recognized as an active contributor to the progression of [[Parkinson's Disease]]. Notably in PD, neuroinflammation is anatomically restricted to regions enriched in [[Neuromelanin]], implicating the pigment in immune activation.
 
-## In Parkinson's Disease
-In [[Parkinson's Disease]], neuroinflammation is a prominent feature and is notably restricted to regions containing [[Neuromelanin]].
-- **Microgliosis:** The activation of microglia, the brain's resident immune cells, is a key component of the neuroinflammatory response in PD.
-- **Triggers:** One of the primary triggers for neuroinflammation in the [[Substantia Nigra]] is the release of extracellular neuromelanin from dying neurons.
-- **Neuronophagia:** Activated microglia surround and phagocytize extracellular neuromelanin, a process indicative of ongoing neurodegeneration.
+## Cellular Players
+
+The response is orchestrated by:
+- **Microglia** ([[Microgliosis]]): resident macrophages that, when activated, release cytokines, [[Reactive Oxygen Species]], and nitric oxide.
+- **Astrocytes** (astrogliosis): which amplify signaling and form the glial scar.
+- **Lymphocytes**: perivascular T cells, potentially engaging [[Major histocompatibility complex class I]] on neurons.
+- **Inflammasomes** (e.g., NLRP3): intracellular platforms converting danger signals into IL-1β maturation.
+
+## Triggers in the Parkinsonian Brain
+
+The principal trigger in pigmented nuclei is the release of extracellular [[Neuromelanin]] and [[Alpha-synuclein]] aggregates ([[Lewy Bodies]]) from dying neurons. Neuromelanin acts as a damage-associated molecular pattern (DAMP), binding scavenger receptors and priming microglia. Mitochondrial [[Complex I]] defects and [[Lysosomal Dysfunction]] further release DAMPs that sustain inflammation.
+
+## Regional Restriction to Neuromelanin
+
+Post-mortem PD brains show microglial activation and MHC-I upregulation confined to the [[Substantia Nigra Pars Compacta]] and [[Locus Coeruleus]]—the neuromelanin-rich nuclei—while sparing adjacent non-pigmented regions. This spatial coupling suggests pigment is not merely a passive marker but an active immune stimulus, possibly through its bound metals, quinones, or neo-antigens.
 
 ## Pathological Consequences
-Chronic neuroinflammation can create a self-perpetuating cycle of neuronal damage. Activated microglia release reactive oxygen species and cytokines that further stress and damage neighboring neurons, contributing to the progression of [[Parkinson's Disease]].
+
+Chronic neuroinflammation creates a self-perpetuating loop: activated glia stress neighboring neurons, causing more death, more pigment release, and more inflammation. This cycle is thought to convert acute, toxin-driven injury (e.g., [[MPTP]], [[Manganese]]) into progressive neurodegeneration and may facilitate α-synuclein spread.
+
+## Therapeutic Relevance
+
+Anti-inflammatory and immunomodulatory strategies—NLRP3 inhibitors, microglial phenotype switching, cytokine blockade—are pursued as [[Neuroprotection]]. TSPO-PET and peripheral inflammatory biomarkers are being developed to monitor the response.
 
 ## Connections
 
-- [[Neuroinflammation]]: Neuroinflammation refers to the inflammatory response within the central nervous system, characterized by the activat...
-- [[Parkinson's Disease]]: ## In Parkinson's Disease In Parkinson's Disease, neuroinflammation is a prominent feature and is notably restricted ...
-- [[Neuromelanin]]: ## In Parkinson's Disease In [[Parkinson's Disease]], neuroinflammation is a prominent feature and is notably restric...
-- [[Substantia Nigra]]: - **Triggers:** One of the primary triggers for neuroinflammation in the Substantia Nigra is the release of extracell...
+- [[Parkinson's Disease]] - disease in which neuroinflammation accelerates progression.
+- [[Neuromelanin]] - pigment that regionally restricts and triggers inflammation.
+- [[Microgliosis]] - glial activation central to the response.
+- [[Alpha-synuclein]] - aggregate danger signal sustaining inflammation.
+- [[Lewy Bodies]] - inclusions releasing inflammatory stimuli.
+- [[Major histocompatibility complex class I]] - neuronal antigen presentation in PD.
+- [[Lysosomal Dysfunction]] - DAMP source perpetuating inflammation.
+- [[Neuroprotection]] - therapeutic goal of immunomodulation.
 
 ## Linking Summary
-- New links added: [[Parkinson's Disease]], [[Neuromelanin]], [[Microgliosis]], [[Substantia Nigra]], [[Neuronophagia]].
-- Suggested new entity notes to create: [[Pro-inflammatory Cytokines]], [[Astrogliosis]].
+- New links added: [[Parkinson's Disease]], [[Neuromelanin]], [[Microgliosis]], [[Alpha-synuclein]], [[Lewy Bodies]], [[Major histocompatibility complex class I]], [[Lysosomal Dysfunction]], [[Neuroprotection]].
+- Suggested new entity notes to create: [[Pro-inflammatory Cytokines]], [[Astrogliosis]], [[NLRP3 Inflammasome]].
 - Strong connections to strengthen: [[Neuroinflammation]] ↔ [[Microgliosis]].

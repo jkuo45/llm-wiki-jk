@@ -1,12 +1,14 @@
 ---
-type: entity
 title: Meiosis
 description: 'Meiosis is a specialized form of Cell Division that produces Gametes
   (Sperm and Egg cells) with half the chromosome number (haploid). It consists of
   two sequential divisions: Meiosis I (reductional...'
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Medical Condition
+tags:
+  - Medical Condition
+aliases: []
 ---
 # Meiosis
 

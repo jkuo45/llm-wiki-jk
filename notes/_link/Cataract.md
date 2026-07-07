@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: Cataract
 description: 'Cataract is a clouding of the eye lens that leads to decreased vision.
   It is driven by Oxidative Stress to lens proteins, protein carbonylation, and aggregation
   of crystallins.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Medical Condition
+tags:
+  - Medical Condition
 aliases: [Cataracts, Lens opacification]
 
 ---

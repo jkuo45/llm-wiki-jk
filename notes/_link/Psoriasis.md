@@ -1,14 +1,14 @@
 ---
-
-type: entity
 title: Psoriasis
 description: 'Etiology and pathophysiology: Psoriasis is a medical condition characterized
   by specific pathological changes in cellular, tissue, or organ function. Its development
   involves genetic, environme...'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Medical Condition
-
+tags:
+  - Medical Condition
+aliases: []
 ---
 
 # Psoriasis

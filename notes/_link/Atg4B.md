@@ -1,12 +1,13 @@
 ---
-
-type: entity
 title: Atg4B
 description: 'Catalytic function: Atg4B is an enzyme that catalyzes biochemical
   reactions essential for cellular metabolism and homeostasis.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Enzyme
+tags:
+  - Enzyme
+  - autophagy
 aliases: [Autophagy-related 4B, Cysteine Protease ATG4B]
 
 ---

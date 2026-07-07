@@ -1,12 +1,13 @@
 ---
-type: entity
 title: PGC1-α
 description: PPARγ coactivator 1-α (PGC1-α) is a master regulator of Mitochondrial
   Biogenesis and oxidative metabolism that is controlled by mTORC1 through its physical
   interaction with the transcription factor...
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Gene
+tags:
+  - Gene
 aliases: [PPARGC1A, peroxisome proliferator-activated receptor gamma coactivator 1-alpha]
 ---
 # PGC1-α

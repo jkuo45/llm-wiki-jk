@@ -1,12 +1,14 @@
 ---
-type: entity
 title: Respiratory Burst
 description: The Respiratory Burst is the rapid release of Reactive Oxygen Species
   (ROS), such as Superoxide anion and Hydrogen Peroxide, from cells like Neutrophils
   and monocytes as part of the immune response.
+type: entity
 created: 2026-05-29
 updated: 2026-05-29
-entity_type_1: Biological Process
+tags:
+  - Biological Process
+aliases: []
 ---
 # Respiratory Burst
 The Respiratory Burst is the rapid release of [[Reactive Oxygen Species]] (ROS), such as [[Superoxide anion]] and [[Hydrogen Peroxide]], from cells like [[Neutrophils]] and monocytes as part of the immune response.

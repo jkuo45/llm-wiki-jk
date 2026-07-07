@@ -1,12 +1,14 @@
 ---
-type: entity
 title: IL-8
 description: IL-8 (Interleukin-8, CXCL8) is a pro-inflammatory Chemokine that recruits
   Neutrophils and other immune cells to sites of Inflammation and infection. It is
   produced by Macrophages, Epithelial Cells,...
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Receptor
+tags:
+  - Receptor
+aliases: []
 ---
 # IL-8
 

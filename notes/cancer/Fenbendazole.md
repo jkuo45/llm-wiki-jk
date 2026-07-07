@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Fenbendazole
 description: 'Fenbendazole exhibits multiple anticancer activities:'
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Enzyme
+tags:
+  - Enzyme
+aliases: []
 ---
 # Fenbendazole
 

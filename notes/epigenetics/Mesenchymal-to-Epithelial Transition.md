@@ -1,32 +1,44 @@
 ---
-type: entity
 title: Mesenchymal-to-Epithelial Transition
 description: The Mesenchymal-to-Epithelial Transition (MET) is a reversible biological
-  process in which cells transform from a mesenchymal phenotype (characterized by
-  high motility and a spindle-like shape) to ...
+  process in which cells convert from a mesenchymal to an epithelial phenotype; essential
+  for reprogramming fibroblasts into iPSCs.
+type: entity
 created: 2024-01-01
-updated: 2024-01-01
-entity_type_1: NA
+updated: 2026-07-06
+tags:
+  - Biological Process
+aliases: []
 ---
+
 # Mesenchymal-to-Epithelial Transition
 
-The [[Mesenchymal-to-Epithelial Transition]] (MET) is a reversible biological process in which cells transform from a mesenchymal phenotype (characterized by high motility and a spindle-like shape) to an epithelial phenotype (characterized by cell-to-cell adhesion and polarity).
+[[Mesenchymal-to-Epithelial Transition]] (MET) is the reverse of the [[Epithelial-to-Mesenchymal Transition]]: a reversible program by which motile, spindle-shaped mesenchymal cells re-acquire epithelial traits—cell–cell adhesion via E-cadherin, apical–basal polarity, and organized epithelial sheets. MET is a mandatory initiation step when mesenchymal somatic cells are reset to the epithelial-like state of pluripotency.
+
+## Mechanism and Transcriptional Regulation
+
+MET is driven by activation of epithelial master regulators and silencing of mesenchymal ones. The [[Yamanaka Factors]] (OSKM) enforce MET: [[Sox2]] and [[Oct4]] repress the EMT factor [[Snail]] and ZEB1, while [[c-Myc]] suppresses [[TGF-beta Signaling Pathway|TGF-β]] receptor expression, removing a brake on epithelialization. Upstream, [[BMP Signaling Pathway]] and Wnt agonists promote MET by inducing epithelial microRNAs (e.g., miR-200 family) that degrade ZEB1/2 mRNA, and by activating E-cadherin ([[CDH1]]).
+
+Molecular hallmarks include up-regulation of epithelial markers—E-cadherin ([[CDH1]]), EpCAM, occludin, and claudins—and down-regulation of mesenchymal markers—N-cadherin ([[CDH2]]), vimentin, fibronectin, and Snail. Cell surface [[c-Met]] (the HGF receptor) is also re-expressed, restoring epithelial responsiveness to hepatocyte growth factor.
 
 ## Role in Cellular Reprogramming and Pluripotency
 
-[[Mesenchymal-to-Epithelial Transition]] is a critical and necessary initiation step in the [[Cellular Reprogramming]] of somatic [[Fibroblasts]] into [[Induced Pluripotent Stem Cells]] (iPSCs). Because [[Fibroblasts]] are mesenchymal in nature and pluripotent stem cells are epithelial, the cells must undergo MET to establish the morphological and functional characteristics of the early embryo.
+MET is a critical, early landmark in the [[Cellular Reprogramming]] of [[Fibroblasts]] into [[Induced Pluripotent Stem Cells]] (iPSCs). Because fibroblasts are mesenchymal and pluripotent stem cells are epithelial, MET establishes the morphological and functional ground state of the early embryo. Blocking TGF-β (e.g., with SB431542) or activating epithelial programs accelerates MET and improves reprogramming efficiency. Without successful MET, cells arrest in unstable, partially reprogrammed intermediates.
 
-This transition involves the up-regulation of epithelial markers such as E-cadherin ([[CDH1]]), EpCAM, and Occludin, and the down-regulation of mesenchymal markers like N-cadherin ([[CDH2]]) and Snail. The [[Yamanaka Factors]] (OSKM) drive this process by suppressing mesenchymal gene expression and activating epithelial programs. For instance, [[Sox2]] and [[Oct4]] suppress the EMT-inducing factor Snail, while [[c-Myc]] suppresses [[TGF-beta Signaling Pathway|TGF-beta]] receptors.
+## Physiological Relevance
+
+MET operates in embryonic development (e.g., during kidney and lung organogenesis, where migrating mesenchymal condensates epitheliaze) and in adult tissue repair. It counterbalances EMT to maintain tissue architecture.
 
 ## Connections
 
-- [[Cellular Reprogramming]]: MET is considered a hallmark initiation event for successful reprogramming of mesenchymal somatic cells.
-- [[Fibroblasts]]: The most common starting cell type for iPSC generation, which must undergo MET to become pluripotent.
-- [[Epithelial-to-Mesenchymal Transition]]: The reverse process of MET; its suppression is required for MET to occur during reprogramming.
-- [[TGF-beta Signaling Pathway]]: A major driver of the reverse process (EMT); inhibition of this pathway promotes MET and increases reprogramming efficiency.
-- [[BMP Signaling Pathway]]: Shown to contribute to reprogramming by driving MET through the activation of epithelial-associated microRNAs.
+- [[Cellular Reprogramming]]: MET is a hallmark initiation event for successful reprogramming of mesenchymal cells.
+- [[Fibroblasts]]: The most common reprogramming starting cell, which must undergo MET to become pluripotent.
+- [[Epithelial-to-Mesenchymal Transition]]: The reverse process; its suppression is required for MET.
+- [[TGF-beta Signaling Pathway]]: Major EMT driver; its inhibition promotes MET.
+- [[c-Met]]: HGF receptor re-expressed during MET, restoring epithelial signaling.
+- [[BMP Signaling Pathway]]: Promotes MET via epithelial microRNAs.
 
 ## Linking Summary
-- New links added: [[Cellular Reprogramming]], [[Fibroblasts]], [[Induced Pluripotent Stem Cells]], [[Oct4]], [[Sox2]], [[c-Myc]], [[Epithelial-to-Mesenchymal Transition]], [[TGF-beta Signaling Pathway]]
-- Suggested new entity notes to create: [[CDH1]], [[CDH2]], [[BMP Signaling Pathway]]
-- Strong connections to strengthen: [[Mesenchymal-to-Epithelial Transition]] <-> [[Cellular Reprogramming]]
+- New links added: [[CDH1]], [[CDH2]], [[c-Met]], [[BMP Signaling Pathway]], [[TGF-beta Signaling Pathway]], [[Snail]], [[miR-200]]
+- Suggested new entity notes to create: [[ZEB2]], [[EpCAM]], [[miR-200 family]]
+- Strong connections to strengthen: [[Mesenchymal-to-Epithelial Transition]] ↔ [[Cellular Reprogramming]], [[Mesenchymal-to-Epithelial Transition]] ↔ [[Epithelial-to-Mesenchymal Transition]]

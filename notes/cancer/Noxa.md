@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: Noxa
 description: 'Noxa (Latin for ''damage'') is a pro-apoptotic BH3-only member of
   the Bcl-2 family. It is a key mediator of Apoptosis in response to various stresses.'
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Enzyme
-
+tags:
+  - Enzyme
+aliases: []
 ---
 
 # Noxa

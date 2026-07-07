@@ -1,14 +1,14 @@
 ---
-
-type: entity
 title: p16INK4A
 description: 'p16INK4a (encoded by the CDKN2A locus) is a cyclin-dependent kinase
   inhibitor that functions as a central tumor suppressor and the most widely used
   biomarker of Cellular Senescence. Its expre...'
+type: entity
 created: 2024-01-01
 updated: 2024-07-04
-entity_type_1: Protein
-
+tags:
+  - Protein
+aliases: []
 ---
 
 # p16INK4A

@@ -1,12 +1,13 @@
 ---
-
-type: entity
 title: Atg7
 description: 'Atg7 (Autophagy-related 7) is an E1-like activating enzyme that
   is essential for the conjugation of ubiquitin-like proteins in the Autophagy pathway.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Enzyme
+tags:
+  - Enzyme
+  - autophagy
 aliases: [ubiquitin-like conjugating enzyme]
 
 ---

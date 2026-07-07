@@ -1,14 +1,15 @@
 ---
-
-type: entity
 title: Inflammation
 description: 'Inflammation is the body''s complex biological response to harmful
   stimuli, such as pathogens, damaged cells, or irritants. It is a key context for
   the production of Adrenochrome.'
+type: entity
 created: 2026-05-29
 updated: 2026-05-29
-entity_type_1: Biological Process
-
+tags:
+  - Biological Process
+  - inflammation
+aliases: []
 ---
 
 # Inflammation

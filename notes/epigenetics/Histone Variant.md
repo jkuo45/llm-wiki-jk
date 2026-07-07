@@ -1,14 +1,15 @@
 ---
-
-type: entity
 title: Histone Variant
 description: 'Histone variants are non-canonical isoforms of the core Histone
   proteins (H2A, H2B, H3, H4) that replace their canonical counterparts in specific
   genomic contexts to alter Nucleosome stability,...'
+type: entity
 created: 2024-01-01
 updated: 2024-07-04
-entity_type_1: Protein
-
+tags:
+  - Protein
+  - epigenetics
+aliases: []
 ---
 
 # Histone Variant

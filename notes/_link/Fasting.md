@@ -1,12 +1,15 @@
 ---
-type: entity
 title: Fasting
 description: Fasting is the voluntary abstinence from food and caloric beverages for
   a defined period. It induces a metabolic switch from glucose-based to ketone-based
   energy, activates stress-resistance pathwa...
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Medical Condition
+tags:
+  - Medical Condition
+  - caloric restriction
+aliases: []
 ---
 # Fasting
 

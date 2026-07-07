@@ -1,32 +1,40 @@
 ---
-type: entity
 title: Lin28
-description: 'The interaction between Lin28 and let-7 forms a bistable switch: Lin28
-  inhibits let-7 maturation, while let-7 can negatively regulate Lin28 expression.
-  Terminal uridylases like ZCCHC11 are recruite...'
+description: The interaction between Lin28 and let-7 forms a bistable switch that
+  maintains stemness. Terminal uridylases like ZCCHC11 are recruited to degrade pre-let-7.
+type: entity
 created: 2024-01-01
-updated: 2024-01-01
-entity_type_1: NA
+updated: 2026-07-06
+tags:
+  - Protein
+aliases: []
 ---
+
 # Lin28
 
-[[Lin28]] is an RNA-binding protein that acts as a key regulator of developmental timing and [[Pluripotency]]. It is particularly known for its role in inhibiting the maturation of the let-7 family of microRNAs.
+[[Lin28]] (Lin-28 homolog A/B) is a highly conserved RNA-binding protein that regulates developmental timing and [[Pluripotency]]. It is best known for blocking the maturation of the [[let-7 microRNA]] family, thereby relieving let-7–mediated suppression of proliferation and self-renewal genes. Two paralogs exist in humans: LIN28A (cytoplasmic) and LIN28B (nuclear).
+
+## Structure and Mechanism
+
+Lin28 contains an N-terminal cold-shock domain and two C-terminal CCHC zinc-knuckle domains that directly bind the terminal loop of pri- and pre-let-7 hairpins. Binding blocks Dicer processing and recruits the cytoplasmic terminal uridylyl transferase [[ZCCHC11]] (TUT4/7) and ZCCHC11B, which add oligo(U) tails to pre-let-7, targeting it for degradation by the exosome. This prevents accumulation of mature let-7, which would otherwise repress oncogenic/pluripotency mRNAs (including *RAS*, *HMGA2*, *MYC*, and *Lin28* itself).
 
 ## Role in Cellular Reprogramming and Pluripotency
 
-[[Lin28]] is a component of the OSLN reprogramming cocktail ([[Oct4]], [[Sox2]], [[Lin28]], and [[Nanog]]), which was one of the first methods used to generate human [[Induced Pluripotent Stem Cells]]. During [[Cellular Reprogramming]], [[Lin28]] influences RNA splicing patterns and suppresses the let-7 microRNA, which otherwise promotes differentiation and inhibits the pluripotent state.
+Lin28 is a component of the OSLN cocktail ([[Oct4]], [[Sox2]], [[Lin28]], [[Nanog]]), one of the first methods to generate human [[Induced Pluripotent Stem Cells]]. During [[Cellular Reprogramming]], Lin28 suppresses let-7, which promotes differentiation and inhibits stemness, and influences alternative RNA splicing to maintain the undifferentiated state. The Lin28–let-7 interaction forms a bistable switch: Lin28 inhibits let-7 maturation while let-7 negatively feeds back on Lin28, locking cells in a stem-like state.
 
-The interaction between [[Lin28]] and let-7 forms a bistable switch: [[Lin28]] inhibits let-7 maturation, while let-7 can negatively regulate [[Lin28]] expression. Terminal uridylases like ZCCHC11 are recruited by [[Lin28]] to mark pre-let-7 for degradation, thereby maintaining the "stemness" of the cell.
+## Physiological and Pathological Relevance
+
+Lin28 is highly expressed in [[Embryonic Stem Cells]] and during early embryogenesis, then silenced in most adult tissues. Its re-activation correlates with [[Cancer]] (particularly germ-cell tumors and poor prognosis in several carcinomas) and with metabolic regulation—Lin28B modulates insulin sensitivity and glucose metabolism. Lin28 has also been deployed, together with Nanog and the [[Yamanaka Factors]], in [[Rejuvenation]] and [[Partial Reprogramming]] studies of aged neurons.
 
 ## Connections
 
-- [[Nanog]]: Works with [[Lin28]] in the OSLN cocktail to induce pluripotency in human cells.
-- [[Oct4]]: A core transcription factor that regulates [[Lin28]] and other pluripotency-associated genes.
-- [[Sox2]]: Part of the regulatory network that includes [[Lin28]].
-- [[Cellular Reprogramming]]: [[Lin28]] is an essential factor for high-efficiency reprogramming in certain protocols.
-- [[Rejuvenation]]: [[Lin28]] has been used alongside [[Nanog]] and the [[Yamanaka Factors]] to rejuvenate aged or damaged neurons.
+- [[let-7 microRNA]]: The direct inhibitory target of Lin28; its suppression maintains stemness.
+- [[ZCCHC11]]: Terminal uridylase recruited by Lin28 to degrade pre-let-7.
+- [[Nanog]] / [[Oct4]] / [[Sox2]]: OSLN reprogramming partners.
+- [[Pluripotency]]: Lin28 is a core regulator of the undifferentiated state.
+- [[Self-Renewal]]: Lin28 sustains proliferative, self-renewing cell behavior.
 
 ## Linking Summary
-- New links added: [[Pluripotency]], [[Oct4]], [[Sox2]], [[Nanog]], [[Induced Pluripotent Stem Cells]], [[Cellular Reprogramming]], [[Rejuvenation]], [[Yamanaka Factors]]
-- Suggested new entity notes to create: [[let-7 microRNA]], [[ZCCHC11]]
-- Strong connections to strengthen: [[Lin28]] <-> [[Pluripotency]]
+- New links added: [[let-7 microRNA]], [[ZCCHC11]], [[Oct4]], [[Sox2]], [[Nanog]], [[Pluripotency]], [[Self-Renewal]], [[Rejuvenation]], [[Partial Reprogramming]]
+- Suggested new entity notes to create: [[LIN28B]], [[HMGA2]], [[TUT4]]
+- Strong connections to strengthen: [[Lin28]] ↔ [[Pluripotency]], [[Lin28]] ↔ [[let-7 microRNA]]

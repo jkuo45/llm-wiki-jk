@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: Psychiatric Disorders
 description: 'Etiology and pathophysiology: Psychiatric Disorders is a medical
   condition characterized by specific pathological changes in cellular, tissue, or
   organ function. Its development involves geneti...'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Medical Condition
+tags:
+  - Medical Condition
 aliases: [Mental Illness]
 
 ---

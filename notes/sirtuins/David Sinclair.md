@@ -1,30 +1,42 @@
 ---
-type: entity
 title: David Sinclair
-description: '- Identified SIRT1 as a mediator of Caloric Restriction benefits and
-  discovered Resveratrol as a STACs (PMID: 12939617).'
+description: David A. Sinclair is an Australian-American biologist and professor of genetics
+  at Harvard Medical School, known for research on aging, sirtuins, NAD+ biology, and
+  caloric restriction mimetics. He identified SIRT1 as a mediator of caloric restriction
+  and discovered Resveratrol as a STAC.
+type: entity
 created: 2026-07-04
-updated: 2026-07-04
-entity_type_1: NA
+updated: 2026-07-07
+tags:
+  - Organization
 aliases: [David A. Sinclair, Sinclair]
 ---
+
 # David Sinclair
 
-[[David Sinclair]] is an Australian-American biologist and professor of genetics at [[Harvard Medical School]], best known for his research on [[Aging|aging]], sirtuins, [[NAD+]] biology, and [[Caloric Restriction|caloric restriction]] mimetics. His laboratory made foundational discoveries demonstrating that [[SIRT1]] activation by [[Resveratrol|resveratrol]] extends lifespan in [[Sir2 (yeast)]], and that [[NAD+]] precursors like [[Nicotinamide Mononucleotide|NMN]] reverse aspects of aging in mice.
+[[David Sinclair]] is an Australian-American biologist and professor of genetics at [[Harvard Medical School]], best known for his research on [[Aging|aging]], sirtuins, [[NAD+]] biology, and [[Caloric Restriction|caloric restriction]] mimetics. His laboratory made foundational discoveries demonstrating that [[SIRT1]] activation by [[Resveratrol|resveratrol]] extends lifespan in [[Sir2 (yeast)]], and that [[NAD+]] precursors like [[Nicotinamide Mononucleotide|NMN]] reverse aspects of aging in mice. He is a central figure in the field of [[Geroscience]].
 
 ## Key Contributions
 
-- Identified [[SIRT1]] as a mediator of [[Caloric Restriction]] benefits and discovered [[Resveratrol]] as a [[STACs|STAC]] (PMID: 12939617).
-- First author and senior author on seminal reviews defining the role of sirtuins in mammalian [[Longevity|longevity]] (Michan & Sinclair, 2007, PMID: 17571417).
-- Demonstrated that [[NAD+]] repletion reverses [[Mitochondrial Dysfunction|mitochondrial dysfunction]] and [[Cellular Senescence|cellular senescence]] in aged mice.
-- Co-founded [[Sirtris Pharmaceuticals]] (acquired by [[GlaxoSmithKline]]) to develop [[STACs]] as therapeutics.
+- Identified [[SIRT1]] as a mediator of [[Caloric Restriction]] benefits and discovered [[Resveratrol]] as a [[STACs|STAC]] (small molecule activator of sirtuins) in a landmark 2003 study (PMID: 12939617), showing resveratrol extends yeast lifespan via Sir2 and later demonstrating parallel effects in higher organisms.
+- Authored seminal reviews defining the role of sirtuins in mammalian [[Longevity|longevity]] (Michan & Sinclair, 2007, PMID: 17571417), synthesizing the case that sirtuins couple nutrient availability to survival.
+- Demonstrated that [[NAD+]] repletion reverses [[Mitochondrial Dysfunction|mitochondrial dysfunction]] and [[Cellular Senescence|cellular senescence]] in aged mice, reviving interest in NAD⁺ precursor supplementation ([[Nicotinamide Mononucleotide|NMN]], [[Nicotinamide Riboside|NR]]) as anti-aging interventions.
+- Co-founded [[Sirtris Pharmaceuticals]] (acquired by [[GlaxoSmithKline]]) to develop [[STACs]] as therapeutics, including SRT1720 and SRT2104, translating sirtuin science toward the clinic.
+
+## Scientific Impact and Controversies
+
+Sinclair's work established the "sirtuins as longevity genes" paradigm and the information-theory-of-aging framework, proposing that aging results from loss of epigenetic information (nuclear architecture) rather than merely damage accumulation. Some claims—particularly around dramatic lifespan extension from STACs in mammals—have been the subject of replication debates and scientific scrutiny, spurring more rigorous NAD⁺ and sirtuin research. Regardless, his output catalyzed an entire translational field linking [[NAD+]], [[Sirtuins]], and [[Caloric Restriction]] to human healthspan.
 
 ## Connections
 
 - [[SIRT1]], [[SIRT2]], [[SIRT3]], [[SIRT6]]: Primary research focus.
 - [[Resveratrol]], [[SRT1720]], [[SRT2104]]: STACs investigated in the Sinclair lab.
-- [[NAD+]], [[Nicotinamide Mononucleotide]], [[Nicotinamide Riboside]]: NAD+ precursors central to his rejuvenation research.
+- [[NAD+]], [[Nicotinamide Mononucleotide]], [[Nicotinamide Riboside]]: NAD⁺ precursors central to his rejuvenation research.
 - [[Geroscience]]: A field he helped establish.
+- [[Sirtris Pharmaceuticals]]: Company he co-founded to develop STACs.
 
 ## Linking Summary
-- New links added: [[SIRT1]], [[Resveratrol]], [[NAD+]], [[Nicotinamide Mononucleotide]], [[Nicotinamide Riboside]], [[Caloric Restriction]], [[STACs]], [[SRT1720]], [[SRT2104]], [[Aging]], [[Longevity]], [[Cellular Senescence]], [[Sir2 (yeast)]], [[Geroscience]], [[Mitochondrial Dysfunction]]
+
+- New links added: [[SIRT1]], [[Resveratrol]], [[NAD+]], [[Nicotinamide Mononucleotide]], [[Nicotinamide Riboside]], [[Caloric Restriction]], [[STACs]], [[SRT1720]], [[SRT2104]], [[Aging]], [[Longevity]], [[Cellular Senescence]], [[Sir2 (yeast)]], [[Geroscience]], [[Mitochondrial Dysfunction]], [[Sirtris Pharmaceuticals]], [[GlaxoSmithKline]], [[Harvard Medical School]]
+- Suggested new entity notes to create: [[Information Theory of Aging]], [[SRT1720]], [[SRT2104]]
+- Strong connections to strengthen: [[David Sinclair]] ↔ [[SIRT1]], [[David Sinclair]] ↔ [[NAD+]]

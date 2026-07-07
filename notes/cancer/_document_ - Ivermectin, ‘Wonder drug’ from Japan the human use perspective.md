@@ -1,17 +1,18 @@
 ---
-type: document
 title: 'Ivermectin, ‘Wonder drug’ from Japan: the human use perspective'
-source: https://pmc.ncbi.nlm.nih.gov/articles/PMC3043740/
-author:
-- Andy Crump
-- Satoshi Ōmura
-created: 2026-05-21
 description: Discovered in the late-1970s, the pioneering drug ivermectin, a dihydro
   derivative of avermectin—originating solely from a single microorganism isolated
   at the Kitasato Intitute, Tokyo, Japan from Japanese soil—has had an immeasurably
   beneficial ...
+type: document
+created: 2026-05-21
+source: https://pmc.ncbi.nlm.nih.gov/articles/PMC3043740/
+author:
+- Andy Crump
+- Satoshi Ōmura
 tags:
   - "clippings"
+aliases: []
 ---
 
 ## Abstract

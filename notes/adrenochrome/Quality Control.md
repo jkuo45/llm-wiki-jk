@@ -1,13 +1,14 @@
 ---
-
-type: entity
 title: Quality Control
 description: 'Quality Control (QC) is a process by which entities review the quality
   of all factors involved in production.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Laboratory Standard
-
+tags:
+  - Laboratory Standard
+  - mitochondrial quality control
+aliases: []
 ---
 
 # Quality Control

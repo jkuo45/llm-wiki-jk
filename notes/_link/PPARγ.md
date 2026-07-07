@@ -1,12 +1,13 @@
 ---
-type: entity
 title: PPARγ
 description: Peroxisome proliferator-activated receptor gamma (PPARγ) is a nuclear
   receptor that regulates fatty acid storage and glucose metabolism. It is a key target
   for treating Diabetes Mellitus and plays ...
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Protein
+tags:
+  - Protein
 aliases: [PPAR-gamma, Peroxisome proliferator-activated receptor gamma]
 ---
 # PPARγ

@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: MAX
 description: 'MAX (MYC Associated Factor X) is a basic-helix–loop–helix leucine
   zipper (bHLH-Zip) transcription factor that is a mammalian orthologue of the C.
   elegans MXL-3 protein.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Gene
+tags:
+  - Gene
 aliases: [MYC-associated factor X]
 
 ---

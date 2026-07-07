@@ -1,14 +1,14 @@
 ---
-
-type: entity
 title: Melittin
 description: 'Melittin is a positively charged, amphipathic 26-amino-acid peptide
   that constitutes approximately half of Honeybee venom by dry weight. It is known
   for its ability to associate with phospholip...'
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Enzyme
-
+tags:
+  - Enzyme
+aliases: []
 ---
 
 # Melittin

@@ -1,11 +1,12 @@
 ---
-type: entity
 title: TRAF2
 description: TRAF2 (TNF receptor-associated factor 2) is a protein recruited by the
   MAVS complex to activate an innate immune response following viral infection.
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: NA
+tags:
+  - Protein
 aliases: [Traf2]
 ---
 # TRAF2

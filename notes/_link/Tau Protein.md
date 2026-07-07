@@ -1,16 +1,14 @@
 ---
-
-type: entity
 title: Tau Protein
 description: 'Overview: Tau Protein is a cellular protein with structural, signaling,
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
   and signaling networks that gove...'
+type: entity
 created: 2026-05-09
 updated: 2026-07-06
-entity_type_1: Protein
+tags:
+  - Protein
 aliases: [tau, MAPT, microtubule-associated protein tau]
-tags: [oxidative_stress, alzheimers, neurofibrillary_tangles]
-
 ---
 
 # Tau Protein

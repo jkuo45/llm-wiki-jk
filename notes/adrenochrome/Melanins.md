@@ -1,12 +1,12 @@
 ---
-
-type: entity
 title: Melanins
 description: 'Melanins are a broad group of natural pigments found in most organisms.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Chemical Class
-
+tags:
+  - Chemical Class
+aliases: []
 ---
 
 # Melanins

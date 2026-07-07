@@ -1,14 +1,14 @@
 ---
-
-type: entity
 title: Survivin
 description: 'Survivin (also known as BIRC5) is a member of the Inhibitor of Apoptosis
   Proteins (IAP) family. It is unique among IAPs for its dual role in inhibiting Apoptosis
   and regulating cell division.'
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Enzyme
-
+tags:
+  - Enzyme
+aliases: []
 ---
 
 # Survivin

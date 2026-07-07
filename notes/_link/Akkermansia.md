@@ -1,12 +1,14 @@
 ---
-type: entity
 title: Akkermansia
 description: Akkermansia is a genus of bacteria in the phylum Verrucomicrobia, specifically
   Akkermansia muciniphila, which is associated with gut health, metabolic homeostasis,
   and longevity.
+type: entity
 created: 2024-01-01
 updated: 2024-01-01
-entity_type_1: Microorganism
+tags:
+  - Microorganism
+aliases: []
 ---
 # Akkermansia
 Akkermansia is a genus of bacteria in the phylum Verrucomicrobia, specifically Akkermansia muciniphila, which is associated with gut health, metabolic homeostasis, and longevity.

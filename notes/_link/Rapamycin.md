@@ -1,12 +1,14 @@
 ---
-type: entity
 title: Rapamycin
 description: In the SASP-Remodeling Aminochrome Complex strategy, Rapamycin acts as
   a "brake." It ensures that Adrenochrome-induced ROS signals are diverted from pro-inflammatory
   SASP production toward a quiesc...
+type: entity
 created: 2024-01-01
 updated: 2024-01-01
-entity_type_1: Chemical Compound
+tags:
+  - Chemical Compound
+aliases: []
 ---
 # Rapamycin
 [[Rapamycin]] (also known as Sirolimus) is an immunosuppressant drug that acts as a potent inhibitor of the mTOR pathway. By inhibiting mTOR, rapamycin promotes [[Autophagy]]. It has been studied in various models of neurodegeneration, including [[Parkinson's Disease]], for its ability to enhance the clearance of protein aggregates and damaged organelles.

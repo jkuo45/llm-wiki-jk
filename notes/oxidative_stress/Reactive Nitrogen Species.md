@@ -1,14 +1,17 @@
 ---
-type: entity
 title: Reactive Nitrogen Species
 description: Reactive Nitrogen Species (RNS) are a family of antimicrobial molecules
   derived from Nitric Oxide (•NO) and superoxide (O2•−) produced via the enzymatic
   activity of inducible Nitric Oxide Synthase ...
+type: entity
 created: 2026-05-09
 updated: 2026-07-04
-entity_type_1: Chemical Class
+tags:
+  - oxidative stress
+  - nitric oxide
+  - nitrative stress
+  - Chemical Class
 aliases: [RNS, nitrogen free radicals]
-tags: [oxidative_stress, nitric_oxide, nitrative_stress]
 ---
 # Reactive Nitrogen Species
 

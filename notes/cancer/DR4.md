@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: DR4
 description: 'DR4 (Death Receptor 4), also known as TRAIL-R1 or TNFRSF10A, is
   a cell surface receptor that triggers Apoptosis upon binding its ligand, TRAIL.'
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Enzyme
-
+tags:
+  - Enzyme
+aliases: []
 ---
 
 # DR4

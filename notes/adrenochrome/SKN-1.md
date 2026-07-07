@@ -1,14 +1,14 @@
 ---
-
-type: entity
 title: SKN-1
 description: SKN-1 is the C. elegans homolog of NRF2, which coordinates the response
   to Oxidative Stress and is essential for the lifespan extension associated with
   mitochondrial ROS release.
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Gene
-
+tags:
+  - Gene
+aliases: []
 ---
 
 # SKN-1

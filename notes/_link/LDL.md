@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: LDL
 description: 'Low-density lipoprotein (LDL) is a lipoprotein particle that transports
   cholesterol and triglycerides from the liver to peripheral tissues. Elevated LDL
   is a major risk factor for Atheroscleros...'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Biological Molecule
+tags:
+  - Biological Molecule
 aliases: [Low-density lipoprotein, LDL cholesterol]
 
 ---

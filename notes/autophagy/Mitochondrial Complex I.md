@@ -1,12 +1,13 @@
 ---
-
-type: entity
 title: Mitochondrial Complex I
 description: 'Mitochondrial Complex I (NADH:ubiquinone oxidoreductase) is a key
   enzyme complex in the Mitochondria electron transport chain.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Scientific Concept
+tags:
+  - Scientific Concept
+  - mitochondria
 aliases: [NADH dehydrogenase, Complex I]
 
 ---

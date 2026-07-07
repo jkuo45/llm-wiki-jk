@@ -1,12 +1,13 @@
 ---
-type: document
 title: sirtuins, grok
-created: 2026-07-01
 description: Sirtuins (SIRT1–SIRT7) are a family of seven NAD+-dependent enzymes (class
   III Histone Modification/deacylases) in humans. They play key roles in Metabolism,
   Aging, stress response, DNA Repair, Inf...
+type: document
+created: 2026-07-01
 tags:
   - grok
+aliases: []
 ---
 
 

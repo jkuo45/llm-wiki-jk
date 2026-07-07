@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: Exercise
 description: 'Exercise is planned, structured physical activity that improves
   or maintains physical fitness. It is one of the most effective interventions for
   extending healthspan, reducing Oxidative Stress,...'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Biological Process
+tags:
+  - Biological Process
 aliases: [Physical exercise, Physical activity]
 
 ---

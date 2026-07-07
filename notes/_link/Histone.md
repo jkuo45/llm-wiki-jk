@@ -1,12 +1,15 @@
 ---
-type: entity
 title: Histone
 description: Histones are basic nuclear proteins that package DNA into Nucleosomes,
   the fundamental unit of Chromatin. The core histones (Histone H2A, Histone H2B,
   Histone H3, Histone H4) form an octamer wrappe...
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Enzyme
+tags:
+  - Enzyme
+  - epigenetics
+aliases: []
 ---
 # Histone
 

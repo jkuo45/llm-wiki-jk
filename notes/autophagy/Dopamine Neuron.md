@@ -1,12 +1,13 @@
 ---
-type: entity
 title: Dopamine Neuron
 description: Dopamine neurons are nerve cells that produce dopamine; their loss is
   a hallmark of Parkinson's disease, and TFEB-mediated autophagy has been shown to
   protect them from Alpha-synuclein toxicity.
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Cell Type
+tags:
+  - Cell Type
 aliases: [DA neuron]
 ---
 # Dopamine Neuron

@@ -1,12 +1,14 @@
 ---
-type: entity
 title: Parkinson's Disease
 description: Parkinson's disease is a long-term degenerative disorder of the central
   nervous system that mainly affects the motor system. It is characterized by the
   loss of Dopamine-producing neurons in the Sub...
+type: entity
 created: 2026-05-29
 updated: 2026-05-29
-entity_type_1: Medical Condition
+tags:
+  - Medical Condition
+aliases: []
 ---
 # Parkinson's Disease
 Parkinson's disease is a long-term degenerative disorder of the central nervous system that mainly affects the motor system. It is characterized by the loss of [[Dopamine]]-producing neurons in the [[Substantia Nigra]]. Chronic [[Oxidative Stress]] and mitochondrial dysfunction (often involving [[Mitochondria]]) are key contributors to its progression.

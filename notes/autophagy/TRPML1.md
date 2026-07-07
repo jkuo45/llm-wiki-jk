@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: TRPML1
 description: 'TRPML1 (Mucolipin-1) is a lysosomal calcium channel that regulates
   the efflux of Ca2+ from the Lysosome lumen, essential for Lysosome biogenesis, trafficking,
   and reformation.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Ion Channel
+tags:
+  - Ion Channel
 aliases: [MCOLN1, mucolipin 1, lysosomal calcium channel]
 
 ---

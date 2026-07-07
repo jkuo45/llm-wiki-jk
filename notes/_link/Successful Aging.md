@@ -1,12 +1,14 @@
 ---
-type: entity
 title: Successful Aging
 description: Successful aging is a concept that encompasses the avoidance of disease
   and disability, the maintenance of high physical and cognitive function, and sustained
   engagement in social and productive ac...
+type: entity
 created: 2024-01-01
 updated: 2024-01-01
-entity_type_1: Scientific Concept
+tags:
+  - Scientific Concept
+aliases: []
 ---
 # Successful Aging
 Successful aging is a concept that encompasses the avoidance of disease and disability, the maintenance of high physical and cognitive function, and sustained engagement in social and productive activities.

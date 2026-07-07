@@ -1,12 +1,13 @@
 ---
-type: entity
 title: NAMPT
 description: NAMPT (Nicotinamide phosphoribosyltransferase) is a key enzyme in the
   salvage pathway of NAD+ biosynthesis, whose levels decrease significantly in various
   tissues during aging.
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: NA
+tags:
+  - Enzyme
 aliases: [Nampt]
 ---
 # NAMPT

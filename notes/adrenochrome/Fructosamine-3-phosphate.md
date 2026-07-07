@@ -1,11 +1,13 @@
 ---
-type: entity
 title: Fructosamine-3-phosphate
 description: Fructosamine-3-phosphate is an unstable intermediate metabolite generated
   during the protein deglycation process.
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Metabolite
+tags:
+  - Metabolite
+aliases: []
 ---
 # Fructosamine-3-phosphate
 

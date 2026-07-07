@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: SLC-36.1
 description: 'SLC-36.1 is a neutral amino acid transporter (homologue of mammalian
   SLC36A1-4/PAT1-4) that localizes to Lysosomes and cooperates with PIKfyve to regulate
   Phagocytic Lysosome Reformation.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Protein
+tags:
+  - Protein
 aliases: [C. elegans PAT1 ortholog, amino acid transporter]
 
 ---

@@ -1,14 +1,16 @@
 ---
-
-type: entity
 title: Lysosome Biogenesis
 description: 'Definition: Lysosome Biogenesis is a fundamental biological process
   that maintains cellular and organismal homeostasis. It involves coordinated molecular
   events regulated by signaling pathways ...'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Biological Process
-
+tags:
+  - Biological Process
+  - autophagy
+  - lysosome
+aliases: []
 ---
 
 # Lysosome Biogenesis

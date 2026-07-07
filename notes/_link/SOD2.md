@@ -1,12 +1,13 @@
 ---
-
-type: entity
 title: SOD2
 description: 'Catalytic function: SOD2 is an enzyme that catalyzes biochemical
   reactions essential for cellular metabolism and homeostasis.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Enzyme
+tags:
+  - Enzyme
+  - antioxidant
 aliases: [Superoxide Dismutase 2, MnSOD]
 
 ---

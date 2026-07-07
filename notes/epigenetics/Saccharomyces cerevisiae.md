@@ -1,37 +1,42 @@
 ---
-
-type: entity
 title: Saccharomyces cerevisiae
-description: 'Saccharomyces cerevisiae, also known as budding yeast, is a species
-  of yeast that has been instrumental in wine-making, baking, and brewing since ancient
-  times. It is one of the most intensivel...'
+description: Saccharomyces cerevisiae (budding yeast) is a foundational Model Organism
+  for eukaryotic biology and aging, where Sir2 and Caloric Restriction were first linked
+  to lifespan.
+type: entity
 created: 2024-01-01
-updated: 2024-01-01
-entity_type_1: Model Organism
-
+updated: 2026-07-06
+tags:
+  - Model Organism
+aliases: []
 ---
 
 # Saccharomyces cerevisiae
 
-**Saccharomyces cerevisiae**, also known as budding yeast, is a species of yeast that has been instrumental in wine-making, baking, and brewing since ancient times. It is one of the most intensively studied eukaryotic [[Model Organisms]] in molecular and cell biology.
+**Saccharomyces cerevisiae**, budding yeast, is a unicellular fungus central to baking, brewing, and wine-making for millennia, and one of the most intensively studied eukaryotic [[Model Organisms]] in molecular and cell biology. Its small genome, facile genetics, and conserved core pathways make it a powerful system for chromatin and aging research.
+
+## Experimental Advantages
+
+Yeast is amenable to rapid gene knockouts, reporter assays, and high-throughput screens. Two complementary aging metrics are used: **replicative aging** (number of daughter cells a mother produces before senescence) and **chronological aging** (viability of stationary-phase cells over time). Both reveal conserved longevity mechanisms.
+
+## Role in Chromatin and Silencing
+
+Yeast was the birthplace of silencing biology. The [[Sirtuin]] [[Silent Mating-Type Information Regulation|Sir2]] catalyzes NAD+-dependent deacetylation of histones H3/H4 at the mating-type (HM) loci, telomeres, and rDNA, establishing heterochromatin that represses transcription. This work founded the [[Sirtuin]] field and linked protein acetylation to chromatin state.
 
 ## Role in Aging Research
-- Used to study replicative and chronological aging.
-- Key discoveries: Identification of [[Sirtuins|Sir2]] and the effects of [[Caloric Restriction]].
 
-## Related
-- [[Model Organisms]]
-- [[Aging]]
-- [[Sirtuins]]
+A landmark discovery was that [[Caloric Restriction]]—reducing glucose availability—extends both replicative and chronological lifespan in yeast, and that this extension requires Sir2. The finding that Sir2 activation mediates CR benefits launched the sirtuin-aging field and spurred studies of NAD+ metabolism across organisms. Yeast also revealed TOR/Sch9 ([[mTOR]] orthologs) and mitochondrial retrograde responses as longevity regulators.
 
 ## Connections
 
-- [[Model Organisms]]: It is one of the most intensively studied eukaryotic Model Organisms in molecular and cell biology.
-- [[Sirtuins]]: - Key discoveries: Identification of Sir2 and the effects of [[Caloric Restriction]].
-- [[Caloric Restriction]]: - Key discoveries: Identification of [[Sirtuins|Sir2]] and the effects of Caloric Restriction.
-- [[Aging]]: ## Related - [[Model Organisms]] - Aging - [[Sirtuins]]
+- [[Model Organisms]]: One of the most studied eukaryotic models.
+- [[Sirtuin]]: Sir2, the founding sirtuin, was characterized in yeast.
+- [[Caloric Restriction]]: A conserved lifespan-extending intervention first shown in yeast.
+- [[Silent Mating-Type Information Regulation]]: The Sir2-dependent silencing paradigm.
+- [[Aging]]: Yeast provides replicative and chronological aging models.
+- [[mTOR]]: TOR/Sch9 pathway is a conserved longevity regulator in yeast.
 
 ## Linking Summary
-- New links added: [[Aging]], [[Caloric Restriction]], [[Model Organisms]], [[Sirtuins]]
-- Suggested new entity notes to create: 
-- Strong connections to strengthen: [[Saccharomyces cerevisiae]] ↔ [[Caloric Restriction]], [[Saccharomyces cerevisiae]] ↔ [[Model Organisms]], [[Saccharomyces cerevisiae]] ↔ [[Sirtuins]]
+- New links added: [[Model Organisms]], [[Aging]], [[Sirtuin]], [[Caloric Restriction]], [[Silent Mating-Type Information Regulation]], [[mTOR]]
+- Suggested new entity notes to create: [[Sir2]], [[Sch9]], [[rDNA]]
+- Strong connections to strengthen: [[Saccharomyces cerevisiae]] ↔ [[Caloric Restriction]], [[Saccharomyces cerevisiae]] ↔ [[Sirtuin]]

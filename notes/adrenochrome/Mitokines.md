@@ -1,12 +1,15 @@
 ---
-type: entity
 title: Mitokines
 description: Mitokines are soluble factors (peptides or proteins) secreted by cells
   undergoing mitochondrial stress that can trigger stress responses, such as the Mitochondrial
   Unfolded Protein Response, in dis...
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Biological Molecule
+tags:
+  - Biological Molecule
+  - mitochondria
+aliases: []
 ---
 # Mitokines
 

@@ -1,12 +1,14 @@
 ---
-type: entity
 title: Humanin
 description: Humanin is a 24-amino acid peptide encoded by a cryptic open reading
   frame within the mitochondrial 16S ribosomal RNA gene. It is considered a founding
   member of the class of Mitokines or mitochond...
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Biological Molecule
+tags:
+  - Biological Molecule
+aliases: []
 ---
 # Humanin
 

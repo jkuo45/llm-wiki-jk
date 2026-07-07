@@ -1,6 +1,11 @@
 ---
-type: document
 title: 'Oxidative Stress: Harms and Benefits for Human Health'
+description: Oxidative stress is a phenomenon caused by an imbalance between production
+  and accumulation of oxygen reactive species (ROS) in cells and tissues and the ability
+  of a biological system to detoxify these reactive products. ROS can play, and in
+  fact ...
+type: document
+created: 2026-05-09
 source: https://pmc.ncbi.nlm.nih.gov/articles/PMC5551541/
 author:
 - Gabriele Pizzino
@@ -12,13 +17,9 @@ author:
 - Francesco Squadrito
 - Domenica Altavilla
 - Alessandra Bitto
-created: 2026-05-09
-description: Oxidative stress is a phenomenon caused by an imbalance between production
-  and accumulation of oxygen reactive species (ROS) in cells and tissues and the ability
-  of a biological system to detoxify these reactive products. ROS can play, and in
-  fact ...
 tags:
   - "clippings"
+aliases: []
 ---
 
 . 2017 Jul 27;2017:8416763. doi: [10.1155/2017/8416763](https://doi.org/10.1155/2017/8416763)

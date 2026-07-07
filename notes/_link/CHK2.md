@@ -1,12 +1,14 @@
 ---
-type: entity
 title: CHK2
 description: CHK2 (Checkpoint Kinase 2, CHEK2) is a Serine/Threonine Kinase that functions
   as a DNA Damage checkpoint protein in the Cell Cycle. It is activated by ATM in
   response to Double-Strand Breaks (DSBs)...
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Enzyme
+tags:
+  - Enzyme
+aliases: []
 ---
 # CHK2
 

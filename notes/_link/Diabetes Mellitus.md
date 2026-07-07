@@ -1,12 +1,14 @@
 ---
-type: entity
 title: Diabetes Mellitus
 description: Diabetes Mellitus is a group of metabolic diseases characterized by high
   blood sugar levels (Hyperglycemia) over a prolonged period. Chronic hyperglycemia
   leads to increased production of Reactive ...
+type: entity
 created: 2026-05-29
 updated: 2026-05-29
-entity_type_1: Medical Condition
+tags:
+  - Medical Condition
+aliases: []
 ---
 # Diabetes Mellitus
 Diabetes Mellitus is a group of metabolic diseases characterized by high blood sugar levels ([[Hyperglycemia]]) over a prolonged period. Chronic hyperglycemia leads to increased production of [[Reactive Oxygen Species]] in the [[Mitochondria]], resulting in systemic [[Oxidative Stress]] and micro/macrovascular complications.

@@ -1,13 +1,15 @@
 ---
-
-type: entity
 title: Mitohormesis
 description: 'Mitohormesis is a biological process where low-level mitochondrial
   stress (e.g., mild Oxidative Stress) triggers adaptive cytoprotective responses
   that increase resilience and lifespan. Exercis...'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Scientific Concept
+tags:
+  - Scientific Concept
+  - mitochondria
+  - mitohormesis
 aliases: [Mitochondrial hormesis, Mitohormetic effect]
 
 ---

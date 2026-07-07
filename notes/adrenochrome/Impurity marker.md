@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: Impurity marker
 description: An Impurity marker is a chemical substance of known structure that
   is used to identify an impurity in a pharmaceutical substance or drug product.
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Laboratory Standard
-
+tags:
+  - Laboratory Standard
+aliases: []
 ---
 
 # Impurity marker

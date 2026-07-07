@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: Complex IV
 description: 'Complex IV (cytochrome c oxidase) is the terminal enzyme of the
   Mitochondria electron transport chain. It catalyzes the transfer of electrons from
   cytochrome c to oxygen, reducing O₂ to H₂O and...'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Enzyme
+tags:
+  - Enzyme
 aliases: [Cytochrome c oxidase, COX, Complex IV]
 
 ---

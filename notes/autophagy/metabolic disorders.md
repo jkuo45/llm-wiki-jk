@@ -1,12 +1,14 @@
 ---
-type: entity
 title: metabolic disorders
 description: Metabolic disorders are conditions that disrupt normal metabolism; many
   of these, including steatosis and diabetic kidney disease, are associated with lysosomal
   dysfunction and can be improved by t...
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Medical Condition
+tags:
+  - Medical Condition
+aliases: []
 ---
 # metabolic disorders
 

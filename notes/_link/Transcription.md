@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: Transcription
 description: 'Transcription is the first step of gene expression, in which a particular
   segment of DNA is copied into RNA by the enzyme RNA polymerase.'
+type: entity
 created: 2024-01-01
 updated: 2024-01-01
-entity_type_1: Biological Process
-
+tags:
+  - Biological Process
+aliases: []
 ---
 
 # Transcription

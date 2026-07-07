@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: HO-1
 description: 'Heme oxygenase 1 (HO-1) is a stress-inducible enzyme that catalyzes
   the rate-limiting step in heme degradation, producing biliverdin, carbon monoxide
   (CO), and ferrous iron (Fe²⁺). It is a key ...'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Enzyme
+tags:
+  - Enzyme
 aliases: [Heme oxygenase 1, HMOX1, Hsp32]
 database_ids:
   mesh: D051060

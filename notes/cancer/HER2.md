@@ -1,14 +1,14 @@
 ---
-
-type: entity
 title: HER2
 description: 'Human epidermal growth factor receptor 2 (HER2; also known as ErbB-2
   or CD340) is a protein encoded by the *ERBB2* gene. It is a member of the epidermal
   growth factor receptor (EGFR/ErbB) family.'
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Receptor
-
+tags:
+  - Receptor
+aliases: []
 ---
 
 # HER2

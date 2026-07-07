@@ -1,14 +1,14 @@
 ---
-
-type: entity
 title: Neurodegenerative Diseases
 description: 'Neurodegenerative Diseases are a group of disorders characterized
   by the progressive loss of structure or function of neurons, including death of
   neurons. Aging is the single most significant r...'
+type: entity
 created: 2026-05-29
 updated: 2026-05-29
-entity_type_1: Medical Condition
-
+tags:
+  - Medical Condition
+aliases: []
 ---
 
 # Neurodegenerative Diseases

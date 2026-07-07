@@ -1,12 +1,14 @@
 ---
-type: entity
 title: Glucose
 description: Glucose is a simple sugar with the molecular formula C6H12O6. It is a
   primary source of energy for cells and a key reactant in the Maillard Reaction leading
   to the formation of Advanced Glycation E...
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Chemical Compound
+tags:
+  - Chemical Compound
+aliases: []
 ---
 # Glucose
 

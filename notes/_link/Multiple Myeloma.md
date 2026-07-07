@@ -1,11 +1,12 @@
 ---
-type: entity
 title: Multiple Myeloma
 description: Multiple myeloma is a cancer that forms in a type of white blood cell
   called a plasma cell.
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: NA
+tags:
+  - Medical Condition
 aliases: [Multiple Myeloma]
 ---
 # Multiple Myeloma

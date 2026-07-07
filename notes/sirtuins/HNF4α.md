@@ -1,12 +1,13 @@
 ---
-type: entity
 title: HNF4α
 description: HNF4α (Hepatocyte Nuclear Factor 4 Alpha, encoded by HNF4A) is an orphan
   nuclear receptor and master transcriptional regulator of hepatocyte differentiation,
   liver metabolism, and lipid homeostasis...
+type: entity
 created: 2026-07-04
-updated: 2026-07-04
-entity_type_1: Protein
+updated: 2026-07-07
+tags:
+  - Protein
 aliases:
   - HNF4A
   - Hepatocyte Nuclear Factor 4 Alpha
@@ -16,14 +17,17 @@ aliases:
 
 
 
-
 # HNF4α
 
 **HNF4α** (Hepatocyte Nuclear Factor 4 Alpha, encoded by *HNF4A*) is an orphan nuclear receptor and master transcriptional regulator of hepatocyte differentiation, liver metabolism, and lipid homeostasis. It governs the expression of a large network of genes involved in gluconeogenesis, fatty acid oxidation, lipoprotein assembly, and bile acid synthesis.
 
-## Structure and Mechanism
+## Structure & Mechanism
 
-HNF4α binds DNA as a homodimer recognizing direct repeat motifs (DR1) in target gene promoters. It constitutively binds coactivators (PGC-1α, SRC-1) and lacks a conventional ligand, instead being regulated by post-translational modifications including phosphorylation, acetylation, and [[O-GlcNAcylation]].
+HNF4α binds DNA as a homodimer recognizing direct repeat motifs (DR1) in target gene promoters. It constitutively binds coactivators ([[PGC-1α]], SRC-1) and lacks a conventional ligand, instead being regulated by post-translational modifications including phosphorylation, acetylation, and [[O-GlcNAcylation]]. Its conformational state and interaction with coactivators/corepressors determine the transcriptional output of hepatic metabolic programs.
+
+## Physiological Role
+
+HNF4α is induced during endodermal commitment and is required for hepatocyte maturation. It maintains the adult liver metabolic identity, regulating genes for apolipoproteins, cytochromes (CYP), and glycolytic/gluconeogenic enzymes. It also functions in pancreatic β-cells, where it supports glucose-stimulated insulin secretion.
 
 ## Regulation by SIRT2
 
@@ -31,7 +35,7 @@ HNF4α binds DNA as a homodimer recognizing direct repeat motifs (DR1) in target
 
 ## Clinical Relevance
 
-*HNF4A* mutations cause [[MODY1]] (Maturity-Onset Diabetes of the Young type 1), underscoring its essential role in glucose-stimulated insulin secretion and hepatic glucose homeostasis. SIRT2 activators or NAD+ boosters may upregulate HNF4α activity, offering a therapeutic entry point for fatty liver disease.
+*HNF4A* mutations cause [[MODY1]] (Maturity-Onset Diabetes of the Young type 1), underscoring its essential role in glucose-stimulated insulin secretion and hepatic glucose homeostasis. SIRT2 activators or NAD+ boosters may upregulate HNF4α activity, offering a therapeutic entry point for fatty liver disease and β-cell dysfunction in [[Type 2 Diabetes Mellitus]].
 
 ## Connections
 

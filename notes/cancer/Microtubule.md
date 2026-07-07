@@ -1,12 +1,14 @@
 ---
-type: entity
 title: Microtubule
 description: Microtubules are critical for the formation of the mitotic spindle during
   cell division. Because Cancer cells divide rapidly, microtubules are a major target
   for chemotherapy.
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Medical Condition
+tags:
+  - Medical Condition
+aliases: []
 ---
 # Microtubule
 

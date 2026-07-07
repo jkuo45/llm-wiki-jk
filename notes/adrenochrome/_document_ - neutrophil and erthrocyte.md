@@ -1,12 +1,13 @@
 ---
-type: document
 title: adrenochrome neutrophil and erthrocyte
-source: https://x.com/i/grok?conversation=2058754535729049865
-created: 2026-05-24
 description: Grok is a free AI assistant designed by xAI to maximize truth and objectivity.
   Grok offers real-time search, image generation, trend analysis, and more.
+type: document
+created: 2026-05-24
+source: https://x.com/i/grok?conversation=2058754535729049865
 tags:
   - clippings
+aliases: []
 ---
 
 where is [[Adrenochrome]] found - type of cells?

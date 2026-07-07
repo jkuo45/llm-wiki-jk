@@ -1,13 +1,14 @@
 ---
-
-type: entity
 title: Peroxiredoxin
 description: 'Peroxiredoxins (Prx) are a family of antioxidant enzymes that reduce
   Hydrogen Peroxide, Peroxynitrite, and organic hydroperoxides. They are regenerated
   by Thioredoxin.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Enzyme
+tags:
+  - Enzyme
+  - oxidative stress
 aliases: [Prx, PRDX, Thioredoxin peroxidase]
 
 ---

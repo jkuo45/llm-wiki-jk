@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: OGG1
 description: 'OGG1 (8-oxoguanine DNA glycosylase 1) is a bifunctional glycosylase
   that initiates the Base Excision Repair pathway by recognizing and excising 8-oxo-2''-deoxyguanosine
   (8-oxoG), the most abunda...'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Enzyme
+tags:
+  - Enzyme
 aliases: [8-oxoguanine DNA glycosylase, HMM1, OGH1, MUTM homolog]
 database_ids:
   uniprot: O15527

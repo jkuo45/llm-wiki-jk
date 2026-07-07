@@ -1,12 +1,14 @@
 ---
-type: entity
 title: Actinobacteria
 description: Actinobacteria is a phylum of Gram-positive bacteria with high guanine
   and cytosine content in their DNA, playing diverse roles in the environment and
   the human gut.
+type: entity
 created: 2024-01-01
 updated: 2024-01-01
-entity_type_1: Microorganism
+tags:
+  - Microorganism
+aliases: []
 ---
 # Actinobacteria
 Actinobacteria is a phylum of Gram-positive bacteria with high guanine and cytosine content in their DNA, playing diverse roles in the environment and the human gut.

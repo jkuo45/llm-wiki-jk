@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: Omi/HtrA2
 description: 'Omi/HtrA2 (High temperature requirement protein A2) is a serine
   protease that is released from the mitochondrial intermembrane space during Apoptosis.'
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Enzyme
-
+tags:
+  - Enzyme
+aliases: []
 ---
 
 # Omi/HtrA2

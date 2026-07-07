@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: Omi HtrA2
 description: 'Omi/HtrA2 is a mitochondrial serine Protease with dual functions:
   it maintains Mitochondria proteostasis at low concentrations and promotes Apoptosis
   when released into the Cytosol.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-06
-entity_type_1: Protein
+tags:
+  - Protein
 aliases: [HtrA2, High Temperature Requirement Protein A2, Serine Protease HTRA2]
 
 ---

@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: CPS1 (Carbamoyl Phosphate Synthase 1)
 description: 'Carbamoyl Phosphate Synthase 1 (CPS1) is a mitochondrial enzyme
   that catalyzes the first and rate-limiting step of the urea cycle, converting ammonia
   and bicarbonate into carbamoyl phosphate. A...'
+type: entity
 created: 2026-07-06
 updated: 2026-07-03
-entity_type_1: Enzyme
+tags:
+  - Enzyme
 aliases: [carbamoyl phosphate synthase 1, carbamoyl-phosphate synthase (ammonia), mitochondrial]
 
 predicate: associated_with

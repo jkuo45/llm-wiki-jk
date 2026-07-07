@@ -1,14 +1,14 @@
 ---
-
-type: entity
 title: DNA Replication Stress
 description: 'DNA Replication Stress describes a state of inefficient or stalled
   DNA Replication fork progression caused by impediments such as nucleotide depletion,
   DNA lesions, RNA-DNA hybrids (R-loops), t...'
+type: entity
 created: 2024-01-01
 updated: 2024-07-04
-entity_type_1: Scientific Concept
-
+tags:
+  - Scientific Concept
+aliases: []
 ---
 
 # DNA Replication Stress

@@ -1,13 +1,15 @@
 ---
-
-type: entity
 title: Autophagic Lysosome Reformation
 description: 'Autophagic Lysosome Reformation (ALR) is a mechanism by which functional
   Lysosomes are regenerated from Autolysosomes following the degradation of autophagic
   cargo, a process regulated by mTOR,...'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Biological Process
+tags:
+  - Biological Process
+  - autophagy
+  - lysosome
 aliases: [ALR]
 
 ---

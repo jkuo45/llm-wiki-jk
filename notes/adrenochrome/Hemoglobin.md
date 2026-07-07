@@ -1,11 +1,13 @@
 ---
-type: entity
 title: Hemoglobin
 description: '- Methemoglobin: An oxidized form of hemoglobin (Fe³⁺) that cannot transport
   oxygen.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Protein
+tags:
+  - Protein
+aliases: []
 ---
 # Hemoglobin
 

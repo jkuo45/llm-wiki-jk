@@ -1,14 +1,15 @@
 ---
-
-type: entity
 title: Euchromatin
 description: 'Euchromatin is the lightly packed, transcriptionally active form
   of Chromatin. It is characterized by high levels of Histone Acetylation and low
   levels of DNA methylation, which keep the DNA ac...'
+type: entity
 created: 2024-01-01
 updated: 2024-01-01
-entity_type_1: Biological Molecule
-
+tags:
+  - Biological Molecule
+  - epigenetics
+aliases: []
 ---
 
 # Euchromatin

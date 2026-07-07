@@ -1,11 +1,13 @@
 ---
-type: entity
 title: Trehalose
 description: Trehalose is a natural disaccharide that induces TFEB-mediated autophagy
   and has been shown to attenuate mitochondrial dysfunction in various disease models.
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Chemical Compound
+tags:
+  - Chemical Compound
+aliases: []
 ---
 # Trehalose
 

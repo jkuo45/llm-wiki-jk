@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Hemoglobin M
 description: '- Methemoglobinemia: HbM disease is a hereditary type.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Protein
+tags:
+  - Protein
+aliases: []
 ---
 # Hemoglobin M
 

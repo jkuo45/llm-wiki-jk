@@ -1,19 +1,6 @@
 ---
-type: document
 title: From the regulatory mechanism of TFEB to its therapeutic implications - Cell
   Death Discovery
-source: https://www.nature.com/articles/s41420-024-01850-6
-author:
-- Huixia Chen
-- Siqiao Gong
-- Hongyong Zhang
-- Yongming Chen
-- Yonghan Liu
-- Junfeng Hao
-- Huafeng Liu
-- Xiaoyu Li
-published: 2024-02-15
-created: 2026-06-03
 description: Transcription factor EB (TFEB), known as a major transcriptional regulator
   of the autophagy-lysosomal pathway, regulates target gene expression by binding
   to coordinated lysosomal expression and regulation (CLEAR Element) elements. TFEB
@@ -25,8 +12,22 @@ description: Transcription factor EB (TFEB), known as a major transcriptional re
   diseases, and Inflammation. In this review, we aimed to elucidate the regulatory
   mechanism of TFEB and its applications in several disease models by targeting the
   regulation of TFEB as a treatment strategy.
+type: document
+published: 2024-02-15
+created: 2026-06-03
+source: https://www.nature.com/articles/s41420-024-01850-6
+author:
+- Huixia Chen
+- Siqiao Gong
+- Hongyong Zhang
+- Yongming Chen
+- Yonghan Liu
+- Junfeng Hao
+- Huafeng Liu
+- Xiaoyu Li
 tags:
   - "clippings"
+aliases: []
 ---
 
 ## Abstract

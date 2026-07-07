@@ -1,12 +1,14 @@
 ---
-type: entity
 title: MiT
 description: MiT (Microphthalmia/TFE family) refers to a family of basic helix-loop-helix
   leucine zipper transcription factors that includes MiTF (MITF), TFEB, TFE3, and
   TFEC. These proteins regulate Lysosomal ...
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Medical Condition
+tags:
+  - Medical Condition
+aliases: []
 ---
 # MiT
 

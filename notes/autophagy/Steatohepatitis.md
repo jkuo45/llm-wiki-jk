@@ -1,12 +1,13 @@
 ---
-type: entity
 title: Steatohepatitis
 description: Steatohepatitis is a type of fatty liver disease characterized by inflammation;
   targeting TFEB via drugs like Ezetimibe can ameliorate this condition by promoting
   autophagic clearance.
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Medical Condition
+tags:
+  - Medical Condition
 aliases: [NASH, nonalcoholic steatohepatitis]
 ---
 # Steatohepatitis

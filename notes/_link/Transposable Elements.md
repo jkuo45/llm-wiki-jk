@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: Transposable Elements
 description: 'Transposable elements (TEs), also known as ''jumping genes,'' are
   DNA sequences that can change their position within a genome.'
+type: entity
 created: 2024-01-01
 updated: 2024-01-01
-entity_type_1: Biological Molecule
-
+tags:
+  - Biological Molecule
+aliases: []
 ---
 
 # Transposable Elements

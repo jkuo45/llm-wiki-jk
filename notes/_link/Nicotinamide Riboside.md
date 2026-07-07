@@ -1,12 +1,14 @@
 ---
-type: entity
 title: Nicotinamide Riboside
 description: Nicotinamide Riboside (NR) is a naturally occurring pyridine nucleoside
   form of vitamin B3 (niacin) and a direct precursor to NAD+ (nicotinamide adenine
   dinucleotide). NR is phosphorylated by nicot...
+type: entity
 created: 2026-07-04
 updated: 2026-07-05
-entity_type_1: Metabolite
+tags:
+  - Metabolite
+  - NAD+
 aliases:
   - Nicotinamide Riboside
   - NR

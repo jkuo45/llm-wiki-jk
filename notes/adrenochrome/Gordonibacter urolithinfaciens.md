@@ -1,14 +1,14 @@
 ---
-
-type: entity
 title: Gordonibacter urolithinfaciens
 description: 'Gordonibacter urolithinfaciens is a Gram-positive, anaerobic bacterium
   isolated from the human gut that belongs to the family Eggerthellaceae. It is capable
   of metabolizing Ellagic acid to prod...'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Microorganism
-
+tags:
+  - Microorganism
+aliases: []
 ---
 
 # Gordonibacter urolithinfaciens

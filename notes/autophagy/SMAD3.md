@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: SMAD3
 description: 'SMAD3 (Mothers against decapentaplegic homolog 3) is a receptor-regulated
   SMAD (R-SMAD) transcription factor that mediates signalling from the TGF-β superfamily.
   It is centrally involved in cel...'
+type: entity
 created: 2026-07-04
 updated: 2026-07-05
-entity_type_1: Protein
+tags:
+  - Protein
 aliases: [MADH3, Mothers against decapentaplegic homolog 3, SMAD family member 3]
 database_ids:
   uniprot: P84022

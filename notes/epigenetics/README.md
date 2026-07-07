@@ -1,6 +1,7 @@
 ---
 type: index
 title: Epigenetics notes
+aliases: []
 description: Index of wiki notes for epigenetics
 created: 2026-07-06
 updated: 2026-07-06
@@ -13,7 +14,7 @@ This directory contains notes and research regarding [[Yamanaka Factors]] (OSKM:
 
 ## Maintenance
 
-- Last updated: 04_JUL_2026 12:00 PM PDT
+- Last updated: 07_JUL_2026 12:00 PM PDT
 - Total count of entities: 217
 
 **entity_relevance_score_1 (1-10):** This score measures the centrality of the entity to core epigenetic mechanisms, chromatin regulation, and associated processes like gene expression control, aging, and disease.

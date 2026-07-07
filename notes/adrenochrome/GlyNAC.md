@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: GlyNAC
 description: 'GlyNAC is a nutritional supplement composition consisting of Glycine
   and N-Acetylcysteine (NAC), designed to increase intracellular levels of Glutathione.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Medical Product
-
+tags:
+  - Medical Product
+aliases: []
 ---
 
 # GlyNAC

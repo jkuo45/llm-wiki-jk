@@ -1,19 +1,20 @@
 ---
-type: document
 title: Neuromelanin, one of the most overlooked molecules in modern medicine, is not
   a spectator
-source: https://pmc.ncbi.nlm.nih.gov/articles/PMC5399705/
-author:
-- Robert L Haining
-- Cindy Achat-Mendes
-published: 2017
-created: 2026-06-11
 description: The loss of pigmented neurons from the human brain has long been the
   hallmark of Parkinson's disease (PD). Neuromelanin (NM) in the pre-synaptic terminal
   of dopamine neurons is emerging as a primary player in the etiology of neurodegenerative
   ...
+type: document
+published: 2017-01-01
+created: 2026-06-11
+source: https://pmc.ncbi.nlm.nih.gov/articles/PMC5399705/
+author:
+- Robert L Haining
+- Cindy Achat-Mendes
 tags:
   - "clippings"
+aliases: []
 ---
 
 ## Abstract

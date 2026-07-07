@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: SREBP-1c
 description: 'SREBP-1c (sterol regulatory element-binding protein 1c) is a basic
   helix-loop-helix leucine zipper transcription factor that regulates genes involved
   in Lipid Synthesis, particularly Fatty acid...'
+type: entity
 created: 2026-07-04
 updated: 2026-07-06
-entity_type_1: Protein
+tags:
+  - Protein
 aliases: [SREBF1, Sterol Regulatory Element-Binding Protein 1c, SREBP-1]
 
 ---

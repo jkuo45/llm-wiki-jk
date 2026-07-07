@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: Progerin
 description: 'Progerin is a truncated, farnesylated version of the Lamin A protein.
   It is the primary molecular driver of **Hutchinson-Gilford Progeria Syndrome** (HGPS).'
+type: entity
 created: 2024-01-01
 updated: 2024-01-01
-entity_type_1: Protein
-
+tags:
+  - Protein
+aliases: []
 ---
 
 # Progerin

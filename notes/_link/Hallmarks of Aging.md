@@ -1,11 +1,13 @@
 ---
-type: entity
 title: Hallmarks of Aging
 description: The hallmarks of aging are the biochemical changes that occur in all
   organisms as they age and lead to a progressive loss of physiological integrity.
+type: entity
 created: 2024-01-01
 updated: 2024-01-01
-entity_type_1: Scientific Concept
+tags:
+  - Scientific Concept
+aliases: []
 ---
 # Hallmarks of Aging
 The hallmarks of aging are the biochemical changes that occur in all organisms as they age and lead to a progressive loss of physiological integrity.

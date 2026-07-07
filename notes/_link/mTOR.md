@@ -1,14 +1,14 @@
 ---
-
-type: entity
 title: mTOR
 description: 'mTOR (Mechanistic Target of Rapamycin) is a protein kinase that
   serves as a central ''master regulator'' of cellular metabolism. It integrates signals
   from nutrients, growth factors, and energy s...'
+type: entity
 created: 2026-05-31
 updated: 2026-05-31
-entity_type_1: Protein
-
+tags:
+  - Protein
+aliases: []
 ---
 
 # mTOR

@@ -1,7 +1,12 @@
 ---
-type: document
 title: 'Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance:
   Current Knowledge and Prospects'
+description: Urolithin A (UA) is a naturally occurring compound derived from the metabolism
+  of gut microbiota, which has attracted considerable research attention due to its
+  pharmacological effects and potential implications in muscle health and performance.
+  ...
+type: document
+created: 2026-06-20
 source: https://pmc.ncbi.nlm.nih.gov/articles/PMC10609777/
 author:
 - Haotian Zhao
@@ -12,13 +17,9 @@ author:
 - Xiaoneng Song
 - Yijie Xie
 - Chang Liu
-created: 2026-06-20
-description: Urolithin A (UA) is a naturally occurring compound derived from the metabolism
-  of gut microbiota, which has attracted considerable research attention due to its
-  pharmacological effects and potential implications in muscle health and performance.
-  ...
 tags:
   - "clippings"
+aliases: []
 ---
 . 2023 Oct 19;15(20):4441. doi: [10.3390/nu15204441](https://doi.org/10.3390/nu15204441)
 

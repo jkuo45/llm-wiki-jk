@@ -1,12 +1,12 @@
 ---
-
-type: entity
 title: Cardiomyocyte
 description: 'Overview: Cardiomyocyte is a specialized cellular or anatomical
   structure with defined functions in tissue organization and physiology.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Cell Type
+tags:
+  - Cell Type
 aliases: [Cardiac Myocyte, Heart Muscle Cell]
 
 ---

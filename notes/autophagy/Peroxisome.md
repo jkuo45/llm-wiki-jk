@@ -1,12 +1,14 @@
 ---
-type: entity
 title: Peroxisome
 description: Peroxisomes are small, membrane-bound organelles found in nearly all
   eukaryotic cells. They play essential roles in lipid metabolism, particularly the
   Beta-Oxidation of very long-chain fatty acids,...
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Scientific Concept
+tags:
+  - Scientific Concept
+aliases: []
 ---
 # Peroxisome
 

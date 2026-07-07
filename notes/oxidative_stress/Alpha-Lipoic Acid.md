@@ -1,17 +1,20 @@
 ---
-type: entity
 title: Alpha-Lipoic Acid
 description: Alpha-lipoic acid (ALA) is a sulfur-containing compound that acts as
   a potent "universal" antioxidant due to its ability to function in both water-soluble
   and fat-soluble environments.
+type: entity
 created: 2026-05-09
 updated: 2026-07-04
-entity_type_1: Chemical Compound
+tags:
+  - oxidative stress
+  - antioxidant
+  - mitochondria
+  - Chemical Compound
 aliases:
   - ALA
   - thioctic acid
   - 6,8-dithiooctanoic acid
-tags: [oxidative_stress, antioxidant, mitochondria]
 ---
 # Alpha-Lipoic Acid
 

@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: Metabolic Reprogramming
 description: '- Aerobic Glycolysis: Also known as the Warburg Effect, where cells
   prefer Glycolysis even in the presence of oxygen.'
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Enzyme
-
+tags:
+  - Enzyme
+aliases: []
 ---
 
 # Metabolic Reprogramming

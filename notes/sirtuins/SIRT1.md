@@ -1,13 +1,14 @@
 ---
-
-type: entity
 title: SIRT1
 description: 'Sirt1 is a NAD+-dependent class III histone deacetylase (sirtuin)
   and the most extensively characterized member of the Sirtuins family. It links cellular
   energy status to chromatin regulation, ...'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: NA
+tags:
+  - Enzyme
+  - NAD+
 aliases: [Sirt1]
 
 ---

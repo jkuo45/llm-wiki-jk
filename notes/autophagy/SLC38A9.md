@@ -1,32 +1,45 @@
 ---
-
-type: entity
 title: SLC38A9
-description: 'SLC38A9 is a lysosomal amino acid transporter that functions as
-  an arginine sensor, interacting with the Ragulator and Rag proteins complex to activate
-  mTORC1 in response to intralysosomal nutr...'
+description: SLC38A9 is a lysosomal sodium-coupled amino acid transporter that functions as an arginine/lysine sensor, signaling via the Ragulator-Rag complex to activate mTORC1 and suppress autophagy.
+type: entity
 created: 2026-07-04
-updated: 2026-07-04
-entity_type_1: Transporter
-aliases: [sodium-coupled amino acid transporter 9]
-
+updated: 2026-07-07
+tags:
+  - Transporter
+  - autophagy
+aliases:
+  - sodium-coupled amino acid transporter 9
+  - SNAT9
 ---
 
 # SLC38A9
 
-**SLC38A9** is a lysosomal amino acid transporter that functions as an arginine sensor, interacting with the [[Ragulator]] and [[Rag proteins]] complex to activate [[mTORC1]] in response to intralysosomal nutrient levels.
+**SLC38A9** is a lysosomal membrane-resident sodium-coupled amino acid transporter that functions as a key nutrient sensor. It binds and transports cationic amino acids—principally arginine and lysine—from the lysosomal lumen and, critically, acts as an arginine sensor that engages the [[Ragulator]]–[[Rag proteins]] complex to activate [[mTORC1]] in response to intralysosomal nutrient levels. Through this role, SLC38A9 gates the nutrient-dependent switch between anabolism and [[Autophagy]].
 
-## Function
+## Structure & Transport Mechanism
 
-SLC38A9 is a lysosomal amino acid transporter that effluxes arginine from the lysosome to signal to [[mTORC1]] via the [[Ragulator]]-[[Rag proteins]] complex.
+SLC38A9 is a member of the SLC38 family of Na+-coupled neutral and cationic amino acid transporters, but uniquely localizes to the lysosome rather than the plasma membrane. It uses the inward Na+ gradient to import arginine/lysine into the cytosol and, in its sensor capacity, allosterically communicates lysosomal arginine availability to Ragulator. Cryo-EM structures show a canonical LeuT-fold transporter architecture with a lysosomal-facing binding site that distinguishes cationic residues.
+
+## Signaling to mTORC1
+
+When luminal arginine is present, SLC38A9 promotes GTP-loading of RagA/B by Ragulator, recruiting [[mTORC1]] to the lysosomal surface where it is activated by [[Rheb]]; autophagy is suppressed. Amino acid starvation or SLC38A9 loss reduces Rag activation, dissociates mTORC1, and de-represses [[TFEB]]/TFE3 to induce lysosomal biogenesis and autophagic flux. SLC38A9 thus sits at the apex of the amino acid–mTORC1–autophagy axis alongside the v-ATPase–Ragulator platform.
+
+## Physiological & Pathological Relevance
+
+SLC38A9 is essential for mTORC1 reactivation after starvation refeeding and for coupling lysosomal degradation to growth control. Its dysregulation perturbs metabolic homeostasis in [[Cancer]] and contributes to lysosomal storage and [[Aging]]-related decline when amino acid sensing is blunted. SLC38A9 is also a candidate node for pharmacologic modulation of autophagic flux.
 
 ## Connections
 
-- [[Ragulator]]: **SLC38A9** is a lysosomal amino acid transporter that functions as an arginine sensor, interacting with the Ragulato...
-- [[Rag proteins]]: **SLC38A9** is a lysosomal amino acid transporter that functions as an arginine sensor, interacting with the [[Ragula...
-- [[mTORC1]]: **SLC38A9** is a lysosomal amino acid transporter that functions as an arginine sensor, interacting with the [[Ragula...
+- [[Ragulator]]: Direct partner sensing arginine via SLC38A9.
+- [[Rag proteins]]: Activated downstream of SLC38A9.
+- [[mTORC1]]: Activated in response to lysosomal arginine.
+- [[Rheb]]: Downstream lysosomal mTORC1 activator.
+- [[TFEB]]: De-repressed when SLC38A9 signaling is off.
+- [[Lysosome]]: Resident organelle and sensing compartment.
+- [[Autophagy]]: Suppressed by SLC38A9–mTORC1 signaling.
 
 ## Linking Summary
-- New links added: [[Lysosome]], [[Ragulator]], [[Rag proteins]], [[mTORC1]]
-- Suggested new entity notes to create: 
+
+- New links added: [[Rheb]], [[TFEB]], [[Lysosome]]
+- Suggested new entity notes to create: [[Lysosomal arginine sensing]], [[SLC38 family]]
 - Strong connections to strengthen: [[SLC38A9]] ↔ [[mTORC1]]

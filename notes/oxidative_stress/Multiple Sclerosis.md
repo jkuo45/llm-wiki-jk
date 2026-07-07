@@ -1,14 +1,17 @@
 ---
-type: entity
 title: Multiple Sclerosis
 description: Multiple sclerosis (MS) is a demyelinating disease in which the insulating
   covers of nerve cells in the brain and spinal cord are damaged. Chronic Inflammation
   and Oxidative Stress contribute to th...
+type: entity
 created: 2026-05-09
 updated: 2026-07-04
-entity_type_1: Medical Condition
+tags:
+  - oxidative stress
+  - neurodegeneration
+  - autoimmune
+  - Medical Condition
 aliases: [MS, disseminated sclerosis]
-tags: [oxidative_stress, neurodegeneration, autoimmune]
 ---
 # Multiple Sclerosis
 Multiple sclerosis (MS) is a demyelinating disease in which the insulating covers of nerve cells in the brain and spinal cord are damaged. Chronic [[Inflammation]] and [[Oxidative Stress]] contribute to the process of [[Demyelination]], leading to progressive neurological impairment.

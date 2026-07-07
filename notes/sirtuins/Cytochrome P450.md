@@ -1,16 +1,14 @@
 ---
-
-type: entity
 title: Cytochrome P450
 description: 'Cytochrome P450 (CYP450) is a superfamily of heme-containing Enzyme
   that catalyze the phase I metabolism of endogenous compounds (steroids, fatty acids,
   vitamins) and xenobiotics (drugs, toxins...'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Enzyme
+tags:
+  - Enzyme
 aliases: [CYP450, CYP]
-tags: [sirtuins, drug_metabolism, resveratrol]
-
 ---
 
 # Cytochrome P450

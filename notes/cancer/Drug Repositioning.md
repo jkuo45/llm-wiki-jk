@@ -1,12 +1,14 @@
 ---
-type: entity
 title: Drug Repositioning
 description: Drug repositioning (also known as drug repurposing) refers to the process
   of identifying new therapeutic indications for drugs that have already been approved
   for clinical use.
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Medical Condition
+tags:
+  - Medical Condition
+aliases: []
 ---
 # Drug Repositioning
 

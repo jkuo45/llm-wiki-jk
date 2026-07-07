@@ -1,12 +1,14 @@
 ---
-type: entity
 title: Catalase
 description: Catalase is a key antioxidant enzyme that catalyzes the decomposition
   of Hydrogen Peroxide into water and oxygen. It is a critical component of the cell's
   defense against Oxidative Stress.
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: NA
+tags:
+  - Enzyme
+  - antioxidant
 aliases: [Catalase]
 ---
 # Catalase

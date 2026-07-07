@@ -1,12 +1,14 @@
 ---
-type: entity
 title: Methyl Donor
 description: Methyl donors are compounds that provide a labile methyl group (−CH₃)
   for methylation reactions in One-Carbon Metabolism. The principal methyl donor is
   SAMe (S-adenosylmethionine), which transfers ...
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Enzyme
+tags:
+  - Enzyme
+aliases: []
 ---
 # Methyl Donor
 

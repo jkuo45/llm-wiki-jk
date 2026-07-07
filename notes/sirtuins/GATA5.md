@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: GATA5
 description: 'GATA5 (GATA Binding Protein 5) is a member of the GATA family of
   zinc-finger transcription factors (GATA1–6) that bind the consensus motif (A/T)GATA(A/G).
   GATA5 is expressed predominantly in th...'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Protein
+tags:
+  - Protein
 aliases: [GATA5, GATA Binding Protein 5, GATA transcription factor 5]
 
 sources:

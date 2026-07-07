@@ -1,14 +1,14 @@
 ---
-
-type: entity
 title: Myeloperoxidase
 description: 'Myeloperoxidase (MPO) is a heme-containing enzyme primarily found
   in the azurophilic granules of Neutrophils. It plays a critical role in the innate
   immune system''s ability to kill pathogens.'
+type: entity
 created: 2026-05-29
 updated: 2026-05-29
-entity_type_1: Enzyme
-
+tags:
+  - Enzyme
+aliases: []
 ---
 
 # Myeloperoxidase

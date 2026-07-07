@@ -1,12 +1,16 @@
 ---
-type: entity
 title: Manganese superoxide dismutase
 description: Manganese superoxide dismutase (MnSOD) is a mitochondrial antioxidant
   enzyme that converts superoxide radicals into hydrogen peroxide, playing a complex
   role in Mitohormesis and longevity.
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Enzyme
+tags:
+  - Enzyme
+  - antioxidant
+  - oxidative stress
+aliases: []
 ---
 # Manganese superoxide dismutase
 

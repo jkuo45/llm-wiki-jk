@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: Lipoxygenase
 description: 'Lipoxygenases (LOXs) are a family of iron-containing enzymes that
   catalyze the dioxygenation of Polyunsaturated fatty acids to produce lipid hydroperoxides.
   They play roles in Inflammation, Lip...'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Enzyme
+tags:
+  - Enzyme
 aliases: [LOX, Lipoxygenase, ALOX]
 
 ---

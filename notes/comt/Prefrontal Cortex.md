@@ -1,37 +1,55 @@
 ---
-
-type: entity
 title: Prefrontal Cortex
-description: The Prefrontal Cortex (Prefrontal Cortex) is the cerebral cortex
-  which covers the front part of the frontal lobe. This brain region is implicated
-  in complex cognitive behavior, personality expr...
+description: The prefrontal cortex is the frontal association cortex governing executive function, working memory, and personality, with dopamine clearance dependent on COMT and NET.
+type: entity
 created: 2026-05-25
-updated: 2026-07-04
-entity_type_1: Anatomy
+updated: 2026-07-07
+tags:
+  - Anatomy
 aliases: [PFC]
-
 ---
 
 # Prefrontal Cortex
 
-The **[[Prefrontal Cortex]]** ([[Prefrontal Cortex]]) is the cerebral cortex which covers the front part of the frontal lobe. This brain region is implicated in complex cognitive behavior, personality expression, decision making, and moderating social behavior.
+The **[[Prefrontal Cortex]]** ([[PFC]]) is the anterior portion of the frontal lobe, encompassing the dorsolateral, ventromedial, and orbitofrontal subregions. It is the brain's executive hub, governing working memory, planning, inhibitory control, attention, and social cognition, and it modulates personality expression and decision-making.
 
 ## Cognitive Functions
-The [[Prefrontal Cortex]] is essential for:
-- [[Working Memory]]
-- [[Executive Function]]
-- Attention and focus
 
-## Neurotransmitter Regulation
-In the [[Prefrontal Cortex]], the [[Dopamine Transporter]] ([[DAT]]) is less abundant than in the [[Sirtuins]]. Consequently, [[Dopamine]] clearance depends heavily on:
-1. [[COMT]] ([[Catechol-O-methyltransferase]])
-2. [[Norepinephrine transporter]] ([[NET]])
+The [[Prefrontal Cortex]] underpins:
+
+- **[[Working Memory]]** — holding and manipulating information online.
+- **[[Executive Function]]** — planning, task-switching, and cognitive control.
+- **Attention and focus** — sustained and selective engagement.
+- **Emotional regulation** — via connectivity with the amygdala and striatum.
+
+Optimal PFC performance follows an inverted-U relationship with [[Dopamine]]: too little or too much impairs function.
+
+## Neurotransmitter Regulation and COMT Dependence
+
+A defining biochemical feature of the [[Prefrontal Cortex]] is the scarcity of the [[Dopamine Transporter]] ([[DAT]]). Unlike the [[Striatum]], where DAT rapidly clears dopamine, the PFC relies principally on two mechanisms:
+
+1. **[[COMT]] ([[Catechol-O-methyltransferase]])** — locally methylates dopamine and norepinephrine at the synapse, the dominant clearance route.
+2. **[[Norepinephrine transporter]] ([[NET]])** — also clears dopamine in this region because DAT is sparse.
+
+Consequently, genetic variation in [[COMT]], especially the [[Val158Met]] polymorphism, strongly influences PFC dopamine tone. The Met (slow) allele preserves higher dopamine, benefiting certain memory tasks but increasing anxiety risk; the Val (fast) allele lowers dopamine, impairing efficiency unless boosted (e.g., by [[Modafinil]]).
+
+## Physiological and Pathological Relevance
+
+PFC dopamine dysregulation is central to [[Schizophrenia]] (hypofrontality, working-memory deficits), [[ADHD]], and age-related cognitive decline ([[Aging]]). Because COMT activity is itself modulated by methyl-donor availability ([[Methylfolate]], [[MethylB12]], [[SAMe]]), PFC function sits at the intersection of genetics and nutrition.
 
 ## Connections
-- [[Working Memory]]: A key cognitive process managed by the PFC.
-- [[COMT]]: The primary enzyme for dopamine degradation in this region.
-- [[Sirtuins]]: Works with the PFC in the cortico-basal ganglia loops.
 
----
+- [[Working Memory]]: Key PFC process.
+- [[Executive Function]]: PFC-mediated control.
+- [[COMT]]: Primary enzyme for PFC dopamine degradation.
+- [[Norepinephrine transporter]]: Partner in PFC catechol clearance.
+- [[Dopamine Transporter]]: Sparse in PFC; NET compensates.
+- [[Striatum]]: Reciprocal loops with PFC via basal ganglia.
+- [[Val158Met]]: Polymorphism shaping PFC dopamine.
+- [[Schizophrenia]] / [[ADHD]]: Disorders of PFC dysfunction.
+
 ## Linking Summary
-- New links added: [[Working Memory]], [[Executive Function]], [[Dopamine Transporter]], [[DAT]], [[Sirtuins]], [[Dopamine]], [[COMT]], [[Catechol-O-methyltransferase]], [[Norepinephrine transporter]], [[NET]].
+
+- New links added: [[Prefrontal Cortex|PFC]], [[Working Memory]], [[Executive Function]], [[Dopamine]], [[Dopamine Transporter]], [[DAT]], [[COMT]], [[Catechol-O-methyltransferase]], [[Norepinephrine transporter]], [[NET]], [[Val158Met]], [[Modafinil]], [[Striatum]], [[Schizophrenia]], [[ADHD]], [[Aging]], [[Methylfolate]], [[MethylB12]], [[S-Adenosylmethionine]].
+- Suggested new entity notes to create: [[Orbitofrontal Cortex]], [[Dorsolateral Prefrontal Cortex]], [[Hypofrontality]].
+- Strong connections to strengthen: [[Prefrontal Cortex]] ↔ [[COMT]]; [[Prefrontal Cortex]] ↔ [[Val158Met]].

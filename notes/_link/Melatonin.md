@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: Melatonin
 description: 'Melatonin is a hormone produced by the pineal gland that regulates
   the sleep-wake cycle.'
+type: entity
 created: 2026-05-29
 updated: 2026-05-29
-entity_type_1: Biological Molecule
-
+tags:
+  - Biological Molecule
+aliases: []
 ---
 
 # Melatonin

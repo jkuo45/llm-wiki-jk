@@ -1,12 +1,14 @@
 ---
-type: entity
 title: Microglia
 description: Microglia originate from yolk-sac progenitors during early embryogenesis
   and are maintained throughout life by local self-renewal, independent of circulating
   monocytes.
+type: entity
 created: 2024-01-01
 updated: 2024-01-01
-entity_type_1: Cell Type
+tags:
+  - Cell Type
+aliases: []
 ---
 # Microglia
 [[Microglia]] are the resident macrophages and primary immune cells of the central nervous system. They play a crucial role in maintaining brain homeostasis and responding to injury or infection. In [[Parkinson's Disease]], activated microglia are localized in [[Neuromelanin]]-containing areas and are involved in [[Microgliosis]] and [[Neuronophagia]]. Microglia release [[Cytokines]] and [[Reactive Oxygen Species]] that can contribute to [[Neuroinflammation]] and neurodegeneration.

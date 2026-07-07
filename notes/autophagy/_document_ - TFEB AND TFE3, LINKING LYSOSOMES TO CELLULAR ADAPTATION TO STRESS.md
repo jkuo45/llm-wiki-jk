@@ -1,17 +1,18 @@
 ---
-type: document
 title: TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS
-source: https://pmc.ncbi.nlm.nih.gov/articles/PMC6490169/
-author:
-- Nina Raben
-- Rosa Puertollano
-created: 2026-06-03
 description: In recent years, our vision of lysosomes has drastically changed. From
   being considered as mere degradative compartments, they are now recognized as key
   players in many cellular processes. The ability of lysosomes to respond to different
   stimuli ...
+type: document
+created: 2026-06-03
+source: https://pmc.ncbi.nlm.nih.gov/articles/PMC6490169/
+author:
+- Nina Raben
+- Rosa Puertollano
 tags:
   - "clippings"
+aliases: []
 ---
 
 . Author manuscript; available in PMC: 2019 Apr 30.

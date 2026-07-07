@@ -1,14 +1,14 @@
 ---
-
-type: entity
 title: Extracellular Acidification Rate
 description: 'Extracellular Acidification Rate (ECAR) is a measure of the rate
   of proton efflux from cells into the surrounding medium, primarily serving as an
   indicator of glycolytic activity and metabolic ...'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Analytical Technique
-
+tags:
+  - Analytical Technique
+aliases: []
 ---
 
 # Extracellular Acidification Rate

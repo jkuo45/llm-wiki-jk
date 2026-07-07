@@ -1,12 +1,14 @@
 ---
-type: entity
 title: hPEPT1
 description: The human peptide transporter 1 (hPEPT1) is a proton-coupled peptide
   transporter located in the apical membrane of the intestinal enterocytes. It is
   responsible for the absorption of di- and tripep...
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Transporter
+tags:
+  - Transporter
+aliases: []
 ---
 # hPEPT1
 

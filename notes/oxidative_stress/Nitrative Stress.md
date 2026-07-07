@@ -1,14 +1,17 @@
 ---
-type: entity
 title: Nitrative Stress
 description: Nitrative stress is a condition in which the production of Reactive Nitrogen
   Species exceeds the body's ability to neutralize them, leading to damage to proteins,
   lipids, and DNA. A key mediator is...
+type: entity
 created: 2026-05-09
 updated: 2026-07-04
-entity_type_1: Scientific Concept
+tags:
+  - oxidative stress
+  - RNS
+  - nitric oxide
+  - Scientific Concept
 aliases: [nitrosative stress]
-tags: [oxidative_stress, rns, nitric_oxide]
 ---
 # Nitrative Stress
 Nitrative stress is a condition in which the production of [[Reactive Nitrogen Species]] exceeds the body's ability to neutralize them, leading to damage to proteins, lipids, and DNA. A key mediator is [[Peroxynitrite]], which is formed from the reaction of [[Nitric Oxide]] and superoxide.

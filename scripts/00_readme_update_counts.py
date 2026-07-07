@@ -232,22 +232,22 @@ def main():
     total_files, total_size, total_words = get_dir_size_and_count(notes_dir)
 
     topics_table = [
-        "| topic | wiki | updated | documents | entities | words | disk |",
-        "| :--- | :--- | :--- | :---: | :---: | :---: | :---: |",
+        "| topic | updated | documents | entities | words | disk | wiki |",
+        "| :--- | :--- | :---: | :---: | :---: | :---: | :--- |",
     ]
     total_entities = 0
     total_docs = 0
     for t in topic_data:
         topic_gh = f"https://github.com/jkuo45/llm-wiki/tree/dev/{urllib.parse.quote(notes_dir + '/' + t['topic'], safe='/')}"
-        topic_obsidian = f"[[notes/{t['topic']}/README\\|notes]]"
+        topic_obsidian = f"[[notes/{t['topic']}/README\\|link]]"
         topics_table.append(
-            f"| [{t['topic']}]({topic_gh}) | {topic_obsidian} | {t['last_updated']} | {t['documents']} | {t['entities']} | {format_number(t['words'])} | {format_size(t['disk_size'])} |"
+            f"| [{t['topic']}]({topic_gh}) | {t['last_updated']} | {t['documents']} | {t['entities']} | {format_number(t['words'])} | {format_size(t['disk_size'])} | {topic_obsidian} |"
         )
         total_entities += t["entities"]
         total_docs += t["documents"]
-    topics_table.append("| --- | --- | --- | ---: | ---: | ---: | ---: |")
+    topics_table.append("| --- | --- | ---: | ---: | ---: | ---: | --- |")
     topics_table.append(
-        f"| **subtotal** | | {max(t['last_updated'] for t in topic_data)} | **{total_docs}** | **{total_entities}** | **{format_number(total_words)}** | **{format_size(total_size)}** |"
+        f"| **subtotal** | {max(t['last_updated'] for t in topic_data)} | **{total_docs}** | **{total_entities}** | **{format_number(total_words)}** | **{format_size(total_size)}** | |"
     )
 
     docs_table = [

@@ -1,13 +1,15 @@
 ---
-
-type: entity
 title: Lysosomal Acid Lipase
 description: 'Lysosomal Acid Lipase (LAL; also known as LipA in mice)
   is a critical enzyme that hydrolyzes cholesteryl esters and triglycerides delivered
   to the Lysosome via Lipophagy or endocytosis.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Enzyme
+tags:
+  - Enzyme
+  - autophagy
+  - lysosome
 aliases: [LAL, LIPA]
 
 ---

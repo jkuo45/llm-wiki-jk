@@ -1,11 +1,12 @@
 ---
-type: entity
 title: FoxO1
 description: Transcription factor regulated by Akt that controls gluconeogenesis,
   adipogenesis, and beta-cell function.
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Protein
+tags:
+  - Protein
 aliases: [Forkhead Box O1]
 ---
 # FoxO1

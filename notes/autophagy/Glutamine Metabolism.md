@@ -1,12 +1,14 @@
 ---
-type: entity
 title: Glutamine Metabolism
 description: Glutamine metabolism is the biochemical utilization of glutamine; in
   Pancreatic Cancer, TFEB supports tumor growth by transcriptionally upregulating
   Glutaminase to meet metabolic demands.
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Biological Process
+tags:
+  - Biological Process
+aliases: []
 ---
 # Glutamine Metabolism
 

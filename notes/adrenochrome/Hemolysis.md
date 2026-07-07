@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Hemolysis
 description: '- G6PD deficiency: Patients are prone to trigger-induced hemolysis.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Biological Process
+tags:
+  - Biological Process
+aliases: []
 ---
 # Hemolysis
 

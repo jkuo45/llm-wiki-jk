@@ -1,14 +1,17 @@
 ---
-type: entity
 title: Xanthine Oxidase
 description: Xanthine oxidase (XO) is a form of the enzyme xanthine oxidoreductase
   that catalyzes the oxidation of hypoxanthine to xanthine and xanthine to uric acid.
   It is a significant biological source of Re...
+type: entity
 created: 2026-05-09
 updated: 2026-07-04
-entity_type_1: Enzyme
+tags:
+  - oxidative stress
+  - superoxide
+  - uric acid
+  - Enzyme
 aliases: [XO, xanthine oxidoreductase, XOR]
-tags: [oxidative_stress, superoxide, uric_acid]
 ---
 # Xanthine Oxidase
 
@@ -68,5 +71,5 @@ XO inhibitors are classified into three generations. **First-generation** ([[All
 
 ## Emerging Roles in Metabolism and Signaling
 
-Recent evidence indicates that XO plays roles beyond purine catabolism. Under [[Hypoxia|hypoxic]] conditions, XO can function as a [[Nitrate Reductase|nitrate reductase]], reducing [[nitrite]] (NO2−) to [[Nitric Oxide]] (NO), providing an alternative source of NO when NOS enzymes are inactive (due to low O2 or BH4 deficiency). This nitrite-reductase activity of XO is enhanced at acidic pH and under [[Hypoxia|hypoxia]], conditions typical of [[Ischemia-reperfusion Injury|ischemic tissues]]. XO also modulates [[Adipogenesis|adipogenesis]] through ROS-mediated [[PPARγ]] regulation, and its expression is upregulated in [[Adipose Tissue|adipose tissue]] of obese individuals, linking [[Metabolic Syndromes|obesity]] to systemic oxidative stress. In the gut, XO activity contributes to the mucosal barrier through [[Hydrogen Peroxide|H2O2]]-mediated antimicrobial activity, and its expression is regulated by gut microbial [[Metabolites]] including [[Butyrate|butyrate]]. This places XO at a critical intersection between [[Gut Microbiome|microbiome]] composition, purine metabolism, and host redox state — a rapidly evolving area of research.
+Recent evidence indicates that XO plays roles beyond purine catabolism. Under [[Hypoxia|hypoxic]] conditions, XO can function as a [[Nitrate Reductase|nitrate reductase]], reducing [[nitrite]] (NO2−) to [[Nitric Oxide]] (NO), providing an alternative source of NO when NOS enzymes are inactive (due to low O2 or BH4 deficiency). This nitrite-reductase activity of XO is enhanced at acidic pH and under [[Hypoxia|hypoxia]], conditions typical of [[Ischemia-reperfusion Injury|ischemic tissues]]. XO also modulates [[adipogenesis|adipogenesis]] through ROS-mediated [[PPARγ]] regulation, and its expression is upregulated in [[Adipose Tissue|adipose tissue]] of obese individuals, linking [[Metabolic Syndromes|obesity]] to systemic oxidative stress. In the gut, XO activity contributes to the mucosal barrier through [[Hydrogen Peroxide|H2O2]]-mediated antimicrobial activity, and its expression is regulated by gut microbial [[Metabolites]] including [[Butyrate|butyrate]]. This places XO at a critical intersection between [[Gut Microbiome|microbiome]] composition, purine metabolism, and host redox state — a rapidly evolving area of research.
 

@@ -21,7 +21,7 @@
 - Use uv for all python executables.
 - **On ingest of a file within a topic**: Extract/update triples into the topic's `_triples_<topic>.json`, then regenerate the corresponding `.svg` and `.dot` visualizations to `notes/<topic>/` (alongside the triples file). (See Subject Object Relation Triples section below.)
 
-## Single Document Ingestion Workflow
+## Document Ingestion Workflow:
 
 **Prerequisites:** Document in `raw/` with `_document_` prefix.
 
@@ -112,24 +112,27 @@ When creating or updating a note, include the following frontmatter block. Refer
 Frontmatter:
 
 - **Date format**: frontmatter `created:` / `updated:` must use `YYYY-MM-DD`, _not_ the project display format (`DD_MMMM_YYYY`).
-- **Quoting**: Prefer unquoted scalar values (`entity_type_1: Enzyme`, not `entity_type_1: "Enzyme"`). Use quotes only when required (e.g., values containing colons or special characters).
+- **Quoting**: Prefer unquoted scalar values. Use quotes only when required (e.g., values containing colons or special characters).
 - **Duplicate YAML keys**: No key should appear twice at the same indentation level.
 - **No wiki links in frontmatter**: Frontmatter values must be plain text only. Never use `[[Wiki Link]]` or `[[Link|Display]]` syntax inside YAML fields. Obsidian does not render wiki links in frontmatter, and they leak into non-body context.
+- **Tags casing convention**: `entity_type_1` is NOT stored as a frontmatter field — its value lives only inside the `tags` list. Within `tags`, apply this casing rule:
+  - **Capitalize the `entity_type_1` value** exactly as listed in the `entity_type_1` schema below (e.g. `Protein`, `Chemical Compound`, `Medical Condition`). This is the only Title-case entry and identifies the entity's primary category.
+  - **Lowercase all topical/domain tags** (cross-cutting relevance tags). The standard domain tags are: `oxidative stress`, `antioxidant`, `mitochondria`, `autophagy`, `epigenetics`, `inflammation`, `apoptosis`. Other topical tags (e.g. `glycation`, `senescence`) also use lowercase.
+  - Example: `tags: [Enzyme, antioxidant, mitochondria]` — `Enzyme` is the capitalized type, the rest are lowercase topical tags.
 
 ---
 
 **Entity frontmatter**
 
-type: entity # [entity | document | index]
 title: # Name of entity, index of topic, name of document, etc.
 description: # Short description (if chat thread, summarize)
+type: entity # [entity | document | index]
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
-entity_type_1: # Refer to entity_type_1 schema
+tags: [] # Populate with entity_type_1, relevant biomedical tags
 url: #
 source: #
 aliases: [] # Alternative names, abbreviations, acronyms
-tags: [] #
 
 ---
 
@@ -137,14 +140,14 @@ tags: [] #
 
 ---
 
-type: document
 title: # Full title of the source document, if chat thread rename
-source: # URL/DOI of the original source
-author: [] # List of authors
+description: # Short summary of the document, if chat thread summarize
+type: document
 published: YYYY-MM-DD # Original publication date
 created: YYYY-MM-DD # Date ingested into the vault
-description: # Short summary of the document, if chat thread summarize
-tags: [] #
+source: # URL/DOI of the original source
+author: [] # List of authors
+tags: [] # Populate with relevant entity_type_1, biomedical tags
 
 ---
 
@@ -156,13 +159,16 @@ tags: [] #
 
 ## Connections
 
-  - Entity Name - short description
+  - Entity Name: Short description
 
 ## Linking Summary:
 
   - New links added: [[Entity1]], [[Entity2]], ...
   - Suggested new entity notes to create: [[Missing Concept]]
   - Strong connections to strengthen: [[Note A]] ↔ [[Note B]]
+
+  - Justification for suggested new entities and strong connections to strengthen.
+
 ```
 
 ## Orphan Link Resolution (on user request):
@@ -293,4 +299,7 @@ To maintain consistency, all entity notes should include an `entity_type_1` fiel
 | **Pharmacokinetic Parameter** | Quantitative ADME properties.                                        | [[Half-life]], [[Volume of distribution]], [[Bioavailability]]            |
 | **Model Organism**            | Species or strains used in research.                                 | [[Rattus norvegicus]], [[Zebrafish]], [[Knockout mouse]]                  |
 | Organization                  | Public, private sector organizations                                 | [[Merck & Co. Inc]], [[GlaxoSmithKline]]                                  |
+| Person                        | Individual people (researchers, clinicians, historical figures).     | [[Abram Hoffer]], [[Humphry Osmond]]                                      |
+| Peptide                       | Short chains of amino acids distinct from full proteins/enzymes.     | [[Melittin]], [[Glutathione peptide]]                                     |
+| Amino Acid                    | Individual amino acid residues and derivatives.                      | [[Glutamine]], [[L-Glutamine]]                                            |
 | NA                            | If none of the above                                                 |                                                                           |

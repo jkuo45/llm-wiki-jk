@@ -1,11 +1,13 @@
 ---
-type: entity
 title: Schizophrenia
 description: Schizophrenia is a concept related to Adrenochrome and catecholamine
   metabolism.
+type: entity
 created: 2026-05-29
 updated: 2026-05-29
-entity_type_1: Medical Condition
+tags:
+  - Medical Condition
+aliases: []
 ---
 # Schizophrenia
 Schizophrenia is a concept related to [[Adrenochrome]] and catecholamine metabolism.

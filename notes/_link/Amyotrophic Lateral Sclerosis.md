@@ -1,12 +1,14 @@
 ---
-type: entity
 title: Amyotrophic Lateral Sclerosis
 description: Amyotrophic lateral sclerosis (ALS) is a progressive neurodegenerative
   disease that affects nerve cells in the brain and the spinal cord. Oxidative Stress
   is heavily implicated, particularly throug...
+type: entity
 created: 2026-05-29
 updated: 2026-05-29
-entity_type_1: Medical Condition
+tags:
+  - Medical Condition
+aliases: []
 ---
 # Amyotrophic Lateral Sclerosis
 Amyotrophic lateral sclerosis (ALS) is a progressive neurodegenerative disease that affects nerve cells in the brain and the spinal cord. [[Oxidative Stress]] is heavily implicated, particularly through mutations in the [[Superoxide Dismutase]] (SOD1) gene, which lead to mitochondrial impairment and motor neuron death.

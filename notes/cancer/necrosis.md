@@ -1,14 +1,16 @@
 ---
-
-type: entity
 title: necrosis
 description: 'Necrosis (from the Greek nekros, ''dead'') is a form of cell death
   that is characterized by the loss of membrane integrity and the release of intracellular
   contents into the surrounding tissue.'
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Medical Condition
-
+tags:
+  - Medical Condition
+  - apoptosis
+  - oxidative stress
+aliases: []
 ---
 
 # necrosis

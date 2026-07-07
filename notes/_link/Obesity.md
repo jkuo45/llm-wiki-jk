@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: Obesity
 description: 'Obesity is a complex chronic disease characterized by excessive
   adipose tissue accumulation, affecting over 603.7 million adults globally. Obesity
   is associated with chronic inflammation and in...'
+type: entity
 created: 2026-07-05
 updated: 2026-07-05
-entity_type_1: Medical Condition
+tags:
+  - Medical Condition
 aliases: [Adiposity]
 
 ---

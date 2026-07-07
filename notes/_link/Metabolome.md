@@ -1,12 +1,14 @@
 ---
-type: entity
 title: Metabolome
 description: The metabolome is the complete set of small-molecule chemicals, such
   as metabolic intermediates, hormones, and other secondary metabolites, found within
   a biological sample.
+type: entity
 created: 2024-01-01
 updated: 2024-01-01
-entity_type_1: Scientific Concept
+tags:
+  - Scientific Concept
+aliases: []
 ---
 # Metabolome
 The metabolome is the complete set of small-molecule chemicals, such as metabolic intermediates, hormones, and other secondary metabolites, found within a biological sample.

@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: BRCA1
 description: 'BRCA1 (Breast Cancer Gene 1) is a critical tumour suppressor protein
   involved in DNA double-strand break repair, cell cycle checkpoint control, chromatin
   remodelling, and regulation of transcri...'
+type: entity
 created: 2026-07-04
 updated: 2026-07-05
-entity_type_1: Protein
+tags:
+  - Protein
 aliases: [Breast cancer type 1 susceptibility protein, BRCA1 DNA repair associated, RNF53]
 database_ids:
   mesh: D019913

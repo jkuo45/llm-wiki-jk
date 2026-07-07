@@ -1,12 +1,15 @@
 ---
-type: entity
 title: Mitochondrial Dynamics
 description: Mitochondrial dynamics refers to the continuous processes of mitochondrial
   fusion and mitochondrial fission that regulate mitochondrial morphology, number,
   and function within a cell.
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Biological Process
+tags:
+  - Biological Process
+  - mitochondria
+aliases: []
 ---
 # Mitochondrial Dynamics
 

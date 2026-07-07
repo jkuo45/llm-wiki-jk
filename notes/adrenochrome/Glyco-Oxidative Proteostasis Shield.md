@@ -1,14 +1,14 @@
 ---
-
-type: entity
 title: Glyco-Oxidative Proteostasis Shield
 description: The Glyco-Oxidative Proteostasis Shield (GOPS) is a therapeutic strategy
   aimed at combating protein aggregation and the formation of Advanced Glycation End-products
   (AGEs).
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Scientific Concept
-
+tags:
+  - Scientific Concept
+aliases: []
 ---
 
 # Glyco-Oxidative Proteostasis Shield

@@ -1,14 +1,14 @@
 ---
-
-type: entity
 title: Nutlin-3a
 description: 'Nutlin-3a is a potent, selective small-molecule inhibitor of the
   MDM2-p53 interaction. By displacing p53 from MDM2 (the primary E3 ubiquitin ligase
   that targets p53 for proteasomal degradation)...'
+type: entity
 created: 2024-01-01
 updated: 2024-07-04
-entity_type_1: Chemical Compound
-
+tags:
+  - Chemical Compound
+aliases: []
 ---
 
 # Nutlin-3a

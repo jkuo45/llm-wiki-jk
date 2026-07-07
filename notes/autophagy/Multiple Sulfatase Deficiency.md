@@ -1,11 +1,12 @@
 ---
-type: entity
 title: Multiple Sulfatase Deficiency
 description: A rare Lysosomal Storage Diseases caused by the lack of all known sulfatase
   enzymes; treated in models with TFEB.
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Medical Condition
+tags:
+  - Medical Condition
 aliases: [MSD]
 ---
 # Multiple Sulfatase Deficiency

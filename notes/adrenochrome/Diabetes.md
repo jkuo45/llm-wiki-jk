@@ -1,12 +1,14 @@
 ---
-type: entity
 title: Diabetes
 description: Diabetes, also known as diabetes mellitus, is a group of metabolic disorders
   characterized by a high blood sugar level over a prolonged period. It is associated
   with accelerated formation and accum...
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Medical Condition
+tags:
+  - Medical Condition
+aliases: []
 ---
 # Diabetes
 

@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Co-oximetry
 description: '- Methemoglobinemia: Diagnosed definitively via co-oximetry.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Diagnostic Test
+tags:
+  - Diagnostic Test
+aliases: []
 ---
 # Co-oximetry
 

@@ -1,12 +1,14 @@
 ---
-type: entity
 title: Lysine
 description: Lysine is an α-amino acid that is used in the biosynthesis of proteins.
   It is one of the primary amino acids that reacts with reducing sugars in the Maillard
   Reaction to form Advanced Glycation End...
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Chemical Compound
+tags:
+  - Chemical Compound
+aliases: []
 ---
 # Lysine
 

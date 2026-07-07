@@ -1,12 +1,14 @@
 ---
-type: entity
 title: NAD+
 description: NAD+ (Nicotinamide Adenine Dinucleotide) is a critical coenzyme found
   in every cell, essential for energy Metabolism and a vital signaling molecule. It
   serves as an obligatory co-substrate for all ...
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Chemical Compound
+tags:
+  - Chemical Compound
+  - NAD+
 aliases:
   - NAD+
   - nicotinamide adenine dinucleotide

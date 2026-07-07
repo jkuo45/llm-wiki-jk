@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: Protein Tyrosine Phosphatases
 description: 'Protein Tyrosine Phosphatases (PTPs) are a family of enzymes that
   remove phosphate groups from phosphorylated tyrosine residues, counterbalancing
   the activity of protein tyrosine kinases. They ...'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Enzyme
+tags:
+  - Enzyme
 aliases: [PTPs, Protein tyrosine phosphatases, Tyrosine-specific phosphatases]
 
 ---

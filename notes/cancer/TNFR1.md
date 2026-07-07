@@ -1,13 +1,14 @@
 ---
-
-type: entity
 title: TNFR1
 description: 'TNFR1 (Tumor Necrosis Factor Receptor 1), also known as DR1, is
   a major death receptor that mediates the effects of TNF-alpha.'
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Enzyme
-
+tags:
+  - Enzyme
+  - inflammation
+aliases: []
 ---
 
 # TNFR1

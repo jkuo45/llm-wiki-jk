@@ -1,8 +1,9 @@
 ---
-type: document
 title: Caspase
-created: '2026-07-06'
 description: Table of caspase phosphorylation sites and their regulation in cancer
+type: document
+created: 2026-07-06
+aliases: []
 ---
 # Caspase
 

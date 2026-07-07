@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: Bax
 description: 'Bax (Bcl-2-associated X protein) is a key pro-apoptotic member of
   the Bcl-2 family. It plays a critical role in the Intrinsic Pathway of Apoptosis.'
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Enzyme
-
+tags:
+  - Enzyme
+aliases: []
 ---
 
 # Bax

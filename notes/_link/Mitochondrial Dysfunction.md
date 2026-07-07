@@ -1,11 +1,14 @@
 ---
-type: entity
 title: Mitochondrial Dysfunction
 description: Mitochondrial dysfunction is a central feature of Parkinson's Disease
   and is thought to be both a cause and a consequence of other pathological processes.
+type: entity
 created: 2024-01-01
 updated: 2024-01-01
-entity_type_1: Biological Process
+tags:
+  - Biological Process
+  - mitochondria
+aliases: []
 ---
 # Mitochondrial Dysfunction
 [[Mitochondrial Dysfunction]] refers to the impairment of mitochondrial processes, particularly the production of ATP and the regulation of cellular metabolism.

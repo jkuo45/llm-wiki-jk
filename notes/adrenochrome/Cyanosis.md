@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Cyanosis
 description: '- Methemoglobinemia: Frequently presents with cyanosis.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Symptom
+tags:
+  - Symptom
+aliases: []
 ---
 # Cyanosis
 

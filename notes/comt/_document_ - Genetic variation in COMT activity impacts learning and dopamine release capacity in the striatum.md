@@ -1,7 +1,12 @@
 ---
-type: document
 title: Genetic variation in COMT activity impacts learning and dopamine release capacity
   in the striatum
+description: A common genetic polymorphism that results in increased activity of the
+  dopamine regulating enzyme COMT (the COMT Val158 allele) has been found to associate
+  with poorer cognitive performance and increased susceptibility to develop psychiatric
+  ...
+type: document
+created: 2026-05-12
 source: https://pmc.ncbi.nlm.nih.gov/articles/PMC3966542/
 author:
 - Eleanor H Simpson
@@ -16,13 +21,9 @@ author:
 - Paul EM Phillips
 - Christoph Kellendonk
 - Eric R Kandel
-created: 2026-05-12
-description: A common genetic polymorphism that results in increased activity of the
-  dopamine regulating enzyme COMT (the COMT Val158 allele) has been found to associate
-  with poorer cognitive performance and increased susceptibility to develop psychiatric
-  ...
 tags:
   - "clippings"
+aliases: []
 ---
 
 . 2014 Apr;21(4):205–214. doi: [10.1101/lm.032094.113](https://doi.org/10.1101/lm.032094.113)

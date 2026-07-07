@@ -1,16 +1,14 @@
 ---
-
-type: entity
 title: Coenzyme Q10
 description: 'Coenzyme Q10 (CoQ10), also known as ubiquinone, is a naturally
   occurring coenzyme found in every cell of the human body. It plays a critical role
   in cellular energy production and acts as a...'
+type: entity
 created: 2026-05-09
 updated: 2026-07-04
-entity_type_1: Chemical Compound
+tags:
+  - Chemical Compound
 aliases: [CoQ10, ubiquinone, ubiquinol]
-tags: [oxidative_stress, mitochondria, antioxidant]
-
 ---
 
 # Coenzyme Q10

@@ -1,42 +1,52 @@
 ---
-
-type: entity
 title: DNA Methyltransferase
-description: 'DNA Methyltransferase (DNMT) is a family of enzymes responsible
-  for catalyzing the transfer of a methyl group from S-adenosyl-L-methionine (SAM)
-  to the C5 position of cytosine residues, primari...'
-created: 2024-01-01
-updated: 2024-01-01
-entity_type_1: Enzyme
-
+description: 'DNA methyltransferases (DNMTs) are enzymes responsible for establishing and maintaining DNA methylation patterns.'
+type: entity
+created: 2026-07-06
+updated: 2026-07-06
+tags:
+  - epigenetics
+  - Enzyme
+  - methylation
+aliases: [DNMT]
 ---
 
 # DNA Methyltransferase
 
-**[[DNA Methyltransferase]] (DNMT)** is a family of enzymes responsible for catalyzing the transfer of a methyl group from S-adenosyl-L-methionine (SAM) to the C5 position of cytosine residues, primarily in [[CpG Island|CpG dinucleotides]]. This process, known as [[DNA Methylation]], is a cornerstone of epigenetic regulation.
+[[DNA Methyltransferase]], or [[DNMT]], refers to a family of enzymes responsible for the covalent addition of methyl groups to DNA, a central process in [[DNA Methylation]]. They are essential for establishing and maintaining the epigenetic landscape that governs gene expression, genomic imprinting, and cellular identity.
 
-### 1. Types of DNMTs
-In mammals, there are three primary active members:
-*   **[[DNMT1]]**: The "maintenance" methyltransferase. It recognizes hemi-methylated DNA during [[DNA Replication]] and ensures that the methylation pattern is faithfully copied to the new strand.
-*   **[[DNMT3a]] and [[DNMT3b]]**: The "de novo" methyltransferases. They establish new methylation patterns on previously unmethylated DNA, which is crucial during embryonic development and cellular differentiation.
+## Overview
 
-### 2. Impact on [[Aging]]
-The expression and activity of DNMTs often decline with age, contributing to the global hypomethylation observed in older tissues. 
-*   **Reduced Fidelity:** A decline in [[DNMT1]] activity can lead to a loss of methylation patterns during cell division, contributing to epigenetic drift.
-*   **Dysregulation:** Conversely, localized increases or shifts in DNMT activity may contribute to the site-specific hypermethylation seen in aging and [[Cancer]].
+DNMTs are categorized into two main functional classes based on their role in the life cycle of a methylation mark: de novo methyltransferases and maintenance methyltransferases. Together, they ensure that methylation patterns are both established during key developmental stages and faithfully inherited by daughter cells during every round of cell division.
 
-### 3. Therapeutic Potential
-Because DNA methylation is reversible, DNMTs are targets for drug development. DNMT inhibitors (like 5-azacytidine) are used in cancer therapy and are being researched for their potential to modulate the aging process.
+## Mechanism/Function
 
-#
+DNMTs catalyze the transfer of a methyl group from the universal methyl donor, S-adenosyl-L-methionine (SAM), to the 5-position of a cytosine residue, typically within a CpG dinucleotide.
+
+The two primary classes of DNMTs are:
+1. **De novo Methyltransferases (DNMT3a and DNMT3b)**: These enzymes are responsible for establishing new methylation patterns on previously unmethylated DNA. This process is most active during early embryonic development and during the differentiation of stem cells into specialized cell types, where they define the epigenetic programs that drive cellular identity.
+2. **Maintenance Methyltransferase (DNMT1)**: This enzyme is essential for the inheritance of DNA methylation patterns across cell generations. During [[DNA Replication]], the newly synthesized daughter strand is initially unmethylated, resulting in hemimethylated DNA. DNMT1 specifically recognizes these hemimethylated sites and adds a methyl group to the daughter strand, thereby preserving the epigenetic information through successive rounds of division.
+
+The precise regulation of DNMT activity and expression is critical for processes such as genomic imprinting, X-chromosome inactivation, and the silencing of transposable elements.
+
+## Clinical Relevance
+
+Dysregulation of DNMTs is a hallmark of many diseases, particularly [[Cancer]]. In many malignancies, the balance of DNMT activity is disrupted, leading to:
+- **Hypermethylation**: The aberrant overexpression or recruitment of DNMTs can lead to the silencing of tumor suppressor genes, promoting oncogenesis.
+- **Hypomethylation**: Altered DNMT function can also contribute to global hypomethylation, leading to genomic instability and the activation of oncogenes.
+
+Because of their central role in cancer, DNMT inhibitors (such as 5-azacytidine and decitabine) have been developed and are used clinically to treat certain hematological malignancies. These drugs work by inhibiting DNMT activity, thereby inducing the reactivation of silenced tumor suppressor genes.
 
 ## Connections
-- **[[DNA Methylation]]**: The primary process regulated by these enzymes.
-- **[[DNMT1]]**: The maintenance enzyme essential for epigenetic inheritance.
-- **[[DNMT3a]] / [[DNMT3b]]**: Enzymes responsible for creating new epigenetic marks.
-- **[[Aging]]**: DNMT dysregulation is a driver of age-associated epigenetic changes.
 
-## Linking Summary
-- New links added: [[DNA Methyltransferase]], [[CpG Island]], [[DNA Methylation]], [[DNMT1]], [[DNA Replication]], [[DNMT3a]], [[DNMT3b]], [[Aging]], [[Cancer]]
-- Suggested new entity notes to create: [[S-adenosyl-L-methionine]], [[SAM]], [[DNA Methyltransferase Inhibitors]]
-- Strong connections to strengthen: [[DNA Methyltransferase]] ↔ [[DNA Methylation]], [[DNA Methyltransferase]] ↔ [[DNMT1]]
+- [[DNA Methylation]] - DNMTs are the enzymes that execute this process.
+- [[DNA Replication]] - DNMT1 is essential for maintaining methylation during replication.
+- [[Epigenetics]] - DNMTs are fundamental players in epigenetic regulation.
+- [[Cancer]] - Dysregulation of DNMTs is a key driver of tumorigenesis.
+- [[Development]] - DNMT3a/b are critical for establishing methylation during development.
+
+## Linking Summary:
+
+- New links added: [[DNA Methyltransferase]], [[DNA Methylation]], [[DNA Replication]], [[Epigenetics]], [[Cancer]], [[Development]]
+- Suggested new entity notes to create: [[S-adenosyl-L-methionine]], [[DNMT1]], [[DNMT3a]], [[DNMT3b]]
+- Strong connections to strengthen: [[DNA Methyltransferase]] ↔ [[DNA Methylation]]

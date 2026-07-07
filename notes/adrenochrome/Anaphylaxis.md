@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: Anaphylaxis
 description: 'Anaphylaxis is a serious, potentially life-threatening allergic
   reaction that occurs quickly after exposure to an allergen.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Medical Condition
-
+tags:
+  - Medical Condition
+aliases: []
 ---
 
 # Anaphylaxis

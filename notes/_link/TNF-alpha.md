@@ -1,11 +1,13 @@
 ---
-type: entity
 title: TNF-α
 description: Pro-inflammatory cytokine involved in systemic inflammation and the acute
   phase response.
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Protein
+tags:
+  - Protein
+  - inflammation
 aliases: [Tumor Necrosis Factor Alpha, TNF-alpha, TNFA]
 ---
 # TNF-α

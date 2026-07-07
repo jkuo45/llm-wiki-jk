@@ -1,14 +1,15 @@
 ---
-
-type: entity
 title: Bcl-2 family
 description: The Bcl-2 family of proteins consists of both pro-apoptotic and anti-apoptotic
   members that regulate the Intrinsic Pathway of Apoptosis. They are characterized
   by the presence of Bcl-2 homology...
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Medical Condition
-
+tags:
+  - Medical Condition
+  - apoptosis
+aliases: []
 ---
 
 # Bcl-2 family

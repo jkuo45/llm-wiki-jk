@@ -1,13 +1,14 @@
 ---
-
-type: entity
 title: Nicotinamide
 description: 'Nicotinamide (NAM), also known as niacinamide, is the amide
   form of **vitamin B3** (niacin). It is an essential precursor in the **NAD⁺ salvage
   pathway** and a critical regulator of sirtuin...'
+type: entity
 created: 2026-07-04
 updated: 2026-07-05
-entity_type_1: Chemical Compound
+tags:
+  - Chemical Compound
+  - NAD+
 aliases: [NAM, Niacinamide, Vitamin B3, Nicotinic acid amide]
 database_ids:
   mesh: D009536

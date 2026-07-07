@@ -1,14 +1,14 @@
 ---
-
-type: entity
 title: Ellagic acid
 description: 'Ellagic acid is a natural polyphenolic compound found in numerous
   fruits and vegetables. It is released from the hydrolysis of Ellagitannins during
   digestion and is subsequently metabolized by ...'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Chemical Compound
-
+tags:
+  - Chemical Compound
+aliases: []
 ---
 
 # Ellagic acid

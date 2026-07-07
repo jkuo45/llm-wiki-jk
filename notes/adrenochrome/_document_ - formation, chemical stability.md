@@ -1,11 +1,12 @@
 ---
-type: document
 title: adrenochrome - formation, chemical stability
-source: https://aistudio.google.com/u/0/prompts/1dRO36_hNUA6IkRsYL0Sq9fBKp3hjnLGQ
-created: 2026-05-17
 description: 4,561 tokens
+type: document
+created: 2026-05-17
+source: https://aistudio.google.com/u/0/prompts/1dRO36_hNUA6IkRsYL0Sq9fBKp3hjnLGQ
 tags:
   - clippings
+aliases: []
 ---
 
 4,561 tokens

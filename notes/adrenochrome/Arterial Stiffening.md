@@ -1,12 +1,14 @@
 ---
-type: entity
 title: Arterial Stiffening
 description: Arterial stiffening is a consequence of aging and various diseases, characterized
   by the loss of elasticity in the arterial walls, often promoted by Advanced Glycation
   End Products cross-linking wi...
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Medical Condition
+tags:
+  - Medical Condition
+aliases: []
 ---
 # Arterial Stiffening
 

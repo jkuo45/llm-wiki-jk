@@ -1,6 +1,11 @@
 ---
-type: document
 title: Ivermectin, a potential anticancer drug derived from an antiparasitic drug
+description: Ivermectin has powerful antitumor effects, including the inhibition of
+  proliferation, metastasis, and angiogenic activity, in a variety of cancer cells.
+  This may be related to the regulation of multiple signaling pathways by ivermectin
+  through PAK1 ...
+type: document
+created: 2026-05-19
 source: https://pmc.ncbi.nlm.nih.gov/articles/PMC7505114/
 author:
 - Mingyang Tang
@@ -12,13 +17,9 @@ author:
 - Fuying Cheng
 - Jiangyan Li
 - Qiang Fang
-created: 2026-05-19
-description: Ivermectin has powerful antitumor effects, including the inhibition of
-  proliferation, metastasis, and angiogenic activity, in a variety of cancer cells.
-  This may be related to the regulation of multiple signaling pathways by ivermectin
-  through PAK1 ...
 tags:
   - "clippings"
+aliases: []
 ---
 
 . 2020 Sep 21;163:105207. doi: [10.1016/j.phrs.2020.105207](https://doi.org/10.1016/j.phrs.2020.105207)

@@ -1,14 +1,17 @@
 ---
-type: entity
 title: Nitric Oxide Synthase
 description: Nitric oxide synthases (NOSs) are a family of enzymes catalyzing the
   production of Nitric Oxide (NO) from L-arginine. They play a vital role in vascular
   tone and neurotransmission, and their dysfun...
+type: entity
 created: 2026-05-09
 updated: 2026-07-04
-entity_type_1: Enzyme
+tags:
+  - oxidative stress
+  - nitric oxide
+  - vasodilation
+  - Enzyme
 aliases: [NOS, NO synthase]
-tags: [oxidative_stress, nitric_oxide, vasodilation]
 ---
 # Nitric Oxide Synthase
 Nitric oxide synthases (NOSs) are a family of enzymes catalyzing the production of [[Nitric Oxide]] (NO) from [[L-arginine]]. They play a vital role in vascular tone and neurotransmission, and their dysfunction is often associated with [[Endothelial Dysfunction]].

@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: DNA Repair
 description: 'DNA repair refers to the collection of processes by which a cell
   identifies and corrects damage to the DNA molecules that encode its genome.'
+type: entity
 created: 2026-05-29
 updated: 2026-05-29
-entity_type_1: Biological Process
-
+tags:
+  - Biological Process
+aliases: []
 ---
 
 # DNA Repair

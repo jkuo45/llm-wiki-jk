@@ -1,12 +1,12 @@
 ---
-
-type: entity
 title: Plasma Membrane
 description: 'Overview: Plasma Membrane is a specialized cellular or anatomical
   structure with defined functions in tissue organization and physiology.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-06
-entity_type_1: Anatomy
+tags:
+  - Anatomy
 aliases: [Cell Membrane]
 
 ---

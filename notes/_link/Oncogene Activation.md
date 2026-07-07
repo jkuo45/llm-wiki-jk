@@ -1,12 +1,14 @@
 ---
-type: entity
 title: Oncogene Activation
 description: Oncogene activation refers to the processes by which a Proto-Oncogene
   is converted into an Oncogene, acquiring the ability to promote Cancer. Mechanisms
   include point mutations (e.g., RAS G12V, BRA...
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Medical Condition
+tags:
+  - Medical Condition
+aliases: []
 ---
 # Oncogene Activation
 

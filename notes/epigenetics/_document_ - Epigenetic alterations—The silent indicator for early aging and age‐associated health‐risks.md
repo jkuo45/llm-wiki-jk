@@ -1,19 +1,20 @@
 ---
-type: document
 title: Epigenetic alterations—The silent indicator for early aging and age‐associated
   health‐risks
+description: Aging is the process of gradual physiological deterioration till death
+  and this process perpetually reduce the functionality of an individual. To address
+  the rationale and provide geriatric care, the constant target of geroscience is
+  to identify ...
+type: document
+created: 2026-05-13
 source: https://pmc.ncbi.nlm.nih.gov/articles/PMC9805292/
 author:
 - Poulami Dhar
 - Shailaja S Moodithaya
 - Prakash Patil
-created: 2026-05-13
-description: Aging is the process of gradual physiological deterioration till death
-  and this process perpetually reduce the functionality of an individual. To address
-  the rationale and provide geriatric care, the constant target of geroscience is
-  to identify ...
 tags:
   - "clippings"
+aliases: []
 ---
 
 ## Abstract

@@ -1,16 +1,14 @@
 ---
-
-type: entity
 title: Stilbene
 description: 'Stilbenes are a class of Polyphenols organic compounds characterized
   by a 1,2-diphenylethylene Stilbene (a central ethene bridge connecting two aromatic
   rings). They exist as both *cis* and *tr...'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Chemical Class
+tags:
+  - Chemical Class
 aliases: [Stilbenoids]
-tags: [sirtuins, polyphenols, resveratrol]
-
 ---
 
 # Stilbene

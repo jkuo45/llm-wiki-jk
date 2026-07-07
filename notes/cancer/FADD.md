@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: FADD
 description: 'FADD (Fas-associated via death domain) is a critical adaptor protein
   that bridges death receptors to initiator caspases in the Extrinsic Pathway of Apoptosis.'
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Enzyme
-
+tags:
+  - Enzyme
+aliases: []
 ---
 
 # FADD

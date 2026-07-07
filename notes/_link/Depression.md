@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: Depression
 description: 'Depression (major depressive disorder) is a common and serious mood
   disorder characterized by persistent sadness, loss of interest, and impaired function.
   It has complex neurobiological underpi...'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Medical Condition
+tags:
+  - Medical Condition
 aliases: [Major depressive disorder, MDD, Clinical depression]
 
 ---

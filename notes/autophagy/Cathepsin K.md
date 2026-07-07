@@ -1,11 +1,12 @@
 ---
-type: entity
 title: Cathepsin K
 description: A lysosomal cysteine protease involved in bone resorption and degradation
   of extracellular matrix.
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Enzyme
+tags:
+  - Enzyme
 aliases: [CTSK]
 ---
 # Cathepsin K
@@ -22,7 +23,7 @@ Cathepsin K is highly expressed in [[Osteoclast]]s, where it is secreted into th
 Expression is transcriptionally regulated by [[MITF]], [[TFEB]], and [[PU.1]] in osteoclasts. Cathepsin K activity is tightly controlled by pH (optimal at acidic pH ~4-5) and by endogenous inhibitors including [[cystatin C]] and [[serpin]]s. [[NO]] and [[NO]]-derived species can S-nitrosylate the active site cysteine, reversibly inhibiting activity.
 
 ## Pathology & Clinical Relevance
-Loss-of-function mutations in the CTSK gene cause [[Pycnodysostosis]], an autosomal recessive osteosclerotic skeletal dysplasia characterized by short stature, osteosclerosis, and acro-osteolysis. Overexpression and elevated activity contribute to pathological bone resorption in [[Osteoporosis]], [[Rheumatoid Arthritis]], and [[Bone Metastases]]. Cathepsin K is also implicated in [[Adipogenesis]], [[Inflammation]], and [[Cancer Invasion]].
+Loss-of-function mutations in the CTSK gene cause [[Pycnodysostosis]], an autosomal recessive osteosclerotic skeletal dysplasia characterized by short stature, osteosclerosis, and acro-osteolysis. Overexpression and elevated activity contribute to pathological bone resorption in [[Osteoporosis]], [[Rheumatoid Arthritis]], and [[Bone Metastases]]. Cathepsin K is also implicated in [[adipogenesis]], [[Inflammation]], and [[Cancer Invasion]].
 
 ## Therapeutic Targeting
 Selective cathepsin K inhibitors (e.g., [[Odanacatib]], [[Balicatib]]) were developed for osteoporosis treatment. Odanacatib reached Phase III clinical trials but was discontinued due to increased risk of cardiovascular events (stroke). Off-target effects on cathepsin K expressed in vascular walls and metabolic tissues may underlie these adverse effects.
@@ -41,9 +42,9 @@ Selective cathepsin K inhibitors (e.g., [[Odanacatib]], [[Balicatib]]) were deve
 - [[Osteoporosis]]: Overexpression and elevated activity contribute to pathological bone resorption in Osteoporosis, [[Rheumatoid Arthrit...
 - [[Rheumatoid Arthritis]]: Overexpression and elevated activity contribute to pathological bone resorption in [[Osteoporosis]], Rheumatoid Arthr...
 - [[Bone Metastases]]: Overexpression and elevated activity contribute to pathological bone resorption in [[Osteoporosis]], [[Rheumatoid Art...
-- [[Adipogenesis]]: Cathepsin K is also implicated in Adipogenesis, [[Inflammation]], and [[Cancer Invasion]].
-- [[Inflammation]]: Cathepsin K is also implicated in [[Adipogenesis]], Inflammation, and [[Cancer Invasion]].
-- [[Cancer Invasion]]: Cathepsin K is also implicated in [[Adipogenesis]], [[Inflammation]], and Cancer Invasion.
+- [[adipogenesis]]: Cathepsin K is also implicated in Adipogenesis, [[Inflammation]], and [[Cancer Invasion]].
+- [[Inflammation]]: Cathepsin K is also implicated in [[adipogenesis]], Inflammation, and [[Cancer Invasion]].
+- [[Cancer Invasion]]: Cathepsin K is also implicated in [[adipogenesis]], [[Inflammation]], and Cancer Invasion.
 - [[Odanacatib]]: ## Therapeutic Targeting Selective cathepsin K inhibitors (e.g., Odanacatib, [[Balicatib]]) were developed for osteop...
 - [[Balicatib]]: ## Therapeutic Targeting Selective cathepsin K inhibitors (e.g., [[Odanacatib]], Balicatib) were developed for osteop...
 

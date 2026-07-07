@@ -1,41 +1,52 @@
 ---
-
-type: entity
 title: Epigenetics
-description: 'Epigenetics refers to the study of heritable changes in gene expression
-  or cellular phenotype that do not involve alterations to the underlying DNA sequence.
-  These changes are essentially ''tags...'
+description: 'Epigenetics refers to the study of heritable changes in gene expression or cellular phenotype that do not involve alterations to the underlying DNA sequence.'
+type: entity
 created: 2024-01-01
-updated: 2024-01-01
-entity_type_1: Scientific Concept
-
+updated: 2026-07-06
+tags:
+  - Scientific Concept
+  - epigenetics
+aliases: []
 ---
 
 # Epigenetics
 
 **[[Epigenetics]]** refers to the study of heritable changes in gene expression or cellular phenotype that do not involve alterations to the underlying DNA sequence. These changes are essentially "tags" on the DNA or the proteins around which DNA is wrapped, acting as a set of instructions that tell the cell which genes to turn on or off.
 
-### 1. Key Mechanisms
-The three most well-studied epigenetic mechanisms are:
-*   **[[DNA Methylation]]**: The addition of methyl groups to DNA, typically leading to gene silencing.
-*   **[[Histone Modification]]**: Changes to the proteins (histones) that package DNA, which can either open or close the [[Chromatin]] structure.
-*   **[[Non-coding RNA]]**: Molecules like [[MicroRNA]] that can regulate gene expression post-transcriptionally.
+## Key Mechanisms
 
-### 2. Role in Development and [[Aging]]
-Epigenetics is what allows a single fertilized egg to develop into hundreds of different cell types (like neurons, muscle cells, and skin cells), all of which share the same genome but have different "epigenomes." As we age, these epigenetic patterns can become disrupted—a process known as epigenetic drift—leading to the cellular dysfunction associated with [[Aging]].
+The three best-studied epigenetic mechanisms are:
 
-### 3. Environmental Influence
-Unlike the static genome, the [[Epigenome]] is highly dynamic and can be influenced by diet, stress, exercise, and exposure to toxins. This makes epigenetics the primary interface between our genes and our environment.
+- **[[DNA Methylation]]**: Addition of methyl groups to cytosines (typically CpG dinucleotides), generally leading to gene silencing and mediated by [[DNMT1]], [[DNMT3a]], and [[DNMT3b]].
+- **[[Histone Modification]]**: Covalent marks on histone tails — acetylation, methylation, phosphorylation, ubiquitination — that open or close [[Chromatin]]. Writers include [[Histone Acetyltransferase]], [[Histone Deacetylase]], and [[Histone Methyltransferase]].
+- **[[Non-Coding RNA]]**: Molecules such as [[MicroRNA]] and piRNAs that regulate gene expression transcriptionally and post-transcriptionally.
 
-#
+Additional layers include nucleosome positioning, higher-order chromatin architecture (topologically associating domains), and [[Chromatin Remodeling]] by ATP-dependent complexes such as those containing [[CHD4]].
+
+## Role in Development and Aging
+
+Epigenetics enables a single fertilized egg to generate hundreds of cell types — all sharing one genome but carrying distinct [[Epigenome]] states. As organisms [[Aging|age]], these patterns become disrupted, a process known as [[Epigenetic Drift]], contributing to cellular dysfunction and the epigenetic component of aging. Notably, an [[Epigenetic Clock]] can estimate biological age from methylation.
+
+## Environmental Influence
+
+Unlike the largely static genome, the [[Epigenome]] is dynamic and responsive to diet, stress, exercise, [[Caloric Restriction]], toxins, and social environment — making epigenetics the principal interface between genes and environment, and a target for [[Rejuvenation]] strategies.
+
+## Clinical and Research Relevance
+
+Epigenetic dysregulation underlies [[Cancer]] (silencing of tumor suppressors, global hypomethylation), neurodevelopmental and psychiatric disorders, and metabolic disease. Epigenetic therapies (DNMT and HDAC inhibitors) are clinically approved, and epigenetic editing (dCas9-DNMT/CRISPRoff) is an active research frontier.
 
 ## Connections
-- **[[Epigenome]]**: The collective state of all epigenetic marks in a cell.
-- **[[Aging]]**: Epigenetic changes are a core hallmark of the aging process.
-- **[[DNA Methylation]]**: A primary mechanism of epigenetic regulation.
-- **[[Histone Modification]]**: A mechanism that controls the accessibility of the genome.
+
+- [[Epigenome]] — The collective state of all epigenetic marks in a cell.
+- [[Aging]] — Epigenetic changes are a core hallmark of aging.
+- [[DNA Methylation]] — A primary mechanism of epigenetic regulation.
+- [[Histone Modification]] — Controls accessibility of the genome.
+- [[Chromatin]] — The substrate on which epigenetic marks act.
+- [[Non-Coding RNA]] — Post-transcriptional epigenetic regulators.
 
 ## Linking Summary
-- New links added: [[Epigenetics]], [[DNA Methylation]], [[Histone Modification]], [[Chromatin]], [[Non-coding RNA]], [[MicroRNA]], [[Aging]], [[Epigenome]]
-- Suggested new entity notes to create: [[Epigenetic Drift]], [[Chromatin Remodeling]], [[Gene Silencing]]
+
+- New links added: [[Epigenome]], [[Aging]], [[DNA Methylation]], [[Histone Modification]], [[Chromatin]], [[Non-Coding RNA]], [[MicroRNA]], [[DNMT1]], [[DNMT3a]], [[DNMT3b]], [[Histone Acetyltransferase]], [[Histone Deacetylase]], [[Histone Methyltransferase]], [[Chromatin Remodeling]], [[CHD4]], [[Epigenetic Drift]], [[Epigenetic Clock]], [[Caloric Restriction]], [[Rejuvenation]], [[Cancer]]
+- Suggested new entity notes to create: [[Epigenetic Drift]], [[Gene Silencing]], [[CRISPRoff]]
 - Strong connections to strengthen: [[Epigenetics]] ↔ [[Aging]], [[Epigenetics]] ↔ [[DNA Methylation]]

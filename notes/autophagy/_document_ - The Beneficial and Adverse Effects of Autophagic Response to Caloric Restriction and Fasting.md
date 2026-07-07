@@ -1,7 +1,12 @@
 ---
-type: document
 title: The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction
   and Fasting
+description: Each cell is equipped with a conserved housekeeping mechanism, known
+  as autophagy, to recycle exhausted materials and dispose of injured organelles via
+  lysosomal degradation. Autophagy is an early-stage cellular response to stress stimuli
+  in both ...
+type: document
+created: 2026-05-14
 source: https://pmc.ncbi.nlm.nih.gov/articles/PMC10509423/
 author:
 - Roya Shabkhizan
@@ -12,13 +17,9 @@ author:
 - Hesam Saghaei Bagheri
 - Reza Rahbarghazi
 - Ebrahim Sakhinia
-created: 2026-05-14
-description: Each cell is equipped with a conserved housekeeping mechanism, known
-  as autophagy, to recycle exhausted materials and dispose of injured organelles via
-  lysosomal degradation. Autophagy is an early-stage cellular response to stress stimuli
-  in both ...
 tags:
   - "clippings"
+aliases: []
 ---
 
 

@@ -1,13 +1,14 @@
 ---
-
-type: entity
 title: SASP
 description: The senescence-associated secretory phenotype (SASP) is a complex
   mixture of cytokines, chemokines, growth factors, matrix metalloproteinases, and
   bioactive lipids secreted by Cellular Senescen...
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Biological Process
+tags:
+  - Biological Process
+  - senescence
 aliases: [Senescence-Associated Secretory Phenotype, senescence-associated secretory phenotype]
 
 ---

@@ -1,12 +1,14 @@
 ---
-type: entity
 title: ischemic injury
 description: Ischemic injury is tissue damage caused by a restriction in blood supply;
   activation of TFEB has been shown to be protective in models of cerebral and cardiac
   ischemia.
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Medical Condition
+tags:
+  - Medical Condition
+aliases: []
 ---
 # ischemic injury
 

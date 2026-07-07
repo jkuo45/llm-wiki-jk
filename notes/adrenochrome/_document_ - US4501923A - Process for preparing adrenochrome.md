@@ -1,13 +1,14 @@
 ---
-type: document
 title: US4501923A - Process for preparing adrenochrome
-source: https://patents.google.com/patent/US4501923A/en
-created: 2026-05-18
 description: A process is described for preparing Adrenochrome comprising oxidizing
   adrenaline or a salt thereof with a persulfate in an aqueous medium at a pH in the
   range 4 to 8 in the presence of one or more water-soluble salts of Bismuth.
+type: document
+created: 2026-05-18
+source: https://patents.google.com/patent/US4501923A/en
 tags:
   - "clippings"
+aliases: []
 ---
 ## Patents
 

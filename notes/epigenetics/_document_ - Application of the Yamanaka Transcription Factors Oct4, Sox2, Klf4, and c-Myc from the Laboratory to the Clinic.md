@@ -1,7 +1,12 @@
 ---
-type: document
 title: Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc
   from the Laboratory to the Clinic
+description: The transcription factors Oct4, Sox2, Klf4, and c-Myc enable the reprogramming
+  of Somatic Cells into induced pluripotent cells. Reprogramming generates newly differentiated
+  cells for potential therapies in notes/_link/Cancer, notes/_link/Neurodegenerative
+  Diseases, and rejuvenation processes.
+type: document
+created: 2026-05-13
 source: https://pmc.ncbi.nlm.nih.gov/articles/PMC10531188/
 author:
 - Marisol Aguirre
@@ -14,13 +19,9 @@ author:
 - Sofía Atuesta Escobar
 - Juan Camilo Blanco
 - Luis Gustavo Celis
-created: 2026-05-13
-description: The transcription factors Oct4, Sox2, Klf4, and c-Myc enable the reprogramming
-  of Somatic Cells into induced pluripotent cells. Reprogramming generates newly differentiated
-  cells for potential therapies in notes/_link/Cancer, notes/_link/Neurodegenerative
-  Diseases, and rejuvenation processes.
 tags:
   - "clippings"
+aliases: []
 ---
 
 . 2023 Aug 26;14(9):1697. doi: [10.3390/genes14091697](https://doi.org/10.3390/genes14091697)

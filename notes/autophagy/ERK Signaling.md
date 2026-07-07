@@ -1,12 +1,13 @@
 ---
-type: entity
 title: ERK Signaling
 description: Extracellular signal-regulated kinase (ERK) signaling is a major MAPK
   pathway that regulates cell growth and differentiation; ERK2 phosphorylates TFEB
   at S142 to promote its cytosolic retention.
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Scientific Concept
+tags:
+  - Scientific Concept
 aliases: [MAPK signaling]
 ---
 # ERK Signaling
