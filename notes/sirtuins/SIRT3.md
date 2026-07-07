@@ -31,13 +31,6 @@ aliases: [Sirt3]
 
 SIRT3 is a mitochondrial NAD+-dependent deacetylase that activates [[Mitochondrial Complex I]], [[SOD2]], and fatty acid oxidation. It promotes [[Mitophagy]] by deacetylating [[FOXO3a]].
 
-### Linking Summary:
-- New links added: [[Mitochondria]], [[Reactive Oxygen Species]], [[Caloric Restriction]], [[Intermittent Fasting]], [[Cancer]], [[Mitophagy]], [[Cellular Homeostasis]]
-- Suggested new entity notes to create: , [[Cellular Homeostasis]]
-- Strong connections to strengthen: [[SIRT3]] ↔ [[Mitochondria]], [[SIRT3]] ↔ [[Mitophagy]]
-
-## From [[SIRT3]]
-
 # SIRT3
 
 **SIRT3** (Sirtuin 3) is a **mitochondrial sirtuin** classified in phylogenetic **Class Ib** alongside yeast Hst2, [[SIRT2]], and sirtuins from other fungi and protozoa. It is the primary deacetylase in the mitochondrial matrix, playing key roles in energy metabolism, thermogenesis, mitochondrial biogenesis, and reactive oxygen species (ROS) regulation.
@@ -100,6 +93,17 @@ SIRT3, by producing [[OAADPr]], may regulate the **TRPM2** ion channel alongside
 - [[PGC1-α]] — target gene; SIRT3 promotes PGC-1α expression in BAT
 - [[Longevity]] — SIRT3 intron 5 enhancer variant associated with male lifespan >90 years
 
+
+
+### Linking Summary
+
+- New links added: [[Mitochondria]], [[Reactive Oxygen Species]], [[Caloric Restriction]], [[Intermittent Fasting]], [[Cancer]], [[Mitophagy]], [[Cellular Homeostasis]]
+- Suggested new entity notes to create: , [[Cellular Homeostasis]]
+- Strong connections to strengthen: [[SIRT3]] ↔ [[Mitochondria]], [[SIRT3]] ↔ [[Mitophagy]]
+- New links added: [[NAD+]], [[HIF-1α]], [[Reactive Oxygen Species]]
+- Suggested new entity notes to create:## From [[SIRT3]]
+
+
 ## Linking Summary
 
 - New links added: [[NAD+]], [[OAADPr]], [[Caloric Restriction]], [[PGC1-α]], [[SIRT1]], [[SIRT2]], [[SIRT4]], [[SIRT5]], [[Longevity]], [[TRPM2]], [[AceCS2]]
@@ -110,8 +114,3 @@ SIRT3, by producing [[OAADPr]], may regulate the **TRPM2** ion channel alongside
 
 SIRT3 is a major mitochondrial sirtuin with both deacetylase and mono-ADP-ribosyl transferase activities. It regulates mitochondrial metabolism, thermogenesis, and helps prevent oxidative stress by suppressing [[Reactive Oxygen Species]]. It acts as a tumor suppressor by destabilizing [[HIF-1α]].
 
-### Linking Summary:
-
-- New links added: [[NAD+]], [[HIF-1α]], [[Reactive Oxygen Species]]
-- Suggested new entity notes to create:
-- Strong connections to strengthen: [[SIRT3]] ↔ [[HIF-1α]], [[SIRT3]] ↔ [[Reactive Oxygen Species]], [[SIRT3]] ↔ [[NAD+]]

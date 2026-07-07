@@ -29,13 +29,6 @@ aliases: [Sirt2]
 
 SIRT2 is a cytoplasmic and nuclear NAD+-dependent deacetylase that regulates [[Autophagy]] by deacetylating [[FoxO1]] and [[FOXO3a]].
 
-### Linking Summary:
-- New links added: [[Autophagy]], [[Atg4B]], [[LC3]], [[SIRT1]]
-- Suggested new entity notes to create: [[Atg4B]]
-- Strong connections to strengthen: [[SIRT2]] ↔ [[Autophagy]], [[SIRT2]] ↔ [[Atg4B]]
-
-## From [[SIRT2]]
-
 # SIRT2
 
 **SIRT2** (Sirtuin 2) is a mammalian sirtuin classified in phylogenetic **Class Ib** alongside yeast Hst2, fly D.mel2, and sirtuins from other fungi and protozoa. It is the primary **cytoplasmic sirtuin** and functions as an NAD⁺-dependent tubulin deacetylase, with additional roles in cell cycle regulation, chromosomal integrity, and brain tumour suppression.
@@ -91,6 +84,17 @@ Through the generation of [[OAADPr]], SIRT2 (along with [[SIRT3]]) may regulate 
 - [[Glioma]] — SIRT2 deletion is associated with glioma formation
 - [[HOXA10]] — developmental transcription factor target
 
+
+
+### Linking Summary
+
+- New links added: [[Autophagy]], [[Atg4B]], [[LC3]], [[SIRT1]]
+- Suggested new entity notes to create: [[Atg4B]]
+- Strong connections to strengthen: [[SIRT2]] ↔ [[Autophagy]], [[SIRT2]] ↔ [[Atg4B]]
+- New links added: [[NAD+]], [[Neurodegeneration]]
+- Suggested new entity notes to create:## From [[SIRT2]]
+
+
 ## Linking Summary
 
 - New links added: [[NAD+]], [[OAADPr]], [[Glioma]], [[HOXA10]], [[SIRT1]], [[SIRT3]], [[TRPM2]]
@@ -101,18 +105,7 @@ Through the generation of [[OAADPr]], SIRT2 (along with [[SIRT3]]) may regulate 
 
 SIRT2 is a predominantly cytoplasmic sirtuin with both deacetylase and mono-ADP-ribosyl transferase activity. It is involved in regulating cell cycle, cell motility, tubulin acetylation, and is overexpressed in various cancers and [[Neurodegeneration|neurodegenerative disorders]].
 
-### Linking Summary:
-
-- New links added: [[NAD+]], [[Neurodegeneration]]
-- Suggested new entity notes to create:
-- Strong connections to strengthen: [[SIRT2]] ↔ [[NAD+]], [[SIRT2]] ↔ [[Neurodegeneration]]
-
 # SIRT2
 
 SIRT2 (Sirtuin 2) is a NAD+-dependent deacetylase localized primarily in the cytosol and nucleus. It is involved in cell cycle regulation, adipose tissue development and functionality, blood glucose homeostasis, and the modulation of peripheral myelination.
 
-### Linking Summary:
-
-- New links added: [[NAD+]], [[Sirtuins]]
-- Suggested new entity notes to create:
-- Strong connections to strengthen: [[SIRT2]] ↔ [[Cell Cycle]]

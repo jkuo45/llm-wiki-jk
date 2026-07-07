@@ -26,8 +26,17 @@ While often viewed as harmful, low levels of [[Reactive Oxygen Species]] (ROS) a
 - [[Apoptosis]]: ROS levels determine the threshold for programmed cell death.
 - [[Immunity]]: ROS are used to signal the presence of pathogens.
 - [[Differentiation]]: Redox state influences stem cell fate.
-
-### Linking Summary:
+- [[Thioredoxin]]: Primary system for reducing oxidized cysteine switches.
+- [[Glutathione]]: Maintains general thiol redox buffering and participates in S-glutathionylation signaling.
+- [[NOX Family|NADPH Oxidase]]: The major enzyme family producing signaling ROS.
+- [[Aquaporins]] (AQP3, AQP8): Peroxiporins that channel H2O2 across membranes.
+- [[PTEN]]: Redox-sensitive tumor suppressor; oxidized PTEN activates PI3K/Akt.
+- [[Protein Kinase G]]: Mediates NO-cGMP signaling in vasodilation.
+- [[S-Nitrosylation]]: The equivalent of phosphorylation for NO signaling.
+- [[mTOR]]: Downstream target of PI3K/Akt, activated when PTEN is oxidized.
+- [[HIF-1α]]: Stabilized by mitochondrial ROS, linking metabolism to gene expression.
+- [[Cancer]]: Dysregulated redox signaling drives proliferation, survival, and metastasis.
+- [[Insulin]]: Insulin signaling generates H2O2 that amplifies the signaling cascade through PTP oxidation.### Linking Summary:
 - New links added: [[Reactive Oxygen Species]], [[Reactive Nitrogen Species]], [[Hydrogen Peroxide]], [[Nitric Oxide]], [[Vasodilation]], [[Superoxide Radicals]], [[Iron-Sulfur Clusters]], [[Apoptosis]], [[Immunity]], [[Differentiation]]
 - Suggested new entity notes to create: [[Iron-Sulfur Clusters]], [[Vasodilation]]
 - Strong connections to strengthen: [[Signaling Molecules]] ↔ [[Hydrogen Peroxide]]
@@ -51,19 +60,6 @@ For H2O2 to act as a second messenger, it must be generated in specific cellular
 ## Compartmentalized ROS Signaling Networks
 
 Different subcellular compartments possess distinct ROS sources, sinks, and targets that allow spatially encoded signaling. In the [[Mitochondria|mitochondrial matrix]], [[Mitochondrial ROS|ROS]] produced at Complex I and III regulate [[HIF-1α]] stabilization, [[PGC1-α]] expression (retrograde signaling), and the [[Unfolded Protein Response]] (UPRmt). Mitochondrial H2O2 diffuses to the cytosol where it can oxidize [[AMPK|AMPKα]] at Cys-299/Cys-304, activating this energy sensor. In the [[Endoplasmic Reticulum]], ERO1 (ER oxidoreductin 1) generates H2O2 as a byproduct of protein disulfide bond formation, which is coupled to [[Glutathione Peroxidase 7]] (GPx7/GPx8) that eliminates excess H2O2. ER redox stress triggers the [[Unfolded Protein Response|UPR]] through PERK and IRE1α, which contain redox-sensitive cysteine residues. At the [[Plasma Membrane]], [[NADPH Oxidase]] (NOX) enzymes produce ROS into the extracellular space (NOX1–5) or into intracellular vesicles (NOX2 in phagocytes, DUOX1/2 in mucosal epithelia). The localization specificity is achieved through adaptor proteins (p47phox, NOXA1, p40phox) that assemble NOX complexes at specific membrane domains. This compartmentalization ensures that ROS signals remain exquisitely local — the "redox signalosome" concept posits that signaling ROS are generated within nanometers of their targets, creating microdomains of altered redox state without globally disrupting the cellular redox balance.
-
-## Connections
-- [[Thioredoxin]]: Primary system for reducing oxidized cysteine switches.
-- [[Glutathione]]: Maintains general thiol redox buffering and participates in S-glutathionylation signaling.
-- [[NOX Family|NADPH Oxidase]]: The major enzyme family producing signaling ROS.
-- [[Aquaporins]] (AQP3, AQP8): Peroxiporins that channel H2O2 across membranes.
-- [[PTEN]]: Redox-sensitive tumor suppressor; oxidized PTEN activates PI3K/Akt.
-- [[Protein Kinase G]]: Mediates NO-cGMP signaling in vasodilation.
-- [[S-Nitrosylation]]: The equivalent of phosphorylation for NO signaling.
-- [[mTOR]]: Downstream target of PI3K/Akt, activated when PTEN is oxidized.
-- [[HIF-1α]]: Stabilized by mitochondrial ROS, linking metabolism to gene expression.
-- [[Cancer]]: Dysregulated redox signaling drives proliferation, survival, and metastasis.
-- [[Insulin]]: Insulin signaling generates H2O2 that amplifies the signaling cascade through PTP oxidation.
 
 ### Updated Linking Summary:
 - New links added in this revision: [[Thioredoxin]], [[Glutathione]], [[Protein Tyrosine Phosphatases]], [[PTEN]], [[Aquaporins]], [[NADPH Oxidase]], [[Mitochondria]], [[Mitochondrial ROS]], [[HIF-1α]], [[PGC1-α]], [[Unfolded Protein Response]], [[AMPK]], [[mTOR]], [[PI3K]], [[Akt]], [[S-Nitrosylation]], [[Parkin]], [[GAPDH]], [[Caspase-3]], [[Protein Kinase G]], [[Catalase]], [[Peroxiredoxin]], [[EGF Receptor]], [[Receptor Tyrosine Kinases]], [[Cancer]], [[Metabolic Syndromes]], [[Neurodegenerative Diseases]], [[Insulin]], [[Metabolism]], [[Apoptosis]]

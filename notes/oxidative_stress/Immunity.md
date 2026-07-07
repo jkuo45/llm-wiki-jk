@@ -25,8 +25,15 @@ Beyond direct pathogen killing, ROS function as [[Signaling Molecules]] that reg
 - [[Inflammation]]: The physiological response often driven by ROS-mediated immune signaling.
 - [[Neutrophils]]: Key immune cells that utilize oxidative mechanisms.
 - [[NADPH Oxidase]]: The enzyme complex that powers the oxidative immune response.
-
-### Linking Summary:
+- [[Chronic Granulomatous Disease]]: Genetic deficiency in NOX2 causing recurrent infections.
+- [[Myeloperoxidase]]: Converts H2O2 to HOCl, the major neutrophil bactericidal agent.
+- [[Macrophage]]: iNOS/NOX2 dual system for pathogen killing in macrophages.
+- [[Toll-like Receptor]]: Pattern recognition receptors triggering oxidative burst.
+- [[mTOR]]: Master regulator of immune cell metabolism and redox balance.
+- [[HIF-1α]]: Hypoxia-inducible factor linking metabolism to ROS production.
+- [[Immunosenescence]]: Age-related decline in immune function driven by oxidative stress.
+- [[Inflammaging]]: Chronic low-grade inflammation fueled by oxidative stress.
+- [[Mitochondrial Dysfunction]]: Impairs immune cell metabolism and redox signaling.### Linking Summary:
 - New links added: [[Oxidative Stress]], [[Neutrophils]], [[Respiratory Burst]], [[Reactive Oxygen Species]], [[Reactive Nitrogen Species]], [[Signaling Molecules]], [[Pro-inflammatory Cytokines]], [[NF-kappa B]], [[Inflammation]], [[NADPH Oxidase]]
 - Suggested new entity notes to create: [[Pro-inflammatory Cytokines]]
 - Strong connections to strengthen: [[Immunity]] ↔ [[Respiratory Burst]]
@@ -50,17 +57,6 @@ Activated immune cells undergo a metabolic switch from oxidative phosphorylation
 ## Oxidative Stress and Immune Senescence
 
 [[Immunosenescence]] and [[Inflammaging]] are driven in part by lifelong accumulation of oxidative damage to immune cells. In aged [[Neutrophils]], NOX2 activity is reduced but mitochondrial ROS are elevated, impairing bacterial killing while increasing bystander tissue damage. [[Hematopoietic Stem Cell|Hematopoietic stem cells]] (HSCs) accumulate oxidative DNA damage over time, leading to a myeloid-biased differentiation skew and impaired lymphopoiesis. The [[p38 MAPK]] pathway, activated by ROS-induced stress signaling, suppresses HSC self-renewal. Caloric restriction and [[Metformin]] partially reverse these age-related immune changes by reducing [[Reactive Oxygen Species|ROS]] production through [[AMPK]]/[[PGC1-α]]-mediated [[Mitochondria|mitochondrial]] biogenesis and antioxidant enzyme induction.
-
-## Connections
-- [[Chronic Granulomatous Disease]]: Genetic deficiency in NOX2 causing recurrent infections.
-- [[Myeloperoxidase]]: Converts H2O2 to HOCl, the major neutrophil bactericidal agent.
-- [[Macrophage]]: iNOS/NOX2 dual system for pathogen killing in macrophages.
-- [[Toll-like Receptor]]: Pattern recognition receptors triggering oxidative burst.
-- [[mTOR]]: Master regulator of immune cell metabolism and redox balance.
-- [[HIF-1α]]: Hypoxia-inducible factor linking metabolism to ROS production.
-- [[Immunosenescence]]: Age-related decline in immune function driven by oxidative stress.
-- [[Inflammaging]]: Chronic low-grade inflammation fueled by oxidative stress.
-- [[Mitochondrial Dysfunction]]: Impairs immune cell metabolism and redox signaling.
 
 ### Updated Linking Summary:
 - New links added in this revision: [[Myeloperoxidase]], [[Hypochlorous Acid]], [[Toll-like Receptor]], [[LPS]], [[IFN-γ]], [[STAT1]], [[Peroxynitrite]], [[Iron-Sulfur Clusters]], [[Arginase]], [[Macrophage Polarization]], [[Glutathione]], [[Dendritic Cells]], [[IL-12]], [[Thioredoxin]], [[mTOR]], [[HIF-1α]], [[Mitochondrial ROS]], [[Immunosenescence]], [[Inflammaging]], [[Hematopoietic Stem Cell]], [[p38 MAPK]], [[Metformin]], [[AMPK]], [[PGC1-α]], [[Chronic Granulomatous Disease]], [[Mitochondrial Dysfunction]], [[Macrophage]], [[Keap1]]

@@ -64,14 +64,19 @@ Howitz et al. (2003) identified resveratrol as an activator of mammalian [[SIRT1
 Resveratrol lacks a catechol structure and does not compete for [[COMT]], making it a safe anti-inflammatory option for slow COMT individuals.
 
 ## Connections
-
 - [[SIRT1]] — Primary molecular target
 - [[Caloric Restriction]] — Resveratrol mimics CR effects
 - [[PGC-1α]] — Key downstream effector
 - [[NAD+]] — Required for SIRT1 activation
 - [[COMT]] — No interference; safe for slow COMT variants
-
-## Additional Content from Topic Directory
+- [[Sir2 (yeast)]] — founding sirtuin; resveratrol extends yeast lifespan in a Sir2-dependent manner
+- [[SIRT3]] — may contribute to resveratrol's metabolic effects indirectly
+- **[[Aging]]**: Resveratrol is a leading candidate for a natural geroprotective agent.
+- **[[Geroscience]]**: A major focus of research into natural longevity molecules.
+- [[Anti-inflammatory]]: One of the key health benefits of resveratrol.
+- [[Bioavailability]]: Resveratrol studies often focus on its absorption and genetic interactions.
+- Suggested new entity notes to create: [[CR Mimetics]], [[David Sinclair]], [[Polyphenols]]
+- Strong connections to strengthen: [[Resveratrol]] ↔ [[Caloric Restriction]], [[Resveratrol]] ↔ [[SIRT1]]## Additional Content from Topic Directory
 
 **Resveratrol** (3,5,4′-trihydroxystilbene) is a **polyphenolic stilbene** found naturally in the skin of grapes, red wine, and a variety of other plants. It is synthesised by plants in response to stress (biotic or abiotic). Resveratrol was identified as a **STAC (sirtuin activating compound)** — the prototypical pharmacological activator of [[SIRT1]] — and has been shown to extend lifespan in diverse organisms and improve metabolic health in mammals.
 
@@ -136,15 +141,6 @@ Resveratrol is widely considered a **CR mimetic** — it recapitulates many of t
 > [!NOTE]
 > Whether resveratrol's effects are _truly_ SIRT1-dependent in mammals remains debated (as noted by Michan & Sinclair 2007). Subsequent research has clarified that resveratrol's primary direct target may be AMPK rather than SIRT1 directly, though SIRT1 is activated as a downstream consequence.
 
-## Connections
-
-- [[SIRT1]] — primary molecular target; resveratrol activates SIRT1 _in vitro_ and in cells
-- [[Sir2 (yeast)]] — founding sirtuin; resveratrol extends yeast lifespan in a Sir2-dependent manner
-- [[Caloric Restriction]] — resveratrol mimics CR physiological effects via SIRT1
-- [[PGC-1α]] — key downstream effector activated by resveratrol-stimulated SIRT1
-- [[NAD+]] — resveratrol activates SIRT1 in a NAD⁺-dependent context
-- [[SIRT3]] — may contribute to resveratrol's metabolic effects indirectly
-
 ## Linking Summary
 
 - New links added: [[SIRT1]], [[Sir2 (yeast)]], [[Caloric Restriction]], [[PGC-1α]], [[NAD+]], [[SIRT3]]
@@ -182,23 +178,6 @@ While resveratrol has shown dramatic results in extending the lifespan of yeast,
 ## Alternative for Slow COMT
 
 [[Resveratrol]] is considered a safe [[Anti-inflammatory]] and antioxidant option for people with slow [[COMT]] variants. Since it lacks a catechol structure, it does not compete for the [[COMT]] enzyme or cause its inhibition.
-
-## Connections
-
-- **[[SIRT1]]**: The primary molecular target of resveratrol.
-- **[[Aging]]**: Resveratrol is a leading candidate for a natural geroprotective agent.
-- **[[Caloric Restriction]]**: Resveratrol mimics many of the benefits of CR.
-- **[[Geroscience]]**: A major focus of research into natural longevity molecules.
-
-- [[Anti-inflammatory]]: One of the key health benefits of resveratrol.
-- [[COMT]]: Resveratrol does not interfere with COMT activity.
-- [[Bioavailability]]: Resveratrol studies often focus on its absorption and genetic interactions.
-
----
-
-- New links added: [[Aging]], [[Anti-inflammatory]], [[COMT]], [[Caloric Restriction]], [[Diabetes Mellitus]], [[Geroscience]], [[Metabolic Syndromes]], [[Resveratrol]], [[SIRT1]]
-- Suggested new entity notes to create: [[CR Mimetics]], [[David Sinclair]], [[Polyphenols]]
-- Strong connections to strengthen: [[Resveratrol]] ↔ [[Caloric Restriction]], [[Resveratrol]] ↔ [[SIRT1]]
 
 ## Linking Summary
 

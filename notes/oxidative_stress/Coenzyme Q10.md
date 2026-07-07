@@ -29,8 +29,12 @@ Due to its essential role in mitochondrial function and antioxidant defense, CoQ
 - **[[Mitochondria]]**: Essential site of CoQ10 action for [[ATP]] production.
 - **[[Oxidative Stress]]**: CoQ10 helps mitigate damage caused by excessive [[Reactive Oxygen Species]].
 - **[[Vitamin E]]**: CoQ10 helps regenerate the antioxidant form of Vitamin E.
-
-### Linking Summary:
+- [[Metabolism|Mevalonate Pathway]]: The shared biosynthetic route for CoQ10 and cholesterol, explaining statin-induced depletion.
+- [[Ascorbic Acid]]: Synergistic antioxidant recycling with CoQ10.
+- [[Oxidized LDL]]: CoQ10 protects against LDL oxidation, a key step in [[Atherosclerosis]].
+- [[Heart Failure]]: The Q-SYMBIO trial established CoQ10's clinical cardiovascular benefit.
+- [[Mitochondrial Dysfunction]]: CoQ10 depletion both results from and exacerbates mitochondrial dysfunction.
+- [[Ischemia-reperfusion Injury]]: CoQ10 protects against reperfusion damage by stabilizing Complex III.### Linking Summary:
 - New links added: [[Antioxidants]], [[Mitochondria]], [[ATP]], [[Lipid Peroxidation]], [[Reactive Oxygen Species]], [[Cardiovascular Disease]], [[Neurodegenerative Disease]], [[Parkinson's Disease]], [[Huntington's Disease]], [[Oxidative Stress]], [[Vitamin E]]
 - Suggested new entity notes to create: [[ATP]], [[Huntington's Disease]]
 - Strong connections to strengthen: [[Coenzyme Q10]] ↔ [[Mitochondria]]
@@ -54,14 +58,6 @@ The landmark Q-SYMBIO trial (2014) randomized 420 patients with moderate-to-seve
 ## Neuroprotective Applications
 
 In [[Parkinson's Disease]], the reduced form ubiquinol has been investigated in the QE3 trial (a Phase II/III NIH-sponsored study), which found that high-dose CoQ10 (1200 mg/day) slowed functional decline in early-stage patients. The mechanism is thought to involve improved [[Mitochondria|Complex I activity]] in the [[Substantia Nigra]], where Complex I deficiency is a hallmark of Parkinsonian pathology. CoQ10 also inhibits [[Dopamine|dopamine]] autoxidation products from cross-linking with [[Alpha-synuclein]], reducing aggregation. In [[Huntington's Disease]], CoQ10 combined with creatine reduced striatal atrophy in preclinical models, though human trials have shown modest effects, possibly due to limited brain penetration.
-
-## Connections
-- [[Metabolism|Mevalonate Pathway]]: The shared biosynthetic route for CoQ10 and cholesterol, explaining statin-induced depletion.
-- [[Ascorbic Acid]]: Synergistic antioxidant recycling with CoQ10.
-- [[Oxidized LDL]]: CoQ10 protects against LDL oxidation, a key step in [[Atherosclerosis]].
-- [[Heart Failure]]: The Q-SYMBIO trial established CoQ10's clinical cardiovascular benefit.
-- [[Mitochondrial Dysfunction]]: CoQ10 depletion both results from and exacerbates mitochondrial dysfunction.
-- [[Ischemia-reperfusion Injury]]: CoQ10 protects against reperfusion damage by stabilizing Complex III.
 
 ### Updated Linking Summary:
 - New links added in this revision: [[Statin-Induced Myopathy]], [[Gene Expression]], [[Mitochondrial ROS]], [[Ascorbic Acid]], [[Glutathione]], [[Heart Failure]], [[Malondialdehyde]], [[Endothelial Dysfunction]], [[Oxidized LDL]], [[Flow-Mediated Dilation]], [[Ischemia-reperfusion Injury]], [[Alpha-synuclein]], [[Thioredoxin]]

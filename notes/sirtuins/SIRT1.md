@@ -42,13 +42,6 @@ Sirt1 levels decline in multiple tissues with age, coinciding with [[NAD+|NAD^+]
 - **Models:** Sirt1 whole-body knockout mice are perinatal lethal; conditional knockouts in metabolic tissues (liver, muscle, adipose) and brain are widely used.
 - **Interventions:** [[Nicotinamide Riboside]] and [[Nicotinamide Mononucleotide]] boost NAD^+ levels and are in clinical trials for their Sirt1-dependent benefits.
 
-### Linking Summary:
-- New links added: [[HDAC]], [[Epigenetics]], [[NAD+]], [[Sirtuins]], [[p53]], [[FOXO]], [[PGC1-α]], [[NFKB]], [[Resveratrol]], [[Caloric Restriction]], [[Nicotinamide Riboside]], [[Nicotinamide Mononucleotide]]
-- Suggested new entity notes to create: [[CLOCK]], [[BMAL1]], [[SRT1720]]
-- Strong connections to strengthen: [[SIRT1]] ↔ [[NAD+]], [[SIRT1]] ↔ [[HDAC]]
-
-## From [[SIRT1]]
-
 # SIRT1
 
 **SIRT1** (Sirtuin 1, also known as SIR2α) is the most extensively studied mammalian sirtuin, a class III NAD⁺-dependent histone deacetylase and the closest mammalian homologue of yeast [[Sir2 (yeast)|Sir2]]. It belongs to phylogenetic Class Ia alongside yeast Sir2 and Hst1, _C. elegans_ SIR-2.1, and _D. melanogaster_ D.mel1. SIRT1 is primarily nuclear, with some cytoplasmic functions, and associates predominantly with euchromatin.
@@ -140,7 +133,6 @@ SIRT1-deficient mice display:
 SIRT1 is a key mediator of [[Caloric Restriction]] benefits in mammals. CR increases SIRT1 levels and activity, and SIRT1 activation by [[Resveratrol]] mimics several physiological effects of CR in rodents. Three SNPs in the human _SIRT1_ gene are associated with systemic energy expenditure.
 
 ## Connections
-
 - [[Sir2 (yeast)]] — evolutionary ancestor; SIRT1 is the closest mammalian homologue
 - [[NAD+]] — obligatory co-substrate for deacetylase activity
 - [[OAADPr]] — unique by-product of SIRT1-catalysed deacetylation
@@ -151,22 +143,30 @@ SIRT1 is a key mediator of [[Caloric Restriction]] benefits in mammals. CR incre
 - [[SIRT2]] — Class I sirtuin family member; both have deacetylase and ADP-ribosyl transferase activities
 - [[SIRT3]] — mitochondrial counterpart; both deacetylate AceCS isoforms (cytoplasmic vs. mitochondrial)
 - [[FoxO1]] / [[FOXO3a]] / FOXO4 — forkhead transcription factors regulated by SIRT1 deacetylation
-
-## Linking Summary
+- **[[Sirtuins]]**: The family of proteins to which SIRT1 belongs.
+- **[[Aging]]**: SIRT1 is a central regulator of the aging process.## Linking Summary
 
 - New links added: [[Sir2 (yeast)]], [[NAD+]], [[OAADPr]], [[p53]], [[PGC1-α]], [[Resveratrol]], [[Caloric Restriction]], [[SIRT2]], [[SIRT3]], [[FoxO1]], [[FOXO3a]], [[UCP2]], [[NFKB|NF-κB (RelA/p65)]], [[SIRT4]], [[SIRT6]], [[MyoD]]
 - Suggested new entity notes to create: [[FOXO3a]], [[FOXO4]], [[Smad7]], [[Ku70]], [[E2F1]], [[p73]], [[HIC1]], [[NMNAT]], [[MEF2D]], [[PML]]
 - Strong connections to strengthen: [[SIRT1]] ↔ [[p53]], [[SIRT1]] ↔ [[PGC1-α]], [[SIRT1]] ↔ [[Caloric Restriction]]
 
+
+
+### Linking Summary
+
+- New links added: [[HDAC]], [[Epigenetics]], [[NAD+]], [[Sirtuins]], [[p53]], [[FOXO]], [[PGC1-α]], [[NFKB]], [[Resveratrol]], [[Caloric Restriction]], [[Nicotinamide Riboside]], [[Nicotinamide Mononucleotide]]
+- Suggested new entity notes to create: [[CLOCK]], [[BMAL1]], [[SRT1720]]
+- Strong connections to strengthen: [[SIRT1]] ↔ [[NAD+]], [[SIRT1]] ↔ [[HDAC]]
+- New links added: [[NAD+]], [[p53]], [[AMPK]]
+- Suggested new entity notes to create:
+- New links added: [[AMPK]], [[Aging]], [[Atg]], [[Autophagy]], [[Caloric Restriction]], [[Cardiovascular Disease]], [[Diabetes Mellitus]], [[Epigenome]], [[FoxO1]], [[FOXO3a]], [[Heterochromatin]], [[Intermittent Fasting]], [[Neurodegenerative Diseases]], [[Resveratrol]], [[SIRT1]], [[Sirtuins]]
+- New links added: [[TFEB]]
+- Suggested new entity notes to create: [[Deacetylation]]## From [[SIRT1]]
+
+
 # SIRT1
 
 SIRT1 is a class III [[NAD+]]-dependent histone deacetylase and one of the seven human sirtuins. It is primarily localized in the nucleus (associated with euchromatin) but also functions in the cytoplasm. It plays a critical role in metabolic regulation, anti-aging pathways, oxidative stress response, DNA repair, and the regulation of key proteins such as [[p53]] and [[AMPK]].
-
-### Linking Summary:
-
-- New links added: [[NAD+]], [[p53]], [[AMPK]]
-- Suggested new entity notes to create:
-- Strong connections to strengthen: [[SIRT1]] ↔ [[NAD+]], [[SIRT1]] ↔ [[p53]], [[SIRT1]] ↔ [[AMPK]]
 
 # SIRT1
 
@@ -213,19 +213,6 @@ Higher levels of SIRT1 activity are generally associated with a longer, healthie
 
 - SIRT1 and [[AMPK]] form a reciprocal regulatory loop, where each can activate the other to promote energy homeostasis and autophagic flux.
 
-## Connections
-
-- **[[Sirtuins]]**: The family of proteins to which SIRT1 belongs.
-- **[[Aging]]**: SIRT1 is a central regulator of the aging process.
-- **[[Caloric Restriction]]**: SIRT1 is a primary mediator of the benefits of CR.
-- **[[Resveratrol]]**: A natural compound known to activate SIRT1.
-
-### Linking Summary:
-
-- New links added: [[AMPK]], [[Aging]], [[Atg]], [[Autophagy]], [[Caloric Restriction]], [[Cardiovascular Disease]], [[Diabetes Mellitus]], [[Epigenome]], [[FoxO1]], [[FOXO3a]], [[Heterochromatin]], [[Intermittent Fasting]], [[Neurodegenerative Diseases]], [[Resveratrol]], [[SIRT1]], [[Sirtuins]]
-- Suggested new entity notes to create: [[AMPK]], [[Atg]], [[Caloric Restriction]], [[FoxO1]], [[FOXO3a]], [[Intermittent Fasting]], [[NAD+]], [[PGC-1alpha]], [[Sirtuin Activators]]
-- Strong connections to strengthen: [[SIRT1]] ↔ [[AMPK]], [[SIRT1]] ↔ [[Autophagy]], [[SIRT1]] ↔ [[Caloric Restriction]], [[SIRT1]] ↔ [[Sirtuins]]
-
 ## NAD⁺-Dependent Deacetylase Mechanism
 
 SIRT1 catalyzes the cleavage of [[NAD+]] to nicotinamide and [[OAADPr]] (2′-O-acetyl-ADP-ribose) coupled to acetyl-lysine hydrolysis, unlike class I/II HDACs which are NAD⁺-independent. The catalytic reaction proceeds through a conserved sirtuin core domain comprising a Rossmann-fold NAD⁺-binding domain and a zinc-binding module. A key catalytic histidine (His363) positions the acetyl-lysine substrate, while a conserved serine (Ser442) stabilizes the transition state. Nicotinamide, a product of the reaction, acts as a physiological feedback inhibitor, binding the C-pocket of the enzyme and blocking NAD⁺ re-entry at high concentrations. This nicotinamide inhibition links SIRT1 activity to cellular NAD⁺ salvage and biosynthesis, notably via [[NAMPT]] and [[Nicotinamide Riboside]] kinases.
@@ -253,12 +240,6 @@ In the [[Mitohormesis]] framework, SIRT1 transduces mitochondrial signals into n
 # SIRT1
 
 Sirtuin 1 (SIRT1) is an NAD+-dependent deacetylase that promotes [[TFEB]] transcriptional activity and nuclear translocation by deacetylating it, notably at K116.
-
-### Linking Summary
-
-- New links added: [[TFEB]]
-- Suggested new entity notes to create: [[Deacetylation]]
-- Strong connections to strengthen: [[SIRT1]] ↔ [[TFEB]]
 
 ### New Linking Summary (Added 2026-07-04, _link merge):
 - New links added: [[Atg5]], [[Atg7]], [[Atg8]], [[LC3]], [[LC3B]], [[BNIP3]], [[GABARAPL1]]

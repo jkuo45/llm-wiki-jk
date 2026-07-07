@@ -27,8 +27,15 @@ Nuclear factor-kappa B (NF-κB) is a protein complex that functions as a central
 - [[Oxidative Stress]]: Acts as a key downstream mediator and amplifier.
 - [[TNF-alpha]]: A primary cytokine regulated by and capable of activating NF-κB.
 - [[Atherosclerosis]]: Plays a central role in the vascular inflammation driven by oxidative stress.
-
-### Linking Summary:
+- [[NRF2]]: Master transcriptional antagonist of NF-κB.
+- [[A20]]: Key ubiquitin-editing negative regulator of NF-κB.
+- [[IkappaB]]: The inhibitory anchor that retains NF-κB in the cytoplasm.
+- [[Proteasome]]: Degrades IκB to allow NF-κB activation.
+- [[Cancer]]: NF-κB promotes tumorigenesis through survival and proliferation genes.
+- [[p50]], [[p65]], [[c-Rel]], [[RelB]]: NF-κB subunit family members.
+- [[Bortezomib]]: Proteasome inhibitor that blocks NF-κB activation.
+- [[Inflammation]]: NF-κB is the "master switch" for inflammatory gene expression.
+- [[Rheumatoid Arthritis]]: Pathogenic NF-κB activation in synovial fibroblasts.### Linking Summary:
 - New links added: [[Immunity]], [[Apoptosis]], [[TNF-alpha]], [[IL-1b]], [[VCAM-1]], [[NADPH Oxidase]], [[Oxidative Stress]], [[Atherosclerosis]]
 - Suggested new entity notes to create: [[IkappaB]], [[IKK Complex]], [[Pro-inflammatory Cytokines]]
 - Strong connections to strengthen: [[NF-kappa B]] ↔ [[Oxidative Stress]]
@@ -52,17 +59,6 @@ The balance between NF-κB (pro-inflammatory) and [[NRF2]] (cytoprotective/antio
 ## Role in Disease and Therapeutic Targeting
 
 NF-κB hyperactivation is a characteristic feature of [[Cancer]], [[Atherosclerosis]], [[Rheumatoid Arthritis]], [[Inflammatory Bowel Disease]], [[Asthma]], and [[Neurodegenerative Diseases]]. In [[Cancer]], NF-κB promotes survival (via [[Bcl-xL|Bcl-XL]], [[XIAP|XIAP]], [[c-FLIP|c-FLIP]]), proliferation (via [[Cyclin D1]], [[c-Myc]]), angiogenesis (via [[VEGF|VEGF]]), and metastasis (via [[MMP9|MMP-9]], [[ICAM-1|ICAM-1]]). Therapeutic strategies include proteasome inhibitors ([[Bortezomib]]), which block IκB degradation; IKKβ inhibitors (e.g., [[MLN120B]], [[TPCA-1]]); and naturally occurring inhibitors such as [[Curcumin]], [[Resveratrol]], and [[EGCG]] ([[EGCG]]), which suppress IKK activity or p65 nuclear translocation. However, systemic NF-κB inhibition carries risks due to its essential role in [[host defense]] and [[Liver|hepatic]] homeostasis, explaining the [[Hepatotoxicity|hepatotoxicity]] and increased infection risk observed with high-dose [[Curcumin]] or broad IKK inhibitors in clinical trials.
-
-## Connections
-- [[NRF2]]: Master transcriptional antagonist of NF-κB.
-- [[A20]]: Key ubiquitin-editing negative regulator of NF-κB.
-- [[IkappaB]]: The inhibitory anchor that retains NF-κB in the cytoplasm.
-- [[Proteasome]]: Degrades IκB to allow NF-κB activation.
-- [[Cancer]]: NF-κB promotes tumorigenesis through survival and proliferation genes.
-- [[p50]], [[p65]], [[c-Rel]], [[RelB]]: NF-κB subunit family members.
-- [[Bortezomib]]: Proteasome inhibitor that blocks NF-κB activation.
-- [[Inflammation]]: NF-κB is the "master switch" for inflammatory gene expression.
-- [[Rheumatoid Arthritis]]: Pathogenic NF-κB activation in synovial fibroblasts.
 
 ### Updated Linking Summary:
 - New links added in this revision: [[LPS]], [[HIF-1α]], [[PP2A]], [[S-Nitrosylation]], [[Rheumatoid Arthritis]], [[NRF2]], [[p62]], [[HO-1]], [[Alpha-Lipoic Acid]], [[Neurodegenerative Diseases]], [[Cancer]], [[Bcl-xL]], [[c-FLIP]], [[Curcumin]], [[Resveratrol]], [[EGCG]], [[Bortezomib]], [[CD40L]], [[BAFF]], [[RANKL]], [[Zinc Finger]], [[A20]], [[CYLD]], [[Proteasome]], [[Inflammation]], [[Inflammatory Bowel Disease]], [[Vitamin E]], [[Sulforaphane]]

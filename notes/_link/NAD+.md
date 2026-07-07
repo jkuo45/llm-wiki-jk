@@ -54,14 +54,16 @@ NAD+ levels decline with age, linked to:
 NAD+ is synthesized from [[Vitamin B3]] precursors ([[Nicotinamide]], [[Nicotinic acid]], [[Nicotinamide Riboside|NR]], [[Nicotinamide Mononucleotide|NMN]]) via the [[Preiss-Handler pathway]] and salvage pathway involving [[NAMPT]].
 
 ## Connections
-
 - [[Sirtuins]] — NAD+ is the obligate co-substrate for all sirtuin enzymes
 - [[Caloric Restriction]] — Increases NAD+ levels, activating sirtuins
 - [[Vitamin B3]] — Primary dietary precursor for NAD+ biosynthesis
 - [[DNA Repair]] — PARP enzymes consume NAD+ for DNA repair
 - [[Resveratrol]] — STAC that activates SIRT1 in an NAD+-dependent manner
-
-## Additional Content from Topic Directory
+- [[SIRT1]] — primary mammalian sirtuin; robust NAD⁺-dependent deacetylase
+- [[Sir2 (yeast)]] — founding sirtuin; NAD⁺ dependence first established here
+- [[OAADPr]] — unique metabolic by-product of NAD⁺-dependent deacetylation
+- [[SIRT4]] — uses NAD⁺ as ADP-ribose donor for GDH modification
+- [[SIRT6]] — uses NAD⁺ as ADP-ribose donor for ADP-ribosylation## Additional Content from Topic Directory
 
 **[[NAD+]]** (Nicotinamide Adenine Dinucleotide) is a critical coenzyme found in every cell in the body. It is essential for energy [[Metabolism]] and serves as a vital signaling molecule for various biological processes.
 
@@ -114,16 +116,6 @@ The discovery that Sir2 deacetylase activity is **absolutely dependent on NAD⁺
 ## NAD⁺ and Neuroprotection
 
 SIRT1-mediated neuroprotection in the context of axonal degeneration requires **Nmnat** (nicotinate mononucleotide adenylyltransferase), a key NAD⁺ biosynthetic enzyme. Increased nuclear NAD⁺ biosynthesis activates [[SIRT1]] and prevents axonal/Wallerian degeneration, demonstrating NAD⁺ as a neuroprotective metabolite.
-
-## Connections
-
-- [[SIRT1]] — primary mammalian sirtuin; robust NAD⁺-dependent deacetylase
-- [[Sir2 (yeast)]] — founding sirtuin; NAD⁺ dependence first established here
-- [[OAADPr]] — unique metabolic by-product of NAD⁺-dependent deacetylation
-- [[Caloric Restriction]] — increases NAD⁺ levels, activating sirtuins
-- [[SIRT4]] — uses NAD⁺ as ADP-ribose donor for GDH modification
-- [[SIRT6]] — uses NAD⁺ as ADP-ribose donor for ADP-ribosylation
-- [[Resveratrol]] — STAC that activates SIRT1 in an NAD⁺-dependent manner
 
 ## Linking Summary
 

@@ -31,8 +31,10 @@ Alpha-lipoic acid (ALA) is a sulfur-containing compound that acts as a potent "u
 - [[Glutathione]]: ALA is a major restorer of glutathione levels.
 - [[Vitamin E]]: ALA helps recycle vitamin E in lipid membranes.
 - [[Mitochondria]]: Vital for energy metabolism and managing mitochondrial ROS.
-
-### Linking Summary:
+- [[NRF2]]: ALA is a potent Nrf2 activator, inducing endogenous antioxidant defenses.
+- [[AMPK]]: ALA activates AMPK, linking it to energy metabolism.
+- [[Diabetic Neuropathy]]: The best-established clinical application of ALA.
+- [[Apoptosis]]: ALA modulates apoptotic thresholds via caspase regulation.### Linking Summary:
 - New links added: [[Vitamin C]], [[Vitamin E]], [[Glutathione]], [[Hydroxyl Radicals]], [[Singlet Oxygen]], [[Hypochlorous Acid]], [[Mitochondria]]
 - Suggested new entity notes to create: [[Dihydrolipoic Acid]], [[Metal Chelation]]
 - Strong connections to strengthen: [[Alpha-Lipoic Acid]] ↔ [[Glutathione]]
@@ -52,13 +54,6 @@ Beyond direct antioxidant chemistry, ALA modulates redox-sensitive transcription
 ## Clinical Applications
 
 The most extensively studied clinical application of ALA is [[Diabetic Neuropathy]]. The ALADIN (Alpha-Lipoic Acid in Diabetic Neuropathy) trials demonstrated that intravenous ALA (600 mg/day) significantly improved neuropathic symptoms, including pain, paresthesia, and numbness, likely through combined antioxidant and [[Mitochondria|mitochondrial]] support mechanisms. A meta-analysis of four randomized controlled trials confirmed that ALA improves [[Flow-Mediated Dilation|endothelial function]] and reduces biomarkers of [[Oxidative Stress|oxidative damage]] (F2-isoprostanes, [[Malondialdehyde]]) in patients with [[Cardiovascular Disease|cardiovascular risk factors]]. Emerging evidence also supports ALA in [[Diabetes Mellitus|gestational diabetes]], [[Age-Related Macular Degeneration]], and as an adjunct in [[Metformin|metformin]] therapy by reducing [[Reactive Oxygen Species|oxidative]] side effects.
-
-## Connections
-- [[NRF2]]: ALA is a potent Nrf2 activator, inducing endogenous antioxidant defenses.
-- [[AMPK]]: ALA activates AMPK, linking it to energy metabolism.
-- [[Diabetic Neuropathy]]: The best-established clinical application of ALA.
-- [[Mitochondria]]: Biosynthesis occurs in mitochondria; ALA supports mitochondrial function.
-- [[Apoptosis]]: ALA modulates apoptotic thresholds via caspase regulation.
 
 ### Updated Linking Summary:
 - New links added in this revision: [[Reactive Nitrogen Species]], [[Peroxynitrite]], [[NRF2]], [[Keap1]], [[AMPK]], [[Pro-inflammatory Cytokines]], [[TNF-alpha]], [[IL-1b]], [[Fatty acid oxidation]], [[Metabolic Syndromes]], [[Diabetic Neuropathy]], [[Malondialdehyde]], [[Age-Related Macular Degeneration]], [[Apoptosis]], [[Ascorbic Acid]], [[Diabetes Mellitus]]

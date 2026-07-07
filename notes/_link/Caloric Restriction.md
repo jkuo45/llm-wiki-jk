@@ -103,14 +103,16 @@ The epigenetic changes induced by CR converge on several critical pathways:
 - **[[Aging]]**: CR is the gold standard for interventions that extend lifespan and healthspan across species.
 - **[[SIRT1]]**: A primary mediator of the beneficial effects of caloric restriction on the epigenome.
 - **[[Cellular Senescence]]**: CR delays the accumulation of senescent cells by maintaining a more stable epigenetic state.
-
 - New links added: [[AMPK]], [[Aging]], [[Autophagic Cell Death]], [[Autophagy]], [[Cancer]], [[Cellular Homeostasis]], [[Cellular Senescence]], [[Chromatin]], [[DNA Methylation]], [[Epigenome]], [[HDAC]], [[Heterochromatin]], [[Histone Modification]], [[Inflammaging]], [[Longevity]], [[Neurodegenerative Disease]], [[SIRT1]], [[Sirtuins]]
-- Suggested new entity notes to create: [[AMPK]], [[Cellular Homeostasis]], [[DunedinPACE]], [[Longevity]], [[NAD+]], [[Telomere]], [[p16INK4A]]
 - Strong connections to strengthen: [[Caloric Restriction]] ↔ [[Aging]], [[Caloric Restriction]] ↔ [[Autophagy]], [[Caloric Restriction]] ↔ [[Longevity]], [[Caloric Restriction]] ↔ [[SIRT1]]
-
-**Caloric Restriction** (CR) is a **dietary regimen** in which an organism is provided with **at least 20% fewer calories** than it would naturally consume *ad libitum*, while maintaining adequate nutrition. CR is the **only non-genetic method** that consistently increases maximal lifespan in mammals, and it represents one of the most powerful and reproducible interventions in the biology of aging.
-
-## Definition and Scope
+- [[Sir2 (yeast)]] — required for CR-mediated lifespan extension in yeast
+- [[SIRT3]] — upregulated by CR; mediates mitochondrial metabolic adaptations
+- [[SIRT4]] — downregulated by CR (opposite to SIRT1/3); increases GDH activity
+- [[NAD+]] — elevated by CR; mechanistically links CR to sirtuin activation
+- [[Resveratrol]] — CR mimetic; activates SIRT1 pharmacologically
+- [[PGC-1α]] — key downstream effector of SIRT1 under CR conditions
+- [[Longevity]] — CR is the most reproducible longevity intervention
+- [[TOR (Target of Rapamycin)]] — sirtuin-independent CR-longevity pathway## Definition and Scope
 
 CR was first systematically described by McCay et al. (1935) and has since been demonstrated across a remarkable range of taxa:
 - *Saccharomyces cerevisiae* (yeast): 0.5% vs. standard 2% (w/v) glucose
@@ -165,18 +167,6 @@ When cells become nutrient-starved, sirtuin-**independent** pathways such as **T
 ## CR Mimetics
 
 [[Resveratrol]] is the prototypical **CR mimetic** — a small molecule that recapitulates many physiological effects of CR (improved insulin sensitivity, mitochondrial biogenesis, metabolic reprogramming) via SIRT1 activation without requiring food restriction.
-
-## Connections
-
-- [[SIRT1]] — primary mammalian sirtuin activated by CR; mediates most CR benefits
-- [[Sir2 (yeast)]] — required for CR-mediated lifespan extension in yeast
-- [[SIRT3]] — upregulated by CR; mediates mitochondrial metabolic adaptations
-- [[SIRT4]] — downregulated by CR (opposite to SIRT1/3); increases GDH activity
-- [[NAD+]] — elevated by CR; mechanistically links CR to sirtuin activation
-- [[Resveratrol]] — CR mimetic; activates SIRT1 pharmacologically
-- [[PGC-1α]] — key downstream effector of SIRT1 under CR conditions
-- [[Longevity]] — CR is the most reproducible longevity intervention
-- [[TOR (Target of Rapamycin)]] — sirtuin-independent CR-longevity pathway
 
 ## Linking Summary
 

@@ -44,26 +44,18 @@ relations:
 EGFR is a major drug target. Tyrosine kinase inhibitors ([[erlotinib]], [[gefitinib]]) and monoclonal antibodies ([[cetuximab]]) are used clinically.
 
 ## Connections
-
 - [[PI3K]]/[[Akt]] — Downstream signaling
 - [[MAPK]] — Downstream signaling
 - [[Ivermectin]] — Combined with [[erlotinib]] achieves synergistic killing
 - [[melittin]] — Inhibits EGFR phosphorylation
-
-## Additional Content from Topic Directory
+- [[triple-negative breast cancer]]: A subtype often overexpressing EGFR.
+- [[Akt]]: A downstream signaling component.## Additional Content from Topic Directory
 
 **Epidermal growth factor receptor** (EGFR; also known as ErbB-1 or HER1) is a transmembrane protein that is a receptor for members of the epidermal growth factor family (EGF family) of extracellular protein ligands.
 
 ## Role in Cancer
 - **Overexpression**: Frequently overexpressed in various cancers, including [[triple-negative breast cancer]] (approx. 50% of cases), [[Lung Cancer]], [[glioblastoma]], and [[Colorectal Cancer]].
 - **Signaling**: Activation of EGFR leads to downstream signaling through pathways like [[PI3K]]/[[Akt]] and [[MAPK]], promoting cell proliferation and survival.
-
-## Connections
-- [[triple-negative breast cancer]]: A subtype often overexpressing EGFR.
-- [[melittin]]: Shown to inhibit EGFR phosphorylation.
-- [[Ivermectin]]: Combined with [[erlotinib]], ivermectin achieves a synergistic killing effect by regulating EGFR activity. It also reverses [[Multidrug Resistance]] by inhibiting EGFR and the downstream [[ERK]]/[[Akt]]/[[NF-kappa B]] pathway.
-- [[PI3K]]: A downstream signaling component.
-- [[Akt]]: A downstream signaling component.
 
 ## Linking Summary
 

@@ -70,16 +70,23 @@ Key hallmarks include sustained proliferative signaling, evasion of growth suppr
 Approaches include chemotherapy ([[Cisplatin]], [[docetaxel]]), targeted therapy ([[trastuzumab]]), [[Drug Repositioning]] ([[Ivermectin]], [[Fenbendazole]]), and natural products ([[melittin]]).
 
 ## Connections
-
 - [[Aging]] — Primary risk factor; shared epigenetic mechanisms
 - [[Oxidative Stress]] — Drives DNA damage and mutagenesis
 - [[Autophagy]] — Dual role: tumor suppression and survival mechanism
 - [[Apoptosis]] — Evasion is a hallmark
 - [[Breast Cancer]], [[Colorectal Cancer]], [[Renal Cell Carcinoma]] — Subtypes
-
-
-
-## Additional Content from Topic Directory
+- [[Reactive Oxygen Species]]
+- [[Ascorbic Acid]] (as a potential prooxidant therapy)
+- **[[DNA Methylation]]**: The primary epigenetic mark that is dysregulated in both aging and cancer.
+- **[[Cellular Senescence]]**: A dual-role process that both prevents and promotes cancer depending on the context.
+- **[[Genomic Instability]]**: A consequence of epigenetic erosion that facilitates the acquisition of cancer-driving mutations.
+- [[Yamanaka Factors]]: Used in research to reprogram cancer cells.
+- [[c-Myc]]: An oncogenic transcription factor used in cellular reprogramming.
+- [[Klf4]]: Another transcription factor with oncogenic potential.
+- [[Cellular Reprogramming]]: The process of changing cell identity, investigated for cancer therapy.
+- **Molecular Targets**: Many therapeutic strategies target [[Integrins]] using motifs like the [[RGD peptide]] or the [[CendR motif]] to enhance drug delivery.
+- **Cellular Environment**: The [[ECM]] (Extracellular Matrix) and proteins like [[Fibronectin]], [[Fibrinogen]], and [[Vitronectin]] play crucial roles in tumor structure and signaling.
+- **Novel Mechanisms**: Agents like [[Ivermectin]] may affect [[Glutamate-gated Cl- channels]] or [[GABA]] receptors, suggesting complex mechanisms beyond traditional pathways.## Additional Content from Topic Directory
 
 # Cancer
 
@@ -201,35 +208,11 @@ Treatment strategies include traditional [[Cisplatin]] and [[docetaxel]], as wel
 One of the significant challenges in treatment is [[Multidrug Resistance]], which often leads to treatment failure and recurrence.
 
 
-## Connections
-- [[Oxidative Stress]]
-- [[Reactive Oxygen Species]]
-- [[Ascorbic Acid]] (as a potential prooxidant therapy)
+### Linking Summary
 
-
-- **[[DNA Methylation]]**: The primary epigenetic mark that is dysregulated in both aging and cancer.
-- **[[Cellular Senescence]]**: A dual-role process that both prevents and promotes cancer depending on the context.
-- **[[Genomic Instability]]**: A consequence of epigenetic erosion that facilitates the acquisition of cancer-driving mutations.
-
-
-- [[Yamanaka Factors]]: Used in research to reprogram cancer cells.
-- [[c-Myc]]: An oncogenic transcription factor used in cellular reprogramming.
-- [[Klf4]]: Another transcription factor with oncogenic potential.
-- [[Cellular Reprogramming]]: The process of changing cell identity, investigated for cancer therapy.
-
-
-- **Molecular Targets**: Many therapeutic strategies target [[Integrins]] using motifs like the [[RGD peptide]] or the [[CendR motif]] to enhance drug delivery.
-- **Cellular Environment**: The [[ECM]] (Extracellular Matrix) and proteins like [[Fibronectin]], [[Fibrinogen]], and [[Vitronectin]] play crucial roles in tumor structure and signaling.
-- **Novel Mechanisms**: Agents like [[Ivermectin]] may affect [[Glutamate-gated Cl- channels]] or [[GABA]] receptors, suggesting complex mechanisms beyond traditional pathways.
-
-
-### Linking Summary:
 - New links added: [[8-oxo-2'-deoxyguanosine]], [[Aging]], [[Ascorbic Acid]], [[Autophagy]], [[Cellular Reprogramming]], [[Cellular Senescence]], [[CpG Island]], [[DNA Methylation]], [[DNA Damage]], [[Epigenetic Clock]], [[Epigenetics]], [[Genomic Instability]], [[Heterochromatin]], [[Klf4]], [[LINE-1]], [[Oxidative Stress]], [[Reactive Oxygen Species]], [[SASP]], [[Transposable Elements]], [[Yamanaka Factors]], [[c-Myc]], [[oncogene activation]]
 - Suggested new entity notes to create: [[Apoptosis]], [[DNA Damage]], [[Metastasis]], [[Oncogene]], [[Telomerase]], [[Telomere]], [[Tumor Suppressor]], [[oncogene activation]]
-- Strong connections to strengthen: [[Cancer]] ↔ [[Aging]], [[Cancer]] ↔ [[DNA Methylation]], [[Cancer]] ↔ [[Metabolic Reprogramming]], [[Cancer]] ↔ [[Oxidative Stress]], [[c-Myc]] ↔ [[Cancer]]
-
-
-## Linking Summary
+- Strong connections to strengthen: [[Cancer]] ↔ [[Aging]], [[Cancer]] ↔ [[DNA Methylation]], [[Cancer]] ↔ [[Metabolic Reprogramming]], [[Cancer]] ↔ [[Oxidative Stress]], [[c-Myc]] ↔ [[Cancer]]## Linking Summary
 
 - New links added: [[Aging]], [[Oxidative Stress]], [[Autophagy]], [[Apoptosis]], [[PI3K]], [[Akt]], [[mTOR]], [[MAPK]], [[Wnt]], [[NF-κB]], [[Breast Cancer]], [[Colorectal Cancer]], [[Renal Cell Carcinoma]], [[Ivermectin]], [[Fenbendazole]], [[melittin]], [[Drug Repositioning]]
 - Suggested new entity notes to create: [[Metastasis]], [[Tumor Microenvironment]], [[Immunotherapy]], [[Oncogene]], [[Tumor Suppressor]]
@@ -262,16 +245,6 @@ Key hallmarks include sustained proliferative signaling, evasion of growth suppr
 
 Approaches include chemotherapy ([[Cisplatin]], [[docetaxel]]), targeted therapy ([[trastuzumab]]), [[Drug Repositioning]] ([[Ivermectin]], [[Fenbendazole]]), and natural products ([[melittin]]).
 
-## Connections
-
-- [[Aging]] — Primary risk factor; shared epigenetic mechanisms
-- [[Oxidative Stress]] — Drives DNA damage and mutagenesis
-- [[Autophagy]] — Dual role: tumor suppression and survival mechanism
-- [[Apoptosis]] — Evasion is a hallmark
-- [[Breast Cancer]], [[Colorectal Cancer]], [[Renal Cell Carcinoma]] — Subtypes
-
-
-
 ## Additional Content from Topic Directory
 
 # Cancer
@@ -392,34 +365,6 @@ Research in this knowledge base covers various malignancies, including:
 Treatment strategies include traditional [[Cisplatin]] and [[docetaxel]], as well as targeted therapies like [[trastuzumab]]. Recent research has explored [[Drug Repositioning]], investigating the anticancer potential of antiparasitic agents such as [[Ivermectin]] and the [[Benzimidazole]] class (e.g., [[Fenbendazole]], [[Mebendazole]], [[Albendazole]], and [[Oxfendazole]]). Natural products like [[Honeybee venom]] and its active component [[melittin]] are also under investigation for their ability to suppress growth factor receptors.
 
 One of the significant challenges in treatment is [[Multidrug Resistance]], which often leads to treatment failure and recurrence.
-
-
-## Connections
-- [[Oxidative Stress]]
-- [[Reactive Oxygen Species]]
-- [[Ascorbic Acid]] (as a potential prooxidant therapy)
-
-
-- **[[DNA Methylation]]**: The primary epigenetic mark that is dysregulated in both aging and cancer.
-- **[[Cellular Senescence]]**: A dual-role process that both prevents and promotes cancer depending on the context.
-- **[[Genomic Instability]]**: A consequence of epigenetic erosion that facilitates the acquisition of cancer-driving mutations.
-
-
-- [[Yamanaka Factors]]: Used in research to reprogram cancer cells.
-- [[c-Myc]]: An oncogenic transcription factor used in cellular reprogramming.
-- [[Klf4]]: Another transcription factor with oncogenic potential.
-- [[Cellular Reprogramming]]: The process of changing cell identity, investigated for cancer therapy.
-
-
-- **Molecular Targets**: Many therapeutic strategies target [[Integrins]] using motifs like the [[RGD peptide]] or the [[CendR motif]] to enhance drug delivery.
-- **Cellular Environment**: The [[ECM]] (Extracellular Matrix) and proteins like [[Fibronectin]], [[Fibrinogen]], and [[Vitronectin]] play crucial roles in tumor structure and signaling.
-- **Novel Mechanisms**: Agents like [[Ivermectin]] may affect [[Glutamate-gated Cl- channels]] or [[GABA]] receptors, suggesting complex mechanisms beyond traditional pathways.
-
-
-### Linking Summary:
-- New links added: [[8-oxo-2'-deoxyguanosine]], [[Aging]], [[Ascorbic Acid]], [[Autophagy]], [[Cellular Reprogramming]], [[Cellular Senescence]], [[CpG Island]], [[DNA Methylation]], [[DNA Damage]], [[Epigenetic Clock]], [[Epigenetics]], [[Genomic Instability]], [[Heterochromatin]], [[Klf4]], [[LINE-1]], [[Oxidative Stress]], [[Reactive Oxygen Species]], [[SASP]], [[Transposable Elements]], [[Yamanaka Factors]], [[c-Myc]], [[oncogene activation]]
-- Suggested new entity notes to create: [[Apoptosis]], [[DNA Damage]], [[Metastasis]], [[Oncogene]], [[Telomerase]], [[Telomere]], [[Tumor Suppressor]], [[oncogene activation]]
-- Strong connections to strengthen: [[Cancer]] ↔ [[Aging]], [[Cancer]] ↔ [[DNA Methylation]], [[Cancer]] ↔ [[Metabolic Reprogramming]], [[Cancer]] ↔ [[Oxidative Stress]], [[c-Myc]] ↔ [[Cancer]]
 
 
 ## Linking Summary

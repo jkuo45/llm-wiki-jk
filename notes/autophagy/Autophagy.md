@@ -46,17 +46,24 @@ Autophagy is a "double-edged sword": suppresses early tumorigenesis but supports
 Aging-associated [[DNA Methylation]] and [[Histone Modification]] repress autophagy genes (e.g., _Atg5_, _LC3B_, _Beclin1_). [[SIRT1]] deacetylates H4K16 to promote autophagy gene expression.
 
 ## Connections
-
 - [[Aging]] — Autophagy declines with age; its induction extends lifespan
 - [[SIRT1]] — Key nutrient sensor linking metabolism to autophagy control
 - [[Caloric Restriction]] — Potent autophagy inducer
 - [[Mitophagy]] — Selective mitochondrial autophagy
 - [[p62]] — Autophagy adapter protein
 - [[Lysosome]] — Terminal degradation compartment
-
-
-
-## Additional Content from Topic Directory
+- **[[Cellular Senescence]]**: Impaired autophagy is a major driver of the senescent state.
+- **[[Neurodegenerative Diseases]]**: The failure of autophagy to clear protein aggregates is a hallmark of diseases like Alzheimer's.
+- [[Ivermectin]]: Induces cytostatic autophagy by blocking the [[PAK1]]/[[Akt]] axis.
+- [[Akt]]: Central regulator of autophagy via [[mTOR]].
+- [[mTOR]]: Downstream target of Akt that inhibits autophagy when active.
+- [[Apoptosis]]: Autophagy and apoptosis often exhibit cross-talk in cancer cells.
+- **[[AMPK]]**: The master positive regulator of autophagy in response to low energy.
+- **[[Senescence]]**: Dysfunctional autophagy is a hallmark and driver of the senescent phenotype.
+- [[Lysosomal Biogenesis]] ↔ TFEB-driven process that expands autophagic capacity.
+- [[Ubiquitin-Proteasome System]] ↔ Complementary protein degradation pathway.
+- [[Proteostasis]] ↔ The network autophagy supports.
+- [[p62|p62]] ↔ Selective autophagy receptor that targets ubiquitinated cargo to the autophagosome.## Additional Content from Topic Directory
 
 # Autophagy
 
@@ -177,34 +184,12 @@ Autophagy can be modulated by:
 *   **Pharmacological Agents**: [[mTOR]] inhibitors ([[Rapamycin]], [[Rapalog]]), [[AMPK]] activators ([[Metformin]]), and [[Caloric Restriction Mimetics]] ([[Spermidine]]).
 
 
-## Connections
-- **[[SIRT1]]**: A key nutrient sensor that links metabolic status to the epigenetic control of autophagy.
-- **[[Cellular Senescence]]**: Impaired autophagy is a major driver of the senescent state.
-- **[[Neurodegenerative Diseases]]**: The failure of autophagy to clear protein aggregates is a hallmark of diseases like Alzheimer's.
+### Linking Summary
 
-
-- [[Ivermectin]]: Induces cytostatic autophagy by blocking the [[PAK1]]/[[Akt]] axis.
-- [[Akt]]: Central regulator of autophagy via [[mTOR]].
-- [[mTOR]]: Downstream target of Akt that inhibits autophagy when active.
-- [[Apoptosis]]: Autophagy and apoptosis often exhibit cross-talk in cancer cells.
-
-
-- **[[Lysosome]]**: The terminal organelle for autophagic degradation.
-- **[[mTOR]]**: The master negative regulator of autophagy.
-- **[[AMPK]]**: The master positive regulator of autophagy in response to low energy.
-- **[[Senescence]]**: Dysfunctional autophagy is a hallmark and driver of the senescent phenotype.
-- **[[Mitophagy]]**: A selective form of autophagy focusing on mitochondrial quality control.
-- **[[p62]]**: An autophagy adapter protein that links ubiquitinated cargo to the autophagosome.
-
-
-### Linking Summary:
 - New links added: [[Aging]], [[Alzheimer's Disease]], [[Cellular Senescence]], [[DNA Methylation]], [[DNA Methyltransferase]], [[Epigenetics]], [[Epigenome]], [[HDAC]], [[Histone Modification]], [[Lewy Bodies]], [[MicroRNA]], [[Neurodegenerative Diseases]], [[Neuromelanin]], [[Non-coding RNA]], [[Parkinson's Disease]], [[SIRT1]], [[Sirtuins]], [[Oxidative Stress]]
 - Suggested new entity notes to create: [[Atg5]], [[Autophagosome]], [[Beclin1]], [[Lysosome]], [[Mitophagy]], [[Proteostasis]]
 - Strong connections to strengthen: [[Autophagy]] ↔ [[Aging]], [[Autophagy]] ↔ [[Neuromelanin]]., [[Autophagy]] ↔ [[SIRT1]]
-
-
-
-## Additional Content from Topic Directory
+- New links added: [[TFEB|TFEB]], [[mTOR]], [[Proteostasis]], [[Neuromelanin]], [[Parkinson's Disease]], [[Alpha-synuclein]], [[Lewy Bodies]], [[Pathogenic Threshold of Neuromelanin]], [[Glucocerebrosidase]], [[Ambroxol]], [[Rapamycin]], [[Lysosomal Biogenesis]], [[Ubiquitin-Proteasome System]], [[p62|p62]]## Additional Content from Topic Directory
 
 # Autophagy
 
@@ -222,16 +207,6 @@ Impaired autophagy is a central feature of [[Parkinson's Disease]]:
 - [[Neuromelanin]]-filled autophagic structures may physically overwhelm the lysosomal system, pushing neurons toward the [[Pathogenic Threshold of Neuromelanin]].
 - Genetic risk factors such as [[Glucocerebrosidase]] (GBA) mutations impair lysosomal function and reduce autophagic capacity.
 - Compounds that enhance autophagy, such as [[Ambroxol]] and [[Rapamycin]], are being investigated as disease-modifying therapies.
-
-## Connections
-- [[Lysosomal Biogenesis]] ↔ TFEB-driven process that expands autophagic capacity.
-- [[Ubiquitin-Proteasome System]] ↔ Complementary protein degradation pathway.
-- [[Proteostasis]] ↔ The network autophagy supports.
-- [[p62|p62]] ↔ Selective autophagy receptor that targets ubiquitinated cargo to the autophagosome.
-
-### Linking Summary:
-- New links added: [[TFEB|TFEB]], [[mTOR]], [[Proteostasis]], [[Neuromelanin]], [[Parkinson's Disease]], [[Alpha-synuclein]], [[Lewy Bodies]], [[Pathogenic Threshold of Neuromelanin]], [[Glucocerebrosidase]], [[Ambroxol]], [[Rapamycin]], [[Lysosomal Biogenesis]], [[Ubiquitin-Proteasome System]], [[p62|p62]]
-- Strong connections to strengthen: [[Autophagy]] ↔ [[TFEB|TFEB]], [[Autophagy]] ↔ [[Proteostasis]]
 
 ## Linking Summary
 
@@ -270,17 +245,6 @@ Autophagy is a "double-edged sword": suppresses early tumorigenesis but supports
 
 Aging-associated [[DNA Methylation]] and [[Histone Modification]] repress autophagy genes (e.g., _Atg5_, _LC3B_, _Beclin1_). [[SIRT1]] deacetylates H4K16 to promote autophagy gene expression.
 
-## Connections
-
-- [[Aging]] — Autophagy declines with age; its induction extends lifespan
-- [[SIRT1]] — Key nutrient sensor linking metabolism to autophagy control
-- [[Caloric Restriction]] — Potent autophagy inducer
-- [[Mitophagy]] — Selective mitochondrial autophagy
-- [[p62]] — Autophagy adapter protein
-- [[Lysosome]] — Terminal degradation compartment
-
-
-
 ## Additional Content from Topic Directory
 
 # Autophagy
@@ -402,33 +366,6 @@ Autophagy can be modulated by:
 *   **Pharmacological Agents**: [[mTOR]] inhibitors ([[Rapamycin]], [[Rapalog]]), [[AMPK]] activators ([[Metformin]]), and [[Caloric Restriction Mimetics]] ([[Spermidine]]).
 
 
-## Connections
-- **[[SIRT1]]**: A key nutrient sensor that links metabolic status to the epigenetic control of autophagy.
-- **[[Cellular Senescence]]**: Impaired autophagy is a major driver of the senescent state.
-- **[[Neurodegenerative Diseases]]**: The failure of autophagy to clear protein aggregates is a hallmark of diseases like Alzheimer's.
-
-
-- [[Ivermectin]]: Induces cytostatic autophagy by blocking the [[PAK1]]/[[Akt]] axis.
-- [[Akt]]: Central regulator of autophagy via [[mTOR]].
-- [[mTOR]]: Downstream target of Akt that inhibits autophagy when active.
-- [[Apoptosis]]: Autophagy and apoptosis often exhibit cross-talk in cancer cells.
-
-
-- **[[Lysosome]]**: The terminal organelle for autophagic degradation.
-- **[[mTOR]]**: The master negative regulator of autophagy.
-- **[[AMPK]]**: The master positive regulator of autophagy in response to low energy.
-- **[[Senescence]]**: Dysfunctional autophagy is a hallmark and driver of the senescent phenotype.
-- **[[Mitophagy]]**: A selective form of autophagy focusing on mitochondrial quality control.
-- **[[p62]]**: An autophagy adapter protein that links ubiquitinated cargo to the autophagosome.
-
-
-### Linking Summary:
-- New links added: [[Aging]], [[Alzheimer's Disease]], [[Cellular Senescence]], [[DNA Methylation]], [[DNA Methyltransferase]], [[Epigenetics]], [[Epigenome]], [[HDAC]], [[Histone Modification]], [[Lewy Bodies]], [[MicroRNA]], [[Neurodegenerative Diseases]], [[Neuromelanin]], [[Non-coding RNA]], [[Parkinson's Disease]], [[SIRT1]], [[Sirtuins]], [[Oxidative Stress]]
-- Suggested new entity notes to create: [[Atg5]], [[Autophagosome]], [[Beclin1]], [[Lysosome]], [[Mitophagy]], [[Proteostasis]]
-- Strong connections to strengthen: [[Autophagy]] ↔ [[Aging]], [[Autophagy]] ↔ [[Neuromelanin]]., [[Autophagy]] ↔ [[SIRT1]]
-
-
-
 ## Additional Content from Topic Directory
 
 # Autophagy
@@ -447,16 +384,6 @@ Impaired autophagy is a central feature of [[Parkinson's Disease]]:
 - [[Neuromelanin]]-filled autophagic structures may physically overwhelm the lysosomal system, pushing neurons toward the [[Pathogenic Threshold of Neuromelanin]].
 - Genetic risk factors such as [[Glucocerebrosidase]] (GBA) mutations impair lysosomal function and reduce autophagic capacity.
 - Compounds that enhance autophagy, such as [[Ambroxol]] and [[Rapamycin]], are being investigated as disease-modifying therapies.
-
-## Connections
-- [[Lysosomal Biogenesis]] ↔ TFEB-driven process that expands autophagic capacity.
-- [[Ubiquitin-Proteasome System]] ↔ Complementary protein degradation pathway.
-- [[Proteostasis]] ↔ The network autophagy supports.
-- [[p62|p62]] ↔ Selective autophagy receptor that targets ubiquitinated cargo to the autophagosome.
-
-### Linking Summary:
-- New links added: [[TFEB|TFEB]], [[mTOR]], [[Proteostasis]], [[Neuromelanin]], [[Parkinson's Disease]], [[Alpha-synuclein]], [[Lewy Bodies]], [[Pathogenic Threshold of Neuromelanin]], [[Glucocerebrosidase]], [[Ambroxol]], [[Rapamycin]], [[Lysosomal Biogenesis]], [[Ubiquitin-Proteasome System]], [[p62|p62]]
-- Strong connections to strengthen: [[Autophagy]] ↔ [[TFEB|TFEB]], [[Autophagy]] ↔ [[Proteostasis]]
 
 ## Linking Summary
 
