@@ -13,7 +13,6 @@ aliases: [H1, Linker Histone H1]
 
 sources:
 - PMID:19202068
-target: SIRT1
 
 ---
 

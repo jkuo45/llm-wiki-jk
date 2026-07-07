@@ -12,7 +12,6 @@ aliases: [SirReal2, SirReal-2]
 
 sources:
 - s41392-022-01257-8
-target: SIRT2
 
 ---
 

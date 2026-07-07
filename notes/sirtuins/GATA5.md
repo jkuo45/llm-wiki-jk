@@ -13,7 +13,6 @@ aliases: [GATA5, GATA Binding Protein 5, GATA transcription factor 5]
 sources:
 - Wang 2020
 - Liu 2021
-target: SIRT6
 
 ---
 

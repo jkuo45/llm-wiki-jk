@@ -14,7 +14,6 @@ source: https://en.wikipedia.org/wiki/Tumor_microenvironment
 aliases:
   - TME
   - Tumor Microenvironment
-entity_type_2: Anatomical Structure
 ---
 
 # Tumour Microenvironment

@@ -6,9 +6,9 @@ created: 2026-05-09
 updated: 2026-07-07
 tags:
   - oxidative-stress
-  - biomarker
+  - biological-molecule
   - lipid-peroxidation
-  - metabolite
+  - biological-molecule
 aliases: [MDA]
 ---
 

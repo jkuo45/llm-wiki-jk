@@ -12,7 +12,7 @@ tags:
   - onchocerciasis
   - parasite
   - vector-borne
-  - microorganism
+  - organism
 aliases:
   - River Blindness worm
   - Filarial worm

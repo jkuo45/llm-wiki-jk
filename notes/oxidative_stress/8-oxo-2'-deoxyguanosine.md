@@ -8,9 +8,9 @@ created: 2026-05-09
 updated: 2026-07-04
 tags:
   - oxidative-stress
-  - biomarker
+  - biological-molecule
   - dna-damage
-  - metabolite
+  - biological-molecule
 aliases: [8-oxodG, 8-OHdG, 8-hydroxy-2'-deoxyguanosine]
 ---
 # 8-oxo-2'-deoxyguanosine

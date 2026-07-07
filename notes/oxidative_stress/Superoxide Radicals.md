@@ -8,7 +8,7 @@ tags:
   - oxidative-stress
   - ros
   - mitochondria
-  - metabolite
+  - biological-molecule
 aliases: [superoxide, O₂•⁻, O2-]
 ---
 

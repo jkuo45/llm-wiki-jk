@@ -10,7 +10,7 @@ tags:
   - oxidative-stress
   - cell-membrane
   - lipid-peroxidation
-  - metabolite
+  - biological-molecule
 aliases: [Lipids]
 ---
 # Lipids

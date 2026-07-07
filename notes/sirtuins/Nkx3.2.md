@@ -12,7 +12,6 @@ aliases: [Nkx3-2, Nkx3.2, Bapx1, NK3 homeobox 2]
 
 sources:
 - s41392-022-01257-8
-target: SIRT6
 
 ---
 

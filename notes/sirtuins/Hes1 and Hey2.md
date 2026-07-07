@@ -12,7 +12,6 @@ aliases: [HES1, HEY2, bHLH repressors]
 
 sources:
 - PMID:17202159
-target: SIRT1
 
 ---
 

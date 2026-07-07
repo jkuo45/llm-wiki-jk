@@ -148,7 +148,9 @@ If you'd like, I can dive deeper into specific NP types (e.g., liposomes, polyme
 
 
 ---
-## Dietary Fisetin and Its Role in the Senolytic ContextFisetin is a flavonol (a type of flavonoid) found naturally in various fruits and vegetables. While it shows promising senolytic (and senomorphic) activity in preclinical models, achieving therapeutic effects through diet alone is extremely difficult due to low concentrations and poor bioavailability.
+## Dietary Fisetin and Its Role in the Senolytic Context
+
+Fisetin is a flavonol (a type of flavonoid) found naturally in various fruits and vegetables. While it shows promising senolytic (and senomorphic) activity in preclinical models, achieving therapeutic effects through diet alone is extremely difficult due to low concentrations and poor bioavailability.
 
 ### Top Dietary Sources of Fisetin
 
@@ -157,20 +159,26 @@ If you'd like, I can dive deeper into specific NP types (e.g., liposomes, polyme
 - Other sources — Persimmons, grapes (darker varieties), onions (yellow/red), cucumbers, kiwi, lotus root, peaches.
 Realistic intake: Average daily dietary fisetin in Japan is only ~0.4 mg/day. To approach even low supplemental doses (e.g., hundreds of mg), you would need to consume impractical amounts — like over a kilogram of strawberries daily. Heat processing can degrade it, so fresh or frozen strawberries are preferable.
 
-### Bioavailability Challenges and Dietary EnhancementsFisetin is lipophilic (fat-soluble) but has inherently low oral bioavailability due to rapid metabolism (glucuronidation/sulfation), poor solubility, and first-pass effects. Most of it is quickly conjugated and excreted.Dietary strategies to improve absorption:
+### Bioavailability Challenges and Dietary Enhancements
+
+Fisetin is lipophilic (fat-soluble) but has inherently low oral bioavailability due to rapid metabolism (glucuronidation/sulfation), poor solubility, and first-pass effects. Most of it is quickly conjugated and excreted.Dietary strategies to improve absorption:
 
 - Take with a meal containing healthy fats (e.g., avocado, olive oil, nuts) — this can enhance uptake of fat-soluble flavonoids.
 - Pair with other compounds: Piperine (black pepper) or quercetin-rich foods may inhibit metabolizing enzymes and boost bioavailability.
 - Formulation matters for supplements (liposomal, nanoparticle, or micellar forms show better results in studies).
 In the protocol context (intermittent senolytic dosing), people typically use concentrated supplements rather than relying on food sources.
 
-### Fisetin in Aging Research (Referencing aging-us.com)The 2018 landmark study (Yousefzadeh et al., often cited via Aging/EBioMedicine channels) showed fisetin as the most potent senolytic among 10 flavonoids tested. In old mice, intermittent high-dose fisetin reduced senescence markers across tissues, improved tissue function, and extended median/maximum lifespan. It works partly by modulating PI3K/AKT, BCL-2 family (pro-survival pathways in senescent cells), and antioxidant pathways (e.g., upregulating glutathione).
+### Fisetin in Aging Research (Referencing aging-us.com)
+
+The 2018 landmark study (Yousefzadeh et al., often cited via Aging/EBioMedicine channels) showed fisetin as the most potent senolytic among 10 flavonoids tested. In old mice, intermittent high-dose fisetin reduced senescence markers across tissues, improved tissue function, and extended median/maximum lifespan. It works partly by modulating PI3K/AKT, BCL-2 family (pro-survival pathways in senescent cells), and antioxidant pathways (e.g., upregulating glutathione).
 
 Human data is emerging but limited:
 
 - Small trials (e.g., Mayo Clinic-related) explore fisetin for frailty and inflammation, often at ~20 mg/kg for short "pulse" periods.
 - One Aging-US longitudinal study looked at Dasatinib + Quercetin + Fisetin (DQF) and its effects on epigenetic clocks.
-### Synergy with GlyNAC (BCM Context)GlyNAC (from Baylor College of Medicine studies) corrects glutathione (GSH) deficiency common in aging, reduces oxidative stress, improves mitochondrial function, lowers inflammation, and enhances strength, gait, cognition, and other outcomes in older adults. Benefits reverse after stopping.
+### Synergy with GlyNAC (BCM Context)
+
+GlyNAC (from Baylor College of Medicine studies) corrects glutathione (GSH) deficiency common in aging, reduces oxidative stress, improves mitochondrial function, lowers inflammation, and enhances strength, gait, cognition, and other outcomes in older adults. Benefits reverse after stopping.
 
 Complementary roles in the protocol:
 

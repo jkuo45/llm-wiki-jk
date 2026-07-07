@@ -12,7 +12,6 @@ aliases: [Homeobox A10]
 
 sources:
 - PMID:17655269
-target: SIRT2
 
 ---
 

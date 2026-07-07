@@ -11,7 +11,6 @@ tags:
 aliases: [CREB, CREB1, cAMP Response Element Binding Protein 1]
 sources:
   - Michan 2007
-target: CREB
 ---
 
 # cAMP Response Element Binding Protein (CREB)

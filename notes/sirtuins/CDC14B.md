@@ -11,7 +11,6 @@ tags:
 aliases: [CDC14B, Dual Specificity Protein Phosphatase CDC14B]
 sources:
   - PMID:19136623
-target: SIRT2
 ---
 
 # CDC14B

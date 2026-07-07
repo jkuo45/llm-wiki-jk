@@ -10,7 +10,6 @@ aliases: [Smad7, SMAD7, MADH7]
 
 sources:
 - PMID:17098745
-target: SIRT1
 ---
 
 # Smad7

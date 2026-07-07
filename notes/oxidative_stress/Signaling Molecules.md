@@ -8,7 +8,7 @@ updated: 2026-07-04
 tags:
   - oxidative-stress
   - redox-signaling
-  - metabolite
+  - biological-molecule
 aliases: [chemical messengers, second messengers]
 ---
 # Signaling Molecules

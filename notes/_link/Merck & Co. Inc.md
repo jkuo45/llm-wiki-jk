@@ -7,7 +7,7 @@ type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - imaging-technique
+  - analytical-technique
 aliases: []
 ---
 # Merck & Co. Inc.

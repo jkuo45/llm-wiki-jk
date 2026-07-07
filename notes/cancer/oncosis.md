@@ -13,7 +13,6 @@ tags:
 source: https://en.wikipedia.org/wiki/Oncosis
 aliases:
   - oncotis
-entity_type_2: Pathological State
 ---
 
 # Oncosis

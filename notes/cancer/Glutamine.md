@@ -5,7 +5,7 @@ type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - amino-acid
+  - chemical-compound
   - metabolism
   - cancer-metabolism
   - fuel-source
@@ -13,7 +13,6 @@ source: https://en.wikipedia.org/wiki/Glutamine
 aliases:
   - Gln
   - L-Glutamine
-entity_type_2: Metabolite
 ---
 
 # Glutamine

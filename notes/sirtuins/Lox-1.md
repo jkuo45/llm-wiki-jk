@@ -13,7 +13,6 @@ aliases: [OLR1, Lectin-like Oxidized LDL Receptor 1, Oxidized LDL receptor 1, LO
 sources:
 - Li 2015
 - Zhang 2017
-target: SIRT1
 
 ---
 

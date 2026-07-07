@@ -6,10 +6,9 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - adverse-effect
+  - medical-condition
 aliases: []
 sources: []
-target: Adrenochrome
 
 ---
 

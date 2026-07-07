@@ -13,7 +13,6 @@ aliases: [LDHB, Lactate Dehydrogenase B, LDH-H, LDH heart subunit]
 sources:
 - Kumar 2023
 - Shi 2023
-target: SIRT5
 
 ---
 

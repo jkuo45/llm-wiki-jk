@@ -9,7 +9,7 @@ tags:
   - alzheimer's-disease
   - neurodegeneration
   - amyloid
-  - peptide
+  - chemical-compound
 aliases:
   - Aβ
   - Amyloid beta

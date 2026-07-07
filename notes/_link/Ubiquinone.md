@@ -7,7 +7,7 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - metabolite
+  - biological-molecule
 aliases: [Coenzyme Q10, CoQ10]
 
 ---

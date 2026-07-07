@@ -11,7 +11,6 @@ tags:
 aliases: [DAF-16, abnormal dauer formation 16, C. elegans DAF-16]
 sources:
   - PMID:11242085
-target: Sir2 (yeast)
 ---
 
 # DAF-16

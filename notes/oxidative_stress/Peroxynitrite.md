@@ -10,7 +10,7 @@ tags:
   - oxidative-stress
   - rns
   - nitrative-stress
-  - metabolite
+  - biological-molecule
 aliases: [ONOO−, peroxynitrite anion]
 ---
 # Peroxynitrite

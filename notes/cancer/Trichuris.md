@@ -9,7 +9,7 @@ tags:
   - nematode
   - helminth
   - soil-transmitted-helminths
-  - microorganism
+  - organism
 aliases: [Whipworm]
 ---
 

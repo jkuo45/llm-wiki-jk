@@ -10,7 +10,6 @@ tags:
   - chemical-compound
 aliases: [Dorsomorphin, Dorsomorphin dihydrochloride, BML-275]
 sources: []
-target: AMPK
 ---
 
 # Compound C

@@ -11,7 +11,6 @@ tags:
 aliases: [UBCS039]
 
 sources: []
-target: SIRT6
 
 ---
 

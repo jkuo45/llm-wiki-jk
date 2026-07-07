@@ -10,7 +10,7 @@ tags:
   - oxidative-stress
   - ros
   - dna-damage
-  - metabolite
+  - biological-molecule
 aliases: [•OH, hydroxyl radical, OH radical]
 ---
 # Hydroxyl Radicals

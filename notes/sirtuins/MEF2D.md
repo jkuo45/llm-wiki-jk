@@ -12,7 +12,6 @@ aliases: [MEF2D, Myocyte-Specific Enhancer Factor 2D]
 
 sources:
 - PMID:16166628
-target: SIRT1
 
 ---
 

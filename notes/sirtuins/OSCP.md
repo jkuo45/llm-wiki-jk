@@ -11,7 +11,6 @@ aliases: [ATP5PO, ATP Synthase Peripheral Stalk Subunit OSCP, Oligomycin Sensiti
 sources:
 - Yang 2021
 - Luo 2022
-target: SIRT3
 ---
 
 # OSCP

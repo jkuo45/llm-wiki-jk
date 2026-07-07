@@ -10,7 +10,7 @@ tags:
   - oxidative-stress
   - ros
   - photosensitization
-  - metabolite
+  - biological-molecule
 aliases: [¹O₂, 1O2]
 ---
 # Singlet Oxygen

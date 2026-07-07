@@ -7,7 +7,7 @@ type: entity
 created: 2026-07-05
 updated: 2026-07-05
 tags:
-  - metabolite
+  - biological-molecule
   - nad+
 aliases:
   - Nicotinamide Mononucleotide

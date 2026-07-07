@@ -9,7 +9,7 @@ updated: 2026-07-04
 tags:
   - oxidative-stress
   - nitric-oxide
-  - amino-acid
+  - chemical-compound
   - chemical-compound
 aliases: [arginine, 2-amino-5-guanidinopentanoic acid]
 ---
