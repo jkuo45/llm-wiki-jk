@@ -13,10 +13,10 @@ tags: [oxidative_stress, cell_membrane, lipid_peroxidation]
 # Lipids
 
 ## Definition
-Lipids are a diverse group of organic compounds that are insoluble in water but soluble in organic solvents. They include fats, oils, waxes, and certain vitamins. In a biological context, they are essential components of [[Cell membranes]] and serve as energy storage molecules.
+Lipids are a diverse group of organic compounds that are insoluble in water but soluble in organic solvents. They include fats, oils, waxes, and certain vitamins. In a biological context, they are essential components of [[Cell Membranes]] and serve as energy storage molecules.
 
 ## Role in Oxidative Stress
-Lipids are highly susceptible to [[Oxidative Stress]], particularly those containing polyunsaturated fatty acids. This process, known as [[Lipid Peroxidation]], involves a free radical chain reaction that leads to the degradation of [[Cell membranes]] and the formation of toxic by-products like [[Malondialdehyde]] (MDA).
+Lipids are highly susceptible to [[Oxidative Stress]], particularly those containing polyunsaturated fatty acids. This process, known as [[Lipid Peroxidation]], involves a free radical chain reaction that leads to the degradation of [[Cell Membranes]] and the formation of toxic by-products like [[Malondialdehyde]] (MDA).
 
 ## Connections
 - [[Oxidative Stress]]: Lipids are one of the primary targets of ROS-induced damage.
@@ -24,8 +24,8 @@ Lipids are highly susceptible to [[Oxidative Stress]], particularly those contai
 - [[Atherosclerosis]]: Oxidation of lipids (specifically LDL) is a key trigger for plaque formation.
 
 ## Linking Summary
-- New links added: [[Cell membranes]], [[Oxidative Stress]], [[Lipid Peroxidation]], [[Malondialdehyde]], [[Atherosclerosis]]
-- Suggested new entity notes to create: [[Cell membranes]]
+- New links added: [[Cell Membranes]], [[Oxidative Stress]], [[Lipid Peroxidation]], [[Malondialdehyde]], [[Atherosclerosis]]
+- Suggested new entity notes to create: [[Cell Membranes]]
 - Strong connections to strengthen: [[Lipids]] ↔ [[Lipid Peroxidation]]
 
 ## Detailed Lipid Peroxidation Cascade

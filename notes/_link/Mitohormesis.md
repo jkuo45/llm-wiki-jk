@@ -51,7 +51,7 @@ The NAD⁺-dependent sirtuin family links mitochondrial stress to metabolic adap
 ## Time Course of Adaptive Responses
 The mitohormetic response unfolds in discrete temporal phases:
 1. **Acute (0–2 h)**: mROS burst, [[HIF-1α]] stabilization, transient [[AMPK]] activation.
-2. **Intermediate (2–12 h)**: [[NRF2]] nuclear translocation, [[HO-1]] and [[NQO1]] induction, [[ATG]] gene upregulation.
+2. **Intermediate (2–12 h)**: [[NRF2]] nuclear translocation, [[HO-1]] and [[NQO1]] induction, [[Atg]] gene upregulation.
 3. **Late (12–48 h)**: [[PGC1-α]]-dependent mitochondrial biogenesis, [[UPRmt]] activation, [[Mitophagy]] clearance of damaged organelles.
 4. **Persistent (days–weeks)**: Metabolic reprogramming toward [[Oxidative Phosphorylation]], enhanced [[Fatty acid oxidation]], increased mitochondrial network connectivity.
 ## Hormetic Window Concept
@@ -79,6 +79,6 @@ The "hormetic window" defines the dose range over which mitochondrial stress is 
 - [[NRF2]] — Activated downstream of mitohormetic signals
 
 ## Linking Summary
-- New links added: [[Oxidative Stress]], [[Exercise]], [[Caloric Restriction]], [[Metformin]], [[NRF2]], [[Mitochondria]], [[Hormesis]], [[Mitochondrial Unfolded Protein Response]], [[Retrograde Response]], [[Mitokines]], [[Humanin]], [[Catalase]], [[ATF4]], [[ATF5]], [[CHOP]], [[DELE1]], [[OMA1]], [[OPA1]], [[HRI]], [[Integrated Stress Response]], [[GDF15]], [[PGC1-α]], [[AMPK]], [[SIRT1]], [[SIRT3]], [[PPARγ]], [[ERRalpha]], [[NRF1]], [[SOD2]], [[IDH2]], [[NAD+]], [[NADH]], [[FOXO]], [[FOXO3a]], [[Mitochondrial permeability transition pore]], [[HIF-1α]], [[HO-1]], [[NQO1]], [[ATG]], [[Uncoupling protein]], [[Mitochondrial Dynamics]], [[Peroxiredoxin]], [[Glutathione Peroxidase]], [[PTEN]], [[PTP1B]], [[Akt]], [[JNK]], [[Aquaporins]], [[Rotenone]], [[Antimycin A]], [[Oligomycin]], [[Resveratrol]], [[AICAR]], [[SRT1720]], [[Menadione]], [[Carbazochrome]], [[Hormetic Window]], [[Redox Vaccination]]
+- New links added: [[Oxidative Stress]], [[Exercise]], [[Caloric Restriction]], [[Metformin]], [[NRF2]], [[Mitochondria]], [[Hormesis]], [[Mitochondrial Unfolded Protein Response]], [[Retrograde Response]], [[Mitokines]], [[Humanin]], [[Catalase]], [[ATF4]], [[ATF5]], [[CHOP]], [[DELE1]], [[OMA1]], [[OPA1]], [[HRI]], [[Integrated Stress Response]], [[GDF15]], [[PGC1-α]], [[AMPK]], [[SIRT1]], [[SIRT3]], [[PPARγ]], [[ERRalpha]], [[NRF1]], [[SOD2]], [[IDH2]], [[NAD+]], [[NADH]], [[FOXO]], [[FOXO3a]], [[Mitochondrial permeability transition pore]], [[HIF-1α]], [[HO-1]], [[NQO1]], [[Atg]], [[Uncoupling protein]], [[Mitochondrial Dynamics]], [[Peroxiredoxin]], [[Glutathione Peroxidase]], [[PTEN]], [[PTP1B]], [[Akt]], [[JNK]], [[Aquaporins]], [[Rotenone]], [[Antimycin A]], [[Oligomycin]], [[Resveratrol]], [[AICAR]], [[SRT1720]], [[Menadione]], [[Carbazochrome]], [[Hormetic Window]], [[Redox Vaccination]]
 - Suggested new entity notes to create: [[Mitochondrial Uncoupling]], [[ETC Complex I inhibition]], [[Mitohormetic Threshold]]
 - Strong connections to strengthen: [[Mitohormesis]] ↔ [[Exercise]], [[Mitochondria]] ↔ [[Mitohormesis]], [[Mitohormesis]] ↔ [[Hormetic Window]]

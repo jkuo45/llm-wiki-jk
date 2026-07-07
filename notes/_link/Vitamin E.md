@@ -33,5 +33,5 @@ Research has shown that [[COMT]] variants can impact the efficacy and safety of 
 
 ## Linking Summary
 - New links added: [[Oxidative Stress]], [[Atherosclerosis]], [[Asthma]], [[Lipid Peroxidation]], [[Alpha-tocopherol]], [[COMT]], [[Cancer]]., [[Cancer]]
-- Suggested new entity notes to create: [[Tocopherols]], [[Tocotrienols]], [[Cell membranes]]
+- Suggested new entity notes to create: [[Tocopherols]], [[Tocotrienols]], [[Cell Membranes]]
 - Strong connections to strengthen: [[Vitamin E]] ↔ [[Lipid Peroxidation]]

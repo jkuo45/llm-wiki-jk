@@ -11,7 +11,7 @@ aliases: [LPO]
 tags: [oxidative_stress, cell_membrane, free_radicals]
 ---
 # Lipid Peroxidation
-Lipid peroxidation is the process in which free radicals "steal" electrons from the lipids in [[Cell membranes]], resulting in cell damage. It leads to the formation of reactive products like [[Malondialdehyde]] and is a hallmark of [[Oxidative Stress]]. Antioxidants like [[Vitamin E]] are essential for inhibiting this process.
+Lipid peroxidation is the process in which free radicals "steal" electrons from the lipids in [[Cell Membranes]], resulting in cell damage. It leads to the formation of reactive products like [[Malondialdehyde]] and is a hallmark of [[Oxidative Stress]]. Antioxidants like [[Vitamin E]] are essential for inhibiting this process.
 
 ## Initiation, Propagation, and Termination
 Lipid peroxidation proceeds through three classical free radical chain reaction phases: initiation, propagation, and termination.
@@ -45,6 +45,6 @@ In [[Atherosclerosis]], the oxidative modification of LDL (oxLDL) by lipid perox
 ## Linking Summary
 - New links added: [[Hydroxyl Radicals]], [[Peroxynitrite]], [[Fenton Reaction]], [[Antioxidants]], [[Ascorbic Acid]], [[DNA]], [[Glutathione]], [[NRF2]], [[Mitochondria]], [[Apoptosis]], [[Macrophage]], [[CD36 Receptor]], [[NFKB]], [[Neurodegenerative Diseases]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Amyotrophic Lateral Sclerosis]], [[Ferroptosis]], [[Inflammation]], [[Cardiovascular Disease]]
 - Suggested new entity notes to create: [[4-Hydroxynonenal]], [[Isoprostanes]], [[Acrolein]], [[Oxidized LDL]], [[Calpain]]
-- New links added: [[Malondialdehyde]], [[Vitamin E]], [[Oxidative Stress]], [[Cell membranes]]
+- New links added: [[Malondialdehyde]], [[Vitamin E]], [[Oxidative Stress]], [[Cell Membranes]]
 - Suggested new entity notes to create: [[Free Radicals]], [[Membrane damage]]
 - Strong connections to strengthen: [[Lipid Peroxidation]] ↔ [[Vitamin E]]

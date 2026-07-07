@@ -109,12 +109,12 @@ Cancer is a group of diseases involving abnormal cell growth with the potential 
 
 
 ## Relation to Oxidative Stress
-[[Oxidative Stress]] can induce [[DNA Damage]] (e.g., [[8-oxo-2'-deoxyguanosine]]), leading to gene mutations and [[oncogene activation]].
+[[Oxidative Stress]] can induce [[DNA Damage]] (e.g., [[8-oxo-2'-deoxyguanosine]]), leading to gene mutations and [[Oncogene Activation]].
 
 
 ## Linking Summary:
-- New links added: [[Oxidative Stress]], [[8-oxo-2'-deoxyguanosine]], [[Reactive Oxygen Species]], [[Ascorbic Acid]], [[DNA Damage]], [[oncogene activation]]
-- Suggested new entity notes to create: [[oncogene activation]], [[DNA Damage]]
+- New links added: [[Oxidative Stress]], [[8-oxo-2'-deoxyguanosine]], [[Reactive Oxygen Species]], [[Ascorbic Acid]], [[DNA Damage]], [[Oncogene Activation]]
+- Suggested new entity notes to create: [[Oncogene Activation]], [[DNA Damage]]
 - Strong connections to strengthen: [[Cancer]] ↔ [[Oxidative Stress]]
 
 - New links added: [[Aging]], [[Epigenetics]], [[DNA Methylation]], [[LINE-1]], [[Heterochromatin]], [[Genomic Instability]], [[Transposable Elements]], [[CpG Island]], [[Cellular Senescence]], [[SASP]], [[Epigenetic Clock]].
@@ -212,8 +212,8 @@ One of the significant challenges in treatment is [[Multidrug Resistance]], whic
 - New links added: [[Aging]], [[Oxidative Stress]], [[Autophagy]], [[Apoptosis]], [[PI3K]], [[Akt]], [[mTOR]], [[MAPK]], [[Wnt]], [[NF-κB]], [[Breast Cancer]], [[Colorectal Cancer]], [[Renal Cell Carcinoma]], [[Ivermectin]], [[Fenbendazole]], [[melittin]], [[Drug Repositioning]]
 - Suggested new entity notes to create: [[Metastasis]], [[Tumor Microenvironment]], [[Immunotherapy]], [[Oncogene]], [[Tumor Suppressor]]
 - Strong connections to strengthen: [[Cancer]] ↔ [[Aging]], [[Cancer]] ↔ [[Oxidative Stress]]
-- New links added: [[8-oxo-2'-deoxyguanosine]], [[Aging]], [[Ascorbic Acid]], [[Autophagy]], [[Cellular Reprogramming]], [[Cellular Senescence]], [[CpG Island]], [[DNA Methylation]], [[DNA Damage]], [[Epigenetic Clock]], [[Epigenetics]], [[Genomic Instability]], [[Heterochromatin]], [[Klf4]], [[LINE-1]], [[Oxidative Stress]], [[Reactive Oxygen Species]], [[SASP]], [[Transposable Elements]], [[Yamanaka Factors]], [[c-Myc]], [[oncogene activation]]
-- Suggested new entity notes to create: [[Apoptosis]], [[DNA Damage]], [[Metastasis]], [[Oncogene]], [[Telomerase]], [[Telomere]], [[Tumor Suppressor]], [[oncogene activation]]# Cancer
+- New links added: [[8-oxo-2'-deoxyguanosine]], [[Aging]], [[Ascorbic Acid]], [[Autophagy]], [[Cellular Reprogramming]], [[Cellular Senescence]], [[CpG Island]], [[DNA Methylation]], [[DNA Damage]], [[Epigenetic Clock]], [[Epigenetics]], [[Genomic Instability]], [[Heterochromatin]], [[Klf4]], [[LINE-1]], [[Oxidative Stress]], [[Reactive Oxygen Species]], [[SASP]], [[Transposable Elements]], [[Yamanaka Factors]], [[c-Myc]], [[Oncogene Activation]]
+- Suggested new entity notes to create: [[Apoptosis]], [[DNA Damage]], [[Metastasis]], [[Oncogene]], [[Telomerase]], [[Telomere]], [[Tumor Suppressor]], [[Oncogene Activation]]# Cancer
 
 **Cancer** is a large group of diseases characterized by uncontrolled cell growth with the potential to invade or spread to other parts of the body. It shares a "meta-hallmark" of epigenetic instability with aging.
 
@@ -263,12 +263,12 @@ Cancer is a group of diseases involving abnormal cell growth with the potential 
 
 
 ## Relation to Oxidative Stress
-[[Oxidative Stress]] can induce [[DNA Damage]] (e.g., [[8-oxo-2'-deoxyguanosine]]), leading to gene mutations and [[oncogene activation]].
+[[Oxidative Stress]] can induce [[DNA Damage]] (e.g., [[8-oxo-2'-deoxyguanosine]]), leading to gene mutations and [[Oncogene Activation]].
 
 
 ## Linking Summary:
-- New links added: [[Oxidative Stress]], [[8-oxo-2'-deoxyguanosine]], [[Reactive Oxygen Species]], [[Ascorbic Acid]], [[DNA Damage]], [[oncogene activation]]
-- Suggested new entity notes to create: [[oncogene activation]], [[DNA Damage]]
+- New links added: [[Oxidative Stress]], [[8-oxo-2'-deoxyguanosine]], [[Reactive Oxygen Species]], [[Ascorbic Acid]], [[DNA Damage]], [[Oncogene Activation]]
+- Suggested new entity notes to create: [[Oncogene Activation]], [[DNA Damage]]
 - Strong connections to strengthen: [[Cancer]] ↔ [[Oxidative Stress]]
 
 - New links added: [[Aging]], [[Epigenetics]], [[DNA Methylation]], [[LINE-1]], [[Heterochromatin]], [[Genomic Instability]], [[Transposable Elements]], [[CpG Island]], [[Cellular Senescence]], [[SASP]], [[Epigenetic Clock]].

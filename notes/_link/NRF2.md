@@ -76,7 +76,7 @@ NRF2 is a master transcription factor regulating antioxidant defense.
 #
 
 ## Connections
-- [[KEAP1]] — Cytoplasmic inhibitor that targets NRF2 for degradation under basal conditions
+- [[Keap1]] — Cytoplasmic inhibitor that targets NRF2 for degradation under basal conditions
 - [[Antioxidant Response Element]] — DNA binding site for NRF2 target gene activation
 - [[NF-kappa B]] — Mutual antagonism; competes for CBP/p300 coactivator
 - [[SIRT1]] — Activates NRF2 by modifying KEAP1 structure
@@ -86,6 +86,6 @@ NRF2 is a master transcription factor regulating antioxidant defense.
 - [[SKN-1]] — C. elegans NRF2 homolog mediating mitohormetic longevity
 
 ## Linking Summary
-- New links added: [[KEAP1]], [[Antioxidant Response Element]], [[NF-kappa B]], [[SIRT1]], [[SIRT6]], [[HO-1]], [[NQO1]], [[SKN-1]], [[Sulforaphane]], [[Dimethyl fumarate]], [[Bardoxolone methyl]], [[Chronic Obstructive Pulmonary Disease]], [[Asthma]], [[Multiple Sclerosis]], [[Fenton Reaction]]
+- New links added: [[Keap1]], [[Antioxidant Response Element]], [[NF-kappa B]], [[SIRT1]], [[SIRT6]], [[HO-1]], [[NQO1]], [[SKN-1]], [[Sulforaphane]], [[Dimethyl fumarate]], [[Bardoxolone methyl]], [[Chronic Obstructive Pulmonary Disease]], [[Asthma]], [[Multiple Sclerosis]], [[Fenton Reaction]]
 - Suggested new entity notes to create: [[Oltipraz]], [[MAFG]], [[MAFF]], [[CUL3]]
-- Strong connections to strengthen: [[NRF2]] ↔ [[KEAP1]], [[NRF2]] ↔ [[Oxidative Stress]], [[NRF2]] ↔ [[NF-kappa B]]
+- Strong connections to strengthen: [[NRF2]] ↔ [[Keap1]], [[NRF2]] ↔ [[Oxidative Stress]], [[NRF2]] ↔ [[NF-kappa B]]

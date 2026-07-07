@@ -13,7 +13,7 @@ entity_type_1: Enzyme
 
 ## Key Features
 - **Aerobic Glycolysis:** Also known as the [[Warburg Effect]], where cells prefer [[Glycolysis]] even in the presence of oxygen.
-- **Enhanced Glutaminolysis:** Increased dependence on [[glutamine]] for carbon and nitrogen.
+- **Enhanced Glutaminolysis:** Increased dependence on [[Glutamine]] for carbon and nitrogen.
 - **Lipid Metabolism:** Alterations in fatty acid synthesis and oxidation.
 - **Pentose Phosphate Pathway:** Increased flux to provide ribose-5-phosphate for nucleotide synthesis and [[NADPH]] for antioxidant defense.
 
@@ -29,4 +29,4 @@ Metabolic reprogramming creates vulnerabilities that can be targeted:
 - **Regulators:** [[p53]], [[MYC]], [[HIF-1α]], [[mTOR]]
 
 ## Linking Summary
-- New links added: [[Cancer]], [[tumour microenvironment]], [[Hallmarks of Cancer]], [[Warburg Effect]], [[Glycolysis]], [[glutamine]], [[NADPH]], [[GLUT1]], [[Hexokinase 2]], [[Pyruvate Kinase M2]], [[Fenbendazole]], [[Oxidative Stress]], [[Hypoxia]], [[Lactate]], [[ATP]], [[p53]], [[MYC]], [[HIF-1α]], [[mTOR]]
+- New links added: [[Cancer]], [[tumour microenvironment]], [[Hallmarks of Cancer]], [[Warburg Effect]], [[Glycolysis]], [[Glutamine]], [[NADPH]], [[GLUT1]], [[Hexokinase 2]], [[Pyruvate Kinase M2]], [[Fenbendazole]], [[Oxidative Stress]], [[Hypoxia]], [[Lactate]], [[ATP]], [[p53]], [[MYC]], [[HIF-1α]], [[mTOR]]

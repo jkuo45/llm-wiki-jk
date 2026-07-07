@@ -216,7 +216,7 @@ SIRT1 catalyzes the cleavage of [[NAD+]] to nicotinamide and [[OAADPr]] (2′-O-
 
 ## Substrate Diversity
 
-SIRT1 deacetylates a broad spectrum of non-histone substrates beyond its canonical histones: (i) metabolic regulators [[PGC1-α]], [[PPARγ]], and [[FOXO]] factors; (ii) stress response proteins [[p53]], [[Ku70]], and [[HIF-1α]]; (iii) cell cycle regulators [[E2F1]] and [[Retinoblastoma Protein]]; (iv) inflammatory mediators [[NFKB|NF-κB]] and [[STAT3]]; and (v) autophagy machinery including [[TFEB]] and [[ATG]] proteins. Each deacetylation event alters substrate activity, stability, or subcellular localization, allowing SIRT1 to coordinate pleiotropic cellular responses through a single catalytic activity. This substrate diversity explains SIRT1's involvement in metabolism, stress resistance, inflammation, and longevity.
+SIRT1 deacetylates a broad spectrum of non-histone substrates beyond its canonical histones: (i) metabolic regulators [[PGC1-α]], [[PPARγ]], and [[FOXO]] factors; (ii) stress response proteins [[p53]], [[Ku70]], and [[HIF-1α]]; (iii) cell cycle regulators [[E2F1]] and [[Retinoblastoma Protein]]; (iv) inflammatory mediators [[NFKB|NF-κB]] and [[STAT3]]; and (v) autophagy machinery including [[TFEB]] and [[Atg]] proteins. Each deacetylation event alters substrate activity, stability, or subcellular localization, allowing SIRT1 to coordinate pleiotropic cellular responses through a single catalytic activity. This substrate diversity explains SIRT1's involvement in metabolism, stress resistance, inflammation, and longevity.
 
 ## Activation by NAD⁺ Precursors and Resveratrol
 

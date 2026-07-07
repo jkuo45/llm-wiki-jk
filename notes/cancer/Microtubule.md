@@ -10,7 +10,7 @@ entity_type_1: Medical Condition
 ---
 # Microtubule
 
-[[Microtubule]]s are polymers of [[Tubulin]] that form part of the [[cytoskeleton]] and provide structure and shape to eukaryotic cells. They are involved in many cellular processes, including [[mitosis]], [[cytokinesis]], and [[vesicular transport]].
+[[Microtubule]]s are polymers of [[Tubulin]] that form part of the [[cytoskeleton]] and provide structure and shape to eukaryotic cells. They are involved in many cellular processes, including [[Mitosis]], [[cytokinesis]], and [[vesicular transport]].
 
 ## Role in Cancer
 Microtubules are critical for the formation of the [[mitotic spindle]] during cell division. Because [[Cancer]] cells divide rapidly, microtubules are a major target for chemotherapy.
@@ -24,8 +24,8 @@ Drugs that interfere with microtubule dynamics are classified into two groups:
 
 ## Connections
 - **Structural Component:** [[Tubulin]] (alpha and beta)
-- **Processes:** [[mitosis]], [[Apoptosis]], [[Cell Cycle]]
+- **Processes:** [[Mitosis]], [[Apoptosis]], [[Cell Cycle]]
 - **Related Drugs:** [[Vincristine]], [[paclitaxel]], [[Fenbendazole]], [[Albendazole]]
 
 ## Linking Summary
-- New links added: [[Tubulin]], [[cytoskeleton]], [[mitosis]], [[cytokinesis]], [[vesicular transport]], [[mitotic spindle]], [[Cancer]], [[Taxane]], [[paclitaxel]], [[docetaxel]], [[vinca alkaloids]], [[Vincristine]], [[Benzimidazole]], [[Fenbendazole]], [[Albendazole]], [[Mebendazole]], [[Apoptosis]], [[Cell Cycle]]
+- New links added: [[Tubulin]], [[cytoskeleton]], [[Mitosis]], [[cytokinesis]], [[vesicular transport]], [[mitotic spindle]], [[Cancer]], [[Taxane]], [[paclitaxel]], [[docetaxel]], [[vinca alkaloids]], [[Vincristine]], [[Benzimidazole]], [[Fenbendazole]], [[Albendazole]], [[Mebendazole]], [[Apoptosis]], [[Cell Cycle]]

@@ -10,7 +10,7 @@ entity_type_1: Receptor
 ---
 # IL-8
 
-IL-8 (Interleukin-8, CXCL8) is a pro-inflammatory [[Chemokine]] that recruits [[Neutrophils]] and other immune cells to sites of [[Inflammation]] and infection. It is produced by [[Macrophages]], [[Epithelial Cells]], [[Endothelial cells]], and [[Fibroblasts]] in response to [[TNFα]], [[IL-1β]], [[NF-κB]], and [[Reactive Oxygen Species]]. IL-8 signals through [[CXCR1]] and [[CXCR2]] receptors to promote [[Chemotaxis]], [[Angiogenesis]], and [[Neutrophil Degranulation]]. Elevated IL-8 is associated with [[Chronic Inflammation]], [[Cancer]] progression, [[Metastasis]], and [[Autoimmune Disease]]. It is a therapeutic target in [[Psoriasis]], [[Rheumatoid Arthritis]], and [[COPD]].
+IL-8 (Interleukin-8, CXCL8) is a pro-inflammatory [[Chemokine]] that recruits [[Neutrophils]] and other immune cells to sites of [[Inflammation]] and infection. It is produced by [[Macrophages]], [[Epithelial cells]], [[Endothelial cells]], and [[Fibroblasts]] in response to [[TNFα]], [[IL-1β]], [[NF-κB]], and [[Reactive Oxygen Species]]. IL-8 signals through [[CXCR1]] and [[CXCR2]] receptors to promote [[Chemotaxis]], [[Angiogenesis]], and [[Neutrophil Degranulation]]. Elevated IL-8 is associated with [[Chronic Inflammation]], [[Cancer]] progression, [[Metastasis]], and [[Autoimmune Disease]]. It is a therapeutic target in [[Psoriasis]], [[Rheumatoid Arthritis]], and [[COPD]].
 
 #
 
@@ -27,6 +27,6 @@ IL-8 (Interleukin-8, CXCL8) is a pro-inflammatory [[Chemokine]] that recruits [[
 - [[Rheumatoid Arthritis]] — IL-8 is a therapeutic target
 
 ## Linking Summary
-- New links added: [[Chemokine]], [[Neutrophils]], [[Macrophages]], [[Epithelial Cells]], [[Endothelial cells]], [[Fibroblasts]], [[TNFα]], [[IL-1β]], [[NF-κB]], [[Reactive Oxygen Species]], [[CXCR1]], [[CXCR2]], [[Chemotaxis]], [[Angiogenesis]], [[Inflammation]], [[Chronic Inflammation]], [[Cancer]], [[Metastasis]], [[Autoimmune Disease]], [[Psoriasis]], [[Rheumatoid Arthritis]], [[COPD]]
+- New links added: [[Chemokine]], [[Neutrophils]], [[Macrophages]], [[Epithelial cells]], [[Endothelial cells]], [[Fibroblasts]], [[TNFα]], [[IL-1β]], [[NF-κB]], [[Reactive Oxygen Species]], [[CXCR1]], [[CXCR2]], [[Chemotaxis]], [[Angiogenesis]], [[Inflammation]], [[Chronic Inflammation]], [[Cancer]], [[Metastasis]], [[Autoimmune Disease]], [[Psoriasis]], [[Rheumatoid Arthritis]], [[COPD]]
 - Suggested new entity notes to create: [[CXCL8]], [[Neutrophil Degranulation]]
 - Strong connections to strengthen: [[IL-8]] ↔ [[Inflammation]], [[IL-8]] ↔ [[Neutrophils]]

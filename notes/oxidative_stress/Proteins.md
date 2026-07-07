@@ -152,7 +152,7 @@ Protein oxidation is not merely damage—it is a regulated mechanism of **redox 
 ### Aging
 - **Carbonyl content** increases exponentially with age in human tissues
 - **Proteasome activity** declines 40–60% in aged tissues
-- **Chaperone capacity** ([[Hsp70]], [[Hsp90]]) decreases with age
+- **Chaperone capacity** ([[HSP70]], [[Hsp90]]) decreases with age
 - **AOPPs** accumulate and activate inflammatory pathways
 
 ### Neurodegeneration

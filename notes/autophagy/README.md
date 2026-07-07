@@ -7,7 +7,7 @@ updated: 2026-07-06
 ---
 # Autophagy
 
-This directory contains notes and research regarding [[Autophagy]], its molecular machinery (including [[Autophagosome]] formation, [[ATG]] proteins, [[Beclin1]], [[LC3]], and [[ULK1]]), different types ([[Macroautophagy]], [[Mitophagy]], [[Chaperone-Mediated Autophagy]]), regulation by [[mTOR]], [[AMPK]], and [[SIRT1]], and its dual roles in cellular homeostasis, quality control, and stress adaptation. Special focus is placed on its involvement in [[Aging]], [[Cancer]], [[Neurodegenerative Diseases|Neurodegenerative Disease]] ([[Alzheimer's Disease]], [[Parkinson's Disease]], [[Huntington's Disease]]), immune regulation, and interventions such as [[Rapamycin]], [[Spermidine]], [[Caloric Restriction]], and [[Intermittent Fasting]].
+This directory contains notes and research regarding [[Autophagy]], its molecular machinery (including [[Autophagosome]] formation, [[Atg]] proteins, [[Beclin1]], [[LC3]], and [[ULK1]]), different types ([[Macroautophagy]], [[Mitophagy]], [[Chaperone-Mediated Autophagy]]), regulation by [[mTOR]], [[AMPK]], and [[SIRT1]], and its dual roles in cellular homeostasis, quality control, and stress adaptation. Special focus is placed on its involvement in [[Aging]], [[Cancer]], [[Neurodegenerative Diseases|Neurodegenerative Disease]] ([[Alzheimer's Disease]], [[Parkinson's Disease]], [[Huntington's Disease]]), immune regulation, and interventions such as [[Rapamycin]], [[Spermidine]], [[Caloric Restriction]], and [[Intermittent Fasting]].
 
 
   **entity_relevance_score_1 (1-10)**: This score measures the centrality of the entity to the core autophagic machinery and physiological fasting response.
