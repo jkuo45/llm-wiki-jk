@@ -115,6 +115,10 @@ Frontmatter:
 - **Quoting**: Prefer unquoted scalar values. Use quotes only when required (e.g., values containing colons or special characters).
 - **Duplicate YAML keys**: No key should appear twice at the same indentation level.
 - **No wiki links in frontmatter**: Frontmatter values must be plain text only. Never use `[[Wiki Link]]` or `[[Link|Display]]` syntax inside YAML fields. Obsidian does not render wiki links in frontmatter, and they leak into non-body context.
+- **Tags casing convention**: `entity_type_1` is NOT stored as a frontmatter field — its value lives only inside the `tags` list. Within `tags`, apply this casing rule:
+  - **Capitalize the `entity_type_1` value** exactly as listed in the `entity_type_1` schema below (e.g. `Protein`, `Chemical Compound`, `Medical Condition`). This is the only Title-case entry and identifies the entity's primary category.
+  - **Lowercase all topical/domain tags** (cross-cutting relevance tags). The standard domain tags are: `oxidative stress`, `antioxidant`, `mitochondria`, `autophagy`, `epigenetics`, `inflammation`, `apoptosis`. Other topical tags (e.g. `glycation`, `senescence`) also use lowercase.
+  - Example: `tags: [Enzyme, antioxidant, mitochondria]` — `Enzyme` is the capitalized type, the rest are lowercase topical tags.
 
 ---
 
@@ -295,4 +299,7 @@ To maintain consistency, all entity notes should include an `entity_type_1` fiel
 | **Pharmacokinetic Parameter** | Quantitative ADME properties.                                        | [[Half-life]], [[Volume of distribution]], [[Bioavailability]]            |
 | **Model Organism**            | Species or strains used in research.                                 | [[Rattus norvegicus]], [[Zebrafish]], [[Knockout mouse]]                  |
 | Organization                  | Public, private sector organizations                                 | [[Merck & Co. Inc]], [[GlaxoSmithKline]]                                  |
+| Person                        | Individual people (researchers, clinicians, historical figures).     | [[Abram Hoffer]], [[Humphry Osmond]]                                      |
+| Peptide                       | Short chains of amino acids distinct from full proteins/enzymes.     | [[Melittin]], [[Glutathione peptide]]                                     |
+| Amino Acid                    | Individual amino acid residues and derivatives.                      | [[Glutamine]], [[L-Glutamine]]                                            |
 | NA                            | If none of the above                                                 |                                                                           |
