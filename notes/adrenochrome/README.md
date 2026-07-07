@@ -4,7 +4,7 @@ title: Adrenochrome notes
 aliases: []
 description: Index of wiki notes for adrenochrome
 created: 2026-07-06
-updated: 2026-07-06
+updated: 2026-07-07
 ---
 # Adrenochrome
 
@@ -15,8 +15,8 @@ This directory contains notes and research regarding [[Adrenochrome]] and its re
 
 ## Maintenance
 
-- Last updated: 04_Jul_2026 02:23 PM PDT
-- Total count of entities: 356
+- Last updated: 07_Jul_2026 06:00 PM PDT
+- Total count of entities: 359
 
 | entity                                              |   datetime updated   | entity_type_1          | entity_relevance_score | entity_sentiment_score | justification                                                                                  |
 | :-------------------------------------------------- | :------------------: | :--------------------- | :--------------------: | :--------------------: | :--------------------------------------------------------------------------------------------- |
@@ -36,7 +36,7 @@ This directory contains notes and research regarding [[Adrenochrome]] and its re
 | [[Adrenochrome]]                                    | 27_May_2026 01:28 PM | Chemical Compound      |           10           |           1            | The primary entity of research; central to the entire pathway.                                 |
 | [[Adrenochrome Hypothesis]]                         | 27_May_2026 01:28 PM | Scientific Theory      |           9            |           0            | Historical scientific model explaining schizophrenia; neutral theory.                          |
 | [[Adrenochrome Pathway]]                            | 27_May_2026 01:28 PM | Biological Process     |           10           |           1            | The core biological sequence of interest; positively viewed process.                           |
-| [[Adrenochrome monoaminoguanidine]]                 |     04_Jul_2026      | Chemical Compound      |           10           |           1            | Hybrid molecule central to the GOPS strategy; inhibits AGEs.                                   |
+| [[Adrenochrome monoaminoguanidine]]                 |     07_Jul_2026      | Chemical Compound      |           10           |           1            | Hybrid molecule central to the GOPS strategy; inhibits AGEs.                                   |
 | [[Adrenochrome sulfonate]]                          | 27_May_2026 01:28 PM | Chemical Compound      |           10           |           1            | Direct derivative of adrenochrome; positive result of chemical modification.                   |
 | [[Adrenolutin]]                                     | 27_May_2026 01:28 PM | Metabolite             |           10           |           0            | Major metabolite of adrenochrome; highly relevant but neutral outcome.                         |
 |  [[Advanced Glycation End Products]]                  |      17_Jun_2026       | Chemical Class         |           9            |           -1           | Proteins or lipids that become glycated after exposure to sugars; linked to aging.             |
@@ -48,7 +48,7 @@ This directory contains notes and research regarding [[Adrenochrome]] and its re
 | [[Alzheimer's Disease]]                 | 30_May_2026 12:00 PM | Medical Condition      |           6            |           -1           | Neurodegenerative state potentially linked to aminochrome toxicity.                            |
 |  [[Amadori products]]                                 |      17_Jun_2026       | Chemical Class         |           6            |           -1           | Intermediate in the production of advanced glycation end products.                             |
 | [[Aminochromes]]                                    | 27_May_2026 01:28 PM | Chemical Class         |           9            |           1            | Class of compounds including adrenochrome; positive focus of study.                            |
-| [[Aminoguanidine]]                                  | 27_May_2026 01:28 PM | Chemical Compound      |           8            |           1            | Reagent used to stabilize adrenochrome derivatives; positive chemical tool.                    |
+| [[Aminoguanidine]]                                  | 07_Jul_2026 01:28 PM | Chemical Compound      |           8            |           1            | Reagent used to stabilize adrenochrome derivatives; positive chemical tool.                    |
 | [[Ammonium Persulfate]]                             | 27_May_2026 01:28 PM | Chemical Compound      |           6            |           0            | Common laboratory oxidant; neutral chemical reagent.                                           |
 | [[Amyl nitrite]]                                    | 27_May_2026 01:28 PM | Chemical Compound      |           5            |           -1           | Inducer of methemoglobinemia; negative chemical exposure.                                      |
 | [[Anaphylaxis]]                                     | 27_May_2026 01:28 PM | Medical Condition      |           3            |           -1           | Severe allergic reaction; negative medical condition.                                          |
@@ -77,14 +77,14 @@ This directory contains notes and research regarding [[Adrenochrome]] and its re
 | [[Caloric Restriction]]                             | 14_Jun_2026 12:00 PM | Biological Process     |           8            |           1            | Intervention linked to reduced oxidative stress and improved lifespan.                         |
 | [[Caloric Restriction]]                 | 30_May_2026 12:00 PM | Biological Process     |           6            |           1            | Intervention linked to reduced oxidative stress and improved metabolic health.                 |
 | [[Cancer]]                              | 30_May_2026 12:00 PM | Medical Condition      |           4            |           -1           | Broad pathological state; some adrenochrome derivatives studied for antiproliferative effects. |
-| [[Carbazochrome]]                                   |     16_Jun_2026      | Chemical Compound      |           10           |           1            | Precision mitohormetic trigger in the MRR strategy.                                            |
+| [[Carbazochrome]]                                   |     07_Jul_2026      | Chemical Compound      |           10           |           1            | Precision mitohormetic trigger in the MRR strategy.                                            |
 |  [[Carbazochrome sulfonic acid]]                      |      17_Jun_2026       | Chemical Compound      |           8            |           1            | Water-soluble derivative of carbazochrome used therapeutically.                                |
 | [[Cardiac arrest]]                                  | 27_May_2026 01:28 PM | Medical Condition      |           3            |           -1           | Termination of heart function; negative medical outcome.                                       |
 | [[Cardiomyocytes]]                                  | 27_May_2026 01:28 PM | Cell Type              |           7            |           0            | Cells targeted by adrenochrome toxicity; neutral anatomical target.                            |
 | [[Cardiotoxicity]]                                  |     04_Jul_2026      | Adverse Effect         |           8            |           -1           | Primary toxic concern of adrenochrome; negative adverse effect.                                |
 | [[Cardiovascular Disease]]              | 30_May_2026 12:00 PM | Medical Condition      |           8            |           -1           | Broad category for heart conditions related to adrenochrome cardiotoxicity.                    |
-| [[Carnosine]]                                       | 11_Jun_2026 02:00 PM | Chemical Compound      |           7            |           1            | Anti-glycation and antioxidant dipeptide; synergistic with adrenochrome hybrids.               |
-| [[Carnosine]]                           |     16_Jun_2026      | Chemical Compound      |           8            |           1            | Synergistic chelator and glycation inhibitor in the GOPS strategy.                             |
+| [[Carnosine]]                                       | 07_Jul_2026 | Chemical Compound      |           7            |           1            | Anti-glycation and antioxidant dipeptide; synergistic with adrenochrome hybrids.               |
+| [[Carnosine]]                           |     07_Jul_2026      | Chemical Compound      |           8            |           1            | Synergistic chelator and glycation inhibitor in the GOPS strategy.                             |
 |  [[Caspase-1]]                                        |      17_Jun_2026       | Enzyme                 |           6            |           -1           | Inflammatory caspase, activated by the inflammasome.                                           |
 | [[Catalase]]                                        | 12_Jun_2026 10:00 AM | Enzyme                 |           7            |           1            | Key antioxidant enzyme upregulated in mitohormesis.                                            |
 | [[Catechol]]                                        | 27_May_2026 01:28 PM | Chemical Compound      |           7            |           0            | Basic chemical structure of precursors; neutral chemical compound.                             |
@@ -133,8 +133,8 @@ This directory contains notes and research regarding [[Adrenochrome]] and its re
 | [[Exchange transfusion]]                            | 27_May_2026 01:28 PM | Medical Treatment      |           4            |           0            | Procedure to treat severe methemoglobinemia; neutral treatment.                                |
 |  [[Extracellular Acidification Rate]]                 |      17_Jun_2026       | Analytical Technique   |           6            |           0            | Assay metric indicating glycolytic flux.                                                       |
 |  [[FGF21]]                                            |      17_Jun_2026       | Protein                |           8            |           1            | Mitokine and metabolic regulator promoting stress resistance.                                  |
-| [[Fisetin]]                                         | 11_Jun_2026 02:00 PM | Chemical Compound      |           8            |           1            | Potent senolytic and senomorphic agent; synergistic with aminochrome modulation.               |
-| [[Fisetin]]                             |     16_Jun_2026      | Chemical Compound      |           9            |           1            | Senolytic/senomorphic synergist in the SRAC strategy.                                          |
+| [[Fisetin]]                                         | 07_Jul_2026 | Chemical Compound      |           8            |           1            | Potent senolytic and senomorphic agent; synergistic with aminochrome modulation.               |
+| [[Fisetin]]                             |     07_Jul_2026      | Chemical Compound      |           9            |           1            | Senolytic/senomorphic synergist in the SRAC strategy.                                          |
 |  [[Flavonoids]]                                       |      17_Jun_2026       | Chemical Class         |           7            |           1            | Plant-derived compounds with strong antioxidant activity.                                      |
 |  [[Foam Cells]]                                       |      17_Jun_2026       | Cell Type              |           6            |           -1           | Macrophage derivatives in atherosclerosis, exacerbated by modified LDLs.                       |
 |  [[Fructosamine-3-kinase]]                            |      17_Jun_2026       | Enzyme                 |           7            |           1            | Intracellular deglycating enzyme phosphorylating fructosamines.                                |
@@ -149,7 +149,7 @@ This directory contains notes and research regarding [[Adrenochrome]] and its re
 | [[Glutathione]]                         | 27_May_2026 01:28 PM | Biological Molecule    |           6            |           1            | Endogenous antioxidant regulating redox state; positive protective molecule.                   |
 |  [[Glutathione Peroxidase]]                           |      17_Jun_2026       | Enzyme                 |           8            |           1            | Antioxidant enzyme that reduces lipid hydroperoxides to their corresponding alcohols.          |
 |  [[Glutathione Reductase]]                            |      17_Jun_2026       | Enzyme                 |           8            |           1            | Enzyme that regenerates reduced glutathione, critical for redox balance.                       |
-| [[GlyNAC]]                                          |     16_Jun_2026      | Medical Product        |           9            |           1            | Glutathione precursor buffer in the SRAC strategy.                                             |
+| [[GlyNAC]]                                          |     07_Jul_2026      | Medical Product        |           9            |           1            | Glutathione precursor buffer in the SRAC strategy.                                             |
 |  [[Glycation]]                                        |      17_Jun_2026       | Chemical Process       |           9            |           -1           | Non-enzymatic addition of sugars to proteins or lipids; drives AGE formation.                  |
 | [[Glycine]]                             |     16_Jun_2026      | Chemical Compound      |           8            |           1            | Component of GlyNAC buffer; glutathione precursor.                                             |
 | [[Glyco-Oxidative Proteostasis Shield]]             |     16_Jun_2026      | Scientific Concept     |           10           |           1            | Strategy for combating protein aggregation and AGEs.                                           |
@@ -217,7 +217,7 @@ This directory contains notes and research regarding [[Adrenochrome]] and its re
 | [[Methemoglobin]]                                   | 27_May_2026 01:28 PM | Protein                |           7            |           -1           | Oxidized hemoglobin; negative biomarker of oxidative stress.                                   |
 | [[Methemoglobinemia]]                               | 27_May_2026 01:28 PM | Medical Condition      |           5            |           -1           | Pathological state of oxidized hemoglobin; negative medical condition.                         |
 | [[Methylene blue]]                                  | 27_May_2026 01:28 PM | Chemical Compound      |           6            |           1            | Treatment for methemoglobinemia; positive medical product.                                     |
-| [[Methylene blue]]                      |     16_Jun_2026      | Chemical Compound      |           9            |           1            | Mitochondrial electron cycler "amplifier" in the MRR strategy.                                 |
+| [[Methylene blue]]                      |     07_Jul_2026      | Chemical Compound      |           9            |           1            | Mitochondrial electron cycler "amplifier" in the MRR strategy.                                 |
 | [[Methylglyoxal]]                                   | 14_Jun_2026 12:00 PM | Chemical Compound      |           9            |           1            | Reactive dicarbonyl compound and potent precursor for AGE formation.                           |
 | [[Michael addition]]                                | 27_May_2026 01:28 PM | Chemical Process       |           6            |           0            | Chemical reaction mechanism for adduct formation; neutral process.                             |
 |  [[Mithridates VI]]                                   |      17_Jun_2026       | Person                 |           3            |           0            | Historical figure associated with the concept of mithridatism (hormesis).                      |
@@ -299,8 +299,8 @@ This directory contains notes and research regarding [[Adrenochrome]] and its re
 |  [[RIPK1]]                                            |      17_Jun_2026       | Enzyme                 |           7            |           -1           | Kinase regulating cell death and inflammation pathways.                                        |
 | [[Racemization]]                                    | 27_May_2026 01:28 PM | Chemical Process       |           4            |           -1           | Loss of optical purity in chemicals; negative chemical process.                                |
 |  [[Rad53p]]                                           |      17_Jun_2026       | Enzyme                 |           6            |           1            | Yeast checkpoint kinase involved in the DNA damage response.                                   |
-| [[Rapamycin]]                                       | 11_Jun_2026 02:00 PM | Chemical Compound      |           9            |           1            | Gold-standard longevity drug and mTOR inhibitor; core to senomorphic strategy.                 |
-| [[Rapamycin]]                           |     16_Jun_2026      | Chemical Compound      |           10           |           1            | mTOR inhibitor acting as a "brake" in the SRAC strategy.                                       |
+| [[Rapamycin]]                                       | 07_Jul_2026 | Chemical Compound      |           9            |           1            | Gold-standard longevity drug and mTOR inhibitor; core to senomorphic strategy.                 |
+| [[Rapamycin]]                           |     07_Jul_2026      | Chemical Compound      |           10           |           1            | mTOR inhibitor acting as a "brake" in the SRAC strategy.                                       |
 | [[Rasburicase]]                                     | 27_May_2026 01:28 PM | Enzyme                 |           4            |           -1           | Drug that can trigger methemoglobinemia; negative adverse effect.                              |
 | [[Reactive Oxygen Species]]             | 27_May_2026 01:28 PM | Chemical Class         |           10           |           1            | Group of molecules that drive the oxidation process; positive drivers.                         |
 | [[Redox Cycling]]                                   | 27_May_2026 01:28 PM | Scientific Concept     |           8            |           1            | Mechanism of action for aminochromes; positive driver of interest.                             |
@@ -329,15 +329,15 @@ This directory contains notes and research regarding [[Adrenochrome]] and its re
 |  [[Seahorse XF Analyzer]]                             |      17_Jun_2026       | Analytical Technique   |           6            |           0            | Standard analytical device for measuring metabolic flux (OCR/ECAR).                            |
 | [[Semicarbazide]]                                   | 27_May_2026 01:28 PM | Chemical Compound      |           8            |           0            | Used to form stable adrenochrome derivatives; neutral chemical agent.                          |
 | [[Senescence]]                          | 30_May_2026 12:00 PM | Biological Process     |           7            |           0            | State of cellular arrest linked to chronic oxidative stress and aging.                         |
-| [[Senomorphics]]                                    | 11_Jun_2026 12:00 PM | Scientific Concept     |           7            |           1            | Class of compounds modulating the phenotype of senescent cells.                                |
+| [[Senomorphics]]                                    | 07_Jul_2026 | Scientific Concept     |           7            |           1            | Class of compounds modulating the phenotype of senescent cells.                                |
 | [[Serum]]                                           | 27_May_2026 01:28 PM | Anatomy                |           4            |           0            | Fluid component of blood; neutral anatomical component.                                        |
 | [[Smoking]]                                         | 27_May_2026 01:28 PM | Scientific Concept     |           4            |           -1           | Source of oxidative stress and toxins; negative scientific concept.                            |
 | [[Sodium Metabisulfite]]                            | 27_May_2026 01:28 PM | Chemical Compound      |           6            |           0            | Antioxidant used as a stabilizer; neutral agent.                                               |
 | [[Sodium Persulfate]]                               | 27_May_2026 01:28 PM | Chemical Compound      |           6            |           0            | Laboratory oxidant; neutral chemical compound.                                                 |
 | [[Sodium hydrogencarbonate]]                        | 27_May_2026 01:28 PM | Chemical Compound      |           6            |           0            | pH buffer used in reactions; neutral chemical agent.                                           |
 | [[Sodium nitrite]]                                  | 27_May_2026 01:28 PM | Chemical Compound      |           5            |           -1           | Chemical oxidant causing methemoglobinemia; negative agent.                                    |
-| [[Spermidine]]                                      | 11_Jun_2026 02:00 PM | Chemical Compound      |           8            |           1            | Natural polyamine promoting autophagy and proteostasis; positive longevity factor.             |
-| [[Spermidine]]                          |     16_Jun_2026      | Metabolite             |           9            |           1            | Autophagy inducer for synergistic clearance in the GOPS strategy.                              |
+| [[Spermidine]]                                      | 07_Jul_2026 | Chemical Compound      |           8            |           1            | Natural polyamine promoting autophagy and proteostasis; positive longevity factor.             |
+| [[Spermidine]]                          |     07_Jul_2026      | Metabolite             |           9            |           1            | Autophagy inducer for synergistic clearance in the GOPS strategy.                              |
 | [[Substantia Nigra]]                    | 27_May_2026 01:28 PM | Anatomy                |           9            |           0            | Brain region where aminochrome formation is significant; neutral location.                     |
 | [[Superoxide Dismutase]]                | 27_May_2026 01:28 PM | Enzyme                 |           6            |           1            | Enzyme neutralizing superoxide; positive protective agent.                                     |
 | [[Superoxide anion]]                                | 27_May_2026 01:28 PM | Biological Molecule    |           10           |           1            | Key reactive species initiating the oxidative cascade; positive driver.                        |
@@ -376,3 +376,12 @@ This directory contains notes and research regarding [[Adrenochrome]] and its re
 | [[isp-1]]                                           | 12_Jun_2026 10:00 AM | Gene                   |           7            |           1            | Complex III subunit gene linked to longevity.                                                  |
 | [[nuo-6]]                                           | 12_Jun_2026 10:00 AM | Gene                   |           7            |           1            | Complex I subunit gene linked to longevity.                                                    |
 | [[o-quinone]]                                       | 27_May_2026 01:28 PM | Chemical Compound      |           10           |           1            | Crucial reactive intermediate in the catecholamine oxidation; positive driver.                 |
+
+## Documents
+
+| Document | Description |
+| -------- | ----------- |
+| [[_document_ -  (protocol)  SRAC - senescent, ligand-conjugated\|SRAC Protocol]] | Senolytic aminochrome complex using adrenochrome, rapamycin, fisetin, and GlyNAC with ligand-conjugated nanoparticle delivery |
+| [[_document_ -  (protocol) GOPS - glyco-oxidative proteostasis\|GOPS Protocol]] | Glyco-oxidative proteostasis shield combining adrenochrome monoaminoguanidine, spermidine, and metal chelation |
+| [[_document_ -  (protocol) MRR - mitohormesis, MB, NAD\|MRR Protocol]] | Mitohormetic redox-relay using carbazochrome, methylene blue, NAD+ precursors, and urolithin A |
+
