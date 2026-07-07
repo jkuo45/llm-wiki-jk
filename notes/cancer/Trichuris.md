@@ -6,10 +6,10 @@ type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - Nematode
-  - Helminth
-  - Soil-Transmitted Helminths
-  - Microorganism
+  - nematode
+  - helminth
+  - soil-transmitted-helminths
+  - microorganism
 aliases: [Whipworm]
 ---
 

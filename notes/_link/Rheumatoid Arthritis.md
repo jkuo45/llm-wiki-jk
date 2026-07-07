@@ -7,10 +7,10 @@ type: entity
 created: 2026-05-09
 updated: 2026-07-06
 tags:
-  - oxidative stress
+  - oxidative-stress
   - inflammation
   - autoimmune
-  - Medical Condition
+  - medical-condition
 aliases: [RA]
 ---
 # Rheumatoid Arthritis

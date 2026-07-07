@@ -7,7 +7,7 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [ATP-binding cassette subfamily D member 1]
 ---
 # ABCD1

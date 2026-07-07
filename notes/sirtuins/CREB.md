@@ -7,7 +7,7 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Protein
+  - protein
 aliases: [CREB, CREB1, cAMP Response Element Binding Protein 1]
 sources:
   - Michan 2007

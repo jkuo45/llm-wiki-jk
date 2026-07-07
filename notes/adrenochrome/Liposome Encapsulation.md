@@ -5,10 +5,10 @@ type: entity
 created: 2026-07-07
 updated: 2026-07-07
 tags:
-  - drug delivery
+  - drug-delivery
   - nanomedicine
   - pharmacokinetics
-  - Pharmacological Action
+  - pharmacological-action
 aliases: []
 ---
 

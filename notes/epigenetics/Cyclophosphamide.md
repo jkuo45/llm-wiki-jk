@@ -5,12 +5,12 @@ type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - alkylating agent
+  - alkylating-agent
   - chemotherapy
   - prodrug
   - immunosuppressant
   - senescence
-  - Chemical Compound
+  - chemical-compound
 aliases:
   - Cytoxan
   - CTX

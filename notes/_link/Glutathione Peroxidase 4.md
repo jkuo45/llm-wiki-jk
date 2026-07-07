@@ -7,12 +7,9 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Enzyme
+  - enzyme
   - antioxidant
 aliases: [GPx4, Phospholipid hydroperoxide glutathione peroxidase, PHGPx]
-database_ids:
-  uniprot: P36969
-  hgnc: HGNC:4556
 
 ---
 

@@ -7,7 +7,7 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Gene
+  - gene
 aliases: [SREBF1, sterol regulatory element-binding protein 1]
 ---
 # SREBP1

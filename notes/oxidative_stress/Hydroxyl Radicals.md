@@ -7,10 +7,10 @@ type: entity
 created: 2026-05-09
 updated: 2026-07-04
 tags:
-  - oxidative stress
-  - ROS
-  - dna damage
-  - Metabolite
+  - oxidative-stress
+  - ros
+  - dna-damage
+  - metabolite
 aliases: [•OH, hydroxyl radical, OH radical]
 ---
 # Hydroxyl Radicals

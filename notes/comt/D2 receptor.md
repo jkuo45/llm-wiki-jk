@@ -5,7 +5,7 @@ type: entity
 created: 2026-05-25
 updated: 2026-07-07
 tags:
-  - Receptor
+  - receptor
 aliases: [D2 dopamine receptor, DRD2, Dopamine receptor D2]
 
 ---

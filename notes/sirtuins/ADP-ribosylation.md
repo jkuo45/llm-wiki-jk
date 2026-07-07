@@ -7,7 +7,7 @@ type: entity
 created: 2026-07-03
 updated: 2026-07-06
 tags:
-  - Biological Process
+  - biological-process
 aliases: [ADP-ribosylation, mono-ADP-ribosylation, poly-ADP-ribosylation, ADP-ribosyltransferase]
 ---
 

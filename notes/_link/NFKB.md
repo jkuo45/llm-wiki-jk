@@ -7,37 +7,13 @@ type: entity
 created: 2026-07-03
 updated: 2026-07-03
 tags:
-  - Protein
+  - protein
 aliases:
   - NF-κB
   - Nuclear Factor kappa B
   - RelA
   - p65
   - NF-kB
-database_ids:
-  uniprot: Q04206
-  hgnc: HGNC:9955
-  mesh: D016328
-relations:
-  - predicate: regulated_by
-    target: "SIRT1"
-    sources:
-      - PMID:15152190
-      - Michan 2007
-  - predicate: regulated_by
-    target: "SIRT2"
-    sources:
-      - PMID:24556264
-      - Sirtuins in Health and Disease 2022
-  - predicate: regulated_by
-    target: "SIRT6"
-    sources:
-      - PMID:22006491
-      - Sirtuins in Health and Disease 2022
-  - predicate: regulated_by
-    target: "SIRT7"
-    sources:
-      - Sirtuins in Health and Disease 2022
 ---
 
 

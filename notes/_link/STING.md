@@ -6,12 +6,12 @@ type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - innate immunity
-  - cGAS-STING pathway
+  - innate-immunity
+  - cgas-sting-pathway
   - interferon
-  - DNA sensing
+  - dna-sensing
   - autoinflammation
-  - Protein
+  - protein
 aliases:
   - Stimulator of Interferon Genes
   - TMEM173

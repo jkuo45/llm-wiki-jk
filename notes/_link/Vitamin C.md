@@ -7,11 +7,8 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: [Ascorbic Acid, L-ascorbic acid]
-database_ids:
-  mesh: D001205
-  chebi: CHEBI:29073
 
 ---
 

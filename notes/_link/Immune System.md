@@ -10,7 +10,7 @@ tags:
   - immunology
   - inflammation
   - aging
-  - Biological Process
+  - biological-process
 url:
 source:
 aliases:

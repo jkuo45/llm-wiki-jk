@@ -5,7 +5,7 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Protein
+  - protein
 aliases:
   - RAB7A
   - late endosome GTPase

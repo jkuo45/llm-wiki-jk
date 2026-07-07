@@ -7,7 +7,7 @@ type: entity
 created: 2026-07-03
 updated: 2026-07-03
 tags:
-  - Biological Process
+  - biological-process
 aliases:
   - Tumor Microenvironment
   - TME

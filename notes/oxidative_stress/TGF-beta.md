@@ -7,10 +7,10 @@ type: entity
 created: 2026-05-09
 updated: 2026-07-04
 tags:
-  - oxidative stress
+  - oxidative-stress
   - cytokine
   - fibrosis
-  - Protein
+  - protein
 aliases: [TGF-beta, transforming growth factor beta]
 ---
 # TGF-beta

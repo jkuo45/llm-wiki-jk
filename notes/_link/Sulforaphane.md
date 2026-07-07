@@ -7,22 +7,10 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases:
   - SFN
   - 1-isothiocyanato-4-(methylsulfinyl)butane
-database_ids:
-  chebi: CHEBI:47807
-  pubchem: 5350
-relations:
-  - predicate: activates
-    target: "NRF2"
-    sources:
-      - PMID:15601911
-  - predicate: inhibits
-    target: "NF-κB"
-    sources:
-      - PMID:18222410
 
 ---
 

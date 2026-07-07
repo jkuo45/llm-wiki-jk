@@ -5,9 +5,9 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Protein
+  - protein
   - antioxidant
-  - oxidative stress
+  - oxidative-stress
 aliases:
   - SOD2
   - Manganese Superoxide Dismutase

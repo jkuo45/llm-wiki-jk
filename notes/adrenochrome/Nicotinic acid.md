@@ -7,9 +7,9 @@ created: 2026-07-04
 updated: 2026-07-06
 tags:
   - vitamin
-  - NAD+ precursor
-  - redox cofactor
-  - Chemical Compound
+  - nad+-precursor
+  - redox-cofactor
+  - chemical-compound
 url: https://pubchem.ncbi.nlm.nih.gov/compound/nicotinic-acid
 aliases: [Niacin, Vitamin B3, Pyridine-3-carboxylic acid]
 ---

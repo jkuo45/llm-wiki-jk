@@ -5,12 +5,12 @@ type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - cell adhesion
-  - tumor suppressor
-  - Epithelial-Mesenchymal Transition
+  - cell-adhesion
+  - tumor-suppressor
+  - epithelial-mesenchymal-transition
   - methylation
-  - gastric cancer
-  - Gene
+  - gastric-cancer
+  - gene
 aliases: [E-cadherin, CD324, ECAD, uvomorulin]
 ---
 

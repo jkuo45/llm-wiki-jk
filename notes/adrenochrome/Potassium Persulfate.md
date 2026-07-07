@@ -6,9 +6,9 @@ created: 2026-07-04
 updated: 2026-07-06
 tags:
   - persulfates
-  - oxidizing agent
-  - polymerization initiator
-  - Chemical Compound
+  - oxidizing-agent
+  - polymerization-initiator
+  - chemical-compound
 aliases:
 - K2S2O8
 - Dipotassium peroxydisulfate

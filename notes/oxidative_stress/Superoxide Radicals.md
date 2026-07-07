@@ -5,10 +5,10 @@ type: entity
 created: 2026-05-09
 updated: 2026-07-07
 tags:
-  - oxidative stress
-  - ROS
+  - oxidative-stress
+  - ros
   - mitochondria
-  - Metabolite
+  - metabolite
 aliases: [superoxide, O₂•⁻, O2-]
 ---
 

@@ -7,7 +7,7 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: [phorbol 12-myristate 13-acetate, TPA]
 ---
 

@@ -7,10 +7,10 @@ type: entity
 created: 2026-05-09
 updated: 2026-07-04
 tags:
-  - oxidative stress
+  - oxidative-stress
   - cytokine
   - inflammation
-  - Protein
+  - protein
 aliases: [IL-1b, Interleukin-1 beta, IL1B, catabolin]
 ---
 # IL-1b

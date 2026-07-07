@@ -7,7 +7,7 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-06
 tags:
-  - Microorganism
+  - microorganism
 aliases: [EBV, HHV-4, Human Gammaherpesvirus 4]
 
 ---

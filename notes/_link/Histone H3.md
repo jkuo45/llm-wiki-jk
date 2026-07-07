@@ -7,7 +7,7 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
   - epigenetics
 aliases:
   - H3
@@ -15,19 +15,6 @@ aliases:
   - Histone H3.2
   - Histone H3.3
   - H3 histone family
-database_ids:
-  uniprot: P68431
-  hgnc: HGNC:4766
-  mesh: D006653
-relations:
-  - predicate: regulates
-    target: "Autophagy"
-    sources:
-      - 10.1016/j.mad.2013.04.004
-  - predicate: activated_by
-    target: "notes/_link/Spermidine"
-    sources:
-      - 10.1038/ncb1909
 ---
 
 

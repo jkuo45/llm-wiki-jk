@@ -5,11 +5,8 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Protein
+  - protein
 aliases: [Thioredoxin-interacting protein, VDUP1, TBP-2, Thioredoxin-binding protein 2]
-database_ids:
-  uniprot: Q9H3M7
-  hgnc: HGNC:16952
 ---
 
 # TXNIP

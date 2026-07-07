@@ -5,12 +5,12 @@ type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - topoisomerase inhibitor
+  - topoisomerase-inhibitor
   - chemotherapy
   - senescence
-  - DNA damage
+  - dna-damage
   - alkaloid
-  - Chemical Compound
+  - chemical-compound
 aliases: [CPT, Camptotheca alkaloid]
 ---
 

@@ -7,29 +7,13 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Chemical Compound
-  - NAD+
+  - chemical-compound
+  - nad+
 aliases:
   - NAD+
   - nicotinamide adenine dinucleotide
   - NAD
   - oxidised NAD
-database_ids:
-  chebi: CHEBI:15846
-  mesh: D009243
-relations:
-  - predicate: required_by
-    target: "SIRT1"
-    sources:
-      - PMID:10693811
-  - predicate: consumed_in
-    target: "Sirtuin Deacetylation Reaction"
-    sources:
-      - PMID:11106374
-  - predicate: sensed_by
-    target: "Sirtuins"
-    sources:
-      - PMID:MICHAN2007
 
 ---
 

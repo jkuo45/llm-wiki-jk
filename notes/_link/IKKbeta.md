@@ -7,7 +7,7 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-06
 tags:
-  - Protein
+  - protein
 aliases: [IκB Kinase Beta, IKBKB, IKK2]
 
 ---

@@ -7,11 +7,11 @@ created: 2024-01-01
 updated: 2026-07-06
 tags:
   - exonuclease
-  - cGAS-STING pathway
+  - cgas-sting-pathway
   - autoimmunity
   - interferonopathy
-  - DNA repair
-  - Enzyme
+  - dna-repair
+  - enzyme
 aliases:
   - DNase III
   - Three prime repair exonuclease 1

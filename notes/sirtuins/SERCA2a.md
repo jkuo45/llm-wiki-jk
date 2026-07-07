@@ -5,7 +5,7 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Protein
+  - protein
 aliases:
   - ATP2A2
   - Sarco/Endoplasmic Reticulum Ca2+-ATPase 2a

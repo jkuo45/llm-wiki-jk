@@ -7,12 +7,9 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
   - autophagy
 aliases: [Microtubule-associated proteins 1A/1B light chain 3B, MAP1LC3B, Atg8]
-database_ids:
-  uniprot: Q9GZQ8
-  hgnc: HGNC:13352
 
 ---
 

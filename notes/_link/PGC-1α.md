@@ -7,7 +7,7 @@ type: entity
 created: 2024-01-01
 updated: 2024-07-04
 tags:
-  - Protein
+  - protein
 aliases: [PGC-1a, PPARGC1A, Peroxisome proliferator-activated receptor gamma coactivator 1-alpha]
 
 ---

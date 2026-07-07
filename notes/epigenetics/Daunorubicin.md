@@ -7,10 +7,10 @@ updated: 2026-07-06
 tags:
   - anthracycline
   - chemotherapy
-  - topoisomerase II inhibitor
+  - topoisomerase-ii-inhibitor
   - cardiotoxicity
   - senescence
-  - Chemical Compound
+  - chemical-compound
 aliases:
   - Daunomycin
   - Cerubidine

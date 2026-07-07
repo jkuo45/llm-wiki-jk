@@ -7,7 +7,7 @@ type: entity
 created: 2026-07-03
 updated: 2026-07-06
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: [cyclic adenosine monophosphate, cyclic AMP, adenosine 3',5'-cyclic monophosphate]
 ---
 

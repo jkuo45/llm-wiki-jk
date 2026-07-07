@@ -7,10 +7,8 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-06
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: [T2DM, Type 2 diabetes, Non-insulin-dependent diabetes mellitus, Adult-onset diabetes]
-database_ids:
-  mesh: D003924
 
 ---
 

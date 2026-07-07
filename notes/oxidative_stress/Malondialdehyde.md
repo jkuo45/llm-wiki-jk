@@ -5,10 +5,10 @@ type: entity
 created: 2026-05-09
 updated: 2026-07-07
 tags:
-  - oxidative stress
-  - Biomarker
-  - lipid peroxidation
-  - Metabolite
+  - oxidative-stress
+  - biomarker
+  - lipid-peroxidation
+  - metabolite
 aliases: [MDA]
 ---
 

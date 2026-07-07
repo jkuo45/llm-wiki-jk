@@ -7,7 +7,7 @@ type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - Scientific Concept
+  - scientific-concept
   - hormesis
 aliases: [Hormetic dose-response window, Mitohormetic window, Therapeutic hormetic range]
 

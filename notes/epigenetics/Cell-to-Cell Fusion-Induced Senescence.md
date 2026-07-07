@@ -6,11 +6,11 @@ created: 2024-01-01
 updated: 2026-07-06
 tags:
   - senescence
-  - cell fusion
+  - cell-fusion
   - tetraploidy
   - p53
   - aging
-  - Biological Process
+  - biological-process
 aliases: [Fusion-induced senescence, tetraploidy-associated senescence]
 ---
 

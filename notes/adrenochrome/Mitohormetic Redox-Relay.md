@@ -7,9 +7,9 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Scientific Concept
+  - scientific-concept
   - mitochondria
-  - oxidative stress
+  - oxidative-stress
   - mitohormesis
 aliases: []
 ---

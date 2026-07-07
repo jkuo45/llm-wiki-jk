@@ -6,7 +6,7 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [GABARAPL2, Golgi-associated ATPase enhancer of 16 kDa]
 ---
 # GATE-16

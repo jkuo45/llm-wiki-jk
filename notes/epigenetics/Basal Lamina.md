@@ -5,13 +5,13 @@ type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - extracellular matrix
+  - extracellular-matrix
   - laminin
-  - collagen IV
+  - collagen-iv
   - filtration
-  - cell adhesion
-  - basement membrane
-  - Anatomy
+  - cell-adhesion
+  - basement-membrane
+  - anatomy
 aliases: [Basal Lamina, Basement Membrane]
 ---
 

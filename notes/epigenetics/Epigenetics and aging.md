@@ -5,7 +5,7 @@ type: entity
 created: 2026-05-13
 updated: 2026-07-06
 tags:
-  - Biological Process
+  - biological-process
   - epigenetics
 aliases: []
 ---

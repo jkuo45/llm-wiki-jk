@@ -6,9 +6,9 @@ created: 2026-07-06
 updated: 2026-07-06
 tags:
   - epigenetics
-  - gene silencing
+  - gene-silencing
   - methylation
-  - Biological Process
+  - biological-process
 aliases: []
 ---
 

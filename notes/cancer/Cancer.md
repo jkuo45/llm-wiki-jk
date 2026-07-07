@@ -7,36 +7,11 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Medical Condition
+  - medical-condition
 aliases:
   - Malignancy
   - Tumor
   - Neoplasm
-relations:
-  - predicate: associated_with
-    target: "notes/_link/Aging"
-    sources:
-      - PMID:26610253
-  - predicate: associated_with
-    target: "Oxidative Stress"
-    sources:
-      - PMID:24946746
-  - predicate: regulated_by
-    target: "Autophagy"
-    sources:
-      - PMID:22628519
-  - predicate: associated_with
-    target: "notes/_link/Aging"
-    sources:
-      - PMID:26610253
-  - predicate: associated_with
-    target: "Oxidative Stress"
-    sources:
-      - PMID:24946746
-  - predicate: regulated_by
-    target: "Autophagy"
-    sources:
-      - PMID:22628519
 
 ---
 

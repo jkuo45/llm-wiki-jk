@@ -7,35 +7,9 @@ type: entity
 created: 2026-05-25
 updated: 2026-07-04
 tags:
-  - Enzyme
+  - enzyme
 aliases:
   - Catechol-O-methyltransferase
-database_ids:
-  uniprot: P21964
-  hgnc: HGNC:2170
-  mesh: D002395
-relations:
-  - predicate: metabolizes
-    target: "notes/_link/Dopamine"
-    sources: []
-  - predicate: metabolizes
-    target: "notes/_link/Epinephrine"
-    sources: []
-  - predicate: metabolizes
-    target: "notes/_link/Norepinephrine"
-    sources: []
-  - predicate: requires
-    target: "notes/_link/SAMe"
-    sources: []
-  - predicate: inhibited_by
-    target: "notes/_link/Quercetin"
-    sources: []
-  - predicate: inhibited_by
-    target: "Fisetin"
-    sources: []
-  - predicate: associated_with
-    target: "Val158Met"
-    sources: []
 ---
 
 

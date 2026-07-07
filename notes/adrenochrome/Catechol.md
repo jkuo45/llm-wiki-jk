@@ -6,11 +6,11 @@ created: 2026-07-04
 updated: 2026-07-06
 tags:
   - catechol
-  - Catecholamines
+  - catecholamines
   - ortho-diphenol
   - redox-cycling
   - melanin
-  - Chemical Compound
+  - chemical-compound
 aliases:
   - Pyrocatechol
   - 1,2-Dihydroxybenzene

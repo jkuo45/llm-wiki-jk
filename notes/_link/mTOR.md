@@ -7,7 +7,7 @@ type: entity
 created: 2026-05-31
 updated: 2026-05-31
 tags:
-  - Protein
+  - protein
 aliases: []
 ---
 

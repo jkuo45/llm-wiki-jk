@@ -5,7 +5,7 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Protein
+  - protein
 aliases: [ATP5PO, ATP Synthase Peripheral Stalk Subunit OSCP, Oligomycin Sensitivity Conferral Protein, Oligomycin sensitivity-conferring protein]
 
 sources:

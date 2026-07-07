@@ -5,11 +5,11 @@ type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - cell death
+  - cell-death
   - pathology
   - ischemia
   - necrosis
-  - Biological Process
+  - biological-process
 source: https://en.wikipedia.org/wiki/Oncosis
 aliases:
   - oncotis

@@ -7,24 +7,11 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-05
 tags:
-  - Metabolite
-  - NAD+
+  - metabolite
+  - nad+
 aliases:
   - Nicotinamide Riboside
   - NR
-database_ids:
-  chebi: CHEBI:15765
-  pubchem: 439908
-relations:
-  - predicate: precursor_of
-    target: "NMN"
-    sources: []
-  - predicate: precursor_of
-    target: "NAD+"
-    sources: []
-  - predicate: activates
-    target: "Sirtuins"
-    sources: []
 ---
 
 

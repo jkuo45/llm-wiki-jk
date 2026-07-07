@@ -7,10 +7,8 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Enzyme
+  - enzyme
 aliases: [ARG1, ARG2, Arginase 1, Arginase 2]
-database_ids:
-  uniprot: ['P05089 (ARG1)', 'P78540 (ARG2)']
 
 ---
 

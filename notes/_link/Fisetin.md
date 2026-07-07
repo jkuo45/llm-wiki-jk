@@ -7,24 +7,8 @@ type: entity
 created: 2026-05-25
 updated: 2026-07-04
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: []
-database_ids:
-  chebi: CHEBI:4918
-  mesh: D017604
-relations:
-  - predicate: metabolized_by
-    target: "COMT"
-    sources: []
-  - predicate: inhibits
-    target: "COMT"
-    sources: []
-  - predicate: associated_with
-    target: "notes/_link/Senescence"
-    sources: []
-  - predicate: induces
-    target: "Senomorphics"
-    sources: []
 ---
 
 

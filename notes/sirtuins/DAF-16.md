@@ -7,7 +7,7 @@ type: entity
 created: 2026-07-03
 updated: 2026-07-07
 tags:
-  - Protein
+  - protein
 aliases: [DAF-16, abnormal dauer formation 16, C. elegans DAF-16]
 sources:
   - PMID:11242085

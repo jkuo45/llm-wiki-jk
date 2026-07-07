@@ -5,7 +5,7 @@ type: entity
 created: 2026-07-03
 updated: 2026-07-07
 tags:
-  - Protein
+  - protein
 aliases:
   - UCP2
   - uncoupling protein 2

@@ -7,11 +7,8 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Enzyme
+  - enzyme
 aliases: [Paraoxonase 1, Serum aryldialkylphosphatase 1, ESA, PON]
-database_ids:
-  uniprot: P27169
-  hgnc: HGNC:9204
 
 ---
 

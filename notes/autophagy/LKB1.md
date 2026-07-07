@@ -7,12 +7,8 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-05
 tags:
-  - Protein
+  - protein
 aliases: [STK11, Liver Kinase B1, Serine/threonine-protein kinase STK11, Polarization-related gene LKB1]
-database_ids:
-  mesh: D057852
-  uniprot: Q15831
-  hgnc: HGNC:11389
 
 ---
 

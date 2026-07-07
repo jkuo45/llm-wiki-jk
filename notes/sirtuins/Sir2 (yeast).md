@@ -7,7 +7,7 @@ type: entity
 created: 2026-07-02
 updated: 2026-07-02
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases:
   - SIR2
   - silent information regulator 2

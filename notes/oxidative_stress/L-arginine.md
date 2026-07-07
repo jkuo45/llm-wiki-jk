@@ -7,10 +7,10 @@ type: entity
 created: 2026-05-09
 updated: 2026-07-04
 tags:
-  - oxidative stress
-  - nitric oxide
-  - Amino Acid
-  - Chemical Compound
+  - oxidative-stress
+  - nitric-oxide
+  - amino-acid
+  - chemical-compound
 aliases: [arginine, 2-amino-5-guanidinopentanoic acid]
 ---
 # L-arginine

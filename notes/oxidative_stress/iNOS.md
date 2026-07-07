@@ -7,11 +7,8 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Enzyme
+  - enzyme
 aliases: [NOS2, Inducible nitric oxide synthase, Macrophage NOS, Ca²⁺-independent NOS]
-database_ids:
-  uniprot: P35228
-  hgnc: HGNC:7873
 
 ---
 

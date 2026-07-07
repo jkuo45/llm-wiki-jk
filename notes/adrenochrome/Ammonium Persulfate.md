@@ -5,7 +5,7 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-06
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: []
 ---
 

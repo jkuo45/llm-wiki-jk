@@ -7,13 +7,8 @@ type: entity
 created: 2026-07-06
 updated: 2026-07-03
 tags:
-  - Enzyme
+  - enzyme
 aliases: [carbamoyl phosphate synthase 1, carbamoyl-phosphate synthase (ammonia), mitochondrial]
-
-predicate: associated_with
-sources:
-- doi:10.1016/j.cell.2011.10.025
-target: SIRT5
 
 ---
 

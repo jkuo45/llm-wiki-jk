@@ -7,10 +7,10 @@ type: entity
 created: 2026-05-09
 updated: 2026-07-04
 tags:
-  - oxidative stress
-  - ROS
+  - oxidative-stress
+  - ros
   - photosensitization
-  - Metabolite
+  - metabolite
 aliases: [¹O₂, 1O2]
 ---
 # Singlet Oxygen

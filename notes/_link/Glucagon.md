@@ -4,7 +4,7 @@ description: Pancreatic alpha-cell peptide hormone that antagonizes insulin and 
 type: entity
 created: 2026-07-07
 updated: 2026-07-07
-tags: [Protein, Hormone, Endocrine, Glucose Homeostasis]
+tags: [protein, hormone, endocrine, glucose-homeostasis]
 aliases: []
 ---
 

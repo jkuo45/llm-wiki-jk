@@ -7,7 +7,7 @@ type: entity
 created: 2026-07-03
 updated: 2026-07-07
 tags:
-  - Protein
+  - protein
 aliases: [CDC14B, Dual Specificity Protein Phosphatase CDC14B]
 sources:
   - PMID:19136623

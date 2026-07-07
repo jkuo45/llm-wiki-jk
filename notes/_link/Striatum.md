@@ -7,10 +7,8 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-05
 tags:
-  - Anatomy
+  - anatomy
 aliases: [Neostriatum, Caudate-Putamen, Striatal complex]
-database_ids:
-  mesh: D003342
 
 ---
 

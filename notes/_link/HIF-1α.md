@@ -7,23 +7,10 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases:
   - Hypoxia-inducible factor 1-alpha
   - HIF1A
-database_ids:
-  uniprot: Q16665
-  hgnc: HGNC:4910
-  mesh: D051792
-relations:
-  - predicate: regulated_by
-    target: "SIRT3"
-    sources:
-      - PMID:21149515
-  - predicate: regulated_by
-    target: "SIRT6"
-    sources:
-      - PMID:22955984
 
 ---
 

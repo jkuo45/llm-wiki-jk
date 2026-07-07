@@ -7,7 +7,7 @@ type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Chemical Class
+  - chemical-class
   - xenohormesis
 aliases: []
 ---

@@ -7,24 +7,11 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases:
   - Epidermal growth factor receptor
   - ErbB-1
   - HER1
-database_ids:
-  uniprot: P00533
-  hgnc: HGNC:3236
-  mesh: D066246
-relations:
-  - predicate: associated_with
-    target: "Cancer"
-    sources:
-      - PMID:17640139
-  - predicate: activates
-    target: "PI3K/Akt"
-    sources:
-      - PMID:14500542
 
 ---
 

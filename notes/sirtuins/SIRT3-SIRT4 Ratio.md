@@ -7,7 +7,7 @@ type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - Scientific Concept
+  - scientific-concept
 aliases: [SIRT3/SIRT4 balance, mitochondrial sirtuin ratio, Sirtuin redox dial]
 
 ---

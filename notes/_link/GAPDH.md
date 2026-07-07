@@ -7,11 +7,8 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Enzyme
+  - enzyme
 aliases: [Glyceraldehyde-3-phosphate dehydrogenase, G3PDH]
-database_ids:
-  uniprot: P04406
-  hgnc: HGNC:4141
 
 ---
 

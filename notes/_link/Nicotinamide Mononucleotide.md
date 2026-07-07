@@ -7,8 +7,8 @@ type: entity
 created: 2024-01-01
 updated: 2024-01-01
 tags:
-  - Chemical Compound
-  - NAD+
+  - chemical-compound
+  - nad+
 aliases: []
 ---
 

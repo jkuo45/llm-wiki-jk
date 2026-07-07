@@ -7,8 +7,8 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Enzyme
-  - oxidative stress
+  - enzyme
+  - oxidative-stress
 aliases: [Prx, PRDX, Thioredoxin peroxidase]
 
 ---

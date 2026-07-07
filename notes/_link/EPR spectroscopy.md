@@ -7,8 +7,8 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-06
 tags:
-  - Analytical Technique
-  - oxidative stress
+  - analytical-technique
+  - oxidative-stress
 aliases: [Electron Paramagnetic Resonance, ESR, EPR]
 
 ---

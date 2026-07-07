@@ -7,7 +7,7 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-06
 tags:
-  - Protein
+  - protein
 aliases: [CDK4, CDK6, Cyclin-Dependent Kinase 4, Cyclin-Dependent Kinase 6]
 
 ---

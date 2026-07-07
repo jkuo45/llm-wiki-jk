@@ -7,13 +7,9 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-05
 tags:
-  - Protein
+  - protein
   - apoptosis
 aliases: [CASP3, CPP32, Apopain, Yama]
-database_ids:
-  mesh: D020169
-  uniprot: P42574
-  hgnc: HGNC:1504
 
 ---
 

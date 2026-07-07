@@ -5,11 +5,11 @@ type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - alkylating agent
+  - alkylating-agent
   - chemotherapy
   - senescence
-  - DNA damage
-  - Chemical Compound
+  - dna-damage
+  - chemical-compound
 aliases: [Busulfex, Myleran, Busilvex]
 ---
 

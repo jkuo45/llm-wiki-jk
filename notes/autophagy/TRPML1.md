@@ -7,7 +7,7 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Ion Channel
+  - ion-channel
 aliases: [MCOLN1, mucolipin 1, lysosomal calcium channel]
 
 ---

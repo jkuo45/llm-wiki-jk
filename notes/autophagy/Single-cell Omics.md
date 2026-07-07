@@ -5,7 +5,7 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Analytical Technique
+  - analytical-technique
 aliases:
   - single-cell multiomics
   - scRNA-seq

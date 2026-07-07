@@ -6,7 +6,7 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [EIF4A1, eukaryotic initiation factor 4A]
 ---
 # eIF4A

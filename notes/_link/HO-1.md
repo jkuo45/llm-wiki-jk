@@ -7,12 +7,8 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Enzyme
+  - enzyme
 aliases: [Heme oxygenase 1, HMOX1, Hsp32]
-database_ids:
-  mesh: D051060
-  uniprot: P09601
-  hgnc: HGNC:5013
 
 ---
 

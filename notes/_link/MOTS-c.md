@@ -7,7 +7,7 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [Mitochondrial Open Reading Frame of the 12S rRNA-c]
 
 ---

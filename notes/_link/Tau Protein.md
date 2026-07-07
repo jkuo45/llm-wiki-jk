@@ -7,7 +7,7 @@ type: entity
 created: 2026-05-09
 updated: 2026-07-06
 tags:
-  - Protein
+  - protein
 aliases: [tau, MAPT, microtubule-associated protein tau]
 ---
 

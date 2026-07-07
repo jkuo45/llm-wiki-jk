@@ -6,7 +6,7 @@ type: entity
 created: 2026-07-03
 updated: 2026-07-06
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: [cyclic ADP-ribose, cyclic adenosine diphosphate ribose]
 ---
 

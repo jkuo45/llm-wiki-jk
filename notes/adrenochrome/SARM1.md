@@ -5,7 +5,7 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-06
 tags:
-  - Enzyme
+  - enzyme
 aliases: [SARM1, Sterile Alpha and TIR Motif Containing 1, MyD88-5]
 ---
 

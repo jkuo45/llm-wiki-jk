@@ -7,14 +7,14 @@ updated: 2026-07-06
 tags:
   - retina
   - phagocytosis
-  - visual cycle
-  - blood-retina barrier
-  - Age-related Macular Degeneration
-  - Induced Pluripotent Stem Cell
-  - cell therapy
-  - RPE65
-  - Bruch's membrane
-  - Anatomy
+  - visual-cycle
+  - blood-retina-barrier
+  - age-related-macular-degeneration
+  - induced-pluripotent-stem-cell
+  - cell-therapy
+  - rpe65
+  - bruch's-membrane
+  - anatomy
 aliases: ["RPE", "Retinal Pigmented Epithelium", "Pigment Epithelium"]
 ---
 # Retinal Pigment Epithelium

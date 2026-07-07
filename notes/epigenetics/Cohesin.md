@@ -5,13 +5,13 @@ type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - chromosome cohesion
-  - SMC
-  - CTCF
-  - Topologically Associating Domain
-  - Cornelia de Lange syndrome
-  - sister chromatid
-  - Protein
+  - chromosome-cohesion
+  - smc
+  - ctcf
+  - topologically-associating-domain
+  - cornelia-de-lange-syndrome
+  - sister-chromatid
+  - protein
 aliases: [Cohesin complex, SMC1/SMC3 complex]
 ---
 

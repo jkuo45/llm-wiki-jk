@@ -6,7 +6,7 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Biomarker
+  - biomarker
   - senescence
 aliases: [SA-β-gal]
 

@@ -5,7 +5,7 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Protein
+  - protein
 aliases: [TIMP3, Tissue Inhibitor of Metalloproteinases 3, MMP inhibitor 3]
 
 sources:

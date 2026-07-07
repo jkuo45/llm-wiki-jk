@@ -7,10 +7,10 @@ type: entity
 created: 2026-05-09
 updated: 2026-07-04
 tags:
-  - oxidative stress
-  - immune system
+  - oxidative-stress
+  - immune-system
   - myeloperoxidase
-  - Chemical Compound
+  - chemical-compound
 aliases: [HOCl, HClO]
 ---
 # Hypochlorous Acid

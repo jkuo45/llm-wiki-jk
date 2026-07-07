@@ -7,11 +7,8 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-05
 tags:
-  - Enzyme
+  - enzyme
 aliases: [Unc-51-like kinase 1, ATG1, Serine/threonine-protein kinase ULK1]
-database_ids:
-  uniprot: O75385
-  hgnc: HGNC:12558
 
 ---
 

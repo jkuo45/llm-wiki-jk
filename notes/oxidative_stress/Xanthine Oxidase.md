@@ -7,10 +7,10 @@ type: entity
 created: 2026-05-09
 updated: 2026-07-04
 tags:
-  - oxidative stress
+  - oxidative-stress
   - superoxide
-  - uric acid
-  - Enzyme
+  - uric-acid
+  - enzyme
 aliases: [XO, xanthine oxidoreductase, XOR]
 ---
 # Xanthine Oxidase

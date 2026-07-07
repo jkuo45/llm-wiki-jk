@@ -7,10 +7,10 @@ type: entity
 created: 2026-05-09
 updated: 2026-07-04
 tags:
-  - oxidative stress
-  - nitric oxide
-  - nitrative stress
-  - Chemical Class
+  - oxidative-stress
+  - nitric-oxide
+  - nitrative-stress
+  - chemical-class
 aliases: [RNS, nitrogen free radicals]
 ---
 # Reactive Nitrogen Species

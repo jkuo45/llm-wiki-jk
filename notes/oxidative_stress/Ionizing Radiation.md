@@ -7,10 +7,10 @@ type: entity
 created: 2026-05-09
 updated: 2026-07-04
 tags:
-  - oxidative stress
-  - dna damage
+  - oxidative-stress
+  - dna-damage
   - radiotherapy
-  - Scientific Concept
+  - scientific-concept
 aliases: [IR, radiation]
 ---
 # Ionizing Radiation

@@ -7,27 +7,10 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases:
   - Diferuloylmethane
   - Turmeric
-database_ids:
-  chebi: CHEBI:3962
-  mesh: D003474
-  pubchem: 969516
-relations:
-  - predicate: inhibits
-    target: "p300/CBP HAT"
-    sources:
-      - PMID:15192185
-  - predicate: suppresses
-    target: "NF-κB"
-    sources:
-      - PMID:15210812
-  - predicate: induces
-    target: "notes/_link/Senescence"
-    sources:
-      - PMID:24842829
 
 ---
 

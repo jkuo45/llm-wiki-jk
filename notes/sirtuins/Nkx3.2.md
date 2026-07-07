@@ -7,7 +7,7 @@ type: entity
 created: 2026-07-05
 updated: 2026-07-07
 tags:
-  - Protein
+  - protein
 aliases: [Nkx3-2, Nkx3.2, Bapx1, NK3 homeobox 2]
 
 sources:

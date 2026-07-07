@@ -6,7 +6,7 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [PIK3R4, phosphoinositide 3-kinase regulatory subunit 4]
 ---
 # Vps15

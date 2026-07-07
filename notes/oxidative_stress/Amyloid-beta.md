@@ -5,10 +5,10 @@ type: entity
 created: 2026-05-09
 updated: 2026-07-07
 tags:
-  - oxidative stress
-  - Alzheimer's Disease
+  - oxidative-stress
+  - alzheimer's-disease
   - neurodegeneration
-  - Protein
+  - protein
 aliases: [Aβ, beta-amyloid, Aβ peptide]
 ---
 

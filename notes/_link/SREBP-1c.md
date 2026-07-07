@@ -7,7 +7,7 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-06
 tags:
-  - Protein
+  - protein
 aliases: [SREBF1, Sterol Regulatory Element-Binding Protein 1c, SREBP-1]
 
 ---

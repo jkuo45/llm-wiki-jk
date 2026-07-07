@@ -6,9 +6,9 @@ created: 2026-07-06
 updated: 2026-07-06
 tags:
   - development
-  - cell cycle
+  - cell-cycle
   - epigenetics
-  - Gene
+  - gene
 aliases: [p57, Kip2]
 ---
 

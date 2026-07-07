@@ -6,10 +6,10 @@ type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Alzheimer's Disease
+  - alzheimer's-disease
   - neurodegeneration
   - amyloid
-  - Peptide
+  - peptide
 aliases:
   - Aβ
   - Amyloid beta

@@ -5,7 +5,7 @@ type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - Microorganism
+  - microorganism
 aliases: [Human Immunodeficiency Virus Type 1, HIV-1 Group M]
 ---
 

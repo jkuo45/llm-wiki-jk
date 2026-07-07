@@ -4,7 +4,7 @@ description: Data-driven subgroups of individuals defined by distinct metabolic 
 type: entity
 created: 2026-07-07
 updated: 2026-07-07
-tags: [Scientific Concept, Metabolomics, Precision Medicine]
+tags: [scientific-concept, metabolomics, precision-medicine]
 aliases: []
 ---
 

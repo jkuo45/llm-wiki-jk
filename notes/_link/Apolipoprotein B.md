@@ -7,11 +7,8 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [ApoB, Apolipoprotein B-100]
-database_ids:
-  uniprot: P04114
-  hgnc: HGNC:603
 
 ---
 

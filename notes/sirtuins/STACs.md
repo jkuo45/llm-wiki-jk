@@ -7,8 +7,8 @@ type: entity
 created: 2026-07-03
 updated: 2026-07-03
 tags:
-  - Chemical Compound
-  - NAD+
+  - chemical-compound
+  - nad+
 aliases:
   - Sirtuin Activating Compounds
   - Sirtuin Activators

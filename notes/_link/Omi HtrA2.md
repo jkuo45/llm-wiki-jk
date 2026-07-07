@@ -7,7 +7,7 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-06
 tags:
-  - Protein
+  - protein
 aliases: [HtrA2, High Temperature Requirement Protein A2, Serine Protease HTRA2]
 
 ---

@@ -7,11 +7,8 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: [Niacin, Nicotinic acid, Nicotinamide, Niacinamide]
-database_ids:
-  mesh: D009525
-  chebi: CHEBI:15940
 
 ---
 

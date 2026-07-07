@@ -5,7 +5,7 @@ type: entity
 created: 2026-05-25
 updated: 2026-07-07
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: [leucovorin, 5-formyltetrahydrofolate, 5-formyl-THF]
 
 ---

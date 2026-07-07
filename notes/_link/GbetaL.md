@@ -7,7 +7,7 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-06
 tags:
-  - Protein
+  - protein
 aliases: [mLST8, G Protein Beta Subunit-Like, LST8]
 
 ---

@@ -5,13 +5,13 @@ type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - HDAC inhibitor
-  - urea cycle disorder
-  - ER stress
-  - protein folding
+  - hdac-inhibitor
+  - urea-cycle-disorder
+  - er-stress
+  - protein-folding
   - neurodegeneration
   - cancer
-  - Chemical Compound
+  - chemical-compound
 aliases: ["4-Phenylbutyrate", "PB", "Phenylbutyric acid", "Buphenyl"]
 ---
 # Phenylbutyrate

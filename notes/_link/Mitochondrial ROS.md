@@ -7,9 +7,9 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Biological Molecule
+  - biological-molecule
   - mitochondria
-  - oxidative stress
+  - oxidative-stress
 aliases: [mtROS, Mitochondrial reactive oxygen species]
 
 ---

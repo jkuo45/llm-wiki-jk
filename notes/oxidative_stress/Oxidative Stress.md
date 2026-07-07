@@ -7,37 +7,12 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Scientific Concept
-  - oxidative stress
+  - scientific-concept
+  - oxidative-stress
 aliases:
   - Oxidative stress
   - OS
   - Redox imbalance
-relations:
-  - predicate: associated_with
-    target: "notes/_link/Aging"
-    sources:
-      - PMID:25692012
-  - predicate: associated_with
-    target: "notes/_link/Inflammation"
-    sources:
-      - PMID:23565191
-  - predicate: associated_with
-    target: "notes/_link/Cardiovascular Disease"
-    sources:
-      - PMID:27908976
-  - predicate: associated_with
-    target: "notes/_link/Aging"
-    sources:
-      - PMID:25692012
-  - predicate: associated_with
-    target: "notes/_link/Inflammation"
-    sources:
-      - PMID:23565191
-  - predicate: associated_with
-    target: "notes/_link/Cardiovascular Disease"
-    sources:
-      - PMID:27908976
 
 ---
 

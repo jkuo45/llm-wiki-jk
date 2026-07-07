@@ -6,7 +6,7 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
   - apoptosis
 aliases: [BCL2, B-cell Lymphoma 2]
 ---

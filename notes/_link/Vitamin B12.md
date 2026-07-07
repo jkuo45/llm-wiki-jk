@@ -7,11 +7,8 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: [Cobalamin, Cyanocobalamin, Methylcobalamin, Adenosylcobalamin, Hydroxocobalamin]
-database_ids:
-  mesh: D014805
-  chebi: CHEBI:18405
 
 ---
 

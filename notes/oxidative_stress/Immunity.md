@@ -6,10 +6,10 @@ type: entity
 created: 2026-05-09
 updated: 2026-07-04
 tags:
-  - oxidative stress
+  - oxidative-stress
   - immune
-  - ROS
-  - Biological Process
+  - ros
+  - biological-process
 aliases: [immune response, immune system]
 ---
 # Immunity

@@ -7,7 +7,7 @@ type: entity
 created: 2026-07-03
 updated: 2026-07-03
 tags:
-  - Protein
+  - protein
 aliases:
   - FHL2
   - Four and a half LIM domains protein 2

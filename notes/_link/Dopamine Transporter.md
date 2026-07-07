@@ -7,20 +7,9 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Transporter
+  - transporter
 aliases:
   - DAT
-database_ids:
-  hgnc: HGNC:2899
-  uniprot: Q01959
-  mesh: D018091
-relations:
-  - predicate: transports
-    target: "notes/_link/Dopamine"
-    sources: []
-  - predicate: associated_with
-    target: "COMT"
-    sources: []
 ---
 
 

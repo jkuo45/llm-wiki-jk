@@ -5,8 +5,8 @@ type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - cell cycle
-  - Enzyme
+  - cell-cycle
+  - enzyme
   - epigenetics
 aliases: [CDK]
 ---

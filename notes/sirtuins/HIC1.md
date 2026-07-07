@@ -7,7 +7,7 @@ type: entity
 created: 2026-07-03
 updated: 2026-07-07
 tags:
-  - Protein
+  - protein
 aliases:
   - HIC1
   - Hypermethylated in Cancer 1

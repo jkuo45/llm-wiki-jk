@@ -7,7 +7,7 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Enzyme
+  - enzyme
 aliases: [mitogen-activated protein kinase kinase kinase kinase 3, GLK]
 ---
 

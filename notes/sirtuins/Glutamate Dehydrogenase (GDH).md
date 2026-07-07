@@ -7,7 +7,7 @@ type: entity
 created: 2026-07-03
 updated: 2026-07-07
 tags:
-  - Enzyme
+  - enzyme
 aliases:
   - GDH
   - Glutamate Dehydrogenase

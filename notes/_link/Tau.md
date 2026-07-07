@@ -7,11 +7,11 @@ type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Alzheimer's Disease
+  - alzheimer's-disease
   - tauopathy
   - neurodegeneration
   - microtubule
-  - Protein
+  - protein
 aliases: [MAPT, microtubule-associated protein tau, Tau protein]
 ---
 

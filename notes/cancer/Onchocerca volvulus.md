@@ -7,12 +7,12 @@ type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - Nematode
+  - nematode
   - filaria
   - onchocerciasis
   - parasite
   - vector-borne
-  - Microorganism
+  - microorganism
 aliases:
   - River Blindness worm
   - Filarial worm

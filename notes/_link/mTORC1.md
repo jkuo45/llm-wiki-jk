@@ -7,10 +7,8 @@ type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Protein
+  - protein
 aliases: [mechanistic target of rapamycin complex 1, mTOR Complex 1, mTORC1]
-database_ids:
-  mesh: D058505
 
 ---
 

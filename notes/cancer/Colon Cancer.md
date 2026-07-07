@@ -8,7 +8,7 @@ tags:
   - cancer
   - gastroenterology
   - oncology
-  - Medical Condition
+  - medical-condition
 aliases:
   - Colorectal Cancer
   - Colorectal Carcinoma

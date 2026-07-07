@@ -7,30 +7,10 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases:
   - trans-resveratrol
   - 3,5,4'-trihydroxystilbene
-database_ids:
-  chebi: CHEBI:27881
-  pubchem: 445154
-relations:
-  - predicate: activates
-    target: "SIRT1"
-    sources:
-      - PMID:12939617
-  - predicate: extends_lifespan_in
-    target: "Sir2 (yeast)"
-    sources:
-      - PMID:12939617
-  - predicate: mimics
-    target: "notes/_link/Caloric Restriction"
-    sources:
-      - PMID:15254550
-  - predicate: activates
-    target: "PGC-1α"
-    sources:
-      - PMID:17112576
 
 ---
 

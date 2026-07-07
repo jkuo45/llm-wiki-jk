@@ -7,7 +7,7 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Gene
+  - gene
 aliases: [PPARGC1A, peroxisome proliferator-activated receptor gamma coactivator 1-alpha]
 ---
 # PGC1-α

@@ -7,7 +7,7 @@ type: entity
 created: 2026-05-25
 updated: 2026-07-04
 tags:
-  - Gene
+  - gene
 aliases: [rs4680, COMT Val158Met]
 
 ---

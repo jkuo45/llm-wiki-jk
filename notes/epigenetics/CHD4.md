@@ -5,10 +5,10 @@ type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - chromatin remodeling
+  - chromatin-remodeling
   - transcription
   - epigenetics
-  - Protein
+  - protein
 aliases: [Chromodomain Helicase DNA-binding protein 4, Mi-2β]
 ---
 

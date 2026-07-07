@@ -7,12 +7,8 @@ type: entity
 created: 2024-01-01
 updated: 2026-07-05
 tags:
-  - Protein
+  - protein
 aliases: [Transforming growth factor beta 1, TGF-β1, TGFB1]
-database_ids:
-  mesh: D016212
-  uniprot: P01137
-  hgnc: HGNC:11766
 
 ---
 

@@ -6,26 +6,10 @@ type: entity
 created: 2026-05-25
 updated: 2026-07-04
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases:
   - TMG
   - Trimethylglycine
-database_ids:
-  chebi: CKB:57417
-  mesh: D001623
-relations:
-  - predicate: acts_as
-    target: "Methyl Donor"
-    sources: []
-  - predicate: part_of
-    target: "Methylation Cycle"
-    sources: []
-  - predicate: supports
-    target: "notes/_link/SAMe"
-    sources: []
-  - predicate: influences
-    target: "COMT"
-    sources: []
 ---
 
 

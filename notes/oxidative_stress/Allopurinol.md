@@ -5,7 +5,7 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases:
   - 1,5-Dihydro-4H-pyrazolo[3,4-d]pyrimidin-4-one
   - Zyloprim

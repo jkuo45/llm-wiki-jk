@@ -7,11 +7,8 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: [Calciferol, Cholecalciferol (D3), Ergocalciferol (D2)]
-database_ids:
-  mesh: D014807
-  chebi: CHEBI:27300
 
 ---
 

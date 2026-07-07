@@ -7,22 +7,12 @@ type: entity
 created: 2026-07-05
 updated: 2026-07-05
 tags:
-  - Metabolite
-  - NAD+
+  - metabolite
+  - nad+
 aliases:
   - Nicotinamide Mononucleotide
   - NMN
   - β-NMN
-database_ids:
-  chebi: CHEBI:25378
-  pubchem: 4787763
-relations:
-  - predicate: precursor_of
-    target: "NAD+"
-    sources: []
-  - predicate: activates
-    target: "Sirtuins"
-    sources: []
 ---
 
 

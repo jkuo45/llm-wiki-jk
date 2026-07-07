@@ -7,9 +7,9 @@ updated: 2026-07-06
 tags:
   - cancer
   - microenvironment
-  - tumor biology
+  - tumor-biology
   - immunology
-  - Scientific Concept
+  - scientific-concept
 source: https://en.wikipedia.org/wiki/Tumor_microenvironment
 aliases:
   - TME

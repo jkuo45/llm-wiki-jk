@@ -5,9 +5,9 @@ type: entity
 created: 2026-05-09
 updated: 2026-07-07
 tags:
-  - oxidative stress
-  - protein oxidation
-  - Biological Molecule
+  - oxidative-stress
+  - protein-oxidation
+  - biological-molecule
 aliases: [Proteins]
 ---
 

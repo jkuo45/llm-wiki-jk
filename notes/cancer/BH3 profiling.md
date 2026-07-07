@@ -5,7 +5,7 @@ type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - Analytical Technique
+  - analytical-technique
 aliases: [BH3 profiling assay, mitochondrial priming assay]
 ---
 

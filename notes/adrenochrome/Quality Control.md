@@ -6,8 +6,8 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Laboratory Standard
-  - mitochondrial quality control
+  - laboratory-standard
+  - mitochondrial-quality-control
 aliases: []
 ---
 

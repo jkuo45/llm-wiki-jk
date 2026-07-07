@@ -4,7 +4,7 @@ description: Biological process of differentiation of mesenchymal preadipocytes 
 type: entity
 created: 2026-07-07
 updated: 2026-07-07
-tags: [Biological Process, Adipocyte, Differentiation, Metabolism]
+tags: [biological-process, adipocyte, differentiation, metabolism]
 aliases: []
 ---
 

@@ -7,31 +7,9 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Gene
+  - gene
   - antioxidant
 aliases: [Nrf2, Nuclear factor erythroid 2-related factor 2, NF-E2-related factor 2, NFE2L2]
-database_ids:
-  hgnc: HGNC:7782
-  uniprot: Q16236
-relations:
-  - predicate: regulates
-    target: "notes/_link/Glutathione"
-    sources: []
-  - predicate: inhibits
-    target: "NF-kappa B"
-    sources: []
-  - predicate: is activated by
-    target: "SIRT1"
-    sources: []
-  - predicate: is activated by
-    target: "Alpha-Lipoic Acid"
-    sources: []
-  - predicate: is activated by
-    target: "Flavonoids"
-    sources: []
-  - predicate: induces
-    target: "Ferritin"
-    sources: []
 
 ---
 

@@ -7,7 +7,7 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Receptor
+  - receptor
 aliases: [OLR1, Lectin-like Oxidized LDL Receptor 1, Oxidized LDL receptor 1, LOX1, CLEC8A]
 
 sources:

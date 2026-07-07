@@ -6,10 +6,10 @@ created: 2024-01-01
 updated: 2026-07-06
 tags:
   - development
-  - stem cell biology
+  - stem-cell-biology
   - epigenetics
-  - cell fate
-  - Biological Process
+  - cell-fate
+  - biological-process
 aliases:
   - Cell differentiation
   - Cellular differentiation

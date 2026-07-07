@@ -7,7 +7,7 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [DDIT4, DNA damage inducible transcript 4]
 ---
 # REDD1

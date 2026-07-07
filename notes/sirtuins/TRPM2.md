@@ -5,7 +5,7 @@ type: entity
 created: 2026-07-03
 updated: 2026-07-07
 tags:
-  - Ion Channel
+  - ion-channel
 aliases:
   - TRPM2
   - transient receptor potential melastatin-related channel 2

@@ -7,11 +7,8 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-05
 tags:
-  - Protein
+  - protein
 aliases: [MADH3, Mothers against decapentaplegic homolog 3, SMAD family member 3]
-database_ids:
-  uniprot: P84022
-  hgnc: HGNC:6769
 
 ---
 

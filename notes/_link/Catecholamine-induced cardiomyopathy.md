@@ -4,7 +4,7 @@ description: Myocardial injury and ventricular dysfunction caused by excess cate
 type: entity
 created: 2026-07-07
 updated: 2026-07-07
-tags: [Medical Condition, Cardiomyopathy, Catecholamines, Toxicity]
+tags: [medical-condition, cardiomyopathy, catecholamines, toxicity]
 aliases: []
 ---
 

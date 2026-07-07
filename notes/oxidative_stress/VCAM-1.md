@@ -7,10 +7,10 @@ type: entity
 created: 2026-05-09
 updated: 2026-07-04
 tags:
-  - oxidative stress
+  - oxidative-stress
   - adhesion
   - inflammation
-  - Protein
+  - protein
 aliases: [vascular cell adhesion protein 1, CD106]
 ---
 # VCAM-1

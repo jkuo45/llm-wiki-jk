@@ -7,12 +7,8 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-05
 tags:
-  - Protein
+  - protein
 aliases: [Breast cancer type 1 susceptibility protein, BRCA1 DNA repair associated, RNF53]
-database_ids:
-  mesh: D019913
-  uniprot: P38398
-  hgnc: HGNC:1100
 
 ---
 

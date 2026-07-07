@@ -7,11 +7,8 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Enzyme
+  - enzyme
 aliases: [gp91phox, CYBB, NADPH oxidase 2, Cytochrome b-245 heavy chain]
-database_ids:
-  uniprot: P04839
-  hgnc: HGNC:2578
 
 ---
 

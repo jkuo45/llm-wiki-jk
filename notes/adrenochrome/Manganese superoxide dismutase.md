@@ -7,9 +7,9 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Enzyme
+  - enzyme
   - antioxidant
-  - oxidative stress
+  - oxidative-stress
 aliases: []
 ---
 # Manganese superoxide dismutase

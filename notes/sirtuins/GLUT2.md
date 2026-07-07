@@ -7,7 +7,7 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Transporter
+  - transporter
 aliases:
   - SLC2A2
   - Glucose Transporter 2

@@ -7,7 +7,7 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Biological Process
+  - biological-process
   - senescence
 aliases: [Cell senescence, Replicative senescence, Cellular aging]
 ---

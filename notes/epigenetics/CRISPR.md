@@ -5,11 +5,11 @@ type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - gene editing
-  - genome engineering
-  - epigenome editing
+  - gene-editing
+  - genome-engineering
+  - epigenome-editing
   - biotechnology
-  - Scientific Concept
+  - scientific-concept
 aliases:
   - Clustered Regularly Interspaced Short Palindromic Repeats
   - CRISPR-Cas9

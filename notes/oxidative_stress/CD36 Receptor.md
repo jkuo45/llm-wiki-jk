@@ -7,10 +7,10 @@ type: entity
 created: 2026-05-09
 updated: 2026-07-04
 tags:
-  - oxidative stress
+  - oxidative-stress
   - atherosclerosis
-  - lipid metabolism
-  - Protein
+  - lipid-metabolism
+  - protein
 aliases: [CD36, scavenger receptor class B member 3, fatty acid translocase, FAT]
 ---
 # CD36 Receptor

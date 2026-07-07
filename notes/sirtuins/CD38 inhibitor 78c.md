@@ -7,7 +7,7 @@ type: entity
 created: 2026-07-03
 updated: 2026-07-06
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: [78c, compound 78c, CD38-IN-78c]
 ---
 

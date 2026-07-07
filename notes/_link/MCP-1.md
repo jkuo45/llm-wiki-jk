@@ -7,7 +7,7 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [CCL2, Monocyte Chemoattractant Protein 1]
 
 ---

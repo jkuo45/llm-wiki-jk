@@ -5,10 +5,10 @@ type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - cell cycle
-  - cell division
+  - cell-cycle
+  - cell-division
   - epigenetics
-  - Protein
+  - protein
 aliases: []
 ---
 

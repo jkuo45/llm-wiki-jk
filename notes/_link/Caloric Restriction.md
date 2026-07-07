@@ -7,48 +7,13 @@ type: entity
 created: 2026-07-02
 updated: 2026-07-02
 tags:
-  - Scientific Concept
-  - caloric restriction
+  - scientific-concept
+  - caloric-restriction
 aliases:
   - Calorie Restriction
   - CR
   - dietary restriction
   - calorie restriction
-database_ids:
-  mesh: D004032
-relations:
-  - predicate: activates
-    target: "SIRT1"
-    sources:
-      - PMID:15205477
-  - predicate: requires
-    target: "Sir2 (yeast)"
-    sources:
-      - PMID:11000115
-  - predicate: extends
-    target: "Lifespan"
-    sources:
-      - PMID:MICHAN2007
-  - predicate: upregulates
-    target: "SIRT1"
-    sources:
-      - PMID:MICHAN2007
-  - predicate: upregulates
-    target: "SIRT3"
-    sources:
-      - PMID:15653680
-  - predicate: downregulates
-    target: "SIRT4"
-    sources:
-      - PMID:16959573
-  - predicate: increases
-    target: "NAD+"
-    sources:
-      - PMID:11000115
-  - predicate: mimicked_by
-    target: "Resveratrol"
-    sources:
-      - PMID:15254550
 
 ---
 

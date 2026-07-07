@@ -8,7 +8,7 @@ tags:
   - cardiology
   - electrophysiology
   - arrhythmia
-  - Medical Condition
+  - medical-condition
 aliases: [Cardiac arrhythmia, Dysrhythmia, Heart rhythm disorder]
 ---
 

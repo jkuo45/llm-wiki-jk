@@ -5,10 +5,10 @@ type: entity
 created: 2026-05-09
 updated: 2026-07-07
 tags:
-  - oxidative stress
-  - cell membrane
-  - free radicals
-  - Chemical Process
+  - oxidative-stress
+  - cell-membrane
+  - free-radicals
+  - chemical-process
 aliases: [LPO]
 ---
 

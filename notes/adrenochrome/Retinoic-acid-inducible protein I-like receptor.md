@@ -7,7 +7,7 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Receptor
+  - receptor
 aliases: []
 ---
 # Retinoic-acid-inducible protein I-like receptor

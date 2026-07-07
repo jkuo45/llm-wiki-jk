@@ -7,11 +7,8 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: [Pyridoxine, Pyridoxal, Pyridoxamine, Pyridoxal 5'-phosphate (PLP)]
-database_ids:
-  mesh: D014803
-  chebi: CHEBI:27306
 
 ---
 

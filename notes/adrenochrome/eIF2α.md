@@ -7,7 +7,7 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [Eukaryotic translation initiation factor 2 subunit alpha, eIF-2α, eIF2 alpha]
 
 ---

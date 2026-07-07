@@ -5,10 +5,10 @@ type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - MAPK signaling
-  - stress response
+  - mapk-signaling
+  - stress-response
   - kinase
-  - Enzyme
+  - enzyme
 aliases:
   - MAP3K5
   - Apoptosis signal-regulating kinase 1

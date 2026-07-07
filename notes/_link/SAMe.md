@@ -6,27 +6,11 @@ type: entity
 created: 2026-05-25
 updated: 2026-07-04
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases:
   - S-adenosylmethionine
   - S-adenosyl-L-methionine
   - AdoMet
-database_ids:
-  chebi: CHEBI:16680
-  mesh: D012536
-relations:
-  - predicate: acts_as
-    target: "Methyl Donor"
-    sources: []
-  - predicate: part_of
-    target: "Methylation Cycle"
-    sources: []
-  - predicate: required_by
-    target: "COMT"
-    sources: []
-  - predicate: required_by
-    target: "notes/_link/Methylation"
-    sources: []
 
 ---
 

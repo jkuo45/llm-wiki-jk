@@ -7,11 +7,8 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Enzyme
+  - enzyme
 aliases: [Cyclin-dependent kinase 5, Cdk5, Cyclin-dependent-like kinase 5]
-database_ids:
-  uniprot: Q00535
-  hgnc: HGNC:1775
 
 ---
 

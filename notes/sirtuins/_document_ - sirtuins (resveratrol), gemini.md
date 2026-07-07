@@ -10,9 +10,9 @@ tags:
   - clippings
   - sirtuins
   - resveratrol
-  - Resveratrol Sirtuin Activators
-  - SIRT2-SIRT7 Modulators
-  - Dietary Sirtuin Sources
+  - resveratrol-sirtuin-activators
+  - sirt2-sirt7-modulators
+  - dietary-sirtuin-sources
 aliases: []
 ---
 

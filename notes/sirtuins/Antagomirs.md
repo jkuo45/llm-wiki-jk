@@ -7,7 +7,7 @@ type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases:
   - anti-miR oligonucleotides
   - AMOs

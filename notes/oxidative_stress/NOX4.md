@@ -7,11 +7,8 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Enzyme
+  - enzyme
 aliases: [NADPH oxidase 4, Renox, Kidney oxidase]
-database_ids:
-  uniprot: Q9NPH5
-  hgnc: HGNC:7891
 
 ---
 

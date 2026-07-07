@@ -7,12 +7,8 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-05
 tags:
-  - Protein
+  - protein
 aliases: [BECN1, ATG6, Coiled-coil myosin-like BCL2-interacting protein]
-database_ids:
-  mesh: D060727
-  uniprot: Q14457
-  hgnc: HGNC:1034
 
 ---
 

@@ -7,11 +7,8 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Enzyme
+  - enzyme
 aliases: [8-oxoguanine DNA glycosylase, HMM1, OGH1, MUTM homolog]
-database_ids:
-  uniprot: O15527
-  hgnc: HGNC:8125
 
 ---
 
