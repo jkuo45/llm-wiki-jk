@@ -120,9 +120,9 @@ Frontmatter:
 
 **Entity frontmatter**
 
-type: entity # [entity | document | index]
 title: # Name of entity, index of topic, name of document, etc.
 description: # Short description (if chat thread, summarize)
+type: entity # [entity | document | index]
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
 tags: [] # Populate with entity_type_1, relevant biomedical tags
@@ -136,14 +136,14 @@ aliases: [] # Alternative names, abbreviations, acronyms
 
 ---
 
-type: document
 title: # Full title of the source document, if chat thread rename
-source: # URL/DOI of the original source
-author: [] # List of authors
+description: # Short summary of the document, if chat thread summarize
+type: document
 published: YYYY-MM-DD # Original publication date
 created: YYYY-MM-DD # Date ingested into the vault
-description: # Short summary of the document, if chat thread summarize
-tags: [] # Populate with relevant biomedical tags
+source: # URL/DOI of the original source
+author: [] # List of authors
+tags: [] # Populate with relevant entity_type_1, biomedical tags
 
 ---
 
