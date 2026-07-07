@@ -15,9 +15,6 @@ The metabolic process by which [[Epinephrine|adrenaline]] is broken down in the 
 - [[MAO]]: Enzyme involved in the breakdown of [[Catecholamines]].
 - [[COMT]]: Enzyme involved in the breakdown of [[Catecholamines]].
 
-### Linking Summary:
-- New links added: [[Epinephrine]], [[Neutrophils]], [[Adrenochrome]], [[MAO]], [[COMT]], [[Catecholamines]]
-
 ## Major Routes of Catabolism
 
 [[Epinephrine]] is metabolized through three principal routes, each competing for the same substrate pool:
@@ -52,6 +49,6 @@ Several biochemical parameters divert epinephrine away from COMT/MAO and toward 
 - **Ascorbate deficiency**: Vitamin C efficiently reduces the semiquinone radical back to epinephrine; deficiency removes this protective recycling pathway.
 
 ### Linking Summary:
-- New links added: [[Metanephrine]], [[adrenaline-quinone]], [[Leuco-adrenochrome]], [[Myeloperoxidase]], [[NAD(P)H Oxidase]], [[Rheumatoid synovial fluid]], [[Erythrocytes]], [[Neutrophils]], [[Glutathione]], [[Ascorbate]], [[Catalase]], [[Superoxide anion]], [[Cardiotoxicity]], [[Hemoglobin]], [[Autoxidation]]
+- New links added: [[Metanephrine]], [[adrenaline-quinone]], [[Leuco-adrenochrome]], [[Myeloperoxidase]], [[NAD(P)H Oxidase]], [[Rheumatoid synovial fluid]], [[Erythrocytes]], [[Neutrophils]], [[Glutathione]], [[Ascorbate]], [[Catalase]], [[Superoxide anion]], [[Cardiotoxicity]], [[Hemoglobin]], [[Autoxidation]], [[MAO]], [[COMT]], [[Catecholamines]], [[Adrenochrome]]
 - Suggested new entity notes to create: [[Epinephrine Half-Life]]
 - Strong connections to strengthen: [[Adrenaline catabolism]] ↔ [[Adrenochrome Pathway]], [[Adrenaline catabolism]] ↔ [[COMT]], [[Adrenaline catabolism]] ↔ [[MAO]]

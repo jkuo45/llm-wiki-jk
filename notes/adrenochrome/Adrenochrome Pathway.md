@@ -12,11 +12,6 @@ entity_type_1: Biological Process
 
 The Adrenochrome Pathway is a metabolic route involving the oxidation of [[Epinephrine]] (adrenaline) into [[Adrenochrome]] and its subsequent catabolites like [[Adrenolutin]].
 
-### Linking Summary:
-- New links added: [[Epinephrine]], [[Adrenochrome]], [[Adrenolutin]]
-- Suggested new entity notes to create: 
-- Strong connections to strengthen: [[Adrenaline catabolism]] ↔ [[Adrenochrome Pathway]]
-
 ## Stepwise Biochemistry
 
 The oxidation of [[Epinephrine]] to [[Adrenochrome]] proceeds through a well-characterized sequence of intermediates. The initial step involves one-electron oxidation of the catechol ring to form the **adrenaline semiquinone radical**, an unstable species detectable by electron spin resonance. A second oxidation event yields **[[adrenaline-quinone]]** (epinephrine-ortho-quinone), a highly electrophilic [[o-quinone]] intermediate. Adrenaline-quinone then undergoes rapid intramolecular cyclization: the primary amine side chain attacks the electron-deficient C6 position of the quinone ring in a 1,4-Michael addition, forming **[[Leuco-adrenochrome]]** (2,3-dihydroindole-5,6-dione). Leuco-adrenochrome is a colorless, reduced intermediate that is subsequently oxidized — either by molecular oxygen or by another equivalent of adrenaline-quinone — to yield the characteristic red chromophore **[[Adrenochrome]]** (3-hydroxy-1-methyl-5,6-indolinedione). Further oxidation and rearrangement in alkaline conditions converts adrenochrome to **[[Adrenolutin]]** (5,6-dihydroxy-1-methylindole), a fluorescent compound that can undergo polymerization to form [[Melanins]].

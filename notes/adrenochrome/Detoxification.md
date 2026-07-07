@@ -12,11 +12,6 @@ entity_type_1: Biological Process
 
 Detoxification is the physiological or medicinal removal of toxic substances from a living organism. In the context of [[Advanced Glycation End Products|AGEs]], receptors like [[AGER1]] and enzymes like the glyoxalase system play a role in their detoxification.
 
-### Linking Summary:
-- New links added: [[Advanced Glycation End Products]], [[AGER1]], [[Metabolism]]
-- Suggested new entity notes to create: 
-- Strong connections to strengthen: [[Detoxification]] ↔ [[Advanced Glycation End Products]]
-
 ## Phases of Detoxification
 
 Xenobiotic and endobiotic detoxification proceeds through three coordinated phases, each specialized for distinct chemical transformations:
@@ -53,6 +48,6 @@ The [[NRF2]]-[[Antioxidant Response Element]] transcriptional program orchestrat
 Detoxification capacity is a key determinant of redox homeostasis. The failure to efficiently process catecholamine oxidation products — due to genetic polymorphisms, GSH depletion, or transcriptional downregulation of detoxification enzymes — shifts the cellular redox balance toward sustained oxidation. Conversely, pharmacological activation of Nrf2 (e.g., by sulforaphane from broccoli sprouts, [[Dimethyl fumarate]], or [[Oltipraz]]) enhances the entire Phase II/III detoxification network, representing a promising strategy to mitigate aminochrome toxicity. The interplay between catecholamine flux, GSH availability, and Nrf2-driven detoxification capacity defines the threshold for [[Oxidative Stress]]-induced cell injury.
 
 ### Linking Summary:
-- New links added: [[MAO]], [[COMT]], [[adrenaline-quinone]], [[Adrenochrome]], [[Dopaminochrome]], [[o-quinone]], [[Quinone]], [[Glutathione]], [[NRF2]], [[Antioxidant Response Element]], [[NQO1]], [[HO-1]], [[Thioredoxin]], [[Oxidative Stress]], [[Aminochromes]], [[Redox Cycling]], [[Polymorphism]], [[P-glycoprotein]], [[Glutathione Peroxidase]], [[Glutathione Reductase]], [[GSTs]]
+- New links added: [[MAO]], [[COMT]], [[adrenaline-quinone]], [[Adrenochrome]], [[Dopaminochrome]], [[o-quinone]], [[Quinone]], [[Glutathione]], [[NRF2]], [[Antioxidant Response Element]], [[NQO1]], [[HO-1]], [[Thioredoxin]], [[Oxidative Stress]], [[Aminochromes]], [[Redox Cycling]], [[Polymorphism]], [[P-glycoprotein]], [[Glutathione Peroxidase]], [[Glutathione Reductase]], [[GSTs]], [[Advanced Glycation End Products]], [[AGER1]], [[Metabolism]]
 - Suggested new entity notes to create: [[Thioredoxin System]], [[GSTs (Glutathione S-Transferases)]]
 - Strong connections to strengthen: [[Detoxification]] ↔ [[Adrenochrome]], [[Detoxification]] ↔ [[Glutathione]], [[Detoxification]] ↔ [[NRF2]]

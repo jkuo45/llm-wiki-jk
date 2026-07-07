@@ -33,3 +33,19 @@ At high concentrations (>6 mg/dL), uric acid can act as a pro-oxidant: urate rad
 - **[[Neurodegeneration|Neurodegenerative diseases]]**: Higher serum urate is associated with slower progression of [[Parkinson's Disease]] and [[Amyotrophic Lateral Sclerosis]], likely due to its antioxidant and iron-chelating properties.
 - **[[Metabolic Syndrome]]**: Hyperuricemia correlates with obesity, insulin resistance, and dyslipidemia.
 - **[[Tumor Lysis Syndrome]]**: Massive release of purines from lysed cancer cells (during chemotherapy) causes acute urate nephropathy; prevented with allopurinol or [[Rasburicase]] (recombinant urate oxidase).
+
+### Connections
+
+- [[Xanthine Oxidase]] — Enzyme that generates uric acid from hypoxanthine and xanthine
+- [[Allopurinol]] — Xanthine oxidase inhibitor used to lower uric acid
+- [[NLRP3 Inflammasome]] — Activated by monosodium urate crystals
+- [[Peroxynitrite]] — Scavenged by uric acid
+- [[Fenton Reaction]] — Inhibited by uric acid via transition metal chelation
+- [[Gout]] — Pathological crystallization of uric acid
+- [[Cardiovascular Disease]] — Hyperuricemia as an independent risk factor
+
+### Linking Summary
+
+- New links added: [[Xanthine Oxidase]], [[Allopurinol]], [[NLRP3 Inflammasome]], [[Peroxynitrite]], [[Fenton Reaction]], [[Gout]], [[Cardiovascular Disease]], [[Neurodegeneration]], [[Parkinson's Disease]], [[Amyotrophic Lateral Sclerosis]], [[Metabolic Syndrome]], [[Tumor Lysis Syndrome]], [[Rasburicase]], [[Singlet Oxygen]], [[Hydroxyl Radicals]], [[Hypochlorous Acid]], [[LDL]]
+- Suggested new entity notes to create: [[Febuxostat]], [[Probenecid]], [[Monosodium Urate]]
+- Strong connections to strengthen: [[Uric Acid]] ↔ [[Gout]], [[Uric Acid]] ↔ [[NLRP3 Inflammasome]], [[Uric Acid]] ↔ [[Xanthine Oxidase]]

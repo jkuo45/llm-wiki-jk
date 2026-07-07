@@ -19,11 +19,6 @@ The pathway is responsible for detoxifying reactive dicarbonyl intermediates gen
 
 Maintaining glyoxalase pathway activity is considered a primary target for reducing endogenous AGE accumulation and mitigating complications of [[Diabetes]].
 
-### Linking Summary:
-- New links added: [[Advanced Glycation End Products]], [[Glycolysis]], [[Peroxidation]], [[GLO1]], [[GLO2]], [[Methylglyoxal]], [[Glutathione]], [[S-D-lactoylglutathione]], [[D-lactate]], [[Diabetes]]
-- Suggested new entity notes to create: 
-- Strong connections to strengthen: [[Glyoxalase System]] ↔ [[Methylglyoxal]]
-
 ## Enzyme Mechanisms
 
 [[GLO1]] (glyoxalase 1, lactoylglutathione lyase) is a zinc-dependent metalloenzyme that catalyzes the rate-limiting isomerization of the hemithioacetal (spontaneously formed between [[Methylglyoxal]] and [[Glutathione]]) into S-D-lactoylglutathione. The active site Zn²⁺ coordinates the hemithioacetal, facilitating proton abstraction from C1 and hydride transfer to C2 via a cis-enediolate intermediate. GLO1 exhibits broad substrate specificity for α-ketoaldehydes beyond methylglyoxal, including glyoxal, phenylglyoxal, and 3-deoxyglucosone at substantially reduced catalytic efficiency (kcat/Km values 10–100-fold lower than for methylglyoxal). Human GLO1 is a homodimer of 184-amino-acid subunits (each ~21 kDa), with allosteric regulation by GSH and S-D-lactoylglutathione.
@@ -47,6 +42,6 @@ Glyoxalase capacity declines with age in multiple tissues, driven by oxidative i
 The [[GLO1]] and [[GLO2]] genes are transcriptional targets of the [[NRF2]]-[[Antioxidant Response Element]] pathway and are also regulated by [[HIF-1α]] and [[FOXO]] transcription factors. Mild electrophilic stress — including low-level exposure to [[adrenaline-quinone]], [[Adrenochrome]], or dietary [[Polyphenols]] — upregulates GLO1 expression via Nrf2 activation, enhancing dicarbonyl clearance capacity. This hormetic upregulation links catecholamine oxidation to dicarbonyl metabolism: while high adrenochrome concentrations deplete GSH and impair glyoxalase function, modest Nrf2 activation by aminochrome electrophiles may pre-emptively upregulate GLO1, providing cross-protection against glycation stress. [[Metformin]] increases GLO1 expression via the [[FOXO3a]]-[[Akt]] axis, representing one mechanism of its anti-aging and anti-diabetic efficacy.
 
 ### Linking Summary:
-- New links added: [[RAGE]], [[NFκB]], [[Dicarbonyls]], [[Glyoxal]], [[3-deoxyglucosone]], [[Aldo-Keto Reductases]], [[Aldehyde Dehydrogenases]], [[NRF2]], [[Antioxidant Response Element]], [[HIF-1α]], [[FOXO]], [[adrenaline-quinone]], [[Adrenochrome]], [[Polyphenols]], [[Metformin]], [[FOXO3a]], [[Akt]], [[Aging]], [[Collagen]], [[Diabetes]], [[Diabetic nephropathy]], [[Retinopathy]], [[Neuropathy]]
+- New links added: [[RAGE]], [[NFκB]], [[Dicarbonyls]], [[Glyoxal]], [[3-deoxyglucosone]], [[Aldo-Keto Reductases]], [[Aldehyde Dehydrogenases]], [[NRF2]], [[Antioxidant Response Element]], [[HIF-1α]], [[FOXO]], [[adrenaline-quinone]], [[Adrenochrome]], [[Polyphenols]], [[Metformin]], [[FOXO3a]], [[Akt]], [[Aging]], [[Collagen]], [[Diabetes]], [[Diabetic nephropathy]], [[Retinopathy]], [[Neuropathy]], [[Advanced Glycation End Products]], [[Glycolysis]], [[Peroxidation]], [[GLO1]], [[GLO2]], [[Methylglyoxal]], [[Glutathione]], [[S-D-lactoylglutathione]], [[D-lactate]]
 - Suggested new entity notes to create: [[MG-H1]], [[Cellular Dicarbonyl Stress]]
 - Strong connections to strengthen: [[Glyoxalase System]] ↔ [[NRF2]], [[Glyoxalase System]] ↔ [[Aging]], [[Glyoxalase System]] ↔ [[Adrenochrome]]
