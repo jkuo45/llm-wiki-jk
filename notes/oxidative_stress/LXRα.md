@@ -7,9 +7,9 @@ type: entity
 created: 2026-05-09
 updated: 2026-07-04
 tags:
-  - oxidative_stress
+  - oxidative stress
   - cholesterol
-  - nuclear_receptor
+  - nuclear receptor
   - Protein
 aliases: [Liver X receptor alpha, NR1H3, LXRA]
 ---

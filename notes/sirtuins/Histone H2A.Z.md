@@ -8,6 +8,7 @@ created: 2026-07-04
 updated: 2026-07-07
 tags:
   - Protein
+  - epigenetics
 aliases: [H2AFZ, H2A Histone Family Member Z]
 
 sources:

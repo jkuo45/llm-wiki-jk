@@ -5,9 +5,9 @@ type: entity
 created: 2026-05-09
 updated: 2026-07-07
 tags:
-  - oxidative_stress
-  - ros
-  - redox_biology
+  - oxidative stress
+  - ROS
+  - redox biology
   - Chemical Class
 aliases: [radicals, free radical species]
 ---

@@ -7,8 +7,8 @@ type: entity
 created: 2026-05-09
 updated: 2026-07-04
 tags:
-  - oxidative_stress
-  - transcription_factor
+  - oxidative stress
+  - transcription factor
   - inflammation
   - Protein
 aliases: [NF-kappa B, NFKB, nuclear factor kappa-light-chain-enhancer of activated B cells]

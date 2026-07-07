@@ -7,9 +7,9 @@ type: entity
 created: 2026-05-09
 updated: 2026-07-04
 tags:
-  - oxidative_stress
-  - biomarker
-  - dna_damage
+  - oxidative stress
+  - Biomarker
+  - dna damage
   - Metabolite
 aliases: [8-oxodG, 8-OHdG, 8-hydroxy-2'-deoxyguanosine]
 ---

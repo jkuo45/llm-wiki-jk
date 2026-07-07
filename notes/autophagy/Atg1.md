@@ -7,6 +7,7 @@ created: 2026-07-04
 updated: 2026-07-04
 tags:
   - Enzyme
+  - autophagy
 aliases: [ULK1, Unc-51-like kinase 1]
 ---
 # Atg1

@@ -8,6 +8,7 @@ created: 2026-07-04
 updated: 2026-07-04
 tags:
   - Protein
+  - epigenetics
 aliases:
   - H3
   - Histone H3.1

@@ -7,9 +7,9 @@ type: entity
 created: 2026-05-09
 updated: 2026-07-04
 tags:
-  - oxidative_stress
-  - rns
-  - nitrative_stress
+  - oxidative stress
+  - RNS
+  - nitrative stress
   - Metabolite
 aliases: [ONOO−, peroxynitrite anion]
 ---

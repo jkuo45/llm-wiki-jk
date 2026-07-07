@@ -6,8 +6,8 @@ type: entity
 created: 2026-05-09
 updated: 2026-07-04
 tags:
-  - oxidative_stress
-  - redox_signaling
+  - oxidative stress
+  - redox signaling
   - Metabolite
 aliases: [chemical messengers, second messengers]
 ---

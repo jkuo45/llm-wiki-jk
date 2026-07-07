@@ -8,6 +8,7 @@ created: 2026-07-02
 updated: 2026-07-02
 tags:
   - Scientific Concept
+  - caloric restriction
 aliases:
   - Calorie Restriction
   - CR

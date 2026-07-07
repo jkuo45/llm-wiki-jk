@@ -8,6 +8,7 @@ created: 2026-07-04
 updated: 2026-07-06
 tags:
   - Protein
+  - inflammation
 aliases: [TNF-α, Tumor Necrosis Factor Alpha, cachectin]
 
 ---

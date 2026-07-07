@@ -8,6 +8,7 @@ created: 2026-07-04
 updated: 2026-07-04
 tags:
   - Pharmacological Action
+  - caloric restriction
 aliases: [CRMs]
 ---
 # Caloric Restriction Mimetics

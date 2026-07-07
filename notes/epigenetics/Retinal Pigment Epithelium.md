@@ -9,8 +9,8 @@ tags:
   - phagocytosis
   - visual cycle
   - blood-retina barrier
-  - AMD
-  - iPSC
+  - Age-related Macular Degeneration
+  - Induced Pluripotent Stem Cell
   - cell therapy
   - RPE65
   - Bruch's membrane

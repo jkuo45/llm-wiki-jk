@@ -6,9 +6,8 @@ created: 2026-07-06
 updated: 2026-07-06
 tags:
   - epigenetics
-  - enzyme
-  - methylation
   - Enzyme
+  - methylation
 aliases: [DNMT]
 ---
 

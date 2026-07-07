@@ -7,10 +7,11 @@ type: entity
 created: 2026-05-09
 updated: 2026-07-04
 tags:
-  - oxidative_stress
+  - oxidative stress
   - superoxide
-  - immune_system
+  - immune system
   - Enzyme
+  - NAD+
 aliases: [NOX, NADPH oxidase complex, NOX family]
 ---
 # NADPH Oxidase

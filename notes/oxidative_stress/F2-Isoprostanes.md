@@ -6,6 +6,7 @@ created: 2026-07-04
 updated: 2026-07-07
 tags:
   - Chemical Class
+  - oxidative stress
 aliases: [F2-IsoPs, 8-iso-PGF2α, 15-F₂t-IsoP, Isoprostanes]
 ---
 

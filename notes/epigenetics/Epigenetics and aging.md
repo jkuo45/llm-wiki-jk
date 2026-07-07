@@ -6,6 +6,7 @@ created: 2026-05-13
 updated: 2026-07-06
 tags:
   - Biological Process
+  - epigenetics
 aliases: []
 ---
 Researchers review how random changes and our environment (for example, diet) determines our life span.

@@ -8,6 +8,7 @@ created: 2026-07-02
 updated: 2026-07-03
 tags:
   - Protein
+  - NAD+
 aliases:
   - Sirtuin 6
   - nuclear sirtuin 6

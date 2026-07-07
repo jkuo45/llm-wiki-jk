@@ -5,11 +5,10 @@ type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - amino acid
-  - metabolism
+  - Amino Acid
+  - Metabolism
   - cancer metabolism
   - fuel source
-  - Amino Acid
 source: https://en.wikipedia.org/wiki/Glutamine
 aliases:
   - Gln

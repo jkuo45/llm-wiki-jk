@@ -8,6 +8,7 @@ created: 2026-07-04
 updated: 2026-07-05
 tags:
   - Chemical Compound
+  - NAD+
 aliases: [NAM, Niacinamide, Vitamin B3, Nicotinic acid amide]
 database_ids:
   mesh: D009536

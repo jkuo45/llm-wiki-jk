@@ -6,6 +6,7 @@ created: 2026-07-04
 updated: 2026-07-07
 tags:
   - Transporter
+  - autophagy
 aliases:
   - sodium-coupled amino acid transporter 9
   - SNAT9

@@ -8,6 +8,7 @@ created: 2026-07-04
 updated: 2026-07-07
 tags:
   - Protein
+  - autophagy
 aliases: [ATG14L, Barkor]
 ---
 

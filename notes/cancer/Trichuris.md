@@ -8,7 +8,7 @@ updated: 2026-07-06
 tags:
   - Nematode
   - Helminth
-  - STH
+  - Soil-Transmitted Helminths
   - Microorganism
 aliases: [Whipworm]
 ---

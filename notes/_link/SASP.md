@@ -8,6 +8,7 @@ created: 2024-01-01
 updated: 2026-07-06
 tags:
   - Biological Process
+  - senescence
 aliases: [Senescence-Associated Secretory Phenotype, senescence-associated secretory phenotype]
 
 ---

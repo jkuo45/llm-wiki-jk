@@ -7,6 +7,7 @@ created: 2026-07-04
 updated: 2026-07-04
 tags:
   - Protein
+  - autophagy
 aliases: [LC3, GABARAP family]
 
 ---

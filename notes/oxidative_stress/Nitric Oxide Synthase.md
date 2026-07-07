@@ -7,8 +7,8 @@ type: entity
 created: 2026-05-09
 updated: 2026-07-04
 tags:
-  - oxidative_stress
-  - nitric_oxide
+  - oxidative stress
+  - nitric oxide
   - vasodilation
   - Enzyme
 aliases: [NOS, NO synthase]

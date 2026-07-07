@@ -6,6 +6,8 @@ created: 2026-07-04
 updated: 2026-07-07
 tags:
   - Protein
+  - antioxidant
+  - oxidative stress
 aliases:
   - SOD2
   - Manganese Superoxide Dismutase

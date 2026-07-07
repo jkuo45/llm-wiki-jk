@@ -6,7 +6,8 @@ type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - NA
+  - Enzyme
+  - antioxidant
 aliases: [Glutathione Peroxidase]
 ---
 # Glutathione Peroxidase

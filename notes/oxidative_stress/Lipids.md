@@ -7,9 +7,9 @@ type: entity
 created: 2026-05-09
 updated: 2026-07-04
 tags:
-  - oxidative_stress
-  - cell_membrane
-  - lipid_peroxidation
+  - oxidative stress
+  - cell membrane
+  - lipid peroxidation
   - Metabolite
 aliases: [Lipids]
 ---

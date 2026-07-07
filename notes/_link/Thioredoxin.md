@@ -8,6 +8,8 @@ created: 2026-07-04
 updated: 2026-07-04
 tags:
   - Protein
+  - antioxidant
+  - oxidative stress
 aliases: [Trx, TXN]
 database_ids:
   mesh: D013845

@@ -7,9 +7,9 @@ type: entity
 created: 2026-05-09
 updated: 2026-07-04
 tags:
-  - oxidative_stress
-  - rns
-  - nitric_oxide
+  - oxidative stress
+  - RNS
+  - nitric oxide
   - Scientific Concept
 aliases: [nitrosative stress]
 ---

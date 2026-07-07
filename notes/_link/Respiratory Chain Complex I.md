@@ -8,6 +8,7 @@ created: 2026-07-04
 updated: 2026-07-04
 tags:
   - Enzyme
+  - mitochondria
 aliases: [Complex I, NADH:ubiquinone oxidoreductase, NADH dehydrogenase]
 database_ids:
   uniprot: P03886

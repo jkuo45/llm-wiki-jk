@@ -8,6 +8,7 @@ created: 2026-07-04
 updated: 2026-07-04
 tags:
   - Gene
+  - antioxidant
 aliases: [Nrf2, Nuclear factor erythroid 2-related factor 2, NF-E2-related factor 2, NFE2L2]
 database_ids:
   hgnc: HGNC:7782

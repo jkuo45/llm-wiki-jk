@@ -7,6 +7,7 @@ created: 2026-07-04
 updated: 2026-07-04
 tags:
   - Scientific Concept
+  - autophagy
 aliases: []
 ---
 | Targeting regulatory mechanisms of TFEB    | Disease                            | Characteristics of disease                                                                                                           | The disease models                                                                            | Methods of targeting TFEB                                                                                       | The improved phenotype                                                                                     | References (PMID) |

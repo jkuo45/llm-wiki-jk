@@ -8,6 +8,7 @@ created: 2026-07-04
 updated: 2026-07-05
 tags:
   - Protein
+  - apoptosis
 aliases: [CASP3, CPP32, Apopain, Yama]
 database_ids:
   mesh: D020169

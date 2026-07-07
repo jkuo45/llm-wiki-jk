@@ -8,6 +8,7 @@ created: 2026-07-04
 updated: 2026-07-06
 tags:
   - Analytical Technique
+  - oxidative stress
 aliases: [Electron Paramagnetic Resonance, ESR, EPR]
 
 ---

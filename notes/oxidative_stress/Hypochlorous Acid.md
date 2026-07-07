@@ -7,8 +7,8 @@ type: entity
 created: 2026-05-09
 updated: 2026-07-04
 tags:
-  - oxidative_stress
-  - immune_system
+  - oxidative stress
+  - immune system
   - myeloperoxidase
   - Chemical Compound
 aliases: [HOCl, HClO]

@@ -7,6 +7,7 @@ created: 2026-07-04
 updated: 2026-07-04
 tags:
   - Protein
+  - inflammation
 aliases: [Tumor Necrosis Factor Alpha, TNF-alpha, TNFA]
 ---
 # TNF-α

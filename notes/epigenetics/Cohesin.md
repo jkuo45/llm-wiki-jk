@@ -8,7 +8,7 @@ tags:
   - chromosome cohesion
   - SMC
   - CTCF
-  - TAD
+  - Topologically Associating Domain
   - Cornelia de Lange syndrome
   - sister chromatid
   - Protein

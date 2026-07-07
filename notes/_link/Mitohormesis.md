@@ -8,6 +8,8 @@ created: 2026-07-04
 updated: 2026-07-04
 tags:
   - Scientific Concept
+  - mitochondria
+  - mitohormesis
 aliases: [Mitochondrial hormesis, Mitohormetic effect]
 
 ---

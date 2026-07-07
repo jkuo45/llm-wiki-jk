@@ -8,6 +8,7 @@ created: 2026-07-04
 updated: 2026-07-04
 tags:
   - Biological Process
+  - caloric restriction
 aliases: [DR]
 ---
 # Dietary Restriction

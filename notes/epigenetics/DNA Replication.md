@@ -5,9 +5,9 @@ type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - cell_cycle
-  - dna_synthesis
-  - s_phase
+  - cell cycle
+  - dna synthesis
+  - s phase
   - Biological Process
 aliases: []
 ---

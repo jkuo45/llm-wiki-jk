@@ -5,8 +5,8 @@ type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - cell_cycle
-  - tumor_suppressor
+  - cell cycle
+  - tumor suppressor
   - epigenetics
   - Gene
 aliases: [p27, Kip1]

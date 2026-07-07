@@ -7,7 +7,7 @@ updated: 2026-07-06
 tags:
   - cell adhesion
   - tumor suppressor
-  - EMT
+  - Epithelial-Mesenchymal Transition
   - methylation
   - gastric cancer
   - Gene

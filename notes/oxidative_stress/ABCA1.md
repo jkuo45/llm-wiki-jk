@@ -7,9 +7,9 @@ type: entity
 created: 2026-05-09
 updated: 2026-07-04
 tags:
-  - oxidative_stress
+  - oxidative stress
   - cholesterol
-  - lipid_metabolism
+  - lipid metabolism
   - Protein
 aliases: [ATP-binding cassette transporter A1, ABC-1]
 ---

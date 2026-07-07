@@ -5,8 +5,8 @@ type: entity
 created: 2026-05-09
 updated: 2026-07-07
 tags:
-  - oxidative_stress
-  - dna_damage
+  - oxidative stress
+  - dna damage
   - genetics
   - Biological Molecule
 aliases: [DNA, RNA]

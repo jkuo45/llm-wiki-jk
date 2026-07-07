@@ -5,8 +5,8 @@ type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - genomic_stability
-  - DNA_repair
+  - genomic stability
+  - DNA repair
   - epigenetics
   - Biological Process
 aliases: [DDR]
