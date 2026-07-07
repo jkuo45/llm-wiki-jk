@@ -29,6 +29,14 @@ DYRK1A is essential in development and neurobiology (it maps to the Down-syndrom
 
 DYRK1A inhibitors (e.g., harmine, INDY, TC-D 22) are studied for their ability to restore apoptosis and sensitize tumors to therapy. Because DYRK1A restrains caspase-9, its inhibition is rational in combination with [[BH3 mimetics]] or [[Chemotherapy]] to amplify mitochondrial death. DYRK1A is also a candidate biomarker of stress-resistance in malignancies, and its role in p53 modulation links it to DNA-damage response pathways under investigation for targeted intervention.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - Caspase-9 | | CDK1, DYRK1A, ERK1_2, p38 MAPK (PP1α) | Thr125 | Suppression of activity | Suppressing
+
+
 ## Connections
 
 - [[Caspase-9]]: Direct DYRK1A substrate phosphorylated to inhibit apoptosis.

@@ -39,6 +39,17 @@ eNOS is highly expressed in endothelial cells lining the vasculature. Its NO pro
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Dietary Advanced Glycation End Products and Aging|Dietary Advanced Glycation End Products and Aging]]
+    - Some authors proposed that AGEs reduce NO synthase (eNOS) half-life in the endothelium. For instance, Xu et al.
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Meanwhile, SIRTs target many downstream factors, such as HIF-1α and eNOS, and then participate in regulating oxidative stress. Activation of HIF-1α is associated with oxidative stress and can regulate ROS formation through direct or indirect effects.
+
+
 ## Connections
 - [[SIRT1]] — Deacetylates and activates eNOS, promoting NO production and vasodilation
 - [[Resveratrol]] — Activates SIRT1, which upregulates eNOS expression and activity

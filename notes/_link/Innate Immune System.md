@@ -24,6 +24,14 @@ aliases: [Innate Immunity]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
+    - Mounting evidence indicates that Mitophagy, which encompasses selective degradation of damaged or excessive mitochondria, is an especially crucial regulator of Innate Immune System function (Gkikas et al., 2018).
+
+
 ## Connections
 - [[Innate Immune System]] — related entity
 

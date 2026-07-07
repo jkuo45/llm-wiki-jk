@@ -49,6 +49,17 @@ In [[Cancer]], catalase expression is frequently downregulated in tumor cells co
 Catalase operates in parallel with the [[Glutathione Peroxidase]] (GPx) and [[Thioredoxin Peroxidase]] ([[Peroxiredoxin]]) systems. While GPx has a higher affinity for $H_2O_2$ ($K_m$ ~1–10 μM) than catalase ($K_m$ ~25–100 mM), catalase has a vastly higher $V_{max}$ and does not consume NADPH or glutathione. Thus, at low $H_2O_2$ fluxes, GPx predominates; at high fluxes (e.g., during the [[Respiratory Burst]] or in [[Peroxisomes]]), catalase becomes the dominant scavenger. The interplay between these systems is essential for maintaining the low steady-state $H_2O_2$ (~1–10 nM) typical of most cell types.
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - Cells deploy an antioxidant defensive system based mainly on enzymatic components, such as Superoxide Dismutase (SOD), Catalase (CAT), and Glutathione Peroxidase (GPx), to protect themselves from ROS-induced cellular damage \[\]. 2\.
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - SIRT6 also promoted AMPK expression, thus upregulating antioxidant-encoding gene expression of MnSOD and Catalase, thereby suppressing oxidative stress.
+
+
 ## Connections
 - [[Hydrogen Peroxide]]
 - [[Oxidative Stress]]

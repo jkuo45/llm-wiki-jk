@@ -23,6 +23,14 @@ Both [[MAO]] and [[COMT]] are involved in the metabolism of catecholamines. Whil
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum|Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum]]
+    - In the Sirtuins, the Dopamine Transporter (DAT) is highly abundant and responsible for rapid Dopamine uptake into dopaminergic terminals where it is either packaged into storage vesicles or metabolized by Monoamine oxidase (MAO).
+
+
 ## Connections
 - [[Dopamine]]: One of the primary neurotransmitters metabolized by MAO.
 - [[COMT]]: The other major enzyme involved in catecholamine degradation.

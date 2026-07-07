@@ -23,6 +23,14 @@ Caspase-12 is localized to the outer membrane of the endoplasmic reticulum (ER).
 ## Role in Humans
 While Caspase-12 is a major mediator of ER stress-induced apoptosis in rodents, the human gene often contains mutations that result in a non-functional or truncated protein. In humans, Caspase-4 is thought to perform a similar function.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - It is believed to be Caspase-12-dependent and mitochondria-independent \[\]. When the ER is injured by cellular stresses like hypoxia, free radicals or gluc
+
+
 ## Connections
 - [[Endoplasmic Reticulum Pathway]]: The primary protease of this pathway.
 - [[TRAF2]]: A regulatory adaptor protein.

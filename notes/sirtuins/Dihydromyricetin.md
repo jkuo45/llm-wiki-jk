@@ -51,6 +51,14 @@ DHM's key advantage over many sirtuin activators is its **practical dietary achi
 
 **Bioavailability**: DHM is fairly well absorbed, though like many flavonoids it undergoes some gut metabolism. Bioavailability is enhanced with fat-containing meals.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins (resveratrol), gemini|sirtuins (resveratrol), gemini]]
+    - Dihydromyricetin (DHM): A natural flavonoid found in plants like the Ampelopsis grossedentata (Vine Tea). 1,4-Dihydropyridines (DHPs): Synthetic compounds engineered to allosterically activate mitochondrial sirtuins.
+
+
 ## Connections
 
 - [[SIRT3]] — primary sirtuin target; DHM activates SIRT3-mediated mitochondrial pathways

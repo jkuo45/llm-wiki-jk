@@ -41,6 +41,14 @@ Even after transcription initiation, [[RNA Polymerase II]] often pauses at promo
 
 During [[Cellular Senescence|senescence]], hundreds of genes are silenced through [[SAHF|SAHF-mediated]] heterochromatinization, including [[E2F]] target proliferation genes ([[MCM2]], [[PCNA]], [[CCNA2]]). Simultaneously, [[SASP]] genes ([[IL-6]], [[IL8]], [[CXCL1]], [[MMP3]]) are activated through [[NFκB]] and [[CEBPB|C/EBPβ]] whose chromatin becomes more accessible. Age-related [[Epigenetic Drift|epigenetic drift]] causes stochastic changes in gene expression across tissues, contributing to loss of cellular identity and functional decline.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - on stress]] inducers, different DNA‐damaging agents, and telomerase inhibitors likely generate a persistent DNA Damage Response following prolonged introduction of a small number of DNA Lesions or Telomere Uncapping, long‐term incubation with Epigenetic Mod...
+
+
 ## Connections
 
 - [[Gene Expression]]: **Gene Expression** is the biological process by which information from a [[Gene|gene]] is used to synthesize a funct...

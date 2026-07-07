@@ -31,6 +31,14 @@ Worker *A. mellifera* produce a complex venom apparatus; the secreted venom is a
 
 Bee venom therapy remains largely preclinical/complementary; rigorous trials are needed. Its inclusion here reflects the broader interest in repurposing natural products as low-cost anticancer agents, paralleling work on [[Ivermectin]] and [[Albendazole]].
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology|Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology]]
+    - Despite decades of study, the molecular mechanisms and selectivity of the biomolecular components of Honeybee (Apis mellifera) venom as anticancer agents remain largely unknown.
+
+
 ## Connections
 
 - [[Honeybee]]: Common name for the species.

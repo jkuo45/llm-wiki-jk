@@ -30,6 +30,14 @@ Alpha-lipoic acid (ALA) is a sulfur-containing compound that acts as a potent "u
 - **Protective Effects:** Scavenges [[Hydroxyl Radicals]], [[Singlet Oxygen]], and [[Hypochlorous Acid]].
 - **Chelation:** Can bind to toxic metal ions, preventing them from generating ROS.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - Linking Summary: - New links added: Superoxide Radicals, Hydrogen Peroxide, Hydroxyl Radicals, Singlet Oxygen, Peroxynitrite, NADPH Oxidase, Xanthine Oxidase, Glutathione, Alpha-Lipoic Acid, NF-kappa B, Apoptosis, Mitochondria, Nitric Oxide, 8-oxo-2'-d
+
+
 ## Connections
 - [[Glutathione]]: ALA is a major restorer of glutathione levels.
 - [[Vitamin E]]: ALA helps recycle vitamin E in lipid membranes.

@@ -23,6 +23,17 @@ aliases: []
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - Gluconeogenesis is reduced in the presence of insulin following the phosphorylation of FoxO1 \[,\].
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - The effect of SIRTs on glucose metabolism: Glucose metabolism refers to a series of complex chemical reactions after glucose, glycogen and other substances enter the body, including anaerobic Glycolysis of glucose, aerobic oxidation, synthesis and decomposi...
+
+
 ## Connections
 - [[Gluconeogenesis]] — related entity
 

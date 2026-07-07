@@ -29,6 +29,14 @@ Post-mortem studies of PD substantia nigra report upregulated neuronal MHC-I in 
 
 If antigen presentation drives neuronal loss, immunomodulatory strategies (checkpoint modulation, T-cell tolerance induction) become candidate therapies. Biomarkers of CNS immune activation are under investigation. This pathway also explains how [[Neuroinflammation]] and protein misfolding converge on the same vulnerable cell population.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease|Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease]]
+    - Suggested new entity notes to create: Neuroprotection, mTOR, Glucocerebrosidase, Lysosomal Exocytosis, Antigen Presentation. Strong connections to strengthen: Neuromelanin ↔ Parkinson's Disease, Neuromelanin ↔ Pathogenic Threshold of Neuromelanin.
+
+
 ## Connections
 
 - [[Parkinson's Disease]]: Disorder in which neuronal antigen presentation is implicated.

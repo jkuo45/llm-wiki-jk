@@ -29,6 +29,14 @@ The anthelmintic benzimidazole class (e.g., [[Oxfendazole]], [[Mebendazole]]) ac
 
 Priorities include macrofilaricidal drugs (doxycycline anti-Wolbachia; [[Oxfendazole]]) to kill adult worms and accelerate elimination, plus diagnostics and surveillance. The disease remains a paradigm of successful global health intervention.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, ‘Wonder drug’ from Japan the human use perspective|Ivermectin, ‘Wonder drug’ from Japan the human use perspective]]
+    - Keywords: Avermectin, Ivermectin, mode of action, Onchocerciasis, Lymphatic Filariasis, drug resistance Introduction There are few
+
+
 ## Connections
 
 - [[Onchocerca volvulus]]: Causative filarial nematode.

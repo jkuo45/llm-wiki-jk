@@ -20,6 +20,26 @@ Peroxisome proliferator-activated receptor-γ (PPARγ) is a transcription factor
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects|Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects]]
+    - Additionally, Urolithin A can modulate the activity of peroxisome proliferator-activated receptor gamma (PPARγ) \[\], a crucial transcription factor involved in adipocyte differentiation, glucose metabolism, and cholesterol metabolism, among other processes...
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - It has been demonstrated that mTORC1 positively regulates the activity of SREBP1 (SREBP1) (Porstmann et al., 2008) and of PPARγ (Kim and Chen, 2004), two Transcription Factor that control the expression of genes encoding proteins involved in lipid and chole...
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - This was true in vivo, as well as in vitro on human macrophages and vascular smooth muscle cells \[, \]; vitamin E supplementation was also useful to upregulate PPARγ, LXRα, and ABCA1, in ApoE knockout mice, ameliorating early (but not advanced) atheroscler...
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - SIRT1 promotes fat mobilization in white adipose tissue by binding to and repressing genes involved in adipogenesis, such as PPARγ (peroxisome proliferator-activated receptor _γ_ ) and aP2 (fatty acid binding protein), and also by quenching the PPAR- _γ_ co...
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - The effect of SIRT1 and SIRT3 on PGC1-α: PGC1-α is a coactivator of PPARγ, which can act to block oxidative stress damage by scavenging excess ROS, inducing antioxidant enzyme expression and maintaining mitochondrial function.
+
+
 ## Connections
 - [[Diabetes Mellitus]] — interacts with PPARγ
 - [[Inflammation]] — interacts with PPARγ

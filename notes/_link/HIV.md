@@ -24,6 +24,14 @@ aliases: [Human Immunodeficiency Virus]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - For example, shortly after Macrophage exposure to HIV, TFEB is activated in a process that is dependent on TLR8. This leads to a transient increase in Autophagy that is critical for HIV replication (Campbell & Spector 2013).
+
+
 ## Connections
 - [[HIV]] — related entity
 

@@ -26,6 +26,17 @@ Epigenetic factors like [[SIRT6]] play a crucial role in maintaining genomic sta
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks|Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks]]
+    - All together nine hallmarks of aging have been discovered including alteration in intercellular communication, deregulated nutrient sensing, exhaustion of stem cells, Cellular Senescence, increase mitochondrial dysfunction, marked loss of proteostasis, attr...
+
+  - [[_document_ - The Gut Microbiome, Aging, and Longevity A Systematic Review|The Gut Microbiome, Aging, and Longevity A Systematic Review]]
+    - Primary cellular and molecular Hallmarks of Aging include Genomic Instability, Telomere Attrition, Epigenetic Alterations, and loss of Pro
+
+
 ## Connections
 - **[[Aging]]**: Genomic instability is one of the primary "hallmarks of aging."
 - **[[DNA Damage]]**: The physical lesions that contribute to instability.

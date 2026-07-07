@@ -16,6 +16,14 @@ The centromere is a specialized [[Chromosome]] region where [[Kinetochore]] asse
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - Chromosome segregation is mediated by microtubule attachment to a defined region of the chromosome known as the Centromere (McKinley and Cheeseman, 2016).
+
+
 ## Connections
 - [[Chromosome]] — centromere is a specialized chromosome region
 - [[Mitosis]] — centromere functions in chromosome segregation

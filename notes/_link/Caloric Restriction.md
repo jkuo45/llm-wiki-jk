@@ -66,6 +66,35 @@ The epigenetic changes induced by CR converge on several critical pathways:
 - Short-term or moderate caloric restriction stimulates **adaptive autophagy**, which is beneficial for cell survival.
 - Prolonged or extreme caloric restriction can lead to **excessive autophagy**, potentially triggering type II [[Autophagic Cell Death]].
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Dietary Advanced Glycation End Products and Aging|Dietary Advanced Glycation End Products and Aging]]
+    - Role of Restriction of Dietary AGEs in Lifespan It has been demonstrated that Caloric Restriction increases lifespan in C. elegans and mice.
+
+  - [[_document_ - Autophagy and intermittent fasting the connection for cancer therapy?|Autophagy and intermittent fasting the connection for cancer therapy?]]
+    - Among the many diet regimens that have been assessed, Caloric Restriction (CR) and Intermittent Fasting are the methods under intense investigation in oncology,,.
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - Accumulated evidence suggests that Intermittent Fasting or Caloric Restriction can lead to the induction of adaptive autophagy and increase Longevity of eukaryotic cells.
+
+  - [[_document_ - The autophagy enhancer spermidine reverses arterial aging|The autophagy enhancer spermidine reverses arterial aging]]
+    - Because many known autophagy inducers have off-target effects (e.g., Rapamycin) or uncertain translational promise (e.g., Caloric Restriction), there is considerable interest in natural food components or “nutraceuticals” that promote autophagy (Galluzzi an...
+
+  - [[_document_ - xenohormesis, mitohormesis|xenohormesis, mitohormesis]]
+    - I'm highlighting the metabolic pathways activated, like Sirtuins and AMPK, along with the link to Caloric Restriction. Synthesizing Findings Objectively I've successfully documented the scientific consensus and criticisms surrounding this topic.
+
+  - [[_document_ - sirtuins (overview, CD38 KO risks, cancer therapies)|sirtuins (overview, CD38 KO risks, cancer therapies)]]
+    - They are implicated in Longevity, Caloric Restriction benefits, and age-related diseases like Diabetes Mellitus, Cancer, Neurodegenerative Diseases, and Cardiovascular Disease.
+
+  - [[_document_ - sirtuins (resveratrol), gemini|sirtuins (resveratrol), gemini]]
+    - Therapeutic Implications The resveratrol-SIRT1 axis has been studied extensively across several broad domains of health: - Metabolic Health: By activating the AMPK/SIRT1/PGC-1α pathway, resveratrol mimics many of the physiological effects of Caloric Restric...
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - Sir2 (yeast) homologues also modulate lifespan in worms and flies, and may underlie the beneficial effects of Caloric Restriction (CR), the only regimen that slows Aging and extends lifespan of most classes of organism, including mammals.
+
+
 ## Connections
 - **[[Aging]]**: CR is the gold standard for interventions that extend lifespan and healthspan across species.
 - **[[SIRT1]]**: A primary mediator of the beneficial effects of caloric restriction on the epigenome.

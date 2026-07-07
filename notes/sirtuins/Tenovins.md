@@ -54,6 +54,17 @@ Tenovins inhibit the deacetylase activity of SIRT1 and SIRT2, preventing them fr
 
 ---
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - Other drugs that have been used to target p53 include the Nutlins, MI-219 and the Tenovins. Nutlins are analogues of cis-imidazoline, which inhibit the MDM2-p53 interactio
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Tenovins: Through phenotypic screening of 30,000 drug-like small molecules able to activate p53 and decrease tumor growth, Lain et al. discovered two compounds that were SIRT1 inhibitors: Tenovins and its more water soluble analog Tenovins.
+
+
 ## Connections & Related Entities
 
 - **[[SIRT1]]** & **[[SIRT2]]** — direct molecular targets inhibited by the Tenovins.
@@ -61,6 +72,8 @@ Tenovins inhibit the deacetylase activity of SIRT1 and SIRT2, preventing them fr
 - **[[Sirtinol]]** — another well-known chemical class of dual SIRT1/2 inhibitors.
 
 ---
+
+
 
 ## Connections
 

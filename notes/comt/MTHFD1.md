@@ -34,6 +34,14 @@ Because [[MTHFD1]] contributes to the folate-derived one-carbon pool that ultima
 
 MTHFD1 is a candidate gene in folate-metabolism GWAS and a target for understanding interindividual variation in methyl-donor needs. It is relevant to prenatal supplementation strategies and to personalized approaches balancing methyl-folate intake against COMT genotype.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - yl and Hydroxocobalamin 5 Diet and supplements options for Slow COMT: If you have MTHFR variants along with slow COMT, you may be wondering, “What should I do?” Many functional medicine practitioners, health websites, and podcast hosts recommend Methylfolat...
+
+
 ## Connections
 
 - [[Folate]]: The primary nutrient metabolized by MTHFD1.

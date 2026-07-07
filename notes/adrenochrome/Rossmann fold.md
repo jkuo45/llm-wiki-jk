@@ -13,6 +13,14 @@ aliases: []
 # Rossmann fold
 The Rossmann fold is a highly conserved structural protein motif found in many nucleotide-binding proteins, particularly those that bind [[NAD+]]/NADH. In the sirtuin family, this large domain serves as the primary binding site for the NAD+ cofactor required for enzymatic activity.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review|sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review]]
+    - Keywords: Ageing, Deacetylase, Nicotinamide adenine dinucleotide, Rossmann fold, Sirtuins Introduction The human sirtuins are a highly conserved f
+
+
 ## Connections
 
 - [[NAD+]]: # Rossmann fold The Rossmann fold is a highly conserved structural protein motif found in many nucleotide-binding pro...

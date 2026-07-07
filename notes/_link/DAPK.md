@@ -24,6 +24,14 @@ aliases: [Death-Associated Protein Kinase]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - The downregulation of varied proteins (DAPK, PTEN, TSC1, TSC2, and LKB1/STK11) is associated with lysosomal degradation capacity in cancer cells \[\]. Upon exposure to calorie restriction and lack of sufficient ATP, cells try to a
+
+
 ## Connections
 - [[DAPK]] — related entity
 

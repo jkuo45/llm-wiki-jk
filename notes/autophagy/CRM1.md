@@ -21,6 +21,14 @@ CRM1 (exportin 1) mediates nuclear export of proteins with leucine-rich nuclear 
 
 CRM1 inhibitors ([[Leptomycin B]], [[Selinexor]]/KPT-330) cause nuclear accumulation of [[TFEB]] and induce autophagy. Selinexor is FDA-approved for multiple myeloma.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - CRM1 is a receptor for leucine-rich nuclear export signals \[\]. Starvation induces nuclear translocation through TFEB dephosphorylation \[\].
+
+
 ## Connections
 
 - [[TFEB]]: Chromosomal maintenance 1 (CRM1), also known as Exportin-1, is a nuclear export receptor that recognizes nuclear expo...

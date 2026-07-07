@@ -17,6 +17,17 @@ aliases: []
 ## Role in Epinephrine Stability
 In pharmaceutical preparations of [[Epinephrine]] (such as Epi-pens), sodium metabisulfite is often added as a "sacrificial anode." It oxidizes more readily than epinephrine, thereby protecting the epinephrine from autoxidation into [[Adrenochrome]].
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - formation, chemical stability|formation, chemical stability]]
+    - The Science: Compounds like Ascorbic Acid (Vitamin C) , Glutathione , or Sodium Metabisulfite act as "electron donors." If a molecule of Epinephrine starts to oxidize into a Quinone, the antioxidant immediately donates an electron to it, converting the Quin...
+
+  - [[_document_ - intermediates, precursor, hemoglobin|intermediates, precursor, hemoglobin]]
+    - Antioxidants: Sodium Metabisulfite or similar sulfites are common stabilizers, though they have limitations (e.g., potential synergistic degradation with Adrenochrome under light). Newer formulations explore sulfite-free options like Cysteine or Thioglycerol.
+
+
 ## Connections
 - [[Epinephrine]]
 - [[Adrenochrome]]

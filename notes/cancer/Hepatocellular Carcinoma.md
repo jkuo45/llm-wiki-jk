@@ -25,6 +25,29 @@ HCC often presents late with abdominal pain, weight loss, ascites, or decompensa
 
 Curative options (resection, ablation, transplantation) apply to early disease. Locoregional therapies (TACE, radioembolization) and systemic therapy dominate advanced HCC: multikinase inhibitors (sorafenib, lenvatinib), anti-[[VEGF]]/anti-PD-L1 combinations (atezolizumab+bevacizumab), and [[Chemotherapy]] for select cases. Preclinically, [[Ivermectin]] inhibits HCC development by blocking [[YAP1]] activity, demonstrated in spontaneous liver-cancer mouse models, suggesting a repurposing strategy that converges on the Hippo pathway. Targeting YAP1/TAZ and downstream metabolic rewiring remains a priority.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - In vitro analyses indicated that the culture of several cancer cells such as HepG2 Hepatocellular Carcinoma] and HuH6-clone5 in serum-free medium for 6 to 24 h increased radiosensitivity via the activation of mTOR and accumulation of ROS \[\].
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - For instance, human Caspase-3 gene therapy was used in addition to Etoposide treatment in an AH130 liver tumour model and was found to induce extensive apoptosis and reduce tumour volume \[\] while gene transfer of constitutively active caspse-3 into HuH7 h...
+
+  - [[_document_ - Caspase|Caspase]]
+    - Thr112 (mouse) | Activation | | | Puma | Loss in Breast Cancer, Hepatocellular Carcinoma, non-small-cell lung cancer, ovarian cancer, Renal Cell
+
+  - [[_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug|Ivermectin, a potential anticancer drug derived from an antiparasitic drug]]
+    - Hepatocellular Carcinoma is the fourth leading cause of cancer death worldwide. Approximately 80% of cases of liver cancer are caused by hepatitis B virus (HBV) and hepatitis C virus (HCV) infection \[\].
+
+  - [[_document_ - Oral Fenbendazole for Cancer Therapy in Humans and Animals|Oral Fenbendazole for Cancer Therapy in Humans and Animals]]
+    - Mentioned in this document
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - SIRT3 overexpression promoted Apoptosis by enhancing Caspase-9 cleavage in Hepatocellular Carcinoma cells, and SIRT3 depletion Signal Transduction and Targeted Therapy (2022) 7:402 The sirtuin family in health and disease Wu et al.
+
+
 ## Connections
 
 - [[Ivermectin]]: Inhibits HCC via YAP1 blockade in models.

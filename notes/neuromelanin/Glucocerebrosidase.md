@@ -26,6 +26,14 @@ Mutations in GBA1 are the single most common genetic risk factor for [[Parkinson
 
 This GBA1–α-synuclein axis connects [[Neuromelanin]] neuron vulnerability to [[Lysosomal Dysfunction]] and [[Proteostasis]] failure. Clinically, GBA1 status influences PD age of onset, cognitive decline, and likely response to therapies. Enzyme replacement (for Gaucher disease) does not cross the blood-brain barrier, so CNS-directed strategies are under investigation: pharmacological chaperones (e.g., ambroxol) to stabilize mutant GCase, substrate reduction therapy, and gene therapies to restore GBA1 expression. GCase activity in cerebrospinal fluid and peripheral cells is also explored as a PD biomarker.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease|Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease]]
+    - Suggested new entity notes to create: Neuroprotection, mTOR, Glucocerebrosidase, Lysosomal Exocytosis, Antigen Presentation. Strong connections to strengthen: Neuromelanin ↔ Parkinson's Disease, Neuromelanin ↔ Pathogenic Threshold of Neuromelanin.
+
+
 ## Connections
 - [[Parkinson's Disease]]: GBA1 mutations are the top genetic PD risk factor.
 - [[Alpha-synuclein]]: GCase deficiency promotes its aggregation into Lewy bodies.

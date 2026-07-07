@@ -33,6 +33,14 @@ True neuroprotection is hard to prove clinically; trials require sensitive progr
 
 Repurposing toxin models ([[MPTP]], [[6-hydroxydopamine]], [[Paraquat]]) and patient-derived neurons continues to identify targets. The convergence of pigment biology, immunity ([[Major histocompatibility complex class I]]), and bioenergetics frames a multipronged neuroprotective paradigm.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease|Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease]]
+    - Suggested new entity notes to create: Neuroprotection, mTOR, Glucocerebrosidase, Lysosomal Exocytosis, Antigen Presentation. Strong connections to strengthen: Neuromelanin ↔ Parkinson's Disease, Neuromelanin ↔ Pathogenic Threshold of Neuromelanin.
+
+
 ## Connections
 
 - [[Parkinson's Disease]] - primary neurodegenerative target of protective strategies.

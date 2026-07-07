@@ -19,6 +19,14 @@ It primarily signals the body that it is time to sleep and acts as a potent anti
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - For example, Serotonin is converted into Melatonin through a process that involves adding a methyl group. COMT Variants: Slow COMT vs.
+
+
 ## Connections
 - [[Serotonin]]: The precursor to melatonin.
 - [[Methyl groups]]: Required for the synthesis of melatonin from serotonin.

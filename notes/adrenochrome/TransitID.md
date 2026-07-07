@@ -25,6 +25,14 @@ The temporal resolution is achieved by controlling the availability of each biot
 
 TransitID has been applied to identify proteins undergoing [[retrograde transport]] from [[Mitochondria]] to the [[Cytosol]], a process implicated in [[mitochondrial stress]] signaling and the [[Integrated Stress Response]]. It has also been used to study [[nuclear export]] and [[nuclear import]] kinetics under basal and stressed conditions, revealing how proteins like [[DELE1]] and [[ATFS-1]] translocate to report mitochondrial dysfunction. Additional applications include profiling [[heat shock]]-induced protein relocalization, [[ER stress]]-dependent translocation of transcription factors, and the dynamics of signaling proteins such as [[NF-κB]] and [[MAP kinases]] that shuttle between compartments during pathway activation.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Mitohormesis - 2023_NOV|Mitohormesis - 2023_NOV]]
+    - In that regard, the recently described TransitID, that ingeniously uses proximity biotinylation, represents one such potential strategy . Finally, changes in mitochondrial membrane potential or bursts of ROS production are often transient phenomenon.
+
+
 ## Connections
 
 - [[Proximity labeling]]

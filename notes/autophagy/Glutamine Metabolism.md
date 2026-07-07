@@ -21,6 +21,14 @@ Glutamine is converted to glutamate by [[Glutaminase]], then to α-ketoglutarate
 
 Glutamine deprivation induces [[Autophagy]] via [[ULK1]] activation and mTORC1 inhibition. The ammonia released from glutaminolysis directly induces autophagy.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - APK Signaling]], ERK Signaling, Lysosomal Localization, Nuclear Export, Cell Cycle, Energy Homeostasis, PI3K-Akt Signaling, Amino Acid Sensing, Cholesterol Metabolism, Ubiquitin-Proteasome System, Autophagy Inhibitor, Mitochondrial Dysfunction, Tau Patholog...
+
+
 ## Connections
 
 - [[Pancreatic Cancer]]: Glutamine metabolism is the biochemical utilization of glutamine; in Pancreatic Cancer, [[TFEB]] supports tumor growt...

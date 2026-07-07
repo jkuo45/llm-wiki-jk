@@ -24,6 +24,14 @@ aliases: [Mental Illness]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum|Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum]]
+    - A common genetic Polymorphism that results in increased activity of the Dopamine regulating enzyme COMT (the COMT Val 158 allele) has been found to associate with poorer Cognitive Performance and increased susceptibility to develop Psychiatric Disorders.
+
+
 ## Connections
 - [[Psychiatric Disorders]] — related entity
 

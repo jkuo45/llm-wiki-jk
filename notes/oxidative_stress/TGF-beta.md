@@ -44,6 +44,17 @@ In early carcinogenesis, TGF-β acts as a [[Tumor Suppressor]] by inducing [[Cyc
 - Suggested new entity notes to create: [[NOX4]], [[SMAD2]], [[SMAD3]], [[SMAD4]], [[Smad7]], [[ALK5]], [[Epithelial–mesenchymal transition]], [[Setanaxib]], [[Pirfenidone]], [[Nintedanib]], [[Idiopathic pulmonary fibrosis]], [[Hepatic stellate cell]], [[Diabetic nephropathy]]
 - Strong connections to strengthen: [[TGF-beta]] ↔ [[NOX4]], [[TGF-beta]] ↔ [[Mitochondria]], [[TGF-beta]] ↔ [[Fibrosis]]
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network|Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network]]
+    - Mentioned in this document
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - The latter stage is characterized by an increase in TGF-beta production, which orchestrates the extracellular matrix synthesis.
+
+
 ## Connections
 
 - [[Fibrosis]]: It is a key mediator of Fibrosis and is influenced by the cellular level of [[Oxidative Stress]] and chronic [[Inflam...

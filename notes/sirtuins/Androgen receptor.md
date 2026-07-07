@@ -36,6 +36,14 @@ In the absence of ligand, AR is sequestered in the cytoplasm bound to heat-shock
 
 Androgen signaling remains the dominant therapeutic target in prostate cancer. Anti-androgen therapies (e.g., enzalutamide, abiraterone) blockade the LBD or ligand synthesis and are first-line treatments for advanced disease. Agents that upregulate SIRT1 activity or [[NAD+]] bioavailability may complement these approaches by dampening AR transactivation at the post-translational level, potentially delaying resistance. Conversely, SIRT1's tumor-suppressive versus context-dependent roles must be weighed, as sirtuin activity can be pleiotropic across tissues.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - The disease pathogenesis of Spinal and Bulbar Muscular Atrophy (SBMA) (Kennedy’s disease; an -X-linked neuromuscular disorder) caused by trinucleotide (CAG) repeat expansion in exon 1 of the Androgen receptor (AR) gene, is defined by the loss of normal AR f...
+
+
 ## Connections
 
 - [[SIRT1]] — Deacetylates AR at Lys630, repressing AR-dependent transcription

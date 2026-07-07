@@ -27,6 +27,17 @@ Autophagy modulates T cell subset fate: it restrains excessive [[Inflammation]] 
 
 T cell-autophagy intersects with [[Aging]] (immunosenescence) and with neurodegeneration-associated neuroinflammation. Enhancing autophagic capacity in T cells is a strategy to improve vaccine responses and checkpoint immunotherapy, whereas过度 autophagy can trigger T cell death. The autophagy–T cell axis is thus a therapeutic frontier in immunotherapy and inflammatory disease.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
+    - It is the result of Thymic Involution with reduced T Cell output and reduced B Cell production in the bone marrow, leading to a decrease in peripheral naïve adaptive immune cells.
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - In T Lymphocyte, quiescence and the timely exit from arrest upon binding of a cognate antigen to the T Cell Receptor are essential for mounting an appropriate immune response (Hwang et al., 2020).
+
+
 ## Connections
 
 - [[Adaptive Immune Response]]: T cells are central effectors of adaptive immunity.

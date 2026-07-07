@@ -29,6 +29,14 @@ Preclinical studies indicate DEC can suppress tumor-associated lymphangiogenesis
 
 DEC remains a WHO-essential medicine for filariasis, typically given as annual single-dose mass treatment with [[Ivermectin]]/[[Albendazole]]. Its anticancer potential is investigational; research focuses on (1) blocking lymphatic metastasis via VEGF-C inhibition, (2) resolving protumor [[Inflammation]], and (3) combination with immunotherapy. The Mazzotti reaction (severe pruritus, rash, fever) limits onchocerciasis use and must be managed where DEC is deployed.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, ‘Wonder drug’ from Japan the human use perspective|Ivermectin, ‘Wonder drug’ from Japan the human use perspective]]
+    - In 1975, only two drugs were available for the treatment of Onchocerciasis: Diethylcarbamazine and Suramin. The use of both was highly unsatisfactory.
+
+
 ## Connections
 
 - [[Lymphatic Filariasis]]: Primary approved indication for DEC.

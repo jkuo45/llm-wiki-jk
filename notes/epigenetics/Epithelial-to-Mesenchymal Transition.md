@@ -33,6 +33,14 @@ In [[Cellular Reprogramming]], suppression of EMT is essential for generating [[
 
 EMT is co-opted by carcinomas to disseminate. By adopting a mesenchymal phenotype, epithelial tumor cells invade the basement membrane, survive anoikis, enter the circulation, and seed distant metastases. EMT also promotes stem-cell-like properties, therapy resistance, and immune evasion in the tumor microenvironment, making it a focal point for anti-metastatic drug discovery.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network|Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network]]
+    - Additional initiation events include the activation of surface markers associated with Pluripotency and the suppression of Epithelial-to-Mesenchymal Transition.
+
+
 ## Connections
 
 - [[Mesenchymal-to-Epithelial Transition]]: The reverse process of EMT; required for reprogramming mesenchymal cells into iPSCs.

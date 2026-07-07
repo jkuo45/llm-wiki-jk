@@ -25,6 +25,14 @@ Unlike [[MPTP]], which kills neurons by inhibiting [[Complex I]], manganese prim
 
 Epidemiological and imaging studies (notably T1-hyperintense signal on [[Magnetic Resonance Imaging]] in the globus pallidus) link Mn exposure to movement disorders. Whether manganese interacts synergistically with [[Neuromelanin]] to increase PD risk is an active question: pigment-bound Mn may both shield the neuron (sequestering free metal) and endanger it (generating radicals upon redox cycling). The shared vulnerability of pigmented neurons to Mn and to catecholamine toxins underscores a convergent mechanism of selective neurodegeneration.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator|Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator]]
+    - In particular, organic amines and metal ions such as Manganese have been shown to exhibit high binding affinities with melanins (Karlsson and Lindquist, 2013). MPTP (1-methyl-4-phenyl-1,2,3,6-tetrahydropyridine) for example is believed to
+
+
 ## Connections
 
 - [[Neuromelanin]] - pigment with high Mn-binding affinity, concentrating the metal in dopaminergic neurons.

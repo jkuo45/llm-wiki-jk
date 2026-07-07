@@ -21,6 +21,14 @@ Steatohepatitis (NASH) is characterized by hepatic steatosis, lobular inflammati
 
 [[Autophagy]] protects against steatohepatitis by clearing lipid droplets ([[Lipophagy]]), damaged mitochondria ([[Mitophagy]]), and protein aggregates. [[TFEB]] activation reduces steatosis and inflammation in preclinical NASH models.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - pressor]], Translation Initiation, MAPK Signaling, ERK Signaling, Lysosomal Localization, Nuclear Export, Cell Cycle, Energy Homeostasis, PI3K-Akt Signaling, Amino Acid Sensing, Cholesterol Metabolism, Ubiquitin-Proteasome System, Autophagy Inhibitor, Mitoc...
+
+
 ## Connections
 
 - [[TFEB]]: Steatohepatitis is a type of fatty liver disease characterized by inflammation; targeting TFEB via drugs like [[Ezeti...

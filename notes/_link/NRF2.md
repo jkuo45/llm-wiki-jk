@@ -55,6 +55,23 @@ NRF2 is a master transcription factor regulating antioxidant defense.
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects|Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects]]
+    - Urolithin A stimulates the NRF2-Antioxidant Response Element signaling pathway, subsequently upregulating the expression of GSTs, thereby enhancing cellular autophagy and mitochondrial quality control \[\].
+
+  - [[_document_ - mitohormesis|mitohormesis]]
+    - Pathway Activation: This "oxidative pulse" activates the NRF2/Antioxidant Response Element antioxidant response and stimulates PGC1-α via the SIRT1/AMPK axis (primed by Nicotinamide Riboside/Nicotinamide Mononucleotide).
+
+  - [[_document_ - xenohormesis, mitohormesis|xenohormesis, mitohormesis]]
+    - I've pinpointed key compounds like Resveratrol, Quercetin, Curcumin, and EGCG, along with their biochemical targets: Sirtuins, AMPK, and the NRF2 Pathway]]. These targets are critical in the survival response, which aligns with Caloric Restriction.
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - The effect of SIRT1, SIRT 2, and SIRT6 on Nuclear erythroid 2-related factor 2 (NRF2): NRF2 is a leucine transcription factor that plays extremely important roles in antioxidant response element (ARE)-dependent transcriptional regulation of defense genes.
+
+
 ## Connections
 - [[Keap1]] — Cytoplasmic inhibitor that targets NRF2 for degradation under basal conditions
 - [[Antioxidant Response Element]] — DNA binding site for NRF2 target gene activation

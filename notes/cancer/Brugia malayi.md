@@ -41,6 +41,14 @@ Diagnosis is confirmed by the microscopic detection of sheathed microfilariae in
 
 The cornerstone of treatment is [[Diethylcarbamazine]] (DEC), which rapidly kills both microfilariae and adult worms. Mass drug administration (MDA) programs, coordinated by the World Health Organization, typically use annual single-dose combinations of [[Ivermectin]] plus [[Albendazole]] (in areas co-endemic for onchocerciasis) or DEC plus albendazole to interrupt transmission. Morbidity management focuses on hygiene, limb elevation, compression bandaging, and surgical intervention for advanced elephantiasis or hydrocele.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, ‘Wonder drug’ from Japan the human use perspective|Ivermectin, ‘Wonder drug’ from Japan the human use perspective]]
+    - The disease results from infection with filarial worms, Wuchereria bancrofti, Brugia malayi or Brugia timori.
+
+
 ## Connections
 
 - [[Lymphatic Filariasis]]: *Brugia malayi* is one of the three causative agents of this chronic parasitic disease in humans.

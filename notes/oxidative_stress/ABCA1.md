@@ -44,6 +44,14 @@ Mutations in ABCA1 cause **Tangier disease**, characterized by extremely low HDL
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - This was true in vivo, as well as in vitro on human macrophages and vascular smooth muscle cells \[, \]; vitamin E supplementation was also useful to upregulate PPARγ, LXRα, and ABCA1, in ApoE knockout mice, ameliorating early (but not advanced) atheroscler...
+
+
 ## Connections
 - [[Lipid Peroxidation]]: ABCA1 effluxes oxidized lipids as a detoxification mechanism
 - [[Endothelial Dysfunction]]: ABCA1 preserves endothelial function by reducing foam cell formation

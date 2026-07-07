@@ -16,6 +16,17 @@ Chemotherapy refers to pharmacological treatment of [[Cancer]] using cytotoxic o
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - IF may be an alternative method to conventional therapeutic regimes by exerting oncostatic properties and even increasing Cancer patients' tolerance to Chemotherapy.
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - Non-dividing quiescent cancer cells are also resistant to most Chemotherapy, which typically target features of actively proliferating cells (Chen et al., 2016).
+
+
 ## Connections
 - [[Cancer]] — the target disease of chemotherapy
 - [[DNA Damage]] — mechanism of many chemotherapeutic agents

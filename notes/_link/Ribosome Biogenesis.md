@@ -24,6 +24,14 @@ aliases: [Ribosome Synthesis]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - The activation of mTORC1 has also been shown to promote Ribosome Biogenesis by stimulating the transcription of ribosomal RNA through a process involving the PP2A (PP2A) and the TIF-IA (TIF-IA) (Mayer et al., 2004).
+
+
 ## Connections
 - [[Ribosome Biogenesis]] — related entity
 

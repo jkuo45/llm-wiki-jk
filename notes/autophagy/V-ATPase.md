@@ -23,6 +23,17 @@ The vacuolar ATPase (V-ATPase) is a multi-subunit proton pump that acidifies int
 
 V-ATPase is essential for lysosomal acidification required for degradation of autophagic cargo. It also anchors [[mTORC1]] recruitment to the lysosome via [[Ragulator]]. V-ATPase inhibitors ([[Bafilomycin A1]], [[Concanamycin A]]) block autophagy.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Lysosome biogenesis Regulation and functions|Lysosome biogenesis Regulation and functions]]
+    - The acidic lysosomal lumen is maintained by the lysosomal multi-subunit V-ATPase. This low pH of 4.5–5.5 enables the activation of >50 intralysosomal hydrolases, which digest macromolecules including proteins, nucleic acids, lipids, and carbohydrates.
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - TFEB over-expression in HeLa cells induces transcriptional activation of numerous lysosomal genes, including several subunits of the V-ATPase, lysosomal transmembrane proteins and lysosomal hydrolases, and results in a significant increase in the total numb...
+
+
 ## Connections
 
 - [[Lysosome]]: The **V-ATPase** (Vacuolar-type H+-ATPase) is a multi-subunit proton pump that acidifies the Lysosome lumen, enabling...

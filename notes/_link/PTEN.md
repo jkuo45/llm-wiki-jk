@@ -28,6 +28,26 @@ Phosphatase and tensin homolog (PTEN) is a major tumor suppressor and lipid phos
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - TFEB-mediated clearance of p-Tau was shown to involve PTEN, which contains two putative CLEAR Element and appears to be a direct target of TFEB (Polito et al 2014). TFEB-mediated reduction of p-Tau was also achieved in a neuroblastoma model sys
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - One reason may be that the basal metabolism status is carefully controlled by suppressive control checkpoints like SIRT3, PTEN, etc.
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - Additionally, p53 negatively controls mTORC1 signaling by increasing the transcription of PTEN and TSC2, two negative regulators of the pathway (Feng et al., 2005; Stambolic et al., 2001). Inflammation mediators also signal to mTORC1 via the TSC1/TSC2 complex.
+
+  - [[_document_ - Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks|Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks]]
+    - Likewise, miR‐1, miR‐320, and miR‐206 by targeting IGF‐1 while miR‐216a, miR‐217, and miR‐21 mainly target PTEN to influence the IIS pathway in mammals.
+
+  - [[_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review|sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review]]
+    - As an outcome of cellular stresses, SIRT4 controls PTEN stability via the insulin degrading enzyme (IDE) (Liu et al. ), it also controls ATP homeostasis and uses AMP-activated protein kinase (AMPK) to mediate retrograde signalling (Ho et al.
+
+
 ## Connections
 - **[[mTOR]]**: The primary pathway regulated by PTEN.
 - **[[Aging]]**: PTEN is a central player in the balance between cancer prevention and biological decline.

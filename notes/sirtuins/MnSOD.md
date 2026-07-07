@@ -42,6 +42,17 @@ MnSOD is a frontline defense against mitochondrial [[Oxidative Stress]]. Loss of
 
 MnSOD polymorphisms (notably the Ala16Val variant) modulate mitochondrial import efficiency and are associated with cancer risk and neurodegenerative phenotypes. Therapeutics that boost SIRT3 activity — [[Honokiol]], [[NAD+]] precursors, [[Resveratrol]] — represent strategies to enhance MnSOD function in ageing and metabolic disease. MnSOD therefore bridges the [[NAD+]]–sirtuin axis to the core oxidative-balance machinery of the cell.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins (resveratrol), gemini|sirtuins (resveratrol), gemini]]
+    - Mentioned in this document
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - SIRT6 also promoted AMPK expression, thus upregulating antioxidant-encoding gene expression of MnSOD and Catalase, thereby suppressing oxidative stress.
+
+
 ## Connections
 
 - [[SIRT3]] — Directly deacetylates MnSOD at K68/K122, boosting enzymatic activity

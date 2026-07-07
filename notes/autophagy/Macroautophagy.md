@@ -35,6 +35,23 @@ aliases: [autophagy]
 
 Macroautophagy is the canonical autophagy pathway involving autophagosome formation, fusion with the lysosome, and degradation of cytoplasmic contents.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Autophagy and intermittent fasting the connection for cancer therapy?|Autophagy and intermittent fasting the connection for cancer therapy?]]
+    - REVIEW ARTICLE Under a Creative Commons license Open access KEYWORDS Apoptosis Macroautophagy Intermittent Fasting Cancer Therapy Autophagy: definition and mec
+
+  - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
+    - The three types of autophagy can be classified as Macroautophagy, Microautophagy and Chaperone-Mediated Autophagy.
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - To date, 3 different types of autophagy mechanisms, namely Macroautophagy, Microautophagy, and Chaperone-Mediated Autophagy, have been indicated in eukaryotic cells \[\].
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Non-coding RNA growth arrest specific 5 inhibits Macroautophagy and forms a negative feedback regulatory loop with the MicroRNA/SIRT1/mTOR (mTOR) pathway. In conclusion, SIRT1 is a key regulator of the autophagic process.
+
+
 ## Connections
 
 - [[Autophagy]]: **Macroautophagy** is the primary and most well-studied type of Autophagy.

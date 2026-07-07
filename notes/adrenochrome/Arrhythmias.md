@@ -58,6 +58,14 @@ For **[[Ventricular Tachycardia]]** and **[[Ventricular Fibrillation]]**, an [[I
 
 Emerging and adjunctive therapies include [[Cardiac Resynchronization Therapy|cardiac resynchronization therapy]] (CRT) for heart failure patients with wide QRS, [[Surgical Ablation|surgical]] (Maze) ablation for AF during concurrent cardiac surgery, and [[Neuromodulation|neuromodulatory]] approaches such as [[Stellate Ganglion Blockade|stellate ganglion blockade]] for refractory VT.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Adrenochrome Pathway|The Adrenochrome Pathway]]
+    - Indeed in the 1930's and 40's this pathway was thought by many to be the major catabolic route for Epinephrine in vivo: More recently, Adrenochrome has been shown to be Cardiotoxicity, causing Cell necrosis, Arrhythmias and Coronary artery constriction.
+
+
 ## Connections
 
 - [[Heart disease]] — Structural heart disease is the most common substrate for arrhythmias

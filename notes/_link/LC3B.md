@@ -25,6 +25,14 @@ aliases: [MAP1LC3B]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - trophy 1, p53 tumor protein p53, PINK PTEN induced putative kinase, PLIN5 perilipin 5, PTEN phosphatase and tensin homolog, SQSTM1/ p62 sequestosome 1, TFEB transcription factor EB, TUG1 taurine-upregulated gene 1, TyrRS tyrosyl transfer-RNA synthetase, Ube...
+
+
 ## Connections
 - [[LC3B]] — related entity
 

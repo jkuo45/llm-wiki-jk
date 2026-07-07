@@ -21,6 +21,14 @@ Energy homeostasis is the balance between energy intake, storage, and expenditur
 
 [[Autophagy]] supports energy homeostasis by recycling nutrients during fasting. [[AMPK]] activates autophagy while [[mTORC1]] suppresses it.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - transcriptional regulation, translational-level regulation, ischemic injury, metabolic disorders, leucine zipper transcription Factors, TGF-β Signaling, Hypusination, Tumor Suppressor, Translation Initiation, MAPK Signaling, ERK Signaling, Lysosomal Localiz...
+
+
 ## Connections
 
 - [[AMPK]]: Energy homeostasis is the biological process of maintaining energy balance; cellular sensors like AMPK detect energy ...

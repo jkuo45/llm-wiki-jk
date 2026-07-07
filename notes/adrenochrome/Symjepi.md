@@ -17,6 +17,14 @@ aliases: []
 ## Significance
 Like other epinephrine delivery systems, its design and formulation must prioritize chemical stability to prevent the oxidation pathway that leads to [[Adrenochrome]].
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - intermediates, precursor, hemoglobin|intermediates, precursor, hemoglobin]]
+    - cjhp-online.ca Stability in Commercial and Extemporaneous Formulations - Auto-injectors (EpiPen, Symjepi, etc.): Typically 1–2 year shelf life at room temperature (up to 25°C).
+
+
 ## Connections
 - [[Epinephrine]]
 - [[Anaphylaxis]]

@@ -29,6 +29,14 @@ Physiologically, PAK5 promotes neuronal differentiation and protects neurons fro
 
 PAK5 is a candidate therapeutic and prognostic node. Group II PAK inhibitors that target PAK4/PAK6/PAK5 are under study to restore apoptotic susceptibility and curb invasion, and PAK5 expression is explored as a biomarker of PAK-pathway activation in tumors.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - MPNST, Lung Cancer | | Bad | | PAK1, PAK4, PAK5, PKA, PKCι, RAF1, RSK | Ser112 | Inactivation | MPNST, Lung Cancer, IL-3 co
+
+
 ## Connections
 
 - [[Bad]]: Pro-apoptotic substrate phosphorylated at Ser112 by PAK5.

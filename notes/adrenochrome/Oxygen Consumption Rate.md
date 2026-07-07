@@ -15,6 +15,14 @@ aliases: []
 
 **Oxygen Consumption Rate (OCR)** is a key metric used to measure mitochondrial respiration and the metabolic activity of cells, often assessed in real-time using a [[Seahorse XF Analyzer]].
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - mitohormesis|mitohormesis]]
+    - Expected Outcomes Increased mitochondrial respiration (Oxygen Consumption Rate) and ATP production. Enhanced cellular resistance to ischemic and oxidative insults.
+
+
 ## Connections
 
 - [[Seahorse XF Analyzer]]: **Oxygen Consumption Rate (OCR)** is a key metric used to measure mitochondrial respiration and the metabolic activit...

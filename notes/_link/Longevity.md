@@ -85,6 +85,26 @@ Longevity is intimately connected to cellular redox state:
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - In agreement with the recent suggestion that Autophagy and nutrient-signaling pathways are linked to Longevity in C. elegans (Lapierre & Hansen 2012), HLH-30 over-expression was found to extend lifespan in this model (Lapierre et al 2013).
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - Accumulated evidence suggests that Intermittent Fasting or Caloric Restriction can lead to the induction of adaptive autophagy and increase Longevity of eukaryotic cells.
+
+  - [[_document_ - The Gut Microbiome, Aging, and Longevity A Systematic Review|The Gut Microbiome, Aging, and Longevity A Systematic Review]]
+    - There is increasing evidence that the Gut Microbiome lies at the core of many age-associated changes and plays a role in Longevity across species \[,\].
+
+  - [[_document_ - sirtuins (overview, CD38 KO risks, cancer therapies)|sirtuins (overview, CD38 KO risks, cancer therapies)]]
+    - They are implicated in Longevity, Caloric Restriction benefits, and age-related diseases like Diabetes Mellitus, Cancer, Neurodegenerative Diseases, and Cardiovascular Disease. lifespan.
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - In the late 1990s, a study confirmed that Sir2 (yeast) prolonged the Longevity of yeast by inhibiting genomic instability. Loss of Sir2 (yeast) significantly shortened the Longevity of yeast, while an additional copy of Sir2 (yeast) prolonged it by about 40%.
+
+
 ## Connections
 - [[Aging]] — progressive decline in physiological function; primary risk factor
 - [[Advanced Glycation End Products]] — interacts with Longevity

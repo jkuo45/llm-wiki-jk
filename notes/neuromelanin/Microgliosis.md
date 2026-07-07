@@ -32,6 +32,14 @@ Activated microglia are frequently observed encircling and engulfing extracellul
 
 Modulating microgliosis (e.g., inhibiting NLRP3 inflammasome, boosting anti-inflammatory phenotypes) is a major [[Neuroprotection]] strategy. Biomarkers of microglial activation (TSPO-PET) are under study to stratify patients.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease|Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease]]
+    - h these observations, studies on human brains have shown that α‐synuclein redistributes to the neuromelanin pigment in early stages of PD and becomes entrapped within neuromelanin granules., , Further linking the PD neuropathology with neuromelanin, neuroin...
+
+
 ## Connections
 
 - [[Parkinson's Disease]] - disease in which microgliosis drives nigral inflammation.

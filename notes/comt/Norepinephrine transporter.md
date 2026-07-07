@@ -29,6 +29,14 @@ Because both NET and [[COMT]] govern local catechol concentrations, their activi
 
 NET dysfunction is implicated in depression, [[ADHD]], and orthostatic hypotension. NET polymorphisms alter antidepressant response and PFC catecholamine tone. The NET–COMT partnership is a key axis in understanding prefrontal cognition and its genetic modulation.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum|Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum]]
+    - In contrast, Dopamine Transporter are both less abundant and located farther from synaptic sites in Prefrontal Cortex (Prefrontal Cortex) neurons, where uptake by the Norepinephrine transporter (NET) and subsequent metabolism by COMT predominates.
+
+
 ## Connections
 
 - [[Norepinephrine]]: Primary neurotransmitter transported by NET.

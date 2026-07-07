@@ -38,6 +38,23 @@ Beyond glycemic control, metformin is associated with reduced all-cause mortalit
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Dietary Advanced Glycation End Products and Aging|Dietary Advanced Glycation End Products and Aging]]
+    - Pharmacological Interventions Several pharmacological agents have been studied as blockers of AGEs crosslinking or as blockers of their actions using cellular, animal and human models: benfotiamine (a B1-like vitamin with higher bioavailability), Metformin,...
+
+  - [[_document_ - Autophagy and intermittent fasting the connection for cancer therapy?|Autophagy and intermittent fasting the connection for cancer therapy?]]
+    - Several studies demonstrated the tumor-suppressive effects of CRM agents, for example, 2-deoxy-glucose, Metformin,, mTOR inhibitors, resveratrol,, hydroxycitrate, Spermidine, and (
+
+  - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
+    - Rejuvenation of immune cells by autophagy-inducing drugs, such as Rapamycin, Metformin and Spermidine, and dietary interventions (DR).
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - In contrast, loss of SIRT2 has been reported to reduce AMPK activation, thereby promoting aging-related and Angiotensin II-induced Cardiac Hypertrophy and blunting Metformin-mediated cardioprotective effects.
+
+
 ## Connections
 - **[[Aging]]**: Metformin is a leading candidate for a human anti-aging intervention.
 - **[[Diabetes Mellitus]]**: The original clinical indication for metformin.

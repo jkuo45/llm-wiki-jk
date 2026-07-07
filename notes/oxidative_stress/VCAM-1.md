@@ -46,6 +46,14 @@ In the central nervous system, VCAM-1 is expressed on cerebral [[Endothelial cel
 - Suggested new entity notes to create: [[Lox-1]], [[VLA-4 integrin]], [[Natalizumab]], [[ADAM-17]], [[HuR]], [[Rac1]], [[eNOS]], [[Resveratrol]], [[Blood-brain barrier]], [[Encephalitogenic T cells]], [[Shear stress]]
 - Strong connections to strengthen: [[VCAM-1]] ↔ [[NF-kappa B]], [[VCAM-1]] ↔ [[TNF-alpha]], [[VCAM-1]] ↔ [[Multiple Sclerosis]]
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - Each form of vitamin E seems to have different regulatory effects when it comes to recruit leukocytes to allergic inflammation site, which is however strictly dependent on vascular cell adhesion molecule-1 (VCAM-1) \[\].
+
+
 ## Connections
 
 - [[Endothelial Dysfunction]]: Its expression is upregulated in response to pro-inflammatory stimuli and is a marker for Endothelial Dysfunction and...

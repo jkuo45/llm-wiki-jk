@@ -32,6 +32,23 @@ Spermidine is an endogenous polyamine metabolite that induces [[TFEB]]-driven au
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Autophagy and intermittent fasting the connection for cancer therapy?|Autophagy and intermittent fasting the connection for cancer therapy?]]
+    - demonstrated the tumor-suppressive effects of CRM agents, for example, 2-deoxy-glucose, Metformin,, mTOR inhibitors, resveratrol,, hydroxycitrate, Spermidine, and natural compounds such as curcumin, in combination with antitumor treatments in different canc...
+
+  - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
+    - Rejuvenation of immune cells by autophagy-inducing drugs, such as Rapamycin, Metformin and Spermidine, and dietary interventions (DR).
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - Spermidine, an endogenous Polyamine metabolite, was found to involved in hypusination, a post-translational modification of eukaryotic initiation factor 5 A (eIF5A) \[\]. Zhang et al.
+
+  - [[_document_ - The autophagy enhancer spermidine reverses arterial aging|The autophagy enhancer spermidine reverses arterial aging]]
+    - Recently, the polyamine Spermidine has been identified as a potent and specific inducer of autophagy (Eisenberg et al., 2009, Madeo et al., 2010).
+
+
 ## Connections
 - **[[Autophagy]]**: The primary cellular process induced by spermidine.
 - **[[Aging]]**: Spermidine levels are a determinant of healthy aging.

@@ -36,6 +36,17 @@ IAPs inhibit apoptosis by:
 ## Role in Cancer
 IAPs are frequently overexpressed in cancer, contributing to drug resistance and tumor survival. They are targeted by [[Smac DIABLO]]/[[Smac DIABLO]] mimetics to restore apoptotic sensitivity.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - On the other hand, Smac/DIABLO or Omi/HtrA2 promotes caspase activation by binding to Inhibitor of Apoptosis Proteins which subsequently leads to disruption in the interaction of IAPs with...
+
+  - [[_document_ - Evading apoptosis in cancer|Evading apoptosis in cancer]]
+    - Smac-DIABLO augments Cytochrome c -induced caspase activation by binding and neutralizing XIAP (X-linked Inhibitor of Apoptosis Proteins), an inhibitor of Caspase-3, Caspase-7, and Caspase-9 (Figure 1).
+
+
 ## Connections
 - [[XIAP]]: The most potent member.
 - [[Survivin]]: A key member overexpressed in many cancers.

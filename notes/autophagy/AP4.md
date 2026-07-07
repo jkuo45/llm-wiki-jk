@@ -28,6 +28,14 @@ During ALR, the autolysosome resolves into tubules that mature into functional l
 
 Biallelic mutations in AP4 subunits (*AP4B1*, *AP4M1*, *AP4E1*, *AP4S1*) cause an autosomal-recessive form of hereditary spastic paraplegia (SPG47/SPG50/SPG51/SPG52) with intellectual disability and thin corpus callosum. Patient fibroblasts show mistrafficked LAMP proteins and impaired [[Autophagy]] resolution, supporting a lysosomal-reformation defect as a disease mechanism. AP4 dysfunction also intersects with [[Neurodegeneration]] and lysosomal storage biology, and its cargo-sorting role is relevant to [[Cancer]] lysosomal adaptation.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Lysosome biogenesis Regulation and functions|Lysosome biogenesis Regulation and functions]]
+    - AP4 enriches lysosomal membrane proteins for tubulation. WHAMM promotes lysosome tubulation by binding to PtdIns(4,5)P2.
+
+
 ## Connections
 
 - [[Autophagic Lysosome Reformation]]: AP4 delivers lysosomal membrane proteins to reforming tubules.

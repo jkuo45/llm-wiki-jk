@@ -27,6 +27,17 @@ Yeast was the birthplace of silencing biology. The [[Sirtuin]] [[Silent Mating-T
 
 A landmark discovery was that [[Caloric Restriction]]—reducing glucose availability—extends both replicative and chronological lifespan in yeast, and that this extension requires Sir2. The finding that Sir2 activation mediates CR benefits launched the sirtuin-aging field and spurred studies of NAD+ metabolism across organisms. Yeast also revealed TOR/Sch9 ([[mTOR]] orthologs) and mitochondrial retrograde responses as longevity regulators.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - The first known sirtuin, Sir2 (yeast) (silent information regulator 2) of Saccharomyces cerevisiae, from which the family derives its name, regulates ribosomal DNA recombination, gene silencing, DNA Repair, chromosomal stability and longevity.
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Historical review and structure of SIRT proteins The history of SIRTs can be traced to founding member Sir2 (yeast) nearly 40 years ago, which was first discovered in the budding Saccharomyces cerevisiae, and was originally known as matingtype regulator 1 p...
+
+
 ## Connections
 
 - [[Model Organisms]]: One of the most studied eukaryotic models.

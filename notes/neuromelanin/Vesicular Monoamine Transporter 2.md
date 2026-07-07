@@ -29,6 +29,14 @@ A striking finding is the inverse relationship between VMAT2 levels and neuromel
 
 VMAT2 imaging ligands (e.g., ¹⁸F-AV-133) on [[Positron Emission Tomography]] quantify presynaptic dopaminergic integrity and track PD progression. Enhancing VMAT2 activity or protecting it from inhibition is a plausible neuroprotective strategy, complementing [[L-DOPA]] therapy (which, by raising cytosolic dopamine, can paradoxically increase quinone load if vesicular capacity is saturated). Genetic variation in *SLC18A2* is also studied as a PD risk modifier.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator|Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator]]
+    - The putative ability of pigmented granules to concentrate Catecholamines such as Dopamine from surrounding tissue could supplant some of the function of Vesicular Monoamine Transporter 2, which serve to sequester potentially toxic Dopamine into vesicles for...
+
+
 ## Connections
 
 - [[Dopamine]]: Monoamine VMAT2 packages into vesicles.

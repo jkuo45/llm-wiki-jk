@@ -34,6 +34,14 @@ Efficient ATP synthase coupling is essential for cellular energy charge and for 
 
 OSCP acetylation increases with age and in metabolic disease, correlating with reduced ATP synthase efficiency and mitochondrial uncoupling. SIRT3 activators ([[Honokiol]], [[NAD+]] precursors) that target OSCP deacetylation could restore mitochondrial energetics in [[Heart Failure|heart failure]], [[Neurodegeneration|neurodegeneration]], and [[Metabolic Syndrome|metabolic syndrome]]. Beyond sirtuin-targeted approaches, modulation of OSCP stability and the peripheral stalk is an active area in mitochondrial medicine.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins (resveratrol), gemini|sirtuins (resveratrol), gemini]]
+    - Mentioned in this document
+
+
 ## Connections
 
 - [[SIRT3]] — Deacetylates OSCP, optimizing ATP synthase coupling and mitochondrial energy output

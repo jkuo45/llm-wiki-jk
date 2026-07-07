@@ -24,6 +24,14 @@ aliases: [Sprycel, BMS-354825]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug|Ivermectin, a potential anticancer drug derived from an antiparasitic drug]]
+    - It was also confirmed that IVM inhibited tumor growth in a dose-dependent manner, and Dasatinib had improved efficacy. 2.5.
+
+
 ## Connections
 - [[Dasatinib]] — related entity
 

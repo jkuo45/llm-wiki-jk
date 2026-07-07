@@ -24,6 +24,14 @@ aliases: [RHOT1]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - Parkin-mediated ubiquitination of select outer mitochondrial membrane proteins, such as mitofusins and Miro1, initiates the recruitment of key regulators of autophagosome formation, leading to the elimination of impaired Mitochondria (Narendra et al 2012).
+
+
 ## Connections
 - [[Miro1]] — related entity
 

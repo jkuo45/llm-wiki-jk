@@ -38,6 +38,14 @@ Iron accumulates in the basal ganglia, thalamus, and periventricular white matte
 - Suggested new entity notes to create: [[Oligodendrocytes]], [[Myelin basic protein]], [[Ferroptosis]], [[GPX4]], [[Dimethyl fumarate]], [[NRF2]], [[Keap1]], [[MitoQ]], [[Lipoic acid]], [[Experimental autoimmune encephalomyelitis]], [[3-Nitrotyrosine]]
 - Strong connections to strengthen: [[Multiple Sclerosis]] ↔ [[Mitochondria]], [[Multiple Sclerosis]] ↔ [[Ferroptosis]], [[Multiple Sclerosis]] ↔ [[Glutathione]]
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - Neurological Disease and Oxidative Stress Oxidative stress has been linked to several neurological diseases (i.e., Parkinson's Disease, Alzheimer's Disease, Amyotrophic Lateral Sclerosis, Multiple Sclerosis, depression, and memory loss) \[ – \].
+
+
 ## Connections
 
 - [[Inflammation]]: Chronic Inflammation and [[Oxidative Stress]] contribute to the process of [[Demyelination]], leading to progressive ...

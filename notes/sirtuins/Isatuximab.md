@@ -51,6 +51,14 @@ Isatuximab also does **not** bind to the CD38 region required for daratumumab bi
 - Hematologic toxicity: neutropenia, thrombocytopenia
 - Interference with blood bank testing (less pronounced vs. daratumumab due to different epitope)
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins (overview, CD38 KO risks, cancer therapies)|sirtuins (overview, CD38 KO risks, cancer therapies)]]
+    - Investigate CD38's involvement in cancer therapy CD38 is a major therapeutic target in Cancer, primarily through monoclonal antibodies (mAbs) like Daratumumab and Isatuximab in Multiple Myeloma (MM), with expanding roles in modulating the Tumor Microenviron...
+
+
 ## Connections
 
 - [[CD38]] — molecular target

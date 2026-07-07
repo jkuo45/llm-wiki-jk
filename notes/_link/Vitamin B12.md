@@ -23,6 +23,14 @@ Vitamin B12 is required by [[MTRR]] (methionine synthase reductase) to regenerat
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - Which type of Vitamin B12 should you take if you have slow COMT? If you plan to take supplemen
+
+
 ## Connections
 - [[Methylation]] — B12 is essential for the methylation cycle
 - [[MTRR]] — B12 recycling enzyme

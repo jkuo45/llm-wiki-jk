@@ -29,6 +29,14 @@ Physiologically, the PIDDosome enforces genomic integrity by eliminating cells w
 
 The PIDDosome–Caspase-2 axis is studied as a determinant of therapeutic response and as a target for restoring apoptotic competence in resistant tumors. Biomarkers of PIDDosome integrity may help stratify patients for genotoxic regimens.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Evading apoptosis in cancer|Evading apoptosis in cancer]]
+    - Of note, Caspase-2 is activated via formation of the PIDDosome, a complex which consists of the adaptor proteins PIDD (p53-induced death domain protein) and RAIDD (RIP-associated protein with a death domain).
+
+
 ## Connections
 
 - [[PIDD]]: Scaffold subunit of the PIDDosome complex.

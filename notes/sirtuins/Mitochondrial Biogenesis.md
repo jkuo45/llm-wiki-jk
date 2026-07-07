@@ -40,6 +40,23 @@ Enhanced biogenesis improves ATP supply, lowers [[Reactive Oxygen Species]] emis
 
 Impaired [[Mitochondrial Biogenesis]] is a hallmark of [[Type 2 Diabetes Mellitus]], fatty liver disease, and neurodegenerative disorders. Strategies to activate the PGC-1α/sirtuin axis — exercise, [[Caloric Restriction]], NAD+ precursors, and sirtuin activators such as [[Resveratrol]] — are being explored to preserve metabolic and cognitive healthspan.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - mitohormesis|mitohormesis]]
+    - I'm investigating the synergy with NAD+ pools, with NAD+ precursors being added to ensure sufficient cofactor availability for Mitochondrial Biogenesis.
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - Mitochondrial metabolism and biogenesis Mitochondrial metabolism and Mitochondrial Biogenesis are both regulated by mTORC1.
+
+  - [[_document_ - sirtuins (resveratrol), gemini|sirtuins (resveratrol), gemini]]
+    - ival and metabolic adaptations: PGC-1α (Mitochondrial Biogenesis) - Mechanism: SIRT1 deacetylates PGC1-α (peroxisome proliferator-activated receptor-gamma coactivator 1-alpha).
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Numerous target proteins, including histone and non-histone, have been shown to be modified by SIRTs, and participates in the regulation of multiple fundamental cellular functions including glucose, and lipid metabolism, Mitochondrial Biogenesis, DNA repair...
+
+
 ## Connections
 
 - [[AMPK]]: Upstream activator of PGC-1α; AMPK and SIRT1 cooperate to induce [[Mitochondrial Biogenesis]].

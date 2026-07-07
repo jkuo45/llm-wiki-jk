@@ -31,6 +31,17 @@ Bik is expressed in epithelial tissues and the immune system, where it enforces 
 - **Therapeutic Vulnerability**: Restoring Bik (e.g., via MEK/ERK inhibitors that stabilize it, or [[BH3 mimetics]] that bypass it) can re-engage death.
 - **Biomarker**: SRC/ERK activation status may predict Bik abundance and apoptotic priming.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - Bax, Bak, Bad, Bcl-Xs, Bid, Bik, Bim and Hrk) and the anti-apoptotic proteins (e.g. Bcl-2, Bcl-xL, Bcl-w, A1-Bfl-1 and Mcl-1) \[\].
+
+  - [[_document_ - Caspase|Caspase]]
+    - ERK2 | Ser77 | Inactivation | Melanoma | | Bik | | ERK1_2 | Thr124 | Ubiquitination and degradation | Lung Cancer, [[Colon
+
+
 ## Connections
 
 - [[Bcl-2 family]]: BH3-only member.

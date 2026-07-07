@@ -30,6 +30,20 @@ aliases: [CMA]
 
 CMA selectively degrades cytosolic proteins with KFERQ-like motifs via [[HSC70]] recognition and [[LAMP-2A]] translocation into lysosomes, independent of vesicle formation.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Autophagy and intermittent fasting the connection for cancer therapy?|Autophagy and intermittent fasting the connection for cancer therapy?]]
+    - Chaperone-Mediated Autophagy (CMA) recycles soluble proteins with an exposed ami
+
+  - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
+    - The three types of autophagy can be classified as Macroautophagy, Microautophagy and Chaperone-Mediated Autophagy.
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - To date, 3 different types of autophagy mechanisms, namely Macroautophagy, Microautophagy, and Chaperone-Mediated Autophagy, have been indicated in eukaryotic cells \[\].
+
+
 ## Connections
 
 - [[Autophagy]]: **Chaperone-Mediated Autophagy** (CMA) is a highly selective type of Autophagy that targets specific proteins for deg...

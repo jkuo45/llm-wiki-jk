@@ -33,6 +33,14 @@ Proper embryonic development requires tight coupling between signaling gradients
 
 Understanding embryonic development underpins stem cell therapy, [[Tissue Engineering]], and the assessment of [[Teratogen]] risk. Model systems—from mouse and zebrafish to human embryonic stem cell and gastruloid cultures—reveal conserved mechanisms of axis patterning and lineage commitment. Developmental signaling pathways (Wnt, Notch, Hedgehog, TGF-beta) are also co-opted in [[Cancer]], linking embryology to oncology.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - enescence|cellular senescence]] plays a role in the differentiation of megakaryocytes (Besancenot et al., ), the maturation of the placenta (Chuprin et al., ), the restriction of Fibrosis (Krizhanovsky et al., ; Jun & Lau, ; Zhu et al., ), Tissue Repair (De...
+
+
 ## Connections
 
 - [[Gastrulation]] - germ layer formation event central to early development.

@@ -29,6 +29,14 @@ Physiologically, PLA2 maintains membrane homeostasis and generates bioactive lip
 
 PLA2 isoforms are therapeutic targets (e.g., sPLA2 inhibitors in inflammatory disease) and biomarkers. The anticancer properties of bee-venom components — where [[melittin]] provides the dominant cytotoxicity but sPLA2 contributes apoptotic and immunomodulatory effects — are actively studied for repurposing against carcinomas and leukemias.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology|Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology]]
+    - In contrast to honeybee venom, bumblebee (Bombus terrestris) venom does not contain melittin , but contains secretory phospholipase A2 that induced apoptosis by inhibition of Akt phosphorylation in human chronic myelogenous leukemia cells .
+
+
 ## Connections
 
 - [[Akt]]: Survival kinase inhibited by certain secretory PLA2s, promoting apoptosis.

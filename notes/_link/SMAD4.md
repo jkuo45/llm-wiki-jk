@@ -24,6 +24,14 @@ aliases: [Mothers Against Decapentaplegic Homolog 4, DPC4]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - from in vitro models have shown that SIRT4 upregulation might inhibit high fat diet-induced lipid accumulation, inflammation, and fibrogenesis through the SIRT4/SMAD4 axis. It can also inhibit hepatic stellate cell activation.
+
+
 ## Connections
 - [[SMAD4]] — related entity
 

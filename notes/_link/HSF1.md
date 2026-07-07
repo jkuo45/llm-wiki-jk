@@ -24,6 +24,14 @@ aliases: [Heat Shock Factor 1]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Resveratrol protects against acute necrotizing Inflammation in mice by enhancing SIRT1-mediated deacetylation of p53 and HSF1. However, SIRT1 has an opposing effect on Inflammation compared to AP.
+
+
 ## Connections
 - [[HSF1]] — related entity
 

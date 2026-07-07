@@ -25,6 +25,14 @@ Although ivermectin is best known as an antiparasitic, it has attracted intense 
 
 Ōmura's legacy underscores the value of microbial biodiversity for drug discovery and supports ongoing screening of Streptomyces metabolites for novel anti-cancer agents. His career is a model for translational natural-product pharmacology bridging parasitology and oncology.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, ‘Wonder drug’ from Japan the human use perspective|Ivermectin, ‘Wonder drug’ from Japan the human use perspective]]
+    - In the early-1970s, a novel international Public Sector–Private Sector partnership was initiated by one of us (Satoshi Ōmura, then head of the Antibiotics Research Group at Tokyo’s Kitasato Institute), forming a collaboration with the US-based Merck & Co.
+
+
 ## Connections
 
 - [[Kitasato Institute]] - Institution where Ōmura conducted much of his research.

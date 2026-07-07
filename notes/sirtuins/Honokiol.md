@@ -63,6 +63,17 @@ Honokiol is found in *Magnolia* bark:
 - Hot-water (tea) extraction is inefficient due to poor water solubility; alcohol or CO₂ extracts are more effective
 - Achieving a therapeutic dose (~200 mg) from tea requires impractically large amounts of raw bark — standardized supplements are the practical route
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins (resveratrol), gemini|sirtuins (resveratrol), gemini]]
+    - Key Compounds - Honokiol (HKL): A natural biphenolic lignan extracted from the bark of Magnolia grandiflora. Dihydromyricetin (DHM): A natural flavonoid found in plants like the Ampelopsis grossedentata (Vine Tea).
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - The natural bisphenol compound Honokiol upregulated the expression of SIRT3 protein in vivo and in vitro, and its protective effect against oxidative stress and mitochondrial dysfunction could be abrogated by SIRT3 shRNA.
+
+
 ## Connections
 
 - [[SIRT3]] — primary molecular target; honokiol directly binds and activates SIRT3

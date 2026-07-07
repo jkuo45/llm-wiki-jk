@@ -27,6 +27,14 @@ The iPSC discovery transformed [[Stem Cell Research]] by circumventing the ethic
 
 Beyond the Nobel Prize, Yamanaka has received the Albert Lasker Basic Medical Research Award (2009), the Millennium Technology Prize, and election to numerous academies. He continues to champion responsible, equitable translation of pluripotent stem cell technology.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic|Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic]]
+    - Shinya Yamanaka and Kazutoshi Takahashi discovered the core transcriptional fact
+
+
 ## Connections
 - [[Induced Pluripotent Stem Cells]]: His defining discovery.
 - [[Yamanaka Factors]]: The factor set his lab identified.

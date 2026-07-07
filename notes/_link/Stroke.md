@@ -23,6 +23,14 @@ Stroke involves [[Oxidative Stress]], [[Inflammation]], [[Excitotoxicity]], and 
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Brain injury such as IRI and Stroke: Brain injury, such as IRI and Stroke, is a neurological disorder with high morbidity, high probability of mortality, and poor neurological outcome. The SIRT family is a highly potent therapeutic target to decrease IRI.
+
+
 ## Connections
 - [[Cardiovascular Disease]] — Shared risk factors
 - [[Ischemia-reperfusion Injury]] — Key pathological process

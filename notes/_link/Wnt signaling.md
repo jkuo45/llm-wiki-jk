@@ -24,6 +24,17 @@ aliases: [Wnt Pathway]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - Wnt signaling regulates cell differentiation, embryonic pattering and organogenesis during development. Wnt also participate in adult tissues homeostasis and its dysregulation often leads to Cancer.
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - SIRT1 mediates cell Apoptosis through the deacetylation of FoxO proteins including FoxO1, and upregulation of SIRT1 can inhibit Apoptosis via the FoxO1/ Wnt signaling pathway.
+
+
 ## Connections
 - [[Wnt signaling]] — related entity
 

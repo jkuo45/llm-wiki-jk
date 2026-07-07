@@ -123,6 +123,14 @@ The reversible nature of epigenetic modifications makes them attractive targets 
 
 Finally, [[Senolytics]] are an emerging class of drugs that selectively eliminate senescent cells, thereby reducing the burden of [[SASP]] and improving tissue function in aged or diseased models ([^207]). These interventions highlight the potential of targeting the epigenetic and metabolic drivers of aging to extend human health span.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Epigenetic changes during aging and their reprogramming potential|Epigenetic changes during aging and their reprogramming potential]]
+    - H3K4me3, HP1, Lamin A, macroH2A, DNA Methylation, Yamanaka Factors, Hutchinson-Gilford Progeria Syndrome, Werner Syndrome - Suggested new entity notes to create: Nucleosome, H3K4me3, HP1, Lamin A, macroH2A, Werner Syndrome - Strong connections to strengthen...
+
+
 ## Connections
 
 - [[Epigenetics]]: **Keywords:** Epigenetics, [[Aging]], histones, [[Chromatin]]

@@ -25,6 +25,20 @@ The pro-apoptotic function of Noxa is regulated by several kinases through [[Pho
 ## Role in Cancer
 Noxa is involved in the apoptotic response to chemotherapy and its downregulation can contribute to drug resistance, particularly in cancers where [[Mcl-1]] is highly expressed.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - Examples in this group include Bid, Bim, Puma, Noxa, Bad, Bmf, Hrk, and Bik. In times of cellular stresses such as DNA damage, growth factor deprivation and endoplasmic reticulum stress, the BH3-only proteins, which are initiators of apoptosis, are activated.
+
+  - [[_document_ - Caspase|Caspase]]
+    - PKA, PKCι, RSK | Ser155 | Inactivation | Lung Cancer | | Noxa | | CDK5 | Ser13 | Inactivation | Metabolically regulated [[leuke
+
+  - [[_document_ - Evading apoptosis in cancer|Evading apoptosis in cancer]]
+    - Importantly, the interactions between pro- and anti-apoptotic Bcl-2 family proteins are determined with specific binding specificities \[, \]; for instance, Bim interacts with all six anti-apoptotic Bcl-2 family proteins as well as Bax and Bak \[\], whereas...
+
+
 ## Connections
 - [[Bcl-2 family]]: A BH3-only protein with relative specificity for Mcl-1.
 - [[p53]]: Noxa expression is induced by p53.

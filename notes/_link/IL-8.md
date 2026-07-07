@@ -16,6 +16,14 @@ IL-8 (Interleukin-8, CXCL8) is a pro-inflammatory [[Chemokine]] that recruits [[
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
+    - Thus, a plethora of blood senescence markers can simultaneously be monitored when utilizing advanced flow cytometry, including Senescence-Associated Beta-Galactosidase (SA β-gal), CDKN1A (p21) and p53 (p53), as well as markers of mitochondrial and lysosomal...
+
+
 ## Connections
 - [[Inflammation]] — IL-8 is a key pro-inflammatory chemokine
 - [[Neutrophils]] — primary target cells of IL-8

@@ -29,6 +29,14 @@ E2F coordinates the temporal expression of genes required for nucleotide biosynt
 
 Loss of [[RB1]] or upstream CDK deregulation (common in [[Cancer]]) liberates E2F constitutively, driving unscheduled S-phase entry and genomic instability — a hallmark of retinoblastoma, small-cell lung cancer, and many other tumors. Conversely, E2F1 can act as a tumor suppressor via apoptosis. E2F activity is a biomarker of proliferation (e.g., Ki67-correlated signatures) and a therapeutic node: CDK4/6 inhibitors ([[Palbociclib]], [[Abemaciclib]]) restore pRb-mediated E2F repression and are approved in breast cancer. E2F's interplay with the [[NuRD complex]] and other chromatin remodelers further ties cell-cycle control to [[Epigenetic Remodeling]] and [[Pluripotency]] networks.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - Rb inhibits proliferation by binding to and inactivating E2F1, a key transcriptional activator for cell cycle and cell division genes (Cheung and Rando, 2013; Yao et al., 2008) (Figure 2).
+
+
 ## Connections
 
 - [[RB1]] — the gene encoding pRb, the principal inhibitor of E2F.

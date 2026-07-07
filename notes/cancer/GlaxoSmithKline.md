@@ -25,6 +25,14 @@ GSK is a founding donor to the [[Global Programme to Eliminate Lymphatic Filaria
 
 While GSK is an organization rather than a pathological entity, its products intersect the cancer domain through (1) direct therapeutics (targeted and immune-based [[Medical Treatment]]), (2) prophylactic vaccines that reduce cancer incidence (HPV, hepatitis B), and (3) co-administered anthelmintics (albendazole + ivermectin) that, in cancer research, have drawn interest for their repurposed antiproliferative activities. GSK's research also illuminates targets such as [[BCMA]] and [[PARP]] that are central to modern precision oncology.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, ‘Wonder drug’ from Japan the human use perspective|Ivermectin, ‘Wonder drug’ from Japan the human use perspective]]
+    - Several years earlier another drug, Albendazole, produced by SmithKlineBeecham (now GlaxoSmithKline – GlaxoSmithKline) had also been shown to be effective in killing both immature and adult worms.
+
+
 ## Connections
 
 - [[Albendazole]]: Benzimidazole donated by GSK for filariasis elimination.

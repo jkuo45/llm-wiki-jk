@@ -23,6 +23,14 @@ aliases: []
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Glioma: Glioma is the most common and malignant primary tumor of the central nervous system, with a poor prognosis, especially glioblastoma.
+
+
 ## Connections
 - [[Glioma]] — related entity
 

@@ -19,6 +19,14 @@ The hallmarks of aging are the biochemical changes that occur in all organisms a
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Gut Microbiome, Aging, and Longevity A Systematic Review|The Gut Microbiome, Aging, and Longevity A Systematic Review]]
+    - Primary cellular and molecular Hallmarks of Aging include Genomic Instability, Telomere Attrition, Epigenetic A
+
+
 ## Connections
 - [[Hallmarks of Aging]] — related entity
 

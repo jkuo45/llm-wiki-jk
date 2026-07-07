@@ -51,6 +51,14 @@ Targeting the TME is a major focus of modern [[Oncology]]:
 - **Anti-angiogenic Therapy**: Drugs that inhibit [[VEGF]] or its receptor can starve the tumor of its blood supply.
 - **Stromal Targeting**: Strategies are being developed to target CAFs or reprogram them to a less supportive phenotype.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Oral Fenbendazole for Cancer Therapy in Humans and Animals|Oral Fenbendazole for Cancer Therapy in Humans and Animals]]
+    - Neil+Wilson+Xin+Tantawy+Merryman+Johnson+Williams+Mason+Mason+Beckermann+VanderHeiden+Manning+Rathmell+Rathmell-programmed+nutrient+partitioning+in+the+tumour microenvironment
+
+
 ## Connections
 
 - [[Cancer]] - The central malignancy that both shapes and is shaped by the TME.

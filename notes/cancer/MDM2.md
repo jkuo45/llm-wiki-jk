@@ -24,6 +24,17 @@ MDM2 regulates p53 through several mechanisms:
 - **Oncogene**: The *MDM2* gene is frequently amplified or overexpressed in many human cancers (e.g., sarcomas, [[glioblastoma]]), leading to the inactivation of p53 even in the absence of mutations.
 - **Drug Target**: Inhibiting the MDM2-p53 interaction (e.g., with [[Nutlins]]) is a major therapeutic strategy to restore p53 function.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - Nutlins are analogues of cis-imidazoline, which inhibit the MDM2-p53 interaction, stabilise p53 and selectively induce senescence in cancer
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Also, inauhzin was found to induce ribosomal stress and the RPL11/RPL5MDM2 (MDM2) interaction, activating p53, and suppress cancer cell growth by dually targeting SIRT1 and inosine monophosphate dehydrogenase 2.
+
+
 ## Connections
 - [[p53]]: The primary substrate and target of MDM2.
 - [[Nutlins]]: Small molecule inhibitors that block the MDM2-p53 interaction.

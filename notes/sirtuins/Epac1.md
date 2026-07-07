@@ -40,6 +40,14 @@ Epac1 also regulates [[Insulin Secretion]] (via cAMP/Ca²⁺ in pancreatic β-ce
 
 By linking extracellular/hormonal cAMP signals to the AMPK–NAD⁺–SIRT1 network, Epac1 is an upstream conduit through which resveratrol and other PDE4-modulating compounds activate sirtuins. This positions Epac1 as a molecular bridge between cyclic nucleotide second-messenger physiology and the nutrient-sensing sirtuin system central to [[Longevity]] and metabolic health. Inhibitors such as [[Compound C]] (blocking downstream AMPK) are used experimentally to confirm the dependence of Epac1-driven effects on AMPK.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins (resveratrol), gemini|sirtuins (resveratrol), gemini]]
+    - Direct Pathway) (Indirect Pathway) | | Binds SIRT1 NTD Inhibits PDE4 (e.g., Glu230 residue) | | Increases cAMP Allosteric change | | Activates Epac1 → Ca2+ Release Lowers Km for substrates | | Activates AMPK | | | Upregulates NAMPT → Increases NAD+ | | \ / ...
+
+
 ## Connections
 
 - [[cAMP]] — Direct activator of Epac1 via high-affinity cyclic nucleotide binding

@@ -16,6 +16,14 @@ Mitosis is the process of [[Cell Division]] in which a single [[Eukaryotic Cell]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - In proliferating cells, centrioles assemble into Centrosome—microtubule-organizing centers that regulate spindle assembly during Mitosis (Breslow and Holland, 2019). In contrast, in non-dividing cells including quiescent cells, centrioles form t
+
+
 ## Connections
 - [[Cell Division]] — mitosis is the nuclear division phase
 - [[Cell Cycle]] — mitosis comprises the M phase

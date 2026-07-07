@@ -29,6 +29,29 @@ Senescence is considered a major roadblock during the induction of pluripotency:
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
+    - Autophagic flux declines with age and, in turn, decreases in autophagy contribute to the aging process itself and promote Senescence.
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - It is not only involved in the induction of apoptosis but it is also a key player in cell cycle regulation, development, differentiation, gene amplification, DNA recombination, chromosomal segregation and cellular Senescence \[\] and is called the "guardian...
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - Although quiescent cells display some similarities to other non-dividing cell states, such as Senescence and Terminal Differentiation, quiescence possesses unique characteristics and functions.
+
+  - [[_document_ - Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network|Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network]]
+    - Experiments confirmed that upon viral transduction, the immediate response is Innate Immunity, which induces Reactive Oxygen Species, oxidative DNA Damage, p53 activation, Senescence, and Apoptosis, ultimately leading to a reduction in the Cellular Reprogra...
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - Summary To date, dozens of stress‐induced Senescence phenotypes have been reported. These cellular senescence states may differ substantially from each other, as well as from Replicative Senescence through the presence of specific senescence features.
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Sir2 (yeast)’s key role in the molecular mechanism of Senescence in C. elegans was also later demonstrated.
+
+
 ## Connections
 - [[Aging]]: The accumulation of senescent cells is a primary driver of tissue aging and age-related diseases.
 - [[Cancer]]: Senescence acts as an initial barrier to cancer but can later promote tumor growth via the SASP.

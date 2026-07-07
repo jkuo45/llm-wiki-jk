@@ -25,6 +25,14 @@ HSP27 suppresses apoptosis through multiple mechanisms: it inhibits [[Cytochrome
 
 High HSP27 marks poor prognosis and resistance across [[Breast Cancer]], [[Prostate Cancer]], [[Lung Cancer]], [[Ovarian Cancer]], and [[Glioblastoma]]. It diminishes responses to [[Chemotherapy]], radiation, and targeted agents. Notably, [[Ivermectin]] inhibits HSP27 phosphorylation; by suppressing HSP27, ivermectin sensitizes [[EGFR]]/[[HER2]]-driven tumors (e.g., [[Lung Cancer]], [[Prostate Cancer]]) to anti-EGFR drugs such as [[erlotinib]] and [[cetuximab]]. HSP27 antisense oligonucleotides (OGX-427) and small-molecule inhibitors are in clinical evaluation as chemosensitizers.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug|Ivermectin, a potential anticancer drug derived from an antiparasitic drug]]
+    - P, Damage-associated molecular pattern; EGFR, Epidermal growth factor receptor; EBV, Epstein-Barr virus; EMT, Epithelial mesenchymal-transition; GABA, Gamma-aminobutyric acid; GSDMD, Gasdermin D; HBV, Hepatitis B virus; HCV, Hepatitis C virus; HER2, Human e...
+
+
 ## Connections
 
 - [[Ivermectin]]: Inhibits HSP27 phosphorylation, restoring therapy sensitivity.

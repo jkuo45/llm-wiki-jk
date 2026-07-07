@@ -29,6 +29,20 @@ Strategies to reduce inflammaging include [[Autophagy Inducer|autophagy inductio
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
+    - In this Perspective, we specifically focus on the systemic deterioration of immune function with age, which is accompanied by Inflammaging, a chronic state of innate immune activation causing systemic low-grade inflammation (Furman et al., 2019).
+
+  - [[_document_ - The Gut Microbiome, Aging, and Longevity A Systematic Review|The Gut Microbiome, Aging, and Longevity A Systematic Review]]
+    - Age-related changes in pro-inflammatory status result in low-level systemic inflammation (“Inflammaging”) that increases the propensity for chronic diseases and disabilities, including Cardiovascular Disease, cognitive decline, metabolic disease, frailty, a...
+
+  - [[_document_ - sirtuins (overview, CD38 KO risks, cancer therapies)|sirtuins (overview, CD38 KO risks, cancer therapies)]]
+    - This is a trade-off: reducing age-related Inflammaging and NAD+ consumption via CD38 could blunt beneficial acute immune responses. 2.
+
+
 ## Connections
 - [[Aging]] — progressive decline in physiological function; primary risk factor
 - [[Cytokines]] — interacts with Inflammaging

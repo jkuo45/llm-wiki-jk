@@ -23,6 +23,14 @@ aliases: []
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - Suppression of lysosomal _Lamp2_ increased punctate GFP-LC3 and SQSTM1/p62 such that IF worsens Ventricular Remodeling and Cardiomyocyte Toxicity in _Lamp2_ -/- mice \[\].
+
+
 ## Connections
 - [[Ventricular Remodeling]] — related entity
 

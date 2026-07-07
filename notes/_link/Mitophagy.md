@@ -43,6 +43,35 @@ Mitophagy efficiency declines with age, contributing to the accumulation of dysf
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Mitohormesis - 2023_NOV|Mitohormesis - 2023_NOV]]
+    - In that case, impaired mitochondrial function resulted in the disruption of PINK1 mitochondrial import and the subsequent accumulation of PINK1 on the surface of the mitochondria, serves as a catalyst for Parkin-dependent Mitophagy .
+
+  - [[_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects|Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects]]
+    - Activation of Mitochondrial Autophagy and Regeneration Mitophagy, also known as Mitophagy, refers to the selective degradation of mitochondria through the autophagic process.
+
+  - [[_document_ - mitohormesis|mitohormesis]]
+    - Cleanup: Urolithin A (Mitophagy inducer). 1.2 Mechanism of Action (MOA) Redox Signaling: Carbazochrome induces transient, controlled Redox Cycling, generating a low-amplitude Superoxide anion signal in the mitochondrial matrix.
+
+  - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
+    - Mounting evidence indicates that Mitophagy, which encompasses selective degradation of damaged or excessive mitochondria, is an especially crucial regulator of Innate Immune System function (Gkikas et al., 2018).
+
+  - [[_document_ - Lysosome biogenesis Regulation and functions|Lysosome biogenesis Regulation and functions]]
+    - During Mitophagy, translocation of TFEB/TFE3 into the nucleus depends on Parkin and PINK1 but not mTORC1.
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - Mitochondrial stress Mitophagy is the process by which damaged Mitochondria are eliminated via Autophagy.
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - For many quiescent cell types, the clearance of mitochondria through Autophagy (Mitophagy) is responsible for decreasing metabolism and is important for maintaining quiescence (Ho et al., 2017; Zhang et al., 2018).
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - It was reported that Mitophagy/autophagy blockade leads to the accumulation of damaged mitochondria generating ROS, and this in turn activates the NLRP3. For instance, a study carried out by Zhao et al.
+
+
 ## Connections
 - [[Selective Autophagy]] — interacts with Mitophagy
 - [[Mitochondria]] — organelle responsible for energy production; metabolic hub

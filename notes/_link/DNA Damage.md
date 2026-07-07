@@ -88,6 +88,29 @@ Rare genetic disorders from DDR deficiencies: [[Xeroderma Pigmentosum]] (skin ca
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - For instance, the activation of p53 in response to DNA Damage rapidly activates AMPK through an unknown process, which in turn phosphorylates and thereby activates TSC2 (Feng et al., 2005).
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - Contact-dependent interactions, DNA Damage, and certain soluble factors promote quiescence, whereas growth factor signaling and Extracellular Matrix interactions stimulate proliferation. Extracellular signals in vitro.
+
+  - [[_document_ - Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network|Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network]]
+    - Experiments confirmed that upon viral transduction, the immediate response is Innate Immunity, which induces Reactive Oxygen Species, oxidative DNA Damage, p53 activation, Senescence, and Apoptosis, ultimately leading to a reduction in the Cellular Reprogra...
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - Keywords: Senescence, Cell Stress, DNA Damage, DNA Replication Stress, Epigenetic Modifiers, Aging --- Senescence is a stable arrest of the Cell Cycle and is characterized by complex phenotypic changes.
+
+  - [[_document_ - sirtuins (overview, CD38 KO risks, cancer therapies)|sirtuins (overview, CD38 KO risks, cancer therapies)]]
+    - Key functions: Regulates TAFI68 (via RNA Pol I), ribosome biogenesis, DNA Damage repair, chromatin organization. Involved in stress response and Metabolism.
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - SIRT1-dependent deacetylation of p53 inhibits its transactivation activity and suppresses Apoptosis in response to Oxidative Stress and DNA Damage . Although the SIRT1/p53 pathway may promote a beneficial effect in different diseases, Chen et al.
+
+
 ## Connections
 - [[DNA Repair]] — collective pathways that remove and correct DNA damage
 - [[DNA Damage Response]] — signaling network that detects damage and coordinates repair

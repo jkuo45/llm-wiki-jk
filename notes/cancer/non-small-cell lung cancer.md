@@ -29,6 +29,26 @@ Management spans surgical resection for early disease, platinum-based [[Chemothe
 
 [[melittin]], the principal peptide of honeybee venom, shows antitumoral activity in NSCLC models, notably by suppressing [[NFκB]] signaling and by disrupting membrane integrity. It demonstrates synergy with [[docetaxel]] in lung cancer cells, suggesting combinations that overcome resistance and enhance apoptosis. Such natural-product repurposing is an active preclinical avenue.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - Survivin, together with XIAP, was also found to be overexpressed in non-small-cell lung cancer and the study concluded that the overexpression of Su
+
+  - [[_document_ - Caspase|Caspase]]
+    - Ser61, Ser78 | S phase arrest | Response to DNA damage | | Bim | Loss in leukemia, non-small-cell lung cancer, Lymphoma | ERK | Ser55, Ser65, Ser100 (mouse) | Inac
+
+  - [[_document_ - Evading apoptosis in cancer|Evading apoptosis in cancer]]
+    - Additionally, a _Bim_ deletion polymorphism has been reported in certain human populations, and is significantly associated with innate resistance to Tyrosine Kinase Inhibitors therapies in chronic myeloid leukemia and non-small-cell lung cancer \[\] (Table...
+
+  - [[_document_ - Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology|Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology]]
+    - Both honeybee venom and melittin have demonstrated antitumoral effects in Melanoma , non-small-cell lung cancer , glioblastoma , leukemia , ovarian cancer , cervical cancer , and Pancreatic Cancer , with higher cytotoxic potency in cancer cells compared to ...
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - In non-small cell LC (non-small-cell lung cancer), the SIRT1-mediated AMPK/mTOR signaling pathway could promote A549 and H1299 cell proliferation, invasion and Apoptosis.
+
+
 ## Connections
 
 - [[melittin]]: Antitumor peptide active against NSCLC via NFκB inhibition.

@@ -54,6 +54,14 @@ Nicotinamide is distinct from other NAD⁺ precursors:
 - **[[Nicotinic acid]] (NA)**: Converted to NAD⁺ via the Preiss-Handler pathway; causes flushing due to GPR109A activation.
 - **[[NMN]]**: The immediate product of NAMPT activity; directly converted to NAD⁺ by NMNAT enzymes.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Of note, the regulation of catalytic activity of SIRTs involves multiple steps: (a) NAD + and acetyl lysine substrates binding; (b) the glycosidic bond cleavage; (c) acetyl transfer; and (d) O-acetyl-ADPR, Nicotinamide, and deacetylated lysine products form...
+
+
 ## Connections
 
 - [[NAD+]] — the key co-substrate whose levels are regulated by nicotinamide availability

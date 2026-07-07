@@ -24,6 +24,14 @@ aliases: [Centromere Protein A]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - The key players in marking this site on each chromosome are specialized Nucleosome containing the Histone Variant, CENP-A.
+
+
 ## Connections
 - [[CENP-A]] — related entity
 

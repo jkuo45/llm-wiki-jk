@@ -17,6 +17,14 @@ aliases: []
 ## Application
 Similar to [[Argon]], nitrogen gas is used to provide an oxygen-free environment for the storage and handling of sensitive chemicals like [[Epinephrine]] and its intermediates to prevent [[Autoxidation]].
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - intermediates, precursor, hemoglobin|intermediates, precursor, hemoglobin]]
+    - Laboratory Handling and Storage Because of its extreme sensitivity to oxidation, researchers handling Leuco-adrenochrome must adhere to strict protocols: - Atmosphere: It is typically stored under an inert atmosphere (such as Argon or Nitrogen gas ) to prev...
+
+
 ## Connections
 - [[Autoxidation]]
 - [[Argon]]

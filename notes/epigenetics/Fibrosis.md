@@ -25,6 +25,17 @@ In acute wound healing, transient fibroblast activation and matrix deposition re
 
 Fibrosis contributes to an estimated 45% of all deaths in the developed world, yet antifibrotic therapies remain limited. Approved agents include pirfenidone and nintedanib for idiopathic pulmonary fibrosis, which slow decline without reversing scarring. Research frontiers target myofibroblast senescence, the TGF-β pathway, and epigenetic "reversal" of the activated fibroblast state. The interplay between [[Inflammation]] and fibrogenesis makes dual anti-inflammatory/antifibrotic strategies an active area, as is the role of mechanical tension and the matrisome in sustaining the fibrotic niche.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - For instance, it has been shown recently that Senescence plays a role in the differentiation of megakaryocytes (Besancenot et al., ), the maturation of the placenta (Chuprin et al., ), the restriction of Fibrosis (Krizhanovsky et al., ; Jun & Lau, ; Zhu et ...
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - In addition, SIRT1 and SIRT6 antagonize Fibrosis by blocking the activation of hepatic stellate cells via the deacetylation function in a mouse model. Notably, SIRT1 might act as a key metabolic/energy sensor, which directly regul
+
+
 ## Connections
 
 - [[Fibroblast]] - resident mesenchymal cell activated into matrix-producing myofibroblasts during fibrosis.

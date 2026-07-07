@@ -24,6 +24,14 @@ aliases: [P-glycoprotein, ABCB1, MDR1]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug|Ivermectin, a potential anticancer drug derived from an antiparasitic drug]]
+    - h mobility group box-1 protein; HSP27, Heat shock protein 27; LD50, median lethal dose; LDH, Lactate dehydrogenase; IVM, Ivermectin; MDR, Multidrug Resistance; NAC, N-acetyl-L-cysteine; OCT-4, Octamer-binding protein 4; PAK1, P-21-activated kinases 1; PAMP,...
+
+
 ## Connections
 - [[P-gp]] — related entity
 

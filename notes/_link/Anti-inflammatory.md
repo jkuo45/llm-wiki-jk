@@ -16,6 +16,14 @@ Anti-inflammatory refers to substances, interventions, or mechanisms that reduce
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - The following are commonly used natural Anti-inflammatory and Mast Cell Inhibitors supplements. These natural Flavonoids contain a catechol structure and are metabolized by COMT.
+
+
 ## Connections
 - [[Inflammation]] — the target process of anti-inflammatory interventions
 - [[NF-κB]] — master transcription factor of inflammatory response

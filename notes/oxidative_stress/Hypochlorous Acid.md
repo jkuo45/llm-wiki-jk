@@ -90,6 +90,14 @@ In [[Rheumatoid Arthritis]], HOCl modifies cartilage [[Proteins]] and [[Proteogl
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - Once formed, it is involved in several reactions that in turn generate hydrogen peroxide, hydroxyl radical (OH•), Peroxynitrite (ONOO −), Hypochlorous Acid (HOCl), and so on.
+
+
 ## Connections
 - [[Respiratory Burst]]: The NOX2-MPO axis of HOCl production
 - [[Reactive Nitrogen Species]]: HOCl reacts with nitrite to produce nitryl chloride (NO₂Cl)

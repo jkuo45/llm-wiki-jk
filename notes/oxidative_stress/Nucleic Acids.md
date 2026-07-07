@@ -32,6 +32,14 @@ Cells counter oxidative DNA damage through multiple pathways: [[Base Excision Re
 
 Urinary 8-OHdG is a widely used, non-invasive biomarker of systemic oxidative DNA damage, elevated in [[Cancer]], [[Diabetes Mellitus]], [[Neurodegenerative Diseases]], and [[Aging]]. Mitochondrial 8-oxoG accumulation is implicated in [[Parkinson's Disease]] and [[Alzheimer's Disease]]. Targeting DNA repair pathways and lowering ROS (e.g., with [[N-Acetylcysteine]] or [[MitoQ]]) are strategies to reduce oxidative mutagenesis.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - When ROS production increases, they start showing harmful effects on important cellular structures like Proteins, Lipids, and Nucleic Acids \[\].
+
+
 ## Connections
 
 - [[8-oxo-2'-deoxyguanosine]]: Signature oxidative guanine lesion and urinary biomarker.

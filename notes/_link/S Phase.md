@@ -16,6 +16,14 @@ S Phase (Synthesis Phase) is the phase of the [[Cell Cycle]] during which [[DNA 
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - For most quiescent cells, this arrest takes place in G0 Phase, a resting phase outside of the cell cycle that occurs prior to S Phase, but is distinct from the G1 Phase observed in cycling cells (Figure 2).
+
+
 ## Connections
 - [[Cell Cycle]] — S Phase is one of four cell cycle phases
 - [[DNA Replication]] — the central event of S Phase

@@ -19,6 +19,29 @@ The FoxO (forkhead box O) family is a group of transcription factors that regula
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects|Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects]]
+    - FoxO Family The FOXO (forkhead box O) family is a group of transcription factors that are involved in regulating the synthesis and degradation of muscle proteins \[,\].
+
+  - [[_document_ - Lysosome biogenesis Regulation and functions|Lysosome biogenesis Regulation and functions]]
+    - In long-lived mutants from three different longevity pathways, lysosomal gene expression is up-regulated, which requires DAF-16/FOXO and SKN-1/NRF2. Lysosome morphology and activity are well maintained during aging.
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - These include transcription factors that promote Autophagy activation (E2F1, GATA1, and members of the FOXO family), repression (GATA4), and those that have a dual inhibitory/activating function (TP53 and NFKB).
+
+  - [[_document_ - sirtuins (overview, CD38 KO risks, cancer therapies)|sirtuins (overview, CD38 KO risks, cancer therapies)]]
+    - Deacetylates histones (e.g., H3K9, H3K26) and many non-histone proteins (p53, FOXO, NFKB, PGC1-α, etc.).
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - Whether or not this interaction occurs in mammals is unknown, but, given the conservation of the sirtuin, 14-3-3 and Daf16 (abnormal dauer formation 16)/ FOXO gene families, it seems very likely.
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - The effect of SIRT1 and SIRT3 on FoxOs: A family of SIRT targets are class O mammalian forkhead transcription factors (FoxO1, FOXO3a, FOXO4 and FOXO) which participate in regulating oxidative stress.
+
+
 ## Connections
 - [[Apoptosis]] — programmed cell death; eliminates damaged or excess cells
 - [[Autophagy]] — cellular self-degradation pathway; clears damaged proteins and organelles

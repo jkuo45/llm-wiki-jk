@@ -29,6 +29,14 @@ The ECM maintains tissue architecture, distributes mechanical load, and forms se
 
 Excessive deposition of ECM underlies [[Fibrosis]] in liver, lung, kidney, and heart, where stiff scar tissue replaces functional parenchyma and perpetuates a pro-fibrotic signaling loop. ECM degradation by matrix metalloproteinases facilitates tumor invasion and metastasis, while altered matrix composition influences immune infiltration. Therapeutics targeting ECM crosslinking (e.g., lysine oxidase inhibitors) or integrin signaling are under investigation.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - The niche is comprised of surrounding cells, Extracellular Matrix (ECM), and blood vessels, which interact with quiescent cells using soluble factors or through direct contact (Fiore et al., 2018) (Figure 3).
+
+
 ## Connections
 
 - [[Fibroblast]] - principal ECM-producing mesenchymal cell.

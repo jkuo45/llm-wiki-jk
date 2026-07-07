@@ -30,6 +30,14 @@ The formation of aminochromes is often a sign of excessive catecholamine oxidati
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - neutrophil and erthrocyte|neutrophil and erthrocyte]]
+    - pubs.acs.org - Brain (Neuromelanin pathway): Adrenochrome (or related Aminochromes) can form as an intermediate in Neuromelanin synthesis, particularly in Dopaminergic Neurons (e.g., in the Substantia Nigra).
+
+
 ## Connections
 - [[Catecholamines]] ↔ The parent molecules from which aminochromes are derived.
 - [[Adrenochrome]] ↔ A prominent member of the aminochrome family.

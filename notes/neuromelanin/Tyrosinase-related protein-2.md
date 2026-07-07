@@ -29,6 +29,14 @@ Upregulated TRP-2 in PD patient dopaminergic neurons implies a reprogramming of 
 
 Clarifying TRP-2's CNS role may explain inter-individual differences in neuromelanin content, refine PD biomarkers (e.g., [[Positron Emission Tomography]] and neuromelanin MRI), and suggest targets for modulating pigment biosynthesis to reduce neurotoxicity.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease|Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease]]
+    - k&)\] Linking Summary: - New links added: Konstantin Nikolaevich Tretiakoff, Pale Bodies, Immunoglobulin G, Major histocompatibility complex class I, Lipofuscin, Eumelanin, Pheomelanin, L-Tyrosine, TFEB, Ambroxol, p62, Ubiquitin, Bradykinesia, Iron, Tyrosin...
+
+
 ## Connections
 
 - [[Dopachrome tautomerase]]: Enzymatic alias of TRP-2.

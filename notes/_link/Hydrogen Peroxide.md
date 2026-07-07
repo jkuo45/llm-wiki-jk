@@ -31,6 +31,23 @@ Hydrogen peroxide, along with [[Superoxide anion]], serves as an oxidant that ca
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - intermediates, precursor, hemoglobin|intermediates, precursor, hemoglobin]]
+    - These radicals (and Hydrogen Peroxide) can co-oxidize Epinephrine to Adrenochrome. This process is well-documented and used as an Assay for Superoxide anion production.
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - Many proliferative cell types can undergo so‐called Stress-Induced Premature Senescence (Stress-Induced Premature Senescence) upon exposure to subcytotoxic stresses (UV, γ‐irradiation, Hydrogen Peroxide, hyperoxia, etc.) (Toussaint et al., , ).
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - Superoxide Radicals (O 2 •−), Hydrogen Peroxide (H 2 O 2), Hydroxyl Radicals (•OH), and Singlet Oxygen (1 O 2) are commonly defined reactive oxygen species (ROS); they are generated as metabolic by-products by biological systems \[, \].
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Furthermore, SIRT6 protects cells against Hydrogen Peroxide-induced oxidative stress by promoting NRF2/ARE signaling. Therefore, SIRTs can activate NRF2, regulate antioxidant gene expression, and thus fight oxidative stress damage.
+
+
 ## Connections
 - [[Reactive Oxygen Species]] ↔ Hydrogen peroxide is a major member of the ROS family.
 - [[Superoxide anion]] ↔ Precursor to hydrogen peroxide via dismutation.

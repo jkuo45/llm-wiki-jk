@@ -38,6 +38,17 @@ Restoring endothelial function requires simultaneously enhancing NO bioavailabil
 - Strong connections to strengthen: [[Endothelial Dysfunction]] ↔ [[Atherosclerosis]], [[Endothelial Dysfunction]] ↔ [[Nitric Oxide]]
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The autophagy enhancer spermidine reverses arterial aging|The autophagy enhancer spermidine reverses arterial aging]]
+    - rticle in this issue]( Introduction Aging causes two key changes in arteries that significantly increase the risk of Cardiovascular Disease: stiffening of the large elastic arteries (aorta and carotid arteries) and the development of vascular Endothelial Dy...
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - oenzyme Q10]], Genistein - Suggested new entity notes to create: 8-oxo-2'-deoxyguanosine, Base Excision Repair, PPARγ, LXRα, ABCA1, VCAM-1, TNF-alpha, IL-1b, TGF-beta, Uremia, Proteinuria, Renal Failure, Malondialdehyde, L-arginine, Coenzyme Q10, Genistein,...
+
+
 ## Connections
 - [[Atherosclerosis]] — Endothelial dysfunction initiates plaque formation
 - [[Cardiovascular Disease]] — Central pathophysiological role

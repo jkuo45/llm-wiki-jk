@@ -58,6 +58,23 @@ Once activated, ULK1 phosphorylates numerous substrates that coordinate early au
 - **Neurodegeneration**: Impaired ULK1 activity contributes to defective autophagy in Alzheimer's and Parkinson's diseases. ULK1 activation promotes clearance of protein aggregates ([[Tau]], [[α-synuclein]]).
 - **Metabolic Disease**: ULK1 regulates hepatic lipid metabolism and insulin sensitivity. ULK1 deficiency exacerbates steatosis and insulin resistance.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Autophagy and intermittent fasting the connection for cancer therapy?|Autophagy and intermittent fasting the connection for cancer therapy?]]
+    - Regarding initialization, the activation of the ULK1 complex (ULK1/2, Atg13, FIP200 and Atg101) signals for autophagosome nuclea
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - Direct phosphorylation of ULK1 (the ortholog of yeast Atg1) and subsequent activation leads to autophagy induction following metabolic stress \[\].
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - It was recently shown by three independent groups that mTORC1 controls Autophagy through the regulation of a protein complex composed of ULK1, Atg13 (Atg13) and FIP200 (FIP200) (Ganley et al., 2009; Hosokawa et al., 2009; Jung et al., 2009).
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Suppression of SIRT1 enhances acetylation level of ULK1 and induces ROS-dependent autophagy. Therefore, SIRT1 could directly regulate autophagy through deacetylation of autophagic proteins.
+
+
 ## Connections
 
 - [[Autophagy]]: ULK1 is the master initiator of autophagy.

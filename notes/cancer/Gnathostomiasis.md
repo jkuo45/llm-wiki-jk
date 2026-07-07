@@ -32,6 +32,14 @@ Diagnosis is based on clinical presentation of migratory subcutaneous swellings 
 
 The recommended pharmacotherapy is a combination of [[Ivermectin]] (200 μg/kg/day for 2 days) and [[Albendazole]] (400 mg twice daily for 21 days), which has demonstrated synergistic efficacy against migrating larvae. Surgical excision is curative for accessible subcutaneous or ocular lesions and provides diagnostic confirmation. Corticosteroids may be used adjunctively in eosinophilic meningitis to mitigate inflammatory damage. Prevention centers on thorough cooking of freshwater fish and other potential intermediate hosts; freezing at −20 °C for 7 days also inactivates larvae. Health education to avoid raw freshwater preparations, particularly in endemic regions, remains the primary public health strategy.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, ‘Wonder drug’ from Japan the human use perspective|Ivermectin, ‘Wonder drug’ from Japan the human use perspective]]
+    - It is used to treat a variety of internal Onchocerca volvulus infections, including Onchocerciasis, Strongyloidiasis, Ascariasis, cutaneous larva migrans, Lymphatic Filariasis, Gnathostomiasis and Trichuriasis, as well as for oral treatment of ectoparasitic...
+
+
 ## Connections
 
 - [[Gnathostoma]]: Gnathostomiasis is the clinical infection caused by nematodes of the genus Gnathostoma.

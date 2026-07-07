@@ -19,6 +19,23 @@ Protein phosphatase 2 (PP2), also known as PP2A, is an enzyme that in humans is 
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - in HEK293T cells and mouse primary hepatocytes confirmed that protein phosphatase 2 (PP2A), a serine/threonine phosphatase, interacts with TFEB and dephosphorylate it \[\].
+
+  - [[_document_ - Kinase|Kinase]]
+    - ear export | 32622269 | | S122 | Phosphorylation | mTORC1 | Cytoplasmic retention | 21617040 | | S122 | Dephosphorylation | PP2A | Nucleus translocation | 29945972 | | S467 | Phosphorylation | Akt | Cytop
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - The activation of mTORC1 has also been shown to promote Ribosome Biogenesis by stimulating the transcription of ribosomal RNA through a process involving the PP2A and the TIF-IA (TIF-IA) (Mayer et al., 2004).
+
+  - [[_document_ - Caspase|Caspase]]
+    - Caspase-3 | | p38 MAPK (PP2A) | Ser150 | Suppression of activity | | | Caspase-7 |
+
+
 ## Connections
 - [[Phosphorylation]] — interacts with PP2A
 - [[Caspase-3]] — catalyzes reaction involving PP2A

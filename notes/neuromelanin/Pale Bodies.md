@@ -29,6 +29,14 @@ Pale bodies and Lewy bodies are immunoreactive for α-synuclein, ubiquitin, and 
 
 Because pale bodies represent the earliest detectable synuclein aggregate, they are a focus for studies of prodromal PD and for therapies aimed at blocking α-synuclein nucleation before widespread [[Neuroinflammation]] and neuronal death ensue. Their linkage to neuromelanin makes pigment modulation a candidate disease-modifying strategy.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease|Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease]]
+    - neurons in the Ventral Tegmental Area, which are largely spared in PD, produce minimal neuromelanin over a lifetime., Classical Lewy Bodies (LB), that is, Alpha-synuclein‐containing intracytoplasmic inclusions that constitute the pathological hallmark of PD...
+
+
 ## Connections
 
 - [[Lewy Bodies]]: Mature α-synuclein aggregates into which pale bodies mature.

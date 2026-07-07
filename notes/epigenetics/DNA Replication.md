@@ -39,6 +39,14 @@ Errors in DNA replication can lead to mutations, which are a major source of gen
 
 Many anticancer drugs target the replication machinery or exploit the vulnerabilities caused by replication stress. For example, some drugs inhibit topoisomerases or deplete nucleotide pools, effectively stalling DNA replication in rapidly dividing cancer cells and inducing cell death.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - This spontaneous arrest can be attributed to unresolved endogenous DNA Replication Stress inherited from the S Phase of the previous cell cycle (Arora et al., 2017; Barr et al., 2017).
+
+
 ## Connections
 
 - [[S Phase]] - The stage of the cell cycle when replication occurs.

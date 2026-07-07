@@ -49,6 +49,14 @@ Salermide blocks the NAD⁺-dependent deacetylation of sirtuin targets. A key me
 
 ---
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - naphthol-containing inhibitors: β-naphthol acts as a key group for several Sirtinol, including Splitomicin, Sirtinol, Salermide, HR-73, and Cambinol. Both Sirtinol and Splitomicin were identified through cell-based screens of more than 1000 compounds in yeast.
+
+
 ## Connections & Related Entities
 
 - **[[SIRT1]]** & **[[SIRT2]]** — direct molecular targets.
@@ -56,6 +64,8 @@ Salermide blocks the NAD⁺-dependent deacetylation of sirtuin targets. A key me
 - **[[Cancer]]** — primary therapeutic target disease state.
 
 ---
+
+
 
 ## Connections
 

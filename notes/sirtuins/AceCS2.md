@@ -39,6 +39,14 @@ The reversible acetylation of acetyl-CoA synthetases is a highly conserved regul
 
 By reclaiming acetate, AceCS2 supports energy production during fasting, exercise, and caloric restriction, and buffers acetyl-CoA supply when pyruvate-derived acetyl-CoA is limiting. Dysregulation of SIRT3 or AceCS2 impairs mitochondrial substrate flexibility and contributes to metabolic disease and age-related decline in mitochondrial function.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - In mammals, acetate from the diet or from endogenous reactions is converted into acetyl-CoA in the cytoplasm by AceCS1 (acetyl-CoA synthetase 1) or in the mitochondria by AceCS2 .
+
+
 ## Connections
 
 - [[SIRT3]] — mitochondrial sirtuin that deacetylates and activates AceCS2

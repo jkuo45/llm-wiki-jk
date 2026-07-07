@@ -29,6 +29,17 @@ CK2 is essential for viability and participates in transcription, translation, a
 
 CK2 is an attractive oncology target. Small-molecule ATP-competitive inhibitors (silmitasertib/ CX-4945, CX-5011) and substrate-competitive peptides are in preclinical and early clinical development, often combined with [[Chemotherapy]] or death-receptor agonists to overcome resistance. Silmitasertib has shown activity in selected solid tumors and in cholangiocarcinoma. Because CK2 inhibition reactivates the caspase-2 and Bid apoptotic nodes, it is being paired with TRAIL/[[BH3 mimetics]] to selectively kill tumor cells while sparing normal tissue.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - In vitro analysis indicated that the culture of Breast Cancer and HCT116 cells under calorie restriction conditions led to the upregulation and activation of protein kinase CK2 (isoforms CK2α and CK2β), SIRT1, and phosphorylated AMPK \[\].
+
+  - [[_document_ - Caspase|Caspase]]
+    - Metabolically regulated | | Caspase-2 | | CK2 | Ser157 | Suppression of activity | TRAIL resistance; Esophageal Cancer, Co
+
+
 ## Connections
 
 - [[Caspase-2]]: Phosphorylated at Ser157 by CK2 to block activation.

@@ -27,6 +27,14 @@ MYC controls [[Cell Cycle]] progression (via [[Cyclin D]]-[[CDK4]]/[[CDK6]], [[E
 ## Pathology
 MYC is amplified or overexpressed in >50% of human cancers including [[Burkitt's Lymphoma]], [[Breast Cancer]], [[Colorectal Cancer]], and [[Pancreatic Cancer]]. MYC-driven tumors are often addicted to [[Glutamine Metabolism]] and show altered autophagy.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - MYC has been reported to act as a transcriptional repressor to inhibit the expression of TFEB. Suzuki et al.
+
+
 ## Connections
 
 - [[MAX]]: **MYC** (c-Myc) is a bHLH-LZ transcription factor that heterodimerizes with MAX to regulate cell proliferation, growt...

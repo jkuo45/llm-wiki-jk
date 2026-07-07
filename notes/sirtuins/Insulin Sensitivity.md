@@ -41,6 +41,14 @@ Insulin binding to its receptor triggers tyrosine phosphorylation of IRS protein
 
 Improving insulin sensitivity is the central goal of T2DM therapy (metformin, GLP-1 agonists, thiazolidinediones). Boosting the endogenous sirtuin–NAD+ axis offers a complementary, durability-focused strategy to preserve β-cell function and combat [[Aging]]-associated metabolic decline.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins (resveratrol), gemini|sirtuins (resveratrol), gemini]]
+    - In animal models of diet-induced obesity, it has been shown to improve Insulin Sensitivity, reduce hepatic steatosis (fatty liver), and lower blood glucose levels.
+
+
 ## Connections
 
 - [[AMPK]]: Cooperates with SIRT1 to promote [[Insulin Sensitivity]] through [[Mitochondrial Biogenesis]] and [[GLUT4]] translocation.

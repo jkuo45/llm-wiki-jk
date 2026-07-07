@@ -37,6 +37,14 @@ Cell-cycle CDKs phosphorylate numerous epigenetic regulators — including compo
 
 Because uncontrolled CDK activity drives oncogenesis, CDKs are major cancer targets. CDK4/6 inhibitors (palbociclib, ribociclib, abemaciclib) are approved for hormone-receptor-positive breast cancer; CDK1/2 and CDK9 inhibitors are in development. CDK inhibition also induces [[Senescence]] and can synergize with epigenetic drugs.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - Whether a cell enters G0 Phase or proceeds through G1 Phase to continue cycling is dictated by the regulation of several key factors, including Cyclin and Cyclin-Dependent Kinase (CDK), CDK Inhibitor, and the Retinoblastoma Protein (Rb) (Figure 2).
+
+
 ## Connections
 
 - [[Cyclin]] — Required regulatory subunits for CDK activation.

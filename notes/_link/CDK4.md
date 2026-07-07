@@ -24,6 +24,20 @@ aliases: [Cyclin-Dependent Kinase 4]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - Moreover, the Phosphorylation of TFEB at S142 by cyclin-dependent kinase 4/6 (CDK4/CDK6) in the nucleus is CRM1-dependent and promotes nuclear export \[\].
+
+  - [[_document_ - Kinase|Kinase]]
+    - ion | 21617040 | | S142 | Phosphorylation | ERK2 | Nuclear export | 29992949 | | S142 | Phosphorylation | CDK4/CDK6 | Nuclear export | 32662822 | | S142 | Dephosphorylation | calcineurin
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - Cyclin D-CDK4/CDK6 and Cyclin E-CDK2 complexes promote G1 Phase progression (Aktas et al., 1997). Thus, high levels of Cyclin D/E and CDK4/CDK6 increase proliferation by driving passage through G1 Phase.
+
+
 ## Connections
 - [[CDK4]] — related entity
 

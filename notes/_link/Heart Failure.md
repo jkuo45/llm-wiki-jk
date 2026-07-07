@@ -17,6 +17,14 @@ aliases: [HF, Congestive heart failure, CHF]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Over the past decades, the incidence of CVDs, such as Heart Failure, Atherosclerosis, and Hypertension, has been increasing. CVDs are the major cause of mortality worldwide.
+
+
 ## Connections
 - [[Cardiovascular Disease]] — Major cause of heart failure
 - [[Hypertension]] — Chronic pressure overload leads to HF

@@ -20,6 +20,17 @@ Catecholamines like [[Epinephrine]] are prone to autoxidation, especially at phy
 ## Significance in Formulations
 Autoxidation is the primary degradation pathway for pharmaceutical [[Epinephrine]], leading to loss of potency and the formation of colored byproducts. This is mitigated by using [[Antioxidants]] and [[Chelating agents]].
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Dietary Advanced Glycation End Products and Aging|Dietary Advanced Glycation End Products and Aging]]
+    - For instance, the Autoxidation of glucose and the Peroxidation of lipids into Dicarbonyls derivatives by an increase in oxidative stress is another pathway described for the formation of AGEs \[\].
+
+  - [[_document_ - intermediates, precursor, hemoglobin|intermediates, precursor, hemoglobin]]
+    - Chemically identified as (S)-1-Methylindoline-3,5,6-triol, it often acts as an unstable, highly reactive Redox intermediate within the body's Catecholamine pathways.Key CharacteristicsMechanism: It is formed from adrenaline-quinone and is subsequently oxidi...
+
+
 ## Connections
 - [[Epinephrine]]
 - [[Adrenochrome]]

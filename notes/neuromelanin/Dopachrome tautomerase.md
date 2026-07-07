@@ -29,6 +29,14 @@ Genetic variation and expression of tyrosinase-family enzymes influence pigmenta
 
 DCT/TRP-2 illustrates how the melanogenic toolkit is repurposed in the brain and how pigment biochemistry intersects with neurodegeneration and immunity. It is a useful reference point for comparing cutaneous and neural melanin and for understanding why pigment-cell biology is shared across skin and [[Substantia Nigra Pars Compacta]].
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease|Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease]]
+    - New links added: Konstantin Nikolaevich Tretiakoff, Pale Bodies, Immunoglobulin G, Major histocompatibility complex class I, Lipofuscin, Eumelanin, Pheomelanin, L-Tyrosine, TFEB, Ambroxol, p62, Ubiquitin, Bradykinesia, Iron, Tyrosinase-related protein-1, Ty...
+
+
 ## Connections
 
 - [[Tyrosinase-related protein-2]]: Same enzyme as dopachrome tautomerase.

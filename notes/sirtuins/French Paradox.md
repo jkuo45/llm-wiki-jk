@@ -35,6 +35,14 @@ The French Paradox spurred extensive investigation into:
 - The [[Mediterranean Diet]] as a whole — not just red wine — likely drives the cardiovascular benefit
 - Later large-scale studies have questioned whether moderate alcohol confers net cardiovascular benefit, though polyphenol-specific effects remain of interest
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Sirtuin System The Holy Grail of Resveratrol?|The Sirtuin System The Holy Grail of Resveratrol?]]
+    - The French Paradox reflects the reduced incidence of Cardiovascular Disease (CVD) found in some French populations with moderate wine consumption despite a high-fat intake, low exercise, and increased tobacco use \[\].
+
+
 ## Connections
 
 - [[Cardiovascular Disease]]: The **French Paradox** is the epidemiological observation that French populations exhibit a relatively low incidence ...

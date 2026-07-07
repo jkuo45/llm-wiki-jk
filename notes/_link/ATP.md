@@ -61,6 +61,26 @@ Cellular ATP concentration is typically maintained at 2–10 mM. The [[ATP]]/[[A
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Lysosome biogenesis Regulation and functions|Lysosome biogenesis Regulation and functions]]
+    - Endocytic lysosome reformation (ELR) Earlier work indicated that Endocytic Lysosome Reformation (ELR) is an ATP-dependent process (Bright et al., 2005; Pryor et al., 2000).
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - Autophagy ensures delivery and degradation of cytosolic components within Lysosome, thus preventing accumulation of damaged proteins and organelles and promoting recycling of building blocks, such as fatty acids and amino acids, which are critical for maint...
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - Inhibition of mTORC1 by Rapamycin lowers mitochondrial membrane potential, oxygen consumption and cellular ATP levels, and profoundly alters the mitochondrial phosphoproteome (Schieke et al., 2006).
+
+  - [[_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug|Ivermectin, a potential anticancer drug derived from an antiparasitic drug]]
+    - Under the stimulation of a tumor microenvironment with a high level of adenosine triphosphate (ATP) outside tumor cells, IVM could enhance the P2 × 4/ P2 × 7/Pannexin-1 mediated release of high mobility group box-1 protein (HMGB1) \[\].
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - Cellular ATP concentrations are significantly reduced during quiescence (Ho et al., 2017; Rodgers et al.
+
+
 ## Connections
 - [[Mitochondria]] — primary site of ATP production via oxidative phosphorylation
 - [[Glycolysis]] — anaerobic ATP production in the cytosol

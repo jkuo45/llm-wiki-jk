@@ -20,6 +20,14 @@ Torin1 is a potent, selective [[mTORC1]] and [[mTORC2]] inhibitor (ATP-competiti
 
 Torin1 robustly induces [[Autophagy]] by inhibiting mTORC1, leading to [[ULK1]] activation and [[TFEB]] nuclear translocation. It is widely used to study the CLEAR network and mTOR-dependent autophagy.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - However, despite the dephosphorylation of S211, the S122D phosphomimetic mutation of TFEB largely blocked the effect of Torin1 (an mTORC1 inhibitor) on nuclear localization of TFEB \[\], indicating that dephosphorylation of S122 is necessary for TFEB nuclea...
+
+
 ## Connections
 
 - [[mTORC1]]: Torin1 is a potent inhibitor of mTORC1 and mTORC2 that induces the nuclear translocation of [[TFEB]] by blocking its ...

@@ -26,6 +26,14 @@ Nuclear factor-kappa B (NF-κB) is a protein complex that functions as a central
 - **Feed-Forward Loop:** ROS activate NF-κB, which in turn induces genes that produce more ROS and inflammation, potentially leading to chronic disease states.
 - **Cytoprotection:** Can sometimes induce antioxidant genes (e.g., MnSOD) to protect cells from oxidative stress.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - Oxidants are known to enhance inflammation via the activation of different kinases involving pathways and transcription factors like NF-kappa B and AP-1 \[, \]. 4.5.
+
+
 ## Connections
 - [[Oxidative Stress]]: Acts as a key downstream mediator and amplifier.
 - [[TNF-alpha]]: A primary cytokine regulated by and capable of activating NF-κB.

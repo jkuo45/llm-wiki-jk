@@ -33,6 +33,17 @@ Stilbenes have garnered significant interest for their potential in:
 - [[Aging|Anti-aging]] and [[Longevity]] through [[SIRT1]] activation
 - Anti-[[Cancer|neoplastic]] and [[Apoptosis|pro-apoptotic]] activity
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Sirtuin System The Holy Grail of Resveratrol?|The Sirtuin System The Holy Grail of Resveratrol?]]
+    - This polyphenol Stilbene identified in grape skin, is believed to be the main component contributing to the anti-atherosclerotic benefits linked to red wine consumption.
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Several other polyphenols, structurally related to Resveratrol, were also found to activate SIRTs, including the chalcones butein and isoliquiritigenin, the flavones Fisetin and Quercetin, and the stilbene Stilbene.
+
+
 ## Connections
 
 - [[Polyphenols]]: **Stilbenes** are a class of polyphenolic organic compounds characterized by a 1,2-diphenylethylene [[Stilbene|core s...

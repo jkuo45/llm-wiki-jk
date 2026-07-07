@@ -21,6 +21,14 @@ Lipids are a diverse group of organic compounds that are insoluble in water but 
 ## Role in Oxidative Stress
 Lipids are highly susceptible to [[Oxidative Stress]], particularly those containing polyunsaturated fatty acids. This process, known as [[Lipid Peroxidation]], involves a free radical chain reaction that leads to the degradation of [[Cell Membranes]] and the formation of toxic by-products like [[Malondialdehyde]] (MDA).
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - When ROS production increases, they start showing harmful effects on important cellular structures like Proteins, Lipids, and Nucleic Acids \[\].
+
+
 ## Connections
 - [[Oxidative Stress]]: Lipids are one of the primary targets of ROS-induced damage.
 - [[Lipid Peroxidation]]: The specific chemical process of lipid degradation by free radicals.

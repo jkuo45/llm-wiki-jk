@@ -25,6 +25,14 @@ The OCRC generates deep expertise in anthelmintic pharmacology, dose-finding, an
 
 Through partnerships with TDR, Merck ([[Mectizan]] donation program), and academic networks, the OCRC has advanced community-based trial methodologies and trained researchers, contributing to the global shift from control toward elimination of onchocerciasis.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, ‘Wonder drug’ from Japan the human use perspective|Ivermectin, ‘Wonder drug’ from Japan the human use perspective]]
+    - TDR was also able to influence the design of study protocols, and support applied research on Onchocerciasis treatment at one of its specialized centres, the Onchocerciasis Chemotherapy Research Centre (Onchocerciasis Chemotherapy Researc
+
+
 ## Connections
 
 - [[Onchocerciasis]]: Core disease studied at the centre.

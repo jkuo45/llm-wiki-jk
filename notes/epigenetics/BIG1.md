@@ -37,6 +37,14 @@ The potential involvement of BIG1 in human disease is a growing area of scientif
 - **Neurodegenerative Diseases**: Emerging evidence has suggested a link between BIG1 dysregulation and the pathogenesis of neurodegenerative conditions. It is hypothesized that defects in BIG1-mediated membrane trafficking or signaling could contribute to the accumulation of misfolded protein aggregates or the disruption of neuronal connectivity, both of which are hallmark features of diseases such as **[[Alzheimer's Disease]]**.
 - **Oncology**: Due to its role in regulating growth-related signaling and membrane protein trafficking, abnormal expression levels of BIG1 have been investigated for their potential role in cancer progression. It may influence the signaling of oncogenic receptors, thereby contributing to uncontrolled cell proliferation and metastasis.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic|Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic]]
+    - Yamanaka Factors, Embryonic Stem Cells, Fibroblasts, Shinya Yamanaka, Kazutoshi Takahashi, OSKM, Regenerative Medicine, Olivopontocerebellar Atrophy, NuRD complex, CHD4, Schizophrenia, Induced Neural Stem Cells, Amyotrophic Lateral Sclerosis, Frontotemporal...
+
+
 ## Connections
 
 - [[B-cell Immunoglobulin-derived Gene 1]] - The full name and biological origin of the BIG1 protein.

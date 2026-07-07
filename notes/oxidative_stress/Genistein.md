@@ -74,6 +74,14 @@ In models of [[Parkinson's Disease]] and [[Alzheimer's Disease]], genistein prot
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - Genistein is a soy isoflavone that is probably the most interesting and well-studied flavonoid compound, due to its broad pharmacological activities.
+
+
 ## Connections
 - [[Flavonoids]]: Genistein as a prototypical isoflavone antioxidant
 - [[Estrogen]]: Mediating ER-dependent antioxidant gene expression

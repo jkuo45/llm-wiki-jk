@@ -26,6 +26,14 @@ Due to its essential role in mitochondrial function and antioxidant defense, CoQ
 - **[[Neurodegenerative Disease]]**: Studies have explored its neuroprotective effects in [[Parkinson's Disease]] and [[Huntington's Disease]].
 - **Statin-Induced Myopathy**: Some evidence suggests CoQ10 supplementation may alleviate muscle pain associated with statin use, as statins inhibit the synthesis of both cholesterol and CoQ10.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - Exogenous Antioxidants and Human Health Human body put in place several strategies to counteract the effects of free radicals and oxidative stress, based on enzymatic (e.g., SOD, CAT, and GPx) and nonenzymatic (e.g., Lipoic Acid, Glutathione, L-arginine, an...
+
+
 ## Connections
 - **[[Mitochondria]]**: Essential site of CoQ10 action for [[ATP]] production.
 - **[[Oxidative Stress]]**: CoQ10 helps mitigate damage caused by excessive [[Reactive Oxygen Species]].

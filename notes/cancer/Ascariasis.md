@@ -29,6 +29,14 @@ The World Health Organization recommends single-dose [[Albendazole]] (400 mg) or
 
 Control relies on improved sanitation, hand washing with soap, and thorough washing and cooking of food. Mass drug administration (MDA) programs — annual or biannual single-dose [[Albendazole]] or [[Mebendazole]] — are widely implemented in endemic regions, often integrated with lymphatic filariasis or soil-transmitted helminth (STH) control campaigns. Health education targeting defecation practices and food hygiene reduces environmental contamination.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, ‘Wonder drug’ from Japan the human use perspective|Ivermectin, ‘Wonder drug’ from Japan the human use perspective]]
+    - It is used to treat a variety of internal Onchocerca volvulus infections, including Onchocerciasis, Strongyloidiasis, Ascariasis, cutaneous larva migrans, Lymphatic Filariasis, Gnathostomiasis and Trichuriasis, as well as for oral treatment of ectoparasitic...
+
+
 ## Connections
 
 - [[Ascaris]]: Ascariasis is the clinical manifestation of infection with Ascaris lumbricoides.

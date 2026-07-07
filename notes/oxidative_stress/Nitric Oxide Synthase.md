@@ -122,6 +122,14 @@ iNOS-derived NO also exerts immunosuppressive effects by inhibiting [[NFRB|NF-κ
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - Nitric Oxide Radical (NO•), which plays some important physiological roles, is synthesized from Arginine-to-Citrulline oxidation by Nitric Oxide Synthase (NOS) \[ – \].
+
+
 ## Connections
 - [[NADPH Oxidase]]: Cooperative partner in ROS-RNS crosstalk
 - [[Peroxynitrite]]: Principal cytotoxic product of NO-superoxide interaction

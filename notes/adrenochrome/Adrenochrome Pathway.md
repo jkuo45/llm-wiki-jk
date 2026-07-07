@@ -40,6 +40,14 @@ Direct detection of [[Adrenochrome]] in biological fluids has been challenging d
 
 Evidence for in vivo adrenochrome formation comes from detection of the compound in [[Rheumatoid synovial fluid]], post-ischemic myocardial tissue, and plasma following catecholamine infusion. Adrenochrome conjugates — particularly [[Adrenochrome sulfonate]] and [[Carbazochrome]] derivatives — have been identified as urinary metabolites, supporting the physiological relevance of this pathway.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Adrenochrome Pathway|The Adrenochrome Pathway]]
+    - The Adrenochrome Pathway: ITS POTENTIAL SIGNIFICANCE IN STRESS INDUCED Heart disease Stephanie B. Matthews, Royal Gwent Hospital and Anthony K.
+
+
 ## Connections
 
 - [[Epinephrine]]: The Adrenochrome Pathway is a metabolic route involving the oxidation of Epinephrine (adrenaline) into [[Adrenochrome...

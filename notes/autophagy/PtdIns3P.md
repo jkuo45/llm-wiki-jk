@@ -27,6 +27,14 @@ On the phagophore, PtdIns3P recruits WIPI2, which binds and localizes [[Atg16L1]
 
 PtdIns3P signaling is central to [[Selective Autophagy]], including [[Mitophagy]] and xenophagy, where it helps enclose targeted cargo. Pathogens such as [[Legionella]] and other vacuolar bacteria manipulate host phosphoinositide metabolism to evade degradation. Reduced PtdIns3P generation and impaired autophagosome maturation are linked to [[Neurodegeneration]] and [[Aging]], making Vps34 and WIPI effectors therapeutic interest for restoring autophagic clearance.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Lysosome biogenesis Regulation and functions|Lysosome biogenesis Regulation and functions]]
+    - To deliver endosomal proteins to lysosomes, early endosomes undergo conversion to late endosomes, which is marked by switching of the early endosome–specific Rab5 and PtdIns3P to late endosome-specific Rab7 and PtdIns(3,5)P2; Gillooly et al., 2000; Huotari ...
+
+
 ## Connections
 
 - [[Autophagosome]]: PtdIns3P marks the phagophore and recruits WIPI/Atg18.

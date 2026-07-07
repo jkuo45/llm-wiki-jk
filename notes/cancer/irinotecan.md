@@ -29,6 +29,14 @@ Irinotecan is a cornerstone of metastatic colorectal cancer, used alone or in co
 
 Beyond conventional use, irinotecan is being explored in rational combinations, including with BH3 mimetics such as [[ABT-263]] (navitoclax) in early-phase trials for solid tumors, where topoisomerase poisoning and Bcl-2 family inhibition are intended to synergize in apoptosis induction. Liposomal and antibody-conjugated formulations aim to improve the therapeutic index.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - le nameSponsorTargetConditionClinical stageABT-263(in combination with erlotinib or irinotecan)AbbottBcl-2 family of proteinsSolid tumoursPhase IABT-263(in combinat
+
+
 ## Connections
 
 - [[Colorectal Cancer]] - Primary clinical indication for irinotecan.

@@ -27,6 +27,17 @@ Heterochromatin is typically marked by specific [[Histone Modification|histone m
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Epigenetic changes during aging and their reprogramming potential|Epigenetic changes during aging and their reprogramming potential]]
+    - Linking Summary: - New links added: Heterochromatin, Nucleosome, CpG Island, SIRT1, H3K9me3, H3K27me3, H3K4me3, HP1,
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - In the nucleus a large fraction of SIRT1 is associated with Euchromatin, whereas SIRT6 associates with Heterochromatin and SIRT7 is found in the nucleolus . The sirtuin that resides most prominently in the cytoplasm is SIRT2 .
+
+
 ## Connections
 - **[[Chromatin]]**: The general complex of DNA and protein.
 - **[[Euchromatin]]**: The open, active counterpart to heterochromatin.

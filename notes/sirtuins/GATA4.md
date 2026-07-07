@@ -36,6 +36,14 @@ During embryogenesis GATA4 is required for formation of the primitive heart tube
 
 Dysregulated GATA4 activity contributes to cardiomyopathy, congenital heart defects (loss-of-function variants), and heart failure. The SIRT7–GATA4 axis is a candidate therapeutic target: strategies that preserve or enhance SIRT7 deacetylase activity may limit maladaptive remodeling. [[Resveratrol]] and other sirtuin-modulating compounds may indirectly affect GATA4 acetylation through [[NAD+]]-dependent sirtuin activation, though SIRT7-specific pharmacology remains nascent.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - In addition, SIRT5 prevents age-related Cardiac Hypertrophy, while SIRT7 also ameliorates stressinduced Cardiac Hypertrophy by interacting with and deacetylating GATA4. Interestingly, SIRT4 seems to have an adverse effect on Cardiac Hypertrophy.
+
+
 ## Connections
 
 - [[SIRT7]] — Deacetylates GATA4, suppressing hypertrophic gene expression

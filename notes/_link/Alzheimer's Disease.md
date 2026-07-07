@@ -55,6 +55,32 @@ Alzheimer's disease is a neurodegenerative disorder where enhancing [[TFEB]]-med
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Dietary Advanced Glycation End Products and Aging|Dietary Advanced Glycation End Products and Aging]]
+    - In the last twenty years, there has been increased evidence that AGEs could be implicated in the development of chronic degenerative diseases of aging, such as Cardiovascular Disease, Alzheimer's Disease and with complications of Diabetes Mellitus.
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - Neurological Disorders Alzheimer's Disease (AD) is the most prevalent age-related neurodegenerative disorder.
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - In line with this claim, evidence for the participation of autophagy as an early-stage protective response has been obtained in different Neurodegenerative Diseases like Huntington's Disease, Alzheimer's Disease, Parkinson's Disease, etc. \[\].
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - prostatic atrophy after orchidectomyCell death due to injurious agents like radiation, Hypoxia and mild thermal injuryCell death in degenerative diseases such as Alzheimer's Disease and Parkinson's DiseaseCell death that occurs in heart diseases such as myo...
+
+  - [[_document_ - Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic|Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic]]
+    - Parkinson's Disease, Yamanaka Factors, Embryonic Stem Cells, Fibroblasts, Shinya Yamanaka, Kazutoshi Takahashi, OSKM, Regenerative Medicine, Olivopontocerebellar Atrophy, NuRD complex, CHD4, Schizophrenia, Induced Neural Stem Cells, Amyotrophic Lateral Scle...
+
+  - [[_document_ - Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks|Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks]]
+    - In 2018, in a systematic review, miR‐125b has been reported for regulating MAPK (Mitogen‐Activated Protein Kinase) in association with Alzheimer's Disease related to early‐life stress.
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - Neurological Disease and Oxidative Stress Oxidative stress has been linked to several neurological diseases (i.e., Parkinson's Disease, Alzheimer's Disease, Amyotrophic Lateral Sclerosis, Multiple Sclerosis, depression, and memory loss) \[ – \].
+
+
 ## Connections
 - **[[Aging]]**: The primary risk factor for AD, characterized by significant epigenetic changes.
 - **[[Neurodegenerative Diseases]]**: AD is the most common form of neurodegenerative disease.

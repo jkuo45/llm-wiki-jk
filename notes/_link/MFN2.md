@@ -24,6 +24,14 @@ aliases: [Mitofusin 2]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Mitofusins2 (MFN2) is a mitochondrial fusion factor and increasing evidence has shown that it is involved in the regulation of autophagy.
+
+
 ## Connections
 - [[MFN2]] — related entity
 

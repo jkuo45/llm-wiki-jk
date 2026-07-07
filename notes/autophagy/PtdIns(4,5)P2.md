@@ -27,6 +27,14 @@ During ALR, the terminal step of macroautophagy in which proto-lysosomal tubules
 
 Dysregulation of PtdIns(4,5)P2 metabolism perturbs membrane traffic and autophagic flux, contributing to neurodegenerative and proliferative disease. Its rapid PLC-mediated hydrolysis couples receptor signaling to calcium release, while sustained PtdIns(4,5)P2 availability is required to sustain lysosomal homeostasis under nutrient stress. Pharmacological modulation of PIP5KIs or PLC is being explored to restore autolysosomal function in contexts of [[Oxidative Stress]] and [[Aging]].
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Lysosome biogenesis Regulation and functions|Lysosome biogenesis Regulation and functions]]
+    - B) ALR is achieved by PtdIns(4,5)P2, clathrin-, and AP2-mediated membrane budding on autolysosomes; KIF5B-driven elongation of membrane tubules along microtubules; dynamin 2–dependent protolysosome scission; and finally protolysosome maturation.
+
+
 ## Connections
 
 - [[Autophagic Lysosome Reformation]]: PtdIns(4,5)P2 recruits AP2/clathrin to drive proto-lysosomal tubulation.

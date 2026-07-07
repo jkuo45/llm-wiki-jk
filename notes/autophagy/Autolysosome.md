@@ -25,6 +25,14 @@ Autolysosomes form when the outer membrane of an [[Autophagosome]] fuses with a 
 
 After degradation, autolysosomes undergo [[Autophagic Lysosome Reformation]] (ALR), a process that regenerates functional lysosomes from the hybrid organelle. ALR depends on AMPK, mTORC1 reactivation, and clathrin-mediated budding.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Lysosome biogenesis Regulation and functions|Lysosome biogenesis Regulation and functions]]
+    - This modification reduces the interaction of SNAP29 with Stx17 and VAMP8, thus inhibiting SNARE complex assembly and Autolysosome formation. Lysosome reformation Cargo degradation rapidly consumes the pool of lysosomes in the cell.
+
+
 ## Connections
 
 - [[Autophagosome]]: An **Autolysosome** is a hybrid organelle formed by the fusion of an Autophagosome with a [[Lysosome]], where the seq...

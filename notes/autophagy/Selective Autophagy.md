@@ -27,6 +27,14 @@ aliases: []
 
 Selective autophagy includes [[Mitophagy]], [[Lipophagy]], [[Pexophagy]], [[Reticulophagy]] (ER), [[Nucleophagy]], [[Xenophagy]] (pathogens), and [[Aggrephagy]]. Each uses specific cargo receptors.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
+    - Macroautophagy, generally referred to as autophagy, is mostly a highly selective, receptor-mediated pathway (Selective Autophagy) that targets, degrades and recycles specific cargo.
+
+
 ## Connections
 
 - [[Mitophagy]]: ## Types and Functions - **Mitophagy**: The selective degradation of damaged or excessive [[Mitochondria]].

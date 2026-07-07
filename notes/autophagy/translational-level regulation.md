@@ -18,6 +18,14 @@ Translational-level regulation refers to the control of protein synthesis from m
 
 Autophagy is translationally regulated through [[eIF2α]] phosphorylation, [[4E-BP1]]/[[eIF4E]] control, [[PDCD4]]/[[eIF4A]] inhibition, and [[m6A Modification]] of autophagy gene mRNAs.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - Suggested new entity notes to create: transcriptional regulation, translational-level regulation, ischemic injury, metabolic disorders, leucine zi
+
+
 ## Connections
 
 - [[TFEB]]: Translational-level regulation refers to the control of protein synthesis from mRNA, such as the regulation of TFEB p...

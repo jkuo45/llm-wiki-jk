@@ -29,6 +29,14 @@ Precise cyclin B1 oscillation is essential for genomic stability. In [[Cancer]],
 
 Cyclin B1/CDK1 is targeted by CDK inhibitors and by mitotic poisons such as [[docetaxel]] and [[paclitaxel]], which disrupt spindle function and trap cells in a lethal mitotic state once cyclin B1–CDK1 checkpoints fail. Combining CDK4/6 or CDK1 inhibition with agents that activate caspase-2 is aStrategy to convert arrest into death. CYCLIN B1 levels serve as a proliferation and prognostic biomarker, and APC/C activators that force cyclin B1 degradation are being investigated to induce mitotic catastrophe in resistant tumors.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - --------------------------------------------------------------------------------------------------------- | | Caspase-2 | | CDK1/CYCLIN B1 | Ser308 | Suppression of activity | Suppressing mitotic cell death |
+
+
 ## Connections
 
 - [[CDK1]]: Catalytic partner forming the MPF complex with cyclin B1.

@@ -29,6 +29,14 @@ The p53 pathway is inactivated in most cancers, frequently by MDM2 amplification
 
 Nutlins pioneered the MDM2-inhibitor class; derivatives such as idasanutlin and navtemadlin entered clinical trials in leukemia, lymphoma, and solid tumors, often combined with [[Chemotherapy]] or BH3 mimetics. They remain key chemical probes for dissecting p53 biology and for sensitizing tumors to apoptosis.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - Other drugs that have been used to target p53 include the Nutlins, MI-219 and the Tenovins. Nutlins are analogues of cis-imidazoline, which inhibit the MDM2-p53 interactio
+
+
 ## Connections
 
 - [[p53]]: Tumor suppressor stabilized and activated by nutlins.

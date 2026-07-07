@@ -25,6 +25,14 @@ PP1 integrates signals from cAMP, calcium, and stress pathways to maintain homeo
 
 PP1 regulatory subunits are biomarkers and therapeutic handles. Inhibitors such as calyculin A and okadaic acid are research tools; targeting specific PP1 holoenzyme complexes offers selectivity absent from catalytic inhibition. Modulating PP1 to control [[Caspase-2]]-dependent death is a conceptual strategy to sensitize tumors to [[Chemotherapy]] and genotoxic stress.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - Suppressing mitotic cell death | | Caspase-2 | | CaMKII (PP1) | Ser164 | Suppression of activity | Metabolically regulated | | Caspase-2
+
+
 ## Connections
 
 - [[Phosphorylation]] - Reversible modification reversed by PP1.

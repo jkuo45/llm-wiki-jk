@@ -25,6 +25,17 @@ As the surface layer of neuromelanin, eumelanin contributes to the granule's hyp
 ## Pathology and Clinical Relevance
 The duality of eumelanin is central to neurodegeneration debates. While its metal-binding and radical-scavenging actions are protective, the high surface area and catechol-quinone content of eumelanic neuromelanin can, when iron-loaded and aged, become a pro-oxidant source that amplifies neuronal injury in [[Parkinson's Disease]]. Differences in eumelanin versus pheomelanin content between individuals have also been explored as modifiers of PD risk. Understanding the eumelanin component of neuromelanin is therefore important for interpreting the pigment's roles in both protection and the selective vulnerability of pigmented neurons, and for designing melanin-targeted imaging probes such as [[Flortaucipir]].
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease|Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease]]
+    - Melanins (from the Greek word melanos \[“black”\]) are a group of complex, brown‐black pigmented biopolymers that include Eumelanin (the pigment associated with dark hair and skin), Pheomelanin (characteristic of red and blond hair), and Neuromelanin (ie, b...
+
+  - [[_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator|Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator]]
+    - Such antioxidants often take the form of thiols including Cysteine and Glutathione; as such, it is perhaps not surprising that natural NM has Cysteine in its Pheomelanin core, while being surrounded by a Eumelanin component lacking Cysteine.
+
+
 ## Connections
 - [[Neuromelanin]]: Eumelanin forms the granule surface, surrounding a pheomelanin-like core.
 - [[L-Tyrosine]]: Amino acid precursor to eumelanin monomers.

@@ -35,6 +35,14 @@ Unlike genetic mutations, epigenetic marks are reversible. This has led to inter
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks|Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks]]
+    - A longitudinal study in 2019 was done on 11,461 participants and this study concluded the association between blood‐derived DNA methylation with the risk of Coronary Heart Disease across a diverse population and hence methylation status as an informative to...
+
+
 ## Connections
 - **[[Cardiovascular Disease]]**: CHD is a major form of cardiovascular disease.
 - **[[Atherosclerosis]]**: The underlying pathological process of CHD, heavily driven by epigenetic dysregulation.

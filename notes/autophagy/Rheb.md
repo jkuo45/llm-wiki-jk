@@ -26,6 +26,20 @@ Rheb is held in the inactive GDP-bound state by the tuberous sclerosis complex, 
 
 Because Rheb is the gatekeeper of mTORC1, its inappropriate activation phenocopies mTORC1 overactivity: in tuberous sclerosis, loss of TSC1/2 relieves Rheb inhibition, driving hamartoma formation and [[Cancer]] proliferation while suppressing autophagic clearance. Pharmacologic inhibition of mTORC1 (rapamycin) or restoration of TSC function re-engages autophagy. Rheb levels also decline with [[Aging]] in some tissues, contributing to dysregulated mTORC1 signaling and impaired proteostasis.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Lysosome biogenesis Regulation and functions|Lysosome biogenesis Regulation and functions]]
+    - mTORC1 is recruited to lysosomes by a heterodimeric complex consisting of GTP-bound RagA/B and GDP-bound RagC/D, where it is activated by the Rheb GTPase (Angarola and Ferguson, 2019; Kim et al., 2008; Menon et al., 2014; Sancak et al., 2010; Sancak et al.,...
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - Once on the Lysosome, mTORC1 is activated by the small GTPase Rheb, which requires the presence of growth factors for its own activation (Saucedo et al 2003, Stocker et al 2003).
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - TSC1/TSC2 functions as a GTPase-activating protein (GAP) for the small RAS-related GTPase Rheb (Ras homolog enriched in brain).
+
+
 ## Connections
 
 - [[mTORC1]]: Direct target activated by GTP-bound Rheb.

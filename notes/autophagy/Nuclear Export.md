@@ -23,6 +23,14 @@ CRM1 binds cargo bearing a hydrophobic NES in a RanGTP-dependent manner and tran
 
 Because nuclear export gates the master autophagy regulator TFEB, its pharmacologic modulation is therapeutically attractive. CRM1 inhibitors (e.g., leptomycin B, selinexor/KPT-330, verdinexor) block TFEB export, forcing nuclear accumulation that boosts lysosomal biogenesis and autophagic clearance—beneficial in [[Lysosomal Storage Disorders]], [[Neurodegeneration]], and models of [[Aging]]. However, CRM1 is broadly expressed and exports many oncoproteins and tumor suppressors, so CRM1 inhibitors also affect [[Cancer]] cell survival with narrow therapeutic windows. The balance between nuclear import (via importins/KPNAs) and CRM1 export thus fine-tunes the autophagic transcriptional program in health and disease, and is a key control layer atop mTORC1/TFEB phosphorylation.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - Suggested new entity notes to create: transcriptional regulation, translational-level regulation, ischemic injury, metabolic disorders, leucine zipper transcription Factors, TGF-β Signaling, Hypusination, Tumor Suppressor, Translation Initiation, MAPK Signa...
+
+
 ## Connections
 
 - [[TFEB]]: CRM1-mediated nuclear export (phospho S142/S138) retains TFEB cytoplasmically to suppress autophagy.

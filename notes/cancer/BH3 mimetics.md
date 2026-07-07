@@ -35,6 +35,17 @@ By binding the groove, BH3 mimetics neutralize the "apoptosis brake." When the p
 
 Venetoclax is a landmark targeted therapy demonstrating that restoring apoptosis is therapeutically actionable. The class exemplifies the broader strategy of targeting the apoptotic apparatus in [[Cancer]].
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - Molecules reported to act on the proteins themselves include Gossypol, ABT-737, ABT-263, GX15-070 and HA14-1Kang and Reynold, 2009 BH3 mimeticsABT-737 reported to inhibit anti-apoptotic proteins such as Bcl-2, Bcl-xL, and Bcl-w and to exhibit...
+
+  - [[_document_ - Evading apoptosis in cancer|Evading apoptosis in cancer]]
+    - Bcl-xL, Mcl-1, Bax, Bak, Bim, Bad, Noxa, A1-Bfl-1, Puma, p53, GSK3, JNK, ERK, Akt, PI3K, mTORC1, E2F1, STAT3, FOXO Transcription Factors, RSK, SCF Complex, Beta-TrCP, FBW7, APC-C, CDC20, HUWE1, USP9X, PIDDosome, PIDD, RAIDD, BH3 mimetics, BH3 profiling, Tyr...
+
+
 ## Connections
 
 - [[ABT-737]], [[ABT-263]], [[ABT-199]]: Prototypic BH3 mimetics.

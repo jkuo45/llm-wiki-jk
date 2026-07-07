@@ -37,6 +37,14 @@ Irinotecan is a backbone agent in FOLFIRI and FOLFOXIRI regimens for [[Colorecta
 
 Camptothecin is widely used in cell biology to model [[DNA Damage]]-induced [[Senescence]]. Acute exposure of proliferating fibroblasts or epithelial cells to low nanomolar camptothecin produces a stable senescence phenotype within 3–7 days, marked by SA-β-gal activity, [[p21]]/[[p16]] upregulation, persistent γH2AX foci, and a robust SASP. Unlike cross-linking agents (e.g., [[Busulfan]]) or ionizing radiation, camptothecin yields defined DNA damage lesions (predominantly replication-dependent DSBs), making it a precise tool for dissecting the DDR–senescence axis.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - Bromodeoxyuridine|bromodeoxyuridine]], Gemcitabine, Cyclopentenyl cytosine); (2) DNA‐damaging agents, including (2a) DNA Topoisomerase Inhibitors (Doxorubicin, Etoposide, Daunorubicin, Mitoxantrone, Camptothecin), (2b) DNA Cross-linkers (Cisplatin, Mitomyci...
+
+
 ## Connections
 
 - [[DNA Damage]]: Camptothecin generates replication-dependent DNA double-strand breaks via topoisomerase I cleavage complex stabilization

@@ -20,6 +20,14 @@ aliases: [C. elegans PAT1 ortholog, amino acid transporter]
 
 SLC-36.1 is a [[C. elegans]] proton-coupled amino acid transporter that regulates [[Autophagy]] and lifespan in response to dietary amino acid availability.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Lysosome biogenesis Regulation and functions|Lysosome biogenesis Regulation and functions]]
+    - C) PLR is regulated by PIKfyve, TRPML1, and amino acid transporters (e.g., SLC-36.1/SLC36A1-4 and LAAT-1/PQLC2). PIKfyve probably regulates the activity of these lysosomal transporters through PtdIns(3,5)P2 to promote lysosome tubulation from phagolysosomes.
+
+
 ## Connections
 
 - [[SLC36A1-4]]: **SLC-36.1** is a neutral amino acid transporter (homologue of mammalian SLC36A1-4/PAT1-4) that localizes to [[Lysoso...

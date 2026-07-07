@@ -65,6 +65,17 @@ Sir2 was initially characterised as an **ADP-ribosyl transferase** (Moazed et al
 
 Sir2 is the prototypical member of a large and ancient gene family now called **sirtuins**, present in all domains of life — bacteria, archaea, and eukaryotes. In mammals, seven homologues ([[SIRT1]]–[[SIRT7]]) have been identified, with [[SIRT1]] being the closest mammalian orthologue (Class Ia). The enzymatic mechanism, structural core domain (275 amino acids), and NAD⁺ dependence are all conserved.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - The first known sirtuin, Sir2 (yeast) (silent information regulator 2) of Saccharomyces cerevisiae, from which the family derives its name, regulates ribosomal DNA recombination, gene silencing, DNA Repair, chromosomal stability and longevity.
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Currently, seven mammalian homologs of yeast Sir2 (yeast) named SIRT1 to SIRT7 have been identified. Increasing evidence has suggested the vital roles of seven members of the SIRT family in health and disease conditions.
+
+
 ## Connections
 
 - [[SIRT1]] — closest mammalian homologue (Class Ia); conserved biological roles

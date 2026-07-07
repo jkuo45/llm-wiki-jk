@@ -46,6 +46,14 @@ Nutlin-3a is the most widely used tool for activating wild-type p53 without caus
 - Sustained p53 activation can select for p53-mutant clones.
 - [[MDM4]] can partially compensate for MDM2 inhibition in some cell types.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - YUIQ‐5, BMVC4, Pyridostatin, compound 115405, perylene and indole derivatives, Harmine, BIBR1532, Azidothymidine); (5) CDK Inhibitor (Palbociclib, Roscovitine, Ribociclib); (6) activators of p53 (Nutlin-3a, FL118); (7) activators of Protein Kinase C (TPA/PM...
+
+
 ## Connections
 
 - [[MDM2]]: **Nutlin-3a** is a potent, selective small-molecule inhibitor of the MDM2-[[p53]] interaction.

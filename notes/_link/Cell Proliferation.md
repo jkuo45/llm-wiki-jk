@@ -16,6 +16,14 @@ Cell proliferation is the process by which cells grow and divide to produce daug
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - mTORC1: a master regulator of cell growth and metabolism mTORC1 positively regulates cell growth and Cell Proliferation by promoting many anabolism, including biosynthesis of proteins, lipids and organelles, and by limiting catabolism such as Autophagy.
+
+
 ## Connections
 - [[Cell Cycle]] — the ordered sequence driving proliferation
 - [[Cell Division]] — the physical process of producing daughter cells

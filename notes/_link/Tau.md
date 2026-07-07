@@ -93,6 +93,14 @@ Tau is constitutively released from neurons into the cerebrospinal fluid (CSF) a
 - Active Tau vaccines: AADvac1 (targeting the PHF6* epitope) and ACI-35 (targeting phosphorylated S396/S404) aim to elicit anti-Tau immune responses. AADvac1 completed a Phase II safety trial.
 - Small molecule degraders: PROTACs and molecular glues targeting Tau for proteasomal or lysosomal degradation are in preclinical development.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - Defective lysosomal clearance of both, Beta-amyloid and phosphorylated Tau (p-Tau; the main component of NFTs), underlies the mechanism of their accumulation in AD (Yang et al 2011a) (Polito et al 2014).
+
+
 ## Connections
 
 - [[Alzheimer's Disease]] — neurodegenerative disease; Tau hyperphosphorylation and NFTs are pathological hallmarks

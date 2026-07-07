@@ -47,6 +47,14 @@ In heterokaryon fusion experiments — where cells from different lineages or sp
 
 CFIS may act as an intrinsic tumor suppressor mechanism by eliminating polyploid cells that could otherwise promote aneuploidy and genomic instability. However, some cancer cells evade fusion-induced senescence through loss of p53 or p21, allowing polyploid intermediates to survive and fuel clonal evolution. Tumor cell–tumor cell fusion (homotypic) and tumor cell–macrophage fusion (heterotypic) have been reported in aggressive cancers, generating hybrid cells with enhanced metastatic potential. The relationship between cell fusion, senescence evasion, and cancer progression is an active area of investigation.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - Cell-to-Cell Fusion-Induced Senescence can also be considered a premature senescence subtype (Chuprin et al., ; Burton & Faragher, ). The distinctive phenotypic changes typical of various types of cellular senesce
+
+
 ## Connections
 
 - [[Senescence]]: CFIS results in a stable senescent phenotype via p53/p21 activation

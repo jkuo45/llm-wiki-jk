@@ -35,6 +35,14 @@ This mechanism is notable because, by degrading the TGF-β inhibitor Smad7, SIRT
 
 TGF-β is a double-edged cytokine: it drives protective tissue repair but, when chronic, promotes fibrosis in kidney, liver, heart, and lung. The SIRT1–Smad7 axis modulates this balance. In diabetic nephropathy and other [[Kidney Diseases]], reduced SIRT1 activity may stabilize Smad7 and alter apoptotic thresholds. More broadly, the interplay reflects how [[SIRT1]] interfaces with the TGF-β superfamily, a pathway also linked to [[Cellular Senescence]] and [[Aging]]-associated fibrosis.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - SIRT1 also attenuates TGF- _β_ (transforming growth factor- _β_ ) apoptotic signalling that is mediated by the effector molecule Smad7. SIRT1-dependent deacetylation of Smad7 at Lys and Lys enhances its ubiquitin-de
+
+
 ## Connections
 
 - [[SIRT1]] — deacetylates Smad7 on Lys⁶⁰ and Lys⁷⁰, promoting its Smurf1-mediated degradation

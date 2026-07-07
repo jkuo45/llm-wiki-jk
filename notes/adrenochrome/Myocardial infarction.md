@@ -110,6 +110,20 @@ Management follows a time-critical chain, with the mantra: **"time is muscle."**
 
 **Clinical context:** [[Myeloperoxidase]] — which catalyzes adrenochrome formation from epinephrine — is elevated in coronary plaques and infarcted myocardium. Detection of adrenochrome-like oxidation products in ischemic cardiac tissue supports the concept of local adrenochrome generation during MI. Although causal quantification in human MI remains limited by analytical challenges, the convergence of adrenochrome's pro-oxidant, vasoconstrictive, and proarrhythmic properties positions it as a plausible contributor to MI pathophysiology — an area warranting further translational investigation.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Adrenochrome Pathway|The Adrenochrome Pathway]]
+    - Oxidase activity was found in Serum from patients following Myocardial infarction which may be of importance in assessing the clinical and pathogenic significance of Reactive Oxygen Species in Heart disease.
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - In aged rats subjected to acute Myocardial infarction with isoproterenol, 4-wk IF led to upregulation of Atg5 and reduction of cardiac creatine kinase, MDA, TNF-alpha, and FBS \[\].
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Myocardial ischemia/reperfusion (MI/R) injury: In recent years, the morbidity and mortality of ischemic cardiac diseases, such as Myocardial infarction, have shown an upward trend.
+
+
 ## Connections
 
 - [[Cardiomyocytes]] — the cell type that undergoes necrosis during MI; central to infarct pathology.

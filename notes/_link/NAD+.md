@@ -39,6 +39,35 @@ NAD+ levels decline with age, linked to:
 
 NAD+ is synthesized from [[Vitamin B3]] precursors ([[Nicotinamide]], [[Nicotinic acid]], [[Nicotinamide Riboside|NR]], [[Nicotinamide Mononucleotide|NMN]]) via the [[Preiss-Handler pathway]] and salvage pathway involving [[NAMPT]].
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health|NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health]]
+    - In stress conditions, NAD+ biosynthesis and levels decrease as well as the activity of consuming enzymes rises.
+
+  - [[_document_ - mitohormesis|mitohormesis]]
+    - Fuel: Nicotinamide Riboside (NR) or Nicotinamide Mononucleotide (NAD+ precursors). Cleanup: Urolithin A (Mitophagy inducer).
+
+  - [[_document_ - The Sirtuin System The Holy Grail of Resveratrol?|The Sirtuin System The Holy Grail of Resveratrol?]]
+    - These genes encode for specific (SIRT) NAD+ de-acetylating enzymes and are considered regulatory proteins.
+
+  - [[_document_ - sirtuins (overview, CD38 KO risks, cancer therapies)|sirtuins (overview, CD38 KO risks, cancer therapies)]]
+    - Sirtuins Overview Sirtuins (SIRT1–SIRT7) are a family of seven NAD+-dependent enzymes (class III Histone Modification/deacylases) in humans.
+
+  - [[_document_ - sirtuins (resveratrol), gemini|sirtuins (resveratrol), gemini]]
+    - Resveratrol, Sirtuins & Dietary Sources Resveratrol and SIRT1 The interaction between Resveratrol (a natural polyphenolic compound found in grapes, berries, and red wine) and SIRT1 (Sirtuin 1, an NAD+-dependent deacetylase) is one of the most thoroughly res...
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - By 1999, Roy Frye had identified five of the human SIR2 homologues, SIRT1–SIRT5, given the name ‘sirtuins’, and found that SIRT2 could act as an ADP-ribosylation using, as a donor, one of the major nicotinamide nucleotides, NAD+ .
+
+  - [[_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review|sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review]]
+    - Linking Summary: - New links added: SIRT1, SIRT2, SIRT3, SIRT4, SIRT5, SIRT6, SIRT7, NAD+, p53, AMPK, HIF-1α, Rossmann fold, PTEN, FOXO3a, Reactive Oxygen Species, O
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Notably, SIRTs share a NAD+ + (NAD) + -binding catalytic domain and may act specifically on different substrates depending on the biological processes in which they are involved.
+
+
 ## Connections
 - [[Sirtuins]] — NAD+ is the obligate co-substrate for all sirtuin enzymes
 - [[Caloric Restriction]] — Increases NAD+ levels, activating sirtuins

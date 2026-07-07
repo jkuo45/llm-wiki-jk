@@ -20,6 +20,14 @@ Deptor (DEPTOR) is an endogenous inhibitor of both [[mTORC1]] and [[mTORC2]]. It
 
 DEPTOR is highly expressed in multiple myeloma and some solid tumors where it suppresses mTOR and activates autophagy. Its expression is regulated by [[mTORC1]] via a negative feedback loop.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - mTORC1 mTORC1 has five components: mTOR, which is the catalytic subunit of the complex; Raptor (Raptor); mLST8 (mLST8, also known as GβL); PRAS40 (PRAS40); and Deptor (Peterson et al., 2009).
+
+
 ## Connections
 
 - [[mTORC1]]: # Deptor DEP-domain-containing mTOR-interacting protein (Deptor) is an endogenous inhibitor of both mTORC1 and [[mTOR...

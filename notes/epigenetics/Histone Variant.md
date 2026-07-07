@@ -40,6 +40,14 @@ aliases: []
 - **Variant-specific knockouts** in [[mESCs]] or [[iPSCs]] to study developmental and aging phenotypes.
 - **[[FRAP]]** and [[FLIP]] to measure nucleosomal variant dynamics.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - The key players in marking this site on each chromosome are specialized Nucleosome containing the Histone Variant, CENP-A.
+
+
 ## Connections
 
 - [[Histone]]: **Histone variants** are non-canonical isoforms of the core Histone proteins (H2A, H2B, H3, H4) that replace their ca...

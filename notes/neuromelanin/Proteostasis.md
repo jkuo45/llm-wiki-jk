@@ -34,6 +34,14 @@ In the [[Substantia Nigra Pars Compacta]], neuromelanin is a double-edged partic
 
 Strategies to restore proteostasis include pharmacological chaperones, UPS/autophagy enhancers (e.g., TFEB activation), and anti-aggregation agents against α-synuclein. Lowering cytosolic dopamine auto-oxidation via [[Vesicular Monoamine Transporter 2]] support may reduce the pigment-associated proteostatic load.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Gut Microbiome, Aging, and Longevity A Systematic Review|The Gut Microbiome, Aging, and Longevity A Systematic Review]]
+    - Primary cellular and molecular Hallmarks of Aging include Genomic Instability, Telomere Attrition, Epigenetic Alterations, and loss of Proteostasis, which lead to compensatory mechanisms such as deregulated nutrient
+
+
 ## Connections
 
 - [[Autophagy]]: Lysosomal arm clearing aggregates and pigment-laden organelles.

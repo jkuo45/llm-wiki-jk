@@ -29,6 +29,17 @@ The expression of various ncRNAs changes predictably with age:
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks|Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks]]
+    - Non‐coding RNA production The production of Non-coding RNA becomes an evident modulator for epigenetic changes. microRNAs are one of endogenous non‐coding RNAs that have the capability to silence gene expression through post‐transcriptional modification.
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Both long noncoding RNAs (Non-coding RNA) and circular RNAs (Non-coding RNA) modulate autophagy associated with SIRT1.
+
+
 ## Connections
 - **[[Epigenetics]]**: ncRNAs are the "third layer" of the epigenetic code, alongside DNA methylation and histone modifications.
 - **[[MicroRNA]]**: The most well-studied class of small non-coding RNAs.

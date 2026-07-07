@@ -21,6 +21,14 @@ TGF-β signaling proceeds through SMAD2/3 phosphorylation by the TβRI kinase, c
 
 TGF-β induces autophagy via SMAD3 and [[ATF4]]. Conversely, autophagy regulates TGF-β by degrading key pathway components. This bidirectional crosstalk is important in fibrosis and cancer.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - Suggested new entity notes to create: transcriptional regulation, translational-level regulation, ischemic injury, metabolic disorders, leucine zipper transcription Factors, TGF-β Signaling, Hypusination, Tumor Suppressor, Translation Initiation, MAPK Si
+
+
 ## Connections
 
 - [[SMAD3]]: Transforming growth factor-beta (TGF-β) signaling is a pathway involved in regulating many cellular processes; hypera...

@@ -29,6 +29,14 @@ Although not an oncology entity, the MDP is thematically linked to cancer resear
 
 The MDP is widely cited as a benchmark for sustainable access to essential medicines and for the feasibility of eliminating transmission through community-directed treatment. Its decades-long operation generated enormous safety and distribution data that inform ivermectin use broadly, including investigational oncologic applications.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, ‘Wonder drug’ from Japan the human use perspective|Ivermectin, ‘Wonder drug’ from Japan the human use perspective]]
+    - Ivermectin began to be distributed in 1988, with operations being organized through the independent Mectizan Donation Program established and funded by Merck & Co. Inc.
+
+
 ## Connections
 
 - [[Mectizan]] - The donated ivermectin brand managed by the program.

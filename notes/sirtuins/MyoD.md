@@ -67,6 +67,14 @@ The SIRT1-MyoD-MEF2D axis ensures that muscle differentiation only occurs under 
 
 ---
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - The acetyltransferases PCAF [p300/cAMP-response-element-binding protein-associated factor] and GCN5 interact with SIRT1 and mediate the formation of a complex with the muscle-specific transcription factor MyoD (myogenic differentiation).
+
+
 ## Connections
 
 - **[[SIRT1]]** — Binds to the MyoD/PCAF complex; deacetylates MyoD and local histones to repress differentiation.

@@ -29,6 +29,14 @@ Physiologically, PAK4 contributes to embryogenesis, neurite outgrowth, and actin
 
 PAK4 is a therapeutic target, with allosteric and ATP-competitive PAK inhibitors in preclinical development, often combined with [[Chemotherapy]] or RAF/MEK blockers. It is also a biomarker candidate for pathway activation and a node linking [[Ivermectin]]'s anti-tumor actions (PAK1/PAK4 inhibition) to apoptotic restoration in models such as [[Nasopharyngeal Carcinoma]] and [[ovarian cancer]].
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - MPNST, Lung Cancer | | Bad | | PAK1, PAK4, PAK5, PKA, PKCι, RAF1, RSK | Ser112 | Inactivation | MPNST, Lung Cancer, I
+
+
 ## Connections
 
 - [[Bad]]: Pro-apoptotic substrate phosphorylated at Ser112 by PAK4.

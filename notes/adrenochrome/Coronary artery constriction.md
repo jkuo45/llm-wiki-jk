@@ -58,6 +58,14 @@ This adrenochrome-induced vasoconstriction may contribute to [[Cardiotoxicity]] 
 
 The clinical significance in humans remains incompletely defined, limited by challenges in measuring local adrenochrome concentrations in the coronary circulation. However, [[Myeloperoxidase]] — which catalyzes adrenochrome formation — is present at sites of coronary inflammation, and adrenochrome has been detected in ischemic cardiac tissue, supporting its role as a locally generated vasoconstrictor and cardiotoxic metabolite.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Adrenochrome Pathway|The Adrenochrome Pathway]]
+    - Indeed in the 1930's and 40's this pathway was thought by many to be the major catabolic route for Epinephrine in vivo: More recently, Adrenochrome has been shown to be Cardiotoxicity, causing Cell necrosis, Arrhythmias and Coronary artery constriction.
+
+
 ## Connections
 
 - [[Heart disease]] — coronary artery constriction is a central pathophysiological mechanism in ischemic heart disease.

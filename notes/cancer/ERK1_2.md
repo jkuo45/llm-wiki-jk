@@ -29,6 +29,20 @@ Physiologically, ERK1/2 mediate responses to growth factors, stress, and cytokin
 
 ERK1/2 signaling is a cornerstone oncology target. Approved agents include BRAF inhibitors and [[MEK]] inhibitors; direct ERK1/2 inhibitors (e.g., ulixertinib) are in trials to overcome MEK/BRAF resistance. Because ERK maintains [[Bim]] degradation, combining MAPK blockade with [[BH3 mimetics]] or [[Chemotherapy]] restores apoptotic killing. p-ERK immunohistochemistry and *RAS*/*BRAF* genotyping guide therapy; adaptive feedback (e.g., via [[EGFR]] or CRAF) informs rational combination design.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - The stimulation of these pathways increases the phosphorylation of TSC2 by Akt (PKB, also known as Akt) (Inoki et al., 2002; Potter et al., 2002), by ERK1_2 (Ma et al., 2005), and by RSK1 (RSK1) (Roux et al., 2004), and leads to the inactivation of TSC1/TSC...
+
+  - [[_document_ - Caspase|Caspase]]
+    - Caspase-9 | | CDK1, DYRK1A, ERK1_2, p38 MAPK (PP1α) | Thr125 | Suppression of activity | Suppressing mitotic
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - At the molecular level, SIRT6 binds to the promoters of ERK 1 and ERK2 genes, and deacetylates histone Histone H3, thereby inhibiting ERK1_2 expression.
+
+
 ## Connections
 
 - [[MAPK Signaling]]: Pathway of which ERK1/2 are terminal effectors.

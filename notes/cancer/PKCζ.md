@@ -25,6 +25,14 @@ PKCζ maintains cell polarity, protein synthesis (via mTORC1), and survival sign
 
 PKCζ is pursued as a diagnostic and prognostic marker and as a therapeutic target; small-molecule inhibitors (e.g., aurothiomalate, CRT0066101) and dominant-negative constructs reduce tumor growth and restore apoptosis in preclinical models. Its role in NF-κB survival signaling makes it a combinatorial target with [[Chemotherapy]] to overcome resistance.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - Suppressing mitotic cell death | | Caspase-9 | | PKCζ | Ser144 | Suppression of activity | | | Caspase-9 |
+
+
 ## Connections
 
 - [[Apoptosis]] - Programmed cell death suppressed by PKCζ phosphorylation of death proteins.

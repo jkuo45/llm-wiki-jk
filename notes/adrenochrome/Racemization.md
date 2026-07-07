@@ -17,6 +17,14 @@ aliases: []
 ## Effect on Epinephrine
 Pharmaceutical [[Epinephrine]] is typically the L-isomer. Over time, heat and pH changes can cause racemization to the D-isomer, which is significantly less biologically active, leading to a loss of therapeutic potency.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - intermediates, precursor, hemoglobin|intermediates, precursor, hemoglobin]]
+    - Racemization (L- to D-epinephrine) reduces potency, as the D-isomer is less active. 3.
+
+
 ## Connections
 - [[Epinephrine]]
 - [[Quality Control]]

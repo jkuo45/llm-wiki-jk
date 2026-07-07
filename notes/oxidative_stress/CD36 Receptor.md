@@ -38,6 +38,14 @@ CD36 deficiency in humans is rare but associated with altered lipid metabolism a
 - Suggested new entity notes to create: [[Foam Cells]], [[Thrombospondin-1]], [[Fyn kinase]], [[Lipotoxicity]], [[Protein kinase C]], [[Soluble CD36]]
 - Strong connections to strengthen: [[CD36 Receptor]] ↔ [[Oxidized LDL]], [[CD36 Receptor]] ↔ [[PPARγ]]
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - Macrophage transition to foam cells is one of the earlier and important steps in atherosclerotic lesion formation; CD36 Receptor is one of the key players involved, being a scavenger receptor responsible for oxidized-LDL (oxLDL) uptake from bloodstream \[, ...
+
+
 ## Connections
 
 - [[Atherosclerosis]]: It plays a significant role in Atherosclerosis by mediating the uptake of [[Oxidized LDL]], which is a product of [[L...

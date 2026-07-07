@@ -34,6 +34,14 @@ GATA5 is essential for cardiac morphogenesis and valvulogenesis. It cooperates w
 
 GATA5 is a risk locus for coronary artery disease and bicuspid aortic valve. SIRT6 activation to maintain GATA5 levels represents a strategy to counter endothelial injury and cardiovascular disease progression.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Moreover, SIRT6 induced the expression of GATA binding protein 5 (GATA5) through inhibition of Nkx3.2 transcription by deacetylating histone Histone H3, thereby regulating GATA5-mediated signaling pathways to prevent endothelial injury.
+
+
 ## Connections
 
 - [[SIRT6]] — Induces GATA5 expression, preventing endothelial injury

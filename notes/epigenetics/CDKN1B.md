@@ -37,6 +37,14 @@ p27 is critical in embryonic development, tissue homeostasis, and wound healing,
 
 p27 loss is a biomarker of aggressive tumors and a candidate target for therapies that stabilize CKIs. It functions as a [[Tumor Suppressor]] alongside the related [[CDKN1A]] and [[CDKN1C]].
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - An important mechanism by which cyclin-dependent kinases are regulated is through the expression of CDK Inhibitor, including p21 (CDKN1A), p27 (CDKN1B), and p57 (CDKN1C) (Figure 2).
+
+
 ## Connections
 
 - [[Cyclin-Dependent Kinase]] — p27 inhibits these enzymes to control the cell cycle.

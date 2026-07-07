@@ -23,6 +23,14 @@ aliases: [Hepatic]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Liver diseases: (1) FLDs The disease spectrum of FLDs, with high-fat/high-calori
+
+
 ## Connections
 - [[Liver]] — related entity
 

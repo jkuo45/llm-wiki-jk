@@ -43,6 +43,14 @@ As with most alkylating agents, Mitomycin C is associated with significant toxic
 - **Renal and Hepatic Toxicity**: Potential for damage to the kidneys and liver, requiring careful monitoring.
 - **Secondary Malignancies**: Like other DNA-damaging agents, there is a risk of inducing secondary cancers over the long term.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - cyclopentenyl cytosine]]); (2) DNA‐damaging agents, including (2a) DNA Topoisomerase Inhibitors (Doxorubicin, Etoposide, Daunorubicin, Mitoxantrone, Camptothecin), (2b) DNA Cross-linkers (Cisplatin, Mitomycin C, Busulfan, Cyclophosphamide, Diaziquone), and ...
+
+
 ## Connections
 
 - [[Alkylating agent]] — Mitomycin C is a prototypical alkylating agent.

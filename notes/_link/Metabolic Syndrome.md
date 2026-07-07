@@ -24,6 +24,14 @@ aliases: [Syndrome X]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Endocrine system disorders lead to various diseases such as Diabetes Mellitus, Obesity, and Metabolic Syndrome, which causes heavy disease burden worldwide.
+
+
 ## Connections
 - [[Metabolic Syndrome]] — related entity
 

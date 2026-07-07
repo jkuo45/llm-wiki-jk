@@ -74,6 +74,14 @@ During systemic inflammation, endothelial cells become "activated" — expressin
 
 These findings position adrenochrome as a potential contributor to the vascular pathology observed in conditions of high sympathetic drive and oxidative stress, including [[Septic Shock]], [[Preeclampsia]], [[Myocardial infarction]], and [[Heart disease]].
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - neutrophil and erthrocyte|neutrophil and erthrocyte]]
+    - en.wikipedia.org - Other tissues: It can form wherever Epinephrine or Norepinephrine is present and oxidized (e.g., Sympathetic nerve endings, Endothelial cells, or inflamed tissues like Rheumatoid synovial fluid).
+
+
 ## Connections
 - [[Adrenochrome]]: Induces endothelial dysfunction via ROS, NO depletion, and adhesion molecule upregulation.
 - [[Oxidative Stress]]: A major driver and consequence of endothelial dysfunction.

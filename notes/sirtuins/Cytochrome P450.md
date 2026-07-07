@@ -38,6 +38,14 @@ CYP450 enzymes are named by family (e.g., CYP1, CYP2, CYP3), subfamily (letter),
 
 Polymorphisms in CYP450 genes (e.g., [[CYP2D6]], [[CYP2C9]]) produce extensive inter-individual variation in drug metabolism rates — categorized as poor, intermediate, extensive, or ultrarapid metabolizers.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Sirtuin System The Holy Grail of Resveratrol?|The Sirtuin System The Holy Grail of Resveratrol?]]
+    - Metabolism and pharmacokinetics Studies have postulated the role of detoxifying hepatic enzymes such as, Cytochrome P450, as possessing particular importance in the catabolism of Resveratrol \[\].
+
+
 ## Connections
 
 - [[Enzyme]]: **Cytochrome P450** (CYP450) is a superfamily of heme-containing monooxygenase enzymes that catalyze the phase I meta...

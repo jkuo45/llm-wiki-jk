@@ -27,6 +27,17 @@ Somatic cells are the universal starting material for generating [[Induced Pluri
 
 Patient-derived somatic cells (often easily obtained skin fibroblasts or blood lymphocytes) enable the creation of autologous iPSCs for [[Disease Modeling]], [[Drug Discovery]], and [[Regenerative Medicine]]. Because iPSCs retain the donor's genetic background, they capture individual susceptibility and are amenable to [[CRISPR]] editing to build [[Isogenic Pair|isogenic pairs]] for causal inference.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic|Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic]]
+    - vo Celis]( 3, transcription factors Oct4, Sox2, Klf4, and c-Myc enable the Cellular Reprogramming of Somatic Cells into Induced Pluripotent Stem Cells.
+
+  - [[_document_ - Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network|Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network]]
+    - ade-Navarro]( 1, James Adjaye 2,6, D Hoheisel 7 PMCID: Abstract Somatic Cells can be reprogrammed to Induced Pluripotent Stem Cells by over-expression of Oct4, Sox2, Klf4 and c-Myc (OSKM).
+
+
 ## Connections
 - [[Induced Pluripotent Stem Cells]]: The pluripotent state achieved by reprogramming somatic cells.
 - [[Reprogramming]]: The process of reverting somatic identity to pluripotency.

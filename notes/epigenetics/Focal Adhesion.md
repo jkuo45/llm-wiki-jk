@@ -29,6 +29,14 @@ Focal adhesions anchor cells, resist shear, and translate ECM topography and sti
 
 Aberrant adhesion signaling supports [[Cancer]] invasion and metastasis, angiogenesis, and [[Fibrosis]]. Overexpression or activation of adhesion components (FAK, integrins) promotes anoikis resistance and [[Epithelial-to-Mesenchymal Transition]]. Integrin antagonists and FAK inhibitors are explored clinically to disrupt tumor–matrix interactions.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - These studies have suggested that mTORC2 controls the Actin Cytoskeleton by promoting PKCα (PKCα) phosphorylation, phosphorylation of paxillin and its relocalization to Focal Adhesion, and the GTP loading of RhoA and Rac1.
+
+
 ## Connections
 
 - [[Integrin]] - transmembrane ECM receptor at adhesions.

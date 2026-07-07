@@ -25,6 +25,14 @@ This hybrid molecule is a central component of the [[Glyco-Oxidative Proteostasi
 
 Adrenochrome monoaminoguanidine functions as a **glyco-oxidative modulator** — a hybrid agent that simultaneously targets both glycation and oxidative stress pathways. The aminoguanidine moiety scavenges reactive dicarbonyl species ([[Methylglyoxal]], [[Glyoxal]]), preventing them from forming [[Advanced Glycation End Products]], while the adrenochrome moiety engages the [[Mitohormetic Redox-Relay]] to induce adaptive stress responses.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - US4501923A - Process for preparing adrenochrome|US4501923A - Process for preparing adrenochrome]]
+    - Adrenochrome is an intermediate for Carbazochrome and Adrenochrome monoaminoguanidine known as Hemostatics. Adrenochrome has been commercially prepared by oxidizing adrenaline or its salts with Potassium ferricyanide in an aqueous medium.
+
+
 ## Connections
 - [[Adrenochrome]]: The parent molecule and precursor.
 - [[Aminoguanidine]]: Used to stabilize adrenochrome to form this derivative.

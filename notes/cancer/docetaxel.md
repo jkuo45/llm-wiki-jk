@@ -33,6 +33,20 @@ By exploiting the high proliferative rate of tumors (a [[Hallmarks of Cancer]]),
 
 Docetaxel is a backbone of breast, lung, prostate, and gastric regimens, often combined with anthracyclines, platinum agents, or targeted drugs. Research directions include nanoparticle formulations to limit toxicity, antibody–drug conjugate payloads, and natural-product combinations (e.g., melittin) to resensitize resistant disease. Biomarkers such as tubulin isotype expression and drug-efflux pumps guide dosing and combination design.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - span="1" rowspan="1">AbbottBcl-2 family of proteinsSolid tumoursPhase IABT-263(in combination with docetaxel)AbbottBcl-2 family of proteinsSolid tumoursPhase IABT-263(in combinati
+
+  - [[_document_ - Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology|Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology]]
+    - Lastly, administration of melittin enhances the effect of docetaxel in suppressing breast tumor growth in an allograft model.
+
+  - [[_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug|Ivermectin, a potential anticancer drug derived from an antiparasitic drug]]
+    - In Nappi's experiment, it was found that IVM could enhance the drug activity of the anti-androgen drug Enzalutamide in the prostate cancer cell line LNCaP and reverse the resistance of the prostate cancer cell line PC3 to docetaxel \[\].
+
+
 ## Connections
 
 - [[Breast Cancer]] / [[triple-negative breast cancer]]: Key indications.

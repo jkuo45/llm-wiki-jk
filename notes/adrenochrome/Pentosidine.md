@@ -28,6 +28,14 @@ Pentosidine levels increase with age in several tissues:
 - Oocytes
 - Intervertebral disk
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Dietary Advanced Glycation End Products and Aging|Dietary Advanced Glycation End Products and Aging]]
+    - found that Pentosidine concentrations were 200% higher in a group of older individuals with a mean age of 78 y (n = 22) compared with their younger counterparts with a mean age of 25 y (n = 20).
+
+
 ## Connections
 
 - [[Advanced Glycation End Products]]: Pentosidine is a well-known biomarker and fluorescent cross-link belonging to the Advanced Glycation End Products (AG...

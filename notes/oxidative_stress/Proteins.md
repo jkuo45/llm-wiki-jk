@@ -31,6 +31,14 @@ Cells counteract oxidized proteins through antioxidant enzymes—[[Glutathione P
 
 Protein oxidation markers rise in [[Cardiovascular Disease]] (oxLDL-apoB carbonylation), [[Diabetes Mellitus]] (HbA1c and AOPPs), COPD, and neurodegeneration. Interventions lowering oxidative protein damage include [[N-Acetylcysteine]] (GSH repletion), [[Vitamin E]], and NRF2 activators. Mild oxidative modification can also be hormetic, inducing cytoprotective repair pathways.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - When ROS production increases, they start showing harmful effects on important cellular structures like Proteins, Lipids, and Nucleic Acids \[\].
+
+
 ## Connections
 
 - [[Oxidative Stress]]: Proteins are primary targets of radical-mediated damage.

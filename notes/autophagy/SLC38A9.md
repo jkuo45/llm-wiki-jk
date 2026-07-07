@@ -28,6 +28,14 @@ When luminal arginine is present, SLC38A9 promotes GTP-loading of RagA/B by Ragu
 
 SLC38A9 is essential for mTORC1 reactivation after starvation refeeding and for coupling lysosomal degradation to growth control. Its dysregulation perturbs metabolic homeostasis in [[Cancer]] and contributes to lysosomal storage and [[Aging]]-related decline when amino acid sensing is blunted. SLC38A9 is also a candidate node for pharmacologic modulation of autophagic flux.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Lysosome biogenesis Regulation and functions|Lysosome biogenesis Regulation and functions]]
+    - The lysosome transporter SLC38A9 functions as a lysosomal arginine sensor that activates mTORC1 by interacting with Ragulator (Rebsamen et al., 2015; Wang et al., 2015a).
+
+
 ## Connections
 
 - [[Ragulator]]: Direct partner sensing arginine via SLC38A9.

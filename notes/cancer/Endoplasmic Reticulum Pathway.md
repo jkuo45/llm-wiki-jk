@@ -23,6 +23,14 @@ When the endoplasmic reticulum is injured by stresses such as [[Hypoxia]], free 
 ## Role in Cancer
 Cancer cells often experience chronic ER stress due to rapid growth and poor vascularization. They adapt by upregulating survival pathways, but severe ER stress can be harnessed to induce apoptosis.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - A third less well-known initiation pathway is the Endoplasmic Reticulum Pathway \[\]. !Figure 1 The intrinsic and extrinsic pathways of apoptosis.
+
+
 ## Connections
 - [[Apoptosis]]: One of the three major initiation pathways.
 - [[Hypoxia]]: A common trigger for ER stress.

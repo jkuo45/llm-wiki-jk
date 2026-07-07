@@ -60,6 +60,14 @@ The inflamed RA joint provides an ideal biochemical niche for adrenochrome forma
 
 Adrenochrome formation may contribute to a vicious cycle of oxidative stress within the joint: adrenochrome itself participates in [[Redox Cycling]], reducing to a semiquinone radical that reacts with molecular oxygen to regenerate the parent quinone while producing superoxide anion. This amplifies the existing oxidative burden, potentially modifying synovial proteins, depleting [[Glutathione]], and exacerbating tissue damage. Adrenochrome has been detected and studied in RA synovial fluid as a candidate biomarker of oxidative stress, with some reports suggesting that its concentration correlates with disease activity and joint destruction. The adrenochrome pathway thus represents an intersection of catecholamine biology, metal-catalyzed oxidation, and inflammatory tissue injury in RA.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - neutrophil and erthrocyte|neutrophil and erthrocyte]]
+    - en.wikipedia.org - Other tissues: It can form wherever Epinephrine or Norepinephrine is present and oxidized (e.g., Sympathetic nerve endings, Endothelial cells, or inflamed tissues like Rheumatoid synovial fluid).
+
+
 ## Connections
 
 - [[Adrenochrome]] — formed via metal-catalyzed oxidation of epinephrine in the inflamed synovial microenvironment; undergoes redox cycling that amplifies oxidative damage

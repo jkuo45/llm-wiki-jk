@@ -24,6 +24,14 @@ aliases: [Chronic Myelogenous Leukemia, Chronic Myeloid Leukemia]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Dietary Advanced Glycation End Products and Aging|Dietary Advanced Glycation End Products and Aging]]
+    - It has also been found that CML, a predominant AGE, can serve as a predictor of cardiovascular mortality. Semba et al.
+
+
 ## Connections
 - [[CML]] — related entity
 

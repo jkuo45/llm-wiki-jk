@@ -28,6 +28,14 @@ Mass drug administration with [[Ivermectin]] (often combined with [[Albendazole]
 - [[Albendazole]] (a [[Benzimidazole]]) disrupts [[Tubulin]] and the [[Warburg Effect]], with documented antitumor activity.
 Population-scale safety data from filariasis control de-risk these repurposing efforts.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, ‘Wonder drug’ from Japan the human use perspective|Ivermectin, ‘Wonder drug’ from Japan the human use perspective]]
+    - The disease results from infection with filarial worms, Wuchereria bancrofti, Brugia malayi or Brugia timori.
+
+
 ## Connections
 
 - [[Lymphatic Filariasis]]: Disease caused by B. timori.

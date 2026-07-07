@@ -72,6 +72,17 @@ Quantitative features:
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Mitohormesis - 2023_NOV|Mitohormesis - 2023_NOV]]
+    - This therefore represents a subcellular form of the more general process of Hormesis- a principle that has broad implications across multiple aspects of biology . In the ensuing decade, these concepts have been substantially expanded and refined.
+
+  - [[_document_ - xenohormesis, mitohormesis|xenohormesis, mitohormesis]]
+    - Defining Xenohormesis I am now structuring the response, beginning with an introduction to Xenohormesis. I'm focusing on the evolutionary underpinnings and origin of the term, referencing Howitz & Sinclair (2008).
+
+
 ## Connections
 - [[Mitohormesis]] — interacts with Hormesis
 - [[Xenohormesis]] — interacts with Hormesis

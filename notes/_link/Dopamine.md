@@ -47,6 +47,23 @@ The [[COMT]] [[Val158Met]] [[Polymorphism]] significantly affects dopamine level
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - Catechols include Neurotransmitters such as Dopamine, Epinephrine, and Norepinephrine. Other Catechols include Estrogen metabolites as well as drugs and Natural Substances with a catechol structure.
+
+  - [[_document_ - Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum|Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum]]
+    - A common genetic Polymorphism that results in increased activity of the Dopamine regulating enzyme COMT (the COMT Val 158 allele) has been found to associate with poorer Cognitive Performance and increased susceptibility to develop Psychiatric Disorders.
+
+  - [[_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease|Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease]]
+    - The loss of nigral pigmented neurons, which we now know produce the neurotransmitter Dopamine, leads to the classical motor symptoms of PD and constitutes the only robust clinico‐pathological correlation associated with the disease.
+
+  - [[_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator|Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator]]
+    - Neuromelanin (NM) in the pre-synaptic terminal of Dopamine neurons is emerging as a primary player in the etiology of Neurodegenerative Diseases including PD.
+
+
 ## Connections
 - [[Catecholamines]] ↔ Dopamine is a member of this class.
 - [[Dopaminochrome]] ↔ Direct oxidative byproduct of dopamine.

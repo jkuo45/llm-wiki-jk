@@ -26,6 +26,20 @@ Apaf-1 activity and oligomerization are regulated by several factors:
 ## Apoptosome Assembly
 The Apaf-1 heptamer recruits pro-[[Caspase-9]] molecules through CARD-CARD domain interactions. This clustering of pro-caspase-9 leads to its auto-activation, initiating the caspase cascade.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - Cytoplasmic release of cytochrome c activates Caspase-3 via the formation of a complex known as Apoptosome which is made up of cytochrome c, Apaf-1 and Caspase-9 \[\].
+
+  - [[_document_ - Caspase|Caspase]]
+    - ERK1_2 | Ser163 | Prevents degradation | Hepatocellular Carcinoma, Lymphoma | | Apaf-1 | Loss in Melanoma, Colon Cancer, Gastric Cancer, Bladder Cancer; Amplifi
+
+  - [[_document_ - Evading apoptosis in cancer|Evading apoptosis in cancer]]
+    - In the cytoplasm, Cytochrome c binds to the adaptor protein Apaf-1 to form a Caspase-9-activating complex, called the Apoptosome (Figure 1). Smac-DIABLO augments Cytochrome c -induced caspase activation by binding and ne
+
+
 ## Connections
 - [[Intrinsic Pathway]]: Essential for mitochondrial-mediated caspase activation.
 - [[Cytochrome c]]: Triggers Apaf-1 activation.

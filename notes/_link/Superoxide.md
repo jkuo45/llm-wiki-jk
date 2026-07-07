@@ -24,6 +24,17 @@ aliases: []
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Dietary Advanced Glycation End Products and Aging|Dietary Advanced Glycation End Products and Aging]]
+    - In addition, AGE-RAGE interaction activates NAD(P)H Oxidase (a complex of enzymes which produces Superoxide) and when this complex is upregulated, it increases intracellular oxidative stress.
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - For example, overexpression of SIRT3 improves anticancer drug resistance of CRC cells through Superoxide dismutase (SOD) 2 and PGC1-α regulation.
+
+
 ## Connections
 - [[Superoxide]] — related entity
 

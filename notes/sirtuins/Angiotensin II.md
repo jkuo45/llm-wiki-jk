@@ -34,6 +34,17 @@ Angiotensin II is generated through a two-step enzymatic cascade:
 
 Angiotensin II is implicated in [[Hypertension]], [[Cardiac Hypertrophy]], [[Cardiomyopathy]], and [[Atherosclerosis]]. [[SIRT1]] has been shown to downregulate angiotensin II type 1 receptor expression, providing a mechanistic link between [[Sirtuins]] and blood pressure regulation. [[Resveratrol]]-mediated [[SIRT1]] activation attenuates angiotensin II-induced hypertension in vascular smooth muscle.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Sirtuin System The Holy Grail of Resveratrol?|The Sirtuin System The Holy Grail of Resveratrol?]]
+    - The relationship between Resveratrol and SIRT 1 is further apparent via studies which have shown anti-hypertensive effects via modulation of the Angiotensin II type I receptor.
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - SIRT6 can be inhibited by upstream MicroRNA, resulting in a significant reduction in the levels of elabela, thereby preventing Angiotensin II-mediated loss of autophagy. However, the mechanism of SIRT6 promotion of autophagy needs further study.
+
+
 ## Connections
 
 - [[Renin-angiotensin system]]: **Angiotensin II** (Ang II) is a peptide hormone central to the renin-angiotensin system (RAS).

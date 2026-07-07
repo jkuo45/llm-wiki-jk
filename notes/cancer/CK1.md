@@ -29,6 +29,14 @@ CK1 isoforms are ubiquitously expressed and essential for development. Their ant
 
 CK1 inhibitors (e.g., D4476, PF-4800567) are explored as sensitizers that restore Bid cleavage and mitochondrial apoptosis in resistant cancers, and as modulators of WNT signaling. Because CK1 phosphorylates many substrates, selectivity across isoforms is a key drug-design challenge. Biomarker studies link CK1δ/ε overexpression to poor prognosis in several carcinomas, supporting its evaluation as a therapeutic node where inhibiting survival phosphorylation could enhance [[Chemotherapy]] or immunotherapy efficacy.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - Prostate Cancer, Colon Cancer | | Bid | | CK1, CK2 | Thr58, Ser61, Ser64 | Prevents cleavage by Caspase-8 | | | Bid |
+
+
 ## Connections
 
 - [[Bid]]: Direct CK1 substrate phosphorylated to block caspase-8 cleavage.

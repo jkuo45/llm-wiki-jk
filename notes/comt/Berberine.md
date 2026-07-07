@@ -30,6 +30,14 @@ For individuals carrying slow [[COMT]] variants (e.g., [[Val158Met]] Met/Met), c
 
 Randomized trials report berberine lowers fasting glucose and HbA1c comparably to metformin in some cohorts, and improves lipid panels. It is generally well tolerated, though it can cause mild gastrointestinal upset and may interact with CYP3A4-metabolized drugs. Its role in psychiatric or cognitive comorbidity linked to [[Dopamine]] and [[COMT]] is indirect and not established as a monotherapy.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - Here are some alternative natural Anti-inflammatory supplements that don’t interact with COMT: - Berberine - Resveratrol - Melatonin - Hesperidin Methyl-donor supplements increase COMT reactions: The COMT enzyme needs Methyl groups for its reactions, and in...
+
+
 ## Connections
 
 - [[Anti-inflammatory]]: A principal therapeutic axis for berberine via NF-κB inhibition.

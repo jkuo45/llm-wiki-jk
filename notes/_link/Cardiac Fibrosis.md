@@ -24,6 +24,14 @@ aliases: [Myocardial Fibrosis]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Cardiac fibrosis In Cardiac Fibrosis, TGF-β is a key profibrotic cytokine that exerts profibrotic effects.
+
+
 ## Connections
 - [[Cardiac Fibrosis]] — related entity
 

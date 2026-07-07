@@ -24,6 +24,14 @@ aliases: [NLR Family Pyrin Domain Containing 3, Cryopyrin]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Several studies have also shown an anti-inflammatory effect of SIRT3, which downregulates IL-1b and NLRP3, inhibits inflammasomes and attenuates oxidative stress. SIRT3 KO mice have significantly increased inflammatory cell infiltration.
+
+
 ## Connections
 - [[NLRP3]] — related entity
 

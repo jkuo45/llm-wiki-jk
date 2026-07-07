@@ -16,6 +16,14 @@ Methyl donors are compounds that provide a labile methyl group (−CH₃) for me
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - Some people with slow COMT enzyme function have side effects from Methylated Vitamins (Methylfolate, MethylB12), Methyl Donor supplements, and COMT Inhibitors supplements.
+
+
 ## Connections
 - [[SAMe]] — universal methyl donor for most methylation reactions
 - [[Methylation Cycle]] — pathway for methyl group transfer and regeneration

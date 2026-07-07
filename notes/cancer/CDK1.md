@@ -29,6 +29,17 @@ CDK1 is essential for viability and is tightly linked to the [[Hallmarks of Canc
 
 CDK1 is a long-standing oncology target. Although pan-CDK inhibitors (e.g., roscovitine, dinaciclib) have modest selectivity, newer approaches combine CDK4/6 inhibitors with agents that unleash caspase-2. The CDK1–caspase-2 axis explains why mitotic poisons such as [[docetaxel]] and [[paclitaxel]] can be antagonized by checkpoint activation, and why disabling CDK1 under genotoxic stress converts arrest into death. Biomarkers of CDK1/CYCLIN B1 abundance inform prognostic stratification in several carcinomas.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - --------------------------------------------------------------------------------------------------------- | | Caspase-2 | | CDK1/CYCLIN B1 | Ser308 | Suppression of activity | Suppressing mitotic cell dea
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - In addition, CDK1-mediated SIRT3 activation could enhance mitochondrial function and contribute to adaptive radioresistance in Glioma cells. Therefore, SIRTs are potential biomarkers for the prognosis and diagnosis of Glioma and promising therapeutic targets.
+
+
 ## Connections
 
 - [[CYCLIN B1]]: Regulatory partner forming the MPF complex with CDK1.

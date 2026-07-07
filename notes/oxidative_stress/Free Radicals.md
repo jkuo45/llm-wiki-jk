@@ -32,6 +32,14 @@ Uncontrolled radical production damages every biomolecule class. In [[Mitochondr
 
 Mitigation strategies include direct scavengers ([[N-Acetylcysteine]] as glutathione precursor, [[Melatonin]], [[EGCG]]), enhancement of endogenous defenses (NRF2/ARE activation by [[Sulforaphane]]), metal chelation ([[EDTA]], deferoxamine), and [[Mitochondria]]-targeted antioxidants (MitoQ, [[Spermidine]]). The hormetic concept of [[Mitohormesis]] posits that low-level radical exposure strengthens resilience via upregulated [[Antioxidants]] and [[DNA Repair]], informing [[Caloric Restriction]] and [[Exercise]] interventions.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - Without the COMT-controlled Methylation reaction, Catecholamines can accumulate and generate Free Radicals, which can damage DNA. Thus, COMT is essential in protecting cells, including brain cells, from Oxidative Stress.
+
+
 ## Connections
 
 - [[Oxidative Stress]]: The pathological state arising from excess free radicals.

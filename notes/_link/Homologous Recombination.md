@@ -24,6 +24,14 @@ aliases: [HR]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review|sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review]]
+    - SIRT1 helps to maintain telomeres and promotes Homologous Recombination (Uhl et al. ; Palacios et al.
+
+
 ## Connections
 - [[Homologous Recombination]] — related entity
 

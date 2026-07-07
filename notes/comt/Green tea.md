@@ -30,6 +30,14 @@ For individuals with slow [[COMT]] variants (e.g., [[Val158Met]] Met/Met), pharm
 
 Green tea extract is studied for weight management, neuroprotection, and [[Aging]]. Its catechins interact with drug-metabolizing enzymes (CYP1A2) and may modestly affect caffeine clearance. The COMT–catechin relationship remains a useful example of how genotype can modify dietary bioactive exposure.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - For example, if you are looking to enhance the beneficial effects of EGCG, research shows that Quercetin or Fisetin supplements along with EGCG (Green tea) increased the bioactive form of EGCG in cells.
+
+
 ## Connections
 
 - [[EGCG]]: The principal bioactive catechin and COMT substrate in green tea.

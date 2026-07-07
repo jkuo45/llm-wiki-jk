@@ -37,6 +37,14 @@ Dysregulation of actin dynamics is a key driver in numerous human diseases:
 - **Viral Exploitation**: Many pathogens, including viruses like influenza and various coronaviruses, hijack the actin cytoskeleton to facilitate their entry into cells, intracellular transport of viral components, and eventual budding from the host cell membrane.
 - **Developmental Malformations**: Since actin-mediated morphogenesis is crucial during embryogenesis (e.g., in neural tube formation and gastrulation), mutations in actin or its regulators can lead to severe congenital defects.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - These studies have suggested that mTORC2 controls the Actin Cytoskeleton by promoting PKCα (PKCα) phosphorylation, phosphorylation of paxillin and its relocalization to Focal Adhesion, and the GTP loading of RhoA and Rac1.
+
+
 ## Connections
 
 - [[G-actin]] - The globular monomeric form of actin.

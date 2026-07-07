@@ -24,6 +24,14 @@ aliases: [Cyclin-Dependent Kinase]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - Whether a cell enters G0 Phase or proceeds through G1 Phase to continue cycling is dictated by the regulation of several key factors, including Cyclin and Cyclin-Dependent Kinase (CDK), CDK Inhibitor, and the Retinoblastoma Protein (Rb) (Figure 2).
+
+
 ## Connections
 - [[CDK]] — related entity
 

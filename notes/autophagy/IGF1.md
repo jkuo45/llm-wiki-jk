@@ -28,6 +28,26 @@ aliases: [insulin-like growth factor 1]
 
 IGF1 is a growth factor that signals through IGF1R to activate [[PI3K-Akt Signaling]] and suppress [[Autophagy]]. Reduced IGF1 signaling extends lifespan across species.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Autophagy and intermittent fasting the connection for cancer therapy?|Autophagy and intermittent fasting the connection for cancer therapy?]]
+    - demonstrated that IF (48-hour fasting) reduced the glucose and IGF1 levels by 60% and 70%, respectively, in a breast cancer animal model.
+
+  - [[_document_ - Lysosome biogenesis Regulation and functions|Lysosome biogenesis Regulation and functions]]
+    - elegans defective in multiple pathways that depend on autophagy-lysosome functions, including food intake, mitochondrial respiration, insulin/IGF1-1 signaling (IIS), TOR signaling, and germline signaling (Lapierre et al., 2013; Nakamura et al., 2016).
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - Insulin hormone can bind to membrane-associated receptors INSR, and IGF1R, which have tyrosine kinase activity, to trigger signals associated with energy homeostasis \[\].
+
+  - [[_document_ - Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks|Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks]]
+    - miRNA lin‐4 is evident to modulate nematodes' lifespan by acting through the IIS (insulin/IGF1 signaling) pathway of senescence.
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - SIRT6 overexpression induces autophagy via attenuation of IGF1/Akt/mTOR signaling. Lu et al.
+
+
 ## Connections
 
 - [[Autophagy]]: ## Impact on Autophagy - IGF1 is a potent inhibitor of Autophagy.

@@ -27,6 +27,14 @@ Immune aging is a major driver of age-related morbidity and mortality, contribut
 ## Therapeutic Strategies
 Interventions targeting immune aging include [[Autophagy Inducer|autophagy inducers]] like [[Rapamycin]], [[Metformin]], and [[Spermidine]], as well as lifestyle changes such as [[Dietary Restriction]] and [[Exercise]].
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
+    - Here, we outline how autophagy regulates Immune Aging and discuss Autophagy Inducer that target senescent immune cells, which are major drivers of systemic aging. We examine how cutting-edge technologies, such as Single-cell Omics methods hol
+
+
 ## Connections
 
 - [[Immune Aging]]: Immune Aging, also known as [[Immunosenescence]], refers to the gradual deterioration of the [[Immune System]] with age.

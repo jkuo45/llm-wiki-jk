@@ -35,6 +35,14 @@ NQO1 expression is under the transcriptional control of [[NRF2]] via the [[Antio
 
 NQO1 represents a key enzymatic defense against adrenochrome accumulation. By reducing the [[Adrenochrome Semiquinone Radical]] and its oxidized precursors to less reactive hydroquinone forms, NQO1 limits aminochrome-induced oxidative damage. This protective axis is particularly important in tissues with high catecholamine turnover, such as the [[Adrenal gland]], [[Myocardium]], and central nervous system. Induction of NQO1 via Nrf2 activation represents a potential therapeutic strategy to mitigate adrenochrome-associated pathology.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - mitohormesis|mitohormesis]]
+    - Verify Downstream Mitohormetic Transcriptional Activation: - Assay: In cell culture, measure nuclear translocation of NRF2 (via immunofluorescence or Western blot) and monitor the expression of downstream targets (HO-1, NQO1, PGC1-α) 4 to 24 hours post-trea...
+
+
 ## Connections
 
 - [[NRF2]]: **NQO1 (NAD(P)H:quinone oxidoreductase 1)** is a multi-functional antioxidant enzyme that is regulated by NRF2 and pr...

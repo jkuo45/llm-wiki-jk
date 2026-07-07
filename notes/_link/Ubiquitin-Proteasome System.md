@@ -30,6 +30,14 @@ UPS dysfunction is a hallmark of [[Parkinson's Disease]] and is closely linked t
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - ic disorders]], leucine zipper transcription Factors, TGF-β Signaling, Hypusination, Tumor Suppressor, Translation Initiation, MAPK Signaling, ERK Signaling, Lysosomal Localization, Nuclear Export, Cell Cycle, Energy Homeostasis, PI3K-Akt Signaling, Amino A...
+
+
 ## Connections
 - [[TFEB]] — master transcription factor for lysosomal biogenesis and autophagy
 - [[STUB1]] — interacts with Ubiquitin-Proteasome System

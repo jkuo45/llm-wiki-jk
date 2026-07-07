@@ -24,6 +24,14 @@ siRNA is a powerful tool used to investigate the function of genes and to develo
 - **Inhibit Survival Genes**: Silencing [[Bcl-2]] or [[Bmi-1]] to enhance the efficacy of chemotherapy (e.g., [[Doxorubicin]]).
 - **Radiosensitization**: Enhancing the response of tumors to radiation therapy.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - For example, the use of Bcl-2 specific siRNA had been shown to specifically inhibit the expression of target gene _in vitro_ and _in vivo_ with anti-proliferative and pro-apoptotic effects observed in Pancreatic Cancer cells \[\].
+
+
 ## Connections
 - [[Apoptosis]]: Used to induce death by silencing anti-apoptotic genes.
 - [[XIAP]] / [[Survivin]]: Common targets for siRNA-mediated sensitization.

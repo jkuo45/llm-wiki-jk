@@ -41,6 +41,14 @@ Synthetic LXR agonists (e.g., [[GW3965]], [[T0901317]]) demonstrate potent anti-
 - Suggested new entity notes to create: [[Oxysterols]], [[RXRα]], [[LXR response element]], [[SUMOylation]], [[SREBP-1c]], [[Reverse cholesterol transport]], [[ABCG1]], [[NCoR]], [[GW3965]], [[T0901317]]
 - Strong connections to strengthen: [[LXRα]] ↔ [[Oxidative Stress]], [[LXRα]] ↔ [[Atherosclerosis]], [[LXRα]] ↔ [[NF-kappa B]]
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - This was true in vivo, as well as in vitro on human macrophages and vascular smooth muscle cells \[, \]; vitamin E supplementation was also useful to upregulate PPARγ, LXRα, and ABCA1, in ApoE knockout mice, ameliorating early (but not advanced) atheroscler...
+
+
 ## Connections
 
 - [[Cholesterol]]: # LXRα Liver X receptor alpha (LXRα) is a nuclear receptor that plays a central role in the regulation of Cholesterol...

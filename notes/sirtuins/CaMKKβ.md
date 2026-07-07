@@ -34,6 +34,14 @@ CaMKKβ is the critical link in the resveratrol signaling cascade: [[Resveratrol
 
 CaMKKβ is highly expressed in the [[Brain]], where it regulates [[Appetite]], [[Energy Expenditure]], and [[Neuronal Plasticity]]. In peripheral tissues, it mediates Ca2+-dependent metabolic responses to [[Exercise]] and [[Hormesis]]. Dysregulation of CaMKKβ is implicated in [[Obesity]], [[Type 2 Diabetes]], and [[Cancer]].
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins (resveratrol), gemini|sirtuins (resveratrol), gemini]]
+    - AMPK Activation: The surge in cytoplasmic Ca2+ activates CaMKKβ (calmodulin-dependent protein kinase kinase beta), which phosphorylates and activates AMPK (AMP-activated protein kinase). 5.
+
+
 ## Connections
 
 - [[Epac1]] — Upstream activator; triggers Ca2+ release that activates CaMKKβ

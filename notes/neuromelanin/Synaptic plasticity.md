@@ -29,6 +29,14 @@ In PD, loss of nigrostriatal terminals flattens dopaminergic modulation, degradi
 
 Therapeutics aiming to preserve or reinstate physiological synaptic plasticity—rather than simply elevating dopamine—are a frontier in PD research, including glutamatergic modulators, [[Deep Brain Stimulation]], and α-synuclein-targeted agents that protect [[Synaptic Vesicles]] and [[Alpha-synuclein]]-mediated vesicle cycling.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator|Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator]]
+    - One of the strongest proposals for memory in human brains involves Synaptic plasticity, that is, the extensive pattern of connections between the neurons can be altered through strengthening (by repeated stimulation) or weakening (by lack of stimulation) of...
+
+
 ## Connections
 
 - [[Synapse]]: The junction whose strength plasticity modifies.

@@ -44,6 +44,32 @@ Howitz et al. (2003) identified resveratrol as an activator of mammalian [[SIRT1
 
 Resveratrol lacks a catechol structure and does not compete for [[COMT]], making it a safe anti-inflammatory option for slow COMT individuals.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - Here are some alternative natural Anti-inflammatory supplements that don’t interact with COMT: - Berberine - Resveratrol - Melatonin - Hesperidin Methyl-donor supplements increase COMT reactions: The COMT enzyme needs Methyl groups for its reactions, and in...
+
+  - [[_document_ - xenohormesis, mitohormesis|xenohormesis, mitohormesis]]
+    - I've pinpointed key compounds like Resveratrol, Quercetin, Curcumin, and EGCG, along with their biochemical targets: Sirtuins, AMPK, and the NRF2 Pathway]]. These targets are critical in the survival response, which aligns with Caloric Restriction.
+
+  - [[_document_ - The Sirtuin System The Holy Grail of Resveratrol?|The Sirtuin System The Holy Grail of Resveratrol?]]
+    - Resveratrol, a relatively new antioxidant has gained considerable curiosity. This polyphenol Stilbene identified in grape skin, is believed to be the main component contributing to the anti-atherosclerotic benefits linked to red wine consumption.
+
+  - [[_document_ - sirtuins (overview, CD38 KO risks, cancer therapies)|sirtuins (overview, CD38 KO risks, cancer therapies)]]
+    - Activators (e.g., Resveratrol for SIRT1, NAD+ precursors like Nicotinamide Mononucleotide/Nicotinamide Riboside) and inhibitors are under study for metabolic, Neurodegenerative Diseases, and oncologic conditions.
+
+  - [[_document_ - sirtuins (resveratrol), gemini|sirtuins (resveratrol), gemini]]
+    - Resveratrol, Sirtuins & Dietary Sources Resveratrol and SIRT1 The interaction be
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - Keywords ADP-ribosyl transferase activity; Caloric Restriction; deacetylase activity; Resveratrol; Sir2 (yeast) (silent information regulator 2); Sirtuins (SIRT1–SIRT
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - SIRT1 deficiency increased microvascular inflammation in obese septic mice, while Resveratrol treatment decreased leukocyte/platelet adhesion and E-selectin/intercellular adhesion molecule (ICAM-1) expression accompanied by increased SIRT1 expression and im...
+
+
 ## Connections
 - [[SIRT1]] — Primary molecular target
 - [[Caloric Restriction]] — Resveratrol mimics CR effects

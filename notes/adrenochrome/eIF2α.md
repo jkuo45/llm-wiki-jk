@@ -30,6 +30,14 @@ Phosphorylated eIF2α sequesters the guanine nucleotide exchange factor eIF2B, p
 
 In the context of the [[Mitohormetic Redox-Relay]], mitochondrial matrix ROS activates [[OMA1]], which cleaves [[DELE1]]. Cleaved DELE1 translocates to the cytosol and binds [[HRI]], leading to eIF2α phosphorylation and subsequent [[ATF4]] translation. This OMA1-DELE1-HRI-eIF2α-ATF4 axis provides a direct signaling route from mitochondrial dysfunction to the nucleus.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - For example, mutant Satellite Cells unable to phosphorylate eIF2α increase their translation rates and subsequently exit quiescence (Zismanov et al., 2016).
+
+
 ## Connections
 
 - [[HRI]] ↔ The mitochondrial stress-activated kinase that phosphorylates eIF2α.

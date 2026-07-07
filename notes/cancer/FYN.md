@@ -29,6 +29,14 @@ FYN regulates T-cell receptor signaling, neuronal development, and cytoskeletal 
 
 FYN is amplified or activated in several cancers, including [[Colon Cancer]], [[Breast Cancer]], and [[Glioblastoma]], where it supports invasion, survival, and therapy resistance. By inhibiting Caspase-8, FYN contributes to resistance against death-receptor agonists and [[Chemotherapy]]. FYN also cooperates with [[EMT]] programs to enable [[Metastasis]]. SFK inhibitors (dasatinib, saracatinib, bosutinib) inhibit FYN and can restore apoptosis sensitivity, and are being tested in combination regimens. Targeting FYN–Caspase-8 crosstalk is an active area for sensitizing resistant tumors.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - Caspase-8 | | SRC kinase, FYN, LYN (SHP1) | Tyr397 (Tyr380) | Suppression of activity | Colon Cancer | | C
+
+
 ## Connections
 
 - [[Caspase-8]]: Direct FYN substrate phosphorylated to suppress apoptosis.

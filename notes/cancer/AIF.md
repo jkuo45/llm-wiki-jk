@@ -31,6 +31,17 @@ Beyond cell death, AIF is essential for life: AIFM1 loss causes a severe mitocho
 - **Resistance**: Caspase-deficient or [[Apoptosis]]-resistant tumors may still be killed via AIF, making it a therapeutic target of interest. Conversely, AIF downregulation can confer resistance to certain cytotoxic drugs.
 - **Neuroprotection Interface**: Because AIF release also occurs in excitotoxic and ischemic injury, AIF inhibitors are explored neuroprotectively — a balance relevant where tumor and normal tissue share apoptotic vulnerability.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - Other apoptotic factors that are released from the mitochondrial intermembrane space into the cytoplasm include AIF, Smac DIABLO, Smac DIABLO and Omi/HtrA2 \[\].
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - SIRT1 also promotes PARP-1-mediated cell survival in response to DNA damage via AIF (apoptosis inducing factor) . SIRT1 also deacetylates Lys and Lys of the histone variant H2A.Z, a factor known to promote cardiac hypertrophy.
+
+
 ## Connections
 
 - [[Intrinsic Pathway]]: AIF release is triggered by MOMP.

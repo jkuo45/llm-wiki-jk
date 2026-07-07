@@ -99,6 +99,14 @@ The MRR framework suggests several clinical applications:
 - **[[Neuroprotection]]**: [[BDNF]] upregulation via FGF21 signaling.
 - **[[Aging]]**: Senomorphic effects of controlled ROS signaling combined with senolytic clearance by intermittent mitophagy induction.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - mitohormesis|mitohormesis]]
+    - Strategy I: The Mitohormetic Redox-Relay (MRR) Primary Target: Mitochondrial Dysfunction & Energy Failure 1.1 Composition Trigger: Carbazochrome (Stabilized Adrenochrome derivative) at sub-micromolar concentrations.
+
+
 ## Connections
 
 - [[Mitohormesis]]: The **Mitohormetic Redox-Relay (MRR)** is a therapeutic strategy designed to address mitochondrial dysfunction by usi...

@@ -42,6 +42,14 @@ Elevated urinary 8-oxodG has been reported in:
 - **[[Aging]]**: Urinary 8-oxodG increases with age, though the trajectory is modifiable by lifestyle.
 - **[[Lifestyle and Environmental Factors]]**: Smoking, air pollution (PM2.5, polycyclic aromatic hydrocarbons), occupational exposures (asbestos, silica), high-fat diets, and lack of [[Exercise]] are all associated with elevated 8-oxodG. Conversely, [[Caloric Restriction]] and [[Mediterranean Diet]] interventions reduce levels.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - Even DNA is prone to oxidative stress-related lesions, the most representative of which is the 8-oxo-2'-deoxyguanosine formation; this is a particularly pernicious DNA lesion, which can be responsible for both mutagenesis, as pointed out by Nishida et al.
+
+
 ## Connections
 - [[Oxidative Stress]]: 8-oxodG is the most validated biomarker of oxidative DNA damage.
 - [[DNA Repair]]: OGG1 and BER are the major repair pathways for 8-oxodG.

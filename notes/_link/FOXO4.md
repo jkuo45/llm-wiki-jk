@@ -28,6 +28,17 @@ FOXO4 is directly targeted by sirtuin-mediated deacetylation in response to oxid
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - There are four FOXOs and so far SIRT1 has been shown to deacetylate three of them: FoxO1, FOXO3a and FOXO4. The LXXLL motif of FoxO1 has been shown to be indispensable for its transcriptional regulation and for SIRT1 binding.
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - The effect of SIRT1 and SIRT3 on FoxOs: A family of SIRT targets are class O mammalian forkhead transcription factors (FoxO1, FOXO3a, FOXO4 and FOXO) which participate in regulating oxidative stress.
+
+
 ## Connections
 - [[SIRT1]] — deacetylates FOXO4, restoring its transactivation potential under oxidative stress
 - [[FoxO1]] / [[FOXO3a]] — sister transcription factors also deacetylated by SIRT1

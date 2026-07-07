@@ -31,6 +31,14 @@ aliases: []
 
 Ketogenesis produces acetoacetate and β-hydroxybutyrate during fasting. β-Hydroxybutyrate induces [[Autophagy]] by inhibiting HDACs and activating [[FOXO]].
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - Under fasting conditions, the inhibition of mTORC1 (AMP/ATP↑) can lead to the activation of autophagy, promotion of Ketogenesis, and inhibition of glycolysis and glutaminolysis in tumor cells \[\].
+
+
 ## Connections
 
 - [[Caloric Restriction]]: ## Triggering Factors - Ketogenesis is induced during periods of low glucose availability, such as: - Caloric Restric...

@@ -41,6 +41,14 @@ Dietary AGEs (dAGEs), pre-formed during high-temperature cooking (grilling, roas
 
 - Additional new links: [[Furfurals]], [[Reductones]], [[3-deoxyglucosone]], [[Glyoxal]], [[Methylglyoxal]], [[2-Acetyl-1-pyrroline]], [[Furaneol]], [[Pyrazines]], [[Cysteine]], [[Thiols]], [[Thiophenes]], [[Proline]], [[Methionine]], Steak, Bread, Coffee, Beer, French fries, [[Collagen]], [[Elastin]], [[Lens crystallins]], [[Cataract]], [[RAGE]], [[NFκB]], [[Vascular inflammation]], [[Gastrointestinal Tract]], [[Oxidative Stress]]
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Dietary Advanced Glycation End Products and Aging|Dietary Advanced Glycation End Products and Aging]]
+    - Keywords: advanced glycation end products, aging, Maillard reaction 1\. Introduction Advanced Glycation End Products (AGEs) are a heterogeneous, complex group of compounds that are formed mainly via the Maillard Reaction.
+
+
 ## Connections
 
 - [[Advanced Glycation End Products]]: In a biological context, the Maillard reaction is responsible for the endogenous formation of Advanced Glycation End ...

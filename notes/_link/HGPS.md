@@ -24,6 +24,14 @@ aliases: [Hutchinson-Gilford Progeria Syndrome, Progeria]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks|Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks]]
+    - Increase methylation of lysine residues of H4 protein called H4K20Me3 and it is found to be a lethal cause for HGPS (Hutchinson Gilford Progeria Syndrome).
+
+
 ## Connections
 - [[HGPS]] — related entity
 

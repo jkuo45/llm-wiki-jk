@@ -19,6 +19,14 @@ Slow [[COMT]] variants ([[Val158Met]] Met/Met) may lead to slower clearance of c
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - Other Catechols include Estrogen metabolites as well as drugs and Natural Substances with a catechol structure. The COMT enzyme plays an essential role in maintaining Neurotransmitters levels at the right amount.
+
+
 ## Connections
 - [[COMT]]: Enzyme responsible for methylating catechol estrogen metabolites.
 - [[Methylation]]: The process by which estrogen is neutralized.

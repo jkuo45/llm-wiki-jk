@@ -37,6 +37,14 @@ PIDD is a ~110 kDa protein with three distinct domains:
 
 PIDD sits at a critical node connecting p53-dependent apoptosis to caspase-2 activation, making it a potential therapeutic target. Loss of PIDD expression dampens caspase-2-mediated [[BID]] cleavage, reducing apoptotic capacity in response to genotoxic chemotherapy. Conversely, PIDD overexpression can sensitize tumor cells to [[DNA damage|DNA-damaging agents]]. The dual role of PIDD in both apoptosis and [[NF-κB]]-mediated survival reflects a rheostat function that may influence chemoresistance. Pharmacological modulation of the PIDDosome is under investigation as a strategy to reinstate apoptosis in p53-mutant or p53-deficient cancers.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Evading apoptosis in cancer|Evading apoptosis in cancer]]
+    - Of note, Caspase-2 is activated via formation of the PIDDosome, a complex which consists of the adaptor proteins PIDD (p53-induced death domain protein) and RAIDD (RIP-associated protein with a death domain).
+
+
 ## Connections
 
 - [[PIDDosome]]: Multiprotein complex nucleated by PIDD that activates caspase-2.

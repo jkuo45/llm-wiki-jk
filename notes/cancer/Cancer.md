@@ -45,6 +45,53 @@ Key hallmarks include sustained proliferative signaling, evasion of growth suppr
 
 Approaches include chemotherapy ([[Cisplatin]], [[docetaxel]]), targeted therapy ([[trastuzumab]]), [[Drug Repositioning]] ([[Ivermectin]], [[Fenbendazole]]), and natural products ([[melittin]]).
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Autophagy and intermittent fasting the connection for cancer therapy?|Autophagy and intermittent fasting the connection for cancer therapy?]]
+    - REVIEW ARTICLE Under a Creative Commons license Open access KEYWORDS Apoptosis Macroautophagy Intermittent Fasting Cancer Therapy Autophagy: definition and mechanisms The 2016 Nobel Prize in Physiology or Medicine was awarded to Yoshinori Ohsumi for his ini...
+
+  - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
+    - The shared aetiology of age-associated disorders, such as Atherosclerosis, Cardiovascular Disease, Osteoarthritis, Osteoporosis, Type 2 Diabetes Mellitus, Cancer and Neurodegenerative Diseases is still poorly understood (Nikolich-Žugich, 2018).
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - We also describe how Cancer cells make use of TFEB and TFE3 to promote their own survival, and highlight the potential of these transcription factors as therapeutic targets for the treatment of neurological and Lysosomal Storage Diseases.
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - IF may be an alternative method to conventional therapeutic regimes by exerting oncostatic properties and even increasing Cancer patients' tolerance to Chemotherapy.
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - tumor formation and Angiogenesis, Insulin Resistance, adipogenesis and T-lymphocyte activation) and is deregulated in human diseases such as Cancer and type 2 diabetes. These observations have attracted broad scientific and clinical interest in mTOR.
+
+  - [[_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug|Ivermectin, a potential anticancer drug derived from an antiparasitic drug]]
+    - On the other hand, ivermectin promotes programmed cancer cell death, including Apoptosis, Autophagy and Pyroptosis. Ivermectin induces apoptosis and autophagy is mutually regulated.
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - Medication and vitamin interactions with COMT: Vitamin E and COMT: A 10-year follow-up to a trial on Vitamin E (Alpha-tocopherol) supplementation showed that the COMT rs4680 variants impacted the risk of Cancer.
+
+  - [[_document_ - Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic|Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic]]
+    - Reprogramming generates newly differentiated cells for potential therapies in Cancer, Neurodegenerative Diseases, and Rejuvenation processes. In cancer therapies, these transcription factors lead to a reduction in the siz
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - Quiescence in cancer. Although typically considered to be highly proliferative cells, many Cancer can also enter a quiescent state.
+
+  - [[_document_ - Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks|Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks]]
+    - Cardiovascular diseases are most commonly associated with age, followed by Diabetes Mellitus, Alzheimer's, Parkinson's, and specific type of Cancer also. Early detection of aging biomarkers can be a preventive measure for clinicians.
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - The role of Senescence in Cancer is well documented (Burton & Krizhanovsky, ; Munoz‐Espin & Serrano, ).
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - While we tend to describe oxidative stress just as harmful for human body, it is true as well that it is exploited as a therapeutic approach to treat clinical conditions such as Cancer, with a certain degree of clinical success.
+
+  - [[_document_ - sirtuins (overview, CD38 KO risks, cancer therapies)|sirtuins (overview, CD38 KO risks, cancer therapies)]]
+    - They are implicated in Longevity, Caloric Restriction benefits, and age-related diseases like Diabetes Mellitus, Cancer, Neurodegenerative Diseases, and Cardiovascular Disease.
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - It does so not by keeping animals in a unhealthy state for a longer time, but by actually retarding age-related deterioration, such as by decreased collagen elasticity, development of insulin resistance, a decline in immune function, neuro-behavioural impai...
+
+
 ## Connections
 - [[Aging]] — Primary risk factor; shared epigenetic mechanisms
 - [[Oxidative Stress]] — Drives DNA damage and mutagenesis

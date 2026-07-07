@@ -19,6 +19,17 @@ Transition metals can catalyze the oxidation of [[Epinephrine]]. By sequestering
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - US4501923A - Process for preparing adrenochrome|US4501923A - Process for preparing adrenochrome]]
+    - After active carbon treatment and addition of EDTA the purified product was precipitated by the addition of acetic acid to pH 5.5. The adrenochrome monosemicarbazone was isolated in the conventional manner.
+
+  - [[_document_ - formation, chemical stability|formation, chemical stability]]
+    - The Science: Using a chelating agent (like EDTA) binds these metals, making them inert. Without the metal catalyst, the autoxidation of Epinephrine slows down drastically.
+
+
 ## Connections
 - [[Glyco-Oxidative Proteostasis Shield]] — interacts with
 - [[Epinephrine]] — interacts with

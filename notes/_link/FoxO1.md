@@ -52,6 +52,26 @@ The _C. elegans_ FOXO orthologue **DAF-16** is required for _sir-2.1_-mediated l
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - Gluconeogenesis is reduced in the presence of insulin following the phosphorylation of FoxO1 \[,\].
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - Inhibition of Akt following mTORC2 depletion reduces the phosphorylation of, and therefore activates, the FoxO1 and FOXO3a transcription factors, which control the expression of genes involved in stress resistance, metabolism, cell-cycle arrest and Apoptosi...
+
+  - [[_document_ - sirtuins (resveratrol), gemini|sirtuins (resveratrol), gemini]]
+    - FOXO Transcription Factors (Stress Resistance & Autophagy) - Mechanism: SIRT1 deacetylates FoxO1 and FOXO3a. Result: This shifts FOXO-mediated transcription away from apoptosis-inducing genes and toward stress-resistance genes.
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - There are four FOXOs and so far SIRT1 has been shown to deacetylate three of them: FoxO1, FOXO3a and FOXO4. The LXXLL motif of FoxO1 has been shown to be indispensable for its transcriptional regulation and for SIRT1 binding.
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Moreover, SIRT6 deficiency in Macrophages resulted in inflammation with increases in acetylation and greater stability of the FoxO1. Conversely, the ectopic overexpression of SIRT6 in KO cells reduced the inflammatory response.
+
+
 ## Connections
 - [[SIRT1]] — directly deacetylates FOXO1; primary regulatory relationship
 - [[Caloric Restriction]] — SIRT1-mediated FOXO1 deacetylation is a downstream effect of CR

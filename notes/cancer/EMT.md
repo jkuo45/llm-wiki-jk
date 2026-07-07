@@ -33,6 +33,17 @@ Physiologically, EMT drives embryogenesis, wound healing, and fibrosis. Patholog
 
 EMT status is a prognostic biomarker and a therapeutic target. Strategies include TGF-β blockade, EMT-TF inhibition, and repurposed agents (ivermectin, metformin) that reverse the mesenchymal state. Combining EMT inhibition with [[Chemotherapy]] or immunotherapy aims to prevent dissemination and resensitize resistant disease. Liquid-biopsy detection of EMT-derived circulating tumor cells informs metastatic risk.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug|Ivermectin, a potential anticancer drug derived from an antiparasitic drug]]
+    - Open in a new tab Abbreviations: ASC, Apoptosis-associated speck-like protein containing a CARD; ALCAR, acetyl-L-carnitine; CSCs, Cancer Stem Cells; DAMP, Damage-associated molecular pattern; EGFR, Epidermal growth factor receptor; EBV, Epstein-Barr virus; ...
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - An increasing number of studies have shown that SIRTs play important roles in the molecular mechanisms of cell migration and invasion, such as regulation of TGF-β signaling and epithelialto-mesenchymal transition (EMT).
+
+
 ## Connections
 
 - [[Metastasis]]: EMT is the initiating cellular program.

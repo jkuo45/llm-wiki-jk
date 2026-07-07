@@ -22,6 +22,17 @@ Aminoguanidine has been shown to prevent diabetic renal, retinal, and neural com
 - Inhibition of nitric oxide (NO) synthase.
 - Potential DNA damage by free radical production.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Dietary Advanced Glycation End Products and Aging|Dietary Advanced Glycation End Products and Aging]]
+    - A study with long-term (24–30 weeks) administration of Aminoguanidine (an inhibitor of AGE formation) showed prevention of the age-related Cardiac Hypertrophy and arterial stiffness \[\].
+
+  - [[_document_ - US4501923A - Process for preparing adrenochrome|US4501923A - Process for preparing adrenochrome]]
+    - Adrenochrome is very unstable due to its o-quinone and, therefore, is usually stabilized by conventional derivation with Hydrazine, e.g., Aminoguanidine, Semicarbazide, phenylhydrazine, o-nitrophenylhydrazine, p-nitro phenylhydrazine and 2,4-dinitrophenylhy...
+
+
 ## Connections
 - [[Adrenochrome]]: Stabilized by aminoguanidine to form [[Adrenochrome monoaminoguanidine]].
 - [[Adrenochrome monoaminoguanidine]]: The stable derivative formed.

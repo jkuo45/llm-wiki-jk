@@ -43,6 +43,14 @@ NaB is used at 2–5 mM for 24–48 h to induce [[Histone Acetylation|hyperacety
 
 NaB is rapidly metabolized ([[β-oxidation]] in most cells), limiting the duration of HDAC inhibition. It also has off-target effects: GPR41/43 ([[GPCR]]) activation at low µM, and modulation of cellular metabolism via β-oxidation. [[Trichostatin A]] (TSA; IC50 ~1 nM) or [[Suberoylanilide hydroxamic acid|SAHA]] are preferred when isoform selectivity is not required.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - aziquone|diaziquone]]), and (2c) drugs with complex effects (Actinomycin D, Bleomycin, Temozolomide); (3) Epigenetic Modifiers that inhibit DNA Methyltransferase (Decitabine), Histone Deacetylase (Sodium Butyrate, Trichostatin A, Entinostat, Vorinostat, Pan...
+
+
 ## Connections
 
 - [[Butyrate]]: **Sodium Butyrate** (NaB) is the sodium salt of butyric acid, a short-chain fatty acid (SCFA) produced by gut microbi...

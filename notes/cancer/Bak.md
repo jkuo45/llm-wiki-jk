@@ -27,6 +27,20 @@ Bak activity is regulated by [[Phosphorylation|phosphorylation]]:
 ## Role in Cancer
 Loss of Bak expression or function, often in combination with loss of Bax, is a common mechanism by which cancer cells evade apoptosis.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - Bax, Bak, Bad, Bcl-Xs, Bid, Bik, Bim and Hrk) and the anti-apoptotic proteins (e.g. Bcl-2, Bcl-xL, Bcl-w, A1-Bfl-1 and Mcl-1) \[\].
+
+  - [[_document_ - Caspase|Caspase]]
+    - p38 MAPK | ND | Activation | Required during anoikis | | Bak | | Unidentified (PTPN2, PTPN5, PTPN23) | Tyr108 | Inactivation | Fibrosarco
+
+  - [[_document_ - Evading apoptosis in cancer|Evading apoptosis in cancer]]
+    - Bax and Bak \[Bcl2 antagonist/killer\], which share BH1-BH3 domains). Following cytotoxic or genotoxic stress, Bcl-2 family are activated and promote oligomerization of Bax (or Bak), resulting in MOMP, whereas pro-survival members (e.g.
+
+
 ## Connections
 - [[Bcl-2 family]]: A core pro-apoptotic effector.
 - [[Bax]]: Works with Bak to form mitochondrial pores.

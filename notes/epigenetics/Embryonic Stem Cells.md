@@ -31,6 +31,17 @@ The core pluripotency network is wired by the transcription factors [[Oct4]], [[
 
 ESCs were the original substrate for studying mammalian [[Embryonic Development]] and for validating the Yamanaka reprogramming principle later applied to somatic cells. They remain essential for developmental biology, [[Disease Modeling]], [[Drug Discovery]], and [[Regenerative Medicine]]. The major limitation is ethical and legal restriction on human embryo use, alongside the risk of [[Teratoma]] formation if undifferentiated cells are transplanted.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic|Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic]]
+    - They have the potential of unlimited proliferation and differentiation, like Embryonic Stem Cells (ESCs), and give rise to different cells and tissue types, such as connective, epithelial, muscle, and nervous cells and tissues.
+
+  - [[_document_ - Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network|Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network]]
+    - Human Embryonic Stem Cells research has been fuelled by the potential of using their Regenerative Medicine in cell replacement therapies. To date, only three clinical trials using Embryonic Stem Cells therapy have been approved by the U.S.
+
+
 ## Connections
 - [[Pluripotency]]: The defining developmental potential of ESCs.
 - [[Blastocyst]]: The pre-implantation stage from whose ICM ESCs are derived.

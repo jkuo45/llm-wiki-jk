@@ -33,6 +33,14 @@ The hallmark symptom of pediculosis is intense pruritus (itching) driven by a hy
 
 **Pubic lice**: Treated with 1% permethrin cream rinse or oral ivermectin 200 µg/kg repeated in 7–10 days. Sexual partners and close household contacts should be treated simultaneously. Clothing and bedding should be washed in hot water.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, ‘Wonder drug’ from Japan the human use perspective|Ivermectin, ‘Wonder drug’ from Japan the human use perspective]]
+    - It is used to treat a variety of internal Onchocerca volvulus infections, including Onchocerciasis, Strongyloidiasis, Ascariasis, cutaneous larva migrans, Lymphatic Filariasis, Gnathostomiasis and Trichuriasis, as well as for oral treatment of ectoparasitic...
+
+
 ## Connections
 
 - [[Ivermectin]]

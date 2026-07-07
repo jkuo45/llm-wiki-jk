@@ -38,6 +38,53 @@ Epigenetic dysregulation is considered one of the **hallmarks of aging**. It act
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Dietary Advanced Glycation End Products and Aging|Dietary Advanced Glycation End Products and Aging]]
+    - S-transferase]], UDP glucuronyl-transferase, Pyrraline, hPEPT1, AGER1, Caloric Restriction, Tai Chi, Malondialdehyde, benfotiamine, Metformin, Aspirin, polycystic ovary disease, Orlistat - Suggested new entity notes to create: - Strong connections to streng...
+
+  - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
+    - Autophagy, as the key nutrient recycling pathway, enables eukaryotic cells to adapt to surging cellular stress during Aging and, thereby, delays age-associated deterioration.
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - In addition, diminished or aberrant autophagic/lysosomal function is a common phenomenon during Aging and has been linked to several Neurodegenerative Diseases.
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - Likewise, a severe reduction in autophagy activity can contribute to diverse pathological conditions such as genome instability, anaplastic changes, infection, premature Aging, and Metabolic Disease \[, , , , \].
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - Quiescence in aging. The capacity for dysregulation of quiescence to lead to pathology is exemplified in Aging.
+
+  - [[_document_ - Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks|Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks]]
+    - Aging is the process of gradual physiological deterioration till death and this process perpetually reduce the functionality of an individual.
+
+  - [[_document_ - Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network|Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network]]
+    - parativeC\(T\)method.-1108&doi=&)\] Linking Summary: - New links added: Somatic Cells, Induced Pluripotent Stem Cells, Oct4, Sox2, Klf4, c-Myc, OSKM, Pluripotency, Fibroblasts, p53, Aging, Apoptosis, Cellular Reprogramming, Epithelial-to-Mesenchymal Transit...
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - Keywords: Senescence, Cell Stress, DNA Damage, DNA Replication Stress, Epigenetic Modifiers, Aging --- Senescence is a stable arrest of the Cell Cycle and is characterized by complex phenotypic changes.
+
+  - [[_document_ - The Gut Microbiome, Aging, and Longevity A Systematic Review|The Gut Microbiome, Aging, and Longevity A Systematic Review]]
+    - Tanya T Nguyen 1,2,8,,† PMCID: Abstract Aging is determined by complex interactions among genetic and environmental factors.
+
+  - [[_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator|Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator]]
+    - Many investigators have assumed that the accumulation of NM pigment is simply an unavoidable by-product of Aging.
+
+  - [[_document_ - The Sirtuin System The Holy Grail of Resveratrol?|The Sirtuin System The Holy Grail of Resveratrol?]]
+    - Applications Resveratrol has demonstrated a wealth of promising benefits, such as anti-Aging \[\], anti-inflammatory \[\], and anti-Diabetes Mellitus \[\] effects; and further as a potent anti-viral \[\] and anti-neoplastic \[\] agent.
+
+  - [[_document_ - sirtuins (overview, CD38 KO risks, cancer therapies)|sirtuins (overview, CD38 KO risks, cancer therapies)]]
+    - They play key roles in Metabolism, Aging, stress response, DNA Repair, Inflammation, gene expression, and cellular homeostasis.
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - Sir2 (yeast) homologues also modulate lifespan in worms and flies, and may underlie the beneficial effects of Caloric Restriction (CR), the only regimen that slows Aging and extends lifespan of most classes of organism, including mammals.
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Digestive system diseases, including fatty liver diseases (FLDs), liver and intestinal ischemiareperfusion injury (IRI), Aging, pancreas diseases, and inflammatory bowel diseases (IBDs), are the most common clinical diseases.
+
+
 ## Connections
 - **[[DNA Methylation]]**: The primary epigenetic mark used to measure biological age.
 - [[Epigenetic Clock]]: Tools developed to quantify the aging process using DNA methylation data.

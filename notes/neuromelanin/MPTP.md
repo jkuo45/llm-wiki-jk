@@ -32,6 +32,17 @@ MPTP lesions reproduce the motor, neurochemical, and (partially) pathological fe
 
 MPTP itself is a controlled reference; its legacy is the recognition that subtle environmental toxins can trigger parkinsonism and that mitochondrial [[Complex I]] deficits are central to the disease. Neuromelanin-sensitive [[Magnetic Resonance Imaging]] and DAT imaging are used to characterize MPTP lesions.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator|Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator]]
+    - Neuromelanin can reversibly bind and interact with amine containing neurotoxins, e.g., MPTP, to augment their actions in the terminal, eventually leading to the instability and degeneration of melanin-containing neurons due to Oxidative Stress and Mitochond...
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - PGC-1 _α_ null-mice are, for example, considerably more sensitive to neuronal loss by the reactive oxygen species generating compounds and neurotoxic agents MPTP (1-methyl-4-phenyl-1,2,3,6-tetrahydro-pyridine) and kainic acid, which disrupt the Substantia N...
+
+
 ## Connections
 
 - [[Parkinson's Disease]] - syndrome replicated by MPTP exposure.

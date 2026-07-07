@@ -17,6 +17,14 @@ Alpha diversity is a measure of the richness and evenness of species within a si
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Gut Microbiome, Aging, and Longevity A Systematic Review|The Gut Microbiome, Aging, and Longevity A Systematic Review]]
+    - Alpha Diversity of microbial taxa, functional pathways, and Metabolites was higher in older adults, particularly among the oldest-old adults, compared to younger individuals.
+
+
 ## Connections
 - [[Alpha Diversity]] — related entity
 - [[Beta Diversity]] — related entity

@@ -36,6 +36,14 @@ Ca²⁺ and [[cAMP]] signaling pathways intersect to regulate [[CREB]]-dependent
 
 Dysregulated Ca²⁺ homeostasis underlies arrhythmias, excitotoxicity in neurodegeneration, and contractile dysfunction in heart failure. Sirtuin modulation of Ca²⁺-handling proteins therefore represents a mechanistic link between NAD⁺ metabolism, energy sensing, and Ca²⁺-dependent disease.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins (resveratrol), gemini|sirtuins (resveratrol), gemini]]
+    - Calcium Signaling: High cAMP activates Epac1 (Exchange Protein directly Activated by cAMP), which triggers the release of Calcium (Ca2+) from the endoplasmic reticulum into the cytoplasm. 4.
+
+
 ## Connections
 
 - [[cAMP]] — Ca²⁺ and cAMP pathways intersect to regulate [[CREB]]-dependent transcription

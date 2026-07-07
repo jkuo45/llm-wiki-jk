@@ -60,6 +60,14 @@ Viruses such as [[SARS-CoV-2]], [[hepatitis C virus]], and [[influenza]] hijack 
 
 [[Tauroursodeoxycholic Acid]] ([[TUDCA]]) and [[4-Phenylbutyrate]] ([[4-PBA]]) are chemical chaperones that reduce ER stress and improve folding capacity. [[ISRIB]] (Integrated Stress Response Inhibitor) reverses the effects of p-eIF2α, enhancing translation even under PERK activation, and shows promise in cognitive enhancement and neurodegeneration models. [[IRE1 RNase inhibitors]] ([[MKC-8866]], [[STF-083010]]) block XBP1 splicing and RIDD. [[PERK inhibitors]] ([[GSK2606414]]) have been explored but faced toxicity at high doses. [[ATF6 activators]] ([[ceapins]]) and inhibitors are under investigation.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - ER stress Accumulation of misfolded proteins in the ER is a potent stress signal that induces activation of stress responses, such as the Unfolded Protein Response (UPR) and Autophagy, with the goal of reestablishing cell homeostasis.
+
+
 ## Connections
 
 - [[Unfolded Protein Response]] — related entity

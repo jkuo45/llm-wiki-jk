@@ -25,6 +25,14 @@ In anticancer peptide engineering, a positively charged TAT sequence was grafted
 
 TAT-mediated delivery is exploited broadly to improve intracellular uptake of otherwise impermeant agents, including cytotoxic peptides, contrast agents, and siRNA. Limitations include endosomal trapping, off-target uptake (low tumor specificity), and rapid clearance — driving interest in tumor-selective ligands (e.g., [[Trastuzumab]] for HER2, [[TGF-β3]]-derived RGD motifs) as alternatives or complements.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology|Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology]]
+    - Similarly, grafting a larger positively charged TAT sequence (transactivator of transcription, derived from HIV-1) in the C-terminus of melittin also restored the activity of DEDE-melittin (peptide TAT-melittin; Supplementary Fig. 3).
+
+
 ## Connections
 
 - [[HIV-1]]: The retrovirus encoding the TAT protein.

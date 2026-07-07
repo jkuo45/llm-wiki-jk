@@ -28,6 +28,14 @@ The [[Val158Met]] polymorphism impacts:
 - Risk for [[Psychiatric Disorders]] like [[Schizophrenia]].
 - Response to certain medications like [[Modafinil]] and [[Aspirin]].
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - Fast COMT (Val158Met) A common genetic variant, called COMT Val158Met changes the way that the COMT enzyme functions.
+
+
 ## Connections
 - [[COMT]]: The gene where this polymorphism occurs.
 - [[Dopamine]]: Its levels are directly regulated by this enzyme's activity.

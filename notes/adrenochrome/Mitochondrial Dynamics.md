@@ -66,6 +66,14 @@ Mild mitochondrial stress induces adaptive changes in dynamics that contribute t
 
 Aging is consistently associated with a shift toward mitochondrial fragmentation (increased fission, decreased fusion), driven by declining OPA1 and MFN2 expression, increased OMA1 activity, and DRP1 hyperactivation. This fragmented phenotype correlates with reduced respiration, increased ROS, impaired calcium buffering, and elevated mitophagy burden. In [[Neurodegeneration]], mutations in OPA1 cause dominant optic atrophy, while MFN2 mutations cause Charcot-Marie-Tooth disease type 2A. In [[Parkinson's Disease]], Parkin-mediated ubiquitination of MFN1/2 links mitophagy failure directly to dynamics dysregulation. Cardiac ischemia-reperfusion injury triggers DRP1-dependent fragmentation that exacerbates [[Cardiotoxicity]], and inhibiting DRP1 with [[Mdivi-1]] is cardioprotective in preclinical models.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Mitohormesis - Transcriptomic analysis of mitohormesis associated with lifespan extension in Caenorhabditis elegans|Mitohormesis - Transcriptomic analysis of mitohormesis associated with lifespan extension in Caenorhabditis elegans]]
+    - Mentioned in this document
+
+
 ## Connections
 
 - [[Mitophagy]]: Fission is necessary for mitochondrial inheritance during cell division, the removal of damaged mitochondria via Mito...

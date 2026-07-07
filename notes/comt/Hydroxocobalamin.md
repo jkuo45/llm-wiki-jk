@@ -26,6 +26,14 @@ Hydroxocobalamin is the B12 form used parenterally to treat deficiency (pernicio
 
 For individuals with slow [[COMT]] variants (e.g., [[Val158Met]] Met/Met) who are sensitive to aggressive methyl donation, hydroxocobalamin is often the preferred B12. It provides B12 that the body converts to active forms at its own pace, avoiding the sudden "methyl hit" and mood swings (anxiety, insomnia) associated with direct [[MethylB12]] or high-dose [[Methylfolate]]. Paired with [[Folinic acid]], it enables measured support of the [[Methylation Cycle]] without overloading it.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - If you plan to take supplemental Vitamin B12 instead of MethylB12, look for - Adenosylcobalamin (AdenosylB12) - Hydroxocobalamin (HydroxyB12) - A combination of adenosyl and Hydroxocobalamin 5
+
+
 ## Connections
 
 - [[Vitamin B12]]: The parent vitamin; hydroxocobalamin is one natural form.

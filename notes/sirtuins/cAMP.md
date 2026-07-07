@@ -35,6 +35,17 @@ Compounds like resveratrol indirectly activate SIRT1 by manipulating cAMP degrad
 - **NAMPT and NAD⁺ Generation:** Activated AMPK upregulates [[NAMPT]], the rate-limiting enzyme in the NAD⁺ salvage pathway, thereby boosting cellular [[NAD+]] levels.
 - **SIRT1 Hyperactivation:** The increased NAD⁺ fuels SIRT1, resulting in robust deacetylation of target proteins like [[PGC-1α]] and [[FOXO3a]].
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins (resveratrol), gemini|sirtuins (resveratrol), gemini]]
+    - Direct Pathway) (Indirect Pathway) | | Binds SIRT1 NTD Inhibits PDE4 (e.g., Glu230 residue) | | Increases cAMP Allosteric change | | Activates Epac1 → Ca2+ Release Lowers Km for substrat
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - found that SIRT1-dependent cAMP Response Element Binding protein (Creb) deacetylation regulates lipid metabolism.
+
+
 ## Connections
 
 - **[[PDE4]]**: The enzyme responsible for degrading cAMP, inhibited by resveratrol.

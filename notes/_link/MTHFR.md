@@ -20,6 +20,14 @@ There is a potential interaction between [[MTHFR]] and [[COMT]] genetic variants
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - It may also depend on your MTHFR variants or other genes. Thus, take this as a ‘heads-up’ to watch out for mood swings when increasing your consumption of Methyl Donor supplements.
+
+
 ## Connections
 - [[COMT]]: Works downstream in the methylation pathway to metabolize neurotransmitters.
 - [[Folate]]: The primary substrate for the MTHFR enzyme.

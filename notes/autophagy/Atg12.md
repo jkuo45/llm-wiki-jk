@@ -24,6 +24,14 @@ aliases: []
 - The complex is required for the elongation of the phagophore.
 - Once the autophagosome is completed, the complex dissociates from the membrane.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - For this purpose, cells can use 2 pathways consisting of LC3/GABARAP/GATE-16 and Atg12 \[\]. Due to the proteolytic activity of Atg4 on the Atg8 (carboxyl terminus), a glycine residue is exposed to generate the autophagosome \[\].
+
+
 ## Connections
 
 - [[Autophagy]]: **Atg12** (Autophagy-related 12) is a ubiquitin-like protein essential for the initiation and progression of Autophagy.

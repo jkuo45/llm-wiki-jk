@@ -37,6 +37,14 @@ The efficiency and expression of DNMT1 decline as organisms [[Aging|age]].
 
 DNMT1 is a critical target in [[Cancer]] research: its overexpression can silence tumor suppressor genes, while pathogenic heterozygous mutations in *DNMT1* cause an autosomal dominant neurodegenerative/immunodeficiency syndrome (ADCA-DN). Its decline is a hallmark of the aging epigenome, making it central to longevity and genomic stability research.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks|Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks]]
+    - Methylation occurs due to the transfer of a methyl group from SAM (S‐adenosyl methionine) to the 5th carbon of cytosine molecule to form 5‐methylcytosine, by the catalyzing action of three DNA Methyltransferase namely DNMT1, DNMT3a, and DNMT3b.
+
+
 ## Connections
 
 - [[DNA Methylation]] — The process DNMT1 maintains through the cell cycle.

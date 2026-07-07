@@ -24,6 +24,14 @@ aliases: [FK506 Binding Protein 12kDa]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - Upon entering the cell, Rapamycin binds to FKBP12 and interacts with the FKBP12-rapamycin binding domain (FRB) of mTOR, thus inhibiting mTORC1 functions (reviewed by Guertin and Sabatini, 2007).
+
+
 ## Connections
 - [[FKBP12]] — related entity
 

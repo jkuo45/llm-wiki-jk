@@ -18,6 +18,14 @@ Transcriptional regulation is the process by which a cell regulates the conversi
 
 Autophagy gene transcription is controlled by [[TFEB]], [[TFE3]], [[FOXO]], [[ATF4]], [[XBP1]], [[PPARα]], [[SREBP1]], and [[ZKSCAN3]] in response to nutrients and stress.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - Suggested new entity notes to create: transcriptional regulation, translational-level regulation, ischemic injury, met
+
+
 ## Connections
 
 - [[TFEB]]: Transcriptional regulation is the process by which a cell regulates the conversion of DNA to RNA, which in the case o...

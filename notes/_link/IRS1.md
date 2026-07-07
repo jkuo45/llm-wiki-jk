@@ -24,6 +24,14 @@ aliases: [Insulin Receptor Substrate 1]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - The binding of insulin to its cell-surface receptor promotes the tyrosine kinase activity of the insulin receptor, the recruitment of IRS1, the production of PtdIns(3,4,5)P3 \PtdIns(3,4,5)P3\] through the activation of PI3K, and the recruitment and activati...
+
+
 ## Connections
 - [[IRS1]] — related entity
 

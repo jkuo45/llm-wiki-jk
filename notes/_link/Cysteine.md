@@ -66,6 +66,17 @@ Inherited disorders of cysteine metabolism highlight the amino acid's clinical i
 - **Oxidative stress and chronic disease**: Glutathione depletion—driven by cysteine insufficiency—is implicated in the pathogenesis of [[COPD]], pulmonary fibrosis, [[HIV]]/AIDS progression, and neurodegenerative diseases (Alzheimer's, Parkinson's). Aging is associated with declining transsulfuration activity and reduced tissue glutathione.
 - **N-acetylcysteine clinical applications**: NAC remains one of the most versatile amino acid-derived therapeutics: (1) **Acetaminophen overdose**: NAC replenishes glutathione to detoxify the reactive metabolite NAPQI, preventing hepatotoxicity. (2) **Mucolytic**: NAC cleaves disulfide bonds in mucus glycoproteins, reducing viscosity in COPD, cystic fibrosis, and bronchitis. (3) **Psychiatric adjunct**: Emerging evidence supports NAC as adjunctive therapy in obsessive-compulsive disorder, substance use disorders, and schizophrenia, potentially via modulation of glutamatergic neurotransmission and oxidative stress.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - intermediates, precursor, hemoglobin|intermediates, precursor, hemoglobin]]
+    - Newer formulations explore sulfite-free options like Cysteine or Thioglycerol. patents.google.com - Chelating agents: Reduce metal-catalyzed oxidation.
+
+  - [[_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator|Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator]]
+    - Such antioxidants often take the form of thiols including Cysteine and Glutathione; as such, it is perhaps not surprising that natural NM has Cysteine in its Pheomelanin core, while being surrounded by a Eumelanin component lacking Cysteine.
+
+
 ## Connections
 
 - [[Antioxidants]]

@@ -16,6 +16,14 @@ Merck & Co., Inc. (known as MSD outside the US and Canada) is an American multin
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, ‘Wonder drug’ from Japan the human use perspective|Ivermectin, ‘Wonder drug’ from Japan the human use perspective]]
+    - In the early-1970s, a novel international Public Sector–Private Sector partnership was initiated by one of us (Satoshi Ōmura, then head of the Antibiotics Research Group at Tokyo’s Kitasato Institute), forming a collaboration with the US-based Merck & Co.
+
+
 ## Connections
 - [[Ivermectin]] — Antiparasitic drug developed and donated by Merck
 - [[Avermectin]] — Class of compounds from which ivermectin was derived

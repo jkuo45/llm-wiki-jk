@@ -15,6 +15,14 @@ Semicarbazide is a chemical compound with the formula $H_2NNHCONH_2$. It is ofte
 
 It reacts with the [[o-quinone]] structure of [[Adrenochrome]] to form [[Carbazochrome]] (adrenochrome monosemicarbazone), which is more stable and has medical applications as a [[Hemostatics|hemostatic]].
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - US4501923A - Process for preparing adrenochrome|US4501923A - Process for preparing adrenochrome]]
+    - Adrenochrome is very unstable due to its o-quinone and, therefore, is usually stabilized by conventional derivation with Hydrazine, e.g., Aminoguanidine, Semicarbazide, phenylhydrazine, o-nitrophenylhydrazine, p-nitro phenylhydrazine and 2,4-dinitrophenylhy...
+
+
 ## Connections
 - [[Adrenochrome]]: Reacts with semicarbazide for stabilization.
 - [[Carbazochrome]]: The product of the reaction between adrenochrome and semicarbazide.

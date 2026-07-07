@@ -25,6 +25,14 @@ In normal cells, PKCι contributes to cell polarity and mitotic spindle function
 
 PKCι is investigated as a biomarker of aggressive disease and as a therapeutic target. Inhibitors such as aurothiomalate (ATM), CRT0066101, and isoform-selective agents reduce tumor growth and overcome apoptosis resistance in preclinical models. Combining PKCι inhibition with standard [[Chemotherapy]] is a strategy to disable survival signaling in PKCι-driven tumors.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - Bad | | PAK1, PAK4, PAK5, PKA, PKCι, RAF1, RSK | Ser112 | Inactivation | MPNST, Lung Cancer, IL-3 control | | B
+
+
 ## Connections
 
 - [[Bad]] - Pro-apoptotic Bcl-2 family protein inactivated by PKCι phosphorylation.

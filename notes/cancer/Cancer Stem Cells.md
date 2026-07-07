@@ -24,6 +24,14 @@ Key proteins associated with the self-renewal and differentiation of CSCs includ
 Targeting CSCs is crucial for effective cancer therapy.
 - [[Ivermectin]]: Preferentially targets and inhibits CSCs in breast cancer cells. It inhibits the expression of [[Nanog]], [[Oct4]], and [[Sox2]] and acts through the [[PAK1]]-[[STAT3]] axis.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug|Ivermectin, a potential anticancer drug derived from an antiparasitic drug]]
+    - Interestingly, ivermectin can also inhibit Cancer Stem Cells and reverse Multidrug Resistance and exerts the optimal effect when used in combination with other chemotherapy drugs. !graphic file with name ga1_lrg.
+
+
 ## Connections
 - [[Ivermectin]]: Acts as a potential CSC inhibitor.
 - [[PAK1]]: Regulatory kinase involved in CSC formation.

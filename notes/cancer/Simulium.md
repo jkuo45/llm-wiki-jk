@@ -25,6 +25,14 @@ Transmission requires the parasite to complete a developmental cycle inside the 
 
 Large-scale vector control has historically been achieved through larviciding of breeding rivers with temephos and, more durably, through community-directed distribution of [[Ivermectin]], which suppresses skin microfilariae and thereby interrupts transmission. The [[World Health Organization]] coordinated the Onchocerciasis Control Programme (OCP) in West Africa, and the [[TDR]] (UNDP/World Bank/WHO Special Programme) supported research into vector ecology. Because blackfly biting also causes local nuisance and agricultural disruption, vector suppression delivers broad community benefit beyond parasitic disease control.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, ‘Wonder drug’ from Japan the human use perspective|Ivermectin, ‘Wonder drug’ from Japan the human use perspective]]
+    - The parasites are transmitted via the bite of infected blackflies of the genus Simulium, which breed in highly-oxygenated, fast-flowing rivers and watercourses.
+
+
 ## Connections
 
 - [[Onchocerca volvulus]]: The filarial nematode transmitted by Simulium flies, causing onchocerciasis.

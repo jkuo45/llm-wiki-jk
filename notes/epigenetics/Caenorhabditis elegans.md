@@ -42,6 +42,14 @@ With a small, well-defined nervous system consisting of exactly 302 neurons, *C.
 
 While *C. elegans* is not a direct model for human disease, its contributions to human medicine are profound. Discoveries made in this organism—ranging from the fundamental principles of gene regulation to the identification of key longevity genes—have provided the foundational knowledge required to understand and eventually treat human diseases related to aging, metabolism, and neurodegeneration.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - Caenorhabditis elegans carrying a chromosome duplication containing SIR-2.1, the worm sirtuin most similar to yeast Sir2 (yeast) , exhibits up to a 50 % l
+
+
 ## Connections
 
 - [[Model Organism]] - The class of biological systems used for scientific inquiry.

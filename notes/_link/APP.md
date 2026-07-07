@@ -53,6 +53,14 @@ Multiple therapeutic strategies target the APP–Aβ axis:
 - **Anti-Aβ monoclonal antibodies**: [[Aducanumab]] (FDA approved 2021, accelerated approval), [[Lecanemab]] (FDA approved 2023, full approval), and [[Donanemab]] (FDA approved 2024) target aggregated Aβ species. Lecanemab and donanemab demonstrated modest but statistically significant slowing of cognitive decline (27–35% reduction in decline over 18 months) in Phase III trials (van Dyck et al., 2023, PMID: 36882058; Sims et al., 2023, PMID: 37310918).
 - **APP-targeting antisense oligonucleotides (ASOs)**: Under preclinical and early clinical investigation to reduce APP expression at the mRNA level.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - In vivo, astrocyte-specific TFEB expression lowered the levels of ISF Beta-amyloid in young APP/PS1 mice and alleviated amyloid plaque pathology in old ones (Xiao et al 2014).
+
+
 ## Connections
 
 - [[Beta-amyloid]] — Proteolytic fragment of APP; principal component of amyloid plaques

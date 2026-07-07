@@ -29,6 +29,14 @@ Like other catechol flavonoids, [[Rutin]] (via its quercetin aglycone) is O-meth
 
 Rutin and related flavonoids are studied for venous insufficiency, hemorrhage-prone capillaries, and neuroprotection. Its COMT interaction is a consideration when combining high-dose flavonoid supplements with methyl-donor regimens or COMT-sensitive pharmaceuticals.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - f]( - Quercetin - Fisetin - Luteolin - Rutin - Oleacein (olive oil polyphenol) Again, it isn’t set in stone that everyone with slow COMT will have anxiety or irritability with the above supplements.
+
+
 ## Connections
 
 - [[COMT]]: Metabolizes rutin's catechol and can be inhibited by it.

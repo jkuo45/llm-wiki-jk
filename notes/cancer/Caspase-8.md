@@ -34,6 +34,20 @@ Once activated, Caspase-8 can:
 ## Role in Cancer
 Downregulation or silencing of Caspase-8 is observed in various tumors, such as neuroblastoma and choriocarcinoma, contributing to evasion of apoptosis and resistance to therapy.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - These death receptors have an intracellular death domain that recruits adapter proteins such as TRADD and FADD, as well as cysteine proteases like Caspase-8 \[\].
+
+  - [[_document_ - Caspase|Caspase]]
+    - They are broadly categorized into initiator caspases (e.g., Caspase-2, Caspase-8, Caspase-9, Caspase-10) and executioner caspases (e.g., Caspase-3, Caspase-6, Caspase-7). Table 1.
+
+  - [[_document_ - Evading apoptosis in cancer|Evading apoptosis in cancer]]
+    - In response to various apoptotic stimuli, “initiator” Caspases (Caspase-2, Caspase-8, Caspase-9, or Caspase-10) are activated. Initiator Caspases, in turn, cleave and activate the zymogenic forms of “executioner” Caspases (e.g.
+
+
 ## Connections
 - [[Extrinsic Pathway]]: The primary initiator caspase.
 - [[FasL]]: A ligand that triggers caspase-8 activation.

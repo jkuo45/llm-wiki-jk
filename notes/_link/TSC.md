@@ -24,6 +24,14 @@ aliases: [Tuberous Sclerosis Complex, TSC1/TSC2]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - One of the most important sensors involved in the regulation of mTORC1 activity is the TSC, which is a heterodimer that comprises TSC1 (also known as hamartin) and TSC2 (also known as tuberin).
+
+
 ## Connections
 - [[TSC]] — related entity
 

@@ -26,6 +26,14 @@ As a 5-formyl substituted tetrahydrofolate, folinic acid is resistant to the dih
 
 Folinic acid is clinically established as an antidote to folic-acid antagonist toxicity (methotrexate, pyrimethamine) and as adjunctive therapy in cerebral folate deficiency and autism-spectrum protocols. In oncology it "rescues" normal cells from antifolate chemotherapy. For those with slow [[COMT]] or [[MTHFR]] variants pursuing methylation support, folinic acid—complemented by non-methylated B12 forms such as [[Hydroxocobalamin]] or [[Adenosylcobalamin]]—offers a measured approach to the [[Methylation Cycle]] without overstimulation.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - Folinic acid may be another alternative.
+
+
 ## Connections
 
 - [[Folate]]: The vitamin family; folinic acid is a reduced member.

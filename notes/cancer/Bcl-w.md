@@ -32,6 +32,14 @@ Bcl-w is expressed in the nervous system, intestine, and testis, where it protec
 - **Therapeutic Target**: Broad-spectrum [[BH3 mimetics]] such as [[ABT-737]] and [[ABT-263]] (navitoclax) inhibit Bcl-w. Because Bcl-w shares redundancy with Mcl-1, combinational inhibition is often required for efficacy.
 - **Biomarker**: Elevated BCL2L2 correlates with poor response to apoptosis-targeted agents, informing patient stratification.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - Bcl-2, Bcl-xL, Bcl-w, A1-Bfl-1 and Mcl-1) \[\]. While the anti-apoptotic proteins regulate apoptosis by blocking the mitochondrial release of cytochrome-c, the pro-apoptotic proteins act by promoting such release.
+
+
 ## Connections
 
 - [[Bcl-2 family]]: Anti-apoptotic regulatory member.

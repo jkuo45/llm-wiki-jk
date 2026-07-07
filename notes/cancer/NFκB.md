@@ -29,6 +29,23 @@ Physiologically, NFκB mediates host defense and tissue repair. Pathologically, 
 
 NFκB is a validated but challenging therapeutic target. Inhibitors of IKK, proteasome-mediated degradation (bortezomib indirectly affects NFκB), and natural products such as [[melittin]] that suppress NFκB signaling in [[non-small-cell lung cancer]] and other models are under study. Combining NFκB inhibition with cytotoxic or immune therapy aims to reverse the survival and resistance phenotype.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Dietary Advanced Glycation End Products and Aging|Dietary Advanced Glycation End Products and Aging]]
+    - The interaction of AGEs with the receptor RAGE triggers the activation of the mitogen-activated protein kinases (MAPK) and the phosphatidylinositol-3 kinase (PI3K) pathways that will lead to the activation of the transcription factor NFκB (nuclear factor ka...
+
+  - [[_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects|Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects]]
+    - NF-κB Pathway The NFκB (nuclear factor kappa-light-chain-enhancer of activated B cells) pathway is implicated in the regulation of inflammatory responses \[,\].
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - The anti-CD20 mAb LFB-R603 interrupts the dysregulated NFκB/Snail/RKIP/PTEN resistance loop in B-NHL cells: role in sensitization to TRAIL apoptosis. Int J Oncol.
+
+  - [[_document_ - Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology|Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology]]
+    - The majority of the antineoplastic activity of honeybee venom has been attributed to melittin through inhibition of the PI3K/Akt/mTOR axis in breast cancer , MAPK in melanoma , JAK2/STAT3 in ovarian cancer , and NFκB signaling pathways in lung carcinoma cel...
+
+
 ## Connections
 
 - [[Inflammation]]: NFκB is the master transcriptional hub of inflammatory response.

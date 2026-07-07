@@ -24,6 +24,20 @@ aliases: []
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
+    - Hematopoietic Stem Cell (HSCs) are multipotent precursors with the capacity to both self-renew and differentiate into functional immune cells, red blood cells and platelets. Yet, HSC functions significantly decline with age.
+
+  - [[_document_ - Lysosome biogenesis Regulation and functions|Lysosome biogenesis Regulation and functions]]
+    - Like qNSCs, quiescent Hematopoietic Stem Cells (qHSCs) display increased lysosomal gene expression and contain abundant enlarged lysosomes.
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - Quiescent cells include tissue-resident adult stem cells, such as Hematopoietic Stem Cell, Muscle Stem Cell, and Neural Stem Cell, as well as differentiated cells, including Fibroblast, Hepatocyte, Lymphocyte, and Oocyte (Bangru et al., 2018; Hwang et al.
+
+
 ## Connections
 - [[HSC]] — interacts with Hematopoietic Stem Cell
 - [[Quiescence]] — interacts with Hematopoietic Stem Cell

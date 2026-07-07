@@ -28,6 +28,14 @@ aliases: [Physical exercise, Physical activity]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
+    - Importantly, lifestyle and nutrition, particularly Exercise (He et al., 2012) and Dietary Restriction (Hansen et al., 2018; Scott et al., 2004; Ulgherait et al., 2021) enhance the autophagy pathway.
+
+
 ## Connections
 - [[Mitohormesis]] — Exercise-induced ROS trigger adaptive responses
 - [[Neurogenesis]] — Exercise stimulates adult neurogenesis

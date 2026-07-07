@@ -48,6 +48,20 @@ Senescent cell accumulation is a hallmark of aging and age-related disease (canc
 - [[Autophagy]], often dysregulated in senescence, is promoted by SIRT1; restoring autophagic flux helps clear damaged organelles and limit the SASP.
 - [[NAD+]] precursors (e.g., [[Nicotinamide Mononucleotide|NMN]], [[Nicotinamide Riboside|NR]]) aim to rejuvenate sirtuin activity and mitigate senescence-associated dysfunction.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks|Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks]]
+    - All together nine hallmarks of aging have been discovered including alteration in intercellular communication, deregulated nutrient sensing, exhaustion of stem cells, Cellular Senescence, increase mitochondrial dysfunction, marked loss of proteostasis, attr...
+
+  - [[_document_ - The Gut Microbiome, Aging, and Longevity A Systematic Review|The Gut Microbiome, Aging, and Longevity A Systematic Review]]
+    - Primary cellular and molecular Hallmarks of Aging include Genomic Instability, Telomere Attrition, Epigenetic Alterations, and loss of Proteostasis, which lead to compensatory mechanisms such as deregulated nutrient sensing, Mitochondrial Dysfunction, and C...
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Autophagy controls Cellular Senescence by eliminating damaged cellular components and is negatively regulated by Akt signaling through mTOR. SIRT6 overexpression induces autophagy via attenuation of IGF1 (IGF1)/Akt/mTOR signaling.
+
+
 ## Connections
 
 - [[Aging]] — Senescent cell accumulation is a hallmark of aging and age-related disease

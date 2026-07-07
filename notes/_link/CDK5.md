@@ -17,6 +17,14 @@ aliases: [Cyclin-dependent kinase 5, Cdk5, Cyclin-dependent-like kinase 5]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - Lung Cancer | | Noxa | | CDK5 | Ser13 | Inactivation | Metabolically regulated leukemia | | Bmf |
+
+
 ## Connections
 - [[Tau Protein]] — CDK5 hyperphosphorylates Tau in [[Alzheimer's Disease]]
 - [[Neurodegenerative Diseases]] — Dysregulated CDK5 contributes to pathology

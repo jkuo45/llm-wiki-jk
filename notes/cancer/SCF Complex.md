@@ -25,6 +25,17 @@ Physiologically, SCF complexes enforce cell-cycle checkpoints (degrading cyclins
 
 SCF subunits are biomarkers and therapeutic targets. Small-molecule disruptors of F-box–substrate interactions and immunomodulatory drugs (lenalidomide) that hijack CRL4 (a related Cullin-RING ligase) demonstrate the tractability of targeting ubiquitin ligases. Inducing degradation of [[Mcl-1]] via SCF activation is a strategy to overcome resistance to [[Chemotherapy]] and BH3 mimetics.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - Bim | | RSK | Ser93, Ser94, Ser98 | SCF ComplexBeta-TrCP-mediated degradation | | | Bim | | [
+
+  - [[_document_ - Evading apoptosis in cancer|Evading apoptosis in cancer]]
+    - Phosphorylation of Mcl-1 at T163 followed by Phosphorylation at S155/S159 targets the protein for proteasomal degradation, which is mediated by the E3 ligase SCF Complex Beta-TrCP (Skp, Cullin, F-box containing complex with Beta-TrCP) \[, \].
+
+
 ## Connections
 
 - [[Mcl-1]] - Anti-apoptotic Bcl-2 family protein degraded by SCF.

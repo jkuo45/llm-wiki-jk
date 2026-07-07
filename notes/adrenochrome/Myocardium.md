@@ -43,6 +43,14 @@ The myocardium has limited regenerative capacity, and injury follows a stereotyp
 
 **Catecholamine-mediated injury:** Sustained catecholamine excess — from pheochromocytoma, emotional stress (takotsubo cardiomyopathy), or exogenous infusion — injures the myocardium through a distinct but overlapping mechanism. β-adrenergic overactivation drives excessive Ca²⁺ influx and ryanodine receptor-mediated sarcoplasmic reticulum Ca²⁺ leak, producing mitochondrial Ca²⁺ overload, opening of the mitochondrial permeability transition pore, and activation of apoptotic cascades. [[Adrenochrome]], an oxidation product of [[Epinephrine]], compounds this injury. Adrenochrome generates [[Reactive Oxygen Species]] via redox cycling, inhibits mitochondrial complexes I and II, and depletes [[Glutathione]]. In animal models, adrenochrome administration produces contraction band necrosis and electrocardiographic abnormalities resembling catecholamine cardiomyopathy. While the quantitative contribution of adrenochrome relative to direct catecholamine effects in human cardiac pathology remains debated, the observation connects oxidative catecholamine biochemistry directly to myocardial tissue damage.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Adrenochrome Pathway|The Adrenochrome Pathway]]
+    - One major mechanism by which Reactive Oxygen Species are produced in vivo is by stimulated Neutrophils, and these cells infiltrate Myocardium following infarction or inflammation. Linking Summary: - New links added: Adrenochrome Pathway, Heart disease, Reacti
+
+
 ## Connections
 
 - [[Cardiomyocytes]] — the contractile cells constituting the myocardium; their structure, coupling, and metabolism determine pump performance.

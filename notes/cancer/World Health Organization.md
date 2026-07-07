@@ -25,6 +25,14 @@ WHO coordinates programmes to eliminate diseases transmitted by vectors such as 
 
 WHO's [[TDR]] (Special Programme for Research and Training in Tropical Diseases) funds implementation research optimizing drug deployment and resistance monitoring. WHO also sets prequalification standards for medicines and diagnostics, influencing global access to anticancer and antiparasitic therapies alike.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, ‘Wonder drug’ from Japan the human use perspective|Ivermectin, ‘Wonder drug’ from Japan the human use perspective]]
+    - Credit line: World Health Organization/TDR/Andy Crump. In the early-1970s, the disease was endemic in 34 countries: 27 in Africa; 6 in the Americas; and 1 in the Arabian Peninsula.
+
+
 ## Connections
 
 - [[Onchocerciasis]]: Elimination target; transmitted by Simulium, controlled via ivermectin.

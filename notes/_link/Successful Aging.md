@@ -17,6 +17,14 @@ Successful aging is a concept that encompasses the avoidance of disease and disa
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Gut Microbiome, Aging, and Longevity A Systematic Review|The Gut Microbiome, Aging, and Longevity A Systematic Review]]
+    - We identified 27 empirical human studies of normal and Successful Aging suitable for inclusion.
+
+
 ## Connections
 - [[Aging]] — related entity
 - [[Centenarians]] — related entity

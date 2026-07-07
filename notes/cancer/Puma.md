@@ -20,6 +20,20 @@ Puma is a major downstream target of the [[p53]] tumor suppressor protein. Upon 
 ## Role in Cancer
 Deficiency in Puma or the p53 pathway leads to evasion of [[Apoptosis]] and promotes carcinogenesis. Restoring Puma expression is a potential therapeutic strategy.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - Examples in this group include Bid, Bim, Puma, Noxa, Bad, Bmf, Hrk, and Bik. In times of cellular stresses such as DNA damage, growth factor deprivation and endoplasmic reticulum stress, the BH3-only proteins, which are initiators of apoptosis, are activated.
+
+  - [[_document_ - Caspase|Caspase]]
+    - JNK | Thr112 (mouse) | Activation | | | Puma | Loss in Breast Cancer, Hepatocellular Carcinoma, non-small-cell lung canc
+
+  - [[_document_ - Evading apoptosis in cancer|Evading apoptosis in cancer]]
+    - Given the fact that _TP53_ encoding p53 is the most frequently mutated, or inactivated, tumor suppressor gene in cancer (~50%) \[, \], apoptotic pathways induced by this gene, including _Bax_, _Puma_ (p53 upregulated modulator of apoptosis), _Noxa_, _Apaf-1...
+
+
 ## Connections
 - [[p53]]: Puma is a primary transcriptional target of p53.
 - [[Bcl-2 family]]: A potent BH3-only initiator.

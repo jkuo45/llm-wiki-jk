@@ -36,6 +36,14 @@ The biochemical cycle involves the transfer of methyl groups for various cellula
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - Without the COMT-controlled Methylation reaction, Catecholamines can accumulate and generate Free Radicals, which can damage DNA. Thus, COMT is essential in protecting cells, including brain cells, from Oxidative Stress.
+
+
 ## Connections
 - [[Aging]]: DNA methylation patterns are a primary biomarker for biological aging.
 - [[COMT]]: Utilizes methyl groups for its enzymatic activity.

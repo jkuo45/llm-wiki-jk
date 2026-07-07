@@ -31,6 +31,14 @@ Beyond apoptosis, c-ABL governs cell adhesion, cytoskeletal remodeling, and oxid
 - **Therapeutic Resistance**: ABL kinase-domain mutations confer TKI resistance, necessitating next-generation inhibitors.
 - **Apoptotic Priming**: c-ABL activation by DNA-damaging [[Chemotherapy]] (e.g., genistein, doxorubicin) can sensitize tumors; combining TKIs with [[BH3 mimetics]] is explored to overcome survival signaling.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - Caspase-9 | | c-ABL | Tyr153 | Promoting activation | Promoting DNA damage-induced apoptosis |
+
+
 ## Connections
 
 - [[Caspase-9]]: Substrate whose activation c-ABL enhances.

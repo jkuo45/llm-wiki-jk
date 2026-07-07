@@ -31,6 +31,14 @@ Partial reprogramming has reversed aging phenotypes in progeroid and normally ag
 
 Translational strategies seek small-molecule mimetics of OSKM downstream effectors, viral/AAV delivery for in vivo cycling, and combination with [[Senolytic Drugs]]. Open questions include durability of the rejuvenated state, safe dosing windows, and whether epigenetic reset erases beneficial adaptive memory.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic|Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic]]
+    - Fibroblasts, Shinya Yamanaka, Kazutoshi Takahashi, OSKM, Regenerative Medicine, Olivopontocerebellar Atrophy, NuRD complex, CHD4, Schizophrenia, Induced Neural Stem Cells, Amyotrophic Lateral Sclerosis, Frontotemporal Dementia, Alzheimer's Disease, BIG1, So...
+
+
 ## Connections
 - [[Cellular Reprogramming]]: The broader process of which partial reprogramming is a time-limited variant.
 - [[Rejuvenation]]: The functional goal achieved by transient epigenetic reset.

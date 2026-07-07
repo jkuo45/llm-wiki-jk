@@ -42,6 +42,14 @@ OIS acts as a fail-safe mechanism against malignant transformation. In vivo, OIS
 
 OIS cells are susceptible to [[Senolytic Drugs]] like [[Navitoclax]] ([[Bcl-2]]/[[Bcl-xL]] inhibitor). However, eliminating OIS cells in premalignant lesions may paradoxically promote tumor growth by removing a cell-autonomous cancer barrier. An open question is whether transient OIS cell clearance can reduce the pro-tumorigenic [[SASP]] without compromising tumor suppression.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - Oncogene-Induced Senescence represents another complex senescence phenotype that depends on activation and/or overexpression of oncogenes (Serrano et al., ; Bianchi‐Smiraglia & Nikiforov, ).
+
+
 ## Connections
 
 - [[Manuel Serrano]]: First described by Manuel Serrano in 1997, OIS is triggered by hyperproliferative signals from oncogenes such as [[RA...

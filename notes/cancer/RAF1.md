@@ -25,6 +25,14 @@ Physiologically, RAF1 couples mitogenic cues to cell-cycle entry and stress surv
 
 RAF1/MEK/ERK is a major targeted-therapy axis; MEK inhibitors (trametinib) and ERK inhibitors are used or in trials, especially in RAS/BRAF-driven tumors. Understanding RAF1's role in Bad phosphorylation informs why survival signaling must be co-targeted with [[Chemotherapy]] to induce durable apoptosis.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - er]] | | Bad | | PAK1, PAK4, PAK5, PKA, PKCι, RAF1, RSK | Ser112 | Inactivation | MPNST, Lung Cancer, IL-3 control | | Bad |
+
+
 ## Connections
 
 - [[Bad]] - Pro-apoptotic protein inactivated by RAF1 phosphorylation at Ser112.

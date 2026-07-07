@@ -18,6 +18,14 @@ Atg17 is a scaffold protein that acts as a sensor for [[Starvation]] and facilit
 
 Atg17 ([[FIP200]] in mammals) is a scaffold protein that forms a complex with [[Atg13]] and [[Atg101]] to recruit [[Atg1]]/ULK1. It is essential for autophagosome formation and defines the phagophore assembly site.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - In yeast, Atg8 or Atg13 and Atg17 are essential for the kinase activity of Atg1 whereas in mammals, LC3, which is an ortholog of Atg8, can promote the activity of Atg1 along with GATE-16 and GABARAP \[\].
+
+
 ## Connections
 
 - [[Starvation]]: Atg17 is a scaffold protein that acts as a sensor for Starvation and facilitates the assembly of the [[Atg1]] complex...

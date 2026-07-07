@@ -24,6 +24,14 @@ aliases: [CCL2, Monocyte Chemoattractant Protein 1]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - br>Cinnamon supplementation has nobenefcial effects in reduction ofSIRT1 levels in T2D patientsIRCT201512102017N2610402020 N/ACAD• Crocin (30 mg/d)• Saffron aqueous extract(30 mg/d)• Placebo (for 8 weeks)22/23/20Gene expression of SIRT1, 5'-AMPK, LOX1, NFKB...
+
+
 ## Connections
 - [[MCP-1]] — related entity
 

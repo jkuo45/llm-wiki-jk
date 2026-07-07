@@ -22,6 +22,14 @@ The response to [[Alpha-tocopherol]] supplementation is significantly influenced
 
 ---
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - Medication and vitamin interactions with COMT: Vitamin E and COMT: A 10-year follow-up to a trial on Vitamin E (Alpha-tocopherol) supplementation showed that the COMT rs4680 variants impacted the risk of Cancer.
+
+
 ## Connections
 
 - [[Alpha-tocopherol]]: **Alpha-tocopherol** is the primary form of [[Vitamin E]] that is preferentially used by the human body.

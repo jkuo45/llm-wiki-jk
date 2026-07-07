@@ -30,6 +30,14 @@ Because creatine synthesis is such a major methyl consumer, endogenous demand co
 
 Creatine is ergogenic, potentially neuroprotective, and being studied in depression, traumatic brain injury, and neuromuscular disease. It is generally safe; concerns about renal strain are unsubstantiated at standard doses. Its methylation-sparing property makes it a pragmatic adjunct in personalized protocols for slow [[COMT]]/[[MTHFR]] individuals.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - Creatine to take the strain off the methylation cycle: About 40% of Methyl groups are used in the body to synthesize Creatine. Thus, adding in Creatine (low doses) may help to take the strain off the Methylation Pathways.
+
+
 ## Connections
 
 - [[Methylation Cycle]]: Creatine synthesis is the largest consumer of methyl groups.

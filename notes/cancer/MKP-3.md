@@ -29,6 +29,14 @@ Physiologically, MKP-3 tempers mitogenic signaling and protects healthy cells fr
 
 MKP-3/Bcl-2 crosstalk is a potential therapeutic node. Strategies that disrupt the MKP-3–Bcl-2 interaction, or that combine ERK-pathway modulation with [[Bcl-2]] inhibitors, may restore apoptotic competence. MKP-3 expression is also explored as a biomarker of MAPK pathway activity and treatment response.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - Bcl-2 | | ERK1_2 (MKP-3) | Thr56, Thr74, Ser87 | Prevents degradation | | | Bcl-2 |
+
+
 ## Connections
 
 - [[Bcl-2]]: Direct substrate; dephosphorylation by MKP-3 stabilizes and protects it from degradation.

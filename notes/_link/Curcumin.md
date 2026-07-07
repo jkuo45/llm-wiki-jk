@@ -37,6 +37,17 @@ Extends lifespan in _C. elegans_ (via [[DAF-16]]/[[FOXO]]), _Drosophila_ (via [[
 
 Oral bioavailability < 1%. Formulation strategies include liposomal curcumin, Meriva (phospholipid complex), theracurmin, and co-administration with [[Piperine]].
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - e|5‐aza‐2′‐deoxycytidine]]), Histone Deacetylase (Sodium Butyrate, Trichostatin A, Entinostat, Vorinostat, Panobinostat, Phenylbutyrate, Sodium Valproate), Histone Acetyltransferase (Curcumin, C646), and Histone Methyltransferase (BRD4770); (4) Inhibitors o...
+
+  - [[_document_ - xenohormesis, mitohormesis|xenohormesis, mitohormesis]]
+    - I've pinpointed key compounds like Resveratrol, Quercetin, Curcumin, and EGCG, along with their biochemical targets: Sirtuins, AMPK, and the NRF2 Pathway]]. These targets are critical in the survival response, which aligns with Caloric Restriction.
+
+
 ## Connections
 
 - [[P300]]/[[CBP]] — Direct HAT inhibition target

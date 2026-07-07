@@ -29,6 +29,14 @@ Crucially, manganism lacks the [[Lewy Bodies]] and alpha-synuclein pathology tha
 
 Diagnosis rests on exposure history and characteristic T1-hyperintensity of the globus pallidus on [[Magnetic Resonance Imaging]], supported by blood Mn levels. Management is primarily removal from exposure; chelation is of limited benefit once neuronal injury is established. The condition remains a key human model of metal-induced [[Neurotoxin]] injury.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator|Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator]]
+    - Manganism, which exhibits symptoms very similar to Parkinson's Disease (Lucchini et al., 2009), also displays a clearly plausible mechanism in this scenario through replacement of the Iron normally found bound to NM.
+
+
 ## Connections
 
 - [[Manganese]] - causal toxicant whose chronic exposure produces the disorder.

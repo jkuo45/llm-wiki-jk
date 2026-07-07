@@ -33,6 +33,14 @@ Beyond the heart, SERCA2a (and its splice isoform SERCA2b) is expressed in many 
 
 Loss of SERCA2a activity is a hallmark of advanced heart failure. Gene therapy approaches delivering SERCA2a (e.g., AAV1/SERCA2a in the CUPID trials) have been explored clinically, with mixed results but proof-of-concept for enzymatic restoration. The SIRT1–SERCA2a axis provides an additional post-translational node for therapeutic intervention through sirtuin activation, offering a pharmacologic alternative to gene delivery.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Furthermore, reduced level and activity of sarco-endoplasmic reticulum Ca[+] -ATPase (SERCA2a) are major features of Heart Failure, and SIRT1 KO elevated the acetylation of SERCA2a, which in turn leads to SERCA2a dysfunction and cardiac defects in a failing...
+
+
 ## Connections
 
 - [[SIRT1]] — Deacetylates SERCA2a at K492, restoring Ca2+-ATPase activity in cardiomyocytes

@@ -29,6 +29,14 @@ As neurons age, free dolichol rises in many tissues, and its accumulation in neu
 
 Dolichol in neuromelanin highlights the organelle-like nature of pigment granules and their intersection with lysosomal and isoprenoid metabolism. It connects to [[Lysosomal Dysfunction]] and to the broader lipofuscin/pigment-aging literature, suggesting that granule lipid composition is a modifiable factor in neuronal resilience and a potential biomarker of dopaminergic aging.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator|Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator]]
+    - The major lipid component of Neuromelanin pigment derived from human SN was found to be the polyisoprenoid Dolichol, accounting for 14% of the mass of the isolated pigment (Fedorow et al., 2005).
+
+
 ## Connections
 
 - [[Neuromelanin]]: Pigment granule in which dolichol resides.

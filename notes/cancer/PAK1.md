@@ -31,6 +31,17 @@ PAK1 is located at the intersection of multiple signaling pathways related to tu
 ## Therapeutic Target
 Targeting PAK1 is considered a novel and promising method for cancer treatment. [[Ivermectin]] has been identified as a PAK1 inhibitor in various tumors, where it promotes PAK1 degradation via the proteasome ubiquitination pathway.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - TNFα resistance | | Bad | | PAK1 | Ser111 | Inactivation | MPNST, Lung Cancer | | Bad |
+
+  - [[_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug|Ivermectin, a potential anticancer drug derived from an antiparasitic drug]]
+    - This may be related to the regulation of multiple signaling pathways by ivermectin through PAK1 kinase. On the other hand, ivermectin promotes programmed cancer cell death, including Apoptosis, Autophagy and Pyroptosis.
+
+
 ## Connections
 - [[Ivermectin]]: Acts as a PAK1 inhibitor, leading to its degradation.
 - [[Akt|AKT]]: PAK1 interacts with the Akt/mTOR pathway.

@@ -42,6 +42,14 @@ The activity of MEF2D during myogenesis is tightly regulated by a molecular swit
 
 This SIRT1–HDAC4–MEF2D switch couples nutrient/energy status to tissue differentiation: under conditions of low [[NAD+]] or high SIRT1 activity, myogenesis is restrained. Conversely, the same axis is hijacked in some carcinomas, where MEF2D translocations drive leukemia. The interplay illustrates how sirtuins gate developmental transcription factors.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - showed that Lys on MEF2D, which when acetylated activates MEF2D and when sumoylated inhibits it, is also a SIRT1 target. In addition, the histone deacetylase HDAC4, which has been shown to have SUMO E
+
+
 ## Connections
 
 - [[SIRT1]] — deacetylates MEF2D at Lys⁴²⁴, promoting its sumoylation and inhibiting myogenesis

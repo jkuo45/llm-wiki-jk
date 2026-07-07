@@ -29,6 +29,14 @@ Physiologically, CKII is indispensable for cell viability, DNA repair, and circa
 
 CKII/[[CK2]] is a validated oncology target. ATP-competitive inhibitors such as silmitasertib (CX-4945) and CX-5011 have entered clinical evaluation, often combined with [[Chemotherapy]] or [[BH3 mimetics]] to reawaken apoptotic pathways. Because CKII inhibition lowers the threshold for both intrinsic and extrinsic apoptosis, it is a rational sensitizer for TRAIL receptor agonists and DNA-damaging agents. Monitoring CKII activity and β subunit levels is being explored as a prognostic and pharmacodynamic biomarker.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - Mcl-1 | | JNK, p38 MAPK, CKII | Ser121 | SCF ComplexFBW7-mediated degradation | ovarian cancer, non-small
+
+
 ## Connections
 
 - [[CK2]]: The modern nomenclature for CKII (same enzyme).

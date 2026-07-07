@@ -23,6 +23,14 @@ aliases: []
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - Geminin acts as a repressor to block MCM loading onto Chromatin (Xouri et al., 2004).
+
+
 ## Connections
 - [[Geminin]] — related entity
 

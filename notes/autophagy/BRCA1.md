@@ -52,6 +52,20 @@ BRCA1 physically neighbours [[Beclin1]] on chromosome 17q21 and its expression c
 - **Triple-Negative Breast Cancer**: BRCA1 mutations are enriched in triple-negative breast cancer (TNBC), and PARP inhibitors are approved for BRCA-mutated TNBC.
 - **Chemotherapy Response**: BRCA1-deficient tumours are sensitive to platinum-based chemotherapies ([[Cisplatin]], [[Carboplatin]]) due to defective HR repair.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Autophagy and intermittent fasting the connection for cancer therapy?|Autophagy and intermittent fasting the connection for cancer therapy?]]
+    - However, BECN1 is located adjacent to the well-known tumor suppressor gene BRCA1, which is common... Once the tumor is established, the main function of autophagy is to provide a m
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - Of note, BCLN1 and BRCA1 (a tumor suppressor gene) are physically close to each other, and deletion of BRCA1 in breast cancer patients can affect BCLN1 \[\].
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - For example, SIRT1 can reduce the acetylation levels of histones in the promoters of genes, e.g., AR, BReast-CAncer susceptibility gene 1(BRCA1), ERS1, ERS2, EZH2 and EP300, which ultimately affected cancer cell Apoptosis.
+
+
 ## Connections
 
 - [[Beclin1]] — adjacent gene on 17q21; autophagy regulator

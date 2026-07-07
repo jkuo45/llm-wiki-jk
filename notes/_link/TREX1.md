@@ -51,6 +51,14 @@ TREX1 mutations cause cutaneous lupus (acral vasculopathy triggered by cold expo
 
 Current therapeutic approaches include [[JAK Inhibitors]] (e.g., ruxolitinib) that block interferon signaling downstream of [[STING]], corticosteroids with limited efficacy, and investigational gene therapy approaches. Understanding the TREX1–cGAS–[[STING]] axis has opened new avenues for targeting type I interferonopathies, including small molecule inhibitors of [[cGAS-STING|cGAS]] and [[STING]] itself.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - The exonuclease TREX1 degrades host cytosolic DNA as a way to prevent autoimmunity. Mutations in TREX1 result in ISGs expression though the activation of an interferon-independent, TFEB-dependent pathway (Hasan et al 2013).
+
+
 ## Connections
 
 - [[STING]] — TREX1 prevents activation of the cGAS-STING innate immune sensing pathway

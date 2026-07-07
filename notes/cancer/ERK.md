@@ -29,6 +29,20 @@ ERK signaling governs differentiation, growth, and survival in normal tissue. In
 
 The RAS–RAF–MEK–ERK axis is a premier oncology target. BRAF inhibitors (vemurafenib, dabrafenib) and [[MEK]] inhibitors (trametinib, cobimetinib) are approved in melanoma, lung, and thyroid cancers; ERK1/2 inhibitors are in development for resistance bypass. Because ERK sustains [[Bim]] degradation, combining MAPK blockade with [[BH3 mimetics]] or Bim-stabilizing agents is a leading strategy to convert survival signaling into death. ERK phosphorylation (p-ERK) is a routine biomarker of pathway activity.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - Caspase-9 | | CDK1, DYRK1A, ERK1_2, p38 MAPK (PP1α) | Thr125 | Suppression of activity | Suppressing mitotic
+
+  - [[_document_ - Evading apoptosis in cancer|Evading apoptosis in cancer]]
+    - Among the transcription factors, FOXO Transcription Factors are of particular interest since its activity can be suppressed by two major pro-survival kinases, Akt \[\] and ERK \[ – \].
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - At the molecular level, SIRT6 binds to the promoters of ERK 1 and ERK2 genes, and deacetylates histone Histone H3, thereby inhibiting ERK1_2 expression. Moreover, SIRT6 induced the expression of GATA binding protein 5 (GATA5) through inhibition of Nkx3.
+
+
 ## Connections
 
 - [[Bim]]: Pro-apoptotic protein degraded downstream of ERK.

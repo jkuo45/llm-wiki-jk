@@ -28,6 +28,20 @@ Atg13 functions as the organizational hub that recruits downstream machinery to 
 
 Atg13-dependent initiation is essential for survival during nutrient deprivation, ER stress, and mitochondrial damage. Its regulation by mTORC1/AMPK places it at the core of metabolic control of [[Autophagy]], with implications for [[Aging]], [[Cancer]] (where autophagy supports tumor metabolism or therapy resistance), and [[Neurodegeneration]] (where defective initiation promotes protein aggregation). Atg13 phosphorylation status is increasingly used as a biomarker of autophagic induction in preclinical studies.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Autophagy and intermittent fasting the connection for cancer therapy?|Autophagy and intermittent fasting the connection for cancer therapy?]]
+    - Regarding initialization, the activation of the ULK1 complex (ULK1/2, Atg13, FIP200 and Atg101) signals for autophagosome nucleation under the control
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - In yeast, Atg8 or Atg13 and Atg17 are essential for the kinase activity of Atg1 whereas in mammals, LC3, which is an ortholog of Atg8, can promote the activity of Atg1 along with GATE-16 and GABARAP \[\].
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - It was recently shown by three independent groups that mTORC1 controls Autophagy through the regulation of a protein complex composed of ULK1 (ULK1), Atg13 and FIP200 (FIP200) (Ganley et al., 2009; Hosokawa et al., 2009; Jung et al., 2009).
+
+
 ## Connections
 
 - [[ULK1]]: Kinase partner of Atg13 in the initiation complex.

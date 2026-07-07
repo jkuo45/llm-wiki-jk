@@ -26,6 +26,14 @@ Strategies to target Survivin include:
 - **siRNA**: Silencing Survivin expression to enhance radiosensitivity in [[Pancreatic Cancer]] and lung adenocarcinoma.
 - **Small molecule inhibitors**: Cyclin-dependent kinase inhibitors and Hsp90 inhibitors.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - To date eight IAPs have been identified, namely, NAIP (BIRC1), c-IAP1 (BIRC2), c-IAP2 (BIRC3), X-linked IAP (XIAP, BIRC4), Survivin (BIRC5), Apollon (BRUCE, BIRC6), Livin/ML-IAP (BIRC7) and IAP-like protein 2 (BIRC8) \[\].
+
+
 ## Connections
 - [[Inhibitor of Apoptosis Proteins]]: Survivin is a key member of this family.
 - [[Apoptosis]]: Inhibits the common pathway of apoptosis.

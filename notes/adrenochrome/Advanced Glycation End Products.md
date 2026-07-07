@@ -59,6 +59,17 @@ Two pharmacological strategies target AGE pathology. **AGE Inhibitors** block fo
 
 A bidirectional relationship exists between AGE formation and [[Adrenochrome]] generation. [[Methylglyoxal]] directly promotes catecholamine oxidation through metal ion chelation and enhanced superoxide production, accelerating adrenochrome formation in cardiac and neural tissues. Conversely, [[Adrenochrome]] and related aminochromes can glycate proteins directly through their o-quinone moieties, forming aminochrome-AGE adducts that activate [[RAGE]] and amplify inflammatory signaling. This convergence of dicarbonyl stress and catecholamine oxidation may represent an underappreciated synergistic mechanism in diabetic cardiomyopathy and neurodegeneration.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Dietary Advanced Glycation End Products and Aging|Dietary Advanced Glycation End Products and Aging]]
+    - Advanced Glycation End Products (AGEs) are a heterogeneous, complex group of compounds that are formed when reducing sugar reacts in a non-enzymatic way with amino acids in proteins and other macromolecules.
+
+  - [[_document_ - The autophagy enhancer spermidine reverses arterial aging|The autophagy enhancer spermidine reverses arterial aging]]
+    - Arterial stiffening results from age-related changes in the arterial wall including increases in collagen deposition, reductions in elastin and cross-linking of these and other structural proteins via formation of Advanced Glycation End Products (O’Rourke a...
+
+
 ## Connections
 
 - [[Maillard Reaction]]: AGEs are formed through the Maillard Reaction, where reducing sugars react with amino groups.

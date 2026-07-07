@@ -24,6 +24,14 @@ aliases: [Dopamine Transporter]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum|Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum]]
+    - In the Sirtuins, the Dopamine Transporter (DAT) is highly abundant and responsible for rapid Dopamine uptake into dopaminergic terminals where it is either packaged into storage vesicles or metabolized by Monoamine oxidase (MAO).
+
+
 ## Connections
 - [[DAT]] — related entity
 

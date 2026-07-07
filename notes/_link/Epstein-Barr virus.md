@@ -35,6 +35,14 @@ Primary infection occurs via [[Saliva]] (infectious mononucleosis), infecting [[
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug|Ivermectin, a potential anticancer drug derived from an antiparasitic drug]]
+    - The incidence is obviously regional and familial, and Epstein-Barr virus (EBV) infection is closely related \[\].
+
+
 ## Connections
 - [[B Cells]] — primary latent reservoir of EBV infection
 - [[Infectious Mononucleosis]] — acute EBV infection; fever, lymphadenopathy, pharyngitis

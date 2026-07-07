@@ -40,6 +40,14 @@ This feedback loop embodies a delicate balance: transient HIC1 expression enforc
 
 *HIC1* hypermethylation is a prognostic and predictive biomarker in several malignancies (breast, lung, glioma). Restoring HIC1 or selectively inhibiting SIRT1 deacetylase activity could reinstate p53 tumor surveillance. The axis also intersects with [[Aging]], as accumulating epigenetic drift in *HIC1* may bias tissues toward a pro-survival, pre-neoplastic state.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - In co-operation with the HIC1 (hypermethylated in cancer 1) transcriptional repressor, SIRT1 mediates the bypass of apoptosis, potentially by promoting cell survival and tumorigenesis via p53 (Figure 5).
+
+
 ## Connections
 
 - [[SIRT1]] — transcriptional target of HIC1 repression; SIRT1 in turn deacetylates p53 to affect HIC1

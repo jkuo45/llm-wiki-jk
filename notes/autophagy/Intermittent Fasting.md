@@ -36,6 +36,17 @@ aliases: [IF]
 
 IF cycles between eating and fasting periods, activating [[Autophagy]] and [[AMPK]] while suppressing [[mTORC1]]. Effects depend on fasting duration and timing.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Autophagy and intermittent fasting the connection for cancer therapy?|Autophagy and intermittent fasting the connection for cancer therapy?]]
+    - REVIEW ARTICLE Under a Creative Commons license Open access KEYWORDS Apoptosis Macroautophagy Intermittent Fasting Cancer Therapy Autophagy: definition and mechanisms The 201
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - Accumulated evidence suggests that Intermittent Fasting or Caloric Restriction can lead to the induction of adaptive autophagy and increase Longevity of eukaryotic cells.
+
+
 ## Connections
 
 - [[Autophagy]]: It is widely studied for its ability to induce Autophagy and improve metabolic health.

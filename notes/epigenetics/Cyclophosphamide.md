@@ -59,6 +59,17 @@ The clinical use of cyclophosphamide is often limited by its toxicity profile:
 - **Reproductive Toxicity**: Potential for infertility (azoospermia and ovarian failure) and long-term risks of secondary malignancies.
 - **Cardiotoxicity**: High doses can lead to myopericarditis and other cardiac complications.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - Effect of the addition of Oblimersen sodium (Bcl-2 antisense) to fludarabine/Cyclophosphamide for replased/refractory leukemia (CLL) on survival in patients who achieve CR/nPR: Five-year follow-up from a randomized phase III study J Clin Oncol. 2008;26:7008.
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - including (2a) DNA Topoisomerase Inhibitors (Doxorubicin, Etoposide, Daunorubicin, Mitoxantrone, Camptothecin), (2b) DNA Cross-linkers (Cisplatin, Mitomycin C, Busulfan, Cyclophosphamide, Diaziquone), and (2c) drugs with complex effects (Actinomycin
+
+
 ## Connections
 
 - [[Alkylating agent]] — Cyclophosphamide is a prototypical alkylating agent.

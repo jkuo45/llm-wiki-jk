@@ -31,6 +31,14 @@ Pluripotent cells are derived from the blastocyst inner cell mass (ESCs) or gene
 
 Pluripotency erases age-associated epigenetic marks, motivating [[Partial Reprogramming]] and [[Rejuvenation]] strategies that capture youthful reset without full dedifferentiation. Understanding the network also informs [[Cancer]] stemness, where pluripotency genes are re-activated.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network|Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network]]
+    - With the aim of unveiling the early mechanisms underlying the induction of Pluripotency, we have analyzed transcriptional profiles at 24, 48 and 72 hours post-transduction of OSKM into human foreskin Fibroblasts.
+
+
 ## Connections
 
 - [[Oct4]] / [[Sox2]] / [[Nanog]]: Core transcription factors defining pluripotency.

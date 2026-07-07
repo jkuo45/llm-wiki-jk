@@ -31,6 +31,17 @@ aliases:
 
 HIF-1α is frequently overexpressed in [[Cancer]] and linked to poor prognosis. It is a therapeutic target in [[Renal Cell Carcinoma]], [[glioblastoma]], and [[Breast Cancer]].
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review|sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review]]
+    - Hypoxia inducible factor-1α (HIF-1α) deacetylation mediated by SIRT2 is necessary for HIF-1α destabilisation and tumour cell hypoxia response (Seo et al. ).
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Mechanistically, SIRT3 negatively regulates aerobic Glycolysis by inhibiting HIF-1α. SIRT6 takes part in the maintenance of glucose metabolic homeostasis in the whole body and in local tissues such as liver and skeletal muscle.
+
+
 ## Connections
 
 - [[SIRT3]] — Destabilizes HIF-1α

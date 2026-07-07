@@ -23,6 +23,14 @@ aliases: [ER Stress]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator|Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator]]
+    - In the absence of polymerization and Neuromelanin, Aminochrome can form adducts with Alpha-synuclein generating neurotoxic oligomers that can trigger Mitochondrial Dysfunction (Wang et al., 2012), and could induce Oxidative Stress and Endoplasmic Reticulum ...
+
+
 ## Connections
 - [[Aminochrome]] — interacts with Endoplasmic Reticulum Stress
 - [[Parkinson's Disease]] — neurodegenerative disease; α-synuclein pathology; dopamine loss

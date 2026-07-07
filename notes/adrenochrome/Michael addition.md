@@ -17,6 +17,14 @@ The **Michael addition** (or Michael reaction) is a nucleophilic addition of a n
 ## Role in Adrenochrome Formation
 In the conversion of [[Epinephrine]] to [[Adrenochrome]], the intramolecular Michael addition occurs when the nitrogen atom on the amine "tail" attacks the reactive [[o-quinone]] ring, causing it to "fold" and form a closed loop.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - formation, chemical stability|formation, chemical stability]]
+    - Step 2 is an intramolecular Michael addition, leading to the indoline-5,6-dione structure. I'm focusing on the unstable intermediates.
+
+
 ## Connections
 - [[Adrenochrome]]
 - [[Epinephrine]]

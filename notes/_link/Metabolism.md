@@ -62,6 +62,26 @@ Metabolic dysfunction underlies many of the most prevalent diseases worldwide. *
 
 **Therapeutic targeting** of metabolic pathways is an active area of pharmacology. [[Metformin]], a first-line therapy for type 2 diabetes, activates AMPK and inhibits hepatic gluconeogenesis. [[Rapamycin]] (sirolimus) inhibits [[mTORC1]], extending lifespan in model organisms and currently under investigation for anti-aging effects. Sirtuin-activating compounds (STACs) such as resveratrol activate SIRT1, though clinical translation remains challenging. NAD⁺ precursors including nicotinamide mononucleotide (NMN) and nicotinamide riboside (NR) aim to restore age-depleted NAD⁺ levels, with promising preclinical and early clinical data.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - intermediates, precursor, hemoglobin|intermediates, precursor, hemoglobin]]
+    - Summary for Research Purposes If you are conducting research involving this compound, it is vital to distinguish between: - Metabolism: Where you are observing the conversion of Epinephrine in biological systems.
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - alpha]] in muscle, further confirming the role of this transcription factor in energy metabolism (Salma et al 2015).
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - How drastically different cell types are able to implement extensive changes to their Transcription, Metabolism, and cellular structures to induce a common cellular state is a fascinating question in cell and developmental biology.
+
+  - [[_document_ - The Gut Microbiome, Aging, and Longevity A Systematic Review|The Gut Microbiome, Aging, and Longevity A Systematic Review]]
+    - Older adults have reduced pathways related to carbohydrate Metabolism and amino acid synthesis; however, oldest-old adults exhibited functi
+
+  - [[_document_ - sirtuins (overview, CD38 KO risks, cancer therapies)|sirtuins (overview, CD38 KO risks, cancer therapies)]]
+    - They play key roles in Metabolism, Aging, stress response, DNA Repair, Inflammation, gene expression, and cellular homeostasis.
+
+
 ## Connections
 
 - [[AMPK]] — master energy sensor activated during metabolic deficit

@@ -50,6 +50,17 @@ Elevated CDC20 drives chromosome instability (CIN) and [[Aneuploidy|aneuploidy]]
 
 CDC20 is an emerging therapeutic target. Pharmacological inhibitors of APC-C-CDC20 include **proTAME** (a prodrug of TAME that competes with D-box-containing substrates for APC/C binding) and **apcin** (which binds CDC20's D-box receptor pocket, blocking substrate recruitment). These agents induce mitotic arrest and [[Apoptosis]] and synergize with [[Microtubule|microtubule]]-targeting agents such as [[paclitaxel]]. However, the narrow therapeutic window imposed by CDC20's essential role in normal cell division remains a significant challenge. Strategies to exploit elevated CDC20 levels in tumors for selective vulnerability — for example, through synthetic lethality with SAC defects — are under active investigation.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - Mcl-1 | | CDK1/CYCLIN B | Thr92 | APC-CCDC20-mediated degradation | | | Mcl-1 | | JNK, [[p38
+
+  - [[_document_ - Evading apoptosis in cancer|Evading apoptosis in cancer]]
+    - These studies have shown that in addition to the mechanisms described above, two E3 ligases, APC-C CDC20 (APC-C with CDC20) and SCF Complex FBW7, target Mcl-1 for destruction during mitosis \[ – \].
+
+
 ## Connections
 
 - [[APC-C]]: CDC20 is the mitotic co-activator of the APC/C E3 ubiquitin ligase.

@@ -20,6 +20,14 @@ The gut microbiome consists of trillions of microorganisms, including bacteria, 
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Gut Microbiome, Aging, and Longevity A Systematic Review|The Gut Microbiome, Aging, and Longevity A Systematic Review]]
+    - Increasing evidence suggests that the Gut Microbiome lies at the core of many age-associated changes, including immune system dysregulation and susceptibility to diseases.
+
+
 ## Connections
 - [[Gut Microbiome]] — related entity
 

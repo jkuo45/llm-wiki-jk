@@ -17,6 +17,17 @@ Amyotrophic Lateral Sclerosis (ALS) is a progressive [[Neurodegenerative Disease
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic|Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic]]
+    - Cancer, Neurodegenerative Diseases, Rejuvenation, Parkinson's Disease, Yamanaka Factors, Embryonic Stem Cells, Fibroblasts, Shinya Yamanaka, Kazutoshi Takahashi, OSKM, Regenerative Medicine, Olivopontocerebellar Atrophy, NuRD complex, CHD4, Schizophrenia, I...
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - Neurological Disease and Oxidative Stress Oxidative stress has been linked to several neurological diseases (i.e., Parkinson's Disease, Alzheimer's Disease, Amyotrophic Lateral Sclerosis, Multiple Sclerosis, depression, and memory loss) \[ – \].
+
+
 ## Connections
 - [[Neurodegenerative Diseases]]: ALS is a key example of this class of diseases.
 - [[Induced Pluripotent Stem Cells]]: Used to model ALS and study its pathogenesis.

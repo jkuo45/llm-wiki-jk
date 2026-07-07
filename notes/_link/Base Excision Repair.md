@@ -24,6 +24,14 @@ aliases: [BER]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - Of course cells can put in place several mechanisms, such as the Base Excision Repair (BER) or antioxidants, as defense response against DNA lesions \[ – \].
+
+
 ## Connections
 - [[Base Excision Repair]] — related entity
 

@@ -35,6 +35,17 @@ The net rRNA output thus reflects a balance among SIRT1 (repressive), SIRT7 (act
 
 Because ribosome biogenesis is hijacked in cancer and declines in [[Aging]], TAFI68 acetylation status is functionally important. SIRT1-mediated repression of Pol I via TAFI68 may protect cells from oncogenic overgrowth, while SIRT7-driven activation supports proliferation. The opposing sirtuin actions at the nucleolus (also seen with [[RNA Polymerase I]]) make TAFI68 a nexus connecting the [[Sirtuins]] to growth control, [[Cellular Senescence]], and tumor biology. Loss of SIRT7 recapitulates the senescent, low-rRNA phenotype, underscoring the physiological weight of this regulatory node.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins (overview, CD38 KO risks, cancer therapies)|sirtuins (overview, CD38 KO risks, cancer therapies)]]
+    - Key functions: Regulates TAFI68 (via RNA Pol I), ribosome biogenesis, DNA Damage repair, chromatin organization. Involved in stress response and Metabolism.
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - TAFI68 [TBP (TATA-box binding protein)-associated factor I 68], the second large
+
+
 ## Connections
 
 - [[SIRT1]] — deacetylates TAFI68 to inhibit DNA binding and repress RNA Pol I-mediated transcription

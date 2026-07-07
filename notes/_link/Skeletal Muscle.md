@@ -23,6 +23,14 @@ aliases: [Striated Muscle]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - Additionally, conditional deletion of Raptor in mouse Skeletal Muscle reduces the expression of genes involved in Mitochondrial Biogenesis (Bentzinger et al., 2008). Cunningham and colleagues have discovered that mTORC1 controls the transcriptio
+
+
 ## Connections
 - [[Skeletal Muscle]] — related entity
 

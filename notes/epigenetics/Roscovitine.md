@@ -32,6 +32,14 @@ Because CDKs govern proliferation and transcription universally, roscovitine is 
 
 Roscovitine/seliciclib entered early-phase trials in non-small cell lung cancer, breast cancer, and other tumors, and has been studied for antiviral and neuroprotective effects. Although its clinical development has been limited by tolerability and selectivity, it remains a cornerstone research tool for dissecting CDK function and for combination strategies with DNA-damaging [[Chemotherapy]].
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - D4770]]); (4) Inhibitors of Telomerase Activity (SYUIQ‐5, BMVC4, Pyridostatin, compound 115405, perylene and indole derivatives, Harmine, BIBR1532, Azidothymidine); (5) CDK Inhibitor (Palbociclib, Roscovitine, Ribociclib); (6) activators of p53 (Nutlin-3a, ...
+
+
 ## Connections
 
 - [[Cyclin-Dependent Kinase]] - enzyme family targeted by roscovitine.

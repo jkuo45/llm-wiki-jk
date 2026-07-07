@@ -32,6 +32,14 @@ The cyclin D–CDK4/6–RB axis is a central cell-cycle gatekeeper; its deregula
 
 Landmark trials (e.g., MONALEESA) showed improved progression-free and overall survival when ribociclib was added to endocrine therapy. Common adverse effects include neutropenia, hepatobiliary enzyme elevation, and QT prolongation, necessitating monitoring. Beyond breast cancer, trials explore its use in lymphoma, melanoma, and glioblastoma. As a [[CDK Inhibitor]], it also serves as a tool to dissect cell-cycle control and senescence induction.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - Telomerase Activity|inhibitors of telomerase activity]] (SYUIQ‐5, BMVC4, Pyridostatin, compound 115405, perylene and indole derivatives, Harmine, BIBR1532, Azidothymidine); (5) CDK Inhibitor (Palbociclib, Roscovitine, Ribociclib); (6) activators of p53 (Nut...
+
+
 ## Connections
 
 - [[Cyclin-Dependent Kinase]] - the enzyme family inhibited by ribociclib.

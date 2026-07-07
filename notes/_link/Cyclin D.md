@@ -24,6 +24,14 @@ aliases: [CCND]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - Cyclin D-CDK4/CDK6 and Cyclin E-CDK2 complexes promote G1 Phase progression (Aktas et al., 1997). Thus, high levels of Cyclin D/E and CDK4/CDK6 increase proliferation by driving passage through G1 Phase.
+
+
 ## Connections
 - [[Cyclin D]] — related entity
 

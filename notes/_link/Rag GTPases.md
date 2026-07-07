@@ -24,6 +24,14 @@ aliases: [RagA/B/C/D]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - Ragulator, a pentameric protein complex, interacts with the Rag GTPases and recruits them to the lysosomes \[\]. Rag GTPases heterodimers consisted of Rag A or B linked to Rag C or D \[\].
+
+
 ## Connections
 - [[Rag GTPases]] — related entity
 

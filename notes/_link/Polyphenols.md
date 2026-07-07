@@ -120,6 +120,14 @@ Polyphenols cross the [[Blood-Brain Barrier]] and protect against [[Neurodegener
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - Several antioxidants have been exploited in recent years for their actual or supposed beneficial effect against oxidative stress, such as Vitamin E, Flavonoids, and Polyphenols.
+
+
 ## Connections
 - [[Flavonoids]]
 - [[Oxidative Stress]]

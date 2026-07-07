@@ -56,6 +56,14 @@ Sympathetic nerve endings represent a significant site of potential [[Adrenochro
 
 Once formed, adrenochrome and related aminochromes can exert local cytotoxic effects through [[Redox Cycling]], mitochondrial impairment, and covalent modification of proteins. This mechanism has been implicated in the progressive cardiac damage observed in [[Catecholamine-induced cardiomyopathy]] and may contribute to [[Sympathetic nerve terminal dysfunction]] in [[Heart Failure]].
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - neutrophil and erthrocyte|neutrophil and erthrocyte]]
+    - en.wikipedia.org - Other tissues: It can form wherever Epinephrine or Norepinephrine is present and oxidized (e.g., Sympathetic nerve endings, Endothelial cells, or inflamed tissues like Rheumatoid synovial fluid).
+
+
 ## Connections
 - [[Norepinephrine]]: The primary neurotransmitter released at these endings.
 - [[Epinephrine]]: Co-released in a subset of sympathetic fibers; precursor to Adrenochrome.

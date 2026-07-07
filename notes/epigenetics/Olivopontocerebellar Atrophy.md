@@ -25,6 +25,14 @@ Presentation is insidious, with gait ataxia, scanning dysarthria, nystagmus, and
 
 No curative therapy exists; management is supportive (physical therapy, assistive devices, symptomatic pharmacotherapy). Antisense oligonucleotides targeting mutant ataxin transcripts are in clinical development. Patient fibroblasts have been reprogrammed via [[Yamanaka Factors]] into [[Induced Pluripotent Stem Cells]] and differentiated into cerebellar neurons and [[Neural Stem Cell|neural progenitors]], providing isogenic models that recapitulate polyglutamine toxicity and enabling drug screening. Such iPSC platforms also permit study of [[Rejuvenation]] and [[Reprogramming]]-mediated reset of cellular age as modifiers of disease progression, paralleling their use in [[Frontotemporal Dementia]] and other neurodegenerative conditions.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic|Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic]]
+    - In cancer therapies, these transcription factors lead to a reduction in the size and aggressiveness of certain tumors, such as sarcomas, and in neurodegenerative diseases, they enable the production of Dopaminergic Neurons in Parkinson's Disease, the replac...
+
+
 ## Connections
 
 - [[Neurodegeneration]] — OPCA is a selective cerebellar/brainstem neurodegenerative process.

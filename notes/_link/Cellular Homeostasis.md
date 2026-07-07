@@ -16,6 +16,14 @@ Cellular homeostasis refers to the dynamic equilibrium maintained by cells throu
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - Here, we aimed to highlight the possible effects of prolonged and short-term calorie restriction on autophagic response and Cellular Homeostasis.
+
+
 ## Connections
 - [[Aging]] — loss of homeostasis is a hallmark of aging
 - [[AMPK]] — master energy sensor maintaining metabolic homeostasis

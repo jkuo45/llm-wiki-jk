@@ -62,6 +62,14 @@ SIPS is the most commonly used in vitro model of senescence because it is rapid 
 
 SIPS does not fully recapitulate the chronic, multi-stress nature of in vivo aging. SIPS cells lack the sustained telomere dysfunction signaling of replicative senescence, and their SASP kinetics differ. SIPS models should be validated with independent inducers and compared with replicative or age-matched in vivo senescence.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - Many proliferative cell types can undergo so‐called Stress-Induced Premature Senescence upon exposure to subcytotoxic stresses (UV, γ‐irradiation, Hydrogen Peroxide, hyperoxia, etc.) (Toussaint et al., , ).
+
+
 ## Connections
 
 - [[Cellular Senescence]]: **Stress-Induced Premature Senescence (SIPS)** is a form of Cellular Senescence triggered acutely by exposure to subc...

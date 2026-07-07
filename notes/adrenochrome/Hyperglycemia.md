@@ -23,6 +23,14 @@ Hyperglycemia is a primary driver of pathological [[Glycation]]. Under hyperglyc
 - Pathogenesis of diabetic complications (e.g., neuropathy, nephropathy, retinopathy).
 - Increased [[Oxidative Stress]] due to glucose autoxidation.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Dietary Advanced Glycation End Products and Aging|Dietary Advanced Glycation End Products and Aging]]
+    - Hyperglycemia increases the glycation process, and is especially apparent in insulin independent tissues such as red blood cells, peripheral nerve tissue cells, endothelial cells, eye lens cells, and kidney cells \[\].
+
+
 ## Connections
 
 - [[Glycation]]: Hyperglycemia is a primary driver of pathological Glycation.

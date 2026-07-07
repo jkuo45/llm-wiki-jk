@@ -26,6 +26,14 @@ aliases: []
 
 Thymic involution is age-related thymus atrophy that reduces naïve T cell output. [[Autophagy]] decline contributes to thymic aging.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
+    - It is the result of Thymic Involution with reduced T Cell output and reduced B Cell production in the bone marrow, leading to a decrease in peripheral naïve adaptive immune cells.
+
+
 ## Connections
 
 - [[Aging]]: **Thymic Involution** is the shrinking of the thymus gland with Aging, which leads to a significant reduction in the ...

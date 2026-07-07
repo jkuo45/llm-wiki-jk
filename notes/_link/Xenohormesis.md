@@ -61,6 +61,14 @@ The [[Glyco-Oxidative Proteostasis Shield]] (GOPS) framework explicitly incorpor
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - xenohormesis, mitohormesis|xenohormesis, mitohormesis]]
+    - The user's prompt is a directive: "research Xenohormesis." The quote, coupled with the initial phrase, provides the subject. Now I am dissecting the prompt and its implications.
+
+
 ## Connections
 - [[Resveratrol]] — polyphenol; SIRT1 activator; hormetic stressor
 - [[Quercetin]] — flavonoid; senolytic; NRF2 activator

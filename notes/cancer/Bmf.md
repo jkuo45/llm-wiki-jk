@@ -31,6 +31,17 @@ Bmf enforces apoptosis upon loss of attachment (anoikis) and during hematopoieti
 - **Therapeutic Vulnerability**: MEK/ERK inhibitors stabilize Bmf, restoring anoikis; [[BH3 mimetics]] can bypass the need for Bmf entirely.
 - **Biomarker**: ERK activation status predicts Bmf silencing and apoptotic priming.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - sis]], chromatin condensation, pyknosis, karyorrhexis, membrane blebbing, phosphatidylserine, Common Pathway, Endoplasmic Reticulum Pathway, TNFR1, FasL, TRADD, FADD, DISC, Bcl-Xs, Bik, Hrk, Bcl-w, A1-Bfl-1, AIF, Omi/HtrA2, Caspase-12, TRAF2, Bcl-B/Bcl2L10,...
+
+  - [[_document_ - Caspase|Caspase]]
+    - CDK5 | Ser13 | Inactivation | Metabolically regulated leukemia | | Bmf | | JNK, ERK2 | Ser74 | Activation |
+
+
 ## Connections
 
 - [[Bcl-2 family]]: BH3-only member.

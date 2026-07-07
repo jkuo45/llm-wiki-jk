@@ -46,6 +46,17 @@ The dependence of many cancers on USP9X-mediated [[Mcl-1]] stabilization creates
 
 Given its role in stabilizing multiple oncoproteins and its broad overexpression across cancer types, USP9X is an attractive therapeutic target. Ongoing efforts focus on developing selective USP9X inhibitors for use in combination with [[BH3 mimetics]] and other targeted agents.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - GSK3, JNK, p38 MAPK, CKII | Ser155, Ser159, Ser163 | Ubiquitination (TRIM17, SCFβ-TrCP, SCFFBW7); Inhibits USP9X | Breast Cancer, ovarian cancer, non-small-cell lung cancer, leukemia, Lym
+
+  - [[_document_ - Evading apoptosis in cancer|Evading apoptosis in cancer]]
+    - USP9X, reverses Ubiquitination of Mcl-1 \[\]. As opposed to SCF Complex Beta-TrCP and SCF Complex FBW7, the binding of USP9X
+
+
 ## Connections
 
 - [[Mcl-1]]: USP9X stabilizes Mcl-1 by removing polyubiquitin chains, preventing proteasomal degradation and promoting apoptosis resistance.

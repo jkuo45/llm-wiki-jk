@@ -33,6 +33,14 @@ PTP1B is a validated therapeutic target for [[Type 2 Diabetes Mellitus]] and [[O
 
 Small-molecule PTP1B inhibitors have been pursued for type 2 diabetes and obesity, though achieving selectivity and oral bioavailability has been challenging. Indirect PTP1B suppression via SIRT1 activation ([[Resveratrol]], [[NAD+]] precursors) offers an alternative route. Given PTP1B's role in both insulin and leptin resistance, its modulation sits at the crossroads of metabolic and [[Aging]] therapeutics.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Additionally, SIRT1 increases insulin sensitivity and lowers blood sugar by downregulating PTP1B, a key negative regulatory protein in the insulin signal transduction pathway.
+
+
 ## Connections
 
 - [[SIRT1]] — Downregulates PTP1B, enhancing insulin sensitivity and lowering blood glucose

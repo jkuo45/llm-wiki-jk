@@ -42,6 +42,17 @@ Aberrant DNA methylation patterns are a hallmark of many diseases, especially [[
 
 Additionally, defects in the machinery of DNA methylation or in the processes of imprinting can lead to various neurodevelopmental and growth disorders.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks|Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks]]
+    - A growing number of studies have suggested that alterations occur through three fundamental mechanisms like DNA Methylation, Histone Modification, and production of non‐coding MicroRNA.
+
+  - [[_document_ - Epigenetic changes during aging and their reprogramming potential|Epigenetic changes during aging and their reprogramming potential]]
+    - dheterochromatinfoci-2358&doi=&)\] Linking Summary: - New links added: Heterochromatin, Nucleosome, CpG Island, SIRT1, H3K9me3, H3K27me3, H3K4me3, HP1, Lamin A, macroH2A, DNA Methylation, Yamanaka Factors, Hutchinson-Gilford Progeria Syndrome, Werner
+
+
 ## Connections
 
 - [[DNA Methyltransferase]] - The enzymes responsible for adding methyl groups to DNA.

@@ -60,6 +60,14 @@ Epidrugs operate through a shared paradigm: by blocking the catalytic activity o
 - Can epidrugs be targeted to specific genomic loci (e.g., via [[CRISPR]]-dCas9 epigenetic editors) to avoid global toxicity?
 - What is the optimal dosing schedule to achieve epigenetic reprogramming without selecting for resistance?
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - Keywords: Senescence, Cell Stress, DNA Damage, DNA Replication Stress, Epigenetic Modifiers, Aging --- Senescence is a stable arrest of the Cell Cycle and is characterized by complex phenotypic changes.
+
+
 ## Connections
 
 - [[Epigenome]]: **Epigenetic Modifiers** (also termed epidrugs) are a class of compounds that alter the epigenetic state of a cell by...

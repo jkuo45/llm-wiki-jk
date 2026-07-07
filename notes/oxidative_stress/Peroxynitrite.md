@@ -50,6 +50,14 @@ Peroxynitrite is centrally implicated in diverse pathologies:
 
 Therapeutic strategies include low-molecular-weight peroxynitrite decomposition catalysts (e.g., **FeTMPyP**, **FeTPPS** — iron porphyrins that catalytically isomerize ONOO⁻ to NO₃⁻), [[Uric Acid]] (a physiological peroxynitrite scavenger whose levels are dramatically elevated in humans compared to other mammals), [[Selenium]]-based compounds (ebselen — a GPx mimetic), and [[Melatonin]].
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - Once formed, it is involved in several reactions that in turn generate hydrogen peroxide, hydroxyl radical (OH•), Peroxynitrite (ONOO −), Hypochlorous Acid (HOCl), and so on.
+
+
 ## Connections
 - [[Nitric Oxide]]: One of the two primary precursors.
 - [[Superoxide Radicals]]: The other primary precursor.

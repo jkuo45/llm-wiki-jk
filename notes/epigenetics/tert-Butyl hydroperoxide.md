@@ -40,6 +40,14 @@ tert-Butyl hydroperoxide is a staple in several research areas:
 - **Senescence Research**: A common method to induce senescence in vitro to study the hallmarks of aging, including [[Replicative Senescence]] and the role of [[Senolytic Drugs]].
 - **Redox Signaling**: Used to investigate how transient increases in ROS act as signaling molecules in pathways like Nrf2 activation.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - lin‐dependent kinases]] (Palbociclib, Roscovitine, Ribociclib); (6) activators of p53 (Nutlin-3a, FL118); (7) activators of Protein Kinase C (TPA/PMA, PEP005, PEP008); and (8) ROS (ROS) inducers (Hydrogen Peroxide, tert-Butyl hydroperoxide, phenyl‐2‐pyridyl...
+
+
 ## Connections
 
 - [[Oxidative Stress]] — The primary physiological state induced by TBHP.

@@ -23,6 +23,14 @@ The FLCN-FNIP1/2 complex converts RagC/D from its GTP-bound to GDP-bound state, 
 
 FNIP1 is ubiquitously expressed with enrichment in kidney and muscle. It is essential for [[Folliculin]]-dependent regulation of cell growth, [[Autophagy]] suppression under nutrient-replete conditions, and metabolic adaptation to fasting.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - Moreover, TFEB and TFE3 induce transcriptional up-regulation of Folliculin and the folliculin interacting proteins FNIP1 and FNIP2, suggesting that these transcription factors not only help cells respond to starvation but prepare them for efficient transiti...
+
+
 ## Connections
 
 - [[Folliculin]]: Folliculin-interacting protein 1, which works with Folliculin and [[FNIP2]] to regulate [[mTORC1]] and the intracellu...

@@ -24,6 +24,14 @@ aliases: [Mothers Against Decapentaplegic Homolog 2]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Similarly, enhanced expression and phosphorylation of SIRT7 plays a role in promoting Cardiac Fibrosis via activation of SMAD2 and ERK signaling pathways. However, SIRT7 KO in mice has been reported to result in Cardiac Fibrosis.
+
+
 ## Connections
 - [[SMAD2]] — related entity
 

@@ -40,6 +40,17 @@ The therapeutic potential of CDK inhibitors is centered on their ability to stop
 - **Cancer Therapy**: Many tumors exhibit a loss of endogenous CDK inhibitors (such as the deletion of the *CDKN2A* gene encoding p16) or an overexpression of cyclins. Targeted inhibition of CDKs provides a way to re-establish cell cycle control and induce senescence or apoptosis in malignant cells.
 - **Research Tool**: In laboratory settings, pharmacological CDK inhibitors are essential for dissecting the specific roles of different CDKs in developmental processes, cellular senescence, and the response to DNA damage.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - Whether a cell enters G0 Phase or proceeds through G1 Phase to continue cycling is dictated by the regulation of several key factors, including Cyclin and Cyclin-Dependent Kinase (CDK), CDK Inhibitor, and the Retinoblastoma Protein (Rb) (Figure 2).
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - rcumin]], C646), and Histone Methyltransferase (BRD4770); (4) Inhibitors of Telomerase Activity (SYUIQ‐5, BMVC4, Pyridostatin, compound 115405, perylene and indole derivatives, Harmine, BIBR1532, Azidothymidine); (5) CDK Inhibitor (Palbociclib, Roscovitine,...
+
+
 ## Connections
 
 - [[Cyclin-Dependent Kinase]] - The primary target of all CDK inhibitors.

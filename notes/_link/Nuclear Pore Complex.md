@@ -23,6 +23,14 @@ aliases: [NPC]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - Cellular structures: Nuclear pore complexes. Nuclear Pore Complex reside in the Nuclear Envelope where they function to regulate the transport of molecules between the cytoplasm and the nucleoplasm.
+
+
 ## Connections
 - [[Nuclear Pore Complex]] — related entity
 

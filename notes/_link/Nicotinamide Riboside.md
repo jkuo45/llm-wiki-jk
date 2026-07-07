@@ -32,6 +32,20 @@ Like [[NMN]], NR functions as a **universal indirect pan-sirtuin activator** by 
 - **Neuroprotection**: NR crosses the blood-brain barrier and restores neuronal NAD+ pools, offering protection against age-related cognitive decline and neurodegeneration.
 - **Longevity**: Like caloric restriction, NR supplementation extends lifespan in model organisms by activating sirtuin-dependent pathways.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health|NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health]]
+    - In this review, we will show the biochemistry and metabolism of NAD+ precursors NR (Nicotinamide Riboside) and NMN (Nicotinamide Mononucleotide), the latest findings on their beneficial physiological effects, their interplay with gut microbiota, and the fut...
+
+  - [[_document_ - mitohormesis|mitohormesis]]
+    - Fuel: Nicotinamide Riboside (NR) or Nicotinamide Mononucleotide (NAD+ precursors). Cleanup: Urolithin A (Mitophagy inducer).
+
+  - [[_document_ - sirtuins (overview, CD38 KO risks, cancer therapies)|sirtuins (overview, CD38 KO risks, cancer therapies)]]
+    - Activators (e.g., Resveratrol for SIRT1, NAD+ precursors like Nicotinamide Mononucleotide/Nicotinamide Riboside) and inhibitors are under study for metabolic, Neurodegenerative Diseases, and oncologic conditions.
+
+
 ## Connections
 
 - [[NMN]] — NR is phosphorylated to NMN before entering the NAD+ pool

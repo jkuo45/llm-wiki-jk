@@ -16,6 +16,14 @@ PPARα (Peroxisome Proliferator-Activated Receptor Alpha) is a nuclear receptor 
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - Additionally, Rapamycin reduces the phosphorylation of lipin-1 (Huffman et al., 2002), a phosphatidic acid (PA) phosphatase that is involved in glycerolipid synthesis and in the coactivation of many Transcription Factor linked to lipid metabolism, including...
+
+
 ## Connections
 - [[Lipid Metabolism]] — primary target pathway of PPARα
 - [[Fatty acid oxidation]] — induced by PPARα

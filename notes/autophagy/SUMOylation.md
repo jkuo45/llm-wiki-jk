@@ -27,6 +27,14 @@ SUMOylation of [[TFEB]] at K316 attenuates its transcriptional activity, dampeni
 
 Altered SUMOylation is implicated in [[Neurodegeneration]], where impaired clearance of SUMO-modified aggregates accumulates, and in [[Cancer]], where SUMO pathway enzymes are frequently dysregulated to support proliferation and stress survival. Modulating SENPs or E3 ligases offers a route to tune [[Autophagy]] for therapeutic benefit in proteinopathies and metabolic disease associated with [[Aging]].
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - PTM The activity and subcellular localization of TFEB are mainly regulated by PTM, including Phosphorylation \[\], Acetylation \[\], Ubiquitination \[\], PARsylation \[\], SUMOylation \[\], Glucosylation \[\], Oxidation \[, \] and S-sulfhydration \[\].
+
+
 ## Connections
 
 - [[TFEB]]: Sumoylated at K316, attenuating lysosomal gene transcription.

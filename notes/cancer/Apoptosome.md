@@ -38,6 +38,17 @@ Recruitment concentrates pro-caspase-9 at the apoptosome, enabling **induced pro
 
 Because the apoptosome is proximal to execution, agents that promote Cytochrome c release ([[BH3 mimetics]], [[MOMP]] inducers) or that mimic apoptosome function are explored to overcome resistant tumors. Conversely, excessive apoptosome activity underlies neurodegenerative and ischemic injury.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - Cytoplasmic release of cytochrome c activates Caspase-3 via the formation of a complex known as Apoptosome which is made up of cytochrome c, Apaf-1 and Caspase-9 \[\].
+
+  - [[_document_ - Evading apoptosis in cancer|Evading apoptosis in cancer]]
+    - In the cytoplasm, Cytochrome c binds to the adaptor protein Apaf-1 to form a Caspase-9-activating complex, called the Apoptosome (Figure 1).
+
+
 ## Connections
 
 - [[Intrinsic Pathway]]: Central activation platform for mitochondrial apoptosis.

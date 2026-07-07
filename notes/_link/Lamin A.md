@@ -21,6 +21,14 @@ aliases: []
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Epigenetic changes during aging and their reprogramming potential|Epigenetic changes during aging and their reprogramming potential]]
+    - agingMarkersModel(s)ReferencesReduced global heterochromatinHP1 and H3K9me3 reduced, Lamin A changesC. elegans(Haithcock et al.
+
+
 ## Connections
 - [[HGPS]] — interacts with
 - [[Aging]] — interacts with

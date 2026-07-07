@@ -39,6 +39,14 @@ Diagnosis of Pompe disease relies on several complementary approaches. **Enzyme 
 
 **Substrate Reduction Therapy** aims to reduce glycogen synthesis and is under active investigation. **Gene therapy** using adeno-associated virus (AAV) vectors to deliver functional [[GAA gene]] represents a promising future approach, with several clinical trials underway. **Pharmacological chaperones** such as [[Miglustat]] are being explored as potential ERT adjuncts, stabilizing misfolded GAA variants to improve lysosomal trafficking. Combination strategies, including ERT with chaperone co-administration, are under investigation to overcome the limitations of monotherapy.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - expression of TFEB stimulated lysosomal exocytosis and promoted cellular clearance in several Lysosomal Storage Diseases cell models: Mucopolysaccharidosis-IIIA (Sanfilippo syndrome); Multiple Sulfatase Deficiency (MSD); Neuronal Ceroid Lipofuscinosis (Batt...
+
+
 ## Connections
 
 - [[Lysosomal Storage Diseases]] — Pompe disease is classified among lysosomal storage disorders

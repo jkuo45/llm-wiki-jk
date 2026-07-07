@@ -34,6 +34,14 @@ Like its mitochondrial counterpart [[AceCS2]], AceCS1 is post-translationally re
 
 AceCS1/ACSS2 is upregulated in many cancers, where acetate serves as an alternative carbon source supporting lipogenesis and histone acetylation under nutrient stress—a process termed "acetate scavenging." Its nuclear pool specifically fuels histone acetylation to sustain proliferative gene programs. The enzyme is therefore a candidate target in cancer metabolism and a node through which [[SIRT1]] activity intersects with both lipid synthesis and epigenetic control.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - In mammals, acetate from the diet or from endogenous reactions is converted into acetyl-CoA in the cytoplasm by AceCS1 (acetyl-CoA synthetase 1) or in the mitochondria by AceCS2 .
+
+
 ## Connections
 
 - [[SIRT1]] — cytoplasmic/nuclear sirtuin that deacetylates and activates AceCS1

@@ -67,6 +67,17 @@ The chaperone function positions NMNAT2 at the intersection of [[NAD+]] metaboli
 
 NMNAT also interacts with other NAD+-consuming pathways. Activation of [[PARP]] during DNA damage or [[SIRT1]] during metabolic stress accelerates nicotinamide release, increasing demand on the NMNAT-dependent salvage pathway. When NMNAT activity is compromised — as in aging — this creates a metabolic vulnerability where increased [[NAD+]] consumption cannot be adequately compensated by reduced [[NAD+]] synthesis.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses|Nicotinamide Riboside—The Current State of Research and Therapeutic Uses]]
+    - Alternatively, NR can be turned into NAM by purine nucleoside phosphorylase (NP), which is subsequently converted to NAD + via NMN by NMNAT (Figure 1).
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - Most studies of SIRT1 in the brain have focused on its role in neuroprotection, stemming from a discovery by Milbrandt and colleagues that an NAD[+] biosynthetic enzyme, NMNAT (nicotinate mononucleotide adenylyltransferase), is primarily responsible for pro...
+
+
 ## Connections
 
 - [[NAD+]] — the primary product of NMNAT catalysis; NMNAT is the convergent final enzyme in all three NAD+ biosynthetic pathways

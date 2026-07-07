@@ -27,6 +27,14 @@ After autophagosome–lysosome fusion, the resulting autolysosome must be resolv
 
 AP2-mediated ALR is essential for maintaining lysosomal homeostasis in cells with high autophagic turnover, such as neurons and macrophages. Defects in AP2 or its PIP2 cue perturb [[Autophagy]] resolution and contribute to [[Neurodegeneration]] and lysosomal storage phenotypes. AP2 subunits are also mutated in developmental and neurodevelopmental disorders, and AP2's endocytic functions are hijacked by pathogens (e.g., HIV Nef) and exploited in [[Cancer]] invasiveness.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Lysosome biogenesis Regulation and functions|Lysosome biogenesis Regulation and functions]]
+    - B) ALR is achieved by PtdIns(4,5)P2, clathrin-, and AP2-mediated membrane budding on autolysosomes; KIF5B-driven elongation of membrane tubules along microtubules; dynamin 2–dependent protolysosome scission; and finally protolysosome maturation.
+
+
 ## Connections
 
 - [[Autophagic Lysosome Reformation]]: AP2 nucleates clathrin coats on autolysosomal tubules to regenerate lysosomes.

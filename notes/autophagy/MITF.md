@@ -23,6 +23,17 @@ MITF is the master regulator of [[Melanocytes]] development, differentiation, an
 
 MITF regulates lysosomal biogenesis and [[Autophagy]] via the CLEAR network. It interacts with [[TFEB]] and [[TFE3]] and can compensate for their loss in certain contexts.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - Except for TFEB, MiT/TFEB family members include transcription factor EC (TFEC), microphthalmia-associated transcription factors (MITF), and transcription factor E3 (TFE3).
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - of E-box (CANNTG), recognized by the MiTF TFE family of basic helix-loop-helix (bHLH) transcription factors. It was, therefore, suggested that lysosomal Lysosome is transcriptionally regulated.
+
+
 ## Connections
 
 - [[MiTF TFE family]]: Microphthalmia-associated transcription factor, a member of the MiTF/TFE family involved in melanocyte development an...

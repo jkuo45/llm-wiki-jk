@@ -29,6 +29,14 @@ While the Kitasato Institute is not itself a disease entity, its output reshaped
 
 The Institute remains active in infectious disease and natural-product pharmacology, and its legacy illustrates how parasitic-disease therapeutics can cross over into cancer research. Its collections and screening expertise are a resource for identifying novel cytotoxic and immunomodulatory agents relevant to [[Chemotherapy]] and targeted therapy.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, ‘Wonder drug’ from Japan the human use perspective|Ivermectin, ‘Wonder drug’ from Japan the human use perspective]]
+    - Discovered in the late-1970s, the pioneering drug Ivermectin, a dihydro derivative of Avermectin—originating solely from a single microorganism isolated at the Kitasato Institute, Tokyo, Japan from Japanese soil—has had an immeasurably beneficial impact in ...
+
+
 ## Connections
 
 - [[Kitasato Shibasaburō]] - Founder and pioneering microbiologist.

@@ -44,6 +44,14 @@ Despite its widespread use, BrdU has several significant limitations:
 
 Due to these drawbacks, **[[EdU]] (5-ethynyl-2'-deoxyuridine)** has emerged as a preferred alternative. EdU detection relies on "click chemistry" (copper-catalyzed azide-alkyne cycloaddition), which does not require DNA denaturation. This allows for much better preservation of cellular architecture and enables high-quality multiplexing with other fluorescently labeled antibodies.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - These chemical compounds can be functionally classified into eight groups: (1) DNA Replication Stress inducers (Aphidicolin, Hydroxyurea, Thymidine, Bromodeoxyuridine, Gemcitabine, Cyclopentenyl cytosine); (2) DNA‐damaging agents
+
+
 ## Connections
 
 - [[Thymidine]] — The natural nucleoside that BrdU mimics.

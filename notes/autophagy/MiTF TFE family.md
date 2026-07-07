@@ -32,6 +32,14 @@ The MiTF/TFE family governs [[Lysosomal Biogenesis]], [[Autophagic Flux]], [[Lip
 ## Therapeutic Implications
 Activation of [[TFEB]]/[[TFE3]] is a promising strategy for enhancing lysosomal function and [[Autophagy]] in [[Neurodegenerative Diseases|neurodegenerative]], [[Metabolic Diseases|metabolic]], and [[Lysosomal Storage Disorders|LSDs]]. Pharmacological activators include [[Torin1]], [[Celastrol]], [[Trehalose]], and novel small molecules targeting TFEB nuclear translocation. Inhibition of MITF is being explored in [[Melanoma]] therapy.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - This motif, named CLEAR Element, constitutes a type of E-box (CANNTG), recognized by the MiTF TFE family of basic helix-loop-helix (bHLH) transcription factors. It was, therefore, suggested that lysosomal Lysosome is transcriptionally regulated.
+
+
 ## Connections
 
 - [[Lysosome]]: A family of basic helix-loop-helix transcription factors that regulate lysosomal biogenesis and [[Autophagy|autophagy]].

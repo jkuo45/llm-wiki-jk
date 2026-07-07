@@ -23,6 +23,17 @@ aliases: [Matrix Metalloproteinase 1, Collagenase 1]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
+    - Several such candidates, including growth differentiation factor 15 (GDF15) (Tanaka et al., 2018), matrix metalloproteinase-1 (MMP1), stanniocalcin-1 (STC1), and serine protease inhibitors (SERPIN) have been discovered by proteomic analysis (Basisty et al.,...
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - SIRT1 also inhibits GC cell proliferation via the STAT3/matrix metalloproteinase (MMP1)-13 signaling pathway. SIRT1 has both promotive and inhibitory effects on proliferation in different cells.
+
+
 ## Connections
 - [[MMP1]] — related entity
 

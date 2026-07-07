@@ -27,6 +27,20 @@ As we age, the global landscape of histone modifications changes significantly:
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks|Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks]]
+    - A growing number of studies have suggested that alterations occur through three fundamental mechanisms like DNA Methylation, Histone Modification, and production of non‐coding MicroRNA.
+
+  - [[_document_ - sirtuins (overview, CD38 KO risks, cancer therapies)|sirtuins (overview, CD38 KO risks, cancer therapies)]]
+    - Sirtuins Overview Sirtuins (SIRT1–SIRT7) are a family of seven NAD+-dependent enzymes (class III Histone Modification/deacylases) in humans.
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - The different N- and C-terminals of SIRT proteins are fairly variable in length, chemical composition, susceptibility to Histone Modification (typically phosphorylation), and enable them to bind substrates.
+
+
 ## Connections
 - **[[Epigenetics]]**: Histone modification is a primary mechanism of epigenetic regulation.
 - **[[Chromatin]]**: The structure that histone modifications help to organize.

@@ -35,6 +35,14 @@ Myelosuppression, particularly thrombocytopenia and leukopenia, was the dose-lim
 
 Diaziquone is used experimentally to induce cellular senescence in cell culture. Treatment with AZQ in the low micromolar range triggers persistent DNA damage signaling, activation of the p53/p21^WAF1/CIP1 checkpoint axis, and the characteristic features of senescence including SA-β-gal positivity, cell cycle arrest, and SASP acquisition. The agent provides a useful tool for studying alkylator-induced senescence in the context of CNS tumor biology.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - ibitors|DNA topoisomerase inhibitors]] (Doxorubicin, Etoposide, Daunorubicin, Mitoxantrone, Camptothecin), (2b) DNA Cross-linkers (Cisplatin, Mitomycin C, Busulfan, Cyclophosphamide, Diaziquone), and (2c) drugs with complex effects (Actinomycin D, Bleomycin...
+
+
 ## Connections
 
 - [[DNA Damage]]

@@ -84,6 +84,14 @@ PWV is the primary endpoint in studies of [[Aging|vascular aging]] and intervent
 
 In the seminal study by LaRocca et al. (2013), aortic PWV was approximately 20% greater in old (27–29 months) versus young (4–6 months) mice. Supplementation with [[Spermidine|spermidine]] (3 mM in drinking water for 4 weeks) normalized aortic PWV to young levels, accompanied by reductions in aortic AGE accumulation and collagen I expression.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The autophagy enhancer spermidine reverses arterial aging|The autophagy enhancer spermidine reverses arterial aging]]
+    - ing Summary - New links added: Spermidine, Cardiovascular Disease, Nitric Oxide, Caloric Restriction, Rapamycin, Autophagy, Oxidative Stress, Endothelial Dysfunction, Advanced Glycation End Products - Suggested new entity notes to create: Histone H3, Polyam...
+
+
 ## Connections
 
 - **[[Arterial Stiffness]]**: PWV is the direct measurement of arterial stiffness

@@ -77,6 +77,14 @@ Supplementation with the polyamine [[Spermidine|spermidine]] reverses age-associ
 
 The mechanism involves spermidine-induced de-acetylation of [[Histone H3|histone H3]], which activates transcription of autophagy-related genes, thereby improving protein quality control in the vasculature.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The autophagy enhancer spermidine reverses arterial aging|The autophagy enhancer spermidine reverses arterial aging]]
+    - inical promise) Linking Summary - New links added: Spermidine, Cardiovascular Disease, Nitric Oxide, Caloric Restriction, Rapamycin, Autophagy, Oxidative Stress, Endothelial Dysfunction, Advanced Glycation End Products - Suggested new entity notes to create...
+
+
 ## Connections
 
 - **[[Aging]]**: Arterial stiffness is a principal manifestation of vascular aging

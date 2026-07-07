@@ -26,6 +26,14 @@ aliases: [Type II Programmed Cell Death]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - However, prolonged calorie restriction with excessive autophagy response is harmful and can stimulate a type II Autophagic Cell Death.
+
+
 ## Connections
 - [[Autophagic Cell Death]] — related entity
 

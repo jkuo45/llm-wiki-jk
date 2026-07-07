@@ -27,6 +27,20 @@ While essential for killing pathogens, the oxidative environment created by neut
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Adrenochrome Pathway|The Adrenochrome Pathway]]
+    - Campbell, University of Wales College of Medicine SUMMARY Reactive Oxygen Species production by Neutrophils stimulated the oxidation of adrenaline through the Adrenochrome Pathway. The two major catabolites on this pathway were Adrenochrome and Adrenolutin.
+
+  - [[_document_ - neutrophil and erthrocyte|neutrophil and erthrocyte]]
+    - britannica.com - Neutrophils: These immune cells actively oxidize Epinephrine to Adrenochrome via Reactive Oxygen Species they produce, especially during Inflammation. This is described as a major pathway for Adrenaline catabolism in these cells.
+
+  - [[_document_ - neutrophils role in adrenochrome production|neutrophils role in adrenochrome production]]
+    - Neutrophils role in Adrenochrome production Linking Summary: - New links added:
+
+
 ## Connections
 - [[Adrenochrome]] ↔ Formed by neutrophil-mediated oxidation of adrenaline.
 - [[Epinephrine]] ↔ Substrate for oxidation in the neutrophil environment.

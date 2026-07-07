@@ -29,6 +29,14 @@ Individuals carrying slow [[COMT]] variants ([[Val158Met]] Met/Met) have reduced
 
 5-MTHF is used to lower elevated homocysteine, support pregnancy (neural tube defect prevention), and as adjunctive therapy in depression and schizophrenia where methylation and [[SAMe]] availability are compromised. The [[MTHFR]] C677T polymorphism markedly reduces methylfolate generation, making direct 5-MTHF supplementation the standard intervention.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - Some people with slow COMT enzyme function have side effects from Methylated Vitamins (Methylfolate, MethylB12), Methyl Donor supplements, and COMT Inhibitors supplements.
+
+
 ## Connections
 
 - [[Folate]]: The base nutrient of which methylfolate is the active form.

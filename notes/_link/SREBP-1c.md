@@ -35,6 +35,14 @@ SREBP-1c hyperactivation contributes to [[Hepatic Steatosis]], [[Insulin Resista
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Moreover, SIRT1, FoxO1, and sterol regulatory element binding protein-1 (SREBP-1c) may act as a pathway and play crucial roles in Apoptosis.
+
+
 ## Connections
 - [[Lipid Synthesis]] — SREBP-1c is the master transcriptional regulator of de novo lipogenesis
 - [[Fatty Acid Synthase]] — key SREBP-1c target; catalyzes palmitate synthesis

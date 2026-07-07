@@ -24,6 +24,14 @@ aliases: [RAD001, Afinitor]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
+    - Rapamycin and its derivatives known as Rapalog, such as Everolimus and Temsirolimus, are highly potent allosteric inhibitors of mTOR (mTOR). The protein kinase mTOR is formed by two complexes: mTORC1 and mTORC2.
+
+
 ## Connections
 - [[Everolimus]] — related entity
 

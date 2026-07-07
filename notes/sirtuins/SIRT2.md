@@ -79,6 +79,32 @@ SIRT2 interacts with **HOXA10**, an evolutionarily conserved homeobox transcript
 
 Through the generation of [[OAADPr]], SIRT2 (along with [[SIRT3]]) may regulate the **TRPM2** (transient receptor potential melastatin-related channel 2) non-selective cation channel. Decreasing SIRT2 expression reduces OAADPr-mediated TRPM2 activation and cell death.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses|Nicotinamide Riboside—The Current State of Research and Therapeutic Uses]]
+    - rowspan="1" colspan="1">SIRT1Nucleus, CytosolDNA repairGlucose metabolism, differentiation, insulin secretion, neuroprotection, vascular protectionSIRT2Cytosol, NucleusCell cycleAdipose tissue development and functionality, blo
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - It confirmed that starvation in mice led to simultaneous reduction of P300 and induction of SIRT2 activity, resulting in deacetylation of ATG4B \[\].
+
+  - [[_document_ - sirtuins (overview, CD38 KO risks, cancer therapies)|sirtuins (overview, CD38 KO risks, cancer therapies)]]
+    - lifespan.io Overview of Localization and Classes - Nuclear/cytoplasmic (Class I): SIRT1, SIRT2 (SIRT1 shuttles between nucleus and cytosol). Mitochondrial (primarily): SIRT3, SIRT4, SIRT5.
+
+  - [[_document_ - sirtuins (resveratrol), gemini|sirtuins (resveratrol), gemini]]
+    - SIRT2–SIRT7 Modulators While SIRT1 is the most heavily studied member of the sirtuin family, mammals possess six other sirtuins (SIRT2 to SIRT7) localized in distinct cellular compartments.
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - By 1999, Roy Frye had identified five of the human SIR2 homologues, SIRT1–SIRT5, given the name ‘sirtuins’, and found that SIRT2 could act as an ADP-ribosylation using, as a donor, one of the major nicotinamide nucleotides, NAD+ .
+
+  - [[_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review|sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review]]
+    - There are a total of seven human sirtuins that have been identified namely, SIRT1, SIRT2, SIRT3, SIRT4, SIRT5, SIRT6 and SIRT7.
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - SIRT2 is predominantly cytosolic but also exists in the nucleus in the G2 to M phase transition of the cell cycle.
+
+
 ## Connections
 
 - [[SIRT1]] — fellow Class I sirtuin; both have deacetylase and ADP-ribosyl transferase activities

@@ -33,6 +33,14 @@ Interventions like [[Rapamycin]] and other [[Autophagy Inducer|autophagy inducer
 
 SASP involves secretion of pro-inflammatory cytokines, chemokines, and MMPs by senescent cells. [[Autophagy]] suppresses SASP by clearing damaged organelles and limiting inflammasome activation.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
+    - Senescence occurs through stress-induced damage, leading to cell-cycle arrest coupled with a Senescence-Associated Secretory Phenotype (SASP) – a cellular state shown to be beneficial in embryonic development, tissue repair and regeneration (Demaria et al.,...
+
+
 ## Connections
 
 - [[Cytokines]]: The **Senescence-Associated Secretory Phenotype** (SASP) is a characteristic state of senescent cells where they secr...

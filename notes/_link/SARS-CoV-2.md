@@ -30,6 +30,14 @@ COVID-19 ranges from asymptomatic to severe [[Pneumonia]], [[ARDS]], [[Sepsis]],
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug|Ivermectin, a potential anticancer drug derived from an antiparasitic drug]]
+    - Recent studies have also pointed out that it has a promising inhibitory effect on the SARS-CoV-2 virus, which has caused a global outbreak in 2020 \[\]. In addition, IVM shows potential for clinical application in Asthma \[\] and neurological diseases \[\].
+
+
 ## Connections
 - [[COVID-19]] — the disease caused by SARS-CoV-2 infection
 - [[ACE2]] — host entry receptor for the viral spike protein

@@ -25,6 +25,23 @@ Canonical Wnt activation occurs via inactivating mutations in **APC** or **β-ca
 
 Direct β-catenin/TCF inhibition has proven difficult; approaches include Porcupine (Wnt acylation) inhibitors, Frizzled antagonists, and anti-LRP5/6 antibodies. Notably, [[Ivermectin]] inhibits Wnt/β-catenin in breast and colorectal cancer models by blocking β-catenin–TCF interaction and downregulating AXIN2 and LGR5. Kinases such as [[PAK1]] can facilitate Wnt/β-catenin signaling, offering combinatorial nodes. Repurposing ivermectin illustrates cross-linkage between antiparasitic and oncology research.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - Other cellular conditions and signals In addition to the key signals described above, other cellular conditions and signals, such as genotoxic stress, Inflammation, Wnt ligand and PA, have all been shown to regulate mTORC1 signaling.
+
+  - [[_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug|Ivermectin, a potential anticancer drug derived from an antiparasitic drug]]
+    - Furthermore, Diao’s study showed that IVM could inhibit the proliferation of the canine breast tumor cell lines CMT7364 and CIPp by blocking the cell cycle without increasing Apoptosis, and the mechanism of IVM may be related to the inhibition of the Wnt pa...
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - In addition to withholding growth factors, the niche prevents inappropriate proliferation by producing quiescence-inducing soluble factors, including TGF-β1 (Batard et al., 2000; Ducos et al., 2000), Wnt4 (Eliazer et al., 2019), IL-6 cytokines (Sampath et a...
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - SIRT1 mediates cell Apoptosis through the deacetylation of FoxO proteins including FoxO1, and upregulation of SIRT1 can inhibit Apoptosis via the FoxO1/ Wnt signaling pathway.
+
+
 ## Connections
 
 - [[Ivermectin]]: Inhibits Wnt/β-catenin by disrupting β-catenin–TCF binding.

@@ -18,6 +18,17 @@ aliases: []
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - What about EGCG in green tea? I’ve seen EGCG listed on various functional medicine sites as a COMT Inhibitors, but the research in humans doesn’t back this up at normal supplemental doses. The COMT enzyme is used in the metabolism of EGCG.
+
+  - [[_document_ - xenohormesis, mitohormesis|xenohormesis, mitohormesis]]
+    - I've pinpointed key compounds like Resveratrol, Quercetin, Curcumin, and EGCG, along with their biochemical targets: Sirtuins, AMPK, and the NRF2 Pathway]]. These targets are critical in the survival response, which aligns with Caloric Restriction.
+
+
 ## Connections
 - [[Green tea]]: The primary dietary source of EGCG.
 - [[COMT]]: The enzyme involved in EGCG metabolism.

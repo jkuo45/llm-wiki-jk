@@ -32,6 +32,14 @@ SV40 was discovered as a contaminant in [[Polio Vaccine]] (1955–1963). It was 
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology|Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology]]
+    - Importantly, the anticancer activity of DEDE-melittin was rescued with a positively charged sequence (K 21 KKRKV 26) present in the Simian Virus 40 (SV40) large T antigen (peptide SV40-melittin) possessing cell-penetrating capacity (Fig. 3b).
+
+
 ## Connections
 - [[Large T Antigen]] — SV40 oncoprotein; inactivates p53 and pRb
 - [[p53]] — tumor suppressor; identified via binding to SV40 large T antigen

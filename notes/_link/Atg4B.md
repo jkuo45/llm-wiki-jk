@@ -24,6 +24,14 @@ aliases: [Autophagy-related 4B, Cysteine Protease ATG4B]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - Sun and coworkers \[\] found a close relationship between starvation and autophagy induction via the deacetylation of Atg4B and further interaction with pro-LC3.
+
+
 ## Connections
 - [[Atg4B]] — related entity
 

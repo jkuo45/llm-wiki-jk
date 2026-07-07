@@ -24,6 +24,17 @@ aliases: [Coronavirus Disease 2019]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
+    - Therefore, preventing immune senescence in older people with rapamycin or other rapalogs appears to be a promising approach in the development of geroprotective treatments for diseases that disproportionally affect the elderly, such as seasonal flu, COVID-1...
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Finally, SIRTs are also associated with COVID-19. 2019 (COVID-19), and other lung injures, seriously affect physical and mental health.
+
+
 ## Connections
 - [[COVID-19]] — related entity
 

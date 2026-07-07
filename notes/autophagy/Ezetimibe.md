@@ -20,6 +20,14 @@ Ezetimibe inhibits the [[NPC1L1]] cholesterol transporter at the intestinal brus
 
 Ezetimibe has been shown to induce hepatic [[Autophagy]] and reduce steatosis in NAFLD models by modulating cholesterol flux. Its autophagy-inducing effects may contribute to its anti-inflammatory and anti-atherogenic benefits.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - bemaciclib]], Torin1, PP2A, AMPK, Akt, Folliculin, MAP4K3, PMA, GCN5, ACAT1, SIRT1, HDACs, STUB1, TNKS1, TNKS2, FACT complex, SetA, Birt-Hogg-Dube syndrome, Renal Cell Carcinoma, MALAT1, Pancreatic Cancer, Glutaminase, Eltrombopag, Trehalose, Celastrol, Eze...
+
+
 ## Connections
 
 - [[AMPK]]: Ezetimibe is a cholesterol-lowering drug that ameliorates steatohepatitis via AMPK-mediated activation of [[TFEB]] an...

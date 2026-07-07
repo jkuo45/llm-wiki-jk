@@ -17,6 +17,14 @@ aliases: []
 ## In Adrenochrome Pathway
 [[Adrenochrome]] is a highly unstable intermediate that readily undergoes polymerization to form melanin-like pigments ([[Melanins]]). This process is responsible for the brown discoloration seen in degraded [[Epinephrine]] solutions.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - intermediates, precursor, hemoglobin|intermediates, precursor, hemoglobin]]
+    - Epinephrine → adrenaline-quinone → Leuco-adrenochrome (reduced, colorless intermediate) → Adrenochrome (pink/red-violet) → further Polymerization to Melanins brown pigments. patents.google.com 2.
+
+
 ## Connections
 - [[Adrenochrome]]
 - [[Melanins]]

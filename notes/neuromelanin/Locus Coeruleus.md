@@ -25,6 +25,17 @@ Via tonic and phasic norepinephrine release, the LC regulates the balance betwee
 ## Pathology and Clinical Relevance
 Degeneration of LC noradrenergic neurons contributes substantially to the non-motor manifestations of PD: depression, anxiety, cognitive impairment, attention deficits, and REM sleep behavior disorder. LC loss also correlates with the spread of [[Lewy Bodies]] into limbic and cortical areas, and with reduced [[Flortaucipir]] signal used to image neuromelanin in vivo. Because LC pathology is an early event, it is a candidate biomarker and therapeutic target for prodromal PD. Preserving noradrenergic tone (e.g., with norepinephrine reuptake modulators or LC-protective strategies) is being explored to slow cognitive decline. The LC thus exemplifies how a small pigmented nucleus links catecholamine biochemistry, neuromelanin, and the full clinical spectrum of synucleinopathy.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease|Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease]]
+    - Later, other neuromelanin‐containing neurons in different brain regions were also found to consistently degenerate in PD; these include the noradrenergic neurons of the Locus Coeruleus and Dorsal Motor Nucleus of the Vagus, leading to characteristic nonmoto...
+
+  - [[_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator|Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator]]
+    - This pigmentation is most pronounced in catecholaminergic neurons of the Substantia Nigra Pars Compacta (SNpc) and Locus Coeruleus, leading to a blackened appearance in these regions of aged brains.
+
+
 ## Connections
 - [[Neuromelanin]]: Pigment giving the LC its blue-black color and vulnerability.
 - [[Substantia Nigra]]: Sister pigmented nucleus co-affected in PD.

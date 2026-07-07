@@ -24,6 +24,17 @@ aliases: [Lipogenesis]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - Lipid synthesis The role of mTORC1 in regulating Lipid Synthesis, which is required for cell growth and Cell Proliferation, is beginning to be appreciated.
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Moreover, SIRT3 contributes to the reprogramming of fatty acid synthesis by upregulating acetyl-coA carboxylase 1 to promote de novo Lipid Synthesis by SIRT3 deacetylation, thereby promoting the invasion and metastasis of CC cells.
+
+
 ## Connections
 - [[Lipid Synthesis]] — related entity
 

@@ -29,6 +29,14 @@ pRb enforces the post-mitotic state of differentiated tissues, restricts stem-ce
 
 Germline *RB1* mutations cause hereditary retinoblastoma (the cancer that named the protein), and somatic *RB1* loss characterizes small-cell lung, bladder, and osteosarcoma. Loss of pRb function liberates E2F constitutively, driving uncontrolled proliferation and genomic instability — a hallmark of [[Cancer]]. Therapeutically, CDK4/6 inhibitors ([[Palbociclib]], [[Abemaciclib]], ribociclib) restore pRb-mediated E2F repression and are approved in hormonereceptor-positive breast cancer; their efficacy depends on an intact *RB1* pathway, making pRb status a predictive biomarker. pRb's role in maintaining [[Quiescence]] also intersects with [[Aging]] and regenerative control of [[Muscle Stem Cell|satellite cells]] and other progenitors.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - Whether a cell enters G0 Phase or proceeds through G1 Phase to continue cycling is dictated by the regulation of several key factors, including Cyclin and Cyclin-Dependent Kinase (CDK), CDK Inhibitor, and the Retinoblastoma Protein (Rb) (Figure 2).
+
+
 ## Connections
 
 - [[RB1]] — the gene encoding pRb; mutation causes retinoblastoma.

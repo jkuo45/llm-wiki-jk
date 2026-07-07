@@ -18,6 +18,14 @@ A tumor suppressor is a protein that protects a cell from one step on the path t
 
 Tumor suppressors ([[p53]], [[Rb]], [[PTEN]], [[BRCA1]], [[Beclin1]], [[Folliculin]], [[TSC1]]/[[TSC2]]) inhibit cell proliferation and promote [[Autophagy]] as a tumor-suppressive mechanism.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - PDCD4, a Tumor Suppressor, is a binding protein of eukaryotic initiation factor 4 A (eIF4A), which inhibits translation \[\].
+
+
 ## Connections
 
 - [[PDCD4]]: A tumor suppressor is a protein that protects a cell from one step on the path to cancer; an example is PDCD4, which ...

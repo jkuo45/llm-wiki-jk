@@ -18,6 +18,17 @@ aliases: []
 ## Formation
 It is formed by the oxidation of [[Hemoglobin]]. This can be driven by reactive oxygen species (ROS) or intermediates in the [[Epinephrine]] oxidation pathway like [[Adrenochrome]].
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Methemoglobin and Methemoglobinemia|Methemoglobin and Methemoglobinemia]]
+    - research Methemoglobin Methemoglobin (MetHb) is a form of Hemoglobin in which the iron in the heme group is oxidized from the ferrous (Fe²⁺) state to the ferric (Fe³⁺) state. Unlike normal Hemoglobin, it cannot effectively bind or transport oxygen.
+
+  - [[_document_ - intermediates, precursor, hemoglobin|intermediates, precursor, hemoglobin]]
+    - Specifically, I am exploring the impact of the oxidation product, and its implications to Methemoglobinemia, due to the presence of Catecholamines. I am also checking against initial knowledge.
+
+
 ## Connections
 - [[Hemoglobin]]
 - [[Methemoglobinemia]]

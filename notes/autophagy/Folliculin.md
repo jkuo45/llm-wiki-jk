@@ -20,6 +20,17 @@ Folliculin (FLCN) is a tumor suppressor that forms a complex with [[FNIP1]]/[[FN
 
 FLCN mutations cause [[Birt-Hogg-Dube syndrome]], characterized by fibrofolliculomas, lung cysts, and renal cancer. FLCN loss induces constitutive [[TFE3]]/[[TFEB]] nuclear translocation.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - Upon the loss of Folliculin (FLCN), a Rag C/D activator follicle protein, TFEB is permanently localized to the nucleus because mTORC1 cannot phosphorylate TFEB \[\].
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - Interestingly, RagA/B GDP -RagC/D GTP heterodimers recruit a different set of proteins to the Lysosome in starvation conditions, including Folliculin and TSC1 (Demetriades et al 2014, Martina et al 2014, Petit et al 2013, Tsun et al 2013).
+
+
 ## Connections
 
 - [[Rag proteins]]: Folliculin is a tumor suppressor and a guanine nucleotide exchange factor (GEF) for Rag proteins that regulates [[mTO...

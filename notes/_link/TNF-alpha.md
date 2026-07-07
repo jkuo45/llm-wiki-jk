@@ -36,6 +36,20 @@ Anti-TNF biologics — [[Infliximab]] (chimeric monoclonal), [[Adalimumab]] (hum
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - In aged rats subjected to acute Myocardial infarction with isoproterenol, 4-wk IF led to upregulation of Atg5 and reduction of cardiac creatine kinase, MDA, TNF-alpha, and FBS \[\].
+
+  - [[_document_ - Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network|Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network]]
+    - Genes known to trigger senescence such as mTOR or pro-inflammatory cytokine TNF-alpha were not differentially expressed within the time series.
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - In this early phase, a predominant role is played by TNF-alpha and IL-1b, as proinflammatory mediators, as well as by NF- κ B as transcriptional factor required to sustain the inflammatory process.
+
+
 ## Connections
 - [[Inflammation]] — interacts with TNF-alpha
 - [[NF-kappa B]] — interacts with TNF-alpha

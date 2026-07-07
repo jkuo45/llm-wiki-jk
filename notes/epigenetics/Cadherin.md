@@ -47,6 +47,17 @@ Dysregulation of cadherin-mediated adhesion is a major driver of several patholo
 - **Developmental Disorders**: Mutations in cadherin genes can lead to severe defects in tissue morphogenesis, affecting organ development and the structural integrity of various tissues.
 - **Tumorigenesis**: Alterations in cadherin signaling can contribute to uncontrolled cell proliferation by disrupting contact inhibition and activating oncogenic pathways.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - For instance, Cadherin-mediated adhesion between stem cells and their niche maintains stem cell quiescence, whereas disruption ... !Figure 3.
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - In Melanoma cells, SIRT1 deacetylates Beclin1 and then accelerates autophagic degradation of the epithelial marker Cadherin, finally promoting EMT.
+
+
 ## Connections
 
 - [[E-cadherin]] - The primary adhesion molecule in epithelial tissues.

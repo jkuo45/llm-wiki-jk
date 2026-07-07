@@ -25,6 +25,14 @@ PKCδ is a context-dependent regulator: in many epithelial, hematopoietic, and n
 
 PKCδ is a candidate biomarker for apoptotic competence and a target for modulating therapy response. Inhibitors (e.g., rottlerin, though non-specific) and activators are studied to tune apoptotic sensitivity. Its cleavage by [[Caspase-3]] makes PKCδ a useful experimental readout of caspase activation, and its dual role is relevant to designing [[Chemotherapy]] regimens that exploit apoptotic priming.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - TRAIL resistance; Esophageal Cancer, Colon Cancer, glioblastoma | | Caspase-3 | | PKCδ | ND | Enhancement of activity | | | Caspase-3 |
+
+
 ## Connections
 
 - [[Caspase-3]] - Executioner caspase phosphorylated by and cleaving PKCδ to amplify apoptosis.

@@ -21,6 +21,14 @@ Upon binding of its ligand, TNF, TNFR1 undergoes a conformational change that re
 ## Role in Cancer
 TNFR1 signaling is a critical balance point in cancer. While it can induce apoptosis, chronic TNF signaling in the tumor microenvironment often promotes survival and inflammation through NFκB, contributing to tumor progression.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - Although several death receptors have been described, the best known death receptors is the type 1 TNF receptor (TNFR1) and a related protein called Fas (CD95) and their ligands are called TNF and FasL respectively \[\].
+
+
 ## Connections
 - [[Extrinsic Pathway]]: A key initiator receptor for the extrinsic pathway.
 - [[Fas]]: A related death receptor.

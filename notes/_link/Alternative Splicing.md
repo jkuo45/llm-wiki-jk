@@ -23,6 +23,14 @@ aliases: []
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - Alternative Splicing also plays a role in the post-transcriptional regulation of gene expression during quiescence (Bangru et al., 2018; Yue et al., 2020). Specifically, Intron Retention appear to be enriched in quiescent adult stem cells (Yue et al., 2020).
+
+
 ## Connections
 - [[Alternative Splicing]] — related entity
 

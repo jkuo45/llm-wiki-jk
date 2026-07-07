@@ -24,6 +24,14 @@ aliases: [Vitamin B3, Nicotinic Acid]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - intermediates, precursor, hemoglobin|intermediates, precursor, hemoglobin]]
+    - AA co-founder Bill Wilson (Bill W.) reportedly experimented with leuko-adrenochrome as part of his broader interest in biochemical and spiritual approaches to Alcoholism recovery (alongside LSD and high-dose Niacin).
+
+
 ## Connections
 - [[Niacin]] — related entity
 

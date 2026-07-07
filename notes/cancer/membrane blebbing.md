@@ -29,6 +29,14 @@ Blebbing is not exclusive to apoptosis—it also occurs in mitosis, cell migrati
 
 Because blebbing is a rapid, microscopy-visible marker of apoptosis, it is widely used in high-content screening to assess cytotoxic drug candidates and to distinguish apoptosis from [[Necrosis]] (which lacks blebbing and instead swells). Molecular dissection of the ROCK1/Caspase-3 axis also suggests that ROCK inhibitors can modulate the morphology and immunogenicity of dying tumor cells.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - At the later stage of apoptosis some of the morphological features include membrane blebbing, ultrastrutural modification of cytoplasmic organelles and a loss of membrane integrity \[\].
+
+
 ## Connections
 
 - [[Apoptosis]] - The cell-death program of which blebbing is an execution-phase sign.

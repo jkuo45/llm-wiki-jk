@@ -20,6 +20,14 @@ eIF4A is an ATP-dependent DEAD-box RNA helicase that unwinds secondary structure
 
 eIF4A is targeted by [[PDCD4]], which inhibits its helicase activity and represses translation of [[TFEB]] and other autophagy regulators.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - PDCD4, a Tumor Suppressor, is a binding protein of eukaryotic initiation factor 4 A (eIF4A), which inhibits translation \[\].
+
+
 ## Connections
 
 - [[TFEB]]: Eukaryotic initiation factor 4A (eIF4A) is an RNA helicase involved in the initiation of translation, whose activity ...

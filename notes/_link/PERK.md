@@ -23,6 +23,14 @@ Chronic PERK activation is linked to [[Neurodegenerative Diseases]] (Alzheimer's
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - TFE3 nuclear translocation under ER stress is mTORC1 independent but requires PERK, an ER integral membrane protein that senses protein missfolding in the ER lumen and activates Unfolded Protein Response.
+
+
 ## Connections
 - [[EIF2AK3]] — interacts with PERK
 - [[EIF2A]] — interacts with PERK

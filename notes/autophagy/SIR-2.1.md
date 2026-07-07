@@ -24,6 +24,14 @@ aliases: [C. elegans sirtuin]
 
 SIR-2.1 is the C. elegans ortholog of mammalian [[SIRT1]]. It deacetylates [[DAF-16]]/[[FOXO]] and [[HLH-30]]/[[TFEB]] to promote longevity and [[Autophagy]] during dietary restriction.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - Caenorhabditis elegans carrying a chromosome duplication containing SIR-2.1, the worm sirtuin most similar to yeast Sir2 (yeast) , exhibits up to a 50 % l
+
+
 ## Connections
 
 - [[C. elegans]]: **SIR-2.1** is the C. elegans orthologue of the mammalian [[SIRT1]] sirtuin.

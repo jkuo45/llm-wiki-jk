@@ -34,6 +34,17 @@ This axis illustrates a context-dependent role of [[SIRT1]]: within PML-NBs it r
 
 PML-NBs are stress-responsive hubs. In response to DNA damage, interferon, or hypoxia they expand and recruit repair and signaling factors. Loss of PML accelerates tumorigenesis and impairs senescence, while PML-IV overexpression is sufficient to induce senescence in a p53-dependent manner. The PML–SIRT1–p53 interplay is thus a molecular rheostat linking chromatin stress to longevity and tumor suppression, intersecting the broader [[Sirtuins]] network and [[NAD+]]-dependent regulation.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - Additionally, PML tumor suppressor and BNIP3 (BNIP3) reduce mTORC1 signaling during Hypoxia by disrupting the interaction between mTOR and its positive regulator Rheb (Bernardi et al., 2006; Li et al., 2007).
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - Under certain conditions, SIRT1 localizes to discrete nuclear substructures with PML (promyelocytic leukaemia) protein to form nuclear bodies.
+
+
 ## Connections
 
 - [[SIRT1]] — colocalizes with PML in nuclear bodies to deacetylate and suppress p53

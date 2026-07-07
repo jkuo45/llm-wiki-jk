@@ -49,6 +49,14 @@ Catechol exhibits two sequential acid dissociations: pKₐ₁ ≈ 9.5 (first hyd
 
 Catechol is an irritant to skin, eyes, and the respiratory tract. It is classified by the [[IARC (International Agency for Research on Cancer)|International Agency for Research on Cancer]] as a **Group 2B carcinogen** (possibly carcinogenic to humans), based on animal studies showing induction of forestomach tumors. Chronic exposure can cause skin depigmentation (leukoderma) through toxicity to melanocytes. The toxicity of catechol is mediated predominantly by its oxidation product, *o*-benzoquinone, a highly electrophilic species that rapidly arylates cellular nucleophiles, including cysteine residues on proteins and glutathione, leading to oxidative stress, heme protein damage, and mitochondrial dysfunction. The [[Quinone|quinone]] form depletes intracellular [[Glutathione]] and triggers [[Apoptosis]] in susceptible cell types.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - formation, chemical stability|formation, chemical stability]]
+    - Analyzing the Synthesis Pathway I'm now diving into the chemical mechanism in detail, beginning with Epinephrine's Catechol ring and amine side chain. My current mental draft deconstructs the process.
+
+
 ## Connections
 
 - [[Adrenochrome]]: Catechol oxidation chemistry serves as a simplified model for epinephrine → adrenochrome → melanin cascade.

@@ -29,6 +29,17 @@ SCs supply new myonuclei for growth and repair, preserving muscle mass and funct
 
 With [[Aging]], SC number and function decline and niche communication falters, contributing to sarcopenia and impaired [[Tissue Repair]]. Notably, short-term expression of the [[Yamanaka Factors]] in myofibers can rejuvenate the SC niche and enhance regenerative capacity, a leading paradigm in [[Rejuvenation]] research. SC dysfunction underlies muscular dystrophies and cachexia; cell and gene therapies (including [[CRISPR]]-corrected SCs) are in development. Because SCs are non-tumorigenic (unlike [[Induced Pluripotent Stem Cells]] that form [[Teratoma|teratomas]]), they are attractive for [[Regenerative Medicine]].
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic|Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic]]
+    - OSKM]], Regenerative Medicine, Olivopontocerebellar Atrophy, NuRD complex, CHD4, Schizophrenia, Induced Neural Stem Cells, Amyotrophic Lateral Sclerosis, Frontotemporal Dementia, Alzheimer's Disease, BIG1, Somatic Cell Nuclear Transfer, Partial Reprogrammin...
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - For example, muscle stem cells (Satellite Cells) reside in a quiescent state until injury stimulates their renewed proliferation to regenerate surrounding damaged muscle tissue (de Morree et al., 2017; Goel et al., 2017; Yue et al., 2017).
+
+
 ## Connections
 
 - [[Muscle Stem Cell]] — the same cell population, named for its anatomical position.

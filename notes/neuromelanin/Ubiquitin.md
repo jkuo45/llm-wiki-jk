@@ -29,6 +29,14 @@ PD-associated gene products converge on ubiquitin-dependent pathways: parkin (an
 
 Therapeutics aimed at enhancing UPS/autophagy flux, modulating E3 ligases, or preventing α-synuclein ubiquitination are pursued for PD. Ubiquitin signatures in cerebrospinal fluid and imaging of proteostatic stress are exploratory biomarkers.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease|Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease]]
+    - publication_year=1993-511&doi=\(93\)90349-k&)\] Linking Summary: - New links added: Konstantin Nikolaevich Tretiakoff, Pale Bodies, Immunoglobulin G, Major histocompatibility complex class I, Lipofuscin, Eumelanin, Pheomelanin, L-Tyrosine, TFEB, Ambroxol, p...
+
+
 ## Connections
 
 - [[Ubiquitin-Proteasome System]]: Degradative pathway that ubiquitin targets.

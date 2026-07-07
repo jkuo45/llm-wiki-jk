@@ -24,6 +24,17 @@ aliases: [TSA]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - Atg, autophagy-related protein; TSA, Trichostatin A. !FIGURE 3 Studying the effect of SIRT2 on ATG4B deacetylation and autophagy regulation in in vivo conditions.
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - s with complex effects (Actinomycin D, Bleomycin, Temozolomide); (3) Epigenetic Modifiers that inhibit DNA Methyltransferase (Decitabine), Histone Deacetylase (Sodium Butyrate, Trichostatin A, Entinostat, Vorinostat, Panobinostat, Phenylbutyrate, Sodium Val
+
+
 ## Connections
 - [[Trichostatin A]] — related entity
 

@@ -29,6 +29,14 @@ TRADD expression and TNFR1 signaling modulate tumor-cell responses to TNF-relate
 
 Targeting the TNFR1/TRADD node is explored to sensitize tumors to death-receptor agonists or to dampen paracancerous inflammation. SMAC mimetics that deplete cIAPs can convert TNFR1 signaling toward caspase-8–dependent apoptosis, a strategy combined with TRAIL or [[Chemotherapy]].
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - These death receptors have an intracellular death domain that recruits adapter proteins such as TRADD and FADD, as well as cysteine proteases like Caspase-8 \[\]. Binding of the death ligand to the death receptor results in the formation of a
+
+
 ## Connections
 
 - [[TNFR1]]: The death receptor that recruits TRADD.

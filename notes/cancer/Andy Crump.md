@@ -31,6 +31,14 @@ Thus Crump's chronicling of ivermectin provides essential provenance for its inv
 
 Crump exemplifies the role of clear communication in translating basic microbiology into public health impact — a model relevant to how cancer research findings reach clinicians and patients.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, ‘Wonder drug’ from Japan the human use perspective|Ivermectin, ‘Wonder drug’ from Japan the human use perspective]]
+    - Credit line: World Health Organization/TDR/Andy Crump. In the early-1970s, the disease was endemic in 34 countries: 27 in Africa; 6 in the Americas; and 1 in the Arabian Peninsula.
+
+
 ## Connections
 
 - [[Satoshi Ōmura]]: Co-discoverer of ivermectin; Crump's collaborator.

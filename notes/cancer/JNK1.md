@@ -12,6 +12,14 @@ aliases: []
 # JNK1
 [[JNK1]] (c-Jun N-terminal kinase 1) is a member of the [[MAPK]] family that regulates [[Apoptosis]] by phosphorylating members of the [[Bcl-2 family]]. It phosphorylates [[Bcl-2]] at Thr69, Ser70, and Ser87, and [[Mcl-1]] at Ser64, generally leading to their inactivation.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - IL-3 control | | Bcl-2 | | ASK1, JNK1 | Thr69, Ser70, Ser87 | Inactivation | | | Bcl-2 |
+
+
 ## Connections
 
 - [[JNK1]]: # JNK1 JNK1 (c-Jun N-terminal kinase 1) is a member of the [[MAPK]] family that regulates [[Apoptosis]] by phosphoryl...

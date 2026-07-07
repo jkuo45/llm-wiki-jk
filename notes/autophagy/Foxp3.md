@@ -26,6 +26,17 @@ aliases: [forkhead box P3]
 
 Foxp3 is a forkhead transcription factor that specifies [[Regulatory T Cell]] (Treg) lineage. [[Autophagy]] maintains Treg metabolic fitness and suppressive function.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
+    - In addition, spermidine can promote differentiation of CD4+ T cells towards a regulatory Foxp3+ phenotype with an anti-inflammatory profile, which was abrogated in Atg5 -deficient T cells that are incapable of autophagy initiation (Carriche et al., 2021).
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - For example, SIRT1 participates in mediating inflammatory signaling in DCs, consequentially modulating the balance of proinflammatory T helper type 1 cells and anti-inflammatory Foxp3(+) T Lymphocyte.
+
+
 ## Connections
 
 - [[T Cell]]: **Foxp3** (Forkhead Box P3) is a transcription factor that serves as a master regulator of the regulatory T Cell (Tre...

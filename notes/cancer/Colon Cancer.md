@@ -71,6 +71,17 @@ Prognosis depends on stage at diagnosis and molecular subtype:
 
 MSI-H/dMMR tumors carry a more favorable Stage II–III prognosis (HR ~0.65) but derive no benefit from 5-FU alone. [[BRAF]] V600E mutation confers worse prognosis in metastatic disease (median OS ~12 months without targeted therapy). Liver-only metastatic disease with curative-intent resection offers 5-year survival of 35–60%. Baseline [[CEA]] ([[Carcinoembryonic Antigen]]) level is an independent prognostic factor.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - CK2 | Ser157 | Suppression of activity | TRAIL resistance; Esophageal Cancer, Colon Cancer, glioblastoma | | Caspase-3 | | PKCδ | ND | Enhancement of activity
+
+  - [[_document_ - Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology|Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology]]
+    - Beyond breast cancer, tumors overexpressing EGFR include Lung Cancer, glioblastoma, and Colorectal Cancer cancers , and tumors that can overexpress HER2 include Gastric Cancer, ovarian cancer, endometrial cancer, Bladder Cancer, Lung Cancer, Colon Cancer, a...
+
+
 ## Connections
 
 - [[XIAP]] — Overexpressed in colon cancer; confers resistance to apoptosis and chemotherapy

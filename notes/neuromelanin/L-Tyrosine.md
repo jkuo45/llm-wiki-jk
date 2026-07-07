@@ -25,6 +25,14 @@ As a precursor, L-tyrosine supports dopaminergic and noradrenergic signaling tha
 ## Pathology and Clinical Relevance
 Disrupted tyrosine metabolism is implicated across neuropsychiatric and neurodegenerative disease. Reduced tyrosine hydroxylation lowers dopamine, featuring in PD pathogenesis where [[L-DOPA]] replacement compensates for lost nigral output. Tyrosine availability can modulate neuromelanin formation, and the oxidative branches of its metabolism generate [[Dopamine o-quinone]] and [[Reactive Oxygen Species]], linking precursor supply to the oxidative milieu that stresses pigmented neurons. Genetic defects in tyrosine metabolism (e.g., tyrosinemia, albinism-related tyrosinase deficiency) further illustrate its centrality. In PD research, tyrosine-based imaging (e.g., [[Flortaucipir]] off-target and [18F]-FDOPA uptake) reflects the health of tyrosine-hydroxylating neurons, making L-tyrosine metabolism a biomarker-relevant axis.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease|Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease]]
+    - Melanins derive from a complex biosynthetic pathway initiated with the hydroxylation of L-Tyrosine to L-DOPA. After this common step, l‐dopa serves as a precursor to both melanins and catecholamines, acting along separate pathways.
+
+
 ## Connections
 - [[Dopamine]]: Catecholamine made from L-tyrosine.
 - [[L-DOPA]]: Immediate tyrosine hydroxylation product.

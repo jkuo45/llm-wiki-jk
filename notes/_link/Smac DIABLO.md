@@ -26,6 +26,14 @@ Smac mimetics (e.g., [[LCL161]], [[Birinapant]], [[Debio 1143]]) are [[Small Mol
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - Other apoptotic factors that are released from the mitochondrial intermembrane space into the cytoplasm include AIF, Smac DIABLO, Smac DIABLO and Omi/HtrA2 \[\].
+
+
 ## Connections
 - [[Apoptosis]] — Smac promotes caspase activation by neutralizing IAPs
 - [[XIAP]] — Smac binds XIAP to relieve caspase inhibition

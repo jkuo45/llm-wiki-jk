@@ -38,6 +38,14 @@ Chronic neuroinflammation creates a self-perpetuating loop: activated glia stres
 
 Anti-inflammatory and immunomodulatory strategies—NLRP3 inhibitors, microglial phenotype switching, cytokine blockade—are pursued as [[Neuroprotection]]. TSPO-PET and peripheral inflammatory biomarkers are being developed to monitor the response.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease|Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease]]
+    - In PD, neuromelanin‐containing neurons preferentially degenerate, tell‐tale neuropathological inclusions form in close association with this pigment, and Neuroinflammation is restricted to neuromelanin‐containing areas.
+
+
 ## Connections
 
 - [[Parkinson's Disease]] - disease in which neuroinflammation accelerates progression.

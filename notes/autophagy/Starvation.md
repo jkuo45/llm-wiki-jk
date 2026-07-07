@@ -27,6 +27,14 @@ aliases: []
 
 Starvation is the strongest physiological inducer of [[Autophagy]]. It activates [[AMPK]], inhibits [[mTORC1]], and induces [[TFEB]] nuclear translocation.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - found that in Starvation mouse livers, TFEB regulates its own expression by directly binding to the CLEAR Element in its promoter \[\].
+
+
 ## Connections
 
 - [[Autophagy]]: **Starvation** is a state of severe nutrient deficiency that triggers profound metabolic and cellular adaptations, in...

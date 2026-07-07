@@ -22,6 +22,14 @@ FADD contains both a death domain (DD) and a death effector domain (DED).
 ## Role in Cancer
 Downregulation of FADD is observed in several cancers, such as thyroid and lung carcinomas, contributing to resistance against death receptor-mediated apoptosis.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - These death receptors have an intracellular death domain that recruits adapter proteins such as TRADD and FADD, as well as cysteine proteases like Caspase-8 \[\].
+
+
 ## Connections
 - [[Extrinsic Pathway]]: The essential adaptor for most death receptor signaling.
 - [[Caspase-8]]: Recruited and activated by FADD.

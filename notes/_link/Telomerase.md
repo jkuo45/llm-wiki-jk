@@ -23,6 +23,14 @@ aliases: [TERT]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - SIRT6 overexpression increases the survival of transverse aortic constriction-induced Heart Failure mice, which might be associated with Telomerase upregulation, such as Telomerase reverse transcriptase and telomeric repeat binding factor 1.
+
+
 ## Connections
 - [[Telomerase]] — related entity
 

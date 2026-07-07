@@ -27,6 +27,20 @@ In amino acid-replete cells, lysosomal sensors such as [[SLC38A9]] and the vacuo
 
 Ragulator thus couples lysosomal nutrient status directly to growth-control and catabolic programs. Hyperactive Ragulator–Rag signaling drives mTORC1-dependent proliferation in [[Cancer]] and can suppress autophagic tumor surveillance, while impaired Ragulator assembly disrupts metabolic homeostasis and contributes to [[Aging]]-related decline. Genetic lesions in LAMTOR subunits affect mTORC1 routing and lysosomal positioning, linking the complex to developmental and metabolic disease.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - Ragulator, a pentameric protein complex, interacts with the Rag GTPases and recruits them to the lysosomes \[\]. Rag GTPases heterodimers consisted of Rag A or B linked to Rag C or D \[\].
+
+  - [[_document_ - Lysosome biogenesis Regulation and functions|Lysosome biogenesis Regulation and functions]]
+    - The multi-subunit complex Ragulator and GATOR1 were respectively identified as the guanine exchange factor and GTPase activating protein (GAP) of RagA/B (Bar-Peled et al., 2013; Bar-Peled et al., 2012).
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - When the amino acid levels are high, V-ATPase interacts extensively with Ragulator, a pentameric protein complex associated with the outside of the lysosomal surface, thus activating its guanine nucleotide exchange factor (GEF) activity (Zoncu et al 2011).
+
+
 ## Connections
 
 - [[Rag proteins]]: Tethered and GEF-activated by Ragulator.

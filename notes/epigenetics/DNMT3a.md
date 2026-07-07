@@ -37,6 +37,14 @@ While de novo methylation is generally less active in adult tissues than during 
 
 Recurrent *DNMT3A* mutations (notably R882H) are found in ~20% of acute myeloid leukemia (AML) cases and in myelodysplastic syndromes, where they drive aberrant methylation and block differentiation. DNMT3a is therefore both a biomarker and a therapeutic target in hematologic malignancy.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks|Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks]]
+    - Methylation occurs due to the transfer of a methyl group from SAM (S‐adenosyl methionine) to the 5th carbon of cytosine molecule to form 5‐methylcytosine, by the catalyzing action of three DNA Methyltransferase namely DNMT1, DNMT3a, and DNMT3b.
+
+
 ## Connections
 
 - [[DNA Methylation]] — The biochemical process performed by DNMT3a.

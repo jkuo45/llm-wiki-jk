@@ -39,6 +39,14 @@ Recent evidence reveals a bidirectional relationship between methylglyoxal and [
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Methylglyoxal]] ↔ [[Advanced Glycation End Products]], [[Methylglyoxal]] ↔ [[Adrenochrome]]
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Dietary Advanced Glycation End Products and Aging|Dietary Advanced Glycation End Products and Aging]]
+    - These dicarbonyl derivatives known as α-oxaldehydes (Glyoxal, Methylglyoxal (MG), and 3-deoxyglucosone) can interact with monoacids and form AGEs.
+
+
 ## Connections
 
 - [[Advanced Glycation End Products]]: It is a highly potent precursor in the formation of Advanced Glycation End Products (AGEs).

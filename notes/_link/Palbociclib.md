@@ -43,6 +43,17 @@ Palbociclib (125 mg/day, 21 days on / 7 days off) is standard first-line therapy
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - Two commercial compounds, Palbociclib and Abemaciclib, which specifically inhibit CDK4/CDK6, induce TFEB-dependent lysosomal biogenesis by inhibiting the nuclear export of TFEB in HeLa cells \[\].
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - ne methyltransferases]] (BRD4770); (4) Inhibitors of Telomerase Activity (SYUIQ‐5, BMVC4, Pyridostatin, compound 115405, perylene and indole derivatives, Harmine, BIBR1532, Azidothymidine); (5) CDK Inhibitor (Palbociclib, Roscovitine, Ribociclib); (6) activ...
+
+
 ## Connections
 - [[CDK4]]/[[CDK6]] — interacts with Palbociclib
 - [[TFEB]] — master transcription factor for lysosomal biogenesis and autophagy

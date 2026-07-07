@@ -30,6 +30,14 @@ In transgenic mouse models such as COMT-overexpressing (COMT-OE) mice, the **[[C
 
 CaMKIIα dysregulation is linked to autism, intellectual disability, and schizophrenia-associated *CAMK2A* variants. Its intersection with [[COMT]] in regulating cortical dopamine makes it a useful node for studying how genetic background modifies plasticity and vulnerability to [[Schizophrenia]] and mood disorders.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum|Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum]]
+    - In order to identify the contribution of COMT activity level specifically in neurons restricted primarily to the forebrain, we utilized a promoter from the CamKIIα gene.
+
+
 ## Connections
 
 - [[COMT]]: CamKIIα promoter drives forebrain-specific COMT overexpression in models.

@@ -48,6 +48,14 @@ In the laboratory, replicative senescence is modeled by serial passaging of prim
 - **Telomerase activation:** Gene therapy with [[TERT]] extends lifespan in mice without increasing cancer incidence in some models, though the safety of systemic telomerase activation remains controversial.
 - **[[Partial Reprogramming]]:** Transient [[OSKM]] expression can erase senescence-associated epigenetic marks and restore proliferative capacity in some cell types.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - These cellular senescence states may differ substantially from each other, as well as from Replicative Senescence through the presence of specific senescence features.
+
+
 ## Connections
 
 - [[Leonard Hayflick]]: First described by Leonard Hayflick in 1961 in cultured human [[Fibroblast|fibroblasts]], this process is driven by p...

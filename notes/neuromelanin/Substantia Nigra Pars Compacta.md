@@ -34,6 +34,17 @@ The SNpc is the epicenter of PD pathology. Loss of pigmented neurons—often >50
 
 SNpc integrity is monitored by [[Positron Emission Tomography]] and neuromelanin-sensitive MRI; these tools enable early diagnosis and track progression in trials of [[L-DOPA]], dopamine agonists, and putative neuroprotective agents. The SNpc remains the prime target for disease-modifying strategies aimed at reducing pigment/quinone stress and bolstering neuronal resilience.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease|Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease]]
+    - For instance, the loss of catecholaminergic neurons in PD is severe in the Substantia Nigra Pars Compacta (SNpc), in which virtually all neurons are pigmented, and almost undetectable in the central gray substance, in which most catecholaminergic neurons ar...
+
+  - [[_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator|Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator]]
+    - This pigmentation is most pronounced in catecholaminergic neurons of the Substantia Nigra Pars Compacta (SNpc) and Locus Coeruleus, leading to a blackened appearance in these regions of aged brains.
+
+
 ## Connections
 
 - [[Substantia Nigra]]: Parent midbrain nucleus containing the SNpc.

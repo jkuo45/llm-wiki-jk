@@ -54,6 +54,14 @@ The difference between DNAmGrimAge and chronological age — *GrimAge accelerati
 - Cross-sectional: Best for cross-sectional age estimation; longitudinal intervention studies are still emerging.
 - Proteomic surrogates: Not direct protein measurements; DNAm surrogates may miss post-translational regulation.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks|Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks]]
+    - The accuracy of prediction of early aging and age‐related diseases by blood‐based epigenetic biomarkers is increasing and the newly developed “next‐generation clock” DNAmGrimAge transcends the “first‐generation clocks”.
+
+
 ## Connections
 
 - [[Epigenetic Clock]]: **DNAmGrimAge** is a second-generation epigenetic clock developed by [[Steve Horvath]] and colleagues (2019) that pre...

@@ -30,6 +30,23 @@ Conventional disease-modifying antirheumatic drugs ([[DMARD]]s) target oxidative
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Dietary Advanced Glycation End Products and Aging|Dietary Advanced Glycation End Products and Aging]]
+    - Microvascular and macrovascular damage, seen in diabetes, is attributed to the accumulation of AGEs in tissues, but it is also associated with Atherosclerosis, Alzheimer's Disease, End Stage Renal Disease, Rheumatoid Arthritis, Sarcopenia, cataracts, and ot...
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - This is highlighted by the growing use of mTOR inhibitors \Rapamycin and its analogues (Rapalog)\] in pathological settings, including the treatment of solid tumors, organ transplantation, coronary restenosis and Rheumatoid Arthritis.
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - Rheumatoid Arthritis and Oxidative Stress Rheumatoid Arthritis is a chronic inflammatory disorder affecting the joints and surrounding tissues, characterized by macrophages and activated T cell infiltration \[, , \].
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Furthermore, SIRT1 promotes the migration of fibroblast-like synoviocytes in Rheumatoid Arthritis, which providing new insight into SIRT1 during RA progression. Mechanistically, SIRT1 is positively regulated by circ0088036 via sponging miR-140−3p.
+
+
 ## Connections
 - [[Advanced Glycation End Products]] — interacts with Rheumatoid Arthritis
 - [[Hypoxia]] — interacts with Rheumatoid Arthritis

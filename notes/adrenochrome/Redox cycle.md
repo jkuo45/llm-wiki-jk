@@ -19,6 +19,14 @@ A **Redox cycle** (reduction-oxidation cycle) is a process in which a molecule i
 ## Adrenochrome Redox Cycling
 The conversion between [[Leuco-adrenochrome]] and [[Adrenochrome]] is a classic example of a redox cycle. This cycling can continuously generate [[Superoxide anion]] radicals, contributing to cellular [[Oxidative Stress]].
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - intermediates, precursor, hemoglobin|intermediates, precursor, hemoglobin]]
+    - I'll then delve into the Redox cycle, emphasizing Leuco-adrenochrome's instability. A historical perspective on the Adrenochrome Hypothesis and analytical applications will follow.
+
+
 ## Connections
 - [[Oxidative Stress]]
 - [[Reactive Oxygen Species]]

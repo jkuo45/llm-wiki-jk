@@ -17,6 +17,14 @@ aliases: []
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - For example, Serotonin is converted into Melatonin through a process that involves adding a methyl group. COMT Variants: Slow COMT vs.
+
+
 ## Connections
 - [[Neurotransmitters]]: Serotonin's primary biological role.
 - [[Melatonin]]: A hormone synthesized from serotonin.

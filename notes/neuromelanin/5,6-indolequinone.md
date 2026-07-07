@@ -29,6 +29,14 @@ By sequestering labile redox-active intermediates such as [[Aminochrome]] and 5,
 
 The same electrophilicity that enables polymerization can be deleterious: 5,6-indolequinone and related quinones form adducts with proteins and lipids, and residual unpolymerized quinones contribute to [[Oxidative Stress]]. Aberrant accumulation of indolic quinone intermediates has been proposed to promote [[Alpha-synuclein Aggregation]] and to compromise the protective role of neuromelanin in aging and [[Parkinson's Disease]]. Determining the balance between benign sequestration and toxic adduct formation remains an active area of research into why melanized neurons are selectively vulnerable.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator|Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator]]
+    - When Dopamine is oxidized to Dopamine o-quinone, Aminochrome and 5,6-indolequinone are formed and typically undergo polymerization to form the dark pigment, Neuromelanin (Munoz et al., 2012).
+
+
 ## Connections
 
 - [[Aminochrome]]: Cyclized dopamine o-quinone that precedes 5,6-indolequinone in the neuromelanin pathway.

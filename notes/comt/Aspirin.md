@@ -31,6 +31,17 @@ These findings remain debated and are not yet standard in guideline-driven presc
 
 Aspirin is indicated for secondary prevention of myocardial infarction and stroke, and (at low dose) for preeclampsia prophylaxis and colorectal cancer risk reduction. Consideration of [[COMT]] status adds a personalized layer to the long-standing balance between bleeding risk and thrombotic prevention. Notably, aspirin itself is not a catechol and does not require [[COMT]] for metabolism, distinguishing it from polyphenols such as [[Quercetin]] or [[Green tea]] catechins.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Dietary Advanced Glycation End Products and Aging|Dietary Advanced Glycation End Products and Aging]]
+    - Pharmacological Interventions Several pharmacological agents have been studied as blockers of AGEs crosslinking or as blockers of their actions using cellular, animal and human models: benfotiamine (a B1-like vitamin with higher bioavailability), Metformin,...
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - Aspirin and COMT: A study of women who took Aspirin or a placebo for heart disease prevention found that incidents of Cardiovascular Disease increased in women with rs4680 val/val (G/G, fast) who took Aspirin.
+
+
 ## Connections
 
 - [[COMT]]: Genotype modulates the cardiovascular preventive response to aspirin.

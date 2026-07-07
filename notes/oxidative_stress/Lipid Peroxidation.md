@@ -28,6 +28,20 @@ Primary products are lipid hydroperoxides, which fragment into secondary aldehyd
 
 Peroxidation inserts polar groups into the bilayer, increasing permeability, fluidity, and fusion tendency. In [[Mitochondria]], cardiolipin peroxidation (driven by [[Reactive Oxygen Species]] at Complex III) facilitates cytochrome c release and [[Apoptosis]]. In [[Atherosclerosis]], oxLDL formation via lipid peroxidation is an initiating event: oxLDL is cleared unregulated by [[Macrophage]] scavenger receptors (SR-A, [[CD36 Receptor]]), forming foam cells; 4-HNE-modified proteins in plaques activate [[NF-kappa B]]. In [[Neurodegenerative Diseases]], elevated MDA and 4-HNE in CSF and tissue of [[Alzheimer's Disease]], [[Parkinson's Disease]], and [[Amyotrophic Lateral Sclerosis]] indicate neuronal injury. 4-HNE adduction of the astrocytic glutamate transporter GLT-1 (EAAT2) impairs clearance, causing excitotoxicity. Iron-dependent peroxidation also drives [[Ferroptosis]], a regulated necrotic cell death.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - intermediates, precursor, hemoglobin|intermediates, precursor, hemoglobin]]
+    - Potential Effects in Blood - Oxidative Stress on RBCs: Compounds in this pathway (including Adrenochrome and its intermediates) can promote Methemoglobin formation, Hemolysis in high concentrations, or Lipid Peroxidation in Erythrocytes membranes under oxid...
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - e]], L-arginine, Coenzyme Q10, Genistein - Suggested new entity notes to create: 8-oxo-2'-deoxyguanosine, Base Excision Repair, PPARγ, LXRα, ABCA1, VCAM-1, TNF-alpha, IL-1b, TGF-beta, Uremia, Proteinuria, Renal Failure, Malondialdehyde, L-arginine, Coenzyme...
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - In addition, SIRT3 reduced ROS and Lipid Peroxidation by improving mitochondrial function via deacetylation of LKB1 and activation of AMPK. As previously mentioned, a feedback loop may exist between AMPK and SIRT3.
+
+
 ## Connections
 
 - [[Malondialdehyde]]: Key reactive aldehyde end-product and biomarker of LPO.

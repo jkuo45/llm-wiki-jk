@@ -24,6 +24,14 @@ Sirtuins, particularly [[SIRT1]], are critical sensors of metabolic health. They
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks|Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks]]
+    - This reciprocates to the consequences of diseases like Cardiovascular Disease, Metabolic Syndromes, Neurodegenerative Diseases, etc. Therefore, a common phrase can be used that “aging is the underlying cause of every disease”.
+
+
 ## Connections
 - **[[Aging]]**: Metabolic syndrome is a major driver of biological age acceleration.
 - **[[Diabetes Mellitus]]**: One of the primary diseases associated with metabolic syndrome.

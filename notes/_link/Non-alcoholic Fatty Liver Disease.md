@@ -24,6 +24,14 @@ aliases: [NAFLD]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Notably, Non-alcoholic Fatty Liver Disease is the most common liver disease, with a worldwide prevalence of 25%. About 2 billion people consume alcohol worldwide and upwards of 75 million are at risk of alcoholassociated liver diseases.
+
+
 ## Connections
 - [[Non-alcoholic Fatty Liver Disease]] — related entity
 

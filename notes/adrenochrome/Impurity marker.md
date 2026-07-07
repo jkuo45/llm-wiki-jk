@@ -17,6 +17,14 @@ An **Impurity marker** is a chemical substance of known structure that is used t
 ## Application in Adrenochrome Pathway
 [[Leuco-adrenochrome]] serves as a critical impurity marker in the stability testing of [[Epinephrine]]. Its presence indicates that the epinephrine has begun to oxidize.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - intermediates, precursor, hemoglobin|intermediates, precursor, hemoglobin]]
+    - body's Catecholamine pathways.Key CharacteristicsMechanism: It is formed from adrenaline-quinone and is subsequently oxidized to create Adrenochrome, stimulating oxygen uptake during Autoxidation.Research Use: In the pharmaceutical and chemical industries, ...
+
+
 ## Connections
 - [[Quality Control]]
 - [[Leuco-adrenochrome]]

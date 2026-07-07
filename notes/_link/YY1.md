@@ -24,6 +24,14 @@ aliases: [Yin Yang 1]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - Cunningham and colleagues have discovered that mTORC1 controls the transcriptional activity of PGC1-α (PGC1-α), a nuclear cofactor that plays a key role in Mitochondrial Biogenesis and oxidative metabolism, by directly altering its physical interaction with...
+
+
 ## Connections
 - [[YY1]] — related entity
 

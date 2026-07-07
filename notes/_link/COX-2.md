@@ -23,6 +23,14 @@ aliases: [Cyclooxygenase-2, PTGS2]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - SIRT6 promotes expression of COX-2 by repressing AMPK signaling, thereby increasing cell proliferation. Moreover, overexpression of SIRT6 promotes cell proliferation via upregulating he phosphorylation of ERK.
+
+
 ## Connections
 - [[COX-2]] — related entity
 

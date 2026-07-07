@@ -15,6 +15,14 @@ The inner part of the [[Adrenal gland]] that produces [[Catecholamines]], includ
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - neutrophil and erthrocyte|neutrophil and erthrocyte]]
+    - Adrenochrome is primarily produced in the body through the oxidation of Epinephrine, a hormone synthesized and released mainly by the Adrenal medulla.
+
+
 ## Connections
 - [[Epinephrine]]: Synthesized and stored in the adrenal medulla.
 - [[Chromaffin cells]]: The primary cell type in the adrenal medulla.

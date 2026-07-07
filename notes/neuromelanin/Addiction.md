@@ -29,6 +29,14 @@ The dopaminergic system links addiction to [[Parkinson's Disease]] in two ways. 
 
 Addiction and PD illustrate the dual-edged nature of dopamine signaling: too little produces parkinsonism, too much can hijack motivational learning. Understanding shared dopaminergic substrates informs both addiction treatments (e.g., dopamine-receptor modulators, cue-exposure therapy) and PD management, where dopaminergic therapy must balance motor benefit against dyskinesia and behavioral side effects.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator|Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator]]
+    - It could explain in part the reinforcement of Addiction and associated behavior that comes with Dopamine-releasing drugs, since excess cytoplasmic Dopamine creates Oxidative Stress which leads to self-polymerization up to a certain point.
+
+
 ## Connections
 
 - [[Nigrostriatal System]]: Dopaminergic pathway central to both addiction and PD.

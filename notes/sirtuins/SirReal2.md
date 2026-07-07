@@ -50,6 +50,17 @@ X-ray crystallography reveals that SirReal2 induces a **ligand-induced structura
 
 ---
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins (resveratrol), gemini|sirtuins (resveratrol), gemini]]
+    - Instead, SIRT2 inhibitors (e.g., AGK2, AK-7, and SirReal2) are being heavily investigated for neurodegenerative diseases like Parkinson's and Huntington's, where blocking SIRT2 helps rescue microtubule stability and protects neurons from aggregation-induced...
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Of these, SirReal2 is a potent SIRT2 inhibitor (IC50 = 0.14 μM) with minimal effects on SIRT1 and SIRT3. According to X-ray crystallography, SirReal2 exerts its potency and selectivity
+
+
 ## Connections & Related Entities
 
 - **[[SIRT2]]** — direct molecular target selectively inhibited by SirReal2.
@@ -57,6 +68,8 @@ X-ray crystallography reveals that SirReal2 induces a **ligand-induced structura
 - **[[AGK2]]** — another selective SIRT2 inhibitor, utilizing a different binding mechanism.
 
 ---
+
+
 
 ## Connections
 

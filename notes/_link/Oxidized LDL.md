@@ -17,6 +17,14 @@ aliases: [oxLDL, Oxidized low-density lipoprotein]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - SIRT3 gene expression is associated with endothelial cell Apoptosis in Atherosclerosis rats, and SIRT3/SOD2 signaling can be activated by circ_0,003,423, thereby protecting human umbilical vein endothelial cells from Oxidized LDL-induced dysfunction.
+
+
 ## Connections
 - [[Atherosclerosis]] — oxLDL uptake by macrophages forms foam cells
 - [[Endothelial Dysfunction]] — oxLDL impairs NO bioavailability

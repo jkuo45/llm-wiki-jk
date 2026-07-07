@@ -53,6 +53,14 @@ LPS contamination in pharmaceutical preparations is a major safety concern. The 
 
 Despite extensive research, therapeutic targeting of the LPS-TLR4 axis has proven challenging. Strategies under investigation include anti-LPS monoclonal antibodies targeting Lipid A, the synthetic TLR4 antagonist eritoran (which binds MD-2 to competitively inhibit LPS binding), LBP inhibitors, and downstream inhibitors of MyD88 or IRAK4. None of these has achieved definitive clinical efficacy in large sepsis trials, underscoring the multifactorial nature of the septic response and the limitations of targeting a single pathogenic mediator.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - Similar to Mitochondria and ER stress conditions, TFE3 nuclear translocation is not accompanied by a noticeable reduction in mTORC1 activity in LPS-treated Macrophage, further confirming that TFE3 can be activated in a mTORC1-independent manner (Pastore et ...
+
+
 ## Connections
 
 - [[Macrophage]] — LPS activates macrophages via TLR4, triggering pro-inflammatory cytokine release

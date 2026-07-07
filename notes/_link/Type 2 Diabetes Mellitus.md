@@ -28,6 +28,17 @@ aliases: [T2DM, Type 2 diabetes, Non-insulin-dependent diabetes mellitus, Adult-
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
+    - The shared aetiology of age-associated disorders, such as Atherosclerosis, Cardiovascular Disease, Osteoarthritis, Osteoporosis, Type 2 Diabetes Mellitus, Cancer and Neurodegenerative Diseases is still poorly understood (Nikolich-Žugich, 2018).
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - DCM is also a distinct form of heart disease that represents a major cause of death and disability in patients with diabetes, particularly in the more prevalent Type 2 Diabetes Mellitus patient population.
+
+
 ## Connections
 - [[Insulin Sensitivity]]: Central pathophysiological defect in T2DM.
 - [[AMPK]]: Sirtuins and AMPK cooperate to regulate metabolic homeostasis.

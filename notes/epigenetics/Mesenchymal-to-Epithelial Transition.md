@@ -29,6 +29,14 @@ MET is a critical, early landmark in the [[Cellular Reprogramming]] of [[Fibrobl
 
 MET operates in embryonic development (e.g., during kidney and lung organogenesis, where migrating mesenchymal condensates epitheliaze) and in adult tissue repair. It counterbalances EMT to maintain tissue architecture.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network|Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network]]
+    - Epithelial-to-Mesenchymal Transition Reversal of Epithelial-to-Mesenchymal Transition, i.e., Mesenchymal-to-Epithelial Transition, also plays a major role in Cellular Reprogramming somatic cells.
+
+
 ## Connections
 
 - [[Cellular Reprogramming]]: MET is a hallmark initiation event for successful reprogramming of mesenchymal cells.

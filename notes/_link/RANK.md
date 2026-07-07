@@ -24,6 +24,14 @@ aliases: [Receptor Activator of NF-κB, TNFRSF11A]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - In this case, TFE3 activation occurs downstream of the growth factors M-CSF and RANK and requires MAPK-dependent TFE3 phosphorylation (Hershey & Fisher 2004).
+
+
 ## Connections
 - [[RANK]] — related entity
 

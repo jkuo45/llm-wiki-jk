@@ -25,6 +25,14 @@ LF is caused by filarial nematodes (*Wuchereria bancrofti*, *Brugia malayi*, *Br
 
 Although GPELF is a parasitic-disease program, it intersects the cancer knowledge base in two ways. First, the donated anthelmintics — ivermectin and albendazole — are under active investigation for repurposed [[Anticancer]] activity (e.g., ivermectin's inhibition of [[YAP1]], [[PAK1]], and [[Akt]]/[[mTOR]] signaling; albendazole's [[Microtubule]] destabilization akin to other benzimidazoles). Second, the scale-up of MDA provides a real-world platform for studying drug safety, combination dosing, and global access that informs cancer [[Chemotherapy]] delivery in low-resource settings. The GluCl-targeted mechanism of ivermectin ([[Glutamate-gated Cl- channels]]) underscores its selective safety.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, ‘Wonder drug’ from Japan the human use perspective|Ivermectin, ‘Wonder drug’ from Japan the human use perspective]]
+    - Subsequently, in 1999/2000, the World Health Organization launched the Global Programme to Eliminate Lymphatic Filariasis. In summary, the vision of Ivermectin as a potential drug for human Onchocerciasis emanated from Merck & Co.
+
+
 ## Connections
 
 - [[World Health Organization]]: Convening and coordinating agency of GPELF.

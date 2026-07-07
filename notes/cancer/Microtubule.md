@@ -24,6 +24,14 @@ Drugs that interfere with microtubule dynamics are classified into two groups:
 
 [[Fenbendazole]] acts as a moderate microtubule destabilizing agent, binding to tubulin and inhibiting its polymerization, which leads to cell cycle arrest and [[Apoptosis]] in cancer cells.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Oral Fenbendazole for Cancer Therapy in Humans and Animals|Oral Fenbendazole for Cancer Therapy in Humans and Animals]]
+    - Mentioned in this document
+
+
 ## Connections
 - **Structural Component:** [[Tubulin]] (alpha and beta)
 - **Processes:** [[Mitosis]], [[Apoptosis]], [[Cell Cycle]]

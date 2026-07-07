@@ -16,6 +16,14 @@ Metabolites are the intermediate products of metabolic reactions catalyzed by va
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Gut Microbiome, Aging, and Longevity A Systematic Review|The Gut Microbiome, Aging, and Longevity A Systematic Review]]
+    - Alpha Diversity of microbial taxa, functional pathways, and Metabolites was higher in older adults, particularly among the oldest-old adults, compared to younger individuals.
+
+
 ## Connections
 - [[Biomarkers]] — related entity
 - [[Enzymes]] — related entity

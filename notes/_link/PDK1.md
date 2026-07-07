@@ -24,6 +24,14 @@ aliases: [3-Phosphoinositide-Dependent Protein Kinase 1]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - Full activation of Akt requires its phosphorylation at two sites: Ser308, by PDK1, and Ser473, by a kinase that remained unidentified for many years, but was demonstrated to be mTORC2 by our group in 2005 (Sarbassov et al., 2005).
+
+
 ## Connections
 - [[PDK1]] — related entity
 

@@ -29,6 +29,14 @@ Pheomelanin-type structures are poorer antioxidants than eumelanin and can, unde
 
 Understanding the benzothiazine fraction helps explain inter-individual differences in neuromelanin stability and metal handling. The shared pheomelanic chemistry between skin and brain pigment supports the epidemiological link between pigmentary phenotypes and PD, and motivates biochemical studies of sulfur content in neuromelanin from affected vs control substantia nigra.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator|Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator]]
+    - In one study, the ratio of hydrogen peroxide (H 2 O 2) degradation products indicated that NM is derived mostly from Dopamine, with 25% incorporation of Cysteine in the form of a Benzothiazine structure.
+
+
 ## Connections
 
 - [[Pheomelanin]]: Polymer defined by benzothiazine units.

@@ -29,6 +29,14 @@ Germline RB1 mutations cause hereditary retinoblastoma (often bilateral, early-o
 
 RB1 is a paradigm for tumor-suppressor biology and a biomarker for proliferation (the "retinoblastoma protein pathway"). Its restoration or pharmacological mimicry (CDK inhibition) is a mainstay anticancer strategy, and pRb pathway profiling guides precision therapy.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - A major target of CDK4/CDK6 phosphorylation and a central player in the proliferation-quiescence decision is the Retinoblastoma Protein (RB1).
+
+
 ## Connections
 
 - [[Retinoblastoma Protein]] - protein product of RB1.

@@ -65,6 +65,20 @@ COMT genotype influences response to numerous substances:
 - [[Vitamin E]] ([[Alpha-tocopherol]]) cancer prevention varies by COMT genotype
 - [[Methyl Donor]] supplements ([[Methylfolate]], [[MethylB12]], [[SAMe]], [[Betaine]]) can cause mood side effects in slow COMT individuals due to rapid neurotransmitter cycling
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - formation, chemical stability|formation, chemical stability]]
+    - I'm focusing on why Adrenochrome isn't the primary product in vivo, and the roles of MAO and COMT. I have to avoid conspiratorial narratives surrounding the topic.
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - The COMT enzyme can be slow or fast, depending on your genes. Some people with slow COMT enzyme function have side effects from Methylated Vitamins (Methylfolate, MethylB12), Methyl Donor supplements, and COMT Inhibitors supplements.
+
+  - [[_document_ - Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum|Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum]]
+    - A common genetic Polymorphism that results in increased activity of the Dopamine regulating enzyme COMT (the COMT Val 158 allele) has been found to associate with poorer Cognitive Performance and increased susceptibility to develop Psychiatric Disorders.
+
+
 ## Connections
 
 - [[Catecholamines]] ↔ Primary substrate for COMT.

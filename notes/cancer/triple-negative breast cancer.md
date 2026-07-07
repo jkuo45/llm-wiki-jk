@@ -20,6 +20,17 @@ aliases: []
 - **Molecular Targets**: Frequently overexpresses [[EGFR]] (approx. 50% of cases), but often shows resistance to standard anti-EGFR therapies.
 - **Signaling**: Highly dependent on the [[PI3K]]/[[Akt]]/[[mTOR]] pathway.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology|Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology]]
+    - Here, we demonstrate that honeybee venom and its major component melittin potently induce cell death, particularly in the aggressive triple-negative breast cancer and HER2-enriched breast cancer subtypes.
+
+  - [[_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug|Ivermectin, a potential anticancer drug derived from an antiparasitic drug]]
+    - triple-negative breast cancer (TNBC) refers to cancer that is negative for estrogen receptor, progesterone receptor, and human epidermal growth factor receptor 2(HER2) and is the most aggressive subtype of breast cancer with the worst prognosis.
+
+
 ## Connections
 - [[Breast Cancer]]: The broader disease category.
 - [[EGFR]]: Often overexpressed in TNBC.

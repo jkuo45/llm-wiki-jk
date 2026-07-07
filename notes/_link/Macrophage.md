@@ -60,6 +60,17 @@ In **atherosclerosis**, macrophages accumulate oxidized low-density lipoprotein 
 
 **HIV reservoir.** Macrophages serve as long-lived reservoirs for [[HIV]], harboring integrated proviral DNA and producing virus even during antiretroviral therapy, posing a significant barrier to cure strategies.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - TFE3 activation in myoblasts is critical to promote their maturation toward the Macrophage lineage (Zanocco-Marani et al 2006, Zanocco-Marani et al 2009).
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - The effect of SIRTs in inflammatory cells: The cells involved in the inflammatory response include inflammatory cells such as Macrophages, mast cells and endothelial cells.
+
+
 ## Connections
 - [[Autophagy]] — cellular self-degradation pathway; clears damaged proteins and organelles; critical for macrophage xenophagy and inflammasome regulation
 - [[TFEB]] — master transcription factor for lysosomal biogenesis and autophagy; drives degradative capacity in macrophages

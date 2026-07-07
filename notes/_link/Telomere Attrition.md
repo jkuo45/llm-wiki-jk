@@ -50,6 +50,20 @@ Beyond monogenic TBDs, short telomeres are epidemiologically associated with inc
 
 Therapeutic strategies targeting telomere attrition include telomerase gene therapy (experimental [[TERT]] AAV delivery, shown to extend lifespan in aged mice without increasing cancer incidence in some studies), telomerase activators such as TA-65 (a cycloastragenol-derived supplement with limited clinical evidence), senolytics ([[Senolytic Drugs|dasatinib]] + [[Quercetin]], navitoclax) that selectively clear senescent cells harboring short telomeres, and anti-telomerase cancer therapies. Imetelstat (GRN163L), a competitive telomerase inhibitor, has progressed through clinical trials for hematologic malignancies including myelodysplastic syndromes and myelofibrosis.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Gut Microbiome, Aging, and Longevity A Systematic Review|The Gut Microbiome, Aging, and Longevity A Systematic Review]]
+    - Primary cellular and molecular Hallmarks of Aging include Genomic Instability, Telomere Attrition, Epigenetic Alterations, and loss of Proteostasis, which lead
+
+  - [[_document_ - sirtuins (overview, CD38 KO risks, cancer therapies)|sirtuins (overview, CD38 KO risks, cancer therapies)]]
+    - Key functions: Maintains genomic stability, Telomere Attrition, DNA Repair (base excision repair), regulates glycolysis and lipid Metabolism (represses HIF1A, SREBP1), Inflammation control.
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Subsequently, Sir2 (yeast) has been found to function in transcriptional repression at ribosomal DNA loci, at silent mating-type loci and in Telomere Attrition, and this increasing knowledge has greatly improved exploration of its function.
+
+
 ## Connections
 
 - [[Aging]] — telomere attrition is one of the nine hallmarks of aging

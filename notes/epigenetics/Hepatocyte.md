@@ -29,6 +29,14 @@ Unlike most somatic cells, hepatocytes are normally quiescent but retain the abi
 
 Hepatocytes are [[Somatic Cells]] derived from endoderm during [[Embryonic Development]] and can be generated from [[Induced Pluripotent Stem Cells]] for disease modeling and drug screening. Their specification depends on transcription factors (HNF4α, Foxa) and epigenetic remodeling. Hepatocyte dysfunction underlies steatosis, cirrhosis, and hepatocellular carcinoma, making them central to toxicity and regenerative-medicine research.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - Quiescent cells include tissue-resident adult stem cells, such as Hematopoietic Stem Cell, Muscle Stem Cell, and Neural Stem Cell, as well as differentiated cells, including Fibroblast, Hepatocyte, Lymphocyte, and Oocyte (Bangru et al., 2018; Hwang et al., ...
+
+
 ## Connections
 
 - [[Liver Regeneration]] — The robust proliferative restoration of liver mass after injury.

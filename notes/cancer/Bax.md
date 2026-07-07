@@ -32,6 +32,26 @@ Bax activity and stability are regulated by several pathways:
 - **Mutations**: Mutations in the *BAX* gene are common in colorectal cancers with microsatellite instability, leading to impaired apoptosis.
 - **Bcl-2/Bax Ratio**: The ratio of anti-apoptotic [[Bcl-2]] to pro-apoptotic Bax is a critical determinant of a cell's fate. A low ratio favors survival, while a high ratio favors apoptosis.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - Bax, Bak, Bad, Bcl-Xs, Bid, Bik, Bim and Hrk) and the anti-apoptotic proteins (e.g. Bcl-2, Bcl-xL, Bcl-w, A1-Bfl-1 and Mcl-1) \[\].
+
+  - [[_document_ - Caspase|Caspase]]
+    - ERK1_2 | Thr124 | Ubiquitination and degradation | Lung Cancer, Colon Cancer | | Bax | Loss in Colon Cancer | PKA | Ser60 | Activation (following T167/S184 depho
+
+  - [[_document_ - Evading apoptosis in cancer|Evading apoptosis in cancer]]
+    - Bax and Bak \[Bcl2 antagonist/killer\], which share BH1-BH3 domains). Following cytotoxic or genotoxic stress, Bcl-2 family are activated and promote oligomerization of Bax (or Bak), resulting in MOMP, whereas pro-survival members (e.g.
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - Bax-, E2F1- and p73-mediated apoptosis— Other mechanisms by which SIRT1 regulates cell survival have been described (Figure 5), for example by deacetylating Ku70, a DNA-repair factor and inhibitor of Bax-mediated apoptosis.
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - p53 exerted pro-oxidant activity and promoted oxidative damage by regulating its transcriptional targets, including p53-inducible gene 3, Glutathione/NADH, p-FOXO3a and B-cell lymphoma -2-associated-X-protein (Bax).
+
+
 ## Connections
 - [[Bcl-2 family]]: Bax is a core pro-apoptotic member.
 - [[Bcl-2]]: Its primary antagonist.

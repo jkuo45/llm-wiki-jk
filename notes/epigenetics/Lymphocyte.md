@@ -31,6 +31,14 @@ Although lymphocytes define adaptive immunity, they cooperate intimately with [[
 
 Lymphocyte fate, subset specification, and memory formation are governed by dynamic epigenetic remodeling (DNA methylation, enhancer accessibility), making them a tractable model for studying [[Epigenetic Clock]] aging and [[Immunosenescence]]. Reprogramming and iPSC derivation from lymphocytes is also common, given their accessibility from blood.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - Quiescent cells include tissue-resident adult stem cells, such as Hematopoietic Stem Cell, Muscle Stem Cell, and Neural Stem Cell, as well as differentiated cells, including Fibroblast, Hepatocyte, Lymphocyte, and Oocyte (Bangru et al., 2018; Hwang et al., ...
+
+
 ## Connections
 - [[T Cell Receptor]]: The antigen-recognition complex defining T-lineage lymphocytes.
 - [[Innate Immunity]]: The first-line system that primes and cooperates with lymphocytes.

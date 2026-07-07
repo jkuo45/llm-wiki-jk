@@ -30,6 +30,14 @@ The field relies heavily on accurate [[Biomarkers]] to measure the effectiveness
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks|Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks]]
+    - To address the rationale and provide geriatric care, the constant target of Geroscience is to identify reliable Biomarkers for aging.
+
+
 ## Connections
 - **[[Aging]]**: The central focus of geroscience research.
 - **[[Biomarkers]]**: Tools used to quantify biological age and the rate of decline.

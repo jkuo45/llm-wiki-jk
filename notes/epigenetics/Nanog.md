@@ -29,6 +29,14 @@ Mechanistically, Nanog represses differentiation-promoting genes (e.g., *Gata6*,
 
 Nanog is expressed in the inner cell mass of the blastocyst and silenced upon differentiation. Aberrant Nanog re-activation is observed in several cancers, where it supports tumor-initiation and therapy resistance. Its role in [[Rejuvenation]] and [[Partial Reprogramming]] of aged cells is an active research area.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network|Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network]]
+    - Since the landmark discovery that Somatic Cells can be reprogrammed to an embryonic-like state to create iPS cells by over-expressing a combination of four core transcription factors, consisting of Oct4, Sox2, with either Klf4 and c-Myc (OSKM) or Lin28 and ...
+
+
 ## Connections
 
 - [[Oct4]] / [[Sox2]]: Core partners forming the pluripotency regulatory network with Nanog.

@@ -39,6 +39,41 @@ Pharmacological interventions targeting inflammation include NSAIDs (COX inhibit
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Dietary Advanced Glycation End Products and Aging|Dietary Advanced Glycation End Products and Aging]]
+    - The pathogenesis of sarcopenia is multifactorial, and may include hormonal changes, increased oxidative stress and inflammation, changes in vasculature, and inactivity \[,,\].
+
+  - [[_document_ - neutrophil and erthrocyte|neutrophil and erthrocyte]]
+    - britannica.com - Neutrophils: These immune cells actively oxidize Epinephrine to Adrenochrome via Reactive Oxygen Species they produce, especially during Inflammation. This is described as a major pathway for Adrenaline catabolism in these cells.
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - Targeted regulation of TFEB has been victoriously used as a treatment strategy in several disease models such as ischemic injury, Lysosomal Storage Disorders (LSDs), cancer, metabolic disorders, Neurodegenerative Diseases, and Inflammation.
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - Another study reported that activation of Protease-activated Receptors in urinary bladder leads to a concomitant increase in Inflammation and TFEB expression (Saban et al 2007).
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - Other cellular conditions and signals In addition to the key signals described above, other cellular conditions and signals, such as genotoxic stress, Inflammation, Wnt ligand and PA, have all been shown to regulate mTORC1 signaling.
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - Hyperproliferation, cancer, and Inflammation in mice expressing a Δ133p53-like isoform. Blood.
+
+  - [[_document_ - The Sirtuin System The Holy Grail of Resveratrol?|The Sirtuin System The Holy Grail of Resveratrol?]]
+    - Analysis into recent studies have revealed Resveratrol as a known activator of the protein deacetylase SIRT1 gene, which is thought to mediate anti-proliferative and anti-Inflammation activity due to alteration of gene expression and modulation of numerous ...
+
+  - [[_document_ - sirtuins (overview, CD38 KO risks, cancer therapies)|sirtuins (overview, CD38 KO risks, cancer therapies)]]
+    - They play key roles in Metabolism, Aging, stress response, DNA Repair, Inflammation, gene expression, and cellular homeostasis.
+
+  - [[_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review|sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review]]
+    - The sirtuin family has been found to be crucial for maintaining lipid and glucose homeostasis, and also for regulating insulin secretion and sensitivity, DNA repair pathways, neurogenesis, Inflammation, and ageing.
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Pancreatic diseases: The incidence of Inflammation (AP) has increased globally to approximately 34 cases per 100,000 persons annually with an increased risk of death. Currently, few studies have explored the effects of SIRTs on AP.
+
+
 ## Connections
 - [[Neutrophils]] ↔ The primary immune cells driving oxidation during inflammation.
 - [[Adrenochrome]] ↔ An oxidative byproduct formed at sites of inflammation.

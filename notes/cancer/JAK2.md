@@ -29,6 +29,17 @@ The somatic **JAK2 V617F** mutation (a constitutively active JH2-disrupting subs
 
 JAK2 is a validated therapeutic target. Ruxolitinib and fedratinib (JAK1/2 inhibitors) are approved for myelofibrosis and polycythemia vera, alleviating splenomegaly and inflammatory symptoms. In solid tumors, JAK/STAT blockade is investigated to overcome resistance and restore immune surveillance, often combined with checkpoint inhibitors. Monitoring JAK2 V617F allele burden guides myeloproliferative neoplasm management.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology|Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology]]
+    - The majority of the antineoplastic activity of honeybee venom has been attributed to melittin through inhibition of the PI3K/Akt/mTOR axis in breast cancer , MAPK in melanoma , JAK2/STAT3 in ovarian cancer , and NFκB signaling pathways in lung carcinoma cel...
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - SIRT6 inhibits the JAK2/STAT3 pathway, thereby suppressing the growth of GC. Regarding tumor resistance, SIRT6 silencing can overcome VEGF resistance by promoting Ferroptosis.
+
+
 ## Connections
 
 - [[STAT3]] - Key downstream transcription factor phosphorylated by JAK2.

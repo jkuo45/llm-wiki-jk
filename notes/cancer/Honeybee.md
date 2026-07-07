@@ -29,6 +29,14 @@ Honeybees are also important as [[Model Organism]]s for studying immunity, socia
 
 Honeybee-derived products are being translated as adjunctive [[Medical Treatment]] and as templates for peptide therapeutics. Melittin-loaded nanoparticles and immunotoxins are in preclinical oncology. Safety (anaphylaxis risk) and delivery remain challenges; nonetheless, honeybee venom exemplifies how natural-product venoms yield cancer-relevant modalities.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology|Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology]]
+    - Despite decades of study, the molecular mechanisms and selectivity of the biomolecular components of Honeybee (Apis mellifera) venom as anticancer agents remain largely unknown.
+
+
 ## Connections
 
 - [[Apis mellifera]]: Scientific name of the European honeybee.

@@ -29,6 +29,17 @@ The hippocampus thus serves as a useful comparator region: it lets investigators
 
 Hippocampal integrity declines in [[Aging]], Alzheimer's disease, and chronic stress (glucocorticoid-mediated atrophy). Its dopamine–COMT axis is a target for understanding cognitive reserve and for rationalizing why slow-COMT individuals may show both cognitive strengths (better prefrontal tone) and affective lability. The region exemplifies how a single methylating enzyme can have heterogeneous effects across connected but functionally distinct circuits.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum|Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum]]
+    - Transgenic overexpression of COMT protein leads to a 30% increase in COMT enzyme activity in the forebrain This increase in COMT mRNA expression resulted in an increase in COMT protein levels in the cortex, Sirtuins, and Hippocampus.
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - PGC-1 _α_ null-mice are, for example, considerably more sensitive to neuronal loss by the reactive oxygen species generating compounds and neurotoxic agents MPTP (1-methyl-4-phenyl-1,2,3,6-tetrahydro-pyridine) and kainic acid, which disrupt the Substantia N...
+
+
 ## Connections
 
 - [[COMT]]: Hippocampal enzyme activity affected by genotype and overexpression.

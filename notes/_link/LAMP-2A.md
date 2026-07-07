@@ -24,6 +24,14 @@ aliases: [Lysosomal-Associated Membrane Protein 2A]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - In the last autophagy type (chaperone-mediated autophagy), a complex of chaperone proteins and target proteins are directed into the lysosomes via the activity of LAMP-2A \[\].
+
+
 ## Connections
 - [[LAMP-2A]] — related entity
 

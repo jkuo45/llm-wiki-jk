@@ -20,6 +20,14 @@ aliases: []
 - **Breast Cancer**: PD-L1 expression is high in [[triple-negative breast cancer]] and [[HER2-enriched breast cancer]].
 - **Regulation**: [[melittin]] has been shown to significantly reduce PD-L1 expression in tumors.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology|Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology]]
+    - The immune-checkpoint protein programmed death ligand-1 (PD-L1) reduces the functionality of activated T cells.
+
+
 ## Connections
 - [[triple-negative breast cancer]]: Subtype with high PD-L1 expression.
 - [[melittin]]: Attenuates PD-L1 levels, potentially improving antitumoral immune responses.

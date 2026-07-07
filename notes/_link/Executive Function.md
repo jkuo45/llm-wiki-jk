@@ -23,6 +23,14 @@ aliases: [Cognitive Control]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum|Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum]]
+    - In healthy subjects, the Val 158 allele has been found to associate with poorer Cognitive Performance, specifically on tasks involving Executive Function.
+
+
 ## Connections
 - [[Executive Function]] — related entity
 

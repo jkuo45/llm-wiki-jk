@@ -42,6 +42,14 @@ The most direct clinical connection involving singlet oxygen is **[[Photodynamic
 
 In dermatology, singlet oxygen mediates UV-induced photoaging and photocarcinogenesis. UVA radiation (320–400 nm) penetrates the dermis and generates $^1O_2$ through endogenous photosensitizers (porphyrins, flavins, melanin precursors), inducing matrix metalloproteinase (MMP) expression that degrades [[ECM|extracellular matrix]] [[Collagen]] and [[Elastin]]. This process, termed solar elastosis, manifests clinically as wrinkling, leathery texture, and actinic damage. Endogenous quenchers of $^1O_2$ include [[Vitamin E]] (α-tocopherol) at $k \approx 10^8$ M⁻¹s⁻¹ in lipid phases, [[Beta-carotene]] (a physical quencher, $k \approx 10^{10}$ M⁻¹s⁻¹), and [[Melatonin]]. [[Ascorbic Acid]] (vitamin C) and [[Uric Acid]] also contribute to aqueous-phase $^1O_2$ quenching, though their activities are lower than in lipid environments.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - Superoxide Radicals (O 2 •−), Hydrogen Peroxide (H 2 O 2), Hydroxyl Radicals (•OH), and Singlet Oxygen (1 O 2) are commonly defined reactive oxygen species (ROS); they are generated as metabolic by-products by biological systems \[, \].
+
+
 ## Connections
 - [[Reactive Oxygen Species]]: A member of the ROS family.
 - [[Alpha-Lipoic Acid]]: Can act as a scavenger for singlet oxygen.

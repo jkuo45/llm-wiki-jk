@@ -28,6 +28,14 @@ aliases: [NADH dehydrogenase, Complex I]
 
 Mitochondrial Complex I (NADH:ubiquinone oxidoreductase) is the largest ETC entry point. Its dysfunction generates ROS and triggers [[Mitophagy]].
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
+    - Furthermore, metformin inhibits Mitochondrial Complex I, a key enzyme complex in the electron transport chain, which subsequently leads to an increased AMP:ATP ratio and to activation of AMPK (El-Mir et al., 2000; Foretz et al., 2014; Owen et al., 2000).
+
+
 ## Connections
 
 - [[Mitochondria]]: **Mitochondrial Complex I** (NADH:ubiquinone oxidoreductase) is a key enzyme complex in the mitochondrial electron tr...

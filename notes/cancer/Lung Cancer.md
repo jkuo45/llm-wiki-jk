@@ -29,6 +29,35 @@ Preclinical studies show ivermectin inhibits lung cancer cell proliferation and 
 
 These findings position ivermectin as a candidate adjuvant that could potentiate existing targeted drugs and curb metastasis, an area of active [[Drug Repositioning]]. Combination with erlotinib and other TKIs is of particular interest in EGFR-driven NSCLC. Validation in clinical cohorts and formulation for lung-tissue delivery remain research priorities.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - The exposure of human Lung Cancer to hypoglycemic conditions (2.8 mmol/L) for 24 h reduced clonogenic properties and increased DNA fragmentation after radiation, whereas normal HSF7 fibroblasts exhibited no sensitivity to glucose deprivation \[\].
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - When used together with anticancer drugs XIAP antisense oligonucleotides have been demonstrated to exhibit enhanced chemotherapeutic activity in Lung Cancer cells _in vitro_ and _in vivo_ \[\].
+
+  - [[_document_ - Caspase|Caspase]]
+    - PAK1 | Ser111 | Inactivation | MPNST, Lung Cancer | | Bad | | PAK1, PAK4, PAK5, PKA, PKCι, RAF1, RSK | Ser112 |
+
+  - [[_document_ - Evading apoptosis in cancer|Evading apoptosis in cancer]]
+    - In this regard, a recent study has shown that Puma may be implicated in Apoptosis triggered by FOXO Transcription Factors following inhibition of the PI3K-Akt pathway, while Bim may be primarily under control of the ERK pathway in HER2-positive Breast Cance...
+
+  - [[_document_ - Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology|Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology]]
+    - Beyond breast cancer, tumors overexpressing EGFR include Lung Cancer, glioblastoma, and Colorectal Cancer cancers , and tumors that can overexpress HER2 include Gastric Cancer, ovarian cancer, endometrial cancer, Bladder Cancer, Lung Cancer, Colon Cancer, a...
+
+  - [[_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug|Ivermectin, a potential anticancer drug derived from an antiparasitic drug]]
+    - Prostate Cancer is a malignant tumor derived from prostate epithelial cells, and its morbidity is second only to that of Lung Cancer among men in Western countries \[\].
+
+  - [[_document_ - sirtuins (overview, CD38 KO risks, cancer therapies)|sirtuins (overview, CD38 KO risks, cancer therapies)]]
+    - In tumors: High CD38 can promote cancer cell survival, migration, proliferation (e.g., via cADPR in Lung Cancer models), and immunosuppression (NAD+ depletion, adenosine production, metabolic fitness of suppressive cells).
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - downregulated cleaved Caspase-3 levels in Lung Cancer cells. In contrast, several studies have found that SIRT3 has an anti-apoptotic effect.
+
+
 ## Connections
 
 - [[Ivermectin]] - Repurposed antiparasitic with antitumor activity in lung cancer.

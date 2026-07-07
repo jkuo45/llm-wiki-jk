@@ -23,6 +23,14 @@ aliases: [Golgi Complex]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Lysosome biogenesis Regulation and functions|Lysosome biogenesis Regulation and functions]]
+    - Lysosomal hydrolases are synthesized and modified by linkage with oligosaccharides in the ER and transported to the Golgi apparatus.
+
+
 ## Connections
 - [[Golgi apparatus]] — related entity
 

@@ -26,6 +26,17 @@ PKCβ inhibitors ([[Enzastaurin]], [[Ruboxistaurin]]) are being investigated for
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - TRAIL resistance; Esophageal Cancer, Colon Cancer, glioblastoma | | Caspase-3 | | PKCδ | ND | Enhancement of activity | | | Caspase-3 |
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - In addition, SIRT1 overexpression can ameliorate Cardiac Hypertrophy induced by phenylephrine by inhibiting PKC‐ζ activation. However, some studies have shown the opposite effect.
+
+
 ## Connections
 - [[Autophagy]] — cellular self-degradation pathway; clears damaged proteins and organelles
 - [[PRKCB]] — interacts with PKC

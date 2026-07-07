@@ -79,6 +79,14 @@ The recognition of SARM1 as a druggable target has spurred intensive drug discov
 - **Non-covalent small molecule inhibitors:** Next-generation inhibitors (e.g., DSRM-3716, GSK-428, and related quinazoline and pyrazolopyrimidine scaffolds) achieve greater potency (IC₅₀ in low nanomolar range) and selectivity. These molecules occupy the NAD⁺-binding pocket of the TIR dimer without covalent modification.
 - **Clinical outlook:** SARM1 inhibitors are being developed primarily for CIPN, TBI, and chronic peripheral neuropathy. Preclinical efficacy has been demonstrated in multiple rodent models, and several candidates are approaching or in early-phase clinical trials. The major therapeutic hypothesis is that pharmacologically blocking SARM1 during acute injury windows can halt axonal degeneration before it becomes irreversible, allowing for axonal regeneration and functional recovery.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health|NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health]]
+    - Subsequently, NAD+ degradation processes were unveiled, using it as a substrate by CD38/CD157/SARM1, ADP-ribosyl transferases (ARTs), poly-ADP polymerases (PARPs), and sirtuins \[, – \] (Fig. 1).
+
+
 ## Connections
 
 - [[NAD+]] — SARM1's substrate; catalytic cleavage of NAD⁺ drives axonal degeneration

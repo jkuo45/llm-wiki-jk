@@ -25,6 +25,14 @@ By promoting degradation of oncogenic receptor tyrosine kinases and restraining 
 
 PTPN23 expression is investigated as a prognostic marker, with reduced levels associated with aggressive disease. As a tumor suppressor, restoring PTPN23 function or mimicking its downstream effects (enhanced receptor degradation, [[Bak]]-dependent death) is a conceptual therapeutic route, potentially sensitizing tumors to [[Chemotherapy]] and targeted agents.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - red during anoikis | | Bak | | Unidentified (PTPN2, PTPN5, PTPN23) | Tyr108 | Inactivation | Fibrosarcoma, Colon Cancer | | Bak |
+
+
 ## Connections
 
 - [[Bak]] - Pro-apoptotic Bcl-2 family protein regulated by PTPN23.

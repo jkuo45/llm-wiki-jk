@@ -49,6 +49,14 @@ ASK1 dysregulation is implicated in a broad spectrum of human diseases.
 
 **Ischemia–reperfusion injury**: In cardiac and cerebral ischemia, ROS produced during reperfusion trigger ASK1 activation, leading to cardiomyocyte and neuronal apoptosis. ASK1-deficient mice show reduced infarct size and improved functional recovery.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - IL-3 control | | Bcl-2 | | ASK1, JNK1 | Thr69, Ser70, Ser87 | Inactivation | | | Bcl-2 |
+
+
 ## Connections
 
 - [[JNK]]: Direct downstream effector of ASK1 via MKK4/MKK7

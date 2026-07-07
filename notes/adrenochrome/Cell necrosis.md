@@ -91,6 +91,14 @@ This cascade defines **sterile inflammation** — inflammation triggered by cell
 
 The link between adrenochrome-driven necrosis and [[Adrenochrome Hypothesis]] of neuropsychiatric disorders remains speculative but is supported by observations that necrotic cell debris and DAMP release within the brain parenchyma could perpetuate [[Neuroinflammation]].
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Adrenochrome Pathway|The Adrenochrome Pathway]]
+    - Indeed in the 1930's and 40's this pathway was thought by many to be the major catabolic route for Epinephrine in vivo: More recently, Adrenochrome has been shown to be Cardiotoxicity, causing Cell necrosis, Arrhythmias and Coronary artery constriction.
+
+
 ## Connections
 
 - [[Cardiotoxicity]]

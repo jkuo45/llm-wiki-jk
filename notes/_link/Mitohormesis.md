@@ -77,6 +77,17 @@ The "hormetic window" defines the dose range over which mitochondrial stress is 
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Mitohormesis - 2023_NOV|Mitohormesis - 2023_NOV]]
+    - Roughly a decade ago, we had the opportunity to introduce the concept of Mitohormesis to the readers of this journal .
+
+  - [[_document_ - mitohormesis|mitohormesis]]
+    - By combining a controlled, localized pro-oxidant stimulus (Mitohormesis) with concurrent metabolic buffering, bioenergetic fueling, and tar
+
+
 ## Connections
 - [[Oxidative Stress]] — Low-level ROS are the signaling molecules
 - [[Exercise]] — Induces mitohormetic adaptations

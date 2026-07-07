@@ -36,6 +36,17 @@ ATM activity declines with age in human tissues, correlating with increased geno
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - Bid | | ATM | Ser61, Ser78 | S phase arrest | Response to DNA damage | | Bim | Loss in l
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - cells increases the sensitivity to Cisplatin treatment while SIRT3 promotion reduces Cisplatin resistance in LC by modulating the FOXO3a/Cdc10-dependent transcript 1 protein axis.
+
+
 ## Connections
 - [[Bid]] — interacts with ATM
 - [[PI3K-related kinase]] — signals through ATM

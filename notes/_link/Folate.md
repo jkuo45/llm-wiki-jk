@@ -24,6 +24,14 @@ aliases: [Vitamin B9, Folic Acid]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - Dietary Folate instead of methyl folate supplements: If you have slow COMT, there are a couple of dietary changes that may help you optimize Neurotransmitters function.
+
+
 ## Connections
 - [[Folate]] — related entity
 

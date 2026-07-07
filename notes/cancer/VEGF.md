@@ -29,6 +29,14 @@ VEGF-mediated angiogenesis is one of the公认 [[Hallmarks of Cancer]]. High tum
 
 Anti-angiogenic agents include the anti-VEGF-A antibody **bevacizumab**, VEGFR [[Tyrosine Kinase Inhibitors]] (sunitinib, sorafenib, pazopanib, cabozantinib), and VEGF-trap aflibercept. These normalize or prune tumor vessels, improving chemotherapy delivery or starving the tumor, though resistance (alternative angiogenic pathways, vessel co-option) limits durability. Combination with [[Chemotherapy]] or immunotherapy is standard in several indications.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - SIRT1 promotes Cisplatin resistance of non-small-cell lung cancer cells by elevating VEGF A expression. SIRT1 is upregulated in Cisplatin-resistant non-small-cell lung cancer tissues and cells compared to Cisplatin-sensitive groups.
+
+
 ## Connections
 
 - [[Angiogenesis]]: The biological process VEGF primarily drives in tumors.

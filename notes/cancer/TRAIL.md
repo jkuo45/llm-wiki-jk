@@ -26,6 +26,17 @@ Many therapeutic strategies aim to harness the TRAIL pathway, including:
 - **Agonistic Antibodies**: Antibodies targeting DR4 or DR5.
 - **Synergy**: Combining TRAIL with IAP antagonists (e.g., [[Smac DIABLO]]/[[Smac DIABLO]] mimetics) to overcome resistance.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - For example, Raffo _et al_ showed that the overexpression of Bcl-2 protected Prostate Cancer cells from apoptosis \[\] while Fulda _et al_ reported Bcl-2 overexpression led to inhibition of TRAIL-induced apoptosis in neuroblastoma, glioblastoma and Breast C...
+
+  - [[_document_ - Caspase|Caspase]]
+    - CK2 | Ser157 | Suppression of activity | TRAIL resistance; Esophageal Cancer, Colon Cancer, glioblastoma | | Caspase-3 |
+
+
 ## Connections
 - [[Extrinsic Pathway]]: A primary ligand for death receptor-mediated apoptosis.
 - [[DR4]]/[[DR5]]: The functional death receptors for TRAIL.

@@ -23,6 +23,14 @@ aliases: []
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - The loss of negative immune regulators that maintain T Cell in a quiescent state makes them overly sensitive to activation signals, which leads to decreased self-tolerance and increased Autoimmune Disease (ElTanbouly et al., 2020; Hwang et al., 2020).
+
+
 ## Connections
 - [[Autoimmune Disease]] — related entity
 

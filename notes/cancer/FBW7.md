@@ -35,6 +35,17 @@ FBW7 maintains genome stability, controls stem-cell self-renewal, and couples gr
 
 FBW7 is mutated or epigenetically silenced in ~6% of human cancers, including [[Colorectal Cancer]], [[T-cell acute lymphoblastic leukemia]], [[Breast Cancer]], and [[Glioblastoma]]. Loss of FBW7 stabilizes [[MYC]] and [[Mcl-1]], driving unrestrained growth and resistance to apoptosis — directly engaging multiple [[Hallmarks of Cancer]]. Because FBW7 loss sensitizes tumors to replication stress and CHK1 inhibition, it is being explored as a predictive biomarker. Restoring FBW7 activity (e.g., via USP28 inhibitors) is an emerging therapeutic strategy.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - Mcl-1 | | JNK, p38 MAPK, CKII | Ser121 | SCF ComplexFBW7-mediated degradation | ovarian cancer, non-small-cell lung cancer | | Mcl-1
+
+  - [[_document_ - Evading apoptosis in cancer|Evading apoptosis in cancer]]
+    - Thus, in low levels of Akt, Phosphorylation by GSK3 sequentially occurs at S155/S159, targeting Mcl-1 for degradation by E3 ligases, SCF Complex Beta-TrCP, SCF Complex FBW7 (F-box/WD repeat-containing protein 7), and TRIM17.
+
+
 ## Connections
 
 - [[SCF Complex]]: The cullin-RING ligase to which FBW7 provides substrate specificity.

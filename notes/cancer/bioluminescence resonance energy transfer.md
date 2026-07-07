@@ -28,6 +28,14 @@ The donor is fused to one protein and the acceptor to another. If the proteins i
 
 BRET is quantitative, live-cell compatible, and low-background, but is limited by the need for genetic fusion constructs and the ~10 nm interaction range. It complements FRET, co-immunoprecipitation, and [[Annexin V]] apoptosis assays in mechanistic oncology studies.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology|Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology]]
+    - Considering that TNBC and HER2-enriched breast carcinoma cells are highly dependent on the activation of EGFR and HER2, we performed bioluminescence resonance energy transfer (BRET) experiments to determine whether melittin interfered with the binding of EG...
+
+
 ## Connections
 
 - [[EGFR]]: Receptor interaction studied by BRET.

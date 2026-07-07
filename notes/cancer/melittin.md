@@ -28,6 +28,14 @@ Melittin has shown selective cytotoxic effects against several cancer types, par
 - **Signaling Inhibition**: Suppresses the phosphorylation and activation of receptor tyrosine kinases such as [[EGFR]] and [[HER2]].
 - **Synergy**: Enhances the effect of chemotherapeutic agents like [[docetaxel]] and [[Cisplatin]].
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology|Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology]]
+    - Here, we demonstrate that honeybee venom and its major component melittin potently induce cell death, particularly in the aggressive triple-negative breast cancer and HER2-enriched breast cancer subtypes.
+
+
 ## Connections
 - [[Honeybee]]: The source of melittin.
 - [[EGFR]]: A target of melittin signaling inhibition.

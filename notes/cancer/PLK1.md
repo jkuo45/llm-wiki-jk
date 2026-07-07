@@ -25,6 +25,14 @@ Physiologically, PLK1 orchestrates centrosome maturation, bipolar spindle format
 
 PLK1 is a validated anti-cancer target. Inhibitors such as volasertib (BI 6727), rigosertib, and GSK461364 have entered clinical evaluation, often combined with [[Chemotherapy]] or [[Radiation Therapy]]. Biomarker strategies use PLK1 expression and phospho-histone H3 to identify proliferative tumors likely to respond. Because PLK1 inhibition can trigger mitotic catastrophe and apoptosis, it is a cornerstone of cell-cycle-targeted oncology.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - Lymphoma | | Bcl-xL | | CDK1/CYCLIN B1, PLK1, JNK2 | Ser62 | Cell cycle (G2) arrest; Inactivation | cervical cancer | |
+
+
 ## Connections
 
 - [[Bcl-xL]] - Anti-apoptotic Bcl-2 family protein phosphorylated by PLK1 at Ser62.

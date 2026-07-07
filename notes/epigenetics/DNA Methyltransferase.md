@@ -37,6 +37,17 @@ Dysregulation of DNMTs is a hallmark of many diseases, particularly [[Cancer]]. 
 
 Because of their central role in cancer, DNMT inhibitors (such as 5-azacytidine and decitabine) have been developed and are used clinically to treat certain hematological malignancies. These drugs work by inhibiting DNMT activity, thereby inducing the reactivation of silenced tumor suppressor genes.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks|Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks]]
+    - Methylation occurs due to the transfer of a methyl group from SAM (S‐adenosyl methionine) to the 5th carbon of cytosine molecule to form 5‐methylcytosine, by the catalyzing action of three DNA Methyltransferase namely DNMT1, DNMT3a, and DNMT3b.
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - ross‐linkers]] (Cisplatin, Mitomycin C, Busulfan, Cyclophosphamide, Diaziquone), and (2c) drugs with complex effects (Actinomycin D, Bleomycin, Temozolomide); (3) Epigenetic Modifiers that inhibit DNA Methyltransferase (Decitabine), Histone Deacetylase (Sod...
+
+
 ## Connections
 
 - [[DNA Methylation]] - DNMTs are the enzymes that execute this process.

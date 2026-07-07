@@ -37,6 +37,14 @@ Symptoms include tenesmus (sensation of incomplete evacuation), rectal bleeding,
 
 Rectal cancers harbor a higher frequency of [[APC]] mutations and lower rates of microsatellite instability ([[MSI]]) compared to right-sided colon cancers. [[TP53]] mutations are common, and the [[Wnt signaling pathway]] is nearly universally dysregulated.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - Ser268 | Inhibition | Prostate Cancer | | XIAP | Amplification in cervical cancer, leukemia, Rectal Cancer | Akt | Ser87 | Prevents Ubiquitination/degradation | ovarian canc
+
+
 ## Connections
 
 - [[XIAP]]: X-linked inhibitor of apoptosis protein; elevated expression in rectal cancer correlates with chemoradioresistance.

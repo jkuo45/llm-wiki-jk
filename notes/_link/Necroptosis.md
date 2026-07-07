@@ -24,6 +24,14 @@ aliases: [Programmed Necrosis]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - A typical example is when SIRT3 expression inhibited the growth of cancer cells by promoting Apoptosis and Necroptosis. In a stress injury disease model, SIRT3 inhibited Apoptosis and exerted a protective effect against various stressors.
+
+
 ## Connections
 - [[Necroptosis]] — related entity
 

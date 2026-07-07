@@ -29,6 +29,14 @@ Bcl-2 is overexpressed in many malignancies, where it blocks [[Apoptosis]] and d
 
 Though not broadly approved, oblimersen remains a reference antisense construct and a proof-of-concept for Bcl-2 targeting. Its development advanced oligonucleotide delivery, stabilization (phosphorothioate backbone), and combination trial design, paving the way for modern antisense and siRNA therapeutics.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - body>Targeting the Bcl-2 family of proteinsAgents that target the Bcl-2 family proteinsOblimersen sodiumReported to show chemosensitising effects in combined treatment with conventional anticancer drugs in chronic myeloid leukaemia patients and an improveme...
+
+
 ## Connections
 
 - [[Bcl-2]]: Direct mRNA target of oblimersen.

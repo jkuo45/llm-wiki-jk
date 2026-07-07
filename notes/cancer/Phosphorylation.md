@@ -46,6 +46,23 @@ Dysregulated phosphorylation is a hallmark of many human diseases:
 - **Diabetes** — Defective insulin signaling involves impaired phosphorylation of [[IRS1]] and [[AKT]], contributing to insulin resistance.
 - **Inflammatory and autoimmune disorders** — Hyperactive [[JAK]]-[[STAT]] signaling underlies many autoimmune conditions, leading to clinical use of [[JAK inhibitors]] such as [[Tofacitinib]] and [[Baricitinib]].
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - The regulation of TFEB by Phosphorylation is contradictory. Phosphorylation negatively regulates TFEB by controlling its subcellular localization; however, positively regulates TFEB by enhancing its transcriptional activity.
+
+  - [[_document_ - Caspase|Caspase]]
+    - Cancer and Apoptotic Regulators, Kinases The following table summarizes known Phosphorylation sites of apoptotic regulators, the associated kinases/phosphatases, and the functional outcomes in cancer. | Regulator | Genomic Alteration | Kinases (Phosphatases)
+
+  - [[_document_ - Evading apoptosis in cancer|Evading apoptosis in cancer]]
+    - Post-translational regulation Various apoptotic regulators are modulated not only by transcriptional/translational machinery but also by post-translational modifications, including Ubiquitination and Phosphorylation.
+
+  - [[_document_ - Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology|Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology]]
+    - Both honeybee venom and melittin downregulated the Phosphorylation of the RTKs and modulated the associated PI3K-/Akt and MAPK signaling pathways in a time-dependent manner. !Fig.
+
+
 ## Connections
 
 - [[Kinase]] — Enzymes that catalyze phosphorylation

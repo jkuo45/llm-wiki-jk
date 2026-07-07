@@ -17,6 +17,14 @@ The methylation cycle (also known as the one-carbon metabolism cycle) is a bioch
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - Slow (Lower) COMT: Met/Met, usually higher Dopamine levels, referred to as the ‘worrier’ type, ~20–30% of European-ancestry people are Met/Met Side effects of methylated vitamins with slow COMT: People with slow COMT enzyme variants may find that supplement...
+
+
 ## Connections
 - [[SAMe]] — primary methyl donor synthesized from methionine and ATP
 - [[MTHFR]] — key enzyme regulating folate-dependent methylation

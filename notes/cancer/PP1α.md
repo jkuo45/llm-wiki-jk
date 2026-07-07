@@ -25,6 +25,14 @@ By activating [[Caspase-9]], PP1α promotes the intrinsic (mitochondrial) [[Apop
 
 PP1α is a useful experimental tool for dephosphorylation assays and a conceptual therapeutic node: enhancing PP1α-mediated activation of Caspase-9 could overcome resistance to [[Chemotherapy]]. Small-molecule PP1 inhibitors (okadaic acid, calyculin A) are primarily research reagents due to toxicity, whereas targeting regulatory subunits offers more specific manipulation.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - Caspase-9 | | CDK1, DYRK1A, ERK1_2, p38 MAPK (PP1α) | Thr125 | Suppression of activity | Suppressing mitotic cell death | | Ca
+
+
 ## Connections
 
 - [[Caspase-9]] - Apoptotic initiator caspase activated by PP1α via Thr125 dephosphorylation.

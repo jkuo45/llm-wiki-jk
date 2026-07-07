@@ -23,6 +23,14 @@ The formation of a **quinone moiety** is the first step in the [[Oxidation]] of 
 ## Biochemical Properties
 Quinones are highly reactive and are potent electrophiles. They can react with cellular nucleophiles (like glutathione or proteins) or participate in [[Redox Cycling]], generating [[Reactive Oxygen Species]] (ROS).
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - formation, chemical stability|formation, chemical stability]]
+    - Refining the Explanation I'm now iterating on the explanation, and incorporating bullet points to organize the key stages of the process: Catechol to Quinone to Cyclization.
+
+
 ## Connections
 - [[Aminochromes]] ↔ Molecules that contain a fused quinone-indoline structure.
 - [[Adrenochrome]] ↔ An o-quinone derivative.

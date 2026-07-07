@@ -28,6 +28,35 @@ Because epigenetic changes are reversible, they offer a promising target for new
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
+    - The shared aetiology of age-associated disorders, such as Atherosclerosis, Cardiovascular Disease, Osteoarthritis, Osteoporosis, Type 2 Diabetes Mellitus, Cancer and Neurodegenerative Diseases is still poorly understood (Nikolich-Žugich, 2018).
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - Targeted regulation of TFEB has been victoriously used as a treatment strategy in several disease models such as ischemic injury, Lysosomal Storage Disorders (LSDs), cancer, metabolic disorders, Neurodegenerative Diseases, and Inflammation.
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - In addition, diminished or aberrant autophagic/lysosomal function is a common phenomenon during Aging and has been linked to several Neurodegenerative Diseases.
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - In line with this claim, evidence for the participation of autophagy as an early-stage protective response has been obtained in different Neurodegenerative Diseases like Huntington's Disease, Alzheimer's Disease, Parkinson's Disease, etc. \[\].
+
+  - [[_document_ - Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic|Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic]]
+    - Reprogramming generates newly differentiated cells for potential therapies in Cancer, Neurodegenerative Diseases, and Rejuvenation processes. In cancer therapies, these transcription factors lead to a reduction in the siz
+
+  - [[_document_ - Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks|Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks]]
+    - This reciprocates to the consequences of diseases like Cardiovascular Disease, Metabolic Syndromes, Neurodegenerative Diseases, etc. Therefore, a common phrase can be used that “aging is the underlying cause of every disease”.
+
+  - [[_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator|Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator]]
+    - Neuromelanin (NM) in the pre-synaptic terminal of Dopamine neurons is emerging as a primary player in the etiology of Neurodegenerative Diseases including PD.
+
+  - [[_document_ - sirtuins (overview, CD38 KO risks, cancer therapies)|sirtuins (overview, CD38 KO risks, cancer therapies)]]
+    - They are implicated in Longevity, Caloric Restriction benefits, and age-related diseases like Diabetes Mellitus, Cancer, Neurodegenerative Diseases, and Cardiovascular Disease.
+
+
 ## Connections
 - **[[Aging]]**: The primary driver and risk factor for neurodegeneration.
 - **[[Alzheimer's Disease]]**: The most common neurodegenerative disorder.

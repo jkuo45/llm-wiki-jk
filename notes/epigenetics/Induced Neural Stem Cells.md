@@ -27,6 +27,14 @@ Because iNSCs are patient-specific, they provide a renewable source of human neu
 
 iNSCs are a leading candidate for [[Regenerative Medicine]] and [[Cellular Reprogramming]]-based cell replacement. Their direct derivation from somatic tissue — without traversing a pluripotent intermediate — substantially reduces the risk of [[Teratoma]] formation and unwanted differentiation, a major safety advantage over iPSC grafts. Preclinical studies have shown functional recovery after iNSC transplantation in rodent models of stroke, spinal cord injury, and Parkinson's disease. Recent work has also linked iNSC migration and growth to regulation of the [[Klf4]]-controlled protein [[BIG1]], pointing to candidate pathways for improving engraftment. Remaining challenges include chromosomal stability during prolonged expansion, maturation of iNSC-derived neurons, and immune compatibility for allogeneic use.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic|Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic]]
+    - Induced Pluripotent Stem Cells]], Cancer, Neurodegenerative Diseases, Rejuvenation, Parkinson's Disease, Yamanaka Factors, Embryonic Stem Cells, Fibroblasts, Shinya Yamanaka, Kazutoshi Takahashi, OSKM, Regenerative Medicine, Olivopontocerebellar Atrophy, Nu...
+
+
 ## Connections
 - [[Neural Stem Cell]]: The endogenous counterpart that iNSCs mimic in self-renewal and tripotent differentiation.
 - [[Induced Pluripotent Stem Cells]]: The pluripotent alternative from which iNSCs can also be patterned; iNSCs avoid the teratoma-prone state.

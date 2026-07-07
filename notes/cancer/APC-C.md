@@ -49,6 +49,20 @@ Mcl-1 is a short-lived anti-apoptotic member of the [[Bcl-2 family]]. Its destru
 
 The degradation is primed by [[CDK1]]-[[CYCLIN B1]]-mediated [[Phosphorylation|phosphorylation]] of Mcl-1 at Thr92, which creates a phosphodegron recognized by CDC20-bound APC-C. Thus, the same kinase that drives mitotic entry also licenses Mcl-1 destruction, linking cell cycle progression to the apoptotic machinery.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - Mcl-1 | | CDK1/CYCLIN B | Thr92 | APC-CCDC20-mediated degradation | | | Mcl-1 |
+
+  - [[_document_ - Evading apoptosis in cancer|Evading apoptosis in cancer]]
+    - These studies have shown that in addition to the mechanisms described above, two E3 ligases, APC-C CDC20 (APC-C with CDC20) and SCF Complex FBW7, target Mcl-1 for destruction during mitosis \[ – \].
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - In quiescent cells, hypophosphorylated Rb associates with the CDH1-bound APC-C (APC-C CDH1) to target Skp2, a negative regulator of the p27 CDK Inhibitor, for degradation (Binne et al., 2007).
+
+
 ## Connections
 
 - [[CDC20]]: Co-activator that targets APC-C to mitotic substrates including cyclins, securin, and Mcl-1.

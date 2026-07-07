@@ -41,6 +41,14 @@ The [[cAMP]]→[[PKA]]→CREB axis is central to [[Resveratrol]] action: resvera
 
 CREB is essential for long-term memory, synaptic plasticity, circadian rhythms, and metabolic gene regulation. Reduced CREB/BDNF signaling is implicated in [[Depression]] and cognitive decline, whereas excessive CREB activity can promote survival of transformed cells. Its regulation by SIRT1 ties it to [[Longevity]] and metabolic health, making CREB a nodal transcription factor in geroscience.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Functional studies showed that SIRT3 reversed Bnip3 expression and promoted Bnip3-required Mitophagy activity via the ERK-CREB signaling pathway.
+
+
 ## Connections
 
 - [[SIRT1]] — Deacetylates CREB at Lys136, modulating lipid metabolism gene programs

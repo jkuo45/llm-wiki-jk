@@ -17,6 +17,17 @@ In the [[Mitohormetic Redox-Relay]] strategy, Methylene blue serves as an "Ampli
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Methemoglobin and Methemoglobinemia|Methemoglobin and Methemoglobinemia]]
+    - Methylene blue (first-line for symptomatic or high-level cases): 1–2 mg/kg IV over 5 minutes. It acts as a cofactor to enhance NADPH-methemoglobin reductase pathway, reducing MetHb back to Hemoglobin.
+
+  - [[_document_ - mitohormesis|mitohormesis]]
+    - Amplifier: Methylene blue (Mitochondrial electron cycler). Fuel: Nicotinamide Riboside (NR) or Nicotinamide Mononucleotide (NAD+ precursors).
+
+
 ## Connections
 - [[Methemoglobinemia]] — interacts with
 - [[Methemoglobin]] — interacts with

@@ -25,6 +25,14 @@ Although an antiparasitic, ivermectin has since been found to inhibit multiple o
 
 Campbell received numerous honors besides the Nobel, including membership in the National Academy of Sciences. His career exemplifies the translational arc from soil microbe to globally deployed medicine.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, ‘Wonder drug’ from Japan the human use perspective|Ivermectin, ‘Wonder drug’ from Japan the human use perspective]]
+    - Inc scientists, under the direction of William C. Campbell, found that the drug was active against a wide range of parasites of livestock and companion animals.
+
+
 ## Connections
 
 - [[Satoshi Ōmura]]: Co-discoverer who isolated the Streptomyces source strain.

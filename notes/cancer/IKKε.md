@@ -29,6 +29,14 @@ IKKε is normally expressed at low levels in resting tissues but is strongly ind
 
 Because IKKε overexpression supports tumor growth and therapy resistance, it is under investigation as a therapeutic target. Selective IKKε/TBK1 inhibitors (e.g., amlexanox, BX795, nedisertib) have shown antitumor activity in IKKε-driven models and can synergize with agents that rely on apoptosis induction. The XIAP-degradation function suggests IKKε activation or mimicry could sensitize resistant tumors to death ligands and cytotoxic [[Chemotherapy]].
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - ovarian cancer | | XIAP | | TBK1, IKKε | Ser430 | Autoubiquitination/degradation | Colon Cancer | Connections - Ap
+
+
 ## Connections
 
 - [[XIAP]] - Anti-apoptotic protein phosphorylated and degraded by IKKε.

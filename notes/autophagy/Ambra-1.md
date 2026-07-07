@@ -20,6 +20,14 @@ Ambra-1 is a scaffold protein that bridges [[Beclin1]] to the [[ULK1]] complex, 
 
 Ambra-1 is phosphorylated by [[ULK1]] during starvation, releasing it from the dynein complex to enable [[Beclin1]] activation. It also functions in [[Mitophagy]] and neural development.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Autophagy and intermittent fasting the connection for cancer therapy?|Autophagy and intermittent fasting the connection for cancer therapy?]]
+    - Regarding initialization, the activation of the ULK1 complex (ULK1/2, Atg13, FIP200 and Atg101) signals for autophagosome nucleation under the control of the PI3K (PI3KIII, Beclin1, Atg14/Barkor, Vps15 and Ambra-1), whose activation induces PIP3 (phosphatid...
+
+
 ## Connections
 
 - [[PI3K]]: Ambra-1 (Autophagy/beclin-1 regulator 1) is a positive regulator of the PI3K III complex that interacts with [[Beclin...

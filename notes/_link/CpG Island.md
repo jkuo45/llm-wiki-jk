@@ -24,6 +24,14 @@ aliases: []
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Epigenetic changes during aging and their reprogramming potential|Epigenetic changes during aging and their reprogramming potential]]
+    - These include reduced global heterochromatin, nucleosome remodeling and loss, changes in histone marks, global DNA hypomethylation with CpG Island hypermethylation, and the relocalization of chromatin modifying factors.
+
+
 ## Connections
 - [[Epigenetic Clock]] — interacts with CpG Island
 - [[DNA Methylation]] — interacts with CpG Island

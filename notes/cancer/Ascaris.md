@@ -32,6 +32,14 @@ The *Ascaris* life cycle is direct and monoxenous (one host). Infective embryona
 
 Treatment is with [[Albendazole]] (400 mg single dose) or [[Ivermectin]]; mebendazole and pyrantel pamoate are alternatives. Mass drug administration programs in endemic regions remain the cornerstone of public health control.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, ‘Wonder drug’ from Japan the human use perspective|Ivermectin, ‘Wonder drug’ from Japan the human use perspective]]
+    - Studies of long-term treatment with Ivermectin to control Onchocerciasis have shown that use of the drug is additionally associated with significant reduction in the prevalence of infection with any soil-transmitted helminth parasites (including Ascaris, Tr...
+
+
 ## Connections
 
 - [[Ascariasis]]: The disease caused by *Ascaris lumbricoides* infection

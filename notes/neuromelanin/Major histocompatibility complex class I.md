@@ -25,6 +25,14 @@ Post-mortem studies of PD brains reveal upregulated neuronal MHC-I in the [[Subs
 
 The MHC-I axis implies that [[Neuroinflammation]] in PD is not limited to microglia but may include antigen-specific lymphocyte attack. Genetic association studies have linked certain HLA haplotypes to PD risk, consistent with immune involvement. Therapeutically, modulating MHC-I presentation or T-cell trafficking is being explored, though care is required not to compromise immune surveillance. This reframes [[Neuromelanin]] not only as a redox buffer but as a potential immunogenic cue.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease|Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease]]
+    - tributetothevulnerabilityofcatecholaminergicneuronsinmonkeysintoxicatedwithMPTP-511&doi=\(93\)90349-k&)\] Linking Summary: - New links added: Konstantin Nikolaevich Tretiakoff, Pale Bodies, Immunoglobulin G, Major histocompatibility complex class I, Lipofus...
+
+
 ## Connections
 
 - [[Neuromelanin]] - pigmented neurons show aberrant MHC-I expression, linking pigment to immune vulnerability.

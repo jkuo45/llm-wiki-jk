@@ -17,6 +17,14 @@ Butyrate is a four-carbon short-chain fatty acid produced by gut bacteria, known
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Gut Microbiome, Aging, and Longevity A Systematic Review|The Gut Microbiome, Aging, and Longevity A Systematic Review]]
+    - Older adults have reduced pathways related to carbohydrate Metabolism and amino acid synthesis; however, oldest-old adults exhibited functional differences that distinguished their microbiota from that of young-old adults, such as greater potential for Shor...
+
+
 ## Connections
 - [[Butyrate]] — related entity
 - [[Colonocytes]] — related entity

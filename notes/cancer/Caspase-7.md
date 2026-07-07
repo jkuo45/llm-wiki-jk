@@ -25,6 +25,23 @@ Caspase-7 is activated by initiator caspases, such as [[Caspase-8]] (from the [[
     - **Ser239**: Sterically hinders substrate binding in the active enzyme.
 - **Smac/DIABLO**: Relieves IAP-mediated inhibition of Caspase-7.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - Caspase-2, Caspase-3, Caspase-6, Caspase-7,Caspase-8, Caspase-9 and Caspase-10). The second group can be further classified into 1) initiator caspases (e.g.
+
+  - [[_document_ - Caspase|Caspase]]
+    - They are broadly categorized into initiator caspases (e.g., Caspase-2, Caspase-8, Caspase-9, Caspase-10) and executioner caspases (e.g., Caspase-3, Caspase-6, Caspase-7). Table 1.
+
+  - [[_document_ - Evading apoptosis in cancer|Evading apoptosis in cancer]]
+    - Caspase-3 or Caspase-7), resulting in the proteolytic cleavage of specific cellular substrates and, consequently, cell death (Figure 1). In this regard, the cleavage (activation) of executioner Caspases is a hallmark of Apoptosis.
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - In addition, it has been shown that SIRT1 acting via FOXO4 suppresses the proapoptotic proteases Caspase-3 and Caspase-7 in transformed, but not in untransformed epithelial cells .
+
+
 ## Connections
 - [[Common Pathway]]: A key executioner protease.
 - [[Caspase-3]]: Its primary partner in the execution phase.

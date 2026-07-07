@@ -20,6 +20,23 @@ Anti-apoptotic protein that localizes to the mitochondrial outer membrane and in
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - This pathway is closely regulated by a group of proteins belonging to the Bcl-2 family, named after the BCL2 gene originally observed at the chromosomal breakpoint of the translocation of chromosome 18 to 14 in follicular non-Hodgkin lymphoma \[\].
+
+  - [[_document_ - Caspase|Caspase]]
+    - CDK1/CYCLIN B1, PLK1, JNK2 | Ser62 | Cell cycle (G2) arrest; Inactivation | cervical cancer | | Bcl-2 | Amplification in Lymphoma | ERK1_2, PKC | Ser70 | Activation | IL-3 cont
+
+  - [[_document_ - Evading apoptosis in cancer|Evading apoptosis in cancer]]
+    - Figure 1 The Intrinsic Pathway to Apoptosis is initiated by activation of Bcl-2 family.
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - In addition, SIRT2 overexpression induces cellular Apoptosis via upregulating cleaved Caspase-3 and Bax and downregulating anti-apoptotic protein Bcl-2, suggesting the important role of SIRT2 in Apoptosis.
+
+
 ## Connections
 - [[Apoptosis]]: Bcl-2 is a key regulator of the [[Intrinsic Pathway]].
 - [[Bax]]: The ratio of Bcl-2 to Bax often determines the cell's susceptibility to apoptosis.

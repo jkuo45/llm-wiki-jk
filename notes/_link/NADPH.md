@@ -25,6 +25,14 @@ aliases: [Nicotinamide Adenine Dinucleotide Phosphate]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - In addition, SIRT2 deacetylates the K100 residue of glycolytic enzyme phosphoglycerate mutase and facilitates its activation, resulting in enhanced NADPH production and accelerated tumor growth in non-small-cell lung cancer cells.
+
+
 ## Connections
 - [[NADPH]] — related entity
 

@@ -44,6 +44,38 @@ Parkinson's disease (PD) is a long-term degenerative disorder of the central ner
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - Parkinson's Disease (PD), the second most common progressive neurodegenerative d
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - In line with this claim, evidence for the participation of autophagy as an early-stage protective response has been obtained in different Neurodegenerative Diseases like Huntington's Disease, Alzheimer's Disease, Parkinson's Disease, etc. \[\].
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - prostatic atrophy after orchidectomyCell death due to injurious agents like radiation, Hypoxia and mild thermal injuryCell death in degenerative diseases such as Alzheimer's Disease and Parkinson's DiseaseCell death that occurs in heart diseases such as myo...
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - Scenario 2) In Parkinson's Disease, there is not enough Dopamine in certain regions of the brain. COMT Inhibitors are used to increase Dopamine levels in people who are taking Levodopa.
+
+  - [[_document_ - Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic|Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic]]
+    - In cancer therapies, these transcription factors lead to a reduction in the size and aggressiveness of certain tumors, such as sarcomas, and in neurodegenerative diseases, they enable the production of Dopaminergic Neurons in Parkinson's Disease, the replac...
+
+  - [[_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease|Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease]]
+    - s.27776]( Miquel Vila 1,2,3,✉ PMCID: Abstract Neuromelanin, a dark brown intracellular pigment, has long been associated with Parkinson's Disease (PD).
+
+  - [[_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator|Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator]]
+    - The loss of pigmented neurons from the human brain has long been the hallmark of Parkinson's Disease (PD).
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - Neurological Disease and Oxidative Stress Oxidative stress has been linked to several neurological diseases (i.e., Parkinson's Disease, Alzheimer's Disease, Amyotrophic Lateral Sclerosis, Multiple Sclerosis, depression, and memory loss) \[ – \].
+
+  - [[_document_ - sirtuins (overview, CD38 KO risks, cancer therapies)|sirtuins (overview, CD38 KO risks, cancer therapies)]]
+    - Involved in Oxidative Stress response and Neurodegenerative Diseases (e.g., Parkinson's Disease links). Significance: Dual roles in Cancer (tumor suppressor or promoter depending on context).
+
+
 ## Connections
 - [[Neurodegenerative Diseases]]: [[Parkinson's Disease]] is one of the most widely studied neurodegenerative conditions using iPSC technology.
 - [[Induced Pluripotent Stem Cells]]: A key source of dopaminergic neurons for modeling and potentially treating [[Parkinson's Disease]].

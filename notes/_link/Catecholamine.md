@@ -23,6 +23,14 @@ aliases: []
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - intermediates, precursor, hemoglobin|intermediates, precursor, hemoglobin]]
+    - Chemically identified as (S)-1-Methylindoline-3,5,6-triol, it often acts as an unstable, highly reactive Redox intermediate within the body's Catecholamine pathways.Key CharacteristicsMechanism: It is formed from adrenaline-quinone and is subsequently oxidi...
+
+
 ## Connections
 - [[Catecholamine]] — related entity
 

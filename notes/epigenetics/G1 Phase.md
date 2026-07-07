@@ -30,6 +30,14 @@ G1 is the dominant phase of the somatic cell cycle and the principal point of en
 
 Deregulation of G1 control is a hallmark of [[Cancer]]. Loss of [[RB1]], overexpression of cyclin D or CDK4, amplification of upstream receptor signaling, and inactivation of CDK inhibitors (p16^INK4a^, p21, p27) all drive unrestrained G1 progression. Conversely, pharmacological CDK4/6 inhibitors (e.g., palbociclib) exploit G1 dependence to arrest tumor cells, a validated strategy in breast cancer. G1 length is also a focus in cellular reprogramming and senescence research, where prolonged G1 favors pluripotency and stress-induced arrest respectively.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - For most quiescent cells, this arrest takes place in G0 Phase, a resting phase outside of the cell cycle that occurs prior to S Phase, but is distinct from the G1 Phase observed in cycling cells (Figure 2).
+
+
 ## Connections
 
 - [[Cell Cycle]] - the overarching division program of which G1 is the first phase

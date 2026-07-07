@@ -31,6 +31,14 @@ Rejuvenation intersects with nearly every age-related condition: [[Neurodegenera
 
 Therapeutic avenues include (1) in vivo partial reprogramming via gene therapy or small molecules that mimic OSKM downstream effectors; (2) ex vivo rejuvenation of patient cells before [[Regenerative Medicine]] grafts; and (3) combination with [[Senolytic Drugs]] to clear senescent cells. Key open questions are durability of the rejuvenated state, off-target epigenetic effects, and safe delivery. Rejuvenation remains one of the most promising translational frontiers linking [[Epigenetics]] to longevity science.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic|Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic]]
+    - Reprogramming generates newly differentiated cells for potential therapies in Cancer, Neurodegenerative Diseases, and Rejuvenation processes. In cancer therapies, these transcription factors lead to a reduction in the siz
+
+
 ## Connections
 - [[Partial Reprogramming]]: The primary safe method to achieve rejuvenation while retaining cell identity.
 - [[Epigenetic Clock]]: The quantitative readout used to measure epigenetic age reversal.

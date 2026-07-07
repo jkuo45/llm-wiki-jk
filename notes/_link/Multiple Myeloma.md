@@ -44,6 +44,17 @@ A key resistance mechanism to anti-CD38 mAbs is **CD38 downregulation** on myelo
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - GSK3, JNK, p38 MAPK, CKII | Ser155, Ser159, Ser163 | Ubiquitination (TRIM17, SCFβ-TrCP, SCFFBW7); Inhibits USP9X | Breast Cancer, ovarian cancer, non-small-cell lung cancer, leukemia, Lymphoma, Multiple Myeloma | | Mcl-1 | | ERK1_2 | Ser163 | Prevents degra...
+
+  - [[_document_ - sirtuins (overview, CD38 KO risks, cancer therapies)|sirtuins (overview, CD38 KO risks, cancer therapies)]]
+    - In humans, anti-CD38 monoclonal antibodies (e.g., Daratumumab for Multiple Myeloma) are associated with higher infection rates, including serious ones. This is partly due to depleting CD38+ immune cells or broader immunomodulation.
+
+
 ## Connections
 - [[CD38]] — primary cell surface target; anti-CD38 mAbs are standard of care
 - [[Daratumumab]] — first approved anti-CD38 mAb

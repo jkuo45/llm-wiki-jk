@@ -25,6 +25,14 @@ aliases: [Epigenetic Modifications]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Gut Microbiome, Aging, and Longevity A Systematic Review|The Gut Microbiome, Aging, and Longevity A Systematic Review]]
+    - Primary cellular and molecular Hallmarks of Aging include Genomic Instability, Telomere Attrition, Epigenetic Alterations, and loss of Proteostasis, which lead to compensatory mec
+
+
 ## Connections
 - [[Epigenetic Alterations]] — related entity
 

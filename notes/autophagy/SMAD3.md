@@ -61,6 +61,17 @@ SMAD3 is essential for the anti-inflammatory and immunosuppressive functions of 
 - **[[SIRT6]]**: Suppresses SMAD3 transcriptional activity by deacetylating H3K9 at SMAD3 target gene promoters, reducing pro-fibrotic gene expression.
 - **[[SIRT7]]**: Deacetylates SMAD3 directly, reducing its transcriptional activity and pro-fibrotic output.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - found that hyperactivated SMAD3 triggers lysosomal depletion by inhibiting the expression of TFEB in human proximal tubular epithelial cell line (HK-2) under diabetic conditions \[\].
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - found that forced expression of SIRT6 attenuated EMT by suppressing the TGF-beta1/ SMAD3 protein (Smad)3 pathway and N-terminal kinase (c-Jun) in rat models of Asthma.
+
+
 ## Connections
 
 - [[TGF-β]] — upstream ligand that activates SMAD3

@@ -17,6 +17,14 @@ aliases: [Low-density lipoprotein, LDL cholesterol]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - For instance, Non-coding RNA metastasis-associated lung adenocarcinoma transcript 1 enhances ox- low-density lipoprotein (LDL)-induced autophagy through the SIRT1/MAPK/NFKB pathway.
+
+
 ## Connections
 - [[Atherosclerosis]] — LDL oxidation drives plaque formation
 - [[Cardiovascular Disease]] — Primary lipid risk factor

@@ -24,6 +24,14 @@ aliases: [Insulin-like Growth Factor 1 Receptor]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - Insulin hormone can bind to membrane-associated receptors INSR, and IGF1R, which have tyrosine kinase activity, to trigger signals associated with energy homeostasis \[\].
+
+
 ## Connections
 - [[IGF1R]] — related entity
 

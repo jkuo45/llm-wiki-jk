@@ -28,6 +28,14 @@ Newly synthesized pro-LC3 bears a C-terminal extension; Atg4 proteolytically rem
 
 Atg4 is a critical node for [[Autophagy]] magnitude and selectivity, influencing [[Selective Autophagy]], receptor cargo loading (e.g., via [[p62]]/SQSTM1), and [[Mitophagy]]. Atg4B is frequently overexpressed in [[Cancer]], where it supports tumor cell survival under stress; conversely, its inhibition sensitizes cells to therapy. Atg4 activity declines with [[Aging]], contributing to defective autophagic clearance in [[Neurodegeneration]]. Small-molecule Atg4 inhibitors (e.g., NSC185058, fmoc-VF-CHO) are investigated as autophagy-modulating agents and cancer therapeutics. Atg4 is also relevant to [[Oxidative Stress]]-mediated regulation of autophagy.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - Due to the proteolytic activity of Atg4 on the Atg8 (carboxyl terminus), a glycine residue is exposed to generate the autophagosome \[\]. After that, phosphatidyl ethanolamine is covalently attached to Atg8 (lipidated LC3-II in mammals) \[\].
+
+
 ## Connections
 
 - [[Atg8]]: Atg4 processes and deconjugates the Atg8/LC3 family.

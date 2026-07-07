@@ -21,6 +21,14 @@ The structure consists of an indoline ring system with two ketone groups at the 
 ## Significance
 It is a "side pathway" product of [[Epinephrine]] oxidation, often serving as a marker for failed [[Homeostasis]] or extreme [[Oxidative Stress]].
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - formation, chemical stability|formation, chemical stability]]
+    - Step 2 is an intramolecular Michael addition, leading to the indoline-5,6-dione structure. I'm focusing on the unstable intermediates.
+
+
 ## Connections
 - [[Adrenochrome]]
 - [[Epinephrine]]

@@ -34,6 +34,14 @@ Chronic TGF-β activation drives pathological fibrosis in liver (cirrhosis), lun
 
 TGF-β is a master regulator of immune tolerance. It suppresses Th1/Th2/Th17 differentiation, promotes Treg (FoxP3+) and Th9 development, and inhibits macrophage and dendritic cell activation. Dysregulation contributes to autoimmunity and cancer immune evasion.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network|Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network]]
+    - Mentioned in this document
+
+
 ## Connections
 
 - [[SMAD2]] — Primary R-SMAD phosphorylated by TGFBR1.

@@ -21,6 +21,14 @@ aliases: [Adiposity]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - For example, pancreatic SIRT3 deficiency promoted hepatic steatosis by enhancing 5-hydroxytryptamine synthesis in mice with diet-induced Obesity. In addition, roles for SIRT5 and SIRT6 were identified in lipid metabolism.
+
+
 ## Connections
 - [[Type 2 Diabetes Mellitus]] — interacts with
 - [[Cardiovascular Disease]] — interacts with

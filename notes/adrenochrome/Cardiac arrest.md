@@ -46,6 +46,14 @@ Effective management follows the [[Chain of Survival]]: early recognition, early
 
 Out-of-hospital cardiac arrest yields [[ROSC]] in 30–40% of cases, with survival to hospital discharge at approximately 10%. Predictors of favorable outcome include initial shockable rhythm ([[Ventricular Fibrillation]]/pulseless VT), witnessed arrest, bystander [[CPR]], and short time to [[Defibrillation]]. Neurological recovery is assessed using the [[Cerebral Performance Category]] (CPC) scale. Poor prognostic indicators: prolonged no-flow time, non-shockable initial rhythm, refractory shock, and bilateral absence of pupillary/corneal reflexes at 72 hours post-arrest.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - intermediates, precursor, hemoglobin|intermediates, precursor, hemoglobin]]
+    - Impurity marker: Epinephrine is a vital medication (used for Anaphylaxis, Cardiac arrest, etc.).
+
+
 ## Connections
 
 - [[Epinephrine]]

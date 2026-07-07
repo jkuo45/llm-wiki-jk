@@ -16,6 +16,14 @@ Neuroendocrine cells found in the [[Adrenal medulla]] and other ganglia of the a
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - neutrophil and erthrocyte|neutrophil and erthrocyte]]
+    - acs.org Main Sources and Cell/Tissue Types - Adrenal medulla Chromaffin cells: These cells produce and store Epinephrine. Oxidation of Epinephrine (e.g., upon release or exposure to air/oxidants) can form Adrenochrome here.
+
+
 ## Connections
 - [[Adrenal medulla]]: Primary location of chromaffin cells.
 - [[Epinephrine]]: One of the main hormones produced by chromaffin cells.

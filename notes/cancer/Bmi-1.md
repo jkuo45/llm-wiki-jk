@@ -21,6 +21,14 @@ Bmi-1 is a well-known oncogene that is overexpressed in various cancers, includi
 - **Stemness**: It is essential for the self-renewal and maintenance of [[Cancer Stem Cells]].
 - **Chemosensitivity**: Silencing Bmi-1 (e.g., via [[siRNA]]) has been shown to sensitize breast cancer cells to [[Doxorubicin]] by downregulating anti-apoptotic proteins like [[Bcl-2]].
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - On the other hand, Wu _et al_ demonstrated that by silencing Bmi-1 in MCF Breast Cancer cells, the expression of pAkt and Bcl-2 was downregulated, rendering these cells more sensitive to Doxorubicin as evidenced by an increase in apoptotic cells _in vitro_ ...
+
+
 ## Connections
 - [[Cancer Stem Cells]]: Bmi-1 is a key marker and regulator of stemness.
 - [[Doxorubicin]]: Bmi-1 expression confers resistance to this drug.

@@ -32,6 +32,17 @@ MDA is classically measured as **thiobarbituric acid reactive substances** (TBAR
 
 Interventions lowering MDA include [[Statins]] (pleiotropic antioxidant effects), [[Metformin]] (AMPK-dependent mitochondrial ROS reduction), [[Vitamin E]], and [[N-Acetylcysteine]] (replenishing [[Glutathione]]). Lifestyle measures—[[Caloric Restriction]], [[Exercise]], and the [[Mediterranean Diet]] rich in [[Polyphenols]]—reduce serum MDA in trials.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Dietary Advanced Glycation End Products and Aging|Dietary Advanced Glycation End Products and Aging]]
+    - The subjects in the Tai Chi group had a decrease in concentration of AGEs and Malondialdehyde MDA (a lipoxidation marker) after 12 months of intervention \[\].
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - This in turn will lead to Malondialdehyde (MDA) and conjugated diene compound formation, which are known to be cytotoxic as well as mutagenic.
+
+
 ## Connections
 
 - [[Lipid Peroxidation]]: MDA is the most widely measured end-product of LPO.

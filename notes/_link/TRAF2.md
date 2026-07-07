@@ -21,6 +21,14 @@ Because of its role in survival signaling, overactivity of TRAF2 can contribute 
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - When the ER is injured by cellular stresses like hypoxia, free radicals or glucose starvation, there is unfolding of proteins and reduced protein synthesis in the cell, and an adaptor protein known as TRAF2 dissociates from procaspase-12, resulting in the a...
+
+
 ## Connections
 - [[Endoplasmic Reticulum Pathway]]: Regulates caspase activation during ER stress.
 - [[Caspase-12]]: The protease regulated by TRAF2 in the ER pathway.

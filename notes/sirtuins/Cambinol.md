@@ -47,6 +47,14 @@ Cambinol enters the sirtuin catalytic pocket, where its $\beta$-naphthol group p
 
 ---
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - There have also been a series of studies on the antiapoptotic effect of melatonin which regulates SIRT1 in various physiological processes.[–] Additionally, some chemicals or drugs, like Cambinol and ginsenoside Rc, have been shown to inhibit or activate SI...
+
+
 ## Connections & Related Entities
 
 - **[[SIRT1]]** & **[[SIRT2]]** — direct sirtuin targets.
@@ -54,6 +62,8 @@ Cambinol enters the sirtuin catalytic pocket, where its $\beta$-naphthol group p
 - **[[Cancer]]** — primary therapeutic application area.
 
 ---
+
+
 
 ## Connections
 

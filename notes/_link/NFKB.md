@@ -84,6 +84,26 @@ NF-κB is a master regulator of the **Senescence-Associated Secretory Phenotype 
 
 ---
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - These include transcription factors that promote Autophagy activation (E2F1, GATA1, and members of the FOXO family), repression (GATA4), and those that have a dual inhibitory/activating function (TP53 and NFKB).
+
+  - [[_document_ - sirtuins (overview, CD38 KO risks, cancer therapies)|sirtuins (overview, CD38 KO risks, cancer therapies)]]
+    - Deacetylates histones (e.g., H3K9, H3K26) and many non-histone proteins (p53, FOXO, NFKB, PGC1-α, etc.).
+
+  - [[_document_ - sirtuins (resveratrol), gemini|sirtuins (resveratrol), gemini]]
+    - NF-κB (Anti-Inflammatory Effects) - Mechanism: SIRT1 deacetylates the p65 subunit of NFKB (Nuclear Factor kappa B). Result: Deacetylation inhibits NF-κB's transcriptional activity, preventing it from binding to DNA.
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - For example, SIRT1 deacetylates RelA/p65, the most prevalent form of NFKB (nuclear factor _κ_ B). Deacetylation inhibits the transactivation potential of RelA/p65, which sensitizes human cells to apoptosis in response to TNFα (tumour necrosis factor _α_ ) .
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - For instance, increased SIRT1 protein expression can reduce acetylation of the NFKB p65 subunit, which results in the suppression of TNFα-induced NFKB transcriptional activation and reduction of TNFα secretion in a SIRT1-dependent manner.
+
+
 ## Connections
 
 - **[[SIRT1]]** — Direct physical interactor and deacetylase of RelA/p65 Lys³¹⁰.

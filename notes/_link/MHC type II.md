@@ -74,6 +74,14 @@ Homozygous loss-of-function mutations in genes encoding MHC II transactivators (
 
 Many cancers downregulate MHC II expression on tumor cells as an immune evasion strategy, reducing CD4+ T cell recognition and辅助 support for CD8+ cytotoxic T cell responses. Administration of [[Interferon-gamma]] (IFN-γ) or [[Interferon-alpha]] can upregulate MHC II on tumor cells, enhancing their immunogenicity. In the context of [[Checkpoint Inhibitor]] therapy, MHC II expression on tumors is correlated with improved response rates and better prognosis in several cancer types, including [[Melanoma]] and renal cell carcinoma. Understanding the MHC II–peptide–TCR axis continues to inform peptide vaccine design and adoptive T cell therapies targeting CD4+ epitopes.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - TFEB is activated during Dendritic Cell maturation, leading to increased phagosomal acidification, increased protein degradation, and enhanced antigen presentation by the MHC type II, a process that is critical for initiating the T-cell response to pathogen...
+
+
 ## Connections
 
 - [[Immune System]] — MHC II is a central component of adaptive immunity

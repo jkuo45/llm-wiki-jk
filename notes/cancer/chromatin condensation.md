@@ -22,6 +22,14 @@ This process is primarily mediated by the activation of executioner caspases, su
 ## Significance
 Chromatin condensation is used as a diagnostic feature to distinguish apoptosis from [[necrosis]], where the nucleus typically undergoes swelling and irregular fragmentation.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - Morphological hallmarks of apoptosis in the nucleus are chromatin condensation and nuclear fragmentation, which are accompanied by rounding up of the cell, reduction in cellular volume (pyknosis) and retraction of pseudopodes \[\].
+
+
 ## Connections
 - [[Apoptosis]]: A defining structural change during programmed death.
 - [[Caspase-6]]: A protease that triggers condensation via lamin cleavage.

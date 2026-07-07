@@ -12,6 +12,14 @@ aliases: []
 
 [[Arterial blood gas]] (ABG) is a lab test used to measure the levels of oxygen and carbon dioxide in the blood. In [[Methemoglobinemia]], ABG may show a normal partial pressure of oxygen (PaO₂) despite clinical [[Cyanosis]] and true tissue [[Hypoxia]].
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Methemoglobin and Methemoglobinemia|Methemoglobin and Methemoglobinemia]]
+    - en.wikipedia.org Pulse oximetry often reads inaccurately (typically around 85%), and Arterial blood gas may show normal PaO₂ but clinical Cyanosis unresponsive to supplemental oxygen. Co-oximetry is the gold standard for diagnosis.
+
+
 ## Connections
 - [[ABG]]: Common abbreviation for Arterial Blood Gas.
 - [[Methemoglobinemia]]: Diagnosis often involves comparing ABG results with [[Co-oximetry]].

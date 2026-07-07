@@ -23,6 +23,14 @@ aliases: []
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - The effect of SIRTs in inflammatory cells: The cells involved in the inflammatory response include inflammatory cells such as Macrophages, mast cells and endothelial cells.
+
+
 ## Connections
 - [[Macrophages]] — related entity
 

@@ -30,6 +30,17 @@ Within the [[SASP-Remodeling Aminochrome Complex]] strategy, Fisetin exploits th
 
 Research indicates that [[Fisetin]] can enhance the plasma levels of other [[Flavonoids|flavonoids]] like [[EGCG]] by inhibiting [[COMT]], potentially increasing the bioavailability of co-administered polyphenols.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - Quercetin - Fisetin - Luteolin - Rutin - Oleacein (olive oil polyphenol) Again, it isn’t set in stone that everyone with slow COMT will have anxiety or irritability with the above supplements.
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Several other polyphenols, structurally related to Resveratrol, were also found to activate SIRTs, including the chalcones butein and isoliquiritigenin, the flavones Fisetin and Quercetin, and the stilbene Stilbene.
+
+
 ## Connections
 
 - [[COMT]]: The enzyme responsible for fisetin's metabolism.

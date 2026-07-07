@@ -17,6 +17,14 @@ Atg (autophagy-related) proteins are a family of evolutionarily conserved protei
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - This biological phenomenon depends on the activity of nearly 16 Atgs and 2 distinct ubiquitin-like conjugation systems (Figure 1) \[\]. Two complexes are required to promote the formation of autophagosomes.
+
+
 ## Connections
 - [[Autophagy]] — core pathway executed by Atg proteins
 - [[LC3]] — mammalian Atg8 homolog, key autophagosome marker

@@ -36,6 +36,14 @@ BDNF is a central effector of experience-dependent plasticity: enriched environm
 
 BDNF is investigated as a biomarker of neuropsychiatric and neurodegenerative disease and as a surrogate for pro-plasticity interventions. Strategies that elevate BDNF through SIRT1/NAD⁺-dependent mechanisms (exercise, fasting, [[Resveratrol]], [[Nicotinamide Mononucleotide|NMN]]) are active areas of geroscience and neurotherapeutics.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - In addition, an in vivo study has suggested that SIRT1 overexpression reduces cardiomyocyte Apoptosis through the NFκB p65/miR-155/BDNF signaling pathway, thereby alleviating Heart Failure in rats.
+
+
 ## Connections
 
 - [[Depression]] — Reduced BDNF implicated in depressive disorders; SIRT1 activation may have antidepressant effects

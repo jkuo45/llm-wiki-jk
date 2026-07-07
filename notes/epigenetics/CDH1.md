@@ -38,6 +38,17 @@ Transcriptional repression of CDH1 is a hallmark of [[EMT]]. Key repressors — 
 
 **Prognostic & Predictive Value:** Loss of E-cadherin correlates with high grade, advanced stage, lymph node metastasis, and poor prognosis across multiple epithelial cancers. In ovarian and gastric cancers, detection of methylated CDH1 DNA in plasma or peritoneal fluid is under investigation as a liquid biopsy marker.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - In quiescent cells, hypophosphorylated Rb associates with the CDH1-bound APC-C (APC-C CDH1) to target Skp2, a negative regulator of the p27 CDK Inhibitor, for degradation (Binne et al., 2007).
+
+  - [[_document_ - Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network|Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network]]
+    - Further studies have shown that the endpoint of Mesenchymal-to-Epithelial Transition, E-Cadherin (CDH1), is required for establishing cell-cell contacts critical for the iPS phenotype .
+
+
 ## Connections
 
 - [[Yamanaka Factors]]: CDH1 is a target of reprogramming; E-cadherin is essential for mesenchymal-to-epithelial transition (MET) during iPSC generation

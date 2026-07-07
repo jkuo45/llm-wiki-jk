@@ -37,6 +37,14 @@ VTA dysfunction is implicated in:
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum|Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum]]
+    - By using an in situ hybridization with cellular resolution, we observed transgene expression in the Ventral Tegmental Area (VTA) of the midbrain.
+
+
 ## Connections
 - [[Dopamine]] — primary VTA neurotransmitter; mediates reward and motivation
 - [[Nucleus Accumbens]] — major VTA projection target in the mesolimbic pathway

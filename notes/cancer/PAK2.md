@@ -29,6 +29,14 @@ Physiologically, PAK2 orchestrates actin remodeling during development and immun
 
 PAK2 is a candidate biomarker of apoptotic competence and a target for PAK inhibitors aimed at restoring therapy sensitivity. Its caspase-cleavage fragment is also studied as a marker of apoptosis induction in preclinical models.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - Caspase-7 | | PAK2 | Ser30, Thr173, Ser239 | Suppression of activity | Breast Cancer | | Caspa
+
+
 ## Connections
 
 - [[Caspase-7]]: Effector caspase phosphorylated by PAK2 to limit apoptosis.

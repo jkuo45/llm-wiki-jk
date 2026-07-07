@@ -25,6 +25,14 @@ Adult worms incite lymphangitis and lymphatic obstruction; the resulting stasis 
 
 Diagnosis uses night blood films, antigen tests (ICT), and ultrasound (filarial dance sign). Vector control and mass drug administration with [[Ivermectin]] (often combined with [[Diethylcarbamazine]] and albendazole) aim to interrupt transmission; doxycycline targeting *Wolbachia* endosymbionts sterilizes and kills adult worms. The [[World Health Organization]] leads the Global Programme to Eliminate Lymphatic Filariasis.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, ‘Wonder drug’ from Japan the human use perspective|Ivermectin, ‘Wonder drug’ from Japan the human use perspective]]
+    - The disease results from infection with filarial worms, Wuchereria bancrofti, Brugia malayi or Brugia timori.
+
+
 ## Connections
 
 - [[Lymphatic Filariasis]]: The debilitating disease caused by W. bancrofti.

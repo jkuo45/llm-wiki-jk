@@ -16,6 +16,14 @@ Meiosis is a specialized form of [[Cell Division]] that produces [[Gamete]]s ([[
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - Oocyte in female mammals become arrested at Prophase I of Meiosis, in contrast to other cell types that enter quiescence in G0 Phase (described below).
+
+
 ## Connections
 - [[Cell Division]] — meiosis is a specialized division process
 - [[Cell Cycle]] — meiosis is a variant of the cell cycle

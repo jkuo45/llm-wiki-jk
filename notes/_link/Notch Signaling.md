@@ -24,6 +24,14 @@ aliases: [Notch Pathway]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - SIRT3 promotes expression of autophagic proteins Beclin1 and LC3II via downregulation of the Notch Signaling-1/ Hes-1 pathway.
+
+
 ## Connections
 - [[Notch Signaling]] — related entity
 

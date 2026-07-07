@@ -22,6 +22,14 @@ aliases: []
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - How drastically different cell types are able to implement extensive changes to their Transcription, Metabolism, and cellular structures to induce a common cellular state is a fascinating question in cell and developmental biology.
+
+
 ## Connections
 - [[Chromatin]] — interacts with
 - [[DNA Methylation]] — interacts with

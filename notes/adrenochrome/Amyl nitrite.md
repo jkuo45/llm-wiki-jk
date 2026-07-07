@@ -12,6 +12,14 @@ aliases: []
 
 [[Amyl nitrite]] is a chemical compound used medically as an antidote for cyanide poisoning and recreationally as an inhalant ("poppers"). It is a potent oxidizing agent that can cause acute [[Methemoglobinemia]].
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Methemoglobin and Methemoglobinemia|Methemoglobin and Methemoglobinemia]]
+    - Chemicals/Nitrates/Nitrites: Amyl nitrite/Isobutyl nitrite ("poppers"), Sodium nitrite (suicide attempts or contaminated food), Aniline dyes, Nitrobenzene.
+
+
 ## Connections
 - [[Methemoglobinemia]]: A common result of Amyl nitrite exposure.
 - [[Isobutyl nitrite]]: Another related compound with similar effects.

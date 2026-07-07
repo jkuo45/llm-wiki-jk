@@ -17,6 +17,14 @@ aliases: []
 ## Use in Formulations
 Bisulfites are commonly used as [[Antioxidants]] in [[Epinephrine]] formulations. However, they can react with [[Adrenochrome]] under light to form [[Adrenochrome sulfonate]], another degradation product.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - intermediates, precursor, hemoglobin|intermediates, precursor, hemoglobin]]
+    - Other factors: Trace metal ions (e.g., iron, aluminum) catalyze oxidation; interactions with Bisulfite Antioxidants can form additional degradants like Adrenochrome sulfonate under light.
+
+
 ## Connections
 - [[Antioxidants]]
 - [[Sodium Metabisulfite]]

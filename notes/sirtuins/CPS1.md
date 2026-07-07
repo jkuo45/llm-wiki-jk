@@ -33,6 +33,14 @@ In the mitochondria, CPS1 activity is highly regulated by post-translational mod
 - **CPS1 Deficiency:** Mutations in the *CPS1* gene cause carbamoyl phosphate synthetase I deficiency, a rare and severe autosomal recessive urea cycle disorder. It presents as hyperammonemia, lethargy, seizures, and developmental delay, and can be fatal if untreated.
 - **Sirtuin Regulation Therapeutics:** Developing SIRT5 activators (such as certain 1,4-dihydropyridine derivatives) represents a promising therapeutic avenue for enhancing urea cycle capacity and boosting ammonia clearance in metabolic diseases or acute liver failure.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins (resveratrol), gemini|sirtuins (resveratrol), gemini]]
+    - Mechanism & Physiological Impact: SIRT5 activation de-succinylated CPS1 (carbamoyl phosphate synthase 1), the rate-limiting enzyme of the urea cycle.
+
+
 ## Connections
 
 - **[[SIRT5]]**: The mitochondrial desuccinylase that directly binds, deacylates, and activates CPS1.

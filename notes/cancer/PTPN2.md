@@ -25,6 +25,14 @@ Physiologically, PTPN2 maintains Signaling homeostasis in hematopoietic and epit
 
 PTPN2 is a candidate biomarker of immune-cold tumors and a therapeutic target. Pharmacologic PTPN2 inhibition (e.g., with MSI-1436/lictrestivint) is being explored to enhance checkpoint-blockade efficacy by unleashing T-cell and tumor-intrinsic death signaling. Its regulation of [[Bak]] and [[Apoptosis]] further positions PTPN2 as a node connecting death signaling to immune surveillance.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - Required during anoikis | | Bak | | Unidentified (PTPN2, PTPN5, PTPN23) | Tyr108 | Inactivation | Fibrosarcoma, Colon Cancer | | B
+
+
 ## Connections
 
 - [[JAK2]] - Kinase dephosphorylated/inhibited by PTPN2.

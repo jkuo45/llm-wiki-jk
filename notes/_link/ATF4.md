@@ -36,6 +36,17 @@ ATF4 bridges the unfolded protein response (UPR) to [[Autophagy]] by inducing au
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - TFE3 targets included not only autophagic/lysosomal genes, but also ATF4, an essential master regulator of the integrated stress response, and genes implicated in cell response to stress, signaling, and Apoptosis (Martina et al 2016).
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - Other BH3 mimetics such as ATF4, ATF3 and Noxa have been reported to bind to and inhibit Mcl-1 \[\]. 4.
+
+
 ## Connections
 - [[Integrated Stress Response]] — interacts with ATF4
 - [[eIF2α]] — interacts with ATF4

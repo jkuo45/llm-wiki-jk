@@ -16,6 +16,14 @@ MiT (Microphthalmia/TFE family) refers to a family of basic helix-loop-helix leu
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - TFEB, a member of the microphthalmia (MiT/TFEB family) of leucine zipper transcription factors, has been known as a master regulator for transcription of genes participated in Lysosome Biogenesis and Autophagy \[, \].
+
+
 ## Connections
 - [[MITF]] — founding member of the MiT family
 - [[TFEB]] — master regulator of lysosomal biogenesis

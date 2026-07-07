@@ -19,6 +19,14 @@ Glyoxal is a potent inducer of dicarbonyl stress, reacting non-enzymatically wit
 
 It is detoxified by enzymatic defense networks including the [[Glyoxalase System]] and [[PARK7]]. Specifically, PARK7 catalyzes the glutathione-independent conversion of glyoxal into [[Glycolic acid]], protecting cellular proteins from covalent modification.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Dietary Advanced Glycation End Products and Aging|Dietary Advanced Glycation End Products and Aging]]
+    - These dicarbonyl derivatives known as α-oxaldehydes (Glyoxal, Methylglyoxal (MG), and 3-deoxyglucosone) can interact with monoacids and form AGEs.
+
+
 ## Connections
 
 - [[Advanced Glycation End Products]]: Glyoxal is a potent inducer of dicarbonyl stress, reacting non-enzymatically with cellular macromolecules to form Adv...

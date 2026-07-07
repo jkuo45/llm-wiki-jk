@@ -29,6 +29,14 @@ In healthy melanized neurons, aminochrome is largely channeled into neuromelanin
 
 Elevated aminochrome adducts and associated [[Oxidative Stress]] markers are found in PD substantia nigra. Strategies that bolster two-electron quinone reduction (NQO1 inducers) or scavenge aminochrome are proposed neuroprotective approaches. The aminochrome–α-synuclein cross-talk also implicates catecholamine metabolism directly in proteostasis failure.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator|Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator]]
+    - When Dopamine is oxidized to Dopamine o-quinone, Aminochrome and 5,6-indolequinone are formed and typically undergo polymerization to form the dark pigment, Neuromelanin (Munoz et al., 2012).
+
+
 ## Connections
 
 - [[Dopamine]]: Parent catecholamine oxidized to aminochrome.

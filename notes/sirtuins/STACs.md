@@ -64,11 +64,21 @@ STACs protect against axonal degeneration (Wallerian degeneration) and clear pat
 
 ---
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - STACS (SIRTUIN ACTIVATING COMPOUNDS) The fact that additional _SIR2_ extends the lifespan of diverse organisms prompted a search for STACs (sirtuin activating compounds) that might extend lifespan in the absence of CR or genetic manipulation.
+
+
 ## Connections & Related Concepts
 - **[[SIRT1]]**: The primary molecular target of allosteric STACs.
 - **[[Resveratrol|Resveratrol 1]]**: The classic natural STAC that initiated sirtuin-based drug discovery.
 - **[[PGC-1α|PGC-1α]]**: Deacetylated and activated downstream of STAC-stimulated SIRT1, driving mitochondrial biogenesis.
 - **[[Caloric Restriction|Caloric Restriction]]**: STACs act as chemical mimetics of this lifespan-extending dietary intervention.
+
+
 
 ## Connections
 

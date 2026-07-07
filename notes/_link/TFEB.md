@@ -31,6 +31,29 @@ aliases: []
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
+    - Interestingly, spermidine can act as a donor for hypusination of the translation factor eIF5A, which is integral to its activation and enables efficient biosynthesis of the autophagy transcription factor TFEB (Zhang et al., 2019).
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - Transcription factor EB (TFEB), known as a major transcriptional regulator of the autophagy-lysosomal pathway, regulates target gene expression by binding to coordinated lysosomal expression and regulation (CLEAR Element) elements.
+
+  - [[_document_ - Lysosome biogenesis Regulation and functions|Lysosome biogenesis Regulation and functions]]
+    - This family comprises microphthalmia-associated transcription factor, TFEB, TFE3, and TFEC (Hemesath et al., 1994).
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - This review discusses the participation of the transcription factors TFEB and TFE3 in the regulation of lysosomal function and Lysosome, and the role
+
+  - [[_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease|Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease]]
+    - TP-511&doi=\(93\)90349-k&)\] Linking Summary: - New links added: Konstantin Nikolaevich Tretiakoff, Pale Bodies, Immunoglobulin G, Major histocompatibility complex class I, Lipofuscin, Eumelanin, Pheomelanin, L-Tyrosine, TFEB, Ambroxol, p62, Ubiquitin, Brad...
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Additionally, SIRT2 directly binds to the 3'UTR of TFEB and facilitates its mRNA stability.
+
+
 ## Connections
 - [[Autophagy]] — cellular self-degradation pathway; clears damaged proteins and organelles
 - [[Neuromelanin]] — interacts with TFEB

@@ -31,6 +31,20 @@ Mathematical models, known as epigenetic clocks, select a specific set of CpG si
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
+    - We examine how cutting-edge technologies, such as Single-cell Omics methods hold the promise to capture the complexity of molecular and cellular phenotypes associated with aging, driving the development of suitable putative Biomarkers and clinical bioassays.
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - IF in ECs mediates functional activity and reduces injury rates in obese individuals by regulating certain Biomarkers and the autophagic response \[\].
+
+  - [[_document_ - Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks|Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks]]
+    - To address the rationale and provide geriatric care, the constant target of Geroscience is to identify reliable Biomarkers for aging.
+
+
 ## Connections
 - **[[Aging]]**: The primary process that biomarkers of aging aim to quantify.
 - **[[DNAmGrimAge]]**: A state-of-the-art epigenetic biomarker for mortality and healthspan.

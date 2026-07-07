@@ -25,6 +25,20 @@ Increased [[COMT]] activity in the dopamine neurons of the VTA can influence dop
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum|Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum]]
+    - By using an in situ hybridization with cellular resolution, we observed transgene expression in the Ventral Tegmental Area (VTA) of the midbrain.
+
+  - [[_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease|Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease]]
+    - Similarly, dopaminergic neurons in the Ventral Tegmental Area, which are largely spared in PD, produce minimal neuromelanin over a lifetime., Classical Lewy Bodies (LB), that is, Alpha-synuclein‐containing intracytoplasm
+
+  - [[_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator|Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator]]
+    - For example, NM-rich SNpc neurons undergo cell death compared to non-pigmented Ventral Tegmental Area neurons in PD (Zecca et al., 2003; Zucca et al., 2015).
+
+
 ## Connections
 - [[Dopamine]]: The primary neurotransmitter produced by VTA neurons.
 - [[Prefrontal Cortex]]: A major projection target of the mesocortical pathway.

@@ -21,6 +21,14 @@ S-sulfhydration (persulfidation) is the modification of cysteine thiols to persu
 
 H2S donors (NaHS, GYY4137) induce [[Autophagy]] via TFEB nuclear translocation and [[AMPK]] activation. This has therapeutic potential in [[Myocardial Ischemia-Reperfusion Injury]] and [[Neurodegeneration]].
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - PTM The activity and subcellular localization of TFEB are mainly regulated by PTM, including Phosphorylation \[\], Acetylation \[\], Ubiquitination \[\], PARsylation \[\], SUMOylation \[\], Glucosylation \[\], Oxidation \[, \] and S-sulfhydration \[\].
+
+
 ## Connections
 
 - [[TFEB]]: S-sulfhydration is a post-translational modification of cysteine residues by hydrogen sulfide (H2S); TFEB undergoes S...

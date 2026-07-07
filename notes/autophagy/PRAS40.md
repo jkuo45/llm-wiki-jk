@@ -27,6 +27,14 @@ Under fasting or energy-deficit conditions, PRAS40 remains hypophosphorylated an
 
 Because PRAS40 links AKT survival signaling to mTORC1 output, it is implicated in [[Insulin Resistance]] and type 2 diabetes, where altered PRAS40 phosphorylation disturbs metabolic homeostasis. In [[Cancer]], AKT hyperactivation (PI3K/AKT pathway mutations) phosphorylates PRAS40 to sustain mTORC1-driven growth and to suppress autophagic tumor suppression; PRAS40 phosphorylation is used as a biomarker of AKT/mTORC1 activity. Conversely, strategies that preserve PRAS40 association with mTORC1 (or mimic its inhibitory state) can dampen anabolic signaling and promote [[Autophagy]] in [[Aging]] and [[Neurodegeneration]]. PRAS40 therefore exemplifies how a single mTORC1 subunit translates growth-factor tone into the autophagic switch.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - mTORC1 mTORC1 has five components: mTOR, which is the catalytic subunit of the complex; Raptor (Raptor); mLST8 (mLST8, also known as GβL); PRAS40; and Deptor (Deptor) (Peterson et al., 2009).
+
+
 ## Connections
 
 - [[mTORC1]]: PRAS40 is a core inhibitory subunit that blocks substrate binding until displaced.

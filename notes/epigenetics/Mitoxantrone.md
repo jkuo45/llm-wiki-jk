@@ -39,6 +39,14 @@ The use of Mitoxantrone is limited by several significant toxicities:
 - **Secondary Malignancies**: Long-term use is associated with an increased risk of developing secondary cancers, such as acute leukemia.
 - **Infertility**: It can cause significant reproductive toxicity in both men and women.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - a]], Thymidine, Bromodeoxyuridine, Gemcitabine, Cyclopentenyl cytosine); (2) DNA‐damaging agents, including (2a) DNA Topoisomerase Inhibitors (Doxorubicin, Etoposide, Daunorubicin, Mitoxantrone, Camptothecin), (2b) DNA Cross-linkers (Cisplatin, Mitomycin C,...
+
+
 ## Connections
 
 - [[Topoisomerase II]] — Mitoxantrone's primary molecular target.

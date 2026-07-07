@@ -24,6 +24,14 @@ aliases: [Proteotoxic Stress]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - With the progression of neurodegenerative disease, the accumulation of misfolded proteins and peptides increases the possibility of Proteotoxicity \[,\].
+
+
 ## Connections
 - [[Proteotoxicity]] — related entity
 

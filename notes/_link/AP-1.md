@@ -24,6 +24,14 @@ aliases: [Activator Protein 1]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - Oxidants are known to enhance inflammation via the activation of different kinases involving pathways and transcription factors like NF-kappa B and AP-1 \[, \]. 4.5.
+
+
 ## Connections
 - [[AP-1]] — related entity
 

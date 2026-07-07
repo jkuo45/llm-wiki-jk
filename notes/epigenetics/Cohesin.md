@@ -57,6 +57,14 @@ Cohesin dysfunction is linked to age-related [[Meiosis]] errors, particularly in
 
 **Cancer:** Somatic mutations in STAG2 occur in ~7% of [[Acute Myeloid Leukemia]], ~10% of [[Bladder Cancer]], and at lower frequency in Ewing sarcoma and myelodysplastic syndromes. STAG2 loss disrupts CTCF-mediated looping at specific loci, leading to transcriptional activation of oncogenes or silencing of tumor suppressors. RAD21 and SMC1A mutations also occur across cancers. Cohesin-mutant cancers often exhibit aneuploidy, though the degree depends on the specific subunit and mutation type.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - For example, the Cohesin protein complex is essential to connect sister chromatids during chromosome segregation. During oocyte aging, cohesin proteins are gradually lost from the chromosomes (Chiang et al., 2010; Chiang et al., 2012; Lister et al., 2010).
+
+
 ## Connections
 
 - [[Oocyte]]: Cohesin maintenance is essential for meiotic chromosome segregation; age-related cohesin loss drives oocyte aneuploidy

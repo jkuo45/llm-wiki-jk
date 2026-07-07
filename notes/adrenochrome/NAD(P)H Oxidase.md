@@ -15,6 +15,14 @@ aliases: []
 
 NAD(P)H oxidase is a membrane-bound enzyme complex that faces the extracellular space. It is involved in the production of superoxide anions, contributing to intracellular [[Oxidative Stress]]. Its activity is notably increased by the interaction between [[Advanced Glycation End Products|AGEs]] and [[RAGE]].
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Dietary Advanced Glycation End Products and Aging|Dietary Advanced Glycation End Products and Aging]]
+    - In addition, AGE-RAGE interaction activates NAD(P)H Oxidase (a complex of enzymes which produces Superoxide) and when this complex is upregulated, it increases intracellular oxidative stress.
+
+
 ## Connections
 
 - [[Oxidative Stress]]: It is involved in the production of superoxide anions, contributing to intracellular Oxidative Stress.

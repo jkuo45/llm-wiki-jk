@@ -31,6 +31,14 @@ Transient senescence suppresses [[Tumorigenicity]] by arresting damaged or pre-m
 
 SA-β-gal is the standard inclusion criterion in screens for [[Senolytic Drugs]] — compounds that selectively clear senescent cells (identified via [[High-Throughput Screening]]). Reduction of SA-β-gal-positive cells serves as a pharmacodynamic marker in senolytic trials. Limitations include background staining in some cell types, diminished signal in deep tissue, and imperfect specificity (some quiescent or differentiated cells stain weakly), so it is usually combined with other markers (p16^INK4a^, γH2AX, Lamin B1 loss) for rigor.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - The distinctive phenotypic changes typical of various types of cellular senescence are cell enlargement and flattening, SA-beta-gal, formation of SAHF (SAHF), persistent DNA Damage Response (DNA Damage Response), and SASP (SASP).
+
+
 ## Connections
 
 - [[Replicative Senescence]] - telomere-driven form of senescence marked by SA-β-gal

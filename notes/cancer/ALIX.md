@@ -35,6 +35,14 @@ ALIX is essential for embryonic development, viral budding (e.g., HIV-1), and th
 
 Modulating ALIX could either block immune-suppressive exosomes (enhancing checkpoint blockade) or, conversely, promote shedding of oncogenic receptors. Its dual role makes it a nuanced target in [[Cancer Immunotherapy]].
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology|Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology]]
+    - In basal-like breast cancers, the absence of the protein ALIX was shown to correlate with EGFR activation, impairing exosome biogenesis .
+
+
 ## Connections
 
 - [[EGFR]]: Surface retention/signaling altered by ALIX loss.

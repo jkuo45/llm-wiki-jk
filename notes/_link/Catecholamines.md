@@ -28,6 +28,26 @@ In response to stress, [[Smoking]], or [[Inflammation]], catecholamine levels ri
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - intermediates, precursor, hemoglobin|intermediates, precursor, hemoglobin]]
+    - Specifically, I am exploring the impact of the oxidation product, and its implications to Methemoglobinemia, due to the presence of Catecholamines. I am also checking against initial knowledge.
+
+  - [[_document_ - neutrophil and erthrocyte|neutrophil and erthrocyte]]
+    - pubmed.ncbi.nlm.nih.gov - Cardiomyocytes: Epinephrine oxidation to Adrenochrome has been observed in isolated rat Cardiomyocytes, linked to potential Cardiotoxicity effects under stress or high Catecholamines levels.
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - Without the COMT-controlled Methylation reaction, Catecholamines can accumulate and generate Free Radicals, which can damage DNA. Thus, COMT is essential in protecting cells, including brain cells, from Oxidative Stress.
+
+  - [[_document_ - Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum|Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum]]
+    - The Catechol-O-methyltransferase (COMT) enzyme degrades Catecholamines, including Dopamine.
+
+  - [[_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator|Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator]]
+    - What cannot be ignored in this discussion however is the Oxidative Stress necessitated by the handling of high concentrations of Catecholamines. In other words, in order to function as an active dopaminergic or adrenergic ce
+
+
 ## Connections
 - [[Epinephrine]] ↔ Member of the catecholamine family.
 - [[Dopamine]] ↔ Member of the catecholamine family.

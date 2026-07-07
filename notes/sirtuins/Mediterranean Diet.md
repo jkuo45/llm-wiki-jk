@@ -36,6 +36,14 @@ The **Mediterranean Diet** is a dietary pattern based on traditional eating habi
 - Associated with lower incidence of [[Diabetes Mellitus|type 2 diabetes]], [[Atherosclerosis]], metabolic syndrome, and [[Cancer]]
 - Epidemiological data from the [[French Paradox]] observations helped prompt broader investigation into the diet's health effects
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Sirtuin System The Holy Grail of Resveratrol?|The Sirtuin System The Holy Grail of Resveratrol?]]
+    - These and other such studies were monumental in developing the current concepts of the widely accepted Mediterranean Diet.
+
+
 ## Connections
 
 - [[Cardiovascular Disease]]: It has been extensively studied for its association with reduced Cardiovascular Disease risk, improved [[Longevity]],...

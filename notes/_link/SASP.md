@@ -81,6 +81,14 @@ Circulating SASP factors ([[IL-6]], [[IL-8]], [[MMP-9]], [[PAI-1]]) serve as bio
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - notypic changes typical of various types of cellular senescence are cell enlargement and flattening, SA-beta-gal (SA-beta-gal), formation of SAHF (SAHF), persistent DNA Damage Response (DNA Damage Response), and SASP.
+
+
 ## Connections
 - [[Cellular Senescence]] — the SASP is the effector arm of the senescence program
 - [[Inflammaging]] — chronic SASP is a major driver of age-related inflammation

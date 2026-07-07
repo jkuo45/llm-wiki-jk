@@ -57,6 +57,14 @@ Quantitative detection of leuco-adrenochrome in biological samples is inherently
 
 Leuco-adrenochrome occupies a pivotal position in the [[Adrenochrome]] redox cycle as the entry point for reducing equivalents that can either complete the cycle (by being reoxidized to [[Adrenochrome]]) or abort it (by undergoing further reduction and conjugation). The ratio of [[Adrenochrome]] to leuco-adrenochrome serves as a real-time indicator of the redox poise of the catecholamine oxidation pathway. When this ratio is high (> 10:1), the pathway is committed toward redox cycling and oxidative stress amplification. When low (< 1:1), reducing capacity dominates and flux proceeds toward melanin polymerization or conjugation with [[Glutathione]] and excretion. Pharmacological interventions that increase the reducing equivalent pool — such as [[N-Acetylcysteine]] (boosting glutathione), [[Ascorbic Acid]], or [[Lipoid Acid]] — shift the equilibrium toward leuco-adrenochrome, effectively attenuating the pro-oxidant arm of aminochrome biology. This principle underlies the rationale for antioxidant co-administration in protocols involving [[Adrenochrome]] or [[Carbazochrome]] as hormetic triggers.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - intermediates, precursor, hemoglobin|intermediates, precursor, hemoglobin]]
+    - tokens User research Leuco-adrenochrome is a chemical intermediate and a natural byproduct formed during the oxidation of Epinephrine (adrenaline) into Adrenochrome.
+
+
 ## Connections
 - [[Epinephrine]]
 - [[Adrenochrome]]

@@ -25,6 +25,14 @@ Tretiakoff's findings were initially slow to gain traction but became cornerston
 ## Legacy and Research Relevance
 Today Tretiakoff is honored as the anatomist who first localized PD to the substantia nigra, bridging clinical neurology and cellular pathology. His work underpins every subsequent advance—from [[MPTP]] models of selective nigral toxicity to neuromelanin imaging with [[Flortaucipir]]. Recognizing his contribution clarifies the historical throughline from pigment observation to molecular understanding of PD, and emphasizes that the neuromelanin neuron was the original pathological landmark of the disease.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease|Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease]]
+    - Linking Summary: - New links added: Konstantin Nikolaevich Tretiakoff, Pale Bodies, Immunoglobulin G, Major histocom
+
+
 ## Connections
 - [[Substantia Nigra]]: The pigmented nucleus he identified as PD's seat.
 - [[Parkinson's Disease]]: Disease he anatomically localized to the nigra.

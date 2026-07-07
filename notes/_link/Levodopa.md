@@ -24,6 +24,14 @@ aliases: [L-DOPA]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - COMT Inhibitors are used to increase Dopamine levels in people who are taking Levodopa. EGCG and Quercetin have been tested for this in animal models of Parkinson’s.
+
+
 ## Connections
 - [[Levodopa]] — related entity
 

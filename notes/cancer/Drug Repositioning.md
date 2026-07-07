@@ -24,6 +24,17 @@ Drug repositioning (also known as drug repurposing) refers to the process of ide
 - [[Fenbendazole]]: Another antiparasitic drug explored for cancer therapy.
 - [[Ivermectin]]: Also studied for its potential antiviral effects (e.g., against [[HIV-1]], [[SARS-CoV-2]]).
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug|Ivermectin, a potential anticancer drug derived from an antiparasitic drug]]
+    - NBC]], Triple-negative breast cancer; YAP1, Yes-associated protein 1 Chemical compounds reviewed in this article: Ivermectin(PubChem CID：6321424), Avermectin(PubChem CID：6434889), selamectin(PubChem CID：9578507), doramectin(PubChem CID：9832750), moxidectin(...
+
+  - [[_document_ - Oral Fenbendazole for Cancer Therapy in Humans and Animals|Oral Fenbendazole for Cancer Therapy in Humans and Animals]]
+    - Mentioned in this document
+
+
 ## Connections
 - [[Ivermectin]]: A prime example of drug repositioning in oncology.
 - [[Multidrug Resistance]]: Many repositioned drugs aim to overcome MDR.

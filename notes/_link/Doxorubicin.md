@@ -25,6 +25,20 @@ Resistance to doxorubicin is a common clinical problem, often mediated by the ov
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - On the other hand, Wu _et al_ demonstrated that by silencing Bmi-1 in MCF Breast Cancer cells, the expression of pAkt and Bcl-2 was downregulated, rendering these cells more sensitive to Doxorubicin as evidenced by an increase in apoptotic cells _in vitro_ ...
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - replication stress]] inducers (Aphidicolin, Hydroxyurea, Thymidine, Bromodeoxyuridine, Gemcitabine, Cyclopentenyl cytosine); (2) DNA‐damaging agents, including (2a) DNA Topoisomerase Inhibitors (Doxorubicin, Etoposide, Daunorubicin, Mitoxantrone, Camptothec...
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Additionally, SIRT proteins can affect the sensitivity of BC cells to several drugs, including Breast Cancer, paclitaxel and Doxorubicin.
+
+
 ## Connections
 - [[Apoptosis]]: Triggers cell death via multiple pathways.
 - [[Bmi-1]]: Silencing Bmi-1 can sensitize cells to doxorubicin.

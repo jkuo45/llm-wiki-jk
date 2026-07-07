@@ -33,6 +33,14 @@ FOXOs maintain tissue homeostasis, promote stress resistance and longevity, and 
 
 In cancer, FOXO activity is frequently suppressed by hyperactive [[PI3K]]/[[Akt]] signaling (common in [[Breast Cancer]], [[Hepatocellular Carcinoma]], and [[Glioblastoma]]), tipping cells toward proliferation and [[Apoptosis]] evasion — core [[Hallmarks of Cancer]]. Loss or cytoplasmic mislocalization of FOXO correlates with poor prognosis and [[Chemotherapy]] resistance. Conversely, FOXO activation can be tumor-suppressive but in some contexts (e.g., [[Glucose]] deprivation) promotes survival. Therapeutic strategies aim to reactivate nuclear FOXO (Akt inhibitors, SIRT1 modulators) or exploit FOXO-dependent apoptosis sensitization. FOXOs also interface with [[Autophagy]] and [[Oxidative Stress]] programs that determine treatment response.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Evading apoptosis in cancer|Evading apoptosis in cancer]]
+    - Various transcription factors have been implicated in _Bim_ expression, including FOXO Transcription Factors \[ – \], RUNX3 \[\], AP-1 \[\], and E2F1 \[\].
+
+
 ## Connections
 
 - [[Apoptosis]]: FOXOs induce Bim/Puma to trigger cell death.

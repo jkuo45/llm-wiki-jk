@@ -31,6 +31,23 @@ Caspase-9 activation is tightly controlled by various inhibitors and post-transl
 ## Role in Cancer
 Downregulation of Caspase-9 has been linked to poor clinical outcomes in stage II colorectal cancer.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - Cytoplasmic release of cytochrome c activates Caspase-3 via the formation of a complex known as Apoptosome which is made up of cytochrome c, Apaf-1 and Caspase-9 \[\].
+
+  - [[_document_ - Caspase|Caspase]]
+    - They are broadly categorized into initiator caspases (e.g., Caspase-2, Caspase-8, Caspase-9, Caspase-10) and executioner caspases (e.g., Caspase-3, Caspase-6, Caspase-7). Table 1.
+
+  - [[_document_ - Evading apoptosis in cancer|Evading apoptosis in cancer]]
+    - In response to various apoptotic stimuli, “initiator” Caspases (Caspase-2, Caspase-8, Caspase-9, or Caspase-10) are activated. Initiator Caspases, in turn, cleave and activate the zymogenic forms of “executioner” Caspases (e.g.
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - SIRT3 overexpression promoted Apoptosis by enhancing Caspase-9 cleavage in Hepatocellular Carcinoma cells, and SIRT3 depletion Signal Transduction and Targeted Therapy (2022) 7:402 The sirtuin family in health and disease Wu et al.
+
+
 ## Connections
 - [[Intrinsic Pathway]]: The primary initiator caspase.
 - [[Apoptosome]]: The complex required for caspase-9 activation.

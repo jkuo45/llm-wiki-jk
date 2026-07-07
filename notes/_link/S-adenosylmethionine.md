@@ -24,6 +24,14 @@ aliases: [SAMe]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - Methyl Donor supplements include: - Methylfolate - Methylcobalamin (MethylB12) - TMG/Betaine - SAMe (S-adenosylmethionine) Without clinical trials on this interaction with Methyl Donor, the need to limit this is something that may be unique to an individual.
+
+
 ## Connections
 - [[S-adenosylmethionine]] — related entity
 

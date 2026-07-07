@@ -36,6 +36,14 @@ This axis established the foundational principle that sirtuins promote longevity
 
 DAF-16 target genes encode superoxide dismutases, catalases, heat-shock proteins, and enzymes of lipid and carbohydrate metabolism. Activation of DAF-16 increases resistance to oxidative, thermal, and proteotoxic stress and extends healthspan. The requirement of DAF-16 for *sir-2.1* longevity demonstrated that sirtuins are not sufficient alone—they require intact FOXO signaling to extend life.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - Caenorhabditis elegans carrying a chromosome duplication containing SIR-2.1, the worm sirtuin most similar to yeast Sir2 (yeast) , exhibits up to a 50 % lifespan increase, and this is strictly dependent on the forkhead transcriptional factor DAF-16 , the do...
+
+
 ## Connections
 
 - [[Sir2 (yeast)]] — yeast Sir2 is the evolutionary ancestor; worm SIR-2.1 interacts with DAF-16

@@ -26,6 +26,20 @@ Dysregulation of miRNAs is a hallmark of many age-related conditions:
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - These changes in mRNA stability can be attributed partially to the action of MicroRNA, with the levels of specific miRNAs helping to mediate cell state (Cheung et al., 2012; Crist et al., 2012; Johnson et al., 2017; Suh et al., 2012).
+
+  - [[_document_ - Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks|Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks]]
+    - A growing number of studies have suggested that alterations occur through three fundamental mechanisms like DNA Methylation, Histone Modification, and production of non‐coding MicroRNA.
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - For example, MicroRNA can negatively regulate inflammation by repressing SIRT1. Downregulation of MicroRNA such as miR217 and miR-543 mitigated the inflammatory response by regulating the SIRT1/AMPK/NFKB signaling pathway.
+
+
 ## Connections
 - **[[Non-coding RNA]]**: The broader category of regulatory RNAs to which miRNAs belong.
 - **[[Epigenetics]]**: miRNAs are a major layer of epigenetic control.

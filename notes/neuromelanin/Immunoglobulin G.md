@@ -29,6 +29,14 @@ The presence of IgG in vulnerable neurons suggests that [[Neuroinflammation]] in
 ## Clinical and Research Implications
 Detecting disease-specific autoantibodies (e.g., against [[Alpha-synuclein]] or neuronal proteins) in serum or cerebrospinal fluid is being explored as a PD biomarker. The IgG–neuromelanin association also supports the broader theme that pigmented neurons exist at the interface of catecholamine metabolism, oxidative stress, and immune attack. Longitudinal studies aim to determine whether IgG infiltration precedes or follows nigral cell death, informing its utility as a prognostic marker.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease|Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease]]
+    - sneuromelanincontributetothevulnerabilityofcatecholaminergicneuronsinmonkeysintoxicatedwithMPTP-511&doi=\(93\)90349-k&)\] Linking Summary: - New links added: Konstantin Nikolaevich Tretiakoff, Pale Bodies, Immunoglobulin G, Major histocompatibility complex ...
+
+
 ## Connections
 - [[Parkinson's Disease]]: Condition in which IgG accumulates in neuromelanin neurons.
 - [[Neuromelanin]]: Pigment neurons showing IgG deposition.

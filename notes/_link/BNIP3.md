@@ -24,6 +24,14 @@ aliases: [BCL2 Interacting Protein 3]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - Additionally, PML tumor suppressor and BNIP3 reduce mTORC1 signaling during Hypoxia by disrupting the interaction between mTOR and its positive regulator Rheb (Bernardi et al., 2006; Li et al., 2007).
+
+
 ## Connections
 - [[BNIP3]] — related entity
 

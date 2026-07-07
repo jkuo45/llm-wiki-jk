@@ -29,6 +29,14 @@ HGF is indispensable for embryonic development of liver, kidney, placenta, and m
 
 Dysregulated HGF/c-Met signaling contributes to [[Cancer]] invasion, metastasis, and resistance to therapies. Exogenous HGF is being evaluated clinically for acute liver failure, ischemic injury, and muscle-wasting disorders. HGF's capacity to activate [[Muscle Stem Cell|muscle stem cells]] also intersects with [[Rejuvenation]] and [[Aging]] research, where restoring regenerative competence mitigates sarcopenia. In the laboratory, HGF is used to derive hepatocyte-like cells from [[Induced Pluripotent Stem Cells]] and to model [[Reprogramming]] and [[Cell Migration]] in disease contexts.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - For example, skeletal muscle injury induces the activation and release of Hepatocyte Growth Factor (HGF) from the surrounding Extracellular Matrix (ECM), which primes muscle stem cells for proliferation (Rodgers et al., 2014; Rodgers et al., 2017).
+
+
 ## Connections
 
 - [[c-Met]] — the sole receptor tyrosine kinase for HGF.

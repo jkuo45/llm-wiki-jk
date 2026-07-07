@@ -33,6 +33,17 @@ As organisms [[Aging|age]], HDAC levels and activity change, contributing to "ep
 - **Inhibitors as Therapy**: HDAC inhibitors (vorinostat, romidepsin, [[Sodium Valproate]]) are used in [[Cancer]] and investigated in [[Geroscience]] for restoring youthful expression in brain and heart.
 - **Balance with HATs**: The dynamic interplay between [[Histone Acetyltransferase|HATs]] and HDACs lets the [[Epigenome]] respond to environmental stimuli.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks|Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks]]
+    - Histone protein acetylation is catalyzed by Histone Acetyltransferase, and parallelly deacetylation process is catalyzed by Histone Deacetylase.
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - Cyclophosphamide, Diaziquone), and (2c) drugs with complex effects (Actinomycin D, Bleomycin, Temozolomide); (3) Epigenetic Modifiers that inhibit DNA Methyltransferase (Decitabine), Histone Deacetylase (Sodium Butyrate, Trichostatin A, Entinostat, Vorinost...
+
+
 ## Connections
 
 - [[HDAC]] — The common abbreviation for this enzyme family.

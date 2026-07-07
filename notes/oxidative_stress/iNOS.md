@@ -35,6 +35,14 @@ iNOS is not constitutively expressed; its transcription is induced by pro-inflam
 - **[[Diabetes Mellitus]]**: iNOS upregulation in pancreatic islets and [[Peroxynitrite]] formation damage β-cells.
 - **[[Chronic Inflammatory Diseases]]**: iNOS is elevated in [[Rheumatoid Arthritis]] synovium, inflammatory bowel disease, and [[Asthma]].
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Furthermore, SIRT1 targets the p53/MicroRNA axis to suppress inflammation, cyclooxygenase (COX)-2 and iNOS expression.
+
+
 ## Connections
 
 - [[Nitric Oxide Synthase]]: **iNOS (Inducible Nitric Oxide Synthase, NOS2)** is a calcium-independent isoform of Nitric Oxide Synthase that produ...

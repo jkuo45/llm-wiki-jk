@@ -23,6 +23,14 @@ The common pathway is characterized by the activation of **executioner caspases*
 ## Results
 The common pathway results in the morphological hallmarks of apoptosis: [[chromatin condensation]], [[membrane blebbing]], and the formation of apoptotic bodies.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - Both pathways eventually lead to a Common Pathway or the execution phase of apoptosis. A third less well-known initiation pathway is the Endoplasmic Reticulum Pathway \[\].
+
+
 ## Connections
 - [[Intrinsic Pathway]]: One of the two paths converging here.
 - [[Extrinsic Pathway]]: The other path converging here.

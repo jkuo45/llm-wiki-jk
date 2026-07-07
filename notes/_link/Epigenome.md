@@ -27,6 +27,14 @@ The epigenome is highly responsive to external factors like [[Caloric Restrictio
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks|Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks]]
+    - This review also discussed Epigenome influencing early aging and factors modulating it. Since epigenetic changes are reversible, early identification of epigenetic markers can be a hope for future geriatric medicine.
+
+
 ## Connections
 - **[[Epigenetics]]**: The study of the marks that make up the epigenome.
 - **[[Chromatin]]**: The structural framework of the epigenome.

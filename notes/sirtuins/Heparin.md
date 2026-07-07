@@ -31,6 +31,14 @@ Heparin binds to [[Antithrombin III]], inducing a conformational change that acc
 - Concurrent administration with [[Heparin]] may theoretically increase bleeding risk through additive [[Anticoagulant|anticoagulant]] and anti-platelet effects
 - Both [[Warfarin]] and Heparin drug interaction warnings mention consideration with [[Resveratrol]] supplementation
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Sirtuin System The Holy Grail of Resveratrol?|The Sirtuin System The Holy Grail of Resveratrol?]]
+    - As such, potential for bleeding may occur with concurrent administration of anticoagulants Heparin or Warfarin, and anti-platelet agents Aspirin or Plavix.
+
+
 ## Connections
 
 - [[Glycosaminoglycan]]: **Heparin** is a glycosaminoglycan [[Anticoagulant|anticoagulant]] that potentiates [[Antithrombin III]] (ATIII) acti...

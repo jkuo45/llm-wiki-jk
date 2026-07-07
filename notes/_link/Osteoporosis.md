@@ -23,6 +23,17 @@ aliases: []
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
+    - The shared aetiology of age-associated disorders, such as Atherosclerosis, Cardiovascular Disease, Osteoarthritis, Osteoporosis, Type 2 Diabetes Mellitus, Cancer and Neurodegenerative Diseases is still poorly understood (Nikolich-Žugich, 2018).
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Diseases of the motor system focus on abnormal bone metabolism and diseases resulting from skeletal muscle dysfunction, mainly including Osteoarthritis, Osteoporosis, Aging and skeletal muscle atrophy.
+
+
 ## Connections
 - [[Osteoporosis]] — related entity
 

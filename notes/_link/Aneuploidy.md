@@ -66,6 +66,17 @@ Approximately 90% of solid tumors and a substantial fraction of hematological ma
 
 Therapeutic exploitation of CIN represents an emerging frontier. Conventional agents including [[Taxanes]] and vinca alkaloids target microtubule dynamics to induce mitotic arrest and cell death in rapidly dividing tumor cells. More selective strategies include inhibitors of Aurora kinase A ([[AURKA]]) and Polo-like kinase 1 ([[PLK1]]), which regulate mitotic progression and whose inhibition preferentially kills cells with elevated CIN. Synthetic lethal approaches — targeting vulnerabilities created by specific aneuploid karyotypes, such as sensitivity to [[p53]] loss or dependence on specific signaling pathways — offer promise for precision oncology in aneuploid cancers.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - Aneuploidy Activation of TFEB has been recently reported in Aneuploidy as a cellular response to lysosomal stress following lysosomal accumulation of undegraded autophagic cargo (Santaguida & Amon 2015, Santaguida et al 2015).
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - However, during female reproductive aging, oocytes gradually begin to lose the capacity to successfully segregate their chromosomes, such that the rate of erroneous chromosome segregation and Aneuploidy as they reenter Meiosis increases markedly (Chiang et ...
+
+
 ## Connections
 
 - [[Cancer]] — Aneuploidy is present in ~90% of solid tumors and drives genomic instability and clonal evolution

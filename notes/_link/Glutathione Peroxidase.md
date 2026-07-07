@@ -30,6 +30,17 @@ GPx4's ability to directly reduce phospholipid, cholesterol, and cardiolipin hyd
 GPx activity is relevant to [[Diabetes Mellitus]]: GPx1 overexpression in mice paradoxically induces insulin resistance and [[Obesity]], likely through overquenching of $H_2O_2$ that normally serves as a signaling intermediate for insulin receptor desensitization. This exemplifies the "antioxidant paradox" — excessive antioxidant activity can disrupt beneficial redox signaling. In [[Cardiovascular Disease]], GPx1 deficiency in mice accelerates [[Atherosclerosis]], while GPx1 overexpression protects against [[Myocardial infarction]] and [[Ischemia-reperfusion Injury]]. In [[Aging]], GPx activity declines in many tissues, reducing the capacity to detoxify the accumulating hydroperoxide burden and contributing to the age-related increase in lipid and protein oxidative damage.
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - Cells deploy an antioxidant defensive system based mainly on enzymatic components, such as Superoxide Dismutase (SOD), Catalase (CAT), and Glutathione Peroxidase (GPx), to protect themselves from ROS-induced cellular damage \[\]. 2\.
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - In contrast, p53 can act as an antioxidant factor to suppress oxidative stress by regulating several redox-related proteins, such as MnSOD, Glutathione Peroxidase 1, and Jun N-terminal kinase (JNK).
+
+
 ## Connections
 - [[Glutathione]]
 - [[Oxidative Stress]]

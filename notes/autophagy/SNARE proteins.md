@@ -20,6 +20,14 @@ aliases: [soluble NSF attachment protein receptors]
 
 SNAREs ([[STX17]], [[SNAP29]], [[VAMP8]]) mediate autophagosome-lysosome fusion. STX17 is recruited to the completed [[Autophagosome]] for fusion.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Lysosome biogenesis Regulation and functions|Lysosome biogenesis Regulation and functions]]
+    - Autophagosome-specific proteins are also involved, including LC3/Atg8, Atg14, and autophagosome-related SNARE proteins (Zhao and Zhang, 2019). Notably, fusion of autophagosomes with endosomes/lysosomes is regulated by nutrients.
+
+
 ## Connections
 
 - [[Autophagosome]]: **SNARE proteins** (Soluble N-ethylmaleimide-sensitive factor attachment protein receptors) are a large family of pro...

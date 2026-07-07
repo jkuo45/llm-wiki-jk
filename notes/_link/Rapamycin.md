@@ -21,6 +21,26 @@ Rapamycin (also known as Sirolimus) is a potent immunosuppressant and [[Autophag
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
+    - Rejuvenation of immune cells by autophagy-inducing drugs, such as Rapamycin, Metformin and Spermidine, and dietary interventions (DR).
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - Finally, treatment with the TFEB/TFE3 activator Rapamycin prevents losses in mitochondrial function and restores cell viability in mitochondrially compromised human iPSC-derived dopaminergic neurons (Siddiqui et al 2015).
+
+  - [[_document_ - The autophagy enhancer spermidine reverses arterial aging|The autophagy enhancer spermidine reverses arterial aging]]
+    - Because many known autophagy inducers have off-target effects (e.g., Rapamycin) or uncertain translational promise (e.g., Caloric Restriction), there is considerable interest in natural food components or “nutraceuticals” that promote autophagy (Galluzzi an...
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - This is highlighted by the growing use of mTOR inhibitors \Rapamycin and its analogues (Rapalog)\] in pathological settings, including the treatment of solid tumors, organ transplantation, coronary restenosis and Rheumatoid Arthritis.
+
+  - [[_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease|Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease]]
+    - Mechanisms of life span extension by Rapamycin in the fruit fly Drosophila melanogaster. Cell Metab 2010;11:35‐46.
+
+
 ## Connections
 - [[Autophagy]] — cellular self-degradation pathway; clears damaged proteins and organelles
 - [[Parkinson's Disease]] — neurodegenerative disease; α-synuclein pathology; dopamine loss

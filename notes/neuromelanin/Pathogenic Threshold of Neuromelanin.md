@@ -30,6 +30,14 @@ Once the threshold is surpassed, several failure modes converge:
 
 The threshold model suggests two complementary strategies: keep neuromelanin below the ceiling, or raise the cell's capacity to handle it. Interventions might limit cytosolic dopamine auto-oxidation (via [[Vesicular Monoamine Transporter 2]] enhancement or [[Monoamine Oxidase]] modulation), boost autophagy/lysosomal function, or bolster [[Proteostasis]]. Because neuromelanin is itself a biomarker of neuronal age and identity, the threshold concept also informs interpretation of [[Positron Emission Tomography]] and MRI neuromelanin imaging as proxies for remaining dopaminergic reserve.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease|Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease]]
+    - Strong connections to strengthen: Neuromelanin ↔ Parkinson's Disease, Neuromelanin ↔ Pathogenic Threshold of Neuromelanin.
+
+
 ## Connections
 
 - [[Neuromelanin]]: The pigment whose accumulation defines the threshold.

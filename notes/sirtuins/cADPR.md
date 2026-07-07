@@ -37,6 +37,14 @@ Because CD38 has both activities, it tightly regulates the steady-state levels o
 
 In tumor microenvironments, elevated cADPR can promote cancer cell survival, migration, and proliferation (e.g., in lung cancer models). CD38-mediated cADPR accumulation and NAD⁺ depletion also foster immunosuppressive environments by empowering suppressor cells (like MDSCs and Tregs) while compromising the metabolic fitness of effector T and NK cells.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins (overview, CD38 KO risks, cancer therapies)|sirtuins (overview, CD38 KO risks, cancer therapies)]]
+    - link.springer.com CD38 Expression and Dual Roles in Cancer CD38 is a multifunctional transmembrane glycoprotein (ADP-ribosyl cyclase) involved in NAD+ Metabolism, calcium signaling (via cADPR, NAADP), and immune regulation.
+
+
 ## Connections
 
 - **[[CD38]]**: The primary enzyme responsible for both the synthesis and degradation of cADPR.

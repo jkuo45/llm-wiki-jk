@@ -56,11 +56,21 @@ FHL2 regulates osteoblast differentiation and bone formation by interacting with
 
 ---
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - Conversely, the four and a half LIM domain protein, FHL2, enhances the interaction and deacetylation of FoxO1 by SIRT1 in prostate cancer cells, and this effect has been proposed to promote tumorigenesis in response to increased stress during aging .
+
+
 ## Connections & Related Concepts
 
 - **[[SIRT1]]**: Scaffolding by FHL2 accelerates SIRT1's ability to deacetylate target proteins like FOXO1.
 - **[[FoxO1]]**: Deacetylated and suppressed in cancer cells via FHL2 scaffolding, providing a cell survival advantage.
 - **Androgen Receptor**: FHL2 acts as a co-activator of the androgen receptor, driving oncogenic programs in prostate cancer.
+
+
 
 ## Connections
 

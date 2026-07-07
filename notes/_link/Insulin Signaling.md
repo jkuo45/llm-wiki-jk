@@ -26,6 +26,14 @@ Hyperinsulinemia in [[Metabolic Syndrome]] and [[Type 2 Diabetes Mellitus]] chro
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Abnormal glucose metabolism and Insulin Signaling might cause metabolic diseases such as diabetes.[–] The roles of SIRTs in glucose metabolism have been established.
+
+
 ## Connections
 - [[Autophagy]] — cellular self-degradation pathway; clears damaged proteins and organelles
 - [[PI3K-Akt Signaling]] — interacts with Insulin Signaling

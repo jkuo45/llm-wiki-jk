@@ -59,6 +59,14 @@ Multiple sirtuins converge on the TGF-β1 pathway:
 - **[[SIRT6]]**: Suppresses TGF-β1 signalling by deacetylating H3K9 at the promoters of TGF-β target genes and by blocking SMAD3 transcriptional activity. SIRT6 activators ([[MDL-801]]) reduce fibrosis through TGF-β pathway suppression.
 - **[[SIRT7]]**: Deacetylates [[SMAD3]] and suppresses its pro-fibrotic transcriptional programme.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - found that forced expression of SIRT6 attenuated EMT by suppressing the TGF-beta1/ SMAD3 protein (Smad)3 pathway and N-terminal kinase (c-Jun) in rat models of Asthma.
+
+
 ## Connections
 
 - [[SMAD2]] / [[SMAD3]] — downstream transcriptional effectors of TGF-β1 signalling

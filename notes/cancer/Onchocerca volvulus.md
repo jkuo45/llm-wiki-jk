@@ -52,6 +52,14 @@ The clinical spectrum of onchocerciasis is driven primarily by host inflammatory
 
 **Prevention** relies on vector control (larviciding of *Simulium* breeding sites in fast-flowing rivers) and community-directed treatment with ivermectin (CDTI). No vaccine is currently available.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, ‘Wonder drug’ from Japan the human use perspective|Ivermectin, ‘Wonder drug’ from Japan the human use perspective]]
+    - It was the world’s first endectocide, forerunner of a completely new class of antiparasitic agents, potently active against a wide range of internal and external Onchocerca volvulus and arthropods.
+
+
 ## Connections
 
 - [[Onchocerciasis]]: Disease caused by *O. volvulus*, characterized by dermatitis, ocular lesions, and blindness.

@@ -31,6 +31,20 @@ aliases: [LC3, GABARAP family]
 
 Atg8 family ([[LC3]]/[[GABARAP]]/[[GATE-16]]) are ubiquitin-like proteins conjugated to PE on autophagosome membranes. They recruit cargo receptors (e.g., [[p62]]/[[NBR1]]).
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Lysosome biogenesis Regulation and functions|Lysosome biogenesis Regulation and functions]]
+    - Autophagosome-specific proteins are also involved, including LC3/Atg8, Atg14, and autophagosome-related SNARE proteins (Zhao and Zhang, 2019). Notably, fusion of autophagosomes with endosomes/lysosomes is regulated by nutrients.
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - In yeast, Atg8 or Atg13 and Atg17 are essential for the kinase activity of Atg1 whereas in mammals, LC3, which is an ortholog of Atg8, can promote the activity of Atg1 along with GATE-16 and GABARAP \[\].
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - SIRT1 forms a molecular complex with Atg5, Atg7 and Atg8, and transiently increased expression of SIRT1 is sufficient to stimulate basal rates of autophagy. SIRT1 interacts with the Cullin 4B-Ring E3 ligase complex, which promotes autophagy of cancer cells.
+
+
 ## Connections
 
 - [[Autophagosome]]: **Atg8** (Autophagy-related 8) is a ubiquitin-like protein that plays a central role in the formation and maturation ...

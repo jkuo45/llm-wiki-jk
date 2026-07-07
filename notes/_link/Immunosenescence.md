@@ -25,6 +25,17 @@ Immunosenescence refers to the gradual deterioration of the immune system associ
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
+    - Furthermore, autophagy is essential for T cell immunity and its decline with age leads to Immunosenescence (Phadwal et al., 2012; Puleston and Simon, 2014). > Drug discovery has identified numerous small compounds that can reverse age-a
+
+  - [[_document_ - The Gut Microbiome, Aging, and Longevity A Systematic Review|The Gut Microbiome, Aging, and Longevity A Systematic Review]]
+    - Keywords: Centenarians, microbes, metabolites, inflammation, Immunosenescence, Cognition, functional potential, healthy aging 1\.
+
+
 ## Connections
 - [[Immune Aging]] — interacts with Immunosenescence
 - [[Aging]] — progressive decline in physiological function; primary risk factor

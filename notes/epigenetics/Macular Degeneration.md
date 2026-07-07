@@ -27,6 +27,14 @@ Macular degeneration was the focus of the world's first clinical trial using [[I
 
 iPSC-derived RPE exemplifies the promise of [[Regenerative Medicine]] for degenerative disease and builds on earlier [[Embryonic Stem Cells|ESC]]-based retinal trials. The approach is also studied in the context of [[Rejuvenation]] and [[Drug Discovery]], where iPSC-RPE models enable screening of neuroprotective and anti-angiogenic compounds. Challenges include surgical delivery, long-term graft stability, immune rejection of allogeneic products, and cost — areas addressed by banking and [[Disease Modeling]] of patient-specific variants.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network|Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network]]
+    - Food and Drug Administration (FDA) for spinal cord injury patients ) and two forms of Macular Degeneration (ClinicalTrials.gov Identifiers NCT01345006 and NCT01344993).
+
+
 ## Connections
 - [[Retinal Pigment Epithelium]]: The RPE cell type affected and the therapeutic target generated from iPSCs.
 - [[Aging]]: The dominant risk factor for AMD.

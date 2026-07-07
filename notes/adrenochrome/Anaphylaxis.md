@@ -17,6 +17,14 @@ aliases: []
 ## Treatment
 [[Epinephrine]] is the first-line treatment for anaphylaxis. The stability and purity of epinephrine formulations (like [[EpiPen]]) are critical for ensuring efficacy during these emergencies.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - intermediates, precursor, hemoglobin|intermediates, precursor, hemoglobin]]
+    - Impurity marker: Epinephrine is a vital medication (used for Anaphylaxis, Cardiac arrest, etc.).
+
+
 ## Connections
 - [[Epinephrine]]
 - [[EpiPen]]

@@ -36,6 +36,17 @@ Unlike the largely static genome, the [[Epigenome]] is dynamic and responsive to
 
 Epigenetic dysregulation underlies [[Cancer]] (silencing of tumor suppressors, global hypomethylation), neurodevelopmental and psychiatric disorders, and metabolic disease. Epigenetic therapies (DNMT and HDAC inhibitors) are clinically approved, and epigenetic editing (dCas9-DNMT/CRISPRoff) is an active research frontier.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - The specification of the centromere region on each chromosome is achieved through the continued presence of protein-based Epigenetics.
+
+  - [[_document_ - Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks|Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks]]
+    - Over the past decades, diversified advancements in Epigenetics crescively support the fact that the accumulation of epigenetic changes accompanies the process of aging.
+
+
 ## Connections
 
 - [[Epigenome]] — The collective state of all epigenetic marks in a cell.

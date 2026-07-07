@@ -47,6 +47,14 @@ Adiponectin also activates [[PPARα]] and influences [[SIRT1]] itself, creating 
 
 Low adiponectin is a risk marker for metabolic syndrome, cardiovascular disease, and non-alcoholic fatty liver disease. Adiponectin replacement and SIRT1-activating interventions (e.g., [[Resveratrol]], caloric restriction mimetics) are explored to restore insulin sensitivity. The SIRT1–FOXO1–adiponectin axis is thus a mechanistic bridge between sirtuin biology and cardiometabolic disease prevention.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - Adiponectin, an adipocyte-derived hormone whose plasma concentrations mostly correlates inversely with adiposity, is also regulated by SIRT1.
+
+
 ## Connections
 
 - [[SIRT1]] — deacetylates FOXO1, enhancing transcription of adiponectin

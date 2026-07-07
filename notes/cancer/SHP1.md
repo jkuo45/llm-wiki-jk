@@ -25,6 +25,14 @@ SHP1 restrains hematopoietic and epithelial signaling, maintaining tolerance and
 
 SHP1 promoter methylation is a prognostic/diagnostic biomarker, and demethylating agents can restore SHP1 expression. Targeting the SHP1–Caspase-8 axis is a conceptual route to sensitize tumors to death-receptor ligands and cytotoxic therapy. SHP1 remains a key node linking immune signaling to apoptotic execution.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - Caspase-8 | | ND | Tyr310 (Tyr293) | SHP1 binding required for dephosphorylation | | | Caspase-8 |
+
+
 ## Connections
 
 - [[Caspase-8]] - Extrinsic apoptosis caspase activated by SHP1 dephosphorylation.

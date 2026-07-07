@@ -12,6 +12,14 @@ aliases: []
 
 [[Hyperbaric oxygen]] therapy involves breathing pure oxygen in a pressurized chamber. It is an adjunct treatment for severe cases of [[Methemoglobinemia]], helping to increase the amount of dissolved oxygen in the plasma when [[Hemoglobin]]-bound oxygen is insufficient.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Methemoglobin and Methemoglobinemia|Methemoglobin and Methemoglobinemia]]
+    - Alternatives/adjuncts: Ascorbic Acid (vitamin C), especially if Methylene blue contraindicated; Exchange transfusion or Hyperbaric oxygen in severe/refractory cases. 5.
+
+
 ## Connections
 - [[Methemoglobinemia]]: Used in severe or refractory cases.
 - [[Hypoxia]]: Helps alleviate tissue hypoxia by increasing dissolved oxygen.

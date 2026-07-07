@@ -51,6 +51,17 @@ TFs and the [[Epigenome]] engage in bidirectional regulation:
 - **TF decoys:** Double-stranded oligonucleotides that competitively bind TFs.
 - **dCas9-based TFs:** [[CRISPRa]] and [[CRISPRi]] to modulate endogenous gene expression without altering the genome.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - It has been demonstrated that mTORC1 positively regulates the activity of SREBP1 (SREBP1) (Porstmann et al., 2008) and of PPARγ (PPARγ) (Kim and Chen, 2004), two Transcription Factor that control the expression of genes encoding proteins involved in lipid a...
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - The p53 Transcription Factor emerges as a Scientific Concept controlling these cell fate decisions (Purvis et al., ). Funding This work was supported by a Russian Science Foundation \[grant number 14‐24‐00022\].
+
+
 ## Connections
 
 - [[Transcription Factor]]: A **Transcription Factor** (TF) is a protein that binds specific [[DNA]] sequences — typically in promoter or enhance...

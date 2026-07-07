@@ -25,6 +25,14 @@ Human cells lack GluCls; instead, inhibitory neurotransmission uses [[GABA]]_A r
 
 The GluCl mechanism is central to understanding ivermectin's safety margin when repurposed as an [[Anticancer]] agent. In mammalian tumors, ivermectin does not act via GluCls; rather, it engages host targets such as [[PAK1]], [[YAP1]], and the [[Akt]]/[[mTOR]] axis, inducing [[Apoptosis]] and [[Autophagy]] and inhibiting [[Angiogenesis]]. Recognizing that GluCls are invertebrate-specific clarifies why ivermectin's anticancer effects in humans arise from mammalian, not parasitic, pathways.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, ‘Wonder drug’ from Japan the human use perspective|Ivermectin, ‘Wonder drug’ from Japan the human use perspective]]
+    - Subsequently, they discovered that it was in fact Glutamate-gated Cl- channels that were the target of Ivermectin and related drugs.
+
+
 ## Connections
 
 - [[Ivermectin]]: Potent allosteric agonist of GluCls; invertebrate anthelmintic target.

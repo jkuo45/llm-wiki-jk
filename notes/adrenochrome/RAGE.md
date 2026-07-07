@@ -50,6 +50,14 @@ In [[Diabetes]], chronic hyperglycemia drives AGE formation, engaging RAGE to pr
 
 RAGE signaling intersects with the [[Adrenochrome Pathway]] through multiple mechanisms: (i) adrenochrome-induced [[Oxidative Stress]] promotes AGE formation via glycolysis-derived [[Dicarbonyls]], activating the AGE-RAGE inflammatory axis; (ii) RAGE activation upregulates [[NFκB]] target genes including [[COX-2]] and [[iNOS]], which amplify oxidative stress and catecholamine oxidation; and (iii) RAGE-mediated inhibition of [[Autophagy]] may impair clearance of aminochrome-damaged mitochondria. Targeting RAGE represents a strategy to break the feed-forward cycle of glycation, oxidative stress, and aminochrome accumulation in [[Aging]] and age-related diseases.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Dietary Advanced Glycation End Products and Aging|Dietary Advanced Glycation End Products and Aging]]
+    - The biological effects of AGEs are exerted by two different mechanisms: One independent of the receptor (damage of protein structure and extracellular matrix metabolism); or one involving the receptor for advanced glycation end products (RAGE) \[,\] (Figure...
+
+
 ## Connections
 
 - [[Advanced Glycation End Products]]: RAGE (Receptor for Advanced Glycation End Products) is a cell surface molecule that recognizes and binds to Advanced ...

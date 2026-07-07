@@ -73,6 +73,14 @@ STING serves multiple protective roles in host defense and homeostasis:
 
 **Autoimmune disease**: Inappropriate STING activation contributes to lupus-like autoimmunity, where self-DNA from apoptotic cells triggers chronic cGAS-STING signaling. Therapeutic strategies under development include STING antagonists (e.g., HCl-560), neutralizing antibodies, and inhibition of upstream cGAS activity.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - It was proposed that TFEB activation in TREX1-deficient cells causes an expansion of the lysosomal system, resulting in activation of STING, TBK1 and the transcription factors IRF3 and IRF7, and leading to ISGs expression (Hasan et al 2013).
+
+
 ## Connections
 
 - [[Immune System]] — STING is a core component of innate immune DNA sensing

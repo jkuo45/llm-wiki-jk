@@ -24,6 +24,23 @@ Renal cell carcinoma is a fatal malignant tumor of the urinary system derived fr
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - In contrast, TFEB is hyperactivated and plays a pathogenic role in some cancers, including Birt-Hogg-Dube syndrome (BHD) \[\], TFEB translocation Renal Cell Carcinoma \[, \], and Pancreatic Cancer \[\].
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - Renal cell carcinomas Germline mutations in multiple genes confer susceptibility to Renal Cell Carcinoma (RCC), a heterogeneous group of tumors arising from renal tubular epithelium (reviewed in (Linehan & Ricketts 2013)).
+
+  - [[_document_ - Caspase|Caspase]]
+    - Puma | Loss in Breast Cancer, Hepatocellular Carcinoma, non-small-cell lung cancer, ovarian cancer, Renal Cell Carcinoma | IKK | Ser10 | Ubiquitination and degradation | Under cont
+
+  - [[_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug|Ivermectin, a potential anticancer drug derived from an antiparasitic drug]]
+    - Urinary system cancer Renal Cell Carcinoma is a fatal malignant tumor of the urinary system derived from renal tubular epithelial cells.
+
+
 ## Connections
 - [[Ivermectin]]: Selectively inhibits renal cancer cell proliferation.
 - [[ATP]]: Production is inhibited by ivermectin in renal cancer cells.

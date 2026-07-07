@@ -33,6 +33,14 @@ Busulfan is administered orally or intravenously and undergoes extensive hepatic
 
 Busulfan is a standard agent for inducing cellular [[Senescence]] in vitro. Sublethal treatment of fibroblasts, epithelial cells, or mesenchymal stem cells produces a stable senescent phenotype within 48–72 hours, marked by senescence-associated β-galactosidase (SA-β-gal) activity, [[p21]] upregulation, and SASP secretion. This model studies the DNA damage response (DDR), senescence-escape mechanisms, and senolytic screening. Unlike ionizing radiation or etoposide, busulfan produces predominantly cross-link lesions rather than strand breaks, offering a distinct DNA-damage modality for comparative senescence research.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - DNA‐damaging agents, including (2a) DNA Topoisomerase Inhibitors (Doxorubicin, Etoposide, Daunorubicin, Mitoxantrone, Camptothecin), (2b) DNA Cross-linkers (Cisplatin, Mitomycin C, Busulfan, Cyclophosphamide, Diaziquone), and (2c) drugs with complex effects...
+
+
 ## Connections
 
 - [[DNA Damage]]: Busulfan induces interstrand DNA cross-links at guanine N7, triggering the DNA damage response.

@@ -26,6 +26,17 @@ The **Intrinsic Pathway**, also known as the **mitochondrial pathway** of [[Apop
 - **Bcl-2 family**: Acts as the primary gatekeeper at the mitochondrial level.
 - **IAPs**: [[XIAP]] can inhibit both [[Caspase-9]] and [[Caspase-3]] in this pathway.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - The two commonly described initiation pathways are the Intrinsic Pathway and Extrinsic Pathway pathways of apoptosis (Figure 1). Both pathways eventually lead to a Common Pathway or the execution phase of apoptosis.
+
+  - [[_document_ - Evading apoptosis in cancer|Evading apoptosis in cancer]]
+    - There are two routes to Apoptosis: Extrinsic Pathway and Intrinsic Pathway.
+
+
 ## Connections
 - [[Extrinsic Pathway]]: Both pathways converge at the [[Common Pathway]] (caspase-3).
 - [[Apoptosis]]: The primary internal mechanism for programmed cell death.

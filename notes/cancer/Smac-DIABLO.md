@@ -24,6 +24,14 @@ By binding to the BIR domains of IAPs, Smac/DIABLO prevents IAPs from inhibiting
 ## Smac Mimetics
 The discovery of Smac/DIABLO has led to the development of **Smac mimetics** (e.g., [[SM-164]]), which are small molecules designed to mimic its IAP-binding properties. These mimetics are being investigated as potent anticancer agents to sensitize tumor cells to apoptosis.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Evading apoptosis in cancer|Evading apoptosis in cancer]]
+    - In the Intrinsic Pathway of Apoptosis, MOMP is involved; MOMP triggers the release of a group of pro-apoptotic proteins, including Cytochrome c and Smac-DIABLO, from the mitochondrial intermembrane space to the cytoplasm (Figure 1).
+
+
 ## Connections
 - [[Inhibitor of Apoptosis Proteins]]: Smac/DIABLO is the primary endogenous antagonist of IAPs.
 - [[XIAP]]: Smac/DIABLO directly binds and neutralizes XIAP.

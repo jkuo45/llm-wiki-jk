@@ -49,6 +49,14 @@ Targeted therapies have had a modest but meaningful impact in molecularly define
 
 Several investigational strategies are being explored. KRAS G12C inhibitors ([[Sotorasib]], [[Adagrasib]]) have shown activity in the small subset (~1–2%) of PDAC harboring this specific mutation. Stromal-targeting approaches aim to normalize the tumor vasculature and improve drug delivery, including [[Hyaluronidase]] (PEGPH20) and hedgehog pathway inhibitors, though clinical results have been mixed. mRNA-based personalized neoantigen vaccines, in combination with checkpoint inhibitors, represent a promising frontier in harnessing adaptive immunity against PDAC. Adoptive cell therapies, oncolytic viruses, and strategies to reprogram the tumor microenvironment are under active investigation.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - PDA, the most common and highly lethal pancreatic cancer, may be a case in point. Pancreatic ductal adenocarcinoma PDA tumors exhibit high basal Autophagy, which appears to be a prerequisite for the tumorigenic growth (Yang et al 2011b).
+
+
 ## Connections
 
 - [[Autophagy]] — Plays a dual role in PDAC; KRAS-driven autophagy supports tumor metabolism and survival; hydroxychloroquine (autophagy inhibitor) is being investigated as an adjunct to chemotherapy

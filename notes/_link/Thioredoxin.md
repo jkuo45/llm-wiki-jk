@@ -19,6 +19,14 @@ aliases: [Trx, TXN]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - For example, levels of MnSOD, Thioredoxin1, and Bcl-xL (an anti-apoptotic molecule) are significantly decreased in cardiomyocytes from individuals with advanced Heart Failure.
+
+
 ## Connections
 - [[Glutathione]] — Parallel thiol antioxidant system
 - [[Oxidative Stress]] — Trx is central to redox balance

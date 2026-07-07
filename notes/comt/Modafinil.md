@@ -29,6 +29,14 @@ Modafinil improves vigilance, reduces fatigue-related errors, and enhances certa
 
 Beyond sleep disorders, modafinil is studied in [[ADHD]], depression-related fatigue, and [[Schizophrenia]] cognitive deficits. The COMT genotype is a candidate biomarker for personalizing dosing. Side effects (headache, insomnia, anxiety, rare skin hypersensitivity) are more common in slow-COMT individuals at higher doses.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - Modafinil: Modafinil, a prescription drug for Narcolepsy, is also popularly used as a Nootropic off-label. Modafinil seems to work by increasing dopaminergic neurotransmission, which depends on COMT.
+
+
 ## Connections
 
 - [[COMT]]: Enzyme modulating dopaminergic response to modafinil.

@@ -29,6 +29,14 @@ Through mass administration, Mectizan prevents the morbidity that characterizes 
 
 Mectizan remains essential to WHO elimination goals and is among the most widely distributed donated medicines in history. Its extensive safety database supports exploratory oncology trials and combination studies. Formulation and dosing for cancer indications (where higher, sustained exposure may be needed) are active research questions distinct from the single-dose antiparasitic paradigm.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, ‘Wonder drug’ from Japan the human use perspective|Ivermectin, ‘Wonder drug’ from Japan the human use perspective]]
+    - Following the registration of Ivermectin (produced under the brand name Mectizan ®) for human use in 1987, in a hitherto unprecedented move and with unheralded commitment, Mectizan ® was donated by the manufacturing company, Merck & Co.
+
+
 ## Connections
 
 - [[Ivermectin]] - The active molecule marketed as Mectizan.

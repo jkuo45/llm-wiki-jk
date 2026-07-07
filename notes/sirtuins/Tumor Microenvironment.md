@@ -57,6 +57,14 @@ Anti-CD38 therapies ([[Daratumumab]], [[Isatuximab]]) can reshape the TME by:
 - **Adenosine pathway**: CD73 inhibitors, A2A receptor antagonists
 - **CAR-T cell therapies**: Engineered to resist TME-mediated exhaustion
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins (overview, CD38 KO risks, cancer therapies)|sirtuins (overview, CD38 KO risks, cancer therapies)]]
+    - Cancer context is mixed: Inhibiting CD38 can help in some Tumor Microenvironment (reducing immunosuppression), but CD38 has complex roles; no clear pro-cancer signal in aging mouse studies, but caution is needed.
+
+
 ## Connections
 
 - [[CD38]] — expressed on TME immunosuppressive cells; major target

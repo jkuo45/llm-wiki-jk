@@ -18,6 +18,14 @@ aliases: []
 ## Application
 It is used for the highly sensitive and specific identification of catecholamine metabolites and impurities like [[Leuco-adrenochrome]] in complex biological or pharmaceutical samples.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - intermediates, precursor, hemoglobin|intermediates, precursor, hemoglobin]]
+    - By using HPLC (High-Performance Liquid Chromatography) or LC-MS (Liquid Chromatography-Mass Spectrometry), analysts compare the peaks in a commercial Epinephrine sample against the Reference standard to ensure that the medication is pure and safe for clinic...
+
+
 ## Connections
 - [[HPLC]]
 - [[Mass Spectrometry]]

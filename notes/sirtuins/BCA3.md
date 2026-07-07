@@ -47,10 +47,20 @@ BCA3 expression is frequently altered in various human cancers:
 
 ---
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - A study shows that the breast cancer associated protein, BCA3, when neddylated (modified by NEDD8) interacts with SIRT1 and suppress NF-k
+
+
 ## Connections & Related Concepts
 - **[[SIRT1]]**: Directly recruited by neddylated BCA3 to deacetylate and repress NF-κB.
 - **[[NFKB|NF-κB (RelA/p65)]]**: Suppressed downstream of the neddylated BCA3-SIRT1 complex.
 - **Neddylation (NEDD8)**: The essential post-translational modification that licenses BCA3 to engage with SIRT1 and repress transcription.
+
+
 
 ## Connections
 

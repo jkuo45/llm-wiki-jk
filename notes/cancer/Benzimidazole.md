@@ -39,6 +39,14 @@ Preclinical studies report activity against glioblastoma, colorectal, breast, an
 
 Electron-withdrawing substituents at the 2-position and hydrophobic groups at 5/6 enhance tubulin affinity. The carbamate side chain of albendazole/mebendazole is critical for anthelmintic but not strictly required for antitumor activity, enabling chemically tailored derivatives.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Oral Fenbendazole for Cancer Therapy in Humans and Animals|Oral Fenbendazole for Cancer Therapy in Humans and Animals]]
+    - Mentioned in this document
+
+
 ## Connections
 
 - [[Albendazole]], [[Mebendazole]], [[Fenbendazole]]: Key drug derivatives.

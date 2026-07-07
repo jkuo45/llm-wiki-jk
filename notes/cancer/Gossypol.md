@@ -21,6 +21,14 @@ Gossypol acts as a natural BH3 mimetic. it binds to the hydrophobic grooves of a
 ## Clinical Potential
 A derivative of gossypol, AT-101, has entered phase II clinical trials for the treatment of [[leukemia|chronic lymphocytic leukaemia]]. It is also investigated for its ability to sensitize various solid tumors to chemotherapy and radiation.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - Molecules reported to act on the proteins themselves include Gossypol, ABT-737, ABT-263, GX15-070 and HA14-1Kang and Reynold, 2009 BH3 mimeti
+
+
 ## Connections
 - [[Bcl-2 family]]: A natural small molecule inhibitor of this family.
 - [[Mcl-1]]: One of the few agents that can target Mcl-1.

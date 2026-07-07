@@ -27,6 +27,14 @@ Although HPP+ is a minor metabolite, its potent mechanism explains why chronic [
 ## Pathology and Research Implications
 HPP+ is a valuable experimental surrogate for MPP+ in studies of selective dopaminergic neurotoxicity, allowing dissection of transporter dependence and mitochondrial mechanisms without the blood-brain-barrier complexities of MPTP. Its existence cautions that drugs targeting the dopaminergic system may, via bioactivation, secondarily damage the very neurons they do not intend to. Research continues into whether HPP+ contributes to long-term motor complications (e.g., tardive dyskinesia) and whether DAT blockers or mitochondrial protectants can mitigate haloperidol toxicity. The HPP+/MPP+ analogy reinforces the centrality of complex I inhibition and [[Neuromelanin]] neuron selectivity in parkinsonian neurodegeneration.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator|Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator]]
+    - Quinones, Dopamine o-quinone, Aminochrome, 5,6-indolequinone, Alpha-synuclein, Endoplasmic Reticulum Stress, Catecholamines, Substantia Nigra, Epinephrine, Indole, Vesicular Monoamine Transporter 2, Neurotransmission, Tyrosine Hydroxylase, Addiction, Synapt...
+
+
 ## Connections
 - [[Haloperidol]]: Parent antipsychotic from which HPP+ is bioactivated.
 - [[MPP+]]: Structural and mechanistic twin toxin from MPTP.

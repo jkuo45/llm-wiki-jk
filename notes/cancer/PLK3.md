@@ -25,6 +25,14 @@ Physiologically, PLK3 enforces cell-cycle checkpoints and promotes elimination o
 
 PLK3 is studied as a prognostic marker (low expression often portends poor outcome) and as a therapeutic concept: agents that induce PLK3 or mimic its pro-apoptotic phosphorylation of [[Bcl-xL]] and activation of [[p53]] could augment [[Chemotherapy]] and radiation responses. Distinguishing PLK3's tumor-suppressive role from PLK1's oncogenic role is crucial when designing Polo-kinase-targeted strategies.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - Colon Cancer | | Bcl-xL | Amplification in non-small-cell lung cancer, Pancreatic Cancer, Breast Cancer, ovarian cancer | PLK3 | Ser49 | Cell cycle (G2) arrest | Lymphoma | | Bcl-xL |
+
+
 ## Connections
 
 - [[Apoptosis]] - Stress-induced cell death promoted by PLK3.

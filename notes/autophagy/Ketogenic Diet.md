@@ -31,6 +31,14 @@ A **Ketogenic Diet** is a high-fat, adequate-protein, low-carbohydrate dietary r
 
 KD induces [[Ketogenesis]], increases β-hydroxybutyrate, and activates [[Autophagy]] via HDAC inhibition and [[FOXO]] signaling. It has therapeutic potential in epilepsy and neurodegeneration.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - Interestingly, Icard and coworkers \[\] claimed that nonisocaloric Ketogenic Diet can contribute to conflicting effects in patients undergoing calorie restriction and radiotherapy compared with patients fed isocaloric diets.
+
+
 ## Connections
 
 - [[Ketogenesis]]: ## Metabolic State - The diet mimics the metabolic state of fasting by inducing Ketogenesis.

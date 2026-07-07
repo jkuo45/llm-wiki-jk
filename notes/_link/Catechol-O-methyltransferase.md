@@ -23,6 +23,17 @@ aliases: [COMT]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - The COMT gene encodes an enzyme called Catechol-O-methyltransferase, which breaks down Catechols. What are catechols — and why do we need to break them down? Catechols include Neurotransmitters such as Dopamine, Epinephrine, and Norepinephrine.
+
+  - [[_document_ - Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum|Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum]]
+    - The Catechol-O-methyltransferase (COMT) enzyme degrades Catecholamines, including Dopamine.
+
+
 ## Connections
 - [[Catechol-O-methyltransferase]] — related entity
 

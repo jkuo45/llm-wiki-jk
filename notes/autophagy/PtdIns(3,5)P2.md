@@ -28,6 +28,14 @@ PtdIns(3,5)P2 acts as a membrane identity mark that recruits effector proteins a
 
 Because PtdIns(3,5)P2 is indispensable for lysosomal morphology and reformation, its dysregulation underlies human disease: FIG4 mutations cause Charcot-Marie-Tooth type 4J and Yunis-Varon syndrome, and PIKfyve dysfunction produces fleck cornea with pigmented maculopathy—both manifesting as [[Lysosomal Storage Disorders]]. Defective PtdIns(3,5)P2 signaling collapses autophagic clearance, contributing to [[Neurodegeneration]] and proteostatic failure in [[Aging]]. Pharmacologically, PIKfyve inhibitors such as apilimod raise PtdIns(3)P while depleting PtdIns(3,5)P2, disrupting lysosomal reformation and exhausting lysosomes in [[Cancer]] cells to amplify therapy-induced stress. Thus PtdIns(3,5)P2 is both a disease locus and a therapeutic interface bridging lipid signaling to the autophagy-lysosome network.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Lysosome biogenesis Regulation and functions|Lysosome biogenesis Regulation and functions]]
+    - To deliver endosomal proteins to lysosomes, early endosomes undergo conversion to late endosomes, which is marked by switching of the early endosome–specific Rab5 and PtdIns3P to late endosome-specific Rab7 and PtdIns(3,5)P2; Gillooly et al., 2000; Huotari ...
+
+
 ## Connections
 
 - [[PIKfyve]]: Lipid kinase that synthesizes PtdIns(3,5)P2 from PtdIns3P.

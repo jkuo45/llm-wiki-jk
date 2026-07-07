@@ -37,6 +37,14 @@ UCP2 is highly expressed in the central nervous system, where it plays a neuropr
 
 Beyond β-cells and neurons, UCP2 modulates immune cell metabolism, macrophage inflammatory polarization, and fatty acid oxidation. Its dual roles — coupling efficiency in endocrine pancreas versus redox protection in brain — make UCP2 a versatile node in the [[NAD+]]–sirtuin metabolic network and a participant in [[Aging]] and longevity physiology.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - The mechanism appears to be through SIRT1-mediated transcriptional repression of the UCP2 (uncoupling protein 2) gene, which encodes a mitochondrial inner membrane protein that uncouples O2 consumption from ATP generation and generates heat.
+
+
 ## Connections
 
 - [[SIRT1]] — transcriptionally represses UCP2 to enhance ATP production and insulin secretion

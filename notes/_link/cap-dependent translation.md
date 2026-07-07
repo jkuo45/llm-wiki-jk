@@ -23,6 +23,14 @@ aliases: []
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - The phosphorylation of 4E-BP1 prevents its binding to eIF4E, enabling eIF4E to promote cap-dependent translation (reviewed by Richter and Sonenberg, 2005). The stimulation of S6K1 activity by mTORC1 leads to increases in mRNA biogenesi
+
+
 ## Connections
 - [[cap-dependent translation]] — related entity
 

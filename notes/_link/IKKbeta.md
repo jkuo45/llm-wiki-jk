@@ -30,6 +30,14 @@ IKKβ is a therapeutic target for [[Inflammatory Diseases]] ([[Rheumatoid Arthri
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - Pro-inflammatory Cytokines, such as TNFα, activate IKKbeta, which physically interacts with and inactivates TSC1, leading to mTORC1 activation (Lee et al., 2007).
+
+
 ## Connections
 - [[NFκB]] — IKKβ phosphorylates IκBα to activate NF-κB
 - [[IkappaBalpha]] — direct substrate of IKKβ; phosphorylation triggers its degradation

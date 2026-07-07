@@ -107,6 +107,38 @@ mTORC1 hyperactivation is a conserved driver of [[Aging]]. Genetic or pharmacolo
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
+    - The core process of autophagy is instigated by inhibition of mTORC1 and/or activation of AMPK (AMPK), both of which are canonical inducers of autophagy in response to metabolic stress.
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - The mechanistic target of rapamycin complex 1 (mTORC1), an atypical serine/threonine kinase, controls the balance between anabolism and catabolism and responds to various signals, including nutrients \[\].
+
+  - [[_document_ - Kinase|Kinase]]
+    - M on TFEB | References (PMID) | | ----------------------------------- | ----------------- | --------------- | -------------------------------------------------------------------------------------------- | ----------------- | | S211 | Phosphorylation | mTORC...
+
+  - [[_document_ - Lysosome biogenesis Regulation and functions|Lysosome biogenesis Regulation and functions]]
+    - mTORC1 is recruited to lysosomes by a heterodimeric complex consisting of GTP-bound RagA/B and GDP-bound RagC/D, where it is activated by the Rheb GTPase (Angarola and Ferguson, 2019; Kim et al., 2008; Menon et al., 2014; Sancak et al., 2010; Sancak et al.,...
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - Lysosome are also the site of activation of mTORC1, an evolutionary conserved serine/threonine kinase that regulates cell growth and division in response to energy levels, growth signals, and nutrients.
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - In such conditions, the AMPK activity inhibits mTORC1 and protein synthesis to minimize ATP consumption by controlling Anabolic and Catabolic processes \[\].
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - mTOR nucleates at least two distinct multi-protein complexes, mTORC1 and mTORC2 (mTORC2) (reviewed by Guertin and Sabatini, 2007). mTORC1 mTORC1 has five components: mTOR, which is the catalytic subunit of the
+
+  - [[_document_ - Evading apoptosis in cancer|Evading apoptosis in cancer]]
+    - In this regard, it was also shown that _Mcl-1_ mRNA translation could be facilitated by mTORC1 (mammalian target of rapamycin complex 1), a downstream target of PI3K/Akt signaling, in a mouse lymphoma model (Figure 2) \[\].
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - In addition, cell proliferation due to repression of SIRT4 by the mTORC1 pathway has been identified.
+
+
 ## Connections
 - [[mTOR]] — catalytic core of mTORC1; directly inhibited by rapamycin-FKBP12
 - [[mTORC2]] — the second mTOR complex; insensitive to acute rapamycin, regulates Akt and cytoskeletal dynamics

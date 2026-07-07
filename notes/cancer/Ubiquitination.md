@@ -50,6 +50,20 @@ Dysregulated ubiquitination is a hallmark of many diseases, particularly cancer:
 - **DUBs in cancer** — [[USP9X]] overexpression correlates with elevated [[Mcl-1]] levels and chemoresistance in B-cell malignancies and solid tumors. [[USP7]] hyperactivation stabilizes MDM2, amplifying p53 suppression. [[USP14]] and [[UCHL5]] are associated with enhanced proteasomal degradation of pro-apoptotic proteins.
 - **Therapeutic targeting** — The [[Proteasome]] inhibitors [[Bortezomib]] and [[Ixazomib]] are approved frontline therapies for [[Multiple Myeloma]], inducing ER stress and apoptosis by blocking proteasomal degradation of pro-apoptotic [[IκBα]], [[NOXA]], and misfolded immunoglobulins. [[PROTACs]] (proteolysis-targeting chimeras) are bifunctional molecules that recruit an E3 ligase to a target protein, inducing its ubiquitination and degradation — a rapidly growing therapeutic modality for "undruggable" targets such as [[AR]], [[BRD4]], and [[STAT3]].
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - PTM The activity and subcellular localization of TFEB are mainly regulated by PTM, including Phosphorylation \[\], Acetylation \[\], Ubiquitination \[\], PARsylation \[\], SUMOylation \[\], Glucosylation \[\], Oxidation \[, \] and S-sulfhydration \[\].
+
+  - [[_document_ - Caspase|Caspase]]
+    - Bim | | ERK, JNK | Ser69 | Ubiquitination/degradation (promotes S93/94/98 by RSK) | non-small-cell lung can
+
+  - [[_document_ - Evading apoptosis in cancer|Evading apoptosis in cancer]]
+    - Post-translational regulation Various apoptotic regulators are modulated not only by transcriptional/translational machinery but also by post-translational modifications, including Ubiquitination and Phosphorylation.
+
+
 ## Connections
 
 - [[PROTAC]] — Therapeutic modality hijacking E3 ligases for targeted protein degradation

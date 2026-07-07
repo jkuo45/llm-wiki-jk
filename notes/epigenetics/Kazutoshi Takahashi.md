@@ -26,6 +26,14 @@ Takahashi's experimental approach — including the rigorous validation of pluri
 
 The iPSC discovery was recognized with the 2012 Nobel Prize in Physiology or Medicine, awarded to Yamanaka (shared with [[John Gurdon]] for somatic cell nuclear transfer). Takahashi, as first author of the landmark papers, is widely credited as the co-discoverer of iPSCs. His contributions underpin modern [[Disease Modeling]], [[Drug Discovery]], and [[Regenerative Medicine]], as well as later advances such as [[Partial Reprogramming]] for [[Rejuvenation]]. He continues research on reprogramming mechanisms and the epigenetic basis of pluripotency at Kyoto University.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic|Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic]]
+    - Shinya Yamanaka and Kazutoshi Takahashi discovered the core transcriptional factors required for rep
+
+
 ## Connections
 - [[Shinya Yamanaka]]: His mentor and Nobel-sharing senior investigator; co-developer of iPSC technology.
 - [[Yamanaka Factors]]: The four transcription factors he empirically identified as sufficient for reprogramming.

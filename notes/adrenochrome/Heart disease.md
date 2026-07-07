@@ -60,6 +60,14 @@ The adrenochrome hypothesis proposes that oxidation products of catecholamines, 
 
 **Secondary prevention** after a cardiovascular event (e.g., myocardial infarction, revascularization) is more aggressive: high-intensity statins, dual antiplatelet therapy (aspirin plus P2Y12 inhibitor for 6–12 months post-event), β-blockers, ACE inhibitors or ARBs, and mineralocorticoid receptor antagonists in heart failure with reduced ejection fraction. Cardiac rehabilitation programs combining supervised exercise, risk factor management, and psychosocial support significantly reduce mortality.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Adrenochrome Pathway|The Adrenochrome Pathway]]
+    - The Adrenochrome Pathway: ITS POTENTIAL SIGNIFICANCE IN STRESS INDUCED Heart disease Stephanie B. Matthews, Royal Gwent Hospital and Anthony K.
+
+
 ## Connections
 
 - [[Myocardial infarction]] — acute thrombosis of a coronary artery causing irreversible cardiomyocyte death; the most critical acute manifestation of heart disease.

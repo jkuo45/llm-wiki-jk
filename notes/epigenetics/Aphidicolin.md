@@ -29,6 +29,14 @@ Aphidicolin is widely used to induce **replication stress** — a condition of s
 
 While not used therapeutically, aphidicolin has served as a critical chemical probe to understand the etiology of genomic instability in [[Cancer]]. Tumors with high replication stress (e.g., [[MYC]]-amplified, [[RB1]]-deficient) are selectively sensitized to aphidicolin, and the compound has been used preclinically to identify vulnerabilities in [[DNA Repair]] pathways. Aphidicolin-mediated replication stress models are also relevant to studies of [[Fanconi Anemia]], [[Bloom Syndrome]], and other genome instability disorders.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - These chemical compounds can be functionally classified into eight groups: (1) DNA Replication Stress inducers (Aphidicolin, Hydroxyurea, Thymidine, Bromodeoxyuridine, Gemcitabine, Cyclopenten
+
+
 ## Connections
 
 - [[DNA Replication]] — Aphidicolin blocks Pol α/δ elongation, the core replication process.

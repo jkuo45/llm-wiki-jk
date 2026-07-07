@@ -52,6 +52,14 @@ In healthy individuals, glutamine is vital for:
 - **Critical Illness**: Glutamine supplementation is often used in clinical settings (e.g., for patients with severe burns or trauma) to support immune function and gut health.
 - **Cancer Therapy**: Targeting glutamine metabolism (e.g., using [[Glutaminase]] inhibitors like [[CB-839]]) is an active area of research in [[Oncology]].
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - It was recently shown that leucine, an essential amino acid required for mTORC1 activation, is transported into cells in a Glutamine-dependent fashion (Nicklin et al., 2009). Glutamine, which is imported into cells through SLC1A5 \[solute carrier family
+
+
 ## Connections
 
 - [[Glutamate]] - Immediate precursor; converted via [[Glutamine Synthetase]].

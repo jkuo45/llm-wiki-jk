@@ -29,6 +29,17 @@ The regional complementarity between DAT and COMT is a key principle of catechol
 - **Striatum:** DAT is the dominant dopamine clearance mechanism; COMT plays a secondary role.
 - **Prefrontal Cortex:** DAT is sparse; COMT and NET are the primary regulators of extracellular dopamine.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum|Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum]]
+    - Although we detected no changes in the level of markers for Dopamine synthesis and Dopamine Transporter, we found that COMT-OE mice display an increase in Dopamine release capacity in the Sirtuins.
+
+  - [[_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator|Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator]]
+    - Released Dopamine is taken up through a Dopamine Transporter (DAT).
+
+
 ## Connections
 
 - [[Dopamine]]: The neurotransmitter transported by DAT.

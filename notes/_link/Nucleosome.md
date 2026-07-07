@@ -26,6 +26,20 @@ The tails of the histones within the nucleosome are subject to various [[Histone
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - The key players in marking this site on each chromosome are specialized Nucleosome containing the Histone Variant, CENP-A.
+
+  - [[_document_ - Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks|Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks]]
+    - This packaged unit form the functional unit of chromatin called Nucleosome which contains approximately 147 base pairs. Histone octamer inside the nucleosome structure undergoes modification which can either cause activation or repression of gene expression.
+
+  - [[_document_ - Epigenetic changes during aging and their reprogramming potential|Epigenetic changes during aging and their reprogramming potential]]
+    - com/scholar_lookup-associatedheterochromatinfoci-2358&doi=&)\] Linking Summary: - New links added: Heterochromatin, Nucleosome, CpG Island, SIRT1, H3K9me3, H3K27me3, H3K4me3, HP1, Lamin A, macroH2
+
+
 ## Connections
 - **[[Chromatin]]**: The higher-order structure formed by chains of nucleosomes.
 - **[[Histone Modification]]**: The chemical changes that occur on the nucleosome's proteins.

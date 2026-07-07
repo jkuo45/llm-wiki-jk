@@ -23,6 +23,14 @@ The dual deficiency of arylsulfatases (causing features of [[Metachromatic Leuko
 
 [[TFEB]] activation has been proposed to augment lysosomal exocytosis and reduce storage burden. Enzyme replacement and gene therapy strategies are preclinical.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - Overexpression of TFEB stimulated lysosomal exocytosis and promoted cellular clearance in several Lysosomal Storage Diseases cell models: Mucopolysaccharidosis-IIIA (Sanfilippo syndrome); Multiple Sulfatase Deficiency (MSD); Neuronal Ceroid Lipofuscinosis (...
+
+
 ## Connections
 
 - [[Lysosomal Storage Diseases]]: A rare lysosomal storage disease caused by the lack of all known sulfatase enzymes; treated in models with [[TFEB]].

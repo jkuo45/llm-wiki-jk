@@ -23,6 +23,14 @@ aliases: []
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - Furthermore, Histamine levels in plasma following an allergic trigger were reduced in TFE3 knockouts, suggesting that TFE3 is an important mediator of allergic response (Yagil et al 2012).
+
+
 ## Connections
 - [[Histamine]] — related entity
 

@@ -40,6 +40,14 @@ Despite its therapeutic promise, studies using 78c and genetic CD38 knockouts ha
 - **Sex-Specific Adverse Reactions:** In some long-term studies, aged female mice exhibited severe adverse events leading to early euthanasia, suggesting sex-specific hormonal, metabolic, or immunological interactions.
 - **Immune Compromise:** Because CD38 plays a crucial role in immune cell activation and host defense against pathogens, systemic pharmacologic inhibition could potentially raise susceptibility to specific bacterial or viral infections.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins (overview, CD38 KO risks, cancer therapies)|sirtuins (overview, CD38 KO risks, cancer therapies)]]
+    - pmc.ncbi.nlm.nih.gov +1 - Chronic inhibition (especially systemic/small-molecule) might mimic some of this, though enzymatic inhibitors (like CD38 inhibitor 78c) differ from depleting antibodies.
+
+
 ## Connections
 
 - **[[CD38]]**: Target enzyme directly inhibited by 78c.

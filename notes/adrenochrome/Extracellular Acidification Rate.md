@@ -15,6 +15,14 @@ aliases: []
 
 **Extracellular Acidification Rate (ECAR)** is a measure of the rate of proton efflux from cells into the surrounding medium, primarily serving as an indicator of glycolytic activity and metabolic state.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - mitohormesis|mitohormesis]]
+    - Use a Seahorse XF Analyzer to monitor Oxygen Consumption Rate and Extracellular Acidification Rate. Objective: Identify the specific ratio where MB successfully buffers the bioe
+
+
 ## Connections
 
 - [[Glycolysis]]

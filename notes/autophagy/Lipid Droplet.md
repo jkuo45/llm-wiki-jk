@@ -27,6 +27,14 @@ aliases: []
 
 Lipid droplets are lipid storage organelles surrounded by a phospholipid monolayer. They are degraded by [[Lipophagy]] during fasting.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - Cells accumulate fat in the form of triglycerides (TGs) in specialized organelles named Lipid Droplet. Fasting triggers TGs breakdown into fatty acids that are eventually imported into Mitochondria and incorporated into the TCA cycle to produce ATP.
+
+
 ## Connections
 
 - [[ATGL]]: ## Degradation Pathways - **Cytosolic Lipolysis**: Carried out by neutral lipases like ATGL (Adipose Triglyceride Lip...

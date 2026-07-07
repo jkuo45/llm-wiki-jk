@@ -21,6 +21,14 @@ Ischemia-reperfusion injury (IRI) involves ATP depletion, oxidative stress, Ca2+
 
 [[Trehalose]], [[Spermidine]], and [[Melatonin]] activate autophagy and protect against IRI in heart, brain, liver, and kidney preclinical models.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - Targeted regulation of TFEB has been victoriously used as a treatment strategy in several disease models such as ischemic injury, Lysosomal Storage Disorders (LSDs), cancer, metabolic disorders, Neurodegenerative Diseases, and Inflammation.
+
+
 ## Connections
 
 - [[TFEB]]: Ischemic injury is tissue damage caused by a restriction in blood supply; activation of TFEB has been shown to be pro...

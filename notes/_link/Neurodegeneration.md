@@ -37,6 +37,14 @@ Current therapeutic approaches aim to break the cycle of oxidative damage and ne
 - Strong connections to strengthen: [[Oxidative Stress]] ↔ [[Neurodegeneration]], [[Neurodegeneration]] ↔ [[Oxidative Stress]]
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review|sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review]]
+    - SIRT1 activation delays Neurodegeneration progression (Gräff et al. ).
+
+
 ## Connections
 - [[Oxidative Stress]]: A primary cause and consequence of neuronal damage.
 - [[Lipid Peroxidation]]: Brain tissue is rich in polyunsaturated fats, making it a major target.

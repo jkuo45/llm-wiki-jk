@@ -26,6 +26,14 @@ Metabolic reprogramming creates vulnerabilities that can be targeted:
 - Targeting glycolytic enzymes like [[Hexokinase 2]] and [[Pyruvate Kinase M2]].
 - Compounds like [[Fenbendazole]] are being studied for their ability to interfere with these metabolic shifts.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Oral Fenbendazole for Cancer Therapy in Humans and Animals|Oral Fenbendazole for Cancer Therapy in Humans and Animals]]
+    - Mentioned in this document
+
+
 ## Connections
 - **Related Processes:** [[Warburg Effect]], [[Glycolysis]], [[Oxidative Stress]], [[Hypoxia]]
 - **Key Molecules:** [[Glucose]], [[Glutamine]], [[Lactate]], [[ATP]], [[NADPH]]

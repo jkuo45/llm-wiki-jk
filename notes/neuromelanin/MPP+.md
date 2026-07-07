@@ -32,6 +32,17 @@ Dopaminergic neurons containing [[Neuromelanin]] are more susceptible to MPP⁺ 
 
 MPP⁺ is the gold-standard chemical lesion for PD models, used to screen [[Neuroprotection]] agents and dissect nigral pathology. DAT inhibitors and [[Complex I]] protectants block its action. The MPP⁺/MPTP paradigm established the mitochondrial hypothesis of PD and validated [[Neurotoxin]]-based modeling.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease|Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease]]
+    - in Nikolaevich Tretiakoff]], Pale Bodies, Immunoglobulin G, Major histocompatibility complex class I, Lipofuscin, Eumelanin, Pheomelanin, L-Tyrosine, TFEB, Ambroxol, p62, Ubiquitin, Bradykinesia, Iron, Tyrosinase-related protein-1, Tyrosinase-related protei...
+
+  - [[_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator|Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator]]
+    - MPTP (1-methyl-4-phenyl-1,2,3,6-tetrahydropyridine) for example is believed to induce its Parkinsonian-inducing effects after first being converted to methyl-phenyl-pyridinium ion (MPP+) by the enzyme Monoamine oxidase B in nearby Glial cells (Singer et al....
+
+
 ## Connections
 
 - [[MPTP]] - parent prodrug converted to MPP⁺ by MAO-B.

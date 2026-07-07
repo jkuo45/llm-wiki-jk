@@ -26,6 +26,17 @@ Oxidation is both a normal metabolic fate and a pathological liability for catec
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - US4501923A - Process for preparing adrenochrome|US4501923A - Process for preparing adrenochrome]]
+    - Patents These CPCs and their children These exact CPCs Add AND condition Abstract A process is described for preparing Adrenochrome comprising Oxidation Epinephrine or a salt thereof with a Persulfates in an aqueous medium at a pH in the range 4 to 8 in the...
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - PTM The activity and subcellular localization of TFEB are mainly regulated by PTM, including Phosphorylation \[\], Acetylation \[\], Ubiquitination \[\], PARsylation \[\], SUMOylation \[\], Glucosylation \[\], Oxidation \[, \] and S-sulfhydration \[\].
+
+
 ## Connections
 - [[Adrenochrome]] — interacts with Oxidation
 - [[Reactive Oxygen Species]] — interacts with Oxidation

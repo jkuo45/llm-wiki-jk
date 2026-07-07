@@ -30,6 +30,20 @@ In the context of [[Oxidative Stress]], the most important repair pathway is [[B
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - Thus, quiescence may be induced by the transmission of replication damage across generations of cells, allowing daughter cells to prepare for DNA Repair and to maintain genomic stability (Arora et al., 2017; Barr et al., 2017). Integrating signals.
+
+  - [[_document_ - sirtuins (overview, CD38 KO risks, cancer therapies)|sirtuins (overview, CD38 KO risks, cancer therapies)]]
+    - They play key roles in Metabolism, Aging, stress response, DNA Repair, Inflammation, gene expression, and cellular homeostasis.
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - The first known sirtuin, Sir2 (yeast) (silent information regulator 2) of Saccharomyces cerevisiae, from which the family derives its name, regulates ribosomal DNA recombination, gene silencing, DNA Repair, chromosomal stability and longevity.
+
+
 ## Connections
 - [[DNA Damage]]: The substrate for repair mechanisms.
 - [[8-oxo-2'-deoxyguanosine]]: A major oxidative lesion repaired by the BER pathway.

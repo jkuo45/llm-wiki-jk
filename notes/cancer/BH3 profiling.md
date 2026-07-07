@@ -42,6 +42,14 @@ BH3 profiling has been translated into clinical oncology to guide the use of BH3
 
 Beyond hematology, BH3 profiling is being evaluated in solid tumors (breast, lung, ovarian) and in the context of targeted therapy resistance (e.g., [[BRAF]] inhibitor-resistant melanoma).
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Evading apoptosis in cancer|Evading apoptosis in cancer]]
+    - Letai and colleagues have developed a functional assay, called BH3 profiling, to gauge the dependency of cancer cells on anti-apoptotic Bcl-2 family proteins. Although the BH3 profiling made a successful breakthrough \[\], is there any ot
+
+
 ## Connections
 
 - [[Bcl-2]]: BH3 profiling determines dependence on anti-apoptotic Bcl-2 family members including Bcl-2 itself.

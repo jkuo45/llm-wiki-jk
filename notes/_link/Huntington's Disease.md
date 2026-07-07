@@ -25,6 +25,20 @@ Huntington's disease (HD) is a neurodegenerative disorder characterized by prote
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - PGC1-α was found to promote huntingtin turnover and the clearance of protein aggregates by activating Tfeb in Huntington's Disease (HD) transgenic mice \[\]. XBP1, a member of the CEB/P family of transcription factors, binds to UPRE on their target genes.
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - In Huntington's Disease (HD), an autosomal dominant progressive form of dementia, t
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - In line with this claim, evidence for the participation of autophagy as an early-stage protective response has been obtained in different Neurodegenerative Diseases like Huntington's Disease, Alzheimer's Disease, Parkinson's Disease, etc. \[\].
+
+
 ## Connections
 - [[Autophagy]] — cellular self-degradation pathway; clears damaged proteins and organelles
 - [[Autophagic Flux]] — interacts with Huntington's Disease

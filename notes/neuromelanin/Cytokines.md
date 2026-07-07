@@ -30,6 +30,17 @@ Peripheral immune cells and circulating cytokines can access the brain via circu
 
 Anti-inflammatory and cytokine-modulating strategies (TNF inhibitors, IL-6 blockade, CCR2 antagonists) are under investigation for PD disease modification. Cytokine levels in serum/CSF are studied as biomarkers of neuroinflammation. Understanding cytokine networks is essential to integrate the immune axis with oxidative, lysosomal, and proteostatic hypotheses of parkinsonism.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
+    - Furthermore, T cells can be a contributing factor to inflammatory Cytokines production, and T cells from old mice proliferate less (Desdín-Micó et al., 2020). > “A growing body of evidence suggests that aging of the immune system signific
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - Pro-inflammatory Cytokines, such as TNFα, activate IKKbeta (IKKbeta), which physically interacts with and inactivates TSC1, leading to mTORC1 activation (Lee et al., 2007).
+
+
 ## Connections
 
 - [[Microglia]]: CNS source of pro-inflammatory cytokines.

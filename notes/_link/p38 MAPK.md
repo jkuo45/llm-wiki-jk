@@ -19,6 +19,23 @@ The p38 mitogen-activated protein kinases (MAPK) are a class of protein kinases 
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - Besides, S211 of TFEB can also be phosphorylated by p38 MAPK \[\], a member of the Mitogen-activated protein kinases (MAPKs) family \[\]. Chen et al.
+
+  - [[_document_ - Kinase|Kinase]]
+    - S211 | Phosphorylation | mTORC1 | Cytoplasmic retention | 28055300 | | S211 | Phosphorylation | p38 MAPK | Cytoplasmic retention | 34930303 | | S211 | Dephosphorylation | calci
+
+  - [[_document_ - Caspase|Caspase]]
+    - Caspase-3 | | p38 MAPK (PP2A) | Ser150 | Suppression of activity | | | Caspase-7 |
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - In terms of its anti-apoptotic effects, SIRT2 downregulation alone is sufficient to cause Apoptosis, and SIRT2 depletion leads to p53 accumulation causing activation of the p38 MAPK in cancer cell lines such as HeLa, but not in normal cells.
+
+
 ## Connections
 - [[Apoptosis]] — programmed cell death; eliminates damaged or excess cells
 - [[Bim]] — interacts with p38 MAPK

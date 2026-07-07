@@ -25,6 +25,14 @@ The PIDD–RAIDD–Caspase-2 axis functions as a genomic-stress sensor that elim
 
 RAIDD/PIDDosome integrity is a biomarker of apoptotic competence and a determinant of response to DNA-damaging [[Chemotherapy]] and radiation. Strategies that restore PIDDosome assembly or bypass Caspase-2 dependence are explored to overcome resistance. RAIDD remains a key experimental tool for dissecting apical caspase activation.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Evading apoptosis in cancer|Evading apoptosis in cancer]]
+    - Of note, Caspase-2 is activated via formation of the PIDDosome, a complex which consists of the adaptor proteins PIDD (p53-induced death domain protein) and RAIDD (RIP-associated protein with a death domain).
+
+
 ## Connections
 
 - [[PIDD]] - DNA-damage sensor that scaffolds RAIDD in the PIDDosome.

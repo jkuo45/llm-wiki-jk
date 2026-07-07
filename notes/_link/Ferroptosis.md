@@ -30,6 +30,14 @@ Ferroptosis has been implicated in [[Neurodegeneration|neurodegenerative disease
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Regarding tumor resistance, SIRT6 silencing can overcome VEGF resistance by promoting Ferroptosis. Thus, SIRTs could act as novel biomarkers and therapeutic targets of GC.
+
+
 ## Connections
 - [[Lipid Peroxidation]] — interacts with
 - [[GPX4]] — interacts with

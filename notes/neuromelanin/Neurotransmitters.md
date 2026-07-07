@@ -31,6 +31,14 @@ Catecholamine neurotransmitters are essential for movement, reward, attention, a
 
 Manipulating catecholamine signaling is the basis of PD therapy ([[L-DOPA]] replenishment, MAO-B inhibitors, [[Dopamine Transporter]] imaging). Measuring transmitter metabolites in CSF and imaging presynaptic terminals ([[PET scan]], DaTscan) track disease progression and validate neurotoxin models.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - Only to have that rebound on you to the point that you are angry and irritable with everyone around you… COMT has recently gained attention in the Biohacking and personalized health communities as a key gene for understanding supplement tolerance and Neurot...
+
+
 ## Connections
 
 - [[Synapse]] - site where neurotransmitters act.

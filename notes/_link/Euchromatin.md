@@ -25,6 +25,14 @@ The formation and maintenance of euchromatin are regulated by enzymes like [[His
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - In the nucleus a large fraction of SIRT1 is associated with Euchromatin, whereas SIRT6 associates with Heterochromatin and SIRT7 is found in the nucleolus . The sirtuin that resides most prominently in the cytoplasm is SIRT2 .
+
+
 ## Connections
 - **[[Chromatin]]**: The general term for the DNA-protein complex.
 - **[[Heterochromatin]]**: The repressive counterpart to euchromatin.

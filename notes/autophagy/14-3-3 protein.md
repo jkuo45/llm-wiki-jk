@@ -29,6 +29,14 @@ Beyond TFEB, 14-3-3 isoforms modulate autophagy by interacting with [[ULK1]], [[
 
 Dysregulation of 14-3-3/TFEB partitioning contributes to [[Neurodegeneration]], where impaired TFEB nuclear entry limits clearance of aggregate-prone proteins. In [[Cancer]], 14-3-3σ loss is associated with genomic instability, while other isoforms support tumor survival under metabolic stress. 14-3-3 proteins are also biomarkers of stroke and prion disease in cerebrospinal fluid, and small-molecule inhibitors (e.g., difopein) are used experimentally to displace clients and interrogate autophagy networks.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - Activated mTORC1 phosphorylates TFEB at S211 on lysosomal membranes, which is required for the binding of TFEB to 14-3-3 protein to retain TFEB in the cytosol \[\].
+
+
 ## Connections
 
 - [[TFEB]]: 14-3-3 binds phosphorylated TFEB at S211 to retain it cytoplasmically, blocking lysosomal gene transcription.

@@ -56,6 +56,14 @@ In R6/2 and YAC128 mouse models, PB reduces mutant huntingtin aggregates, improv
 
 PB induces cell cycle arrest (p21^CIP1^ upregulation), apoptosis (via BAX/BAK), and differentiation in leukemia, hepatocellular carcinoma, and pancreatic cancer models. It synergizes with DNMT inhibitors (azacitidine) and proteasome inhibitors (bortezomib). Clinical trials in AML and MDS show modest single-agent activity; combination strategies ongoing.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - omide]]); (3) Epigenetic Modifiers that inhibit DNA Methyltransferase (Decitabine), Histone Deacetylase (Sodium Butyrate, Trichostatin A, Entinostat, Vorinostat, Panobinostat, Phenylbutyrate, Sodium Valproate), Histone Acetyltransferase (Curcumin, C646), a
+
+
 ## Connections
 
 - [[HDAC]] — Class I/IIA inhibition increases histone acetylation at stress-response gene promoters

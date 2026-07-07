@@ -31,6 +31,14 @@ In the context of the [[Adrenochrome Pathway]], HO-1 induction represents an ada
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - mitohormesis|mitohormesis]]
+    - Verify Downstream Mitohormetic Transcriptional Activation: - Assay: In cell culture, measure nuclear translocation of NRF2 (via immunofluorescence or Western blot) and monitor the expression of downstream targets (HO-1, NQO1, PGC1-α) 4 to 24 hours post-trea...
+
+
 ## Connections
 - [[NRF2]] — Master regulator of HO-1 transcription
 - [[Oxidative Stress]] — Primary inducer

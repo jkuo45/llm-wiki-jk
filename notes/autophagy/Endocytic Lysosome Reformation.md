@@ -22,6 +22,14 @@ aliases: [ELR]
 
 ELR is a lysosome reformation pathway distinct from [[Autophagic Lysosome Reformation]] (ALR), where endocytosed material that reaches lysosomes triggers the regeneration of tubular lysosomal structures after cargo degradation.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Lysosome biogenesis Regulation and functions|Lysosome biogenesis Regulation and functions]]
+    - Endocytic lysosome reformation (ELR) Earlier work indicated that Endocytic Lysosome Reformation (ELR) is an ATP-dependent process (Bright et al., 2005; Pryor et al., 2000).
+
+
 ## Connections
 
 - [[Lysosome]]: **Endocytic Lysosome Reformation** (ELR) is the process of regenerating Lysosomes from endolysosomes, requiring [[PIK...

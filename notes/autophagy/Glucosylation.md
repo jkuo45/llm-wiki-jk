@@ -18,6 +18,14 @@ Glucosylation is a modification where glucose is added to proteins; the Legionel
 
 Glucosylation is the transfer of glucose from UDP-glucose to target proteins or lipids. Bacterial effectors like [[SetA]] glucosylate host [[Rab]] GTPases to block [[Autophagy]] during infection.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - PTM The activity and subcellular localization of TFEB are mainly regulated by PTM, including Phosphorylation \[\], Acetylation \[\], Ubiquitination \[\], PARsylation \[\], SUMOylation \[\], Glucosylation \[\], Oxidation \[, \] and S-sulfhydration \[\].
+
+
 ## Connections
 
 - [[SetA]]: Glucosylation is a modification where glucose is added to proteins; the Legionella effector SetA glucosylates [[TFEB]...

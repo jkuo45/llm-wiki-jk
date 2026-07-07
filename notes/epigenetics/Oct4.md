@@ -29,6 +29,17 @@ Oct4 is expressed in the inner cell mass of the blastocyst and in primordial ger
 
  Aberrant Oct4 re-expression is observed in germ-cell tumors and some carcinomas, where it can sustain a stem-like, therapy-resistant phenotype. In regenerative medicine, precise Oct4 dosing underpins safe [[Reprogramming]] and the use of iPSCs for [[Disease Modeling]] (e.g., [[Frontotemporal Dementia]], [[Olivopontocerebellar Atrophy]]) and [[Rejuvenation]] (transient reprogramming to reset epigenetic age). Oct4 is also a target of [[CRISPR]] and small-molecule (re)activation strategies aiming to control pluripotency without genomic integration.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic|Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic]]
+    - Blanco]( 3, Luis Gustavo Celis 3, transcription factors Oct4, Sox2, Klf4, and c-Myc enable the Cellular Reprogramming of Somatic Cells into Induced Pluripotent Stem Cells.
+
+  - [[_document_ - Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network|Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network]]
+    - D Hoheisel 7 PMCID: Abstract Somatic Cells can be reprogrammed to Induced Pluripotent Stem Cells by over-expression of Oct4, Sox2, Klf4 and c-Myc (OSKM).
+
+
 ## Connections
 
 - [[Yamanaka Factors]] — Oct4 is one of the four reprogramming factors.

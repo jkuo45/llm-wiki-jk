@@ -38,6 +38,17 @@ Fractionated radiotherapy exploits differential DNA repair capacity between tumo
 - Suggested new entity notes to create: [[Water radiolysis]], [[Mitochondrial oxidative amplification]], [[Bystander effect]], [[Amifostine]], [[ATM kinase]], [[CHK2]], [[Clustered DNA damage]], [[Non-homologous end joining]]
 - Strong connections to strengthen: [[Ionizing Radiation]] ↔ [[DNA Damage]], [[Ionizing Radiation]] ↔ [[Mitochondria]], [[Ionizing Radiation]] ↔ [[Hydroxyl Radicals]]
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - The same is basically true for Senescence induced by Cell Stress such as Ionizing Radiation (IR) and UV Radiation (UV Radiation) (Latonen et al., ; Suzuki et al., ).
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - Even nonenzymatic reactions can be responsible for free radical production, that is, when oxygen reacts with organic compounds or when cells are exposed to Ionizing Radiation.
+
+
 ## Connections
 
 - [[Reactive Oxygen Species]]: This process leads to the immediate generation of Reactive Oxygen Species, resulting in extensive [[DNA Damage]] and ...

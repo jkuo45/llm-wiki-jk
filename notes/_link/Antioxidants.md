@@ -36,6 +36,20 @@ An imbalance between ROS production and antioxidant defenses leads to [[Oxidativ
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - intermediates, precursor, hemoglobin|intermediates, precursor, hemoglobin]]
+    - Solvent Choice: It is generally dissolved in solvents that do not promote oxidation, often with the addition of Antioxidants (like Ascorbic Acid) if necessary, depending on the specific experimental requirements. 5\.
+
+  - [[_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator|Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator]]
+    - Suggested new entity notes to create: Antioxidants, Thiols, Indoleamine, Animal Models. Strong connections to strengthen: Neuromelanin ↔ Dopamine, Neuromelanin ↔ Chemical memory, MPP+ ↔ Monoamine oxidase B.
+
+  - [[_document_ - The Sirtuin System The Holy Grail of Resveratrol?|The Sirtuin System The Holy Grail of Resveratrol?]]
+    - The Oxidative Stress theory has been associated with Atherosclerosis and has prompted a multitude of studies to evaluate the effects of Antioxidants on Cardiovascular Disease prevention.
+
+
 ## Connections
 - **[[Oxidative Stress]]**: The state resulting from insufficient antioxidant capacity.
 - **[[Reactive Oxygen Species]]**: The primary targets of antioxidant defense.

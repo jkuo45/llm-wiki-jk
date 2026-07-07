@@ -15,6 +15,14 @@ aliases: []
 
 The **Seahorse XF Analyzer** is a specialized laboratory instrument used to measure the two major energy-producing pathways of the cell—mitochondrial respiration and glycolysis—by simultaneously monitoring [[Oxygen Consumption Rate]] and [[Extracellular Acidification Rate]] in real-time.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - mitohormesis|mitohormesis]]
+    - Use a Seahorse XF Analyzer to monitor Oxygen Consumption Rate and Extracellular Acidification Rate. Objective: Identify the specific ratio where MB successfully buffers the bioe
+
+
 ## Connections
 
 - [[Oxygen Consumption Rate]]: The **Seahorse XF Analyzer** is a specialized laboratory instrument used to measure the two major energy-producing pa...

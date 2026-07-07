@@ -29,6 +29,23 @@ aliases: []
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - neutrophil and erthrocyte|neutrophil and erthrocyte]]
+    - pubs.acs.org - Brain (Neuromelanin pathway): Adrenochrome (or related Aminochromes) can form as an intermediate in Neuromelanin synthesis, particularly in Dopaminergic Neurons (e.g., in the Substantia Nigra).
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - The reduced nuclear TFEB levels were also seen in Dopaminergic Neurons from PD patients.
+
+  - [[_document_ - Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic|Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic]]
+    - In cancer therapies, these transcription factors lead to a reduction in the size and aggressiveness of certain tumors, such as sarcomas, and in neurodegenerative diseases, they enable the production of Dopaminergic Neurons in Parkinson's Disease, the replac...
+
+  - [[_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator|Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator]]
+    - showed that Neuromelanin forms in cultured Dopaminergic Neurons when cytoplasmic concentrations of Dopamine are artificially raised.
+
+
 ## Connections
 - [[Parkinson's Disease]]: Characterized by the progressive loss of dopaminergic neurons.
 - [[Induced Pluripotent Stem Cells]]: Used to generate functional dopaminergic neurons for research and therapy.

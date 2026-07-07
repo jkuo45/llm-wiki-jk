@@ -40,6 +40,17 @@ Histone methylation patterns shift markedly during [[Aging]]:
 
 Histone methylation contributes to [[Epigenetic Inheritance]], helping cells "remember" expression states through divisions and, in some organisms, across generations, via reader-writer complexes that copy marks onto daughter nucleosomes.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks|Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks]]
+    - Different Histone Methyltransferase class enzymes are involved in the mechanism of histone protein methylations depending on the amino acid residues.
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - Deacetylase|histone deacetylases]] (Sodium Butyrate, Trichostatin A, Entinostat, Vorinostat, Panobinostat, Phenylbutyrate, Sodium Valproate), Histone Acetyltransferase (Curcumin, C646), and Histone Methyltransferase (BRD4770); (4) Inhibitors of Telomerase A...
+
+
 ## Connections
 
 - [[Histone Modification]] — The broader class of modifications to which methylation belongs.

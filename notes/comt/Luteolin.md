@@ -33,6 +33,14 @@ Preclinical studies report luteolin improves memory and reduces neuroinflammatio
 
 Luteolin is investigated as a nutraceutical for cognitive health, atopic diseases, and cancer chemoprevention. Its COMT-related interactions suggest caution in individuals with slow [[COMT]] genotypes who are sensitive to methyl-donor or catechol-modulating supplements.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - Quercetin - Fisetin - Luteolin - Rutin - Oleacein (olive oil polyphenol) Again, it isn’t set in stone that everyone with slow COMT will have anxiety or irritability with the above supplements.
+
+
 ## Connections
 
 - [[COMT]]: Metabolizes catechol-bearing flavonoids and can be inhibited by them.

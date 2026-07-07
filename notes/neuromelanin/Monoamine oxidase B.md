@@ -29,6 +29,14 @@ By generating H₂O₂ during dopamine catabolism, MAO-B contributes to the oxid
 
 MAO-B inhibitors are symptomatic and possibly [[Neuroprotection|neuroprotective]] in PD, reducing dopamine breakdown and oxidative stress. They are also chemoprophylactic against MPTP-like envirotoxins (e.g., [[Paraquat]]). Genetically, MAOB variation influences PD risk and treatment response.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator|Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator]]
+    - MPTP (1-methyl-4-phenyl-1,2,3,6-tetrahydropyridine) for example is believed to induce its Parkinsonian-inducing effects after first being converted to methyl-phenyl-pyridinium ion (MPP+) by the enzyme Monoamine oxidase B in nearby Glial cells (Singer et al....
+
+
 ## Connections
 
 - [[MPTP]] - prodrug bioactivated by MAO-B into MPP⁺.

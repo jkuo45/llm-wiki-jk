@@ -116,6 +116,17 @@ The therapeutic landscape for Aβ-targeted therapy has undergone a dramatic tran
 
 - **Emerging approaches:** Anti-tau immunotherapies, [[NAD+]] precursors, [[Autophagy]] modulators, and combination therapies targeting both Aβ and tau are under active investigation. Gene therapy approaches using CRISPR-based editing of *APP* and antisense oligonucleotides targeting *APP* mRNA are in preclinical development.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - It is characterized by abnormal deposition of Beta-amyloid in neuritic plaques and the formation of intraneuronal neurofibrillary tangles (NFTs) (reviewed in (Himmelstein et al 2012)) (Peric & Annaert 2015)).
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - SIRT1 has since been shown to also protect neurons against Beta-amyloid-induced toxicity by inhibiting NFKB signalling in microglia or by downregulating the serine/threonine ROCK1 (Rho kinase) expression in neurons, resulting in induction of _α_ -secretase .
+
+
 ## Connections
 
 - [[Alzheimer's Disease]] — neurodegenerative disease; tau and amyloid-β pathology are its two hallmark features

@@ -49,6 +49,14 @@ Cyanidin/C3G is one of the most realistically achievable SIRT6 activators throug
 
 **Note**: Raw elderberries require cooking/processing (toxic saponins in raw form); elderberry syrup or extract is safer.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins (resveratrol), gemini|sirtuins (resveratrol), gemini]]
+    - Cyanidin: A natural anthocyanidin (found in red berries) capable of increasing SIRT6 activity by over 50-fold in certain in vitro assays. ` [ UBCS039 / MDL-801 / Cyanidin ] │ ▼ Binds Allosteric Hydrophobic Pocket │ ▼
+
+
 ## Connections
 
 - [[SIRT6]] — primary molecular target; cyanidin activates via the SIRT6 hydrophobic allosteric pocket

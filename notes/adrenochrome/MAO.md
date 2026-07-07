@@ -40,6 +40,17 @@ MAO catalysis proceeds via [[FAD]]-mediated oxidative deamination. The enzyme-bo
 
 Under normal physiology, MAO and [[COMT]] cooperatively degrade [[Epinephrine]] to [[Metanephrine]], [[Vanillylmandelic acid]], and other inert metabolites. When MAO is inhibited, catecholamine levels rise and the substrate flux shifts toward non-enzymatic [[Oxidation]] pathways, including the cyclization of epinephrine to [[Adrenochrome]]. This redirecting of catecholamine metabolism toward aminochrome formation has implications for [[Cardiotoxicity]] and neurotoxicity, particularly under conditions of [[Oxidative Stress]] or [[Inflammation]].
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - formation, chemical stability|formation, chemical stability]]
+    - I'm focusing on why Adrenochrome isn't the primary product in vivo, and the roles of MAO and COMT. I have to avoid conspiratorial narratives surrounding the topic.
+
+  - [[_document_ - Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum|Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum]]
+    - In the Sirtuins, the Dopamine Transporter (DAT) is highly abundant and responsible for rapid Dopamine uptake into dopaminergic terminals where it is either packaged into storage vesicles or metabolized by Monoamine oxidase (MAO).
+
+
 ## Connections
 - [[Catecholamines]] ↔ Primary substrate for MAO.
 - [[Epinephrine]] ↔ Metabolized by MAO.

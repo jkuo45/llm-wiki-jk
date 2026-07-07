@@ -35,6 +35,23 @@ The physical folding of chromatin into loops and domains changes with age.
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - Geminin acts as a repressor to block MCM loading onto Chromatin (Xouri et al., 2004).
+
+  - [[_document_ - Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks|Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks]]
+    - Evidences are there to support the fact that each epigenetic change can surpass the next during cell division due to its heritable nature and it is reversible because epigenetic changes do not cause the alteration in the gene sequence., Though it does not c...
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - s, and telomerase inhibitors likely generate a persistent DNA Damage Response following prolonged introduction of a small number of DNA Lesions or Telomere Uncapping, long‐term incubation with Epigenetic Modifiers likely causes Gene Expression of Chromatin ...
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - FERASES Over the next 2 years a variety of interesting features about Sir2 were discovered: it localizes to the nucleolus , it is a component of the Ku-associated apparatus that repairs double-stranded DNA Repair , it localizes to DNA breaks in a check-poin...
+
+
 ## Connections
 - **[[Nucleosome]]**: The basic repeating unit of chromatin.
 - **[[SAHF]]**: Specialized chromatin structures found in senescent cells.

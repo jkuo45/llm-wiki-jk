@@ -16,6 +16,14 @@ Centenarians are individuals who have reached the age of 100 years or more, serv
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Gut Microbiome, Aging, and Longevity A Systematic Review|The Gut Microbiome, Aging, and Longevity A Systematic Review]]
+    - Keywords: Centenarians, microbes, metabolites, inflammation, Immunosenescence, Cognition, functional potential, healthy aging 1\.
+
+
 ## Connections
 - [[Aging]] — related entity
 - [[Centenarians]] — related entity

@@ -23,6 +23,14 @@ Accumulation of heparan sulfate in [[Lysosome|lysosomes]] triggers secondary sto
 
 Onset at 2-6 years with developmental delay, behavioral problems, sleep disturbance, coarse facies, hepatosplenomegaly, and progressive dementia. Death typically in the second decade. No approved CNS-penetrant therapy exists.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - Overexpression of TFEB stimulated lysosomal exocytosis and promoted cellular clearance in several Lysosomal Storage Diseases cell models: Mucopolysaccharidosis-IIIA (Sanfilippo syndrome); Multiple Sulfatase Deficiency (MSD); Neuronal Ceroid Lipofuscinosis (...
+
+
 ## Connections
 
 - [[Lysosomal Storage Diseases]]: Also known as Sanfilippo syndrome type A, a lysosomal storage disease characterized by the accumulation of heparan sulf

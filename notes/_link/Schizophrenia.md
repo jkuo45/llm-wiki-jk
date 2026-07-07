@@ -19,6 +19,20 @@ The [[COMT]] [[Val158Met]] [[SNP]] has been extensively studied in relation to [
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - intermediates, precursor, hemoglobin|intermediates, precursor, hemoglobin]]
+    - They hypothesized that an imbalance in the oxidation of Epinephrine into Adrenochrome might contribute to the etiology of Schizophrenia.
+
+  - [[_document_ - Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum|Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum]]
+    - In clinical studies, the Val 158 allele has been linked with increased risk for Schizophrenia in some populations, as well as a poorer response to antipsychotic treatment in affected individuals.
+
+  - [[_document_ - Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic|Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic]]
+    - Somatic Cells]], Induced Pluripotent Stem Cells, Cancer, Neurodegenerative Diseases, Rejuvenation, Parkinson's Disease, Yamanaka Factors, Embryonic Stem Cells, Fibroblasts, Shinya Yamanaka, Kazutoshi Takahashi, OSKM, Regenerative Medicine, Olivopontocerebel...
+
+
 ## Connections
 - [[Induced Pluripotent Stem Cells]]: Used to study the pathogenesis and inflammatory responses in schizophrenia.
 - [[Neurodegenerative Diseases]]: While primarily a psychiatric disorder, schizophrenia is sometimes studied alongside neurodegenerative conditions in the context of brain health and inflammation.

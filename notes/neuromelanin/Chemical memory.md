@@ -29,6 +29,14 @@ If chemical memory is real, its failure could be pathogenic: overloaded or damag
 
 The concept remains speculative but is testable via imaging of catecholamine dynamics in pigmented vs non-pigmented neurons and via in vitro neuromelanin release assays. It offers a framework linking pigment biochemistry to long-term neuronal adaptation and to why pigment-rich cells are both resilient (protective buffering) and fragile (toxic accumulation) in [[Parkinson's Disease]].
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator|Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator]]
+    - Intriguingly, if Neuromelanin is able to sequester and release Dopamine in membrane bound vesicles, this intracellular pre-synaptic mechanism could be the basis for a form of Chemical memory in Dopamine neurons.
+
+
 ## Connections
 
 - [[Dopamine]]: Catecholamine stored/retained by neuromelanin.

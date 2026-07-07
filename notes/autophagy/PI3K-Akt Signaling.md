@@ -21,6 +21,14 @@ PI3K is activated by RTKs or [[RAS]], generating PIP3 to recruit [[Akt]]/[[PDK1]
 
 PI3K-Akt signaling suppresses [[Autophagy]] via mTORC1 activation. [[PI3K inhibitors]] ([[Wortmannin]], [[LY294002]]) induce autophagy.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - lation]], translational-level regulation, ischemic injury, metabolic disorders, leucine zipper transcription Factors, TGF-β Signaling, Hypusination, Tumor Suppressor, Translation Initiation, MAPK Signaling, ERK Signaling, Lysosomal Localization, Nuclear Exp...
+
+
 ## Connections
 
 - [[Akt]]: The PI3K-Akt signaling pathway is a key intracellular pathway that regulates survival and metabolism; Akt can inhibit...

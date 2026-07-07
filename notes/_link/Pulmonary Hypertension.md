@@ -24,6 +24,14 @@ aliases: [PH]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Mechanistically, SIRT1 activation promotes selfrenewal and differentiation of alveolar epithelial cell 2 in lung tissues of Pulmonary Hypertension patients and aged mice. However, the opposite results have been reported for SIRT1 changes in LF.
+
+
 ## Connections
 - [[Pulmonary Hypertension]] — related entity
 

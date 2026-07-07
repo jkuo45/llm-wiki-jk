@@ -29,6 +29,17 @@ As a Yamanaka factor, Klf4 contributes to induced [[Pluripotency]] by activating
 
 Klf4 is frequently downregulated in colorectal, breast, and bladder carcinomas, where loss correlates with poor differentiation and EMT, supporting its tumor-suppressor role. Conversely, Klf4 can be upregulated and pro-tumorigenic in gastric and some squamous cancers. Its expression is exploited as a biomarker of differentiation state, and KLF4 transduction is investigated for cell-fate engineering.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic|Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic]]
+    - Luis Gustavo Celis 3, transcription factors Oct4, Sox2, Klf4, and c-Myc enable the Cellular Reprogramming of Somatic Cells into Induced Pluripotent Stem Cells.
+
+  - [[_document_ - Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network|Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network]]
+    - jayeJ) 2,6, D Hoheisel 7 PMCID: Abstract Somatic Cells can be reprogrammed to Induced Pluripotent Stem Cells by over-expression of Oct4, Sox2, Klf4 and c-Myc (OSKM).
+
+
 ## Connections
 
 - [[Yamanaka Factors]] - Klf4 is one of the four reprogramming factors.

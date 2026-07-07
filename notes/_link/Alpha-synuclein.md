@@ -26,6 +26,23 @@ In [[Parkinson's Disease]] and other "synucleinopathies," alpha-synuclein underg
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - found that p38 MAPK inhibitor SB203580 activates TFEB-mediated autophagy in Alpha-synuclein A53T transgenic mice brain \[\].
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - Parkinson's Disease (PD), the second most common progressive neurodegenerative disorder, involves a selective loss of dopamine-producing neurons in the Substantia Nigra and the development of neuronal Lewy bodies composed of abnormal protein deposits includ...
+
+  - [[_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease|Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease]]
+    - Similarly, dopaminergic neurons in the Ventral Tegmental Area, which are largely spared in PD, produce minimal neuromelanin over a lifetime., Classical Lewy Bodies (LB), that is, Alpha-synuclein‐containing intracytoplasmic inclusions that constitute the patho
+
+  - [[_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator|Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator]]
+    - In the absence of polymerization and Neuromelanin, Aminochrome can form adducts with Alpha-synuclein generating neurotoxic oligomers that can trigger Mitochondrial Dysfunction (Wang et al., 2012), and could induce Oxidative Stress and Endoplasmic Reticulum ...
+
+
 ## Connections
 - [[Parkinson's Disease]] — neurodegenerative disease; α-synuclein pathology; dopamine loss
 - [[TFEB]] — master transcription factor for lysosomal biogenesis and autophagy

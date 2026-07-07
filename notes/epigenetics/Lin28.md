@@ -26,6 +26,14 @@ Lin28 is a component of the OSLN cocktail ([[Oct4]], [[Sox2]], [[Lin28]], [[Nano
 
 Lin28 is highly expressed in [[Embryonic Stem Cells]] and during early embryogenesis, then silenced in most adult tissues. Its re-activation correlates with [[Cancer]] (particularly germ-cell tumors and poor prognosis in several carcinomas) and with metabolic regulation—Lin28B modulates insulin sensitivity and glucose metabolism. Lin28 has also been deployed, together with Nanog and the [[Yamanaka Factors]], in [[Rejuvenation]] and [[Partial Reprogramming]] studies of aged neurons.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network|Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network]]
+    - Since the landmark discovery that Somatic Cells can be reprogrammed to an embryonic-like state to create iPS cells by over-expressing a combination of four core transcription factors, consisting of Oct4, Sox2, with either Klf4 and c-Myc (OSKM) or Lin28 and ...
+
+
 ## Connections
 
 - [[let-7 microRNA]]: The direct inhibitory target of Lin28; its suppression maintains stemness.

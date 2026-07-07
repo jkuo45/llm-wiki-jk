@@ -32,6 +32,14 @@ PDE4 inhibition produces broad anti-inflammatory, cognitive-enhancing, and metab
 
 PDE4 inhibitors such as roflumilast and the topical apremilast are approved for COPD and psoriasis, respectively. Nausea and emesis have limited systemic PDE4 inhibitor use, spurring development of isoform-selective compounds. The discovery that [[Resveratrol]] inhibits PDE4 reframed the polyphenol's mechanism and validated PDE4 as a longevity-relevant target intersecting the sirtuin network.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins (resveratrol), gemini|sirtuins (resveratrol), gemini]]
+    - Direct Pathway) (Indirect Pathway) | | Binds SIRT1 NTD Inhibits PDE4 (e.g.
+
+
 ## Connections
 
 - [[Resveratrol]] — Competitively inhibits PDE4, raising intracellular cAMP

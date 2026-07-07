@@ -38,6 +38,14 @@ Oxidative damage markers—[[Malondialdehyde]], [[F2-Isoprostanes]], 4-HNE, and 
 
 Inhaled bronchodilators and corticosteroids remain mainstays; the latter are limited by HDAC2 inactivation. [[N-Acetylcysteine]] and other [[Glutathione]]-augmenting mucolytics show modest benefit as antioxidant adjuncts. Smoking cessation and pulmonary rehabilitation reduce oxidant load. Targeting Nox enzymes, restoring HDAC2 activity, and NRF2 activation are investigational strategies.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - Respiratory Disease and Oxidative Stress Several researches pointed out that lung diseases such as Asthma and Chronic Obstructive Pulmonary Disease, determined by systemic and local chronic inflammation, are linked to oxidative stress \[ – \].
+
+
 ## Connections
 
 - [[Oxidative Stress]]: Central unifying mechanism amplifying inflammation and tissue destruction.

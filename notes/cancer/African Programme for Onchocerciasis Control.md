@@ -28,6 +28,14 @@ Although APOC addressed a parasitic disease rather than cancer directly, it is d
 
 By its conclusion in 2015, APOC had delivered over 1 billion ivermectin treatments and was succeeded by the Expanded Special Project for Elimination of Neglected Tropical Diseases (ESPEN). The CDTI model demonstrated that community ownership achieves sustainable, high-coverage intervention — a lesson directly transferable to global oncology programs.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, ‘Wonder drug’ from Japan the human use perspective|Ivermectin, ‘Wonder drug’ from Japan the human use perspective]]
+    - It is now the sole tool being used in disease elimination campaigns in the 16 other African countries where the disease exists, orchestrated by the African Programme for Onchocerciasis Control, which commenced operations in 1996.
+
+
 ## Connections
 
 - [[Onchocerciasis]]: Target disease of the programme.

@@ -31,6 +31,14 @@ The [[COMT]] enzyme transfers a [[Methyl groups|methyl group]] from [[S-Adenosyl
 
 In slow [[COMT]] variants, catechol clearance is reduced. Endogenous catecholamines may accumulate, enhancing stress reactivity, while exogenous catechols (e.g., high-dose [[Quercetin]], [[Green tea]] EGCG at pharmacological concentrations) can further inhibit an already sluggish enzyme and add [[Methyl groups]] demand on the [[Methylation Cycle]]. Non-catecholic alternatives such as [[Berberine]] or [[Hesperidin]] are therefore preferred in this population.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - The COMT gene encodes an enzyme called Catechol-O-methyltransferase, which breaks down Catechols. What are catechols — and why do we need to break them down? Catechols include Neurotransmitters such as Dopamine, Epinephrine, and Norepinephrine.
+
+
 ## Connections
 
 - [[COMT]]: The primary enzyme that *O*-methylates catechol structures.

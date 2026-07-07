@@ -24,6 +24,14 @@ aliases: [GTPase-Activating Protein]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - TSC1/TSC2 functions as a GTPase-activating protein (GAP) for the small RAS-related GTPase Rheb (Ras homolog enriched in brain).
+
+
 ## Connections
 - [[GAP]] — related entity
 

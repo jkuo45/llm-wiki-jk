@@ -31,6 +31,17 @@ aliases: [rapamycin analogs]
 
 Rapalogs are analogs of [[Rapamycin]] ([[Everolimus]], [[Temsirolimus]], [[Ridaforolimus]]) that inhibit [[mTORC1]] and induce [[Autophagy]].
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
+    - Rapamycin and its derivatives known as Rapalog, such as Everolimus and Temsirolimus, are highly potent allosteric inhibitors of mTOR (mTOR). The protein kinase mTOR is formed by two complexes: mTORC1 and mTORC2.
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - This is highlighted by the growing use of mTOR inhibitors \Rapamycin and its analogues (Rapalog)\] in pathological settings, including the treatment of solid tumors, organ transplantation, coronary restenosis and Rheumatoid Arthritis.
+
+
 ## Connections
 
 - [[Rapamycin]]: **Rapalogs** are derivatives of Rapamycin (also known as sirolimus) that act as allosteric inhibitors of [[mTOR|mecha...

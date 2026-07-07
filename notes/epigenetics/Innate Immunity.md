@@ -33,6 +33,14 @@ Suppressing the innate immune response improves reprogramming yield. Reagents su
 
 Innate immunity primes and instructs [[Adaptive Immunity]] (via [[Lymphocyte|lymphocytes]] and [[Major Histocompatibility Complex]] presentation). Understanding both arms is essential when considering the immunogenicity of iPSC-derived grafts and the clearance of senescent cells in [[Rejuvenation]] strategies.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network|Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network]]
+    - Experiments confirmed that upon viral transduction, the immediate response is Innate Immunity, which induces Reactive Oxygen Species, oxidative DNA Damage, p53 activation, Senescence, and Apoptosis, ultimately leading to a reduction in the Cellular Reprogra...
+
+
 ## Connections
 - [[Cellular Reprogramming]]: Innate immunity acts as a roadblock to efficient reprogramming.
 - [[Reactive Oxygen Species]]: A byproduct of the innate immune response to viral stress.

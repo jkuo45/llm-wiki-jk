@@ -18,6 +18,14 @@ aliases: []
 ## Adrenochrome as Waste
 In the context of catecholamine metabolism, [[Adrenochrome]] is often viewed as a form of metabolic waste or a "chemical mishap" that occurs when primary metabolic pathways (via [[MAO]] and [[COMT]]) are overwhelmed or when antioxidant defenses fail.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - formation, chemical stability|formation, chemical stability]]
+    - The "Side Pathway" (Adrenochrome): This is essentially "Metabolic waste" or a "chemical mishap." It occurs when the body's antioxidant defenses are failing. Summary You can think of Adrenochrome as a marker of failed Homeostasis.
+
+
 ## Connections
 - [[Adrenochrome]]
 - [[Oxidative Stress]]

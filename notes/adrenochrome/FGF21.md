@@ -62,6 +62,14 @@ FGF21 has attracted substantial interest as a therapeutic target for [[Type 2 Di
 
 FGF21 levels are elevated in [[NAFLD]] and [[NASH]] as a compensatory response, and the degree of elevation correlates with disease severity. Genetic variants near the [[FGF21 locus]] (e.g., [[rs838133]], [[rs838145]]) are associated with altered macronutrient preference — specifically increased carbohydrate intake — in human [[Genome-wide association study|GWAS]].
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Mitohormesis - 2023_NOV|Mitohormesis - 2023_NOV]]
+    - FGF21 is an additional circulating factor known to be elevated in animal models and human subjects with impaired mitochondrial function– . Like GDF15, its secretion often appears to be downstream of an OMA1-DELE1-ATF4 regulated pathway,.
+
+
 ## Connections
 
 - [[Mitokines]]: FGF21 is a primary mitokine induced by mitochondrial stress via ATF4.

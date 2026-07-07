@@ -21,6 +21,17 @@ Etoposide is frequently used in combination with other agents to enhance its eff
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - For instance, human Caspase-3 gene therapy was used in addition to Etoposide treatment in an AH130 liver tumour model and was found to induce exten
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - s (Aphidicolin, Hydroxyurea, Thymidine, Bromodeoxyuridine, Gemcitabine, Cyclopentenyl cytosine); (2) DNA‐damaging agents, including (2a) DNA Topoisomerase Inhibitors (Doxorubicin, Etoposide, Daunorubicin, Mitoxantrone, Camptothecin), (2b) DNA Cross-linkers (Ci
+
+
 ## Connections
 - [[Apoptosis]]: Induces programmed cell death via DNA damage.
 - [[Caspase-3]]: Its efficacy can be enhanced by restoring caspase-3 expression.

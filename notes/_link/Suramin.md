@@ -34,6 +34,14 @@ Suramin features multiple highly charged sulfonic acid groups that enable it to 
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, ‘Wonder drug’ from Japan the human use perspective|Ivermectin, ‘Wonder drug’ from Japan the human use perspective]]
+    - In 1975, only two drugs were available for the treatment of Onchocerciasis: Diethylcarbamazine and Suramin. The use of both was highly unsatisfactory.
+
+
 ## Connections
 - **[[SIRT1]]**, **[[SIRT2]]**, & **[[SIRT5]]** — direct molecular sirtuin targets.
 - **[[NFKB|NF-κB]]** — pathway inhibited by suramin to alleviate spinal disc degeneration.

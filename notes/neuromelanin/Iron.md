@@ -25,6 +25,17 @@ Free or weakly bound Fe2+ reacts with hydrogen peroxide to generate the hydroxyl
 ## Pathology and Clinical Relevance
 Postmortem PD brains show elevated iron in the substantia nigra, with displaced iron from neuromelanin as neurons degenerate. Iron accumulation correlates with motor severity and with [[Lewy Bodies]] pathology. MRI-based铁 quantification (R2*/susceptibility mapping) is therefore studied as a PD biomarker and progression tracker. Therapeutically, iron chelators (e.g., deferiprone) and modulation of iron homeostasis are under investigation to slow nigral degeneration. Iron thus sits at the intersection of pigment biology, oxidative stress, and selective vulnerability: a necessary nutrient that, in the catecholaminergic neuron, becomes a liability amplified by neuromelanin's own metal affinity.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease|Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease]]
+    - pmid=8247275&doi=\(93\)90349-k&)\] Linking Summary: - New links added: Konstantin Nikolaevich Tretiakoff, Pale Bodies, Immunoglobulin G, Major histocompatibility complex class I, Lipofuscin, Eumelanin, Pheomelanin, L-Tyrosine, TFEB, Ambroxol, p62, Ubiquitin...
+
+  - [[_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator|Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator]]
+    - In particular, Neuromelanin appears to confer susceptibility to chemical toxicity by providing a large sink of Iron-bound, heme-like structures in a pi-conjugated system, a system seemingly purposed to allow for stabilizing interactions including pi-stackin...
+
+
 ## Connections
 - [[Neuromelanin]]: Primary iron-binding pigment in dopaminergic neurons.
 - [[Substantia Nigra]]: Nucleus with highest iron/neuromelanin burden.

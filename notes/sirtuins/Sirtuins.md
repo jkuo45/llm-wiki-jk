@@ -166,6 +166,29 @@ The development of specific sirtuin inhibitors and activators is a rapidly expan
 
 ## Orphan Link Resolution & Linking Summary
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum|Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum]]
+    - Although we detected no changes in the level of markers for Dopamine synthesis and Dopamine Transporter, we found that COMT-OE mice display an increase in Dopamine release capacity in the Sirtuins.
+
+  - [[_document_ - Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks|Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks]]
+    - Shreds of evidence are there to support the fact that miRNAs also influence other aging pathways like mTOR, AMPK, and Sirtuins.
+
+  - [[_document_ - xenohormesis, mitohormesis|xenohormesis, mitohormesis]]
+    - I'm highlighting the metabolic pathways activated, like Sirtuins and AMPK, along with the link to Caloric Restriction. Synthesizing Findings Objectively I've successfully documented the scientific consensus and criticisms surrounding this topic.
+
+  - [[_document_ - The Sirtuin System The Holy Grail of Resveratrol?|The Sirtuin System The Holy Grail of Resveratrol?]]
+    - Although the complete mechanism of Resveratrol has yet to be fully elucidated, the Sirtuins, consisting of 7 highly conserved families of regulator genes, are thought to be instrumental in establishing the various health benefits.
+
+  - [[_document_ - sirtuins (overview, CD38 KO risks, cancer therapies)|sirtuins (overview, CD38 KO risks, cancer therapies)]]
+    - Sirtuins Overview Sirtuins (SIRT1–SIRT7) are a family of seven NAD+-dependent enzymes (class III Histone Modification/deacylases) in humans.
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - Sirtuins in mammals: insights into their biological function Shaday MICHAN and David SINCLAIR Department of Pathology, Paul F. Glenn Laboratories for the Biological Mechanisms of Aging, Harvard Medical School, 77 Ave Louis Pasteur, Boston, MA, U.S.A.
+
+
 ## Connections
 
 - [[SIRT2]]: - **Class I**: SIRT1, SIRT2, and [[SIRT3]] (possess robust deacetylase activity).

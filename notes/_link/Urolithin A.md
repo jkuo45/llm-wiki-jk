@@ -29,6 +29,17 @@ Urolithin A's mitophagy-activating mechanism positions it as a complementary age
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects|Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects]]
+    - Urolithin A, a naturally occurring compound derived from dietary sources, has swiftly emerged as a prominent subject of investigation in the context of muscle health and performance \[,,\].
+
+  - [[_document_ - mitohormesis|mitohormesis]]
+    - Cleanup: Urolithin A (Mitophagy inducer). 1.2 Mechanism of Action (MOA) Redox Signaling: Carbazochrome induces transient, controlled Redox Cycling, generating a low-amplitude Superoxide anion signal in the mitochondrial matrix.
+
+
 ## Connections
 - [[Mitohormetic Redox-Relay]] — interacts with Urolithin A
 - [[Carbazochrome]] — interacts with Urolithin A

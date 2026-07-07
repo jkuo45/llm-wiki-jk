@@ -27,6 +27,17 @@ By controlling NMN synthesis and subsequently cellular NAD⁺ levels, NAMPT acts
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins (resveratrol), gemini|sirtuins (resveratrol), gemini]]
+    - Increases cAMP Allosteric change | | Activates Epac1 → Ca2+ Release Lowers Km for substrates | | Activates AMPK | | | Upregulates NAMPT → Increases NAD+ | | \ / ` A.
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - SIRT2 is overexpressed in primary acute myeloid leukemia blasts, and SIRT2 activation by NAMPT reduces proliferation and induces Apoptosis in human acute myeloid leukemia, possibly via the Akt/GSK3β/Wnt signaling pathway.
+
+
 ## Connections
 - **[[NAD+]]**: The downstream product and physiological target of NAMPT enzymatic activity.
 - **[[SIRT1]]**: Primary nuclear deacetylase whose activity is highly sensitive to NAMPT-mediated NAD⁺ levels.

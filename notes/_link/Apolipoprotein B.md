@@ -17,6 +17,14 @@ aliases: [ApoB, Apolipoprotein B-100]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - A prior in vivo study has shown that endothelial cell-specific overexpression of SIRT1 protects against Atherosclerosis in Apolipoprotein B KO mice, which was associated with inhibited endothelial cell Apoptosis via eNOS expression activation.
+
+
 ## Connections
 - [[LDL]] — ApoB is the main structural protein of LDL
 - [[Atherosclerosis]] — ApoB-containing lipoproteins drive plaque formation

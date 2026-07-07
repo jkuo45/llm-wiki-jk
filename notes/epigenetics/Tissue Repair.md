@@ -33,6 +33,14 @@ Effective repair prevents infection and restores function, but dysregulation cau
 
 [[Regenerative Medicine]] and [[Tissue Engineering]] harness repair biology—via growth factors, scaffolds, cell therapy, and bioactive molecules—to improve outcomes. Research focuses on tipping the balance from scar to regeneration, modulating the inflammatory milieu, and using induced pluripotent or adult stem cells. Agents that remodel the epigenetic landscape are being explored to rejuvenate aged repair capacity.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - For instance, it has been shown recently that Senescence plays a role in the differentiation of megakaryocytes (Besancenot et al., ), the maturation of the placenta (Chuprin et al., ), the restriction of Fibrosis (Krizhanovsky et al., ; Jun & Lau, ; Zhu et ...
+
+
 ## Connections
 
 - [[Tissue Engineering]] - engineering approaches to augment repair.

@@ -23,6 +23,14 @@ aliases: [HO-1, HMOX1]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Human peripheral blood monocytes from patients with kidney stones showed decreased SIRT3 expression, but increased FoxO1 acetylation compared with the normal controls, and the protective effect of SIRT3 could be mediated by activation of the nuclear factor ...
+
+
 ## Connections
 - [[Heme oxygenase-1]] — related entity
 

@@ -27,6 +27,14 @@ SAHF arise during oncogene-induced and replicative senescence. By condensing E2F
 
 Because senescence accumulates in aged tissues and contributes to [[Aging]] and age-related dysfunction, SAHF are a cellular correlate of organismal decline. They also intersect with [[Epigenetic Drift]]: the global redistribution of heterochromatin (loss at repetitive regions, gain at promoters) mirrors SAHF-type silencing. Unlike programming, SAHF formation is a damage-response epigenetic adaptation.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - The distinctive phenotypic changes typical of various types of cellular senescence are cell enlargement and flattening, SA-beta-gal (SA-beta-gal), formation of SAHF, persistent DNA Damage Response (DNA Damage Response), and SASP (SASP).
+
+
 ## Connections
 
 - [[Senescence]]: SAHF are the structural hallmark of the senescent growth arrest.

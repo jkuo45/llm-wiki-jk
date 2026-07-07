@@ -39,6 +39,17 @@ The HAT/HDAC balance is often disrupted in [[Aging]]:
 - **Longevity Pathways**: Metabolic regulators such as [[AMPK]] and [[Sirtuins|Sirtuins]] intersect with HAT-controlled pathways, linking diet and environment to the [[Epigenome]].
 - **Cancer**: Aberrant HAT activity (e.g., translocations involving p300/CBP in lymphoma) contributes to oncogenesis.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks|Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks]]
+    - Histone protein acetylation is catalyzed by Histone Acetyltransferase, and parallelly deacetylation process is catalyzed by Histone Deacetylase.
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - NA Methyltransferase|DNA methyltransferases]] (Decitabine), Histone Deacetylase (Sodium Butyrate, Trichostatin A, Entinostat, Vorinostat, Panobinostat, Phenylbutyrate, Sodium Valproate), Histone Acetyltransferase (Curcumin, C646), and Histone Methyltransfer...
+
+
 ## Connections
 
 - [[HAT]] — The common abbreviation for this enzyme family.

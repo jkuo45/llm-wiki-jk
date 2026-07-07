@@ -29,6 +29,14 @@ Beyond differentiation, MSCs drive [[Tissue Repair]] through trophic support: an
 
 MSCs are the most clinically utilized cell therapy product, with approved indications for graft-versus-host disease and Crohn's perianal fistulas, and trials in myocardial infarction, osteoarthritis, and [[Neurodegeneration]]. Their low tumorigenicity (unlike [[Induced Pluripotent Stem Cells]]/[[Teratoma]]-forming pluripotent cells) makes them attractive for [[Regenerative Medicine]]. They also serve as reprogramming substrates: forced expression of [[Yamanaka Factors]] converts MSCs into [[Induced Neural Stem Cells]] (iNSCs) for modeling [[Frontotemporal Dementia]] and [[Olivopontocerebellar Atrophy]]. Concerns include senescence with passaging, batch variability, and limited long-term engraftment — issues addressed by understanding [[Quiescence]] and rejuvenation of the stromal compartment.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic|Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic]]
+    - cerebellar Atrophy]], NuRD complex, CHD4, Schizophrenia, Induced Neural Stem Cells, Amyotrophic Lateral Sclerosis, Frontotemporal Dementia, Alzheimer's Disease, BIG1, Somatic Cell Nuclear Transfer, Partial Reprogramming, Hutchinson-Gilford Progeria Syndrome...
+
+
 ## Connections
 
 - [[Fibroblast]] — a related but distinct stromal cell type.

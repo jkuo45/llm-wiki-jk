@@ -57,6 +57,14 @@ The generation of OAADPr as a unique by-product of sirtuin reactions established
 
 OAADPr was first described by Landry et al. (2000) as a unique acetyl-ADP-ribose metabolite tightly coupled to the sirtuin deacetylation mechanism. Prior to this, the ADP-ribosylation activity of sirtuins was considered a low-efficiency side-reaction; the characterisation of OAADPr clarified that deacetylation — not ADP-ribosylation — is the primary mechanism for most sirtuins.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - had described the catalytic mechanism of deacetylation: they found it to be tightly coupled to the generation of a unique acetyl-ADP-ribose metabolite, OAADPr (2′- _O_ -acetyl-ADP-ribose).
+
+
 ## Connections
 
 - [[SIRT1]] — produces OAADPr as by-product of deacetylation

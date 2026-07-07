@@ -18,6 +18,17 @@ aliases: [Caspase, Cysteine-aspartic proteases]
 
 #
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Evading apoptosis in cancer|Evading apoptosis in cancer]]
+    - It involves a series of cellular events that ultimately leads to activation of a family of cysteine proteases called Caspases. In response to various apoptotic stimuli, “initiator” Caspases (Caspase-2, Caspase-8, Caspase-9, or Caspase-10) are activated.
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - plays a central role in the prevalence of diseases related to Apoptosis.[–] SIRT1 regulates p53 deacetylation, which is associated with the Apoptosis-inhibiting signaling pathway, mainly including the p53-induced death domain protein Pidd, p21, Bax/Bad and ...
+
+
 ## Connections
 - [[Apoptosis]] — Executioner caspases (3, 6, 7) drive apoptotic cell death
 - [[Inflammation]] — Caspase-1 activates IL-1β and IL-18

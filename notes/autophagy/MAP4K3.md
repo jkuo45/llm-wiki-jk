@@ -27,6 +27,17 @@ In nutrient-replete cells, MAP4K3 is activated by amino acid signaling and phosp
 
 By gating TFEB phosphorylation, MAP4K3 sits at the nutrient-sensing hub that decides between growth (mTORC1-on) and catabolism (autophagy-on). Its dysregulation is relevant to [[Cancer]], where MAP4K3/GLK overexpression supports proliferative and survival signaling, and to [[Aging]], where altered amino acid sensing erodes autophagic resilience. Loss of MAP4K3 relieves TFEB suppression and enhances [[Autophagy]], suggesting it as a target to restore lysosomal clearance in [[Neurodegeneration]] and storage diseases. Because MAP4K3 also modulates innate immune responses (e.g., T-cell activation via JNK), it bridges metabolic and inflammatory control of cellular homeostasis.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - They further found that MAP4K3 interacted with TFEB and phosphorylated it at S3 \[\]. Their results indicated that TFEB S3 Phosphorylation by MAP4K3 occurs before and is necessary for TFEB S211 Phosphorylation by mTORC1 \[\].
+
+  - [[_document_ - Kinase|Kinase]]
+    - tional activity | 33734022 | | S461/S462 and S468 | Phosphorylation | PKCβ | Promoting its stability | 23599343 | | S3 | Phosphorylation | MAP4K3 | Cytoplasmic retention | 29507340 | | S401 | Phosphorylation | p38 MAPK
+
+
 ## Connections
 
 - [[TFEB]]: MAP4K3 phosphorylates TFEB at S3, priming it for mTORC1-mediated inactivation.
