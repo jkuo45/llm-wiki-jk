@@ -116,9 +116,10 @@ Frontmatter:
 - **Duplicate YAML keys**: No key should appear twice at the same indentation level.
 - **No wiki links in frontmatter**: Frontmatter values must be plain text only. Never use `[[Wiki Link]]` or `[[Link|Display]]` syntax inside YAML fields. Obsidian does not render wiki links in frontmatter, and they leak into non-body context.
 - **Tags casing convention**: `entity_type_1` is NOT stored as a frontmatter field — its value lives only inside the `tags` list. Within `tags`, apply this casing rule:
-  - **Capitalize the `entity_type_1` value** exactly as listed in the `entity_type_1` schema below (e.g. `Protein`, `Chemical Compound`, `Medical Condition`). This is the only Title-case entry and identifies the entity's primary category.
-  - **Lowercase all topical/domain tags** (cross-cutting relevance tags). The standard domain tags are: `oxidative stress`, `antioxidant`, `mitochondria`, `autophagy`, `epigenetics`, `inflammation`, `apoptosis`. Other topical tags (e.g. `glycation`, `senescence`) also use lowercase.
-  - Example: `tags: [Enzyme, antioxidant, mitochondria]` — `Enzyme` is the capitalized type, the rest are lowercase topical tags.
+  - **All tag values must be kebab-case** (lowercase, spaces replaced with hyphens). This applies to both the `entity_type_1` category tag and all topical/domain tags.
+  - For `entity_type_1`, use the kebab-case form of the schema values below (e.g. `enzyme`, `chemical-compound`, `medical-condition`).
+  - For topical tags, use kebab-case (e.g. `oxidative-stress`, `antioxidant`, `mitochondria`, `autophagy`, `epigenetics`, `inflammation`, `apoptosis`).
+  - Example: `tags: [enzyme, antioxidant, mitochondria]` — all lowercase and hyphenated where applicable.
 
 ---
 
@@ -157,11 +158,16 @@ tags: [] # Populate with relevant entity_type_1, biomedical tags
 
 ```
 
+## Documents
+
+  - # List of documents that mention this entity.
+  - [link to github dev branch] [[wikilink|wiki]] Short description of document (50-150 characters)
+
 ## Connections
 
   - Entity Name: Short description
 
-## Linking Summary:
+## Linking Summary
 
   - New links added: [[Entity1]], [[Entity2]], ...
   - Suggested new entity notes to create: [[Missing Concept]]
