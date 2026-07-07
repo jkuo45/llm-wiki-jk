@@ -21,7 +21,7 @@
 - Use uv for all python executables.
 - **On ingest of a file within a topic**: Extract/update triples into the topic's `_triples_<topic>.json`, then regenerate the corresponding `.svg` and `.dot` visualizations to `notes/<topic>/` (alongside the triples file). (See Subject Object Relation Triples section below.)
 
-## Single Document Ingestion Workflow
+## Document Ingestion Workflow:
 
 **Prerequisites:** Document in `raw/` with `_document_` prefix.
 
@@ -112,7 +112,7 @@ When creating or updating a note, include the following frontmatter block. Refer
 Frontmatter:
 
 - **Date format**: frontmatter `created:` / `updated:` must use `YYYY-MM-DD`, _not_ the project display format (`DD_MMMM_YYYY`).
-- **Quoting**: Prefer unquoted scalar values (`entity_type_1: Enzyme`, not `entity_type_1: "Enzyme"`). Use quotes only when required (e.g., values containing colons or special characters).
+- **Quoting**: Prefer unquoted scalar values. Use quotes only when required (e.g., values containing colons or special characters).
 - **Duplicate YAML keys**: No key should appear twice at the same indentation level.
 - **No wiki links in frontmatter**: Frontmatter values must be plain text only. Never use `[[Wiki Link]]` or `[[Link|Display]]` syntax inside YAML fields. Obsidian does not render wiki links in frontmatter, and they leak into non-body context.
 
@@ -125,11 +125,10 @@ title: # Name of entity, index of topic, name of document, etc.
 description: # Short description (if chat thread, summarize)
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
-entity_type_1: # Refer to entity_type_1 schema
+tags: [] # Populate with entity_type_1, relevant biomedical tags
 url: #
 source: #
 aliases: [] # Alternative names, abbreviations, acronyms
-tags: [] #
 
 ---
 
@@ -144,7 +143,7 @@ author: [] # List of authors
 published: YYYY-MM-DD # Original publication date
 created: YYYY-MM-DD # Date ingested into the vault
 description: # Short summary of the document, if chat thread summarize
-tags: [] #
+tags: [] # Populate with relevant biomedical tags
 
 ---
 
@@ -156,13 +155,16 @@ tags: [] #
 
 ## Connections
 
-  - Entity Name - short description
+  - Entity Name: Short description
 
 ## Linking Summary:
 
   - New links added: [[Entity1]], [[Entity2]], ...
   - Suggested new entity notes to create: [[Missing Concept]]
   - Strong connections to strengthen: [[Note A]] ↔ [[Note B]]
+
+  - Justification for suggested new entities and strong connections to strengthen.
+
 ```
 
 ## Orphan Link Resolution (on user request):
