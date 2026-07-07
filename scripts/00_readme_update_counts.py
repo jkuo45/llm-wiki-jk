@@ -238,9 +238,11 @@ def main():
     total_entities = 0
     total_docs = 0
     for t in topic_data:
-        topic_link = f"[{t['topic']}](https://github.com/jkuo45/llm-wiki/tree/dev/{urllib.parse.quote(notes_dir + '/' + t['topic'], safe='/')})"
+        topic_gh = f"https://github.com/jkuo45/llm-wiki/tree/dev/{urllib.parse.quote(notes_dir + '/' + t['topic'], safe='/')}"
+        topic_obsidian = f"[[notes/{t['topic']}/README\\|notes]]"
+        topic_links = f"[{t['topic']}]({topic_gh}) {topic_obsidian}"
         topics_table.append(
-            f"| {topic_link} | {t['last_updated']} | {t['documents']} | {t['entities']} | {format_number(t['words'])} | {format_size(t['disk_size'])} |"
+            f"| {topic_links} | {t['last_updated']} | {t['documents']} | {t['entities']} | {format_number(t['words'])} | {format_size(t['disk_size'])} |"
         )
         total_entities += t["entities"]
         total_docs += t["documents"]
@@ -255,9 +257,11 @@ def main():
     ]
     for d in document_data:
         basename = os.path.basename(d["path"])
-        doc_link = f"[{basename}](https://github.com/jkuo45/llm-wiki/blob/dev/{urllib.parse.quote(d['path'], safe='/')})"
+        doc_gh = f"https://github.com/jkuo45/llm-wiki/blob/dev/{urllib.parse.quote(d['path'], safe='/')}"
+        doc_obsidian = f"[[{d['path']}\\|note]]"
+        doc_links = f"[{basename}]({doc_gh}) {doc_obsidian}"
         docs_table.append(
-            f"| {d['topic']} | {d['date']} | {doc_link} | {format_number(d['words'])} |"
+            f"| {d['topic']} | {d['date']} | {doc_links} | {format_number(d['words'])} |"
         )
 
     # Build marker-delimited sections
