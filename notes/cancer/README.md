@@ -23,8 +23,8 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 
 ## Maintenance
 
-- Last updated: 13_Jun_2026 10:30 AM PDT
-- Total count of entities: 278
+- Last updated: 06_July_2026 12:00 PM PDT
+- Total count of entities: 281
 
 | entity                                                 | datetime updated         | entity_type_1        | entity_relevance_score_1 | entity_sentiment_score_1 | entity_justification_1 |
 | ------------------------------------------------------ | ------------------------ | -------------------- | ------------------------ | ------------------------ | ---------------------- |
@@ -222,3 +222,6 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[Tyrosine Kinase Inhibitors]] | 31_May_2026 05:30 PM PDT | Chemical Class | 9 | 1 | Targeted therapy drugs that inhibit pro-survival signaling. |
 | [[Ubiquitination]] | 31_May_2026 05:30 PM PDT | Chemical Process | 8 | 0 | Post-translational modification targeting proteins for degradation. |
 | [[USP9X]] | 31_May_2026 05:30 PM PDT | Enzyme | 8 | 0 | Deubiquitinating enzyme that stabilizes Mcl-1. |
+| [[Glutamine]] | 06_July_2026 12:00 PM PDT | Amino Acid | 8 | 0 | Conditional essential amino acid and primary fuel source for rapidly dividing cells, including cancer cells. |
+| [[Oncosis]] | 06_July_2026 12:00 PM PDT | Biological Process | 7 | -1 | Form of accidental cell death characterized by cell swelling and lysis, often associated with ischemia. |
+| [[Tumour Microenvironment]] | 06_July_2026 12:00 PM PDT | Scientific Concept | 9 | 0 | Complex ecosystem surrounding a tumor, critical for its growth, progression, and resistance to therapy. |
