@@ -160,8 +160,10 @@ tags: [] # Populate with relevant entity_type_1, biomedical tags
 
 ## Documents
 
-  - # List of documents that mention this entity.
-  - [link to github dev branch] [[wikilink|wiki]] Short description of document (50-150 characters)
+List of documents that mention this entity
+
+  - [[Document Filename|Document Short Name]]
+    - Short description of how entity is related to document. (~chars)
 
 ## Connections
 
