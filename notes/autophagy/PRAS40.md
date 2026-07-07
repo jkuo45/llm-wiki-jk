@@ -1,10 +1,13 @@
 ---
-aliases:
-- AKT1S1
-category: Protein
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: PRAS40
+description: Proline-rich AKT substrate 40 kDa (PRAS40) is a component and negative
+  regulator of mTORC1 that inhibits the complex by functioning as a direct inhibitor
+  of substrate binding until it is phosphoryl...
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Protein
+aliases: [AKT1S1]
 ---
 # PRAS40
 Proline-rich AKT substrate 40 kDa (PRAS40) is a component and negative regulator of [[mTORC1]] that inhibits the complex by functioning as a direct inhibitor of substrate binding until it is phosphorylated by [[Akt|AKT]].

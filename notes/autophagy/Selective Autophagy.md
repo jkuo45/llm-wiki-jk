@@ -1,8 +1,11 @@
 ---
-category: Biological Process
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: Selective Autophagy
+description: '**Selective Autophagy** is a highly selective, receptor-mediated pathway
+  that targets, degrades, and recycles specific cellular cargo.'
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Biological Process
 ---
 # Selective Autophagy
 

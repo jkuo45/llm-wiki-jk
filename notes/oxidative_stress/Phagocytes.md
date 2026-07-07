@@ -1,11 +1,14 @@
 ---
 type: entity
-category: cell_type
-aliases: [Phagocyte, Phagocytic cells]
+title: Phagocytes
+description: '**Phagocytes** are immune cells that engulf and destroy pathogens, cellular
+  debris, and foreign particles through phagocytosis. Their microbicidal activity
+  depends critically on the Respiratory Bur...'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Cell Type
+aliases: [Phagocyte, Phagocytic cells]
 ---
-
 # Phagocytes
 
 **Phagocytes** are immune cells that engulf and destroy pathogens, cellular debris, and foreign particles through phagocytosis. Their microbicidal activity depends critically on the [[Respiratory Burst|respiratory burst]] — a rapid, high-output production of [[ROS]] and [[Reactive Nitrogen Species|RNS]].

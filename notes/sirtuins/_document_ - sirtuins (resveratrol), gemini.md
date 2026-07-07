@@ -1,23 +1,21 @@
 ---
-title: "Resveratrol in SIRT1 and Other Sirtuin Modulators"
 type: document
-category: document
-aliases:
-  - Resveratrol Sirtuin Activators
-  - SIRT2-SIRT7 Modulators
-  - Dietary Sirtuin Sources
+title: Resveratrol in SIRT1 and Other Sirtuin Modulators
 source: https://aistudio.google.com/u/0/prompts/1kUJDpdDMR88wWnNR_7kpQlfBdqhbzW7C
-author:
-published:
 created: 2026-07-02
-updated: 2026-07-05
-description: "Resveratrol role in SIRT1 activation, compounds targeting other sirtuins (SIRT2–SIRT7), dietary sources and therapeutic doses"
+description: Resveratrol role in SIRT1 activation, compounds targeting other sirtuins
+  (SIRT2–SIRT7), dietary sources and therapeutic doses
 tags:
   - gemini
   - clippings
   - sirtuins
   - resveratrol
+  - Resveratrol Sirtuin Activators
+  - SIRT2-SIRT7 Modulators
+  - Dietary Sirtuin Sources
 ---
+
+
 
 # Resveratrol, Sirtuins & Dietary Sources
 
@@ -58,7 +56,7 @@ Subsequent structural biology and biochemical studies resolved this, demonstrati
 
 - **Binding Site:** Resveratrol binds to a specific region within the N-terminal domain (NTD) of SIRT1 (specifically requiring the **Glutamate 230 (E230)** residue).
 - **Conformational Change:** Upon binding, resveratrol stabilizes the interaction between SIRT1's NTD and the substrate.
-- **Substrate Selectivity:** This binding induces a conformational change that lowers the Michaelis constant (Km) of SIRT1 for specific target proteins. This means SIRT1 develops a much higher affinity for key physiological substrates, such as **[[PGC-1α]]** and **[[FOXO3a]]**, promoting their deacetylation even at lower baseline levels.
+- **Substrate Selectivity:** This binding induces a conformational change that lowers the Michaelis constant (Km) of SIRT1 for specific target proteins. This means SIRT1 develops a much higher affinity for key physiological substrates, such as **[[PGC1-α]]** and **[[FOXO3a]]**, promoting their deacetylation even at lower baseline levels.
 
 #### B. Indirect Activation (The AMPK-PDE Axis)
 
@@ -77,12 +75,12 @@ Once activated by resveratrol, SIRT1 deacetylates several downstream transcripti
 
 #### PGC-1α (Mitochondrial Biogenesis)
 
-- **Mechanism:** SIRT1 deacetylates **[[PGC-1α]]** (peroxisome proliferator-activated receptor-gamma coactivator 1-alpha).
+- **Mechanism:** SIRT1 deacetylates **[[PGC1-α]]** (peroxisome proliferator-activated receptor-gamma coactivator 1-alpha).
 - **Result:** Deacetylated PGC-1α becomes active, migrating to the nucleus to drive the transcription of nuclear and mitochondrial genes. This leads to **[[Mitochondrial Biogenesis]]**, increased oxygen consumption, and enhanced oxidative phosphorylation (OXPHOS).
 
 #### FOXO Transcription Factors (Stress Resistance & Autophagy)
 
-- **Mechanism:** SIRT1 deacetylates **[[FOXO1]]** and **[[FOXO3a]]**.
+- **Mechanism:** SIRT1 deacetylates **[[FoxO1]]** and **[[FOXO3a]]**.
 - **Result:** This shifts FOXO-mediated transcription away from apoptosis-inducing genes and toward stress-resistance genes. It upregulates endogenous antioxidant enzymes (such as **[[SOD2]]** and **Catalase**) and induces autophagy genes, allowing cells to clear damaged proteins and organelles.
 
 #### NF-κB (Anti-Inflammatory Effects)
@@ -224,7 +222,7 @@ For the remaining sirtuins, therapeutic strategies generally focus on **inhibiti
 
 | Sirtuin | Localization | Activity | Notable Activators | Key Targets / Effects |
 |---------|-------------|----------|-------------------|----------------------|
-| **[[SIRT1]]** | Nucleus / Cytoplasm | Deacetylation | [[Resveratrol]], [[SRT1720]] | [[PGC-1α]], [[FOXO3a]], [[NFKB\|NF-κB]]; metabolic homeostasis |
+| **[[SIRT1]]** | Nucleus / Cytoplasm | Deacetylation | [[Resveratrol]], [[SRT1720]] | [[PGC1-α]], [[FOXO3a]], [[NFKB\|NF-κB]]; metabolic homeostasis |
 | **[[SIRT2]]** | Cytoplasm | Deacetylation | None prominent (inhibitors used) | Microtubule/tubulin regulation |
 | **[[SIRT3]]** | Mitochondria | Deacetylation | [[Honokiol]], [[Dihydromyricetin]] | [[MnSOD]], [[OSCP]]; mitochondrial biogenesis, ROS reduction |
 | **[[SIRT4]]** | Mitochondria | ADP-ribosylation, Lipoamidase | None prominent | GDH regulation, insulin secretion |

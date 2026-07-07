@@ -1,11 +1,13 @@
 ---
-aliases:
-- PPP3CA
-- calmodulin-dependent phosphatase
-category: Enzyme
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: calcineurin
+description: '**calcineurin** is a calcium-dependent protein phosphatase that plays
+  a critical role in Lysosome biogenesis by dephosphorylating TFEB and TFE3, thereby
+  promoting their nuclear translocation and ac...'
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Enzyme
+aliases: [PPP3CA, calmodulin-dependent phosphatase]
 ---
 # calcineurin
 

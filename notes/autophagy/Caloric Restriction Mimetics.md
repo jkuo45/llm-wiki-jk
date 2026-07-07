@@ -1,10 +1,13 @@
 ---
-aliases:
-- CRMs
-category: Pharmacological Action
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: Caloric Restriction Mimetics
+description: Caloric Restriction Mimetics (CRMs) are pharmacological compounds that
+  mimic the biochemical and functional effects of Caloric Restriction without the
+  need for actual food deprivation.
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Pharmacological Action
+aliases: [CRMs]
 ---
 # Caloric Restriction Mimetics
 

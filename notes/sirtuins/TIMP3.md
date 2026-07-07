@@ -1,21 +1,18 @@
 ---
 type: entity
-category: protein
-aliases:
-  - TIMP3
-  - Tissue Inhibitor of Metalloproteinases 3
-  - MMP inhibitor 3
-database_ids:
-  uniprot: P35625
-  hgnc: HGNC:11822
-relations:
-  - predicate: regulated_by
-    target: "SIRT1"
-    sources:
-      - Cardellini 2009
-      - Federici 2013
+title: TIMP3
+description: '**TIMP3** (Tissue Inhibitor of Metalloproteinases 3) is an endogenous
+  secreted inhibitor of matrix metalloproteinases (MMPs) and members of the ADAM and
+  ADAMTS families. Among the four TIMP family ...'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Protein
+aliases: [TIMP3, Tissue Inhibitor of Metalloproteinases 3, MMP inhibitor 3]
+
+sources:
+- Cardellini 2009
+- Federici 2013
+target: SIRT1
 ---
 
 # TIMP3

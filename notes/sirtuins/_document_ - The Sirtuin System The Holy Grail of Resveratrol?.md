@@ -1,16 +1,20 @@
 ---
-title: "The Sirtuin System: The Holy Grail of Resveratrol?"
-source: "https://pmc.ncbi.nlm.nih.gov/articles/PMC3613783/"
+type: document
+title: 'The Sirtuin System: The Holy Grail of Resveratrol?'
+source: https://pmc.ncbi.nlm.nih.gov/articles/PMC3613783/
 author:
-  - "Dilbahar S Mohar"
-  - "Shaista Malik"
-published:
+- Dilbahar S Mohar
+- Shaista Malik
 created: 2026-07-04
-updated: 2026-07-04
-description: "The oxidative stress theory has been associated with atherosclerosis and has prompted a multitude of studies to evaluate the effects of antioxidants on cardiovascular disease prevention. Resveratrol, a relatively new antioxidant has gained ..."
+description: The oxidative stress theory has been associated with atherosclerosis
+  and has prompted a multitude of studies to evaluate the effects of antioxidants
+  on cardiovascular disease prevention. Resveratrol, a relatively new antioxidant
+  has gained ...
 tags:
   - "clippings"
 ---
+
+
 . Author manuscript; available in PMC: 2013 Apr 2.
 
 *Published in final edited form as:* J Clin Exp Cardiolog. 2012 Nov;3(11):216. doi: [10.4172/2155-9880.1000216](https://doi.org/10.4172/2155-9880.1000216)

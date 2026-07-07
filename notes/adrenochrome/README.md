@@ -1,3 +1,10 @@
+---
+type: index
+title: Adrenochrome notes
+description: Index of wiki notes for adrenochrome
+created: 2026-07-06
+updated: 2026-07-06
+---
 # Adrenochrome
 
 This directory contains notes and research regarding [[Adrenochrome]] and its related biochemical pathways, physiological effects, and clinical contexts.
@@ -139,7 +146,7 @@ This directory contains notes and research regarding [[Adrenochrome]] and its re
 |  [[Glucose]]                                          |      17_Jun_2026       | Chemical Compound      |           6            |           0            | Primary energy source, also the starting material for glycation.                               |
 |  [[Glucosepane]]                                      |      17_Jun_2026       | Chemical Compound      |           8            |           -1           | A major arginine-lysine cross-link AGE found in aging tissues.                                 |
 | [[Glutathione]]                         | 27_May_2026 01:28 PM | Biological Molecule    |           6            |           1            | Endogenous antioxidant regulating redox state; positive protective molecule.                   |
-|  [[Glutathione peroxidase]]                           |      17_Jun_2026       | Enzyme                 |           8            |           1            | Antioxidant enzyme that reduces lipid hydroperoxides to their corresponding alcohols.          |
+|  [[Glutathione Peroxidase]]                           |      17_Jun_2026       | Enzyme                 |           8            |           1            | Antioxidant enzyme that reduces lipid hydroperoxides to their corresponding alcohols.          |
 |  [[Glutathione Reductase]]                            |      17_Jun_2026       | Enzyme                 |           8            |           1            | Enzyme that regenerates reduced glutathione, critical for redox balance.                       |
 | [[GlyNAC]]                                          |     16_Jun_2026      | Medical Product        |           9            |           1            | Glutathione precursor buffer in the SRAC strategy.                                             |
 |  [[Glycation]]                                        |      17_Jun_2026       | Chemical Process       |           9            |           -1           | Non-enzymatic addition of sugars to proteins or lipids; drives AGE formation.                  |
@@ -232,7 +239,7 @@ This directory contains notes and research regarding [[Adrenochrome]] and its re
 | [[N-Acetylcysteine]]                    |     16_Jun_2026      | Chemical Compound      |           8            |           1            | Component of GlyNAC buffer; glutathione precursor.                                             |
 | [[NAD(P)H Oxidase]]                                 | 14_Jun_2026 12:00 PM | Enzyme                 |           8            |           -1           | Membrane-bound enzyme complex that produces superoxide in response to AGEs.                    |
 | [[NADH-dependent methemoglobin reductase]]          | 27_May_2026 01:28 PM | Enzyme                 |           6            |           0            | Physiological reduction system; neutral enzyme.                                                |
-| [[NF-κB]]                                           | 14_Jun_2026 12:00 PM | Protein                |           9            |           -1           | Transcription factor hub for inflammatory and oxidative stress responses.                      |
+| [[NFκB]]                                           | 14_Jun_2026 12:00 PM | Protein                |           9            |           -1           | Transcription factor hub for inflammatory and oxidative stress responses.                      |
 | [[NLRP3 Inflammasome]]                              | 12_Jun_2026 10:00 AM | Protein                |           8            |           1            | Interface where mitochondrial stress triggers inflammation.                                    |
 | [[NMNAT]]                               |      30_Jun_2026       | Enzyme                 |           8            |           1            | Crucial enzyme in NAD+ biosynthesis.                                           |
 | [[NMRK1]]                               |      30_Jun_2026       | Enzyme                 |           8            |           1            | Converts NR to NMN in NAD+ salvage.                                            |
@@ -251,7 +258,7 @@ This directory contains notes and research regarding [[Adrenochrome]] and its re
 | [[Nitrobenzene]]                                    | 27_May_2026 01:28 PM | Chemical Compound      |           4            |           -1           | Toxic industrial solvent; negative chemical compound.                                          |
 | [[Nitrogen gas]]                                    | 27_May_2026 01:28 PM | Chemical Compound      |           2            |           0            | Used to provide inert atmosphere; neutral chemical compound.                                   |
 | [[Norepinephrine]]                      | 27_May_2026 01:28 PM | Chemical Compound      |           9            |           1            | Secondary precursor that can also form aminochromes; positive driver.                          |
-| [[Nrf2]]                                            | 15_Jun_2026 10:00 AM | Protein                |           9            |           1            | Master transcription factor for the antioxidant response; positive driver.                     |
+| [[NRF2]]                                            | 15_Jun_2026 10:00 AM | Protein                |           9            |           1            | Master transcription factor for the antioxidant response; positive driver.                     |
 |  [[OMA1]]                                             |      17_Jun_2026       | Enzyme                 |           7            |           1            | Mitochondrial protease involved in stress sensing and DELE1 cleavage.                          |
 | [[Orlistat]]                                        | 14_Jun_2026 12:00 PM | Chemical Compound      |           7            |           1            | Lipase inhibitor that decreases the absorption of dietary AGEs.                                |
 |  [[Ornithine transcarbamylase]]                       |      17_Jun_2026       | Enzyme                 |           5            |           0            | Urea cycle enzyme; susceptible to inactivation by glycation.                                   |
@@ -265,7 +272,7 @@ This directory contains notes and research regarding [[Adrenochrome]] and its re
 | [[PARP1]]                               |      30_Jun_2026       | Protein                |           8            |           1            | NAD+-dependent DNA repair enzyme.                                              |
 | [[PARP2]]                               |      30_Jun_2026       | Protein                |           8            |           1            | NAD+-dependent DNA repair enzyme.                                              |
 |  [[PERK]]                                             |      17_Jun_2026       | Enzyme                 |           7            |           0            | ER stress sensor and kinase in the unfolded protein response.                                  |
-| [[PGC1α]]                                           | 12_Jun_2026 10:00 AM | Protein                |           9            |           1            | Master regulator of mitochondrial biogenesis.                                                  |
+| [[PGC1-α]]                                           | 12_Jun_2026 10:00 AM | Protein                |           9            |           1            | Master regulator of mitochondrial biogenesis.                                                  |
 |  [[Parkin]]                                           |      17_Jun_2026       | Enzyme                 |           8            |           1            | E3 ubiquitin ligase critical for targeting damaged mitochondria for mitophagy.                 |
 | [[Parkinson's Disease]]                             | 14_Jun_2026 12:00 PM | Medical Condition      |           9            |           -1           | Condition directly linked to dopamine oxidation and aminochrome formation.                     |
 | [[Parkinson's Disease]]                 | 30_May_2026 12:00 PM | Medical Condition      |           9            |           -1           | Condition directly linked to dopamine oxidation and aminochrome formation.                     |
@@ -273,7 +280,7 @@ This directory contains notes and research regarding [[Adrenochrome]] and its re
 |  [[Peptide deformylase]]                              |      17_Jun_2026       | Enzyme                 |           5            |           0            | Bacterial/mitochondrial enzyme, target of actinonin.                                           |
 | [[Peroxidation]]                                    | 27_May_2026 01:28 PM | Chemical Process       |           8            |           1            | Specific oxidative mechanism relevant to the pathway; positive driver.                         |
 | [[Persulfates]]                                     | 27_May_2026 01:28 PM | Chemical Class         |           9            |           0            | Oxidants used in synthetic preparation; neutral laboratory reagents.                           |
-|  [[Pink1]]                                            |      17_Jun_2026       | Enzyme                 |           8            |           1            | Mitochondrial kinase that recruits Parkin during mitophagy.                                    |
+|  [[PINK1]]                                            |      17_Jun_2026       | Enzyme                 |           8            |           1            | Mitochondrial kinase that recruits Parkin during mitophagy.                                    |
 | [[Plasma Membrane]]                                 | 27_May_2026 01:28 PM | Anatomy                |           5            |           0            | Cell boundary where reactions may occur; neutral anatomy.                                      |
 | [[Polymerization]]                                  | 27_May_2026 01:28 PM | Chemical Process       |           6            |           0            | Process leading to melanin formation; neutral chemical process.                                |
 |  [[Polyphenols]]                                      |      17_Jun_2026       | Chemical Class         |           7            |           1            | Plant compounds often exhibiting potent antioxidant and antiglycation properties.              |

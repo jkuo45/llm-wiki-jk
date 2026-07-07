@@ -1,14 +1,17 @@
 ---
 type: entity
-category: enzyme
+title: PON1
+description: '**PON1 (Paraoxonase 1, Serum paraoxonase/arylesterase 1)** is a calcium-dependent
+  esterase synthesized primarily in the liver and secreted into the blood, where it
+  associates with HDL and hydrolyze...'
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Enzyme
 aliases: [Paraoxonase 1, Serum aryldialkylphosphatase 1, ESA, PON]
 database_ids:
   uniprot: P27169
   hgnc: HGNC:9204
-created: 2026-07-04
-updated: 2026-07-04
 ---
-
 # PON1
 
 **PON1 (Paraoxonase 1, Serum paraoxonase/arylesterase 1)** is a calcium-dependent esterase synthesized primarily in the liver and secreted into the blood, where it associates with [[HDL|high-density lipoprotein (HDL)]] and hydrolyzes oxidized lipids, contributing to HDL's antioxidant and anti-atherogenic properties.

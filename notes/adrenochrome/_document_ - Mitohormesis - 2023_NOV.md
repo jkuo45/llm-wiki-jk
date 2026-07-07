@@ -1,14 +1,16 @@
 ---
 type: document
-title: "Mitohormesis"
-source: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10632604/"
+title: Mitohormesis
+source: https://pmc.ncbi.nlm.nih.gov/articles/PMC10632604/
 author:
-  - "Yu-Wei Cheng"
-  - "Jie Liu"
-  - "Toren Finkel"
-published:
+- Yu-Wei Cheng
+- Jie Liu
+- Toren Finkel
 created: 2026-06-12
-description: "Perturbation of mitochondrial function can trigger a host of cellular responses that seek to restore cellular metabolism, cytosolic proteostasis and redox homeostasis. In some cases, these responses persist even after the stress is relieved, leaving ..."
+description: Perturbation of mitochondrial function can trigger a host of cellular
+  responses that seek to restore cellular metabolism, cytosolic proteostasis and redox
+  homeostasis. In some cases, these responses persist even after the stress is relieved,
+  leaving ...
 tags:
   - "clippings"
 ---

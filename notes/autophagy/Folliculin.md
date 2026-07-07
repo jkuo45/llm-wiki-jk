@@ -1,10 +1,12 @@
 ---
-aliases:
-- FLCN
-category: Protein
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: Folliculin
+description: Folliculin is a tumor suppressor and a guanine nucleotide exchange factor
+  (GEF) for Rag proteins that regulates mTORC1 activity and Lysosome positioning.
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Protein
+aliases: [FLCN]
 ---
 # Folliculin
 

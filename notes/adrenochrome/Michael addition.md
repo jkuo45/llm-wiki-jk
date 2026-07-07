@@ -1,11 +1,12 @@
 ---
 type: entity
-category: Chemical Process
-aliases: []
+title: Michael addition
+description: The **Michael addition** (or Michael reaction) is a nucleophilic addition
+  of a nucleophile to an alpha, beta-unsaturated carbonyl compound.
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Chemical Process
 ---
-
 # Michael addition
 
 The **Michael addition** (or Michael reaction) is a nucleophilic addition of a nucleophile to an alpha, beta-unsaturated carbonyl compound.

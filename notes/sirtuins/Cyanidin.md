@@ -1,23 +1,20 @@
 ---
 type: entity
-category: chemical compound
+title: Cyanidin
+description: Cyanidin is a natural anthocyanidin (a class of flavonoid pigments) widely
+  found in red, blue, and purple berries and fruits. Its glycoside form, cyanidin-3-glucoside
+  (C3G), is one of the most prev...
+created: 2026-07-03
+updated: 2026-07-03
+entity_type_1: Chemical Compound
 aliases:
   - Cyanidin
   - Cyanidin-3-glucoside
   - C3G
-database_ids:
-  mesh: D000073893
-  chebi: CHEBI:27843
-relations:
-  - predicate: activates
-    target: "SIRT6"
-    sources: []
-  - predicate: associated_with
-    target: "Antioxidants"
-    sources: []
-created: 2026-07-03
-updated: 2026-07-03
 ---
+
+
+
 
 # Cyanidin
 

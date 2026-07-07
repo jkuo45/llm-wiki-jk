@@ -1,10 +1,13 @@
 ---
-aliases:
-- soluble NSF attachment protein receptors
-category: Scientific Concept
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: SNARE proteins
+description: '**SNARE proteins** (Soluble N-ethylmaleimide-sensitive factor attachment
+  protein receptors) are a large family of proteins that mediate membrane fusion between
+  organelles, such as the fusion of Aut...'
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Scientific Concept
+aliases: [soluble NSF attachment protein receptors]
 ---
 # SNARE proteins
 

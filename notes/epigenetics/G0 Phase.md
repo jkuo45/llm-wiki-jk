@@ -1,9 +1,11 @@
 ---
 type: entity
-category: biological_process
-entity_type: "Biological Process"
+title: G0 Phase
+description: The G0 Phase is a resting phase outside of the Cell Cycle that occurs
+  prior to S Phase. It is the characteristic phase of cells in Quiescence.
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: Biological Process
 ---
 # G0 Phase
 

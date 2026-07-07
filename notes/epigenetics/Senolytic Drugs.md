@@ -1,11 +1,13 @@
 ---
 type: entity
-category: pharmacological_action
-entity_type: "Pharmacological Action"
+title: Senolytic Drugs
+description: '**Senolytic Drugs** are a pharmacological class of agents that selectively
+  eliminate Cellular Senescence. Unlike conventional chemotherapeutics, senolytics
+  exploit specific survival pathways that s...'
 created: 2024-01-01
 updated: 2024-07-04
+entity_type_1: Pharmacological Action
 ---
-
 # Senolytic Drugs
 
 **Senolytic Drugs** are a pharmacological class of agents that selectively eliminate [[Cellular Senescence|senescent cells]]. Unlike conventional chemotherapeutics, senolytics exploit specific survival pathways that senescent cells upregulate to resist their own apoptotic program — a vulnerability known as senescent cell anti-apoptotic pathways (SCAPs).

@@ -1,13 +1,13 @@
 ---
-title: "Google AI Studio"
-source: "https://aistudio.google.com/u/0/prompts/1tcqlp-SjpxWkP4j9a5_EY40lyea-tM_G"
-author:
-published:
+type: document
+title: Google AI Studio
+source: https://aistudio.google.com/u/0/prompts/1tcqlp-SjpxWkP4j9a5_EY40lyea-tM_G
 created: 2026-06-16
-description: "The fastest path from prompt to production with Gemini"
+description: The fastest path from prompt to production with Gemini
 tags:
   - "clippings"
 ---
+
 3,333 tokens
 
 Model

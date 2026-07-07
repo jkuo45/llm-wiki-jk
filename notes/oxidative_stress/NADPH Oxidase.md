@@ -1,18 +1,15 @@
 ---
 type: entity
-category: enzyme
-aliases:
-  - "NOX"
-  - "NADPH oxidase complex"
-  - "NOX family"
-tags:
-  - "oxidative_stress"
-  - "superoxide"
-  - "immune_system"
+title: NADPH Oxidase
+description: NADPH oxidase (NOX) is a family of membrane-bound enzyme complexes whose
+  primary physiological function is the deliberate production of Reactive Oxygen Species
+  (ROS), specifically Superoxide Radicals.
 created: 2026-05-09
 updated: 2026-07-04
+entity_type_1: Enzyme
+aliases: [NOX, NADPH oxidase complex, NOX family]
+tags: [oxidative_stress, superoxide, immune_system]
 ---
-
 # NADPH Oxidase
 
 ## Definition
@@ -47,7 +44,7 @@ NOX4 is unique among the family in that it is constitutively active and generate
 ## Physiological Roles Beyond Host Defense
 Beyond the well-established role of NOX2 in innate immunity, NOX-derived ROS serve essential signaling functions:
 
-- **Vascular tone regulation**: NOX1 and NOX4 in vascular smooth muscle and [[Endothelial Cells]] modulate [[Nitric Oxide]] bioavailability, [[Hypoxia]]-inducible factor (HIF) stabilization, and vascular remodeling. NOX4-derived $H_2O_2$ acts as a physiological vasodilator (endothelium-derived hyperpolarizing factor, EDHF) in some vascular beds.
+- **Vascular tone regulation**: NOX1 and NOX4 in vascular smooth muscle and [[Endothelial cells]] modulate [[Nitric Oxide]] bioavailability, [[Hypoxia]]-inducible factor (HIF) stabilization, and vascular remodeling. NOX4-derived $H_2O_2$ acts as a physiological vasodilator (endothelium-derived hyperpolarizing factor, EDHF) in some vascular beds.
 - **Cellular differentiation**: NOX4 is upregulated during differentiation of [[Fibroblasts]] to myofibroblasts and is required for TGF-β1-induced differentiation.
 - **[[Angiogenesis]]**: NOX-derived ROS activate [[VEGF]] signaling and endothelial tube formation.
 - **[[Spermatogenesis]]**: DUOX enzymes support the oxidative maturation of spermatozoa in the epididymis.
@@ -57,11 +54,11 @@ NOX overactivation contributes to the pathogenesis of multiple diseases through 
 
 - **[[Cardiovascular Disease]]**: NOX1, NOX2, and NOX4 are upregulated in [[Atherosclerosis|atherosclerotic]] vessels. NOX2 in infiltrating [[Macrophage|macrophages]] drives [[Lipid Peroxidation]] and [[Oxidized LDL]] formation. NOX4, despite its $H_2O_2$ production, may have a protective role in maintaining vascular function.
 - **[[Hypertension]]**: Angiotensin II (via AT₁ receptor) potently activates NOX1 in vascular smooth muscle, and NOX2 in the [[Renal Cortex|kidney]] and [[Brain]]; NOX-deficient mice are protected from angiotensin II-induced hypertension.
-- **[[Ischemia-reperfusion Injury]]**: NOX2 in [[Neutrophils]] produces a burst of superoxide upon reperfusion, contributing to tissue destruction in [[Myocardial Infarction]] and [[Stroke]].
+- **[[Ischemia-reperfusion Injury]]**: NOX2 in [[Neutrophils]] produces a burst of superoxide upon reperfusion, contributing to tissue destruction in [[Myocardial infarction]] and [[Stroke]].
 - **[[Neurodegeneration]]**: NOX2 activation in [[Microglia]] drives sustained neuroinflammation and neuronal injury in [[Alzheimer's Disease]], [[Parkinson's Disease]], and [[Amyotrophic Lateral Sclerosis]].
 - **[[Cancer]]**: NOX1 and NOX4 are frequently overexpressed in [[Colorectal Cancer]], [[Breast Cancer]], and [[Melanoma]], promoting proliferation, migration, and [[Angiogenesis]]. NOX4-derived $H_2O_2$ has also been implicated in [[Ferroptosis]] and [[Apoptosis]] resistance.
 
-Pharmacological inhibitors of NOX enzymes include **diphenyleneiodonium** (DPI, non-selective), **apocynin** (reported NOX inhibitor, though its specificity is controversial), and more selective second-generation compounds such as **GSK2795039** (NOX2-selective) and **GKT137831** (NOX1/4 dual inhibitor), which is in clinical trials for [[Diabetic Nephropathy]] and [[Idiopathic Pulmonary Fibrosis]].
+Pharmacological inhibitors of NOX enzymes include **diphenyleneiodonium** (DPI, non-selective), **apocynin** (reported NOX inhibitor, though its specificity is controversial), and more selective second-generation compounds such as **GSK2795039** (NOX2-selective) and **GKT137831** (NOX1/4 dual inhibitor), which is in clinical trials for [[Diabetic nephropathy]] and [[Idiopathic Pulmonary Fibrosis]].
 
 ## Connections
 - [[Superoxide Radicals]]: The primary product (except NOX4).

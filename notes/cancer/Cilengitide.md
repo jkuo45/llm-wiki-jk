@@ -1,3 +1,13 @@
+---
+type: entity
+title: Cilengitide
+description: Cilengitide is a cyclic RGD peptide derivative that acts as a potent
+  antagonist of αvβ3 and αvβ5 Integrins, primarily investigated as an anti-angiogenic
+  agent for the treatment of glioblastoma.
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Gene
+---
 # Cilengitide
 
 Cilengitide is a cyclic [[RGD peptide]] derivative that acts as a potent antagonist of αvβ3 and αvβ5 [[Integrins]], primarily investigated as an anti-angiogenic agent for the treatment of [[glioblastoma]].

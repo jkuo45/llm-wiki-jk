@@ -1,10 +1,13 @@
 ---
-aliases:
-- small ubiquitin-like modification
-category: Chemical Process
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: SUMOylation
+description: SUMOylation is a post-translational modification involving the covalent
+  attachment of Small Ubiquitin-like Modifier (SUMO) proteins; TFEB is sumoylated
+  at K316, which attenuates its activity.
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Chemical Process
+aliases: [small ubiquitin-like modification]
 ---
 # SUMOylation
 

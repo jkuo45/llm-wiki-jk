@@ -1,15 +1,14 @@
 ---
-title: "The autophagy enhancer spermidine reverses arterial aging"
-source: "https://www.sciencedirect.com/science/article/abs/pii/S004763741300050X"
-author:
-  - "Thomas J."
-  - "Christopher M."
-  - "Douglas R."
-published:
-created: 2026-06-19
-updated: 2026-07-04
 type: document
-description: "Arterial aging, characterized by stiffening of large elastic arteries and the development of arterial endothelial dysfunction, increases cardiovascula…"
+title: The autophagy enhancer spermidine reverses arterial aging
+source: https://www.sciencedirect.com/science/article/abs/pii/S004763741300050X
+author:
+- Thomas J.
+- Christopher M.
+- Douglas R.
+created: 2026-06-19
+description: Arterial aging, characterized by stiffening of large elastic arteries
+  and the development of arterial endothelial dysfunction, increases cardiovascula…
 tags:
   - "clippings"
   - "autophagy"
@@ -17,6 +16,8 @@ tags:
   - "cardiovascular"
   - "spermidine"
 ---
+
+
 ## Published by: Elsevier
 
 ### Published by

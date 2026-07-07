@@ -1,31 +1,26 @@
 ---
 type: entity
-category: protein
+title: 'Sirtuins: The Sirtuin Family in Health and Disease'
+description: Sirtuins (SIRTs) are a highly conserved family of nicotinamide adenine
+  dinucleotide (NAD⁺)-dependent enzymes belonging to Class III histone deacetylases
+  (HDACs). Spanning all domains of life, sirtu...
+created: 2026-07-04
+updated: 2026-07-05
+entity_type_1: Protein
 aliases:
   - Sirtuin Family
   - SIRTs
   - Mammalian Sirtuins
   - Class III HDACs
-relations:
-  - predicate: regulates
-    target: "notes/_link/Aging"
-    sources:
-      - s41392-022-01257-8
-  - predicate: regulates
-    target: "notes/_link/Inflammation"
-    sources:
-      - s41392-022-01257-8
-  - predicate: regulates
-    target: "notes/_link/Cardiovascular Disease"
-    sources:
-      - s41392-022-01257-8
-created: 2026-07-04
-updated: 2026-07-05
+
 sources:
   - "_document_ - sirtuins (resveratrol), gemini.md"
   - "_document_ - sirtuins in health and disease s41392-022-01257-8.md"
   - "_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i.md"
 ---
+
+
+
 
 # Sirtuins: The Sirtuin Family in Health and Disease
 

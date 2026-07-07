@@ -1,9 +1,11 @@
 ---
 type: entity
-category: other
-entity_type: "NA"
+title: ZCCHC11
+description: Also known as TUT4, it is a terminal uridylyltransferase that regulates
+  let-7 microRNA biogenesis.
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: NA
 ---
 # ZCCHC11
 

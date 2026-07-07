@@ -1,7 +1,12 @@
 ---
-entity_type: "Biological Process"
 type: entity
-category: scientific_concept
+title: Caloric Restriction
+description: Caloric restriction (CR)—reducing calorie intake without malnutrition—is
+  the most robust non-genetic intervention known to delay Aging. It exerts its effects
+  largely by remodeling the Epigenome, ef...
+created: 02_July_2026 08:57 PM PDT
+updated: 02_July_2026 08:57 PM PDT
+entity_type_1: Scientific Concept
 aliases:
   - Calorie Restriction
   - CR
@@ -42,9 +47,11 @@ relations:
     target: "Resveratrol"
     sources:
       - PMID:15254550
-created: 02_July_2026 08:57 PM PDT
-updated: 02_July_2026 08:57 PM PDT
+
 ---
+
+
+
 # Caloric Restriction
 
 **Caloric restriction (CR)**—reducing calorie intake without malnutrition—is the most robust non-genetic intervention known to delay [[Aging]]. It exerts its effects largely by remodeling the [[Epigenome]], effectively "slowing down" the biological clock and delaying the onset of age-related diseases.

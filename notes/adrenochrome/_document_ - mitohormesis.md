@@ -1,11 +1,9 @@
 ---
 type: document
-title: "Google AI Studio"
-source: "https://aistudio.google.com/u/0/prompts/1lOCjFhT2_W-ommfvnR4nTSJeOK9RSWhI"
-author:
-published:
+title: Google AI Studio
+source: https://aistudio.google.com/u/0/prompts/1lOCjFhT2_W-ommfvnR4nTSJeOK9RSWhI
 created: 2026-06-15
-description: "The fastest path from prompt to production with Gemini"
+description: The fastest path from prompt to production with Gemini
 tags:
   - "clippings"
 ---
@@ -22,7 +20,7 @@ Fuel: [[Nicotinamide Riboside]] (NR) or [[Nicotinamide Mononucleotide|NMN]] ([[N
 Cleanup: [[Urolithin A]] ([[Mitophagy|Mitophagy]] inducer).  
 1.2 Mechanism of Action (MOA)  
 Redox Signaling: [[Carbazochrome]] induces transient, controlled [[Redox Cycling]], generating a low-amplitude [[Superoxide anion|superoxide]] signal in the mitochondrial matrix.  
-Pathway Activation: This "oxidative pulse" activates the [[NRF2]]/[[Antioxidant Response Element|ARE]] antioxidant response and stimulates [[PGC1α|PGC-1α]] via the [[SIRT1|SIRT1]]/[[AMPK|AMPK]] axis (primed by [[Nicotinamide Riboside|NR]]/[[Nicotinamide Mononucleotide|NMN]]).  
+Pathway Activation: This "oxidative pulse" activates the [[NRF2]]/[[Antioxidant Response Element|ARE]] antioxidant response and stimulates [[PGC1-α|PGC-1α]] via the [[SIRT1|SIRT1]]/[[AMPK|AMPK]] axis (primed by [[Nicotinamide Riboside|NR]]/[[Nicotinamide Mononucleotide|NMN]]).  
 Electron Shunting: [[Methylene blue]] acts as an alternative electron carrier, bypassing damaged Complex I/III and reducing the potential for runaway ROS generation while maintaining the signaling pulse.  
 Selective Mitophagy: [[Urolithin A]] ensures that the increased mitochondrial turnover triggered by the mitohormetic pulse results in the clearance of dysfunctional organelles.  
 1.3 Expected Outcomes  
@@ -123,7 +121,7 @@ An analysis of the biochemical mechanisms, potential synergies, critical scienti
 	**to translocate to the nucleus and transcribe [[Antioxidant Response Element|antioxidant response elements (ARE)]]\[[
 	7
 	](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQFg-ta9dk9Wb-vgtyDX0NtdGh-6YmgMybCNGr-9m2u5UBXmK00JqVK40BJGVjbg2vdUEA1a2wFUzpF573KtE9sA1KY_sZVSq4n0C3Rd618DJcjvvsdzmaJWW7nVSIk%3D)\]. Simultaneously, it can activate the**
-	[[SIRT1|SIRT1]]/[[AMPK|AMPK]]/[[PGC1α|PGC-1α]]
+	[[SIRT1|SIRT1]]/[[AMPK|AMPK]]/[[PGC1-α|PGC-1α]]
 	**network to kickstart [[Mitochondrial Biogenesis|mitochondrial biogenesis]]\[[
 	2
 	](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQH3yBU3Ll8-eAi1lWntn-0KkqOKGI4psU1gxynsMq7howZk0bpBdzFFb8kI1MY-S3jMrNHqlFgFKQbvrH8HaD7QefJVHW8P_VzB2Lfe6gt4JV_2UTCz2ienp0IXLqhOkxE2KY2l3rqjBjgDCT74Md6arqM4rzpERJ7q8e_VQSolSA-a8usmdvjiZKd4G8l5aXvvm9zMCAeg)\].
@@ -151,7 +149,7 @@ An analysis of the biochemical mechanisms, potential synergies, critical scienti
 	[[NAD+|NAD+]]
 	**.
 - **The MRR Synergy:**
-	Downstream mitohormetic transcriptional responses (specifically the deacetylation of [[PGC1α|PGC-1α]] by [[SIRT1|SIRT1]] and [[SIRT3]]) are highly [[NAD+|NAD+]]-dependent. By priming the system with [[NAD+|NAD+]] precursors like [[Nicotinamide Riboside]] (NR) or [[Nicotinamide Mononucleotide]] (NMN), the cellular machinery is provided with the necessary cofactor fuel to carry out the [[PGC1α|PGC-1α]]/[[SIRT1|SIRT1]]-driven [[Mitochondrial Biogenesis|mitochondrial biogenesis]] initiated by the oxidative pulse.
+	Downstream mitohormetic transcriptional responses (specifically the deacetylation of [[PGC1-α|PGC-1α]] by [[SIRT1|SIRT1]] and [[SIRT3]]) are highly [[NAD+|NAD+]]-dependent. By priming the system with [[NAD+|NAD+]] precursors like [[Nicotinamide Riboside]] (NR) or [[Nicotinamide Mononucleotide]] (NMN), the cellular machinery is provided with the necessary cofactor fuel to carry out the [[PGC1-α|PGC-1α]]/[[SIRT1|SIRT1]]-driven [[Mitochondrial Biogenesis|mitochondrial biogenesis]] initiated by the oxidative pulse.
 
 #### 1.4. Cleanup: [[Urolithin A]] (The Quality Control)
 
@@ -228,7 +226,7 @@ To transition this theoretical relay into an empirical protocol, a series of in 
 		Identify the specific ratio where MB successfully buffers the bioenergetic strain of [[Carbazochrome|carbazochrome]] (maintaining or improving [[Oxygen Consumption Rate|OCR]]/ATP production) without entirely extinguishing the transient ROS signal required for [[NRF2]] activation.
 - **Verify Downstream Mitohormetic Transcriptional Activation:**
 	- Assay:
-		In cell culture, measure nuclear translocation of [[NRF2]] (via immunofluorescence or Western blot) and monitor the expression of downstream targets ([[HO-1]], [[NQO1]], [[PGC1α|PGC-1α]]) 4 to 24 hours post-treatment.
+		In cell culture, measure nuclear translocation of [[NRF2]] (via immunofluorescence or Western blot) and monitor the expression of downstream targets ([[HO-1]], [[NQO1]], [[PGC1-α|PGC-1α]]) 4 to 24 hours post-treatment.
 	- Objective:
 		Confirm that the brief "oxidative pulse" generated by the [[Carbazochrome|carbazochrome]]/MB combination successfully translates into long-term [[Mitochondrial Biogenesis|mitochondrial biogenesis]] and antioxidant defense upregulation.
 
@@ -251,6 +249,6 @@ Sources
 Display of Search Suggestions is required when using Grounding with Google Search. [Learn more](https://ai.google.dev/gemini-api/docs/grounding/search-suggestions)
 
 ### Linking Summary:
-- New links added: [[Mitohormetic Redox-Relay]], [[Mitochondrial Dysfunction|Mitochondrial Dysfunction]], [[Carbazochrome]], [[Adrenochrome]], [[Methylene blue]], [[Nicotinamide Riboside]], [[Nicotinamide Mononucleotide]], [[NAD+|NAD+]], [[Urolithin A]], [[Mitophagy|Mitophagy]], [[Redox Cycling]], [[Superoxide anion]], [[NRF2]], [[Antioxidant Response Element]], [[PGC1α]], [[SIRT1|SIRT1]], [[AMPK|AMPK]], [[SIRT3]], [[Oxygen Consumption Rate]], [[Extracellular Acidification Rate]], [[Seahorse XF Analyzer]], [[HO-1]], [[NQO1]], [[Carbazochrome sulfonic acid]], [[Autophagy|Autophagy]], [[Mitochondrial Biogenesis]]
+- New links added: [[Mitohormetic Redox-Relay]], [[Mitochondrial Dysfunction|Mitochondrial Dysfunction]], [[Carbazochrome]], [[Adrenochrome]], [[Methylene blue]], [[Nicotinamide Riboside]], [[Nicotinamide Mononucleotide]], [[NAD+|NAD+]], [[Urolithin A]], [[Mitophagy|Mitophagy]], [[Redox Cycling]], [[Superoxide anion]], [[NRF2]], [[Antioxidant Response Element]], [[PGC1-α]], [[SIRT1|SIRT1]], [[AMPK|AMPK]], [[SIRT3]], [[Oxygen Consumption Rate]], [[Extracellular Acidification Rate]], [[Seahorse XF Analyzer]], [[HO-1]], [[NQO1]], [[Carbazochrome sulfonic acid]], [[Autophagy|Autophagy]], [[Mitochondrial Biogenesis]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Mitohormetic Redox-Relay]] ↔ [[Mitochondrial Dysfunction]]

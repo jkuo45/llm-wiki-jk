@@ -1,8 +1,11 @@
 ---
-category: Scientific Concept
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: Immunometabolism
+description: '**Immunometabolism** is an emerging field that explores the close association
+  between metabolic pathways and immune cell function.'
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Scientific Concept
 ---
 # Immunometabolism
 

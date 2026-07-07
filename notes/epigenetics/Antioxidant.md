@@ -1,9 +1,10 @@
 ---
 type: entity
-category: pharmacological_action
-entity_type: "Pharmacological Action"
+title: Antioxidant
+description: '- New links added: Oxidative Stress, Reactive Oxygen Species, ROS, Metabolism'
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: Pharmacological Action
 ---
 # Antioxidant
 

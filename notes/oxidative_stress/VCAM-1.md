@@ -1,17 +1,15 @@
 ---
 type: entity
-category: protein
-aliases:
-  - "vascular cell adhesion protein 1"
-  - "CD106"
-tags:
-  - "oxidative_stress"
-  - "adhesion"
-  - "inflammation"
+title: VCAM-1
+description: Vascular cell adhesion protein 1 (VCAM-1) is a protein that mediates
+  the adhesion of lymphocytes, monocytes, eosinophils, and basophils to vascular endothelium.
+  Its expression is upregulated in res...
 created: 2026-05-09
 updated: 2026-07-04
+entity_type_1: Protein
+aliases: [vascular cell adhesion protein 1, CD106]
+tags: [oxidative_stress, adhesion, inflammation]
 ---
-
 # VCAM-1
 Vascular cell adhesion protein 1 (VCAM-1) is a protein that mediates the adhesion of lymphocytes, monocytes, eosinophils, and basophils to vascular endothelium. Its expression is upregulated in response to pro-inflammatory stimuli and is a marker for [[Endothelial Dysfunction]] and early [[Atherosclerosis]] linked to chronic [[Inflammation]].
 
@@ -23,7 +21,7 @@ Vascular cell adhesion protein 1 (VCAM-1) is a protein that mediates the adhesio
 ## Redox Regulation of VCAM-1 Expression and Function
 
 ### Transcriptional Regulation by Oxidative Stress
-VCAM-1 expression is primarily regulated at the transcriptional level by binding of [[NF-kappa B]] (specifically the [[p65]]/[[p50]] heterodimer) to two κB response elements within the VCAM-1 promoter. [[Oxidative Stress]] potently activates NF-κB through degradation of its inhibitory subunit [[IκBα]] — a process mediated by the [[IκB kinase]] ([[IKK]]) complex, whose activity is enhanced by [[Reactive Oxygen Species]]. In [[Vascular Endothelial Cells|endothelial cells]], [[Exogenous H₂O₂]] ([[Hydrogen Peroxide]]) and [[Lipid hydroperoxides]] directly induce VCAM-1 transcription, independently of cytokine stimulation. Additionally, [[TNF-alpha]] and [[IL-1b]] — both of which signal through ROS-dependent pathways — synergistically upregulate VCAM-1 via p38 [[MAPK]] and [[JNK]] activation, which stabilize VCAM-1 mRNA by binding [[HuR]] (an RNA-binding protein) to its 3'-UTR.
+VCAM-1 expression is primarily regulated at the transcriptional level by binding of [[NF-kappa B]] (specifically the [[p65]]/[[p50]] heterodimer) to two κB response elements within the VCAM-1 promoter. [[Oxidative Stress]] potently activates NF-κB through degradation of its inhibitory subunit [[IkappaBalpha]] — a process mediated by the [[IκB kinase]] ([[IKK]]) complex, whose activity is enhanced by [[Reactive Oxygen Species]]. In [[Vascular Endothelial Cells|endothelial cells]], [[Exogenous H₂O₂]] ([[Hydrogen Peroxide]]) and [[Lipid hydroperoxides]] directly induce VCAM-1 transcription, independently of cytokine stimulation. Additionally, [[TNF-alpha]] and [[IL-1b]] — both of which signal through ROS-dependent pathways — synergistically upregulate VCAM-1 via p38 [[MAPK]] and [[JNK]] activation, which stabilize VCAM-1 mRNA by binding [[HuR]] (an RNA-binding protein) to its 3'-UTR.
 
 ### NADPH Oxidase-Dependent VCAM-1 Induction
 The endothelial [[NADPH Oxidase]] isoforms [[Nox1]] and [[NOX4]] are major sources of ROS that regulate VCAM-1 expression. [[Oxidized LDL]] ([[Oxidized LDL]]), via binding to lectin-like oxidized LDL receptor-1 ([[Lox-1]]), activates Nox4, producing [[Hydrogen Peroxide]] that diffuses to the nucleus and potentiates [[NF-kappa B]] binding to the VCAM-1 promoter. [[Shear stress]] — the frictional force of blood flow — suppresses endothelial Nox activity and VCAM-1 expression at physiological levels (15–40 dyn/cm²), whereas oscillatory or low shear stress (characteristic of atherosclerotic-prone regions) enhances Nox expression and VCAM-1 upregulation. This mechano-redox coupling explains the focal distribution of early [[Atherosclerosis|atherosclerotic]] lesions at arterial bifurcations.

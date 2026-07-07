@@ -1,9 +1,12 @@
 ---
 type: entity
-category: biological_process
-entity_type: "Biological Process"
+title: Translation
+description: In molecular biology and genetics, Translation is the process in which
+  ribosomes in the cytoplasm or endoplasmic reticulum synthesize proteins after the
+  process of transcription of DNA to RNA.
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: Biological Process
 ---
 # Translation
 

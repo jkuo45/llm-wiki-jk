@@ -1,11 +1,13 @@
 ---
 type: entity
-category: scientific_concept
-aliases: []
+title: Pathogenic Threshold of Neuromelanin
+description: The Pathogenic Threshold of Neuromelanin is a hypothesized level of intracellular
+  Neuromelanin accumulation above which neuronal function is compromised and neurodegeneration
+  is triggered.
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Scientific Concept
 ---
-
 # Pathogenic Threshold of Neuromelanin
 
 The [[Pathogenic Threshold of Neuromelanin]] is a hypothesized level of intracellular [[Neuromelanin]] accumulation above which neuronal function is compromised and neurodegeneration is triggered.

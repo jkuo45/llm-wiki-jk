@@ -1,11 +1,13 @@
 ---
 type: entity
-category: medical condition
-aliases: []
+title: Sepsis
+description: '**Etiology and pathophysiology:** Sepsis is a medical condition characterized
+  by specific pathological changes in cellular, tissue, or organ function. Its development
+  involves genetic, environmenta...'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Medical Condition
 ---
-
 # Sepsis
 
 **Etiology and pathophysiology:** Sepsis is a medical condition characterized by specific pathological changes in cellular, tissue, or organ function. Its development involves genetic, environmental, and lifestyle risk factors.
@@ -15,3 +17,11 @@ updated: 2026-07-04
 **Disease mechanisms:** The pathogenesis of Sepsis involves dysregulated signaling pathways, cellular dysfunction, and tissue damage. Molecular mechanisms include inflammation, oxidative stress, and metabolic dysregulation.
 
 **Therapeutic strategies:** Management of Sepsis includes pharmacological interventions, lifestyle modifications, and supportive care. Emerging therapies target specific molecular pathways involved in disease progression.
+
+### Connections
+- [[Sepsis]] — related entity
+
+### Linking Summary
+- New links added: [[Sepsis]]
+- Strong connections to strengthen: [[Sepsis]] ↔ [[Sepsis]]
+

@@ -1,25 +1,20 @@
 ---
 type: entity
-category: enzyme
+title: AceCS1
+description: AceCS1 (Acetyl-CoA Synthetase 1, cytoplasmic; also encoded by ACSS2)
+  is a cytoplasmic enzyme that catalyzes the conversion of acetate and CoA into acetyl-CoA,
+  consuming ATP. Cytoplasmic acetyl-CoA ...
+created: 2026-07-03
+updated: 2026-07-03
+entity_type_1: Enzyme
 aliases:
   - AceCS1
   - Acetyl-CoA Synthetase 1
   - ACSS2
-database_ids:
-  uniprot: Q9NR19
-  hgnc: HGNC:15952
-relations:
-  - predicate: activated_by
-    target: "SIRT1"
-    sources:
-      - PMID:16790548
-  - predicate: regulated_by
-    target: "notes/_link/Caloric Restriction"
-    sources:
-      - PMID:16790548
-created: 2026-07-03
-updated: 2026-07-03
 ---
+
+
+
 
 # AceCS1
 

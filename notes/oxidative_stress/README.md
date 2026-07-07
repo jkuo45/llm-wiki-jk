@@ -1,3 +1,10 @@
+---
+type: index
+title: Oxidative_Stress notes
+description: Index of wiki notes for oxidative_stress
+created: 2026-07-06
+updated: 2026-07-06
+---
 # Oxidative Stress
 
 ## Maintenance
@@ -82,7 +89,7 @@ Sentiment polarity of the entity within the context of oxidative stress and horm
 | [[ABCA1]]                                     | 04_July_2026 08:00 PM | Protein             | 7           | 1           | Essential protein for cholesterol efflux; regulated by oxidative stress/LXR.            |
 | [[Alpha-Lipoic Acid]]                         | 04_July_2026 08:00 PM | Biological Molecule | 9           | 1           | Potent universal antioxidant and mitochondrial cofactor.                                |
 | [[Alzheimer's Disease]]           | 27_May_2026 11:14 AM | Medical Condition   | 8           | -1          | Pathological condition driven significantly by chronic oxidative damage.                |
-| [[Amyloid-beta]]                              | 04_July_2026 08:00 PM | Protein             | 7           | -1          | Neurotoxic peptide that both causes and is induced by oxidative stress.                 |
+| [[Amyloid Beta]]                              | 04_July_2026 08:00 PM | Protein             | 7           | -1          | Neurotoxic peptide that both causes and is induced by oxidative stress.                 |
 | [[Amyotrophic Lateral Sclerosis]] | 27_May_2026 11:14 AM | Medical Condition   | 8           | -1          | Neurodegenerative disease with strong links to redox imbalance.                         |
 | [[Antioxidants]]                  | 27_May_2026 08:24 AM | Chemical Class      | 10          | 1           | Core theme; essential for neutralizing ROS and maintaining redox balance.               |
 | [[Apoptosis]]                     | 25_May_2026 05:23 PM | Biological Process  | 9           | 0           | Programmed cell death; can be a healthy removal of damaged cells or pathological.       |

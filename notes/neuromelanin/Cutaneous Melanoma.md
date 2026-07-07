@@ -1,11 +1,12 @@
 ---
 type: entity
-category: medical_condition
-aliases: []
+title: Cutaneous Melanoma
+description: Epidemiological studies have revealed a significant and reciprocal link
+  between cutaneous melanoma and Parkinson's Disease.
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Medical Condition
 ---
-
 # Cutaneous Melanoma
 
 [[Cutaneous Melanoma]] is a type of skin cancer that develops from the pigment-producing cells known as melanocytes.

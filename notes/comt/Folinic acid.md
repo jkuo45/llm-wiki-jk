@@ -1,12 +1,14 @@
 ---
 type: entity
-category: chemical
-aliases:
-  - 'leucovorin'
+title: Folinic acid
+description: '**Folinic acid** (also known as leucovorin) is a form of Folate that
+  is already partially reduced and does not require the MTHFR enzyme for its initial
+  conversion.'
 created: 2026-05-25
 updated: 2026-07-04
+entity_type_1: Chemical Compound
+aliases: [leucovorin]
 ---
-
 # Folinic acid
 
 **[[Folinic acid]]** (also known as leucovorin) is a form of [[Folate]] that is already partially reduced and does not require the [[MTHFR]] enzyme for its initial conversion.

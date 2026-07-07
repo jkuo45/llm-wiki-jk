@@ -1,10 +1,13 @@
 ---
-aliases:
-- persulfidation
-category: Chemical Process
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: S-sulfhydration
+description: S-sulfhydration is a post-translational modification of cysteine residues
+  by hydrogen sulfide (H2S); TFEB undergoes S-sulfhydration at C212, which promotes
+  its nuclear translocation.
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Chemical Process
+aliases: [persulfidation]
 ---
 # S-sulfhydration
 

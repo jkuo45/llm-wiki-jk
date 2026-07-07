@@ -1,11 +1,11 @@
 ---
 type: entity
-category: enzyme
-aliases: []
+title: Tyrosinase-related protein-1
+description: '- New links added: Tyrosinase, Neuromelanin, Parkinson''s Disease.'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Enzyme
 ---
-
 # Tyrosinase-related protein-1
 
 [[Tyrosinase-related protein-1]] (TRP-1) is an enzyme involved in the biosynthesis of melanin. While primarily known for its role in peripheral melanocytes, its expression and potential role in the brain, particularly in relation to [[Neuromelanin]] synthesis and [[Parkinson's Disease]], are subjects of ongoing research.

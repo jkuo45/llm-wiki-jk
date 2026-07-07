@@ -1,11 +1,13 @@
 ---
-aliases:
-- ATG14L
-- Barkor
-category: Protein
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: Atg14
+description: Atg14, also known as Atg14L or Barkor, is an essential subunit of the
+  Vps34-containing class III PI3K complex I that determines its localization to the
+  Autophagosome isolation membrane.
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Protein
+aliases: [ATG14L, Barkor]
 ---
 # Atg14
 

@@ -1,11 +1,13 @@
 ---
-aliases:
-- tuberin
-- tuberous sclerosis 2
-category: Protein
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: TSC2
+description: Tuberous sclerosis complex 2 (TSC2), also known as tuberin, is a protein
+  that, in complex with TSC1, negatively regulates mTORC1 activity and is a key integration
+  point for signals from growth fact...
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Protein
+aliases: [tuberin, tuberous sclerosis 2]
 ---
 # TSC2
 Tuberous sclerosis complex 2 (TSC2), also known as tuberin, is a protein that, in complex with [[TSC1]], negatively regulates [[mTORC1]] activity and is a key integration point for signals from [[growth factors]], [[energy status]], and [[stress]].

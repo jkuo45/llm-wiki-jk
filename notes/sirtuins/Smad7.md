@@ -1,20 +1,17 @@
 ---
 type: entity
-category: protein
-aliases:
-  - Smad7
-  - SMAD7
-  - MADH7
-database_ids:
-  uniprot: O15105
-  hgnc: HGNC:6773
-relations:
-  - predicate: deacetylated_by
-    target: "SIRT1"
-    sources:
-      - PMID:17098745
+title: Smad7
+description: "**Smad7** (SMAD Family Member 7) is an inhibitory SMAD protein that\
+  \ acts as an antagonist of Transforming Growth Factor-beta (TGF-$\beta$) signaling.\
+  \ It binds physically to the TGF-$\beta$ Type I r..."
 created: 2026-07-03
 updated: 2026-07-03
+entity_type_1: Protein
+aliases: [Smad7, SMAD7, MADH7]
+
+sources:
+- PMID:17098745
+target: SIRT1
 ---
 
 # Smad7

@@ -1,24 +1,17 @@
 ---
 type: entity
-category: protein
-aliases:
-  - HES1
-  - HEY2
-  - bHLH repressors
-database_ids:
-  uniprot:
-    - Q9Y4J2 (Hes1)
-    - Q9UBP5 (Hey2)
-  hgnc:
-    - HGNC: (Hes1)
-    - HGNC: (Hey2)
-relations:
-  - predicate: interacts_with
-    target: "SIRT1"
-    sources:
-      - PMID:17202159
+title: Hes1 and Hey2
+description: '**Hes1** (Hairy and Enhancer of Split 1) and **Hey2** (Hairy-related
+  Transcription Factor 2, also known as HRT2 or HERP1) are **basic helix-loop-helix
+  (bHLH) transcriptional repressors** that funct...'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Protein
+aliases: [HES1, HEY2, bHLH repressors]
+
+sources:
+- PMID:17202159
+target: SIRT1
 ---
 
 # Hes1 and Hey2

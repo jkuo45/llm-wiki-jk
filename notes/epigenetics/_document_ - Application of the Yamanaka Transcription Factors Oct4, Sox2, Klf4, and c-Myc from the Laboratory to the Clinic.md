@@ -1,23 +1,28 @@
 ---
-title: "Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic"
-source: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10531188/"
+type: document
+title: Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc
+  from the Laboratory to the Clinic
+source: https://pmc.ncbi.nlm.nih.gov/articles/PMC10531188/
 author:
-  - "Marisol Aguirre"
-  - "Manuela Escobar"
-  - "Sebastián Forero Amézquita"
-  - "David Cubillos"
-  - "Camilo Rincón"
-  - "Paula Vanegas"
-  - "María Paula Tarazona"
-  - "Sofía Atuesta Escobar"
-  - "Juan Camilo Blanco"
-  - "Luis Gustavo Celis"
-published:
+- Marisol Aguirre
+- Manuela Escobar
+- Sebastián Forero Amézquita
+- David Cubillos
+- Camilo Rincón
+- Paula Vanegas
+- María Paula Tarazona
+- Sofía Atuesta Escobar
+- Juan Camilo Blanco
+- Luis Gustavo Celis
 created: 2026-05-13
-description: "The transcription factors Oct4, Sox2, Klf4, and c-Myc enable the reprogramming of Somatic Cells into induced pluripotent cells. Reprogramming generates newly differentiated cells for potential therapies in notes/_link/Cancer, notes/_link/Neurodegenerative Diseases, and rejuvenation processes."
+description: The transcription factors Oct4, Sox2, Klf4, and c-Myc enable the reprogramming
+  of Somatic Cells into induced pluripotent cells. Reprogramming generates newly differentiated
+  cells for potential therapies in notes/_link/Cancer, notes/_link/Neurodegenerative
+  Diseases, and rejuvenation processes.
 tags:
   - "clippings"
 ---
+
 . 2023 Aug 26;14(9):1697. doi: [10.3390/genes14091697](https://doi.org/10.3390/genes14091697)
 
 [Marisol Aguirre](https://pubmed.ncbi.nlm.nih.gov/?term=%22Aguirre%20M%22[Author]) <sup>1,</sup><sup>2</sup>, [Manuela Escobar](https://pubmed.ncbi.nlm.nih.gov/?term=%22Escobar%20M%22[Author]) <sup>3</sup>, [Sebastián Forero Amézquita](https://pubmed.ncbi.nlm.nih.gov/?term=%22Forero%20Am%C3%A9zquita%20S%22[Author]) <sup>3</sup>, [David Cubillos](https://pubmed.ncbi.nlm.nih.gov/?term=%22Cubillos%20D%22[Author]) <sup>3</sup>, [Camilo Rincón](https://pubmed.ncbi.nlm.nih.gov/?term=%22Rinc%C3%B3n%20C%22[Author]) <sup>3</sup>, [Paula Vanegas](https://pubmed.ncbi.nlm.nih.gov/?term=%22Vanegas%20P%22[Author]) <sup>3</sup>, [María Paula Tarazona](https://pubmed.ncbi.nlm.nih.gov/?term=%22Tarazona%20MP%22[Author]) <sup>3</sup>, [Sofía Atuesta Escobar](https://pubmed.ncbi.nlm.nih.gov/?term=%22Atuesta%20Escobar%20S%22[Author]) <sup>3</sup>, [Juan Camilo Blanco](https://pubmed.ncbi.nlm.nih.gov/?term=%22Blanco%20JC%22[Author]) <sup>3</sup>, [Luis Gustavo Celis](https://pubmed.ncbi.nlm.nih.gov/?term=%22Celis%20LG%22[Author]) <sup>3,</sup><sup>*</sup>

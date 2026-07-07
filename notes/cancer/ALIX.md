@@ -1,3 +1,12 @@
+---
+type: entity
+title: ALIX
+description: '**ALIX** (Programmed cell death 6-interacting protein) is a protein
+  involved in endosome biogenesis and exosomal protein sorting.'
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Receptor
+---
 # ALIX
 
 **ALIX** (Programmed cell death 6-interacting protein) is a protein involved in endosome biogenesis and exosomal protein sorting.

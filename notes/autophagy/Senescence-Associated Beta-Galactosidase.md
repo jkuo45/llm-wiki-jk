@@ -1,10 +1,12 @@
 ---
-aliases:
-- SA-β-gal
-category: Biomarker
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: Senescence-Associated Beta-Galactosidase
+description: '**Senescence-Associated Beta-Galactosidase** (SA β-gal) is a widely
+  used Biomarkers for Senescence.'
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Biomarker
+aliases: [SA-β-gal]
 ---
 # Senescence-Associated Beta-Galactosidase
 

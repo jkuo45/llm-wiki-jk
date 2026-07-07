@@ -1,14 +1,14 @@
 ---
 type: entity
-category: biological_process
-aliases:
-  - Cell senescence
-  - Replicative senescence
-  - Cellular aging
+title: Cellular Senescence
+description: '- SIRT1 has a dual role: it can both inhibit and promote senescence
+  depending on cellular context. SIRT1 suppresses senescence by deacetylating p53
+  and FOXO3a, but can also promote senescence throu...'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Biological Process
+aliases: [Cell senescence, Replicative senescence, Cellular aging]
 ---
-
 # Cellular Senescence
 
 [[Cellular Senescence]] is a state of permanent cell cycle arrest triggered by various stressors including [[DNA Damage|DNA damage]], [[Oxidative Stress|oxidative stress]], telomere erosion, and oncogene activation. Senescent cells secrete a complex mixture of pro-inflammatory cytokines, chemokines, and matrix metalloproteinases known as the [[Senescence-Associated Secretory Phenotype]] (SASP), which drives [[Inflammation|inflammation]] and tissue dysfunction during [[Aging|aging]].

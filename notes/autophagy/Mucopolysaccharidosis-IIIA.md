@@ -1,11 +1,12 @@
 ---
-aliases:
-- MPS IIIA
-- Sanfilippo syndrome A
-category: Medical Condition
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: Mucopolysaccharidosis-IIIA
+description: Also known as Sanfilippo syndrome type A, a Lysosomal Storage Diseases
+  characterized by the accumulation of heparan sulfate.
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Medical Condition
+aliases: [MPS IIIA, Sanfilippo syndrome A]
 ---
 # Mucopolysaccharidosis-IIIA
 

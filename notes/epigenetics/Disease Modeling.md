@@ -1,9 +1,12 @@
 ---
 type: entity
-category: other
-entity_type: "NA"
+title: Disease Modeling
+description: Modern Disease Modeling often integrates iPSC technology with CRISPR
+  genome editing to create Isogenic Pair. By comparing cells that differ only by a
+  single pathogenic variant, scientists can confi...
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: NA
 ---
 # Disease Modeling
 

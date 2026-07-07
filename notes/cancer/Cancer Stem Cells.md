@@ -1,3 +1,13 @@
+---
+type: entity
+title: Cancer Stem Cells
+description: Cancer Stem Cells (CSCs) are a subpopulation of cells within a tumor
+  that possess characteristics similar to normal stem cells, specifically the ability
+  to self-renew and differentiate into multipl...
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Enzyme
+---
 # Cancer Stem Cells
 
 Cancer Stem Cells (CSCs) are a subpopulation of cells within a tumor that possess characteristics similar to normal stem cells, specifically the ability to self-renew and differentiate into multiple cell types.

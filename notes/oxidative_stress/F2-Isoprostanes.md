@@ -1,11 +1,14 @@
 ---
 type: entity
-category: chemical_class
-aliases: [F2-IsoPs, 8-iso-PGF2α, 15-F₂t-IsoP, Isoprostanes]
+title: F2-Isoprostanes
+description: '**F2-Isoprostanes (F2-IsoPs)** are prostaglandin-like compounds formed
+  non-enzymatically by free radical-mediated Lipid Peroxidation of Arachidonic acid,
+  widely considered the gold-standard biomark...'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Chemical Class
+aliases: [F2-IsoPs, 8-iso-PGF2α, 15-F₂t-IsoP, Isoprostanes]
 ---
-
 # F2-Isoprostanes
 
 **F2-Isoprostanes (F2-IsoPs)** are prostaglandin-like compounds formed non-enzymatically by free radical-mediated [[Lipid Peroxidation|peroxidation]] of [[Arachidonic acid]], widely considered the gold-standard biomarker for endogenous [[Oxidative Stress|oxidative stress]].

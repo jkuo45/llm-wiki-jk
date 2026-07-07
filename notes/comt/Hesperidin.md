@@ -1,11 +1,12 @@
 ---
 type: entity
-category: chemical
-aliases: []
+title: Hesperidin
+description: '**Hesperidin** is a plant chemical that is classified as a Flavonoids.
+  It is found most abundantly in citrus fruits.'
 created: 2026-05-25
 updated: 2026-07-04
+entity_type_1: Chemical Compound
 ---
-
 # Hesperidin
 
 **[[Hesperidin]]** is a plant chemical that is classified as a [[Flavonoids|flavanone]]. It is found most abundantly in citrus fruits.

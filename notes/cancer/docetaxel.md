@@ -1,3 +1,13 @@
+---
+type: entity
+title: Docetaxel
+description: '**Docetaxel** (sold under the brand name Taxotere among others) is a
+  chemotherapy medication used to treat a number of types of cancer, including Breast
+  Cancer, head and neck cancer, stomach cancer...'
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Medical Condition
+---
 # Docetaxel
 
 **Docetaxel** (sold under the brand name Taxotere among others) is a chemotherapy medication used to treat a number of types of cancer, including [[Breast Cancer]], head and neck cancer, stomach cancer, prostate cancer, and non-small-cell lung cancer.

@@ -1,11 +1,12 @@
 ---
-aliases:
-- EO
-- eltrombopag olamine
-category: Chemical Compound
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: Eltrombopag
+description: Eltrombopag (EO) is an FDA-approved drug that acts as a direct inhibitor
+  of TFEB by disrupting its interaction with DNA.
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Chemical Compound
+aliases: [EO, eltrombopag olamine]
 ---
 # Eltrombopag
 

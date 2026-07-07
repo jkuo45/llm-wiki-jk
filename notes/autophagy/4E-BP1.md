@@ -1,11 +1,13 @@
 ---
-aliases:
-- EIF4EBP1
-- eIF4E-binding protein 1
-category: Protein
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: 4E-BP1
+description: Eukaryotic initiation factor 4E (eIF4E)-binding protein 1 (4E-BP1) is
+  a major downstream effector of mTORC1 that, when unphosphorylated, inhibits protein
+  synthesis by sequestering eIF4E.
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Protein
+aliases: [EIF4EBP1, eIF4E-binding protein 1]
 ---
 # 4E-BP1
 Eukaryotic initiation factor 4E (eIF4E)-binding protein 1 (4E-BP1) is a major downstream effector of [[mTORC1]] that, when unphosphorylated, inhibits [[protein synthesis]] by sequestering [[eIF4E]].

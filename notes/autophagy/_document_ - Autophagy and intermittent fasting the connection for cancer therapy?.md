@@ -1,21 +1,23 @@
 ---
-title: "Autophagy and intermittent fasting: the connection for cancer therapy?"
-source: "https://www.sciencedirect.com/science/article/pii/S1807593222011565?via%3Dihub"
+type: document
+title: 'Autophagy and intermittent fasting: the connection for cancer therapy?'
+source: https://www.sciencedirect.com/science/article/pii/S1807593222011565?via%3Dihub
 author:
-  - "Antunes F"
-  - "Erustes AG"
-  - "Costa AJ"
-  - "Nascimento AC"
-  - "Trindade CB"
-  - "Ureshino RP"
-  - "Pereira GJ"
-  - "Smaili SS"
-published:
+- Antunes F
+- Erustes AG
+- Costa AJ
+- Nascimento AC
+- Trindade CB
+- Ureshino RP
+- Pereira GJ
+- Smaili SS
 created: 2026-05-25
-description: "Cancer is a leading cause of death worldwide, and its incidence is continually increasing. Although anticancer therapy has improved significantly, it …"
+description: Cancer is a leading cause of death worldwide, and its incidence is continually
+  increasing. Although anticancer therapy has improved significantly, it …
 tags:
   - "clippings"
 ---
+
 ## REVIEW ARTICLE
 
 [https://doi.org/10.6061/clinics/2018/e814s](https://doi.org/10.6061/clinics/2018/e814s "Persistent link using digital object identifier")

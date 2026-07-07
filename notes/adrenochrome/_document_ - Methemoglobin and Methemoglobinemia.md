@@ -2,10 +2,9 @@
 type: document
 title: Grok - Methemoglobin  and Methemoglobinemia
 source: https://x.com/i/grok?conversation=2057280570129100952
-author:
-published:
 created: 2026-05-20
-description: Grok is a free AI assistant designed by xAI to maximize truth and objectivity. Grok offers real-time search, image generation, trend analysis, and more.
+description: Grok is a free AI assistant designed by xAI to maximize truth and objectivity.
+  Grok offers real-time search, image generation, trend analysis, and more.
 tags:
   - clippings
 ---

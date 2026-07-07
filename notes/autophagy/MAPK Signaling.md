@@ -1,10 +1,13 @@
 ---
-aliases:
-- mitogen-activated protein kinase signaling
-category: Scientific Concept
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: MAPK Signaling
+description: Mitogen-activated protein kinase (MAPK) signaling pathways communicate
+  signals from cell surface receptors to the nucleus; the p38 MAPK pathway is a key
+  regulator of TFEB localization.
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Scientific Concept
+aliases: [mitogen-activated protein kinase signaling]
 ---
 # MAPK Signaling
 

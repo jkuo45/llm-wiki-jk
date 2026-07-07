@@ -1,10 +1,13 @@
 ---
-aliases:
-- facilitates chromatin transcription complex
-category: Scientific Concept
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: FACT complex
+description: The Facilitates Chromatin Transcription (FACT) complex is a histone chaperone
+  that binds to TFEB and TFE3 to facilitate the expression of lysosomal and antioxidant
+  genes.
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Scientific Concept
+aliases: [facilitates chromatin transcription complex]
 ---
 # FACT complex
 

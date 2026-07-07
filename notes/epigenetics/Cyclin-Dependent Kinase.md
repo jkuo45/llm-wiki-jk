@@ -1,9 +1,10 @@
 ---
 type: entity
-category: enzyme
-entity_type: "Enzyme"
+title: Cyclin-Dependent Kinase
+description: '- New links added: Cell Cycle, Cyclin, CDK, CDK2, CDK4, CDK6'
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: Enzyme
 ---
 # Cyclin-Dependent Kinase
 

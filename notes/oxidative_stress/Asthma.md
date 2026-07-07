@@ -1,16 +1,15 @@
 ---
 type: entity
-category: disease
-aliases:
-  - "bronchial asthma"
-tags:
-  - "oxidative_stress"
-  - "inflammation"
-  - "respiratory"
+title: Asthma
+description: Asthma is a common long-term inflammatory disease of the airways of the
+  lungs. It is characterized by variable and recurring symptoms including reversible
+  airflow obstruction and bronchospasm. Oxid...
 created: 2026-05-09
 updated: 2026-07-04
+entity_type_1: Medical Condition
+aliases: [bronchial asthma]
+tags: [oxidative_stress, inflammation, respiratory]
 ---
-
 # Asthma
 Asthma is a common long-term inflammatory disease of the airways of the lungs. It is characterized by variable and recurring symptoms including reversible airflow obstruction and bronchospasm. [[Oxidative Stress]] and [[Reactive Oxygen Species]] play significant roles in the [[Inflammation]] of the airways. Antioxidants like [[Vitamin E]] have been studied for their potential protective effects.
 

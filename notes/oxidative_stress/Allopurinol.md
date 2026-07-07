@@ -1,11 +1,16 @@
 ---
 type: entity
-category: chemical_compound
-aliases: [1,5-Dihydro-4H-pyrazolo[3,4-d]pyrimidin-4-one, Zyloprim]
+title: Allopurinol
+description: '**Allopurinol** is a hypoxanthine analog that inhibits Xanthine Oxidase,
+  used primarily to lower uric acid in Gout and Tumor Lysis Syndrome, and increasingly
+  recognized for its antioxidant and card...'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Chemical Compound
+aliases:
+  - 1,5-Dihydro-4H-pyrazolo[3,4-d]pyrimidin-4-one
+  - Zyloprim
 ---
-
 # Allopurinol
 
 **Allopurinol** is a hypoxanthine analog that inhibits [[Xanthine Oxidase|Xanthine Oxidase (XO)]], used primarily to lower uric acid in [[Gout]] and [[Tumor Lysis Syndrome]], and increasingly recognized for its antioxidant and cardiovascular protective properties.

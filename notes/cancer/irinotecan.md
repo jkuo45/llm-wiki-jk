@@ -1,3 +1,12 @@
+---
+type: entity
+title: irinotecan
+description: '**Irinotecan** (also known as Camptosar) is a chemotherapy medication
+  used for the treatment of Colorectal Cancer and small cell lung cancer.'
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Enzyme
+---
 # irinotecan
 
 **Irinotecan** (also known as Camptosar) is a chemotherapy medication used for the treatment of [[Colorectal Cancer|colorectal cancer]] and small cell lung cancer.

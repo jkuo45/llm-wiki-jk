@@ -1,3 +1,12 @@
+---
+type: entity
+title: TRAIL
+description: '**TRAIL** (TNF-related apoptosis-inducing ligand), also known as TNFSF10,
+  is a cytokine that induces Apoptosis by binding to its death receptors.'
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Enzyme
+---
 # TRAIL
 
 **TRAIL** (TNF-related apoptosis-inducing ligand), also known as TNFSF10, is a cytokine that induces [[Apoptosis]] by binding to its death receptors.
@@ -12,7 +21,7 @@ TRAIL is of significant interest in oncology because it has the unique ability t
 Many therapeutic strategies aim to harness the TRAIL pathway, including:
 - **Recombinant TRAIL**: Direct administration of the ligand.
 - **Agonistic Antibodies**: Antibodies targeting DR4 or DR5.
-- **Synergy**: Combining TRAIL with IAP antagonists (e.g., [[Smac]]/[[DIABLO]] mimetics) to overcome resistance.
+- **Synergy**: Combining TRAIL with IAP antagonists (e.g., [[Smac DIABLO]]/[[Smac DIABLO]] mimetics) to overcome resistance.
 
 ## Connections
 - [[Extrinsic Pathway]]: A primary ligand for death receptor-mediated apoptosis.
@@ -21,6 +30,6 @@ Many therapeutic strategies aim to harness the TRAIL pathway, including:
 - [[XIAP]]: High levels of XIAP can confer resistance to TRAIL-induced apoptosis.
 
 ### Linking Summary:
-- New links added: [[Apoptosis]], [[Extrinsic Pathway]], [[DR4]], [[DR5]], [[Caspase-8]], [[Smac]]/[[DIABLO]], [[XIAP]]
-- Suggested new entity notes to create: [[DR4]], [[DR5]], [[Smac]]/[[DIABLO]]
+- New links added: [[Apoptosis]], [[Extrinsic Pathway]], [[DR4]], [[DR5]], [[Caspase-8]], [[Smac DIABLO]]/[[Smac DIABLO]], [[XIAP]]
+- Suggested new entity notes to create: [[DR4]], [[DR5]], [[Smac DIABLO]]/[[Smac DIABLO]]
 - Strong connections to strengthen: [[TRAIL]] ↔ [[Extrinsic Pathway]]

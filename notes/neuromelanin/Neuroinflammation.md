@@ -1,11 +1,12 @@
 ---
 type: entity
-category: biological_process
-aliases: []
+title: Neuroinflammation
+description: In Parkinson's Disease, neuroinflammation is a prominent feature and
+  is notably restricted to regions containing Neuromelanin.
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Biological Process
 ---
-
 # Neuroinflammation
 
 [[Neuroinflammation]] refers to the inflammatory response within the central nervous system, characterized by the activation of glial cells and the release of pro-inflammatory cytokines.

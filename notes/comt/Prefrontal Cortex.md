@@ -1,24 +1,26 @@
 ---
 type: entity
-category: anatomy
-aliases:
-  - 'PFC'
+title: Prefrontal Cortex
+description: The **Prefrontal Cortex** (Prefrontal Cortex) is the cerebral cortex
+  which covers the front part of the frontal lobe. This brain region is implicated
+  in complex cognitive behavior, personality expr...
 created: 2026-05-25
 updated: 2026-07-04
+entity_type_1: Anatomy
+aliases: [PFC]
 ---
-
 # Prefrontal Cortex
 
-The **[[Prefrontal Cortex]]** ([[PFC]]) is the cerebral cortex which covers the front part of the frontal lobe. This brain region is implicated in complex cognitive behavior, personality expression, decision making, and moderating social behavior.
+The **[[Prefrontal Cortex]]** ([[Prefrontal Cortex]]) is the cerebral cortex which covers the front part of the frontal lobe. This brain region is implicated in complex cognitive behavior, personality expression, decision making, and moderating social behavior.
 
 ## Cognitive Functions
-The [[PFC]] is essential for:
+The [[Prefrontal Cortex]] is essential for:
 - [[Working Memory]]
 - [[Executive Function]]
 - Attention and focus
 
 ## Neurotransmitter Regulation
-In the [[PFC]], the [[Dopamine Transporter]] ([[DAT]]) is less abundant than in the [[Sirtuins]]. Consequently, [[Dopamine]] clearance depends heavily on:
+In the [[Prefrontal Cortex]], the [[Dopamine Transporter]] ([[DAT]]) is less abundant than in the [[Sirtuins]]. Consequently, [[Dopamine]] clearance depends heavily on:
 1. [[COMT]] ([[Catechol-O-methyltransferase]])
 2. [[Norepinephrine transporter]] ([[NET]])
 

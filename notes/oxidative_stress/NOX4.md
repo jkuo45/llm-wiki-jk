@@ -1,14 +1,17 @@
 ---
 type: entity
-category: enzyme
-aliases: [NADPH oxidase 4, Renox, Kidney oxidase]
-database_ids:
-  hgnc: HGNC:7891
-  uniprot: Q9NPH5
+title: NOX4
+description: '**NOX4** (NADPH oxidase 4) is a constitutively active NADPH oxidase
+  isoform that primarily produces Hydrogen Peroxide rather than Superoxide Radicals.
+  It is broadly expressed in the kidney, vascula...'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Enzyme
+aliases: [NADPH oxidase 4, Renox, Kidney oxidase]
+database_ids:
+  uniprot: Q9NPH5
+  hgnc: HGNC:7891
 ---
-
 # NOX4
 
 **NOX4** (NADPH oxidase 4) is a constitutively active NADPH oxidase isoform that primarily produces [[Hydrogen Peroxide|H₂O₂]] rather than [[Superoxide Radicals]]. It is broadly expressed in the kidney, vasculature, liver, lung, and thyroid, where it functions in cell differentiation, senescence, angiogenesis, and metabolic regulation.

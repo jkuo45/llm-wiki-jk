@@ -1,10 +1,13 @@
 ---
-aliases:
-- PLR
-category: Biological Process
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: Phagocytic Lysosome Reformation
+description: '**Phagocytic Lysosome Reformation** (PLR) is the process by which Lysosomes
+  are reformed from phagolysosomes after the degradation of phagocytosed contents,
+  involving regulators such as PIKfyve, TR...'
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Biological Process
+aliases: [PLR]
 ---
 # Phagocytic Lysosome Reformation
 

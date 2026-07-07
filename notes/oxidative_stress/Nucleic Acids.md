@@ -1,17 +1,15 @@
 ---
 type: entity
-category: metabolite
-aliases:
-  - "DNA"
-  - "RNA"
-tags:
-  - "oxidative_stress"
-  - "dna_damage"
-  - "genetics"
+title: Nucleic Acids
+description: Nucleic acids are biopolymers, such as DNA and RNA, composed of nucleotide
+  monomers. They are responsible for the storage and expression of genetic information
+  in all living organisms.
 created: 2026-05-09
 updated: 2026-07-04
+entity_type_1: Metabolite
+aliases: [DNA, RNA]
+tags: [oxidative_stress, dna_damage, genetics]
 ---
-
 # Nucleic Acids
 
 ## Definition
@@ -103,7 +101,7 @@ oxidation of RNA is elevated in [[Neurodegenerative Diseases]] ([[Alzheimer's Di
 The primary repair pathway for oxidative base damage:
 1. **[[DNA Glycosylase]] recognition**:
    - [[OGG1]] (8-oxoguanine DNA glycosylase): Removes 8-oxo-dG, FapyG
-   - [[NEIL1/NEL2]]: Removes FapyA, FapyG, thymine glycol
+   - [[NEIL1]]/[[NEIL2]]: Removes FapyA, FapyG, thymine glycol
    - [[NTHL1]]: Removes thymine glycol, 5-hydroxycytosine
    - [[MUTYH]]: Removes adenine mispaired with 8-oxo-dG
 2. **AP endonuclease** ([[APE1]]): Cleaves the abasic site

@@ -1,3 +1,12 @@
+---
+type: entity
+title: Phospholipase A2
+description: '**Phospholipase A2** (PLA2) is an enzyme that releases fatty acids from
+  the second carbon group of glycerol.'
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Medical Condition
+---
 # Phospholipase A2
 
 **Phospholipase A2** (PLA2) is an enzyme that releases fatty acids from the second carbon group of glycerol.

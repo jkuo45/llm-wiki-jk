@@ -1,11 +1,13 @@
 ---
 type: entity
-category: Cell Type
-aliases: []
+title: Erythrocytes
+description: '**Erythrocytes**, or **Red blood cells** (RBCs), are the most common
+  type of blood cell and the principal means of delivering oxygen (O₂) to the body
+  tissues via blood flow through the circulatory ...'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Cell Type
 ---
-
 # Erythrocytes
 
 **Erythrocytes**, or **Red blood cells** (RBCs), are the most common type of blood cell and the principal means of delivering oxygen (O₂) to the body tissues via blood flow through the circulatory system.

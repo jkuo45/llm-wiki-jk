@@ -1,11 +1,13 @@
 ---
 type: entity
-category: chemical
-entity_type: "Chemical Compound"
+title: 5-Azacytidine
+description: '**5-Azacytidine** (5-aza-CR; trade name Vidaza) is a ribose nucleoside
+  analog of cytidine that functions as a dual DNA Methylation inhibitor and RNA incorporation
+  agent. It is the prototypical Epig...'
 created: 2024-01-01
 updated: 2024-07-04
+entity_type_1: Chemical Compound
 ---
-
 # 5-Azacytidine
 
 **5-Azacytidine** (5-aza-CR; trade name Vidaza) is a ribose nucleoside analog of cytidine that functions as a dual [[DNA Methylation|DNA methyltransferase (DNMT)]] inhibitor and [[RNA]] incorporation agent. It is the prototypical [[Epigenetic Modifiers|epidrug]] and first-line therapy for [[Myelodysplastic Syndrome|myelodysplastic syndrome (MDS)]]. It is also a potent inducer of [[Stress-Induced Premature Senescence|premature senescence]] in vitro.

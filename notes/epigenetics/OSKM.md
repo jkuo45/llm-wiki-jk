@@ -1,9 +1,12 @@
 ---
 type: entity
-category: other
-entity_type: "NA"
+title: OSKM
+description: The over-expression of these four factors can reprogram Somatic Cells
+  into Induced Pluripotent Stem Cells (iPSCs). This discovery, pioneered by Shinya
+  Yamanaka, revolutionized Stem Cell Research an...
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: NA
 ---
 # OSKM
 

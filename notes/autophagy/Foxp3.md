@@ -1,10 +1,12 @@
 ---
-aliases:
-- forkhead box P3
-category: Gene
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: Foxp3
+description: '**Foxp3** (Forkhead Box P3) is a transcription factor that serves as
+  a master regulator of the regulatory T Cell (Treg) lineage.'
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Gene
+aliases: [forkhead box P3]
 ---
 # Foxp3
 

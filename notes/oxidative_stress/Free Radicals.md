@@ -1,17 +1,15 @@
 ---
 type: entity
-category: chemical_class
-aliases:
-  - "radicals"
-  - "free radical species"
-tags:
-  - "oxidative_stress"
-  - "ros"
-  - "redox_biology"
+title: Free Radicals
+description: Free radicals are atoms, molecules, or ions that have at least one unpaired
+  valence electron. This unpaired electron makes them highly chemically reactive toward
+  other substances, or even toward th...
 created: 2026-05-09
 updated: 2026-07-04
+entity_type_1: Chemical Class
+aliases: [radicals, free radical species]
+tags: [oxidative_stress, ros, redox_biology]
 ---
-
 # Free Radicals
 
 ## Definition

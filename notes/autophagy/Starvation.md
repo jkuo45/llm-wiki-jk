@@ -1,8 +1,12 @@
 ---
-category: Biological Process
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: Starvation
+description: '**Starvation** is a state of severe nutrient deficiency that triggers
+  profound metabolic and cellular adaptations, including the massive activation of
+  Autophagy.'
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Biological Process
 ---
 # Starvation
 

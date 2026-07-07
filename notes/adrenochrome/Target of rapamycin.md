@@ -1,11 +1,13 @@
 ---
 type: entity
-category: Enzyme
-aliases: []
+title: Target of rapamycin
+description: Target of rapamycin (TOR) is a central regulator of cell growth and metabolism
+  whose inhibition can extend lifespan through various mechanisms, including adaptive
+  mitochondrial ROS signaling.
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Enzyme
 ---
-
 # Target of rapamycin
 
 Target of rapamycin (TOR) is a central regulator of cell growth and metabolism whose inhibition can extend lifespan through various mechanisms, including adaptive mitochondrial ROS signaling.

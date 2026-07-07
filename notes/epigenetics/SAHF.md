@@ -1,9 +1,12 @@
 ---
 type: entity
-category: anatomy
-entity_type: "Anatomy"
+title: SAHF
+description: '**Senescence-Associated Heterochromatin Foci (SAHF)** are specialized
+  domains of facultative heterochromatin that form in the nuclei of senescent cells,
+  contributing to the silencing of proliferati...'
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: Anatomy
 ---
 # SAHF
 

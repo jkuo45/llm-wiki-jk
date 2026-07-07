@@ -1,9 +1,12 @@
 ---
 type: entity
-category: other
-entity_type: "NA"
+title: Mesenchymal Stromal Cells
+description: Mesenchymal Stromal Cells (MSCs), also known as mesenchymal stem cells,
+  are multipotent stromal cells that can differentiate into a variety of cell types,
+  including osteoblasts, chondrocytes, myocy...
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: NA
 ---
 # Mesenchymal Stromal Cells
 

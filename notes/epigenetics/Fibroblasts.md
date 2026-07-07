@@ -1,9 +1,12 @@
 ---
 type: entity
-category: other
-entity_type: "NA"
+title: Fibroblasts
+description: In the history of Stem Cell Research, Fibroblasts are most notable for
+  being the first and most widely used somatic cell type for Cellular Reprogramming.
+  Shinya Yamanaka's landmark 2006 study used ...
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: NA
 ---
 # Fibroblasts
 

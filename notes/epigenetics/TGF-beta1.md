@@ -1,18 +1,18 @@
 ---
 type: entity
-category: protein
-aliases:
-  - Transforming growth factor beta 1
-  - TGF-β1
-  - TGFB1
-database_ids:
-  uniprot: P01137
-  hgnc: HGNC:11766
-  mesh: D016212
+title: TGF-beta1
+description: '**TGF-beta1** (Transforming growth factor beta 1, TGF-beta1) is a polypeptide
+  member of the transforming growth factor beta superfamily of cytokines. It is a
+  secreted protein that performs many cel...'
 created: 2024-01-01
 updated: 2026-07-05
+entity_type_1: Protein
+aliases: [Transforming growth factor beta 1, TGF-β1, TGFB1]
+database_ids:
+  mesh: D016212
+  uniprot: P01137
+  hgnc: HGNC:11766
 ---
-
 # TGF-beta1
 
 **TGF-beta1** (Transforming growth factor beta 1, [[TGF-beta1|TGF-β1]]) is a polypeptide member of the transforming growth factor beta superfamily of cytokines. It is a secreted protein that performs many cellular functions, including the control of cell growth, cell proliferation, cell differentiation, and apoptosis. It acts as a quiescence-inducing factor in several stem cell niches.
@@ -28,8 +28,8 @@ TGF-β1 signals through a heteromeric complex of **type I (TβRI/ALK5)** and **t
 1. **Receptor Binding**: TGF-β1 binds TβRII, which recruits and transphosphorylates TβRI.
 2. **SMAD Activation**: Activated TβRI phosphorylates [[SMAD2]] and [[SMAD3]] at C-terminal serine residues.
 3. **Complex Formation**: Phosphorylated [[SMAD2]]/[[SMAD3]] form a complex with [[SMAD4]] (co-SMAD) and translocate to the nucleus.
-4. **Transcriptional Regulation**: The SMAD complex regulates target gene expression in concert with co-activators (e.g., [[p300]], [[CBP]]) and co-repressors (e.g., [[Ski]], [[SnoN]]).
-5. **Negative Feedback**: Inhibitory [[SMAD7]] is induced by TGF-β signalling and blocks TβRI-mediated SMAD2/3 phosphorylation.
+4. **Transcriptional Regulation**: The SMAD complex regulates target gene expression in concert with co-activators (e.g., [[P300]], [[CBP]]) and co-repressors (e.g., [[Ski]], [[SnoN]]).
+5. **Negative Feedback**: Inhibitory [[Smad7]] is induced by TGF-β signalling and blocks TβRI-mediated SMAD2/3 phosphorylation.
 
 ## Physiological Functions
 
@@ -56,7 +56,7 @@ TGF-β1 exhibits a paradoxical dual role in oncology:
 
 Multiple sirtuins converge on the TGF-β1 pathway:
 
-- **[[SIRT1]]**: Deacetylates and inhibits [[SMAD7]] (the negative regulator of TGF-β signalling), promoting SMAD7 ubiquitination and degradation. SIRT1 also deacetylates the TβRI receptor to suppress its kinase activity.
+- **[[SIRT1]]**: Deacetylates and inhibits [[Smad7]] (the negative regulator of TGF-β signalling), promoting SMAD7 ubiquitination and degradation. SIRT1 also deacetylates the TβRI receptor to suppress its kinase activity.
 - **[[SIRT6]]**: Suppresses TGF-β1 signalling by deacetylating H3K9 at the promoters of TGF-β target genes and by blocking SMAD3 transcriptional activity. SIRT6 activators ([[MDL-801]]) reduce fibrosis through TGF-β pathway suppression.
 - **[[SIRT7]]**: Deacetylates [[SMAD3]] and suppresses its pro-fibrotic transcriptional programme.
 
@@ -64,7 +64,7 @@ Multiple sirtuins converge on the TGF-β1 pathway:
 
 - [[SMAD2]] / [[SMAD3]] — downstream transcriptional effectors of TGF-β1 signalling
 - [[SMAD4]] — co-SMAD required for transcriptional regulation
-- [[SMAD7]] — inhibitory SMAD, negative feedback regulator
+- [[Smad7]] — inhibitory SMAD, negative feedback regulator
 - [[Inflammation]] — TGF-β1 is a master anti-inflammatory cytokine
 - [[Cancer]] — dual tumour suppressor/promoter role
 - [[Pulmonary Fibrosis]] — TGF-β1 is the central driver
@@ -72,6 +72,6 @@ Multiple sirtuins converge on the TGF-β1 pathway:
 
 ## Linking Summary
 
-- New links added: [[SMAD2]], [[SMAD3]], [[SMAD4]], [[SMAD7]], [[SIRT1]], [[SIRT6]], [[SIRT7]], [[MDL-801]], [[Inflammation]], [[Cancer]], [[Pulmonary Fibrosis]], [[Regulatory T cell]]
+- New links added: [[SMAD2]], [[SMAD3]], [[SMAD4]], [[Smad7]], [[SIRT1]], [[SIRT6]], [[SIRT7]], [[MDL-801]], [[Inflammation]], [[Cancer]], [[Pulmonary Fibrosis]], [[Regulatory T cell]]
 - Suggested new entity notes to create: [[SMAD Proteins]], [[Latent TGF-β complex]], [[LTBP]]
 - Strong connections to strengthen: [[TGF-beta1]] ↔ [[Cancer]], [[TGF-beta1]] ↔ [[SIRT6]], [[TGF-beta1]] ↔ [[Inflammation]]

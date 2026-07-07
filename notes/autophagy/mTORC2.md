@@ -1,10 +1,13 @@
 ---
-aliases:
-- mTOR complex 2
-category: Scientific Concept
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: mTORC2
+description: mTOR complex 2 (mTORC2) is a rapamycin-insensitive multi-protein complex
+  containing mTOR that regulates cytoskeletal organization, cell survival, and metabolism,
+  primarily by phosphorylating Akt at...
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Scientific Concept
+aliases: [mTOR complex 2]
 ---
 # mTORC2
 mTOR complex 2 (mTORC2) is a rapamycin-insensitive multi-protein complex containing [[mTOR]] that regulates cytoskeletal organization, cell survival, and metabolism, primarily by phosphorylating [[Akt|AKT]] at Ser473.

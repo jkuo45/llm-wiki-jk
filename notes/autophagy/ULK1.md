@@ -1,32 +1,32 @@
 ---
 type: entity
-category: enzyme
-aliases:
-  - Unc-51-like kinase 1
-  - ATG1
-  - Serine/threonine-protein kinase ULK1
+title: ULK1
+description: '**ULK1** (Unc-51 Like Autophagy Activating Kinase 1) is a serine/threonine
+  protein kinase that serves as the central initiator of Autophagy in response to
+  nutrient and energy signals. It is the mam...'
+created: 2026-07-04
+updated: 2026-07-05
+entity_type_1: Enzyme
+aliases: [Unc-51-like kinase 1, ATG1, Serine/threonine-protein kinase ULK1]
 database_ids:
   uniprot: O75385
   hgnc: HGNC:12558
-created: 2026-07-04
-updated: 2026-07-05
 ---
-
 # ULK1
 
 **ULK1** (Unc-51 Like Autophagy Activating Kinase 1) is a serine/threonine protein kinase that serves as the central initiator of [[Autophagy]] in response to nutrient and energy signals. It is the mammalian ortholog of the yeast [[Atg1]] and is essential for autophagosome formation.
 
 ## Structure and Domains
 
-ULK1 is a 1,050-amino-acid protein with an N-terminal serine/threonine kinase domain, a central proline/serine-rich (PS) domain, and a C-terminal domain that mediates interactions with [[ATG13]] and [[FIP200]] (RB1CC1). The C-terminal region also contains a MAPK-interacting motif and a putative LC3-interacting region (LIR) that may regulate its localisation to autophagic membranes.
+ULK1 is a 1,050-amino-acid protein with an N-terminal serine/threonine kinase domain, a central proline/serine-rich (PS) domain, and a C-terminal domain that mediates interactions with [[Atg13]] and [[FIP200]] (RB1CC1). The C-terminal region also contains a MAPK-interacting motif and a putative LC3-interacting region (LIR) that may regulate its localisation to autophagic membranes.
 
 ## ULK1 Complex Assembly
 
 ULK1 functions as part of a stable complex (the ULK1 complex) that includes:
 
-- **[[ATG13]]**: Directly binds and stabilises ULK1. ATG13 phosphorylation by [[mTORC1]] regulates ULK1 activity.
+- **[[Atg13]]**: Directly binds and stabilises ULK1. ATG13 phosphorylation by [[mTORC1]] regulates ULK1 activity.
 - **[[FIP200]]** (RB1CC1): A scaffold protein that anchors the complex and links it to autophagy substrates.
-- **[[ATG101]]**: A small 25-kDa protein that stabilises ULK1 by preventing its proteasomal degradation.
+- **[[Atg101]]**: A small 25-kDa protein that stabilises ULK1 by preventing its proteasomal degradation.
 
 ## Regulation by Nutrient Sensors
 
@@ -40,8 +40,8 @@ ULK1 integrates signals from two master nutrient-sensing pathways:
 Once activated, ULK1 phosphorylates numerous substrates that coordinate early autophagy:
 
 - **[[Beclin1]]**: ULK1 phosphorylates Beclin1 at Ser14, enhancing the activity of the class III [[PI3K]]/[[Vps34]] complex.
-- **[[ATG9]]**: ULK1 phosphorylates ATG9A, promoting its trafficking from the trans-Golgi network to the phagophore assembly site (PAS).
-- **[[VPS34]]**: Indirectly regulates VPS34 complex activity via Beclin1 phosphorylation.
+- **[[Atg9]]**: ULK1 phosphorylates ATG9A, promoting its trafficking from the trans-Golgi network to the phagophore assembly site (PAS).
+- **[[Vps34]]**: Indirectly regulates VPS34 complex activity via Beclin1 phosphorylation.
 - **[[p62]]/[[SQSTM1]]**: ULK1 phosphorylates p62, promoting selective autophagy.
 - **[[SESN2]]** (Sestrin 2): Phosphorylated by ULK1 to promote autophagic degradation.
 - **[[DENND3]]**: A Rab12 GEF that regulates amino acid homeostasis.
@@ -64,11 +64,11 @@ Once activated, ULK1 phosphorylates numerous substrates that coordinate early au
 - [[AMPK]]: Activates ULK1 under energy stress, sirtuin-responsive.
 - [[mTORC1]]: Inhibits ULK1 under nutrient-rich conditions.
 - [[Beclin1]]: Direct substrate of ULK1; coordinates VPS34 complex.
-- [[ATG13]] / [[FIP200]] / [[ATG101]]: Core complex components.
+- [[Atg13]] / [[FIP200]] / [[Atg101]]: Core complex components.
 - [[SIRT1]]: Deacetylates and activates ULK1.
 
 ## Linking Summary
 
-- New links added: [[Autophagy]], [[Atg1]], [[AMPK]], [[mTORC1]], [[ATG13]], [[FIP200]], [[ATG101]], [[Beclin1]], [[Vps34]], [[PI3K]], [[SIRT1]], [[SIRT2]], [[SIRT3]]
-- Suggested new entity notes to create: [[ATG9]], [[FIP200]], [[ATG101]], [[SESN2]]
+- New links added: [[Autophagy]], [[Atg1]], [[AMPK]], [[mTORC1]], [[Atg13]], [[FIP200]], [[Atg101]], [[Beclin1]], [[Vps34]], [[PI3K]], [[SIRT1]], [[SIRT2]], [[SIRT3]]
+- Suggested new entity notes to create: [[Atg9]], [[FIP200]], [[Atg101]], [[SESN2]]
 - Strong connections to strengthen: [[ULK1]] ↔ [[AMPK]], [[ULK1]] ↔ [[mTORC1]], [[ULK1]] ↔ [[Autophagy]], [[ULK1]] ↔ [[SIRT1]]

@@ -1,7 +1,12 @@
 ---
 type: entity
-category: scientific_concept
-entity_type: Scientific Concept
+title: Oxidative Stress
+description: Oxidative stress is a phenomenon caused by an imbalance between production
+  and accumulation of Reactive Oxygen Species (ROS) and the ability of a biological
+  system to detoxify them. It plays dual r...
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Scientific Concept
 aliases:
   - Oxidative stress
   - OS
@@ -31,9 +36,11 @@ relations:
     target: "notes/_link/Cardiovascular Disease"
     sources:
       - PMID:27908976
-created: 2026-07-04
-updated: 2026-07-04
+
 ---
+
+
+
 
 # Oxidative Stress
 

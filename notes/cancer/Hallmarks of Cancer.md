@@ -1,3 +1,13 @@
+---
+type: entity
+title: Hallmarks of Cancer
+description: The Hallmarks of Cancer are ten underlying principles shared by all cancers,
+  originally proposed by Douglas Hanahan and Robert Weinberg. These hallmarks describe
+  the biological capabilities acquire...
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Medical Condition
+---
 # Hallmarks of Cancer
 
 The [[Hallmarks of Cancer]] are ten underlying principles shared by all cancers, originally proposed by Douglas Hanahan and Robert Weinberg. These hallmarks describe the biological capabilities acquired during the multistep development of human tumors.

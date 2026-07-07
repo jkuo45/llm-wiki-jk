@@ -1,11 +1,12 @@
 ---
-aliases:
-- BHD
-- Folliculin syndrome
-category: Medical Condition
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: Birt-Hogg-Dube syndrome
+description: A rare genetic disorder characterized by skin tumors, lung cysts, and
+  an increased risk of Renal Cell Carcinoma, caused by mutations in Folliculin.
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Medical Condition
+aliases: [BHD, Folliculin syndrome]
 ---
 # Birt-Hogg-Dube syndrome
 

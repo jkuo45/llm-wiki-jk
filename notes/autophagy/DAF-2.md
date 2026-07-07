@@ -1,14 +1,16 @@
 ---
-aliases:
-- C. elegans insulin/IGF receptor ortholog
-category: Gene
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: DAF-2
+description: '**DAF-2** is the C. elegans orthologue of the insulin/IGF1 receptor.
+  It is a central regulator of development, metabolism, and Longevity.'
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Gene
+aliases: [C. elegans insulin/IGF receptor ortholog]
 ---
 # DAF-2
 
-**DAF-2** is the [[C. elegans]] orthologue of the insulin/[[IGF-1]] receptor. It is a central regulator of development, metabolism, and [[Longevity|lifespan]].
+**DAF-2** is the [[C. elegans]] orthologue of the insulin/[[IGF1]] receptor. It is a central regulator of development, metabolism, and [[Longevity|lifespan]].
 
 ## Role in Autophagy and Metabolism
 - **Inhibition of Autophagy**: Activation of DAF-2 signaling (under high nutrient conditions) typically leads to the inhibition of [[Autophagy]] via downstream kinases like [[Akt]] and the exclusion of [[DAF-16]] (FOXO) from the nucleus.
@@ -23,6 +25,6 @@ updated: '2026-07-04'
 DAF-2 is the C. elegans insulin/IGF-1 receptor. Reduced DAF-2 signaling extends lifespan via [[DAF-16]]/FOXO and [[Autophagy]] activation.
 
 ### Linking Summary:
-- New links added: [[C. elegans]], [[IGF-1]], [[Longevity|lifespan]], [[Autophagy]], [[Akt]], [[DAF-16]], [[Starvation]], [[Lipophagy]], [[Lysosomal Lipolysis]], [[MXL-3]]
+- New links added: [[C. elegans]], [[IGF1]], [[Longevity|lifespan]], [[Autophagy]], [[Akt]], [[DAF-16]], [[Starvation]], [[Lipophagy]], [[Lysosomal Lipolysis]], [[MXL-3]]
 - Suggested new entity notes to create: [[AGE-1]], [[PDK1]]
 - Strong connections to strengthen: [[DAF-2]] ↔ [[DAF-16]], [[DAF-2]] ↔ [[Autophagy]]

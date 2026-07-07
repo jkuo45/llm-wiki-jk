@@ -1,11 +1,13 @@
 ---
 type: entity
-category: Biological Process
-aliases: []
+title: Homeostasis
+description: '**Homeostasis** is the state of steady internal, physical, and chemical
+  conditions maintained by living systems. This is the condition of optimal functioning
+  for the organism and includes many vari...'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Biological Process
 ---
-
 # Homeostasis
 
 **Homeostasis** is the state of steady internal, physical, and chemical conditions maintained by living systems. This is the condition of optimal functioning for the organism and includes many variables, such as body temperature and fluid balance, being kept within certain pre-set limits.
@@ -37,4 +39,4 @@ Paradoxically, low-level exposure to catecholamine quinones and ROS can trigger 
 ### Linking Summary:
 - New links added: [[Reactive Oxygen Species]], [[Glutathione Peroxidase]], [[Glutathione Reductase]], [[Keap1]], [[NRF2]], [[Antioxidant Response Element]], [[NQO1]], [[HO-1]], [[Catalase]], [[FOXO]], [[adrenaline-quinone]], [[Dopaminochrome]], [[o-quinone]], [[Methylglyoxal]], [[Mitophagy]], [[Mitochondrial Unfolded Protein Response]], [[Mitohormesis]], [[Advanced Glycation End Products]], [[Ferroptosis]]
 - Suggested new entity notes to create: 
-- Strong connections to strengthen: [[Homeostasis]] ↔ [[Adrenochrome]], [[Keap1/Nrf2]] ↔ [[Redox Homeostasis]]
+- Strong connections to strengthen: [[Homeostasis]] ↔ [[Adrenochrome]], [[Keap1]]/[[NRF2]] ↔ [[Redox Homeostasis]]

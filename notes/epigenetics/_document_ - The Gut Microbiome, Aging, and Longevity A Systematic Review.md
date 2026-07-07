@@ -1,20 +1,24 @@
 ---
-title: "The Gut Microbiome, Aging, and Longevity: A Systematic Review"
-source: "https://pmc.ncbi.nlm.nih.gov/articles/PMC7762384/"
+type: document
+title: 'The Gut Microbiome, Aging, and Longevity: A Systematic Review'
+source: https://pmc.ncbi.nlm.nih.gov/articles/PMC7762384/
 author:
-  - "Varsha D Badal"
-  - "Eleonora D Vaccariello"
-  - "Emily R Murray"
-  - "Kasey E Yu"
-  - "Rob Knight"
-  - "Dilip V Jeste"
-  - "Tanya T Nguyen"
-published:
+- Varsha D Badal
+- Eleonora D Vaccariello
+- Emily R Murray
+- Kasey E Yu
+- Rob Knight
+- Dilip V Jeste
+- Tanya T Nguyen
 created: 2026-05-26
-description: "Aging is determined by complex interactions among genetic and environmental factors. Increasing evidence suggests that the gut microbiome lies at the core of many age-associated changes, including immune system dysregulation and susceptibility to ..."
+description: Aging is determined by complex interactions among genetic and environmental
+  factors. Increasing evidence suggests that the gut microbiome lies at the core of
+  many age-associated changes, including immune system dysregulation and susceptibility
+  to ...
 tags:
   - "clippings"
 ---
+
 . 2020 Dec 7;12(12):3759. doi: [10.3390/nu12123759](https://doi.org/10.3390/nu12123759)
 
 [Varsha D Badal](https://pubmed.ncbi.nlm.nih.gov/?term=%22Badal%20VD%22[Author]) <sup>1,</sup><sup>2</sup>, [Eleonora D Vaccariello](https://pubmed.ncbi.nlm.nih.gov/?term=%22Vaccariello%20ED%22[Author]) <sup>1</sup>, [Emily R Murray](https://pubmed.ncbi.nlm.nih.gov/?term=%22Murray%20ER%22[Author]) <sup>1</sup>, [Kasey E Yu](https://pubmed.ncbi.nlm.nih.gov/?term=%22Yu%20KE%22[Author]) <sup>1</sup>, [Rob Knight](https://pubmed.ncbi.nlm.nih.gov/?term=%22Knight%20R%22[Author]) <sup>3,</sup><sup>4,</sup><sup>5,</sup><sup>6</sup>, [Dilip V Jeste](https://pubmed.ncbi.nlm.nih.gov/?term=%22Jeste%20DV%22[Author]) <sup>1,</sup><sup>2,</sup><sup>6,</sup><sup>7,</sup><sup>†</sup>, [Tanya T Nguyen](https://pubmed.ncbi.nlm.nih.gov/?term=%22Nguyen%20TT%22[Author]) <sup>1,</sup><sup>2,</sup><sup>8,</sup><sup>*,</sup><sup>†</sup>

@@ -1,3 +1,10 @@
+---
+type: index
+title: _Link notes
+description: Index of wiki notes for _link
+created: 2026-07-06
+updated: 2026-07-06
+---
 # Shared Entities (_link)
 
 This directory contains entities that span across multiple topics within the knowledge base. Consolidating these entities here ensures a single source of truth and highlights them as central hubs in the graph view.

@@ -1,7 +1,11 @@
 ---
-title: Adrenochrome Semiquinone Radical
 type: entity
-category: Metabolite
+title: Adrenochrome Semiquinone Radical
+description: The Adrenochrome semiquinone radical is a transient, highly reactive
+  free radical intermediate formed during the Redox Cycling of Adrenochrome.
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Metabolite
 aliases:
   - Adrenochrome semiquinone
   - Semiquinone radical
@@ -17,9 +21,9 @@ relations:
   - predicate: produces
     target: "Superoxide anion"
     sources: []
-created: 2026-07-04
-updated: 2026-07-04
 ---
+
+
 
 # Adrenochrome Semiquinone Radical
 

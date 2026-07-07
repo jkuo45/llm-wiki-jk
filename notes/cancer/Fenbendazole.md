@@ -1,3 +1,11 @@
+---
+type: entity
+title: Fenbendazole
+description: 'Fenbendazole exhibits multiple anticancer activities:'
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Enzyme
+---
 # Fenbendazole
 
 [[Fenbendazole]] is a broad-spectrum [[Benzimidazole]] anthelmintic agent used to treat gastrointestinal parasites in animals, including giardia, roundworms, hookworms, whipworms, and certain tapeworms. It is being investigated as a potential candidate for [[Drug Repositioning]] in [[Cancer]] therapy due to its ability to interfere with [[Microtubule]] polymerization and modulate various cellular pathways.

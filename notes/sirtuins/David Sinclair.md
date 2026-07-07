@@ -1,13 +1,13 @@
 ---
 type: entity
-category: NA
-aliases:
-  - David A. Sinclair
-  - Sinclair
+title: David Sinclair
+description: '- Identified SIRT1 as a mediator of Caloric Restriction benefits and
+  discovered Resveratrol as a STACs (PMID: 12939617).'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: NA
+aliases: [David A. Sinclair, Sinclair]
 ---
-
 # David Sinclair
 
 [[David Sinclair]] is an Australian-American biologist and professor of genetics at [[Harvard Medical School]], best known for his research on [[Aging|aging]], sirtuins, [[NAD+]] biology, and [[Caloric Restriction|caloric restriction]] mimetics. His laboratory made foundational discoveries demonstrating that [[SIRT1]] activation by [[Resveratrol|resveratrol]] extends lifespan in [[Sir2 (yeast)]], and that [[NAD+]] precursors like [[Nicotinamide Mononucleotide|NMN]] reverse aspects of aging in mice.

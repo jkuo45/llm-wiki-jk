@@ -1,19 +1,15 @@
 ---
 type: entity
-category: protein
-aliases:
-  - "CD36"
-  - "scavenger receptor class B member 3"
-  - "fatty acid translocase"
-  - "FAT"
-tags:
-  - "oxidative_stress"
-  - "atherosclerosis"
-  - "lipid_metabolism"
+title: CD36 Receptor
+description: CD36 is a member of the class B scavenger receptor family and is involved
+  in lipid metabolism and inflammation. It plays a significant role in Atherosclerosis
+  by mediating the uptake of Oxidized LD...
 created: 2026-05-09
 updated: 2026-07-04
+entity_type_1: Protein
+aliases: [CD36, scavenger receptor class B member 3, fatty acid translocase, FAT]
+tags: [oxidative_stress, atherosclerosis, lipid_metabolism]
 ---
-
 # CD36 Receptor
 CD36 is a member of the class B scavenger receptor family and is involved in lipid metabolism and inflammation. It plays a significant role in [[Atherosclerosis]] by mediating the uptake of [[Oxidized LDL]], which is a product of [[Lipid Peroxidation]].
 
@@ -34,7 +30,7 @@ CD36 serves as a receptor for [[Thrombospondin-1]] (TSP-1), a matricellular prot
 CD36 facilitates long-chain fatty acid translocation across cell membranes in adipose tissue, heart, and skeletal muscle. Under conditions of [[Oxidative Stress]], CD36-mediated fatty acid uptake promotes intracellular [[Lipotoxicity]] and diacylglycerol (DAG) accumulation, activating [[Protein kinase C]] (PKC) isoforms that impair insulin signaling. Elevated CD36 expression correlates with insulin resistance in [[Diabetes Mellitus]] and [[Metabolic Syndromes]].
 
 ### Regulation by Oxidative Stress and Inflammatory Pathways
-CD36 expression is induced by [[Oxidized LDL]] itself, [[TNF-alpha]], [[IL-1b]], and [[TGF-beta]] in a redox-dependent manner. The CD36 promoter contains binding sites for [[NF-kappa B]] and [[PPARγ]], both of which are activated by ROS. CD36 also acts as a co-receptor for [[Toll-like Receptor]] 2 and 6 ([[Toll-like Receptor|TLR2/6]]), mediating sterile inflammation in response to oxLDL and [[Amyloid-beta]], thereby linking [[Oxidative Stress]] to innate immune activation.
+CD36 expression is induced by [[Oxidized LDL]] itself, [[TNF-alpha]], [[IL-1b]], and [[TGF-beta]] in a redox-dependent manner. The CD36 promoter contains binding sites for [[NF-kappa B]] and [[PPARγ]], both of which are activated by ROS. CD36 also acts as a co-receptor for [[Toll-like Receptor]] 2 and 6 ([[Toll-like Receptor|TLR2/6]]), mediating sterile inflammation in response to oxLDL and [[Amyloid Beta]], thereby linking [[Oxidative Stress]] to innate immune activation.
 
 ### Clinical Relevance
 CD36 deficiency in humans is rare but associated with altered lipid metabolism and myocardial fatty acid uptake defects. In [[Atherosclerosis]], CD36 blockade reduces [[Foam Cells]] formation and plaque development in murine models. Soluble CD36 (sCD36) is being investigated as a circulating biomarker of [[Oxidative Stress]] and [[Cardiovascular Disease]] risk.

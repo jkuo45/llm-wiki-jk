@@ -1,11 +1,12 @@
 ---
 type: entity
-category: Chemical Compound
-aliases: []
+title: Glyoxal
+description: Glyoxal is a highly reactive dicarbonyl intermediate generated during
+  cellular metabolism, glycolysis, and lipid peroxidation.
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Chemical Compound
 ---
-
 # Glyoxal
 
 Glyoxal is a highly reactive dicarbonyl intermediate generated during cellular metabolism, glycolysis, and lipid peroxidation.

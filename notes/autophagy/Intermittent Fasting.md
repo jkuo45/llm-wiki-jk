@@ -1,10 +1,13 @@
 ---
-aliases:
-- IF
-category: Biological Process
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: Intermittent Fasting
+description: '**Intermittent Fasting** (IF) refers to eating patterns that cycle between
+  periods of fasting and eating. It is widely studied for its ability to induce Autophagy
+  and improve metabolic health.'
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Biological Process
+aliases: [IF]
 ---
 # Intermittent Fasting
 

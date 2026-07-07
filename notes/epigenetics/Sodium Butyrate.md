@@ -1,11 +1,13 @@
 ---
 type: entity
-category: chemical
-entity_type: "Chemical Compound"
+title: Sodium Butyrate
+description: '**Sodium Butyrate** (NaB) is the sodium salt of Butyrate, a short-chain
+  fatty acid (SCFA) produced by gut microbial fermentation of dietary fiber. It functions
+  as an endogenous Histone Deacetylase ...'
 created: 2024-01-01
 updated: 2024-07-04
+entity_type_1: Chemical Compound
 ---
-
 # Sodium Butyrate
 
 **Sodium Butyrate** (NaB) is the sodium salt of [[Butyrate|butyric acid]], a short-chain fatty acid (SCFA) produced by gut microbial fermentation of dietary fiber. It functions as an endogenous [[Histone Deacetylase Inhibitor|histone deacetylase inhibitor (HDACi)]] and is a widely used tool compound in epigenetic and senescence research.

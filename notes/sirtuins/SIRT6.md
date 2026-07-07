@@ -1,41 +1,20 @@
 ---
 type: entity
-category: protein
+title: SIRT6
+description: SIRT6 (Sirtuin 6) is a nuclear, chromatin-associated sirtuin classified
+  in phylogenetic Class IVa alongside its nucleolar homolog SIRT7 (Class IVb). As
+  a "longevity gene," SIRT6 serves as an essent...
+created: 2026-07-02
+updated: 2026-07-03
+entity_type_1: Protein
 aliases:
   - Sirtuin 6
   - nuclear sirtuin 6
   - SIRT6 ADP-ribosyl transferase
-database_ids:
-  uniprot: O75519
-  hgnc: HGNC:14934
-relations:
-  - predicate: regulates
-    target: "Base Excision Repair"
-    sources:
-      - PMID:16439206
-  - predicate: associated_with
-    target: "Premature Aging"
-    sources:
-      - PMID:16439206
-  - predicate: localises_to
-    target: "Heterochromatin"
-    sources:
-      - PMID:16079181
-  - predicate: exhibits
-    target: "mono-ADP-ribosyl transferase activity"
-    sources:
-      - PMID:15795229
-  - predicate: regulates
-    target: "notes/_link/Diabetes Mellitus"
-    sources:
-      - s41392-022-01257-8
-  - predicate: associated_with
-    target: "notes/_link/Inflammation"
-    sources:
-      - s41392-022-01257-8
-created: 2026-07-02
-updated: 2026-07-03
 ---
+
+
+
 
 # SIRT6
 

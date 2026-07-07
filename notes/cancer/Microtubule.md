@@ -1,3 +1,13 @@
+---
+type: entity
+title: Microtubule
+description: Microtubules are critical for the formation of the mitotic spindle during
+  cell division. Because Cancer cells divide rapidly, microtubules are a major target
+  for chemotherapy.
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Medical Condition
+---
 # Microtubule
 
 [[Microtubule]]s are polymers of [[Tubulin]] that form part of the [[cytoskeleton]] and provide structure and shape to eukaryotic cells. They are involved in many cellular processes, including [[mitosis]], [[cytokinesis]], and [[vesicular transport]].

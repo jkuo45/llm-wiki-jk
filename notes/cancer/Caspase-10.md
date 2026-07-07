@@ -1,3 +1,12 @@
+---
+type: entity
+title: Caspase-10
+description: '**Caspase-10** is an initiator protease that is closely related to Caspase-8.
+  It plays a significant role in the Extrinsic Pathway of Apoptosis.'
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Enzyme
+---
 # Caspase-10
 
 **Caspase-10** is an initiator protease that is closely related to [[Caspase-8]]. It plays a significant role in the [[Extrinsic Pathway]] of [[Apoptosis]].

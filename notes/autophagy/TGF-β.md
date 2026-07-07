@@ -1,11 +1,13 @@
 ---
-aliases:
-- TGFB1
-- transforming growth factor beta
-category: Gene
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: TGF-β
+description: Transforming growth factor-beta (TGF-β) is a multifunctional cytokine
+  that regulates various cellular processes; its signaling pathway involves SMAD3,
+  which can negatively regulate TFEB expression.
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Gene
+aliases: [TGFB1, transforming growth factor beta]
 ---
 # TGF-β
 

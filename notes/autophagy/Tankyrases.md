@@ -1,11 +1,12 @@
 ---
-aliases:
-- PARP5
-- TNKS
-category: Enzyme
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: Tankyrases
+description: Tankyrases (TNKS1 and TNKS2) are poly(ADP-ribose) polymerases (PARPs)
+  that interact with and parsylate TFEB, promoting its nuclear translocation.
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Enzyme
+aliases: [PARP5, TNKS]
 ---
 # Tankyrases
 

@@ -1,9 +1,12 @@
 ---
 type: entity
-category: other
-entity_type: "NA"
+title: Klf4
+description: Klf4 (Krüppel-like factor 4) is a member of the Krüppel-like factor family
+  of Transcription Factor. It is involved in the regulation of proliferation, differentiation,
+  apoptosis, and somatic cell r...
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: NA
 ---
 # Klf4
 

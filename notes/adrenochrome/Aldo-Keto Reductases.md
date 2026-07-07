@@ -1,11 +1,13 @@
 ---
 type: entity
-category: Enzyme
-aliases: []
+title: Aldo-Keto Reductases
+description: Aldo-Keto Reductases (AKRs) are a superfamily of NAD(P)H-dependent oxidoreductases
+  that catalyze the reduction of various carbonyl substrates, including aldehydes
+  and ketones, to their correspondin...
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Enzyme
 ---
-
 # Aldo-Keto Reductases
 
 Aldo-Keto Reductases (AKRs) are a superfamily of NAD(P)H-dependent oxidoreductases that catalyze the reduction of various carbonyl substrates, including aldehydes and ketones, to their corresponding alcohols.

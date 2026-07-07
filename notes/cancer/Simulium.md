@@ -1,3 +1,12 @@
+---
+type: entity
+title: Simulium
+description: Simulium is a genus of blackflies, which are vectors for Onchocerca volvulus,
+  the parasite that causes Onchocerciasis.
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Microorganism
+---
 # Simulium
 
 Simulium is a genus of blackflies, which are vectors for [[Onchocerca volvulus]], the parasite that causes [[Onchocerciasis]].

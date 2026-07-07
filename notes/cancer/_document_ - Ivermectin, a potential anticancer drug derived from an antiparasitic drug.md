@@ -1,22 +1,26 @@
 ---
-title: "Ivermectin, a potential anticancer drug derived from an antiparasitic drug"
-source: "https://pmc.ncbi.nlm.nih.gov/articles/PMC7505114/"
+type: document
+title: Ivermectin, a potential anticancer drug derived from an antiparasitic drug
+source: https://pmc.ncbi.nlm.nih.gov/articles/PMC7505114/
 author:
-  - "Mingyang Tang"
-  - "Xiaodong Hu"
-  - "Yi Wang"
-  - "Xin Yao"
-  - "Wei Zhang"
-  - "Chenying Yu"
-  - "Fuying Cheng"
-  - "Jiangyan Li"
-  - "Qiang Fang"
-published:
+- Mingyang Tang
+- Xiaodong Hu
+- Yi Wang
+- Xin Yao
+- Wei Zhang
+- Chenying Yu
+- Fuying Cheng
+- Jiangyan Li
+- Qiang Fang
 created: 2026-05-19
-description: "Ivermectin has powerful antitumor effects, including the inhibition of proliferation, metastasis, and angiogenic activity, in a variety of cancer cells. This may be related to the regulation of multiple signaling pathways by ivermectin through PAK1 ..."
+description: Ivermectin has powerful antitumor effects, including the inhibition of
+  proliferation, metastasis, and angiogenic activity, in a variety of cancer cells.
+  This may be related to the regulation of multiple signaling pathways by ivermectin
+  through PAK1 ...
 tags:
   - "clippings"
 ---
+
 . 2020 Sep 21;163:105207. doi: [10.1016/j.phrs.2020.105207](https://doi.org/10.1016/j.phrs.2020.105207)
 
 [Mingyang Tang](https://pubmed.ncbi.nlm.nih.gov/?term=%22Tang%20M%22[Author]) <sup>a,</sup><sup>b,</sup><sup>1</sup>, [Xiaodong Hu](https://pubmed.ncbi.nlm.nih.gov/?term=%22Hu%20X%22[Author]) <sup>c,</sup><sup>1</sup>, [Yi Wang](https://pubmed.ncbi.nlm.nih.gov/?term=%22Wang%20Y%22[Author]) <sup>a,</sup><sup>d</sup>, [Xin Yao](https://pubmed.ncbi.nlm.nih.gov/?term=%22Yao%20X%22[Author]) <sup>a,</sup><sup>d</sup>, [Wei Zhang](https://pubmed.ncbi.nlm.nih.gov/?term=%22Zhang%20W%22[Author]) <sup>a,</sup><sup>b</sup>, [Chenying Yu](https://pubmed.ncbi.nlm.nih.gov/?term=%22Yu%20C%22[Author]) <sup>a,</sup><sup>b</sup>, [Fuying Cheng](https://pubmed.ncbi.nlm.nih.gov/?term=%22Cheng%20F%22[Author]) <sup>a,</sup><sup>b</sup>, [Jiangyan Li](https://pubmed.ncbi.nlm.nih.gov/?term=%22Li%20J%22[Author]) <sup>a,</sup><sup>d</sup>, [Qiang Fang](https://pubmed.ncbi.nlm.nih.gov/?term=%22Fang%20Q%22[Author]) <sup>a,</sup><sup>d,</sup><sup>e,</sup><sup>*</sup>

@@ -1,12 +1,13 @@
 ---
 type: entity
-category: enzyme
-aliases:
-  - 'Methylenetetrahydrofolate Dehydrogenase 1'
+title: MTHFD1
+description: '**MTHFD1** (Methylenetetrahydrofolate Dehydrogenase 1) is a trifunctional
+  enzyme involved in the metabolism of Folate.'
 created: 2026-05-25
 updated: 2026-07-04
+entity_type_1: Enzyme
+aliases: [Methylenetetrahydrofolate Dehydrogenase 1]
 ---
-
 # MTHFD1
 
 **[[MTHFD1]]** (Methylenetetrahydrofolate Dehydrogenase 1) is a trifunctional enzyme involved in the metabolism of [[Folate]].

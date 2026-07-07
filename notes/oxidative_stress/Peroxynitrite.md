@@ -1,17 +1,15 @@
 ---
 type: entity
-category: metabolite
-aliases:
-  - "ONOO−"
-  - "peroxynitrite anion"
-tags:
-  - "oxidative_stress"
-  - "rns"
-  - "nitrative_stress"
+title: Peroxynitrite
+description: Peroxynitrite ($ONOO^-$) is a powerful oxidant and nitrating agent formed
+  by the near-instantaneous reaction between Superoxide Radicals and Nitric Oxide.
+  It is a key mediator of "nitrative stress."
 created: 2026-05-09
 updated: 2026-07-04
+entity_type_1: Metabolite
+aliases: [ONOO−, peroxynitrite anion]
+tags: [oxidative_stress, rns, nitrative_stress]
 ---
-
 # Peroxynitrite
 
 ## Definition
@@ -27,7 +25,7 @@ Peroxynitrite ($ONOO^-$) is a powerful oxidant and nitrating agent formed by the
 - **Bioavailability of NO:** Depletes [[Nitric Oxide]], leading to impaired vasodilation and endothelial dysfunction.
 
 ## Formation Kinetics and Chemical Fate
-The reaction between [[Superoxide Radicals]] ($O_2^{\bullet-}$) and [[Nitric Oxide]] (NO•) proceeds at a near-diffusion-limited rate constant of $k \approx 1.6 \times 10^{10}$ M⁻¹s⁻¹ — approximately 3–4 times faster than the dismutation of superoxide by [[Superoxide Dismutase]] (SOD). This kinetic favorability means that wherever NO• and $O_2^{\bullet-}$ are simultaneously produced (e.g., activated [[Macrophage|macrophages]], [[Endothelial Cells]], neurons), peroxynitrite formation is unavoidable. The rate of formation is a function of the product of the steady-state concentrations of both precursors; thus, even modest elevations in either radical can dramatically increase peroxynitrite production.
+The reaction between [[Superoxide Radicals]] ($O_2^{\bullet-}$) and [[Nitric Oxide]] (NO•) proceeds at a near-diffusion-limited rate constant of $k \approx 1.6 \times 10^{10}$ M⁻¹s⁻¹ — approximately 3–4 times faster than the dismutation of superoxide by [[Superoxide Dismutase]] (SOD). This kinetic favorability means that wherever NO• and $O_2^{\bullet-}$ are simultaneously produced (e.g., activated [[Macrophage|macrophages]], [[Endothelial cells]], neurons), peroxynitrite formation is unavoidable. The rate of formation is a function of the product of the steady-state concentrations of both precursors; thus, even modest elevations in either radical can dramatically increase peroxynitrite production.
 
 Peroxynitrite is a relatively stable anion at alkaline pH (t½ ~1 s at pH 7.4) but is protonated to peroxynitrous acid (ONOOH, $pK_a \approx 6.8$) under physiological conditions. ONOOH is highly unstable, undergoing two competing transformations: (1) **homolytic cleavage** to hydroxyl radical (•OH) and nitrogen dioxide (•NO₂), with a ~30% yield — this pathway generates the extremely reactive [[Hydroxyl Radicals]]; and (2) **isomerization** to nitrate (NO₃⁻), a harmless end-product. The •NO₂ generated can diffuse within the cell to nitrate tyrosine residues in proteins, while •OH mediates local [[Lipid Peroxidation]] and [[DNA Damage]]. Peroxynitrite also reacts directly with $CO_2$ (present at ~1–2 mM in biological fluids) to form the carbonate radical anion ($CO_3^{\bullet-}$) and nitrosoperoxycarbonate (ONO₂CO₂⁻), both potent one-electron oxidants that extend the damaging radius beyond that of peroxynitrite itself.
 

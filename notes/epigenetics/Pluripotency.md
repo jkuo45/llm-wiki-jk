@@ -1,9 +1,12 @@
 ---
 type: entity
-category: other
-entity_type: "NA"
+title: Pluripotency
+description: 'Pluripotency refers to the ability of a cell to differentiate into any
+  of the three germ layers: ectoderm, endoderm, and mesoderm. These cells can give
+  rise to all the cell types of the body but ca...'
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: NA
 ---
 # Pluripotency
 

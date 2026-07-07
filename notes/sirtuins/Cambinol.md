@@ -1,22 +1,18 @@
 ---
 type: entity
-category: chemical
-aliases:
-  - Cambinol
-database_ids:
-  pubchem: 14041724
-relations:
-  - predicate: inhibits
-    target: "SIRT1"
-    sources:
-      - s41392-022-01257-8
-  - predicate: inhibits
-    target: "SIRT2"
-    sources:
-      - s41392-022-01257-8
+title: Cambinol
+description: Cambinol is a highly promising, cell-permeable $\beta$-naphthol derivative
+  that acts as a potent small-molecule inhibitor of the class III histone deacetylases
+  SIRT1 and SIRT2. It is widely recogni...
 created: 2026-07-03
 updated: 2026-07-03
+entity_type_1: Chemical Compound
+aliases:
+  - Cambinol
 ---
+
+
+
 
 # Cambinol
 

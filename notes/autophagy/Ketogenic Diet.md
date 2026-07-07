@@ -1,8 +1,11 @@
 ---
-category: Scientific Concept
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: Ketogenic Diet
+description: A **Ketogenic Diet** is a high-fat, adequate-protein, low-carbohydrate
+  dietary regimen that forces the body to burn fats rather than carbohydrates.
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Scientific Concept
 ---
 # Ketogenic Diet
 

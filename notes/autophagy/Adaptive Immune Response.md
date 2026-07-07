@@ -1,10 +1,12 @@
 ---
-aliases:
-- adaptive immunity
-category: Biological Process
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: Adaptive Immune Response
+description: The **Adaptive Immune Response** is a highly specific immune mechanism
+  characterized by memory and the ability to recognize specific antigens.
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Biological Process
+aliases: [adaptive immunity]
 ---
 # Adaptive Immune Response
 

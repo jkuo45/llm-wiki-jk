@@ -1,16 +1,15 @@
 ---
 type: entity
-category: metabolite
-aliases:
-  - "Lipids"
-tags:
-  - "oxidative_stress"
-  - "cell_membrane"
-  - "lipid_peroxidation"
+title: Lipids
+description: Lipids are a diverse group of organic compounds that are insoluble in
+  water but soluble in organic solvents. They include fats, oils, waxes, and certain
+  vitamins. In a biological context, they are ...
 created: 2026-05-09
 updated: 2026-07-04
+entity_type_1: Metabolite
+aliases: [Lipids]
+tags: [oxidative_stress, cell_membrane, lipid_peroxidation]
 ---
-
 # Lipids
 
 ## Definition

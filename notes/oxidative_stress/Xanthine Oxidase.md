@@ -1,18 +1,15 @@
 ---
 type: entity
-category: enzyme
-aliases:
-  - "XO"
-  - "xanthine oxidoreductase"
-  - "XOR"
-tags:
-  - "oxidative_stress"
-  - "superoxide"
-  - "uric_acid"
+title: Xanthine Oxidase
+description: Xanthine oxidase (XO) is a form of the enzyme xanthine oxidoreductase
+  that catalyzes the oxidation of hypoxanthine to xanthine and xanthine to uric acid.
+  It is a significant biological source of Re...
 created: 2026-05-09
 updated: 2026-07-04
+entity_type_1: Enzyme
+aliases: [XO, xanthine oxidoreductase, XOR]
+tags: [oxidative_stress, superoxide, uric_acid]
 ---
-
 # Xanthine Oxidase
 
 ## Definition

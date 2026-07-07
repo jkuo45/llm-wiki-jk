@@ -1,3 +1,13 @@
+---
+type: entity
+title: Warburg Effect
+description: The Warburg Effect refers to the observation that Cancer cells, unlike
+  most normal cells, prefer to produce energy through a high rate of Glycolysis followed
+  by Lactate fermentation in the cytosol,...
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Enzyme
+---
 # Warburg Effect
 
 The [[Warburg Effect]] refers to the observation that [[Cancer]] cells, unlike most normal cells, prefer to produce energy through a high rate of [[Glycolysis]] followed by [[Lactate]] fermentation in the cytosol, rather than by a comparatively low rate of glycolysis followed by oxidation of [[pyruvate]] in mitochondria, even when oxygen is plentiful.

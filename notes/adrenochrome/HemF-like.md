@@ -1,11 +1,13 @@
 ---
 type: entity
-category: Enzyme
-aliases: []
+title: HemF-like
+description: HemF-like (coproporphyrinogen III oxidase-like) enzymes are a class of
+  biocatalysts capable of degrading the stubborn advanced glycation end-product crosslink
+  Glucosepane.
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Enzyme
 ---
-
 # HemF-like
 
 HemF-like (coproporphyrinogen III oxidase-like) enzymes are a class of biocatalysts capable of degrading the stubborn advanced glycation end-product crosslink [[Glucosepane]].

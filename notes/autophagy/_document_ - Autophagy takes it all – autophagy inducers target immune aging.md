@@ -1,15 +1,19 @@
 ---
-title: "Autophagy takes it all – autophagy inducers target immune aging"
-source: "https://pmc.ncbi.nlm.nih.gov/articles/PMC8822217/"
+type: document
+title: Autophagy takes it all – autophagy inducers target immune aging
+source: https://pmc.ncbi.nlm.nih.gov/articles/PMC8822217/
 author:
-  - "Heidi Zinecker"
-  - "Anna Katharina Simon"
-published:
+- Heidi Zinecker
+- Anna Katharina Simon
 created: 2026-05-14
-description: "Autophagy, as the key nutrient recycling pathway, enables eukaryotic cells to adapt to surging cellular stress during aging and, thereby, delays age-associated deterioration. Autophagic flux declines with age and, in turn, decreases in autophagy ..."
+description: Autophagy, as the key nutrient recycling pathway, enables eukaryotic
+  cells to adapt to surging cellular stress during aging and, thereby, delays age-associated
+  deterioration. Autophagic flux declines with age and, in turn, decreases in autophagy
+  ...
 tags:
   - "clippings"
 ---
+
 ## ABSTRACT
 
 [[Autophagy]], as the key nutrient recycling pathway, enables eukaryotic cells to adapt to surging cellular stress during [[Aging]] and, thereby, delays age-associated deterioration. Autophagic flux declines with age and, in turn, decreases in autophagy contribute to the aging process itself and promote [[Senescence]]. Here, we outline how autophagy regulates [[Immune Aging]] and discuss [[Autophagy Inducer|autophagy-inducing interventions]] that target senescent immune cells, which are major drivers of systemic aging. We examine how cutting-edge technologies, such as [[Single-cell Omics]] methods hold the promise to capture the complexity of molecular and cellular phenotypes associated with aging, driving the development of suitable putative [[Biomarkers|biomarkers]] and clinical bioassays. Finally, we debate the urgency to initiate large-scale human clinical trials. We give special preference to small molecule probes and to dietary interventions that can extend healthy lifespan and are affordable for most of the world's population.

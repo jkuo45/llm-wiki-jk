@@ -1,18 +1,16 @@
 ---
 type: entity
-category: chemical compound
-aliases:
-  - Dorsomorphin
-  - Dorsomorphin dihydrochloride
-  - BML-275
-database_ids:
-  pubchem: 11524144
-relations:
-  - predicate: inhibits
-    target: AMPK
-    sources: []
+title: Compound C
+description: '**Compound C** (also known as Dorsomorphin or BML-275) is a potent,
+  selective, and cell-permeable small-molecule inhibitor of AMPK. It is the most widely
+  used pharmacological tool for probing AMPK ...'
 created: 2026-07-06
 updated: 2026-07-06
+entity_type_1: Chemical Compound
+aliases: [Dorsomorphin, Dorsomorphin dihydrochloride, BML-275]
+
+sources: []
+target: AMPK
 ---
 
 # Compound C

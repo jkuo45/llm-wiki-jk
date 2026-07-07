@@ -1,9 +1,12 @@
 ---
 type: entity
-category: other
-entity_type: "NA"
+title: Macular Degeneration
+description: Subsequent clinical programs have expanded to include allogeneic therapies
+  using HLA-matched iPSC banks, which offer a more scalable approach than patient-specific
+  (autologous) grafts. The ability ...
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: NA
 ---
 # Macular Degeneration
 

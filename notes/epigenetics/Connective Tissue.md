@@ -1,9 +1,10 @@
 ---
 type: entity
-category: anatomy
-entity_type: "Anatomy"
+title: Connective Tissue
+description: '- New links added: Extracellular Matrix, ECM, Collagen'
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: Anatomy
 ---
 # Connective Tissue
 

@@ -1,15 +1,15 @@
 ---
 type: entity
-category: protein
-aliases:
-  - "Proteins"
-tags:
-  - "oxidative_stress"
-  - "protein_oxidation"
+title: Proteins
+description: Proteins are large biomolecules consisting of one or more long chains
+  of amino acid residues. They perform a vast array of functions within organisms,
+  including catalyzing metabolic reactions, DNA ...
 created: 2026-05-09
 updated: 2026-07-04
+entity_type_1: Protein
+aliases: [Proteins]
+tags: [oxidative_stress, protein_oxidation]
 ---
-
 # Proteins
 
 ## Definition
@@ -80,7 +80,7 @@ Two tyrosyl radicals cross-link to form dityrosine (ﬂuorescent, λex ≈ 315 n
 #### Tyrosine Nitration
 [[Peroxynitrite]] (ONOO⁻) and [[Hypochlorous Acid|HOCl]]-derived nitrating species convert tyrosine to **3-nitrotyrosine** (3-NT):
 - **Mechanism**: ONOO⁻ + CO₂ → ONOOCO₂⁻ → •NO₂ + CO₃⁻•; •NO₂ + Tyr → 3-NT
-- **Functional impact**: 3-NT incorporation alters protein conformation and can either inactivate (e.g., [[MnSOD]]) or constitutively activate (e.g., [[Src kinase]]) proteins
+- **Functional impact**: 3-NT incorporation alters protein conformation and can either inactivate (e.g., [[MnSOD]]) or constitutively activate (e.g., [[SRC kinase]]) proteins
 - **Clinical relevance**: 3-NT levels are elevated 4–10 fold in [[Atherosclerosis|atherosclerotic plaques]], [[Rheumatoid Arthritis|arthritic joints]], and [[Neurodegenerative Diseases|neurodegenerative brain tissue]]
 
 ### Tryptophan Oxidation
@@ -124,12 +124,12 @@ GSSG is recycled by [[Glutathione Peroxidase]]
 
 ### Autophagic Clearance
 - **[[Macroautophagy]]**: Engulfs oxidized protein aggregates into [[Autophagosomes]], delivering them to [[Lysosome|lysosomes]] for degradation
-- **[[Chaperone-mediated autophagy]] (CMA)**: Recognizes proteins with KFERQ-like motifs; oxidized proteins are CMA substrates
+- **[[Chaperone-Mediated Autophagy]] (CMA)**: Recognizes proteins with KFERQ-like motifs; oxidized proteins are CMA substrates
 - **[[p62]]/SQSTM1**: Shuttles ubiquitinated oxidized proteins to autophagosomes
 
 ### Consequences of Impaired Clearance
 When clearance systems are overwhelmed or decline with age:
-- **Protein aggregation**: Accumulation of [[Amyloid-beta|Aβ]], [[Alpha-synuclein|α-synuclein]], and [[Tau Protein|Tau]]
+- **Protein aggregation**: Accumulation of [[Amyloid Beta|Aβ]], [[Alpha-synuclein|α-synuclein]], and [[Tau Protein|Tau]]
 - **Proteasome inhibition**: Cross-linked oxidized proteins physically block the 20S barrel
 - **Lipofuscin accumulation**: Autofluorescent, non-degradable aggregates ("age pigment") in post-mitotic cells
 
@@ -141,11 +141,11 @@ Protein oxidation is not merely damage—it is a regulated mechanism of **redox 
 - **H₂O₂-mediated inactivation of [[Protein Tyrosine Phosphatases]]** (PTPs): Reversible oxidation of the catalytic Cys enables sustained tyrosine kinase signaling
 - **[[PTEN]] oxidation**: Cys124-SOH formation inactivates PTEN, activating [[PI3K]]/[[Akt]] signaling
 - **[[NFRB]] regulation**: IκB oxidation promotes its degradation, activating NF-κB
-- **[[KEAP1]] oxidation**: Cys151/Cys273 modification releases [[NRF2]]
+- **[[Keap1]] oxidation**: Cys151/Cys273 modification releases [[NRF2]]
 
 ### Methionine-Based Signaling
 - **Calmodulin oxidation**: Met oxidation (Met76, Met144, Met145) alters Ca²⁺ binding affinity
-- **[[Calcineurin]]**: Met oxidation modulates phosphatase activity in T-cell signaling
+- **[[calcineurin]]**: Met oxidation modulates phosphatase activity in T-cell signaling
 
 ### Clinical and Pathological Significance
 
@@ -156,7 +156,7 @@ Protein oxidation is not merely damage—it is a regulated mechanism of **redox 
 - **AOPPs** accumulate and activate inflammatory pathways
 
 ### Neurodegeneration
-- [[Alzheimer's Disease]]: Tau hyperphosphorylation and [[Amyloid-beta|Aβ]] aggregation are promoted by oxidative cross-linking; oxidized [[GAPDH]] and [[Creatine kinase]] impair neuronal energy metabolism
+- [[Alzheimer's Disease]]: Tau hyperphosphorylation and [[Amyloid Beta|Aβ]] aggregation are promoted by oxidative cross-linking; oxidized [[GAPDH]] and [[Creatine kinase]] impair neuronal energy metabolism
 - [[Parkinson's Disease]]: [[Alpha-synuclein]] nitration (3-NT) at Tyr39, Tyr125, Tyr133 stabilizes oligomers; oxidized [[DJ-1]] loses its protective function
 - [[Huntington's Disease]]: [[Huntingtin]] fragments form aggregates via transglutaminase-catalyzed cross-links and oxidative modifications
 

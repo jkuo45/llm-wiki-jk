@@ -1,11 +1,11 @@
 ---
 type: entity
-category: Protein
-aliases: []
+title: Hemoglobin M
+description: '- Methemoglobinemia: HbM disease is a hereditary type.'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Protein
 ---
-
 # Hemoglobin M
 
 [[Hemoglobin M]] (HbM) disease is a rare congenital form of [[Methemoglobinemia]] caused by autosomal dominant mutations in the globin genes (α, β, or γ chains). These mutations stabilize the iron in the ferric (Fe³⁺) state, leading to lifelong [[Cyanosis]].

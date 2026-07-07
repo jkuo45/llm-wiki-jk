@@ -1,9 +1,12 @@
 ---
 type: entity
-category: protein
-entity_type: "Protein"
+title: Major Histocompatibility Complex
+description: The Major Histocompatibility Complex (MHC) is a set of cell surface proteins
+  essential for the acquired Immune System to recognize foreign molecules in vertebrates,
+  which in turn determines histoco...
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: Protein
 ---
 # Major Histocompatibility Complex
 

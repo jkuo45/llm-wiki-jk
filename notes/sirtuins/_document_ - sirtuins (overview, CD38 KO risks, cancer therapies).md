@@ -1,10 +1,15 @@
 ---
+type: document
 title: sirtuins, grok
+created: 2026-07-01
+description: Sirtuins (SIRT1–SIRT7) are a family of seven NAD+-dependent enzymes (class
+  III Histone Modification/deacylases) in humans. They play key roles in Metabolism,
+  Aging, stress response, DNA Repair, Inf...
 tags:
   - grok
-created: 2026-07-01
-type: document
 ---
+
+
 
 # Sirtuins Overview
 
@@ -27,7 +32,7 @@ Localization can vary by cell type, [[Cell Cycle|cell cycle]] stage, and conditi
 
 ### SIRT1 (Nuclear/Cytosolic, Class I)
 
-- Primary roles: Master regulator of [[Metabolism|metabolism]], stress resistance, and [[Longevity|longevity]]. Deacetylates histones (e.g., H3K9, H3K26) and many non-histone proteins ([[p53]], [[FOXO|FOXO]], [[NFKB|NF-κB]], [[PGC-1α]], etc.).
+- Primary roles: Master regulator of [[Metabolism|metabolism]], stress resistance, and [[Longevity|longevity]]. Deacetylates histones (e.g., H3K9, H3K26) and many non-histone proteins ([[p53]], [[FOXO|FOXO]], [[NFKB|NF-κB]], [[PGC1-α]], etc.).
 - Key functions: Promotes [[Mitochondria|mitochondrial]] biogenesis, fatty acid oxidation, gluconeogenesis regulation, insulin sensitivity, [[DNA Repair|DNA repair]], [[Autophagy|autophagy]], reduces [[Inflammation|inflammation]]. Involved in [[Caloric Restriction|caloric restriction]] benefits.
 - Significance: Often called the "longevity sirtuin." Activation linked to anti-aging effects.
   lifespan.io
@@ -110,7 +115,7 @@ The specific deacylase activities listed are subtypes based on the exact acyl gr
 - Removes: An acetyl group (–COCH₃) from lysine residues (Lys-acetyl).
 - Most common and best-studied sirtuin activity.
 - Examples: [[SIRT1]], [[SIRT2]], [[SIRT3]] are strong deacetylases.
-- Biological role: Regulates histones (gene expression), transcription factors (e.g., [[p53]], [[FOXO|FOXO]], [[PGC-1α]]), metabolic enzymes, etc. Often linked to [[Longevity|longevity]] and [[Caloric Restriction|caloric restriction]] benefits.
+- Biological role: Regulates histones (gene expression), transcription factors (e.g., [[p53]], [[FOXO|FOXO]], [[PGC1-α]]), metabolic enzymes, etc. Often linked to [[Longevity|longevity]] and [[Caloric Restriction|caloric restriction]] benefits.
 
 #### • Demalonylase activity
 
@@ -278,6 +283,6 @@ They are transformative in [[Multiple Myeloma|MM]]:
 ---
 
 ## Linking Summary:
-- New links added: [[Sirtuins]], [[SIRT1]], [[SIRT2]], [[SIRT3]], [[SIRT4]], [[SIRT5]], [[SIRT6]], [[SIRT7]], [[NAD+]], [[Histone Modification|histone deacetylases]], [[Metabolism|metabolism]], [[Aging|aging]], [[DNA Repair|DNA repair]], [[Inflammation|inflammation]], [[ADP-ribosylation]], [[Longevity|longevity]], [[Caloric Restriction|calorie restriction]], [[Diabetes Mellitus|diabetes]], [[Cancer|cancer]], [[Neurodegenerative Diseases|neurodegeneration]], [[Cardiovascular Disease|cardiovascular issues]], [[Cell Cycle|cell cycle]], [[Oxidative Stress|oxidative stress]], [[Parkinson's Disease|Parkinson's]], [[Reactive Oxygen Species|ROS]], [[Superoxide Dismutase|SOD2/Mn-SOD]], [[p53]], [[FOXO|FOXO]], [[NFKB|NF-κB]], [[PGC-1α]], [[Autophagy|autophagy]], [[Glutamate Dehydrogenase (GDH)]], [[Telomere Attrition|telomere function]], [[HIF1A|HIF-1α]], [[SREBP1|SREBP]], [[TAFI68|rRNA transcription]], [[Resveratrol|resveratrol]], [[Nicotinamide Mononucleotide|NMN]], [[Nicotinamide Riboside|NR]], [[CD38]], [[CD38 inhibitor 78c|78c]], [[Inflammaging|inflammaging]], [[Daratumumab]], [[Multiple Myeloma|multiple myeloma]], [[Apoptosis|apoptosis]], [[Tumor Microenvironment|TME]], [[Quercetin|quercetin]], [[cADPR]], [[Prostate Cancer|prostate]], [[Lung Cancer|lung cancer]], [[glioblastoma|glioblastoma]]
+- New links added: [[Sirtuins]], [[SIRT1]], [[SIRT2]], [[SIRT3]], [[SIRT4]], [[SIRT5]], [[SIRT6]], [[SIRT7]], [[NAD+]], [[Histone Modification|histone deacetylases]], [[Metabolism|metabolism]], [[Aging|aging]], [[DNA Repair|DNA repair]], [[Inflammation|inflammation]], [[ADP-ribosylation]], [[Longevity|longevity]], [[Caloric Restriction|calorie restriction]], [[Diabetes Mellitus|diabetes]], [[Cancer|cancer]], [[Neurodegenerative Diseases|neurodegeneration]], [[Cardiovascular Disease|cardiovascular issues]], [[Cell Cycle|cell cycle]], [[Oxidative Stress|oxidative stress]], [[Parkinson's Disease|Parkinson's]], [[Reactive Oxygen Species|ROS]], [[Superoxide Dismutase|SOD2/Mn-SOD]], [[p53]], [[FOXO|FOXO]], [[NFKB|NF-κB]], [[PGC1-α]], [[Autophagy|autophagy]], [[Glutamate Dehydrogenase (GDH)]], [[Telomere Attrition|telomere function]], [[HIF1A|HIF-1α]], [[SREBP1|SREBP]], [[TAFI68|rRNA transcription]], [[Resveratrol|resveratrol]], [[Nicotinamide Mononucleotide|NMN]], [[Nicotinamide Riboside|NR]], [[CD38]], [[CD38 inhibitor 78c|78c]], [[Inflammaging|inflammaging]], [[Daratumumab]], [[Multiple Myeloma|multiple myeloma]], [[Apoptosis|apoptosis]], [[Tumor Microenvironment|TME]], [[Quercetin|quercetin]], [[cADPR]], [[Prostate Cancer|prostate]], [[Lung Cancer|lung cancer]], [[glioblastoma|glioblastoma]]
 - Suggested new entity notes to create: [[CD38 inhibitor 78c]], [[ADP-ribosylation]], [[cADPR]]
 - Strong connections to strengthen: [[Sirtuins]] ↔ [[CD38]], [[CD38]] ↔ [[CD38 inhibitor 78c]], [[CD38]] ↔ [[cADPR]]

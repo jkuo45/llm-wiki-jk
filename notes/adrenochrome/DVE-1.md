@@ -1,11 +1,12 @@
 ---
 type: entity
-category: Protein
-aliases: []
+title: DVE-1
+description: DVE-1 is a homeobox-containing transcription factor that works with UBL-5
+  to regulate gene expression during the Mitochondrial Unfolded Protein Response.
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Protein
 ---
-
 # DVE-1
 
 DVE-1 is a homeobox-containing transcription factor that works with [[UBL-5]] to regulate gene expression during the [[Mitochondrial Unfolded Protein Response]].

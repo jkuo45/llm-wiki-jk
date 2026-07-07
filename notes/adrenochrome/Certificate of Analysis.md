@@ -1,11 +1,12 @@
 ---
 type: entity
-category: Laboratory Standard
-aliases: []
+title: Certificate of Analysis
+description: A **Certificate of Analysis** (CoA) is a document issued by Quality Assurance
+  that confirms that a regulated product meets its product specification.
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Laboratory Standard
 ---
-
 # Certificate of Analysis
 
 A **Certificate of Analysis** (CoA) is a document issued by Quality Assurance that confirms that a regulated product meets its product specification.

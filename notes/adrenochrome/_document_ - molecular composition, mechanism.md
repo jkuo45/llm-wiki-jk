@@ -1,11 +1,10 @@
 ---
 type: document
-title: "Grok"
-source: "https://x.com/i/grok?conversation=2049208684165939646"
-author:
-published:
+title: Grok
+source: https://x.com/i/grok?conversation=2049208684165939646
 created: 2026-04-28
-description: "Grok is a free AI assistant designed by xAI to maximize truth and objectivity. Grok offers real-time search, image generation, trend analysis, and more."
+description: Grok is a free AI assistant designed by xAI to maximize truth and objectivity.
+  Grok offers real-time search, image generation, trend analysis, and more.
 tags:
   - "clippings"
 ---

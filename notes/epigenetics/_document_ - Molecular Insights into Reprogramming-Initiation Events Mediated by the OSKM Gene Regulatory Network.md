@@ -1,28 +1,33 @@
 ---
-title: "Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network"
-source: "https://pmc.ncbi.nlm.nih.gov/articles/PMC3164204/"
+type: document
+title: Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM
+  Gene Regulatory Network
+source: https://pmc.ncbi.nlm.nih.gov/articles/PMC3164204/
 author:
-  - "Nancy Mah"
-  - "Ying Wang"
-  - "Mei-Chih Liao"
-  - "Alessandro Prigione"
-  - "Justyna Jozefczuk"
-  - "Björn Lichtner"
-  - "Katharina Wolfrum"
-  - "Manuela Haltmeier"
-  - "Max Flöttmann"
-  - "Martin Schaefer"
-  - "Alexander Hahn"
-  - "Ralf Mrowka"
-  - "Edda Klipp"
-  - "Miguel A Andrade-Navarro"
-  - "James Adjaye"
-published:
+- Nancy Mah
+- Ying Wang
+- Mei-Chih Liao
+- Alessandro Prigione
+- Justyna Jozefczuk
+- Björn Lichtner
+- Katharina Wolfrum
+- Manuela Haltmeier
+- Max Flöttmann
+- Martin Schaefer
+- Alexander Hahn
+- Ralf Mrowka
+- Edda Klipp
+- Miguel A Andrade-Navarro
+- James Adjaye
 created: 2026-05-13
-description: "Somatic cells can be reprogrammed to induced pluripotent stem cells by over-expression of OCT4, SOX2, KLF4 and c-MYC (OSKM). With the aim of unveiling the early mechanisms underlying the induction of pluripotency, we have analyzed transcriptional ..."
+description: Somatic cells can be reprogrammed to induced pluripotent stem cells by
+  over-expression of OCT4, SOX2, KLF4 and c-MYC (OSKM). With the aim of unveiling
+  the early mechanisms underlying the induction of pluripotency, we have analyzed
+  transcriptional ...
 tags:
   - "clippings"
 ---
+
 . 2011 Aug 31;6(8):e24351. doi: [10.1371/journal.pone.0024351](https://doi.org/10.1371/journal.pone.0024351)
 
 [Nancy Mah](https://pubmed.ncbi.nlm.nih.gov/?term=%22Mah%20N%22[Author]) <sup>1,</sup><sup>#</sup>, [Ying Wang](https://pubmed.ncbi.nlm.nih.gov/?term=%22Wang%20Y%22[Author]) <sup>2,</sup><sup>#</sup>, [Mei-Chih Liao](https://pubmed.ncbi.nlm.nih.gov/?term=%22Liao%20MC%22[Author]) <sup>2</sup>, [Alessandro Prigione](https://pubmed.ncbi.nlm.nih.gov/?term=%22Prigione%20A%22[Author]) <sup>2</sup>, [Justyna Jozefczuk](https://pubmed.ncbi.nlm.nih.gov/?term=%22Jozefczuk%20J%22[Author]) <sup>2</sup>, [Björn Lichtner](https://pubmed.ncbi.nlm.nih.gov/?term=%22Lichtner%20B%22[Author]) <sup>2</sup>, [Katharina Wolfrum](https://pubmed.ncbi.nlm.nih.gov/?term=%22Wolfrum%20K%22[Author]) <sup>2</sup>, [Manuela Haltmeier](https://pubmed.ncbi.nlm.nih.gov/?term=%22Haltmeier%20M%22[Author]) <sup>3</sup>, [Max Flöttmann](https://pubmed.ncbi.nlm.nih.gov/?term=%22Fl%C3%B6ttmann%20M%22[Author]) <sup>4</sup>, [Martin Schaefer](https://pubmed.ncbi.nlm.nih.gov/?term=%22Schaefer%20M%22[Author]) <sup>1</sup>, [Alexander Hahn](https://pubmed.ncbi.nlm.nih.gov/?term=%22Hahn%20A%22[Author]) <sup>3</sup>, [Ralf Mrowka](https://pubmed.ncbi.nlm.nih.gov/?term=%22Mrowka%20R%22[Author]) <sup>5</sup>, [Edda Klipp](https://pubmed.ncbi.nlm.nih.gov/?term=%22Klipp%20E%22[Author]) <sup>4</sup>, [Miguel A Andrade-Navarro](https://pubmed.ncbi.nlm.nih.gov/?term=%22Andrade-Navarro%20MA%22[Author]) <sup>1</sup>, [James Adjaye](https://pubmed.ncbi.nlm.nih.gov/?term=%22Adjaye%20J%22[Author]) <sup>2,</sup><sup>6,</sup><sup>*</sup>

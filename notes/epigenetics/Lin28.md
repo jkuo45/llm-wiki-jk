@@ -1,9 +1,12 @@
 ---
 type: entity
-category: other
-entity_type: "NA"
+title: Lin28
+description: 'The interaction between Lin28 and let-7 forms a bistable switch: Lin28
+  inhibits let-7 maturation, while let-7 can negatively regulate Lin28 expression.
+  Terminal uridylases like ZCCHC11 are recruite...'
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: NA
 ---
 # Lin28
 

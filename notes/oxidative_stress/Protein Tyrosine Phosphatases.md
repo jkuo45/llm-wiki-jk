@@ -1,11 +1,14 @@
 ---
 type: entity
-category: enzyme
-aliases: [PTPs, Protein tyrosine phosphatases, Tyrosine-specific phosphatases]
+title: Protein Tyrosine Phosphatases
+description: '**Protein Tyrosine Phosphatases (PTPs)** are a family of enzymes that
+  remove phosphate groups from phosphorylated tyrosine residues, counterbalancing
+  the activity of protein tyrosine kinases. They ...'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Enzyme
+aliases: [PTPs, Protein tyrosine phosphatases, Tyrosine-specific phosphatases]
 ---
-
 # Protein Tyrosine Phosphatases
 
 **Protein Tyrosine Phosphatases (PTPs)** are a family of enzymes that remove phosphate groups from phosphorylated tyrosine residues, counterbalancing the activity of protein tyrosine kinases. They are central to redox signaling due to the sensitivity of their active-site cysteine to reversible oxidation by [[Hydrogen Peroxide|H₂O₂]].

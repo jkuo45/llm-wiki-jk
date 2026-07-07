@@ -1,11 +1,13 @@
 ---
 type: entity
-category: Biological Process
-aliases: []
+title: Mitochondrial Unfolded Protein Response
+description: The Mitochondrial Unfolded Protein Response (UPRmt) is a form of retrograde
+  signaling that allows Mitochondria to communicate with the nucleus in response to
+  proteotoxic stress, specifically the ac...
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Biological Process
 ---
-
 # Mitochondrial Unfolded Protein Response
 
 The Mitochondrial Unfolded Protein Response (UPRmt) is a form of retrograde signaling that allows [[Mitochondria]] to communicate with the nucleus in response to proteotoxic stress, specifically the accumulation of misfolded proteins within the mitochondrial matrix.

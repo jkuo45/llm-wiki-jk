@@ -1,25 +1,20 @@
 ---
 type: entity
-category: protein
+title: Phosphodiesterase 4 (PDE4)
+description: Phosphodiesterase 4 (PDE4) is a family of cAMP-specific phosphodiesterases
+  that hydrolyze cAMP to 5'-AMP, terminating cAMP signaling. Four genes (PDE4A–D)
+  encode multiple splice variants expressed ...
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Protein
 aliases:
   - PDE4
   - Phosphodiesterase 4
   - cAMP-Specific Phosphodiesterase 4
-database_ids:
-  uniprot: PDE4A (P27815), PDE4B (Q07343), PDE4C (Q08493), PDE4D (Q08499)
-  hgnc: HGNC:8783 (PDE4A)
-relations:
-  - predicate: inhibited_by
-    target: "Resveratrol"
-    sources:
-      - Park 2012
-  - predicate: upstream_of
-    target: "AMPK"
-    sources:
-      - Park 2012
-created: 2026-07-04
-updated: 2026-07-04
 ---
+
+
+
 
 # Phosphodiesterase 4 (PDE4)
 

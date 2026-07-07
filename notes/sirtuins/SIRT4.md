@@ -1,33 +1,20 @@
 ---
 type: entity
-category: protein
+title: SIRT4
+description: SIRT4 (Sirtuin 4) is a mitochondrial sirtuin classified in phylogenetic
+  Class II, which includes sirtuins from bacteria, insects, nematodes, mould fungus,
+  and protozoans — making SIRT4 and Class II...
+created: 2026-07-02
+updated: 2026-07-05
+entity_type_1: Protein
 aliases:
   - Sirtuin 4
   - mitochondrial sirtuin 4
   - SIRT4 ADP-ribosyl transferase
-database_ids:
-  uniprot: Q9Y6E7
-  hgnc: HGNC:14932
-relations:
-  - predicate: inhibits
-    target: "Glutamate Dehydrogenase (GDH)"
-    sources:
-      - PMID:16959573
-  - predicate: inhibits
-    target: "Insulin Secretion"
-    sources:
-      - PMID:16959573
-  - predicate: downregulated_by
-    target: "notes/_link/Caloric Restriction"
-    sources:
-      - PMID:16959573
-  - predicate: mono-ADP-ribosylates
-    target: "Glutamate Dehydrogenase (GDH)"
-    sources:
-      - PMID:16959573
-created: 2026-07-02
-updated: 2026-07-05
 ---
+
+
+
 
 # SIRT4
 

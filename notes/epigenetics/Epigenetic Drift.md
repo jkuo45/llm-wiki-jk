@@ -1,9 +1,12 @@
 ---
 type: entity
-category: scientific_concept
-entity_type: "Scientific Concept"
+title: Epigenetic Drift
+description: '**Epigenetic Drift** refers to the gradual and random changes in the
+  Epigenome that occur as an individual ages. These changes are distinct from programmed
+  developmental alterations and are thought...'
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: Scientific Concept
 ---
 # Epigenetic Drift
 

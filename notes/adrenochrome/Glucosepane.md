@@ -1,11 +1,13 @@
 ---
 type: entity
-category: Chemical Compound
-aliases: []
+title: Glucosepane
+description: Glucosepane is the most abundant and chemically stable protein-protein
+  crosslink belonging to the Advanced Glycation End Products (AGEs) family in human
+  structural tissues.
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Chemical Compound
 ---
-
 # Glucosepane
 
 Glucosepane is the most abundant and chemically stable protein-protein crosslink belonging to the [[Advanced Glycation End Products]] (AGEs) family in human structural tissues.

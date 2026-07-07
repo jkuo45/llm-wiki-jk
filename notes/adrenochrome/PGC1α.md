@@ -1,11 +1,13 @@
 ---
 type: entity
-category: Protein
-aliases: []
+title: PGC1α
+description: PGC1α (Peroxisome proliferator-activated receptor gamma coactivator 1-alpha)
+  is a transcriptional coactivator that acts as a master regulator of mitochondrial
+  biogenesis and energy metabolism.
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Protein
 ---
-
 # PGC1α
 
 PGC1α (Peroxisome proliferator-activated receptor gamma coactivator 1-alpha) is a transcriptional coactivator that acts as a master regulator of mitochondrial biogenesis and energy metabolism.
@@ -24,7 +26,7 @@ PGC1α is a 798-amino acid protein with modular domain architecture. The N-termi
 
 ## Interaction with Transcription Factors
 
-PGC1α lacks intrinsic DNA-binding activity and exerts its coactivator functions through physical interaction with diverse transcription factors. Key binding partners include [[NRF1]] and [[NRF2]]/[[GABPA]] (regulating nuclear-encoded mitochondrial genes), [[PPARγ]] (adipogenesis and oxidative metabolism), [[PPARα]] (fatty acid oxidation), [[ERRα]] (oxidative phosphorylation), and [[YY1]] (mitochondrial gene co-regulation). This broad interactome enables PGC1α to coordinate expression of over 1,000 nuclear-encoded mitochondrial genes.
+PGC1α lacks intrinsic DNA-binding activity and exerts its coactivator functions through physical interaction with diverse transcription factors. Key binding partners include [[NRF1]] and [[NRF2]]/[[GABPA]] (regulating nuclear-encoded mitochondrial genes), [[PPARγ]] (adipogenesis and oxidative metabolism), [[PPARα]] (fatty acid oxidation), [[ERRalpha]] (oxidative phosphorylation), and [[YY1]] (mitochondrial gene co-regulation). This broad interactome enables PGC1α to coordinate expression of over 1,000 nuclear-encoded mitochondrial genes.
 
 ## Regulation by SIRT1 Deacetylation and AMPK Phosphorylation
 
@@ -49,4 +51,4 @@ In the [[Mitohormesis]] paradigm, PGC1α is both a downstream effector and an up
 
 - New links added: [[AMPK]], [[SIRT1]], [[Mitochondria]], [[Mitohormesis]], [[Mitohormetic Redox-Relay]]
 - Suggested new entity notes to create: [[Mitochondrial Biogenesis]]
-- Strong connections to strengthen: [[PGC1α]] ↔ [[Metabolic Homeostasis]], [[PGC1α]] ↔ [[Mitohormetic Redox-Relay]]
+- Strong connections to strengthen: [[PGC1-α]] ↔ [[Metabolic Homeostasis]], [[PGC1-α]] ↔ [[Mitohormetic Redox-Relay]]

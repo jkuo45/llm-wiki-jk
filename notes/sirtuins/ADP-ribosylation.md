@@ -1,19 +1,16 @@
 ---
 type: entity
-category: pathway
+title: ADP-ribosylation
+description: ADP-ribosylation is a reversible post-translational modification in which
+  one or more ADP-ribose moieties from NAD+ are transferred to specific amino acid
+  residues (such as glutamate, aspartate, ly...
+created: 2026-07-03
+updated: 2026-07-06
+entity_type_1: Biological Process
 aliases: [ADP-ribosylation, mono-ADP-ribosylation, poly-ADP-ribosylation, ADP-ribosyltransferase]
-relations:
-  - predicate: associated_with
-    target: "Sirtuins"
-    sources: [pmc.ncbi.nlm.nih.gov/articles/PMC6449673/]
-    created: 2026-07-03
-    updated: 2026-07-03
-  - predicate: regulates
-    target: "notes/_link/DNA Repair"
-    sources: [pmc.ncbi.nlm.nih.gov/articles/PMC6449673/]
-    created: 2026-07-03
-    updated: 2026-07-03
 ---
+
+
 
 # ADP-ribosylation
 

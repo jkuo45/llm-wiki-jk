@@ -1,11 +1,13 @@
 ---
 type: entity
-category: protein
-entity_type: "Protein"
+title: Histone Variant
+description: '**Histone variants** are non-canonical isoforms of the core Histone
+  proteins (H2A, H2B, H3, H4) that replace their canonical counterparts in specific
+  genomic contexts to alter Nucleosome stability,...'
 created: 2024-01-01
 updated: 2024-07-04
+entity_type_1: Protein
 ---
-
 # Histone Variant
 
 **Histone variants** are non-canonical isoforms of the core [[Histone]] proteins (H2A, H2B, H3, H4) that replace their canonical counterparts in specific genomic contexts to alter [[Nucleosome]] stability, [[Chromatin]] dynamics, and [[Epigenetics|epigenetic regulation]]. Unlike canonical histones (expressed only during S phase), most variants are expressed throughout the cell cycle and incorporated by replication-independent [[Histone Chaperone|chaperones]].

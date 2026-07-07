@@ -1,24 +1,24 @@
 ---
 type: entity
-category: protein
-aliases:
-  - MADH3
-  - Mothers against decapentaplegic homolog 3
-  - SMAD family member 3
+title: SMAD3
+description: '**SMAD3** (Mothers against decapentaplegic homolog 3) is a receptor-regulated
+  SMAD (R-SMAD) transcription factor that mediates signalling from the TGF-β superfamily.
+  It is centrally involved in cel...'
+created: 2026-07-04
+updated: 2026-07-05
+entity_type_1: Protein
+aliases: [MADH3, Mothers against decapentaplegic homolog 3, SMAD family member 3]
 database_ids:
   uniprot: P84022
   hgnc: HGNC:6769
-created: 2026-07-04
-updated: 2026-07-05
 ---
-
 # SMAD3
 
 **SMAD3** (Mothers against decapentaplegic homolog 3) is a receptor-regulated [[SMAD]] (R-SMAD) transcription factor that mediates signalling from the [[TGF-β]] superfamily. It is centrally involved in cell cycle control, extracellular matrix production, immune regulation, and autophagy modulation.
 
 ## TGF-β Signalling and SMAD3 Activation
 
-SMAD3 is directly phosphorylated at C-terminal serines (SSXS motif) by the [[TGFBR1]] (ALK5) receptor kinase upon TGF-β ligand binding. Phosphorylated SMAD3 forms a heteromeric complex with [[SMAD4]] and translocates to the nucleus, where it regulates target gene transcription in concert with transcription factors (e.g., [[AP-1]], [[Sp1]], [[Runx2]]) and co-activators/co-repressors ([[p300]], [[c-Myc]], [[Ski]]).
+SMAD3 is directly phosphorylated at C-terminal serines (SSXS motif) by the [[TGFBR1]] (ALK5) receptor kinase upon TGF-β ligand binding. Phosphorylated SMAD3 forms a heteromeric complex with [[SMAD4]] and translocates to the nucleus, where it regulates target gene transcription in concert with transcription factors (e.g., [[AP-1]], [[Sp1]], [[Runx2]]) and co-activators/co-repressors ([[P300]], [[c-Myc]], [[Ski]]).
 
 ## Transcriptional Targets
 
@@ -27,7 +27,7 @@ SMAD3 regulates a broad set of target genes depending on cellular context:
 - **Pro-Fibrotic**: [[COL1A1]], [[COL3A1]], [[COL5A2]], [[FN1]] (fibronectin), [[ACTA2]] (α-SMA), [[TIMP1]], [[PAI1]] (SERPINE1)
 - **Cell Cycle**: [[CDKN1A]] (p21), [[CDKN2B]] (p15), [[MYC]] repression
 - **Autophagy**: [[TFEB]] — SMAD3 binds the 3'-UTR of TFEB and represses its transcription, reducing lysosomal biogenesis and autophagic flux
-- **Immune**: [[FOXP3]] (Treg differentiation), [[IL10]] (anti-inflammatory cytokine)
+- **Immune**: [[Foxp3]] (Treg differentiation), [[IL10]] (anti-inflammatory cytokine)
 
 ## Role in Autophagy Regulation
 
@@ -50,7 +50,7 @@ SMAD3 is the primary TGF-β effector driving pathological fibrosis:
 
 SMAD3 is essential for the anti-inflammatory and immunosuppressive functions of TGF-β:
 
-- Promotes differentiation of [[FOXP3]]+ [[Regulatory T cells]] (Tregs)
+- Promotes differentiation of [[Foxp3]]+ [[Regulatory T cells]] (Tregs)
 - Suppresses [[Th1]] and [[Th2]] effector T cell differentiation
 - Inhibits pro-inflammatory cytokine production by macrophages and dendritic cells
 - Smad3-knockout mice develop systemic inflammation and are susceptible to chronic infections
@@ -72,6 +72,6 @@ SMAD3 is essential for the anti-inflammatory and immunosuppressive functions of 
 
 ## Linking Summary
 
-- New links added: [[TFEB]], [[TGF-β]], [[SMAD4]], [[SIRT1]], [[SIRT6]], [[SIRT7]], [[Inflammation]], [[Fibrosis]], [[FOXP3]], [[Regulatory T cells]]
+- New links added: [[TFEB]], [[TGF-β]], [[SMAD4]], [[SIRT1]], [[SIRT6]], [[SIRT7]], [[Inflammation]], [[Fibrosis]], [[Foxp3]], [[Regulatory T cells]]
 - Suggested new entity notes to create: [[TGF-β Signalling]], [[CLEAR network]], [[SMAD family]]
 - Strong connections to strengthen: [[SMAD3]] ↔ [[TFEB]], [[SMAD3]] ↔ [[TGF-β]], [[SMAD3]] ↔ [[SIRT6]]

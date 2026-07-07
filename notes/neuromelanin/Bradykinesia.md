@@ -1,11 +1,11 @@
 ---
 type: entity
-category: symptom
-aliases: []
+title: Bradykinesia
+description: '- New links added: Parkinson''s Disease, Nigrostriatal System.'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Symptom
 ---
-
 # Bradykinesia
 
 [[Bradykinesia]] refers to the slowness of movement and is one of the cardinal motor symptoms of [[Parkinson's Disease]]. It is often associated with a decrease in the amplitude of movements (hypokinesia) and is linked to the loss of dopaminergic neurons in the [[Nigrostriatal System]].

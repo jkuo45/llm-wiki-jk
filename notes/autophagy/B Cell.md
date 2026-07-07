@@ -1,10 +1,13 @@
 ---
-aliases:
-- B lymphocyte
-category: Cell Type
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: B Cell
+description: B cells are lymphocytes responsible for the production of antibodies
+  in the Adaptive Immune Response, requiring Autophagy for long-term survival and
+  memory formation.
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Cell Type
+aliases: [B lymphocyte]
 ---
 # B Cell
 

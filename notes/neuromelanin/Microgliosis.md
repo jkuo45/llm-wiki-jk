@@ -1,11 +1,12 @@
 ---
 type: entity
-category: biological_process
-aliases: []
+title: Microgliosis
+description: In the context of Parkinson's Disease, microgliosis is a key component
+  of the Neuroinflammation observed in the Substantia Nigra.
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Biological Process
 ---
-
 # Microgliosis
 
 [[Microgliosis]] refers to the activation and proliferation of microglia, the resident macrophages and primary immune cells of the central nervous system.

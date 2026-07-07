@@ -1,11 +1,13 @@
 ---
 type: entity
-category: biological_process
-entity_type: "Biological Process"
+title: Stress-Induced Premature Senescence
+description: '**Stress-Induced Premature Senescence (SIPS)** is a form of Cellular
+  Senescence triggered acutely by exposure to subcytotoxic stress — including oxidative,
+  genotoxic, and epigenetic stressors — wit...'
 created: 2024-01-01
 updated: 2024-07-04
+entity_type_1: Biological Process
 ---
-
 # Stress-Induced Premature Senescence
 
 **Stress-Induced Premature Senescence (SIPS)** is a form of [[Cellular Senescence]] triggered acutely by exposure to subcytotoxic stress — including oxidative, genotoxic, and epigenetic stressors — without requiring [[Telomere Attrition|replicative telomere shortening]]. SIPS was first systematically characterized when subcytotoxic [[Hydrogen Peroxide]] doses were shown to induce [[SA-beta-gal]]-positive, proliferation-arrested cells within 48–72 hours.

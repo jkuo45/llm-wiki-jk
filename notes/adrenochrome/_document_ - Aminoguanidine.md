@@ -1,12 +1,13 @@
 ---
 type: document
-title: "Aminoguanidine"
-source: "https://pubchem.ncbi.nlm.nih.gov/compound/Aminoguanidine"
+title: Aminoguanidine
+source: https://pubchem.ncbi.nlm.nih.gov/compound/Aminoguanidine
 author:
-  - "PubChem"
-published:
+- PubChem
 created: 2026-05-25
-description: "Aminoguanidine | CH6N4 | CID 2146 - structure, chemical names, physical and chemical properties, classification, patents, literature, biological activities, safety/hazards/toxicity information, supplier lists, and more."
+description: Aminoguanidine | CH6N4 | CID 2146 - structure, chemical names, physical
+  and chemical properties, classification, patents, literature, biological activities,
+  safety/hazards/toxicity information, supplier lists, and more.
 tags:
   - "clippings"
 ---

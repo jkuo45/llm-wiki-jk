@@ -1,10 +1,13 @@
 ---
-aliases:
-- phorbol 12-myristate 13-acetate
-category: Chemical Compound
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: PMA
+description: Phorbol 12-myristate 13-acetate (PMA) is a potent activator of protein
+  kinase C (PKC) and p38 MAPK that is commonly used to induce monocyte-to-macrophage
+  differentiation, a process involving TFEB.
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Chemical Compound
+aliases: [phorbol 12-myristate 13-acetate]
 ---
 # PMA
 

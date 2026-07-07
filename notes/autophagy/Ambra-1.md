@@ -1,10 +1,12 @@
 ---
-aliases:
-- activating molecule in Beclin1-regulated autophagy
-category: Protein
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: Ambra-1
+description: Ambra-1 (Autophagy/beclin-1 regulator 1) is a positive regulator of the
+  PI3K that interacts with Beclin1 to promote autophagosome nucleation.
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Protein
+aliases: [activating molecule in Beclin1-regulated autophagy]
 ---
 # Ambra-1
 

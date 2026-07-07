@@ -1,3 +1,10 @@
+---
+type: document
+title: Peroxisomes Explained
+created: '2026-07-06'
+description: Overview of peroxisome structure, function, biogenesis, and relation
+  to autophagy
+---
 ➜  llm-wiki-jk git:(dev) ollama run gemma3:latest
 >>> explain peroxisomes
 Okay, let's break down peroxisomes – these little organelles are surprisingly important for a whole bunch of cellular processes. Here’s an explanation covering the key aspects:

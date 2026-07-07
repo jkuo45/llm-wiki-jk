@@ -1,30 +1,20 @@
 ---
 type: entity
-category: protein
+title: TRPM2
+description: TRPM2 (Transient Receptor Potential Melastatin-Related Channel 2) is
+  a calcium-permeable non-selective cation channel. It is expressed highly in the
+  brain, immune system, and cardiovascular system....
+created: 2026-07-03
+updated: 2026-07-03
+entity_type_1: Protein
 aliases:
   - TRPM2
   - transient receptor potential melastatin-related channel 2
   - LTRPC2
-database_ids:
-  uniprot: O94759
-  hgnc: HGNC:12334
-relations:
-  - predicate: activated_by
-    target: "OAADPr"
-    sources:
-      - PMID:16565078
-      - PMID:11812793
-  - predicate: associated_with
-    target: "SIRT2"
-    sources:
-      - PMID:16565078
-  - predicate: associated_with
-    target: "SIRT3"
-    sources:
-      - PMID:16565078
-created: 2026-07-03
-updated: 2026-07-03
 ---
+
+
+
 
 # TRPM2
 

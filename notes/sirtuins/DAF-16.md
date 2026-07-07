@@ -1,19 +1,17 @@
 ---
 type: entity
-category: protein
-aliases:
-  - DAF-16
-  - abnormal dauer formation 16
-  - C. elegans DAF-16
-database_ids:
-  uniprot: Q17531
-relations:
-  - predicate: regulated_by
-    target: "Sir2 (yeast)"
-    sources:
-      - PMID:11242085
+title: DAF-16
+description: '**DAF-16** (abnormal dauer formation 16) is a *Caenorhabditis elegans*
+  Forkhead box class O (FOXO) transcription factor homologue. It is a master regulator
+  of longevity, dauer larva development, st...'
 created: 2026-07-03
 updated: 2026-07-03
+entity_type_1: Protein
+aliases: [DAF-16, abnormal dauer formation 16, C. elegans DAF-16]
+
+sources:
+- PMID:11242085
+target: Sir2 (yeast)
 ---
 
 # DAF-16

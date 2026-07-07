@@ -1,18 +1,15 @@
 ---
 type: entity
-category: metabolite
-aliases:
-  - "8-oxodG"
-  - "8-OHdG"
-  - "8-hydroxy-2'-deoxyguanosine"
-tags:
-  - "oxidative_stress"
-  - "biomarker"
-  - "dna_damage"
+title: 8-oxo-2'-deoxyguanosine
+description: 8-oxo-2'-deoxyguanosine (8-oxodG) is an oxidized derivative of deoxyguanosine
+  and is one of the major products of DNA oxidation. It is a widely used biomarker
+  of Oxidative Stress and is frequently ...
 created: 2026-05-09
 updated: 2026-07-04
+entity_type_1: Metabolite
+aliases: [8-oxodG, 8-OHdG, 8-hydroxy-2'-deoxyguanosine]
+tags: [oxidative_stress, biomarker, dna_damage]
 ---
-
 # 8-oxo-2'-deoxyguanosine
 8-oxo-2'-deoxyguanosine (8-oxodG) is an oxidized derivative of deoxyguanosine and is one of the major products of [[DNA oxidation]]. It is a widely used biomarker of [[Oxidative Stress]] and is frequently associated with the development of [[Cancer]].
 

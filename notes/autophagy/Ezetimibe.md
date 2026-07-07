@@ -1,8 +1,11 @@
 ---
-category: Chemical Compound
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: Ezetimibe
+description: Ezetimibe is a cholesterol-lowering drug that ameliorates steatohepatitis
+  via AMPK-mediated activation of TFEB and subsequent autophagy.
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Chemical Compound
 ---
 # Ezetimibe
 

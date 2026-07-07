@@ -1,10 +1,13 @@
 ---
-aliases:
-- kinesin heavy chain
-category: Protein
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: KIF5B
+description: '**KIF5B** (Kinesin Family Member 5B) is a microtubule-based motor protein
+  that drives the extension of lysosomal tubules along microtubules during Autophagic
+  Lysosome Reformation by interacting wit...'
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Protein
+aliases: [kinesin heavy chain]
 ---
 # KIF5B
 

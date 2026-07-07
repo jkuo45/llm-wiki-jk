@@ -1,22 +1,20 @@
 ---
 type: entity
-category: scientific concept
+title: Allosteric Activator
+description: An allosteric activator is a molecule that binds to a site on a Protein
+  distinct from its orthosteric (active) site, inducing a Conformational change that
+  increases the protein's catalytic or funct...
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Scientific Concept
 aliases:
   - allosteric modulator
   - allosteric agonist
   - allosteric regulation
-database_ids:
-  mesh: D058494
-relations:
-  - predicate: exemplified_by
-    target: UBCS039
-    sources: []
-  - predicate: exemplified_by
-    target: MDL-800
-    sources: []
-created: 2026-07-06
-updated: 2026-07-06
 ---
+
+
+
 
 # Allosteric Activator
 

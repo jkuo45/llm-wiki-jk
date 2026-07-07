@@ -1,9 +1,12 @@
 ---
 type: entity
-category: other
-entity_type: "NA"
+title: Embryonic Stem Cells
+description: Embryonic Stem Cells (ESCs) are pluripotent stem cells derived from the
+  inner cell mass of a blastocyst, an early-stage pre-implantation embryo. They are
+  characterized by their ability to undergo i...
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: NA
 ---
 # Embryonic Stem Cells
 

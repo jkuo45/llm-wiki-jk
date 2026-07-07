@@ -1,11 +1,13 @@
 ---
 type: entity
-category: Scientific Concept
-aliases: []
+title: Lifespan
+description: Lifespan is the maximum number of years an individual of a given species
+  can humanly live. Interventions like Caloric Restriction have been shown to increase
+  lifespan, potentially by reducing Oxida...
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Scientific Concept
 ---
-
 # Lifespan
 
 Lifespan is the maximum number of years an individual of a given species can humanly live. Interventions like [[Caloric Restriction]] have been shown to increase lifespan, potentially by reducing [[Oxidative Stress]] and the accumulation of [[Advanced Glycation End Products|AGEs]].
@@ -19,12 +21,12 @@ A critical distinction in aging research:
 
 ## Longevity Pathways
 
-### [[Insulin]]/[[IGF-1]] Signaling (IIS) Pathway
+### [[Insulin]]/[[IGF1]] Signaling (IIS) Pathway
 
 Discovered through [[C. elegans]] genetics:
 - Reduced signaling through [[DAF-2]] (IGF-1 receptor homolog) extends lifespan via [[DAF-16]]/[[FOXO]].
 - [[FOXO3a]] polymorphisms (rs2802292) are associated with human longevity in multiple cohorts.
-- [[IGF-1]] receptor mutations in mice (Igf1r⁺/⁻) extend lifespan, especially in females.
+- [[IGF1]] receptor mutations in mice (Igf1r⁺/⁻) extend lifespan, especially in females.
 
 ### [[TOR]] Pathway
 
@@ -38,11 +40,11 @@ The Target of Rapamycin integrates nutrient and growth factor signals:
 AMP-activated protein kinase senses cellular energy charge:
 - [[Metformin]] and [[AICAR]] activate AMPK and extend lifespan in *C. elegans* and mice.
 - [[Adiponectin]] and [[Leptin]] signaling converge on AMPK.
-- AMPK activates [[PGC1α]] (mitochondrial biogenesis), [[ULK1]] (autophagy), and [[FOXO]] (stress resistance).
+- AMPK activates [[PGC1-α]] (mitochondrial biogenesis), [[ULK1]] (autophagy), and [[FOXO]] (stress resistance).
 
 ### Sirtuin Pathway
 
-[[NAD⁺]]-dependent deacetylases link metabolism to longevity:
+[[NAD+]]-dependent deacetylases link metabolism to longevity:
 - [[SIRT1]] overexpression extends murine lifespan, particularly in metabolically challenged states.
 - [[SIRT6]] overexpression extends male mouse lifespan; SIRT6 knockout causes progeria.
 - [[SIRT3]] regulates [[SOD2]] and [[Mitochondrial metabolism]].
@@ -104,6 +106,6 @@ Lifespan extension often correlates with enhanced stress resistance:
 - The [[Glyco-Oxidative Proteostasis Shield]] concept explicitly links proteostasis maintenance — through [[Redox Cycling]] and [[UPRmt]] activation — to lifespan extension.
 
 ### Linking Summary:
-- New links added: [[Caloric Restriction]], [[Oxidative Stress]], [[Advanced Glycation End Products]], [[Aging]], [[Healthspan]], [[Metformin]], [[Insulin]]/[[IGF-1]] Signaling (IIS), [[DAF-2]], [[DAF-16]], [[FOXO]], [[FOXO3a]], [[IGF-1]], [[TOR]], [[mTORC1]], [[Rapamycin]], [[SASP]], [[Autophagy]], [[S6K1]], [[AMPK]], [[AICAR]], [[Adiponectin]], [[Leptin]], [[PGC1α]], [[ULK1]], [[SIRT1]], [[SIRT6]], [[SIRT3]], [[SOD2]], [[Mitohormesis]], [[isp-1]], [[clk-1]], [[nuo-6]], [[UPRmt]], [[ATFS-1]], [[HAF-1]], [[UBL-5]], [[DVE-1]], [[Mitophagy]], [[Sarcopenia]], [[Neurodegeneration]], [[Retrograde Response]], [[S. cerevisiae]], [[Rtg1]], [[Rtg3]], [[DELE1]], [[HRI]], [[ATF4]], [[Integrated Stress Response]], [[OMA1]], [[OPA1]], [[Mitokines]], [[FGF21]], [[Insulin Sensitivity]], [[GDF15]], [[Humanin]], [[Mitochondrial DNA]], [[Alzheimer's Disease]], [[Stroke]], [[C. elegans]], [[Drosophila melanogaster]], [[Mus musculus]], [[Caloric Restriction]], [[Frailty index]], [[Oxidative Stress]], [[Heat shock]], [[UV radiation]], [[HSP70]], [[Proteasome]], [[NRF2]], [[ARE]], [[Glyco-Oxidative Proteostasis Shield]], [[Redox Cycling]]
+- New links added: [[Caloric Restriction]], [[Oxidative Stress]], [[Advanced Glycation End Products]], [[Aging]], [[Healthspan]], [[Metformin]], [[Insulin]]/[[IGF1]] Signaling (IIS), [[DAF-2]], [[DAF-16]], [[FOXO]], [[FOXO3a]], [[IGF1]], [[TOR]], [[mTORC1]], [[Rapamycin]], [[SASP]], [[Autophagy]], [[S6K1]], [[AMPK]], [[AICAR]], [[Adiponectin]], [[Leptin]], [[PGC1-α]], [[ULK1]], [[SIRT1]], [[SIRT6]], [[SIRT3]], [[SOD2]], [[Mitohormesis]], [[isp-1]], [[clk-1]], [[nuo-6]], [[UPRmt]], [[ATFS-1]], [[HAF-1]], [[UBL-5]], [[DVE-1]], [[Mitophagy]], [[Sarcopenia]], [[Neurodegeneration]], [[Retrograde Response]], [[S. cerevisiae]], [[Rtg1]], [[Rtg3]], [[DELE1]], [[HRI]], [[ATF4]], [[Integrated Stress Response]], [[OMA1]], [[OPA1]], [[Mitokines]], [[FGF21]], [[Insulin Sensitivity]], [[GDF15]], [[Humanin]], [[Mitochondrial DNA]], [[Alzheimer's Disease]], [[Stroke]], [[C. elegans]], [[Drosophila melanogaster]], [[Mus musculus]], [[Caloric Restriction]], [[Frailty index]], [[Oxidative Stress]], [[Heat shock]], [[UV radiation]], [[HSP70]], [[Proteasome]], [[NRF2]], [[ARE]], [[Glyco-Oxidative Proteostasis Shield]], [[Redox Cycling]]
 - Suggested new entity notes to create: [[Biomarkers of Aging]], [[Morbidity Compression]]
 - Strong connections to strengthen: [[Caloric Restriction]] ↔ [[Lifespan]], [[Mitohormesis]] ↔ [[Lifespan]]

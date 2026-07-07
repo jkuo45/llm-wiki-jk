@@ -1,8 +1,11 @@
 ---
-category: Protein
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: CASTOR1
+description: CASTOR1 is an arginine sensor that negatively regulates mTORC1 by sequestering
+  GATOR2 in the absence of arginine.
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Protein
 ---
 # CASTOR1
 

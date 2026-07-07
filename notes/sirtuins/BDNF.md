@@ -1,15 +1,19 @@
 ---
 type: entity
-category: protein
+title: BDNF
+description: BDNF (Brain-Derived Neurotrophic Factor) is a member of the Neurotrophin
+  family of growth factors that supports neuronal survival, differentiation, synaptic
+  plasticity, and Neurogenesis. It is expr...
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Protein
 aliases:
   - Brain-derived neurotrophic factor
   - Abrineurin
-database_ids:
-  uniprot: P23560
-  hgnc: HGNC:1033
-created: 2026-07-04
-updated: 2026-07-04
 ---
+
+
+
 
 # BDNF
 

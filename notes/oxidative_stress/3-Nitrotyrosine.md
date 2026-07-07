@@ -1,11 +1,14 @@
 ---
 type: entity
-category: biological_molecule
-aliases: [3-NT, Nitrotyrosine, m-nitrotyrosine]
+title: 3-Nitrotyrosine
+description: '**3-Nitrotyrosine (3-NT)** is a covalent protein modification formed
+  by the reaction of Peroxynitrite (ONOO⁻) with tyrosine residues, serving as a specific
+  biomarker of Nitrative Stress.'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Biological Molecule
+aliases: [3-NT, Nitrotyrosine, m-nitrotyrosine]
 ---
-
 # 3-Nitrotyrosine
 
 **3-Nitrotyrosine (3-NT)** is a covalent protein modification formed by the reaction of [[Peroxynitrite]] (ONOO⁻) with tyrosine residues, serving as a specific biomarker of [[Nitrative Stress|nitrative stress]].

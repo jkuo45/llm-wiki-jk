@@ -1,7 +1,12 @@
 ---
 type: entity
-category: chemical
-entity_type: "Chemical Compound"
+title: Resveratrol
+description: Resveratrol (3,5,4′-trihydroxystilbene) is a polyphenolic stilbene found
+  in grapes, red wine, and other plants. It was identified as the prototypical STACs
+  (STAC) and has been shown to extend lifes...
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Chemical Compound
 aliases:
   - trans-resveratrol
   - 3,5,4'-trihydroxystilbene
@@ -25,9 +30,11 @@ relations:
     target: "PGC-1α"
     sources:
       - PMID:17112576
-created: 2026-07-04
-updated: 2026-07-04
+
 ---
+
+
+
 
 # Resveratrol
 

@@ -1,10 +1,12 @@
 ---
-aliases:
-- MiTF/TFE family
-category: Gene
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: MiTF/TFE family
+description: A family of basic helix-loop-helix transcription factors that regulate
+  Lysosome and Autophagy.
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Gene
+aliases: [MiTF/TFE family]
 ---
 # MiTF/TFE family
 

@@ -1,3 +1,12 @@
+---
+type: entity
+title: Mebendazole
+description: 'Mebendazole is being widely studied for Drug Repositioning in Cancer.
+  It has shown promise in several ways:'
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Enzyme
+---
 # Mebendazole
 
 [[Mebendazole]] is a [[Benzimidazole]] medication used to treat a number of parasitic worm infestations, including ascariasis, pinworm disease, hookworm infections, guinea worm infections, hydatid disease, and giardia.

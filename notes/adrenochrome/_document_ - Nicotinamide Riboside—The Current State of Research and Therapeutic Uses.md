@@ -1,14 +1,16 @@
 ---
 type: document
-title: "Nicotinamide Riboside—The Current State of Research and Therapeutic Uses"
-source: "https://pmc.ncbi.nlm.nih.gov/articles/PMC7352172/"
+title: Nicotinamide Riboside—The Current State of Research and Therapeutic Uses
+source: https://pmc.ncbi.nlm.nih.gov/articles/PMC7352172/
 author:
-  - "Mario Mehmel"
-  - "Nina Jovanović"
-  - "Urs Spitz"
-published:
+- Mario Mehmel
+- Nina Jovanović
+- Urs Spitz
 created: 2026-06-30
-description: "Nicotinamide riboside (NR) has recently become one of the most studied nicotinamide adenine dinucleotide (NAD+) precursors, due to its numerous potential health benefits mediated via elevated NAD+ content in the body. NAD+ is an essential coenzyme ..."
+description: Nicotinamide riboside (NR) has recently become one of the most studied
+  nicotinamide adenine dinucleotide (NAD+) precursors, due to its numerous potential
+  health benefits mediated via elevated NAD+ content in the body. NAD+ is an essential
+  coenzyme ...
 tags:
   - "clippings"
 ---

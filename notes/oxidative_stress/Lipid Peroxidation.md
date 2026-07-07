@@ -1,16 +1,15 @@
 ---
 type: entity
-category: chemical_process
-aliases:
-  - "LPO"
-tags:
-  - "oxidative_stress"
-  - "cell_membrane"
-  - "free_radicals"
+title: Lipid Peroxidation
+description: Lipid peroxidation is the process in which free radicals "steal" electrons
+  from the lipids in Cell membranes, resulting in cell damage. It leads to the formation
+  of reactive products like Malondial...
 created: 2026-05-09
 updated: 2026-07-04
+entity_type_1: Chemical Process
+aliases: [LPO]
+tags: [oxidative_stress, cell_membrane, free_radicals]
 ---
-
 # Lipid Peroxidation
 Lipid peroxidation is the process in which free radicals "steal" electrons from the lipids in [[Cell membranes]], resulting in cell damage. It leads to the formation of reactive products like [[Malondialdehyde]] and is a hallmark of [[Oxidative Stress]]. Antioxidants like [[Vitamin E]] are essential for inhibiting this process.
 

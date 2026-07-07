@@ -1,16 +1,14 @@
 ---
 type: entity
-category: metabolite
-aliases:
-  - "chemical messengers"
-  - "second messengers"
-tags:
-  - "oxidative_stress"
-  - "redox_signaling"
+title: Signaling Molecules
+description: Signaling molecules (or chemical messengers) are molecules that transmit
+  information between cells or within a single cell to coordinate biological processes.
 created: 2026-05-09
 updated: 2026-07-04
+entity_type_1: Metabolite
+aliases: [chemical messengers, second messengers]
+tags: [oxidative_stress, redox_signaling]
 ---
-
 # Signaling Molecules
 
 ## Definition
@@ -52,7 +50,7 @@ For H2O2 to act as a second messenger, it must be generated in specific cellular
 
 ## Compartmentalized ROS Signaling Networks
 
-Different subcellular compartments possess distinct ROS sources, sinks, and targets that allow spatially encoded signaling. In the [[Mitochondria|mitochondrial matrix]], [[Mitochondrial ROS|ROS]] produced at Complex I and III regulate [[HIF-1α]] stabilization, [[PGC-1α]] expression (retrograde signaling), and the [[Unfolded Protein Response]] (UPRmt). Mitochondrial H2O2 diffuses to the cytosol where it can oxidize [[AMPK|AMPKα]] at Cys-299/Cys-304, activating this energy sensor. In the [[Endoplasmic Reticulum]], ERO1 (ER oxidoreductin 1) generates H2O2 as a byproduct of protein disulfide bond formation, which is coupled to [[Glutathione Peroxidase 7]] (GPx7/GPx8) that eliminates excess H2O2. ER redox stress triggers the [[Unfolded Protein Response|UPR]] through PERK and IRE1α, which contain redox-sensitive cysteine residues. At the [[Plasma Membrane]], [[NADPH Oxidase]] (NOX) enzymes produce ROS into the extracellular space (NOX1–5) or into intracellular vesicles (NOX2 in phagocytes, DUOX1/2 in mucosal epithelia). The localization specificity is achieved through adaptor proteins (p47phox, NOXA1, p40phox) that assemble NOX complexes at specific membrane domains. This compartmentalization ensures that ROS signals remain exquisitely local — the "redox signalosome" concept posits that signaling ROS are generated within nanometers of their targets, creating microdomains of altered redox state without globally disrupting the cellular redox balance.
+Different subcellular compartments possess distinct ROS sources, sinks, and targets that allow spatially encoded signaling. In the [[Mitochondria|mitochondrial matrix]], [[Mitochondrial ROS|ROS]] produced at Complex I and III regulate [[HIF-1α]] stabilization, [[PGC1-α]] expression (retrograde signaling), and the [[Unfolded Protein Response]] (UPRmt). Mitochondrial H2O2 diffuses to the cytosol where it can oxidize [[AMPK|AMPKα]] at Cys-299/Cys-304, activating this energy sensor. In the [[Endoplasmic Reticulum]], ERO1 (ER oxidoreductin 1) generates H2O2 as a byproduct of protein disulfide bond formation, which is coupled to [[Glutathione Peroxidase 7]] (GPx7/GPx8) that eliminates excess H2O2. ER redox stress triggers the [[Unfolded Protein Response|UPR]] through PERK and IRE1α, which contain redox-sensitive cysteine residues. At the [[Plasma Membrane]], [[NADPH Oxidase]] (NOX) enzymes produce ROS into the extracellular space (NOX1–5) or into intracellular vesicles (NOX2 in phagocytes, DUOX1/2 in mucosal epithelia). The localization specificity is achieved through adaptor proteins (p47phox, NOXA1, p40phox) that assemble NOX complexes at specific membrane domains. This compartmentalization ensures that ROS signals remain exquisitely local — the "redox signalosome" concept posits that signaling ROS are generated within nanometers of their targets, creating microdomains of altered redox state without globally disrupting the cellular redox balance.
 
 ## Connections
 - [[Thioredoxin]]: Primary system for reducing oxidized cysteine switches.
@@ -68,5 +66,5 @@ Different subcellular compartments possess distinct ROS sources, sinks, and targ
 - [[Insulin]]: Insulin signaling generates H2O2 that amplifies the signaling cascade through PTP oxidation.
 
 ### Updated Linking Summary:
-- New links added in this revision: [[Thioredoxin]], [[Glutathione]], [[Protein Tyrosine Phosphatases]], [[PTEN]], [[Aquaporins]], [[NADPH Oxidase]], [[Mitochondria]], [[Mitochondrial ROS]], [[HIF-1α]], [[PGC-1α]], [[Unfolded Protein Response]], [[AMPK]], [[mTOR]], [[PI3K]], [[Akt]], [[S-Nitrosylation]], [[Parkin]], [[GAPDH]], [[Caspase-3]], [[Protein Kinase G]], [[Catalase]], [[Peroxiredoxin]], [[EGF Receptor]], [[Receptor Tyrosine Kinases]], [[Cancer]], [[Metabolic Syndromes]], [[Neurodegenerative Diseases]], [[Insulin]], [[Metabolism]], [[Apoptosis]]
+- New links added in this revision: [[Thioredoxin]], [[Glutathione]], [[Protein Tyrosine Phosphatases]], [[PTEN]], [[Aquaporins]], [[NADPH Oxidase]], [[Mitochondria]], [[Mitochondrial ROS]], [[HIF-1α]], [[PGC1-α]], [[Unfolded Protein Response]], [[AMPK]], [[mTOR]], [[PI3K]], [[Akt]], [[S-Nitrosylation]], [[Parkin]], [[GAPDH]], [[Caspase-3]], [[Protein Kinase G]], [[Catalase]], [[Peroxiredoxin]], [[EGF Receptor]], [[Receptor Tyrosine Kinases]], [[Cancer]], [[Metabolic Syndromes]], [[Neurodegenerative Diseases]], [[Insulin]], [[Metabolism]], [[Apoptosis]]
 - Suggested new entity notes to create: [[Peroxiporins]], [[Sulfenic Acid]], [[Cysteine Redox Code]], [[Sulfenylamide]], [[Denitrosylases]], [[GSNOR]], [[ERO1]], [[UPRmt]], [[Redox Signalosome]]

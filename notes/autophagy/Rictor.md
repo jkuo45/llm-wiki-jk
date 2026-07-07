@@ -1,10 +1,13 @@
 ---
-aliases:
-- RICTOR
-category: Protein
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: Rictor
+description: Rapamycin-insensitive companion of mTOR (Rictor) is a core component
+  of mTORC2 that is essential for the structural integrity and kinase activity of
+  the complex towards its substrates.
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Protein
+aliases: [RICTOR]
 ---
 # Rictor
 Rapamycin-insensitive companion of mTOR (Rictor) is a core component of [[mTORC2]] that is essential for the structural integrity and kinase activity of the complex towards its substrates.

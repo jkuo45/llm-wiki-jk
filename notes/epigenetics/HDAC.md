@@ -1,9 +1,12 @@
 ---
 type: entity
-category: enzyme
-entity_type: "Enzyme"
+title: HDAC
+description: '**HDAC** stands for **Histone Deacetylase**. These are a class of enzymes
+  that remove acetyl groups from an ε-N-acetyl lysine amino acid on a histone, allowing
+  the histones to wrap the DNA more tig...'
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: Enzyme
 ---
 # HDAC
 

@@ -1,3 +1,13 @@
+---
+type: entity
+title: EMT
+description: Epithelial-mesenchymal transition (EMT) is a biological process by which
+  epithelial cells lose their cell-cell adhesion and apical-basal polarity, and gain
+  mesenchymal properties, such as increased...
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Medical Condition
+---
 # EMT
 
 Epithelial-mesenchymal transition (EMT) is a biological process by which epithelial cells lose their cell-cell adhesion and apical-basal polarity, and gain mesenchymal properties, such as increased migratory and invasive capabilities.

@@ -1,3 +1,12 @@
+---
+type: entity
+title: Benzimidazole
+description: 'Several benzimidazole derivatives are used to treat parasitic infections
+  by binding to Tubulin and inhibiting Microtubule polymerization in parasites:'
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Medical Condition
+---
 # Benzimidazole
 
 [[Benzimidazole]] is a heterocyclic aromatic organic compound consisting of the fusion of [[benzene]] and [[imidazole]]. It is a common scaffold in various pharmaceutical agents, particularly anthelmintics (antiparasitics).

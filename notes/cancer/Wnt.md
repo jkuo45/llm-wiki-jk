@@ -1,3 +1,12 @@
+---
+type: entity
+title: Wnt
+description: The Wnt signaling pathway is a group of signal transduction pathways
+  which begin with proteins that pass signals into a cell through cell surface receptors.
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Receptor
+---
 # Wnt
 
 The Wnt signaling pathway is a group of signal transduction pathways which begin with proteins that pass signals into a cell through cell surface receptors.

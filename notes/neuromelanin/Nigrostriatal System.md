@@ -1,11 +1,12 @@
 ---
 type: entity
-category: anatomy
-aliases: []
+title: Nigrostriatal System
+description: The Nigrostriatal System is one of the major dopamine pathways in the
+  brain, connecting the Substantia Nigra Pars Compacta (SNpc) to the Sirtuins.
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Anatomy
 ---
-
 # Nigrostriatal System
 
 The [[Nigrostriatal System]] is one of the major dopamine pathways in the brain, connecting the [[Substantia Nigra Pars Compacta]] (SNpc) to the [[Sirtuins]].

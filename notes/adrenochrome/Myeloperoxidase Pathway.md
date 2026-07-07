@@ -1,11 +1,13 @@
 ---
 type: entity
-category: Biological Process
-aliases: []
+title: Myeloperoxidase Pathway
+description: The Myeloperoxidase Pathway is a biochemical sequence in Neutrophils
+  where the enzyme Myeloperoxidase uses Hydrogen Peroxide to catalyze the formation
+  of potent oxidants like hypochlorous acid (HOCl).
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Biological Process
 ---
-
 # Myeloperoxidase Pathway
 
 The Myeloperoxidase Pathway is a biochemical sequence in [[Neutrophils]] where the enzyme [[Myeloperoxidase]] uses [[Hydrogen Peroxide]] to catalyze the formation of potent oxidants like hypochlorous acid (HOCl).

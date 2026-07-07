@@ -1,3 +1,13 @@
+---
+type: entity
+title: Honeybee venom
+description: '**Honeybee venom** (also known as apitoxin) is a complex mixture of
+  proteins, peptides, and low molecular weight components produced by honeybees (*Apis
+  mellifera*).'
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Medical Condition
+---
 # Honeybee venom
 
 **Honeybee venom** (also known as apitoxin) is a complex mixture of proteins, peptides, and low molecular weight components produced by honeybees (*[[Apis mellifera]]*).

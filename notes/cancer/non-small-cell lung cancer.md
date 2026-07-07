@@ -1,3 +1,12 @@
+---
+type: entity
+title: Non-small-cell Lung Cancer
+description: '**Non-small-cell lung cancer** (NSCLC) is any type of epithelial lung
+  cancer other than small-cell lung cancer (SCLC).'
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Medical Condition
+---
 # Non-small-cell Lung Cancer
 
 **Non-small-cell lung cancer** (NSCLC) is any type of epithelial lung cancer other than small-cell lung cancer (SCLC).

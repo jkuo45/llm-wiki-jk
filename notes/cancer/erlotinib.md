@@ -1,3 +1,12 @@
+---
+type: entity
+title: erlotinib
+description: '**Erlotinib** (also known as Tarceva) is a small molecule tyrosine kinase
+  inhibitor used for the treatment of non-small-cell lung cancer and Pancreatic Cancer.'
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Enzyme
+---
 # erlotinib
 
 **Erlotinib** (also known as Tarceva) is a small molecule tyrosine kinase inhibitor used for the treatment of [[non-small-cell lung cancer]] and [[Pancreatic Cancer]].

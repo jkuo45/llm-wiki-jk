@@ -1,11 +1,14 @@
 ---
 type: entity
-category: chemical_process
-aliases: [SNO formation, S-nitrosation, Thiol nitrosylation]
+title: S-Nitrosylation
+description: '**S-Nitrosylation** is a reversible post-translational modification
+  of cysteine thiols by Nitric Oxide (NO), forming S-nitrosothiols (SNOs). It is the
+  prototypical mechanism of NO-based redox signa...'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Chemical Process
+aliases: [SNO formation, S-nitrosation, Thiol nitrosylation]
 ---
-
 # S-Nitrosylation
 
 **S-Nitrosylation** is a reversible post-translational modification of cysteine thiols by [[Nitric Oxide]] (NO), forming S-nitrosothiols (SNOs). It is the prototypical mechanism of NO-based redox signaling, analogous to phosphorylation in signal transduction.

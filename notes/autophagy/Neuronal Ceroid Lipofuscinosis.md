@@ -1,11 +1,12 @@
 ---
-aliases:
-- NCL
-- Batten disease
-category: Medical Condition
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: Neuronal Ceroid Lipofuscinosis
+description: A group of inherited neurodegenerative disorders known as Batten disease,
+  characterized by the accumulation of lipopigments in Lysosome.
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Medical Condition
+aliases: [NCL, Batten disease]
 ---
 # Neuronal Ceroid Lipofuscinosis
 

@@ -1,11 +1,11 @@
 ---
 type: entity
-category: enzyme
-aliases: []
+title: Aromatic L-amino acid decarboxylase
+description: '- New links added: L-DOPA, Dopamine.'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Enzyme
 ---
-
 # Aromatic L-amino acid decarboxylase
 
 [[Aromatic L-amino acid decarboxylase]] (AADC), also known as DOPA decarboxylase, is an enzyme that catalyzes the conversion of [[L-DOPA]] into [[Dopamine]].

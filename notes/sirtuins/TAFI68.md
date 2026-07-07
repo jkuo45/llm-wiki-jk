@@ -1,26 +1,21 @@
 ---
 type: entity
-category: protein
+title: TAFI68
+description: TAFI68 (TBP-associated factor I 68, encoded by the TAF1B gene) is the
+  second largest subunit of the TBP-containing complex TIF-IB/SL1, which is an essential
+  basal transcription factor regulating th...
+created: 2026-07-03
+updated: 2026-07-03
+entity_type_1: Protein
 aliases:
   - TAF1B
   - TAF(I)68
   - TBP-associated factor I 68
   - SL1 subunit B
-database_ids:
-  uniprot: Q5SQQ3
-  hgnc: HGNC:11571
-relations:
-  - predicate: regulated_by
-    target: "SIRT1"
-    sources:
-      - Michan 2007
-  - predicate: associated_with
-    target: "SIRT7"
-    sources:
-      - Michan 2007
-created: 2026-07-03
-updated: 2026-07-03
 ---
+
+
+
 
 # TAFI68
 

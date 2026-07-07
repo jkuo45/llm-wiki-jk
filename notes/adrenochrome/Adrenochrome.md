@@ -1,11 +1,11 @@
 ---
 type: entity
-category: Chemical Compound
-aliases: []
+title: Adrenochrome
+description: '- **Formula:** C₉H₉NO₃'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Chemical Compound
 ---
-
 # Adrenochrome
 
 [[Adrenochrome]] (C₉H₉NO₃) is a chemical compound formed by the [[Oxidation]] of [[Epinephrine]] (Adrenaline). It is a member of the [[Aminochromes]] family and serves as a minor metabolic byproduct rather than a primary hormone or neurotransmitter.
@@ -49,7 +49,7 @@ While adrenochrome itself does not bind appreciably to [[Adrenergic receptor]] (
 
 ## Electrophysiological Effects
 
-In isolated cardiac myocyte preparations, adrenochrome prolongs the action potential duration by inhibiting delayed rectifier potassium currents (I_Kr) and L-type calcium channels, with an IC₅₀ in the low micromolar range. These effects recapitulate aspects of [[Long QT Syndrome]] and provide a mechanistic basis for the arrhythmogenic potential observed in models of catecholamine-induced cardiomyopathy. In neuronal preparations, adrenochrome suppresses spontaneous firing rates in dopaminergic neurons of the substantia nigra, likely through oxidative modulation of [[Na⁺/K⁺-ATPase]] and mitochondrial membrane potential dissipation.
+In isolated cardiac myocyte preparations, adrenochrome prolongs the action potential duration by inhibiting delayed rectifier potassium currents (I_Kr) and L-type calcium channels, with an IC₅₀ in the low micromolar range. These effects recapitulate aspects of [[Long QT Syndrome]] and provide a mechanistic basis for the arrhythmogenic potential observed in models of catecholamine-induced cardiomyopathy. In neuronal preparations, adrenochrome suppresses spontaneous firing rates in dopaminergic neurons of the substantia nigra, likely through oxidative modulation of [[Sodium Potassium ATPase]] and mitochondrial membrane potential dissipation.
 
 ## Additional Clinical Contexts
 
@@ -57,7 +57,7 @@ Beyond cardiotoxicity, adrenochrome formation has been documented in [[Septic Sh
 
 ## Research Gaps and Future Directions
 
-Critical unresolved questions include the development of sensitive and specific mass spectrometry-based assays for adrenochrome quantification in human plasma, the characterization of its full receptor-independent signaling repertoire (including [[MAP Kinase]] and [[NF-κB]] pathway modulation), and the therapeutic potential of pharmacological scavengers such as [[N-Acetylcysteine]] and [[Ascorbic Acid]] in pathologies driven by aminochrome formation. The [[Mitohormetic Redox-Relay]] strategy exploits ultralow-dose adrenochrome to trigger adaptive mitochondrial responses, representing a paradigm shift from viewing adrenochrome solely as a toxin to a potential hormetic agent at sub-cytotoxic concentrations.
+Critical unresolved questions include the development of sensitive and specific mass spectrometry-based assays for adrenochrome quantification in human plasma, the characterization of its full receptor-independent signaling repertoire (including [[MAP Kinase]] and [[NFκB]] pathway modulation), and the therapeutic potential of pharmacological scavengers such as [[N-Acetylcysteine]] and [[Ascorbic Acid]] in pathologies driven by aminochrome formation. The [[Mitohormetic Redox-Relay]] strategy exploits ultralow-dose adrenochrome to trigger adaptive mitochondrial responses, representing a paradigm shift from viewing adrenochrome solely as a toxin to a potential hormetic agent at sub-cytotoxic concentrations.
 
 ## Connections
 - [[Epinephrine]] ↔ Direct precursor via oxidation.
@@ -67,6 +67,6 @@ Critical unresolved questions include the development of sensitive and specific 
 - [[COMT]] & [[MAO]] ↔ Enzymes whose inhibition increases substrate availability for adrenochrome formation.
 
 ### Linking Summary:
-- New links added: [[Aminochromes]], [[Indoline]], [[Quinone]], [[Hydroxyl radical]], [[Cardiotoxicity]], [[Adrenolutin]], [[Carbazochrome]], [[Smoking]], [[Oxidative Stress]], [[Reactive Oxygen Species]], [[Neutrophils]], [[Inflammation]], [[Lungs]], [[Neuromelanin]], [[Redox Cycling]], [[COMT]], [[MAO]], [[Diaphorase]], [[Dithiothreitol]], [[Septic Shock]], [[Ischemia-reperfusion Injury]], [[Preeclampsia]], [[Adrenergic receptor]], [[β₂-adrenergic receptor]], [[Catechol-O-methyltransferase]], [[Long QT Syndrome]], [[Na⁺/K⁺-ATPase]], [[MAP Kinase]], [[NF-κB]], [[N-Acetylcysteine]], [[Mitohormetic Redox-Relay]]
+- New links added: [[Aminochromes]], [[Indoline]], [[Quinone]], [[Hydroxyl radical]], [[Cardiotoxicity]], [[Adrenolutin]], [[Carbazochrome]], [[Smoking]], [[Oxidative Stress]], [[Reactive Oxygen Species]], [[Neutrophils]], [[Inflammation]], [[Lungs]], [[Neuromelanin]], [[Redox Cycling]], [[COMT]], [[MAO]], [[Diaphorase]], [[Dithiothreitol]], [[Septic Shock]], [[Ischemia-reperfusion Injury]], [[Preeclampsia]], [[Adrenergic receptor]], [[β₂-adrenergic receptor]], [[Catechol-O-methyltransferase]], [[Long QT Syndrome]], [[Sodium Potassium ATPase]], [[MAP Kinase]], [[NFκB]], [[N-Acetylcysteine]], [[Mitohormetic Redox-Relay]]
 - Suggested new entity notes to create: [[Indoline]], [[Quinone]], [[Schizophrenia]], [[Adrenochrome Hypothesis]]
 - Strong connections to strengthen: [[Adrenochrome]] ↔ [[Epinephrine]], [[Adrenochrome]] ↔ [[Redox Cycling]], [[Adrenochrome]] ↔ [[Mitohormetic Redox-Relay]]

@@ -1,11 +1,13 @@
 ---
 type: entity
-category: Scientific Concept
-aliases: []
+title: Transcriptome
+description: A transcriptome is the complete set of RNA transcripts (including mRNA,
+  rRNA, tRNA, and non-coding RNA) produced by the genome at a specific time or under
+  a specific condition.
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Scientific Concept
 ---
-
 # Transcriptome
 
 A transcriptome is the complete set of RNA transcripts (including mRNA, rRNA, tRNA, and non-coding RNA) produced by the genome at a specific time or under a specific condition.

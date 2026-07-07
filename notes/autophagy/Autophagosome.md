@@ -1,8 +1,12 @@
 ---
-category: Biological Process
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: Autophagosome
+description: An **Autophagosome** is a double-membrane vesicle that forms the central
+  structure of Macroautophagy. It sequester cytoplasmic cargo, such as damaged organelles
+  or protein aggregates, and delivers ...
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Biological Process
 ---
 # Autophagosome
 

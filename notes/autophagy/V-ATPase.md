@@ -1,10 +1,13 @@
 ---
-aliases:
-- vacuolar ATPase
-category: Scientific Concept
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: V-ATPase
+description: The **V-ATPase** (Vacuolar-type H+-ATPase) is a multi-subunit proton
+  pump that acidifies the Lysosome lumen, enabling the activation of acid hydrolases
+  and facilitating nutrient sensing by mTORC1.
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Scientific Concept
+aliases: [vacuolar ATPase]
 ---
 # V-ATPase
 

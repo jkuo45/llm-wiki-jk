@@ -1,11 +1,11 @@
 ---
 type: entity
-category: Chemical Process
-aliases: []
+title: Peroxidation
+description: The oxidative degradation of lipids, or the formation of peroxides.
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Chemical Process
 ---
-
 # Peroxidation
 
 The oxidative degradation of lipids, or the formation of peroxides.

@@ -1,18 +1,18 @@
 ---
 type: entity
-category: protein
-aliases:
-  - BECN1
-  - ATG6
-  - Coiled-coil myosin-like BCL2-interacting protein
-database_ids:
-  uniprot: Q14457
-  hgnc: HGNC:1034
-  mesh: D060727
+title: Beclin1
+description: '**Beclin1** (also known as **Atg6** and **BECN1**) is a key regulatory
+  protein in the initiation and regulation of Autophagy. It functions as a molecular
+  scaffold that assembles the class III PI3K ...'
 created: 2026-07-04
 updated: 2026-07-05
+entity_type_1: Protein
+aliases: [BECN1, ATG6, Coiled-coil myosin-like BCL2-interacting protein]
+database_ids:
+  mesh: D060727
+  uniprot: Q14457
+  hgnc: HGNC:1034
 ---
-
 # Beclin1
 
 **Beclin1** (also known as **Atg6** and **BECN1**) is a key regulatory protein in the initiation and regulation of [[Autophagy]]. It functions as a molecular scaffold that assembles the class III [[PI3K]] complex, which produces phosphatidylinositol 3-phosphate (PI3P) to nucleate autophagosome formation.
@@ -50,7 +50,7 @@ Beclin1 activity is tightly regulated at multiple levels:
 ### Phosphorylation
 - **[[ULK1]]**: Phosphorylates Beclin1 at Ser14, enhancing Vps34 complex activity.
 - **[[MAPKAPK2]]** (MK2): Phosphorylates Beclin1 to regulate its stability.
-- **[[AKT]]**: Phosphorylates Beclin1 at Ser234/Ser295, inhibiting autophagy.
+- **[[Akt]]**: Phosphorylates Beclin1 at Ser234/Ser295, inhibiting autophagy.
 - **[[AMPK]]**: Phosphorylates Beclin1 to promote autophagy under energy stress.
 
 ### Ubiquitination

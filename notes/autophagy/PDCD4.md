@@ -1,10 +1,12 @@
 ---
 type: entity
-category: Protein
-aliases:
-  - programmed cell death 4
+title: PDCD4
+description: Programmed cell death 4 (PDCD4) is a tumor suppressor and binding protein
+  of eIF4A that inhibits the translation of TFEB.
 created: 2026-07-04
-updated: '2026-07-04'
+updated: 2026-07-04
+entity_type_1: Protein
+aliases: [programmed cell death 4]
 ---
 # PDCD4
 

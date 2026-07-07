@@ -1,3 +1,13 @@
+---
+type: entity
+title: PAK1
+description: '**PAK1** (P21-activated kinase 1) is a member of the PAK family of serine/threonine
+  kinases. It plays a multitude of biological functions, including regulating cell
+  proliferation, Apoptosis, cell m...'
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Enzyme
+---
 # PAK1
 
 **PAK1** (P21-activated kinase 1) is a member of the PAK family of serine/threonine kinases. It plays a multitude of biological functions, including regulating cell proliferation, [[Apoptosis|apoptosis]], cell movement, cytoskeletal dynamics, and transformation.
@@ -9,7 +19,7 @@ PAK1 is located at the intersection of multiple signaling pathways related to tu
 - **Crosstalk:** PAK1 allocates crosstalk between the [[PI3K]]/[[Akt]] and [[MAPK]] pathways.
 - **Upstream:** RAS activation can directly initiate PAK1.
 - **Downstream:** 
-    - Activates [[MEK1/2]] and [[ERK1_2]] via RAF.
+    - Activates [[MEK1_2]] and [[ERK1_2]] via RAF.
     - Increases [[PI3K]]/[[Akt]] signaling by PDK1.
     - Facilitates [[NFκB|NF-κB]] nuclear activation.
     - Facilitates [[Wnt]]/β-catenin signaling.
@@ -31,6 +41,6 @@ Targeting PAK1 is considered a novel and promising method for cancer treatment. 
 - Strong connections to strengthen: [[PAK1]] ↔ [[Ivermectin]], [[PAK1]] ↔ [[Bad]]
 
 ## Linking Summary
-- New links added: [[Apoptosis]], [[PI3K]], [[Akt]], [[MAPK]], [[MEK1/2]], [[ERK1_2]], [[NF-kappa B]], [[Wnt]], [[Ivermectin]].
-- Suggested new entity notes to create: [[PI3K]], [[MEK1/2]], [[ERK1_2]], [[NF-kappa B]], [[Wnt]].
+- New links added: [[Apoptosis]], [[PI3K]], [[Akt]], [[MAPK]], [[MEK1_2]], [[ERK1_2]], [[NF-kappa B]], [[Wnt]], [[Ivermectin]].
+- Suggested new entity notes to create: [[PI3K]], [[MEK1_2]], [[ERK1_2]], [[NF-kappa B]], [[Wnt]].
 - Strong connections to strengthen: [[PAK1]] ↔ [[Ivermectin]], [[PAK1]] ↔ [[MAPK]]

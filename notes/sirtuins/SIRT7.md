@@ -1,46 +1,20 @@
 ---
 type: entity
-category: protein
+title: SIRT7
+description: SIRT7 (Sirtuin 7) is a nuclear/nucleolar sirtuin classified in phylogenetic
+  Class IVb — the same class as SIRT6 (Class IVa). Class IV sirtuins are absent from
+  prokaryotes but broadly distributed in...
+created: 2026-07-02
+updated: 2026-07-05
+entity_type_1: Protein
 aliases:
   - Sirtuin 7
   - nucleolar sirtuin
   - SIRT7 RNA Pol I activator
-database_ids:
-  uniprot: Q9NRC8
-  hgnc: HGNC:14935
-relations:
-  - predicate: activates
-    target: "RNA Polymerase I"
-    sources:
-      - PMID:16618798
-  - predicate: localises_to
-    target: "Nucleolus"
-    sources:
-      - PMID:16079181
-  - predicate: associated_with
-    target: "Breast Cancer"
-    sources:
-      - PMID:17003781
-  - predicate: overexpressed_in
-    target: "Thyroid Carcinoma"
-    sources:
-      - PMID:11953824
-      - PMID:12454781
-  - predicate: interacts_with
-    target: "Histone H2A"
-    sources:
-      - PMID:16618798
-  - predicate: interacts_with
-    target: "Histone H2B"
-    sources:
-      - PMID:16618798
-  - predicate: associated_with
-    target: "TAFI68"
-    sources:
-      - Michan 2007
-created: 2026-07-02
-updated: 2026-07-05
 ---
+
+
+
 
 # SIRT7
 

@@ -1,9 +1,12 @@
 ---
 type: entity
-category: other
-entity_type: "NA"
+title: Somatic Cells
+description: Somatic cells, such as Fibroblasts, can be reprogrammed to a pluripotent
+  state to create Induced Pluripotent Stem Cells (iPSCs) using defined factors like
+  Oct4, Sox2, Klf4, and c-Myc (OSKM).
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: NA
 ---
 # Somatic Cells
 

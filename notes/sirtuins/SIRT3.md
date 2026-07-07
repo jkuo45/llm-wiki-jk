@@ -1,11 +1,13 @@
 ---
 type: entity
-category: NA
-aliases: ["Sirt3"]
+title: SIRT3
+description: '**SIRT3** (Sirtuin 3) is the primary NAD+-dependent deacetylase localized
+  within the Mitochondria.'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: NA
+aliases: [Sirt3]
 ---
-
 # SIRT3
 
 
@@ -64,7 +66,7 @@ SIRT3 deacetylates and thereby activates **[[AceCS2]]**, the mitochondrial isofo
 SIRT3 is induced in **brown adipose tissue (BAT)** during cold exposure, where it promotes expression of mitochondrial genes including:
 
 - **UCP1** (uncoupling protein 1, critical for thermogenesis)
-- **[[PGC-1α]]** (master regulator of mitochondrial biogenesis)
+- **[[PGC1-α]]** (master regulator of mitochondrial biogenesis)
 - **Cytochrome c oxidase subunits II and IV** (COX II and COX IV)
 - **ATP synthase**
 
@@ -90,17 +92,17 @@ SIRT3, by producing [[OAADPr]], may regulate the **TRPM2** ion channel alongside
 
 - [[SIRT1]] — cytoplasmic counterpart; SIRT1 deacetylates AceCS1 (cytoplasmic) while SIRT3 deacetylates AceCS2 (mitochondrial)
 - [[SIRT2]] — same phylogenetic class; both produce OAADPr and regulate TRPM2
-- [[SIRT4]] — fellow mitochondrial sirtuin; different primary enzymatic activity (ADP-ribosylation). The [[SIRT3/SIRT4 Ratio]] determines mitochondrial redox balance
+- [[SIRT4]] — fellow mitochondrial sirtuin; different primary enzymatic activity (ADP-ribosylation). The [[SIRT3]]/[[SIRT4]] ratio determines mitochondrial redox balance
 - [[SIRT5]] — fellow mitochondrial sirtuin
 - [[NAD+]] — obligatory co-substrate
 - [[OAADPr]] — by-product of deacetylation
 - [[Caloric Restriction]] — SIRT3 is induced by CR; mediates metabolic adaptations
-- [[PGC-1α]] — target gene; SIRT3 promotes PGC-1α expression in BAT
+- [[PGC1-α]] — target gene; SIRT3 promotes PGC-1α expression in BAT
 - [[Longevity]] — SIRT3 intron 5 enhancer variant associated with male lifespan >90 years
 
 ## Linking Summary
 
-- New links added: [[NAD+]], [[OAADPr]], [[Caloric Restriction]], [[PGC-1α]], [[SIRT1]], [[SIRT2]], [[SIRT4]], [[SIRT5]], [[Longevity]], [[TRPM2]], [[AceCS2]]
+- New links added: [[NAD+]], [[OAADPr]], [[Caloric Restriction]], [[PGC1-α]], [[SIRT1]], [[SIRT2]], [[SIRT4]], [[SIRT5]], [[Longevity]], [[TRPM2]], [[AceCS2]]
 - Suggested new entity notes to create: [[UCP1]], [[Brown Adipose Tissue (BAT)]]
 - Strong connections to strengthen: [[SIRT3]] ↔ [[Caloric Restriction]], [[SIRT3]] ↔ [[Longevity]], [[SIRT3]] ↔ [[AceCS2]]
 

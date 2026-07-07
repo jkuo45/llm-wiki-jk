@@ -1,9 +1,10 @@
 ---
 type: entity
-category: protein
-entity_type: "Protein"
+title: Hepatocyte Growth Factor
+description: '- New links added: Hepatocyte, Muscle Stem Cell, Quiescence'
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: Protein
 ---
 # Hepatocyte Growth Factor
 

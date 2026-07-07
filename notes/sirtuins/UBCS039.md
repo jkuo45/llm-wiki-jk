@@ -1,16 +1,16 @@
 ---
 type: entity
-category: chemical compound
-aliases:
-  - UBCS039
-database_ids:
-  chebi: ""
-relations:
-  - predicate: activates
-    target: "SIRT6"
-    sources: []
+title: UBCS039
+description: '**UBCS039** is the first synthetic, selective allosteric activator of
+  **SIRT6** to be characterized. It is a cell-permeable small molecule that binds
+  the unique elongated hydrophobic pocket of SIRT...'
 created: 2026-07-03
 updated: 2026-07-03
+entity_type_1: Chemical Compound
+aliases: [UBCS039]
+
+sources: []
+target: SIRT6
 ---
 
 # UBCS039

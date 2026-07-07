@@ -1,27 +1,20 @@
 ---
 type: entity
-category: chemical
+title: Daratumumab
+description: Daratumumab (brand name Darzalex) is a fully human IgG1κ monoclonal antibody
+  (mAb) that specifically targets CD38, a transmembrane glycoprotein highly expressed
+  on malignant plasma cells. It was fi...
+created: 2026-07-03
+updated: 2026-07-03
+entity_type_1: Chemical Compound
 aliases:
   - Daratumumab
   - Darzalex
   - HuMax-CD38
-database_ids:
-  mesh: D000077594
-  uniprot: ""
-  chebi: CHEBI:174796
-relations:
-  - predicate: targets
-    target: "CD38"
-    sources: []
-  - predicate: treats
-    target: "Multiple Myeloma"
-    sources: []
-  - predicate: inhibits
-    target: "CD38"
-    sources: []
-created: 2026-07-03
-updated: 2026-07-03
 ---
+
+
+
 
 # Daratumumab
 

@@ -1,21 +1,17 @@
 ---
 type: entity
-category: protein
-aliases:
-  - Nkx3-2
-  - Nkx3.2
-  - Bapx1
-  - NK3 homeobox 2
-database_ids:
-  hgnc: HGNC:13326
-  uniprot: P78317
-relations:
-  - predicate: transcriptionally_repressed_by
-    target: "SIRT6"
-    sources:
-      - s41392-022-01257-8
+title: Nkx3.2
+description: '**Nkx3.2** (also known as **Bapx1**) is a homeobox-containing transcription
+  factor belonging to the NK family of developmental regulators. It plays critical
+  roles in skeletal development, particula...'
 created: 2026-07-05
 updated: 2026-07-05
+entity_type_1: Protein
+aliases: [Nkx3-2, Nkx3.2, Bapx1, NK3 homeobox 2]
+
+sources:
+- s41392-022-01257-8
+target: SIRT6
 ---
 
 # Nkx3.2
@@ -26,7 +22,7 @@ updated: 2026-07-05
 
 ## Regulation by SIRT6
 
-**[[SIRT6]]** represses Nkx3.2 transcription by deacetylating [[histone H3]] at lysine 9 (H3K9ac) within the Nkx3.2 promoter region. This SIRT6-mediated chromatin compaction prevents Nkx3.2 expression, thereby relieving its repression of target genes such as **[[GATA5]]**:
+**[[SIRT6]]** represses Nkx3.2 transcription by deacetylating [[Histone H3]] at lysine 9 (H3K9ac) within the Nkx3.2 promoter region. This SIRT6-mediated chromatin compaction prevents Nkx3.2 expression, thereby relieving its repression of target genes such as **[[GATA5]]**:
 
 - **Endothelial Protection**: SIRT6 induces [[GATA5]] expression by inhibiting Nkx3.2 transcription, preventing endothelial injury in vascular contexts.
 

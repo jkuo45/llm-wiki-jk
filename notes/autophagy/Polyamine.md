@@ -1,8 +1,11 @@
 ---
-category: Chemical Class
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: Polyamine
+description: '**Polyamines** are organic compounds that play essential roles in cell
+  growth, survival, and stress adaptation.'
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Chemical Class
 ---
 # Polyamine
 

@@ -1,9 +1,12 @@
 ---
 type: entity
-category: other
-entity_type: "NA"
+title: Frontotemporal Dementia
+description: Frontotemporal Dementia (FTD) is an umbrella term for a diverse group
+  of uncommon brain disorders that primarily affect the frontal and temporal lobes
+  of the brain. These areas are generally associ...
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: NA
 ---
 # Frontotemporal Dementia
 

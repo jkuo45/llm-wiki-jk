@@ -1,24 +1,19 @@
 ---
 type: entity
-category: protein
+title: UCP2
+description: UCP2 (Uncoupling Protein 2) is a mitochondrial inner membrane transporter
+  protein. It belongs to the family of mitochondrial uncoupling proteins, which act
+  to uncouple oxygen consumption from ATP s...
+created: 2026-07-03
+updated: 2026-07-03
+entity_type_1: Protein
 aliases:
   - UCP2
   - uncoupling protein 2
-database_ids:
-  uniprot: P55851
-  hgnc: HGNC:12518
-relations:
-  - predicate: inhibited_by
-    target: "SIRT1"
-    sources:
-      - PMID:16366736
-  - predicate: associated_with
-    target: "Insulin Secretion"
-    sources:
-      - PMID:16366736
-created: 2026-07-03
-updated: 2026-07-03
 ---
+
+
+
 
 # UCP2
 

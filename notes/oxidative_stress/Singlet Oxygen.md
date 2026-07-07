@@ -1,17 +1,15 @@
 ---
 type: entity
-category: metabolite
-aliases:
-  - "¹O₂"
-  - "1O2"
-tags:
-  - "oxidative_stress"
-  - "ros"
-  - "photosensitization"
+title: Singlet Oxygen
+description: Singlet oxygen ($^1O_2$) is an electronically excited state of molecular
+  oxygen. It is a highly reactive non-radical species that specifically targets molecules
+  with double bonds.
 created: 2026-05-09
 updated: 2026-07-04
+entity_type_1: Metabolite
+aliases: [¹O₂, 1O2]
+tags: [oxidative_stress, ros, photosensitization]
 ---
-
 # Singlet Oxygen
 
 ## Definition
@@ -37,7 +35,7 @@ Singlet oxygen reacts predominantly through ene-type addition, [4+2] cycloadditi
 Among amino acids, histidine, tryptophan, methionine, cysteine, and tyrosine are the primary targets. Histidine reacts with $^1O_2$ at $k \approx 5 \times 10^7$ M⁻¹s⁻¹ to form endoperoxide intermediates that decompose to a mixture of products, including aspartic acid and urea derivatives — a reaction exploited in histidine-mediated protein photooxidation. Tryptophan oxidation yields N-formylkynurenine, a chromophore associated with cataract formation in the ocular lens. $^1O_2$ also damages guanine in [[DNA]] specifically at the C8 position via [4+2] cycloaddition, producing 8-oxodG (see [[8-oxo-2'-deoxyguanosine]]) as a minor product alongside spiroiminodihydantoin and guanidinohydantoin lesions that are potently mutagenic.
 
 ## Clinical and Pathological Relevance
-The most direct clinical connection involving singlet oxygen is **[[Photodynamic Therapy]]** (PDT), a cancer treatment in which a photosensitizer is administered systemically or locally and activated by light of a specific wavelength within the tumor. The resulting $^1O_2$ generation causes localized tumor cell death via [[Apoptosis]], direct [[Necrosis]], and vascular shutdown. Approved photosensitizers include porfimer sodium (Photofrin™), 5-aminolevulinic acid (which induces protoporphyrin IX accumulation), and verteporfin. PDT is effective against [[Cancer|carcinomas]] of the skin, lung, esophagus, and bladder, with the advantage of minimal systemic toxicity due to the requirement for local light activation.
+The most direct clinical connection involving singlet oxygen is **[[Photodynamic Therapy]]** (PDT), a cancer treatment in which a photosensitizer is administered systemically or locally and activated by light of a specific wavelength within the tumor. The resulting $^1O_2$ generation causes localized tumor cell death via [[Apoptosis]], direct [[necrosis]], and vascular shutdown. Approved photosensitizers include porfimer sodium (Photofrin™), 5-aminolevulinic acid (which induces protoporphyrin IX accumulation), and verteporfin. PDT is effective against [[Cancer|carcinomas]] of the skin, lung, esophagus, and bladder, with the advantage of minimal systemic toxicity due to the requirement for local light activation.
 
 In dermatology, singlet oxygen mediates UV-induced photoaging and photocarcinogenesis. UVA radiation (320–400 nm) penetrates the dermis and generates $^1O_2$ through endogenous photosensitizers (porphyrins, flavins, melanin precursors), inducing matrix metalloproteinase (MMP) expression that degrades [[ECM|extracellular matrix]] [[Collagen]] and [[Elastin]]. This process, termed solar elastosis, manifests clinically as wrinkling, leathery texture, and actinic damage. Endogenous quenchers of $^1O_2$ include [[Vitamin E]] (α-tocopherol) at $k \approx 10^8$ M⁻¹s⁻¹ in lipid phases, [[Beta-carotene]] (a physical quencher, $k \approx 10^{10}$ M⁻¹s⁻¹), and [[Melatonin]]. [[Ascorbic Acid]] (vitamin C) and [[Uric Acid]] also contribute to aqueous-phase $^1O_2$ quenching, though their activities are lower than in lipid environments.
 

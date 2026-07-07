@@ -1,9 +1,10 @@
 ---
 type: entity
-category: anatomy
-entity_type: "Anatomy"
+title: Focal Adhesion
+description: '- New links added: FAK Signaling, Integrin, Extracellular Matrix, ECM'
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: Anatomy
 ---
 # Focal Adhesion
 

@@ -1,9 +1,12 @@
 ---
 type: entity
-category: enzyme
-entity_type: "Enzyme"
+title: Histone Deacetylase
+description: '**Histone Deacetylase (HDAC)** is a class of enzymes that remove acetyl
+  groups from histone tails. This action increases the positive charge of the histones,
+  causing them to bind more tightly to DN...'
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: Enzyme
 ---
 # Histone Deacetylase
 

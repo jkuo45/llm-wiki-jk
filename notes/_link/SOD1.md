@@ -1,11 +1,13 @@
 ---
 type: entity
-category: enzyme
-aliases: ["Superoxide Dismutase 1", "Cu/Zn-SOD"]
+title: SOD1
+description: '**Catalytic function:** SOD1 is an enzyme that catalyzes biochemical
+  reactions essential for cellular metabolism and homeostasis.'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Enzyme
+aliases: [Superoxide Dismutase 1, Cu/Zn-SOD]
 ---
-
 # SOD1
 
 **Catalytic function:** SOD1 is an enzyme that catalyzes biochemical reactions essential for cellular metabolism and homeostasis.
@@ -15,3 +17,11 @@ updated: 2026-07-04
 **Physiological role:** SOD1 participates in metabolic pathways that maintain cellular redox balance, energy production, and biosynthetic processes. Its expression and activity are tightly regulated across different tissues.
 
 **Clinical relevance:** Dysregulation of SOD1 activity is implicated in metabolic disorders, oxidative stress-related pathologies, and cancer. Pharmacological modulation of this enzyme represents a therapeutic strategy for diseases involving its pathway.
+
+### Connections
+- [[SOD1]] — related entity
+
+### Linking Summary
+- New links added: [[SOD1]]
+- Strong connections to strengthen: [[SOD1]] ↔ [[SOD1]]
+

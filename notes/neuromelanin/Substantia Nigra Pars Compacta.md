@@ -1,11 +1,12 @@
 ---
 type: entity
-category: anatomy
-aliases: []
+title: Substantia Nigra Pars Compacta
+description: The Substantia Nigra Pars Compacta (SNpc) is a specific portion of the
+  Substantia Nigra characterized by a high density of dopamine-producing neurons.
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Anatomy
 ---
-
 # Substantia Nigra Pars Compacta
 
 The [[Substantia Nigra Pars Compacta]] (SNpc) is a specific portion of the [[Substantia Nigra]] characterized by a high density of dopamine-producing neurons.

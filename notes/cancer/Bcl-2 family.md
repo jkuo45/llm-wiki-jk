@@ -1,10 +1,20 @@
+---
+type: entity
+title: Bcl-2 family
+description: The **Bcl-2 family** of proteins consists of both pro-apoptotic and anti-apoptotic
+  members that regulate the Intrinsic Pathway of Apoptosis. They are characterized
+  by the presence of Bcl-2 homology...
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Medical Condition
+---
 # Bcl-2 family
 
 The **Bcl-2 family** of proteins consists of both pro-apoptotic and anti-apoptotic members that regulate the [[Intrinsic Pathway]] of [[Apoptosis]]. They are characterized by the presence of Bcl-2 homology (BH) domains.
 
 ## Classification
 The family is divided into three functional groups:
-1.  **Anti-apoptotic proteins**: Protect cells from apoptosis. Examples: [[Bcl-2]], [[Bcl-xL]], [[Mcl-1]], [[Bcl-w]], [[A1/Bfl-1]].
+1.  **Anti-apoptotic proteins**: Protect cells from apoptosis. Examples: [[Bcl-2]], [[Bcl-xL]], [[Mcl-1]], [[Bcl-w]], [[A1-Bfl-1]].
 2.  **Pro-apoptotic effector proteins**: Form pores in the mitochondrial membrane. Examples: [[Bax]], [[Bak]], [[Bok]]/[[Mtd]].
 3.  **Pro-apoptotic BH3-only proteins**: Initiators of apoptosis that sense cellular stress. Examples: [[Bid]], [[Bim]], [[Puma]], [[Noxa]], [[Bad]], [[Bmf]], [[Hrk]], [[Bik]].
 

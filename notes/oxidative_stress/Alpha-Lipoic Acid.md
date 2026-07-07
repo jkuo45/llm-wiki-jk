@@ -1,18 +1,18 @@
 ---
 type: entity
-category: chemical
-aliases:
-  - "ALA"
-  - "thioctic acid"
-  - "6,8-dithiooctanoic acid"
-tags:
-  - "oxidative_stress"
-  - "antioxidant"
-  - "mitochondria"
+title: Alpha-Lipoic Acid
+description: Alpha-lipoic acid (ALA) is a sulfur-containing compound that acts as
+  a potent "universal" antioxidant due to its ability to function in both water-soluble
+  and fat-soluble environments.
 created: 2026-05-09
 updated: 2026-07-04
+entity_type_1: Chemical Compound
+aliases:
+  - ALA
+  - thioctic acid
+  - 6,8-dithiooctanoic acid
+tags: [oxidative_stress, antioxidant, mitochondria]
 ---
-
 # Alpha-Lipoic Acid
 
 ## Definition
@@ -54,7 +54,7 @@ Beyond direct antioxidant chemistry, ALA modulates redox-sensitive transcription
 The most extensively studied clinical application of ALA is [[Diabetic Neuropathy]]. The ALADIN (Alpha-Lipoic Acid in Diabetic Neuropathy) trials demonstrated that intravenous ALA (600 mg/day) significantly improved neuropathic symptoms, including pain, paresthesia, and numbness, likely through combined antioxidant and [[Mitochondria|mitochondrial]] support mechanisms. A meta-analysis of four randomized controlled trials confirmed that ALA improves [[Flow-Mediated Dilation|endothelial function]] and reduces biomarkers of [[Oxidative Stress|oxidative damage]] (F2-isoprostanes, [[Malondialdehyde]]) in patients with [[Cardiovascular Disease|cardiovascular risk factors]]. Emerging evidence also supports ALA in [[Diabetes Mellitus|gestational diabetes]], [[Age-Related Macular Degeneration]], and as an adjunct in [[Metformin|metformin]] therapy by reducing [[Reactive Oxygen Species|oxidative]] side effects.
 
 ## Connections
-- [[Nrf2]]: ALA is a potent Nrf2 activator, inducing endogenous antioxidant defenses.
+- [[NRF2]]: ALA is a potent Nrf2 activator, inducing endogenous antioxidant defenses.
 - [[AMPK]]: ALA activates AMPK, linking it to energy metabolism.
 - [[Diabetic Neuropathy]]: The best-established clinical application of ALA.
 - [[Mitochondria]]: Biosynthesis occurs in mitochondria; ALA supports mitochondrial function.

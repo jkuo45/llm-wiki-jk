@@ -1,14 +1,17 @@
 ---
 type: entity
-category: protein
+title: TXNIP
+description: '**TXNIP (Thioredoxin-interacting protein)** is a redox-sensitive negative
+  regulator of the Thioredoxin system that links Oxidative Stress to inflammasome
+  activation and metabolic dysfunction.'
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Protein
 aliases: [Thioredoxin-interacting protein, VDUP1, TBP-2, Thioredoxin-binding protein 2]
 database_ids:
   uniprot: Q9H3M7
   hgnc: HGNC:16952
-created: 2026-07-04
-updated: 2026-07-04
 ---
-
 # TXNIP
 
 **TXNIP (Thioredoxin-interacting protein)** is a redox-sensitive negative regulator of the [[Thioredoxin]] system that links [[Oxidative Stress|oxidative stress]] to [[inflammasome activation]] and metabolic dysfunction.

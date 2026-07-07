@@ -1,10 +1,12 @@
 ---
-aliases:
-- GLS
-category: Enzyme
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: Glutaminase
+description: Glutaminase is an enzyme that converts glutamine to glutamate; its expression
+  is transcriptionally regulated by TFEB in Pancreatic Cancer to support tumor metabolism.
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Enzyme
+aliases: [GLS]
 ---
 # Glutaminase
 

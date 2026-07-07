@@ -1,10 +1,13 @@
 ---
-aliases:
-- C. elegans TGF-beta ortholog
-category: Gene
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: DAF-7
+description: '**DAF-7** is the C. elegans orthologue of the TGF-β (Transforming Growth
+  Factor beta) signaling molecule. It is primarily expressed in sensory neurons and
+  regulates development (entry into the Daue...'
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Gene
+aliases: [C. elegans TGF-beta ortholog]
 ---
 # DAF-7
 

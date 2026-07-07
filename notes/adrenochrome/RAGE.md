@@ -1,11 +1,12 @@
 ---
 type: entity
-category: Receptor
-aliases: []
+title: RAGE
+description: RAGE (Receptor for Advanced Glycation End Products) is a cell surface
+  molecule that recognizes and binds to Advanced Glycation End Products.
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Receptor
 ---
-
 # RAGE
 
 RAGE (Receptor for Advanced Glycation End Products) is a cell surface molecule that recognizes and binds to [[Advanced Glycation End Products]].
@@ -33,7 +34,7 @@ RAGE is a multi-ligand receptor with remarkable ligand promiscuity. Beyond [[Adv
 
 ## Signaling Pathways
 
-Ligand engagement of RAGE activates multiple downstream signaling cascades: (i) the [[NF-κB]] pathway via [[IKKα]]/[[IKKβ]] activation, creating a self-amplifying loop as NF-κB upregulates RAGE expression; (ii) [[MAPK]] pathways ([[ERK1/2]], [[p38 MAPK]], [[c-Jun N-terminal kinase|JNK]]), promoting [[AP-1]] activation and inflammatory gene expression; (iii) [[JAK]]/[[STAT]] signaling, particularly [[STAT3]]; and (iv) [[PI3K]]/[[Akt]] pathway, activating [[mTOR]] and inhibiting [[Autophagy]]. Prolonged RAGE activation shifts cells from transient inflammatory responses to sustained pro-inflammatory and pro-fibrotic states.
+Ligand engagement of RAGE activates multiple downstream signaling cascades: (i) the [[NFκB]] pathway via [[IKKα]]/[[IKKbeta]] activation, creating a self-amplifying loop as NF-κB upregulates RAGE expression; (ii) [[MAPK]] pathways ([[ERK1_2]], [[p38 MAPK]], [[c-Jun N-terminal kinase|JNK]]), promoting [[AP-1]] activation and inflammatory gene expression; (iii) [[JAK]]/[[STAT]] signaling, particularly [[STAT3]]; and (iv) [[PI3K]]/[[Akt]] pathway, activating [[mTOR]] and inhibiting [[Autophagy]]. Prolonged RAGE activation shifts cells from transient inflammatory responses to sustained pro-inflammatory and pro-fibrotic states.
 
 ## Soluble RAGE as a Decoy Receptor
 
@@ -45,7 +46,7 @@ In [[Diabetes]], chronic hyperglycemia drives AGE formation, engaging RAGE to pr
 
 ## Connection to Inflammation and the Adrenochrome Pathway
 
-RAGE signaling intersects with the [[Adrenochrome Pathway]] through multiple mechanisms: (i) adrenochrome-induced [[Oxidative Stress]] promotes AGE formation via glycolysis-derived [[Dicarbonyls]], activating the AGE-RAGE inflammatory axis; (ii) RAGE activation upregulates [[NF-κB]] target genes including [[COX-2]] and [[iNOS]], which amplify oxidative stress and catecholamine oxidation; and (iii) RAGE-mediated inhibition of [[Autophagy]] may impair clearance of aminochrome-damaged mitochondria. Targeting RAGE represents a strategy to break the feed-forward cycle of glycation, oxidative stress, and aminochrome accumulation in [[Aging]] and age-related diseases.
+RAGE signaling intersects with the [[Adrenochrome Pathway]] through multiple mechanisms: (i) adrenochrome-induced [[Oxidative Stress]] promotes AGE formation via glycolysis-derived [[Dicarbonyls]], activating the AGE-RAGE inflammatory axis; (ii) RAGE activation upregulates [[NFκB]] target genes including [[COX-2]] and [[iNOS]], which amplify oxidative stress and catecholamine oxidation; and (iii) RAGE-mediated inhibition of [[Autophagy]] may impair clearance of aminochrome-damaged mitochondria. Targeting RAGE represents a strategy to break the feed-forward cycle of glycation, oxidative stress, and aminochrome accumulation in [[Aging]] and age-related diseases.
 
 ## Linking Summary
 

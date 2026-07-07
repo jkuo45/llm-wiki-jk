@@ -1,11 +1,12 @@
 ---
 type: entity
-category: anatomy
-aliases: []
+title: Dorsal Motor Nucleus of the Vagus
+description: The Dorsal Motor Nucleus of the Vagus (DMV) is a cranial nerve nucleus
+  for the vagus nerve in the medulla that lies on the floor of the fourth ventricle.
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Anatomy
 ---
-
 # Dorsal Motor Nucleus of the Vagus
 
 The [[Dorsal Motor Nucleus of the Vagus]] (DMV) is a cranial nerve nucleus for the vagus nerve in the medulla that lies on the floor of the fourth ventricle.

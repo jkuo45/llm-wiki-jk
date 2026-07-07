@@ -1,3 +1,12 @@
+---
+type: entity
+title: Oblimersen sodium
+description: '**Oblimersen sodium** (also known as Genasense) is an antisense oligonucleotide
+  designed to inhibit the production of Bcl-2 protein.'
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Medical Condition
+---
 # Oblimersen sodium
 
 **Oblimersen sodium** (also known as Genasense) is an antisense oligonucleotide designed to inhibit the production of [[Bcl-2]] protein.

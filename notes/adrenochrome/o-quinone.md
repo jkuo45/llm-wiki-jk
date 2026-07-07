@@ -1,11 +1,13 @@
 ---
 type: entity
-category: Chemical Compound
-aliases: []
+title: o-quinone
+description: An **o-quinone** (ortho-quinone) is a type of organic compound derived
+  from phenols, specifically catechols. In the context of Epinephrine metabolism,
+  it represents a highly reactive intermediate f...
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Chemical Compound
 ---
-
 # o-quinone
 
 An **o-quinone** (ortho-quinone) is a type of organic compound derived from phenols, specifically catechols. In the context of [[Epinephrine]] metabolism, it represents a highly reactive intermediate formed during oxidation.

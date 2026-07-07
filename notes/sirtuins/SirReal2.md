@@ -1,18 +1,17 @@
 ---
 type: entity
-category: chemical
-aliases:
-  - SirReal2
-  - SirReal-2
-database_ids:
-  pubchem: 86289063
-relations:
-  - predicate: inhibits
-    target: "SIRT2"
-    sources:
-      - s41392-022-01257-8
+title: SirReal2
+description: '**SirReal2** is a highly potent, selective, and structurally unique
+  small-molecule inhibitor of **SIRT2** belonging to the aminothiazole chemical family.
+  It is renowned for acting via a distinct li...'
 created: 2026-07-03
 updated: 2026-07-03
+entity_type_1: Chemical Compound
+aliases: [SirReal2, SirReal-2]
+
+sources:
+- s41392-022-01257-8
+target: SIRT2
 ---
 
 # SirReal2

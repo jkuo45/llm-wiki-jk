@@ -1,13 +1,16 @@
 ---
 type: entity
-category: enzyme
-aliases: [Aconitate hydratase, cis-aconitase, Iron regulatory protein 1, IRP1]
-database_ids:
-  uniprot: [Q99798 (human cytosolic), Q99798 (human mitochondrial)]
+title: Aconitase
+description: '**Aconitase (Aconitate hydratase)** is an iron-sulfur cluster ([4Fe-4S])-containing
+  enzyme that catalyzes the reversible isomerization of citrate to isocitrate in the
+  tricarboxylic acid (TCA) cycle...'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Enzyme
+aliases: [Aconitate hydratase, cis-aconitase, Iron regulatory protein 1, IRP1]
+database_ids:
+  uniprot: ['Q99798 (human cytosolic)', 'Q99798 (human mitochondrial)']
 ---
-
 # Aconitase
 
 **Aconitase (Aconitate hydratase)** is an iron-sulfur cluster ([4Fe-4S])-containing enzyme that catalyzes the reversible isomerization of citrate to isocitrate in the tricarboxylic acid (TCA) cycle. It is a primary target of [[Peroxynitrite]] and [[Superoxide Radicals|superoxide]] due to the vulnerability of its catalytic [4Fe-4S]²⁺ cluster.

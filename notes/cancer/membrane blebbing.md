@@ -1,3 +1,12 @@
+---
+type: entity
+title: membrane blebbing
+description: '**Membrane blebbing** is a characteristic morphological feature observed
+  during the execution phase of Apoptosis.'
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Enzyme
+---
 # membrane blebbing
 
 **Membrane blebbing** is a characteristic morphological feature observed during the execution phase of [[Apoptosis]].

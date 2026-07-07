@@ -1,31 +1,22 @@
 ---
 type: entity
-category: protein
+title: Exchange Protein Directly Activated by cAMP 1 (Epac1/RAPGEF3)
+description: Exchange Protein Directly Activated by cAMP 1 (Epac1/RAPGEF3) is a guanine
+  nucleotide exchange factor (GEF) for the small GTPase Rap1 and Rap2. Unlike PKA,
+  Epac1 is activated directly by cAMP bindi...
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Protein
 aliases:
   - Epac1
   - RAPGEF3
   - Exchange Protein Directly Activated by cAMP 1
   - cAMP-GEFI
   - Rap Guanine Nucleotide Exchange Factor 3
-database_ids:
-  uniprot: O95398
-  hgnc: HGNC:16729
-relations:
-  - predicate: activated_by
-    target: "cAMP"
-    sources:
-      - Park 2012
-  - predicate: triggers
-    target: "Ca2+ release"
-    sources:
-      - Park 2012
-  - predicate: upstream_of
-    target: "AMPK"
-    sources:
-      - Park 2012
-created: 2026-07-04
-updated: 2026-07-04
 ---
+
+
+
 
 # Exchange Protein Directly Activated by cAMP 1 (Epac1/RAPGEF3)
 

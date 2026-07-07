@@ -1,11 +1,11 @@
 ---
 type: entity
-category: Biological Process
-aliases: []
+title: Hemolysis
+description: '- G6PD deficiency: Patients are prone to trigger-induced hemolysis.'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Biological Process
 ---
-
 # Hemolysis
 
 [[Hemolysis]] is the destruction of [[Erythrocytes]] (red blood cells), which leads to the release of [[Hemoglobin]] into the surrounding plasma. In the context of [[Methemoglobinemia]], hemolysis is a significant risk when treating patients with [[G6PD deficiency]] using [[Methylene blue]].

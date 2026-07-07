@@ -1,8 +1,11 @@
 ---
-category: Biological Process
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: Microautophagy
+description: '**Microautophagy** is a type of Autophagy characterized by the direct
+  engulfment of cytoplasmic components by the Lysosome or vacuolar membrane.'
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Biological Process
 ---
 # Microautophagy
 

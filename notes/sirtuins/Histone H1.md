@@ -1,17 +1,17 @@
 ---
 type: entity
-category: protein
-aliases:
-  - H1
-  - Linker Histone H1
-database_ids: {}
-relations:
-  - predicate: deacetylated_by
-    target: "SIRT1"
-    sources:
-      - PMID:19202068
+title: Histone H1
+description: '**Histone H1** (Linker Histone H1) is a family of basic nuclear proteins
+  that bind to linker DNA between nucleosomes, facilitating higher-order chromatin
+  structure and compaction. Unlike core histo...'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Protein
+aliases: [H1, Linker Histone H1]
+
+sources:
+- PMID:19202068
+target: SIRT1
 ---
 
 # Histone H1

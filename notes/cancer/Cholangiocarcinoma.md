@@ -1,3 +1,12 @@
+---
+type: entity
+title: Cholangiocarcinoma
+description: Cholangiocarcinoma is a malignant tumor that originates in the bile duct,
+  inside or outside the liver.
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Medical Condition
+---
 # Cholangiocarcinoma
 
 Cholangiocarcinoma is a malignant tumor that originates in the bile duct, inside or outside the liver.

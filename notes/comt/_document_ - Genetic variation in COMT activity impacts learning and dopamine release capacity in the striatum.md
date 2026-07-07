@@ -1,25 +1,30 @@
 ---
-title: "Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum"
-source: "https://pmc.ncbi.nlm.nih.gov/articles/PMC3966542/"
+type: document
+title: Genetic variation in COMT activity impacts learning and dopamine release capacity
+  in the striatum
+source: https://pmc.ncbi.nlm.nih.gov/articles/PMC3966542/
 author:
-  - "Eleanor H Simpson"
-  - "Julia Morud"
-  - "Vanessa Winiger"
-  - "Dominik Biezonski"
-  - "Judy P Zhu"
-  - "Mary Elizabeth Bach"
-  - "Gael Malleret"
-  - "H Jonathan Polan"
-  - "Scott Ng-Evans"
-  - "Paul EM Phillips"
-  - "Christoph Kellendonk"
-  - "Eric R Kandel"
-published:
+- Eleanor H Simpson
+- Julia Morud
+- Vanessa Winiger
+- Dominik Biezonski
+- Judy P Zhu
+- Mary Elizabeth Bach
+- Gael Malleret
+- H Jonathan Polan
+- Scott Ng-Evans
+- Paul EM Phillips
+- Christoph Kellendonk
+- Eric R Kandel
 created: 2026-05-12
-description: "A common genetic polymorphism that results in increased activity of the dopamine regulating enzyme COMT (the COMT Val158 allele) has been found to associate with poorer cognitive performance and increased susceptibility to develop psychiatric ..."
+description: A common genetic polymorphism that results in increased activity of the
+  dopamine regulating enzyme COMT (the COMT Val158 allele) has been found to associate
+  with poorer cognitive performance and increased susceptibility to develop psychiatric
+  ...
 tags:
   - "clippings"
 ---
+
 . 2014 Apr;21(4):205–214. doi: [10.1101/lm.032094.113](https://doi.org/10.1101/lm.032094.113)
 
 ## Abstract
@@ -30,7 +35,7 @@ A common genetic [[Polymorphism]] that results in increased activity of the [[Do
 
 The [[Catechol-O-methyltransferase]] ([[COMT]]) enzyme degrades [[Catecholamines]], including [[Dopamine]]. A single nucleotide polymorphism ([[SNP]]) in the human *[[COMT]]* gene (*Val* <sup>158</sup>) increases the thermostability of the enzyme—thereby increasing its level of activity compared to the <sup>158</sup> *Met* allele. In healthy subjects, the *Val* <sup>158</sup> allele has been found to associate with poorer [[Cognitive Performance]], specifically on tasks involving [[Executive Function]]. Also in healthy subjects, *Val* <sup>158</sup> has been found to associate with increased binding of a [[D1 Receptor]] PET ligand in the cortex, which is suggested to reflect a compensation for reduced [[Dopamine]] tone. In clinical studies, the *Val* <sup>158</sup> allele has been linked with increased risk for [[Schizophrenia]] in some populations, as well as a poorer response to antipsychotic treatment in affected individuals. The same [[Polymorphism]] has also been found to influence vulnerability to environmental risk factors. For example, cannabis use in adolescence increases the risk of developing [[Psychosis]] in adulthood selectively in *Val* <sup>158</sup> homozygotes.
 
-These many associations have driven a great deal of interest into the function of the [[COMT]] protein, yet how increased [[COMT]] activity affects brain functions is still not fully understood. In the [[Sirtuins]], the [[Dopamine Transporter]] ([[DAT]]) is highly abundant and responsible for rapid [[Dopamine]] uptake into dopaminergic terminals where it is either packaged into storage vesicles or metabolized by [[Monoamine oxidase]] ([[MAO]]). In contrast, [[Dopamine Transporter|dopamine transporters]] are both less abundant and located farther from synaptic sites in [[Prefrontal Cortex]] ([[PFC]]) neurons, where uptake by the [[Norepinephrine transporter]] ([[NET]]) and subsequent metabolism by [[COMT]] predominates. It has therefore been proposed that the increase in [[COMT]] activity conferred by the *Val* <sup>158</sup> allele selectively influences [[Dopamine]] signaling in the [[PFC]] and not the [[Sirtuins]].
+These many associations have driven a great deal of interest into the function of the [[COMT]] protein, yet how increased [[COMT]] activity affects brain functions is still not fully understood. In the [[Sirtuins]], the [[Dopamine Transporter]] ([[DAT]]) is highly abundant and responsible for rapid [[Dopamine]] uptake into dopaminergic terminals where it is either packaged into storage vesicles or metabolized by [[Monoamine oxidase]] ([[MAO]]). In contrast, [[Dopamine Transporter|dopamine transporters]] are both less abundant and located farther from synaptic sites in [[Prefrontal Cortex]] ([[Prefrontal Cortex]]) neurons, where uptake by the [[Norepinephrine transporter]] ([[NET]]) and subsequent metabolism by [[COMT]] predominates. It has therefore been proposed that the increase in [[COMT]] activity conferred by the *Val* <sup>158</sup> allele selectively influences [[Dopamine]] signaling in the [[Prefrontal Cortex]] and not the [[Sirtuins]].
 
 Wild-type mice encode *Leu* at this position, which results in higher activity relative to either of the human alleles. Because in humans it is the allele with higher relative activity (*Val*) that is associated with poorer cognitive function and increased risk for [[Psychiatric Disorders]], we generated a transgenic mouse model of increased [[COMT]] activity relative to the level in wild-type mice.
 
@@ -62,7 +67,7 @@ We investigated whether increased [[COMT]] activity results in compensatory chan
 
 ### Increased COMT activity results in increased dopamine release capacity in the striatum
 
-Because [[Dopamine]] signaling in the cortex has been found to be important for [[Working Memory]], the working memory deficit observed in COMT-OE mice could be due to perturbed [[Dopamine]] signaling in the [[PFC]]. On the other hand, the deficit in [[Stimulus-response learning]] may come from suboptimal [[Dopamine]] functioning in the dorsomedial [[Sirtuins]]. We therefore investigated the consequences of [[COMT]] overexpression on [[Dopamine]] activity in the dorsomedial [[Sirtuins]] using [[Fast-scan Cyclic Voltammetry]] ([[FSCV]]), a technique that allows striatal [[Dopamine]] to be measured in vivo on a subsecond time scale. We electrically stimulated the [[Medial Forebrain Bundle]] ([[MFB]]), which comprises the mesostriatal, mesolimbic, and mesocortical projection fibers, in urethane-anesthetized mice and recorded [[Dopamine]] release within the dorsomedial [[Sirtuins]]. We found a significant increase in [[Dopamine]] release in COMT-OE mice compared to littermate controls.
+Because [[Dopamine]] signaling in the cortex has been found to be important for [[Working Memory]], the working memory deficit observed in COMT-OE mice could be due to perturbed [[Dopamine]] signaling in the [[Prefrontal Cortex]]. On the other hand, the deficit in [[Stimulus-response learning]] may come from suboptimal [[Dopamine]] functioning in the dorsomedial [[Sirtuins]]. We therefore investigated the consequences of [[COMT]] overexpression on [[Dopamine]] activity in the dorsomedial [[Sirtuins]] using [[Fast-scan Cyclic Voltammetry]] ([[FSCV]]), a technique that allows striatal [[Dopamine]] to be measured in vivo on a subsecond time scale. We electrically stimulated the [[Medial Forebrain Bundle]] ([[MFB]]), which comprises the mesostriatal, mesolimbic, and mesocortical projection fibers, in urethane-anesthetized mice and recorded [[Dopamine]] release within the dorsomedial [[Sirtuins]]. We found a significant increase in [[Dopamine]] release in COMT-OE mice compared to littermate controls.
 
 ## Discussion
 
@@ -73,6 +78,6 @@ The changes we observed in [[Dopamine]] release in the [[Sirtuins]] of COMT-OE m
 ---
 
 ### Linking Summary:
-- New links added: [[COMT]], [[Dopamine]], [[Sirtuins]], [[Polymorphism]], [[Cognitive Performance]], [[Psychiatric Disorders]], [[Cognitive Function]], [[Stimulus-response learning]], [[Working Memory]], [[Dopamine Transporter]], [[Catechol-O-methyltransferase]], [[Catecholamines]], [[SNP]], [[Executive Function]], [[D1 Receptor]], [[Schizophrenia]], [[Psychosis]], [[DAT]], [[Monoamine oxidase]], [[MAO]], [[Prefrontal Cortex]], [[PFC]], [[Norepinephrine transporter]], [[NET]], [[Medium spiny neurons]], [[MSNs]], [[CamKIIα]], [[Fast-scan Cyclic Voltammetry]], [[FSCV]], [[tTA]], [[Ventral Tegmental Area]], [[VTA]], [[Tyrosine Hydroxylase]], [[TH]], [[Hippocampus]], [[Cerebellum]], [[Impulsive Behavior]], [[Compulsive Behavior]], [[Medial Forebrain Bundle]], [[MFB]], [[Psychiatric Diseases]].
+- New links added: [[COMT]], [[Dopamine]], [[Sirtuins]], [[Polymorphism]], [[Cognitive Performance]], [[Psychiatric Disorders]], [[Cognitive Function]], [[Stimulus-response learning]], [[Working Memory]], [[Dopamine Transporter]], [[Catechol-O-methyltransferase]], [[Catecholamines]], [[SNP]], [[Executive Function]], [[D1 Receptor]], [[Schizophrenia]], [[Psychosis]], [[DAT]], [[Monoamine oxidase]], [[MAO]], [[Prefrontal Cortex]], [[Prefrontal Cortex]], [[Norepinephrine transporter]], [[NET]], [[Medium spiny neurons]], [[MSNs]], [[CamKIIα]], [[Fast-scan Cyclic Voltammetry]], [[FSCV]], [[tTA]], [[Ventral Tegmental Area]], [[VTA]], [[Tyrosine Hydroxylase]], [[TH]], [[Hippocampus]], [[Cerebellum]], [[Impulsive Behavior]], [[Compulsive Behavior]], [[Medial Forebrain Bundle]], [[MFB]], [[Psychiatric Diseases]].
 - Suggested new entity notes to create: [[COMT]], [[Dopamine]], [[Sirtuins]], [[Working Memory]], [[Prefrontal Cortex]].
 - Strong connections to strengthen: [[COMT]] ↔ [[Dopamine]], [[Dopamine]] ↔ [[Sirtuins]].

@@ -1,9 +1,12 @@
 ---
 type: entity
-category: scientific_concept
-entity_type: "Scientific Concept"
+title: H3K9me3
+description: H3K9me3 is a repressive histone mark associated with transcriptional
+  silencing and the formation of heterochromatin. With aging, there is globally a
+  reduction in H3K9me3 levels, although it is incr...
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: Scientific Concept
 ---
 # H3K9me3
 

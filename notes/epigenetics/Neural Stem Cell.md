@@ -1,9 +1,10 @@
 ---
 type: entity
-category: cell_type
-entity_type: "Cell Type"
+title: Neural Stem Cell
+description: '- New links added: Quiescence, Aging, Cognition'
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: Cell Type
 ---
 # Neural Stem Cell
 

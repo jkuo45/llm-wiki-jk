@@ -1,17 +1,15 @@
 ---
 type: entity
-category: protein
-aliases:
-  - "TGF-beta"
-  - "transforming growth factor beta"
-tags:
-  - "oxidative_stress"
-  - "cytokine"
-  - "fibrosis"
+title: TGF-beta
+description: Transforming growth factor beta (TGF-beta) is a multifunctional cytokine
+  that plays a role in cell growth, proliferation, and differentiation. It is a key
+  mediator of Fibrosis and is influenced by ...
 created: 2026-05-09
 updated: 2026-07-04
+entity_type_1: Protein
+aliases: [TGF-beta, transforming growth factor beta]
+tags: [oxidative_stress, cytokine, fibrosis]
 ---
-
 # TGF-beta
 Transforming growth factor beta (TGF-beta) is a multifunctional cytokine that plays a role in cell growth, proliferation, and differentiation. It is a key mediator of [[Fibrosis]] and is influenced by the cellular level of [[Oxidative Stress]] and chronic [[Inflammation]].
 
@@ -32,7 +30,7 @@ A defining feature of TGF-β signaling is its induction of [[NADPH Oxidase 4]] (
 - **Epithelial–mesenchymal transition (EMT)**: Nox4-derived H₂O₂ is required for TGF-β-induced EMT, as Nox4 knockout or pharmacological inhibition ([[GKT137831]], [[Setanaxib]]) blocks mesenchymal marker expression and cell migration.
 
 ### Mitochondrial ROS and SMAD-Independent Signaling
-In addition to SMAD pathways, TGF-β signals through [[non-SMAD pathways]] including [[MAPK]] (ERK1/2, p38, JNK), [[PI3K]]/[[Akt]]/[[mTOR]], and [[Rho-like GTPase]]s. [[Mitochondrial]] ROS (mtROS) — generated from [[complex III]] of the electron transport chain — are required for TGF-β-mediated [[Smad7]] downregulation, a key step that removes a negative feedback regulator and allows sustained SMAD2/3 signaling. TGF-β also suppresses [[PGC-1α]] (a master regulator of mitochondrial biogenesis) and [[PPARγ coactivator 1α|PGC-1α]]-dependent antioxidant gene expression, shifting the cellular redox balance toward a pro-oxidant state.
+In addition to SMAD pathways, TGF-β signals through [[non-SMAD pathways]] including [[MAPK]] (ERK1/2, p38, JNK), [[PI3K]]/[[Akt]]/[[mTOR]], and [[Rho-like GTPase]]s. [[Mitochondria]] ROS (mtROS) — generated from [[complex III]] of the electron transport chain — are required for TGF-β-mediated [[Smad7]] downregulation, a key step that removes a negative feedback regulator and allows sustained SMAD2/3 signaling. TGF-β also suppresses [[PGC1-α]] (a master regulator of mitochondrial biogenesis) and [[PPARγ coactivator 1α|PGC-1α]]-dependent antioxidant gene expression, shifting the cellular redox balance toward a pro-oxidant state.
 
 ### TGF-β and Oxidative Stress in Fibrotic Disease
 Excessive TGF-β signaling drives pathological [[Fibrosis]] in multiple organs, and [[Oxidative Stress]] is a critical cofactor in this process:

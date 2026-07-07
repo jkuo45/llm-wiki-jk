@@ -1,24 +1,19 @@
 ---
 type: entity
-category: enzyme
+title: Glutamate Dehydrogenase (GDH)
+description: Glutamate Dehydrogenase (GDH) is a mitochondrial enzyme that plays a
+  critical role in amino acid metabolism, cellular energy homeostasis, and insulin
+  secretion. It catalyzes the reversible oxidativ...
+created: 2026-07-03
+updated: 2026-07-03
+entity_type_1: Enzyme
 aliases:
   - GDH
   - Glutamate Dehydrogenase
-database_ids:
-  uniprot: P00367
-  hgnc: HGNC:4232
-relations:
-  - predicate: inhibited_by
-    target: "SIRT4"
-    sources:
-      - PMID:16959573
-  - predicate: regulated_by
-    target: "notes/_link/Caloric Restriction"
-    sources:
-      - PMID:16959573
-created: 2026-07-03
-updated: 2026-07-03
 ---
+
+
+
 
 # Glutamate Dehydrogenase (GDH)
 

@@ -1,21 +1,34 @@
 ---
-title: "From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery"
-source: "https://www.nature.com/articles/s41420-024-01850-6"
+type: document
+title: From the regulatory mechanism of TFEB to its therapeutic implications - Cell
+  Death Discovery
+source: https://www.nature.com/articles/s41420-024-01850-6
 author:
-  - "Huixia Chen"
-  - "Siqiao Gong"
-  - "Hongyong Zhang"
-  - "Yongming Chen"
-  - "Yonghan Liu"
-  - "Junfeng Hao"
-  - "Huafeng Liu"
-  - "Xiaoyu Li"
+- Huixia Chen
+- Siqiao Gong
+- Hongyong Zhang
+- Yongming Chen
+- Yonghan Liu
+- Junfeng Hao
+- Huafeng Liu
+- Xiaoyu Li
 published: 2024-02-15
 created: 2026-06-03
-description: "Transcription factor EB (TFEB), known as a major transcriptional regulator of the autophagy-lysosomal pathway, regulates target gene expression by binding to coordinated lysosomal expression and regulation (CLEAR Element) elements. TFEB are regulated by multiple links, such as transcriptional regulation, post-transcriptional regulation, translational-level regulation, post-translational modification (PTM), and nuclear competitive regulation. Targeted regulation of TFEB has been victoriously used as a treatment strategy in several disease models such as ischemic injury, Lysosomal Storage Disorders (LSDs), cancer, metabolic disorders, neurodegenerative diseases, and Inflammation. In this review, we aimed to elucidate the regulatory mechanism of TFEB and its applications in several disease models by targeting the regulation of TFEB as a treatment strategy."
+description: Transcription factor EB (TFEB), known as a major transcriptional regulator
+  of the autophagy-lysosomal pathway, regulates target gene expression by binding
+  to coordinated lysosomal expression and regulation (CLEAR Element) elements. TFEB
+  are regulated by multiple links, such as transcriptional regulation, post-transcriptional
+  regulation, translational-level regulation, post-translational modification (PTM),
+  and nuclear competitive regulation. Targeted regulation of TFEB has been victoriously
+  used as a treatment strategy in several disease models such as ischemic injury,
+  Lysosomal Storage Disorders (LSDs), cancer, metabolic disorders, neurodegenerative
+  diseases, and Inflammation. In this review, we aimed to elucidate the regulatory
+  mechanism of TFEB and its applications in several disease models by targeting the
+  regulation of TFEB as a treatment strategy.
 tags:
   - "clippings"
 ---
+
 ## Abstract
 
 Transcription factor EB ([[TFEB]]), known as a major transcriptional regulator of the autophagy-lysosomal pathway, regulates target gene expression by binding to coordinated lysosomal expression and regulation ([[CLEAR Element]]) elements. [[TFEB]] are regulated by multiple links, such as transcriptional regulation, post-transcriptional regulation, translational-level regulation, post-translational modification (PTM), and nuclear competitive regulation. Targeted regulation of [[TFEB]] has been victoriously used as a treatment strategy in several disease models such as [[ischemic injury]], [[Lysosomal Storage Disorders]] (LSDs), cancer, metabolic disorders, [[Neurodegenerative Diseases]], and [[Inflammation]]. In this review, we aimed to elucidate the regulatory mechanism of [[TFEB]] and its applications in several disease models by targeting the regulation of [[TFEB]] as a treatment strategy.
@@ -34,7 +47,7 @@ Transcription factor EB ([[TFEB]]), known as a major transcriptional regulator o
 
 ## Introduction
 
-[[TFEB]], a member of the microphthalmia ([[MiT]]/[[TFE]] family) of leucine zipper transcription factors, has been known as a master regulator for transcription of genes participated in [[Lysosome Biogenesis]] and [[Autophagy]] \[[^1], [^2]\]. Except for [[TFEB]], [[MiT]]/[[TFE]] family members include transcription factor EC ([[TFEC]]), microphthalmia-associated transcription factors ([[MITF]]), and transcription factor E3 ([[TFE3]]). [[TFEB]] forms homo-or heterodimers with itself or other [[MiT]]/[[TFE]] family members and binds to [[CLEAR Element]], thereby activating the expression of autophagy-lysosomal genes \[[^3]\]. In addition to autophagy-lysosome biogenesis, [[TFEB]] is involved in metabolic processes and cellular energy homeostasis in response to internal and external stresses \[[^4]\].
+[[TFEB]], a member of the microphthalmia ([[MiT]]/[[TFEB]] family) of leucine zipper transcription factors, has been known as a master regulator for transcription of genes participated in [[Lysosome Biogenesis]] and [[Autophagy]] \[[^1], [^2]\]. Except for [[TFEB]], [[MiT]]/[[TFEB]] family members include transcription factor EC ([[TFEC]]), microphthalmia-associated transcription factors ([[MITF]]), and transcription factor E3 ([[TFE3]]). [[TFEB]] forms homo-or heterodimers with itself or other [[MiT]]/[[TFEB]] family members and binds to [[CLEAR Element]], thereby activating the expression of autophagy-lysosomal genes \[[^3]\]. In addition to autophagy-lysosome biogenesis, [[TFEB]] is involved in metabolic processes and cellular energy homeostasis in response to internal and external stresses \[[^4]\].
 
 The expression and activity are regulated by multiple mechanisms, including transcriptional \[[^5], [^6]\], post-transcriptional \[[^7]\], translational \[[^8], [^9]\], PTM \[[^10]\], and nuclear competitive regulation \[[^11], [^12]\]. The transcriptional, post-transcriptional, and translational levels regulate expression of [[TFEB]] \[[^6], [^7], [^9]\] (Fig. [1](https://www.nature.com/articles/s41420-024-01850-6#Fig1)). PTM and nuclear competitive regulation mainly regulate activity of [[TFEB]] \[[^3], [^11]\].
 
@@ -90,7 +103,7 @@ Glycogen synthase kinase 3β ([[GSK3β]]) was found to phosphorylates [[TFEB]] a
 
 [[Phosphorylation]] of [[TFEB]] S142 and S138, affects not only its nuclear translocation \[[^58], [^63], [^64]\] but also its nuclear export \[[^41], [^44], [^65]\]. [[CRM1|Chromosomal maintenance 1 (CRM1)]] is a receptor for leucine-rich nuclear export signals \[[^66]\]. [[Starvation]] induces nuclear translocation through [[TFEB]] dephosphorylation \[[^60]\]. [[TFEB]] is rapidly redistributed from nucleus to the cytosol upon nutrient replenishment, which requires [[CRM1]] and [[Phosphorylation]] S142 and S138 of [[TFEB]] \[[^41], [^44], [^65]\]. Treatment of HeLa cells with [[Leptomycin B]], a [[CRM1]] inhibitor, severely impairs nuclear export of [[TFEB]] upon nutrient refeeding \[[^41], [^65]\]. There is a nuclear export signal (NES) in the N-terminal portion of the [[TFEB]] protein, and the mutants of three different hydrophobic residues within the presumed NES, namely I149, L147, and M144, completely impairs the cytosolic relocalization of [[TFEB]] following refeeding \[[^41], [^65]\]. In addition, [[TFEB]] S142A and S138A mutants showed highly impaired export kinetics \[[^41], [^65]\]. These results imply that the [[Phosphorylation]] of S142 and S138 of [[TFEB]] allows its nuclear export, which may be achieved by the recognition of NES on the [[TFEB]] protein by [[CRM1]] \[[^41]\]. The nuclear pool of mTOCR1 may be responsible for [[TFEB]] [[Phosphorylation]] and induction of nuclear export \[[^41]\]. Another research shows that [[Phosphorylation]] S142 by mTOCR1 or ERK stimulates [[Phosphorylation]] S138 by [[GSK3β]] and that the dual [[Phosphorylation]] event of S142 and S138 is required for nuclear export \[[^65]\].
 
-Moreover, the [[Phosphorylation]] of [[TFEB]] at S142 by cyclin-dependent kinase 4/6 ([[CDK4/6]]) in the nucleus is [[CRM1]]-dependent and promotes nuclear export \[[^44]\]. Two commercial compounds, [[Palbociclib|PD0332991 (palbociclib)]] and [[Abemaciclib|LY2835219 (abemaciclib)]], which specifically inhibit [[CDK4/6]], induce [[TFEB]]-dependent lysosomal biogenesis by inhibiting the nuclear export of [[TFEB]] in HeLa cells \[[^44]\].
+Moreover, the [[Phosphorylation]] of [[TFEB]] at S142 by cyclin-dependent kinase 4/6 ([[CDK4]]/[[CDK6]]) in the nucleus is [[CRM1]]-dependent and promotes nuclear export \[[^44]\]. Two commercial compounds, [[Palbociclib|PD0332991 (palbociclib)]] and [[Abemaciclib|LY2835219 (abemaciclib)]], which specifically inhibit [[CDK4]]/[[CDK6]], induce [[TFEB]]-dependent lysosomal biogenesis by inhibiting the nuclear export of [[TFEB]] in HeLa cells \[[^44]\].
 
 ### S122
 
@@ -572,6 +585,6 @@ The authors declare no competing interests.
 
 ### Linking Summary
 
-- New links added: [[TFEB]], [[Autophagy]], [[CLEAR Element]], [[ischemic injury]], [[Lysosomal Storage Disorders]], [[Neurodegenerative Diseases]], [[Inflammation]], [[Phosphorylation]], [[MiT]]/[[TFE]] family, [[Lysosome Biogenesis]], [[TFEC]], [[MITF]], [[TFE3]], [[PGC1-α|PGC-1α]], [[Huntington's Disease]], [[XBP1]], [[UPRE]], [[MYC]], [[TGF-β]], [[SMAD3]], [[m6A Modification]], [[METTL3]], [[HNRNPD]], [[ALKBH5]], [[Spermidine]], [[Polyamine]], [[Hypusination]], [[eIF5A]], [[PDCD4]], [[eIF4A]], [[Acetylation]], [[Ubiquitination]], [[PARsylation]], [[SUMOylation]], [[Glucosylation]], [[Oxidation]], [[S-sulfhydration]], [[mTORC1]], [[Ragulator]], [[Rag GTPases]], [[14-3-3 protein]], [[p38 MAPK]], [[Alpha-synuclein]], [[calcineurin|Calcineurin]], [[TRPML1|MCOLN1]], [[ERK2]], [[GSK3β]], [[CRM1]], [[Leptomycin B]], [[Palbociclib]], [[Abemaciclib]], [[Torin1]], [[PP2A]], [[AMPK]], [[Akt]], [[Folliculin]], [[MAP4K3]], [[PMA]], [[GCN5]], [[ACAT1]], [[SIRT1]], [[HDACs]], [[STUB1]], [[TNKS1]], [[TNKS2]], [[FACT complex]], [[SetA]], [[Birt-Hogg-Dube syndrome]], [[Renal Cell Carcinoma]], [[MALAT1]], [[Pancreatic Cancer]], [[Glutaminase]], [[Eltrombopag]], [[Trehalose]], [[Celastrol]], [[Ezetimibe]].
+- New links added: [[TFEB]], [[Autophagy]], [[CLEAR Element]], [[ischemic injury]], [[Lysosomal Storage Disorders]], [[Neurodegenerative Diseases]], [[Inflammation]], [[Phosphorylation]], [[MiT]]/[[TFEB]] family, [[Lysosome Biogenesis]], [[TFEC]], [[MITF]], [[TFE3]], [[PGC1-α|PGC-1α]], [[Huntington's Disease]], [[XBP1]], [[UPRE]], [[MYC]], [[TGF-β]], [[SMAD3]], [[m6A Modification]], [[METTL3]], [[HNRNPD]], [[ALKBH5]], [[Spermidine]], [[Polyamine]], [[Hypusination]], [[eIF5A]], [[PDCD4]], [[eIF4A]], [[Acetylation]], [[Ubiquitination]], [[PARsylation]], [[SUMOylation]], [[Glucosylation]], [[Oxidation]], [[S-sulfhydration]], [[mTORC1]], [[Ragulator]], [[Rag GTPases]], [[14-3-3 protein]], [[p38 MAPK]], [[Alpha-synuclein]], [[calcineurin|Calcineurin]], [[TRPML1|MCOLN1]], [[ERK2]], [[GSK3β]], [[CRM1]], [[Leptomycin B]], [[Palbociclib]], [[Abemaciclib]], [[Torin1]], [[PP2A]], [[AMPK]], [[Akt]], [[Folliculin]], [[MAP4K3]], [[PMA]], [[GCN5]], [[ACAT1]], [[SIRT1]], [[HDACs]], [[STUB1]], [[TNKS1]], [[TNKS2]], [[FACT complex]], [[SetA]], [[Birt-Hogg-Dube syndrome]], [[Renal Cell Carcinoma]], [[MALAT1]], [[Pancreatic Cancer]], [[Glutaminase]], [[Eltrombopag]], [[Trehalose]], [[Celastrol]], [[Ezetimibe]].
 - Suggested new entity notes to create: [[transcriptional regulation]], [[translational-level regulation]], [[ischemic injury]], [[metabolic disorders]], [[leucine zipper transcription Factors]], [[TGF-β Signaling]], [[Hypusination]], [[Tumor Suppressor]], [[Translation Initiation]], [[MAPK Signaling]], [[ERK Signaling]], [[Lysosomal Localization]], [[Nuclear Export]], [[Cell Cycle]], [[Energy Homeostasis]], [[PI3K-Akt Signaling]], [[Amino Acid Sensing]], [[Cholesterol Metabolism]], [[Ubiquitin-Proteasome System]], [[Autophagy Inhibitor]], [[Mitochondrial Dysfunction]], [[Tau Pathology]], [[Steatohepatitis]], [[Dopamine Neuron]], [[Glutamine Metabolism]], [[MiT Family Translocation RCC]], [[bHLH-LZ Transcription Factors]].
-- Strong connections to strengthen: [[TFEB]] ↔ [[MiT]]/[[TFE]] family, [[TFEB]] ↔ [[mTORC1]], [[TFEB]] ↔ [[calcineurin]], [[TFEB]] ↔ [[CLEAR Element]].
+- Strong connections to strengthen: [[TFEB]] ↔ [[MiT]]/[[TFEB]] family, [[TFEB]] ↔ [[mTORC1]], [[TFEB]] ↔ [[calcineurin]], [[TFEB]] ↔ [[CLEAR Element]].

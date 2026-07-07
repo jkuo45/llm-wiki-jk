@@ -1,25 +1,20 @@
 ---
 type: entity
-category: protein
+title: PML
+description: PML (Promyelocytic Leukemia protein, also known as TRIM19) is a tripartite
+  motif-containing protein that functions as the essential scaffold for PML nuclear
+  bodies (PML-NBs). PML-NBs are dynamic su...
+created: 2026-07-03
+updated: 2026-07-03
+entity_type_1: Protein
 aliases:
   - TRIM19
   - Promyelocytic Leukemia Protein
   - Tripartite Motif-Containing Protein 19
-database_ids:
-  uniprot: P29590
-  hgnc: HGNC:9113
-relations:
-  - predicate: associated_with
-    target: "SIRT1"
-    sources:
-      - PMID:12006491
-  - predicate: regulates
-    target: "p53"
-    sources:
-      - PMID:12006491
-created: 2026-07-03
-updated: 2026-07-03
 ---
+
+
+
 
 # PML
 

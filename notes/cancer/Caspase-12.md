@@ -1,3 +1,12 @@
+---
+type: entity
+title: Caspase-12
+description: '**Caspase-12** is a protease that is primarily involved in the Endoplasmic
+  Reticulum Pathway of Apoptosis.'
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Enzyme
+---
 # Caspase-12
 
 **Caspase-12** is a protease that is primarily involved in the [[Endoplasmic Reticulum Pathway]] of [[Apoptosis]].

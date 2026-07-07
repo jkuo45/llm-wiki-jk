@@ -1,14 +1,17 @@
 ---
 type: entity
-category: enzyme
-aliases: [8-oxoguanine DNA glycosylase, HMM1, OGH1, MUTM homolog]
-database_ids:
-  hgnc: HGNC:8125
-  uniprot: O15527
+title: OGG1
+description: '**OGG1 (8-oxoguanine DNA glycosylase 1)** is a bifunctional glycosylase
+  that initiates the Base Excision Repair pathway by recognizing and excising 8-oxo-2''-deoxyguanosine
+  (8-oxoG), the most abunda...'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Enzyme
+aliases: [8-oxoguanine DNA glycosylase, HMM1, OGH1, MUTM homolog]
+database_ids:
+  uniprot: O15527
+  hgnc: HGNC:8125
 ---
-
 # OGG1
 
 **OGG1 (8-oxoguanine DNA glycosylase 1)** is a bifunctional glycosylase that initiates the [[Base Excision Repair]] pathway by recognizing and excising [[8-oxo-2'-deoxyguanosine|8-oxo-7,8-dihydroguanine]] (8-oxoG), the most abundant oxidative DNA lesion.

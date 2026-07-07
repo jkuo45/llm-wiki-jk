@@ -1,22 +1,20 @@
 ---
 type: entity
-category: chemical compound
+title: Antagomirs
+description: Antagomirs are a class of chemically engineered Oligonucleotide that
+  silence endogenous MicroRNA. They are typically single-stranded RNA molecules (21–23
+  nucleotides) conjugated with Cholesterol fo...
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Chemical Compound
 aliases:
   - anti-miR oligonucleotides
   - AMOs
   - LNA antagomirs
-database_ids:
-  chebi: ""
-relations:
-  - predicate: inhibits
-    target: MicroRNA
-    sources: []
-  - predicate: upregulates
-    target: SIRT1
-    sources: []
-created: 2026-07-06
-updated: 2026-07-06
 ---
+
+
+
 
 # Antagomirs
 

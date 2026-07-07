@@ -1,10 +1,13 @@
 ---
-aliases:
-- C. elegans sirtuin
-category: Enzyme
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: SIR-2.1
+description: '**SIR-2.1** is the C. elegans orthologue of the mammalian SIRT1 sirtuin.
+  It is an NAD+-dependent histone deacetylase that regulates Longevity and stress
+  resistance.'
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Enzyme
+aliases: [C. elegans sirtuin]
 ---
 # SIR-2.1
 

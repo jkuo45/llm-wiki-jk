@@ -1,6 +1,12 @@
 ---
 type: entity
-category: transporter
+title: Dopamine Transporter
+description: The Dopamine Transporter (also known as DAT) is a membrane protein responsible
+  for the reuptake of Dopamine from the synaptic cleft back into the presynaptic neuron,
+  terminating the signal and recy...
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Transporter
 aliases:
   - DAT
 database_ids:
@@ -14,9 +20,10 @@ relations:
   - predicate: associated_with
     target: "COMT"
     sources: []
-created: 2026-07-04
-updated: 2026-07-04
 ---
+
+
+
 
 # Dopamine Transporter
 

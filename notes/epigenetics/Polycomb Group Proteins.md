@@ -1,11 +1,13 @@
 ---
 type: entity
-category: protein
-entity_type: "Protein"
+title: Polycomb Group Proteins
+description: '**Polycomb group (PcG) proteins** are evolutionarily conserved chromatin
+  regulators that maintain transcriptional repression of developmental genes, cell
+  cycle regulators, and senescence-associated...'
 created: 2024-01-01
 updated: 2024-07-04
+entity_type_1: Protein
 ---
-
 # Polycomb Group Proteins
 
 **Polycomb group (PcG) proteins** are evolutionarily conserved chromatin regulators that maintain transcriptional repression of developmental genes, cell cycle regulators, and senescence-associated loci through deposition of repressive [[Histone Modification|histone marks]]. First discovered in *[[Drosophila melanogaster]]* as regulators of [[Hox gene]] silencing, PcG proteins form two principal multi-subunit complexes: [[PRC1]] and [[PRC2]].

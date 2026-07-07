@@ -1,9 +1,12 @@
 ---
 type: entity
-category: enzyme
-entity_type: "Enzyme"
+title: DNA Methyltransferase
+description: '**DNA Methyltransferase (DNMT)** is a family of enzymes responsible
+  for catalyzing the transfer of a methyl group from S-adenosyl-L-methionine (SAM)
+  to the C5 position of cytosine residues, primari...'
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: Enzyme
 ---
 # DNA Methyltransferase
 

@@ -1,3 +1,12 @@
+---
+type: entity
+title: Bak
+description: '**Bak** (Bcl-2 antagonist or killer 1) is a pro-apoptotic member of
+  the Bcl-2 family. It is a core effector of the Intrinsic Pathway of Apoptosis.'
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Medical Condition
+---
 # Bak
 
 **Bak** (Bcl-2 antagonist or killer 1) is a pro-apoptotic member of the [[Bcl-2 family]]. It is a core effector of the [[Intrinsic Pathway]] of [[Apoptosis|apoptosis]].

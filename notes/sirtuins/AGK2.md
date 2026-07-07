@@ -1,23 +1,19 @@
 ---
 type: entity
-category: chemical
+title: AGK2
+description: AGK2 is a potent, cell-permeable, and selective small-molecule inhibitor
+  of SIRT2. It is widely utilized in neurobiology and oncology research to study the
+  pathogenic consequences of SIRT2 activity...
+created: 2026-07-03
+updated: 2026-07-03
+entity_type_1: Chemical Compound
 aliases:
   - AGK2
   - AGK-2
-database_ids:
-  pubchem: 3105
-relations:
-  - predicate: inhibits
-    target: "SIRT2"
-    sources:
-      - s41392-022-01257-8
-  - predicate: regulates
-    target: "FOXO3a"
-    sources:
-      - s41392-022-01257-8
-created: 2026-07-03
-updated: 2026-07-03
 ---
+
+
+
 
 # AGK2
 

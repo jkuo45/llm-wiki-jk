@@ -1,11 +1,12 @@
 ---
 type: entity
-category: medical_condition
-aliases: []
+title: Incidental Lewy Body Disease
+description: iLBD is widely considered to represent an early, presymptomatic stage
+  of Parkinson's disease.
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Medical Condition
 ---
-
 # Incidental Lewy Body Disease
 
 [[Incidental Lewy Body Disease]] (iLBD) refers to the presence of [[Lewy Bodies]] and [[Alpha-synuclein]] pathology in the brains of individuals who did not exhibit clinical symptoms of [[Parkinson's Disease]] (PD) during their lifetime.

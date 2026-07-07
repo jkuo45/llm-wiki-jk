@@ -1,10 +1,11 @@
 ---
-aliases:
-- transcription factor EC
-category: Gene
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: TFEC
+description: Transcription Factor EC, a member of the MiTF TFE family.
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Gene
+aliases: [transcription factor EC]
 ---
 # TFEC
 

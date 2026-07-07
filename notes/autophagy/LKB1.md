@@ -1,19 +1,18 @@
 ---
 type: entity
-category: protein
-aliases:
-  - STK11
-  - Liver Kinase B1
-  - Serine/threonine-protein kinase STK11
-  - Polarization-related gene LKB1
-database_ids:
-  uniprot: Q15831
-  hgnc: HGNC:11389
-  mesh: D057852
+title: LKB1
+description: '**LKB1** (Liver Kinase B1), also known as **STK11**, is a master upstream
+  serine/threonine kinase that regulates cellular energy metabolism, cell polarity,
+  and tumour suppression. LKB1 phosphorylat...'
 created: 2026-07-04
 updated: 2026-07-05
+entity_type_1: Protein
+aliases: [STK11, Liver Kinase B1, Serine/threonine-protein kinase STK11, Polarization-related gene LKB1]
+database_ids:
+  mesh: D057852
+  uniprot: Q15831
+  hgnc: HGNC:11389
 ---
-
 # LKB1
 
 **LKB1** (Liver Kinase B1), also known as **STK11**, is a master upstream serine/threonine kinase that regulates cellular energy metabolism, cell polarity, and tumour suppression. LKB1 phosphorylates and activates [14 AMPK-family kinases](https://www.ncbi.nlm.nih.gov/pubmed/15448698), making it a central node in the cellular stress response network.
@@ -33,7 +32,7 @@ LKB1 is the primary upstream kinase that activates [[AMPK]] in response to energ
 
 1. **Energy Stress Detection**: Rising AMP:ATP or ADP:ATP ratios are sensed by AMPK, which undergoes conformational changes promoting LKB1-mediated phosphorylation.
 2. **Phosphorylation**: LKB1 phosphorylates AMPK at **Thr172** within the activation loop of the AMPK α-subunit, increasing AMPK activity by >100-fold.
-3. **Downstream Effects**: Activated AMPK phosphorylates a broad network of substrates including [[ULK1]], [[TSC2]], [[Raptor]], [[PFKFB3]], and [[PGC-1α]], switching cells from anabolic (ATP-consuming) to catabolic (ATP-producing) metabolism.
+3. **Downstream Effects**: Activated AMPK phosphorylates a broad network of substrates including [[ULK1]], [[TSC2]], [[Raptor]], [[PFKFB3]], and [[PGC1-α]], switching cells from anabolic (ATP-consuming) to catabolic (ATP-producing) metabolism.
 
 LKB1 also phosphorylates and activates 12 other AMPK-related kinases (ARKs), including [[NUAK1]]/[[NUAK2]], [[SIK1]]-[[SIK3]], [[BRSK1]]/[[BRSK2]], [[QSK]]/[[MARK1]]-[[MARK4]], and [[SNRK]], which regulate cell polarity, neuronal development, and gene expression.
 

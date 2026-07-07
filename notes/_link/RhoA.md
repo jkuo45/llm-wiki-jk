@@ -1,11 +1,14 @@
 ---
 type: entity
-category: protein
-aliases: ["Ras Homolog Family Member A"]
+title: RhoA
+description: '**Overview:** RhoA is a cellular protein with structural, signaling,
+  or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
+  and signaling networks that govern cell...'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Protein
+aliases: [Ras Homolog Family Member A]
 ---
-
 # RhoA
 
 **Overview:** RhoA is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern cell behavior.
@@ -15,3 +18,11 @@ updated: 2026-07-04
 **Cellular function:** RhoA plays a role in signal transduction, gene expression regulation, cytoskeletal organization, or metabolic control. Its localization and activity are dynamically regulated in response to cellular cues.
 
 **Pathological significance:** Altered expression or mutation of RhoA is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
+
+### Connections
+- [[RhoA]] — related entity
+
+### Linking Summary
+- New links added: [[RhoA]]
+- Strong connections to strengthen: [[RhoA]] ↔ [[RhoA]]
+

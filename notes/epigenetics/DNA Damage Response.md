@@ -1,11 +1,13 @@
 ---
 type: entity
-category: biological_process
-entity_type: "Biological Process"
+title: DNA Damage Response
+description: The **DNA Damage Response (DDR)** is a coordinated signaling network
+  that detects, signals, and repairs DNA lesions to maintain Genomic Instability.
+  It integrates sensor proteins, transducer kinase...
 created: 2024-01-01
 updated: 2024-07-04
+entity_type_1: Biological Process
 ---
-
 # DNA Damage Response
 
 The **DNA Damage Response (DDR)** is a coordinated signaling network that detects, signals, and repairs DNA lesions to maintain [[Genomic Instability|genomic stability]]. It integrates sensor proteins, transducer kinases, and effector pathways to enforce cell cycle checkpoints, activate [[DNA Repair|DNA repair mechanisms]], and — when damage is excessive — trigger [[Apoptosis|apoptosis]] or [[Cellular Senescence|senescence]].
@@ -18,7 +20,7 @@ The DDR operates through three hierarchical tiers:
 
 **2. Transducers:** The apical kinases [[ATM]], [[ATR]], and [[DNA-PKcs]] amplify the damage signal through phosphorylation cascades. ATM responds primarily to double-strand breaks, ATR to replication stress and ssDNA, and DNA-PKcs to DSBs in the context of [[Non-Homologous End Joining|NHEJ]].
 
-**3. Effectors:** [[CHK1]] and [[CHK2]] kinases relay the signal to [[p53]], [[CDC25 phosphatases]], and [[WEE1]], enforcing cell cycle arrest at [[G1 Phase|G1/S]], intra-S, and [[G2/M]] checkpoints.
+**3. Effectors:** [[CHK1]] and [[CHK2]] kinases relay the signal to [[p53]], [[CDC25 phosphatases]], and [[WEE1]], enforcing cell cycle arrest at [[G1 Phase|G1/S]], intra-S, and G2/M checkpoints.
 
 ## Chromatin and Epigenetic Dimensions
 
@@ -44,5 +46,5 @@ Persistent DDR signaling is a hallmark of [[Cellular Senescence]]. Three feature
 
 ### Linking Summary:
 - New links added: [[DNA Damage]], [[Senescence]], [[DNA Repair]], [[ATM]], [[ATR]], [[p53]], [[Apoptosis]], [[SASP]], [[Genomic Instability]]
-- Suggested new entity notes to create: [[γH2AX]], [[MRN complex]], [[CHK1]], [[CHK2]], [[DNA-SCARS]]
+- Suggested new entity notes to create: [[γ-H2AX]], [[MRN complex]], [[CHK1]], [[CHK2]], [[DNA-SCARS]]
 - Strong connections to strengthen: [[DNA Damage Response]] ↔ [[Senescence]], [[DNA Damage Response]] ↔ [[DNA Damage]]

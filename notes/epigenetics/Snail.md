@@ -1,9 +1,11 @@
 ---
 type: entity
-category: other
-entity_type: "NA"
+title: Snail
+description: A transcription factor (SNAI1) that is a key inducer of the epithelial-to-mesenchymal
+  transition (EMT).
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: NA
 ---
 # Snail
 

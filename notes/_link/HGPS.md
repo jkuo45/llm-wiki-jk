@@ -1,11 +1,14 @@
 ---
 type: entity
-category: medical condition
-aliases: ["Hutchinson-Gilford Progeria Syndrome", "Progeria"]
+title: HGPS
+description: '**Etiology and pathophysiology:** HGPS is a medical condition characterized
+  by specific pathological changes in cellular, tissue, or organ function. Its development
+  involves genetic, environmental,...'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Medical Condition
+aliases: [Hutchinson-Gilford Progeria Syndrome, Progeria]
 ---
-
 # HGPS
 
 **Etiology and pathophysiology:** HGPS is a medical condition characterized by specific pathological changes in cellular, tissue, or organ function. Its development involves genetic, environmental, and lifestyle risk factors.
@@ -15,3 +18,11 @@ updated: 2026-07-04
 **Disease mechanisms:** The pathogenesis of HGPS involves dysregulated signaling pathways, cellular dysfunction, and tissue damage. Molecular mechanisms include inflammation, oxidative stress, and metabolic dysregulation.
 
 **Therapeutic strategies:** Management of HGPS includes pharmacological interventions, lifestyle modifications, and supportive care. Emerging therapies target specific molecular pathways involved in disease progression.
+
+### Connections
+- [[HGPS]] — related entity
+
+### Linking Summary
+- New links added: [[HGPS]]
+- Strong connections to strengthen: [[HGPS]] ↔ [[HGPS]]
+

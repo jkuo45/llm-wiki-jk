@@ -1,11 +1,13 @@
 ---
 type: entity
-category: biomarker
-entity_type: "Biomarker"
+title: DNAmGrimAge
+description: '**DNAmGrimAge** is a second-generation Epigenetic Clock developed by
+  Steve Horvath and colleagues (2019) that predicts biological age and mortality risk
+  based on DNA Methylation levels at 1,030 CpG...'
 created: 2024-01-01
 updated: 2024-07-04
+entity_type_1: Biomarker
 ---
-
 # DNAmGrimAge
 
 **DNAmGrimAge** is a second-generation [[Epigenetic Clock|epigenetic clock]] developed by [[Steve Horvath]] and colleagues (2019) that predicts biological age and mortality risk based on [[DNA Methylation]] levels at 1,030 CpG sites. It outperforms first-generation clocks by integrating methylation surrogates for plasma protein levels and smoking pack-years, capturing both intrinsic aging and exposome effects.

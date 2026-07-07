@@ -1,28 +1,20 @@
 ---
 type: entity
-category: biological process
+title: Tumor Microenvironment
+description: The Tumor Microenvironment (TME) refers to the complex, heterogeneous
+  cellular and non-cellular milieu surrounding and infiltrating a tumor mass. It profoundly
+  influences tumor growth, invasion, me...
+created: 2026-07-03
+updated: 2026-07-03
+entity_type_1: Biological Process
 aliases:
   - Tumor Microenvironment
   - TME
   - Cancer Microenvironment
-database_ids:
-  mesh: D059016
-relations:
-  - predicate: contains
-    target: "CD38"
-    sources: []
-  - predicate: associated_with
-    target: "Cancer"
-    sources: []
-  - predicate: modulated_by
-    target: "Daratumumab"
-    sources: []
-  - predicate: modulated_by
-    target: "Isatuximab"
-    sources: []
-created: 2026-07-03
-updated: 2026-07-03
 ---
+
+
+
 
 # Tumor Microenvironment
 

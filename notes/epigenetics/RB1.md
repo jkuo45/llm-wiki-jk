@@ -1,9 +1,10 @@
 ---
 type: entity
-category: gene
-entity_type: "Gene"
+title: RB1
+description: '- New links added: Retinoblastoma Protein, Quiescence, Cancer'
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: Gene
 ---
 # RB1
 

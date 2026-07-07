@@ -1,9 +1,11 @@
 ---
 type: entity
-category: other
-entity_type: "NA"
+title: Gastrulation
+description: A phase in embryonic development during which the single-layered blastula
+  is reorganized into a multilayered structure known as the gastrula.
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: NA
 ---
 # Gastrulation
 

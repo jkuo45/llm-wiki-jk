@@ -1,11 +1,12 @@
 ---
 type: entity
-category: biological_process
-aliases: []
+title: Neuronophagia
+description: In Parkinson's Disease, neuronophagia is a clear indicator of an active
+  and ongoing neurodegenerative process.
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Biological Process
 ---
-
 # Neuronophagia
 
 [[Neuronophagia]] is a pathological process in which activated [[Microgliosis|microglia]] or macrophages surround and ingest a degenerating neuron or its debris.

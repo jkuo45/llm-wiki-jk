@@ -1,17 +1,15 @@
 ---
 type: entity
-category: chemical_class
-aliases:
-  - "RNS"
-  - "nitrogen free radicals"
-tags:
-  - "oxidative_stress"
-  - "nitric_oxide"
-  - "nitrative_stress"
+title: Reactive Nitrogen Species
+description: Reactive Nitrogen Species (RNS) are a family of antimicrobial molecules
+  derived from Nitric Oxide (•NO) and superoxide (O2•−) produced via the enzymatic
+  activity of inducible Nitric Oxide Synthase ...
 created: 2026-05-09
 updated: 2026-07-04
+entity_type_1: Chemical Class
+aliases: [RNS, nitrogen free radicals]
+tags: [oxidative_stress, nitric_oxide, nitrative_stress]
 ---
-
 # Reactive Nitrogen Species
 
 ## Definition
@@ -53,7 +51,7 @@ When RNS production exceeds the detoxification capacity of endogenous scavengers
 
 - **[[Cardiovascular Disease]]**: eNOS uncoupling (loss of eNOS activity due to BH₄ deficiency or oxidation) converts eNOS from an NO• producer to a superoxide producer, shifting its output toward peroxynitrite and contributing to [[Endothelial Dysfunction]]. 3-Nitrotyrosine levels in plasma and vascular tissue correlate with [[Atherosclerosis]] burden and predict [[Major Adverse Cardiovascular Events]].
 - **[[Neurodegenerative Diseases]]**: Protein nitration is a consistent feature of [[Parkinson's Disease]] (nitrated [[Alpha-synuclein]] in Lewy bodies), [[Alzheimer's Disease]] (nitrated [[Tau]] and amyloid-β), and [[Amyotrophic Lateral Sclerosis]] (nitrated TDP-43 and neurofilament proteins). RNS-mediated [[Mitochondrial Dysfunction]] in [[Dopaminergic Neurons]] is mechanistically linked to [[Parkinson's Disease]].
-- **[[Diabetes Mellitus]]**: iNOS and NOX2 are upregulated in pancreatic islets of type 1 diabetes, and peroxynitrite-mediated damage contributes to β-cell destruction. In type 2 diabetes, RNS impair insulin signaling through [[IRS-1]] nitration and [[Protein Tyrosine Phosphatase 1B]] (PTP1B) oxidation.
+- **[[Diabetes Mellitus]]**: iNOS and NOX2 are upregulated in pancreatic islets of type 1 diabetes, and peroxynitrite-mediated damage contributes to β-cell destruction. In type 2 diabetes, RNS impair insulin signaling through [[IRS1]] nitration and [[Protein Tyrosine Phosphatase 1B]] (PTP1B) oxidation.
 - **[[Cancer]]**: Chronic inflammation-driven RNS production promotes mutagenesis (8-nitroguanine formation, G→T transversions), activation of pro-survival signaling ([[NFKB]], [[STAT3]]), and inhibition of [[DNA Repair]] enzymes (through S-nitrosylation of [[OGG1]] and [[APE1]]). RNS can also promote tumor [[Angiogenesis]] through stabilization of [[HIF-1α]].
 - **[[Rheumatoid Arthritis]]**: Elevated 3-nitrotyrosine in synovial fluid and tissues correlates with disease activity and joint destruction.
 - **[[Septic Shock]]**: Excessive iNOS-derived NO• causes profound vasodilation and hypotension refractory to vasopressors, with peroxynitrite contributing to myocardial depression and [[Mitochondrial Dysfunction]].

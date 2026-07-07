@@ -1,11 +1,11 @@
 ---
 type: entity
-category: toxin
-aliases: []
+title: MPTP
+description: MPTP is lipid-soluble and can cross the blood-brain barrier.
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Toxin
 ---
-
 # MPTP
 
 [[MPTP]] (1-methyl-4-phenyl-1,2,3,6-tetrahydropyridine) is a prodrug to the neurotoxin MPP+, which causes permanent symptoms of [[Parkinson's Disease]] by destroying dopaminergic neurons in the [[Substantia Nigra Pars Compacta]].

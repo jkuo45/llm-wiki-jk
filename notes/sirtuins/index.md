@@ -1,9 +1,10 @@
 ---
-description: index of entities and documents in this directory
-updated: 2026-07-04
 type: index
+title: Sirtuins
+description: index of entities and documents in this directory
+created: 2026-07-06
+updated: 2026-07-04
 ---
-
 # Sirtuins
 
 ## Documents
@@ -85,9 +86,9 @@ type: index
 
 | Entity | entity_type_1 | Description |
 |--------|--------------|-------------|
-| [[PGC-1α]] | Protein | Master regulator of mitochondrial biogenesis; deacetylated/activated by SIRT1; neuroprotective |
+| [[PGC1-α]] | Protein | Master regulator of mitochondrial biogenesis; deacetylated/activated by SIRT1; neuroprotective |
 | [[p53]] | Protein | Tumour suppressor; deacetylated by SIRT1; SIRT1–HIC1–p53 feedback loop |
-| [[FOXO1]] | Protein | Forkhead transcription factor; SIRT1 deacetylation regulates adiponectin, β-cell survival |
+| [[FoxO1]] | Protein | Forkhead transcription factor; SIRT1 deacetylation regulates adiponectin, β-cell survival |
 | [[FOXO3a]] | Protein | Forkhead transcription factor; SIRT1 deacetylation shifts output from apoptosis to stress survival |
 | [[FOXO4]] | Protein | Forkhead transcription factor; deacetylated by SIRT1 to enhance antioxidant defense via GADD45 |
 | [[DAF-16]] | Protein | Nematode FOXO orthologue required for sirtuin-mediated lifespan extension |

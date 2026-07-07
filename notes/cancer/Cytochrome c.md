@@ -1,3 +1,13 @@
+---
+type: entity
+title: Cytochrome c
+description: '**Cytochrome c** is a small heme protein found loosely associated with
+  the inner membrane of the mitochondria. While its primary role is in the electron
+  transport chain, it is a crucial component o...'
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Enzyme
+---
 # Cytochrome c
 
 **Cytochrome c** is a small heme protein found loosely associated with the inner membrane of the mitochondria. While its primary role is in the electron transport chain, it is a crucial component of the [[Intrinsic Pathway]] of [[Apoptosis]].

@@ -1,3 +1,11 @@
+---
+type: entity
+title: Ovarian Cancer
+description: '**Ovarian cancer** is a type of cancer that begins in the ovaries.'
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Medical Condition
+---
 # Ovarian Cancer
 
 **Ovarian cancer** is a type of cancer that begins in the ovaries.

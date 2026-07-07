@@ -1,9 +1,11 @@
 ---
 type: entity
-category: other
-entity_type: "NA"
+title: Zeb1
+description: A transcription factor that promotes epithelial-to-mesenchymal transition
+  and is often associated with cancer progression.
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: NA
 ---
 # Zeb1
 

@@ -1,11 +1,11 @@
 ---
 type: entity
-category: Chemical Compound
-aliases: []
+title: Nitrobenzene
+description: '- Methemoglobinemia: A primary symptom of nitrobenzene poisoning.'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Chemical Compound
 ---
-
 # Nitrobenzene
 
 [[Nitrobenzene]] is an organic compound used in the production of aniline. It is highly toxic and can cause acquired [[Methemoglobinemia]] through skin absorption or inhalation.

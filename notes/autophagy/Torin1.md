@@ -1,8 +1,11 @@
 ---
-category: Chemical Compound
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: Torin1
+description: Torin1 is a potent inhibitor of mTORC1 and mTORC2 that induces the nuclear
+  translocation of TFEB by blocking its inhibitory phosphorylation.
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Chemical Compound
 ---
 # Torin1
 

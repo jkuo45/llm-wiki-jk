@@ -1,11 +1,12 @@
 ---
 type: entity
-category: chemical
-aliases: []
+title: Creatine
+description: '**Creatine** is a naturally occurring compound that is primarily stored
+  in the muscles and used for energy production.'
 created: 2026-05-25
 updated: 2026-07-04
+entity_type_1: Chemical Compound
 ---
-
 # Creatine
 
 **[[Creatine]]** is a naturally occurring compound that is primarily stored in the muscles and used for energy production.

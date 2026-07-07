@@ -1,11 +1,13 @@
 ---
 type: entity
-category: cell type
-aliases: ["T Cell"]
+title: T Lymphocyte
+description: '**Overview:** T Lymphocyte is a specialized cellular or anatomical structure
+  with defined functions in tissue organization and physiology.'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Cell Type
+aliases: [T Cell]
 ---
-
 # T Lymphocyte
 
 **Overview:** T Lymphocyte is a specialized cellular or anatomical structure with defined functions in tissue organization and physiology.
@@ -15,3 +17,11 @@ updated: 2026-07-04
 **Physiological function:** T Lymphocyte contributes to tissue homeostasis through specific mechanical, secretory, signaling, or barrier functions. Its activity is integrated with surrounding cells and systems.
 
 **Pathological relevance:** Dysfunction or loss of T Lymphocyte underlies specific disease states. Understanding its biology provides insights into regenerative medicine and therapeutic targeting.
+
+### Connections
+- [[T Lymphocyte]] — related entity
+
+### Linking Summary
+- New links added: [[T Lymphocyte]]
+- Strong connections to strengthen: [[T Lymphocyte]] ↔ [[T Lymphocyte]]
+

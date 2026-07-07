@@ -1,8 +1,11 @@
 ---
-category: Protein
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: Atg5
+description: '**Atg5** (Autophagy-related 5) is a protein essential for the initiation
+  of Autophagy.'
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Protein
 ---
 # Atg5
 

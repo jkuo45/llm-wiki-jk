@@ -1,29 +1,20 @@
 ---
 type: entity
-category: protein
+title: Adiponectin
+description: Adiponectin (encoded by the ADIPOQ gene; also known as Acrp30) is an
+  adipocyte-derived hormone (adipokine) secreted primarily by white adipose tissue.
+  It plays an essential role in regulating gluco...
+created: 2026-07-03
+updated: 2026-07-03
+entity_type_1: Protein
 aliases:
   - Adiponectin
   - ADIPOQ
   - Acrp30
-database_ids:
-  uniprot: Q15848
-  hgnc: HGNC:13633
-relations:
-  - predicate: regulated_by
-    target: "SIRT1"
-    sources:
-      - PMID:17090532
-  - predicate: regulated_by
-    target: "FOXO1"
-    sources:
-      - PMID:17090532
-  - predicate: regulated_by
-    target: "notes/_link/Caloric Restriction"
-    sources:
-      - PMID:17236764
-created: 2026-07-03
-updated: 2026-07-03
 ---
+
+
+
 
 # Adiponectin
 

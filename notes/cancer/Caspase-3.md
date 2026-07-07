@@ -1,19 +1,18 @@
 ---
 type: entity
-category: protein
-aliases:
-  - CASP3
-  - CPP32
-  - Apopain
-  - Yama
-database_ids:
-  uniprot: P42574
-  hgnc: HGNC:1504
-  mesh: D020169
+title: Caspase-3
+description: '**Caspase-3** is a protease enzyme that plays a central role in the
+  execution-phase of cell Apoptosis. It is the primary executioner caspase, responsible
+  for cleaving a wide array of cellular subst...'
 created: 2026-07-04
 updated: 2026-07-05
+entity_type_1: Protein
+aliases: [CASP3, CPP32, Apopain, Yama]
+database_ids:
+  mesh: D020169
+  uniprot: P42574
+  hgnc: HGNC:1504
 ---
-
 # Caspase-3
 
 **Caspase-3** is a protease enzyme that plays a central role in the execution-phase of cell [[Apoptosis|apoptosis]]. It is the primary executioner caspase, responsible for cleaving a wide array of cellular substrates that orchestrate apoptotic cell death — including structural proteins ([[Lamins]], [[Actin]]), DNA repair enzymes ([[PARP1]], [[DNA-PKcs]]), and inhibitors of nucleases ([[ICAD]]/[[DFF45]]).
@@ -24,7 +23,7 @@ Caspase-3 is synthesised as a 32 kDa inactive zymogen (pro-caspase-3) containing
 
 ## Extrinsic vs. Intrinsic Pathway Activation
 
-- **Extrinsic (Death Receptor) Pathway**: Ligand binding to death receptors ([[Fas]], [[TNF-R1]], [[TRAIL-R1/R2]]) recruits [[FADD]] and [[Pro-caspase-8]] to form the [[DISC]] (Death-Inducing Signalling Complex), leading to Caspase-8 activation and direct Caspase-3 cleavage.
+- **Extrinsic (Death Receptor) Pathway**: Ligand binding to death receptors ([[Fas]], [[TNFR1]], [[TRAIL-R1/R2]]) recruits [[FADD]] and [[Pro-caspase-8]] to form the [[DISC]] (Death-Inducing Signalling Complex), leading to Caspase-8 activation and direct Caspase-3 cleavage.
 - **Intrinsic (Mitochondrial) Pathway**: [[Cytochrome c]] release from mitochondria triggers [[Apoptosome]] formation, activating [[Caspase-9]], which then cleaves and activates Caspase-3.
 
 ## Substrates and Execution
@@ -49,7 +48,7 @@ Caspase-3 activity is modulated by post-translational modifications:
 
 - **Apoptosis Marker**: Detection of cleaved caspase-3 by immunohistochemistry or western blot is the gold standard marker for apoptosis in cancer research and drug development.
 - **Therapeutic Induction**: Many chemotherapeutic agents (including [[Cisplatin]], [[Taxol]], [[Doxorubicin]]) ultimately kill cancer cells through Caspase-3-dependent apoptosis.
-- **Melittin Study**: [[Melittin]] treatment has been shown to induce cleaved caspase-3 in [[triple-negative breast cancer]] cells.
+- **Melittin Study**: [[melittin]] treatment has been shown to induce cleaved caspase-3 in [[triple-negative breast cancer]] cells.
 
 ## Connections
 
@@ -62,6 +61,6 @@ Caspase-3 activity is modulated by post-translational modifications:
 
 ## Linking Summary
 
-- New links added: [[p38 MAPK]], [[PP2A]], [[Phosphorylation]], [[PARP1]], [[Caspase-9]], [[Caspase-8]], [[XIAP]], [[Melittin]]
+- New links added: [[p38 MAPK]], [[PP2A]], [[Phosphorylation]], [[PARP1]], [[Caspase-9]], [[Caspase-8]], [[XIAP]], [[melittin]]
 - Suggested new entity notes to create: [[ICAD]], [[DFF45]], [[DISC (Death-Inducing Signalling Complex)]]
 - Strong connections to strengthen: [[Caspase-3]] ↔ [[PKCδ]], [[Caspase-3]] ↔ [[p38 MAPK]], [[Caspase-3]] ↔ [[PARP1]]

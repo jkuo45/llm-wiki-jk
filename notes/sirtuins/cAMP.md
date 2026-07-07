@@ -1,23 +1,16 @@
 ---
 type: entity
-category: chemical
+title: cAMP (Cyclic Adenosine Monophosphate)
+description: Cyclic Adenosine Monophosphate (cAMP) is a vital hydrophilic intracellular
+  second messenger that plays a central role in transducing extracellular signals
+  (such as hormones and neurotransmitters) i...
+created: 2026-07-03
+updated: 2026-07-06
+entity_type_1: Chemical Compound
 aliases: [cyclic adenosine monophosphate, cyclic AMP, adenosine 3',5'-cyclic monophosphate]
-database_ids:
-  pubchem: 60961
-  chebi: 17489
-  mesh: D000242
-relations:
-  - predicate: activates
-    target: "AMPK"
-    sources: [doi:10.1016/j.cmet.2012.01.003]
-    created: 2026-07-03
-    updated: 2026-07-03
-  - predicate: associated_with
-    target: "SIRT1"
-    sources: [doi:10.1016/j.cmet.2012.01.003]
-    created: 2026-07-03
-    updated: 2026-07-03
 ---
+
+
 
 # cAMP (Cyclic Adenosine Monophosphate)
 

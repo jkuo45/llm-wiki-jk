@@ -1,17 +1,15 @@
 ---
 type: entity
-category: scientific_concept
-aliases:
-  - "MedDiet"
-tags:
-  - "sirtuins"
-  - "resveratrol"
-  - "nutrition"
-  - "longevity"
+title: Mediterranean Diet
+description: The **Mediterranean Diet** is a dietary pattern based on traditional
+  eating habits of populations bordering the Mediterranean Sea, particularly Greece,
+  Southern Italy, and Spain. It has been extens...
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Scientific Concept
+aliases: [MedDiet]
+tags: [sirtuins, resveratrol, nutrition, longevity]
 ---
-
 # Mediterranean Diet
 
 The **Mediterranean Diet** is a dietary pattern based on traditional eating habits of populations bordering the Mediterranean Sea, particularly Greece, Southern Italy, and Spain. It has been extensively studied for its association with reduced [[Cardiovascular Disease]] risk, improved [[Longevity]], and lower [[Inflammation|inflammatory]] burden.

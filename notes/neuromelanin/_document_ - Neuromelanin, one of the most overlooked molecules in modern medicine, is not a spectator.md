@@ -1,15 +1,21 @@
 ---
-title: "Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator"
-source: "https://pmc.ncbi.nlm.nih.gov/articles/PMC5399705/"
+type: document
+title: Neuromelanin, one of the most overlooked molecules in modern medicine, is not
+  a spectator
+source: https://pmc.ncbi.nlm.nih.gov/articles/PMC5399705/
 author:
-  - "Robert L Haining"
-  - "Cindy Achat-Mendes"
+- Robert L Haining
+- Cindy Achat-Mendes
 published: 2017
 created: 2026-06-11
-description: "The loss of pigmented neurons from the human brain has long been the hallmark of Parkinson's disease (PD). Neuromelanin (NM) in the pre-synaptic terminal of dopamine neurons is emerging as a primary player in the etiology of neurodegenerative ..."
+description: The loss of pigmented neurons from the human brain has long been the
+  hallmark of Parkinson's disease (PD). Neuromelanin (NM) in the pre-synaptic terminal
+  of dopamine neurons is emerging as a primary player in the etiology of neurodegenerative
+  ...
 tags:
   - "clippings"
 ---
+
 ## Abstract
 
 The loss of pigmented neurons from the human brain has long been the hallmark of [[Parkinson's Disease]] (PD). [[Neuromelanin]] (NM) in the pre-synaptic terminal of [[Dopamine]] neurons is emerging as a primary player in the etiology of [[Neurodegenerative Diseases]] including PD. This mini-review discusses the interactions between [[Neuromelanin]] and different molecules in the synaptic terminal and describes how these interactions might affect [[Neurodegenerative Diseases]] including PD. [[Neuromelanin]] can reversibly bind and interact with amine containing neurotoxins, *e.g.*, [[MPTP]], to augment their actions in the terminal, eventually leading to the instability and degeneration of melanin-containing neurons due to [[Oxidative Stress]] and [[Mitochondrial Dysfunction]]. In particular, [[Neuromelanin]] appears to confer susceptibility to chemical toxicity by providing a large sink of [[Iron]]-bound, heme-like structures in a pi-conjugated system, a system seemingly purposed to allow for stabilizing interactions including pi-stacking as well as ligand binding to [[Iron]]. Given the progressive accumulation of NM with age corresponding with an apparent decrease in [[Dopamine]] synthetic pathways, the immediate question of whether NM is also capable of binding [[Dopamine]], the primary functional monoamine utilized in this cell, should be raised. Despite the rather glaring implications of this finding, this idea appears not to have been adequately addressed. As such, we postulate on potential mechanisms by which [[Dopamine]] might dissociate from [[Neuromelanin]] and the implications of such a reversible relationship. Intriguingly, if [[Neuromelanin]] is able to sequester and release [[Dopamine]] in membrane bound vesicles, this intracellular pre-synaptic mechanism could be the basis for a form of [[Chemical memory]] in [[Dopamine]] neurons.

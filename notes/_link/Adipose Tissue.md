@@ -1,11 +1,13 @@
 ---
 type: entity
-category: anatomy
-aliases: ["Fat"]
+title: Adipose Tissue
+description: '**Overview:** Adipose Tissue is a specialized cellular or anatomical
+  structure with defined functions in tissue organization and physiology.'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Anatomy
+aliases: [Fat]
 ---
-
 # Adipose Tissue
 
 **Overview:** Adipose Tissue is a specialized cellular or anatomical structure with defined functions in tissue organization and physiology.
@@ -15,3 +17,11 @@ updated: 2026-07-04
 **Physiological function:** Adipose Tissue contributes to tissue homeostasis through specific mechanical, secretory, signaling, or barrier functions. Its activity is integrated with surrounding cells and systems.
 
 **Pathological relevance:** Dysfunction or loss of Adipose Tissue underlies specific disease states. Understanding its biology provides insights into regenerative medicine and therapeutic targeting.
+
+### Connections
+- [[Adipose Tissue]] — related entity
+
+### Linking Summary
+- New links added: [[Adipose Tissue]]
+- Strong connections to strengthen: [[Adipose Tissue]] ↔ [[Adipose Tissue]]
+

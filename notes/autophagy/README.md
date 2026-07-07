@@ -1,3 +1,10 @@
+---
+type: index
+title: Autophagy notes
+description: Index of wiki notes for autophagy
+created: 2026-07-06
+updated: 2026-07-06
+---
 # Autophagy
 
 This directory contains notes and research regarding [[Autophagy]], its molecular machinery (including [[Autophagosome]] formation, [[ATG]] proteins, [[Beclin1]], [[LC3]], and [[ULK1]]), different types ([[Macroautophagy]], [[Mitophagy]], [[Chaperone-Mediated Autophagy]]), regulation by [[mTOR]], [[AMPK]], and [[SIRT1]], and its dual roles in cellular homeostasis, quality control, and stress adaptation. Special focus is placed on its involvement in [[Aging]], [[Cancer]], [[Neurodegenerative Diseases|Neurodegenerative Disease]] ([[Alzheimer's Disease]], [[Parkinson's Disease]], [[Huntington's Disease]]), immune regulation, and interventions such as [[Rapamycin]], [[Spermidine]], [[Caloric Restriction]], and [[Intermittent Fasting]].
@@ -73,7 +80,7 @@ This directory contains notes and research regarding [[Autophagy]], its molecula
 | [[FNIP2]]                                     | 09_Jun_2026 10:15 AM PDT | Protein                  |         8          |      0      | Folliculin-interacting protein regulating TFE3. |
 | [[Folliculin]]                                | 09_Jun_2026 10:15 AM PDT | Protein                  |         9          |     -1      | Rag GEF that regulates mTORC1 and lysosome positioning. |
 | [[FOXO]]                          | 09_Jun_2026 10:15 AM PDT | Protein Class            |         8          |      1      | Transcription factor family regulating autophagy. |
-| [[FOXO1]]                                     | 09_Jun_2026 10:15 AM PDT | Protein                  |         8          |      1      | Transcription factor that induces expression of multiple ATG genes. |
+| [[FoxO1]]                                     | 09_Jun_2026 10:15 AM PDT | Protein                  |         8          |      1      | Transcription factor that induces expression of multiple ATG genes. |
 | [[FOXO3a]]                                    | 09_Jun_2026 10:15 AM PDT | Protein                  |         8          |      1      | Key regulator of autophagic gene expression in muscle and neurons. |
 | [[FOXO4]]                                     | 09_Jun_2026 10:15 AM PDT | Protein                  |         7          |      1      | Involved in senescence and autophagic regulation during aging. |
 | [[Foxp3]]                                     | 09_Jun_2026 10:15 AM PDT | Protein                  |         6          |      1      | Master regulator of Treg cells; autophagy supports Treg stability. |
@@ -100,7 +107,7 @@ This directory contains notes and research regarding [[Autophagy]], its molecula
 | [[Melanoma]]                                  | 09_Jun_2026 10:15 AM PDT | Medical Condition        |         5          |     -1      | Cancer type where autophagy can be hijacked for survival. |
 | [[Microautophagy]]                            | 09_Jun_2026 10:15 AM PDT | Biological Process       |         8          |      1      | Direct engulfment of cytosolic material by the lysosome. |
 | [[MITF]]                                      | 09_Jun_2026 10:15 AM PDT | Protein                  |         9          |      1      | Member of MiTF/TFE family; regulates lysosome-related organelles. |
-| [[MiTF-TFE family]]                           | 09_Jun_2026 10:15 AM PDT | Protein Family           |         9          |      1      | Master regulators of lysosomal biogenesis. |
+| [[MiTF TFE family]]                           | 09_Jun_2026 10:15 AM PDT | Protein Family           |         9          |      1      | Master regulators of lysosomal biogenesis. |
 | [[Mitochondrial Complex I]]                   | 09_Jun_2026 10:15 AM PDT | Protein                  |         6          |     -1      | Organelles frequently targeted for autophagic degradation (mitophagy). |
 | [[mLST8]]                                     | 09_Jun_2026 10:15 AM PDT | Protein                  |         9          |     -1      | Component of mTOR complexes that supports mTORC1 signaling. |
 | [[mSIN1]]                                     | 09_Jun_2026 10:15 AM PDT | Protein                  |         8          |     -1      | Component of mTORC2 complex. |

@@ -1,11 +1,13 @@
 ---
 type: entity
-category: chemical_compound
-aliases: []
+title: L-DOPA
+description: In the brain, L-DOPA is synthesized from the amino acid tyrosine by the
+  enzyme Tyrosine Hydroxylase. It is then converted into Dopamine by the enzyme aromatic
+  L-amino acid decarboxylase.
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Chemical Compound
 ---
-
 # L-DOPA
 
 [[L-DOPA]] (L-dihydroxyphenylalanine) is a naturally occurring amino acid and the immediate precursor to the neurotransmitter [[Dopamine]].

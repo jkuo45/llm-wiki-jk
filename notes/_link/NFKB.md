@@ -1,6 +1,12 @@
 ---
 type: entity
-category: protein
+title: NF-κB (Nuclear Factor Kappa B)
+description: NF-κB (Nuclear Factor kappa-light-chain-enhancer of activated B cells)
+  is a highly conserved pleiotropic transcription factor family that serves as the
+  central orchestrator of inflammatory signalin...
+created: 2026-07-03
+updated: 2026-07-03
+entity_type_1: Protein
 aliases:
   - NF-κB
   - Nuclear Factor kappa B
@@ -31,9 +37,10 @@ relations:
     target: "SIRT7"
     sources:
       - Sirtuins in Health and Disease 2022
-created: 2026-07-03
-updated: 2026-07-03
 ---
+
+
+
 
 # NF-κB (Nuclear Factor Kappa B)
 

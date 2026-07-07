@@ -4,7 +4,7 @@
 
 - Project timestamp format %d\_%B\_%Y %I:%M %p %Z (uppercase)
   - Note: frontmatter dates use YYYY-MM-DD format; the timestamp format above is for README display, task outputs, and file naming only
-- Documents start with '[document]', '\_article\_', or '\_document\_' in the file name.
+- Documents contain '\_document\_' prefix in the file name.
   - Depending on task, they may or may not be included in context, counts.
 - 'notes' directory:
   - Directory name represents the topic.
@@ -23,7 +23,7 @@
 
 ## Single Document Ingestion Workflow
 
-**Prerequisites:** Document in `raw/` with `[document]`, `_article_`, or `_document_` prefix.
+**Prerequisites:** Document in `raw/` with `_document_` prefix.
 
 **Agent Skills Used:**
 
@@ -117,27 +117,39 @@ When creating or updating a note, include the following frontmatter block. Refer
 Frontmatter:
 
 - **Date format**: frontmatter `created:` / `updated:` must use `YYYY-MM-DD`, _not_ the project display format (`DD_MMMM_YYYY`).
-- **Quoting**: Prefer unquoted scalar values (`category: enzyme`, not `category: "enzyme"`). Use quotes only when required (e.g., values containing colons or special characters).
+- **Quoting**: Prefer unquoted scalar values (`entity_type_1: Enzyme`, not `entity_type_1: "Enzyme"`). Use quotes only when required (e.g., values containing colons or special characters).
 - **Duplicate YAML keys**: No key should appear twice at the same indentation level.
 - **No wiki links in frontmatter**: Frontmatter values must be plain text only. Never use `[[Wiki Link]]` or `[[Link|Display]]` syntax inside YAML fields. Obsidian does not render wiki links in frontmatter, and they leak into non-body context.
 
 ---
 
-type: entity # [entity | document]
-category: # [gene | protein | enzyme | disease | chemical | pathway | method]
-aliases: [] # Alternative names, abbreviations, acronyms
-database_ids: # If applicable
-mesh: # Medical Subject Headings ID if available (e.g., D008164)
-uniprot: # UniProt ID for proteins (e.g., P04637)
-hgnc: # HGNC ID for genes (e.g., HGNC:11998)
-chebi: # ChEBI ID for chemicals/compounds
+**Entity frontmatter**
+
+type: entity # [entity | document | index]
+title: # Name of entity, index of topic, name of document, etc.
+description: # Short description (if chat thread, summarize)
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
-relations: # If applicable
+entity_type_1: # Refer to entity_type_1 schema
+url: #
+source: #
+aliases: [] # Alternative names, abbreviations, acronyms
+tags: [] #
 
-- predicate: # [associated_with | inhibits | activates | regulates | treats | causes]
-  target: "[[Target Entity]]"
-  sources: [] # DOIs, PMIDs, or reference document names
+---
+
+**Document frontmatter** for `_document_`/`:
+
+---
+
+type: document
+title: # Full title of the source document, if chat thread rename
+source: # URL/DOI of the original source
+author: [] # List of authors
+published: YYYY-MM-DD # Original publication date
+created: YYYY-MM-DD # Date ingested into the vault
+description: # Short summary of the document, if chat thread summarize
+tags: [] #
 
 ---
 
@@ -162,18 +174,26 @@ relations: # If applicable
 
 Maintain link integrity by performing periodic audits:
 
+- **Priority Tiers**: Fix in order — (1) redirectable mismatches, (2) high-frequency true orphans (≥10 links), (3) note low-frequency orphans for future enrichment.
+
 - **Scan & Normalize**:
   - Identify wiki links `[[Link]]` without matching files.
   - **Case Sensitivity**: Prefer proper noun spelling (match the filename exactly).
   - Capitalize all wiki links to match the actual filename (e.g., `[[cisplatin]]` → `[[Cisplatin]]`, `[[apoptosis]]` → `[[Apoptosis]]`). Proper nouns in scientific terms should always use title/proper case as defined by the canonical file.
   - **Pluralization**: If `[[Concept]]` is missing but `[[Concepts]]` exists, update the link.
   - **Hyphen/Space Normalization**: Resolve format variants where a file exists with different hyphenation or spacing (e.g., `[[Caspase 9]]` → `[[Caspase-9]]`, `[[TNF-α]]` → `[[TNFα]]`, `[[IRS-1]]` → `[[IRS1]]`).
+  - **Unicode/Greek Character Normalization**: Replace Greek letters and Unicode modifier characters with their English-name equivalents (e.g., `[[IKKβ]]` → `[[IKKbeta]]`, `[[IκBα]]` → `[[IkappaBalpha]]`, `[[NAD⁺]]` → `[[NAD+]]`, `[[ERRα]]` → `[[ERRalpha]]`, `[[Ca²⁺]]` → `[[Calcium Ions]]`). Verify canonical filenames first.
+  - **Abbreviation Expansion**: Resolve common abbreviations where the full form has a canonical file (e.g., `[[OXPHOS]]` → `[[Oxidative Phosphorylation]]`, `[[PFC]]` → `[[Prefrontal Cortex]]`, `[[ER]]` → `[[Endoplasmic Reticulum]]`, `[[Smac]]` → `[[Smac DIABLO]]`). Verify there is no ambiguity before expanding.
+  - **Trailing Punctuation**: Strip trailing periods from abbreviation wiki link targets (e.g., `[[Merck & Co. Inc.]]` → `[[Merck & Co. Inc]]`) to match filenames that omit trailing periods. Handle piped display-text variants (`[[Merck & Co. Inc.|Merck]]`) in the same pass.
   - **Escaped Pipe Fix**: In table cells, `\|` escapes the pipe character. Strip the backslash from the link target so `[[Link\|Display]]` resolves as `[[Link|Display]]`.
   - **Triple-Bracket Errors**: Fix malformed links like `[[[rapamycin]]` → `[[Rapamycin]]` (remove the extra opening bracket).
-  - **Composite Entity Splitting**: Detect single wiki links bundling multiple distinct entities via `/`, `&`, or parenthetical groupings (e.g., `[[IIS (DAF-16/FOXO)]]`). Split into separate `[[Entity1]]`/`[[Entity2]]` links.
+  - **Composite Entity Splitting**: Detect single wiki links bundling multiple distinct entities via `/`, `&`, or parenthetical groupings (e.g., `[[IIS (DAF-16/FOXO)]]`). Split into separate `[[Entity1]]`/`[[Entity2]]` links. Keep as-single-linked cases where `/` denotes the same entity under alternative names (e.g., `[[p62/SQSTM1]]` → `[[p62]]`, `[[Smac/DIABLO]]` → `[[Smac DIABLO]]`). Handle piped display-text variants in the same pass.
 - **Resolve True Orphans**:
   - Create new Markdown files for missing concepts.
   - Use a standardized template: `# Title`, a short paragraph context, and a `Linking Summary`.
+  - **Threshold**: Only create entity notes for concepts with ≥10 vault-wide links (or as specified). Lower-frequency orphans should be noted but not created.
+  - **Context-Dependent Redirects**: Before creating a redirect, verify the redirected entity is semantically equivalent. For example, do NOT blindly redirect `[[TFE]]` → `[[TFEB]]` — TFE (transcription factor E subfamily) is not the same entity as TFEB (a specific family member). Prefer creating a new entity note over a semantically incorrect redirect.
+- **Verification**: After each pass, re-scan to confirm all fixable mismatches are resolved. The target state is 0 fixable mismatches and 0 true orphans above the frequency threshold.
 
 ## Overlapping Link Resolution (on user request):
 
@@ -235,7 +255,7 @@ Rules:
 
 ## Entity Type Schema:
 
-To maintain consistency, all entity notes should include an `entity_type` field. Suggest additional entity types if they do not exist. These values are intended for README.md and do not need to be included in entity wiki notes. Depending on topic/user preference, more values maybe added.
+To maintain consistency, all entity notes should include an `entity_type_1` field. Suggest additional entity types if they do not exist. These values are intended for README.md and do not need to be included in entity wiki notes. Depending on topic/user preference, more values maybe added.
 
 ### entity_type_1 schema:
 

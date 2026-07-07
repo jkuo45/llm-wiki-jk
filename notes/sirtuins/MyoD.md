@@ -1,27 +1,21 @@
 ---
 type: entity
-category: protein
+title: MyoD (Myogenic Differentiation Factor 1)
+description: MyoD (Myogenic Differentiation 1, also known as MYOD1) is a pioneer basic
+  helix-loop-helix (bHLH) transcription factor that serves as a master regulator of
+  skeletal muscle development (myogenesis)....
+created: 2026-07-03
+updated: 2026-07-03
+entity_type_1: Protein
 aliases:
   - MYOD1
   - Myogenic Differentiation 1
   - Myoblast Determination Protein 1
   - Myf3
-database_ids:
-  uniprot: P15172
-  hgnc: HGNC:7611
-relations:
-  - predicate: regulated_by
-    target: "SIRT1"
-    sources:
-      - PMID:15485910
-      - Michan 2007
-  - predicate: interacts_with
-    target: "MEF2D"
-    sources:
-      - Michan 2007
-created: 2026-07-03
-updated: 2026-07-03
 ---
+
+
+
 
 # MyoD (Myogenic Differentiation Factor 1)
 

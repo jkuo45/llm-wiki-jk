@@ -1,9 +1,11 @@
 ---
 type: entity
-category: other
-entity_type: "NA"
+title: BIG1
+description: Brefeldin A-inhibited guanine nucleotide-exchange protein 1 (BIG1) is
+  a protein responsible for cell migration and neuronal soma growth and formation.
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: NA
 ---
 # BIG1
 

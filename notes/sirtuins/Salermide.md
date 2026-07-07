@@ -1,22 +1,18 @@
 ---
 type: entity
-category: chemical
-aliases:
-  - Salermide
-database_ids:
-  pubchem: 16196727
-relations:
-  - predicate: inhibits
-    target: "SIRT1"
-    sources:
-      - s41392-022-01257-8
-  - predicate: inhibits
-    target: "SIRT2"
-    sources:
-      - s41392-022-01257-8
+title: Salermide
+description: Salermide is a potent, cell-permeable synthetic small-molecule sirtuin
+  inhibitor containing a $\beta$-naphthol group. Designed and developed through structure-activity
+  relationship (SAR) studies of...
 created: 2026-07-03
 updated: 2026-07-03
+entity_type_1: Chemical Compound
+aliases:
+  - Salermide
 ---
+
+
+
 
 # Salermide
 

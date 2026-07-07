@@ -1,3 +1,13 @@
+---
+type: entity
+title: TGF-β3
+description: '**Transforming growth factor beta 3** (TGF-β3) is a type of protein,
+  known as a cytokine, which is involved in cell differentiation, embryogenesis, and
+  development.'
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Medical Condition
+---
 # TGF-β3
 
 **Transforming growth factor beta 3** (TGF-β3) is a type of protein, known as a cytokine, which is involved in cell differentiation, embryogenesis, and development.

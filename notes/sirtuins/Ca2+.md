@@ -1,15 +1,20 @@
 ---
 type: entity
-category: chemical
+title: Ca2+
+description: Ca2+ (calcium ion) is a ubiquitous intracellular second messenger that
+  regulates numerous cellular processes including muscle contraction, neurotransmitter
+  release, gene expression, and Apoptosis. ...
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Chemical Compound
 aliases:
   - Calcium ion
   - Ca²⁺
   - Calcium(2+)
-database_ids:
-  chebi: CHEBI:29108
-created: 2026-07-04
-updated: 2026-07-04
 ---
+
+
+
 
 # Ca2+
 

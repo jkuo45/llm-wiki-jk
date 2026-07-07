@@ -1,11 +1,11 @@
 ---
 type: entity
-category: Scientific Concept
-aliases: []
+title: Electrophile
+description: Electrophile is a concept related to Adrenochrome and catecholamine metabolism.
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Scientific Concept
 ---
-
 # Electrophile
 
 Electrophile is a concept related to [[Adrenochrome]] and catecholamine metabolism.

@@ -1,11 +1,12 @@
 ---
-aliases:
-- CDK4/6
-- cyclin-dependent kinase 4/6
-category: Enzyme
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: CDK4/6
+description: Cyclin-dependent kinases 4 and 6 (CDK4/6) are cell cycle regulators that
+  also phosphorylate TFEB in the nucleus to promote its CRM1-dependent nuclear export.
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Enzyme
+aliases: [CDK4/6, cyclin-dependent kinase 4/6]
 ---
 # CDK4/6
 
@@ -22,4 +23,4 @@ CDK4/6 inhibition induces [[Autophagy]] in cancer cells, representing a resistan
 
 - New links added: [[TFEB]], [[CRM1]]
 - Suggested new entity notes to create: [[Cell Cycle]]
-- Strong connections to strengthen: [[CDK4/6]] ↔ [[TFEB]]
+- Strong connections to strengthen: [[CDK4]]/[[CDK6]] ↔ [[TFEB]]

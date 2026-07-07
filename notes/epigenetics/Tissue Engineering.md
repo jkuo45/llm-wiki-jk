@@ -1,9 +1,11 @@
 ---
 type: entity
-category: other
-entity_type: "NA"
+title: Tissue Engineering
+description: The use of a combination of cells, engineering, and materials methods
+  to improve or replace biological tissues.
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: NA
 ---
 # Tissue Engineering
 

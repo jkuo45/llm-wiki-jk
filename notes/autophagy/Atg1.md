@@ -1,11 +1,12 @@
 ---
-aliases:
-- ULK1
-- Unc-51-like kinase 1
-category: Enzyme
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: Atg1
+description: Atg1 is a conserved serine/threonine kinase that plays a central role
+  in the initiation of Autophagy in response to nutrient deprivation.
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Enzyme
+aliases: [ULK1, Unc-51-like kinase 1]
 ---
 # Atg1
 

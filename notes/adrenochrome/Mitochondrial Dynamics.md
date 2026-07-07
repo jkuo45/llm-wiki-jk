@@ -1,11 +1,13 @@
 ---
 type: entity
-category: Biological Process
-aliases: []
+title: Mitochondrial Dynamics
+description: Mitochondrial dynamics refers to the continuous processes of **mitochondrial
+  fusion** and **mitochondrial fission** that regulate mitochondrial morphology, number,
+  and function within a cell.
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Biological Process
 ---
-
 # Mitochondrial Dynamics
 
 Mitochondrial dynamics refers to the continuous processes of **mitochondrial fusion** and **mitochondrial fission** that regulate mitochondrial morphology, number, and function within a cell.
@@ -61,13 +63,13 @@ Fission is mechanistically coupled to [[Mitophagy]] as a prerequisite for autoph
 
 ## Role in Mitohormesis
 
-Mild mitochondrial stress induces adaptive changes in dynamics that contribute to [[Mitohormesis]]. Sublethal ROS production or mild electron transport chain inhibition (e.g., low-dose [[Menadione]], [[2-deoxy-D-glucose]]) promotes transient fission, activating [[PGC1α]] and [[NRF2]]-dependent transcriptional programs that enhance mitochondrial biogenesis and antioxidant capacity. The sequential fusion-fission cycle also enables content mixing, diluting transient damage across the mitochondrial network. This dynamic flexibility is essential for cellular adaptation — rigid networks (either hyperfused or hyperfragmented) show impaired stress resistance and accelerated aging.
+Mild mitochondrial stress induces adaptive changes in dynamics that contribute to [[Mitohormesis]]. Sublethal ROS production or mild electron transport chain inhibition (e.g., low-dose [[Menadione]], [[2-deoxy-D-glucose]]) promotes transient fission, activating [[PGC1-α]] and [[NRF2]]-dependent transcriptional programs that enhance mitochondrial biogenesis and antioxidant capacity. The sequential fusion-fission cycle also enables content mixing, diluting transient damage across the mitochondrial network. This dynamic flexibility is essential for cellular adaptation — rigid networks (either hyperfused or hyperfragmented) show impaired stress resistance and accelerated aging.
 
 ## Dysfunction in Aging and Disease
 
 Aging is consistently associated with a shift toward mitochondrial fragmentation (increased fission, decreased fusion), driven by declining OPA1 and MFN2 expression, increased OMA1 activity, and DRP1 hyperactivation. This fragmented phenotype correlates with reduced respiration, increased ROS, impaired calcium buffering, and elevated mitophagy burden. In [[Neurodegeneration]], mutations in OPA1 cause dominant optic atrophy, while MFN2 mutations cause Charcot-Marie-Tooth disease type 2A. In [[Parkinson's Disease]], Parkin-mediated ubiquitination of MFN1/2 links mitophagy failure directly to dynamics dysregulation. Cardiac ischemia-reperfusion injury triggers DRP1-dependent fragmentation that exacerbates [[Cardiotoxicity]], and inhibiting DRP1 with [[Mdivi-1]] is cardioprotective in preclinical models.
 
 ### Linking Summary:
-- New links added: [[MFN1]], [[MFN2]], [[OPA1]], [[DRP1]], [[FIS1]], [[MFF]], [[OMA1]], [[YME1L]], [[Parkin]], [[PINK1]], [[Akt]], [[SIRT3]], [[NRF2]], [[PGC1α]], [[Menadione]], [[2-deoxy-D-glucose]], [[Neurodegeneration]], [[Parkinson's Disease]], [[Cardiotoxicity]], [[Aging]], [[Mitochondrial calcium uniporter]], [[Endoplasmic Reticulum]], [[Calcium signaling]]
+- New links added: [[MFN1]], [[MFN2]], [[OPA1]], [[DRP1]], [[FIS1]], [[MFF]], [[OMA1]], [[YME1L]], [[Parkin]], [[PINK1]], [[Akt]], [[SIRT3]], [[NRF2]], [[PGC1-α]], [[Menadione]], [[2-deoxy-D-glucose]], [[Neurodegeneration]], [[Parkinson's Disease]], [[Cardiotoxicity]], [[Aging]], [[Mitochondrial calcium uniporter]], [[Endoplasmic Reticulum]], [[Calcium signaling]]
 - Suggested new entity notes to create: [[MiD49]], [[MiD51]], [[Mdivi-1]], [[MAMs (Mitochondria-Associated Membranes)]]
 - Strong connections to strengthen: [[Mitochondrial Dynamics]] ↔ [[Mitophagy]], [[Mitochondrial Dynamics]] ↔ [[Mitohormesis]], [[Mitochondrial Dynamics]] ↔ [[Aging]]

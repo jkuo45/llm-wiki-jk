@@ -1,11 +1,12 @@
 ---
 type: entity
-category: enzyme
-aliases: []
+title: Tyrosinase
+description: 'While tyrosinase is primarily known for its role in peripheral melanocytes,
+  its presence and function in the human brain have been a subject of research:'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Enzyme
 ---
-
 # Tyrosinase
 
 [[Tyrosinase]] (hTyr) is a copper-containing enzyme that is the rate-limiting enzyme in the production of melanin pigments in the skin and hair.
@@ -20,5 +21,5 @@ In experimental rodent models, the progressive accumulation of neuromelanin driv
 
 ### Linking Summary:
 - New links added: [[Substantia Nigra]], [[Neuromelanin]], [[Parkinson's Disease]], [[Pathogenic Threshold of Neuromelanin]].
-- Suggested new entity notes to create: [[Tyrosinase-Related Protein 1]], [[Melanogenesis]].
+- Suggested new entity notes to create: [[Tyrosinase-related protein-1]], [[Melanogenesis]].
 - Strong connections to strengthen: [[Tyrosinase]] ↔ [[Neuromelanin Synthesis]].

@@ -1,21 +1,26 @@
 ---
-title: "The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting"
-source: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10509423/"
+type: document
+title: The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction
+  and Fasting
+source: https://pmc.ncbi.nlm.nih.gov/articles/PMC10509423/
 author:
-  - "Roya Shabkhizan"
-  - "Sanya Haiaty"
-  - "Marziyeh Sadat Moslehian"
-  - "Ahad Bazmani"
-  - "Fatemeh Sadeghsoltani"
-  - "Hesam Saghaei Bagheri"
-  - "Reza Rahbarghazi"
-  - "Ebrahim Sakhinia"
-published:
+- Roya Shabkhizan
+- Sanya Haiaty
+- Marziyeh Sadat Moslehian
+- Ahad Bazmani
+- Fatemeh Sadeghsoltani
+- Hesam Saghaei Bagheri
+- Reza Rahbarghazi
+- Ebrahim Sakhinia
 created: 2026-05-14
-description: "Each cell is equipped with a conserved housekeeping mechanism, known as autophagy, to recycle exhausted materials and dispose of injured organelles via lysosomal degradation. Autophagy is an early-stage cellular response to stress stimuli in both ..."
+description: Each cell is equipped with a conserved housekeeping mechanism, known
+  as autophagy, to recycle exhausted materials and dispose of injured organelles via
+  lysosomal degradation. Autophagy is an early-stage cellular response to stress stimuli
+  in both ...
 tags:
   - "clippings"
 ---
+
 
 . 2023 Jul 30;14(5):1211–1225. doi: [10.1016/j.advnut.2023.07.006](https://doi.org/10.1016/j.advnut.2023.07.006)
 

@@ -1,18 +1,17 @@
 ---
 type: entity
-category: Chemical Compound
-aliases:
-  - NAM
-  - Niacinamide
-  - Vitamin B3
-  - Nicotinic acid amide
-database_ids:
-  chebi: CHEBI:17154
-  mesh: D009536
+title: Nicotinamide
+description: '**Nicotinamide** (NAM), also known as **niacinamide**, is the amide
+  form of **vitamin B3** (niacin). It is an essential precursor in the **NAD⁺ salvage
+  pathway** and a critical regulator of sirtuin...'
 created: 2026-07-04
 updated: 2026-07-05
+entity_type_1: Chemical Compound
+aliases: [NAM, Niacinamide, Vitamin B3, Nicotinic acid amide]
+database_ids:
+  mesh: D009536
+  chebi: CHEBI:17154
 ---
-
 # Nicotinamide
 
 **Nicotinamide** (NAM), also known as **niacinamide**, is the amide form of **vitamin B3** (niacin). It is an essential precursor in the **NAD⁺ salvage pathway** and a critical regulator of sirtuin enzyme activity, acting as both a substrate for NAD⁺ biosynthesis and an endogenous feedback inhibitor of sirtuins.
@@ -51,7 +50,7 @@ Nicotinamide has been investigated for multiple clinical applications:
 Nicotinamide is distinct from other NAD⁺ precursors:
 
 - **[[Nicotinamide Riboside]] (NR)**: Converted to NAD⁺ via NRK enzymes, bypassing the rate-limiting NAMPT step.
-- **[[Nicotinic Acid]] (NA)**: Converted to NAD⁺ via the Preiss-Handler pathway; causes flushing due to GPR109A activation.
+- **[[Nicotinic acid]] (NA)**: Converted to NAD⁺ via the Preiss-Handler pathway; causes flushing due to GPR109A activation.
 - **[[NMN]]**: The immediate product of NAMPT activity; directly converted to NAD⁺ by NMNAT enzymes.
 
 ## Connections
@@ -67,5 +66,5 @@ Nicotinamide is distinct from other NAD⁺ precursors:
 ## Linking Summary
 
 - New links added: [[NAD+]], [[Vitamin B3]], [[NAMPT]], [[NMN]], [[NMNAT]], [[CD38]], [[SIRT1]], [[SIRT5]], [[Nicotinamide Riboside]], [[Caloric Restriction]]
-- Suggested new entity notes to create: [[Vitamin B3]], [[Salvage pathway]], [[Nicotinic Acid]]
+- Suggested new entity notes to create: [[Vitamin B3]], [[Salvage pathway]], [[Nicotinic acid]]
 - Strong connections to strengthen: [[Nicotinamide]] ↔ [[NAD+]], [[Nicotinamide]] ↔ [[NAMPT]], [[Nicotinamide]] ↔ [[SIRT1]]

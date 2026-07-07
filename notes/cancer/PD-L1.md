@@ -1,3 +1,13 @@
+---
+type: entity
+title: PD-L1
+description: '**Programmed death ligand-1** (PD-L1; also known as CD274 or B7-H1)
+  is a protein that plays a major role in suppressing the adaptive arm of the immune
+  system.'
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Medical Condition
+---
 # PD-L1
 
 **Programmed death ligand-1** (PD-L1; also known as CD274 or B7-H1) is a protein that plays a major role in suppressing the adaptive arm of the immune system.

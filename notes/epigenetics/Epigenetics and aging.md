@@ -1,14 +1,12 @@
 ---
-title: "Epigenetics and aging"
-source: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4966880/"
-author:
-  - "Sangita Pal"
-  - "Jessica K Tyler"
-published:
+type: entity
+title: Epigenetics and aging
+description: 'Researchers review how random changes and our environment (for example,
+  diet) determines our life span. Keywords: Epigenetics, aging, histones, chromatin'
 created: 2026-05-13
-description: "Researchers review how random changes and our environment (for example, diet) determines our life span. Keywords: Epigenetics, aging, histones, chromatin"
-tags:
-  - "clippings"
+updated: 2026-07-06
+entity_type_1: Biological Process
+tags: [clippings]
 ---
 Researchers review how random changes and our environment (for example, diet) determines our life span.
 
@@ -125,6 +123,6 @@ The reversible nature of epigenetic modifications makes them attractive targets 
 Finally, [[Senolytics]] are an emerging class of drugs that selectively eliminate senescent cells, thereby reducing the burden of [[SASP]] and improving tissue function in aged or diseased models ([^207]). These interventions highlight the potential of targeting the epigenetic and metabolic drivers of aging to extend human health span.
 
 ### Linking Summary:
-- New links added: [[Epigenetics]], [[Aging]], [[Model Organisms]], [[Histone Modification]], [[DNA Methylation]], [[Histone Variant]], [[Non-coding RNA]], [[Cellular Senescence]], [[Transposable Elements]], [[Genomic Instability]], [[Epigenetic Inheritance]], [[Cancer]], [[Metabolic Syndromes]], [[Diabetes Mellitus]], [[Cardiovascular Disease]], [[Neurodegenerative Diseases]], [[Genotype]], [[Phenotype]], [[Nucleosome]], [[Heterochromatin]], [[DNA Replication]], [[Transcription]], [[DNA Repair]], [[Saccharomyces cerevisiae]], [[Drosophila melanogaster]], [[Caenorhabditis elegans]], [[HGPS]], [[Werner Syndrome]], [[Lamin A]], [[Histone Acetylation]], [[Histone Deacetylase]], [[Sirtuins]], [[SIRT1]], [[SAHF]], [[Euchromatin]], [[Caloric Restriction]], [[SIRT6]], [[LINE-1]], [[Alu element]], [[SASP]], [[Histone Methylation]], [[AMPK]], [[Nucleosome Remodeling]], [[SWI/SNF]], [[CpG Island]], [[DNMT1]], [[DNMT3b]], [[Polycomb Group Proteins]], [[MicroRNA]], [[IGF-1]], [[Resveratrol]], [[Metformin]], [[Spermidine]], [[Acetyl-CoA]], [[Autophagy]], [[Senolytics]]
+- New links added: [[Epigenetics]], [[Aging]], [[Model Organisms]], [[Histone Modification]], [[DNA Methylation]], [[Histone Variant]], [[Non-coding RNA]], [[Cellular Senescence]], [[Transposable Elements]], [[Genomic Instability]], [[Epigenetic Inheritance]], [[Cancer]], [[Metabolic Syndromes]], [[Diabetes Mellitus]], [[Cardiovascular Disease]], [[Neurodegenerative Diseases]], [[Genotype]], [[Phenotype]], [[Nucleosome]], [[Heterochromatin]], [[DNA Replication]], [[Transcription]], [[DNA Repair]], [[Saccharomyces cerevisiae]], [[Drosophila melanogaster]], [[Caenorhabditis elegans]], [[HGPS]], [[Werner Syndrome]], [[Lamin A]], [[Histone Acetylation]], [[Histone Deacetylase]], [[Sirtuins]], [[SIRT1]], [[SAHF]], [[Euchromatin]], [[Caloric Restriction]], [[SIRT6]], [[LINE-1]], [[Alu element]], [[SASP]], [[Histone Methylation]], [[AMPK]], [[Nucleosome Remodeling]], [[SWI/SNF]], [[CpG Island]], [[DNMT1]], [[DNMT3b]], [[Polycomb Group Proteins]], [[MicroRNA]], [[IGF1]], [[Resveratrol]], [[Metformin]], [[Spermidine]], [[Acetyl-CoA]], [[Autophagy]], [[Senolytics]]
 - Suggested new entity notes to create: [[SAGA Complex]], [[SWI/SNF]] Complex, [[Transcriptional Drift]], [[Genomic Stability]]
 - Strong connections to strengthen: [[Epigenetics]] ↔ [[Aging]], [[Histone Modification]] ↔ [[Cellular Senescence]], [[DNA Methylation]] ↔ [[Epigenetic Clock]]

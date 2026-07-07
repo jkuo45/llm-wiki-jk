@@ -1,3 +1,12 @@
+---
+type: entity
+title: AIF
+description: '**AIF** (Apoptosis-inducing factor) is a flavoprotein that is released
+  from the mitochondrial intermembrane space during Apoptosis.'
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Enzyme
+---
 # AIF
 
 **AIF** (Apoptosis-inducing factor) is a flavoprotein that is released from the mitochondrial intermembrane space during [[Apoptosis]].

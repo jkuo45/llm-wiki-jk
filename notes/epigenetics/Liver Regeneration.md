@@ -1,9 +1,10 @@
 ---
 type: entity
-category: biological_process
-entity_type: "Biological Process"
+title: Liver Regeneration
+description: '- New links added: Hepatocyte, Quiescence, Cell Cycle'
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: Biological Process
 ---
 # Liver Regeneration
 

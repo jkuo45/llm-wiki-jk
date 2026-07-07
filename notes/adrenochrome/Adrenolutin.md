@@ -1,11 +1,12 @@
 ---
 type: entity
-category: Metabolite
-aliases: []
+title: Adrenolutin
+description: '**Adrenolutin** (3,5,6-trihydroxy-1-methylindole) is a fluorescent metabolite
+  and a further oxidation/rearrangement product of Adrenochrome.'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Metabolite
 ---
-
 # Adrenolutin
 
 **Adrenolutin** (3,5,6-trihydroxy-1-methylindole) is a fluorescent metabolite and a further oxidation/rearrangement product of [[Adrenochrome]].
@@ -33,7 +34,7 @@ The fluorescence of adrenolutin is exploited for sensitive detection. The trihyd
 
 ## Biological Activity
 
-Adrenolutin exhibits biological activities that are distinct from, and generally less cytotoxic than, [[Adrenochrome]]. Unlike the redox-active o-quinone [[Adrenochrome]], the trihydroxyindole structure of adrenolutin does not readily participate in redox cycling with molecular oxygen, significantly reducing its capacity for [[Superoxide anion]] generation. Adrenolutin retains mild thiol reactivity, forming covalent adducts with [[Glutathione]] and [[Cysteine]] residues at rates approximately 10-fold slower than [[Adrenochrome]]. In cellular models, adrenolutin at concentrations below 10 µM shows negligible cytotoxicity, whereas [[Adrenochrome]] at equivalent concentrations induces significant mitochondrial depolarization and ATP depletion. Adrenolutin has been reported to inhibit [[Na⁺/K⁺-ATPase]] activity in synaptosomal preparations with an IC₅₀ of approximately 50 µM, though the physiological relevance of this finding remains unclear.
+Adrenolutin exhibits biological activities that are distinct from, and generally less cytotoxic than, [[Adrenochrome]]. Unlike the redox-active o-quinone [[Adrenochrome]], the trihydroxyindole structure of adrenolutin does not readily participate in redox cycling with molecular oxygen, significantly reducing its capacity for [[Superoxide anion]] generation. Adrenolutin retains mild thiol reactivity, forming covalent adducts with [[Glutathione]] and [[Cysteine]] residues at rates approximately 10-fold slower than [[Adrenochrome]]. In cellular models, adrenolutin at concentrations below 10 µM shows negligible cytotoxicity, whereas [[Adrenochrome]] at equivalent concentrations induces significant mitochondrial depolarization and ATP depletion. Adrenolutin has been reported to inhibit [[Sodium Potassium ATPase]] activity in synaptosomal preparations with an IC₅₀ of approximately 50 µM, though the physiological relevance of this finding remains unclear.
 
 ## Potential as a Biomarker
 
@@ -45,5 +46,5 @@ Adrenolutin may serve as a stable downstream biomarker of catecholamine oxidatio
 - [[Oxidation]] ↔ The process that leads to the formation of both adrenochrome and adrenolutin.
 
 ### Linking Summary:
-- New links added: [[Adrenolutin]], [[Adrenochrome]], [[Epinephrine]], [[Oxidation]], [[NAD(P)H Quinone Dehydrogenase 1]], [[NQO1]], [[Potassium ferricyanide]], Iodine, [[Pheochromocytoma]], [[Diabetic Ketoacidosis]], [[Septic Shock]], [[Norepinephrine]], [[Na⁺/K⁺-ATPase]], [[Cysteine]], [[Glutathione]], [[HPLC-FL]], [[LC-MS/MS]]
+- New links added: [[Adrenolutin]], [[Adrenochrome]], [[Epinephrine]], [[Oxidation]], [[NAD(P)H Quinone Dehydrogenase 1]], [[NQO1]], [[Potassium ferricyanide]], Iodine, [[Pheochromocytoma]], [[Diabetic Ketoacidosis]], [[Septic Shock]], [[Norepinephrine]], [[Sodium Potassium ATPase]], [[Cysteine]], [[Glutathione]], [[HPLC-FL]], [[LC-MS]]
 - Strong connections to strengthen: [[Adrenolutin]] ↔ [[Adrenochrome]], [[Adrenolutin]] ↔ [[Epinephrine]]

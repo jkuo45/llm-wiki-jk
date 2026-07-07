@@ -1,9 +1,12 @@
 ---
 type: entity
-category: biomarker
-entity_type: "Biomarker"
+title: Epigenetic Clock
+description: An **Epigenetic Clock** is a biochemical test that can be used to measure
+  age. The test is based on DNA Methylation levels, which change in a predictable
+  way as we get older. By measuring the methy...
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: Biomarker
 ---
 # Epigenetic Clock
 

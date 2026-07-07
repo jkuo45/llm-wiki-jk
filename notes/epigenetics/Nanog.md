@@ -1,9 +1,12 @@
 ---
 type: entity
-category: other
-entity_type: "NA"
+title: Nanog
+description: In the context of Cellular Reprogramming, Nanog is often considered a
+  "late" marker of pluripotency. While it was not part of the original Yamanaka Factors
+  (OSKM), it is essential for the stabiliza...
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: NA
 ---
 # Nanog
 

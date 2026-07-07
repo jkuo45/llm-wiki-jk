@@ -1,9 +1,11 @@
 ---
 type: entity
-category: other
-entity_type: "NA"
+title: Innate Immunity
+description: 'Studies have shown that viral transduction of OSKM factors into Fibroblasts
+  induces an innate immune response. This response can lead to:'
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: NA
 ---
 # Innate Immunity
 

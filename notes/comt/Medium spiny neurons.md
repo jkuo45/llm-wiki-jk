@@ -1,12 +1,13 @@
 ---
 type: entity
-category: cell type
-aliases:
-  - 'MSNs'
+title: Medium spiny neurons
+description: '**Medium spiny neurons** (also known as **MSNs**) are a special type
+  of GABAergic inhibitory cell which represent 95% of neurons within the human Sirtuins.'
 created: 2026-05-25
 updated: 2026-07-04
+entity_type_1: Cell Type
+aliases: [MSNs]
 ---
-
 # Medium spiny neurons
 
 **[[Medium spiny neurons]]** (also known as **[[MSNs]]**) are a special type of GABAergic inhibitory cell which represent 95% of neurons within the human [[Sirtuins]].

@@ -1,15 +1,14 @@
 ---
 type: entity
-category: scientific_concept
-entity_type: "Scientific Concept"
-aliases:
-  - SIRT3/SIRT4 balance
-  - mitochondrial sirtuin ratio
-  - Sirtuin redox dial
+title: SIRT3/SIRT4 Ratio
+description: The **SIRT3/SIRT4 Ratio** is the quantitative balance between two opposing
+  mitochondrial sirtuin activities that together determine the cell's capacity to
+  handle superoxide and other mitochondrial ...
 created: 2026-07-06
 updated: 2026-07-06
+entity_type_1: Scientific Concept
+aliases: [SIRT3/SIRT4 balance, mitochondrial sirtuin ratio, Sirtuin redox dial]
 ---
-
 # SIRT3/SIRT4 Ratio
 
 The **SIRT3/SIRT4 Ratio** is the quantitative balance between two opposing mitochondrial sirtuin activities that together determine the cell's capacity to handle superoxide and other mitochondrial reactive oxygen species. This ratio functions as a molecular "redox dial," setting the hormetic window within which mitochondrial stress is either adaptive or deleterious.
@@ -89,7 +88,7 @@ The ratio itself is dynamically regulated:
 - [[Mitohormetic Redox-Relay]] — Therapeutic framework dependent on ratio optimization
 - [[Carbazochrome]] — Redox-cycling agent whose effects are ratio-dependent
 - [[AMPK]] — Upstream regulator of SIRT3 expression
-- [[PGC-1α]] — Drives SOD2 expression; modulated by the ratio
+- [[PGC1-α]] — Drives SOD2 expression; modulated by the ratio
 - [[FOXO3a]] — Transcription factor for SOD2; interacts with SIRT3 axis
 - [[Caloric Restriction]] — Shifts ratio toward SIRT3 dominance
 - [[Adrenochrome]] — Redox-cycling compound whose superoxide output is processed by ratio-determined MnSOD activity
@@ -97,6 +96,6 @@ The ratio itself is dynamically regulated:
 
 ## Linking Summary
 
-- New links added: [[SIRT3]], [[SIRT4]], [[MnSOD]], [[Honokiol]], [[Dihydromyricetin]], [[Mitohormesis]], [[Hormetic Window]], [[Mitohormetic Redox-Relay]], [[Carbazochrome]], [[AMPK]], [[PGC-1α]], [[FOXO3a]], [[Caloric Restriction]], [[Adrenochrome]], [[Redox Vaccination]], [[NMN]], [[NR]], [[NF-κB]]
+- New links added: [[SIRT3]], [[SIRT4]], [[MnSOD]], [[Honokiol]], [[Dihydromyricetin]], [[Mitohormesis]], [[Hormetic Window]], [[Mitohormetic Redox-Relay]], [[Carbazochrome]], [[AMPK]], [[PGC1-α]], [[FOXO3a]], [[Caloric Restriction]], [[Adrenochrome]], [[Redox Vaccination]], [[NMN]], [[NR]], [[NFκB]]
 - Suggested new entity notes to create: [[Mitochondrial Redox Dial]]
-- Strong connections to strengthen: [[SIRT3/SIRT4 Ratio]] ↔ [[Hormetic Window]], [[SIRT3/SIRT4 Ratio]] ↔ [[MnSOD]]
+- Strong connections to strengthen: [[SIRT3]]/[[SIRT4]] ratio ↔ [[Hormetic Window]], [[SIRT3]]/[[SIRT4]] ratio ↔ [[MnSOD]]

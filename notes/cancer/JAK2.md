@@ -1,3 +1,13 @@
+---
+type: entity
+title: JAK2
+description: '**Janus kinase 2** (JAK2) is a non-receptor tyrosine kinase. It belongs
+  to the Janus kinase family and has been implicated in signaling by members of the
+  type II cytokine receptor family.'
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Enzyme
+---
 # JAK2
 
 **Janus kinase 2** (JAK2) is a non-receptor tyrosine kinase. It belongs to the Janus kinase family and has been implicated in signaling by members of the type II cytokine receptor family.

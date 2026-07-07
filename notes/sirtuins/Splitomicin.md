@@ -1,22 +1,18 @@
 ---
 type: entity
-category: chemical
-aliases:
-  - Splitomicin
-database_ids:
-  pubchem: 5311283
-relations:
-  - predicate: inhibits
-    target: "SIRT1"
-    sources:
-      - s41392-022-01257-8
-  - predicate: inhibits
-    target: "SIRT2"
-    sources:
-      - s41392-022-01257-8
+title: Splitomicin
+description: Splitomicin is a small-molecule, cell-permeable sirtuin inhibitor containing
+  a $\beta$-naphthol ring structure. Discovered alongside Sirtinol in yeast cell-based
+  screens for inhibitors of Silent In...
 created: 2026-07-03
 updated: 2026-07-03
+entity_type_1: Chemical Compound
+aliases:
+  - Splitomicin
 ---
+
+
+
 
 # Splitomicin
 

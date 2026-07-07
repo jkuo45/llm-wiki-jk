@@ -1,37 +1,20 @@
 ---
 type: entity
-category: protein
+title: SIRT5
+description: SIRT5 (Sirtuin 5) is a mitochondrial sirtuin and the sole mammalian member
+  of phylogenetic Class III sirtuins — a class distributed widely in all prokaryotes
+  (both bacteria and archaea). This deep ...
+created: 2026-07-02
+updated: 2026-07-05
+entity_type_1: Protein
 aliases:
   - Sirtuin 5
   - mitochondrial sirtuin 5
   - SIRT5 deacylase
-database_ids:
-  uniprot: Q9NXA8
-  hgnc: HGNC:14933
-relations:
-  - predicate: exhibits
-    target: "NAD-dependent deacetylase activity"
-    sources:
-      - PMID:MICHAN2007
-  - predicate: member_of
-    target: "Sirtuin Family"
-    sources:
-      - PMID:MICHAN2007
-  - predicate: desuccinylates
-    target: "CPS1"
-    sources:
-      - PMID:21504829
-  - predicate: demalonylates
-    target: "Mitochondrial proteins"
-    sources:
-      - PMID:21504829
-  - predicate: deglutarylates
-    target: "Mitochondrial proteins"
-    sources:
-      - PMID:24861043
-created: 2026-07-02
-updated: 2026-07-05
 ---
+
+
+
 
 # SIRT5
 

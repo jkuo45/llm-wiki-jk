@@ -1,17 +1,14 @@
 ---
 type: entity
-category: biological_process
-aliases:
-  - "immune response"
-  - "immune system"
-tags:
-  - "oxidative_stress"
-  - "immune"
-  - "ros"
+title: Immunity
+description: Immunity is the capability of multicellular organisms to resist harmful
+  microorganisms. It involves both specific and nonspecific components.
 created: 2026-05-09
 updated: 2026-07-04
+entity_type_1: Biological Process
+aliases: [immune response, immune system]
+tags: [oxidative_stress, immune, ros]
 ---
-
 # Immunity
 
 ## Definition
@@ -52,7 +49,7 @@ Activated immune cells undergo a metabolic switch from oxidative phosphorylation
 
 ## Oxidative Stress and Immune Senescence
 
-[[Immunosenescence]] and [[Inflammaging]] are driven in part by lifelong accumulation of oxidative damage to immune cells. In aged [[Neutrophils]], NOX2 activity is reduced but mitochondrial ROS are elevated, impairing bacterial killing while increasing bystander tissue damage. [[Hematopoietic Stem Cell|Hematopoietic stem cells]] (HSCs) accumulate oxidative DNA damage over time, leading to a myeloid-biased differentiation skew and impaired lymphopoiesis. The [[p38 MAPK]] pathway, activated by ROS-induced stress signaling, suppresses HSC self-renewal. Caloric restriction and [[Metformin]] partially reverse these age-related immune changes by reducing [[Reactive Oxygen Species|ROS]] production through [[AMPK]]/[[PGC-1α]]-mediated [[Mitochondria|mitochondrial]] biogenesis and antioxidant enzyme induction.
+[[Immunosenescence]] and [[Inflammaging]] are driven in part by lifelong accumulation of oxidative damage to immune cells. In aged [[Neutrophils]], NOX2 activity is reduced but mitochondrial ROS are elevated, impairing bacterial killing while increasing bystander tissue damage. [[Hematopoietic Stem Cell|Hematopoietic stem cells]] (HSCs) accumulate oxidative DNA damage over time, leading to a myeloid-biased differentiation skew and impaired lymphopoiesis. The [[p38 MAPK]] pathway, activated by ROS-induced stress signaling, suppresses HSC self-renewal. Caloric restriction and [[Metformin]] partially reverse these age-related immune changes by reducing [[Reactive Oxygen Species|ROS]] production through [[AMPK]]/[[PGC1-α]]-mediated [[Mitochondria|mitochondrial]] biogenesis and antioxidant enzyme induction.
 
 ## Connections
 - [[Chronic Granulomatous Disease]]: Genetic deficiency in NOX2 causing recurrent infections.
@@ -66,5 +63,5 @@ Activated immune cells undergo a metabolic switch from oxidative phosphorylation
 - [[Mitochondrial Dysfunction]]: Impairs immune cell metabolism and redox signaling.
 
 ### Updated Linking Summary:
-- New links added in this revision: [[Myeloperoxidase]], [[Hypochlorous Acid]], [[Toll-like Receptor]], [[LPS]], [[IFN-γ]], [[STAT1]], [[Peroxynitrite]], [[Iron-Sulfur Clusters]], [[Arginase]], [[Macrophage Polarization]], [[Glutathione]], [[Dendritic Cells]], [[IL-12]], [[Thioredoxin]], [[mTOR]], [[HIF-1α]], [[Mitochondrial ROS]], [[Immunosenescence]], [[Inflammaging]], [[Hematopoietic Stem Cell]], [[p38 MAPK]], [[Metformin]], [[AMPK]], [[PGC-1α]], [[Chronic Granulomatous Disease]], [[Mitochondrial Dysfunction]], [[Macrophage]], [[Keap1]]
+- New links added in this revision: [[Myeloperoxidase]], [[Hypochlorous Acid]], [[Toll-like Receptor]], [[LPS]], [[IFN-γ]], [[STAT1]], [[Peroxynitrite]], [[Iron-Sulfur Clusters]], [[Arginase]], [[Macrophage Polarization]], [[Glutathione]], [[Dendritic Cells]], [[IL-12]], [[Thioredoxin]], [[mTOR]], [[HIF-1α]], [[Mitochondrial ROS]], [[Immunosenescence]], [[Inflammaging]], [[Hematopoietic Stem Cell]], [[p38 MAPK]], [[Metformin]], [[AMPK]], [[PGC1-α]], [[Chronic Granulomatous Disease]], [[Mitochondrial Dysfunction]], [[Macrophage]], [[Keap1]]
 - Suggested new entity notes to create: [[Itaconate]], [[T Cell Polarization]], [[Succinate]], [[CGD]], [[Rac GTPase]]

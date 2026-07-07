@@ -1,3 +1,13 @@
+---
+type: entity
+title: Bad
+description: '**Bad** (Bcl-2-associated death promoter) is a pro-apoptotic BH3-only
+  member of the Bcl-2 family. It is a key sensor of growth factor signaling and cellular
+  stress.'
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Enzyme
+---
 # Bad
 
 **Bad** (Bcl-2-associated death promoter) is a pro-apoptotic BH3-only member of the [[Bcl-2 family]]. It is a key sensor of growth factor signaling and cellular stress.

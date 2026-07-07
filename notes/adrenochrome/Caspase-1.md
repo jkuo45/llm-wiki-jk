@@ -1,11 +1,12 @@
 ---
 type: entity
-category: Enzyme
-aliases: []
+title: Caspase-1
+description: Caspase-1 is an enzyme that, when activated by the NLRP3 Inflammasome,
+  proteolytically cleaves Interleukin 1β into its active form.
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Enzyme
 ---
-
 # Caspase-1
 
 Caspase-1 is an enzyme that, when activated by the [[NLRP3 Inflammasome]], proteolytically cleaves [[Interleukin 1β]] into its active form.

@@ -1,10 +1,12 @@
 ---
-aliases:
-- Targeting Aging with Metformin trial
-category: Scientific Concept
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: TAME Trial
+description: The **TAME Trial** (Targeting Aging with Metformin) is a ground-breaking
+  clinical trial designed to test the geroprotective effects of Metformin.
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Scientific Concept
+aliases: [Targeting Aging with Metformin trial]
 ---
 # TAME Trial
 

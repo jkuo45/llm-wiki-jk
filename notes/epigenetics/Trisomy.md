@@ -1,9 +1,10 @@
 ---
 type: entity
-category: medical_condition
-entity_type: "Medical Condition"
+title: Trisomy
+description: '- New links added: Aneuploidy, Oocyte, Aging'
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: Medical Condition
 ---
 # Trisomy
 

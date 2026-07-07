@@ -1,11 +1,13 @@
 ---
 type: entity
-category: gene
-entity_type: "Gene"
+title: Tumor Suppressor Gene
+description: A **Tumor Suppressor Gene** (TSG) encodes a protein that protects cells
+  from neoplastic transformation. Unlike Oncogene (which promote proliferation when
+  mutated or overexpressed), TSGs suppress tu...
 created: 2024-01-01
 updated: 2024-07-04
+entity_type_1: Gene
 ---
-
 # Tumor Suppressor Gene
 
 A **[[Tumor Suppressor Gene]]** (TSG) encodes a protein that protects cells from neoplastic transformation. Unlike [[Oncogene|oncogenes]] (which promote proliferation when mutated or overexpressed), TSGs suppress tumor formation by regulating cell cycle arrest, [[Apoptosis|apoptosis]], [[DNA Repair|DNA repair]], [[Senescence|senescence]], and contact inhibition. The [[Knudson Two-Hit Hypothesis|Knudson two-hit hypothesis]] — requiring both alleles to be inactivated — applies to classical TSGs like [[RB1]] and [[p53]].

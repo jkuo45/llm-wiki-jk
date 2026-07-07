@@ -1,11 +1,13 @@
 ---
 type: entity
-category: medical_condition
-aliases: []
+title: Lewy Bodies
+description: The primary component of Lewy bodies is phosphorylated Alpha-synuclein.
+  Other proteins, such as Ubiquitin and p62, are also commonly found within these
+  inclusions, reflecting the cell's failed atte...
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Medical Condition
 ---
-
 # Lewy Bodies
 
 [[Lewy Bodies]] (LB) are abnormal aggregates of protein that develop inside nerve cells in [[Parkinson's Disease]] and other related disorders.

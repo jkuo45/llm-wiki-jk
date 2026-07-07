@@ -1,11 +1,11 @@
 ---
 type: entity
-category: protein
-aliases: []
+title: Vesicular Monoamine Transporter 2
+description: VMAT2 is critical for sequestering dopamine safely within vesicles.
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Protein
 ---
-
 # Vesicular Monoamine Transporter 2
 
 [[Vesicular Monoamine Transporter 2]] (VMAT2) is a protein responsible for transporting monoamine neurotransmitters—such as [[Dopamine]], norepinephrine, and serotonin—from the cellular cytosol into synaptic vesicles.

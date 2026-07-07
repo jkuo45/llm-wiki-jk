@@ -1,11 +1,13 @@
 ---
 type: entity
-category: anatomy
-aliases: []
+title: Putamen
+description: The Putamen is one of the two components of the Sirtuins (along with
+  the Caudate Nucleus), forming part of the Basal Ganglia. It receives dense dopaminergic
+  innervation from the Substantia Nigra Pa...
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Anatomy
 ---
-
 # Putamen
 
 The [[Putamen]] is one of the two components of the [[Sirtuins]] (along with the [[Caudate Nucleus]]), forming part of the [[Basal Ganglia]]. It receives dense dopaminergic innervation from the [[Substantia Nigra Pars Compacta]] via the [[Nigrostriatal System]] and is critically involved in motor control. Dopamine depletion in the putamen is a primary driver of [[Bradykinesia]] and [[Hypokinesia]] in [[Parkinson's Disease]].

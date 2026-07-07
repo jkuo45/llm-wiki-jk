@@ -1,3 +1,13 @@
+---
+type: entity
+title: Diethylcarbamazine
+description: Diethylcarbamazine (DEC) is a medication used to treat several types
+  of filariasis, including Lymphatic Filariasis and Onchocerciasis (though less commonly
+  for the latter due to side effects).
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Imaging Technique
+---
 # Diethylcarbamazine
 
 Diethylcarbamazine (DEC) is a medication used to treat several types of filariasis, including [[Lymphatic Filariasis]] and [[Onchocerciasis]] (though less commonly for the latter due to side effects).

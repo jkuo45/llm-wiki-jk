@@ -1,10 +1,13 @@
 ---
-aliases:
-- glycogen synthase kinase 3 beta
-category: Enzyme
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: GSK3β
+description: Glycogen synthase kinase 3β (GSK3β) is a kinase that phosphorylates TFEB
+  at S134 and S138, which is required for its lysosomal localization and subsequent
+  regulation by mTORC1.
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Enzyme
+aliases: [glycogen synthase kinase 3 beta]
 ---
 # GSK3β
 

@@ -1,18 +1,17 @@
 ---
 type: entity
-category: protein
-aliases:
-  - Homeobox A10
-database_ids:
-  uniprot: P31260
-  hgnc: HGNC:5100
-relations:
-  - predicate: interacts_with
-    target: "SIRT2"
-    sources:
-      - PMID:17655269
+title: HOXA10
+description: '**HOXA10** (Homeobox A10) is a homeodomain-containing transcription
+  factor belonging to the **HOX gene family**, which encodes master regulators of
+  **cell-type determination and positional identity...'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Protein
+aliases: [Homeobox A10]
+
+sources:
+- PMID:17655269
+target: SIRT2
 ---
 
 # HOXA10

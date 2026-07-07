@@ -1,11 +1,13 @@
 ---
 type: entity
-category: Chemical Compound
-aliases: []
+title: Ellagic acid
+description: '**Ellagic acid** is a natural polyphenolic compound found in numerous
+  fruits and vegetables. It is released from the hydrolysis of Ellagitannins during
+  digestion and is subsequently metabolized by ...'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Chemical Compound
 ---
-
 # Ellagic acid
 
 **Ellagic acid** is a natural polyphenolic compound found in numerous fruits and vegetables. It is released from the hydrolysis of [[Ellagitannins|ellagitannins]] during digestion and is subsequently metabolized by intestinal bacteria (such as [[Gordonibacter urolithinfaciens|Gordonibacter urolithinfaciens]] and [[Ellagibacter isourolithinifaciens|Ellagibacter isourolithinifaciens]]) to produce [[Urolithins|urolithins]], including [[Urolithin A|Urolithin A]].

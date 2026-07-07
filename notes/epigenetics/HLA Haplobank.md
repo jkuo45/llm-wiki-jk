@@ -1,9 +1,11 @@
 ---
 type: entity
-category: other
-entity_type: "NA"
+title: HLA Haplobank
+description: A collection of iPSCs homozygous for common HLA types to reduce immune
+  rejection in transplantation.
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: NA
 ---
 # HLA Haplobank
 

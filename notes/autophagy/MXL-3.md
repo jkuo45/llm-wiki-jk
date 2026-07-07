@@ -1,10 +1,13 @@
 ---
-aliases:
-- C. elegans Max-like 3
-category: Gene
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: MXL-3
+description: '**MXL-3** (Max-like 3) is a basic-helix–loop–helix (bHLH) transcription
+  factor in C. elegans that acts as a key metabolic switch, repressing Lysosomal Lipolysis
+  and Lipophagy under nutrient-rich co...'
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Gene
+aliases: [C. elegans Max-like 3]
 ---
 # MXL-3
 

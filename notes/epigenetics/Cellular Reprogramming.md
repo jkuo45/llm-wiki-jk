@@ -1,9 +1,12 @@
 ---
 type: entity
-category: other
-entity_type: "NA"
+title: Cellular Reprogramming
+description: Cellular reprogramming is the process of converting one specific cell
+  type into another, typically by resetting its epigenetic state to a more primitive
+  or pluripotent condition. The most famous ex...
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: NA
 ---
 # Cellular Reprogramming
 

@@ -1,3 +1,12 @@
+---
+type: entity
+title: Leukemia
+description: '**Leukemia** is a group of blood cancers that usually begin in the bone
+  marrow and result in high numbers of abnormal blood cells.'
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Medical Condition
+---
 # Leukemia
 
 **Leukemia** is a group of blood cancers that usually begin in the bone marrow and result in high numbers of abnormal blood cells.

@@ -1,11 +1,14 @@
 ---
 type: entity
-category: cell_type
-aliases: [Oligodendroglia, Oligodendrocyte]
+title: Oligodendrocytes
+description: '**Oligodendrocytes** are the myelinating glial cells of the central
+  nervous system (CNS), responsible for producing the myelin sheath that enables rapid
+  saltatory conduction along axons. They are e...'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Cell Type
+aliases: [Oligodendroglia, Oligodendrocyte]
 ---
-
 # Oligodendrocytes
 
 **Oligodendrocytes** are the myelinating glial cells of the central nervous system (CNS), responsible for producing the myelin sheath that enables rapid saltatory conduction along axons. They are exceptionally vulnerable to [[Oxidative Stress|oxidative stress]] due to their unique metabolic and iron-handling characteristics.

@@ -1,3 +1,12 @@
+---
+type: entity
+title: Apoptosome
+description: The **Apoptosome** is a large, wheel-like multi-protein complex that
+  forms during the Intrinsic Pathway of Apoptosis.
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Enzyme
+---
 # Apoptosome
 
 The **Apoptosome** is a large, wheel-like multi-protein complex that forms during the [[Intrinsic Pathway]] of [[Apoptosis]].

@@ -1,11 +1,13 @@
 ---
 type: entity
-category: scientific_concept
-entity_type: "Scientific Concept"
+title: DNA Replication Stress
+description: '**DNA Replication Stress** describes a state of inefficient or stalled
+  DNA Replication fork progression caused by impediments such as nucleotide depletion,
+  DNA lesions, RNA-DNA hybrids (R-loops), t...'
 created: 2024-01-01
 updated: 2024-07-04
+entity_type_1: Scientific Concept
 ---
-
 # DNA Replication Stress
 
 **DNA Replication Stress** describes a state of inefficient or stalled [[DNA Replication]] fork progression caused by impediments such as nucleotide depletion, DNA lesions, RNA-DNA hybrids ([[R-loops]]), transcription-replication conflicts, or oncogene-induced hyper-replication. It is a major source of [[Genomic Instability|genomic instability]] and a driving force behind [[Cellular Senescence]] and [[Cancer]].

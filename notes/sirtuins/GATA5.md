@@ -1,21 +1,18 @@
 ---
 type: entity
-category: protein
-aliases:
-  - GATA5
-  - GATA Binding Protein 5
-  - GATA transcription factor 5
-database_ids:
-  uniprot: Q9BWX5
-  hgnc: HGNC:15851
-relations:
-  - predicate: expression_regulated_by
-    target: "SIRT6"
-    sources:
-      - Wang 2020
-      - Liu 2021
+title: GATA5
+description: '**GATA5** (GATA Binding Protein 5) is a member of the GATA family of
+  zinc-finger transcription factors (GATA1–6) that bind the consensus motif (A/T)GATA(A/G).
+  GATA5 is expressed predominantly in th...'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Protein
+aliases: [GATA5, GATA Binding Protein 5, GATA transcription factor 5]
+
+sources:
+- Wang 2020
+- Liu 2021
+target: SIRT6
 ---
 
 # GATA5

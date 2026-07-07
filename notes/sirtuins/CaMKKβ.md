@@ -1,30 +1,21 @@
 ---
 type: entity
-category: protein
+title: Calcium/Calmodulin-Dependent Protein Kinase Kinase 2 (CaMKKβ/CAMKK2)
+description: Calcium/Calmodulin-Dependent Protein Kinase Kinase 2 (CaMKKβ/CAMKK2)
+  is a serine/threonine kinase that phosphorylates and activates downstream kinases
+  including AMPK, CaMKI, and CaMKIV. It is exqui...
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Protein
 aliases:
   - CaMKKβ
   - CAMKK2
   - Calcium/Calmodulin-Dependent Protein Kinase Kinase 2
   - CaM-KK 2
-database_ids:
-  uniprot: Q96RR4
-  hgnc: HGNC:1470
-relations:
-  - predicate: activated_by
-    target: "Ca2+/Calmodulin"
-    sources:
-      - Park 2012
-  - predicate: phosphorylates_and_activates
-    target: "AMPK"
-    sources:
-      - Park 2012
-  - predicate: upstream_of
-    target: "SIRT1"
-    sources:
-      - Park 2012
-created: 2026-07-04
-updated: 2026-07-04
 ---
+
+
+
 
 # Calcium/Calmodulin-Dependent Protein Kinase Kinase 2 (CaMKKβ/CAMKK2)
 

@@ -1,14 +1,17 @@
 ---
 type: document
-title: "The role of glycation in the pathogenesis of aging and its prevention through herbal products and physical exercise"
-source: "https://pmc.ncbi.nlm.nih.gov/articles/PMC5643203/"
+title: The role of glycation in the pathogenesis of aging and its prevention through
+  herbal products and physical exercise
+source: https://pmc.ncbi.nlm.nih.gov/articles/PMC5643203/
 author:
-  - "Chan-Sik Kim"
-  - "Sok Park"
-  - "Junghyun Kim"
-published:
+- Chan-Sik Kim
+- Sok Park
+- Junghyun Kim
 created: 2026-06-14
-description: "Advanced glycation end products (AGEs) are non-enzymatic modifications of proteins or lipids after exposure to sugars. In this review, the glycation process and AGEs are introduced, and the harmful effects of AGEs in the aging process are discussed. ..."
+description: Advanced glycation end products (AGEs) are non-enzymatic modifications
+  of proteins or lipids after exposure to sugars. In this review, the glycation process
+  and AGEs are introduced, and the harmful effects of AGEs in the aging process are
+  discussed. ...
 tags:
   - "clippings"
 ---

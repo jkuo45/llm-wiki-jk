@@ -1,9 +1,11 @@
 ---
 type: entity
-category: receptor
-entity_type: "Receptor"
+title: TGF-beta Receptor
+description: The TGF-beta Receptor are single-pass serine/threonine kinase receptors.
+  They exist in several different isoforms that can be homo- or heterodimeric.
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: Receptor
 ---
 # TGF-beta Receptor
 

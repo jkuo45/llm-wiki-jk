@@ -1,11 +1,13 @@
 ---
 type: entity
-category: Enzyme
-aliases: []
+title: Matrix Metalloproteinases
+description: Matrix Metalloproteinases (MMPs) are a family of calcium-dependent, zinc-containing
+  endopeptidases responsible for the degradation and remodeling of extracellular matrix
+  (ECM) components.
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Enzyme
 ---
-
 # Matrix Metalloproteinases
 
 Matrix Metalloproteinases (MMPs) are a family of calcium-dependent, zinc-containing endopeptidases responsible for the degradation and remodeling of extracellular matrix (ECM) components.

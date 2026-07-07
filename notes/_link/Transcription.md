@@ -1,19 +1,30 @@
 ---
 type: entity
-category: biological_process
-entity_type: ""
+title: Transcription
+description: '**Transcription** is the first step of gene expression, in which a particular
+  segment of DNA is copied into RNA by the enzyme RNA polymerase.'
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: Biological Process
 ---
 # Transcription
-
 **Transcription** is the first step of gene expression, in which a particular segment of DNA is copied into RNA by the enzyme RNA polymerase.
-
 ## Epigenetic Regulation
 - Regulated by [[Chromatin]] accessibility, [[DNA Methylation]], and [[Histone Modification]].
 - "Transcriptional drift" is an age-associated phenomenon of loss of transcriptional control.
-
 ## Related
 - [[DNA Methylation]]
 - [[Epigenetics]]
 - [[Non-coding RNA]]
+
+### Connections
+- [[Chromatin]] — interacts with
+- [[DNA Methylation]] — interacts with
+- [[Histone Modification]] — interacts with
+- [[Epigenetics]] — interacts with
+- [[Non-coding RNA]] — interacts with
+
+### Linking Summary
+- New links added: [[Chromatin]], [[DNA Methylation]], [[Histone Modification]], [[Epigenetics]], [[Non-coding RNA]]
+- Strong connections to strengthen: [[Transcription]] ↔ [[Chromatin]], [[Transcription]] ↔ [[DNA Methylation]], [[Transcription]] ↔ [[Histone Modification]], [[Transcription]] ↔ [[Epigenetics]], [[Transcription]] ↔ [[Non-coding RNA]]
+

@@ -1,3 +1,10 @@
+---
+type: index
+title: Comt notes
+description: Index of wiki notes for comt
+created: 2026-07-06
+updated: 2026-07-06
+---
 # COMT
 
 This directory contains notes and research regarding [[COMT]] (Catechol-O-methyltransferase), its critical role in catecholamine (dopamine, norepinephrine, epinephrine) metabolism, and the well-known genetic variant [[Val158Met]] (rs4680). Special emphasis is placed on the "Worrier vs. Warrior" behavioral phenotypes: how the Met allele (lower COMT activity) is associated with higher prefrontal dopamine, enhanced cognitive performance under calm conditions but increased anxiety and stress sensitivity ("Worrier"), while the Val allele (higher COMT activity) is linked to faster dopamine clearance, greater stress resilience, and "Warrior" traits. The directory also covers methylation pathways, interactions with related genes ([[MTHFR]], etc.), neurotransmitter balance, cognitive function, and connections to conditions such as anxiety, mood disorders, and cognitive performance.

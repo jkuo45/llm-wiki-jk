@@ -1,7 +1,12 @@
 ---
 type: entity
-category: protein
-entity_type: "Protein"
+title: HIF-1α
+description: HIF-1α (Hypoxia-inducible factor 1-alpha) is a transcription factor that
+  mediates cellular responses to low oxygen (hypoxia). It regulates metabolic reprogramming,
+  including the shift to Glycolysis...
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Protein
 aliases:
   - Hypoxia-inducible factor 1-alpha
   - HIF1A
@@ -18,9 +23,11 @@ relations:
     target: "SIRT6"
     sources:
       - PMID:22955984
-created: 2026-07-04
-updated: 2026-07-04
+
 ---
+
+
+
 
 # HIF-1α
 

@@ -1,13 +1,15 @@
 ---
 type: entity
-category: Adverse Effect
-aliases: []
+title: Cardiotoxicity
+description: '**Cardiotoxicity** refers to the damage to the heart muscle (myocardium)
+  caused by exposure to toxins, drugs, or reactive metabolites.'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Adverse Effect
 relations:
   - predicate: caused_by
-    target: "Adrenochrome"
-    sources: []
+sources: []
+target: Adrenochrome
 ---
 
 # Cardiotoxicity

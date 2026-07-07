@@ -1,9 +1,11 @@
 ---
 type: entity
-category: other
-entity_type: "NA"
+title: Drug Discovery
+description: '- Disease Modeling: Provides the cellular platforms and ''disease in
+  a dish'' models used for Drug Discovery.'
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: NA
 ---
 # Drug Discovery
 

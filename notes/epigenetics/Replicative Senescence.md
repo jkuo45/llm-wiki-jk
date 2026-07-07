@@ -1,11 +1,13 @@
 ---
 type: entity
-category: biological_process
-entity_type: "Biological Process"
+title: Replicative Senescence
+description: '**Replicative Senescence** (also termed the Hayflick limit) is the state
+  of irreversible cell cycle arrest that normal somatic cells enter after a finite
+  number of divisions. First described by Leo...'
 created: 2024-01-01
 updated: 2024-07-04
+entity_type_1: Biological Process
 ---
-
 # Replicative Senescence
 
 **Replicative Senescence** (also termed the Hayflick limit) is the state of irreversible cell cycle arrest that normal somatic cells enter after a finite number of divisions. First described by [[Leonard Hayflick]] in 1961 in cultured human [[Fibroblast|fibroblasts]], this process is driven by progressive [[Telomere Attrition|telomere shortening]] that ultimately triggers a persistent [[DNA Damage Response|DNA damage response]].

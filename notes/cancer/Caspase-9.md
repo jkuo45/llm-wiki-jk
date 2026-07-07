@@ -1,3 +1,12 @@
+---
+type: entity
+title: Caspase-9
+description: '**Caspase-9** is the primary initiator protease of the Intrinsic Pathway
+  of Apoptosis.'
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Enzyme
+---
 # Caspase-9
 
 **Caspase-9** is the primary initiator protease of the [[Intrinsic Pathway]] of [[Apoptosis|apoptosis]].

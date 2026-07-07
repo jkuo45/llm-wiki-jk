@@ -1,19 +1,24 @@
 ---
-title: "RGD peptide in cancer targeting: Benefits, challenges, solutions, and possible integrin–RGD interactions"
-source: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10832341/"
+type: document
+title: 'RGD peptide in cancer targeting: Benefits, challenges, solutions, and possible
+  integrin–RGD interactions'
+source: https://pmc.ncbi.nlm.nih.gov/articles/PMC10832341/
 author:
-  - "Hossein Javid"
-  - "Mahsa Akbari Oryani"
-  - "Nastaran Rezagholinejad"
-  - "Ali Esparham"
-  - "Mahboubeh Tajaldini"
-  - "Mehdi Karimi‐Shahri"
-published:
+- Hossein Javid
+- Mahsa Akbari Oryani
+- Nastaran Rezagholinejad
+- Ali Esparham
+- Mahboubeh Tajaldini
+- Mehdi Karimi‐Shahri
 created: 2026-05-20
-description: "RGD peptide can be found in cell adhesion and signaling proteins, such as fibronectin, vitronectin, and fibrinogen. RGD peptides' principal function is to facilitate cell adhesion by interacting with integrin receptors on the cell surface. They have ..."
+description: RGD peptide can be found in cell adhesion and signaling proteins, such
+  as fibronectin, vitronectin, and fibrinogen. RGD peptides' principal function is
+  to facilitate cell adhesion by interacting with integrin receptors on the cell surface.
+  They have ...
 tags:
   - "clippings"
 ---
+
 . 2024 Feb 1;13(2):e6800. doi: [10.1002/cam4.6800](https://doi.org/10.1002/cam4.6800)
 
 [Hossein Javid](https://pubmed.ncbi.nlm.nih.gov/?term=%22Javid%20H%22[Author]) <sup>1,</sup><sup>2,</sup><sup>3,</sup><sup>✉</sup>, [Mahsa Akbari Oryani](https://pubmed.ncbi.nlm.nih.gov/?term=%22Oryani%20MA%22[Author]) <sup>4</sup>, [Nastaran Rezagholinejad](https://pubmed.ncbi.nlm.nih.gov/?term=%22Rezagholinejad%20N%22[Author]) <sup>5</sup>, [Ali Esparham](https://pubmed.ncbi.nlm.nih.gov/?term=%22Esparham%20A%22[Author]) <sup>6</sup>, [Mahboubeh Tajaldini](https://pubmed.ncbi.nlm.nih.gov/?term=%22Tajaldini%20M%22[Author]) <sup>7</sup>, [Mehdi Karimi‐Shahri](https://pubmed.ncbi.nlm.nih.gov/?term=%22Karimi%E2%80%90Shahri%20M%22[Author]) <sup>4,</sup><sup>8,</sup><sup>✉</sup>

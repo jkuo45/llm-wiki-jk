@@ -1,11 +1,13 @@
 ---
 type: entity
-category: Medical Condition
-aliases: []
+title: Insulin Resistance
+description: Insulin resistance is a pathological condition in which cells fail to
+  respond normally to the hormone insulin. It is a hallmark of type 2 Diabetes Mellitus
+  and has been linked to the intake and acc...
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Medical Condition
 ---
-
 # Insulin Resistance
 
 Insulin resistance is a pathological condition in which cells fail to respond normally to the hormone insulin. It is a hallmark of type 2 [[Diabetes Mellitus]] and has been linked to the intake and accumulation of dietary [[Advanced Glycation End Products|AGEs]], which may promote systemic inflammation and oxidative stress.

@@ -1,27 +1,21 @@
 ---
 type: entity
-category: protein
+title: Androgen receptor
+description: Androgen receptor (AR, NR3C4) is a steroid hormone-activated nuclear
+  receptor transcription factor that mediates the physiological effects of androgens
+  (testosterone and dihydrotestosterone). It co...
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Protein
 aliases:
   - AR
   - NR3C4
   - Dihydrotestosterone receptor
   - Testosterone receptor
-database_ids:
-  uniprot: P10275
-  hgnc: HGNC:644
-relations:
-  - predicate: deacetylated_by
-    target: "SIRT1"
-    sources:
-      - Dai 2007
-      - Fu 2006
-  - predicate: repressed_by
-    target: "SIRT1"
-    sources:
-      - Dai 2007
-created: 2026-07-04
-updated: 2026-07-04
 ---
+
+
+
 
 # Androgen receptor
 

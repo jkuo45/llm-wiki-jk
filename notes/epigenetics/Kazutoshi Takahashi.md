@@ -1,9 +1,12 @@
 ---
 type: entity
-category: other
-entity_type: "NA"
+title: Kazutoshi Takahashi
+description: Kazutoshi Takahashi is a Japanese scientist known for his work in stem
+  cell research. Working in the laboratory of Shinya Yamanaka at Kyoto University,
+  he co-discovered that Somatic Cells can be re...
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: NA
 ---
 # Kazutoshi Takahashi
 

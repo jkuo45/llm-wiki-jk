@@ -1,9 +1,12 @@
 ---
 type: entity
-category: other
-entity_type: "NA"
+title: Regenerative Medicine
+description: The advent of Induced Pluripotent Stem Cells (iPSC) technology has been
+  a paradigm shift for Regenerative Medicine. Before iPSCs, Stem Cell Research relied
+  heavily on Embryonic Stem Cells (ESCs), w...
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: NA
 ---
 # Regenerative Medicine
 

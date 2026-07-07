@@ -1,7 +1,12 @@
 ---
 type: entity
-category: medical_condition
-entity_type: Medical Condition
+title: Cancer
+description: Cancer is a large group of diseases characterized by uncontrolled cell
+  growth with the potential to invade or spread to other parts of the body. It shares
+  a "meta-hallmark" of epigenetic instabilit...
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Medical Condition
 aliases:
   - Malignancy
   - Tumor
@@ -31,9 +36,11 @@ relations:
     target: "Autophagy"
     sources:
       - PMID:22628519
-created: 2026-07-04
-updated: 2026-07-04
+
 ---
+
+
+
 
 # Cancer
 

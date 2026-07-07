@@ -1,13 +1,13 @@
 ---
 type: entity
-category: receptor
-aliases:
-  - 'D2 dopamine receptor'
-  - 'DRD2'
+title: D2 receptor
+description: The **D2 receptor** is a subtype of Dopamine receptor that is primarily
+  inhibitory in the central nervous system.
 created: 2026-05-25
 updated: 2026-07-04
+entity_type_1: Receptor
+aliases: [D2 dopamine receptor, DRD2]
 ---
-
 # D2 receptor
 
 The **[[D2 receptor]]** is a subtype of [[Dopamine]] receptor that is primarily inhibitory in the central nervous system.

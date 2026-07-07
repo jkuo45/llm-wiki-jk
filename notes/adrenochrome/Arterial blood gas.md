@@ -1,11 +1,11 @@
 ---
 type: entity
-category: Diagnostic Test
-aliases: []
+title: Arterial blood gas
+description: '- ABG: Common abbreviation for Arterial Blood Gas.'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Diagnostic Test
 ---
-
 # Arterial blood gas
 
 [[Arterial blood gas]] (ABG) is a lab test used to measure the levels of oxygen and carbon dioxide in the blood. In [[Methemoglobinemia]], ABG may show a normal partial pressure of oxygen (PaO₂) despite clinical [[Cyanosis]] and true tissue [[Hypoxia]].

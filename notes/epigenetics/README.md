@@ -1,3 +1,10 @@
+---
+type: index
+title: Epigenetics notes
+description: Index of wiki notes for epigenetics
+created: 2026-07-06
+updated: 2026-07-06
+---
 # Epigenetics
 
 This directory contains notes and research regarding [[Epigenetics]], including DNA methylation, histone modifications, chromatin remodeling, epigenetic clocks, and their roles in aging, gene expression regulation, disease development (particularly [[Cancer]], neurodegenerative diseases, and metabolic disorders), microbiome influences, and longevity interventions.
@@ -10,13 +17,13 @@ This directory contains notes and research regarding [[Yamanaka Factors]] (OSKM:
 - Total count of entities: 217
 
 **entity_relevance_score_1 (1-10):** This score measures the centrality of the entity to core epigenetic mechanisms, chromatin regulation, and associated processes like gene expression control, aging, and disease.
-- **10 (Core)**: Essential master regulators, core machinery, or the processes themselves (e.g., [[DNMT1]], [[DNMT3A]], [[TET enzymes]], [[HDAC1/2]], [[Histone H3K27me3]], [[DNA Methylation]], [[Chromatin Remodeling]], [[Epigenetic Clock]]).
-- **7-9 (High)**: Key writers/readers/erasers, major histone marks, upstream signaling that directly drives epigenetic states, or primary tools/interventions (e.g., [[EZH2]], [[p300/CBP]], [[SWI/SNF complex]], [[Histone Acetylation]], [[CRISPR-based epigenetic editors]], [[Caloric Restriction]] or other longevity interventions that act via epigenetics).
+- **10 (Core)**: Essential master regulators, core machinery, or the processes themselves (e.g., [[DNMT1]], [[DNMT3a]], [[TET Enzymes]], [[HDAC1]]/[[HDAC2]], [[Histone H3K27me3]], [[DNA Methylation]], [[Chromatin Remodeling]], [[Epigenetic Clock]]).
+- **7-9 (High)**: Key writers/readers/erasers, major histone marks, upstream signaling that directly drives epigenetic states, or primary tools/interventions (e.g., [[EZH2]], [[P300]]/[[CBP]], [[SWI/SNF complex]], [[Histone Acetylation]], [[CRISPR-based epigenetic editors]], [[Caloric Restriction]] or other longevity interventions that act via epigenetics).
 - **4-6 (Moderate)**: Downstream effectors, specific cell-type contexts, biomarkers, or entities significantly influenced by or influencing epigenetics but not exclusive to it (e.g., [[p53|TP53]], specific miRNAs/lncRNAs, [[Telomeres]] in aging contexts, certain transcription factors).
 - **1-3 (Low/Tangential)**: Distant or context-specific connections (e.g., general environmental toxins without clear epigenetic mechanisms, unrelated diseases, or historical figures in genetics).
 
 **entity_sentiment_score_1 (-1, 0, 1):** This score reflects the functional directionality of the entity relative to healthy epigenetic regulation, proper gene expression, cellular homeostasis, healthy aging, and disease prevention/reversal.
-- **1 (Stimulatory/Positive)**: Promoters of balanced/healthy epigenetic states, gene activation where appropriate, youthful patterns, or beneficial interventions (e.g., [[TET enzymes]] (demethylation), [[Histone Acetyltransferases (HATs)]], [[Dietary Restriction]] or exercise that improve epigenetic clocks, beneficial microbiome influences).
+- **1 (Stimulatory/Positive)**: Promoters of balanced/healthy epigenetic states, gene activation where appropriate, youthful patterns, or beneficial interventions (e.g., [[TET Enzymes]] (demethylation), [[Histone Acetyltransferases (HATs)]], [[Dietary Restriction]] or exercise that improve epigenetic clocks, beneficial microbiome influences).
 - **0 (Neutral/Structural)**: Core structural components, general machinery with context-dependent roles, or marks whose effects vary by locus/cell type (e.g., many histone modifications like H3K4me3, core histones, general [[Chromatin Remodeling Complexes]], [[Epigenetic Clock]] as a measurement tool).
 - **-1 (Inhibitory/Negative)**: Drivers of pathological epigenetic changes, aberrant silencing/activation, accelerated aging, or disease-associated states (e.g., hyperactive [[DNMTs]] leading to aberrant methylation in cancer, [[HDACs]] in certain repressive contexts, [[EZH2]] overexpression, [[Inflammation]] or metabolic stress causing epigenetic drift, advanced [[Epigenetic Age]] acceleration).
 
@@ -143,7 +150,7 @@ This directory contains notes and research regarding [[Yamanaka Factors]] (OSKM:
 | [[Hutchinson-Gilford Progeria Syndrome]] | 04_Jun_2026 09:15 PM | Medical Condition      | 7                        | -1                       | Accelerated aging disorder caused by LMNA mutations, characterized by severe loss of heterochromatin.       |
 | [[Hydrogen Peroxide]] | 13_Jun_2026 12:00 PM PDT | Chemical Compound | 8 | -1 | Standard reactive oxygen species used to model stress-induced premature senescence in vitro. |
 | [[Hydroxyurea]] | 13_Jun_2026 12:00 PM PDT | Chemical Compound | 7 | -1 | Drug that depletes dNTP pools, inducing S-phase arrest and senescence-like phenotypes. |
-| [[IGF-1]]                                | 04_Jun_2026 09:15 PM | Protein                | 7                        | -1                       | Growth factor whose signaling levels are inversely correlated with longevity and influence aging.           |
+| [[IGF1]]                                | 04_Jun_2026 09:15 PM | Protein                | 7                        | -1                       | Growth factor whose signaling levels are inversely correlated with longevity and influence aging.           |
 | [[Immune System]]                        | 04_Jun_2026 09:15 PM | Anatomy                | 5                        | 0                        | System of biological structures and processes whose function is shaped by complex epigenetic programming.   |
 | [[Immunosenescence]]                     | 04_Jun_2026 09:15 PM | Biological Process     | 7                        | -1                       | The age-related decline in immune function, driven by epigenetic changes in hematopoietic lineages.         |
 | [[Inflammaging]]                         | 04_Jun_2026 09:15 PM | Biological Process     | 8                        | -1                       | Chronic, low-grade inflammation during aging that induces pathological epigenetic shifts.                   |
@@ -248,7 +255,7 @@ This directory contains notes and research regarding [[Yamanaka Factors]] (OSKM:
 | [[Xenohormesis]] | 16_JUN_2026 11:20 PM PDT | Scientific Theory | 6 | 1 | Hypothesis explaining evolutionary adaptation to cross-species stress signals. |
 | [[Hormesis]] | 16_JUN_2026 11:20 PM PDT | Biological Process | 7 | 1 | Beneficial adaptive response triggered by low doses of a stressor. |
 | [[Phytochemicals]] | 16_JUN_2026 11:20 PM PDT | Chemical Class | 6 | 1 | Plant secondary metabolites that act as xenohormetic signals in heterotrophs. |
-| [[Nrf2]] | 16_JUN_2026 11:20 PM PDT | Transcription Factor | 8 | 1 | Master regulator of antioxidant response activated by xenohormetic compounds. |
+| [[NRF2]] | 16_JUN_2026 11:20 PM PDT | Transcription Factor | 8 | 1 | Master regulator of antioxidant response activated by xenohormetic compounds. |
 
 | 25_May_2026 05:23 PM | Medical Condition |  | - | - | Merged from Yamanaka Factors |
 | 25_May_2026 05:23 PM | Medical Condition |  | - | - | Merged from Yamanaka Factors |

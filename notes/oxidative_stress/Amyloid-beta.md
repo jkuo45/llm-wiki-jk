@@ -1,25 +1,22 @@
 ---
 type: entity
-category: protein
-aliases:
-  - "Aβ"
-  - "beta-amyloid"
-  - "Aβ peptide"
-tags:
-  - "oxidative_stress"
-  - "alzheimers"
-  - "neurodegeneration"
+title: Amyloid-beta
+description: Amyloid-beta (Aβ) denotes peptides of 36–43 amino acids that are the
+  main component of the amyloid plaques found in the brains of people with Alzheimer's
+  Disease.
 created: 2026-05-09
 updated: 2026-07-04
+entity_type_1: Protein
+aliases: [Aβ, beta-amyloid, Aβ peptide]
+tags: [oxidative_stress, alzheimers, neurodegeneration]
 ---
-
 # Amyloid-beta
 Amyloid-beta (Aβ) denotes peptides of 36–43 amino acids that are the main component of the amyloid plaques found in the brains of people with [[Alzheimer's Disease]].
 
 ### Linking Summary:
 - New links added: [[Alzheimer's Disease]]
 - Suggested new entity notes to create: [[Amyloid plaques]], [[Neurotoxicity]]
-- Strong connections to strengthen: [[Amyloid-beta]] ↔ [[Alzheimer's Disease]]
+- Strong connections to strengthen: [[Amyloid Beta]] ↔ [[Alzheimer's Disease]]
 
 ## Molecular Mechanisms in Oxidative Stress
 
@@ -41,4 +38,4 @@ Positron emission tomography (PET) imaging with Aβ-binding radiotracers (e.g., 
 ## Linking Summary (New Additions)
 - New links added: [[APP]], [[BACE1]], [[Hydrogen Peroxide]], [[Fenton Reaction]], [[Hydroxyl Radicals]], [[Mitochondria]], [[Lipid Peroxidation]], [[Malondialdehyde]], [[4-Hydroxynonenal]], [[Lipids]], [[Glutathione]], [[Glutathione Peroxidase]], [[GSK3]], [[CDK5]], [[Neurodegeneration]], [[N-Acetylcysteine]], [[Vitamin E]]
 - Suggested new entity notes to create: [[4-Hydroxynonenal]], [[BACE1]], [[CDK5]], [[Sirtuins]], [[Complex IV]], [[Carbonylation]]
-- Strong connections to strengthen: [[Amyloid-beta]] ↔ [[Lipid Peroxidation]], [[Amyloid-beta]] ↔ [[Mitochondria]]
+- Strong connections to strengthen: [[Amyloid Beta]] ↔ [[Lipid Peroxidation]], [[Amyloid Beta]] ↔ [[Mitochondria]]

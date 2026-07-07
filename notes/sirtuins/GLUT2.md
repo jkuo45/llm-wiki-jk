@@ -1,26 +1,20 @@
 ---
 type: entity
-category: protein
+title: GLUT2
+description: GLUT2 (Glucose Transporter 2, encoded by SLC2A2) is a facilitative glucose
+  transporter with low affinity and high capacity for glucose. It is the principal
+  glucose transporter in pancreatic β-cells...
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Protein
 aliases:
   - SLC2A2
   - Glucose Transporter 2
   - Solute Carrier Family 2 Member 2
-database_ids:
-  uniprot: P11168
-  hgnc: HGNC:11006
-relations:
-  - predicate: expression_regulated_by
-    target: "SIRT6"
-    sources:
-      - Song 2016
-      - Xiong 2016
-  - predicate: expression_increased_by
-    target: "SIRT6"
-    sources:
-      - Song 2016
-created: 2026-07-04
-updated: 2026-07-04
 ---
+
+
+
 
 # GLUT2
 

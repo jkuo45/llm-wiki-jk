@@ -1,11 +1,12 @@
 ---
 type: entity
-category: protein
-aliases: []
+title: Complex I
+description: '- New links added: MPP+, Paraquat, Mitochondrial Dysfunction, Parkinson''s
+  Disease.'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Protein
 ---
-
 # Complex I
 
 [[Complex I]] (NADH:ubiquinone oxidoreductase) is the first and largest enzyme complex of the mitochondrial respiratory chain. It plays a crucial role in electron transport and ATP production. Inhibition of Complex I, often by neurotoxins like [[MPP+]] or pesticides like [[Paraquat]], is a key mechanism of [[Mitochondrial Dysfunction]] in [[Parkinson's Disease]].

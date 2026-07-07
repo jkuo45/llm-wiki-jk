@@ -1,3 +1,10 @@
+---
+type: index
+title: Neuromelanin notes
+description: Index of wiki notes for neuromelanin
+created: 2026-07-06
+updated: 2026-07-06
+---
 # Neuromelanin
 
 This directory contains notes and research regarding [[Neuromelanin]], its biosynthesis in dopaminergic and noradrenergic neurons, accumulation in the [[Substantia Nigra]] and [[Locus Coeruleus]], role in iron binding and oxidative stress, and its involvement in [[Parkinson's Disease]], [[Lewy Bodies]], and related neurodegenerative processes. The central theme of this research is the role of neuromelanin as a key factor in the selective vulnerability of catecholaminergic neurons in Parkinson's disease. While initially a neuroprotective antioxidant, its age-dependent accumulation may eventually cross a [[Pathogenic Threshold of Neuromelanin]], leading to cellular dysfunction and neurodegeneration.
@@ -15,14 +22,14 @@ This directory contains notes and research regarding [[Neuromelanin]], its biosy
 | [[A53T]]                                     | 04_Jul_2026 12:00 PM | Genetic Variant         |
 | [[Addiction]]                                | 11_Jun_2026 04:00 PM | Scientific Concept      |
 | [[Aminochromes]]                             | 04_Jul_2026 12:00 PM | Chemical Class          |
-| [[Alpha-Synuclein]]                          | 25_May_2026 05:23 PM | Protein                 |
+| [[Alpha-synuclein]]                          | 25_May_2026 05:23 PM | Protein                 |
 | [[Alpha-Synuclein Aggregation]]              | 31_May_2026 03:00 PM | Biological Process      |
 | [[Ambroxol]]                                 | 31_May_2026 02:45 PM | Chemical Compound       |
 | [[Aminochrome]]                              | 11_Jun_2026 04:00 PM | Chemical Compound       |
 | [[Antigen Presentation]]                     | 31_May_2026 03:00 PM | Biological Process      |
 | [[Apoptosis]]                                | 11_Jun_2026 04:00 PM | Biological Process      |
 | [[Aromatic L-amino acid decarboxylase]]      | 11_Jun_2026 04:00 PM | Enzyme                  |
-| [[Ascorbic acid]]                            | 11_Jun_2026 04:00 PM | Chemical Compound       |
+| [[Ascorbic Acid]]                            | 11_Jun_2026 04:00 PM | Chemical Compound       |
 | [[Autophagy]]                    | 27_May_2026 09:48 AM | Biological Process      |
 | [[Basal Ganglia]]                            | 04_Jul_2026 12:00 PM | Anatomy                 |
 | [[Benzothiazine]]                            | 11_Jun_2026 04:00 PM | Chemical Class          |

@@ -1,11 +1,13 @@
 ---
 type: entity
-category: Chemical Compound
-aliases: []
+title: Doxycycline
+description: Doxycycline is an antibiotic that interferes with mitochondrial translation,
+  thereby activating the Mitochondrial Unfolded Protein Response and potentially extending
+  lifespan in model organisms.
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Chemical Compound
 ---
-
 # Doxycycline
 
 Doxycycline is an antibiotic that interferes with mitochondrial translation, thereby activating the [[Mitochondrial Unfolded Protein Response]] and potentially extending lifespan in model organisms.

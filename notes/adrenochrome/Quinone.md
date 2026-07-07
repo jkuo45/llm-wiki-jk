@@ -1,11 +1,13 @@
 ---
 type: entity
-category: Chemical Class
-aliases: []
+title: Quinone
+description: '**Quinones** are a class of organic compounds derived from aromatic
+  compounds (such as benzene or naphthalene) by conversion of an even number of -CH=
+  groups into -C(=O)- groups, resulting in a ful...'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Chemical Class
 ---
-
 # Quinone
 
 **Quinones** are a class of organic compounds derived from aromatic compounds (such as benzene or naphthalene) by conversion of an even number of -CH= groups into -C(=O)- groups, resulting in a fully conjugated cyclic dione structure.

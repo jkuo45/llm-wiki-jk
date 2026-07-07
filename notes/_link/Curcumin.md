@@ -1,7 +1,12 @@
 ---
 type: entity
-category: chemical
-entity_type: "Chemical Compound"
+title: Curcumin
+description: Curcumin is a polyphenolic compound derived from _Curcuma longa_ (turmeric)
+  with pleiotropic biological activities including Histone Acetyltransferase (HAT)
+  inhibition, NF-κB suppression, and antio...
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Chemical Compound
 aliases:
   - Diferuloylmethane
   - Turmeric
@@ -22,9 +27,11 @@ relations:
     target: "notes/_link/Senescence"
     sources:
       - PMID:24842829
-created: 2026-07-04
-updated: 2026-07-04
+
 ---
+
+
+
 
 # Curcumin
 

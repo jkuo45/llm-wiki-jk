@@ -1,15 +1,18 @@
 ---
 type: entity
-category: NA
-aliases: ["Sirt1"]
+title: SIRT1
+description: '**Sirt1** is a NAD+-dependent class III histone deacetylase (sirtuin)
+  and the most extensively characterized member of the Sirtuins family. It links cellular
+  energy status to chromatin regulation, ...'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: NA
+aliases: [Sirt1]
 ---
-
 # SIRT1
 
 
-## From [[Sirt1]]
+## From [[SIRT1]]
 
 # Sirt1
 
@@ -20,7 +23,7 @@ updated: 2026-07-04
 Sirt1 couples lysine deacetylation to [[NAD+|NAD^+]] hydrolysis, generating [[Nicotinamide]] and 2'-O-acetyl-ADP-ribose. This NAD^+ dependence makes Sirt1 activity directly responsive to metabolic state: when energy is scarce (high NAD^+/NADH ratio), Sirt1 activity increases. Key targets include:
 
 - **Histones:** H3K9ac, H3K14ac, H4K16ac — deacetylation promotes [[Heterochromatin]] formation and transcriptional silencing at repetitive elements and pro-aging loci.
-- **Non-histone proteins:** [[p53]] (deacetylation reduces p53 transcriptional activity), [[FOXO]] factors (enhances FOXO-dependent stress resistance), [[PGC-1α]] (activates mitochondrial biogenesis), [[NFKB|NF-κB]] (suppresses inflammatory signaling), and [[Liver X Receptor|LXR]] (regulates cholesterol metabolism).
+- **Non-histone proteins:** [[p53]] (deacetylation reduces p53 transcriptional activity), [[FOXO]] factors (enhances FOXO-dependent stress resistance), [[PGC1-α]] (activates mitochondrial biogenesis), [[NFKB|NF-κB]] (suppresses inflammatory signaling), and [[Liver X Receptor|LXR]] (regulates cholesterol metabolism).
 
 ## Physiological Functions
 
@@ -40,7 +43,7 @@ Sirt1 levels decline in multiple tissues with age, coinciding with [[NAD+|NAD^+]
 - **Interventions:** [[Nicotinamide Riboside]] and [[Nicotinamide Mononucleotide]] boost NAD^+ levels and are in clinical trials for their Sirt1-dependent benefits.
 
 ### Linking Summary:
-- New links added: [[HDAC]], [[Epigenetics]], [[NAD+]], [[Sirtuins]], [[p53]], [[FOXO]], [[PGC-1α]], [[NFKB]], [[Resveratrol]], [[Caloric Restriction]], [[Nicotinamide Riboside]], [[Nicotinamide Mononucleotide]]
+- New links added: [[HDAC]], [[Epigenetics]], [[NAD+]], [[Sirtuins]], [[p53]], [[FOXO]], [[PGC1-α]], [[NFKB]], [[Resveratrol]], [[Caloric Restriction]], [[Nicotinamide Riboside]], [[Nicotinamide Mononucleotide]]
 - Suggested new entity notes to create: [[CLOCK]], [[BMAL1]], [[SRT1720]]
 - Strong connections to strengthen: [[SIRT1]] ↔ [[NAD+]], [[SIRT1]] ↔ [[HDAC]]
 
@@ -90,7 +93,7 @@ SIRT1 facilitates the formation of heterochromatin by deacetylating:
 ### Energy Metabolism
 
 - **PPAR-γ / aP2**: Represses adipogenesis genes; promotes fat mobilisation in white adipose tissue.
-- **[[PGC-1α]]**: Deacetylation represses glycolysis, increases hepatic glucose output, modulates mitochondrial function, and induces oxidative phosphorylation genes and mitochondrial biogenesis. Key downstream effector for neuroprotection.
+- **[[PGC1-α]]**: Deacetylation represses glycolysis, increases hepatic glucose output, modulates mitochondrial function, and induces oxidative phosphorylation genes and mitochondrial biogenesis. Key downstream effector for neuroprotection.
 - **[[FoxO1]]**: Enhances [[FoxO1]] interaction with C/EBPα, increasing [[Adiponectin]] concentrations. Also promotes NeuroD and MafA transcription for insulin secretion and β-cell survival.
 - **[[UCP2]]**: Transcriptional repression enhances glucose-stimulated insulin secretion and ATP production in pancreatic β-cells.
 - **[[AceCS1]]** (cytoplasmic): Deacetylation activates acetyl-CoA synthetase 1, regulating fatty acid synthesis.
@@ -102,7 +105,7 @@ SIRT1 is expressed mainly in neuronal bodies and is highly expressed in the embr
 - Protects against axonal/Wallerian degeneration in concert with the NAD⁺ biosynthetic enzyme Nmnat.
 - Protects against β-amyloid toxicity by inhibiting [[NFKB|NF-κB]] signalling in microglia.
 - Downregulates ROCK1 expression in neurons, inducing α-secretase (relevant to Alzheimer's disease prevention under CR).
-- Neuroprotects via [[PGC-1α]]-mediated mitochondrial maintenance.
+- Neuroprotects via [[PGC1-α]]-mediated mitochondrial maintenance.
 
 ### Inflammation
 
@@ -142,7 +145,7 @@ SIRT1 is a key mediator of [[Caloric Restriction]] benefits in mammals. CR incre
 - [[NAD+]] — obligatory co-substrate for deacetylase activity
 - [[OAADPr]] — unique by-product of SIRT1-catalysed deacetylation
 - [[p53]] — major regulatory target; SIRT1 deacetylates and suppresses p53-mediated apoptosis
-- [[PGC-1α]] — downstream effector of SIRT1 in metabolism and neuroprotection
+- [[PGC1-α]] — downstream effector of SIRT1 in metabolism and neuroprotection
 - [[Resveratrol]] — pharmacological activator (STAC)
 - [[Caloric Restriction]] — SIRT1 is proposed mediator of CR-dependent longevity benefits
 - [[SIRT2]] — Class I sirtuin family member; both have deacetylase and ADP-ribosyl transferase activities
@@ -151,9 +154,9 @@ SIRT1 is a key mediator of [[Caloric Restriction]] benefits in mammals. CR incre
 
 ## Linking Summary
 
-- New links added: [[Sir2 (yeast)]], [[NAD+]], [[OAADPr]], [[p53]], [[PGC-1α]], [[Resveratrol]], [[Caloric Restriction]], [[SIRT2]], [[SIRT3]], [[FoxO1]], [[FOXO3a]], [[UCP2]], [[NFKB|NF-κB (RelA/p65)]], [[SIRT4]], [[SIRT6]], [[MyoD]]
+- New links added: [[Sir2 (yeast)]], [[NAD+]], [[OAADPr]], [[p53]], [[PGC1-α]], [[Resveratrol]], [[Caloric Restriction]], [[SIRT2]], [[SIRT3]], [[FoxO1]], [[FOXO3a]], [[UCP2]], [[NFKB|NF-κB (RelA/p65)]], [[SIRT4]], [[SIRT6]], [[MyoD]]
 - Suggested new entity notes to create: [[FOXO3a]], [[FOXO4]], [[Smad7]], [[Ku70]], [[E2F1]], [[p73]], [[HIC1]], [[NMNAT]], [[MEF2D]], [[PML]]
-- Strong connections to strengthen: [[SIRT1]] ↔ [[p53]], [[SIRT1]] ↔ [[PGC-1α]], [[SIRT1]] ↔ [[Caloric Restriction]]
+- Strong connections to strengthen: [[SIRT1]] ↔ [[p53]], [[SIRT1]] ↔ [[PGC1-α]], [[SIRT1]] ↔ [[Caloric Restriction]]
 
 # SIRT1
 
@@ -229,7 +232,7 @@ SIRT1 catalyzes the cleavage of [[NAD+]] to nicotinamide and [[OAADPr]] (2′-O-
 
 ## Substrate Diversity
 
-SIRT1 deacetylates a broad spectrum of non-histone substrates beyond its canonical histones: (i) metabolic regulators [[PGC-1α]], [[PPARγ]], and [[FOXO]] factors; (ii) stress response proteins [[p53]], [[Ku70]], and [[HIF-1α]]; (iii) cell cycle regulators [[E2F1]] and [[Retinoblastoma Protein]]; (iv) inflammatory mediators [[NFKB|NF-κB]] and [[STAT3]]; and (v) autophagy machinery including [[TFEB]] and [[ATG]] proteins. Each deacetylation event alters substrate activity, stability, or subcellular localization, allowing SIRT1 to coordinate pleiotropic cellular responses through a single catalytic activity. This substrate diversity explains SIRT1's involvement in metabolism, stress resistance, inflammation, and longevity.
+SIRT1 deacetylates a broad spectrum of non-histone substrates beyond its canonical histones: (i) metabolic regulators [[PGC1-α]], [[PPARγ]], and [[FOXO]] factors; (ii) stress response proteins [[p53]], [[Ku70]], and [[HIF-1α]]; (iii) cell cycle regulators [[E2F1]] and [[Retinoblastoma Protein]]; (iv) inflammatory mediators [[NFKB|NF-κB]] and [[STAT3]]; and (v) autophagy machinery including [[TFEB]] and [[ATG]] proteins. Each deacetylation event alters substrate activity, stability, or subcellular localization, allowing SIRT1 to coordinate pleiotropic cellular responses through a single catalytic activity. This substrate diversity explains SIRT1's involvement in metabolism, stress resistance, inflammation, and longevity.
 
 ## Activation by NAD⁺ Precursors and Resveratrol
 
@@ -237,7 +240,7 @@ SIRT1 can be activated pharmacologically. [[Resveratrol]], a polyphenolic [[Stil
 
 ## Role in Mitochondrial Function and Stress Resistance
 
-SIRT1 promotes mitochondrial health through multiple axes: (i) deacetylation of [[PGC-1α]] drives [[Mitochondrial Biogenesis]]; (ii) deacetylation of [[FOXO3a]] induces [[Manganese superoxide dismutase|SOD2]] and [[Catalase]], enhancing [[Reactive Oxygen Species|ROS]] detoxification; (iii) deacetylation of [[HIF-1α]] and [[HIF-2α]] modulates metabolic adaptation to hypoxia; and (iv) deacetylation of [[TFEB]] promotes [[Autophagy]] and [[Mitophagy]]. This coordinated regulation establishes SIRT1 as a master integrator of the [[Mitohormesis|mitohormetic]] response, linking mild mitochondrial stress signals to transcriptional programs that enhance cellular resilience.
+SIRT1 promotes mitochondrial health through multiple axes: (i) deacetylation of [[PGC1-α]] drives [[Mitochondrial Biogenesis]]; (ii) deacetylation of [[FOXO3a]] induces [[Manganese superoxide dismutase|SOD2]] and [[Catalase]], enhancing [[Reactive Oxygen Species|ROS]] detoxification; (iii) deacetylation of [[HIF-1α]] and [[HIF-2α]] modulates metabolic adaptation to hypoxia; and (iv) deacetylation of [[TFEB]] promotes [[Autophagy]] and [[Mitophagy]]. This coordinated regulation establishes SIRT1 as a master integrator of the [[Mitohormesis|mitohormetic]] response, linking mild mitochondrial stress signals to transcriptional programs that enhance cellular resilience.
 
 ## Connection to Mitohormesis and Longevity
 

@@ -1,11 +1,14 @@
 ---
 type: entity
-category: chemical_compound
-aliases: [Mitoquinone, Mitoquinone mesylate, mitoQ]
+title: MitoQ
+description: '**MitoQ (Mitoquinone mesylate)** is a mitochondria-targeted antioxidant
+  composed of a ubiquinone (Coenzyme Q10) moiety covalently linked to a triphenylphosphonium
+  (TPP⁺) lipophilic cation, enabling...'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Chemical Compound
+aliases: [Mitoquinone, Mitoquinone mesylate, mitoQ]
 ---
-
 # MitoQ
 
 **MitoQ (Mitoquinone mesylate)** is a mitochondria-targeted antioxidant composed of a ubiquinone ([[Coenzyme Q10|CoQ10]]) moiety covalently linked to a triphenylphosphonium (TPP⁺) lipophilic cation, enabling selective accumulation in the mitochondrial matrix.

@@ -1,9 +1,11 @@
 ---
 type: entity
-category: other
-entity_type: "NA"
+title: High-Throughput Screening
+description: A method for scientific experimentation especially used in drug discovery
+  and relevant to biology and chemistry.
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: NA
 ---
 # High-Throughput Screening
 

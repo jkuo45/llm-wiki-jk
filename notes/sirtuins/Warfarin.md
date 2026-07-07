@@ -1,24 +1,22 @@
 ---
 type: entity
-category: chemical
-aliases:
-  - "Coumadin"
-  - "Vitamin K Antagonist"
-tags:
-  - "sirtuins"
-  - "anticoagulant"
-  - "resveratrol"
+title: Warfarin
+description: '**Warfarin** (brand name Coumadin) is an oral Anticoagulant that inhibits
+  vitamin K-dependent clotting factors (II, VII, IX, X). It is widely prescribed for
+  prevention of Thromboembolism in conditi...'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Chemical Compound
+aliases: [Coumadin, Vitamin K Antagonist]
+tags: [sirtuins, anticoagulant, resveratrol]
 ---
-
 # Warfarin
 
 **Warfarin** (brand name [[Coumadin]]) is an oral [[Anticoagulant|anticoagulant]] that inhibits vitamin K-dependent clotting factors (II, VII, IX, X). It is widely prescribed for prevention of [[Thromboembolism|thromboembolic events]] in conditions such as [[Atrial fibrillation]], [[Deep vein thrombosis]], [[Pulmonary embolism]], and mechanical heart valve replacement.
 
 ## Mechanism of Action
 
-Warfarin inhibits **[[Vitamin K Epoxide Reductase]] (VKORC1)**, blocking the recycling of oxidized vitamin K to its reduced form. This prevents the [[Carboxylation|gamma-carboxylation]] and activation of clotting factors II ([[Prothrombin]]), VII, IX, and X, as well as the regulatory proteins [[Protein C]] and [[Protein S]].
+Warfarin inhibits **[[Vitamin K Epoxide Reductase]] (VKORC1)**, blocking the recycling of oxidized vitamin K to its reduced form. This prevents the [[Carboxylation|gamma-carboxylation]] and activation of clotting factors II ([[Prothrombin]]), VII, IX, and X, as well as the regulatory proteins [[Protein C]] and [[Proteins]].
 
 ## Pharmacokinetics
 
@@ -35,5 +33,5 @@ Warfarin inhibits **[[Vitamin K Epoxide Reductase]] (VKORC1)**, blocking the rec
 ## Linking Summary
 
 - New links added: [[Anticoagulant]], [[Cytochrome P450]], [[Resveratrol]]
-- Suggested new entity notes to create: [[Coumadin]], [[Vitamin K Epoxide Reductase]], [[INR]], [[Protein C]], [[Protein S]], [[Atrial fibrillation]], [[Deep vein thrombosis]], [[Pulmonary embolism]]
+- Suggested new entity notes to create: [[Coumadin]], [[Vitamin K Epoxide Reductase]], [[INR]], [[Protein C]], [[Proteins]], [[Atrial fibrillation]], [[Deep vein thrombosis]], [[Pulmonary embolism]]
 - Strong connections to strengthen: [[Warfarin]] ↔ [[Resveratrol]], [[Warfarin]] ↔ [[Cytochrome P450]]

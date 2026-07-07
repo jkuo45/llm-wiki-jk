@@ -1,10 +1,13 @@
 ---
-aliases:
-- adaptor protein complex 4
-category: Protein
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: AP4
+description: '**AP4** (Adaptor Protein complex 4) is a vesicle adaptor complex that
+  facilitates the transport of proteins from the trans-Golgi network to the endosomal
+  system and is required for Autophagic Lysos...'
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Protein
+aliases: [adaptor protein complex 4]
 ---
 # AP4
 

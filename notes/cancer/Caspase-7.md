@@ -1,3 +1,12 @@
+---
+type: entity
+title: Caspase-7
+description: '**Caspase-7** is an effector (executioner) protease that plays a critical
+  role in the final stages of Apoptosis.'
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Enzyme
+---
 # Caspase-7
 
 **Caspase-7** is an effector (executioner) protease that plays a critical role in the final stages of [[Apoptosis|apoptosis]].

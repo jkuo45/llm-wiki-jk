@@ -1,9 +1,11 @@
 ---
 type: entity
-category: enzyme
-entity_type: "Enzyme"
+title: HAT
+description: '**HAT** stands for **Histone Acetyltransferase**. These are enzymes
+  that add an acetyl group to the amino acid lysine on histone proteins.'
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: Enzyme
 ---
 # HAT
 
@@ -26,5 +28,5 @@ Dysregulation of HAT activity has been linked to various age-related conditions,
 
 ### Linking Summary:
 - New links added: [[HAT]], [[Histone Acetyltransferase]], [[Histone Acetylation]], [[Chromatin]], [[Euchromatin]], [[Transcription]], [[Epigenome]], [[Histone Deacetylase]], [[Aging]], [[Cancer]], [[Neurodegenerative Diseases]], [[Caloric Restriction]]
-- Suggested new entity notes to create: [[p300/CBP]], [[PCAF]], [[Epigenetic Writers]]
+- Suggested new entity notes to create: [[P300]]/[[CBP]], [[PCAF]], [[Epigenetic Writers]]
 - Strong connections to strengthen: [[HAT]] ↔ [[Histone Acetyltransferase]], [[HAT]] ↔ [[Histone Acetylation]]

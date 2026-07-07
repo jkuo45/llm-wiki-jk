@@ -1,11 +1,13 @@
 ---
-aliases:
-- autophagic lysosome
-- autolysosomal compartment
-category: Scientific Concept
-created: 2026-07-04
 type: entity
-updated: '2026-07-04'
+title: Autolysosome
+description: An **Autolysosome** is a hybrid organelle formed by the fusion of an
+  Autophagosome with a Lysosome, where the sequestered cytoplasmic material is degraded
+  by lysosomal hydrolases.
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Scientific Concept
+aliases: [autophagic lysosome, autolysosomal compartment]
 ---
 # Autolysosome
 

@@ -1,19 +1,17 @@
 ---
 type: entity
-category: protein
-aliases:
-  - CDC14B
-  - Dual Specificity Protein Phosphatase CDC14B
-database_ids:
-  uniprot: O60729
-  hgnc: HGNC:1719
-relations:
-  - predicate: regulates
-    target: "SIRT2"
-    sources:
-      - PMID:19136623
+title: CDC14B
+description: '**CDC14B** (Cell division cycle 14 homolog B) is a highly conserved
+  eukaryotic dual-specificity protein phosphatase. It plays an essential role in cell
+  cycle progression, particularly during mitosi...'
 created: 2026-07-03
 updated: 2026-07-03
+entity_type_1: Protein
+aliases: [CDC14B, Dual Specificity Protein Phosphatase CDC14B]
+
+sources:
+- PMID:19136623
+target: SIRT2
 ---
 
 # CDC14B

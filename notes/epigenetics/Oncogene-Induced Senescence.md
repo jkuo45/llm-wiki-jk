@@ -1,11 +1,13 @@
 ---
 type: entity
-category: biological_process
-entity_type: "Biological Process"
+title: Oncogene-Induced Senescence
+description: '**Oncogene-Induced Senescence (OIS)** is a biological process in which
+  normal cells expressing activated oncogenes enter a state of permanent cell cycle
+  arrest, functioning as an intrinsic tumor-su...'
 created: 2024-01-01
 updated: 2024-07-04
+entity_type_1: Biological Process
 ---
-
 # Oncogene-Induced Senescence
 
 **Oncogene-Induced Senescence (OIS)** is a biological process in which normal cells expressing activated oncogenes enter a state of permanent cell cycle arrest, functioning as an intrinsic tumor-suppressive barrier. First described by [[Manuel Serrano]] in 1997, OIS is triggered by hyperproliferative signals from oncogenes such as [[RAS]] (HRAS^G12V^), [[BRAF]] (BRAF^V600E^), and [[MYC]].

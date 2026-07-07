@@ -1,11 +1,12 @@
 ---
-aliases:
-- RB1CC1
-- FIP200
-category: Protein
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: Atg17
+description: Atg17 is a scaffold protein that acts as a sensor for Starvation and
+  facilitates the assembly of the Atg1 complex to initiate Autophagy.
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Protein
+aliases: [RB1CC1, FIP200]
 ---
 # Atg17
 

@@ -1,6 +1,12 @@
 ---
 type: entity
-category: enzyme
+title: COMT (Catechol-O-methyltransferase)
+description: COMT (Catechol-O-methyltransferase) is one of the primary enzymes responsible
+  for the degradation of Catecholamines, including Dopamine, Norepinephrine, and Epinephrine.
+  It is essential for protect...
+created: 2026-05-25
+updated: 2026-07-04
+entity_type_1: Enzyme
 aliases:
   - Catechol-O-methyltransferase
 database_ids:
@@ -29,9 +35,10 @@ relations:
   - predicate: associated_with
     target: "Val158Met"
     sources: []
-created: 2026-05-25
-updated: 2026-07-04
 ---
+
+
+
 
 # COMT (Catechol-O-methyltransferase)
 

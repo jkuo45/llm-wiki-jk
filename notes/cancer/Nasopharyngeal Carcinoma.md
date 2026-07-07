@@ -1,3 +1,13 @@
+---
+type: entity
+title: Nasopharyngeal Carcinoma
+description: Nasopharyngeal carcinoma (NPC) is a malignant tumor derived from the
+  epithelial cells of the nasopharyngeal mucosa. It is closely associated with Epstein-Barr
+  virus (EBV) infection.
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Enzyme
+---
 # Nasopharyngeal Carcinoma
 
 Nasopharyngeal carcinoma (NPC) is a malignant tumor derived from the epithelial cells of the nasopharyngeal mucosa. It is closely associated with [[Epstein-Barr virus]] (EBV) infection.

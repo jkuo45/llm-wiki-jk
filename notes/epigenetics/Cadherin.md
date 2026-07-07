@@ -1,9 +1,10 @@
 ---
 type: entity
-category: protein
-entity_type: "Protein"
+title: Cadherin
+description: '- New links added: Quiescence, Cell Cycle'
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: Protein
 ---
 # Cadherin
 

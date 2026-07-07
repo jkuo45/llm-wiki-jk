@@ -1,11 +1,13 @@
 ---
 type: entity
-category: Enzyme
-aliases: []
+title: NAD(P)H Oxidase
+description: NAD(P)H oxidase is a membrane-bound enzyme complex that faces the extracellular
+  space. It is involved in the production of superoxide anions, contributing to intracellular
+  Oxidative Stress. Its act...
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Enzyme
 ---
-
 # NAD(P)H Oxidase
 
 NAD(P)H oxidase is a membrane-bound enzyme complex that faces the extracellular space. It is involved in the production of superoxide anions, contributing to intracellular [[Oxidative Stress]]. Its activity is notably increased by the interaction between [[Advanced Glycation End Products|AGEs]] and [[RAGE]].

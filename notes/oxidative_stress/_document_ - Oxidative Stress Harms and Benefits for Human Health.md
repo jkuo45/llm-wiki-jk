@@ -1,21 +1,26 @@
 ---
-title: "Oxidative Stress: Harms and Benefits for Human Health"
-source: "https://pmc.ncbi.nlm.nih.gov/articles/PMC5551541/"
+type: document
+title: 'Oxidative Stress: Harms and Benefits for Human Health'
+source: https://pmc.ncbi.nlm.nih.gov/articles/PMC5551541/
 author:
-  - "Gabriele Pizzino"
-  - "Natasha Irrera"
-  - "Mariapaola Cucinotta"
-  - "Giovanni Pallio"
-  - "Federica Mannino"
-  - "Vincenzo Arcoraci"
-  - "Francesco Squadrito"
-  - "Domenica Altavilla"
-  - "Alessandra Bitto"
+- Gabriele Pizzino
+- Natasha Irrera
+- Mariapaola Cucinotta
+- Giovanni Pallio
+- Federica Mannino
+- Vincenzo Arcoraci
+- Francesco Squadrito
+- Domenica Altavilla
+- Alessandra Bitto
 created: 2026-05-09
-description: "Oxidative stress is a phenomenon caused by an imbalance between production and accumulation of oxygen reactive species (ROS) in cells and tissues and the ability of a biological system to detoxify these reactive products. ROS can play, and in fact ..."
+description: Oxidative stress is a phenomenon caused by an imbalance between production
+  and accumulation of oxygen reactive species (ROS) in cells and tissues and the ability
+  of a biological system to detoxify these reactive products. ROS can play, and in
+  fact ...
 tags:
   - "clippings"
 ---
+
 . 2017 Jul 27;2017:8416763. doi: [10.1155/2017/8416763](https://doi.org/10.1155/2017/8416763)
 
 [Gabriele Pizzino](https://pubmed.ncbi.nlm.nih.gov/?term=%22Pizzino%20G%22[Author]) <sup>1,</sup><sup>*</sup>, [Natasha Irrera](https://pubmed.ncbi.nlm.nih.gov/?term=%22Irrera%20N%22[Author]) <sup>1</sup>, [Mariapaola Cucinotta](https://pubmed.ncbi.nlm.nih.gov/?term=%22Cucinotta%20M%22[Author]) <sup>2</sup>, [Giovanni Pallio](https://pubmed.ncbi.nlm.nih.gov/?term=%22Pallio%20G%22[Author]) <sup>1</sup>, [Federica Mannino](https://pubmed.ncbi.nlm.nih.gov/?term=%22Mannino%20F%22[Author]) <sup>1</sup>, [Vincenzo Arcoraci](https://pubmed.ncbi.nlm.nih.gov/?term=%22Arcoraci%20V%22[Author]) <sup>1</sup>, [Francesco Squadrito](https://pubmed.ncbi.nlm.nih.gov/?term=%22Squadrito%20F%22[Author]) <sup>1</sup>, [Domenica Altavilla](https://pubmed.ncbi.nlm.nih.gov/?term=%22Altavilla%20D%22[Author]) <sup>2</sup>, [Alessandra Bitto](https://pubmed.ncbi.nlm.nih.gov/?term=%22Bitto%20A%22[Author]) <sup>1</sup>

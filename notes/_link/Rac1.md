@@ -1,11 +1,14 @@
 ---
 type: entity
-category: protein
-aliases: ["Ras-related C3 Botulinum Toxin Substrate 1"]
+title: Rac1
+description: '**Overview:** Rac1 is a cellular protein with structural, signaling,
+  or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
+  and signaling networks that govern cell...'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Protein
+aliases: [Ras-related C3 Botulinum Toxin Substrate 1]
 ---
-
 # Rac1
 
 **Overview:** Rac1 is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern cell behavior.
@@ -15,3 +18,11 @@ updated: 2026-07-04
 **Cellular function:** Rac1 plays a role in signal transduction, gene expression regulation, cytoskeletal organization, or metabolic control. Its localization and activity are dynamically regulated in response to cellular cues.
 
 **Pathological significance:** Altered expression or mutation of Rac1 is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
+
+### Connections
+- [[Rac1]] — related entity
+
+### Linking Summary
+- New links added: [[Rac1]]
+- Strong connections to strengthen: [[Rac1]] ↔ [[Rac1]]
+

@@ -1,17 +1,15 @@
 ---
 type: entity
-category: enzyme
-aliases:
-  - "NOS"
-  - "NO synthase"
-tags:
-  - "oxidative_stress"
-  - "nitric_oxide"
-  - "vasodilation"
+title: Nitric Oxide Synthase
+description: Nitric oxide synthases (NOSs) are a family of enzymes catalyzing the
+  production of Nitric Oxide (NO) from L-arginine. They play a vital role in vascular
+  tone and neurotransmission, and their dysfun...
 created: 2026-05-09
 updated: 2026-07-04
+entity_type_1: Enzyme
+aliases: [NOS, NO synthase]
+tags: [oxidative_stress, nitric_oxide, vasodilation]
 ---
-
 # Nitric Oxide Synthase
 Nitric oxide synthases (NOSs) are a family of enzymes catalyzing the production of [[Nitric Oxide]] (NO) from [[L-arginine]]. They play a vital role in vascular tone and neurotransmission, and their dysfunction is often associated with [[Endothelial Dysfunction]].
 
@@ -101,7 +99,7 @@ iNOS produces NO at high rates (µM/min) sustained over hours to days following 
 - **[[Mitochondrial Dysfunction]]**: Inhibition of complex I and IV by ONOO⁻
 - **DNA damage**: Deamination and nitration of [[Nucleic Acids|DNA bases]]
 
-iNOS-derived NO also exerts immunosuppressive effects by inhibiting [[NFRB|NF-κB]] in a negative feedback loop and by modulating [[T cell]] function.
+iNOS-derived NO also exerts immunosuppressive effects by inhibiting [[NFRB|NF-κB]] in a negative feedback loop and by modulating [[T Cell]] function.
 
 ## Pharmacological and Therapeutic Considerations
 

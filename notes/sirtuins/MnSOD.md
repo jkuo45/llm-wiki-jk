@@ -1,35 +1,21 @@
 ---
 type: entity
-category: protein
+title: Manganese Superoxide Dismutase (MnSOD/SOD2)
+description: Manganese Superoxide Dismutase (MnSOD/SOD2) is the primary mitochondrial
+  antioxidant enzyme responsible for dismutating Superoxide (O₂⁻) to hydrogen peroxide
+  (H₂O₂) and oxygen. It is encoded by the...
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Protein
 aliases:
   - SOD2
   - Manganese Superoxide Dismutase
   - Mn-SOD
   - MnSOD
-database_ids:
-  uniprot: P04179
-  hgnc: HGNC:11180
-relations:
-  - predicate: deacetylates_and_activates
-    target: "MnSOD"
-    sources:
-      - Tao 2010
-      - Chen 2011
-  - predicate: upregulates
-    target: "MnSOD"
-    sources:
-      - Michan 2007
-  - predicate: upregulates_via_AMPK
-    target: "MnSOD"
-    sources:
-      - Kim 2020
-  - predicate: inhibits
-    target: "MnSOD"
-    sources:
-      - Luo 2017
-created: 2026-07-04
-updated: 2026-07-04
 ---
+
+
+
 
 # Manganese Superoxide Dismutase (MnSOD/SOD2)
 

@@ -1,3 +1,12 @@
+---
+type: entity
+title: Bioluminescence Resonance Energy Transfer
+description: '**Bioluminescence resonance energy transfer** (BRET) is a mechanism
+  of energy transfer between a bioluminescent donor and a fluorescent acceptor.'
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Receptor
+---
 # Bioluminescence Resonance Energy Transfer
 
 **Bioluminescence resonance energy transfer** (BRET) is a mechanism of energy transfer between a bioluminescent donor and a fluorescent acceptor.

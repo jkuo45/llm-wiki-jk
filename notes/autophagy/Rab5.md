@@ -1,11 +1,13 @@
 ---
-aliases:
-- RAB5A
-- early endosome GTPase
-category: Protein
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: Rab5
+description: '**Rab5** is a small GTPase that serves as a master regulator of early
+  endosome dynamics, including vesicle docking and fusion, and is replaced by Rab7
+  during the process of endosome maturation.'
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Protein
+aliases: [RAB5A, early endosome GTPase]
 ---
 # Rab5
 

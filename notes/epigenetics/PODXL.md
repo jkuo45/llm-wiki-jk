@@ -1,9 +1,12 @@
 ---
 type: entity
-category: other
-entity_type: "NA"
+title: PODXL
+description: During the early stages of Cellular Reprogramming (24-72 hours post-induction
+  of OSKM), PODXL is one of the pluripotency-associated surface antigens that is rapidly
+  "switched on."
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: NA
 ---
 # PODXL
 

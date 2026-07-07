@@ -1,8 +1,12 @@
 ---
-category: Biological Process
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: Energy Homeostasis
+description: Energy homeostasis is the biological process of maintaining energy balance;
+  cellular sensors like AMPK detect energy deficits and activate TFEB to promote autophagy
+  and catabolism.
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Biological Process
 ---
 # Energy Homeostasis
 

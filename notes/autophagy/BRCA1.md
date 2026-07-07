@@ -1,18 +1,18 @@
 ---
 type: entity
-category: protein
-aliases:
-  - Breast cancer type 1 susceptibility protein
-  - BRCA1 DNA repair associated
-  - RNF53
-database_ids:
-  uniprot: P38398
-  hgnc: HGNC:1100
-  mesh: D019913
+title: BRCA1
+description: '**BRCA1** (Breast Cancer Gene 1) is a critical tumour suppressor protein
+  involved in DNA double-strand break repair, cell cycle checkpoint control, chromatin
+  remodelling, and regulation of transcri...'
 created: 2026-07-04
 updated: 2026-07-05
+entity_type_1: Protein
+aliases: [Breast cancer type 1 susceptibility protein, BRCA1 DNA repair associated, RNF53]
+database_ids:
+  mesh: D019913
+  uniprot: P38398
+  hgnc: HGNC:1100
 ---
-
 # BRCA1
 
 **BRCA1** (Breast Cancer Gene 1) is a critical tumour suppressor protein involved in DNA double-strand break repair, cell cycle checkpoint control, chromatin remodelling, and regulation of transcription. Germline mutations in BRCA1 confer high lifetime risks of breast cancer (~60%) and ovarian cancer (~40%).
@@ -49,7 +49,7 @@ BRCA1 physically neighbours [[Beclin1]] on chromosome 17q21 and its expression c
 
 ## Clinical Relevance
 
-- **PARP Inhibitor Sensitivity**: BRCA1-deficient tumours (both germline and somatic) are exquisitely sensitive to [[PARP Inhibitors]] such as [[Olaparib]], [[Rucaparib]], [[Niraparib]], and [[Talazoparib]] due to synthetic lethality.
+- **PARP Inhibitor Sensitivity**: BRCA1-deficient tumours (both germline and somatic) are exquisitely sensitive to [[PARP inhibitors]] such as [[Olaparib]], [[Rucaparib]], [[Niraparib]], and [[Talazoparib]] due to synthetic lethality.
 - **Triple-Negative Breast Cancer**: BRCA1 mutations are enriched in triple-negative breast cancer (TNBC), and PARP inhibitors are approved for BRCA-mutated TNBC.
 - **Chemotherapy Response**: BRCA1-deficient tumours are sensitive to platinum-based chemotherapies ([[Cisplatin]], [[Carboplatin]]) due to defective HR repair.
 
@@ -60,12 +60,12 @@ BRCA1 physically neighbours [[Beclin1]] on chromosome 17q21 and its expression c
 - [[BARD1]] — heterodimeric partner required for E3 ubiquitin ligase activity
 - [[BRCA2]] — downstream effector in homologous recombination
 - [[RAD51]] — recombinase loaded at DNA breaks by BRCA1/PALB2/BRCA2
-- [[PARP Inhibitors]] — synthetic lethal with BRCA1 deficiency
+- [[PARP inhibitors]] — synthetic lethal with BRCA1 deficiency
 - [[Breast Cancer]] — condition associated with BRCA1 mutation
-- [[Ovarian Cancer]] — second major cancer risk from BRCA1 mutation
+- [[ovarian cancer]] — second major cancer risk from BRCA1 mutation
 
 ## Linking Summary
 
-- New links added: [[Breast Cancer]], [[Cancer]], [[Beclin1]], [[SIRT2]], [[PARP Inhibitors]], [[BRCA2]], [[RAD51]], [[BARD1]], [[Homologous Recombination]], [[ATM]], [[ATR]]
+- New links added: [[Breast Cancer]], [[Cancer]], [[Beclin1]], [[SIRT2]], [[PARP inhibitors]], [[BRCA2]], [[RAD51]], [[BARD1]], [[Homologous Recombination]], [[ATM]], [[ATR]]
 - Suggested new entity notes to create: [[PALB2]], [[Abraxas]], [[CtIP]], [[BRIP1]]
-- Strong connections to strengthen: [[BRCA1]] ↔ [[Beclin1]], [[BRCA1]] ↔ [[SIRT2]], [[BRCA1]] ↔ [[PARP Inhibitors]]
+- Strong connections to strengthen: [[BRCA1]] ↔ [[Beclin1]], [[BRCA1]] ↔ [[SIRT2]], [[BRCA1]] ↔ [[PARP inhibitors]]

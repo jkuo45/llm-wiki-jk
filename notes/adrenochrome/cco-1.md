@@ -1,11 +1,13 @@
 ---
 type: entity
-category: Gene
-aliases: []
+title: cco-1
+description: cco-1 is a component of the cytochrome c oxidase complex whose tissue-specific
+  knockdown can trigger cell-non-autonomous activation of the Mitochondrial Unfolded
+  Protein Response via Mitokines.
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Gene
 ---
-
 # cco-1
 
 cco-1 is a component of the cytochrome c oxidase complex whose tissue-specific knockdown can trigger cell-non-autonomous activation of the [[Mitochondrial Unfolded Protein Response]] via [[Mitokines]].

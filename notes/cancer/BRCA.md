@@ -1,3 +1,12 @@
+---
+type: entity
+title: BRCA
+description: '**BRCA** (BReast CAncer gene) refers to two genes, *BRCA1* and *BRCA2*,
+  that produce tumor suppressor proteins. These proteins help repair damaged DNA.'
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Medical Condition
+---
 # BRCA
 
 **BRCA** (BReast CAncer gene) refers to two genes, *BRCA1* and *BRCA2*, that produce tumor suppressor proteins. These proteins help repair damaged DNA.

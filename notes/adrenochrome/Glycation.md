@@ -1,11 +1,12 @@
 ---
 type: entity
-category: Chemical Process
-aliases: []
+title: Glycation
+description: Glycation is a spontaneous non-enzymatic reaction of free reducing sugars
+  with free amino groups of proteins, DNA, and lipids.
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Chemical Process
 ---
-
 # Glycation
 
 Glycation is a spontaneous non-enzymatic reaction of free reducing sugars with free amino groups of proteins, DNA, and lipids.
@@ -33,7 +34,7 @@ The rate of glycation is governed by the concentration and reactivity of the sug
 
 ## Accumulation in Aging Tissues
 
-AGEs accumulate progressively in long-lived proteins, including [[Collagen]], [[Elastin]], [[Lens crystallins]], and [[Myelin]]. The half-life of AGE adducts on extracellular matrix proteins can exceed decades, making them reliable biomarkers of biological aging. Accumulation correlates with arterial stiffness, reduced skin elasticity, lens opacity ([[Cataract]]), and impaired renal function. The receptor for AGEs ([[RAGE]]), when activated, triggers pro-inflammatory [[NF-κB]] signaling, linking glycation to chronic low-grade inflammation ([[Inflammaging]]). Pharmacological strategies targeting AGE formation or crosslink breakage (e.g., [[Alagebrium]]) remain under investigation.
+AGEs accumulate progressively in long-lived proteins, including [[Collagen]], [[Elastin]], [[Lens crystallins]], and [[Myelin]]. The half-life of AGE adducts on extracellular matrix proteins can exceed decades, making them reliable biomarkers of biological aging. Accumulation correlates with arterial stiffness, reduced skin elasticity, lens opacity ([[Cataract]]), and impaired renal function. The receptor for AGEs ([[RAGE]]), when activated, triggers pro-inflammatory [[NFκB]] signaling, linking glycation to chronic low-grade inflammation ([[Inflammaging]]). Pharmacological strategies targeting AGE formation or crosslink breakage (e.g., [[Alagebrium]]) remain under investigation.
 
 ## Linking Summary
 
@@ -43,4 +44,4 @@ AGEs accumulate progressively in long-lived proteins, including [[Collagen]], [[
 
 ## Updated Links
 
-- Additional new links: [[Lysine]], [[Glucose]], [[Fructose]], [[Ribose]], [[Schiff base]], [[Amadori rearrangement]], [[3-deoxyglucosone]], [[Glyoxal]], [[Methylglyoxal]], [[Nε-carboxymethyllysine]], [[Pentosidine]], [[Crossline]], [[Collagen]], [[Elastin]], [[Lens crystallins]], [[Myelin]], [[Cataract]], [[RAGE]], [[NF-κB]], [[Inflammaging]], [[Alagebrium]]
+- Additional new links: [[Lysine]], [[Glucose]], [[Fructose]], [[Ribose]], [[Schiff base]], [[Amadori rearrangement]], [[3-deoxyglucosone]], [[Glyoxal]], [[Methylglyoxal]], [[Nε-carboxymethyllysine]], [[Pentosidine]], [[Crossline]], [[Collagen]], [[Elastin]], [[Lens crystallins]], [[Myelin]], [[Cataract]], [[RAGE]], [[NFκB]], [[Inflammaging]], [[Alagebrium]]

@@ -1,8 +1,12 @@
 ---
-category: Scientific Concept
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: Lipid Droplet
+description: '**Lipid Droplets** are organelles composed of a neutral lipid core (primarily
+  triglycerides and cholesteryl esters) surrounded by a phospholipid monolayer and
+  associated proteins (e.g., perilipins)...'
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Scientific Concept
 ---
 # Lipid Droplet
 

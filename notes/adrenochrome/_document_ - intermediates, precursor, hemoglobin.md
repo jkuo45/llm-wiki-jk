@@ -2,12 +2,11 @@
 type: document
 title: adrenochrome - gemini (intermediates, precursor, hemoglobin)
 source: https://aistudio.google.com/u/0/prompts/1uncj_9dpu_xQjnCXXWTdqgULljcr96yN
-author:
-published:
 created: 2026-05-18
-description:
+description: 4,663 tokens
 tags:
 ---
+
 4,663 tokens
 
 User

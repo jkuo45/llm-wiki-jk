@@ -1,18 +1,23 @@
 ---
 type: entity
-category: protein
-entity_type: ""
+title: FOXO
+description: A family of transcription factors (Forkhead box O) that regulate the
+  expression of genes involved in cell cycle, Apoptosis, and Autophagy.
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: Protein
 ---
 # FOXO
 
 A family of transcription factors (Forkhead box O) that regulate the expression of genes involved in cell cycle, [[Apoptosis]], and [[Autophagy]].
 
-- New links added: [[Apoptosis]], [[Autophagy]]
 
 The FoxO (forkhead box O) family is a group of transcription factors that regulate the expression of genes involved in cell growth, proliferation, differentiation, apoptosis, and longevity. In muscle tissue, FoxO factors play a major role in regulating muscle protein degradation by upregulating the expression of E3 ubiquitin ligases, such as Atrogin-1 and MuRF1, leading to muscle atrophy when overly active.
 
-- New links added: [[Atrogin-1]], [[MuRF1]], [[Akt]]
-- Suggested new entity notes to create: 
+
+### Connections
+- [[Apoptosis]] — programmed cell death; eliminates damaged or excess cells
+- [[Autophagy]] — cellular self-degradation pathway; clears damaged proteins and organelles
+### Linking Summary
+- New links added: [[Apoptosis]], [[Autophagy]], [[Atrogin-1]], [[MuRF1]], [[Akt]]
 - Strong connections to strengthen: [[Akt]] ↔ [[FOXO]]

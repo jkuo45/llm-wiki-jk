@@ -1,11 +1,12 @@
 ---
 type: entity
-category: Anatomy
-aliases: []
+title: Lungs
+description: The **Lungs** are a primary site of gas exchange and a major target for
+  oxidative damage and inflammatory responses.
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Anatomy
 ---
-
 # Lungs
 
 The **Lungs** are a primary site of gas exchange and a major target for oxidative damage and inflammatory responses.

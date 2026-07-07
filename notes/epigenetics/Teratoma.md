@@ -1,9 +1,11 @@
 ---
 type: entity
-category: other
-entity_type: "NA"
+title: Teratoma
+description: A teratoma is a type of germ cell tumor that may contain several different
+  types of tissue, such as hair, muscle, teeth, or bone.
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: NA
 ---
 # Teratoma
 

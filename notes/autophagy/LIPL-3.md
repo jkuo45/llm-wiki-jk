@@ -1,10 +1,13 @@
 ---
-aliases:
-- C. elegans lysosomal lipase 3
-category: Enzyme
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: LIPL-3
+description: '**LIPL-3** is a lysosomal lipase in C. elegans that, along with LIPL-1,
+  is essential for Lysosomal Lipolysis and the mobilization of fat stores via Lipophagy.
+  It is a functional orthologue of human...'
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Enzyme
+aliases: [C. elegans lysosomal lipase 3]
 ---
 # LIPL-3
 

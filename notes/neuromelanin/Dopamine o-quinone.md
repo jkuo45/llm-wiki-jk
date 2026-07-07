@@ -1,11 +1,11 @@
 ---
 type: entity
-category: chemical_compound
-aliases: []
+title: Dopamine o-quinone
+description: '- New links added: Dopamine, Neuromelanin, Quinones.'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Chemical Compound
 ---
-
 # Dopamine o-quinone
 
 [[Dopamine o-quinone]] is a highly reactive oxidative product of [[Dopamine]] that serves as a precursor in the biosynthetic pathway of [[Neuromelanin]].

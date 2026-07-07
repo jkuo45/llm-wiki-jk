@@ -1,0 +1,32 @@
+---
+type: entity
+title: PPARα
+description: PPARα (Peroxisome Proliferator-Activated Receptor Alpha) is a nuclear
+  receptor transcription factor that regulates Lipid Metabolism, Fatty Acid Oxidation,
+  Ketogenesis, and Inflammation. It is activ...
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Receptor
+---
+# PPARα
+
+PPARα (Peroxisome Proliferator-Activated Receptor Alpha) is a nuclear receptor transcription factor that regulates [[Lipid Metabolism]], [[Fatty Acid Oxidation]], [[Ketogenesis]], and [[Inflammation]]. It is activated by [[Fibrate]] drugs (e.g., [[Fenofibrate]], [[Gemfibrozil]]) and endogenous [[Fatty Acids]] and their derivatives. PPARα heterodimerizes with [[RXR]] and binds to [[PPRE]] (PPAR Response Elements) in target gene promoters. It is highly expressed in [[Liver]], [[Kidney]], [[Heart]], and [[Skeletal Muscle]]. PPARα activation improves [[Lipid Profile]], reduces [[Triglycerides]], and has [[Anti-inflammatory]] effects. It also interacts with [[SIRT1]] and [[AMPK]] to coordinate metabolic adaptation during [[Fasting]].
+
+### Connections
+
+- [[Lipid Metabolism]] — primary target pathway of PPARα
+- [[Fatty Acid Oxidation]] — induced by PPARα
+- [[Fibrate]] — synthetic PPARα agonist drug class
+- [[RXR]] — heterodimerization partner
+- [[SIRT1]] — interacts with PPARα in metabolic regulation
+- [[AMPK]] — coordinates with PPARα during energy stress
+- [[Fasting]] — upregulates PPARα activity
+- [[Ketogenesis]] — promoted by PPARα
+- [[Inflammation]] — PPARα has anti-inflammatory effects
+- [[Liver]] — primary tissue of PPARα expression
+
+### Linking Summary
+
+- New links added: [[Lipid Metabolism]], [[Fatty Acid Oxidation]], [[Ketogenesis]], [[Inflammation]], [[Fibrate]], [[Fenofibrate]], [[Gemfibrozil]], [[Fatty Acids]], [[RXR]], [[PPRE]], [[Liver]], [[Kidney]], [[Heart]], [[Skeletal Muscle]], [[Triglycerides]], [[Anti-inflammatory]], [[SIRT1]], [[AMPK]], [[Fasting]]
+- Suggested new entity notes to create: [[PPARγ]], [[PPARδ]], [[Peroxisome Proliferator-Activated Receptor]]
+- Strong connections to strengthen: [[PPARα]] ↔ [[Lipid Metabolism]], [[PPARα]] ↔ [[Fibrate]]

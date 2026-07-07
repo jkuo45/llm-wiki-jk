@@ -1,25 +1,20 @@
 ---
 type: entity
-category: enzyme
+title: AceCS2
+description: AceCS2 (Acetyl-CoA Synthetase 2, mitochondrial; also encoded by ACSS1)
+  is a crucial metabolic enzyme located in the mitochondrial matrix. It catalyzes
+  the conversion of acetate and CoA into acetyl-...
+created: 2026-07-03
+updated: 2026-07-03
+entity_type_1: Enzyme
 aliases:
   - AceCS2
   - Acetyl-CoA Synthetase 2
   - ACSS1
-database_ids:
-  uniprot: Q9NUB1
-  hgnc: HGNC:15951
-relations:
-  - predicate: activated_by
-    target: "SIRT3"
-    sources:
-      - PMID:16788062
-  - predicate: regulated_by
-    target: "notes/_link/Caloric Restriction"
-    sources:
-      - PMID:16788062
-created: 2026-07-03
-updated: 2026-07-03
 ---
+
+
+
 
 # AceCS2
 

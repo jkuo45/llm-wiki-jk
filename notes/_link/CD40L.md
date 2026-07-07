@@ -1,11 +1,14 @@
 ---
 type: entity
-category: protein
-aliases: ["CD40 Ligand", "CD154"]
+title: CD40L
+description: '**Overview:** CD40L is a cellular protein with structural, signaling,
+  or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
+  and signaling networks that govern cel...'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Protein
+aliases: [CD40 Ligand, CD154]
 ---
-
 # CD40L
 
 **Overview:** CD40L is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern cell behavior.
@@ -15,3 +18,11 @@ updated: 2026-07-04
 **Cellular function:** CD40L plays a role in signal transduction, gene expression regulation, cytoskeletal organization, or metabolic control. Its localization and activity are dynamically regulated in response to cellular cues.
 
 **Pathological significance:** Altered expression or mutation of CD40L is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
+
+### Connections
+- [[CD40L]] — related entity
+
+### Linking Summary
+- New links added: [[CD40L]]
+- Strong connections to strengthen: [[CD40L]] ↔ [[CD40L]]
+

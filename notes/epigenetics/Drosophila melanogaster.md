@@ -1,9 +1,11 @@
 ---
 type: entity
-category: model_organism
-entity_type: "Model Organism"
+title: Drosophila melanogaster
+description: '**Drosophila melanogaster** is a species of fly (the common fruit fly)
+  and a widely used Model Organisms in genetics and developmental biology.'
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: Model Organism
 ---
 # Drosophila melanogaster
 
