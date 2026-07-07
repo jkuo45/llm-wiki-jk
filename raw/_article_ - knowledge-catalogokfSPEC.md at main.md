@@ -1,13 +1,12 @@
 ---
-title: "knowledge-catalog/okf/SPEC.md at main"
-source: "https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md"
+title: knowledge-catalog/okf/SPEC.md at main
+source: https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md
 author:
 published:
 created: 2026-07-04
-description: "Google Cloud Knowledge Catalog Tools and Samples. Contribute to GoogleCloudPlatform/knowledge-catalog development by creating an account on GitHub."
+description: Google Cloud Knowledge Catalog Tools and Samples. Contribute to GoogleCloudPlatform/knowledge-catalog development by creating an account on GitHub.
 tags:
-  - "clippings"
-type: "document"
+type: document
 ---
 ## Open Knowledge Format (OKF)
 

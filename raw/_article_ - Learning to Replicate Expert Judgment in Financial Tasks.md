@@ -7,8 +7,6 @@ published:
 created: 2026-07-03
 description: With expert-labeled data and fine-tuning on Tinker, a custom model outperforms frontier LLMs on financial information-filtering tasks at a fraction of the cost.
 tags:
-  - clippings
-  - expert-judgement
 ---
 
 Sarah Su, Kevin Zhu, Emily Xiao, Rohan Alur, Daniel Kang ([Bridgewater AIA Labs](https://www.bridgewater.com/aia-labs)) in collaboration with Thinking Machines — Jun 30, 2026

@@ -7,8 +7,6 @@ published:
 created: 2026-07-04
 description: 透過專家標註資料與在 Tinker 上進行微調，自訂模型在金融資訊過濾任務中以極低成本超越前沿 LLM。
 tags:
-  - clippings
-  - expert-judgement
 ---
 
 Sarah Su、Kevin Zhu、Emily Xiao、Rohan Alur、Daniel Kang（Bridgewater AIA Labs）與 Thinking Machines 合作 — 2026 年 6 月 30 日

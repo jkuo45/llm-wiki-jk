@@ -1,13 +1,12 @@
 ---
 title: "kepano/obsidian-skills: Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas."
-source: "https://github.com/kepano/obsidian-skills/tree/main"
+source: https://github.com/kepano/obsidian-skills/tree/main
 author:
 published:
 created: 2026-07-04
-description: "Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas. - kepano/obsidian-skills"
+description: Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas. - kepano/obsidian-skills
 tags:
-  - "clippings"
-type: "document"
+type: document
 ---
 Agent Skills for use with Obsidian.
 

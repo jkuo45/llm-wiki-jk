@@ -1,12 +1,11 @@
 ---
 type: entity
 title: Epigenetics and aging
-description: 'Researchers review how random changes and our environment (for example,
-  diet) determines our life span. Keywords: Epigenetics, aging, histones, chromatin'
+description: "Researchers review how random changes and our environment (for example, diet) determines our life span. Keywords: Epigenetics, aging, histones, chromatin"
 created: 2026-05-13
 updated: 2026-07-06
 entity_type_1: Biological Process
-tags: [clippings]
+tags:
 ---
 Researchers review how random changes and our environment (for example, diet) determines our life span.
 
