@@ -4,8 +4,8 @@
 ## Summary Table
 | topic | updated | documents | entities | words | disk | wiki |
 | :--- | :--- | :---: | :---: | :---: | :---: | :--- |
-| [_link](https://github.com/jkuo45/llm-wiki/tree/dev/notes/_link) | 07_JUL_2026 | 0 | 598 | 253,201 | 1.91 MB | [[notes/_link/README\|link]] |
-| [adrenochrome](https://github.com/jkuo45/llm-wiki/tree/dev/notes/adrenochrome) | 07_JUL_2026 | 23 | 289 | 233,504 | 2.37 MB | [[notes/adrenochrome/README\|link]] |
+| [_link](https://github.com/jkuo45/llm-wiki/tree/dev/notes/_link) | 07_JUL_2026 | 0 | 599 | 253,520 | 1.91 MB | [[notes/_link/README\|link]] |
+| [adrenochrome](https://github.com/jkuo45/llm-wiki/tree/dev/notes/adrenochrome) | 07_JUL_2026 | 26 | 292 | 240,672 | 2.55 MB | [[notes/adrenochrome/README\|link]] |
 | [autophagy](https://github.com/jkuo45/llm-wiki/tree/dev/notes/autophagy) | 07_JUL_2026 | 11 | 236 | 158,997 | 1.45 MB | [[notes/autophagy/README\|link]] |
 | [cancer](https://github.com/jkuo45/llm-wiki/tree/dev/notes/cancer) | 07_JUL_2026 | 8 | 247 | 213,996 | 1.99 MB | [[notes/cancer/README\|link]] |
 | [comt](https://github.com/jkuo45/llm-wiki/tree/dev/notes/comt) | 07_JUL_2026 | 2 | 35 | 21,106 | 0.52 MB | [[notes/comt/README\|link]] |
@@ -14,7 +14,7 @@
 | [oxidative_stress](https://github.com/jkuo45/llm-wiki/tree/dev/notes/oxidative_stress) | 07_JUL_2026 | 1 | 65 | 69,328 | 0.96 MB | [[notes/oxidative_stress/README\|link]] |
 | [sirtuins](https://github.com/jkuo45/llm-wiki/tree/dev/notes/sirtuins) | 07_JUL_2026 | 6 | 105 | 173,387 | 1.55 MB | [[notes/sirtuins/README\|link]] |
 | --- | --- | ---: | ---: | ---: | ---: | --- |
-| **subtotal** | 07_JUL_2026 | **62** | **1855** | **1,385,038** | **16.40 MB** | |
+| **subtotal** | 07_JUL_2026 | **65** | **1859** | **1,392,525** | **16.59 MB** | |
 <!-- END GENERATED: summary_table -->
 
 _\*notes directory only_\*
@@ -418,6 +418,9 @@ Neither style is "better" — they are complementary. Mechanistic confirms known
 
 | topic | updated | document path | notes | word count |
 | :--- | :--- | :--- | :--- | :---: |
+| adrenochrome | 07_JUL_2026 | [_document_ -  (protocol)  SRAC - senescent, ligand-conjugated.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20%20%28protocol%29%20%20SRAC%20-%20senescent%2C%20ligand-conjugated.md) | [[notes/adrenochrome/_document_ -  (protocol)  SRAC - senescent, ligand-conjugated.md\|notes]] | 2,601 |
+| adrenochrome | 07_JUL_2026 | [_document_ -  (protocol) GOPS - glyco-oxidative proteostasis.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20%20%28protocol%29%20GOPS%20-%20glyco-oxidative%20proteostasis.md) | [[notes/adrenochrome/_document_ -  (protocol) GOPS - glyco-oxidative proteostasis.md\|notes]] | 2,962 |
+| adrenochrome | 07_JUL_2026 | [_document_ -  (protocol) MRR - mitohormesis, MB, NAD.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20%20%28protocol%29%20MRR%20-%20mitohormesis%2C%20MB%2C%20NAD.md) | [[notes/adrenochrome/_document_ -  (protocol) MRR - mitohormesis, MB, NAD.md\|notes]] | 1,371 |
 | adrenochrome | 07_JUL_2026 | [_document_ - Adrenochrome.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20Adrenochrome.md) | [[notes/adrenochrome/_document_ - Adrenochrome.md\|notes]] | 1,077 |
 | adrenochrome | 07_JUL_2026 | [_document_ - Aminoguanidine.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20Aminoguanidine.md) | [[notes/adrenochrome/_document_ - Aminoguanidine.md\|notes]] | 1,877 |
 | adrenochrome | 07_JUL_2026 | [_document_ - Dietary Advanced Glycation End Products and Aging.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20Dietary%20Advanced%20Glycation%20End%20Products%20and%20Aging.md) | [[notes/adrenochrome/_document_ - Dietary Advanced Glycation End Products and Aging.md\|notes]] | 9,409 |
