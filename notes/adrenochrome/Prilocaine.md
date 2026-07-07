@@ -1,11 +1,11 @@
 ---
 type: entity
-category: Chemical Compound
-aliases: []
+title: Prilocaine
+description: '- Methemoglobinemia: A potential complication of Prilocaine use.'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Chemical Compound
 ---
-
 # Prilocaine
 
 [[Prilocaine]] is a local anesthetic of the amino amide group. Like [[Benzocaine]], it can cause acquired [[Methemoglobinemia]] by oxidizing [[Hemoglobin]].

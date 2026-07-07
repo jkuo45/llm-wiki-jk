@@ -1,29 +1,20 @@
 ---
 type: entity
-category: chemical compound
+title: Honokiol
+description: Honokiol (HKL) is a bioactive biphenolic lignan extracted primarily from
+  the bark, seed cones, and leaves of Magnolia grandiflora and related Magnolia species.
+  It has been used in traditional Chine...
+created: 2026-07-03
+updated: 2026-07-03
+entity_type_1: Chemical Compound
 aliases:
   - Honokiol
   - HKL
   - 3',5-di-(2-propenyl)-1,1'-biphenyl-2,4'-diol
-database_ids:
-  mesh: D000077606
-  chebi: CHEBI:74763
-relations:
-  - predicate: activates
-    target: "SIRT3"
-    sources: []
-  - predicate: reduces
-    target: "Reactive Oxygen Species"
-    sources: []
-  - predicate: inhibits
-    target: "Inflammation"
-    sources: []
-  - predicate: protects_against
-    target: "Cardiovascular Disease"
-    sources: []
-created: 2026-07-03
-updated: 2026-07-03
 ---
+
+
+
 
 # Honokiol
 

@@ -1,8 +1,11 @@
 ---
-category: Scientific Concept
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: GATOR1
+description: GATOR1 is a protein complex that acts as a GAP for Rag proteins, negatively
+  regulating mTORC1 activity in response to amino acid levels.
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Scientific Concept
 ---
 # GATOR1
 

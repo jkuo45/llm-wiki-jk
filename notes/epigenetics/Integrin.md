@@ -1,9 +1,10 @@
 ---
 type: entity
-category: receptor
-entity_type: "Receptor"
+title: Integrin
+description: '- New links added: Cell Cycle, Extracellular Matrix, ECM'
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: Receptor
 ---
 # Integrin
 
@@ -13,4 +14,4 @@ updated: 2024-01-01
 
 - New links added: [[Cell Cycle]], [[Extracellular Matrix]], [[ECM]]
 - Suggested new entity notes to create: [[FAK Signaling]]
-- Strong connections to strengthen: [[Integrin]] ↔ [[notes/_link/Metabolism]]
+- Strong connections to strengthen: [[Integrin]] ↔ [[Metabolism]]

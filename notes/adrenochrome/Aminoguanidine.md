@@ -1,11 +1,12 @@
 ---
 type: entity
-category: Chemical Compound
-aliases: []
+title: Aminoguanidine
+description: Aminoguanidine is a chemical compound with the formula $CH_6N_4$. It
+  is used as a reagent to stabilize Adrenochrome by forming Adrenochrome monoaminoguanidine.
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Chemical Compound
 ---
-
 # Aminoguanidine
 
 Aminoguanidine is a chemical compound with the formula $CH_6N_4$. It is used as a reagent to stabilize [[Adrenochrome]] by forming [[Adrenochrome monoaminoguanidine]].

@@ -1,18 +1,17 @@
 ---
 type: entity
-category: chemical
-aliases:
-  - SirReal2
-  - SirReal-2
-database_ids:
-  pubchem: 86289063
-relations:
-  - predicate: inhibits
-    target: "SIRT2"
-    sources:
-      - s41392-022-01257-8
+title: SirReal2
+description: '**SirReal2** is a highly potent, selective, and structurally unique
+  small-molecule inhibitor of **SIRT2** belonging to the aminothiazole chemical family.
+  It is renowned for acting via a distinct li...'
 created: 2026-07-03
 updated: 2026-07-03
+entity_type_1: Chemical Compound
+aliases: [SirReal2, SirReal-2]
+
+sources:
+- s41392-022-01257-8
+target: SIRT2
 ---
 
 # SirReal2
@@ -51,13 +50,13 @@ X-ray crystallography reveals that SirReal2 induces a **ligand-induced structura
 ## Connections & Related Entities
 
 - **[[SIRT2]]** — direct molecular target selectively inhibited by SirReal2.
-- **[[notes/_link/Aging]]** — SIRT2 is a key regulator of mitotic exit and aging, pathways probed using SirReal2.
+- **[[Aging]]** — SIRT2 is a key regulator of mitotic exit and aging, pathways probed using SirReal2.
 - **[[AGK2]]** — another selective SIRT2 inhibitor, utilizing a different binding mechanism.
 
 ---
 
 ## Linking Summary
 
-- **New Links Added**: [[SIRT2]], [[AGK2]], [[notes/_link/Aging]]
+- **New Links Added**: [[SIRT2]], [[AGK2]], [[Aging]]
 - **Suggested New Notes to Create**: [[Connexin 43]], [[Selective Pocket]]
 - **Strong Connections to Strengthen**: [[SirReal2]] ↔ [[SIRT2]]

@@ -1,26 +1,23 @@
 ---
 type: entity
-category: medical_condition
-entity_type: "Medical Condition"
-aliases:
-  - Cataracts
-  - Lens opacification
+title: Cataract
+description: '**Cataract** is a clouding of the eye lens that leads to decreased vision.
+  It is driven by Oxidative Stress to lens proteins, protein carbonylation, and aggregation
+  of crystallins.'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Medical Condition
+aliases: [Cataracts, Lens opacification]
 ---
-
 # Cataract
-
 **Cataract** is a clouding of the eye lens that leads to decreased vision. It is driven by [[Oxidative Stress|oxidative damage]] to lens proteins, [[protein carbonylation]], and aggregation of [[crystallins]].
 
-## Connections
-
+### Connections
 - [[Oxidative Stress]] — Primary driver of lens protein damage
-- [[notes/_link/Aging]] — Cataract prevalence increases with age
+- [[Aging]] — Cataract prevalence increases with age
 - [[UV-induced photoaging]] — UV exposure accelerates cataract formation
 
-## Linking Summary
-
-- New links added: [[Oxidative Stress]], [[notes/_link/Aging]], [[UV-induced photoaging]]
+### Linking Summary
+- New links added: [[Oxidative Stress]], [[Aging]], [[UV-induced photoaging]]
 - Suggested new entity notes to create: [[Crystallins]], [[Lens Epithelium]], [[Protein Carbonylation]]
 - Strong connections to strengthen: [[Cataract]] ↔ [[Oxidative Stress]]

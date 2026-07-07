@@ -1,6 +1,15 @@
+---
+type: entity
+title: DISC
+description: The **Death-Inducing Signaling Complex (DISC)** is a multi-protein assembly
+  that forms during the initiation of the Extrinsic Pathway of Apoptosis.
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Enzyme
+---
 # DISC
 
-The **Death-Inducing Signaling Complex (DISC)** is a multi-protein assembly that forms during the initiation of the [[Extrinsic Pathway]] of [[notes/_link/Apoptosis]].
+The **Death-Inducing Signaling Complex (DISC)** is a multi-protein assembly that forms during the initiation of the [[Extrinsic Pathway]] of [[Apoptosis]].
 
 ## Assembly
 The DISC forms on the intracellular tails of death receptors (e.g., [[Fas]], [[DR4]], [[DR5]], [[TNFR1]]) following ligand binding.
@@ -18,6 +27,6 @@ The primary function of the DISC is to facilitate the proximity-induced auto-act
 - [[Intrinsic Pathway]]: Linked to the DISC via [[Bid]] cleavage.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Apoptosis]], [[Extrinsic Pathway]], [[Fas]], [[DR4]], [[DR5]], [[TNFR1]], [[FADD]], [[TRADD]], [[Caspase-8]], [[Caspase-10]], [[Caspase-3]], [[Intrinsic Pathway]], [[Bid]]
+- New links added: [[Apoptosis]], [[Extrinsic Pathway]], [[Fas]], [[DR4]], [[DR5]], [[TNFR1]], [[FADD]], [[TRADD]], [[Caspase-8]], [[Caspase-10]], [[Caspase-3]], [[Intrinsic Pathway]], [[Bid]]
 - Suggested new entity notes to create: [[Caspase-10]]
 - Strong connections to strengthen: [[DISC]] ↔ [[Caspase-8]], [[DISC]] ↔ [[FADD]]

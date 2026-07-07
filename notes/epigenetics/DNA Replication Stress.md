@@ -1,11 +1,13 @@
 ---
 type: entity
-category: scientific_concept
-entity_type: "Scientific Concept"
+title: DNA Replication Stress
+description: '**DNA Replication Stress** describes a state of inefficient or stalled
+  DNA Replication fork progression caused by impediments such as nucleotide depletion,
+  DNA lesions, RNA-DNA hybrids (R-loops), t...'
 created: 2024-01-01
 updated: 2024-07-04
+entity_type_1: Scientific Concept
 ---
-
 # DNA Replication Stress
 
 **DNA Replication Stress** describes a state of inefficient or stalled [[DNA Replication]] fork progression caused by impediments such as nucleotide depletion, DNA lesions, RNA-DNA hybrids ([[R-loops]]), transcription-replication conflicts, or oncogene-induced hyper-replication. It is a major source of [[Genomic Instability|genomic instability]] and a driving force behind [[Cellular Senescence]] and [[Cancer]].
@@ -41,6 +43,6 @@ Persistent replication stress is a hallmark of [[Oncogene-Induced Senescence|OIS
 - **Protecting normal cells:** [[Roscovitine]] (CDK inhibitor) reduces origin firing and protects against replication stress-induced damage in normal tissues.
 
 ### Linking Summary:
-- New links added: [[DNA Replication]], [[Genomic Instability]], [[notes/_link/Senescence]], [[Oncogene-Induced Senescence]], [[R-loops]], [[ATR]], [[CHK1]]
+- New links added: [[DNA Replication]], [[Genomic Instability]], [[Senescence]], [[Oncogene-Induced Senescence]], [[R-loops]], [[ATR]], [[CHK1]]
 - Suggested new entity notes to create: [[R-loops]], [[FRA3B]], [[FRA16D]], [[Fragile sites]]
-- Strong connections to strengthen: [[DNA Replication Stress]] ↔ [[Oncogene-Induced Senescence]], [[DNA Replication Stress]] ↔ [[notes/_link/Senescence]]
+- Strong connections to strengthen: [[DNA Replication Stress]] ↔ [[Oncogene-Induced Senescence]], [[DNA Replication Stress]] ↔ [[Senescence]]

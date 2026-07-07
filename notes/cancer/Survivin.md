@@ -1,6 +1,16 @@
+---
+type: entity
+title: Survivin
+description: '**Survivin** (also known as BIRC5) is a member of the Inhibitor of Apoptosis
+  Proteins (IAP) family. It is unique among IAPs for its dual role in inhibiting Apoptosis
+  and regulating cell division.'
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Enzyme
+---
 # Survivin
 
-**Survivin** (also known as BIRC5) is a member of the [[Inhibitor of Apoptosis Proteins]] (IAP) family. It is unique among IAPs for its dual role in inhibiting [[notes/_link/Apoptosis]] and regulating cell division.
+**Survivin** (also known as BIRC5) is a member of the [[Inhibitor of Apoptosis Proteins]] (IAP) family. It is unique among IAPs for its dual role in inhibiting [[Apoptosis]] and regulating cell division.
 
 ## Role in Cancer
 - **Overexpression**: Survivin is highly expressed in most human cancers but is nearly undetectable in normal adult tissues, making it an ideal target for cancer therapy.
@@ -15,10 +25,10 @@ Strategies to target Survivin include:
 
 ## Connections
 - [[Inhibitor of Apoptosis Proteins]]: Survivin is a key member of this family.
-- [[notes/_link/Apoptosis]]: Inhibits the common pathway of apoptosis.
+- [[Apoptosis]]: Inhibits the common pathway of apoptosis.
 - [[XIAP]]: Often works in conjunction with XIAP to confer resistance in NSCLC.
 
 ### Linking Summary:
-- New links added: [[Inhibitor of Apoptosis Proteins]], [[notes/_link/Apoptosis]], [[non-small-cell lung cancer]], [[Melanoma]], [[Pancreatic Cancer]], [[XIAP]]
+- New links added: [[Inhibitor of Apoptosis Proteins]], [[Apoptosis]], [[non-small-cell lung cancer]], [[Melanoma]], [[Pancreatic Cancer]], [[XIAP]]
 - Suggested new entity notes to create: [[Inhibitor of Apoptosis Proteins]]
 - Strong connections to strengthen: [[Survivin]] ↔ [[XIAP]]

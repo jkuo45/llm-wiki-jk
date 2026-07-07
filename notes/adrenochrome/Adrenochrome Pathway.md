@@ -1,31 +1,33 @@
 ---
 type: entity
-category: Biological Process
-aliases: []
+title: Adrenochrome Pathway
+description: The Adrenochrome Pathway is a metabolic route involving the oxidation
+  of Epinephrine (adrenaline) into Adrenochrome and its subsequent catabolites like
+  Adrenolutin.
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Biological Process
 ---
-
 # Adrenochrome Pathway
 
-The Adrenochrome Pathway is a metabolic route involving the oxidation of [[notes/_link/Epinephrine]] (adrenaline) into [[Adrenochrome]] and its subsequent catabolites like [[Adrenolutin]].
+The Adrenochrome Pathway is a metabolic route involving the oxidation of [[Epinephrine]] (adrenaline) into [[Adrenochrome]] and its subsequent catabolites like [[Adrenolutin]].
 
 ### Linking Summary:
-- New links added: [[notes/_link/Epinephrine]], [[Adrenochrome]], [[Adrenolutin]]
+- New links added: [[Epinephrine]], [[Adrenochrome]], [[Adrenolutin]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Adrenaline catabolism]] ↔ [[Adrenochrome Pathway]]
 
 ## Stepwise Biochemistry
 
-The oxidation of [[notes/_link/Epinephrine]] to [[Adrenochrome]] proceeds through a well-characterized sequence of intermediates. The initial step involves one-electron oxidation of the catechol ring to form the **adrenaline semiquinone radical**, an unstable species detectable by electron spin resonance. A second oxidation event yields **[[adrenaline-quinone]]** (epinephrine-ortho-quinone), a highly electrophilic [[o-quinone]] intermediate. Adrenaline-quinone then undergoes rapid intramolecular cyclization: the primary amine side chain attacks the electron-deficient C6 position of the quinone ring in a 1,4-Michael addition, forming **[[Leuco-adrenochrome]]** (2,3-dihydroindole-5,6-dione). Leuco-adrenochrome is a colorless, reduced intermediate that is subsequently oxidized — either by molecular oxygen or by another equivalent of adrenaline-quinone — to yield the characteristic red chromophore **[[Adrenochrome]]** (3-hydroxy-1-methyl-5,6-indolinedione). Further oxidation and rearrangement in alkaline conditions converts adrenochrome to **[[Adrenolutin]]** (5,6-dihydroxy-1-methylindole), a fluorescent compound that can undergo polymerization to form [[Melanins]].
+The oxidation of [[Epinephrine]] to [[Adrenochrome]] proceeds through a well-characterized sequence of intermediates. The initial step involves one-electron oxidation of the catechol ring to form the **adrenaline semiquinone radical**, an unstable species detectable by electron spin resonance. A second oxidation event yields **[[adrenaline-quinone]]** (epinephrine-ortho-quinone), a highly electrophilic [[o-quinone]] intermediate. Adrenaline-quinone then undergoes rapid intramolecular cyclization: the primary amine side chain attacks the electron-deficient C6 position of the quinone ring in a 1,4-Michael addition, forming **[[Leuco-adrenochrome]]** (2,3-dihydroindole-5,6-dione). Leuco-adrenochrome is a colorless, reduced intermediate that is subsequently oxidized — either by molecular oxygen or by another equivalent of adrenaline-quinone — to yield the characteristic red chromophore **[[Adrenochrome]]** (3-hydroxy-1-methyl-5,6-indolinedione). Further oxidation and rearrangement in alkaline conditions converts adrenochrome to **[[Adrenolutin]]** (5,6-dihydroxy-1-methylindole), a fluorescent compound that can undergo polymerization to form [[Melanins]].
 
 ## Enzymatic Catalysts
 
-While adrenochrome forms spontaneously under aerobic conditions, several enzymatic systems accelerate its production substantially. **[[notes/_link/Myeloperoxidase]]** (MPO), in the presence of [[notes/_link/Hydrogen Peroxide]] and halide ions, generates [[Hypochlorous Acid]] (HOCl), a potent oxidant that rapidly converts epinephrine to its quinone. **[[NAD(P)H Oxidase]]** (NOX) family enzymes produce superoxide anion (O₂⁻), which dismutates to H₂O₂, fueling peroxidase-catalyzed oxidation. Additional catalysts include **[[Ceruloplasmin]]**, **hemoglobin** (especially methemoglobin), and transition metal ions (Fe³⁺, Cu²⁺) that facilitate electron transfer. Cytochrome c in the mitochondrial intermembrane space can also oxidize epinephrine, linking adrenochrome formation to mitochondrial dysfunction.
+While adrenochrome forms spontaneously under aerobic conditions, several enzymatic systems accelerate its production substantially. **[[Myeloperoxidase]]** (MPO), in the presence of [[Hydrogen Peroxide]] and halide ions, generates [[Hypochlorous Acid]] (HOCl), a potent oxidant that rapidly converts epinephrine to its quinone. **[[NAD(P)H Oxidase]]** (NOX) family enzymes produce superoxide anion (O₂⁻), which dismutates to H₂O₂, fueling peroxidase-catalyzed oxidation. Additional catalysts include **[[Ceruloplasmin]]**, **hemoglobin** (especially methemoglobin), and transition metal ions (Fe³⁺, Cu²⁺) that facilitate electron transfer. Cytochrome c in the mitochondrial intermembrane space can also oxidize epinephrine, linking adrenochrome formation to mitochondrial dysfunction.
 
 ## Competing Pathways
 
-The flux of [[notes/_link/Epinephrine]] toward adrenochrome is determined by competition with the canonical catabolic enzymes **[[COMT]]** (catechol-O-methyltransferase) and **[[MAO]]** (monoamine oxidase). COMT methylates the 3-hydroxyl group to form **[[Metanephrine]]**, while MAO deaminates the side chain to yield 3,4-dihydroxymandelic acid. Under physiological conditions, these enzymatic routes predominate, and only a minor fraction (~1–5%) undergoes oxidative cyclization. However, under conditions of oxidative stress — such as inflammation, ischemia-reperfusion, or MPO release from activated neutrophils — the oxidative pathway becomes kinetically competitive, potentially becoming the dominant route for epinephrine disposal in localized microenvironments.
+The flux of [[Epinephrine]] toward adrenochrome is determined by competition with the canonical catabolic enzymes **[[COMT]]** (catechol-O-methyltransferase) and **[[MAO]]** (monoamine oxidase). COMT methylates the 3-hydroxyl group to form **[[Metanephrine]]**, while MAO deaminates the side chain to yield 3,4-dihydroxymandelic acid. Under physiological conditions, these enzymatic routes predominate, and only a minor fraction (~1–5%) undergoes oxidative cyclization. However, under conditions of oxidative stress — such as inflammation, ischemia-reperfusion, or MPO release from activated neutrophils — the oxidative pathway becomes kinetically competitive, potentially becoming the dominant route for epinephrine disposal in localized microenvironments.
 
 ## Kinetic Considerations
 
@@ -42,6 +44,6 @@ Direct detection of [[Adrenochrome]] in biological fluids has been challenging d
 Evidence for in vivo adrenochrome formation comes from detection of the compound in [[Rheumatoid synovial fluid]], post-ischemic myocardial tissue, and plasma following catecholamine infusion. Adrenochrome conjugates — particularly [[Adrenochrome sulfonate]] and [[Carbazochrome]] derivatives — have been identified as urinary metabolites, supporting the physiological relevance of this pathway.
 
 ### Linking Summary:
-- New links added: [[adrenaline-quinone]], [[Leuco-adrenochrome]], [[Adrenolutin]], [[Melanins]], [[notes/_link/Myeloperoxidase]], [[NAD(P)H Oxidase]], [[notes/_link/Hydrogen Peroxide]], [[Hypochlorous Acid]], [[COMT]], [[MAO]], [[Metanephrine]], [[Ascorbate]], [[notes/_link/Glutathione]], [[Rheumatoid synovial fluid]], [[Adrenochrome sulfonate]], [[Carbazochrome]], [[HPLC]], [[LC-MS]], [[Mass Spectrometry]], [[H-NMR]], [[Electrophile]], [[Autoxidation]], [[Redox Cycling]], [[Ceruloplasmin]], [[Methemoglobin]]
+- New links added: [[adrenaline-quinone]], [[Leuco-adrenochrome]], [[Adrenolutin]], [[Melanins]], [[Myeloperoxidase]], [[NAD(P)H Oxidase]], [[Hydrogen Peroxide]], [[Hypochlorous Acid]], [[COMT]], [[MAO]], [[Metanephrine]], [[Ascorbate]], [[Glutathione]], [[Rheumatoid synovial fluid]], [[Adrenochrome sulfonate]], [[Carbazochrome]], [[HPLC]], [[LC-MS]], [[Mass Spectrometry]], [[H-NMR]], [[Electrophile]], [[Autoxidation]], [[Redox Cycling]], [[Ceruloplasmin]], [[Methemoglobin]]
 - Suggested new entity notes to create: [[Epinephrine Oxidation Cascade]], [[Indole-5,6-quinone]]
 - Strong connections to strengthen: [[Adrenochrome Pathway]] ↔ [[Myeloperoxidase Pathway]], [[Adrenochrome Pathway]] ↔ [[Inflammation]]

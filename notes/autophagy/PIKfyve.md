@@ -1,11 +1,13 @@
 ---
-aliases:
-- PIP5K3
-- phosphoinositide kinase
-category: Enzyme
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: PIKfyve
+description: '**PIKfyve** is a phosphoinositide 5-kinase that converts PtdIns3P to
+  PtdIns(3,5)P2, playing a critical role in Lysosome biogenesis and reformation by
+  activating TRPML1.'
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Enzyme
+aliases: [PIP5K3, phosphoinositide kinase]
 ---
 # PIKfyve
 

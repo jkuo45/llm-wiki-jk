@@ -1,27 +1,23 @@
 ---
 type: entity
-category: enzyme
-entity_type: "Enzyme"
-aliases:
-  - LOX
-  - Lipoxygenase
-  - ALOX
+title: Lipoxygenase
+description: '**Lipoxygenases (LOXs)** are a family of iron-containing enzymes that
+  catalyze the dioxygenation of Polyunsaturated fatty acids to produce lipid hydroperoxides.
+  They play roles in Inflammation, Lip...'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Enzyme
+aliases: [LOX, Lipoxygenase, ALOX]
 ---
-
 # Lipoxygenase
+**Lipoxygenases (LOXs)** are a family of iron-containing enzymes that catalyze the dioxygenation of [[Polyunsaturated fatty acids|polyunsaturated fatty acids]] to produce lipid hydroperoxides. They play roles in [[Inflammation]], [[Lipid Peroxidation|lipid peroxidation]], and [[Oxidative Stress|oxidative stress]].
 
-**Lipoxygenases (LOXs)** are a family of iron-containing enzymes that catalyze the dioxygenation of [[Polyunsaturated fatty acids|polyunsaturated fatty acids]] to produce lipid hydroperoxides. They play roles in [[notes/_link/Inflammation]], [[Lipid Peroxidation|lipid peroxidation]], and [[Oxidative Stress|oxidative stress]].
-
-## Connections
-
+### Connections
 - [[Lipid Peroxidation]] — LOX initiates enzymatic lipid peroxidation
-- [[notes/_link/Inflammation]] — LOX products (leukotrienes) are inflammatory mediators
+- [[Inflammation]] — LOX products (leukotrienes) are inflammatory mediators
 - [[Polyunsaturated fatty acids]] — LOX substrates
 
-## Linking Summary
-
-- New links added: [[Lipid Peroxidation]], [[notes/_link/Inflammation]], [[Oxidative Stress]], [[Polyunsaturated fatty acids]]
+### Linking Summary
+- New links added: [[Lipid Peroxidation]], [[Inflammation]], [[Oxidative Stress]], [[Polyunsaturated fatty acids]]
 - Suggested new entity notes to create: [[5-LOX]], [[12-LOX]], [[15-LOX]], [[Leukotrienes]]
 - Strong connections to strengthen: [[Lipoxygenase]] ↔ [[Lipid Peroxidation]]

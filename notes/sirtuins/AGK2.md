@@ -1,23 +1,19 @@
 ---
 type: entity
-category: chemical
+title: AGK2
+description: AGK2 is a potent, cell-permeable, and selective small-molecule inhibitor
+  of SIRT2. It is widely utilized in neurobiology and oncology research to study the
+  pathogenic consequences of SIRT2 activity...
+created: 2026-07-03
+updated: 2026-07-03
+entity_type_1: Chemical Compound
 aliases:
   - AGK2
   - AGK-2
-database_ids:
-  pubchem: 3105
-relations:
-  - predicate: inhibits
-    target: "SIRT2"
-    sources:
-      - s41392-022-01257-8
-  - predicate: regulates
-    target: "FOXO3a"
-    sources:
-      - s41392-022-01257-8
-created: 2026-07-03
-updated: 2026-07-03
 ---
+
+
+
 
 # AGK2
 
@@ -59,12 +55,12 @@ AGK2 selectively binds to the catalytic cleft of [[SIRT2]], blocking its deacety
 - **[[SIRT2]]** — direct molecular target inhibited by AGK2.
 - **[[FOXO3a]]** — downstream transcription factor regulated by AGK2/SIRT2-dependent deacetylation.
 - **[[SirReal2]]** — fellow, highly selective SIRT2 inhibitor.
-- **[[notes/_link/Alzheimer's Disease]]** — neurological context where SIRT2 inhibition shows therapeutic promise.
+- **[[Alzheimer's Disease]]** — neurological context where SIRT2 inhibition shows therapeutic promise.
 
 ---
 
 ## Linking Summary
 
-- **New Links Added**: [[SIRT2]], [[FOXO3a]], [[SirReal2]], [[notes/_link/Alzheimer's Disease]], [[p53]]
+- **New Links Added**: [[SIRT2]], [[FOXO3a]], [[SirReal2]], [[Alzheimer's Disease]], [[p53]]
 - **Suggested New Notes to Create**: [[Alpha-Synuclein Toxicity]], [[Microtubule Acetylation]]
 - **Strong Connections to Strengthen**: [[AGK2]] ↔ [[SIRT2]], [[AGK2]] ↔ [[FOXO3a]]

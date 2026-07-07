@@ -1,18 +1,21 @@
 ---
 type: entity
-category: enzyme
-aliases: [PTPs, Protein tyrosine phosphatases, Tyrosine-specific phosphatases]
+title: Protein Tyrosine Phosphatases
+description: '**Protein Tyrosine Phosphatases (PTPs)** are a family of enzymes that
+  remove phosphate groups from phosphorylated tyrosine residues, counterbalancing
+  the activity of protein tyrosine kinases. They ...'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Enzyme
+aliases: [PTPs, Protein tyrosine phosphatases, Tyrosine-specific phosphatases]
 ---
-
 # Protein Tyrosine Phosphatases
 
-**Protein Tyrosine Phosphatases (PTPs)** are a family of enzymes that remove phosphate groups from phosphorylated tyrosine residues, counterbalancing the activity of protein tyrosine kinases. They are central to redox signaling due to the sensitivity of their active-site cysteine to reversible oxidation by [[notes/_link/Hydrogen Peroxide|H₂O₂]].
+**Protein Tyrosine Phosphatases (PTPs)** are a family of enzymes that remove phosphate groups from phosphorylated tyrosine residues, counterbalancing the activity of protein tyrosine kinases. They are central to redox signaling due to the sensitivity of their active-site cysteine to reversible oxidation by [[Hydrogen Peroxide|H₂O₂]].
 
 ## Redox-Sensitive Catalytic Mechanism
 
-All classical PTPs contain a conserved active-site motif, HC(X)₅R(S/T), where the catalytic cysteine functions as a nucleophile in phosphotyrosine hydrolysis. The low pKa (~4.5–5.5) of this cysteine renders it highly susceptible to oxidation. [[notes/_link/Hydrogen Peroxide|H₂O₂]] oxidizes the catalytic cysteine to a sulfenic acid (Cys-SOH), which rapidly forms a cyclic sulfenylamide bond with the backbone amide of the adjacent serine residue, protecting against further irreversible oxidation to sulfinic acid. This sulfenylamide is stereospecifically reduced by the [[Thioredoxin]] system, restoring phosphatase activity.
+All classical PTPs contain a conserved active-site motif, HC(X)₅R(S/T), where the catalytic cysteine functions as a nucleophile in phosphotyrosine hydrolysis. The low pKa (~4.5–5.5) of this cysteine renders it highly susceptible to oxidation. [[Hydrogen Peroxide|H₂O₂]] oxidizes the catalytic cysteine to a sulfenic acid (Cys-SOH), which rapidly forms a cyclic sulfenylamide bond with the backbone amide of the adjacent serine residue, protecting against further irreversible oxidation to sulfinic acid. This sulfenylamide is stereospecifically reduced by the [[Thioredoxin]] system, restoring phosphatase activity.
 
 ## Signaling Role
 
@@ -24,4 +27,4 @@ The transient inactivation of PTPs by H₂O₂ during growth factor signaling al
 
 ## Clinical Relevance
 
-Dysregulated PTP redox regulation is implicated in [[Cancer]] (PTEN inactivation promotes PI3K/Akt signaling), [[notes/_link/Diabetes Mellitus]] (PTP1B oxidation impairs insulin signaling), [[inflammatory diseases]], and [[Neurodegeneration|neurodegeneration]].
+Dysregulated PTP redox regulation is implicated in [[Cancer]] (PTEN inactivation promotes PI3K/Akt signaling), [[Diabetes Mellitus]] (PTP1B oxidation impairs insulin signaling), [[inflammatory diseases]], and [[Neurodegeneration|neurodegeneration]].

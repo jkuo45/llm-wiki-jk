@@ -1,3 +1,12 @@
+---
+type: entity
+title: Prostate Cancer
+description: Prostate cancer is a malignant tumor derived from prostate epithelial
+  cells.
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Medical Condition
+---
 # Prostate Cancer
 
 Prostate cancer is a malignant tumor derived from prostate epithelial cells.

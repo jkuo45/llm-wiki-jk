@@ -1,11 +1,13 @@
 ---
-aliases:
-- XPO1
-- exportin 1
-category: Protein
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: CRM1
+description: Chromosomal maintenance 1 (CRM1), also known as Exportin-1, is a nuclear
+  export receptor that recognizes nuclear export signals (NES) on TFEB to facilitate
+  its redistribution to the cytoplasm.
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Protein
+aliases: [XPO1, exportin 1]
 ---
 # CRM1
 

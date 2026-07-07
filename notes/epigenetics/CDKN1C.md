@@ -1,9 +1,10 @@
 ---
 type: entity
-category: gene
-entity_type: "Gene"
+title: CDKN1C
+description: '- New links added: p57, CDK Inhibitor, Quiescence'
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: Gene
 ---
 # CDKN1C
 

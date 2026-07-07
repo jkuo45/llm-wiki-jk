@@ -1,9 +1,12 @@
 ---
 type: entity
-category: other
-entity_type: "NA"
+title: Yamanaka Factors
+description: The Yamanaka Factors (also known as OSKM) are a group of four transcription
+  factors—Oct4, Sox2, Klf4, and c-Myc—that are used to induce Pluripotency in differentiated
+  Somatic Cells.
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: NA
 ---
 # Yamanaka Factors
 

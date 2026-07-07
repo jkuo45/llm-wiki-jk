@@ -1,40 +1,26 @@
 ---
 type: entity
-category: anatomy
+title: 'Sirtuins: The Sirtuin Family in Health and Disease'
+description: Sirtuins (SIRTs) are a highly conserved family of nicotinamide adenine
+  dinucleotide (NAD⁺)-dependent enzymes belonging to Class III histone deacetylases
+  (HDACs). Spanning all domains of life, sirtu...
+created: 2026-07-04
+updated: 2026-07-05
+entity_type_1: Protein
 aliases:
   - Sirtuin Family
   - SIRTs
   - Mammalian Sirtuins
-relations:
-  - predicate: regulates
-    target: "notes/_link/Aging"
-    sources:
-      - s41392-022-01257-8
-  - predicate: regulates
-    target: "notes/_link/Inflammation"
-    sources:
-      - s41392-022-01257-8
-  - predicate: regulates
-    target: "notes/_link/Cardiovascular Disease"
-    sources:
-      - s41392-022-01257-8
-  - predicate: part_of
-    target: "Basal Ganglia"
-    sources: []
-  - predicate: receives_input_from
-    target: "notes/_link/Substantia Nigra"
-    sources: []
-  - predicate: associated_with
-    target: "notes/_link/Parkinson's Disease"
-    sources: []
-  - predicate: associated_with
-    target: "notes/_link/Dopamine"
-    sources: []
-created: 2026-07-04
-updated: 2026-07-04
-database_ids:
-  mesh: D003342
+  - Class III HDACs
+
+sources:
+  - "_document_ - sirtuins (resveratrol), gemini.md"
+  - "_document_ - sirtuins in health and disease s41392-022-01257-8.md"
+  - "_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i.md"
 ---
+
+
+
 
 # Sirtuins: The Sirtuin Family in Health and Disease
 
@@ -91,7 +77,7 @@ Mammalian sirtuins operate in concert or compensate for one another to regulate 
 
 ### A. Inflammation and Immune Cell Function
 
-- **SIRT1 and SIRT6**: Act as primary anti-inflammatory sirtuins by deacetylating the RelA/p65 subunit of [[notes/_link/NFKB|NF-κB]], suppressing its transcriptional activity and reducing the secretion of pro-inflammatory cytokines like TNF-$\alpha$, IL-6, and IL-1$\beta$.
+- **SIRT1 and SIRT6**: Act as primary anti-inflammatory sirtuins by deacetylating the RelA/p65 subunit of [[NFKB|NF-κB]], suppressing its transcriptional activity and reducing the secretion of pro-inflammatory cytokines like TNF-$\alpha$, IL-6, and IL-1$\beta$.
 - **SIRT3**: Diminishes macrophage-mediated inflammation by reducing reactive oxygen species (ROS) and directly suppressing [[NLRP3]] inflammasome activation.
 - **Inflammatory Polarization**: SIRT3 and SIRT6 promote the anti-inflammatory M2 phenotype in macrophages, whereas loss of sirtuins leads to systemic and microvascular inflammation.
 
@@ -103,7 +89,7 @@ Mammalian sirtuins operate in concert or compensate for one another to regulate 
 
 ### C. Oxidative Stress and Redox Homeostasis
 
-- **AMPK Loop**: SIRT1, SIRT3, and SIRT6 establish a reciprocal positive feedback loop with **[[notes/_link/AMPK|AMPK]]**, coordinating cell survival and ATP production under oxidative stress.
+- **AMPK Loop**: SIRT1, SIRT3, and SIRT6 establish a reciprocal positive feedback loop with **[[AMPK|AMPK]]**, coordinating cell survival and ATP production under oxidative stress.
 - **Nrf2 Activation**: SIRT1, SIRT2, and SIRT6 upregulate **Nrf2** signaling, promoting the expression of antioxidant defense enzymes.
 - **FoxO-Mediated Defense**: SIRT1 and SIRT3 deacetylate and activate **[[FOXO3a]]**, driving the expression of manganese superoxide dismutase (MnSOD/SOD2) and catalase (CAT) to eliminate mitochondrial ROS.
 
@@ -149,9 +135,13 @@ The development of specific sirtuin inhibitors and activators is a rapidly expan
   - **Fisetin, Butein, Quercetin**: Structurally related polyphenols that increase lifespan in model organisms.
 - **Synthetic SIRT1 Activators (STACs)**:
   - **SRT1720, SRT2104, SRT2183, SRT3025**: Highly potent compounds that bind SIRT1 with high affinity, improving metabolic homeostasis and lifespan in models of obesity.
+- **NAD+ Precursors (Pan-Sirtuin Activators)**:
+  - **[[NMN]] (Nicotinamide Mononucleotide)**: Direct NAD+ precursor; elevates NAD+ to fuel all sirtuins.
+  - **[[Nicotinamide Riboside]] (NR)**: Another NAD+ precursor phosphorylated to NMN before entering the NAD+ pool.
 - **SIRT6-Specific Activators**:
   - **UBCS039**: The first synthetic activator of SIRT6 deacetylase activity.
   - **MDL-800**: A potent, highly selective allosteric activator of SIRT6 that reduces myofibroblast differentiation and accelerates wound healing.
+  - **Cyanidin**: A natural anthocyanidin (from dark berries) capable of increasing SIRT6 activity >50-fold in vitro.
 
 ### Sirtuin Inhibitors
 
@@ -175,48 +165,7 @@ The development of specific sirtuin inhibitors and activators is a rapidly expan
 
 ### Linking Summary:
 
-- **New Links Added**: [[SIRT1]], [[SIRT2]], [[SIRT3]], [[SIRT4]], [[SIRT5]], [[SIRT6]], [[SIRT7]], [[p53]], [[PGC-1α]], [[FoxO1]], [[FOXO3a]], [[notes/_link/NFKB|NF-κB]], [[Resveratrol]], [[notes/_link/AMPK|AMPK]], [[TFEB]], [[notes/_link/Cardiovascular Disease]], [[notes/_link/Aging]], [[HIF-1α]]
+- **New Links Added**: [[SIRT1]], [[SIRT2]], [[SIRT3]], [[SIRT4]], [[SIRT5]], [[SIRT6]], [[SIRT7]], [[p53]], [[PGC-1α]], [[FoxO1]], [[FOXO3a]], [[NFKB|NF-κB]], [[Resveratrol]], [[AMPK|AMPK]], [[TFEB]], [[Cardiovascular Disease]], [[Aging]], [[HIF-1α]], [[NMN]], [[Nicotinamide Riboside]], [[Cyanidin]], [[Honokiol]], [[Dihydromyricetin]]
 - **Suggested New Notes to Create**: [[UBCS039]], [[MDL-800]], [[SirReal2]], [[EX-527]], [[NLRP3]], [[AceCS2]]
-- **Strong Connections to Strengthen**: [[Sirtuins]] ↔ [[SIRT1]], [[Sirtuins]] ↔ [[notes/_link/Aging]], [[Sirtuins]] ↔ [[Resveratrol]]
+- **Strong Connections to Strengthen**: [[Sirtuins]] ↔ [[SIRT1]], [[Sirtuins]] ↔ [[Aging]], [[Sirtuins]] ↔ [[Resveratrol]], [[NMN]] ↔ [[NAD+]], [[Nicotinamide Riboside]] ↔ [[NAD+]]
 
-# Striatum
-
-The **[[Striatum]]** is a subcortical part of the forebrain and a critical component of the basal ganglia. It consists of the [[Caudate Nucleus]] and [[Putamen]]. The striatum is involved in motor control, habit formation, reward-related learning, and stimulus-response learning.
-
-## Anatomy and Connectivity
-
-The striatum receives dopaminergic input from the [[Substantia Nigra Pars Compacta]] via the [[Nigrostriatal System]]; degeneration of this pathway is the central pathological event in [[notes/_link/Parkinson's Disease]]. It also receives cortical input from the [[Prefrontal Cortex]], forming cortico-basal ganglia loops essential for executive control.
-
-## Dopamine Signaling
-
-The [[Striatum]] is characterized by high levels of [[notes/_link/Dopamine]] and the [[Dopamine Transporter]] ([[DAT]]).
-- In the **dorsomedial striatum**, dopamine activity is crucial for [[Stimulus-response learning]].
-- Research in [[COMT]] overexpressing models shows that increased [[COMT]] activity can lead to increased dopamine release capacity in the striatum, suggesting a novel mechanism by which COMT variation impacts striatal function beyond its canonical role in the PFC.
-
-## Cellular Components
-
-The primary neurons in the striatum are [[Medium spiny neurons]] ([[MSNs]]), which comprise ~95% of striatal neurons and express either [[D1 Receptor|D1]] or [[D2 receptor|D2]] dopamine receptors, forming the direct and indirect pathways of the basal ganglia.
-
-## Clinical Significance
-
-Dysfunction in the striatum is linked to:
-- [[notes/_link/Parkinson's Disease]] — dopamine depletion in the putamen causes motor symptoms
-- [[Impulsive Behavior]] and [[Compulsive Behavior]] — associated with dysregulated striatal dopamine signaling
-- Huntington's Disease — selective degeneration of striatal MSNs
-- Obsessive-compulsive disorder — hyperactivity in cortico-striatal circuits
-
-## Connections
-
-- [[notes/_link/Dopamine]]: Major neurotransmitter signaling in the striatum.
-- [[COMT]]: Enzyme that, when overexpressed, impacts striatal dopamine release.
-- [[Prefrontal Cortex]]: Works in tandem with the striatum for executive control.
-- [[notes/_link/Parkinson's Disease]]: Striatal dopamine depletion underlies motor symptoms.
-- [[Medium spiny neurons]]: The primary cell type of the striatum.
-- [[Caudate Nucleus]] / [[Putamen]]: The two anatomical subdivisions of the striatum.
-
----
-
-### Linking Summary:
-
-- New links added: [[Caudate Nucleus]], [[Putamen]], [[Substantia Nigra Pars Compacta]], [[Nigrostriatal System]], [[notes/_link/Parkinson's Disease]], [[notes/_link/Substantia Nigra]], [[notes/_link/Dopamine]], [[Dopamine Transporter]], [[DAT]], [[Stimulus-response learning]], [[COMT]], [[Medium spiny neurons]], [[MSNs]], [[D1 Receptor]], [[D2 receptor]], [[Impulsive Behavior]], [[Compulsive Behavior]], [[Prefrontal Cortex]], [[notes/_link/Dopamine]]
-- Strong connections to strengthen: [[Striatum]] ↔ [[Nigrostriatal System]], [[Striatum]] ↔ [[notes/_link/Dopamine]]

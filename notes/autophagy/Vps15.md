@@ -1,11 +1,12 @@
 ---
-aliases:
-- PIK3R4
-- phosphoinositide 3-kinase regulatory subunit 4
-category: Protein
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: Vps15
+description: Vps15 is a p150 phosphoinositide 3-kinase regulatory subunit that forms
+  a complex with Vps34 to regulate Autophagy and endosomal trafficking.
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Protein
+aliases: [PIK3R4, phosphoinositide 3-kinase regulatory subunit 4]
 ---
 # Vps15
 

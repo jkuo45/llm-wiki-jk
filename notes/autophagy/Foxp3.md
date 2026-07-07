@@ -1,17 +1,19 @@
 ---
-aliases:
-- forkhead box P3
-category: Gene
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: Foxp3
+description: '**Foxp3** (Forkhead Box P3) is a transcription factor that serves as
+  a master regulator of the regulatory T Cell (Treg) lineage.'
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Gene
+aliases: [forkhead box P3]
 ---
 # Foxp3
 
 **Foxp3** (Forkhead Box P3) is a transcription factor that serves as a master regulator of the regulatory [[T Cell]] (Treg) lineage.
 
 ## Induction by Spermidine
-- [[notes/_link/Spermidine]] can promote the differentiation of CD4+ T cells towards a regulatory Foxp3+ phenotype.
+- [[Spermidine]] can promote the differentiation of CD4+ T cells towards a regulatory Foxp3+ phenotype.
 - This phenotype exhibits an anti-inflammatory profile.
 
 ## Autophagy Dependence
@@ -22,6 +24,6 @@ updated: '2026-07-04'
 Foxp3 is a forkhead transcription factor that specifies [[Regulatory T Cell]] (Treg) lineage. [[Autophagy]] maintains Treg metabolic fitness and suppressive function.
 
 ### Linking Summary:
-- New links added: [[T Cell]], [[notes/_link/Spermidine]], [[Atg5]], [[Autophagy]]
+- New links added: [[T Cell]], [[Spermidine]], [[Atg5]], [[Autophagy]]
 - Suggested new entity notes to create:
-- Strong connections to strengthen: [[Foxp3]] ↔ [[notes/_link/Spermidine]]
+- Strong connections to strengthen: [[Foxp3]] ↔ [[Spermidine]]

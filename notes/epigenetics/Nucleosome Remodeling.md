@@ -1,11 +1,13 @@
 ---
 type: entity
-category: biological_process
-entity_type: "Biological Process"
+title: Nucleosome Remodeling
+description: '**Nucleosome Remodeling** is the ATP-dependent process by which Nucleosome
+  — the fundamental unit of Chromatin — are repositioned, evicted, or restructured
+  to regulate DNA accessibility for Transcr...'
 created: 2024-01-01
 updated: 2024-07-04
+entity_type_1: Biological Process
 ---
-
 # Nucleosome Remodeling
 
 **Nucleosome Remodeling** is the ATP-dependent process by which [[Nucleosome|nucleosomes]] — the fundamental unit of [[Chromatin]] — are repositioned, evicted, or restructured to regulate [[DNA]] accessibility for [[Transcription]], [[DNA Replication]], [[DNA Repair]], and [[Recombination]]. It is an essential epigenetic mechanism that operates in concert with [[Histone Modification|histone modifications]] and [[DNA Methylation]].

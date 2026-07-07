@@ -1,6 +1,15 @@
+---
+type: entity
+title: Bax
+description: '**Bax** (Bcl-2-associated X protein) is a key pro-apoptotic member of
+  the Bcl-2 family. It plays a critical role in the Intrinsic Pathway of Apoptosis.'
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Enzyme
+---
 # Bax
 
-**Bax** (Bcl-2-associated X protein) is a key pro-apoptotic member of the [[Bcl-2 family]]. It plays a critical role in the [[Intrinsic Pathway]] of [[notes/_link/Apoptosis|apoptosis]].
+**Bax** (Bcl-2-associated X protein) is a key pro-apoptotic member of the [[Bcl-2 family]]. It plays a critical role in the [[Intrinsic Pathway]] of [[Apoptosis|apoptosis]].
 
 ## Mechanism
 Upon receiving apoptotic signals, Bax undergoes a conformational change and translocates from the cytosol to the outer mitochondrial membrane. There, it oligomerizes with [[Bak]] to form pores, leading to mitochondrial outer membrane permeabilization ([[MOMP]]) and the release of [[Cytochrome c]]. [[Bcl-xL]] can inhibit this translocation by retrotranslocating Bax from the mitochondria back to the cytosol.

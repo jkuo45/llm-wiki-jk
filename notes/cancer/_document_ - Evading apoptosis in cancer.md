@@ -1,15 +1,19 @@
 ---
-title: "Evading apoptosis in cancer"
-source: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4091735/"
+type: document
+title: Evading apoptosis in cancer
+source: https://pmc.ncbi.nlm.nih.gov/articles/PMC4091735/
 author:
-  - "Kaleigh Fernald"
-  - "Manabu Kurokawa"
-published:
+- Kaleigh Fernald
+- Manabu Kurokawa
 created: 2026-05-31
-description: "Carcinogenesis is a mechanistically complex and variable process with a plethora of underlying genetic causes. Cancer development consists of a multitude of steps that occur progressively starting with initial driver mutation(s), to tumorigenesis, ..."
+description: Carcinogenesis is a mechanistically complex and variable process with
+  a plethora of underlying genetic causes. Cancer development consists of a multitude
+  of steps that occur progressively starting with initial driver mutation(s), to tumorigenesis,
+  ...
 tags:
   - "clippings"
 ---
+
 
 . Author manuscript; available in PMC: 2014 Dec 1.
 

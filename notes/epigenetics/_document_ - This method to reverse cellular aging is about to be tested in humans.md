@@ -1,15 +1,18 @@
 ---
-title: "This method to reverse cellular aging is about to be tested in humans"
-source: "https://www.scientificamerican.com/article/this-method-to-reverse-cellular-aging-is-about-to-be-tested-in-humans/"
+type: document
+title: This method to reverse cellular aging is about to be tested in humans
+source: https://www.scientificamerican.com/article/this-method-to-reverse-cellular-aging-is-about-to-be-tested-in-humans/
 author:
-  - "Heidi Ledford"
-  - "Nature magazine"
+- Heidi Ledford
+- Nature magazine
 published: 2026-04-13
 created: 2026-05-16
-description: "A burgeoning field is launching its first clinical trial to find out whether dialing back cell development can safely refresh aged tissues and organs"
+description: A burgeoning field is launching its first clinical trial to find out
+  whether dialing back cell development can safely refresh aged tissues and organs
 tags:
   - "clippings"
 ---
+
 Yuancheng Ryan Lu could barely breathe while he waited for his labmate to adjust the microscope focus.
 
 On the slide in front of them were the results of Lu’s latest attempt to turn back time for ageing retinal nerve cells. If it worked, the method he was using could [help to restore eyesight](https://www.nature.com/articles/d41586-024-03656-z) to older adults with glaucoma, an age-related condition that damages the optic nerve. And perhaps some day it could be used to rejuvenate organs such as the kidneys or liver — [maybe even the brain](https://www.nature.com/articles/d41586-026-00599-5).

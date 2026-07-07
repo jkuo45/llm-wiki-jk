@@ -1,11 +1,14 @@
 ---
 type: entity
-category: biological process
-aliases: ["Innate Immunity"]
+title: Innate Immune System
+description: '**Definition:** Innate Immune System is a fundamental biological process
+  that maintains cellular and organismal homeostasis. It involves coordinated molecular
+  events regulated by signaling pathways...'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Biological Process
+aliases: [Innate Immunity]
 ---
-
 # Innate Immune System
 
 **Definition:** Innate Immune System is a fundamental biological process that maintains cellular and organismal homeostasis. It involves coordinated molecular events regulated by signaling pathways and environmental cues.
@@ -15,3 +18,11 @@ updated: 2026-07-04
 **Physiological importance:** Innate Immune System is essential for development, tissue maintenance, stress adaptation, and energy homeostasis. Dysregulation of this process contributes to aging and disease.
 
 **Regulation and dysregulation:** Innate Immune System is controlled by nutrient sensors, stress pathways, and hormonal signals. Impairment of this process is linked to metabolic diseases, neurodegeneration, and cancer.
+
+### Connections
+- [[Innate Immune System]] — related entity
+
+### Linking Summary
+- New links added: [[Innate Immune System]]
+- Strong connections to strengthen: [[Innate Immune System]] ↔ [[Innate Immune System]]
+

@@ -1,25 +1,20 @@
 ---
 type: entity
-category: protein
+title: FHL2
+description: FHL2 (Four and a Half LIM Domains Protein 2, also known as SLIM3) is
+  a prominent member of the LIM-only protein family. Characterized by its unique cysteine-rich
+  zinc-finger-like structures, FHL2 l...
+created: 2026-07-03
+updated: 2026-07-03
+entity_type_1: Protein
 aliases:
   - FHL2
   - Four and a half LIM domains protein 2
   - SLIM3
-database_ids:
-  uniprot: Q14192
-  hgnc: HGNC:3703
-relations:
-  - predicate: regulates
-    target: "SIRT1"
-    sources:
-      - "PMID:15692560"
-  - predicate: regulates
-    target: "FOXO1"
-    sources:
-      - "PMID:15692560"
-created: 2026-07-03
-updated: 2026-07-03
 ---
+
+
+
 
 # FHL2
 

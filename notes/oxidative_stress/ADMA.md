@@ -1,11 +1,14 @@
 ---
 type: entity
-category: chemical_compound
-aliases: [Asymmetric dimethylarginine, N,N-dimethyl-L-arginine]
+title: ADMA
+description: '**ADMA (Asymmetric dimethylarginine)** is an endogenous inhibitor of
+  Nitric Oxide Synthase produced by methylation of arginine residues in proteins by
+  Protein arginine methyltransferases and releas...'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Chemical Compound
+aliases: [Asymmetric dimethylarginine, N, N-dimethyl-L-arginine]
 ---
-
 # ADMA
 
 **ADMA (Asymmetric dimethylarginine)** is an endogenous inhibitor of [[Nitric Oxide Synthase|nitric oxide synthase (NOS)]] produced by methylation of arginine residues in proteins by [[Protein arginine methyltransferases|PRMTs]] and released during proteolysis.
@@ -16,4 +19,4 @@ ADMA competitively inhibits all NOS isoforms by binding to the L-arginine bindin
 
 ## Clinical Significance
 
-Elevated ADMA is a well-established independent risk factor for [[notes/_link/Cardiovascular Disease|cardiovascular disease]], [[Endothelial Dysfunction|endothelial dysfunction]], [[notes/_link/Diabetes Mellitus|diabetes]], [[notes/_link/Hypertension|hypertension]], and chronic kidney disease. The [[L-arginine:ADMA ratio]] is a biomarker of NO bioavailability and cardiovascular risk. ADMA accumulates in conditions associated with [[Oxidative Stress|oxidative stress]] because ROS inactivate DDAH via cysteine oxidation, creating a feed-forward loop: oxidative stress → DDAH inactivation → ADMA accumulation → eNOS uncoupling → more ROS.
+Elevated ADMA is a well-established independent risk factor for [[Cardiovascular Disease|cardiovascular disease]], [[Endothelial Dysfunction|endothelial dysfunction]], [[Diabetes Mellitus|diabetes]], [[Hypertension|hypertension]], and chronic kidney disease. The [[L-arginine:ADMA ratio]] is a biomarker of NO bioavailability and cardiovascular risk. ADMA accumulates in conditions associated with [[Oxidative Stress|oxidative stress]] because ROS inactivate DDAH via cysteine oxidation, creating a feed-forward loop: oxidative stress → DDAH inactivation → ADMA accumulation → eNOS uncoupling → more ROS.

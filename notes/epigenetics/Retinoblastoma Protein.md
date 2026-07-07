@@ -1,9 +1,12 @@
 ---
 type: entity
-category: protein
-entity_type: "Protein"
+title: Retinoblastoma Protein
+description: The Retinoblastoma Protein (Rb) is a tumor suppressor protein that is
+  dysfunctional in several major cancers. One function of Rb is to inhibit excessive
+  cell cycle progression by inhibiting E2F tra...
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: Protein
 ---
 # Retinoblastoma Protein
 

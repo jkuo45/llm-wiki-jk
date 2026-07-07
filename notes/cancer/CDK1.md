@@ -1,3 +1,11 @@
+---
+type: entity
+title: CDK1
+description: '- New links added: CDK1, CYCLIN B1, Caspase-2, Phosphorylation'
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Enzyme
+---
 # CDK1
 [[CDK1]] (Cyclin-dependent kinase 1) is a key regulator of the cell cycle that, in complex with [[CYCLIN B1]], phosphorylates [[Caspase-2]] at Ser308 to inhibit its activation during mitosis.
 

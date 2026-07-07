@@ -1,21 +1,26 @@
 ---
-title: "Oxidative Stress: Harms and Benefits for Human Health"
-source: "https://pmc.ncbi.nlm.nih.gov/articles/PMC5551541/"
+type: document
+title: 'Oxidative Stress: Harms and Benefits for Human Health'
+source: https://pmc.ncbi.nlm.nih.gov/articles/PMC5551541/
 author:
-  - "Gabriele Pizzino"
-  - "Natasha Irrera"
-  - "Mariapaola Cucinotta"
-  - "Giovanni Pallio"
-  - "Federica Mannino"
-  - "Vincenzo Arcoraci"
-  - "Francesco Squadrito"
-  - "Domenica Altavilla"
-  - "Alessandra Bitto"
+- Gabriele Pizzino
+- Natasha Irrera
+- Mariapaola Cucinotta
+- Giovanni Pallio
+- Federica Mannino
+- Vincenzo Arcoraci
+- Francesco Squadrito
+- Domenica Altavilla
+- Alessandra Bitto
 created: 2026-05-09
-description: "Oxidative stress is a phenomenon caused by an imbalance between production and accumulation of oxygen reactive species (ROS) in cells and tissues and the ability of a biological system to detoxify these reactive products. ROS can play, and in fact ..."
+description: Oxidative stress is a phenomenon caused by an imbalance between production
+  and accumulation of oxygen reactive species (ROS) in cells and tissues and the ability
+  of a biological system to detoxify these reactive products. ROS can play, and in
+  fact ...
 tags:
   - "clippings"
 ---
+
 . 2017 Jul 27;2017:8416763. doi: [10.1155/2017/8416763](https://doi.org/10.1155/2017/8416763)
 
 [Gabriele Pizzino](https://pubmed.ncbi.nlm.nih.gov/?term=%22Pizzino%20G%22[Author]) <sup>1,</sup><sup>*</sup>, [Natasha Irrera](https://pubmed.ncbi.nlm.nih.gov/?term=%22Irrera%20N%22[Author]) <sup>1</sup>, [Mariapaola Cucinotta](https://pubmed.ncbi.nlm.nih.gov/?term=%22Cucinotta%20M%22[Author]) <sup>2</sup>, [Giovanni Pallio](https://pubmed.ncbi.nlm.nih.gov/?term=%22Pallio%20G%22[Author]) <sup>1</sup>, [Federica Mannino](https://pubmed.ncbi.nlm.nih.gov/?term=%22Mannino%20F%22[Author]) <sup>1</sup>, [Vincenzo Arcoraci](https://pubmed.ncbi.nlm.nih.gov/?term=%22Arcoraci%20V%22[Author]) <sup>1</sup>, [Francesco Squadrito](https://pubmed.ncbi.nlm.nih.gov/?term=%22Squadrito%20F%22[Author]) <sup>1</sup>, [Domenica Altavilla](https://pubmed.ncbi.nlm.nih.gov/?term=%22Altavilla%20D%22[Author]) <sup>2</sup>, [Alessandra Bitto](https://pubmed.ncbi.nlm.nih.gov/?term=%22Bitto%20A%22[Author]) <sup>1</sup>
@@ -24,15 +29,15 @@ PMCID: PMC5551541 PMID: [28819546](https://pubmed.ncbi.nlm.nih.gov/28819546/)
 
 ## Abstract
 
-[[Oxidative Stress]] is a phenomenon caused by an imbalance between production and accumulation of [[notes/_link/Reactive Oxygen Species|oxygen reactive species (ROS)]] in cells and tissues and the ability of a biological system to detoxify these reactive products. ROS can play, and in fact they do it, several physiological roles (i.e., cell signaling), and they are normally generated as by-products of oxygen metabolism; despite this, environmental stressors (i.e., UV, ionizing radiations, pollutants, and heavy metals) and xenobiotics (i.e., antiblastic drugs) contribute to greatly increase ROS production, therefore causing the imbalance that leads to cell and tissue damage (oxidative stress). Several antioxidants have been exploited in recent years for their actual or supposed beneficial effect against oxidative stress, such as [[notes/_link/Vitamin E]], [[Flavonoids]], and [[Polyphenols]]. While we tend to describe oxidative stress just as harmful for human body, it is true as well that it is exploited as a therapeutic approach to treat clinical conditions such as [[Cancer]], with a certain degree of clinical success. In this review, we will describe the most recent findings in the oxidative stress field, highlighting both its bad and good sides for human health.
+[[Oxidative Stress]] is a phenomenon caused by an imbalance between production and accumulation of [[Reactive Oxygen Species|oxygen reactive species (ROS)]] in cells and tissues and the ability of a biological system to detoxify these reactive products. ROS can play, and in fact they do it, several physiological roles (i.e., cell signaling), and they are normally generated as by-products of oxygen metabolism; despite this, environmental stressors (i.e., UV, ionizing radiations, pollutants, and heavy metals) and xenobiotics (i.e., antiblastic drugs) contribute to greatly increase ROS production, therefore causing the imbalance that leads to cell and tissue damage (oxidative stress). Several antioxidants have been exploited in recent years for their actual or supposed beneficial effect against oxidative stress, such as [[Vitamin E]], [[Flavonoids]], and [[Polyphenols]]. While we tend to describe oxidative stress just as harmful for human body, it is true as well that it is exploited as a therapeutic approach to treat clinical conditions such as [[Cancer]], with a certain degree of clinical success. In this review, we will describe the most recent findings in the oxidative stress field, highlighting both its bad and good sides for human health.
 
 ## 1\. Introduction
 
-[[Superoxide Radicals]] (O <sub>2</sub> <sup>•−</sup>), [[notes/_link/Hydrogen Peroxide]] (H <sub>2</sub> O <sub>2</sub>), [[Hydroxyl Radicals]] (•OH), and [[Singlet Oxygen]] (<sup>1</sup> O <sub>2</sub>) are commonly defined reactive oxygen species (ROS); they are generated as metabolic by-products by biological systems \[[^1], [^2]\]. Processes, like protein phosphorylation, activation of several transcriptional factors, [[notes/_link/Apoptosis]], [[Immunity]], and [[Differentiation]], are all dependent on a proper ROS production and presence inside cells that need to be kept at a low level \[[^3]\]. When ROS production increases, they start showing harmful effects on important cellular structures like [[Proteins]], [[Lipids]], and [[Nucleic Acids]] \[[^4]\]. A large body of evidences shows that oxidative stress can be responsible, with different degrees of importance, in the onset and/or progression of several diseases (i.e., cancer, [[notes/_link/Diabetes Mellitus|diabetes]], [[metabolic disorders]], [[notes/_link/Atherosclerosis]], and [[notes/_link/Cardiovascular Disease|cardiovascular diseases]]) \[[^5]\].
+[[Superoxide Radicals]] (O <sub>2</sub> <sup>•−</sup>), [[Hydrogen Peroxide]] (H <sub>2</sub> O <sub>2</sub>), [[Hydroxyl Radicals]] (•OH), and [[Singlet Oxygen]] (<sup>1</sup> O <sub>2</sub>) are commonly defined reactive oxygen species (ROS); they are generated as metabolic by-products by biological systems \[[^1], [^2]\]. Processes, like protein phosphorylation, activation of several transcriptional factors, [[Apoptosis]], [[Immunity]], and [[Differentiation]], are all dependent on a proper ROS production and presence inside cells that need to be kept at a low level \[[^3]\]. When ROS production increases, they start showing harmful effects on important cellular structures like [[Proteins]], [[Lipids]], and [[Nucleic Acids]] \[[^4]\]. A large body of evidences shows that oxidative stress can be responsible, with different degrees of importance, in the onset and/or progression of several diseases (i.e., cancer, [[Diabetes Mellitus|diabetes]], [[metabolic disorders]], [[Atherosclerosis]], and [[Cardiovascular Disease|cardiovascular diseases]]) \[[^5]\].
 
-ROS are mainly produced by [[notes/_link/Mitochondria]], during both physiological and pathological conditions, that is, O <sub>2</sub> <sup>•−</sup> can be formed by cellular respiration, by lipoxygenases (LOX) and cyclooxygenases (COX) during the arachidonic acid metabolism, and by endothelial and inflammatory cells \[[^6]\]. Despite the fact that these organelles have an intrinsic ROS scavenging capacity \[[^7]\], it is worth to note that this is not enough to address the cellular need to clear the amount of ROS produced by mitochondria \[[^8]\].
+ROS are mainly produced by [[Mitochondria]], during both physiological and pathological conditions, that is, O <sub>2</sub> <sup>•−</sup> can be formed by cellular respiration, by lipoxygenases (LOX) and cyclooxygenases (COX) during the arachidonic acid metabolism, and by endothelial and inflammatory cells \[[^6]\]. Despite the fact that these organelles have an intrinsic ROS scavenging capacity \[[^7]\], it is worth to note that this is not enough to address the cellular need to clear the amount of ROS produced by mitochondria \[[^8]\].
 
-Cells deploy an antioxidant defensive system based mainly on enzymatic components, such as [[notes/_link/Superoxide Dismutase]] (SOD), [[Catalase]] (CAT), and [[Glutathione Peroxidase]] (GPx), to protect themselves from ROS-induced cellular damage \[[^9]\].
+Cells deploy an antioxidant defensive system based mainly on enzymatic components, such as [[Superoxide Dismutase]] (SOD), [[Catalase]] (CAT), and [[Glutathione Peroxidase]] (GPx), to protect themselves from ROS-induced cellular damage \[[^9]\].
 
 ## 2\. Oxidants and Free Radical Production
 
@@ -44,7 +49,7 @@ Free radicals are generated from both endogenous and exogenous sources. Immune c
 
 ## 3\. Physiological Activities of Free Radicals
 
-When maintained at low or moderate concentrations, free radicals play several beneficial roles for the organism. For example, they are needed to synthesize some cellular structures and to be used by the host defense system to fight pathogens. In fact, phagocytes synthesize and store free radicals, in order to be able to release them when invading pathogenic microbes have to be destroyed \[[^15], [^20]\]. The pivotal role of ROS for the immune system is well exemplified by patients with granulomatous disease. These individuals are unable to produce O <sub>2</sub> <sup>•−</sup> because of a defective NADPH oxidase system, so they are prone to multiple and in most of the cases persistent infections \[[^14], [^15]\]. Free radicals are also involved in a number of cellular signaling pathways \[[^17] – [^19]\]. They can be produced by nonphagocytic NADPH oxidase isoforms; in this case, free radicals play a key regulatory role in intracellular signaling cascades, in several cell types such as fibroblasts, endothelial cells, vascular smooth muscle cells, cardiac myocytes, and thyroid tissue. Probably, the most well-known free radical acting as a signaling molecule is [[notes/_link/Nitric Oxide]] (NO). It is an important cell-to-cell messenger required for a proper blood flow modulation, involved in thrombosis, and is crucial for the normal neural activity \[[^17]\]. NO is also involved in nonspecific host defense, required to eliminate intracellular pathogens and tumor cells. Another physiological activity of free radicals is the induction of a mitogenic response \[[^17], [^18]\]. Summarizing, free radicals, when maintained at low or moderate levels, are of crucial importance to human health.
+When maintained at low or moderate concentrations, free radicals play several beneficial roles for the organism. For example, they are needed to synthesize some cellular structures and to be used by the host defense system to fight pathogens. In fact, phagocytes synthesize and store free radicals, in order to be able to release them when invading pathogenic microbes have to be destroyed \[[^15], [^20]\]. The pivotal role of ROS for the immune system is well exemplified by patients with granulomatous disease. These individuals are unable to produce O <sub>2</sub> <sup>•−</sup> because of a defective NADPH oxidase system, so they are prone to multiple and in most of the cases persistent infections \[[^14], [^15]\]. Free radicals are also involved in a number of cellular signaling pathways \[[^17] – [^19]\]. They can be produced by nonphagocytic NADPH oxidase isoforms; in this case, free radicals play a key regulatory role in intracellular signaling cascades, in several cell types such as fibroblasts, endothelial cells, vascular smooth muscle cells, cardiac myocytes, and thyroid tissue. Probably, the most well-known free radical acting as a signaling molecule is [[Nitric Oxide]] (NO). It is an important cell-to-cell messenger required for a proper blood flow modulation, involved in thrombosis, and is crucial for the normal neural activity \[[^17]\]. NO is also involved in nonspecific host defense, required to eliminate intracellular pathogens and tumor cells. Another physiological activity of free radicals is the induction of a mitogenic response \[[^17], [^18]\]. Summarizing, free radicals, when maintained at low or moderate levels, are of crucial importance to human health.
 
 ## 4\. Detrimental Effects of Free Radicals on Human Health
 
@@ -60,11 +65,11 @@ Cancer onset in humans is a complex process, which requires both cellular and mo
 
 ### 4.2. Cardiovascular Disease and Oxidative Stress
 
-[[notes/_link/Cardiovascular Disease|Cardiovascular diseases (CVDs)]] are clinical entities with a multifactorial etiology, generally associated with a very large amount of risk factors, the most broadly recognized of which are hypercholesterolaemia, hypertension, smoking habit, diabetes, unbalanced diet, stress, and sedentary life \[[^11], [^28], [^29]\]. During the last years, research data pointed out that oxidative stress should be considered either a primary or a secondary cause for many CVDs \[[^17]\]. Oxidative stress acts mainly as a trigger of atherosclerosis. It is well known that atheromatous plaque formation results from an early endothelial inflammation, which in turn leads to ROS generation by macrophages recruited in situ. Circulating LDL are then oxidized by reactive oxygen species, thus leading to foam cell formation and lipid accumulation. The result of these events is the formation of an atherosclerotic plaque. Both in vivo and ex vivo studies provided evidences supporting the role of oxidative stress in atherosclerosis, ischemia, hypertension, cardiomyopathy, cardiac hypertrophy, and congestive heart failure \[[^11], [^15], [^28], [^29]\].
+[[Cardiovascular Disease|Cardiovascular diseases (CVDs)]] are clinical entities with a multifactorial etiology, generally associated with a very large amount of risk factors, the most broadly recognized of which are hypercholesterolaemia, hypertension, smoking habit, diabetes, unbalanced diet, stress, and sedentary life \[[^11], [^28], [^29]\]. During the last years, research data pointed out that oxidative stress should be considered either a primary or a secondary cause for many CVDs \[[^17]\]. Oxidative stress acts mainly as a trigger of atherosclerosis. It is well known that atheromatous plaque formation results from an early endothelial inflammation, which in turn leads to ROS generation by macrophages recruited in situ. Circulating LDL are then oxidized by reactive oxygen species, thus leading to foam cell formation and lipid accumulation. The result of these events is the formation of an atherosclerotic plaque. Both in vivo and ex vivo studies provided evidences supporting the role of oxidative stress in atherosclerosis, ischemia, hypertension, cardiomyopathy, cardiac hypertrophy, and congestive heart failure \[[^11], [^15], [^28], [^29]\].
 
 ### 4.3. Neurological Disease and Oxidative Stress
 
-Oxidative stress has been linked to several neurological diseases (i.e., [[notes/_link/Parkinson's Disease]], [[notes/_link/Alzheimer's Disease|Alzheimer's disease (AD)]], [[notes/_link/Amyotrophic Lateral Sclerosis|amyotrophic lateral sclerosis (ALS)]], [[Multiple Sclerosis]], depression, and memory loss) \[[^30] – [^32]\]. In AD, several experimental and clinical researches showed that oxidative damage plays a pivotal role in neuron loss and progression to dementia \[[^31]\]. *β* -amyloid, a toxic peptide often found present in AD patients' brain, is produced by free radical action and it is known to be at least in part responsible for neurodegeneration observed during AD onset and progression \[[^32]\].
+Oxidative stress has been linked to several neurological diseases (i.e., [[Parkinson's Disease]], [[Alzheimer's Disease|Alzheimer's disease (AD)]], [[Amyotrophic Lateral Sclerosis|amyotrophic lateral sclerosis (ALS)]], [[Multiple Sclerosis]], depression, and memory loss) \[[^30] – [^32]\]. In AD, several experimental and clinical researches showed that oxidative damage plays a pivotal role in neuron loss and progression to dementia \[[^31]\]. *β* -amyloid, a toxic peptide often found present in AD patients' brain, is produced by free radical action and it is known to be at least in part responsible for neurodegeneration observed during AD onset and progression \[[^32]\].
 
 ### 4.4. Respiratory Disease and Oxidative Stress
 
@@ -86,7 +91,7 @@ Summarizing, we can affirm that oxidative stress and free radicals are confirmed
 
 ## 5\. Exogenous Antioxidants and Human Health
 
-Human body put in place several strategies to counteract the effects of free radicals and oxidative stress, based on enzymatic (e.g., SOD, CAT, and GPx) and nonenzymatic (e.g., [[Lipoic Acid]], [[notes/_link/Glutathione]], [[L-arginine|ʟ-arginine]], and [[Coenzyme Q10]]) antioxidant molecules, all of them being endogenous antioxidants. Beside these, there are several exogenous antioxidant molecules of animal or vegetal origin, mainly introduced by diet or by nutritional supplementation.
+Human body put in place several strategies to counteract the effects of free radicals and oxidative stress, based on enzymatic (e.g., SOD, CAT, and GPx) and nonenzymatic (e.g., [[Lipoic Acid]], [[Glutathione]], [[L-arginine|ʟ-arginine]], and [[Coenzyme Q10]]) antioxidant molecules, all of them being endogenous antioxidants. Beside these, there are several exogenous antioxidant molecules of animal or vegetal origin, mainly introduced by diet or by nutritional supplementation.
 
 Here, we will discuss the most relevant nutritional antioxidants and their protective effects for human health.
 
@@ -144,7 +149,7 @@ Briefly, flavonoids are a class of natural compounds extensively present in food
 
 Prooxidant agents, beside their well-known detrimental effects on human health, have been investigated and, in some cases, actually used, as therapeutic agents mainly against cancer diseases.
 
-Here, we will briefly discuss two emerging prooxidant compounds showing interesting pharmacological activities, such as [[notes/_link/Ascorbic Acid|ascorbic acid (AA)]] and polyphenols, and the most well-known and employed prooxidant in therapy, ionizing radiation.
+Here, we will briefly discuss two emerging prooxidant compounds showing interesting pharmacological activities, such as [[Ascorbic Acid|ascorbic acid (AA)]] and polyphenols, and the most well-known and employed prooxidant in therapy, ionizing radiation.
 
 ### 6.1. Ascorbic Acid
 
@@ -187,9 +192,9 @@ Antioxidants, as class of compounds able to counteract oxidative stress and miti
 We can reach to the conclusion that oxidative stress, as phenomenon, although being one of the major harms to individuals' wellness and health, it can also be exploited as a treatment tool when and if we will be able to operate a fine tuning of this process inside human organism.
 
 ### Linking Summary:
-- New links added: [[Superoxide Radicals]], [[notes/_link/Hydrogen Peroxide]], [[Hydroxyl Radicals]], [[Singlet Oxygen]], [[Peroxynitrite]], [[NADPH Oxidase]], [[Xanthine Oxidase]], [[notes/_link/Glutathione]], [[Alpha-Lipoic Acid]], [[NF-kappa B]], [[notes/_link/Apoptosis]], [[notes/_link/Mitochondria]], [[notes/_link/Nitric Oxide]], [[8-oxo-2'-deoxyguanosine]], [[Base Excision Repair]], [[PPARγ]], [[LXRα]], [[ABCA1]], [[VCAM-1]], [[TNF-alpha]], [[IL-1b]], [[TGF-beta]], [[Uremia]], [[Proteinuria]], [[Renal Failure]], [[Malondialdehyde]], [[L-arginine]], [[Coenzyme Q10]], [[Genistein]]
+- New links added: [[Superoxide Radicals]], [[Hydrogen Peroxide]], [[Hydroxyl Radicals]], [[Singlet Oxygen]], [[Peroxynitrite]], [[NADPH Oxidase]], [[Xanthine Oxidase]], [[Glutathione]], [[Alpha-Lipoic Acid]], [[NF-kappa B]], [[Apoptosis]], [[Mitochondria]], [[Nitric Oxide]], [[8-oxo-2'-deoxyguanosine]], [[Base Excision Repair]], [[PPARγ]], [[LXRα]], [[ABCA1]], [[VCAM-1]], [[TNF-alpha]], [[IL-1b]], [[TGF-beta]], [[Uremia]], [[Proteinuria]], [[Renal Failure]], [[Malondialdehyde]], [[L-arginine]], [[Coenzyme Q10]], [[Genistein]]
 - Suggested new entity notes to create: [[8-oxo-2'-deoxyguanosine]], [[Base Excision Repair]], [[PPARγ]], [[LXRα]], [[ABCA1]], [[VCAM-1]], [[TNF-alpha]], [[IL-1b]], [[TGF-beta]], [[Uremia]], [[Proteinuria]], [[Renal Failure]], [[Malondialdehyde]], [[L-arginine]], [[Coenzyme Q10]], [[Genistein]], [[Lipid Peroxidation]], [[Endothelial Dysfunction]], [[Nitrative Stress]]
-- Strong connections to strengthen: [[Oxidative Stress]] ↔ [[notes/_link/Reactive Oxygen Species]], [[notes/_link/Mitochondria]] ↔ [[notes/_link/Apoptosis]], [[notes/_link/Glutathione]] ↔ [[Glutathione Peroxidase]]
+- Strong connections to strengthen: [[Oxidative Stress]] ↔ [[Reactive Oxygen Species]], [[Mitochondria]] ↔ [[Apoptosis]], [[Glutathione]] ↔ [[Glutathione Peroxidase]]
 
 ## References
 

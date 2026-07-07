@@ -1,11 +1,13 @@
 ---
 type: entity
-category: biological_process
-entity_type: "Biological Process"
+title: Gene Expression
+description: '**Gene Expression** is the biological process by which information from
+  a Gene is used to synthesize a functional gene product — typically Proteins via
+  Transcription and Translation, or functional ...'
 created: 2024-01-01
 updated: 2024-07-04
+entity_type_1: Biological Process
 ---
-
 # Gene Expression
 
 **[[Gene Expression]]** is the biological process by which information from a [[Gene|gene]] is used to synthesize a functional gene product — typically [[Proteins|protein]] via [[Transcription|transcription]] and [[Translation|translation]], or functional [[Non-coding RNA|non-coding RNA]]. Epigenetic regulation controls every level of gene expression from chromatin accessibility to mRNA stability.
@@ -21,7 +23,7 @@ Even after transcription initiation, [[RNA Polymerase II]] often pauses at promo
 **3. Co-transcriptional and Post-transcriptional Regulation**
 - [[Alternative Splicing|Alternative splicing]] is influenced by [[H3K36me3]] (recruits splicing factors via [[SRSF1]], [[MRG15]]).
 - [[mRNA stability]] is regulated by [[MicroRNA|miRNAs]] (e.g., [[let-7]] targets [[HMGA2]], [[Lin28]]), which are themselves epigenetically controlled.
-- [[N6-methyladenosine|m⁶A]] modification of mRNA (by [[METTL3/METTL14]]) affects splicing, export, and translation, and is linked to the [[Epigenetic Clock|aging clock]].
+- [[N6-methyladenosine|m⁶A]] modification of mRNA (by [[METTL3]]/[[METTL14]]) affects splicing, export, and translation, and is linked to the [[Epigenetic Clock|aging clock]].
 
 ## Quantitative Methods for Measuring Gene Expression
 
@@ -34,9 +36,9 @@ Even after transcription initiation, [[RNA Polymerase II]] often pauses at promo
 
 ## Gene Expression in Senescence and Aging
 
-During [[Cellular Senescence|senescence]], hundreds of genes are silenced through [[SAHF|SAHF-mediated]] heterochromatinization, including [[E2F]] target proliferation genes ([[MCM2]], [[PCNA]], [[CCNA2]]). Simultaneously, [[SASP]] genes ([[IL6]], [[IL8]], [[CXCL1]], [[MMP3]]) are activated through [[NF-κB]] and [[CEBPB|C/EBPβ]] whose chromatin becomes more accessible. Age-related [[Epigenetic Drift|epigenetic drift]] causes stochastic changes in gene expression across tissues, contributing to loss of cellular identity and functional decline.
+During [[Cellular Senescence|senescence]], hundreds of genes are silenced through [[SAHF|SAHF-mediated]] heterochromatinization, including [[E2F]] target proliferation genes ([[MCM2]], [[PCNA]], [[CCNA2]]). Simultaneously, [[SASP]] genes ([[IL-6]], [[IL8]], [[CXCL1]], [[MMP3]]) are activated through [[NFκB]] and [[CEBPB|C/EBPβ]] whose chromatin becomes more accessible. Age-related [[Epigenetic Drift|epigenetic drift]] causes stochastic changes in gene expression across tissues, contributing to loss of cellular identity and functional decline.
 
 ### Linking Summary:
-- New links added: [[Transcription]], [[Translation]], [[Non-coding RNA]], [[Epigenetics]], [[notes/_link/Senescence]], [[SASP]]
+- New links added: [[Transcription]], [[Translation]], [[Non-coding RNA]], [[Epigenetics]], [[Senescence]], [[SASP]]
 - Suggested new entity notes to create: [[Nascent RNA-seq]], [[ATAC-seq]], [[CUT&Tag]], [[RNA-seq]], [[Single-cell RNA-seq]]
 - Strong connections to strengthen: [[Gene Expression]] ↔ [[Transcription]], [[Gene Expression]] ↔ [[Epigenetics]]

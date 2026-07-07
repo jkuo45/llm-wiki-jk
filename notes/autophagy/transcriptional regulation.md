@@ -1,8 +1,12 @@
 ---
-category: Biological Process
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: transcriptional regulation
+description: Transcriptional regulation is the process by which a cell regulates the
+  conversion of DNA to RNA, which in the case of TFEB involves multiple factors such
+  as PGC1-α, XBP1, and self-regulation.
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Biological Process
 ---
 # transcriptional regulation
 

@@ -1,11 +1,13 @@
 ---
 type: entity
-category: Biological Process
-aliases: []
+title: Quorum sensing
+description: Quorum sensing is a system of stimulus and response correlated to population
+  density, originally described in bacteria but proposed as a parallel to mitochondrial-nuclear
+  communication via peptide ...
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Biological Process
 ---
-
 # Quorum sensing
 
 Quorum sensing is a system of stimulus and response correlated to population density, originally described in bacteria but proposed as a parallel to mitochondrial-nuclear communication via peptide release.

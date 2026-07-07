@@ -1,16 +1,18 @@
 ---
 type: entity
-category: imaging_technique
-aliases: []
+title: Magnetic Resonance Imaging
+description: Magnetic Resonance Imaging (MRI) is a non-invasive imaging technology
+  that produces three dimensional detailed anatomical images. Neuromelanin-sensitive
+  MRI is used to visualize the Substantia Nigr...
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Imaging Technique
 ---
-
 # Magnetic Resonance Imaging
 
-Magnetic Resonance Imaging (MRI) is a non-invasive imaging technology that produces three dimensional detailed anatomical images. Neuromelanin-sensitive MRI is used to visualize the [[notes/_link/Substantia Nigra]] and [[Locus Coeruleus]].
+Magnetic Resonance Imaging (MRI) is a non-invasive imaging technology that produces three dimensional detailed anatomical images. Neuromelanin-sensitive MRI is used to visualize the [[Substantia Nigra]] and [[Locus Coeruleus]].
 
 ### Linking Summary:
-- New links added: [[notes/_link/Substantia Nigra]], [[Locus Coeruleus]], [[notes/_link/Biomarkers|Biomarker]]
+- New links added: [[Substantia Nigra]], [[Locus Coeruleus]], [[Biomarkers|Biomarker]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Neuromelanin]] ↔ [[Magnetic Resonance Imaging]]

@@ -1,11 +1,13 @@
 ---
 type: entity
-category: scientific concept
-aliases: ["Cognitive Control"]
+title: Executive Function
+description: '**Definition:** Executive Function is a scientific concept that describes
+  fundamental principles governing biological or chemical systems.'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Scientific Concept
+aliases: [Cognitive Control]
 ---
-
 # Executive Function
 
 **Definition:** Executive Function is a scientific concept that describes fundamental principles governing biological or chemical systems.
@@ -15,3 +17,11 @@ updated: 2026-07-04
 **Applications:** The concept of Executive Function informs experimental design, data interpretation, and therapeutic development across multiple fields of biomedical research.
 
 **Current understanding:** Ongoing research continues to refine our understanding of Executive Function as new experimental evidence emerges from diverse model systems.
+
+### Connections
+- [[Executive Function]] — related entity
+
+### Linking Summary
+- New links added: [[Executive Function]]
+- Strong connections to strengthen: [[Executive Function]] ↔ [[Executive Function]]
+

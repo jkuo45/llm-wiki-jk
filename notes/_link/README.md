@@ -1,3 +1,10 @@
+---
+type: index
+title: _Link notes
+description: Index of wiki notes for _link
+created: 2026-07-06
+updated: 2026-07-06
+---
 # Shared Entities (_link)
 
 This directory contains entities that span across multiple topics within the knowledge base. Consolidating these entities here ensures a single source of truth and highlights them as central hubs in the graph view.
@@ -19,7 +26,7 @@ This directory contains entities that span across multiple topics within the kno
 | [[Atherosclerosis]]                      | 29_May_2026 08:20 AM | Medical Condition   | Cardiovascular                                  |
 | [[Autophagy]]                            | 29_May_2026 08:20 AM | Biological Process  | Longevity, Proteostasis                         |
 | [[Breast Cancer]]                        | 29_May_2026 08:20 AM | Medical Condition   | Cancer                                          |
-| [[notes/_link/Caloric Restriction]]                  | 29_May_2026 08:20 AM | Biological Process  | Longevity                                       |
+| [[Caloric Restriction]]                  | 29_May_2026 08:20 AM | Biological Process  | Longevity                                       |
 | [[Cancer]]                               | 29_May_2026 08:20 AM | Medical Condition   | Oncology                                        |
 | [[Cardiovascular Disease]]               | 29_May_2026 08:20 AM | Medical Condition   | Cardiology                                      |
 | [[Colorectal Cancer]]                    | 29_May_2026 08:20 AM | Medical Condition   | Cancer                                          |

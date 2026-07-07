@@ -1,11 +1,13 @@
 ---
 type: entity
-category: biomarker
-entity_type: "Biomarker"
+title: DNAmGrimAge
+description: '**DNAmGrimAge** is a second-generation Epigenetic Clock developed by
+  Steve Horvath and colleagues (2019) that predicts biological age and mortality risk
+  based on DNA Methylation levels at 1,030 CpG...'
 created: 2024-01-01
 updated: 2024-07-04
+entity_type_1: Biomarker
 ---
-
 # DNAmGrimAge
 
 **DNAmGrimAge** is a second-generation [[Epigenetic Clock|epigenetic clock]] developed by [[Steve Horvath]] and colleagues (2019) that predicts biological age and mortality risk based on [[DNA Methylation]] levels at 1,030 CpG sites. It outperforms first-generation clocks by integrating methylation surrogates for plasma protein levels and smoking pack-years, capturing both intrinsic aging and exposome effects.
@@ -50,6 +52,6 @@ The difference between DNAmGrimAge and chronological age — *GrimAge accelerati
 - Proteomic surrogates: Not direct protein measurements; DNAm surrogates may miss post-translational regulation.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Aging]], [[Epigenetic Clock]], [[notes/_link/Senescence]], [[notes/_link/Biomarkers]], [[SASP]], [[Partial Reprogramming]], [[Caloric Restriction]], [[Senolytic Drugs]]
+- New links added: [[Aging]], [[Epigenetic Clock]], [[Senescence]], [[Biomarkers]], [[SASP]], [[Partial Reprogramming]], [[Caloric Restriction]], [[Senolytic Drugs]]
 - Suggested new entity notes to create: [[PhenoAge]], [[GrimAge2]], [[Horvath Clock]], [[Hannum Clock]]
-- Strong connections to strengthen: [[DNAmGrimAge]] ↔ [[Epigenetic Clock]], [[DNAmGrimAge]] ↔ [[notes/_link/Aging]]
+- Strong connections to strengthen: [[DNAmGrimAge]] ↔ [[Epigenetic Clock]], [[DNAmGrimAge]] ↔ [[Aging]]

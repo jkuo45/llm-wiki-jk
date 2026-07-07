@@ -1,20 +1,17 @@
 ---
 type: entity
-category: protein
-aliases:
-  - CREB
-  - CREB1
-  - cAMP Response Element Binding Protein 1
-database_ids:
-  uniprot: P16220
-  hgnc: HGNC:2345
-relations:
-  - predicate: deacetylates
-    target: "CREB"
-    sources:
-      - Michan 2007
+title: cAMP Response Element Binding Protein (CREB)
+description: '**cAMP Response Element Binding Protein (CREB/CREB1)** is a 43 kDa basic
+  leucine zipper (bZIP) transcription factor that binds cAMP response elements (CRE)
+  in the promoters of target genes. It inte...'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Protein
+aliases: [CREB, CREB1, cAMP Response Element Binding Protein 1]
+
+sources:
+- Michan 2007
+target: CREB
 ---
 
 # cAMP Response Element Binding Protein (CREB)

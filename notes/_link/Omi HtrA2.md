@@ -1,17 +1,39 @@
 ---
 type: entity
-category: protein
-aliases: ["HtrA2", "High Temperature Requirement Protein A2"]
+title: Omi HtrA2
+description: '**Omi/HtrA2** is a mitochondrial serine Protease with dual functions:
+  it maintains Mitochondria proteostasis at low concentrations and promotes Apoptosis
+  when released into the Cytosol.'
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-07-06
+entity_type_1: Protein
+aliases: [HtrA2, High Temperature Requirement Protein A2, Serine Protease HTRA2]
 ---
-
 # Omi HtrA2
 
-**Overview:** Omi HtrA2 is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern cell behavior.
+**Omi/HtrA2** is a mitochondrial serine [[Protease]] with dual functions: it maintains [[Mitochondria|mitochondrial]] proteostasis at low concentrations and promotes [[Apoptosis]] when released into the [[Cytosol]].
 
-**Structure and domains:** Omi HtrA2 contains conserved structural motifs that mediate its interactions with binding partners, nucleic acids, or lipid membranes. Post-translational modifications such as phosphorylation and ubiquitination regulate its activity.
+## Structure and Function
 
-**Cellular function:** Omi HtrA2 plays a role in signal transduction, gene expression regulation, cytoskeletal organization, or metabolic control. Its localization and activity are dynamically regulated in response to cellular cues.
+HtrA2 contains an N-terminal [[Mitochondrial Targeting Sequence]], a [[Serine Protease]] domain (catalytic triad His-Asp-Ser), and a C-terminal [[PDZ Domain]] that regulates substrate access. In healthy mitochondria, HtrA2 degrades misfolded proteins. Upon [[Apoptosis|apoptotic]] stimuli ([[UV Radiation]], [[Staurosporine]]), HtrA2 is released from the [[Intermembrane Space]] into the [[Cytosol]], where it binds [[Inhibitor of Apoptosis Proteins]] ([[XIAP]], [[cIAP1]], [[cIAP2]]) via its N-terminal [[IBM]] (IAP-binding motif), relieving inhibition of [[Caspases]].
 
-**Pathological significance:** Altered expression or mutation of Omi HtrA2 is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
+## Clinical Relevance
+
+HtrA2 mutations (e.g., [[HtrA2-G399S]]) are associated with [[Parkinson's Disease]] risk. HtrA2 knockout mice develop a [[Neurodegeneration|neurodegenerative]] phenotype with [[Mitochondrial Dysfunction]] and motor deficits. HtrA2 is also implicated in [[Cancer]] — overexpression promotes apoptosis, while loss confers chemoresistance.
+
+### Connections
+
+- [[Apoptosis]] — HtrA2 promotes apoptosis by antagonizing IAPs
+- [[Mitochondria]] — HtrA2 localizes to the mitochondrial intermembrane space
+- [[XIAP]] — HtrA2 binds and inhibits XIAP via its IAP-binding motif
+- [[Caspase]] — HtrA2 promotes caspase activation by relieving IAP inhibition
+- [[Parkinson's Disease]] — HtrA2 mutations increase PD risk
+- [[Neurodegeneration]] — HtrA2 loss causes motor neuron degeneration in mice
+- [[Serine Protease]] — HtrA2's enzymatic activity maintains mitochondrial proteostasis
+- [[Proteostasis]] — HtrA2 degrades misfolded mitochondrial proteins
+
+### Linking Summary
+
+- New links added: [[Mitochondria]], [[Cytosol]], [[Serine Protease]], [[Protease]], [[Apoptosis]], [[XIAP]], [[cIAP1]], [[cIAP2]], [[Caspase]], [[Parkinson's Disease]], [[Neurodegeneration]], [[Mitochondrial Dysfunction]], [[UV Radiation]], [[Staurosporine]], [[Proteostasis]], [[Cancer]]
+- Suggested new entity notes to create: [[IAP-binding motif]], [[Mitochondrial intermembrane space]], [[PDZ domain]], [[HtrA2-G399S]], [[Serine protease HTRA family]]
+- Strong connections to strengthen: [[Omi-HtrA2]] ↔ [[Apoptosis]], [[Omi-HtrA2]] ↔ [[Parkinson's Disease]]

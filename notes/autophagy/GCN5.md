@@ -1,11 +1,13 @@
 ---
-aliases:
-- KAT2A
-- general control non-repressed protein 5
-category: Enzyme
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: GCN5
+description: General control non-repressed protein 5 (GCN5) is an acetyltransferase
+  that inhibits TFEB activity by acetylating it at K274 and K279, interfering with
+  its dimerization and DNA binding.
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Enzyme
+aliases: [KAT2A, general control non-repressed protein 5]
 ---
 # GCN5
 

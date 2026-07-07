@@ -1,10 +1,12 @@
 ---
-aliases:
-- SESN2
-category: Protein
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: Sestrin2
+description: Sestrin2 is an amino acid sensor that inhibits mTORC1 activity by interacting
+  with GATOR2 when leucine levels are low.
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Protein
+aliases: [SESN2]
 ---
 # Sestrin2
 

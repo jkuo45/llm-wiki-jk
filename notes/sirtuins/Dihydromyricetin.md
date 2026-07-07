@@ -1,24 +1,21 @@
 ---
 type: entity
-category: chemical compound
+title: Dihydromyricetin
+description: Dihydromyricetin (DHM), also known as Ampelopsin, is a natural flavonoid
+  (flavanonol/dihydroflavonol) found at high concentrations in Ampelopsis grossedentata
+  (vine tea / rattan tea). It is one of ...
+created: 2026-07-03
+updated: 2026-07-03
+entity_type_1: Chemical Compound
 aliases:
   - Dihydromyricetin
   - DHM
   - Ampelopsin
   - 3,5,7,3',4',5'-hexahydroxyflavanone
-database_ids:
-  mesh: D000080284
-  chebi: CHEBI:68096
-relations:
-  - predicate: activates
-    target: "SIRT3"
-    sources: []
-  - predicate: reduces
-    target: "Reactive Oxygen Species"
-    sources: []
-created: 2026-07-03
-updated: 2026-07-03
 ---
+
+
+
 
 # Dihydromyricetin
 

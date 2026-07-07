@@ -1,24 +1,19 @@
 ---
 type: entity
-category: protein
+title: HIC1
+description: HIC1 (Hypermethylated in Cancer 1) is a sequence-specific zinc-finger
+  transcriptional repressor containing an N-terminal POZ/BTB domain. It is a critical
+  tumour suppressor gene located in a genomic...
+created: 2026-07-03
+updated: 2026-07-03
+entity_type_1: Protein
 aliases:
   - HIC1
   - Hypermethylated in Cancer 1
-database_ids:
-  uniprot: Q14526
-  hgnc: HGNC:4908
-relations:
-  - predicate: inhibits
-    target: "SIRT1"
-    sources:
-      - PMID:16269335
-  - predicate: regulated_by
-    target: "p53"
-    sources:
-      - PMID:16269335
-created: 2026-07-03
-updated: 2026-07-03
 ---
+
+
+
 
 # HIC1
 
@@ -37,10 +32,10 @@ HIC1 functions in a complex transcriptional feedback loop that modulates cell su
 
 - [[SIRT1]] — transcriptional target of HIC1 repression; SIRT1 in turn deacetylates p53 to affect HIC1
 - [[p53]] — transcriptional activator of HIC1; p53 is deacetylated by SIRT1
-- [[notes/_link/DNA Damage]] — stress trigger that activates the HIC1-SIRT1-p53 loop
+- [[DNA Damage]] — stress trigger that activates the HIC1-SIRT1-p53 loop
 
 ## Linking Summary
 
-- New links added: [[SIRT1]], [[p53]], [[notes/_link/DNA Damage]]
+- New links added: [[SIRT1]], [[p53]], [[DNA Damage]]
 - Suggested new entity notes to create: [[POZ Domain]], [[Promoter Hypermethylation]]
 - Strong connections to strengthen: [[HIC1]] ↔ [[SIRT1]], [[HIC1]] ↔ [[p53]]

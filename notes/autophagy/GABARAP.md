@@ -1,10 +1,12 @@
 ---
-aliases:
-- GABA type A receptor-associated protein
-category: Protein
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: GABARAP
+description: GABARAP is a member of the Atg8 protein family involved in the later
+  stages of Autophagosome maturation and fusion with the Lysosome.
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Protein
+aliases: [GABA type A receptor-associated protein]
 ---
 # GABARAP
 

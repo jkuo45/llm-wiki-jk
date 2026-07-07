@@ -1,12 +1,14 @@
 ---
 type: entity
-category: gene
-aliases:
-  - 'Single Nucleotide Polymorphism'
+title: SNP
+description: A **SNP** (Single Nucleotide Polymorphism) is a variation in a single
+  nucleotide that occurs at a specific position in the genome. SNP are the most common
+  type of genetic variation among people.
 created: 2026-05-25
 updated: 2026-07-04
+entity_type_1: Gene
+aliases: [Single Nucleotide Polymorphism]
 ---
-
 # SNP
 
 A **[[SNP]]** (Single Nucleotide Polymorphism) is a variation in a single nucleotide that occurs at a specific position in the genome. [[SNP|SNPs]] are the most common type of genetic variation among people.
@@ -16,13 +18,13 @@ A **[[SNP]]** (Single Nucleotide Polymorphism) is a variation in a single nucleo
 
 ## Key Examples in this Knowledge Base
 - **[[COMT]] [[Val158Met]] (rs4680):** Impacts dopamine degradation.
-- **[[notes/_link/MTHFR]] (C677T/A1298C):** Impacts folate metabolism and methylation.
+- **[[MTHFR]] (C677T/A1298C):** Impacts folate metabolism and methylation.
 
 ## Connections
 - [[COMT]]: Contains the functional Val158Met SNP.
-- [[notes/_link/MTHFR]]: Notable for common SNPs affecting enzyme activity.
-- [[notes/_link/Methylation]]: Often influenced by SNPs in various pathway enzymes.
+- [[MTHFR]]: Notable for common SNPs affecting enzyme activity.
+- [[Methylation]]: Often influenced by SNPs in various pathway enzymes.
 
 ---
 ### Linking Summary:
-- New links added: [[COMT]], [[Val158Met]], [[notes/_link/MTHFR]], [[notes/_link/Methylation]].
+- New links added: [[COMT]], [[Val158Met]], [[MTHFR]], [[Methylation]].

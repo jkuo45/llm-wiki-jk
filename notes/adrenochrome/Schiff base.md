@@ -1,11 +1,12 @@
 ---
 type: entity
-category: Chemical Class
-aliases: []
+title: Schiff base
+description: A Schiff base is an unstable chemical adduct formed during the initial
+  stage of the Maillard Reaction.
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Chemical Class
 ---
-
 # Schiff base
 
 A Schiff base is an unstable chemical adduct formed during the initial stage of the [[Maillard Reaction]].

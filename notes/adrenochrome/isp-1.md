@@ -1,11 +1,13 @@
 ---
 type: entity
-category: Gene
-aliases: []
+title: isp-1
+description: '*isp-1* (Iron-Sulfur Protein 1) is a gene in *C. elegans* that encodes
+  a subunit of the mitochondrial **Complex III** (ubiquinol-cytochrome c oxidoreductase)
+  of the electron transport chain.'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Gene
 ---
-
 # isp-1
 
 *isp-1* (Iron-Sulfur Protein 1) is a gene in *C. elegans* that encodes a subunit of the mitochondrial **Complex III** (ubiquinol-cytochrome c oxidoreductase) of the electron transport chain.

@@ -1,11 +1,13 @@
 ---
 type: entity
-category: Protein
-aliases: []
+title: DELE1
+description: Death ligand signal enhancer 1, a mitochondrial protein that acts as
+  a sensor of mitochondrial stress. Upon stress, DELE1 is cleaved by OMA1 and its
+  C-terminal fragment accumulates in the cytosol, ...
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Protein
 ---
-
 # DELE1
 
 Death ligand signal enhancer 1, a mitochondrial protein that acts as a sensor of mitochondrial stress. Upon stress, DELE1 is cleaved by [[OMA1]] and its C-terminal fragment accumulates in the cytosol, where it activates the [[HRI]] kinase to trigger the [[Integrated Stress Response]].

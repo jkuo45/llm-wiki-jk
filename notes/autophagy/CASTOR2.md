@@ -1,8 +1,11 @@
 ---
-category: Protein
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: CASTOR2
+description: CASTOR2 is a protein that forms a complex with CASTOR1 to function as
+  an arginine sensor for the mTORC1 pathway.
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Protein
 ---
 # CASTOR2
 

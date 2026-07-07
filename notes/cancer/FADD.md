@@ -1,6 +1,15 @@
+---
+type: entity
+title: FADD
+description: '**FADD** (Fas-associated via death domain) is a critical adaptor protein
+  that bridges death receptors to initiator caspases in the Extrinsic Pathway of Apoptosis.'
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Enzyme
+---
 # FADD
 
-**FADD** (Fas-associated via death domain) is a critical adaptor protein that bridges death receptors to initiator caspases in the [[Extrinsic Pathway]] of [[notes/_link/Apoptosis]].
+**FADD** (Fas-associated via death domain) is a critical adaptor protein that bridges death receptors to initiator caspases in the [[Extrinsic Pathway]] of [[Apoptosis]].
 
 ## Function
 FADD contains both a death domain (DD) and a death effector domain (DED).
@@ -17,6 +26,6 @@ Downregulation of FADD is observed in several cancers, such as thyroid and lung 
 - [[DISC]]: The signaling complex centered on FADD.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Apoptosis]], [[Extrinsic Pathway]], [[Caspase-8]], [[Fas]], [[TNFR1]], [[TRADD]], [[DR4]], [[DR5]], [[DISC]]
+- New links added: [[Apoptosis]], [[Extrinsic Pathway]], [[Caspase-8]], [[Fas]], [[TNFR1]], [[TRADD]], [[DR4]], [[DR5]], [[DISC]]
 - Suggested new entity notes to create: [[DISC]]
 - Strong connections to strengthen: [[FADD]] ↔ [[Caspase-8]], [[FADD]] ↔ [[Extrinsic Pathway]]

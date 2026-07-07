@@ -1,9 +1,11 @@
 ---
 type: entity
-category: other
-entity_type: "NA"
+title: MYCN
+description: In the context of Induced Pluripotent Stem Cells (iPSCs), MYCN is often
+  highly up-regulated compared to somatic cells like Fibroblasts.
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: NA
 ---
 # MYCN
 

@@ -1,11 +1,12 @@
 ---
 type: entity
-category: Metabolite
-aliases: []
+title: Adrenolutin
+description: '**Adrenolutin** (3,5,6-trihydroxy-1-methylindole) is a fluorescent metabolite
+  and a further oxidation/rearrangement product of Adrenochrome.'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Metabolite
 ---
-
 # Adrenolutin
 
 **Adrenolutin** (3,5,6-trihydroxy-1-methylindole) is a fluorescent metabolite and a further oxidation/rearrangement product of [[Adrenochrome]].
@@ -17,7 +18,7 @@ updated: 2026-07-04
 Unlike the deep violet [[Adrenochrome]], adrenolutin is known for its intense green fluorescence. It is often studied as a biomarker for adrenaline oxidation.
 
 ## Biological Role
-While less reactive than the o-quinone structure of [[Adrenochrome]], adrenolutin is still part of the oxidative breakdown pathway of [[notes/_link/Epinephrine]]. It can further polymerize into melanin-like pigments. Historical research (now largely reconsidered) once investigated its potential involvement in psychiatric conditions alongside the "adrenochrome hypothesis."
+While less reactive than the o-quinone structure of [[Adrenochrome]], adrenolutin is still part of the oxidative breakdown pathway of [[Epinephrine]]. It can further polymerize into melanin-like pigments. Historical research (now largely reconsidered) once investigated its potential involvement in psychiatric conditions alongside the "adrenochrome hypothesis."
 
 ## Formation Mechanism
 
@@ -25,7 +26,7 @@ Adrenolutin arises from [[Adrenochrome]] through a base-catalyzed rearrangement 
 
 ## Chemical Properties and Fluorescence
 
-Adrenolutin is a colorless-to-pale-yellow compound in its pure form, distinguished by intense green fluorescence with excitation maxima at 420–430 nm and emission at 510–520 nm. The fluorescence quantum yield is approximately 0.15 in aqueous solution at neutral pH, making adrenolutin a sensitive fluorophore for detection. The fluorescent properties derive from the fully conjugated trihydroxyindole chromophore, which is distinct from the o-quinone structure of [[Adrenochrome]]. This fluorescence forms the basis of the classical trihydroxyindole assay for [[notes/_link/Epinephrine]] and [[notes/_link/Norepinephrine]] quantification, where catecholamines are oxidized to aminochromes and then rearranged to fluorescent trihydroxyindoles for detection.
+Adrenolutin is a colorless-to-pale-yellow compound in its pure form, distinguished by intense green fluorescence with excitation maxima at 420–430 nm and emission at 510–520 nm. The fluorescence quantum yield is approximately 0.15 in aqueous solution at neutral pH, making adrenolutin a sensitive fluorophore for detection. The fluorescent properties derive from the fully conjugated trihydroxyindole chromophore, which is distinct from the o-quinone structure of [[Adrenochrome]]. This fluorescence forms the basis of the classical trihydroxyindole assay for [[Epinephrine]] and [[Norepinephrine]] quantification, where catecholamines are oxidized to aminochromes and then rearranged to fluorescent trihydroxyindoles for detection.
 
 ## Analytical Methods
 
@@ -33,17 +34,17 @@ The fluorescence of adrenolutin is exploited for sensitive detection. The trihyd
 
 ## Biological Activity
 
-Adrenolutin exhibits biological activities that are distinct from, and generally less cytotoxic than, [[Adrenochrome]]. Unlike the redox-active o-quinone [[Adrenochrome]], the trihydroxyindole structure of adrenolutin does not readily participate in redox cycling with molecular oxygen, significantly reducing its capacity for [[Superoxide anion]] generation. Adrenolutin retains mild thiol reactivity, forming covalent adducts with [[Glutathione]] and [[Cysteine]] residues at rates approximately 10-fold slower than [[Adrenochrome]]. In cellular models, adrenolutin at concentrations below 10 µM shows negligible cytotoxicity, whereas [[Adrenochrome]] at equivalent concentrations induces significant mitochondrial depolarization and ATP depletion. Adrenolutin has been reported to inhibit [[Na⁺/K⁺-ATPase]] activity in synaptosomal preparations with an IC₅₀ of approximately 50 µM, though the physiological relevance of this finding remains unclear.
+Adrenolutin exhibits biological activities that are distinct from, and generally less cytotoxic than, [[Adrenochrome]]. Unlike the redox-active o-quinone [[Adrenochrome]], the trihydroxyindole structure of adrenolutin does not readily participate in redox cycling with molecular oxygen, significantly reducing its capacity for [[Superoxide anion]] generation. Adrenolutin retains mild thiol reactivity, forming covalent adducts with [[Glutathione]] and [[Cysteine]] residues at rates approximately 10-fold slower than [[Adrenochrome]]. In cellular models, adrenolutin at concentrations below 10 µM shows negligible cytotoxicity, whereas [[Adrenochrome]] at equivalent concentrations induces significant mitochondrial depolarization and ATP depletion. Adrenolutin has been reported to inhibit [[Sodium Potassium ATPase]] activity in synaptosomal preparations with an IC₅₀ of approximately 50 µM, though the physiological relevance of this finding remains unclear.
 
 ## Potential as a Biomarker
 
-Adrenolutin may serve as a stable downstream biomarker of catecholamine oxidation. Because adrenolutin does not undergo the redox cycling that rapidly consumes [[Adrenochrome]], its accumulation in biological fluids may more accurately reflect integrated catecholamine oxidation over time. Elevated adrenolutin levels have been reported in plasma and urine of patients with [[Pheochromocytoma]], [[Diabetic Ketoacidosis]], and [[Septic Shock]], contexts where catecholamine turnover and oxidative stress converge. Urinary adrenolutin, normalized to creatinine, correlates positively with 8-isoprostane (a marker of lipid peroxidation) and negatively with plasma [[notes/_link/Ascorbic Acid]] levels, supporting its utility as a marker of systemic oxidative stress. However, lack of standardized reference ranges and validated commercial assays currently limits clinical adoption.
+Adrenolutin may serve as a stable downstream biomarker of catecholamine oxidation. Because adrenolutin does not undergo the redox cycling that rapidly consumes [[Adrenochrome]], its accumulation in biological fluids may more accurately reflect integrated catecholamine oxidation over time. Elevated adrenolutin levels have been reported in plasma and urine of patients with [[Pheochromocytoma]], [[Diabetic Ketoacidosis]], and [[Septic Shock]], contexts where catecholamine turnover and oxidative stress converge. Urinary adrenolutin, normalized to creatinine, correlates positively with 8-isoprostane (a marker of lipid peroxidation) and negatively with plasma [[Ascorbic Acid]] levels, supporting its utility as a marker of systemic oxidative stress. However, lack of standardized reference ranges and validated commercial assays currently limits clinical adoption.
 
 ## Connections
 - [[Adrenochrome]] ↔ The direct precursor to adrenolutin.
-- [[notes/_link/Epinephrine]] ↔ The original molecule from which this oxidative pathway begins.
+- [[Epinephrine]] ↔ The original molecule from which this oxidative pathway begins.
 - [[Oxidation]] ↔ The process that leads to the formation of both adrenochrome and adrenolutin.
 
 ### Linking Summary:
-- New links added: [[Adrenolutin]], [[Adrenochrome]], [[notes/_link/Epinephrine]], [[Oxidation]], [[NAD(P)H Quinone Dehydrogenase 1]], [[NQO1]], [[Potassium ferricyanide]], Iodine, [[Pheochromocytoma]], [[Diabetic Ketoacidosis]], [[Septic Shock]], [[notes/_link/Norepinephrine]], [[Na⁺/K⁺-ATPase]], [[Cysteine]], [[Glutathione]], [[HPLC-FL]], [[LC-MS/MS]]
-- Strong connections to strengthen: [[Adrenolutin]] ↔ [[Adrenochrome]], [[Adrenolutin]] ↔ [[notes/_link/Epinephrine]]
+- New links added: [[Adrenolutin]], [[Adrenochrome]], [[Epinephrine]], [[Oxidation]], [[NAD(P)H Quinone Dehydrogenase 1]], [[NQO1]], [[Potassium ferricyanide]], Iodine, [[Pheochromocytoma]], [[Diabetic Ketoacidosis]], [[Septic Shock]], [[Norepinephrine]], [[Sodium Potassium ATPase]], [[Cysteine]], [[Glutathione]], [[HPLC-FL]], [[LC-MS]]
+- Strong connections to strengthen: [[Adrenolutin]] ↔ [[Adrenochrome]], [[Adrenolutin]] ↔ [[Epinephrine]]

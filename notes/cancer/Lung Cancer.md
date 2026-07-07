@@ -1,3 +1,11 @@
+---
+type: entity
+title: Lung Cancer
+description: Lung cancer has the highest morbidity and mortality among cancers globally.
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Medical Condition
+---
 # Lung Cancer
 
 Lung cancer has the highest morbidity and mortality among cancers globally.

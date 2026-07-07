@@ -1,17 +1,18 @@
 ---
 type: entity
-category: Chemical Compound
-aliases: []
+title: Nitrogen gas
+description: '**Nitrogen gas** (N₂) is an inert gas commonly used in laboratory and
+  industrial settings.'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Chemical Compound
 ---
-
 # Nitrogen gas
 
 **Nitrogen gas** (N₂) is an inert gas commonly used in laboratory and industrial settings.
 
 ## Application
-Similar to [[Argon]], nitrogen gas is used to provide an oxygen-free environment for the storage and handling of sensitive chemicals like [[notes/_link/Epinephrine]] and its intermediates to prevent [[Autoxidation]].
+Similar to [[Argon]], nitrogen gas is used to provide an oxygen-free environment for the storage and handling of sensitive chemicals like [[Epinephrine]] and its intermediates to prevent [[Autoxidation]].
 
 ## Connections
 - [[Autoxidation]]

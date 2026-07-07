@@ -1,10 +1,12 @@
 ---
-aliases:
-- Ras homolog enriched in brain
-category: Protein
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: Rheb
+description: Ras homolog enriched in brain (Rheb) is a small GTPase that, in its GTP-bound
+  state, directly interacts with and activates mTORC1.
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Protein
+aliases: [Ras homolog enriched in brain]
 ---
 # Rheb
 Ras homolog enriched in brain (Rheb) is a small GTPase that, in its GTP-bound state, directly interacts with and activates [[mTORC1]].

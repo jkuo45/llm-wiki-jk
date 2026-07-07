@@ -1,10 +1,13 @@
 ---
-aliases:
-- IF
-category: Biological Process
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: Intermittent Fasting
+description: '**Intermittent Fasting** (IF) refers to eating patterns that cycle between
+  periods of fasting and eating. It is widely studied for its ability to induce Autophagy
+  and improve metabolic health.'
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Biological Process
+aliases: [IF]
 ---
 # Intermittent Fasting
 
@@ -17,12 +20,12 @@ updated: '2026-07-04'
 
 ## Biological Effects
 - IF induces [[Autophagic Flux]] in various tissues, including the liver and brain.
-- It can increase [[notes/_link/Longevity]] and protection against chronic pathologies.
+- It can increase [[Longevity]] and protection against chronic pathologies.
 - In [[Cancer]] patients, IF may increase tolerance to [[Chemotherapy]] by protecting healthy cells from side effects.
 
 ## Mechanisms
 - IF reduces levels of insulin and [[IGF1]].
-- It promotes the activation of [[notes/_link/AMPK]] and inhibition of [[mTORC1]], leading to autophagy induction.
+- It promotes the activation of [[AMPK]] and inhibition of [[mTORC1]], leading to autophagy induction.
 - IF can also stimulate [[Ketogenesis]], providing alternative energy substrates.
 
 ## Metabolic Effects
@@ -30,6 +33,6 @@ updated: '2026-07-04'
 IF cycles between eating and fasting periods, activating [[Autophagy]] and [[AMPK]] while suppressing [[mTORC1]]. Effects depend on fasting duration and timing.
 
 ### Linking Summary:
-- New links added: [[Autophagy]], [[Alternate-day Fasting]], [[Time-restricted Feeding]], [[Autophagic Flux]], [[notes/_link/Longevity]], [[Cancer]], [[Chemotherapy]], [[IGF1]], [[notes/_link/AMPK]], [[mTORC1]], [[Ketogenesis]]
+- New links added: [[Autophagy]], [[Alternate-day Fasting]], [[Time-restricted Feeding]], [[Autophagic Flux]], [[Longevity]], [[Cancer]], [[Chemotherapy]], [[IGF1]], [[AMPK]], [[mTORC1]], [[Ketogenesis]]
 - Suggested new entity notes to create:
-- Strong connections to strengthen: [[Intermittent Fasting]] ↔ [[Autophagy]], [[Intermittent Fasting]] ↔ [[notes/_link/Caloric Restriction]]
+- Strong connections to strengthen: [[Intermittent Fasting]] ↔ [[Autophagy]], [[Intermittent Fasting]] ↔ [[Caloric Restriction]]

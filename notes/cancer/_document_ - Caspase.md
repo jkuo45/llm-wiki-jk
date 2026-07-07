@@ -1,7 +1,13 @@
+---
+type: document
+title: Caspase
+created: '2026-07-06'
+description: Table of caspase phosphorylation sites and their regulation in cancer
+---
 # Caspase
 
 
-**Caspases** (Cysteine-aspartic proteases) are a family of protease enzymes playing essential roles in programmed cell death ([[notes/_link/Apoptosis|apoptosis]]), necrosis, and inflammation. They are broadly categorized into initiator caspases (e.g., [[Caspase-2]], [[Caspase-8]], [[Caspase-9]], [[Caspase-10]]) and executioner caspases (e.g., [[Caspase-3]], [[Caspase-6]], [[Caspase-7]]).
+**Caspases** (Cysteine-aspartic proteases) are a family of protease enzymes playing essential roles in programmed cell death ([[Apoptosis|apoptosis]]), necrosis, and inflammation. They are broadly categorized into initiator caspases (e.g., [[Caspase-2]], [[Caspase-8]], [[Caspase-9]], [[Caspase-10]]) and executioner caspases (e.g., [[Caspase-3]], [[Caspase-6]], [[Caspase-7]]).
 
 ## Table 1. Cancer and Apoptotic Regulators, Kinases
 
@@ -70,7 +76,7 @@ The following table summarizes known [[Phosphorylation|phosphorylation]] sites o
 
 ## Connections
 
-- [[notes/_link/Apoptosis|Apoptosis]]: Caspases are the executioners of this process.
+- [[Apoptosis|Apoptosis]]: Caspases are the executioners of this process.
 - [[Bcl-2 family]]: Regulates caspase activation through mitochondrial integrity.
 - [[Phosphorylation]]: A major post-translational modification controlling caspase activity.
 

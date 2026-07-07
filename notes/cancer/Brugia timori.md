@@ -1,3 +1,12 @@
+---
+type: entity
+title: Brugia timori
+description: Brugia timori is a filarial nematode that is one of the three causes
+  of Lymphatic Filariasis in humans, primarily found in Timor.
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Imaging Technique
+---
 # Brugia timori
 
 Brugia timori is a filarial nematode that is one of the three causes of [[Lymphatic Filariasis]] in humans, primarily found in Timor.

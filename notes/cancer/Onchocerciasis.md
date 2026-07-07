@@ -1,3 +1,13 @@
+---
+type: entity
+title: Onchocerciasis
+description: Onchocerciasis, also known as River Blindness, is a disease caused by
+  infection with the parasitic worm Onchocerca volvulus. It is transmitted by the
+  bite of infected blackflies of the genus Simulium.
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Medical Condition
+---
 # Onchocerciasis
 
 Onchocerciasis, also known as River Blindness, is a disease caused by infection with the parasitic worm [[Onchocerca volvulus]]. It is transmitted by the bite of infected blackflies of the genus [[Simulium]].

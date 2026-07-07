@@ -1,8 +1,12 @@
 ---
-category: Biological Process
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: Autophagic Flux
+description: Autophagic flux refers to the complete dynamic process of Autophagy,
+  spanning from the formation of the Autophagosome to its fusion with the Lysosome
+  and subsequent degradation of cargo.
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Biological Process
 ---
 # Autophagic Flux
 
@@ -15,4 +19,4 @@ Autophagic flux is the rate of autophagic degradation through the entire pathway
 ### Linking Summary:
 - New links added: [[Autophagy]], [[Autophagosome]], [[Lysosome]]
 - Suggested new entity notes to create:
-- Strong connections to strengthen: [[Autophagic Flux]] ↔ [[notes/_link/Neurodegenerative Diseases|Neurodegenerative Disease]]
+- Strong connections to strengthen: [[Autophagic Flux]] ↔ [[Neurodegenerative Diseases|Neurodegenerative Disease]]

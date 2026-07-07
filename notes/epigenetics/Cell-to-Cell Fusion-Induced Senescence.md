@@ -1,14 +1,17 @@
 ---
 type: entity
-category: biological_process
-entity_type: "Biological Process"
+title: Cell-to-Cell Fusion-Induced Senescence
+description: Cell-to-Cell Fusion-Induced Senescence is a biological process characterized
+  by the development of a senescence phenotype following the fusion of two or more
+  cells.
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: Biological Process
 ---
 # Cell-to-Cell Fusion-Induced Senescence
 Cell-to-Cell Fusion-Induced Senescence is a biological process characterized by the development of a senescence phenotype following the fusion of two or more cells.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Senescence]]
+- New links added: [[Senescence]]
 - Suggested new entity notes to create: 
-- Strong connections to strengthen: [[Cell-to-Cell Fusion-Induced Senescence]] <-> [[notes/_link/Senescence]]
+- Strong connections to strengthen: [[Cell-to-Cell Fusion-Induced Senescence]] <-> [[Senescence]]

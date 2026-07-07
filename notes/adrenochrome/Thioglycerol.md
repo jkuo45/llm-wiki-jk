@@ -1,19 +1,20 @@
 ---
 type: entity
-category: Chemical Compound
-aliases: []
+title: Thioglycerol
+description: '**Thioglycerol** is a chemical compound used in some pharmaceutical
+  formulations.'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Chemical Compound
 ---
-
 # Thioglycerol
 
 **Thioglycerol** is a chemical compound used in some pharmaceutical formulations.
 
 ## Application
-It serves as an antioxidant stabilizer, potentially replacing sulfites in newer [[notes/_link/Epinephrine]] formulations to minimize degradation and improve shelf life.
+It serves as an antioxidant stabilizer, potentially replacing sulfites in newer [[Epinephrine]] formulations to minimize degradation and improve shelf life.
 
 ## Connections
-- [[notes/_link/Antioxidants]]
-- [[notes/_link/Epinephrine]]
+- [[Antioxidants]]
+- [[Epinephrine]]
 - [[Sodium Metabisulfite]]

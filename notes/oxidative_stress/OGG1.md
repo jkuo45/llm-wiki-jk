@@ -1,14 +1,17 @@
 ---
 type: entity
-category: enzyme
-aliases: [8-oxoguanine DNA glycosylase, HMM1, OGH1, MUTM homolog]
-database_ids:
-  hgnc: HGNC:8125
-  uniprot: O15527
+title: OGG1
+description: '**OGG1 (8-oxoguanine DNA glycosylase 1)** is a bifunctional glycosylase
+  that initiates the Base Excision Repair pathway by recognizing and excising 8-oxo-2''-deoxyguanosine
+  (8-oxoG), the most abunda...'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Enzyme
+aliases: [8-oxoguanine DNA glycosylase, HMM1, OGH1, MUTM homolog]
+database_ids:
+  uniprot: O15527
+  hgnc: HGNC:8125
 ---
-
 # OGG1
 
 **OGG1 (8-oxoguanine DNA glycosylase 1)** is a bifunctional glycosylase that initiates the [[Base Excision Repair]] pathway by recognizing and excising [[8-oxo-2'-deoxyguanosine|8-oxo-7,8-dihydroguanine]] (8-oxoG), the most abundant oxidative DNA lesion.
@@ -28,6 +31,6 @@ OGG1 expression is not strongly induced by oxidative stress; regulation occurs p
 ## Clinical Relevance
 
 - **[[Cancer Susceptibility]]**: OGG1 polymorphisms (especially Ser326Cys) are associated with increased risk of lung, breast, and prostate cancers. OGG1⁻/⁻ mice accumulate 8-oxoG and show increased tumor incidence.
-- **[[notes/_link/Aging]]**: OGG1 activity declines with age, contributing to age-related accumulation of oxidative DNA damage and [[notes/_link/Genomic Instability|genomic instability]].
-- **[[Neurodegeneration|Neurodegenerative diseases]]**: Reduced OGG1 activity in [[notes/_link/Alzheimer's Disease]] and [[notes/_link/Parkinson's Disease]] brains correlates with elevated 8-oxoG levels in mitochondrial DNA.
+- **[[Aging]]**: OGG1 activity declines with age, contributing to age-related accumulation of oxidative DNA damage and [[Genomic Instability|genomic instability]].
+- **[[Neurodegeneration|Neurodegenerative diseases]]**: Reduced OGG1 activity in [[Alzheimer's Disease]] and [[Parkinson's Disease]] brains correlates with elevated 8-oxoG levels in mitochondrial DNA.
 - **Mitochondrial Repair**: Mitochondrial OGG1 (mtOGG1) protects mtDNA from oxidative damage; mtOGG1 overexpression extends lifespan in mice by preserving mitochondrial function.

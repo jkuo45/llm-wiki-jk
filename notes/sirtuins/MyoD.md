@@ -1,27 +1,21 @@
 ---
 type: entity
-category: protein
+title: MyoD (Myogenic Differentiation Factor 1)
+description: MyoD (Myogenic Differentiation 1, also known as MYOD1) is a pioneer basic
+  helix-loop-helix (bHLH) transcription factor that serves as a master regulator of
+  skeletal muscle development (myogenesis)....
+created: 2026-07-03
+updated: 2026-07-03
+entity_type_1: Protein
 aliases:
   - MYOD1
   - Myogenic Differentiation 1
   - Myoblast Determination Protein 1
   - Myf3
-database_ids:
-  uniprot: P15172
-  hgnc: HGNC:7611
-relations:
-  - predicate: regulated_by
-    target: "SIRT1"
-    sources:
-      - PMID:15485910
-      - Michan 2007
-  - predicate: interacts_with
-    target: "MEF2D"
-    sources:
-      - Michan 2007
-created: 2026-07-03
-updated: 2026-07-03
 ---
+
+
+
 
 # MyoD (Myogenic Differentiation Factor 1)
 
@@ -76,10 +70,10 @@ The SIRT1-MyoD-MEF2D axis ensures that muscle differentiation only occurs under 
 
 - **[[SIRT1]]** — Binds to the MyoD/PCAF complex; deacetylates MyoD and local histones to repress differentiation.
 - **[[MEF2D]]** — Myogenic transcription factor that cooperates with MyoD; deacetylated by SIRT1 to promote sumoylation.
-- **[[notes/_link/Caloric Restriction]]** — Promotes SIRT1 activity, which inhibits muscle differentiation through the MyoD-SIRT1 axis.
+- **[[Caloric Restriction]]** — Promotes SIRT1 activity, which inhibits muscle differentiation through the MyoD-SIRT1 axis.
 
 ### Linking Summary
 
-- New links added: [[SIRT1]], [[MEF2D]], [[notes/_link/Caloric Restriction]]
+- New links added: [[SIRT1]], [[MEF2D]], [[Caloric Restriction]]
 - Suggested new entity notes to create: [[PCAF]], [[GCN5]], [[HDAC4]], [[Myogenin]]
 - Strong connections to strengthen: [[SIRT1]] ↔ [[MyoD]], [[MEF2D]] ↔ [[MyoD]]

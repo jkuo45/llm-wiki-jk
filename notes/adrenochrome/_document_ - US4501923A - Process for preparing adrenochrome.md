@@ -1,11 +1,11 @@
 ---
 type: document
-title: "US4501923A - Process for preparing adrenochrome"
-source: "https://patents.google.com/patent/US4501923A/en"
-author:
-published:
+title: US4501923A - Process for preparing adrenochrome
+source: https://patents.google.com/patent/US4501923A/en
 created: 2026-05-18
-description: "A process is described for preparing Adrenochrome comprising oxidizing adrenaline or a salt thereof with a persulfate in an aqueous medium at a pH in the range 4 to 8 in the presence of one or more water-soluble salts of Bismuth."
+description: A process is described for preparing Adrenochrome comprising oxidizing
+  adrenaline or a salt thereof with a persulfate in an aqueous medium at a pH in the
+  range 4 to 8 in the presence of one or more water-soluble salts of Bismuth.
 tags:
   - "clippings"
 ---
@@ -19,7 +19,7 @@ Add AND condition
 
 ### Abstract
 
-A process is described for preparing [[Adrenochrome]] comprising [[Oxidation|oxidizing]] [[notes/_link/Epinephrine|adrenaline]] or a salt thereof with a [[Persulfates|persulfate]] in an aqueous medium at a pH in the range 4 to 8 in the presence of one or more water-soluble salts of [[Bismuth]].
+A process is described for preparing [[Adrenochrome]] comprising [[Oxidation|oxidizing]] [[Epinephrine|adrenaline]] or a salt thereof with a [[Persulfates|persulfate]] in an aqueous medium at a pH in the range 4 to 8 in the presence of one or more water-soluble salts of [[Bismuth]].
 
 ### Classifications
 
@@ -31,7 +31,7 @@ View 1 more classifications
 
 ### Landscapes[Chemical & Material Sciences](#)[Organic Chemistry](https://patents.google.com/?q=Organic+Chemistry&peid=6521c4f897f88%3A13d%3A2b4020bd)### Description
 
-This invention relates to a process for preparing [[Adrenochrome]], and in particular to the preparation of high quality adrenochrome by [[Oxidation|oxidation]] of [[notes/_link/Epinephrine|adrenaline]].
+This invention relates to a process for preparing [[Adrenochrome]], and in particular to the preparation of high quality adrenochrome by [[Oxidation|oxidation]] of [[Epinephrine|adrenaline]].
 
 [[Adrenochrome]] is an intermediate for [[Carbazochrome|adrenochrome monosemicarbazone]] and [[Adrenochrome monoaminoguanidine]] known as [[Hemostatics]]. Adrenochrome has been commercially prepared by oxidizing adrenaline or its salts with [[Potassium ferricyanide]] in an aqueous medium. This process is uneconomical in view of the large quantities of potassium ferricyanide needed and the ensuing effluent disposal problems, together with variability in product quality. It is reported in the literature that [[Persulfates]] can be employed as the oxidizing agent. The use of the persulfates is advantageous since the problems associated with the use of potassium ferricyanide are precluded and they are significantly cheaper than potassium ferricyanide. However, the oxidation process with persulfates is slow so that long reaction periods are required for complete reaction. This is disadvantageous in operation efficiency of a process. Also, this results in lowering of yields of adrenochrome since the produced adrenochrome may be further oxidized to decompose to black by-products during the reaction. Accordingly, oxidation with persulfates is not practical for the commercial manufacture of adrenochrome.
 
@@ -114,6 +114,6 @@ What I claim is:
 9\. The process according to claim 8 wherein said hydrazine compound is selected from the group consisting of semicarbazide and aminoguanidine.
 
 ### Linking Summary:
-- New links added: [[Adrenochrome]], [[Oxidation]], [[notes/_link/Epinephrine|adrenaline]], [[Persulfates|persulfate]], [[Bismuth]], [[Carbazochrome|adrenochrome monosemicarbazone]], [[Adrenochrome monoaminoguanidine]], [[Hemostatics]], [[Potassium ferricyanide]], [[Sodium hydrogencarbonate]], [[o-quinone|ortho-quinoid structure]], [[Hydrazine|hydrazines]], [[Aminoguanidine]], [[Semicarbazide]], [[EDTA|ethylenediamine tetraacetic acid]]
+- New links added: [[Adrenochrome]], [[Oxidation]], [[Epinephrine|adrenaline]], [[Persulfates|persulfate]], [[Bismuth]], [[Carbazochrome|adrenochrome monosemicarbazone]], [[Adrenochrome monoaminoguanidine]], [[Hemostatics]], [[Potassium ferricyanide]], [[Sodium hydrogencarbonate]], [[o-quinone|ortho-quinoid structure]], [[Hydrazine|hydrazines]], [[Aminoguanidine]], [[Semicarbazide]], [[EDTA|ethylenediamine tetraacetic acid]]
 - Suggested new entity notes to create: (Completed)
 - Strong connections to strengthen: [[Adrenochrome]] ↔ [[Bismuth]], [[Adrenochrome]] ↔ [[Persulfates]], [[Adrenochrome]] ↔ [[Carbazochrome]]

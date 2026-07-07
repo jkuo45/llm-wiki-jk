@@ -1,11 +1,13 @@
 ---
 type: entity
-category: Protein
-aliases: []
+title: NF-κB
+description: Nuclear factor kappa-light-chain-enhancer of activated B cells (NF-κB)
+  is a protein complex that controls transcription of DNA, cytokine production, and
+  cell survival. It plays a key role in regula...
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Protein
 ---
-
 # NF-κB
 
 Nuclear factor kappa-light-chain-enhancer of activated B cells (NF-κB) is a protein complex that controls transcription of DNA, cytokine production, and cell survival. It plays a key role in regulating the immune response to infection and is frequently activated by the interaction between [[Advanced Glycation End Products|AGEs]] and the receptor [[RAGE]].
@@ -20,13 +22,13 @@ NF-κB transcription factors are homo- or heterodimers formed from five Rel homo
 
 ## Activation Pathways
 
-Canonical NF-κB activation is mediated primarily by the IKK complex ([[IKKα]], [[IKKβ]], and [[NEMO]]/[[IKKγ]]). Pro-inflammatory stimuli ([[TNFα]], [[IL-1β]], [[LPS]], [[RAGE]] ligands, [[Reactive Oxygen Species|ROS]]) activate the [[TAK1]] kinase, which phosphorylates IKKβ. Activated IKKβ phosphorylates [[IκBα]] at Ser32 and Ser36, triggering K48-linked polyubiquitination and proteasomal degradation. Freed NF-κB dimers translocate to the nucleus to activate target genes.
+Canonical NF-κB activation is mediated primarily by the IKK complex ([[IKKα]], [[IKKbeta]], and [[NEMO]]/[[IKKγ]]). Pro-inflammatory stimuli ([[TNFα]], [[Interleukin 1β]], [[LPS]], [[RAGE]] ligands, [[Reactive Oxygen Species|ROS]]) activate the [[TAK1]] kinase, which phosphorylates IKKβ. Activated IKKβ phosphorylates [[IkappaBalpha]] at Ser32 and Ser36, triggering K48-linked polyubiquitination and proteasomal degradation. Freed NF-κB dimers translocate to the nucleus to activate target genes.
 
 Non-canonical activation is mediated by [[IKKα]] homodimers phosphorylated by [[NIK]] (NF-κB-inducing kinase). This pathway processes p100 to p52, generating RelB-p52 dimers that regulate genes involved in lymphoid organogenesis, [[B Cell]] maturation, and adaptive immunity. Non-canonical signaling responds to [[CD40L]], [[BAFF]], lymphotoxin β, and [[RANKL]].
 
 ## Target Genes
 
-NF-κB regulates hundreds of target genes encoding: (i) pro-inflammatory cytokines ([[TNFα]], [[IL-1β]], [[Interleukin 1β|IL-1β]], [[IL-6]]); (ii) chemokines ([[IL-8]], [[MCP-1]], [[RANTES]]); (iii) adhesion molecules ([[ICAM-1]], [[VCAM-1]], [[E-selectin]]); (iv) antiapoptotic factors ([[Bcl-2]], [[Bcl-xL]], [[c-FLIP]], [[XIAP]]); (v) antioxidant enzymes ([[Manganese superoxide dismutase|MnSOD]], ferritin heavy chain); and (vi) acute phase proteins. This broad transcriptional program positions NF-κB as a master regulator of inflammation, cell survival, and stress adaptation.
+NF-κB regulates hundreds of target genes encoding: (i) pro-inflammatory cytokines ([[TNFα]], [[Interleukin 1β]], [[Interleukin 1β|IL-1β]], [[IL-6]]); (ii) chemokines ([[IL-8]], [[MCP-1]], [[RANTES]]); (iii) adhesion molecules ([[ICAM-1]], [[VCAM-1]], [[E-selectin]]); (iv) antiapoptotic factors ([[Bcl-2]], [[Bcl-xL]], [[c-FLIP]], [[XIAP]]); (v) antioxidant enzymes ([[Manganese superoxide dismutase|MnSOD]], ferritin heavy chain); and (vi) acute phase proteins. This broad transcriptional program positions NF-κB as a master regulator of inflammation, cell survival, and stress adaptation.
 
 ## Regulation by SIRT1 and Redox State
 
@@ -39,4 +41,4 @@ Chronic NF-κB activation is a hallmark of inflammaging — the low-grade, steri
 ### Linking Summary:
 - New links added: [[Advanced Glycation End Products]], [[RAGE]], [[TNFα]], [[IL-6]], [[SIRT1]], [[SIRT2]], [[SIRT6]], [[SIRT7]]
 - Suggested new entity notes to create:
-- Strong connections to strengthen: [[AGE-RAGE Pathway]] ↔ [[NF-κB]], [[SIRT1]] ↔ [[NF-κB]], [[SIRT6]] ↔ [[NF-κB]]
+- Strong connections to strengthen: [[AGE-RAGE Pathway]] ↔ [[NFκB]], [[SIRT1]] ↔ [[NFκB]], [[SIRT6]] ↔ [[NFκB]]

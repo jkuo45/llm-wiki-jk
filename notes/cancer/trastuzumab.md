@@ -1,3 +1,12 @@
+---
+type: entity
+title: Trastuzumab
+description: '**Trastuzumab** (sold under the brand name Herceptin among others) is
+  a monoclonal antibody used to treat HER2-enriched breast cancer and stomach cancer.'
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Receptor
+---
 # Trastuzumab
 
 **Trastuzumab** (sold under the brand name Herceptin among others) is a monoclonal antibody used to treat [[HER2-enriched breast cancer]] and stomach cancer.

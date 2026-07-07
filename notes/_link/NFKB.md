@@ -1,6 +1,12 @@
 ---
 type: entity
-category: protein
+title: NF-κB (Nuclear Factor Kappa B)
+description: NF-κB (Nuclear Factor kappa-light-chain-enhancer of activated B cells)
+  is a highly conserved pleiotropic transcription factor family that serves as the
+  central orchestrator of inflammatory signalin...
+created: 2026-07-03
+updated: 2026-07-03
+entity_type_1: Protein
 aliases:
   - NF-κB
   - Nuclear Factor kappa B
@@ -31,9 +37,10 @@ relations:
     target: "SIRT7"
     sources:
       - Sirtuins in Health and Disease 2022
-created: 2026-07-03
-updated: 2026-07-03
 ---
+
+
+
 
 # NF-κB (Nuclear Factor Kappa B)
 
@@ -106,11 +113,9 @@ NF-κB is a master regulator of the **Senescence-Associated Secretory Phenotype 
 - **[[SIRT2]]** — Cytoplasmic deacetylase regulating RelA/p65 acetylation and microglial activation.
 - **[[SIRT3]]** — Indirect regulator via mitochondrial ROS control.
 - **[[SIRT6]]** — Chromatin-associated repressor deacetylating H3K9ac at NF-κB target promoters.
-- **[[notes/_link/Inflammation]]** — NF-κB is the master transcriptional driver of inflammatory pathology.
-- **[[notes/_link/Apoptosis]]** — NF-κB transcriptional suppression by sirtuins sensitizes cells to TNF-α-induced apoptosis.
+- **[[Inflammation]]** — NF-κB is the master transcriptional driver of inflammatory pathology.
+- **[[Apoptosis]]** — NF-κB transcriptional suppression by sirtuins sensitizes cells to TNF-α-induced apoptosis.
 
-### Linking Summary
-
-- New links added: [[SIRT1]], [[SIRT2]], [[SIRT3]], [[SIRT6]], [[notes/_link/Inflammation]], [[notes/_link/Apoptosis]]
+- New links added: [[SIRT1]], [[SIRT2]], [[SIRT3]], [[SIRT6]], [[Inflammation]], [[Apoptosis]]
 - Suggested new entity notes to create: [[TNFα]], [[MnSOD]], [[IκB]], [[RelA]]
-- Strong connections to strengthen: [[SIRT1]] ↔ [[notes/_link/NFKB]], [[SIRT6]] ↔ [[notes/_link/NFKB]], [[notes/_link/Inflammation]] ↔ [[notes/_link/NFKB]]
+- Strong connections to strengthen: [[SIRT1]] ↔ [[NFKB]], [[SIRT6]] ↔ [[NFKB]], [[Inflammation]] ↔ [[NFKB]]

@@ -1,27 +1,23 @@
 ---
 type: entity
-category: enzyme
-entity_type: "Protein"
-aliases:
-  - Cytochrome c oxidase
-  - COX
-  - Complex IV
+title: Complex IV
+description: '**Complex IV** (cytochrome c oxidase) is the terminal enzyme of the
+  Mitochondria electron transport chain. It catalyzes the transfer of electrons from
+  cytochrome c to oxygen, reducing O₂ to H₂O and...'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Enzyme
+aliases: [Cytochrome c oxidase, COX, Complex IV]
 ---
-
 # Complex IV
+**Complex IV** (cytochrome c oxidase) is the terminal enzyme of the [[Mitochondria|mitochondrial]] electron transport chain. It catalyzes the transfer of electrons from cytochrome c to oxygen, reducing O₂ to H₂O and contributing to the proton gradient for [[ATP]] synthesis.
 
-**Complex IV** (cytochrome c oxidase) is the terminal enzyme of the [[notes/_link/Mitochondria|mitochondrial]] electron transport chain. It catalyzes the transfer of electrons from cytochrome c to oxygen, reducing O₂ to H₂O and contributing to the proton gradient for [[ATP]] synthesis.
-
-## Connections
-
-- [[notes/_link/Mitochondria]] — Located in the inner mitochondrial membrane
+### Connections
+- [[Mitochondria]] — Located in the inner mitochondrial membrane
 - [[Oxidative Stress]] — Impaired Complex IV increases ROS
-- [[notes/_link/Neurodegenerative Diseases]] — Complex IV deficiency linked to Parkinson's and Alzheimer's
+- [[Neurodegenerative Diseases]] — Complex IV deficiency linked to Parkinson's and Alzheimer's
 
-## Linking Summary
-
-- New links added: [[notes/_link/Mitochondria]], [[Oxidative Stress]], [[notes/_link/Neurodegenerative Diseases]], [[ATP]]
+### Linking Summary
+- New links added: [[Mitochondria]], [[Oxidative Stress]], [[Neurodegenerative Diseases]], [[ATP]]
 - Suggested new entity notes to create: [[Complex I]], [[Complex II]], [[Complex III]], [[Cytochrome c]]
-- Strong connections to strengthen: [[Complex IV]] ↔ [[notes/_link/Mitochondria]]
+- Strong connections to strengthen: [[Complex IV]] ↔ [[Mitochondria]]

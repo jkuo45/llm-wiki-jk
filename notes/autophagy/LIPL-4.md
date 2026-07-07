@@ -1,10 +1,13 @@
 ---
-aliases:
-- C. elegans lysosomal lipase 4
-category: Enzyme
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: LIPL-4
+description: '**LIPL-4** is a triglyceride lipase in C. elegans that is expressed
+  in the pharynx and intestine. Unlike other members of the LIPL family, it is not
+  predicted to be lysosomal and its expression is ...'
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Enzyme
+aliases: [C. elegans lysosomal lipase 4]
 ---
 # LIPL-4
 

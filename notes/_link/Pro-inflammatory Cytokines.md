@@ -1,11 +1,14 @@
 ---
 type: entity
-category: protein
-aliases: ["Inflammatory Cytokines"]
+title: Pro-inflammatory Cytokines
+description: '**Overview:** Pro-inflammatory Cytokines is a cellular protein with
+  structural, signaling, or regulatory functions in eukaryotic cells. It participates
+  in macromolecular complexes and signaling net...'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Protein
+aliases: [Inflammatory Cytokines]
 ---
-
 # Pro-inflammatory Cytokines
 
 **Overview:** Pro-inflammatory Cytokines is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern cell behavior.
@@ -15,3 +18,11 @@ updated: 2026-07-04
 **Cellular function:** Pro-inflammatory Cytokines plays a role in signal transduction, gene expression regulation, cytoskeletal organization, or metabolic control. Its localization and activity are dynamically regulated in response to cellular cues.
 
 **Pathological significance:** Altered expression or mutation of Pro-inflammatory Cytokines is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
+
+### Connections
+- [[Pro-inflammatory Cytokines]] — related entity
+
+### Linking Summary
+- New links added: [[Pro-inflammatory Cytokines]]
+- Strong connections to strengthen: [[Pro-inflammatory Cytokines]] ↔ [[Pro-inflammatory Cytokines]]
+

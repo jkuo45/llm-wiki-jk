@@ -1,11 +1,13 @@
 ---
 type: entity
-category: protein
-entity_type: "Protein"
+title: Histone Variant
+description: '**Histone variants** are non-canonical isoforms of the core Histone
+  proteins (H2A, H2B, H3, H4) that replace their canonical counterparts in specific
+  genomic contexts to alter Nucleosome stability,...'
 created: 2024-01-01
 updated: 2024-07-04
+entity_type_1: Protein
 ---
-
 # Histone Variant
 
 **Histone variants** are non-canonical isoforms of the core [[Histone]] proteins (H2A, H2B, H3, H4) that replace their canonical counterparts in specific genomic contexts to alter [[Nucleosome]] stability, [[Chromatin]] dynamics, and [[Epigenetics|epigenetic regulation]]. Unlike canonical histones (expressed only during S phase), most variants are expressed throughout the cell cycle and incorporated by replication-independent [[Histone Chaperone|chaperones]].
@@ -35,6 +37,6 @@ updated: 2024-07-04
 - **[[FRAP]]** and [[FLIP]] to measure nucleosomal variant dynamics.
 
 ### Linking Summary:
-- New links added: [[Histone Modification]], [[Nucleosome]], [[notes/_link/Aging]], [[notes/_link/Senescence]], [[SAHF]], [[DNA Damage Response]], [[H3.3]], [[macroH2A]], [[H2A.Z]], [[H2A.X]], [[CENP-A]]
+- New links added: [[Histone Modification]], [[Nucleosome]], [[Aging]], [[Senescence]], [[SAHF]], [[DNA Damage Response]], [[H3.3]], [[macroH2A]], [[H2A.Z]], [[H2A.X]], [[CENP-A]]
 - Suggested new entity notes to create: [[HIRA]], [[DAXX]], [[ATRX]], [[SWR1]], [[SRCAP]]
-- Strong connections to strengthen: [[Histone Variant]] ↔ [[Nucleosome]], [[Histone Variant]] ↔ [[notes/_link/Senescence]]
+- Strong connections to strengthen: [[Histone Variant]] ↔ [[Nucleosome]], [[Histone Variant]] ↔ [[Senescence]]

@@ -1,11 +1,13 @@
 ---
 type: entity
-category: Scientific Concept
-aliases: []
+title: Mitohormetic Redox-Relay
+description: The **Mitohormetic Redox-Relay (MRR)** is a therapeutic strategy designed
+  to address mitochondrial dysfunction by using a controlled, low-amplitude oxidative
+  pulse to trigger adaptive stress respon...
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Scientific Concept
 ---
-
 # Mitohormetic Redox-Relay
 
 The **Mitohormetic Redox-Relay (MRR)** is a therapeutic strategy designed to address mitochondrial dysfunction by using a controlled, low-amplitude oxidative pulse to trigger adaptive stress responses ([[Mitohormesis]]) while simultaneously providing bioenergetic support and ensuring the clearance of damaged organelles.
@@ -13,11 +15,11 @@ The **Mitohormetic Redox-Relay (MRR)** is a therapeutic strategy designed to add
 ## Strategy Components
 - **Trigger:** [[Carbazochrome]] (a stabilized [[Adrenochrome]] derivative) used at sub-micromolar concentrations to induce controlled [[Redox Cycling]] and generate a [[Superoxide anion]] signaling pulse.
 - **Amplifier/Shunt:** [[Methylene blue]], which acts as an alternative mitochondrial electron carrier, bypassing damaged complexes and preventing runaway ROS generation.
-- **Fuel:** [[NAD+]] precursors like [[Nicotinamide Riboside]] or [[Nicotinamide Mononucleotide]] to prime the [[SIRT1]]/[[AMPK]]/[[PGC1α]] axis.
+- **Fuel:** [[NAD+]] precursors like [[Nicotinamide Riboside]] or [[Nicotinamide Mononucleotide]] to prime the [[SIRT1]]/[[AMPK]]/[[PGC1-α]] axis.
 - **Cleanup:** [[Urolithin A]] to induce selective [[Mitophagy]] and ensure the removal of dysfunctional mitochondria.
 
 ## Mechanism of Action
-The relay works by activating the [[NRF2]]/ARE antioxidant response pathway and stimulating mitochondrial biogenesis via [[PGC1α]]. The oxidative pulse is kept within the "hormetic window" by the electron-shunting action of [[Methylene blue]], which maintains ATP production even under respiratory strain.
+The relay works by activating the [[NRF2]]/ARE antioxidant response pathway and stimulating mitochondrial biogenesis via [[PGC1-α]]. The oxidative pulse is kept within the "hormetic window" by the electron-shunting action of [[Methylene blue]], which maintains ATP production even under respiratory strain.
 
 ## Detailed Mechanism of the Relay
 
@@ -43,13 +45,13 @@ Mitochondrial stress triggers the release of [[Mitokines]] from the stressed cel
 
 ### Step 4: Adaptive Transcriptional Response
 
-The combined activation of [[NRF2]], [[ATF4]], and [[PGC1α]] drives a coordinated transcriptional program:
+The combined activation of [[NRF2]], [[ATF4]], and [[PGC1-α]] drives a coordinated transcriptional program:
 
 | Pathway | Transcription Factor | Target Genes | Adaptive Effect |
 |---------|---------------------|-------------|----------------|
 | Antioxidant | [[NRF2]] | [[NQO1]], [[HO-1]], [[Glutathione]], [[Thioredoxin]] | Enhanced [[Redox homeostasis]] |
 | ISR | [[ATF4]] | [[GDF15]], [[CHOP]], [[Amino acid transporters]] | [[Integrated Stress Response]], [[Amino acid metabolism]] |
-| Biogenesis | [[PGC1α]]/[[NRF1]]/[[ERRα]] | [[TFAM]], [[Complex subunits]], [[SOD2]] | [[Mitochondrial Biogenesis]] |
+| Biogenesis | [[PGC1-α]]/[[NRF1]]/[[ERRalpha]] | [[TFAM]], [[Complex subunits]], [[SOD2]] | [[Mitochondrial Biogenesis]] |
 | Quality control | [[TFEB]], [[FOXO]] | [[Cathepsins]], [[Autophagy]] genes, [[Ubiquitin-proteasome]] | [[Mitophagy]], [[Proteostasis]] |
 
 ### Step 5: Methylene Blue Shunt (Window Control)
@@ -77,7 +79,7 @@ Key parameters for effective MRR dosing:
 | [[Carbazochrome]] concentration | 50–500 nM | <50 nM: insufficient signal; >500 nM: cytotoxicity |
 | Pulse duration | 30 min–4 h | <30 min: no adaptation; >4 h: [[Apoptosis]] priming |
 | MB:Carbazochrome ratio | 5:1 to 20:1 | <5:1: ROS overshoot; >20:1: Nrf2 desensitization |
-| [[NAD⁺]] precursor dose | 250–1000 mg/d (NR/NMN) | <250 mg: insufficient sirtuin activation; >1000 mg: cost without benefit |
+| [[NAD+]] precursor dose | 250–1000 mg/d (NR/NMN) | <250 mg: insufficient sirtuin activation; >1000 mg: cost without benefit |
 | Pulse frequency | 2–3× per week | Daily: adaptation and loss of hormetic effect; Weekly: insufficient maintenance |
 
 ## Therapeutic Exploitation Potential
@@ -92,6 +94,6 @@ The MRR framework suggests several clinical applications:
 - **[[Aging]]**: Senomorphic effects of controlled ROS signaling combined with senolytic clearance by intermittent mitophagy induction.
 
 ### Linking Summary:
-- New links added: [[Mitohormesis]], [[Carbazochrome]], [[Adrenochrome]], [[Redox Cycling]], [[Superoxide anion]], [[Methylene blue]], [[NAD+]], [[Nicotinamide Riboside]], [[Nicotinamide Mononucleotide]], [[SIRT1]], [[AMPK]], [[PGC1α]], [[Urolithin A]], [[Mitophagy]], [[NRF2]], [[Mitochondrial Biogenesis]], [[Complex I]], [[Complex III]], [[SOD2]], [[Aquaporins]], [[HIF-1α]], [[PHD2]], [[Glycolysis]], [[VEGF]], [[Keap1]], [[Integrated Stress Response]], [[OMA1]], [[OPA1]], [[DELE1]], [[HRI]], [[ATF4]], [[Mitokines]], [[FGF21]], [[PPARα]], [[Adipose Tissue]], [[Liver]], [[Fatty acid oxidation]], [[Ketogenesis]], [[GDF15]], [[CHOP]], [[GFRAL]], [[Brainstem]], [[Humanin]], [[FPRL2]], [[IL-6 receptor β]], [[Apoptosis]], [[Inflammation]], [[TFAM]], [[TFEB]], [[FOXO]], [[Cathepsins]], [[Ubiquitin-proteasome]], [[NADH]], [[NADH dehydrogenase]], [[Cytochrome c]], [[ATP]], [[Neurogenesis]], [[BDNF]], [[Browning of white adipose tissue]], [[Cardiomyocytes]], [[Ischemia-reperfusion Injury]], [[Mitochondrial myopathy]], [[Parkinson's Disease]], [[PINK1]], [[Parkin]], [[Heart Failure]], [[Metabolic Syndrome]], [[Insulin Sensitivity]], [[Neuroprotection]], [[Aging]], [[NQO1]], [[HO-1]], [[Glutathione]], [[Thioredoxin]], [[Redox homeostasis]], [[Amino acid metabolism]], [[NRF1]], [[ERRα]], [[Proteostasis]]
-- Suggested new entity notes to create: [[Mitohormetic Window Optimization]], [[Redox Relay Therapeutics]]
+- New links added: [[Mitohormesis]], [[Carbazochrome]], [[Adrenochrome]], [[Redox Cycling]], [[Superoxide anion]], [[Methylene blue]], [[NAD+]], [[Nicotinamide Riboside]], [[Nicotinamide Mononucleotide]], [[SIRT1]], [[AMPK]], [[PGC1-α]], [[Urolithin A]], [[Mitophagy]], [[NRF2]], [[Mitochondrial Biogenesis]], [[Complex I]], [[Complex III]], [[SOD2]], [[Aquaporins]], [[HIF-1α]], [[PHD2]], [[Glycolysis]], [[VEGF]], [[Keap1]], [[Integrated Stress Response]], [[OMA1]], [[OPA1]], [[DELE1]], [[HRI]], [[ATF4]], [[Mitokines]], [[FGF21]], [[PPARα]], [[Adipose Tissue]], [[Liver]], [[Fatty acid oxidation]], [[Ketogenesis]], [[GDF15]], [[CHOP]], [[GFRAL]], [[Brainstem]], [[Humanin]], [[FPRL2]], [[IL-6 receptor β]], [[Apoptosis]], [[Inflammation]], [[TFAM]], [[TFEB]], [[FOXO]], [[Cathepsins]], [[Ubiquitin-proteasome]], [[NADH]], [[NADH dehydrogenase]], [[Cytochrome c]], [[ATP]], [[Neurogenesis]], [[BDNF]], [[Browning of white adipose tissue]], [[Cardiomyocytes]], [[Ischemia-reperfusion Injury]], [[Mitochondrial myopathy]], [[Parkinson's Disease]], [[PINK1]], [[Parkin]], [[Heart Failure]], [[Metabolic Syndrome]], [[Insulin Sensitivity]], [[Neuroprotection]], [[Aging]], [[NQO1]], [[HO-1]], [[Glutathione]], [[Thioredoxin]], [[Redox homeostasis]], [[Amino acid metabolism]], [[NRF1]], [[ERRalpha]], [[Proteostasis]], [[Hormetic Window]], [[Redox Vaccination]], [[SIRT3]]/[[SIRT4]] ratio
+- Suggested new entity notes to create: [[Redox Relay Therapeutics]]
 - Strong connections to strengthen: [[Mitohormetic Redox-Relay]] ↔ [[Mitochondrial Dysfunction]]

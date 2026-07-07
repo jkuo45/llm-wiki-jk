@@ -1,10 +1,20 @@
+---
+type: entity
+title: Cervical Cancer
+description: '**Cervical cancer** is a cancer arising from the cervix. It is due to
+  the abnormal growth of cells that have the ability to invade or spread to other
+  parts of the body.'
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Medical Condition
+---
 # Cervical Cancer
 
 **Cervical cancer** is a cancer arising from the cervix. It is due to the abnormal growth of cells that have the ability to invade or spread to other parts of the body.
 
 ## Research with Bee Venom and Ivermectin
 - Both [[Honeybee venom|honeybee venom]] and [[melittin]] have demonstrated antitumoral effects in cervical cancer. Synergy has been observed between honeybee venom and [[Cisplatin]] in treating cervical malignancies.
-- [[Ivermectin]] significantly inhibits the proliferation and migration of HeLa (cervical cancer) cells. It induces G1/S phase cell cycle arrest and [[notes/_link/Apoptosis]] via the mitochondrial pathway.
+- [[Ivermectin]] significantly inhibits the proliferation and migration of HeLa (cervical cancer) cells. It induces G1/S phase cell cycle arrest and [[Apoptosis]] via the mitochondrial pathway.
 
 ## Connections
 - [[melittin]]: Active against cervical cancer cells.

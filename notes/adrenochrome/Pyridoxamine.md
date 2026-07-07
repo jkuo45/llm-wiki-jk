@@ -1,11 +1,11 @@
 ---
 type: entity
-category: Chemical Compound
-aliases: []
+title: Pyridoxamine
+description: Pyridoxamine is one of the forms of Vitamin B6.
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Chemical Compound
 ---
-
 # Pyridoxamine
 
 Pyridoxamine is one of the forms of Vitamin B6.

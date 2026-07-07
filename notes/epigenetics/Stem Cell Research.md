@@ -1,9 +1,12 @@
 ---
 type: entity
-category: other
-entity_type: "NA"
+title: Stem Cell Research
+description: Over the last two decades, Stem Cell Research has progressed from initial
+  proof-of-principle experiments to sophisticated applications like organoid technology,
+  gene editing (e.g., CRISPR), and hyb...
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: NA
 ---
 # Stem Cell Research
 

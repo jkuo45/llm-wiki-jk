@@ -1,11 +1,12 @@
 ---
 type: entity
-category: Chemical Compound
-aliases: []
+title: Hydrazine
+description: Hydrazine is an inorganic compound with the chemical formula $N_2H_4$.
+  It is a simple pnictogen hydride and a highly reactive base and reducing agent.
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Chemical Compound
 ---
-
 # Hydrazine
 
 Hydrazine is an inorganic compound with the chemical formula $N_2H_4$. It is a simple pnictogen hydride and a highly reactive base and reducing agent.

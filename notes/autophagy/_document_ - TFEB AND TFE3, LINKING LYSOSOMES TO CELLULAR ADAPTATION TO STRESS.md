@@ -1,15 +1,19 @@
 ---
-title: "TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS"
-source: "https://pmc.ncbi.nlm.nih.gov/articles/PMC6490169/"
+type: document
+title: TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS
+source: https://pmc.ncbi.nlm.nih.gov/articles/PMC6490169/
 author:
-  - "Nina Raben"
-  - "Rosa Puertollano"
-published:
+- Nina Raben
+- Rosa Puertollano
 created: 2026-06-03
-description: "In recent years, our vision of lysosomes has drastically changed. From being considered as mere degradative compartments, they are now recognized as key players in many cellular processes. The ability of lysosomes to respond to different stimuli ..."
+description: In recent years, our vision of lysosomes has drastically changed. From
+  being considered as mere degradative compartments, they are now recognized as key
+  players in many cellular processes. The ability of lysosomes to respond to different
+  stimuli ...
 tags:
   - "clippings"
 ---
+
 . Author manuscript; available in PMC: 2019 Apr 30.
 
 *Published in final edited form as:* Annu Rev Cell Dev Biol. 2016 Jun 1;32:255–278. doi: [10.1146/annurev-cellbio-111315-125407](https://doi.org/10.1146/annurev-cellbio-111315-125407)
@@ -118,7 +122,7 @@ In summary, the unique ability of [[TFEB]] and [[TFE3]] to simultaneously modula
 
 ## TFEB AND TFE3 IN CANCER
 
-Dysregulation of [[MiTF/TFE family|MiTF/TFE factors]] can lead to different type of [[Cancer|cancers]] ([Haq & Fisher 2011](#R32)). [[Cancer]] cells depend on effective lysosomal function, and multiple changes in the lysosomal composition and number happen during the oncogenic process. Although it is still unclear how the function of [[TFEB]]/[[TFE3]] factors may help promote the oncogenic state, the emerging evidence suggests that [[Cancer|cancer]] cells may exploit the [[TFEB]]/[[TFE3]]-mediated transcriptional activation of lysosome-dependent degradative pathway for their survival.
+Dysregulation of [[MiTF]]/[[TFEB]] family can lead to different type of [[Cancer|cancers]] ([Haq & Fisher 2011](#R32)). [[Cancer]] cells depend on effective lysosomal function, and multiple changes in the lysosomal composition and number happen during the oncogenic process. Although it is still unclear how the function of [[TFEB]]/[[TFE3]] factors may help promote the oncogenic state, the emerging evidence suggests that [[Cancer|cancer]] cells may exploit the [[TFEB]]/[[TFE3]]-mediated transcriptional activation of lysosome-dependent degradative pathway for their survival.
 
 ### Renal cell carcinomas
 
@@ -146,7 +150,7 @@ Activation of [[TFEB]] has been recently reported in [[Aneuploidy|aneuploid cell
 
 [[PDA]] tumors exhibit high basal [[Autophagy|autophagy]], which appears to be a prerequisite for the tumorigenic growth ([Yang et al 2011b](#R140)). In addition, an uncharacteristic predominant nuclear localization of [[TFEB]] has been reported in fully fed human pancreatic cancer cells (PANC1).
 
-A recent study by Perera et al. ([Perera et al 2015](#R82)) greatly expanded these findings and documented the following: an increase in size and number of both [[Autophagosome|autophagosomes]] and [[Lysosome|lysosomes]]; an augmentation of [[Autophagic Flux|autophagic flux]]; high levels of expression of [[MiTF TFE family|MiTF/TFE family]] (although somewhat less than in [[Melanoma|melanoma]] and RCC) with each family member-[[MITF]], [[TFE3]] or [[TFEB]] - dominating in different samples; and upregulation of [[CLEAR Element|CLEAR gene network]]. Furthermore, all three transcription factors escaped [[mTORC1]]-dependent inactivation, and remained nuclear-localized and constitutively active in [[PDA]] irrespective of nutrient status due to their interaction with the nucleocytoplasmic transporters, [[IPO8|importin 8 (IPO8)]] or [[IPO7|7 (IPO7)]]. Accordingly, knockdown of these transporters decreased the levels of nuclear [[TFE3]], [[TFEB]], and [[MITF]] in [[PDA]] cell lines. Also, [[MiTF/TFE family|MiTF/TFE factors]] in [[PDA]] cells were shown to stimulate lysosomal breakdown of the cargos delivered through both [[Autophagy|autophagy]] and macropinocytosis, thus providing the tumor cells with intracellular and extracellular nutrients and allowing them to survive under [[Nutrient Availability|nutrient deprivation]] ([Perera et al 2015](#R82)) ([Alderton 2015](#R1))).
+A recent study by Perera et al. ([Perera et al 2015](#R82)) greatly expanded these findings and documented the following: an increase in size and number of both [[Autophagosome|autophagosomes]] and [[Lysosome|lysosomes]]; an augmentation of [[Autophagic Flux|autophagic flux]]; high levels of expression of [[MiTF TFE family|MiTF/TFE family]] (although somewhat less than in [[Melanoma|melanoma]] and RCC) with each family member-[[MITF]], [[TFE3]] or [[TFEB]] - dominating in different samples; and upregulation of [[CLEAR Element|CLEAR gene network]]. Furthermore, all three transcription factors escaped [[mTORC1]]-dependent inactivation, and remained nuclear-localized and constitutively active in [[PDA]] irrespective of nutrient status due to their interaction with the nucleocytoplasmic transporters, [[IPO8|importin 8 (IPO8)]] or [[IPO7|7 (IPO7)]]. Accordingly, knockdown of these transporters decreased the levels of nuclear [[TFE3]], [[TFEB]], and [[MITF]] in [[PDA]] cell lines. Also, [[MiTF]]/[[TFEB]] family in [[PDA]] cells were shown to stimulate lysosomal breakdown of the cargos delivered through both [[Autophagy|autophagy]] and macropinocytosis, thus providing the tumor cells with intracellular and extracellular nutrients and allowing them to survive under [[Nutrient Availability|nutrient deprivation]] ([Perera et al 2015](#R82)) ([Alderton 2015](#R1))).
 
 ## TFEB AND TFE3 AS THERAPEUTIC TARGETS
 

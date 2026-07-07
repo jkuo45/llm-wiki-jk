@@ -1,21 +1,18 @@
 ---
 type: entity
-category: protein
-aliases:
-  - GATA5
-  - GATA Binding Protein 5
-  - GATA transcription factor 5
-database_ids:
-  uniprot: Q9BWX5
-  hgnc: HGNC:15851
-relations:
-  - predicate: expression_regulated_by
-    target: "SIRT6"
-    sources:
-      - Wang 2020
-      - Liu 2021
+title: GATA5
+description: '**GATA5** (GATA Binding Protein 5) is a member of the GATA family of
+  zinc-finger transcription factors (GATA1–6) that bind the consensus motif (A/T)GATA(A/G).
+  GATA5 is expressed predominantly in th...'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Protein
+aliases: [GATA5, GATA Binding Protein 5, GATA transcription factor 5]
+
+sources:
+- Wang 2020
+- Liu 2021
+target: SIRT6
 ---
 
 # GATA5
@@ -37,6 +34,7 @@ GATA5 is a risk locus for coronary artery disease and bicuspid aortic valve. SIR
 ## Connections
 
 - [[SIRT6]] — Induces GATA5 expression, preventing endothelial injury
+- [[Nkx3.2]] — transcriptional repressor of GATA5; silenced by SIRT6 to derepress GATA5
 - [[EndMT]] — Endothelial-to-mesenchymal transition suppressed by the SIRT6–GATA5 axis
 - [[GATA4]] — Related GATA factor; cooperates with GATA5 in cardiac gene regulation
 - [[Vascular Endothelial Injury]] — Pathological state mitigated by GATA5 upregulation
@@ -45,6 +43,6 @@ GATA5 is a risk locus for coronary artery disease and bicuspid aortic valve. SIR
 
 ## Linking Summary
 
-- New links added: [[GATA5]], [[EndMT]], [[GATA4]], [[Vascular Endothelial Injury]], [[Bicuspid Aortic Valve]]
+- New links added: [[GATA5]], [[EndMT]], [[GATA4]], [[Vascular Endothelial Injury]], [[Bicuspid Aortic Valve]], [[Nkx3.2]]
 - Suggested new entity notes to create: [[GATA6]], [[Atrial septal defect]], [[Cardiac bifida]]
-- Strong connections to strengthen: [[SIRT6]] ↔ [[GATA5]]
+- Strong connections to strengthen: [[SIRT6]] ↔ [[GATA5]], [[Nkx3.2]] ↔ [[GATA5]]

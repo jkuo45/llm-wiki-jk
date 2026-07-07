@@ -1,6 +1,15 @@
+---
+type: entity
+title: AIF
+description: '**AIF** (Apoptosis-inducing factor) is a flavoprotein that is released
+  from the mitochondrial intermembrane space during Apoptosis.'
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Enzyme
+---
 # AIF
 
-**AIF** (Apoptosis-inducing factor) is a flavoprotein that is released from the mitochondrial intermembrane space during [[notes/_link/Apoptosis]].
+**AIF** (Apoptosis-inducing factor) is a flavoprotein that is released from the mitochondrial intermembrane space during [[Apoptosis]].
 
 ## Mechanism
 AIF is released into the cytoplasm following mitochondrial outer membrane permeabilization, often in response to pro-apoptotic stimuli in the [[Intrinsic Pathway]]. Unlike many other apoptotic factors, AIF promotes cell death through a **caspase-independent** mechanism.
@@ -11,9 +20,9 @@ Once in the cytoplasm, AIF translocates to the nucleus where it induces large-sc
 ## Connections
 - [[Intrinsic Pathway]]: A mitochondrial factor involved in caspase-independent death.
 - [[chromatin condensation]]: A morphological hallmark of apoptosis induced by AIF.
-- [[notes/_link/Apoptosis]]: Executes programmed cell death.
+- [[Apoptosis]]: Executes programmed cell death.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Apoptosis]], [[Intrinsic Pathway]], [[chromatin condensation]]
+- New links added: [[Apoptosis]], [[Intrinsic Pathway]], [[chromatin condensation]]
 - Suggested new entity notes to create: [[chromatin condensation]]
 - Strong connections to strengthen: [[AIF]] ↔ [[Intrinsic Pathway]]

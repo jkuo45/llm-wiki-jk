@@ -1,15 +1,14 @@
 ---
-title: "The autophagy enhancer spermidine reverses arterial aging"
-source: "https://www.sciencedirect.com/science/article/abs/pii/S004763741300050X"
-author:
-  - "Thomas J."
-  - "Christopher M."
-  - "Douglas R."
-published:
-created: 2026-06-19
-updated: 2026-07-04
 type: document
-description: "Arterial aging, characterized by stiffening of large elastic arteries and the development of arterial endothelial dysfunction, increases cardiovascula…"
+title: The autophagy enhancer spermidine reverses arterial aging
+source: https://www.sciencedirect.com/science/article/abs/pii/S004763741300050X
+author:
+- Thomas J.
+- Christopher M.
+- Douglas R.
+created: 2026-06-19
+description: Arterial aging, characterized by stiffening of large elastic arteries
+  and the development of arterial endothelial dysfunction, increases cardiovascula…
 tags:
   - "clippings"
   - "autophagy"
@@ -17,6 +16,8 @@ tags:
   - "cardiovascular"
   - "spermidine"
 ---
+
+
 ## Published by: Elsevier
 
 ### Published by
@@ -92,11 +93,11 @@ Oxidative stress
 
 ## Introduction
 
-Aging causes two key changes in arteries that significantly increase the risk of [[notes/_link/Cardiovascular Disease|cardiovascular diseases (CVD)]]: stiffening of the large elastic arteries (aorta and carotid arteries) and the development of vascular [[Endothelial Dysfunction|endothelial dysfunction]] (Lakatta and Levy, 2003, North and Sinclair, 2012). Arterial stiffening results from age-related changes in the arterial wall including increases in collagen deposition, reductions in elastin and cross-linking of these and other structural proteins via formation of [[Advanced Glycation End Products|advanced glycation end-products (AGEs)]] (O’Rourke and Hashimoto, 2007). Vascular endothelial dysfunction develops with age primarily due to reduced [[notes/_link/Nitric Oxide|nitric oxide (NO)]] bioavailability, as reflected by impaired NO-mediated endothelium-dependent dilation (EDD) (Brandes et al., 2005, Lakatta, 2003).
+Aging causes two key changes in arteries that significantly increase the risk of [[Cardiovascular Disease|cardiovascular diseases (CVD)]]: stiffening of the large elastic arteries (aorta and carotid arteries) and the development of vascular [[Endothelial Dysfunction|endothelial dysfunction]] (Lakatta and Levy, 2003, North and Sinclair, 2012). Arterial stiffening results from age-related changes in the arterial wall including increases in collagen deposition, reductions in elastin and cross-linking of these and other structural proteins via formation of [[Advanced Glycation End Products|advanced glycation end-products (AGEs)]] (O’Rourke and Hashimoto, 2007). Vascular endothelial dysfunction develops with age primarily due to reduced [[Nitric Oxide|nitric oxide (NO)]] bioavailability, as reflected by impaired NO-mediated endothelium-dependent dilation (EDD) (Brandes et al., 2005, Lakatta, 2003).
 
 Although the mechanisms underlying arterial aging are incompletely understood, the characteristics of age-associated vascular dysfunction are consistent with dysregulated cellular protein homeostasis, i.e., [[Oxidative Stress|oxidative stress]] and increased molecular damage that ultimately impair cell and tissue function (Koga et al., 2010, Lakatta, 2003, Seals et al., 2011). [[Autophagy|Autophagy]], the cellular process of recycling damaged biomolecules, is a major mechanism for protein homeostasis and defense against oxidative stress (Koga et al., 2010, Mizushima and Komatsu, 2011) and may, therefore, play an important role in arterial aging. Indeed, numerous longevity pathways exert their effects through autophagy (Rubinsztein et al., 2011), and recent work from our laboratory suggests that impaired autophagy contributes to arterial aging (LaRocca et al., 2012). Thus, therapeutic strategies aimed at improving protein quality control by enhancing autophagy may have the potential to prevent/reverse age-associated arterial dysfunction and CVD.
 
-Because many known autophagy inducers have off-target effects (e.g., [[notes/_link/Rapamycin|rapamycin]]) or uncertain translational promise (e.g., [[notes/_link/Caloric Restriction|caloric restriction]]), there is considerable interest in natural food components or “nutraceuticals” that promote autophagy (Galluzzi and Kroemer, 2012, Sudarsanam and Johnson, 2010). Recently, the polyamine [[notes/_link/Spermidine|spermidine]] has been identified as a potent and specific inducer of autophagy (Eisenberg et al., 2009, Madeo et al., 2010). Spermidine is a natural dietary compound found in high concentrations in Mediterranean and Asian diets (Binh, 2010, Soda et al., 2010). Supplementation with spermidine extends lifespan in yeast and flies by an autophagy-dependent mechanism and reduces oxidative stress (Eisenberg et al., 2009, Guo et al., 2011, Minois et al., 2012). The mechanism of action for spermidine involves enhanced transcription of autophagy-relevant proteins and is contingent on de-acetylation of histone H3 (Eisenberg et al., 2009, Morselli et al., 2011). However, the potential for spermidine to promote autophagy and exert anti-aging effects in arteries is entirely unknown.
+Because many known autophagy inducers have off-target effects (e.g., [[Rapamycin|rapamycin]]) or uncertain translational promise (e.g., [[Caloric Restriction|caloric restriction]]), there is considerable interest in natural food components or “nutraceuticals” that promote autophagy (Galluzzi and Kroemer, 2012, Sudarsanam and Johnson, 2010). Recently, the polyamine [[Spermidine|spermidine]] has been identified as a potent and specific inducer of autophagy (Eisenberg et al., 2009, Madeo et al., 2010). Spermidine is a natural dietary compound found in high concentrations in Mediterranean and Asian diets (Binh, 2010, Soda et al., 2010). Supplementation with spermidine extends lifespan in yeast and flies by an autophagy-dependent mechanism and reduces oxidative stress (Eisenberg et al., 2009, Guo et al., 2011, Minois et al., 2012). The mechanism of action for spermidine involves enhanced transcription of autophagy-relevant proteins and is contingent on de-acetylation of histone H3 (Eisenberg et al., 2009, Morselli et al., 2011). However, the potential for spermidine to promote autophagy and exert anti-aging effects in arteries is entirely unknown.
 
 Here, we tested the hypothesis that supplementation with spermidine would reduce arterial stiffness and improve vascular endothelial function in old mice. The results of these experiments provide the first evidence that spermidine may hold efficacy for treating age-associated arterial dysfunction by enhancing autophagy, reducing oxidative stress and increasing NO bioavailability.
 
@@ -122,11 +123,11 @@ Aortic pulse wave velocity was ∼20% greater in old compared with young control
 
 ### Discussion
 
-Age is the most important determinant of [[notes/_link/Cardiovascular Disease|CVD]] risk (Lloyd-Jones et al., 2010) due in large part to stiffening of large elastic arteries and the development of vascular [[Endothelial Dysfunction|endothelial dysfunction]] (Lakatta and Levy, 2003). Suboptimal lifestyle and diet exacerbate these processes, contributing significantly to the global CVD burden (Mozaffarian et al., 2011). Thus, identifying dietary patterns and selected nutrients that may prevent or reverse arterial aging is an important research objective.
+Age is the most important determinant of [[Cardiovascular Disease|CVD]] risk (Lloyd-Jones et al., 2010) due in large part to stiffening of large elastic arteries and the development of vascular [[Endothelial Dysfunction|endothelial dysfunction]] (Lakatta and Levy, 2003). Suboptimal lifestyle and diet exacerbate these processes, contributing significantly to the global CVD burden (Mozaffarian et al., 2011). Thus, identifying dietary patterns and selected nutrients that may prevent or reverse arterial aging is an important research objective.
 
 ### Conclusions
 
-In summary, supplementation with the polyamine and potential nutraceutical [[notes/_link/Spermidine|spermidine]] reverses large elastic artery stiffening, restores [[notes/_link/Nitric Oxide|NO]]-mediated endothelial function and reduces [[Oxidative Stress|oxidative stress]], while enhancing [[Autophagy|autophagy]] in arteries of old mice. These novel findings provide the necessary pre-clinical evidence to support future translational studies on the efficacy of spermidine for treating age-associated arterial dysfunction and preventing [[notes/_link/Cardiovascular Disease|CVD]] in older adults.
+In summary, supplementation with the polyamine and potential nutraceutical [[Spermidine|spermidine]] reverses large elastic artery stiffening, restores [[Nitric Oxide|NO]]-mediated endothelial function and reduces [[Oxidative Stress|oxidative stress]], while enhancing [[Autophagy|autophagy]] in arteries of old mice. These novel findings provide the necessary pre-clinical evidence to support future translational studies on the efficacy of spermidine for treating age-associated arterial dysfunction and preventing [[Cardiovascular Disease|CVD]] in older adults.
 
 ## Acknowledgments
 
@@ -234,14 +235,14 @@ This work was supported by the National Institutes of Health: AG013038 and AG039
 
 ## Connections
 
-- [[notes/_link/Spermidine|Spermidine]] enhances [[Autophagy|autophagy]] via [[notes/_link/Histone H3|histone H3]] de-acetylation and increased transcription of autophagy-related proteins
-- [[notes/_link/Spermidine|Spermidine]] reverses large elastic artery stiffening, restores [[notes/_link/Nitric Oxide|NO]]-mediated endothelial function, and reduces [[Oxidative Stress|oxidative stress]]
+- [[Spermidine|Spermidine]] enhances [[Autophagy|autophagy]] via [[Histone H3|histone H3]] de-acetylation and increased transcription of autophagy-related proteins
+- [[Spermidine|Spermidine]] reverses large elastic artery stiffening, restores [[Nitric Oxide|NO]]-mediated endothelial function, and reduces [[Oxidative Stress|oxidative stress]]
 - Impaired [[Autophagy|autophagy]] contributes to age-associated arterial dysfunction; enhancing autophagy rescues vascular phenotype
-- [[notes/_link/Cardiovascular Disease|CVD]] risk increases with arterial stiffening and [[Endothelial Dysfunction|endothelial dysfunction]]
-- [[notes/_link/Caloric Restriction|Caloric restriction]] and [[notes/_link/Rapamycin|rapamycin]] are alternative [[Autophagy|autophagy]] inducers with translational limitations (off-target effects and uncertain clinical promise)
+- [[Cardiovascular Disease|CVD]] risk increases with arterial stiffening and [[Endothelial Dysfunction|endothelial dysfunction]]
+- [[Caloric Restriction|Caloric restriction]] and [[Rapamycin|rapamycin]] are alternative [[Autophagy|autophagy]] inducers with translational limitations (off-target effects and uncertain clinical promise)
 
 ## Linking Summary
 
-- New links added: [[notes/_link/Spermidine]], [[notes/_link/Cardiovascular Disease]], [[notes/_link/Nitric Oxide]], [[notes/_link/Caloric Restriction]], [[notes/_link/Rapamycin]], [[Autophagy]], [[Oxidative Stress]], [[Endothelial Dysfunction]], [[Advanced Glycation End Products]]
+- New links added: [[Spermidine]], [[Cardiovascular Disease]], [[Nitric Oxide]], [[Caloric Restriction]], [[Rapamycin]], [[Autophagy]], [[Oxidative Stress]], [[Endothelial Dysfunction]], [[Advanced Glycation End Products]]
 - Suggested new entity notes to create: [[Histone H3]], [[Polyamine]], [[Nutraceutical]], [[Arterial Stiffness]], [[Pulse Wave Velocity]]
-- Strong connections to strengthen: [[notes/_link/Spermidine]] ↔ [[Autophagy]], [[notes/_link/Spermidine]] ↔ [[notes/_link/Nitric Oxide]], [[notes/_link/Spermidine]] ↔ [[Oxidative Stress]]
+- Strong connections to strengthen: [[Spermidine]] ↔ [[Autophagy]], [[Spermidine]] ↔ [[Nitric Oxide]], [[Spermidine]] ↔ [[Oxidative Stress]]

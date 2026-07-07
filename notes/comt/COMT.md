@@ -1,6 +1,12 @@
 ---
 type: entity
-category: enzyme
+title: COMT (Catechol-O-methyltransferase)
+description: COMT (Catechol-O-methyltransferase) is one of the primary enzymes responsible
+  for the degradation of Catecholamines, including Dopamine, Norepinephrine, and Epinephrine.
+  It is essential for protect...
+created: 2026-05-25
+updated: 2026-07-04
+entity_type_1: Enzyme
 aliases:
   - Catechol-O-methyltransferase
 database_ids:
@@ -29,17 +35,18 @@ relations:
   - predicate: associated_with
     target: "Val158Met"
     sources: []
-created: 2026-05-25
-updated: 2026-07-04
 ---
+
+
+
 
 # COMT (Catechol-O-methyltransferase)
 
-**COMT** (Catechol-O-methyltransferase) is one of the primary enzymes responsible for the degradation of [[Catecholamines]], including [[notes/_link/Dopamine]], [[notes/_link/Norepinephrine]], and [[notes/_link/Epinephrine]]. It is essential for protecting cells from [[Oxidative Stress]] by preventing the accumulation of catecholamines and protecting the body from reactive [[Catechols]].
+**COMT** (Catechol-O-methyltransferase) is one of the primary enzymes responsible for the degradation of [[Catecholamines]], including [[Dopamine]], [[Norepinephrine]], and [[Epinephrine]]. It is essential for protecting cells from [[Oxidative Stress]] by preventing the accumulation of catecholamines and protecting the body from reactive [[Catechols]].
 
 ## Biochemical Function
 
-The enzyme performs a [[notes/_link/Methylation]] reaction, transferring a [[Methyl groups|methyl group]] from [[notes/_link/SAMe]] (S-adenosylmethionine) to a catechol substrate. This process requires [[notes/_link/Magnesium]] as a cofactor and is facilitated by the [[notes/_link/Methylation|Methylation Cycle]]. COMT is also involved in the metabolism of catechol [[notes/_link/Estrogen]] metabolites.
+The enzyme performs a [[Methylation]] reaction, transferring a [[Methyl groups|methyl group]] from [[SAMe]] (S-adenosylmethionine) to a catechol substrate. This process requires [[Magnesium]] as a cofactor and is facilitated by the [[Methylation|Methylation Cycle]]. COMT is also involved in the metabolism of catechol [[Estrogen]] metabolites.
 
 ### Two Forms of COMT
 
@@ -59,20 +66,20 @@ Population frequencies vary: the Met/Met (slow) genotype occurs in approximately
 
 ## Role in Adrenochrome Pathway
 
-Under normal conditions, COMT and [[notes/_link/Monoamine oxidase]] (MAO) are the dominant routes for adrenaline metabolism. If COMT is inhibited (e.g., by drugs used in Parkinson's disease or certain [[Flavonoids]] like [[notes/_link/Quercetin]]), levels of [[notes/_link/Epinephrine]] can rise. This increased substrate availability, combined with [[Oxidative Stress]], may shift more adrenaline toward the minor [[Adrenochrome]] oxidative pathway via autoxidation.
+Under normal conditions, COMT and [[Monoamine oxidase]] (MAO) are the dominant routes for adrenaline metabolism. If COMT is inhibited (e.g., by drugs used in Parkinson's disease or certain [[Flavonoids]] like [[Quercetin]]), levels of [[Epinephrine]] can rise. This increased substrate availability, combined with [[Oxidative Stress]], may shift more adrenaline toward the minor [[Adrenochrome]] oxidative pathway via autoxidation.
 
 ## Clinical Relevance
 
 ### COMT Inhibitors in Parkinson's Disease
 
-COMT inhibitors (entacapone, tolcapone, opicapone) are used as adjuncts to levodopa therapy in [[notes/_link/Parkinson's Disease]]. By blocking COMT, these drugs prolong the half-life of levodopa and increase its bioavailability to the brain. However, blocking this primary exit route for catecholamines can theoretically increase the production of [[Aminochromes]] like [[Dopaminochrome]] and [[Adrenochrome]] under oxidative conditions.
+COMT inhibitors (entacapone, tolcapone, opicapone) are used as adjuncts to levodopa therapy in [[Parkinson's Disease]]. By blocking COMT, these drugs prolong the half-life of levodopa and increase its bioavailability to the brain. However, blocking this primary exit route for catecholamines can theoretically increase the production of [[Aminochromes]] like [[Dopaminochrome]] and [[Adrenochrome]] under oxidative conditions.
 
 ### Psychiatric and Cognitive Implications
 
 Genetic variation in [[COMT]] activity is associated with:
 - [[Cognitive Performance]] and [[Working Memory]] — the inverted-U relationship between dopamine levels and PFC function means that either too little (Val/Val) or too much (Met/Met) dopamine can impair cognition depending on baseline state and stress
 - [[Executive Function]] — particularly cognitive flexibility and attentional control
-- Susceptibility to [[notes/_link/Schizophrenia]] — the Val allele has been linked to increased risk in some populations, possibly through reduced prefrontal dopamine tone
+- Susceptibility to [[Schizophrenia]] — the Val allele has been linked to increased risk in some populations, possibly through reduced prefrontal dopamine tone
 - Anxiety and mood regulation — slow COMT is associated with higher baseline anxiety and sensitivity to stress
 
 ### Supplement and Medication Interactions
@@ -80,26 +87,26 @@ Genetic variation in [[COMT]] activity is associated with:
 COMT genotype influences response to numerous substances:
 - [[Modafinil]] efficacy is markedly better in Val/Val individuals
 - [[Aspirin]] cardiovascular protection is effective in slow COMT (A/A) but may increase risk in fast COMT (G/G)
-- [[notes/_link/Vitamin E]] ([[Alpha-tocopherol]]) cancer prevention varies by COMT genotype
-- [[Methyl Donor]] supplements ([[Methylfolate]], [[MethylB12]], [[notes/_link/SAMe]], [[Betaine]]) can cause mood side effects in slow COMT individuals due to rapid neurotransmitter cycling
+- [[Vitamin E]] ([[Alpha-tocopherol]]) cancer prevention varies by COMT genotype
+- [[Methyl Donor]] supplements ([[Methylfolate]], [[MethylB12]], [[SAMe]], [[Betaine]]) can cause mood side effects in slow COMT individuals due to rapid neurotransmitter cycling
 
 ## Connections
 
 - [[Catecholamines]] ↔ Primary substrate for COMT.
-- [[notes/_link/Epinephrine]] ↔ Metabolized by COMT.
-- [[notes/_link/Monoamine oxidase]] ↔ The other major enzymatic pathway for catecholamine degradation.
+- [[Epinephrine]] ↔ Metabolized by COMT.
+- [[Monoamine oxidase]] ↔ The other major enzymatic pathway for catecholamine degradation.
 - [[Adrenochrome]] ↔ Pathway that becomes more prominent when enzymatic degradation is blocked.
 - [[Oxidative Stress]] ↔ Condition that favors the alternative oxidation pathway.
-- [[notes/_link/Dopamine]]: Primary substrate for degradation in the PFC.
-- [[notes/_link/Methylation]]: Provides the methyl groups necessary for COMT function.
-- [[notes/_link/Estrogen]]: COMT is involved in the metabolism of catechol estrogens.
+- [[Dopamine]]: Primary substrate for degradation in the PFC.
+- [[Methylation]]: Provides the methyl groups necessary for COMT function.
+- [[Estrogen]]: COMT is involved in the metabolism of catechol estrogens.
 - [[Val158Met]]: The key functional polymorphism affecting COMT activity.
-- [[notes/_link/Magnesium]]: Required cofactor for COMT enzymatic activity.
-- [[notes/_link/SAMe]]: The methyl donor required by COMT.
+- [[Magnesium]]: Required cofactor for COMT enzymatic activity.
+- [[SAMe]]: The methyl donor required by COMT.
 
 ---
 
 ### Linking Summary:
 
-- New links added: [[Adrenochrome]], [[Aminochromes]], [[COMT]], [[Catecholamines]], [[Catechols]], [[Cognitive Performance]], [[notes/_link/Dopamine]], [[Dopaminochrome]], [[notes/_link/Epinephrine]], [[notes/_link/Estrogen]], [[Executive Function]], [[notes/_link/Monoamine oxidase]], [[notes/_link/Magnesium]], [[Methyl groups]], [[notes/_link/Methylation]], [[notes/_link/Norepinephrine]], [[Oxidative Stress]], [[Psychiatric Disorders]], [[SNP]], [[notes/_link/Schizophrenia]], [[Val158Met]], [[Working Memory]], [[notes/_link/SAMe]], [[notes/_link/Quercetin]], [[Flavonoids]]
+- New links added: [[Adrenochrome]], [[Aminochromes]], [[COMT]], [[Catecholamines]], [[Catechols]], [[Cognitive Performance]], [[Dopamine]], [[Dopaminochrome]], [[Epinephrine]], [[Estrogen]], [[Executive Function]], [[Monoamine oxidase]], [[Magnesium]], [[Methyl groups]], [[Methylation]], [[Norepinephrine]], [[Oxidative Stress]], [[Psychiatric Disorders]], [[SNP]], [[Schizophrenia]], [[Val158Met]], [[Working Memory]], [[SAMe]], [[Quercetin]], [[Flavonoids]]
 - Strong connections to strengthen: [[COMT]] ↔ [[Catecholamines]]

@@ -1,11 +1,12 @@
 ---
 type: entity
-category: enzyme
-aliases: []
+title: CYP2D6
+description: '**Catalytic function:** CYP2D6 is an enzyme that catalyzes biochemical
+  reactions essential for cellular metabolism and homeostasis.'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Enzyme
 ---
-
 # CYP2D6
 
 **Catalytic function:** CYP2D6 is an enzyme that catalyzes biochemical reactions essential for cellular metabolism and homeostasis.
@@ -15,3 +16,11 @@ updated: 2026-07-04
 **Physiological role:** CYP2D6 participates in metabolic pathways that maintain cellular redox balance, energy production, and biosynthetic processes. Its expression and activity are tightly regulated across different tissues.
 
 **Clinical relevance:** Dysregulation of CYP2D6 activity is implicated in metabolic disorders, oxidative stress-related pathologies, and cancer. Pharmacological modulation of this enzyme represents a therapeutic strategy for diseases involving its pathway.
+
+### Connections
+- [[CYP2D6]] — related entity
+
+### Linking Summary
+- New links added: [[CYP2D6]]
+- Strong connections to strengthen: [[CYP2D6]] ↔ [[CYP2D6]]
+

@@ -1,9 +1,11 @@
 ---
 type: entity
-category: other
-entity_type: "NA"
+title: Retinal Pigment Epithelium
+description: The pigmented cell layer just outside the neurosensory retina that nourishes
+  retinal visual cells.
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: NA
 ---
 # Retinal Pigment Epithelium
 

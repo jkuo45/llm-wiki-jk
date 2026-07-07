@@ -1,11 +1,14 @@
 ---
 type: entity
-category: chemical_class
-aliases: [F2-IsoPs, 8-iso-PGF2α, 15-F₂t-IsoP, Isoprostanes]
+title: F2-Isoprostanes
+description: '**F2-Isoprostanes (F2-IsoPs)** are prostaglandin-like compounds formed
+  non-enzymatically by free radical-mediated Lipid Peroxidation of Arachidonic acid,
+  widely considered the gold-standard biomark...'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Chemical Class
+aliases: [F2-IsoPs, 8-iso-PGF2α, 15-F₂t-IsoP, Isoprostanes]
 ---
-
 # F2-Isoprostanes
 
 **F2-Isoprostanes (F2-IsoPs)** are prostaglandin-like compounds formed non-enzymatically by free radical-mediated [[Lipid Peroxidation|peroxidation]] of [[Arachidonic acid]], widely considered the gold-standard biomarker for endogenous [[Oxidative Stress|oxidative stress]].
@@ -20,4 +23,4 @@ F2-IsoPs are measured by gas chromatography-mass spectrometry (GC-MS) or liquid 
 
 ## Clinical Relevance
 
-Elevated F2-IsoPs are found in virtually every disease involving oxidative stress, including [[notes/_link/Cardiovascular Disease|cardiovascular disease]] (plaque formation, reperfusion injury), [[Neurodegeneration|neurodegeneration]] ([[notes/_link/Alzheimer's Disease]], [[notes/_link/Parkinson's Disease]]), [[notes/_link/Diabetes Mellitus]], [[Chronic Obstructive Pulmonary Disease|COPD]], [[Rheumatoid Arthritis|rheumatoid arthritis]], and [[notes/_link/Aging]]. They also possess biological activity as weak vasoconstrictors and can modulate platelet activation through thromboxane receptor (TP) binding.
+Elevated F2-IsoPs are found in virtually every disease involving oxidative stress, including [[Cardiovascular Disease|cardiovascular disease]] (plaque formation, reperfusion injury), [[Neurodegeneration|neurodegeneration]] ([[Alzheimer's Disease]], [[Parkinson's Disease]]), [[Diabetes Mellitus]], [[Chronic Obstructive Pulmonary Disease|COPD]], [[Rheumatoid Arthritis|rheumatoid arthritis]], and [[Aging]]. They also possess biological activity as weak vasoconstrictors and can modulate platelet activation through thromboxane receptor (TP) binding.

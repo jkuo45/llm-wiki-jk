@@ -1,10 +1,13 @@
 ---
-aliases:
-- Zellweger spectrum disorder
-category: Medical Condition
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: Zellweger syndrome
+description: Zellweger syndrome is the most severe condition within the Zellweger
+  spectrum of autosomal recessive peroxisomal disorders. It is primarily caused by
+  mutations in various PEX Genes (such as PEX1 an...
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Medical Condition
+aliases: [Zellweger spectrum disorder]
 ---
 # Zellweger syndrome
 

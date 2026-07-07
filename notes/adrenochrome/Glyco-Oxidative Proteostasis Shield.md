@@ -1,19 +1,21 @@
 ---
 type: entity
-category: Scientific Concept
-aliases: []
+title: Glyco-Oxidative Proteostasis Shield
+description: The **Glyco-Oxidative Proteostasis Shield (GOPS)** is a therapeutic strategy
+  aimed at combating protein aggregation and the formation of Advanced Glycation End-products
+  (AGEs).
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Scientific Concept
 ---
-
 # Glyco-Oxidative Proteostasis Shield
 
 The **Glyco-Oxidative Proteostasis Shield (GOPS)** is a therapeutic strategy aimed at combating protein aggregation and the formation of Advanced Glycation End-products (AGEs).
 
 ## Strategy Components
 - **Hybrid Molecule:** [[Adrenochrome monoaminoguanidine]].
-- **Autophagy Inducer:** [[notes/_link/Spermidine|Spermidine]].
-- **Metal Chelator:** [[notes/_link/EDTA|EDTA]] or [[notes/_link/Carnosine|Carnosine]].
+- **Autophagy Inducer:** [[Spermidine|Spermidine]].
+- **Metal Chelator:** [[EDTA|EDTA]] or [[Carnosine|Carnosine]].
 
 ## Mechanism of Action (MOA)
 1. **Dual Inhibition:** The aminoguanidine moiety of the hybrid molecule directly inhibits the formation of [[Advanced Glycation End Products]] (AGEs) and DNA cross-links.
@@ -27,6 +29,6 @@ The **Glyco-Oxidative Proteostasis Shield (GOPS)** is a therapeutic strategy aim
 - Enhanced cognitive function via neuro-proteostasis.
 
 ### Linking Summary:
-- New links added: [[Adrenochrome monoaminoguanidine]], [[notes/_link/Spermidine]], [[notes/_link/EDTA]], [[notes/_link/Carnosine]], [[Advanced Glycation End Products]], [[Hormesis]], [[Autophagy]]
+- New links added: [[Adrenochrome monoaminoguanidine]], [[Spermidine]], [[EDTA]], [[Carnosine]], [[Advanced Glycation End Products]], [[Hormesis]], [[Autophagy]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Glyco-Oxidative Proteostasis Shield]] ↔ [[Proteostasis]]

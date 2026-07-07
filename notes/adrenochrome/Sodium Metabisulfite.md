@@ -1,19 +1,20 @@
 ---
 type: entity
-category: Chemical Compound
-aliases: []
+title: Sodium Metabisulfite
+description: '**Sodium Metabisulfite** is an inorganic compound used as a disinfectant,
+  antioxidant, and preservative agent.'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Chemical Compound
 ---
-
 # Sodium Metabisulfite
 
 **Sodium Metabisulfite** is an inorganic compound used as a disinfectant, antioxidant, and preservative agent.
 
 ## Role in Epinephrine Stability
-In pharmaceutical preparations of [[notes/_link/Epinephrine]] (such as Epi-pens), sodium metabisulfite is often added as a "sacrificial anode." It oxidizes more readily than epinephrine, thereby protecting the epinephrine from autoxidation into [[Adrenochrome]].
+In pharmaceutical preparations of [[Epinephrine]] (such as Epi-pens), sodium metabisulfite is often added as a "sacrificial anode." It oxidizes more readily than epinephrine, thereby protecting the epinephrine from autoxidation into [[Adrenochrome]].
 
 ## Connections
-- [[notes/_link/Epinephrine]]
+- [[Epinephrine]]
 - [[Adrenochrome]]
 - [[Oxidative Stress]]

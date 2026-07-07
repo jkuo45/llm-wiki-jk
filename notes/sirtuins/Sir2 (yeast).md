@@ -1,43 +1,22 @@
 ---
 type: entity
-category: chemical
+title: Sir2 (yeast)
+description: Sir2 (Silent Information Regulator 2) from _Saccharomyces cerevisiae_
+  is the founding member of the sirtuin family of proteins. Originally discovered
+  as MAR1 (mating-type regulator 1) and subsequen...
+created: 2026-07-02
+updated: 2026-07-02
+entity_type_1: Chemical Compound
 aliases:
   - SIR2
   - silent information regulator 2
   - yeast Sir2
   - ScSir2
   - MAR1
-database_ids:
-  uniprot: P06700
-relations:
-  - predicate: suppresses
-    target: "Ribosomal DNA Recombination"
-    sources:
-      - PMID:2647300
-  - predicate: extends
-    target: "Replicative Lifespan"
-    sources:
-      - PMID:10521401
-  - predicate: regulates
-    target: "Gene Silencing"
-    sources:
-      - PMID:3297920
-  - predicate: homologue_of
-    target: "SIRT1"
-    sources:
-      - PMID:10381378
-  - predicate: requires
-    target: "NAD+"
-    sources:
-      - PMID:10811920
-      - PMID:10693811
-  - predicate: mediates
-    target: "notes/_link/Caloric Restriction"
-    sources:
-      - PMID:15520384
-created: 2026-07-02
-updated: 2026-07-02
 ---
+
+
+
 
 # Sir2 (yeast)
 
@@ -90,13 +69,13 @@ Sir2 is the prototypical member of a large and ancient gene family now called **
 - [[SIRT1]] — closest mammalian homologue (Class Ia); conserved biological roles
 - [[NAD+]] — obligatory co-substrate for all Sir2 family deacetylase activity
 - [[OAADPr]] — unique metabolic by-product of Sir2-catalysed deacetylation
-- [[notes/_link/Caloric Restriction]] — Sir2 is required for CR-mediated lifespan extension in yeast and flies
+- [[Caloric Restriction]] — Sir2 is required for CR-mediated lifespan extension in yeast and flies
 - [[Extrachromosomal rDNA Circles (ERCs)]] — Sir2 suppresses ERC formation, preventing accelerated aging
 - [[Resveratrol]] — pharmacological activator of Sir2/SIRT1; extends lifespan in yeast and other organisms
 - [[DAF-16]] — required for _sir-2.1_-dependent lifespan extension in _C. elegans_
 
 ## Linking Summary
 
-- New links added: [[SIRT1]], [[NAD+]], [[OAADPr]], [[notes/_link/Caloric Restriction]], [[Resveratrol]], [[DAF-16]]
+- New links added: [[SIRT1]], [[NAD+]], [[OAADPr]], [[Caloric Restriction]], [[Resveratrol]], [[DAF-16]]
 - Suggested new entity notes to create: [[Extrachromosomal rDNA Circles (ERCs)]], [[DAF-16]], [[Replicative Lifespan (Yeast)]]
-- Strong connections to strengthen: [[Sir2 (yeast)]] ↔ [[SIRT1]], [[Sir2 (yeast)]] ↔ [[notes/_link/Caloric Restriction]]
+- Strong connections to strengthen: [[Sir2 (yeast)]] ↔ [[SIRT1]], [[Sir2 (yeast)]] ↔ [[Caloric Restriction]]

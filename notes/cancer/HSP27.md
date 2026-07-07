@@ -1,3 +1,12 @@
+---
+type: entity
+title: HSP27
+description: Heat shock protein 27 (HSP27) is a molecular chaperone protein that is
+  highly expressed in many cancers.
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Medical Condition
+---
 # HSP27
 
 Heat shock protein 27 (HSP27) is a molecular chaperone protein that is highly expressed in many cancers.

@@ -1,11 +1,13 @@
 ---
 type: entity
-category: chemical
-entity_type: "Chemical Compound"
+title: Decitabine
+description: '**Decitabine** (5-aza-2''-deoxycytidine; trade name Dacogen) is a deoxyribose
+  nucleoside analog that functions as a potent DNA Methylation inhibitor (DNMTi).
+  It is a cornerstone drug for Epigenetic ...'
 created: 2024-01-01
 updated: 2024-07-04
+entity_type_1: Chemical Compound
 ---
-
 # Decitabine
 
 **Decitabine** (5-aza-2'-deoxycytidine; trade name Dacogen) is a deoxyribose nucleoside analog that functions as a potent [[DNA Methylation|DNA methyltransferase]] inhibitor (DNMTi). It is a cornerstone drug for [[Epigenetic Modifiers|epigenetic therapy]] in [[Myelodysplastic Syndrome|myelodysplastic syndrome (MDS)]] and [[Acute Myeloid Leukemia|acute myeloid leukemia (AML)]]. At subcytotoxic concentrations, decitabine is also a potent inducer of [[Stress-Induced Premature Senescence|premature senescence]].
@@ -44,6 +46,6 @@ Resistance arises through:
 Decitabine is the standard compound for studying DNA methylation-dependent gene silencing in vitro. Typical protocol: 1 µM decitabine for 72 h, replacing every 24 h, followed by 72 h recovery. Genome-wide methylation is assessed by [[WGBS]] or [[RRBS]].
 
 ### Linking Summary:
-- New links added: [[DNMT1]], [[Epigenetic Modifiers]], [[DNA Methylation]], [[notes/_link/Senescence]], [[Stress-Induced Premature Senescence]]
+- New links added: [[DNMT1]], [[Epigenetic Modifiers]], [[DNA Methylation]], [[Senescence]], [[Stress-Induced Premature Senescence]]
 - Suggested new entity notes to create: [[Deoxycytidine kinase]], [[Cytidine deaminase]], [[Myelodysplastic Syndrome]], [[Acute Myeloid Leukemia]]
 - Strong connections to strengthen: [[Decitabine]] ↔ [[5-Azacytidine]], [[Decitabine]] ↔ [[DNA Methylation]]

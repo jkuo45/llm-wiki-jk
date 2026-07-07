@@ -1,6 +1,15 @@
+---
+type: entity
+title: Noxa
+description: '**Noxa** (Latin for ''damage'') is a pro-apoptotic BH3-only member of
+  the Bcl-2 family. It is a key mediator of Apoptosis in response to various stresses.'
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Enzyme
+---
 # Noxa
 
-**Noxa** (Latin for 'damage') is a pro-apoptotic BH3-only member of the [[Bcl-2 family]]. It is a key mediator of [[notes/_link/Apoptosis|apoptosis]] in response to various stresses.
+**Noxa** (Latin for 'damage') is a pro-apoptotic BH3-only member of the [[Bcl-2 family]]. It is a key mediator of [[Apoptosis|apoptosis]] in response to various stresses.
 
 ## Mechanism
 Noxa is a transcriptional target of [[p53]]. It functions by selectively binding to and neutralizing the anti-apoptotic protein [[Mcl-1]]. By promoting the degradation of Mcl-1, Noxa sensitizes cells to apoptotic stimuli and allows effectors like [[Bax]] and [[Bak]] to initiate the [[Intrinsic Pathway]].

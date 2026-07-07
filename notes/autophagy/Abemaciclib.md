@@ -1,14 +1,16 @@
 ---
-aliases:
-- LY2835219
-category: Chemical Compound
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: Abemaciclib
+description: Abemaciclib (LY2835219) is a CDK4/CDK6 inhibitor that promotes TFEB activity
+  by blocking its nuclear export, thereby enhancing lysosomal biogenesis.
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Chemical Compound
+aliases: [LY2835219]
 ---
 # Abemaciclib
 
-Abemaciclib (LY2835219) is a [[CDK4/6]] inhibitor that promotes [[TFEB]] activity by blocking its nuclear export, thereby enhancing lysosomal biogenesis.
+Abemaciclib (LY2835219) is a [[CDK4]]/[[CDK6]] inhibitor that promotes [[TFEB]] activity by blocking its nuclear export, thereby enhancing lysosomal biogenesis.
 
 ## Pharmacology
 
@@ -19,6 +21,6 @@ Abemaciclib induces [[Autophagy]] in cancer cells, and combining it with autopha
 
 ### Linking Summary
 
-- New links added: [[CDK4/6]], [[TFEB]]
+- New links added: [[CDK4]]/[[CDK6]], [[TFEB]]
 - Suggested new entity notes to create: [[Lysosomal Biogenesis]]
 - Strong connections to strengthen: [[Abemaciclib]] ↔ [[TFEB]]

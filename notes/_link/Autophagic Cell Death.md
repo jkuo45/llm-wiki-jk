@@ -1,11 +1,14 @@
 ---
 type: entity
-category: biological process
-aliases: ["Type II Programmed Cell Death"]
+title: Autophagic Cell Death
+description: '**Definition:** Autophagic Cell Death is a fundamental biological process
+  that maintains cellular and organismal homeostasis. It involves coordinated molecular
+  events regulated by signaling pathway...'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Biological Process
+aliases: [Type II Programmed Cell Death]
 ---
-
 # Autophagic Cell Death
 
 **Definition:** Autophagic Cell Death is a fundamental biological process that maintains cellular and organismal homeostasis. It involves coordinated molecular events regulated by signaling pathways and environmental cues.
@@ -15,3 +18,11 @@ updated: 2026-07-04
 **Physiological importance:** Autophagic Cell Death is essential for development, tissue maintenance, stress adaptation, and energy homeostasis. Dysregulation of this process contributes to aging and disease.
 
 **Regulation and dysregulation:** Autophagic Cell Death is controlled by nutrient sensors, stress pathways, and hormonal signals. Impairment of this process is linked to metabolic diseases, neurodegeneration, and cancer.
+
+### Connections
+- [[Autophagic Cell Death]] — related entity
+
+### Linking Summary
+- New links added: [[Autophagic Cell Death]]
+- Strong connections to strengthen: [[Autophagic Cell Death]] ↔ [[Autophagic Cell Death]]
+

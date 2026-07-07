@@ -1,8 +1,11 @@
 ---
-category: Scientific Concept
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: TFEB_disease_model
+description: '| Targeting regulatory mechanisms of TFEB    | Disease                            |
+  Characteristics of disease                                                                                       ...'
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Scientific Concept
 ---
 | Targeting regulatory mechanisms of TFEB    | Disease                            | Characteristics of disease                                                                                                           | The disease models                                                                            | Methods of targeting TFEB                                                                                       | The improved phenotype                                                                                     | References (PMID) |
 | ------------------------------------------ | ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ----------------- |

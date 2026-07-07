@@ -1,8 +1,12 @@
 ---
-category: Medical Condition
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: metabolic disorders
+description: Metabolic disorders are conditions that disrupt normal metabolism; many
+  of these, including steatosis and diabetic kidney disease, are associated with lysosomal
+  dysfunction and can be improved by t...
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Medical Condition
 ---
 # metabolic disorders
 
@@ -14,6 +18,6 @@ Metabolic disorders include [[Obesity]], [[Type 2 Diabetes Mellitus]], [[NAFLD]]
 
 ### Linking Summary
 
-- New links added: [[TFEB]], [[notes/_link/Lysosomal Storage Diseases]]
+- New links added: [[TFEB]], [[Lysosomal Storage Diseases]]
 - Suggested new entity notes to create: [[Diabetes Mellitus]]
 - Strong connections to strengthen: [[metabolic disorders]] ↔ [[TFEB]]

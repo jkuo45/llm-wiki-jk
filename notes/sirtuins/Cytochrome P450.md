@@ -1,17 +1,15 @@
 ---
 type: entity
-category: enzyme
-aliases:
-  - "CYP450"
-  - "CYP"
-tags:
-  - "sirtuins"
-  - "drug_metabolism"
-  - "resveratrol"
+title: Cytochrome P450
+description: '**Cytochrome P450** (CYP450) is a superfamily of heme-containing Enzyme
+  that catalyze the phase I metabolism of endogenous compounds (steroids, fatty acids,
+  vitamins) and xenobiotics (drugs, toxins...'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Enzyme
+aliases: [CYP450, CYP]
+tags: [sirtuins, drug_metabolism, resveratrol]
 ---
-
 # Cytochrome P450
 
 **Cytochrome P450** (CYP450) is a superfamily of heme-containing [[Enzyme|monooxygenase enzymes]] that catalyze the phase I metabolism of endogenous compounds (steroids, fatty acids, vitamins) and xenobiotics (drugs, toxins, environmental chemicals). They are primarily expressed in the liver but also found in the intestines, lungs, kidneys, and brain.

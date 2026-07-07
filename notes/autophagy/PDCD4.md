@@ -1,10 +1,12 @@
 ---
 type: entity
-category: Protein
-aliases:
-  - programmed cell death 4
+title: PDCD4
+description: Programmed cell death 4 (PDCD4) is a tumor suppressor and binding protein
+  of eIF4A that inhibits the translation of TFEB.
 created: 2026-07-04
-updated: '2026-07-04'
+updated: 2026-07-04
+entity_type_1: Protein
+aliases: [programmed cell death 4]
 ---
 # PDCD4
 
@@ -15,7 +17,7 @@ Programmed cell death 4 (PDCD4) is a tumor suppressor and binding protein of [[e
 PDCD4 inhibits translation by binding [[eIF4A]] and blocking its helicase activity and its incorporation into the eIF4F complex. This suppresses cap-dependent translation of pro-survival and pro-growth mRNAs.
 ## Autophagy Regulation
 
-PDCD4 represses [[TFEB]] translation, thereby reducing lysosomal biogenesis and [[Autophagic Flux]]. PDCD4 degradation via the [[Ubiquitin-proteasome system]] relieves this repression and enhances autophagy.
+PDCD4 represses [[TFEB]] translation, thereby reducing lysosomal biogenesis and [[Autophagic Flux]]. PDCD4 degradation via the [[Ubiquitin-Proteasome System]] relieves this repression and enhances autophagy.
 
 ### Linking Summary
 

@@ -1,11 +1,13 @@
 ---
 type: entity
-category: protein
-entity_type: "Protein"
+title: p16INK4A
+description: '**p16^INK4a^** (encoded by the CDKN2A locus) is a cyclin-dependent kinase
+  inhibitor that functions as a central tumor suppressor and the most widely used
+  biomarker of Cellular Senescence. Its expre...'
 created: 2024-01-01
 updated: 2024-07-04
+entity_type_1: Protein
 ---
-
 # p16INK4A
 
 **p16^INK4a^** (encoded by the [[CDKN2A]] locus) is a cyclin-dependent kinase inhibitor that functions as a central tumor suppressor and the most widely used biomarker of [[Cellular Senescence]]. Its expression is negligible in most young, healthy tissues but increases markedly with chronological age and in response to oncogenic stress, making it a linchpin of the aging-senescence interface.
@@ -38,6 +40,6 @@ p16^INK4a^ accumulation is a hallmark of tissue aging. In [[Hematopoietic Stem C
 - What upstream signals drive the progressive, non-stochastic accumulation of p16^INK4a^ in individual cells with age — is it primarily [[DNA Damage]], mitochondrial dysfunction, or [[SASP|SASP-mediated paracrine signaling]]?
 
 ### Linking Summary:
-- New links added: [[notes/_link/Senescence]], [[CDK Inhibitor]], [[SAHF]], [[Polycomb Group Proteins]], [[CDKN2A]], [[Senolytic Drugs]], [[notes/_link/p53]]
+- New links added: [[Senescence]], [[CDK Inhibitor]], [[SAHF]], [[Polycomb Group Proteins]], [[CDKN2A]], [[Senolytic Drugs]], [[p53]]
 - Suggested new entity notes to create: [[CDKN2A]], [[INK-ATTAC mouse]], [[HuR]]
-- Strong connections to strengthen: [[p16INK4A]] ↔ [[notes/_link/Senescence]], [[p16INK4A]] ↔ [[RB1]]
+- Strong connections to strengthen: [[p16INK4A]] ↔ [[Senescence]], [[p16INK4A]] ↔ [[RB1]]

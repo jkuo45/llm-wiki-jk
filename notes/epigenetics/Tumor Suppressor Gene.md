@@ -1,14 +1,16 @@
 ---
 type: entity
-category: gene
-entity_type: "Gene"
+title: Tumor Suppressor Gene
+description: A **Tumor Suppressor Gene** (TSG) encodes a protein that protects cells
+  from neoplastic transformation. Unlike Oncogene (which promote proliferation when
+  mutated or overexpressed), TSGs suppress tu...
 created: 2024-01-01
 updated: 2024-07-04
+entity_type_1: Gene
 ---
-
 # Tumor Suppressor Gene
 
-A **[[Tumor Suppressor Gene]]** (TSG) encodes a protein that protects cells from neoplastic transformation. Unlike [[Oncogene|oncogenes]] (which promote proliferation when mutated or overexpressed), TSGs suppress tumor formation by regulating cell cycle arrest, [[notes/_link/Apoptosis|apoptosis]], [[DNA Repair|DNA repair]], [[Senescence|senescence]], and contact inhibition. The [[Knudson Two-Hit Hypothesis|Knudson two-hit hypothesis]] — requiring both alleles to be inactivated — applies to classical TSGs like [[RB1]] and [[p53]].
+A **[[Tumor Suppressor Gene]]** (TSG) encodes a protein that protects cells from neoplastic transformation. Unlike [[Oncogene|oncogenes]] (which promote proliferation when mutated or overexpressed), TSGs suppress tumor formation by regulating cell cycle arrest, [[Apoptosis|apoptosis]], [[DNA Repair|DNA repair]], [[Senescence|senescence]], and contact inhibition. The [[Knudson Two-Hit Hypothesis|Knudson two-hit hypothesis]] — requiring both alleles to be inactivated — applies to classical TSGs like [[RB1]] and [[p53]].
 
 ## Epigenetic Inactivation of TSGs
 
@@ -42,6 +44,6 @@ TSG inactivation is a major route of escape from [[Cellular Senescence|senescenc
 4. **Transcriptional reactivation:** [[HDAC inhibitors]] (e.g., [[Panobinostat]]) to open silenced TSG chromatin.
 
 ### Linking Summary:
-- New links added: [[Cancer]], [[notes/_link/p53]], [[RB1]], [[notes/_link/DNA Repair]], [[notes/_link/Senescence]], [[Epigenetic Modifiers]], [[notes/_link/Apoptosis]]
+- New links added: [[Cancer]], [[p53]], [[RB1]], [[DNA Repair]], [[Senescence]], [[Epigenetic Modifiers]], [[Apoptosis]]
 - Suggested new entity notes to create: [[CDH1]], [[MLH1]], [[RASSF1A]], [[VHL]], [[BRCA1]], [[Knudson Two-Hit Hypothesis]]
-- Strong connections to strengthen: [[Tumor Suppressor Gene]] ↔ [[Cancer]], [[Tumor Suppressor Gene]] ↔ [[notes/_link/Senescence]]
+- Strong connections to strengthen: [[Tumor Suppressor Gene]] ↔ [[Cancer]], [[Tumor Suppressor Gene]] ↔ [[Senescence]]

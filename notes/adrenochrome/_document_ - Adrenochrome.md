@@ -1,12 +1,13 @@
 ---
 type: document
-title: "Adrenochrome"
-source: "https://pubchem.ncbi.nlm.nih.gov/compound/adrenochrome"
+title: Adrenochrome
+source: https://pubchem.ncbi.nlm.nih.gov/compound/adrenochrome
 author:
-  - "PubChem"
-published:
+- PubChem
 created: 2026-05-25
-description: "Adrenochrome | C9H9NO3 | CID 5898 - structure, chemical names, physical and chemical properties, classification, patents, literature, biological activities, safety/hazards/toxicity information, supplier lists, and more."
+description: Adrenochrome | C9H9NO3 | CID 5898 - structure, chemical names, physical
+  and chemical properties, classification, patents, literature, biological activities,
+  safety/hazards/toxicity information, supplier lists, and more.
 tags:
   - "clippings"
 ---

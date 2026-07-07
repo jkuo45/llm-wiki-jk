@@ -1,11 +1,14 @@
 ---
 type: entity
-category: protein
-aliases: ["Nuclear Respiratory Factor 1"]
+title: NRF1
+description: '**Overview:** NRF1 is a cellular protein with structural, signaling,
+  or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
+  and signaling networks that govern cell...'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Protein
+aliases: [Nuclear Respiratory Factor 1]
 ---
-
 # NRF1
 
 **Overview:** NRF1 is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern cell behavior.
@@ -15,3 +18,11 @@ updated: 2026-07-04
 **Cellular function:** NRF1 plays a role in signal transduction, gene expression regulation, cytoskeletal organization, or metabolic control. Its localization and activity are dynamically regulated in response to cellular cues.
 
 **Pathological significance:** Altered expression or mutation of NRF1 is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
+
+### Connections
+- [[NRF1]] — related entity
+
+### Linking Summary
+- New links added: [[NRF1]]
+- Strong connections to strengthen: [[NRF1]] ↔ [[NRF1]]
+

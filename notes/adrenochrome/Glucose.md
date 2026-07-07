@@ -1,11 +1,13 @@
 ---
 type: entity
-category: Chemical Compound
-aliases: []
+title: Glucose
+description: Glucose is a simple sugar with the molecular formula C6H12O6. It is a
+  primary source of energy for cells and a key reactant in the Maillard Reaction leading
+  to the formation of Advanced Glycation E...
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Chemical Compound
 ---
-
 # Glucose
 
 Glucose is a simple sugar with the molecular formula C6H12O6. It is a primary source of energy for cells and a key reactant in the [[Maillard Reaction]] leading to the formation of [[Advanced Glycation End Products|AGEs]].

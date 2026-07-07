@@ -1,11 +1,13 @@
 ---
 type: entity
-category: Biological Process
-aliases: []
+title: Intestinal Absorption
+description: Intestinal absorption is the process by which the products of digestion
+  are taken up from the intestinal lumen into the blood or lymph. Certain Advanced
+  Glycation End Products, like Pyrraline, are ...
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Biological Process
 ---
-
 # Intestinal Absorption
 
 Intestinal absorption is the process by which the products of digestion are taken up from the intestinal lumen into the blood or lymph. Certain [[Advanced Glycation End Products|AGEs]], like [[Pyrraline]], are absorbed in the intestine via specific transporters such as [[hPEPT1]].

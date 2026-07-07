@@ -1,9 +1,11 @@
 ---
 type: entity
-category: other
-entity_type: "NA"
+title: BMP Signaling Pathway
+description: A group of signaling molecules that play critical roles in heart, CNS,
+  and cartilage development and postnatal bone formation.
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: NA
 ---
 # BMP Signaling Pathway
 

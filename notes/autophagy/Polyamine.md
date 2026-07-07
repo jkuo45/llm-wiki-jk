@@ -1,15 +1,18 @@
 ---
-category: Chemical Class
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: Polyamine
+description: '**Polyamines** are organic compounds that play essential roles in cell
+  growth, survival, and stress adaptation.'
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Chemical Class
 ---
 # Polyamine
 
 **Polyamines** are organic compounds that play essential roles in cell growth, survival, and stress adaptation.
 
 ## Spermidine
-- [[notes/_link/Spermidine]] is a natural polyamine metabolic product of arginine metabolism.
+- [[Spermidine]] is a natural polyamine metabolic product of arginine metabolism.
 - Found in high quantities in aged cheese, fermented soy, wheat germs, nuts, peas, and mushrooms.
 
 ## Effects on Aging and Immunity
@@ -22,6 +25,6 @@ updated: '2026-07-04'
 Polyamines ([[Spermidine]], [[Spermine]], [[Putrescine]]) are autophagy inducers. [[Spermidine]] extends lifespan via [[Autophagy]] and [[Hypusination]] of [[eIF5A]].
 
 ### Linking Summary:
-- New links added: [[notes/_link/Spermidine]], [[B Cell]], [[Autophagy]]
+- New links added: [[Spermidine]], [[B Cell]], [[Autophagy]]
 - Suggested new entity notes to create:
-- Strong connections to strengthen: [[Polyamine]] ↔ [[notes/_link/Spermidine]]
+- Strong connections to strengthen: [[Polyamine]] ↔ [[Spermidine]]

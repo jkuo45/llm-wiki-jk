@@ -1,15 +1,19 @@
 ---
-title: "Epigenetic changes during aging and their reprogramming potential"
-source: "https://pmc.ncbi.nlm.nih.gov/articles/PMC6424622/"
+type: document
+title: Epigenetic changes during aging and their reprogramming potential
+source: https://pmc.ncbi.nlm.nih.gov/articles/PMC6424622/
 author:
-  - "Alice E Kane"
-  - "David A Sinclair"
-published:
+- Alice E Kane
+- David A Sinclair
 created: 2026-06-30
-description: "The aging process results in significant epigenetic changes at all levels of chromatin and DNA organization. These include reduced global heterochromatin, nucleosome remodeling and loss, changes in histone marks, global DNA hypomethylation with CpG ..."
+description: The aging process results in significant epigenetic changes at all levels
+  of chromatin and DNA organization. These include reduced global heterochromatin,
+  nucleosome remodeling and loss, changes in histone marks, global DNA hypomethylation
+  with CpG ...
 tags:
   - "clippings"
 ---
+
 . Author manuscript; available in PMC: 2020 Mar 1.
 
 *Published in final edited form as:* Crit Rev Biochem Mol Biol. 2019 Mar 1;54(1):61–83. doi: [10.1080/10409238.2019.1570075](https://doi.org/10.1080/10409238.2019.1570075)

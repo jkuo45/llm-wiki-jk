@@ -1,9 +1,11 @@
 ---
 type: entity
-category: biological_process
-entity_type: "Biological Process"
+title: Epigenetic Inheritance
+description: '**Epigenetic inheritance** refers to the transmission of epigenetic
+  information from one generation to the next without altering the DNA sequence.'
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: Biological Process
 ---
 # Epigenetic Inheritance
 
@@ -16,5 +18,5 @@ updated: 2024-01-01
 
 ## Related
 - [[Epigenetics]]
-- [[notes/_link/Aging]]
+- [[Aging]]
 - [[Transgenerational Epigenetic Inheritance]]

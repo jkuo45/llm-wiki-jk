@@ -1,11 +1,12 @@
 ---
 type: entity
-category: Protein
-aliases: []
+title: UBL-5
+description: UBL-5 is a ubiquitin-like protein involved in orchestrating the Mitochondrial
+  Unfolded Protein Response in *C. elegans*.
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Protein
 ---
-
 # UBL-5
 
 UBL-5 is a ubiquitin-like protein involved in orchestrating the [[Mitochondrial Unfolded Protein Response]] in *C. elegans*.

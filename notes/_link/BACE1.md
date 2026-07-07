@@ -1,11 +1,13 @@
 ---
 type: entity
-category: enzyme
-aliases: ["Beta-Secretase 1"]
+title: BACE1
+description: '**Catalytic function:** BACE1 is an enzyme that catalyzes biochemical
+  reactions essential for cellular metabolism and homeostasis.'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Enzyme
+aliases: [Beta-Secretase 1]
 ---
-
 # BACE1
 
 **Catalytic function:** BACE1 is an enzyme that catalyzes biochemical reactions essential for cellular metabolism and homeostasis.
@@ -15,3 +17,11 @@ updated: 2026-07-04
 **Physiological role:** BACE1 participates in metabolic pathways that maintain cellular redox balance, energy production, and biosynthetic processes. Its expression and activity are tightly regulated across different tissues.
 
 **Clinical relevance:** Dysregulation of BACE1 activity is implicated in metabolic disorders, oxidative stress-related pathologies, and cancer. Pharmacological modulation of this enzyme represents a therapeutic strategy for diseases involving its pathway.
+
+### Connections
+- [[BACE1]] — related entity
+
+### Linking Summary
+- New links added: [[BACE1]]
+- Strong connections to strengthen: [[BACE1]] ↔ [[BACE1]]
+

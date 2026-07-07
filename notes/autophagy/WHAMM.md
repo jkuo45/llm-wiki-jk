@@ -1,10 +1,13 @@
 ---
-aliases:
-- WASP homolog-associated protein
-category: Protein
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: WHAMM
+description: '**WHAMM** (WASP Homolog Associated with Actin, Membranes, and Microtubules)
+  is an actin-nucleation promoting factor that facilitates branched actin network
+  formation on autolysosomes to promote Aut...'
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Protein
+aliases: [WASP homolog-associated protein]
 ---
 # WHAMM
 

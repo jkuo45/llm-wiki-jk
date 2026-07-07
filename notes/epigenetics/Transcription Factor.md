@@ -1,11 +1,13 @@
 ---
 type: entity
-category: protein
-entity_type: "Protein"
+title: Transcription Factor
+description: A **Transcription Factor** (TF) is a protein that binds specific DNA
+  sequences — typically in promoter or enhancer regions — to regulate Gene Expression.
+  TFs are the terminal effectors of signaling...
 created: 2024-01-01
 updated: 2024-07-04
+entity_type_1: Protein
 ---
-
 # Transcription Factor
 
 A **[[Transcription Factor]]** (TF) is a protein that binds specific [[DNA]] sequences — typically in promoter or enhancer regions — to regulate [[Gene Expression|gene transcription]]. TFs are the terminal effectors of signaling pathways and are intimately linked to [[Epigenetics]], as they recruit the [[Chromatin Remodeling|chromatin remodelers]] and [[Histone Modifying Enzymes|histone modifiers]] that establish local epigenetic states.
@@ -36,7 +38,7 @@ TFs and the [[Epigenome]] engage in bidirectional regulation:
 
 - **[[p53]]:** Master senescence inducer; activates [[p21|CDKN1A/p21]] and [[Bax]]; acetylation by [[P300]] at K120/K164 enhances pro-senescence activity.
 - **[[E2F]]:** Proliferation-driving TFs that are silenced in senescence by RB1-mediated chromatin compaction.
-- **[[NF-κB]]:** Master regulator of the [[SASP]]; its activity increases with age, driving [[Inflammaging|inflammaging]].
+- **[[NFκB]]:** Master regulator of the [[SASP]]; its activity increases with age, driving [[Inflammaging|inflammaging]].
 - **[[FOXO3]]:** Longevity-associated TF; acetylated by [[CBP]] and deacetylated by [[SIRT1]] to control stress resistance.
 - **[[NRF2]]:** Antioxidant master regulator; declines with age, exacerbating [[Oxidative Stress|oxidative stress]].
 
@@ -47,6 +49,6 @@ TFs and the [[Epigenome]] engage in bidirectional regulation:
 - **dCas9-based TFs:** [[CRISPRa]] and [[CRISPRi]] to modulate endogenous gene expression without altering the genome.
 
 ### Linking Summary:
-- New links added: [[Gene Expression]], [[Promoter]], [[Enhancer]], [[DNA Methylation]], [[Histone Modification]], [[notes/_link/Senescence]], [[notes/_link/p53]], [[NF-κB]], [[FOXO3]]
+- New links added: [[Gene Expression]], [[Promoter]], [[Enhancer]], [[DNA Methylation]], [[Histone Modification]], [[Senescence]], [[p53]], [[NFκB]], [[FOXO3]]
 - Suggested new entity notes to create: [[DNA-binding domain]], [[Transactivation domain]], [[Super-enhancers]]
 - Strong connections to strengthen: [[Transcription Factor]] ↔ [[Gene Expression]], [[Transcription Factor]] ↔ [[Epigenetics]]

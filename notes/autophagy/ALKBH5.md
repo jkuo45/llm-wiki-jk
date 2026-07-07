@@ -1,11 +1,13 @@
 ---
-aliases:
-- AlkB homolog 5
-- RNA demethylase
-category: Enzyme
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: ALKBH5
+description: AlkB family protein 5 (ALKBH5) is an RNA demethylase that promotes TFEB
+  expression by demethylating its mRNA, thereby establishing a positive feedback axis
+  with TFEB.
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Enzyme
+aliases: [AlkB homolog 5, RNA demethylase]
 ---
 # ALKBH5
 

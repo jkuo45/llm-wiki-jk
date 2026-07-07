@@ -1,11 +1,12 @@
 ---
 type: entity
-category: Chemical Process
-aliases: []
+title: Maillard Reaction
+description: The Maillard Reaction is a non-enzymatic chemical reaction between amino
+  acids and reducing sugars that gives browned food its distinctive flavor.
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Chemical Process
 ---
-
 # Maillard Reaction
 
 The Maillard Reaction is a non-enzymatic chemical reaction between amino acids and reducing sugars that gives browned food its distinctive flavor.
@@ -28,7 +29,7 @@ In culinary contexts, the Maillard reaction generates hundreds of volatile flavo
 
 ## Relevance to Biological Aging
 
-Under physiological conditions (37°C, neutral pH), the Maillard reaction proceeds slowly but progressively over the human lifespan. Long-lived structural proteins — [[Collagen]], [[Elastin]], and [[Lens crystallins]] — accumulate Maillard-derived crosslinks, contributing to arterial stiffness, loss of skin compliance, and [[Cataract]] formation. The dicarbonyl intermediates are particularly damaging, as they propagate crosslinking more efficiently than parent sugars. The receptor [[RAGE]] mediates the pathological cellular response to Maillard products, activating [[NF-κB]] and promoting [[Vascular inflammation]].
+Under physiological conditions (37°C, neutral pH), the Maillard reaction proceeds slowly but progressively over the human lifespan. Long-lived structural proteins — [[Collagen]], [[Elastin]], and [[Lens crystallins]] — accumulate Maillard-derived crosslinks, contributing to arterial stiffness, loss of skin compliance, and [[Cataract]] formation. The dicarbonyl intermediates are particularly damaging, as they propagate crosslinking more efficiently than parent sugars. The receptor [[RAGE]] mediates the pathological cellular response to Maillard products, activating [[NFκB]] and promoting [[Vascular inflammation]].
 
 ## Nutritional Implications of Dietary AGEs
 
@@ -42,4 +43,4 @@ Dietary AGEs (dAGEs), pre-formed during high-temperature cooking (grilling, roas
 
 ## Updated Links
 
-- Additional new links: [[Furfurals]], [[Reductones]], [[3-deoxyglucosone]], [[Glyoxal]], [[Methylglyoxal]], [[2-Acetyl-1-pyrroline]], [[Furaneol]], [[Pyrazines]], [[Cysteine]], [[Thiols]], [[Thiophenes]], [[Proline]], [[Methionine]], Steak, Bread, Coffee, Beer, French fries, [[Collagen]], [[Elastin]], [[Lens crystallins]], [[Cataract]], [[RAGE]], [[NF-κB]], [[Vascular inflammation]], [[Gastrointestinal Tract]], [[Oxidative Stress]]
+- Additional new links: [[Furfurals]], [[Reductones]], [[3-deoxyglucosone]], [[Glyoxal]], [[Methylglyoxal]], [[2-Acetyl-1-pyrroline]], [[Furaneol]], [[Pyrazines]], [[Cysteine]], [[Thiols]], [[Thiophenes]], [[Proline]], [[Methionine]], Steak, Bread, Coffee, Beer, French fries, [[Collagen]], [[Elastin]], [[Lens crystallins]], [[Cataract]], [[RAGE]], [[NFκB]], [[Vascular inflammation]], [[Gastrointestinal Tract]], [[Oxidative Stress]]

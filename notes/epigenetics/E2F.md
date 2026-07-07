@@ -1,9 +1,10 @@
 ---
 type: entity
-category: protein
-entity_type: "Protein"
+title: E2F
+description: '- New links added: Cell Cycle, Retinoblastoma Protein, Rb, Quiescence'
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: Protein
 ---
 # E2F
 
@@ -13,4 +14,4 @@ updated: 2024-01-01
 
 - New links added: [[Cell Cycle]], [[Retinoblastoma Protein]], [[Rb]], [[Quiescence]]
 - Suggested new entity notes to create: [[E2F1]]
-- Strong connections to strengthen: [[E2F]] ↔ [[notes/_link/Transcription]]
+- Strong connections to strengthen: [[E2F]] ↔ [[Transcription]]

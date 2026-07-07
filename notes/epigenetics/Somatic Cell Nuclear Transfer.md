@@ -1,9 +1,12 @@
 ---
 type: entity
-category: other
-entity_type: "NA"
+title: Somatic Cell Nuclear Transfer
+description: Somatic Cell Nuclear Transfer (SCNT) is a laboratory strategy for creating
+  a viable embryo from a body cell and an egg cell. The technique consists of taking
+  an enucleated oocyte (egg cell) and imp...
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: NA
 ---
 # Somatic Cell Nuclear Transfer
 

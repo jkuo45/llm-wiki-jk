@@ -1,28 +1,25 @@
 ---
 type: concept
-category: chemical
+title: Sirtuin Activating Compounds (STACs)
+description: Sirtuin Activating Compounds (STACs) are a structurally diverse class
+  of small molecules that directly or indirectly enhance the enzymatic activity of
+  sirtuins, primarily SIRT1. First identified in...
+created: 2026-07-03
+updated: 2026-07-03
+entity_type_1: Chemical Compound
 aliases:
   - Sirtuin Activating Compounds
   - Sirtuin Activators
   - SIRT1 Activators
-relations:
-  - predicate: activates
-    target: "SIRT1"
-    sources:
-      - "PMID:12939617"
-      - "PMID:17112576"
-  - predicate: mimics
-    target: "notes/_link/Caloric Restriction"
-    sources:
-      - "PMID:15254550"
-created: 2026-07-03
-updated: 2026-07-03
 ---
+
+
+
 
 # Sirtuin Activating Compounds (STACs)
 
 ## Overview
-**Sirtuin Activating Compounds (STACs)** are a structurally diverse class of small molecules that directly or indirectly enhance the enzymatic activity of sirtuins, primarily [[SIRT1]]. First identified in 2003 through high-throughput screening, STACs have emerged as powerful tools in geroscience and metabolic medicine. By chemically mimicking the biological signaling of [[notes/_link/Caloric Restriction|Caloric Restriction]], STACs delay age-related deterioration, improve mitochondrial function, enhance insulin sensitivity, protect against neurodegeneration, and extend healthy lifespan in multiple model organisms.
+**Sirtuin Activating Compounds (STACs)** are a structurally diverse class of small molecules that directly or indirectly enhance the enzymatic activity of sirtuins, primarily [[SIRT1]]. First identified in 2003 through high-throughput screening, STACs have emerged as powerful tools in geroscience and metabolic medicine. By chemically mimicking the biological signaling of [[Caloric Restriction|Caloric Restriction]], STACs delay age-related deterioration, improve mitochondrial function, enhance insulin sensitivity, protect against neurodegeneration, and extend healthy lifespan in multiple model organisms.
 
 ---
 
@@ -45,7 +42,7 @@ To overcome the pharmacokinetic limitations of natural polyphenols, potent synth
 The precise biochemical mechanism of sirtuin activation by STACs has been a subject of intensive study and historical controversy:
 - **Allosteric Activation**: SIRT1 contains a unique 220-amino-acid N-terminal domain containing a conserved three-helix bundle that acts as an activation pocket.
 - **Binding & Conformational Change**: STACs bind specifically within this N-terminal activation domain (specifically interacting with residues such as Glu230 and Asp292). This binding stabilizes a conformation of SIRT1 that lowers the Michaelis constant ($K_m$) for both NAD⁺ and the acetylated substrate peptide.
-- **Fluorophore Dependency Controversy**: Early critiques suggested that STAC activation was an artifact of the fluorophore-tagged peptides used in assays. However, subsequent structural biology and biophysical studies confirmed that STACs allosterically activate SIRT1 toward natural, hydrophobic-residue-containing substrates (such as [[PGC-1α|PGC-1α]] and [[notes/_link/p53|p53]]) in a fluorophore-independent manner.
+- **Fluorophore Dependency Controversy**: Early critiques suggested that STAC activation was an artifact of the fluorophore-tagged peptides used in assays. However, subsequent structural biology and biophysical studies confirmed that STACs allosterically activate SIRT1 toward natural, hydrophobic-residue-containing substrates (such as [[PGC-1α|PGC-1α]] and [[p53|p53]]) in a fluorophore-independent manner.
 
 ---
 
@@ -61,7 +58,7 @@ By activating SIRT1, STACs promote the deacetylation and activation of **[[PGC-1
 Rodent studies demonstrate that treatment with STACs (both resveratrol and synthetic activators) protects against diet-induced obesity, reverses insulin resistance, lowers fasting blood glucose, and mimics the transcriptional profile of lean mice.
 
 ### Neuroprotection
-STACs protect against axonal degeneration (Wallerian degeneration) and clear pathogenic protein aggregates (such as [[notes/_link/Beta-amyloid|β-amyloid]] and hyperphosphorylated Tau) by activating SIRT1-mediated neuroprotective pathways and enhancing lysosomal clearance.
+STACs protect against axonal degeneration (Wallerian degeneration) and clear pathogenic protein aggregates (such as [[Beta-amyloid|β-amyloid]] and hyperphosphorylated Tau) by activating SIRT1-mediated neuroprotective pathways and enhancing lysosomal clearance.
 
 ---
 
@@ -69,4 +66,4 @@ STACs protect against axonal degeneration (Wallerian degeneration) and clear pat
 - **[[SIRT1]]**: The primary molecular target of allosteric STACs.
 - **[[Resveratrol|Resveratrol 1]]**: The classic natural STAC that initiated sirtuin-based drug discovery.
 - **[[PGC-1α|PGC-1α]]**: Deacetylated and activated downstream of STAC-stimulated SIRT1, driving mitochondrial biogenesis.
-- **[[notes/_link/Caloric Restriction|Caloric Restriction]]**: STACs act as chemical mimetics of this lifespan-extending dietary intervention.
+- **[[Caloric Restriction|Caloric Restriction]]**: STACs act as chemical mimetics of this lifespan-extending dietary intervention.

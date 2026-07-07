@@ -1,11 +1,13 @@
 ---
 type: entity
-category: Protein
-aliases: []
+title: HAF-1
+description: HAF-1 is an inner mitochondrial membrane ABC transporter in *C. elegans*
+  that mediates the export of peptides to signal the Mitochondrial Unfolded Protein
+  Response.
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Protein
 ---
-
 # HAF-1
 
 HAF-1 is an inner mitochondrial membrane ABC transporter in *C. elegans* that mediates the export of peptides to signal the [[Mitochondrial Unfolded Protein Response]].

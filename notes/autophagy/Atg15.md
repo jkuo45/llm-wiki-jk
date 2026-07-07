@@ -1,10 +1,12 @@
 ---
-aliases:
-- predicted triglyceride lipase
-category: Enzyme
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: Atg15
+description: '**Atg15** is an Autophagy protein in yeast (*Saccharomyces cerevisiae*)
+  with predicted triglyceride-lipase activity.'
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Enzyme
+aliases: [predicted triglyceride lipase]
 ---
 # Atg15
 

@@ -1,11 +1,9 @@
 ---
 type: document
-title: "Google AI Studio"
-source: "https://aistudio.google.com/u/0/prompts/1MyzjFK-JfaKQO3zMMs8vsHWtSkuDav5N"
-author:
-published:
+title: Google AI Studio
+source: https://aistudio.google.com/u/0/prompts/1MyzjFK-JfaKQO3zMMs8vsHWtSkuDav5N
 created: 2026-06-12
-description: "The fastest path from prompt to production with Gemini"
+description: The fastest path from prompt to production with Gemini
 tags:
   - "clippings"
 ---

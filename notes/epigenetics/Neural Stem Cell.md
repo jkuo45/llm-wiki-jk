@@ -1,9 +1,10 @@
 ---
 type: entity
-category: cell_type
-entity_type: "Cell Type"
+title: Neural Stem Cell
+description: '- New links added: Quiescence, Aging, Cognition'
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: Cell Type
 ---
 # Neural Stem Cell
 
@@ -11,6 +12,6 @@ updated: 2024-01-01
 
 ### Linking Summary:
 
-- New links added: [[Quiescence]], [[notes/_link/Aging]], [[notes/_link/Cognition]]
+- New links added: [[Quiescence]], [[Aging]], [[Cognition]]
 - Suggested new entity notes to create: [[Neurogenesis]]
-- Strong connections to strengthen: [[Neural Stem Cell]] ↔ [[notes/_link/Neurodegenerative Diseases]]
+- Strong connections to strengthen: [[Neural Stem Cell]] ↔ [[Neurodegenerative Diseases]]

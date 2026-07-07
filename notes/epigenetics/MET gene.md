@@ -1,9 +1,11 @@
 ---
 type: entity
-category: gene
-entity_type: "Gene"
+title: MET gene
+description: The MET gene provides instructions for making a protein called c-Met
+  (c-Met).
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: Gene
 ---
 # MET gene
 

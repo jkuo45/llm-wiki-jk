@@ -1,11 +1,13 @@
 ---
 type: entity
-category: metabolite
-aliases: []
+title: Histamine
+description: '**Biochemical properties:** Histamine is an endogenous metabolite involved
+  in cellular energy metabolism, redox reactions, or biosynthetic pathways. Its cellular
+  concentration reflects metabolic fl...'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Metabolite
 ---
-
 # Histamine
 
 **Biochemical properties:** Histamine is an endogenous metabolite involved in cellular energy metabolism, redox reactions, or biosynthetic pathways. Its cellular concentration reflects metabolic flux and energy status.
@@ -15,3 +17,11 @@ updated: 2026-07-04
 **Regulation:** Intracellular levels of Histamine are maintained through biosynthesis, catabolism, and transport mechanisms. Its concentration serves as a metabolic signal that regulates enzyme activity and gene expression.
 
 **Clinical significance:** Altered levels of Histamine are observed in metabolic disorders, mitochondrial diseases, and nutritional deficiencies. Supplementation or pharmacological modulation of this metabolite has therapeutic potential.
+
+### Connections
+- [[Histamine]] — related entity
+
+### Linking Summary
+- New links added: [[Histamine]]
+- Strong connections to strengthen: [[Histamine]] ↔ [[Histamine]]
+

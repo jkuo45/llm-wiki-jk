@@ -1,25 +1,20 @@
 ---
 type: entity
-category: protein
+title: BCA3 (AKIP1)
+description: BCA3 (Breast Cancer Associated Protein 3, also commonly referred to as
+  AKIP1 or A-kinase interacting protein 1) is a small, highly conserved cellular protein
+  that plays a key role in intracellular ...
+created: 2026-07-03
+updated: 2026-07-03
+entity_type_1: Protein
 aliases:
   - AKIP1
   - Breast cancer-associated protein 3
   - A-kinase-interacting protein 1
-database_ids:
-  uniprot: Q9MZ29
-  hgnc: HGNC:17183
-relations:
-  - predicate: regulates
-    target: "SIRT1"
-    sources:
-      - "PMID:16998474"
-  - predicate: regulates
-    target: "NF-κB"
-    sources:
-      - "PMID:16998474"
-created: 2026-07-03
-updated: 2026-07-03
 ---
+
+
+
 
 # BCA3 (AKIP1)
 
@@ -31,7 +26,7 @@ updated: 2026-07-03
 ## Structure & Interactions
 BCA3/AKIP1 is an approximately 23 kDa protein lacking distinct structural domains but containing several motif interfaces that facilitate protein-protein interactions:
 1. **PKA Binding Interface**: Interacts with the catalytic subunit of PKA, facilitating its nuclear translocation and activity toward substrates like CREB.
-2. **NF-κB Interaction Motif**: Directly associates with the RelA/p65 subunit of the [[notes/_link/NFKB|NF-κB]] complex.
+2. **NF-κB Interaction Motif**: Directly associates with the RelA/p65 subunit of the [[NFKB|NF-κB]] complex.
 3. **Neddylation Site**: BCA3 undergoes post-translational modification by the ubiquitin-like molecule **NEDD8** (neddylation). Neddylated BCA3 acts as a high-affinity molecular bridge that recruits epigenetic remodelers to transcriptional sites.
 
 ---
@@ -53,5 +48,5 @@ BCA3 expression is frequently altered in various human cancers:
 
 ## Connections & Related Concepts
 - **[[SIRT1]]**: Directly recruited by neddylated BCA3 to deacetylate and repress NF-κB.
-- **[[notes/_link/NFKB|NF-κB (RelA/p65)]]**: Suppressed downstream of the neddylated BCA3-SIRT1 complex.
+- **[[NFKB|NF-κB (RelA/p65)]]**: Suppressed downstream of the neddylated BCA3-SIRT1 complex.
 - **Neddylation (NEDD8)**: The essential post-translational modification that licenses BCA3 to engage with SIRT1 and repress transcription.

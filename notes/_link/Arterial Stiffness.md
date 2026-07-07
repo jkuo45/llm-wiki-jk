@@ -1,6 +1,12 @@
 ---
 type: entity
-category: medical_condition
+title: Arterial Stiffness
+description: Arterial stiffness refers to the loss of elastic compliance in the large
+  conduit arteries (primarily the aorta and carotid arteries), resulting in reduced
+  ability to buffer the pulsatile output fro...
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Medical Condition
 aliases:
   - Arterial stiffening
   - Vascular stiffness
@@ -22,13 +28,14 @@ relations:
   - predicate: caused_by
     target: "notes/_link/Aging"
     sources: []
-created: 2026-07-04
-updated: 2026-07-04
 ---
+
+
+
 
 # Arterial Stiffness
 
-**Arterial stiffness** refers to the loss of elastic compliance in the large conduit arteries (primarily the aorta and carotid arteries), resulting in reduced ability to buffer the pulsatile output from the heart. It is a hallmark of [[notes/_link/Aging|vascular aging]] and a strong independent predictor of [[notes/_link/Cardiovascular Disease|cardiovascular morbidity and mortality]].
+**Arterial stiffness** refers to the loss of elastic compliance in the large conduit arteries (primarily the aorta and carotid arteries), resulting in reduced ability to buffer the pulsatile output from the heart. It is a hallmark of [[Aging|vascular aging]] and a strong independent predictor of [[Cardiovascular Disease|cardiovascular morbidity and mortality]].
 
 ## Pathophysiology
 
@@ -41,8 +48,8 @@ Arterial stiffness arises from structural and functional changes in the arterial
 - **Calcification**: Deposition of calcium phosphate crystals in the medial layer, further increasing wall rigidity
 
 ### Functional Changes
-- **Endothelial dysfunction**: Reduced [[notes/_link/Nitric Oxide|NO]] bioavailability impairs flow-mediated vasodilation, contributing to increased afterload
-- **Smooth muscle cell stiffening**: Age-related increase in vascular smooth muscle cell intrinsic stiffness, driven by cytoskeletal remodeling and [[notes/_link/SASP|senescence]]-associated secretory phenotype factors
+- **Endothelial dysfunction**: Reduced [[Nitric Oxide|NO]] bioavailability impairs flow-mediated vasodilation, contributing to increased afterload
+- **Smooth muscle cell stiffening**: Age-related increase in vascular smooth muscle cell intrinsic stiffness, driven by cytoskeletal remodeling and [[SASP|senescence]]-associated secretory phenotype factors
 
 ## Measurement
 
@@ -58,7 +65,7 @@ Other methods include:
 Arterial stiffness increases progressively with age, even in healthy individuals:
 - Aortic PWV approximately doubles between ages 20 and 70
 - The rate of increase accelerates after age 50–60
-- Age-related stiffening is more pronounced in men than premenopausal women (estrogen exerts protective effects on [[notes/_link/Nitric Oxide|NO]] bioavailability and [[Elastic Fiber|elastic fiber]] integrity)
+- Age-related stiffening is more pronounced in men than premenopausal women (estrogen exerts protective effects on [[Nitric Oxide|NO]] bioavailability and [[Elastic Fiber|elastic fiber]] integrity)
 
 ## Clinical Significance
 
@@ -66,35 +73,35 @@ Elevated arterial stiffness has major hemodynamic consequences:
 - **Increased pulse pressure**: Widened pulse pressure (systolic minus diastolic) is a clinical correlate of large artery stiffness
 - **Left ventricular hypertrophy**: Increased afterload forces the heart to work harder, leading to concentric hypertrophy and diastolic dysfunction
 - **Reduced coronary perfusion pressure**: Diastolic pressure decline impairs coronary blood flow
-- **Increased pulsatile stress on microvessels**: Damages the brain, kidneys, and retina, contributing to [[notes/_link/Cognitive Decline|cognitive decline]], [[kidney disease]], and [[notes/_link/Hypertension|hypertension]]
+- **Increased pulsatile stress on microvessels**: Damages the brain, kidneys, and retina, contributing to [[Cognitive Decline|cognitive decline]], [[kidney disease]], and [[Hypertension|hypertension]]
 
 Arterial stiffness is an independent predictor of:
-- [[notes/_link/Cardiovascular Disease|Cardiovascular events]] (myocardial infarction, stroke)
-- [[notes/_link/Mortality|All-cause mortality]]
-- [[notes/_link/Heart Failure|Heart failure]], particularly with preserved ejection fraction (HFpEF)
+- [[Cardiovascular Disease|Cardiovascular events]] (myocardial infarction, stroke)
+- [[Mortality|All-cause mortality]]
+- [[Heart Failure|Heart failure]], particularly with preserved ejection fraction (HFpEF)
 
 ## Reversal by Spermidine
 
-Supplementation with the polyamine [[notes/_link/Spermidine|spermidine]] reverses age-associated arterial stiffening in old mice (LaRocca et al., 2013). The key findings include:
+Supplementation with the polyamine [[Spermidine|spermidine]] reverses age-associated arterial stiffening in old mice (LaRocca et al., 2013). The key findings include:
 - Normalization of aortic pulse wave velocity to young levels
 - Reduction in AGE accumulation in the aortic wall
 - Decreased aortic collagen I expression
-- Restoration of [[notes/_link/Nitric Oxide|NO]]-mediated endothelial function
+- Restoration of [[Nitric Oxide|NO]]-mediated endothelial function
 - Enhanced [[Autophagy|autophagy]] in the arterial wall, clearing damaged proteins and organelles
 
-The mechanism involves spermidine-induced de-acetylation of [[notes/_link/Histone H3|histone H3]], which activates transcription of autophagy-related genes, thereby improving protein quality control in the vasculature.
+The mechanism involves spermidine-induced de-acetylation of [[Histone H3|histone H3]], which activates transcription of autophagy-related genes, thereby improving protein quality control in the vasculature.
 
 ## Connections
 
-- **[[notes/_link/Aging]]**: Arterial stiffness is a principal manifestation of vascular aging
-- **[[notes/_link/Cardiovascular Disease]]**: Stiffening directly increases CVD risk through hemodynamic and mechanical mechanisms
+- **[[Aging]]**: Arterial stiffness is a principal manifestation of vascular aging
+- **[[Cardiovascular Disease]]**: Stiffening directly increases CVD risk through hemodynamic and mechanical mechanisms
 - **[[Endothelial Dysfunction]]**: Bidirectional relationship — stiffness impairs endothelial function, and endothelial dysfunction promotes vascular remodeling
 - **[[Advanced Glycation End Products]]**: AGE cross-linking of collagen and elastin is a major driver of stiffening
-- **[[notes/_link/Spermidine]]**: Dietary polyamine that reverses arterial stiffening via autophagy induction
+- **[[Spermidine]]**: Dietary polyamine that reverses arterial stiffening via autophagy induction
 - **[[Autophagy]]**: Cellular quality control mechanism that clears AGE cross-linked proteins and damaged organelles
 
 ## Linking Summary
 
-- New links added: [[notes/_link/Arterial Stiffness]], [[Pulse Wave Velocity]], [[notes/_link/Mortality]], [[notes/_link/Heart Failure]], [[Elastic Fiber]], [[Maillard Reaction]]
+- New links added: [[Arterial Stiffness]], [[Pulse Wave Velocity]], [[Mortality]], [[Heart Failure]], [[Elastic Fiber]], [[Maillard Reaction]]
 - Suggested new entity notes to create: [[Collagen I]], [[Matrix Metalloproteinases]], [[Arterial Calcification]], [[Pulse Pressure]], [[Vascular Smooth Muscle Cell]]
-- Strong connections to strengthen: [[notes/_link/Arterial Stiffness]] ↔ [[notes/_link/Cardiovascular Disease]], [[notes/_link/Arterial Stiffness]] ↔ [[Endothelial Dysfunction]], [[notes/_link/Spermidine]] ↔ [[notes/_link/Arterial Stiffness]]
+- Strong connections to strengthen: [[Arterial Stiffness]] ↔ [[Cardiovascular Disease]], [[Arterial Stiffness]] ↔ [[Endothelial Dysfunction]], [[Spermidine]] ↔ [[Arterial Stiffness]]

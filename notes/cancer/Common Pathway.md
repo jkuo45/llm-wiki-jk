@@ -1,6 +1,15 @@
+---
+type: entity
+title: Common Pathway
+description: The **Common Pathway** (or execution phase) of Apoptosis is the final
+  stage where the signals from the Intrinsic Pathway and Extrinsic Pathway converge.
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Enzyme
+---
 # Common Pathway
 
-The **Common Pathway** (or execution phase) of [[notes/_link/Apoptosis]] is the final stage where the signals from the [[Intrinsic Pathway]] and [[Extrinsic Pathway]] converge.
+The **Common Pathway** (or execution phase) of [[Apoptosis]] is the final stage where the signals from the [[Intrinsic Pathway]] and [[Extrinsic Pathway]] converge.
 
 ## Mechanism
 The common pathway is characterized by the activation of **executioner caspases**, primarily [[Caspase-3]], [[Caspase-6]], and [[Caspase-7]].
@@ -18,6 +27,6 @@ The common pathway results in the morphological hallmarks of apoptosis: [[chroma
 - [[Caspase-6]] / [[Caspase-7]]: Other key executioners.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Apoptosis]], [[Intrinsic Pathway]], [[Extrinsic Pathway]], [[Caspase-3]], [[Caspase-6]], [[Caspase-7]], [[Caspase-8]], [[Caspase-9]], [[chromatin condensation]], [[membrane blebbing]]
+- New links added: [[Apoptosis]], [[Intrinsic Pathway]], [[Extrinsic Pathway]], [[Caspase-3]], [[Caspase-6]], [[Caspase-7]], [[Caspase-8]], [[Caspase-9]], [[chromatin condensation]], [[membrane blebbing]]
 - Suggested new entity notes to create: [[Caspase-6]], [[chromatin condensation]], [[membrane blebbing]]
 - Strong connections to strengthen: [[Common Pathway]] ↔ [[Caspase-3]]

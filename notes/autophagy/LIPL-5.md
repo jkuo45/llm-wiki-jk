@@ -1,10 +1,12 @@
 ---
-aliases:
-- C. elegans lysosomal lipase 5
-category: Enzyme
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: LIPL-5
+description: '**LIPL-5** is a C. elegans triglyceride lipase that is upregulated following
+  Fasting. It is predicted to localize to the Lysosome and is expressed in the intestine.'
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Enzyme
+aliases: [C. elegans lysosomal lipase 5]
 ---
 # LIPL-5
 

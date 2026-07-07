@@ -1,11 +1,13 @@
 ---
 type: entity
-category: Protein
-aliases: []
+title: Keap1
+description: '**Keap1 (Kelch-like ECH-associated protein 1)** is a redox-sensitive
+  protein that functions as a sensor for oxidative stress and regulates the degradation
+  and nuclear translocation of NRF2.'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Protein
 ---
-
 # Keap1
 
 **Keap1 (Kelch-like ECH-associated protein 1)** is a redox-sensitive protein that functions as a sensor for oxidative stress and regulates the degradation and nuclear translocation of [[NRF2]].

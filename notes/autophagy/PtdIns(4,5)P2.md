@@ -1,10 +1,14 @@
 ---
-aliases:
-- phosphatidylinositol 4,5-bisphosphate
-category: Biological Molecule
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: PtdIns(4,5)P2
+description: '**PtdIns(4,5)P2** (Phosphatidylinositol 4,5-bisphosphate) is a phosphoinositide
+  that regulates various cellular processes, including Autophagic Lysosome Reformation
+  (ALR), where it recruits clathri...'
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Biological Molecule
+aliases:
+  - phosphatidylinositol 4,5-bisphosphate
 ---
 # PtdIns(4,5)P2
 

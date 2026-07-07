@@ -1,24 +1,19 @@
 ---
 type: entity
-category: protein
+title: UCP2
+description: UCP2 (Uncoupling Protein 2) is a mitochondrial inner membrane transporter
+  protein. It belongs to the family of mitochondrial uncoupling proteins, which act
+  to uncouple oxygen consumption from ATP s...
+created: 2026-07-03
+updated: 2026-07-03
+entity_type_1: Protein
 aliases:
   - UCP2
   - uncoupling protein 2
-database_ids:
-  uniprot: P55851
-  hgnc: HGNC:12518
-relations:
-  - predicate: inhibited_by
-    target: "SIRT1"
-    sources:
-      - PMID:16366736
-  - predicate: associated_with
-    target: "Insulin Secretion"
-    sources:
-      - PMID:16366736
-created: 2026-07-03
-updated: 2026-07-03
 ---
+
+
+
 
 # UCP2
 
@@ -39,11 +34,11 @@ UCP2 is highly expressed in the central nervous system, where it plays a neuropr
 ## Connections
 
 - [[SIRT1]] — transcriptionally represses UCP2 to enhance ATP production and insulin secretion
-- [[notes/_link/Caloric Restriction]] — physiological state that regulates SIRT1-mediated UCP2 repression
+- [[Caloric Restriction]] — physiological state that regulates SIRT1-mediated UCP2 repression
 - [[SIRT4]] — mitochondrial sirtuin; also regulates pancreatic insulin secretion (via GDH)
 
 ## Linking Summary
 
-- New links added: [[SIRT1]], [[notes/_link/Caloric Restriction]], [[SIRT4]]
+- New links added: [[SIRT1]], [[Caloric Restriction]], [[SIRT4]]
 - Suggested new entity notes to create: [[Proton Leak]], [[Glucose-stimulated Insulin Secretion (GSIS)]]
 - Strong connections to strengthen: [[UCP2]] ↔ [[SIRT1]]

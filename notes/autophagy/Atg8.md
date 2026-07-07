@@ -1,11 +1,12 @@
 ---
-aliases:
-- LC3
-- GABARAP family
-category: Protein
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: Atg8
+description: '**Atg8** (Autophagy-related 8) is a ubiquitin-like protein that plays
+  a central role in the formation and maturation of Autophagosome during Autophagy.'
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Protein
+aliases: [LC3, GABARAP family]
 ---
 # Atg8
 

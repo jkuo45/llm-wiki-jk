@@ -1,9 +1,12 @@
 ---
 type: entity
-category: other
-entity_type: "NA"
+title: Sox2
+description: Sox2 (SRY-box transcription factor 2) is a Transcription Factor that
+  is essential for maintaining self-renewal, or pluripotency, of undifferentiated
+  Embryonic Stem Cells. It is one of the four Yama...
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: NA
 ---
 # Sox2
 

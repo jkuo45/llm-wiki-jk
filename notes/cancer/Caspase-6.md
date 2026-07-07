@@ -1,6 +1,15 @@
+---
+type: entity
+title: Caspase-6
+description: '**Caspase-6** is an effector (executioner) protease that is activated
+  during the final stages of Apoptosis.'
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Enzyme
+---
 # Caspase-6
 
-**Caspase-6** is an effector (executioner) protease that is activated during the final stages of [[notes/_link/Apoptosis]].
+**Caspase-6** is an effector (executioner) protease that is activated during the final stages of [[Apoptosis]].
 
 ## Mechanism
 Caspase-6 is activated by initiator caspases (like [[Caspase-8]] and [[Caspase-9]]) or by other executioner caspases like [[Caspase-3]]. It is particularly known for its role in cleaving nuclear lamin A, which is essential for the characteristic [[chromatin condensation]] and nuclear fragmentation observed during cell death.
@@ -11,6 +20,6 @@ Caspase-6 is activated by initiator caspases (like [[Caspase-8]] and [[Caspase-9
 - [[chromatin condensation]]: Induced by Caspase-6-mediated lamin cleavage.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Apoptosis]], [[Caspase-8]], [[Caspase-9]], [[Caspase-3]], [[chromatin condensation]], [[Common Pathway]]
+- New links added: [[Apoptosis]], [[Caspase-8]], [[Caspase-9]], [[Caspase-3]], [[chromatin condensation]], [[Common Pathway]]
 - Suggested new entity notes to create: [[chromatin condensation]]
 - Strong connections to strengthen: [[Caspase-6]] ↔ [[Common Pathway]]

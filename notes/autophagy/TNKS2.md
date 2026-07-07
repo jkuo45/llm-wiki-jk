@@ -1,11 +1,12 @@
 ---
-aliases:
-- tankyrase 2
-- PARP5B
-category: Enzyme
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: TNKS2
+description: Tankyrase 2 (TNKS2) is an isoform of tankyrase that, along with TNKS1,
+  is involved in the poly-ADP-ribosylation (PARsylation) of proteins like TFEB.
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Enzyme
+aliases: [tankyrase 2, PARP5B]
 ---
 # TNKS2
 

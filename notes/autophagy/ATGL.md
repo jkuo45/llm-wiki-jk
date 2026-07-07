@@ -1,11 +1,12 @@
 ---
-aliases:
-- adipose triglyceride lipase
-- PNPLA2
-category: Enzyme
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: ATGL
+description: '**ATGL** (Adipose Triglyceride Lipase) is a key enzyme involved in cytosolic
+  lipolysis, catalyzing the initial step of triglyceride breakdown in Lipid Droplets.'
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Enzyme
+aliases: [adipose triglyceride lipase, PNPLA2]
 ---
 # ATGL
 

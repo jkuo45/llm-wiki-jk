@@ -1,15 +1,14 @@
 ---
 type: entity
-category: scientific_concept
-aliases: []
-tags:
-  - "sirtuins"
-  - "resveratrol"
-  - "cardiovascular"
+title: French Paradox
+description: The **French Paradox** is the epidemiological observation that French
+  populations exhibit a relatively low incidence of Cardiovascular Disease and Atherosclerosis
+  despite a diet rich in saturated f...
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Scientific Concept
+tags: [sirtuins, resveratrol, cardiovascular]
 ---
-
 # French Paradox
 
 The **French Paradox** is the epidemiological observation that French populations exhibit a relatively low incidence of [[Cardiovascular Disease|coronary heart disease]] and [[Atherosclerosis]] despite a diet rich in saturated fats, low physical activity, and high rates of tobacco use. The term was popularized in the 1980s–1990s and has been central to the study of [[Resveratrol]] and red wine's cardioprotective effects.

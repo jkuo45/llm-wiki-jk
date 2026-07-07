@@ -1,10 +1,12 @@
 ---
-aliases:
-- CMA
-category: Biological Process
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: Chaperone-Mediated Autophagy
+description: '**Chaperone-Mediated Autophagy** (CMA) is a highly selective type of
+  Autophagy that targets specific proteins for degradation in the Lysosome.'
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Biological Process
+aliases: [CMA]
 ---
 # Chaperone-Mediated Autophagy
 
@@ -18,13 +20,13 @@ updated: '2026-07-04'
 ## Significance
 - CMA is crucial for the selective removal of damaged or misfolded proteins.
 - It plays a vital role in metabolic regulation and the cellular response to stress.
-- Its decline with [[notes/_link/Aging]] is associated with the accumulation of toxic protein aggregates.
+- Its decline with [[Aging]] is associated with the accumulation of toxic protein aggregates.
 
 ## Process
 
-CMA selectively degrades cytosolic proteins with KFERQ-like motifs via [[HSC70]] recognition and [[LAMP2A]] translocation into lysosomes, independent of vesicle formation.
+CMA selectively degrades cytosolic proteins with KFERQ-like motifs via [[HSC70]] recognition and [[LAMP-2A]] translocation into lysosomes, independent of vesicle formation.
 
 ### Linking Summary:
-- New links added: [[Autophagy]], [[Lysosome]], [[LAMP-2A]], [[notes/_link/Aging]]
+- New links added: [[Autophagy]], [[Lysosome]], [[LAMP-2A]], [[Aging]]
 - Suggested new entity notes to create: , [[LAMP-2A]]
 - Strong connections to strengthen: [[Chaperone-Mediated Autophagy]] ↔ [[Autophagy]], [[Chaperone-Mediated Autophagy]] ↔ [[LAMP-2A]]

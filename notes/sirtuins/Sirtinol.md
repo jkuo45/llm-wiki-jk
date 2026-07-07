@@ -1,22 +1,18 @@
 ---
 type: entity
-category: chemical
-aliases:
-  - Sirtinol
-database_ids:
-  pubchem: 5191
-relations:
-  - predicate: inhibits
-    target: "SIRT1"
-    sources:
-      - s41392-022-01257-8
-  - predicate: inhibits
-    target: "SIRT2"
-    sources:
-      - s41392-022-01257-8
+title: Sirtinol
+description: Sirtinol is a cell-permeable, small-molecule dual inhibitor of SIRT1
+  and SIRT2 containing a characteristic $\beta$-naphthol moiety. It was identified
+  in yeast-based high-throughput screens and is w...
 created: 2026-07-03
 updated: 2026-07-03
+entity_type_1: Chemical Compound
+aliases:
+  - Sirtinol
 ---
+
+
+
 
 # Sirtinol
 

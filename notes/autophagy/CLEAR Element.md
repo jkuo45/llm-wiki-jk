@@ -1,10 +1,13 @@
 ---
-aliases:
-- coordinated lysosomal expression and regulation element
-category: Scientific Concept
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: CLEAR Element
+description: The **CLEAR Element** (Coordinated Lysosomal Expression and Regulation)
+  is a 10-base pair consensus sequence (5′-GTCACGTGAC-3′) found in the promoter regions
+  of many lysosomal and autophagic genes,...
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Scientific Concept
+aliases: [coordinated lysosomal expression and regulation element]
 ---
 # CLEAR Element
 

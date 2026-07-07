@@ -1,10 +1,13 @@
 ---
-aliases:
-- tauopathy
-category: Medical Condition
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: Tau Pathology
+description: Tau pathology refers to the abnormal aggregation of Tau protein in neurons,
+  a hallmark of Alzheimer's disease; enhancing TFEB activity via compounds like Celastrol
+  can help clear these aggregates.
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Medical Condition
+aliases: [tauopathy]
 ---
 # Tau Pathology
 

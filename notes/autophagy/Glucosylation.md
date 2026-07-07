@@ -1,8 +1,12 @@
 ---
-category: Chemical Process
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: Glucosylation
+description: Glucosylation is a modification where glucose is added to proteins; the
+  Legionella effector SetA glucosylates TFEB to promote its nuclear localization by
+  disrupting its binding to 14-3-3 protein.
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Chemical Process
 ---
 # Glucosylation
 

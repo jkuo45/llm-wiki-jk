@@ -1,14 +1,17 @@
 ---
 type: entity
-category: medical_condition
-aliases: [CGD, Chronic granulomatous disease, Bridges-Good syndrome]
+title: Chronic Granulomatous Disease
+description: '**Chronic Granulomatous Disease (CGD)** is a primary immunodeficiency
+  caused by genetic defects in the NADPH Oxidase complex (particularly NOX2/gp91ᵖʰᵒˣ),
+  resulting in the inability of Phagocytes t...'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Medical Condition
+aliases: [CGD, Chronic granulomatous disease, Bridges-Good syndrome]
 ---
-
 # Chronic Granulomatous Disease
 
-**Chronic Granulomatous Disease (CGD)** is a primary immunodeficiency caused by genetic defects in the [[NADPH Oxidase]] complex (particularly [[NOX2]]/gp91ᵖʰᵒˣ), resulting in the inability of [[Phagocytes]] to generate the [[notes/_link/Respiratory Burst|respiratory burst]] and produce [[Superoxide Radicals|superoxide]] required for killing bacterial and fungal pathogens.
+**Chronic Granulomatous Disease (CGD)** is a primary immunodeficiency caused by genetic defects in the [[NADPH Oxidase]] complex (particularly [[NOX2]]/gp91ᵖʰᵒˣ), resulting in the inability of [[Phagocytes]] to generate the [[Respiratory Burst|respiratory burst]] and produce [[Superoxide Radicals|superoxide]] required for killing bacterial and fungal pathogens.
 
 ## Genetics
 

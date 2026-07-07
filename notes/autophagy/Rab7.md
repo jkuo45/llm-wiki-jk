@@ -1,11 +1,13 @@
 ---
-aliases:
-- RAB7A
-- late endosome GTPase
-category: Protein
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: Rab7
+description: '**Rab7** is a small GTPase that localizes to late endosomes and Lysosomes,
+  where it regulates membrane trafficking, organelle maturation, and fusion events,
+  including the fusion of Autophagosomes w...'
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Protein
+aliases: [RAB7A, late endosome GTPase]
 ---
 # Rab7
 

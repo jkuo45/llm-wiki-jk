@@ -1,3 +1,12 @@
+---
+type: entity
+title: Mebendazole
+description: 'Mebendazole is being widely studied for Drug Repositioning in Cancer.
+  It has shown promise in several ways:'
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Enzyme
+---
 # Mebendazole
 
 [[Mebendazole]] is a [[Benzimidazole]] medication used to treat a number of parasitic worm infestations, including ascariasis, pinworm disease, hookworm infections, guinea worm infections, hydatid disease, and giardia.
@@ -10,8 +19,8 @@ Mebendazole is being widely studied for [[Drug Repositioning]] in [[Cancer]]. It
 
 ## Connections
 - **Related Drugs:** [[Albendazole]], [[Fenbendazole]], [[Oxfendazole]]
-- **Cancer Types:** [[glioblastoma]], [[notes/_link/Colorectal Cancer]], [[Lung Cancer]]
-- **Biological Processes:** [[notes/_link/Apoptosis]], [[Cell Cycle]] arrest
+- **Cancer Types:** [[glioblastoma]], [[Colorectal Cancer]], [[Lung Cancer]]
+- **Biological Processes:** [[Apoptosis]], [[Cell Cycle]] arrest
 
 ## Linking Summary
-- New links added: [[Benzimidazole]], [[Drug Repositioning]], [[Cancer]], [[Microtubule]], [[Tubulin]], [[Hedgehog signaling pathway]], [[Wnt]], [[NFκB]], [[glioblastoma]], [[Albendazole]], [[Fenbendazole]], [[Oxfendazole]], [[notes/_link/Colorectal Cancer]], [[Lung Cancer]], [[notes/_link/Apoptosis]], [[Cell Cycle]]
+- New links added: [[Benzimidazole]], [[Drug Repositioning]], [[Cancer]], [[Microtubule]], [[Tubulin]], [[Hedgehog signaling pathway]], [[Wnt]], [[NFκB]], [[glioblastoma]], [[Albendazole]], [[Fenbendazole]], [[Oxfendazole]], [[Colorectal Cancer]], [[Lung Cancer]], [[Apoptosis]], [[Cell Cycle]]

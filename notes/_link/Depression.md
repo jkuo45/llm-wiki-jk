@@ -1,41 +1,33 @@
 ---
 type: entity
-category: medical_condition
-entity_type: "Medical Condition"
-aliases:
-  - Major depressive disorder
-  - MDD
-  - Clinical depression
+title: Depression
+description: '**Depression** (major depressive disorder) is a common and serious mood
+  disorder characterized by persistent sadness, loss of interest, and impaired function.
+  It has complex neurobiological underpi...'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Medical Condition
+aliases: [Major depressive disorder, MDD, Clinical depression]
 ---
-
 # Depression
-
-**Depression** (major depressive disorder) is a common and serious mood disorder characterized by persistent sadness, loss of interest, and impaired function. It has complex neurobiological underpinnings involving monoamine dysregulation, [[notes/_link/Inflammation]], and [[Oxidative Stress]].
-
+**Depression** (major depressive disorder) is a common and serious mood disorder characterized by persistent sadness, loss of interest, and impaired function. It has complex neurobiological underpinnings involving monoamine dysregulation, [[Inflammation]], and [[Oxidative Stress]].
 ## Biological Mechanisms
-
-- **Monoamine Hypothesis**: Dysregulation of [[Serotonin]], [[Dopamine]], [[notes/_link/Norepinephrine]]
-- **Neuroinflammation**: Elevated [[notes/_link/Inflammation|inflammatory cytokines]] impair neurotransmitter metabolism
+- **Monoamine Hypothesis**: Dysregulation of [[Serotonin]], [[Dopamine]], [[Norepinephrine]]
+- **Neuroinflammation**: Elevated [[Inflammation|inflammatory cytokines]] impair neurotransmitter metabolism
 - **HPA Axis Dysregulation**: Chronic cortisol elevation damages hippocampal neurons
-- **Mitochondrial Dysfunction**: Impaired [[notes/_link/Mitochondria|mitochondrial]] energy metabolism
-
+- **Mitochondrial Dysfunction**: Impaired [[Mitochondria|mitochondrial]] energy metabolism
 ## Treatment
-
 - [[SSRIs]], [[SNRIs]], [[MAOIs]]
 - [[Ketamine]] (rapid-acting for treatment-resistant depression)
-- Lifestyle interventions: [[Exercise]], [[notes/_link/Caloric Restriction]], sleep optimization
+- Lifestyle interventions: [[Exercise]], [[Caloric Restriction]], sleep optimization
 
-## Connections
-
+### Connections
 - [[Serotonin]] — Key monoamine in depression pathophysiology
-- [[notes/_link/Inflammation]] — Neuroinflammatory component
+- [[Inflammation]] — Neuroinflammatory component
 - [[Oxidative Stress]] — Elevated in MDD
 - [[COMT]] — Genetic variant influences treatment response
 
-## Linking Summary
-
-- New links added: [[notes/_link/Inflammation]], [[Oxidative Stress]], [[notes/_link/Mitochondria]], [[Exercise]], [[notes/_link/Caloric Restriction]], [[COMT]], [[Serotonin]], [[Dopamine]], [[notes/_link/Norepinephrine]]
+### Linking Summary
+- New links added: [[Inflammation]], [[Oxidative Stress]], [[Mitochondria]], [[Exercise]], [[Caloric Restriction]], [[COMT]], [[Serotonin]], [[Dopamine]], [[Norepinephrine]]
 - Suggested new entity notes to create: [[BDNF]], [[HPA Axis]], [[Ketamine]], [[SSRI]]
-- Strong connections to strengthen: [[Depression]] ↔ [[notes/_link/Inflammation]]
+- Strong connections to strengthen: [[Depression]] ↔ [[Inflammation]]

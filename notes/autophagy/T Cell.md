@@ -1,10 +1,13 @@
 ---
-aliases:
-- T lymphocyte
-category: Cell Type
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: T Cell
+description: T cells are a type of lymphocyte that play a central role in the Adaptive
+  Immune Response, where Autophagy is critical for their development, survival, and
+  metabolic fitness.
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Cell Type
+aliases: [T lymphocyte]
 ---
 # T Cell
 
@@ -17,4 +20,4 @@ T cells mediate adaptive cellular immunity. [[Autophagy]] regulates T cell activ
 ### Linking Summary:
 - New links added: [[Adaptive Immune Response]], [[Autophagy]]
 - Suggested new entity notes to create:
-- Strong connections to strengthen: [[T Cell]] ↔ [[notes/_link/Immunosenescence]]
+- Strong connections to strengthen: [[T Cell]] ↔ [[Immunosenescence]]

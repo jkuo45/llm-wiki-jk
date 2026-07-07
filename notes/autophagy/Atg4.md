@@ -1,10 +1,13 @@
 ---
-aliases:
-- autophagy-related cysteine protease
-category: Enzyme
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: Atg4
+description: Atg4 is a cysteine protease that processes the C-terminus of Atg8 family
+  proteins, a critical step for their conjugation to phosphatidylethanolamine during
+  Autophagosome formation.
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Enzyme
+aliases: [autophagy-related cysteine protease]
 ---
 # Atg4
 

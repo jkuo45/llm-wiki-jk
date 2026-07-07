@@ -1,11 +1,13 @@
 ---
 type: entity
-category: biological_process
-entity_type: "Biological Process"
+title: Stress-Induced Premature Senescence
+description: '**Stress-Induced Premature Senescence (SIPS)** is a form of Cellular
+  Senescence triggered acutely by exposure to subcytotoxic stress — including oxidative,
+  genotoxic, and epigenetic stressors — wit...'
 created: 2024-01-01
 updated: 2024-07-04
+entity_type_1: Biological Process
 ---
-
 # Stress-Induced Premature Senescence
 
 **Stress-Induced Premature Senescence (SIPS)** is a form of [[Cellular Senescence]] triggered acutely by exposure to subcytotoxic stress — including oxidative, genotoxic, and epigenetic stressors — without requiring [[Telomere Attrition|replicative telomere shortening]]. SIPS was first systematically characterized when subcytotoxic [[Hydrogen Peroxide]] doses were shown to induce [[SA-beta-gal]]-positive, proliferation-arrested cells within 48–72 hours.
@@ -30,7 +32,7 @@ SIPS proceeds through a conserved three-phase sequence:
 
 **Phase II (24–72 h):** p21 drives [[G1 Phase|G1/S]] arrest. If the stress is removed, a subset of cells may resume cycling, but a "decision point" — influenced by stress severity, [[p16INK4A]] induction, and [[RB1]] hypophosphorylation levels — commits cells to irreversible arrest.
 
-**Phase III (72–168 h):** Full senescence program established: [[SA-beta-gal]] activity peaks, [[SAHF|SAHF]] form at [[E2F]] target loci, [[SASP|SASP]] emerges, and resistance to [[notes/_link/Apoptosis|apoptosis]] develops.
+**Phase III (72–168 h):** Full senescence program established: [[SA-beta-gal]] activity peaks, [[SAHF|SAHF]] form at [[E2F]] target loci, [[SASP|SASP]] emerges, and resistance to [[Apoptosis|apoptosis]] develops.
 
 ## SIPS vs. Replicative Senescence
 
@@ -57,6 +59,6 @@ SIPS is the most commonly used in vitro model of senescence because it is rapid 
 SIPS does not fully recapitulate the chronic, multi-stress nature of in vivo aging. SIPS cells lack the sustained telomere dysfunction signaling of replicative senescence, and their SASP kinetics differ. SIPS models should be validated with independent inducers and compared with replicative or age-matched in vivo senescence.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Senescence]], [[Oxidative Stress]], [[notes/_link/DNA Damage]], [[DNA Damage Response]], [[SASP]], [[SAHF]], [[SA-beta-gal]], [[Senolytic Drugs]]
+- New links added: [[Senescence]], [[Oxidative Stress]], [[DNA Damage]], [[DNA Damage Response]], [[SASP]], [[SAHF]], [[SA-beta-gal]], [[Senolytic Drugs]]
 - Suggested new entity notes to create: [[SIPS model]], [[SIPS vs replicative senescence]]
-- Strong connections to strengthen: [[Stress-Induced Premature Senescence]] ↔ [[Oxidative Stress]], [[Stress-Induced Premature Senescence]] ↔ [[notes/_link/Senescence]]
+- Strong connections to strengthen: [[Stress-Induced Premature Senescence]] ↔ [[Oxidative Stress]], [[Stress-Induced Premature Senescence]] ↔ [[Senescence]]

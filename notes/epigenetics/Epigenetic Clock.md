@@ -1,9 +1,12 @@
 ---
 type: entity
-category: biomarker
-entity_type: "Biomarker"
+title: Epigenetic Clock
+description: An **Epigenetic Clock** is a biochemical test that can be used to measure
+  age. The test is based on DNA Methylation levels, which change in a predictable
+  way as we get older. By measuring the methy...
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: Biomarker
 ---
 # Epigenetic Clock
 
@@ -15,19 +18,19 @@ Epigenetic clocks are among the most accurate biomarkers for aging. They typical
 *   **Predictive Power:** Modern "second-generation" clocks like [[DNAmGrimAge]] and PhenoAge are trained specifically to predict healthspan and mortality rather than just chronological time.
 
 ### 2. Applications in Research
-*   **Longevity Interventions:** Clocks are used to test whether interventions like [[notes/_link/Caloric Restriction]] or [[notes/_link/Metformin]] are actually slowing the aging process at a molecular level.
-*   **Disease Risk Assessment:** They can help identify individuals at risk for [[notes/_link/Cardiovascular Disease]], [[Cancer]], and [[notes/_link/Neurodegenerative Diseases]] before clinical symptoms appear.
+*   **Longevity Interventions:** Clocks are used to test whether interventions like [[Caloric Restriction]] or [[Metformin]] are actually slowing the aging process at a molecular level.
+*   **Disease Risk Assessment:** They can help identify individuals at risk for [[Cardiovascular Disease]], [[Cancer]], and [[Neurodegenerative Diseases]] before clinical symptoms appear.
 
 ### 3. Reversibility
 One of the most exciting aspects of the epigenetic clock is that it may be reversible. Clinical trials are currently investigating whether specific lifestyle changes or pharmacological agents can "wind back" the clock.
 
 ### Connections
-- **[[notes/_link/Aging]]**: The primary phenomenon measured by these clocks.
+- **[[Aging]]**: The primary phenomenon measured by these clocks.
 - **[[DNA Methylation]]**: The molecular substrate used to calculate the clock's score.
 - **[[DNAmGrimAge]]**: A highly accurate, second-generation epigenetic clock.
 - **[[Biomarkers]]**: Epigenetic clocks are considered the "gold standard" of aging biomarkers.
 
 ### Linking Summary:
-- New links added: [[Epigenetic Clock]], [[DNA Methylation]], [[DNAmGrimAge]], [[notes/_link/Aging]], [[notes/_link/Caloric Restriction]], [[notes/_link/Metformin]], [[notes/_link/Cardiovascular Disease]], [[Cancer]], [[notes/_link/Neurodegenerative Diseases]], [[Biomarkers]]
+- New links added: [[Epigenetic Clock]], [[DNA Methylation]], [[DNAmGrimAge]], [[Aging]], [[Caloric Restriction]], [[Metformin]], [[Cardiovascular Disease]], [[Cancer]], [[Neurodegenerative Diseases]], [[Biomarkers]]
 - Suggested new entity notes to create: [[Horvath Clock]], [[Hannum Clock]], [[Age Acceleration]]
-- Strong connections to strengthen: [[Epigenetic Clock]] ↔ [[notes/_link/Aging]], [[Epigenetic Clock]] ↔ [[DNA Methylation]]
+- Strong connections to strengthen: [[Epigenetic Clock]] ↔ [[Aging]], [[Epigenetic Clock]] ↔ [[DNA Methylation]]

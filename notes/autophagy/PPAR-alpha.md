@@ -1,10 +1,13 @@
 ---
-aliases:
-- PPARA
-category: Gene
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: PPAR-alpha
+description: Peroxisome proliferator-activated receptor alpha, a nuclear receptor
+  protein that functions as a transcription factor regulating the expression of genes
+  involved in Metabolism.
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Gene
+aliases: [PPARA]
 ---
 # PPAR-alpha
 

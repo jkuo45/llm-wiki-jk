@@ -1,9 +1,12 @@
 ---
 type: entity
-category: other
-entity_type: "NA"
+title: Induced Pluripotent Stem Cells
+description: Induced Pluripotent Stem Cells (iPSCs) are a type of pluripotent stem
+  cell that can be generated directly from adult Somatic Cells. The technology was
+  pioneered by Shinya Yamanaka in 2006, who show...
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: NA
 ---
 # Induced Pluripotent Stem Cells
 

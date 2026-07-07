@@ -1,9 +1,10 @@
 ---
 type: entity
-category: protein
-entity_type: "Protein"
+title: Laminin
+description: '- New links added: Extracellular Matrix, ECM, Fibroblast'
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: Protein
 ---
 # Laminin
 
@@ -13,4 +14,4 @@ updated: 2024-01-01
 
 - New links added: [[Extracellular Matrix]], [[ECM]], [[Fibroblast]]
 - Suggested new entity notes to create: [[Basal Lamina]]
-- Strong connections to strengthen: [[Laminin]] ↔ [[notes/_link/Aging]]
+- Strong connections to strengthen: [[Laminin]] ↔ [[Aging]]

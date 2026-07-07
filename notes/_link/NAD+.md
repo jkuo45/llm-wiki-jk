@@ -1,7 +1,12 @@
 ---
 type: entity
-category: chemical
-entity_type: "Biological Molecule"
+title: NAD+
+description: NAD+ (Nicotinamide Adenine Dinucleotide) is a critical coenzyme found
+  in every cell, essential for energy Metabolism and a vital signaling molecule. It
+  serves as an obligatory co-substrate for all ...
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Chemical Compound
 aliases:
   - NAD+
   - nicotinamide adenine dinucleotide
@@ -23,24 +28,26 @@ relations:
     target: "Sirtuins"
     sources:
       - PMID:MICHAN2007
-created: 2026-07-04
-updated: 2026-07-04
+
 ---
+
+
+
 
 # NAD+
 
-**NAD+** (Nicotinamide Adenine Dinucleotide) is a critical coenzyme found in every cell, essential for energy [[notes/_link/Metabolism]] and a vital signaling molecule. It serves as an obligatory co-substrate for all [[Sirtuins|sirtuin]] enzymes.
+**NAD+** (Nicotinamide Adenine Dinucleotide) is a critical coenzyme found in every cell, essential for energy [[Metabolism]] and a vital signaling molecule. It serves as an obligatory co-substrate for all [[Sirtuins|sirtuin]] enzymes.
 
 ## Role in Sirtuin Biology
 
 All sirtuins absolutely require NAD+ to catalyse deacetylation: one molecule of NAD+ is hydrolysed per deacetylation event, producing [[OAADPr]] and nicotinamide. This dependence positions sirtuins as **sensors of cellular energy and redox states**.
 
-## NAD+ and [[notes/_link/Aging]]
+## NAD+ and [[Aging]]
 
 NAD+ levels decline with age, linked to:
-- [[notes/_link/Mitochondria|Mitochondrial]] dysfunction
+- [[Mitochondria|Mitochondrial]] dysfunction
 - Reduced sirtuin activity and loss of epigenetic control
-- Accumulated [[notes/_link/DNA Repair|DNA damage]]
+- Accumulated [[DNA Repair|DNA damage]]
 
 ## Biosynthesis
 
@@ -49,36 +56,30 @@ NAD+ is synthesized from [[Vitamin B3]] precursors ([[Nicotinamide]], [[Nicotini
 ## Connections
 
 - [[Sirtuins]] — NAD+ is the obligate co-substrate for all sirtuin enzymes
-- [[notes/_link/Caloric Restriction]] — Increases NAD+ levels, activating sirtuins
+- [[Caloric Restriction]] — Increases NAD+ levels, activating sirtuins
 - [[Vitamin B3]] — Primary dietary precursor for NAD+ biosynthesis
-- [[notes/_link/DNA Repair]] — PARP enzymes consume NAD+ for DNA repair
+- [[DNA Repair]] — PARP enzymes consume NAD+ for DNA repair
 - [[Resveratrol]] — STAC that activates SIRT1 in an NAD+-dependent manner
-
-
 
 ## Additional Content from Topic Directory
 
-# NAD+
-
-**[[NAD+]]** (Nicotinamide Adenine Dinucleotide) is a critical coenzyme found in every cell in the body. It is essential for energy [[notes/_link/Metabolism]] and serves as a vital signaling molecule for various biological processes.
+**[[NAD+]]** (Nicotinamide Adenine Dinucleotide) is a critical coenzyme found in every cell in the body. It is essential for energy [[Metabolism]] and serves as a vital signaling molecule for various biological processes.
 
 ## Functions
 *   **Energy Production**: Acts as an electron carrier in the mitochondria for ATP production.
 *   **Sirtuin Activation**: Serves as a mandatory co-substrate for the **[[Sirtuins]]** family of proteins (e.g., [[SIRT1]], [[SIRT6]]).
-*   **[[notes/_link/DNA Repair]]**: Used by PARP enzymes to detect and repair DNA damage.
+*   **[[DNA Repair]]**: Used by PARP enzymes to detect and repair DNA damage.
 
-## NAD+ and [[notes/_link/Aging]]
+## NAD+ and [[Aging]]
 NAD+ levels naturally decline with age. This decline is linked to:
 *   **Mitochondrial Dysfunction**: Reduced capacity for energy production.
-*   **Reduced Sirtuin Activity**: Leading to loss of epigenetic control and increased [[notes/_link/Inflammation]].
+*   **Reduced Sirtuin Activity**: Leading to loss of epigenetic control and increased [[Inflammation]].
 *   **Reduced Repair Capacity**: Accumulation of DNA damage.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Metabolism]], [[Sirtuins]], [[SIRT1]], [[SIRT6]], [[notes/_link/DNA Repair]], [[notes/_link/Aging]], [[notes/_link/Inflammation]]
+- New links added: [[Metabolism]], [[Sirtuins]], [[SIRT1]], [[SIRT6]], [[DNA Repair]], [[Aging]], [[Inflammation]]
 - Suggested new entity notes to create: [[NMN]], [[NR]], [[PARP Enzymes]], [[CD38]]
-- Strong connections to strengthen: [[NAD+]] ↔ [[Sirtuins]], [[NAD+]] ↔ [[notes/_link/Metabolism]]
-
-# NAD+
+- Strong connections to strengthen: [[NAD+]] ↔ [[Sirtuins]], [[NAD+]] ↔ [[Metabolism]]
 
 **NAD⁺** (nicotinamide adenine dinucleotide, oxidised form) is a fundamental coenzyme and metabolite in all living cells that serves as an **obligatory co-substrate** for all sirtuin-catalysed reactions. NAD⁺ links cellular energy status and redox state to sirtuin-mediated gene regulation, establishing sirtuins as metabolic sensors.
 
@@ -95,7 +96,7 @@ One molecule of NAD⁺ is hydrolysed per deacetylation event. The unique by-prod
 The absolute dependence on NAD⁺ suggests that sirtuins evolved as **sensors of cellular energy and redox states** coupled to the metabolic status of the cell. As NAD⁺/NADH ratios fluctuate with metabolic activity (e.g., during fasting or caloric restriction), sirtuin activity adjusts accordingly.
 
 ### Caloric Restriction and NAD⁺
-[[notes/_link/Caloric Restriction]] and fasting increase NAD⁺ levels (and/or the NAD⁺/NADH ratio), which in turn activates sirtuins — particularly [[SIRT1]]. This provides a plausible biochemical mechanism linking dietary energy status to sirtuin-mediated longevity pathways.
+[[Caloric Restriction]] and fasting increase NAD⁺ levels (and/or the NAD⁺/NADH ratio), which in turn activates sirtuins — particularly [[SIRT1]]. This provides a plausible biochemical mechanism linking dietary energy status to sirtuin-mediated longevity pathways.
 
 ### Nicotinamide Feedback Inhibition
 Nicotinamide — released as a by-product of sirtuin-mediated NAD⁺ hydrolysis — acts as a **product inhibitor** of sirtuin activity. The yeast enzyme **PNC1** (and its orthologue NAMPT in mammals) can convert nicotinamide back to NAD⁺, maintaining sirtuin activity. This forms a feedback regulation loop relevant to CR-mediated longevity.
@@ -119,19 +120,19 @@ SIRT1-mediated neuroprotection in the context of axonal degeneration requires **
 - [[SIRT1]] — primary mammalian sirtuin; robust NAD⁺-dependent deacetylase
 - [[Sir2 (yeast)]] — founding sirtuin; NAD⁺ dependence first established here
 - [[OAADPr]] — unique metabolic by-product of NAD⁺-dependent deacetylation
-- [[notes/_link/Caloric Restriction]] — increases NAD⁺ levels, activating sirtuins
+- [[Caloric Restriction]] — increases NAD⁺ levels, activating sirtuins
 - [[SIRT4]] — uses NAD⁺ as ADP-ribose donor for GDH modification
 - [[SIRT6]] — uses NAD⁺ as ADP-ribose donor for ADP-ribosylation
 - [[Resveratrol]] — STAC that activates SIRT1 in an NAD⁺-dependent manner
 
 ## Linking Summary
 
-- New links added: [[SIRT1]], [[Sir2 (yeast)]], [[OAADPr]], [[notes/_link/Caloric Restriction]], [[SIRT4]], [[SIRT6]], [[Resveratrol]]
+- New links added: [[SIRT1]], [[Sir2 (yeast)]], [[OAADPr]], [[Caloric Restriction]], [[SIRT4]], [[SIRT6]], [[Resveratrol]]
 - Suggested new entity notes to create: [[NMNAT]], [[PNC1 (yeast)]], [[NAMPT]], [[NAD⁺/NADH Ratio]]
-- Strong connections to strengthen: [[NAD+]] ↔ [[SIRT1]], [[NAD+]] ↔ [[notes/_link/Caloric Restriction]]
+- Strong connections to strengthen: [[NAD+]] ↔ [[SIRT1]], [[NAD+]] ↔ [[Caloric Restriction]]
 
 ## Linking Summary
 
-- New links added: [[Sirtuins]], [[notes/_link/Caloric Restriction]], [[Vitamin B3]], [[notes/_link/DNA Repair]], [[Resveratrol]], [[notes/_link/Metabolism]], [[notes/_link/Aging]], [[notes/_link/Inflammation]], [[notes/_link/Mitochondria]], [[OAADPr]], [[Nicotinamide]], [[Nicotinic acid]], [[Nicotinamide Riboside]], [[Nicotinamide Mononucleotide]]
+- New links added: [[Sirtuins]], [[Caloric Restriction]], [[Vitamin B3]], [[DNA Repair]], [[Resveratrol]], [[Metabolism]], [[Aging]], [[Inflammation]], [[Mitochondria]], [[OAADPr]], [[Nicotinamide]], [[Nicotinic acid]], [[Nicotinamide Riboside]], [[Nicotinamide Mononucleotide]]
 - Suggested new entity notes to create: [[NAMPT]], [[NMNAT]], [[CD38]], [[NAD+/NADH Ratio]], [[Preiss-Handler pathway]]
-- Strong connections to strengthen: [[NAD+]] ↔ [[Sirtuins]], [[NAD+]] ↔ [[notes/_link/Caloric Restriction]]
+- Strong connections to strengthen: [[NAD+]] ↔ [[Sirtuins]], [[NAD+]] ↔ [[Caloric Restriction]]

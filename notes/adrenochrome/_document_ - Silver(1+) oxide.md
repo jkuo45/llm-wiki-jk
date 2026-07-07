@@ -1,12 +1,13 @@
 ---
 type: document
-title: "Silver(1+) oxide"
-source: "https://pubchem.ncbi.nlm.nih.gov/compound/Silver_1_-oxide"
+title: Silver(1+) oxide
+source: https://pubchem.ncbi.nlm.nih.gov/compound/Silver_1_-oxide
 author:
-  - "PubChem"
-published:
+- PubChem
 created: 2026-05-25
-description: "Silver(1+) oxide | Ag2H2O | CID 88641 - structure, chemical names, physical and chemical properties, classification, patents, literature, biological activities, safety/hazards/toxicity information, supplier lists, and more."
+description: Silver(1+) oxide | Ag2H2O | CID 88641 - structure, chemical names, physical
+  and chemical properties, classification, patents, literature, biological activities,
+  safety/hazards/toxicity information, supplier lists, and more.
 tags:
   - "clippings"
 ---

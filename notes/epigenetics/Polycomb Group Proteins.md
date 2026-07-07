@@ -1,11 +1,13 @@
 ---
 type: entity
-category: protein
-entity_type: "Protein"
+title: Polycomb Group Proteins
+description: '**Polycomb group (PcG) proteins** are evolutionarily conserved chromatin
+  regulators that maintain transcriptional repression of developmental genes, cell
+  cycle regulators, and senescence-associated...'
 created: 2024-01-01
 updated: 2024-07-04
+entity_type_1: Protein
 ---
-
 # Polycomb Group Proteins
 
 **Polycomb group (PcG) proteins** are evolutionarily conserved chromatin regulators that maintain transcriptional repression of developmental genes, cell cycle regulators, and senescence-associated loci through deposition of repressive [[Histone Modification|histone marks]]. First discovered in *[[Drosophila melanogaster]]* as regulators of [[Hox gene]] silencing, PcG proteins form two principal multi-subunit complexes: [[PRC1]] and [[PRC2]].
@@ -37,6 +39,6 @@ PcG proteins are central to the senescence gene expression program:
 - **Epigenetic therapy:** PRC2 inhibitors represent a major class of [[Epigenetic Modifiers]]. Combining EZH2 inhibitors with [[Senolytic Drugs]] is being explored to prevent senescence escape in cancer.
 
 ### Linking Summary:
-- New links added: [[Epigenetics]], [[Histone Methylation]], [[Cancer]], [[notes/_link/Senescence]], [[p16INK4A]], [[H3K27me3]], [[SAHF]], [[EZH2]], [[SUZ12]], [[EED]], [[RING1B]]
+- New links added: [[Epigenetics]], [[Histone Methylation]], [[Cancer]], [[Senescence]], [[p16INK4A]], [[H3K27me3]], [[SAHF]], [[EZH2]], [[SUZ12]], [[EED]], [[RING1B]]
 - Suggested new entity notes to create: [[PRC1]], [[PRC2]], [[H2AK119ub1]], [[Tazemetostat]], [[Drosophila melanogaster]]
-- Strong connections to strengthen: [[Polycomb Group Proteins]] ↔ [[notes/_link/Senescence]], [[Polycomb Group Proteins]] ↔ [[Cancer]]
+- Strong connections to strengthen: [[Polycomb Group Proteins]] ↔ [[Senescence]], [[Polycomb Group Proteins]] ↔ [[Cancer]]

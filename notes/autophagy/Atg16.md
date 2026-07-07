@@ -1,8 +1,11 @@
 ---
-category: Protein
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: Atg16
+description: '**Atg16** (Autophagy-related 16) is a critical protein in the Autophagy
+  pathway, where it forms a complex essential for LC3 lipidation.'
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Protein
 ---
 # Atg16
 

@@ -1,3 +1,12 @@
+---
+type: entity
+title: Metabolic Reprogramming
+description: '- **Aerobic Glycolysis:** Also known as the Warburg Effect, where cells
+  prefer Glycolysis even in the presence of oxygen.'
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Enzyme
+---
 # Metabolic Reprogramming
 
 [[Metabolic Reprogramming]] refers to the ability of [[Cancer]] cells to alter their metabolism to support increased proliferation, survival, and adaptation to the [[tumour microenvironment]]. It is considered one of the [[Hallmarks of Cancer]].
@@ -15,9 +24,9 @@ Metabolic reprogramming creates vulnerabilities that can be targeted:
 - Compounds like [[Fenbendazole]] are being studied for their ability to interfere with these metabolic shifts.
 
 ## Connections
-- **Related Processes:** [[Warburg Effect]], [[Glycolysis]], [[Oxidative Stress]], [[notes/_link/Hypoxia]]
+- **Related Processes:** [[Warburg Effect]], [[Glycolysis]], [[Oxidative Stress]], [[Hypoxia]]
 - **Key Molecules:** [[Glucose]], [[Glutamine]], [[Lactate]], [[ATP]], [[NADPH]]
-- **Regulators:** [[notes/_link/p53]], [[MYC]], [[HIF-1α]], [[notes/_link/mTOR]]
+- **Regulators:** [[p53]], [[MYC]], [[HIF-1α]], [[mTOR]]
 
 ## Linking Summary
-- New links added: [[Cancer]], [[tumour microenvironment]], [[Hallmarks of Cancer]], [[Warburg Effect]], [[Glycolysis]], [[glutamine]], [[NADPH]], [[GLUT1]], [[Hexokinase 2]], [[Pyruvate Kinase M2]], [[Fenbendazole]], [[Oxidative Stress]], [[notes/_link/Hypoxia]], [[Lactate]], [[ATP]], [[notes/_link/p53]], [[MYC]], [[HIF-1α]], [[notes/_link/mTOR]]
+- New links added: [[Cancer]], [[tumour microenvironment]], [[Hallmarks of Cancer]], [[Warburg Effect]], [[Glycolysis]], [[glutamine]], [[NADPH]], [[GLUT1]], [[Hexokinase 2]], [[Pyruvate Kinase M2]], [[Fenbendazole]], [[Oxidative Stress]], [[Hypoxia]], [[Lactate]], [[ATP]], [[p53]], [[MYC]], [[HIF-1α]], [[mTOR]]

@@ -1,9 +1,10 @@
 ---
 type: entity
-category: protein
-entity_type: "Protein"
+title: SMAD Proteins
+description: '- New links added: TGF-beta1, Transcription'
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: Protein
 ---
 # SMAD Proteins
 
@@ -11,6 +12,6 @@ updated: 2024-01-01
 
 ### Linking Summary:
 
-- New links added: [[TGF-beta1]], [[notes/_link/Transcription]]
+- New links added: [[TGF-beta1]], [[Transcription]]
 - Suggested new entity notes to create: [[TGF-beta Receptor]]
 - Strong connections to strengthen: [[SMAD Proteins]] ↔ [[Quiescence]]

@@ -1,9 +1,12 @@
 ---
 type: entity
-category: other
-entity_type: "NA"
+title: Oct4
+description: Oct4 (Octamer-binding transcription factor 4), also known as POU5F1 (POU
+  domain, class 5, transcription factor 1), is a protein that in humans is encoded
+  by the POU5F1 gene. It is a critical Transc...
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: NA
 ---
 # Oct4
 

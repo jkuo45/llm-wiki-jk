@@ -1,9 +1,10 @@
 ---
 type: entity
-category: cell_type
-entity_type: "Cell Type"
+title: Muscle Stem Cell
+description: '- New links added: Quiescence, Satellite Cells, Aging'
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: Cell Type
 ---
 # Muscle Stem Cell
 
@@ -11,6 +12,6 @@ updated: 2024-01-01
 
 ### Linking Summary:
 
-- New links added: [[Quiescence]], [[Satellite Cells]], [[notes/_link/Aging]]
+- New links added: [[Quiescence]], [[Satellite Cells]], [[Aging]]
 - Suggested new entity notes to create: [[Hepatocyte Growth Factor]], [[Wnt4]]
-- Strong connections to strengthen: [[Muscle Stem Cell]] ↔ [[notes/_link/Senescence]]
+- Strong connections to strengthen: [[Muscle Stem Cell]] ↔ [[Senescence]]

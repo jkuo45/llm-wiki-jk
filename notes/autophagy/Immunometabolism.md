@@ -1,8 +1,11 @@
 ---
-category: Scientific Concept
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: Immunometabolism
+description: '**Immunometabolism** is an emerging field that explores the close association
+  between metabolic pathways and immune cell function.'
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Scientific Concept
 ---
 # Immunometabolism
 
@@ -14,13 +17,13 @@ updated: '2026-07-04'
 
 ## Aging and Reprogramming
 - [[Immune Aging]] involves transcriptional and metabolic reprogramming in individual cells.
-- [[notes/_link/Metformin]] improves memory immune responses by metabolically reprogramming memory CD8+ T cells.
+- [[Metformin]] improves memory immune responses by metabolically reprogramming memory CD8+ T cells.
 
 ## Definition
 
 Immunometabolism studies how metabolic pathways ([[Autophagy]], [[Glycolysis]], [[OxPhos]]) regulate immune cell function and differentiation.
 
 ### Linking Summary:
-- New links added: [[Autophagy]], [[T Cell]], [[Immune Aging]], [[notes/_link/Metformin]]
+- New links added: [[Autophagy]], [[T Cell]], [[Immune Aging]], [[Metformin]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[Immunometabolism]] ↔ [[Autophagy]], [[Immunometabolism]] ↔ [[Immune Aging]]

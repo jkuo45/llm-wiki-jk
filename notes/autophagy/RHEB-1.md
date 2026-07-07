@@ -1,10 +1,12 @@
 ---
-aliases:
-- C. elegans Rheb ortholog
-category: Protein
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: RHEB-1
+description: '**RHEB-1** is the C. elegans orthologue of the small GTPase Rheb. It
+  is a key activator of mTOR (CeTOR).'
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Protein
+aliases: [C. elegans Rheb ortholog]
 ---
 # RHEB-1
 

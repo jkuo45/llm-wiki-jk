@@ -1,24 +1,19 @@
 ---
 type: entity
-category: protein
+title: p33ING1b
+description: p33ING1b (Inhibitor of Growth Protein 1, encoded by ING1) is a tumor
+  suppressor protein that functions as a reader of the histone H3 trimethylation mark
+  H3K4me3 through its plant homeodomain (PHD) ...
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Protein
 aliases:
   - ING1
   - Inhibitor of Growth Protein 1
-database_ids:
-  uniprot: Q9UK53
-  hgnc: HGNC:6062
-relations:
-  - predicate: interacts_with
-    target: "SIRT1"
-    sources:
-      - PMID:16269335
-  - predicate: inhibits
-    target: "SIRT1"
-    sources:
-      - PMID:16269335
-created: 2026-07-04
-updated: 2026-07-04
 ---
+
+
+
 
 # p33ING1b
 

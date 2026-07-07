@@ -1,19 +1,17 @@
 ---
 type: entity
-category: protein
-aliases:
-  - MEF2D
-  - Myocyte-Specific Enhancer Factor 2D
-database_ids:
-  uniprot: Q14814
-  hgnc: HGNC:6997
-relations:
-  - predicate: regulated_by
-    target: "SIRT1"
-    sources:
-      - PMID:16166628
+title: MEF2D
+description: '**MEF2D** (Myocyte-specific enhancer factor 2D) is a member of the MEF2
+  (MADS-box transcription enhancer factor 2) family of transcription factors. It plays
+  critical roles in skeletal and cardiac m...'
 created: 2026-07-03
 updated: 2026-07-03
+entity_type_1: Protein
+aliases: [MEF2D, Myocyte-Specific Enhancer Factor 2D]
+
+sources:
+- PMID:16166628
+target: SIRT1
 ---
 
 # MEF2D

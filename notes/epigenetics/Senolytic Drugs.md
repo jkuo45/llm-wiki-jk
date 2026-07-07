@@ -1,11 +1,13 @@
 ---
 type: entity
-category: pharmacological_action
-entity_type: "Pharmacological Action"
+title: Senolytic Drugs
+description: '**Senolytic Drugs** are a pharmacological class of agents that selectively
+  eliminate Cellular Senescence. Unlike conventional chemotherapeutics, senolytics
+  exploit specific survival pathways that s...'
 created: 2024-01-01
 updated: 2024-07-04
+entity_type_1: Pharmacological Action
 ---
-
 # Senolytic Drugs
 
 **Senolytic Drugs** are a pharmacological class of agents that selectively eliminate [[Cellular Senescence|senescent cells]]. Unlike conventional chemotherapeutics, senolytics exploit specific survival pathways that senescent cells upregulate to resist their own apoptotic program — a vulnerability known as senescent cell anti-apoptotic pathways (SCAPs).
@@ -50,6 +52,6 @@ Senolytics target these survival circuits. For example, [[Navitoclax]] (ABT-263)
 - **Combination strategies:** Sequential senolytic + [[Partial Reprogramming|partial reprogramming]] to reset the epigenome after clearing senescent cells.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Senescence]], [[notes/_link/Apoptosis]], [[SASP]], [[Bcl-2]], [[Dasatinib]], [[Quercetin]], [[Fisetin]], [[Navitoclax]]
+- New links added: [[Senescence]], [[Apoptosis]], [[SASP]], [[Bcl-2]], [[Dasatinib]], [[Quercetin]], [[Fisetin]], [[Navitoclax]]
 - Suggested new entity notes to create: [[SCAPs]], [[Senomorphics]], [[PROTAC]]
-- Strong connections to strengthen: [[Senolytic Drugs]] ↔ [[notes/_link/Senescence]], [[Senolytic Drugs]] ↔ [[notes/_link/Senolytics]]
+- Strong connections to strengthen: [[Senolytic Drugs]] ↔ [[Senescence]], [[Senolytic Drugs]] ↔ [[Senolytics]]

@@ -1,11 +1,12 @@
 ---
 type: entity
-category: Chemical Process
-aliases: []
+title: Glycation
+description: Glycation is a spontaneous non-enzymatic reaction of free reducing sugars
+  with free amino groups of proteins, DNA, and lipids.
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Chemical Process
 ---
-
 # Glycation
 
 Glycation is a spontaneous non-enzymatic reaction of free reducing sugars with free amino groups of proteins, DNA, and lipids.
@@ -29,11 +30,11 @@ Glycation proceeds through three sequential stages. **Stage 1** begins with the 
 
 ## Kinetics of Glycation vs Glycoxidation
 
-The rate of glycation is governed by the concentration and reactivity of the sugar. [[Glucose]], despite being the most abundant circulating sugar, is the least reactive due to its predominant cyclic hemiacetal form (only ~0.002% exists as the open-chain aldehyde). [[Fructose]] and [[Ribose]] are markedly more reactive. Glycoxidation refers to the synergistic acceleration of glycation under oxidative conditions: [[Oxidative Stress]] enhances the fragmentation of Amadori products to dicarbonyls, while the resulting AGEs generate additional [[notes/_link/Reactive Oxygen Species]] through metal-catalyzed redox cycling. This creates a destructive feedback loop between glycation and [[Oxidative Stress]].
+The rate of glycation is governed by the concentration and reactivity of the sugar. [[Glucose]], despite being the most abundant circulating sugar, is the least reactive due to its predominant cyclic hemiacetal form (only ~0.002% exists as the open-chain aldehyde). [[Fructose]] and [[Ribose]] are markedly more reactive. Glycoxidation refers to the synergistic acceleration of glycation under oxidative conditions: [[Oxidative Stress]] enhances the fragmentation of Amadori products to dicarbonyls, while the resulting AGEs generate additional [[Reactive Oxygen Species]] through metal-catalyzed redox cycling. This creates a destructive feedback loop between glycation and [[Oxidative Stress]].
 
 ## Accumulation in Aging Tissues
 
-AGEs accumulate progressively in long-lived proteins, including [[Collagen]], [[Elastin]], [[Lens crystallins]], and [[Myelin]]. The half-life of AGE adducts on extracellular matrix proteins can exceed decades, making them reliable biomarkers of biological aging. Accumulation correlates with arterial stiffness, reduced skin elasticity, lens opacity ([[Cataract]]), and impaired renal function. The receptor for AGEs ([[RAGE]]), when activated, triggers pro-inflammatory [[NF-κB]] signaling, linking glycation to chronic low-grade inflammation ([[Inflammaging]]). Pharmacological strategies targeting AGE formation or crosslink breakage (e.g., [[Alagebrium]]) remain under investigation.
+AGEs accumulate progressively in long-lived proteins, including [[Collagen]], [[Elastin]], [[Lens crystallins]], and [[Myelin]]. The half-life of AGE adducts on extracellular matrix proteins can exceed decades, making them reliable biomarkers of biological aging. Accumulation correlates with arterial stiffness, reduced skin elasticity, lens opacity ([[Cataract]]), and impaired renal function. The receptor for AGEs ([[RAGE]]), when activated, triggers pro-inflammatory [[NFκB]] signaling, linking glycation to chronic low-grade inflammation ([[Inflammaging]]). Pharmacological strategies targeting AGE formation or crosslink breakage (e.g., [[Alagebrium]]) remain under investigation.
 
 ## Linking Summary
 
@@ -43,4 +44,4 @@ AGEs accumulate progressively in long-lived proteins, including [[Collagen]], [[
 
 ## Updated Links
 
-- Additional new links: [[Lysine]], [[Glucose]], [[Fructose]], [[Ribose]], [[Schiff base]], [[Amadori rearrangement]], [[3-deoxyglucosone]], [[Glyoxal]], [[Methylglyoxal]], [[Nε-carboxymethyllysine]], [[Pentosidine]], [[Crossline]], [[Collagen]], [[Elastin]], [[Lens crystallins]], [[Myelin]], [[Cataract]], [[RAGE]], [[NF-κB]], [[Inflammaging]], [[Alagebrium]]
+- Additional new links: [[Lysine]], [[Glucose]], [[Fructose]], [[Ribose]], [[Schiff base]], [[Amadori rearrangement]], [[3-deoxyglucosone]], [[Glyoxal]], [[Methylglyoxal]], [[Nε-carboxymethyllysine]], [[Pentosidine]], [[Crossline]], [[Collagen]], [[Elastin]], [[Lens crystallins]], [[Myelin]], [[Cataract]], [[RAGE]], [[NFκB]], [[Inflammaging]], [[Alagebrium]]

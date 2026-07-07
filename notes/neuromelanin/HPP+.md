@@ -1,11 +1,11 @@
 ---
 type: entity
-category: toxin
-aliases: []
+title: HPP+
+description: '- New links added: Haloperidol, MPP+, Neuromelanin.'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Toxin
 ---
-
 # HPP+
 
 [[HPP+]] (4-(4-chlorophenyl)-1-[4-(4-fluorophenyl)-4-oxobutyl]pyridinium) is a toxic pyridinium metabolite of [[Haloperidol]] that is structurally similar to [[MPP+]] and may induce neurotoxicity.

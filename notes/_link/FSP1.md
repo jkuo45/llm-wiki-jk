@@ -1,11 +1,14 @@
 ---
 type: entity
-category: protein
-aliases: ["Ferroptosis Suppressor Protein 1", "AIFM2"]
+title: FSP1
+description: '**Overview:** FSP1 is a cellular protein with structural, signaling,
+  or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
+  and signaling networks that govern cell...'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Protein
+aliases: [Ferroptosis Suppressor Protein 1, AIFM2]
 ---
-
 # FSP1
 
 **Overview:** FSP1 is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern cell behavior.
@@ -15,3 +18,11 @@ updated: 2026-07-04
 **Cellular function:** FSP1 plays a role in signal transduction, gene expression regulation, cytoskeletal organization, or metabolic control. Its localization and activity are dynamically regulated in response to cellular cues.
 
 **Pathological significance:** Altered expression or mutation of FSP1 is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
+
+### Connections
+- [[FSP1]] — related entity
+
+### Linking Summary
+- New links added: [[FSP1]]
+- Strong connections to strengthen: [[FSP1]] ↔ [[FSP1]]
+

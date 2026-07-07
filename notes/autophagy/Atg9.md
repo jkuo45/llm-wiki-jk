@@ -1,10 +1,12 @@
 ---
-aliases:
-- ATG9A
-category: Protein
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: Atg9
+description: Atg9 is a transmembrane protein that serves as a carrier for membrane
+  delivery to the expanding Autophagosome during its biogenesis.
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Protein
+aliases: [ATG9A]
 ---
 # Atg9
 

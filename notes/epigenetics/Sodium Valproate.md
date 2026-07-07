@@ -1,9 +1,11 @@
 ---
 type: entity
-category: chemical
-entity_type: "Chemical Compound"
+title: Sodium Valproate
+description: Sodium Valproate is a chemical compound used to treat epilepsy and bipolar
+  disorder that also acts as a histone deacetylase (HDAC) inhibitor.
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: Chemical Compound
 ---
 # Sodium Valproate
 Sodium Valproate is a chemical compound used to treat epilepsy and bipolar disorder that also acts as a histone deacetylase (HDAC) inhibitor.

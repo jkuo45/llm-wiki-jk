@@ -1,10 +1,13 @@
 ---
-aliases:
-- LSDs
-category: Medical Condition
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: Lysosomal Storage Disorders
+description: Lysosomal storage disorders (LSDs) are a group of inherited metabolic
+  diseases characterized by lysosomal dysfunction; targeting TFEB to enhance lysosomal
+  biogenesis is a major therapeutic strategy.
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Medical Condition
+aliases: [LSDs]
 ---
 # Lysosomal Storage Disorders
 

@@ -1,9 +1,12 @@
 ---
 type: entity
-category: anatomy
-entity_type: "Anatomy"
+title: Extracellular Matrix
+description: The Extracellular Matrix (ECM) is a three-dimensional network consisting
+  of extracellular macromolecules and minerals, such as collagen, enzymes, and glycoproteins,
+  that provide structural and bioc...
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: Anatomy
 ---
 # Extracellular Matrix
 
@@ -13,4 +16,4 @@ The [[Extracellular Matrix]] ([[ECM]]) is a three-dimensional network consisting
 
 - New links added: [[ECM]], [[Quiescence]], [[Fibroblast]], [[Integrin]]
 - Suggested new entity notes to create: [[Collagen]], [[Laminin]]
-- Strong connections to strengthen: [[Extracellular Matrix]] ↔ [[notes/_link/Aging]]
+- Strong connections to strengthen: [[Extracellular Matrix]] ↔ [[Aging]]

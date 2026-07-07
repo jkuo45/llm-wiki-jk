@@ -1,11 +1,13 @@
 ---
 type: entity
-category: anatomy
-aliases: ["NAc"]
+title: Nucleus Accumbens
+description: '**Overview:** Nucleus Accumbens is a specialized cellular or anatomical
+  structure with defined functions in tissue organization and physiology.'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Anatomy
+aliases: [NAc]
 ---
-
 # Nucleus Accumbens
 
 **Overview:** Nucleus Accumbens is a specialized cellular or anatomical structure with defined functions in tissue organization and physiology.
@@ -15,3 +17,11 @@ updated: 2026-07-04
 **Physiological function:** Nucleus Accumbens contributes to tissue homeostasis through specific mechanical, secretory, signaling, or barrier functions. Its activity is integrated with surrounding cells and systems.
 
 **Pathological relevance:** Dysfunction or loss of Nucleus Accumbens underlies specific disease states. Understanding its biology provides insights into regenerative medicine and therapeutic targeting.
+
+### Connections
+- [[Nucleus Accumbens]] — related entity
+
+### Linking Summary
+- New links added: [[Nucleus Accumbens]]
+- Strong connections to strengthen: [[Nucleus Accumbens]] ↔ [[Nucleus Accumbens]]
+

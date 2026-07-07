@@ -1,6 +1,16 @@
+---
+type: entity
+title: Inhibitor of Apoptosis Proteins
+description: '**Inhibitor of Apoptosis Proteins** (IAPs) are a family of proteins
+  that serve as endogenous inhibitors of caspases, thereby regulating Apoptosis, cytokinesis,
+  and signal transduction.'
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Enzyme
+---
 # Inhibitor of Apoptosis Proteins
 
-**Inhibitor of Apoptosis Proteins** (IAPs) are a family of proteins that serve as endogenous inhibitors of caspases, thereby regulating [[notes/_link/Apoptosis]], cytokinesis, and signal transduction.
+**Inhibitor of Apoptosis Proteins** (IAPs) are a family of proteins that serve as endogenous inhibitors of caspases, thereby regulating [[Apoptosis]], cytokinesis, and signal transduction.
 
 ## Members
 To date, eight human IAPs have been identified:
@@ -20,15 +30,15 @@ IAPs inhibit apoptosis by:
 - Sequestering caspases away from their substrates.
 
 ## Role in Cancer
-IAPs are frequently overexpressed in cancer, contributing to drug resistance and tumor survival. They are targeted by [[Smac/DIABLO]] mimetics to restore apoptotic sensitivity.
+IAPs are frequently overexpressed in cancer, contributing to drug resistance and tumor survival. They are targeted by [[Smac DIABLO]]/[[Smac DIABLO]] mimetics to restore apoptotic sensitivity.
 
 ## Connections
 - [[XIAP]]: The most potent member.
 - [[Survivin]]: A key member overexpressed in many cancers.
-- [[Smac/DIABLO]]: An endogenous antagonist of IAPs.
-- [[notes/_link/Apoptosis]]: Regulated by IAPs.
+- [[Smac DIABLO]]/[[Smac DIABLO]]: An endogenous antagonist of IAPs.
+- [[Apoptosis]]: Regulated by IAPs.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Apoptosis]], [[XIAP]], [[Survivin]], [[Smac/DIABLO]], [[Caspase-3]], [[Caspase-7]], [[Caspase-9]]
-- Suggested new entity notes to create: [[Smac/DIABLO]], [[Caspase-7]]
-- Strong connections to strengthen: [[Inhibitor of Apoptosis Proteins]] ↔ [[Smac/DIABLO]]
+- New links added: [[Apoptosis]], [[XIAP]], [[Survivin]], [[Smac DIABLO]]/[[Smac DIABLO]], [[Caspase-3]], [[Caspase-7]], [[Caspase-9]]
+- Suggested new entity notes to create: [[Smac DIABLO]]/[[Smac DIABLO]], [[Caspase-7]]
+- Strong connections to strengthen: [[Inhibitor of Apoptosis Proteins]] ↔ [[Smac DIABLO]]/[[Smac DIABLO]]

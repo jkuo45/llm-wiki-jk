@@ -1,26 +1,28 @@
 ---
 type: entity
-category: Biological Process
-aliases: []
+title: Myeloperoxidase Pathway
+description: The Myeloperoxidase Pathway is a biochemical sequence in Neutrophils
+  where the enzyme Myeloperoxidase uses Hydrogen Peroxide to catalyze the formation
+  of potent oxidants like hypochlorous acid (HOCl).
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Biological Process
 ---
-
 # Myeloperoxidase Pathway
 
-The Myeloperoxidase Pathway is a biochemical sequence in [[notes/_link/Neutrophils]] where the enzyme [[notes/_link/Myeloperoxidase]] uses [[notes/_link/Hydrogen Peroxide]] to catalyze the formation of potent oxidants like hypochlorous acid (HOCl).
+The Myeloperoxidase Pathway is a biochemical sequence in [[Neutrophils]] where the enzyme [[Myeloperoxidase]] uses [[Hydrogen Peroxide]] to catalyze the formation of potent oxidants like hypochlorous acid (HOCl).
 
 ### Linking Summary:
-- New links added: [[notes/_link/Neutrophils]], [[notes/_link/Myeloperoxidase]], [[notes/_link/Hydrogen Peroxide]]
+- New links added: [[Neutrophils]], [[Myeloperoxidase]], [[Hydrogen Peroxide]]
 - Suggested new entity notes to create: [[Hypochlorous Acid]]
 - Strong connections to strengthen: [[Myeloperoxidase Pathway]] ↔ [[Adrenaline catabolism]]
 
 ## Detailed Mechanism
 
-The [[notes/_link/Myeloperoxidase]] (MPO) pathway is the central effector system of the neutrophil respiratory burst. MPO is a heme-containing peroxidase stored at high concentrations (~5% of total neutrophil protein) in azurophilic granules. Upon neutrophil activation, these granules fuse with phagosomes or the plasma membrane, releasing MPO into the phagosomal lumen or extracellular space. The catalytic cycle proceeds as follows:
+The [[Myeloperoxidase]] (MPO) pathway is the central effector system of the neutrophil respiratory burst. MPO is a heme-containing peroxidase stored at high concentrations (~5% of total neutrophil protein) in azurophilic granules. Upon neutrophil activation, these granules fuse with phagosomes or the plasma membrane, releasing MPO into the phagosomal lumen or extracellular space. The catalytic cycle proceeds as follows:
 
 1. **NAD(P)H Oxidase** (NOX2) assembles at the membrane and reduces molecular oxygen to superoxide (O₂⁻) in the respiratory burst.
-2. Superoxide spontaneously or enzymatically (via superoxide dismutase) dismutates to [[notes/_link/Hydrogen Peroxide]] (H₂O₂).
+2. Superoxide spontaneously or enzymatically (via superoxide dismutase) dismutates to [[Hydrogen Peroxide]] (H₂O₂).
 3. MPO uses H₂O₂ as a co-substrate to oxidize chloride (Cl⁻) to hypochlorous acid (HOCl):
    
    **MPO + H₂O₂ + Cl⁻ → MPO Compound I + H₂O**
@@ -30,7 +32,7 @@ The [[notes/_link/Myeloperoxidase]] (MPO) pathway is the central effector system
 
 ## Specificity for Epinephrine Oxidation
 
-HOCl is a potent two-electron oxidant (E°′ = 1.28 V for HOCl/Cl⁻) that rapidly reacts with [[notes/_link/Epinephrine]] at near-diffusion-limited rates. Unlike the one-electron oxidants (e.g., superoxide, H₂O₂ alone), HOCl directly converts epinephrine to its quinone in a single two-electron step without requiring transition metal catalysis. This makes MPO/HOCl one of the most efficient physiological catalysts of adrenochrome formation:
+HOCl is a potent two-electron oxidant (E°′ = 1.28 V for HOCl/Cl⁻) that rapidly reacts with [[Epinephrine]] at near-diffusion-limited rates. Unlike the one-electron oxidants (e.g., superoxide, H₂O₂ alone), HOCl directly converts epinephrine to its quinone in a single two-electron step without requiring transition metal catalysis. This makes MPO/HOCl one of the most efficient physiological catalysts of adrenochrome formation:
 
 **Epinephrine + HOCl → adrenaline-quinone + Cl⁻ + H₂O**
 
@@ -52,9 +54,9 @@ However, non-enzymatic oxidation becomes relevant when MPO-independent ROS sourc
 
 ## Role in Infection and Inflammation
 
-The MPO-HOCl system is a cornerstone of innate host defense, providing potent microbicidal activity against bacteria, fungi, and viruses. However, collateral host tissue damage occurs when MPO-derived oxidants exceed local antioxidant capacity. In chronic inflammatory diseases — rheumatoid arthritis, atherosclerosis, inflammatory bowel disease, and neurodegenerative conditions — MPO activity correlates with disease severity. The concurrent oxidation of epinephrine to adrenochrome in these settings adds a secondary pathogenic mechanism: adrenochrome can deplete [[notes/_link/Glutathione]], inactivate [[Aconitase]] and other Fe-S cluster enzymes, and promote mitochondrial dysfunction, amplifying the inflammatory redox cycle.
+The MPO-HOCl system is a cornerstone of innate host defense, providing potent microbicidal activity against bacteria, fungi, and viruses. However, collateral host tissue damage occurs when MPO-derived oxidants exceed local antioxidant capacity. In chronic inflammatory diseases — rheumatoid arthritis, atherosclerosis, inflammatory bowel disease, and neurodegenerative conditions — MPO activity correlates with disease severity. The concurrent oxidation of epinephrine to adrenochrome in these settings adds a secondary pathogenic mechanism: adrenochrome can deplete [[Glutathione]], inactivate [[Aconitase]] and other Fe-S cluster enzymes, and promote mitochondrial dysfunction, amplifying the inflammatory redox cycle.
 
 ### Linking Summary:
-- New links added: [[Hypochlorous Acid]], [[NAD(P)H Oxidase]], [[notes/_link/Epinephrine]], [[adrenaline-quinone]], [[Leuco-adrenochrome]], [[Adrenochrome]], [[notes/_link/Glutathione]], [[Aconitase]], [[Rheumatoid synovial fluid]], [[Autoxidation]], [[Atherosclerosis]], [[Ischemia-reperfusion]], [[Sympathetic nerve endings]], [[Platelets]], [[Neutrophil extracellular trap]]
+- New links added: [[Hypochlorous Acid]], [[NAD(P)H Oxidase]], [[Epinephrine]], [[adrenaline-quinone]], [[Leuco-adrenochrome]], [[Adrenochrome]], [[Glutathione]], [[Aconitase]], [[Rheumatoid synovial fluid]], [[Autoxidation]], [[Atherosclerosis]], [[Ischemia-reperfusion]], [[Sympathetic nerve endings]], [[Platelets]], [[Neutrophil extracellular trap]]
 - Suggested new entity notes to create: [[MPO-HOCl Oxidation Cascade]]
 - Strong connections to strengthen: [[Myeloperoxidase Pathway]] ↔ [[Adrenochrome Pathway]], [[Myeloperoxidase Pathway]] ↔ [[Inflammation]]

@@ -1,11 +1,14 @@
 ---
 type: entity
-category: chemical_class
-aliases: [Oxidized cholesterols, Cholesterol oxides]
+title: Oxysterols
+description: '**Oxysterols** are oxygenated derivatives of Cholesterol formed either
+  enzymatically (via cytochrome P450 enzymes like CYP27A1, CYP46A1, CYP7A1) or non-enzymatically
+  by Reactive Oxygen Species yiel...'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Chemical Class
+aliases: [Oxidized cholesterols, Cholesterol oxides]
 ---
-
 # Oxysterols
 
 **Oxysterols** are oxygenated derivatives of [[Cholesterol]] formed either enzymatically (via cytochrome P450 enzymes like CYP27A1, CYP46A1, CYP7A1) or non-enzymatically by [[Reactive Oxygen Species]] yielding over 30 distinct species including [[7-Ketocholesterol]], [[7β-hydroxycholesterol]], and [[25-hydroxycholesterol]].
@@ -18,4 +21,4 @@ updated: 2026-07-04
 
 ## Pathological Relevance
 
-Oxidized cholesterol species, particularly [[7-Ketocholesterol]], accumulate in [[Lipid Peroxidation|oxidized LDL]] within atherosclerotic plaques, promoting foam cell death, inflammation, and plaque instability. Oxysterols are elevated in [[notes/_link/Atherosclerosis]], [[notes/_link/Alzheimer's Disease|neurodegenerative diseases]], and age-related macular degeneration.
+Oxidized cholesterol species, particularly [[7-Ketocholesterol]], accumulate in [[Lipid Peroxidation|oxidized LDL]] within atherosclerotic plaques, promoting foam cell death, inflammation, and plaque instability. Oxysterols are elevated in [[Atherosclerosis]], [[Alzheimer's Disease|neurodegenerative diseases]], and age-related macular degeneration.

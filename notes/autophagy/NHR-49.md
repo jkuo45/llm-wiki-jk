@@ -1,10 +1,13 @@
 ---
-aliases:
-- C. elegans nuclear hormone receptor 49
-category: Gene
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: NHR-49
+description: '**NHR-49** (Nuclear Hormone Receptor 49) is a key transcriptional regulator
+  of fat metabolism in C. elegans, often considered a functional orthologue of mammalian
+  PPARα.'
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Gene
+aliases: [C. elegans nuclear hormone receptor 49]
 ---
 # NHR-49
 

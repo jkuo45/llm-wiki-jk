@@ -1,11 +1,14 @@
 ---
 type: entity
-category: protein
-aliases: ["MAP1LC3B"]
+title: LC3B
+description: '**Overview:** LC3B is a cellular protein with structural, signaling,
+  or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
+  and signaling networks that govern cell...'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Protein
+aliases: [MAP1LC3B]
 ---
-
 # LC3B
 
 **Overview:** LC3B is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern cell behavior.
@@ -15,3 +18,11 @@ updated: 2026-07-04
 **Cellular function:** LC3B plays a role in signal transduction, gene expression regulation, cytoskeletal organization, or metabolic control. Its localization and activity are dynamically regulated in response to cellular cues.
 
 **Pathological significance:** Altered expression or mutation of LC3B is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
+
+### Connections
+- [[LC3B]] — related entity
+
+### Linking Summary
+- New links added: [[LC3B]]
+- Strong connections to strengthen: [[LC3B]] ↔ [[LC3B]]
+

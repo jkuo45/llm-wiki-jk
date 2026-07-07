@@ -1,14 +1,17 @@
 ---
-aliases:
-- CRMs
-category: Pharmacological Action
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: Caloric Restriction Mimetics
+description: Caloric Restriction Mimetics (CRMs) are pharmacological compounds that
+  mimic the biochemical and functional effects of Caloric Restriction without the
+  need for actual food deprivation.
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Pharmacological Action
+aliases: [CRMs]
 ---
 # Caloric Restriction Mimetics
 
-Caloric Restriction Mimetics (CRMs) are pharmacological compounds that mimic the biochemical and functional effects of [[notes/_link/Caloric Restriction]] without the need for actual food deprivation.
+Caloric Restriction Mimetics (CRMs) are pharmacological compounds that mimic the biochemical and functional effects of [[Caloric Restriction]] without the need for actual food deprivation.
 
 ## Definition
 
@@ -18,6 +21,6 @@ CRMs are compounds that mimic the molecular effects of [[Caloric Restriction]] w
 [[Metformin]], [[Rapamycin]], [[Resveratrol]], [[Spermidine]], [[Trehalose]], [[Lithium]], [[Hydroxycitrate]], [[2-DG]]. Many CRMs are [[Autophagy Inducer]]s.
 
 ### Linking Summary:
-- New links added: [[notes/_link/Caloric Restriction]], [[notes/_link/AMPK]], [[notes/_link/mTOR]], [[Macroautophagy]]
+- New links added: [[Caloric Restriction]], [[AMPK]], [[mTOR]], [[Macroautophagy]]
 - Suggested new entity notes to create: 
-- Strong connections to strengthen: [[Caloric Restriction Mimetics]] ↔ [[notes/_link/Metformin]]
+- Strong connections to strengthen: [[Caloric Restriction Mimetics]] ↔ [[Metformin]]

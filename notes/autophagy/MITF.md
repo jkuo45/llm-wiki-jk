@@ -1,10 +1,12 @@
 ---
-aliases:
-- microphthalmia-associated transcription factor
-category: Gene
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: MITF
+description: Microphthalmia-associated transcription factor, a member of the MiTF
+  TFE family involved in melanocyte development and lysosomal regulation.
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Gene
+aliases: [microphthalmia-associated transcription factor]
 ---
 # MITF
 

@@ -1,11 +1,13 @@
 ---
 type: entity
-category: Protein
-aliases: []
+title: NLRP3 Inflammasome
+description: The NLRP3 inflammasome is a multi-protein complex that acts as a sensor
+  for a wide range of endogenous and exogenous danger signals, triggering the inflammatory
+  response.
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Protein
 ---
-
 # NLRP3 Inflammasome
 
 The NLRP3 inflammasome is a multi-protein complex that acts as a sensor for a wide range of endogenous and exogenous danger signals, triggering the inflammatory response.
@@ -20,7 +22,7 @@ The NLRP3 inflammasome represents a key interface where mitochondrial dysfunctio
 
 ## Two-Step Activation Model
 
-NLRP3 inflammasome activation follows a strict two-step mechanism. Signal 1 (priming) is provided by [[Toll-like Receptor]] (TLR) agonists, [[TNFα]], or [[IL-1β]], which activate [[NF-κB]] to upregulate transcription of NLRP3, pro-[[Interleukin 1β|IL-1β]], and pro-[[IL-18]]. This priming step also licenses NLRP3 through post-translational modifications, including deubiquitination by [[BRCC3]]. Signal 2 (activation) is triggered by diverse stimuli including extracellular [[ATP]] (via [[P2X7 receptor]]), pore-forming toxins (nigericin), particulate matter (uric acid crystals, silica, alum, amyloid β), [[Mitochondrial ROS]], and [[Mitochondrial DNA|mtDNA]] release.
+NLRP3 inflammasome activation follows a strict two-step mechanism. Signal 1 (priming) is provided by [[Toll-like Receptor]] (TLR) agonists, [[TNFα]], or [[Interleukin 1β]], which activate [[NFκB]] to upregulate transcription of NLRP3, pro-[[Interleukin 1β|IL-1β]], and pro-[[IL-18]]. This priming step also licenses NLRP3 through post-translational modifications, including deubiquitination by [[BRCC3]]. Signal 2 (activation) is triggered by diverse stimuli including extracellular [[ATP]] (via [[P2X7 receptor]]), pore-forming toxins (nigericin), particulate matter (uric acid crystals, silica, alum, amyloid β), [[Mitochondrial ROS]], and [[Mitochondrial DNA|mtDNA]] release.
 
 ## Assembly Mechanism
 

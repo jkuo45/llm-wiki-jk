@@ -1,3 +1,13 @@
+---
+type: entity
+title: Pyroptosis
+description: Pyroptosis is a type of inflammatory cell death induced by inflammasomes.
+  It is characterized by cell swelling and rupturing, leading to the release of proinflammatory
+  cytokines.
+created: 2026-07-06
+updated: 2026-07-06
+entity_type_1: Enzyme
+---
 # Pyroptosis
 
 Pyroptosis is a type of inflammatory cell death induced by inflammasomes. It is characterized by cell swelling and rupturing, leading to the release of proinflammatory cytokines.
@@ -15,10 +25,10 @@ Pyroptosis can inhibit tumor growth by inducing cell death and stimulating an in
 
 ## Connections
 - [[Ivermectin]]: Induces pyroptosis in certain cancer types.
-- [[notes/_link/Apoptosis]]: Pyroptosis is a form of programmed cell death distinct from apoptosis.
+- [[Apoptosis]]: Pyroptosis is a form of programmed cell death distinct from apoptosis.
 - [[NLRP3]]: A common inflammasome involved in pyroptosis.
 
 ## Linking Summary
-- New links added: [[Ivermectin]], [[notes/_link/Apoptosis]], [[NLRP3]].
+- New links added: [[Ivermectin]], [[Apoptosis]], [[NLRP3]].
 - Suggested new entity notes to create: [[ASC]], [[NLRP3]], [[GSDMD]].
 - Strong connections to strengthen: [[Pyroptosis]] ↔ [[Ivermectin]]

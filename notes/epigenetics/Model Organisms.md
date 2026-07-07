@@ -1,9 +1,11 @@
 ---
 type: entity
-category: model_organism
-entity_type: "Model Organism"
+title: Model Organisms
+description: '**Model organisms** are non-human species used in biomedical research
+  to understand biological processes, such as aging, in a controlled environment.'
 created: 2024-01-01
 updated: 2024-01-01
+entity_type_1: Model Organism
 ---
 # Model Organisms
 
@@ -17,4 +19,4 @@ updated: 2024-01-01
 
 ## Related
 - [[Geroscience]]
-- [[notes/_link/Aging]]
+- [[Aging]]

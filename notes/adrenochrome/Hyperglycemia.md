@@ -1,11 +1,12 @@
 ---
 type: entity
-category: Medical Condition
-aliases: []
+title: Hyperglycemia
+description: Hyperglycemia is a medical condition characterized by an abnormally high
+  concentration of glucose in the blood.
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Medical Condition
 ---
-
 # Hyperglycemia
 
 Hyperglycemia is a medical condition characterized by an abnormally high concentration of glucose in the blood.

@@ -1,11 +1,12 @@
 ---
 type: entity
-category: Gene
-aliases: []
+title: PARK7
+description: PARK7 (also known as DJ-1) is a multifunctional protein that plays a
+  critical role in cellular protection against oxidative stress and glycation.
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Gene
 ---
-
 # PARK7
 
 PARK7 (also known as DJ-1) is a multifunctional protein that plays a critical role in cellular protection against oxidative stress and glycation.

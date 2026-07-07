@@ -1,11 +1,13 @@
 ---
 type: entity
-category: scientific_concept
-aliases: []
+title: Macromolecular Crowding
+description: Macromolecular crowding is the high concentration of macromolecules in
+  the cellular environment, which can physically interfere with intracellular trafficking,
+  signaling, and proteostasis.
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Scientific Concept
 ---
-
 # Macromolecular Crowding
 
 Macromolecular crowding is the high concentration of macromolecules in the cellular environment, which can physically interfere with intracellular trafficking, signaling, and proteostasis.

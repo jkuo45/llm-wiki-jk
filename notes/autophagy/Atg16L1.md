@@ -1,10 +1,13 @@
 ---
-aliases:
-- ATG16-like 1
-category: Protein
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: Atg16L1
+description: '**Atg16L1** (Autophagy Related 16 Like 1) is a critical component of
+  the Atg12–Atg5–Atg16L1 complex, which acts as an E3-like enzyme to facilitate the
+  conjugation of Atg8 family proteins (such as L...'
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Protein
+aliases: [ATG16-like 1]
 ---
 # Atg16L1
 

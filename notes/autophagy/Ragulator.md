@@ -1,10 +1,13 @@
 ---
-aliases:
-- Rag GTPase regulator complex
-category: Scientific Concept
-created: '2026-07-04'
 type: entity
-updated: '2026-07-04'
+title: Ragulator
+description: The **Ragulator** complex is a pentameric protein complex (LAMTOR1-5)
+  that anchors Rag proteins to the lysosomal membrane and functions as a guanine nucleotide
+  exchange factor (GEF) for Rag protein...
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Scientific Concept
+aliases: [Rag GTPase regulator complex]
 ---
 # Ragulator
 

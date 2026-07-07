@@ -1,3 +1,10 @@
+---
+type: document
+title: TFEB Post-Translational Modification Sites
+created: '2026-07-06'
+description: Comprehensive table of TFEB PTM sites, regulating kinases, and functional
+  effects
+---
 | Site                                | PTM               | Kinase          | Effects of site PTM on TFEB                                                                  | References (PMID) |
 | ----------------------------------- | ----------------- | --------------- | -------------------------------------------------------------------------------------------- | ----------------- |
 | **S211**                            | Phosphorylation   | [[mTORC1]]      | Cytoplasmic retention                                                                        | 28055300          |
@@ -7,7 +14,7 @@
 | **S142**                            | Phosphorylation   | [[mTORC1]]      | Nuclear export                                                                               | 30120233          |
 | **S142**                            | Phosphorylation   | [[ERK2]]        | Cytoplasmic retention                                                                        | 21617040          |
 | **S142**                            | Phosphorylation   | [[ERK2]]        | Nuclear export                                                                               | 29992949          |
-| **S142**                            | Phosphorylation   | [[CDK4/6]]      | Nuclear export                                                                               | 32662822          |
+| **S142**                            | Phosphorylation   | [[CDK4]]/[[CDK6]]      | Nuclear export                                                                               | 32662822          |
 | **S142**                            | Dephosphorylation | [[calcineurin]] | Nucleus translocation                                                                        | 26043755          |
 | **S138**                            | Phosphorylation   | [[mTORC1]]      | Nuclear export                                                                               | 30120233          |
 | **S138**                            | Phosphorylation   | [[GSK3β]]       | Lysosomal localization                                                                       | 27617930          |

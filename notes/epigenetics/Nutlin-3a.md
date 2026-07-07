@@ -1,14 +1,16 @@
 ---
 type: entity
-category: chemical
-entity_type: "Chemical Compound"
+title: Nutlin-3a
+description: '**Nutlin-3a** is a potent, selective small-molecule inhibitor of the
+  MDM2-p53 interaction. By displacing p53 from MDM2 (the primary E3 ubiquitin ligase
+  that targets p53 for proteasomal degradation)...'
 created: 2024-01-01
 updated: 2024-07-04
+entity_type_1: Chemical Compound
 ---
-
 # Nutlin-3a
 
-**Nutlin-3a** is a potent, selective small-molecule inhibitor of the [[MDM2]]-[[p53]] interaction. By displacing p53 from MDM2 (the primary E3 ubiquitin ligase that targets p53 for proteasomal degradation), nutlin-3a stabilizes and activates [[notes/_link/p53|p53]], inducing cell cycle arrest, [[Cellular Senescence|senescence]], or [[notes/_link/Apoptosis|apoptosis]] depending on cellular context.
+**Nutlin-3a** is a potent, selective small-molecule inhibitor of the [[MDM2]]-[[p53]] interaction. By displacing p53 from MDM2 (the primary E3 ubiquitin ligase that targets p53 for proteasomal degradation), nutlin-3a stabilizes and activates [[p53|p53]], inducing cell cycle arrest, [[Cellular Senescence|senescence]], or [[Apoptosis|apoptosis]] depending on cellular context.
 
 ## Mechanism
 
@@ -42,6 +44,6 @@ Nutlin-3a is the most widely used tool for activating wild-type p53 without caus
 - [[MDM4]] can partially compensate for MDM2 inhibition in some cell types.
 
 ### Linking Summary:
-- New links added: [[notes/_link/p53]], [[notes/_link/Senescence]], [[notes/_link/Apoptosis]], [[MDM2]], [[p21]]
+- New links added: [[p53]], [[Senescence]], [[Apoptosis]], [[MDM2]], [[p21]]
 - Suggested new entity notes to create: [[MDM4]], [[Puma]], [[Noxa]], [[Nutlin-3]]
-- Strong connections to strengthen: [[Nutlin-3a]] ↔ [[notes/_link/p53]], [[Nutlin-3a]] ↔ [[notes/_link/Senescence]]
+- Strong connections to strengthen: [[Nutlin-3a]] ↔ [[p53]], [[Nutlin-3a]] ↔ [[Senescence]]

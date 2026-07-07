@@ -1,35 +1,21 @@
 ---
 type: entity
-category: protein
+title: Manganese Superoxide Dismutase (MnSOD/SOD2)
+description: Manganese Superoxide Dismutase (MnSOD/SOD2) is the primary mitochondrial
+  antioxidant enzyme responsible for dismutating Superoxide (O₂⁻) to hydrogen peroxide
+  (H₂O₂) and oxygen. It is encoded by the...
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Protein
 aliases:
   - SOD2
   - Manganese Superoxide Dismutase
   - Mn-SOD
   - MnSOD
-database_ids:
-  uniprot: P04179
-  hgnc: HGNC:11180
-relations:
-  - predicate: deacetylates_and_activates
-    target: "MnSOD"
-    sources:
-      - Tao 2010
-      - Chen 2011
-  - predicate: upregulates
-    target: "MnSOD"
-    sources:
-      - Michan 2007
-  - predicate: upregulates_via_AMPK
-    target: "MnSOD"
-    sources:
-      - Kim 2020
-  - predicate: inhibits
-    target: "MnSOD"
-    sources:
-      - Luo 2017
-created: 2026-07-04
-updated: 2026-07-04
 ---
+
+
+
 
 # Manganese Superoxide Dismutase (MnSOD/SOD2)
 
@@ -37,7 +23,7 @@ updated: 2026-07-04
 
 ## Sirtuin Regulation
 
-[[SIRT3]] deacetylates MnSOD at Lys68 and Lys122, dramatically increasing its ROS-scavenging activity. This deacetylation is enhanced by [[Honokiol]], a small-molecule SIRT3 activator. [[SIRT6]] upregulates MnSOD expression through [[AMPK]] activation. [[SIRT1]] contributes indirectly via [[FOXO3a]]-dependent transcriptional upregulation of SOD2. Conversely, [[SIRT4]] inhibits MnSOD activity through ADP-ribosylation, representing a counter-regulatory mechanism within the sirtuin network.
+[[SIRT3]] deacetylates MnSOD at Lys68 and Lys122, dramatically increasing its ROS-scavenging activity. This deacetylation is enhanced by [[Honokiol]], a small-molecule SIRT3 activator. [[SIRT6]] upregulates MnSOD expression through [[AMPK]] activation. [[SIRT1]] contributes indirectly via [[FOXO3a]]-dependent transcriptional upregulation of SOD2. Conversely, [[SIRT4]] inhibits MnSOD activity through ADP-ribosylation, representing a counter-regulatory mechanism within the sirtuin network. The opposing effects of SIRT3 and SIRT4 create the **[[SIRT3/SIRT4 Ratio]]**, a molecular redox dial that determines MnSOD activity and the mitochondrial [[Hormetic Window]].
 
 ## Physiological Role
 
@@ -49,6 +35,7 @@ MnSOD is a frontline defense against mitochondrial [[Oxidative Stress]]. Loss of
 - [[SIRT1]] — Upregulates SOD2 transcription via FOXO3a signaling
 - [[SIRT6]] — Upregulates MnSOD via AMPK-dependent pathway
 - [[SIRT4]] — Inhibits MnSOD activity via ADP-ribosylation
+- [[SIRT3/SIRT4 Ratio]] — Determines MnSOD activity and mitochondrial hormetic window
 - [[Resveratrol]] — Activates SIRT1/FOXO3a axis to upregulate MnSOD
 - [[Honokiol]] — Small molecule activator of SIRT3, enhancing MnSOD deacetylation
 - [[AMPK]] — Mediates SIRT6-driven MnSOD upregulation
@@ -60,4 +47,4 @@ MnSOD is a frontline defense against mitochondrial [[Oxidative Stress]]. Loss of
 
 - New links added: [[MnSOD]], [[SOD2]], [[Honokiol]], [[Superoxide]], [[DNA Damage]], [[Apoptosis]], [[Neurodegeneration]], [[Cardiovascular Disease]], [[Caloric Restriction]], [[Exercise]], [[FOXO3a]]
 - Suggested new entity notes to create: [[Mitochondrial Antioxidant Defense]]
-- Strong connections to strengthen: [[SIRT3]] ↔ [[MnSOD]], [[SIRT1]]/[[FOXO3a]] ↔ [[MnSOD]]
+- Strong connections to strengthen: [[SIRT3]] ↔ [[MnSOD]], [[SIRT1]]/[[FOXO3a]] ↔ [[MnSOD]], [[SIRT3/SIRT4 Ratio]] ↔ [[MnSOD]]

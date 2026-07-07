@@ -1,11 +1,13 @@
 ---
 type: entity
-category: Chemical Compound
-aliases: []
+title: Methylglyoxal
+description: Methylglyoxal (MG), also called pyruvaldehyde or 2-oxopropanal, is a
+  reactive dicarbonyl compound formed as a byproduct of several metabolic pathways,
+  including glycolysis. It is a highly potent pr...
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Chemical Compound
 ---
-
 # Methylglyoxal
 
 Methylglyoxal (MG), also called pyruvaldehyde or 2-oxopropanal, is a reactive dicarbonyl compound formed as a byproduct of several metabolic pathways, including glycolysis. It is a highly potent precursor in the formation of [[Advanced Glycation End Products]] (AGEs).
@@ -20,7 +22,7 @@ Methylglyoxal is among the most potent protein-glycating agents known, exhibitin
 
 ## Detoxification by the Glyoxalase System
 
-The primary defense against MG toxicity is the [[Glyoxalase System]], a ubiquitous two-enzyme pathway. [[Glyoxalase I]] (GLO1) isomerizes the non-enzymatic hemithioacetal adduct of MG and [[notes/_link/Glutathione]] (GSH) to S-D-lactoylglutathione. [[Glyoxalase II]] (GLO2) hydrolyzes this thioester to D-lactate, regenerating GSH. This catalytic cycle consumes one molecule of GSH per MG molecule detoxified, making the glyoxalase system exquisitely sensitive to intracellular GSH status. The KM of GLO1 for the MG-GSH hemithioacetal is approximately 15 µM, well below typical intracellular MG concentrations (1–5 µM), ensuring efficient detoxification under basal conditions. Under dicarbonyl stress, MG accumulation can exceed glyoxalase capacity, leading to depletion of GSH and a feed-forward cycle of increasing MG and AGE formation. [[Glyoxalase I]] expression is regulated by [[NRF2]], linking antioxidant response capacity to dicarbonyl defense. Polymorphisms in [[GLO1]] are associated with diabetic complications, and [[GLO1]] overexpression in transgenic models protects against nephropathy and neuropathy.
+The primary defense against MG toxicity is the [[Glyoxalase System]], a ubiquitous two-enzyme pathway. [[Glyoxalase I]] (GLO1) isomerizes the non-enzymatic hemithioacetal adduct of MG and [[Glutathione]] (GSH) to S-D-lactoylglutathione. [[Glyoxalase II]] (GLO2) hydrolyzes this thioester to D-lactate, regenerating GSH. This catalytic cycle consumes one molecule of GSH per MG molecule detoxified, making the glyoxalase system exquisitely sensitive to intracellular GSH status. The KM of GLO1 for the MG-GSH hemithioacetal is approximately 15 µM, well below typical intracellular MG concentrations (1–5 µM), ensuring efficient detoxification under basal conditions. Under dicarbonyl stress, MG accumulation can exceed glyoxalase capacity, leading to depletion of GSH and a feed-forward cycle of increasing MG and AGE formation. [[Glyoxalase I]] expression is regulated by [[NRF2]], linking antioxidant response capacity to dicarbonyl defense. Polymorphisms in [[GLO1]] are associated with diabetic complications, and [[GLO1]] overexpression in transgenic models protects against nephropathy and neuropathy.
 
 ## Dicarbonyl Stress and Pathological Consequences
 
@@ -28,9 +30,9 @@ When MG production exceeds detoxification capacity, a state of [[Dicarbonyl Stre
 
 ## Connection to Catecholamine Oxidation Pathways
 
-Recent evidence reveals a bidirectional relationship between methylglyoxal and [[Adrenochrome]] formation. MG directly increases the rate of [[notes/_link/Epinephrine]] oxidation to [[Adrenochrome]] through two mechanisms: (1) MG glycation of [[Superoxide Dismutase]] (SOD) reduces its activity, elevating [[Superoxide anion]] levels that oxidize epinephrine, and (2) MG chelates transition metal ions (Fe²⁺, Cu⁺) in a manner that enhances Fenton chemistry. Conversely, [[Adrenochrome]] and other aminochromes can inactivate [[Glyoxalase I]] through covalent modification of its active-site cysteine (Cys140), reducing MG clearance and establishing a reciprocal amplification loop between aminochrome formation and dicarbonyl stress. This crosstalk may be particularly relevant in [[Diabetic Cardiomyopathy]] and [[Parkinson's Disease]], where both pathways are chronically activated.
+Recent evidence reveals a bidirectional relationship between methylglyoxal and [[Adrenochrome]] formation. MG directly increases the rate of [[Epinephrine]] oxidation to [[Adrenochrome]] through two mechanisms: (1) MG glycation of [[Superoxide Dismutase]] (SOD) reduces its activity, elevating [[Superoxide anion]] levels that oxidize epinephrine, and (2) MG chelates transition metal ions (Fe²⁺, Cu⁺) in a manner that enhances Fenton chemistry. Conversely, [[Adrenochrome]] and other aminochromes can inactivate [[Glyoxalase I]] through covalent modification of its active-site cysteine (Cys140), reducing MG clearance and establishing a reciprocal amplification loop between aminochrome formation and dicarbonyl stress. This crosstalk may be particularly relevant in [[Diabetic Cardiomyopathy]] and [[Parkinson's Disease]], where both pathways are chronically activated.
 
 ## Linking Summary:
-- New links added: [[Advanced Glycation End Products]], [[Glycolysis]], [[Dicarbonyls]], [[Dihydroxyacetone Phosphate]], [[Glyceraldehyde-3-Phosphate]], [[Ketone Body]], [[Cytochrome P450]], [[Threonine Dehydrogenase]], [[Semicarbazide-Sensitive Amine Oxidase]], [[Hydroimidazolone]], [[Carboxyethyllysine]], [[Insulin Receptor Substrate 1]], [[Endothelial Nitric Oxide Synthase]], [[Dicarbonyl Stress]], [[Diabetes Mellitus]], [[Insulin Resistance]], [[Chronic Kidney Disease]], [[Aging]], [[Glyoxalase System]], [[GLO1]], [[GLO2]], [[NRF2]], [[notes/_link/Glutathione]], [[Superoxide Dismutase]], [[Adrenochrome]], [[notes/_link/Epinephrine]], [[Diabetic Cardiomyopathy]], [[Parkinson's Disease]]
+- New links added: [[Advanced Glycation End Products]], [[Glycolysis]], [[Dicarbonyls]], [[Dihydroxyacetone Phosphate]], [[Glyceraldehyde-3-Phosphate]], [[Ketone Body]], [[Cytochrome P450]], [[Threonine Dehydrogenase]], [[Semicarbazide-Sensitive Amine Oxidase]], [[Hydroimidazolone]], [[Carboxyethyllysine]], [[Insulin Receptor Substrate 1]], [[Endothelial Nitric Oxide Synthase]], [[Dicarbonyl Stress]], [[Diabetes Mellitus]], [[Insulin Resistance]], [[Chronic Kidney Disease]], [[Aging]], [[Glyoxalase System]], [[GLO1]], [[GLO2]], [[NRF2]], [[Glutathione]], [[Superoxide Dismutase]], [[Adrenochrome]], [[Epinephrine]], [[Diabetic Cardiomyopathy]], [[Parkinson's Disease]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Methylglyoxal]] ↔ [[Advanced Glycation End Products]], [[Methylglyoxal]] ↔ [[Adrenochrome]]

@@ -1,27 +1,21 @@
 ---
 type: entity
-category: protein
+title: SERCA2a
+description: SERCA2a (Sarco/Endoplasmic Reticulum Ca2+-ATPase 2a, encoded by ATP2A2)
+  is a P-type ATPase that pumps Ca2+ from the cytosol into the sarcoplasmic reticulum
+  lumen. It is the dominant SERCA isoform i...
+created: 2026-07-04
+updated: 2026-07-04
+entity_type_1: Protein
 aliases:
   - ATP2A2
   - Sarco/Endoplasmic Reticulum Ca2+-ATPase 2a
   - SERCA2
   - Calcium pump 2
-database_ids:
-  uniprot: P16615
-  hgnc: HGNC:812
-relations:
-  - predicate: deacetylated_by
-    target: "SIRT1"
-    sources:
-      - Shinmura 2015
-  - predicate: restored_by
-    target: "SIRT1"
-    sources:
-      - Shinmura 2015
-      - Gorski 2019
-created: 2026-07-04
-updated: 2026-07-04
 ---
+
+
+
 
 # SERCA2a
 

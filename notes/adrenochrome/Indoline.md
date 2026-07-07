@@ -1,11 +1,13 @@
 ---
 type: entity
-category: Chemical Compound
-aliases: []
+title: Indoline
+description: '**Indoline** is a heterocyclic organic compound consisting of a six-membered
+  benzene ring fused to a five-membered nitrogen-containing ring. It is the partially
+  hydrogenated version of indole.'
 created: 2026-07-04
 updated: 2026-07-04
+entity_type_1: Chemical Compound
 ---
-
 # Indoline
 
 **Indoline** is a heterocyclic organic compound consisting of a six-membered benzene ring fused to a five-membered nitrogen-containing ring. It is the partially hydrogenated version of indole.
