@@ -16,6 +16,16 @@ Tuberous sclerosis complex 2 (TSC2), also known as tuberin, is a protein that, i
 
 TSC2 (tuberin) forms a complex with [[TSC1]] that acts as a GAP for [[Rheb]], suppressing [[mTORC1]]. TSC2 mutations cause [[Tuberous Sclerosis Complex]].
 
+## Connections
+
+- [[TSC1]]: # TSC2 Tuberous sclerosis complex 2 (TSC2), also known as tuberin, is a protein that, in complex with TSC1, negativel...
+- [[mTORC1]]: # TSC2 Tuberous sclerosis complex 2 (TSC2), also known as tuberin, is a protein that, in complex with [[TSC1]], negat...
+- [[growth factors]]: # TSC2 Tuberous sclerosis complex 2 (TSC2), also known as tuberin, is a protein that, in complex with [[TSC1]], negat...
+- [[energy status]]: # TSC2 Tuberous sclerosis complex 2 (TSC2), also known as tuberin, is a protein that, in complex with [[TSC1]], negat...
+- [[stress]]: # TSC2 Tuberous sclerosis complex 2 (TSC2), also known as tuberin, is a protein that, in complex with [[TSC1]], negat...
+- [[Rheb]]: TSC2 (tuberin) forms a complex with [[TSC1]] that acts as a GAP for Rheb, suppressing [[mTORC1]].
+- [[Tuberous Sclerosis Complex]]: TSC2 mutations cause Tuberous Sclerosis Complex.
+
 ## Linking Summary
 - New links added: [[TSC1]], [[mTORC1]], [[Akt|AKT]], [[AMPK]], [[ERK1_2]], [[REDD1]]
 - Suggested new entity notes to create: 

@@ -15,3 +15,8 @@ The [[Oxygen-dissociation curve]] describes the relationship between the partial
 ## Connections
 - [[Hemoglobin]]: The molecule whose oxygen affinity is described by this curve.
 - [[Methemoglobinemia]]: Causes a left shift in this curve.
+
+## Linking Summary
+- New links added: [[Hemoglobin]], [[Methemoglobinemia]], [[Oxygen-dissociation curve]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[Oxygen-dissociation curve]] ↔ [[Oxygen-dissociation curve]], [[Oxygen-dissociation curve]] ↔ [[Methemoglobinemia]], [[Oxygen-dissociation curve]] ↔ [[Hemoglobin]]

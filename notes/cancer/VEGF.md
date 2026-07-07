@@ -12,6 +12,12 @@ entity_type_1: Receptor
 
 Vascular Endothelial Growth Factor (VEGF) is a signal protein produced by cells that stimulates [[Angiogenesis]], often working in concert with [[Integrins]] and receptors like [[Neuropilin-1]] to promote tumor vascularization.
 
+## Connections
+
+- [[Angiogenesis]]: Vascular Endothelial Growth Factor (VEGF) is a signal protein produced by cells that stimulates Angiogenesis, often w...
+- [[Integrins]]: Vascular Endothelial Growth Factor (VEGF) is a signal protein produced by cells that stimulates [[Angiogenesis]], oft...
+- [[Neuropilin-1]]: Vascular Endothelial Growth Factor (VEGF) is a signal protein produced by cells that stimulates [[Angiogenesis]], oft...
+
 ## Linking Summary
 - New links added: [[Angiogenesis]], [[Integrins]], [[Neuropilin-1]]
 - Suggested new entity notes to create: [[VEGFR]]

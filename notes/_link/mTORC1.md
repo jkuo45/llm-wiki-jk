@@ -1,7 +1,8 @@
 ---
+
 type: entity
 title: mTORC1
-description: '**mTORC1** (mechanistic target of rapamycin complex 1) is a multi-protein
+description: 'mTORC1 (mechanistic target of rapamycin complex 1) is a multi-protein
   signaling complex that integrates nutrient, energy, and growth factor signals to
   coordinate Cell Growth, Protein Synthesis,...'
 created: 2024-01-01
@@ -10,7 +11,9 @@ entity_type_1: Protein
 aliases: [mechanistic target of rapamycin complex 1, mTOR Complex 1, mTORC1]
 database_ids:
   mesh: D058505
+
 ---
+
 # mTORC1
 
 **mTORC1** (mechanistic target of rapamycin complex 1) is a multi-protein signaling complex that integrates nutrient, energy, and growth factor signals to coordinate [[Cell Growth]], [[Protein Synthesis]], [[Lipid Synthesis]], [[Ribosome Biogenesis]], and [[Autophagy]]. It is the central node of the [[mTOR]] signaling network and a master regulator of anabolic-catabolic balance in eukaryotic cells.

@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: Chaperone-Mediated Autophagy
-description: '**Chaperone-Mediated Autophagy** (CMA) is a highly selective type of
+description: 'Chaperone-Mediated Autophagy (CMA) is a highly selective type of
   Autophagy that targets specific proteins for degradation in the Lysosome.'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Biological Process
 aliases: [CMA]
+
 ---
+
 # Chaperone-Mediated Autophagy
 
 **Chaperone-Mediated Autophagy** (CMA) is a highly selective type of [[Autophagy]] that targets specific proteins for degradation in the [[Lysosome]].
@@ -25,6 +28,14 @@ aliases: [CMA]
 ## Process
 
 CMA selectively degrades cytosolic proteins with KFERQ-like motifs via [[HSC70]] recognition and [[LAMP-2A]] translocation into lysosomes, independent of vesicle formation.
+
+## Connections
+
+- [[Autophagy]]: **Chaperone-Mediated Autophagy** (CMA) is a highly selective type of Autophagy that targets specific proteins for deg...
+- [[Lysosome]]: **Chaperone-Mediated Autophagy** (CMA) is a highly selective type of [[Autophagy]] that targets specific proteins for...
+- [[LAMP-2A]]: - The complex interacts with LAMP-2A (lysosome-associated membrane protein type 2A), which facilitates the translocat...
+- [[Aging]]: - Its decline with Aging is associated with the accumulation of toxic protein aggregates.
+- [[HSC70]]: CMA selectively degrades cytosolic proteins with KFERQ-like motifs via HSC70 recognition and [[LAMP-2A]] translocatio...
 
 ## Linking Summary
 - New links added: [[Autophagy]], [[Lysosome]], [[LAMP-2A]], [[Aging]]

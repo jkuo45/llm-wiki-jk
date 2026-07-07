@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: Dopamine
-description: '**Dopamine** is a critical catecholamine neurotransmitter in the brain
+description: 'Dopamine is a critical catecholamine neurotransmitter in the brain
   and peripheral nervous system, playing key roles in reward, motivation, motor control,
   and executive function.'
 created: 2026-05-29
 updated: 2026-05-29
 entity_type_1: Biological Molecule
+
 ---
+
 # Dopamine
 **Dopamine** is a critical catecholamine neurotransmitter in the brain and peripheral nervous system, playing key roles in reward, motivation, motor control, and executive function.
 Dopamine is a neurotransmitter that plays several important roles in the brain and body, and the loss of dopaminergic neurons in the [[Substantia Nigra]] is the hallmark of [[Parkinson's Disease]].

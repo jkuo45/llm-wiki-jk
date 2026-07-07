@@ -1,12 +1,15 @@
 ---
+
 type: entity
 title: Bisulfite
-description: '**Bisulfite** refers to the bisulfite ion (HSO₃⁻) or compounds containing
+description: 'Bisulfite refers to the bisulfite ion (HSO₃⁻) or compounds containing
   this ion, such as sodium bisulfite.'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Chemical Compound
+
 ---
+
 # Bisulfite
 
 **Bisulfite** refers to the bisulfite ion (HSO₃⁻) or compounds containing this ion, such as sodium bisulfite.
@@ -19,3 +22,8 @@ Bisulfites are commonly used as [[Antioxidants]] in [[Epinephrine]] formulations
 - [[Sodium Metabisulfite]]
 - [[Adrenochrome sulfonate]]
 - [[Epinephrine]]
+
+## Linking Summary
+- New links added: [[Adrenochrome]], [[Adrenochrome sulfonate]], [[Antioxidants]], [[Epinephrine]], [[Sodium Metabisulfite]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[Bisulfite]] ↔ [[Adrenochrome sulfonate]], [[Bisulfite]] ↔ [[Sodium Metabisulfite]], [[Bisulfite]] ↔ [[Antioxidants]]

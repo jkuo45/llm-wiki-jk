@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: LIPL-4
-description: '**LIPL-4** is a triglyceride lipase in C. elegans that is expressed
+description: 'LIPL-4 is a triglyceride lipase in C. elegans that is expressed
   in the pharynx and intestine. Unlike other members of the LIPL family, it is not
   predicted to be lysosomal and its expression is ...'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Enzyme
 aliases: [C. elegans lysosomal lipase 4]
+
 ---
+
 # LIPL-4
 
 **LIPL-4** is a triglyceride lipase in [[C. elegans]] that is expressed in the pharynx and intestine. Unlike other members of the LIPL family, it is not predicted to be lysosomal and its expression is not repressed by [[MXL-3]] under well-fed conditions.
@@ -20,6 +23,13 @@ aliases: [C. elegans lysosomal lipase 4]
 ## Function
 
 LIPL-4 is a C. elegans lysosomal lipase required for the longevity benefits of [[Dietary Restriction]]. It activates nuclear hormone receptor [[NHR-49]].
+
+## Connections
+
+- [[C. elegans]]: **LIPL-4** is a triglyceride lipase in C. elegans that is expressed in the pharynx and intestine.
+- [[MXL-3]]: Unlike other members of the LIPL family, it is not predicted to be lysosomal and its expression is not repressed by M...
+- [[Dietary Restriction]]: elegans lysosomal lipase required for the longevity benefits of Dietary Restriction.
+- [[NHR-49]]: It activates nuclear hormone receptor NHR-49.
 
 ## Linking Summary
 - New links added: [[C. elegans]], [[MXL-3]]

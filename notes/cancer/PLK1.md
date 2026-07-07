@@ -1,13 +1,21 @@
 ---
+
 type: entity
 title: PLK1
-description: '- New links added: PLK1, Bcl-xL, Phosphorylation'
+description: 'PLK1 (Polo-like kinase 1) is a key regulator of mitosis that phosphorylates Bcl-xL at Ser62 during cell cycle (G2) arrest, leading to its inactivation.'
 created: 2026-07-06
 updated: 2026-07-06
 entity_type_1: Enzyme
+
 ---
+
 # PLK1
 [[PLK1]] (Polo-like kinase 1) is a key regulator of mitosis that phosphorylates [[Bcl-xL]] at Ser62 during cell cycle (G2) arrest, leading to its inactivation.
+
+## Connections
+
+- [[PLK1]]: # PLK1 PLK1 (Polo-like kinase 1) is a key regulator of mitosis that phosphorylates [[Bcl-xL]] at Ser62 during cell cy...
+- [[Bcl-xL]]: # PLK1 [[PLK1]] (Polo-like kinase 1) is a key regulator of mitosis that phosphorylates Bcl-xL at Ser62 during cell cy...
 
 ## Linking Summary
 - New links added: [[PLK1]], [[Bcl-xL]], [[Phosphorylation]]

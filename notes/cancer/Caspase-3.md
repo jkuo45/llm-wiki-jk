@@ -1,7 +1,8 @@
 ---
+
 type: entity
 title: Caspase-3
-description: '**Caspase-3** is a protease enzyme that plays a central role in the
+description: 'Caspase-3 is a protease enzyme that plays a central role in the
   execution-phase of cell Apoptosis. It is the primary executioner caspase, responsible
   for cleaving a wide array of cellular subst...'
 created: 2026-07-04
@@ -12,7 +13,9 @@ database_ids:
   mesh: D020169
   uniprot: P42574
   hgnc: HGNC:1504
+
 ---
+
 # Caspase-3
 
 **Caspase-3** is a protease enzyme that plays a central role in the execution-phase of cell [[Apoptosis|apoptosis]]. It is the primary executioner caspase, responsible for cleaving a wide array of cellular substrates that orchestrate apoptotic cell death — including structural proteins ([[Lamins]], [[Actin]]), DNA repair enzymes ([[PARP1]], [[DNA-PKcs]]), and inhibitors of nucleases ([[ICAD]]/[[DFF45]]).

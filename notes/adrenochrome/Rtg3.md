@@ -12,6 +12,12 @@ entity_type_1: Protein
 
 Rtg3 is a basic helix-loop-helix/leucine zipper transcription factor in [[S. cerevisiae]] that forms a heterodimer with [[Rtg1]] to regulate nuclear gene expression during the [[Retrograde Response]].
 
+## Connections
+
+- [[S. cerevisiae]]: Rtg3 is a basic helix-loop-helix/leucine zipper transcription factor in S. cerevisiae that forms a heterodimer with [...
+- [[Rtg1]]: cerevisiae]] that forms a heterodimer with Rtg1 to regulate nuclear gene expression during the [[Retrograde Response]].
+- [[Retrograde Response]]: cerevisiae]] that forms a heterodimer with [[Rtg1]] to regulate nuclear gene expression during the Retrograde Response.
+
 ## Linking Summary
 - New links added: [[S. cerevisiae]], [[Rtg1]], [[Retrograde Response]]
 - Suggested new entity notes to create: 

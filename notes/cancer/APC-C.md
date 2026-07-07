@@ -12,6 +12,10 @@ entity_type_1: Enzyme
 
 The Anaphase-Promoting Complex/Cyclosome (APC/C) is a large E3 ubiquitin ligase that triggers the transition from metaphase to anaphase and can also target [[Mcl-1]] for degradation during mitotic arrest.
 
+## Connections
+
+- [[Mcl-1]]: The Anaphase-Promoting Complex/Cyclosome (APC/C) is a large E3 ubiquitin ligase that triggers the transition from met...
+
 ## Linking Summary
 - New links added:
 - Suggested new entity notes to create:

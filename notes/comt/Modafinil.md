@@ -1,12 +1,15 @@
 ---
+
 type: entity
 title: Modafinil
-description: '**Modafinil** is a wakefulness-promoting agent used for the treatment
+description: 'Modafinil is a wakefulness-promoting agent used for the treatment
   of disorders such as Narcolepsy. It is also widely used off-label as a Nootropic.'
 created: 2026-05-25
 updated: 2026-07-04
 entity_type_1: Chemical Compound
+
 ---
+
 # Modafinil
 
 **[[Modafinil]]** is a wakefulness-promoting agent used for the treatment of disorders such as [[Narcolepsy]]. It is also widely used off-label as a [[Nootropic]].

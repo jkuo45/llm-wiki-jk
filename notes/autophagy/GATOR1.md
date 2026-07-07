@@ -15,6 +15,14 @@ GATOR1 is a protein complex that acts as a GAP for [[Rag proteins]], negatively 
 
 GATOR1 is a GTPase-activating protein (GAP) complex containing [[NPRL2]], [[NPRL3]], and [[DEPDC5]]. It inactivates RagA/B by promoting GDP binding, thereby inhibiting [[mTORC1]] signaling.
 
+## Connections
+
+- [[Rag proteins]]: GATOR1 is a protein complex that acts as a GAP for Rag proteins, negatively regulating [[mTORC1]] activity in respons...
+- [[mTORC1]]: GATOR1 is a protein complex that acts as a GAP for [[Rag proteins]], negatively regulating mTORC1 activity in respons...
+- [[NPRL2]]: GATOR1 is a GTPase-activating protein (GAP) complex containing NPRL2, [[NPRL3]], and [[DEPDC5]].
+- [[NPRL3]]: GATOR1 is a GTPase-activating protein (GAP) complex containing [[NPRL2]], NPRL3, and [[DEPDC5]].
+- [[DEPDC5]]: GATOR1 is a GTPase-activating protein (GAP) complex containing [[NPRL2]], [[NPRL3]], and DEPDC5.
+
 ## Linking Summary
 - New links added: [[Rag proteins]], [[mTORC1]]
 - Suggested new entity notes to create:

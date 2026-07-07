@@ -11,6 +11,11 @@ entity_type_1: NA
 
 An early-stage embryo in mammals, consisting of an inner cell mass which subsequently forms the embryo.
 
+## Connections
+
+- [[Yamanaka Factors]]
+- [[Induced Pluripotent Stem Cells]]
+
 ## Linking Summary
 - New links added: [[Yamanaka Factors]], [[Induced Pluripotent Stem Cells]]
 - Suggested new entity notes to create:

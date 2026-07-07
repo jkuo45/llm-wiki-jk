@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: CamKIIα
-description: '**CamKIIα** (Calcium/calmodulin-dependent protein kinase II alpha) is
+description: 'CamKIIα (Calcium/calmodulin-dependent protein kinase II alpha) is
   a protein kinase that is highly abundant in the brain and is essential for synaptic
   plasticity and memory formation.'
 created: 2026-05-25
 updated: 2026-07-04
 entity_type_1: Protein
 aliases: [CaMKIIα, Calcium/calmodulin-dependent protein kinase II alpha]
+
 ---
+
 # CamKIIα
 
 **[[CamKIIα]]** (Calcium/calmodulin-dependent protein kinase II alpha) is a protein kinase that is highly abundant in the brain and is essential for synaptic plasticity and memory formation.

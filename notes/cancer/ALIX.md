@@ -1,12 +1,15 @@
 ---
+
 type: entity
 title: ALIX
-description: '**ALIX** (Programmed cell death 6-interacting protein) is a protein
+description: 'ALIX (Programmed cell death 6-interacting protein) is a protein
   involved in endosome biogenesis and exosomal protein sorting.'
 created: 2026-07-06
 updated: 2026-07-06
 entity_type_1: Receptor
+
 ---
+
 # ALIX
 
 **ALIX** (Programmed cell death 6-interacting protein) is a protein involved in endosome biogenesis and exosomal protein sorting.
@@ -18,3 +21,8 @@ entity_type_1: Receptor
 ## Connections
 - [[EGFR]]: Its activation is correlated with ALIX absence in some breast cancers.
 - [[PD-L1]]: Its membrane accumulation is regulated by ALIX-mediated exosome biogenesis.
+
+## Linking Summary
+- New links added: [[Breast Cancer]], [[EGFR]], [[PD-L1]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[ALIX]] ↔ [[Breast Cancer]], [[ALIX]] ↔ [[PD-L1]], [[ALIX]] ↔ [[EGFR]]

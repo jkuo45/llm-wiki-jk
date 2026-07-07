@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: clk-1
-description: '*clk-1* (Clock-1) is a gene in *C. elegans* that encodes a mitochondrial
+description: 'clk-1 (Clock-1) is a gene in C. elegans that encodes a mitochondrial
   enzyme (a hydroxylase) involved in the biosynthesis of **Ubiquinone** (Coenzyme
   Q).'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Gene
+
 ---
+
 # clk-1
 
 *clk-1* (Clock-1) is a gene in *C. elegans* that encodes a mitochondrial enzyme (a hydroxylase) involved in the biosynthesis of **Ubiquinone** (Coenzyme Q).
@@ -27,6 +30,14 @@ The mouse homolog, *Mclk1*, also shows that partial deficiency can lead to incre
 - [[isp-1]]
 - [[nuo-6]]
 - [[Ubiquinone]]
+
+## Connections
+
+- [[Mitohormesis]]: This extension is a classic example of longevity conferred by impaired mitochondrial function and is often used to st...
+- [[Mitochondria]]: - Mitochondria - [[Mitohormesis]] - [[isp-1]] - [[nuo-6]] - [[Ubiquinone]]
+- [[isp-1]]: - [[Mitochondria]] - [[Mitohormesis]] - isp-1 - [[nuo-6]] - [[Ubiquinone]]
+- [[nuo-6]]: - [[Mitochondria]] - [[Mitohormesis]] - [[isp-1]] - nuo-6 - [[Ubiquinone]]
+- [[Ubiquinone]]: - [[Mitochondria]] - [[Mitohormesis]] - [[isp-1]] - [[nuo-6]] - Ubiquinone
 
 ## Linking Summary
 - New links added: [[Mitochondria]], [[Mitohormesis]], [[isp-1]], [[nuo-6]], [[Ubiquinone]]

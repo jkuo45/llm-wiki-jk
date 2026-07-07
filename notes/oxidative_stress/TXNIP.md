@@ -1,7 +1,8 @@
 ---
+
 type: entity
 title: TXNIP
-description: '**TXNIP (Thioredoxin-interacting protein)** is a redox-sensitive negative
+description: 'TXNIP (Thioredoxin-interacting protein) is a redox-sensitive negative
   regulator of the Thioredoxin system that links Oxidative Stress to inflammasome
   activation and metabolic dysfunction.'
 created: 2026-07-04
@@ -11,7 +12,9 @@ aliases: [Thioredoxin-interacting protein, VDUP1, TBP-2, Thioredoxin-binding pro
 database_ids:
   uniprot: Q9H3M7
   hgnc: HGNC:16952
+
 ---
+
 # TXNIP
 
 **TXNIP (Thioredoxin-interacting protein)** is a redox-sensitive negative regulator of the [[Thioredoxin]] system that links [[Oxidative Stress|oxidative stress]] to [[inflammasome activation]] and metabolic dysfunction.
@@ -23,3 +26,23 @@ Under basal conditions, TXNIP is sequestered by binding to reduced [[Thioredoxin
 ## Clinical Significance
 
 TXNIP is implicated in [[Diabetes Mellitus|type 2 diabetes]] (β-cell dysfunction), [[Cardiovascular Disease]] (endothelial NLRP3 activation), [[Neurodegeneration|neurodegeneration]] (microglial inflammasome activation), and [[kidney disease]]. TXNIP deletion in mice protects from diet-induced obesity, insulin resistance, and hepatic steatosis. [[Verapamil]] (a calcium channel blocker) inhibits TXNIP transcription and is being investigated as a TXNIP-targeting therapy.
+
+## Connections
+
+- [[Thioredoxin]]: **TXNIP (Thioredoxin-interacting protein)** is a redox-sensitive negative regulator of the Thioredoxin system that li...
+- [[Oxidative Stress]]: **TXNIP (Thioredoxin-interacting protein)** is a redox-sensitive negative regulator of the [[Thioredoxin]] system tha...
+- [[inflammasome activation]]: **TXNIP (Thioredoxin-interacting protein)** is a redox-sensitive negative regulator of the [[Thioredoxin]] system tha...
+- [[NLRP3 Inflammasome]]: Free TXNIP then translocates to the NLRP3 Inflammasome, where it directly binds NLRP3 and triggers ASC oligomerizatio...
+- [[IL-1b]]: Free TXNIP then translocates to the [[NLRP3 Inflammasome]], where it directly binds NLRP3 and triggers ASC oligomeriz...
+- [[ChREBP]]: TXNIP is transcriptionally induced by glucose via ChREBP/[[MondoA]] factors, linking [[Diabetes Mellitus|hyperglycemi...
+- [[MondoA]]: TXNIP is transcriptionally induced by glucose via [[ChREBP]]/MondoA factors, linking [[Diabetes Mellitus|hyperglycemi...
+- [[Diabetes Mellitus]]: TXNIP is transcriptionally induced by glucose via [[ChREBP]]/[[MondoA]] factors, linking hyperglycemia to IL-1β produ...
+- [[Cardiovascular Disease]]: TXNIP is implicated in [[Diabetes Mellitus|type 2 diabetes]] (β-cell dysfunction), Cardiovascular Disease (endothelia...
+- [[Neurodegeneration]]: TXNIP is implicated in [[Diabetes Mellitus|type 2 diabetes]] (β-cell dysfunction), [[Cardiovascular Disease]] (endoth...
+- [[kidney disease]]: TXNIP is implicated in [[Diabetes Mellitus|type 2 diabetes]] (β-cell dysfunction), [[Cardiovascular Disease]] (endoth...
+- [[Verapamil]]: Verapamil (a calcium channel blocker) inhibits TXNIP transcription and is being investigated as a TXNIP-targeting the...
+
+## Linking Summary
+- New links added: [[Cardiovascular Disease]], [[ChREBP]], [[Diabetes Mellitus]], [[IL-1b]], [[MondoA]], [[NLRP3 Inflammasome]], [[Neurodegeneration]], [[Oxidative Stress]], [[Thioredoxin]], [[Verapamil]], [[inflammasome activation]], [[kidney disease]]
+- Suggested new entity notes to create: [[ChREBP]], [[MondoA]], [[Verapamil]], [[inflammasome activation]], [[kidney disease]]
+- Strong connections to strengthen: [[TXNIP]] ↔ [[inflammasome activation]], [[TXNIP]] ↔ [[Cardiovascular Disease]], [[TXNIP]] ↔ [[NLRP3 Inflammasome]]

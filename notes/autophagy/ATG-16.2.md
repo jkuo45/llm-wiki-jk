@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: ATG-16.2
-description: '**ATG-16.2** is a C. elegans orthologue of the yeast Atg16 and mammalian
+description: 'ATG-16.2 is a C. elegans orthologue of the yeast Atg16 and mammalian
   Atg16L1 proteins. It is essential for the formation of the Autophagosome.'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Protein
 aliases: [Atg16-like 2]
+
 ---
+
 # ATG-16.2
 
 **ATG-16.2** is a [[C. elegans]] orthologue of the yeast [[Atg16]] and mammalian [[Atg16L1]] proteins. It is essential for the formation of the [[Autophagosome]].
@@ -20,6 +23,22 @@ aliases: [Atg16-like 2]
 ## Function
 
 ATG-16.2 is the C. elegans ortholog of [[Atg16L1]], functioning in the Atg12-Atg5-Atg16L1 complex for LC3 lipidation.
+
+## Connections
+
+- [[C. elegans]]: **ATG-16.2** is a C. elegans orthologue of the yeast [[Atg16]] and mammalian [[Atg16L1]] proteins.
+- [[Atg16]]: elegans]] orthologue of the yeast Atg16 and mammalian [[Atg16L1]] proteins.
+- [[Atg16L1]]: elegans]] orthologue of the yeast [[Atg16]] and mammalian Atg16L1 proteins.
+- [[Autophagosome]]: It is essential for the formation of the Autophagosome.
+- [[Atg12]]: ## Function and Regulation - **Autophagy Mechanism**: Part of the Atg12-[[Atg5]]-ATG-16.2 complex required for [[LGG-...
+- [[Atg5]]: ## Function and Regulation - **Autophagy Mechanism**: Part of the [[Atg12]]-Atg5-ATG-16.2 complex required for [[LGG-...
+- [[LGG-1]]: ## Function and Regulation - **Autophagy Mechanism**: Part of the [[Atg12]]-[[Atg5]]-ATG-16.2 complex required for LG...
+- [[LGG-2]]: ## Function and Regulation - **Autophagy Mechanism**: Part of the [[Atg12]]-[[Atg5]]-ATG-16.2 complex required for [[...
+- [[Fasting]]: - **Transcriptional Control**: Its expression is induced during Fasting and [[Starvation]] in an [[HLH-30]]-dependent...
+- [[Starvation]]: - **Transcriptional Control**: Its expression is induced during [[Fasting]] and Starvation in an [[HLH-30]]-dependent...
+- [[HLH-30]]: - **Transcriptional Control**: Its expression is induced during [[Fasting]] and [[Starvation]] in an HLH-30-dependent...
+- [[MXL-3]]: - **Longevity**: Inactivation of *atg-16.2* does not suppress the longevity of MXL-3 mutants, suggesting that the ext...
+- [[Lysosomal Lipolysis]]: - **Longevity**: Inactivation of *atg-16.2* does not suppress the longevity of [[MXL-3]] mutants, suggesting that the...
 
 ## Linking Summary
 - New links added: [[C. elegans]], [[Atg16]], [[Atg16L1]], [[Autophagosome]], [[Atg12]], [[Atg5]], [[LGG-1]], [[LGG-2]], [[Fasting]], [[Starvation]], [[HLH-30]], [[MXL-3]], [[Lysosomal Lipolysis]]

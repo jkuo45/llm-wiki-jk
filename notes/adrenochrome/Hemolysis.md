@@ -14,3 +14,8 @@ entity_type_1: Biological Process
 - [[G6PD deficiency]]: Patients are prone to trigger-induced hemolysis.
 - [[Methylene blue]]: Can cause hemolysis in susceptible individuals.
 - [[Methemoglobinemia]]: Management must avoid causing hemolysis.
+
+## Linking Summary
+- New links added: [[Erythrocytes]], [[G6PD deficiency]], [[Hemoglobin]], [[Hemolysis]], [[Methemoglobinemia]], [[Methylene blue]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[Hemolysis]] ↔ [[Methemoglobinemia]], [[Hemolysis]] ↔ [[G6PD deficiency]], [[Hemolysis]] ↔ [[Methylene blue]]

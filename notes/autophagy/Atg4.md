@@ -17,6 +17,11 @@ Atg4 is a cysteine protease that processes the C-terminus of [[Atg8]] family pro
 
 Atg4 is a cysteine protease that processes [[Atg8]]/LC3 at its C-terminal Gly residue to expose the site for lipid conjugation. It also deconjugates Atg8 from membranes, enabling recycling.
 
+## Connections
+
+- [[Atg8]]: Atg4 is a cysteine protease that processes the C-terminus of Atg8 family proteins, a critical step for their conjugat...
+- [[Autophagosome]]: Atg4 is a cysteine protease that processes the C-terminus of [[Atg8]] family proteins, a critical step for their conj...
+
 ## Linking Summary
 - New links added: [[Atg8]], [[Autophagosome]]
 - Suggested new entity notes to create:

@@ -13,3 +13,8 @@ entity_type_1: Chemical Compound
 ## Connections
 - [[Methemoglobinemia]]: Caused by sodium nitrite toxicity.
 - [[Amyl nitrite]]: Both are nitrites that can oxidize hemoglobin.
+
+## Linking Summary
+- New links added: [[Amyl nitrite]], [[Methemoglobinemia]], [[Sodium nitrite]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[Sodium nitrite]] ↔ [[Methemoglobinemia]], [[Sodium nitrite]] ↔ [[Sodium nitrite]], [[Sodium nitrite]] ↔ [[Amyl nitrite]]

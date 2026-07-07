@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: CHK1
-description: '**Overview:** CHK1 is a cellular protein with structural, signaling,
+description: 'Overview: CHK1 is a cellular protein with structural, signaling,
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
   and signaling networks that govern cell...'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Protein
 aliases: [Checkpoint Kinase 1]
+
 ---
+
 # CHK1
 
 **Overview:** CHK1 is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern cell behavior.

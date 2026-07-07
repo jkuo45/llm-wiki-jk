@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: Histone Methylation
-description: '**Histone methylation** involves the addition of methyl groups to lysine
+description: 'Histone methylation involves the addition of methyl groups to lysine
   or arginine residues on histone proteins, which can either activate or repress gene
   expression depending on the specific res...'
 created: 2024-01-01
 updated: 2024-01-01
 entity_type_1: Biological Process
+
 ---
+
 # Histone Methylation
 **Histone methylation** involves the addition of methyl groups to lysine or arginine residues on histone proteins, which can either activate or repress gene expression depending on the specific residue and degree of methylation.
 ## Overview

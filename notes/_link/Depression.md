@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: Depression
-description: '**Depression** (major depressive disorder) is a common and serious mood
+description: 'Depression (major depressive disorder) is a common and serious mood
   disorder characterized by persistent sadness, loss of interest, and impaired function.
   It has complex neurobiological underpi...'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Medical Condition
 aliases: [Major depressive disorder, MDD, Clinical depression]
+
 ---
+
 # Depression
 **Depression** (major depressive disorder) is a common and serious mood disorder characterized by persistent sadness, loss of interest, and impaired function. It has complex neurobiological underpinnings involving monoamine dysregulation, [[Inflammation]], and [[Oxidative Stress]].
 ## Biological Mechanisms

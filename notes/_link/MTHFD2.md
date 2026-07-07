@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: MTHFD2
-description: '**Overview:** MTHFD2 is a cellular protein with structural, signaling,
+description: 'Overview: MTHFD2 is a cellular protein with structural, signaling,
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
   and signaling networks that govern ce...'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Protein
 aliases: [Methylenetetrahydrofolate Dehydrogenase 2]
+
 ---
+
 # MTHFD2
 
 **Overview:** MTHFD2 is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern cell behavior.

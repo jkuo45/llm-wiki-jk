@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: paclitaxel
-description: '**Paclitaxel** (also known as Taxol) is a widely used chemotherapy agent
+description: 'Paclitaxel (also known as Taxol) is a widely used chemotherapy agent
   belonging to the taxane family. It is used to treat several types of cancer, including
   ovarian cancer, Breast Cancer, and no...'
 created: 2026-07-06
 updated: 2026-07-06
 entity_type_1: Medical Condition
+
 ---
+
 # paclitaxel
 
 **Paclitaxel** (also known as Taxol) is a widely used chemotherapy agent belonging to the taxane family. It is used to treat several types of cancer, including [[ovarian cancer]], [[Breast Cancer|breast cancer]], and [[non-small-cell lung cancer]].

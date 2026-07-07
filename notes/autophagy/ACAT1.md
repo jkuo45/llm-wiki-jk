@@ -17,6 +17,11 @@ Acetyl-CoA acetyltransferase 1 (ACAT1) is an enzyme that acetylates [[TFEB]] at 
 
 ACAT1 (acetyl-CoA acetyltransferase 1) catalyzes the formation of acetoacetyl-CoA from two acetyl-CoA molecules, the first step of the mevalonate pathway and [[Ketogenesis]].
 
+## Connections
+
+- [[TFEB]]: Acetyl-CoA acetyltransferase 1 (ACAT1) is an enzyme that acetylates TFEB at multiple lysine sites (K91, K103, K116, K...
+- [[Ketogenesis]]: ACAT1 (acetyl-CoA acetyltransferase 1) catalyzes the formation of acetoacetyl-CoA from two acetyl-CoA molecules, the ...
+
 ## Linking Summary
 - New links added: [[TFEB]]
 - Suggested new entity notes to create: [[Cholesterol Metabolism]]

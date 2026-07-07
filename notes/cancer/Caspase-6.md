@@ -1,12 +1,15 @@
 ---
+
 type: entity
 title: Caspase-6
-description: '**Caspase-6** is an effector (executioner) protease that is activated
+description: 'Caspase-6 is an effector (executioner) protease that is activated
   during the final stages of Apoptosis.'
 created: 2026-07-06
 updated: 2026-07-06
 entity_type_1: Enzyme
+
 ---
+
 # Caspase-6
 
 **Caspase-6** is an effector (executioner) protease that is activated during the final stages of [[Apoptosis]].

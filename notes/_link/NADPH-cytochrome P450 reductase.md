@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: NADPH-cytochrome P450 reductase
-description: '**Catalytic function:** NADPH-cytochrome P450 reductase is an enzyme
+description: 'Catalytic function: NADPH-cytochrome P450 reductase is an enzyme
   that catalyzes biochemical reactions essential for cellular metabolism and homeostasis.'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Enzyme
 aliases: [POR, CPR]
+
 ---
+
 # NADPH-cytochrome P450 reductase
 
 **Catalytic function:** NADPH-cytochrome P450 reductase is an enzyme that catalyzes biochemical reactions essential for cellular metabolism and homeostasis.

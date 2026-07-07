@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: Akt
-description: '**Akt** (also known as Protein Kinase B or PKB) is a serine/threonine-specific
+description: 'Akt (also known as Protein Kinase B or PKB) is a serine/threonine-specific
   protein kinase that plays a key role in multiple cellular processes such as glucose
   metabolism, apoptosis, cell prolif...'
 created: 2026-05-29
 updated: 2026-05-29
 entity_type_1: Protein
+
 ---
+
 # Akt
 **Akt** (also known as Protein Kinase B or PKB) is a serine/threonine-specific protein kinase that plays a key role in multiple cellular processes such as glucose metabolism, apoptosis, cell proliferation, transcription, and cell migration.
 **Akt**, also known as **Protein Kinase B** (PKB), is a key signaling protein in the [[PI3K]]/Akt pathway, which regulates cell survival, growth, and metabolism.

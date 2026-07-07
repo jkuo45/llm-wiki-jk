@@ -16,3 +16,8 @@ Bismuth is a chemical element with the symbol Bi and atomic number 83. In the co
 - [[Adrenochrome]]: Bismuth salts catalyze its formation from [[Epinephrine]].
 - [[Persulfates]]: Bismuth salts accelerate the oxidation reaction using persulfates.
 - [[Epinephrine]]: The precursor oxidized in the presence of bismuth.
+
+## Linking Summary
+- New links added: [[Adrenochrome]], [[Epinephrine]], [[Oxidation]], [[Persulfates]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[Bismuth]] ↔ [[Adrenochrome]], [[Bismuth]] ↔ [[Epinephrine]], [[Bismuth]] ↔ [[Persulfates]]

@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: Ventral Tegmental Area
-description: The **Ventral Tegmental Area** (VTA) is a group of neurons located close
+description: The Ventral Tegmental Area (VTA) is a group of neurons located close
   to the midline on the floor of the midbrain. It is a key component of the brain's
   reward and motivation system.
 created: 2026-05-29
 updated: 2026-05-29
 entity_type_1: Anatomy
+
 ---
+
 # Ventral Tegmental Area
 The **Ventral Tegmental Area** (VTA) is a group of neurons located close to the midline on the floor of the midbrain. It is a key component of the brain's reward and motivation system.
 ## Dopamine Production

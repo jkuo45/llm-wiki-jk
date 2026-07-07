@@ -1,14 +1,21 @@
 ---
+
 type: entity
 title: Laminin
-description: '- New links added: Extracellular Matrix, ECM, Fibroblast'
+description: 'Laminins are major proteins in the basal lamina (one of the layers of the basement membrane), a protein network foundation for most cells and organs.'
 created: 2024-01-01
 updated: 2024-01-01
 entity_type_1: Protein
+
 ---
+
 # Laminin
 
 [[Laminin|Laminins]] are major proteins in the basal lamina (one of the layers of the basement membrane), a protein network foundation for most cells and organs.
+
+## Connections
+
+- [[Laminin]]: Laminins are major proteins in the basal lamina (one of the layers of the basement membrane), a protein network found...
 
 ## Linking Summary
 - New links added: [[Extracellular Matrix]], [[ECM]], [[Fibroblast]]

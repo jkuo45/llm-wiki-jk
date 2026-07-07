@@ -1,9 +1,9 @@
 ---
 type: entity
 title: Superoxide Radicals
-description: "Superoxide radicals ($O_2^{\bullet-}$) are reactive oxygen species (ROS)\
-  \ formed by the addition of a single electron to molecular oxygen ($O_2$). They\
-  \ are the 'primary' ROS that often trigger the f..."
+description: 'Superoxide radicals (O₂•⁻) are reactive oxygen species (ROS) formed
+  by the addition of a single electron to molecular oxygen. They are the primary
+  ROS that often trigger the formation of other radicals.'
 created: 2026-05-09
 updated: 2026-07-04
 entity_type_1: Metabolite

@@ -11,6 +11,11 @@ entity_type_1: Person
 
 Jeanho Yun is a researcher and co-author of the paper "Mitohormesis" (2014) published in Cell Metabolism.
 
+## Connections
+
+- [[Toren Finkel]]
+- [[Mitohormesis]]
+
 ## Linking Summary
 - New links added: [[Toren Finkel]], [[Mitohormesis]]
 - Suggested new entity notes to create: 

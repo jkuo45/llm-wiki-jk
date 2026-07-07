@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: Stroke
-description: '**Stroke** is a medical emergency caused by interruption of blood supply
+description: 'Stroke is a medical emergency caused by interruption of blood supply
   to the brain, leading to tissue damage and neurological deficits. It is a leading
   cause of disability and mortality worldwide.'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Medical Condition
 aliases: [Cerebrovascular accident, CVA, Brain attack]
+
 ---
+
 # Stroke
 **Stroke** is a medical emergency caused by interruption of blood supply to the brain, leading to tissue damage and neurological deficits. It is a leading cause of disability and mortality worldwide.
 ## Types

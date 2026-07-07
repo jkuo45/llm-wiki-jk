@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: Autophagosome
-description: An **Autophagosome** is a double-membrane vesicle that forms the central
+description: An Autophagosome is a double-membrane vesicle that forms the central
   structure of Macroautophagy. It sequester cytoplasmic cargo, such as damaged organelles
   or protein aggregates, and delivers ...
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Biological Process
+
 ---
+
 # Autophagosome
 
 An **Autophagosome** is a double-membrane vesicle that forms the central structure of [[Macroautophagy]]. It sequester cytoplasmic cargo, such as damaged organelles or protein aggregates, and delivers them to the [[Lysosome]] for degradation.
@@ -25,6 +28,16 @@ An **Autophagosome** is a double-membrane vesicle that forms the central structu
 ## Formation
 
 Autophagosomes are double-membrane vesicles that sequester cytoplasmic cargo for delivery to lysosomes. Nucleation requires the ULK1 and PI3K complexes.
+
+## Connections
+
+- [[Macroautophagy]]: An **Autophagosome** is a double-membrane vesicle that forms the central structure of Macroautophagy.
+- [[Lysosome]]: It sequester cytoplasmic cargo, such as damaged organelles or protein aggregates, and delivers them to the Lysosome f...
+- [[Atg]]: - Regulated by the Atg machinery, including the [[ULK1]] complex and [[PI3K]]/[[Vps34]] complex.
+- [[ULK1]]: - Regulated by the [[Atg]] machinery, including the ULK1 complex and [[PI3K]]/[[Vps34]] complex.
+- [[PI3K]]: - Regulated by the [[Atg]] machinery, including the [[ULK1]] complex and PI3K/[[Vps34]] complex.
+- [[Vps34]]: - Regulated by the [[Atg]] machinery, including the [[ULK1]] complex and [[PI3K]]/Vps34 complex.
+- [[LC3]]: - **LC3 (Atg8)**: A key protein that is lipidated (LC3-II) and incorporated into the autophagosomal membrane, serving...
 
 ## Linking Summary
 - New links added: [[Macroautophagy]], [[Lysosome]], [[Atg]], [[ULK1]], [[PI3K]], [[Vps34]], [[LC3]]

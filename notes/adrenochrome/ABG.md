@@ -13,3 +13,8 @@ entity_type_1: Diagnostic Test
 ## Connections
 - [[Arterial blood gas]]: The full name of the test.
 - [[Methemoglobinemia]]: One of the tests used during diagnosis.
+
+## Linking Summary
+- New links added: [[ABG]], [[Arterial blood gas]], [[Methemoglobinemia]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[ABG]] ↔ [[Arterial blood gas]], [[ABG]] ↔ [[Methemoglobinemia]], [[ABG]] ↔ [[ABG]]

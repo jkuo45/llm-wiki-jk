@@ -19,6 +19,16 @@ Abemaciclib is a CDK4/6 inhibitor with distinct pharmacology from [[Palbociclib]
 
 Abemaciclib induces [[Autophagy]] in cancer cells, and combining it with autophagy inhibition enhances cytotoxicity. It also inhibits [[mTORC1]] through CDK4/6-mediated regulation of [[TSC2]].
 
+## Connections
+
+- [[CDK4]]: Abemaciclib (LY2835219) is a CDK4/[[CDK6]] inhibitor that promotes [[TFEB]] activity by blocking its nuclear export, ...
+- [[CDK6]]: Abemaciclib (LY2835219) is a [[CDK4]]/CDK6 inhibitor that promotes [[TFEB]] activity by blocking its nuclear export, ...
+- [[TFEB]]: Abemaciclib (LY2835219) is a [[CDK4]]/[[CDK6]] inhibitor that promotes TFEB activity by blocking its nuclear export, ...
+- [[Palbociclib]]: Abemaciclib is a CDK4/6 inhibitor with distinct pharmacology from Palbociclib: higher potency, continuous dosing sche...
+- [[Autophagy]]: Abemaciclib induces Autophagy in cancer cells, and combining it with autophagy inhibition enhances cytotoxicity.
+- [[mTORC1]]: It also inhibits mTORC1 through CDK4/6-mediated regulation of [[TSC2]].
+- [[TSC2]]: It also inhibits [[mTORC1]] through CDK4/6-mediated regulation of TSC2.
+
 ## Linking Summary
 - New links added: [[CDK4]]/[[CDK6]], [[TFEB]]
 - Suggested new entity notes to create: [[Lysosomal Biogenesis]]

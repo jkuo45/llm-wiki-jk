@@ -11,6 +11,17 @@ entity_type_1: Enzyme
 
 Colon cancer is a type of cancer that begins in the large intestine (colon), which is the final part of the digestive tract.
 
+## Connections
+
+- [[Caspase-2]]
+- [[Caspase-8]]
+- [[Caspase-9]]
+- [[Bik]]
+- [[Bax]]
+- [[Bak]]
+- [[XIAP]]
+- [[Apoptosis]]
+
 ## Linking Summary
 - New links added: [[Caspase-2]], [[Caspase-8]], [[Caspase-9]], [[Bik]], [[Bax]], [[Bak]], [[XIAP]], [[Apoptosis|Apoptosis]]
 - Suggested new entity notes to create: 

@@ -11,6 +11,11 @@ entity_type_1: NA
 
 A method for scientific experimentation especially used in drug discovery and relevant to biology and chemistry.
 
+## Connections
+
+- [[Drug Discovery]]
+- [[Induced Pluripotent Stem Cells]]
+
 ## Linking Summary
 - New links added: [[Drug Discovery]], [[Induced Pluripotent Stem Cells]]
 - Suggested new entity notes to create:

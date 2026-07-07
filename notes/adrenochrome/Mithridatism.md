@@ -25,6 +25,12 @@ Mithridatism is a historical precursor to the scientific concept of [[Hormesis]]
 - [[Mitohormesis]]
 - [[Antidotum Mithridaticum]]
 
+## Connections
+
+- [[Antidotum Mithridaticum]]: The term is named after **Mithridates VI**, the King of Pontus, who was said to have developed an immunity to poisons...
+- [[Hormesis]]: Mithridatism is a historical precursor to the scientific concept of Hormesis and [[Mitohormesis]], illustrating the p...
+- [[Mitohormesis]]: Mithridatism is a historical precursor to the scientific concept of [[Hormesis]] and Mitohormesis, illustrating the p...
+
 ## Linking Summary
 - New links added: [[Hormesis]], [[Mitohormesis]], [[Antidotum Mithridaticum]]
 - Suggested new entity notes to create: [[Mithridates VI]]

@@ -17,3 +17,8 @@ While effective, its use on a commercial scale is sometimes limited by the large
 ## Connections
 - [[Adrenochrome]]: Traditional oxidizing agent for its synthesis.
 - [[Epinephrine]]: Oxidized by potassium ferricyanide to form adrenochrome.
+
+## Linking Summary
+- New links added: [[Adrenochrome]], [[Epinephrine]], [[Persulfates]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[Potassium ferricyanide]] ↔ [[Adrenochrome]], [[Potassium ferricyanide]] ↔ [[Epinephrine]], [[Potassium ferricyanide]] ↔ [[Persulfates]]

@@ -13,3 +13,8 @@ entity_type_1: Diagnostic Test
 ## Connections
 - [[Methemoglobinemia]]: Diagnosed definitively via co-oximetry.
 - [[Pulse oximetry]]: A less reliable monitoring method in the presence of methemoglobin.
+
+## Linking Summary
+- New links added: [[Co-oximetry]], [[Methemoglobin]], [[Methemoglobinemia]], [[Oxyhemoglobin]], [[Pulse oximetry]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[Co-oximetry]] ↔ [[Methemoglobinemia]], [[Co-oximetry]] ↔ [[Pulse oximetry]], [[Co-oximetry]] ↔ [[Oxyhemoglobin]]

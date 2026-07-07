@@ -1,12 +1,15 @@
 ---
+
 type: entity
 title: Nitrogen gas
-description: '**Nitrogen gas** (N₂) is an inert gas commonly used in laboratory and
+description: 'Nitrogen gas (N₂) is an inert gas commonly used in laboratory and
   industrial settings.'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Chemical Compound
+
 ---
+
 # Nitrogen gas
 
 **Nitrogen gas** (N₂) is an inert gas commonly used in laboratory and industrial settings.
@@ -18,3 +21,8 @@ Similar to [[Argon]], nitrogen gas is used to provide an oxygen-free environment
 - [[Autoxidation]]
 - [[Argon]]
 - [[Leuco-adrenochrome]]
+
+## Linking Summary
+- New links added: [[Argon]], [[Autoxidation]], [[Epinephrine]], [[Leuco-adrenochrome]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[Nitrogen gas]] ↔ [[Leuco-adrenochrome]], [[Nitrogen gas]] ↔ [[Autoxidation]], [[Nitrogen gas]] ↔ [[Epinephrine]]

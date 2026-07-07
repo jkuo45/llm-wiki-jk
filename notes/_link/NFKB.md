@@ -119,3 +119,8 @@ NF-κB is a master regulator of the **Senescence-Associated Secretory Phenotype 
 - New links added: [[SIRT1]], [[SIRT2]], [[SIRT3]], [[SIRT6]], [[Inflammation]], [[Apoptosis]]
 - Suggested new entity notes to create: [[TNFα]], [[MnSOD]], [[IκB]], [[RelA]]
 - Strong connections to strengthen: [[SIRT1]] ↔ [[NFKB]], [[SIRT6]] ↔ [[NFKB]], [[Inflammation]] ↔ [[NFKB]]
+
+## Linking Summary
+- New links added: [[Apoptosis]], [[Inflammation]], [[IκB]], [[MnSOD]], [[NFKB]], [[RelA]], [[SIRT1]], [[SIRT2]], [[SIRT3]], [[SIRT6]], [[TNFα]]
+- Suggested new entity notes to create: [[IκB]], [[RelA]]
+- Strong connections to strengthen: [[NF-κB (Nuclear Factor Kappa B)]] ↔ [[Inflammation]], [[NF-κB (Nuclear Factor Kappa B)]] ↔ [[Apoptosis]], [[NF-κB (Nuclear Factor Kappa B)]] ↔ [[SIRT1]]

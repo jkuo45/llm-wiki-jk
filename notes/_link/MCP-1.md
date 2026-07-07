@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: MCP-1
-description: '**Overview:** MCP-1 is a cellular protein with structural, signaling,
+description: 'Overview: MCP-1 is a cellular protein with structural, signaling,
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
   and signaling networks that govern cel...'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Protein
 aliases: [CCL2, Monocyte Chemoattractant Protein 1]
+
 ---
+
 # MCP-1
 
 **Overview:** MCP-1 is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern cell behavior.

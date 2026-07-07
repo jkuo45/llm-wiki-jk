@@ -17,3 +17,8 @@ In [[Adrenochrome]] chemistry, hydrazine derivatives (such as [[Semicarbazide]] 
 - [[Adrenochrome]]: Stabilized by hydrazine derivatives.
 - [[Semicarbazide]]: A hydrazine-related compound used for stabilization.
 - [[Aminoguanidine]]: A hydrazine-related compound used for stabilization.
+
+## Linking Summary
+- New links added: [[Adrenochrome]], [[Adrenochrome monoaminoguanidine]], [[Aminoguanidine]], [[Carbazochrome]], [[Semicarbazide]], [[o-quinone]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[Hydrazine]] ↔ [[Adrenochrome monoaminoguanidine]], [[Hydrazine]] ↔ [[Aminoguanidine]], [[Hydrazine]] ↔ [[Semicarbazide]]

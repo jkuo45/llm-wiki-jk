@@ -16,6 +16,17 @@ Lysosomal localization refers to the recruitment or positioning of proteins on t
 
 Lysosomal positioning is regulated by [[Rab7]] effectors: [[FYCO1]] (plus-end transport), [[RILP]]-[[ORP1L]] (minus-end). Perinuclear clustering facilitates [[Autophagy]].
 
+## Connections
+
+- [[TFEB]]: Lysosomal localization refers to the recruitment or positioning of proteins on the lysosome membrane, which for TFEB ...
+- [[mTORC1]]: Lysosomal localization refers to the recruitment or positioning of proteins on the lysosome membrane, which for [[TFE...
+- [[GSK3β]]: Lysosomal localization refers to the recruitment or positioning of proteins on the lysosome membrane, which for [[TFE...
+- [[Rab7]]: Lysosomal positioning is regulated by Rab7 effectors: [[FYCO1]] (plus-end transport), [[RILP]]-[[ORP1L]] (minus-end).
+- [[FYCO1]]: Lysosomal positioning is regulated by [[Rab7]] effectors: FYCO1 (plus-end transport), [[RILP]]-[[ORP1L]] (minus-end).
+- [[RILP]]: Lysosomal positioning is regulated by [[Rab7]] effectors: [[FYCO1]] (plus-end transport), RILP-[[ORP1L]] (minus-end).
+- [[ORP1L]]: Lysosomal positioning is regulated by [[Rab7]] effectors: [[FYCO1]] (plus-end transport), [[RILP]]-ORP1L (minus-end).
+- [[Autophagy]]: Perinuclear clustering facilitates Autophagy.
+
 ## Linking Summary
 - New links added: [[TFEB]], [[mTORC1]], [[GSK3β]], [[Lysosome]]
 - Suggested new entity notes to create: [[V-ATPase]]

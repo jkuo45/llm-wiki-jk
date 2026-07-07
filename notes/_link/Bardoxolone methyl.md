@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: Bardoxolone methyl
-description: '**Chemical properties:** Bardoxolone methyl is a chemical substance
+description: 'Chemical properties: Bardoxolone methyl is a chemical substance
   with defined molecular structure, functional groups, and physicochemical properties
   that determine its biological activity.'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Chemical Compound
 aliases: [CDDO-Me, RTA 402]
+
 ---
+
 # Bardoxolone methyl
 
 **Chemical properties:** Bardoxolone methyl is a chemical substance with defined molecular structure, functional groups, and physicochemical properties that determine its biological activity.

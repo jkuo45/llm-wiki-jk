@@ -15,6 +15,15 @@ S-D-lactoylglutathione is an intermediate metabolite within the [[Glyoxalase Sys
 
 It is synthesized by [[GLO1]] from the hemithioacetal adduct formed by the spontaneous reaction of [[Methylglyoxal]] and [[Glutathione]]. It is subsequently hydrolyzed by [[GLO2]] to produce [[D-lactate]] and regenerate [[Glutathione]].
 
+## Connections
+
+- [[Glyoxalase System]]: S-D-lactoylglutathione is an intermediate metabolite within the Glyoxalase System pathway.
+- [[GLO1]]: It is synthesized by GLO1 from the hemithioacetal adduct formed by the spontaneous reaction of [[Methylglyoxal]] and ...
+- [[Methylglyoxal]]: It is synthesized by [[GLO1]] from the hemithioacetal adduct formed by the spontaneous reaction of Methylglyoxal and ...
+- [[Glutathione]]: It is synthesized by [[GLO1]] from the hemithioacetal adduct formed by the spontaneous reaction of [[Methylglyoxal]] ...
+- [[GLO2]]: It is subsequently hydrolyzed by GLO2 to produce [[D-lactate]] and regenerate [[Glutathione]].
+- [[D-lactate]]: It is subsequently hydrolyzed by [[GLO2]] to produce D-lactate and regenerate [[Glutathione]].
+
 ## Linking Summary
 - New links added: [[Glyoxalase System]], [[GLO1]], [[Methylglyoxal]], [[Glutathione]], [[GLO2]], [[D-lactate]]
 - Suggested new entity notes to create: 

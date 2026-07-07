@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: CD8+ T Cell
-description: '**CD8+ T Cells** (also known as cytotoxic T lymphocytes) are a subset
+description: 'CD8+ T Cells (also known as cytotoxic T lymphocytes) are a subset
   of T Cell that play a critical role in the Adaptive Immune Response by killing infected
   or cancerous cells.'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Cell Type
 aliases: [cytotoxic T cell]
+
 ---
+
 # CD8+ T Cell
 
 **CD8+ T Cells** (also known as cytotoxic T lymphocytes) are a subset of [[T Cell|T cells]] that play a critical role in the [[Adaptive Immune Response]] by killing infected or cancerous cells.
@@ -21,6 +24,13 @@ aliases: [cytotoxic T cell]
 ## Function
 
 CD8+ T cells kill infected or malignant cells. [[Autophagy]] supports memory CD8+ T cell formation and metabolic fitness.
+
+## Connections
+
+- [[T Cell]]: **CD8+ T Cells** (also known as cytotoxic T lymphocytes) are a subset of T cells that play a critical role in the [[A...
+- [[Adaptive Immune Response]]: **CD8+ T Cells** (also known as cytotoxic T lymphocytes) are a subset of [[T Cell|T cells]] that play a critical role...
+- [[Autophagy]]: ## Modulation by Autophagy and Fasting - Autophagy is essential for the activation, expansion, and memory formation o...
+- [[Intermittent Fasting]]: - Reduced calorie intake and Intermittent Fasting have been shown to make tumor cells more susceptible to apoptosis v...
 
 ## Linking Summary
 - New links added: [[T Cell]], [[Adaptive Immune Response]], [[Autophagy]], [[Intermittent Fasting]]

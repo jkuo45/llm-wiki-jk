@@ -18,6 +18,11 @@ Through functional metagenomics, researchers identified HemF-like enzymes from s
 
 Importantly, the human homolog of HemF, along with homologous bacterial proteins found in the human microbiome (such as *Escherichia* and *Pseudomonas*), catalyzes the cleavage of the glucosepane ring in vitro, releasing [[Citrulline]] as a byproduct.
 
+## Connections
+
+- [[Glucosepane]]: HemF-like (coproporphyrinogen III oxidase-like) enzymes are a class of biocatalysts capable of degrading the stubborn...
+- [[Citrulline]]: Importantly, the human homolog of HemF, along with homologous bacterial proteins found in the human microbiome (such ...
+
 ## Linking Summary
 - New links added: [[Glucosepane]], [[Citrulline]]
 - Suggested new entity notes to create: 

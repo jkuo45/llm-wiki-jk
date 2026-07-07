@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: Healthspan
-description: '**Healthspan** refers to the period of life during which an individual
+description: 'Healthspan refers to the period of life during which an individual
   remains generally healthy and free from serious disease, disability, or functional
   decline. It is distinguished from Lifespan ...'
 created: 2026-07-04
 updated: 2026-07-06
 entity_type_1: Scientific Concept
 aliases: [Healthy Aging, Health Span, Disability-Free Life Expectancy]
+
 ---
+
 # Healthspan
 
 **Healthspan** refers to the period of life during which an individual remains generally healthy and free from serious disease, disability, or functional decline. It is distinguished from [[Lifespan]] — total years lived — as a primary metric for [[Aging Research]] and [[Gerontology]].

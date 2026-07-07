@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: Lysosomal Biogenesis
-description: '**Lysosomal biogenesis** is the process of synthesizing and assembling
+description: 'Lysosomal biogenesis is the process of synthesizing and assembling
   lysosomal components—including acid hydrolases, membrane proteins (LAMP1, LAMP2,
   V-ATPase subunits), and regulatory proteins—i...'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: NA
 aliases: [Lysosomal Biogenesis]
+
 ---
+
 # Lysosomal Biogenesis
 **Lysosomal biogenesis** is the process of synthesizing and assembling lysosomal components—including acid hydrolases, membrane proteins ([[LAMP1]], [[LAMP2]], [[V-ATPase]] subunits), and regulatory proteins—into functional [[Lysosome]]s. It is transcriptionally controlled by the [[MiTF TFE family]] of transcription factors via the [[CLEAR Element]].
 ## Transcriptional Regulation

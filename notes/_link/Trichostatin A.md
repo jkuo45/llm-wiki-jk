@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: Trichostatin A
-description: '**Chemical properties:** Trichostatin A is a chemical substance with
+description: 'Chemical properties: Trichostatin A is a chemical substance with
   defined molecular structure, functional groups, and physicochemical properties that
   determine its biological activity.'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Chemical Compound
 aliases: [TSA]
+
 ---
+
 # Trichostatin A
 
 **Chemical properties:** Trichostatin A is a chemical substance with defined molecular structure, functional groups, and physicochemical properties that determine its biological activity.

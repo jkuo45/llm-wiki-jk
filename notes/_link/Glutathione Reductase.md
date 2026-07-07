@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: Glutathione Reductase
-description: '**Catalytic function:** Glutathione Reductase is an enzyme that catalyzes
+description: 'Catalytic function: Glutathione Reductase is an enzyme that catalyzes
   biochemical reactions essential for cellular metabolism and homeostasis.'
 created: 2026-07-04
 updated: 2026-07-06
 entity_type_1: Enzyme
 aliases: [GR, GSR]
+
 ---
+
 # Glutathione Reductase
 **Catalytic function:** Glutathione Reductase is an enzyme that catalyzes biochemical reactions essential for cellular metabolism and homeostasis.
 **Mechanism:** The catalytic activity of Glutathione Reductase is typically regulated by substrate availability, post-translational modifications, and allosteric effectors. Its active site contains key residues that coordinate substrate binding and transition state stabilization.

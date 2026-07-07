@@ -11,6 +11,12 @@ entity_type_1: NA
 
 Two cell lines that are genetically identical except for a single specific genetic variation.
 
+## Connections
+
+- [[Induced Pluripotent Stem Cells]]
+- [[Disease Modeling]]
+- [[CRISPR]]
+
 ## Linking Summary
 - New links added: [[Induced Pluripotent Stem Cells]], [[Disease Modeling]], [[CRISPR]]
 - Suggested new entity notes to create:

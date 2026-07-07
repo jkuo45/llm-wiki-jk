@@ -1,12 +1,15 @@
 ---
+
 type: entity
 title: Common Pathway
-description: The **Common Pathway** (or execution phase) of Apoptosis is the final
+description: The Common Pathway (or execution phase) of Apoptosis is the final
   stage where the signals from the Intrinsic Pathway and Extrinsic Pathway converge.
 created: 2026-07-06
 updated: 2026-07-06
 entity_type_1: Enzyme
+
 ---
+
 # Common Pathway
 
 The **Common Pathway** (or execution phase) of [[Apoptosis]] is the final stage where the signals from the [[Intrinsic Pathway]] and [[Extrinsic Pathway]] converge.

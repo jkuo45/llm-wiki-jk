@@ -13,3 +13,8 @@ entity_type_1: Chemical Compound
 ## Connections
 - [[Methemoglobinemia]]: A common result of Amyl nitrite exposure.
 - [[Isobutyl nitrite]]: Another related compound with similar effects.
+
+## Linking Summary
+- New links added: [[Amyl nitrite]], [[Isobutyl nitrite]], [[Methemoglobinemia]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[Amyl nitrite]] ↔ [[Methemoglobinemia]], [[Amyl nitrite]] ↔ [[Isobutyl nitrite]], [[Amyl nitrite]] ↔ [[Amyl nitrite]]

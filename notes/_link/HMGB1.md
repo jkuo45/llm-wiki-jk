@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: HMGB1
-description: '**Overview:** HMGB1 is a cellular protein with structural, signaling,
+description: 'Overview: HMGB1 is a cellular protein with structural, signaling,
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
   and signaling networks that govern cel...'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Protein
 aliases: [High Mobility Group Box 1]
+
 ---
+
 # HMGB1
 
 **Overview:** HMGB1 is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern cell behavior.

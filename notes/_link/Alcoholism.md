@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: Alcoholism
-description: '**Etiology and pathophysiology:** Alcoholism is a medical condition
+description: 'Etiology and pathophysiology: Alcoholism is a medical condition
   characterized by specific pathological changes in cellular, tissue, or organ function.
   Its development involves genetic, environm...'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Medical Condition
 aliases: [Alcohol Use Disorder, AUD]
+
 ---
+
 # Alcoholism
 
 **Etiology and pathophysiology:** Alcoholism is a medical condition characterized by specific pathological changes in cellular, tissue, or organ function. Its development involves genetic, environmental, and lifestyle risk factors.

@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: Spermidine
-description: '**Spermidine** is a naturally occurring polyamine that is found in all
+description: 'Spermidine is a naturally occurring polyamine that is found in all
   living cells. It is recognized as a potent ''geroprotector'' due to its ability
   to extend the lifespan of various organisms, inc...'
 created: 2026-05-29
 updated: 2026-05-29
 entity_type_1: Chemical Compound
+
 ---
+
 # Spermidine
 **[[Spermidine]]** is a naturally occurring polyamine that is found in all living cells. It is recognized as a potent "geroprotector" due to its ability to extend the lifespan of various organisms, including yeast, worms, flies, and mice.
 Spermidine is a natural [[Polyamine]] and potent [[Autophagy Inducer]] that promotes [[Longevity]] and cardiovascular health by inhibiting the acetyltransferase p300.

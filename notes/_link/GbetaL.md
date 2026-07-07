@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: GbetaL
-description: '**GβL** (also known as **mLST8**) is a core subunit of both mTORC1 and
+description: 'GβL (also known as mLST8) is a core subunit of both mTORC1 and
   mTORC2 complexes. It binds the mTOR Kinase Domain, stabilizing catalytic activity
   and promoting complex assembly. GβL belongs ...'
 created: 2026-07-04
 updated: 2026-07-06
 entity_type_1: Protein
 aliases: [mLST8, G Protein Beta Subunit-Like, LST8]
+
 ---
+
 # GbetaL
 
 **GβL** (also known as **mLST8**) is a core subunit of both [[mTORC1]] and [[mTORC2]] complexes. It binds the [[mTOR]] [[Kinase Domain]], stabilizing catalytic activity and promoting complex assembly. GβL belongs to the [[WD40 Repeat]] protein family and adopts a [[β-propeller]] structure similar to [[Gβ]] subunits of heterotrimeric [[G Proteins]].

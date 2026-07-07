@@ -11,5 +11,9 @@ entity_type_1: Chemical Compound
 
 Ammonium Persulfate is a concept related to [[Adrenochrome]] and catecholamine metabolism.
 
+## Connections
+
+- [[Adrenochrome]]: Ammonium Persulfate is a concept related to Adrenochrome and catecholamine metabolism.
+
 ## Linking Summary
 - New links added: [[Adrenochrome]]

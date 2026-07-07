@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: Everolimus
-description: '**Chemical properties:** Everolimus is a chemical substance with defined
+description: 'Chemical properties: Everolimus is a chemical substance with defined
   molecular structure, functional groups, and physicochemical properties that determine
   its biological activity.'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Chemical Compound
 aliases: [RAD001, Afinitor]
+
 ---
+
 # Everolimus
 
 **Chemical properties:** Everolimus is a chemical substance with defined molecular structure, functional groups, and physicochemical properties that determine its biological activity.

@@ -1,7 +1,8 @@
 ---
+
 type: entity
 title: PON1
-description: '**PON1 (Paraoxonase 1, Serum paraoxonase/arylesterase 1)** is a calcium-dependent
+description: 'PON1 (Paraoxonase 1, Serum paraoxonase/arylesterase 1) is a calcium-dependent
   esterase synthesized primarily in the liver and secreted into the blood, where it
   associates with HDL and hydrolyze...'
 created: 2026-07-04
@@ -11,7 +12,9 @@ aliases: [Paraoxonase 1, Serum aryldialkylphosphatase 1, ESA, PON]
 database_ids:
   uniprot: P27169
   hgnc: HGNC:9204
+
 ---
+
 # PON1
 
 **PON1 (Paraoxonase 1, Serum paraoxonase/arylesterase 1)** is a calcium-dependent esterase synthesized primarily in the liver and secreted into the blood, where it associates with [[HDL|high-density lipoprotein (HDL)]] and hydrolyzes oxidized lipids, contributing to HDL's antioxidant and anti-atherogenic properties.
@@ -32,3 +35,17 @@ PON1 reduces [[Lipid Peroxidation|lipid peroxidation]] in LDL by hydrolyzing spe
 Low PON1 activity is an independent risk factor for [[Cardiovascular Disease|cardiovascular disease]]. PON1 activity is modulated by:
 - **Polymorphisms**: Q192R (determines paraoxon hydrolysis rate) and L55M (affects expression level)
 - **Lifestyle**: Smoking, diabetes, and [[Oxidative Stress|oxidative stress]] reduce activity; moderate alcohol consumption, statins, and polyphenols increase activity
+
+## Connections
+
+- [[HDL]]: **PON1 (Paraoxonase 1, Serum paraoxonase/arylesterase 1)** is a calcium-dependent esterase synthesized primarily in t...
+- [[7-Ketocholesterol]]: PON1 possesses broad substrate specificity: - **Organophosphates**: Hydrolyzes paraoxon, diazoxon, and other neurotox...
+- [[Lipid Peroxidation]]: PON1 reduces lipid peroxidation in LDL by hydrolyzing specific oxidized phospholipid species, preventing their accumu...
+- [[ABCA1]]: It also protects HDL itself from oxidation, preserving its ability to accept cholesterol from macrophages via ABCA1 (...
+- [[Cardiovascular Disease]]: Low PON1 activity is an independent risk factor for cardiovascular disease.
+- [[Oxidative Stress]]: PON1 activity is modulated by: - **Polymorphisms**: Q192R (determines paraoxon hydrolysis rate) and L55M (affects exp...
+
+## Linking Summary
+- New links added: [[7-Ketocholesterol]], [[ABCA1]], [[Cardiovascular Disease]], [[HDL]], [[Lipid Peroxidation]], [[Oxidative Stress]]
+- Suggested new entity notes to create: [[HDL]]
+- Strong connections to strengthen: [[PON1]] ↔ [[Cardiovascular Disease]], [[PON1]] ↔ [[Lipid Peroxidation]], [[PON1]] ↔ [[7-Ketocholesterol]]

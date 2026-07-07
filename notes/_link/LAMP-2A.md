@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: LAMP-2A
-description: '**Overview:** LAMP-2A is a cellular protein with structural, signaling,
+description: 'Overview: LAMP-2A is a cellular protein with structural, signaling,
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
   and signaling networks that govern c...'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Protein
 aliases: [Lysosomal-Associated Membrane Protein 2A]
+
 ---
+
 # LAMP-2A
 
 **Overview:** LAMP-2A is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern cell behavior.

@@ -1,7 +1,8 @@
 ---
+
 type: entity
 title: Beclin1
-description: '**Beclin1** (also known as **Atg6** and **BECN1**) is a key regulatory
+description: 'Beclin1 (also known as Atg6 and BECN1) is a key regulatory
   protein in the initiation and regulation of Autophagy. It functions as a molecular
   scaffold that assembles the class III PI3K ...'
 created: 2026-07-04
@@ -12,7 +13,9 @@ database_ids:
   mesh: D060727
   uniprot: Q14457
   hgnc: HGNC:1034
+
 ---
+
 # Beclin1
 
 **Beclin1** (also known as **Atg6** and **BECN1**) is a key regulatory protein in the initiation and regulation of [[Autophagy]]. It functions as a molecular scaffold that assembles the class III [[PI3K]] complex, which produces phosphatidylinositol 3-phosphate (PI3P) to nucleate autophagosome formation.

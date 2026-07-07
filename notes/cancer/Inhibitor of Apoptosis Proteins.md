@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: Inhibitor of Apoptosis Proteins
-description: '**Inhibitor of Apoptosis Proteins** (IAPs) are a family of proteins
+description: 'Inhibitor of Apoptosis Proteins (IAPs) are a family of proteins
   that serve as endogenous inhibitors of caspases, thereby regulating Apoptosis, cytokinesis,
   and signal transduction.'
 created: 2026-07-06
 updated: 2026-07-06
 entity_type_1: Enzyme
+
 ---
+
 # Inhibitor of Apoptosis Proteins
 
 **Inhibitor of Apoptosis Proteins** (IAPs) are a family of proteins that serve as endogenous inhibitors of caspases, thereby regulating [[Apoptosis]], cytokinesis, and signal transduction.

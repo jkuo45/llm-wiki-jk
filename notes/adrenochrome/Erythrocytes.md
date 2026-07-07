@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: Erythrocytes
-description: '**Erythrocytes**, or **Red blood cells** (RBCs), are the most common
+description: 'Erythrocytes, or Red blood cells (RBCs), are the most common
   type of blood cell and the principal means of delivering oxygen (O₂) to the body
   tissues via blood flow through the circulatory ...'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Cell Type
+
 ---
+
 # Erythrocytes
 
 **Erythrocytes**, or **Red blood cells** (RBCs), are the most common type of blood cell and the principal means of delivering oxygen (O₂) to the body tissues via blood flow through the circulatory system.
@@ -20,3 +23,8 @@ Erythrocytes are subject to [[Oxidative Stress]] from the autoxidation of [[Hemo
 - [[Methemoglobinemia]]
 - [[Oxidative Stress]]
 - [[Hemolysis]]
+
+## Linking Summary
+- New links added: [[Adrenochrome]], [[Hemoglobin]], [[Hemolysis]], [[Methemoglobinemia]], [[Oxidative Stress]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[Erythrocytes]] ↔ [[Methemoglobinemia]], [[Erythrocytes]] ↔ [[Oxidative Stress]], [[Erythrocytes]] ↔ [[Adrenochrome]]

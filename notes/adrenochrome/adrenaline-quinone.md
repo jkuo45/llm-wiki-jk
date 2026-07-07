@@ -1,12 +1,15 @@
 ---
+
 type: entity
 title: adrenaline-quinone
-description: '**Adrenaline-quinone** is a highly reactive, electrophilic intermediate
+description: 'Adrenaline-quinone is a highly reactive, electrophilic intermediate
   formed during the oxidation of Epinephrine.'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Chemical Compound
+
 ---
+
 # adrenaline-quinone
 
 **Adrenaline-quinone** is a highly reactive, electrophilic intermediate formed during the oxidation of [[Epinephrine]].
@@ -25,3 +28,8 @@ As a potent [[Electrophile]], adrenaline-quinone can damage cellular proteins an
 - [[Leuco-adrenochrome]]
 - [[Adrenochrome]]
 - [[Oxidative Stress]]
+
+## Linking Summary
+- New links added: [[Adrenochrome]], [[Catechol]], [[Electrophile]], [[Epinephrine]], [[Glutathione]], [[Leuco-adrenochrome]], [[Michael addition]], [[Oxidative Stress]], [[Quinone]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[adrenaline-quinone]] ↔ [[Leuco-adrenochrome]], [[adrenaline-quinone]] ↔ [[Oxidative Stress]], [[adrenaline-quinone]] ↔ [[Michael addition]]

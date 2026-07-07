@@ -11,6 +11,11 @@ entity_type_1: Medical Condition
 # Fibrosis
 Fibrosis is a medical condition characterized by the excessive formation of fibrous connective tissue in an organ or tissue, often as a result of chronic inflammation or injury.
 
+## Connections
+
+- [[Connective Tissue]]
+- [[Inflammation]]
+
 ## Linking Summary
 - New links added: [[Connective Tissue]], [[Inflammation]]
 - Suggested new entity notes to create: 

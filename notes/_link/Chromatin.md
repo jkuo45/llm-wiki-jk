@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: Chromatin
-description: '**Chromatin** is the complex of DNA and proteins (primarily histones)
+description: 'Chromatin is the complex of DNA and proteins (primarily histones)
   that packages the genome within the cell nucleus. In young, healthy cells, chromatin
   is organized into a precise landscape of t...'
 created: 2024-01-01
 updated: 2024-01-01
 entity_type_1: Biological Molecule
+
 ---
+
 # Chromatin
 **Chromatin** is the complex of DNA and proteins (primarily histones) that packages the genome within the cell nucleus. In young, healthy cells, chromatin is organized into a precise landscape of tightly packed [[Heterochromatin]] (transcriptionally silent) and open [[Euchromatin]] (transcriptionally active). During [[Aging]], this structure undergoes significant remodeling, often referred to as **epigenetic drift**.
 ### 1. Loss of [[Heterochromatin]]

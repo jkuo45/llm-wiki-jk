@@ -11,6 +11,12 @@ entity_type_1: NA
 
 A line of human foreskin fibroblasts often used as feeder cells or in reprogramming studies.
 
+## Connections
+
+- [[Yamanaka Factors]]
+- [[Induced Pluripotent Stem Cells]]
+- [[Fibroblasts]]
+
 ## Linking Summary
 - New links added: [[Yamanaka Factors]], [[Induced Pluripotent Stem Cells]], [[Fibroblasts]]
 - Suggested new entity notes to create:

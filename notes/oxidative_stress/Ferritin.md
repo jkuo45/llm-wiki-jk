@@ -1,7 +1,8 @@
 ---
+
 type: entity
 title: Ferritin
-description: '**Ferritin** is a conserved multimeric iron storage protein that sequesters
+description: 'Ferritin is a conserved multimeric iron storage protein that sequesters
   intracellular iron in a bioavailable, non-toxic form, limiting Fenton Reaction chemistry
   and protecting against Ferroptosis.'
 created: 2026-07-04
@@ -10,7 +11,9 @@ entity_type_1: Protein
 aliases: [FTH1, FTL, Ferritin heavy chain, Ferritin light chain]
 database_ids:
   uniprot: ['P02794 (FTH1)', 'P02792 (FTL)']
+
 ---
+
 # Ferritin
 
 **Ferritin** is a conserved multimeric iron storage protein that sequesters intracellular iron in a bioavailable, non-toxic form, limiting [[Fenton Reaction]] chemistry and protecting against [[Ferroptosis|ferroptosis]].
@@ -31,3 +34,28 @@ Ferritin is a hollow, spherical protein shell composed of 24 subunits of two typ
 - **[[Cardiovascular Disease]]**: Serum ferritin is a marker of body iron stores; elevated ferritin is an independent risk factor for atherosclerosis and cardiovascular events.
 - **Inflammation**: Ferritin is an acute-phase reactant induced by [[IL-1b]] and [[TNF-alpha]]; hyperferritinemia occurs in chronic inflammatory conditions.
 - **Ferritin Heavy Chain Mutations**: Rare mutations in *FTH1* cause a dominantly inherited form of [[Adult-Onset Basal Ganglia Disease]] (neuroferritinopathy), with iron accumulation in the basal ganglia leading to progressive motor dysfunction.
+
+## Connections
+
+- [[Fenton Reaction]]: **Ferritin** is a conserved multimeric iron storage protein that sequesters intracellular iron in a bioavailable, non...
+- [[Ferroptosis]]: **Ferritin** is a conserved multimeric iron storage protein that sequesters intracellular iron in a bioavailable, non...
+- [[Superoxide Radicals]]: Iron release is mediated by reduction via Superoxide Radicals, [[Ascorbic Acid]], or [[FMNH2]].
+- [[Ascorbic Acid]]: Iron release is mediated by reduction via [[Superoxide Radicals]], Ascorbic Acid, or [[FMNH2]].
+- [[FMNH2]]: Iron release is mediated by reduction via [[Superoxide Radicals]], [[Ascorbic Acid]], or FMNH2.
+- [[NRF2]]: - **Transcriptional**: Ferritin is induced by NRF2 (via ARE elements in FTH1 promoter) in response to oxidative stres...
+- [[Iron Regulatory Proteins]]: - **Transcriptional**: Ferritin is induced by [[NRF2]] (via ARE elements in FTH1 promoter) in response to oxidative s...
+- [[Ferritinophagy]]: - **Degradation**: Ferritinophagy — the selective autophagic degradation of ferritin mediated by the cargo receptor [...
+- [[NCOA4]]: - **Degradation**: [[Ferritinophagy]] — the selective autophagic degradation of ferritin mediated by the cargo recept...
+- [[Neurodegeneration]]: - **[[Neurodegeneration|Neurodegeneration]]**: Iron accumulation (with ferritin dysregulation) in the [[Substantia Ni...
+- [[Substantia Nigra]]: - **[[Neurodegeneration|Neurodegeneration]]**: Iron accumulation (with ferritin dysregulation) in the Substantia Nigr...
+- [[Parkinson's Disease]]: - **[[Neurodegeneration|Neurodegeneration]]**: Iron accumulation (with ferritin dysregulation) in the [[Substantia Ni...
+- [[Alzheimer's Disease]]: - **[[Neurodegeneration|Neurodegeneration]]**: Iron accumulation (with ferritin dysregulation) in the [[Substantia Ni...
+- [[Cardiovascular Disease]]: - **Cardiovascular Disease**: Serum ferritin is a marker of body iron stores; elevated ferritin is an independent ris...
+- [[IL-1b]]: - **Inflammation**: Ferritin is an acute-phase reactant induced by IL-1b and [[TNF-alpha]]; hyperferritinemia occurs ...
+- [[TNF-alpha]]: - **Inflammation**: Ferritin is an acute-phase reactant induced by [[IL-1b]] and TNF-alpha; hyperferritinemia occurs ...
+- [[Adult-Onset Basal Ganglia Disease]]: - **Ferritin Heavy Chain Mutations**: Rare mutations in *FTH1* cause a dominantly inherited form of Adult-Onset Basal...
+
+## Linking Summary
+- New links added: [[Adult-Onset Basal Ganglia Disease]], [[Alzheimer's Disease]], [[Ascorbic Acid]], [[Cardiovascular Disease]], [[FMNH2]], [[Fenton Reaction]], [[Ferritinophagy]], [[Ferroptosis]], [[IL-1b]], [[Iron Regulatory Proteins]], [[NCOA4]], [[NRF2]], [[Neurodegeneration]], [[Parkinson's Disease]], [[Substantia Nigra]], [[Superoxide Radicals]], [[TNF-alpha]]
+- Suggested new entity notes to create: [[Adult-Onset Basal Ganglia Disease]], [[FMNH2]], [[Ferritinophagy]], [[Iron Regulatory Proteins]]
+- Strong connections to strengthen: [[Ferritin]] ↔ [[Adult-Onset Basal Ganglia Disease]], [[Ferritin]] ↔ [[Iron Regulatory Proteins]], [[Ferritin]] ↔ [[Cardiovascular Disease]]

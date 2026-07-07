@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: DNA Damage
-description: '**DNA damage** refers to any chemical or physical alteration to the
+description: 'DNA damage refers to any chemical or physical alteration to the
   structure of DNA that deviates from the canonical Watson-Crick base pairing. Unlike
   DNA Mutation, which are heritable sequence ch...'
 created: 2026-07-04
 updated: 2026-07-06
 entity_type_1: Biological Process
 aliases: [DNA lesion, DNA injury, genomic damage]
+
 ---
+
 # DNA Damage
 
 **DNA damage** refers to any chemical or physical alteration to the structure of [[DNA]] that deviates from the canonical Watson-Crick base pairing. Unlike [[DNA Mutation|mutations]], which are heritable sequence changes, DNA damage is a chemical lesion that can often be repaired. Mammalian cells experience tens of thousands of DNA damage events per cell per day from both endogenous and exogenous sources.

@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: Geroscience
-description: '**Geroscience** is an interdisciplinary field that seeks to understand
+description: 'Geroscience is an interdisciplinary field that seeks to understand
   the biological relationship between Aging and age-related diseases. The central
   hypothesis of geroscience is that because agin...'
 created: 2024-01-01
 updated: 2024-01-01
 entity_type_1: Scientific Concept
+
 ---
+
 # Geroscience
 **[[Geroscience]]** is an interdisciplinary field that seeks to understand the biological relationship between [[Aging]] and age-related diseases. The central hypothesis of geroscience is that because aging is the single greatest risk factor for most chronic diseases, slowing the fundamental processes of aging will delay the onset of multiple diseases simultaneously.
 ### 1. The "Hallmarks of Aging"

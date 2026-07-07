@@ -13,3 +13,8 @@ entity_type_1: Chemical Compound
 ## Connections
 - [[Methemoglobinemia]]: A potential complication of Prilocaine use.
 - [[Lidocaine]]: Often used in combination with prilocaine (e.g., EMLA cream).
+
+## Linking Summary
+- New links added: [[Benzocaine]], [[Hemoglobin]], [[Lidocaine]], [[Methemoglobinemia]], [[Prilocaine]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[Prilocaine]] ↔ [[Methemoglobinemia]], [[Prilocaine]] ↔ [[Benzocaine]], [[Prilocaine]] ↔ [[Prilocaine]]

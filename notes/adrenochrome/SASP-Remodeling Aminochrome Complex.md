@@ -1,12 +1,15 @@
 ---
+
 type: entity
 title: SASP-Remodeling Aminochrome Complex
-description: The **SASP-Remodeling Aminochrome Complex (SRAC)** is a senomorphic therapeutic
+description: The SASP-Remodeling Aminochrome Complex (SRAC) is a senomorphic therapeutic
   strategy designed to reprogram the senescent phenotype and mitigate inflammaging.
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Scientific Concept
+
 ---
+
 # SASP-Remodeling Aminochrome Complex
 
 The **SASP-Remodeling Aminochrome Complex (SRAC)** is a senomorphic therapeutic strategy designed to reprogram the senescent phenotype and mitigate inflammaging.
@@ -25,6 +28,15 @@ The **SASP-Remodeling Aminochrome Complex (SRAC)** is a senomorphic therapeutic 
 ## Expected Outcomes
 - Significant reduction in systemic SASP biomarkers (IL-6, IL-1β, MCP-1).
 - Improved tissue regeneration and reduced chronic "inflammaging."
+
+## Connections
+
+- [[Adrenochrome]]: ## Strategy Components - **Modulator:** Adrenochrome (delivered via targeted nanoparticles).
+- [[Rapamycin]]: - **Brake:** [[Rapamycin|Rapamycin]] (mTOR inhibitor).
+- [[Fisetin]]: - **Synergist:** [[Fisetin|Fisetin]] (Flavonoid senolytic/senomorphic).
+- [[GlyNAC]]: - **Buffer:** GlyNAC (Glycine + N-Acetylcysteine).
+- [[Glutathione]]: **Glutathione Homeostasis:** GlyNAC provides the necessary precursors to maintain high intracellular Glutathione leve...
+- [[Redox Cycling]]: **Glutathione Homeostasis:** GlyNAC provides the necessary precursors to maintain high intracellular [[Glutathione]] ...
 
 ## Linking Summary
 - New links added: [[Adrenochrome]], [[Rapamycin]], [[Fisetin]], [[GlyNAC]], [[SASP]], [[Glutathione]], [[Inflammaging]]

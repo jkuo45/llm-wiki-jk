@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: PDK1
-description: '**Overview:** PDK1 is a cellular protein with structural, signaling,
+description: 'Overview: PDK1 is a cellular protein with structural, signaling,
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
   and signaling networks that govern cell...'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Protein
 aliases: [3-Phosphoinositide-Dependent Protein Kinase 1]
+
 ---
+
 # PDK1
 
 **Overview:** PDK1 is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern cell behavior.

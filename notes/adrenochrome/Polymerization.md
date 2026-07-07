@@ -1,12 +1,15 @@
 ---
+
 type: entity
 title: Polymerization
-description: '**Polymerization** is a process of reacting monomer molecules together
+description: 'Polymerization is a process of reacting monomer molecules together
   in a chemical reaction to form polymer chains or three-dimensional networks.'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Chemical Process
+
 ---
+
 # Polymerization
 
 **Polymerization** is a process of reacting monomer molecules together in a chemical reaction to form polymer chains or three-dimensional networks.

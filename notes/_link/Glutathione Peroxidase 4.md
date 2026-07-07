@@ -1,7 +1,8 @@
 ---
+
 type: entity
 title: Glutathione Peroxidase 4
-description: '**Glutathione Peroxidase 4 (GPx4)** is a selenium-dependent antioxidant
+description: 'Glutathione Peroxidase 4 (GPx4) is a selenium-dependent antioxidant
   enzyme that directly reduces phospholipid hydroperoxides in cellular membranes.
   It is a central regulator of Ferroptosis.'
 created: 2026-07-04
@@ -11,7 +12,9 @@ aliases: [GPx4, Phospholipid hydroperoxide glutathione peroxidase, PHGPx]
 database_ids:
   uniprot: P36969
   hgnc: HGNC:4556
+
 ---
+
 # Glutathione Peroxidase 4
 **Glutathione Peroxidase 4 (GPx4)** is a selenium-dependent antioxidant enzyme that directly reduces phospholipid hydroperoxides in cellular membranes. It is a central regulator of [[Ferroptosis|ferroptosis]].
 

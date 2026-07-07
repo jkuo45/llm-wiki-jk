@@ -1,12 +1,15 @@
 ---
+
 type: entity
 title: Nutlins
-description: '**Nutlins** are a family of small-molecule cis-imidazoline analogs that
+description: 'Nutlins are a family of small-molecule cis-imidazoline analogs that
   function as potent and selective inhibitors of the MDM2-p53 interaction.'
 created: 2026-07-06
 updated: 2026-07-06
 entity_type_1: Medical Condition
+
 ---
+
 # Nutlins
 
 **Nutlins** are a family of small-molecule cis-imidazoline analogs that function as potent and selective inhibitors of the [[MDM2]]-p53 interaction.

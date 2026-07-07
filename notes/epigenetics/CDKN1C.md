@@ -1,14 +1,22 @@
 ---
+
 type: entity
 title: CDKN1C
-description: '- New links added: p57, CDK Inhibitor, Quiescence'
+description: 'CDKN1C, also known as p57, is a gene that provides instructions for making a protein that functions as a tight-binding inhibitor of several G1 cyclin/Cdk complexes and a negative regulator of cell proliferation.'
 created: 2024-01-01
 updated: 2024-01-01
 entity_type_1: Gene
+
 ---
+
 # CDKN1C
 
 [[CDKN1C]], also known as [[p57]], is a gene that provides instructions for making a protein that functions as a tight-binding inhibitor of several G1 cyclin/Cdk complexes and a negative regulator of cell proliferation.
+
+## Connections
+
+- [[CDKN1C]]: CDKN1C, also known as [[p57]], is a gene that provides instructions for making a protein that functions as a tight-bi...
+- [[p57]]: [[CDKN1C]], also known as p57, is a gene that provides instructions for making a protein that functions as a tight-bi...
 
 ## Linking Summary
 - New links added: [[p57]], [[CDK Inhibitor]], [[Quiescence]]

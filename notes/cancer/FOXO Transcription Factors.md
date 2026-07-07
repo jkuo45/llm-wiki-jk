@@ -12,6 +12,12 @@ entity_type_1: Gene
 
 Forkhead box O (FOXO) transcription factors are a family of proteins that regulate genes involved in cell growth, metabolism, and [[Apoptosis]] (e.g., [[Bim]] and [[Puma]]).
 
+## Connections
+
+- [[Apoptosis]]: Forkhead box O (FOXO) transcription factors are a family of proteins that regulate genes involved in cell growth, met...
+- [[Bim]]: Forkhead box O (FOXO) transcription factors are a family of proteins that regulate genes involved in cell growth, met...
+- [[Puma]]: Forkhead box O (FOXO) transcription factors are a family of proteins that regulate genes involved in cell growth, met...
+
 ## Linking Summary
 - New links added:
 - Suggested new entity notes to create:

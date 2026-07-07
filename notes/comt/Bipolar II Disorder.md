@@ -1,12 +1,15 @@
 ---
+
 type: entity
 title: Bipolar II Disorder
-description: '**Bipolar II Disorder** is a type of bipolar disorder characterized
+description: 'Bipolar II Disorder is a type of bipolar disorder characterized
   by at least one episode of hypomania and at least one episode of major depression.'
 created: 2026-05-25
 updated: 2026-07-04
 entity_type_1: Medical Condition
+
 ---
+
 # Bipolar II Disorder
 
 **[[Bipolar II Disorder]]** is a type of bipolar disorder characterized by at least one episode of hypomania and at least one episode of major depression.

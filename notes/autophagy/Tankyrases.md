@@ -19,6 +19,13 @@ Tankyrases (TNKS1/[[TNKS1]], TNKS2/[[TNKS2]]) are PARP5 enzymes with ankyrin rep
 
 Regulate telomere maintenance (via TRF1), Wnt/β-catenin signaling (via AXIN degradation), GLUT4 trafficking, and [[Autophagy]] (via ULK1/TFEB stabilization). Tankyrase inhibitors are in development for cancer and fibrosis.
 
+## Connections
+
+- [[TFEB]]: Tankyrases (TNKS1 and TNKS2) are poly(ADP-ribose) polymerases (PARPs) that interact with and parsylate TFEB, promotin...
+- [[TNKS1]]: Tankyrases (TNKS1/TNKS1, TNKS2/[[TNKS2]]) are PARP5 enzymes with ankyrin repeat domains for protein-protein interacti...
+- [[TNKS2]]: Tankyrases (TNKS1/[[TNKS1]], TNKS2/TNKS2) are PARP5 enzymes with ankyrin repeat domains for protein-protein interacti...
+- [[Autophagy]]: Regulate telomere maintenance (via TRF1), Wnt/β-catenin signaling (via AXIN degradation), GLUT4 trafficking, and Auto...
+
 ## Linking Summary
 - New links added: [[TFEB]]
 - Suggested new entity notes to create: [[PARsylation]]

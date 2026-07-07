@@ -16,6 +16,12 @@ Proline-rich AKT substrate 40 kDa (PRAS40) is a component and negative regulator
 
 PRAS40 (AKT1S1) is an [[mTORC1]] inhibitor that binds [[Raptor]]. [[Akt]]-mediated phosphorylation of PRAS40 at T246 relieves this inhibition.
 
+## Connections
+
+- [[mTORC1]]: # PRAS40 Proline-rich AKT substrate 40 kDa (PRAS40) is a component and negative regulator of mTORC1 that inhibits the...
+- [[Akt]]: # PRAS40 Proline-rich AKT substrate 40 kDa (PRAS40) is a component and negative regulator of [[mTORC1]] that inhibits...
+- [[Raptor]]: PRAS40 (AKT1S1) is an [[mTORC1]] inhibitor that binds Raptor.
+
 ## Linking Summary
 - New links added: [[mTORC1]], [[Akt|AKT]], [[Insulin Resistance]]
 - Suggested new entity notes to create: 

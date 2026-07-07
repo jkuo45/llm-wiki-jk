@@ -11,6 +11,10 @@ entity_type_1: Enzyme
 
 Rad53p is a yeast protein kinase that, along with [[Tel1p]], senses mitochondrial ROS and mediates mitochondria-induced longevity through epigenetic changes.
 
+## Connections
+
+- [[Tel1p]]: Rad53p is a yeast protein kinase that, along with Tel1p, senses mitochondrial ROS and mediates mitochondria-induced l...
+
 ## Linking Summary
 - New links added: [[Tel1p]], [[Mitohormesis]], [[Longevity]]
 - Suggested new entity notes to create: 

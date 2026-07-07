@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: Satellite Cell
-description: '**Satellite cells** are Muscle Stem Cell of Skeletal Muscle, located
+description: 'Satellite cells are Muscle Stem Cell of Skeletal Muscle, located
   between the Basal Lamina and the Sarcolemma of mature muscle fibers. They are essential
   for postnatal Muscle Growth, regeneratio...'
 created: 2026-07-04
 updated: 2026-07-06
 entity_type_1: Cell Type
 aliases: [Muscle Stem Cell, Skeletal Muscle Satellite Cell]
+
 ---
+
 # Satellite Cell
 
 **Satellite cells** are [[Muscle Stem Cell|tissue-resident stem cells]] of [[Skeletal Muscle]], located between the [[Basal Lamina]] and the [[Sarcolemma]] of mature muscle fibers. They are essential for postnatal [[Muscle Growth]], regeneration after injury, and maintenance of muscle mass throughout life.

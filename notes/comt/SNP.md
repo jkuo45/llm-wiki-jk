@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: SNP
-description: A **SNP** (Single Nucleotide Polymorphism) is a variation in a single
+description: A SNP (Single Nucleotide Polymorphism) is a variation in a single
   nucleotide that occurs at a specific position in the genome. SNP are the most common
   type of genetic variation among people.
 created: 2026-05-25
 updated: 2026-07-04
 entity_type_1: Gene
 aliases: [Single Nucleotide Polymorphism]
+
 ---
+
 # SNP
 
 A **[[SNP]]** (Single Nucleotide Polymorphism) is a variation in a single nucleotide that occurs at a specific position in the genome. [[SNP|SNPs]] are the most common type of genetic variation among people.

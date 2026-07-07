@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: Starvation
-description: '**Starvation** is a state of severe nutrient deficiency that triggers
+description: 'Starvation is a state of severe nutrient deficiency that triggers
   profound metabolic and cellular adaptations, including the massive activation of
   Autophagy.'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Biological Process
+
 ---
+
 # Starvation
 
 **Starvation** is a state of severe nutrient deficiency that triggers profound metabolic and cellular adaptations, including the massive activation of [[Autophagy]].
@@ -23,6 +26,20 @@ entity_type_1: Biological Process
 ## Physiology
 
 Starvation is the strongest physiological inducer of [[Autophagy]]. It activates [[AMPK]], inhibits [[mTORC1]], and induces [[TFEB]] nuclear translocation.
+
+## Connections
+
+- [[Autophagy]]: **Starvation** is a state of severe nutrient deficiency that triggers profound metabolic and cellular adaptations, in...
+- [[mTORC1]]: ## Cellular Responses - **[[Autophagy]] Activation**: Starvation inhibits mTORC1, leading to the activation of the [[...
+- [[ULK1]]: ## Cellular Responses - **[[Autophagy]] Activation**: Starvation inhibits [[mTORC1]], leading to the activation of th...
+- [[TFEB]]: ## Cellular Responses - **[[Autophagy]] Activation**: Starvation inhibits [[mTORC1]], leading to the activation of th...
+- [[HLH-30]]: ## Cellular Responses - **[[Autophagy]] Activation**: Starvation inhibits [[mTORC1]], leading to the activation of th...
+- [[Lipophagy]]: - **Lipophagy**: Induction of [[Lysosomal Lipolysis]] to mobilize stored fats from [[Lipid Droplet]]s.
+- [[Lysosomal Lipolysis]]: - **[[Lipophagy]]**: Induction of Lysosomal Lipolysis to mobilize stored fats from [[Lipid Droplet]]s.
+- [[Lipid Droplet]]: - **[[Lipophagy]]**: Induction of [[Lysosomal Lipolysis]] to mobilize stored fats from Lipid Droplets.
+- [[MXL-3]]: - **Transcriptional Reprogramming**: Repression of anabolic genes and activation of catabolic genes, coordinated by s...
+- [[C. elegans]]: ## Survival Mechanisms - In C. elegans, the ability to survive starvation is dependent on [[HLH-30]] and the activati...
+- [[AMPK]]: It activates AMPK, inhibits [[mTORC1]], and induces [[TFEB]] nuclear translocation.
 
 ## Linking Summary
 - New links added: [[Autophagy]], [[mTORC1]], [[ULK1]], [[TFEB]], [[HLH-30]], [[Lipophagy]], [[Lysosomal Lipolysis]], [[Lipid Droplet]], [[MXL-3]], [[C. elegans]]

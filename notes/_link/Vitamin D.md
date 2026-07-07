@@ -1,7 +1,8 @@
 ---
+
 type: entity
 title: Vitamin D
-description: '**Vitamin D** is a group of fat-soluble secosteroids responsible for
+description: 'Vitamin D is a group of fat-soluble secosteroids responsible for
   increasing intestinal absorption of calcium, magnesium, and phosphate. The two major
   forms are vitamin D₂ (ergocalciferol) and v...'
 created: 2026-07-04
@@ -11,7 +12,9 @@ aliases: [Calciferol, Cholecalciferol (D3), Ergocalciferol (D2)]
 database_ids:
   mesh: D014807
   chebi: CHEBI:27300
+
 ---
+
 # Vitamin D
 **Vitamin D** is a group of fat-soluble secosteroids responsible for increasing intestinal absorption of calcium, magnesium, and phosphate. The two major forms are vitamin D₂ (ergocalciferol) and vitamin D₃ (cholecalciferol).
 ## Biological Functions

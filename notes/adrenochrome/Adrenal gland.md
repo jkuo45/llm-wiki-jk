@@ -11,5 +11,9 @@ entity_type_1: Anatomy
 
 Adrenal gland is a concept related to [[Adrenochrome]] and catecholamine metabolism.
 
+## Connections
+
+- [[Adrenochrome]]: Adrenal gland is a concept related to Adrenochrome and catecholamine metabolism.
+
 ## Linking Summary
 - New links added: [[Adrenochrome]]

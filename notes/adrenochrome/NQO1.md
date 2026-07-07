@@ -1,7 +1,8 @@
 ---
+
 type: entity
 title: NQO1
-description: '**NQO1 (NAD(P)H:quinone oxidoreductase 1)** is a multi-functional antioxidant
+description: 'NQO1 (NAD(P)H:quinone oxidoreductase 1) is a multi-functional antioxidant
   enzyme that is regulated by NRF2 and protects cells from oxidative stress by catalyzing
   the two-electron reduction of q...'
 created: 2026-07-04
@@ -11,7 +12,9 @@ aliases:
   - DT-diaphorase
   - NAD(P)H dehydrogenase [quinone] 1
   - DTD
+
 ---
+
 # NQO1
 
 **NQO1 (NAD(P)H:quinone oxidoreductase 1)** is a multi-functional antioxidant enzyme that is regulated by [[NRF2]] and protects cells from oxidative stress by catalyzing the two-electron reduction of quinones to hydroquinones.
@@ -31,6 +34,23 @@ NQO1 expression is under the transcriptional control of [[NRF2]] via the [[Antio
 ## Connection to Adrenochrome Detoxification
 
 NQO1 represents a key enzymatic defense against adrenochrome accumulation. By reducing the [[Adrenochrome Semiquinone Radical]] and its oxidized precursors to less reactive hydroquinone forms, NQO1 limits aminochrome-induced oxidative damage. This protective axis is particularly important in tissues with high catecholamine turnover, such as the [[Adrenal gland]], [[Myocardium]], and central nervous system. Induction of NQO1 via Nrf2 activation represents a potential therapeutic strategy to mitigate adrenochrome-associated pathology.
+
+## Connections
+
+- [[NRF2]]: **NQO1 (NAD(P)H:quinone oxidoreductase 1)** is a multi-functional antioxidant enzyme that is regulated by NRF2 and pr...
+- [[NADH]]: NQO1 catalyzes the obligatory two-electron reduction of quinones to hydroquinones using either NADH or [[NADPH]] as a...
+- [[NADPH]]: NQO1 catalyzes the obligatory two-electron reduction of quinones to hydroquinones using either [[NADH]] or NADPH as a...
+- [[Superoxide anion]]: This mechanism bypasses the formation of reactive semiquinone intermediates, thereby preventing redox cycling and gen...
+- [[FAD]]: The enzyme contains a non-covalently bound FAD cofactor that mediates hydride transfer from NAD(P)H to the quinone su...
+- [[NAD(P)H Oxidase]]: By reducing quinones directly to hydroquinones, NQO1 prevents one-electron reduction by enzymes such as NAD(P)H Oxida...
+- [[Cytochrome P450 reductase]]: By reducing quinones directly to hydroquinones, NQO1 prevents one-electron reduction by enzymes such as [[NAD(P)H Oxi...
+- [[Menadione]]: This detoxification is particularly relevant for redox-active quinones including Menadione, benzoquinones, and the ca...
+- [[o-quinone]]: This detoxification is particularly relevant for redox-active quinones including [[Menadione]], benzoquinones, and th...
+- [[Adrenochrome Pathway]]: This detoxification is particularly relevant for redox-active quinones including [[Menadione]], benzoquinones, and th...
+- [[Antioxidant Response Element]]: NQO1 expression is under the transcriptional control of [[NRF2]] via the Antioxidant Response Element (ARE).
+- [[Adrenochrome Semiquinone Radical]]: By reducing the Adrenochrome Semiquinone Radical and its oxidized precursors to less reactive hydroquinone forms, NQO...
+- [[Adrenal gland]]: This protective axis is particularly important in tissues with high catecholamine turnover, such as the Adrenal gland...
+- [[Myocardium]]: This protective axis is particularly important in tissues with high catecholamine turnover, such as the [[Adrenal gla...
 
 ## Linking Summary
 - New links added: [[NRF2]], [[Oxidative Stress]], [[Quinone]]

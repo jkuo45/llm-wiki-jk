@@ -17,6 +17,12 @@ MiT family translocation renal cell carcinoma (RCC) is a subtype of kidney cance
 
 tRCC is a renal cell carcinoma subtype defined by chromosomal translocations fusing [[TFE3]] or [[TFEB]] to partner genes, causing constitutive nuclear localization of these MiTF/TFE factors.
 
+## Connections
+
+- [[MiT]]: MiT family translocation renal cell carcinoma (RCC) is a subtype of kidney cancer driven by chromosomal translocation...
+- [[TFEB]]: MiT family translocation renal cell carcinoma (RCC) is a subtype of kidney cancer driven by chromosomal translocation...
+- [[TFE3]]: tRCC is a renal cell carcinoma subtype defined by chromosomal translocations fusing TFE3 or [[TFEB]] to partner genes...
+
 ## Linking Summary
 - New links added: [[Renal Cell Carcinoma]], [[MiT]]/[[TFEB]] family, [[TFEB]]
 - Suggested new entity notes to create: [[TFE3-translocation RCC]]

@@ -1,12 +1,15 @@
 ---
+
 type: entity
 title: N-Acetylcysteine
-description: '**N-Acetylcysteine (NAC)** is a derivative of the amino acid cysteine
+description: 'N-Acetylcysteine (NAC) is a derivative of the amino acid cysteine
   and acts as a potent antioxidant and a precursor to Glutathione.'
 created: 2024-01-01
 updated: 2024-01-01
 entity_type_1: Chemical Compound
+
 ---
+
 # N-Acetylcysteine
 **N-Acetylcysteine (NAC)** is a derivative of the amino acid cysteine and acts as a potent antioxidant and a precursor to [[Glutathione]].
 ## Therapeutic Context

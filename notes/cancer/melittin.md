@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: Melittin
-description: '**Melittin** is a positively charged, amphipathic 26-amino-acid peptide
+description: 'Melittin is a positively charged, amphipathic 26-amino-acid peptide
   that constitutes approximately half of Honeybee venom by dry weight. It is known
   for its ability to associate with phospholip...'
 created: 2026-07-06
 updated: 2026-07-06
 entity_type_1: Enzyme
+
 ---
+
 # Melittin
 
 **Melittin** is a positively charged, amphipathic 26-amino-acid peptide that constitutes approximately half of [[Honeybee]] venom by dry weight. It is known for its ability to associate with phospholipids in the cell membrane, forming pores and inducing cell death.
@@ -30,3 +33,8 @@ Melittin has shown selective cytotoxic effects against several cancer types, par
 - [[EGFR]]: A target of melittin signaling inhibition.
 - [[HER2]]: A target of melittin signaling inhibition.
 - [[docetaxel]]: A chemotherapy drug that acts synergistically with melittin.
+
+## Linking Summary
+- New links added: [[Cisplatin]], [[EGFR]], [[HER2]], [[HER2-enriched breast cancer]], [[Honeybee]], [[Melanoma]], [[docetaxel]], [[glioblastoma]], [[non-small-cell lung cancer]], [[triple-negative breast cancer]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[Melittin]] ↔ [[triple-negative breast cancer]], [[Melittin]] ↔ [[HER2-enriched breast cancer]], [[Melittin]] ↔ [[non-small-cell lung cancer]]

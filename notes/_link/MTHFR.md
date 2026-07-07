@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: MTHFR
-description: '**MTHFR** (Methylenetetrahydrofolate Reductase) is a critical enzyme
+description: 'MTHFR (Methylenetetrahydrofolate Reductase) is a critical enzyme
   in the Methylation Cycle. It is responsible for converting 5,10-methylenetetrahydrofolate
   to 5-methyltetrahydrofolate, the prima...'
 created: 2026-05-29
 updated: 2026-05-29
 entity_type_1: Enzyme
+
 ---
+
 # MTHFR
 **[[MTHFR]]** (Methylenetetrahydrofolate Reductase) is a critical enzyme in the [[Methylation Cycle]]. It is responsible for converting 5,10-methylenetetrahydrofolate to 5-methyltetrahydrofolate, the primary circulatory form of [[Folate]].
 ## Genetics

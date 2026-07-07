@@ -10,6 +10,11 @@ entity_type_1: Chemical Compound
 # Phenylbutyrate
 Phenylbutyrate is a chemical compound used to treat urea cycle disorders that additionally functions as an HDAC inhibitor to alter epigenetic states.
 
+## Connections
+
+- [[HDAC]]
+- [[Epigenetic Modifiers]]
+
 ## Linking Summary
 - New links added: [[HDAC]], [[Epigenetic Modifiers]]
 - Suggested new entity notes to create: 

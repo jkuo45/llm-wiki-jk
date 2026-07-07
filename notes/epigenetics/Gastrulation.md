@@ -11,6 +11,11 @@ entity_type_1: NA
 
 A phase in embryonic development during which the single-layered blastula is reorganized into a multilayered structure known as the gastrula.
 
+## Connections
+
+- [[Yamanaka Factors]]
+- [[Induced Pluripotent Stem Cells]]
+
 ## Linking Summary
 - New links added: [[Yamanaka Factors]], [[Induced Pluripotent Stem Cells]]
 - Suggested new entity notes to create:

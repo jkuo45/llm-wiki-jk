@@ -12,6 +12,11 @@ entity_type_1: Medical Condition
 
 The World Health Organization (WHO) is a specialized agency of the United Nations responsible for international public health. It has been instrumental in coordinating global efforts to eliminate diseases like [[Onchocerciasis]] and [[Lymphatic Filariasis]].
 
+## Connections
+
+- [[Onchocerciasis]]: It has been instrumental in coordinating global efforts to eliminate diseases like Onchocerciasis and [[Lymphatic Fil...
+- [[Lymphatic Filariasis]]: It has been instrumental in coordinating global efforts to eliminate diseases like [[Onchocerciasis]] and Lymphatic F...
+
 ## Linking Summary
 - New links added: [[Onchocerciasis]], [[Lymphatic Filariasis]], [[TDR]], [[OCP]], [[Global Programme to Eliminate Lymphatic Filariasis]]
 - Suggested new entity notes to create: [[United Nations]]

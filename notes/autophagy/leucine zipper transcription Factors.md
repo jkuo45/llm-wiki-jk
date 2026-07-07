@@ -17,6 +17,18 @@ Leucine zipper transcription factors are a class of DNA-binding proteins, includ
 
 bZIP transcription factors contain a basic region for DNA binding and a leucine zipper for dimerization. Members include [[ATF4]], [[CHOP]], [[XBP1]], [[CREB]], [[FOS]], [[JUN]], and [[NRL]].
 
+## Connections
+
+- [[MiT]]: Leucine zipper transcription factors are a class of DNA-binding proteins, including the MiT/[[TFEB]] family, characte...
+- [[TFEB]]: Leucine zipper transcription factors are a class of DNA-binding proteins, including the [[MiT]]/TFEB family, characte...
+- [[ATF4]]: Members include ATF4, [[CHOP]], [[XBP1]], [[CREB]], [[FOS]], [[JUN]], and [[NRL]].
+- [[CHOP]]: Members include [[ATF4]], CHOP, [[XBP1]], [[CREB]], [[FOS]], [[JUN]], and [[NRL]].
+- [[XBP1]]: Members include [[ATF4]], [[CHOP]], XBP1, [[CREB]], [[FOS]], [[JUN]], and [[NRL]].
+- [[CREB]]: Members include [[ATF4]], [[CHOP]], [[XBP1]], CREB, [[FOS]], [[JUN]], and [[NRL]].
+- [[FOS]]: Members include [[ATF4]], [[CHOP]], [[XBP1]], [[CREB]], FOS, [[JUN]], and [[NRL]].
+- [[JUN]]: Members include [[ATF4]], [[CHOP]], [[XBP1]], [[CREB]], [[FOS]], JUN, and [[NRL]].
+- [[NRL]]: Members include [[ATF4]], [[CHOP]], [[XBP1]], [[CREB]], [[FOS]], [[JUN]], and NRL.
+
 ## Linking Summary
 - New links added: [[MiT]]/[[TFEB]] family
 - Suggested new entity notes to create: [[bHLH-LZ Transcription Factors]]

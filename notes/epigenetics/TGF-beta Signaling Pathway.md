@@ -11,6 +11,12 @@ entity_type_1: NA
 
 A multifunctional signaling pathway involved in many cellular processes including cell growth, cell differentiation, and apoptosis.
 
+## Connections
+
+- [[Epithelial-to-Mesenchymal Transition]]
+- [[Apoptosis]]
+- [[Differentiation]]
+
 ## Linking Summary
 - New links added: [[Epithelial-to-Mesenchymal Transition]], [[Apoptosis]], [[Differentiation]]
 - Suggested new entity notes to create:

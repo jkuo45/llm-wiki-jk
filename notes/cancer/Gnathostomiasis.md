@@ -11,6 +11,12 @@ entity_type_1: Medical Condition
 
 Gnathostomiasis is a human infection caused by the larvae of the nematode Gnathostoma spinigerum and other species of Gnathostoma.
 
+## Connections
+
+- [[Ivermectin]]
+- [[Albendazole]]
+- [[Gnathostoma]]
+
 ## Linking Summary
 - New links added: [[Ivermectin]], [[Albendazole]]
 - Suggested new entity notes to create: [[Gnathostoma]]

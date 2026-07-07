@@ -54,6 +54,15 @@ Cambinol enters the sirtuin catalytic pocket, where its $\beta$-naphthol group p
 
 ---
 
+## Connections
+
+- [[SIRT1]]: **Cambinol** is a highly promising, cell-permeable $\beta$-naphthol derivative that acts as a potent small-molecule i...
+- [[SIRT2]]: **Cambinol** is a highly promising, cell-permeable $\beta$-naphthol derivative that acts as a potent small-molecule i...
+- [[SIRT3]]: - **Target Selectivity**: Inhibits both human [[SIRT1]] ($IC_{50} = 56\ \mu\text{M}$) and [[SIRT2]] ($IC_{50} = 59\ \...
+- [[p53]]: By inhibiting the deacetylase activity of SIRT1 and SIRT2, it stabilizes the acetylated states of multiple substrates...
+- [[Sirtinol]]: - **Sirtinol** — fellow $\beta$-naphthol-containing sirtuin inhibitor.
+- [[Cancer]]: - **Cancer** — primary therapeutic application area.
+
 ## Linking Summary
 - **New Links Added**: [[SIRT1]], [[SIRT2]], [[Sirtinol]], [[Cancer]], [[p53]]
 - **Suggested New Notes to Create**: [[Alpha-Fetoprotein]], [[Chemosensitization]]

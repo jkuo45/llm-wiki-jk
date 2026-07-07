@@ -46,3 +46,8 @@ While mammalian [[Sirtuins]] are most famously recognized for their [[Histone Mo
 - New links added: [[NAD+]], [[Sirtuins]], [[SIRT4]], [[SIRT6]], [[Glutamate Dehydrogenase (GDH)]], [[DNA Repair]], [[DNA Damage]], [[PARP1]]
 - Suggested new entity notes to create: [[PARylation]], [[MARylation]]
 - Strong connections to strengthen: [[ADP-ribosylation]] ↔ [[Sirtuins]], [[ADP-ribosylation]] ↔ [[NAD+]]
+
+## Linking Summary
+- New links added: [[DNA Damage]], [[DNA Repair]], [[Glutamate Dehydrogenase (GDH)]], [[Histone Modification]], [[NAD+]], [[PARP1]], [[SIRT4]], [[SIRT6]], [[SIRT7]], [[Sirtuins]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[ADP-ribosylation]] ↔ [[Glutamate Dehydrogenase (GDH)]], [[ADP-ribosylation]] ↔ [[Histone Modification]], [[ADP-ribosylation]] ↔ [[DNA Repair]]

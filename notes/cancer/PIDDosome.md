@@ -11,6 +11,12 @@ entity_type_1: Enzyme
 
 The PIDDosome is a multi-protein complex consisting of [[PIDD]] and [[RAIDD]] that serves as a platform for the activation of [[Caspase-2]].
 
+## Connections
+
+- [[PIDD]]: The PIDDosome is a multi-protein complex consisting of PIDD and [[RAIDD]] that serves as a platform for the activatio...
+- [[RAIDD]]: The PIDDosome is a multi-protein complex consisting of [[PIDD]] and RAIDD that serves as a platform for the activatio...
+- [[Caspase-2]]: The PIDDosome is a multi-protein complex consisting of [[PIDD]] and [[RAIDD]] that serves as a platform for the activ...
+
 ## Linking Summary
 - New links added:
 - Suggested new entity notes to create:

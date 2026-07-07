@@ -1,12 +1,15 @@
 ---
+
 type: entity
 title: Ascorbic Acid
-description: '**Ascorbic Acid**, also known as **Vitamin C**, is a potent antioxidant
+description: 'Ascorbic Acid, also known as Vitamin C, is a potent antioxidant
   and essential nutrient found in various foods and used as a dietary supplement.'
 created: 2026-05-29
 updated: 2026-05-29
 entity_type_1: Chemical Compound
+
 ---
+
 # Ascorbic Acid
 **Ascorbic Acid**, also known as **Vitamin C**, is a potent antioxidant and essential nutrient found in various foods and used as a dietary supplement.
 ## Antioxidant Role

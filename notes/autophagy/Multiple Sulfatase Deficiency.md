@@ -22,5 +22,12 @@ The dual deficiency of arylsulfatases (causing features of [[Metachromatic Leuko
 
 [[TFEB]] activation has been proposed to augment lysosomal exocytosis and reduce storage burden. Enzyme replacement and gene therapy strategies are preclinical.
 
+## Connections
+
+- [[Lysosomal Storage Diseases]]: A rare lysosomal storage disease caused by the lack of all known sulfatase enzymes; treated in models with [[TFEB]].
+- [[TFEB]]: A rare [[Lysosomal Storage Diseases|lysosomal storage disease]] caused by the lack of all known sulfatase enzymes; tr...
+- [[SUMF1]]: MSD is caused by mutations in SUMF1, encoding the formylglycine-generating enzyme (FGE) that activates all sulfatases...
+- [[Metachromatic Leukodystrophy]]: The dual deficiency of arylsulfatases (causing features of Metachromatic Leukodystrophy) and sulfamidase (causing MPS...
+
 ## Linking Summary
 - New links added: [[Lysosomal Storage Diseases]], [[TFEB]]

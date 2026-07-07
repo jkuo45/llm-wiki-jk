@@ -19,6 +19,16 @@ CDK4 and CDK6 are cyclin-dependent kinases that phosphorylate [[Rb]] to drive G1
 
 CDK4/6 inhibition induces [[Autophagy]] in cancer cells, representing a resistance mechanism. Dual CDK4/6 and autophagy inhibition is under clinical investigation.
 
+## Connections
+
+- [[TFEB]]: Cyclin-dependent kinases 4 and 6 (CDK4/6) are cell cycle regulators that also phosphorylate TFEB in the nucleus to pr...
+- [[CRM1]]: Cyclin-dependent kinases 4 and 6 (CDK4/6) are cell cycle regulators that also phosphorylate [[TFEB]] in the nucleus t...
+- [[Rb]]: CDK4 and CDK6 are cyclin-dependent kinases that phosphorylate Rb to drive G1-to-S cell cycle progression.
+- [[Palbociclib]]: They are targets of therapeutic inhibitors Palbociclib, [[Ribociclib]], [[Abemaciclib]].
+- [[Ribociclib]]: They are targets of therapeutic inhibitors [[Palbociclib]], Ribociclib, [[Abemaciclib]].
+- [[Abemaciclib]]: They are targets of therapeutic inhibitors [[Palbociclib]], [[Ribociclib]], Abemaciclib.
+- [[Autophagy]]: CDK4/6 inhibition induces Autophagy in cancer cells, representing a resistance mechanism.
+
 ## Linking Summary
 - New links added: [[TFEB]], [[CRM1]]
 - Suggested new entity notes to create: [[Cell Cycle]]

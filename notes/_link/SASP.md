@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: SASP
-description: The **senescence-associated secretory phenotype (SASP)** is a complex
+description: The senescence-associated secretory phenotype (SASP) is a complex
   mixture of cytokines, chemokines, growth factors, matrix metalloproteinases, and
   bioactive lipids secreted by Cellular Senescen...
 created: 2024-01-01
 updated: 2026-07-06
 entity_type_1: Biological Process
 aliases: [Senescence-Associated Secretory Phenotype, senescence-associated secretory phenotype]
+
 ---
+
 # SASP
 
 The **senescence-associated secretory phenotype (SASP)** is a complex mixture of cytokines, chemokines, growth factors, matrix metalloproteinases, and bioactive lipids secreted by [[Cellular Senescence|senescent cells]]. The SASP is a hallmark of the senescence program and mediates many of the pro-inflammatory and pro-aging effects of senescent cell accumulation in vivo.

@@ -11,6 +11,13 @@ entity_type_1: NA
 
 A transcription factor (SNAI2) that promotes epithelial-to-mesenchymal transition (EMT).
 
+## Connections
+
+- [[Epithelial-to-Mesenchymal Transition]]
+- [[Mesenchymal-to-Epithelial Transition]]
+- [[Transcription Factor]]
+- [[Snail]]
+
 ## Linking Summary
 - New links added: [[Epithelial-to-Mesenchymal Transition]], [[Mesenchymal-to-Epithelial Transition]], [[Transcription Factor]]
 - Suggested new entity notes to create:

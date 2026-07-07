@@ -54,6 +54,13 @@ Sirtinol binds to the catalytic core of [[SIRT1]] and [[SIRT2]], preventing the 
 
 ---
 
+## Connections
+
+- [[SIRT1]]: **Sirtinol** is a cell-permeable, small-molecule dual inhibitor of **SIRT1** and **[[SIRT2]]** containing a character...
+- [[SIRT2]]: **Sirtinol** is a cell-permeable, small-molecule dual inhibitor of **[[SIRT1]]** and **SIRT2** containing a character...
+- [[Splitomicin]]: - **Splitomicin** — another $\beta$-naphthol-containing inhibitor found in the same yeast-based screens.
+- [[Salermide]]: - **Salermide** — a potent synthetic analog of sirtinol designed to optimize anticancer efficacy.
+
 ## Linking Summary
 - **New Links Added**: [[SIRT1]], [[SIRT2]], [[Splitomicin]], [[Salermide]]
 - **Suggested New Notes to Create**: [[Naphthol Derivatives]], [[Senescence-Like Growth Arrest]]

@@ -20,6 +20,16 @@ STUB1 (CHIP) is a chaperone-dependent E3 ubiquitin ligase that ubiquitinates mis
 
 STUB1 ubiquitinates [[ULK1]] to regulate its stability and activity. It is also involved in [[Chaperone-Mediated Autophagy]] by targeting substrates to [[LAMP-2A]].
 
+## Connections
+
+- [[TFEB]]: STIP1 homology and U-box containing protein 1 (STUB1), also known as CHIP, is an E3 ubiquitin ligase that targets pho...
+- [[Proteasome]]: STUB1 (CHIP) is a chaperone-dependent E3 ubiquitin ligase that ubiquitinates misfolded proteins for Proteasome degrad...
+- [[HSP70]]: It bridges HSP70/[[Hsp90]] chaperones to the proteasome.
+- [[Hsp90]]: It bridges [[HSP70]]/Hsp90 chaperones to the proteasome.
+- [[ULK1]]: STUB1 ubiquitinates ULK1 to regulate its stability and activity.
+- [[Chaperone-Mediated Autophagy]]: It is also involved in Chaperone-Mediated Autophagy by targeting substrates to [[LAMP-2A]].
+- [[LAMP-2A]]: It is also involved in [[Chaperone-Mediated Autophagy]] by targeting substrates to LAMP-2A.
+
 ## Linking Summary
 - New links added: [[TFEB]]
 - Suggested new entity notes to create: [[Ubiquitin-Proteasome System]]

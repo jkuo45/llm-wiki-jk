@@ -16,6 +16,11 @@ Matrix Metalloproteinases (MMPs) are a family of calcium-dependent, zinc-contain
 
 MMPs (such as MMP-1 and MMP-2) are involved in remodeling structural proteins like [[Collagen]] that have been stiffened and crosslinked by [[Advanced Glycation End Products]]. Under high-AGE conditions, MMP expression and activity can become dysregulated, contributing to pathological remodeling and vascular complications.
 
+## Connections
+
+- [[Collagen]]: MMPs (such as MMP-1 and MMP-2) are involved in remodeling structural proteins like Collagen that have been stiffened ...
+- [[Advanced Glycation End Products]]: MMPs (such as MMP-1 and MMP-2) are involved in remodeling structural proteins like [[Collagen]] that have been stiffe...
+
 ## Linking Summary
 - New links added: [[Collagen]], [[Advanced Glycation End Products]]
 - Suggested new entity notes to create: 

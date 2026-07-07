@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: IGF1
-description: '**IGF1** (Insulin-like Growth Factor 1) is a hormone that plays a central
+description: 'IGF1 (Insulin-like Growth Factor 1) is a hormone that plays a central
   role in regulating cell growth, proliferation, and lifespan.'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Protein
 aliases: [insulin-like growth factor 1]
+
 ---
+
 # IGF1
 
 **IGF1** (Insulin-like Growth Factor 1) is a hormone that plays a central role in regulating cell growth, proliferation, and lifespan.
@@ -24,6 +27,20 @@ aliases: [insulin-like growth factor 1]
 ## Function
 
 IGF1 is a growth factor that signals through IGF1R to activate [[PI3K-Akt Signaling]] and suppress [[Autophagy]]. Reduced IGF1 signaling extends lifespan across species.
+
+## Connections
+
+- [[Autophagy]]: ## Impact on Autophagy - IGF1 is a potent inhibitor of Autophagy.
+- [[IGF1R]]: - It binds to the IGF1R, activating the [[PI3K]]/[[Akt]] signaling axis.
+- [[PI3K]]: - It binds to the [[IGF1R]], activating the PI3K/[[Akt]] signaling axis.
+- [[Akt]]: - It binds to the [[IGF1R]], activating the [[PI3K]]/Akt signaling axis.
+- [[mTORC1]]: - This pathway stimulates mTORC1 and inhibits [[FoxO1|FOXO]] transcription factors, both of which serve to suppress a...
+- [[FoxO1]]: - This pathway stimulates [[mTORC1]] and inhibits FOXO transcription factors, both of which serve to suppress autopha...
+- [[Caloric Restriction]]: ## Longevity and Aging - Low levels of IGF1 (as seen in Caloric Restriction or [[Intermittent Fasting]]) are associat...
+- [[Intermittent Fasting]]: ## Longevity and Aging - Low levels of IGF1 (as seen in [[Caloric Restriction]] or Intermittent Fasting) are associat...
+- [[Longevity]]: ## Longevity and Aging - Low levels of IGF1 (as seen in [[Caloric Restriction]] or [[Intermittent Fasting]]) are asso...
+- [[Cancer]]: - In contrast, high systemic IGF1 and insulin concentrations are often observed in various Cancer types and are linke...
+- [[PI3K-Akt Signaling]]: IGF1 is a growth factor that signals through IGF1R to activate PI3K-Akt Signaling and suppress [[Autophagy]].
 
 ## Linking Summary
 - New links added: [[Autophagy]], [[IGF1R]], [[PI3K]], [[Akt]], [[mTORC1]], [[FoxO1]], [[Caloric Restriction]], [[Intermittent Fasting]], [[Longevity]], [[Cancer]]

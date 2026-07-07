@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: Myeloperoxidase
-description: '**Myeloperoxidase** (MPO) is a heme-containing enzyme primarily found
+description: 'Myeloperoxidase (MPO) is a heme-containing enzyme primarily found
   in the azurophilic granules of Neutrophils. It plays a critical role in the innate
   immune system''s ability to kill pathogens.'
 created: 2026-05-29
 updated: 2026-05-29
 entity_type_1: Enzyme
+
 ---
+
 # Myeloperoxidase
 **Myeloperoxidase** (MPO) is a heme-containing enzyme primarily found in the azurophilic granules of [[Neutrophils]]. It plays a critical role in the innate immune system's ability to kill pathogens.
 Myeloperoxidase (MPO) is a peroxidase enzyme that in humans is encoded by the MPO gene and is most abundantly expressed in [[Neutrophils]], where it produces [[Hypochlorous Acid]] from hydrogen peroxide and chloride ions.

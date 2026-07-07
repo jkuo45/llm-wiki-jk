@@ -12,6 +12,11 @@ entity_type_1: Cell Type
 
 Fibronectin is a high-molecular weight glycoprotein of the extracellular matrix that contains the [[RGD peptide]] motif, facilitating cell adhesion through binding to [[Integrins]].
 
+## Connections
+
+- [[RGD peptide]]: Fibronectin is a high-molecular weight glycoprotein of the extracellular matrix that contains the RGD peptide motif, ...
+- [[Integrins]]: Fibronectin is a high-molecular weight glycoprotein of the extracellular matrix that contains the [[RGD peptide]] mot...
+
 ## Linking Summary
 - New links added: [[RGD peptide]], [[Integrins]]
 - Suggested new entity notes to create: [[ECM]]

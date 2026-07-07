@@ -1,12 +1,15 @@
 ---
+
 type: entity
 title: Breast Cancer
-description: '**Breast Cancer** is a major malignancy affecting breast tissue, primarily
+description: 'Breast Cancer is a major malignancy affecting breast tissue, primarily
   in women. It is the most common cancer in women worldwide.'
 created: 2026-05-29
 updated: 2026-05-29
 entity_type_1: Medical Condition
+
 ---
+
 # Breast Cancer
 **Breast Cancer** is a major malignancy affecting breast tissue, primarily in women. It is the most common cancer in women worldwide.
 ## Subtypes

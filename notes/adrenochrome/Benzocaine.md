@@ -13,3 +13,8 @@ entity_type_1: Chemical Compound
 ## Connections
 - [[Methemoglobinemia]]: Can be induced by Benzocaine exposure.
 - [[Lidocaine]]: Another local anesthetic associated with methemoglobinemia.
+
+## Linking Summary
+- New links added: [[Benzocaine]], [[Lidocaine]], [[Methemoglobinemia]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[Benzocaine]] ↔ [[Methemoglobinemia]], [[Benzocaine]] ↔ [[Benzocaine]], [[Benzocaine]] ↔ [[Lidocaine]]

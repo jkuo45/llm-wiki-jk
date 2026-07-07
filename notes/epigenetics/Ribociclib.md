@@ -10,6 +10,11 @@ entity_type_1: Chemical Compound
 # Ribociclib
 Ribociclib is a chemical compound and selective CDK4/6 inhibitor used for treating advanced or metastatic breast cancers.
 
+## Connections
+
+- [[CDK Inhibitor]]
+- [[Cancer]]
+
 ## Linking Summary
 - New links added: [[CDK Inhibitor]], [[Cancer]]
 - Suggested new entity notes to create: 

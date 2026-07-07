@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: SAHA
-description: '**Chemical properties:** SAHA is a chemical substance with defined molecular
+description: 'Chemical properties: SAHA is a chemical substance with defined molecular
   structure, functional groups, and physicochemical properties that determine its
   biological activity.'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Chemical Compound
 aliases: [Suberoylanilide Hydroxamic Acid, Vorinostat]
+
 ---
+
 # SAHA
 
 **Chemical properties:** SAHA is a chemical substance with defined molecular structure, functional groups, and physicochemical properties that determine its biological activity.

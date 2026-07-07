@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: Methemoglobin
-description: '**Methemoglobin** is a form of Hemoglobin in which the iron in the heme
+description: 'Methemoglobin is a form of Hemoglobin in which the iron in the heme
   group is in the Fe³⁺ (ferric) state, not the Fe²⁺ (ferrous) of normal hemoglobin.
   Methemoglobin cannot bind oxygen, which mea...'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Protein
+
 ---
+
 # Methemoglobin
 
 **Methemoglobin** is a form of [[Hemoglobin]] in which the iron in the heme group is in the Fe³⁺ (ferric) state, not the Fe²⁺ (ferrous) of normal hemoglobin. Methemoglobin cannot bind oxygen, which means it cannot carry oxygen to tissues.
@@ -20,3 +23,8 @@ It is formed by the oxidation of [[Hemoglobin]]. This can be driven by reactive 
 - [[Methemoglobinemia]]
 - [[Adrenochrome]]
 - [[Oxidative Stress]]
+
+## Linking Summary
+- New links added: [[Adrenochrome]], [[Epinephrine]], [[Hemoglobin]], [[Methemoglobinemia]], [[Oxidative Stress]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[Methemoglobin]] ↔ [[Methemoglobinemia]], [[Methemoglobin]] ↔ [[Oxidative Stress]], [[Methemoglobin]] ↔ [[Adrenochrome]]

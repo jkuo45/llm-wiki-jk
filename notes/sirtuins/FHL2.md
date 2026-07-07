@@ -60,3 +60,13 @@ FHL2 regulates osteoblast differentiation and bone formation by interacting with
 - **[[SIRT1]]**: Scaffolding by FHL2 accelerates SIRT1's ability to deacetylate target proteins like FOXO1.
 - **[[FoxO1]]**: Deacetylated and suppressed in cancer cells via FHL2 scaffolding, providing a cell survival advantage.
 - **Androgen Receptor**: FHL2 acts as a co-activator of the androgen receptor, driving oncogenic programs in prostate cancer.
+
+## Connections
+
+- [[FoxO1]]: - **FOXO1 Repression**: In prostate cancer cells, FHL2 binds directly to the forkhead transcription factor **FoxO1** ...
+- [[SIRT1]]: - **FOXO1 Repression**: In prostate cancer cells, FHL2 binds directly to the forkhead transcription factor **[[FoxO1]...
+
+## Linking Summary
+- New links added: [[FoxO1]], [[SIRT1]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[FHL2]] ↔ [[SIRT1]], [[FHL2]] ↔ [[FoxO1]]

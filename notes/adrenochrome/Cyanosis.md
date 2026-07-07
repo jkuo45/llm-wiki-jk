@@ -14,3 +14,8 @@ entity_type_1: Symptom
 - [[Methemoglobinemia]]: Frequently presents with cyanosis.
 - [[Hypoxia]]: Cyanosis is a clinical indicator of tissue hypoxia.
 - [[Methylene blue]]: Used to treat symptomatic cyanosis in methemoglobinemia.
+
+## Linking Summary
+- New links added: [[Cyanosis]], [[Hemoglobin]], [[Hypoxia]], [[Methemoglobin]], [[Methemoglobinemia]], [[Methylene blue]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[Cyanosis]] ↔ [[Methemoglobinemia]], [[Cyanosis]] ↔ [[Methylene blue]], [[Cyanosis]] ↔ [[Methemoglobin]]

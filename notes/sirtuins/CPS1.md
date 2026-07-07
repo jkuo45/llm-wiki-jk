@@ -1,7 +1,8 @@
 ---
+
 type: entity
 title: CPS1 (Carbamoyl Phosphate Synthase 1)
-description: '**Carbamoyl Phosphate Synthase 1** (CPS1) is a mitochondrial enzyme
+description: 'Carbamoyl Phosphate Synthase 1 (CPS1) is a mitochondrial enzyme
   that catalyzes the first and rate-limiting step of the urea cycle, converting ammonia
   and bicarbonate into carbamoyl phosphate. A...'
 created: 2026-07-06
@@ -13,7 +14,9 @@ predicate: associated_with
 sources:
 - doi:10.1016/j.cell.2011.10.025
 target: SIRT5
+
 ---
+
 
 # CPS1 (Carbamoyl Phosphate Synthase 1)
 
@@ -45,3 +48,8 @@ In the mitochondria, CPS1 activity is highly regulated by post-translational mod
 - New links added: [[SIRT5]], [[NAD+]], [[ATP]]
 - Suggested new entity notes to create: [[Ornithine transcarbamylase]], [[N-Acetylglutamate]]
 - Strong connections to strengthen: [[CPS1]] ↔ [[SIRT5]]
+
+## Linking Summary
+- New links added: [[ATP]], [[NAD+]], [[SIRT5]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[CPS1 (Carbamoyl Phosphate Synthase 1)]] ↔ [[SIRT5]], [[CPS1 (Carbamoyl Phosphate Synthase 1)]] ↔ [[NAD+]], [[CPS1 (Carbamoyl Phosphate Synthase 1)]] ↔ [[ATP]]

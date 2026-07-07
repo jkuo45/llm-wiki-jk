@@ -1,12 +1,15 @@
 ---
+
 type: entity
 title: STAT3
-description: '**Signal transducer and activator of transcription 3** (STAT3) is a
+description: 'Signal transducer and activator of transcription 3 (STAT3) is a
   transcription factor which in humans is encoded by the *STAT3* gene.'
 created: 2026-05-29
 updated: 2026-05-29
 entity_type_1: Protein
+
 ---
+
 # STAT3
 **Signal transducer and activator of transcription 3** (STAT3) is a transcription factor which in humans is encoded by the *STAT3* gene.
 **STAT3** (Signal Transducer and Activator of Transcription 3) is a transcription factor involved in various cellular processes, including inflammation.

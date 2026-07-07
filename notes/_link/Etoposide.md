@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: Etoposide
-description: '**Etoposide** (also known as VP-16) is a chemotherapy medication used
+description: 'Etoposide (also known as VP-16) is a chemotherapy medication used
   for the treatment of a number of types of cancer, including testicular cancer, lung
   cancer, Lymphoma, and leukemia.'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: NA
 aliases: [Etoposide]
+
 ---
+
 # Etoposide
 **Etoposide** (also known as VP-16) is a chemotherapy medication used for the treatment of a number of types of cancer, including testicular cancer, lung cancer, [[Lymphoma]], and [[leukemia]].
 ## Mechanism of Action

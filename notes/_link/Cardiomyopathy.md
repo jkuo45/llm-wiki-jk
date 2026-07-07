@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: Cardiomyopathy
-description: '**Etiology and pathophysiology:** Cardiomyopathy is a medical condition
+description: 'Etiology and pathophysiology: Cardiomyopathy is a medical condition
   characterized by specific pathological changes in cellular, tissue, or organ function.
   Its development involves genetic, envi...'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Medical Condition
+
 ---
+
 # Cardiomyopathy
 
 **Etiology and pathophysiology:** Cardiomyopathy is a medical condition characterized by specific pathological changes in cellular, tissue, or organ function. Its development involves genetic, environmental, and lifestyle risk factors.

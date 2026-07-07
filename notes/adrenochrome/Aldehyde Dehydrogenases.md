@@ -16,6 +16,12 @@ Aldehyde Dehydrogenases (ALDHs) are a family of enzymes that catalyze the NAD(P)
 
 ALDHs participate in the cellular defense against dicarbonyl stress by oxidizing reactive intermediates, such as [[3-deoxyglucosone]] and [[Methylglyoxal]], into less reactive, non-toxic carboxylic acids, thereby reducing the rate of [[Advanced Glycation End Products]] (AGEs) formation.
 
+## Connections
+
+- [[3-deoxyglucosone]]: ALDHs participate in the cellular defense against dicarbonyl stress by oxidizing reactive intermediates, such as 3-de...
+- [[Methylglyoxal]]: ALDHs participate in the cellular defense against dicarbonyl stress by oxidizing reactive intermediates, such as [[3-...
+- [[Advanced Glycation End Products]]: ALDHs participate in the cellular defense against dicarbonyl stress by oxidizing reactive intermediates, such as [[3-...
+
 ## Linking Summary
 - New links added: [[3-deoxyglucosone]], [[Methylglyoxal]], [[Advanced Glycation End Products]]
 - Suggested new entity notes to create: 

@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: Selenium
-description: '**Selenium** (Se) is an essential trace element that is incorporated
+description: 'Selenium (Se) is an essential trace element that is incorporated
   into selenoproteins as the 21st amino acid, selenocysteine (Sec, U), where it confers
   unique redox properties critical for antio...'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Chemical Compound
 aliases: [Se, Selenium element, Selenocysteine (as component)]
+
 ---
+
 # Selenium
 **Selenium** (Se) is an essential trace element that is incorporated into selenoproteins as the 21st amino acid, selenocysteine (Sec, U), where it confers unique redox properties critical for antioxidant defense, thyroid hormone metabolism, and redox signaling.
 ## Selenoproteins

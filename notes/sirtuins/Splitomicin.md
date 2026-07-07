@@ -55,6 +55,13 @@ Splitomicin selectively blocks the NAD⁺-dependent deacetylation reaction catal
 
 ---
 
+## Connections
+
+- [[Sirtinol]]: Discovered alongside Sirtinol in yeast cell-based screens for inhibitors of Silent Information Regulator 2 (Sir2), sp...
+- [[SIRT1]]: Discovered alongside [[Sirtinol]] in yeast cell-based screens for inhibitors of Silent Information Regulator 2 (Sir2)...
+- [[SIRT2]]: Discovered alongside [[Sirtinol]] in yeast cell-based screens for inhibitors of Silent Information Regulator 2 (Sir2)...
+- [[Cardiovascular Disease]]: - **Cardiovascular Disease** — cardiovascular context where splitomicin-mediated sirtuin inhibition is studied.
+
 ## Linking Summary
 - **New Links Added**: [[SIRT1]], [[SIRT2]], [[Sirtinol]], [[Cardiovascular Disease]]
 - **Suggested New Notes to Create**: [[Ischemic Preconditioning]], [[Tissue Factor]]

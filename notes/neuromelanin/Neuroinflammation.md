@@ -20,6 +20,13 @@ In [[Parkinson's Disease]], neuroinflammation is a prominent feature and is nota
 ## Pathological Consequences
 Chronic neuroinflammation can create a self-perpetuating cycle of neuronal damage. Activated microglia release reactive oxygen species and cytokines that further stress and damage neighboring neurons, contributing to the progression of [[Parkinson's Disease]].
 
+## Connections
+
+- [[Neuroinflammation]]: Neuroinflammation refers to the inflammatory response within the central nervous system, characterized by the activat...
+- [[Parkinson's Disease]]: ## In Parkinson's Disease In Parkinson's Disease, neuroinflammation is a prominent feature and is notably restricted ...
+- [[Neuromelanin]]: ## In Parkinson's Disease In [[Parkinson's Disease]], neuroinflammation is a prominent feature and is notably restric...
+- [[Substantia Nigra]]: - **Triggers:** One of the primary triggers for neuroinflammation in the Substantia Nigra is the release of extracell...
+
 ## Linking Summary
 - New links added: [[Parkinson's Disease]], [[Neuromelanin]], [[Microgliosis]], [[Substantia Nigra]], [[Neuronophagia]].
 - Suggested new entity notes to create: [[Pro-inflammatory Cytokines]], [[Astrogliosis]].

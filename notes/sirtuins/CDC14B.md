@@ -1,7 +1,8 @@
 ---
+
 type: entity
 title: CDC14B
-description: '**CDC14B** (Cell division cycle 14 homolog B) is a highly conserved
+description: 'CDC14B (Cell division cycle 14 homolog B) is a highly conserved
   eukaryotic dual-specificity protein phosphatase. It plays an essential role in cell
   cycle progression, particularly during mitosi...'
 created: 2026-07-03
@@ -12,7 +13,9 @@ aliases: [CDC14B, Dual Specificity Protein Phosphatase CDC14B]
 sources:
 - PMID:19136623
 target: SIRT2
+
 ---
+
 
 # CDC14B
 

@@ -1,7 +1,8 @@
 ---
+
 type: entity
 title: Vitamin C
-description: '**Vitamin C** (Ascorbic Acid) is a water-soluble vitamin and essential
+description: 'Vitamin C (Ascorbic Acid) is a water-soluble vitamin and essential
   nutrient with potent antioxidant properties. It serves as a cofactor for numerous
   enzymatic reactions and is a critical chain-...'
 created: 2026-07-04
@@ -11,7 +12,9 @@ aliases: [Ascorbic Acid, L-ascorbic acid]
 database_ids:
   mesh: D001205
   chebi: CHEBI:29073
+
 ---
+
 # Vitamin C
 **Vitamin C** ([[Ascorbic Acid|ascorbic acid]]) is a water-soluble vitamin and essential nutrient with potent antioxidant properties. It serves as a cofactor for numerous enzymatic reactions and is a critical chain-breaking antioxidant in aqueous cellular compartments.
 ## Biochemical Role

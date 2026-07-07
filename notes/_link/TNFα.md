@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: TNFα
-description: '**Tumor necrosis factor alpha (TNFα)** is a pleiotropic pro-inflammatory
+description: 'Tumor necrosis factor alpha (TNFα) is a pleiotropic pro-inflammatory
   cytokine produced primarily by activated Macrophages, T Cells, and Natural Killer
   Cells. It is a master regulator of the inf...'
 created: 2026-07-04
 updated: 2026-07-06
 entity_type_1: Protein
 aliases: [TNF-α, Tumor Necrosis Factor Alpha, cachectin]
+
 ---
+
 # TNFα
 
 **Tumor necrosis factor alpha (TNFα)** is a pleiotropic pro-inflammatory cytokine produced primarily by activated [[Macrophages]], [[T Cells]], and [[Natural Killer Cells]]. It is a master regulator of the inflammatory response and a central mediator of both acute and chronic inflammation.

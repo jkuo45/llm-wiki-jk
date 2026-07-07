@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: DAF-2
-description: '**DAF-2** is the C. elegans orthologue of the insulin/IGF1 receptor.
+description: 'DAF-2 is the C. elegans orthologue of the insulin/IGF1 receptor.
   It is a central regulator of development, metabolism, and Longevity.'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Gene
 aliases: [C. elegans insulin/IGF receptor ortholog]
+
 ---
+
 # DAF-2
 
 **DAF-2** is the [[C. elegans]] orthologue of the insulin/[[IGF1]] receptor. It is a central regulator of development, metabolism, and [[Longevity|lifespan]].
@@ -23,6 +26,19 @@ aliases: [C. elegans insulin/IGF receptor ortholog]
 ## Function
 
 DAF-2 is the C. elegans insulin/IGF-1 receptor. Reduced DAF-2 signaling extends lifespan via [[DAF-16]]/FOXO and [[Autophagy]] activation.
+
+## Connections
+
+- [[C. elegans]]: **DAF-2** is the C. elegans orthologue of the insulin/[[IGF1]] receptor.
+- [[IGF1]]: elegans]] orthologue of the insulin/IGF1 receptor.
+- [[Longevity]]: It is a central regulator of development, metabolism, and lifespan.
+- [[Autophagy]]: ## Role in Autophagy and Metabolism - **Inhibition of Autophagy**: Activation of DAF-2 signaling (under high nutrient...
+- [[Akt]]: ## Role in Autophagy and Metabolism - **Inhibition of Autophagy**: Activation of DAF-2 signaling (under high nutrient...
+- [[DAF-16]]: ## Role in Autophagy and Metabolism - **Inhibition of Autophagy**: Activation of DAF-2 signaling (under high nutrient...
+- [[Starvation]]: - **Starvation Response**: Inhibition of DAF-2 signaling mimics certain aspects of Starvation and contributes to the ...
+- [[Lipophagy]]: - **Starvation Response**: Inhibition of DAF-2 signaling mimics certain aspects of [[Starvation]] and contributes to ...
+- [[Lysosomal Lipolysis]]: - **Starvation Response**: Inhibition of DAF-2 signaling mimics certain aspects of [[Starvation]] and contributes to ...
+- [[MXL-3]]: - **Transcription Regulation**: While [[DAF-16]] is the primary effector, DAF-2 signaling also influences the express...
 
 ## Linking Summary
 - New links added: [[C. elegans]], [[IGF1]], [[Longevity|lifespan]], [[Autophagy]], [[Akt]], [[DAF-16]], [[Starvation]], [[Lipophagy]], [[Lysosomal Lipolysis]], [[MXL-3]]

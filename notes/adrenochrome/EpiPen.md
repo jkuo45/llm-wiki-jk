@@ -1,12 +1,15 @@
 ---
+
 type: entity
 title: EpiPen
-description: An **EpiPen** is a brand of epinephrine auto-injector used for the emergency
+description: An EpiPen is a brand of epinephrine auto-injector used for the emergency
   treatment of Anaphylaxis.
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Medical Product
+
 ---
+
 # EpiPen
 
 An **EpiPen** is a brand of epinephrine auto-injector used for the emergency treatment of [[Anaphylaxis]].
@@ -18,3 +21,8 @@ The stability of the [[Epinephrine]] within an EpiPen is critical. Formulations 
 - [[Epinephrine]]
 - [[Anaphylaxis]]
 - [[Quality Control]]
+
+## Linking Summary
+- New links added: [[Adrenochrome]], [[Anaphylaxis]], [[Epinephrine]], [[Quality Control]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[EpiPen]] ↔ [[Quality Control]], [[EpiPen]] ↔ [[Adrenochrome]], [[EpiPen]] ↔ [[Epinephrine]]

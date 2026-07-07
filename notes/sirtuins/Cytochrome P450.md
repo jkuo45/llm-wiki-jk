@@ -1,7 +1,8 @@
 ---
+
 type: entity
 title: Cytochrome P450
-description: '**Cytochrome P450** (CYP450) is a superfamily of heme-containing Enzyme
+description: 'Cytochrome P450 (CYP450) is a superfamily of heme-containing Enzyme
   that catalyze the phase I metabolism of endogenous compounds (steroids, fatty acids,
   vitamins) and xenobiotics (drugs, toxins...'
 created: 2026-07-04
@@ -9,7 +10,9 @@ updated: 2026-07-04
 entity_type_1: Enzyme
 aliases: [CYP450, CYP]
 tags: [sirtuins, drug_metabolism, resveratrol]
+
 ---
+
 # Cytochrome P450
 
 **Cytochrome P450** (CYP450) is a superfamily of heme-containing [[Enzyme|monooxygenase enzymes]] that catalyze the phase I metabolism of endogenous compounds (steroids, fatty acids, vitamins) and xenobiotics (drugs, toxins, environmental chemicals). They are primarily expressed in the liver but also found in the intestines, lungs, kidneys, and brain.
@@ -36,6 +39,24 @@ CYP450 enzymes are named by family (e.g., CYP1, CYP2, CYP3), subfamily (letter),
 ## Genetic Variability
 
 Polymorphisms in CYP450 genes (e.g., [[CYP2D6]], [[CYP2C9]]) produce extensive inter-individual variation in drug metabolism rates — categorized as poor, intermediate, extensive, or ultrarapid metabolizers.
+
+## Connections
+
+- [[Enzyme]]: **Cytochrome P450** (CYP450) is a superfamily of heme-containing monooxygenase enzymes that catalyze the phase I meta...
+- [[CYP3A4]]: - **CYP3A4**: Metabolizes ~50% of clinical drugs, including [[HMG-CoA Reductase Inhibitors|statins]], [[Calcium Chann...
+- [[HMG-CoA Reductase Inhibitors]]: - **[[CYP3A4]]**: Metabolizes ~50% of clinical drugs, including statins, [[Calcium Channel Blockers|calcium channel b
+- [[Calcium Channel Blockers]]: - **[[CYP3A4]]**: Metabolizes ~50% of clinical drugs, including [[HMG-CoA Reductase Inhibitors|statins]], [[Calcium C...
+- [[Amiodarone]]: - **[[CYP3A4]]**: Metabolizes ~50% of clinical drugs, including [[HMG-CoA Reductase Inhibitors|statins]], [[Calcium C...
+- [[CYP2D6]]: - **[[CYP3A4]]**: Metabolizes ~50% of clinical drugs, including [[HMG-CoA Reductase Inhibitors|statins]], [[Calcium C...
+- [[Beta blockers]]: - **[[CYP3A4]]**: Metabolizes ~50% of clinical drugs, including [[HMG-CoA Reductase Inhibitors|statins]], [[Calcium C...
+- [[CYP2C9]]: - **[[CYP3A4]]**: Metabolizes ~50% of clinical drugs, including [[HMG-CoA Reductase Inhibitors|statins]], [[Calcium C...
+- [[Warfarin]]: - **[[CYP3A4]]**: Metabolizes ~50% of clinical drugs, including [[HMG-CoA Reductase Inhibitors|statins]], [[Calcium C...
+- [[NSAIDs]]: - **[[CYP3A4]]**: Metabolizes ~50% of clinical drugs, including [[HMG-CoA Reductase Inhibitors|statins]], [[Calcium C...
+- [[CYP2C19]]: - **[[CYP3A4]]**: Metabolizes ~50% of clinical drugs, including [[HMG-CoA Reductase Inhibitors|statins]], [[Calcium C...
+- [[Plavix]]: - **[[CYP3A4]]**: Metabolizes ~50% of clinical drugs, including [[HMG-CoA Reductase Inhibitors|statins]], [[Calcium C...
+- [[CYP1A2]]: - **[[CYP3A4]]**: Metabolizes ~50% of clinical drugs, including [[HMG-CoA Reductase Inhibitors|statins]], [[Calcium C...
+- [[Resveratrol]]: Resveratrol is both metabolized by and inhibits cytochrome P450 enzymes, particularly [[CYP3A4]].
+- [[Heparin]]: This dual effect has implications for: - **Bioavailability**: Rapid CYP-mediated glucuronidation and sulfation limit ...
 
 ## Linking Summary
 - New links added: [[Enzyme]], [[HMG-CoA Reductase Inhibitors]], [[Calcium Channel Blockers]], [[Amiodarone]], [[Warfarin]], [[Plavix]], [[Resveratrol]], [[Heparin]]

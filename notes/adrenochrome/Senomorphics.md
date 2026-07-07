@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: Senomorphics
-description: '**Senomorphics** are a class of compounds that modulate the phenotype
+description: 'Senomorphics are a class of compounds that modulate the phenotype
   of senescent cells without necessarily killing them. Unlike senolytics (which induce
   apoptosis in senescent cells), senomorphic...'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Scientific Concept
+
 ---
+
 # Senomorphics
 
 **Senomorphics** are a class of compounds that modulate the phenotype of senescent cells without necessarily killing them. Unlike senolytics (which induce apoptosis in senescent cells), senomorphics typically aim to suppress the **Senescence-Associated Secretory Phenotype (SASP)**, reducing chronic inflammation and tissue damage.

@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: GLUT4
-description: '**Overview:** GLUT4 is a membrane transport protein that facilitates
+description: 'Overview: GLUT4 is a membrane transport protein that facilitates
   the movement of molecules across biological membranes. It mediates substrate translocation
   through conformational changes driven...'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Transporter
 aliases: [SLC2A4, Glucose Transporter Type 4]
+
 ---
+
 # GLUT4
 
 **Overview:** GLUT4 is a membrane transport protein that facilitates the movement of molecules across biological membranes. It mediates substrate translocation through conformational changes driven by electrochemical gradients or ATP hydrolysis.

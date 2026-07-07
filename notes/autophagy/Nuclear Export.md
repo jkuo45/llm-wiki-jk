@@ -16,6 +16,13 @@ Nuclear export is the process of transporting proteins from the nucleus to the c
 
 Nuclear export of autophagy transcription factors ([[TFEB]], [[ZKSCAN3]], [[FOXO]]) is CRM1-dependent. CRM1 inhibition induces autophagy.
 
+## Connections
+
+- [[TFEB]]: Nuclear export is the process of transporting proteins from the nucleus to the cytoplasm; TFEB nuclear export is medi...
+- [[CRM1]]: Nuclear export is the process of transporting proteins from the nucleus to the cytoplasm; [[TFEB]] nuclear export is ...
+- [[ZKSCAN3]]: Nuclear export of autophagy transcription factors ([[TFEB]], ZKSCAN3, [[FOXO]]) is CRM1-dependent.
+- [[FOXO]]: Nuclear export of autophagy transcription factors ([[TFEB]], [[ZKSCAN3]], FOXO) is CRM1-dependent.
+
 ## Linking Summary
 - New links added: [[TFEB]], [[CRM1]]
 - Suggested new entity notes to create: [[Nuclear Pore Complex]]

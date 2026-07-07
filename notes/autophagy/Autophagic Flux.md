@@ -16,6 +16,12 @@ Autophagic flux refers to the complete dynamic process of [[Autophagy]], spannin
 
 Autophagic flux is the rate of autophagic degradation through the entire pathway (formation → fusion → degradation). It is measured by LC3-II turnover, p62/SQSTM1 levels, and tandem mCherry-GFP-LC3 probes.
 
+## Connections
+
+- [[Autophagy]]: Autophagic flux refers to the complete dynamic process of Autophagy, spanning from the formation of the [[Autophagoso...
+- [[Autophagosome]]: Autophagic flux refers to the complete dynamic process of [[Autophagy]], spanning from the formation of the Autophago...
+- [[Lysosome]]: Autophagic flux refers to the complete dynamic process of [[Autophagy]], spanning from the formation of the [[Autopha...
+
 ## Linking Summary
 - New links added: [[Autophagy]], [[Autophagosome]], [[Lysosome]]
 - Suggested new entity notes to create:

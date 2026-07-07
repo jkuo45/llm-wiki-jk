@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: Polyunsaturated Fatty Acids
-description: '**Polyunsaturated fatty acids (PUFAs)** are fatty acids containing two
+description: 'Polyunsaturated fatty acids (PUFAs) are fatty acids containing two
   or more carbon-carbon double bonds. They are essential structural components of
   cell membranes and are particularly susceptibl...'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Chemical Class
 aliases: [PUFAs, Polyunsaturated fats]
+
 ---
+
 # Polyunsaturated Fatty Acids
 
 **Polyunsaturated fatty acids (PUFAs)** are fatty acids containing two or more carbon-carbon double bonds. They are essential structural components of cell membranes and are particularly susceptible to [[Lipid Peroxidation|lipid peroxidation]].
@@ -27,3 +30,17 @@ The bis-allylic methylene groups (CH₂ groups flanked by two double bonds) in P
 ## Role in Oxidative Stress & Disease
 
 PUFA peroxidation generates reactive aldehydes ([[Malondialdehyde]], [[4-Hydroxynonenal]]) that propagate damage to proteins and DNA. While PUFA-rich membranes are more susceptible to oxidation, PUFAs also serve as signaling molecules (eicosanoids, resolvins, protectins) and their controlled oxidation is essential for [[Inflammation]] and its resolution. Peroxidation of PUFAs in membrane phospholipids is the driving force of [[Ferroptosis|ferroptosis]].
+
+## Connections
+
+- [[Lipid Peroxidation]]: They are essential structural components of cell membranes and are particularly susceptible to lipid peroxidation.
+- [[F2-Isoprostanes]]: - **Linoleic acid (LA, 18:2, n-6)**: Essential; precursor to arachidonic acid - **Arachidonic acid (AA, 20:4, n-6)**:...
+- [[Malondialdehyde]]: PUFA peroxidation generates reactive aldehydes (Malondialdehyde, [[4-Hydroxynonenal]]) that propagate damage to prote...
+- [[4-Hydroxynonenal]]: PUFA peroxidation generates reactive aldehydes ([[Malondialdehyde]], 4-Hydroxynonenal) that propagate damage to prote...
+- [[Inflammation]]: While PUFA-rich membranes are more susceptible to oxidation, PUFAs also serve as signaling molecules (eicosanoids, re...
+- [[Ferroptosis]]: Peroxidation of PUFAs in membrane phospholipids is the driving force of ferroptosis.
+
+## Linking Summary
+- New links added: [[4-Hydroxynonenal]], [[F2-Isoprostanes]], [[Ferroptosis]], [[Inflammation]], [[Lipid Peroxidation]], [[Malondialdehyde]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[Polyunsaturated Fatty Acids]] ↔ [[Lipid Peroxidation]], [[Polyunsaturated Fatty Acids]] ↔ [[4-Hydroxynonenal]], [[Polyunsaturated Fatty Acids]] ↔ [[Malondialdehyde]]

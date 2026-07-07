@@ -19,6 +19,13 @@ Deptor (DEPTOR) is an endogenous inhibitor of both [[mTORC1]] and [[mTORC2]]. It
 
 DEPTOR is highly expressed in multiple myeloma and some solid tumors where it suppresses mTOR and activates autophagy. Its expression is regulated by [[mTORC1]] via a negative feedback loop.
 
+## Connections
+
+- [[mTORC1]]: # Deptor DEP-domain-containing mTOR-interacting protein (Deptor) is an endogenous inhibitor of both mTORC1 and [[mTOR...
+- [[mTORC2]]: # Deptor DEP-domain-containing mTOR-interacting protein (Deptor) is an endogenous inhibitor of both [[mTORC1]] and mT...
+- [[Cancer]]: # Deptor DEP-domain-containing mTOR-interacting protein (Deptor) is an endogenous inhibitor of both [[mTORC1]] and [[...
+- [[SCFβ-TrCP]]: DEPTOR is degraded via SCFβ-TrCP ubiquitin ligase.
+
 ## Linking Summary
 - New links added: [[mTORC1]], [[mTORC2]], [[Cancer|cancer]]
 - Suggested new entity notes to create: 

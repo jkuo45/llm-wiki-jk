@@ -1,12 +1,15 @@
 ---
+
 type: entity
 title: TRAIL
-description: '**TRAIL** (TNF-related apoptosis-inducing ligand), also known as TNFSF10,
+description: 'TRAIL (TNF-related apoptosis-inducing ligand), also known as TNFSF10,
   is a cytokine that induces Apoptosis by binding to its death receptors.'
 created: 2026-07-06
 updated: 2026-07-06
 entity_type_1: Enzyme
+
 ---
+
 # TRAIL
 
 **TRAIL** (TNF-related apoptosis-inducing ligand), also known as TNFSF10, is a cytokine that induces [[Apoptosis]] by binding to its death receptors.

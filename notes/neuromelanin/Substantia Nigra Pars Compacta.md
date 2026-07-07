@@ -19,6 +19,15 @@ The SNpc is the primary site of neurodegeneration in [[Parkinson's Disease]].
 - **Selective Loss:** For reasons not fully understood, the neuromelanin-containing neurons of the SNpc are uniquely susceptible to the pathological processes of PD.
 - **Diagnostic Pathology:** A significant loss of pigmented neurons in the SNpc is the cardinal pathological diagnostic criterion for PD.
 
+## Connections
+
+- [[Substantia Nigra Pars Compacta]]: The Substantia Nigra Pars Compacta (SNpc) is a specific portion of the [[Substantia Nigra]] characterized by a high d...
+- [[Substantia Nigra]]: The [[Substantia Nigra Pars Compacta]] (SNpc) is a specific portion of the Substantia Nigra characterized by a high d...
+- [[Neuromelanin]]: ## Anatomy and Appearance Neurons in the SNpc are heavily pigmented with Neuromelanin, which gives the structure a da...
+- [[Sirtuins]]: These neurons project their axons primarily to the Sirtuins, forming the [[Nigrostriatal System]].
+- [[Nigrostriatal System]]: These neurons project their axons primarily to the [[Sirtuins]], forming the Nigrostriatal System.
+- [[Parkinson's Disease]]: ## Role in Parkinson's Disease The SNpc is the primary site of neurodegeneration in Parkinson's Disease.
+
 ## Linking Summary
 - New links added: [[Substantia Nigra]], [[Neuromelanin]], [[Sirtuins]], [[Nigrostriatal System]], [[Parkinson's Disease]].
 - Suggested new entity notes to create: [[Basal Ganglia]], [[Dopaminergic Neurons]].

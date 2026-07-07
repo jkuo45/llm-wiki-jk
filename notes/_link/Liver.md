@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: Liver
-description: '**Overview:** Liver is a specialized cellular or anatomical structure
+description: 'Overview: Liver is a specialized cellular or anatomical structure
   with defined functions in tissue organization and physiology.'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Anatomy
 aliases: [Hepatic]
+
 ---
+
 # Liver
 
 **Overview:** Liver is a specialized cellular or anatomical structure with defined functions in tissue organization and physiology.

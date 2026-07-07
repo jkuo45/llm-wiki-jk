@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: BNIP3
-description: '**Overview:** BNIP3 is a cellular protein with structural, signaling,
+description: 'Overview: BNIP3 is a cellular protein with structural, signaling,
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
   and signaling networks that govern cel...'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Protein
 aliases: [BCL2 Interacting Protein 3]
+
 ---
+
 # BNIP3
 
 **Overview:** BNIP3 is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern cell behavior.

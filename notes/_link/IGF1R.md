@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: IGF1R
-description: '**Overview:** IGF1R is a cellular protein with structural, signaling,
+description: 'Overview: IGF1R is a cellular protein with structural, signaling,
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
   and signaling networks that govern cel...'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Protein
 aliases: [Insulin-like Growth Factor 1 Receptor]
+
 ---
+
 # IGF1R
 
 **Overview:** IGF1R is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern cell behavior.

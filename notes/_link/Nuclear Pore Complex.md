@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: Nuclear Pore Complex
-description: '**Overview:** Nuclear Pore Complex is a specialized cellular or anatomical
+description: 'Overview: Nuclear Pore Complex is a specialized cellular or anatomical
   structure with defined functions in tissue organization and physiology.'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Anatomy
 aliases: [NPC]
+
 ---
+
 # Nuclear Pore Complex
 
 **Overview:** Nuclear Pore Complex is a specialized cellular or anatomical structure with defined functions in tissue organization and physiology.

@@ -45,3 +45,8 @@ Compounds like resveratrol indirectly activate SIRT1 by manipulating cAMP degrad
 - New links added: [[ATP]], [[SIRT1]], [[Resveratrol]], [[PDE4]], [[AMPK]], [[NAMPT]], [[NAD+]], [[PGC-1α]], [[FOXO3a]]
 - Suggested new entity notes to create: [[Epac1]], [[CaMKKβ]]
 - Strong connections to strengthen: [[cAMP]] ↔ [[PDE4]], [[cAMP]] ↔ [[AMPK]]
+
+## Linking Summary
+- New links added: [[AMPK]], [[ATP]], [[FOXO3a]], [[NAD+]], [[NAMPT]], [[PDE4]], [[PGC-1α]], [[Resveratrol]], [[SIRT1]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[cAMP (Cyclic Adenosine Monophosphate)]] ↔ [[Resveratrol]], [[cAMP (Cyclic Adenosine Monophosphate)]] ↔ [[PGC-1α]], [[cAMP (Cyclic Adenosine Monophosphate)]] ↔ [[FOXO3a]]

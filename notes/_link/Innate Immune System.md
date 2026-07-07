@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: Innate Immune System
-description: '**Definition:** Innate Immune System is a fundamental biological process
+description: 'Definition: Innate Immune System is a fundamental biological process
   that maintains cellular and organismal homeostasis. It involves coordinated molecular
   events regulated by signaling pathways...'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Biological Process
 aliases: [Innate Immunity]
+
 ---
+
 # Innate Immune System
 
 **Definition:** Innate Immune System is a fundamental biological process that maintains cellular and organismal homeostasis. It involves coordinated molecular events regulated by signaling pathways and environmental cues.

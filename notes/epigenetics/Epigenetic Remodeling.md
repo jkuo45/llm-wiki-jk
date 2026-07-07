@@ -11,6 +11,11 @@ entity_type_1: NA
 
 The dynamic process of changing epigenetic marks on chromatin to regulate gene expression.
 
+## Connections
+
+- [[Yamanaka Factors]]
+- [[Induced Pluripotent Stem Cells]]
+
 ## Linking Summary
 - New links added: [[Yamanaka Factors]], [[Induced Pluripotent Stem Cells]]
 - Suggested new entity notes to create:

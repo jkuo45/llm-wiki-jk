@@ -61,6 +61,14 @@ Tenovins inhibit the deacetylase activity of SIRT1 and SIRT2, preventing them fr
 
 ---
 
+## Connections
+
+- [[SIRT1]]: The **Tenovins** represent a family of small-molecule compounds, primarily comprising **Tenovin-1** and its more wate...
+- [[SIRT2]]: The **Tenovins** represent a family of small-molecule compounds, primarily comprising **Tenovin-1** and its more wate...
+- [[p53]]: They were originally discovered in a phenotypic screen of 30,000 compounds designed to identify small molecules capab...
+- [[SIRT3]]: - **Target Selectivity**: Dual inhibitors of [[SIRT1]] and [[SIRT2]], with moderate inhibitory activity against SIRT3...
+- [[Sirtinol]]: - **Sirtinol** — another well-known chemical class of dual SIRT1/2 inhibitors.
+
 ## Linking Summary
 - **New Links Added**: [[SIRT1]], [[SIRT2]], [[SIRT3]], [[p53]], [[Sirtinol]]
 - **Suggested New Notes to Create**: [[p53 Hyperacetylation]], [[Water-Soluble Analogs]]

@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: FKBP12
-description: '**Overview:** FKBP12 is a cellular protein with structural, signaling,
+description: 'Overview: FKBP12 is a cellular protein with structural, signaling,
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
   and signaling networks that govern ce...'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Protein
 aliases: [FK506 Binding Protein 12kDa]
+
 ---
+
 # FKBP12
 
 **Overview:** FKBP12 is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern cell behavior.

@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: Melanoma
-description: '**Melanoma** is a highly aggressive type of skin Cancer that develops
+description: 'Melanoma is a highly aggressive type of skin Cancer that develops
   from melanocytes.'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: NA
 aliases: [Melanoma]
+
 ---
+
 # Melanoma
 **Melanoma** is a highly aggressive type of skin [[Cancer]] that develops from melanocytes.
 ## Autophagy and Treatment

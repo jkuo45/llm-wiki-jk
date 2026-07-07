@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: Proteostasis
-description: '**Proteostasis**, or protein homeostasis, refers to the complex network
+description: 'Proteostasis, or protein homeostasis, refers to the complex network
   of cellular pathways that regulate the synthesis, folding, trafficking, and degradation
   of proteins. Maintaining a healthy pr...'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Biological Process
+
 ---
+
 # Proteostasis
 
 **Proteostasis**, or protein homeostasis, refers to the complex network of cellular pathways that regulate the synthesis, folding, trafficking, and degradation of proteins. Maintaining a healthy proteome is essential for cellular function and survival.

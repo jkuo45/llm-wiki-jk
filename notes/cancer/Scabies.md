@@ -11,6 +11,13 @@ entity_type_1: Anatomy
 
 Scabies is a contagious skin infestation by the mite Sarcoptes scabiei. It is characterized by intense itching and a pimple-like rash.
 
+## Connections
+
+- [[Ivermectin]]
+- [[Microfilariae]]
+- [[Sarcoptes scabiei]]
+- [[Ectoparasite]]
+
 ## Linking Summary
 - New links added: [[Ivermectin]], [[Microfilariae]] (for comparison)
 - Suggested new entity notes to create: [[Sarcoptes scabiei]], [[Ectoparasite]]

@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: Glutamate-Cysteine Ligase
-description: '**Catalytic function:** Glutamate-Cysteine Ligase is an enzyme that
+description: 'Catalytic function: Glutamate-Cysteine Ligase is an enzyme that
   catalyzes biochemical reactions essential for cellular metabolism and homeostasis.'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Enzyme
 aliases: [GCL, Gamma-Glutamylcysteine Synthetase]
+
 ---
+
 # Glutamate-Cysteine Ligase
 
 **Catalytic function:** Glutamate-Cysteine Ligase is an enzyme that catalyzes biochemical reactions essential for cellular metabolism and homeostasis.

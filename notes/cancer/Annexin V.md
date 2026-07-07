@@ -1,12 +1,15 @@
 ---
+
 type: entity
 title: Annexin V
-description: '**Annexin V** is a cellular protein in the annexin group. In biochemistry,
+description: 'Annexin V is a cellular protein in the annexin group. In biochemistry,
   Annexin V is commonly used as a marker for cells undergoing Apoptosis.'
 created: 2026-07-06
 updated: 2026-07-06
 entity_type_1: Biological Process
+
 ---
+
 # Annexin V
 
 **Annexin V** is a cellular protein in the annexin group. In biochemistry, Annexin V is commonly used as a marker for cells undergoing [[Apoptosis]].
@@ -17,3 +20,8 @@ The **Annexin V-FITC Apoptosis Detection Assay** is used to quantify apoptotic, 
 ## Connections
 - [[Apoptosis]]: Annexin V is a marker for the early stages of this process.
 - [[melittin]]: Cell death induced by melittin is assessed using Annexin V assays.
+
+## Linking Summary
+- New links added: [[Apoptosis]], [[melittin]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[Annexin V]] ↔ [[Apoptosis]], [[Annexin V]] ↔ [[melittin]]

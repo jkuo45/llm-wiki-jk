@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: Mitophagy
-description: '**Mitophagy** is a specialized form of Selective Autophagy that targets
+description: 'Mitophagy is a specialized form of Selective Autophagy that targets
   damaged or dysfunctional Mitochondria for degradation. It is a critical quality
   control mechanism for maintaining mitochondri...'
 created: 2024-01-01
 updated: 2024-01-01
 entity_type_1: Biological Process
+
 ---
+
 # Mitophagy
 **Mitophagy** is a specialized form of [[Selective Autophagy]] that targets damaged or dysfunctional [[Mitochondria]] for degradation. It is a critical quality control mechanism for maintaining mitochondrial health and cellular homeostasis.
 ## Mechanism

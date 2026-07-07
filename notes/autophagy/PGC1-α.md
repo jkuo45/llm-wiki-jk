@@ -19,6 +19,21 @@ PGC1-α (PPARGC1A) is a transcriptional coactivator that regulates [[Mitochondri
 
 PGC1-α is deacetylated by [[SIRT1]] and acetylated by [[GCN5]]. [[AMPK]] phosphorylates and activates PGC1-α.
 
+## Connections
+
+- [[Mitochondrial Biogenesis]]: # PGC1-α PPARγ coactivator 1-α (PGC1-α) is a master regulator of Mitochondrial Biogenesis and oxidative metabolism th...
+- [[mTORC1]]: # PGC1-α PPARγ coactivator 1-α (PGC1-α) is a master regulator of [[Mitochondrial Biogenesis]] and oxidative metabolis...
+- [[YY1]]: # PGC1-α PPARγ coactivator 1-α (PGC1-α) is a master regulator of [[Mitochondrial Biogenesis]] and oxidative metabolis...
+- [[Oxidative Metabolism]]: PGC1-α (PPARGC1A) is a transcriptional coactivator that regulates [[Mitochondrial Biogenesis]], Oxidative Metabolism,...
+- [[Autophagy]]: PGC1-α (PPARGC1A) is a transcriptional coactivator that regulates [[Mitochondrial Biogenesis]], [[Oxidative Metabolis...
+- [[PPARα]]: It coactivates PPARα, [[NRF1]], [[NRF2]], and [[ERRalpha]].
+- [[NRF1]]: It coactivates [[PPARα]], NRF1, [[NRF2]], and [[ERRalpha]].
+- [[NRF2]]: It coactivates [[PPARα]], [[NRF1]], NRF2, and [[ERRalpha]].
+- [[ERRalpha]]: It coactivates [[PPARα]], [[NRF1]], [[NRF2]], and ERRalpha.
+- [[SIRT1]]: PGC1-α is deacetylated by SIRT1 and acetylated by [[GCN5]].
+- [[GCN5]]: PGC1-α is deacetylated by [[SIRT1]] and acetylated by GCN5.
+- [[AMPK]]: AMPK phosphorylates and activates PGC1-α.
+
 ## Linking Summary
 - New links added: [[Mitochondrial Biogenesis]], [[oxidative metabolism]], [[mTORC1]], [[YY1]]
 - Suggested new entity notes to create: 

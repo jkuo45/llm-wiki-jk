@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: Simian Virus 40
-description: '**Simian Virus 40 (SV40)** is a non-enveloped DNA virus belonging to
+description: 'Simian Virus 40 (SV40) is a non-enveloped DNA virus belonging to
   the Polyomaviridae family. Its small (~5.2 kb) circular double-stranded DNA genome
   has been a foundational model in Molecular Bi...'
 created: 2026-07-04
 updated: 2026-07-06
 entity_type_1: Microorganism
 aliases: [SV40]
+
 ---
+
 # Simian Virus 40
 
 **Simian Virus 40 (SV40)** is a non-enveloped [[DNA virus]] belonging to the [[Polyomaviridae]] family. Its small (~5.2 kb) circular double-stranded [[DNA]] genome has been a foundational model in [[Molecular Biology]] for studying [[DNA Replication]], [[Transcription]], [[RNA Splicing]], and cellular transformation.

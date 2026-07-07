@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: Hydroxocobalamin
-description: '**Hydroxocobalamin** is a naturally occurring form of Vitamin B12. It
+description: 'Hydroxocobalamin is a naturally occurring form of Vitamin B12. It
   is a precursor to the two active coenzyme forms of B12 in the body.'
 created: 2026-05-25
 updated: 2026-07-04
 entity_type_1: Chemical Compound
 aliases: [HydroxyB12]
+
 ---
+
 # Hydroxocobalamin
 
 **[[Hydroxocobalamin]]** is a naturally occurring form of [[Vitamin B12]]. It is a precursor to the two active coenzyme forms of B12 in the body.

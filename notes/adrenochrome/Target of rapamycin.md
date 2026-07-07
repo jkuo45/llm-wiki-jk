@@ -12,6 +12,13 @@ entity_type_1: Enzyme
 
 Target of rapamycin (TOR) is a central regulator of cell growth and metabolism whose inhibition can extend lifespan through various mechanisms, including adaptive mitochondrial ROS signaling.
 
+## Connections
+
+- [[Rapamycin]]
+- [[Lifespan]]
+- [[Oxidative Stress]]
+- [[TOR]]
+
 ## Linking Summary
 - New links added: [[Rapamycin]], [[Lifespan]], [[Oxidative Stress]]
 - Suggested new entity notes to create: 

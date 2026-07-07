@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: Heterochromatin
-description: '**Heterochromatin** is a tightly packed form of DNA or condensed Chromatin,
+description: 'Heterochromatin is a tightly packed form of DNA or condensed Chromatin,
   which is typically transcriptionally inactive. It plays a vital role in maintaining
   the structure of chromosomes and prot...'
 created: 2024-01-01
 updated: 2024-01-01
 entity_type_1: Biological Molecule
+
 ---
+
 # Heterochromatin
 **[[Heterochromatin]]** is a tightly packed form of DNA or condensed [[Chromatin]], which is typically transcriptionally inactive. It plays a vital role in maintaining the structure of chromosomes and protecting the genome from instability.
 ### 1. Functions of Heterochromatin

@@ -1,7 +1,8 @@
 ---
+
 type: entity
 title: Type 2 Diabetes Mellitus
-description: '**Etiology and pathophysiology:** Type 2 Diabetes Mellitus is a medical
+description: 'Etiology and pathophysiology: Type 2 Diabetes Mellitus is a medical
   condition characterized by specific pathological changes in cellular, tissue, or
   organ function. Its development involves gen...'
 created: 2026-07-04
@@ -10,7 +11,9 @@ entity_type_1: Medical Condition
 aliases: [T2DM, Type 2 diabetes, Non-insulin-dependent diabetes mellitus, Adult-onset diabetes]
 database_ids:
   mesh: D003924
+
 ---
+
 # Type 2 Diabetes Mellitus
 **Etiology and pathophysiology:** Type 2 Diabetes Mellitus is a medical condition characterized by specific pathological changes in cellular, tissue, or organ function. Its development involves genetic, environmental, and lifestyle risk factors.
 **Clinical presentation:** Type 2 Diabetes Mellitus presents with characteristic signs and symptoms that reflect the underlying pathophysiology. Diagnosis is based on clinical evaluation, laboratory tests, and imaging studies.

@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: Cardiac Fibrosis
-description: '**Etiology and pathophysiology:** Cardiac Fibrosis is a medical condition
+description: 'Etiology and pathophysiology: Cardiac Fibrosis is a medical condition
   characterized by specific pathological changes in cellular, tissue, or organ function.
   Its development involves genetic, en...'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Medical Condition
 aliases: [Myocardial Fibrosis]
+
 ---
+
 # Cardiac Fibrosis
 
 **Etiology and pathophysiology:** Cardiac Fibrosis is a medical condition characterized by specific pathological changes in cellular, tissue, or organ function. Its development involves genetic, environmental, and lifestyle risk factors.

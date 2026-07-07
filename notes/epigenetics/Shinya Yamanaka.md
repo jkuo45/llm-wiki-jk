@@ -15,6 +15,13 @@ Shinya Yamanaka (born September 4, 1962) is a Japanese stem cell researcher and 
 ## Career
 Yamanaka is a professor at Kyoto University and served as the director of the Center for iPS Cell Research and Application (CiRA). His work on the [[Yamanaka Factors]] transformed the field of [[Stem Cell Research]].
 
+## Connections
+
+- [[Induced Pluripotent Stem Cells]]: He is best known for the discovery of Induced Pluripotent Stem Cells (iPSCs), for which he was awarded the Nobel Priz...
+- [[John Gurdon]]: He is best known for the discovery of [[Induced Pluripotent Stem Cells]] (iPSCs), for which he was awarded the Nobel ...
+- [[Yamanaka Factors]]: His work on the Yamanaka Factors transformed the field of [[Stem Cell Research]].
+- [[Stem Cell Research]]: His work on the [[Yamanaka Factors]] transformed the field of Stem Cell Research.
+
 ## Linking Summary
 - New links added: [[Induced Pluripotent Stem Cells]], [[John Gurdon]], [[Yamanaka Factors]], [[Stem Cell Research]]
 - Suggested new entity notes to create: [[John Gurdon]], [[Stem Cell Research]]

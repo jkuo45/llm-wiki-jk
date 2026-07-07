@@ -11,6 +11,10 @@ entity_type_1: Receptor
 
 The [[TGF-beta Receptor|TGF-β receptors]] are single-pass serine/threonine kinase receptors. They exist in several different isoforms that can be homo- or heterodimeric.
 
+## Connections
+
+- [[TGF-beta Receptor]]: The TGF-β receptors are single-pass serine/threonine kinase receptors.
+
 ## Linking Summary
 - New links added: [[TGF-beta1]], [[SMAD Proteins]], [[Transcription]]
 - Suggested new entity notes to create: Serine/Threonine Kinase

@@ -1,14 +1,22 @@
 ---
+
 type: entity
 title: Glial cells
-description: '- New links added: Microglia, MPTP, Monoamine oxidase B.'
+description: 'Glial cells, including astrocytes and microglia, are non-neuronal cells in the central nervous system that provide support and protection for neurons and are involved in the metabolic conversion of toxins like MPTP.'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Cell Type
+
 ---
+
 # Glial cells
 
 [[Glial cells]], including astrocytes and microglia, are non-neuronal cells in the central nervous system that provide support and protection for neurons and are involved in the metabolic conversion of toxins like [[MPTP]].
+
+## Connections
+
+- [[Glial cells]]: Glial cells, including astrocytes and microglia, are non-neuronal cells in the central nervous system that provide su...
+- [[MPTP]]: [[Glial cells]], including astrocytes and microglia, are non-neuronal cells in the central nervous system that provid...
 
 ## Linking Summary
 - New links added: [[Microglia]], [[MPTP]], [[Monoamine oxidase B]].

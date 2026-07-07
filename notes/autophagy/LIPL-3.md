@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: LIPL-3
-description: '**LIPL-3** is a lysosomal lipase in C. elegans that, along with LIPL-1,
+description: 'LIPL-3 is a lysosomal lipase in C. elegans that, along with LIPL-1,
   is essential for Lysosomal Lipolysis and the mobilization of fat stores via Lipophagy.
   It is a functional orthologue of human...'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Enzyme
 aliases: [C. elegans lysosomal lipase 3]
+
 ---
+
 # LIPL-3
 
 **LIPL-3** is a lysosomal lipase in [[C. elegans]] that, along with [[LIPL-1]], is essential for [[Lysosomal Lipolysis]] and the mobilization of fat stores via [[Lipophagy]]. It is a functional orthologue of human [[Lysosomal Acid Lipase]] ([[LAL]]).
@@ -25,6 +28,19 @@ aliases: [C. elegans lysosomal lipase 3]
 ## Function
 
 LIPL-3 is a C. elegans lysosomal lipase involved in [[Lipophagy]] and fat storage mobilization.
+
+## Connections
+
+- [[C. elegans]]: **LIPL-3** is a lysosomal lipase in C. elegans that, along with [[LIPL-1]], is essential for [[Lysosomal Lipolysis]] ...
+- [[LIPL-1]]: elegans]] that, along with LIPL-1, is essential for [[Lysosomal Lipolysis]] and the mobilization of fat stores via [[...
+- [[Lysosomal Lipolysis]]: elegans]] that, along with [[LIPL-1]], is essential for Lysosomal Lipolysis and the mobilization of fat stores via [[...
+- [[Lipophagy]]: elegans]] that, along with [[LIPL-1]], is essential for [[Lysosomal Lipolysis]] and the mobilization of fat stores vi...
+- [[Lysosomal Acid Lipase]]: It is a functional orthologue of human Lysosomal Acid Lipase ([[LAL]]).
+- [[LAL]]: It is a functional orthologue of human [[Lysosomal Acid Lipase]] (LAL).
+- [[PGP-2]]: ## Function and Regulation - **Localization**: Localizes to the lysosomal compartment (co-localizes with the marker P...
+- [[MXL-3]]: - **Transcriptional Control**: - Repressed by MXL-3 when nutrients are available.
+- [[HLH-30]]: - Induced by HLH-30 during [[Fasting]].
+- [[Fasting]]: - Induced by [[HLH-30]] during Fasting.
 
 ## Linking Summary
 - New links added: [[C. elegans]], [[LIPL-1]], [[Lysosomal Lipolysis]], [[Lipophagy]], [[Lysosomal Acid Lipase]], [[LAL]], [[PGP-2]], [[MXL-3]], [[HLH-30]], [[Fasting]]

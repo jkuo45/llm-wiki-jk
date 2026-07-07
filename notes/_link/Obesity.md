@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: Obesity
-description: '**Obesity** is a complex chronic disease characterized by excessive
+description: 'Obesity is a complex chronic disease characterized by excessive
   adipose tissue accumulation, affecting over 603.7 million adults globally. Obesity
   is associated with chronic inflammation and in...'
 created: 2026-07-05
 updated: 2026-07-05
 entity_type_1: Medical Condition
 aliases: [Adiposity]
+
 ---
+
 # Obesity
 **Obesity** is a complex chronic disease characterized by excessive adipose tissue accumulation, affecting over 603.7 million adults globally. Obesity is associated with chronic inflammation and increased risk of [[Type 2 Diabetes Mellitus]], [[Cardiovascular Disease]], [[Non-alcoholic Fatty Liver Disease]], and certain cancers.
 ## Sirtuin Involvement

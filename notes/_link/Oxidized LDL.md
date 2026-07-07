@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: Oxidized LDL
-description: '**Oxidized LDL** (oxLDL) is low-density lipoprotein that has undergone
+description: 'Oxidized LDL (oxLDL) is low-density lipoprotein that has undergone
   oxidative modification, primarily by Reactive Oxygen Species and Myeloperoxidase.
   It is a key driver of Atherosclerosis and En...'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Biological Molecule
 aliases: [oxLDL, Oxidized low-density lipoprotein]
+
 ---
+
 # Oxidized LDL
 **Oxidized LDL** (oxLDL) is low-density lipoprotein that has undergone oxidative modification, primarily by [[Reactive Oxygen Species]] and [[Myeloperoxidase]]. It is a key driver of [[Atherosclerosis]] and [[Endothelial Dysfunction]].
 

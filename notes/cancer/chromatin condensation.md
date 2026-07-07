@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: chromatin condensation
-description: '**Chromatin condensation** is a morphological hallmark of Apoptosis.
+description: 'Chromatin condensation is a morphological hallmark of Apoptosis.
   It is characterized by the tight packing of chromatin into dense, crescent-shaped
   or ring-like structures at the periphery of th...'
 created: 2026-07-06
 updated: 2026-07-06
 entity_type_1: Enzyme
+
 ---
+
 # chromatin condensation
 
 **Chromatin condensation** is a morphological hallmark of [[Apoptosis]]. It is characterized by the tight packing of chromatin into dense, crescent-shaped or ring-like structures at the periphery of the nucleus.

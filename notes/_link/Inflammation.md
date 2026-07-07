@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: Inflammation
-description: '**Inflammation** is the body''s complex biological response to harmful
+description: 'Inflammation is the body''s complex biological response to harmful
   stimuli, such as pathogens, damaged cells, or irritants. It is a key context for
   the production of Adrenochrome.'
 created: 2026-05-29
 updated: 2026-05-29
 entity_type_1: Biological Process
+
 ---
+
 # Inflammation
 **Inflammation** is the body's complex biological response to harmful stimuli, such as pathogens, damaged cells, or irritants. It is a key context for the production of [[Adrenochrome]].
 Inflammation is a complex biological response of body tissues to harmful stimuli, characterized by the release of cytokines like [[TNF-alpha]] and [[IL-1b]] and the activation of [[NF-kappa B]].

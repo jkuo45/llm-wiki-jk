@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: RHEB-1
-description: '**RHEB-1** is the C. elegans orthologue of the small GTPase Rheb. It
+description: 'RHEB-1 is the C. elegans orthologue of the small GTPase Rheb. It
   is a key activator of mTOR (CeTOR).'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Protein
 aliases: [C. elegans Rheb ortholog]
+
 ---
+
 # RHEB-1
 
 **RHEB-1** is the [[C. elegans]] orthologue of the small GTPase [[Rheb]]. It is a key activator of [[mTOR]] ([[CeTOR]]).
@@ -20,6 +23,15 @@ aliases: [C. elegans Rheb ortholog]
 ## Function
 
 RHEB-1 is the C. elegans ortholog of mammalian [[Rheb]]. It activates [[Autophagy]] under dietary restriction and regulates dauer formation.
+
+## Connections
+
+- [[C. elegans]]: **RHEB-1** is the C. elegans orthologue of the small GTPase [[Rheb]].
+- [[Rheb]]: elegans]] orthologue of the small GTPase Rheb.
+- [[mTOR]]: It is a key activator of mTOR ([[CeTOR]]).
+- [[CeTOR]]: It is a key activator of [[mTOR]] (CeTOR).
+- [[MXL-3]]: - **Independence from MXL-3**: The longevity phenotype of MXL-3 mutants is not suppressed by the inactivation of *rhe...
+- [[Autophagy]]: It activates Autophagy under dietary restriction and regulates dauer formation.
 
 ## Linking Summary
 - New links added: [[C. elegans]], [[Rheb]], [[mTOR]], [[MXL-3]]

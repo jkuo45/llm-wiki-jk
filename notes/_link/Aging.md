@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: Aging
-description: The relationship between **aging** and Epigenetics is a central focus
+description: The relationship between aging and Epigenetics is a central focus
   of modern Geroscience. Epigenetics refers to chemical modifications to DNA and its
   associated proteins that regulate gene expre...
 created: 2026-05-29
 updated: 2026-05-29
 entity_type_1: Biological Process
+
 ---
+
 # Aging
 The relationship between **aging** and [[Epigenetics]] is a central focus of modern [[Geroscience]]. Epigenetics refers to chemical modifications to DNA and its associated proteins that regulate gene expression without changing the underlying genetic sequence. As organisms age, these modifications undergo predictable and stochastic changes, collectively known as **epigenetic aging**.
 Aging is the time-dependent decline in physiological function and cellular integrity, often characterized by the accumulation of cellular damage and the impairment of protective mechanisms like [[Autophagy]].

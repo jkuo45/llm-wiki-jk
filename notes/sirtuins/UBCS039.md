@@ -1,7 +1,8 @@
 ---
+
 type: entity
 title: UBCS039
-description: '**UBCS039** is the first synthetic, selective allosteric activator of
+description: 'UBCS039 is the first synthetic, selective allosteric activator of
   **SIRT6** to be characterized. It is a cell-permeable small molecule that binds
   the unique elongated hydrophobic pocket of SIRT...'
 created: 2026-07-03
@@ -11,7 +12,9 @@ aliases: [UBCS039]
 
 sources: []
 target: SIRT6
+
 ---
+
 
 # UBCS039
 

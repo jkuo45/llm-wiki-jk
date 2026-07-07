@@ -1,7 +1,8 @@
 ---
+
 type: entity
 title: LC3
-description: '**LC3** (Microtubule-associated protein 1A/1B light chain 3B) is a central
+description: 'LC3 (Microtubule-associated protein 1A/1B light chain 3B) is a central
   protein in the Autophagy pathway. It is the mammalian homologue of yeast Atg8 and
   serves as the most widely used marker fo...'
 created: 2026-07-04
@@ -11,7 +12,9 @@ aliases: [Microtubule-associated proteins 1A/1B light chain 3B, MAP1LC3B, Atg8]
 database_ids:
   uniprot: Q9GZQ8
   hgnc: HGNC:13352
+
 ---
+
 # LC3
 **LC3** (Microtubule-associated protein 1A/1B light chain 3B) is a central protein in the [[Autophagy]] pathway. It is the mammalian homologue of yeast [[Atg8]] and serves as the most widely used marker for autophagosomes.
 ## Role in Autophagy

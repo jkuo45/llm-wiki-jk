@@ -17,6 +17,12 @@ Phorbol 12-myristate 13-acetate (PMA) is a potent activator of protein kinase C 
 
 PMA (phorbol 12-myristate 13-acetate) is a [[PKC]] activator that induces differentiation and autophagy. It is a tumor promoter in classical two-stage carcinogenesis models.
 
+## Connections
+
+- [[p38 MAPK]]: Phorbol 12-myristate 13-acetate (PMA) is a potent activator of protein kinase C (PKC) and p38 MAPK that is commonly u...
+- [[TFEB]]: Phorbol 12-myristate 13-acetate (PMA) is a potent activator of protein kinase C (PKC) and [[p38 MAPK]] that is common...
+- [[PKC]]: PMA (phorbol 12-myristate 13-acetate) is a PKC activator that induces differentiation and autophagy.
+
 ## Linking Summary
 - New links added: [[p38 MAPK]], [[TFEB]]
 - Suggested new entity notes to create: [[Protein Kinase C]]

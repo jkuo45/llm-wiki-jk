@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: Bafilomycin A1
-description: '**Chemical properties:** Bafilomycin A1 is a chemical substance with
+description: 'Chemical properties: Bafilomycin A1 is a chemical substance with
   defined molecular structure, functional groups, and physicochemical properties that
   determine its biological activity.'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Chemical Compound
+
 ---
+
 # Bafilomycin A1
 
 **Chemical properties:** Bafilomycin A1 is a chemical substance with defined molecular structure, functional groups, and physicochemical properties that determine its biological activity.

@@ -13,3 +13,8 @@ entity_type_1: Chemical Compound
 ## Connections
 - [[Methemoglobinemia]]: A primary symptom of nitrobenzene poisoning.
 - [[Aniline dyes]]: Produced from nitrobenzene and share similar toxicological profiles.
+
+## Linking Summary
+- New links added: [[Aniline dyes]], [[Methemoglobinemia]], [[Nitrobenzene]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[Nitrobenzene]] ↔ [[Methemoglobinemia]], [[Nitrobenzene]] ↔ [[Nitrobenzene]], [[Nitrobenzene]] ↔ [[Aniline dyes]]

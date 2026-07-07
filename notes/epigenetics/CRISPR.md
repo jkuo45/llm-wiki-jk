@@ -10,6 +10,11 @@ entity_type_1: NA
 
 A technology that allows for precise editing of genomic DNA.
 
+## Connections
+
+- [[Yamanaka Factors]]
+- [[Induced Pluripotent Stem Cells]]
+
 ## Linking Summary
 - New links added: [[Yamanaka Factors]], [[Induced Pluripotent Stem Cells]]
 - Suggested new entity notes to create:

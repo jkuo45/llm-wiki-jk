@@ -1,12 +1,15 @@
 ---
+
 type: entity
 title: Hexokinase 2
-description: '- **Metabolic Control:** HK2 is highly expressed in many cancer cells
+description: '- Metabolic Control: HK2 is highly expressed in many cancer cells
   and plays a key role in the Warburg Effect.'
 created: 2026-07-06
 updated: 2026-07-06
 entity_type_1: Enzyme
+
 ---
+
 # Hexokinase 2
 
 [[Hexokinase 2]] (HK2) is an enzyme that in humans is encoded by the [[HK2]] gene. It catalyzes the first step of [[Glycolysis]], the phosphorylation of [[Glucose]] to [[glucose-6-phosphate]].

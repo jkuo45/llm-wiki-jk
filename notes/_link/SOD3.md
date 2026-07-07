@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: SOD3
-description: '**Catalytic function:** SOD3 is an enzyme that catalyzes biochemical
+description: 'Catalytic function: SOD3 is an enzyme that catalyzes biochemical
   reactions essential for cellular metabolism and homeostasis.'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Enzyme
 aliases: [Superoxide Dismutase 3, EC-SOD]
+
 ---
+
 # SOD3
 
 **Catalytic function:** SOD3 is an enzyme that catalyzes biochemical reactions essential for cellular metabolism and homeostasis.

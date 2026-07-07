@@ -13,3 +13,8 @@ entity_type_1: Chemical Class
 ## Connections
 - [[Methemoglobinemia]]: Associated with exposure to aniline-based chemicals.
 - [[Nitrobenzene]]: Another industrial chemical that causes methemoglobinemia.
+
+## Linking Summary
+- New links added: [[Aniline dyes]], [[Methemoglobinemia]], [[Nitrobenzene]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[Aniline dyes]] ↔ [[Methemoglobinemia]], [[Aniline dyes]] ↔ [[Aniline dyes]], [[Aniline dyes]] ↔ [[Nitrobenzene]]

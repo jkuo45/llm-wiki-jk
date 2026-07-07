@@ -1,13 +1,23 @@
 ---
+
 type: entity
 title: SRC kinase
-description: '- New links added: SRC kinase, Src, Caspase-8, Apoptosis, Phosphorylation'
+description: 'SRC kinase (or Src) is a non-receptor tyrosine kinase that phosphorylates Caspase-8 at Tyr380, providing a mechanism for Apoptosis suppression.'
 created: 2026-07-06
 updated: 2026-07-06
 entity_type_1: Enzyme
+
 ---
+
 # SRC kinase
 [[SRC kinase]] (or [[Src]]) is a non-receptor tyrosine kinase that phosphorylates [[Caspase-8]] at Tyr380, providing a mechanism for [[Apoptosis]] suppression.
+
+## Connections
+
+- [[SRC kinase]]: # SRC kinase SRC kinase (or [[Src]]) is a non-receptor tyrosine kinase that phosphorylates [[Caspase-8]] at Tyr380, p...
+- [[Src]]: # SRC kinase [[SRC kinase]] (or Src) is a non-receptor tyrosine kinase that phosphorylates [[Caspase-8]] at Tyr380, p...
+- [[Caspase-8]]: # SRC kinase [[SRC kinase]] (or [[Src]]) is a non-receptor tyrosine kinase that phosphorylates Caspase-8 at Tyr380, p...
+- [[Apoptosis]]: # SRC kinase [[SRC kinase]] (or [[Src]]) is a non-receptor tyrosine kinase that phosphorylates [[Caspase-8]] at Tyr38...
 
 ## Linking Summary
 - New links added: [[SRC kinase]], [[Src]], [[Caspase-8]], [[Apoptosis]], [[Phosphorylation]]

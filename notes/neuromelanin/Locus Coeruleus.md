@@ -17,6 +17,13 @@ The neurons of the locus coeruleus are highly pigmented with [[Neuromelanin]], m
 - **Vulnerability in Parkinson's:** Along with the [[Substantia Nigra]], the LC is one of the brain regions most consistently and severely affected in [[Parkinson's Disease]].
 - **Non-motor Symptoms:** The degeneration of noradrenergic neurons in the LC contributes to several non-motor symptoms of PD, including cognitive impairment, depression, and sleep disturbances.
 
+## Connections
+
+- [[Locus Coeruleus]]: The Locus Coeruleus (LC) is a nucleus in the pons of the brainstem involved with physiological responses to stress an...
+- [[Neuromelanin]]: ## Neuromelanin and Vulnerability The neurons of the locus coeruleus are highly pigmented with Neuromelanin, making t...
+- [[Substantia Nigra]]: - **Vulnerability in Parkinson's:** Along with the Substantia Nigra, the LC is one of the brain regions most consiste...
+- [[Parkinson's Disease]]: - **Vulnerability in Parkinson's:** Along with the [[Substantia Nigra]], the LC is one of the brain regions most cons...
+
 ## Linking Summary
 - New links added: [[Neuromelanin]], [[Substantia Nigra]], [[Parkinson's Disease]].
 - Suggested new entity notes to create: [[Norepinephrine]], [[Pons]].

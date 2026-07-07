@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: T Lymphocyte
-description: '**Overview:** T Lymphocyte is a specialized cellular or anatomical structure
+description: 'Overview: T Lymphocyte is a specialized cellular or anatomical structure
   with defined functions in tissue organization and physiology.'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Cell Type
 aliases: [T Cell]
+
 ---
+
 # T Lymphocyte
 
 **Overview:** T Lymphocyte is a specialized cellular or anatomical structure with defined functions in tissue organization and physiology.

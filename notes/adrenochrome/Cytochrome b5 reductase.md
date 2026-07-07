@@ -13,3 +13,8 @@ entity_type_1: Enzyme
 ## Connections
 - [[Methemoglobinemia]]: Caused by a deficiency in this enzyme.
 - [[NADH-dependent methemoglobin reductase]]: An alternative name for this enzyme.
+
+## Linking Summary
+- New links added: [[Cytochrome b5 reductase]], [[Hemoglobin]], [[Methemoglobin]], [[Methemoglobinemia]], [[NADH-dependent methemoglobin reductase]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[Cytochrome b5 reductase]] ↔ [[NADH-dependent methemoglobin reductase]], [[Cytochrome b5 reductase]] ↔ [[Cytochrome b5 reductase]], [[Cytochrome b5 reductase]] ↔ [[Methemoglobinemia]]

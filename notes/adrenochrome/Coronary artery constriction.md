@@ -11,6 +11,12 @@ entity_type_1: Adverse Effect
 
 Coronary artery constriction refers to the narrowing of the blood vessels that supply oxygen and blood to the heart muscle.
 
+## Connections
+
+- [[Heart disease]]
+- [[Myocardium]]
+- [[Adrenochrome]]
+
 ## Linking Summary
 - New links added: [[Heart disease]], [[Myocardium]]
 - Suggested new entity notes to create: 

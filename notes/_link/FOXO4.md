@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: FOXO4
-description: '**FOXO4** (Forkhead Box O4) is a transcription factor belonging to the
+description: 'FOXO4 (Forkhead Box O4) is a transcription factor belonging to the
   FOXO family, involved in cellular senescence, stress response, and Autophagy.'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: NA
 aliases: [Foxo4]
+
 ---
+
 # FOXO4
 **FOXO4** (Forkhead Box O4) is a transcription factor belonging to the FOXO family, involved in cellular senescence, stress response, and [[Autophagy]].
 ## Function

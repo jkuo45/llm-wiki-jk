@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: Neurodegenerative Diseases
-description: '**Neurodegenerative Diseases** are a group of disorders characterized
+description: 'Neurodegenerative Diseases are a group of disorders characterized
   by the progressive loss of structure or function of neurons, including death of
   neurons. Aging is the single most significant r...'
 created: 2026-05-29
 updated: 2026-05-29
 entity_type_1: Medical Condition
+
 ---
+
 # Neurodegenerative Diseases
 **[[Neurodegenerative Diseases]]** are a group of disorders characterized by the progressive loss of structure or function of neurons, including death of neurons. [[Aging]] is the single most significant risk factor for these conditions, which include Alzheimer's Disease, Parkinson's Disease, and Huntington's Disease.
 Neurodegenerative diseases are a range of conditions which primarily affect the neurons in the human brain. Neurons are the building blocks of the nervous system which includes the brain and spinal cord. Neurons normally don't reproduce or replace themselves, so when they become damaged or die they cannot be replaced by the body.

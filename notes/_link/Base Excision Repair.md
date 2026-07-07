@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: Base Excision Repair
-description: '**Definition:** Base Excision Repair is a fundamental biological process
+description: 'Definition: Base Excision Repair is a fundamental biological process
   that maintains cellular and organismal homeostasis. It involves coordinated molecular
   events regulated by signaling pathways...'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Biological Process
 aliases: [BER]
+
 ---
+
 # Base Excision Repair
 
 **Definition:** Base Excision Repair is a fundamental biological process that maintains cellular and organismal homeostasis. It involves coordinated molecular events regulated by signaling pathways and environmental cues.

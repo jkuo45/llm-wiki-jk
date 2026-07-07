@@ -20,6 +20,11 @@ aliases: [YWHA, 14-3-3]
 
 14-3-3 proteins retain [[TFEB]] and [[TFE3]] in the cytosol by binding phosphorylated S211/S321, preventing their nuclear translocation during nutrient-replete conditions.
 
+## Connections
+
+- [[TFEB]]: 14-3-3 proteins are a family of conserved regulatory molecules that bind to phosphorylated TFEB (at S211) to retain i...
+- [[TFE3]]: 14-3-3 proteins retain [[TFEB]] and TFE3 in the cytosol by binding phosphorylated S211/S321, preventing their nuclear...
+
 ## Linking Summary
 - New links added: [[TFEB]]
 - Suggested new entity notes to create: [[Nuclear Translocation]]

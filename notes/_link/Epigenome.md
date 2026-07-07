@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: Epigenome
-description: The **Epigenome** consists of the chemical compounds and proteins that
+description: The Epigenome consists of the chemical compounds and proteins that
   can attach to DNA and direct such actions as turning genes on or off, controlling
   the production of proteins in particular cel...
 created: 2024-01-01
 updated: 2024-01-01
 entity_type_1: Biological Molecule
+
 ---
+
 # Epigenome
 The **[[Epigenome]]** consists of the chemical compounds and proteins that can attach to DNA and direct such actions as turning genes on or off, controlling the production of proteins in particular cells. While the genome is the same in every cell of an organism, the epigenome varies from cell type to cell type and changes throughout the life course.
 ### 1. Components of the Epigenome

@@ -11,6 +11,11 @@ entity_type_1: NA
 
 3D cellular structures formed by the fusion of multiple organoids to model complex organ interactions.
 
+## Connections
+
+- [[Yamanaka Factors]]
+- [[Induced Pluripotent Stem Cells]]
+
 ## Linking Summary
 - New links added: [[Yamanaka Factors]], [[Induced Pluripotent Stem Cells]]
 - Suggested new entity notes to create:

@@ -11,6 +11,11 @@ entity_type_1: NA
 
 A gene that encodes E-cadherin, a calcium-dependent cell-cell adhesion glycoprotein.
 
+## Connections
+
+- [[Yamanaka Factors]]
+- [[Induced Pluripotent Stem Cells]]
+
 ## Linking Summary
 - New links added: [[Yamanaka Factors]], [[Induced Pluripotent Stem Cells]]
 - Suggested new entity notes to create:

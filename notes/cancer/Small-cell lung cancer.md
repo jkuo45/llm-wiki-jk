@@ -11,6 +11,12 @@ entity_type_1: Medical Condition
 
 Small-cell lung cancer (SCLC) is a fast-growing type of lung cancer that usually starts in the bronchi.
 
+## Connections
+
+- [[Bax]]
+- [[Lung Cancer]]
+- [[non-small-cell lung cancer]]
+
 ## Linking Summary
 - New links added: [[Bax]], [[Lung Cancer]], [[non-small-cell lung cancer]]
 - Suggested new entity notes to create: 

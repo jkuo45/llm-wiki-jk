@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: Methionine
-description: '**Biochemical properties:** Methionine is an endogenous metabolite involved
+description: 'Biochemical properties: Methionine is an endogenous metabolite involved
   in cellular energy metabolism, redox reactions, or biosynthetic pathways. Its cellular
   concentration reflects metabolic f...'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Metabolite
+
 ---
+
 # Methionine
 
 **Biochemical properties:** Methionine is an endogenous metabolite involved in cellular energy metabolism, redox reactions, or biosynthetic pathways. Its cellular concentration reflects metabolic flux and energy status.

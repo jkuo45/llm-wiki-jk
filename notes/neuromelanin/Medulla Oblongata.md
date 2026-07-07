@@ -12,6 +12,14 @@ entity_type_1: Anatomy
 
 The [[Medulla Oblongata]] is the lower part of the brainstem that connects the spinal cord to the [[Pons]] and midbrain. It houses the [[Dorsal Motor Nucleus of the Vagus]], which contains neuromelanin-pigmented neurons that degenerate early in [[Parkinson's Disease]], preceding the involvement of the [[Substantia Nigra]].
 
+## Connections
+
+- [[Medulla Oblongata]]: The Medulla Oblongata is the lower part of the brainstem that connects the spinal cord to the [[Pons]] and midbrain.
+- [[Pons]]: The [[Medulla Oblongata]] is the lower part of the brainstem that connects the spinal cord to the Pons and midbrain.
+- [[Dorsal Motor Nucleus of the Vagus]]: It houses the Dorsal Motor Nucleus of the Vagus, which contains neuromelanin-pigmented neurons that degenerate early ...
+- [[Parkinson's Disease]]: It houses the [[Dorsal Motor Nucleus of the Vagus]], which contains neuromelanin-pigmented neurons that degenerate ea...
+- [[Substantia Nigra]]: It houses the [[Dorsal Motor Nucleus of the Vagus]], which contains neuromelanin-pigmented neurons that degenerate ea...
+
 ## Linking Summary
 - New links added: [[Pons]], [[Dorsal Motor Nucleus of the Vagus]], [[Parkinson's Disease]], [[Substantia Nigra]]
 - Strong connections to strengthen: [[Medulla Oblongata]] ↔ [[Dorsal Motor Nucleus of the Vagus]]

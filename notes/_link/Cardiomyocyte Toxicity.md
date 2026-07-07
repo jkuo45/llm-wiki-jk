@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: Cardiomyocyte Toxicity
-description: '**Cardiomyocyte toxicity** (cardiotoxicity) refers to damage or dysfunction
+description: 'Cardiomyocyte toxicity (cardiotoxicity) refers to damage or dysfunction
   of Cardiomyocyte caused by drugs, environmental toxins, or disease states. It is
   a major dose-limiting Adverse Effect of ...'
 created: 2026-07-04
 updated: 2026-07-06
 entity_type_1: Adverse Effect
 aliases: [Cardiotoxicity, Cardiac Toxicity]
+
 ---
+
 # Cardiomyocyte Toxicity
 
 **Cardiomyocyte toxicity** (cardiotoxicity) refers to damage or dysfunction of [[Cardiomyocyte|heart muscle cells]] caused by drugs, environmental toxins, or disease states. It is a major dose-limiting [[Adverse Effect]] of [[Chemotherapy]], particularly [[Anthracyclines]] ([[Doxorubicin]], [[Daunorubicin]]).

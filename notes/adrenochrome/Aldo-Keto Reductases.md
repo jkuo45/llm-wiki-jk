@@ -16,6 +16,12 @@ Aldo-Keto Reductases (AKRs) are a superfamily of NAD(P)H-dependent oxidoreductas
 
 AKRs act as a vital line of defense against dicarbonyl stress. They reduce reactive glycation precursors, such as [[3-deoxyglucosone]] and [[Methylglyoxal]], into less toxic species, thereby preventing the downstream formation of [[Advanced Glycation End Products]].
 
+## Connections
+
+- [[3-deoxyglucosone]]: They reduce reactive glycation precursors, such as 3-deoxyglucosone and [[Methylglyoxal]], into less toxic species, t...
+- [[Methylglyoxal]]: They reduce reactive glycation precursors, such as [[3-deoxyglucosone]] and Methylglyoxal, into less toxic species, t...
+- [[Advanced Glycation End Products]]: They reduce reactive glycation precursors, such as [[3-deoxyglucosone]] and [[Methylglyoxal]], into less toxic specie...
+
 ## Linking Summary
 - New links added: [[3-deoxyglucosone]], [[Methylglyoxal]], [[Advanced Glycation End Products]]
 - Suggested new entity notes to create: 

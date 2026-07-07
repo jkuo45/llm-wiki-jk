@@ -1,12 +1,15 @@
 ---
+
 type: entity
 title: TAT
-description: '**TAT** (Transactivator of transcription) is a protein encoded by the
+description: 'TAT (Transactivator of transcription) is a protein encoded by the
   *tat* gene in HIV-1.'
 created: 2026-07-06
 updated: 2026-07-06
 entity_type_1: Medical Condition
+
 ---
+
 # TAT
 
 **TAT** (Transactivator of transcription) is a protein encoded by the *tat* gene in [[HIV-1]].
@@ -18,3 +21,8 @@ entity_type_1: Medical Condition
 ## Connections
 - [[HIV-1]]: The source of the TAT protein.
 - [[melittin]]: Engineered with TAT to restore membrane binding and activity.
+
+## Linking Summary
+- New links added: [[HIV-1]], [[melittin]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[TAT]] ↔ [[melittin]], [[TAT]] ↔ [[HIV-1]]

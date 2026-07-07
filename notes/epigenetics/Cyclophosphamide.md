@@ -10,6 +10,11 @@ entity_type_1: Chemical Compound
 # Cyclophosphamide
 Cyclophosphamide is a chemical compound used as a chemotherapy medication and immunosuppressant that functions as an alkylating agent to damage DNA.
 
+## Connections
+
+- [[DNA Damage]]
+- [[Senescence]]
+
 ## Linking Summary
 - New links added: [[DNA Damage]], [[Senescence]]
 - Suggested new entity notes to create: 

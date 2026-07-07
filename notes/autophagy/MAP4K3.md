@@ -17,6 +17,12 @@ Mitogen-activating protein kinase kinase kinase kinase-3 (MAP4K3) is a kinase th
 
 MAP4K3 (GLK) is a Ste20 family kinase that activates the JNK and ERK pathways downstream of amino acid signaling. It positively regulates [[mTORC1]] via [[Rag proteins|Rag GTPases]].
 
+## Connections
+
+- [[TFEB]]: Mitogen-activating protein kinase kinase kinase kinase-3 (MAP4K3) is a kinase that phosphorylates TFEB at S3, a modif...
+- [[mTORC1]]: Mitogen-activating protein kinase kinase kinase kinase-3 (MAP4K3) is a kinase that phosphorylates [[TFEB]] at S3, a m...
+- [[Rag proteins]]: It positively regulates [[mTORC1]] via Rag GTPases.
+
 ## Linking Summary
 - New links added: [[TFEB]], [[mTORC1]]
 - Suggested new entity notes to create: [[Amino Acid Sensing]]

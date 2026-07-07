@@ -12,6 +12,10 @@ entity_type_1: Receptor
 
 Integrins are heterodimeric cell surface receptors composed of α and β subunits that mediate cell-cell and cell-extracellular matrix adhesion and signaling, playing critical roles in [[Angiogenesis]] and cancer progression.
 
+## Connections
+
+- [[Angiogenesis]]: Integrins are heterodimeric cell surface receptors composed of α and β subunits that mediate cell-cell and cell-extra...
+
 ## Linking Summary
 - New links added: [[RGD peptide]], [[Angiogenesis]], [[FAK]], [[PI3K]], [[MAPK]]
 - Suggested new entity notes to create: [[ECM]]

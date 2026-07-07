@@ -1,12 +1,15 @@
 ---
+
 type: entity
 title: Selective Autophagy
-description: '**Selective Autophagy** is a highly selective, receptor-mediated pathway
+description: 'Selective Autophagy is a highly selective, receptor-mediated pathway
   that targets, degrades, and recycles specific cellular cargo.'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Biological Process
+
 ---
+
 # Selective Autophagy
 
 **Selective Autophagy** is a highly selective, receptor-mediated pathway that targets, degrades, and recycles specific cellular cargo.
@@ -22,6 +25,18 @@ entity_type_1: Biological Process
 ## Types
 
 Selective autophagy includes [[Mitophagy]], [[Lipophagy]], [[Pexophagy]], [[Reticulophagy]] (ER), [[Nucleophagy]], [[Xenophagy]] (pathogens), and [[Aggrephagy]]. Each uses specific cargo receptors.
+
+## Connections
+
+- [[Mitophagy]]: ## Types and Functions - **Mitophagy**: The selective degradation of damaged or excessive [[Mitochondria]].
+- [[Mitochondria]]: ## Types and Functions - **[[Mitophagy]]**: The selective degradation of damaged or excessive Mitochondria.
+- [[Immunometabolism]]: - **Immune Regulation**: Key in modulating immunity and immune cell dynamics in close association with Immunometabolism.
+- [[Lipophagy]]: Selective autophagy includes [[Mitophagy]], Lipophagy, [[Pexophagy]], [[Reticulophagy]] (ER), [[Nucleophagy]], [[Xeno...
+- [[Pexophagy]]: Selective autophagy includes [[Mitophagy]], [[Lipophagy]], Pexophagy, [[Reticulophagy]] (ER), [[Nucleophagy]], [[Xeno...
+- [[Reticulophagy]]: Selective autophagy includes [[Mitophagy]], [[Lipophagy]], [[Pexophagy]], Reticulophagy (ER), [[Nucleophagy]], [[Xeno...
+- [[Nucleophagy]]: Selective autophagy includes [[Mitophagy]], [[Lipophagy]], [[Pexophagy]], [[Reticulophagy]] (ER), Nucleophagy, [[Xeno...
+- [[Xenophagy]]: Selective autophagy includes [[Mitophagy]], [[Lipophagy]], [[Pexophagy]], [[Reticulophagy]] (ER), [[Nucleophagy]], Xe...
+- [[Aggrephagy]]: Selective autophagy includes [[Mitophagy]], [[Lipophagy]], [[Pexophagy]], [[Reticulophagy]] (ER), [[Nucleophagy]], [[...
 
 ## Linking Summary
 - New links added: [[Mitophagy]], [[Mitochondria]], [[Immunometabolism]]

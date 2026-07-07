@@ -10,6 +10,11 @@ entity_type_1: Chemical Compound
 # Thymidine
 Thymidine is a pyrimidine nucleoside that, when present in excess, can induce DNA replication stress and subsequent cellular senescence.
 
+## Connections
+
+- [[DNA Replication Stress]]
+- [[Senescence]]
+
 ## Linking Summary
 - New links added: [[DNA Replication Stress]], [[Senescence]]
 - Suggested new entity notes to create: 

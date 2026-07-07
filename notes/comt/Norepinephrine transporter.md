@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: Norepinephrine transporter
-description: The **Norepinephrine transporter** (also known as **NET**) is a protein
+description: The Norepinephrine transporter (also known as NET) is a protein
   responsible for the reuptake of Norepinephrine from the synaptic cleft.
 created: 2026-05-25
 updated: 2026-07-04
 entity_type_1: Transporter
 aliases: [NET]
+
 ---
+
 # Norepinephrine transporter
 
 The **[[Norepinephrine transporter]]** (also known as **[[NET]]**) is a protein responsible for the reuptake of [[Norepinephrine]] from the synaptic cleft.

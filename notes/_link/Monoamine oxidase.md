@@ -1,12 +1,15 @@
 ---
+
 type: entity
 title: Monoamine oxidase
-description: '**Monoamine oxidase** (also known as **MAO**) is a family of enzymes
+description: 'Monoamine oxidase (also known as MAO) is a family of enzymes
   that catalyze the oxidation of monoamines.'
 created: 2026-05-29
 updated: 2026-05-29
 entity_type_1: Enzyme
+
 ---
+
 # Monoamine oxidase
 **[[Monoamine oxidase]]** (also known as **[[MAO]]**) is a family of enzymes that catalyze the oxidation of monoamines.
 ## Role in Neurotransmitter Metabolism

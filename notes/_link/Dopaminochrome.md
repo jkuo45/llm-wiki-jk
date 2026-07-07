@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: Dopaminochrome
-description: '**Dopaminochrome** is an aminochrome intermediate formed by the Oxidation
+description: 'Dopaminochrome is an aminochrome intermediate formed by the Oxidation
   of Dopamine. It is the structural and biochemical analog of Adrenochrome in the
   dopaminergic pathway.'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: NA
 aliases: [Dopaminochrome]
+
 ---
+
 # Dopaminochrome
 **Dopaminochrome** is an aminochrome intermediate formed by the [[Oxidation]] of [[Dopamine]]. It is the structural and biochemical analog of [[Adrenochrome]] in the dopaminergic pathway.
 ## Formation

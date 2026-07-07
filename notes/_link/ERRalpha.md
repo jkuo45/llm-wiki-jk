@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: ERRalpha
-description: '**ERRα** (estrogen-related receptor alpha, encoded by ESRRA) is an orphan
+description: 'ERRα (estrogen-related receptor alpha, encoded by ESRRA) is an orphan
   Nuclear Receptor that functions as a master regulator of Mitochondrial Biogenesis,
   Oxidative Phosphorylation, and Fatty aci...'
 created: 2026-07-04
 updated: 2026-07-06
 entity_type_1: Protein
 aliases: [Estrogen-Related Receptor Alpha, ESRRA, ERR1, NR3B1]
+
 ---
+
 # ERRalpha
 
 **ERRα** (estrogen-related receptor alpha, encoded by [[ESRRA]]) is an orphan [[Nuclear Receptor]] that functions as a master regulator of [[Mitochondrial Biogenesis]], [[Oxidative Phosphorylation]], and [[Fatty acid]] oxidation. It is closely related to [[Estrogen Receptor]] α and β but is not activated by [[Estrogen]].

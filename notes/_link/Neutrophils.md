@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: Neutrophils
-description: '**Neutrophils** (also known as polymorphonuclear leukocytes or granulocytes)
+description: 'Neutrophils (also known as polymorphonuclear leukocytes or granulocytes)
   are the most abundant type of white blood cell and serve as the first line of defense
   in the innate immune system.'
 created: 2026-05-29
 updated: 2026-05-29
 entity_type_1: Cell Type
+
 ---
+
 # Neutrophils
 **Neutrophils** (also known as polymorphonuclear leukocytes or granulocytes) are the most abundant type of white blood cell and serve as the first line of defense in the innate immune system.
 Neutrophils are the most abundant type of granulocytes and a central part of the innate immune system, capable of generating [[Hypochlorous Acid]] via [[Myeloperoxidase]] during the respiratory burst.

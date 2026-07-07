@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: Rb
-description: '**Overview:** Rb is a cellular protein with structural, signaling, or
+description: 'Overview: Rb is a cellular protein with structural, signaling, or
   regulatory functions in eukaryotic cells. It participates in macromolecular complexes
   and signaling networks that govern cell b...'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Protein
 aliases: [Retinoblastoma Protein]
+
 ---
+
 # Rb
 
 **Overview:** Rb is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern cell behavior.

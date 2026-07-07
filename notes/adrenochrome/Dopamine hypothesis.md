@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: Dopamine hypothesis
-description: The **Dopamine hypothesis** of Schizophrenia is a model that attributes
+description: The Dopamine hypothesis of Schizophrenia is a model that attributes
   the symptoms of schizophrenia to a disturbed and hyperactive dopaminergic signal
   transduction.
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Scientific Theory
+
 ---
+
 # Dopamine hypothesis
 
 The **Dopamine hypothesis** of [[Schizophrenia]] is a model that attributes the symptoms of schizophrenia to a disturbed and hyperactive dopaminergic signal transduction.
@@ -19,3 +22,8 @@ This hypothesis eventually superseded the [[Adrenochrome Hypothesis]] as the pri
 - [[Schizophrenia]]
 - [[Dopamine]]
 - [[Adrenochrome Hypothesis]]
+
+## Linking Summary
+- New links added: [[Adrenochrome Hypothesis]], [[Dopamine]], [[Schizophrenia]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[Dopamine hypothesis]] ↔ [[Adrenochrome Hypothesis]], [[Dopamine hypothesis]] ↔ [[Schizophrenia]], [[Dopamine hypothesis]] ↔ [[Dopamine]]

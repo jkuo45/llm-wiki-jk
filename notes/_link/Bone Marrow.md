@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: Bone Marrow
-description: '**Bone Marrow** is a semi-solid tissue found within the spongy (trabecular)
+description: 'Bone Marrow is a semi-solid tissue found within the spongy (trabecular)
   portions of bones. It is the primary site of Hematopoiesis — the production of all
   blood cell lineages — in adult mammals.'
 created: 2026-07-04
 updated: 2026-07-06
 entity_type_1: Anatomy
 aliases: [Medulla Ossium]
+
 ---
+
 # Bone Marrow
 
 **Bone Marrow** is a semi-solid tissue found within the spongy (trabecular) portions of bones. It is the primary site of [[Hematopoiesis]] — the production of all blood cell lineages — in adult mammals.

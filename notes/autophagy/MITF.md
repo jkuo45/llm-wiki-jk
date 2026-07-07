@@ -22,5 +22,19 @@ MITF is the master regulator of [[Melanocytes]] development, differentiation, an
 
 MITF regulates lysosomal biogenesis and [[Autophagy]] via the CLEAR network. It interacts with [[TFEB]] and [[TFE3]] and can compensate for their loss in certain contexts.
 
+## Connections
+
+- [[MiTF TFE family]]: Microphthalmia-associated transcription factor, a member of the MiTF/TFE family involved in melanocyte development an...
+- [[Melanocytes]]: MITF is the master regulator of Melanocytes development, differentiation, and survival.
+- [[TYR]]: It controls genes for melanogenesis (TYR, [[TYRP1]], [[DCT]]), and also regulates [[Osteoclast]] differentiation and ...
+- [[TYRP1]]: It controls genes for melanogenesis ([[TYR]], TYRP1, [[DCT]]), and also regulates [[Osteoclast]] differentiation and ...
+- [[DCT]]: It controls genes for melanogenesis ([[TYR]], [[TYRP1]], DCT), and also regulates [[Osteoclast]] differentiation and ...
+- [[Osteoclast]]: It controls genes for melanogenesis ([[TYR]], [[TYRP1]], [[DCT]]), and also regulates Osteoclast differentiation and ...
+- [[Mast Cell]]: It controls genes for melanogenesis ([[TYR]], [[TYRP1]], [[DCT]]), and also regulates [[Osteoclast]] differentiation ...
+- [[Cathepsin K]]: MITF transcriptionally activates Cathepsin K in osteoclasts.
+- [[Autophagy]]: MITF regulates lysosomal biogenesis and Autophagy via the CLEAR network.
+- [[TFEB]]: It interacts with TFEB and [[TFE3]] and can compensate for their loss in certain contexts.
+- [[TFE3]]: It interacts with [[TFEB]] and TFE3 and can compensate for their loss in certain contexts.
+
 ## Linking Summary
 - New links added: [[MiTF TFE family|MiTF/TFE family]], [[TFEB]], [[TFE3]]

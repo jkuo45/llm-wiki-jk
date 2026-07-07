@@ -14,3 +14,8 @@ entity_type_1: Protein
 - [[Methemoglobinemia]]: HbM disease is a hereditary type.
 - [[Cyanosis]]: A common presentation in patients with HbM.
 - [[Hemoglobin]]: The molecule affected by the mutations.
+
+## Linking Summary
+- New links added: [[Cyanosis]], [[Hemoglobin]], [[Hemoglobin M]], [[Methemoglobinemia]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[Hemoglobin M]] ↔ [[Methemoglobinemia]], [[Hemoglobin M]] ↔ [[Hemoglobin M]], [[Hemoglobin M]] ↔ [[Hemoglobin]]

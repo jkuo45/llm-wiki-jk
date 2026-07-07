@@ -20,6 +20,11 @@ LSDs are ∼70 inherited metabolic diseases caused by deficiency of lysosomal en
 
 Impaired lysosomal function in LSDs causes [[Autophagic Flux]] blockade, contributing to pathology. [[TFEB]] activation is a promising therapeutic strategy to enhance lysosomal exocytosis and reduce storage.
 
+## Connections
+
+- [[TFEB]]: Lysosomal storage disorders (LSDs) are a group of inherited metabolic diseases characterized by lysosomal dysfunction...
+- [[Autophagic Flux]]: Impaired lysosomal function in LSDs causes Autophagic Flux blockade, contributing to pathology.
+
 ## Linking Summary
 - New links added: [[TFEB]]
 - Suggested new entity notes to create: [[Lysosomal Biogenesis]]

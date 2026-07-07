@@ -12,6 +12,17 @@ entity_type_1: Medical Condition
 
 Lymphatic Filariasis, commonly known as Elephantiasis, is a human disease caused by parasitic worms spread by mosquitoes. It is characterized by severe swelling of limbs and genitals.
 
+## Connections
+
+- [[Wuchereria bancrofti]]
+- [[Brugia malayi]]
+- [[Brugia timori]]
+- [[Ivermectin]]
+- [[Diethylcarbamazine]]
+- [[Albendazole]]
+- [[Lymphedema]]
+- [[Hydrocele]]
+
 ## Linking Summary
 - New links added: [[Wuchereria bancrofti]], [[Brugia malayi]], [[Brugia timori]], [[Ivermectin]], [[Diethylcarbamazine]], [[Albendazole]]
 - Suggested new entity notes to create: [[Lymphedema]], [[Hydrocele]]

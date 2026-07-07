@@ -30,6 +30,16 @@ MAVS links [[Mitochondria]] to the detection of external threats and the orchest
 - [[NFκB]]
 - [[NLRP3 Inflammasome]]
 
+## Connections
+
+- [[Retinoic-acid-inducible protein I-like receptor]]: When Retinoic-acid-inducible protein I-like receptors (RLRs) detect unique RNA structures generate
+- [[TRAF2]]: This interaction activates MAVS to form large, prion-like aggregates on the mitochondrial surface, which then recruit...
+- [[TRAF6]]: This interaction activates MAVS to form large, prion-like aggregates on the mitochondrial surface, which then recruit...
+- [[RIPK1]]: This interaction activates MAVS to form large, prion-like aggregates on the mitochondrial surface, which then recruit...
+- [[Mitochondria]]: MAVS links Mitochondria to the detection of external threats and the orchestration of an antiviral state, highlightin...
+- [[NLRP3 Inflammasome]]: A similar role is seen in the activation of the NLRP3 Inflammasome by mitochondrial ROS.
+- [[NFκB]]: - [[Mitochondria]] - [[Retinoic-acid-inducible protein I-like receptor]] - [[TRAF2]] - [[TRAF6]] - [[RIPK1]] - NFκB -...
+
 ## Linking Summary
 - New links added: [[Mitochondria]], [[NFKB]], [[Inflammasome]]
 - Suggested new entity notes to create: [[RLR receptors]], [[dsRNA]]

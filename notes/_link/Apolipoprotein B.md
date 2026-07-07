@@ -1,7 +1,8 @@
 ---
+
 type: entity
 title: Apolipoprotein B
-description: '**Apolipoprotein B (ApoB)** is the primary apolipoprotein of LDL and
+description: 'Apolipoprotein B (ApoB) is the primary apolipoprotein of LDL and
   LDL. It serves as a ligand for the LDL receptor and is essential for lipoprotein
   assembly and metabolism.'
 created: 2026-07-04
@@ -11,7 +12,9 @@ aliases: [ApoB, Apolipoprotein B-100]
 database_ids:
   uniprot: P04114
   hgnc: HGNC:603
+
 ---
+
 # Apolipoprotein B
 **Apolipoprotein B (ApoB)** is the primary apolipoprotein of [[LDL|chylomicrons]] and [[LDL|LDL particles]]. It serves as a ligand for the [[LDL receptor]] and is essential for lipoprotein assembly and metabolism.
 

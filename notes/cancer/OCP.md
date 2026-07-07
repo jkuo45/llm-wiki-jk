@@ -12,6 +12,10 @@ entity_type_1: Chemical Compound
 
 The Onchocerciasis Control Programme in West Africa (OCP) was a major international effort to control river blindness by targeting the blackfly vectors and later through mass drug administration of [[Ivermectin]].
 
+## Connections
+
+- [[Ivermectin]]: The Onchocerciasis Control Programme in West Africa (OCP) was a major international effort to control river blindness...
+
 ## Linking Summary
 - New links added: [[Onchocerciasis]], [[World Health Organization]], [[Ivermectin]], [[Mectizan]]
 - Suggested new entity notes to create: [[Vector control]], [[Insecticides]]

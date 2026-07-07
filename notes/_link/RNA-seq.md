@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: RNA-seq
-description: '**RNA-seq** (RNA sequencing) is a high-throughput sequencing method
+description: 'RNA-seq (RNA sequencing) is a high-throughput sequencing method
   that profiles the complete set of RNA transcripts in a biological sample. It quantifies
   Gene Expression, detects Alternative Spli...'
 created: 2026-07-04
 updated: 2026-07-06
 entity_type_1: Analytical Technique
 aliases: [RNA Sequencing, Whole Transcriptome Sequencing]
+
 ---
+
 # RNA-seq
 
 **RNA-seq** (RNA sequencing) is a high-throughput sequencing method that profiles the complete set of [[RNA]] transcripts in a biological sample. It quantifies [[Gene Expression]], detects [[Alternative Splicing]], identifies novel transcripts, and discovers [[RNA Editing]] events.

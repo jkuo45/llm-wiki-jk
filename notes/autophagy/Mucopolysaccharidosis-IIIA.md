@@ -22,5 +22,11 @@ Accumulation of heparan sulfate in [[Lysosome|lysosomes]] triggers secondary sto
 
 Onset at 2-6 years with developmental delay, behavioral problems, sleep disturbance, coarse facies, hepatosplenomegaly, and progressive dementia. Death typically in the second decade. No approved CNS-penetrant therapy exists.
 
+## Connections
+
+- [[Lysosomal Storage Diseases]]: Also known as Sanfilippo syndrome type A, a lysosomal storage disease characterized by the accumulation of heparan sulf
+- [[Lysosome]]: Accumulation of heparan sulfate in lysosomes triggers secondary storage of GM2 gangliosides, cholesterol, and autopha...
+- [[Autophagic Flux]]: Autophagic Flux is impaired due to lysosomal dysfunction, contributing to severe neurodegeneration.
+
 ## Linking Summary
 - New links added: [[Lysosomal Storage Diseases]], [[TFEB]]

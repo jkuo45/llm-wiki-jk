@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: IGF-1
-description: '**IGF1** (Insulin-like Growth Factor 1) is a hormone similar in molecular
+description: 'IGF1 (Insulin-like Growth Factor 1) is a hormone similar in molecular
   structure to insulin. It plays a central role in childhood growth and continues
   to have anabolic effects in adults. In the ...'
 created: 2024-01-01
 updated: 2024-01-01
 entity_type_1: Protein
+
 ---
+
 # IGF-1
 **[[IGF1]]** (Insulin-like Growth Factor 1) is a hormone similar in molecular structure to insulin. It plays a central role in childhood growth and continues to have anabolic effects in adults. In the context of [[Aging]], the IGF-1 signaling pathway is one of the most important and well-conserved regulators of lifespan.
 ### 1. The Growth vs. Longevity Trade-off

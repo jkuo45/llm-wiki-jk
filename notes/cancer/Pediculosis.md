@@ -11,6 +11,12 @@ entity_type_1: Imaging Technique
 
 Pediculosis is an infestation of the hairy parts of the body or clothing with eggs, larvae, or adults of lice.
 
+## Connections
+
+- [[Ivermectin]]
+- [[Lice]]
+- [[Head lice]]
+
 ## Linking Summary
 - New links added: [[Ivermectin]]
 - Suggested new entity notes to create: [[Lice]], [[Head lice]]

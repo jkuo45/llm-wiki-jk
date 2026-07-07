@@ -1,15 +1,24 @@
 ---
+
 type: entity
 title: Dopachrome tautomerase
-description: '- New links added: Tyrosinase-related protein-2, Neuromelanin, Parkinson''s
-  Disease.'
+description: 'Dopachrome tautomerase is an alternative name for Tyrosinase-related protein-2 (TRP-2), an enzyme critical for the production of melanin.'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Enzyme
+
 ---
+
 # Dopachrome tautomerase
 
 [[Dopachrome tautomerase]] is an alternative name for [[Tyrosinase-related protein-2]] (TRP-2), an enzyme critical for the production of melanin. It plays a role in regulating the type of melanin produced and has been implicated in the pathogenic alterations of [[Neuromelanin]] synthesis in [[Parkinson's Disease]].
+
+## Connections
+
+- [[Dopachrome tautomerase]]: Dopachrome tautomerase is an alternative name for [[Tyrosinase-related protein-2]] (TRP-2), an enzyme critical for th...
+- [[Tyrosinase-related protein-2]]: [[Dopachrome tautomerase]] is an alternative name for Tyrosinase-related protein-2 (TRP-2), an enzyme critical for th...
+- [[Neuromelanin]]: It plays a role in regulating the type of melanin produced and has been implicated in the pathogenic alterations of N...
+- [[Parkinson's Disease]]: It plays a role in regulating the type of melanin produced and has been implicated in the pathogenic alterations of [...
 
 ## Linking Summary
 - New links added: [[Tyrosinase-related protein-2]], [[Neuromelanin]], [[Parkinson's Disease]].

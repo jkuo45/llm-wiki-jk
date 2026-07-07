@@ -1,7 +1,8 @@
 ---
+
 type: entity
 title: Smad7
-description: "**Smad7** (SMAD Family Member 7) is an inhibitory SMAD protein that\
+description: "Smad7 (SMAD Family Member 7) is an inhibitory SMAD protein that\
   \ acts as an antagonist of Transforming Growth Factor-beta (TGF-$\beta$) signaling.\
   \ It binds physically to the TGF-$\beta$ Type I r..."
 created: 2026-07-03
@@ -12,7 +13,9 @@ aliases: [Smad7, SMAD7, MADH7]
 sources:
 - PMID:17098745
 target: SIRT1
+
 ---
+
 
 # Smad7
 

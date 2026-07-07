@@ -1,12 +1,15 @@
 ---
+
 type: entity
 title: Non-small-cell Lung Cancer
-description: '**Non-small-cell lung cancer** (NSCLC) is any type of epithelial lung
+description: 'Non-small-cell lung cancer (NSCLC) is any type of epithelial lung
   cancer other than small-cell lung cancer (SCLC).'
 created: 2026-07-06
 updated: 2026-07-06
 entity_type_1: Medical Condition
+
 ---
+
 # Non-small-cell Lung Cancer
 
 **Non-small-cell lung cancer** (NSCLC) is any type of epithelial lung cancer other than small-cell lung cancer (SCLC).
@@ -18,3 +21,8 @@ entity_type_1: Medical Condition
 - [[melittin]]: Demonstrates activity against NSCLC.
 - [[NFκB]]: A signaling pathway inhibited by melittin in NSCLC.
 - [[docetaxel]]: Acts synergistically with melittin in lung cancer models.
+
+## Linking Summary
+- New links added: [[NFκB]], [[docetaxel]], [[melittin]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[Non-small-cell Lung Cancer]] ↔ [[docetaxel]], [[Non-small-cell Lung Cancer]] ↔ [[melittin]], [[Non-small-cell Lung Cancer]] ↔ [[NFκB]]

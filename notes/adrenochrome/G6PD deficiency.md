@@ -15,3 +15,8 @@ entity_type_1: Medical Condition
 - [[Methylene blue]]: Use is contraindicated or requires caution in G6PD deficient patients.
 - [[Hemolysis]]: A major risk for these patients when treating [[Methemoglobinemia]].
 - [[Ascorbic Acid]]: Often preferred as a safer alternative for these patients.
+
+## Linking Summary
+- New links added: [[Ascorbic Acid]], [[Erythrocytes]], [[G6PD deficiency]], [[Hemolysis]], [[Methemoglobinemia]], [[Methylene blue]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[G6PD deficiency]] ↔ [[Methemoglobinemia]], [[G6PD deficiency]] ↔ [[G6PD deficiency]], [[G6PD deficiency]] ↔ [[Methylene blue]]

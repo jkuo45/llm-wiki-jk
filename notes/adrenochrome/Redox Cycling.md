@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: Redox Cycling
-description: '**Redox Cycling** is a biochemical process in which a molecule is repeatedly
+description: 'Redox Cycling is a biochemical process in which a molecule is repeatedly
   reduced and then re-oxidized, often generating Reactive Oxygen Species (ROS) in
   the process.'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Scientific Concept
+
 ---
+
 # Redox Cycling
 
 **Redox Cycling** is a biochemical process in which a molecule is repeatedly reduced and then re-oxidized, often generating [[Reactive Oxygen Species]] (ROS) in the process.

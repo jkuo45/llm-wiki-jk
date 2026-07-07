@@ -17,6 +17,11 @@ B cells are lymphocytes responsible for the production of antibodies in the [[Ad
 
 B cells produce antibodies and mediate humoral immunity. [[Autophagy]] supports B cell survival, plasma cell differentiation, and antigen presentation.
 
+## Connections
+
+- [[Adaptive Immune Response]]: B cells are lymphocytes responsible for the production of antibodies in the Adaptive Immune Response, requiring [[Aut...
+- [[Autophagy]]: B cells are lymphocytes responsible for the production of antibodies in the [[Adaptive Immune Response]], requiring A...
+
 ## Linking Summary
 - New links added: [[Adaptive Immune Response]], [[Autophagy]]
 - Suggested new entity notes to create: , [[Plasma Cell]]

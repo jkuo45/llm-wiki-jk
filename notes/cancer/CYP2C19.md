@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: CYP2C19
-description: '- **Drug Metabolism:** CYP2C19 metabolizes various drugs, including
+description: '- Drug Metabolism: CYP2C19 metabolizes various drugs, including
   proton-pump inhibitors, anti-epileptics, and the benzimidazole anthelmintics Albendazole
   and Fenbendazole.'
 created: 2026-07-06
 updated: 2026-07-06
 entity_type_1: Transporter
+
 ---
+
 # CYP2C19
 
 [[CYP2C19]] (Cytochrome P450 Family 2 Subfamily C Member 19) is an enzyme that in humans is encoded by the [[CYP2C19]] gene. It is an important liver enzyme that acts on at least 10% of drugs in current clinical use.

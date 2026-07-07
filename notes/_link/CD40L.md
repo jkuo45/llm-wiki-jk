@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: CD40L
-description: '**Overview:** CD40L is a cellular protein with structural, signaling,
+description: 'Overview: CD40L is a cellular protein with structural, signaling,
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
   and signaling networks that govern cel...'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Protein
 aliases: [CD40 Ligand, CD154]
+
 ---
+
 # CD40L
 
 **Overview:** CD40L is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern cell behavior.

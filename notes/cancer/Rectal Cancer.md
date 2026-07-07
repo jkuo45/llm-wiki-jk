@@ -11,6 +11,11 @@ entity_type_1: Medical Condition
 
 Rectal cancer is cancer that begins in the rectum, which is the last several inches of the large intestine.
 
+## Connections
+
+- [[XIAP]]
+- [[Colon Cancer]]
+
 ## Linking Summary
 - New links added: [[XIAP]], [[Colon Cancer]]
 - Suggested new entity notes to create: 

@@ -46,3 +46,8 @@ In tumor microenvironments, elevated cADPR can promote cancer cell survival, mig
 - New links added: [[CD38]], [[NAD+]], [[Apoptosis]]
 - Suggested new entity notes to create: [[Ryanodine Receptors]], [[Oxytocin]]
 - Strong connections to strengthen: [[cADPR]] ↔ [[CD38]], [[cADPR]] ↔ [[NAD+]]
+
+## Linking Summary
+- New links added: [[Apoptosis]], [[CD38]], [[NAD+]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[cADPR (Cyclic ADP-ribose)]] ↔ [[Apoptosis]], [[cADPR (Cyclic ADP-ribose)]] ↔ [[NAD+]], [[cADPR (Cyclic ADP-ribose)]] ↔ [[CD38]]

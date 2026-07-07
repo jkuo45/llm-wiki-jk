@@ -1,12 +1,15 @@
 ---
+
 type: entity
 title: Glycine
-description: '**Glycine** is the simplest stable amino acid and acts as a critical
+description: 'Glycine is the simplest stable amino acid and acts as a critical
   precursor for the synthesis of Glutathione, creatine, and collagen.'
 created: 2024-01-01
 updated: 2024-01-01
 entity_type_1: Chemical Compound
+
 ---
+
 # Glycine
 **Glycine** is the simplest stable amino acid and acts as a critical precursor for the synthesis of [[Glutathione]], creatine, and collagen.
 ## Therapeutic Context

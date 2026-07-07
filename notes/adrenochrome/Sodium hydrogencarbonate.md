@@ -17,3 +17,8 @@ In the synthesis of [[Adrenochrome]], it is frequently used as a buffer to maint
 - [[Adrenochrome]]: Used as a buffer in its synthesis.
 - [[Epinephrine]]: Buffered during its oxidation.
 - [[Oxidation]]: Provides the necessary pH environment for the reaction.
+
+## Linking Summary
+- New links added: [[Adrenochrome]], [[Epinephrine]], [[Oxidation]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[Sodium hydrogencarbonate]] ↔ [[Adrenochrome]], [[Sodium hydrogencarbonate]] ↔ [[Epinephrine]], [[Sodium hydrogencarbonate]] ↔ [[Oxidation]]

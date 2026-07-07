@@ -11,6 +11,11 @@ entity_type_1: NA
 
 A protein involved in the Wnt signaling pathway, specifically inhibiting GSK3B.
 
+## Connections
+
+- [[Yamanaka Factors]]
+- [[Induced Pluripotent Stem Cells]]
+
 ## Linking Summary
 - New links added: [[Yamanaka Factors]], [[Induced Pluripotent Stem Cells]]
 - Suggested new entity notes to create:

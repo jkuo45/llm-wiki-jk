@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: Prefrontal Cortex
-description: The **Prefrontal Cortex** (Prefrontal Cortex) is the cerebral cortex
+description: The Prefrontal Cortex (Prefrontal Cortex) is the cerebral cortex
   which covers the front part of the frontal lobe. This brain region is implicated
   in complex cognitive behavior, personality expr...
 created: 2026-05-25
 updated: 2026-07-04
 entity_type_1: Anatomy
 aliases: [PFC]
+
 ---
+
 # Prefrontal Cortex
 
 The **[[Prefrontal Cortex]]** ([[Prefrontal Cortex]]) is the cerebral cortex which covers the front part of the frontal lobe. This brain region is implicated in complex cognitive behavior, personality expression, decision making, and moderating social behavior.

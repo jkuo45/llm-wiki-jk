@@ -1,11 +1,14 @@
 ---
+
 type: entity
 title: Oxyhemoglobin
-description: '**Oxyhemoglobin** (HbO₂) is the oxygen-loaded form of Hemoglobin.'
+description: 'Oxyhemoglobin (HbO₂) is the oxygen-loaded form of Hemoglobin.'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Protein
+
 ---
+
 # Oxyhemoglobin
 
 **Oxyhemoglobin** (HbO₂) is the oxygen-loaded form of [[Hemoglobin]].
@@ -18,3 +21,8 @@ The [[Autoxidation]] of oxyhemoglobin to [[Methemoglobin]] generates [[Superoxid
 - [[Methemoglobin]]
 - [[Superoxide anion]]
 - [[Epinephrine]]
+
+## Linking Summary
+- New links added: [[Adrenochrome]], [[Autoxidation]], [[Epinephrine]], [[Hemoglobin]], [[Methemoglobin]], [[Superoxide anion]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[Oxyhemoglobin]] ↔ [[Superoxide anion]], [[Oxyhemoglobin]] ↔ [[Methemoglobin]], [[Oxyhemoglobin]] ↔ [[Autoxidation]]

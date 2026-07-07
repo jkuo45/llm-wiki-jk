@@ -11,6 +11,10 @@ entity_type_1: Imaging Technique
 
 Trichuris is a genus of parasitic nematodes commonly known as whipworms. The species Trichuris trichiura causes [[Trichuriasis]] in humans.
 
+## Connections
+
+- [[Trichuriasis]]: The species Trichuris trichiura causes Trichuriasis in humans.
+
 ## Linking Summary
 - New links added: [[Trichuriasis]], [[Ivermectin]]
 - Suggested new entity notes to create: [[Whipworm]]

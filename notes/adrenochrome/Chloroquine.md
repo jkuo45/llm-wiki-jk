@@ -13,3 +13,8 @@ entity_type_1: Chemical Compound
 ## Connections
 - [[Methemoglobinemia]]: A rare but possible side effect of Chloroquine.
 - [[G6PD deficiency]]: Patients with this deficiency are at higher risk of complications from chloroquine.
+
+## Linking Summary
+- New links added: [[Chloroquine]], [[G6PD deficiency]], [[Methemoglobinemia]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[Chloroquine]] ↔ [[Methemoglobinemia]], [[Chloroquine]] ↔ [[G6PD deficiency]], [[Chloroquine]] ↔ [[Chloroquine]]

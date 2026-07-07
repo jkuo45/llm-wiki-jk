@@ -11,6 +11,10 @@ entity_type_1: Imaging Technique
 
 Onchocerca volvulus is a parasitic nematode (roundworm) that causes [[Onchocerciasis]] (river blindness) in humans.
 
+## Connections
+
+- [[Onchocerciasis]]: Onchocerca volvulus is a parasitic nematode (roundworm) that causes Onchocerciasis (river blindness) in humans.
+
 ## Linking Summary
 - New links added: [[Onchocerciasis]], [[Microfilariae]], [[Simulium]], [[Ivermectin]]
 - Suggested new entity notes to create: [[Nematode]], [[Roundworm]]

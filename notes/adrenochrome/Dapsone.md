@@ -13,3 +13,8 @@ entity_type_1: Chemical Compound
 ## Connections
 - [[Methemoglobinemia]]: A known side effect of Dapsone.
 - [[Methylene blue]]: Used to treat severe Dapsone-induced methemoglobinemia.
+
+## Linking Summary
+- New links added: [[Dapsone]], [[Methemoglobinemia]], [[Methylene blue]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[Dapsone]] ↔ [[Methemoglobinemia]], [[Dapsone]] ↔ [[Methylene blue]], [[Dapsone]] ↔ [[Dapsone]]

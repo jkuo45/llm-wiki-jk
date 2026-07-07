@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: COPD
-description: '**Chronic Obstructive Pulmonary Disease (COPD)** is a common chronic
+description: 'Chronic Obstructive Pulmonary Disease (COPD) is a common chronic
   respiratory disease characterized by persistent respiratory symptoms and progressive
   airflow obstruction. It is the fourth leadi...'
 created: 2026-07-05
 updated: 2026-07-05
 entity_type_1: Medical Condition
 aliases: [Chronic Obstructive Pulmonary Disease, Chronic Obstructive Lung Disease]
+
 ---
+
 # COPD
 **Chronic Obstructive Pulmonary Disease (COPD)** is a common chronic respiratory disease characterized by persistent respiratory symptoms and progressive airflow obstruction. It is the fourth leading cause of death worldwide. Oxidative stress, inflammation, and apoptosis are key drivers of COPD pathogenesis, all of which are closely linked to sirtuin regulation.
 ## Sirtuin Involvement

@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: Redox Vaccination
-description: '**Redox Vaccination** is the hypothesis that sub-toxic exposure to redox-cycling
+description: 'Redox Vaccination is the hypothesis that sub-toxic exposure to redox-cycling
   compounds (such as Carbazochrome, a stabilized Adrenochrome derivative) upregulates
   SIRT3 expression through a retro...'
 created: 2026-07-06
 updated: 2026-07-06
 entity_type_1: Scientific Concept
 aliases: [Redox preconditioning, Mitohormetic vaccination, ROS-adaptive immunity]
+
 ---
+
 # Redox Vaccination
 **Redox Vaccination** is the hypothesis that sub-toxic exposure to redox-cycling compounds (such as [[Carbazochrome]], a stabilized [[Adrenochrome]] derivative) upregulates [[SIRT3]] expression through a retrograde ROS→AMPK→PGC1α→SIRT3 signaling cascade, constituting an adaptive feedback loop that protects against subsequent oxidative challenge. The term draws an analogy to conventional vaccination: a controlled, sub-lethal exposure primes the system for robust defense against future, more severe insults.
 ## Mechanistic Basis

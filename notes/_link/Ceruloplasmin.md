@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: Ceruloplasmin
-description: '**Overview:** Ceruloplasmin is a cellular protein with structural, signaling,
+description: 'Overview: Ceruloplasmin is a cellular protein with structural, signaling,
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
   and signaling networks that go...'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Protein
+
 ---
+
 # Ceruloplasmin
 
 **Overview:** Ceruloplasmin is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern cell behavior.

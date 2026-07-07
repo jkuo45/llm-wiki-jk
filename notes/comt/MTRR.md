@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: MTRR
-description: '**MTRR** (Methionine Synthase Reductase) is an enzyme that is essential
+description: 'MTRR (Methionine Synthase Reductase) is an enzyme that is essential
   for the maintenance of Methionine Synthase in its active state.'
 created: 2026-05-25
 updated: 2026-07-04
 entity_type_1: Enzyme
 aliases: [Methionine Synthase Reductase]
+
 ---
+
 # MTRR
 
 **[[MTRR]]** (Methionine Synthase Reductase) is an enzyme that is essential for the maintenance of [[Methionine Synthase]] in its active state.

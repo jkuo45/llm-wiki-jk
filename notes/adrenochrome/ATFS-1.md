@@ -29,6 +29,15 @@ ATFS-1 acts as a direct sensor of mitochondrial import efficiency, linking mitoc
 - [[HAF-1]]
 - [[UPRmt]]
 
+## Connections
+
+- [[Mitochondrial Unfolded Protein Response]]: elegans* that is the primary regulator of the Mitochondrial Unfolded Protein Response.
+- [[Mitochondria]]: - **Normal Conditions**: ATFS-1 is efficiently imported into the Mitochondria via the MTS and degraded by mitochondri...
+- [[HAF-1]]: This accumulation may be influenced by matrix-generated peptides exported through the HAF-1 transporter.
+- [[p53]]: Its mechanism is analogous to p53 or [[HIF1A]], which are also subject to constitutive degradation in the absence of ...
+- [[HIF1A]]: Its mechanism is analogous to [[p53]] or HIF1A, which are also subject to constitutive degradation in the absence of ...
+- [[UPRmt]]: - [[Mitochondrial Unfolded Protein Response]] - [[Mitochondria]] - [[HAF-1]] - UPRmt
+
 ## Linking Summary
 - New links added: [[Mitochondrial Unfolded Protein Response]], [[Mitochondria]]
 - Suggested new entity notes to create: [[Mitochondrial targeting sequence]], [[Nuclear localization signal]]

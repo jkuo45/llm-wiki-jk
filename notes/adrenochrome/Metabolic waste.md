@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: Metabolic waste
-description: '**Metabolic waste** refers to substances left over from metabolic processes
+description: 'Metabolic waste refers to substances left over from metabolic processes
   (such as cellular respiration) which cannot be used by the organism and must therefore
   be excreted.'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Scientific Concept
+
 ---
+
 # Metabolic waste
 
 **Metabolic waste** refers to substances left over from metabolic processes (such as cellular respiration) which cannot be used by the organism and must therefore be excreted.
@@ -19,3 +22,8 @@ In the context of catecholamine metabolism, [[Adrenochrome]] is often viewed as 
 - [[Adrenochrome]]
 - [[Oxidative Stress]]
 - [[Homeostasis]]
+
+## Linking Summary
+- New links added: [[Adrenochrome]], [[COMT]], [[Homeostasis]], [[MAO]], [[Oxidative Stress]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[Metabolic waste]] ↔ [[Oxidative Stress]], [[Metabolic waste]] ↔ [[Adrenochrome]], [[Metabolic waste]] ↔ [[Homeostasis]]

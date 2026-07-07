@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: Bilirubin
-description: '**Biochemical properties:** Bilirubin is an endogenous metabolite involved
+description: 'Biochemical properties: Bilirubin is an endogenous metabolite involved
   in cellular energy metabolism, redox reactions, or biosynthetic pathways. Its cellular
   concentration reflects metabolic fl...'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Metabolite
+
 ---
+
 # Bilirubin
 
 **Biochemical properties:** Bilirubin is an endogenous metabolite involved in cellular energy metabolism, redox reactions, or biosynthetic pathways. Its cellular concentration reflects metabolic flux and energy status.

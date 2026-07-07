@@ -1,12 +1,15 @@
 ---
+
 type: entity
 title: HAT
-description: '**HAT** stands for **Histone Acetyltransferase**. These are enzymes
+description: 'HAT stands for Histone Acetyltransferase. These are enzymes
   that add an acetyl group to the amino acid lysine on histone proteins.'
 created: 2024-01-01
 updated: 2024-01-01
 entity_type_1: Enzyme
+
 ---
+
 # HAT
 
 **[[HAT]]** stands for **[[Histone Acetyltransferase]]**. These are enzymes that add an acetyl group to the amino acid lysine on histone proteins.

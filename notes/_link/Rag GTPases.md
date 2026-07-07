@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: Rag GTPases
-description: '**Overview:** Rag GTPases is a cellular protein with structural, signaling,
+description: 'Overview: Rag GTPases is a cellular protein with structural, signaling,
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
   and signaling networks that gove...'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Protein
 aliases: [RagA/B/C/D]
+
 ---
+
 # Rag GTPases
 
 **Overview:** Rag GTPases is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern cell behavior.

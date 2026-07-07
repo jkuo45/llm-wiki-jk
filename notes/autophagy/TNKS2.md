@@ -16,6 +16,12 @@ Tankyrase 2 (TNKS2) is an isoform of tankyrase that, along with [[TNKS1]], is in
 
 Tankyrase 2 is a PARP5 enzyme paralogous to [[TNKS1]]. It shares the ankyrin-SAM-PARP domain architecture and partially redundant functions in telomere maintenance and Wnt signaling.
 
+## Connections
+
+- [[TNKS1]]: Tankyrase 2 (TNKS2) is an isoform of tankyrase that, along with TNKS1, is involved in the poly-ADP-ribosylation ([[PA...
+- [[PARsylation]]: Tankyrase 2 (TNKS2) is an isoform of tankyrase that, along with [[TNKS1]], is involved in the poly-ADP-ribosylation (...
+- [[TFEB]]: Tankyrase 2 (TNKS2) is an isoform of tankyrase that, along with [[TNKS1]], is involved in the poly-ADP-ribosylation (...
+
 ## Linking Summary
 - New links added: [[TNKS1]], [[PARsylation]], [[TFEB]]
 - Suggested new entity notes to create: [[Tankyrases]]

@@ -15,6 +15,12 @@ Ras homolog enriched in brain (Rheb) is a small GTPase that, in its GTP-bound st
 
 Rheb is a Ras-family GTPase that directly activates [[mTORC1]] kinase activity when GTP-bound. It is inhibited by [[TSC1]]/[[TSC2]] GAP activity.
 
+## Connections
+
+- [[mTORC1]]: # Rheb Ras homolog enriched in brain (Rheb) is a small GTPase that, in its GTP-bound state, directly interacts with a...
+- [[TSC1]]: It is inhibited by TSC1/[[TSC2]] GAP activity.
+- [[TSC2]]: It is inhibited by [[TSC1]]/TSC2 GAP activity.
+
 ## Linking Summary
 - New links added: [[mTORC1]], [[GTP]], [[TSC1]], [[TSC2]], [[GAP]]
 - Suggested new entity notes to create: 

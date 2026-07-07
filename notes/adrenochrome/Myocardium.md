@@ -10,6 +10,12 @@ entity_type_1: Anatomy
 
 The myocardium is the muscular tissue of the heart.
 
+## Connections
+
+- [[Heart disease]]
+- [[Myocardial infarction]]
+- [[Cardiomyocytes]]
+
 ## Linking Summary
 - New links added: [[Heart disease]], [[Myocardial infarction]], [[Cardiomyocytes]]
 - Suggested new entity notes to create: 

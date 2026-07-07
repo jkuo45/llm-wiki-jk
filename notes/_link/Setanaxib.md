@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: Setanaxib
-description: '**Chemical properties:** Setanaxib is a chemical substance with defined
+description: 'Chemical properties: Setanaxib is a chemical substance with defined
   molecular structure, functional groups, and physicochemical properties that determine
   its biological activity.'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Chemical Compound
 aliases: [GKT137831]
+
 ---
+
 # Setanaxib
 
 **Chemical properties:** Setanaxib is a chemical substance with defined molecular structure, functional groups, and physicochemical properties that determine its biological activity.

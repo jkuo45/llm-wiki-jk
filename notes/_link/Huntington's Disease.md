@@ -1,12 +1,15 @@
 ---
+
 type: entity
 title: Huntington's Disease
-description: '**Huntington''s Disease** (HD) is an inherited neurodegenerative disorder
+description: 'Huntington''s Disease (HD) is an inherited neurodegenerative disorder
   characterized by motor dysfunction, cognitive decline, and psychiatric symptoms.'
 created: 2024-01-01
 updated: 2024-01-01
 entity_type_1: Medical Condition
+
 ---
+
 # Huntington's Disease
 **Huntington's Disease** (HD) is an inherited neurodegenerative disorder characterized by motor dysfunction, cognitive decline, and psychiatric symptoms.
 ## Pathogenesis

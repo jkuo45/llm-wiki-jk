@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: DAF-7
-description: '**DAF-7** is the C. elegans orthologue of the TGF-β (Transforming Growth
+description: 'DAF-7 is the C. elegans orthologue of the TGF-β (Transforming Growth
   Factor beta) signaling molecule. It is primarily expressed in sensory neurons and
   regulates development (entry into the Daue...'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Gene
 aliases: [C. elegans TGF-beta ortholog]
+
 ---
+
 # DAF-7
 
 **DAF-7** is the [[C. elegans]] orthologue of the TGF-β (Transforming Growth Factor beta) signaling molecule. It is primarily expressed in sensory neurons and regulates development (entry into the [[Dauer Larva]] stage) and metabolism.
@@ -20,6 +23,14 @@ aliases: [C. elegans TGF-beta ortholog]
 ## Function
 
 DAF-7 is the C. elegans [[TGF-β]] ortholog that regulates dauer entry, fat metabolism, and [[Autophagy]] under environmental stress.
+
+## Connections
+
+- [[C. elegans]]: **DAF-7** is the C. elegans orthologue of the TGF-β (Transforming Growth Factor beta) signaling molecule.
+- [[Dauer Larva]]: It is primarily expressed in sensory neurons and regulates development (entry into the Dauer Larva stage) and metabol...
+- [[MXL-3]]: - Unlike insulin signaling, inactivation of DAF-7 (*daf-7(e1372)*) does not significantly affect the expression of th...
+- [[TGF-β]]: elegans TGF-β ortholog that regulates dauer entry, fat metabolism, and [[Autophagy]] under environmental stress.
+- [[Autophagy]]: elegans [[TGF-β]] ortholog that regulates dauer entry, fat metabolism, and Autophagy under environmental stress.
 
 ## Linking Summary
 - New links added: [[C. elegans]], [[MXL-3]]

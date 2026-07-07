@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: Biomarkers
-description: In the field of Geroscience, **biomarkers** are essential tools for measuring
+description: In the field of Geroscience, biomarkers are essential tools for measuring
   the physiological state of an organism and predicting its future health outcomes.
   Epigenetics-based biomarkers, particu...
 created: 2024-01-01
 updated: 2024-01-01
 entity_type_1: Biomarker
+
 ---
+
 # Biomarkers
 In the field of [[Geroscience]], **biomarkers** are essential tools for measuring the physiological state of an organism and predicting its future health outcomes. [[Epigenetics]]-based biomarkers, particularly **DNA methylation (DNAm) biomarkers**, are currently the most accurate molecular tools for measuring "biological age."
 ### 1. [[DNA Methylation]] Biomarkers

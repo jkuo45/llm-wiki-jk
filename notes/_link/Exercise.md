@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: Exercise
-description: '**Exercise** is planned, structured physical activity that improves
+description: 'Exercise is planned, structured physical activity that improves
   or maintains physical fitness. It is one of the most effective interventions for
   extending healthspan, reducing Oxidative Stress,...'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Biological Process
 aliases: [Physical exercise, Physical activity]
+
 ---
+
 # Exercise
 **Exercise** is planned, structured physical activity that improves or maintains physical fitness. It is one of the most effective interventions for extending healthspan, reducing [[Oxidative Stress|oxidative stress]], enhancing [[Autophagy|autophagy]], and improving [[Mitochondria|mitochondrial]] function.
 ## Health Benefits

@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: PIKfyve
-description: '**PIKfyve** is a phosphoinositide 5-kinase that converts PtdIns3P to
+description: 'PIKfyve is a phosphoinositide 5-kinase that converts PtdIns3P to
   PtdIns(3,5)P2, playing a critical role in Lysosome biogenesis and reformation by
   activating TRPML1.'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Enzyme
 aliases: [PIP5K3, phosphoinositide kinase]
+
 ---
+
 # PIKfyve
 
 **PIKfyve** is a phosphoinositide 5-kinase that converts [[PtdIns3P]] to [[PtdIns(3,5)P2]], playing a critical role in [[Lysosome]] biogenesis and reformation by activating [[TRPML1]].
@@ -21,6 +24,22 @@ PIKfyve produces [[PtdIns(3,5)P2]] from [[PtdIns3P]] at late endosomes and [[Lys
 
 ## Autophagy Connection
 PIKfyve is essential for [[Autophagic Lysosome Reformation]] (ALR), the process that regenerates functional lysosomes from [[Autolysosome]]s after cargo degradation. PIKfyve inhibition causes lysosomal enlargement, blocks autophagic flux, and traps [[LC3]]-positive vesicles. This makes PIKfyve a target for autophagy modulation in cancer and lysosomal storage disorders.
+
+## Connections
+
+- [[PtdIns3P]]: **PIKfyve** is a phosphoinositide 5-kinase that converts PtdIns3P to [[PtdIns(3,5)P2]], playing a critical role in [[...
+- [[PtdIns(3,5)P2]]: **PIKfyve** is a phosphoinositide 5-kinase that converts [[PtdIns3P]] to PtdIns(3,5)P2, playing a critical role in [[...
+- [[Lysosome]]: **PIKfyve** is a phosphoinositide 5-kinase that converts [[PtdIns3P]] to [[PtdIns(3,5)P2]], playing a critical role i...
+- [[TRPML1]]: **PIKfyve** is a phosphoinositide 5-kinase that converts [[PtdIns3P]] to [[PtdIns(3,5)P2]], playing a critical role i...
+- [[Vac14]]: It forms a functional complex with the scaffold Vac14 and the phosphatase [[Fig4]] (Sac3), which both regulates and i...
+- [[Fig4]]: It forms a functional complex with the scaffold [[Vac14]] and the phosphatase Fig4 (Sac3), which both regulates and i...
+- [[AMPK]]: PIKfyve activity is regulated by AMPK phosphorylation and is sensitive to [[mTORC1]] signaling.
+- [[mTORC1]]: PIKfyve activity is regulated by [[AMPK]] phosphorylation and is sensitive to mTORC1 signaling.
+- [[Apilimod]]: Inhibitors (Apilimod, [[YM201636]]) block lysosomal reformation and autophagic flux.
+- [[YM201636]]: Inhibitors ([[Apilimod]], YM201636) block lysosomal reformation and autophagic flux.
+- [[Autophagic Lysosome Reformation]]: ## Autophagy Connection PIKfyve is essential for Autophagic Lysosome Reformation (ALR), the process that regenerates ...
+- [[Autolysosome]]: ## Autophagy Connection PIKfyve is essential for [[Autophagic Lysosome Reformation]] (ALR), the process that regenera...
+- [[LC3]]: PIKfyve inhibition causes lysosomal enlargement, blocks autophagic flux, and traps LC3-positive vesicles.
 
 ## Linking Summary
 - New links added: [[PtdIns3P]], [[PtdIns(3,5)P2]], [[Lysosome]], [[TRPML1]]

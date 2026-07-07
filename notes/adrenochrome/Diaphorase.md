@@ -13,3 +13,8 @@ entity_type_1: Enzyme
 ## Connections
 - [[NADH-dependent methemoglobin reductase]]: The synonymous enzyme.
 - [[Methemoglobin]]: The target of diaphorase activity.
+
+## Linking Summary
+- New links added: [[Diaphorase]], [[Hemoglobin]], [[Methemoglobin]], [[NADH-dependent methemoglobin reductase]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[Diaphorase]] ↔ [[NADH-dependent methemoglobin reductase]], [[Diaphorase]] ↔ [[Methemoglobin]], [[Diaphorase]] ↔ [[Diaphorase]]

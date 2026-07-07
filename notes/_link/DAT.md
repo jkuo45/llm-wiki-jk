@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: DAT
-description: '**Overview:** DAT is a membrane transport protein that facilitates the
+description: 'Overview: DAT is a membrane transport protein that facilitates the
   movement of molecules across biological membranes. It mediates substrate translocation
   through conformational changes driven b...'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Transporter
 aliases: [Dopamine Transporter]
+
 ---
+
 # DAT
 
 **Overview:** DAT is a membrane transport protein that facilitates the movement of molecules across biological membranes. It mediates substrate translocation through conformational changes driven by electrochemical gradients or ATP hydrolysis.

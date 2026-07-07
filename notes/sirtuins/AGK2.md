@@ -59,6 +59,16 @@ AGK2 selectively binds to the catalytic cleft of [[SIRT2]], blocking its deacety
 
 ---
 
+## Connections
+
+- [[SIRT2]]: **AGK2** is a potent, cell-permeable, and selective small-molecule inhibitor of **SIRT2**.
+- [[SIRT1]]: - **Target Selectivity**: Highly selective for [[SIRT2]] ($IC_{50} = 3.5\ \mu\text{M}$), with over 10-fold selectivit...
+- [[SIRT3]]: - **Target Selectivity**: Highly selective for [[SIRT2]] ($IC_{50} = 3.5\ \mu\text{M}$), with over 10-fold selectivit...
+- [[FOXO3a]]: This prevents the deacetylation of primary cytosolic targets of SIRT2, including microtubule-associated $\alpha$-tubu...
+- [[p53]]: This prevents the deacetylation of primary cytosolic targets of SIRT2, including microtubule-associated $\alpha$-tubu...
+- [[SirReal2]]: - **SirReal2** — fellow, highly selective SIRT2 inhibitor.
+- [[Alzheimer's Disease]]: - **Alzheimer's Disease** — neurological context where SIRT2 inhibition shows therapeutic promise.
+
 ## Linking Summary
 - **New Links Added**: [[SIRT2]], [[FOXO3a]], [[SirReal2]], [[Alzheimer's Disease]], [[p53]]
 - **Suggested New Notes to Create**: [[Alpha-Synuclein Toxicity]], [[Microtubule Acetylation]]

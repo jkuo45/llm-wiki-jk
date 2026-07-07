@@ -1,12 +1,15 @@
 ---
+
 type: entity
 title: Anaphylaxis
-description: '**Anaphylaxis** is a serious, potentially life-threatening allergic
+description: 'Anaphylaxis is a serious, potentially life-threatening allergic
   reaction that occurs quickly after exposure to an allergen.'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Medical Condition
+
 ---
+
 # Anaphylaxis
 
 **Anaphylaxis** is a serious, potentially life-threatening allergic reaction that occurs quickly after exposure to an allergen.
@@ -17,3 +20,8 @@ entity_type_1: Medical Condition
 ## Connections
 - [[Epinephrine]]
 - [[EpiPen]]
+
+## Linking Summary
+- New links added: [[EpiPen]], [[Epinephrine]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[Anaphylaxis]] ↔ [[Epinephrine]], [[Anaphylaxis]] ↔ [[EpiPen]]

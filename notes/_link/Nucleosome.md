@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: Nucleosome
-description: The **Nucleosome** is the fundamental structural unit of Chromatin. It
+description: The Nucleosome is the fundamental structural unit of Chromatin. It
   consists of a segment of DNA (approximately 147 base pairs) wound around a core
   of eight histone proteins (two each of H2A, H2...
 created: 2024-01-01
 updated: 2024-01-01
 entity_type_1: Biological Molecule
+
 ---
+
 # Nucleosome
 The **[[Nucleosome]]** is the fundamental structural unit of [[Chromatin]]. It consists of a segment of DNA (approximately 147 base pairs) wound around a core of eight histone proteins (two each of H2A, H2B, H3, and H4).
 ### 1. Structural Significance

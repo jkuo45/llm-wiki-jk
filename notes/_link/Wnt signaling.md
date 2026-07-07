@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: Wnt Signaling
-description: '**Definition:** Wnt Signaling is a fundamental biological process that
+description: 'Definition: Wnt Signaling is a fundamental biological process that
   maintains cellular and organismal homeostasis. It involves coordinated molecular
   events regulated by signaling pathways and en...'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Biological Process
 aliases: [Wnt Pathway]
+
 ---
+
 # Wnt Signaling
 
 **Definition:** Wnt Signaling is a fundamental biological process that maintains cellular and organismal homeostasis. It involves coordinated molecular events regulated by signaling pathways and environmental cues.

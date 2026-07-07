@@ -11,6 +11,11 @@ entity_type_1: NA
 
 A group of signaling molecules that play critical roles in heart, CNS, and cartilage development and postnatal bone formation.
 
+## Connections
+
+- [[Yamanaka Factors]]
+- [[Induced Pluripotent Stem Cells]]
+
 ## Linking Summary
 - New links added: [[Yamanaka Factors]], [[Induced Pluripotent Stem Cells]]
 - Suggested new entity notes to create:

@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: eIF5A
-description: '**eIF5A** (Eukaryotic Translation Initiation Factor 5A) is a highly
+description: 'eIF5A (Eukaryotic Translation Initiation Factor 5A) is a highly
   conserved translation factor.'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Protein
 aliases: [eukaryotic initiation factor 5A]
+
 ---
+
 # eIF5A
 
 **eIF5A** (Eukaryotic Translation Initiation Factor 5A) is a highly conserved translation factor.
@@ -23,6 +26,17 @@ aliases: [eukaryotic initiation factor 5A]
 ## Function
 
 eIF5A is a translation elongation factor with the unique amino acid [[Hypusination|hypusine]]. It is essential for [[Autophagy]] by promoting translation of [[LC3]] and [[p62]].
+
+## Connections
+
+- [[Spermidine]]: ## Activation by Spermidine - Spermidine acts as a donor for **hypusination** of eIF5A.
+- [[Autophagy]]: ## Function in Autophagy - Active eIF5A enables efficient biosynthesis of the Autophagy transcription factor [[TFEB]].
+- [[TFEB]]: ## Function in Autophagy - Active eIF5A enables efficient biosynthesis of the [[Autophagy]] transcription factor TFEB.
+- [[B Cell]]: - This pathway is critical for reversing B Cell [[Senescence]].
+- [[Senescence]]: - This pathway is critical for reversing [[B Cell]] Senescence.
+- [[Hypusination]]: eIF5A is a translation elongation factor with the unique amino acid hypusine.
+- [[LC3]]: It is essential for [[Autophagy]] by promoting translation of LC3 and [[p62]].
+- [[p62]]: It is essential for [[Autophagy]] by promoting translation of [[LC3]] and p62.
 
 ## Linking Summary
 - New links added: [[Spermidine]], [[Autophagy]], [[TFEB]], [[B Cell]], [[Senescence]]

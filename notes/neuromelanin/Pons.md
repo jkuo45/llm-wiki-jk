@@ -12,6 +12,14 @@ entity_type_1: Anatomy
 
 The [[Pons]] is a region of the brainstem located between the [[Medulla Oblongata]] and the midbrain. It houses several cranial nerve nuclei, including the [[Locus Coeruleus]], which is the principal site of [[Norepinephrine]] synthesis and contains neuromelanin-pigmented neurons that degenerate in [[Parkinson's Disease]].
 
+## Connections
+
+- [[Pons]]: The Pons is a region of the brainstem located between the [[Medulla Oblongata]] and the midbrain.
+- [[Medulla Oblongata]]: The [[Pons]] is a region of the brainstem located between the Medulla Oblongata and the midbrain.
+- [[Locus Coeruleus]]: It houses several cranial nerve nuclei, including the Locus Coeruleus, which is the principal site of [[Norepinephrin...
+- [[Norepinephrine]]: It houses several cranial nerve nuclei, including the [[Locus Coeruleus]], which is the principal site of Norepinephr...
+- [[Parkinson's Disease]]: It houses several cranial nerve nuclei, including the [[Locus Coeruleus]], which is the principal site of [[Norepinep...
+
 ## Linking Summary
 - New links added: [[Medulla Oblongata]], [[Locus Coeruleus]], [[Norepinephrine]], [[Parkinson's Disease]]
 - Strong connections to strengthen: [[Pons]] ↔ [[Locus Coeruleus]]

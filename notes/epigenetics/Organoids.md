@@ -11,6 +11,12 @@ entity_type_1: NA
 
 Tiny, self-organized three-dimensional tissue cultures that are derived from stem cells.
 
+## Connections
+
+- [[Induced Pluripotent Stem Cells]]
+- [[Disease Modeling]]
+- [[Tissue Engineering]]
+
 ## Linking Summary
 - New links added: [[Induced Pluripotent Stem Cells]], [[Disease Modeling]], [[Tissue Engineering]]
 - Suggested new entity notes to create:

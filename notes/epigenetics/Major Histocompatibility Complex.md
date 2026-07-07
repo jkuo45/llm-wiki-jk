@@ -12,6 +12,11 @@ entity_type_1: Protein
 
 The [[Major Histocompatibility Complex]] (MHC) is a set of cell surface proteins essential for the acquired [[Immune System|immune system]] to recognize foreign molecules in vertebrates, which in turn determines histocompatibility.
 
+## Connections
+
+- [[Major Histocompatibility Complex]]: The Major Histocompatibility Complex (MHC) is a set of cell surface proteins essential for the acquired [[Immune Syst...
+- [[Immune System]]: The [[Major Histocompatibility Complex]] (MHC) is a set of cell surface proteins essential for the acquired immune sy...
+
 ## Linking Summary
 - New links added: [[T Cell Receptor]], [[Lymphocyte]], [[Immune System]]
 - Suggested new entity notes to create: [[Antigen Presentation]]

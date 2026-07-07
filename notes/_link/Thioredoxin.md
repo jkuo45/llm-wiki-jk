@@ -1,7 +1,8 @@
 ---
+
 type: entity
 title: Thioredoxin
-description: '**Thioredoxin (Trx)** is a small redox-active protein that serves as
+description: 'Thioredoxin (Trx) is a small redox-active protein that serves as
   a key antioxidant and cell signaling regulator. It reduces oxidized cysteine residues
   on proteins via its active site (Cys-Gly-P...'
 created: 2026-07-04
@@ -12,7 +13,9 @@ database_ids:
   mesh: D013845
   uniprot: P10599
   hgnc: HGNC:12435
+
 ---
+
 # Thioredoxin
 **Thioredoxin (Trx)** is a small redox-active protein that serves as a key antioxidant and cell signaling regulator. It reduces oxidized cysteine residues on proteins via its active site (Cys-Gly-Pro-Cys).
 

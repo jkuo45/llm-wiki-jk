@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: Cognitive Performance
-description: '**Definition:** Cognitive Performance is a scientific concept that describes
+description: 'Definition: Cognitive Performance is a scientific concept that describes
   fundamental principles governing biological or chemical systems.'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Scientific Concept
 aliases: [Cognitive Function]
+
 ---
+
 # Cognitive Performance
 
 **Definition:** Cognitive Performance is a scientific concept that describes fundamental principles governing biological or chemical systems.

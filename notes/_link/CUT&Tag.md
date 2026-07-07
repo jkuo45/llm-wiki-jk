@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: CUT&Tag
-description: '**CUT&Tag** (Cleavage Under Targets and Tagmentation) is a method for
+description: 'CUT&Tag (Cleavage Under Targets and Tagmentation) is a method for
   genome-wide mapping of Histone Modifications, Transcription Factor binding, and
   Chromatin-associated proteins using an antibody...'
 created: 2026-07-04
 updated: 2026-07-06
 entity_type_1: Analytical Technique
 aliases: [Cleavage Under Targets and Tagmentation, CUT&Tag]
+
 ---
+
 # CUT&Tag
 
 **CUT&Tag** (Cleavage Under Targets and Tagmentation) is a method for genome-wide mapping of [[Histone Modifications]], [[Transcription Factor]] binding, and [[Chromatin]]-associated proteins using an antibody-targeted [[Tn5 Transposase]] fusion protein (pA-Tn5 or pAG-Tn5).

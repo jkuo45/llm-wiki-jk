@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: Hsp90
-description: '**Overview:** Hsp90 is a cellular protein with structural, signaling,
+description: 'Overview: Hsp90 is a cellular protein with structural, signaling,
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
   and signaling networks that govern cel...'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Protein
 aliases: [Heat Shock Protein 90, HSP90]
+
 ---
+
 # Hsp90
 
 **Overview:** Hsp90 is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern cell behavior.

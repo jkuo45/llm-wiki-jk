@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: Coronary Heart Disease
-description: '**Coronary Heart Disease (CHD)**, also known as **Coronary Artery Disease
-  (CAD)**, is a primary manifestation of Cardiovascular Disease. Epigenetics mechanisms
-  serve as a critical bridge between ch...'
+description: 'Coronary Heart Disease (CHD), also known as Coronary Artery Disease
+  (CAD), is a primary manifestation of Cardiovascular Disease. Epigenetics mechanisms
+  serve as a critical bridge between...'
 created: 2024-01-01
 updated: 2024-01-01
 entity_type_1: Medical Condition
+
 ---
+
 # Coronary Heart Disease
 **Coronary Heart Disease (CHD)**, also known as **Coronary Artery Disease (CAD)**, is a primary manifestation of [[Cardiovascular Disease]]. [[Epigenetics]] mechanisms serve as a critical bridge between chronological [[Aging]], environmental exposures, and the development of CHD, regulating gene expression and driving the progressive decline in vascular health.
 ### 1. [[DNA Methylation]] and [[Epigenetic Clock]]s

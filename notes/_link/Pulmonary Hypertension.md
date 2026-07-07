@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: Pulmonary Hypertension
-description: '**Etiology and pathophysiology:** Pulmonary Hypertension is a medical
+description: 'Etiology and pathophysiology: Pulmonary Hypertension is a medical
   condition characterized by specific pathological changes in cellular, tissue, or
   organ function. Its development involves genet...'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Medical Condition
 aliases: [PH]
+
 ---
+
 # Pulmonary Hypertension
 
 **Etiology and pathophysiology:** Pulmonary Hypertension is a medical condition characterized by specific pathological changes in cellular, tissue, or organ function. Its development involves genetic, environmental, and lifestyle risk factors.

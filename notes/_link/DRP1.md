@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: DRP1
-description: '**Overview:** DRP1 is a cellular protein with structural, signaling,
+description: 'Overview: DRP1 is a cellular protein with structural, signaling,
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
   and signaling networks that govern cell...'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Protein
 aliases: [DNM1L, Dynamin-Related Protein 1]
+
 ---
+
 # DRP1
 
 **Overview:** DRP1 is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern cell behavior.

@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: Statins
-description: '**Statins** are a class of lipid-lowering medications that competitively
+description: 'Statins are a class of lipid-lowering medications that competitively
   inhibit HMG-CoA reductase — the rate-limiting enzyme in the mevalonate pathway —
   reducing endogenous cholesterol synthesis. ...'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Chemical Compound
 aliases: [HMG-CoA reductase inhibitors, HMGCR inhibitors]
+
 ---
+
 # Statins
 **Statins** are a class of lipid-lowering medications that competitively inhibit [[HMG-CoA reductase]] — the rate-limiting enzyme in the mevalonate pathway — reducing endogenous cholesterol synthesis. Beyond their lipid-lowering effects, statins exert pleiotropic actions relevant to [[Oxidative Stress|oxidative stress]].
 ## Mechanism

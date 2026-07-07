@@ -1,12 +1,15 @@
 ---
+
 type: entity
 title: Genotype
-description: A **genotype** is the part of the genetic makeup of a cell, and therefore
+description: A genotype is the part of the genetic makeup of a cell, and therefore
   of any individual, which determines one of its characteristics.
 created: 2024-01-01
 updated: 2024-01-01
 entity_type_1: Scientific Concept
+
 ---
+
 # Genotype
 A **genotype** is the part of the genetic makeup of a cell, and therefore of any individual, which determines one of its characteristics.
 ## Overview

@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: S-adenosylmethionine
-description: '**Biochemical properties:** S-adenosylmethionine is an endogenous metabolite
+description: 'Biochemical properties: S-adenosylmethionine is an endogenous metabolite
   involved in cellular energy metabolism, redox reactions, or biosynthetic pathways.
   Its cellular concentration reflects m...'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Metabolite
 aliases: [SAMe]
+
 ---
+
 # S-adenosylmethionine
 
 **Biochemical properties:** S-adenosylmethionine is an endogenous metabolite involved in cellular energy metabolism, redox reactions, or biosynthetic pathways. Its cellular concentration reflects metabolic flux and energy status.

@@ -11,6 +11,10 @@ entity_type_1: Enzyme
 
 Ubiquitin specific peptidase 9 X-linked (USP9X) is a deubiquitinating enzyme that stabilizes [[Mcl-1]] by removing polyubiquitin chains.
 
+## Connections
+
+- [[Mcl-1]]: Ubiquitin specific peptidase 9 X-linked (USP9X) is a deubiquitinating enzyme that stabilizes Mcl-1 by removing polyub...
+
 ## Linking Summary
 - New links added:
 - Suggested new entity notes to create:

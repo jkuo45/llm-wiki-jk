@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: Rac1
-description: '**Overview:** Rac1 is a cellular protein with structural, signaling,
+description: 'Overview: Rac1 is a cellular protein with structural, signaling,
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
   and signaling networks that govern cell...'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Protein
 aliases: [Ras-related C3 Botulinum Toxin Substrate 1]
+
 ---
+
 # Rac1
 
 **Overview:** Rac1 is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern cell behavior.

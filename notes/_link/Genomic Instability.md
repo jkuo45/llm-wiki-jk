@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: Genomic Instability
-description: '**Genomic Instability** is a hallmark of Aging characterized by an increased
+description: 'Genomic Instability is a hallmark of Aging characterized by an increased
   tendency of the genome to acquire mutations, deletions, and structural alterations.
   It is both a cause and a consequence...'
 created: 2024-01-01
 updated: 2024-01-01
 entity_type_1: Biological Process
+
 ---
+
 # Genomic Instability
 **[[Genomic Instability]]** is a hallmark of [[Aging]] characterized by an increased tendency of the genome to acquire mutations, deletions, and structural alterations. It is both a cause and a consequence of the aging process, leading to cellular dysfunction and an increased risk of disease.
 ### 1. Drivers of Instability

@@ -1,14 +1,23 @@
 ---
+
 type: entity
 title: E2F
-description: '- New links added: Cell Cycle, Retinoblastoma Protein, Rb, Quiescence'
+description: 'E2F is a group of genes that codifies a family of transcription factors (TFs) in higher eukaryotes.'
 created: 2024-01-01
 updated: 2024-01-01
 entity_type_1: Protein
+
 ---
+
 # E2F
 
 [[E2F]] is a group of genes that codifies a family of transcription factors (TFs) in higher eukaryotes. They are involved in the [[Cell Cycle]] regulation and synthesis of DNA in mammalian cells. [[E2F]] activity is inhibited by the [[Retinoblastoma Protein]].
+
+## Connections
+
+- [[E2F]]: E2F is a group of genes that codifies a family of transcription factors (TFs) in higher eukaryotes.
+- [[Cell Cycle]]: They are involved in the Cell Cycle regulation and synthesis of DNA in mammalian cells.
+- [[Retinoblastoma Protein]]: [[E2F]] activity is inhibited by the Retinoblastoma Protein.
 
 ## Linking Summary
 - New links added: [[Cell Cycle]], [[Retinoblastoma Protein]], [[Rb]], [[Quiescence]]

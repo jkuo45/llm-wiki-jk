@@ -1,14 +1,23 @@
 ---
+
 type: entity
 title: Wnt4
-description: '- New links added: Quiescence, Muscle Stem Cell'
+description: 'Wnt4 is a protein-coding gene that belongs to the Wnt signaling pathway, playing a crucial role in maintaining Quiescence in certain stem cell niches.'
 created: 2024-01-01
 updated: 2024-01-01
 entity_type_1: Protein
+
 ---
+
 # Wnt4
 
 [[Wnt4]] is a protein-coding gene that belongs to the [[Wnt]] signaling pathway, playing a crucial role in maintaining [[Quiescence]] in certain stem cell niches.
+
+## Connections
+
+- [[Wnt4]]: Wnt4 is a protein-coding gene that belongs to the [[Wnt]] signaling pathway, playing a crucial role in maintaining [[...
+- [[Wnt]]: [[Wnt4]] is a protein-coding gene that belongs to the Wnt signaling pathway, playing a crucial role in maintaining [[...
+- [[Quiescence]]: [[Wnt4]] is a protein-coding gene that belongs to the [[Wnt]] signaling pathway, playing a crucial role in maintainin...
 
 ## Linking Summary
 - New links added: [[Quiescence]], [[Muscle Stem Cell]]

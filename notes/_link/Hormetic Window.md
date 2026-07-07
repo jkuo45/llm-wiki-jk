@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: Hormetic Window
-description: The **Hormetic Window** is the dose range over which a stressor or toxicant
+description: The Hormetic Window is the dose range over which a stressor or toxicant
   produces adaptive, beneficial effects rather than damage. It is the quantitative
   boundary separating Hormesis from toxici...
 created: 2026-07-06
 updated: 2026-07-06
 entity_type_1: Scientific Concept
 aliases: [Hormetic dose-response window, Mitohormetic window, Therapeutic hormetic range]
+
 ---
+
 # Hormetic Window
 The **Hormetic Window** is the dose range over which a stressor or toxicant produces adaptive, beneficial effects rather than damage. It is the quantitative boundary separating [[Hormesis]] from toxicity — the "Goldilocks zone" where mitochondrial stress is neither too little (no adaptation) nor too much (cell death).
 ## Definition and Dose-Response Modeling

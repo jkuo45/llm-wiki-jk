@@ -12,6 +12,11 @@ entity_type_1: Anatomy
 
 The C-end Rule (CendR) motif is a specific amino acid sequence (R/K/XXR/K) at the C-terminus of peptides like [[iRGD peptide]] that mediates binding to [[Neuropilin-1]], triggering internalisation and tissue penetration.
 
+## Connections
+
+- [[iRGD peptide]]: The C-end Rule (CendR) motif is a specific amino acid sequence (R/K/XXR/K) at the C-terminus of peptides like iRGD pe...
+- [[Neuropilin-1]]: The C-end Rule (CendR) motif is a specific amino acid sequence (R/K/XXR/K) at the C-terminus of peptides like [[iRGD ...
+
 ## Linking Summary
 - New links added: [[iRGD peptide]], [[Neuropilin-1]]
 - Suggested new entity notes to create: 

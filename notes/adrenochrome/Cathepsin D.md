@@ -17,6 +17,14 @@ Intracellular proteins modified by [[Advanced Glycation End Products]] (AGEs), s
 
 A decrease in Cathepsin D activity or expression—often observed during [[Aging]] or after UV exposure—correlates directly with the cellular accumulation of AGEs.
 
+## Connections
+
+- [[Advanced Glycation End Products]]: Intracellular proteins modified by Advanced Glycation End Products (AGEs), such as [[N-(carboxymethyl)-lysine]] (CML)...
+- [[N-(carboxymethyl)-lysine]]: Intracellular proteins modified by [[Advanced Glycation End Products]] (AGEs), such as N-(carboxymethyl)-lysine (CML)...
+- [[Lysosome]]: Intracellular proteins modified by [[Advanced Glycation End Products]] (AGEs), such as [[N-(carboxymethyl)-lysine]] (...
+- [[Cathepsin B]]: Cathepsin D, along with the cysteine protease Cathepsin B, is a major driver of this proteolytic degradation.
+- [[Aging]]: A decrease in Cathepsin D activity or expression—often observed during Aging or after UV exposure—correlates directly...
+
 ## Linking Summary
 - New links added: [[Advanced Glycation End Products]], [[N-(carboxymethyl)-lysine]], [[Lysosome]], [[Cathepsin B]], [[Aging]]
 - Suggested new entity notes to create: 

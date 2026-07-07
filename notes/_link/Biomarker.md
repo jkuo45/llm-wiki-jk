@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: Biomarker
-description: A **biomarker** (biological marker) is a measurable indicator of a biological
+description: A biomarker (biological marker) is a measurable indicator of a biological
   state, condition, or process. Biomarkers are used for Diagnosis, Prognosis, Risk
   Stratification, and monitoring Therape...
 created: 2026-07-04
 updated: 2026-07-06
 entity_type_1: Scientific Concept
 aliases: [Biological Marker, Diagnostic Marker]
+
 ---
+
 # Biomarker
 
 A **biomarker** (biological marker) is a measurable indicator of a biological state, condition, or process. Biomarkers are used for [[Diagnosis]], [[Prognosis]], [[Risk Stratification]], and monitoring [[Therapeutic Response]] in [[Medicine]] and biomedical research.

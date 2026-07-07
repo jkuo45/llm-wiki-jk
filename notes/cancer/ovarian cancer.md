@@ -1,11 +1,14 @@
 ---
+
 type: entity
 title: Ovarian Cancer
-description: '**Ovarian cancer** is a type of cancer that begins in the ovaries.'
+description: 'Ovarian cancer is a type of cancer that begins in the ovaries.'
 created: 2026-07-06
 updated: 2026-07-06
 entity_type_1: Medical Condition
+
 ---
+
 # Ovarian Cancer
 
 **Ovarian cancer** is a type of cancer that begins in the ovaries.
@@ -19,3 +22,8 @@ entity_type_1: Medical Condition
 - [[Ivermectin]]: Induces apoptosis and enhances chemotherapy efficacy.
 - [[PAK1]]: A key target for ivermectin in ovarian cancer.
 - [[STAT3]]: Target for melittin; also part of the PAK1/STAT3 axis targeted by ivermectin in other contexts.
+
+## Linking Summary
+- New links added: [[Akt]], [[Cisplatin]], [[Ivermectin]], [[JAK2]], [[KPNB1]], [[PAK1]], [[STAT3]], [[mTOR]], [[melittin]], [[paclitaxel]]
+- Suggested new entity notes to create: [[KPNB1]]
+- Strong connections to strengthen: [[Ovarian Cancer]] ↔ [[paclitaxel]], [[Ovarian Cancer]] ↔ [[Ivermectin]], [[Ovarian Cancer]] ↔ [[Cisplatin]]

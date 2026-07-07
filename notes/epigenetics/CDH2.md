@@ -11,6 +11,11 @@ entity_type_1: NA
 
 A gene that encodes N-cadherin, which is involved in mechanisms of cell-cell adhesion and signaling.
 
+## Connections
+
+- [[Yamanaka Factors]]
+- [[Induced Pluripotent Stem Cells]]
+
 ## Linking Summary
 - New links added: [[Yamanaka Factors]], [[Induced Pluripotent Stem Cells]]
 - Suggested new entity notes to create:

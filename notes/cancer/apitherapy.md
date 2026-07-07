@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: Apitherapy
-description: '**Apitherapy** is a branch of alternative medicine that uses products
+description: 'Apitherapy is a branch of alternative medicine that uses products
   derived from honeybees, including honey, pollen, propolis, royal jelly, and Honeybee
   venom.'
 created: 2026-07-06
 updated: 2026-07-06
 entity_type_1: Toxin
+
 ---
+
 # Apitherapy
 
 **Apitherapy** is a branch of alternative medicine that uses products derived from honeybees, including honey, pollen, propolis, royal jelly, and [[Honeybee venom|bee venom]].
@@ -19,3 +22,8 @@ entity_type_1: Toxin
 ## Connections
 - [[Honeybee]]: The source of apitherapy products.
 - [[melittin]]: A major bioactive component studied in apitherapy.
+
+## Linking Summary
+- New links added: [[Honeybee]], [[Honeybee venom]], [[melittin]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[Apitherapy]] ↔ [[Honeybee venom]], [[Apitherapy]] ↔ [[Honeybee]], [[Apitherapy]] ↔ [[melittin]]

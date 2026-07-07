@@ -20,6 +20,16 @@ S-sulfhydration (persulfidation) is the modification of cysteine thiols to persu
 
 H2S donors (NaHS, GYY4137) induce [[Autophagy]] via TFEB nuclear translocation and [[AMPK]] activation. This has therapeutic potential in [[Myocardial Ischemia-Reperfusion Injury]] and [[Neurodegeneration]].
 
+## Connections
+
+- [[TFEB]]: S-sulfhydration is a post-translational modification of cysteine residues by hydrogen sulfide (H2S); TFEB undergoes S...
+- [[Keap1]]: It enhances the activity of target proteins, including [[TFEB]], Keap1, and [[GAPDH]].
+- [[GAPDH]]: It enhances the activity of target proteins, including [[TFEB]], [[Keap1]], and GAPDH.
+- [[Autophagy]]: H2S donors (NaHS, GYY4137) induce Autophagy via TFEB nuclear translocation and [[AMPK]] activation.
+- [[AMPK]]: H2S donors (NaHS, GYY4137) induce [[Autophagy]] via TFEB nuclear translocation and AMPK activation.
+- [[Myocardial Ischemia-Reperfusion Injury]]: This has therapeutic potential in Myocardial Ischemia-Reperfusion Injury and [[Neurodegeneration]].
+- [[Neurodegeneration]]: This has therapeutic potential in [[Myocardial Ischemia-Reperfusion Injury]] and Neurodegeneration.
+
 ## Linking Summary
 - New links added: [[TFEB]]
 - Suggested new entity notes to create: [[Hydrogen Sulfide]]

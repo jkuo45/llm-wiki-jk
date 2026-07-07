@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: PKC
-description: '**Protein kinase C (PKC)** is a family of serine/threonine kinases classified
+description: 'Protein kinase C (PKC) is a family of serine/threonine kinases classified
   into conventional (α, βI, βII, γ), novel (δ, ε, η, θ), and atypical (ζ, ι/λ) isoforms.
   PKC signaling regulates Autophag...'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Enzyme
 aliases: [protein kinase C, PKC family]
+
 ---
+
 # PKC
 **Protein kinase C (PKC)** is a family of serine/threonine kinases classified into conventional (α, βI, βII, γ), novel (δ, ε, η, θ), and atypical (ζ, ι/λ) isoforms. PKC signaling regulates [[Autophagy]], cell survival, differentiation, and immune responses.
 ## PKCβ (PKC Beta)

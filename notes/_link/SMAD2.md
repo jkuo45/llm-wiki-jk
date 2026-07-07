@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: SMAD2
-description: '**Overview:** SMAD2 is a cellular protein with structural, signaling,
+description: 'Overview: SMAD2 is a cellular protein with structural, signaling,
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
   and signaling networks that govern cel...'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Protein
 aliases: [Mothers Against Decapentaplegic Homolog 2]
+
 ---
+
 # SMAD2
 
 **Overview:** SMAD2 is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern cell behavior.

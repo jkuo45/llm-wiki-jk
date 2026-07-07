@@ -1,7 +1,8 @@
 ---
+
 type: entity
 title: Nicotinamide
-description: '**Nicotinamide** (NAM), also known as **niacinamide**, is the amide
+description: 'Nicotinamide (NAM), also known as niacinamide, is the amide
   form of **vitamin B3** (niacin). It is an essential precursor in the **NAD⁺ salvage
   pathway** and a critical regulator of sirtuin...'
 created: 2026-07-04
@@ -11,7 +12,9 @@ aliases: [NAM, Niacinamide, Vitamin B3, Nicotinic acid amide]
 database_ids:
   mesh: D009536
   chebi: CHEBI:17154
+
 ---
+
 # Nicotinamide
 
 **Nicotinamide** (NAM), also known as **niacinamide**, is the amide form of **vitamin B3** (niacin). It is an essential precursor in the **NAD⁺ salvage pathway** and a critical regulator of sirtuin enzyme activity, acting as both a substrate for NAD⁺ biosynthesis and an endogenous feedback inhibitor of sirtuins.

@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: SNARE proteins
-description: '**SNARE proteins** (Soluble N-ethylmaleimide-sensitive factor attachment
+description: 'SNARE proteins (Soluble N-ethylmaleimide-sensitive factor attachment
   protein receptors) are a large family of proteins that mediate membrane fusion between
   organelles, such as the fusion of Aut...'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Scientific Concept
 aliases: [soluble NSF attachment protein receptors]
+
 ---
+
 # SNARE proteins
 
 **SNARE proteins** (Soluble N-ethylmaleimide-sensitive factor attachment protein receptors) are a large family of proteins that mediate membrane fusion between organelles, such as the fusion of [[Autophagosome]]s or [[Phagosome]]s with [[Lysosome]]s.
@@ -16,6 +19,15 @@ aliases: [soluble NSF attachment protein receptors]
 ## Function
 
 SNAREs ([[STX17]], [[SNAP29]], [[VAMP8]]) mediate autophagosome-lysosome fusion. STX17 is recruited to the completed [[Autophagosome]] for fusion.
+
+## Connections
+
+- [[Autophagosome]]: **SNARE proteins** (Soluble N-ethylmaleimide-sensitive factor attachment protein receptors) are a large family of pro...
+- [[Phagosome]]: **SNARE proteins** (Soluble N-ethylmaleimide-sensitive factor attachment protein receptors) are a large family of pro...
+- [[Lysosome]]: **SNARE proteins** (Soluble N-ethylmaleimide-sensitive factor attachment protein receptors) are a large family of pro...
+- [[STX17]]: SNAREs (STX17, [[SNAP29]], [[VAMP8]]) mediate autophagosome-lysosome fusion.
+- [[SNAP29]]: SNAREs ([[STX17]], SNAP29, [[VAMP8]]) mediate autophagosome-lysosome fusion.
+- [[VAMP8]]: SNAREs ([[STX17]], [[SNAP29]], VAMP8) mediate autophagosome-lysosome fusion.
 
 ## Linking Summary
 - New links added: [[Autophagosome]], [[Phagosome]], [[Lysosome]]

@@ -16,6 +16,11 @@ Atg13 is a structural protein that forms part of the [[ULK1]] initiation complex
 
 Atg13 is a scaffold component of the Atg1/[[ULK1]] kinase complex. It is phosphorylated by [[mTORC1]], which controls Atg1/ULK1 activity and autophagy initiation.
 
+## Connections
+
+- [[ULK1]]: Atg13 is a structural protein that forms part of the ULK1 initiation complex, playing a key role in the recruitment o...
+- [[mTORC1]]: It is phosphorylated by mTORC1, which controls Atg1/ULK1 activity and autophagy initiation.
+
 ## Linking Summary
 - New links added: [[ULK1]], [[Macroautophagy]]
 - Suggested new entity notes to create: 

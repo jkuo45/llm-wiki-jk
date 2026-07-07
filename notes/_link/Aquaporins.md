@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: Aquaporins
-description: '**Overview:** Aquaporins is a membrane transport protein that facilitates
+description: 'Overview: Aquaporins is a membrane transport protein that facilitates
   the movement of molecules across biological membranes. It mediates substrate translocation
   through conformational changes d...'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Transporter
 aliases: [AQP]
+
 ---
+
 # Aquaporins
 
 **Overview:** Aquaporins is a membrane transport protein that facilitates the movement of molecules across biological membranes. It mediates substrate translocation through conformational changes driven by electrochemical gradients or ATP hydrolysis.

@@ -15,6 +15,12 @@ Embryonic Stem Cells (ESCs) are pluripotent stem cells derived from the inner ce
 ## Comparison with iPSCs
 While [[Induced Pluripotent Stem Cells]] share many characteristics with ESCs, iPSCs are generated from [[Somatic Cells]] through [[Cellular Reprogramming]], avoiding the ethical controversies surrounding the destruction of embryos for ESC research.
 
+## Connections
+
+- [[Induced Pluripotent Stem Cells]]: ## Comparison with iPSCs While Induced Pluripotent Stem Cells share many characteristics with ESCs, iPSCs are generat...
+- [[Somatic Cells]]: ## Comparison with iPSCs While [[Induced Pluripotent Stem Cells]] share many characteristics with ESCs, iPSCs are gen...
+- [[Cellular Reprogramming]]: ## Comparison with iPSCs While [[Induced Pluripotent Stem Cells]] share many characteristics with ESCs, iPSCs are gen...
+
 ## Linking Summary
 - New links added: [[Induced Pluripotent Stem Cells]], [[Somatic Cells]], [[Cellular Reprogramming]]
 - Suggested new entity notes to create: [[Blastocyst]]

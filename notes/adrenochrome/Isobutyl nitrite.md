@@ -13,3 +13,8 @@ entity_type_1: Chemical Compound
 ## Connections
 - [[Methemoglobinemia]]: Induced by inhalation of isobutyl nitrite.
 - [[Amyl nitrite]]: A similar compound often used for the same purposes.
+
+## Linking Summary
+- New links added: [[Amyl nitrite]], [[Isobutyl nitrite]], [[Methemoglobinemia]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[Isobutyl nitrite]] ↔ [[Methemoglobinemia]], [[Isobutyl nitrite]] ↔ [[Isobutyl nitrite]], [[Isobutyl nitrite]] ↔ [[Amyl nitrite]]

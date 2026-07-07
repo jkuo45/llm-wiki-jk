@@ -11,5 +11,9 @@ entity_type_1: Pharmacological Action
 
 Chelating agents is a concept related to [[Adrenochrome]] and catecholamine metabolism.
 
+## Connections
+
+- [[Adrenochrome]]: Chelating agents is a concept related to Adrenochrome and catecholamine metabolism.
+
 ## Linking Summary
 - New links added: [[Adrenochrome]]

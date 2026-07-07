@@ -11,6 +11,11 @@ entity_type_1: NA
 
 Also known as TUT4, it is a terminal uridylyltransferase that regulates let-7 microRNA biogenesis.
 
+## Connections
+
+- [[let-7 microRNA]]
+- [[Lin28]]
+
 ## Linking Summary
 - New links added: [[let-7 microRNA]], [[Lin28]]
 - Suggested new entity notes to create:

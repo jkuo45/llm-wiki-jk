@@ -14,3 +14,8 @@ entity_type_1: Enzyme
 - [[Methemoglobin]]: The substrate reduced by this enzyme.
 - [[Cytochrome b5 reductase]]: An alternative name for this enzyme.
 - [[Diaphorase]]: An alternative name for this enzyme.
+
+## Linking Summary
+- New links added: [[Cytochrome b5 reductase]], [[Diaphorase]], [[Hemoglobin]], [[Methemoglobin]], [[NADH-dependent methemoglobin reductase]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[NADH-dependent methemoglobin reductase]] ↔ [[NADH-dependent methemoglobin reductase]], [[NADH-dependent methemoglobin reductase]] ↔ [[Cytochrome b5 reductase]], [[NADH-dependent methemoglobin reductase]] ↔ [[Methemoglobin]]

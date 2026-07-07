@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: Rac GTPase
-description: '**Overview:** Rac GTPase is a cellular protein with structural, signaling,
+description: 'Overview: Rac GTPase is a cellular protein with structural, signaling,
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
   and signaling networks that gover...'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Protein
 aliases: [Rac]
+
 ---
+
 # Rac GTPase
 
 **Overview:** Rac GTPase is a cellular protein with structural, signaling, or regulatory functions in eukaryotic cells. It participates in macromolecular complexes and signaling networks that govern cell behavior.

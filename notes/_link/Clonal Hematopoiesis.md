@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: Clonal Hematopoiesis
-description: '**Etiology and pathophysiology:** Clonal Hematopoiesis is a medical
+description: 'Etiology and pathophysiology: Clonal Hematopoiesis is a medical
   condition characterized by specific pathological changes in cellular, tissue, or
   organ function. Its development involves genetic...'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Medical Condition
 aliases: [CHIP]
+
 ---
+
 # Clonal Hematopoiesis
 
 **Etiology and pathophysiology:** Clonal Hematopoiesis is a medical condition characterized by specific pathological changes in cellular, tissue, or organ function. Its development involves genetic, environmental, and lifestyle risk factors.

@@ -1,12 +1,15 @@
 ---
+
 type: entity
 title: Neffy
-description: '**Neffy** is a brand of needle-free nasal spray delivery system for
+description: 'Neffy is a brand of needle-free nasal spray delivery system for
   Epinephrine.'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Medical Product
+
 ---
+
 # Neffy
 
 **Neffy** is a brand of needle-free nasal spray delivery system for [[Epinephrine]].
@@ -18,3 +21,8 @@ Neffy powder formulations have been shown to possess superior stability under ex
 - [[Epinephrine]]
 - [[Anaphylaxis]]
 - [[Autoxidation]]
+
+## Linking Summary
+- New links added: [[Adrenochrome]], [[Anaphylaxis]], [[Autoxidation]], [[Epinephrine]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[Neffy]] ↔ [[Autoxidation]], [[Neffy]] ↔ [[Adrenochrome]], [[Neffy]] ↔ [[Epinephrine]]

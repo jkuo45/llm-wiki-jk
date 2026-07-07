@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: ER Stress
-description: '**ER stress** is a cellular condition caused by the accumulation of
+description: 'ER stress is a cellular condition caused by the accumulation of
   misfolded or unfolded proteins in the endoplasmic reticulum lumen, triggering the
   unfolded protein response (UPR). It is intimate...'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Biological Process
 aliases: [endoplasmic reticulum stress, unfolded protein response, UPR]
+
 ---
+
 # ER Stress
 **ER stress** is a cellular condition caused by the accumulation of misfolded or unfolded proteins in the endoplasmic reticulum lumen, triggering the unfolded protein response (UPR). It is intimately linked to [[Autophagy]] as both a stress signal that induces autophagy and a state modulated by autophagic clearance.
 ## UPR Signaling Pathways

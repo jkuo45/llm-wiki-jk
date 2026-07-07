@@ -26,6 +26,10 @@ Pentosidine levels increase with age in several tissues:
 - Oocytes
 - Intervertebral disk
 
+## Connections
+
+- [[Advanced Glycation End Products]]: Pentosidine is a well-known biomarker and fluorescent cross-link belonging to the Advanced Glycation End Products (AG...
+
 ## Linking Summary
 - New links added: [[Advanced Glycation End Products]], [[Collagen]], [[Aging]]
 - Suggested new entity notes to create: [[Arginine]]

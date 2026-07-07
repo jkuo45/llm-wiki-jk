@@ -12,6 +12,12 @@ entity_type_1: Imaging Technique
 
 Albendazole is a medication used for the treatment of a variety of parasitic worm infestations. It is often used in combination with [[Ivermectin]] or [[Diethylcarbamazine]] for [[Lymphatic Filariasis]] elimination.
 
+## Connections
+
+- [[Ivermectin]]: It is often used in combination with Ivermectin or [[Diethylcarbamazine]] for [[Lymphatic Filariasis]] elimination.
+- [[Diethylcarbamazine]]: It is often used in combination with [[Ivermectin]] or Diethylcarbamazine for [[Lymphatic Filariasis]] elimination.
+- [[Lymphatic Filariasis]]: It is often used in combination with [[Ivermectin]] or [[Diethylcarbamazine]] for Lymphatic Filariasis elimination.
+
 ## Linking Summary
 - New links added: [[Ivermectin]], [[Diethylcarbamazine]], [[Lymphatic Filariasis]]
 - Suggested new entity notes to create: [[Anthelmintic]]

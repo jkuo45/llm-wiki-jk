@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: SARS-CoV-2
-description: '**SARS-CoV‑2** (Severe Acute Respiratory Syndrome Coronavirus 2) is
+description: 'SARS-CoV‑2 (Severe Acute Respiratory Syndrome Coronavirus 2) is
   a positive-sense single-stranded RNA virus belonging to the Coronaviridae family
   (genus *Betacoronavirus*). It is the causative a...'
 created: 2026-07-04
 updated: 2026-07-06
 entity_type_1: Microorganism
 aliases: [Severe Acute Respiratory Syndrome Coronavirus 2]
+
 ---
+
 # SARS-CoV-2
 
 **SARS-CoV‑2** (Severe Acute Respiratory Syndrome Coronavirus 2) is a positive-sense single-stranded [[RNA virus]] belonging to the [[Coronaviridae]] family (genus *Betacoronavirus*). It is the causative agent of [[COVID-19]], a respiratory disease that emerged as a global pandemic in 2020.

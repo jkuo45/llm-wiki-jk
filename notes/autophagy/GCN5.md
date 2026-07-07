@@ -20,6 +20,12 @@ GCN5 (KAT2A) is a histone acetyltransferase (HAT) that acetylates histones H3 (K
 
 GCN5 acetylates and inhibits [[PGC1-α]], suppressing mitochondrial biogenesis. It also acetylates [[TFEB]], affecting its DNA binding. GCN5 activity opposes [[SIRT1]] deacetylation.
 
+## Connections
+
+- [[TFEB]]: General control non-repressed protein 5 (GCN5) is an acetyltransferase that inhibits TFEB activity by acetylating it ...
+- [[PGC1-α]]: GCN5 (KAT2A) is a histone acetyltransferase (HAT) that acetylates histones H3 (K9, K14, K18) and non-histone targets ...
+- [[SIRT1]]: GCN5 activity opposes SIRT1 deacetylation.
+
 ## Linking Summary
 - New links added: [[TFEB]]
 - Suggested new entity notes to create: [[Acetylation]]

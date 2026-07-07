@@ -1,7 +1,8 @@
 ---
+
 type: entity
 title: Vitamin B6
-description: '**Vitamin B6** refers to a group of six interconvertible compounds:
+description: 'Vitamin B6 refers to a group of six interconvertible compounds:
   pyridoxine, pyridoxal, Pyridoxamine, and their phosphorylated derivatives. The active
   form, pyridoxal 5''-phosphate (PLP), serves ...'
 created: 2026-07-04
@@ -11,7 +12,9 @@ aliases: [Pyridoxine, Pyridoxal, Pyridoxamine, Pyridoxal 5'-phosphate (PLP)]
 database_ids:
   mesh: D014803
   chebi: CHEBI:27306
+
 ---
+
 # Vitamin B6
 **Vitamin B6** refers to a group of six interconvertible compounds: [[pyridoxine]], [[pyridoxal]], [[Pyridoxamine]], and their phosphorylated derivatives. The active form, [[pyridoxal 5'-phosphate]] (PLP), serves as a cofactor for over 140 enzymatic reactions.
 ## Biological Functions

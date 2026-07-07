@@ -1,14 +1,23 @@
 ---
+
 type: entity
 title: CDKN1B
-description: '- New links added: p27, CDK Inhibitor, Quiescence'
+description: 'CDKN1B, also known as p27, is a gene that provides instructions for making a protein that functions as a cell cycle inhibitor, often highly expressed in cells in Quiescence.'
 created: 2024-01-01
 updated: 2024-01-01
 entity_type_1: Gene
+
 ---
+
 # CDKN1B
 
 [[CDKN1B]], also known as [[p27]], is a gene that provides instructions for making a protein that functions as a cell cycle inhibitor, often highly expressed in cells in [[Quiescence]].
+
+## Connections
+
+- [[CDKN1B]]: CDKN1B, also known as [[p27]], is a gene that provides instructions for making a protein that functions as a cell cyc...
+- [[p27]]: [[CDKN1B]], also known as p27, is a gene that provides instructions for making a protein that functions as a cell cyc...
+- [[Quiescence]]: [[CDKN1B]], also known as [[p27]], is a gene that provides instructions for making a protein that functions as a cell...
 
 ## Linking Summary
 - New links added: [[p27]], [[CDK Inhibitor]], [[Quiescence]]

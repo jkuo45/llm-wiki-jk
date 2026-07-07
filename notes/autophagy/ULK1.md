@@ -1,7 +1,8 @@
 ---
+
 type: entity
 title: ULK1
-description: '**ULK1** (Unc-51 Like Autophagy Activating Kinase 1) is a serine/threonine
+description: 'ULK1 (Unc-51 Like Autophagy Activating Kinase 1) is a serine/threonine
   protein kinase that serves as the central initiator of Autophagy in response to
   nutrient and energy signals. It is the mam...'
 created: 2026-07-04
@@ -11,7 +12,9 @@ aliases: [Unc-51-like kinase 1, ATG1, Serine/threonine-protein kinase ULK1]
 database_ids:
   uniprot: O75385
   hgnc: HGNC:12558
+
 ---
+
 # ULK1
 
 **ULK1** (Unc-51 Like Autophagy Activating Kinase 1) is a serine/threonine protein kinase that serves as the central initiator of [[Autophagy]] in response to nutrient and energy signals. It is the mammalian ortholog of the yeast [[Atg1]] and is essential for autophagosome formation.

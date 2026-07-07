@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: Endothelial Dysfunction
-description: '**Endothelial dysfunction** is a systemic pathological state of the
+description: 'Endothelial dysfunction is a systemic pathological state of the
   vascular endothelium characterized by reduced bioavailability of Nitric Oxide, impaired
   vasodilation, increased Inflammation adhe...'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Medical Condition
 aliases: [Endothelial dysfunction, Vascular endothelial dysfunction]
+
 ---
+
 # Endothelial Dysfunction
 **Endothelial dysfunction** is a systemic pathological state of the vascular endothelium characterized by reduced bioavailability of [[Nitric Oxide]], impaired vasodilation, increased [[Inflammation|inflammatory]] adhesion molecule expression, and a pro-thrombotic phenotype. It is an early hallmark of [[Atherosclerosis]] and [[Cardiovascular Disease]].
 ## Mechanisms

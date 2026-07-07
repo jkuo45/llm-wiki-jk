@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: DNMT3a
-description: '**DNMT3a** (DNA Methyltransferase 3 alpha) is a ''de novo'' methyltransferase
+description: 'DNMT3a (DNA Methyltransferase 3 alpha) is a ''de novo'' methyltransferase
   responsible for establishing new DNA Methylation patterns. Unlike DNMT1, which maintains
   existing marks, DNMT3a can add m...'
 created: 2024-01-01
 updated: 2024-01-01
 entity_type_1: Enzyme
+
 ---
+
 # DNMT3a
 
 **[[DNMT3a]]** (DNA Methyltransferase 3 alpha) is a "de novo" methyltransferase responsible for establishing new [[DNA Methylation]] patterns. Unlike [[DNMT1]], which maintains existing marks, DNMT3a can add methyl groups to previously unmethylated DNA, a process essential for development and cellular identity.

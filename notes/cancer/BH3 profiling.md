@@ -12,6 +12,10 @@ entity_type_1: Medical Condition
 
 BH3 profiling is a functional assay developed by Anthony Letai and colleagues to determine the dependency of cancer cells on specific anti-apoptotic [[Bcl-2 family]] proteins.
 
+## Connections
+
+- [[Bcl-2 family]]: BH3 profiling is a functional assay developed by Anthony Letai and colleagues to determine the dependency of cancer c...
+
 ## Linking Summary
 - New links added:
 - Suggested new entity notes to create:

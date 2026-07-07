@@ -11,6 +11,10 @@ entity_type_1: Cell Type
 
 Cell-division cycle protein 20 (CDC20) is an essential regulator of cell division that activates the [[APC-C]].
 
+## Connections
+
+- [[APC-C]]: Cell-division cycle protein 20 (CDC20) is an essential regulator of cell division that activates the APC-C.
+
 ## Linking Summary
 - New links added:
 - Suggested new entity notes to create:

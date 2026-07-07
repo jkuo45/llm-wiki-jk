@@ -13,3 +13,8 @@ entity_type_1: Medical Treatment
 ## Connections
 - [[Methemoglobinemia]]: A treatment of last resort for severe cases.
 - [[Methylene blue]]: Often the first-line treatment before considering exchange transfusion.
+
+## Linking Summary
+- New links added: [[Exchange transfusion]], [[Methemoglobinemia]], [[Methylene blue]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[Exchange transfusion]] ↔ [[Exchange transfusion]], [[Exchange transfusion]] ↔ [[Methemoglobinemia]], [[Exchange transfusion]] ↔ [[Methylene blue]]

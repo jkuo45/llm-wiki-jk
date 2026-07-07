@@ -20,6 +20,13 @@ HNRNPD (AUF1) is an RNA-binding protein that regulates mRNA stability by binding
 
 HNRNPD stabilizes [[ULK1]] and [[Beclin1]] mRNAs. Its dysregulation contributes to age-related decline in autophagy.
 
+## Connections
+
+- [[TFEB]]: Heterogeneous nuclear ribonucleoprotein D (HNRNPD), also known as AUF1, is an RNA-binding protein that can promote th...
+- [[METTL3]]: Heterogeneous nuclear ribonucleoprotein D (HNRNPD), also known as AUF1, is an RNA-binding protein that can promote th...
+- [[ULK1]]: HNRNPD stabilizes ULK1 and [[Beclin1]] mRNAs.
+- [[Beclin1]]: HNRNPD stabilizes [[ULK1]] and Beclin1 mRNAs.
+
 ## Linking Summary
 - New links added: [[TFEB]], [[METTL3]]
 - Suggested new entity notes to create: [[RNA Stability]]

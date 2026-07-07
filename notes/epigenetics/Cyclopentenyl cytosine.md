@@ -10,6 +10,10 @@ entity_type_1: Chemical Compound
 # Cyclopentenyl cytosine
 Cyclopentenyl cytosine is a chemical compound that acts as a nucleoside analog and CTP synthetase inhibitor, capable of inducing cellular senescence.
 
+## Connections
+
+- [[Senescence]]
+
 ## Linking Summary
 - New links added: [[Senescence]]
 - Suggested new entity notes to create: 

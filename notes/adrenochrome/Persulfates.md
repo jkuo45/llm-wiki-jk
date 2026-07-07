@@ -18,3 +18,8 @@ In the synthesis of [[Adrenochrome]], persulfates are used to oxidize [[Epinephr
 - [[Adrenochrome]]: Used as an oxidizing agent in its preparation.
 - [[Epinephrine]]: The substrate for oxidation.
 - [[Bismuth]]: Catalyzes the oxidation of adrenaline by persulfates.
+
+## Linking Summary
+- New links added: [[Adrenochrome]], [[Ammonium Persulfate]], [[Bismuth]], [[Epinephrine]], [[Potassium Persulfate]], [[Sodium Persulfate]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[Persulfates]] ↔ [[Potassium Persulfate]], [[Persulfates]] ↔ [[Ammonium Persulfate]], [[Persulfates]] ↔ [[Sodium Persulfate]]

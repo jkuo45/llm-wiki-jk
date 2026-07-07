@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: CDK4 6
-description: '**CDK4** and **CDK6** are closely related Cyclin-Dependent Kinases that
+description: 'CDK4 and CDK6 are closely related Cyclin-Dependent Kinases that
   regulate the G1 Phase-to-S Phase phase transition of the Cell Cycle. They form active
   complexes with Cyclin D (D1, D2, D3) to...'
 created: 2026-07-04
 updated: 2026-07-06
 entity_type_1: Protein
 aliases: [CDK4, CDK6, Cyclin-Dependent Kinase 4, Cyclin-Dependent Kinase 6]
+
 ---
+
 # CDK4 6
 
 **CDK4** and **CDK6** are closely related [[Cyclin-Dependent Kinases]] that regulate the [[G1 Phase|G1]]-to-[[S Phase|S]] phase transition of the [[Cell Cycle]]. They form active complexes with [[Cyclin D]] (D1, D2, D3) to phosphorylate and inactivate the [[Retinoblastoma Protein]] (pRb), releasing [[E2F]] transcription factors to drive S-phase gene expression.

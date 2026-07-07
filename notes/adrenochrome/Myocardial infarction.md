@@ -12,6 +12,12 @@ entity_type_1: Medical Condition
 
 Myocardial infarction, commonly known as a heart attack, occurs when blood flow decreases or stops to a part of the heart, causing damage to the heart muscle.
 
+## Connections
+
+- [[Myocardium]]
+- [[Heart disease]]
+- [[Cardiotoxicity]]
+
 ## Linking Summary
 - New links added: [[Myocardium]], [[Heart disease]]
 - Suggested new entity notes to create: 

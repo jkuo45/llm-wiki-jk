@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: Apoptosis
-description: '**Apoptosis** (programmed cell death) is a highly regulated mechanism
+description: 'Apoptosis (programmed cell death) is a highly regulated mechanism
   for removing damaged, infected, redundant, or potentially cancerous cells without
   inducing inflammation.'
 created: 2026-05-29
 updated: 2026-05-29
 entity_type_1: Biological Process
+
 ---
+
 # Apoptosis
 **Apoptosis** (programmed cell death) is a highly regulated mechanism for removing damaged, infected, redundant, or potentially cancerous cells without inducing inflammation.
 ## Mechanism and Triggers

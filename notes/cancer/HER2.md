@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: HER2
-description: '**Human epidermal growth factor receptor 2** (HER2; also known as ErbB-2
+description: 'Human epidermal growth factor receptor 2 (HER2; also known as ErbB-2
   or CD340) is a protein encoded by the *ERBB2* gene. It is a member of the epidermal
   growth factor receptor (EGFR/ErbB) family.'
 created: 2026-07-06
 updated: 2026-07-06
 entity_type_1: Receptor
+
 ---
+
 # HER2
 
 **Human epidermal growth factor receptor 2** (HER2; also known as ErbB-2 or CD340) is a protein encoded by the *ERBB2* gene. It is a member of the epidermal growth factor receptor (EGFR/ErbB) family.
@@ -23,3 +26,8 @@ entity_type_1: Receptor
 - [[HER2-enriched breast cancer]]: A disease subtype defined by this protein.
 - [[trastuzumab]]: A targeted therapy for HER2+ cancers.
 - [[melittin]]: Inhibits HER2 phosphorylation in breast carcinoma cells.
+
+## Linking Summary
+- New links added: [[Breast Cancer]], [[HER2-enriched breast cancer]], [[melittin]], [[trastuzumab]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[HER2]] ↔ [[HER2-enriched breast cancer]], [[HER2]] ↔ [[Breast Cancer]], [[HER2]] ↔ [[trastuzumab]]

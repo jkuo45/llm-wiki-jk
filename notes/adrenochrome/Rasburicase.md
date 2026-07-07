@@ -13,3 +13,8 @@ entity_type_1: Enzyme
 ## Connections
 - [[Methemoglobinemia]]: A potential adverse effect of Rasburicase.
 - [[G6PD deficiency]]: Contraindicated in patients with this deficiency due to risk of [[Hemolysis]] and methemoglobinemia.
+
+## Linking Summary
+- New links added: [[G6PD deficiency]], [[Hemolysis]], [[Methemoglobinemia]], [[Rasburicase]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[Rasburicase]] ↔ [[Methemoglobinemia]], [[Rasburicase]] ↔ [[G6PD deficiency]], [[Rasburicase]] ↔ [[Rasburicase]]

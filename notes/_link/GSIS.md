@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: GSIS
-description: '**Definition:** GSIS is a fundamental biological process that maintains
+description: 'Definition: GSIS is a fundamental biological process that maintains
   cellular and organismal homeostasis. It involves coordinated molecular events regulated
   by signaling pathways and environment...'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Biological Process
 aliases: [Glucose-Stimulated Insulin Secretion]
+
 ---
+
 # GSIS
 
 **Definition:** GSIS is a fundamental biological process that maintains cellular and organismal homeostasis. It involves coordinated molecular events regulated by signaling pathways and environmental cues.

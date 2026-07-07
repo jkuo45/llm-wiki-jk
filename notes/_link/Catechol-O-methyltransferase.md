@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: Catechol-O-methyltransferase
-description: '**Catalytic function:** Catechol-O-methyltransferase is an enzyme that
+description: 'Catalytic function: Catechol-O-methyltransferase is an enzyme that
   catalyzes biochemical reactions essential for cellular metabolism and homeostasis.'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Enzyme
 aliases: [COMT]
+
 ---
+
 # Catechol-O-methyltransferase
 
 **Catalytic function:** Catechol-O-methyltransferase is an enzyme that catalyzes biochemical reactions essential for cellular metabolism and homeostasis.

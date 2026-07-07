@@ -16,6 +16,14 @@ GATE-16, also known as GABARAPL2, is a member of the [[Atg8]] protein family tha
 
 GATE-16 (GABARAPL2) is a Golgi-associated [[Atg8]] family member involved in intra-Golgi transport and [[Autophagy]]. It is conjugated to autophagosomal membranes similarly to [[LC3]] and [[GABARAP]].
 
+## Connections
+
+- [[Atg8]]: GATE-16, also known as GABARAPL2, is a member of the Atg8 protein family that plays a crucial role in intra-Golgi tra...
+- [[Autophagosome]]: GATE-16, also known as GABARAPL2, is a member of the [[Atg8]] protein family that plays a crucial role in intra-Golgi...
+- [[Autophagy]]: GATE-16 (GABARAPL2) is a Golgi-associated [[Atg8]] family member involved in intra-Golgi transport and Autophagy.
+- [[LC3]]: It is conjugated to autophagosomal membranes similarly to LC3 and [[GABARAP]].
+- [[GABARAP]]: It is conjugated to autophagosomal membranes similarly to [[LC3]] and GABARAP.
+
 ## Linking Summary
 - New links added: [[Atg8]], [[Autophagosome]]
 - Suggested new entity notes to create:

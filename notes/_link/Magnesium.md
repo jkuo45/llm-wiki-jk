@@ -1,12 +1,15 @@
 ---
+
 type: entity
 title: Magnesium
-description: '**Magnesium** is an essential mineral involved in over 300 biochemical
+description: 'Magnesium is an essential mineral involved in over 300 biochemical
   reactions in the body.'
 created: 2026-05-29
 updated: 2026-05-29
 entity_type_1: Chemical Compound
+
 ---
+
 # Magnesium
 **[[Magnesium]]** is an essential mineral involved in over 300 biochemical reactions in the body.
 ## Role as a Cofactor

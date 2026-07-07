@@ -13,3 +13,8 @@ entity_type_1: Diagnostic Test
 ## Connections
 - [[Methemoglobinemia]]: Causes inaccurate pulse oximetry readings.
 - [[Co-oximetry]]: The gold standard alternative when pulse oximetry is unreliable.
+
+## Linking Summary
+- New links added: [[Co-oximetry]], [[Methemoglobin]], [[Methemoglobinemia]], [[Pulse oximetry]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[Pulse oximetry]] ↔ [[Methemoglobinemia]], [[Pulse oximetry]] ↔ [[Pulse oximetry]], [[Pulse oximetry]] ↔ [[Methemoglobin]]

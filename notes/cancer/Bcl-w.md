@@ -1,12 +1,15 @@
 ---
+
 type: entity
 title: Bcl-w
-description: '**Bcl-w** (Bcl-2-like protein 2), encoded by the *BCL2L2* gene, is an
+description: 'Bcl-w (Bcl-2-like protein 2), encoded by the BCL2L2 gene, is an
   anti-apoptotic member of the Bcl-2 family.'
 created: 2026-07-06
 updated: 2026-07-06
 entity_type_1: Medical Condition
+
 ---
+
 # Bcl-w
 
 **Bcl-w** (Bcl-2-like protein 2), encoded by the *BCL2L2* gene, is an anti-apoptotic member of the [[Bcl-2 family]].

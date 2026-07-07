@@ -56,6 +56,13 @@ Salermide blocks the NAD⁺-dependent deacetylation of sirtuin targets. A key me
 
 ---
 
+## Connections
+
+- [[Sirtinol]]: Designed and developed through structure-activity relationship (SAR) studies of Sirtinol, salermide possesses signifi...
+- [[SIRT1]]: Designed and developed through structure-activity relationship (SAR) studies of [[Sirtinol]], salermide possesses sig...
+- [[SIRT2]]: Designed and developed through structure-activity relationship (SAR) studies of [[Sirtinol]], salermide possesses sig...
+- [[Cancer]]: - **Cancer** — primary therapeutic target disease state.
+
 ## Linking Summary
 - **New Links Added**: [[SIRT1]], [[SIRT2]], [[Sirtinol]], [[Cancer]]
 - **Suggested New Notes to Create**: [[Colorectal Cancer Stem Cells]], [[H4K16 Deacetylation]]

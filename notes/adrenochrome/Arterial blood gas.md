@@ -13,3 +13,8 @@ entity_type_1: Diagnostic Test
 ## Connections
 - [[ABG]]: Common abbreviation for Arterial Blood Gas.
 - [[Methemoglobinemia]]: Diagnosis often involves comparing ABG results with [[Co-oximetry]].
+
+## Linking Summary
+- New links added: [[ABG]], [[Arterial blood gas]], [[Co-oximetry]], [[Cyanosis]], [[Hypoxia]], [[Methemoglobinemia]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[Arterial blood gas]] ↔ [[Arterial blood gas]], [[Arterial blood gas]] ↔ [[Methemoglobinemia]], [[Arterial blood gas]] ↔ [[Co-oximetry]]

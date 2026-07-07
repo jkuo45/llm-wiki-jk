@@ -1,7 +1,8 @@
 ---
+
 type: entity
 title: Compound C
-description: '**Compound C** (also known as Dorsomorphin or BML-275) is a potent,
+description: 'Compound C (also known as Dorsomorphin or BML-275) is a potent,
   selective, and cell-permeable small-molecule inhibitor of AMPK. It is the most widely
   used pharmacological tool for probing AMPK ...'
 created: 2026-07-06
@@ -11,7 +12,9 @@ aliases: [Dorsomorphin, Dorsomorphin dihydrochloride, BML-275]
 
 sources: []
 target: AMPK
+
 ---
+
 
 # Compound C
 

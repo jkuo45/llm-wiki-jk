@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: Intrinsic Pathway
-description: The **Intrinsic Pathway**, also known as the **mitochondrial pathway**
+description: The Intrinsic Pathway, also known as the mitochondrial pathway
   of Apoptosis, is initiated by internal cellular stimuli such as genetic damage,
   hypoxia, and oxidative stress.
 created: 2026-07-06
 updated: 2026-07-06
 entity_type_1: Enzyme
+
 ---
+
 # Intrinsic Pathway
 
 The **Intrinsic Pathway**, also known as the **mitochondrial pathway** of [[Apoptosis]], is initiated by internal cellular stimuli such as genetic damage, hypoxia, and oxidative stress.

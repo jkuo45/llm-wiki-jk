@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: Substantia Nigra
-description: The **Substantia Nigra** (SN) is a critical basal ganglia structure located
+description: The Substantia Nigra (SN) is a critical basal ganglia structure located
   in the midbrain. Its name, Latin for 'black substance,' is derived from the dark
   color provided by high concentrations of...
 created: 2026-05-29
 updated: 2026-05-29
 entity_type_1: Anatomy
+
 ---
+
 # Substantia Nigra
 The **Substantia Nigra** (SN) is a critical basal ganglia structure located in the midbrain. Its name, Latin for "black substance," is derived from the dark color provided by high concentrations of [[Neuromelanin]] in its neurons.
 ## Anatomical Divisions

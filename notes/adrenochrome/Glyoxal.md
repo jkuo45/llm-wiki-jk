@@ -17,6 +17,13 @@ Glyoxal is a potent inducer of dicarbonyl stress, reacting non-enzymatically wit
 
 It is detoxified by enzymatic defense networks including the [[Glyoxalase System]] and [[PARK7]]. Specifically, PARK7 catalyzes the glutathione-independent conversion of glyoxal into [[Glycolic acid]], protecting cellular proteins from covalent modification.
 
+## Connections
+
+- [[Advanced Glycation End Products]]: Glyoxal is a potent inducer of dicarbonyl stress, reacting non-enzymatically with cellular macromolecules to form Adv...
+- [[Glyoxalase System]]: It is detoxified by enzymatic defense networks including the Glyoxalase System and [[PARK7]].
+- [[PARK7]]: It is detoxified by enzymatic defense networks including the [[Glyoxalase System]] and PARK7.
+- [[Glycolic acid]]: Specifically, PARK7 catalyzes the glutathione-independent conversion of glyoxal into Glycolic acid, protecting cellul...
+
 ## Linking Summary
 - New links added: [[Advanced Glycation End Products]], [[Glyoxalase System]], [[PARK7]], [[Glycolic acid]]
 - Suggested new entity notes to create: 

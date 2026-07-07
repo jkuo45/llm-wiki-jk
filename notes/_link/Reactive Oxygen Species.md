@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: Reactive Oxygen Species
-description: '**Reactive Oxygen Species (ROS)** are highly reactive molecules containing
+description: 'Reactive Oxygen Species (ROS) are highly reactive molecules containing
   oxygen, formed as natural byproducts of oxygen metabolism. They play dual roles
   as signaling molecules and agents of oxida...'
 created: 2026-05-31
 updated: 2026-05-31
 entity_type_1: Chemical Compound
+
 ---
+
 # Reactive Oxygen Species
 **Reactive Oxygen Species (ROS)** are highly reactive molecules containing oxygen, formed as natural byproducts of oxygen metabolism. They play dual roles as signaling molecules and agents of oxidative damage.
 [[Reactive Oxygen Species]] (ROS) are highly reactive chemicals formed from oxygen. In biological systems, ROS are produced as byproducts of normal metabolism but can also be induced by external stressors, such as viral infection.

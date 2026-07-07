@@ -15,6 +15,11 @@ The ubiquitin-dependent 20S proteasome is a multi-protein complex responsible fo
 
 This proteolytic system plays a crucial role in removing [[Advanced Glycation End Products|glycated proteins]]. However, AGE modifications of proteins can disturb this proteolytic degradation, leading to further accumulation of glycated metabolic waste in the cell, a hallmark of [[Aging]].
 
+## Connections
+
+- [[Advanced Glycation End Products]]: This proteolytic system plays a crucial role in removing glycated proteins.
+- [[Aging]]: However, AGE modifications of proteins can disturb this proteolytic degradation, leading to further accumulation of g...
+
 ## Linking Summary
 - New links added: [[Advanced Glycation End Products]], [[Aging]]
 - Suggested new entity notes to create: [[Ubiquitin]]

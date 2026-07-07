@@ -1,12 +1,15 @@
 ---
+
 type: entity
 title: Ketogenesis
-description: '**Ketogenesis** is the metabolic process by which the liver produces
+description: 'Ketogenesis is the metabolic process by which the liver produces
   ketone bodies (such as acetoacetate and β-hydroxybutyrate) from fatty acids.'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Biological Process
+
 ---
+
 # Ketogenesis
 
 **Ketogenesis** is the metabolic process by which the liver produces ketone bodies (such as acetoacetate and β-hydroxybutyrate) from fatty acids.
@@ -27,6 +30,17 @@ entity_type_1: Biological Process
 ## Process
 
 Ketogenesis produces acetoacetate and β-hydroxybutyrate during fasting. β-Hydroxybutyrate induces [[Autophagy]] by inhibiting HDACs and activating [[FOXO]].
+
+## Connections
+
+- [[Caloric Restriction]]: ## Triggering Factors - Ketogenesis is induced during periods of low glucose availability, such as: - Caloric Restric...
+- [[Intermittent Fasting]]: ## Triggering Factors - Ketogenesis is induced during periods of low glucose availability, such as: - [[Caloric Restr...
+- [[Ketogenic Diet]]: ## Triggering Factors - Ketogenesis is induced during periods of low glucose availability, such as: - [[Caloric Restr...
+- [[Autophagy]]: ## Relationship with Autophagy - Ketone bodies and the ketogenic state have been shown to stimulate Autophagy in vari...
+- [[Cellular Homeostasis]]: - Ketogenesis provides an alternative energy source for cells during starvation, helping to maintain Cellular Homeost...
+- [[Neurodegenerative Diseases]]: ## Therapeutic Potential - The promotion of ketogenesis via diet or fasting is investigated for its potential to trea...
+- [[Cancer]]: ## Therapeutic Potential - The promotion of ketogenesis via diet or fasting is investigated for its potential to trea...
+- [[FOXO]]: β-Hydroxybutyrate induces [[Autophagy]] by inhibiting HDACs and activating FOXO.
 
 ## Linking Summary
 - New links added: [[Caloric Restriction]], [[Intermittent Fasting]], [[Ketogenic Diet]], [[Autophagy]], [[Cellular Homeostasis]], [[Neurodegenerative Diseases|Neurodegenerative Disease]], [[Cancer]]

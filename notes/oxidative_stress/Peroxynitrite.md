@@ -1,9 +1,9 @@
 ---
 type: entity
 title: Peroxynitrite
-description: Peroxynitrite ($ONOO^-$) is a powerful oxidant and nitrating agent formed
+description: Peroxynitrite (ONOO−) is a powerful oxidant and nitrating agent formed
   by the near-instantaneous reaction between Superoxide Radicals and Nitric Oxide.
-  It is a key mediator of "nitrative stress."
+  It is a key mediator of nitrative stress.
 created: 2026-05-09
 updated: 2026-07-04
 entity_type_1: Metabolite

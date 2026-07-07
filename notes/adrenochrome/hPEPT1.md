@@ -12,6 +12,11 @@ entity_type_1: Transporter
 
 The human peptide transporter 1 (hPEPT1) is a proton-coupled peptide transporter located in the apical membrane of the intestinal enterocytes. It is responsible for the absorption of di- and tripeptides, as well as certain [[Advanced Glycation End Products|AGEs]] like [[Pyrraline]].
 
+## Connections
+
+- [[Advanced Glycation End Products]]: It is responsible for the absorption of di- and tripeptides, as well as certain AGEs like [[Pyrraline]].
+- [[Pyrraline]]: It is responsible for the absorption of di- and tripeptides, as well as certain [[Advanced Glycation End Products|AGE...
+
 ## Linking Summary
 - New links added: [[Advanced Glycation End Products]], [[Pyrraline]]
 - Suggested new entity notes to create: 

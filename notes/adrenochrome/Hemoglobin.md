@@ -15,3 +15,8 @@ entity_type_1: Protein
 - [[Methemoglobin]]: An oxidized form of hemoglobin (Fe³⁺) that cannot transport oxygen.
 - [[Oxyhemoglobin]]: The oxygen-bound form of hemoglobin.
 - [[Methemoglobinemia]]: A condition characterized by elevated levels of [[Methemoglobin]].
+
+## Linking Summary
+- New links added: [[Erythrocytes]], [[Hemoglobin]], [[Methemoglobin]], [[Methemoglobinemia]], [[Oxyhemoglobin]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[Hemoglobin]] ↔ [[Methemoglobinemia]], [[Hemoglobin]] ↔ [[Oxyhemoglobin]], [[Hemoglobin]] ↔ [[Methemoglobin]]

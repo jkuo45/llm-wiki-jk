@@ -11,6 +11,13 @@ entity_type_1: NA
 
 A transcription factor (SNAI1) that is a key inducer of the epithelial-to-mesenchymal transition (EMT).
 
+## Connections
+
+- [[Epithelial-to-Mesenchymal Transition]]
+- [[Mesenchymal-to-Epithelial Transition]]
+- [[Transcription Factor]]
+- [[Slug]]
+
 ## Linking Summary
 - New links added: [[Epithelial-to-Mesenchymal Transition]], [[Mesenchymal-to-Epithelial Transition]], [[Transcription Factor]]
 - Suggested new entity notes to create:

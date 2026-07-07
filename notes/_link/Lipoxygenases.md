@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: Lipoxygenases
-description: '**Catalytic function:** Lipoxygenases is an enzyme that catalyzes biochemical
+description: 'Catalytic function: Lipoxygenases is an enzyme that catalyzes biochemical
   reactions essential for cellular metabolism and homeostasis.'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Enzyme
 aliases: [LOX]
+
 ---
+
 # Lipoxygenases
 
 **Catalytic function:** Lipoxygenases is an enzyme that catalyzes biochemical reactions essential for cellular metabolism and homeostasis.

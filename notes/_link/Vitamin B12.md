@@ -1,7 +1,8 @@
 ---
+
 type: entity
 title: Vitamin B12
-description: '**Vitamin B12** (cobalamin) is a water-soluble vitamin essential for
+description: 'Vitamin B12 (cobalamin) is a water-soluble vitamin essential for
   red blood cell formation, DNA Repair, and neurological function. It is a critical
   cofactor in the Methylation.'
 created: 2026-07-04
@@ -11,7 +12,9 @@ aliases: [Cobalamin, Cyanocobalamin, Methylcobalamin, Adenosylcobalamin, Hydroxo
 database_ids:
   mesh: D014805
   chebi: CHEBI:18405
+
 ---
+
 # Vitamin B12
 **Vitamin B12** (cobalamin) is a water-soluble vitamin essential for red blood cell formation, [[DNA Repair|DNA synthesis]], and neurological function. It is a critical cofactor in the [[Methylation|methylation cycle]].
 ## Active Forms

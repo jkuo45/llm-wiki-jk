@@ -1,12 +1,15 @@
 ---
+
 type: entity
 title: Puma
-description: '**Puma** (p53 upregulated modulator of apoptosis), also known as BBC3,
+description: 'Puma (p53 upregulated modulator of apoptosis), also known as BBC3,
   is a potent pro-apoptotic BH3-only member of the Bcl-2 family.'
 created: 2026-07-06
 updated: 2026-07-06
 entity_type_1: Medical Condition
+
 ---
+
 # Puma
 
 **Puma** (p53 upregulated modulator of apoptosis), also known as BBC3, is a potent pro-apoptotic BH3-only member of the [[Bcl-2 family]].

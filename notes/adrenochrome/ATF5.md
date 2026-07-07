@@ -27,6 +27,13 @@ The role of ATF5 highlights the evolutionary conservation of the UPRmt signaling
 - [[Mitochondria]]
 - [[Mitohormesis]]
 
+## Connections
+
+- [[ATFS-1]]: elegans* ATFS-1 in mediating the [[Mitochondrial Unfolded Protein Response]] (UPRmt).
+- [[Mitochondrial Unfolded Protein Response]]: elegans* [[ATFS-1]] in mediating the Mitochondrial Unfolded Protein Response (UPRmt).
+- [[Mitochondria]]: - [[ATFS-1]] - [[Mitochondrial Unfolded Protein Response]] - Mitochondria - [[Mitohormesis]]
+- [[Mitohormesis]]: - [[ATFS-1]] - [[Mitochondrial Unfolded Protein Response]] - [[Mitochondria]] - Mitohormesis
+
 ## Linking Summary
 - New links added: [[ATFS-1]], [[Mitochondrial Unfolded Protein Response]], [[Mitochondria]], [[Mitohormesis]]
 - Suggested new entity notes to create: [[Mitochondrial proteostasis]]

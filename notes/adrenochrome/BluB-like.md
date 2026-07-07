@@ -15,6 +15,10 @@ BluB-like (5,6-dimethylbenzimidazole synthase-like) enzymes are a class of bacte
 
 Identified through metagenomic screening of soil microorganisms, BluB-like enzymes can cleave and utilize synthetic glucosepane as a carbon and nutrient source. They are researched as potential therapeutic agents to reverse age-related extracellular matrix stiffening.
 
+## Connections
+
+- [[Glucosepane]]: BluB-like (5,6-dimethylbenzimidazole synthase-like) enzymes are a class of bacterial biocatalysts capable of degradin...
+
 ## Linking Summary
 - New links added: [[Glucosepane]]
 - Suggested new entity notes to create: 

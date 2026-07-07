@@ -50,3 +50,13 @@ BCA3 expression is frequently altered in various human cancers:
 - **[[SIRT1]]**: Directly recruited by neddylated BCA3 to deacetylate and repress NF-κB.
 - **[[NFKB|NF-κB (RelA/p65)]]**: Suppressed downstream of the neddylated BCA3-SIRT1 complex.
 - **Neddylation (NEDD8)**: The essential post-translational modification that licenses BCA3 to engage with SIRT1 and repress transcription.
+
+## Connections
+
+- [[NFKB]]: **NF-κB Interaction Motif**: Directly associates with the RelA/p65 subunit of the NF-κB complex.
+- [[SIRT1]]: ## Functional Synergism with SIRT1 BCA3 functions as a critical regulator of cell survival and inflammatory gene expr...
+
+## Linking Summary
+- New links added: [[NFKB]], [[SIRT1]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[BCA3 (AKIP1)]] ↔ [[SIRT1]], [[BCA3 (AKIP1)]] ↔ [[NFKB]]

@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: CML
-description: '**Etiology and pathophysiology:** CML is a medical condition characterized
+description: 'Etiology and pathophysiology: CML is a medical condition characterized
   by specific pathological changes in cellular, tissue, or organ function. Its development
   involves genetic, environmental, ...'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Medical Condition
 aliases: [Chronic Myelogenous Leukemia, Chronic Myeloid Leukemia]
+
 ---
+
 # CML
 
 **Etiology and pathophysiology:** CML is a medical condition characterized by specific pathological changes in cellular, tissue, or organ function. Its development involves genetic, environmental, and lifestyle risk factors.

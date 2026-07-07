@@ -1,13 +1,21 @@
 ---
+
 type: entity
 title: RAF1
-description: '- New links added: RAF1, Bad, Phosphorylation'
+description: 'RAF1 (C-Raf) is a serine/threonine kinase in the MAPK pathway that phosphorylates Bad at Ser112 to inhibit its pro-apoptotic function and signal cell survival.'
 created: 2026-07-06
 updated: 2026-07-06
 entity_type_1: Enzyme
+
 ---
+
 # RAF1
 [[RAF1]] (C-Raf) is a serine/threonine kinase in the MAPK pathway that phosphorylates [[Bad]] at Ser112 to inhibit its pro-apoptotic function and signal cell survival.
+
+## Connections
+
+- [[RAF1]]: # RAF1 RAF1 (C-Raf) is a serine/threonine kinase in the MAPK pathway that phosphorylates [[Bad]] at Ser112 to inhibit...
+- [[Bad]]: # RAF1 [[RAF1]] (C-Raf) is a serine/threonine kinase in the MAPK pathway that phosphorylates Bad at Ser112 to inhibit...
 
 ## Linking Summary
 - New links added: [[RAF1]], [[Bad]], [[Phosphorylation]]

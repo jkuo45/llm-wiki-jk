@@ -11,6 +11,10 @@ entity_type_1: Imaging Technique
 
 Wuchereria bancrofti is a parasitic filarial nematode that is the major cause of [[Lymphatic Filariasis]] in humans.
 
+## Connections
+
+- [[Lymphatic Filariasis]]: Wuchereria bancrofti is a parasitic filarial nematode that is the major cause of Lymphatic Filariasis in humans.
+
 ## Linking Summary
 - New links added: [[Lymphatic Filariasis]], [[Microfilariae]], [[Ivermectin]], [[Diethylcarbamazine]]
 - Suggested new entity notes to create: [[Mosquito vector]]

@@ -1,12 +1,15 @@
 ---
+
 type: entity
 title: Senescence
-description: '1. **Permanent Cell-Cycle Arrest**: Mediated primarily by the p53/p21
+description: '1. Permanent Cell-Cycle Arrest: Mediated primarily by the p53/p21
   and p16/RB pathways.'
 created: 2026-05-31
 updated: 2026-05-31
 entity_type_1: Biological Process
+
 ---
+
 # Senescence
 [[Senescence]], or cellular senescence, is a state of permanent cell cycle arrest that occurs when cells are subjected to various stressors, including [[DNA Damage]], [[Oxidative Stress]], or oncogene activation. It is characterized by a profound and dynamic remodeling of the [[Chromatin]] landscape and [[Epigenetics]] state.
 ## Hallmarks of Senescence

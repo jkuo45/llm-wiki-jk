@@ -1,12 +1,15 @@
 ---
+
 type: entity
 title: A1/Bfl-1
-description: '**A1/Bfl-1** (Bcl-2-related protein A1), encoded by the *BCL2A1* gene,
+description: 'A1/Bfl-1 (Bcl-2-related protein A1), encoded by the BCL2A1 gene,
   is an anti-apoptotic member of the Bcl-2 family.'
 created: 2026-07-06
 updated: 2026-07-06
 entity_type_1: Medical Condition
+
 ---
+
 # A1/Bfl-1
 
 **A1/Bfl-1** (Bcl-2-related protein A1), encoded by the *BCL2A1* gene, is an anti-apoptotic member of the [[Bcl-2 family]].

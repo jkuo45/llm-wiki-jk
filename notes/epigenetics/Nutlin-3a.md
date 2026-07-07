@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: Nutlin-3a
-description: '**Nutlin-3a** is a potent, selective small-molecule inhibitor of the
+description: 'Nutlin-3a is a potent, selective small-molecule inhibitor of the
   MDM2-p53 interaction. By displacing p53 from MDM2 (the primary E3 ubiquitin ligase
   that targets p53 for proteasomal degradation)...'
 created: 2024-01-01
 updated: 2024-07-04
 entity_type_1: Chemical Compound
+
 ---
+
 # Nutlin-3a
 
 **Nutlin-3a** is a potent, selective small-molecule inhibitor of the [[MDM2]]-[[p53]] interaction. By displacing p53 from MDM2 (the primary E3 ubiquitin ligase that targets p53 for proteasomal degradation), nutlin-3a stabilizes and activates [[p53|p53]], inducing cell cycle arrest, [[Cellular Senescence|senescence]], or [[Apoptosis|apoptosis]] depending on cellular context.
@@ -42,6 +45,36 @@ Nutlin-3a is the most widely used tool for activating wild-type p53 without caus
 - Nutlin-3a is rapidly cleared in vivo (short half-life), limiting preclinical studies.
 - Sustained p53 activation can select for p53-mutant clones.
 - [[MDM4]] can partially compensate for MDM2 inhibition in some cell types.
+
+## Connections
+
+- [[MDM2]]: **Nutlin-3a** is a potent, selective small-molecule inhibitor of the MDM2-[[p53]] interaction.
+- [[p53]]: **Nutlin-3a** is a potent, selective small-molecule inhibitor of the [[MDM2]]-p53 interaction.
+- [[Cellular Senescence]]: By displacing p53 from MDM2 (the primary E3 ubiquitin ligase that targets p53 for proteasomal degradation), nutlin-3a...
+- [[Apoptosis]]: By displacing p53 from MDM2 (the primary E3 ubiquitin ligase that targets p53 for proteasomal degradation), nutlin-3a...
+- [[p21]]: - Selective activation of p53 target genes (CDKN1A/p21, [[Bax]], [[Puma]], [[Noxa]], [[TIGAR]]).
+- [[Bax]]: - Selective activation of p53 target genes ([[p21|CDKN1A/p21]], Bax, [[Puma]], [[Noxa]], [[TIGAR]]).
+- [[Puma]]: - Selective activation of p53 target genes ([[p21|CDKN1A/p21]], [[Bax]], Puma, [[Noxa]], [[TIGAR]]).
+- [[Noxa]]: - Selective activation of p53 target genes ([[p21|CDKN1A/p21]], [[Bax]], [[Puma]], Noxa, [[TIGAR]]).
+- [[TIGAR]]: - Selective activation of p53 target genes ([[p21|CDKN1A/p21]], [[Bax]], [[Puma]], [[Noxa]], TIGAR).
+- [[G1 Phase]]: - Cell cycle arrest predominantly at G1/S via p21-mediated [[CDK2]] inhibition.
+- [[CDK2]]: - Cell cycle arrest predominantly at [[G1 Phase|G1/S]] via p21-mediated CDK2 inhibition.
+- [[SA-beta-gal]]: | Concentration | Effect | Cell type dependence | |---|---|---| | 5–10 µM (48–72 h) | Senescence (SA-beta-gal+, [[SAS...
+- [[SASP]]: | Concentration | Effect | Cell type dependence | |---|---|---| | 5–10 µM (48–72 h) | Senescence ([[SA-beta-gal]]+, S...
+- [[HFF1]]: | Concentration | Effect | Cell type dependence | |---|---|---| | 5–10 µM (48–72 h) | Senescence ([[SA-beta-gal]]+, [...
+- [[DLD1]]: | Concentration | Effect | Cell type dependence | |---|---|---| | 5–10 µM (48–72 h) | Senescence ([[SA-beta-gal]]+, [...
+- [[SJSA-1]]: | Concentration | Effect | Cell type dependence | |---|---|---| | 5–10 µM (48–72 h) | Senescence ([[SA-beta-gal]]+, [...
+- [[DNA Damage]]: Nutlin-3a is the most widely used tool for activating wild-type p53 without causing DNA damage (unlike [[Doxorubicin]...
+- [[Doxorubicin]]: Nutlin-3a is the most widely used tool for activating wild-type p53 without causing [[DNA Damage|DNA damage]] (unlike...
+- [[Etoposide]]: Nutlin-3a is the most widely used tool for activating wild-type p53 without causing [[DNA Damage|DNA damage]] (unlike...
+- [[DNA Damage Response]]: Nutlin-3a is the most widely used tool for activating wild-type p53 without causing [[DNA Damage|DNA damage]] (unlike...
+- [[DDR]]: DDR-dependent senescence.
+- [[Epigenetic Remodeling]]: - p53-mediated epigenetic remodeling during senescence (recruitment of [[DNMT3a]], [[HDAC1]], [[P300]]).
+- [[DNMT3a]]: - p53-mediated [[Epigenetic Remodeling|epigenetic remodeling]] during senescence (recruitment of DNMT3a, [[HDAC1]], [...
+- [[HDAC1]]: - p53-mediated [[Epigenetic Remodeling|epigenetic remodeling]] during senescence (recruitment of [[DNMT3a]], HDAC1, [...
+- [[P300]]: - p53-mediated [[Epigenetic Remodeling|epigenetic remodeling]] during senescence (recruitment of [[DNMT3a]], [[HDAC1]...
+- [[MDM2 amplification]]: - Cells with mutant p53 or MDM2 amplification are insensitive.
+- [[MDM4]]: - MDM4 can partially compensate for MDM2 inhibition in some cell types.
 
 ## Linking Summary
 - New links added: [[p53]], [[Senescence]], [[Apoptosis]], [[MDM2]], [[p21]]

@@ -19,6 +19,15 @@ Ischemia-reperfusion injury (IRI) involves ATP depletion, oxidative stress, Ca2+
 
 [[Trehalose]], [[Spermidine]], and [[Melatonin]] activate autophagy and protect against IRI in heart, brain, liver, and kidney preclinical models.
 
+## Connections
+
+- [[TFEB]]: Ischemic injury is tissue damage caused by a restriction in blood supply; activation of TFEB has been shown to be pro...
+- [[Autophagy]]: Autophagy is protective in IRI by clearing damaged mitochondria ([[Mitophagy]]).
+- [[Mitophagy]]: [[Autophagy]] is protective in IRI by clearing damaged mitochondria (Mitophagy).
+- [[Trehalose]]: Trehalose, [[Spermidine]], and [[Melatonin]] activate autophagy and protect against IRI in heart, brain, liver, and k...
+- [[Spermidine]]: [[Trehalose]], Spermidine, and [[Melatonin]] activate autophagy and protect against IRI in heart, brain, liver, and k...
+- [[Melatonin]]: [[Trehalose]], [[Spermidine]], and Melatonin activate autophagy and protect against IRI in heart, brain, liver, and k...
+
 ## Linking Summary
 - New links added: [[TFEB]], [[Ischemia-reperfusion Injury]]
 - Suggested new entity notes to create: [[Hypoxia]]

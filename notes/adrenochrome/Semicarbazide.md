@@ -17,3 +17,8 @@ It reacts with the [[o-quinone]] structure of [[Adrenochrome]] to form [[Carbazo
 - [[Adrenochrome]]: Reacts with semicarbazide for stabilization.
 - [[Carbazochrome]]: The product of the reaction between adrenochrome and semicarbazide.
 - [[Hemostatics]]: The resulting derivative is used as a hemostatic.
+
+## Linking Summary
+- New links added: [[Adrenochrome]], [[Carbazochrome]], [[Hemostatics]], [[o-quinone]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[Semicarbazide]] ↔ [[Carbazochrome]], [[Semicarbazide]] ↔ [[Adrenochrome]], [[Semicarbazide]] ↔ [[Hemostatics]]

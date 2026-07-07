@@ -11,6 +11,12 @@ entity_type_1: NA
 
 A family of transcription factors that bind to the High Mobility Group (HMG) box of DNA and play key roles in development.
 
+## Connections
+
+- [[Sox2]]
+- [[Transcription Factor]]
+- [[Yamanaka Factors]]
+
 ## Linking Summary
 - New links added: [[Sox2]], [[Transcription Factor]], [[Yamanaka Factors]]
 - Suggested new entity notes to create:

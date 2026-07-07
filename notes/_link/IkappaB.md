@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: IkappaB
-description: '**IκB** (inhibitor of NF-κB) proteins are a family of cytoplasmic inhibitors
+description: 'IκB (inhibitor of NF-κB) proteins are a family of cytoplasmic inhibitors
   that sequester NFκB transcription factors in the Cytosol, preventing their nuclear
   translocation. The best-characterized...'
 created: 2026-07-04
 updated: 2026-07-06
 entity_type_1: Protein
 aliases: [Inhibitor of NF-κB, NFKBIA, IκBα]
+
 ---
+
 # IkappaB
 
 **IκB** (inhibitor of NF-κB) proteins are a family of cytoplasmic inhibitors that sequester [[NFκB]] transcription factors in the [[Cytosol]], preventing their nuclear translocation. The best-characterized member is [[IkappaBalpha]] (encoded by [[NFKBIA]]), along with [[IκBβ]], [[IκBε]], and the precursor proteins [[p105]] ([[NFKB1]]) and [[p100]] ([[NFKB2]]).

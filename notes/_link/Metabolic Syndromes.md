@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: Metabolic Syndromes
-description: '**Metabolic Syndromes** refer to a cluster of conditions—including increased
+description: 'Metabolic Syndromes refer to a cluster of conditions—including increased
   blood pressure, high blood sugar, excess body fat around the waist, and abnormal
   cholesterol or triglyceride levels—that...'
 created: 2024-01-01
 updated: 2024-01-01
 entity_type_1: Medical Condition
+
 ---
+
 # Metabolic Syndromes
 **[[Metabolic Syndromes]]** refer to a cluster of conditions—including increased blood pressure, high blood sugar, excess body fat around the waist, and abnormal cholesterol or triglyceride levels—that occur together, increasing the risk of heart disease, stroke, and type 2 diabetes.
 ### 1. Metabolic Syndrome as Accelerated [[Aging]]

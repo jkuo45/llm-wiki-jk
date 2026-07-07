@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: Rotenone
-description: '**Chemical properties:** Rotenone is a chemical substance with defined
+description: 'Chemical properties: Rotenone is a chemical substance with defined
   molecular structure, functional groups, and physicochemical properties that determine
   its biological activity.'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Chemical Compound
+
 ---
+
 # Rotenone
 
 **Chemical properties:** Rotenone is a chemical substance with defined molecular structure, functional groups, and physicochemical properties that determine its biological activity.

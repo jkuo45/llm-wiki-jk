@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: Peroxisomes
-description: '**Peroxisomes** are single-membrane-bound organelles present in virtually
+description: 'Peroxisomes are single-membrane-bound organelles present in virtually
   all eukaryotic cells that perform essential functions in lipid metabolism, reactive
   oxygen species (ROS) metabolism, and si...'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Anatomy
 aliases: [Microbody, Peroxisome]
+
 ---
+
 # Peroxisomes
 **Peroxisomes** are single-membrane-bound organelles present in virtually all eukaryotic cells that perform essential functions in lipid metabolism, reactive oxygen species (ROS) metabolism, and signaling.
 ## Oxidative Functions

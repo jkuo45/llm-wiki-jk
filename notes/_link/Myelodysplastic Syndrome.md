@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: Myelodysplastic Syndrome
-description: '**Etiology and pathophysiology:** Myelodysplastic Syndrome is a medical
+description: 'Etiology and pathophysiology: Myelodysplastic Syndrome is a medical
   condition characterized by specific pathological changes in cellular, tissue, or
   organ function. Its development involves gen...'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Medical Condition
 aliases: [MDS]
+
 ---
+
 # Myelodysplastic Syndrome
 
 **Etiology and pathophysiology:** Myelodysplastic Syndrome is a medical condition characterized by specific pathological changes in cellular, tissue, or organ function. Its development involves genetic, environmental, and lifestyle risk factors.

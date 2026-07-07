@@ -1,12 +1,15 @@
 ---
+
 type: entity
 title: Trastuzumab
-description: '**Trastuzumab** (sold under the brand name Herceptin among others) is
+description: 'Trastuzumab (sold under the brand name Herceptin among others) is
   a monoclonal antibody used to treat HER2-enriched breast cancer and stomach cancer.'
 created: 2026-07-06
 updated: 2026-07-06
 entity_type_1: Receptor
+
 ---
+
 # Trastuzumab
 
 **Trastuzumab** (sold under the brand name Herceptin among others) is a monoclonal antibody used to treat [[HER2-enriched breast cancer]] and stomach cancer.
@@ -19,3 +22,8 @@ entity_type_1: Receptor
 - [[HER2]]: The target receptor for trastuzumab.
 - [[HER2-enriched breast cancer]]: The primary disease treated with trastuzumab.
 - [[melittin]]: Can be targeted to HER2-overexpressing cells using immunoliposomes bearing trastuzumab.
+
+## Linking Summary
+- New links added: [[HER2]], [[HER2-enriched breast cancer]], [[melittin]]
+- Suggested new entity notes to create: 
+- Strong connections to strengthen: [[Trastuzumab]] ↔ [[HER2-enriched breast cancer]], [[Trastuzumab]] ↔ [[melittin]], [[Trastuzumab]] ↔ [[HER2]]

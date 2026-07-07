@@ -1,7 +1,8 @@
 ---
+
 type: entity
 title: Striatum
-description: The **Striatum** (also known as the **neostriatum** or **caudate-putamen**)
+description: The Striatum (also known as the neostriatum or caudate-putamen)
   is a subcortical part of the forebrain and a critical component of the Basal Ganglia.
   It consists of the Caudate Nucleus ...
 created: 2026-07-04
@@ -10,7 +11,9 @@ entity_type_1: Anatomy
 aliases: [Neostriatum, Caudate-Putamen, Striatal complex]
 database_ids:
   mesh: D003342
+
 ---
+
 # Striatum
 The **[[Striatum]]** (also known as the **neostriatum** or **caudate-putamen**) is a subcortical part of the forebrain and a critical component of the [[Basal Ganglia]]. It consists of the [[Caudate Nucleus]] and [[Putamen]]. The striatum is the primary input nucleus of the basal ganglia, receiving dense glutamatergic projections from the cortex and thalamus, and dopaminergic input from the midbrain. It is centrally involved in motor control, habit formation, reward-related learning, stimulus-response learning, and action selection.
 ## Anatomy and Connectivity

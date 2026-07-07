@@ -1,13 +1,16 @@
 ---
+
 type: entity
 title: Mcl-1
-description: '**Mcl-1** (Myeloid cell leukemia 1) is a potent anti-apoptotic member
+description: 'Mcl-1 (Myeloid cell leukemia 1) is a potent anti-apoptotic member
   of the Bcl-2 family. It plays a critical role in the regulation of Apoptosis and
   is a major factor in cancer cell survival and ...'
 created: 2026-07-06
 updated: 2026-07-06
 entity_type_1: Enzyme
+
 ---
+
 # Mcl-1
 
 **Mcl-1** (Myeloid cell leukemia 1) is a potent anti-apoptotic member of the [[Bcl-2 family]]. It plays a critical role in the regulation of [[Apoptosis|apoptosis]] and is a major factor in cancer cell survival and drug resistance.

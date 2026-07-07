@@ -1,14 +1,17 @@
 ---
+
 type: entity
 title: NET
-description: '**Overview:** NET is a membrane transport protein that facilitates the
+description: 'Overview: NET is a membrane transport protein that facilitates the
   movement of molecules across biological membranes. It mediates substrate translocation
   through conformational changes driven b...'
 created: 2026-07-04
 updated: 2026-07-04
 entity_type_1: Transporter
 aliases: [Norepinephrine Transporter]
+
 ---
+
 # NET
 
 **Overview:** NET is a membrane transport protein that facilitates the movement of molecules across biological membranes. It mediates substrate translocation through conformational changes driven by electrochemical gradients or ATP hydrolysis.
