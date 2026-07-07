@@ -59,9 +59,9 @@
 ## Wiki Entries:
 
 - When adding new content to an existing note, **append new connections** to the existing `## Connections` section (deduplicating by target entity).
-- **Merge Linking Summaries**: Combine new links with existing `### Linking Summary` — deduplicate across `New links added`, `Suggested new entity notes to create`, and `Strong connections to strengthen`.
-- Keep only one `### Connections` and `### Linking Summary` at the end of the note.
-- The `### Connections` section belongs above `### Linking Summary`, NOT below it.
+- **Merge Linking Summaries**: Combine new links with existing `## Linking Summary` — deduplicate across `New links added`, `Suggested new entity notes to create`, and `Strong connections to strengthen`.
+- Keep only one `## Connections` and `## Linking Summary` at the end of the note.
+- The `## Connections` section belongs above `## Linking Summary`, NOT below it.
 - **Modification:** When modifying existing notes, prefer appending new information to preserve existing content, but reorganize or rewrite when necessary to improve coherence, accuracy, and flow. Prioritize accuracy and contextual relevance over strict preservation. Always update the `updated:` date in frontmatter.
 - **Content:** Adapt depth, focus, and tone according to the entity type and available scientific literature. For well-studied topics, synthesize multiple high-impact articles, reviews, and meta-analyses. Prioritize recent, high-quality papers (include key PMIDs/DOIs) and clearly distinguish established knowledge from emerging findings.
 - **Depth:** Scale depth according to topic importance and available literature. For well-established entities, provide comprehensive coverage with mechanisms, historical context, key studies, controversies, open questions, and clinical/research implications. For narrower topics, focus on essential context. Target 800–3000+ words for established entities (scale appropriately for narrower topics).
@@ -159,11 +159,11 @@ tags: [] #
 
 ```
 
-### Connections
+## Connections
 
   - Entity Name - short description
 
-### Linking Summary:
+## Linking Summary:
 
   - New links added: [[Entity1]], [[Entity2]], ...
   - Suggested new entity notes to create: [[Missing Concept]]
@@ -215,7 +215,7 @@ Maintain link integrity by performing periodic audits:
   - 'notes/\_link/NAD+.md'
 - When a new entity is identified as overlapping, merge its content into the 'notes/\_link/' version and delete the topic-specific files so that it is centrally linked in 'notes/\_link/' directory.
 - Make sure to escape Obsidian link syntax when updating documents and readme files (especially in tables).
-- Validate completeness of the wiki entry: after merging, there should be one H1, no `## Source:` attribution lines, no redundant stub paragraphs, and only one `### Linking Summary` (at the end). Use `research-scientist` skill to synthesize overlapping content from multiple sources into coherent, flowing text.
+- Validate completeness of the wiki entry: after merging, there should be one H1, no `## Source:` attribution lines, no redundant stub paragraphs, and only one `## Linking Summary` (at the end). Use `research-scientist` skill to synthesize overlapping content from multiple sources into coherent, flowing text.
 - **Prevention check**: Before creating any new entity in `_link/`, verify a topic-dir hub file with the same name does not already exist. If it does, do NOT create a `_link/` version — the topic hub is canonical.
 - **Post-merge cleanup**: After appending/merging topic content into the `_link/` entity note:
   - Remove path-prefixed wiki links (`[[topic/Entity]]` → `[[Entity]]`) and `.md` extensions in link targets.
@@ -223,7 +223,7 @@ Maintain link integrity by performing periodic audits:
   - Remove duplicate H1 lines (keep only the first).
   - Remove all `## Source:` lines — provenance notation is a transitional artifact; once content is integrated, they are no longer needed.
   - Remove stub paragraphs (<300 chars) that are redundant with more detailed content below.
-  - Remove early/redundant `### Linking Summary` sections that appear before the first `##` section heading (keep only the last one).
+  - Remove early/redundant `## Linking Summary` sections that appear before the first `##` section heading (keep only the last one).
   - **Do not concatenate paragraphs without newlines** — ensure blank line separation between H1 and subsequent content.
   - Use `uv run python` scripts for batch cleanup to minimize manual errors.
 
