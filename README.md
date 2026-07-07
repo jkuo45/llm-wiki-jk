@@ -4,17 +4,17 @@
 ## ℹ Summary Table
 | topic | updated | documents | entities | words | disk |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| [_link](https://github.com/jkuo45/llm-wiki/tree/dev/notes/_link) | 06_JUL_2026 | 0 | 587 | 163,489 | 1.26 MB |
-| [adrenochrome](https://github.com/jkuo45/llm-wiki/tree/dev/notes/adrenochrome) | 06_JUL_2026 | 23 | 287 | 169,978 | 1.88 MB |
-| [autophagy](https://github.com/jkuo45/llm-wiki/tree/dev/notes/autophagy) | 06_JUL_2026 | 11 | 236 | 105,990 | 1.07 MB |
-| [cancer](https://github.com/jkuo45/llm-wiki/tree/dev/notes/cancer) | 06_JUL_2026 | 8 | 244 | 125,295 | 1.32 MB |
+| [_link](https://github.com/jkuo45/llm-wiki/tree/dev/notes/_link) | 06_JUL_2026 | 0 | 587 | 163,831 | 1.26 MB |
+| [adrenochrome](https://github.com/jkuo45/llm-wiki/tree/dev/notes/adrenochrome) | 06_JUL_2026 | 23 | 287 | 169,759 | 1.87 MB |
+| [autophagy](https://github.com/jkuo45/llm-wiki/tree/dev/notes/autophagy) | 06_JUL_2026 | 11 | 236 | 105,464 | 1.07 MB |
+| [cancer](https://github.com/jkuo45/llm-wiki/tree/dev/notes/cancer) | 06_JUL_2026 | 8 | 247 | 126,498 | 1.33 MB |
 | [comt](https://github.com/jkuo45/llm-wiki/tree/dev/notes/comt) | 06_JUL_2026 | 2 | 35 | 10,771 | 0.44 MB |
-| [epigenetics](https://github.com/jkuo45/llm-wiki/tree/dev/notes/epigenetics) | 06_JUL_2026 | 9 | 194 | 120,793 | 4.24 MB |
+| [epigenetics](https://github.com/jkuo45/llm-wiki/tree/dev/notes/epigenetics) | 06_JUL_2026 | 9 | 194 | 120,795 | 4.23 MB |
 | [neuromelanin](https://github.com/jkuo45/llm-wiki/tree/dev/notes/neuromelanin) | 06_JUL_2026 | 2 | 85 | 25,142 | 0.54 MB |
-| [oxidative_stress](https://github.com/jkuo45/llm-wiki/tree/dev/notes/oxidative_stress) | 06_JUL_2026 | 1 | 65 | 54,639 | 0.85 MB |
-| [sirtuins](https://github.com/jkuo45/llm-wiki/tree/dev/notes/sirtuins) | 06_JUL_2026 | 6 | 105 | 151,657 | 1.39 MB |
+| [oxidative_stress](https://github.com/jkuo45/llm-wiki/tree/dev/notes/oxidative_stress) | 06_JUL_2026 | 1 | 65 | 54,200 | 0.84 MB |
+| [sirtuins](https://github.com/jkuo45/llm-wiki/tree/dev/notes/sirtuins) | 06_JUL_2026 | 6 | 105 | 151,384 | 1.39 MB |
 | --- | --- | ---: | ---: | ---: | ---: |
-| **subtotal** | 06_JUL_2026 | **62** | **1838** | **927,780** | **12.99 MB** |
+| **subtotal** | 06_JUL_2026 | **62** | **1841** | **927,844** | **12.98 MB** |
 <!-- END GENERATED: summary_table -->
 
 _\*notes directory only_\*
