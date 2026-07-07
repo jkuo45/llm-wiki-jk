@@ -40,12 +40,12 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[Angiogenesis]] | 26_May_2026 05:03 PM PDT | Biological Process | 9 | 0 | The formation of new blood vessels, a critical process for tumor expansion and metastasis. |
 | [[Annexin V]] | 19_May_2026 08:16 PM PDT | Protein | 7 | 0 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[Apaf-1]] | 31_May_2026 05:30 PM PDT | Protein | 8 | 0 | Scaffold protein essential for apoptosome formation in the intrinsic pathway. |
-| [[Apis mellifera]] | 19_May_2026 08:16 PM PDT | Model Organism | 5 | 1 | Biological or chemical entity contributing to the broader understanding of the topic. |
+| [[Apis mellifera]] | 19_May_2026 08:16 PM PDT | Organism | 5 | 1 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[apitherapy]] | 19_May_2026 08:16 PM PDT | Medical Treatment | 8 | 1 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[Apoptosis]] | 21_May_2026 06:45 PM PDT | Biological Process | 9 | 1 | Programmed cell death; the primary desired outcome of many anti-cancer interventions. |
 | [[Apoptosome]] | 31_May_2026 05:30 PM PDT | Biological Molecule | 8 | 0 | Multi-protein complex that activates Caspase-9 in the intrinsic pathway. |
 | [[Ascariasis]] | 21_May_2026 06:20 PM PDT | Medical Condition | 6 | -1 | Condition historically associated with the compounds before their repurposing. |
-| [[Ascaris]] | 21_May_2026 06:20 PM PDT | Microorganism | 6 | -1 | Related to the original anti-parasitic application of the discussed drugs. |
+| [[Ascaris]] | 21_May_2026 06:20 PM PDT | Organism | 6 | -1 | Related to the original anti-parasitic application of the discussed drugs. |
 | [[Autophagy]] | 21_May_2026 05:45 PM PDT | Biological Process | 9 | 1 | Cellular degradation process that plays a complex, dual role in tumor survival and death. |
 | [[Avermectin]] | 21_May_2026 06:20 PM PDT | Chemical Compound | 9 | 1 | Significant therapeutic agent or chemical tool used in cancer research. |
 | [[Bax]] | 31_May_2026 05:30 PM PDT | Protein | 9 | 0 | Pro-apoptotic Bcl-2 family member critical for mitochondrial permeability. |
@@ -56,8 +56,8 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[bioluminescence resonance energy resonance energy transfer]] | 19_May_2026 08:16 PM PDT | Analytical Technique | 6 | 0 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[BRCA]] | 19_May_2026 08:16 PM PDT | Gene | 8 | 0 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[Breast Cancer]] | 21_May_2026 05:45 PM PDT | Medical Condition | 10 | -1 | High-relevance pathological state targeted by the investigated compounds. |
-| [[Brugia malayi]] | 21_May_2026 06:20 PM PDT | Microorganism | 6 | -1 | Related to the original anti-parasitic application of the discussed drugs. |
-| [[Brugia timori]] | 21_May_2026 06:20 PM PDT | Microorganism | 6 | -1 | Related to the original anti-parasitic application of the discussed drugs. |
+| [[Brugia malayi]] | 21_May_2026 06:20 PM PDT | Organism | 6 | -1 | Related to the original anti-parasitic application of the discussed drugs. |
+| [[Brugia timori]] | 21_May_2026 06:20 PM PDT | Organism | 6 | -1 | Related to the original anti-parasitic application of the discussed drugs. |
 | [[CaMKII]] | 13_Jun_2026 10:30 AM PDT | Enzyme | 8 | 0 | Calcium/calmodulin-dependent protein kinase II that regulates Caspase-2. |
 | [[Cancer]] | 27_May_2026 10:15 AM PDT | Medical Condition | 10 | -1 | The central pathological focus of this knowledge base directory. |
 | [[Cancer Stem Cells]] | 21_May_2026 05:45 PM PDT | Cell Type | 9 | -1 | Biological or chemical entity contributing to the broader understanding of the topic. |
@@ -105,9 +105,9 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[HER2]] | 31_May_2026 05:30 PM PDT | Receptor | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
 | [[HER2-enriched breast cancer]] | 19_May_2026 08:16 PM PDT | Medical Condition | 9 | -1 | High-relevance pathological state targeted by the investigated compounds. |
 | [[Hexokinase 2]] | 21_May_2026 06:45 PM PDT | Enzyme | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
-| [[HIV-1]] | 19_May_2026 08:16 PM PDT | Microorganism | 6 | -1 | Related to the original anti-parasitic application of the discussed drugs. |
-| [[Honeybee]] | 19_May_2026 08:16 PM PDT | Model Organism | 6 | 1 | Biological or chemical entity contributing to the broader understanding of the topic. |
-| [[Honeybee venom]] | 19_May_2026 08:16 PM PDT | Toxin | 8 | 1 | Biological or chemical entity contributing to the broader understanding of the topic. |
+| [[HIV-1]] | 19_May_2026 08:16 PM PDT | Organism | 6 | -1 | Related to the original anti-parasitic application of the discussed drugs. |
+| [[Honeybee]] | 19_May_2026 08:16 PM PDT | Organism | 6 | 1 | Biological or chemical entity contributing to the broader understanding of the topic. |
+| [[Honeybee venom]] | 19_May_2026 08:16 PM PDT | Chemical Compound | 8 | 1 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[HSP27]] | 21_May_2026 05:45 PM PDT | Protein | 7 | 0 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[Inhibitor of Apoptosis Proteins]] | 31_May_2026 05:30 PM PDT | Chemical Class | 9 | 0 | Family of proteins that serve as endogenous inhibitors of caspases. |
 | [[Integrins]] | 26_May_2026 05:03 PM PDT | Receptor | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
@@ -115,7 +115,7 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[iRGD peptide]] | 26_May_2026 05:03 PM PDT | Chemical Compound | 8 | 1 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[Ivermectin]] | 21_May_2026 06:20 PM PDT | Chemical Compound | 10 | 1 | Primary antiparasitic compound being researched for broad-spectrum anti-cancer activity. |
 | [[JAK2]] | 19_May_2026 08:16 PM PDT | Enzyme | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
-| [[Ki-67]] | 19_May_2026 08:16 PM PDT | Biomarker | 7 | 0 | Biological or chemical entity contributing to the broader understanding of the topic. |
+| [[Ki-67]] | 19_May_2026 08:16 PM PDT | Scientific Concept | 7 | 0 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[Kitasato Institute]] | 21_May_2026 06:20 PM PDT | Organization | 4 | 1 | Provided historical, scientific, or institutional context for the research. |
 | [[Leishmaniasis]] | 21_May_2026 06:20 PM PDT | Medical Condition | 6 | -1 | Condition historically associated with the compounds before their repurposing. |
 | [[leukemia]] | 21_May_2026 05:45 PM PDT | Medical Condition | 9 | -1 | High-relevance pathological state targeted by the investigated compounds. |
@@ -134,7 +134,7 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[Microfilariae]] | 21_May_2026 06:20 PM PDT | Cell Type | 6 | -1 | Related to the original anti-parasitic application of the discussed drugs. |
 | [[Microtubule]] | 21_May_2026 06:45 PM PDT | Anatomy | 8 | 0 | Structural component of the cytoskeleton and a key target for benzimidazole compounds. |
 | [[mTOR]] | 31_May_2026 05:30 PM PDT | Protein | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
-| [[Multidrug Resistance]] | 21_May_2026 05:45 PM PDT | Adverse Effect | 8 | -1 | Biological or chemical entity contributing to the broader understanding of the topic. |
+| [[Multidrug Resistance]] | 21_May_2026 05:45 PM PDT | Medical Condition | 8 | -1 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[Nasopharyngeal Carcinoma]] | 21_May_2026 05:45 PM PDT | Medical Condition | 9 | -1 | High-relevance pathological state targeted by the investigated compounds. |
 | [[Neuropilin-1]] | 26_May_2026 05:03 PM PDT | Receptor | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
 | [[NFκB]] | 19_May_2026 08:16 PM PDT | Protein | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
@@ -142,7 +142,7 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[Nutlins]] | 31_May_2026 05:30 PM PDT | Chemical Class | 8 | 1 | Small-molecule inhibitors of the MDM2-p53 interaction. |
 | [[Oblimersen sodium]] | 31_May_2026 05:30 PM PDT | Medical Product | 8 | 1 | Antisense oligonucleotide designed to inhibit Bcl-2 production. |
 | [[OCP]] | 21_May_2026 06:20 PM PDT | Organization | 4 | 1 | Provided historical, scientific, or institutional context for the research. |
-| [[Onchocerca volvulus]] | 21_May_2026 06:20 PM PDT | Microorganism | 6 | -1 | Related to the original anti-parasitic application of the discussed drugs. |
+| [[Onchocerca volvulus]] | 21_May_2026 06:20 PM PDT | Organism | 6 | -1 | Related to the original anti-parasitic application of the discussed drugs. |
 | [[Onchocerciasis]] | 21_May_2026 06:20 PM PDT | Medical Condition | 6 | -1 | Condition historically associated with the compounds before their repurposing. |
 | [[Onchocerciasis Chemotherapy Research Centre]] | 21_May_2026 06:20 PM PDT | Organization | 4 | 1 | Provided historical, scientific, or institutional context for the research. |
 | [[ovarian cancer]] | 21_May_2026 06:45 PM PDT | Medical Condition | 9 | -1 | High-relevance pathological state targeted by the investigated compounds. |
@@ -171,22 +171,22 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[RGD peptide]] | 26_May_2026 05:03 PM PDT | Chemical Compound | 8 | 1 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[Satoshi Ōmura]] | 21_May_2026 06:20 PM PDT | Person | 4 | 1 | Provided historical, scientific, or institutional context for the research. |
 | [[Scabies]] | 21_May_2026 06:20 PM PDT | Medical Condition | 6 | -1 | Condition historically associated with the compounds before their repurposing. |
-| [[Simulium]] | 21_May_2026 06:20 PM PDT | Microorganism | 6 | -1 | Related to the original anti-parasitic application of the discussed drugs. |
+| [[Simulium]] | 21_May_2026 06:20 PM PDT | Organism | 6 | -1 | Related to the original anti-parasitic application of the discussed drugs. |
 | [[SIRT1]] | 30_May_2026 07:45 PM PDT | Enzyme | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
 | [[Smac DIABLO]]/[[Smac DIABLO]] | 31_May_2026 05:30 PM PDT | Protein | 8 | 0 | Mitochondrial protein that neutralizes IAPs to promote apoptosis. |
 | [[STAT3]] | 31_May_2026 05:30 PM PDT | Protein | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
-| [[Strongyloides]] | 21_May_2026 06:20 PM PDT | Microorganism | 6 | -1 | Related to the original anti-parasitic application of the discussed drugs. |
+| [[Strongyloides]] | 21_May_2026 06:20 PM PDT | Organism | 6 | -1 | Related to the original anti-parasitic application of the discussed drugs. |
 | [[Strongyloidiasis]] | 21_May_2026 06:20 PM PDT | Medical Condition | 6 | -1 | Condition historically associated with the compounds before their repurposing. |
 | [[Suramin]] | 21_May_2026 06:20 PM PDT | Chemical Compound | 7 | 1 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[Survivin]] | 31_May_2026 12:30 PM PDT | Protein | 10 | 0 | Unique IAP family member with roles in inhibiting apoptosis and regulating cell division. |
-| [[SV40]] | 19_May_2026 08:16 PM PDT | Microorganism | 6 | -1 | Related to the original anti-parasitic application of the discussed drugs. |
+| [[SV40]] | 19_May_2026 08:16 PM PDT | Organism | 6 | -1 | Related to the original anti-parasitic application of the discussed drugs. |
 | [[TAT]] | 19_May_2026 08:16 PM PDT | Protein | 7 | 0 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[TDR]] | 21_May_2026 06:20 PM PDT | Organization | 4 | 1 | Provided historical, scientific, or institutional context for the research. |
 | [[TGF-β3]] | 19_May_2026 08:16 PM PDT | Protein | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
 | [[TRAIL]] | 31_May_2026 12:30 PM PDT | Biological Molecule | 9 | 1 | Cytokine that selectively induces apoptosis in cancer cells. |
-| [[trastuzumab]] | 19_May_2026 08:16 PM PDT | Antibody | 9 | 1 | Biological or chemical entity contributing to the broader understanding of the topic. |
+| [[trastuzumab]] | 19_May_2026 08:16 PM PDT | Protein | 9 | 1 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[Trichuriasis]] | 21_May_2026 06:20 PM PDT | Medical Condition | 6 | -1 | Condition historically associated with the compounds before their repurposing. |
-| [[Trichuris]] | 21_May_2026 06:20 PM PDT | Microorganism | 6 | -1 | Related to the original anti-parasitic application of the discussed drugs. |
+| [[Trichuris]] | 21_May_2026 06:20 PM PDT | Organism | 6 | -1 | Related to the original anti-parasitic application of the discussed drugs. |
 | [[triple-negative breast cancer]] | 21_May_2026 05:45 PM PDT | Medical Condition | 10 | -1 | A highly aggressive cancer subtype and a primary target for the discussed therapies. |
 | [[VEGF]] | 26_May_2026 05:03 PM PDT | Protein | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
 | [[Vitronectin]] | 26_May_2026 05:03 PM PDT | Protein | 7 | 0 | Biological or chemical entity contributing to the broader understanding of the topic. |
@@ -194,7 +194,7 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[William C. Campbell]] | 21_May_2026 06:20 PM PDT | Person | 4 | 1 | Provided historical, scientific, or institutional context for the research. |
 | [[Wnt]] | 21_May_2026 05:45 PM PDT | Protein | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
 | [[World Health Organization]] | 21_May_2026 06:20 PM PDT | Organization | 4 | 1 | Provided historical, scientific, or institutional context for the research. |
-| [[Wuchereria bancrofti]] | 21_May_2026 06:20 PM PDT | Microorganism | 6 | -1 | Related to the original anti-parasitic application of the discussed drugs. |
+| [[Wuchereria bancrofti]] | 21_May_2026 06:20 PM PDT | Organism | 6 | -1 | Related to the original anti-parasitic application of the discussed drugs. |
 | [[XIAP]] | 31_May_2026 12:30 PM PDT | Protein | 9 | 0 | Most potent IAP family member; directly inhibits several caspases. |
 | [[YAP1]] | 21_May_2026 05:45 PM PDT | Protein | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. || [[APC-C]] | 31_May_2026 05:30 PM PDT | Enzyme | 8 | 0 | Large E3 ubiquitin ligase regulating mitosis and Mcl-1 stability. |
 | [[Beta-TrCP]] | 31_May_2026 05:30 PM PDT | Protein | 8 | 0 | F-box protein that targets Mcl-1 for degradation. |

@@ -80,7 +80,7 @@ This directory contains notes and research regarding [[Autophagy]], its molecula
 | [[FNIP1]]                                     | 09_Jun_2026 10:15 AM PDT | Protein                  |         8          |      0      | Folliculin-interacting protein regulating TFE3. |
 | [[FNIP2]]                                     | 09_Jun_2026 10:15 AM PDT | Protein                  |         8          |      0      | Folliculin-interacting protein regulating TFE3. |
 | [[Folliculin]]                                | 09_Jun_2026 10:15 AM PDT | Protein                  |         9          |     -1      | Rag GEF that regulates mTORC1 and lysosome positioning. |
-| [[FOXO]]                          | 09_Jun_2026 10:15 AM PDT | Protein Class            |         8          |      1      | Transcription factor family regulating autophagy. |
+| [[FOXO]]                          | 09_Jun_2026 10:15 AM PDT | Protein            |         8          |      1      | Transcription factor family regulating autophagy. |
 | [[FoxO1]]                                     | 09_Jun_2026 10:15 AM PDT | Protein                  |         8          |      1      | Transcription factor that induces expression of multiple ATG genes. |
 | [[FOXO3a]]                                    | 09_Jun_2026 10:15 AM PDT | Protein                  |         8          |      1      | Key regulator of autophagic gene expression in muscle and neurons. |
 | [[FOXO4]]                                     | 09_Jun_2026 10:15 AM PDT | Protein                  |         7          |      1      | Involved in senescence and autophagic regulation during aging. |
@@ -104,11 +104,11 @@ This directory contains notes and research regarding [[Autophagy]], its molecula
 | [[LPS]]                           | 09_Jun_2026 10:15 AM PDT | Biological Molecule      |         8          |      1      | Bacterial endotoxin that triggers TFE3 translocation. |
 | [[Macroautophagy]]                            | 09_Jun_2026 10:15 AM PDT | Biological Process       |         10         |      1      | Primary form of autophagy; essential for bulk recycling. |
 | [[Macrophage]]                    | 09_Jun_2026 10:15 AM PDT | Cell Type                |         8          |      1      | Immune cell utilizing autophagy for pathogen clearance. |
-| [[MALAT1]]                                    | 09_Jun_2026 10:15 AM PDT | Non-coding RNA           |         6          |     -1      | LncRNA involved in TFEB fusions in renal cancer. |
+| [[MALAT1]]                                    | 09_Jun_2026 10:15 AM PDT | Biological Molecule           |         6          |     -1      | LncRNA involved in TFEB fusions in renal cancer. |
 | [[Melanoma]]                                  | 09_Jun_2026 10:15 AM PDT | Medical Condition        |         5          |     -1      | Cancer type where autophagy can be hijacked for survival. |
 | [[Microautophagy]]                            | 09_Jun_2026 10:15 AM PDT | Biological Process       |         8          |      1      | Direct engulfment of cytosolic material by the lysosome. |
 | [[MITF]]                                      | 09_Jun_2026 10:15 AM PDT | Protein                  |         9          |      1      | Member of MiTF/TFE family; regulates lysosome-related organelles. |
-| [[MiTF TFE family]]                           | 09_Jun_2026 10:15 AM PDT | Protein Family           |         9          |      1      | Master regulators of lysosomal biogenesis. |
+| [[MiTF TFE family]]                           | 09_Jun_2026 10:15 AM PDT | Protein           |         9          |      1      | Master regulators of lysosomal biogenesis. |
 | [[Mitochondrial Complex I]]                   | 09_Jun_2026 10:15 AM PDT | Protein                  |         6          |     -1      | Organelles frequently targeted for autophagic degradation (mitophagy). |
 | [[mLST8]]                                     | 09_Jun_2026 10:15 AM PDT | Protein                  |         9          |     -1      | Component of mTOR complexes that supports mTORC1 signaling. |
 | [[mSIN1]]                                     | 09_Jun_2026 10:15 AM PDT | Protein                  |         8          |     -1      | Component of mTORC2 complex. |
@@ -118,7 +118,7 @@ This directory contains notes and research regarding [[Autophagy]], its molecula
 | [[Neuronal Ceroid Lipofuscinosis]]            | 09_Jun_2026 10:15 AM PDT | Medical Condition        |         8          |     -1      | Neurodegenerative LSD improved by TFEB. |
 | [[NFKB]]                          | 09_Jun_2026 10:15 AM PDT | Protein Complex          |         8          |      0      | Inflammatory master regulator with complex autophagy links. |
 | [[14-3-3]]                        | 09_Jun_2026 10:15 AM PDT | Protein                  |         8          |      0      | Scaffolding protein involved in regulating autophagy kinases. |
-| [[Acid Hydrolases]]               | 09_Jun_2026 10:15 AM PDT | Enzyme Class             |         9          |      1      | Lysosomal enzymes responsible for degrading autophagic cargo. |
+| [[Acid Hydrolases]]               | 09_Jun_2026 10:15 AM PDT | Enzyme             |         9          |      1      | Lysosomal enzymes responsible for degrading autophagic cargo. |
 | [[Acid Sphingomyelinase]]         | 09_Jun_2026 10:15 AM PDT | Enzyme                   |         7          |      0      | Lysosomal enzyme affecting membrane lipid composition and autophagy. |
 | [[Aging]]                         | 09_Jun_2026 10:15 AM PDT | Biological Process       |         10         |     -1      | Decline in autophagic flux is a hallmark of aging. |
 | [[Akt]]                           | 09_Jun_2026 10:15 AM PDT | Enzyme                   |         9          |     -1      | Pro-survival kinase that activates mTOR and inhibits autophagy. |
@@ -185,7 +185,7 @@ This directory contains notes and research regarding [[Autophagy]], its molecula
 | [[Rictor]]                                    | 09_Jun_2026 10:15 AM PDT | Protein                  |         9          |     -1      | Essential structural component of the mTORC2 complex. |
 | [[S6K1]]                                      | 09_Jun_2026 10:15 AM PDT | Enzyme                   |         9          |     -1      | Downstream target of mTORC1; involved in protein synthesis and suppressing autophagy. |
 | [[Selective Autophagy]]                       | 09_Jun_2026 10:15 AM PDT | Biological Process       |         9          |      1      | Targeted degradation of specific organelles or proteins (e.g., mitophagy, pexophagy). |
-| [[Senescence-Associated Beta-Galactosidase]]  | 09_Jun_2026 10:15 AM PDT | Biomarker                |         6          |     -1      | Classic biomarker for cellular senescence. |
+| [[Senescence-Associated Beta-Galactosidase]]  | 09_Jun_2026 10:15 AM PDT | Scientific Concept                |         6          |     -1      | Classic biomarker for cellular senescence. |
 | [[Senescence-Associated Secretory Phenotype]] | 09_Jun_2026 10:15 AM PDT | Biological Process       |         7          |     -1      | Secretory profile of senescent cells, often supported by autophagy. |
 | [[Sestrin2]]                                  | 09_Jun_2026 10:15 AM PDT | Protein                  |         9          |      1      | Stress-inducible protein that inhibits mTORC1 and promotes autophagy. |
 | [[SGK1]]                                      | 09_Jun_2026 10:15 AM PDT | Enzyme                   |         8          |     -1      | Kinase downstream of mTORC2 involved in cellular stress responses. |

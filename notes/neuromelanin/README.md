@@ -19,8 +19,8 @@ This directory contains notes and research regarding [[Neuromelanin]], its biosy
 | :------------------------------------------- | :------------------: | ----------------------- |
 | [[Aging]]                        | 31_May_2026 01:25 PM | Biological Process      |
 | [[5,6-indolequinone]]                        | 11_Jun_2026 04:00 PM | Chemical Compound       |
-| [[6-hydroxydopamine]]                        | 11_Jun_2026 04:00 PM | Toxin                   |
-| [[A53T]]                                     | 04_Jul_2026 12:00 PM | Genetic Variant         |
+| [[6-hydroxydopamine]]                        | 11_Jun_2026 04:00 PM | Chemical Compound                   |
+| [[A53T]]                                     | 04_Jul_2026 12:00 PM | Gene         |
 | [[Addiction]]                                | 11_Jun_2026 04:00 PM | Scientific Concept      |
 | [[Aminochromes]]                             | 04_Jul_2026 12:00 PM | Chemical Class          |
 | [[Alpha-synuclein]]                          | 25_May_2026 05:23 PM | Protein                 |
@@ -34,7 +34,7 @@ This directory contains notes and research regarding [[Neuromelanin]], its biosy
 | [[Autophagy]]                    | 27_May_2026 09:48 AM | Biological Process      |
 | [[Basal Ganglia]]                            | 04_Jul_2026 12:00 PM | Anatomy                 |
 | [[Benzothiazine]]                            | 11_Jun_2026 04:00 PM | Chemical Class          |
-| [[Bradykinesia]]                             | 31_May_2026 02:45 PM | Symptom                 |
+| [[Bradykinesia]]                             | 31_May_2026 02:45 PM | Medical Condition                 |
 | [[Catecholamines]]                           | 31_May_2026 03:00 PM | Chemical Class          |
 | [[Caudate Nucleus]]                          | 04_Jul_2026 12:00 PM | Anatomy                 |
 | [[Chemical memory]]                          | 11_Jun_2026 04:00 PM | Scientific Concept      |
@@ -60,9 +60,9 @@ This directory contains notes and research regarding [[Neuromelanin]], its biosy
 | [[Glial cells]]                              | 11_Jun_2026 04:00 PM | Cell Type               |
 | [[Glucocerebrosidase]]                       | 31_May_2026 03:00 PM | Enzyme                  |
 | [[Haloperidol]]                              | 11_Jun_2026 04:00 PM | Chemical Compound       |
-| [[HPP+]]                                     | 11_Jun_2026 04:00 PM | Toxin                   |
-| [[Hypokinesia]]                              | 04_Jul_2026 12:00 PM | Symptom                 |
-| [[Immunoglobulin G]]                         | 31_May_2026 02:45 PM | Antibody                |
+| [[HPP+]]                                     | 11_Jun_2026 04:00 PM | Chemical Compound                   |
+| [[Hypokinesia]]                              | 04_Jul_2026 12:00 PM | Medical Condition                 |
+| [[Immunoglobulin G]]                         | 31_May_2026 02:45 PM | Protein                |
 | [[Incidental Lewy Body Disease]]             | 25_May_2026 05:23 PM | Medical Condition       |
 | [[Indole]]                                   | 11_Jun_2026 04:00 PM | Chemical Class          |
 | [[Iron]]                                     | 31_May_2026 02:45 PM | Chemical Compound       |
@@ -87,8 +87,8 @@ This directory contains notes and research regarding [[Neuromelanin]], its biosy
 | [[Mitochondria]]                 | 31_May_2026 01:25 PM | Anatomy                 |
 | [[Mitochondrial Dysfunction]]                | 25_May_2026 05:23 PM | Scientific Concept      |
 | [[Monoamine oxidase B]]                      | 11_Jun_2026 04:00 PM | Enzyme                  |
-| [[MPP+]]                                     | 31_May_2026 02:45 PM | Toxin                   |
-| [[MPTP]]                                     | 25_May_2026 05:23 PM | Toxin                   |
+| [[MPP+]]                                     | 31_May_2026 02:45 PM | Chemical Compound                   |
+| [[MPTP]]                                     | 25_May_2026 05:23 PM | Chemical Compound                   |
 | [[mTOR]]                         | 31_May_2026 03:00 PM | Enzyme                  |
 | [[Neurodegenerative Diseases]]    | 31_May_2026 01:25 PM | Medical Condition       |
 | [[Neuroinflammation]]                        | 25_May_2026 05:23 PM | Biological Process      |
@@ -97,7 +97,7 @@ This directory contains notes and research regarding [[Neuromelanin]], its biosy
 | [[Neuroprotection]]                          | 31_May_2026 03:00 PM | Pharmacological Action  |
 | [[Neurotransmission]]                        | 11_Jun_2026 04:00 PM | Biological Process      |
 | [[Neurotransmitters]]                        | 04_Jul_2026 12:00 PM | Biological Molecule     |
-| [[Neurotoxin]]                               | 04_Jul_2026 12:00 PM | Toxin                   |
+| [[Neurotoxin]]                               | 04_Jul_2026 12:00 PM | Chemical Compound                   |
 | [[Nicotine]]                                 | 11_Jun_2026 04:00 PM | Chemical Compound       |
 | [[Nigrostriatal System]]                     | 25_May_2026 05:23 PM | Anatomy                 |
 | [[Norepinephrine]]               | 31_May_2026 03:00 PM | Biological Molecule     |
@@ -106,7 +106,7 @@ This directory contains notes and research regarding [[Neuromelanin]], its biosy
 | [[Oxidation]]                                | 04_Jul_2026 12:00 PM | Chemical Process        |
 | [[p62|p62]]                      | 31_May_2026 02:45 PM | Protein                 |
 | [[Pale Bodies]]                              | 31_May_2026 02:45 PM | Medical Condition       |
-| [[Paraquat]]                                 | 31_May_2026 02:45 PM | Toxin                   |
+| [[Paraquat]]                                 | 31_May_2026 02:45 PM | Chemical Compound                   |
 | [[Parkinson's Disease]]          | 25_May_2026 05:23 PM | Medical Condition       |
 | [[Pathogenic Threshold of Neuromelanin]]     | 27_May_2026 09:46 AM | Scientific Concept      |
 | [[Pheomelanin]]                              | 31_May_2026 02:45 PM | Biological Molecule     |
