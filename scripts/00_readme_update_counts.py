@@ -179,9 +179,7 @@ def main():
         md_files = glob.glob(os.path.join(topic_path, "*.md"))
 
         documents = [
-            f
-            for f in md_files
-            if os.path.basename(f).startswith(("[document]", "_document_"))
+            f for f in md_files if os.path.basename(f).startswith(("_document_"))
         ]
 
         # Count markdown files excluding README.md and index.md
