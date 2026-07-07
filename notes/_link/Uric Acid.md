@@ -34,8 +34,9 @@ At high concentrations (>6 mg/dL), uric acid can act as a pro-oxidant: urate rad
 - **[[Metabolic Syndrome]]**: Hyperuricemia correlates with obesity, insulin resistance, and dyslipidemia.
 - **[[Tumor Lysis Syndrome]]**: Massive release of purines from lysed cancer cells (during chemotherapy) causes acute urate nephropathy; prevented with allopurinol or [[Rasburicase]] (recombinant urate oxidase).
 
-### Connections
+#
 
+## Connections
 - [[Xanthine Oxidase]] — Enzyme that generates uric acid from hypoxanthine and xanthine
 - [[Allopurinol]] — Xanthine oxidase inhibitor used to lower uric acid
 - [[NLRP3 Inflammasome]] — Activated by monosodium urate crystals
@@ -44,8 +45,7 @@ At high concentrations (>6 mg/dL), uric acid can act as a pro-oxidant: urate rad
 - [[Gout]] — Pathological crystallization of uric acid
 - [[Cardiovascular Disease]] — Hyperuricemia as an independent risk factor
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[Xanthine Oxidase]], [[Allopurinol]], [[NLRP3 Inflammasome]], [[Peroxynitrite]], [[Fenton Reaction]], [[Gout]], [[Cardiovascular Disease]], [[Neurodegeneration]], [[Parkinson's Disease]], [[Amyotrophic Lateral Sclerosis]], [[Metabolic Syndrome]], [[Tumor Lysis Syndrome]], [[Rasburicase]], [[Singlet Oxygen]], [[Hydroxyl Radicals]], [[Hypochlorous Acid]], [[LDL]]
 - Suggested new entity notes to create: [[Febuxostat]], [[Probenecid]], [[Monosodium Urate]]
 - Strong connections to strengthen: [[Uric Acid]] ↔ [[Gout]], [[Uric Acid]] ↔ [[NLRP3 Inflammasome]], [[Uric Acid]] ↔ [[Xanthine Oxidase]]

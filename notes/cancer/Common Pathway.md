@@ -26,7 +26,7 @@ The common pathway results in the morphological hallmarks of apoptosis: [[chroma
 - [[Caspase-3]]: The central executioner protease.
 - [[Caspase-6]] / [[Caspase-7]]: Other key executioners.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Apoptosis]], [[Intrinsic Pathway]], [[Extrinsic Pathway]], [[Caspase-3]], [[Caspase-6]], [[Caspase-7]], [[Caspase-8]], [[Caspase-9]], [[chromatin condensation]], [[membrane blebbing]]
 - Suggested new entity notes to create: [[Caspase-6]], [[chromatin condensation]], [[membrane blebbing]]
 - Strong connections to strengthen: [[Common Pathway]] ↔ [[Caspase-3]]

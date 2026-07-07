@@ -17,8 +17,7 @@ Mitogen-activated protein kinase (MAPK) signaling pathways communicate signals f
 
 The MAPK cascade (RAF → MEK → ERK) transduces growth factor and stress signals. It crosstalks with [[Autophagy]] through [[TFEB]] phosphorylation by [[ERK2]].
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[p38 MAPK]], [[TFEB]]
 - Suggested new entity notes to create: [[MAPK pathway]]
 - Strong connections to strengthen: [[MAPK Signaling]] ↔ [[p38 MAPK]]

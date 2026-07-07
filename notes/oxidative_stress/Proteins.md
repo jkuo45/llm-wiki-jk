@@ -23,7 +23,7 @@ Proteins are major targets of [[Oxidative Stress]]. Radical-mediated damage to p
 - [[Enzyme]]: Many enzymes are inactivated by oxidative modifications to their active sites.
 - [[Neurodegeneration]]: The accumulation of oxidized and misfolded proteins is a hallmark of diseases like [[Alzheimer's Disease]] and [[Parkinson's Disease]].
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Oxidative Stress]], [[Reactive Oxygen Species]], [[Enzyme]], [[Neurodegeneration]], [[Alzheimer's Disease]], [[Parkinson's Disease]]
 - Suggested new entity notes to create: [[Neurodegeneration]]
 - Strong connections to strengthen: [[Proteins]] ↔ [[Oxidative Stress]]
@@ -180,7 +180,9 @@ Protein oxidation is not merely damage—it is a regulated mechanism of **redox 
 | **Advanced glycation end-products (AGEs)** | Glycoxidation | Diabetes, aging |
 | **Chlorotyrosine** | Tyr chlorination | MPO-specific activity marker |
 
-### Connections
+#
+
+## Connections
 - [[Glutathione Peroxidase]]: Reduces H₂O₂ and regenerates reduced thiols
 - [[Catalase]]: H₂O₂ decomposition
 - [[Thioredoxin]]: Reducing Msr and Prx

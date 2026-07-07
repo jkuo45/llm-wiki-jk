@@ -12,8 +12,9 @@ entity_type_1: Imaging Technique
 
 Merck & Co., Inc. (known as MSD outside the US and Canada) is an American multinational pharmaceutical company. It is one of the largest pharmaceutical companies in the world and played a key role in the development and donation of [[Ivermectin]].
 
-### Connections
+#
 
+## Connections
 - [[Ivermectin]] — Antiparasitic drug developed and donated by Merck
 - [[Avermectin]] — Class of compounds from which ivermectin was derived
 - [[Kitasato Institute]] — Collaborator in ivermectin discovery
@@ -23,7 +24,7 @@ Merck & Co., Inc. (known as MSD outside the US and Canada) is an American multin
 - [[William C. Campbell]] — Key scientist in ivermectin development
 - [[Satoshi Ōmura]] — Co-discoverer of avermectin
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Ivermectin]], [[Avermectin]], [[Kitasato Institute]], [[Mectizan Donation Program]]
 - Suggested new entity notes to create: [[Pharmaceutical industry]]
 - Strong connections to strengthen: [[Merck & Co. Inc]] ↔ [[Ivermectin]]

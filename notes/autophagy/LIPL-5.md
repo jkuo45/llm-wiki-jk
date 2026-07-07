@@ -20,7 +20,7 @@ aliases: [C. elegans lysosomal lipase 5]
 
 LIPL-5 is a C. elegans lysosomal lipase that contributes to [[Lipophagy]] and fat mobilization during starvation.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[C. elegans]], [[Fasting]], [[Lysosome]], [[MXL-3]], [[HLH-30]]
 - Suggested new entity notes to create: [[LIPL-4]]
 - Strong connections to strengthen: [[LIPL-5]] ↔ [[MXL-3]], [[LIPL-5]] ↔ [[HLH-30]]

@@ -13,11 +13,6 @@ tags: [oxidative_stress, inflammation, respiratory]
 # Asthma
 Asthma is a common long-term inflammatory disease of the airways of the lungs. It is characterized by variable and recurring symptoms including reversible airflow obstruction and bronchospasm. [[Oxidative Stress]] and [[Reactive Oxygen Species]] play significant roles in the [[Inflammation]] of the airways. Antioxidants like [[Vitamin E]] have been studied for their potential protective effects.
 
-## Linking Summary
-- New links added: [[Oxidative Stress]], [[Reactive Oxygen Species]], [[Inflammation]], [[Vitamin E]]
-- Suggested new entity notes to create: [[Inflammation]], [[Airways]]
-- Strong connections to strengthen: [[Asthma]] ↔ [[Oxidative Stress]]
-
 ## Oxidative Mechanisms in Asthma Pathophysiology
 
 ### Environmental Oxidant Exposure and Airway Epithelium
@@ -36,3 +31,8 @@ Oxidative stress in asthma correlates with disease severity, frequency of exacer
 - New links added: [[NADPH Oxidase]], [[Superoxide Radicals]], [[Hydrogen Peroxide]], [[NRF2]], [[Catalase]], [[Superoxide Dismutase]], [[Glutathione Peroxidase]], [[Neutrophils]], [[Myeloperoxidase]], [[Hypochlorous Acid]], [[Glutathione]], [[Malondialdehyde]], [[N-Acetylcysteine]], [[Ascorbic Acid]], [[Flavonoids]]
 - Suggested new entity notes to create: [[Bronchoalveolar lavage fluid]], [[Eosinophil Peroxidase]], [[8-Isoprostane]], [[NRF2]], [[Sulforaphane]], [[Polyphenols]], [[Quercetin]], [[Ozone]]
 - Strong connections to strengthen: [[Asthma]] ↔ [[Glutathione]], [[Asthma]] ↔ [[NADPH Oxidase]]
+
+## Linking Summary
+- New links added: [[Oxidative Stress]], [[Reactive Oxygen Species]], [[Inflammation]], [[Vitamin E]]
+- Suggested new entity notes to create: [[Inflammation]], [[Airways]]
+- Strong connections to strengthen: [[Asthma]] ↔ [[Oxidative Stress]]

@@ -64,7 +64,6 @@ Dietary NMN is rapidly degraded in the gut by the enzyme CD38 and intestinal alk
 ---
 
 ## Linking Summary
-
 - New links added: [[NAD+]], [[NAMPT]], [[Nicotinamide Riboside]], [[Sirtuins]], [[SIRT1]], [[Caloric Restriction]], [[CD38]]
 - Suggested new entity notes to create: [[NMNAT]]
 - Strong connections to strengthen: [[NMN]] ↔ [[NAD+]], [[NMN]] ↔ [[Nicotinamide Riboside]]

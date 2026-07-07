@@ -21,5 +21,5 @@ In the context of [[Induced Pluripotent Stem Cells]] (iPSCs), MYCN is often high
 - [[Wnt signaling]]: An upstream pathway that can lead to the stabilization and activation of MYCN.
 - [[GSK3B]]: Its inhibition helps stabilize MYCN protein levels.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[c-Myc]], [[Induced Pluripotent Stem Cells]], [[Fibroblasts]], [[Wnt signaling]], [[GSK3B]], [[Yamanaka Factors]]

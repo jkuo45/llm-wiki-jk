@@ -31,7 +31,6 @@ Warfarin inhibits **[[Vitamin K Epoxide Reductase]] (VKORC1)**, blocking the rec
 - [[Resveratrol]] inhibits CYP3A4 and CYP2C9, potentially elevating Warfarin concentrations
 
 ## Linking Summary
-
 - New links added: [[Anticoagulant]], [[Cytochrome P450]], [[Resveratrol]]
 - Suggested new entity notes to create: [[Coumadin]], [[Vitamin K Epoxide Reductase]], [[INR]], [[Protein C]], [[Proteins]], [[Atrial fibrillation]], [[Deep vein thrombosis]], [[Pulmonary embolism]]
 - Strong connections to strengthen: [[Warfarin]] ↔ [[Resveratrol]], [[Warfarin]] ↔ [[Cytochrome P450]]

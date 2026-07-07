@@ -26,6 +26,5 @@ By reducing [[Adrenochrome]] and other [[Aminochromes]] directly to less reactiv
 - [[NRF2]] ↔ The transcription factor regulating NQO1/DT-diaphorase expression.
 - [[Redox Cycling]] ↔ The pathological process prevented by this enzyme.
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[NQO1]], [[Adrenochrome]], [[NRF2]], [[Redox Cycling]], [[Superoxide anion]], [[Aminochromes]]

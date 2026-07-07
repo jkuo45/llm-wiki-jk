@@ -16,7 +16,7 @@ Regulatory-associated protein of mTOR (Raptor) is an essential component of [[mT
 
 Raptor is a scaffold subunit of [[mTORC1]] that recruits substrates ([[S6K1]], [[4E-BP1]]) via TOS motifs and targets mTORC1 to the lysosome via [[Ragulator]].
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[mTORC1]], [[mTOR]], [[AMPK]], [[Rag proteins]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Raptor]] ↔ [[mTORC1]]

@@ -18,10 +18,12 @@ aliases: [GCK, Hexokinase IV]
 
 **Clinical relevance:** Dysregulation of Glucokinase activity is implicated in metabolic disorders, oxidative stress-related pathologies, and cancer. Pharmacological modulation of this enzyme represents a therapeutic strategy for diseases involving its pathway.
 
-### Connections
+#
+
+## Connections
 - [[Glucokinase]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Glucokinase]]
 - Strong connections to strengthen: [[Glucokinase]] ↔ [[Glucokinase]]
 

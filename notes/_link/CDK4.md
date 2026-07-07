@@ -19,10 +19,12 @@ aliases: [Cyclin-Dependent Kinase 4]
 
 **Pathological significance:** Altered expression or mutation of CDK4 is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
 
-### Connections
+#
+
+## Connections
 - [[CDK4]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[CDK4]]
 - Strong connections to strengthen: [[CDK4]] ↔ [[CDK4]]
 

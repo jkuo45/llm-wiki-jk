@@ -38,7 +38,7 @@ Direct detection of [[Adrenochrome]] in biological fluids has been challenging d
 
 Evidence for in vivo adrenochrome formation comes from detection of the compound in [[Rheumatoid synovial fluid]], post-ischemic myocardial tissue, and plasma following catecholamine infusion. Adrenochrome conjugates — particularly [[Adrenochrome sulfonate]] and [[Carbazochrome]] derivatives — have been identified as urinary metabolites, supporting the physiological relevance of this pathway.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[adrenaline-quinone]], [[Leuco-adrenochrome]], [[Adrenolutin]], [[Melanins]], [[Myeloperoxidase]], [[NAD(P)H Oxidase]], [[Hydrogen Peroxide]], [[Hypochlorous Acid]], [[COMT]], [[MAO]], [[Metanephrine]], [[Ascorbate]], [[Glutathione]], [[Rheumatoid synovial fluid]], [[Adrenochrome sulfonate]], [[Carbazochrome]], [[HPLC]], [[LC-MS]], [[Mass Spectrometry]], [[H-NMR]], [[Electrophile]], [[Autoxidation]], [[Redox Cycling]], [[Ceruloplasmin]], [[Methemoglobin]]
 - Suggested new entity notes to create: [[Epinephrine Oxidation Cascade]], [[Indole-5,6-quinone]]
 - Strong connections to strengthen: [[Adrenochrome Pathway]] ↔ [[Myeloperoxidase Pathway]], [[Adrenochrome Pathway]] ↔ [[Inflammation]]

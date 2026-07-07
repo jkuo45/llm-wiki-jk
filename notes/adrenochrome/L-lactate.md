@@ -15,7 +15,7 @@ L-lactate is the physiological stereoisomer of lactate generated predominantly d
 
 In addition to standard metabolic pathways, L-lactate is generated as a product of dicarbonyl detoxification. The enzyme [[PARK7]] (DJ-1) stereospecifically detoxifies free [[Methylglyoxal]] directly into L-lactate in a glutathione-independent manner, preventing glycation damage.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Methylglyoxal]], [[PARK7]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[L-lactate]] ↔ [[PARK7]]

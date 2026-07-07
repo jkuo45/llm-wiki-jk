@@ -32,12 +32,14 @@ The decline of AMPK signaling in old age leads to several downstream epigenetic 
 ### Merged from notes/autophagy/AMPK.md
 AMP-activated protein kinase (AMPK) is a key energy sensor that phosphorylates [[TFEB]] at serine clusters (S466, S467, S469) to enhance its transcriptional activity.
 
-### Connections
+#
+
+## Connections
 - **[[SIRT1]]**: Works in tandem with AMPK to regulate metabolism and longevity.
 - **[[Metformin]]**: A common drug used to activate AMPK and study its anti-aging effects.
 - **[[Autophagy]]**: A downstream process regulated by AMPK that is essential for cellular cleanup.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[TFEB]], [[Aging]], [[Sirtuins]], [[SIRT1]], [[Histone Modification]], [[Acetyl-CoA]], [[Histone Deacetylase]], [[HDAC]], [[DNA Methylation]], [[Epigenetic Clock]], [[DNA Methyltransferase]], [[Caloric Restriction]], [[Metformin]], [[Autophagy]], [[Cellular Senescence]], [[SASP]]., [[SASP]]
 - Suggested new entity notes to create: [[Energy Homeostasis]], [[Mitochondrial Dysfunction]], [[Proteostasis]], [[LKB1]], [[PGC1-α]]., [[mTORC1]], [[PGC1-α]]
 - Strong connections to strengthen: [[AMPK]] ↔ [[TFEB]], [[AMPK]] ↔ [[SIRT1]], [[AMPK]] ↔ [[Aging]], [[Caloric Restriction]] ↔ [[AMPK]]

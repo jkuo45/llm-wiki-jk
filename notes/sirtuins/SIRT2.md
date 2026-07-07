@@ -86,22 +86,12 @@ Through the generation of [[OAADPr]], SIRT2 (along with [[SIRT3]]) may regulate 
 
 
 
-### Linking Summary
-
-- New links added: [[Autophagy]], [[Atg4B]], [[LC3]], [[SIRT1]]
-- Suggested new entity notes to create: [[Atg4B]]
-- Strong connections to strengthen: [[SIRT2]] ↔ [[Autophagy]], [[SIRT2]] ↔ [[Atg4B]]
-- New links added: [[NAD+]], [[Neurodegeneration]]
-- Suggested new entity notes to create:## From [[SIRT2]]
-
-
 ## Linking Summary
-
 - New links added: [[NAD+]], [[OAADPr]], [[Glioma]], [[HOXA10]], [[SIRT1]], [[SIRT3]], [[TRPM2]]
 - Suggested new entity notes to create: [[TRPM2]], [[CDC14B]], [[Neurofascin]]
 - Strong connections to strengthen: [[SIRT2]] ↔ [[Glioma]], [[SIRT2]] ↔ [[OAADPr]]
-
-# SIRT2
+- New links added: [[Autophagy]], [[Atg4B]], [[LC3]], [[SIRT1]]
+- Suggested new entity notes to create: [[Atg4B]]# SIRT2
 
 SIRT2 is a predominantly cytoplasmic sirtuin with both deacetylase and mono-ADP-ribosyl transferase activity. It is involved in regulating cell cycle, cell motility, tubulin acetylation, and is overexpressed in various cancers and [[Neurodegeneration|neurodegenerative disorders]].
 

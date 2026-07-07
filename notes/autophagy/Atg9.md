@@ -19,7 +19,7 @@ Atg9 is the only transmembrane [[ATG protein]] and cycles between the Golgi, end
 
 Atg9 cycling is controlled by [[Atg1]]/ULK1 and [[Atg2]] complexes. Knockout studies show Atg9 is essential for both [[Macroautophagy]] and selective autophagy pathways.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Autophagosome]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[Atg9]] ↔ [[Rab5]]

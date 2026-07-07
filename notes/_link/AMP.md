@@ -19,10 +19,12 @@ aliases: [Adenosine Monophosphate]
 
 **Clinical significance:** Altered levels of AMP are observed in metabolic disorders, mitochondrial diseases, and nutritional deficiencies. Supplementation or pharmacological modulation of this metabolite has therapeutic potential.
 
-### Connections
+#
+
+## Connections
 - [[AMP]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[AMP]]
 - Strong connections to strengthen: [[AMP]] ↔ [[AMP]]
 

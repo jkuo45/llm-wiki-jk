@@ -13,11 +13,6 @@ tags: [oxidative_stress, adhesion, inflammation]
 # VCAM-1
 Vascular cell adhesion protein 1 (VCAM-1) is a protein that mediates the adhesion of lymphocytes, monocytes, eosinophils, and basophils to vascular endothelium. Its expression is upregulated in response to pro-inflammatory stimuli and is a marker for [[Endothelial Dysfunction]] and early [[Atherosclerosis]] linked to chronic [[Inflammation]].
 
-## Linking Summary
-- New links added: [[Endothelial Dysfunction]], [[Atherosclerosis]], [[Inflammation]]
-- Suggested new entity notes to create: [[Adhesion molecules]], [[Leukocyte recruitment]]
-- Strong connections to strengthen: [[VCAM-1]] ↔ [[Endothelial Dysfunction]]
-
 ## Redox Regulation of VCAM-1 Expression and Function
 
 ### Transcriptional Regulation by Oxidative Stress
@@ -47,3 +42,8 @@ In the central nervous system, VCAM-1 is expressed on cerebral [[Endothelial cel
 - New links added: [[Hydrogen Peroxide]], [[p38 MAPK]], [[NADPH Oxidase]], [[NOX4]], [[Oxidized LDL]], [[Cardiovascular Disease]], [[Diabetes Mellitus]], [[Rheumatoid Arthritis]], [[Inflammation]], [[Oxidative Stress]], [[Nitric Oxide]], [[TNF-alpha]], [[IL-1b]], [[Atherosclerosis]], [[Multiple Sclerosis]], [[HO-1]], [[NF-kappa B]], [[Glutathione]], [[Polyphenols]]
 - Suggested new entity notes to create: [[Lox-1]], [[VLA-4 integrin]], [[Natalizumab]], [[ADAM-17]], [[HuR]], [[Rac1]], [[eNOS]], [[Resveratrol]], [[Blood-brain barrier]], [[Encephalitogenic T cells]], [[Shear stress]]
 - Strong connections to strengthen: [[VCAM-1]] ↔ [[NF-kappa B]], [[VCAM-1]] ↔ [[TNF-alpha]], [[VCAM-1]] ↔ [[Multiple Sclerosis]]
+
+## Linking Summary
+- New links added: [[Endothelial Dysfunction]], [[Atherosclerosis]], [[Inflammation]]
+- Suggested new entity notes to create: [[Adhesion molecules]], [[Leukocyte recruitment]]
+- Strong connections to strengthen: [[VCAM-1]] ↔ [[Endothelial Dysfunction]]

@@ -10,11 +10,13 @@ entity_type_1: Biological Process
 # Telomere Attrition
 Telomere attrition is the process of telomere shortening that occurs with each cell division, eventually leading to cellular senescence or apoptosis.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Aging]], [[Cellular Senescence]], [[Apoptosis]], [[Genomic Instability]]
 - Suggested new entity notes to create: [[Telomeres]], [[Telomerase]]
 - Strong connections to strengthen: [[Telomere Attrition]] ↔ [[Hallmarks of Aging]]
 
-### Connections
+#
+
+## Connections
 - [[Telomere Attrition]] — related entity
 

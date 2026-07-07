@@ -25,7 +25,7 @@ Eventually, these blebs may pinch off to form apoptotic bodies, which are then r
 - [[Caspase-3]]: The protease that triggers the signaling for blebbing.
 - [[Common Pathway]]: A key structural event of the execution phase.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Apoptosis]], [[Caspase-3]], [[Common Pathway]]
 - Suggested new entity notes to create: [[Common Pathway]]
 - Strong connections to strengthen: [[membrane blebbing]] ↔ [[Apoptosis]]

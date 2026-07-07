@@ -19,10 +19,12 @@ aliases: [IKKγ, NF-κB Essential Modulator]
 
 **Pathological significance:** Altered expression or mutation of NEMO is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
 
-### Connections
+#
+
+## Connections
 - [[NEMO]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[NEMO]]
 - Strong connections to strengthen: [[NEMO]] ↔ [[NEMO]]
 

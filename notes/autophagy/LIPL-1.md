@@ -26,7 +26,7 @@ aliases: [C. elegans lysosomal lipase 1]
 
 LIPL-1 is a C. elegans lysosomal lipase required for [[Lipophagy]] and lifespan extension by dietary restriction.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[C. elegans]], [[Lysosomal Lipolysis]], [[Lipophagy]], [[Lysosomal Acid Lipase]], [[LAL]], [[LRO]], [[Lipid Droplet]], [[MXL-3]], [[Fasting]], [[Starvation]], [[HLH-30]], [[LIPL-3]]
 - Suggested new entity notes to create: [[LIPL-2]], [[LIPL-4]], [[LIPL-5]]
 - Strong connections to strengthen: [[LIPL-1]] ↔ [[MXL-3]], [[LIPL-1]] ↔ [[HLH-30]]

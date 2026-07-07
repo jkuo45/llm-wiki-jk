@@ -19,7 +19,7 @@ Research using [[Induced Pluripotent Stem Cells]] (iPSCs) has been instrumental 
 - [[Induced Pluripotent Stem Cells]]: Used for disease modeling and drug discovery.
 - [[Amyotrophic Lateral Sclerosis]]: Often studied in parallel with FTD due to shared mechanisms.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Neurodegenerative Diseases]], [[Induced Pluripotent Stem Cells]], [[Amyotrophic Lateral Sclerosis]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Induced Pluripotent Stem Cells]] ↔ [[Frontotemporal Dementia]]

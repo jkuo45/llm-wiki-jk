@@ -18,8 +18,7 @@ Celastrol is a pentacyclic triterpenoid from [[Tripterygium wilfordii]] that act
 
 Celastrol extends lifespan in obese mice and improves metabolic health by activating [[AMPK]] and [[SIRT1]]. It acts as a caloric restriction mimetic and has anti-inflammatory activity via [[NFκB]] inhibition.
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[TFEB]]
 - Suggested new entity notes to create: [[Tau Pathology]]
 - Strong connections to strengthen: [[Celastrol]] ↔ [[TFEB]]

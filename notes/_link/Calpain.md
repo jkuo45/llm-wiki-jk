@@ -17,10 +17,12 @@ entity_type_1: Enzyme
 
 **Clinical relevance:** Dysregulation of Calpain activity is implicated in metabolic disorders, oxidative stress-related pathologies, and cancer. Pharmacological modulation of this enzyme represents a therapeutic strategy for diseases involving its pathway.
 
-### Connections
+#
+
+## Connections
 - [[Calpain]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Calpain]]
 - Strong connections to strengthen: [[Calpain]] ↔ [[Calpain]]
 

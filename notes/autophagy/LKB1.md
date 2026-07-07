@@ -67,7 +67,6 @@ LKB1 is a well-characterised tumour suppressor:
 - [[Peutz-Jeghers Syndrome]]: Hereditary syndrome caused by germline LKB1 mutations.
 
 ## Linking Summary
-
 - New links added: [[AMPK]], [[Autophagy]], [[ULK1]], [[mTORC1]], [[Cancer]], [[SIRT1]], [[SIRT3]], [[STRAD]], [[MO25]], [[TSC2]], [[Raptor]], [[Peutz-Jeghers Syndrome]]
 - Suggested new entity notes to create: [[STRAD]], [[MO25]], [[AMPK-related kinases]]
 - Strong connections to strengthen: [[LKB1]] ↔ [[AMPK]], [[LKB1]] ↔ [[Autophagy]], [[SIRT1]] ↔ [[LKB1]], [[SIRT3]] ↔ [[LKB1]]

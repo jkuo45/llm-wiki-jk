@@ -24,13 +24,15 @@ The expression of various ncRNAs changes predictably with age:
 *   **Inflammaging**: Certain miRNAs and lncRNAs promote the chronic inflammation seen in old age.
 *   **[[Cellular Senescence]]**: ncRNAs can regulate the entry into senescence and the composition of the [[SASP]].
 
-### Connections
+#
+
+## Connections
 - **[[Epigenetics]]**: ncRNAs are the "third layer" of the epigenetic code, alongside DNA methylation and histone modifications.
 - **[[MicroRNA]]**: The most well-studied class of small non-coding RNAs.
 - **[[Aging]]**: Global changes in the "non-coding transcriptome" are a hallmark of aging.
 - **[[Transposable Elements]]**: Some ncRNAs are derived from or help to silence repetitive genomic elements.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Non-coding RNA]], [[Epigenome]], [[Aging]], [[MicroRNA]], [[Histone Methyltransferase]], [[Histone Deacetylase]], [[Epigenetics]], [[Cellular Senescence]], [[SASP]], [[Transposable Elements]]
 - Suggested new entity notes to create: [[lncRNA]], [[circRNA]], [[Xist]]
 - Strong connections to strengthen: [[Non-coding RNA]] ↔ [[Epigenetics]], [[Non-coding RNA]] ↔ [[MicroRNA]]

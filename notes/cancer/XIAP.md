@@ -38,7 +38,7 @@ XIAP levels and activity are regulated by several mechanisms:
 - [[Smac-DIABLO]]: Endogenous XIAP antagonist.
 - [[TRAIL]]: XIAP antagonists enhance TRAIL-induced apoptosis.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Akt]], [[Phosphorylation]], [[Apoptosis]], [[Smac-DIABLO]]
 - Suggested new entity notes to create: [[IKKε]], [[miR-24]], [[miR-7]]
 - Strong connections to strengthen: [[XIAP]] ↔ [[Caspase-3]], [[XIAP]] ↔ [[Akt]]

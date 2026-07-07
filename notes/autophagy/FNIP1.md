@@ -22,6 +22,5 @@ The FLCN-FNIP1/2 complex converts RagC/D from its GTP-bound to GDP-bound state, 
 
 FNIP1 is ubiquitously expressed with enrichment in kidney and muscle. It is essential for [[Folliculin]]-dependent regulation of cell growth, [[Autophagy]] suppression under nutrient-replete conditions, and metabolic adaptation to fasting.
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[Folliculin]], [[FNIP2]], [[mTORC1]], [[TFE3]]

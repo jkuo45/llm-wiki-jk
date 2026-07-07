@@ -19,10 +19,12 @@ aliases: [BER]
 
 **Regulation and dysregulation:** Base Excision Repair is controlled by nutrient sensors, stress pathways, and hormonal signals. Impairment of this process is linked to metabolic diseases, neurodegeneration, and cancer.
 
-### Connections
+#
+
+## Connections
 - [[Base Excision Repair]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Base Excision Repair]]
 - Strong connections to strengthen: [[Base Excision Repair]] ↔ [[Base Excision Repair]]
 

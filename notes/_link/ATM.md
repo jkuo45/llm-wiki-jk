@@ -31,7 +31,9 @@ ATM activity declines with age in human tissues, correlating with increased geno
 - **Aging:** Individuals with monoallelic ATM mutations show intermediate phenotypes, including increased [[DNA Damage|DNA damage]] accumulation and potentially accelerated [[Epigenetic Clock|epigenetic aging]].
 
 
-### Connections
+#
+
+## Connections
 - [[Bid]] — interacts with ATM
 - [[PI3K-related kinase]] — signals through ATM
 - [[DNA Damage Response]] — interacts with ATM
@@ -40,7 +42,7 @@ ATM activity declines with age in human tissues, correlating with increased geno
 - [[Cellular Senescence]] — stable cell cycle arrest; SASP secretion; aging hallmark
 - [[MRN complex]] — interacts with ATM
 - [[MRE11]] — interacts with ATM
-### Linking Summary
+## Linking Summary
 - New links added: [[ATM]], [[Bid]], [[Phosphorylation]], [[DNA Damage]], [[DNA Damage Response]], [[Senescence]], [[Apoptosis]], [[p53]], [[Cancer]], [[SASP]]
 - Suggested new entity notes to create: [[MRN complex]], [[H2AX]], [[CHK2]], [[ATR]]
 - Strong connections to strengthen: [[ATM]] ↔ [[Bid]], [[ATM]] ↔ [[DNA Damage Response]], [[ATM]] ↔ [[Senescence]]

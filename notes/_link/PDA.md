@@ -15,10 +15,12 @@ Pancreatic Ductal Adenocarcinoma, the most common type of pancreatic cancer.
 
 
 
-### Connections
+#
+
+## Connections
 - [[Autophagy]] — related entity
 - [[Cancer]] — related entity
 - [[TFEB]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[TFEB]], [[Autophagy]], [[Cancer]]

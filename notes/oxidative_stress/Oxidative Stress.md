@@ -163,19 +163,15 @@ An integrated model recognizes that low-level oxidative stress — induced by [[
 ## Autophagy Connection (Therapeutic Axis)
 ROS are potent [[Autophagy]] inducers. [[Hydrogen Peroxide]] directly activates [[AMPK]] and [[Atg4]] oxidation, and promotes [[TFEB]] nuclear translocation via [[TRPML1]]-[[calcineurin]] signaling (oxidation at TFEB C212 enhances its transcriptional activity). [[Mitophagy]] selectively removes ROS-producing damaged [[Mitochondria]], and conversely, autophagy deficiency elevates ROS by failing to clear damaged organelles. From a therapeutic perspective, autophagy-enhancing strategies ([[Spermidine]], [[Trehalose]]) may more effectively mitigate oxidative damage than direct antioxidant supplementation, which has shown mixed clinical results.
 
-### Linking Summary
-
-- New links added: [[Reactive Oxygen Species]], [[Adrenochrome]], [[Oxidation]], [[Epinephrine]], [[Superoxide anion]], [[Hydrogen Peroxide]], [[Hydroxyl radical]], [[COMT]], [[MAO]], [[Redox Cycling]], [[Neuromelanin]], [[Cardiotoxicity]], [[Smoking]], [[Inflammation]], [[Neutrophils]], [[Myeloperoxidase]], [[Aminochromes]], [[Antioxidants]], [[Superoxide Dismutase]], [[Catalase]], [[Glutathione Peroxidase]], [[Atherosclerosis]], [[Cancer]], [[Alzheimer's Disease]], [[Proteins]], [[Lipids]], [[Nucleic Acids]], [[Parkinson's Disease]], [[Dopamine]], [[Substantia Nigra]], [[Iron]], [[Mitochondrial Dysfunction]], [[Fenton Reaction]], [[Fenbendazole]], [[Cisplatin]], [[Doxorubicin]], [[Free Radicals]], [[Catecholamines]]
+## Linking Summary
+- New links added: [[Reactive Oxygen Species]], [[Mitochondria]], [[Superoxide Dismutase]], [[Glutathione]], [[Ascorbic Acid]], [[Vitamin E]], [[NRF2]], [[Aging]], [[Inflammation]], [[Cardiovascular Disease]], [[Neurodegenerative Diseases]], [[Cancer]], [[Diabetes Mellitus]], [[Mitohormesis]], [[Redox Signaling]], [[Catalase]], [[Glutathione Peroxidase]], [[Melatonin]], [[Uric Acid]], [[NADPH Oxidase]], [[Myeloperoxidase]]
+- Suggested new entity notes to create: [[Redox Signaling]], [[Lipid Peroxidation]], [[Fenton Chemistry]], [[Protein Carbonylation]]
+- Strong connections to strengthen: [[Oxidative Stress]] ↔ [[Aging]], [[Oxidative Stress]] ↔ [[Inflammation]], [[Oxidative Stress]] ↔ [[Mitochondria]]
 - Suggested new entity notes to create: [[Fenton Reaction]], [[Lipids]], [[Nucleic Acids]], [[Proteins]], [[Antioxidants]]
-- Strong connections to strengthen: [[Oxidative Stress]] ↔ [[Reactive Oxygen Species]], [[Oxidative Stress]] ↔ [[Mitochondrial Dysfunction]], [[Oxidative Stress]] ↔ [[COMT]]
 - New links added: [[Advanced Glycation End Products]], [[Inflammation]], [[Aging]], [[Helmut Sies]], [[Redox Signaling]], [[Superoxide anion]], [[Hydrogen Peroxide]], [[Hydroxyl radical]], [[Peroxynitrite]], [[Mitochondrial Complex I]], [[NADPH Oxidase]], [[Myeloperoxidase]], [[Xanthine Oxidase]], [[Cytochrome P450]], [[MAO]], [[SOD1]], [[SOD2]], [[Catalase]], [[Glutathione Peroxidase]], [[Peroxiredoxin]], [[Thioredoxin reductase]], [[Glutathione]], [[Vitamin C]], [[Vitamin E]], [[Uric Acid]], [[Melatonin]], [[Autoxidation]], [[o-Semiquinone]], [[o-quinone]], [[Aminochrome]], [[Melanins]], [[Redox Cycling]], [[Fenton chemistry]], [[Lipids]], [[PUFAs]], [[4-HNE]], [[MDA]], [[DNA]], [[8-oxo-dG]], [[Protein Tyrosine Phosphatases]], [[Receptor Tyrosine Kinases]], [[NRF2]], [[Mitohormesis]], [[FOXO]], [[Mitoc[[Oxidative Stress]][[p38]], [[Apoptosis]], [[Cell necrosis]], [[MPTP]], [[PARP]], [[NADPH]], [[NADP⁺]], [[Thioredoxin]]
 - Suggested new entity notes to create: [[Redox Threshold]], [[Redox Signaling]], [[Fenton Reaction]]
 - Suggested new entity notes to create: [[Mitohormesis]], [[MitoQ]], [[SS-31]], [[p38 MAPK]]### New Linking Summary (Added 2026-07-04):
-- New links added: [[Peroxynitrite]], [[Reactive Nitrogen Species]], [[Catalase]], [[Glutathione Peroxidase]], [[Coenzyme Q10]], [[Alpha-Lipoic Acid]], [[Vitamin E]], [[Ascorbic Acid]], [[Glutathione]], [[NRF2]], [[DNA Damage]], [[DNA Repair]], [[Autophagy]], [[Proteasome]], [[Exercise]], [[Caloric Restriction]], [[Mitohormesis]], [[Lipid Peroxidation]], [[Malondialdehyde]], [[4-Hydroxynonenal]], [[Mitochondrial Biogenesis]], [[Chronic Obstructive Pulmonary Disease]], [[Diabetes Mellitus]]
-- Suggested new entity notes to create: [[Mitohormesis]], [[Redox Code]], [[4-Hydroxynonenal]], [[Keap1]], [[PTEN]], [[Protein Tyrosine Phosphatases]]
-- Strong connections to strengthen: [[Oxidative Stress]] ↔ [[Mitochondria]], [[Oxidative Stress]] ↔ [[NRF2]], [[Oxidative Stress]] ↔ [[Lipid Peroxidation]]
-
-### New Linking Summary (Added 2026-07-04, _link merge):
+- New links added: [[Peroxynitrite]], [[Reactive Nitrogen Species]], [[Catalase]], [[Glutathione Peroxidase]], [[Coenzyme Q10]], [[Alpha-Lipoic Acid]], [[Vitamin E]], [[Ascorbic Acid]], [[Glutathione]], [[NRF2]], [[DNA Damage]], [[DNA Repair]], [[Autophagy]], [[Proteasome]], [[Exercise]], [[Caloric Restriction]], [[Mitohormesis]], [[Lipid Peroxidation]], [[Malondialdehyde]], [[4-Hydroxynonenal]], [[Mitochondrial Biogenesis]], [[Chronic Obstructive Pulmonary Disease]], [[Diabetes Mellitus]]### New Linking Summary (Added 2026-07-04, _link merge):
 - New links added: [[AMPK]], [[Atg4]], [[TFEB]], [[TRPML1]], [[calcineurin]], [[Spermidine]], [[Trehalose]]
 - Strong connections to strengthen: [[Oxidative Stress]] ↔ [[Autophagy]], [[Oxidative Stress]] ↔ [[AMPK]], [[Oxidative Stress]] ↔ [[TFEB]]
 
@@ -350,8 +346,3 @@ ROS are potent inducers of [[Stress-Induced Premature Senescence|premature senes
 - [[Cancer]] — DNA damage and mutagenesis
 - [[Diabetes Mellitus]] — β-cell dysfunction, insulin resistance
 
-## Linking Summary
-
-- New links added: [[Reactive Oxygen Species]], [[Mitochondria]], [[Superoxide Dismutase]], [[Glutathione]], [[Ascorbic Acid]], [[Vitamin E]], [[NRF2]], [[Aging]], [[Inflammation]], [[Cardiovascular Disease]], [[Neurodegenerative Diseases]], [[Cancer]], [[Diabetes Mellitus]], [[Mitohormesis]], [[Redox Signaling]], [[Catalase]], [[Glutathione Peroxidase]], [[Melatonin]], [[Uric Acid]], [[NADPH Oxidase]], [[Myeloperoxidase]]
-- Suggested new entity notes to create: [[Redox Signaling]], [[Lipid Peroxidation]], [[Fenton Chemistry]], [[Protein Carbonylation]]
-- Strong connections to strengthen: [[Oxidative Stress]] ↔ [[Aging]], [[Oxidative Stress]] ↔ [[Inflammation]], [[Oxidative Stress]] ↔ [[Mitochondria]]

@@ -39,7 +39,7 @@ Bax activity and stability are regulated by several pathways:
 - [[JNK]] / [[p38 MAPK]] / [[GSK3]]: Activators of Bax.
 - [[IBRDC2]]: E3 ligase for Bax.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[MOMP]], [[Akt]], [[JNK]], [[p38 MAPK]], [[GSK3]], [[PKCζ]], [[IBRDC2]], [[Bcl-xL]], [[Phosphorylation]], [[Ubiquitination]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[Bax]] ↔ [[Akt]], [[Bax]] ↔ [[IBRDC2]]
@@ -48,7 +48,3 @@ Bax activity and stability are regulated by several pathways:
 
 [[SIRT1]] deacetylates [[Ku70]], and deacetylated Ku70 sequesters pro-apoptotic Bax away from mitochondria, thereby suppressing apoptosis. This is a key mechanism by which SIRT1 promotes cell survival under stress.
 
-### Linking Summary (Sirtuin Additions):
-- New links added: [[SIRT1]], [[Ku70]]
-- Suggested new entity notes to create:
-- Strong connections to strengthen: [[Bax]] ↔ [[SIRT1]], [[Bax]] ↔ [[Ku70]]

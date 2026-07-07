@@ -19,10 +19,12 @@ aliases: [Rac]
 
 **Pathological significance:** Altered expression or mutation of Rac GTPase is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
 
-### Connections
+#
+
+## Connections
 - [[Rac GTPase]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Rac GTPase]]
 - Strong connections to strengthen: [[Rac GTPase]] ↔ [[Rac GTPase]]
 

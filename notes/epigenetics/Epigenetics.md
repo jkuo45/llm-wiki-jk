@@ -24,13 +24,15 @@ Epigenetics is what allows a single fertilized egg to develop into hundreds of d
 ### 3. Environmental Influence
 Unlike the static genome, the [[Epigenome]] is highly dynamic and can be influenced by diet, stress, exercise, and exposure to toxins. This makes epigenetics the primary interface between our genes and our environment.
 
-### Connections
+#
+
+## Connections
 - **[[Epigenome]]**: The collective state of all epigenetic marks in a cell.
 - **[[Aging]]**: Epigenetic changes are a core hallmark of the aging process.
 - **[[DNA Methylation]]**: A primary mechanism of epigenetic regulation.
 - **[[Histone Modification]]**: A mechanism that controls the accessibility of the genome.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Epigenetics]], [[DNA Methylation]], [[Histone Modification]], [[Chromatin]], [[Non-coding RNA]], [[MicroRNA]], [[Aging]], [[Epigenome]]
 - Suggested new entity notes to create: [[Epigenetic Drift]], [[Chromatin Remodeling]], [[Gene Silencing]]
 - Strong connections to strengthen: [[Epigenetics]] ↔ [[Aging]], [[Epigenetics]] ↔ [[DNA Methylation]]

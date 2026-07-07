@@ -19,10 +19,12 @@ aliases: [NER]
 
 **Regulation and dysregulation:** Nucleotide Excision Repair is controlled by nutrient sensors, stress pathways, and hormonal signals. Impairment of this process is linked to metabolic diseases, neurodegeneration, and cancer.
 
-### Connections
+#
+
+## Connections
 - [[Nucleotide Excision Repair]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Nucleotide Excision Repair]]
 - Strong connections to strengthen: [[Nucleotide Excision Repair]] ↔ [[Nucleotide Excision Repair]]
 

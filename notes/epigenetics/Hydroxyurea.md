@@ -11,7 +11,7 @@ entity_type_1: Chemical Compound
 # Hydroxyurea
 Hydroxyurea is a chemical compound and antineoplastic drug that inhibits ribonucleotide reductase, leading to the depletion of dNTP pools and induction of replication stress.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[DNA Replication Stress]], [[Senescence]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Hydroxyurea]] <-> [[DNA Replication Stress]]

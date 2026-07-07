@@ -19,10 +19,12 @@ aliases: [TSA]
 
 **Safety and toxicity:** The safety profile of Trichostatin A depends on dose, duration of exposure, and individual susceptibility. Understanding its toxicology is essential for safe therapeutic use.
 
-### Connections
+#
+
+## Connections
 - [[Trichostatin A]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Trichostatin A]]
 - Strong connections to strengthen: [[Trichostatin A]] ↔ [[Trichostatin A]]
 

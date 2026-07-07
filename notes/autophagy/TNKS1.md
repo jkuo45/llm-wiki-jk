@@ -19,8 +19,7 @@ Tankyrase 1 (TNKS1) is a poly-ADP-ribosyltransferase (PARP family) that modifies
 
 TNKS1 PARsylates [[ULK1]] and [[TFEB]] to regulate their stability and activity. TNKS inhibition (e.g., XAV939, G007-LK) stabilizes ULK1 and enhances [[Autophagic Flux]], making tankyrases therapeutic targets for autophagy induction in neurodegeneration.
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[TFEB]]
 - Suggested new entity notes to create: [[PARsylation]]
 - Strong connections to strengthen: [[TNKS1]] ↔ [[TFEB]]

@@ -19,10 +19,12 @@ aliases: [RAD001, Afinitor]
 
 **Safety and toxicity:** The safety profile of Everolimus depends on dose, duration of exposure, and individual susceptibility. Understanding its toxicology is essential for safe therapeutic use.
 
-### Connections
+#
+
+## Connections
 - [[Everolimus]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Everolimus]]
 - Strong connections to strengthen: [[Everolimus]] ↔ [[Everolimus]]
 

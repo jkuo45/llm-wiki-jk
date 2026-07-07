@@ -20,8 +20,7 @@ TGF-β is a pleiotropic cytokine that signals via SMAD2/3 phosphorylation by the
 
 TGF-β induces [[Autophagy]] via SMAD3-dependent upregulation of autophagy genes. It also activates [[mTORC1]] in certain contexts, creating complex, context-dependent regulation.
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[SMAD3]], [[TFEB]]
 - Suggested new entity notes to create: [[Cytokines]]
 - Strong connections to strengthen: [[TGF-β]] ↔ [[SMAD3]]

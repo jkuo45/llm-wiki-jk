@@ -19,10 +19,12 @@ aliases: [CCL2, Monocyte Chemoattractant Protein 1]
 
 **Pathological significance:** Altered expression or mutation of MCP-1 is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
 
-### Connections
+#
+
+## Connections
 - [[MCP-1]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[MCP-1]]
 - Strong connections to strengthen: [[MCP-1]] ↔ [[MCP-1]]
 

@@ -26,7 +26,7 @@ aliases: [C. elegans lysosomal lipase 3]
 
 LIPL-3 is a C. elegans lysosomal lipase involved in [[Lipophagy]] and fat storage mobilization.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[C. elegans]], [[LIPL-1]], [[Lysosomal Lipolysis]], [[Lipophagy]], [[Lysosomal Acid Lipase]], [[LAL]], [[PGP-2]], [[MXL-3]], [[HLH-30]], [[Fasting]]
 - Suggested new entity notes to create: [[LIPL-2]], [[LIPL-4]], [[LIPL-5]]
 - Strong connections to strengthen: [[LIPL-3]] ↔ [[LIPL-1]], [[LIPL-3]] ↔ [[HLH-30]]

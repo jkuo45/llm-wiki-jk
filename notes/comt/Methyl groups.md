@@ -27,5 +27,5 @@ The [[COMT]] enzyme requires [[SAMe]] as a source of [[Methyl groups]] to metabo
 - [[SAMe]]: The primary methyl donor in the body.
 
 ---
-### Linking Summary:
+## Linking Summary
 - New links added: [[Methylation]], [[Catechols]], [[COMT]], [[Serotonin]], [[Melatonin]], [[SAMe]].

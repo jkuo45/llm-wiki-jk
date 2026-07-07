@@ -19,7 +19,7 @@ Sestrin2 is a stress-inducible leucine sensor and oxidoreductase. It inhibits [[
 
 Sestrin2 activates [[Autophagy]] under stress conditions such as hypoxia, genotoxic stress, and metabolic stress. It also functions as an antioxidant by reducing [[Peroxiredoxin]].
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[mTORC1]], [[GATOR2]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[Sestrin2]] ↔ [[mTORC1]]

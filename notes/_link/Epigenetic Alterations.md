@@ -19,10 +19,12 @@ aliases: [Epigenetic Modifications]
 
 **Regulation and dysregulation:** Epigenetic Alterations is controlled by nutrient sensors, stress pathways, and hormonal signals. Impairment of this process is linked to metabolic diseases, neurodegeneration, and cancer.
 
-### Connections
+#
+
+## Connections
 - [[Epigenetic Alterations]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Epigenetic Alterations]]
 - Strong connections to strengthen: [[Epigenetic Alterations]] ↔ [[Epigenetic Alterations]]
 

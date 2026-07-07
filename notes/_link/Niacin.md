@@ -19,10 +19,12 @@ aliases: [Vitamin B3, Nicotinic Acid]
 
 **Clinical significance:** Altered levels of Niacin are observed in metabolic disorders, mitochondrial diseases, and nutritional deficiencies. Supplementation or pharmacological modulation of this metabolite has therapeutic potential.
 
-### Connections
+#
+
+## Connections
 - [[Niacin]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Niacin]]
 - Strong connections to strengthen: [[Niacin]] ↔ [[Niacin]]
 

@@ -21,13 +21,15 @@ IGF-1 signaling interacts with several other key aging pathways:
 ### 3. Epigenetic Regulation
 The expression of IGF-1 and its downstream components is subject to epigenetic control, including [[DNA Methylation]] and [[MicroRNA|miRNA]] regulation, which can change in response to diet and lifestyle.
 
-### Connections
+#
+
+## Connections
 - **[[Aging]]**: IGF-1 is a primary regulator of the rate of aging across species.
 - **[[mTOR]]**: A major downstream effector of IGF-1 signaling.
 - **[[Caloric Restriction]]**: CR extends lifespan in part by lowering systemic IGF-1 levels.
 - [[SIRT1]]: Interacts with the IGF-1 pathway to modulate stress resistance.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[IGF1]], [[Aging]], [[Model Organisms]], [[Caenorhabditis elegans]], [[Drosophila melanogaster]], [[mTOR]], [[Autophagy]], [[AMPK]], [[DNA Methylation]], [[MicroRNA]], [[Caloric Restriction]], [[SIRT1]]
 - Suggested new entity notes to create: [[Somatotropic Axis]], [[Growth Hormone]], [[FOXO Transcription Factors]]
 - Strong connections to strengthen: [[IGF1]] ↔ [[Aging]], [[IGF1]] ↔ [[mTOR]]

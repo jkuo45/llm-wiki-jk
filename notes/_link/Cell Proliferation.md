@@ -12,8 +12,9 @@ entity_type_1: Enzyme
 
 Cell proliferation is the process by which cells grow and divide to produce daughter cells, tightly regulated by [[Growth Factor]] signaling, [[Cell Cycle]] checkpoints, and [[Cell Division]] machinery. It is essential for development, tissue homeostasis, and [[Wound Healing]]. Key regulators include [[Cyclin]]/[[CDK]] complexes, [[Rb]], [[E2F]], [[MYC]], [[RAS]], and [[PI3K]]/[[AKT]]/[[mTORC1]] signaling. Dysregulated proliferation is a hallmark of [[Cancer]], driven by [[Oncogene]] activation and [[Tumor Suppressor]] inactivation. [[Cellular Senescence]] and [[Apoptosis]] serve as brakes on uncontrolled proliferation.
 
-### Connections
+#
 
+## Connections
 - [[Cell Cycle]] — the ordered sequence driving proliferation
 - [[Cell Division]] — the physical process of producing daughter cells
 - [[Growth Factor]] — external signals promoting proliferation
@@ -26,8 +27,7 @@ Cell proliferation is the process by which cells grow and divide to produce daug
 - [[Apoptosis]] — programmed cell death opposing proliferation
 - [[Cellular Senescence]] — permanent cell cycle arrest
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[Cell Cycle]], [[Cell Division]], [[Growth Factor]], [[Cyclin]], [[CDK]], [[Rb]], [[E2F]], [[MYC]], [[RAS]], [[PI3K]], [[AKT]], [[mTORC1]], [[Cancer]], [[Oncogene]], [[Tumor Suppressor]], [[Apoptosis]], [[Cellular Senescence]], [[Wound Healing]]
 - Suggested new entity notes to create: [[Growth Factor Signaling]], [[Cyclin-CDK Complex]]
 - Strong connections to strengthen: [[Cell Proliferation]] ↔ [[Cell Cycle]], [[Cell Proliferation]] ↔ [[Cancer]]

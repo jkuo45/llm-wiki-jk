@@ -47,11 +47,9 @@ In dermatology, singlet oxygen mediates UV-induced photoaging and photocarcinoge
 - [[Neutrophils]]: Primary immune cells that generate singlet oxygen via MPO.
 - [[Apoptosis]]: A downstream outcome of PDT-generated singlet oxygen in tumor cells.
 
-### Linking Summary:
+## Linking Summary
+- New links added: [[Myeloperoxidase]], [[Neutrophils]], [[Hydrogen Peroxide]], [[Respiratory Burst]], [[Lipid Peroxidation]], [[DNA]], [[8-oxo-2'-deoxyguanosine]], [[Cancer]], [[Apoptosis]], [[ECM]], [[Melatonin]], [[Ascorbic Acid]], [[Beta-carotene]], [[Uric Acid]]
+- Suggested new entity notes to create: [[Photodynamic Therapy]], [[Photosensitizer]], [[Solar Elastosis]], [[Type II Photooxidation]]
 - New links added: [[Reactive Oxygen Species]], [[Alpha-Lipoic Acid]], [[Vitamin E]]
 - Suggested new entity notes to create: [[Photosensitization]], [[Myeloperoxidase]]
 - Strong connections to strengthen: [[Singlet Oxygen]] ↔ [[Vitamin E]]
-
-### New Linking Summary (Added 2026-07-04):
-- New links added: [[Myeloperoxidase]], [[Neutrophils]], [[Hydrogen Peroxide]], [[Respiratory Burst]], [[Lipid Peroxidation]], [[DNA]], [[8-oxo-2'-deoxyguanosine]], [[Cancer]], [[Apoptosis]], [[ECM]], [[Melatonin]], [[Ascorbic Acid]], [[Beta-carotene]], [[Uric Acid]]
-- Suggested new entity notes to create: [[Photodynamic Therapy]], [[Photosensitizer]], [[Solar Elastosis]], [[Type II Photooxidation]]

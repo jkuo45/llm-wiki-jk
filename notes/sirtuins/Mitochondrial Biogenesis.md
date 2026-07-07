@@ -33,6 +33,5 @@ aliases:
 - [[Type 2 Diabetes Mellitus]]: Impaired [[Mitochondrial Biogenesis]] is a hallmark of insulin resistance.
 - [[Longevity]]: Enhanced [[Mitochondrial Biogenesis]] is associated with extended healthspan.
 
-### Linking Summary:
-
+## Linking Summary
 - New links added: [[PGC-1α]], [[SIRT1]], [[SIRT3]], [[SIRT7]], [[AMPK]], [[NAD+]], [[Nicotinamide Mononucleotide]], [[Nicotinamide Riboside]], [[TFEB]], [[Exercise]], [[Caloric Restriction]], [[Mitochondria]], [[Oxidative Phosphorylation]], [[Insulin Sensitivity]], [[Type 2 Diabetes Mellitus]], [[Longevity]], [[Reactive Oxygen Species]]

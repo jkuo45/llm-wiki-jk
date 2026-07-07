@@ -34,7 +34,6 @@ The French Paradox spurred extensive investigation into:
 - Later large-scale studies have questioned whether moderate alcohol confers net cardiovascular benefit, though polyphenol-specific effects remain of interest
 
 ## Linking Summary
-
 - New links added: [[Cardiovascular Disease]], [[Atherosclerosis]], [[Resveratrol]], [[Mediterranean Diet]], [[Stilbene]], [[Sirtuins]], [[SIRT1]], [[Antioxidants]], [[Endothelial Dysfunction]], [[Nitric Oxide]], [[Oxidative Stress]], [[Polyphenols]]
 - Suggested new entity notes to create: None
 - Strong connections to strengthen: [[French Paradox]] ↔ [[Resveratrol]], [[French Paradox]] ↔ [[Mediterranean Diet]]

@@ -117,7 +117,9 @@ Polyphenols cross the [[Blood-Brain Barrier]] and protect against [[Neurodegener
 - [[Obesity]]: Anthocyanins reduce adipocyte differentiation
 - [[Metabolic Syndromes]]: Reduced oxidative stress and inflammation
 
-### Connections
+#
+
+## Connections
 - [[Flavonoids]]
 - [[Oxidative Stress]]
 - [[Cancer]]
@@ -129,7 +131,7 @@ Polyphenols cross the [[Blood-Brain Barrier]] and protect against [[Neurodegener
 - [[Melatonin]]: Synergistic antioxidant with polyphenols
 - [[NRF2]]: Key downstream mediator of polyphenol benefits
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Glycation]], [[Advanced Glycation End Products]], [[Flavonoids]], [[Reactive Oxygen Species]], [[Oxidative Stress]], [[Cancer]]
 - Suggested new entity notes to create: [[Phenolic acids]], [[Phenol units]], [[Prooxidant effects]]
 - Strong connections to strengthen: [[Polyphenols]] ↔ [[Antioxidants]], [[Polyphenols]] ↔ [[Flavonoids]]

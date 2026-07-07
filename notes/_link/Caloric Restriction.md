@@ -169,14 +169,8 @@ When cells become nutrient-starved, sirtuin-**independent** pathways such as **T
 [[Resveratrol]] is the prototypical **CR mimetic** — a small molecule that recapitulates many physiological effects of CR (improved insulin sensitivity, mitochondrial biogenesis, metabolic reprogramming) via SIRT1 activation without requiring food restriction.
 
 ## Linking Summary
-
 - New links added: [[SIRT1]], [[Sir2 (yeast)]], [[SIRT3]], [[SIRT4]], [[NAD+]], [[Resveratrol]], [[PGC-1α]], [[Longevity]]
 - Suggested new entity notes to create: [[TOR (Target of Rapamycin)]], [[Adiponectin]], [[Longevity]]
 - Strong connections to strengthen: [[Caloric Restriction]] ↔ [[SIRT1]], [[Caloric Restriction]] ↔ [[Sir2 (yeast)]], [[Caloric Restriction]] ↔ [[Longevity]]
-
-Caloric restriction (CR) is a dietary regimen that reduces calorie intake without incurring malnutrition or a reduction in essential nutrients. It has been shown to increase lifespan and reduce oxidative stress in various model organisms, potentially by lowering the intake of dietary [[Advanced Glycation End Products|AGEs]].
-
-### Linking Summary:
 - New links added: [[Advanced Glycation End Products]], [[Oxidative Stress]], [[Lifespan]]
-- Suggested new entity notes to create: 
-- Strong connections to strengthen: [[Caloric Restriction]] ↔ [[Longevity]]
+- Suggested new entity notes to create:

@@ -26,7 +26,7 @@ The primary function of the DISC is to facilitate the proximity-induced auto-act
 - [[Caspase-8]]: The enzyme activated within the DISC.
 - [[Intrinsic Pathway]]: Linked to the DISC via [[Bid]] cleavage.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Apoptosis]], [[Extrinsic Pathway]], [[Fas]], [[DR4]], [[DR5]], [[TNFR1]], [[FADD]], [[TRADD]], [[Caspase-8]], [[Caspase-10]], [[Caspase-3]], [[Intrinsic Pathway]], [[Bid]]
 - Suggested new entity notes to create: [[Caspase-10]]
 - Strong connections to strengthen: [[DISC]] ↔ [[Caspase-8]], [[DISC]] ↔ [[FADD]]

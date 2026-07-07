@@ -20,8 +20,7 @@ METTL3 is the catalytic subunit of the m6A methyltransferase complex. It install
 
 METTL3-mediated m6A methylation of autophagy gene transcripts (e.g., [[ULK1]], [[Beclin1]], [[LC3B]]) modulates their expression. Dysregulated m6A in autophagy genes is implicated in cancer and metabolic disease.
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[TFEB]]
 - Suggested new entity notes to create: [[m6A Modification]]
 - Strong connections to strengthen: [[METTL3]] ↔ [[TFEB]]

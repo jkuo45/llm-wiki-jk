@@ -21,7 +21,7 @@ aliases: [C. elegans LC3 ortholog]
 
 LGG-1 is the C. elegans ortholog of mammalian [[LC3]] for autophagosome formation and [[Autophagy]] reporter in worm studies.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[C. elegans]], [[Atg8]], [[LC3]], [[Autophagosome]], [[Fasting]], [[Starvation]], [[HLH-30]], [[LGG-2]], [[Lipid Droplet]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[LGG-1]] ↔ [[HLH-30]], [[LGG-1]] ↔ [[Lipophagy]]

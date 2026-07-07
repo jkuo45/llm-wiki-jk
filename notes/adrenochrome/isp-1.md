@@ -25,7 +25,6 @@ Mutations in *isp-1* reduce mitochondrial respiration and lead to a significant 
 - [[Reactive Oxygen Species]]
 
 ## Linking Summary
-
 - New links added: [[Mitochondria]], [[Mitohormesis]], [[clk-1]], [[nuo-6]], [[Reactive Oxygen Species]]
 - Suggested new entity notes to create: [[Complex III]]
 - Strong connections to strengthen: [[isp-1]] ↔ [[Mitochondrial Respiration]]

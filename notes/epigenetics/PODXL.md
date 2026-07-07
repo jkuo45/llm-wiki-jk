@@ -22,5 +22,5 @@ During the early stages of [[Cellular Reprogramming]] (24-72 hours post-inductio
 - [[Cellular Reprogramming]]: Its early expression makes it a valuable tool for monitoring and enriching reprogramming cells.
 - [[OSKM]]: The factors that drive the expression of PODXL in somatic cells.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Embryonic Stem Cells]], [[Induced Pluripotent Stem Cells]], [[Cellular Reprogramming]], [[OSKM]]

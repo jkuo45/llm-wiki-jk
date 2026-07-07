@@ -17,7 +17,7 @@ In the context of [[Parkinson's Disease]], microgliosis is a key component of th
 - **Neuronophagia:** Activated microglia are often observed surrounding and phagocytizing extracellular neuromelanin granules, a process known as [[Neuronophagia]].
 - **Progression of Disease:** While initially a protective response to clear debris, chronic microgliosis can lead to the release of neurotoxic factors, contributing to the progressive nature of PD.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Parkinson's Disease]], [[Neuroinflammation]], [[Substantia Nigra]], [[Neuromelanin]], [[Neuronophagia]].
 - Suggested new entity notes to create: [[Cytokines]], [[Reactive Oxygen Species]].
 - Strong connections to strengthen: [[Microgliosis]] ↔ [[Neuroinflammation]].

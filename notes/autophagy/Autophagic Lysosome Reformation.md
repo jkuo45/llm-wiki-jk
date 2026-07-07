@@ -17,7 +17,7 @@ aliases: [ALR]
 
 ALR regenerates functional [[Lysosome]]s from degradative [[Autolysosome]]s. Tubules extrude from the autolysosome and bud into protolysosomes via clathrin-mediated membrane sorting.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Lysosome]], [[Autolysosome]], [[mTOR]], [[PIKfyve]], [[PtdIns(4,5)P2]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[Autophagic Lysosome Reformation]] ↔ [[Lysosome]]

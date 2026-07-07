@@ -35,7 +35,6 @@ PML-NBs recruit specific proteins to regulate cellular aging and tumor suppressi
 - [[HIC1]] — transcript repressor of SIRT1; also involved in the p53 tumor suppressive feedback loop
 
 ## Linking Summary
-
 - New links added: [[SIRT1]], [[p53]], [[HIC1]]
 - Suggested new entity notes to create: [[PML Nuclear Bodies]], [[Cellular Senescence]], [[PML-IV]]
 - Strong connections to strengthen: [[PML]] ↔ [[SIRT1]], [[PML]] ↔ [[p53]]

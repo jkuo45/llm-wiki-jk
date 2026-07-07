@@ -27,7 +27,7 @@ The primary function of the apoptosome is to facilitate the activation of [[Casp
 - [[Cytochrome c]]: The trigger for apoptosome assembly.
 - [[Caspase-9]]: The enzyme activated by the apoptosome.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Intrinsic Pathway]], [[Apoptosis]], [[Apaf-1]], [[Cytochrome c]], [[Caspase-9]], [[Caspase-3]]
 - Suggested new entity notes to create: [[Caspase-9]]
 - Strong connections to strengthen: [[Apoptosome]] ↔ [[Caspase-9]], [[Apoptosome]] ↔ [[Apaf-1]]

@@ -18,10 +18,12 @@ entity_type_1: Metabolite
 
 **Clinical significance:** Altered levels of Superoxide are observed in metabolic disorders, mitochondrial diseases, and nutritional deficiencies. Supplementation or pharmacological modulation of this metabolite has therapeutic potential.
 
-### Connections
+#
+
+## Connections
 - [[Superoxide]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Superoxide]]
 - Strong connections to strengthen: [[Superoxide]] ↔ [[Superoxide]]
 

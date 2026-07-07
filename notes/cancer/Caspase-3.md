@@ -60,7 +60,6 @@ Caspase-3 activity is modulated by post-translational modifications:
 - [[PKCδ]] / [[p38 MAPK]]: Regulatory kinases for Caspase-3.
 
 ## Linking Summary
-
 - New links added: [[p38 MAPK]], [[PP2A]], [[Phosphorylation]], [[PARP1]], [[Caspase-9]], [[Caspase-8]], [[XIAP]], [[melittin]]
 - Suggested new entity notes to create: [[ICAD]], [[DFF45]], [[DISC (Death-Inducing Signalling Complex)]]
 - Strong connections to strengthen: [[Caspase-3]] ↔ [[PKCδ]], [[Caspase-3]] ↔ [[p38 MAPK]], [[Caspase-3]] ↔ [[PARP1]]

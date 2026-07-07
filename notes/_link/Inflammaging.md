@@ -25,7 +25,9 @@ Inflammaging contributes to the pathogenesis of various conditions, including:
 Strategies to reduce inflammaging include [[Autophagy Inducer|autophagy induction]], anti-inflammatory diets, and interventions targeting the [[Immune System]]'s rejuvenation.
 
 
-### Connections
+#
+
+## Connections
 - [[Aging]] — progressive decline in physiological function; primary risk factor
 - [[Cytokines]] — interacts with Inflammaging
 - [[IL-6]] — pleiotropic pro-inflammatory cytokine; core SASP component
@@ -34,7 +36,7 @@ Strategies to reduce inflammaging include [[Autophagy Inducer|autophagy inductio
 - [[Senescence]] — interacts with Inflammaging
 - [[Senescence-Associated Secretory Phenotype]] — interacts with Inflammaging
 - [[Innate Immune System]] — interacts with Inflammaging
-### Linking Summary
+## Linking Summary
 - New links added: [[Aging]], [[Inflammation]], [[Immunosenescence]], [[Cardiovascular Disease]], [[Diabetes Mellitus]], [[Cytokines]], [[IL-6]], [[TNFA]], [[IL-1b]], [[Senescence]], [[Senescence-Associated Secretory Phenotype]], [[Innate Immune System]], [[Atherosclerosis]], [[Type 2 Diabetes Mellitus]], [[Alzheimer's Disease]], [[Osteoarthritis]], [[Autophagy Inducer]], [[Immune System]]
 - Suggested new entity notes to create: [[Systemic Inflammation]], [[Senescence-Associated Secretory Phenotype]], [[Innate Immune System]]
 - Strong connections to strengthen: [[Inflammaging]] ↔ [[Cellular Senescence]], [[Inflammaging]] ↔ [[Aging]], [[Inflammaging]] ↔ [[Senescence]]

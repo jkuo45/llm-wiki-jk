@@ -31,5 +31,5 @@ The [[Val158Met]] polymorphism impacts:
 - [[Methylation]]: Slow COMT (Met/Met) individuals are often more sensitive to changes in the methylation cycle.
 
 ---
-### Linking Summary:
+## Linking Summary
 - New links added: [[SNP]], [[COMT]], [[Dopamine]], [[Prefrontal Cortex]], [[Cognitive Performance]], [[Working Memory]], [[Methyl Donor]], [[COMT Inhibitors]], [[Psychiatric Disorders]], [[Schizophrenia]], [[Modafinil]], [[Aspirin]], [[Methylation]].

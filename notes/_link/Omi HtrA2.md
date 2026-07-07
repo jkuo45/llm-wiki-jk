@@ -21,8 +21,9 @@ HtrA2 contains an N-terminal [[Mitochondrial Targeting Sequence]], a [[Serine Pr
 
 HtrA2 mutations (e.g., [[HtrA2-G399S]]) are associated with [[Parkinson's Disease]] risk. HtrA2 knockout mice develop a [[Neurodegeneration|neurodegenerative]] phenotype with [[Mitochondrial Dysfunction]] and motor deficits. HtrA2 is also implicated in [[Cancer]] — overexpression promotes apoptosis, while loss confers chemoresistance.
 
-### Connections
+#
 
+## Connections
 - [[Apoptosis]] — HtrA2 promotes apoptosis by antagonizing IAPs
 - [[Mitochondria]] — HtrA2 localizes to the mitochondrial intermembrane space
 - [[XIAP]] — HtrA2 binds and inhibits XIAP via its IAP-binding motif
@@ -32,8 +33,7 @@ HtrA2 mutations (e.g., [[HtrA2-G399S]]) are associated with [[Parkinson's Diseas
 - [[Serine Protease]] — HtrA2's enzymatic activity maintains mitochondrial proteostasis
 - [[Proteostasis]] — HtrA2 degrades misfolded mitochondrial proteins
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[Mitochondria]], [[Cytosol]], [[Serine Protease]], [[Protease]], [[Apoptosis]], [[XIAP]], [[cIAP1]], [[cIAP2]], [[Caspase]], [[Parkinson's Disease]], [[Neurodegeneration]], [[Mitochondrial Dysfunction]], [[UV Radiation]], [[Staurosporine]], [[Proteostasis]], [[Cancer]]
 - Suggested new entity notes to create: [[IAP-binding motif]], [[Mitochondrial intermembrane space]], [[PDZ domain]], [[HtrA2-G399S]], [[Serine protease HTRA family]]
 - Strong connections to strengthen: [[Omi-HtrA2]] ↔ [[Apoptosis]], [[Omi-HtrA2]] ↔ [[Parkinson's Disease]]

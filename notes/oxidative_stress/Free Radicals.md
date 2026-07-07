@@ -42,11 +42,9 @@ Strategies to mitigate free radical damage include direct small-molecule radical
 - [[Inflammation]]: Inflammatory cells ([[Neutrophils]], [[Macrophage]]) deliberately produce free radicals via [[NADPH Oxidase]] during the [[Respiratory Burst]].
 - [[Aging]]: The free radical theory of aging (Harman, 1956) posits that accumulated oxidative damage drives senescence.
 
-### Linking Summary:
+## Linking Summary
+- New links added: [[Cell membranes]], [[Glutathione]], [[Ascorbic Acid]], [[Vitamin E]], [[Mitochondrial Dysfunction]], [[DNA Damage]], [[Genomic Instability]], [[Cancer]], [[Cardiovascular Disease]], [[Atherosclerosis]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Dopaminergic Neurons]], [[N-Acetylcysteine]], [[Melatonin]], [[EGCG]], [[NRF2]], [[EDTA]], [[Spermidine]], [[Inflammation]], [[Neutrophils]], [[Macrophage]], [[Respiratory Burst]], [[NADPH Oxidase]], [[Aging]], [[Caloric Restriction]], [[Exercise]], [[Mitohormesis]], [[Fenton Reaction]], [[NF-kappa B]]
+- Suggested new entity notes to create: [[Peroxyl Radicals]], [[Mitohormesis]], [[Sulforaphane]], [[Thiyl Radicals]]
 - New links added: [[Reactive Oxygen Species]], [[Reactive Nitrogen Species]], [[Lipid Peroxidation]], [[Superoxide Radicals]], [[Hydroxyl Radicals]], [[Nitric Oxide]], [[Oxidative Stress]], [[Antioxidants]], [[Mitochondria]]
 - Suggested new entity notes to create: [[Reactive Nitrogen Species]]
 - Strong connections to strengthen: [[Free Radicals]] ↔ [[Oxidative Stress]]
-
-### New Linking Summary (Added 2026-07-04):
-- New links added: [[Cell membranes]], [[Glutathione]], [[Ascorbic Acid]], [[Vitamin E]], [[Mitochondrial Dysfunction]], [[DNA Damage]], [[Genomic Instability]], [[Cancer]], [[Cardiovascular Disease]], [[Atherosclerosis]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Dopaminergic Neurons]], [[N-Acetylcysteine]], [[Melatonin]], [[EGCG]], [[NRF2]], [[EDTA]], [[Spermidine]], [[Inflammation]], [[Neutrophils]], [[Macrophage]], [[Respiratory Burst]], [[NADPH Oxidase]], [[Aging]], [[Caloric Restriction]], [[Exercise]], [[Mitohormesis]], [[Fenton Reaction]], [[NF-kappa B]]
-- Suggested new entity notes to create: [[Peroxyl Radicals]], [[Mitohormesis]], [[Sulforaphane]], [[Thiyl Radicals]]

@@ -18,13 +18,15 @@ entity_type_1: Biological Process
 - [[Histone Modification]]
 - [[Heterochromatin]]
 
-### Connections
+#
+
+## Connections
 - [[Histone Methyltransferase]] — interacts with
 - [[Epigenetics]] — interacts with
 - [[Histone Modification]] — interacts with
 - [[Heterochromatin]] — interacts with
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Histone Methyltransferase]], [[Epigenetics]], [[Histone Modification]], [[Heterochromatin]]
 - Strong connections to strengthen: [[Histone Methylation]] ↔ [[Histone Methyltransferase]], [[Histone Methylation]] ↔ [[Epigenetics]], [[Histone Methylation]] ↔ [[Histone Modification]], [[Histone Methylation]] ↔ [[Heterochromatin]]
 

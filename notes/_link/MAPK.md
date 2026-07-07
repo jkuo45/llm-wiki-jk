@@ -25,7 +25,9 @@ MAPK signaling can influence the [[Epigenome]] by phosphorylating histones and r
     - [[melittin]] has been reported to inhibit MAPK signaling in [[Melanoma]] and [[Breast Cancer]].
     - [[Ivermectin]] inhibits the MAPK pathway in [[Nasopharyngeal Carcinoma]] and [[Melanoma]] by reducing [[PAK1]] kinase activity.
 
-### Connections
+#
+
+## Connections
 - [[Cellular Senescence]]: MAPK activation is a hallmark of senescent cells.
 - **[[SASP]]**: The pathway that controls the inflammatory output of senescent cells.
 - **[[Aging]]**: Dysregulated MAPK signaling contributes to the chronic inflammation seen in old age.
@@ -35,7 +37,7 @@ MAPK signaling can influence the [[Epigenome]] by phosphorylating histones and r
 - [[Ivermectin]]: Inhibits MAPK signaling via [[PAK1]].
 - [[Melanoma]]: A cancer type where both melittin and ivermectin inhibit MAPK.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[MAPK]], [[Aging]], [[Cellular Senescence]], [[SASP]], [[Epigenome]], [[Histone Modification]], [[PTEN]]
 - Suggested new entity notes to create: [[p38 MAPK]], [[JNK Pathway]], [[ERK Pathway]]
 - Strong connections to strengthen: [[MAPK]] ↔ [[Cellular Senescence]], [[MAPK]] ↔ [[SASP]]

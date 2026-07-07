@@ -18,10 +18,12 @@ entity_type_1: Medical Condition
 
 **Therapeutic strategies:** Management of Diabetic Neuropathy includes pharmacological interventions, lifestyle modifications, and supportive care. Emerging therapies target specific molecular pathways involved in disease progression.
 
-### Connections
+#
+
+## Connections
 - [[Diabetic Neuropathy]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Diabetic Neuropathy]]
 - Strong connections to strengthen: [[Diabetic Neuropathy]] ↔ [[Diabetic Neuropathy]]
 

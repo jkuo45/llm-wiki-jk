@@ -19,5 +19,5 @@ In many transgenic models, including the COMT-OE mice, [[COMT]] activity in the 
 - [[CamKIIα]]: A promoter that is typically inactive in the cerebellum.
 
 ---
-### Linking Summary:
+## Linking Summary
 - New links added: [[COMT]], [[CamKIIα]].

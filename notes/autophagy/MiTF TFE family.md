@@ -31,6 +31,5 @@ The MiTF/TFE family governs [[Lysosomal Biogenesis]], [[Autophagic Flux]], [[Lip
 ## Therapeutic Implications
 Activation of [[TFEB]]/[[TFE3]] is a promising strategy for enhancing lysosomal function and [[Autophagy]] in [[Neurodegenerative Diseases|neurodegenerative]], [[Metabolic Diseases|metabolic]], and [[Lysosomal Storage Disorders|LSDs]]. Pharmacological activators include [[Torin1]], [[Celastrol]], [[Trehalose]], and novel small molecules targeting TFEB nuclear translocation. Inhibition of MITF is being explored in [[Melanoma]] therapy.
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[TFEB]], [[TFE3]], [[MITF]]

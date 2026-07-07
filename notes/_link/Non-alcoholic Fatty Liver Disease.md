@@ -19,10 +19,12 @@ aliases: [NAFLD]
 
 **Therapeutic strategies:** Management of Non-alcoholic Fatty Liver Disease includes pharmacological interventions, lifestyle modifications, and supportive care. Emerging therapies target specific molecular pathways involved in disease progression.
 
-### Connections
+#
+
+## Connections
 - [[Non-alcoholic Fatty Liver Disease]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Non-alcoholic Fatty Liver Disease]]
 - Strong connections to strengthen: [[Non-alcoholic Fatty Liver Disease]] ↔ [[Non-alcoholic Fatty Liver Disease]]
 

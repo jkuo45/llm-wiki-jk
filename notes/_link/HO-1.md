@@ -30,13 +30,15 @@ HO-1 is among the most highly inducible antioxidant enzymes, driven primarily by
 ## Connection to Adrenochrome and Oxidative Stress
 In the context of the [[Adrenochrome Pathway]], HO-1 induction represents an adaptive antioxidant response to catecholamine-derived [[Redox Cycling]] and heme dysregulation. HO-1 activity reduces the availability of free heme that could otherwise catalyze adrenochrome formation via peroxidase-like reactions. Additionally, the CO produced by HO-1 may counteract [[Vasoconstriction]] induced by adrenochrome. The Nrf2-HO-1 axis constitutes a critical node at the intersection of heme metabolism, [[Aging]], and aminochrome toxicity.
 
-### Connections
+#
+
+## Connections
 - [[NRF2]] — Master regulator of HO-1 transcription
 - [[Oxidative Stress]] — Primary inducer
 - [[Sulforaphane]] — Potent inducer via NRF2 activation
 - [[ARE]] — Promoter element driving HO-1 expression
 
-### Linking Summary
+## Linking Summary
 - New links added: [[NRF2]], [[ARE]], [[Sulforaphane]], [[Oxidative Stress]], [[Hypoxia]], [[Antioxidant Response Element]]
 - Suggested new entity notes to create: [[Biliverdin]], [[Bilirubin]], [[Carbon Monoxide]]
 - Strong connections to strengthen: [[HO-1]] ↔ [[NRF2]], [[HO-1]] ↔ [[Oxidative Stress]]

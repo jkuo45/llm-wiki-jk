@@ -16,7 +16,6 @@ A Schiff base is an unstable chemical adduct formed during the initial stage of 
 It is produced by the nucleophilic attack of a free amino group from a protein on the reactive carbonyl group of a reducing sugar. The Schiff base is highly reversible and quickly undergoes rearrangement to form a more stable [[Amadori products|Amadori product]].
 
 ## Linking Summary
-
 - New links added: [[Maillard Reaction]], [[Amadori products]]
 - Suggested new entity notes to create: [[Nucleophile]]
 - Strong connections to strengthen: [[Schiff base]] ↔ [[Glycation]]

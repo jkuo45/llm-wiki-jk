@@ -13,9 +13,11 @@ A cellular stress response related to the endoplasmic reticulum (ER) stress.
 
 
 
-### Linking Summary
+## Linking Summary
 - New links added: [[TFEB]], [[TFE3]]
 
-### Connections
+#
+
+## Connections
 - [[Unfolded Protein Response]] — related entity
 

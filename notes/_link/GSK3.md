@@ -15,10 +15,12 @@ Glycogen synthase kinase 3, a serine/threonine protein kinase that regulates num
 Glycogen synthase kinase 3 (GSK3) is a serine/threonine protein kinase that regulates various signaling pathways, including those involved in cell survival and [[Apoptosis]] by modulating [[Mcl-1]] stability.
 
 
-### Connections
+#
+
+## Connections
 - [[Wnt signaling]] — interacts with GSK3
 - [[mTOR]] — interacts with GSK3
 - [[Apoptosis]] — programmed cell death; eliminates damaged or excess cells
 - [[Mcl-1]] — interacts with GSK3
-### Linking Summary
+## Linking Summary
 - New links added: [[Wnt signaling]], [[mTOR]]

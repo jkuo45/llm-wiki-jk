@@ -27,8 +27,9 @@ SV40 was discovered as a contaminant in [[Polio Vaccine]] (1955–1963). It was 
 - Identification of [[p53]] (SV40 large T-antigen co-immunoprecipitation led to p53 discovery)
 - [[Enhancer]] discovery (SV40 72-bp repeat)
 
-### Connections
+#
 
+## Connections
 - [[Large T Antigen]] — SV40 oncoprotein; inactivates p53 and pRb
 - [[p53]] — tumor suppressor; identified via binding to SV40 large T antigen
 - [[pRb]] — retinoblastoma protein; inactivated by SV40 large T antigen
@@ -38,8 +39,7 @@ SV40 was discovered as a contaminant in [[Polio Vaccine]] (1955–1963). It was 
 - [[PP2A]] — targeted by SV40 small T antigen
 - [[Cellular Transformation]] — SV40 large T antigen immortalizes primary cells
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[Polyomaviridae]], [[DNA virus]], [[DNA]], [[Large T Antigen]], [[Small T Antigen]], [[Viral DNA replication]], [[SV40 Origin of Replication]], [[DNA Polymerase α-primase]], [[p53]], [[pRb]], [[PP2A]], [[MAPK]], [[Akt]], [[Cellular Transformation]], [[Polio Vaccine]], [[Okazaki Fragments]], [[RNA Splicing]], [[Enhancer]], [[Molecular Biology]]
 - Suggested new entity notes to create: [[Polyomavirus]], [[Viral oncoprotein]], [[SV40 promoter]], [[T antigen]], [[Viral replication origin]], [[PP2A inhibition]]
 - Strong connections to strengthen: [[Simian Virus 40]] ↔ [[Large T Antigen]], [[Simian Virus 40]] ↔ [[p53]], [[Simian Virus 40]] ↔ [[DNA Replication]]

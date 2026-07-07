@@ -20,5 +20,5 @@ entity_type_1: Chemical Compound
 - [[Catechols]]: The chemical class that includes oleacein.
 
 ---
-### Linking Summary:
+## Linking Summary
 - New links added: [[COMT]], [[Anti-inflammatory]], [[Catechols]].

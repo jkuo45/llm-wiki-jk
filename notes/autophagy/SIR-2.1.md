@@ -21,7 +21,7 @@ aliases: [C. elegans sirtuin]
 
 SIR-2.1 is the C. elegans ortholog of mammalian [[SIRT1]]. It deacetylates [[DAF-16]]/[[FOXO]] and [[HLH-30]]/[[TFEB]] to promote longevity and [[Autophagy]] during dietary restriction.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[C. elegans]], [[SIRT1]], [[Longevity|lifespan]], [[Fasting]], [[MXL-3]], [[HLH-30]], [[Lysosomal Lipolysis]], [[Lipophagy]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[SIR-2.1]] ↔ [[SIRT1]]

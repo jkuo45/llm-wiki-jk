@@ -14,11 +14,13 @@ entity_type_1: Chemical Compound
 In the [[Mitohormetic Redox-Relay]] strategy, NMN serves as a critical NAD+ booster that enables the activation of [[PGC1-α]] and sirtuin-mediated pathways in response to controlled redox signaling from [[Carbazochrome]].
 
 
-### Connections
+#
+
+## Connections
 - [[NAD+]] — central metabolic coenzyme; sirtuin substrate; declines with age
 - [[Mitohormetic Redox-Relay]] — interacts with Nicotinamide Mononucleotide
 - [[PGC1-α]] — interacts with Nicotinamide Mononucleotide
 - [[Carbazochrome]] — interacts with Nicotinamide Mononucleotide
-### Linking Summary
+## Linking Summary
 - New links added: [[NAD+]], [[Mitochondria]], [[Longevity]], [[Mitohormetic Redox-Relay]], [[Carbazochrome]], [[PGC1-α]]
 - Strong connections to strengthen: [[Nicotinamide Mononucleotide]] ↔ [[Nicotinamide Riboside]], [[Nicotinamide Mononucleotide]] ↔ [[Mitohormetic Redox-Relay]]

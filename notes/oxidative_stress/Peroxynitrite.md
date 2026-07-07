@@ -54,11 +54,9 @@ Therapeutic strategies include low-molecular-weight peroxynitrite decomposition 
 - [[Mitochondrial Dysfunction]]: Peroxynitrite inactivates respiratory chain complexes and triggers permeability transition.
 - [[Inflammation]]: Inducible NOS (iNOS) and NOX2 are co-expressed in activated immune cells.
 
-### Linking Summary:
+## Linking Summary
+- New links added: [[Superoxide Dismutase]], [[Hydroxyl Radicals]], [[Lipid Peroxidation]], [[DNA Damage]], [[Glutathione]], [[Mitochondria]], [[Apoptosis]], [[8-oxo-2'-deoxyguanosine]], [[Atherosclerosis]], [[Ischemia-reperfusion Injury]], [[Mitochondrial Dysfunction]], [[Neurodegenerative Diseases]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Amyotrophic Lateral Sclerosis]], [[Alpha-synuclein]], [[Tau]], [[Dopaminergic Neurons]], [[Diabetes Mellitus]], [[TNF-alpha]], [[IL-1b]], [[Macrophage]], [[Neutrophils]], [[Melatonin]], [[Selenium]], [[Uric Acid]]
+- Suggested new entity notes to create: [[3-Nitrotyrosine]], [[Carbonate Radical Anion]], [[Nitro-fatty Acids]], [[Ebselen]], [[FeTMPyP]], [[8-Nitroguanine]]
 - New links added: [[Superoxide Radicals]], [[Nitric Oxide]], [[Immunity]], [[Cardiovascular Disease]]
 - Suggested new entity notes to create: [[Nitrative Stress]], [[Tyrosine Nitration]]
 - Strong connections to strengthen: [[Peroxynitrite]] ↔ [[Nitric Oxide]]
-
-### New Linking Summary (Added 2026-07-04):
-- New links added: [[Superoxide Dismutase]], [[Hydroxyl Radicals]], [[Lipid Peroxidation]], [[DNA Damage]], [[Glutathione]], [[Mitochondria]], [[Apoptosis]], [[8-oxo-2'-deoxyguanosine]], [[Atherosclerosis]], [[Ischemia-reperfusion Injury]], [[Mitochondrial Dysfunction]], [[Neurodegenerative Diseases]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Amyotrophic Lateral Sclerosis]], [[Alpha-synuclein]], [[Tau]], [[Dopaminergic Neurons]], [[Diabetes Mellitus]], [[TNF-alpha]], [[IL-1b]], [[Macrophage]], [[Neutrophils]], [[Melatonin]], [[Selenium]], [[Uric Acid]]
-- Suggested new entity notes to create: [[3-Nitrotyrosine]], [[Carbonate Radical Anion]], [[Nitro-fatty Acids]], [[Ebselen]], [[FeTMPyP]], [[8-Nitroguanine]]

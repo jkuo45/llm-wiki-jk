@@ -44,7 +44,7 @@ In the laboratory, replicative senescence is modeled by serial passaging of prim
 - **Telomerase activation:** Gene therapy with [[TERT]] extends lifespan in mice without increasing cancer incidence in some models, though the safety of systemic telomerase activation remains controversial.
 - **[[Partial Reprogramming]]:** Transient [[OSKM]] expression can erase senescence-associated epigenetic marks and restore proliferative capacity in some cell types.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Senescence]], [[Telomere Attrition]], [[DNA Damage]], [[p53]], [[Apoptosis]], [[SASP]], [[SAHF]], [[SA-beta-gal]], [[Senolytic Drugs]], [[Partial Reprogramming]]
 - Suggested new entity notes to create: [[Hayflick limit]], [[Shelterin complex]], [[TRF2]], [[Telomerase]]
 - Strong connections to strengthen: [[Replicative Senescence]] ↔ [[Senescence]], [[Replicative Senescence]] ↔ [[Telomere Attrition]]

@@ -20,13 +20,15 @@ HATs are the "writers" of the epigenetic code. They work in opposition to [[Hist
 ### 3. Connection to [[Aging]]
 Dysregulation of HAT activity has been linked to various age-related conditions, including [[Cancer]] and [[Neurodegenerative Diseases]]. Many longevity-promoting factors, such as [[Caloric Restriction]], influence the activity of these enzymes.
 
-### Connections
+#
+
+## Connections
 - **[[Histone Acetyltransferase]]**: The full name for this class of enzymes.
 - **[[Histone Acetylation]]**: The biochemical process performed by HATs.
 - **[[Histone Deacetylase]]**: The "erasers" that counteract HAT activity.
 - **[[Euchromatin]]**: The open state of chromatin promoted by acetylation.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[HAT]], [[Histone Acetyltransferase]], [[Histone Acetylation]], [[Chromatin]], [[Euchromatin]], [[Transcription]], [[Epigenome]], [[Histone Deacetylase]], [[Aging]], [[Cancer]], [[Neurodegenerative Diseases]], [[Caloric Restriction]]
 - Suggested new entity notes to create: [[P300]]/[[CBP]], [[PCAF]], [[Epigenetic Writers]]
 - Strong connections to strengthen: [[HAT]] ↔ [[Histone Acetyltransferase]], [[HAT]] ↔ [[Histone Acetylation]]

@@ -14,18 +14,22 @@ In the [[Glyco-Oxidative Proteostasis Shield]] (GOPS) strategy, EDTA provides "k
 ## Role in Preventing Oxidation
 Transition metals can catalyze the oxidation of [[Epinephrine]]. By sequestering these metals, EDTA slows down the rate of autoxidation and the subsequent formation of [[Adrenochrome]].
 
-### Connections
+#
+
+## Connections
 - [[Epinephrine]]
 - [[Oxidative Stress]]
 - [[Adrenochrome]]
 - [[Glyco-Oxidative Proteostasis Shield]]
 
-### Connections
+#
+
+## Connections
 - [[Glyco-Oxidative Proteostasis Shield]] — interacts with
 - [[Epinephrine]] — interacts with
 - [[Adrenochrome]] — interacts with
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Glyco-Oxidative Proteostasis Shield]], [[Epinephrine]], [[Adrenochrome]]
 - Strong connections to strengthen: [[EDTA]] ↔ [[Glyco-Oxidative Proteostasis Shield]], [[EDTA]] ↔ [[Epinephrine]], [[EDTA]] ↔ [[Adrenochrome]]
 

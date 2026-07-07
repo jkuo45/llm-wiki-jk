@@ -20,14 +20,16 @@ In contrast to the [[Substantia Nigra Pars Compacta]], dopaminergic neurons in t
 ## COMT Expression
 Increased [[COMT]] activity in the dopamine neurons of the VTA can influence dopamine release capacity in target regions like the [[Sirtuins]].
 
-### Connections
+#
+
+## Connections
 - [[Dopamine]]: The primary neurotransmitter produced by VTA neurons.
 - [[Prefrontal Cortex]]: A major projection target of the mesocortical pathway.
 - [[Sirtuins]]: Influenced by VTA dopamine, though primarily served by the substantia nigra.
 - [[Parkinson's Disease]]: VTA neurons are relatively resistant compared to SNpc neurons.
 - [[VTA]]: Common abbreviation for the ventral tegmental area.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[COMT]], [[Dopamine]], [[Neuromelanin]], [[Nucleus Accumbens]], [[Parkinson's Disease]], [[Prefrontal Cortex]], [[Sirtuins]], [[Substantia Nigra Pars Compacta]], [[VTA]]
 - Suggested new entity notes to create: [[Mesolimbic Pathway]], [[Mesocortical Pathway]], [[Nucleus Accumbens]]
 - Strong connections to strengthen: [[Ventral Tegmental Area]] ↔ [[Parkinson's Disease]], [[Ventral Tegmental Area]] ↔ [[Prefrontal Cortex]]

@@ -39,7 +39,7 @@ Downregulation or silencing of Caspase-8 is observed in various tumors, such as 
 - [[SRC kinase]] / [[FYN]] / [[LYN]]: Inhibitory kinases for Caspase-8.
 - [[SHP1]]: Regulatory phosphatase for Caspase-8.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[FYN]], [[LYN]], [[SHP1]], [[Colon Cancer]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[Caspase-8]] ↔ [[Extrinsic Pathway]], [[Caspase-8]] ↔ [[SRC kinase]], [[Caspase-8]] ↔ [[SHP1]]

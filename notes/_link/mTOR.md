@@ -32,7 +32,9 @@ Chronic mTOR activation contributes to:
     - [[melittin]] inhibits the PI3K/Akt/mTOR pathway in breast cancer cells.
     - [[Ivermectin]] blocks the Akt/mTOR axis to induce [[Autophagy]].
 
-### Connections
+#
+
+## Connections
 - **[[Aging]]**: mTOR is a primary hallmark and regulator of the aging process.
 - **[[Autophagy]]**: The process most directly suppressed by mTOR activity.
 - **[[AMPK]]**: The cellular energy sensor that counteracts mTOR.
@@ -42,7 +44,7 @@ Chronic mTOR activation contributes to:
 - [[melittin]]: Suppresses mTOR activity.
 - [[Ivermectin]]: Inhibits the mTOR pathway, leading to programmed cell death.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[mTOR]], [[Autophagy]], [[Aging]], [[Caloric Restriction]], [[AMPK]], [[IGF1]], [[Cancer]], [[Metabolic Syndromes]], [[Neurodegenerative Diseases]], [[mTORC1]], [[mTORC2]]
 - Suggested new entity notes to create: [[Rapamycin]], [[mTORC1]], [[Protein Synthesis]], [[Autophagy]]
 - Strong connections to strengthen: [[mTOR]] ↔ [[Aging]], [[mTOR]] ↔ [[Autophagy]], [[Nutrient Sensing]] ↔ [[mTOR]]

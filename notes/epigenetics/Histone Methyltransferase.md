@@ -24,13 +24,15 @@ The patterns of histone methylation undergo significant changes during the aging
 ### 3. Epigenetic Inheritance
 Histone methylation is a key mechanism for [[Epigenetic Inheritance]], allowing cells to "remember" their gene expression patterns through cell divisions and, in some cases, across generations.
 
-### Connections
+#
+
+## Connections
 - **[[Histone Modification]]**: The broader class of modifications to which methylation belongs.
 - [[Histone Methylation]]: The biochemical process catalyzed by HMTs.
 - **[[Polycomb Group Proteins]]**: Major complexes that utilize histone methylation to silence genes.
 - **[[Aging]]**: Histone methylation drift is a primary driver of age-related cellular dysfunction.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Histone Methyltransferase]], [[Heterochromatin]], [[Polycomb Group Proteins]], [[Aging]], [[HGPS]], [[Genomic Instability]], [[Model Organisms]], [[Caenorhabditis elegans]], [[Epigenetic Inheritance]], [[Histone Modification]]
 - Suggested new entity notes to create: [[SUV39H1]], [[H3K9me3]], [[H3K27me3]], [[H3K4me3]]
 - Strong connections to strengthen: [[Histone Methyltransferase]] ↔ [[Histone Modification]], [[Histone Methyltransferase]] ↔ [[Polycomb Group Proteins]]

@@ -19,10 +19,12 @@ aliases: [Wnt Pathway]
 
 **Regulation and dysregulation:** Wnt Signaling is controlled by nutrient sensors, stress pathways, and hormonal signals. Impairment of this process is linked to metabolic diseases, neurodegeneration, and cancer.
 
-### Connections
+#
+
+## Connections
 - [[Wnt signaling]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Wnt signaling]]
 - Strong connections to strengthen: [[Wnt signaling]] ↔ [[Wnt signaling]]
 

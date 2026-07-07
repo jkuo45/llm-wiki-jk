@@ -31,12 +31,14 @@ Antioxidants work by:
 ## Clinical Importance
 An imbalance between ROS production and antioxidant defenses leads to [[Oxidative Stress]], which is implicated in the pathogenesis of numerous conditions, including [[Cancer]], [[Cardiovascular Disease]], and [[Neurodegenerative Disease]].
 
-### Connections
+#
+
+## Connections
 - **[[Oxidative Stress]]**: The state resulting from insufficient antioxidant capacity.
 - **[[Reactive Oxygen Species]]**: The primary targets of antioxidant defense.
 - **[[Mitochondria]]**: A major site of both ROS production and antioxidant activity.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Adrenochrome]], [[Reactive Oxygen Species]], [[Superoxide Dismutase]], [[Superoxide Radicals]], [[Hydrogen Peroxide]], [[Catalase]], [[Glutathione Peroxidase]], [[Glutathione]], [[Vitamin E]], [[Vitamin C]], [[Coenzyme Q10]], [[Polyphenols]], [[Flavonoids]], [[Lipid Peroxidation]], [[Oxidative Stress]], [[Cancer]], [[Cardiovascular Disease]], [[Neurodegenerative Disease]], [[Mitochondria]]
 - Suggested new entity notes to create: [[Vitamin C]]
 - Strong connections to strengthen: [[Antioxidants]] ↔ [[Oxidative Stress]]

@@ -22,13 +22,15 @@ Diabetes and aging share many biological hallmarks:
 ## 3. Therapeutic Intersection
 Many anti-aging interventions, such as [[Metformin]] and [[Resveratrol]], were originally studied or used for their ability to improve insulin sensitivity and manage diabetes, highlighting the deep connection between metabolic health and longevity.
 
-### Connections
+#
+
+## Connections
 - **[[Aging]]**: Diabetes is a major risk factor for age-related decline.
 - **[[Metabolic Syndromes]]**: A cluster of conditions, including diabetes, that impact healthspan.
 - **[[Metformin]]**: A diabetes drug with significant anti-aging potential.
 - **[[DNA Methylation]]**: A key mechanism by which "metabolic memory" is stored in cells.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Diabetes Mellitus]], [[Aging]], [[Epigenetics]], [[Epigenome]], [[DNA Methylation]], [[Histone Modification]], [[SIRT1]], [[mTOR]], [[Cellular Senescence]], [[Epigenetic Clock]], [[DNAmGrimAge]], [[Metformin]], [[Resveratrol]], [[Metabolic Syndromes]]
 - Suggested new entity notes to create: [[Metabolic Memory]], [[Insulin Resistance]], [[Hyperglycemia]]
 - Strong connections to strengthen: [[Diabetes Mellitus]] ↔ [[Aging]], [[Diabetes Mellitus]] ↔ [[Metformin]]

@@ -33,14 +33,16 @@ Inflammation and [[Reactive Oxygen Species]] production create a permissive envi
 ## Therapeutic Anti-Inflammatory Strategies
 Pharmacological interventions targeting inflammation include NSAIDs (COX inhibitors), corticosteroids (broad transcriptional suppression), and biologics targeting specific cytokines (e.g., anti-TNFα, anti-IL-6 receptor). More targeted strategies relevant to redox-inflammatory crosstalk include [[NLRP3 Inflammasome]] inhibitors (e.g., MCC950), [[NFκB]] pathway modulators, and compounds that bolster antioxidant capacity such as [[Glutathione]] precursors ([[GlyNAC]]) and Nrf2 activators (e.g., sulforaphane). Given the link between inflammation and adrenochrome formation, anti-inflammatory interventions may indirectly reduce catecholamine oxidation burden — a hypothesis warranting direct experimental investigation.
 
-### Connections
+#
+
+## Connections
 - [[Neutrophils]] ↔ The primary immune cells driving oxidation during inflammation.
 - [[Adrenochrome]] ↔ An oxidative byproduct formed at sites of inflammation.
 - [[Oxidative Stress]] ↔ A state closely linked with and often caused by inflammation.
 - [[Reactive Oxygen Species]] ↔ The chemicals used by immune cells that also oxidize adrenaline.
 - [[Myeloperoxidase]] ↔ The enzyme that catalyzes this process during the inflammatory response.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[TFEB]], [[Advanced Glycation End Products]], [[NFκB]], [[Cytokines]], [[Adrenochrome]], [[Epinephrine]], [[Hydrogen Peroxide]], [[IL-1b]], [[Inflammation]], [[Lungs]], [[Myeloperoxidase]], [[NF-kappa B]], [[Neuromelanin]], [[Neutrophils]], [[Oxidation]], [[Oxidative Stress]], [[Reactive Oxygen Species]], [[Superoxide anion]], [[TNF-alpha]], [[TNFα]], [[IL-6]], [[Interleukin 1β]], [[NLRP3 Inflammasome]], [[Caspase-1]], [[NAD(P)H Oxidase]], [[COMT]], [[MAO]], [[GlyNAC]], [[Glutathione]]
 - Suggested new entity notes to create: [[Cytokines]], [[Immune response]], [[Hypochlorous Acid]]
 - Strong connections to strengthen: [[Inflammation]] ↔ [[TFEB]], [[Advanced Glycation End Products]] ↔ [[Inflammation]], [[Inflammation]] ↔ [[Neutrophils]], [[Inflammation]] ↔ [[TNF-alpha]], [[Inflammation]] ↔ [[Adrenochrome]], [[NLRP3 Inflammasome]] ↔ [[Oxidative Stress]]

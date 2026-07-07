@@ -28,12 +28,14 @@ LC3 is conjugated to phosphatidylethanolamine (PE) to form lipidated LC3-II, whi
 ## Sirtuin Regulation
 [[SIRT1]] promotes autophagy by deacetylating LC3 (Microtubule-associated protein 1A/1B-light chain 3). SIRT1 deacetylation of LC3 reduces its acetylation, enhancing autophagic flux in endothelial cells and cancer contexts.
 
-### Connections
+#
+
+## Connections
 - [[Autophagy]] — LC3 is essential for autophagosome formation
 - [[p62]] — LC3-interacting region (LIR) recruits cargo to autophagosomes
 - [[Beclin1]] — Early autophagy factor
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Autophagy]], [[p62]], [[Beclin1]], [[Autophagic Flux]], [[Atg8]], [[Autophagosome]], [[Atg7]], [[Atg3]], [[Atg12]], [[Atg5]], [[Atg16]], [[SIRT1]]
 - Suggested new entity notes to create: [[LC3-II]], [[LIR motif]], [[Atg4]]
 - Strong connections to strengthen: [[LC3]] ↔ [[Autophagy]], [[LC3]] ↔ [[Autophagosome]], [[SIRT1]] ↔ [[LC3]]

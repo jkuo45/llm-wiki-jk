@@ -19,10 +19,12 @@ aliases: [BCL2 Interacting Protein 3]
 
 **Pathological significance:** Altered expression or mutation of BNIP3 is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
 
-### Connections
+#
+
+## Connections
 - [[BNIP3]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[BNIP3]]
 - Strong connections to strengthen: [[BNIP3]] ↔ [[BNIP3]]
 

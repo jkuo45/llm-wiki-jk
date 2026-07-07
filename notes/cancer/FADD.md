@@ -25,7 +25,7 @@ Downregulation of FADD is observed in several cancers, such as thyroid and lung 
 - [[Fas]] / [[TNFR1]] / [[DR4]] / [[DR5]]: Receptors that utilize FADD.
 - [[DISC]]: The signaling complex centered on FADD.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Apoptosis]], [[Extrinsic Pathway]], [[Caspase-8]], [[Fas]], [[TNFR1]], [[TRADD]], [[DR4]], [[DR5]], [[DISC]]
 - Suggested new entity notes to create: [[DISC]]
 - Strong connections to strengthen: [[FADD]] ↔ [[Caspase-8]], [[FADD]] ↔ [[Extrinsic Pathway]]

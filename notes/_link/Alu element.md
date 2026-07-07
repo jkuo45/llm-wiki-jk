@@ -16,12 +16,14 @@ entity_type_1: Biological Molecule
 - [[Genomic Instability]]
 - [[Cellular Senescence]]
 
-### Connections
+#
+
+## Connections
 - [[Transposable Elements]] — interacts with
 - [[Genomic Instability]] — interacts with
 - [[Cellular Senescence]] — interacts with
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Transposable Elements]], [[Genomic Instability]], [[Cellular Senescence]]
 - Strong connections to strengthen: [[Alu element]] ↔ [[Transposable Elements]], [[Alu element]] ↔ [[Genomic Instability]], [[Alu element]] ↔ [[Cellular Senescence]]
 

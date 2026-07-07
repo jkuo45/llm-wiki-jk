@@ -17,8 +17,7 @@ The Unfolded Protein Response Element (UPRE) is a DNA sequence found in the prom
 
 The unfolded protein response element (UPRE) in the promoters of ER chaperone genes is bound by [[XBP1]] and [[ATF6α]] during [[ER Stress]].
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[TFEB]], [[XBP1]]
 - Suggested new entity notes to create: [[Unfolded Protein Response]]
 - Strong connections to strengthen: [[UPRE]] ↔ [[XBP1]]

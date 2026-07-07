@@ -17,13 +17,15 @@ In the [[SASP-Remodeling Aminochrome Complex]] strategy, Rapamycin acts as a "br
 Rapamycin (also known as Sirolimus) is a potent immunosuppressant and [[Autophagy]] inducer that specifically inhibits the [[mTORC1]] complex.
 
 
-### Connections
+#
+
+## Connections
 - [[Autophagy]] — cellular self-degradation pathway; clears damaged proteins and organelles
 - [[Parkinson's Disease]] — neurodegenerative disease; α-synuclein pathology; dopamine loss
 - [[SASP-Remodeling Aminochrome Complex]] — interacts with Rapamycin
 - [[Adrenochrome]] — interacts with Rapamycin
 - [[SASP]] — senescence-associated secretory phenotype; mediates paracrine senescence
-### Linking Summary
+## Linking Summary
 - New links added: [[Autophagy]], [[Parkinson's Disease]], [[Proteostasis]], [[SASP-Remodeling Aminochrome Complex]], [[Adrenochrome]], [[SASP]]., [[mTORC1]]
 - Suggested new entity notes to create: [[mTOR]], [[mTOR Inhibition]]., [[Everolimus]]
 - Strong connections to strengthen: [[Rapamycin]] ↔ [[Autophagy]], [[Rapamycin]] ↔ [[SASP-Remodeling Aminochrome Complex]]., [[Rapamycin]] ↔ [[Immune Aging]]

@@ -95,7 +95,5 @@ The ratio itself is dynamically regulated:
 - [[Redox Vaccination]] — Adaptive response enabled by ratio-dependent MnSOD induction
 
 ## Linking Summary
-
 - New links added: [[SIRT3]], [[SIRT4]], [[MnSOD]], [[Honokiol]], [[Dihydromyricetin]], [[Mitohormesis]], [[Hormetic Window]], [[Mitohormetic Redox-Relay]], [[Carbazochrome]], [[AMPK]], [[PGC1-α]], [[FOXO3a]], [[Caloric Restriction]], [[Adrenochrome]], [[Redox Vaccination]], [[NMN]], [[NR]], [[NFκB]]
 - Suggested new entity notes to create: [[Mitochondrial Redox Dial]]
-- Strong connections to strengthen: [[SIRT3]]/[[SIRT4]] ratio ↔ [[Hormetic Window]], [[SIRT3]]/[[SIRT4]] ratio ↔ [[MnSOD]]

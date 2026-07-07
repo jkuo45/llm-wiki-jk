@@ -18,10 +18,12 @@ aliases: [GSS]
 
 **Clinical relevance:** Dysregulation of Glutathione Synthetase activity is implicated in metabolic disorders, oxidative stress-related pathologies, and cancer. Pharmacological modulation of this enzyme represents a therapeutic strategy for diseases involving its pathway.
 
-### Connections
+#
+
+## Connections
 - [[Glutathione Synthetase]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Glutathione Synthetase]]
 - Strong connections to strengthen: [[Glutathione Synthetase]] ↔ [[Glutathione Synthetase]]
 

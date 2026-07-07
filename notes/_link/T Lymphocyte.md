@@ -18,10 +18,12 @@ aliases: [T Cell]
 
 **Pathological relevance:** Dysfunction or loss of T Lymphocyte underlies specific disease states. Understanding its biology provides insights into regenerative medicine and therapeutic targeting.
 
-### Connections
+#
+
+## Connections
 - [[T Lymphocyte]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[T Lymphocyte]]
 - Strong connections to strengthen: [[T Lymphocyte]] ↔ [[T Lymphocyte]]
 

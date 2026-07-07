@@ -18,10 +18,12 @@ aliases: [ER]
 
 **Pathological relevance:** Dysfunction or loss of Endoplasmic Reticulum underlies specific disease states. Understanding its biology provides insights into regenerative medicine and therapeutic targeting.
 
-### Connections
+#
+
+## Connections
 - [[Endoplasmic Reticulum]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Endoplasmic Reticulum]]
 - Strong connections to strengthen: [[Endoplasmic Reticulum]] ↔ [[Endoplasmic Reticulum]]
 

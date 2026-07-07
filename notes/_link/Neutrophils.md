@@ -22,14 +22,16 @@ Neutrophils are a major site of [[Epinephrine]] [[Oxidation]] in humans. When ac
 ## Biological Significance
 While essential for killing pathogens, the oxidative environment created by neutrophils can lead to localized [[Oxidative Stress]] and the formation of potentially toxic byproducts like [[Adrenochrome]].
 
-### Connections
+#
+
+## Connections
 - [[Adrenochrome]] ↔ Formed by neutrophil-mediated oxidation of adrenaline.
 - [[Epinephrine]] ↔ Substrate for oxidation in the neutrophil environment.
 - [[Myeloperoxidase]] ↔ Enzyme released by neutrophils that catalyzes adrenochrome formation.
 - [[Reactive Oxygen Species]] ↔ The primary agents of the neutrophil respiratory burst.
 - [[Inflammation]] ↔ The state that triggers neutrophil recruitment and activation.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Neutrophils]], [[Adrenochrome]], [[Epinephrine]], [[Oxidation]], [[Inflammation]], [[Reactive Oxygen Species]], [[Superoxide anion]], [[Hydroxyl radical]], [[Myeloperoxidase]], [[Lungs]], [[Oxidative Stress]], [[Hypochlorous Acid]]
 - Suggested new entity notes to create: [[Innate Immune System]], [[Respiratory Burst]]
 - Strong connections to strengthen: [[Neutrophils]] ↔ [[Adrenochrome]], [[Neutrophils]] ↔ [[Hypochlorous Acid]]

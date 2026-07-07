@@ -38,7 +38,6 @@ CYP450 enzymes are named by family (e.g., CYP1, CYP2, CYP3), subfamily (letter),
 Polymorphisms in CYP450 genes (e.g., [[CYP2D6]], [[CYP2C9]]) produce extensive inter-individual variation in drug metabolism rates — categorized as poor, intermediate, extensive, or ultrarapid metabolizers.
 
 ## Linking Summary
-
 - New links added: [[Enzyme]], [[HMG-CoA Reductase Inhibitors]], [[Calcium Channel Blockers]], [[Amiodarone]], [[Warfarin]], [[Plavix]], [[Resveratrol]], [[Heparin]]
 - Suggested new entity notes to create: [[CYP3A4]], [[CYP2D6]], [[CYP2C9]], [[CYP2C19]], [[CYP1A2]]
 - Strong connections to strengthen: [[Cytochrome P450]] ↔ [[Resveratrol]], [[Cytochrome P450]] ↔ [[HMG-CoA Reductase Inhibitors]]

@@ -73,7 +73,6 @@ Honokiol is found in *Magnolia* bark:
 ---
 
 ## Linking Summary
-
 - New links added: [[SIRT3]], [[Reactive Oxygen Species]], [[Mitochondria]], [[Dihydromyricetin]], [[Cardiovascular Disease]], [[Inflammation]]
 - Suggested new entity notes: [[MnSOD]], [[OSCP]]
 - Strong connections: [[Honokiol]] ↔ [[SIRT3]], [[Honokiol]] ↔ [[Dihydromyricetin]]

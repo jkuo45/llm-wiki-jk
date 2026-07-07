@@ -31,5 +31,5 @@ The α,β-unsaturated carbonyl system of aminochromes (including [[Adrenochrome]
 
 The conjugation of aminochromes with [[Glutathione]] via Michael addition represents a major detoxification pathway. GSH adducts are more water-soluble and can be exported from cells via [[MRP transporters]] or further metabolized via the [[Mercapturic acid pathway]]. However, glutathione depletion — as occurs under conditions of [[Oxidative Stress]] — saturates this protective mechanism, leaving proteins vulnerable to electrophilic modification. The resulting protein-carbonyl adducts can trigger [[Proteotoxic stress]], [[Unfolded Protein Response]] (UPR) activation, and ultimately [[Apoptosis]]. Pharmacological strategies to enhance aminochrome detoxification include upregulation of [[GCL]] (glutamate-cysteine ligase) to boost GSH synthesis and use of exogenous thiol donors such as [[N-Acetylcysteine]].
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[α,β-unsaturated carbonyl]], [[Leuco-adrenochrome]], [[Dopaminochrome]], [[Glutathione]], [[Cysteine]], [[ALDH2]], [[Complex I]], [[MRP transporters]], [[Mercapturic acid pathway]], [[Oxidative Stress]], [[Proteotoxic stress]], [[Unfolded Protein Response]], [[Apoptosis]], [[GCL]], [[N-Acetylcysteine]]

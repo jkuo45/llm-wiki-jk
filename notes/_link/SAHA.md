@@ -19,10 +19,12 @@ aliases: [Suberoylanilide Hydroxamic Acid, Vorinostat]
 
 **Safety and toxicity:** The safety profile of SAHA depends on dose, duration of exposure, and individual susceptibility. Understanding its toxicology is essential for safe therapeutic use.
 
-### Connections
+#
+
+## Connections
 - [[SAHA]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[SAHA]]
 - Strong connections to strengthen: [[SAHA]] ↔ [[SAHA]]
 

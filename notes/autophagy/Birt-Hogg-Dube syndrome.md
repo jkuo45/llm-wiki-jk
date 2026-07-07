@@ -22,6 +22,5 @@ Characterized by benign skin tumors (fibrofolliculomas), lung cysts with spontan
 
 FLCN loss causes constitutive nuclear translocation of [[TFE3]] and [[TFEB]], leading to hyperactive lysosomal biogenesis and [[Autophagy]]. This suggests that BHD pathology involves dysregulated nutrient sensing and autophagy.
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[Renal Cell Carcinoma]], [[Folliculin]]

@@ -32,8 +32,9 @@ VTA dysfunction is implicated in:
 - [[Schizophrenia]] — dopamine dysregulation in mesocortical and mesolimbic pathways
 - [[Parkinson's Disease]] — VTA degenerates later than SNc but contributes to non-motor symptoms
 
-### Connections
+#
 
+## Connections
 - [[Dopamine]] — primary VTA neurotransmitter; mediates reward and motivation
 - [[Nucleus Accumbens]] — major VTA projection target in the mesolimbic pathway
 - [[Prefrontal Cortex]] — VTA mesocortical projection target for executive function
@@ -43,8 +44,7 @@ VTA dysfunction is implicated in:
 - [[Parkinson's Disease]] — VTA degeneration contributes to non-motor symptoms
 - [[Cocaine]] / [[Amphetamine]] — increase VTA dopamine signaling
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[Dopamine]], [[GABA]], [[Glutamate]], [[Substantia Nigra]], [[Reward System]], [[Nucleus Accumbens]], [[Prefrontal Cortex]], [[Mesolimbic Pathway]], [[Mesocortical Pathway]], [[Hippocampus]], [[Amygdala]], [[Addiction]], [[Cocaine]], [[Amphetamine]], [[Opioids]], [[Nicotine]], [[Alcohol]], [[Depression]], [[Schizophrenia]], [[Parkinson's Disease]], [[Executive Function]], [[Anhedonia]]
 - Suggested new entity notes to create: [[Mesolimbic pathway]], [[Mesocortical pathway]], [[Reward prediction error]], [[Phasic dopamine firing]], [[VTA-NAc circuit]]
 - Strong connections to strengthen: [[VTA]] ↔ [[Dopamine]], [[VTA]] ↔ [[Nucleus Accumbens]], [[VTA]] ↔ [[Addiction]]

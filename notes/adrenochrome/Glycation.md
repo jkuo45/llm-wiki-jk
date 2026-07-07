@@ -36,12 +36,11 @@ The rate of glycation is governed by the concentration and reactivity of the sug
 
 AGEs accumulate progressively in long-lived proteins, including [[Collagen]], [[Elastin]], [[Lens crystallins]], and [[Myelin]]. The half-life of AGE adducts on extracellular matrix proteins can exceed decades, making them reliable biomarkers of biological aging. Accumulation correlates with arterial stiffness, reduced skin elasticity, lens opacity ([[Cataract]]), and impaired renal function. The receptor for AGEs ([[RAGE]]), when activated, triggers pro-inflammatory [[NFκB]] signaling, linking glycation to chronic low-grade inflammation ([[Inflammaging]]). Pharmacological strategies targeting AGE formation or crosslink breakage (e.g., [[Alagebrium]]) remain under investigation.
 
-## Linking Summary
-
-- New links added: [[Maillard Reaction]], [[Amadori products]], [[Advanced Glycation End Products]], [[Hyperglycemia]], [[Oxidative Stress]], [[Aminoguanidine]], [[Herbal products]], [[Physical exercise]]
-- Suggested new entity notes to create: [[Schiff base]]
-- Strong connections to strengthen: [[Glycation]] ↔ [[Aging]]
-
 ## Updated Links
 
 - Additional new links: [[Lysine]], [[Glucose]], [[Fructose]], [[Ribose]], [[Schiff base]], [[Amadori rearrangement]], [[3-deoxyglucosone]], [[Glyoxal]], [[Methylglyoxal]], [[Nε-carboxymethyllysine]], [[Pentosidine]], [[Crossline]], [[Collagen]], [[Elastin]], [[Lens crystallins]], [[Myelin]], [[Cataract]], [[RAGE]], [[NFκB]], [[Inflammaging]], [[Alagebrium]]
+
+## Linking Summary
+- New links added: [[Maillard Reaction]], [[Amadori products]], [[Advanced Glycation End Products]], [[Hyperglycemia]], [[Oxidative Stress]], [[Aminoguanidine]], [[Herbal products]], [[Physical exercise]]
+- Suggested new entity notes to create: [[Schiff base]]
+- Strong connections to strengthen: [[Glycation]] ↔ [[Aging]]

@@ -16,7 +16,7 @@ Beta-Oxidation is a key metabolic process in which fatty acid molecules are brok
 
 Fatty acid β-oxidation occurs in [[Mitochondria]] and [[Peroxisome]]s. Autophagy delivers lipids from [[Lipid Droplet]]s for oxidation.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Peroxisome]], [[ABCD1]], [[Zellweger syndrome]], [[Adrenoleukodystrophy]], [[Acetyl-CoA]], [[Mitochondria]]
 - Suggested new entity notes to create: [[Very Long-Chain Fatty Acids]]
 - Strong connections to strengthen: [[Beta-Oxidation]] ↔ [[Peroxisome]]

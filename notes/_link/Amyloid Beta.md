@@ -19,10 +19,12 @@ aliases: [Aβ]
 
 **Pathological significance:** Altered expression or mutation of Amyloid Beta is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
 
-### Connections
+#
+
+## Connections
 - [[Amyloid Beta]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Amyloid Beta]]
 - Strong connections to strengthen: [[Amyloid Beta]] ↔ [[Amyloid Beta]]
 

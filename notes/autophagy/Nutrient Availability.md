@@ -25,7 +25,7 @@ entity_type_1: Scientific Concept
 ## Physiological Impact
 - Proper sensing and response to nutrient availability are essential for survival during food deprivation and are linked to [[Aging|lifespan]] regulation and [[Metabolic Diseases]].
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[mTORC1]], [[Autophagy]], [[AMPK]], [[TFEB]], [[HLH-30]], [[Starvation]], [[Fasting]], [[Lipophagy]], [[Lipid Droplet]], [[Lysosomal Lipolysis]], [[C. elegans]], [[MXL-3]], [[Aging|lifespan]], [[Metabolic Diseases]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Nutrient Availability]] ↔ [[mTORC1]], [[Nutrient Availability]] ↔ [[HLH-30]]

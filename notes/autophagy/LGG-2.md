@@ -21,7 +21,7 @@ aliases: [C. elegans GABARAP ortholog]
 
 LGG-2 is the C. elegans ortholog of mammalian [[GABARAP]] and functions as an [[Atg8]] family member in autophagosome formation.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[C. elegans]], [[Atg8]], [[LC3]], [[GABARAP]], [[Autophagosome]], [[Fasting]], [[HLH-30]], [[LGG-1]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[LGG-2]] ↔ [[HLH-30]], [[LGG-2]] ↔ [[LGG-1]]

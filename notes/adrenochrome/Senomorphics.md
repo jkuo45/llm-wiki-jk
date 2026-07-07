@@ -73,7 +73,7 @@ Senomorphics hold promise across multiple age-related pathologies:
 
 The [[SASP-Remodeling Aminochrome Complex]] (SRAC) represents a separate but related approach: whereas senomorphics suppress SASP from existing senescent cells, SRAC compounds are designed to remodel the extracellular proteome to reduce SASP-mediated matrix degradation and inflammation.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Senescence]], [[Inflammation]], [[Aminochromes]], [[Senolytics]], [[NFκB]], [[IKK complex]], [[mTORC1]], [[p65]], [[SIRT1]], [[Resveratrol]], [[p38 MAPK]], [[MK2]], [[SB203580]], [[Rapamycin]], [[IL-1α]], [[Metformin]], [[AMPK]], [[NRF2]], [[Sulforaphane]], [[Curcumin]], [[Dimethyl fumarate]], [[HIF-1α]], [[Acriflavine]], [[Carbazochrome]], [[Fisetin]], [[Apigenin]], [[STAT3]], [[Urolithin A]], [[Glucosamine]], [[Endothelial cells]], [[Foam Cells]], [[Chondrocytes]], [[MMP]], [[Astrocytes]], [[Microglia]], [[Lungs]], [[SASP-Remodeling Aminochrome Complex]], [[Redox Cycling]], [[Oxidative Stress]], [[Redox homeostasis]], [[Osteoarthritis]], [[Idiopathic Pulmonary Fibrosis]], [[Chronic Kidney Disease]]
 - Suggested new entity notes to create: [[Senostatic]], [[Senosuppression]]
 - Strong connections to strengthen: [[Senomorphics]] ↔ [[Senolytics]], [[Senomorphics]] ↔ [[SASP-Remodeling Aminochrome Complex]]

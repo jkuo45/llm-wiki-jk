@@ -20,11 +20,13 @@ PERK-mediated eIF2α phosphorylation induces [[Autophagy]] as a cytoprotective r
 Chronic PERK activation is linked to [[Neurodegenerative Diseases]] (Alzheimer's, Parkinson's, prion disorders), [[Type 2 Diabetes Mellitus]] (β-cell loss), and [[Cancer]] (tumor adaptation to microenvironmental stress). PERK inhibitors are being explored as cancer therapeutics.
 
 
-### Connections
+#
+
+## Connections
 - [[EIF2AK3]] — interacts with PERK
 - [[EIF2A]] — interacts with PERK
 - [[ATF4]] — interacts with PERK
 - [[Unfolded Protein Response]] — interacts with PERK
 - [[Autophagy]] — cellular self-degradation pathway; clears damaged proteins and organelles
-### Linking Summary
+## Linking Summary
 - New links added: [[EIF2AK3]], [[EIF2A]], [[ATF4]], [[Unfolded Protein Response]]

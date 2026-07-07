@@ -33,6 +33,5 @@ aliases:
 - [[Heart Failure]]: The end-stage consequence of sustained pathological hypertrophy.
 - [[Autophagy]]: Impaired autophagy contributes to hypertrophy; SIRT1 promotes cardiac autophagy.
 
-### Linking Summary:
-
+## Linking Summary
 - New links added: [[SIRT1]], [[SIRT3]], [[SIRT6]], [[SIRT7]], [[FoxO1]], [[FOXO3a]], [[PGC-1α]], [[Mitochondrial Biogenesis]], [[GATA4]], [[Histone H3]], [[NFKB]], [[Angiotensin II]], [[Caloric Restriction]], [[Intermittent Fasting]], [[Heart Failure]], [[Cardiomyopathy]], [[Autophagy]], [[Reactive Oxygen Species]], [[OXPHOS]], [[Gene Expression]], [[NAD+]]

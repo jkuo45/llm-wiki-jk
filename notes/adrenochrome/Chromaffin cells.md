@@ -12,10 +12,12 @@ entity_type_1: Cell Type
 
 Neuroendocrine cells found in the [[Adrenal medulla]] and other ganglia of the autonomic nervous system. They are responsible for the synthesis, storage, and release of [[Catecholamines]].
 
-### Connections
+#
+
+## Connections
 - [[Adrenal medulla]]: Primary location of chromaffin cells.
 - [[Epinephrine]]: One of the main hormones produced by chromaffin cells.
 - [[Adrenochrome]]: Can form from the oxidation of [[Epinephrine]] released by these cells.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Adrenal medulla]], [[Catecholamines]], [[Epinephrine]], [[Adrenochrome]]

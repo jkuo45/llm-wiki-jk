@@ -23,7 +23,7 @@ FasL induces [[Apoptosis]] by binding to its receptor, [[Fas]] (CD95). This inte
 - [[Fas]]: The specific receptor for FasL.
 - [[Caspase-8]]: Activated downstream of the FasL/Fas interaction.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Apoptosis]], [[Extrinsic Pathway]], [[Fas]], [[Caspase-8]], [[cervical cancer]]
 - Suggested new entity notes to create: [[Fas]]
 - Strong connections to strengthen: [[FasL]] ↔ [[Fas]]

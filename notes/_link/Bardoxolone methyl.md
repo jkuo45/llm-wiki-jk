@@ -19,10 +19,12 @@ aliases: [CDDO-Me, RTA 402]
 
 **Safety and toxicity:** The safety profile of Bardoxolone methyl depends on dose, duration of exposure, and individual susceptibility. Understanding its toxicology is essential for safe therapeutic use.
 
-### Connections
+#
+
+## Connections
 - [[Bardoxolone methyl]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Bardoxolone methyl]]
 - Strong connections to strengthen: [[Bardoxolone methyl]] ↔ [[Bardoxolone methyl]]
 

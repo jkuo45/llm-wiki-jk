@@ -27,6 +27,5 @@ Loss-of-function mutations in the CTSK gene cause [[Pycnodysostosis]], an autoso
 ## Therapeutic Targeting
 Selective cathepsin K inhibitors (e.g., [[Odanacatib]], [[Balicatib]]) were developed for osteoporosis treatment. Odanacatib reached Phase III clinical trials but was discontinued due to increased risk of cardiovascular events (stroke). Off-target effects on cathepsin K expressed in vascular walls and metabolic tissues may underlie these adverse effects.
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[Osteoclast]], [[MITF]]

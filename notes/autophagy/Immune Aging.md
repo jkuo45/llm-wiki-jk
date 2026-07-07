@@ -24,7 +24,7 @@ Immune aging is a major driver of age-related morbidity and mortality, contribut
 ## Therapeutic Strategies
 Interventions targeting immune aging include [[Autophagy Inducer|autophagy inducers]] like [[Rapamycin]], [[Metformin]], and [[Spermidine]], as well as lifestyle changes such as [[Dietary Restriction]] and [[Exercise]].
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Immunosenescence]], [[Immune System]], [[Thymic Involution]], [[T Cell]], [[Inflammaging]], [[Senescence]], [[Senescence-Associated Secretory Phenotype]], [[Atherosclerosis]], [[Cancer]], [[COVID-19]], [[Autophagy Inducer]], [[Rapamycin]], [[Metformin]], [[Spermidine]], [[Dietary Restriction]], [[Exercise]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[Immune Aging]] ↔ [[Autophagy Inducer]], [[Immune Aging]] ↔ [[Immunosenescence]]

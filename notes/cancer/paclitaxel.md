@@ -24,7 +24,7 @@ Paclitaxel is often used in combination with novel agents in clinical trials, su
 - [[ABT-263]]: Used in combination trials.
 - [[ovarian cancer]]: One of its primary indications.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[ovarian cancer]], [[Breast Cancer]], [[non-small-cell lung cancer]], [[Microtubule]], [[Apoptosis]], [[ABT-263]], [[leukemia]]
 - Suggested new entity notes to create: [[ABT-263]]
 - Strong connections to strengthen: [[paclitaxel]] ↔ [[Microtubule]]

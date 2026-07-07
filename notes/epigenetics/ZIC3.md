@@ -21,5 +21,5 @@ ZIC3 is a key regulator of the pluripotency network:
 - [[Embryonic Stem Cells]]: The cell type where ZIC3 was first characterized for its role in maintaining pluripotency.
 - [[Klf4]]: An upstream factor that can initiate the pathway leading to ZIC3 activation during reprogramming.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Embryonic Stem Cells]], [[Nanog]], [[Klf4]]

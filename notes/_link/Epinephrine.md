@@ -25,7 +25,9 @@ entity_type_1: Chemical Compound
 ## Functions
 It increases heart rate, constricts blood vessels, and dilates air passages, participating in the sympathetic nervous system's response to stress.
 
-### Connections
+#
+
+## Connections
 - [[Adrenochrome]] ↔ Direct oxidative byproduct of Epinephrine.
 - [[Catecholamines]] ↔ Epinephrine belongs to this class of molecules.
 - [[Neutrophils]] ↔ Cells that oxidize Epinephrine to Adrenochrome during the respiratory burst.
@@ -34,6 +36,6 @@ It increases heart rate, constricts blood vessels, and dilates air passages, par
 - [[Catecholamines]]: The class of molecules to which epinephrine belongs.
 - [[Norepinephrine]]: The precursor to epinephrine.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Epinephrine]], [[Adrenochrome]], [[Oxidative Stress]], [[Oxidation]], [[Myeloperoxidase]], [[COMT]], [[MAO]], [[Inflammation]], [[Neutrophils]], [[Smoking]], [[Catecholamines]], [[Lungs]], [[Cardiotoxicity]], [[Neurotransmitters]], [[Catechol-O-methyltransferase]], [[Norepinephrine]]., [[Norepinephrine]]
 - Strong connections to strengthen: [[Epinephrine]] ↔ [[Adrenochrome]]

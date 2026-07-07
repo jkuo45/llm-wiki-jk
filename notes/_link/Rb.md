@@ -19,10 +19,12 @@ aliases: [Retinoblastoma Protein]
 
 **Pathological significance:** Altered expression or mutation of Rb is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
 
-### Connections
+#
+
+## Connections
 - [[Rb]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Rb]]
 - Strong connections to strengthen: [[Rb]] ↔ [[Rb]]
 

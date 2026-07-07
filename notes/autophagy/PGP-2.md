@@ -21,7 +21,7 @@ aliases: [C. elegans lysosomal marker]
 
 PGP-2 is a C. elegans lysosomal membrane protein used as a marker for lysosomal content and size. It is regulated by [[HLH-30]]/[[TFEB]].
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[C. elegans]], [[Lysosome]], [[LRO]], [[LIPL-1]], [[LIPL-3]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[PGP-2]] ↔ [[LIPL-3]]

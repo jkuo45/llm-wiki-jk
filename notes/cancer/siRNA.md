@@ -27,7 +27,7 @@ siRNA is a powerful tool used to investigate the function of genes and to develo
 - [[Bmi-1]]: Targeted to overcome drug resistance.
 - [[Doxorubicin]]: Cells can be sensitized to doxorubicin using siRNA.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Apoptosis]], [[XIAP]], [[Survivin]], [[Bcl-2]], [[Bmi-1]], [[Doxorubicin]]
 - Suggested new entity notes to create: [[Bmi-1]]
 - Strong connections to strengthen: [[siRNA]] ↔ [[Apoptosis]]

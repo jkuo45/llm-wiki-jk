@@ -13,7 +13,9 @@ Successful aging is a concept that encompasses the avoidance of disease and disa
 
 
 
-### Connections
+#
+
+## Connections
 - [[Aging]] — related entity
 - [[Centenarians]] — related entity
 - [[Cognition]] — related entity
@@ -22,7 +24,7 @@ Successful aging is a concept that encompasses the avoidance of disease and disa
 - [[Morbidity]] — related entity
 - [[Successful Aging]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Aging]], [[Centenarians]], [[Longevity]], [[Cognition]]
 - Suggested new entity notes to create: [[Cognition]], [[Morbidity]]
 - Strong connections to strengthen: [[Successful Aging]] ↔ [[Geroscience]]

@@ -22,5 +22,5 @@ In the [[Prefrontal Cortex]] ([[Prefrontal Cortex]]), where the [[Dopamine Trans
 - [[NET]]: The common abbreviation for the norepinephrine transporter.
 
 ---
-### Linking Summary:
+## Linking Summary
 - New links added: [[Norepinephrine]], [[Prefrontal Cortex]], [[Prefrontal Cortex]], [[Dopamine Transporter]], [[Dopamine]], [[COMT]], [[NET]].

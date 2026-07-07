@@ -27,6 +27,6 @@ In [[Adrenochrome]], the indoline core is substituted with:
 - [[Dopaminochrome]] ↔ Features an unmethylated indoline core.
 - [[Quinone]] ↔ The other major structural moiety in aminochromes.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Indoline]], [[Aminochromes]], [[Adrenochrome]], [[Dopaminochrome]], [[Oxidation]], [[Catecholamines]], [[Quinone]]
 - Strong connections to strengthen: [[Indoline]] ↔ [[Aminochromes]]

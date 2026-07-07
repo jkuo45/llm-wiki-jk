@@ -42,7 +42,6 @@ Loss of SERCA2a activity is a hallmark of advanced heart failure. Gene therapy a
 - [[Sarcoplasmic Reticulum]] — Subcellular compartment where SERCA2a resides and functions
 
 ## Linking Summary
-
 - New links added: [[SERCA2a]], [[K492]], [[Heart Failure]], [[NAD+]], [[Resveratrol]], [[Sarcoplasmic Reticulum]]
 - Suggested new entity notes to create: [[CUPID trial]], [[AAV1]]
 - Strong connections to strengthen: [[SIRT1]] ↔ [[SERCA2a]]

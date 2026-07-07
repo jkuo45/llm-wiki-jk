@@ -30,8 +30,9 @@ ERRα is constitutively active once expressed. Its activity is tightly controlle
 
 ERRα drives bioenergetic reprogramming in [[Breast Cancer]] (basal-like and [[Triple-negative]] subtypes) and other high-energy-demand tumors. ERRα inhibition reduces tumor growth and metastasis. ERRα also mediates [[Insulin Sensitivity]] and [[Hepatic Gluconeogenesis]].
 
-### Connections
+#
 
+## Connections
 - [[PGC1-α]] — master coactivator of ERRα for mitochondrial gene expression
 - [[Mitochondrial Biogenesis]] — ERRα regulates mitochondrial DNA replication and transcription
 - [[Oxidative Phosphorylation]] — ERRα activates nuclear-encoded OXPHOS genes
@@ -42,8 +43,7 @@ ERRα drives bioenergetic reprogramming in [[Breast Cancer]] (basal-like and [[T
 - [[Caloric Restriction]] — upregulates ERRα in metabolic tissues
 - [[NRF1]] / [[TFAM]] — ERRα targets for mitochondrial transcription and genome maintenance
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[Nuclear Receptor]], [[Estrogen Receptor]], [[Mitochondrial Biogenesis]], [[Oxidative Phosphorylation]], [[Fatty acid]], [[PGC1-α]], [[PPARγ Coactivator 1β]], [[NRF1]], [[NRF2]], [[TFAM]], [[Electron Transport Chain]], [[NDUFS1]], [[MCAD]], [[LCAD]], [[CPT1b]], [[PDK4]], [[TCA Cycle]], [[PINK1]], [[Mitophagy]], [[NRIP1]], [[Exercise]], [[Caloric Restriction]], [[Cold Exposure]], [[Breast Cancer]], [[Triple-negative]], [[Insulin Sensitivity]], [[Hepatic Gluconeogenesis]], [[Mitochondria]]
 - Suggested new entity notes to create: [[Orphan nuclear receptor]], [[NR3B subfamily]], [[ERRβ]], [[ERRγ]], [[PGC-1 coactivator family]]
 - Strong connections to strengthen: [[ERRalpha]] ↔ [[Mitochondrial Biogenesis]], [[ERRalpha]] ↔ [[PGC1-α]], [[ERRalpha]] ↔ [[Oxidative Phosphorylation]]

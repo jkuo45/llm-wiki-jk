@@ -19,10 +19,12 @@ aliases: [Platelet-Derived Growth Factor Receptor]
 
 **Pathological significance:** Altered expression or mutation of PDGFR is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
 
-### Connections
+#
+
+## Connections
 - [[PDGFR]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[PDGFR]]
 - Strong connections to strengthen: [[PDGFR]] ↔ [[PDGFR]]
 

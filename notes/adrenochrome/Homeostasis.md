@@ -36,7 +36,7 @@ Catecholamine oxidation products, including [[adrenaline-quinone]], [[Adrenochro
 
 Paradoxically, low-level exposure to catecholamine quinones and ROS can trigger adaptive, pro-survival responses via hormesis. Mild oxidative stress transiently activates [[NRF2]] and [[FOXO]] transcription factors, upregulating antioxidant enzymes, enhancing [[Glutathione]] synthesis, and improving mitochondrial quality control through [[Mitophagy]] and the [[Mitochondrial Unfolded Protein Response]]. This phenomenon — [[Mitohormesis]] — may explain how moderate exercise or controlled physiological stress confers broad cytoprotection. However, the hormetic window is narrow: beyond a threshold, the same electrophiles trigger apoptosis, ferroptosis, or necrotic cell death. Understanding the dose-dependence of catecholamine oxidation products on Nrf2 activation versus toxicity is critical for therapeutic targeting of this axis.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Reactive Oxygen Species]], [[Glutathione Peroxidase]], [[Glutathione Reductase]], [[Keap1]], [[NRF2]], [[Antioxidant Response Element]], [[NQO1]], [[HO-1]], [[Catalase]], [[FOXO]], [[adrenaline-quinone]], [[Dopaminochrome]], [[o-quinone]], [[Methylglyoxal]], [[Mitophagy]], [[Mitochondrial Unfolded Protein Response]], [[Mitohormesis]], [[Advanced Glycation End Products]], [[Ferroptosis]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Homeostasis]] ↔ [[Adrenochrome]], [[Keap1]]/[[NRF2]] ↔ [[Redox Homeostasis]]

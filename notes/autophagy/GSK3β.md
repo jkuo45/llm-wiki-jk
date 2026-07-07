@@ -20,8 +20,7 @@ GSK3β is a constitutively active serine/threonine kinase inactivated by [[Akt]]
 
 GSK3β phosphorylates [[TFEB]] at S134/S138, promoting its nuclear export. GSK3β inhibition ([[Lithium]], [[SB216763]]) induces autophagy and is protective in neurodegeneration.
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[TFEB]], [[mTORC1]]
 - Suggested new entity notes to create: [[Lysosomal Localization]]
 - Strong connections to strengthen: [[GSK3β]] ↔ [[TFEB]]

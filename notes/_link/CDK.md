@@ -19,10 +19,12 @@ aliases: [Cyclin-Dependent Kinase]
 
 **Pathological significance:** Altered expression or mutation of CDK is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
 
-### Connections
+#
+
+## Connections
 - [[CDK]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[CDK]]
 - Strong connections to strengthen: [[CDK]] ↔ [[CDK]]
 

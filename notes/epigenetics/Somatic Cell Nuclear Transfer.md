@@ -20,7 +20,7 @@ SCNT was the primary method of [[Cellular Reprogramming]] before the discovery o
 - [[Shinya Yamanaka]]: His work on iPSCs was inspired by the possibilities shown by SCNT.
 - [[Rejuvenation]]: SCNT is one of the ways to achieve developmental reprogramming for rejuvenation.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Cellular Reprogramming]], [[Induced Pluripotent Stem Cells]], [[Shinya Yamanaka]], [[Kazutoshi Takahashi]], [[Rejuvenation]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Cellular Reprogramming]] ↔ [[Somatic Cell Nuclear Transfer]]

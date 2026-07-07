@@ -19,10 +19,12 @@ aliases: [RTKs]
 
 **Pathological significance:** Altered expression or mutation of Receptor Tyrosine Kinases is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
 
-### Connections
+#
+
+## Connections
 - [[Receptor Tyrosine Kinases]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Receptor Tyrosine Kinases]]
 - Strong connections to strengthen: [[Receptor Tyrosine Kinases]] ↔ [[Receptor Tyrosine Kinases]]
 

@@ -20,7 +20,7 @@ REDD1 (DDIT4) is a stress-induced protein that inhibits [[mTORC1]] by displacing
 
 REDD1-mediated mTORC1 inhibition under hypoxia, ER stress, or DNA damage promotes [[Autophagy]] as a survival mechanism.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[mTORC1]], [[Hypoxia]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[REDD1]] ↔ [[mTORC1]]

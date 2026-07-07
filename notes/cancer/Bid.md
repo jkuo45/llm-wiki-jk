@@ -30,7 +30,7 @@ tBid translocates to the mitochondria, where it triggers the activation of [[Bax
 - [[Bax]]: Activated downstream of tBid.
 - [[CK1]] / [[CK2]]: Inhibitory kinases that prevent Bid cleavage.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[CK1]], [[CK2]], [[Phosphorylation]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[Bid]] ↔ [[Caspase-8]], [[Bid]] ↔ [[CK2]]

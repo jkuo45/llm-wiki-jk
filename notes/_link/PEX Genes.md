@@ -25,8 +25,9 @@ PEX proteins execute three core processes:
 
 Mutations in PEX genes cause [[Zellweger Spectrum Disorders]] (ZSD), a group of autosomal recessive peroxisomal biogenesis disorders ranging in severity: [[Zellweger syndrome]] (severe), [[Neonatal Adrenoleukodystrophy]] (intermediate), and [[Infantile Refsum Disease]] (mild). PEX1 mutations account for ~60% of ZSD cases, with [[PEX1-G843D]] (c.2528G>A) the most common allele. Affected individuals accumulate very-long-chain [[Fatty acids]], [[Phytanic acid]], and bile acid intermediates due to absent peroxisomal metabolism.
 
-### Connections
+#
 
+## Connections
 - [[Peroxisome]] — the organelle whose biogenesis PEX genes govern
 - [[PEX5]] — PTS1 receptor; shuttles matrix proteins into peroxisomes
 - [[PEX7]] — PTS2 receptor; recognizes alternative targeting signals
@@ -36,8 +37,7 @@ Mutations in PEX genes cause [[Zellweger Spectrum Disorders]] (ZSD), a group of 
 - [[Fatty acid]] — very-long-chain fatty acids accumulate in ZSD
 - [[Endoplasmic Reticulum]] — source of nascent peroxisomal membranes
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[Peroxisome]], [[PEX5]], [[PEX7]], [[PEX13]], [[PEX14]], [[PEX19]], [[PEX1]], [[PEX2]], [[PEX10]], [[PEX12]], [[PEX11]], [[Fatty acid]], [[Phytanic acid]], [[Zellweger syndrome]], [[Neonatal Adrenoleukodystrophy]], [[Infantile Refsum Disease]], [[Endoplasmic Reticulum]]
 - Suggested new entity notes to create: [[Peroxin]], [[Peroxisomal targeting signal]], [[Zellweger spectrum disorders]], [[PEX1-G843D]]
 - Strong connections to strengthen: [[PEX Genes]] ↔ [[Peroxisome]], [[PEX Genes]] ↔ [[Zellweger syndrome]]

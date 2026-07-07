@@ -19,10 +19,12 @@ aliases: [FK506 Binding Protein 12kDa]
 
 **Pathological significance:** Altered expression or mutation of FKBP12 is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
 
-### Connections
+#
+
+## Connections
 - [[FKBP12]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[FKBP12]]
 - Strong connections to strengthen: [[FKBP12]] ↔ [[FKBP12]]
 

@@ -28,7 +28,6 @@ The role of ATF5 highlights the evolutionary conservation of the UPRmt signaling
 - [[Mitohormesis]]
 
 ## Linking Summary
-
 - New links added: [[ATFS-1]], [[Mitochondrial Unfolded Protein Response]], [[Mitochondria]], [[Mitohormesis]]
 - Suggested new entity notes to create: [[Mitochondrial proteostasis]]
 - Strong connections to strengthen: [[ATF5]] ↔ [[UPRmt]]

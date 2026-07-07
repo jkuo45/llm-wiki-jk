@@ -20,8 +20,7 @@ CRM1 (exportin 1) mediates nuclear export of proteins with leucine-rich nuclear 
 
 CRM1 inhibitors ([[Leptomycin B]], [[Selinexor]]/KPT-330) cause nuclear accumulation of [[TFEB]] and induce autophagy. Selinexor is FDA-approved for multiple myeloma.
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[TFEB]]
 - Suggested new entity notes to create: [[Nuclear Export]]
 - Strong connections to strengthen: [[CRM1]] ↔ [[TFEB]]

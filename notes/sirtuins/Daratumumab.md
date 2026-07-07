@@ -59,7 +59,6 @@ Daratumumab is approved across multiple lines of therapy:
 ---
 
 ## Linking Summary
-
 - New links added: [[CD38]], [[Multiple Myeloma]], [[Isatuximab]], [[Tumor Microenvironment]]
 - Suggested new entity notes: [[cADPR]], [[Tumor Microenvironment]]
 - Strong connections: [[Daratumumab]] ↔ [[CD38]], [[Daratumumab]] ↔ [[Multiple Myeloma]]

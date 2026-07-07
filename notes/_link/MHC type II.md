@@ -15,9 +15,11 @@ Major histocompatibility complex class II molecules, involved in antigen present
 
 
 
-### Connections
+#
+
+## Connections
 - [[Immune System]] — related entity
 - [[TFEB]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[TFEB]], [[Immune System]]

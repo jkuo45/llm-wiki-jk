@@ -19,8 +19,7 @@ Ischemia-reperfusion injury (IRI) involves ATP depletion, oxidative stress, Ca2+
 
 [[Trehalose]], [[Spermidine]], and [[Melatonin]] activate autophagy and protect against IRI in heart, brain, liver, and kidney preclinical models.
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[TFEB]], [[Ischemia-reperfusion Injury]]
 - Suggested new entity notes to create: [[Hypoxia]]
 - Strong connections to strengthen: [[ischemic injury]] ↔ [[TFEB]]

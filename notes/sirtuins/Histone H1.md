@@ -28,7 +28,6 @@ target: SIRT1
 - [[Histone H4]] — core histone also deacetylated by SIRT1
 
 ## Linking Summary
-
 - New links added: [[SIRT1]], [[Histone H4]]
 - Suggested new entity notes to create: [[Core Histones]], [[Linker DNA]], [[30-nm Fiber]]
 - Strong connections to strengthen: [[Histone H1]] ↔ [[SIRT1]]

@@ -24,12 +24,14 @@ entity_type_1: Cell Type
 - **Anatomy:** [[Substantia Nigra]], [[Ventral Tegmental Area]]
 - **Diseases:** [[Parkinson's Disease]], [[Neurodegenerative Diseases]]
 
-### Connections
+#
+
+## Connections
 - [[Parkinson's Disease]]: Characterized by the progressive loss of dopaminergic neurons.
 - [[Induced Pluripotent Stem Cells]]: Used to generate functional dopaminergic neurons for research and therapy.
 - [[Neuromelanin]]: A pigment produced in dopaminergic neurons that can have both protective and toxic roles.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Aminochromes]], [[Dopamine]], [[Dopaminochrome]], [[Induced Neural Stem Cells]], [[Induced Pluripotent Stem Cells]], [[Neurodegenerative Diseases]], [[Neuromelanin]], [[Parkinson's Disease]], [[Ventral Tegmental Area]], [[Substantia Nigra]]
 - Suggested new entity notes to create: [[Dopaminochrome]], [[Ventral Tegmental Area]]
 - Strong connections to strengthen: [[Dopaminergic Neurons]] ↔ [[Parkinson's Disease]], [[Dopaminergic Neurons]] ↔ [[Induced Pluripotent Stem Cells]]

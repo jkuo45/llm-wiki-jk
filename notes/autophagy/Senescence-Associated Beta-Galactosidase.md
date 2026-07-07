@@ -23,7 +23,7 @@ aliases: [SA-β-gal]
 
 SA-β-gal activity at pH 6.0 is the most widely used [[Senescence]] biomarker. It reflects increased lysosomal content in senescent cells and correlates with [[Autophagy]] status.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Biomarkers|Biomarker]], [[Senescence]], [[CDKN1A]], [[p53|TP53]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[Senescence-Associated Beta-Galactosidase]] ↔ [[Senescence]]

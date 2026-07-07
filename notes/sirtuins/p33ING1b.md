@@ -34,7 +34,6 @@ In hepatocarcinoma (HepG2) cells, the p33ING1b–SIRT1 interaction negatively re
 - [[Hepatocellular Carcinoma]] — disease context for the p33ING1b-SIRT1-p53-AFP axis
 
 ## Linking Summary
-
 - New links added: [[SIRT1]], [[p53]], [[Hepatocellular Carcinoma]]
 - Suggested new entity notes to create: [[ING1 Gene]], [[AFP (Alpha-Fetoprotein)]], [[PHD Finger]]
 - Strong connections to strengthen: [[p33ING1b]] ↔ [[SIRT1]], [[p33ING1b]] ↔ [[p53]]

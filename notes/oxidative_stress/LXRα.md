@@ -13,11 +13,6 @@ tags: [oxidative_stress, cholesterol, nuclear_receptor]
 # LXRα
 Liver X receptor alpha (LXRα) is a nuclear receptor that plays a central role in the regulation of [[Cholesterol]], fatty acid, and glucose homeostasis. It works in conjunction with other receptors like [[PPARγ]] to regulate the expression of [[ABCA1]], which is vital for cholesterol efflux.
 
-## Linking Summary
-- New links added: [[ABCA1]], [[Cholesterol]], [[PPARγ]]
-- Suggested new entity notes to create: [[Nuclear receptor]], [[Fatty acid metabolism]]
-- Strong connections to strengthen: [[LXRα]] ↔ [[ABCA1]]
-
 ## Oxidative Stress and LXRα Regulation
 
 ### Oxysterol Ligands and Redox-Dependent Activation
@@ -42,3 +37,8 @@ Synthetic LXR agonists (e.g., [[GW3965]], [[T0901317]]) demonstrate potent anti-
 - New links added: [[Oxidative Stress]], [[Cholesterol]], [[Atherosclerosis]], [[ABCA1]], [[IL-1b]], [[TNF-alpha]], [[Macrophage]], [[CD36 Receptor]], [[Oxidized LDL]], [[Lipid Peroxidation]], [[PPARγ]], [[NF-kappa B]], [[Inflammation]], [[PGC1-α]]
 - Suggested new entity notes to create: [[Oxysterols]], [[RXRα]], [[LXR response element]], [[SUMOylation]], [[SREBP-1c]], [[Reverse cholesterol transport]], [[ABCG1]], [[NCoR]], [[GW3965]], [[T0901317]]
 - Strong connections to strengthen: [[LXRα]] ↔ [[Oxidative Stress]], [[LXRα]] ↔ [[Atherosclerosis]], [[LXRα]] ↔ [[NF-kappa B]]
+
+## Linking Summary
+- New links added: [[ABCA1]], [[Cholesterol]], [[PPARγ]]
+- Suggested new entity notes to create: [[Nuclear receptor]], [[Fatty acid metabolism]]
+- Strong connections to strengthen: [[LXRα]] ↔ [[ABCA1]]

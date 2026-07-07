@@ -19,10 +19,12 @@ aliases: [Coronavirus Disease 2019]
 
 **Therapeutic strategies:** Management of COVID-19 includes pharmacological interventions, lifestyle modifications, and supportive care. Emerging therapies target specific molecular pathways involved in disease progression.
 
-### Connections
+#
+
+## Connections
 - [[COVID-19]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[COVID-19]]
 - Strong connections to strengthen: [[COVID-19]] ↔ [[COVID-19]]
 

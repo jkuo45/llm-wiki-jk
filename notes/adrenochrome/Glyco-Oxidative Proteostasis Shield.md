@@ -28,7 +28,7 @@ The **Glyco-Oxidative Proteostasis Shield (GOPS)** is a therapeutic strategy aim
 - Improved skin elasticity and vascular compliance (targeting extracellular matrix aging).
 - Enhanced cognitive function via neuro-proteostasis.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Adrenochrome monoaminoguanidine]], [[Spermidine]], [[EDTA]], [[Carnosine]], [[Advanced Glycation End Products]], [[Hormesis]], [[Autophagy]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Glyco-Oxidative Proteostasis Shield]] ↔ [[Proteostasis]]

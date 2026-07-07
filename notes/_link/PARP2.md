@@ -13,12 +13,14 @@ PARP2 (Poly [ADP-ribose] polymerase 2) is an enzyme related to PARP1 that also r
 
 
 
-### Connections
+#
+
+## Connections
 - [[DNA Repair]] — related entity
 - [[NAD+]] — related entity
 - [[PARP2]] — related entity
 - [[SIRT1]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[NAD+]], [[DNA Repair]], [[SIRT1]]
 - Strong connections to strengthen: [[PARP2]] ↔ [[DNA Repair]]

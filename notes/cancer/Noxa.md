@@ -29,7 +29,7 @@ Noxa is involved in the apoptotic response to chemotherapy and its downregulatio
 - [[Intrinsic Pathway]]: Facilitates mitochondrial-mediated death.
 - [[CDK5]]: Regulates Noxa activity.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[CDK5]], [[GSK3]], [[JNK]], [[Phosphorylation]], [[leukemia]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[Noxa]] ↔ [[Mcl-1]], [[Noxa]] ↔ [[CDK5]]

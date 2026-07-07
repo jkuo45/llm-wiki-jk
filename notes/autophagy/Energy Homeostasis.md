@@ -19,8 +19,7 @@ Energy homeostasis is the balance between energy intake, storage, and expenditur
 
 [[Autophagy]] supports energy homeostasis by recycling nutrients during fasting. [[AMPK]] activates autophagy while [[mTORC1]] suppresses it.
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[AMPK]], [[TFEB]], [[Autophagy]]
 - Suggested new entity notes to create: [[ATP]]/[[AMP]] ratio
 - Strong connections to strengthen: [[Energy Homeostasis]] ↔ [[AMPK]]

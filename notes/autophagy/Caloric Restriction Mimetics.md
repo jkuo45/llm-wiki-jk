@@ -20,7 +20,7 @@ CRMs are compounds that mimic the molecular effects of [[Caloric Restriction]] w
 
 [[Metformin]], [[Rapamycin]], [[Resveratrol]], [[Spermidine]], [[Trehalose]], [[Lithium]], [[Hydroxycitrate]], [[2-DG]]. Many CRMs are [[Autophagy Inducer]]s.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Caloric Restriction]], [[AMPK]], [[mTOR]], [[Macroautophagy]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Caloric Restriction Mimetics]] ↔ [[Metformin]]

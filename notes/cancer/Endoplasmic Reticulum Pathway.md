@@ -26,7 +26,7 @@ Cancer cells often experience chronic ER stress due to rapid growth and poor vas
 - [[Common Pathway]]: The final execution phase.
 - [[Caspase-12]]: The primary protease associated with this pathway.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Apoptosis]], [[Hypoxia]], [[Common Pathway]], [[Caspase-12]], [[TRAF2]]
 - Suggested new entity notes to create: [[Caspase-12]], [[TRAF2]]
 - Strong connections to strengthen: [[Endoplasmic Reticulum Pathway]] ↔ [[Caspase-12]]

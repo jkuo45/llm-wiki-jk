@@ -19,10 +19,12 @@ aliases: [Mitofusin 2]
 
 **Pathological significance:** Altered expression or mutation of MFN2 is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
 
-### Connections
+#
+
+## Connections
 - [[MFN2]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[MFN2]]
 - Strong connections to strengthen: [[MFN2]] ↔ [[MFN2]]
 

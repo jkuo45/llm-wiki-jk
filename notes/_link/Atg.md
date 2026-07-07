@@ -12,8 +12,9 @@ entity_type_1: Enzyme
 
 Atg (autophagy-related) proteins are a family of evolutionarily conserved proteins that orchestrate the [[Autophagy]] pathway, from initiation to autophagosome formation, cargo recognition, and lysosomal fusion. Core Atg proteins include the [[ULK1]] complex (initiation), [[Beclin1]]/[[Vps34]] (PI3K complex nucleation), [[Atg12]]-[[Atg5]]-[[Atg16]] conjugation system, [[Atg8]]/[[LC3]] lipidation system, and [[Atg4]] proteases. Atg proteins are regulated by nutrient-sensing kinases [[mTORC1]] and [[AMPK]], and their dysfunction is linked to [[Neurodegeneration]], [[Cancer]], [[Metabolic Disease]], and [[Aging]].
 
-### Connections
+#
 
+## Connections
 - [[Autophagy]] — core pathway executed by Atg proteins
 - [[LC3]] — mammalian Atg8 homolog, key autophagosome marker
 - [[Atg5]] — essential for autophagosome elongation
@@ -27,8 +28,7 @@ Atg (autophagy-related) proteins are a family of evolutionarily conserved protei
 - [[AMPK]] — activates Atg proteins under energy stress
 - [[p62]] — cargo receptor that binds LC3 and ubiquitinated targets
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[Autophagy]], [[LC3]], [[Atg5]], [[Atg7]], [[Atg12]], [[Beclin1]], [[ULK1]], [[Atg4]], [[Atg16]], [[Vps34]], [[Atg8]], [[p62]], [[mTORC1]], [[AMPK]], [[Neurodegeneration]], [[Cancer]], [[Metabolic Disease]], [[Aging]]
 - Suggested new entity notes to create: [[Atg3]], [[Atg10]], [[Atg14]], [[Atg101]]
 - Strong connections to strengthen: [[Atg]] ↔ [[Autophagy]], [[Atg]] ↔ [[LC3]]

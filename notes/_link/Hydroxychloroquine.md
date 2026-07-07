@@ -19,10 +19,12 @@ aliases: [HCQ, Plaquenil]
 
 **Safety and toxicity:** The safety profile of Hydroxychloroquine depends on dose, duration of exposure, and individual susceptibility. Understanding its toxicology is essential for safe therapeutic use.
 
-### Connections
+#
+
+## Connections
 - [[Hydroxychloroquine]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Hydroxychloroquine]]
 - Strong connections to strengthen: [[Hydroxychloroquine]] ↔ [[Hydroxychloroquine]]
 

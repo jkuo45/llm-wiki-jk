@@ -22,7 +22,7 @@ aliases: [MYC-associated factor X]
 
 MAX is a bHLH-LZ transcription factor that forms heterodimers with [[MYC]] and [[MXD]] family proteins. MAX-MYC activates growth, while MAX-MXD represses. [[Autophagy]] is suppressed by MAX-MYC signaling.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[bHLH-Zip]], [[C. elegans]], [[MXL-3]]
 - Suggested new entity notes to create: [[MYC]], [[MAD]], [[Mnt]]
 - Strong connections to strengthen: [[MAX]] ↔ [[MXL-3]]

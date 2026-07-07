@@ -39,7 +39,6 @@ The reversible acetylation of acetyl-CoA synthetases is a highly conserved metab
 - [[Acetyl-CoA]] — the enzymatic product of AceCS2
 
 ## Linking Summary
-
 - New links added: [[SIRT3]], [[SIRT1]], [[Caloric Restriction]], [[Acetyl-CoA]]
 - Suggested new entity notes to create: [[AceCS1]], [[CobB]]
 - Strong connections to strengthen: [[AceCS2]] ↔ [[SIRT3]]

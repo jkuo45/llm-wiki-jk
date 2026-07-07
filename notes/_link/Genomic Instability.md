@@ -21,13 +21,15 @@ entity_type_1: Biological Process
 ### 3. Epigenetic Influence
 Epigenetic factors like [[SIRT6]] play a crucial role in maintaining genomic stability by recruiting repair proteins to sites of damage and keeping repetitive elements silenced.
 
-### Connections
+#
+
+## Connections
 - **[[Aging]]**: Genomic instability is one of the primary "hallmarks of aging."
 - **[[DNA Damage]]**: The physical lesions that contribute to instability.
 - **[[DNA Repair]]**: The cellular processes that attempt to counteract instability.
 - **[[Transposable Elements]]**: Mobile genetic elements whose activation drives instability.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Genomic Instability]], [[Aging]], [[DNA Damage]], [[Heterochromatin]], [[Transposable Elements]], [[LINE-1]], [[DNA Repair]], [[Cancer]], [[Cellular Senescence]], [[SASP]], [[Werner Syndrome]], [[HGPS]], [[SIRT6]]
 - Suggested new entity notes to create: [[Aneuploidy]], [[Micronuclei]], [[Somatic Mutations]]
 - Strong connections to strengthen: [[Genomic Instability]] ↔ [[Aging]], [[Genomic Instability]] ↔ [[DNA Damage]]

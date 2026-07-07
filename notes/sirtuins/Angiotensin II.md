@@ -34,7 +34,6 @@ Angiotensin II is generated through a two-step enzymatic cascade:
 Angiotensin II is implicated in [[Hypertension]], [[Cardiac Hypertrophy]], [[Cardiomyopathy]], and [[Atherosclerosis]]. [[SIRT1]] has been shown to downregulate angiotensin II type 1 receptor expression, providing a mechanistic link between [[Sirtuins]] and blood pressure regulation. [[Resveratrol]]-mediated [[SIRT1]] activation attenuates angiotensin II-induced hypertension in vascular smooth muscle.
 
 ## Linking Summary
-
 - New links added: [[Cardiovascular Disease]], [[Inflammation]], [[Oxidative Stress]], [[Nitric Oxide]], [[Endothelial Dysfunction]], [[NADPH Oxidase]], [[Reactive Oxygen Species]], [[NFKB]], [[VCAM-1]], [[Atherosclerosis]], [[SIRT1]], [[Sirtuins]], [[Resveratrol]]
 - Suggested new entity notes to create: [[Renin-angiotensin system]], [[Angiotensinogen]], [[Angiotensin-Converting Enzyme]], [[Angiotensin II type 1 receptor]], [[Hypertension]], [[Cardiac Hypertrophy]], [[Cardiomyopathy]]
 - Strong connections to strengthen: [[Angiotensin II]] ↔ [[SIRT1]], [[Angiotensin II]] ↔ [[Resveratrol]]

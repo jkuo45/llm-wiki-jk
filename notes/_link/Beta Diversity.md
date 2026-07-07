@@ -13,13 +13,15 @@ Beta diversity is a measure of the difference in species composition between dif
 
 
 
-### Connections
+#
+
+## Connections
 - [[Alpha Diversity]] — related entity
 - [[Beta Diversity]] — related entity
 - [[Gut Microbiome]] — related entity
 - [[Species Composition]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Gut Microbiome]], [[Alpha Diversity]]
 - Suggested new entity notes to create: [[Species Composition]]
 - Strong connections to strengthen: [[Beta Diversity]] ↔ [[Gut Microbiome]]

@@ -25,7 +25,7 @@ While apoptosis is the desired outcome of therapy, necrosis in tumors can lead t
 - [[Pyroptosis]]: A programmed form of necrotic-like cell death.
 - [[Metastasis]]: Proinflammatory necrosis can promote tumor spread.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Apoptosis]], [[Pyroptosis]], [[Metastasis]]
 - Suggested new entity notes to create: [[Pyroptosis]]
 - Strong connections to strengthen: [[necrosis]] ↔ [[Apoptosis]]

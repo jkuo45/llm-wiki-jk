@@ -19,14 +19,16 @@ entity_type_1: Biological Process
 - [[Chromatin]]
 - [[Histone Modification]]
 
-### Connections
+#
+
+## Connections
 - [[Histone Acetyltransferase]] — interacts with
 - [[Histone Deacetylase]] — interacts with
 - [[SIRT1]] — NAD+-dependent deacetylase; activates NRF2
 - [[Epigenetics]] — interacts with
 - [[Chromatin]] — interacts with
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Histone Acetyltransferase]], [[Histone Deacetylase]], [[SIRT1]], [[Epigenetics]], [[Chromatin]], [[Histone Modification]]
 - Strong connections to strengthen: [[Histone Acetylation]] ↔ [[Histone Acetyltransferase]], [[Histone Acetylation]] ↔ [[Histone Deacetylase]], [[Histone Acetylation]] ↔ [[SIRT1]], [[Histone Acetylation]] ↔ [[Epigenetics]], [[Histone Acetylation]] ↔ [[Chromatin]]
 

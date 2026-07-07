@@ -35,11 +35,14 @@ Nuclear factor-kappa B (NF-κB) is a protein complex that functions as a central
 - [[p50]], [[p65]], [[c-Rel]], [[RelB]]: NF-κB subunit family members.
 - [[Bortezomib]]: Proteasome inhibitor that blocks NF-κB activation.
 - [[Inflammation]]: NF-κB is the "master switch" for inflammatory gene expression.
-- [[Rheumatoid Arthritis]]: Pathogenic NF-κB activation in synovial fibroblasts.### Linking Summary:
+- [[Rheumatoid Arthritis]]: Pathogenic NF-κB activation in synovial fibroblasts.
+
+## Linking Summary
+- New links added in this revision: [[LPS]], [[HIF-1α]], [[PP2A]], [[S-Nitrosylation]], [[Rheumatoid Arthritis]], [[NRF2]], [[p62]], [[HO-1]], [[Alpha-Lipoic Acid]], [[Neurodegenerative Diseases]], [[Cancer]], [[Bcl-xL]], [[c-FLIP]], [[Curcumin]], [[Resveratrol]], [[EGCG]], [[Bortezomib]], [[CD40L]], [[BAFF]], [[RANKL]], [[Zinc Finger]], [[A20]], [[CYLD]], [[Proteasome]], [[Inflammation]], [[Inflammatory Bowel Disease]], [[Vitamin E]], [[Sulforaphane]]
+- Suggested new entity notes to create: [[NEMO]], [[IkappaBalpha]], [[TNFAIP3 Polymorphisms]], [[CBP]]/[[P300]], [[Dimethyl fumarate]]
 - New links added: [[Immunity]], [[Apoptosis]], [[TNF-alpha]], [[IL-1b]], [[VCAM-1]], [[NADPH Oxidase]], [[Oxidative Stress]], [[Atherosclerosis]]
 - Suggested new entity notes to create: [[IkappaB]], [[IKK Complex]], [[Pro-inflammatory Cytokines]]
 - Strong connections to strengthen: [[NF-kappa B]] ↔ [[Oxidative Stress]]
-
 ## Canonical and Non-Canonical Pathways
 
 NF-κB activation proceeds through two distinct signaling cascades that converge on nuclear translocation of different dimeric complexes. The **canonical pathway** is triggered by [[TNF-alpha]], [[IL-1b]], [[LPS|bacterial lipopolysaccharide]], and [[Reactive Oxygen Species|ROS]], leading to activation of the IκB kinase (IKK) complex composed of IKKα (CHUK), IKKβ (IKBKB), and the regulatory subunit NEMO (IKKγ). Activated IKKβ phosphorylates IκB proteins (primarily IκBα) at Ser-32 and Ser-36, triggering K48-linked polyubiquitination by the β-TrCP E3 ligase and subsequent 26S proteasomal degradation. Freed NF-κB dimers (predominantly p50/RelA) translocate to the nucleus within minutes. The **non-canonical pathway** is activated by a distinct set of signals including [[CD40L]], [[BAFF|BAFF/BLyS]], [[Lymphotoxin β]], and [[RANKL]], leading to NIK (NF-κB-inducing kinase)-dependent IKKα homodimer activation. IKKα phosphorylates p100 (NF-κB2), causing its partial proteasomal processing to p52, which then dimerizes with RelB and translocates to the nucleus. The non-canonical pathway operates on a slower timescale (hours) and is essential for [[Secondary Lymphoid Organ|secondary lymphoid organ]] development, B cell maturation, and [[osteoclastogenesis]].
@@ -60,6 +63,3 @@ The balance between NF-κB (pro-inflammatory) and [[NRF2]] (cytoprotective/antio
 
 NF-κB hyperactivation is a characteristic feature of [[Cancer]], [[Atherosclerosis]], [[Rheumatoid Arthritis]], [[Inflammatory Bowel Disease]], [[Asthma]], and [[Neurodegenerative Diseases]]. In [[Cancer]], NF-κB promotes survival (via [[Bcl-xL|Bcl-XL]], [[XIAP|XIAP]], [[c-FLIP|c-FLIP]]), proliferation (via [[Cyclin D1]], [[c-Myc]]), angiogenesis (via [[VEGF|VEGF]]), and metastasis (via [[MMP9|MMP-9]], [[ICAM-1|ICAM-1]]). Therapeutic strategies include proteasome inhibitors ([[Bortezomib]]), which block IκB degradation; IKKβ inhibitors (e.g., [[MLN120B]], [[TPCA-1]]); and naturally occurring inhibitors such as [[Curcumin]], [[Resveratrol]], and [[EGCG]] ([[EGCG]]), which suppress IKK activity or p65 nuclear translocation. However, systemic NF-κB inhibition carries risks due to its essential role in [[host defense]] and [[Liver|hepatic]] homeostasis, explaining the [[Hepatotoxicity|hepatotoxicity]] and increased infection risk observed with high-dose [[Curcumin]] or broad IKK inhibitors in clinical trials.
 
-### Updated Linking Summary:
-- New links added in this revision: [[LPS]], [[HIF-1α]], [[PP2A]], [[S-Nitrosylation]], [[Rheumatoid Arthritis]], [[NRF2]], [[p62]], [[HO-1]], [[Alpha-Lipoic Acid]], [[Neurodegenerative Diseases]], [[Cancer]], [[Bcl-xL]], [[c-FLIP]], [[Curcumin]], [[Resveratrol]], [[EGCG]], [[Bortezomib]], [[CD40L]], [[BAFF]], [[RANKL]], [[Zinc Finger]], [[A20]], [[CYLD]], [[Proteasome]], [[Inflammation]], [[Inflammatory Bowel Disease]], [[Vitamin E]], [[Sulforaphane]]
-- Suggested new entity notes to create: [[NEMO]], [[IkappaBalpha]], [[TNFAIP3 Polymorphisms]], [[CBP]]/[[P300]], [[Dimethyl fumarate]]

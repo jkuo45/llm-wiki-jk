@@ -21,13 +21,15 @@ aliases: [Major depressive disorder, MDD, Clinical depression]
 - [[Ketamine]] (rapid-acting for treatment-resistant depression)
 - Lifestyle interventions: [[Exercise]], [[Caloric Restriction]], sleep optimization
 
-### Connections
+#
+
+## Connections
 - [[Serotonin]] — Key monoamine in depression pathophysiology
 - [[Inflammation]] — Neuroinflammatory component
 - [[Oxidative Stress]] — Elevated in MDD
 - [[COMT]] — Genetic variant influences treatment response
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Inflammation]], [[Oxidative Stress]], [[Mitochondria]], [[Exercise]], [[Caloric Restriction]], [[COMT]], [[Serotonin]], [[Dopamine]], [[Norepinephrine]]
 - Suggested new entity notes to create: [[BDNF]], [[HPA Axis]], [[Ketamine]], [[SSRI]]
 - Strong connections to strengthen: [[Depression]] ↔ [[Inflammation]]

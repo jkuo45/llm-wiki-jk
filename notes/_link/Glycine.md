@@ -13,9 +13,11 @@ entity_type_1: Chemical Compound
 In longevity protocols like [[GlyNAC]], glycine is combined with N-Acetylcysteine to address age-related glutathione deficiency, reduce oxidative stress, and improve mitochondrial function.
 
 
-### Connections
+#
+
+## Connections
 - [[Glutathione]] — interacts with Glycine
 - [[GlyNAC]] — interacts with Glycine
-### Linking Summary
+## Linking Summary
 - New links added: [[Glutathione]], [[GlyNAC]], [[Oxidative Stress]]
 - Strong connections to strengthen: [[Glycine]] ↔ [[Glutathione]]

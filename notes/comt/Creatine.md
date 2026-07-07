@@ -20,5 +20,5 @@ The synthesis of [[Creatine]] in the liver consumes approximately 40% of the bod
 - [[COMT]]: Supplementing creatine can indirectly support COMT by increasing methyl group availability.
 
 ---
-### Linking Summary:
+## Linking Summary
 - New links added: [[Methylation Cycle]], [[Methyl groups]], [[COMT]], [[MTHFR]].

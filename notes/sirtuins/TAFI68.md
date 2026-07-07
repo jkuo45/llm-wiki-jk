@@ -36,7 +36,6 @@ The transcriptional activity of RNA Polymerase I is dynamically controlled by po
 - [[Sir2 (yeast)]] — yeast orthologue involved in ribosomal DNA silencing and chromatin stability
 
 ## Linking Summary
-
 - New links added: [[SIRT1]], [[SIRT7]], [[Sir2 (yeast)]]
 - Suggested new entity notes to create: [[PCAF]], [[RNA Polymerase I]], [[Ribosome Biogenesis]]
 - Strong connections to strengthen: [[TAFI68]] ↔ [[SIRT1]], [[TAFI68]] ↔ [[SIRT7]]

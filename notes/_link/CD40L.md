@@ -19,10 +19,12 @@ aliases: [CD40 Ligand, CD154]
 
 **Pathological significance:** Altered expression or mutation of CD40L is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
 
-### Connections
+#
+
+## Connections
 - [[CD40L]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[CD40L]]
 - Strong connections to strengthen: [[CD40L]] ↔ [[CD40L]]
 

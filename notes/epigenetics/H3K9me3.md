@@ -10,8 +10,7 @@ entity_type_1: Scientific Concept
 ---
 # H3K9me3
 
-H3K9me3 is a repressive histone mark associated with transcriptional silencing and the formation of heterochromatin. With aging, there is globally a reduction in H3K9me3 levels, although it is increased in senescence-associated heterochromatin foci (SAHF). 
-
+H3K9me3 is a repressive histone mark associated with transcriptional silencing and the formation of heterochromatin. With aging, there is globally a reduction in H3K9me3 levels, although it is increased in senescence-associated heterochromatin foci (SAHF).
 
 ## Linking Summary
 - New links added: [[Heterochromatin]], [[SAHF]], [[Histone Mark]]

@@ -19,10 +19,12 @@ aliases: [SLC2A4, Glucose Transporter Type 4]
 
 **Clinical relevance:** Genetic variants of GLUT4 influence drug disposition and response. Inhibition or dysregulation of this transporter contributes to drug resistance and metabolic diseases.
 
-### Connections
+#
+
+## Connections
 - [[GLUT4]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[GLUT4]]
 - Strong connections to strengthen: [[GLUT4]] ↔ [[GLUT4]]
 

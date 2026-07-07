@@ -19,8 +19,7 @@ Cholesterol metabolism involves biosynthesis via the [[Mevalonate Pathway]], upt
 
 [[Autophagy]] delivers cholesterol from lipid droplets to [[Lysosome]]s for hydrolysis by [[Lysosomal Acid Lipase]]. Cholesterol accumulation impairs autophagic flux, while autophagy supports cholesterol efflux.
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[ACAT1]], [[TFEB]]
 - Suggested new entity notes to create: [[SREBP]]
 - Strong connections to strengthen: [[Cholesterol Metabolism]] ↔ [[ACAT1]]

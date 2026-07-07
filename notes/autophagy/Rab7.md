@@ -17,7 +17,7 @@ aliases: [RAB7A, late endosome GTPase]
 
 Rab7 is a small GTPase that regulates late endocytic transport, autophagosome-[[Lysosome]] fusion, and lysosomal positioning via [[FYCO1]] and [[RILP]].
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Lysosome]], [[Autophagosome]], [[Rab5]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Rab7]] ↔ [[Rab5]]

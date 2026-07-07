@@ -18,10 +18,12 @@ aliases: [Reduction-Oxidation]
 
 **Current understanding:** Ongoing research continues to refine our understanding of Redox as new experimental evidence emerges from diverse model systems.
 
-### Connections
+#
+
+## Connections
 - [[Redox]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Redox]]
 - Strong connections to strengthen: [[Redox]] ↔ [[Redox]]
 

@@ -30,8 +30,9 @@ aliases: [RNA Sequencing, Whole Transcriptome Sequencing]
 - [[Long-read RNA-seq]] — full-length isoform detection (Iso-Seq)
 - [[Small RNA-seq]] — [[miRNA]], [[siRNA]], [[piRNA]] profiling
 
-### Connections
+#
 
+## Connections
 - [[Gene Expression]] — RNA-seq measures transcript abundance
 - [[Transcriptomics]] — RNA-seq is the primary tool for transcriptome analysis
 - [[Alternative Splicing]] — RNA-seq detects splice variants
@@ -41,8 +42,7 @@ aliases: [RNA Sequencing, Whole Transcriptome Sequencing]
 - [[PCR]] — amplification step in library preparation
 - [[miRNA]] — can be profiled with small RNA-seq protocols
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[RNA]], [[Gene Expression]], [[Alternative Splicing]], [[RNA Editing]], [[cDNA]], [[Illumina]], [[PacBio]], [[Nanopore]], [[Transcriptomics]], [[Single-Cell RNA-seq]], [[miRNA]], [[siRNA]], [[piRNA]], [[PCR]], [[Poly-A Selection]], [[Ribosomal RNA]]
 - Suggested new entity notes to create: [[Read alignment]], [[Differential expression]], [[DESeq2]], [[Salmon (software)]], [[STAR aligner]], [[featureCounts]], [[scRNA-seq]], [[Long-read sequencing]]
 - Strong connections to strengthen: [[RNA-seq]] ↔ [[Gene Expression]], [[RNA-seq]] ↔ [[Transcriptomics]]

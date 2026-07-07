@@ -40,7 +40,6 @@ PDE4 inhibition produces broad anti-inflammatory, cognitive-enhancing, and metab
 - [[SIRT1]] — Ultimately activated by the PDE4→cAMP→Epac1→CaMKKβ→AMPK→NAMPT→NAD+ cascade
 
 ## Linking Summary
-
 - New links added: [[PDE4]], [[Roflumilast]], [[COPD]], [[Alzheimer's Disease]], [[Depression]]
 - Suggested new entity notes to create: [[PDE4 Inhibitors]], [[Roflumilast]]
 - Strong connections to strengthen: [[Resveratrol]] ↔ [[PDE4]], [[cAMP]] ↔ [[Epac1]]

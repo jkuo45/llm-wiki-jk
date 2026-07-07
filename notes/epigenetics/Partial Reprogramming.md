@@ -22,7 +22,7 @@ This approach significantly reduces the risk of teratoma formation, which is a m
 - [[Induced Pluripotent Stem Cells]]: The state that partial reprogramming aims to avoid.
 - [[Senescence]]: The state of cellular aging that partial reprogramming seeks to reverse.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Cellular Reprogramming]], [[Induced Pluripotent Stem Cells]], [[Yamanaka Factors]], [[OSKM]], [[Rejuvenation]], [[Senescence]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Partial Reprogramming]] ↔ [[Rejuvenation]]

@@ -36,7 +36,6 @@ CREB is activated by phosphorylation at Ser133 through multiple kinases includin
 - [[NAD+]] — SIRT1 deacetylase activity on CREB depends on NAD+ availability
 
 ## Linking Summary
-
 - New links added: [[CREB]], [[cAMP]], [[Gene Expression]], [[Lipid Metabolism]], [[PKA]], [[BDNF]]
 - Suggested new entity notes to create: [[cAMP Signaling]], [[BDNF]]
 - Strong connections to strengthen: [[SIRT1]] ↔ [[CREB]], [[Resveratrol]] ↔ [[cAMP]]/[[CREB]]

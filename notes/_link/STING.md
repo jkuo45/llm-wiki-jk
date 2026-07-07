@@ -15,9 +15,11 @@ Stimulator of interferon genes, a signaling protein that plays a key role in inn
 
 
 
-### Connections
+#
+
+## Connections
 - [[Immune System]] — related entity
 - [[TFEB]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Immune System]], [[TFEB]]

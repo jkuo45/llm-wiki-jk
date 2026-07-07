@@ -32,6 +32,6 @@ Because it cannot be detoxified by enzymes (due to its high reactivity), the hyd
 - [[Superoxide anion]] ↔ Participates in its formation via the Haber-Weiss reaction.
 - [[Adrenochrome]] ↔ Formation is promoted by hydroxyl radical activity.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Hydroxyl radical]], [[Reactive Oxygen Species]], [[Adrenochrome]], [[Epinephrine]], [[Oxidation]], [[Hydrogen Peroxide]], [[Superoxide anion]]
 - Strong connections to strengthen: [[Hydroxyl radical]] ↔ [[Hydrogen Peroxide]]

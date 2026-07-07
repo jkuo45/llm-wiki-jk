@@ -37,7 +37,6 @@ GATA4 regulates target genes involved in [[Embryogenesis]], cardiac morphogenesi
 - [[SIRT1]] — Related sirtuin family member; also implicated in cardiac protection
 
 ## Linking Summary
-
 - New links added: [[GATA4]], [[Cardiac Development]], [[Cardiomyocyte]], [[ANP]], [[BNP]], [[Myosin Heavy Chain]], [[Embryogenesis]], [[NKX2-5]], [[TBX5]], [[MEF2C]], [[Angiotensin II]], [[Endothelin-1]]
 - Suggested new entity notes to create: [[Cardiac Transcriptional Network]], [[Cardiomyocyte Hypertrophy]]
 - Strong connections to strengthen: [[SIRT7]] ↔ [[GATA4]], [[SIRT7]] ↔ [[Cardiac Hypertrophy]]

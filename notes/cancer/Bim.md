@@ -33,7 +33,7 @@ Reduced expression or loss of Bim is associated with tumor progression and resis
 - [[JNK]] / [[p38 MAPK]]: Enhance Bim activity.
 - [[c-CBL]] / [[TRIM2]]: E3 ligases for Bim.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[ERK]], [[RSK]], [[Phosphorylation]], [[Ubiquitination]], [[Beta-TrCP]], [[JNK]], [[p38 MAPK]], [[PKA]], [[SCF Complex]], [[c-CBL]], [[TRIM2]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[Bim]] ↔ [[ERK]], [[Bim]] ↔ [[RSK]]

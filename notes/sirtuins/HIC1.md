@@ -35,7 +35,6 @@ HIC1 functions in a complex transcriptional feedback loop that modulates cell su
 - [[DNA Damage]] — stress trigger that activates the HIC1-SIRT1-p53 loop
 
 ## Linking Summary
-
 - New links added: [[SIRT1]], [[p53]], [[DNA Damage]]
 - Suggested new entity notes to create: [[POZ Domain]], [[Promoter Hypermethylation]]
 - Strong connections to strengthen: [[HIC1]] ↔ [[SIRT1]], [[HIC1]] ↔ [[p53]]

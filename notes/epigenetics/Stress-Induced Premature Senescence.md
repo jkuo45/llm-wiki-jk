@@ -58,7 +58,7 @@ SIPS is the most commonly used in vitro model of senescence because it is rapid 
 
 SIPS does not fully recapitulate the chronic, multi-stress nature of in vivo aging. SIPS cells lack the sustained telomere dysfunction signaling of replicative senescence, and their SASP kinetics differ. SIPS models should be validated with independent inducers and compared with replicative or age-matched in vivo senescence.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Senescence]], [[Oxidative Stress]], [[DNA Damage]], [[DNA Damage Response]], [[SASP]], [[SAHF]], [[SA-beta-gal]], [[Senolytic Drugs]]
 - Suggested new entity notes to create: [[SIPS model]], [[SIPS vs replicative senescence]]
 - Strong connections to strengthen: [[Stress-Induced Premature Senescence]] ↔ [[Oxidative Stress]], [[Stress-Induced Premature Senescence]] ↔ [[Senescence]]

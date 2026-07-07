@@ -19,10 +19,12 @@ aliases: [Ferroptosis Suppressor Protein 1, AIFM2]
 
 **Pathological significance:** Altered expression or mutation of FSP1 is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
 
-### Connections
+#
+
+## Connections
 - [[FSP1]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[FSP1]]
 - Strong connections to strengthen: [[FSP1]] ↔ [[FSP1]]
 

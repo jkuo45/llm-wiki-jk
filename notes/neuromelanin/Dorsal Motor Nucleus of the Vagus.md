@@ -16,7 +16,7 @@ The DMV contains a significant population of neuromelanin-containing neurons.
 - **Vulnerability in Parkinson's:** Along with the [[Substantia Nigra]] and [[Locus Coeruleus]], the DMV is one of the early sites of [[Neuromelanin]]-linked neurodegeneration in [[Parkinson's Disease]].
 - **Non-motor Symptoms:** Degeneration in this nucleus is associated with autonomic dysfunction in PD, including gastrointestinal symptoms like constipation.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Substantia Nigra]], [[Locus Coeruleus]], [[Neuromelanin]], [[Parkinson's Disease]].
 - Suggested new entity notes to create: [[Vagus Nerve]], [[Medulla Oblongata]].
 - Strong connections to strengthen: [[Dorsal Motor Nucleus of the Vagus]] ↔ [[Parkinson's Disease]].

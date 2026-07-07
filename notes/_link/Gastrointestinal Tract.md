@@ -12,7 +12,9 @@ The gastrointestinal tract (GIT) is the organ system responsible for consuming a
 
 
 
-### Connections
+#
+
+## Connections
 - [[Absorption]] — related entity
 - [[Digestion]] — related entity
 - [[Gastrointestinal Tract]] — related entity
@@ -20,7 +22,7 @@ The gastrointestinal tract (GIT) is the organ system responsible for consuming a
 - [[Gut-Brain Axis]] — related entity
 - [[Short-chain Fatty Acids]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Gut Microbiome]], [[Gut-Brain Axis]], [[Short-chain Fatty Acids]]
 - Suggested new entity notes to create: [[Digestion]], [[Absorption]]
 - Strong connections to strengthen: [[Gastrointestinal Tract]] ↔ [[Gut Microbiome]]

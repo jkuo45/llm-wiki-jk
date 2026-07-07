@@ -20,7 +20,7 @@ L-DOPA is the "gold standard" pharmacological treatment for [[Parkinson's Diseas
 - **Mechanism:** Unlike dopamine, L-DOPA can cross the blood-brain barrier. Once in the brain, it is converted into dopamine, effectively replenishing the depleted dopamine levels in the [[Substantia Nigra]] and [[Sirtuins]].
 - **Chronic Treatment:** While highly effective at managing motor symptoms, long-term L-DOPA use can be associated with complications such as dyskinesias.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Dopamine]], [[Tyrosine Hydroxylase]], [[Parkinson's Disease]], [[Substantia Nigra]], [[Sirtuins]].
 - Suggested new entity notes to create: [[Blood-Brain Barrier]], [[Dyskinesia]].
 - Strong connections to strengthen: [[L-DOPA]] ↔ [[Dopamine]].

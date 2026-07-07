@@ -19,10 +19,12 @@ aliases: [NASH]
 
 **Therapeutic strategies:** Management of Nonalcoholic Steatohepatitis includes pharmacological interventions, lifestyle modifications, and supportive care. Emerging therapies target specific molecular pathways involved in disease progression.
 
-### Connections
+#
+
+## Connections
 - [[Nonalcoholic Steatohepatitis]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Nonalcoholic Steatohepatitis]]
 - Strong connections to strengthen: [[Nonalcoholic Steatohepatitis]] ↔ [[Nonalcoholic Steatohepatitis]]
 

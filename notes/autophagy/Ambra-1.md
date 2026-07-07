@@ -19,7 +19,7 @@ Ambra-1 is a scaffold protein that bridges [[Beclin1]] to the [[ULK1]] complex, 
 
 Ambra-1 is phosphorylated by [[ULK1]] during starvation, releasing it from the dynein complex to enable [[Beclin1]] activation. It also functions in [[Mitophagy]] and neural development.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[PI3K]], [[Beclin1]], [[Autophagosome]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Ambra-1]] ↔ [[Beclin1]]

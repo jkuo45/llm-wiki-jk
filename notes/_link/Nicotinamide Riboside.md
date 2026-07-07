@@ -54,7 +54,6 @@ Like [[NMN]], NR functions as a **universal indirect pan-sirtuin activator** by 
 ---
 
 ## Linking Summary
-
 - New links added: [[NMN]], [[NAD+]], [[Sirtuins]], [[SIRT1]], [[PGC-1α]], [[FOXO3a]], [[NFKB|NF-κB]], [[Caloric Restriction]], [[CD38]]
 - Suggested new entity notes to create: [[NRK1]], [[NRK2]]
 - Strong connections to strengthen: [[Nicotinamide Riboside]] ↔ [[NMN]], [[Nicotinamide Riboside]] ↔ [[NAD+]]

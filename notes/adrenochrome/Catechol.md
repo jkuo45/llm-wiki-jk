@@ -10,5 +10,5 @@ entity_type_1: Chemical Compound
 
 Catechol is a concept related to [[Adrenochrome]] and catecholamine metabolism.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Adrenochrome]]

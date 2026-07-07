@@ -19,10 +19,12 @@ aliases: [Von Hippel-Lindau Tumor Suppressor]
 
 **Pathological significance:** Altered expression or mutation of VHL is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
 
-### Connections
+#
+
+## Connections
 - [[VHL]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[VHL]]
 - Strong connections to strengthen: [[VHL]] ↔ [[VHL]]
 

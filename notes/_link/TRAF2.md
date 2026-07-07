@@ -18,13 +18,15 @@ In the context of cell death, TRAF2 plays a dual role:
 ## Role in Cancer
 Because of its role in survival signaling, overactivity of TRAF2 can contribute to tumor growth and resistance to apoptosis-inducing therapies.
 
-### Connections
+#
+
+## Connections
 - [[Endoplasmic Reticulum Pathway]]: Regulates caspase activation during ER stress.
 - [[Caspase-12]]: The protease regulated by TRAF2 in the ER pathway.
 - [[TNFR1]]: A death receptor that recruits TRAF2 for survival signaling.
 - [[NFκB]]: A major pro-survival pathway mediated by TRAF2.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[MAVS]], [[TRAF6]], [[Apoptosis]], [[Endoplasmic Reticulum Pathway]], [[Caspase-12]], [[TNFR1]], [[NFκB]]
 - Suggested new entity notes to create: [[Caspase-12]]
 - Strong connections to strengthen: [[TRAF2]] ↔ [[MAVS]], [[TRAF2]] ↔ [[Endoplasmic Reticulum Pathway]]

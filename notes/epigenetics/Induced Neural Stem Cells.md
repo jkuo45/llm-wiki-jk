@@ -20,7 +20,7 @@ Unlike [[Induced Pluripotent Stem Cells]] (iPSCs), which go through a fully plur
 - [[Teratoma]]: Direct reprogramming to iNSCs aims to bypass the teratoma-prone pluripotent state.
 - [[BIG1]]: A protein regulated by [[Klf4]] that is involved in the migration and growth of iNSCs.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Somatic Cells]], [[Cellular Reprogramming]], [[Induced Pluripotent Stem Cells]], [[Teratoma]], [[Neurodegenerative Diseases]], [[Parkinson's Disease]], [[BIG1]], [[Klf4]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Cellular Reprogramming]] ↔ [[Induced Neural Stem Cells]]

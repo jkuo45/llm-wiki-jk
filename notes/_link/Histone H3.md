@@ -103,7 +103,6 @@ Abnormal histone H3 modifications are implicated in:
 - **[[Histone Acetyltransferase]]**: Enzymes that acetylate H3; inhibited by spermidine
 
 ## Linking Summary
-
 - New links added: [[Histone H3]], [[Nucleosome]], [[Histone H4]], [[Histone H2A]], [[Histone H2B]], [[Alternative Splicing]], [[LC3]], [[Atg]], [[Epigenetics]], [[Arterial Stiffness]]
 - Suggested new entity notes to create: [[Histone H4]], [[Histone H2A]], [[Histone H2B]], [[Heterochromatin]], [[Euchromatin]], [[Histone Deacetylase]]
 - Strong connections to strengthen: [[Spermidine]] ↔ [[Histone H3]], [[Histone H3]] ↔ [[Autophagy]]

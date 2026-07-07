@@ -19,10 +19,12 @@ aliases: [Mothers Against Decapentaplegic Homolog 2]
 
 **Pathological significance:** Altered expression or mutation of SMAD2 is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
 
-### Connections
+#
+
+## Connections
 - [[SMAD2]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[SMAD2]]
 - Strong connections to strengthen: [[SMAD2]] ↔ [[SMAD2]]
 

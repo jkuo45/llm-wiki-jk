@@ -23,7 +23,7 @@ While Caspase-8 is the primary initiator of the extrinsic pathway, Caspase-10 ca
 - [[Caspase-8]]: A functionally similar initiator caspase.
 - [[Caspase-3]]: A downstream executioner target.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Apoptosis]], [[Extrinsic Pathway]], [[DISC]], [[Fas]], [[DR4]], [[DR5]], [[Caspase-8]], [[Caspase-3]]
 - Suggested new entity notes to create: [[DISC]]
 - Strong connections to strengthen: [[Caspase-10]] ↔ [[DISC]]

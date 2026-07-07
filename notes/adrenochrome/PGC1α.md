@@ -48,7 +48,6 @@ In the [[Mitohormesis]] paradigm, PGC1α is both a downstream effector and an up
 - [[Mitohormesis]]
 
 ## Linking Summary
-
 - New links added: [[AMPK]], [[SIRT1]], [[Mitochondria]], [[Mitohormesis]], [[Mitohormetic Redox-Relay]]
 - Suggested new entity notes to create: [[Mitochondrial Biogenesis]]
 - Strong connections to strengthen: [[PGC1-α]] ↔ [[Metabolic Homeostasis]], [[PGC1-α]] ↔ [[Mitohormetic Redox-Relay]]

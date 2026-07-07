@@ -24,7 +24,6 @@ Mutations in *nuo-6* result in impaired mitochondrial function and reduced respi
 - [[clk-1]]
 
 ## Linking Summary
-
 - New links added: [[Mitochondria]], [[Mitohormesis]], [[isp-1]], [[clk-1]]
 - Suggested new entity notes to create: [[Complex I]]
 - Strong connections to strengthen: [[nuo-6]] ↔ [[Electron Transport Chain]]

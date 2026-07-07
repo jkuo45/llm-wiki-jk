@@ -18,10 +18,12 @@ entity_type_1: Medical Condition
 
 **Therapeutic strategies:** Management of Neurodegenerative Disease includes pharmacological interventions, lifestyle modifications, and supportive care. Emerging therapies target specific molecular pathways involved in disease progression.
 
-### Connections
+#
+
+## Connections
 - [[Neurodegenerative Disease]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Neurodegenerative Disease]]
 - Strong connections to strengthen: [[Neurodegenerative Disease]] ↔ [[Neurodegenerative Disease]]
 

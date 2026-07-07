@@ -17,7 +17,7 @@ aliases: [soluble NSF attachment protein receptors]
 
 SNAREs ([[STX17]], [[SNAP29]], [[VAMP8]]) mediate autophagosome-lysosome fusion. STX17 is recruited to the completed [[Autophagosome]] for fusion.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Autophagosome]], [[Phagosome]], [[Lysosome]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[SNARE proteins]] ↔ [[Lysosome]]

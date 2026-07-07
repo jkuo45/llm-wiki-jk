@@ -32,7 +32,7 @@ Activated [[Neutrophils]] at sites of inflammation release MPO into the extracel
 
 MPO-derived HOCl contributes to tissue injury through several mechanisms: (1) oxidation of catecholamines to redox-active aminochromes that deplete [[Glutathione]] and inactivate [[Thiol]]-dependent enzymes; (2) chlorination of [[Tyrosine]] residues in proteins to form [[3-Chlorotyrosine]], a specific HOCl footprint; (3) activation of matrix [[Metalloproteinases]] via oxidative modification of their cysteine switch; and (4) promotion of [[Endothelial Dysfunction]] through consumption of [[Nitric Oxide]]. Elevated MPO and adrenochrome levels are documented in [[Atherosclerotic plaques]], [[Ischemia-reperfusion Injury]], and [[Chronic Kidney Disease]], linking HOCl-mediated catecholamine oxidation to inflammatory pathology.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Myeloperoxidase]], [[Epinephrine]], [[Aminochromes]], [[Adrenochrome]]
 - Suggested new entity notes to create: [[Electrophilic Attack]]
 - Strong connections to strengthen: [[HOCl-mediated Oxidation]] ↔ [[Adrenaline catabolism]]

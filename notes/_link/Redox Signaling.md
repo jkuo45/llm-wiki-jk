@@ -18,10 +18,12 @@ entity_type_1: Biological Process
 
 **Regulation and dysregulation:** Redox Signaling is controlled by nutrient sensors, stress pathways, and hormonal signals. Impairment of this process is linked to metabolic diseases, neurodegeneration, and cancer.
 
-### Connections
+#
+
+## Connections
 - [[Redox Signaling]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Redox Signaling]]
 - Strong connections to strengthen: [[Redox Signaling]] ↔ [[Redox Signaling]]
 

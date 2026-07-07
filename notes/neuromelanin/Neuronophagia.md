@@ -17,7 +17,7 @@ In [[Parkinson's Disease]], neuronophagia is a clear indicator of an active and 
 - **Microglial Response:** Activated microglia are frequently seen surrounding extracellular neuromelanin granules, attempting to phagocytize and eliminate the pigment from the brain tissue.
 - **Localization:** This process is highly localized within the [[Substantia Nigra Pars Compacta]] and other neuromelanin-containing regions of the PD brain.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Microgliosis]], [[Parkinson's Disease]], [[Neuromelanin]], [[Substantia Nigra Pars Compacta]].
 - Suggested new entity notes to create: [[Phagocytosis]], [[Neurodegeneration]].
 - Strong connections to strengthen: [[Neuronophagia]] ↔ [[Microgliosis]].

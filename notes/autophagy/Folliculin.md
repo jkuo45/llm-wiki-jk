@@ -19,7 +19,7 @@ Folliculin (FLCN) is a tumor suppressor that forms a complex with [[FNIP1]]/[[FN
 
 FLCN mutations cause [[Birt-Hogg-Dube syndrome]], characterized by fibrofolliculomas, lung cysts, and renal cancer. FLCN loss induces constitutive [[TFE3]]/[[TFEB]] nuclear translocation.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Rag proteins]], [[mTORC1]], [[Lysosome]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[Folliculin]] ↔ [[Rag proteins]]

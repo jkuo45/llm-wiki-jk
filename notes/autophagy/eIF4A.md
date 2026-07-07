@@ -19,8 +19,7 @@ eIF4A is an ATP-dependent DEAD-box RNA helicase that unwinds secondary structure
 
 eIF4A is targeted by [[PDCD4]], which inhibits its helicase activity and represses translation of [[TFEB]] and other autophagy regulators.
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[TFEB]], [[PDCD4]]
 - Suggested new entity notes to create: [[Translation Initiation]]
 - Strong connections to strengthen: [[eIF4A]] ↔ [[PDCD4]]

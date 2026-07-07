@@ -19,10 +19,12 @@ aliases: [CHIP]
 
 **Therapeutic strategies:** Management of Clonal Hematopoiesis includes pharmacological interventions, lifestyle modifications, and supportive care. Emerging therapies target specific molecular pathways involved in disease progression.
 
-### Connections
+#
+
+## Connections
 - [[Clonal Hematopoiesis]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Clonal Hematopoiesis]]
 - Strong connections to strengthen: [[Clonal Hematopoiesis]] ↔ [[Clonal Hematopoiesis]]
 

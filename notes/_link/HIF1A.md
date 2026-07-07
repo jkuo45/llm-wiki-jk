@@ -18,12 +18,14 @@ HIF1A is a hypoxia-inducible transcription factor that regulates the cellular re
 HIF1A induces [[Autophagy]] under hypoxia through [[BNIP3]] and [[BNIP3L]]/NIX-mediated displacement of [[Beclin1]] from BCL-2. HIF1A also activates [[REDD1]] to inhibit [[mTORC1]].
 
 
-### Connections
+#
+
+## Connections
 - [[Hypoxia]] — interacts with HIF1A
 - [[Macroautophagy]] — interacts with HIF1A
 - [[VHL]] — interacts with HIF1A
 - [[Autophagy]] — cellular self-degradation pathway; clears damaged proteins and organelles
 - [[BNIP3]] — interacts with HIF1A
-### Linking Summary
+## Linking Summary
 - New links added: [[Mitohormesis]], [[Hypoxia]], [[Macroautophagy]]
 - Strong connections to strengthen: [[HIF1A]] ↔ [[Hypoxia]]

@@ -15,7 +15,7 @@ VMAT2 is critical for sequestering dopamine safely within vesicles.
 - **Protection:** By keeping dopamine levels low in the cytosol, VMAT2 prevents its auto-oxidation into reactive quinones and [[Neuromelanin]].
 - **Vulnerability Link:** There is an inverse relationship between VMAT2 levels and neuromelanin content in midbrain neurons. Neurons with low VMAT2 levels exhibit higher neuromelanin accumulation and are more vulnerable to the neurodegeneration seen in [[Parkinson's Disease]].
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Dopamine]], [[Neuromelanin]], [[Parkinson's Disease]].
 - Suggested new entity notes to create: [[Synaptic Vesicles]], [[Monoamines]].
 - Strong connections to strengthen: [[Vesicular Monoamine Transporter 2]] ↔ [[Dopamine]].

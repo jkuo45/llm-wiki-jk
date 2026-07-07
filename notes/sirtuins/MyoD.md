@@ -72,8 +72,7 @@ The SIRT1-MyoD-MEF2D axis ensures that muscle differentiation only occurs under 
 - **[[MEF2D]]** — Myogenic transcription factor that cooperates with MyoD; deacetylated by SIRT1 to promote sumoylation.
 - **[[Caloric Restriction]]** — Promotes SIRT1 activity, which inhibits muscle differentiation through the MyoD-SIRT1 axis.
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[SIRT1]], [[MEF2D]], [[Caloric Restriction]]
 - Suggested new entity notes to create: [[PCAF]], [[GCN5]], [[HDAC4]], [[Myogenin]]
 - Strong connections to strengthen: [[SIRT1]] ↔ [[MyoD]], [[MEF2D]] ↔ [[MyoD]]

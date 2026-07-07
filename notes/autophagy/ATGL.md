@@ -21,7 +21,7 @@ aliases: [adipose triglyceride lipase, PNPLA2]
 
 ATGL (PNPLA2) catalyzes the first step of triglyceride lipolysis. Its activity provides substrate for [[Lipophagy]] and fatty acid oxidation.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Lipid Droplet]], [[C. elegans]], [[Lipophagy]], [[LIPL-1]], [[LIPL-3]], [[Starvation]], [[Fasting]]
 - Suggested new entity notes to create: [[Diacylglycerol]]
 - Strong connections to strengthen: [[ATGL]] ↔ [[Lipid Droplet]]

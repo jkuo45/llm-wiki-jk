@@ -24,6 +24,5 @@ FNIP2 is ubiquitously expressed with highest levels in heart, skeletal muscle, a
 ## Pathology & Clinical Relevance
 Missense mutations in FNIP2 are associated with [[Birt-Hogg-Dube syndrome|Birt-Hogg-Dubé syndrome]]-like phenotypes, including fibrofolliculomas and renal cell carcinoma. FNIP2 dysregulation is implicated in metabolic disorders through aberrant mTORC1 signaling and has been identified as a susceptibility locus in genome-wide association studies for chronic kidney disease.
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[Folliculin]], [[FNIP1]]

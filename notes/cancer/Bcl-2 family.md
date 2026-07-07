@@ -27,7 +27,7 @@ Dysregulation of the balance between these groups is a hallmark of cancer, leadi
 - [[Bcl-2]]: The founding anti-apoptotic member.
 - [[Bax]]: A key pro-apoptotic member.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Intrinsic Pathway]], [[Apoptosis]], [[Bcl-2]], [[Bcl-xL]], [[Mcl-1]], [[Bax]], [[Bak]], [[Bid]], [[Bim]], [[Puma]], [[Noxa]], [[Bad]]
 - Suggested new entity notes to create: [[Bcl-xL]], [[Mcl-1]], [[Bak]], [[Bid]], [[Bim]], [[Puma]], [[Noxa]], [[Bad]]
 - Strong connections to strengthen: [[Bcl-2 family]] ↔ [[Intrinsic Pathway]]

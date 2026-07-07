@@ -11,7 +11,9 @@ entity_type_1: Enzyme
 An enzyme that converts sphingomyelin into ceramide, active in the [[Lysosome]].
 
 
-### Connections
+#
+
+## Connections
 - [[Lysosome]] — degradative organelle; autophagic flux endpoint; nutrient sensing hub
-### Linking Summary
+## Linking Summary
 - New links added: [[Lysosome]], [[Alzheimer's Disease]]

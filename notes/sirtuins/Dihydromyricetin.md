@@ -61,7 +61,6 @@ DHM's key advantage over many sirtuin activators is its **practical dietary achi
 ---
 
 ## Linking Summary
-
 - New links added: [[SIRT3]], [[AMPK]], [[Honokiol]], [[NAD+]], [[Reactive Oxygen Species]]
 - Suggested new entity notes: [[MnSOD]], [[NLRP3 Inflammasome]]
 - Strong connections: [[Dihydromyricetin]] ↔ [[SIRT3]], [[Dihydromyricetin]] ↔ [[Honokiol]]

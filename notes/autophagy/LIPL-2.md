@@ -21,7 +21,7 @@ aliases: [C. elegans lysosomal lipase 2]
 
 LIPL-2 is a C. elegans lysosomal lipase involved in [[Lipophagy]] and lipid droplet turnover in the intestine.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[C. elegans]], [[Fasting]], [[LIPL-1]], [[LIPL-3]], [[MXL-3]], [[HLH-30]]
 - Suggested new entity notes to create: [[LIPL-4]], [[LIPL-5]]
 - Strong connections to strengthen: [[LIPL-2]] ↔ [[HLH-30]]

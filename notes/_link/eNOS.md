@@ -34,7 +34,9 @@ Uncoupled eNOS is a major contributor to [[Endothelial Dysfunction|endothelial d
 ## Physiological Role
 eNOS is highly expressed in endothelial cells lining the vasculature. Its NO product regulates vascular tone, inhibits platelet aggregation, suppresses leukocyte adhesion, and modulates [[Mitochondrial Biogenesis]] via [[PGC1-α]] activation. eNOS uncoupling — where the enzyme produces [[Superoxide]] instead of NO — is a hallmark of endothelial dysfunction in [[Atherosclerosis]], [[Hypertension]], and [[Diabetes]].
 
-### Connections
+#
+
+## Connections
 - [[SIRT1]] — Deacetylates and activates eNOS, promoting NO production and vasodilation
 - [[Resveratrol]] — Activates SIRT1, which upregulates eNOS expression and activity
 - [[NAD+]] — Essential cofactor for both SIRT1 deacetylase activity and eNOS catalysis
@@ -42,7 +44,7 @@ eNOS is highly expressed in endothelial cells lining the vasculature. Its NO pro
 - [[Nitric Oxide]] — Primary enzymatic product; key vasodilatory signaling molecule
 - [[AMPK]] — Phosphorylates eNOS at Ser1177, activating it in parallel to SIRT1
 
-### Linking Summary
+## Linking Summary
 - New links added: [[eNOS]], [[Nitric Oxide]], [[Vasodilation]], [[Mitochondrial Biogenesis]], [[Superoxide]], [[Atherosclerosis]], [[Hypertension]], [[Diabetes]]
 - Suggested new entity notes to create: [[Vasodilation]], [[Nitric Oxide Signaling]]
 - Strong connections to strengthen: [[SIRT1]] ↔ [[eNOS]], [[Resveratrol]] ↔ [[eNOS]]

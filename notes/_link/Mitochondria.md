@@ -21,13 +21,15 @@ Mitochondria possess their own defense systems, including:
 - **SOD2 (Mn-SOD):** Specifically neutralizes superoxide within the mitochondrial matrix.
 - **Glutathione System:** Mitochondria maintain a high concentration of [[Glutathione]] for local peroxide neutralization.
 
-### Connections
+#
+
+## Connections
 - [[Oxidative Stress]]: Mitochondria are the central hub for both the generation and the impact of oxidative stress.
 - [[Superoxide Radicals]]: The main ROS byproduct of mitochondrial respiration.
 - [[Apoptosis]]: Triggered by mitochondrial membrane permeabilization.
 
 
-### Linking Summary
+## Linking Summary
 - New links added: [[ATP]], [[Metabolism]], [[Mitophagy]]
 - Suggested new entity notes to create: [[Oxidative Phosphorylation]]
 - Strong connections to strengthen: [[Mitochondria]] ↔ [[Aging]]

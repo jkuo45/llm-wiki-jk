@@ -30,7 +30,9 @@ PINK1 is a serine/threonine kinase that accumulates on depolarized mitochondria 
 PINK1 is constitutively imported into mitochondria and cleaved by [[PARL]]; loss of membrane potential prevents import, leading to PINK1 stabilization on the outer mitochondrial membrane. PINK1 mutations cause early-onset [[Parkinson's Disease]].
 
 
-### Connections
+#
+
+## Connections
 - [[Parkin]] — E3 ubiquitin ligase recruited by PINK1 for mitophagy
 - [[Mitophagy]] — selective autophagy of mitochondria; quality control mechanism
 - [[Mitochondrial targeting sequence]] — interacts with PINK1
@@ -46,6 +48,6 @@ PINK1 is constitutively imported into mitochondria and cleaved by [[PARL]]; loss
 - [[Omi HtrA2]] — interacts with PINK1
 - [[Mitochondrial Unfolded Protein Response]] — interacts with PINK1
 - [[Parkinson's Disease]] — neurodegenerative disease; α-synuclein pathology; dopamine loss
-### Linking Summary
+## Linking Summary
 - New links added: [[Parkin]], [[Mitophagy]]
 - Strong connections to strengthen: [[PINK1]] ↔ [[Parkin]]

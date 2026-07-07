@@ -23,7 +23,7 @@ Nutlins are being investigated for their ability to selectively induce senescenc
 - [[Apoptosis]]: One of the outcomes of p53 activation.
 - [[Senescence]]: Another outcome of p53 activation by Nutlins.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[MDM2]], [[p53]], [[Apoptosis]], [[Senescence]]
 - Suggested new entity notes to create: [[MDM2]]
 - Strong connections to strengthen: [[Nutlins]] ↔ [[p53]]

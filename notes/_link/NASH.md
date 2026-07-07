@@ -19,10 +19,12 @@ aliases: [Nonalcoholic Steatohepatitis]
 
 **Therapeutic strategies:** Management of NASH includes pharmacological interventions, lifestyle modifications, and supportive care. Emerging therapies target specific molecular pathways involved in disease progression.
 
-### Connections
+#
+
+## Connections
 - [[NASH]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[NASH]]
 - Strong connections to strengthen: [[NASH]] ↔ [[NASH]]
 

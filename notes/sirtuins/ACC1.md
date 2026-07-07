@@ -42,7 +42,6 @@ ACC1 overexpression correlates with poor prognosis in several cancers. Pharmacol
 - [[Breast Cancer]] — Cancer type in which ACC1 activation by SIRT3 drives metastatic dissemination
 
 ## Linking Summary
-
 - New links added: [[ACC1]], [[Cancer Metabolism]], [[Cancer Cell Invasion]], [[Metastasis]], [[AMPK]], [[Malonyl-CoA]], [[FASN]], [[Soraphen A]]
 - Suggested new entity notes to create: [[ND-646]], [[BCCP domain]], [[Breast Cancer]]
 - Strong connections to strengthen: [[SIRT3]] ↔ [[ACC1]]

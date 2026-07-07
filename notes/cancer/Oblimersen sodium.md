@@ -25,7 +25,7 @@ It was the first agent targeting Bcl-2 to enter clinical trials. It has been inv
 - [[Apoptosis]]: Sensitizes cells to programmed death.
 - [[leukemia]]: Investigated for treatment of CLL.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Bcl-2]], [[Apoptosis]], [[melukemia]], [[Melanoma]]
 - Suggested new entity notes to create: [[Melanoma]]
 - Strong connections to strengthen: [[Oblimersen sodium]] ↔ [[Bcl-2]]

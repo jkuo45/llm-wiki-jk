@@ -10,7 +10,9 @@ entity_type_1: Chemical Process
 
 The oxidative degradation of lipids, or the formation of peroxides.
 
-### Connections
+#
+
+## Connections
 - [[Hemoglobin]]: Can catalyze the peroxidation/oxidation of [[Epinephrine|adrenaline]] to [[Adrenochrome]] in blood.
 - [[Reactive Oxygen Species]]: Often involve or initiate peroxidation processes.
 
@@ -30,7 +32,7 @@ PUFAs, particularly [[Arachidonic acid]] (20:4, n-6) and [[Docosahexaenoic acid]
 
 Catecholamine autoxidation provides an initiating radical source that can trigger myocardial lipid peroxidation. [[Epinephrine]] oxidation generates [[Superoxide]] and [[Hydrogen Peroxide]], which in the presence of transition metals yields [[Hydroxyl radical]] via Fenton chemistry. The hydroxyl radical rapidly initiates lipid peroxidation in [[Cardiomyocyte]] membranes, disrupting ion homeostasis and contractile function. This mechanism is implicated in [[Catecholamine-induced cardiomyopathy]] and [[Stress cardiomyopathy]] (Takotsubo syndrome). [[Aminochromes]], including [[Adrenochrome]], further amplify damage by redox-cycling with [[NADPH]] and consuming [[Glutathione]], impairing membrane repair.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Hemoglobin]], [[Epinephrine]], [[Adrenochrome]], [[Reactive Oxygen Species]]
 
 ## Updated Links

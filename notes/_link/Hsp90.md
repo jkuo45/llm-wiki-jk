@@ -19,10 +19,12 @@ aliases: [Heat Shock Protein 90, HSP90]
 
 **Pathological significance:** Altered expression or mutation of Hsp90 is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
 
-### Connections
+#
+
+## Connections
 - [[Hsp90]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Hsp90]]
 - Strong connections to strengthen: [[Hsp90]] ↔ [[Hsp90]]
 

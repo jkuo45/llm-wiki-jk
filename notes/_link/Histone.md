@@ -12,8 +12,9 @@ entity_type_1: Enzyme
 
 Histones are basic nuclear proteins that package [[DNA]] into [[Nucleosome]]s, the fundamental unit of [[Chromatin]]. The core histones ([[Histone H2A]], [[Histone H2B]], [[Histone H3]], [[Histone H4]]) form an octamer wrapped by ~147 bp of DNA, while [[Histone H1]] acts as a linker histone. Histones are subject to extensive [[Post-Translational Modification]]s including [[Acetylation]], [[Methylation]], [[Phosphorylation]], [[Ubiquitination]], and [[SUMOylation]], which regulate [[Gene Expression]], [[DNA Repair]], [[DNA Replication]], and [[Chromosome Condensation]]. [[Histone Modifications]] constitute the [[Histone Code]] read by [[Reader Domain]]s ([[Bromodomain]], [[Chromodomain]], [[PHD Finger]]). Histone-modifying enzymes include [[HATs]], [[HDACs]], [[HMTs]], and [[KDMs]], which are therapeutic targets in [[Cancer]] and [[Epigenetic Disorders]].
 
-### Connections
+#
 
+## Connections
 - [[Nucleosome]] — histone-DNA complex
 - [[Chromatin]] — higher-order structure formed by histones
 - [[Epigenetics]] — histone modifications are key epigenetic marks
@@ -28,8 +29,7 @@ Histones are basic nuclear proteins that package [[DNA]] into [[Nucleosome]]s, t
 - [[HDAC]] — histone deacetylases
 - [[Cancer]] — histone modification patterns are altered in cancer
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[DNA]], [[Nucleosome]], [[Chromatin]], [[Epigenetics]], [[Histone H3]], [[Histone H4]], [[Histone H2A]], [[Histone H2B]], [[Histone H1]], [[Acetylation]], [[Methylation]], [[Phosphorylation]], [[Ubiquitination]], [[SUMOylation]], [[Gene Expression]], [[DNA Repair]], [[DNA Replication]], [[Chromosome Condensation]], [[HAT]], [[HDAC]], [[Bromodomain]], [[Chromodomain]], [[Cancer]]
 - Suggested new entity notes to create: [[Histone Code]], [[Reader Domain]], [[HMT Histone Methyltransferase]], [[KDM Histone Demethylase]]
 - Strong connections to strengthen: [[Histone]] ↔ [[Nucleosome]], [[Histone]] ↔ [[Epigenetics]]

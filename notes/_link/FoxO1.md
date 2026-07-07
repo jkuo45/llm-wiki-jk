@@ -49,7 +49,9 @@ FOXO1 is linked to VEGF-C upregulation in response to androgen depletion via the
 ## _C. elegans_ Orthologue (DAF-16)
 The _C. elegans_ FOXO orthologue **DAF-16** is required for _sir-2.1_-mediated lifespan extension — demonstrating that the sirtuin–FOXO axis is evolutionarily ancient. SIR-2.1 also associates with **14-3-3 proteins**, directing its interaction with DAF-16 in an insulin/IGF-1-independent manner under stress conditions.
 
-### Connections
+#
+
+## Connections
 - [[SIRT1]] — directly deacetylates FOXO1; primary regulatory relationship
 - [[Caloric Restriction]] — SIRT1-mediated FOXO1 deacetylation is a downstream effect of CR
 - [[Adiponectin]] — FOXO1/C/EBPα complex drives adiponectin expression; enhanced by SIRT1
@@ -57,7 +59,7 @@ The _C. elegans_ FOXO orthologue **DAF-16** is required for _sir-2.1_-mediated l
 - [[DAF-16]] — _C. elegans_ orthologue; required for sirtuin-mediated lifespan extension
 - [[FOXO3a]] — related family member also deacetylated by SIRT1
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Autophagy]], [[IGF1]], [[Akt]], [[Caloric Restriction]], [[Intermittent Fasting]], [[Atg]], [[Atg5]], [[Atg8]], [[LC3]], [[ULK1]], [[Gluconeogenesis]], [[SIRT1]], [[p53]], [[DAF-16]], [[FOXO3a]], [[Adiponectin]]
 - Suggested new entity notes to create: [[Atg]], [[DAF-16]], [[FOXO3a]], [[FOXO4]], [[FHL2]], [[NeuroD]], [[MafA]], [[Adiponectin]]
 - Strong connections to strengthen: [[FoxO1]] ↔ [[Akt]], [[FoxO1]] ↔ [[Autophagy]], [[FoxO1]] ↔ [[SIRT1]], [[FoxO1]] ↔ [[Caloric Restriction]]

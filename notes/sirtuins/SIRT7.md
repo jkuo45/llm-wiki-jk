@@ -83,7 +83,6 @@ SIRT7 belongs to **Class IVb**, which:
 - [[NAD+]] — required co-substrate for enzymatic activity
 
 ## Linking Summary
-
 - New links added: [[SIRT6]], [[SIRT1]], [[SIRT3]], [[RNA Polymerase I]], [[Breast Cancer]], [[NAD+]], [[TAFI68]], [[GATA4]], [[p53]]
 - Suggested new entity notes to create: [[RNA Polymerase I]], [[rDNA]], [[Ribosome Biogenesis]], [[Thyroid Carcinoma]], [[H3K18ac]]
 - Strong connections to strengthen: [[SIRT7]] ↔ [[RNA Polymerase I]], [[SIRT7]] ↔ [[Breast Cancer]], [[SIRT7]] ↔ [[GATA4]]

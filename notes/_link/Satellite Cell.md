@@ -29,8 +29,9 @@ Satellite cell activation follows a defined transcription factor cascade:
 
 Satellite cell number and function decline with age, contributing to [[Sarcopenia]]. This decline involves [[Cellular Senescence]], reduced [[Autophagy]], [[Mitochondrial Dysfunction]], and [[Notch Signaling]] impairment. [[Exercise]] and [[Caloric Restriction]] partially preserve satellite cell function in aged muscle.
 
-### Connections
+#
 
+## Connections
 - [[Skeletal Muscle]] — satellite cells are resident stem cells of skeletal muscle
 - [[Pax7]] — master transcriptional regulator of satellite cell identity
 - [[MyoD]] — myogenic commitment factor upregulated upon activation
@@ -44,8 +45,7 @@ Satellite cell number and function decline with age, contributing to [[Sarcopeni
 - [[Autophagy]] — required for satellite cell maintenance and function
 - [[Caloric Restriction]] — preserves satellite cell function in aging
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[Muscle Stem Cell]], [[Skeletal Muscle]], [[Basal Lamina]], [[Sarcolemma]], [[Pax7]], [[MyoD]], [[Myogenin]], [[Myf5]], [[Myoblasts]], [[G0 Phase]], [[Muscle Injury]], [[Exercise]], [[HGF]], [[c-Met]], [[Sarcopenia]], [[Cellular Senescence]], [[Autophagy]], [[Mitochondrial Dysfunction]], [[Notch Signaling]], [[Caloric Restriction]], [[Aging]]
 - Suggested new entity notes to create: [[Myogenic regulatory factors]], [[Muscle regeneration]], [[Self-renewal]], [[Satellite cell niche]], [[Quiescence]]
 - Strong connections to strengthen: [[Satellite Cell]] ↔ [[Skeletal Muscle]], [[Satellite Cell]] ↔ [[Sarcopenia]], [[Satellite Cell]] ↔ [[Exercise]]

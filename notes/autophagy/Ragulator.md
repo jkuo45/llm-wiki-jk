@@ -17,7 +17,7 @@ The **Ragulator** complex is a pentameric protein complex (LAMTOR1-5) that ancho
 
 Ragulator is a pentameric complex ([[LAMTOR1-5]]) that tethers Rag GTPases and [[mTORC1]] to the lysosome. It also has guanine nucleotide exchange factor (GEF) activity for RagA/B.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Rag proteins]], [[mTORC1]], [[Lysosome]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Ragulator]] ↔ [[mTORC1]]

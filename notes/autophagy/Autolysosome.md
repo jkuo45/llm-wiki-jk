@@ -20,7 +20,7 @@ Autolysosomes form when the outer membrane of an [[Autophagosome]] fuses with a 
 
 After degradation, autolysosomes undergo [[Autophagic Lysosome Reformation]] (ALR), a process that regenerates functional lysosomes from the hybrid organelle. ALR depends on AMPK, mTORC1 reactivation, and clathrin-mediated budding.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Autophagosome]], [[Lysosome]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Autolysosome]] ↔ [[Autophagosome]]

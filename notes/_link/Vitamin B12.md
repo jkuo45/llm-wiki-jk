@@ -21,7 +21,9 @@ database_ids:
 ## Pathway Integration
 Vitamin B12 is required by [[MTRR]] (methionine synthase reductase) to regenerate active methylcobalamin. Deficiency impairs [[SAMe]] production, affecting [[COMT]]-dependent dopamine and estrogen metabolism.
 
-### Connections
+#
+
+## Connections
 - [[Methylation]] — B12 is essential for the methylation cycle
 - [[MTRR]] — B12 recycling enzyme
 - [[COMT]] — Dependent on SAMe produced via B12-dependent pathway
@@ -29,7 +31,7 @@ Vitamin B12 is required by [[MTRR]] (methionine synthase reductase) to regenerat
 - [[Homocysteine]] — Elevated in B12 deficiency
 - [[Folate]] — Interconnected one-carbon metabolism
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Methylation]], [[SAMe]], [[COMT]], [[MTRR]], [[Folate]], [[DNA Repair]], [[Homocysteine]], [[MethylB12]], [[Adenosylcobalamin]], [[Hydroxocobalamin]]
 - Suggested new entity notes to create: [[Methionine Synthase]], [[Methylmalonyl-CoA Mutase]], [[Intrinsic Factor]]
 - Strong connections to strengthen: [[Vitamin B12]] ↔ [[Methylation]], [[Vitamin B12]] ↔ [[COMT]]

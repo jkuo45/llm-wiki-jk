@@ -18,10 +18,12 @@ entity_type_1: Protein
 
 **Pathological significance:** Altered expression or mutation of Ceruloplasmin is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
 
-### Connections
+#
+
+## Connections
 - [[Ceruloplasmin]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Ceruloplasmin]]
 - Strong connections to strengthen: [[Ceruloplasmin]] ↔ [[Ceruloplasmin]]
 

@@ -31,7 +31,7 @@ Loss of Bak expression or function, often in combination with loss of Bax, is a 
 - [[Cytochrome c]]: Released following Bak activation.
 - [[Phosphorylation]]: Regulates Bak activation status.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Phosphorylation]], [[MOMP]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[Bak]] ↔ [[Bax]]

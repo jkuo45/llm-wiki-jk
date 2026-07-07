@@ -26,7 +26,7 @@ The [[TGF-beta Signaling Pathway]] is a potent inducer of EMT and acts as a majo
 - [[Cellular Reprogramming]]: Suppression of EMT is a key event in the early phases of reprogramming toward pluripotency.
 - [[Cancer]]: EMT is frequently co-opted by cancer cells to promote metastasis and invasion.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Cellular Reprogramming]], [[Mesenchymal-to-Epithelial Transition]], [[Induced Pluripotent Stem Cells]], [[Fibroblasts]], [[Pluripotency]], [[Yamanaka Factors]], [[Oct4]], [[Sox2]], [[TGF-beta Signaling Pathway]], [[Cancer]]
 - Suggested new entity notes to create: [[Snail]], [[Slug]], [[Zeb1]]
 - Strong connections to strengthen: [[Epithelial-to-Mesenchymal Transition]] <-> [[Mesenchymal-to-Epithelial Transition]]

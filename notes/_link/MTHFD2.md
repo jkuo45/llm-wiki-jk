@@ -19,10 +19,12 @@ aliases: [Methylenetetrahydrofolate Dehydrogenase 2]
 
 **Pathological significance:** Altered expression or mutation of MTHFD2 is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
 
-### Connections
+#
+
+## Connections
 - [[MTHFD2]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[MTHFD2]]
 - Strong connections to strengthen: [[MTHFD2]] ↔ [[MTHFD2]]
 

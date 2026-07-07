@@ -19,10 +19,12 @@ aliases: [Centromere Protein A]
 
 **Pathological significance:** Altered expression or mutation of CENP-A is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
 
-### Connections
+#
+
+## Connections
 - [[CENP-A]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[CENP-A]]
 - Strong connections to strengthen: [[CENP-A]] ↔ [[CENP-A]]
 

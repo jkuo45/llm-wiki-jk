@@ -17,10 +17,12 @@ entity_type_1: Cell Type
 
 **Pathological relevance:** Dysfunction or loss of Epithelial cells underlies specific disease states. Understanding its biology provides insights into regenerative medicine and therapeutic targeting.
 
-### Connections
+#
+
+## Connections
 - [[Epithelial cells]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Epithelial cells]]
 - Strong connections to strengthen: [[Epithelial cells]] ↔ [[Epithelial cells]]
 

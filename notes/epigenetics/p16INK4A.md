@@ -39,7 +39,7 @@ p16^INK4a^ accumulation is a hallmark of tissue aging. In [[Hematopoietic Stem C
 - Does p16^INK4a^-independent senescence (e.g., via [[p21|CDKN1A/p21]]) produce biologically distinct senescent subtypes with different responses to senolytics?
 - What upstream signals drive the progressive, non-stochastic accumulation of p16^INK4a^ in individual cells with age — is it primarily [[DNA Damage]], mitochondrial dysfunction, or [[SASP|SASP-mediated paracrine signaling]]?
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Senescence]], [[CDK Inhibitor]], [[SAHF]], [[Polycomb Group Proteins]], [[CDKN2A]], [[Senolytic Drugs]], [[p53]]
 - Suggested new entity notes to create: [[CDKN2A]], [[INK-ATTAC mouse]], [[HuR]]
 - Strong connections to strengthen: [[p16INK4A]] ↔ [[Senescence]], [[p16INK4A]] ↔ [[RB1]]

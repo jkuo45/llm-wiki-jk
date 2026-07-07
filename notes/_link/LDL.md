@@ -12,13 +12,15 @@ aliases: [Low-density lipoprotein, LDL cholesterol]
 # LDL
 **Low-density lipoprotein (LDL)** is a lipoprotein particle that transports cholesterol and triglycerides from the liver to peripheral tissues. Elevated LDL is a major risk factor for [[Atherosclerosis]] and [[Cardiovascular Disease]].
 
-### Connections
+#
+
+## Connections
 - [[Atherosclerosis]] — LDL oxidation drives plaque formation
 - [[Cardiovascular Disease]] — Primary lipid risk factor
 - [[Oxidized LDL]] — Pro-atherogenic modified form
 - [[Cholesterol]] — Related lipid metabolism
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Atherosclerosis]], [[Cardiovascular Disease]], [[Oxidized LDL]], [[Cholesterol]]
 - Suggested new entity notes to create: [[VLDL]], [[HDL]], [[ApoB]]
 - Strong connections to strengthen: [[LDL]] ↔ [[Atherosclerosis]]

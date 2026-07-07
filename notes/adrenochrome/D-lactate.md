@@ -15,7 +15,7 @@ D-lactate is a stereoisomer of lactate produced in cellular metabolism, serving 
 
 Within the cellular [[Glyoxalase System]], [[GLO2]] catalyzes the hydrolysis of the intermediate [[S-D-lactoylglutathione]] to produce D-lactate, while simultaneously regenerating the cellular antioxidant [[Glutathione]].
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Glyoxalase System]], [[GLO2]], [[S-D-lactoylglutathione]], [[Glutathione]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[D-lactate]] ↔ [[GLO2]]

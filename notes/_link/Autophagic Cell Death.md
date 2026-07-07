@@ -19,10 +19,12 @@ aliases: [Type II Programmed Cell Death]
 
 **Regulation and dysregulation:** Autophagic Cell Death is controlled by nutrient sensors, stress pathways, and hormonal signals. Impairment of this process is linked to metabolic diseases, neurodegeneration, and cancer.
 
-### Connections
+#
+
+## Connections
 - [[Autophagic Cell Death]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Autophagic Cell Death]]
 - Strong connections to strengthen: [[Autophagic Cell Death]] ↔ [[Autophagic Cell Death]]
 

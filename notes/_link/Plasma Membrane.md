@@ -16,9 +16,11 @@ aliases: [Cell Membrane]
 ## Adrenochrome Context
 The semipermeable membrane surrounding the cytoplasm of a cell.
 
-### Connections
+#
+
+## Connections
 - [[Erythrocytes]]: The human erythrocyte plasma membrane can convert [[Epinephrine]] to [[Aminochromes]].
 - [[Adrenochrome]]: Formed via interactions with the plasma membrane in certain blood components.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Erythrocytes]], [[Epinephrine]], [[Aminochromes]], [[Adrenochrome]]

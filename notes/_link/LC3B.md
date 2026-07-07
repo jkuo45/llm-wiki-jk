@@ -19,10 +19,12 @@ aliases: [MAP1LC3B]
 
 **Pathological significance:** Altered expression or mutation of LC3B is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
 
-### Connections
+#
+
+## Connections
 - [[LC3B]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[LC3B]]
 - Strong connections to strengthen: [[LC3B]] ↔ [[LC3B]]
 

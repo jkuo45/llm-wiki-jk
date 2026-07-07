@@ -25,13 +25,15 @@ The expression and activity of DNMTs often decline with age, contributing to the
 ### 3. Therapeutic Potential
 Because DNA methylation is reversible, DNMTs are targets for drug development. DNMT inhibitors (like 5-azacytidine) are used in cancer therapy and are being researched for their potential to modulate the aging process.
 
-### Connections
+#
+
+## Connections
 - **[[DNA Methylation]]**: The primary process regulated by these enzymes.
 - **[[DNMT1]]**: The maintenance enzyme essential for epigenetic inheritance.
 - **[[DNMT3a]] / [[DNMT3b]]**: Enzymes responsible for creating new epigenetic marks.
 - **[[Aging]]**: DNMT dysregulation is a driver of age-associated epigenetic changes.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[DNA Methyltransferase]], [[CpG Island]], [[DNA Methylation]], [[DNMT1]], [[DNA Replication]], [[DNMT3a]], [[DNMT3b]], [[Aging]], [[Cancer]]
 - Suggested new entity notes to create: [[S-adenosyl-L-methionine]], [[SAM]], [[DNA Methyltransferase Inhibitors]]
 - Strong connections to strengthen: [[DNA Methyltransferase]] ↔ [[DNA Methylation]], [[DNA Methyltransferase]] ↔ [[DNMT1]]

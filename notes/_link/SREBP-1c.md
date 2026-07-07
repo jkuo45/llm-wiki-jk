@@ -30,8 +30,9 @@ SREBP-1c transcriptionally activates:
 
 SREBP-1c hyperactivation contributes to [[Hepatic Steatosis]], [[Insulin Resistance]], and [[Metabolic Syndrome]]. [[mTORC1]]-S6K1 signaling drives SREBP-1c-dependent [[Lipid Synthesis]]. [[Metformin]] and [[AMPK]] suppress SREBP-1c activity via direct phosphorylation. [[SREBP-1c]] also links [[Caloric Restriction]] to altered hepatic lipid metabolism.
 
-### Connections
+#
 
+## Connections
 - [[Lipid Synthesis]] — SREBP-1c is the master transcriptional regulator of de novo lipogenesis
 - [[Fatty Acid Synthase]] — key SREBP-1c target; catalyzes palmitate synthesis
 - [[Acetyl-CoA Carboxylase]] — SREBP-1c target; rate-limiting lipogenic enzyme
@@ -41,8 +42,7 @@ SREBP-1c hyperactivation contributes to [[Hepatic Steatosis]], [[Insulin Resista
 - [[AMPK]] — phosphorylates and suppresses SREBP-1c; inhibited by Metformin activation
 - [[Liver]] — primary tissue for SREBP-1c-mediated lipogenesis
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[Lipid Synthesis]], [[Fatty Acid Synthase]], [[Acetyl-CoA Carboxylase]], [[Stearoyl-CoA Desaturase]], [[ELOVL6]], [[ATP citrate lyase]], [[mTORC1]], [[Insulin]], [[Akt]], [[AMPK]], [[Liver]], [[Adipose Tissue]], [[Endoplasmic Reticulum]], [[Golgi apparatus]], [[SCAP]], [[S1P]], [[S2P]], [[Metformin]], [[Hepatic Steatosis]], [[Insulin Resistance]], [[Metabolic Syndrome]], [[Caloric Restriction]], [[Triglyceride]], [[Fatty acid]]
 - Suggested new entity notes to create: [[SCAP-SREBP complex]], [[Proteolytic activation]], [[De novo lipogenesis]], [[S6K1]], [[SREBP-2]]
 - Strong connections to strengthen: [[SREBP-1c]] ↔ [[Lipid Synthesis]], [[SREBP-1c]] ↔ [[mTORC1]], [[SREBP-1c]] ↔ [[Hepatic Steatosis]]

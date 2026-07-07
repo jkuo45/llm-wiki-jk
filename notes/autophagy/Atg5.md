@@ -19,7 +19,7 @@ entity_type_1: Protein
 
 Atg5 is conjugated to [[Atg12]] via a ubiquitin-like reaction and complexes with [[Atg16L1]] to form the E3-like ligase for [[LC3]]-PE conjugation.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Autophagy]], [[T Cell]], [[Foxp3]], [[Spermidine]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[Atg5]] ↔ [[Autophagy]]

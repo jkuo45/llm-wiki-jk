@@ -63,13 +63,7 @@ Hypoxia-inducible factor 1-alpha (HIF-1α) is a transcription factor that mediat
 
 [[SIRT3]] negatively regulates aerobic glycolysis by inhibiting HIF-1α. [[SIRT6]] represses HIF-1α to regulate glycolysis and lipid metabolism.
 
-### Linking Summary (Sirtuin Additions):
-- New links added: [[SIRT6]]
-- Suggested new entity notes to create:
-- Strong connections to strengthen: [[HIF-1α]] ↔ [[SIRT6]]
-
 ## Linking Summary
-
 - New links added: [[SIRT3]], [[SIRT6]], [[SIRT2]], [[Glycolysis]], [[Warburg Effect]], [[Angiogenesis]], [[VEGF]], [[Cancer]], [[Renal Cell Carcinoma]], [[Breast Cancer]]
 - Suggested new entity notes to create: [[VHL]], [[PHD enzymes]], [[HIF-1β]]
 - Strong connections to strengthen: [[HIF-1α]] ↔ [[SIRT3]], [[HIF-1α]] ↔ [[SIRT6]]

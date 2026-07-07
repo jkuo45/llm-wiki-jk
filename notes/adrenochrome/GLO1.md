@@ -17,7 +17,7 @@ GLO1 catalyzes the conversion of hemithioacetals—formed spontaneously from the
 
 Maintaining or enhancing GLO1 activity is a primary therapeutic target for reducing dicarbonyl stress and preventing the accumulation of [[Advanced Glycation End Products]].
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Glyoxalase System]], [[Methylglyoxal]], [[Glutathione]], [[S-D-lactoylglutathione]], [[Advanced Glycation End Products]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[GLO1]] ↔ [[Glyoxalase System]]

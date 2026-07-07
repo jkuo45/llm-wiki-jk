@@ -13,5 +13,5 @@ entity_type_1: NA
 
 ## Linking Summary
 - New links added: [[Yamanaka Factors]], [[Induced Pluripotent Stem Cells]]
-- Suggested new entity notes to create: 
-- Strong connections to strengthen: 
+- Suggested new entity notes to create:
+- Strong connections to strengthen:

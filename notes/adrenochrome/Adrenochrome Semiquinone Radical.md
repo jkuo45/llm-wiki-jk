@@ -40,5 +40,4 @@ The **Adrenochrome semiquinone radical** is a transient, highly reactive free ra
 This radical species is a key driver of the cytotoxicity associated with [[Aminochromes]] in catecholaminergic neurons and cardiac tissue, specifically within the [[Mitohormetic Redox-Relay]].
 
 ## Linking Summary
-
 - Strong connections: [[Adrenochrome]] ↔ [[Redox Cycling]] ↔ [[Adrenochrome Semiquinone Radical]]

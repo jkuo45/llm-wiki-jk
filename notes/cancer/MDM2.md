@@ -27,7 +27,7 @@ MDM2 regulates p53 through several mechanisms:
 - [[Apoptosis]]: MDM2 prevents p53-mediated apoptosis.
 - [[Senescence]]: MDM2 prevents p53-mediated senescence.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[p53]], [[glioblastoma]], [[Nutlins]], [[Apoptosis]], [[Senescence]]
 - Suggested new entity notes to create: [[Nutlins]]
 - Strong connections to strengthen: [[MDM2]] ↔ [[p53]], [[MDM2]] ↔ [[Nutlins]]

@@ -12,13 +12,15 @@ Verrucomicrobia is a phylum of bacteria that are ubiquitous in soil and water, a
 
 
 
-### Connections
+#
+
+## Connections
 - [[Akkermansia]] — related entity
 - [[Environmental Microbiota]] — related entity
 - [[Gut Microbiome]] — related entity
 - [[Verrucomicrobia]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Akkermansia]], [[Gut Microbiome]]
 - Suggested new entity notes to create: [[Environmental Microbiota]]
 - Strong connections to strengthen: [[Verrucomicrobia]] ↔ [[Akkermansia]]

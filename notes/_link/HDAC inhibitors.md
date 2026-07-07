@@ -19,10 +19,12 @@ aliases: [Histone Deacetylase Inhibitors, HDACi]
 
 **Safety and toxicity:** The safety profile of HDAC inhibitors depends on dose, duration of exposure, and individual susceptibility. Understanding its toxicology is essential for safe therapeutic use.
 
-### Connections
+#
+
+## Connections
 - [[HDAC inhibitors]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[HDAC inhibitors]]
 - Strong connections to strengthen: [[HDAC inhibitors]] ↔ [[HDAC inhibitors]]
 

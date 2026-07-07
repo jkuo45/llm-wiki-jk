@@ -27,7 +27,9 @@ GPx4 expression is regulated by [[NRF2|NRF2]] through ARE elements, and its acti
 - **[[Neurodegenerative Diseases]]**: Reduced GPx4 activity and increased lipid peroxidation are observed in [[Alzheimer's Disease]] and [[Parkinson's Disease]].
 - **Male Infertility**: Mitochondrial GPx4 is essential for sperm structure and motility; GPx4 knockout mice are infertile.
 
-### Connections
+#
+
+## Connections
 - [[Ferroptosis]] — interacts with
 - [[Glutathione]] — interacts with
 - [[NRF2]] — master transcription factor for antioxidant and cytoprotective gene expression
@@ -41,7 +43,7 @@ GPx4 expression is regulated by [[NRF2|NRF2]] through ARE elements, and its acti
 - [[Neurodegenerative Diseases]] — interacts with
 - [[Alzheimer's Disease]] — interacts with
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Ferroptosis]], [[Glutathione]], [[NRF2]], [[Selenium]], [[Peroxynitrite]], [[RSL3]], [[ML162]], [[FINO2]], [[Cancer]], [[Ischemia-reperfusion Injury]], [[Neurodegenerative Diseases]], [[Alzheimer's Disease]], [[Parkinson's Disease]]
 - Strong connections to strengthen: [[GPX4]] ↔ [[Ferroptosis]], [[GPX4]] ↔ [[Glutathione]], [[GPX4]] ↔ [[NRF2]], [[GPX4]] ↔ [[Selenium]], [[GPX4]] ↔ [[Peroxynitrite]]
 

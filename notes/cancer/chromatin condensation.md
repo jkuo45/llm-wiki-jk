@@ -24,7 +24,7 @@ Chromatin condensation is used as a diagnostic feature to distinguish apoptosis 
 - [[AIF]]: A mitochondrial factor that induces condensation in a caspase-independent manner.
 - [[necrosis]]: Contrast with the nuclear morphology of necrotic death.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Apoptosis]], [[Caspase-3]], [[Caspase-6]], [[AIF]], [[necrosis]]
 - Suggested new entity notes to create: [[AIF]]
 - Strong connections to strengthen: [[chromatin condensation]] ↔ [[Apoptosis]]

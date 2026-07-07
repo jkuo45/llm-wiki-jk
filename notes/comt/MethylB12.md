@@ -24,5 +24,5 @@ For those sensitive to [[MethylB12]], non-methylated forms like [[Adenosylcobala
 - [[COMT]]: Enzyme sensitivity to methyl donor availability.
 
 ---
-### Linking Summary:
+## Linking Summary
 - New links added: [[Vitamin B12]], [[Methyl Donor]], [[Methylation Cycle]], [[COMT]], [[Methylfolate]], [[Adenosylcobalamin]], [[Hydroxocobalamin]].

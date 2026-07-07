@@ -56,7 +56,6 @@ Splitomicin selectively blocks the NAD⁺-dependent deacetylation reaction catal
 ---
 
 ## Linking Summary
-
 - **New Links Added**: [[SIRT1]], [[SIRT2]], [[Sirtinol]], [[Cardiovascular Disease]]
 - **Suggested New Notes to Create**: [[Ischemic Preconditioning]], [[Tissue Factor]]
 - **Strong Connections to Strengthen**: [[Splitomicin]] ↔ [[SIRT1]], [[Splitomicin]] ↔ [[SIRT2]]

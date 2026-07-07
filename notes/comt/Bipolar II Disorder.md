@@ -20,5 +20,5 @@ Research has explored the potential interaction between [[COMT]] and [[MTHFR]] g
 - [[Dopamine]]: The neurotransmitter whose dysregulation is central to many mood disorders.
 
 ---
-### Linking Summary:
+## Linking Summary
 - New links added: [[COMT]], [[MTHFR]], [[Dopamine]].

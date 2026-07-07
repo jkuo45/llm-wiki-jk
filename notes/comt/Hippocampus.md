@@ -20,5 +20,5 @@ The **[[Hippocampus]]** is a major component of the brain of humans and other ve
 - [[Working Memory]]: While the PFC is the primary seat, the hippocampus supports various memory processes.
 
 ---
-### Linking Summary:
+## Linking Summary
 - New links added: [[COMT]], [[Working Memory]].

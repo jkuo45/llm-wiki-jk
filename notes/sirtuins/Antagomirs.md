@@ -52,7 +52,6 @@ Age-associated upregulation of [[miR-217]], [[miR-543]], and [[miR-378]] suppres
 - [[NFKB|NF-κB]] — downstream signaling node suppressed by SIRT1 restoration
 
 ## Linking Summary
-
 - New links added: [[MicroRNA]], [[SIRT1]], [[miR-217]], [[miR-543]], [[miR-378]], [[Locked Nucleic Acid]], [[Lipid Nanoparticles]], [[Senomorphics]], [[NFKB]], [[SASP]], [[p65]], [[Resveratrol]]
 - Suggested new entity notes to create: None
 - Strong connections to strengthen: [[Antagomirs]] ↔ [[MicroRNA]], [[Antagomirs]] ↔ [[SIRT1]]

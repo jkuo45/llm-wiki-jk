@@ -53,7 +53,9 @@ PGC-1α integrates [[Caloric Restriction]] signals:
 - CR increases [[NAD+]] → activates [[SIRT1]] → deacetylates PGC-1α → triggers mitochondrial adaptation programme.
 - This axis is proposed to underlie CR-mediated metabolic improvements in mammals.
 
-### Connections
+#
+
+## Connections
 - [[Mitochondrial Biogenesis]]
 - [[Oxidative Stress]]
 - [[SIRT1]]
@@ -66,7 +68,7 @@ PGC-1α integrates [[Caloric Restriction]] signals:
 - [[Mitochondrial Biogenesis]] — PGC-1α is the master regulator
 - [[Neurodegeneration]] — PGC-1α loss sensitises neurons to oxidative damage (MPTP, kainic acid)
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Mitochondrial Biogenesis]], [[NRF1]], [[TFAM]], [[PPARγ]], [[SIRT1]], [[AMPK]], [[Oxidative Stress]], [[SIRT3]], [[Resveratrol]], [[Caloric Restriction]], [[NAD+]]
 - Suggested new entity notes to create: [[PPARGC1A]], [[ERRalpha]], [[PRMT1]], [[Mitochondrial Biogenesis]], [[MPTP]], [[Oxidative Phosphorylation]]
 - Strong connections to strengthen: [[PGC1-α]] ↔ [[Mitochondrial Biogenesis]], [[PGC1-α]] ↔ [[SIRT1]], [[PGC1-α]] ↔ [[Caloric Restriction]], [[PGC1-α]] ↔ [[Neurodegeneration]]

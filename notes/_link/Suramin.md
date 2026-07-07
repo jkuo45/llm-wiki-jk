@@ -31,12 +31,14 @@ Suramin features multiple highly charged sulfonic acid groups that enable it to 
 - **Spinal Degeneration Models**: Utilized in research surrounding intervertebral disc health and anti-inflammatory therapies.
 ---
 
-### Connections
+#
+
+## Connections
 - **[[SIRT1]]**, **[[SIRT2]]**, & **[[SIRT5]]** — direct molecular sirtuin targets.
 - **[[NFKB|NF-κB]]** — pathway inhibited by suramin to alleviate spinal disc degeneration.
 - **[[Cancer]]** — disease context where suramin's anti-sirtuin and mitochondrial effects are exploited.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Onchocerciasis]], [[Ivermectin]]
 - Suggested new entity notes to create: [[Sleeping sickness]]
 - Strong connections to strengthen: [[Suramin]] ↔ [[Onchocerciasis]]

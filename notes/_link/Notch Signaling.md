@@ -19,10 +19,12 @@ aliases: [Notch Pathway]
 
 **Regulation and dysregulation:** Notch Signaling is controlled by nutrient sensors, stress pathways, and hormonal signals. Impairment of this process is linked to metabolic diseases, neurodegeneration, and cancer.
 
-### Connections
+#
+
+## Connections
 - [[Notch Signaling]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Notch Signaling]]
 - Strong connections to strengthen: [[Notch Signaling]] ↔ [[Notch Signaling]]
 

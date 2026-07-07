@@ -19,10 +19,12 @@ aliases: [Vitamin B9, Folic Acid]
 
 **Clinical significance:** Altered levels of Folate are observed in metabolic disorders, mitochondrial diseases, and nutritional deficiencies. Supplementation or pharmacological modulation of this metabolite has therapeutic potential.
 
-### Connections
+#
+
+## Connections
 - [[Folate]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Folate]]
 - Strong connections to strengthen: [[Folate]] ↔ [[Folate]]
 

@@ -55,7 +55,6 @@ Cambinol enters the sirtuin catalytic pocket, where its $\beta$-naphthol group p
 ---
 
 ## Linking Summary
-
 - **New Links Added**: [[SIRT1]], [[SIRT2]], [[Sirtinol]], [[Cancer]], [[p53]]
 - **Suggested New Notes to Create**: [[Alpha-Fetoprotein]], [[Chemosensitization]]
 - **Strong Connections to Strengthen**: [[Cambinol]] ↔ [[SIRT1]], [[Cambinol]] ↔ [[SIRT2]]

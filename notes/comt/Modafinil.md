@@ -20,5 +20,5 @@ The response to [[Modafinil]] is strongly influenced by the [[COMT]] [[Val158Met
 - [[Val158Met]]: The polymorphism that predicts the efficacy of modafinil.
 
 ---
-### Linking Summary:
+## Linking Summary
 - New links added: [[COMT]], [[Dopamine]], [[Val158Met]].

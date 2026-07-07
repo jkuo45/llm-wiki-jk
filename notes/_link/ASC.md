@@ -19,10 +19,12 @@ aliases: [PYCARD, Apoptosis-Associated Speck-like Protein]
 
 **Pathological significance:** Altered expression or mutation of ASC is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
 
-### Connections
+#
+
+## Connections
 - [[ASC]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[ASC]]
 - Strong connections to strengthen: [[ASC]] ↔ [[ASC]]
 

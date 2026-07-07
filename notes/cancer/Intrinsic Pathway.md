@@ -29,7 +29,7 @@ The **Intrinsic Pathway**, also known as the **mitochondrial pathway** of [[Apop
 - [[Bcl-2]]: An anti-apoptotic regulator of this pathway.
 - [[Bax]]: A pro-apoptotic promoter of mitochondrial outer membrane permeabilization.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Apoptosis]], [[Bcl-2 family]], [[Bax]], [[Bak]], [[Cytochrome c]], [[Smac DIABLO]]/[[Smac DIABLO]], [[Omi]]/[[HtrA2]], [[Apaf-1]], [[Caspase-9]], [[Apoptosome]], [[Caspase-3]], [[XIAP]], [[Extrinsic Pathway]], [[Common Pathway]], [[Bcl-2]]
 - Suggested new entity notes to create: [[Bak]], [[Cytochrome c]], [[Smac DIABLO]]/[[Smac DIABLO]], [[Omi]]/[[HtrA2]], [[Apaf-1]], [[Caspase-9]], [[Apoptosome]]
 - Strong connections to strengthen: [[Intrinsic Pathway]] ↔ [[Bcl-2 family]]

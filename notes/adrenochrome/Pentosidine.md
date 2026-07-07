@@ -27,7 +27,6 @@ Pentosidine levels increase with age in several tissues:
 - Intervertebral disk
 
 ## Linking Summary
-
 - New links added: [[Advanced Glycation End Products]], [[Collagen]], [[Aging]]
 - Suggested new entity notes to create: [[Arginine]]
 - Strong connections to strengthen: [[Pentosidine]] ↔ [[Aging]]

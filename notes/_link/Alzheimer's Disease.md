@@ -52,7 +52,9 @@ Alzheimer's disease is a neurodegenerative disorder where enhancing [[TFEB]]-med
 **Disease mechanisms:** The pathogenesis of Alzheimer’s disease involves dysregulated signaling pathways, cellular dysfunction, and tissue damage. Molecular mechanisms include inflammation, oxidative stress, and metabolic dysregulation.
 **Therapeutic strategies:** Management of Alzheimer’s disease includes pharmacological interventions, lifestyle modifications, and supportive care. Emerging therapies target specific molecular pathways involved in disease progression.
 
-### Connections
+#
+
+## Connections
 - **[[Aging]]**: The primary risk factor for AD, characterized by significant epigenetic changes.
 - **[[Neurodegenerative Diseases]]**: AD is the most common form of neurodegenerative disease.
 - **[[DNA Methylation]]**: A key mechanism dysregulated in AD brain tissue.
@@ -61,7 +63,7 @@ Alzheimer's disease is a neurodegenerative disorder where enhancing [[TFEB]]-med
 - [[Disease Modeling]]: iPSCs help in understanding the pathophysiology of Alzheimer's.
 - [[Rejuvenation]]: Some research overlaps with efforts to reverse age-related cognitive decline.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[TFEB]], [[Celastrol]], [[Epigenetics]], [[DNA Methylation]], [[Histone Modification]], [[Nucleosome]], [[Chromatin]], [[MicroRNA]], [[Aging]], [[Epigenome]], [[Epigenetic Clock]], [[HDAC]], [[DNA Methyltransferase]], [[Biomarkers]], [[Neurodegenerative Diseases]], [[Neuroinflammation]]., [[Induced Pluripotent Stem Cells]], [[Disease Modeling]], [[Rejuvenation]], [[Autophagy]], [[Proteotoxicity]], [[Autophagic Flux]], [[Intermittent Fasting]], [[Caloric Restriction]], [[Neuroinflammation]]
 - Suggested new entity notes to create: [[Tau Pathology]], [[Neuroinflammation]], [[Amyloid Beta]], [[Tau Protein]], [[Synaptic plasticity]]., [[Proteotoxicity]], [[Autophagic Flux]], [[Intermittent Fasting]], [[Caloric Restriction]], [[Synaptic plasticity]]
 - Strong connections to strengthen: [[Alzheimer's Disease]] ↔ [[TFEB]], [[Alzheimer's Disease]] ↔ [[Aging]], [[Alzheimer's Disease]] ↔ [[DNA Methylation]], [[Induced Pluripotent Stem Cells]] ↔ [[Alzheimer's Disease]], [[Alzheimer's Disease]] ↔ [[Neurodegenerative Disease]], [[Alzheimer's Disease]] ↔ [[Autophagy]]

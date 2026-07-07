@@ -21,8 +21,9 @@ GβL/mLST8 is essential for [[mTORC1]] and [[mTORC2]] integrity. In mTORC1, it d
 
 Unlike [[Raptor]] and [[Rictor]], GβL/mLST8 is constitutively bound to mTOR and does not function as a substrate recruiter. Its binding to mTOR is enhanced by [[Phosphatidic Acid]], linking [[Growth Factor]] signaling to mTOR complex assembly.
 
-### Connections
+#
 
+## Connections
 - [[mTOR]] — GβL binds the mTOR kinase domain to stabilize catalytic activity
 - [[mTORC1]] — GβL is a core subunit of mTOR complex 1
 - [[mTORC2]] — GβL is a core subunit of mTOR complex 2
@@ -32,8 +33,7 @@ Unlike [[Raptor]] and [[Rictor]], GβL/mLST8 is constitutively bound to mTOR and
 - [[G Proteins]] — GβL is structurally similar to Gβ subunits
 - [[Kinase Domain]] — GβL directly contacts the mTOR catalytic domain
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[mTOR]], [[mTORC1]], [[mTORC2]], [[Raptor]], [[Rictor]], [[WD40 Repeat]], [[G Proteins]], [[Kinase Domain]], [[Phosphatidic Acid]], [[Growth Factor]]
 - Suggested new entity notes to create: [[β-propeller]], [[mTOR complex assembly]], [[Phosphatidic acid signaling]]
 - Strong connections to strengthen: [[GbetaL]] ↔ [[mTOR]], [[GbetaL]] ↔ [[mTORC1]], [[GbetaL]] ↔ [[mTORC2]]

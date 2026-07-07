@@ -19,7 +19,9 @@ Mitochondrial dysfunction is a central feature of [[Parkinson's Disease]] and is
 Mitochondrial dysfunction is the failure of mitochondria to maintain homeostasis and produce energy; it can be mitigated by [[TFEB]]-mediated induction of mitophagy and mitochondrial biogenesis.
 
 
-### Connections
+#
+
+## Connections
 - [[Parkinson's Disease]] — neurodegenerative disease; α-synuclein pathology; dopamine loss
 - [[Substantia Nigra]] — interacts with Mitochondrial Dysfunction
 - [[Oxidative Stress]] — imbalance between ROS production and antioxidant capacity
@@ -27,7 +29,7 @@ Mitochondrial dysfunction is the failure of mitochondria to maintain homeostasis
 - [[Mitophagy]] — selective autophagy of mitochondria; quality control mechanism
 - [[MPTP]] — interacts with Mitochondrial Dysfunction
 - [[TFEB]] — master transcription factor for lysosomal biogenesis and autophagy
-### Linking Summary
+## Linking Summary
 - New links added: [[TFEB]], [[Mitochondria]], [[Mitophagy]], [[Parkinson's Disease]], [[Substantia Nigra]], [[Oxidative Stress]], [[Neuromelanin]], [[MPTP]].
 - Suggested new entity notes to create: [[Mitochondrial Biogenesis]], [[ATP]], [[Complex I]], [[Mitophagy]].
 - Strong connections to strengthen: [[Mitochondrial Dysfunction]] ↔ [[TFEB]], [[Mitochondrial Dysfunction]] ↔ [[Oxidative Stress]].

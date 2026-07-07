@@ -25,5 +25,5 @@ aliases: [MSNs]
 - [[MSNs]]: The common abbreviation for medium spiny neurons.
 
 ---
-### Linking Summary:
+## Linking Summary
 - New links added: [[Sirtuins]], [[Dopamine]], [[D1 receptor]], [[D2 receptor]], [[COMT]], [[MSNs]].

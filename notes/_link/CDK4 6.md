@@ -25,8 +25,9 @@ CDK4/6 activity is controlled by:
 
 CDK4/6 is overactive in many cancers via [[Cyclin D amplification]] (breast cancer, mantle cell lymphoma), [[p16INK4A]] loss, and [[pRb]] inactivation. [[CDK4]]/[[CDK6]] inhibitors ([[Palbociclib]], [[Ribociclib]], [[Abemaciclib]]) are FDA-approved for HR+/HER2− breast cancer and cause [[Cell Cycle Arrest]] in [[G1 Phase]].
 
-### Connections
+#
 
+## Connections
 - [[Cell Cycle]] — CDK4/6 drives G1-to-S phase progression
 - [[Retinoblastoma Protein]] — CDK4/6 phosphorylates pRb to relieve E2F repression
 - [[Cyclin D]] — regulatory partner of CDK4/6
@@ -37,8 +38,7 @@ CDK4/6 is overactive in many cancers via [[Cyclin D amplification]] (breast canc
 - [[Cellular Senescence]] — p16INK4a upregulation inhibits CDK4/6
 - [[p21Cip1]] / [[p27Kip1]] — CIP/KIP family CDK inhibitors
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[Cyclin-Dependent Kinases]], [[Cell Cycle]], [[G1 Phase]], [[S Phase]], [[Retinoblastoma Protein]], [[E2F]], [[Cyclin D]], [[Mitogen]], [[RAS]], [[MEK]], [[ERK]], [[p16INK4A]], [[p15INK4b]], [[p18INK4c]], [[p19INK4d]], [[p21Cip1]], [[p27Kip1]], [[Palbociclib]], [[Ribociclib]], [[Abemaciclib]], [[CDK4]]/[[CDK6]] inhibitors, [[Breast Cancer]], HR+/HER2− breast cancer, [[Cellular Senescence]], [[Cell Cycle Arrest]]
 - Suggested new entity notes to create: [[CDK-activating kinase]], [[Retinoblastoma pathway]], [[Cyclin D1 amplification]], [[Mantle cell lymphoma]], [[CDK4/6 inhibitor resistance]]
 - Strong connections to strengthen: [[CDK46]] ↔ [[Cell Cycle]], [[CDK46]] ↔ [[Retinoblastoma Protein]], [[CDK46]] ↔ [[Palbociclib]]

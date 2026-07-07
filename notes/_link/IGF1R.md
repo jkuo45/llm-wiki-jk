@@ -19,10 +19,12 @@ aliases: [Insulin-like Growth Factor 1 Receptor]
 
 **Pathological significance:** Altered expression or mutation of IGF1R is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
 
-### Connections
+#
+
+## Connections
 - [[IGF1R]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[IGF1R]]
 - Strong connections to strengthen: [[IGF1R]] ↔ [[IGF1R]]
 

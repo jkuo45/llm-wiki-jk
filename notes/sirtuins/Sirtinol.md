@@ -55,7 +55,6 @@ Sirtinol binds to the catalytic core of [[SIRT1]] and [[SIRT2]], preventing the 
 ---
 
 ## Linking Summary
-
 - **New Links Added**: [[SIRT1]], [[SIRT2]], [[Splitomicin]], [[Salermide]]
 - **Suggested New Notes to Create**: [[Naphthol Derivatives]], [[Senescence-Like Growth Arrest]]
 - **Strong Connections to Strengthen**: [[Sirtinol]] ↔ [[SIRT1]], [[Sirtinol]] ↔ [[SIRT2]]

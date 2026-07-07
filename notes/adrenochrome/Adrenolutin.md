@@ -45,6 +45,6 @@ Adrenolutin may serve as a stable downstream biomarker of catecholamine oxidatio
 - [[Epinephrine]] ↔ The original molecule from which this oxidative pathway begins.
 - [[Oxidation]] ↔ The process that leads to the formation of both adrenochrome and adrenolutin.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Adrenolutin]], [[Adrenochrome]], [[Epinephrine]], [[Oxidation]], [[NAD(P)H Quinone Dehydrogenase 1]], [[NQO1]], [[Potassium ferricyanide]], Iodine, [[Pheochromocytoma]], [[Diabetic Ketoacidosis]], [[Septic Shock]], [[Norepinephrine]], [[Sodium Potassium ATPase]], [[Cysteine]], [[Glutathione]], [[HPLC-FL]], [[LC-MS]]
 - Strong connections to strengthen: [[Adrenolutin]] ↔ [[Adrenochrome]], [[Adrenolutin]] ↔ [[Epinephrine]]

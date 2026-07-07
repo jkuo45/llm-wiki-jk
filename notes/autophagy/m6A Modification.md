@@ -20,8 +20,7 @@ N6-methyladenosine (m6A) is the most abundant internal RNA modification. It is i
 
 m6A regulates autophagy gene expression at multiple levels. [[METTL3]] and [[ALKBH5]] modulate [[ULK1]], [[Beclin1]], and [[TFEB]] mRNA metabolism in cancer and development.
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[METTL3]], [[ALKBH5]], [[TFEB]]
 - Suggested new entity notes to create: [[RNA Methylation]]
 - Strong connections to strengthen: [[m6A Modification]] ↔ [[TFEB]]

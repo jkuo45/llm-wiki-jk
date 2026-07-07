@@ -19,10 +19,12 @@ aliases: [Beta-Oxidation]
 
 **Regulation and dysregulation:** Fatty acid oxidation is controlled by nutrient sensors, stress pathways, and hormonal signals. Impairment of this process is linked to metabolic diseases, neurodegeneration, and cancer.
 
-### Connections
+#
+
+## Connections
 - [[Fatty acid oxidation]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Fatty acid oxidation]]
 - Strong connections to strengthen: [[Fatty acid oxidation]] ↔ [[Fatty acid oxidation]]
 

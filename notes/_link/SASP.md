@@ -75,8 +75,9 @@ Rather than killing senescent cells, senomorphic agents suppress SASP production
 ### Biomarker Potential
 Circulating SASP factors ([[IL-6]], [[IL-8]], [[MMP-9]], [[PAI-1]]) serve as biomarkers of biological age and senescent cell burden.
 
-### Connections
+#
 
+## Connections
 - [[Cellular Senescence]] — the SASP is the effector arm of the senescence program
 - [[Inflammaging]] — chronic SASP is a major driver of age-related inflammation
 - [[NFκB]] — master transcription factor regulating SASP gene expression
@@ -90,8 +91,7 @@ Circulating SASP factors ([[IL-6]], [[IL-8]], [[MMP-9]], [[PAI-1]]) serve as bio
 - [[IL-6]] — prototypical SASP cytokine; biomarker of aging
 - [[DNA Damage Response]] — required for SASP initiation
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[Cellular Senescence]], [[IL-6]], [[IL-1α]], [[Interleukin 1β]], [[TNFα]], [[IL-8]], [[NFκB]], [[CEBPβ]], [[GATA4]], [[p38 MAPK]], [[mTORC1]], [[4E-BP1]], [[cGAS-STING]], [[LINE-1]], [[Alu element]], [[JAK2]], [[STAT3]], [[ATM]], [[CHK2]], [[p53]], [[Natural Killer Cells]], [[Macrophages]], [[T Cells]], [[Inflammaging]], [[Stem Cell Exhaustion]], [[Extracellular Matrix]], [[Angiogenesis]], [[Epithelial-Mesenchymal Transition]], [[Wound Healing]], [[Senolytics]], [[Dasatinib]], [[Quercetin]], [[Metformin]], [[Rapamycin]], [[Ruxolitinib]], [[Aspirin]], [[Glucocorticoids]], [[PAI-1]], [[MMP1]], [[MMP-3]], [[MMP-9]], [[VEGF]], [[FGF]], [[GM-CSF]], [[G-CSF]], [[Prostaglandin E2]]
 - Suggested new entity notes to create: [[Senomorphics]], [[Bystander senescence]], [[cGAS]], [[STING]], [[IFI16]], [[Nuclear factor erythroid 2-related factor 2]]
 - Strong connections to strengthen: [[SASP]] ↔ [[Inflammaging]], [[SASP]] ↔ [[Cellular Senescence]], [[SASP]] ↔ [[NFκB]], [[SASP]] ↔ [[mTORC1]], [[SASP]] ↔ [[Cancer]]

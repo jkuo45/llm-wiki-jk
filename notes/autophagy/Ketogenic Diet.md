@@ -28,7 +28,7 @@ A **Ketogenic Diet** is a high-fat, adequate-protein, low-carbohydrate dietary r
 
 KD induces [[Ketogenesis]], increases β-hydroxybutyrate, and activates [[Autophagy]] via HDAC inhibition and [[FOXO]] signaling. It has therapeutic potential in epilepsy and neurodegeneration.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Ketogenesis]], [[Autophagy]], [[Longevity]], [[Neurodegenerative Diseases|Neurodegenerative Disease]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Cancer]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[Ketogenic Diet]] ↔ [[Ketogenesis]], [[Ketogenic Diet]] ↔ [[Autophagy]]

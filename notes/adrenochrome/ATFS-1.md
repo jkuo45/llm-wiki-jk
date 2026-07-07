@@ -30,7 +30,6 @@ ATFS-1 acts as a direct sensor of mitochondrial import efficiency, linking mitoc
 - [[UPRmt]]
 
 ## Linking Summary
-
 - New links added: [[Mitochondrial Unfolded Protein Response]], [[Mitochondria]]
 - Suggested new entity notes to create: [[Mitochondrial targeting sequence]], [[Nuclear localization signal]]
 - Strong connections to strengthen: [[ATFS-1]] ↔ [[UPRmt]]

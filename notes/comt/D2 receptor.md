@@ -24,5 +24,5 @@ In the [[Sirtuins]], [[Dopamine]] levels are regulated by both the [[Dopamine Tr
 - [[Sirtuins]]: A region with high D2 receptor density.
 
 ---
-### Linking Summary:
+## Linking Summary
 - New links added: [[Dopamine]], [[Working Memory]], [[COMT]], [[Sirtuins]], [[Dopamine Transporter]].

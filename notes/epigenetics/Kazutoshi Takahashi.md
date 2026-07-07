@@ -20,7 +20,7 @@ This discovery, first published in 2006 for mouse cells and in 2007 for human ce
 - [[Induced Pluripotent Stem Cells]]: The primary outcome of their groundbreaking discovery.
 - [[Somatic Cells]]: The starting material for the reprogramming process.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Shinya Yamanaka]], [[Somatic Cells]], [[Induced Pluripotent Stem Cells]], [[Oct4]], [[Sox2]], [[Klf4]], [[c-Myc]], [[Yamanaka Factors]], [[OSKM]], [[Regenerative Medicine]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Kazutoshi Takahashi]] ↔ [[Shinya Yamanaka]]

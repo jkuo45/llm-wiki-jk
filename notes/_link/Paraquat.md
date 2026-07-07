@@ -13,13 +13,15 @@ Paraquat is a chemical compound and toxic herbicide that induces cellular oxidat
 [[Paraquat]] is a widely used herbicide that is structurally similar to the neurotoxin [[MPP+]]. Exposure to paraquat has been epidemiologically linked to an increased risk of [[Parkinson's Disease]]. Like MPP+, paraquat can cause [[Mitochondrial Dysfunction]] by inhibiting [[Complex I]] and generating [[Reactive Oxygen Species]].
 
 
-### Connections
+#
+
+## Connections
 - [[MPP+]] — interacts with Paraquat
 - [[Parkinson's Disease]] — neurodegenerative disease; α-synuclein pathology; dopamine loss
 - [[Mitochondrial Dysfunction]] — interacts with Paraquat
 - [[Complex I]] — interacts with Paraquat
 - [[Reactive Oxygen Species]] — interacts with Paraquat
-### Linking Summary
+## Linking Summary
 - New links added: [[Oxidative Stress]], [[Senescence]], [[Parkinson's Disease]], [[MPP+]], [[Mitochondrial Dysfunction]], [[Complex I]], [[Reactive Oxygen Species]].
 - Suggested new entity notes to create: [[Pesticides]], [[Environmental Toxins]].
 - Strong connections to strengthen: [[Paraquat]] <-> [[Oxidative Stress]], [[Paraquat]] ↔ [[Parkinson's Disease]].

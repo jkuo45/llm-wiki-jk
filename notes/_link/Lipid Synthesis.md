@@ -19,10 +19,12 @@ aliases: [Lipogenesis]
 
 **Regulation and dysregulation:** Lipid Synthesis is controlled by nutrient sensors, stress pathways, and hormonal signals. Impairment of this process is linked to metabolic diseases, neurodegeneration, and cancer.
 
-### Connections
+#
+
+## Connections
 - [[Lipid Synthesis]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Lipid Synthesis]]
 - Strong connections to strengthen: [[Lipid Synthesis]] ↔ [[Lipid Synthesis]]
 

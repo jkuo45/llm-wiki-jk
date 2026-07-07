@@ -23,13 +23,15 @@ entity_type_1: Medical Condition
 - [[melittin]] and [[Honeybee venom]] have shown high selectivity and potency against aggressive breast cancer subtypes like TNBC and HER2-enriched.
 - [[Ivermectin]] inhibits the proliferation of breast cancer cell lines (e.g., MCF-7, MDA-MB-231) by blocking the [[Akt]]/[[mTOR]] pathway and acting as a [[PAK1]] inhibitor. It also induces [[Pyroptosis]] and targets [[Cancer Stem Cells]].
 
-### Connections
+#
+
+## Connections
 - [[triple-negative breast cancer]]: An aggressive subtype sensitive to both melittin and ivermectin.
 - [[Ivermectin]]: Induces autophagy and targets CSCs in breast cancer.
 - [[melittin]]: Selective anticancer activity via receptor inhibition.
 - [[Beclin1]]: Often suppressed or co-deleted with [[BRCA1]].
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Akt]], [[Autophagy]], [[Beclin1]], [[BRCA1]], [[CK2]], [[Caloric Restriction]], [[Cancer Stem Cells]], [[HER2]], [[Honeybee venom]], [[Ivermectin]], [[MCF-7]], [[PAK1]], [[SIRT1]], [[melittin]], [[mTOR]], [[Pyroptosis]], [[triple-negative breast cancer]], [[Caspase-7]], [[Puma]], [[Bcl-xL]], [[Mcl-1]], [[HER2-enriched breast cancer]]
 - Suggested new entity notes to create: [[HER2]], [[ER]], [[PR]], [[MCF-7]], [[PAK1]], [[CK2]], [[Pyroptosis]]
 - Strong connections to strengthen: [[Breast Cancer]] ↔ [[Beclin1]], [[Breast Cancer]] ↔ [[BRCA1]], [[Breast Cancer]] ↔ [[Ivermectin]], [[Caspase-7]] ↔ [[Breast Cancer]]

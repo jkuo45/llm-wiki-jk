@@ -24,13 +24,15 @@ By controlling NMN synthesis and subsequently cellular NAD⁺ levels, NAMPT acts
 - **Metabolic Syndrome:** Decreased NAMPT activity is associated with insulin resistance, obesity, and type 2 [[Diabetes Mellitus|diabetes]]. Conversely, NAMPT overexpression or NMN supplementation improves glucose tolerance and lipid profiles in animal models.
 - **Cancer Biology:** Many cancer cells overexpress NAMPT to satisfy their high energetic and DNA repair demands (via PARPs). NAMPT inhibitors (e.g., FK866) are being investigated as anti-cancer agents to selectively deplete NAD⁺ and induce apoptosis in tumor cells.
 
-### Connections
+#
+
+## Connections
 - **[[NAD+]]**: The downstream product and physiological target of NAMPT enzymatic activity.
 - **[[SIRT1]]**: Primary nuclear deacetylase whose activity is highly sensitive to NAMPT-mediated NAD⁺ levels.
 - **[[AMPK|AMPK]]**: Key metabolic sensor that upregulates NAMPT to restore cellular energy charge.
 - **[[Nicotinamide Mononucleotide|NMN]]**: The direct enzymatic product of NAMPT.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[NAD+]], [[Aging]], [[SIRT1]], [[AMPK]], [[Nicotinamide Mononucleotide]], [[NMNAT]], [[PARP1]], [[Toll-like Receptor]], [[Hallmarks of Aging]], [[Diabetes Mellitus]], [[cAMP]]
 - Suggested new entity notes to create: [[Nicotinamide phosphoribosyltransferase]], [[Salvage pathway]], [[FK866]]
 - Strong connections to strengthen: [[NAMPT]] ↔ [[NAD+]], [[NAMPT]] ↔ [[SIRT1]]

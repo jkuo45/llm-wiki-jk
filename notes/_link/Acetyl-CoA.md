@@ -16,12 +16,14 @@ entity_type_1: Metabolite
 - [[Autophagy]]
 - [[Sirtuins]]
 
-### Connections
+#
+
+## Connections
 - [[Histone Acetylation]] — interacts with
 - [[Autophagy]] — interacts with
 - [[Sirtuins]] — interacts with
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Histone Acetylation]], [[Autophagy]], [[Sirtuins]]
 - Strong connections to strengthen: [[Acetyl-CoA]] ↔ [[Histone Acetylation]], [[Acetyl-CoA]] ↔ [[Autophagy]], [[Acetyl-CoA]] ↔ [[Sirtuins]]
 

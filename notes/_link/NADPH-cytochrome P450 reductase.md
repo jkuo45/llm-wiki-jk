@@ -18,10 +18,12 @@ aliases: [POR, CPR]
 
 **Clinical relevance:** Dysregulation of NADPH-cytochrome P450 reductase activity is implicated in metabolic disorders, oxidative stress-related pathologies, and cancer. Pharmacological modulation of this enzyme represents a therapeutic strategy for diseases involving its pathway.
 
-### Connections
+#
+
+## Connections
 - [[NADPH-cytochrome P450 reductase]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[NADPH-cytochrome P450 reductase]]
 - Strong connections to strengthen: [[NADPH-cytochrome P450 reductase]] ↔ [[NADPH-cytochrome P450 reductase]]
 

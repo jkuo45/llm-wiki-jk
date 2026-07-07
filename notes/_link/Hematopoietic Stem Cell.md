@@ -20,13 +20,15 @@ entity_type_1: Cell Type
 - [[Rapamycin]] treatment has been shown to restore self-renewal and expansion of aged HSCs.
 
 
-### Connections
+#
+
+## Connections
 - [[HSC]] — interacts with Hematopoietic Stem Cell
 - [[Quiescence]] — interacts with Hematopoietic Stem Cell
 - [[Immune Aging]] — interacts with Hematopoietic Stem Cell
 - [[Autophagy]] — cellular self-degradation pathway; clears damaged proteins and organelles
 - [[Atg7]] — interacts with Hematopoietic Stem Cell
-### Linking Summary
+## Linking Summary
 - New links added: [[Quiescence]], Bone Marrow, [[Metabolism]], [[Immune Aging]], [[Autophagy]], [[Atg7]], [[Rapamycin]]
 - Suggested new entity notes to create: [[Mitophagy]], [[Mitochondria]]
 - Strong connections to strengthen: [[Hematopoietic Stem Cell]] ↔ [[Immune System]], [[Hematopoietic Stem Cell]] ↔ [[Immune Aging]]

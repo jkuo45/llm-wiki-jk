@@ -12,8 +12,9 @@ entity_type_1: Enzyme
 
 Mitosis is the process of [[Cell Division]] in which a single [[Eukaryotic Cell]] divides its duplicated [[Chromosome]]s into two identical daughter nuclei. It consists of stages: [[Prophase]], [[Prometaphase]], [[Metaphase]], [[Anaphase]], and [[Telophase]], followed by [[Cytokinesis]]. The [[Mitotic Spindle]], composed of [[Microtubules]], attaches to [[Kinetochore]]s on [[Centromere]]s via [[Spindle Assembly Checkpoint]] (SAC) machinery. Key regulators include [[Cyclin B]]/[[CDK1]] (MPF), [[APC C]] (Anaphase Promoting Complex), [[Separase]], and [[Coh esin]]. Mitosis is targeted by chemotherapeutic agents including [[Taxanes]] (paclitaxel, docetaxel) and [[Vinca Alkaloids]] (vincristine, vinblastine).
 
-### Connections
+#
 
+## Connections
 - [[Cell Division]] — mitosis is the nuclear division phase
 - [[Cell Cycle]] — mitosis comprises the M phase
 - [[Chromosome]]s — segregated during mitosis
@@ -26,8 +27,7 @@ Mitosis is the process of [[Cell Division]] in which a single [[Eukaryotic Cell]
 - [[Vinca Alkaloids]] — chemotherapeutics inhibiting microtubule polymerization
 - [[Cancer]] — mitotic inhibitors are anticancer drugs
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[Cell Division]], [[Cell Cycle]], [[Chromosome]]s, [[Centromere]], [[Microtubules]], [[APC C]], [[CDK1]], [[Cyclin B]], [[Taxanes]], [[Vinca Alkaloids]], [[Cancer]]
 - Suggested new entity notes to create: [[Kinetochore]], [[Spindle Assembly Checkpoint]], [[Separase]], [[Cohesin]]
 - Strong connections to strengthen: [[Mitosis]] ↔ [[Cell Cycle]], [[Mitosis]] ↔ [[Cancer]]

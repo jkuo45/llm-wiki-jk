@@ -18,10 +18,12 @@ aliases: [APEX1, Apurinic-Apyrimidinic Endonuclease 1]
 
 **Clinical relevance:** Dysregulation of APE1 activity is implicated in metabolic disorders, oxidative stress-related pathologies, and cancer. Pharmacological modulation of this enzyme represents a therapeutic strategy for diseases involving its pathway.
 
-### Connections
+#
+
+## Connections
 - [[APE1]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[APE1]]
 - Strong connections to strengthen: [[APE1]] ↔ [[APE1]]
 

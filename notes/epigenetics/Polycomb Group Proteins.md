@@ -38,7 +38,7 @@ PcG proteins are central to the senescence gene expression program:
 - **Cancer:** EZH2 is overexpressed or hyperactivated (by gain-of-function mutations) in multiple cancers, including [[Breast Cancer|breast]], [[Prostate Cancer|prostate]], [[Lymphoma|lymphomas]] (e.g., [[Diffuse large B-cell lymphoma|DLBCL]]). [[Tazemetostat]] (EZH2 inhibitor) is FDA-approved for epithelioid sarcoma and follicular lymphoma.
 - **Epigenetic therapy:** PRC2 inhibitors represent a major class of [[Epigenetic Modifiers]]. Combining EZH2 inhibitors with [[Senolytic Drugs]] is being explored to prevent senescence escape in cancer.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Epigenetics]], [[Histone Methylation]], [[Cancer]], [[Senescence]], [[p16INK4A]], [[H3K27me3]], [[SAHF]], [[EZH2]], [[SUZ12]], [[EED]], [[RING1B]]
 - Suggested new entity notes to create: [[PRC1]], [[PRC2]], [[H2AK119ub1]], [[Tazemetostat]], [[Drosophila melanogaster]]
 - Strong connections to strengthen: [[Polycomb Group Proteins]] ↔ [[Senescence]], [[Polycomb Group Proteins]] ↔ [[Cancer]]

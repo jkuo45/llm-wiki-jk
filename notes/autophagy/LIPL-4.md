@@ -21,7 +21,7 @@ aliases: [C. elegans lysosomal lipase 4]
 
 LIPL-4 is a C. elegans lysosomal lipase required for the longevity benefits of [[Dietary Restriction]]. It activates nuclear hormone receptor [[NHR-49]].
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[C. elegans]], [[MXL-3]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[LIPL-4]] ↔ [[MXL-3]]

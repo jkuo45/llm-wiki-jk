@@ -15,10 +15,12 @@ A genetic disorder caused by the buildup of glycogen in the body's cells, also k
 
 
 
-### Connections
+#
+
+## Connections
 - [[Lysosomal Storage Diseases]] — related entity
 - [[TFE3]] — related entity
 - [[TFEB]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[TFEB]], [[TFE3]], [[Lysosomal Storage Diseases]]

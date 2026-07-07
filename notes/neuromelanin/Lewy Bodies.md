@@ -21,7 +21,7 @@ The primary component of Lewy bodies is phosphorylated [[Alpha-synuclein]]. Othe
 - **Diagnostic Marker:** The presence of Lewy bodies in the [[Substantia Nigra]] is a key pathological diagnostic criterion for PD.
 - **Incidental Lewy Body Disease:** This term refers to the presence of Lewy bodies in individuals who did not exhibit clinical symptoms of PD during their lifetime, often considered a presymptomatic stage of the disease.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Parkinson's Disease]], [[Alpha-synuclein]], [[Ubiquitin]], [[Ubiquitin-Proteasome System]], [[Neuromelanin]], [[Pale Bodies]], [[Substantia Nigra]], [[Incidental Lewy Body Disease]].
 - Suggested new entity notes to create: [[Alpha-Synuclein Aggregation]], [[Protein Inclusions]].
 - Strong connections to strengthen: [[Lewy Bodies]] ↔ [[Alpha-synuclein]].

@@ -22,7 +22,7 @@ Irinotecan is a standard treatment for advanced colorectal cancer. It is also be
 - [[Colorectal Cancer]]: A primary clinical indication.
 - [[ABT-263]]: Investigated in combination therapy.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Colorectal Cancer]], [[Apoptosis]], [[ABT-263]]
 - Suggested new entity notes to create: [[ABT-263]]
 - Strong connections to strengthen: [[irinotecan]] ↔ [[Colorectal Cancer]]

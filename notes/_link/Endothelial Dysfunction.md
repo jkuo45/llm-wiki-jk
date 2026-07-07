@@ -28,10 +28,14 @@ The endogenous NOS inhibitor [[ADMA|asymmetric dimethylarginine]] (ADMA) accumul
 Endothelial dysfunction is most commonly quantified non-invasively by [[Flow-Mediated Dilation]] (FMD) of the brachial artery, a technique where reactive hyperemia-induced shear stress triggers NO-mediated vasodilation that is measured by ultrasound. Reduced FMD (<5–7% dilation) is an independent predictor of future [[Cardiovascular Disease|cardiovascular events]]. Circulating biomarkers include elevated levels of [[von Willebrand Factor]] (vWF), [[sICAM-1|soluble ICAM-1]], [[sVCAM-1|soluble VCAM-1]] (both products of [[NF-kappa B]] activation), [[E-Selectin]], and [[ADMA|ADMA]]. In the microcirculation, [[reactive hyperemia index]] (RHI) measured by peripheral arterial tonometry (PAT) provides an alternative assessment of small-vessel endothelial function.
 ## Therapeutic Interventions
 Restoring endothelial function requires simultaneously enhancing NO bioavailability and reducing ROS production. [[Melatonin|Statins]] (HMG-CoA reductase inhibitors) improve eNOS expression and activity while reducing [[NADPH Oxidase|NOX]] expression, independent of lipid-lowering (pleiotropic effects). [[Angiotensin II|Angiotensin-converting enzyme (ACE) inhibitors]] reduce [[Angiotensin II]]-mediated [[NADPH Oxidase|NOX]] activation. [[Tetrahydrobiopterin|BH4]] supplementation (sapropterin) has shown mixed results but supports eNOS recoupling. Lifestyle interventions including [[Exercise|aerobic exercise]], [[Caloric Restriction]], and [[Mediterranean Diet]] (rich in [[Flavonoids]] and [[Polyphenols]]) improve FMD through combined [[NRF2|Nrf2]] activation, [[Antioxidants|antioxidant]] enzyme induction, and reduced [[NADPH Oxidase|NOX]] expression. [[Metformin]] improves endothelial function in [[Diabetes Mellitus|diabetic]] patients via [[AMPK]]-mediated eNOS phosphorylation at Ser-1177 and reduced [[Mitochondrial ROS|mitochondrial ROS]].
-### Updated Linking Summary:
+## Linking Summary
 - New links added in this revision: [[Nitric Oxide Synthase]], [[Tetrahydrobiopterin]], [[Peroxynitrite]], [[NADPH Oxidase]], [[Angiotensin II]], [[TNF-alpha]], [[Xanthine Oxidase]], [[Mitochondria]], [[Hypoxia]], [[ADMA]], [[Flow-Mediated Dilation]], [[von Willebrand Factor]], [[E-Selectin]], [[Melatonin]], [[Caloric Restriction]], [[Flavonoids]], [[Polyphenols]], [[NRF2]], [[Metformin]], [[AMPK]], [[Mitochondrial ROS]], [[Inflammation]], [[Atherosclerosis]], [[Diabetes Mellitus]], [[Antioxidants]], [[sICAM-1]], [[sVCAM-1]]
+- New links added: [[Nitric Oxide]], [[Atherosclerosis]], [[Cardiovascular Disease]], [[Oxidative Stress]], [[Inflammation]], [[Insulin Signaling]], [[Pulse Wave Velocity]], [[Hypertension]], [[Reactive Oxygen Species]]
+- Suggested new entity notes to create: [[DDAH]], [[Sapropterin]], [[Reactive Hyperemia Index]], [[Pleiotropic Effects of Statins]], [[eNOS]], [[VCAM-1]], [[ICAM-1]], [[Flow-Mediated Dilation]], [[Vasodilation]], [[Vasoconstriction]]
+- Strong connections to strengthen: [[Endothelial Dysfunction]] ↔ [[Atherosclerosis]], [[Endothelial Dysfunction]] ↔ [[Nitric Oxide]]
+#
 
-### Connections
+## Connections
 - [[Atherosclerosis]] — Endothelial dysfunction initiates plaque formation
 - [[Cardiovascular Disease]] — Central pathophysiological role
 - [[Nitric Oxide]] — Key endothelial mediator lost in dysfunction
@@ -47,7 +51,3 @@ Restoring endothelial function requires simultaneously enhancing NO bioavailabil
 - [[Diabetes Mellitus]]: Hyperglycemia drives endothelial dysfunction via multiple pathways.
 - [[Tetrahydrobiopterin]]: Critical cofactor whose depletion causes eNOS uncoupling.
 
-### Linking Summary
-- New links added: [[Nitric Oxide]], [[Atherosclerosis]], [[Cardiovascular Disease]], [[Oxidative Stress]], [[Inflammation]], [[Insulin Signaling]], [[Pulse Wave Velocity]], [[Hypertension]], [[Reactive Oxygen Species]]
-- Suggested new entity notes to create: [[DDAH]], [[Sapropterin]], [[Reactive Hyperemia Index]], [[Pleiotropic Effects of Statins]], [[eNOS]], [[VCAM-1]], [[ICAM-1]], [[Flow-Mediated Dilation]], [[Vasodilation]], [[Vasoconstriction]]
-- Strong connections to strengthen: [[Endothelial Dysfunction]] ↔ [[Atherosclerosis]], [[Endothelial Dysfunction]] ↔ [[Nitric Oxide]]

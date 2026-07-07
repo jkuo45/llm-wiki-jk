@@ -46,6 +46,6 @@ These effects position adrenochrome as a mechanistic link between acute catechol
 - [[Coronary artery constriction]] ↔ Specific vasospastic effect of adrenochrome.
 - [[Cell necrosis]] ↔ Necrotic cell death triggered by high adrenochrome concentrations.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Cardiotoxicity]], [[Adrenochrome]], [[Redox Cycling]], [[Superoxide anion]], [[Reactive Oxygen Species]], [[Epinephrine]], [[Oxidative Stress]], [[Neutrophils]], [[Inflammation]], [[Arrhythmias]], [[Coronary artery constriction]], [[Cell necrosis]], [[Nitric Oxide]], [[Myocardium]], [[Calcium Handling]]
 - Strong connections to strengthen: [[Cardiotoxicity]] ↔ [[Adrenochrome]]

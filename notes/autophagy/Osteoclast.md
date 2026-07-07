@@ -21,6 +21,5 @@ Osteoclasts form a ruffled border membrane that seals against bone matrix, creat
 
 Autophagy supports osteoclast survival during the high metabolic demand of resorption. [[TFEB]] coordinates lysosomal biogenesis and autophagic flux in osteoclasts. Dysregulation of autophagy in osteoclasts is implicated in [[Osteoporosis]] and [[Paget's Disease of Bone]].
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[TFEB]], [[MITF]]

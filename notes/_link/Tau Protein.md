@@ -33,7 +33,9 @@ Tau acetylation at Lys residues (particularly Lys174, Lys274, Lys280, Lys281) �
 Cerebrospinal fluid (CSF) levels of tau phosphorylated at Thr181 (p-tau181), Thr217 (p-tau217), and total tau are established biomarkers of tau pathology in AD. [[Positron Emission Tomography]] (PET) with tau-binding radiotracers ([[Florzolotau|18F-florzolotau]] [previously 18F-THK5351], [[Flortaucipir|18F-flortaucipir]] [AV-1451/Tauvid]) enables in vivo visualization of tau burden. Therapeutic strategies targeting tau–oxidative stress interplay include [[Methylene blue]] (inhibits tau aggregation and acts as a redox cycler), [[N-Acetylcysteine|N-Acetylcysteine]] (replenishes [[Glutathione]], thereby reducing cysteine oxidation-mediated tau dimerization), and [[GSK-3β inhibitors]] ([[Lithium]], [[Tideglusib]]).
 
 
-### Connections
+#
+
+## Connections
 - [[Alzheimer's Disease]] — neurodegenerative disease; tau and amyloid-β pathology
 - [[Kinase]] — signals through Tau Protein
 - [[Phosphatase]] — catalyzes reaction involving Tau Protein
@@ -49,7 +51,7 @@ Cerebrospinal fluid (CSF) levels of tau phosphorylated at Thr181 (p-tau181), Thr
 - [[mitochondrial]] — interacts with Tau Protein
 - [[p38 MAPK]] — interacts with Tau Protein
 - [[JNK]] — interacts with Tau Protein
-### Linking Summary
+## Linking Summary
 - New links added: [[Oxidative Stress]], [[GSK3]], [[p38 MAPK]], [[Mitochondria]], [[Glutathione]], [[4-Hydroxynonenal]], [[Peroxynitrite]], [[Amyloid Beta]], [[Neurodegeneration]], [[Alzheimer's Disease]], [[N-Acetylcysteine]], [[Methylene blue]]
 - Suggested new entity notes to create: [[Microtubule]], [[Neurofibrillary tangles]], [[GSK3β]], [[CDK5]], [[p25]], [[SIRT1]], [[P300]], [[Fluortaucipir]], [[Tideglusib]], [[VDAC]]
 - Strong connections to strengthen: [[Tau Protein]] ↔ [[Mitochondria]], [[Tau Protein]] ↔ [[Oxidative Stress]], [[Tau Protein]] ↔ [[4-Hydroxynonenal]]

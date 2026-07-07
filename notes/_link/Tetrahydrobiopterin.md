@@ -19,10 +19,12 @@ aliases: [BH4]
 
 **Clinical significance:** Altered levels of Tetrahydrobiopterin are observed in metabolic disorders, mitochondrial diseases, and nutritional deficiencies. Supplementation or pharmacological modulation of this metabolite has therapeutic potential.
 
-### Connections
+#
+
+## Connections
 - [[Tetrahydrobiopterin]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Tetrahydrobiopterin]]
 - Strong connections to strengthen: [[Tetrahydrobiopterin]] ↔ [[Tetrahydrobiopterin]]
 

@@ -38,7 +38,7 @@ As described above, [[SIRT1]] deacetylates RelA at Lys310, reducing its transcri
 
 Chronic NF-κB activation is a hallmark of inflammaging — the low-grade, sterile inflammation that drives age-related functional decline. NF-κB activity increases with age in multiple tissues, driven by accumulated [[Advanced Glycation End Products|AGE]]-[[RAGE]] signaling, mitochondrial dysfunction, and [[DNA Damage]]. This sustained activation promotes [[Insulin Resistance]], [[Atherosclerosis]], [[Sarcopenia]], neurodegeneration, and frailty. Therapeutic strategies targeting NF-κB, including [[SIRT1]] activators and [[RAGE]] antagonists, are under investigation to mitigate inflammaging and extend healthspan.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Advanced Glycation End Products]], [[RAGE]], [[TNFα]], [[IL-6]], [[SIRT1]], [[SIRT2]], [[SIRT6]], [[SIRT7]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[AGE-RAGE Pathway]] ↔ [[NFκB]], [[SIRT1]] ↔ [[NFκB]], [[SIRT6]] ↔ [[NFκB]]

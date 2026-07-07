@@ -17,7 +17,9 @@ aliases: [Chronic Obstructive Pulmonary Disease, Chronic Obstructive Lung Diseas
 - **[[SIRT3]]**: Mitochondrial deacetylase that inhibits airway epithelial mitochondrial oxidative stress, attenuating COPD progression.
 - **[[SIRT1]] activator [[SRT1720]]**: Inhibits LPS-induced cytokine release from PBMCs in COPD patients, suggesting pharmacological SIRT1 activation as a therapeutic strategy.
 
-### Connections
+#
+
+## Connections
 - [[SIRT1]] — NAD+-dependent deacetylase; activates NRF2
 - [[NFκB]] — interacts with
 - [[FOXO3a]] — interacts with
@@ -26,7 +28,7 @@ aliases: [Chronic Obstructive Pulmonary Disease, Chronic Obstructive Lung Diseas
 - [[SIRT3]] — interacts with
 - [[SRT1720]] — interacts with
 
-### Linking Summary
+## Linking Summary
 - New links added: [[SIRT1]], [[NFκB]], [[FOXO3a]], [[p53]], [[SIRT6]], [[SIRT3]], [[SRT1720]]
 - Strong connections to strengthen: [[COPD]] ↔ [[SIRT1]], [[COPD]] ↔ [[NFκB]], [[COPD]] ↔ [[FOXO3a]], [[COPD]] ↔ [[p53]], [[COPD]] ↔ [[SIRT6]]
 

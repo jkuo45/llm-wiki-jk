@@ -51,7 +51,7 @@ Senolytics target these survival circuits. For example, [[Navitoclax]] (ABT-263)
 - **Next-generation senolytics:** PROTACs targeting BCL-XL for ubiquitination; CAR-T cells specific for senescent cell surface markers (e.g., [[uPAR]], [[DDR1]]).
 - **Combination strategies:** Sequential senolytic + [[Partial Reprogramming|partial reprogramming]] to reset the epigenome after clearing senescent cells.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Senescence]], [[Apoptosis]], [[SASP]], [[Bcl-2]], [[Dasatinib]], [[Quercetin]], [[Fisetin]], [[Navitoclax]]
 - Suggested new entity notes to create: [[SCAPs]], [[Senomorphics]], [[PROTAC]]
 - Strong connections to strengthen: [[Senolytic Drugs]] ↔ [[Senescence]], [[Senolytic Drugs]] ↔ [[Senolytics]]

@@ -22,7 +22,6 @@ CML is formed by the oxidative degradation of [[Amadori products]] or through th
 - **Accumulation**: CML accumulates in various tissues, including the heart and kidneys, during aging.
 
 ## Linking Summary
-
 - New links added: [[Advanced Glycation End Products]], [[Amadori products]], [[Biomarker]], [[Aging]]
 - Suggested new entity notes to create: [[Glyoxal]]
 - Strong connections to strengthen: [[N-(carboxymethyl)-lysine]] ↔ [[Aging]]

@@ -19,10 +19,12 @@ aliases: [3-Phosphoinositide-Dependent Protein Kinase 1]
 
 **Pathological significance:** Altered expression or mutation of PDK1 is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
 
-### Connections
+#
+
+## Connections
 - [[PDK1]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[PDK1]]
 - Strong connections to strengthen: [[PDK1]] ↔ [[PDK1]]
 

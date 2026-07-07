@@ -31,7 +31,6 @@ Heparin binds to [[Antithrombin III]], inducing a conformational change that acc
 - Both [[Warfarin]] and Heparin drug interaction warnings mention consideration with [[Resveratrol]] supplementation
 
 ## Linking Summary
-
 - New links added: [[Anticoagulant]], [[Resveratrol]], [[Warfarin]]
 - Suggested new entity notes to create: [[Antithrombin III]], [[Thrombin]], [[Enoxaparin]], [[Dalteparin]], [[Fondaparinux]], [[aPTT]]
 - Strong connections to strengthen: [[Heparin]] ↔ [[Resveratrol]], [[Heparin]] ↔ [[Warfarin]]

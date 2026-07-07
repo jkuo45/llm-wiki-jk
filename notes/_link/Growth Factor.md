@@ -12,8 +12,9 @@ entity_type_1: Enzyme
 
 Growth factors are signaling molecules (typically [[Peptide]]s or [[Protein]]s) that stimulate [[Cell Proliferation]], [[Differentiation]], [[Survival]], and [[Migration]] by binding to [[Receptor Tyrosine Kinases]] or [[G Protein-Coupled Receptors]]. Major growth factor families include [[EGF]] ([[EGFR]]), [[FGF]], [[PDGF]], [[VEGF]], [[IGF]] ([[IGF1]], [[IGF2]]), [[HGF]], and [[TGF-β]]. Growth factor signaling activates cascades including [[RAS]]/[[RAF]]/[[MEK1/2]]/[[ERK1/2]], [[PI3K]]/[[AKT]]/[[mTORC1]], and [[JAK]]/[[STAT]]. Dysregulated growth factor signaling is a hallmark of [[Cancer]], driving uncontrolled proliferation. Growth factors are used therapeutically in [[Wound Healing]] and [[Regenerative Medicine]].
 
-### Connections
+#
 
+## Connections
 - [[Cell Proliferation]] — primary effect of growth factor signaling
 - [[Receptor Tyrosine Kinases]] — main receptor class for growth factors
 - [[EGFR]] — epidermal growth factor receptor
@@ -28,8 +29,7 @@ Growth factors are signaling molecules (typically [[Peptide]]s or [[Protein]]s) 
 - [[Cancer]] — growth factor signaling is oncogenic
 - [[Wound Healing]] — growth factors promote tissue repair
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[Cell Proliferation]], [[Differentiation]], [[Survival]], [[Migration]], [[Receptor Tyrosine Kinases]], [[G Protein-Coupled Receptors]], [[EGF]], [[EGFR]], [[FGF]], [[PDGF]], [[VEGF]], [[IGF]], [[IGF1]], [[IGF2]], [[HGF]], [[TGF-β]], [[RAS]], [[RAF]], [[MEK1/2]], [[ERK1/2]], [[PI3K]], [[AKT]], [[mTORC1]], [[JAK]], [[STAT]], [[Cancer]], [[Wound Healing]], [[Regenerative Medicine]]
 - Suggested new entity notes to create: [[Growth Factor Receptor]], [[Ligand-Induced Dimerization]]
 - Strong connections to strengthen: [[Growth Factor]] ↔ [[Cell Proliferation]], [[Growth Factor]] ↔ [[Receptor Tyrosine Kinases]]

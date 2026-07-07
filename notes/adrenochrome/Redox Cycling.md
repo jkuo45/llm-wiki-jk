@@ -68,7 +68,7 @@ Beyond acute toxicity, sustained redox cycling contributes to:
 
 Controlled, low-amplitude redox cycling using stabilized adrenochrome derivatives (e.g., [[Carbazochrome]]) is being investigated as a [[Mitohormesis]]-inducing strategy. The principle: a precisely dosed oxidative pulse activates [[NRF2]]/ARE and [[PGC1-α]]-dependent mitochondrial biogenesis without causing irreversible damage. [[Methylene blue]] serves as an electron shunt to keep cycling within the hormetic window. This approach parallels the mechanism of [[Menadione]] (vitamin K3), which is also under investigation for mitohormetic preconditioning.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Redox Cycling]], [[Reactive Oxygen Species]], [[Adrenochrome]], [[Superoxide anion]], [[Cardiotoxicity]], [[Lungs]], [[Dopaminochrome]], [[Aminochromes]], [[NADPH-cytochrome P450 reductase]], [[Mitochondrial Complex I]], [[Cytochrome b5 reductase]], [[NQO1]], [[Leuco-adrenochrome]], [[EPR spectroscopy]], [[HPLC]], [[Oxygen Consumption Rate]], [[Seahorse XF Analyzer]], [[Myocardium]], [[Myocardial infarction]], [[Brain]], [[Glutathione]], [[Erythrocytes]], [[Catalase]], [[Glutathione Peroxidase]], [[Methemoglobinemia]], [[Hemolysis]], [[Mitochondrial Dynamics]], [[NLRP3 Inflammasome]], [[Atherosclerosis]], [[Foam Cells]], [[Endothelial cells]], [[Low-Density Lipoprotein]], [[Carbazochrome]], [[Methylene blue]], [[Menadione]], [[Mitohormesis]], [[NRF2]], [[PGC1-α]]
 - Suggested new entity notes to create: [[Redox Potential]]
 - Strong connections to strengthen: [[Redox Cycling]] ↔ [[Adrenochrome]]

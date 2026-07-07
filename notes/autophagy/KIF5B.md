@@ -17,7 +17,7 @@ aliases: [kinesin heavy chain]
 
 KIF5B (kinesin-1 heavy chain) transports autophagic vesicles along microtubules toward the perinuclear region for fusion with lysosomes.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Autophagic Lysosome Reformation]], [[PtdIns(4,5)P2]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[KIF5B]] ↔ [[Autophagic Lysosome Reformation]]

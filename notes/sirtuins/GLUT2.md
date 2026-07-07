@@ -42,7 +42,6 @@ Loss of GLUT2 expression in β-cells underlies the progressive decline in glucos
 - [[KATP channel]] — ATP-sensitive potassium channel that couples metabolism to insulin secretion
 
 ## Linking Summary
-
 - New links added: [[GLUT2]], [[GSIS]], [[FoxO1]], [[Type 2 Diabetes Mellitus]], [[Glucokinase]], [[KATP channel]]
 - Suggested new entity notes to create: [[SLC2A2 promoter]], [[Insulin granule exocytosis]]
 - Strong connections to strengthen: [[SIRT6]] ↔ [[GLUT2]]

@@ -28,7 +28,7 @@ entity_type_1: Biological Process
 
 Ketogenesis produces acetoacetate and β-hydroxybutyrate during fasting. β-Hydroxybutyrate induces [[Autophagy]] by inhibiting HDACs and activating [[FOXO]].
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Caloric Restriction]], [[Intermittent Fasting]], [[Ketogenic Diet]], [[Autophagy]], [[Cellular Homeostasis]], [[Neurodegenerative Diseases|Neurodegenerative Disease]], [[Cancer]]
 - Suggested new entity notes to create: , [[Cellular Homeostasis]]
 - Strong connections to strengthen: [[Ketogenesis]] ↔ [[Intermittent Fasting]], [[Ketogenesis]] ↔ [[Autophagy]]

@@ -26,6 +26,6 @@ These events can significantly reduce the efficiency of [[Cellular Reprogramming
 - [[p53]]: Activated in response to the stress and DNA damage induced by the immune response.
 - [[B18R]]: A vaccinia virus-derived protein used to inhibit Type I interferon signaling and suppress innate immunity.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Cellular Reprogramming]], [[OSKM]], [[Fibroblasts]], [[Reactive Oxygen Species]], [[DNA Damage]], [[p53]], [[Senescence]], [[Apoptosis]], [[B18R]]
 - Suggested new entity notes to create: [[Reactive Oxygen Species]], [[DNA Damage]], [[Senescence]], [[Apoptosis]], [[B18R]]

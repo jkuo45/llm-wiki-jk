@@ -24,7 +24,7 @@ entity_type_1: Chemical Class
 
 Polyamines ([[Spermidine]], [[Spermine]], [[Putrescine]]) are autophagy inducers. [[Spermidine]] extends lifespan via [[Autophagy]] and [[Hypusination]] of [[eIF5A]].
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Spermidine]], [[B Cell]], [[Autophagy]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[Polyamine]] ↔ [[Spermidine]]

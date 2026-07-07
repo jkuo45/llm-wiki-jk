@@ -19,10 +19,12 @@ aliases: [p16INK4a, p14ARF]
 
 **Pathological significance:** Altered expression or mutation of CDKN2A is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
 
-### Connections
+#
+
+## Connections
 - [[CDKN2A]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[CDKN2A]]
 - Strong connections to strengthen: [[CDKN2A]] ↔ [[CDKN2A]]
 

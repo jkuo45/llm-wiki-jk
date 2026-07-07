@@ -24,7 +24,7 @@ While Caspase-12 is a major mediator of ER stress-induced apoptosis in rodents, 
 - [[TRAF2]]: A regulatory adaptor protein.
 - [[Apoptosis]]: Executes death in response to ER-specific stimuli.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Apoptosis]], [[Endoplasmic Reticulum Pathway]], [[TRAF2]], [[Intrinsic Pathway]], [[Extrinsic Pathway]]
 - Suggested new entity notes to create: [[TRAF2]]
 - Strong connections to strengthen: [[Caspase-12]] ↔ [[Endoplasmic Reticulum Pathway]]

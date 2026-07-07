@@ -18,10 +18,12 @@ entity_type_1: Medical Condition
 
 **Therapeutic strategies:** Management of Emphysema includes pharmacological interventions, lifestyle modifications, and supportive care. Emerging therapies target specific molecular pathways involved in disease progression.
 
-### Connections
+#
+
+## Connections
 - [[Emphysema]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Emphysema]]
 - Strong connections to strengthen: [[Emphysema]] ↔ [[Emphysema]]
 

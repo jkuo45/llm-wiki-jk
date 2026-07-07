@@ -16,7 +16,7 @@ Single-cell Omics refers to a suite of technologies used to analyze the genomic,
 
 Single-cell omics (scRNA-seq, scATAC-seq, sc proteomics) resolve cellular heterogeneity in autophagy regulation across tissues, aging, and disease.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Autophagy]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[Single-cell Omics]] ↔ [[Autophagy]]

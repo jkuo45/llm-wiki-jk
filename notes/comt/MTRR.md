@@ -21,5 +21,5 @@ aliases: [Methionine Synthase Reductase]
 - [[COMT]]: MTRR activity indirectly supports COMT function by maintaining SAMe levels.
 
 ---
-### Linking Summary:
+## Linking Summary
 - New links added: [[Methylation Cycle]], [[Vitamin B12]], [[COMT]], [[SAMe]].

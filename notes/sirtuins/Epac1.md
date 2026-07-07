@@ -42,7 +42,6 @@ The Epac1→Ca2+→CaMKKβ→AMPK axis connects [[cAMP]] levels to cellular ener
 - [[SIRT1]] — Ultimately activated by resveratrol→PDE4→cAMP→Epac1 pathway
 
 ## Linking Summary
-
 - New links added: [[Epac1]], [[RAPGEF3]], [[GTPase]], [[Rap1]], [[IP3 receptors]], [[Endoplasmic Reticulum]], [[Insulin Secretion]], [[Cardiac Hypertrophy]], [[Vascular Permeability]]
 - Suggested new entity notes to create: [[Rap1 Signaling]], [[IP3 Receptor]]
 - Strong connections to strengthen: [[cAMP]] ↔ [[Epac1]], [[Epac1]] ↔ [[CaMKKβ]], [[Resveratrol]] ↔ [[Epac1]]

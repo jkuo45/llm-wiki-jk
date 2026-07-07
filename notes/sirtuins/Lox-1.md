@@ -41,7 +41,6 @@ Lox-1 expression is upregulated in human atherosclerotic lesions, acute coronary
 - [[Macrophage]] — Immune cell that expresses Lox-1 and becomes foam cell upon oxLDL uptake
 
 ## Linking Summary
-
 - New links added: [[Lox-1]], [[Oxidized LDL]], [[Foam Cell Formation]], [[NFκB]], [[Macrophage]], [[SRT1720]]
 - Suggested new entity notes to create: [[sLOX-1]], [[C-type lectin-like domain]], [[SRT1720]]
 - Strong connections to strengthen: [[SIRT1]] ↔ [[Lox-1]]

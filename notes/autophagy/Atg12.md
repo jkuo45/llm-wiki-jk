@@ -20,7 +20,7 @@ entity_type_1: Protein
 - The complex is required for the elongation of the phagophore.
 - Once the autophagosome is completed, the complex dissociates from the membrane.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Autophagy]], [[Atg5]], [[Atg7]], [[Atg16]], [[LC3]], [[Atg8]], [[Autophagosome]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[Atg12]] ↔ [[Atg5]], [[Atg12]] ↔ [[LC3]]

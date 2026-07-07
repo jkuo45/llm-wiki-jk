@@ -20,7 +20,7 @@ aliases: [LAL, lysosomal acid lipase]
 
 LipA (lysosomal acid lipase, LAL) hydrolyzes cholesteryl esters and triglycerides in the [[Lysosome]]. LAL deficiency causes [[Wolman Disease]] and [[CESD]].
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Lysosomal Acid Lipase]], [[LIPL-1]], [[LIPL-3]], [[TFEB]]
 - Suggested new entity notes to create: [[C57BL/6J]]
 - Strong connections to strengthen: [[LipA]] ↔ [[TFEB]]

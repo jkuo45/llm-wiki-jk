@@ -12,7 +12,9 @@ entity_type_1: Protein
 Proteins that stabilize microtubules, whose dysfunction is linked to [[Alzheimer's Disease]].
 
 
-### Connections
+#
+
+## Connections
 - [[Alzheimer's Disease]] — neurodegenerative disease; tau and amyloid-β pathology
-### Linking Summary
+## Linking Summary
 - New links added: [[Alzheimer's Disease]], [[TFEB]]

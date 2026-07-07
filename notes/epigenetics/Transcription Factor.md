@@ -48,7 +48,7 @@ TFs and the [[Epigenome]] engage in bidirectional regulation:
 - **TF decoys:** Double-stranded oligonucleotides that competitively bind TFs.
 - **dCas9-based TFs:** [[CRISPRa]] and [[CRISPRi]] to modulate endogenous gene expression without altering the genome.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Gene Expression]], [[Promoter]], [[Enhancer]], [[DNA Methylation]], [[Histone Modification]], [[Senescence]], [[p53]], [[NFκB]], [[FOXO3]]
 - Suggested new entity notes to create: [[DNA-binding domain]], [[Transactivation domain]], [[Super-enhancers]]
 - Strong connections to strengthen: [[Transcription Factor]] ↔ [[Gene Expression]], [[Transcription Factor]] ↔ [[Epigenetics]]

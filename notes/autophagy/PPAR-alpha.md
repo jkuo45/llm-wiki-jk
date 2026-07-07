@@ -23,6 +23,5 @@ PPARα is a master regulator of lipid metabolism, controlling [[Beta-Oxidation]]
 
 PPARα activation promotes hepatic [[Lipophagy]] and [[Autophagic Flux]] during fasting or [[Ketogenic Diet]]. [[PGC1-α]] acts as a PPARα coactivator, linking mitochondrial biogenesis to autophagy regulation.
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[TFEB]], [[Metabolism]]

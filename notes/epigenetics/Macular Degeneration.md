@@ -25,7 +25,7 @@ Subsequent clinical programs have expanded to include allogeneic therapies using
 - [[Stem Cell Research]]: Early ESC-based trials for [[Macular Degeneration]] paved the way for the more recent iPSC-based approaches.
 - [[Retinal Pigment Epithelium]]: The specific cell type affected in [[Macular Degeneration]] that is generated from iPSCs for therapy.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Regenerative Medicine]], [[Induced Pluripotent Stem Cells]], [[Stem Cell Research]], [[Retinal Pigment Epithelium]]
 - Suggested new entity notes to create: [[Masayo Takahashi]]
 - Strong connections to strengthen: [[Macular Degeneration]] <-> [[Induced Pluripotent Stem Cells]]

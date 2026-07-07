@@ -19,10 +19,12 @@ aliases: [Nicotinamide Adenine Dinucleotide]
 
 **Clinical significance:** Altered levels of NADH are observed in metabolic disorders, mitochondrial diseases, and nutritional deficiencies. Supplementation or pharmacological modulation of this metabolite has therapeutic potential.
 
-### Connections
+#
+
+## Connections
 - [[NADH]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[NADH]]
 - Strong connections to strengthen: [[NADH]] ↔ [[NADH]]
 

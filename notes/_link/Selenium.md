@@ -31,7 +31,9 @@ Major dietary sources include Brazil nuts, seafood, organ meats, eggs, and grain
 - [[Inflammatory Diseases]]: Selenium supplementation reduces inflammatory markers in [[Rheumatoid Arthritis|rheumatoid arthritis]], [[Asthma|asthma]], and [[Chronic Obstructive Pulmonary Disease|COPD]].
 - [[Neurodegeneration|Neurodegeneration]]: Selenoprotein P and GPx4 protect against ferroptosis in neurons; selenium deficiency increases susceptibility.
 
-### Connections
+#
+
+## Connections
 - [[Glutathione Peroxidase]] — interacts with
 - [[Thioredoxin reductase]] — interacts with
 - [[Iodothyronine deiodinases]] — interacts with
@@ -45,7 +47,7 @@ Major dietary sources include Brazil nuts, seafood, organ meats, eggs, and grain
 - [[Rheumatoid Arthritis]] — interacts with
 - [[Asthma]] — interacts with
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Glutathione Peroxidase]], [[Thioredoxin reductase]], [[Iodothyronine deiodinases]], [[Selenoprotein P]], [[Selenoprotein S]], [[Methionine sulfoxide reductase B1]], [[Keshan disease]], [[Kashin-Beck disease]], [[Cancer Prevention]], [[Inflammatory Diseases]], [[Rheumatoid Arthritis]], [[Asthma]], [[Chronic Obstructive Pulmonary Disease]], [[Neurodegeneration]]
 - Strong connections to strengthen: [[Selenium]] ↔ [[Glutathione Peroxidase]], [[Selenium]] ↔ [[Thioredoxin reductase]], [[Selenium]] ↔ [[Iodothyronine deiodinases]], [[Selenium]] ↔ [[Selenoprotein P]], [[Selenium]] ↔ [[Selenoprotein S]]
 

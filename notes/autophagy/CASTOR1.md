@@ -18,7 +18,7 @@ CASTOR1 is a cytosolic protein that directly binds [[Arginine]] and acts as a GA
 
 Arginine binding dissociates CASTOR1 from GATOR2, releasing GATOR2 to inhibit GATOR1 → activates Rag GTPases → mTORC1 recruitment to the lysosome.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[mTORC1]], [[GATOR2]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[CASTOR1]] ↔ [[GATOR2]]

@@ -31,7 +31,7 @@ aliases: [autophagy]
 
 Macroautophagy is the canonical autophagy pathway involving autophagosome formation, fusion with the lysosome, and degradation of cytoplasmic contents.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Autophagy]], [[Autophagosome]], [[Lysosome]], [[Atg]], [[Atg1]], [[Atg5]], [[Atg8]], [[LC3]], [[AMPK]], [[mTORC1]], [[Cellular Homeostasis]], [[Neurodegenerative Diseases|Neurodegenerative Disease]], [[Cancer]], [[Aging]]
 - Suggested new entity notes to create: , [[Atg]], [[Cellular Homeostasis]]
 - Strong connections to strengthen: [[Macroautophagy]] ↔ [[Autophagy]], [[Macroautophagy]] ↔ [[Autophagosome]]

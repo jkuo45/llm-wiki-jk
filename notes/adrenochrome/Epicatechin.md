@@ -22,7 +22,6 @@ Epicatechin has been identified as a potent breaker of [[Advanced Glycation End 
 - **Anti-glycation**: Inhibits the formation of new AGEs.
 
 ## Linking Summary
-
 - New links added: [[Advanced Glycation End Products]], [[Serum albumin]], [[Reactive Oxygen Species]]
 - Suggested new entity notes to create: [[Catechin]]
 - Strong connections to strengthen: [[Epicatechin]] ↔ [[Advanced Glycation End Products]]

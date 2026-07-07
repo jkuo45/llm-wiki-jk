@@ -13,5 +13,5 @@ A gene that encodes N-cadherin, which is involved in mechanisms of cell-cell adh
 
 ## Linking Summary
 - New links added: [[Yamanaka Factors]], [[Induced Pluripotent Stem Cells]]
-- Suggested new entity notes to create: 
-- Strong connections to strengthen: 
+- Suggested new entity notes to create:
+- Strong connections to strengthen:

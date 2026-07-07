@@ -37,7 +37,9 @@ Dysfunction in the striatum is linked to a range of neurological and psychiatric
 - [[Addiction]] — aberrant dopamine release in the ventral striatum (nucleus accumbens) drives reward-seeking behaviour
 - [[Tourette Syndrome]] — striatal disinhibition of cortical motor programmes
 
-### Connections
+#
+
+## Connections
 - [[Dopamine]]: Major neurotransmitter signalling in the striatum.
 - [[COMT]]: Enzyme that, when overexpressed, impacts striatal dopamine release.
 - [[Prefrontal Cortex]]: Works in tandem with the striatum for executive control.
@@ -47,7 +49,7 @@ Dysfunction in the striatum is linked to a range of neurological and psychiatric
 - [[Substantia Nigra Pars Compacta]]: Source of dopaminergic input to the striatum.
 - [[Basal Ganglia]]: The larger circuit of which the striatum is the primary input nucleus.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Caudate Nucleus]], [[Putamen]], [[Substantia Nigra Pars Compacta]], [[Nigrostriatal System]], [[Parkinson's Disease]], [[Dopamine]], [[Dopamine Transporter]], [[DAT]], [[COMT]], [[Medium spiny neurons]], [[MSNs]], [[D1 Receptor]], [[D2 receptor]], [[Prefrontal Cortex]], [[Basal Ganglia]], [[Nucleus Accumbens]]
 - Suggested new entity notes to create: [[Cholinergic interneurons]], [[Parvalbumin-positive fast-spiking interneurons]], [[Somatostatin-positive interneurons]]
 - Strong connections to strengthen: [[Striatum]] ↔ [[Nigrostriatal System]], [[Striatum]] ↔ [[Dopamine]], [[Striatum]] ↔ [[Basal Ganglia]]

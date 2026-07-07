@@ -21,5 +21,5 @@ entity_type_1: Chemical Compound
 - [[Flavonoids]]: The class of polyphenols to which luteolin belongs.
 
 ---
-### Linking Summary:
+## Linking Summary
 - New links added: [[Flavonoids]], [[Anti-inflammatory]], [[COMT]].

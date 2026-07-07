@@ -19,10 +19,12 @@ aliases: [MDS]
 
 **Therapeutic strategies:** Management of Myelodysplastic Syndrome includes pharmacological interventions, lifestyle modifications, and supportive care. Emerging therapies target specific molecular pathways involved in disease progression.
 
-### Connections
+#
+
+## Connections
 - [[Myelodysplastic Syndrome]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Myelodysplastic Syndrome]]
 - Strong connections to strengthen: [[Myelodysplastic Syndrome]] ↔ [[Myelodysplastic Syndrome]]
 

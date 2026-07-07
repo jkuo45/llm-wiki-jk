@@ -41,7 +41,9 @@ A key resistance mechanism to anti-CD38 mAbs is **CD38 downregulation** on myelo
 - All-trans retinoic acid (ATRA) to re-induce CD38 expression
 - Combining [[Daratumumab]] + [[Isatuximab]] (distinct epitopes) — investigational
 
-### Connections
+#
+
+## Connections
 - [[CD38]] — primary cell surface target; anti-CD38 mAbs are standard of care
 - [[Daratumumab]] — first approved anti-CD38 mAb
 - [[Isatuximab]] — second approved anti-CD38 mAb
@@ -49,6 +51,6 @@ A key resistance mechanism to anti-CD38 mAbs is **CD38 downregulation** on myelo
 - [[Tumor Microenvironment]] — immunosuppressive TME in MM
 - [[NAD+]] — CD38/NAD⁺ axis relevant to disease biology
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Mcl-1]], [[leukemia]], [[Lymphoma]], [[CD38]], [[Daratumumab]], [[Isatuximab]], [[Cancer]], [[Tumor Microenvironment]], [[NAD+]]
 - Strong connections to strengthen: [[Mcl-1]] ↔ [[Multiple Myeloma]]

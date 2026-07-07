@@ -16,7 +16,7 @@ Eukaryotic initiation factor 4E (eIF4E) is a key protein in [[cap-dependent tran
 
 eIF4E binds the mRNA 5' cap and is the rate-limiting component of eIF4F assembly. Sequestered by [[4E-BP1]] under mTORC1 inhibition.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[cap-dependent translation]], [[mRNA]], [[mTORC1]], [[4E-BP1]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[eIF4E]] ↔ [[4E-BP1]]

@@ -18,10 +18,12 @@ entity_type_1: Chemical Class
 
 **Safety and toxicity:** The safety profile of COMT Inhibitors depends on dose, duration of exposure, and individual susceptibility. Understanding its toxicology is essential for safe therapeutic use.
 
-### Connections
+#
+
+## Connections
 - [[COMT Inhibitors]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[COMT Inhibitors]]
 - Strong connections to strengthen: [[COMT Inhibitors]] ↔ [[COMT Inhibitors]]
 

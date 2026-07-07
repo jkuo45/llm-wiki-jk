@@ -33,13 +33,15 @@ Metformin's Complex I inhibition represents a canonical example of [[Mitohormesi
 ## Clinical Evidence and Potential in Aging
 Beyond glycemic control, metformin is associated with reduced all-cause mortality (by 15–30% in observational studies of diabetic patients), decreased cancer incidence (particularly [[Colorectal Cancer|Colorectal]] and [[Breast Cancer]]), and lower risk of [[Cardiovascular Disease]] and [[Cognitive Decline]]. Retrospective analyses suggest metformin-treated diabetic patients may have lower biological age by [[Epigenetic Clock]] measures compared to matched untreated diabetics. Limitations include gastrointestinal intolerance (10–20% of patients), the rare but serious risk of [[Lactic Acidosis]] (primarily in renal impairment), and the absence of definitive evidence for lifespan extension in healthy non-diabetic humans — a gap the TAME trial aims to fill. The potential for combination with other geroprotectors ([[Rapamycin]], [[NAD+]] precursors, [[Urolithin A]], [[Carbazochrome]]) represents an active area of investigation for multimodal aging intervention.
 
-### Connections
+#
+
+## Connections
 - **[[Aging]]**: Metformin is a leading candidate for a human anti-aging intervention.
 - **[[Diabetes Mellitus]]**: The original clinical indication for metformin.
 - **[[AMPK]]**: The primary molecular target through which metformin exerts its effects.
 - **[[Geroscience]]**: Metformin is the "poster child" for geroscience-based clinical research.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Metformin]], [[Diabetes Mellitus]], [[Geroscience]], [[AMPK]], [[Caloric Restriction]], [[mTOR]], [[Autophagy]], [[SASP]], [[Epigenome]], [[Epigenetic Clock]], [[DNAmGrimAge]], [[DNA Methylation]], [[DNMT1]], [[Aging]], [[Autophagy Inducer]], [[Advanced Glycation End Products]], [[NFκB]], [[Diabetes]], [[Mitochondrial Complex I]], [[AMP]], [[ATP]], [[AMP-Activated Protein Kinase]], [[Glycerol-3-Phosphate Dehydrogenase]], [[Fructose-1, 6-Bisphosphatase]], [[Glucagon Signaling]], [[Adenylate Cyclase]], [[mTORC1]], [[Methylglyoxal]], [[Carboxymethyllysine]], [[Hydroimidazolone]], [[NRF2]], [[ARE]], [[Glyoxalase I]], [[RAGE]], [[C. elegans]], [[Mus musculus]], [[Hepatocellular Carcinoma]], [[Alzheimer's Disease]], [[Atherosclerosis]], [[Cellular Senescence]], [[Inflammaging]], [[Targeting Aging with Metformin]], [[Mitohormesis]], [[NADH]], [[NAD+]], [[SIRT1]], [[PGC1-α]], [[FOXO]], [[Superoxide Dismutase 2]], [[Catalase]], [[Glutathione]], [[Vitamin C]], [[Vitamin E]], [[Mitohormetic Redox-Relay]], [[Adrenochrome]], [[Carbazochrome]], [[Lactic Acidosis]], [[Rapamycin]], [[NAD+]], [[Urolithin A]], [[Colorectal Cancer]], [[Breast Cancer]], [[Cardiovascular Disease]], [[Cognitive Decline]], [[Akkermansia muciniphila]]
 - Suggested new entity notes to create: [[TAME Trial]], [[Geroprotectors]], [[Nir Barzilai]], [[Aging]], [[Mitohormetic Redox-Relay]], [[Targeting Aging with Metformin]]
 - Strong connections to strengthen: [[Metformin]] ↔ [[Aging]], [[Metformin]] ↔ [[AMPK]], [[Metformin]] ↔ [[Mitochondrial Complex I]], [[Metformin]] ↔ [[Advanced Glycation End Products]], [[Metformin]] ↔ [[Mitohormesis]]

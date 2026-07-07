@@ -29,7 +29,7 @@ Many therapeutic strategies aim to harness the TRAIL pathway, including:
 - [[Caspase-8]]: Activated downstream of TRAIL binding.
 - [[XIAP]]: High levels of XIAP can confer resistance to TRAIL-induced apoptosis.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Apoptosis]], [[Extrinsic Pathway]], [[DR4]], [[DR5]], [[Caspase-8]], [[Smac DIABLO]]/[[Smac DIABLO]], [[XIAP]]
 - Suggested new entity notes to create: [[DR4]], [[DR5]], [[Smac DIABLO]]/[[Smac DIABLO]]
 - Strong connections to strengthen: [[TRAIL]] ↔ [[Extrinsic Pathway]]

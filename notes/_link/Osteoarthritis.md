@@ -19,10 +19,12 @@ aliases: [OA, Degenerative Joint Disease]
 
 **Therapeutic strategies:** Management of Osteoarthritis includes pharmacological interventions, lifestyle modifications, and supportive care. Emerging therapies target specific molecular pathways involved in disease progression.
 
-### Connections
+#
+
+## Connections
 - [[Osteoarthritis]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Osteoarthritis]]
 - Strong connections to strengthen: [[Osteoarthritis]] ↔ [[Osteoarthritis]]
 

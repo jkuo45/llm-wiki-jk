@@ -13,14 +13,16 @@ Actinobacteria is a phylum of Gram-positive bacteria with high guanine and cytos
 
 
 
-### Connections
+#
+
+## Connections
 - [[Actinobacteria]] — related entity
 - [[Bifidobacterium]] — related entity
 - [[Cytosine]] — related entity
 - [[Guanine]] — related entity
 - [[Gut Microbiome]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Gut Microbiome]], [[Bifidobacterium]]
 - Suggested new entity notes to create: [[Guanine]], [[Cytosine]]
 - Strong connections to strengthen: [[Actinobacteria]] ↔ [[Bifidobacterium]]

@@ -20,7 +20,7 @@ aliases: [predicted triglyceride lipase]
 
 Atg15 is a yeast lipase that degrades autophagic bodies in the vacuole. It has homology to mammalian [[Lysosomal Acid Lipase]].
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Autophagy]], [[Lysosome]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Atg15]] ↔ [[Lipophagy]]

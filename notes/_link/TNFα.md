@@ -70,8 +70,9 @@ Anti-TNF therapy increases risk of [[Tuberculosis]] reactivation, opportunistic 
 - [[Alzheimer's Disease]] — TNFα contributes to neuroinflammation and [[Tau]] pathology
 - [[Cachexia]] in [[Cancer]] — TNFα is a key [[Cachectin]]
 
-### Connections
+#
 
+## Connections
 - [[NFκB]] — primary downstream transcription factor activated by TNFα
 - [[TNFR1]] / [[TNFR2]] — TNFα receptors with distinct signaling outcomes
 - [[Inflammation]] — TNFα is a master pro-inflammatory cytokine
@@ -90,8 +91,7 @@ Anti-TNF therapy increases risk of [[Tuberculosis]] reactivation, opportunistic 
 - [[Macrophages]] — major source of TNFα production
 - [[TACE Inhibitors]] — potential therapeutic strategy
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[Macrophages]], [[T Cells]], [[Natural Killer Cells]], [[TNFR1]], [[TNFR2]], [[TRADD]], [[RIPK1]], [[TRAF2]], [[IKK complex]], [[IKKα]], [[IKKbeta]], [[NEMO]], [[IkappaBalpha]], [[NFκB]], [[p65]], [[p50]], [[JNK]], [[p38 MAPK]], [[ERK]], [[ASK1]], [[AP-1]], [[Caspase-8]], [[Caspase-3]], [[FADD]], [[RIPK3]], [[Necroptosis]], [[TACE]], [[ADAM17]], [[Interleukin 1β]], [[IL-6]], [[IL-8]], [[COX-2]], [[ICAM-1]], [[VCAM-1]], [[CRP]], [[Acute Phase Response]], [[Cachexia]], [[Sarcopenia]], [[Insulin Resistance]], [[IRS1]], [[Infliximab]], [[Adalimumab]], [[Etanercept]], [[Certolizumab]], [[Golimumab]], [[Rheumatoid Arthritis]], [[Psoriasis]], [[Crohn's Disease]], [[Ulcerative Colitis]], [[Ankylosing Spondylitis]], [[Sepsis]], [[Atherosclerosis]], [[Alzheimer's Disease]], [[Endothelial Dysfunction]], [[Foam Cell]], [[Tuberculosis]], [[Lupus]], [[Demyelinating Disease]], [[SASP]], [[Inflammaging]]
 - Suggested new entity notes to create: [[Type II transmembrane protein]], [[TACE inhibitors]], [[Demyelinating disease]], [[Paradoxical inflammation]], [[TRIF]], [[TLR4]]
 - Strong connections to strengthen: [[TNFα]] ↔ [[NFκB]], [[TNFα]] ↔ [[Inflammation]], [[TNFα]] ↔ [[Apoptosis]], [[TNFα]] ↔ [[Insulin Resistance]], [[TNFα]] ↔ [[SASP]]

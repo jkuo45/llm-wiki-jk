@@ -23,7 +23,7 @@ Erlotinib is being investigated in combination with apoptotic sensitizers, such 
 - [[ABT-263]]: Used in combination clinical trials.
 - [[non-small-cell lung cancer]]: A primary indication.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[non-small-cell lung cancer]], [[Pancreatic Cancer]], [[EGFR]], [[Apoptosis]], [[ABT-263]]
 - Suggested new entity notes to create: [[EGFR]]
 - Strong connections to strengthen: [[erlotinib]] ↔ [[EGFR]]

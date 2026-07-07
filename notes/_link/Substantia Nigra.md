@@ -23,14 +23,16 @@ The SNpc is vital for:
 - **[[Parkinson's Disease]]:** The progressive loss of dopaminergic neurons in the SNpc is the hallmark of Parkinson's Disease. Motor symptoms like tremors and [[Bradykinesia]] emerge when a significant portion of these neurons have degenerated.
 - **[[COMT]] Expression:** Neurons in the SN can express [[COMT]], which may influence presynaptic dopamine regulation and release capacity in the striatum.
 
-### Connections
+#
+
+## Connections
 - [[Dopaminergic Neurons]]: The primary cell type in the SNpc.
 - [[Neuromelanin]]: Pigment formed via the oxidation of [[Catecholamines]] (with [[Adrenochrome]] and other [[Aminochromes]] as intermediates).
 - [[Dopamine]]: The primary neurotransmitter produced and released by SNpc neurons.
 - [[Sirtuins]]: The major projection target of the nigrostriatal pathway.
 - [[Ventral Tegmental Area]]: Another major midbrain dopaminergic nucleus.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Adrenochrome]], [[Aminochromes]], [[Bradykinesia]], [[COMT]], [[Catecholamines]], [[Dopamine]], [[Dopaminergic Neurons]], [[Neuromelanin]], [[Nigrostriatal System]], [[Parkinson's Disease]], [[Sirtuins]], [[Substantia Nigra Pars Compacta]], [[Ventral Tegmental Area]]
 - Suggested new entity notes to create: [[Basal Ganglia]], [[Midbrain]], [[GABAergic Neurons]]
 - Strong connections to strengthen: [[Substantia Nigra]] ↔ [[Parkinson's Disease]], [[Substantia Nigra]] ↔ [[Sirtuins]]

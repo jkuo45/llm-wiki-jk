@@ -20,7 +20,7 @@ The vacuolar ATPase (V-ATPase) is a multi-subunit proton pump that acidifies int
 
 V-ATPase is essential for lysosomal acidification required for degradation of autophagic cargo. It also anchors [[mTORC1]] recruitment to the lysosome via [[Ragulator]]. V-ATPase inhibitors ([[Bafilomycin A1]], [[Concanamycin A]]) block autophagy.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Lysosome]], [[mTORC1]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[V-ATPase]] ↔ [[Lysosome]]

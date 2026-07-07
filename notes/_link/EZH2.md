@@ -18,10 +18,12 @@ aliases: [Enhancer of Zeste Homolog 2]
 
 **Clinical relevance:** Dysregulation of EZH2 activity is implicated in metabolic disorders, oxidative stress-related pathologies, and cancer. Pharmacological modulation of this enzyme represents a therapeutic strategy for diseases involving its pathway.
 
-### Connections
+#
+
+## Connections
 - [[EZH2]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[EZH2]]
 - Strong connections to strengthen: [[EZH2]] ↔ [[EZH2]]
 

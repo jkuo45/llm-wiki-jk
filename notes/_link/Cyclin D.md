@@ -19,10 +19,12 @@ aliases: [CCND]
 
 **Pathological significance:** Altered expression or mutation of Cyclin D is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
 
-### Connections
+#
+
+## Connections
 - [[Cyclin D]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Cyclin D]]
 - Strong connections to strengthen: [[Cyclin D]] ↔ [[Cyclin D]]
 

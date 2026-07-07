@@ -23,7 +23,9 @@ aliases: [Physical exercise, Physical activity]
 - [[SIRT6]] supports exercise adaptations through [[DNA Repair|DNA repair]] and metabolic gene regulation.
 - [[BDNF]] induction by [[Exercise]] is partially SIRT1-dependent, linking physical activity to [[Neurogenesis|neurogenesis]] and cognitive health.
 
-### Connections
+#
+
+## Connections
 - [[Mitohormesis]] — Exercise-induced ROS trigger adaptive responses
 - [[Neurogenesis]] — Exercise stimulates adult neurogenesis
 - [[Caloric Restriction]] — Complementary longevity intervention
@@ -34,7 +36,7 @@ aliases: [Physical exercise, Physical activity]
 - [[Autophagy]]: Exercise promotes [[Autophagy|autophagy]] in a SIRT1-dependent manner.
 - [[Longevity]]: Regular [[Exercise]] is associated with reduced all-cause mortality and extended healthspan.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[SIRT1]], [[SIRT3]], [[SIRT6]], [[NAD+]], [[PGC1-α]], [[Mitochondrial Biogenesis]], [[Insulin Sensitivity]], [[BDNF]], [[Neurogenesis]], [[Autophagy]], [[Caloric Restriction]], [[Intermittent Fasting]], [[Mitochondria]], [[Oxidative Phosphorylation]], [[Reactive Oxygen Species]], [[DNA Repair]], [[Cardiovascular Disease]], [[Brain]], [[Longevity]], [[Mitohormesis]], [[NRF2]], [[Superoxide Dismutase]], [[Mitophagy]], [[Aging]], [[Oxidative Stress]]
 - Suggested new entity notes to create: [[BDNF]], [[VO2max]], [[HIIT]]
 - Strong connections to strengthen: [[Exercise]] ↔ [[Mitohormesis]]

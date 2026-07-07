@@ -26,7 +26,7 @@ Modern [[Disease Modeling]] often integrates iPSC technology with [[CRISPR]] gen
 - [[Parkinson's Disease]]: One of the most studied diseases using iPSC-based models.
 - [[CRISPR]]: Frequently used alongside [[Disease Modeling]] to establish causal genetic relationships.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Induced Pluripotent Stem Cells]], [[Neurodegenerative Diseases]], [[Amyotrophic Lateral Sclerosis|ALS]], [[Parkinson's Disease]], [[CRISPR]], [[Drug Discovery]], [[Alzheimer's Disease]], [[Isogenic Pair]], [[Assembloids]], [[Organoids]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Disease Modeling]] <-> [[Induced Pluripotent Stem Cells]]

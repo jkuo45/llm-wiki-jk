@@ -18,7 +18,7 @@ aliases:
 
 Phosphatidylinositol 3,5-bisphosphate is a low-abundance phosphoinositide produced by [[PIKfyve]] from [[PtdIns3P]]. It regulates endolysosomal trafficking, ion channel activity ([[TRPML1]]), and autophagic flux.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[PIKfyve]], [[Lysosome]], [[TRPML1]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[PtdIns(3,5)P2]] ↔ [[PIKfyve]]

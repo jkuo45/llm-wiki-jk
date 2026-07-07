@@ -41,7 +41,6 @@ LDHB is overexpressed in multiple cancers and supports the reverse Warburg effec
 - [[Warburg Effect]] — Aerobic glycolysis typical of cancer cells; LDHB modulates the reverse Warburg effect
 
 ## Linking Summary
-
 - New links added: [[LDHB]], [[Tumorigenesis]], [[LDHA]], [[NADH]], [[Warburg Effect]]
 - Suggested new entity notes to create: [[Reverse Warburg effect]], [[LDH-1]], [[Cori cycle]]
 - Strong connections to strengthen: [[SIRT5]] ↔ [[LDHB]]

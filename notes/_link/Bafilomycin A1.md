@@ -18,10 +18,12 @@ entity_type_1: Chemical Compound
 
 **Safety and toxicity:** The safety profile of Bafilomycin A1 depends on dose, duration of exposure, and individual susceptibility. Understanding its toxicology is essential for safe therapeutic use.
 
-### Connections
+#
+
+## Connections
 - [[Bafilomycin A1]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Bafilomycin A1]]
 - Strong connections to strengthen: [[Bafilomycin A1]] ↔ [[Bafilomycin A1]]
 

@@ -21,5 +21,5 @@ Individuals with slow [[COMT]] variants may be sensitive to high-dose [[Methylfo
 - [[Methylation Cycle]]: The pathway in which methylfolate serves as a primary methyl donor.
 
 ---
-### Linking Summary:
+## Linking Summary
 - New links added: [[Folate]], [[Methylation Cycle]], [[COMT]], [[Neurotransmitters]].

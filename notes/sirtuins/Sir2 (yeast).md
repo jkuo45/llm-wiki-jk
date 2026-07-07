@@ -75,7 +75,6 @@ Sir2 is the prototypical member of a large and ancient gene family now called **
 - [[DAF-16]] — required for _sir-2.1_-dependent lifespan extension in _C. elegans_
 
 ## Linking Summary
-
 - New links added: [[SIRT1]], [[NAD+]], [[OAADPr]], [[Caloric Restriction]], [[Resveratrol]], [[DAF-16]]
 - Suggested new entity notes to create: [[Extrachromosomal rDNA Circles (ERCs)]], [[DAF-16]], [[Replicative Lifespan (Yeast)]]
 - Strong connections to strengthen: [[Sir2 (yeast)]] ↔ [[SIRT1]], [[Sir2 (yeast)]] ↔ [[Caloric Restriction]]

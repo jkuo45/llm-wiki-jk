@@ -17,12 +17,14 @@ A **genotype** is the part of the genetic makeup of a cell, and therefore of any
 - [[Epigenetics]]
 - [[Genomic Instability]]
 
-### Connections
+#
+
+## Connections
 - [[Phenotype]] — interacts with
 - [[Epigenetics]] — interacts with
 - [[Genomic Instability]] — interacts with
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Phenotype]], [[Epigenetics]], [[Genomic Instability]]
 - Strong connections to strengthen: [[Genotype]] ↔ [[Phenotype]], [[Genotype]] ↔ [[Epigenetics]], [[Genotype]] ↔ [[Genomic Instability]]
 

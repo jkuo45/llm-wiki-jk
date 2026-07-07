@@ -18,10 +18,12 @@ aliases: [Golgi Complex]
 
 **Pathological relevance:** Dysfunction or loss of Golgi apparatus underlies specific disease states. Understanding its biology provides insights into regenerative medicine and therapeutic targeting.
 
-### Connections
+#
+
+## Connections
 - [[Golgi apparatus]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Golgi apparatus]]
 - Strong connections to strengthen: [[Golgi apparatus]] ↔ [[Golgi apparatus]]
 

@@ -17,7 +17,7 @@ Zellweger syndrome is the most severe condition within the Zellweger spectrum of
 
 Zellweger spectrum disorders are caused by defective [[Peroxisome Biogenesis Network|peroxisome biogenesis]] due to [[PEX]] gene mutations. Impaired autophagy of peroxisomes ([[Pexophagy]]) contributes to pathology.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[PEX Genes]], [[PEX1]], [[PEX3]], [[Peroxisome]], [[Beta-Oxidation]]
 - Suggested new entity notes to create: [[PEX Genes]]
 - Strong connections to strengthen: [[Zellweger syndrome]] ↔ [[Peroxisome]], [[Zellweger syndrome]] ↔ [[PEX Genes]]

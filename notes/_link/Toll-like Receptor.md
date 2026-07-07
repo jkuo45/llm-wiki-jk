@@ -13,9 +13,11 @@ A class of proteins that play a key role in the innate immune system by recogniz
 
 
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Immune System]]
 
-### Connections
+#
+
+## Connections
 - [[Toll-like Receptor]] — related entity
 

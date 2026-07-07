@@ -22,13 +22,15 @@ One of the defining features of [[Aging]] is the progressive loss of epigenetic 
 ### 3. Interaction with Environment
 The epigenome is highly responsive to external factors like [[Caloric Restriction]], exercise, and environmental toxins. This flexibility allows organisms to adapt to their surroundings but also makes them vulnerable to "epigenetic scars" from harmful exposures.
 
-### Connections
+#
+
+## Connections
 - **[[Epigenetics]]**: The study of the marks that make up the epigenome.
 - **[[Chromatin]]**: The structural framework of the epigenome.
 - **[[Aging]]**: The process of epigenome deterioration over time.
 - **[[DNA Methylation]]**: A key component of the epigenomic landscape.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Epigenome]], [[DNA Methylation]], [[Histone Modification]], [[Chromatin]], [[Non-coding RNA]], [[Aging]], [[Heterochromatin]], [[Caloric Restriction]], [[Epigenetics]]
 - Suggested new entity notes to create: [[Transcriptional Drift]], [[Epigenomic Landscapes]], [[Epigenetic Inheritance]]
 - Strong connections to strengthen: [[Epigenome]] ↔ [[Aging]], [[Epigenome]] ↔ [[Chromatin]]

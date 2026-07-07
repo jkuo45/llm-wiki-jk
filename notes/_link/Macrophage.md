@@ -12,9 +12,11 @@ entity_type_1: Cell Type
 A type of white blood cell that engulfs and digests cellular debris and pathogens, utilizing [[Autophagy]] and [[TFEB]]/[[TFE3]] for innate immune responses.
 
 
-### Connections
+#
+
+## Connections
 - [[Autophagy]] — cellular self-degradation pathway; clears damaged proteins and organelles
 - [[TFEB]] — master transcription factor for lysosomal biogenesis and autophagy
 - [[TFE3]] — interacts with Macrophage
-### Linking Summary
+## Linking Summary
 - New links added: [[Autophagy]], [[TFEB]], [[TFE3]]

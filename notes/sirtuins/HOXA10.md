@@ -35,7 +35,6 @@ HOXA10 is essential for:
 - [[Hematopoiesis]] — key process regulated by HOXA10
 
 ## Linking Summary
-
 - New links added: [[SIRT2]], [[Hematopoiesis]]
 - Suggested new entity notes to create: [[HOX Gene Family]], [[Homeodomain]], [[Implantation]]
 - Strong connections to strengthen: [[HOXA10]] ↔ [[SIRT2]]

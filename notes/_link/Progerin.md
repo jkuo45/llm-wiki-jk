@@ -18,13 +18,15 @@ The accumulation of progerin leads to:
 *   **Accelerated [[Aging]]**: Induction of premature [[Senescence]] and the [[SASP]].
 
 
-### Connections
+#
+
+## Connections
 - [[Lamin A]] — interacts with Progerin
 - [[Hutchinson-Gilford Progeria Syndrome]] — associated with Progerin
 - [[LMNA Gene]] — interacts with Progerin
 - [[Genomic Instability]] — interacts with Progerin
 - [[Aging]] — progressive decline in physiological function; primary risk factor
-### Linking Summary
+## Linking Summary
 - New links added: [[Lamin A]], [[Hutchinson-Gilford Progeria Syndrome]], [[LMNA Gene]], [[Genomic Instability]], [[Aging]], [[Senescence]], [[SASP]]
 - Suggested new entity notes to create: [[Farnesylation]], [[Cryptic Splice Site]]
 - Strong connections to strengthen: [[Progerin]] ↔ [[Hutchinson-Gilford Progeria Syndrome]], [[Progerin]] ↔ [[Lamin A]]

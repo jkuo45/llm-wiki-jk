@@ -23,7 +23,7 @@ entity_type_1: Biological Process
 
 Thymic involution is age-related thymus atrophy that reduces naïve T cell output. [[Autophagy]] decline contributes to thymic aging.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Aging]], [[T Cell]], [[Immune System]], [[Immune Aging]], [[Adaptive Immune Response]], [[Autophagy Inducer]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[Thymic Involution]] ↔ [[Immune Aging]]

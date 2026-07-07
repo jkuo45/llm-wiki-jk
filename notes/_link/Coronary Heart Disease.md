@@ -30,12 +30,14 @@ The convergence of these epigenetic changes leads to cellular senescence—a sta
 ### 5. Therapeutic Potential
 Unlike genetic mutations, epigenetic marks are reversible. This has led to interest in "epigenetic editing" and pharmacological inhibitors—such as [[HDAC]] inhibitors or [[DNA Methyltransferase]] (DNMT) inhibitors—to "reset" the epigenetic clock and retard the progression of CHD.
 
-### Connections
+#
+
+## Connections
 - **[[Cardiovascular Disease]]**: CHD is a major form of cardiovascular disease.
 - **[[Atherosclerosis]]**: The underlying pathological process of CHD, heavily driven by epigenetic dysregulation.
 - **[[Aging]]**: The dominant risk factor for CHD, characterized by profound epigenetic drift.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Cardiovascular Disease]], [[Epigenetics]], [[Aging]], [[DNA Methylation]], [[Epigenetic Clock]], [[PTEN]], [[Histone Modification]], [[Chromatin]], [[Sirtuins]], [[SIRT1]], [[Cellular Senescence]], [[Non-coding RNA]], [[MicroRNA]], [[SASP]], [[Atherosclerosis]], [[HDAC]], [[DNA Methyltransferase]].
 - Suggested new entity notes to create: [[ANRIL]], [[Cardiac Fibrosis]], [[Vascular Smooth Muscle Cells]], [[Endothelial Dysfunction]].
 - Strong connections to strengthen: [[Coronary Heart Disease]] ↔ [[Atherosclerosis]], [[Coronary Heart Disease]] ↔ [[Aging]]

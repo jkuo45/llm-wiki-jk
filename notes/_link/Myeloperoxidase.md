@@ -20,14 +20,16 @@ MPO uses [[Hydrogen Peroxide]] to oxidize halide ions (like chloride) into poten
 - **Cardiovascular Disease:** MPO-derived oxidants contribute to atherosclerosis and tissue damage during myocardial infarction.
 - **[[Oxidative Stress]]:** Excessive MPO activity can lead to collateral damage to host tissues.
 
-### Connections
+#
+
+## Connections
 - [[Neutrophils]] ↔ Primary source of myeloperoxidase.
 - [[Epinephrine]] ↔ Substrate that MPO can oxidize to [[Adrenochrome]].
 - [[Adrenochrome]] ↔ Oxidative byproduct catalyzed by MPO.
 - [[Hydrogen Peroxide]] ↔ Required co-factor for MPO activity.
 - [[Inflammation]] ↔ Context in which MPO is released and active.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Myeloperoxidase]], [[Neutrophils]], [[Oxidation]], [[Epinephrine]], [[Adrenochrome]], [[Reactive Oxygen Species]], [[Hydrogen Peroxide]], [[Inflammation]], [[Oxidative Stress]], [[Hypochlorous Acid]]
 - Suggested new entity notes to create: [[Peroxidase]], [[MPO gene]]
 - Strong connections to strengthen: [[Myeloperoxidase]] ↔ [[Neutrophils]], [[Myeloperoxidase]] ↔ [[Hypochlorous Acid]]

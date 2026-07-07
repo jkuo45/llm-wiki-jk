@@ -60,7 +60,6 @@ AGK2 selectively binds to the catalytic cleft of [[SIRT2]], blocking its deacety
 ---
 
 ## Linking Summary
-
 - **New Links Added**: [[SIRT2]], [[FOXO3a]], [[SirReal2]], [[Alzheimer's Disease]], [[p53]]
 - **Suggested New Notes to Create**: [[Alpha-Synuclein Toxicity]], [[Microtubule Acetylation]]
 - **Strong Connections to Strengthen**: [[AGK2]] ↔ [[SIRT2]], [[AGK2]] ↔ [[FOXO3a]]

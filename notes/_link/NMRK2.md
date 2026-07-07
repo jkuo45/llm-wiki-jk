@@ -13,12 +13,14 @@ NMRK2 (Nicotinamide riboside kinase 2), also known as NRK2, is an enzyme predomi
 
 
 
-### Connections
+#
+
+## Connections
 - [[NAD+]] — related entity
 - [[NMRK2]] — related entity
 - [[Nicotinamide Mononucleotide]] — related entity
 - [[Nicotinamide Riboside]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[NAD+]], [[Nicotinamide Riboside]], [[Nicotinamide Mononucleotide]]
 - Strong connections to strengthen: [[NMRK2]] ↔ [[Nicotinamide Riboside]]

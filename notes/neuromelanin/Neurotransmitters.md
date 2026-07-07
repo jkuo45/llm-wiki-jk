@@ -11,6 +11,6 @@ entity_type_1: Biological Molecule
 
 [[Neurotransmitters]] are endogenous chemical messengers that transmit signals across a [[Synapse]] from one neuron to another. Key neurotransmitters in the context of [[Neuromelanin]] research include [[Dopamine]], [[Norepinephrine]], and [[Epinephrine]] — collectively known as [[Catecholamines]]. The oxidation of these catecholamines generates the [[Aminochromes]] that polymerize into [[Neuromelanin]].
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Synapse]], [[Dopamine]], [[Norepinephrine]], [[Epinephrine]], [[Catecholamines]], [[Aminochromes]], [[Neuromelanin]]
 - Strong connections to strengthen: [[Neurotransmitters]] ↔ [[Catecholamines]]

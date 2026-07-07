@@ -21,7 +21,9 @@ Chronic ER stress and dysregulated autophagy underpin [[Neurodegenerative Diseas
 Chemical chaperones ([[TUDCA]], [[4-PBA]]) and UPR modulators ([[ISRIB]] for PERK, kinase inhibitors for IRE1) are in preclinical development. [[Autophagy Inducer]]s like [[Trehalose]] and [[Spermidine]] also alleviate ER stress by enhancing proteostasis.
 
 
-### Connections
+#
+
+## Connections
 - [[Autophagy]] — cellular self-degradation pathway; clears damaged proteins and organelles
 - [[PERK]] — interacts with ER Stress
 - [[IRE1]] — interacts with ER Stress
@@ -30,6 +32,6 @@ Chemical chaperones ([[TUDCA]], [[4-PBA]]) and UPR modulators ([[ISRIB]] for PER
 - [[XBP1]] — interacts with ER Stress
 - [[LC3B]] — interacts with ER Stress
 - [[Atg5]] — interacts with ER Stress
-### Linking Summary
+## Linking Summary
 - New links added: [[Autophagy]], [[PERK]], [[ATF4]], [[XBP1]], [[LC3]], [[Beclin1]], [[Neurodegenerative Diseases]], [[Type 2 Diabetes Mellitus]]
 - Suggested new entity notes to create: [[IRE1]], [[ATF6]], [[BiP]], [[Reticulophagy]]

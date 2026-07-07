@@ -23,12 +23,14 @@ FOXO4 is directly targeted by sirtuin-mediated deacetylation in response to oxid
 - **Antioxidant Defenses**: Restored FOXO4 transcriptional activity enhances mammalian cellular defenses against oxidative stress by inducing expression of the growth arrest and DNA-damage-inducible protein **GADD45** ($\alpha$-isoform).
 - **Caspase Inhibition**: In transformed cancer cells (but not untransformed epithelial cells), SIRT1 acting via FOXO4 has been shown to suppress the pro-apoptotic proteases **caspase-3** and **caspase-7**, promoting cancer cell survival.
 
-### Connections
+#
+
+## Connections
 - [[SIRT1]] — deacetylates FOXO4, restoring its transactivation potential under oxidative stress
 - [[FoxO1]] / [[FOXO3a]] — sister transcription factors also deacetylated by SIRT1
 - [[DNA Repair]] — process enhanced by the SIRT1–FOXO4 axis via GADD45 expression
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Autophagy]], [[FoxO1]], [[FOXO3a]], [[Senescence]], [[SIRT1]], [[DNA Repair]]
 - Suggested new entity notes to create: [[GADD45]], [[Caspase-3]]
 - Strong connections to strengthen: [[FOXO4]] ↔ [[FOXO3a]], [[FOXO4]] ↔ [[Senescence]], [[FOXO4]] ↔ [[SIRT1]]

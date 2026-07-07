@@ -37,7 +37,6 @@ Activation of the UPRmt has been linked to lifespan extension in several model o
 - [[Unfolded Protein Response]]
 
 ## Linking Summary
-
 - New links added: [[Mitochondria]], [[ATFS-1]], [[HAF-1]], [[UBL-5]], [[DVE-1]], [[Unfolded Protein Response]]
 - Suggested new entity notes to create: [[ATFS-1]], [[HAF-1]]
 - Strong connections to strengthen: [[UPRmt]] ↔ [[Mitohormesis]]

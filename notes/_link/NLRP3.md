@@ -19,10 +19,12 @@ aliases: [NLR Family Pyrin Domain Containing 3, Cryopyrin]
 
 **Pathological significance:** Altered expression or mutation of NLRP3 is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
 
-### Connections
+#
+
+## Connections
 - [[NLRP3]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[NLRP3]]
 - Strong connections to strengthen: [[NLRP3]] ↔ [[NLRP3]]
 

@@ -39,7 +39,6 @@ Compound C is used to establish whether downstream effects of [[Adrenochrome]] a
 - [[Autophagy]] — AMPK-dependent process triggered by adrenochrome
 
 ## Linking Summary
-
 - New links added: [[AMPK]], [[TFEB]], [[Adrenochrome]], [[SIRT1]], [[PGC-1alpha]], [[Autophagy]], [[NAD+]], [[NAMPT]]
 - Suggested new entity notes to create: None
 - Strong connections to strengthen: [[Compound C]] ↔ [[AMPK]]

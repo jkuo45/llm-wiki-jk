@@ -24,7 +24,7 @@ entity_type_1: Biological Process
 
 Starvation is the strongest physiological inducer of [[Autophagy]]. It activates [[AMPK]], inhibits [[mTORC1]], and induces [[TFEB]] nuclear translocation.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Autophagy]], [[mTORC1]], [[ULK1]], [[TFEB]], [[HLH-30]], [[Lipophagy]], [[Lysosomal Lipolysis]], [[Lipid Droplet]], [[MXL-3]], [[C. elegans]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Starvation]] ↔ [[HLH-30]], [[Starvation]] ↔ [[Lipophagy]]

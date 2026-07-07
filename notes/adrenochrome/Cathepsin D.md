@@ -17,7 +17,7 @@ Intracellular proteins modified by [[Advanced Glycation End Products]] (AGEs), s
 
 A decrease in Cathepsin D activity or expression—often observed during [[Aging]] or after UV exposure—correlates directly with the cellular accumulation of AGEs.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Advanced Glycation End Products]], [[N-(carboxymethyl)-lysine]], [[Lysosome]], [[Cathepsin B]], [[Aging]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Cathepsin D]] ↔ [[Lysosome]], [[Cathepsin D]] ↔ [[Aging]]

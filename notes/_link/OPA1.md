@@ -19,10 +19,12 @@ aliases: [Optic Atrophy 1]
 
 **Pathological significance:** Altered expression or mutation of OPA1 is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
 
-### Connections
+#
+
+## Connections
 - [[OPA1]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[OPA1]]
 - Strong connections to strengthen: [[OPA1]] ↔ [[OPA1]]
 

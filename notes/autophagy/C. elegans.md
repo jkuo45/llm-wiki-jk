@@ -26,7 +26,7 @@ aliases: [Caenorhabditis elegans]
 
 C. elegans is a powerful model for studying [[Autophagy]] in development, aging, and disease, with conserved pathways and optogenetic tools.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Aging|ageing]], [[Autophagy]], [[DAF-2]], [[mTOR]], [[HLH-30]], [[MXL-3]], [[Longevity|lifespan extension]], [[LIPL-1]], [[LIPL-3]], [[Lipophagy]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[C. elegans]] ↔ [[HLH-30]]

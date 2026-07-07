@@ -26,7 +26,9 @@ UPS dysfunction is a hallmark of [[Parkinson's Disease]] and is closely linked t
 - **Selective Vulnerability:** UPS impairment is specifically observed in neuromelanin-laden regions of the PD brain, such as the [[Substantia Nigra]], further linking pigment accumulation to cellular dysfunction.
 
 
-### Connections
+#
+
+## Connections
 - [[TFEB]] — master transcription factor for lysosomal biogenesis and autophagy
 - [[STUB1]] — interacts with Ubiquitin-Proteasome System
 - [[Ubiquitin]] — interacts with Ubiquitin-Proteasome System
@@ -35,7 +37,7 @@ UPS dysfunction is a hallmark of [[Parkinson's Disease]] and is closely linked t
 - [[Parkinson's Disease]] — neurodegenerative disease; α-synuclein pathology; dopamine loss
 - [[Lewy Bodies]] — interacts with Ubiquitin-Proteasome System
 - [[Alpha-synuclein]] — interacts with Ubiquitin-Proteasome System
-### Linking Summary
+## Linking Summary
 - New links added: [[TFEB]], [[STUB1]], [[Ubiquitin]], [[Parkinson's Disease]], [[Lewy Bodies]], [[Alpha-synuclein]], [[Neuromelanin]], [[Substantia Nigra]].
 - Suggested new entity notes to create: [[26S Proteasome]], [[Proteasome]], [[p62|p62]].
 - Strong connections to strengthen: [[Ubiquitin-Proteasome System]] ↔ [[STUB1]], [[Ubiquitin-Proteasome System]] ↔ [[Lewy Bodies]].

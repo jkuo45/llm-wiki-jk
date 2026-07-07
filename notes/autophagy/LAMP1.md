@@ -20,7 +20,7 @@ LAMP1 is the most abundant protein on the lysosomal membrane, contributing to ly
 
 LAMP1 is used as a marker for [[Lysosome]]s and [[Autolysosome]]s. It tethers autophagosomes via interactions with [[LC3]] and [[PLEKHM1]] during fusion.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Lysosome]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[LAMP1]] ↔ [[Lysosome]]

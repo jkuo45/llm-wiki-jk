@@ -19,10 +19,12 @@ aliases: [Activator Protein 1]
 
 **Pathological significance:** Altered expression or mutation of AP-1 is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
 
-### Connections
+#
+
+## Connections
 - [[AP-1]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[AP-1]]
 - Strong connections to strengthen: [[AP-1]] ↔ [[AP-1]]
 

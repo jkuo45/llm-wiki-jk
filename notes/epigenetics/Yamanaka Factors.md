@@ -18,7 +18,7 @@ Discovered by [[Shinya Yamanaka]] and Kazutoshi Takahashi in 2006, these factors
 ## Variants
 Later research identified other combinations of factors (e.g., [[Lin28]], [[Nanog]]) that can also induce pluripotency, but the original OSKM cocktail remains the most widely used.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[OSKM]], [[Oct4]], [[Sox2]], [[Klf4]], [[c-Myc]], [[Pluripotency]], [[Somatic Cells]], [[Shinya Yamanaka]], [[Embryonic Stem Cells]], [[Lin28]], [[Nanog]]
 - Suggested new entity notes to create: [[Lin28]]
 - Strong connections to strengthen: [[Yamanaka Factors]] ↔ [[Induced Pluripotent Stem Cells]]

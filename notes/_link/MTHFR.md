@@ -15,10 +15,12 @@ Common [[SNP|SNPs]] in the [[MTHFR]] gene include C677T and A1298C. These varian
 ## Interaction with COMT
 There is a potential interaction between [[MTHFR]] and [[COMT]] genetic variants. For example, individuals with both slow [[COMT]] and reduced [[MTHFR]] activity may have unique requirements for [[Methyl Donor]] supplementation.
 
-### Connections
+#
+
+## Connections
 - [[COMT]]: Works downstream in the methylation pathway to metabolize neurotransmitters.
 - [[Folate]]: The primary substrate for the MTHFR enzyme.
 - [[Methylation]]: The broader biochemical process to which MTHFR contributes.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Methylation Cycle]], [[SNP]], [[Folate]], [[COMT]], [[Methyl Donor]], [[Methylation]].

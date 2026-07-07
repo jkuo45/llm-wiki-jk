@@ -13,7 +13,9 @@ The gut-brain axis is a bidirectional communication network between the gastroin
 
 
 
-### Connections
+#
+
+## Connections
 - [[Central Nervous System]] — related entity
 - [[Gut Microbiome]] — related entity
 - [[Gut-Brain Axis]] — related entity
@@ -21,7 +23,7 @@ The gut-brain axis is a bidirectional communication network between the gastroin
 - [[Immune System]] — related entity
 - [[Neurodegenerative Diseases]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Gut Microbiome]], [[Neurodegenerative Diseases]], [[Immune System]]
 - Suggested new entity notes to create: [[Central Nervous System]], [[Hormones]]
 - Strong connections to strengthen: [[Gut-Brain Axis]] ↔ [[Gut Microbiome]]

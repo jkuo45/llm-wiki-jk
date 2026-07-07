@@ -17,10 +17,12 @@ entity_type_1: Enzyme
 
 **Clinical relevance:** Dysregulation of CYP3A4 activity is implicated in metabolic disorders, oxidative stress-related pathologies, and cancer. Pharmacological modulation of this enzyme represents a therapeutic strategy for diseases involving its pathway.
 
-### Connections
+#
+
+## Connections
 - [[CYP3A4]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[CYP3A4]]
 - Strong connections to strengthen: [[CYP3A4]] ↔ [[CYP3A4]]
 

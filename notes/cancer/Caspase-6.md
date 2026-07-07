@@ -19,7 +19,7 @@ Caspase-6 is activated by initiator caspases (like [[Caspase-8]] and [[Caspase-9
 - [[Caspase-3]]: Coordinates with caspase-3 in the execution phase.
 - [[chromatin condensation]]: Induced by Caspase-6-mediated lamin cleavage.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Apoptosis]], [[Caspase-8]], [[Caspase-9]], [[Caspase-3]], [[chromatin condensation]], [[Common Pathway]]
 - Suggested new entity notes to create: [[chromatin condensation]]
 - Strong connections to strengthen: [[Caspase-6]] ↔ [[Common Pathway]]

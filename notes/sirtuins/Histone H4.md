@@ -34,7 +34,6 @@ aliases:
 - [[Histone H1]] — linker histone deacetylated by SIRT1; works cooperatively in chromatin compaction
 
 ## Linking Summary
-
 - New links added: [[SIRT1]], [[SIRT2]], [[Histone H1]]
 - Suggested new entity notes to create: [[H4K16ac]], [[chromatin condensation]], [[Nucleosome]]
 - Strong connections to strengthen: [[Histone H4]] ↔ [[SIRT1]], [[Histone H4]] ↔ [[SIRT2]]

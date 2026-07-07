@@ -23,13 +23,15 @@ While de novo methylation is generally less active in adult tissues than during 
 ### 3. Relationship with [[DNMT3b]]
 DNMT3a often works in concert with [[DNMT3b]]. While they share similar structures and functions, they have distinct genomic targets and regulatory roles.
 
-### Connections
+#
+
+## Connections
 - **[[DNA Methylation]]**: The biochemical process performed by DNMT3a.
 - **[[DNA Methyltransferase]]**: The family of enzymes responsible for methylating DNA.
 - **[[DNMT3b]]**: The other primary de novo methyltransferase.
 - **[[Aging]]**: DNMT3a mutations and dysregulation are markers of hematopoietic and epigenetic aging.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[DNMT3a]], [[DNA Methylation]], [[DNA Methyltransferase]], [[Cardiovascular Disease]], [[Epigenome]], [[DNMT3b]], [[Aging]]
 - Suggested new entity notes to create: [[Clonal Hematopoiesis]], [[CHIP]], [[De Novo Methylation]]
 - Strong connections to strengthen: [[DNMT3a]] ↔ [[DNA Methylation]], [[DNMT3a]] ↔ [[Aging]]

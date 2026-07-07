@@ -22,5 +22,5 @@ For individuals with slow [[COMT]] variants who are sensitive to high-dose [[Met
 - [[Methylfolate]]: A more bioactive but potentially more stimulatory form of folate.
 
 ---
-### Linking Summary:
+## Linking Summary
 - New links added: [[Folate]], [[Methylation Cycle]], [[Methylfolate]], [[COMT]], [[MTHFR]].

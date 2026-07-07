@@ -45,11 +45,9 @@ Elevated urinary 8-oxodG has been reported in:
 - [[Genomic Instability]]: Unrepaired 8-oxodG drives G→T transversion mutations.
 - [[p53]]: Frequently mutated at guanine residues susceptible to 8-oxodG formation.
 
-### Linking Summary
+## Linking Summary
+- New links added: [[Hydroxyl Radicals]], [[Singlet Oxygen]], [[Peroxynitrite]], [[DNA]], [[Mitochondria]], [[Base Excision Repair]], [[Genomic Instability]], [[p53]], [[Colorectal Cancer]], [[Cardiovascular Disease]], [[Atherosclerosis]], [[Diabetes Mellitus]], [[Neurodegenerative Diseases]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Aging]], [[Exercise]], [[Caloric Restriction]]
+- Suggested new entity notes to create: [[OGG1]], [[MTH1]], [[MUTYH]], [[NEIL1]], [[Translesion Synthesis]], [[MUTYH-associated Polyposis]]
 - New links added: [[Oxidative Stress]], [[Cancer]], [[DNA oxidation]], [[8-hydroxy-2'-deoxyguanosine]]
 - Suggested new entity notes to create: [[8-hydroxy-2'-deoxyguanosine]], [[DNA oxidation]]
 - Strong connections to strengthen: [[8-oxo-2'-deoxyguanosine]] ↔ [[Oxidative Stress]]
-
-### New Linking Summary (Added 2026-07-04):
-- New links added: [[Hydroxyl Radicals]], [[Singlet Oxygen]], [[Peroxynitrite]], [[DNA]], [[Mitochondria]], [[Base Excision Repair]], [[Genomic Instability]], [[p53]], [[Colorectal Cancer]], [[Cardiovascular Disease]], [[Atherosclerosis]], [[Diabetes Mellitus]], [[Neurodegenerative Diseases]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Aging]], [[Exercise]], [[Caloric Restriction]]
-- Suggested new entity notes to create: [[OGG1]], [[MTH1]], [[MUTYH]], [[NEIL1]], [[Translesion Synthesis]], [[MUTYH-associated Polyposis]]

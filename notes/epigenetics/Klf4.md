@@ -18,7 +18,7 @@ Klf4 contributes to the induction of [[Pluripotency]] by regulating the expressi
 ## Connections
 - Part of the [[OSKM]] gene regulatory network.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Transcription Factor]], [[Yamanaka Factors]], [[Pluripotency]], [[Mesenchymal-to-Epithelial Transition]], [[OSKM]]
 - Suggested new entity notes to create: [[Mesenchymal-to-Epithelial Transition]]
 - Strong connections to strengthen: [[Klf4]] ↔ [[c-Myc]]

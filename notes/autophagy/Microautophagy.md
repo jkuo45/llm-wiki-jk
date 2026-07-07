@@ -24,7 +24,7 @@ entity_type_1: Biological Process
 
 Microautophagy involves direct engulfment of cytoplasmic material by the lysosome/vacuole via membrane invagination, independent of [[Autophagosome]] formation.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Autophagy]], [[Lysosome]], [[Macroautophagy]], [[Autophagosome]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[Microautophagy]] ↔ [[Autophagy]], [[Microautophagy]] ↔ [[Lysosome]]

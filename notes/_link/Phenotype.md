@@ -18,12 +18,14 @@ A **phenotype** is the set of observable characteristics or traits of an organis
 - [[Epigenetics]]
 - [[Aging]]
 
-### Connections
+#
+
+## Connections
 - [[Genotype]] — interacts with
 - [[Epigenetics]] — interacts with
 - [[Aging]] — interacts with
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Genotype]], [[Epigenetics]], [[Aging]]
 - Strong connections to strengthen: [[Phenotype]] ↔ [[Genotype]], [[Phenotype]] ↔ [[Epigenetics]], [[Phenotype]] ↔ [[Aging]]
 

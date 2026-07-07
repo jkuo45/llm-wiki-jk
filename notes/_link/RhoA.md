@@ -19,10 +19,12 @@ aliases: [Ras Homolog Family Member A]
 
 **Pathological significance:** Altered expression or mutation of RhoA is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
 
-### Connections
+#
+
+## Connections
 - [[RhoA]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[RhoA]]
 - Strong connections to strengthen: [[RhoA]] ↔ [[RhoA]]
 

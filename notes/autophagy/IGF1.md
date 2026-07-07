@@ -25,7 +25,7 @@ aliases: [insulin-like growth factor 1]
 
 IGF1 is a growth factor that signals through IGF1R to activate [[PI3K-Akt Signaling]] and suppress [[Autophagy]]. Reduced IGF1 signaling extends lifespan across species.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Autophagy]], [[IGF1R]], [[PI3K]], [[Akt]], [[mTORC1]], [[FoxO1]], [[Caloric Restriction]], [[Intermittent Fasting]], [[Longevity]], [[Cancer]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[IGF1]] ↔ [[Caloric Restriction]], [[IGF1]] ↔ [[Autophagy]]

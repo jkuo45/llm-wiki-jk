@@ -68,7 +68,6 @@ Anti-CD38 therapies ([[Daratumumab]], [[Isatuximab]]) can reshape the TME by:
 ---
 
 ## Linking Summary
-
 - New links added: [[CD38]], [[Cancer]], [[Daratumumab]], [[Isatuximab]], [[Multiple Myeloma]], [[NAD+]], [[Inflammation]]
 - Suggested new entity notes: [[cADPR]], [[Adenosine Pathway]], [[CAF (Cancer-Associated Fibroblast)]]
 - Strong connections: [[Tumor Microenvironment]] ↔ [[CD38]], [[Tumor Microenvironment]] ↔ [[Cancer]]

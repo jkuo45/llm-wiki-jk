@@ -43,7 +43,7 @@ Nutlin-3a is the most widely used tool for activating wild-type p53 without caus
 - Sustained p53 activation can select for p53-mutant clones.
 - [[MDM4]] can partially compensate for MDM2 inhibition in some cell types.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[p53]], [[Senescence]], [[Apoptosis]], [[MDM2]], [[p21]]
 - Suggested new entity notes to create: [[MDM4]], [[Puma]], [[Noxa]], [[Nutlin-3]]
 - Strong connections to strengthen: [[Nutlin-3a]] ↔ [[p53]], [[Nutlin-3a]] ↔ [[Senescence]]

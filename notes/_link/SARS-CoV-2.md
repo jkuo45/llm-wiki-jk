@@ -25,8 +25,9 @@ SARS-CoV‑2 enters cells via [[Spike Protein]] binding to [[ACE2]] (angiotensin
 
 COVID-19 ranges from asymptomatic to severe [[Pneumonia]], [[ARDS]], [[Sepsis]], and death. Risk factors include [[Aging]], [[Obesity]], [[Diabetes]], [[Hypertension]], and [[Immunosuppression]]. Long COVID involves persistent [[Inflammation]], [[Autonomic Dysfunction]], and [[Cognitive decline]].
 
-### Connections
+#
 
+## Connections
 - [[COVID-19]] — the disease caused by SARS-CoV-2 infection
 - [[ACE2]] — host entry receptor for the viral spike protein
 - [[Spike Protein]] — viral surface glycoprotein; target of neutralizing antibodies and vaccines
@@ -36,8 +37,7 @@ COVID-19 ranges from asymptomatic to severe [[Pneumonia]], [[ARDS]], [[Sepsis]],
 - [[Aging]] — older age is the strongest risk factor for severe COVID-19
 - [[Vaccine]] — mRNA, adenoviral, and protein-based vaccines target the spike protein
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[COVID-19]], [[ACE2]], [[Spike Protein]], [[TMPRSS2]], [[Cathepsin L]], [[RNA virus]], [[Coronaviridae]], [[RNA-dependent RNA polymerase]], [[Main protease]], [[Papain-like protease]], [[Envelope]], [[Membrane]], [[Nucleocapsid]], [[Cytosol]], [[NFκB]], [[NLRP3 Inflammasome]], [[Cytokine Storm]], [[Pneumonia]], [[ARDS]], [[Sepsis]], [[Obesity]], [[Diabetes]], [[Hypertension]], [[Immunosuppression]], [[Aging]], [[Vaccine]], [[mRNA vaccine]], [[Long COVID]], [[Cognitive decline]]
 - Suggested new entity notes to create: [[Betacoronavirus]], [[Viral protease inhibitors]], [[Remdesivir]], [[Paxlovid]], [[Molnupiravir]], [[Neutralizing antibody]], [[Omicron variant]], [[Spike mutations]]
 - Strong connections to strengthen: [[SARS-CoV-2]] ↔ [[COVID-19]], [[SARS-CoV-2]] ↔ [[ACE2]], [[SARS-CoV-2]] ↔ [[Aging]]

@@ -23,7 +23,7 @@ aliases: [C. elegans Max-like 3]
 
 MXL-3 is a C. elegans MYC/Max-like transcription factor that represses [[Lipophagy]] genes. Its nuclear exclusion during fasting derepresses lipophagy.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[bHLH]], [[C. elegans]], [[Lysosomal Lipolysis]], [[Lipophagy]], [[LIPL-1]], [[LIPL-2]], [[LIPL-3]], [[LIPL-5]], [[Starvation]], [[Fasting]], [[Longevity|lifespan]], [[Caloric Restriction|caloric restriction]], [[HLH-30]], [[Nutrient Availability]]
 - Suggested new entity notes to create: [[MAX]] (mammalian orthologue)
 - Strong connections to strengthen: [[MXL-3]] ↔ [[HLH-30]], [[MXL-3]] ↔ [[LIPL-1]]

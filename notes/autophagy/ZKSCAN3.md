@@ -19,7 +19,7 @@ ZKSCAN3 (ZNF306) is a zinc-finger transcription factor that represses lysosomal 
 
 Under nutrient-replete conditions, ZKSCAN3 suppresses the CLEAR network. During [[Starvation]], ZKSCAN3 is exported from the nucleus via [[CRM1]], derepressing autophagy and lysosomal biogenesis.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Autophagy]], [[Lysosome]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[ZKSCAN3]] ↔ [[TFEB]]

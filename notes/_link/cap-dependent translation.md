@@ -18,10 +18,12 @@ entity_type_1: Biological Process
 
 **Regulation and dysregulation:** cap-dependent translation is controlled by nutrient sensors, stress pathways, and hormonal signals. Impairment of this process is linked to metabolic diseases, neurodegeneration, and cancer.
 
-### Connections
+#
+
+## Connections
 - [[cap-dependent translation]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[cap-dependent translation]]
 - Strong connections to strengthen: [[cap-dependent translation]] ↔ [[cap-dependent translation]]
 

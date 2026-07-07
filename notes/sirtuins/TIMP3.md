@@ -41,7 +41,6 @@ TIMP3 promoter hypermethylation and reduced expression are observed in atheroscl
 - [[ECM]] — Extracellular matrix environment where TIMP3 is embedded
 
 ## Linking Summary
-
 - New links added: [[TIMP3]], [[Vascular Inflammation]], [[MMP-9]], [[ADAM17]], [[ECM]]
 - Suggested new entity notes to create: [[TACE]], [[ADAMTS family]]
 - Strong connections to strengthen: [[SIRT1]] ↔ [[TIMP3]]

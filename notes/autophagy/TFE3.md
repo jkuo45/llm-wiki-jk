@@ -17,7 +17,7 @@ aliases: [transcription factor E3]
 
 TFE3 is a [[MiTF TFE family]] transcription factor that regulates the CLEAR network for lysosomal biogenesis and autophagy. Regulation parallels [[TFEB]].
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[TFEB]], [[Lysosome]], [[Autophagy]], [[CLEAR Element]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[TFE3]] ↔ [[TFEB]]

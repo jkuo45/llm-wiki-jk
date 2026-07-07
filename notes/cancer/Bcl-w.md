@@ -23,7 +23,7 @@ Bcl-w functions by binding and sequestering pro-apoptotic members of the Bcl-2 f
 - [[Bax]] / [[Bak]]: Sequestered by Bcl-w to prevent death.
 - [[ABT-737]] / [[ABT-263]]: Small molecule inhibitors of Bcl-w.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Bcl-2 family]], [[Bax]], [[Bak]], [[Intrinsic Pathway]], [[ABT-737]], [[ABT-263]]
 - Suggested new entity notes to create: [[Bak]]
 - Strong connections to strengthen: [[Bcl-w]] ↔ [[Bcl-2 family]]

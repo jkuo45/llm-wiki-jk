@@ -22,7 +22,6 @@ Hyperglycemia is a primary driver of pathological [[Glycation]]. Under hyperglyc
 - Increased [[Oxidative Stress]] due to glucose autoxidation.
 
 ## Linking Summary
-
 - New links added: [[Glycation]], [[Advanced Glycation End Products]], [[Aging]], [[Oxidative Stress]]
 - Suggested new entity notes to create: [[Insulin Resistance]]
 - Strong connections to strengthen: [[Hyperglycemia]] ↔ [[Diabetes Mellitus]]

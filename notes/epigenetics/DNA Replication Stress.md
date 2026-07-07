@@ -42,7 +42,7 @@ Persistent replication stress is a hallmark of [[Oncogene-Induced Senescence|OIS
 - **CHK1 inhibition:** [[Prexasertib]] kills cancer cells with high replication stress.
 - **Protecting normal cells:** [[Roscovitine]] (CDK inhibitor) reduces origin firing and protects against replication stress-induced damage in normal tissues.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[DNA Replication]], [[Genomic Instability]], [[Senescence]], [[Oncogene-Induced Senescence]], [[R-loops]], [[ATR]], [[CHK1]]
 - Suggested new entity notes to create: [[R-loops]], [[FRA3B]], [[FRA16D]], [[Fragile sites]]
 - Strong connections to strengthen: [[DNA Replication Stress]] ↔ [[Oncogene-Induced Senescence]], [[DNA Replication Stress]] ↔ [[Senescence]]

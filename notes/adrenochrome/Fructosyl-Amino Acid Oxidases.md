@@ -18,7 +18,7 @@ FAOD catalyzes the oxidation of [[Amadori products]], yielding an unmodified ami
 
 Although not endogenous to humans, FAOD is actively researched for therapeutic and cosmetic applications to reverse early-stage glycation. It is studied for synergy with [[Fructosamine-3-kinase]] to clear damaged structural proteins like skin [[Collagen]].
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Amadori products]], [[Hydrogen Peroxide]], [[Fructosamine-3-kinase]], [[Collagen]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Fructosyl-Amino Acid Oxidases]] ↔ [[Amadori products]]

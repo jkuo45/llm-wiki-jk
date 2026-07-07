@@ -41,7 +41,6 @@ OSCP acetylation increases with age and in metabolic disease, correlating with r
 - [[ATP Synthase]] — Holoenzyme whose peripheral stalk includes OSCP
 
 ## Linking Summary
-
 - New links added: [[OSCP]], [[Honokiol]], [[Oxidative Phosphorylation]], [[Mitochondrial Dysfunction]], [[Oligomycin]], [[ATP Synthase]]
 - Suggested new entity notes to create: [[Complex V]], [[Proton leak]], [[Uncoupling]]
 - Strong connections to strengthen: [[SIRT3]] ↔ [[OSCP]]

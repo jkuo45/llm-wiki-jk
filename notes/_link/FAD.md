@@ -19,10 +19,12 @@ aliases: [Flavin Adenine Dinucleotide]
 
 **Clinical significance:** Altered levels of FAD are observed in metabolic disorders, mitochondrial diseases, and nutritional deficiencies. Supplementation or pharmacological modulation of this metabolite has therapeutic potential.
 
-### Connections
+#
+
+## Connections
 - [[FAD]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[FAD]]
 - Strong connections to strengthen: [[FAD]] ↔ [[FAD]]
 

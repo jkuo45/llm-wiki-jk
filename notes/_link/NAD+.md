@@ -78,14 +78,14 @@ NAD+ levels naturally decline with age. This decline is linked to:
 *   **Reduced Sirtuin Activity**: Leading to loss of epigenetic control and increased [[Inflammation]].
 *   **Reduced Repair Capacity**: Accumulation of DNA damage.
 
-### Linking Summary:
+## Linking Summary
+- New links added: [[SIRT1]], [[Sir2 (yeast)]], [[OAADPr]], [[Caloric Restriction]], [[SIRT4]], [[SIRT6]], [[Resveratrol]]
+- Suggested new entity notes to create: [[NMNAT]], [[PNC1 (yeast)]], [[NAMPT]], [[NAD⁺/NADH Ratio]]
+- Strong connections to strengthen: [[NAD+]] ↔ [[SIRT1]], [[NAD+]] ↔ [[Caloric Restriction]]
+- New links added: [[Sirtuins]], [[Caloric Restriction]], [[Vitamin B3]], [[DNA Repair]], [[Resveratrol]], [[Metabolism]], [[Aging]], [[Inflammation]], [[Mitochondria]], [[OAADPr]], [[Nicotinamide]], [[Nicotinic acid]], [[Nicotinamide Riboside]], [[Nicotinamide Mononucleotide]]
+- Suggested new entity notes to create: [[NAMPT]], [[NMNAT]], [[CD38]], [[NAD+/NADH Ratio]], [[Preiss-Handler pathway]]
 - New links added: [[Metabolism]], [[Sirtuins]], [[SIRT1]], [[SIRT6]], [[DNA Repair]], [[Aging]], [[Inflammation]]
-- Suggested new entity notes to create: [[NMN]], [[NR]], [[PARP Enzymes]], [[CD38]]
-- Strong connections to strengthen: [[NAD+]] ↔ [[Sirtuins]], [[NAD+]] ↔ [[Metabolism]]
-
-**NAD⁺** (nicotinamide adenine dinucleotide, oxidised form) is a fundamental coenzyme and metabolite in all living cells that serves as an **obligatory co-substrate** for all sirtuin-catalysed reactions. NAD⁺ links cellular energy status and redox state to sirtuin-mediated gene regulation, establishing sirtuins as metabolic sensors.
-
-## Role in Sirtuin Biology
+- Suggested new entity notes to create: [[NMN]], [[NR]], [[PARP Enzymes]], [[CD38]]## Role in Sirtuin Biology
 
 ### Obligatory Co-Substrate
 All sirtuins — from bacterial CobB to all seven mammalian sirtuins ([[SIRT1]]–[[SIRT7]]) — absolutely require NAD⁺ to catalyse their reactions. The deacetylation reaction is:
@@ -117,14 +117,3 @@ The discovery that Sir2 deacetylase activity is **absolutely dependent on NAD⁺
 
 SIRT1-mediated neuroprotection in the context of axonal degeneration requires **Nmnat** (nicotinate mononucleotide adenylyltransferase), a key NAD⁺ biosynthetic enzyme. Increased nuclear NAD⁺ biosynthesis activates [[SIRT1]] and prevents axonal/Wallerian degeneration, demonstrating NAD⁺ as a neuroprotective metabolite.
 
-## Linking Summary
-
-- New links added: [[SIRT1]], [[Sir2 (yeast)]], [[OAADPr]], [[Caloric Restriction]], [[SIRT4]], [[SIRT6]], [[Resveratrol]]
-- Suggested new entity notes to create: [[NMNAT]], [[PNC1 (yeast)]], [[NAMPT]], [[NAD⁺/NADH Ratio]]
-- Strong connections to strengthen: [[NAD+]] ↔ [[SIRT1]], [[NAD+]] ↔ [[Caloric Restriction]]
-
-## Linking Summary
-
-- New links added: [[Sirtuins]], [[Caloric Restriction]], [[Vitamin B3]], [[DNA Repair]], [[Resveratrol]], [[Metabolism]], [[Aging]], [[Inflammation]], [[Mitochondria]], [[OAADPr]], [[Nicotinamide]], [[Nicotinic acid]], [[Nicotinamide Riboside]], [[Nicotinamide Mononucleotide]]
-- Suggested new entity notes to create: [[NAMPT]], [[NMNAT]], [[CD38]], [[NAD+/NADH Ratio]], [[Preiss-Handler pathway]]
-- Strong connections to strengthen: [[NAD+]] ↔ [[Sirtuins]], [[NAD+]] ↔ [[Caloric Restriction]]

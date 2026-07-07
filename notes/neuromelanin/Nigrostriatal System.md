@@ -21,7 +21,7 @@ The progressive degeneration of the nigrostriatal system is the defining patholo
 - **Denervation:** The loss of dopaminergic projections leads to striatal dopamine depletion, resulting in the classic motor symptoms of PD.
 - **Neuromelanin:** The selective vulnerability of the nigrostriatal system is closely tied to the high [[Neuromelanin]] content of the neurons in the SNpc.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Substantia Nigra Pars Compacta]], [[Sirtuins]], [[Parkinson's Disease]], [[Neuromelanin]].
 - Suggested new entity notes to create: [[Caudate Nucleus]], [[Putamen]].
 - Strong connections to strengthen: [[Nigrostriatal System]] ↔ [[Parkinson's Disease]].

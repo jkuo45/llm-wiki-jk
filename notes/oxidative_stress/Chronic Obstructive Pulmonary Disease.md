@@ -35,7 +35,7 @@ In COPD, oxidative stress is markedly increased due to both exogenous sources (c
 - **[[Lungs]]**: The primary organ system affected by COPD.
 - **[[Alpha-1 Antitrypsin]]**: Deficiency in this protein is a genetic risk factor for COPD.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Inflammation]], [[Smoking]], [[Oxidative Stress]], [[Reactive Oxygen Species]], [[Lungs]], [[Emphysema]], [[Neutrophils]], [[NF-kappa B]], [[DNA Repair]], [[Cellular Senescence]]
 - Suggested new entity notes to create: [[Emphysema]], [[Alpha-1 Antitrypsin]]
 - Strong connections to strengthen: [[Chronic Obstructive Pulmonary Disease]] ↔ [[Smoking]]
@@ -151,7 +151,9 @@ The Fletcher-Petch curve of FEV₁ decline shows that COPD is progressive, but o
 - Neutrophilic [[Inflammation]] with high MPO activity
 - Oxidant-induced epithelial barrier dysfunction
 
-### Connections
+#
+
+## Connections
 - [[Macrophage]]: Central effector cell in COPD pathogenesis
 - [[Immunosenescence]]: Accelerated immune aging in COPD
 - [[Hypoxia]]: Exacerbates mitochondrial ROS production

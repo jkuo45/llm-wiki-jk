@@ -42,11 +42,9 @@ Pharmacological interventions that lower MDA include [[Statins]] (via pleiotropi
 - [[Biomarkers]]: MDA is a validated biomarker of oxidative damage.
 - [[Atherosclerosis]]: MDA-modified LDL is a prominent feature of plaque biology.
 
-### Linking Summary
+## Linking Summary
+- New links added: [[DNA]], [[Atherosclerosis]], [[Macrophage]], [[Cardiovascular Disease]], [[Diabetes Mellitus]], [[Neurodegenerative Diseases]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Cancer]], [[Vitamin E]], [[N-Acetylcysteine]], [[Glutathione]], [[Caloric Restriction]], [[Exercise]], [[Polyphenols]], [[Flavonoids]], [[Metformin]], [[Inflammation]], [[CD36 Receptor]]
+- Suggested new entity notes to create: [[M₁dG]], [[TBARS Assay]], [[MDA-LDL]], [[RAGE Receptor]], [[Oxidized LDL]]
 - New links added: [[Lipid Peroxidation]], [[Oxidative Stress]], [[Biomarker]]
 - Suggested new entity notes to create: [[Reactive dialdehyde]], [[Biomarker]]
 - Strong connections to strengthen: [[Malondialdehyde]] ↔ [[Lipid Peroxidation]]
-
-### New Linking Summary (Added 2026-07-04):
-- New links added: [[DNA]], [[Atherosclerosis]], [[Macrophage]], [[Cardiovascular Disease]], [[Diabetes Mellitus]], [[Neurodegenerative Diseases]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Cancer]], [[Vitamin E]], [[N-Acetylcysteine]], [[Glutathione]], [[Caloric Restriction]], [[Exercise]], [[Polyphenols]], [[Flavonoids]], [[Metformin]], [[Inflammation]], [[CD36 Receptor]]
-- Suggested new entity notes to create: [[M₁dG]], [[TBARS Assay]], [[MDA-LDL]], [[RAGE Receptor]], [[Oxidized LDL]]

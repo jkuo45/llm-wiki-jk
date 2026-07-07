@@ -19,10 +19,12 @@ aliases: [Voltage-Dependent Anion Channel 1]
 
 **Pathological significance:** Altered expression or mutation of VDAC1 is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
 
-### Connections
+#
+
+## Connections
 - [[VDAC1]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[VDAC1]]
 - Strong connections to strengthen: [[VDAC1]] ↔ [[VDAC1]]
 

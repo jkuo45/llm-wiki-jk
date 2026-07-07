@@ -19,8 +19,7 @@ PDCD4 inhibits translation by binding [[eIF4A]] and blocking its helicase activi
 
 PDCD4 represses [[TFEB]] translation, thereby reducing lysosomal biogenesis and [[Autophagic Flux]]. PDCD4 degradation via the [[Ubiquitin-Proteasome System]] relieves this repression and enhances autophagy.
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[eIF4A]], [[TFEB]]
 - Suggested new entity notes to create: [[Tumor Suppressor]]
 - Strong connections to strengthen: [[PDCD4]] ↔ [[TFEB]]

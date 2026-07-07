@@ -27,14 +27,16 @@ Peroxisomal disorders include **Zellweger Syndrome** (severe peroxisome biogenes
 Peroxisomes are single-membrane organelles present in virtually all eukaryotic cells, central to β-oxidation of very-long-chain fatty acids and the metabolism of ROS.
 See [[Peroxisomes]].
 
-### Connections
+#
+
+## Connections
 - [[Catalase]] — interacts with
 - [[Superoxide Dismutase]] — interacts with
 - [[Aging]] — interacts with
 - [[Inflammation]] — interacts with
 - [[Neurodegeneration]] — interacts with
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Catalase]], [[Superoxide Dismutase]], [[Aging]], [[Inflammation]], [[Neurodegeneration]]
 - Strong connections to strengthen: [[Peroxisomes]] ↔ [[Catalase]], [[Peroxisomes]] ↔ [[Superoxide Dismutase]], [[Peroxisomes]] ↔ [[Aging]], [[Peroxisomes]] ↔ [[Inflammation]], [[Peroxisomes]] ↔ [[Neurodegeneration]]
 

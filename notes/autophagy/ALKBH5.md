@@ -20,8 +20,7 @@ ALKBH5 is an m6A demethylase that removes [[m6A Modification]] from mRNA, acting
 
 ALKBH5 modulates autophagy gene expression through m6A-dependent mechanisms. Its dysregulation affects [[ULK1]] and [[Beclin1]] transcript levels in cancer.
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[TFEB]]
 - Suggested new entity notes to create: [[RNA Demethylase]]
 - Strong connections to strengthen: [[ALKBH5]] ↔ [[TFEB]]

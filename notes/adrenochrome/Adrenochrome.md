@@ -66,7 +66,7 @@ Critical unresolved questions include the development of sensitive and specific 
 - [[Neutrophils]] ↔ Cellular site of production during inflammation.
 - [[COMT]] & [[MAO]] ↔ Enzymes whose inhibition increases substrate availability for adrenochrome formation.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Aminochromes]], [[Indoline]], [[Quinone]], [[Hydroxyl radical]], [[Cardiotoxicity]], [[Adrenolutin]], [[Carbazochrome]], [[Smoking]], [[Oxidative Stress]], [[Reactive Oxygen Species]], [[Neutrophils]], [[Inflammation]], [[Lungs]], [[Neuromelanin]], [[Redox Cycling]], [[COMT]], [[MAO]], [[Diaphorase]], [[Dithiothreitol]], [[Septic Shock]], [[Ischemia-reperfusion Injury]], [[Preeclampsia]], [[Adrenergic receptor]], [[β₂-adrenergic receptor]], [[Catechol-O-methyltransferase]], [[Long QT Syndrome]], [[Sodium Potassium ATPase]], [[MAP Kinase]], [[NFκB]], [[N-Acetylcysteine]], [[Mitohormetic Redox-Relay]]
 - Suggested new entity notes to create: [[Indoline]], [[Quinone]], [[Schizophrenia]], [[Adrenochrome Hypothesis]]
 - Strong connections to strengthen: [[Adrenochrome]] ↔ [[Epinephrine]], [[Adrenochrome]] ↔ [[Redox Cycling]], [[Adrenochrome]] ↔ [[Mitohormetic Redox-Relay]]

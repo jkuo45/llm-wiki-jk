@@ -52,7 +52,6 @@ Recombinant humanin and humanin analogs (particularly [[HNG]], the 21-amino acid
 - [[Apoptosis]]
 
 ## Linking Summary
-
 - New links added: [[Mitochondria]], [[Mitokines]], [[Alzheimer's Disease]], [[Apoptosis]], [[Mitochondrial-Derived Peptide]], [[MOTS-c]], [[12S Ribosomal RNA]], [[16S Ribosomal RNA]], [[Ciliary Neurotrophic Factor Receptor]], [[WSX1]], [[gp130]], [[Janus Kinase 2]], [[STAT3]], [[Bcl-2]], [[Bcl-xL]], [[Survivin]], [[Bax]], [[IGF1R]], [[Phosphatidylinositol 3-Kinase]], [[Akt]], [[Bad]], [[Caspase-9]], [[mTORC1]], [[Glucose Uptake]], [[Insulin Sensitivity]], [[ERK1_2]], [[HSP70]], [[Hsp90]], [[HSF1]], [[Stress Resistance]], [[Insulin Resistance]], [[Cognitive Decline]], [[Frailty Index]], [[Hepatocellular Carcinoma]], [[Lymphoma]], [[Skeletal Muscle]], [[Cognitive Function]], [[Glucose Tolerance]], [[Adiposity]], [[TNFα]], [[C. elegans]], [[DAF-16]], [[FOXO]], [[Mitochondrial Unfolded Protein Response]], [[Mitophagy]], [[SIRT1]], [[AMPK]], [[Mitohormetic Redox-Relay]], [[Adrenochrome]], [[Carbazochrome]], [[HNG]], [[Ischemia-reperfusion Injury]], [[APP]]/[[PS1]], [[Type 2 Diabetes Mellitus]], [[PEGylation]], [[Albumin Fusion]], [[Liposome Encapsulation]]
 - Suggested new entity notes to create: [[Mitochondrially-derived peptides]], [[MOTS-c]], [[Mitokine Response]]
 - Strong connections to strengthen: [[Humanin]] ↔ [[Cytoprotection]], [[Humanin]] ↔ [[Mitohormetic Redox-Relay]], [[Humanin]] ↔ [[Mitochondria]]

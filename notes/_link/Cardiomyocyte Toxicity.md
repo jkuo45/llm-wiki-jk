@@ -36,8 +36,9 @@ Cardiotoxicity can present as:
 - [[Statins]] — emerging cardioprotective agents via anti-inflammatory effects
 - [[Exercise]] — improves cardiac reserve and reduces anthracycline cardiotoxicity
 
-### Connections
+#
 
+## Connections
 - [[Cardiomyocyte]] — the target cell type in cardiotoxicity
 - [[Doxorubicin]] — prototypical cardiotoxic chemotherapy agent
 - [[Anthracyclines]] — class of chemotherapy drugs associated with cardiotoxicity
@@ -49,8 +50,7 @@ Cardiotoxicity can present as:
 - [[Exercise]] — cardioprotective; mitigates chemotherapy cardiotoxicity
 - [[NLRP3 Inflammasome]] — inflammatory pathway activated in cardiotoxicity
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[Cardiomyocyte]], [[Doxorubicin]], [[Daunorubicin]], [[Anthracyclines]], [[Oxidative Stress]], [[Mitochondrial Complex I]], [[Superoxide]], [[Hydroxyl radical]], [[DNA]], [[Proteins]], [[Lipids]], [[Mitochondrial Dysfunction]], [[Oxidative Phosphorylation]], [[Mitochondrial Permeability Transition Pore]], [[ATP]], [[Apoptosis]], [[Autophagy]], [[Topoisomerase 2β]], [[p53]], [[Calcium]], [[SERCA]], [[Ryanodine Receptor]], [[NLRP3 Inflammasome]], [[Interleukin 1β]], [[Arrhythmia]], [[QT prolongation]], [[Myocarditis]], [[Cardiomyopathy]], [[Heart Failure]], [[Ejection Fraction]], [[Dexrazoxane]], [[Liposomal Doxorubicin]], [[ACE Inhibitors]], [[Beta-Blockers]], [[Statins]], [[Exercise]], [[Chemotherapy]], [[Adverse Effect]]
 - Suggested new entity notes to create: [[Anthracycline cardiotoxicity]], [[Chemotherapy-induced cardiomyopathy]], [[TOP2B]], [[Dexrazoxane mechanism]], [[HFrEF]], [[Liposomal doxorubicin]]
 - Strong connections to strengthen: [[Cardiomyocyte Toxicity]] ↔ [[Doxorubicin]], [[Cardiomyocyte Toxicity]] ↔ [[Heart Failure]], [[Cardiomyocyte Toxicity]] ↔ [[Oxidative Stress]]

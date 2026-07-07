@@ -19,10 +19,12 @@ aliases: [Death-Associated Protein Kinase]
 
 **Pathological significance:** Altered expression or mutation of DAPK is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
 
-### Connections
+#
+
+## Connections
 - [[DAPK]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[DAPK]]
 - Strong connections to strengthen: [[DAPK]] ↔ [[DAPK]]
 

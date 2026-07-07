@@ -22,6 +22,5 @@ Accumulation of heparan sulfate in [[Lysosome|lysosomes]] triggers secondary sto
 
 Onset at 2-6 years with developmental delay, behavioral problems, sleep disturbance, coarse facies, hepatosplenomegaly, and progressive dementia. Death typically in the second decade. No approved CNS-penetrant therapy exists.
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[Lysosomal Storage Diseases]], [[TFEB]]

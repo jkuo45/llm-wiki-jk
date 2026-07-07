@@ -12,6 +12,6 @@ entity_type_1: Anatomy
 
 The [[Caudate Nucleus]] is one of the two components of the [[Sirtuins]] (along with the [[Putamen]]), forming part of the [[Basal Ganglia]]. It receives dopaminergic input from the [[Substantia Nigra Pars Compacta]] via the [[Nigrostriatal System]] and is involved in motor control, learning, and memory. Degeneration of dopaminergic terminals in the caudate contributes to the motor symptoms of [[Parkinson's Disease]].
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Sirtuins]], [[Putamen]], [[Basal Ganglia]], [[Substantia Nigra Pars Compacta]], [[Nigrostriatal System]], [[Parkinson's Disease]]
 - Strong connections to strengthen: [[Caudate Nucleus]] ↔ [[Nigrostriatal System]]

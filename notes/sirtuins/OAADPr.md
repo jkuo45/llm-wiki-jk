@@ -67,7 +67,6 @@ OAADPr was first described by Landry et al. (2000) as a unique acetyl-ADP-ribose
 - [[SIRT4]] — uses ADP-ribosylation (related chemistry) rather than deacetylation as primary activity
 
 ## Linking Summary
-
 - New links added: [[SIRT1]], [[Sir2 (yeast)]], [[NAD+]], [[SIRT2]], [[SIRT3]], [[SIRT4]], [[TRPM2]]
 - Suggested new entity notes to create: [[TRPM2]], [[ADP-ribose Signalling]]
 - Strong connections to strengthen: [[OAADPr]] ↔ [[TRPM2]], [[OAADPr]] ↔ [[NAD+]]

@@ -32,7 +32,7 @@ Inhibition of Bcl-xL (e.g., by [[ABT-263]]) causes thrombocytopenia (low platele
 - [[Bax]]: Retrotranslocated by Bcl-xL.
 - [[Polo kinase 3]] / [[CDK1]]: Regulatory kinases for Bcl-xL.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Polo kinase 3]], [[CDK1]], [[Phosphorylation]], [[Bax]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[Bcl-xL]] ↔ [[Polo kinase 3]], [[Bcl-xL]] ↔ [[Bax]]

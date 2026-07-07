@@ -51,7 +51,7 @@ The difference between DNAmGrimAge and chronological age — *GrimAge accelerati
 - Cross-sectional: Best for cross-sectional age estimation; longitudinal intervention studies are still emerging.
 - Proteomic surrogates: Not direct protein measurements; DNAm surrogates may miss post-translational regulation.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Aging]], [[Epigenetic Clock]], [[Senescence]], [[Biomarkers]], [[SASP]], [[Partial Reprogramming]], [[Caloric Restriction]], [[Senolytic Drugs]]
 - Suggested new entity notes to create: [[PhenoAge]], [[GrimAge2]], [[Horvath Clock]], [[Hannum Clock]]
 - Strong connections to strengthen: [[DNAmGrimAge]] ↔ [[Epigenetic Clock]], [[DNAmGrimAge]] ↔ [[Aging]]

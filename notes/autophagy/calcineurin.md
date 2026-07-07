@@ -17,7 +17,7 @@ aliases: [PPP3CA, calmodulin-dependent phosphatase]
 
 Calcineurin (PPP3CA) is a Ca2+/calmodulin-dependent phosphatase that dephosphorylates [[TFEB]] at S211 and related sites, triggering its nuclear translocation and activating [[Autophagy]].
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Lysosome]], [[TFEB]], [[TFE3]], [[TRPML1]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[calcineurin]] ↔ [[TFEB]]

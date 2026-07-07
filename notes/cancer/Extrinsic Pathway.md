@@ -25,7 +25,7 @@ The **Extrinsic Pathway**, also known as the **death receptor pathway** of [[Apo
 - [[Caspase-8]]: The principal initiator caspase of the extrinsic pathway.
 - [[TRAIL]]: A death ligand frequently targeted for cancer therapy.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Apoptosis]], [[TNFR1]], [[Fas]], [[DR4]], [[DR5]], [[FasL]], [[TRAIL]], [[FADD]], [[TRADD]], [[Caspase-8]], [[Caspase-3]], [[Intrinsic Pathway]], [[Common Pathway]]
 - Suggested new entity notes to create: [[TNFR1]], [[Fas]], [[DR4]], [[DR5]], [[FasL]], [[TRAIL]], [[FADD]], [[TRADD]], [[Caspase-8]]
 - Strong connections to strengthen: [[Extrinsic Pathway]] ↔ [[Caspase-8]], [[Extrinsic Pathway]] ↔ [[TRAIL]]

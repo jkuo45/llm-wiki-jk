@@ -18,8 +18,7 @@ Leptomycin B is a potent inhibitor of [[CRM1]] (XPO1)-mediated nuclear export. I
 
 Leptomycin B causes nuclear accumulation of [[TFEB]], [[TFE3]], and [[FOXO]] transcription factors, leading to enhanced [[Autophagy]] and lysosomal biogenesis. It is a research tool, too toxic for therapeutic use.
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[CRM1]], [[TFEB]]
 - Suggested new entity notes to create: [[Nuclear Export Inhibitor]]
 - Strong connections to strengthen: [[Leptomycin B]] ↔ [[CRM1]]

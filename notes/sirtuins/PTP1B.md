@@ -43,7 +43,6 @@ PTP1B is a validated therapeutic target for [[Type 2 Diabetes Mellitus]] and [[O
 - [[Leptin Signaling]] — Negatively regulated by PTP1B via JAK2 dephosphorylation
 
 ## Linking Summary
-
 - New links added: [[PTP1B]], [[PTPN1]], [[Insulin Receptor]], [[Insulin Receptor Substrate]], [[Insulin Signaling]], [[Insulin Sensitivity]], [[Leptin Signaling]], [[JAK2]]
 - Suggested new entity notes to create: [[Insulin Receptor]], [[Leptin Signaling]]
 - Strong connections to strengthen: [[SIRT1]] ↔ [[PTP1B]], [[PTP1B]] ↔ [[Insulin Sensitivity]]

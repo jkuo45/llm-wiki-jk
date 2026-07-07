@@ -18,7 +18,7 @@ Ohsumi's pioneering work in the 1990s using baker's yeast ([[Saccharomyces cerev
 ## Impact & Legacy
 The identification of ATG genes enabled the field to move from descriptive microscopy to mechanistic molecular biology. Ohsumi's work laid the foundation for understanding autophagy's roles in aging, neurodegeneration, cancer, infection, and metabolic disease. His genetic approach in yeast - unbiased mutant screens for autophagy-defective (apg/atg) strains - remains a model for dissecting complex cellular pathways.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Macroautophagy]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Yoshinori Ohsumi]] ↔ [[Macroautophagy]]

@@ -12,7 +12,9 @@ entity_type_1: Protein
 Amyloid precursor protein, an integral membrane protein whose proteolysis by secretases generates [[Beta-amyloid]].
 
 
-### Connections
+#
+
+## Connections
 - [[Beta-amyloid]] — interacts with APP
-### Linking Summary
+## Linking Summary
 - New links added: [[Beta-amyloid]], [[TFEB]]

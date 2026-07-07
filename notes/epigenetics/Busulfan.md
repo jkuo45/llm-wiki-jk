@@ -10,7 +10,7 @@ entity_type_1: Chemical Compound
 # Busulfan
 Busulfan is a chemical compound and alkylating agent used in chemotherapy that induces DNA cross-links and is often used to model cellular senescence in research.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[DNA Damage]], [[Senescence]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Busulfan]] <-> [[Senescence]]

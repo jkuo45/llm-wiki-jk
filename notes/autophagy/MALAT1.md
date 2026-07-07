@@ -22,6 +22,5 @@ MALAT1 modulates [[Autophagy]] through multiple mechanisms: it sponges [[miR-101
 
 MALAT1 is overexpressed in multiple cancers and promotes metastasis. It also regulates [[Inflammation]], [[Vascular Remodeling]], and metabolic gene expression. Antisense oligonucleotide (ASO) targeting MALAT1 is under investigation.
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[TFEB]], [[Renal Cell Carcinoma]]

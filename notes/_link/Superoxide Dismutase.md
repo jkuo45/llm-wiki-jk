@@ -17,14 +17,16 @@ Superoxide dismutase (SOD) is an enzyme that alternately catalyzes the dismutati
 ## Function
 It serves as a key component of the antioxidant defense system, protecting cells from ROS-induced damage.
 
-### Connections
+#
+
+## Connections
 - [[Superoxide anion]]
 - [[Hydrogen Peroxide]]
 - [[Oxidative Stress]]
 - [[Antioxidants]]
 - [[Reactive Oxygen Species]]
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Superoxide Radicals]], [[Hydrogen Peroxide]], [[Reactive Oxygen Species]], [[Oxidative Stress]]
 - Suggested new entity notes to create: [[Antioxidant defense system]]
 - Strong connections to strengthen: [[Superoxide Dismutase]] ↔ [[Superoxide Radicals]]

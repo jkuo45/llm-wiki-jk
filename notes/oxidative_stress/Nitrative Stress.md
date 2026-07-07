@@ -13,11 +13,6 @@ tags: [oxidative_stress, rns, nitric_oxide]
 # Nitrative Stress
 Nitrative stress is a condition in which the production of [[Reactive Nitrogen Species]] exceeds the body's ability to neutralize them, leading to damage to proteins, lipids, and DNA. A key mediator is [[Peroxynitrite]], which is formed from the reaction of [[Nitric Oxide]] and superoxide.
 
-## Linking Summary
-- New links added: [[Peroxynitrite]], [[Nitric Oxide]], [[Reactive Nitrogen Species]]
-- Suggested new entity notes to create: [[Reactive Nitrogen Species]], [[Protein nitration]]
-- Strong connections to strengthen: [[Nitrative Stress]] ↔ [[Peroxynitrite]]
-
 ## Peroxynitrite Chemistry: Formation and Decomposition
 
 Peroxynitrite (ONOO−) is formed by the near-diffusion-limited reaction between [[Nitric Oxide]] (•NO) and [[Superoxide Radicals]] (O2•−), with a rate constant of 6.7 × 10^9 M^−1·s^−1. This rate is approximately three times faster than the dismutation of superoxide by [[Superoxide Dismutase|SOD]] (~2 × 10^9 M^−1·s^−1), meaning that •NO effectively outcompetes SOD for superoxide wherever both species coexist. Peroxynitrite is a strong oxidant (E°′ ~1.4 V at pH 7.4) relative to other biological species. At physiological pH, peroxynitrite rapidly protonates to peroxynitrous acid (ONOOH, pKa ~6.8), which undergoes homolytic cleavage to form [[Hydroxyl Radicals]] (•OH) and nitrogen dioxide (•NO2) — two highly reactive secondary radicals that propagate oxidative damage independently. Alternatively, peroxynitrite reacts with CO2 (present at ~1.3 mM in biological fluids) to form the nitrosoperoxycarbonate anion (ONOOC(O)O−), which decomposes to •NO2 and carbonate radical (CO3•−), the latter being a potent one-electron oxidant (E°′ ~1.6 V). This CO2-dependent pathway is the dominant route of peroxynitrite decomposition in vivo (~90% of flux), redirecting nitrative chemistry toward carbon-centered radicals.
@@ -51,6 +46,9 @@ Interventions against nitrative stress target peroxynitrite formation, scavengin
 - [[Melatonin]]: Scavenges peroxynitrite and the hydroxyl radical.
 - [[EGCG]]: Green tea polyphenol with peroxynitrite-scavenging capacity.
 
-### Updated Linking Summary:
+## Linking Summary
 - New links added in this revision: [[Superoxide Dismutase]], [[Hydroxyl Radicals]], [[Apoptosis]], [[Rheumatoid Arthritis]], [[Atherosclerosis]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Ischemia-reperfusion Injury]], [[Mitochondria]], [[Mitochondrial Dysfunction]], [[PPARγ]], [[NRF2]], [[HO-1]], [[NQO1]], [[Glutathione]], [[8-oxo-2'-deoxyguanosine]], [[Chromatin]], [[Gastric Cancer]], [[EGCG]], [[Melatonin]], [[N-Acetylcysteine]], [[Lipids]], [[Signaling Molecules]], [[Permeability Transition Pore]], [[Aconitase]], [[Mitochondrial Dysfunction]], [[NFKB]]
 - Suggested new entity notes to create: [[3-Nitrotyrosine]], [[8-Nitroguanine]], [[Mitochondrial NOS]], [[Metalloporphyrin Catalysts]], [[Nitrated Fatty Acids]]
+- New links added: [[Peroxynitrite]], [[Nitric Oxide]], [[Reactive Nitrogen Species]]
+- Suggested new entity notes to create: [[Reactive Nitrogen Species]], [[Protein nitration]]
+- Strong connections to strengthen: [[Nitrative Stress]] ↔ [[Peroxynitrite]]

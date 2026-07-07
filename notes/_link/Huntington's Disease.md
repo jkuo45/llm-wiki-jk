@@ -20,13 +20,15 @@ entity_type_1: Medical Condition
 Huntington's disease (HD) is a neurodegenerative disorder characterized by protein aggregation; increasing [[TFEB]] function via [[PGC1-α]] has been shown to rescue its proteotoxicity.
 
 
-### Connections
+#
+
+## Connections
 - [[Autophagy]] — cellular self-degradation pathway; clears damaged proteins and organelles
 - [[Autophagic Flux]] — interacts with Huntington's Disease
 - [[Caloric Restriction]] — dietary intervention; extends lifespan across taxa
 - [[Intermittent Fasting]] — interacts with Huntington's Disease
 - [[TFEB]] — master transcription factor for lysosomal biogenesis and autophagy
-### Linking Summary
+## Linking Summary
 - New links added: [[TFEB]], [[PGC1-α]], [[Autophagy]], [[Autophagic Flux]], [[Caloric Restriction]], [[Intermittent Fasting]]
 - Suggested new entity notes to create: [[Neurodegenerative Disease]]
 - Strong connections to strengthen: [[Huntington's Disease]] ↔ [[TFEB]], [[Huntington's Disease]] ↔ [[Neurodegenerative Diseases|Neurodegenerative Disease]], [[Huntington's Disease]] ↔ [[Autophagy]]

@@ -19,10 +19,12 @@ aliases: [Inflammatory Cytokines]
 
 **Pathological significance:** Altered expression or mutation of Pro-inflammatory Cytokines is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
 
-### Connections
+#
+
+## Connections
 - [[Pro-inflammatory Cytokines]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Pro-inflammatory Cytokines]]
 - Strong connections to strengthen: [[Pro-inflammatory Cytokines]] ↔ [[Pro-inflammatory Cytokines]]
 

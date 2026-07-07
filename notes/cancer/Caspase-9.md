@@ -37,7 +37,7 @@ Downregulation of Caspase-9 has been linked to poor clinical outcomes in stage I
 - [[Akt]] / [[PKA]] / [[ERK]]: Inhibitory kinases for Caspase-9.
 - [[c-ABL]]: Pro-apoptotic activator kinase for Caspase-9.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[PP1α]], [[Prostate Cancer]], [[Colon Cancer]], [[Akt]], [[PKA]], [[ERK]], [[p38 MAPK]], [[DYRK1A]], [[PKCζ]], [[c-ABL]], [[Phosphorylation]], [[Inhibitor of Apoptosis Proteins]], [[Smac-DIABLO]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[Caspase-9]] ↔ [[Apoptosome]], [[Caspase-9]] ↔ [[Akt]], [[Caspase-9]] ↔ [[c-ABL]]

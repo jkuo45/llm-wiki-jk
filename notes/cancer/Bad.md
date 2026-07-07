@@ -33,7 +33,7 @@ Dysregulation of Bad phosphorylation, often through overactive [[Akt]] signaling
 - [[Intrinsic Pathway]]: Promoted by active (dephosphorylated) Bad.
 - [[PAK1]] / [[IKK]] / [[PKA]]: Inhibitory kinases for Bad.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Akt]], [[PAK1]], [[IKK]], [[PKA]], [[Phosphorylation]]
 - Suggested new entity notes to create: [[p70S6 kinase]]
 - Strong connections to strengthen: [[Bad]] ↔ [[Akt]], [[Bad]] ↔ [[PAK1]]

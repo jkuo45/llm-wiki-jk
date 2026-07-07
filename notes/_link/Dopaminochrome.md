@@ -32,13 +32,15 @@ Dopaminochrome reacts rapidly with [[Glutathione]] (GSH) to form [[5-S-Glutathio
 ## Melanin Formation Pathway
 Dopaminochrome polymerization proceeds through a biochemically distinct pathway from [[Adrenochrome]] polymerization. Following cyclization, dopaminochrome undergoes isomerization to [[5,6-Dihydroxyindole]] (DHI) and [[5,6-Dihydroxyindole-2-Carboxylic Acid]] (DHICA), which are the building blocks of [[Neuromelanin]]. This isomerization is catalyzed by [[Dopachrome tautomerase]] (DCT, also known as tyrosinase-related protein 2), which converts dopaminochrome to DHICA and provides carboxylate groups that chelate metal ions (Fe³⁺, Cu²⁺, Zn²⁺). The ratio of DHI to DHICA incorporation determines neuromelanin's physico-chemical properties, including its antioxidant capacity and metal binding affinity. In PD, neuromelanin is depleted from surviving neurons, and the melanin that remains is more heavily crosslinked and contains higher levels of redox-active iron, suggesting dysregulated aminochrome polymerization as a disease feature.
 
-### Connections
+#
+
+## Connections
 - [[Dopamine]] ↔ The precursor molecule for dopaminochrome.
 - [[Adrenochrome]] ↔ The analogous molecule derived from [[Epinephrine]].
 - [[Neuromelanin]] ↔ The final pigment product of dopaminochrome polymerization.
 - [[Catecholamines]] ↔ Class of molecules to which dopamine belongs.
 - [[Redox Cycling]] ↔ Mechanism by which dopaminochrome exacerbates oxidative stress.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Dopaminochrome]], [[Oxidation]], [[Dopamine]], [[Adrenochrome]], [[Reactive Oxygen Species]], [[Oxidative Stress]], [[Neuromelanin]], [[Redox Cycling]], [[Superoxide anion]], [[Catecholamines]], [[Epinephrine]], [[5-S-Cysteinyl-Dopamine]], [[Parkinson's Disease]], [[VMAT2]], [[NMDA Receptor]], [[L-Type Calcium Channel]], [[Parkin]], [[DJ-1]], [[SNCA]], [[1-Methyl-4-phenyl-1, 2, 3, 6-tetrahydropyridine]], [[5, 6-Dihydroxyindole]], 6-Dihydroxyindole-2-Carboxylic Acid]], [[Dopachrome tautomerase]], [[NDUFS1]], [[NDUFS3]], [[Ascorbic Acid]], [[Glutathione]], [[Tyrosinase]], [[Dopamine o-quinone]], [[Aminochromes]], [[Substantia Nigra]]
 - Strong connections to strengthen: [[Dopaminochrome]] ↔ [[Dopamine]], [[Dopaminochrome]] ↔ [[Parkinson's Disease]], [[Dopaminochrome]] ↔ [[Neuromelanin]]

@@ -20,12 +20,14 @@ Renal cell carcinoma is a fatal malignant tumor of the urinary system derived fr
 - **Oxidative Damage:** Induces oxidative stress, which can be reversed by antioxidants like [[N-acetyl-L-cysteine]] (NAC).
 - **Mitochondrial Stress Markers:** Increases the expression of markers such as HEL.
 
-### Connections
+#
+
+## Connections
 - [[Ivermectin]]: Selectively inhibits renal cancer cell proliferation.
 - [[ATP]]: Production is inhibited by ivermectin in renal cancer cells.
 - [[N-acetyl-L-cysteine]]: Antioxidant that can reverse ivermectin-induced inhibition.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[TFE3]], [[TFEB]], [[Cancer]], [[MALAT1]], [[Ivermectin]], [[N-acetyl-L-cysteine]].
 - Suggested new entity notes to create: [[MiT Family Translocation RCC]], [[N-acetyl-L-cysteine]].
 - Strong connections to strengthen: [[Renal Cell Carcinoma]] ↔ [[TFEB]], [[Renal Cell Carcinoma]] ↔ [[Ivermectin]]

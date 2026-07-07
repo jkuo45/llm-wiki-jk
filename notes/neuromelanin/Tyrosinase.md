@@ -19,7 +19,7 @@ While tyrosinase is primarily known for its role in peripheral melanocytes, its 
 ## Significance in Parkinson's Disease
 In experimental rodent models, the progressive accumulation of neuromelanin driven by hTyr overexpression eventually triggers [[Parkinson's Disease]]-like pathology, including motor deficits and neurodegeneration, once a certain [[Pathogenic Threshold of Neuromelanin]] is reached.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Substantia Nigra]], [[Neuromelanin]], [[Parkinson's Disease]], [[Pathogenic Threshold of Neuromelanin]].
 - Suggested new entity notes to create: [[Tyrosinase-related protein-1]], [[Melanogenesis]].
 - Strong connections to strengthen: [[Tyrosinase]] ↔ [[Neuromelanin Synthesis]].

@@ -43,7 +43,7 @@ TSG inactivation is a major route of escape from [[Cellular Senescence|senescenc
 3. **Epigenetic editing:** [[CRISPR]]-dCas9-[[TET1]] to demethylate specific TSG promoters.
 4. **Transcriptional reactivation:** [[HDAC inhibitors]] (e.g., [[Panobinostat]]) to open silenced TSG chromatin.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Cancer]], [[p53]], [[RB1]], [[DNA Repair]], [[Senescence]], [[Epigenetic Modifiers]], [[Apoptosis]]
 - Suggested new entity notes to create: [[CDH1]], [[MLH1]], [[RASSF1A]], [[VHL]], [[BRCA1]], [[Knudson Two-Hit Hypothesis]]
 - Strong connections to strengthen: [[Tumor Suppressor Gene]] ↔ [[Cancer]], [[Tumor Suppressor Gene]] ↔ [[Senescence]]

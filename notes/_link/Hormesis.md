@@ -68,7 +68,9 @@ Quantitative features:
 [[Mithridatism]] — the practice of gradually increasing exposure to a toxin to build tolerance — is an applied form of hormesis. Named after [[Mithridates VI]] of Pontus, who reportedly consumed [[Antidotum Mithridaticum]] daily, the strategy relies on the same overcompensation principle: repeated low-dose challenges induce sustained upregulation of detoxification and repair pathways, conferring resistance to doses that would otherwise be lethal. Modern applications include allergen immunotherapy and ischemic preconditioning protocols.
 
 
-### Connections
+#
+
+## Connections
 - [[Mitohormesis]] — interacts with Hormesis
 - [[Xenohormesis]] — interacts with Hormesis
 - [[Oxidative Stress]] — imbalance between ROS production and antioxidant capacity
@@ -84,7 +86,7 @@ Quantitative features:
 - [[HSP70]] — interacts with Hormesis
 - [[Hsp90]] — interacts with Hormesis
 - [[Unfolded Protein Response]] — interacts with Hormesis
-### Linking Summary
+## Linking Summary
 - New links added: [[Mitohormesis]], [[Xenohormesis]], [[Oxidative Stress]], [[Longevity]], [[NRF2]], [[ARE]], [[NQO1]], [[HO-1]], [[Glutathione S-transferase]], [[Catalase]], [[HSF1]], [[HSP70]], [[Hsp90]], [[Unfolded Protein Response]], [[PERK]], [[ATF6]], [[IRE1α]], [[Autophagy]], [[Mitophagy]], [[AMPK]], [[SIRT1]], [[TFEB]], [[DNA Damage Response]], [[ATM]], [[ATR]], [[FOXO]], [[Mitochondrial Biogenesis]], [[Insulin Sensitivity]], [[Resveratrol]], [[Sulforaphane]], [[Curcumin]], [[Epicatechin]], [[Mithridatism]], [[Mithridates VI]], [[Antidotum Mithridaticum]], [[Hormetic Window]]
 - Suggested new entity notes to create: [[Arndt-Schulz Law]], [[Biphasic dose response]], [[Overcompensation Hypothesis]]
 - Strong connections to strengthen: [[Hormesis]] ↔ [[Evolutionary Biology]], [[Hormesis]] ↔ [[Mithridatism]], [[Hormesis]] ↔ [[Hormetic Window]], [[Hormesis]] <-> [[Oxidative Stress]]

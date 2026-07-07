@@ -13,13 +13,15 @@ Lactobacillus is a genus of Gram-positive, facultative anaerobic or microaerophi
 
 
 
-### Connections
+#
+
+## Connections
 - [[Bifidobacterium]] — related entity
 - [[Gut Microbiome]] — related entity
 - [[Lactic Acid]] — related entity
 - [[Lactobacillus]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Gut Microbiome]], [[Bifidobacterium]]
 - Suggested new entity notes to create: [[Lactic Acid]]
 - Strong connections to strengthen: [[Lactobacillus]] ↔ [[Gut Microbiome]]

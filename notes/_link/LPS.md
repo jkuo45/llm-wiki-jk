@@ -12,8 +12,10 @@ entity_type_1: Chemical Compound
 Lipopolysaccharide, a major component of the outer membrane of Gram-negative bacteria and a potent inducer of [[Macrophage]] activation and [[TFE3]] translocation.
 
 
-### Connections
+#
+
+## Connections
 - [[Macrophage]] — interacts with LPS
 - [[TFE3]] — interacts with LPS
-### Linking Summary
+## Linking Summary
 - New links added: [[Macrophage]], [[TFE3]]

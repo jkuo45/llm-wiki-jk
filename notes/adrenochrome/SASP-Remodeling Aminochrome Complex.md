@@ -26,7 +26,7 @@ The **SASP-Remodeling Aminochrome Complex (SRAC)** is a senomorphic therapeutic 
 - Significant reduction in systemic SASP biomarkers (IL-6, IL-1β, MCP-1).
 - Improved tissue regeneration and reduced chronic "inflammaging."
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Adrenochrome]], [[Rapamycin]], [[Fisetin]], [[GlyNAC]], [[SASP]], [[Glutathione]], [[Inflammaging]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[SASP-Remodeling Aminochrome Complex]] ↔ [[Senescence]]

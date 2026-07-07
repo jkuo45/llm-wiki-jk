@@ -30,7 +30,6 @@ The concept was proposed following observations in *C. elegans* that tissue-spec
 - [[Cell non-autonomous signaling]]
 
 ## Linking Summary
-
 - New links added: [[Mitochondrial Unfolded Protein Response]], [[Humanin]], [[FGF21]], [[GDF15]], [[Mitohormesis]]
 - Suggested new entity notes to create: [[Cell non-autonomous signaling]]
 - Strong connections to strengthen: [[Mitokines]] ↔ [[Inter-organ signaling]]

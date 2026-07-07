@@ -19,7 +19,7 @@ PGC1-α (PPARGC1A) is a transcriptional coactivator that regulates [[Mitochondri
 
 PGC1-α is deacetylated by [[SIRT1]] and acetylated by [[GCN5]]. [[AMPK]] phosphorylates and activates PGC1-α.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Mitochondrial Biogenesis]], [[oxidative metabolism]], [[mTORC1]], [[YY1]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[PGC1-α]] ↔ [[mTORC1]]

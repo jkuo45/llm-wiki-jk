@@ -42,7 +42,6 @@ GATA5 is a risk locus for coronary artery disease and bicuspid aortic valve. SIR
 - [[Bicuspid Aortic Valve]] — Congenital defect associated with GATA5 variants
 
 ## Linking Summary
-
 - New links added: [[GATA5]], [[EndMT]], [[GATA4]], [[Vascular Endothelial Injury]], [[Bicuspid Aortic Valve]], [[Nkx3.2]]
 - Suggested new entity notes to create: [[GATA6]], [[Atrial septal defect]], [[Cardiac bifida]]
 - Strong connections to strengthen: [[SIRT6]] ↔ [[GATA5]], [[Nkx3.2]] ↔ [[GATA5]]

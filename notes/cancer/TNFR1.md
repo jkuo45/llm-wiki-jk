@@ -23,7 +23,7 @@ TNFR1 signaling is a critical balance point in cancer. While it can induce apopt
 - [[NFκB]]: A pro-survival pathway often activated by TNFR1.
 - [[Caspase-8]]: The initiator caspase activated downstream of TNFR1.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Apoptosis]], [[Extrinsic Pathway]], [[TRADD]], [[FADD]], [[NFκB]], [[Caspase-8]], [[Fas]]
 - Suggested new entity notes to create: [[TRADD]], [[FADD]]
 - Strong connections to strengthen: [[TNFR1]] ↔ [[Extrinsic Pathway]]

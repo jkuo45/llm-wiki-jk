@@ -26,5 +26,5 @@ Recent studies, such as "Molecular Insights into Reprogramming-Initiation Events
 - [[Induced Pluripotent Stem Cells]]: The product of OSKM-mediated reprogramming.
 - [[Cellular Reprogramming]]: The biological process driven by OSKM.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Oct4]], [[Sox2]], [[Klf4]], [[c-Myc]], [[Yamanaka Factors]], [[Somatic Cells]], [[Induced Pluripotent Stem Cells]], [[Shinya Yamanaka]], [[Stem Cell Research]], [[Regenerative Medicine]], [[Innate Immunity]], [[Reactive Oxygen Species]], [[DNA Damage]], [[p53]], [[Mesenchymal-to-Epithelial Transition]], [[PODXL]], [[GSK3B]], [[Wnt signaling]], [[Cellular Reprogramming]]

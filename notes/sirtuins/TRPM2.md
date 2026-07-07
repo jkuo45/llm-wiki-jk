@@ -36,7 +36,6 @@ TRPM2 is unique among ion channels because it is directly gated by sirtuin react
 - [[NAD+]] — required co-substrate for the sirtuin reactions that generate OAADPr
 
 ## Linking Summary
-
 - New links added: [[OAADPr]], [[SIRT2]], [[SIRT3]], [[NAD+]]
 - Suggested new entity notes to create: [[Calcium Influx]], [[Excitotoxicity]]
 - Strong connections to strengthen: [[TRPM2]] ↔ [[OAADPr]]

@@ -33,6 +33,5 @@ aliases:
 - [[CREB]]: A transcription factor critical for BDNF expression.
 - [[TRPM2]]: BDNF signaling can modulate TRPM2 channel activity, affecting Ca2+ homeostasis.
 
-### Linking Summary:
-
+## Linking Summary
 - New links added: [[SIRT1]], [[PGC-1α]], [[Hes1 and Hey2]], [[Exercise]], [[NAD+]], [[Caloric Restriction]], [[Intermittent Fasting]], [[Neurogenesis]], [[Brain]], [[Hippocampus]], [[Depression]], [[Neurodegeneration]], [[CREB]], [[TRPM2]], [[Mitochondrial Biogenesis]]

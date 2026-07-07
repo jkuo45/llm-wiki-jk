@@ -18,10 +18,12 @@ aliases: [Hepatic]
 
 **Pathological relevance:** Dysfunction or loss of Liver underlies specific disease states. Understanding its biology provides insights into regenerative medicine and therapeutic targeting.
 
-### Connections
+#
+
+## Connections
 - [[Liver]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Liver]]
 - Strong connections to strengthen: [[Liver]] ↔ [[Liver]]
 

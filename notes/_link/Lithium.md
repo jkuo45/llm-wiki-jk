@@ -18,10 +18,12 @@ entity_type_1: Chemical Compound
 
 **Safety and toxicity:** The safety profile of Lithium depends on dose, duration of exposure, and individual susceptibility. Understanding its toxicology is essential for safe therapeutic use.
 
-### Connections
+#
+
+## Connections
 - [[Lithium]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Lithium]]
 - Strong connections to strengthen: [[Lithium]] ↔ [[Lithium]]
 

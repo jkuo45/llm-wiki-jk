@@ -23,13 +23,15 @@ The efficiency and expression of DNMT1 are known to decline as organisms age.
 ### 3. Clinical Relevance
 DNMT1 is a critical target in [[Cancer]] research, as its overexpression can lead to the silencing of tumor suppressor genes. Conversely, its decline is a hallmark of the aging epigenome, making it a focal point for understanding longevity and genomic stability.
 
-### Connections
+#
+
+## Connections
 - **[[DNA Methylation]]**: The process DNMT1 maintains.
 - **[[DNA Methyltransferase]]**: The enzyme family to which DNMT1 belongs.
 - **[[DNA Replication]]**: The cellular process during which DNMT1 performs its primary function.
 - **[[Aging]]**: DNMT1 decline is a major contributor to age-related epigenetic changes.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[DNMT1]], [[DNA Methylation]], [[DNA Replication]], [[Aging]], [[Cellular Senescence]], [[DNA Methyltransferase]], [[Cancer]]
 - Suggested new entity notes to create: [[Maintenance Methylation]], [[Hemi-methylated DNA]], [[UHRF1]]
 - Strong connections to strengthen: [[DNMT1]] ↔ [[DNA Methylation]], [[DNMT1]] ↔ [[Aging]]

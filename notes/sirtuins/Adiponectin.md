@@ -42,7 +42,6 @@ Adiponectin acts via its receptors (AdipoR1 and AdipoR2) to:
 - [[Caloric Restriction]] — increases circulating adiponectin levels
 
 ## Linking Summary
-
 - New links added: [[SIRT1]], [[FoxO1]], [[Caloric Restriction]]
 - Suggested new entity notes to create: [[AMPK]], [[Adiponectin Receptors]]
 - Strong connections to strengthen: [[Adiponectin]] ↔ [[SIRT1]]

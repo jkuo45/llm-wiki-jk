@@ -47,7 +47,6 @@ target: SIRT6
 ---
 
 ## Linking Summary
-
 - New links added: [[SIRT6]], [[MDL-801]], [[Cyanidin]], [[Cancer]]
 - Suggested new entity notes: [[MDL-800]], [[HIF-1α]]
 - Strong connections: [[UBCS039]] ↔ [[SIRT6]], [[UBCS039]] ↔ [[MDL-801]]

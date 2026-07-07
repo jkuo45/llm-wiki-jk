@@ -39,7 +39,7 @@ Several approaches exist to elevate intracellular GSH, each with distinct pharma
 - [[Adrenochrome]]: GlyNAC mitigates potential toxicity of adrenochrome-based therapies.
 - [[SASP-Remodeling Aminochrome Complex]]: Strategy for modulating cellular senescence.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Glycine]], [[N-Acetylcysteine]], [[Glutathione]], [[Adrenochrome]], [[SASP-Remodeling Aminochrome Complex]], [[Glutamate-Cysteine Ligase]], [[Glutathione Synthetase]], [[γ-Glutamyl Cycle]], [[Reducing Agent]], [[Glycine Receptors]], [[Glycine N-Methyltransferase]], [[Taurine]], [[Coenzyme A]], [[Bile Acids]], [[Mitohormetic Redox-Relay]], [[Leuco-adrenochrome]], [[Redox Cycling]], [[Superoxide anion]], [[F2-Isoprostanes]], [[Protein Carbonyls]], [[ATP]], [[Mitochondrial Membrane Potential]], [[HOMA-IR]], [[TNFα]], [[Interleukin-6]], [[CRP]], [[Type 2 Diabetes Mellitus]], [[Glycemic Control]], [[HbA1c]], [[Endothelial Function]], [[Oxidative Stress]], [[Mitochondrial Dysfunction]], [[Inflammaging]], [[Insulin Resistance]], [[Cellular Senescence]], [[Glyoxalase System]], [[Methylglyoxal]], [[Mitochondrial Biogenesis]], [[Autophagy]], [[NRF2]], [[ARE]], [[S-adenosylmethionine]], [[Whey Protein]], [[N-Acetylcysteine Amide]], [[Sodium Selenite]], [[Selenomethionine]], [[Glutathione Peroxidase]], [[Carbazochrome]]
 - Suggested new entity notes to create: [[Glycine]], [[N-Acetylcysteine]]
 - Strong connections to strengthen: [[GlyNAC]] ↔ [[Glutathione]], [[GlyNAC]] ↔ [[Mitohormetic Redox-Relay]]

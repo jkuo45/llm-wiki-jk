@@ -18,10 +18,12 @@ entity_type_1: Medical Condition
 
 **Therapeutic strategies:** Management of Glioma includes pharmacological interventions, lifestyle modifications, and supportive care. Emerging therapies target specific molecular pathways involved in disease progression.
 
-### Connections
+#
+
+## Connections
 - [[Glioma]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Glioma]]
 - Strong connections to strengthen: [[Glioma]] ↔ [[Glioma]]
 

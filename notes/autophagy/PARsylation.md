@@ -20,8 +20,7 @@ PARsylation is the addition of poly-ADP-ribose chains to target proteins by PARP
 
 PARsylation regulates [[Autophagy]] through modification of [[ULK1]], [[TFEB]], and [[mTORC1]] components. PARP inhibitors ([[Olaparib]]) induce autophagy in cancer cells.
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[TFEB]], [[Tankyrases]]
 - Suggested new entity notes to create: [[PARP]]
 - Strong connections to strengthen: [[PARsylation]] ↔ [[TFEB]]

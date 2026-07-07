@@ -24,7 +24,7 @@ entity_type_1: Enzyme
 - [[Caspase-9]]: Activated via the Cytochrome c/Apaf-1 axis.
 - [[Bax]]: Promotes the release of Cytochrome c.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Intrinsic Pathway]], [[Apoptosis]], [[Bax]], [[Bak]], [[Apaf-1]], [[Caspase-9]], [[Apoptosome]]
 - Suggested new entity notes to create: [[Apaf-1]], [[Apoptosome]]
 - Strong connections to strengthen: [[Cytochrome c]] ↔ [[Apaf-1]], [[Cytochrome c]] ↔ [[Apoptosome]]

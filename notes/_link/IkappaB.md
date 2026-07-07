@@ -26,8 +26,9 @@ IκB proteins contain multiple [[Ankyrin Repeat]] domains that bind the [[Nuclea
 - **[[BCL-3]]** — atypical IκB; can act as a transcriptional coactivator
 - **[[p105]]/[[p100]]** — precursor proteins; contain C-terminal IκB-like domains; processed to [[p50]] and [[p52]]
 
-### Connections
+#
 
+## Connections
 - [[NFκB]] — IκB binds and inhibits NF-κB in the cytoplasm
 - [[IkappaBalpha]] — primary IκB family member in canonical signaling
 - [[IKKbeta]] — kinase that phosphorylates IκB to trigger degradation
@@ -39,8 +40,7 @@ IκB proteins contain multiple [[Ankyrin Repeat]] domains that bind the [[Nuclea
 - [[Inflammation]] — IκB degradation enables NF-κB-driven inflammation
 - [[TNFα]] — induces IκBα degradation via IKKβ
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[NFκB]], [[IkappaBalpha]], [[IκBβ]], [[IκBε]], [[IκBζ]], [[BCL-3]], [[p105]], [[p100]], [[p50]], [[p52]], [[p65]], [[Rel]], [[c-Rel]], [[IKKbeta]], [[IKK complex]], [[Ubiquitin]], [[Proteasome]], [[Proteasomal Degradation]], [[Ankyrin Repeat]], [[Nuclear Localization Signal]], [[Cytosol]], [[Nucleus]], [[TNFα]], [[IL-6]], [[Inflammation]], [[Feedback Loop]]
 - Suggested new entity notes to create: [[Canonical NF-κB pathway]], [[Atypical IκB]], [[K48-linked ubiquitination]], [[NF-κB negative feedback]]
 - Strong connections to strengthen: [[IkappaB]] ↔ [[NFκB]], [[IkappaB]] ↔ [[IKKbeta]], [[IkappaB]] ↔ [[Inflammation]]

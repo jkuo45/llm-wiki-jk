@@ -22,7 +22,7 @@ PIKfyve produces [[PtdIns(3,5)P2]] from [[PtdIns3P]] at late endosomes and [[Lys
 ## Autophagy Connection
 PIKfyve is essential for [[Autophagic Lysosome Reformation]] (ALR), the process that regenerates functional lysosomes from [[Autolysosome]]s after cargo degradation. PIKfyve inhibition causes lysosomal enlargement, blocks autophagic flux, and traps [[LC3]]-positive vesicles. This makes PIKfyve a target for autophagy modulation in cancer and lysosomal storage disorders.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[PtdIns3P]], [[PtdIns(3,5)P2]], [[Lysosome]], [[TRPML1]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[PIKfyve]] ↔ [[Lysosome]]

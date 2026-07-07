@@ -12,7 +12,9 @@ entity_type_1: Enzyme
 Three prime repair exonuclease 1, which degrades host cytosolic DNA; its deficiency leads to [[TFEB]]-dependent interferon-stimulated gene expression.
 
 
-### Connections
+#
+
+## Connections
 - [[TFEB]] — master transcription factor for lysosomal biogenesis and autophagy
-### Linking Summary
+## Linking Summary
 - New links added: [[TFEB]], [[DNA Repair]]

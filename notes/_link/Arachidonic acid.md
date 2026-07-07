@@ -19,10 +19,12 @@ aliases: [AA]
 
 **Clinical significance:** Altered levels of Arachidonic acid are observed in metabolic disorders, mitochondrial diseases, and nutritional deficiencies. Supplementation or pharmacological modulation of this metabolite has therapeutic potential.
 
-### Connections
+#
+
+## Connections
 - [[Arachidonic acid]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Arachidonic acid]]
 - Strong connections to strengthen: [[Arachidonic acid]] ↔ [[Arachidonic acid]]
 

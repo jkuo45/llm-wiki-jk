@@ -31,7 +31,7 @@ The Apaf-1 heptamer recruits pro-[[Caspase-9]] molecules through CARD-CARD domai
 - [[RSK]] / [[HSP90β]]: Inhibitors of Apaf-1.
 - [[p53]] / [[E2F1]]: Transcriptional regulators of Apaf-1.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[RSK]], [[HSP90β]], [[Apaf-1 inhibitor]], [[p53]], [[E2F1]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[Apaf-1]] ↔ [[RSK]], [[Apaf-1]] ↔ [[HSP90β]]

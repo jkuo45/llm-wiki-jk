@@ -16,7 +16,7 @@ Peroxisomes are small, membrane-bound organelles found in nearly all eukaryotic 
 
 Peroxisomes are organelles for β-oxidation of VLCFAs, ether lipid synthesis, and ROS metabolism. They are degraded by [[Pexophagy]].
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Beta-Oxidation]], [[Peroxisome Biogenesis Network]], [[Selective Autophagy]], [[PERO1]], [[ESCRT]], [[LC3]], [[PEX Genes]], [[Zellweger syndrome]], [[Adrenoleukodystrophy]]
 - Suggested new entity notes to create: [[PEX Genes]], [[Pexophagy]]
 - Strong connections to strengthen: [[Peroxisome]] ↔ [[Autophagy]], [[Peroxisome]] ↔ [[Beta-Oxidation]]

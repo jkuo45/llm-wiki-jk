@@ -19,10 +19,12 @@ aliases: [Ras-related C3 Botulinum Toxin Substrate 1]
 
 **Pathological significance:** Altered expression or mutation of Rac1 is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
 
-### Connections
+#
+
+## Connections
 - [[Rac1]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Rac1]]
 - Strong connections to strengthen: [[Rac1]] ↔ [[Rac1]]
 

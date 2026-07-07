@@ -184,14 +184,12 @@ Autophagy can be modulated by:
 *   **Pharmacological Agents**: [[mTOR]] inhibitors ([[Rapamycin]], [[Rapalog]]), [[AMPK]] activators ([[Metformin]]), and [[Caloric Restriction Mimetics]] ([[Spermidine]]).
 
 
-### Linking Summary
-
-- New links added: [[Aging]], [[Alzheimer's Disease]], [[Cellular Senescence]], [[DNA Methylation]], [[DNA Methyltransferase]], [[Epigenetics]], [[Epigenome]], [[HDAC]], [[Histone Modification]], [[Lewy Bodies]], [[MicroRNA]], [[Neurodegenerative Diseases]], [[Neuromelanin]], [[Non-coding RNA]], [[Parkinson's Disease]], [[SIRT1]], [[Sirtuins]], [[Oxidative Stress]]
+## Linking Summary
+- New links added: [[Aging]], [[SIRT1]], [[Caloric Restriction]], [[Mitophagy]], [[p62]], [[Lysosome]], [[mTORC1]], [[AMPK]], [[LC3]], [[Beclin1]], [[Senescence]], [[Neurodegenerative Diseases]], [[Parkinson's Disease]], [[Spermidine]], [[Rapamycin]], [[DNA Methylation]], [[Histone Modification]]
+- Suggested new entity notes to create: [[Autophagosome]], [[Autophagic Flux]], [[ULK1]], [[Atg5]], [[LAMP-2A]]
+- Strong connections to strengthen: [[Autophagy]] ↔ [[Aging]], [[Autophagy]] ↔ [[SIRT1]]
 - Suggested new entity notes to create: [[Atg5]], [[Autophagosome]], [[Beclin1]], [[Lysosome]], [[Mitophagy]], [[Proteostasis]]
-- Strong connections to strengthen: [[Autophagy]] ↔ [[Aging]], [[Autophagy]] ↔ [[Neuromelanin]]., [[Autophagy]] ↔ [[SIRT1]]
-- New links added: [[TFEB|TFEB]], [[mTOR]], [[Proteostasis]], [[Neuromelanin]], [[Parkinson's Disease]], [[Alpha-synuclein]], [[Lewy Bodies]], [[Pathogenic Threshold of Neuromelanin]], [[Glucocerebrosidase]], [[Ambroxol]], [[Rapamycin]], [[Lysosomal Biogenesis]], [[Ubiquitin-Proteasome System]], [[p62|p62]]## Additional Content from Topic Directory
-
-# Autophagy
+- New links added: [[TFEB|TFEB]], [[mTOR]], [[Proteostasis]], [[Neuromelanin]], [[Parkinson's Disease]], [[Alpha-synuclein]], [[Lewy Bodies]], [[Pathogenic Threshold of Neuromelanin]], [[Glucocerebrosidase]], [[Ambroxol]], [[Rapamycin]], [[Lysosomal Biogenesis]], [[Ubiquitin-Proteasome System]], [[p62|p62]]## Additional Content from Topic Directory# Autophagy
 
 [[Autophagy]] is a conserved cellular degradation pathway that delivers cytoplasmic materials, including damaged organelles and protein aggregates, to the lysosome for breakdown and recycling.
 
@@ -207,12 +205,6 @@ Impaired autophagy is a central feature of [[Parkinson's Disease]]:
 - [[Neuromelanin]]-filled autophagic structures may physically overwhelm the lysosomal system, pushing neurons toward the [[Pathogenic Threshold of Neuromelanin]].
 - Genetic risk factors such as [[Glucocerebrosidase]] (GBA) mutations impair lysosomal function and reduce autophagic capacity.
 - Compounds that enhance autophagy, such as [[Ambroxol]] and [[Rapamycin]], are being investigated as disease-modifying therapies.
-
-## Linking Summary
-
-- New links added: [[Aging]], [[SIRT1]], [[Caloric Restriction]], [[Mitophagy]], [[p62]], [[Lysosome]], [[mTORC1]], [[AMPK]], [[LC3]], [[Beclin1]], [[Senescence]], [[Neurodegenerative Diseases]], [[Parkinson's Disease]], [[Spermidine]], [[Rapamycin]], [[DNA Methylation]], [[Histone Modification]]
-- Suggested new entity notes to create: [[Autophagosome]], [[Autophagic Flux]], [[ULK1]], [[Atg5]], [[LAMP-2A]]
-- Strong connections to strengthen: [[Autophagy]] ↔ [[Aging]], [[Autophagy]] ↔ [[SIRT1]]
 
 # Autophagy
 
@@ -385,8 +377,3 @@ Impaired autophagy is a central feature of [[Parkinson's Disease]]:
 - Genetic risk factors such as [[Glucocerebrosidase]] (GBA) mutations impair lysosomal function and reduce autophagic capacity.
 - Compounds that enhance autophagy, such as [[Ambroxol]] and [[Rapamycin]], are being investigated as disease-modifying therapies.
 
-## Linking Summary
-
-- New links added: [[Aging]], [[SIRT1]], [[Caloric Restriction]], [[Mitophagy]], [[p62]], [[Lysosome]], [[mTORC1]], [[AMPK]], [[LC3]], [[Beclin1]], [[Senescence]], [[Neurodegenerative Diseases]], [[Parkinson's Disease]], [[Spermidine]], [[Rapamycin]], [[DNA Methylation]], [[Histone Modification]]
-- Suggested new entity notes to create: [[Autophagosome]], [[Autophagic Flux]], [[ULK1]], [[Atg5]], [[LAMP-2A]]
-- Strong connections to strengthen: [[Autophagy]] ↔ [[Aging]], [[Autophagy]] ↔ [[SIRT1]]

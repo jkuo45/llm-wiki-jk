@@ -20,8 +20,7 @@ Dopamine neurons in the [[Substantia Nigra]] pars compacta control movement, mot
 
 Basal [[Autophagy]] is essential for dopamine neuron survival. Impairment of autophagy (via [[Atg7]] or [[TFEB]] deletion in mice) causes dopamine neuron degeneration and protein aggregation.
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[TFEB]], [[Parkinson's Disease]], [[Alpha-synuclein]]
 - Suggested new entity notes to create: [[Substantia Nigra]]
 - Strong connections to strengthen: [[Dopamine Neuron]] ↔ [[TFEB]]

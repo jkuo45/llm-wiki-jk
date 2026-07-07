@@ -19,12 +19,14 @@ PDA cells exhibit high basal autophagy. Inhibition of autophagy with [[Hydroxych
 ## Research with Melittin
 Both [[Honeybee venom|honeybee venom]] and [[melittin]] have demonstrated antitumoral effects in pancreatic cancer.
 
-### Connections
+#
+
+## Connections
 - [[melittin]]: Active against pancreatic cancer cells.
 - [[Honeybee venom]]: Source of melittin.
 
 
-### Linking Summary
+## Linking Summary
 - New links added: [[TFEB]]
 - Suggested new entity notes to create: [[Glutamine Metabolism]]
 - Strong connections to strengthen: [[Pancreatic Cancer]] ↔ [[TFEB]]

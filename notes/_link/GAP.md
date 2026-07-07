@@ -19,10 +19,12 @@ aliases: [GTPase-Activating Protein]
 
 **Pathological significance:** Altered expression or mutation of GAP is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
 
-### Connections
+#
+
+## Connections
 - [[GAP]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[GAP]]
 - Strong connections to strengthen: [[GAP]] ↔ [[GAP]]
 

@@ -56,7 +56,7 @@ Epidrugs operate through a shared paradigm: by blocking the catalytic activity o
 - Can epidrugs be targeted to specific genomic loci (e.g., via [[CRISPR]]-dCas9 epigenetic editors) to avoid global toxicity?
 - What is the optimal dosing schedule to achieve epigenetic reprogramming without selecting for resistance?
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Epigenetics]], [[HDAC]], [[DNMT1]], [[DNA Methylation]], [[Histone Modification]], [[5-Azacytidine]], [[Decitabine]], [[Sodium Butyrate]], [[Sodium Valproate]]
 - Suggested new entity notes to create: [[Guadecitabine]], [[SAHA]], [[Tazemetostat]], [[JQ1]]
 - Strong connections to strengthen: [[Epigenetic Modifiers]] ↔ [[Epigenetics]], [[Epigenetic Modifiers]] ↔ [[Cancer]]

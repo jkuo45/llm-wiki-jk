@@ -20,11 +20,13 @@ TH catalyzes the conversion of the amino acid [[Tyrosine]] to [[L-DOPA]]. This s
 - **Diseases:** [[Parkinson's Disease]]
 - **Markers:** [[TH]] (common abbreviation)
 
-### Connections
+#
+
+## Connections
 - [[Dopamine]]: The primary end-product of the pathway initiated by TH.
 - [[Neuromelanin]]: Pigment found in dopaminergic neurons, whose presence correlates with neuronal vulnerability.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Catecholamines]], [[Dopamine]], [[Epinephrine]], [[L-DOPA]], [[Neuromelanin]], [[Norepinephrine]], [[Parkinson's Disease]], [[TH]], [[Tyrosine]]
 - Suggested new entity notes to create: [[L-DOPA]], [[Norepinephrine]]
 - Strong connections to strengthen: [[Tyrosine Hydroxylase]] ↔ [[Dopamine]], [[Tyrosine Hydroxylase]] ↔ [[Parkinson's Disease]]

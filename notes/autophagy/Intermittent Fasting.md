@@ -32,7 +32,7 @@ aliases: [IF]
 
 IF cycles between eating and fasting periods, activating [[Autophagy]] and [[AMPK]] while suppressing [[mTORC1]]. Effects depend on fasting duration and timing.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Autophagy]], [[Alternate-day Fasting]], [[Time-restricted Feeding]], [[Autophagic Flux]], [[Longevity]], [[Cancer]], [[Chemotherapy]], [[IGF1]], [[AMPK]], [[mTORC1]], [[Ketogenesis]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[Intermittent Fasting]] ↔ [[Autophagy]], [[Intermittent Fasting]] ↔ [[Caloric Restriction]]

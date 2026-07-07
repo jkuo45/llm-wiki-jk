@@ -61,7 +61,7 @@ Leuco-adrenochrome occupies a pivotal position in the [[Adrenochrome]] redox cyc
 - [[Redox cycle]]
 - [[Oxidative Stress]]
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Epinephrine]], [[Adrenochrome]], [[Catecholamines]], [[Superoxide anion]], [[Impurity marker]], [[Reference standard]], [[Adrenochrome Hypothesis]], [[Redox cycle]], [[Oxidative Stress]], [[Tyrosinase]], [[Ceruloplasmin]], [[Adrenochrome Semiquinone Radical]], [[Peroxynitrite]], [[Ascorbic Acid]], [[Tocopherol]], [[N-Ethylmaleimide]], [[HPLC-ECD]], [[Multiple Reaction Monitoring]], [[N-Acetylcysteine]], [[Glutathione]], [[Lipoid Acid]], [[Carbazochrome]], [[Hydroxyl radical]]
 - Suggested new entity notes to create: [[Adrenochrome Semiquinone Radical]], [[adrenaline-quinone]]
 - Strong connections to strengthen: [[Leuco-adrenochrome]] ↔ [[Adrenochrome]], [[Leuco-adrenochrome]] ↔ [[Redox Cycling]]

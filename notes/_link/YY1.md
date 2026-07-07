@@ -19,10 +19,12 @@ aliases: [Yin Yang 1]
 
 **Pathological significance:** Altered expression or mutation of YY1 is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
 
-### Connections
+#
+
+## Connections
 - [[YY1]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[YY1]]
 - Strong connections to strengthen: [[YY1]] ↔ [[YY1]]
 

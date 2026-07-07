@@ -17,7 +17,7 @@ aliases: [adaptor protein complex 4]
 
 AP4 is a clathrin-adaptor for protein sorting at the trans-Golgi network. AP4 deficiency causes spastic paraplegia and impaired autophagy.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Autophagic Lysosome Reformation]], [[LAMP1]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[AP4]] ↔ [[Autophagic Lysosome Reformation]]

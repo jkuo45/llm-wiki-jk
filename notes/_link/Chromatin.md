@@ -29,12 +29,14 @@ The physical folding of chromatin into loops and domains changes with age.
 *   **Loss of Compartmentalization:** The separation between active and inactive regions of the genome blurs.
 *   **Structural Defects:** Changes in the proteins that maintain DNA architecture can lead to "miswiring," where enhancers interact with the wrong genes, causing them to turn on or off inappropriately.
 
-### Connections
+#
+
+## Connections
 - **[[Nucleosome]]**: The basic repeating unit of chromatin.
 - **[[SAHF]]**: Specialized chromatin structures found in senescent cells.
 - **[[Genomic Instability]]**: A direct consequence of the loss of chromatin integrity during aging.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Heterochromatin]], [[Euchromatin]], [[Aging]], [[Transposable Elements]], [[Genomic Instability]], [[SAHF]], [[Nucleosome]], [[DNA Methylation]], [[Epigenetic Clock]].
 - Suggested new entity notes to create: [[Heterochromatin Loss Model]], [[3D Genome Organization]], [[Histone H3K9me3]], [[Histone H4K16ac]].
 - Strong connections to strengthen: [[Chromatin]] ↔ [[Nucleosome]], [[Chromatin]] ↔ [[Heterochromatin]]

@@ -17,8 +17,7 @@ The microphthalmia (MiT/TFE) family of transcription factors includes [[TFEB]], 
 
 See [[MiTF TFE family]] for comprehensive information. Consists of [[MITF]], [[TFEB]], [[TFE3]], and [[TFEC]].
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[TFEB]], [[TFE3]], [[MITF]], [[TFEC]], [[CLEAR Element]]
 - Suggested new entity notes to create: [[bHLH-LZ Transcription Factors]]
 - Strong connections to strengthen: [[MiT]]/[[TFEB]] family ↔ [[TFEB]]

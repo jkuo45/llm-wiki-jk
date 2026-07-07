@@ -24,7 +24,7 @@ Binding of [[TRAIL]] to DR4 induces receptor trimerization and the recruitment o
 - [[Caspase-8]]: Activated downstream of DR4.
 - [[DR5]]: A closely related TRAIL receptor.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Apoptosis]], [[TRAIL]], [[FADD]], [[Caspase-8]], [[Extrinsic Pathway]], [[DR5]]
 - Suggested new entity notes to create: [[FADD]], [[DR5]]
 - Strong connections to strengthen: [[DR4]] ↔ [[TRAIL]]

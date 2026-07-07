@@ -19,10 +19,12 @@ aliases: [HR]
 
 **Regulation and dysregulation:** Homologous Recombination is controlled by nutrient sensors, stress pathways, and hormonal signals. Impairment of this process is linked to metabolic diseases, neurodegeneration, and cancer.
 
-### Connections
+#
+
+## Connections
 - [[Homologous Recombination]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Homologous Recombination]]
 - Strong connections to strengthen: [[Homologous Recombination]] ↔ [[Homologous Recombination]]
 

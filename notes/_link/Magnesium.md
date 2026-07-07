@@ -12,10 +12,12 @@ entity_type_1: Chemical Compound
 ## Role as a Cofactor
 [[Magnesium]] is a critical cofactor for the [[COMT]] enzyme. Adequate magnesium levels are necessary for [[COMT]] to effectively perform the [[Methylation]] reactions required to break down [[Catecholamines]] and [[Estrogen]] metabolites.
 
-### Connections
+#
+
+## Connections
 - [[COMT]]: Requires magnesium to function properly.
 - [[Methylation]]: The biochemical process supported by magnesium.
 - [[Catecholamines]]: Substrates that COMT breaks down using magnesium as a cofactor.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[COMT]], [[Methylation]], [[Catecholamines]], [[Estrogen]].

@@ -19,10 +19,12 @@ aliases: [RHOT1]
 
 **Pathological significance:** Altered expression or mutation of Miro1 is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
 
-### Connections
+#
+
+## Connections
 - [[Miro1]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Miro1]]
 - Strong connections to strengthen: [[Miro1]] ↔ [[Miro1]]
 

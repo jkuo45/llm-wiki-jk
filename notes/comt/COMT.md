@@ -106,7 +106,6 @@ COMT genotype influences response to numerous substances:
 
 ---
 
-### Linking Summary:
-
+## Linking Summary
 - New links added: [[Adrenochrome]], [[Aminochromes]], [[COMT]], [[Catecholamines]], [[Catechols]], [[Cognitive Performance]], [[Dopamine]], [[Dopaminochrome]], [[Epinephrine]], [[Estrogen]], [[Executive Function]], [[Monoamine oxidase]], [[Magnesium]], [[Methyl groups]], [[Methylation]], [[Norepinephrine]], [[Oxidative Stress]], [[Psychiatric Disorders]], [[SNP]], [[Schizophrenia]], [[Val158Met]], [[Working Memory]], [[SAMe]], [[Quercetin]], [[Flavonoids]]
 - Strong connections to strengthen: [[COMT]] ↔ [[Catecholamines]]

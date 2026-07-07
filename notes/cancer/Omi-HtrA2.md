@@ -25,7 +25,7 @@ Omi/HtrA2 promotes apoptosis through two distinct mechanisms:
 - [[XIAP]]: Directly neutralized by Omi/HtrA2.
 - [[Smac DIABLO]]/[[Smac DIABLO]]: Works alongside Smac/DIABLO to overcome IAP-mediated resistance.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Apoptosis]], [[Cytochrome c]], [[Smac DIABLO]]/[[Smac DIABLO]], [[Intrinsic Pathway]], [[Inhibitor of Apoptosis Proteins]], [[XIAP]]
 - Suggested new entity notes to create: [[XIAP]]
 - Strong connections to strengthen: [[Omi]]/[[HtrA2]] ↔ [[XIAP]]

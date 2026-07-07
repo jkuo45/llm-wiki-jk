@@ -33,7 +33,9 @@ ATF4 activates pro-survival genes including [[CHOP]], [[GADD34]], [[BiP]], and a
 ATF4 bridges the unfolded protein response (UPR) to [[Autophagy]] by inducing autophagy genes under [[Amino Acid Sensing|amino acid deprivation]]. It interacts with [[TFE3]] to co-regulate lysosomal gene expression and is a downstream effector of the [[GCN2]]-eIF2α pathway.
 
 
-### Connections
+#
+
+## Connections
 - [[Integrated Stress Response]] — interacts with ATF4
 - [[eIF2α]] — interacts with ATF4
 - [[MTHFD2]] — interacts with ATF4
@@ -42,7 +44,7 @@ ATF4 bridges the unfolded protein response (UPR) to [[Autophagy]] by inducing au
 - [[HRI]] — interacts with ATF4
 - [[ER Stress]] — interacts with ATF4
 - [[PERK]] — interacts with ATF4
-### Linking Summary
+## Linking Summary
 - New links added: [[PERK]], [[TFE3]], [[Integrated Stress Response]], [[eIF2α]], [[Mitohormesis]], [[MTHFD2]], [[DELE1]], [[HRI]]
 - Suggested new entity notes to create: [[eIF2α]], [[MTHFD2]], [[DELE1]], [[HRI]]
 - Strong connections to strengthen: [[ATF4]] ↔ [[Mitochondrial Stress]]

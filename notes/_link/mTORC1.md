@@ -104,8 +104,9 @@ mTORC1 hyperactivation is a conserved driver of [[Aging]]. Genetic or pharmacolo
 ### Therapeutic Targeting
 [[Rapamycin]] (sirolimus), [[Everolimus]], [[Temsirolimus]], and [[Ridaforolimus]] are FDA-approved [[mTOR inhibitors]] that target mTORC1 via allosteric FRB-domain binding. Second-generation [[ATP-competitive mTOR inhibitors]] (Torin, [[AZD8055]], [[INK128]]) target both mTORC1 and mTORC2 catalytic activity. [[Rapalogs]] are used as [[Immunosuppressants]], anticancer agents, and are under investigation as [[Geroprotectors]].
 
-### Connections
+#
 
+## Connections
 - [[mTOR]] — catalytic core of mTORC1; directly inhibited by rapamycin-FKBP12
 - [[mTORC2]] — the second mTOR complex; insensitive to acute rapamycin, regulates Akt and cytoskeletal dynamics
 - [[Raptor]] — mTORC1-specific scaffold; required for substrate recruitment
@@ -121,8 +122,7 @@ mTORC1 hyperactivation is a conserved driver of [[Aging]]. Genetic or pharmacolo
 - [[Aging]] — mTORC1 hyperactivation accelerates aging; inhibition extends lifespan
 - [[Tuberous Sclerosis]] — monogenic mTORC1 hyperactivation syndrome
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[mTOR]], [[Raptor]], [[mLST8]], [[PRAS40]], [[Deptor]], [[Cell Growth]], [[Protein Synthesis]], [[Lipid Synthesis]], [[Ribosome Biogenesis]], [[Autophagy]], [[Rheb]], [[Rag proteins]], [[AMPK]], [[TSC1]], [[TSC2]], [[S6K1]], [[4E-BP1]], [[TFEB]], [[ULK1]], [[HIF-1α]], [[SREBP-1c]], [[PGC1-α]], [[Cancer]], [[Tuberous Sclerosis Complex]], [[Rapamycin]], [[Everolimus]], [[Caloric Restriction]], [[Aging]], [[Insulin Resistance]], [[Leucine]], [[Ragulator]], [[GATOR1]], [[REDD1]], [[BNIP3]], [[Lipin-1]], [[ATF4]], [[PIK3CA]], [[PTEN]], [[STK11]], [[LKB1]], [[IRS1]], [[T Cell]], [[Immunosuppressants]]
 - Suggested new entity notes to create: [[TOR signaling]], [[Rag GTPase]], [[Akt]], [[PI3K]], [[FKBP12]], [[Rapalogs]], [[Geroprotectors]]
 - Strong connections to strengthen: [[mTORC1]] ↔ [[mTORC2]], [[mTORC1]] ↔ [[Autophagy]], [[mTORC1]] ↔ [[TSC2]], [[mTORC1]] ↔ [[Aging]], [[mTORC1]] ↔ [[Rapamycin]]

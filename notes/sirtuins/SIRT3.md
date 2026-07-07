@@ -95,22 +95,12 @@ SIRT3, by producing [[OAADPr]], may regulate the **TRPM2** ion channel alongside
 
 
 
-### Linking Summary
-
-- New links added: [[Mitochondria]], [[Reactive Oxygen Species]], [[Caloric Restriction]], [[Intermittent Fasting]], [[Cancer]], [[Mitophagy]], [[Cellular Homeostasis]]
-- Suggested new entity notes to create: , [[Cellular Homeostasis]]
-- Strong connections to strengthen: [[SIRT3]] ↔ [[Mitochondria]], [[SIRT3]] ↔ [[Mitophagy]]
-- New links added: [[NAD+]], [[HIF-1α]], [[Reactive Oxygen Species]]
-- Suggested new entity notes to create:## From [[SIRT3]]
-
-
 ## Linking Summary
-
 - New links added: [[NAD+]], [[OAADPr]], [[Caloric Restriction]], [[PGC1-α]], [[SIRT1]], [[SIRT2]], [[SIRT4]], [[SIRT5]], [[Longevity]], [[TRPM2]], [[AceCS2]]
 - Suggested new entity notes to create: [[UCP1]], [[Brown Adipose Tissue (BAT)]]
 - Strong connections to strengthen: [[SIRT3]] ↔ [[Caloric Restriction]], [[SIRT3]] ↔ [[Longevity]], [[SIRT3]] ↔ [[AceCS2]]
-
-# SIRT3
+- New links added: [[Mitochondria]], [[Reactive Oxygen Species]], [[Caloric Restriction]], [[Intermittent Fasting]], [[Cancer]], [[Mitophagy]], [[Cellular Homeostasis]]
+- Suggested new entity notes to create: , [[Cellular Homeostasis]]# SIRT3
 
 SIRT3 is a major mitochondrial sirtuin with both deacetylase and mono-ADP-ribosyl transferase activities. It regulates mitochondrial metabolism, thermogenesis, and helps prevent oxidative stress by suppressing [[Reactive Oxygen Species]]. It acts as a tumor suppressor by destabilizing [[HIF-1α]].
 

@@ -19,7 +19,7 @@ Sox2 works cooperatively with [[Oct4]] to activate the expression of genes assoc
 - Member of the [[SOX gene family]].
 - Forms a heterodimer with [[Oct4]].
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Transcription Factor]], [[Embryonic Stem Cells]], [[Yamanaka Factors]], [[Oct4]], [[Klf4]], [[c-Myc]], [[Induced Pluripotent Stem Cells]], [[Pluripotency]], [[Differentiation]]
 - Suggested new entity notes to create: [[SOX gene family]]
 - Strong connections to strengthen: [[Sox2]] ↔ [[Oct4]]

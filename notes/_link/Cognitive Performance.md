@@ -18,10 +18,12 @@ aliases: [Cognitive Function]
 
 **Current understanding:** Ongoing research continues to refine our understanding of Cognitive Performance as new experimental evidence emerges from diverse model systems.
 
-### Connections
+#
+
+## Connections
 - [[Cognitive Performance]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Cognitive Performance]]
 - Strong connections to strengthen: [[Cognitive Performance]] ↔ [[Cognitive Performance]]
 

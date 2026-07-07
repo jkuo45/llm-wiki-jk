@@ -97,13 +97,9 @@ In model organisms, curcumin extends lifespan in *[[Caenorhabditis elegans]]* (v
 - **Poor metabolic stability:** Rapid glucuronidation and sulfation in vivo.
 - **Clinical challenge:** No double-blind RCT has convincingly demonstrated a disease-modifying effect of curcumin in any age-related condition.
 
-### Linking Summary:
-- New links added: [[HAT]], [[NFKB]], [[Senescence]], [[p16INK4A]], [[SASP]], [[Oxidative Stress]]
-- Suggested new entity notes to create: [[p300/CBP]], [[NRF2]], [[Keap1]], [[Piperine]], [[PAINS compounds]]
-- Strong connections to strengthen: [[Curcumin]] ↔ [[HAT]], [[Curcumin]] ↔ [[Senescence]]
-
 ## Linking Summary
-
 - New links added: [[P300]], [[CBP]], [[Histone Acetylation]], [[NF-κB]], [[Senescence]], [[Oxidative Stress]], [[p38 MAPK]], [[FOXO]], [[Piperine]]
 - Suggested new entity notes to create: [[PAINS compounds]], [[Theracurmin]], [[Meriva]]
 - Strong connections to strengthen: [[Curcumin]] ↔ [[P300]], [[Curcumin]] ↔ [[Senescence]]
+- New links added: [[HAT]], [[NFKB]], [[Senescence]], [[p16INK4A]], [[SASP]], [[Oxidative Stress]]
+- Suggested new entity notes to create: [[p300/CBP]], [[NRF2]], [[Keap1]], [[Piperine]], [[PAINS compounds]]

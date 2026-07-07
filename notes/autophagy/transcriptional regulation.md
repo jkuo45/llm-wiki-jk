@@ -16,8 +16,7 @@ Transcriptional regulation is the process by which a cell regulates the conversi
 
 Autophagy gene transcription is controlled by [[TFEB]], [[TFE3]], [[FOXO]], [[ATF4]], [[XBP1]], [[PPARα]], [[SREBP1]], and [[ZKSCAN3]] in response to nutrients and stress.
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[TFEB]], [[PGC1-α]], [[XBP1]]
 - Suggested new entity notes to create: [[Transcription Factor]]
 - Strong connections to strengthen: [[transcriptional regulation]] ↔ [[TFEB]]

@@ -25,13 +25,15 @@ The formation of aminochromes is often a sign of excessive catecholamine oxidati
 - **[[Cardiotoxicity]]:** Associated with damage to heart muscle cells.
 - **Mitochondrial Dysfunction:** They can impair ATP production by uncoupling oxidative phosphorylation.
 
-### Connections
+#
+
+## Connections
 - [[Catecholamines]] ↔ The parent molecules from which aminochromes are derived.
 - [[Adrenochrome]] ↔ A prominent member of the aminochrome family.
 - [[Dopaminochrome]] ↔ Another prominent aminochrome.
 - [[Neuromelanin]] ↔ The dark pigment formed by aminochrome polymerization.
 - [[Oxidative Stress]] ↔ The condition that promotes aminochrome formation.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Aminochromes]], [[Oxidation]], [[Catecholamines]], [[Adrenochrome]], [[Epinephrine]], [[Dopaminochrome]], [[Dopamine]], [[Neuromelanin]], [[Redox Cycling]], [[Superoxide anion]], [[Oxidative Stress]], [[Cardiotoxicity]]
 - Strong connections to strengthen: [[Aminochromes]] ↔ [[Catecholamines]], [[Aminochromes]] ↔ [[Neuromelanin]]

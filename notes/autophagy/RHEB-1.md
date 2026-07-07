@@ -21,7 +21,7 @@ aliases: [C. elegans Rheb ortholog]
 
 RHEB-1 is the C. elegans ortholog of mammalian [[Rheb]]. It activates [[Autophagy]] under dietary restriction and regulates dauer formation.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[C. elegans]], [[Rheb]], [[mTOR]], [[MXL-3]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[RHEB-1]] ↔ [[mTOR]]

@@ -19,10 +19,12 @@ aliases: [Coenzyme Q10, CoQ10]
 
 **Clinical significance:** Altered levels of Ubiquinone are observed in metabolic disorders, mitochondrial diseases, and nutritional deficiencies. Supplementation or pharmacological modulation of this metabolite has therapeutic potential.
 
-### Connections
+#
+
+## Connections
 - [[Ubiquinone]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Ubiquinone]]
 - Strong connections to strengthen: [[Ubiquinone]] ↔ [[Ubiquinone]]
 

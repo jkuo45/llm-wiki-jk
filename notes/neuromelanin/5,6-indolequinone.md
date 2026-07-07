@@ -10,7 +10,7 @@ entity_type_1: Chemical Compound
 
 [[5,6-indolequinone]] is a late-stage intermediate in the polymerization of dopamine-derived quinones into the biopolymer [[Neuromelanin]].
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Neuromelanin]], [[Aminochrome]], [[Quinones]].
 - Suggested new entity notes to create: [[Indole]], [[Melanogenesis]].
 - Strong connections to strengthen: [[5,6-indolequinone]] ↔ [[Neuromelanin]].

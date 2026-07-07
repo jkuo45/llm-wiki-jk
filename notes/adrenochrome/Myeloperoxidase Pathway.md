@@ -51,7 +51,7 @@ However, non-enzymatic oxidation becomes relevant when MPO-independent ROS sourc
 
 The MPO-HOCl system is a cornerstone of innate host defense, providing potent microbicidal activity against bacteria, fungi, and viruses. However, collateral host tissue damage occurs when MPO-derived oxidants exceed local antioxidant capacity. In chronic inflammatory diseases — rheumatoid arthritis, atherosclerosis, inflammatory bowel disease, and neurodegenerative conditions — MPO activity correlates with disease severity. The concurrent oxidation of epinephrine to adrenochrome in these settings adds a secondary pathogenic mechanism: adrenochrome can deplete [[Glutathione]], inactivate [[Aconitase]] and other Fe-S cluster enzymes, and promote mitochondrial dysfunction, amplifying the inflammatory redox cycle.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Hypochlorous Acid]], [[NAD(P)H Oxidase]], [[Epinephrine]], [[adrenaline-quinone]], [[Leuco-adrenochrome]], [[Adrenochrome]], [[Glutathione]], [[Aconitase]], [[Rheumatoid synovial fluid]], [[Autoxidation]], [[Atherosclerosis]], [[Ischemia-reperfusion]], [[Sympathetic nerve endings]], [[Platelets]], [[Neutrophil extracellular trap]], [[Neutrophils]], [[Myeloperoxidase]], [[Hydrogen Peroxide]]
 - Suggested new entity notes to create: [[MPO-HOCl Oxidation Cascade]]
 - Strong connections to strengthen: [[Myeloperoxidase Pathway]] ↔ [[Adrenochrome Pathway]], [[Myeloperoxidase Pathway]] ↔ [[Inflammation]]

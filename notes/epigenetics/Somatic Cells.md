@@ -23,5 +23,5 @@ Somatic cells are the primary starting material for creating patient-specific iP
 - [[Induced Pluripotent Stem Cells]]: The state achieved by reprogramming somatic cells.
 - [[Cellular Reprogramming]]: The process of reverting a somatic cell to a pluripotent state.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Fibroblasts]], [[Induced Pluripotent Stem Cells]], [[Oct4]], [[Sox2]], [[Klf4]], [[c-Myc]], [[OSKM]], [[Disease Modeling]], [[Drug Discovery]], [[Regenerative Medicine]], [[Cellular Reprogramming]]

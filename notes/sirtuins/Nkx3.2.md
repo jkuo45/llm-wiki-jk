@@ -45,7 +45,5 @@ target: SIRT6
 ---
 
 ## Linking Summary
-
 - New links added: [[SIRT6]], [[GATA5]], [[Histone H3]]
 - Suggested new entity notes to create: [[Bapx1]]
-- Strong connections to strengthen: [[SIRT6]] ↔ [[Nkx3.2]]

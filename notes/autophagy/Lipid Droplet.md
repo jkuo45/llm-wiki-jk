@@ -24,7 +24,7 @@ entity_type_1: Scientific Concept
 
 Lipid droplets are lipid storage organelles surrounded by a phospholipid monolayer. They are degraded by [[Lipophagy]] during fasting.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[ATGL]], [[Lipophagy]], [[Selective Autophagy]], [[Lysosome]], [[Lysosomal Acid Lipase]], [[LIPL-1]], [[LIPL-3]], [[Fasting]], [[Starvation]]
 - Suggested new entity notes to create: [[Perilipin]], [[Triglyceride]], [[Cholesteryl Ester]]
 - Strong connections to strengthen: [[Lipid Droplet]] ↔ [[Lipophagy]], [[Lipid Droplet]] ↔ [[Lysosome]]

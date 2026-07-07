@@ -17,14 +17,16 @@ entity_type_1: Biological Process
 - [[Epigenetics]]
 - [[Non-coding RNA]]
 
-### Connections
+#
+
+## Connections
 - [[Chromatin]] — interacts with
 - [[DNA Methylation]] — interacts with
 - [[Histone Modification]] — interacts with
 - [[Epigenetics]] — interacts with
 - [[Non-coding RNA]] — interacts with
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Chromatin]], [[DNA Methylation]], [[Histone Modification]], [[Epigenetics]], [[Non-coding RNA]]
 - Strong connections to strengthen: [[Transcription]] ↔ [[Chromatin]], [[Transcription]] ↔ [[DNA Methylation]], [[Transcription]] ↔ [[Histone Modification]], [[Transcription]] ↔ [[Epigenetics]], [[Transcription]] ↔ [[Non-coding RNA]]
 

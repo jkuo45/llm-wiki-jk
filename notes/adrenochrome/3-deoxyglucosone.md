@@ -17,7 +17,7 @@ entity_type_1: Chemical Compound
 
 To prevent 3-DG from forming irreversible crosslinks, cells utilize detoxifying enzyme families, including [[Aldo-Keto Reductases]] and [[Aldehyde Dehydrogenases]], which convert it into less toxic alcohols or carboxylic acids.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Advanced Glycation End Products]], [[Glycolysis]], [[Peroxidation]], [[Fructosamine-3-phosphate]], [[Fructosamine-3-kinase]], [[Aldo-Keto Reductases]], [[Aldehyde Dehydrogenases]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[3-deoxyglucosone]] ↔ [[Fructosamine-3-kinase]]

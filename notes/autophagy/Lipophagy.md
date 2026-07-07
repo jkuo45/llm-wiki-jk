@@ -28,7 +28,7 @@ entity_type_1: Biological Process
 - **Metabolic Health**: Dysfunction in lipophagy is linked to hepatic steatosis and other [[Metabolic Diseases]].
 - **Ageing**: Enhanced lipophagy and lysosomal lipolysis have been shown to extend lifespan in model organisms like [[C. elegans]].
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Selective Autophagy]], [[Lipid Droplet]], [[Lysosome]], [[Nutrient Availability]], [[Autophagosome]], [[Autolysosome]], [[Lysosomal Lipolysis]], [[Lysosomal Acid Lipase]], [[LAL]], [[LIPL-1]], [[LIPL-3]], [[C. elegans]], [[Fasting]], [[Starvation]], [[MXL-3]], [[HLH-30]], [[TFEB]], [[DAF-2]], [[mTORC1]], [[Metabolic Diseases]]
 - Suggested new entity notes to create: [[LIPL-2]], [[LIPL-4]], [[LIPL-5]]
 - Strong connections to strengthen: [[Lipophagy]] ↔ [[Lysosomal Lipolysis]], [[Lipophagy]] ↔ [[TFEB]]

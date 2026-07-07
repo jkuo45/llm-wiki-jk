@@ -18,10 +18,12 @@ aliases: [Cardiac Myocyte, Heart Muscle Cell]
 
 **Pathological relevance:** Dysfunction or loss of Cardiomyocyte underlies specific disease states. Understanding its biology provides insights into regenerative medicine and therapeutic targeting.
 
-### Connections
+#
+
+## Connections
 - [[Cardiomyocyte]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Cardiomyocyte]]
 - Strong connections to strengthen: [[Cardiomyocyte]] ↔ [[Cardiomyocyte]]
 

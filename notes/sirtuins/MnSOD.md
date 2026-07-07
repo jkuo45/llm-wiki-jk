@@ -44,7 +44,6 @@ MnSOD is a frontline defense against mitochondrial [[Oxidative Stress]]. Loss of
 - [[Mitochondria]] — Primary subcellular localization and site of action
 
 ## Linking Summary
-
 - New links added: [[MnSOD]], [[SOD2]], [[Honokiol]], [[Superoxide]], [[DNA Damage]], [[Apoptosis]], [[Neurodegeneration]], [[Cardiovascular Disease]], [[Caloric Restriction]], [[Exercise]], [[FOXO3a]]
 - Suggested new entity notes to create: [[Mitochondrial Antioxidant Defense]]
 - Strong connections to strengthen: [[SIRT3]] ↔ [[MnSOD]], [[SIRT1]]/[[FOXO3a]] ↔ [[MnSOD]], [[SIRT3/SIRT4 Ratio]] ↔ [[MnSOD]]

@@ -22,6 +22,5 @@ MITF is the master regulator of [[Melanocytes]] development, differentiation, an
 
 MITF regulates lysosomal biogenesis and [[Autophagy]] via the CLEAR network. It interacts with [[TFEB]] and [[TFE3]] and can compensate for their loss in certain contexts.
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[MiTF TFE family|MiTF/TFE family]], [[TFEB]], [[TFE3]]

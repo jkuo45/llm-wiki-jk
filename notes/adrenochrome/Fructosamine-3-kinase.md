@@ -18,7 +18,7 @@ FN3K phosphorylates fructosamine ([[Amadori products]]) residues on glycated pro
 
 FN3K is a key focus of anti-aging research, particularly for its potential to deglycate structural proteins like [[Collagen]] when paired with other deglycating agents.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Advanced Glycation End Products]], [[Amadori products]], [[Fructosamine-3-phosphate]], [[3-deoxyglucosone]], [[Collagen]]
 - Suggested new entity notes to create: [[Fructosyl-Amino Acid Oxidases]]
 - Strong connections to strengthen: [[Fructosamine-3-kinase]] ↔ [[Amadori products]]

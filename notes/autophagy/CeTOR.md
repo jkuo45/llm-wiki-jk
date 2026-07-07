@@ -19,5 +19,5 @@ CeTOR inhibition (via RNAi or [[Rapamycin]]) induces [[Autophagy]] in C. elegans
 ## Pathway
 CeTOR is regulated by [[RHEB-1]] (Rheb ortholog), [[DAF-2]] (insulin/IGF-1 receptor) via [[AGE-1]] (PI3K)/[[AKT-1]]/[[AKT-2]], and by [[Amino Acid Sensing]] through [[SLC-36.1]]. [[Rag proteins|Rag GTPase]] orthologs ([[raga-1]], [[ragc-1]]) recruit CeTOR to lysosomes.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[mTORC1]], [[C. elegans]], [[Autophagy]], [[HLH-30]], [[DAF-16]], [[RHEB-1]], [[DAF-2]], [[SLC-36.1]], [[Rag proteins]]

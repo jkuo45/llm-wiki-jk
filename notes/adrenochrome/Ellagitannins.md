@@ -12,7 +12,7 @@ entity_type_1: Chemical Class
 
 **Ellagitannins** are a diverse class of hydrolyzable tannins present in various dietary fruits and nuts, such as pomegranates, strawberries, walnuts, and almonds. They serve as prebiotic precursors that undergo microbial metabolism by the gut microbiota in the colon, leading to the biosynthesis of [[Urolithin A|Urolithin A]] and other urolithins.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Urolithin A]], [[Urolithins]], [[Ellagic acid]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Ellagitannins]] ↔ [[Urolithin A]], [[Ellagitannins]] ↔ [[Ellagic acid]]

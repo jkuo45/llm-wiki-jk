@@ -10,5 +10,5 @@ entity_type_1: Person
 
 Abram Hoffer is a concept related to [[Adrenochrome]] and catecholamine metabolism.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Adrenochrome]]

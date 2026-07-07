@@ -10,7 +10,9 @@ entity_type_1: Biological Process
 
 The metabolic process by which [[Epinephrine|adrenaline]] is broken down in the body.
 
-### Connections
+#
+
+## Connections
 - [[Neutrophils]]: Actively oxidize [[Epinephrine|adrenaline]] to [[Adrenochrome]] as a pathway for catabolism.
 - [[MAO]]: Enzyme involved in the breakdown of [[Catecholamines]].
 - [[COMT]]: Enzyme involved in the breakdown of [[Catecholamines]].
@@ -48,7 +50,7 @@ Several biochemical parameters divert epinephrine away from COMT/MAO and toward 
 - **Enzyme inhibition**: Genetic or pharmacological inhibition of COMT (e.g., by entacapone) or MAO (e.g., by phenelzine) extends epinephrine half-life and increases substrate availability for oxidative cycling.
 - **Ascorbate deficiency**: Vitamin C efficiently reduces the semiquinone radical back to epinephrine; deficiency removes this protective recycling pathway.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Metanephrine]], [[adrenaline-quinone]], [[Leuco-adrenochrome]], [[Myeloperoxidase]], [[NAD(P)H Oxidase]], [[Rheumatoid synovial fluid]], [[Erythrocytes]], [[Neutrophils]], [[Glutathione]], [[Ascorbate]], [[Catalase]], [[Superoxide anion]], [[Cardiotoxicity]], [[Hemoglobin]], [[Autoxidation]], [[MAO]], [[COMT]], [[Catecholamines]], [[Adrenochrome]]
 - Suggested new entity notes to create: [[Epinephrine Half-Life]]
 - Strong connections to strengthen: [[Adrenaline catabolism]] ↔ [[Adrenochrome Pathway]], [[Adrenaline catabolism]] ↔ [[COMT]], [[Adrenaline catabolism]] ↔ [[MAO]]

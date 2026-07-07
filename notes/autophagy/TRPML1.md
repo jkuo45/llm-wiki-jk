@@ -20,7 +20,7 @@ TRPML1 (MCOLN1) is a Ca2+-permeable non-selective cation channel on late endosom
 
 TRPML1-mediated Ca2+ release from lysosomes activates [[TFEB]] via [[calcineurin]]-dependent dephosphorylation. It also regulates autophagosome-lysosome fusion and lysosomal reformation. Loss-of-function causes [[Mucolipidosis IV]].
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Lysosome]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[TRPML1]] ↔ [[Lysosome]]

@@ -26,9 +26,9 @@ GPx4's ability to directly reduce phospholipid, cholesterol, and cardiolipin hyd
 ## Clinical Significance
 **Keshan disease**, an endemic cardiomyopathy named for a region in northeastern China, is caused by combined selenium deficiency and coxsackievirus B infection. The cardiomyopathy arises from insufficient cardiac GPx activity, leading to unchecked $H_2O_2$-mediated damage and viral genome mutations that increase virulence. Selenium supplementation has dramatically reduced Keshan disease incidence.
 GPx activity is relevant to [[Diabetes Mellitus]]: GPx1 overexpression in mice paradoxically induces insulin resistance and [[Obesity]], likely through overquenching of $H_2O_2$ that normally serves as a signaling intermediate for insulin receptor desensitization. This exemplifies the "antioxidant paradox" — excessive antioxidant activity can disrupt beneficial redox signaling. In [[Cardiovascular Disease]], GPx1 deficiency in mice accelerates [[Atherosclerosis]], while GPx1 overexpression protects against [[Myocardial infarction]] and [[Ischemia-reperfusion Injury]]. In [[Aging]], GPx activity declines in many tissues, reducing the capacity to detoxify the accumulating hydroperoxide burden and contributing to the age-related increase in lipid and protein oxidative damage.
-### New Linking Summary (Added 2026-07-04):
+#
 
-### Connections
+## Connections
 - [[Glutathione]]
 - [[Oxidative Stress]]
 - [[Reactive Oxygen Species]]
@@ -36,7 +36,7 @@ GPx activity is relevant to [[Diabetes Mellitus]]: GPx1 overexpression in mice p
 - [[Catalase]]: Complementary $H_2O_2$ scavenger with different $K_m$ and tissue distribution.
 - [[Selenium]]: Essential trace element required for GPx catalytic activity.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Catalase]], [[Ferroptosis]], [[Selenium]], [[Spermatogenesis]], [[Cancer]], [[Breast Cancer]], [[Renal Cell Carcinoma]], [[Inflammation]], [[Ischemia-reperfusion Injury]], [[Neurodegenerative Diseases]], [[Diabetes Mellitus]], [[Cardiovascular Disease]], [[Atherosclerosis]], [[Aging]], [[Lipid Peroxidation]], [[Cell membranes]], [[Hydrogen Peroxide]], [[Glycation]], [[Oxidative Stress]], [[Glutathione]], [[Reactive Oxygen Species]]
 - Suggested new entity notes to create: [[Selenocysteine]], [[Keshan Disease]], [[Glutathione Reductase]], [[RSL3]], [[PHGPx]], [[Glutathione]], [[Organic hydroperoxides]]
 - Strong connections to strengthen: [[Glutathione Peroxidase]] ↔ [[Oxidative Stress]], [[Glutathione Peroxidase]] ↔ [[Glutathione]]

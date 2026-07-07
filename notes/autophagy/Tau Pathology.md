@@ -17,8 +17,7 @@ Tau pathology refers to the abnormal aggregation of Tau protein in neurons, a ha
 
 Tau pathology involves hyperphosphorylation, aggregation, and spreading of tau protein in [[Alzheimer's Disease]] and tauopathies. [[Autophagy]] clears tau aggregates.
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[TFEB]], [[Celastrol]], [[Alzheimer's Disease]]
 - Suggested new entity notes to create: [[Neurofibrillary tangles]]
 - Strong connections to strengthen: [[Tau Pathology]] ↔ [[TFEB]]

@@ -58,7 +58,6 @@ EGFR is a major drug target. Tyrosine kinase inhibitors ([[erlotinib]], [[gefiti
 - **Signaling**: Activation of EGFR leads to downstream signaling through pathways like [[PI3K]]/[[Akt]] and [[MAPK]], promoting cell proliferation and survival.
 
 ## Linking Summary
-
 - New links added: [[PI3K]], [[Akt]], [[MAPK]], [[Colorectal Cancer]], [[Lung Cancer]], [[triple-negative breast cancer]], [[Cancer]], [[Ivermectin]], [[melittin]]
 - Suggested new entity notes to create: [[erlotinib]], [[Gefitinib]], [[Cetuximab]]
 - Strong connections to strengthen: [[EGFR]] ↔ [[Cancer]], [[EGFR]] ↔ [[PI3K]]

@@ -10,7 +10,7 @@ entity_type_1: Biological Process
 # Tissue Repair
 Tissue Repair is a biological process involving the restoration of tissue architecture and function following an injury or pathological insult.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Senescence]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Tissue Repair]] <-> [[Senescence]]

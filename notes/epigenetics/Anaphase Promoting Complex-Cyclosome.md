@@ -12,8 +12,7 @@ entity_type_1: Enzyme
 
 The [[APC-C]] ([[APC-C]]) is an E3 ubiquitin ligase that marks target proteins for degradation by the 26S proteasome. It is a key regulator of [[Mitosis]] and also plays roles in maintaining [[Quiescence]] by targeting regulators like [[Skp2]] and [[Geminin]].
 
-### Linking Summary:
-
+## Linking Summary
 - New links added: [[Quiescence]], [[Mitosis]], [[CDH1]], [[Skp2]], [[Geminin]]
 - Suggested new entity notes to create: [[Ubiquitin Ligase]]
 - Strong connections to strengthen: [[APC-C]] ↔ [[Retinoblastoma Protein]]

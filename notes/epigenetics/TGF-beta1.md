@@ -71,7 +71,6 @@ Multiple sirtuins converge on the TGF-β1 pathway:
 - [[SIRT1]] / [[SIRT6]] / [[SIRT7]] — sirtuins that modulate TGF-β1 signalling
 
 ## Linking Summary
-
 - New links added: [[SMAD2]], [[SMAD3]], [[SMAD4]], [[Smad7]], [[SIRT1]], [[SIRT6]], [[SIRT7]], [[MDL-801]], [[Inflammation]], [[Cancer]], [[Pulmonary Fibrosis]], [[Regulatory T cell]]
 - Suggested new entity notes to create: [[SMAD Proteins]], [[Latent TGF-β complex]], [[LTBP]]
 - Strong connections to strengthen: [[TGF-beta1]] ↔ [[Cancer]], [[TGF-beta1]] ↔ [[SIRT6]], [[TGF-beta1]] ↔ [[Inflammation]]

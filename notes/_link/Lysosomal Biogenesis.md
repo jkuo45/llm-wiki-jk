@@ -22,7 +22,9 @@ Impaired lysosomal biogenesis underlies [[Lysosomal Storage Disorders]] ([[Mucop
 [[Lysosomal Biogenesis]] is the cellular process of creating new lysosomes. It is a highly regulated process, primarily controlled by the transcription factor [[TFEB|TFEB]]. Proper lysosomal biogenesis is essential for maintaining cellular [[Proteostasis]] and for the degradation of materials like [[Neuromelanin]].
 
 
-### Connections
+#
+
+## Connections
 - [[LAMP1]] — interacts with Lysosomal Biogenesis
 - [[LAMP2]] — interacts with Lysosomal Biogenesis
 - [[V-ATPase]] — catalyzes reaction involving Lysosomal Biogenesis
@@ -31,7 +33,7 @@ Impaired lysosomal biogenesis underlies [[Lysosomal Storage Disorders]] ([[Mucop
 - [[CLEAR Element]] — interacts with Lysosomal Biogenesis
 - [[TFEB]] — master transcription factor for lysosomal biogenesis and autophagy
 - [[TFE3]] — interacts with Lysosomal Biogenesis
-### Linking Summary
+## Linking Summary
 - New links added: [[Lysosome]], [[TFEB]], [[TFE3]], [[MITF]], [[CLEAR Element]], [[mTORC1]], [[Autophagy]], [[Autophagic Flux]], [[TRPML1]], [[Trehalose]], [[Spermidine]], [[TFEB|TFEB]], [[Proteostasis]], [[Neuromelanin]], [[Autophagy]].
 - Suggested new entity notes to create: [[CLEAR Motif]], [[Lysosomal Enzymes]].
 - Strong connections to strengthen: [[Lysosomal Biogenesis]] ↔ [[TFEB|TFEB]].

@@ -21,7 +21,7 @@ aliases: [C. elegans Beclin-1 ortholog]
 
 BEC-1 is the C. elegans ortholog of mammalian [[Beclin1]]. It is required for [[Autophagy]] and longevity extension by dietary restriction.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[C. elegans]], [[Beclin1]], [[Atg6]], [[Autophagy]], [[Vps34]], [[Autophagosome]], [[MXL-3]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[BEC-1]] ↔ [[Vps34]]

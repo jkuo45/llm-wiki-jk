@@ -17,7 +17,7 @@ aliases: [sodium-coupled amino acid transporter 9]
 
 SLC38A9 is a lysosomal amino acid transporter that effluxes arginine from the lysosome to signal to [[mTORC1]] via the [[Ragulator]]-[[Rag proteins]] complex.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Lysosome]], [[Ragulator]], [[Rag proteins]], [[mTORC1]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[SLC38A9]] ↔ [[mTORC1]]

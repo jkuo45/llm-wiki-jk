@@ -36,7 +36,6 @@ The **Mediterranean Diet** is a dietary pattern based on traditional eating habi
 - Epidemiological data from the [[French Paradox]] observations helped prompt broader investigation into the diet's health effects
 
 ## Linking Summary
-
 - New links added: [[Cardiovascular Disease]], [[Longevity]], [[Inflammation]], [[Polyphenols]], [[Resveratrol]], [[Stilbene]], [[French Paradox]], [[Antioxidants]], [[Reactive Oxygen Species]], [[Superoxide Dismutase]], [[Nitric Oxide]], [[Endothelial Dysfunction]], [[Sirtuins]], [[SIRT1]], [[NFKB]], [[High-density lipoprotein]], [[Low-Density Lipoprotein]], [[Diabetes Mellitus]], [[Atherosclerosis]], [[Cancer]], [[Oxidative Stress]]
 - Suggested new entity notes to create: None
 - Strong connections to strengthen: [[Mediterranean Diet]] ↔ [[French Paradox]], [[Mediterranean Diet]] ↔ [[Resveratrol]]

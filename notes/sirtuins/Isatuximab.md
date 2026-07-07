@@ -60,7 +60,6 @@ Isatuximab also does **not** bind to the CD38 region required for daratumumab bi
 ---
 
 ## Linking Summary
-
 - New links added: [[CD38]], [[Multiple Myeloma]], [[Daratumumab]], [[Tumor Microenvironment]]
 - Suggested new entity notes: [[cADPR]], [[Tumor Microenvironment]]
 - Strong connections: [[Isatuximab]] ↔ [[CD38]], [[Isatuximab]] ↔ [[Daratumumab]]

@@ -19,8 +19,7 @@ PI3K is activated by RTKs or [[RAS]], generating PIP3 to recruit [[Akt]]/[[PDK1]
 
 PI3K-Akt signaling suppresses [[Autophagy]] via mTORC1 activation. [[PI3K inhibitors]] ([[Wortmannin]], [[LY294002]]) induce autophagy.
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[Akt]], [[TFEB]], [[PI3K]]
 - Suggested new entity notes to create: [[PTEN]]
 - Strong connections to strengthen: [[PI3K-Akt Signaling]] ↔ [[Akt]]

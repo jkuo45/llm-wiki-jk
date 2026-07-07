@@ -40,7 +40,9 @@ Palbociclib (125 mg/day, 21 days on / 7 days off) is standard first-line therapy
 - Chronic treatment selects for therapy-resistant cycling cells.
 
 
-### Connections
+#
+
+## Connections
 - [[CDK4]]/[[CDK6]] — interacts with Palbociclib
 - [[TFEB]] — master transcription factor for lysosomal biogenesis and autophagy
 - [[CDK46]] — interacts with Palbociclib
@@ -49,7 +51,7 @@ Palbociclib (125 mg/day, 21 days on / 7 days off) is standard first-line therapy
 - [[Hydroxychloroquine]] — interacts with Palbociclib
 - [[CDK4]] — interacts with Palbociclib
 - [[CDK6]] — interacts with Palbociclib
-### Linking Summary
+## Linking Summary
 - New links added: [[CDK4]]/[[CDK6]], [[TFEB]], [[Senescence]], [[CDK Inhibitor]], [[SA-beta-gal]], [[SASP]], [[RB1]], [[Breast Cancer]]
 - Suggested new entity notes to create: [[Lysosomal Biogenesis]], [[CDK4]], [[CDK6]], [[Ibrance]], [[Therapeutic Senescence]]
 - Strong connections to strengthen: [[Palbociclib]] ↔ [[TFEB]], [[Palbociclib]] ↔ [[Senescence]], [[Palbociclib]] ↔ [[CDK Inhibitor]]

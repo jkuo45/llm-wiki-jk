@@ -141,16 +141,6 @@ Resveratrol is widely considered a **CR mimetic** — it recapitulates many of t
 > [!NOTE]
 > Whether resveratrol's effects are _truly_ SIRT1-dependent in mammals remains debated (as noted by Michan & Sinclair 2007). Subsequent research has clarified that resveratrol's primary direct target may be AMPK rather than SIRT1 directly, though SIRT1 is activated as a downstream consequence.
 
-## Linking Summary
-
-- New links added: [[SIRT1]], [[Sir2 (yeast)]], [[Caloric Restriction]], [[PGC-1α]], [[NAD+]], [[SIRT3]]
-- Suggested new entity notes to create: [[STACs]], [[AMPK]], [[Polyphenols]]
-- Strong connections to strengthen: [[Resveratrol]] ↔ [[SIRT1]], [[Resveratrol]] ↔ [[Caloric Restriction]]
-
-**[[Resveratrol]]** is a natural polyphenol compound found in the skin of grapes, blueberries, raspberries, and mulberries. It is perhaps the most famous "anti-aging" molecule in popular culture due to its presence in red wine and its purported ability to extend lifespan.
-
-**[[Resveratrol]]** is a plant compound that acts like an antioxidant. The top food sources include red wine, grapes, and some berries.
-
 ## 1. Activation of [[SIRT1]]
 
 The primary mechanism by which resveratrol is thought to promote longevity is through the activation of **[[SIRT1]]**, an NAD+-dependent histone deacetylase. SIRT1 regulates a variety of processes, including metabolism, DNA repair, and mitochondrial function.
@@ -180,7 +170,6 @@ While resveratrol has shown dramatic results in extending the lifespan of yeast,
 [[Resveratrol]] is considered a safe [[Anti-inflammatory]] and antioxidant option for people with slow [[COMT]] variants. Since it lacks a catechol structure, it does not compete for the [[COMT]] enzyme or cause its inhibition.
 
 ## Linking Summary
-
-- New links added: [[SIRT1]], [[Caloric Restriction]], [[PGC-1α]], [[NAD+]], [[COMT]], [[Aging]], [[Diabetes Mellitus]], [[Geroscience]], [[Anti-inflammatory]]
-- Suggested new entity notes to create: [[STACs]], [[Polyphenols]], [[CR Mimetics]]
+- New links added: [[SIRT1]], [[Sir2 (yeast)]], [[Caloric Restriction]], [[PGC-1α]], [[NAD+]], [[SIRT3]]
+- Suggested new entity notes to create: [[STACs]], [[AMPK]], [[Polyphenols]]
 - Strong connections to strengthen: [[Resveratrol]] ↔ [[SIRT1]], [[Resveratrol]] ↔ [[Caloric Restriction]]

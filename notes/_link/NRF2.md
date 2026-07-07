@@ -73,8 +73,9 @@ NRF2 activation is a therapeutic strategy for conditions characterized by oxidat
 
 NRF2 is a master transcription factor regulating antioxidant defense.
 
-### Connections
+#
 
+## Connections
 - [[KEAP1]] — Cytoplasmic inhibitor that targets NRF2 for degradation under basal conditions
 - [[Antioxidant Response Element]] — DNA binding site for NRF2 target gene activation
 - [[NF-kappa B]] — Mutual antagonism; competes for CBP/p300 coactivator
@@ -84,8 +85,7 @@ NRF2 is a master transcription factor regulating antioxidant defense.
 - [[NQO1]] — Canonical NRF2 target detoxification enzyme
 - [[SKN-1]] — C. elegans NRF2 homolog mediating mitohormetic longevity
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[KEAP1]], [[Antioxidant Response Element]], [[NF-kappa B]], [[SIRT1]], [[SIRT6]], [[HO-1]], [[NQO1]], [[SKN-1]], [[Sulforaphane]], [[Dimethyl fumarate]], [[Bardoxolone methyl]], [[Chronic Obstructive Pulmonary Disease]], [[Asthma]], [[Multiple Sclerosis]], [[Fenton Reaction]]
 - Suggested new entity notes to create: [[Oltipraz]], [[MAFG]], [[MAFF]], [[CUL3]]
 - Strong connections to strengthen: [[NRF2]] ↔ [[KEAP1]], [[NRF2]] ↔ [[Oxidative Stress]], [[NRF2]] ↔ [[NF-kappa B]]

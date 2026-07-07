@@ -16,14 +16,16 @@ aliases: [Adiposity]
 - **[[SIRT2]] and [[SIRT6]]**: Promote obesity. [[HIF-1α]] negatively regulates the SIRT2-PGC-1α axis, supporting adipogenesis. SIRT6 overexpression exacerbates diet-induced obesity by decreasing [[STAT3]] acetylation and lowering proopiomelanocortin expression.
 - **[[SIRT1]]**: Regulated by [[miR-146b]] which binds the 3′-UTR of SIRT1 mRNA to promote adipogenesis.
 
-### Connections
+#
+
+## Connections
 - [[Type 2 Diabetes Mellitus]] — interacts with
 - [[Cardiovascular Disease]] — interacts with
 - [[Non-alcoholic Fatty Liver Disease]] — interacts with
 - [[SIRT1]] — NAD+-dependent deacetylase; activates NRF2
 - [[SIRT3]] — interacts with
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Type 2 Diabetes Mellitus]], [[Cardiovascular Disease]], [[Non-alcoholic Fatty Liver Disease]], [[SIRT1]], [[SIRT3]], [[AMPK]], [[PGC1-α]], [[ULK1]], [[SIRT2]], [[SIRT6]], [[HIF-1α]], [[STAT3]], [[miR-146b]]
 - Strong connections to strengthen: [[Obesity]] ↔ [[Type 2 Diabetes Mellitus]], [[Obesity]] ↔ [[Cardiovascular Disease]], [[Obesity]] ↔ [[Non-alcoholic Fatty Liver Disease]], [[Obesity]] ↔ [[SIRT1]], [[Obesity]] ↔ [[SIRT3]]
 

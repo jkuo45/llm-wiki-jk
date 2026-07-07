@@ -59,7 +59,6 @@ Cyanidin/C3G is one of the most realistically achievable SIRT6 activators throug
 ---
 
 ## Linking Summary
-
 - New links added: [[SIRT6]], [[Antioxidants]], [[Cancer]], [[UBCS039]], [[MDL-801]]
 - Suggested new entity notes: [[Anthocyanins]], [[Elderberry]], [[UBCS039]], [[MDL-801]]
 - Strong connections: [[Cyanidin]] ↔ [[SIRT6]], [[Cyanidin]] ↔ [[UBCS039]]

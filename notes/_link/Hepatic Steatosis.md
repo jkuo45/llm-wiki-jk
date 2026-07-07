@@ -19,10 +19,12 @@ aliases: [Fatty Liver]
 
 **Therapeutic strategies:** Management of Hepatic Steatosis includes pharmacological interventions, lifestyle modifications, and supportive care. Emerging therapies target specific molecular pathways involved in disease progression.
 
-### Connections
+#
+
+## Connections
 - [[Hepatic Steatosis]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Hepatic Steatosis]]
 - Strong connections to strengthen: [[Hepatic Steatosis]] ↔ [[Hepatic Steatosis]]
 

@@ -16,8 +16,7 @@ Translation initiation is the complex process of assembling the ribosome at the 
 
 Cap-dependent translation involves eIF4F ([[eIF4E]]-[[eIF4A]]-[[eIF4G]]) binding the 5' cap, 43S preinitiation complex recruitment, and scanning to the AUG start codon.
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[eIF4A]], [[eIF5A]], [[TFEB]]
 - Suggested new entity notes to create: [[eIF4F complex]]
 - Strong connections to strengthen: [[Translation Initiation]] ↔ [[eIF4A]]

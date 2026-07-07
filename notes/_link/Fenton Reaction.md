@@ -24,9 +24,9 @@ Because of the destructive capacity of the Fenton reaction, cellular iron is str
 **Ischemia-Reperfusion Injury:** Upon reperfusion of ischemic tissue, the sudden reintroduction of oxygen provides substrate for [[Xanthine Oxidase]], which generates superoxide and H₂O₂. Simultaneously, acidic pH from ischemia mobilizes iron from ferritin and transferrin, creating the ideal conditions for Fenton-driven oxidative damage.
 **Cancer:** Tumors accumulate iron through upregulated [[Transferrin receptor 1]] (TfR1) expression and downregulated ferritin. This elevated labile iron pool sensitizes cancer cells to ferroptosis, a non-apoptotic cell death modality driven by iron-dependent [[Lipid Peroxidation]]. Therapeutic strategies targeting iron metabolism (e.g., iron chelators, ferroptosis inducers) exploit the Fenton reaction to selectively kill cancer cells.
 **Aging:** Iron accumulates in multiple tissues with age, including the brain, liver, and cardiovascular system. This progressive iron loading is thought to contribute to age-associated oxidative damage, and interventions that reduce iron burden (phlebotomy, dietary restriction, chelation) extend lifespan in several model organisms.
-### New Linking Summary (Added 2026-07-04):
+#
 
-### Connections
+## Connections
 - [[Hydrogen Peroxide]]: The substrate that reacts with Fe²⁺.
 - [[Hydroxyl Radicals]]: The primary product.
 - [[Superoxide Dismutase]]: Removes superoxide, indirectly reducing Fe³⁺ reduction.
@@ -34,7 +34,7 @@ Because of the destructive capacity of the Fenton reaction, cellular iron is str
 - [[Ascorbic Acid]]: Can reduce Fe³⁺ to Fe²⁺, potentially promoting Fenton chemistry.
 - [[Oxidative Stress]]: The Fenton reaction is a central amplification mechanism.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Iron]], [[Reactive Oxygen Species]], [[Neuromelanin]], [[Oxidative Stress]], [[Parkinson's Disease]], [[Ascorbic Acid]], [[Superoxide Dismutase]], [[Ferritin]], [[Transferrin receptor 1]], [[8-oxo-2'-deoxyguanosine]], [[DNA Damage]], [[NRF2]], [[HO-1]], [[Substantia Nigra]], [[Neurodegeneration]], [[Cancer]], [[Ferroptosis]], [[Lipid Peroxidation]], [[Xanthine Oxidase]], [[Aging]], [[Hydrogen Peroxide]], [[Hydroxyl Radicals]]
 - Suggested new entity notes to create: [[Ferritin]], [[Haber-Weiss Reaction]], [[HO-1]], [[Ferroptosis]], [[Iron Regulatory Protein]], [[Ischemia-reperfusion Injury]], [[Ferrous iron]], [[Free radical chemistry]]
 - Strong connections to strengthen: [[Fenton Reaction]] ↔ [[Iron]], [[Fenton Reaction]] ↔ [[Ferroptosis]], [[Fenton Reaction]] ↔ [[Parkinson's Disease]], [[Fenton Reaction]] ↔ [[Hydroxyl Radicals]]

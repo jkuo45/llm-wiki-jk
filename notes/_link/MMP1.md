@@ -18,10 +18,12 @@ aliases: [Matrix Metalloproteinase 1, Collagenase 1]
 
 **Clinical relevance:** Dysregulation of MMP1 activity is implicated in metabolic disorders, oxidative stress-related pathologies, and cancer. Pharmacological modulation of this enzyme represents a therapeutic strategy for diseases involving its pathway.
 
-### Connections
+#
+
+## Connections
 - [[MMP1]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[MMP1]]
 - Strong connections to strengthen: [[MMP1]] ↔ [[MMP1]]
 

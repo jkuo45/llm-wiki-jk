@@ -22,7 +22,7 @@ aliases: [C. elegans nuclear hormone receptor 49]
 
 NHR-49 is the C. elegans ortholog of mammalian [[PPARα]]. It regulates [[Lipophagy]], [[Beta-Oxidation]], and lifespan extension downstream of [[LIPL-4]].
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[C. elegans]], [[Starvation]], [[MXL-3]], [[HLH-30]]
 - Suggested new entity notes to create: [[PPARα]]
 - Strong connections to strengthen: [[NHR-49]] ↔ [[Starvation]]

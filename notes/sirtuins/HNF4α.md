@@ -43,7 +43,6 @@ HNF4α binds DNA as a homodimer recognizing direct repeat motifs (DR1) in target
 - [[MODY1]] — Monogenic form of diabetes caused by HNF4A mutation
 
 ## Linking Summary
-
 - New links added: [[HNF4α]], [[Hepatic Steatosis]], [[Lipotoxicity]], [[Non-alcoholic Fatty Liver Disease]], [[MODY1]], [[O-GlcNAcylation]]
 - Suggested new entity notes to create: [[SRC-1]], [[PGC-1α]]
 - Strong connections to strengthen: [[SIRT2]] ↔ [[HNF4α]]

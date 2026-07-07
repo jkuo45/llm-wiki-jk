@@ -24,7 +24,7 @@ entity_type_1: Protein
 
 Atg16 is the yeast scaffold that complexes with Atg12-Atg5 for [[Atg8]]/LC3 lipidation. Mammalian cells have [[Atg16L1]].
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Autophagy]], [[LC3]], [[Atg12]], [[Atg5]], [[Autophagosome]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[Atg16]] ↔ [[Atg5]], [[Atg16]] ↔ [[LC3]]

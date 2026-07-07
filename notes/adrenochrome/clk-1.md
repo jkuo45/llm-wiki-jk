@@ -29,7 +29,6 @@ The mouse homolog, *Mclk1*, also shows that partial deficiency can lead to incre
 - [[Ubiquinone]]
 
 ## Linking Summary
-
 - New links added: [[Mitochondria]], [[Mitohormesis]], [[isp-1]], [[nuo-6]], [[Ubiquinone]]
 - Suggested new entity notes to create: [[Ubiquinone]], [[Mclk1]]
 - Strong connections to strengthen: [[clk-1]] ↔ [[Longevity]]

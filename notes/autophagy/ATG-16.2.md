@@ -21,7 +21,7 @@ aliases: [Atg16-like 2]
 
 ATG-16.2 is the C. elegans ortholog of [[Atg16L1]], functioning in the Atg12-Atg5-Atg16L1 complex for LC3 lipidation.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[C. elegans]], [[Atg16]], [[Atg16L1]], [[Autophagosome]], [[Atg12]], [[Atg5]], [[LGG-1]], [[LGG-2]], [[Fasting]], [[Starvation]], [[HLH-30]], [[MXL-3]], [[Lysosomal Lipolysis]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[ATG-16.2]] ↔ [[HLH-30]]

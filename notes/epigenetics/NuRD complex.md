@@ -19,7 +19,7 @@ In the context of [[Yamanaka Factors]], the NuRD complex interacts with factors 
 - [[Nanog]]: Interacts with the NuRD complex to maintain [[Pluripotency]].
 - [[Cellular Reprogramming]]: The NuRD complex is part of the machinery that resets the epigenetic state of a cell.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Yamanaka Factors]], [[Nanog]], [[CHD4]], [[Sox2]], [[Cellular Reprogramming]], [[Pluripotency]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[CHD4]] ↔ [[NuRD complex]]

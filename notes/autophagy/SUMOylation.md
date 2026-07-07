@@ -20,8 +20,7 @@ SUMOylation is the covalent attachment of small ubiquitin-like modifier (SUMO) p
 
 SUMOylation of [[ULK1]], [[TFEB]], and [[GABARAP]] modulates their stability and activity. SUMO-specific proteases (SENPs) reverse the modification.
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[TFEB]]
 - Suggested new entity notes to create: [[SUMO]]
 - Strong connections to strengthen: [[SUMOylation]] ↔ [[TFEB]]

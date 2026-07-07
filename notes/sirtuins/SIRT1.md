@@ -152,19 +152,16 @@ SIRT1 is a key mediator of [[Caloric Restriction]] benefits in mammals. CR incre
 
 
 
-### Linking Summary
-
+## Linking Summary
+- New links added: [[Atg5]], [[Atg7]], [[Atg8]], [[LC3]], [[LC3B]], [[BNIP3]], [[GABARAPL1]]
+- Strong connections to strengthen: [[SIRT1]] ↔ [[Autophagy]], [[SIRT1]] ↔ [[TFEB]]
 - New links added: [[HDAC]], [[Epigenetics]], [[NAD+]], [[Sirtuins]], [[p53]], [[FOXO]], [[PGC1-α]], [[NFKB]], [[Resveratrol]], [[Caloric Restriction]], [[Nicotinamide Riboside]], [[Nicotinamide Mononucleotide]]
 - Suggested new entity notes to create: [[CLOCK]], [[BMAL1]], [[SRT1720]]
-- Strong connections to strengthen: [[SIRT1]] ↔ [[NAD+]], [[SIRT1]] ↔ [[HDAC]]
 - New links added: [[NAD+]], [[p53]], [[AMPK]]
 - Suggested new entity notes to create:
 - New links added: [[AMPK]], [[Aging]], [[Atg]], [[Autophagy]], [[Caloric Restriction]], [[Cardiovascular Disease]], [[Diabetes Mellitus]], [[Epigenome]], [[FoxO1]], [[FOXO3a]], [[Heterochromatin]], [[Intermittent Fasting]], [[Neurodegenerative Diseases]], [[Resveratrol]], [[SIRT1]], [[Sirtuins]]
 - New links added: [[TFEB]]
-- Suggested new entity notes to create: [[Deacetylation]]## From [[SIRT1]]
-
-
-# SIRT1
+- Suggested new entity notes to create: [[Deacetylation]]## From [[SIRT1]]# SIRT1
 
 SIRT1 is a class III [[NAD+]]-dependent histone deacetylase and one of the seven human sirtuins. It is primarily localized in the nucleus (associated with euchromatin) but also functions in the cytoplasm. It plays a critical role in metabolic regulation, anti-aging pathways, oxidative stress response, DNA repair, and the regulation of key proteins such as [[p53]] and [[AMPK]].
 
@@ -241,6 +238,3 @@ In the [[Mitohormesis]] framework, SIRT1 transduces mitochondrial signals into n
 
 Sirtuin 1 (SIRT1) is an NAD+-dependent deacetylase that promotes [[TFEB]] transcriptional activity and nuclear translocation by deacetylating it, notably at K116.
 
-### New Linking Summary (Added 2026-07-04, _link merge):
-- New links added: [[Atg5]], [[Atg7]], [[Atg8]], [[LC3]], [[LC3B]], [[BNIP3]], [[GABARAPL1]]
-- Strong connections to strengthen: [[SIRT1]] ↔ [[Autophagy]], [[SIRT1]] ↔ [[TFEB]]

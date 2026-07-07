@@ -19,10 +19,12 @@ aliases: [Alcohol Use Disorder, AUD]
 
 **Therapeutic strategies:** Management of Alcoholism includes pharmacological interventions, lifestyle modifications, and supportive care. Emerging therapies target specific molecular pathways involved in disease progression.
 
-### Connections
+#
+
+## Connections
 - [[Alcoholism]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Alcoholism]]
 - Strong connections to strengthen: [[Alcoholism]] ↔ [[Alcoholism]]
 

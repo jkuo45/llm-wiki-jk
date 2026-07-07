@@ -32,6 +32,5 @@ aliases:
 - [[p53]]: Represses Pol I transcription in response to stress; SIRT1 deacetylation of p53 relieves this repression.
 - [[Cancer]]: Hyperactivation of Pol I transcription is a hallmark of many cancers, making it a therapeutic target.
 
-### Linking Summary:
-
+## Linking Summary
 - New links added: [[SIRT7]], [[SIRT1]], [[TAFI68]], [[NAD+]], [[Ribosome Biogenesis]], [[p53]], [[Cellular Senescence]], [[Cancer]]

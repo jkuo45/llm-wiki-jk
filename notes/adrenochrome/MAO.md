@@ -44,6 +44,6 @@ Under normal physiology, MAO and [[COMT]] cooperatively degrade [[Epinephrine]] 
 - [[Hydrogen Peroxide]] ↔ A byproduct of normal MAO activity.
 - [[Adrenochrome]] ↔ Alternative metabolite when MAO is inhibited.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[MAO]], [[Catecholamines]], [[Dopamine]], [[Epinephrine]], [[COMT]], [[Oxidation]], [[Adrenochrome]], [[Hydrogen Peroxide]], [[Smoking]], [[Inflammation]], [[Cardiotoxicity]], [[Aminochromes]]
 - Strong connections to strengthen: [[MAO]] ↔ [[Epinephrine]]

@@ -19,10 +19,12 @@ aliases: [Human Immunodeficiency Virus]
 
 **Therapeutic strategies:** Management of HIV includes pharmacological interventions, lifestyle modifications, and supportive care. Emerging therapies target specific molecular pathways involved in disease progression.
 
-### Connections
+#
+
+## Connections
 - [[HIV]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[HIV]]
 - Strong connections to strengthen: [[HIV]] ↔ [[HIV]]
 

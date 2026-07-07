@@ -21,13 +21,15 @@ As we age, the global landscape of histone modifications changes significantly:
 *   **Loss of Core Histones**: There is often a global reduction in the total amount of histone proteins.
 *   **Epigenetic Drift**: A loss of repressive marks and a gain of activating marks in regions that should be silenced, contributing to [[Genomic Instability]].
 
-### Connections
+#
+
+## Connections
 - **[[Epigenetics]]**: Histone modification is a primary mechanism of epigenetic regulation.
 - **[[Chromatin]]**: The structure that histone modifications help to organize.
 - **[[Histone Acetylation]]** / **[[Histone Methylation]]**: The two most well-studied types of modifications.
 - **[[Aging]]**: Progressive shifts in histone marks are a hallmark of the aging process.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Histone Modification]], [[Epigenetics]], [[Transcription]], [[Histone Acetylation]], [[Chromatin]], [[Euchromatin]], [[Histone Methylation]], [[DNA Damage]], [[Histone Acetyltransferase]], [[Histone Deacetylase]], [[Aging]], [[Genomic Instability]]
 - Suggested new entity notes to create: [[PTMs]], [[Histone Code]], [[Epigenetic Readers]]
 - Strong connections to strengthen: [[Histone Modification]] ↔ [[Epigenetics]], [[Histone Modification]] ↔ [[Chromatin]]

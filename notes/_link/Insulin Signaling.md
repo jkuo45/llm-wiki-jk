@@ -21,7 +21,9 @@ Reduced IIS is among the most robust lifespan-extending interventions. In [[C. e
 Hyperinsulinemia in [[Metabolic Syndrome]] and [[Type 2 Diabetes Mellitus]] chronically suppresses autophagy, contributing to proteotoxicity, mitochondrial dysfunction, and accelerated aging. Conversely, autophagy impairment exacerbates insulin resistance.
 
 
-### Connections
+#
+
+## Connections
 - [[Autophagy]] — cellular self-degradation pathway; clears damaged proteins and organelles
 - [[PI3K-Akt Signaling]] — interacts with Insulin Signaling
 - [[mTORC1]] — master regulator of anabolic-catabolic balance; inhibits autophagy
@@ -30,5 +32,5 @@ Hyperinsulinemia in [[Metabolic Syndrome]] and [[Type 2 Diabetes Mellitus]] chro
 - [[IRS1]] — interacts with Insulin Signaling
 - [[IRS2]] — interacts with Insulin Signaling
 - [[PI3K]] — interacts with Insulin Signaling
-### Linking Summary
+## Linking Summary
 - New links added: [[PI3K-Akt Signaling]], [[mTORC1]], [[Autophagy]], [[FOXO]], [[IGF1]], [[DAF-2]], [[Dietary Restriction]], [[Intermittent Fasting]]

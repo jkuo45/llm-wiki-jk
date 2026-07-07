@@ -20,5 +20,5 @@ entity_type_1: Chemical Compound
 - [[Flavonoids]]: The class of compounds to which hesperidin belongs.
 
 ---
-### Linking Summary:
+## Linking Summary
 - New links added: [[Anti-inflammatory]], [[COMT]], [[Flavonoids]].

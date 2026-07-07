@@ -22,13 +22,15 @@ database_ids:
 ## Clinical Relevance
 Vitamin D deficiency is associated with increased risk of [[Cardiovascular Disease]], [[Diabetes Mellitus]], [[infection]], and [[Neurodegenerative Diseases]]. Supplementation has been studied in the context of [[Asthma]], [[Depression]], and [[COVID-19]].
 
-### Connections
+#
+
+## Connections
 - [[Asthma]] — Vitamin D status correlates with asthma severity
 - [[Cardiovascular Disease]] — Deficiency linked to increased CV risk
 - [[Inflammation]] — Immunomodulatory effects via VDR
 - [[Calcium]] — Primary regulator of calcium absorption
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Inflammation]], [[Cardiovascular Disease]], [[Neurodegenerative Diseases]], [[Diabetes Mellitus]], [[Asthma]], [[Depression]], [[Immune System]], [[Mitochondria]], [[Oxidative Stress]]
 - Suggested new entity notes to create: [[VDR]], [[Vitamin D Receptor]], [[CYP27B1]], [[CYP24A1]]
 - Strong connections to strengthen: [[Vitamin D]] ↔ [[Inflammation]]

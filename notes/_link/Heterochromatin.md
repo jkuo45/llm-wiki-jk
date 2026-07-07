@@ -21,13 +21,15 @@ One of the earliest and most influential theories in [[Epigenetics]] is that [[A
 ### 3. Molecular Markers
 Heterochromatin is typically marked by specific [[Histone Modification|histone modifications]], such as H3K9me3 (trimethylation of histone H3 lysine 9), and is maintained by enzymes like [[Histone Deacetylase|HDACs]] and [[Histone Methyltransferase|HMTs]].
 
-### Connections
+#
+
+## Connections
 - **[[Chromatin]]**: The general complex of DNA and protein.
 - **[[Euchromatin]]**: The open, active counterpart to heterochromatin.
 - **[[Genomic Instability]]**: A consequence of heterochromatin loss.
 - **[[Aging]]**: Aging is characterized by a global reduction in heterochromatin levels.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[HP1]], [[H3K9me3]], [[SAHF]], [[Chromatin]]
 - Suggested new entity notes to create: [[HP1]], [[Chromatin]]
 - Strong connections to strengthen: [[Heterochromatin]] ↔ [[SAHF]]

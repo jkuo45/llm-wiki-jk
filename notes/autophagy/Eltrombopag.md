@@ -19,8 +19,7 @@ Eltrombopag is a thrombopoietin receptor ([[MPL]]) agonist used for immune throm
 
 Eltrombopag chelates iron and has been shown to induce [[Autophagy]] and [[Ferritinophagy]] in hematopoietic stem cells, potentially contributing to its therapeutic effect in bone marrow failure syndromes.
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[TFEB]]
 - Suggested new entity notes to create: [[Autophagy Inhibitor]]
 - Strong connections to strengthen: [[Eltrombopag]] ↔ [[TFEB]]

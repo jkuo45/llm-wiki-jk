@@ -20,13 +20,15 @@ These actions collectively trigger the [[Intrinsic Pathway]] of [[Apoptosis]].
 ## Resistance
 Resistance to doxorubicin is a common clinical problem, often mediated by the overexpression of anti-apoptotic proteins like [[Bcl-2]] or the silencing of proteins like [[Bmi-1]].
 
-### Connections
+#
+
+## Connections
 - [[Apoptosis]]: Triggers cell death via multiple pathways.
 - [[Bmi-1]]: Silencing Bmi-1 can sensitize cells to doxorubicin.
 - [[Bcl-2]]: High levels of Bcl-2 confer resistance.
 - [[Intrinsic Pathway]]: The primary apoptotic route activated by doxorubicin.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Breast Cancer]], [[leukemia]], [[Oxidative Stress]], [[Intrinsic Pathway]], [[Apoptosis]], [[Bcl-2]], [[Bmi-1]], [[DNA Damage]], [[Senescence]]
 - Suggested new entity notes to create: [[Bmi-1]]
 - Strong connections to strengthen: [[Doxorubicin]] ↔ [[Bmi-1]], [[Doxorubicin]] <-> [[DNA Damage]]

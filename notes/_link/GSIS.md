@@ -19,10 +19,12 @@ aliases: [Glucose-Stimulated Insulin Secretion]
 
 **Regulation and dysregulation:** GSIS is controlled by nutrient sensors, stress pathways, and hormonal signals. Impairment of this process is linked to metabolic diseases, neurodegeneration, and cancer.
 
-### Connections
+#
+
+## Connections
 - [[GSIS]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[GSIS]]
 - Strong connections to strengthen: [[GSIS]] ↔ [[GSIS]]
 

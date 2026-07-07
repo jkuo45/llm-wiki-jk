@@ -18,10 +18,12 @@ aliases: [Factor IIa]
 
 **Clinical relevance:** Dysregulation of Thrombin activity is implicated in metabolic disorders, oxidative stress-related pathologies, and cancer. Pharmacological modulation of this enzyme represents a therapeutic strategy for diseases involving its pathway.
 
-### Connections
+#
+
+## Connections
 - [[Thrombin]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Thrombin]]
 - Strong connections to strengthen: [[Thrombin]] ↔ [[Thrombin]]
 

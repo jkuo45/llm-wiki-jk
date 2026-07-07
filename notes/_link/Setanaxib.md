@@ -19,10 +19,12 @@ aliases: [GKT137831]
 
 **Safety and toxicity:** The safety profile of Setanaxib depends on dose, duration of exposure, and individual susceptibility. Understanding its toxicology is essential for safe therapeutic use.
 
-### Connections
+#
+
+## Connections
 - [[Setanaxib]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Setanaxib]]
 - Strong connections to strengthen: [[Setanaxib]] ↔ [[Setanaxib]]
 

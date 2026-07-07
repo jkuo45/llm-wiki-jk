@@ -32,7 +32,6 @@ CDC14B is a key negative regulator of the microtubule and cell cycle deacetylase
 - [[Sirtuins]] — mammalian sirtuin family of proteins
 
 ## Linking Summary
-
 - New links added: [[SIRT2]], [[Sirtuins]]
 - Suggested new entity notes to create: [[Mitotic Exit]], [[26S Proteasome]], [[Dual-Specificity Phosphatase]]
 - Strong connections to strengthen: [[CDC14B]] ↔ [[SIRT2]]

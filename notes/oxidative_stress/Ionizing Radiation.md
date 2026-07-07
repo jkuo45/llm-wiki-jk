@@ -13,11 +13,6 @@ tags: [oxidative_stress, dna_damage, radiotherapy]
 # Ionizing Radiation
 Ionizing radiation is radiation, traveling as particles or electromagnetic waves, that carries sufficient energy to detach electrons from atoms or molecules, thereby ionizing them. This process leads to the immediate generation of [[Reactive Oxygen Species]], resulting in extensive [[DNA Damage]] and systemic [[Oxidative Stress]].
 
-## Linking Summary
-- New links added: [[Reactive Oxygen Species]], [[DNA Damage]], [[Oxidative Stress]]
-- Suggested new entity notes to create: [[Free radical generation]], [[Radiation biology]]
-- Strong connections to strengthen: [[Ionizing Radiation]] ↔ [[Reactive Oxygen Species]]
-
 ## Molecular Mechanisms of Radiation-Induced Oxidative Damage
 
 ### Water Radiolysis and Primary ROS Generation
@@ -39,3 +34,8 @@ Fractionated radiotherapy exploits differential DNA repair capacity between tumo
 - New links added: [[Hydroxyl Radicals]], [[DNA]], [[Proteins]], [[Lipids]], [[DNA Repair]], [[Mitochondria]], [[Superoxide Radicals]], [[TNF-alpha]], [[TGF-beta]], [[Nitric Oxide]], [[ATM]], [[p53]], [[AMPK]], [[Apoptosis]], [[Senescence]], [[SASP]], [[IL-1b]], [[N-Acetylcysteine]], [[Ascorbic Acid]], [[Vitamin E]]
 - Suggested new entity notes to create: [[Water radiolysis]], [[Mitochondrial oxidative amplification]], [[Bystander effect]], [[Amifostine]], [[ATM kinase]], [[Chk2]], [[Clustered DNA damage]], [[Non-homologous end joining]]
 - Strong connections to strengthen: [[Ionizing Radiation]] ↔ [[DNA Damage]], [[Ionizing Radiation]] ↔ [[Mitochondria]], [[Ionizing Radiation]] ↔ [[Hydroxyl Radicals]]
+
+## Linking Summary
+- New links added: [[Reactive Oxygen Species]], [[DNA Damage]], [[Oxidative Stress]]
+- Suggested new entity notes to create: [[Free radical generation]], [[Radiation biology]]
+- Strong connections to strengthen: [[Ionizing Radiation]] ↔ [[Reactive Oxygen Species]]

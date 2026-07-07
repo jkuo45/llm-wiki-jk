@@ -25,7 +25,7 @@ The **Adaptive Immune Response** is a highly specific immune mechanism character
 
 Adaptive immunity involves B and T cell responses. [[Autophagy]] regulates antigen presentation, lymphocyte survival, and immune memory.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[T Cell]], [[Senescence]], [[B Cell]], [[Autophagy]], [[Autophagy Inducer]], [[Spermidine]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[Adaptive Immune Response]] ↔ [[Immune Aging]]

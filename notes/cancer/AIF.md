@@ -22,7 +22,7 @@ Once in the cytoplasm, AIF translocates to the nucleus where it induces large-sc
 - [[chromatin condensation]]: A morphological hallmark of apoptosis induced by AIF.
 - [[Apoptosis]]: Executes programmed cell death.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Apoptosis]], [[Intrinsic Pathway]], [[chromatin condensation]]
 - Suggested new entity notes to create: [[chromatin condensation]]
 - Strong connections to strengthen: [[AIF]] ↔ [[Intrinsic Pathway]]

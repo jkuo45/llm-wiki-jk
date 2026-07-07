@@ -19,10 +19,12 @@ Cisplatin induces [[Autophagy]] as a resistance mechanism in cancer cells. Autop
 ## Use with Melittin
 - **Synergy**: Synergistic anticancer effects have been reported between [[melittin]] and cisplatin in cervical and laryngeal malignancies.
 
-### Connections
+#
+
+## Connections
 - [[melittin]]: Acts synergistically with cisplatin.
 - [[triple-negative breast cancer]]: Cisplatin is used in the clinic to treat TNBC.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Cancer]], [[Intermittent Fasting]], [[Apoptosis]], [[DNA Damage]], [[Senescence]]
 - Strong connections to strengthen: [[Cisplatin]] ↔ [[DNA Damage]], [[Cisplatin]] <-> [[DNA Damage]]

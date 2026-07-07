@@ -18,8 +18,7 @@ Torin1 is a potent, selective [[mTORC1]] and [[mTORC2]] inhibitor (ATP-competiti
 
 Torin1 robustly induces [[Autophagy]] by inhibiting mTORC1, leading to [[ULK1]] activation and [[TFEB]] nuclear translocation. It is widely used to study the CLEAR network and mTOR-dependent autophagy.
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[mTORC1]], [[TFEB]]
 - Suggested new entity notes to create: [[mTOR Inhibitor]]
 - Strong connections to strengthen: [[Torin1]] ↔ [[TFEB]]

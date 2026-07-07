@@ -17,7 +17,7 @@ Historically characterized as a protein deglycase, biochemical evidence indicate
 
 Loss-of-function mutations in PARK7 lead to significant tissue-specific accumulation of novel AGEs and are strongly linked to early-onset familial [[Parkinson's Disease]].
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Methylglyoxal]], [[Glyoxal]], [[L-lactate]], [[Glycolic acid]], [[Advanced Glycation End Products]], [[Cysteine]], [[Lysine]], [[Arginine]], [[Parkinson's Disease]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[PARK7]] ↔ [[Methylglyoxal]], [[PARK7]] ↔ [[Parkinson's Disease]]

@@ -12,10 +12,12 @@ entity_type_1: Biological Molecule
 ## Metabolism
 [[Serotonin]] is primarily broken down by [[Monoamine oxidase]] ([[MAO]]). It can also be converted into [[Melatonin]] through a process that involves adding a [[Methyl groups|methyl group]].
 
-### Connections
+#
+
+## Connections
 - [[Neurotransmitters]]: Serotonin's primary biological role.
 - [[Melatonin]]: A hormone synthesized from serotonin.
 - [[Methylation]]: The process involved in converting serotonin to melatonin.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Neurotransmitters]], [[Monoamine oxidase]], [[MAO]], [[Melatonin]], [[Methyl groups]], [[Methylation]].

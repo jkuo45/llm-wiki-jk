@@ -50,6 +50,6 @@ In the [[Mitohormetic Redox-Relay]] protocol, carbazochrome is deployed at ultra
 - [[Cardiotoxicity]] ↔ While adrenochrome is linked to cardiotoxicity, its derivative carbazochrome is used therapeutically in different contexts.
 - [[Mitohormetic Redox-Relay]] ↔ Strategy utilizing carbazochrome for mitochondrial rejuvenation.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Carbazochrome]], [[Adrenochrome]], [[Cardiotoxicity]], [[Mitohormetic Redox-Relay]], [[NRF2]], [[PGC1-α]], [[Retinal Hemorrhage]], [[Hemorrhagic Cystitis]], [[Cyclophosphamide]], [[Hereditary Hemorrhagic Telangiectasia]], [[Scurvy]], [[Corticosteroid]], [[Vascular Endothelium]], [[Histamine]], [[Bradykinin]], [[Vascular Endothelial Growth Factor]], [[Myosin Light Chain Kinase]], [[Ca²⁺]]/[[Calmodulin]], [[Claudin-5]], [[Occludin]], [[Cerebral Edema]], [[Glutathione]], [[Electron Transport Chain]], [[NADH]], [[SIRT1]], [[PPARδ]], [[AMPK]]
 - Strong connections to strengthen: [[Carbazochrome]] ↔ [[Adrenochrome]], [[Carbazochrome]] ↔ [[Mitohormetic Redox-Relay]]

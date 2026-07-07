@@ -24,7 +24,7 @@ A derivative of gossypol, AT-101, has entered phase II clinical trials for the t
 - [[Apoptosis]]: Promotes cell death in resistant tumors.
 - [[leukemia]]: Investigated for CLL treatment.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Bcl-2 family]], [[Bcl-2]], [[Bcl-xL]], [[Mcl-1]], [[Apoptosis]], [[leukemia]]
 - Suggested new entity notes to create: [[Mcl-1]]
 - Strong connections to strengthen: [[Gossypol]] ↔ [[Bcl-2 family]]

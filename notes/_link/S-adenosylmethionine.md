@@ -19,10 +19,12 @@ aliases: [SAMe]
 
 **Clinical significance:** Altered levels of S-adenosylmethionine are observed in metabolic disorders, mitochondrial diseases, and nutritional deficiencies. Supplementation or pharmacological modulation of this metabolite has therapeutic potential.
 
-### Connections
+#
+
+## Connections
 - [[S-adenosylmethionine]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[S-adenosylmethionine]]
 - Strong connections to strengthen: [[S-adenosylmethionine]] ↔ [[S-adenosylmethionine]]
 

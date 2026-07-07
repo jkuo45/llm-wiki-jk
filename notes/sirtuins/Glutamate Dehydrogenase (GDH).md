@@ -44,7 +44,6 @@ Given that glutamate is the primary excitatory neurotransmitter in the central n
 - [[Sirtuins]] — sirtuin family members that regulate mitochondrial metabolism
 
 ## Linking Summary
-
 - New links added: [[SIRT4]], [[Caloric Restriction]], [[Sirtuins]]
 - Suggested new entity notes to create: [[Alpha-ketoglutarate]], [[Excitotoxicity]]
 - Strong connections to strengthen: [[Glutamate Dehydrogenase (GDH)]] ↔ [[SIRT4]]

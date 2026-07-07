@@ -42,11 +42,9 @@ In [[Atherosclerosis]], the oxidative modification of LDL (oxLDL) by lipid perox
 - [[Atherosclerosis]]: oxLDL formation via lipid peroxidation is a core pathogenic mechanism.
 - [[Ferroptosis]]: A form of regulated cell death driven by iron-dependent lipid peroxidation.
 
-### Linking Summary
+## Linking Summary
+- New links added: [[Hydroxyl Radicals]], [[Peroxynitrite]], [[Fenton Reaction]], [[Antioxidants]], [[Ascorbic Acid]], [[DNA]], [[Glutathione]], [[NRF2]], [[Mitochondria]], [[Apoptosis]], [[Macrophage]], [[CD36 Receptor]], [[NFKB]], [[Neurodegenerative Diseases]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Amyotrophic Lateral Sclerosis]], [[Ferroptosis]], [[Inflammation]], [[Cardiovascular Disease]]
+- Suggested new entity notes to create: [[4-Hydroxynonenal]], [[Isoprostanes]], [[Acrolein]], [[Oxidized LDL]], [[Calpain]]
 - New links added: [[Malondialdehyde]], [[Vitamin E]], [[Oxidative Stress]], [[Cell membranes]]
 - Suggested new entity notes to create: [[Free Radicals]], [[Membrane damage]]
 - Strong connections to strengthen: [[Lipid Peroxidation]] ↔ [[Vitamin E]]
-
-### New Linking Summary (Added 2026-07-04):
-- New links added: [[Hydroxyl Radicals]], [[Peroxynitrite]], [[Fenton Reaction]], [[Antioxidants]], [[Ascorbic Acid]], [[DNA]], [[Glutathione]], [[NRF2]], [[Mitochondria]], [[Apoptosis]], [[Macrophage]], [[CD36 Receptor]], [[NFKB]], [[Neurodegenerative Diseases]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Amyotrophic Lateral Sclerosis]], [[Ferroptosis]], [[Inflammation]], [[Cardiovascular Disease]]
-- Suggested new entity notes to create: [[4-Hydroxynonenal]], [[Isoprostanes]], [[Acrolein]], [[Oxidized LDL]], [[Calpain]]

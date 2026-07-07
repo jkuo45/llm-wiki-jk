@@ -13,11 +13,6 @@ tags: [oxidative_stress, nitric_oxide, amino_acid]
 # L-arginine
 L-arginine is an amino acid that serves as a primary precursor for the biosynthesis of [[Nitric Oxide]] via the enzyme [[Nitric Oxide Synthase]]. Availability of L-arginine is a critical factor in maintaining vascular health and preventing [[Endothelial Dysfunction]].
 
-## Linking Summary
-- New links added: [[Nitric Oxide]], [[Nitric Oxide Synthase]], [[Endothelial Dysfunction]]
-- Suggested new entity notes to create: [[Amino acid]], [[Urea cycle]]
-- Strong connections to strengthen: [[L-arginine]] ↔ [[Nitric Oxide]]
-
 ## The L-Arginine-NO Pathway
 
 L-arginine is converted to [[Nitric Oxide]] (NO) and L-citrulline by [[Nitric Oxide Synthase]] (NOS) in a two-step monooxygenase reaction requiring molecular oxygen and [[NADPH]]:
@@ -79,10 +74,17 @@ L-arginine metabolism intersects with [[Oxidative Stress]] at multiple nodes:
 - **Peroxynitrite** from NO + O₂⁻• reactions causes nitration of proteins and lipids
 - **Arginine delminase** in [[Mycoplasma]] infections depletes local arginine, contributing to host tissue damage
 
-### Connections
+#
+
+## Connections
 - [[Nitric Oxide Synthase]]: The enzyme converting L-arginine to NO
 - [[Peroxynitrite]]: Product of NO reacting with superoxide
 - [[Endothelial Dysfunction]]: Driven by impaired L-arginine/NO pathway
 - [[Citrulline]]: Coproduct of NOS reaction and alternative arginine source
 - [[NADPH Oxidase]]: Source of superoxide that consumes NO and diverts arginine pathway
 - [[BH₄ (Tetrahydrobiopterin)]]: Essential cofactor for coupled NOS activity
+
+## Linking Summary
+- New links added: [[Nitric Oxide]], [[Nitric Oxide Synthase]], [[Endothelial Dysfunction]]
+- Suggested new entity notes to create: [[Amino acid]], [[Urea cycle]]
+- Strong connections to strengthen: [[L-arginine]] ↔ [[Nitric Oxide]]

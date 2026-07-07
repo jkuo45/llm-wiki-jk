@@ -34,13 +34,15 @@ entity_type_1: Biological Process
 - **Molecules:** [[Reactive Oxygen Species]], [[Cytochrome c]], [[Ascorbic Acid]], [[melittin]], [[Ivermectin]]
 - **Processes:** [[Autophagy]], [[Cellular Senescence]], [[DNA Damage]], [[Epigenetics]], [[Inflammation]]
 
-### Connections
+#
+
+## Connections
 - [[Mitochondria]]: The central organelle and sensor for the intrinsic apoptotic pathway.
 - [[Oxidative Stress]]: One of the most common physiological triggers for apoptosis.
 - [[Cellular Senescence]]: An alternative fate to apoptosis for damaged cells.
 - [[Cancer]]: Often arises when cells fail to undergo apoptosis.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Aging]], [[Alzheimer's Disease]], [[Annexin V]], [[Ascorbic Acid]], [[Autophagy]], [[Bax]], [[Bcl-2]], [[Beclin1]], [[Cancer]], [[Cellular Reprogramming]], [[Cellular Senescence]], [[Cytochrome c]], [[DNA Damage]], [[Epigenetics]], [[Honeybee venom]], [[Induced Pluripotent Stem Cells]], [[Inflammation]], [[Ionizing Radiation]], [[Ivermectin]], [[Mitochondria]], [[Neurodegenerative Diseases]], [[Parkinson's Disease]], [[Reactive Oxygen Species]], [[SASP]], [[SIRT1]], [[SIRT6]], [[Sirtuins]], [[Caspase-3]], [[melittin]], [[p53]], [[c-Myc]], [[MPP+]], [[Neuromelanin]].
 - Suggested new entity notes to create: [[Cytochrome c]], [[Bax]], [[Bcl-2]], [[Annexin V]], [[Caspase-3]], [[necrosis]], [[Caspases]].
 - Strong connections to strengthen: [[Apoptosis]] ↔ [[Mitochondria]], [[Apoptosis]] ↔ [[Cellular Senescence]], [[Apoptosis]] ↔ [[p53]], [[Apoptosis]] ↔ [[Mitochondrial Dysfunction]].

@@ -26,7 +26,7 @@ aliases: [ubiquitin-like conjugating enzyme]
 
 Atg7 is an E1-like ubiquitin-activating enzyme essential for both the Atg12-Atg5 and LC3-PE conjugation systems. Atg7 knockout blocks [[Macroautophagy]].
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Autophagy]], [[Atg12]], [[Atg5]], [[LC3]], [[Atg8]], [[Autophagosome]], [[Cellular Homeostasis]], [[Hematopoietic Stem Cell]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[Atg7]] ↔ [[LC3]], [[Atg7]] ↔ [[Autophagy]]

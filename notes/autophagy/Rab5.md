@@ -17,7 +17,7 @@ aliases: [RAB5A, early endosome GTPase]
 
 Rab5 regulates early endosome fusion and motility. It is targeted by [[SetA]] glucosyltransferase during [[Legionella]] infection to subvert autophagy.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Rab7]], [[Lysosome]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[Rab5]] ↔ [[Rab7]]

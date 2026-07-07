@@ -19,10 +19,12 @@ aliases: [Checkpoint Kinase 1]
 
 **Pathological significance:** Altered expression or mutation of CHK1 is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
 
-### Connections
+#
+
+## Connections
 - [[CHK1]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[CHK1]]
 - Strong connections to strengthen: [[CHK1]] ↔ [[CHK1]]
 

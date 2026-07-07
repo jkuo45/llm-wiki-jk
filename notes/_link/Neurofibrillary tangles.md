@@ -19,10 +19,12 @@ aliases: [NFTs]
 
 **Therapeutic strategies:** Management of Neurofibrillary tangles includes pharmacological interventions, lifestyle modifications, and supportive care. Emerging therapies target specific molecular pathways involved in disease progression.
 
-### Connections
+#
+
+## Connections
 - [[Neurofibrillary tangles]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Neurofibrillary tangles]]
 - Strong connections to strengthen: [[Neurofibrillary tangles]] ↔ [[Neurofibrillary tangles]]
 

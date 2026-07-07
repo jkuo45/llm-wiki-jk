@@ -18,10 +18,12 @@ aliases: [Ten-Eleven Translocation Enzymes, TET1/2/3]
 
 **Clinical relevance:** Dysregulation of TET enzymes activity is implicated in metabolic disorders, oxidative stress-related pathologies, and cancer. Pharmacological modulation of this enzyme represents a therapeutic strategy for diseases involving its pathway.
 
-### Connections
+#
+
+## Connections
 - [[TET Enzymes]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[TET Enzymes]]
 - Strong connections to strengthen: [[TET Enzymes]] ↔ [[TET Enzymes]]
 

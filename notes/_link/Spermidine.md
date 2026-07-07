@@ -27,13 +27,15 @@ In the [[Glyco-Oxidative Proteostasis Shield]] strategy, Spermidine facilitates 
 ### Merged from notes/autophagy/Spermidine.md
 Spermidine is an endogenous polyamine metabolite that induces [[TFEB]]-driven autophagy by facilitating its translation via hypusination of [[eIF5A]].
 
-### Connections
+#
+
+## Connections
 - **[[Autophagy]]**: The primary cellular process induced by spermidine.
 - **[[Aging]]**: Spermidine levels are a determinant of healthy aging.
 - **[[Geroscience]]**: A major natural compound of interest for extending healthspan.
 - **[[Resveratrol]]**: Another natural compound that interacts with longevity pathways (SIRT1).
 
-### Linking Summary
+## Linking Summary
 - New links added: [[TFEB]], [[eIF5A]], [[Spermidine]], [[Autophagy]], [[Histone Acetyltransferase]], [[Aging]], [[Neurodegenerative Diseases]], [[Geroscience]], [[Resveratrol]], [[Polyamine]], [[Autophagy Inducer]], [[Longevity]]
 - Suggested new entity notes to create: [[Hypusination]], [[Polyamine]], [[Mitophagy]], [[Wheat Germ]], [[eIF5A]], [[SIRT1]]
 - Strong connections to strengthen: [[Spermidine]] ↔ [[TFEB]], [[Spermidine]] ↔ [[Autophagy]], [[Spermidine]] ↔ [[Aging]], [[Spermidine]] ↔ [[Immune Aging]]

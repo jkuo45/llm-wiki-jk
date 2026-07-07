@@ -19,10 +19,12 @@ aliases: [MDM4]
 
 **Pathological significance:** Altered expression or mutation of MdmX is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
 
-### Connections
+#
+
+## Connections
 - [[MdmX]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[MdmX]]
 - Strong connections to strengthen: [[MdmX]] ↔ [[MdmX]]
 

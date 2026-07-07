@@ -25,6 +25,5 @@ Onset ranges from infantile to adult forms. Symptoms include progressive vision 
 
 No curative treatment exists. [[TFEB]] activation has emerged as a potential therapeutic strategy, as TFEB overexpression enhances lysosomal exocytosis and reduces storage material in NCL models. Enzyme replacement therapy ([[Brineura]] for CLN2), gene therapy, and small-molecule chaperones are under clinical investigation.
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[Lysosomal Storage Diseases]], [[TFEB]]

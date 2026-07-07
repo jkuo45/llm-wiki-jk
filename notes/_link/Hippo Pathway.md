@@ -19,10 +19,12 @@ aliases: [Hippo Signaling]
 
 **Regulation and dysregulation:** Hippo Pathway is controlled by nutrient sensors, stress pathways, and hormonal signals. Impairment of this process is linked to metabolic diseases, neurodegeneration, and cancer.
 
-### Connections
+#
+
+## Connections
 - [[Hippo Pathway]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Hippo Pathway]]
 - Strong connections to strengthen: [[Hippo Pathway]] ↔ [[Hippo Pathway]]
 

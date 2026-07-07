@@ -21,12 +21,14 @@ entity_type_1: Protein
 ## Modulation
 - [[Metformin]] reverses the STAT3-mediated Th17 phenotype by enhancing [[Autophagy]] and mitochondrial bioenergetics.
 
-### Connections
+#
+
+## Connections
 - [[JAK2]]: An upstream kinase that activates STAT3.
 - [[melittin]]: Shown to modulate STAT3 signaling.
 - [[Ivermectin]]: Inhibits STAT3 activity via [[PAK1]].
 
-### Linking Summary
+## Linking Summary
 - New links added: [[T Cell]], [[Inflammaging]], [[Senescence]], [[Metformin]], [[Autophagy]]
 - Suggested new entity notes to create: [[Inflammaging]]
 - Strong connections to strengthen: [[STAT3]] ↔ [[Metformin]]

@@ -17,7 +17,7 @@ Adrenoleukodystrophy (ALD) is a severe genetic disorder often caused by mutation
 
 ALD is caused by [[ABCD1]] mutations, leading to accumulation of VLCFAs and peroxisomal dysfunction. Impaired [[Autophagy]] contributes to neuroinflammation and demyelination.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[ABCD1]], [[Peroxisome]], [[Beta-Oxidation]]
 - Suggested new entity notes to create: [[Myelin Sheath]], [[Very Long-Chain Fatty Acids]]
 - Strong connections to strengthen: [[Adrenoleukodystrophy]] ↔ [[ABCD1]], [[Adrenoleukodystrophy]] ↔ [[Peroxisome]]

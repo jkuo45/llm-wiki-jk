@@ -13,7 +13,9 @@ Butyrate is a four-carbon short-chain fatty acid produced by gut bacteria, known
 
 
 
-### Connections
+#
+
+## Connections
 - [[Butyrate]] — related entity
 - [[Colonocytes]] — related entity
 - [[Epigenetics]] — related entity
@@ -22,7 +24,7 @@ Butyrate is a four-carbon short-chain fatty acid produced by gut bacteria, known
 - [[Inflammation]] — related entity
 - [[Short-chain Fatty Acids]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Short-chain Fatty Acids]], [[Gut Microbiome]], [[Inflammation]], [[Faecalibacterium]]
 - Suggested new entity notes to create: [[Colonocytes]]
 - Strong connections to strengthen: [[Butyrate]] ↔ [[Epigenetics]]

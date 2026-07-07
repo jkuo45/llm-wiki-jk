@@ -23,7 +23,7 @@ entity_type_1: Scientific Concept
 
 Immunometabolism studies how metabolic pathways ([[Autophagy]], [[Glycolysis]], [[OxPhos]]) regulate immune cell function and differentiation.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Autophagy]], [[T Cell]], [[Immune Aging]], [[Metformin]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[Immunometabolism]] ↔ [[Autophagy]], [[Immunometabolism]] ↔ [[Immune Aging]]

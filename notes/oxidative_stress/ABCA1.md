@@ -13,11 +13,6 @@ tags: [oxidative_stress, cholesterol, lipid_metabolism]
 # ABCA1
 ATP-binding cassette transporter A1 (ABCA1) is a protein which in humans is encoded by the ABCA1 gene and is a major regulator of cellular [[Cholesterol]] and phospholipid homeostasis. It plays a critical role in preventing [[Atherosclerosis]] by mediating the efflux of cholesterol to apolipoproteins. Its expression is regulated by transcription factors such as [[LXRα]] and [[PPARγ]].
 
-## Linking Summary
-- New links added: [[Cholesterol]], [[Atherosclerosis]], [[LXRα]], [[PPARγ]]
-- Suggested new entity notes to create: [[Cholesterol]], [[Phospholipid homeostasis]]
-- Strong connections to strengthen: [[ABCA1]] ↔ [[Atherosclerosis]]
-
 ## Role in Oxidative Stress
 
 ABCA1 is intimately connected to [[Oxidative Stress]] at multiple levels. The ABCA1 promoter contains [[LXRα]] response elements, and oxidative modifications to LDL (forming **oxidized LDL** or oxLDL) upregulate [[LXRα]] and [[PPARγ]] activity, thereby inducing ABCA1 expression as a protective feedback loop. However, during chronic oxidative stress, this regulatory axis becomes dysregulated.
@@ -44,10 +39,16 @@ ABCA1 facilitates the efflux of oxidized phospholipids and [[Malondialdehyde]] (
 
 Mutations in ABCA1 cause **Tangier disease**, characterized by extremely low HDL, accumulation of cholesterol esters in tissues, and increased risk of [[Cardiovascular Disease]]. Conversely, ABCA1 upregulation by pharmacological LXR agonists is a therapeutic strategy, though limited by hepatic steatotic side effects. Antioxidants such as [[Vitamin E]] and [[Glutathione]] precursors preserve ABCA1 function by protecting it from oxidative inactivation.
 
-### Connections
+#
+
+## Connections
 - [[Lipid Peroxidation]]: ABCA1 effluxes oxidized lipids as a detoxification mechanism
 - [[Endothelial Dysfunction]]: ABCA1 preserves endothelial function by reducing foam cell formation
 - [[NFR2 pathway]]: ABCA1 expression is regulated by NRF2 under oxidative stress
 - [[Mitochondria]]: ABCA1 modulates mitochondrial cholesterol content and redox balance
 - [[LXRα]]: Nuclear receptor controlling ABCA1 transcription
 - [[VCAM-1]]: ABCA1 activity inversely correlates with endothelial adhesion molecule expression
+
+## Linking Summary
+- New links added: [[Cholesterol]], [[Atherosclerosis]], [[LXRα]], [[PPARγ]]
+- Strong connections to strengthen: [[ABCA1]] ↔ [[Atherosclerosis]]

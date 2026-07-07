@@ -17,7 +17,7 @@ aliases: [adaptor protein complex 2]
 
 AP2 is a clathrin adaptor complex for endocytosis at the plasma membrane. It recognizes [[YXXΦ]] and [[[DE]XXXL[LI]]] motifs in cargo proteins.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Autophagic Lysosome Reformation]], [[PtdIns(4,5)P2]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[AP2]] ↔ [[PtdIns(4,5)P2]]

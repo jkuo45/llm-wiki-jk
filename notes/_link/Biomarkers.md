@@ -26,12 +26,14 @@ Mathematical models, known as epigenetic clocks, select a specific set of CpG si
 *   **Mechanistic Gap:** While these clocks are highly predictive, the exact biological mechanisms driving the specific methylation changes at these sites are still being elucidated.
 *   **Tissue Specificity:** Different tissues can show varying rates of biological aging within the same individual.
 
-### Connections
+#
+
+## Connections
 - **[[Aging]]**: The primary process that biomarkers of aging aim to quantify.
 - **[[DNAmGrimAge]]**: A state-of-the-art epigenetic biomarker for mortality and healthspan.
 - **[[Epigenetic Clock]]**: The broader category of algorithms used to derive biological age from epigenetic data.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Geroscience]], [[Epigenetics]], [[DNA Methylation]], [[CpG Island]], [[Aging]], [[Epigenetic Clock]], [[DNAmGrimAge]], [[Cancer]], [[Cardiovascular Disease]], [[Neurodegenerative Diseases]], [[Alzheimer's Disease]].
 - Suggested new entity notes to create: [[PhenoAge]], [[Horvath's Clock]], [[Hannum's Clock]], [[Biological Age]].
 - Strong connections to strengthen: [[Biomarkers]] ↔ [[Epigenetic Clock]], [[Biomarkers]] ↔ [[Aging]]

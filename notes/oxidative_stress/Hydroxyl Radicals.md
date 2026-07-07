@@ -44,11 +44,8 @@ Hydroxyl radicals are implicated in the pathogenesis of [[Ischemia-reperfusion I
 - [[Genomic Instability]]: Hydroxyl radical-induced DNA damage is a direct driver of genomic mutations.
 - [[p53]]: Frequently mutated at guanine residues susceptible to hydroxyl radical attack.
 
-### Linking Summary:
-- New links added: [[Hydrogen Peroxide]], [[Superoxide Radicals]], [[8-oxo-2'-deoxyguanosine]], [[Oxidative Stress]], [[Antioxidants]], [[Catalase]]
-- Suggested new entity notes to create: [[Fenton Reaction]], [[Haber-Weiss Reaction]], [[Lipid Peroxidation]]
-- Strong connections to strengthen: [[Hydroxyl Radicals]] ↔ [[Hydrogen Peroxide]]
-
-### New Linking Summary (Added 2026-07-04):
+## Linking Summary
 - New links added: [[Fenton Reaction]], [[DNA]], [[DNA Repair]], [[Genomic Instability]], [[Cancer]], [[Aging]], [[p53]], [[Ischemia-reperfusion Injury]], [[Mitochondria]], [[Neurodegenerative Diseases]], [[Parkinson's Disease]], [[Alzheimer's Disease]], [[Substantia Nigra]], [[Atherosclerosis]], [[Glutathione Peroxidase]], [[Mitochondrial Dysfunction]]
 - Suggested new entity notes to create: [[OGG1]], [[Base Excision Repair]], [[8-Hydroxyadenine]], [[Thymine Glycol]]
+- New links added: [[Hydrogen Peroxide]], [[Superoxide Radicals]], [[8-oxo-2'-deoxyguanosine]], [[Oxidative Stress]], [[Antioxidants]], [[Catalase]]
+- Strong connections to strengthen: [[Hydroxyl Radicals]] ↔ [[Hydrogen Peroxide]]

@@ -23,6 +23,5 @@ TFEC plays a distinct role within the MiTF/TFE family as a potential negative re
 ## Pathology & Clinical Relevance
 TFEC is less studied than other MiTF/TFE family members, but its altered expression has been observed in certain cancers and immune disorders. In pancreatic ductal adenocarcinoma, TFEC expression is suppressed, potentially as part of a broader transcriptional reprogramming favoring [[TFEB]]-mediated adaptation. TFEC gene fusions are rare but have been reported in renal cell carcinoma, analogous to [[TFE3]] and [[TFEB]] translocation-driven cancers.
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[MiTF TFE family|MiTF/TFE family]]

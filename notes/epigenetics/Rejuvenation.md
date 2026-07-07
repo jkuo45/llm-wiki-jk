@@ -20,7 +20,7 @@ Partial reprogramming is a technique where the expression of [[OSKM]] factors is
 - [[OSKM]]: The core set of transcription factors used in rejuvenation studies.
 - [[Partial Reprogramming]]: A method to achieve rejuvenation while maintaining cell identity.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Cellular Reprogramming]], [[Yamanaka Factors]], [[OSKM]], [[Induced Pluripotent Stem Cells]], [[Senescence]], [[Partial Reprogramming]]
 - Suggested new entity notes to create: [[Partial Reprogramming]]
 - Strong connections to strengthen: [[Yamanaka Factors]] ↔ [[Rejuvenation]]

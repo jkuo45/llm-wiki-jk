@@ -19,10 +19,12 @@ aliases: [Receptor Activator of NF-κB Ligand, TNFSF11]
 
 **Pathological significance:** Altered expression or mutation of RANKL is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
 
-### Connections
+#
+
+## Connections
 - [[RANKL]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[RANKL]]
 - Strong connections to strengthen: [[RANKL]] ↔ [[RANKL]]
 

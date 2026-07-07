@@ -24,7 +24,7 @@ aliases: [C. elegans TFEB/TFE3 ortholog]
 - **Starvation Survival**: HLH-30 is required for the expansion of the lysosomal compartment and mounting an essential metabolic response to survive starvation.
 - **Longevity**: HLH-30 is required for the lifespan extension observed in [[MXL-3]] mutants and other longevity models.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[C. elegans]], [[TFEB]], [[Autophagy]], [[Lysosome]], [[Fasting]], [[Starvation]], [[LGG-1]], [[LGG-2]], [[ATG-16.2]], [[LIPL-1]], [[LIPL-2]], [[LIPL-3]], [[LIPL-5]], [[MXL-3]], [[Lipophagy]], [[Lysosomal Lipolysis]], [[Nutrient Availability]], [[mTOR]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[HLH-30]] ↔ [[MXL-3]], [[HLH-30]] ↔ [[TFEB]], [[HLH-30]] ↔ [[Lipophagy]]

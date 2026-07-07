@@ -23,13 +23,15 @@ Vitamin C acts as an electron donor (reducing agent), protecting cells from [[Re
 ## Dual Pro-Oxidant Role
 At pharmacological concentrations, Vitamin C can act as a pro-oxidant via the [[Fenton Reaction]] (Fe²⁺ + H₂O₂ → Fe³⁺ + •OH + OH⁻), generating [[Hydroxyl Radicals|hydroxyl radicals]] that selectively kill [[Cancer]] cells in preclinical models.
 
-### Connections
+#
+
+## Connections
 - [[Ascorbic Acid]] — Canonical entity page for Vitamin C
 - [[Vitamin E]] — Synergistic antioxidant partner; Vitamin C regenerates Vitamin E
 - [[Glutathione]] — Interconnected antioxidant network
 - [[Epinephrine]] — Vitamin C prevents oxidation to [[Adrenochrome]]
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Ascorbic Acid]], [[Vitamin E]], [[Glutathione]], [[Epinephrine]], [[Reactive Oxygen Species]], [[Singlet Oxygen]], [[Hydroxyl Radicals]], [[Fenton Reaction]], [[Cancer]]
 - Suggested new entity notes to create: [[Dehydroascorbate]], [[SVCT1]], [[SVCT2]]
 - Strong connections to strengthen: [[Vitamin C]] ↔ [[Ascorbic Acid]], [[Vitamin C]] ↔ [[Vitamin E]]

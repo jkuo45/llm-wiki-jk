@@ -20,8 +20,7 @@ The FACT complex ([[SSRP1]]/[[SUPT16H]]) is a histone chaperone that facilitates
 
 FACT regulates chromatin accessibility at autophagy gene promoters. FACT inhibition increases [[Autophagy]] by altering the epigenetic landscape.
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[TFEB]], [[TFE3]]
 - Suggested new entity notes to create: [[Histone Chaperone]]
 - Strong connections to strengthen: [[FACT complex]] ↔ [[TFEB]]

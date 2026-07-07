@@ -16,12 +16,14 @@ entity_type_1: Protein
 - [[Aging]]
 - [[Chromatin]]
 
-### Connections
+#
+
+## Connections
 - [[HGPS]] — interacts with
 - [[Aging]] — interacts with
 - [[Chromatin]] — interacts with
 
-### Linking Summary
+## Linking Summary
 - New links added: [[HGPS]], [[Aging]], [[Chromatin]]
 - Strong connections to strengthen: [[Lamin A]] ↔ [[HGPS]], [[Lamin A]] ↔ [[Aging]], [[Lamin A]] ↔ [[Chromatin]]
 

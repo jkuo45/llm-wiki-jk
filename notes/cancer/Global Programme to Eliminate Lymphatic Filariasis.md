@@ -11,7 +11,7 @@ entity_type_1: Chemical Compound
 
 The Global Programme to Eliminate Lymphatic Filariasis (GPELF) is a [[World Health Organization]] initiative aimed at stopping the transmission of [[Lymphatic Filariasis]].
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[World Health Organization]], [[Lymphatic Filariasis]], [[Ivermectin]], [[Albendazole]]
 - Suggested new entity notes to create: [[Mass drug administration]]
 - Strong connections to strengthen: [[Global Programme to Eliminate Lymphatic Filariasis]] ↔ [[Lymphatic Filariasis]]

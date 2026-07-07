@@ -33,7 +33,6 @@ In the context of the [[Mitohormetic Redox-Relay]], mitochondrial matrix ROS act
 - [[ATF4]] ↔ The transcription factor selectively translated upon eIF2α phosphorylation.
 - [[Integrated Stress Response]] ↔ The broader signaling network coordinated by eIF2α phosphorylation.
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[eIF2α]], [[Integrated Stress Response]], [[ATF4]], [[HRI]], [[DELE1]], [[OMA1]], [[Mitohormetic Redox-Relay]]
 - Strong connections to strengthen: [[eIF2α]] ↔ [[ATF4]], [[eIF2α]] ↔ [[HRI]]

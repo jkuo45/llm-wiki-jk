@@ -25,7 +25,7 @@ entity_type_1: NA
 - [[Cancer]]: iPSC-based models are used to identify targeted therapies and study mechanisms of drug resistance.
 - [[Regenerative Medicine]]: Finds synergies with [[Drug Discovery]] in the development of therapies that combine small molecules with cell transplantation.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Induced Pluripotent Stem Cells]], [[Disease Modeling]], [[Amyotrophic Lateral Sclerosis|ALS]], [[Cancer]], [[Regenerative Medicine]], [[Drug Repositioning]], [[High-Throughput Screening]], [[Toxicity Testing]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Drug Discovery]] <-> [[Disease Modeling]]

@@ -33,7 +33,6 @@ This SIRT1–H2A.Z axis has been specifically implicated in protection against *
 - [[Ubiquitin-Proteasome System]] — degradation pathway for deacetylated H2A.Z
 
 ## Linking Summary
-
 - New links added: [[SIRT1]], [[Cardiac Hypertrophy]], [[Ubiquitin-Proteasome System]]
 - Suggested new entity notes to create: [[H2AFZ]], [[Histone Variant]], [[Proteasome-Dependent Degradation]]
 - Strong connections to strengthen: [[Histone H2A.Z]] ↔ [[SIRT1]]

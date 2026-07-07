@@ -21,5 +21,5 @@ entity_type_1: Chemical Compound
 - [[Quercetin]]: Unlike quercetin, berberine does not require COMT for metabolism.
 
 ---
-### Linking Summary:
+## Linking Summary
 - New links added: [[Anti-inflammatory]], [[COMT]], [[Quercetin]].

@@ -19,10 +19,12 @@ aliases: [Sprycel, BMS-354825]
 
 **Safety and toxicity:** The safety profile of Dasatinib depends on dose, duration of exposure, and individual susceptibility. Understanding its toxicology is essential for safe therapeutic use.
 
-### Connections
+#
+
+## Connections
 - [[Dasatinib]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Dasatinib]]
 - Strong connections to strengthen: [[Dasatinib]] ↔ [[Dasatinib]]
 

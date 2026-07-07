@@ -19,11 +19,13 @@ Glutathione reductase (GR) is an enzyme that reduces glutathione disulfide (GSSG
 The activity of glutathione reductase is essential for maintaining the pool of reduced glutathione. Like other antioxidant enzymes, its function can be impaired by [[Glycation]] and the accumulation of [[Advanced Glycation End Products]] (AGEs), contributing to a pathological environment.
 
 
-### Connections
+#
+
+## Connections
 - [[Oxidative Stress]] — imbalance between ROS production and antioxidant capacity
 - [[Glycation]] — interacts with Glutathione Reductase
 - [[Advanced Glycation End Products]] — interacts with Glutathione Reductase
-### Linking Summary
+## Linking Summary
 - New links added: [[Oxidative Stress]], [[Glycation]], [[Advanced Glycation End Products]]
 - Suggested new entity notes to create: [[GSH]]
 - Strong connections to strengthen: [[Glutathione Reductase]] ↔ [[Oxidative Stress]]

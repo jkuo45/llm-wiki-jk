@@ -30,7 +30,7 @@ Autophagy inducers are being investigated for their potential to rejuvenate the 
 
 Autophagy inducers include mTOR inhibitors ([[Rapamycin]], [[Torin1]]), AMPK activators ([[Metformin]], [[AICAR]]), [[Trehalose]], [[Spermidine]], [[Lithium]], and [[Celastrol]].
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Autophagy]], [[Aging]], [[Senescence]], [[Rapamycin]], [[Metformin]], [[Spermidine]], [[Rapalog]], [[Everolimus]], [[Dietary Restriction]], [[Exercise]], [[Polyamine]], [[mTORC1]], [[AMPK]], [[TFEB]], [[Immune System]], [[Immune Aging]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[Autophagy Inducer]] ↔ [[Immune Aging]], [[Autophagy Inducer]] ↔ [[Autophagy]]

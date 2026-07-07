@@ -10,11 +10,13 @@ entity_type_1: Scientific Concept
 # Hallmarks of Aging
 The hallmarks of aging are the biochemical changes that occur in all organisms as they age and lead to a progressive loss of physiological integrity.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Genomic Instability]], [[Telomere Attrition]], [[Epigenetic Alterations]], [[Cellular Senescence]]
 - Suggested new entity notes to create: [[Proteostasis]], [[Mitochondrial Dysfunction]], [[Stem Cell Exhaustion]]
 - Strong connections to strengthen: [[Hallmarks of Aging]] ↔ [[Longevity]]
 
-### Connections
+#
+
+## Connections
 - [[Hallmarks of Aging]] — related entity
 

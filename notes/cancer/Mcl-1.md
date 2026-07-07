@@ -39,7 +39,7 @@ Developing selective Mcl-1 inhibitors is a major goal in cancer research. Strate
 - [[USP9X]]: Stabilizes Mcl-1 protein.
 - [[HUWE1]]: E3 ligase for Mcl-1.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[GSK3]], [[Phosphorylation]], [[Beta-TrCP]], [[JNK]], [[ERK]], [[CDK1]], [[CYCLIN B1]], [[CDC20]], [[p38 MAPK]], [[CK2]], [[HUWE1]], [[FBW7]], [[Trim17]], [[USP9X]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[Mcl-1]] ↔ [[GSK3]], [[Mcl-1]] ↔ [[USP9X]]

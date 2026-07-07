@@ -13,10 +13,12 @@ aliases: [Forkhead box protein M1, FOXM1]
 ## Sirtuin Involvement
 - **[[SIRT7]]**: Silencing FoxM1 promotes apoptosis and autophagy through the SIRT7/mTOR/IGF2 pathway in gastric cancer cells. FoxM1 is indirectly regulated by SIRT7-mediated signaling.
 
-### Connections
+#
+
+## Connections
 - [[SIRT7]] — interacts with
 
-### Linking Summary
+## Linking Summary
 - New links added: [[SIRT7]]
 - Strong connections to strengthen: [[FoxM1]] ↔ [[SIRT7]]
 

@@ -19,10 +19,12 @@ aliases: [EPZ-6438, Tazverik]
 
 **Safety and toxicity:** The safety profile of Tazemetostat depends on dose, duration of exposure, and individual susceptibility. Understanding its toxicology is essential for safe therapeutic use.
 
-### Connections
+#
+
+## Connections
 - [[Tazemetostat]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Tazemetostat]]
 - Strong connections to strengthen: [[Tazemetostat]] ↔ [[Tazemetostat]]
 

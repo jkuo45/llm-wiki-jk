@@ -29,7 +29,6 @@ target: SIRT1
 - [[Neurogenesis]] — developmental process regulated by Hes1
 
 ## Linking Summary
-
 - New links added: [[SIRT1]], [[Notch Signaling]], [[Neurogenesis]]
 - Suggested new entity notes to create: [[Hes1]], [[Hey2]], [[bHLH Transcription Factors]], [[Notch Signaling]]
 - Strong connections to strengthen: [[Hes1 and Hey2]] ↔ [[SIRT1]]

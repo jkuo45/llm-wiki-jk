@@ -16,7 +16,7 @@ mTOR complex 2 (mTORC2) is a rapamycin-insensitive multi-protein complex contain
 
 mTORC2 ([[mTOR]]-[[Rictor]]-[[mSIN1]]-[[Protor-1]]-[[mLST8]]) phosphorylates [[Akt]] (S473), [[SGK1]], and [[PKCα]]. It regulates cell survival, metabolism, and cytoskeleton.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[mTOR]], [[Akt|AKT]], [[Rictor]], [[mSIN1]], [[Protor-1]], [[mLST8]], [[Deptor]], [[cytoskeletal organization]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[mTORC2]] ↔ [[Akt|AKT]]

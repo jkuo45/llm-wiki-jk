@@ -30,7 +30,9 @@ Unlike the 26S proteasome (20S + 19S regulatory particles), the 20S proteasome d
 The [[Proteasome]] is a large multi-catalytic protease complex responsible for the degradation of ubiquitinated proteins. It is the central effector of the [[Ubiquitin-Proteasome System]] (UPS), which tags proteins with [[Ubiquitin]] for targeted destruction. Proteasomal dysfunction is implicated in [[Parkinson's Disease]], where aggregated [[Alpha-synuclein]] overwhelms the degradation machinery and contributes to [[Proteostasis]] failure.
 
 
-### Connections
+#
+
+## Connections
 - [[Oxidative Stress]] — imbalance between ROS production and antioxidant capacity
 - [[NRF2]] — master regulator of antioxidant and cytoprotective gene expression
 - [[Aging]] — progressive decline in physiological function; primary risk factor
@@ -39,7 +41,7 @@ The [[Proteasome]] is a large multi-catalytic protease complex responsible for t
 - [[Parkinson's Disease]] — neurodegenerative disease; α-synuclein pathology; dopamine loss
 - [[Huntington's Disease]] — associated with Proteasome
 - [[Cancer]] — disease of uncontrolled cell proliferation; hallmark of aging
-### Linking Summary
+## Linking Summary
 - New links added: [[Ubiquitin Ligase]], [[Mitophagy]], [[Ubiquitin-Proteasome System]], [[Ubiquitin]], [[Parkinson's Disease]], [[Alpha-synuclein]], [[Proteostasis]]
 - Suggested new entity notes to create: [[Ubiquitin]]
 - Strong connections to strengthen: [[Proteasome]] ↔ [[Aging]], [[Proteasome]] ↔ [[Ubiquitin-Proteasome System]]

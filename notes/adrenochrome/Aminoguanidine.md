@@ -28,8 +28,5 @@ Aminoguanidine has been shown to prevent diabetic renal, retinal, and neural com
 - [[Glycation]]: Prevented by its action as a carbonyl trap.
 
 ## Linking Summary
-
 - New links added: [[Advanced Glycation End Products]], [[Glycation]]
 - Strong connections to strengthen: [[Aminoguanidine]] ↔ [[Advanced Glycation End Products]]
-
----

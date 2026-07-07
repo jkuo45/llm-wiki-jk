@@ -38,7 +38,7 @@ Even after transcription initiation, [[RNA Polymerase II]] often pauses at promo
 
 During [[Cellular Senescence|senescence]], hundreds of genes are silenced through [[SAHF|SAHF-mediated]] heterochromatinization, including [[E2F]] target proliferation genes ([[MCM2]], [[PCNA]], [[CCNA2]]). Simultaneously, [[SASP]] genes ([[IL-6]], [[IL8]], [[CXCL1]], [[MMP3]]) are activated through [[NFκB]] and [[CEBPB|C/EBPβ]] whose chromatin becomes more accessible. Age-related [[Epigenetic Drift|epigenetic drift]] causes stochastic changes in gene expression across tissues, contributing to loss of cellular identity and functional decline.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Transcription]], [[Translation]], [[Non-coding RNA]], [[Epigenetics]], [[Senescence]], [[SASP]]
 - Suggested new entity notes to create: [[Nascent RNA-seq]], [[ATAC-seq]], [[CUT&Tag]], [[RNA-seq]], [[Single-cell RNA-seq]]
 - Strong connections to strengthen: [[Gene Expression]] ↔ [[Transcription]], [[Gene Expression]] ↔ [[Epigenetics]]

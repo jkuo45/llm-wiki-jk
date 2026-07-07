@@ -17,8 +17,7 @@ SetA is an effector protein from [[Legionella pneumophila]] that glucosylates [[
 
 SetA is a [[Legionella pneumophila]] effector with glucosyltransferase activity that modifies host [[Rab5]] and [[Rab7]] to subvert endosomal trafficking and block [[Autophagy]] during infection.
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[TFEB]], [[14-3-3 protein]]
 - Suggested new entity notes to create: [[Glucosylation]]
 - Strong connections to strengthen: [[SetA]] ↔ [[TFEB]]

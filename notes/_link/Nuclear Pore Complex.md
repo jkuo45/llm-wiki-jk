@@ -18,10 +18,12 @@ aliases: [NPC]
 
 **Pathological relevance:** Dysfunction or loss of Nuclear Pore Complex underlies specific disease states. Understanding its biology provides insights into regenerative medicine and therapeutic targeting.
 
-### Connections
+#
+
+## Connections
 - [[Nuclear Pore Complex]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Nuclear Pore Complex]]
 - Strong connections to strengthen: [[Nuclear Pore Complex]] ↔ [[Nuclear Pore Complex]]
 

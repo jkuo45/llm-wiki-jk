@@ -23,14 +23,16 @@ Catecholamines are primarily metabolized by enzymatic pathways ([[COMT]] and [[M
 ## Physiological Role and Stress
 In response to stress, [[Smoking]], or [[Inflammation]], catecholamine levels rise. In these high-ROS environments, the oxidation pathway becomes more prominent, leading to the formation of reactive byproducts.
 
-### Connections
+#
+
+## Connections
 - [[Epinephrine]] ↔ Member of the catecholamine family.
 - [[Dopamine]] ↔ Member of the catecholamine family.
 - [[Neuromelanin]] ↔ Dark pigment derived from catecholamine oxidation.
 - [[COMT]] & [[MAO]] ↔ Primary enzymatic pathways for catecholamine degradation.
 - [[Aminochromes]] ↔ Reactive oxidative intermediates of catecholamines.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Catecholamines]], [[Dopamine]], [[Epinephrine]], [[COMT]], [[MAO]], [[Aminochromes]], [[Oxidation]], [[Oxidative Stress]], [[Adrenochrome]], [[Dopaminochrome]], [[Neuromelanin]], [[Smoking]], [[Inflammation]], [[Norepinephrine]], [[L-Tyrosine]], [[Parkinson's Disease]].
 - Suggested new entity notes to create: [[Epinephrine]], [[Monoamines]].
 - Strong connections to strengthen: [[Catecholamines]] ↔ [[Aminochromes]], [[Catecholamines]] ↔ [[Dopamine]].

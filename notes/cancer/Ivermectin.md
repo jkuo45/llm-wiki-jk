@@ -35,5 +35,4 @@ Ivermectin shows synergistic effects when used in combination with other chemoth
 
 ## Linking Summary
 - New links added: [[Avermectin]], [[PAK1]], [[YAP1]], [[HSP27]], [[KPNB1]], [[Apoptosis]], [[Autophagy]], [[Pyroptosis]], [[HMGB1]], [[Cancer Stem Cells]], [[Multidrug Resistance]], [[P-gp]], [[Cisplatin]], [[docetaxel]], [[paclitaxel]], [[Daunorubicin]], [[cytarabine]], [[erlotinib]], [[Dasatinib]], [[dabrafenib]], [[Akt]], [[mTOR]], [[Wnt]], [[MAPK]].
-- Suggested new entity notes to create: [[Avermectin]], [[PAK1]], [[YAP1]], [[HSP27]], [[KPNB1]], [[Autophagy]], [[Pyroptosis]], [[HMGB1]], [[Cancer Stem Cells]], [[Multidrug Resistance]], [[P-gp]], [[Wnt]], [[MAPK]].
 - Strong connections to strengthen: [[Ivermectin]] ↔ [[PAK1]], [[Ivermectin]] ↔ [[Multidrug Resistance]]

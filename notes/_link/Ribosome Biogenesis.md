@@ -19,10 +19,12 @@ aliases: [Ribosome Synthesis]
 
 **Regulation and dysregulation:** Ribosome Biogenesis is controlled by nutrient sensors, stress pathways, and hormonal signals. Impairment of this process is linked to metabolic diseases, neurodegeneration, and cancer.
 
-### Connections
+#
+
+## Connections
 - [[Ribosome Biogenesis]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Ribosome Biogenesis]]
 - Strong connections to strengthen: [[Ribosome Biogenesis]] ↔ [[Ribosome Biogenesis]]
 

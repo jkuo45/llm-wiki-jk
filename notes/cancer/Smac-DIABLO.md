@@ -27,7 +27,7 @@ The discovery of Smac/DIABLO has led to the development of **Smac mimetics** (e.
 - [[Intrinsic Pathway]]: Released from the mitochondria alongside cytochrome c.
 - [[TRAIL]]: Smac mimetics often synergize with TRAIL to induce apoptosis in resistant cells.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Apoptosis]], [[Cytochrome c]], [[Inhibitor of Apoptosis Proteins]], [[XIAP]], [[Survivin]], [[Caspase-9]], [[Caspase-3]], [[Caspase-7]], [[Intrinsic Pathway]], [[TRAIL]]
 - Suggested new entity notes to create: [[Caspase-7]], [[SM-164]]
 - Strong connections to strengthen: [[Smac DIABLO]]/[[Smac DIABLO]] ↔ [[XIAP]], [[Smac DIABLO]]/[[Smac DIABLO]] ↔ [[Inhibitor of Apoptosis Proteins]]

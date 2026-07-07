@@ -12,10 +12,12 @@ entity_type_1: Chemical Compound
 ## Interaction with COMT
 Since [[Tyrosine]] is used to synthesize neurotransmitters that are broken down by [[COMT]], supplementation can increase the load on the [[COMT]] enzyme. Individuals with slow [[COMT]] variants may find that tyrosine supplementation leads to excessively high levels of dopamine, potentially causing anxiety or irritability.
 
-### Connections
+#
+
+## Connections
 - [[Dopamine]]: One of the primary neurotransmitters synthesized from tyrosine.
 - [[Catecholamines]]: The class of neurotransmitters produced from tyrosine.
 - [[COMT]]: The enzyme responsible for the degradation of tyrosine-derived neurotransmitters.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Dopamine]], [[Epinephrine]], [[Norepinephrine]], [[Catecholamines]], [[COMT]].

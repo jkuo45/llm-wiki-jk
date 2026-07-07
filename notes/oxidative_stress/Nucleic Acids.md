@@ -24,7 +24,7 @@ Nucleic acids are prone to damage by [[Reactive Oxygen Species]], particularly t
 - [[Cancer]]: Unrepaired DNA oxidation can lead to mutations and oncogene activation.
 - [[DNA Repair]]: The collective mechanisms (like [[Base Excision Repair]]) used to fix oxidative lesions.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Reactive Oxygen Species]], [[Hydroxyl Radicals]], [[8-oxo-2'-deoxyguanosine]], [[Oxidative Stress]], [[DNA Damage]], [[Cancer]], [[DNA Repair]], [[Base Excision Repair]]
 - Suggested new entity notes to create: [[DNA Repair]], [[Base Excision Repair]]
 - Strong connections to strengthen: [[Nucleic Acids]] ↔ [[DNA Damage]]
@@ -154,7 +154,9 @@ Accumulation of unrepaired oxidative DNA lesions correlates with organismal agin
 - [[Schizophrenia]]
 - [[Chronic Obstructive Pulmonary Disease]]
 
-### Connections
+#
+
+## Connections
 - [[Fenton Reaction]]: Major source of •OH for DNA attack
 - [[Lipid Peroxidation]]: Aldehyde products (MDA, 4-HNE) form DNA adducts
 - [[Genomic Instability]]: Consequence of unrepaired oxidative damage

@@ -18,10 +18,12 @@ aliases: [Superoxide Dismutase 1, Cu/Zn-SOD]
 
 **Clinical relevance:** Dysregulation of SOD1 activity is implicated in metabolic disorders, oxidative stress-related pathologies, and cancer. Pharmacological modulation of this enzyme represents a therapeutic strategy for diseases involving its pathway.
 
-### Connections
+#
+
+## Connections
 - [[SOD1]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[SOD1]]
 - Strong connections to strengthen: [[SOD1]] ↔ [[SOD1]]
 

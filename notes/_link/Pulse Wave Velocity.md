@@ -105,7 +105,5 @@ In the seminal study by LaRocca et al. (2013), aortic PWV was approximately 20% 
 - **[[Hypertension]]**: Bidirectional relationship — elevated PWV predicts hypertension and vice versa
 
 ## Linking Summary
-
 - New links added: [[Pulse Wave Velocity]], [[Collagen]], [[Hypertension]]
 - Suggested new entity notes to create: [[Applanation Tonometry]], [[Elastic Fiber]], [[Augmentation Index]], [[Aortic Stiffness]], [[Vascular Aging]]
-- Strong connections to strengthen: [[Pulse Wave Velocity]] ↔ [[Arterial Stiffness]], [[Pulse Wave Velocity]] ↔ [[Cardiovascular Disease]]

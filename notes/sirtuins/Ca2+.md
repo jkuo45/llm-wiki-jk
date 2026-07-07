@@ -32,6 +32,5 @@ aliases:
 - [[TRPM2]]: A Ca2+-permeable cation channel activated by [[ADP-ribosylation|ADP-ribose]] and [[OAADPr]], linking [[NAD+]] metabolism to Ca2+ influx.
 - [[Calmodulin]]: Primary Ca2+ sensor protein that activates [[CaMKKβ]] and [[PKA]] cascades.
 
-### Linking Summary:
-
+## Linking Summary
 - New links added: [[CaMKKβ]], [[AMPK]], [[SIRT1]], [[SIRT3]], [[OSCP]], [[ATP Synthase]], [[TRPM2]], [[Calmodulin]], [[Sarcoplasmic Reticulum]], [[SERCA2a]], [[IP3 receptors]], [[cAMP]], [[CREB]], [[Cardiac Hypertrophy]], [[Neurodegeneration]], [[Mitochondria]], [[Mitochondrial Biogenesis]], [[Oxidative Stress]], [[Insulin Sensitivity]], [[Exercise]]

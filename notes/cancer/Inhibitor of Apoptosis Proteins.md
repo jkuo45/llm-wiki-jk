@@ -38,7 +38,7 @@ IAPs are frequently overexpressed in cancer, contributing to drug resistance and
 - [[Smac DIABLO]]/[[Smac DIABLO]]: An endogenous antagonist of IAPs.
 - [[Apoptosis]]: Regulated by IAPs.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Apoptosis]], [[XIAP]], [[Survivin]], [[Smac DIABLO]]/[[Smac DIABLO]], [[Caspase-3]], [[Caspase-7]], [[Caspase-9]]
 - Suggested new entity notes to create: [[Smac DIABLO]]/[[Smac DIABLO]], [[Caspase-7]]
 - Strong connections to strengthen: [[Inhibitor of Apoptosis Proteins]] ↔ [[Smac DIABLO]]/[[Smac DIABLO]]

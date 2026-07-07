@@ -19,10 +19,12 @@ aliases: [Innate Immunity]
 
 **Regulation and dysregulation:** Innate Immune System is controlled by nutrient sensors, stress pathways, and hormonal signals. Impairment of this process is linked to metabolic diseases, neurodegeneration, and cancer.
 
-### Connections
+#
+
+## Connections
 - [[Innate Immune System]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Innate Immune System]]
 - Strong connections to strengthen: [[Innate Immune System]] ↔ [[Innate Immune System]]
 

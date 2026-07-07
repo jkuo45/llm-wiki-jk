@@ -46,7 +46,7 @@ Remodelers use the energy of [[ATP]] hydrolysis to:
 - **Chemical inhibitors:** [[PFI-3]] (BRG1/BRM), [[AU-15330]] (SWI/SNF), [[I-BRD9]] (BRD9).
 - **dCas9-remodeler fusions:** Targeted recruitment of BRG1 to specific loci for functional validation.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Nucleosome]], [[Chromatin]], [[Epigenetics]], [[SWI/SNF]], [[ISWI]], [[CHD]], [[INO80]], [[SAHF]], [[NuRD complex]], [[DNA Replication]], [[Transcription]]
 - Suggested new entity notes to create: [[BAF complex]], [[PBAF complex]], [[HIRA complex]], [[H2A.Z]]
 - Strong connections to strengthen: [[Nucleosome Remodeling]] ↔ [[Chromatin]], [[Nucleosome Remodeling]] ↔ [[Epigenetics]]

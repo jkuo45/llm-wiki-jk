@@ -25,7 +25,9 @@ entity_type_1: Protein
 [[SIRT2]] directly binds to the 3'UTR of TFEB mRNA and facilitates its mRNA stability. SIRT2 promotes TFEB expression, which then promotes autophagosome-lysosome fusion. Additionally, [[SIRT1]] deacetylates TFEB at K116 to promote its nuclear translocation and transcriptional activity.
 
 
-### Connections
+#
+
+## Connections
 - [[Autophagy]] — cellular self-degradation pathway; clears damaged proteins and organelles
 - [[Neuromelanin]] — interacts with TFEB
 - [[Parkinson's Disease]] — neurodegenerative disease; α-synuclein pathology; dopamine loss
@@ -34,7 +36,7 @@ entity_type_1: Protein
 - [[TFE3]] — interacts with TFEB
 - [[Autophagosome]] — interacts with TFEB
 - [[mTORC1]] — master regulator of anabolic-catabolic balance; inhibits autophagy
-### Linking Summary
+## Linking Summary
 - New links added: [[Autophagy]], [[Neuromelanin]], [[Parkinson's Disease]], [[Proteostasis]]., [[Lysosome]], [[CLEAR Element]], [[TFE3]], [[Autophagosome]], [[mTORC1]], [[calcineurin]], [[eIF5A]], [[Spermidine]], [[B Cell]], [[Senescence]], [[SIRT2]], [[SIRT1]]
 - Suggested new entity notes to create: [[Lysosomal Biogenesis]], [[Lysosomal Exocytosis]].
 - Strong connections to strengthen: [[TFEB]] ↔ [[Autophagy]]., [[TFEB]] ↔ [[TFE3]], [[TFEB]] ↔ [[CLEAR Element]], [[TFEB]] ↔ [[SIRT2]], [[TFEB]] ↔ [[SIRT1]]

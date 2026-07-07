@@ -28,7 +28,7 @@ aliases: [rapamycin analogs]
 
 Rapalogs are analogs of [[Rapamycin]] ([[Everolimus]], [[Temsirolimus]], [[Ridaforolimus]]) that inhibit [[mTORC1]] and induce [[Autophagy]].
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Rapamycin]], [[mTOR]], [[Everolimus]], [[Temsirolimus]], [[Cancer]], [[COVID-19]], [[Osteoarthritis]], [[mTORC1]], [[mTORC2]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[Rapalog]] ↔ [[Rapamycin]], [[Rapalog]] ↔ [[mTORC1]]

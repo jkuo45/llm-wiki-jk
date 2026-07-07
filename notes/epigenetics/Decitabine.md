@@ -45,7 +45,7 @@ Resistance arises through:
 
 Decitabine is the standard compound for studying DNA methylation-dependent gene silencing in vitro. Typical protocol: 1 µM decitabine for 72 h, replacing every 24 h, followed by 72 h recovery. Genome-wide methylation is assessed by [[WGBS]] or [[RRBS]].
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[DNMT1]], [[Epigenetic Modifiers]], [[DNA Methylation]], [[Senescence]], [[Stress-Induced Premature Senescence]]
 - Suggested new entity notes to create: [[Deoxycytidine kinase]], [[Cytidine deaminase]], [[Myelodysplastic Syndrome]], [[Acute Myeloid Leukemia]]
 - Strong connections to strengthen: [[Decitabine]] ↔ [[5-Azacytidine]], [[Decitabine]] ↔ [[DNA Methylation]]

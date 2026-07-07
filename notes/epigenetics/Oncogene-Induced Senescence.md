@@ -38,7 +38,7 @@ OIS acts as a fail-safe mechanism against malignant transformation. In vivo, OIS
 
 OIS cells are susceptible to [[Senolytic Drugs]] like [[Navitoclax]] ([[Bcl-2]]/[[Bcl-xL]] inhibitor). However, eliminating OIS cells in premalignant lesions may paradoxically promote tumor growth by removing a cell-autonomous cancer barrier. An open question is whether transient OIS cell clearance can reduce the pro-tumorigenic [[SASP]] without compromising tumor suppression.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Senescence]], [[DNA Replication Stress]], [[DNA Damage Response]], [[p53]], [[p16INK4A]], [[SASP]], [[Senolytic Drugs]], [[Cancer]]
 - Suggested new entity notes to create: [[BRAF^V600E^]], [[RAS]], [[DNA-SCARS]], [[Premalignancy]]
 - Strong connections to strengthen: [[Oncogene-Induced Senescence]] ↔ [[Cancer]], [[Oncogene-Induced Senescence]] ↔ [[DNA Replication Stress]]

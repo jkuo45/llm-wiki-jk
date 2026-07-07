@@ -22,14 +22,16 @@ In [[Parkinson's Disease]] and other "synucleinopathies," alpha-synuclein underg
 - **Neurotoxicity:** The accumulation of alpha-synuclein oligomers and fibrils is associated with neuronal dysfunction and cell death, particularly in [[Neuromelanin]]-containing neurons.
 
 
-### Connections
+#
+
+## Connections
 - [[Parkinson's Disease]] — neurodegenerative disease; α-synuclein pathology; dopamine loss
 - [[TFEB]] — master transcription factor for lysosomal biogenesis and autophagy
 - [[Alpha-synuclein]] — interacts with Alpha-synuclein
 - [[Dopamine]] — interacts with Alpha-synuclein
 - [[Lewy Bodies]] — interacts with Alpha-synuclein
 - [[Neuromelanin]] — interacts with Alpha-synuclein
-### Linking Summary
+## Linking Summary
 - New links added: [[Parkinson's Disease]], [[TFEB]], [[Dopamine]], [[Lewy Bodies]], [[Neuromelanin]].
 - Suggested new entity notes to create: [[Synucleinopathies]], [[Synaptic Vesicles]].
 - Strong connections to strengthen: [[Alpha-synuclein]] ↔ [[Lewy Bodies]].

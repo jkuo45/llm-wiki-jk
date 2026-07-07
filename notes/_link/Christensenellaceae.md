@@ -13,7 +13,9 @@ Christensenellaceae is a family of bacteria in the phylum Firmicutes, found to b
 
 
 
-### Connections
+#
+
+## Connections
 - [[Body Mass Index]] — related entity
 - [[Christensenellaceae]] — related entity
 - [[Firmicutes]] — related entity
@@ -21,7 +23,7 @@ Christensenellaceae is a family of bacteria in the phylum Firmicutes, found to b
 - [[Longevity]] — related entity
 - [[Successful Aging]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Firmicutes]], [[Longevity]], [[Successful Aging]]
 - Suggested new entity notes to create: [[Body Mass Index]], [[Heritability]]
 - Strong connections to strengthen: [[Christensenellaceae]] ↔ [[Longevity]]

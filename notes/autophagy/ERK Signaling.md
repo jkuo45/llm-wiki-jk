@@ -20,8 +20,7 @@ ERK signaling is a [[MAPK Signaling]] cascade where growth factor-bound RTKs act
 
 [[ERK2]] phosphorylates [[TFEB]] at S142, promoting cytosolic retention. ERK signaling also regulates [[ULK1]] and [[Beclin1]] to fine-tune autophagy induction.
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[ERK2]], [[TFEB]]
 - Suggested new entity notes to create: [[Ras-Raf-MEK-ERK pathway]]
 - Strong connections to strengthen: [[ERK Signaling]] ↔ [[ERK2]]

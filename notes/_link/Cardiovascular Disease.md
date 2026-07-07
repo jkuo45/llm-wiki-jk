@@ -43,7 +43,9 @@ The reversible nature of epigenetic modifications makes them attractive targets 
 ## Role of COMT
 Genetic variation in [[COMT]], particularly the [[Val158Met]] [[SNP]], has been linked to the risk of developing [[Cardiovascular Disease]]. This is partly due to the enzyme's role in regulating [[Catecholamines]] (like [[Epinephrine]] and [[Norepinephrine]]) and the response to medications like [[Aspirin]].
 
-### Connections
+#
+
+## Connections
 - **[[Atherosclerosis]]**: The primary underlying cause of most cardiovascular diseases, heavily influenced by epigenetic factors.
 - **[[Aging]]**: The most significant non-modifiable risk factor for CVD, characterized by deep epigenetic changes.
 - **[[DNAmGrimAge]]**: A highly predictive epigenetic biomarker for cardiovascular mortality.
@@ -51,7 +53,7 @@ Genetic variation in [[COMT]], particularly the [[Val158Met]] [[SNP]], has been 
 - [[Aspirin]]: A common medication whose cardiovascular efficacy is dependent on COMT genotype.
 - [[Catecholamines]]: Hormones regulated by COMT that influence blood pressure and heart rate.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Epigenetics]], [[Aging]], [[DNA Methylation]], [[Genomic Instability]], [[Epigenetic Clock]], [[DNAmGrimAge]], [[Histone Modification]], [[Sirtuins]], [[SIRT1]], [[Non-coding RNA]], [[MicroRNA]], [[Cellular Senescence]], [[Atherosclerosis]], [[Caloric Restriction]], [[Resveratrol]], [[HDAC]], [[Senolytics]]., [[Autophagic Flux]], [[AMPK]], [[Autophagy]], [[Ventricular Remodeling]], [[Cardiomyocyte Toxicity]], [[Intermittent Fasting]], [[Ischemia-reperfusion Injury]], [[Myocardial infarction]], [[Atg5]], [[COMT]], [[Val158Met]], [[SNP]], [[Aspirin]], [[Catecholamines]], [[Epinephrine]], [[Norepinephrine]]., [[Norepinephrine]], [[Senolytics]]
 - Suggested new entity notes to create: [[Endothelial Dysfunction]], [[Vascular Stiffening]], [[Cardiac Fibrosis]], [[Inflammaging]]., [[Autophagic Flux]], [[AMPK]], [[Ventricular Remodeling]], [[Cardiomyocyte Toxicity]], [[Intermittent Fasting]], [[Caloric Restriction]], [[Ischemia-reperfusion Injury]], [[Myocardial infarction]], [[Inflammaging]]
 - Strong connections to strengthen: [[Cardiovascular Disease]] ↔ [[Aging]], [[Cardiovascular Disease]] ↔ [[DNA Methylation]], [[Cardiovascular Disease]] ↔ [[Autophagy]], [[Cardiovascular Disease]] ↔ [[Myocardial infarction]]

@@ -17,7 +17,7 @@ The Peroxisome Biogenesis Network (PBN) is a dynamic, interconnected pool of pre
 
 The PBN involves [[PEX]] genes for peroxisome membrane assembly, matrix protein import, and proliferation. Defects cause Zellweger syndrome.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Peroxisome]], [[Selective Autophagy]], [[PEX1]], [[PEX3]], [[ER]]
 - Suggested new entity notes to create: [[ER]]
 - Strong connections to strengthen: [[Peroxisome Biogenesis Network]] ↔ [[Peroxisome]], [[Peroxisome Biogenesis Network]] ↔ [[Selective Autophagy]]

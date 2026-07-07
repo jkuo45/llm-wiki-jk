@@ -23,7 +23,9 @@ Emerging research indicates that epigenetic alterations are a core feature of th
 ## 3. Therapeutic Potential
 Because epigenetic changes are reversible, they offer a promising target for new therapies. [[HDAC]] inhibitors and other epigenetic modulators are currently being tested for their ability to restore youthful gene expression and improve cognitive function.
 
-### Connections
+#
+
+## Connections
 - **[[Aging]]**: The primary driver and risk factor for neurodegeneration.
 - **[[Alzheimer's Disease]]**: The most common neurodegenerative disorder.
 - **[[Histone Acetylation]]**: A key epigenetic mark that is often compromised in the aging brain.
@@ -33,7 +35,7 @@ Because epigenetic changes are reversible, they offer a promising target for new
 - [[Alzheimer's Disease]]: Another major target for research using cellular reprogramming.
 - [[Amyotrophic Lateral Sclerosis]]: Research involves creating motor neurons from iPSCs.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Neurodegenerative Diseases]], [[Aging]], [[Epigenetics]], [[Histone Acetylation]], [[DNA Methylation]], [[Genomic Instability]], [[Autophagy]], [[mTOR]], [[AMPK]], [[HDAC]], [[Alzheimer's Disease]], [[SIRT1]], [[Parkinson's Disease]], [[Amyotrophic Lateral Sclerosis]], [[Yamanaka Factors]], [[Induced Pluripotent Stem Cells]]
 - Suggested new entity notes to create: [[Amyloid Beta]], [[Tau Protein]], [[Synaptic plasticity]]
 - Strong connections to strengthen: [[Neurodegenerative Diseases]] ↔ [[Aging]], [[Neurodegenerative Diseases]] ↔ [[Alzheimer's Disease]], [[Induced Pluripotent Stem Cells]] ↔ [[Neurodegenerative Diseases]]

@@ -17,7 +17,7 @@ ABCD1 is a gene that encodes a critical transporter protein located on the membr
 
 ABCD1 is a peroxisomal transporter of very long-chain fatty acids. Mutations cause [[Adrenoleukodystrophy]]. It links [[Peroxisome]] function to autophagy.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Peroxisome]], [[Beta-Oxidation]], [[Adrenoleukodystrophy]]
 - Suggested new entity notes to create: [[Very Long-Chain Fatty Acids]]
 - Strong connections to strengthen: [[ABCD1]] ↔ [[Adrenoleukodystrophy]], [[ABCD1]] ↔ [[Peroxisome]]

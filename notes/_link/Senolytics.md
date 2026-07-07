@@ -16,12 +16,14 @@ entity_type_1: Pharmacological Action
 - [[Aging]]
 - [[SASP]]
 
-### Connections
+#
+
+## Connections
 - [[Cellular Senescence]] — interacts with
 - [[Aging]] — interacts with
 - [[SASP]] — interacts with
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Cellular Senescence]], [[Aging]], [[SASP]]
 - Strong connections to strengthen: [[Senolytics]] ↔ [[Cellular Senescence]], [[Senolytics]] ↔ [[Aging]], [[Senolytics]] ↔ [[SASP]]
 

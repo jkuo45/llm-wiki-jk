@@ -26,7 +26,9 @@ Parkin-mediated mitophagy protects against mitochondrial dysfunction caused by [
 Parkin (PRKN) is an E3 ubiquitin ligase recruited by [[PINK1]] to depolarized mitochondria for [[Mitophagy]]. Mutations cause early-onset [[Parkinson's Disease]].
 
 
-### Connections
+#
+
+## Connections
 - [[Mitophagy]] — selective autophagy of mitochondria; quality control mechanism
 - [[PINK1]] — initiates mitophagy after mitochondrial depolarization
 - [[PARK2]] — interacts with Parkin
@@ -35,6 +37,6 @@ Parkin (PRKN) is an E3 ubiquitin ligase recruited by [[PINK1]] to depolarized mi
 - [[Miro1]] — interacts with Parkin
 - [[VDAC1]] — interacts with Parkin
 - [[p62]] — interacts with Parkin
-### Linking Summary
+## Linking Summary
 - New links added: [[PINK1]], [[Mitophagy]], [[TFEB]], [[TFE3]]
 - Strong connections to strengthen: [[Parkin]] ↔ [[PINK1]]

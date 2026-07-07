@@ -25,8 +25,9 @@ Tn5 transposase preferentially integrates into regions of open [[Chromatin]] (nu
 - [[Enhancer]]-[[Promoter]] interaction inference via co-accessibility
 - Comparative [[Epigenetics]] across conditions, tissues, or species
 
-### Connections
+#
 
+## Connections
 - [[Chromatin]] — ATAC-seq measures chromatin accessibility
 - [[Tn5 Transposase]] — engineered hyperactive transposase; core of the ATAC-seq assay
 - [[Promoter]] — open chromatin at transcription start sites
@@ -36,8 +37,7 @@ Tn5 transposase preferentially integrates into regions of open [[Chromatin]] (nu
 - [[Single-Cell ATAC-seq]] — single-cell resolution chromatin accessibility
 - [[DNA Sequencing]] — ATAC-seq libraries are sequenced on high-throughput platforms
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[Chromatin]], [[Chromatin Accessibility]], [[Tn5 Transposase]], [[Promoter]], [[Enhancer]], [[Transcription Factor Binding Sites]], [[Nucleosome Positioning]], [[Transcription Factor]], [[Epigenomics]], [[Single-Cell ATAC-seq]], [[Epigenetics]], [[DNA Sequencing]], [[Transposase]]
 - Suggested new entity notes to create: [[Tagmentation]], [[scATAC-seq]], [[Motif footprinting]], [[Gene regulation]], [[Cis-regulatory elements]], [[Open chromatin]]
 - Strong connections to strengthen: [[ATAC-seq]] ↔ [[Chromatin Accessibility]], [[ATAC-seq]] ↔ [[Epigenomics]]

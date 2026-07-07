@@ -13,11 +13,6 @@ tags: [oxidative_stress, neurodegeneration, autoimmune]
 # Multiple Sclerosis
 Multiple sclerosis (MS) is a demyelinating disease in which the insulating covers of nerve cells in the brain and spinal cord are damaged. Chronic [[Inflammation]] and [[Oxidative Stress]] contribute to the process of [[Demyelination]], leading to progressive neurological impairment.
 
-## Linking Summary
-- New links added: [[Oxidative Stress]], [[Inflammation]], [[Demyelination]]
-- Suggested new entity notes to create: [[Demyelination]], [[Autoimmune Disease]]
-- Strong connections to strengthen: [[Multiple Sclerosis]] ↔ [[Oxidative Stress]]
-
 ## Oxidative Stress Mechanisms in MS Pathology
 
 ### Mitochondrial Dysfunction in Demyelinated Axons
@@ -39,3 +34,8 @@ Iron accumulates in the basal ganglia, thalamus, and periventricular white matte
 - New links added: [[Mitochondria]], [[Complex I]], [[Complex IV]], [[Superoxide Radicals]], [[Substantia Nigra]], [[Fenton Reaction]], [[Hydrogen Peroxide]], [[Hydroxyl Radicals]], [[Lipid Peroxidation]], [[4-Hydroxynonenal]], [[Malondialdehyde]], [[Myeloperoxidase]], [[Neutrophils]], [[Hypochlorous Acid]], [[Peroxynitrite]], [[Nitric Oxide]], [[Nitrative Stress]], [[Glutathione]], [[HO-1]], [[Glutathione Peroxidase]], [[N-Acetylcysteine]]
 - Suggested new entity notes to create: [[Oligodendrocytes]], [[Myelin basic protein]], [[Ferroptosis]], [[GPX4]], [[Dimethyl fumarate]], [[NRF2]], [[Keap1]], [[MitoQ]], [[Lipoic acid]], [[Experimental autoimmune encephalomyelitis]], [[3-Nitrotyrosine]]
 - Strong connections to strengthen: [[Multiple Sclerosis]] ↔ [[Mitochondria]], [[Multiple Sclerosis]] ↔ [[Ferroptosis]], [[Multiple Sclerosis]] ↔ [[Glutathione]]
+
+## Linking Summary
+- New links added: [[Oxidative Stress]], [[Inflammation]], [[Demyelination]]
+- Suggested new entity notes to create: [[Demyelination]], [[Autoimmune Disease]]
+- Strong connections to strengthen: [[Multiple Sclerosis]] ↔ [[Oxidative Stress]]

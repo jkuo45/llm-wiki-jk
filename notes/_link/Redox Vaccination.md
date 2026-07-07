@@ -97,7 +97,9 @@ Redox vaccination shares mechanistic overlap with established preconditioning pa
 - **Chronic exposure risk:** Repeated redox cycling could promote [[Cellular Senescence]] or [[DNA Damage]] if the hormetic window is exceeded.
 - **Inter-individual variability:** Genetic polymorphisms in [[FOXO3a]], [[NRF2]], and [[SIRT3]] may shift the vaccination threshold.
 
-### Connections
+#
+
+## Connections
 - [[Mitohormesis]] — Redox vaccination is a specific mitohormetic mechanism
 - [[SIRT3]]/[[SIRT4]] ratio — Determines the rate of MnSOD activation and the vaccination threshold
 - [[MnSOD]] — Effector enzyme whose upregulation constitutes the "immune memory"
@@ -116,7 +118,7 @@ Redox vaccination shares mechanistic overlap with established preconditioning pa
 - [[Mithridatism]] — Historical precedent for tolerance through sub-lethal exposure
 - [[Honokiol]] — SIRT3 activator that could serve as a positive control or adjuvant
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Mitohormesis]], [[SIRT3]]/[[SIRT4]] ratio, [[MnSOD]], [[SIRT3]], [[SIRT4]], [[Carbazochrome]], [[Adrenochrome]], [[AMPK]], [[PGC1-α]], [[FOXO3a]], [[NRF2]], [[Hormetic Window]], [[Mitohormetic Redox-Relay]], [[Redox Cycling]], [[Ischemic Preconditioning]], [[Mithridatism]], [[Honokiol]], [[Aquaporins]], [[Superoxide anion]], [[Cellular Senescence]], [[DNA Damage]], [[Neurodegeneration]], [[Antidotum Mithridaticum]], [[Mithridates VI]], [[NAC]]
 - Suggested new entity notes to create: [[Redox Memory]], [[Pharmacological Preconditioning]]
 - Strong connections to strengthen: [[Redox Vaccination]] ↔ [[SIRT3]]/[[SIRT4]] ratio, [[Redox Vaccination]] ↔ [[Mitohormetic Redox-Relay]]

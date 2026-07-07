@@ -19,7 +19,7 @@ GATOR2 is a large multi-protein complex containing [[MIOS]], [[WDR24]], [[WDR59]
 
 GATOR2 is inhibited by [[CASTOR1]]/[[CASTOR2]] (arginine sensing) and [[Sestrin2]] (leucine sensing). Nutrient binding to these sensors releases GATOR2, enabling mTORC1 activation.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[GATOR1]], [[mTORC1]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[GATOR2]] ↔ [[GATOR1]]

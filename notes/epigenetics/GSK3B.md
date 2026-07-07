@@ -26,7 +26,7 @@ One mechanism by which [[GSK3B]] inhibition promotes reprogramming is by prevent
 - [[OSKM]]: [[GSK3B]] is a highly connected hub in the interaction network of the four Yamanaka factors.
 - [[Nanog]]: [[GSK3B]] inhibition promotes the activation of [[Nanog]], a core pluripotency regulator.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Wnt signaling]], [[Cellular Reprogramming]], [[Pluripotency]], [[Embryonic Stem Cells]], [[Epithelial-to-Mesenchymal Transition]], [[c-Myc]], [[Nanog]], [[OSKM]], [[Oct4]], [[MYCN]], [[FRAT2]], [[DNMT3a]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[GSK3B]] <-> [[Wnt signaling]]

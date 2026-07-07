@@ -26,7 +26,7 @@ In the context of [[Cellular Reprogramming]], [[Nanog]] is often considered a "l
 - [[Klf4]]: Required for the activation of [[Nanog]] during the reprogramming process.
 - [[Pluripotency]]: [[Nanog]] is a fundamental regulator and hallmark of the pluripotent state.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Pluripotency]], [[Embryonic Stem Cells]], [[Induced Pluripotent Stem Cells]], [[Cellular Reprogramming]], [[Yamanaka Factors]], [[Oct4]], [[Sox2]], [[Lin28]], [[Klf4]]
 - Suggested new entity notes to create: [[Tír na nÓg]]
 - Strong connections to strengthen: [[Nanog]] <-> [[Pluripotency]]

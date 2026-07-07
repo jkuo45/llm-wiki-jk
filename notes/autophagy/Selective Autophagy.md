@@ -23,7 +23,7 @@ entity_type_1: Biological Process
 
 Selective autophagy includes [[Mitophagy]], [[Lipophagy]], [[Pexophagy]], [[Reticulophagy]] (ER), [[Nucleophagy]], [[Xenophagy]] (pathogens), and [[Aggrephagy]]. Each uses specific cargo receptors.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Mitophagy]], [[Mitochondria]], [[Immunometabolism]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[Selective Autophagy]] ↔ [[Autophagy]], [[Selective Autophagy]] ↔ [[Mitophagy]]

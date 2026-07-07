@@ -20,5 +20,5 @@ entity_type_1: Chemical Compound
 - [[Quercetin]]: Can be combined with green tea to enhance EGCG levels.
 
 ---
-### Linking Summary:
+## Linking Summary
 - New links added: [[EGCG]], [[COMT]], [[Quercetin]].

@@ -18,10 +18,12 @@ aliases: [Superoxide Dismutase 2, MnSOD]
 
 **Clinical relevance:** Dysregulation of SOD2 activity is implicated in metabolic disorders, oxidative stress-related pathologies, and cancer. Pharmacological modulation of this enzyme represents a therapeutic strategy for diseases involving its pathway.
 
-### Connections
+#
+
+## Connections
 - [[SOD2]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[SOD2]]
 - Strong connections to strengthen: [[SOD2]] ↔ [[SOD2]]
 

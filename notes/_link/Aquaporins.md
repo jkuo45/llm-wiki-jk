@@ -19,10 +19,12 @@ aliases: [AQP]
 
 **Clinical relevance:** Genetic variants of Aquaporins influence drug disposition and response. Inhibition or dysregulation of this transporter contributes to drug resistance and metabolic diseases.
 
-### Connections
+#
+
+## Connections
 - [[Aquaporins]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Aquaporins]]
 - Strong connections to strengthen: [[Aquaporins]] ↔ [[Aquaporins]]
 

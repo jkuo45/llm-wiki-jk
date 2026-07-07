@@ -17,10 +17,12 @@ entity_type_1: Enzyme
 
 **Clinical relevance:** Dysregulation of CYP2D6 activity is implicated in metabolic disorders, oxidative stress-related pathologies, and cancer. Pharmacological modulation of this enzyme represents a therapeutic strategy for diseases involving its pathway.
 
-### Connections
+#
+
+## Connections
 - [[CYP2D6]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[CYP2D6]]
 - Strong connections to strengthen: [[CYP2D6]] ↔ [[CYP2D6]]
 

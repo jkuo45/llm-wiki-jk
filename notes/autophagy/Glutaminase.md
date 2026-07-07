@@ -19,8 +19,7 @@ Glutaminase (GLS) converts glutamine to glutamate, the first step of glutaminoly
 
 Glutaminase-generated ammonia from glutamine deamination induces [[Autophagy]] as a cytoprotective response. GLS inhibition reduces autophagy and sensitizes cancer cells to therapy.
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[TFEB]], [[Pancreatic Cancer]]
 - Suggested new entity notes to create: [[Glutamine Metabolism]]
 - Strong connections to strengthen: [[Glutaminase]] ↔ [[TFEB]]

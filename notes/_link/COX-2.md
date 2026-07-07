@@ -18,10 +18,12 @@ aliases: [Cyclooxygenase-2, PTGS2]
 
 **Clinical relevance:** Dysregulation of COX-2 activity is implicated in metabolic disorders, oxidative stress-related pathologies, and cancer. Pharmacological modulation of this enzyme represents a therapeutic strategy for diseases involving its pathway.
 
-### Connections
+#
+
+## Connections
 - [[COX-2]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[COX-2]]
 - Strong connections to strengthen: [[COX-2]] ↔ [[COX-2]]
 

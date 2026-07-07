@@ -26,6 +26,5 @@ aliases: [David A. Sinclair, Sinclair]
 - [[NAD+]], [[Nicotinamide Mononucleotide]], [[Nicotinamide Riboside]]: NAD+ precursors central to his rejuvenation research.
 - [[Geroscience]]: A field he helped establish.
 
-### Linking Summary:
-
+## Linking Summary
 - New links added: [[SIRT1]], [[Resveratrol]], [[NAD+]], [[Nicotinamide Mononucleotide]], [[Nicotinamide Riboside]], [[Caloric Restriction]], [[STACs]], [[SRT1720]], [[SRT2104]], [[Aging]], [[Longevity]], [[Cellular Senescence]], [[Sir2 (yeast)]], [[Geroscience]], [[Mitochondrial Dysfunction]]

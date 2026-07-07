@@ -21,13 +21,15 @@ Dysregulation of miRNAs is a hallmark of many age-related conditions:
 *   **[[Cancer]]**: miRNAs can act as either oncogenes or tumor suppressors.
 *   **[[Neurodegenerative Diseases]]**: miRNAs are essential for neuronal survival, and their loss is linked to diseases like Alzheimer's and Parkinson's.
 
-### Connections
+#
+
+## Connections
 - **[[Non-coding RNA]]**: The broader category of regulatory RNAs to which miRNAs belong.
 - **[[Epigenetics]]**: miRNAs are a major layer of epigenetic control.
 - **[[Aging]]**: Predictable shifts in miRNA expression are a hallmark of aging.
 - **[[Biomarkers]]**: miRNAs are promising candidates for minimally invasive aging tests.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[MicroRNA]], [[Non-coding RNA]], [[Epigenome]], [[DNA Methylation]], [[Histone Modification]], [[DNA Methyltransferase]], [[HDAC]], [[Aging]], [[Biomarkers]], [[Cancer]], [[Neurodegenerative Diseases]], [[Epigenetics]]
 - Suggested new entity notes to create: [[miRNome]], [[InflammamiRs]], [[Dicer Enzyme]]
 - Strong connections to strengthen: [[MicroRNA]] ↔ [[Epigenetics]], [[MicroRNA]] ↔ [[Aging]]

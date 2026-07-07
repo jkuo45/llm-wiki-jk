@@ -19,10 +19,12 @@ aliases: [PH]
 
 **Therapeutic strategies:** Management of Pulmonary Hypertension includes pharmacological interventions, lifestyle modifications, and supportive care. Emerging therapies target specific molecular pathways involved in disease progression.
 
-### Connections
+#
+
+## Connections
 - [[Pulmonary Hypertension]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Pulmonary Hypertension]]
 - Strong connections to strengthen: [[Pulmonary Hypertension]] ↔ [[Pulmonary Hypertension]]
 

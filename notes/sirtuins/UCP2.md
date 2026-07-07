@@ -38,7 +38,6 @@ UCP2 is highly expressed in the central nervous system, where it plays a neuropr
 - [[SIRT4]] — mitochondrial sirtuin; also regulates pancreatic insulin secretion (via GDH)
 
 ## Linking Summary
-
 - New links added: [[SIRT1]], [[Caloric Restriction]], [[SIRT4]]
 - Suggested new entity notes to create: [[Proton Leak]], [[Glucose-stimulated Insulin Secretion (GSIS)]]
 - Strong connections to strengthen: [[UCP2]] ↔ [[SIRT1]]

@@ -23,13 +23,15 @@ The balance of HAT/HDAC activity is often disrupted in aging.
 *   **Neurodegeneration**: Reductions in histone acetylation have been observed in [[Neurodegenerative Diseases]] like Alzheimer's, where HAT activators are being explored as potential therapies.
 *   **Longevity Pathways**: Many metabolic regulators, such as [[AMPK]] and [[Sirtuins|Sirtuins]], interact with the pathways that control HAT activity, linking diet and environment to the [[Epigenome]].
 
-### Connections
+#
+
+## Connections
 - **[[HAT]]**: The common abbreviation for this enzyme family.
 - **[[Histone Acetylation]]**: The biochemical reaction catalyzed by HATs.
 - **[[Histone Deacetylase]]**: The enzyme family that removes acetyl groups.
 - **[[Euchromatin]]**: The transcriptionally active chromatin state promoted by HATs.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Histone Acetyltransferase]], [[Chromatin]], [[Nucleosome]], [[Euchromatin]], [[Transcription]], [[Histone Deacetylase]], [[Aging]], [[Neurodegenerative Diseases]], [[AMPK]], [[Sirtuins]], [[Epigenome]], [[HAT]], [[Histone Acetylation]]
 - Suggested new entity notes to create: [[Acetyl-CoA]], [[P300]], [[CBP]]
 - Strong connections to strengthen: [[Histone Acetyltransferase]] ↔ [[Histone Acetylation]], [[Histone Acetyltransferase]] ↔ [[Histone Deacetylase]]

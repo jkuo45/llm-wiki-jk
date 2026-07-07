@@ -17,7 +17,7 @@ aliases: [ELR]
 
 ELR is a lysosome reformation pathway distinct from [[Autophagic Lysosome Reformation]] (ALR), where endocytosed material that reaches lysosomes triggers the regeneration of tubular lysosomal structures after cargo degradation.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Lysosome]], [[PIKfyve]], [[PtdIns(3,5)P2]], [[TRPML1]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[Endocytic Lysosome Reformation]] ↔ [[Lysosome]]

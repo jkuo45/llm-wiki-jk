@@ -19,10 +19,12 @@ aliases: [Programmed Necrosis]
 
 **Regulation and dysregulation:** Necroptosis is controlled by nutrient sensors, stress pathways, and hormonal signals. Impairment of this process is linked to metabolic diseases, neurodegeneration, and cancer.
 
-### Connections
+#
+
+## Connections
 - [[Necroptosis]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Necroptosis]]
 - Strong connections to strengthen: [[Necroptosis]] ↔ [[Necroptosis]]
 

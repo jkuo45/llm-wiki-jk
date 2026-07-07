@@ -23,13 +23,15 @@ Patients with Werner Syndrome develop many conditions associated with normal agi
 *   **[[Diabetes Mellitus]] and [[Cardiovascular Disease]]**: Leading to a shortened life expectancy (usually late 40s or early 50s).
 *   **[[Cancer]]**: Increased risk of rare sarcomas and other malignancies.
 
-### Connections
+#
+
+## Connections
 - **[[Aging]]**: Werner Syndrome is a primary model for "adult-onset progeria."
 - **[[Genomic Instability]]**: The core cellular hallmark of Werner Syndrome.
 - **[[DNA Repair]]**: The process that is compromised due to WRN mutations.
 - **[[HGPS]]**: Another major progeroid syndrome (childhood-onset).
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Werner Syndrome]], [[Aging]], [[HGPS]], [[Genomic Instability]], [[DNA Repair]], [[DNA Replication]], [[Diabetes Mellitus]], [[Cardiovascular Disease]], [[Cancer]]
 - Suggested new entity notes to create: [[WRN Protein]], [[Helicase]], [[Adult-Onset Progeria]]
 - Strong connections to strengthen: [[Werner Syndrome]] ↔ [[Aging]], [[Werner Syndrome]] ↔ [[Genomic Instability]]

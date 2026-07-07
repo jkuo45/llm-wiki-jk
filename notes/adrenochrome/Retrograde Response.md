@@ -27,12 +27,6 @@ While mammalian analogs of the Rtg system are not fully defined, mitochondrial s
 - [[Mitochondria]]
 - [[ATP]]
 
-## Linking Summary
-
-- New links added: [[Mitochondria]], [[Rtg1]], [[Rtg3]], [[ATP]], [[NFKB]], [[PGC1-α]], [[JNK]], [[Mitohormesis]]
-- Suggested new entity notes to create: [[Rtg1]], [[Rtg3]]
-- Strong connections to strengthen: [[Retrograde Response]] ↔ [[Mitochondria]]
-
 ## Yeast RTG Pathway (Rtg1/Rtg3 Transcription Factors)
 
 The yeast retrograde (RTG) pathway is the archetypal mitochondrial-to-nuclear signaling system. In [[S. cerevisiae]], loss of mitochondrial DNA (petite mutants) or respiratory chain dysfunction triggers the translocation of the transcription factor heterodimer [[Rtg1]]/[[Rtg3]] from the cytoplasm to the nucleus. Under basal conditions, Rtg1/Rtg3 are sequestered in the cytoplasm by the inhibitory protein [[Mks1p]], which is regulated by the negative regulators [[Lst8p]] and [[Bmh1p]]/[[Bmh2p]] (14-3-3 proteins). Mitochondrial dysfunction leads to dephosphorylation of Rtg3, disruption of the Mks1p inhibitory complex, and nuclear import of the Rtg1/Rtg3 dimer. Nuclear Rtg1/Rtg3 binds to the R-box sequence (GTCAC) in the promoters of target genes, including:
@@ -72,7 +66,8 @@ The retrograde response exhibits both conserved features and species-specific sp
 
 Retrograde signaling is increasingly recognized as a central mechanism of longevity assurance. Interventions that activate mitochondrial stress responses in a controlled manner — such as mild respiratory chain inhibition, NAD⁺ precursor supplementation ([[Nicotinamide Riboside]], [[Nicotinamide Mononucleotide]]), or treatment with [[Metformin]], [[Rapamycin]], or [[Urolithin A]] — all engage components of retrograde/UPRmt signaling. The hormetic benefit of these interventions depends on achieving an optimal activation window: insufficient activation fails to induce protective genes, while excessive or sustained activation triggers cell death or chronic inflammation. The retrograde response thus represents a promising pharmacological target for interventions that enhance mitochondrial resilience and extend healthspan.
 
-### Linking Summary:
-- New links added: [[Rtg1]], [[Rtg3]], [[Mks1p]], [[Lst8p]], [[Bmh1p]], [[Bmh2p]], [[TORC1]], [[ATF4]], [[ATF5]], [[CHOP]], [[DDIT3]], [[Integrated Stress Response]], [[HRI]], [[PERK]], [[DELE1]], [[OMA1]], [[ATFS-1]], [[SKN-1]], [[NRF2]], [[UBL-5]], [[HAF-1]], [[isp-1]], [[nuo-6]], [[clk-1]], [[Nicotinamide Riboside]], [[Nicotinamide Mononucleotide]], [[Metformin]], [[Rapamycin]], [[Urolithin A]], [[Lifespan]], [[Longevity]], [[C. elegans]], [[S. cerevisiae]]
+## Linking Summary
+- New links added: [[Mitochondria]], [[Rtg1]], [[Rtg3]], [[ATP]], [[NFKB]], [[PGC1-α]], [[JNK]], [[Mitohormesis]]
+- Suggested new entity notes to create: [[Rtg1]], [[Rtg3]]
+- Strong connections to strengthen: [[Retrograde Response]] ↔ [[Mitochondria]]
 - Suggested new entity notes to create: [[R-box Sequence]], [[CIT2]]
-- Strong connections to strengthen: [[Retrograde Response]] ↔ [[Mitohormesis]], [[Retrograde Response]] ↔ [[Longevity]], [[Retrograde Response]] ↔ [[Integrated Stress Response]]

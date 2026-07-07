@@ -22,13 +22,15 @@ database_ids:
 ## Clinical Relevance
 Vitamin B6 deficiency is implicated in [[COMT]] dysfunction, [[Depression]], [[Cardiovascular Disease]] (via elevated homocysteine), and [[Neuroinflammation]].
 
-### Connections
+#
+
+## Connections
 - [[Aromatic L-amino acid decarboxylase]] — PLP-dependent enzyme for neurotransmitter synthesis
 - [[COMT]] — Interacts with B6-dependent pathways
 - [[Methylation]] — One-carbon metabolism role
 - [[Homocysteine]] — B6 is essential for its transsulfuration
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Aromatic L-amino acid decarboxylase]], [[COMT]], [[Methylation]], [[Inflammation]], [[Depression]], [[Cardiovascular Disease]], [[Dopamine]], [[Serotonin]], [[Norepinephrine]], [[Homocysteine]]
 - Suggested new entity notes to create: [[Pyridoxal 5'-phosphate]], [[Cystathionine beta-synthase]]
 - Strong connections to strengthen: [[Vitamin B6]] ↔ [[Aromatic L-amino acid decarboxylase]]

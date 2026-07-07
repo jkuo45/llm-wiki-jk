@@ -53,7 +53,6 @@ The allosteric approach is preferred over orthosteric modulation because direct 
 - [[STACs]] — class of SIRT1 allosteric activators
 
 ## Linking Summary
-
 - New links added: [[SIRT6]], [[SIRT1]], [[UBCS039]], [[MDL-800]], [[MDL-801]], [[NAD+]], [[STACs]], [[Sirtuins]], [[Resveratrol]]
 - Suggested new entity notes to create: None
 - Strong connections to strengthen: [[Allosteric Activator]] ↔ [[SIRT6]], [[Allosteric Activator]] ↔ [[SIRT1]]

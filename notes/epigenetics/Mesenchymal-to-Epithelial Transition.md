@@ -26,7 +26,7 @@ This transition involves the up-regulation of epithelial markers such as E-cadhe
 - [[TGF-beta Signaling Pathway]]: A major driver of the reverse process (EMT); inhibition of this pathway promotes MET and increases reprogramming efficiency.
 - [[BMP Signaling Pathway]]: Shown to contribute to reprogramming by driving MET through the activation of epithelial-associated microRNAs.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Cellular Reprogramming]], [[Fibroblasts]], [[Induced Pluripotent Stem Cells]], [[Oct4]], [[Sox2]], [[c-Myc]], [[Epithelial-to-Mesenchymal Transition]], [[TGF-beta Signaling Pathway]]
 - Suggested new entity notes to create: [[CDH1]], [[CDH2]], [[BMP Signaling Pathway]]
 - Strong connections to strengthen: [[Mesenchymal-to-Epithelial Transition]] <-> [[Cellular Reprogramming]]

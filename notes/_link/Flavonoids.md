@@ -74,7 +74,9 @@ At high concentrations or in the presence of excess transition metals, flavonoid
 ## Clinical and Pathological Relevance
 Epidemiological studies associate high flavonoid intake with reduced risk of [[Cardiovascular Disease]], [[Neurodegenerative Diseases]], and certain cancers. Flavonoids protect LDL from oxidation—a critical step in [[Atherosclerosis]]—and improve [[Endothelial Dysfunction]] by enhancing [[Nitric Oxide]] bioavailability. In the context of [[Oxidative Stress]], flavonoids attenuate [[Lipid Peroxidation]], preserve [[Proteins]] from carbonylation, and reduce [[Nucleic Acids|Nucleic Acid]] oxidation as measured by [[8-oxo-2'-deoxyguanosine]] levels.
 
-### Connections
+#
+
+## Connections
 - [[Polyphenols]]
 - [[Oxidative Stress]]
 - [[N-Acetylcysteine]]: Synergistic glutathione-boosting effects
@@ -82,7 +84,7 @@ Epidemiological studies associate high flavonoid intake with reduced risk of [[C
 - [[Resveratrol]]: Another polyphenol with overlapping but distinct mechanisms
 - [[Gut Microbiome]]: Microbial metabolism generates bioactive flavonoid metabolites
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Polyphenols]], [[Quercetin]], [[Genistein]], [[Kaempferol]], [[Glycation]], [[Advanced Glycation End Products]], [[Epicatechin]], [[Oxidative Stress]]
 - Suggested new entity notes to create: [[Methylglyoxal]], [[Metal chelation]], [[Secondary metabolites]]
 - Strong connections to strengthen: [[Flavonoids]] ↔ [[Antioxidants]], [[Flavonoids]] ↔ [[Polyphenols]]

@@ -18,10 +18,12 @@ aliases: [Beta-Secretase 1]
 
 **Clinical relevance:** Dysregulation of BACE1 activity is implicated in metabolic disorders, oxidative stress-related pathologies, and cancer. Pharmacological modulation of this enzyme represents a therapeutic strategy for diseases involving its pathway.
 
-### Connections
+#
+
+## Connections
 - [[BACE1]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[BACE1]]
 - Strong connections to strengthen: [[BACE1]] ↔ [[BACE1]]
 

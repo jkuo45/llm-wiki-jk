@@ -42,7 +42,9 @@ During the early stages of [[Cellular Reprogramming]] via viral transduction of 
 ## Mitigation Strategies
 The use of ROS scavengers (antioxidants like Vitamin C) and hypoxic growth conditions have been shown to improve the efficiency of inducing pluripotency by buffering ROS-induced damage and preventing premature differentiation.
 
-### Connections
+#
+
+## Connections
 - [[Oxidative Stress]] ↔ Condition resulting from an imbalance between ROS production and antioxidant defenses.
 - [[Adrenochrome]] ↔ Formed via ROS-mediated oxidation of adrenaline.
 - [[Neutrophils]] ↔ Major source of ROS during [[Inflammation]] and the respiratory burst.
@@ -52,7 +54,7 @@ The use of ROS scavengers (antioxidants like Vitamin C) and hypoxic growth condi
 - [[DNA Damage]]: A direct consequence of elevated ROS levels.
 - [[p53]]: Activated as a response to ROS-induced stress and DNA damage.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Reactive Oxygen Species]], [[Superoxide anion]], [[Hydrogen Peroxide]], [[Hydroxyl radical]], [[MAO]], [[Adrenochrome]], [[Oxidation]], [[Epinephrine]], [[Redox Cycling]], [[Neutrophils]], [[Myeloperoxidase]], [[Smoking]], [[Oxidative Stress]], [[Inflammation]], [[Aminochromes]], [[Superoxide Radicals]], [[Hydroxyl Radicals]], [[Apoptosis]], [[Immunity]], [[Singlet Oxygen]], [[Cellular Reprogramming]], [[OSKM]], [[DNA Damage]], [[p53]], [[Senescence]], [[Embryonic Stem Cells]], [[Pluripotency]], [[Innate Immunity]]
 - Suggested new entity notes to create: [[Immunity]], [[Signaling Molecules]]
 - Strong connections to strengthen: [[Reactive Oxygen Species]] ↔ [[Oxidative Stress]]

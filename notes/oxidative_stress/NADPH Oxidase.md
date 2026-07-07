@@ -67,11 +67,9 @@ Pharmacological inhibitors of NOX enzymes include **diphenyleneiodonium** (DPI, 
 - [[Respiratory Burst]]: NOX2 is the catalytic engine of the phagocyte respiratory burst.
 - [[Inflammation]]: NOX-derived ROS are central mediators of inflammatory signaling.
 
-### Linking Summary:
+## Linking Summary
+- New links added: [[TNF-alpha]], [[IL-1b]], [[Neutrophils]], [[Macrophage]], [[Atherosclerosis]], [[Hypertension]], [[Ischemia-reperfusion Injury]], [[Neurodegeneration]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Amyotrophic Lateral Sclerosis]], [[Cancer]], [[Colorectal Cancer]], [[Breast Cancer]], [[Ferroptosis]], [[Apoptosis]], [[Angiogenesis]], [[Inflammation]], [[Respiratory Burst]], [[Lipid Peroxidation]], [[Antioxidants]], [[Nitric Oxide]]
+- Suggested new entity notes to create: [[GKT137831]], [[GSK2795039]], [[Apocynin]], [[Rac GTPase]], [[p47phox]], [[Flavocytochrome b558]]
 - New links added: [[Reactive Oxygen Species]], [[Superoxide Radicals]], [[Cardiovascular Disease]], [[Diabetes Mellitus]], [[NF-kappa B]], [[Hydrogen Peroxide]]
 - Suggested new entity notes to create: [[Respiratory Burst]], [[NOX2]], [[NOX4]]
 - Strong connections to strengthen: [[NADPH Oxidase]] ↔ [[Superoxide Radicals]]
-
-### New Linking Summary (Added 2026-07-04):
-- New links added: [[TNF-alpha]], [[IL-1b]], [[Neutrophils]], [[Macrophage]], [[Atherosclerosis]], [[Hypertension]], [[Ischemia-reperfusion Injury]], [[Neurodegeneration]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Amyotrophic Lateral Sclerosis]], [[Cancer]], [[Colorectal Cancer]], [[Breast Cancer]], [[Ferroptosis]], [[Apoptosis]], [[Angiogenesis]], [[Inflammation]], [[Respiratory Burst]], [[Lipid Peroxidation]], [[Antioxidants]], [[Nitric Oxide]]
-- Suggested new entity notes to create: [[GKT137831]], [[GSK2795039]], [[Apocynin]], [[Rac GTPase]], [[p47phox]], [[Flavocytochrome b558]]

@@ -24,5 +24,5 @@ Research in COMT-OE mice shows that increased [[COMT]] activity can lead to slow
 - [[COMT]]: Increased activity can impair the rate of learning.
 
 ---
-### Linking Summary:
+## Linking Summary
 - New links added: [[Sirtuins]], [[Dopamine]], [[COMT]].

@@ -19,5 +19,5 @@ This term is used in the proposed research plan to describe the induction of a "
 - [[Mitohormesis]] ↔ The intended physiological outcome of controlled adrenochromatization.
 - [[Redox Cycling]] ↔ The underlying chemical mechanism.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Adrenochrome]], [[Mitohormesis]], [[Redox Cycling]]

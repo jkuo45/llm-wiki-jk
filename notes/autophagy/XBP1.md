@@ -20,8 +20,7 @@ XBP1 is a bZIP transcription factor in the unfolded protein response (UPR). Its 
 
 XBP1s transcriptionally activates autophagy genes including [[Beclin1]] and [[LC3B]]. XBP1 deficiency impairs autophagy and sensitizes cells to ER stress.
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[TFEB]]
 - Suggested new entity notes to create: [[UPR]]
 - Strong connections to strengthen: [[XBP1]] ↔ [[TFEB]]

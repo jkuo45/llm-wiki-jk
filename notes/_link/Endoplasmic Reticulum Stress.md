@@ -18,10 +18,12 @@ aliases: [ER Stress]
 [[Endoplasmic Reticulum Stress]] (ER stress) is a cellular condition where the folding capacity of the endoplasmic reticulum is overwhelmed, potentially induced by reactive oxidative species or [[Aminochrome]] during the pathogenesis of [[Parkinson's Disease]].
 
 
-### Connections
+#
+
+## Connections
 - [[Aminochrome]] — interacts with Endoplasmic Reticulum Stress
 - [[Parkinson's Disease]] — neurodegenerative disease; α-synuclein pathology; dopamine loss
-### Linking Summary
+## Linking Summary
 - New links added: [[Parkinson's Disease]], [[Reactive Oxygen Species]], [[Aminochrome]].
 - Suggested new entity notes to create: [[Unfolded Protein Response]], [[Proteostasis]].
 - Strong connections to strengthen: [[Endoplasmic Reticulum Stress]] ↔ [[Proteostasis]].

@@ -19,7 +19,7 @@ In stem cell research, the formation of teratomas is a key indicator of the plur
 - [[Pluripotency]]: The ability to form a teratoma is a hallmark of a pluripotent state.
 - [[Cancer]]: While often benign, teratomas represent a risk of uncontrolled growth in cell-based therapies.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Induced Pluripotent Stem Cells]], [[Embryonic Stem Cells]], [[Pluripotency]], [[Cancer]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Pluripotency]] ↔ [[Teratoma]]

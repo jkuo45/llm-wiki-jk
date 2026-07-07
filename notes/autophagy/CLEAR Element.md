@@ -17,7 +17,7 @@ The **CLEAR Element** (Coordinated Lysosomal Expression and Regulation) is a 10-
 
 The Coordinated Lysosomal Expression and Regulation (CLEAR) element is a 10-bp E-box-like motif (GTCACGTGAC) in lysosomal gene promoters bound by [[TFEB]] and [[TFE3]].
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[TFEB]], [[TFE3]], [[Lysosome]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[CLEAR Element]] ↔ [[TFEB]]

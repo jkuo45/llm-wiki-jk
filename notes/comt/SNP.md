@@ -26,5 +26,5 @@ A **[[SNP]]** (Single Nucleotide Polymorphism) is a variation in a single nucleo
 - [[Methylation]]: Often influenced by SNPs in various pathway enzymes.
 
 ---
-### Linking Summary:
+## Linking Summary
 - New links added: [[COMT]], [[Val158Met]], [[MTHFR]], [[Methylation]].

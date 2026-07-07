@@ -15,12 +15,14 @@ Protein phosphatase 2A (PP2A) is a serine/threonine phosphatase that dephosphory
 Protein phosphatase 2 (PP2), also known as PP2A, is an enzyme that in humans is encoded by the PPP2CA gene and is a ubiquitous and conserved serine/threonine phosphatase.
 
 
-### Connections
+#
+
+## Connections
 - [[Phosphorylation]] — interacts with PP2A
 - [[Caspase-3]] — catalyzes reaction involving PP2A
 - [[Bax]] — interacts with PP2A
 - [[TFEB]] — master transcription factor for lysosomal biogenesis and autophagy
-### Linking Summary
+## Linking Summary
 - New links added: [[TFEB]], [[Caspase-3]], [[Bax]], [[Phosphorylation]], [[PP2A]]
 - Suggested new entity notes to create: [[Phosphatase]]
 - Strong connections to strengthen: [[PP2A]] ↔ [[TFEB]], [[PP2A]] ↔ [[Caspase-3]], [[PP2A]] ↔ [[Bax]]

@@ -12,7 +12,7 @@ entity_type_1: Protein
 
 **Atrogin-1** (also known as FBXO32 or F-box protein 32) is a muscle-specific E3 ubiquitin ligase that plays a critical role in muscle protein degradation and muscle atrophy. It targets specific myofibrillar and structural proteins for degradation via the [[Ubiquitin-dependent 20S proteasome|ubiquitin-proteasome system]]. Its expression is regulated by transcription factors like [[FOXO|FoxO]] and is downregulated by [[Urolithin A|Urolithin A]] to help preserve muscle mass.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Ubiquitin-dependent 20S proteasome]], [[FOXO]], [[Urolithin A]], [[MuRF1]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Atrogin-1]] ↔ [[MuRF1]], [[Atrogin-1]] ↔ [[Urolithin A]]

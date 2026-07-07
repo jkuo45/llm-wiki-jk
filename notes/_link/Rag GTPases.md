@@ -19,10 +19,12 @@ aliases: [RagA/B/C/D]
 
 **Pathological significance:** Altered expression or mutation of Rag GTPases is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
 
-### Connections
+#
+
+## Connections
 - [[Rag GTPases]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Rag GTPases]]
 - Strong connections to strengthen: [[Rag GTPases]] ↔ [[Rag GTPases]]
 

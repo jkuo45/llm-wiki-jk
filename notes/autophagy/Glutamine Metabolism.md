@@ -19,8 +19,7 @@ Glutamine is converted to glutamate by [[Glutaminase]], then to α-ketoglutarate
 
 Glutamine deprivation induces [[Autophagy]] via [[ULK1]] activation and mTORC1 inhibition. The ammonia released from glutaminolysis directly induces autophagy.
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[Pancreatic Cancer]], [[TFEB]], [[Glutaminase]]
 - Suggested new entity notes to create: [[Glutaminolysis]]
 - Strong connections to strengthen: [[Glutamine Metabolism]] ↔ [[Glutaminase]]

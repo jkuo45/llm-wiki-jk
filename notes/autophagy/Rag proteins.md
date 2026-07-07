@@ -16,7 +16,7 @@ The Rag proteins are a family of small GTPases that form heterodimers to recruit
 
 Rag GTPases (RagA/B with RagC/D) heterodimerize at the lysosome to recruit [[mTORC1]] in response to amino acids. GTP loading on RagA/B is activating.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[mTORC1]], [[amino acids]], [[Raptor]], [[Rheb]], [[Lysosome]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Rag proteins]] ↔ [[mTORC1]]

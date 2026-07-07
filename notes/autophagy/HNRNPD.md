@@ -20,8 +20,7 @@ HNRNPD (AUF1) is an RNA-binding protein that regulates mRNA stability by binding
 
 HNRNPD stabilizes [[ULK1]] and [[Beclin1]] mRNAs. Its dysregulation contributes to age-related decline in autophagy.
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[TFEB]], [[METTL3]]
 - Suggested new entity notes to create: [[RNA Stability]]
 - Strong connections to strengthen: [[HNRNPD]] ↔ [[TFEB]]

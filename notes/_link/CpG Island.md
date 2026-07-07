@@ -19,10 +19,12 @@ entity_type_1: Scientific Concept
 - [[Epigenetic Clock]]
 
 
-### Connections
+#
+
+## Connections
 - [[Epigenetic Clock]] — interacts with CpG Island
 - [[DNA Methylation]] — interacts with CpG Island
 - [[Biomarkers]] — interacts with CpG Island
-### Linking Summary
+## Linking Summary
 - New links added: [[DNA Methylation]]
 - Strong connections to strengthen: [[CpG Island]] ↔ [[DNA Methylation]]

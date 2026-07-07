@@ -19,13 +19,15 @@ The "Heterochromatin Loss Model of Aging" suggests that as we age, regions that 
 ### 3. Epigenetic Regulators
 The formation and maintenance of euchromatin are regulated by enzymes like [[Histone Acetyltransferase]] (HATs), which add acetyl groups to histones, and [[Histone Deacetylase]] (HDACs), which remove them.
 
-### Connections
+#
+
+## Connections
 - **[[Chromatin]]**: The general term for the DNA-protein complex.
 - **[[Heterochromatin]]**: The repressive counterpart to euchromatin.
 - **[[Transcription]]**: The process that euchromatin facilitates.
 - **[[Aging]]**: Aging is marked by a shift from heterochromatin toward euchromatin.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Euchromatin]], [[Chromatin]], [[Histone Acetylation]], [[Transcription]], [[Heterochromatin]], [[Aging]], [[SASP]], [[Transposable Elements]], [[Genomic Instability]], [[Histone Acetyltransferase]], [[Histone Deacetylase]]
 - Suggested new entity notes to create: [[Open Chromatin]], [[Chromatin Accessibility]], [[Active Promoters]]
 - Strong connections to strengthen: [[Euchromatin]] ↔ [[Transcription]], [[Euchromatin]] ↔ [[Heterochromatin]]

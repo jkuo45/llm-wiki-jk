@@ -57,7 +57,7 @@ In [[Parkinson's Disease]], the relationship between neuromelanin and neuronal h
 - [[Oxidative Stress]] ↔ The state that promotes the formation of the oxidative precursors.
 
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Adrenochrome]], [[Aminochromes]], [[Catecholamines]], [[Dopamine]], [[Dopaminochrome]], [[Epinephrine]], [[Inflammation]], [[Iron]], [[Locus Coeruleus]], [[Microgliosis]], [[Neuromelanin]], [[Oxidation]], [[Oxidative Stress]], [[Parkinson's Disease]], [[Pathogenic Threshold of Neuromelanin]], [[Substantia Nigra]], [[Substantia Nigra Pars Compacta]], [[Oxidative Stress]]
 - Suggested new entity notes to create: [[Fenton Reaction]], [[Proteostasis]]
 - Strong connections to strengthen: [[Neuromelanin]] ↔ [[Aminochromes]], [[Neuromelanin]] ↔ [[Parkinson's Disease]].

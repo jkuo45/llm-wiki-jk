@@ -36,8 +36,9 @@ Evidence-based strategies for extending healthspan:
 
 The [[Compression of Morbidity]] hypothesis (Fries, 1980) posits that extending healthspan while delaying the onset of chronic disease compresses the period of end-of-life disability into a shorter timeframe, reducing healthcare burden and improving [[Quality of Life]].
 
-### Connections
+#
 
+## Connections
 - [[Lifespan]] — healthspan is contrasted with total lifespan; extending healthspan compresses morbidity
 - [[Aging]] — healthspan is the primary target of aging research; lifespan extension without healthspan is a failure
 - [[Caloric Restriction]] — the most robust intervention for extending healthspan
@@ -49,8 +50,7 @@ The [[Compression of Morbidity]] hypothesis (Fries, 1980) posits that extending 
 - [[Epigenetic Clock]] — predicts remaining healthspan from DNA methylation patterns
 - [[Quality of Life]] — the ultimate goal of healthspan extension
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[Lifespan]], [[Aging]], [[Aging Research]], [[Gerontology]], [[Chronic Disease]], [[Cardiovascular Disease]], [[Cancer]], [[Diabetes Mellitus]], [[Neurodegenerative Disease]], [[Mobility]], [[Cognition]], [[Activities of Daily Living]], [[Frailty Index]], [[Biological Age]], [[Epigenetic Clocks]], [[Biomarkers of Aging]], [[Caloric Restriction]], [[Exercise]], [[Muscle Mass]], [[Cardiovascular Function]], [[Rapamycin]], [[Metformin]], [[NAD+]], [[Nicotinamide Mononucleotide]], [[Nicotinamide Riboside]], [[Senolytics]], [[Dasatinib]], [[Quercetin]], [[Intermittent Fasting]], [[Mediterranean Diet]], [[Compression of Morbidity]], [[Quality of Life]]
 - Suggested new entity notes to create: [[Compression of morbidity]], [[Disability-free life expectancy]], [[Healthspan versus lifespan]], [[Geroprotector]], [[Frailty index]]
 - Strong connections to strengthen: [[Healthspan]] ↔ [[Aging]], [[Healthspan]] ↔ [[Caloric Restriction]], [[Healthspan]] ↔ [[Lifespan]]

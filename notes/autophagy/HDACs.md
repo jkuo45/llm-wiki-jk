@@ -20,8 +20,7 @@ Histone deacetylases (HDACs) remove acetyl groups from histones and non-histone 
 
 HDAC inhibitors ([[SAHA]], [[Trichostatin A]]) induce [[Autophagy]] by activating [[TFEB]] and [[FOXO]]. HDAC6 regulates autophagosome-lysosome fusion via [[Cortactin]] deacetylation.
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[TFEB]]
 - Suggested new entity notes to create: [[SAHA]]
 - Strong connections to strengthen: [[HDACs]] ↔ [[TFEB]]

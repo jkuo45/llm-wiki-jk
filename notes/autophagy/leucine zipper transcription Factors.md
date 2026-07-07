@@ -17,8 +17,7 @@ Leucine zipper transcription factors are a class of DNA-binding proteins, includ
 
 bZIP transcription factors contain a basic region for DNA binding and a leucine zipper for dimerization. Members include [[ATF4]], [[CHOP]], [[XBP1]], [[CREB]], [[FOS]], [[JUN]], and [[NRL]].
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[MiT]]/[[TFEB]] family
 - Suggested new entity notes to create: [[bHLH-LZ Transcription Factors]]
 - Strong connections to strengthen: [[leucine zipper transcription Factors]] ↔ [[MiT]]/[[TFEB]] family

@@ -84,7 +84,6 @@ Beclin1 is a well-characterised tumour suppressor:
 - [[Cancer]]: Beclin1 is a haploinsufficient tumour suppressor.
 
 ## Linking Summary
-
 - New links added: [[Autophagy]], [[PI3K]], [[Vps34]], [[Autophagosome]], [[Cancer]], [[BRCA1]], [[ULK1]], [[Bcl-2]], [[Bcl-xL]], [[SIRT1]], [[SIRT2]], [[SIRT3]], [[UVRAG]], [[Rubicon]], [[Vps15]]
 - Suggested new entity notes to create: [[Atg14L]], [[UVRAG]], [[Rubicon]], [[Bif-1]], [[DAPK]], [[TRAF6]]
 - Strong connections to strengthen: [[Beclin1]] ↔ [[Autophagy]], [[Beclin1]] ↔ [[Cancer]], [[Beclin1]] ↔ [[SIRT1]], [[Beclin1]] ↔ [[BRCA1]]

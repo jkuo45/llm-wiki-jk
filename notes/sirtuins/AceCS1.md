@@ -35,7 +35,6 @@ Like its mitochondrial counterpart [[AceCS2]], AceCS1 is post-translationally re
 - [[Acetyl-CoA]] — the enzymatic product of AceCS1
 
 ## Linking Summary
-
 - New links added: [[SIRT1]], [[AceCS2]], [[Caloric Restriction]], [[Acetyl-CoA]]
 - Suggested new entity notes to create: [[Lipogenesis]]
 - Strong connections to strengthen: [[AceCS1]] ↔ [[SIRT1]]

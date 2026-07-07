@@ -17,7 +17,7 @@ PEX1 is a critical gene that encodes a peroxisomal membrane protein (peroxin) es
 
 PEX1 is a peroxisomal AAA-ATPase required for receptor recycling during peroxisome biogenesis. Mutations cause Zellweger syndrome.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Peroxisome]], [[Peroxisome Biogenesis Network]], [[Zellweger syndrome]], [[Beta-Oxidation]]
 - Suggested new entity notes to create: [[PEX Genes]]
 - Strong connections to strengthen: [[PEX1]] ↔ [[Peroxisome Biogenesis Network]], [[PEX1]] ↔ [[Zellweger syndrome]]

@@ -44,7 +44,7 @@ Persistent DDR signaling is a hallmark of [[Cellular Senescence]]. Three feature
 - **Senolytics:** The chronic DDR dependence of senescent cells can be exploited therapeutically by inhibiting DDR survival pathways (e.g., [[ATM]] or [[CHK1]]).
 - **Aging:** Pharmacological DDR modulation is explored to reduce sterile inflammation from accumulated senescent cells, though cancer risk must be carefully managed.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[DNA Damage]], [[Senescence]], [[DNA Repair]], [[ATM]], [[ATR]], [[p53]], [[Apoptosis]], [[SASP]], [[Genomic Instability]]
 - Suggested new entity notes to create: [[γ-H2AX]], [[MRN complex]], [[CHK1]], [[CHK2]], [[DNA-SCARS]]
 - Strong connections to strengthen: [[DNA Damage Response]] ↔ [[Senescence]], [[DNA Damage Response]] ↔ [[DNA Damage]]

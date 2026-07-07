@@ -17,12 +17,14 @@ ERK2 directly phosphorylates [[TFEB]] at Ser142, promoting its cytosolic retenti
 **ERK2** (Extracellular Signal-Regulated Kinase 2) is a member of the [[MAPK]] family that plays a vital role in the transmission of signals from cell surface receptors to the nucleus, influencing cell proliferation and survival.
 
 
-### Connections
+#
+
+## Connections
 - [[TFEB]] — master transcription factor for lysosomal biogenesis and autophagy
 - [[MAPK Signaling]] — interacts with ERK2
 - [[14-3-3 protein]] — interacts with ERK2
 - [[MAPK]] — mitogen-activated protein kinase cascade; transmits extracellular signals
-### Linking Summary
+## Linking Summary
 - New links added: [[TFEB]], [[MAPK]], [[Bmf]], [[Melanoma]]
 - Suggested new entity notes to create: [[ERK Signaling]]
 - Strong connections to strengthen: [[ERK2]] ↔ [[TFEB]], [[ERK2]] ↔ [[Bmf]]

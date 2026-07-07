@@ -51,6 +51,5 @@ As a [[Methyl Donor]], [[TMG]] supplementation can influence the pool of methyl 
 
 ---
 
-### Linking Summary:
-
+## Linking Summary
 - New links added: [[TMG]], [[Methylation Cycle]], [[Methyl Donor]], [[SAMe]], [[COMT]].

@@ -25,7 +25,9 @@ Both [[Phagocytic]] and [[non-phagocytic]] [[NADPH Oxidase]] (Nox) isoforms are 
 Conventional disease-modifying antirheumatic drugs ([[DMARD]]s) target oxidative stress in RA. [[Methotrexate]] (MTX) — a first-line therapy — increases extracellular [[adenosine]], which suppresses [[NADPH Oxidase]] activity in neutrophils and inhibits TNF-induced ROS production in synovial fibroblasts. [[Sulfasalazine]] scavenges •OH and HOCl and inhibits [[NF-kappa B]] activation. [[Gold compounds]] ([[Auranofin]]) inhibit [[Thioredoxin reductase]] ([[TrxR]]), modulating the thioredoxin antioxidant system. [[Anti-TNF therapy]] ([[Infliximab]], [[Adalimumab]]) reduces circulating [[Malondialdehyde]] and enhances [[Glutathione]] levels in RA patients, partly by breaking the TNF–ROS amplification loop.
 
 
-### Connections
+#
+
+## Connections
 - [[Advanced Glycation End Products]] — interacts with Rheumatoid Arthritis
 - [[Hypoxia]] — interacts with Rheumatoid Arthritis
 - [[Reactive Oxygen Species]] — interacts with Rheumatoid Arthritis
@@ -41,7 +43,7 @@ Conventional disease-modifying antirheumatic drugs ([[DMARD]]s) target oxidative
 - [[NADPH Oxidase]] — catalyzes reaction involving Rheumatoid Arthritis
 - [[NOX2]] — interacts with Rheumatoid Arthritis
 - [[Neutrophils]] — interacts with Rheumatoid Arthritis
-### Linking Summary
+## Linking Summary
 - New links added: [[Advanced Glycation End Products]], [[Inflammation]], [[Synovial Fluid]], [[Oxidative Stress]], [[TNF-alpha]], [[Hypoxia]], [[Ischemia-reperfusion Injury]], [[Xanthine Oxidase]], [[Superoxide Radicals]], [[Hydrogen Peroxide]], [[NADPH Oxidase]], [[Neutrophils]], [[Macrophage]], [[Respiratory Burst]], [[p38 MAPK]], [[Myeloperoxidase]], [[Hypochlorous Acid]], [[NF-kappa B]], [[Malondialdehyde]], [[Glutathione]]
 - Suggested new entity notes to create: [[Autoimmune disorder]], [[Joint destruction]], [[Synovial fibroblasts]], [[HIF-1α]], [[NOX4]], [[RANKL]], [[Protein arginine deiminase]], [[Citrullination]], [[Anti-citrullinated protein antibodies]], [[Methotrexate]], [[Auranofin]], [[Thioredoxin reductase]], [[Infliximab]], [[Adalimumab]]
 - Strong connections to strengthen: [[Inflammation]] ↔ [[Rheumatoid Arthritis]], [[Rheumatoid Arthritis]] ↔ [[Inflammation]], [[Rheumatoid Arthritis]] ↔ [[NADPH Oxidase]], [[Rheumatoid Arthritis]] ↔ [[Hypoxia]], [[Rheumatoid Arthritis]] ↔ [[Citrullination]]

@@ -26,7 +26,7 @@ aliases: [CMA]
 
 CMA selectively degrades cytosolic proteins with KFERQ-like motifs via [[HSC70]] recognition and [[LAMP-2A]] translocation into lysosomes, independent of vesicle formation.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Autophagy]], [[Lysosome]], [[LAMP-2A]], [[Aging]]
 - Suggested new entity notes to create: , [[LAMP-2A]]
 - Strong connections to strengthen: [[Chaperone-Mediated Autophagy]] ↔ [[Autophagy]], [[Chaperone-Mediated Autophagy]] ↔ [[LAMP-2A]]

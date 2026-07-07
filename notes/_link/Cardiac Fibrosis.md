@@ -19,10 +19,12 @@ aliases: [Myocardial Fibrosis]
 
 **Therapeutic strategies:** Management of Cardiac Fibrosis includes pharmacological interventions, lifestyle modifications, and supportive care. Emerging therapies target specific molecular pathways involved in disease progression.
 
-### Connections
+#
+
+## Connections
 - [[Cardiac Fibrosis]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Cardiac Fibrosis]]
 - Strong connections to strengthen: [[Cardiac Fibrosis]] ↔ [[Cardiac Fibrosis]]
 

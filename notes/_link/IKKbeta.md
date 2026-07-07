@@ -25,8 +25,9 @@ IKKβ is activated by [[Phosphorylation]] at Ser177/Ser181 in its activation loo
 
 IKKβ is a therapeutic target for [[Inflammatory Diseases]] ([[Rheumatoid Arthritis]], [[Inflammatory Bowel Disease]], [[Psoriasis]]). IKKβ inhibitors block NF-κB-driven pro-inflammatory [[Cytokine]] production. Constitutive IKKβ activation contributes to [[Cancer]] by promoting anti-apoptotic gene expression and [[Chemoresistance]].
 
-### Connections
+#
 
+## Connections
 - [[NFκB]] — IKKβ phosphorylates IκBα to activate NF-κB
 - [[IkappaBalpha]] — direct substrate of IKKβ; phosphorylation triggers its degradation
 - [[NEMO]] — regulatory subunit of the IKK complex; required for IKKβ activation
@@ -40,8 +41,7 @@ IKKβ is a therapeutic target for [[Inflammatory Diseases]] ([[Rheumatoid Arthri
 - [[Rheumatoid Arthritis]] — IKKβ signaling drives joint inflammation
 - [[RIPK1]] / [[TRAF2]] / [[TRAF6]] — upstream signal transducers to IKKβ
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[IKK complex]], [[NFκB]], [[IkappaBalpha]], [[IkappaB]], [[NEMO]], [[IKKα]], [[TNFα]], [[Interleukin 1β]], [[LPS]], [[TAK1]], [[MAP3K]], [[RIPK1]], [[TRAF2]], [[TRAF6]], [[MyD88]], [[IRAK]], [[TLR4]], [[Serine/Threonine Kinase]], [[Ubiquitin]], [[Proteasome]], [[Proteasomal Degradation]], [[Inflammation]], [[Rheumatoid Arthritis]], [[Inflammatory Bowel Disease]], [[Psoriasis]], [[Cancer]], [[Chemoresistance]], [[Cytokine]], [[DNA Damage]]
 - Suggested new entity notes to create: [[NEMO-binding domain]], [[IKK complex assembly]], [[Canonical NF-κB pathway]], [[IKKβ inhibitor]], [[TAK1 kinase]]
 - Strong connections to strengthen: [[IKKbeta]] ↔ [[NFκB]], [[IKKbeta]] ↔ [[IkappaBalpha]], [[IKKbeta]] ↔ [[TNFα]], [[IKKbeta]] ↔ [[Inflammation]]

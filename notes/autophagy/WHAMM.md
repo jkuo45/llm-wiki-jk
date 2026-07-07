@@ -17,7 +17,7 @@ aliases: [WASP homolog-associated protein]
 
 WHAMM is a WASP-family protein that links [[Arp2/3]] actin nucleation to ER and Golgi membranes. It regulates [[Autophagosome]] formation and trafficking.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Autophagic Lysosome Reformation]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[WHAMM]] ↔ [[Autophagic Lysosome Reformation]]

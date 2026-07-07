@@ -21,7 +21,7 @@ aliases: [hepatocellular carcinoma cell line]
 
 HepG2 is a human hepatocellular carcinoma cell line widely used for studying [[Autophagy]], lipid metabolism, and drug toxicity.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Autophagy]], [[Lysosomal Acid Lipase]], [[LC3]], [[TFEB]]
 - Suggested new entity notes to create: [[EBSS]] (Earle's Balanced Salt Solution)
 - Strong connections to strengthen: [[HepG2]] ↔ [[TFEB]]

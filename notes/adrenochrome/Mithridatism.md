@@ -26,7 +26,6 @@ Mithridatism is a historical precursor to the scientific concept of [[Hormesis]]
 - [[Antidotum Mithridaticum]]
 
 ## Linking Summary
-
 - New links added: [[Hormesis]], [[Mitohormesis]], [[Antidotum Mithridaticum]]
 - Suggested new entity notes to create: [[Mithridates VI]]
 - Strong connections to strengthen: [[Mithridatism]] ↔ [[Toxicology]]

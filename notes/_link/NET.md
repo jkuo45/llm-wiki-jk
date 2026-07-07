@@ -19,10 +19,12 @@ aliases: [Norepinephrine Transporter]
 
 **Clinical relevance:** Genetic variants of NET influence drug disposition and response. Inhibition or dysregulation of this transporter contributes to drug resistance and metabolic diseases.
 
-### Connections
+#
+
+## Connections
 - [[NET]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[NET]]
 - Strong connections to strengthen: [[NET]] ↔ [[NET]]
 

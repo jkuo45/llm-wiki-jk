@@ -27,7 +27,7 @@ Metagenomic screening has identified soil bacterial biocatalysts capable of usin
 
 The human homolog of [[HemF-like]] and homologous bacterial proteins in the microbiome (such as *Escherichia* and *Pseudomonas*) catalyze the cleavage of glucosepane in vitro, releasing [[Citrulline]] as a byproduct.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Advanced Glycation End Products]], [[Collagen]], [[Aging]], [[Diabetes]], [[HemF-like]], [[BluB-like]], [[QueE-like]], [[Citrulline]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Glucosepane]] ↔ [[Collagen]], [[Glucosepane]] ↔ [[Aging]]

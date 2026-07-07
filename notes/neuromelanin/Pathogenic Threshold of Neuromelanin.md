@@ -20,7 +20,7 @@ In humans, neuromelanin accumulates progressively with [[Aging]]. While initiall
 ## Therapeutic Implications
 Maintaining or reducing intracellular neuromelanin levels to stay below this pathogenic threshold is proposed as a potential therapeutic strategy for preventing or delaying the onset of PD and mitigating brain aging.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Neuromelanin]], [[Aging]], [[Autophagy]], [[Ubiquitin-Proteasome System]], [[Mitochondrial Dysfunction]], [[Oxidative Stress]], [[Parkinson's Disease]], [[Incidental Lewy Body Disease]].
 - Suggested new entity notes to create: [[Proteostasis]], [[Neuroprotection]].
 - Strong connections to strengthen: [[Pathogenic Threshold of Neuromelanin]] ↔ [[Parkinson's Disease]].

@@ -16,12 +16,14 @@ entity_type_1: Biological Molecule
 - [[Genomic Instability]]
 - [[SIRT6]]
 
-### Connections
+#
+
+## Connections
 - [[Transposable Elements]] — interacts with
 - [[Genomic Instability]] — interacts with
 - [[SIRT6]] — interacts with
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Transposable Elements]], [[Genomic Instability]], [[SIRT6]]
 - Strong connections to strengthen: [[LINE-1]] ↔ [[Transposable Elements]], [[LINE-1]] ↔ [[Genomic Instability]], [[LINE-1]] ↔ [[SIRT6]]
 

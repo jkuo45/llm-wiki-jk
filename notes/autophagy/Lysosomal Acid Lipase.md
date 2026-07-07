@@ -28,7 +28,7 @@ aliases: [LAL, LIPA]
 ## Orthologues
 - In [[C. elegans]], the functional orthologues are the [[LIPL-1]], [[LIPL-2]], [[LIPL-3]], and [[LIPL-5]] proteins, which are regulated by [[MXL-3]] and [[HLH-30]].
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Lysosome]], [[Lipophagy]], [[TFEB]], [[LIPL-1]], [[LIPL-2]], [[LIPL-3]], [[LIPL-5]], [[C. elegans]], [[MXL-3]], [[HLH-30]], [[Metabolic Diseases]]
 - Suggested new entity notes to create: [[LipA]], [[Wolman Disease]]
 - Strong connections to strengthen: [[Lysosomal Acid Lipase]] ↔ [[Lipophagy]], [[Lysosomal Acid Lipase]] ↔ [[TFEB]]

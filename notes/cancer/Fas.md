@@ -25,7 +25,7 @@ Binding of the ligand [[FasL]] (Fas ligand) to the Fas receptor induces receptor
 - [[Caspase-8]]: Activated downstream of Fas trimerization.
 - [[FADD]]: The adaptor protein recruited by Fas.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Extrinsic Pathway]], [[Apoptosis]], [[FasL]], [[Caspase-8]], [[FADD]], [[leukemia]], [[cervical cancer]]
 - Suggested new entity notes to create: [[FasL]], [[FADD]]
 - Strong connections to strengthen: [[Fas]] ↔ [[FasL]], [[Fas]] ↔ [[Extrinsic Pathway]]

@@ -13,11 +13,6 @@ tags: [oxidative_stress, atherosclerosis, lipid_metabolism]
 # CD36 Receptor
 CD36 is a member of the class B scavenger receptor family and is involved in lipid metabolism and inflammation. It plays a significant role in [[Atherosclerosis]] by mediating the uptake of [[Oxidized LDL]], which is a product of [[Lipid Peroxidation]].
 
-## Linking Summary
-- New links added: [[Atherosclerosis]], [[Lipid Peroxidation]], [[Oxidized LDL]]
-- Suggested new entity notes to create: [[Oxidized LDL]], [[Scavenger receptor]]
-- Strong connections to strengthen: [[CD36 Receptor]] ↔ [[Atherosclerosis]]
-
 ## Oxidative Stress and Functional Mechanisms
 
 ### Oxidized LDL Uptake and Foam Cell Formation
@@ -39,3 +34,8 @@ CD36 deficiency in humans is rare but associated with altered lipid metabolism a
 - New links added: [[Macrophage]], [[Apoptosis]], [[Diabetes Mellitus]], [[Metabolic Syndromes]], [[PPARγ]], [[TNF-alpha]], [[IL-1b]], [[TGF-beta]], [[NF-kappa B]], [[Toll-like Receptor]], [[Cardiovascular Disease]], [[p38 MAPK]], [[Oxidized LDL]]
 - Suggested new entity notes to create: [[Foam Cells]], [[Thrombospondin-1]], [[Fyn kinase]], [[Lipotoxicity]], [[Protein kinase C]], [[Soluble CD36]]
 - Strong connections to strengthen: [[CD36 Receptor]] ↔ [[Oxidized LDL]], [[CD36 Receptor]] ↔ [[PPARγ]]
+
+## Linking Summary
+- New links added: [[Atherosclerosis]], [[Lipid Peroxidation]], [[Oxidized LDL]]
+- Suggested new entity notes to create: [[Oxidized LDL]], [[Scavenger receptor]]
+- Strong connections to strengthen: [[CD36 Receptor]] ↔ [[Atherosclerosis]]

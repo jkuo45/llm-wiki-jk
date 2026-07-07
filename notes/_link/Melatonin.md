@@ -14,10 +14,12 @@ entity_type_1: Biological Molecule
 ## Functions
 It primarily signals the body that it is time to sleep and acts as a potent antioxidant.
 
-### Connections
+#
+
+## Connections
 - [[Serotonin]]: The precursor to melatonin.
 - [[Methyl groups]]: Required for the synthesis of melatonin from serotonin.
 - [[Oxidative Stress]]: Melatonin helps protect the body from oxidative damage.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Serotonin]], [[Methyl groups]], [[Oxidative Stress]].

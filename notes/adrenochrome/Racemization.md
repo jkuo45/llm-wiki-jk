@@ -34,5 +34,5 @@ Racemization and [[Glycation]] are synergistic processes that compromise protein
 
 [[Cataract]] — opacification of the lens — is the most thoroughly characterized pathology of racemization. Human lens γ-crystallins accumulate D-aspartic acid at specific positions (Asp-58, Asp-151) with age, and the extent of racemization correlates directly with cataract severity. The conformational change induced by D-Asp promotes protein unfolding, aggregation, and light scattering. Racemization has been proposed as a [[Biomarker of aging]] at the molecular level, with potential applications in [[Longevity]] research and [[Anti-aging]] intervention testing. Caloric restriction, which extends lifespan in multiple species, is associated with reduced racemization rates in rodent tissues, suggesting that interventions that slow macromolecular damage may modulate racemization kinetics.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Quality Control]], [[Aspartic acid]], [[Serine]], [[Alanine]], [[Valine]], [[Leucine]], [[Tooth enamel]], [[Dentin]], [[Lens crystallins]], [[Myelin]], [[Lens]], [[Glycation]], [[Glucose]], [[Methylglyoxal]], [[Advanced Glycation End Products]], [[Proteasomal]], [[Autophagic]], [[Cataract]], [[Biomarker of aging]], [[Longevity]], [[Anti-aging]]

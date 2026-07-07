@@ -33,11 +33,14 @@ Beyond direct pathogen killing, ROS function as [[Signaling Molecules]] that reg
 - [[HIF-1α]]: Hypoxia-inducible factor linking metabolism to ROS production.
 - [[Immunosenescence]]: Age-related decline in immune function driven by oxidative stress.
 - [[Inflammaging]]: Chronic low-grade inflammation fueled by oxidative stress.
-- [[Mitochondrial Dysfunction]]: Impairs immune cell metabolism and redox signaling.### Linking Summary:
+- [[Mitochondrial Dysfunction]]: Impairs immune cell metabolism and redox signaling.
+
+## Linking Summary
+- New links added in this revision: [[Myeloperoxidase]], [[Hypochlorous Acid]], [[Toll-like Receptor]], [[LPS]], [[IFN-γ]], [[STAT1]], [[Peroxynitrite]], [[Iron-Sulfur Clusters]], [[Arginase]], [[Macrophage Polarization]], [[Glutathione]], [[Dendritic Cells]], [[IL-12]], [[Thioredoxin]], [[mTOR]], [[HIF-1α]], [[Mitochondrial ROS]], [[Immunosenescence]], [[Inflammaging]], [[Hematopoietic Stem Cell]], [[p38 MAPK]], [[Metformin]], [[AMPK]], [[PGC1-α]], [[Chronic Granulomatous Disease]], [[Mitochondrial Dysfunction]], [[Macrophage]], [[Keap1]]
+- Suggested new entity notes to create: [[Itaconate]], [[T Cell Polarization]], [[Succinate]], [[CGD]], [[Rac GTPase]]
 - New links added: [[Oxidative Stress]], [[Neutrophils]], [[Respiratory Burst]], [[Reactive Oxygen Species]], [[Reactive Nitrogen Species]], [[Signaling Molecules]], [[Pro-inflammatory Cytokines]], [[NF-kappa B]], [[Inflammation]], [[NADPH Oxidase]]
 - Suggested new entity notes to create: [[Pro-inflammatory Cytokines]]
 - Strong connections to strengthen: [[Immunity]] ↔ [[Respiratory Burst]]
-
 ## Phagocyte NADPH Oxidase: The NOX2 System
 
 The professional phagocyte NADPH oxidase (NOX2) is the central enzymatic engine of the oxidative immune response. The complex comprises a membrane-bound heterodimer (gp91phox/NOX2 and p22phox) and four cytosolic subunits (p47phox, p67phox, p40phox, and the small GTPase [[Rac|Rac1/2]]). Upon pathogen recognition via [[Toll-like Receptor|Toll-like receptors]] (TLRs), Fc receptors, or complement receptors, the cytosolic subunits translocate to the membrane, assembling the active oxidase. The catalytic core (NOX2) transfers electrons from cytosolic NADPH across the membrane to molecular oxygen in the phagosome, generating [[Superoxide Radicals]] at a rate of up to 2–4 nmol O2•−/min per 10^6 cells. This superoxide spontaneously dismutates to [[Hydrogen Peroxide]], which is further converted by [[Myeloperoxidase]] (released from azurophilic granules) into [[Hypochlorous Acid]] — the major bactericidal oxidant in neutrophils. Genetic defects in any NOX2 subunit cause [[Chronic Granulomatous Disease]] (CGD), characterized by severe recurrent infections, particularly with catalase-positive pathogens such as [[Staphylococcus aureus]], [[Burkholderia cepacia]], and [[Aspergillus species]].
@@ -58,6 +61,3 @@ Activated immune cells undergo a metabolic switch from oxidative phosphorylation
 
 [[Immunosenescence]] and [[Inflammaging]] are driven in part by lifelong accumulation of oxidative damage to immune cells. In aged [[Neutrophils]], NOX2 activity is reduced but mitochondrial ROS are elevated, impairing bacterial killing while increasing bystander tissue damage. [[Hematopoietic Stem Cell|Hematopoietic stem cells]] (HSCs) accumulate oxidative DNA damage over time, leading to a myeloid-biased differentiation skew and impaired lymphopoiesis. The [[p38 MAPK]] pathway, activated by ROS-induced stress signaling, suppresses HSC self-renewal. Caloric restriction and [[Metformin]] partially reverse these age-related immune changes by reducing [[Reactive Oxygen Species|ROS]] production through [[AMPK]]/[[PGC1-α]]-mediated [[Mitochondria|mitochondrial]] biogenesis and antioxidant enzyme induction.
 
-### Updated Linking Summary:
-- New links added in this revision: [[Myeloperoxidase]], [[Hypochlorous Acid]], [[Toll-like Receptor]], [[LPS]], [[IFN-γ]], [[STAT1]], [[Peroxynitrite]], [[Iron-Sulfur Clusters]], [[Arginase]], [[Macrophage Polarization]], [[Glutathione]], [[Dendritic Cells]], [[IL-12]], [[Thioredoxin]], [[mTOR]], [[HIF-1α]], [[Mitochondrial ROS]], [[Immunosenescence]], [[Inflammaging]], [[Hematopoietic Stem Cell]], [[p38 MAPK]], [[Metformin]], [[AMPK]], [[PGC1-α]], [[Chronic Granulomatous Disease]], [[Mitochondrial Dysfunction]], [[Macrophage]], [[Keap1]]
-- Suggested new entity notes to create: [[Itaconate]], [[T Cell Polarization]], [[Succinate]], [[CGD]], [[Rac GTPase]]

@@ -26,7 +26,9 @@ Ferroptosis is initiated when the glutathione-dependent antioxidant enzyme [[GPX
 ## Clinical Relevance
 Ferroptosis has been implicated in [[Neurodegeneration|neurodegenerative diseases]] ([[Parkinson's Disease]], [[Alzheimer's Disease]], [[Huntington's Disease]]), [[Ischemia-reperfusion Injury]] (kidney, heart, brain), [[Diabetes Mellitus]] (pancreatic β-cell loss), and [[Cancer]]. In oncology, ferroptosis induction is a promising therapeutic strategy for therapy-resistant cancers (e.g., [[Breast Cancer]], [[Renal Cell Carcinoma]], [[Melanoma]], [[leukemia]]), particularly those with mesenchymal or drug-tolerant persister cell states that are highly dependent on GPx4 activity.
 
-### Connections
+#
+
+## Connections
 - [[Lipid Peroxidation]] — interacts with
 - [[GPX4]] — interacts with
 - [[Glutathione]] — interacts with
@@ -40,7 +42,7 @@ Ferroptosis has been implicated in [[Neurodegeneration|neurodegenerative disease
 - [[LPCAT3]] — interacts with
 - [[NOX]] — interacts with
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Lipid Peroxidation]], [[GPX4]], [[Glutathione]], [[Fenton Reaction]], [[Ferritin]], [[NCOA4]], [[FSP1]], [[DHODH]], [[System Xc⁻]], [[ACSL4]], [[LPCAT3]], [[NOX]], [[Transferrin receptor 1]], [[HO-1]], [[Malondialdehyde]], [[4-Hydroxynonenal]], [[Deferoxamine]], [[Deferiprone]], [[Vitamin E]], [[Ferrostatin-1]]
 - Strong connections to strengthen: [[Ferroptosis]] ↔ [[Lipid Peroxidation]], [[Ferroptosis]] ↔ [[GPX4]], [[Ferroptosis]] ↔ [[Glutathione]], [[Ferroptosis]] ↔ [[Fenton Reaction]], [[Ferroptosis]] ↔ [[Ferritin]]
 

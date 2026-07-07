@@ -19,10 +19,12 @@ aliases: [TfR1, CD71, TFRC]
 
 **Clinical relevance:** Genetic variants of Transferrin receptor 1 influence drug disposition and response. Inhibition or dysregulation of this transporter contributes to drug resistance and metabolic diseases.
 
-### Connections
+#
+
+## Connections
 - [[Transferrin receptor 1]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Transferrin receptor 1]]
 - Strong connections to strengthen: [[Transferrin receptor 1]] ↔ [[Transferrin receptor 1]]
 

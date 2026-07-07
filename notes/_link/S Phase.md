@@ -12,8 +12,9 @@ entity_type_1: Enzyme
 
 S Phase (Synthesis Phase) is the phase of the [[Cell Cycle]] during which [[DNA Replication]] occurs, producing two copies of the genome. It follows [[G1 Phase]] and precedes [[G2 Phase]]. S Phase is initiated by the activation of [[Cyclin E]]/[[CDK2]] complexes, which phosphorylate targets including [[Rb]] to release [[E2F]] transcription factors. [[Origin Recognition Complex]] (ORC), [[CDC6]], [[CDT1]], and [[MCM]] helicase form the pre-replication complex. [[DNA Polymerase]], [[PCNA]], and [[Topoisomerase]] carry out replication. [[Checkpoint]] kinases [[ATR]] and [[CHK1]] monitor replication stress and [[DNA Damage]] during S Phase.
 
-### Connections
+#
 
+## Connections
 - [[Cell Cycle]] — S Phase is one of four cell cycle phases
 - [[DNA Replication]] — the central event of S Phase
 - [[G1 Phase]] — precedes S Phase
@@ -28,8 +29,7 @@ S Phase (Synthesis Phase) is the phase of the [[Cell Cycle]] during which [[DNA 
 - [[CHK1]] — downstream effector of S Phase checkpoint
 - [[DNA Damage]] — monitored during S Phase
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[Cell Cycle]], [[DNA Replication]], [[G1 Phase]], [[G2 Phase]], [[Cyclin E]], [[CDK2]], [[Rb]], [[E2F]], [[DNA Polymerase]], [[PCNA]], [[Topoisomerase]], [[ATR]], [[CHK1]], [[DNA Damage]]
 - Suggested new entity notes to create: [[Origin Recognition Complex]], [[MCM Helicase]], [[Pre-Replication Complex]]
 - Strong connections to strengthen: [[S Phase]] ↔ [[Cell Cycle]], [[S Phase]] ↔ [[DNA Replication]]

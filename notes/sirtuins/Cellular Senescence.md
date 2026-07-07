@@ -27,6 +27,5 @@ aliases: [Cell senescence, Replicative senescence, Cellular aging]
 - [[Caloric Restriction]]: Delays senescence onset via SIRT1/[[NAD+]]-dependent pathways.
 - [[Intermittent Fasting]]: May reduce senescent cell burden through metabolic reprogramming.
 
-### Linking Summary:
-
+## Linking Summary
 - New links added: [[SIRT1]], [[SIRT6]], [[SIRT3]], [[FOXO3a]], [[PML]], [[p53]], [[LINE-1]], [[Heterochromatin]], [[Autophagy]], [[Caloric Restriction]], [[Intermittent Fasting]], [[Oxidative Stress]], [[DNA Damage]], [[Reactive Oxygen Species]], [[Aging]], [[Inflammation]], [[Senescence-Associated Secretory Phenotype]]

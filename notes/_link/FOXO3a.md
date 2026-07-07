@@ -27,12 +27,14 @@ Under oxidative stress or DNA damage, FOXO3a is post-translationally regulated b
 - **Shift in Transcriptional Program**: SIRT1-mediated deacetylation of FOXO3a dualistically modulates its transcriptional activities. It suppresses FOXO3a's ability to induce pro-apoptotic genes (such as *Bim*), thereby inhibiting apoptosis and cell death. Simultaneously, deacetylation **amplifies** FOXO3a's ability to induce cell cycle arrest and stress-resistance genes (such as *p27Kip1*, *GADD45*, and *MnSOD*).
 - **Cell Survival**: This sirtuin-mediated shift allows cells to survive oxidative stress by repairing DNA damage and neutralizing ROS instead of undergoing apoptosis.
 
-### Connections
+#
+
+## Connections
 - [[SIRT1]] — deacetylates FOXO3a to shift its transcriptional output from apoptosis to stress survival
 - [[FoxO1]] — sister FOXO transcription factor regulated by SIRT1
 - [[Apoptosis]] — process inhibited in a cell-context dependent manner by the SIRT1–FOXO3a axis
 
-### Linking Summary
+## Linking Summary
 - New links added: [[SIRT5]], [[Apoptosis]], [[Autophagy]], [[Intermittent Fasting]], [[Atg]], [[LC3]], [[p62]], [[Atg12]], [[Atg16]], [[Akt]], [[Longevity]], [[Aging]], [[Cellular Homeostasis]], [[Proteotoxicity]], [[SIRT1]], [[FoxO1]]
 - Suggested new entity notes to create: [[Atg]], [[Cellular Homeostasis]], [[Proteotoxicity]], [[GADD45]], [[MnSOD]]
 - Strong connections to strengthen: [[FOXO3a]] ↔ [[SIRT5]], [[FOXO3a]] ↔ [[Apoptosis]], [[FOXO3a]] ↔ [[FoxO1]], [[FOXO3a]] ↔ [[Autophagy]], [[FOXO3a]] ↔ [[SIRT1]]

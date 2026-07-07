@@ -71,7 +71,6 @@ SMAD3 is essential for the anti-inflammatory and immunosuppressive functions of 
 - [[Fibrosis]] — SMAD3 is a central pro-fibrotic transcription factor
 
 ## Linking Summary
-
 - New links added: [[TFEB]], [[TGF-β]], [[SMAD4]], [[SIRT1]], [[SIRT6]], [[SIRT7]], [[Inflammation]], [[Fibrosis]], [[Foxp3]], [[Regulatory T cells]]
 - Suggested new entity notes to create: [[TGF-β Signalling]], [[CLEAR network]], [[SMAD family]]
 - Strong connections to strengthen: [[SMAD3]] ↔ [[TFEB]], [[SMAD3]] ↔ [[TGF-β]], [[SMAD3]] ↔ [[SIRT6]]

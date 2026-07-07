@@ -13,11 +13,6 @@ tags: [oxidative_stress, cytokine, inflammation]
 # IL-1b
 Interleukin-1 beta (IL-1b) is a cytokine protein that is an important mediator of the inflammatory response. Its production is often upregulated during chronic [[Inflammation]] and is closely linked with other pro-inflammatory markers like [[TNF-alpha]] and the activation of the [[NF-kappa B]] pathway.
 
-## Linking Summary
-- New links added: [[Inflammation]], [[TNF-alpha]], [[NF-kappa B]]
-- Suggested new entity notes to create: [[Cytokines]], [[Inflammation]]
-- Strong connections to strengthen: [[IL-1b]] ↔ [[TNF-alpha]]
-
 ## Redox Regulation of IL-1β Production and Signaling
 
 ### NLRP3 Inflammasome Activation by ROS
@@ -44,7 +39,7 @@ In the central nervous system, IL-1β is produced primarily by [[Microglia]] and
 
 [[SIRT1]] deacetylation of [[NFκB]] downregulates pro-inflammatory cytokines including IL-1β. [[SIRT7]] kidney-specific knockout reduces IL-1β and other inflammatory factors.
 
-### Linking Summary (Sirtuin Additions):
-- New links added: [[SIRT1]], [[SIRT7]]
-- Suggested new entity notes to create:
-- Strong connections to strengthen: [[IL-1b]] ↔ [[SIRT1]], [[IL-1b]] ↔ [[SIRT7]]
+## Linking Summary
+- New links added: [[Inflammation]], [[TNF-alpha]], [[NF-kappa B]]
+- Suggested new entity notes to create: [[Cytokines]], [[Inflammation]]
+- Strong connections to strengthen: [[IL-1b]] ↔ [[TNF-alpha]]

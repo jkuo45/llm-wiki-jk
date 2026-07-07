@@ -32,7 +32,6 @@ The activity of MEF2D during myogenesis is tightly regulated by a molecular swit
 - [[Sirtuins]] — mammalian sirtuin family of proteins
 
 ## Linking Summary
-
 - New links added: [[SIRT1]], [[Sirtuins]]
 - Suggested new entity notes to create: [[MyoD]], [[HDAC4]], [[SUMOylation]], [[Myogenesis]]
 - Strong connections to strengthen: [[MEF2D]] ↔ [[SIRT1]]

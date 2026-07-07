@@ -23,7 +23,9 @@ Oxidation is both a normal metabolic fate and a pathological liability for catec
 [[Oxidation]] is a chemical reaction involving the loss of electrons, often resulting in the formation of [[Quinones]] from catechol compounds. In the context of the brain, the oxidation of [[Dopamine]] and other catecholamines is the initiating step for [[Neuromelanin]] biosynthesis. Uncontrolled oxidation contributes to [[Oxidative Stress]] and is implicated in the selective vulnerability of dopaminergic neurons in [[Parkinson's Disease]].
 
 
-### Connections
+#
+
+## Connections
 - [[Adrenochrome]] — interacts with Oxidation
 - [[Reactive Oxygen Species]] — interacts with Oxidation
 - [[o-semiquinone]] — interacts with Oxidation
@@ -32,6 +34,6 @@ Oxidation is both a normal metabolic fate and a pathological liability for catec
 - [[Cyclooxygenases]] — catalyzes reaction involving Oxidation
 - [[Lipoxygenases]] — catalyzes reaction involving Oxidation
 - [[Myeloperoxidase]] — catalyzes reaction involving Oxidation
-### Linking Summary
+## Linking Summary
 - New links added: [[Adrenochrome]], [[Quinones]], [[Dopamine]], [[Neuromelanin]], [[Oxidative Stress]], [[Parkinson's Disease]]
 - Strong connections to strengthen: [[Oxidation]] ↔ [[Neuromelanin]]

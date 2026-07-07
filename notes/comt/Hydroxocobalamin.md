@@ -21,5 +21,5 @@ aliases: [HydroxyB12]
 - [[MethylB12]]: A methylated alternative that can cause sensitivity in certain genotypes.
 
 ---
-### Linking Summary:
+## Linking Summary
 - New links added: [[Vitamin B12]], [[COMT]], [[MethylB12]].

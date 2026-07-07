@@ -10,7 +10,7 @@ entity_type_1: Chemical Compound
 # Daunorubicin
 Daunorubicin is a chemical compound and anthracycline antibiotic used in chemotherapy that induces DNA damage by inhibiting topoisomerase II.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[DNA Damage]], [[Senescence]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Daunorubicin]] <-> [[DNA Damage]]

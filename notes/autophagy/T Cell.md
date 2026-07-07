@@ -17,7 +17,7 @@ T cells are a type of lymphocyte that play a central role in the [[Adaptive Immu
 
 T cells mediate adaptive cellular immunity. [[Autophagy]] regulates T cell activation, metabolism, and memory formation by controlling organelle quality and nutrient supply.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Adaptive Immune Response]], [[Autophagy]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[T Cell]] ↔ [[Immunosenescence]]

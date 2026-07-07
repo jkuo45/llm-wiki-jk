@@ -57,7 +57,6 @@ Salermide blocks the NAD⁺-dependent deacetylation of sirtuin targets. A key me
 ---
 
 ## Linking Summary
-
 - **New Links Added**: [[SIRT1]], [[SIRT2]], [[Sirtinol]], [[Cancer]]
 - **Suggested New Notes to Create**: [[Colorectal Cancer Stem Cells]], [[H4K16 Deacetylation]]
 - **Strong Connections to Strengthen**: [[Salermide]] ↔ [[Sirtinol]], [[Salermide]] ↔ [[SIRT1]]

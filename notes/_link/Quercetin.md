@@ -14,10 +14,12 @@ entity_type_1: Chemical Compound
 ## Clinical Considerations
 Individuals with slow [[COMT]] variants may experience side effects such as irritability or anxiety when taking high doses of [[Quercetin]] due to the further reduction in [[COMT]] activity.
 
-### Connections
+#
+
+## Connections
 - [[COMT]]: The enzyme responsible for quercetin's metabolism.
 - [[EGCG]]: Quercetin may enhance the bioavailability of EGCG by inhibiting COMT.
 - [[Dopamine]]: Levels may increase when COMT is inhibited by quercetin.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Flavonoids]], [[Anti-inflammatory]], [[COMT]], [[COMT Inhibitors]], [[Neurotransmitters]], [[Dopamine]], [[Norepinephrine]], [[EGCG]].

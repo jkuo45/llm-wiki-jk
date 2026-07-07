@@ -21,13 +21,15 @@ One of the most profound, yet often overlooked, changes in the aging cell is the
 ### 3. Epigenetic "Tags"
 The tails of the histones within the nucleosome are subject to various [[Histone Modification|histone modifications]] (acetylation, methylation, etc.), which serve as chemical signals to the cell's machinery.
 
-### Connections
+#
+
+## Connections
 - **[[Chromatin]]**: The higher-order structure formed by chains of nucleosomes.
 - **[[Histone Modification]]**: The chemical changes that occur on the nucleosome's proteins.
 - **[[Genomic Instability]]**: A consequence of disrupted nucleosome architecture in old age.
 - **[[Aging]]**: The loss and reorganization of nucleosomes are core features of the aging epigenome.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Nucleosome]], [[Chromatin]], [[Euchromatin]], [[Transcription]], [[Heterochromatin]], [[Aging]], [[Genomic Instability]], [[Histone Modification]]
 - Suggested new entity notes to create: [[Histone Octamer]], [[Linker DNA]], [[Nucleosome Remodeling]]
 - Strong connections to strengthen: [[Nucleosome]] ↔ [[Chromatin]], [[Nucleosome]] ↔ [[Histone Modification]]

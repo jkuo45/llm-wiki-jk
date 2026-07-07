@@ -19,10 +19,12 @@ aliases: [Nuclear Receptor Coactivator 4]
 
 **Pathological significance:** Altered expression or mutation of NCOA4 is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
 
-### Connections
+#
+
+## Connections
 - [[NCOA4]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[NCOA4]]
 - Strong connections to strengthen: [[NCOA4]] ↔ [[NCOA4]]
 

@@ -75,7 +75,6 @@ Sulforaphane is released by the action of [[myrosinase]] enzyme on glucoraphanin
 Sulforaphane has been investigated in clinical trials for [[Asthma]] (restoring NRF2 activity in airway epithelium), [[Chronic Obstructive Pulmonary Disease|COPD]], [[Neurodegeneration|neurodegenerative diseases]] ([[Alzheimer's Disease]], [[Parkinson's Disease]]), [[Cancer]] (chemoprevention and as adjunct to chemotherapy), [[Autism|autism spectrum disorder]] (improving oxidative stress markers and behavioral outcomes), and [[Diabetes Mellitus]].
 
 ## Linking Summary
-
 - New links added: [[NRF2]], [[NF-κB]], [[Glutathione]], [[HO-1]], [[AMPK]], [[HDAC]], [[Ferroptosis]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Cancer]], [[Diabetes Mellitus]], [[Asthma]]
 - Suggested new entity notes to create: [[Keap1]], [[GCLM]], [[Glucoraphanin]], [[Myrosinase]]
 - Strong connections to strengthen: [[Sulforaphane]] ↔ [[NRF2]], [[Sulforaphane]] ↔ [[NF-κB]]

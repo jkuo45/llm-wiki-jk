@@ -17,10 +17,12 @@ entity_type_1: Cell Type
 
 **Pathological relevance:** Dysfunction or loss of Macrophages underlies specific disease states. Understanding its biology provides insights into regenerative medicine and therapeutic targeting.
 
-### Connections
+#
+
+## Connections
 - [[Macrophages]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Macrophages]]
 - Strong connections to strengthen: [[Macrophages]] ↔ [[Macrophages]]
 

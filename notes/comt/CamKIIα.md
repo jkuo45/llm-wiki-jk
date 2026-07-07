@@ -22,5 +22,5 @@ In transgenic mouse models, such as the COMT-OE mice, the **[[CamKIIα]] promote
 - [[Sirtuins]]: Another forebrain region targeted by CamKIIα-driven transgenes.
 
 ---
-### Linking Summary:
+## Linking Summary
 - New links added: [[COMT]], [[Prefrontal Cortex]], [[Sirtuins]].

@@ -19,10 +19,12 @@ aliases: [ATP-binding Cassette G1]
 
 **Clinical relevance:** Genetic variants of ABCG1 influence drug disposition and response. Inhibition or dysregulation of this transporter contributes to drug resistance and metabolic diseases.
 
-### Connections
+#
+
+## Connections
 - [[ABCG1]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[ABCG1]]
 - Strong connections to strengthen: [[ABCG1]] ↔ [[ABCG1]]
 

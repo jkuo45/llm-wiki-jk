@@ -27,6 +27,6 @@ Similar to tobacco, wood smoke contains particulates and reactive compounds that
 - [[Epinephrine]] ↔ Levels are increased by nicotine, leading to more [[Adrenochrome]] formation.
 - [[Adrenochrome]] ↔ An oxidative byproduct whose production is significantly increased by smoking.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Smoking]], [[Oxidative Stress]], [[Catecholamines]], [[Adrenochrome]], [[Epinephrine]], [[Reactive Oxygen Species]], [[Inflammation]]
 - Strong connections to strengthen: [[Smoking]] ↔ [[Oxidative Stress]]

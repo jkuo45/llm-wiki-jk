@@ -30,12 +30,14 @@ The biochemical cycle involves the transfer of methyl groups for various cellula
 [[COMT]] requires a methyl group from [[SAMe]] to metabolize catechols like [[Dopamine]], [[Norepinephrine]], and [[Estrogen]]. 
 - Individuals with slow [[COMT]] variants may be sensitive to [[Methyl Donor]] supplements (e.g., [[Methylfolate]], [[MethylB12]]), which can affect neurotransmitter levels.
 
-### Connections
+#
+
+## Connections
 - [[Aging]]: DNA methylation patterns are a primary biomarker for biological aging.
 - [[COMT]]: Utilizes methyl groups for its enzymatic activity.
 - [[MTHFR]]: Key enzyme providing the substrate for the methylation cycle.
 - [[Epigenetic Clock]]: Tools that use DNA methylation data to measure the rate of aging.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[DNA Methylation]], [[CpG Island]], [[Aging]], [[LINE-1]], [[Alu element]], [[Genomic Instability]], [[Transposable Elements]], [[Epigenetic Clock]], [[DNAmGrimAge]], [[DNA Methyltransferase]], [[DNMT1]], [[DNA Replication]], [[DNMT3a]], [[DNMT3b]], [[MTHFR]], [[MTRR]], [[MTHFD1]], [[COMT]], [[Folate]], [[Vitamin B12]], [[SAMe]], [[TMG]], [[Dopamine]], [[Norepinephrine]], [[Estrogen]], [[Methyl Donor]].
 - Suggested new entity notes to create: [[Epigenetic Drift]], [[5-mC]], [[TET Enzymes]].

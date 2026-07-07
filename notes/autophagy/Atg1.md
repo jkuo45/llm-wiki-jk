@@ -19,7 +19,7 @@ Atg1 ([[ULK1]] in mammals) is a serine/threonine kinase that initiates [[Autopha
 
 Under nutrient-rich conditions, mTORC1 phosphorylates Atg13, inhibiting Atg1 activity. During starvation, mTORC1 dissociates, unleashing Atg1 kinase activity to nucleate the [[Autophagosome]].
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Autophagy]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[Atg1]] ↔ [[ULK1]]

@@ -18,10 +18,12 @@ entity_type_1: Enzyme
 ## Interaction with COMT
 Both [[MAO]] and [[COMT]] are involved in the metabolism of catecholamines. While COMT performs methylation, MAO performs oxidative deamination. Together, they ensure the proper clearance and balance of neurotransmitters in the brain.
 
-### Connections
+#
+
+## Connections
 - [[Dopamine]]: One of the primary neurotransmitters metabolized by MAO.
 - [[COMT]]: The other major enzyme involved in catecholamine degradation.
 - [[MAO]]: The common abbreviation for monoamine oxidase.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Neurotransmitters]], [[Dopamine]], [[Epinephrine]], [[Norepinephrine]], [[Serotonin]], [[COMT]], [[MAO]].

@@ -18,10 +18,12 @@ aliases: [MTR]
 
 **Clinical relevance:** Dysregulation of Methionine Synthase activity is implicated in metabolic disorders, oxidative stress-related pathologies, and cancer. Pharmacological modulation of this enzyme represents a therapeutic strategy for diseases involving its pathway.
 
-### Connections
+#
+
+## Connections
 - [[Methionine Synthase]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Methionine Synthase]]
 - Strong connections to strengthen: [[Methionine Synthase]] ↔ [[Methionine Synthase]]
 

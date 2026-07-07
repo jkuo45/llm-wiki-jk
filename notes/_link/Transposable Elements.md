@@ -19,14 +19,16 @@ entity_type_1: Biological Molecule
 - [[Heterochromatin]]
 - [[Epigenetics]]
 
-### Connections
+#
+
+## Connections
 - [[LINE-1]] — interacts with
 - [[Alu element]] — interacts with
 - [[Genomic Instability]] — interacts with
 - [[Heterochromatin]] — interacts with
 - [[Epigenetics]] — interacts with
 
-### Linking Summary
+## Linking Summary
 - New links added: [[LINE-1]], [[Alu element]], [[Genomic Instability]], [[Heterochromatin]], [[Epigenetics]]
 - Strong connections to strengthen: [[Transposable Elements]] ↔ [[LINE-1]], [[Transposable Elements]] ↔ [[Alu element]], [[Transposable Elements]] ↔ [[Genomic Instability]], [[Transposable Elements]] ↔ [[Heterochromatin]], [[Transposable Elements]] ↔ [[Epigenetics]]
 

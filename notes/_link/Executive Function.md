@@ -18,10 +18,12 @@ aliases: [Cognitive Control]
 
 **Current understanding:** Ongoing research continues to refine our understanding of Executive Function as new experimental evidence emerges from diverse model systems.
 
-### Connections
+#
+
+## Connections
 - [[Executive Function]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Executive Function]]
 - Strong connections to strengthen: [[Executive Function]] ↔ [[Executive Function]]
 

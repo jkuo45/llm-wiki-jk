@@ -19,7 +19,7 @@ In the context of [[Yamanaka Factors]] research, [[Induced Pluripotent Stem Cell
 - [[Induced Pluripotent Stem Cells]]: Used to create patient-specific models for studying OPCA.
 - [[Yamanaka Factors]]: The tools used to generate iPSCs from somatic cells of patients.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Neurodegenerative Diseases]], [[Induced Pluripotent Stem Cells]], [[Yamanaka Factors]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Induced Pluripotent Stem Cells]] ↔ [[Olivopontocerebellar Atrophy]]

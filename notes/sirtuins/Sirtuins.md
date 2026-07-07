@@ -163,8 +163,7 @@ The development of specific sirtuin inhibitors and activators is a rapidly expan
 
 ## Orphan Link Resolution & Linking Summary
 
-### Linking Summary:
-
+## Linking Summary
 - **New Links Added**: [[SIRT1]], [[SIRT2]], [[SIRT3]], [[SIRT4]], [[SIRT5]], [[SIRT6]], [[SIRT7]], [[p53]], [[PGC-1α]], [[FoxO1]], [[FOXO3a]], [[NFKB|NF-κB]], [[Resveratrol]], [[AMPK|AMPK]], [[TFEB]], [[Cardiovascular Disease]], [[Aging]], [[HIF-1α]], [[NMN]], [[Nicotinamide Riboside]], [[Cyanidin]], [[Honokiol]], [[Dihydromyricetin]]
 - **Suggested New Notes to Create**: [[UBCS039]], [[MDL-800]], [[SirReal2]], [[EX-527]], [[NLRP3]], [[AceCS2]]
 - **Strong Connections to Strengthen**: [[Sirtuins]] ↔ [[SIRT1]], [[Sirtuins]] ↔ [[Aging]], [[Sirtuins]] ↔ [[Resveratrol]], [[NMN]] ↔ [[NAD+]], [[Nicotinamide Riboside]] ↔ [[NAD+]]

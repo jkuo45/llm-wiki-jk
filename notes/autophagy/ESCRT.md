@@ -17,7 +17,7 @@ The Endosomal Sorting Complexes Required for Transport (ESCRT) is a protein mach
 
 ESCRT complexes (0-III) mediate membrane scission events in multivesicular body formation, cytokinesis, and autophagosome closure.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Peroxisome]], [[Selective Autophagy]], [[PERO1]], [[LC3]]
 - Suggested new entity notes to create: [[Ubiquitin]]
 - Strong connections to strengthen: [[ESCRT]] ↔ [[Selective Autophagy]], [[ESCRT]] ↔ [[PERO1]]

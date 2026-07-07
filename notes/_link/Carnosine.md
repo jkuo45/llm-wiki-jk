@@ -14,8 +14,10 @@ entity_type_1: Chemical Compound
 In the [[Glyco-Oxidative Proteostasis Shield]] strategy, Carnosine serves as a synergist for metal chelation and AGE inhibition, helping to stabilize the proteostatic environment and prevent oxidative damage to the extracellular matrix.
 
 
-### Connections
+#
+
+## Connections
 - [[Glyco-Oxidative Proteostasis Shield]] — interacts with Carnosine
-### Linking Summary
+## Linking Summary
 - New links added: [[Aminoguanidine]], [[Oxidative Stress]], [[Glyco-Oxidative Proteostasis Shield]]
 - Strong connections to strengthen: [[Carnosine]] ↔ [[Aminoguanidine]], [[Carnosine]] ↔ [[Glyco-Oxidative Proteostasis Shield]]

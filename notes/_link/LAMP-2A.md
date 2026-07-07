@@ -19,10 +19,12 @@ aliases: [Lysosomal-Associated Membrane Protein 2A]
 
 **Pathological significance:** Altered expression or mutation of LAMP-2A is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
 
-### Connections
+#
+
+## Connections
 - [[LAMP-2A]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[LAMP-2A]]
 - Strong connections to strengthen: [[LAMP-2A]] ↔ [[LAMP-2A]]
 

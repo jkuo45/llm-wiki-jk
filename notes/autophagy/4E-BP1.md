@@ -19,7 +19,7 @@ Eukaryotic initiation factor 4E (eIF4E)-binding protein 1 (4E-BP1) is a major do
 
 Hypophosphorylated 4E-BP1 suppresses cap-dependent translation of autophagy repressors, thereby promoting [[Autophagy]]. 4E-BP1 is a key effector of mTORC1-dependent autophagy control.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[mTORC1]], [[protein synthesis]], [[eIF4E]], [[cap-dependent translation]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[4E-BP1]] ↔ [[mTORC1]]

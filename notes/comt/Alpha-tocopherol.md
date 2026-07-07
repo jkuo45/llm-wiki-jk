@@ -18,5 +18,5 @@ The response to [[Alpha-tocopherol]] supplementation is significantly influenced
 - [[Vitamin E]]: For a broader overview of the nutrient and its interaction with COMT variants.
 
 ---
-### Linking Summary:
+## Linking Summary
 - New links added: [[Vitamin E]], [[COMT]], [[Val158Met]], [[Cancer]], [[Cardiovascular Disease]].

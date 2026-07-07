@@ -21,5 +21,5 @@ aliases: [Methylenetetrahydrofolate Dehydrogenase 1]
 - [[MTHFR]]: Another key enzyme in the same pathway.
 
 ---
-### Linking Summary:
+## Linking Summary
 - New links added: [[Folate]], [[Methylation Cycle]], [[MTHFR]].

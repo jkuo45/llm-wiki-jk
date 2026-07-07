@@ -25,13 +25,15 @@ In the context of [[Oxidative Stress]], the most important repair pathway is [[B
 - [[Cellular Senescence]]
 - [[DNA Damage]]
 
-### Connections
+#
+
+## Connections
 - [[DNA Damage]]: The substrate for repair mechanisms.
 - [[8-oxo-2'-deoxyguanosine]]: A major oxidative lesion repaired by the BER pathway.
 - [[Cancer]]: Deficiencies in DNA repair pathways significantly increase the risk of mutagenesis and tumor development.
 - [[Nucleic Acids]]: The biological molecules being protected by these repair systems.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Oxidative Stress]], [[Base Excision Repair]], [[Reactive Oxygen Species]], [[8-oxo-2'-deoxyguanosine]], [[DNA Damage]], [[Cancer]], [[Nucleic Acids]]
 - Suggested new entity notes to create: [[Base Excision Repair]], [[Nucleotide Excision Repair]]
 - Strong connections to strengthen: [[DNA Repair]] ↔ [[8-oxo-2'-deoxyguanosine]]

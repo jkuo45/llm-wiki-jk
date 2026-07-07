@@ -19,10 +19,12 @@ aliases: [Mitochondrial Open Reading Frame of the 12S rRNA-c]
 
 **Pathological significance:** Altered expression or mutation of MOTS-c is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
 
-### Connections
+#
+
+## Connections
 - [[MOTS-c]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[MOTS-c]]
 - Strong connections to strengthen: [[MOTS-c]] ↔ [[MOTS-c]]
 

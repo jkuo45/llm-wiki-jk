@@ -34,7 +34,7 @@ In the [[Substantia Nigra]], [[Neuromelanin]] serves as a storage site for metal
 - **[[Neuromelanin]]**: Its synthesis and storage are intimately tied to the cell's ability to handle protein and pigment loads.
 - **[[Endoplasmic Reticulum Stress|Endoplasmic Reticulum Stress]]**: Occurs when the folding capacity of the ER is exceeded.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Ubiquitin-Proteasome System]], [[Autophagy]], [[Aging]], [[Neurodegenerative Diseases|Neurodegenerative Disease]], [[Parkinson's Disease]], [[Alpha-synuclein]], [[Lewy Bodies]], [[Alzheimer's Disease]], [[Substantia Nigra]], [[Neuromelanin]], [[Oxidative Stress]], [[Endoplasmic Reticulum Stress|Endoplasmic Reticulum Stress]]
 - Suggested new entity notes to create: [[Endoplasmic Reticulum Stress]]
 - Strong connections to strengthen: [[Proteostasis]] ↔ [[Autophagy]]

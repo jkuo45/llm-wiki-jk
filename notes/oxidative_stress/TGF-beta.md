@@ -13,11 +13,6 @@ tags: [oxidative_stress, cytokine, fibrosis]
 # TGF-beta
 Transforming growth factor beta (TGF-beta) is a multifunctional cytokine that plays a role in cell growth, proliferation, and differentiation. It is a key mediator of [[Fibrosis]] and is influenced by the cellular level of [[Oxidative Stress]] and chronic [[Inflammation]].
 
-## Linking Summary
-- New links added: [[Fibrosis]], [[Inflammation]], [[Oxidative Stress]]
-- Suggested new entity notes to create: [[Fibrosis]], [[Cytokine signaling]]
-- Strong connections to strengthen: [[TGF-beta]] ↔ [[Fibrosis]]
-
 ## Redox Regulation of TGF-β Signaling
 
 ### TGF-β Receptor Activation and SMAD Phosphorylation
@@ -45,3 +40,7 @@ In early carcinogenesis, TGF-β acts as a [[Tumor Suppressor]] by inducing [[Cyc
 - New links added: [[Hydrogen Peroxide]], [[NADPH Oxidase]], [[NOX4]], [[Hydrogen Peroxide]], [[Mitochondria]], [[HO-1]], [[Glutathione Peroxidase]], [[Oxidative Stress]], [[NF-kappa B]], [[Fibrosis]], [[Apoptosis]], [[PPARγ]]
 - Suggested new entity notes to create: [[NOX4]], [[SMAD2]], [[SMAD3]], [[SMAD4]], [[Smad7]], [[ALK5]], [[Epithelial–mesenchymal transition]], [[Setanaxib]], [[Pirfenidone]], [[Nintedanib]], [[Idiopathic pulmonary fibrosis]], [[Hepatic stellate cell]], [[Diabetic nephropathy]]
 - Strong connections to strengthen: [[TGF-beta]] ↔ [[NOX4]], [[TGF-beta]] ↔ [[Mitochondria]], [[TGF-beta]] ↔ [[Fibrosis]]
+
+## Linking Summary
+- New links added: [[Fibrosis]], [[Inflammation]], [[Oxidative Stress]]
+- Strong connections to strengthen: [[TGF-beta]] ↔ [[Fibrosis]]

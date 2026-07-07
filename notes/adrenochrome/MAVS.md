@@ -31,7 +31,6 @@ MAVS links [[Mitochondria]] to the detection of external threats and the orchest
 - [[NLRP3 Inflammasome]]
 
 ## Linking Summary
-
 - New links added: [[Mitochondria]], [[NFKB]], [[Inflammasome]]
 - Suggested new entity notes to create: [[RLR receptors]], [[dsRNA]]
 - Strong connections to strengthen: [[MAVS]] ↔ [[Innate Immunity]]

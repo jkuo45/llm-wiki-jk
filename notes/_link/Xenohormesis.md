@@ -57,7 +57,9 @@ The xenohormesis framework has important practical consequences:
 The [[Glyco-Oxidative Proteostasis Shield]] (GOPS) framework explicitly incorporates xenohormetic principles. The GOPS approach uses controlled exposure to electrophilic and redox-active compounds (including [[Carbazochrome]] and [[Methylene blue]]) to activate the same stress-response pathways engaged by dietary phytochemicals. In this sense, xenohormetic compounds form the nutritional arm of a broader strategy to maintain proteostasis and mitochondrial function during aging, with synthetic mitohormetic agents serving as a pharmacological complement.
 
 
-### Connections
+#
+
+## Connections
 - [[Resveratrol]] — polyphenol; SIRT1 activator; hormetic stressor
 - [[Quercetin]] — flavonoid; senolytic; NRF2 activator
 - [[Polyphenols]] — interacts with Xenohormesis
@@ -73,7 +75,7 @@ The [[Glyco-Oxidative Proteostasis Shield]] (GOPS) framework explicitly incorpor
 - [[CaMKKβ]] — interacts with Xenohormesis
 - [[PGC1-α]] — interacts with Xenohormesis
 - [[ARE]] — interacts with Xenohormesis
-### Linking Summary
+## Linking Summary
 - New links added: [[Hormesis]], [[Mitohormesis]], [[Resveratrol]], [[Quercetin]], [[Sirtuins]], [[NRF2]], [[AMPK]], [[PGC1-α]], [[HGNC]], [[mTORC1]], [[NQO1]], [[HO-1]], [[NFκB]], [[COX-2]], [[p38 MAPK]], [[Epigenetics]], [[Apoptosis]], [[ER Stress]], [[Autophagy]], [[Fatty acid oxidation]], [[FOXO3a]], [[Glutathione]], [[Thioredoxin]], [[HSF1]], [[HSP70]], [[HSP27]], [[Histone Deacetylase]], [[Carbazochrome]], [[Methylene blue]], [[Glyco-Oxidative Proteostasis Shield]], [[Keap1]], [[Sestrin2]], [[Berberine]], [[Epicatechin]], [[Piceatannol]], [[Butein]], [[Hydroxytyrosol]], [[Phytochemicals]]
 - Suggested new entity notes to create: [[Dietary Phytochemicals as Signaling Molecules]], [[Xenohormetic Dosing Protocol]]
 - Strong connections to strengthen: [[Xenohormesis]] ↔ [[Evolutionary Medicine]], [[Xenohormesis]] ↔ [[Glyco-Oxidative Proteostasis Shield]], [[Xenohormesis]] <-> [[Hormesis]]

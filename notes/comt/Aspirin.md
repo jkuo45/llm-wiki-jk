@@ -23,5 +23,5 @@ The effect of [[Aspirin]] on the risk of [[Cardiovascular Disease]] varies by [[
 - [[Val158Met]]: The specific polymorphism that interacts with aspirin treatment.
 
 ---
-### Linking Summary:
+## Linking Summary
 - New links added: [[COMT]], [[Cardiovascular Disease]], [[Val158Met]].

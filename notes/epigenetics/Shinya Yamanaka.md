@@ -15,7 +15,7 @@ Shinya Yamanaka (born September 4, 1962) is a Japanese stem cell researcher and 
 ## Career
 Yamanaka is a professor at Kyoto University and served as the director of the Center for iPS Cell Research and Application (CiRA). His work on the [[Yamanaka Factors]] transformed the field of [[Stem Cell Research]].
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Induced Pluripotent Stem Cells]], [[John Gurdon]], [[Yamanaka Factors]], [[Stem Cell Research]]
 - Suggested new entity notes to create: [[John Gurdon]], [[Stem Cell Research]]
 - Strong connections to strengthen: [[Shinya Yamanaka]] ↔ [[Kyoto University]]

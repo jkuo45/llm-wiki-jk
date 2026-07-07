@@ -18,13 +18,15 @@ The process is driven by the activation of [[NADPH Oxidase]] (NOX), which transf
 - **[[Immunity]]**: Essential for the killing of phagocytosed bacteria and fungi.
 - **[[Inflammation]]**: Excessive or prolonged respiratory burst can lead to collateral tissue damage and chronic [[Oxidative Stress]].
 
-### Connections
+#
+
+## Connections
 - [[NADPH Oxidase]]: The primary enzyme responsible for the burst.
 - [[Neutrophils]]: The main cell type performing the burst during infection.
 - [[Myeloperoxidase]]: The enzyme that amplifies the toxicity of the burst.
 - [[Hypochlorous Acid]]: A major product of the burst in neutrophils.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Reactive Oxygen Species]], [[Superoxide anion]], [[Hydrogen Peroxide]], [[Neutrophils]], [[Superoxide Radicals]], [[NADPH Oxidase]], [[Myeloperoxidase]], [[Hypochlorous Acid]], [[Immunity]], [[Inflammation]], [[Oxidative Stress]]
 - Suggested new entity notes to create: [[NADPH Oxidase]], [[Immunity]]
 - Strong connections to strengthen: [[Respiratory Burst]] ↔ [[Inflammation]], [[Respiratory Burst]] ↔ [[NADPH Oxidase]]

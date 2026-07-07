@@ -13,5 +13,5 @@ Tiny, self-organized three-dimensional tissue cultures that are derived from ste
 
 ## Linking Summary
 - New links added: [[Induced Pluripotent Stem Cells]], [[Disease Modeling]], [[Tissue Engineering]]
-- Suggested new entity notes to create: 
-- Strong connections to strengthen: 
+- Suggested new entity notes to create:
+- Strong connections to strengthen:

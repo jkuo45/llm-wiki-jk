@@ -22,7 +22,7 @@ aliases: [cytotoxic T cell]
 
 CD8+ T cells kill infected or malignant cells. [[Autophagy]] supports memory CD8+ T cell formation and metabolic fitness.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[T Cell]], [[Adaptive Immune Response]], [[Autophagy]], [[Intermittent Fasting]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[CD8+ T Cell]] ↔ [[Immune Aging]], [[CD8+ T Cell]] ↔ [[Autophagy]]

@@ -19,10 +19,12 @@ aliases: [Parkin, PRKN]
 
 **Pathological significance:** Altered expression or mutation of PARK2 is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
 
-### Connections
+#
+
+## Connections
 - [[PARK2]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[PARK2]]
 - Strong connections to strengthen: [[PARK2]] ↔ [[PARK2]]
 

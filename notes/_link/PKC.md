@@ -21,7 +21,9 @@ PKC isoforms control immune receptor signaling ([[T Cell]] activation via PKCθ)
 PKCβ inhibitors ([[Enzastaurin]], [[Ruboxistaurin]]) are being investigated for diabetic complications and cancer. [[PMA]] is a research tool that activates conventional and novel PKCs.
 
 
-### Connections
+#
+
+## Connections
 - [[Autophagy]] — cellular self-degradation pathway; clears damaged proteins and organelles
 - [[PRKCB]] — interacts with PKC
 - [[Ca2+]] — interacts with PKC
@@ -30,6 +32,6 @@ PKCβ inhibitors ([[Enzastaurin]], [[Ruboxistaurin]]) are being investigated for
 - [[mTORC1]] — master regulator of anabolic-catabolic balance; inhibits autophagy
 - [[GSK3β]] — interacts with PKC
 - [[calcineurin]] — interacts with PKC
-### Linking Summary
+## Linking Summary
 - New links added: [[TFEB]], [[Autophagy]], [[GSK3β]], [[calcineurin]], [[mTORC1]], [[PMA]], [[B Cell]], [[T Cell]], [[Bcl-2]], [[Phosphorylation]], [[PKCδ]], [[PKCζ]], [[PKCι]]
 - Strong connections to strengthen: [[PKC]] ↔ [[Bcl-2]]

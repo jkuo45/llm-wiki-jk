@@ -26,7 +26,7 @@ Over the last two decades, [[Stem Cell Research]] has progressed from initial pr
 - [[Regenerative Medicine]]: The field that applies the findings of [[Stem Cell Research]] to clinical therapies.
 - [[Cellular Reprogramming]]: The process of resetting a cell's identity, which is a major theme in modern [[Stem Cell Research]].
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Yamanaka Factors]], [[Pluripotency]], [[Embryonic Stem Cells]], [[Somatic Cells]], [[Induced Pluripotent Stem Cells]], [[CRISPR]], [[Regenerative Medicine]], [[Cellular Reprogramming]]
 - Suggested new entity notes to create: [[Organoids]], [[Gastrulation]]
 - Strong connections to strengthen: [[Stem Cell Research]] <-> [[Induced Pluripotent Stem Cells]]

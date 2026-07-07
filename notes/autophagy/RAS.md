@@ -20,7 +20,7 @@ RAS GTPases (HRAS, KRAS, NRAS) are molecular switches that cycle between GDP-bou
 
 Oncogenic RAS induces basal [[Autophagy]] to support metabolic demands of cancer growth. KRAS-mutant cancers are addicted to autophagy for survival.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Macroautophagy]], [[Cancer]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[RAS]] ↔ [[Macroautophagy]]

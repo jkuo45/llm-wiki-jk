@@ -20,8 +20,7 @@ STUB1 (CHIP) is a chaperone-dependent E3 ubiquitin ligase that ubiquitinates mis
 
 STUB1 ubiquitinates [[ULK1]] to regulate its stability and activity. It is also involved in [[Chaperone-Mediated Autophagy]] by targeting substrates to [[LAMP-2A]].
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[TFEB]]
 - Suggested new entity notes to create: [[Ubiquitin-Proteasome System]]
 - Strong connections to strengthen: [[STUB1]] ↔ [[TFEB]]

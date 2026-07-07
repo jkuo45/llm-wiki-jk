@@ -19,10 +19,12 @@ aliases: [Mothers Against Decapentaplegic Homolog 4, DPC4]
 
 **Pathological significance:** Altered expression or mutation of SMAD4 is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
 
-### Connections
+#
+
+## Connections
 - [[SMAD4]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[SMAD4]]
 - Strong connections to strengthen: [[SMAD4]] ↔ [[SMAD4]]
 

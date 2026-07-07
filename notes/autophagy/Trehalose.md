@@ -18,8 +18,7 @@ Trehalose is a natural disaccharide that acts as a chemical chaperone stabilizin
 
 Trehalose induces [[TFEB]] nuclear translocation independent of mTORC1, enhancing [[Autophagy]] and lysosomal biogenesis. It shows preclinical efficacy in [[Huntington's Disease]], [[Alzheimer's Disease]], [[Parkinson's Disease]], and [[Lysosomal Storage Disorders]]. Food-grade, well-tolerated, but limited CNS penetration.
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[TFEB]]
 - Suggested new entity notes to create: [[Mitochondrial Dysfunction]]
 - Strong connections to strengthen: [[Trehalose]] ↔ [[TFEB]]

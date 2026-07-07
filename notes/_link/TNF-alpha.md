@@ -32,7 +32,9 @@ Anti-TNF biologics — [[Infliximab]] (chimeric monoclonal), [[Adalimumab]] (hum
 [[SIRT1]] deacetylation of [[NFκB]] downregulates pro-inflammatory cytokines including TNF-α. [[SIRT7]] kidney-specific knockout reduces TNF-α and other inflammatory factors.
 
 
-### Connections
+#
+
+## Connections
 - [[Inflammation]] — interacts with TNF-alpha
 - [[NF-kappa B]] — interacts with TNF-alpha
 - [[Apoptosis]] — programmed cell death; eliminates damaged or excess cells
@@ -48,7 +50,7 @@ Anti-TNF biologics — [[Infliximab]] (chimeric monoclonal), [[Adalimumab]] (hum
 - [[TRIM21]] — interacts with TNF-alpha
 - [[p65]] — interacts with TNF-alpha
 - [[NDUFS1]] — interacts with TNF-alpha
-### Linking Summary
+## Linking Summary
 - New links added: [[Inflammation]], [[NF-kappa B]], [[Apoptosis]], [[IL-1b]], [[Mitochondria]], [[Superoxide Radicals]], [[Respiratory Chain Complex I]], [[HO-1]], [[Glutathione Peroxidase]], [[Catalase]], [[Oxidative Stress]], [[Malondialdehyde]], [[Glutathione]], [[Diabetes Mellitus]], [[Rheumatoid Arthritis]], [[Obesity]], [[SIRT1]], [[SIRT7]]
 - Suggested new entity notes to create: [[Cytokines]], [[Pro-inflammatory response]], [[TNFR1]], [[TRADD]], [[RIPK1]], [[RIPK3]], [[MLKL]], [[Necroptosis]], [[Necrosome]], [[Infliximab]], [[Adalimumab]], [[Etanercept]], [[IRS1]], [[Adiponectin]], [[MnSOD]]
 - Strong connections to strengthen: [[TNF-alpha]] ↔ [[NF-kappa B]], [[TNF-alpha]] ↔ [[Mitochondria]], [[TNF-alpha]] ↔ [[Necroptosis]], [[TNF-alpha]] ↔ [[Rheumatoid Arthritis]], [[TNF-alpha]] ↔ [[SIRT1]], [[TNF-alpha]] ↔ [[SIRT7]]

@@ -19,10 +19,12 @@ aliases: [L-DOPA]
 
 **Safety and toxicity:** The safety profile of Levodopa depends on dose, duration of exposure, and individual susceptibility. Understanding its toxicology is essential for safe therapeutic use.
 
-### Connections
+#
+
+## Connections
 - [[Levodopa]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Levodopa]]
 - Strong connections to strengthen: [[Levodopa]] ↔ [[Levodopa]]
 

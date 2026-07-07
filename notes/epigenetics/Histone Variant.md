@@ -36,7 +36,7 @@ entity_type_1: Protein
 - **Variant-specific knockouts** in [[mESCs]] or [[iPSCs]] to study developmental and aging phenotypes.
 - **[[FRAP]]** and [[FLIP]] to measure nucleosomal variant dynamics.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Histone Modification]], [[Nucleosome]], [[Aging]], [[Senescence]], [[SAHF]], [[DNA Damage Response]], [[H3.3]], [[macroH2A]], [[H2A.Z]], [[H2A.X]], [[CENP-A]]
 - Suggested new entity notes to create: [[HIRA]], [[DAXX]], [[ATRX]], [[SWR1]], [[SRCAP]]
 - Strong connections to strengthen: [[Histone Variant]] ↔ [[Nucleosome]], [[Histone Variant]] ↔ [[Senescence]]

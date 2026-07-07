@@ -16,8 +16,7 @@ Metabolic disorders are conditions that disrupt normal metabolism; many of these
 
 Metabolic disorders include [[Obesity]], [[Type 2 Diabetes Mellitus]], [[NAFLD]], [[Metabolic Syndrome]]. [[Autophagy]] dysfunction is a common feature.
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[TFEB]], [[Lysosomal Storage Diseases]]
 - Suggested new entity notes to create: [[Diabetes Mellitus]]
 - Strong connections to strengthen: [[metabolic disorders]] ↔ [[TFEB]]

@@ -65,7 +65,6 @@ BRCA1 physically neighbours [[Beclin1]] on chromosome 17q21 and its expression c
 - [[ovarian cancer]] — second major cancer risk from BRCA1 mutation
 
 ## Linking Summary
-
 - New links added: [[Breast Cancer]], [[Cancer]], [[Beclin1]], [[SIRT2]], [[PARP inhibitors]], [[BRCA2]], [[RAD51]], [[BARD1]], [[Homologous Recombination]], [[ATM]], [[ATR]]
 - Suggested new entity notes to create: [[PALB2]], [[Abraxas]], [[CtIP]], [[BRIP1]]
 - Strong connections to strengthen: [[BRCA1]] ↔ [[Beclin1]], [[BRCA1]] ↔ [[SIRT2]], [[BRCA1]] ↔ [[PARP inhibitors]]

@@ -18,10 +18,12 @@ aliases: [Striated Muscle]
 
 **Pathological relevance:** Dysfunction or loss of Skeletal Muscle underlies specific disease states. Understanding its biology provides insights into regenerative medicine and therapeutic targeting.
 
-### Connections
+#
+
+## Connections
 - [[Skeletal Muscle]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Skeletal Muscle]]
 - Strong connections to strengthen: [[Skeletal Muscle]] ↔ [[Skeletal Muscle]]
 

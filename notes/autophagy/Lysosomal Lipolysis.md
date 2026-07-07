@@ -25,7 +25,7 @@ entity_type_1: Biological Process
 ## Role in Ageing
 - Enhanced lysosomal lipolysis has been shown to extend lifespan in [[C. elegans]], possibly by improving cellular clearance of lipid moieties and re-routing energy reserves for somatic maintenance.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Lysosome]], [[Lysosomal Acid Lipase]], [[Lipophagy]], [[Lipid Droplet]], [[C. elegans]], [[MXL-3]], [[HLH-30]], [[Nutrient Availability]], [[TFEB]], [[Starvation]], [[mTORC1]], [[DAF-2]]
 - Suggested new entity notes to create: [[Acid Phosphatase]] (lysosomal marker)
 - Strong connections to strengthen: [[Lysosomal Lipolysis]] ↔ [[Lipophagy]], [[Lysosomal Lipolysis]] ↔ [[MXL-3]]

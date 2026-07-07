@@ -17,7 +17,7 @@ aliases: [PLR]
 
 PLR is a reformation pathway where phagosome-lysosome fusion leads to tubular lysosome regeneration after phagocytic material degradation.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Lysosome]], [[PIKfyve]], [[TRPML1]], [[SLC-36.1]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[Phagocytic Lysosome Reformation]] ↔ [[Lysosome]]

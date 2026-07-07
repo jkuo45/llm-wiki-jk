@@ -28,7 +28,7 @@ Strategies to target Survivin include:
 - [[Apoptosis]]: Inhibits the common pathway of apoptosis.
 - [[XIAP]]: Often works in conjunction with XIAP to confer resistance in NSCLC.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Inhibitor of Apoptosis Proteins]], [[Apoptosis]], [[non-small-cell lung cancer]], [[Melanoma]], [[Pancreatic Cancer]], [[XIAP]]
 - Suggested new entity notes to create: [[Inhibitor of Apoptosis Proteins]]
 - Strong connections to strengthen: [[Survivin]] ↔ [[XIAP]]

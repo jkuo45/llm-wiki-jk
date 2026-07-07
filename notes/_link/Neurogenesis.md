@@ -14,14 +14,16 @@ aliases: [Neurogenesis, Neural development]
 ## Regulation
 Adult neurogenesis is regulated by [[Exercise]], [[Caloric Restriction]], [[BDNF]], and environmental enrichment. It declines with [[Aging]] due to reduced [[Notch Signaling|Notch]] and [[Wnt signaling|Wnt]] pathway activity.
 
-### Connections
+#
+
+## Connections
 - [[Neural Stem Cell]] — Source of new neurons
 - [[Aging]] — Neurogenesis declines with age
 - [[Cognition]] — Adult neurogenesis supports learning and memory
 - [[Exercise]] — Potent stimulator of adult neurogenesis
 - [[Notch Signaling]] — Key regulator of neural progenitor maintenance
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Neural Stem Cell]], [[Aging]], [[Cognition]], [[Exercise]], [[Caloric Restriction]], [[Notch Signaling]]
 - Suggested new entity notes to create: [[Progenitor Cell]], [[Hippocampus]], [[Subventricular Zone]]
 - Strong connections to strengthen: [[Neurogenesis]] ↔ [[Cognition]]

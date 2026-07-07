@@ -14,11 +14,6 @@ tags: [oxidative_stress, flavonoid, phytoestrogen]
 # Genistein
 Genistein is an isoflavone that is described as an angiogenesis inhibitor and a phytoestrogen. It belongs to the class of [[Flavonoids]] and exhibits significant antioxidant activity, contributing to the total pool of dietary [[Antioxidants]].
 
-## Linking Summary
-- New links added: [[Flavonoids]], [[Antioxidants]], [[Angiogenesis]], [[Phytoestrogen]]
-- Suggested new entity notes to create: [[Angiogenesis]], [[Phytoestrogen]]
-- Strong connections to strengthen: [[Genistein]] ↔ [[Flavonoids]]
-
 ## Chemical Structure and Redox Properties
 
 Genistein (4′,5,7-trihydroxyisoflavone) possesses three hydroxyl groups at positions 4′, 5, and 7, which confer its radical-scavenging and metal-chelating capacity. The isoflavone structure differs from other flavonoids in that its B-ring is attached at the C-3 position (rather than C-2), which alters its electron distribution and reduction potential. Genistein efficiently scavenges [[Peroxynitrite]] (ONOO⁻) and [[Hydroxyl Radicals]] (•OH) but is less effective against [[Superoxide Radicals]] compared to flavonols like [[Quercetin]].
@@ -74,9 +69,16 @@ Genistein induces [[Apoptosis]] in cancer cells through:
 ### Neuroprotection
 In models of [[Parkinson's Disease]] and [[Alzheimer's Disease]], genistein protects [[Dopaminergic Neurons]] from oxidative injury by upregulating [[Glutathione Peroxidase]] and reducing [[Alpha-synuclein]] aggregation.
 
-### Connections
+#
+
+## Connections
 - [[Flavonoids]]: Genistein as a prototypical isoflavone antioxidant
 - [[Estrogen]]: Mediating ER-dependent antioxidant gene expression
 - [[Peroxynitrite]]: Directly scavenged by genistein
 - [[MicroRNA]]: Genistein modulates miR-146a and miR-155, affecting inflammatory gene expression
 - [[Lipid Peroxidation]]: Attenuated by genistein via multiple mechanisms
+
+## Linking Summary
+- New links added: [[Flavonoids]], [[Antioxidants]], [[Angiogenesis]], [[Phytoestrogen]]
+- Suggested new entity notes to create: [[Angiogenesis]], [[Phytoestrogen]]
+- Strong connections to strengthen: [[Genistein]] ↔ [[Flavonoids]]

@@ -17,14 +17,16 @@ Ascorbic acid (Vitamin C) is a water-soluble vitamin found in various foods and 
 - **Antioxidant**: Quenches ROS at physiological concentrations.
 - **Prooxidant**: Can promote the generation of free radicals via the [[Fenton Reaction]] at pharmacological concentrations, potentially useful in [[Cancer]] therapy.
 
-### Connections
+#
+
+## Connections
 - [[Antioxidants]]
 - [[Epinephrine]]
 - [[Oxidative Stress]]
 - [[Glutathione]]
 - [[Cancer]]
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Cancer]], [[Fenton Reaction]], [[Oxidative Stress]], [[Dopamine]], [[Oxidative Stress]].
 - Suggested new entity notes to create: [[Fenton Reaction]], [[Antioxidants]], [[Glutathione]].
 - Strong connections to strengthen: [[Ascorbic Acid]] ↔ [[Oxidative Stress]], [[Ascorbic Acid]] ↔ [[Dopamine]].

@@ -21,5 +21,5 @@ For individuals with slow [[COMT]] variants who are sensitive to [[MethylB12]], 
 - [[MethylB12]]: The methylated form of B12, which can be problematic for some COMT types.
 
 ---
-### Linking Summary:
+## Linking Summary
 - New links added: [[Vitamin B12]], [[COMT]], [[MethylB12]].

@@ -19,10 +19,12 @@ aliases: [Ataxia Telangiectasia and Rad3-related]
 
 **Pathological significance:** Altered expression or mutation of ATR is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
 
-### Connections
+#
+
+## Connections
 - [[ATR]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[ATR]]
 - Strong connections to strengthen: [[ATR]] ↔ [[ATR]]
 

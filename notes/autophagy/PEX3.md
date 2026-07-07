@@ -17,7 +17,7 @@ PEX3 is a crucial gene that encodes a peroxisomal membrane protein required for 
 
 PEX3 is a peroxisomal membrane protein that recruits [[PEX19]] for peroxisome biogenesis. It also functions in [[Pexophagy]] recognition.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Peroxisome]], [[Peroxisome Biogenesis Network]], [[Zellweger syndrome]]
 - Suggested new entity notes to create: [[PEX Genes]]
 - Strong connections to strengthen: [[PEX3]] ↔ [[Peroxisome Biogenesis Network]], [[PEX3]] ↔ [[Zellweger syndrome]]

@@ -12,13 +12,15 @@ aliases: [oxLDL, Oxidized low-density lipoprotein]
 # Oxidized LDL
 **Oxidized LDL** (oxLDL) is low-density lipoprotein that has undergone oxidative modification, primarily by [[Reactive Oxygen Species]] and [[Myeloperoxidase]]. It is a key driver of [[Atherosclerosis]] and [[Endothelial Dysfunction]].
 
-### Connections
+#
+
+## Connections
 - [[Atherosclerosis]] — oxLDL uptake by macrophages forms foam cells
 - [[Endothelial Dysfunction]] — oxLDL impairs NO bioavailability
 - [[CD36 Receptor]] — Major scavenger receptor for oxLDL
 - [[Lipid Peroxidation]] — The process that generates oxLDL
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Atherosclerosis]], [[Endothelial Dysfunction]], [[CD36 Receptor]], [[Lipid Peroxidation]], [[Myeloperoxidase]], [[Reactive Oxygen Species]]
 - Suggested new entity notes to create: [[Lox-1]], [[Scavenger Receptor]], [[Foam Cells]]
 - Strong connections to strengthen: [[Oxidized LDL]] ↔ [[Atherosclerosis]]

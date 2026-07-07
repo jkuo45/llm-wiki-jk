@@ -24,7 +24,7 @@ Bmi-1 is a well-known oncogene that is overexpressed in various cancers, includi
 - [[Bcl-2]]: Bmi-1 silencing leads to reduced Bcl-2 levels.
 - [[Akt]]: Bmi-1 helps maintain survival signaling via Akt.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Breast Cancer]], [[leukemia]], [[Akt]], [[Cancer Stem Cells]], [[siRNA]], [[Doxorubicin]], [[Bcl-2]]
 - Suggested new entity notes to create: [[siRNA]]
 - Strong connections to strengthen: [[Bmi-1]] ↔ [[Cancer Stem Cells]]

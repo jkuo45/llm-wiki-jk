@@ -33,6 +33,5 @@ aliases:
 - [[Adiponectin]]: An insulin-sensitizing adipokine whose secretion is modulated by sirtuins.
 - [[Leptin Signaling]]: Interacts with insulin signaling at the hypothalamic level.
 
-### Linking Summary:
-
+## Linking Summary
 - New links added: [[SIRT1]], [[SIRT3]], [[SIRT6]], [[PTP1B]], [[PGC-1α]], [[Mitochondrial Biogenesis]], [[AMPK]], [[NAMPT]], [[NAD+]], [[Caloric Restriction]], [[Intermittent Fasting]], [[Adiponectin]], [[GLUT2]], [[Mitochondria]], [[OXPHOS]], [[Oxidative Stress]], [[Type 2 Diabetes Mellitus]], [[Metabolic Syndromes]], [[Obesity]], [[Insulin Signaling]], [[Insulin Resistance]], [[Leptin Signaling]]

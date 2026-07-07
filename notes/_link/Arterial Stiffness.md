@@ -101,7 +101,5 @@ The mechanism involves spermidine-induced de-acetylation of [[Histone H3|histone
 - **[[Autophagy]]**: Cellular quality control mechanism that clears AGE cross-linked proteins and damaged organelles
 
 ## Linking Summary
-
 - New links added: [[Arterial Stiffness]], [[Pulse Wave Velocity]], [[Mortality]], [[Heart Failure]], [[Elastic Fiber]], [[Maillard Reaction]]
 - Suggested new entity notes to create: [[Collagen I]], [[Matrix Metalloproteinases]], [[Arterial Calcification]], [[Pulse Pressure]], [[Vascular Smooth Muscle Cell]]
-- Strong connections to strengthen: [[Arterial Stiffness]] ↔ [[Cardiovascular Disease]], [[Arterial Stiffness]] ↔ [[Endothelial Dysfunction]], [[Spermidine]] ↔ [[Arterial Stiffness]]

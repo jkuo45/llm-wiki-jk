@@ -24,7 +24,7 @@ aliases: [eukaryotic initiation factor 5A]
 
 eIF5A is a translation elongation factor with the unique amino acid [[Hypusination|hypusine]]. It is essential for [[Autophagy]] by promoting translation of [[LC3]] and [[p62]].
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Spermidine]], [[Autophagy]], [[TFEB]], [[B Cell]], [[Senescence]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[eIF5A]] ↔ [[Spermidine]], [[eIF5A]] ↔ [[TFEB]]

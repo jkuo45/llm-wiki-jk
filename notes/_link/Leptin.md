@@ -18,10 +18,12 @@ entity_type_1: Metabolite
 
 **Clinical significance:** Altered levels of Leptin are observed in metabolic disorders, mitochondrial diseases, and nutritional deficiencies. Supplementation or pharmacological modulation of this metabolite has therapeutic potential.
 
-### Connections
+#
+
+## Connections
 - [[Leptin]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Leptin]]
 - Strong connections to strengthen: [[Leptin]] ↔ [[Leptin]]
 

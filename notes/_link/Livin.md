@@ -19,10 +19,12 @@ aliases: [BIRC7, ML-IAP]
 
 **Pathological significance:** Altered expression or mutation of Livin is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
 
-### Connections
+#
+
+## Connections
 - [[Livin]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Livin]]
 - Strong connections to strengthen: [[Livin]] ↔ [[Livin]]
 

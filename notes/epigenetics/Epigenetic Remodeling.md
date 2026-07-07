@@ -13,5 +13,5 @@ The dynamic process of changing epigenetic marks on chromatin to regulate gene e
 
 ## Linking Summary
 - New links added: [[Yamanaka Factors]], [[Induced Pluripotent Stem Cells]]
-- Suggested new entity notes to create: 
-- Strong connections to strengthen: 
+- Suggested new entity notes to create:
+- Strong connections to strengthen:

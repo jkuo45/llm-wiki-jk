@@ -23,7 +23,7 @@ Lipids are highly susceptible to [[Oxidative Stress]], particularly those contai
 - [[Lipid Peroxidation]]: The specific chemical process of lipid degradation by free radicals.
 - [[Atherosclerosis]]: Oxidation of lipids (specifically LDL) is a key trigger for plaque formation.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Cell membranes]], [[Oxidative Stress]], [[Lipid Peroxidation]], [[Malondialdehyde]], [[Atherosclerosis]]
 - Suggested new entity notes to create: [[Cell membranes]]
 - Strong connections to strengthen: [[Lipids]] ↔ [[Lipid Peroxidation]]

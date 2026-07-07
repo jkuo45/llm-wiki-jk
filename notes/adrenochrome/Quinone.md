@@ -27,6 +27,6 @@ Quinones are highly reactive and are potent electrophiles. They can react with c
 - [[Redox Cycling]] ↔ Mechanism by which quinones generate oxidative stress.
 - [[Indoline]] ↔ The ring system fused to the quinone moiety in aminochromes.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Quinone]], [[Aminochromes]], [[Oxidation]], [[Catecholamines]], [[Dopamine]], [[Epinephrine]], [[Indoline]], [[Adrenochrome]], [[Dopaminochrome]], [[Redox Cycling]], [[Reactive Oxygen Species]]
 - Strong connections to strengthen: [[Quinone]] ↔ [[Oxidation]]

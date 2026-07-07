@@ -24,7 +24,7 @@ aliases: [NADH dehydrogenase, Complex I]
 
 Mitochondrial Complex I (NADH:ubiquinone oxidoreductase) is the largest ETC entry point. Its dysfunction generates ROS and triggers [[Mitophagy]].
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Mitochondria]], [[Metformin]], [[AMPK]], [[Reactive Oxygen Species]], [[Senescence]], [[Cytokines]], [[IL-6]], [[IL-1b]]
 - Suggested new entity notes to create: , [[IL-1b]]
 - Strong connections to strengthen: [[Mitochondrial Complex I]] ↔ [[Metformin]], [[Mitochondrial Complex I]] ↔ [[AMPK]]

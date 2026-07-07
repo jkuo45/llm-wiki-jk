@@ -23,13 +23,15 @@ HDACs are categorized into four classes based on their structure and cofactor re
 ### 3. Impact on [[Aging]]
 As we age, the activity of certain HDACs can become dysregulated, leading to "epigenetic drift" and the loss of genomic stability. HDAC inhibitors are currently a major area of research in [[Geroscience]] for their potential to treat [[Cancer]] and extend healthspan.
 
-### Connections
+#
+
+## Connections
 - **[[Histone Deacetylase]]**: The full name for this class of enzymes.
 - **[[Histone Acetylation]]**: The process that HDACs reverse.
 - **[[Sirtuins]]**: A specialized class of HDACs critical for aging research.
 - **[[Heterochromatin]]**: The condensed state of chromatin promoted by deacetylation.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[HDAC]], [[Histone Deacetylase]], [[Chromatin]], [[Heterochromatin]], [[Transcription]], [[Sirtuins]], [[Aging]], [[Geroscience]], [[Cancer]]
 - Suggested new entity notes to create: [[HDAC inhibitors]], [[Epigenetic Erasers]], [[NAD+]]
 - Strong connections to strengthen: [[HDAC]] ↔ [[Histone Deacetylase]], [[HDAC]] ↔ [[Sirtuins]]

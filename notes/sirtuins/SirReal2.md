@@ -56,7 +56,6 @@ X-ray crystallography reveals that SirReal2 induces a **ligand-induced structura
 ---
 
 ## Linking Summary
-
 - **New Links Added**: [[SIRT2]], [[AGK2]], [[Aging]]
 - **Suggested New Notes to Create**: [[Connexin 43]], [[Selective Pocket]]
 - **Strong Connections to Strengthen**: [[SirReal2]] ↔ [[SIRT2]]

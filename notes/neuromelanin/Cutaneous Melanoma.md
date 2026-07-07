@@ -17,7 +17,7 @@ Epidemiological studies have revealed a significant and reciprocal link between 
 - **Shared Pathways:** Both conditions involve the dysfunction of pigment-producing cells (melanocytes in the skin and neuromelanin-containing neurons in the brain). 
 - **Genetic Factors:** Some genetic variants, such as those in the MC1R gene (associated with red hair and fair skin), have been linked to an increased risk of both melanoma and PD.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Parkinson's Disease]].
 - Suggested new entity notes to create: [[Melanocytes]], [[MC1R Gene]].
 - Strong connections to strengthen: [[Cutaneous Melanoma]] ↔ [[Parkinson's Disease]].

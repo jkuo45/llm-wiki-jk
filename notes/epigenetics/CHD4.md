@@ -19,7 +19,7 @@ In the context of [[Yamanaka Factors]], CHD4 has been found to suppress the expr
 - [[Cancer]]: CHD4 is linked to tumorigenesis and drug resistance in multiple cancers.
 - [[Yamanaka Factors]]: Interacts with the regulatory network of reprogramming factors.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Sox2]], [[Cancer]], [[Yamanaka Factors]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[CHD4]] ↔ [[Sox2]]

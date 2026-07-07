@@ -15,13 +15,15 @@ The [[Cell Cycle]] is the series of events that take place in a cell leading to 
 The cell cycle is the series of events leading to cell division; cell cycle regulators like [[CDK4]]/[[CDK6]] can also influence cellular homeostasis by regulating [[TFEB]] nuclear export.
 
 
-### Connections
+#
+
+## Connections
 - [[Cyclin]] — interacts with Cell Cycle
 - [[Cyclin-Dependent Kinase]] — signals through Cell Cycle
 - [[CDK]] — interacts with Cell Cycle
 - [[CDK Inhibitor]] — inhibits Cell Cycle
 - [[CDK4]]/[[CDK6]] — interacts with Cell Cycle
-### Linking Summary
+## Linking Summary
 - New links added: [[Cyclin]], [[Cyclin-Dependent Kinase]], [[CDK]], [[CDK Inhibitor]], [[G0 Phase]], [[G1 Phase]], [[S Phase]], [[Mitosis]], [[CDK4]]/[[CDK6]], [[TFEB]]
 - Suggested new entity notes to create: [[Quiescence]], [[DNA Replication]], [[Cyclin]]
 - Strong connections to strengthen: [[Cell Cycle]] ↔ [[Cancer]], [[Cell Cycle]] ↔ [[DNA Damage]], [[Cell Cycle]] ↔ [[CDK4]]/[[CDK6]]

@@ -19,10 +19,12 @@ aliases: [Heat Shock Factor 1]
 
 **Pathological significance:** Altered expression or mutation of HSF1 is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
 
-### Connections
+#
+
+## Connections
 - [[HSF1]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[HSF1]]
 - Strong connections to strengthen: [[HSF1]] ↔ [[HSF1]]
 

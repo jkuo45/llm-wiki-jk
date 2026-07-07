@@ -21,7 +21,9 @@ By inhibiting the mevalonate pathway, statins reduce synthesis of both cholester
 ## Clinical Relevance
 Statins are first-line therapy for [[Cardiovascular Disease|cardiovascular disease]] prevention and treatment, reducing LDL cholesterol by 30–50% and cardiovascular events by 25–40%. Their pleiotropic antioxidant, anti-inflammatory, and endothelial-protective effects contribute to clinical benefits beyond cholesterol reduction alone.
 
-### Connections
+#
+
+## Connections
 - [[HMG-CoA reductase]] — interacts with
 - [[Oxidative Stress]] — interacts with
 - [[NADPH Oxidase]] — interacts with
@@ -31,7 +33,7 @@ Statins are first-line therapy for [[Cardiovascular Disease|cardiovascular disea
 - [[Lipid Peroxidation]] — interacts with
 - [[Coenzyme Q10]] — interacts with
 
-### Linking Summary
+## Linking Summary
 - New links added: [[HMG-CoA reductase]], [[Oxidative Stress]], [[NADPH Oxidase]], [[eNOS]], [[Xanthine Oxidase]], [[NRF2]], [[Lipid Peroxidation]], [[Coenzyme Q10]], [[Cardiovascular Disease]]
 - Strong connections to strengthen: [[Statins]] ↔ [[HMG-CoA reductase]], [[Statins]] ↔ [[Oxidative Stress]], [[Statins]] ↔ [[NADPH Oxidase]], [[Statins]] ↔ [[eNOS]], [[Statins]] ↔ [[Xanthine Oxidase]]
 

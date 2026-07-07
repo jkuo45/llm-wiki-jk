@@ -35,7 +35,9 @@ Mitophagy efficiency declines with age, contributing to the accumulation of dysf
 [[Adrenochrome]] and related aminochromes are mitochondrial toxins that directly compromise the organelle they trigger removal of. Adrenochrome undergoes redox cycling at Complex I of the electron transport chain, generating superoxide and consuming NADH. This leads to mitochondrial depolarization — precisely the signal that activates the Pink1/Parkin mitophagy pathway. Sustained adrenochrome exposure may exhaust mitophagic capacity, creating a scenario where damaged mitochondria accumulate and amplify ROS production. This mitophagy-impairment feedback loop is a plausible mechanism linking catecholamine oxidation to the mitochondrial dysfunction observed in aging, neurodegeneration, and cardiovascular disease. The interplay between [[Adrenochrome Pathway]] activity and mitophagy competence represents a critical nexus for therapeutic intervention.
 
 
-### Connections
+#
+
+## Connections
 - [[Selective Autophagy]] — interacts with Mitophagy
 - [[Mitochondria]] — organelle responsible for energy production; metabolic hub
 - [[Autophagosome]] — interacts with Mitophagy
@@ -51,7 +53,7 @@ Mitophagy efficiency declines with age, contributing to the accumulation of dysf
 - [[PARL]] — interacts with Mitophagy
 - [[Mitochondrial calcium uniporter]] — interacts with Mitophagy
 - [[BNIP3]] — interacts with Mitophagy
-### Linking Summary
+## Linking Summary
 - New links added: [[Autophagy]], [[Mitochondria]], [[Quiescence]], [[Reactive Oxygen Species]], [[ROS]], [[PINK1]], [[Parkin]], [[PARL]], [[Mitochondrial calcium uniporter]], [[BNIP3]], [[NIX]], [[FUNDC1]], [[HIF-1α]], [[DRP1]], [[MFN1]], [[MFN2]], [[ATFS-1]], [[ATF4]], [[ATF5]], [[CHOP]], [[Mitochondrial Unfolded Protein Response]], [[Mitochondrial Dynamics]], [[NLRP3 Inflammasome]], [[Parkinson's Disease]], [[Alzheimer's Disease]], [[Urolithin A]], [[Actinonin]], [[Metformin]], [[NAD+]], [[Aging]], [[Longevity]]
 - Suggested new entity notes to create: [[Oxidative Stress]], [[MDV (Mitochondrial-Derived Vesicles)]], [[p62]]
 - Strong connections to strengthen: [[Mitophagy]] ↔ [[Hematopoietic Stem Cell]], [[Mitophagy]] ↔ [[Parkinson's Disease]], [[Mitophagy]] ↔ [[Adrenochrome]], [[Mitophagy]] ↔ [[Aging]]

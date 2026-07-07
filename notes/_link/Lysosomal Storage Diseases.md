@@ -13,9 +13,11 @@ A group of about 50 rare inherited metabolic disorders that result from defects 
 
 
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Lysosome]], [[Autophagy]]
 
-### Connections
+#
+
+## Connections
 - [[Lysosomal Storage Diseases]] — related entity
 

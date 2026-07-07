@@ -18,7 +18,7 @@ aliases:
 
 PtdIns(4,5)P2 is enriched at the plasma membrane and regulates [[Autophagosome]] closure and endocytosis. It is cleaved by PLC to generate IP3 and DAG.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Autophagic Lysosome Reformation]], [[AP2]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[PtdIns(4,5)P2]] ↔ [[Autophagic Lysosome Reformation]]

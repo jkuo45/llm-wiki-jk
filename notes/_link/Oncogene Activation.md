@@ -12,8 +12,9 @@ entity_type_1: Medical Condition
 
 Oncogene activation refers to the processes by which a [[Proto-Oncogene]] is converted into an [[Oncogene]], acquiring the ability to promote [[Cancer]]. Mechanisms include point mutations (e.g., [[RAS]] G12V, [[BRAF]] V600E), [[Gene Amplification]] (e.g., [[HER2]] in breast cancer, [[MYC]] in various cancers), [[Chromosomal Translocation]] (e.g., [[BCR-ABL]] fusion in CML, [[MYC]]/[[IGH]] in Burkitt lymphoma), insertional mutagenesis, and [[Epigenetic]] derepression (hypomethylation, [[Histone Acetylation]]). Oncogene activation leads to constitutive [[Cell Proliferation]], resistance to [[Apoptosis]], metabolic reprogramming, and [[Angiogenesis]].
 
-### Connections
+#
 
+## Connections
 - [[Proto-Oncogene]] — the normal gene that becomes activated
 - [[Oncogene]] — the activated form
 - [[Cancer]] — consequence of oncogene activation
@@ -27,8 +28,7 @@ Oncogene activation refers to the processes by which a [[Proto-Oncogene]] is con
 - [[Epigenetic]] — hypomethylation can activate oncogenes
 - [[Cell Proliferation]] — driven by activated oncogenes
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[Proto-Oncogene]], [[Oncogene]], [[Cancer]], [[RAS]], [[BRAF]], [[HER2]], [[MYC]], [[BCR-ABL]], [[Gene Amplification]], [[Chromosomal Translocation]], [[Epigenetic]], [[Histone Acetylation]], [[Cell Proliferation]], [[Apoptosis]], [[Angiogenesis]]
 - Suggested new entity notes to create: [[Insertional Mutagenesis]], [[G12V Mutation]], [[V600E Mutation]]
 - Strong connections to strengthen: [[Oncogene Activation]] ↔ [[Oncogene]], [[Oncogene Activation]] ↔ [[Cancer]]

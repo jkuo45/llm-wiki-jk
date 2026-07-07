@@ -20,5 +20,5 @@ entity_type_1: Chemical Compound
 - [[Quercetin]]: Rutin is a glycoside of quercetin.
 
 ---
-### Linking Summary:
+## Linking Summary
 - New links added: [[Flavonoids]], [[COMT]], [[Quercetin]].

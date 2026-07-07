@@ -64,11 +64,9 @@ When RNS production exceeds the detoxification capacity of endogenous scavengers
 - [[Myeloperoxidase]]: Contributes to RNS formation via nitrite oxidation.
 - [[Immune System]]: RNS are essential components of macrophage-mediated antimicrobial defense.
 
-### Linking Summary:
+## Linking Summary
+- New links added: [[L-arginine]], [[TNF-alpha]], [[IL-1b]], [[LPS]], [[Superoxide Dismutase]], [[Myeloperoxidase]], [[Gut Microbiome]], [[Macrophage]], [[DNA Damage]], [[Glutathione]], [[Thioredoxin]], [[Uric Acid]], [[Lipid Peroxidation]], [[Cardiovascular Disease]], [[Endothelial Dysfunction]], [[Atherosclerosis]], [[Neurodegenerative Diseases]], [[Parkinson's Disease]], [[Alzheimer's Disease]], [[Amyotrophic Lateral Sclerosis]], [[Alpha-synuclein]], [[Tau]], [[Dopaminergic Neurons]], [[Mitochondrial Dysfunction]], [[Diabetes Mellitus]], [[Cancer]], [[NFKB]], [[STAT3]], [[Angiogenesis]], [[Rheumatoid Arthritis]], [[Inflammation]], [[Septic Shock]]
+- Suggested new entity notes to create: [[S-Nitrosylation]], [[Nitrotyrosine]], [[iNOS Uncoupling]], [[Nitrosative Deamination]], [[TRPA1 Channel]]
 - New links added: [[Nitric Oxide]], [[Nitric Oxide Synthase]], [[NADPH Oxidase]], [[Peroxynitrite]], [[Nitrative Stress]], [[Proteins]], [[Tyrosine Nitration]], [[Lipids]], [[Nucleic Acids]], [[Reactive Oxygen Species]]
 - Suggested new entity notes to create: [[Tyrosine Nitration]]
 - Strong connections to strengthen: [[Reactive Nitrogen Species]] ↔ [[Nitrative Stress]]
-
-### New Linking Summary (Added 2026-07-04):
-- New links added: [[L-arginine]], [[TNF-alpha]], [[IL-1b]], [[LPS]], [[Superoxide Dismutase]], [[Myeloperoxidase]], [[Gut Microbiome]], [[Macrophage]], [[DNA Damage]], [[Glutathione]], [[Thioredoxin]], [[Uric Acid]], [[Lipid Peroxidation]], [[Cardiovascular Disease]], [[Endothelial Dysfunction]], [[Atherosclerosis]], [[Neurodegenerative Diseases]], [[Parkinson's Disease]], [[Alzheimer's Disease]], [[Amyotrophic Lateral Sclerosis]], [[Alpha-synuclein]], [[Tau]], [[Dopaminergic Neurons]], [[Mitochondrial Dysfunction]], [[Diabetes Mellitus]], [[Cancer]], [[NFKB]], [[STAT3]], [[Angiogenesis]], [[Rheumatoid Arthritis]], [[Inflammation]], [[Septic Shock]]
-- Suggested new entity notes to create: [[S-Nitrosylation]], [[Nitrotyrosine]], [[iNOS Uncoupling]], [[Nitrosative Deamination]], [[TRPA1 Channel]]

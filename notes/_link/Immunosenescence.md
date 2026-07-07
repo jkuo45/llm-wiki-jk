@@ -20,13 +20,15 @@ Immunosenescence refers to the gradual deterioration of the immune system associ
 - Clinical implementation of [[Autophagy Inducer|autophagy inducers]] (e.g., [[Rapamycin]], [[Metformin]], [[Spermidine]]) provides potential to partially reverse systemic immunosenescence.
 
 
-### Connections
+#
+
+## Connections
 - [[Immune Aging]] — interacts with Immunosenescence
 - [[Aging]] — progressive decline in physiological function; primary risk factor
 - [[T Cell]] — interacts with Immunosenescence
 - [[Senescence]] — interacts with Immunosenescence
 - [[Inflammaging]] — chronic low-grade inflammation with aging
-### Linking Summary
+## Linking Summary
 - New links added: [[Aging]], [[Inflammaging]], [[Cancer]], [[Immune System]], [[Immune Aging]], [[T Cell]], [[Senescence]], [[Autophagy Inducer]], [[Rapamycin]], [[Metformin]], [[Spermidine]]
 - Suggested new entity notes to create: [[Autoimmune Disease]], [[Immune Aging]], [[Inflammaging]], [[Autophagy Inducer]]
 - Strong connections to strengthen: [[Immunosenescence]] ↔ [[Inflammaging]], [[Immunosenescence]] ↔ [[Immune Aging]], [[Immunosenescence]] ↔ [[Autophagy Inducer]]

@@ -19,10 +19,12 @@ aliases: [Mental Illness]
 
 **Therapeutic strategies:** Management of Psychiatric Disorders includes pharmacological interventions, lifestyle modifications, and supportive care. Emerging therapies target specific molecular pathways involved in disease progression.
 
-### Connections
+#
+
+## Connections
 - [[Psychiatric Disorders]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Psychiatric Disorders]]
 - Strong connections to strengthen: [[Psychiatric Disorders]] ↔ [[Psychiatric Disorders]]
 

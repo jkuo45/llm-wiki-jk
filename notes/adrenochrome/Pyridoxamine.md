@@ -19,7 +19,6 @@ Pyridoxamine is recognized as an inhibitor of [[Advanced Glycation End Products]
 Pyridoxamine has been investigated for its ability to prevent diabetic complications, such as nephropathy, by reducing AGE accumulation.
 
 ## Linking Summary
-
 - New links added: [[Advanced Glycation End Products]]
 - Suggested new entity notes to create: [[Vitamin B6]]
 - Strong connections to strengthen: [[Pyridoxamine]] ↔ [[Diabetes Mellitus]]

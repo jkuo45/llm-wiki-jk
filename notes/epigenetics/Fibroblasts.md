@@ -26,7 +26,7 @@ Because [[Fibroblasts]] are mesenchymal cells, they must undergo [[Mesenchymal-t
 - [[Yamanaka Factors]]: The specific combination of proteins used to override the fibroblast identity.
 - [[Somatic Cells]]: [[Fibroblasts]] are the quintessential example of a somatic cell used in stem cell biology.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Cellular Reprogramming]], [[Stem Cell Research]], [[Induced Pluripotent Stem Cells]], [[Yamanaka Factors]], [[Mesenchymal-to-Epithelial Transition]], [[Somatic Cells]], [[HFF1]], [[ECM]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Fibroblasts]] <-> [[Cellular Reprogramming]]

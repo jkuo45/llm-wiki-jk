@@ -19,10 +19,12 @@ aliases: [X-ray Repair Cross Complementing 1]
 
 **Pathological significance:** Altered expression or mutation of XRCC1 is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
 
-### Connections
+#
+
+## Connections
 - [[XRCC1]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[XRCC1]]
 - Strong connections to strengthen: [[XRCC1]] ↔ [[XRCC1]]
 

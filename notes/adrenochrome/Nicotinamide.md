@@ -64,7 +64,6 @@ Nicotinamide is distinct from other NAD⁺ precursors:
 - [[Nicotinamide Riboside]] — alternative NAD⁺ precursor that bypasses NAMPT
 
 ## Linking Summary
-
 - New links added: [[NAD+]], [[Vitamin B3]], [[NAMPT]], [[NMN]], [[NMNAT]], [[CD38]], [[SIRT1]], [[SIRT5]], [[Nicotinamide Riboside]], [[Caloric Restriction]]
 - Suggested new entity notes to create: [[Vitamin B3]], [[Salvage pathway]], [[Nicotinic acid]]
 - Strong connections to strengthen: [[Nicotinamide]] ↔ [[NAD+]], [[Nicotinamide]] ↔ [[NAMPT]], [[Nicotinamide]] ↔ [[SIRT1]]

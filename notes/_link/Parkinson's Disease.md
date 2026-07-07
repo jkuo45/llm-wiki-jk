@@ -40,7 +40,9 @@ In the management of [[Parkinson's Disease]], [[COMT Inhibitors]] are used to in
 Parkinson's disease is a neurodegenerative disorder associated with [[Alpha-synuclein]] toxicity; [[TFEB]]-mediated autophagy has been shown to rescue dopamine neurons from this toxicity.
 Parkinson's disease (PD) is a long-term degenerative disorder of the central nervous system that mainly affects the motor system. Like other neurodegenerative diseases, its pathogenesis may involve [[Oxidative Stress]] and the accumulation of [[Advanced Glycation End Products|AGEs]], which can interfere with protein function and promote neuronal damage.
 
-### Connections
+#
+
+## Connections
 - [[Neurodegenerative Diseases]]: [[Parkinson's Disease]] is one of the most widely studied neurodegenerative conditions using iPSC technology.
 - [[Induced Pluripotent Stem Cells]]: A key source of dopaminergic neurons for modeling and potentially treating [[Parkinson's Disease]].
 - [[Disease Modeling]]: Patient-specific iPSC lines enable the study of [[Parkinson's Disease]] pathogenesis "in a dish."
@@ -50,7 +52,7 @@ Parkinson's disease (PD) is a long-term degenerative disorder of the central ner
 - [[Levodopa]]: The primary medication used to treat Parkinson's symptoms.
 - [[COMT Inhibitors]]: Medications used to prevent the breakdown of dopamine and levodopa.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Alpha-synuclein]], [[TFEB]], [[Aging]], [[Autophagic Flux]], [[Autophagy]], [[Bradykinesia]], [[COMT Inhibitors]], [[Disease Modeling]], [[Dopamine]], [[Induced Pluripotent Stem Cells]], [[Intermittent Fasting]], [[Ketogenic Diet]], [[L-DOPA]], [[Levodopa]], [[Lewy Bodies]], [[Mitophagy]], [[Neurodegenerative Diseases]], [[Neuromelanin]], [[Pathogenic Threshold of Neuromelanin]], [[Regenerative Medicine]], [[Substantia Nigra Pars Compacta]], [[L-DOPA]]., [[Levodopa]]., [[Oxidative Stress]], [[Advanced Glycation End Products]], [[Neurodegeneration]]
 - Suggested new entity notes to create: [[Dopamine Neuron]], [[Autophagic Flux]], [[Dopamine Agonists]], [[Dopaminergic Neurons]], [[Dyskinesia]], [[Intermittent Fasting]], [[Ketogenic Diet]], [[Mitophagy]], [[Resting Tremor]], [[Substantia Nigra]], [[Resting Tremor]].
 - Strong connections to strengthen: [[Parkinson's Disease]] ↔ [[TFEB]], [[Parkinson's Disease]] <-> [[Induced Pluripotent Stem Cells]], [[Parkinson's Disease]] ↔ [[Mitophagy]], [[Parkinson's Disease]] ↔ [[Neurodegenerative Disease]], [[Parkinson's Disease]] ↔ [[Substantia Nigra]]., [[Advanced Glycation End Products]] ↔ [[Parkinson's Disease]]

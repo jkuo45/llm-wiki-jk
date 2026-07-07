@@ -62,7 +62,6 @@ Tenovins inhibit the deacetylase activity of SIRT1 and SIRT2, preventing them fr
 ---
 
 ## Linking Summary
-
 - **New Links Added**: [[SIRT1]], [[SIRT2]], [[SIRT3]], [[p53]], [[Sirtinol]]
 - **Suggested New Notes to Create**: [[p53 Hyperacetylation]], [[Water-Soluble Analogs]]
 - **Strong Connections to Strengthen**: [[Tenovins]] ↔ [[p53]], [[Tenovins]] ↔ [[SIRT1]]

@@ -19,10 +19,12 @@ aliases: [Apolipoprotein E]
 
 **Pathological significance:** Altered expression or mutation of ApoE is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
 
-### Connections
+#
+
+## Connections
 - [[ApoE]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[ApoE]]
 - Strong connections to strengthen: [[ApoE]] ↔ [[ApoE]]
 

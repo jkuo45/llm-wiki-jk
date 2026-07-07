@@ -27,7 +27,7 @@ aliases: [LC3, GABARAP family]
 
 Atg8 family ([[LC3]]/[[GABARAP]]/[[GATE-16]]) are ubiquitin-like proteins conjugated to PE on autophagosome membranes. They recruit cargo receptors (e.g., [[p62]]/[[NBR1]]).
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Autophagosome]], [[Autophagy]], [[LC3]], [[GABARAP]], [[GATE-16]], [[p62]], [[Lysosome]], [[Atg4]], [[Atg7]], [[Atg3]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[Atg8]] ↔ [[LC3]], [[Atg8]] ↔ [[Autophagosome]]

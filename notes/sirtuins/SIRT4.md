@@ -83,7 +83,6 @@ SIRT4 belongs to **Class II**, one of the most evolutionarily ancient sirtuin cl
 - [[mTOR]] — SIRT4 suppresses mTOR signalling via metabolic regulation
 
 ## Linking Summary
-
 - New links added: [[NAD+]], [[OAADPr]], [[Caloric Restriction]], [[SIRT3]], [[SIRT5]], [[SIRT6]], [[Glutamate Dehydrogenase (GDH)]], [[MTPα]], [[mTOR]]
 - Suggested new entity notes to create: [[Glutamate Dehydrogenase (GDH)]], [[ADP-ribosylation]], [[MTPα]]
 - Strong connections to strengthen: [[SIRT4]] ↔ [[Caloric Restriction]], [[SIRT4]] ↔ [[Glutamate Dehydrogenase (GDH)]]

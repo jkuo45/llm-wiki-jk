@@ -12,8 +12,9 @@ entity_type_1: Enzyme
 
 The Electron Transport Chain (ETC) is a series of protein complexes in the inner [[Mitochondria]] membrane that couples electron transfer to proton pumping, establishing the [[Proton Motive Force]] used by [[ATP Synthase]] to produce [[ATP]]. The ETC comprises [[Complex I]] (NADH dehydrogenase), [[Complex II]] (succinate dehydrogenase), [[Complex III]] (cytochrome bc1 complex), [[Complex IV]] (cytochrome c oxidase), and mobile electron carriers [[Coenzyme Q10]] (ubiquinone) and [[Cytochrome c]]. Electron leakage from [[Complex I]] and [[Complex III]] generates [[Superoxide]], a primary source of [[Reactive Oxygen Species]] (ROS). ETC dysfunction is implicated in [[Mitochondrial Disease]], [[Neurodegeneration]], [[Aging]], and [[Metabolic Disorders]].
 
-### Connections
+#
 
+## Connections
 - [[Mitochondria]] — the organelle housing the ETC
 - [[ATP]] — final product of oxidative phosphorylation
 - [[ATP Synthase]] — uses proton gradient to synthesize ATP
@@ -26,8 +27,7 @@ The Electron Transport Chain (ETC) is a series of protein complexes in the inner
 - [[Aging]] — ETC dysfunction contributes to age-related decline
 - [[Mitochondrial Disease]] — caused by ETC complex mutations
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[Mitochondria]], [[ATP]], [[ATP Synthase]], [[Proton Motive Force]], [[Complex I]], [[Complex II]], [[Complex III]], [[Complex IV]], [[Coenzyme Q10]], [[Cytochrome c]], [[Superoxide]], [[Reactive Oxygen Species]], [[Oxidative Phosphorylation]], [[Mitochondrial Disease]], [[Neurodegeneration]], [[Aging]], [[Metabolic Disorders]]
 - Suggested new entity notes to create: [[NADH Dehydrogenase Complex I]], [[Succinate Dehydrogenase Complex II]]
 - Strong connections to strengthen: [[Electron Transport Chain]] ↔ [[Mitochondria]], [[Electron Transport Chain]] ↔ [[Reactive Oxygen Species]]

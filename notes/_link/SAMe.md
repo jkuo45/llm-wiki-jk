@@ -48,5 +48,5 @@ relations:
 - [[Dopamine]]: One of the primary neurotransmitters regulated by SAMe-dependent COMT activity.
 
 ---
-### Linking Summary:
+## Linking Summary
 - New links added: [[Methyl Donor]], [[Methylation Cycle]], [[COMT]], [[Catechols]], [[Dopamine]], [[Estrogen]], [[Methylation]], [[Neurotransmitters]].

@@ -20,8 +20,7 @@ S-sulfhydration (persulfidation) is the modification of cysteine thiols to persu
 
 H2S donors (NaHS, GYY4137) induce [[Autophagy]] via TFEB nuclear translocation and [[AMPK]] activation. This has therapeutic potential in [[Myocardial Ischemia-Reperfusion Injury]] and [[Neurodegeneration]].
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[TFEB]]
 - Suggested new entity notes to create: [[Hydrogen Sulfide]]
 - Strong connections to strengthen: [[S-sulfhydration]] ↔ [[TFEB]]

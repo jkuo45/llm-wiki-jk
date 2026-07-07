@@ -32,7 +32,7 @@ NQO1 expression is under the transcriptional control of [[NRF2]] via the [[Antio
 
 NQO1 represents a key enzymatic defense against adrenochrome accumulation. By reducing the [[Adrenochrome Semiquinone Radical]] and its oxidized precursors to less reactive hydroquinone forms, NQO1 limits aminochrome-induced oxidative damage. This protective axis is particularly important in tissues with high catecholamine turnover, such as the [[Adrenal gland]], [[Myocardium]], and central nervous system. Induction of NQO1 via Nrf2 activation represents a potential therapeutic strategy to mitigate adrenochrome-associated pathology.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[NRF2]], [[Oxidative Stress]], [[Quinone]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[NQO1]] ↔ [[NRF2]]

@@ -21,12 +21,14 @@ entity_type_1: Protein
 - Class III PI3K, primarily **[[Vps34]]**, is essential for the initiation of autophagy.
 - It forms a complex with [[Beclin1]] and [[Atg14]] to produce phosphatidylinositol 3-phosphate (PI3P), which is required for the formation of the [[Autophagosome]].
 
-### Connections
+#
+
+## Connections
 - [[Akt]]: A major downstream effector of PI3K.
 - [[mTOR]]: A component of the PI3K/Akt signaling axis.
 - [[melittin]]: Shown to inhibit the PI3K/Akt/mTOR axis in breast cancer cells.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Autophagy]], [[IGF1]], [[Akt]], [[mTORC1]], [[Vps34]], [[Beclin1]], [[Atg14]], [[Autophagosome]], [[Target of rapamycin]]
 - Suggested new entity notes to create: [[IGF1]], [[Akt]], [[mTORC1]], [[Vps34]], [[Beclin1]], [[Autophagosome]]
 - Strong connections to strengthen: [[PI3K]] ↔ [[Akt]], [[PI3K]] ↔ [[Vps34]], [[PI3K]] ↔ [[Autophagy]]

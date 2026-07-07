@@ -78,7 +78,6 @@ SIRT5 protects against myocardial ischaemia-reperfusion injury by maintaining mi
 - [[Sirtuin Family]] — conserved enzymatic family spanning all domains of life
 
 ## Linking Summary
-
 - New links added: [[SIRT3]], [[SIRT4]], [[SIRT6]], [[NAD+]], [[CPS1]], [[LDHB]], [[Sir2 (yeast)]]
 - Suggested new entity notes to create: [[Desuccinylase Activity]], [[Mitochondrial Matrix]], [[HMGCS2]]
 - Strong connections to strengthen: [[SIRT5]] ↔ [[SIRT3]], [[SIRT5]] ↔ [[CPS1]], [[SIRT5]] ↔ [[NAD+]]

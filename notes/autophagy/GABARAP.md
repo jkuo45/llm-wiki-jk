@@ -19,7 +19,7 @@ GABARAP belongs to the [[Atg8]] protein family along with [[LC3]] and [[GATE-16]
 
 GABARAP mediates autophagosome-[[Lysosome]] fusion through interactions with [[LAMP1]] and [[PLEKHM1]]. It also recruits [[GABARAP]]-interacting proteins for selective autophagy cargo recognition.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Atg8]], [[Autophagosome]], [[Lysosome]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[GABARAP]] ↔ [[LC3]]

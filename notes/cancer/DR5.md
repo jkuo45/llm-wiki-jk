@@ -25,7 +25,7 @@ Similar to [[DR4]], the binding of [[TRAIL]] to DR5 leads to receptor trimerizat
 - [[DR4]]: A closely related TRAIL receptor.
 - [[Caspase-8]]: The protease activated by the DR5 signaling complex.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Extrinsic Pathway]], [[Apoptosis]], [[TRAIL]], [[DR4]], [[FADD]], [[Caspase-8]], [[p53]]
 - Suggested new entity notes to create: [[FADD]]
 - Strong connections to strengthen: [[DR5]] ↔ [[TRAIL]]

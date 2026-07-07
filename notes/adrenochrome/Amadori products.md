@@ -22,8 +22,6 @@ Because Amadori products represent early-stage glycation intermediates, they are
 - **Exogenous/Bacterial**: [[Fructosyl-Amino Acid Oxidases]] (FAOD) oxidize Amadori products to regenerate the original amino acid.
 
 ## Linking Summary
-
 - New links added: [[Glycation]], [[Schiff base]], [[Advanced Glycation End Products]], [[Fructosamine-3-kinase]], [[Fructosamine-3-phosphate]], [[Fructosyl-Amino Acid Oxidases]]
 - Suggested new entity notes to create: [[Hemoglobin A1c]]
 - Strong connections to strengthen: [[Amadori products]] ↔ [[Glycation]], [[Amadori products]] ↔ [[Fructosamine-3-kinase]]
-

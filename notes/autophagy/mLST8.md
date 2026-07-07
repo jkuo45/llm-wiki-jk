@@ -16,7 +16,7 @@ Mammalian lethal with Sec13 protein 8 (mLST8), also known as GβL, is a core com
 
 mLST8 (GβL) binds the kinase domain of [[mTOR]] in both [[mTORC1]] and [[mTORC2]].
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[mTORC1]], [[mTORC2]], [[mTOR]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[mLST8]] ↔ [[mTORC2]]

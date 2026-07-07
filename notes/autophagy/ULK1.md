@@ -68,7 +68,6 @@ Once activated, ULK1 phosphorylates numerous substrates that coordinate early au
 - [[SIRT1]]: Deacetylates and activates ULK1.
 
 ## Linking Summary
-
 - New links added: [[Autophagy]], [[Atg1]], [[AMPK]], [[mTORC1]], [[Atg13]], [[FIP200]], [[Atg101]], [[Beclin1]], [[Vps34]], [[PI3K]], [[SIRT1]], [[SIRT2]], [[SIRT3]]
 - Suggested new entity notes to create: [[Atg9]], [[FIP200]], [[Atg101]], [[SESN2]]
 - Strong connections to strengthen: [[ULK1]] ↔ [[AMPK]], [[ULK1]] ↔ [[mTORC1]], [[ULK1]] ↔ [[Autophagy]], [[ULK1]] ↔ [[SIRT1]]

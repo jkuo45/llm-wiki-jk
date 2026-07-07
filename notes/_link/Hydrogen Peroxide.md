@@ -26,13 +26,15 @@ Hydrogen peroxide, along with [[Superoxide anion]], serves as an oxidant that ca
 - [[Catalase]]: One of the primary enzymes responsible for decomposing $H_2O_2$ into water and oxygen.
 - [[Glutathione Peroxidase]]: Neutralizes $H_2O_2$ using [[Glutathione]] as an electron donor.
 
-### Connections
+#
+
+## Connections
 - [[Reactive Oxygen Species]] ↔ Hydrogen peroxide is a major member of the ROS family.
 - [[Superoxide anion]] ↔ Precursor to hydrogen peroxide via dismutation.
 - [[MAO]] ↔ Enzyme that produces H₂O₂ as a metabolic byproduct.
 - [[Adrenochrome]] ↔ Oxidative byproduct whose formation is facilitated by H₂O₂.
 - [[Oxidative Stress]] ↔ Central player in the ROS cascade.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Oxidative Stress]], [[Stress-Induced Premature Senescence]]
 - Strong connections to strengthen: [[Hydrogen Peroxide]] <-> [[Stress-Induced Premature Senescence]]

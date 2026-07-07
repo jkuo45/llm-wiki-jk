@@ -24,13 +24,15 @@ Epigenetic clocks are among the most accurate biomarkers for aging. They typical
 ### 3. Reversibility
 One of the most exciting aspects of the epigenetic clock is that it may be reversible. Clinical trials are currently investigating whether specific lifestyle changes or pharmacological agents can "wind back" the clock.
 
-### Connections
+#
+
+## Connections
 - **[[Aging]]**: The primary phenomenon measured by these clocks.
 - **[[DNA Methylation]]**: The molecular substrate used to calculate the clock's score.
 - **[[DNAmGrimAge]]**: A highly accurate, second-generation epigenetic clock.
 - **[[Biomarkers]]**: Epigenetic clocks are considered the "gold standard" of aging biomarkers.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Epigenetic Clock]], [[DNA Methylation]], [[DNAmGrimAge]], [[Aging]], [[Caloric Restriction]], [[Metformin]], [[Cardiovascular Disease]], [[Cancer]], [[Neurodegenerative Diseases]], [[Biomarkers]]
 - Suggested new entity notes to create: [[Horvath Clock]], [[Hannum Clock]], [[Age Acceleration]]
 - Strong connections to strengthen: [[Epigenetic Clock]] ↔ [[Aging]], [[Epigenetic Clock]] ↔ [[DNA Methylation]]

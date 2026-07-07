@@ -16,8 +16,7 @@ Hypusination is a unique post-translational modification of [[eIF5A]] required f
 
 Hypusination is the post-translational modification of [[eIF5A]] lysine K50 to hypusine by [[DHPS]] and [[DOHH]]. It is essential for eIF5A function in translation elongation and [[Autophagy]].
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[eIF5A]], [[Spermidine]], [[TFEB]]
 - Suggested new entity notes to create: [[Deoxyhypusine Synthase]]
 - Strong connections to strengthen: [[Hypusination]] ↔ [[eIF5A]]

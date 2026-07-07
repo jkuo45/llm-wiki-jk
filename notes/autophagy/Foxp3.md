@@ -23,7 +23,7 @@ aliases: [forkhead box P3]
 
 Foxp3 is a forkhead transcription factor that specifies [[Regulatory T Cell]] (Treg) lineage. [[Autophagy]] maintains Treg metabolic fitness and suppressive function.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[T Cell]], [[Spermidine]], [[Atg5]], [[Autophagy]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[Foxp3]] ↔ [[Spermidine]]

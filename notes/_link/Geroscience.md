@@ -24,13 +24,15 @@ Geroscience researchers are investigating various "geroprotective" strategies to
 ### 3. Measuring Success
 The field relies heavily on accurate [[Biomarkers]] to measure the effectiveness of interventions. Tools like the [[Epigenetic Clock]] (e.g., [[DNAmGrimAge]]) are essential for determining whether a treatment is truly slowing biological aging.
 
-### Connections
+#
+
+## Connections
 - **[[Aging]]**: The central focus of geroscience research.
 - **[[Biomarkers]]**: Tools used to quantify biological age and the rate of decline.
 - **[[Senolytics]]**: A prominent class of drugs developed within the geroscience framework.
 - **[[Caloric Restriction]]**: The most widely studied intervention in the field.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Geroscience]], [[Aging]], [[DNA Methylation]], [[Histone Modification]], [[Genomic Instability]], [[Cellular Senescence]], [[Autophagy]], [[Metformin]], [[Resveratrol]], [[Spermidine]], [[Caloric Restriction]], [[Senolytics]], [[Biomarkers]], [[Epigenetic Clock]], [[DNAmGrimAge]]
 - Suggested new entity notes to create: [[Healthspan]], [[Geroprotectors]], [[Hallmarks of Aging]]
 - Strong connections to strengthen: [[Geroscience]] ↔ [[Aging]], [[Geroscience]] ↔ [[Senolytics]]

@@ -19,10 +19,12 @@ aliases: [Receptor Activator of NF-κB, TNFRSF11A]
 
 **Pathological significance:** Altered expression or mutation of RANK is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
 
-### Connections
+#
+
+## Connections
 - [[RANK]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[RANK]]
 - Strong connections to strengthen: [[RANK]] ↔ [[RANK]]
 

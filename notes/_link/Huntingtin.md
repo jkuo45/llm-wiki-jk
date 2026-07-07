@@ -12,7 +12,9 @@ entity_type_1: Protein
 The protein encoded by the HTT gene, whose mutated form with expanded polyglutamine tracts causes [[Huntington's Disease]].
 
 
-### Connections
+#
+
+## Connections
 - [[Huntington's Disease]] — associated with Huntingtin
-### Linking Summary
+## Linking Summary
 - New links added: [[Huntington's Disease]], [[TFEB]]

@@ -19,10 +19,12 @@ aliases: [Intercellular Adhesion Molecule 1, CD54]
 
 **Pathological significance:** Altered expression or mutation of ICAM-1 is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
 
-### Connections
+#
+
+## Connections
 - [[ICAM-1]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[ICAM-1]]
 - Strong connections to strengthen: [[ICAM-1]] ↔ [[ICAM-1]]
 

@@ -21,7 +21,7 @@ aliases: [C. elegans TGF-beta ortholog]
 
 DAF-7 is the C. elegans [[TGF-β]] ortholog that regulates dauer entry, fat metabolism, and [[Autophagy]] under environmental stress.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[C. elegans]], [[MXL-3]]
 - Suggested new entity notes to create: [[Dauer Larva]]
 - Strong connections to strengthen: [[DAF-7]] ↔ [[MXL-3]]

@@ -25,8 +25,9 @@ aliases: [Astroglia]
 
 Reactive [[Astrogliosis]] occurs in response to CNS injury, infection, and neurodegeneration. Astrocyte dysfunction contributes to [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Amyotrophic Lateral Sclerosis]], and [[Multiple Sclerosis]]. In [[Aging]], astrocytes become less supportive and more inflammatory.
 
-### Connections
+#
 
+## Connections
 - [[Neurons]] — astrocytes provide metabolic and structural support to neurons
 - [[Blood-Brain Barrier]] — astrocytic end-feet are integral to barrier integrity
 - [[Glutamate]] — astrocytes clear synaptic glutamate to prevent excitotoxicity
@@ -36,8 +37,7 @@ Reactive [[Astrogliosis]] occurs in response to CNS injury, infection, and neuro
 - [[Aging]] — astrocyte support declines with age
 - [[Neurodegeneration]] — reactive astrogliosis is a hallmark of CNS pathology
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[Neurons]], [[Glutamate]], [[EAAT1]], [[EAAT2]], [[Lactate]], [[Glucose]], [[GLUT1]], [[Blood-Brain Barrier]], [[Endothelial cells]], [[Tight Junction]], [[Aquaporin-4]], [[AQP4]], [[Glymphatic System]], [[Calcium Signaling]], [[Gap Junctions]], [[Astrogliosis]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Amyotrophic Lateral Sclerosis]], [[Multiple Sclerosis]], [[Aging]], [[Neurodegeneration]]
 - Suggested new entity notes to create: [[Astrocyte-Neuron Lactate Shuttle]], [[Tripartite synapse]], [[EAAT2]], [[Reactive astrogliosis]], [[Glia limitans]]
 - Strong connections to strengthen: [[Astrocytes]] ↔ [[Neurons]], [[Astrocytes]] ↔ [[Blood-Brain Barrier]], [[Astrocytes]] ↔ [[Aging]]

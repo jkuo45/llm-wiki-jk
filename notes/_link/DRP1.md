@@ -19,10 +19,12 @@ aliases: [DNM1L, Dynamin-Related Protein 1]
 
 **Pathological significance:** Altered expression or mutation of DRP1 is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
 
-### Connections
+#
+
+## Connections
 - [[DRP1]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[DRP1]]
 - Strong connections to strengthen: [[DRP1]] ↔ [[DRP1]]
 

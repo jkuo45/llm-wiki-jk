@@ -27,5 +27,5 @@ The [[COMT]] enzyme is specifically designed to transfer a [[Methyl groups|methy
 - [[Quercetin]]: A dietary catechol that can inhibit COMT.
 
 ---
-### Linking Summary:
+## Linking Summary
 - New links added: [[Catecholamines]], [[Dopamine]], [[Epinephrine]], [[Norepinephrine]], [[Estrogen]], [[Flavonoids]], [[Quercetin]], [[Fisetin]], [[Luteolin]], [[COMT]], [[Methyl groups]].

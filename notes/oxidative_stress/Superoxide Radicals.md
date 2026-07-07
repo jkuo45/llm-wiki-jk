@@ -42,11 +42,9 @@ Superoxide overproduction is a central pathogenic mechanism in [[Ischemia-reperf
 - [[Apoptosis]]: Superoxide-mediated cytochrome c release can trigger the intrinsic apoptotic cascade.
 - [[Hypoxia]]: Hypoxic conditions alter superoxide generation kinetics at Complex III.
 
-### Linking Summary:
+## Linking Summary
+- New links added: [[Hypoxia]], [[Monoamine oxidase]], [[Catalase]], [[Glutathione Peroxidase]], [[Apoptosis]], [[Ischemia-reperfusion Injury]], [[Cardiovascular Disease]], [[Atherosclerosis]], [[Neurodegenerative Diseases]], [[Amyotrophic Lateral Sclerosis]], [[Neutrophils]], [[Macrophage]], [[Respiratory Burst]], [[Mitochondrial Dysfunction]], [[Fenton Reaction]]
+- Suggested new entity notes to create: [[Aconitase]], [[Chronic Granulomatous Disease]], [[NOX2]]
 - New links added: [[Mitochondria]], [[NADPH Oxidase]], [[Xanthine Oxidase]], [[Hydrogen Peroxide]], [[Hydroxyl Radicals]], [[Peroxynitrite]], [[Oxidative Stress]], [[Superoxide Dismutase]], [[Nitric Oxide]]
 - Suggested new entity notes to create: [[Iron-Sulfur Clusters]], [[Oxidative Burst]]
 - Strong connections to strengthen: [[Superoxide Radicals]] ↔ [[Superoxide Dismutase]]
-
-### New Linking Summary (Added 2026-07-04):
-- New links added: [[Hypoxia]], [[Monoamine oxidase]], [[Catalase]], [[Glutathione Peroxidase]], [[Apoptosis]], [[Ischemia-reperfusion Injury]], [[Cardiovascular Disease]], [[Atherosclerosis]], [[Neurodegenerative Diseases]], [[Amyotrophic Lateral Sclerosis]], [[Neutrophils]], [[Macrophage]], [[Respiratory Burst]], [[Mitochondrial Dysfunction]], [[Fenton Reaction]]
-- Suggested new entity notes to create: [[Aconitase]], [[Chronic Granulomatous Disease]], [[NOX2]]

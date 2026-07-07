@@ -26,5 +26,5 @@ The [[COMT]] enzyme is a major regulator of [[Dopamine]] levels in the [[Prefron
 - [[COMT]]: Regulates the availability of dopamine in the cortex.
 
 ---
-### Linking Summary:
+## Linking Summary
 - New links added: [[Executive Function]], [[Prefrontal Cortex]], [[Prefrontal Cortex]], [[Dopamine]], [[COMT]], [[Val158Met]].

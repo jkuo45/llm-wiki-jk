@@ -22,5 +22,5 @@ Lipid catabolism genes are co-regulated with [[Autophagy]] by [[TFEB]], [[PPARα
 ## Physiological Roles
 Lipid catabolism provides acetyl-CoA for energy production, ketone bodies during prolonged fasting, and substrates for membrane biosynthesis. Impaired lipid catabolism underlies [[Steatohepatitis]], [[Obesity]], [[metabolic disorders]], and [[Lipotoxicity]].
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Lipophagy]], [[Lysosomal Lipolysis]], [[Beta-Oxidation]], [[Ketogenesis]], [[Lipid Droplet]], [[Lysosomal Acid Lipase]], [[TFEB]], [[PPARα]], [[PGC1-α]]

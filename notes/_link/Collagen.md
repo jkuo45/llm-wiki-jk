@@ -18,12 +18,14 @@ Collagen provides structural support and elasticity to tissues such as skin, blo
 - **Skin Aging**: Altered synthesis and degradation of glycated collagen accelerate skin senescence.
 
 
-### Connections
+#
+
+## Connections
 - [[Aging]] — progressive decline in physiological function; primary risk factor
 - [[Hyperglycemia]] — interacts with Collagen
 - [[Glycation]] — interacts with Collagen
 - [[Advanced Glycation End Products]] — interacts with Collagen
-### Linking Summary
+## Linking Summary
 - New links added: [[Aging]], [[Hyperglycemia]], [[Glycation]], [[Advanced Glycation End Products]], [[Extracellular Matrix]], [[ECM]], [[Fibroblast]]
 - Suggested new entity notes to create: [[Extracellular Matrix]], [[Connective Tissue]]
 - Strong connections to strengthen: [[Collagen]] ↔ [[Aging]]

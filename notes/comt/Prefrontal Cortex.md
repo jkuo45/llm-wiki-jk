@@ -30,5 +30,5 @@ In the [[Prefrontal Cortex]], the [[Dopamine Transporter]] ([[DAT]]) is less abu
 - [[Sirtuins]]: Works with the PFC in the cortico-basal ganglia loops.
 
 ---
-### Linking Summary:
+## Linking Summary
 - New links added: [[Working Memory]], [[Executive Function]], [[Dopamine Transporter]], [[DAT]], [[Sirtuins]], [[Dopamine]], [[COMT]], [[Catechol-O-methyltransferase]], [[Norepinephrine transporter]], [[NET]].

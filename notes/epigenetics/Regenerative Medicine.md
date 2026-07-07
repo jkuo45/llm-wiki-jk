@@ -26,7 +26,7 @@ In the clinic, [[Regenerative Medicine]] utilizes iPSCs to generate specialized 
 - [[Parkinson's Disease]]: A major target for cell replacement strategies in [[Regenerative Medicine]].
 - [[Cellular Reprogramming]]: The biological process that allows for the creation of the starting materials for many regenerative therapies.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Stem Cell Research]], [[Induced Pluripotent Stem Cells]], [[Embryonic Stem Cells]], [[Somatic Cells]], [[Macular Degeneration]], [[Parkinson's Disease]], [[Cellular Reprogramming]]
 - Suggested new entity notes to create: [[HLA Haplobank]], [[Tissue Engineering]]
 - Strong connections to strengthen: [[Regenerative Medicine]] <-> [[Induced Pluripotent Stem Cells]]

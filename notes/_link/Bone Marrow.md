@@ -26,8 +26,9 @@ Bone marrow produces approximately 500 billion blood cells per day, including [[
 
 Bone marrow is the target of [[Bone Marrow Transplantation]] (hematopoietic stem cell transplantation) for [[leukemia]], [[Lymphoma]], [[Multiple Myeloma]], and [[Aplastic Anemia]]. Bone marrow suppression is a common dose-limiting toxicity of [[Chemotherapy]] and [[Radiation Therapy]].
 
-### Connections
+#
 
+## Connections
 - [[Hematopoietic Stem Cell]] — bone marrow is the primary HSC niche
 - [[Hematopoiesis]] — the process of blood cell formation occurring in bone marrow
 - [[leukemia]] — cancer originating in bone marrow hematopoietic cells
@@ -35,8 +36,7 @@ Bone marrow is the target of [[Bone Marrow Transplantation]] (hematopoietic stem
 - [[Chemotherapy]] — causes myelosuppression (bone marrow toxicity)
 - [[Multiple Myeloma]] — plasma cell malignancy resident in bone marrow
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[Hematopoiesis]], [[Hematopoietic Stem Cell]], [[Progenitor Cells]], [[Erythrocytes]], [[Platelets]], [[Granulocytes]], [[Monocytes]], [[Lymphocytes]], [[Stromal Cells]], [[Osteoblasts]], [[Endothelial cells]], [[Bone Marrow Transplantation]], [[leukemia]], [[Lymphoma]], [[Multiple Myeloma]], [[Aplastic Anemia]], [[Chemotherapy]], [[Radiation Therapy]], [[Adipose Tissue]]
 - Suggested new entity notes to create: [[Bone Marrow Microenvironment]], [[Myelosuppression]], [[Hematopoietic niche]], [[Stromal cell]], [[Progenitor Cell]]
 - Strong connections to strengthen: [[Bone Marrow]] ↔ [[Hematopoietic Stem Cell]], [[Bone Marrow]] ↔ [[Hematopoiesis]], [[Bone Marrow]] ↔ [[leukemia]]

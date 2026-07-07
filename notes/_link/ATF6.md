@@ -19,10 +19,12 @@ aliases: [Activating Transcription Factor 6]
 
 **Pathological significance:** Altered expression or mutation of ATF6 is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
 
-### Connections
+#
+
+## Connections
 - [[ATF6]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[ATF6]]
 - Strong connections to strengthen: [[ATF6]] ↔ [[ATF6]]
 

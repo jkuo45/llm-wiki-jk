@@ -21,8 +21,9 @@ IκBα contains six [[Ankyrin Repeat]] domains that bind the [[Nuclear Localizat
 
 [[NFKBIA]] deletions or mutations are found in [[Hodgkin Lymphoma]] and [[glioblastoma]]. IκBα dysfunction leads to constitutive NF-κB activation and chronic [[Inflammation]]. [[Polymorphisms]] in NFKBIA are associated with [[Inflammatory Bowel Disease]] and [[Sepsis]] susceptibility.
 
-### Connections
+#
 
+## Connections
 - [[NFκB]] — IκBα is the primary inhibitor of canonical NF-κB
 - [[IKKbeta]] — phosphorylates IκBα at Ser32/Ser36 to trigger degradation
 - [[p65]] — NF-κB subunit bound by IκBα
@@ -36,8 +37,7 @@ IκBα contains six [[Ankyrin Repeat]] domains that bind the [[Nuclear Localizat
 - [[Hodgkin Lymphoma]] — NFKBIA mutations drive constitutive NF-κB
 - [[glioblastoma]] — NFKBIA deletions are common in this brain cancer
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[NFκB]], [[IkappaB]], [[IKKbeta]], [[p65]], [[p50]], [[Ankyrin Repeat]], [[Nuclear Localization Signal]], [[Cytosol]], [[Nucleus]], [[TNFα]], [[Interleukin 1β]], [[Ubiquitin]], [[Proteasome]], [[SCF]], [[β-TrCP]], [[Negative Feedback Loop]], [[Hodgkin Lymphoma]], [[glioblastoma]], [[NFKBIA]], [[Inflammatory Bowel Disease]], [[Sepsis]], [[Polymorphisms]], [[Inflammation]]
 - Suggested new entity notes to create: [[Canonical NF-κB pathway]], [[NFKBIA mutation]], [[IκBα super-repressor]], [[β-TrCP]], [[SCF E3 ligase]]
 - Strong connections to strengthen: [[IkappaBalpha]] ↔ [[NFκB]], [[IkappaBalpha]] ↔ [[IKKbeta]], [[IkappaBalpha]] ↔ [[Inflammation]]

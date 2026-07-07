@@ -16,13 +16,15 @@ database_ids:
 # Thioredoxin
 **Thioredoxin (Trx)** is a small redox-active protein that serves as a key antioxidant and cell signaling regulator. It reduces oxidized cysteine residues on proteins via its active site (Cys-Gly-Pro-Cys).
 
-### Connections
+#
+
+## Connections
 - [[Glutathione]] — Parallel thiol antioxidant system
 - [[Oxidative Stress]] — Trx is central to redox balance
 - [[Peroxiredoxin]] — Trx regenerates oxidized peroxiredoxin
 - [[Apoptosis]] — Trx inhibits apoptosis signal-regulating kinase (ASK1)
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Glutathione]], [[Oxidative Stress]], [[Peroxiredoxin]], [[Apoptosis]]
 - Suggested new entity notes to create: [[Thioredoxin reductase]], [[TrxR]], [[ASK1]]
 - Strong connections to strengthen: [[Thioredoxin]] ↔ [[Glutathione]]

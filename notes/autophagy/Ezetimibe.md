@@ -18,8 +18,7 @@ Ezetimibe inhibits the [[NPC1L1]] cholesterol transporter at the intestinal brus
 
 Ezetimibe has been shown to induce hepatic [[Autophagy]] and reduce steatosis in NAFLD models by modulating cholesterol flux. Its autophagy-inducing effects may contribute to its anti-inflammatory and anti-atherogenic benefits.
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[AMPK]], [[TFEB]]
 - Suggested new entity notes to create: [[Steatohepatitis]]
 - Strong connections to strengthen: [[Ezetimibe]] ↔ [[TFEB]]

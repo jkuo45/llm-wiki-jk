@@ -35,12 +35,11 @@ Under physiological conditions (37°C, neutral pH), the Maillard reaction procee
 
 Dietary AGEs (dAGEs), pre-formed during high-temperature cooking (grilling, roasting, frying), are absorbed through the [[Gastrointestinal Tract]] and contribute to the systemic AGE pool. Approximately 10–30% of ingested dAGEs are absorbed and only partially eliminated by the kidney. High-dAGE diets are associated with elevated serum AGE levels, increased [[Oxidative Stress]], and pro-inflammatory states. Cooking methods that reduce browning (steaming, poaching, slow cooking at lower temperatures) significantly decrease dAGE content.
 
-## Linking Summary
-
-- New links added: [[Advanced Glycation End Products]], [[Schiff base]], [[Amadori products]], [[Aging]], [[Hyperglycemia]]
-- Suggested new entity notes to create: [[Glycotoxins]]
-- Strong connections to strengthen: [[Maillard Reaction]] ↔ [[Glycation]]
-
 ## Updated Links
 
 - Additional new links: [[Furfurals]], [[Reductones]], [[3-deoxyglucosone]], [[Glyoxal]], [[Methylglyoxal]], [[2-Acetyl-1-pyrroline]], [[Furaneol]], [[Pyrazines]], [[Cysteine]], [[Thiols]], [[Thiophenes]], [[Proline]], [[Methionine]], Steak, Bread, Coffee, Beer, French fries, [[Collagen]], [[Elastin]], [[Lens crystallins]], [[Cataract]], [[RAGE]], [[NFκB]], [[Vascular inflammation]], [[Gastrointestinal Tract]], [[Oxidative Stress]]
+
+## Linking Summary
+- New links added: [[Advanced Glycation End Products]], [[Schiff base]], [[Amadori products]], [[Aging]], [[Hyperglycemia]]
+- Suggested new entity notes to create: [[Glycotoxins]]
+- Strong connections to strengthen: [[Maillard Reaction]] ↔ [[Glycation]]

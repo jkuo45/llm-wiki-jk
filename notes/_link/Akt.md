@@ -27,13 +27,15 @@ Akt, also known as Protein Kinase B, is a signaling kinase that phosphorylates [
 Protein kinase B (Akt) is a serine/threonine-specific protein kinase that plays a key role in multiple cellular processes such as glucose metabolism, apoptosis, cell proliferation, transcription, and cell migration. In the context of muscle health, Akt is a central node downstream of PI3K that promotes protein synthesis by activating mTOR and inhibits protein degradation by phosphorylating and inactivating FoxO transcription factors.
 AKT (also known as Protein Kinase B) is a serine/threonine kinase that plays a central role in promoting cell survival by inhibiting pro-apoptotic factors and activating pro-survival transcription factors.
 
-### Connections
+#
+
+## Connections
 - [[PI3K]]: The upstream activator of Akt.
 - [[mTOR]]: A downstream target of Akt.
 - [[melittin]]: Suppresses Akt signaling in various cancer models.
 - [[Ivermectin]]: Inhibits the Akt pathway, often through the degradation of [[PAK1]].
 
-### Linking Summary
+## Linking Summary
 - New links added: [[TFEB]], [[14-3-3 protein]], [[PI3K]], [[Target of rapamycin]], [[FOXO]], [[IGF1]], [[Autophagy]], [[mTORC1]], [[FoxO1]], [[FOXO3a]], [[Cancer]]
 - Suggested new entity notes to create: [[PI3K-Akt Signaling]], [[PI3K]], [[IGF1]], [[mTORC1]], [[FoxO1]], [[FOXO3a]]
 - Strong connections to strengthen: [[Akt]] ↔ [[TFEB]], [[Akt]] ↔ [[Target of rapamycin]], [[Akt]] ↔ [[FOXO]], [[Akt]] ↔ [[PI3K]], [[Akt]] ↔ [[mTORC1]], [[Akt]] ↔ [[Autophagy]]

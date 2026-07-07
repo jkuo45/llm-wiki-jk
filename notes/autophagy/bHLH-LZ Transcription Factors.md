@@ -17,8 +17,7 @@ Basic helix-loop-helix leucine zipper (bHLH-LZ) transcription factors are a supe
 
 bHLH-LZ factors include the [[MiTF TFE family]] and other regulators of cell fate and metabolism. They dimerize through the HLH-LZ domain and bind E-box sites.
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[MiT]]/[[TFEB]] family, [[CLEAR Element]]
 - Suggested new entity notes to create: [[E-box]]
 - Strong connections to strengthen: [[bHLH-LZ Transcription Factors]] ↔ [[MiT]]/[[TFEB]] family

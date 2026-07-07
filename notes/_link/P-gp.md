@@ -19,10 +19,12 @@ aliases: [P-glycoprotein, ABCB1, MDR1]
 
 **Clinical relevance:** Genetic variants of P-gp influence drug disposition and response. Inhibition or dysregulation of this transporter contributes to drug resistance and metabolic diseases.
 
-### Connections
+#
+
+## Connections
 - [[P-gp]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[P-gp]]
 - Strong connections to strengthen: [[P-gp]] ↔ [[P-gp]]
 

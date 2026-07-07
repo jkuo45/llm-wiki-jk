@@ -19,10 +19,12 @@ aliases: [Hutchinson-Gilford Progeria Syndrome, Progeria]
 
 **Therapeutic strategies:** Management of HGPS includes pharmacological interventions, lifestyle modifications, and supportive care. Emerging therapies target specific molecular pathways involved in disease progression.
 
-### Connections
+#
+
+## Connections
 - [[HGPS]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[HGPS]]
 - Strong connections to strengthen: [[HGPS]] ↔ [[HGPS]]
 

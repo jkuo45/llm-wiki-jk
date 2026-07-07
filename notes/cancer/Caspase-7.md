@@ -28,7 +28,7 @@ Caspase-7 is activated by initiator caspases, such as [[Caspase-8]] (from the [[
 - [[PAK2]]: Inhibitory kinase for Caspase-7.
 - [[Intrinsic Pathway]] / [[Extrinsic Pathway]]: Converge on Caspase-7 activation.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[PAK2]], [[Breast Cancer]], [[Caspase-3]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[Caspase-7]] ↔ [[XIAP]], [[Caspase-7]] ↔ [[PAK2]]

@@ -21,7 +21,7 @@ Pluripotency refers to the ability of a cell to differentiate into any of the th
 - [[Embryonic Stem Cells]] (ESCs)
 - [[Induced Pluripotent Stem Cells]] (iPSCs)
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Oct4]], [[Sox2]], [[Nanog]], [[Embryonic Stem Cells]], [[Induced Pluripotent Stem Cells]]
 - Suggested new entity notes to create: [[Nanog]]
 - Strong connections to strengthen: [[Pluripotency]] ↔ [[Differentiation]]

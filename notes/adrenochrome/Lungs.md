@@ -26,6 +26,6 @@ The formation of [[Adrenochrome]] in the lungs is a marker of severe oxidative s
 - [[Reactive Oxygen Species]] ↔ The drivers of adrenaline oxidation in pulmonary tissues.
 - [[Inflammation]] ↔ The state (e.g., infection, ARDS) that recruits neutrophils to the lungs.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Lungs]], [[Adrenochrome]], [[Epinephrine]], [[Neutrophils]], [[Reactive Oxygen Species]], [[Myeloperoxidase]], [[Redox Cycling]], [[Inflammation]]
 - Strong connections to strengthen: [[Lungs]] ↔ [[Neutrophils]]

@@ -25,8 +25,9 @@ EPR measures the resonant absorption of [[Microwave]] radiation by unpaired elec
 - [[Oximetry]] — measurement of [[Oxygen]] concentration via line broadening
 - [[Aging Research]] — direct detection of free radical production in mitochondria
 
-### Connections
+#
 
+## Connections
 - [[Free Radicals]] — EPR directly detects unpaired electron species
 - [[Reactive Oxygen Species]] — EPR detects superoxide, hydroxyl radical, and other ROS
 - [[Spin Trapping]] — stabilizes short-lived radicals for EPR detection
@@ -36,8 +37,7 @@ EPR measures the resonant absorption of [[Microwave]] radiation by unpaired elec
 - [[Electron]] — EPR probes electron spin states
 - [[Oxidative Stress]] — EPR quantifies radical production in disease models
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[Electron]], [[Free Radicals]], [[Reactive Oxygen Species]], [[Magnetic Field]], [[Microwave]], [[Zeeman Effect]], [[Spin Trapping]], [[DMPO]], [[Superoxide]], [[Hydroxyl radical]], [[Mitochondria]], [[ROS]], [[Oxidative Stress]], [[Iron-sulfur clusters]], [[Copper]], [[Manganese]], [[Oxygen]], [[Aging Research]]
 - Suggested new entity notes to create: [[g-factor]], [[Hyperfine coupling]], [[Electron spin]], [[Paramagnetic species]], [[Spin probe]], [[DEPMPO]], [[POBN]], [[Spin label]], [[Oximetry]]
 - Strong connections to strengthen: [[EPR spectroscopy]] ↔ [[Reactive Oxygen Species]], [[EPR spectroscopy]] ↔ [[Free Radicals]]

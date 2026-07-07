@@ -16,12 +16,14 @@ Anti-apoptotic protein that localizes to the mitochondrial outer membrane and in
 - **Translocation**: The *BCL2* gene was originally identified at the chromosomal breakpoint of the t(14;18) translocation in follicular non-Hodgkin lymphoma.
 - **Drug Target**: It is a target for several anticancer strategies, including antisense oligonucleotides (e.g., [[Oblimersen sodium]]) and BH3 mimetics (e.g., [[ABT-737]], [[ABT-263]]).
 
-### Connections
+#
+
+## Connections
 - [[Apoptosis]]: Bcl-2 is a key regulator of the [[Intrinsic Pathway]].
 - [[Bax]]: The ratio of Bcl-2 to Bax often determines the cell's susceptibility to apoptosis.
 - [[Survivin]]: Often co-expressed with other anti-apoptotic proteins in resistant tumors.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Bcl-2 family]], [[Apoptosis]], [[leukemia]], [[Prostate Cancer]], [[Oblimersen sodium]], [[ABT-737]], [[ABT-263]], [[Intrinsic Pathway]], [[Bax]], [[Survivin]]
 - Suggested new entity notes to create: [[Bcl-2 family]], [[Oblimersen sodium]], [[ABT-737]], [[ABT-263]], [[Bax]]
 - Strong connections to strengthen: [[Bcl-2]] ↔ [[Bax]]

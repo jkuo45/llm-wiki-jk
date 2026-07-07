@@ -44,7 +44,6 @@ Within minutes of DSB formation, hundreds to thousands of H2AX molecules flankin
 - [[Cellular Senescence]] — persistent γ-H2AX foci as hallmark
 
 ## Linking Summary
-
 - New links added: [[Histone H2A.Z]], [[SIRT6]], [[53BP1]], [[DNA Repair]], [[DNA Damage]], [[Cellular Senescence]], [[ATM]], [[ATR]], [[UBCS039]], [[MDL-800]]
 - Suggested new entity notes to create: None
 - Strong connections to strengthen: [[γ-H2AX]] ↔ [[SIRT6]], [[γ-H2AX]] ↔ [[53BP1]]

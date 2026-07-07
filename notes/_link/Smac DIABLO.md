@@ -21,8 +21,9 @@ Smac is synthesized as a precursor with an N-terminal [[Mitochondrial Targeting 
 
 Smac mimetics (e.g., [[LCL161]], [[Birinapant]], [[Debio 1143]]) are [[Small Molecule]] [[IAP Antagonists]] in clinical trials for [[Cancer]]. They synergize with [[TNFα]], [[TRAIL]], and [[Chemotherapy]] to induce apoptosis in cancer cells. Loss of Smac expression contributes to [[Chemoresistance]] across multiple cancer types.
 
-### Connections
+#
 
+## Connections
 - [[Apoptosis]] — Smac promotes caspase activation by neutralizing IAPs
 - [[XIAP]] — Smac binds XIAP to relieve caspase inhibition
 - [[Caspase-9]] / [[Caspase-3]] / [[Caspase-7]] — IAP targets; released by Smac binding
@@ -33,8 +34,7 @@ Smac mimetics (e.g., [[LCL161]], [[Birinapant]], [[Debio 1143]]) are [[Small Mol
 - [[Chemoresistance]] — Smac loss confers resistance to apoptosis induction
 - [[Fas Ligand]] — apoptotic stimulus that triggers Smac release
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[Apoptosis]], [[Caspase-9]], [[Caspase-3]], [[Caspase-7]], [[XIAP]], [[cIAP1]], [[cIAP2]], [[Cytochrome c]], [[Mitochondria]], [[Mitochondrial Intermembrane Space]], [[Cytosol]], [[Omi-HtrA2]], [[Fas Ligand]], [[UV Radiation]], [[Chemotherapy]], [[TNFα]], [[TRAIL]], [[Cancer]], [[Chemoresistance]], [[Small Molecule]]
 - Suggested new entity notes to create: [[IAP-binding motif]], [[AVPI peptide]], [[BIR domain]], [[Smac mimetic]], [[LCL161]], [[Birinapant]], [[Debio 1143]]
 - Strong connections to strengthen: [[Smac-DIABLO]] ↔ [[Apoptosis]], [[Smac-DIABLO]] ↔ [[XIAP]], [[Smac-DIABLO]] ↔ [[Cancer]]

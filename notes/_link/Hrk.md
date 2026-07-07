@@ -19,10 +19,12 @@ aliases: [Harakiri, BCL2 Interacting Protein]
 
 **Pathological significance:** Altered expression or mutation of Hrk is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
 
-### Connections
+#
+
+## Connections
 - [[Hrk]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Hrk]]
 - Strong connections to strengthen: [[Hrk]] ↔ [[Hrk]]
 

@@ -37,7 +37,7 @@ This pathway exhibits a **hormetic dose-response**: low-level electrophile expos
 - **Detoxification**: Enzymes such as [[NQO1]] catalyze two-electron reduction of quinoid electrophiles, bypassing semiquinone formation and facilitating glucuronidation or sulfation.
 - **Therapeutic window**: The hormetic principle suggests that controlled electrophilic signaling — through compounds like [[Carbazochrome]] or [[Methylene blue]] — could be harnessed for preconditioning and cytoprotection, provided the dose is maintained within the adaptive window.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Adrenochrome]], [[Hard-Soft Acid-Base (HSAB) Theory]], [[Michael addition]], [[Keap1]], [[NRF2]], [[Antioxidant Response Element]], [[NQO1]], [[HO-1]], [[Glutathione]], [[Apoptosis]], [[Carbazochrome]], [[Methylene blue]], [[PARK7]], [[Caspase-1]], [[Quinone]]
 - Suggested new entity notes to create: [[Electrophilic Stress]], [[Michael Acceptor]]
 - Strong connections to strengthen: [[Electrophile]] ↔ [[Adrenochrome]], [[Electrophile]] ↔ [[Redox Cycling]]

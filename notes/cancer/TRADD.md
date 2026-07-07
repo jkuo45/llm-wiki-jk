@@ -23,7 +23,7 @@ The recruitment of TRADD is a critical decision point that determines whether a 
 - [[Extrinsic Pathway]]: A key adaptor in the extrinsic initiation complex.
 - [[NFκB]]: A pathway activated by TRADD-associated survival complexes.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Apoptosis]], [[TNFR1]], [[FADD]], [[Caspase-8]], [[NFκB]], [[Extrinsic Pathway]]
 - Suggested new entity notes to create: [[FADD]]
 - Strong connections to strengthen: [[TRADD]] ↔ [[TNFR1]]

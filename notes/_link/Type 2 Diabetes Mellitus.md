@@ -25,12 +25,14 @@ database_ids:
 - [[SIRT6]] haploinsufficiency causes lethal hypoglycemia in mice; hepatic SIRT6 loss drives [[Steatosis|steatosis]] and insulin resistance.
 - [[NAD+]] levels decline in metabolic tissues during aging and obesity, reducing sirtuin activity and contributing to T2DM pathogenesis.
 
-### Connections
+#
+
+## Connections
 - [[Insulin Sensitivity]]: Central pathophysiological defect in T2DM.
 - [[AMPK]]: Sirtuins and AMPK cooperate to regulate metabolic homeostasis.
 - [[Caloric Restriction]] and [[Intermittent Fasting]]: Lifestyle interventions that improve T2DM via NAD+/sirtuin activation.
 - [[Resveratrol]]: A [[STACs|STAC]] shown to improve glucose homeostasis in T2DM models.
 - [[Nicotinamide Mononucleotide|NMN]] and [[Nicotinamide Riboside|NR]]: NAD+ precursors that enhance sirtuin activity and improve metabolic outcomes.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[SIRT1]], [[SIRT3]], [[SIRT4]], [[SIRT6]], [[NAD+]], [[AMPK]], [[Insulin Sensitivity]], [[Insulin Secretion]], [[Insulin Resistance]], [[Mitochondria]], [[Oxidative Phosphorylation]], [[Glutamate Dehydrogenase (GDH)]], [[Inflammation]], [[Obesity]], [[Metabolic Syndromes]], [[Caloric Restriction]], [[Intermittent Fasting]], [[Resveratrol]], [[STACs]], [[Nicotinamide Mononucleotide]], [[Nicotinamide Riboside]], [[Aging]]

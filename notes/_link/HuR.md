@@ -19,10 +19,12 @@ aliases: [ELAVL1]
 
 **Pathological significance:** Altered expression or mutation of HuR is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
 
-### Connections
+#
+
+## Connections
 - [[HuR]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[HuR]]
 - Strong connections to strengthen: [[HuR]] ↔ [[HuR]]
 

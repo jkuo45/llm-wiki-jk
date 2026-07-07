@@ -33,7 +33,6 @@ Stilbenes have garnered significant interest for their potential in:
 - Anti-[[Cancer|neoplastic]] and [[Apoptosis|pro-apoptotic]] activity
 
 ## Linking Summary
-
 - New links added: [[Polyphenols]], [[Resveratrol]], [[Antioxidants]], [[Inflammation]], [[Sirtuins]], [[Cardiovascular Disease]], [[Nitric Oxide]], [[Endothelial Dysfunction]], [[Aging]], [[Longevity]], [[SIRT1]], [[Cancer]], [[Apoptosis]]
 - Suggested new entity notes to create: [[Pterostilbene]], [[Piceatannol]], [[Pinosylvin]]
 - Strong connections to strengthen: [[Stilbene]] ↔ [[Resveratrol]], [[Stilbene]] ↔ [[Polyphenols]]

@@ -13,9 +13,11 @@ entity_type_1: Chemical Compound
 NAC is widely used to replenish glutathione stores and is a key component of the [[GlyNAC]] supplement (Glycine + NAC), which has been shown to improve various hallmarks of aging in clinical trials.
 
 
-### Connections
+#
+
+## Connections
 - [[Glutathione]] — interacts with N-Acetylcysteine
 - [[GlyNAC]] — interacts with N-Acetylcysteine
-### Linking Summary
+## Linking Summary
 - New links added: [[Glutathione]], [[GlyNAC]], [[Oxidative Stress]]
 - Strong connections to strengthen: [[N-Acetylcysteine]] ↔ [[Glutathione]]

@@ -45,16 +45,16 @@ In mammalian cells, catalase is predominantly localized within [[Peroxisomes]], 
 In [[Cancer]], catalase expression is frequently downregulated in tumor cells compared to their normal counterparts, particularly in [[Breast Cancer]], [[Prostate Cancer]], and [[Hepatocellular Carcinoma]]. This reduction in catalase activity elevates steady-state $H_2O_2$ levels, which paradoxically may promote proliferation by activating redox-sensitive transcription factors ([[NFKB]], [[AP-1]]) while simultaneously increasing genomic instability. The "catalase paradox" in aging is notable: [[Caloric Restriction]] upregulates catalase expression in several tissues, and mice overexpressing human catalase targeted to [[Mitochondria]] (MCAT mice) show a ~20% increase in median lifespan and delayed cardiac and cataract pathology, directly implicating mitochondrial $H_2O_2$ in the aging process.
 ## Interactions with Other Antioxidant Systems
 Catalase operates in parallel with the [[Glutathione Peroxidase]] (GPx) and [[Thioredoxin Peroxidase]] ([[Peroxiredoxin]]) systems. While GPx has a higher affinity for $H_2O_2$ ($K_m$ ~1–10 μM) than catalase ($K_m$ ~25–100 mM), catalase has a vastly higher $V_{max}$ and does not consume NADPH or glutathione. Thus, at low $H_2O_2$ fluxes, GPx predominates; at high fluxes (e.g., during the [[Respiratory Burst]] or in [[Peroxisomes]]), catalase becomes the dominant scavenger. The interplay between these systems is essential for maintaining the low steady-state $H_2O_2$ (~1–10 nM) typical of most cell types.
-### New Linking Summary (Added 2026-07-04):
+#
 
-### Connections
+## Connections
 - [[Hydrogen Peroxide]]
 - [[Oxidative Stress]]
 - [[Glutathione Peroxidase]]: Complementary $H_2O_2$-scavenging system with different kinetic properties.
 - [[Superoxide Dismutase]]: Generates the $H_2O_2$ that catalase detoxifies.
 - [[Peroxiredoxin]]: Another $H_2O_2$ scavenger with distinct catalytic mechanism.
 
-### Linking Summary
+## Linking Summary
 - New links added: [[Glutathione Peroxidase]], [[Glutathione]], [[Mitochondria]], [[Cytosol]], [[Ischemia-reperfusion Injury]], [[Diabetes Mellitus]], [[Atherosclerosis]], [[Cancer]], [[Breast Cancer]], [[NFKB]], [[Caloric Restriction]], [[Aging]], [[Superoxide Dismutase]], [[Peroxiredoxin]], [[Fatty acid oxidation]], [[Fenton Reaction]], [[Respiratory Burst]], [[Hydrogen Peroxide]], [[Reactive Oxygen Species]], [[Oxidative Stress]], [[Antioxidants]]
 - Suggested new entity notes to create: [[Acatalasemia]], [[Peroxisomes]], [[Compound I]], [[MCAT Mouse]], [[Takahara's Disease]], [[Enzyme]], [[Oxidative damage]]
 - Strong connections to strengthen: [[Catalase]] ↔ [[Oxidative Stress]], [[Catalase]] ↔ [[Hydrogen Peroxide]]

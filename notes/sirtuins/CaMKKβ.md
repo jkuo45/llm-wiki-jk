@@ -46,7 +46,5 @@ CaMKKβ is highly expressed in the [[Brain]], where it regulates [[Appetite]], [
 - [[SIRT1]] — Ultimately activated by this Ca2+-dependent pathway
 
 ## Linking Summary
-
 - New links added: [[CaMKKβ]], [[CAMKK2]], [[Calmodulin]], [[Appetite]], [[Energy Expenditure]], [[Neuronal Plasticity]], [[Hormesis]], [[Obesity]]
 - Suggested new entity notes to create: [[Ca2+ Signaling]], [[Calmodulin]]
-- Strong connections to strengthen: [[CaMKKβ]] ↔ [[AMPK]], [[Epac1]] ↔ [[CaMKKβ]], [[CaMKKβ]] ↔ [[SIRT1]]

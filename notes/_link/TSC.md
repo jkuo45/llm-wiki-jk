@@ -19,10 +19,12 @@ aliases: [Tuberous Sclerosis Complex, TSC1/TSC2]
 
 **Pathological significance:** Altered expression or mutation of TSC is associated with cancer, neurodegenerative diseases, and developmental disorders. It serves as a biomarker and therapeutic target in multiple clinical contexts.
 
-### Connections
+#
+
+## Connections
 - [[TSC]] — related entity
 
-### Linking Summary
+## Linking Summary
 - New links added: [[TSC]]
 - Strong connections to strengthen: [[TSC]] ↔ [[TSC]]
 

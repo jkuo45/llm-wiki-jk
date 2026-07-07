@@ -23,7 +23,7 @@ Deficiency in Puma or the p53 pathway leads to evasion of [[Apoptosis]] and prom
 - [[Intrinsic Pathway]]: Initiates mitochondrial-mediated cell death.
 - [[Bax]] / [[Bak]]: Downstream effectors of Puma.
 
-### Linking Summary:
+## Linking Summary
 - New links added: [[Bcl-2 family]], [[p53]], [[Bcl-2]], [[Bcl-xL]], [[Bax]], [[Bak]], [[Intrinsic Pathway]], [[Apoptosis]]
 - Suggested new entity notes to create: [[Bak]]
 - Strong connections to strengthen: [[Puma]] ↔ [[p53]]

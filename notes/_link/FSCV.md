@@ -21,8 +21,9 @@ A triangular voltage waveform is applied to a carbon-fiber [[Microelectrode]] at
 
 FSCV measures sub-second [[Dopamine]] release in awake, behaving animals (rodents). It is used to study [[Reward System]] function, [[Addiction]], [[Motivation]], and the effects of [[Psychostimulants]] ([[Cocaine]], [[Amphetamine]]). Recent advances enable [[Serotonin]] detection with modified waveforms.
 
-### Connections
+#
 
+## Connections
 - [[Dopamine]] — primary analyte detected by FSCV in neuroscience
 - [[Neurotransmitter]] — FSCV detects electroactive neurotransmitters
 - [[Carbon-fiber Microelectrode]] — the recording sensor for FSCV
@@ -32,8 +33,7 @@ FSCV measures sub-second [[Dopamine]] release in awake, behaving animals (rodent
 - [[Cocaine]] — effects on dopamine reuptake measured by FSCV
 - [[Serotonin]] — can be detected with modified FSCV waveforms
 
-### Linking Summary
-
+## Linking Summary
 - New links added: [[Dopamine]], [[Serotonin]], [[Norepinephrine]], [[Adenosine]], [[Neurotransmitter]], [[Carbon-fiber Microelectrode]], [[Cyclic Voltammetry]], [[Microelectrode]], [[Reward System]], [[Addiction]], [[Cocaine]], [[Amphetamine]], [[Motivation]], [[Psychostimulants]]
 - Suggested new entity notes to create: [[Faradaic current]], [[Cyclic voltammogram]], [[Carbon-fiber electrode]], [[Background subtraction]], [[Electrochemical detection]], [[In vivo electrochemistry]]
 - Strong connections to strengthen: [[FSCV]] ↔ [[Dopamine]], [[FSCV]] ↔ [[Addiction]]
