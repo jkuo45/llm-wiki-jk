@@ -25,20 +25,15 @@
 
 **Prerequisites:** Document in `raw/` with `_document_` prefix.
 
-**Agent Skills Used:**
-
-- `obsidian-markdown` — Step 1 (ingest & markup raw documents)
-- `research-scientist` — Steps 4 & 5 (entity enrichment, stub analysis, orphan resolution)
-
-| Step                             | Action                                                                                                                                                                                                                                                                                                                              | Output                                             |
-| -------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- |
-| **1. Ingest**                    | **Use `obsidian-markdown` skill** — read raw document, convert to Obsidian-flavored markdown with wiki links, callouts, properties, embeds                                                                                                                                                                                          | Structured markdown content for triples/entities   |
-| **2. Extract Triples**           | Append new triples to topic's `_triples_<topic>.json` (normalize entity names to canonical forms)                                                                                                                                                                                                                                   | Updated triples JSON in `notes/<topic>/`           |
-| **3. Regenerate Visualizations** | Run `uv run scripts/visualize_triples.py` on updated JSON → output `.svg`, `.dot`.                                                                                                                                                                                                                                                  | Graph visualizations co-located with triples       |
-| **4. Enrich/Create Entities**    | **Use `research-scientist` agent skill** — for each new entity: create `.md` in topic dir with OKF frontmatter, wiki links, Connections section, Linking Summary. For existing entities: append new content, adapt based on context, update `updated:` date.                                                                        | New/updated entity notes / enriched existing notes |
-| **5. Review Stubs & Orphans**    | **Use `research-scientist` agent skill** — cross-reference all triples subjects/objects against existing notes (all topics + `_link/`). For stubs: create entity notes for high-frequency/well-defined concepts; normalize composites to canonical entities. Apply Orphan Link Resolution (scan & normalize, resolve true orphans). | Resolved stubs, normalized triples                 |
-| **6. Update README**             | Update summary table (date, entity count, word count) + triples overview section (nodes, edges, predicates, high%, top subjects/objects/predicates, zh-TW)                                                                                                                                                                          | Current README metrics                             |
-| **7. Cross-Topic Links**         | If new entity spans topics → consolidate in `notes/_link/` per Overlapping Link Resolution rules (topic hubs stay in topic dir)                                                                                                                                                                                                     | `_link/` consistency                               |
+| Step                             | Action                                                                                                                                                                                                                                                                                   | Output                                             |
+| -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- |
+| **1. Ingest**                    | **Use `obsidian-markdown` skill** — read raw document, convert to Obsidian-flavored markdown with wiki links, callouts, properties, embeds                                                                                                                                               | Structured markdown content for triples/entities   |
+| **2. Extract Triples**           | Append new triples to topic's `_triples_<topic>.json` (normalize entity names to canonical forms)                                                                                                                                                                                        | Updated triples JSON in `notes/<topic>/`           |
+| **3. Regenerate Visualizations** | Run `uv run scripts/visualize_triples.py` on updated JSON → output `.svg`, `.dot`.                                                                                                                                                                                                       | Graph visualizations co-located with triples       |
+| **4. Enrich/Create Entities**    | **Use `research-scientist` agent skill** — for each new entity: create `.md` in topic dir with OKF frontmatter, wiki links, Connections section, Linking Summary. For existing entities: append new content, adapt based on context, update `updated:` date.                             | New/updated entity notes / enriched existing notes |
+| **5. Review Stubs & Orphans**    | cross-reference all triples subjects/objects against existing notes (all topics + `_link/`). For stubs: create entity notes for high-frequency/well-defined concepts; normalize composites to canonical entities. Apply Orphan Link Resolution (scan & normalize, resolve true orphans). | Resolved stubs, normalized triples                 |
+| **6. Update README**             | Update summary table (date, entity count, word count) + triples overview section (nodes, edges, predicates, high%, top subjects/objects/predicates, zh-TW)                                                                                                                               | Current README metrics                             |
+| **7. Cross-Topic Links**         | If new entity spans topics → consolidate in `notes/_link/` per Overlapping Link Resolution rules (topic hubs stay in topic dir)                                                                                                                                                          | `_link/` consistency                               |
 
 ## Linking Format (creating wiki entries/notes/documents):
 
@@ -159,11 +154,11 @@ tags: [] #
 
 ```
 
-### Connections
+## Connections
 
   - Entity Name - short description
 
-## Linking Summary
+## Linking Summary:
 
   - New links added: [[Entity1]], [[Entity2]], ...
   - Suggested new entity notes to create: [[Missing Concept]]
