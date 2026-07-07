@@ -239,7 +239,7 @@ def main():
     total_docs = 0
     for t in topic_data:
         topic_gh = f"https://github.com/jkuo45/llm-wiki/tree/dev/{urllib.parse.quote(notes_dir + '/' + t['topic'], safe='/')}"
-        topic_obsidian = f"[[notes/{t['topic']}/README\\|notes]]"
+        topic_obsidian = f"[[notes/{t['topic']}/README\\|link]]"
         topics_table.append(
             f"| [{t['topic']}]({topic_gh}) | {t['last_updated']} | {t['documents']} | {t['entities']} | {format_number(t['words'])} | {format_size(t['disk_size'])} | {topic_obsidian} |"
         )
