@@ -1,5 +1,1048 @@
 [
   {
+    "subject": "Adrenochrome",
+    "predicate": "has_type",
+    "object": "chemical",
+    "context": "Adrenochrome is a chemical",
+    "confidence": "high"
+  },
+  {
+    "subject": "Advanced Glycation End Products",
+    "predicate": "has_type",
+    "object": "chemical_class",
+    "context": "Advanced Glycation End Products is a chemical_class",
+    "confidence": "high"
+  },
+  {
+    "subject": "Autoxidation",
+    "predicate": "has_type",
+    "object": "chemical_process",
+    "context": "Autoxidation is a chemical_process",
+    "confidence": "high"
+  },
+  {
+    "subject": "Serum",
+    "predicate": "has_type",
+    "object": "anatomy",
+    "context": "Serum is a anatomy",
+    "confidence": "high"
+  },
+  {
+    "subject": "Maillard Reaction",
+    "predicate": "has_type",
+    "object": "chemical_process",
+    "context": "Maillard Reaction is a chemical_process",
+    "confidence": "high"
+  },
+  {
+    "subject": "Aminoguanidine",
+    "predicate": "has_type",
+    "object": "chemical",
+    "context": "Aminoguanidine is a chemical",
+    "confidence": "high"
+  },
+  {
+    "subject": "Hemoglobin",
+    "predicate": "has_type",
+    "object": "protein",
+    "context": "Hemoglobin is a protein",
+    "confidence": "high"
+  },
+  {
+    "subject": "Orlistat",
+    "predicate": "has_type",
+    "object": "chemical",
+    "context": "Orlistat is a chemical",
+    "confidence": "high"
+  },
+  {
+    "subject": "Lysine",
+    "predicate": "has_type",
+    "object": "chemical",
+    "context": "Lysine is a chemical",
+    "confidence": "high"
+  },
+  {
+    "subject": "Methylglyoxal",
+    "predicate": "has_type",
+    "object": "chemical",
+    "context": "Methylglyoxal is a chemical",
+    "confidence": "high"
+  },
+  {
+    "subject": "Rheumatoid Arthritis",
+    "predicate": "has_type",
+    "object": "medical_condition",
+    "context": "Rheumatoid Arthritis is a medical_condition",
+    "confidence": "high"
+  },
+  {
+    "subject": "Dicarbonyls",
+    "predicate": "has_type",
+    "object": "chemical_class",
+    "context": "Dicarbonyls is a chemical_class",
+    "confidence": "high"
+  },
+  {
+    "subject": "Longevity",
+    "predicate": "has_type",
+    "object": "scientific_concept",
+    "context": "Longevity is a scientific_concept",
+    "confidence": "high"
+  },
+  {
+    "subject": "Metformin",
+    "predicate": "has_type",
+    "object": "chemical",
+    "context": "Metformin is a chemical",
+    "confidence": "high"
+  },
+  {
+    "subject": "Diabetes",
+    "predicate": "has_type",
+    "object": "medical_condition",
+    "context": "Diabetes is a medical_condition",
+    "confidence": "high"
+  },
+  {
+    "subject": "Sarcopenia",
+    "predicate": "has_type",
+    "object": "medical_condition",
+    "context": "Sarcopenia is a medical_condition",
+    "confidence": "high"
+  },
+  {
+    "subject": "Inflammation",
+    "predicate": "has_type",
+    "object": "biological_process",
+    "context": "Inflammation is a biological_process",
+    "confidence": "high"
+  },
+  {
+    "subject": "Arginine",
+    "predicate": "has_type",
+    "object": "chemical",
+    "context": "Arginine is a chemical",
+    "confidence": "high"
+  },
+  {
+    "subject": "Oxidative Stress",
+    "predicate": "has_type",
+    "object": "scientific_concept",
+    "context": "Oxidative Stress is a scientific_concept",
+    "confidence": "high"
+  },
+  {
+    "subject": "Lifespan",
+    "predicate": "has_type",
+    "object": "scientific_concept",
+    "context": "Lifespan is a scientific_concept",
+    "confidence": "high"
+  },
+  {
+    "subject": "Glyoxal",
+    "predicate": "has_type",
+    "object": "chemical",
+    "context": "Glyoxal is a chemical",
+    "confidence": "high"
+  },
+  {
+    "subject": "Insulin Resistance",
+    "predicate": "has_type",
+    "object": "medical_condition",
+    "context": "Insulin Resistance is a medical_condition",
+    "confidence": "high"
+  },
+  {
+    "subject": "RAGE",
+    "predicate": "has_type",
+    "object": "receptor",
+    "context": "RAGE is a receptor",
+    "confidence": "high"
+  },
+  {
+    "subject": "Glycation",
+    "predicate": "has_type",
+    "object": "chemical_process",
+    "context": "Glycation is a chemical_process",
+    "confidence": "high"
+  },
+  {
+    "subject": "Aging",
+    "predicate": "has_type",
+    "object": "biological_process",
+    "context": "Aging is a biological_process",
+    "confidence": "high"
+  },
+  {
+    "subject": "NAD+",
+    "predicate": "has_type",
+    "object": "biological_molecule",
+    "context": "NAD+ is a biological_molecule",
+    "confidence": "high"
+  },
+  {
+    "subject": "PGC1α",
+    "predicate": "has_type",
+    "object": "protein",
+    "context": "PGC1α is a protein",
+    "confidence": "high"
+  },
+  {
+    "subject": "AMPK",
+    "predicate": "has_type",
+    "object": "enzyme",
+    "context": "AMPK is a enzyme",
+    "confidence": "high"
+  },
+  {
+    "subject": "Nicotinamide Riboside",
+    "predicate": "has_type",
+    "object": "chemical",
+    "context": "Nicotinamide Riboside is a chemical",
+    "confidence": "high"
+  },
+  {
+    "subject": "SIRT1",
+    "predicate": "has_type",
+    "object": "enzyme",
+    "context": "SIRT1 is a enzyme",
+    "confidence": "high"
+  },
+  {
+    "subject": "Lungs",
+    "predicate": "has_type",
+    "object": "anatomy",
+    "context": "Lungs is a anatomy",
+    "confidence": "high"
+  },
+  {
+    "subject": "Homeostasis",
+    "predicate": "has_type",
+    "object": "scientific_concept",
+    "context": "Homeostasis is a scientific_concept",
+    "confidence": "high"
+  },
+  {
+    "subject": "Mitophagy",
+    "predicate": "has_type",
+    "object": "biological_process",
+    "context": "Mitophagy is a biological_process",
+    "confidence": "high"
+  },
+  {
+    "subject": "Quality Control",
+    "predicate": "has_type",
+    "object": "laboratory_standard",
+    "context": "Quality Control is a laboratory_standard",
+    "confidence": "high"
+  },
+  {
+    "subject": "Antioxidant Response Element",
+    "predicate": "has_type",
+    "object": "pharmacological_action",
+    "context": "Antioxidant Response Element is a pharmacological_action",
+    "confidence": "high"
+  },
+  {
+    "subject": "Urolithin A",
+    "predicate": "has_type",
+    "object": "chemical",
+    "context": "Urolithin A is a chemical",
+    "confidence": "high"
+  },
+  {
+    "subject": "Nrf2",
+    "predicate": "has_type",
+    "object": "protein",
+    "context": "Nrf2 is a protein",
+    "confidence": "high"
+  },
+  {
+    "subject": "Keap1",
+    "predicate": "has_type",
+    "object": "protein",
+    "context": "Keap1 is a protein",
+    "confidence": "high"
+  },
+  {
+    "subject": "Glutathione",
+    "predicate": "has_type",
+    "object": "biological_molecule",
+    "context": "Glutathione is a biological_molecule",
+    "confidence": "high"
+  },
+  {
+    "subject": "Alagebrium",
+    "predicate": "has_type",
+    "object": "chemical",
+    "context": "Alagebrium is a chemical",
+    "confidence": "high"
+  },
+  {
+    "subject": "Mass Spectrometry",
+    "predicate": "has_type",
+    "object": "analytical_technique",
+    "context": "Mass Spectrometry is a analytical_technique",
+    "confidence": "high"
+  },
+  {
+    "subject": "Hemolysis",
+    "predicate": "has_type",
+    "object": "biological_process",
+    "context": "Hemolysis is a biological_process",
+    "confidence": "high"
+  },
+  {
+    "subject": "Lidocaine",
+    "predicate": "has_type",
+    "object": "chemical",
+    "context": "Lidocaine is a chemical",
+    "confidence": "high"
+  },
+  {
+    "subject": "Chloroquine",
+    "predicate": "has_type",
+    "object": "chemical",
+    "context": "Chloroquine is a chemical",
+    "confidence": "high"
+  },
+  {
+    "subject": "Exchange transfusion",
+    "predicate": "has_type",
+    "object": "medical_treatment",
+    "context": "Exchange transfusion is a medical_treatment",
+    "confidence": "high"
+  },
+  {
+    "subject": "Cyanosis",
+    "predicate": "has_type",
+    "object": "clinical_sign",
+    "context": "Cyanosis is a clinical_sign",
+    "confidence": "high"
+  },
+  {
+    "subject": "Ascorbic Acid",
+    "predicate": "has_type",
+    "object": "chemical",
+    "context": "Ascorbic Acid is a chemical",
+    "confidence": "high"
+  },
+  {
+    "subject": "Methemoglobinemia",
+    "predicate": "has_type",
+    "object": "medical_condition",
+    "context": "Methemoglobinemia is a medical_condition",
+    "confidence": "high"
+  },
+  {
+    "subject": "Benzocaine",
+    "predicate": "has_type",
+    "object": "chemical",
+    "context": "Benzocaine is a chemical",
+    "confidence": "high"
+  },
+  {
+    "subject": "Arterial blood gas",
+    "predicate": "has_type",
+    "object": "diagnostic_test",
+    "context": "Arterial blood gas is a diagnostic_test",
+    "confidence": "high"
+  },
+  {
+    "subject": "Pulse oximetry",
+    "predicate": "has_type",
+    "object": "diagnostic_test",
+    "context": "Pulse oximetry is a diagnostic_test",
+    "confidence": "high"
+  },
+  {
+    "subject": "Amyl nitrite",
+    "predicate": "has_type",
+    "object": "chemical",
+    "context": "Amyl nitrite is a chemical",
+    "confidence": "high"
+  },
+  {
+    "subject": "NADH-dependent methemoglobin reductase",
+    "predicate": "has_type",
+    "object": "enzyme",
+    "context": "NADH-dependent methemoglobin reductase is a enzyme",
+    "confidence": "high"
+  },
+  {
+    "subject": "Methylene blue",
+    "predicate": "has_type",
+    "object": "chemical",
+    "context": "Methylene blue is a chemical",
+    "confidence": "high"
+  },
+  {
+    "subject": "Cytochrome b5 reductase",
+    "predicate": "has_type",
+    "object": "enzyme",
+    "context": "Cytochrome b5 reductase is a enzyme",
+    "confidence": "high"
+  },
+  {
+    "subject": "Diaphorase",
+    "predicate": "has_type",
+    "object": "enzyme",
+    "context": "Diaphorase is a enzyme",
+    "confidence": "high"
+  },
+  {
+    "subject": "Hyperbaric oxygen",
+    "predicate": "has_type",
+    "object": "medical_treatment",
+    "context": "Hyperbaric oxygen is a medical_treatment",
+    "confidence": "high"
+  },
+  {
+    "subject": "Methemoglobin",
+    "predicate": "has_type",
+    "object": "protein",
+    "context": "Methemoglobin is a protein",
+    "confidence": "high"
+  },
+  {
+    "subject": "Hemoglobin M",
+    "predicate": "has_type",
+    "object": "protein",
+    "context": "Hemoglobin M is a protein",
+    "confidence": "high"
+  },
+  {
+    "subject": "Dapsone",
+    "predicate": "has_type",
+    "object": "chemical",
+    "context": "Dapsone is a chemical",
+    "confidence": "high"
+  },
+  {
+    "subject": "Prilocaine",
+    "predicate": "has_type",
+    "object": "chemical",
+    "context": "Prilocaine is a chemical",
+    "confidence": "high"
+  },
+  {
+    "subject": "Co-oximetry",
+    "predicate": "has_type",
+    "object": "diagnostic_test",
+    "context": "Co-oximetry is a diagnostic_test",
+    "confidence": "high"
+  },
+  {
+    "subject": "Rasburicase",
+    "predicate": "has_type",
+    "object": "enzyme",
+    "context": "Rasburicase is a enzyme",
+    "confidence": "high"
+  },
+  {
+    "subject": "G6PD deficiency",
+    "predicate": "has_type",
+    "object": "genetic_variant",
+    "context": "G6PD deficiency is a genetic_variant",
+    "confidence": "high"
+  },
+  {
+    "subject": "Sodium nitrite",
+    "predicate": "has_type",
+    "object": "chemical",
+    "context": "Sodium nitrite is a chemical",
+    "confidence": "high"
+  },
+  {
+    "subject": "Isobutyl nitrite",
+    "predicate": "has_type",
+    "object": "chemical",
+    "context": "Isobutyl nitrite is a chemical",
+    "confidence": "high"
+  },
+  {
+    "subject": "Mitohormesis",
+    "predicate": "has_type",
+    "object": "scientific_concept",
+    "context": "Mitohormesis is a scientific_concept",
+    "confidence": "high"
+  },
+  {
+    "subject": "Actinonin",
+    "predicate": "has_type",
+    "object": "chemical",
+    "context": "Actinonin is a chemical",
+    "confidence": "high"
+  },
+  {
+    "subject": "Toren Finkel",
+    "predicate": "has_type",
+    "object": "organization",
+    "context": "Toren Finkel is a organization",
+    "confidence": "high"
+  },
+  {
+    "subject": "Xenohormesis",
+    "predicate": "has_type",
+    "object": "scientific_concept",
+    "context": "Xenohormesis is a scientific_concept",
+    "confidence": "high"
+  },
+  {
+    "subject": "2-deoxy-D-glucose",
+    "predicate": "has_type",
+    "object": "chemical",
+    "context": "2-deoxy-D-glucose is a chemical",
+    "confidence": "high"
+  },
+  {
+    "subject": "Jeanho Yun",
+    "predicate": "has_type",
+    "object": "organization",
+    "context": "Jeanho Yun is a organization",
+    "confidence": "high"
+  },
+  {
+    "subject": "Neurodegeneration",
+    "predicate": "has_type",
+    "object": "medical_condition",
+    "context": "Neurodegeneration is a medical_condition",
+    "confidence": "high"
+  },
+  {
+    "subject": "FGF21",
+    "predicate": "has_type",
+    "object": "protein",
+    "context": "FGF21 is a protein",
+    "confidence": "high"
+  },
+  {
+    "subject": "Hormesis",
+    "predicate": "has_type",
+    "object": "scientific_concept",
+    "context": "Hormesis is a scientific_concept",
+    "confidence": "high"
+  },
+  {
+    "subject": "OMA1",
+    "predicate": "has_type",
+    "object": "enzyme",
+    "context": "OMA1 is a enzyme",
+    "confidence": "high"
+  },
+  {
+    "subject": "ATF4",
+    "predicate": "has_type",
+    "object": "protein",
+    "context": "ATF4 is a protein",
+    "confidence": "high"
+  },
+  {
+    "subject": "Integrated Stress Response",
+    "predicate": "has_type",
+    "object": "biological_process",
+    "context": "Integrated Stress Response is a biological_process",
+    "confidence": "high"
+  },
+  {
+    "subject": "MAO",
+    "predicate": "has_type",
+    "object": "enzyme",
+    "context": "MAO is a enzyme",
+    "confidence": "high"
+  },
+  {
+    "subject": "Mitochondrial Unfolded Protein Response",
+    "predicate": "has_type",
+    "object": "biological_process",
+    "context": "Mitochondrial Unfolded Protein Response is a biological_process",
+    "confidence": "high"
+  },
+  {
+    "subject": "DELE1",
+    "predicate": "has_type",
+    "object": "protein",
+    "context": "DELE1 is a protein",
+    "confidence": "high"
+  },
+  {
+    "subject": "HRI",
+    "predicate": "has_type",
+    "object": "enzyme",
+    "context": "HRI is a enzyme",
+    "confidence": "high"
+  },
+  {
+    "subject": "GDF15",
+    "predicate": "has_type",
+    "object": "protein",
+    "context": "GDF15 is a protein",
+    "confidence": "high"
+  },
+  {
+    "subject": "Silver(1+) oxide",
+    "predicate": "has_type",
+    "object": "chemical",
+    "context": "Silver(1+) oxide is a chemical compound",
+    "confidence": "high"
+  },
+  {
+    "subject": "Cardiotoxicity",
+    "predicate": "has_type",
+    "object": "adverse_effect",
+    "context": "Cardiotoxicity is a adverse_effect",
+    "confidence": "high"
+  },
+  {
+    "subject": "Heart disease",
+    "predicate": "has_type",
+    "object": "medical_condition",
+    "context": "Heart disease is a medical_condition",
+    "confidence": "high"
+  },
+  {
+    "subject": "Adrenochrome Pathway",
+    "predicate": "has_type",
+    "object": "pathway",
+    "context": "Adrenochrome Pathway is a pathway",
+    "confidence": "high"
+  },
+  {
+    "subject": "Neutrophils",
+    "predicate": "has_type",
+    "object": "cell_type",
+    "context": "Neutrophils is a cell_type",
+    "confidence": "high"
+  },
+  {
+    "subject": "Myocardial infarction",
+    "predicate": "has_type",
+    "object": "medical_condition",
+    "context": "Myocardial infarction is a medical_condition",
+    "confidence": "high"
+  },
+  {
+    "subject": "Epinephrine",
+    "predicate": "has_type",
+    "object": "chemical",
+    "context": "Epinephrine is a chemical",
+    "confidence": "high"
+  },
+  {
+    "subject": "HPLC",
+    "predicate": "has_type",
+    "object": "analytical_technique",
+    "context": "HPLC is a analytical_technique",
+    "confidence": "high"
+  },
+  {
+    "subject": "Cell necrosis",
+    "predicate": "has_type",
+    "object": "biological_process",
+    "context": "Cell necrosis is a biological_process",
+    "confidence": "high"
+  },
+  {
+    "subject": "Adrenolutin",
+    "predicate": "has_type",
+    "object": "chemical",
+    "context": "Adrenolutin is a chemical",
+    "confidence": "high"
+  },
+  {
+    "subject": "Coronary artery constriction",
+    "predicate": "has_type",
+    "object": "symptom",
+    "context": "Coronary artery constriction is a symptom",
+    "confidence": "high"
+  },
+  {
+    "subject": "Arrhythmias",
+    "predicate": "has_type",
+    "object": "symptom",
+    "context": "Arrhythmias is a symptom",
+    "confidence": "high"
+  },
+  {
+    "subject": "Myocardium",
+    "predicate": "has_type",
+    "object": "anatomy",
+    "context": "Myocardium is a anatomy",
+    "confidence": "high"
+  },
+  {
+    "subject": "Adrenochrome monoaminoguanidine",
+    "predicate": "has_type",
+    "object": "chemical",
+    "context": "AMM is a chemical compound",
+    "confidence": "high"
+  },
+  {
+    "subject": "Potassium ferricyanide",
+    "predicate": "has_type",
+    "object": "chemical",
+    "context": "Potassium ferricyanide is a chemical",
+    "confidence": "high"
+  },
+  {
+    "subject": "EDTA",
+    "predicate": "has_type",
+    "object": "chemical",
+    "context": "EDTA is a chemical",
+    "confidence": "high"
+  },
+  {
+    "subject": "Carbazochrome",
+    "predicate": "has_type",
+    "object": "chemical",
+    "context": "Carbazochrome is a chemical",
+    "confidence": "high"
+  },
+  {
+    "subject": "Redox Cycling",
+    "predicate": "has_type",
+    "object": "chemical_process",
+    "context": "Redox Cycling is a chemical_process",
+    "confidence": "high"
+  },
+  {
+    "subject": "SASP",
+    "predicate": "has_type",
+    "object": "biological_process",
+    "context": "SASP is a biological_process",
+    "confidence": "high"
+  },
+  {
+    "subject": "Senomorphics",
+    "predicate": "has_type",
+    "object": "pharmacological_action",
+    "context": "Senomorphics is a pharmacological_action",
+    "confidence": "high"
+  },
+  {
+    "subject": "Aminochromes",
+    "predicate": "has_type",
+    "object": "chemical_class",
+    "context": "Aminochromes is a chemical_class",
+    "confidence": "high"
+  },
+  {
+    "subject": "NQO1",
+    "predicate": "has_type",
+    "object": "enzyme",
+    "context": "NQO1 is a enzyme",
+    "confidence": "high"
+  },
+  {
+    "subject": "Michael addition",
+    "predicate": "has_type",
+    "object": "chemical_process",
+    "context": "Michael addition is a chemical_process",
+    "confidence": "high"
+  },
+  {
+    "subject": "DT-diaphorase",
+    "predicate": "has_type",
+    "object": "enzyme",
+    "context": "DT-diaphorase is a enzyme",
+    "confidence": "high"
+  },
+  {
+    "subject": "Melanins",
+    "predicate": "has_type",
+    "object": "chemical_class",
+    "context": "Melanins is a chemical_class",
+    "confidence": "high"
+  },
+  {
+    "subject": "Sodium Metabisulfite",
+    "predicate": "has_type",
+    "object": "chemical",
+    "context": "Sodium Metabisulfite is a chemical",
+    "confidence": "high"
+  },
+  {
+    "subject": "COMT",
+    "predicate": "has_type",
+    "object": "enzyme",
+    "context": "COMT is a enzyme",
+    "confidence": "high"
+  },
+  {
+    "subject": "Superoxide anion",
+    "predicate": "has_type",
+    "object": "biological_molecule",
+    "context": "Superoxide anion is a biological_molecule",
+    "confidence": "high"
+  },
+  {
+    "subject": "Neffy",
+    "predicate": "has_type",
+    "object": "medical_product",
+    "context": "Neffy is a medical_product",
+    "confidence": "high"
+  },
+  {
+    "subject": "Dopamine hypothesis",
+    "predicate": "has_type",
+    "object": "scientific_theory",
+    "context": "Dopamine hypothesis is a scientific_theory",
+    "confidence": "high"
+  },
+  {
+    "subject": "Abram Hoffer",
+    "predicate": "has_type",
+    "object": "organization",
+    "context": "Abram Hoffer is a organization",
+    "confidence": "high"
+  },
+  {
+    "subject": "Adrenochrome Hypothesis",
+    "predicate": "has_type",
+    "object": "scientific_theory",
+    "context": "Adrenochrome Hypothesis is a scientific_theory",
+    "confidence": "high"
+  },
+  {
+    "subject": "Bisulfite",
+    "predicate": "has_type",
+    "object": "chemical",
+    "context": "Bisulfite is a chemical",
+    "confidence": "high"
+  },
+  {
+    "subject": "Adrenochrome sulfonate",
+    "predicate": "has_type",
+    "object": "chemical",
+    "context": "Adrenochrome sulfonate is a chemical",
+    "confidence": "high"
+  },
+  {
+    "subject": "Anaphylaxis",
+    "predicate": "has_type",
+    "object": "medical_condition",
+    "context": "Anaphylaxis is a medical_condition",
+    "confidence": "high"
+  },
+  {
+    "subject": "H-NMR",
+    "predicate": "has_type",
+    "object": "analytical_technique",
+    "context": "H-NMR is a analytical_technique",
+    "confidence": "high"
+  },
+  {
+    "subject": "Reference standard",
+    "predicate": "has_type",
+    "object": "laboratory_standard",
+    "context": "Reference standard is a laboratory_standard",
+    "confidence": "high"
+  },
+  {
+    "subject": "Argon",
+    "predicate": "has_type",
+    "object": "chemical",
+    "context": "Argon is a chemical",
+    "confidence": "high"
+  },
+  {
+    "subject": "Leuco-adrenochrome",
+    "predicate": "has_type",
+    "object": "chemical",
+    "context": "Leuco-adrenochrome is a chemical",
+    "confidence": "high"
+  },
+  {
+    "subject": "Certificate of Analysis",
+    "predicate": "has_type",
+    "object": "laboratory_standard",
+    "context": "Certificate of Analysis is a laboratory_standard",
+    "confidence": "high"
+  },
+  {
+    "subject": "Symjepi",
+    "predicate": "has_type",
+    "object": "medical_product",
+    "context": "Symjepi is a medical_product",
+    "confidence": "high"
+  },
+  {
+    "subject": "EpiPen",
+    "predicate": "has_type",
+    "object": "medical_product",
+    "context": "EpiPen is a medical_product",
+    "confidence": "high"
+  },
+  {
+    "subject": "Thioglycerol",
+    "predicate": "has_type",
+    "object": "chemical",
+    "context": "Thioglycerol is a chemical",
+    "confidence": "high"
+  },
+  {
+    "subject": "Catecholamines",
+    "predicate": "has_type",
+    "object": "chemical_class",
+    "context": "Catecholamines is a chemical_class",
+    "confidence": "high"
+  },
+  {
+    "subject": "Cysteine",
+    "predicate": "has_type",
+    "object": "chemical",
+    "context": "Cysteine is a chemical",
+    "confidence": "high"
+  },
+  {
+    "subject": "Humphry Osmond",
+    "predicate": "has_type",
+    "object": "organization",
+    "context": "Humphry Osmond is a organization",
+    "confidence": "high"
+  },
+  {
+    "subject": "adrenaline-quinone",
+    "predicate": "has_type",
+    "object": "chemical",
+    "context": "adrenaline-quinone is a chemical",
+    "confidence": "high"
+  },
+  {
+    "subject": "Assay",
+    "predicate": "has_type",
+    "object": "analytical_technique",
+    "context": "Assay is a analytical_technique",
+    "confidence": "high"
+  },
+  {
+    "subject": "LC-MS",
+    "predicate": "has_type",
+    "object": "analytical_technique",
+    "context": "LC-MS is a analytical_technique",
+    "confidence": "high"
+  },
+  {
+    "subject": "Nitrogen gas",
+    "predicate": "has_type",
+    "object": "chemical",
+    "context": "Nitrogen gas is a chemical",
+    "confidence": "high"
+  },
+  {
+    "subject": "Oxyhemoglobin",
+    "predicate": "has_type",
+    "object": "protein",
+    "context": "Oxyhemoglobin is a protein",
+    "confidence": "high"
+  },
+  {
+    "subject": "Erythrocytes",
+    "predicate": "has_type",
+    "object": "cell_type",
+    "context": "Erythrocytes is a cell_type",
+    "confidence": "high"
+  },
+  {
+    "subject": "Seahorse XF Analyzer",
+    "predicate": "has_type",
+    "object": "analytical_technique",
+    "context": "Seahorse XF Analyzer is a analytical_technique",
+    "confidence": "high"
+  },
+  {
+    "subject": "Mitochondrial biogenesis",
+    "predicate": "has_type",
+    "object": "biological_process",
+    "context": "Mitochondrial biogenesis is a biological_process",
+    "confidence": "high"
+  },
+  {
+    "subject": "Mitohormetic Redox-Relay",
+    "predicate": "has_type",
+    "object": "scientific_concept",
+    "context": "Mitohormetic Redox-Relay is a scientific_concept",
+    "confidence": "high"
+  },
+  {
+    "subject": "Carbazochrome sulfonic acid",
+    "predicate": "has_type",
+    "object": "chemical",
+    "context": "Carbazochrome sulfonic acid is a chemical",
+    "confidence": "high"
+  },
+  {
+    "subject": "Smoking",
+    "predicate": "has_type",
+    "object": "biological_process",
+    "context": "Smoking is a biological_process",
+    "confidence": "high"
+  },
+  {
+    "subject": "Cardiomyocytes",
+    "predicate": "has_type",
+    "object": "cell_type",
+    "context": "Cardiomyocytes is a cell_type",
+    "confidence": "high"
+  },
+  {
+    "subject": "Endothelial cells",
+    "predicate": "has_type",
+    "object": "cell_type",
+    "context": "Endothelial cells is a cell_type",
+    "confidence": "high"
+  },
+  {
+    "subject": "Substantia Nigra",
+    "predicate": "has_type",
+    "object": "anatomy",
+    "context": "Substantia Nigra is a anatomy",
+    "confidence": "high"
+  },
+  {
+    "subject": "Sympathetic nerve endings",
+    "predicate": "has_type",
+    "object": "anatomy",
+    "context": "Sympathetic nerve endings is a anatomy",
+    "confidence": "high"
+  },
+  {
+    "subject": "Adrenal medulla",
+    "predicate": "has_type",
+    "object": "anatomy",
+    "context": "Adrenal medulla is a anatomy",
+    "confidence": "high"
+  },
+  {
+    "subject": "Rheumatoid synovial fluid",
+    "predicate": "has_type",
+    "object": "anatomy",
+    "context": "Rheumatoid synovial fluid is a anatomy",
+    "confidence": "high"
+  },
+  {
+    "subject": "Chromaffin cells",
+    "predicate": "has_type",
+    "object": "cell_type",
+    "context": "Chromaffin cells is a cell_type",
+    "confidence": "high"
+  },
+  {
+    "subject": "Detoxification",
+    "predicate": "has_type",
+    "object": "biological_process",
+    "context": "Detoxification is a biological_process",
+    "confidence": "high"
+  },
+  {
+    "subject": "Myeloperoxidase",
+    "predicate": "has_type",
+    "object": "enzyme",
+    "context": "Myeloperoxidase is a enzyme",
+    "confidence": "high"
+  },
+  {
     "subject": "Inflammation",
     "predicate": "drives",
     "object": "Adrenochrome formation",
@@ -63,10 +1106,10 @@
     "confidence": "high"
   },
   {
-    "subject": "PGC1\u03b1",
+    "subject": "PGC1α",
     "predicate": "induces",
     "object": "Mitochondrial biogenesis",
-    "context": "PGC1\u03b1 drives mitochondrial biogenesis",
+    "context": "PGC1α drives mitochondrial biogenesis",
     "confidence": "high"
   },
   {
@@ -79,15 +1122,15 @@
   {
     "subject": "AMPK",
     "predicate": "activates",
-    "object": "PGC1\u03b1",
-    "context": "AMPK phosphorylates and activates PGC1\u03b1",
+    "object": "PGC1α",
+    "context": "AMPK phosphorylates and activates PGC1α",
     "confidence": "high"
   },
   {
     "subject": "SIRT1",
     "predicate": "deacetylates",
-    "object": "PGC1\u03b1",
-    "context": "SIRT1 deacetylates PGC1\u03b1 to activate it",
+    "object": "PGC1α",
+    "context": "SIRT1 deacetylates PGC1α to activate it",
     "confidence": "high"
   },
   {
@@ -205,8 +1248,8 @@
   {
     "subject": "HRI",
     "predicate": "phosphorylates",
-    "object": "eIF2\u03b1",
-    "context": "HRI phosphorylates eIF2\u03b1 to activate ISR",
+    "object": "eIF2α",
+    "context": "HRI phosphorylates eIF2α to activate ISR",
     "confidence": "high"
   },
   {
@@ -445,6 +1488,209 @@
     "predicate": "promotes",
     "object": "Adrenochrome pathway",
     "context": "Blocking MAO may shift epinephrine toward adrenochrome",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Carbazochrome",
+    "predicate": "stimulates",
+    "object": "PGC1α",
+    "context": "Carbazochrome stimulates PGC1α via the SIRT1/AMPK axis, primed by NAD+ precursors",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Methylene blue",
+    "predicate": "acts_as",
+    "object": "alternative electron carrier",
+    "context": "Methylene blue acts as an alternative electron carrier bypassing damaged Complex I/III",
+    "confidence": "high"
+  },
+  {
+    "subject": "Methylene blue",
+    "predicate": "bypasses",
+    "object": "Complex I",
+    "context": "Methylene blue bypasses damaged Complex I/III to maintain electron flow",
+    "confidence": "high"
+  },
+  {
+    "subject": "Methylene blue",
+    "predicate": "reduces",
+    "object": "ROS generation",
+    "context": "Methylene blue reduces the potential for runaway ROS generation while maintaining signaling pulse",
+    "confidence": "high"
+  },
+  {
+    "subject": "Methylene blue",
+    "predicate": "accepts",
+    "object": "electrons from NADH",
+    "context": "Methylene blue accepts electrons from NADH near Complex I",
+    "confidence": "high"
+  },
+  {
+    "subject": "Methylene blue",
+    "predicate": "donates",
+    "object": "electrons to cytochrome c",
+    "context": "Methylene blue accepts electrons from NADH and donates to cytochrome c",
+    "confidence": "high"
+  },
+  {
+    "subject": "NAD+",
+    "predicate": "supports",
+    "object": "SIRT3",
+    "context": "NAD+ is critical for sirtuins including SIRT3",
+    "confidence": "high"
+  },
+  {
+    "subject": "NAD+",
+    "predicate": "supports",
+    "object": "PARP",
+    "context": "NAD+ is critical for PARP enzymes",
+    "confidence": "high"
+  },
+  {
+    "subject": "Urolithin A",
+    "predicate": "promotes",
+    "object": "PINK1/Parkin pathway",
+    "context": "Urolithin A promotes selective mitophagy via PINK1/Parkin and other pathways",
+    "confidence": "high"
+  },
+  {
+    "subject": "Adrenochrome monoaminoguanidine",
+    "predicate": "induces",
+    "object": "Unfolded Protein Response",
+    "context": "The adrenochrome moiety induces mild ER-stress response upregulating chaperone proteins and priming autophagy",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Spermidine",
+    "predicate": "induces",
+    "object": "macroautophagy",
+    "context": "Spermidine enhances general macroautophagy facilitating removal of glycated and oxidized proteins",
+    "confidence": "high"
+  },
+  {
+    "subject": "Spermidine",
+    "predicate": "reverses",
+    "object": "arterial aging",
+    "context": "Spermidine reverses arterial aging, improves endothelial function, and reduces stiffness",
+    "confidence": "high"
+  },
+  {
+    "subject": "Carnosine",
+    "predicate": "chelates",
+    "object": "transition metals",
+    "context": "Carnosine chelates divalent metals via its imidazole ring, inhibiting Fenton chemistry",
+    "confidence": "high"
+  },
+  {
+    "subject": "Carnosine",
+    "predicate": "acts_as",
+    "object": "antioxidant",
+    "context": "Carnosine scavenges ROS and quenches lipid peroxidation products",
+    "confidence": "high"
+  },
+  {
+    "subject": "Adrenochrome",
+    "predicate": "induces",
+    "object": "ER stress",
+    "context": "Adrenochrome induces controlled ER stress and UPR activation as a hormetic signal",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Aminoguanidine",
+    "predicate": "traps",
+    "object": "dicarbonyls",
+    "context": "Aminoguanidine traps reactive carbonyl intermediates like dicarbonyls preventing AGE formation",
+    "confidence": "high"
+  },
+  {
+    "subject": "20S proteasome",
+    "predicate": "degrades",
+    "object": "oxidized proteins",
+    "context": "The 20S proteasome is the primary system for removing oxidatively damaged proteins",
+    "confidence": "high"
+  },
+  {
+    "subject": "Glycation",
+    "predicate": "impairs",
+    "object": "proteasome function",
+    "context": "Heavy glycation and cross-linking can inhibit the proteasome itself",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Adrenochrome",
+    "predicate": "sensitizes",
+    "object": "senescent cells",
+    "context": "Adrenochrome acts as a controlled metabolic stressor to push vulnerable senescent cells into apoptosis",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Adrenochrome",
+    "predicate": "depletes",
+    "object": "Glutathione",
+    "context": "Adrenochrome can deplete antioxidants like glutathione and ascorbate",
+    "confidence": "high"
+  },
+  {
+    "subject": "Rapamycin",
+    "predicate": "suppresses",
+    "object": "SASP",
+    "context": "Rapamycin decouples ROS signal from pro-inflammatory SASP production via NF-κB inhibition",
+    "confidence": "high"
+  },
+  {
+    "subject": "Fisetin",
+    "predicate": "acts_as",
+    "object": "senolytic",
+    "context": "Fisetin exploits the primed stressed state of senescent cells to induce selective senolysis",
+    "confidence": "high"
+  },
+  {
+    "subject": "Fisetin",
+    "predicate": "modulates",
+    "object": "PI3K/AKT pathway",
+    "context": "Fisetin induces apoptosis via modulating PI3K/AKT and BCL-2 family pathways",
+    "confidence": "medium"
+  },
+  {
+    "subject": "GlyNAC",
+    "predicate": "acts_as",
+    "object": "redox buffer",
+    "context": "GlyNAC serves as the Redox Buffer, protecting healthy tissue from collateral oxidative stress",
+    "confidence": "high"
+  },
+  {
+    "subject": "GlyNAC",
+    "predicate": "corrects",
+    "object": "glutathione deficiency",
+    "context": "GlyNAC provides glycine and NAC for robust glutathione replenishment in aging",
+    "confidence": "high"
+  },
+  {
+    "subject": "Ligand-conjugated nanoparticles",
+    "predicate": "target",
+    "object": "senescent cells",
+    "context": "Ligand-conjugated nanoparticles bind specific surface markers for selective delivery to senescent cells",
+    "confidence": "medium"
+  },
+  {
+    "subject": "Ligand-conjugated nanoparticles",
+    "predicate": "protects",
+    "object": "Adrenochrome from autoxidation",
+    "context": "Nanoparticle encapsulation protects adrenochrome from premature autoxidation in blood and plasma",
+    "confidence": "medium"
+  },
+  {
+    "subject": "CD9",
+    "predicate": "is",
+    "object": "senescent cell marker",
+    "context": "CD9 is a tetraspanin upregulated on some senescent cells used for targeted nanoparticle delivery",
+    "confidence": "medium"
+  },
+  {
+    "subject": "B2M",
+    "predicate": "is",
+    "object": "senescent cell marker",
+    "context": "B2M is a component of MHC class I enriched on senescent cell surfaces",
     "confidence": "medium"
   }
 ]

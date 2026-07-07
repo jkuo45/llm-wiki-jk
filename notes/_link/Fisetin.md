@@ -5,7 +5,7 @@ description: Fisetin is a plant Flavonoids and antioxidant found in many fruits 
   senolytic agent, selectively inducing apoptosi...
 type: entity
 created: 2026-05-25
-updated: 2026-07-04
+updated: 2026-07-07
 tags:
   - chemical-compound
 aliases: []
@@ -40,6 +40,9 @@ List of documents that mention this entity
   - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
     - Several other polyphenols, structurally related to Resveratrol, were also found to activate SIRTs, including the chalcones butein and isoliquiritigenin, the flavones Fisetin and Quercetin, and the stilbene Stilbene.
 
+  - [[_document_ -  (protocol)  SRAC - senescent, ligand-conjugated|SRAC Protocol]]
+    - Flavonoid senolytic agent exploiting primed/stressed state in the SASP-Remodeling Aminochrome Complex strategy.
+
 
 ## Connections
 
@@ -48,6 +51,8 @@ List of documents that mention this entity
 - [[Quercetin]]: Often used alongside fisetin for similar antioxidant properties.
 - [[Senescence]]: Fisetin selectively targets senescent cells.
 - [[SASP-Remodeling Aminochrome Complex]]: A therapeutic strategy using fisetin.
+- [[Rapamycin]]: mTOR inhibitor co-administered in SRAC to suppress SASP during fisetin-induced senolysis.
+- [[GlyNAC]]: Redox buffer protecting healthy tissue during fisetin treatment in the SRAC protocol.
 
 ---
 
@@ -56,6 +61,6 @@ List of documents that mention this entity
 - Strong connections to strengthen: [[Fisetin]] ↔ [[Senescence]], [[Fisetin]] ↔ [[SASP-Remodeling Aminochrome Complex]], [[Fisetin]] ↔ [[COMT]]
 
 ## Linking Summary
-- New links added: [[Adrenochrome]], [[COMT]], [[COMT Inhibitors]], [[EGCG]], [[Fisetin]], [[Flavonoids]], [[Quercetin]], [[SASP-Remodeling Aminochrome Complex]], [[Senescence]], [[Senomorphics]]
+- New links added: [[Adrenochrome]], [[COMT]], [[COMT Inhibitors]], [[EGCG]], [[Fisetin]], [[Flavonoids]], [[Quercetin]], [[SASP-Remodeling Aminochrome Complex]], [[Senescence]], [[Senomorphics]], [[Rapamycin]], [[GlyNAC]]
 - Suggested new entity notes to create: 
-- Strong connections to strengthen: [[Fisetin]] ↔ [[SASP-Remodeling Aminochrome Complex]], [[Fisetin]] ↔ [[COMT Inhibitors]], [[Fisetin]] ↔ [[Senomorphics]]
+- Strong connections to strengthen: [[Fisetin]] ↔ [[SASP-Remodeling Aminochrome Complex]], [[Fisetin]] ↔ [[COMT Inhibitors]], [[Fisetin]] ↔ [[Senomorphics]], [[Fisetin]] ↔ [[Rapamycin]], [[Fisetin]] ↔ [[GlyNAC]]

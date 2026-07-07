@@ -5,7 +5,7 @@ description: 'Senomorphics are a class of compounds that modulate the phenotype
   apoptosis in senescent cells), senomorphic...'
 type: entity
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-07-07
 tags:
   - scientific-concept
   - senescence

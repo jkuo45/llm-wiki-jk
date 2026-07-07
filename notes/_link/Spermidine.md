@@ -5,7 +5,7 @@ description: 'Spermidine is a naturally occurring polyamine that is found in all
   to extend the lifespan of various organisms, inc...'
 type: entity
 created: 2026-05-29
-updated: 2026-05-29
+updated: 2026-07-07
 tags:
   - chemical-compound
 aliases: []
@@ -48,14 +48,19 @@ List of documents that mention this entity
   - [[_document_ - The autophagy enhancer spermidine reverses arterial aging|The autophagy enhancer spermidine reverses arterial aging]]
     - Recently, the polyamine Spermidine has been identified as a potent and specific inducer of autophagy (Eisenberg et al., 2009, Madeo et al., 2010).
 
+  - [[_document_ -  (protocol) GOPS - glyco-oxidative proteostasis|GOPS Protocol]]
+    - Autophagy inducer facilitating clearance of glycated/oxidized proteins in the Glyco-Oxidative Proteostasis Shield.
+
 
 ## Connections
 - **[[Autophagy]]**: The primary cellular process induced by spermidine.
 - **[[Aging]]**: Spermidine levels are a determinant of healthy aging.
 - **[[Geroscience]]**: A major natural compound of interest for extending healthspan.
 - **[[Resveratrol]]**: Another natural compound that interacts with longevity pathways (SIRT1).
+- **[[Adrenochrome monoaminoguanidine]]**: Hybrid molecule in GOPS whose hormetic ER-stress signaling is complemented by spermidine-induced autophagy clearance.
+- **[[Carnosine]]**: Metal chelator co-administered with spermidine in the GOPS protocol to stabilize the proteostatic environment.
 
 ## Linking Summary
-- New links added: [[TFEB]], [[eIF5A]], [[Spermidine]], [[Autophagy]], [[Histone Acetyltransferase]], [[Aging]], [[Neurodegenerative Diseases]], [[Geroscience]], [[Resveratrol]], [[Polyamine]], [[Autophagy Inducer]], [[Longevity]]
+- New links added: [[TFEB]], [[eIF5A]], [[Spermidine]], [[Autophagy]], [[Histone Acetyltransferase]], [[Aging]], [[Neurodegenerative Diseases]], [[Geroscience]], [[Resveratrol]], [[Polyamine]], [[Autophagy Inducer]], [[Longevity]], [[Adrenochrome monoaminoguanidine]], [[Carnosine]]
 - Suggested new entity notes to create: [[Hypusination]], [[Polyamine]], [[Mitophagy]], [[Wheat Germ]], [[eIF5A]], [[SIRT1]]
-- Strong connections to strengthen: [[Spermidine]] ↔ [[TFEB]], [[Spermidine]] ↔ [[Autophagy]], [[Spermidine]] ↔ [[Aging]], [[Spermidine]] ↔ [[Immune Aging]]
+- Strong connections to strengthen: [[Spermidine]] ↔ [[TFEB]], [[Spermidine]] ↔ [[Autophagy]], [[Spermidine]] ↔ [[Aging]], [[Spermidine]] ↔ [[Immune Aging]], [[Spermidine]] ↔ [[Adrenochrome monoaminoguanidine]], [[Spermidine]] ↔ [[Carnosine]]

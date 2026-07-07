@@ -5,7 +5,7 @@ description: In the Mitohormetic Redox-Relay strategy, Methylene blue serves as 
   carrier, bypassing damaged Complex I/III and ...
 type: entity
 created: 2024-01-01
-updated: 2024-01-01
+updated: 2026-07-07
 tags:
   - chemical-compound
 aliases: []
@@ -27,6 +27,9 @@ List of documents that mention this entity
   - [[_document_ - mitohormesis|mitohormesis]]
     - Amplifier: Methylene blue (Mitochondrial electron cycler). Fuel: Nicotinamide Riboside (NR) or Nicotinamide Mononucleotide (NAD+ precursors).
 
+  - [[_document_ -  (protocol) MRR - mitohormesis, MB, NAD|MRR Protocol]]
+    - Acts as alternative electron carrier bypassing damaged Complex I/III in the Mitohormetic Redox-Relay strategy.
+
 
 ## Connections
 - [[Methemoglobinemia]] — interacts with
@@ -34,8 +37,10 @@ List of documents that mention this entity
 - [[Hemoglobin]] — interacts with
 - [[Mitohormetic Redox-Relay]] — interacts with
 - [[Carbazochrome]] — interacts with
+- [[Nicotinamide Riboside]] — NAD+ precursor co-administered in MRR to prime SIRT1/AMPK/PGC-1α axis
+- [[Urolithin A]] — mitophagy inducer paired with methylene blue in the MRR cleanup phase
 
 ## Linking Summary
-- New links added: [[Methemoglobinemia]], [[Methemoglobin]], [[Hemoglobin]], [[Mitohormetic Redox-Relay]], [[Carbazochrome]]
-- Strong connections to strengthen: [[Methylene blue]] ↔ [[Methemoglobinemia]], [[Methylene blue]] ↔ [[Methemoglobin]], [[Methylene blue]] ↔ [[Hemoglobin]], [[Methylene blue]] ↔ [[Mitohormetic Redox-Relay]], [[Methylene blue]] ↔ [[Carbazochrome]]
+- New links added: [[Methemoglobinemia]], [[Methemoglobin]], [[Hemoglobin]], [[Mitohormetic Redox-Relay]], [[Carbazochrome]], [[Nicotinamide Riboside]], [[Urolithin A]]
+- Strong connections to strengthen: [[Methylene blue]] ↔ [[Methemoglobinemia]], [[Methylene blue]] ↔ [[Methemoglobin]], [[Methylene blue]] ↔ [[Hemoglobin]], [[Methylene blue]] ↔ [[Mitohormetic Redox-Relay]], [[Methylene blue]] ↔ [[Carbazochrome]], [[Methylene blue]] ↔ [[Nicotinamide Riboside]], [[Methylene blue]] ↔ [[Urolithin A]]
 

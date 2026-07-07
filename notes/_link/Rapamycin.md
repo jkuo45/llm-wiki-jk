@@ -5,7 +5,7 @@ description: In the SASP-Remodeling Aminochrome Complex strategy, Rapamycin acts
   SASP production toward a quiesc...
 type: entity
 created: 2024-01-01
-updated: 2024-01-01
+updated: 2026-07-07
 tags:
   - chemical-compound
 aliases: []
@@ -40,14 +40,19 @@ List of documents that mention this entity
   - [[_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease|Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease]]
     - Mechanisms of life span extension by Rapamycin in the fruit fly Drosophila melanogaster. Cell Metab 2010;11:35‐46.
 
+  - [[_document_ -  (protocol)  SRAC - senescent, ligand-conjugated|SRAC Protocol]]
+    - mTOR inhibitor suppressing SASP and decoupling ROS signals from pro-inflammatory SASP production in the SRAC strategy.
+
 
 ## Connections
 - [[Autophagy]] — cellular self-degradation pathway; clears damaged proteins and organelles
 - [[Parkinson's Disease]] — neurodegenerative disease; α-synuclein pathology; dopamine loss
 - [[SASP-Remodeling Aminochrome Complex]] — interacts with Rapamycin
 - [[Adrenochrome]] — interacts with Rapamycin
+- [[Fisetin]] — senolytic agent paired with rapamycin in the SRAC protocol for selective killing of senescent cells
+- [[GlyNAC]] — redox buffer co-administered in SRAC to protect healthy tissue during treatment
 - [[SASP]] — senescence-associated secretory phenotype; mediates paracrine senescence
 ## Linking Summary
-- New links added: [[Autophagy]], [[Parkinson's Disease]], [[Proteostasis]], [[SASP-Remodeling Aminochrome Complex]], [[Adrenochrome]], [[SASP]]., [[mTORC1]]
-- Suggested new entity notes to create: [[mTOR]], [[mTOR Inhibition]]., [[Everolimus]]
-- Strong connections to strengthen: [[Rapamycin]] ↔ [[Autophagy]], [[Rapamycin]] ↔ [[SASP-Remodeling Aminochrome Complex]]., [[Rapamycin]] ↔ [[Immune Aging]]
+- New links added: [[Autophagy]], [[Parkinson's Disease]], [[Proteostasis]], [[SASP-Remodeling Aminochrome Complex]], [[Adrenochrome]], [[SASP]], [[mTORC1]], [[Fisetin]], [[GlyNAC]]
+- Suggested new entity notes to create: [[mTOR]], [[Everolimus]]
+- Strong connections to strengthen: [[Rapamycin]] ↔ [[Autophagy]], [[Rapamycin]] ↔ [[SASP-Remodeling Aminochrome Complex]], [[Rapamycin]] ↔ [[Immune Aging]], [[Rapamycin]] ↔ [[Fisetin]], [[Rapamycin]] ↔ [[GlyNAC]]

@@ -5,7 +5,7 @@ description: 'Carbazochrome is a stabilized semicarbazone derivative of Adrenoch
   clinically as a hemostatic agent.'
 type: entity
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-07-07
 tags:
   - chemical-compound
 aliases: []

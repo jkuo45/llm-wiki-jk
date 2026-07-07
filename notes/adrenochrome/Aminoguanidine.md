@@ -4,7 +4,7 @@ description: Aminoguanidine is a chemical compound with the formula $CH_6N_4$. I
   is used as a reagent to stabilize Adrenochrome by forming Adrenochrome monoaminoguanidine.
 type: entity
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-07-07
 tags:
   - chemical-compound
 aliases: []
@@ -31,6 +31,9 @@ List of documents that mention this entity
 
   - [[_document_ - US4501923A - Process for preparing adrenochrome|US4501923A - Process for preparing adrenochrome]]
     - Adrenochrome is very unstable due to its o-quinone and, therefore, is usually stabilized by conventional derivation with Hydrazine, e.g., Aminoguanidine, Semicarbazide, phenylhydrazine, o-nitrophenylhydrazine, p-nitro phenylhydrazine and 2,4-dinitrophenylhy...
+
+  - [[_document_ -  (protocol) GOPS - glyco-oxidative proteostasis|GOPS Protocol]]
+    - Aminoguanidine moiety of the hybrid molecule provides AGE inhibition and carbonyl trapping in the glyco-oxidative proteostasis shield strategy.
 
 
 ## Connections
