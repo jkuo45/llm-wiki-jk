@@ -232,7 +232,7 @@ def main():
     total_files, total_size, total_words = get_dir_size_and_count(notes_dir)
 
     topics_table = [
-        "| topic | notes | updated | documents | entities | words | disk |",
+        "| topic | obsidian | updated | documents | entities | words | disk |",
         "| :--- | :--- | :--- | :---: | :---: | :---: | :---: |",
     ]
     total_entities = 0
@@ -263,7 +263,7 @@ def main():
         )
 
     # Build marker-delimited sections
-    summary_table_content = "## ℹ Summary Table\n" + "\n".join(topics_table)
+    summary_table_content = "## Summary Table\n" + "\n".join(topics_table)
     doc_list_content = "## Document List\n\n" + "\n".join(docs_table)
 
     sections = {
