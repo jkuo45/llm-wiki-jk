@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Dyskinesia
 description: Dyskinesia is a category of movement disorders characterized by involuntary, often repetitive, abnormal movements arising from basal ganglia dysfunction, drug toxicity, or neurodegeneration.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Symptom
+tags:
+  - Symptom
+aliases: []
 ---
 
 # Dyskinesia

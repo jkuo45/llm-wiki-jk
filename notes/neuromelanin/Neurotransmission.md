@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Neurotransmission
 description: 'Neurotransmission is the process by which signaling molecules called neurotransmitters are released by the axon terminal of a neuron and bind to and react with the receptors on the dendrites of another neuron.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-07
-entity_type_1: Biological Process
+tags:
+  - Biological Process
+aliases: []
 ---
 
 # Neurotransmission

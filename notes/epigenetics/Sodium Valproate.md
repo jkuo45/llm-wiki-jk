@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Sodium Valproate
 description: Sodium Valproate (valproate) is a branched-chain fatty acid antiepileptic and mood stabilizer that also inhibits histone deacetylases, modulating chromatin and promoting differentiation, with significant teratogenic risk.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Chemical Compound
+tags:
+  - Chemical Compound
+aliases: []
 ---
 
 # Sodium Valproate

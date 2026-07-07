@@ -1,10 +1,12 @@
 ---
-type: entity
 title: FYN
 description: 'FYN is a member of the Src family of non-receptor tyrosine kinases that phosphorylates Caspase-8 at Tyr397 (Tyr380 in some contexts) to suppress its activity, particularly in Colon Cancer.'
+type: entity
 created: 2026-07-06
 updated: 2026-07-07
-entity_type_1: Enzyme
+tags:
+  - Enzyme
+aliases: []
 ---
 
 # FYN

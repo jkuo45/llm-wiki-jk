@@ -1,12 +1,13 @@
 ---
-type: entity
 title: Pulse Wave Velocity
 description: Pulse wave velocity (PWV) is the speed at which the pressure wave generated
   by left ventricular ejection travels along the arterial tree. It is the gold standard
   clinical measure of Arterial Stiffn...
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Diagnostic Test
+tags:
+  - Diagnostic Test
 aliases:
   - PWV
   - Aortic pulse wave velocity

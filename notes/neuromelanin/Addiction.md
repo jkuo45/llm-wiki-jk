@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Addiction
 description: 'Addiction is a chronic, relapsing disorder characterized by compulsive drug seeking, continued use despite harmful consequences, and long-lasting changes in the brain.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-07
-entity_type_1: Medical Condition
+tags:
+  - Medical Condition
+aliases: []
 ---
 
 # Addiction

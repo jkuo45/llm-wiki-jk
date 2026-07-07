@@ -1,12 +1,13 @@
 ---
-type: entity
 title: Histone H3
 description: Histone H3 is one of the five core histone proteins that form the Nucleosome
   structure in eukaryotic chromatin. Along with Histone H4, Histone H2A, and Histone
   H2B, it packages DNA into structural ...
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Protein
+tags:
+  - Protein
 aliases:
   - H3
   - Histone H3.1

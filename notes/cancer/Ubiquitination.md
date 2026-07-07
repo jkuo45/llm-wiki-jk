@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Ubiquitination
 description: Covalent attachment of ubiquitin (76 aa) to target proteins via E1-E2-E3 cascade; a key post-translational modification governing protein turnover, signaling, endocytosis, cell cycle, autophagy, and immune response.
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Biological Process
+tags:
+  - Biological Process
+aliases: []
 ---
 
 # Ubiquitination

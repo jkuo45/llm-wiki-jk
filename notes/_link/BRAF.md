@@ -1,12 +1,14 @@
 ---
-type: entity
 title: BRAF
 description: BRAF (B-Raf Proto-Oncogene, Serine/Threonine Kinase) is a protein kinase
   in the RAS-RAF-MEK1/2-ERK1/2 (MAPK/ERK pathway) signaling cascade that regulates
   Cell Proliferation, Differentiation, and Su...
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Enzyme
+tags:
+  - Enzyme
+aliases: []
 ---
 # BRAF
 

@@ -1,11 +1,13 @@
 ---
-type: entity
 title: Cutaneous Melanoma
 description: Epidemiological studies have revealed a significant and reciprocal link
   between cutaneous melanoma and Parkinson's Disease.
+type: entity
 created: 2026-07-04
 updated: 2026-07-07
-entity_type_1: Medical Condition
+tags:
+  - Medical Condition
+aliases: []
 ---
 
 # Cutaneous Melanoma

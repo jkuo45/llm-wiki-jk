@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Oct4
 description: Oct4 (POU5F1) is a POU-domain transcription factor and core pluripotency factor, one of the four Yamanaka reprogramming factors.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Protein
+tags:
+  - Protein
+aliases: []
 ---
 
 # Oct4

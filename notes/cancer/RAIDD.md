@@ -1,10 +1,12 @@
 ---
-type: entity
 title: RAIDD
 description: RAIDD (RIP-associated protein with a death domain) is an adaptor protein that assembles the PIDDosome by linking PIDD to Caspase-2, initiating DNA damage-induced apoptosis.
+type: entity
 created: 2026-07-06
 updated: 2026-07-07
-entity_type_1: Protein
+tags:
+  - Protein
+aliases: []
 ---
 
 # RAIDD

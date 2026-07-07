@@ -1,10 +1,12 @@
 ---
-type: entity
 title: OCP
 description: The Onchocerciasis Control Programme in West Africa (OCP) was a 1974-2002 WHO-led campaign that controlled river blindness via vector control and mass ivermectin distribution.
+type: entity
 created: 2026-07-06
 updated: 2026-07-07
-entity_type_1: Organization
+tags:
+  - Organization
+aliases: []
 ---
 
 # OCP

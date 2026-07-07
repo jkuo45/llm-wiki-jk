@@ -1,10 +1,12 @@
 ---
-type: entity
 title: DNMT1
 description: 'DNMT1 (DNA Methyltransferase 1) is the primary enzyme responsible for maintaining DNA Methylation patterns during the process of DNA Replication.'
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Enzyme
+tags:
+  - Enzyme
+aliases: []
 ---
 
 # DNMT1

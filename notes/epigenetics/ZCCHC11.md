@@ -1,12 +1,14 @@
 ---
-type: entity
 title: ZCCHC11
 description: Zinc finger CCCH-type containing 11 (TUT4), a terminal uridylyltransferase
   that regulates let-7 microRNA biogenesis and Lin28-mediated silencing, impacting
   differentiation and reprogramming.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Protein
+tags:
+  - Protein
+aliases: []
 ---
 
 # ZCCHC11

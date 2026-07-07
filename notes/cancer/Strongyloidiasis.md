@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Strongyloidiasis
 description: Strongyloidiasis is a chronic parasitic infection caused by the nematode Strongyloides stercoralis, characterized by autoinfection and life-threatening hyperinfection when hosts are immunosuppressed (e.g., by cancer therapy or corticosteroids).
+type: entity
 created: 2026-07-06
 updated: 2026-07-07
-entity_type_1: Medical Condition
+tags:
+  - Medical Condition
+aliases: []
 ---
 
 # Strongyloidiasis

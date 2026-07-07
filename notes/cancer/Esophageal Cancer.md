@@ -1,10 +1,11 @@
 ---
-type: entity
 title: Esophageal Cancer
 description: Esophageal cancer is a malignancy of the esophagus with approximately 600,000 new cases worldwide annually, ranking 9th among all cancers globally. The two main histological types are squamous cell carcinoma (SCC) and adenocarcinoma, which differ markedly in epidemiology, risk factors, and anatomic distribution.
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Medical Condition
+tags:
+  - Medical Condition
 aliases:
   - Esophageal carcinoma
   - Oesophageal cancer

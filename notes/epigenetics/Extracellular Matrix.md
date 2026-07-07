@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Extracellular Matrix
 description: The Extracellular Matrix (ECM) is a three-dimensional network of proteins and glycans that provides structural and biochemical support to surrounding cells and instructs adhesion, migration, and fate.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Biological Molecule
+tags:
+  - Biological Molecule
+aliases: []
 ---
 
 # Extracellular Matrix

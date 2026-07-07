@@ -1,12 +1,14 @@
 ---
-type: entity
 title: Mitosis
 description: 'Mitosis is the process of Cell Division in which a single Eukaryotic
   Cell divides its duplicated Chromosomes into two identical daughter nuclei. It consists
   of stages: Prophase, Prometaphase, Metap...'
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Enzyme
+tags:
+  - Enzyme
+aliases: []
 ---
 # Mitosis
 

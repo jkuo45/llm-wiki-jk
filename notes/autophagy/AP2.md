@@ -1,12 +1,13 @@
 ---
-type: entity
 title: AP2
 description: 'AP2 (Adaptor Protein complex 2) is a heterotetrameric complex involved
   in clathrin-mediated endocytosis and Autophagic Lysosome Reformation, where it interacts
   with PtdIns(4,5)P2 to recruit clathrin to autolysosomal microdomains.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-07
-entity_type_1: Protein
+tags:
+  - Protein
 aliases: [adaptor protein complex 2]
 ---
 

@@ -1,11 +1,12 @@
 ---
-type: entity
 title: ZKSCAN3
 description: ZKSCAN3 is a zinc finger transcription factor that acts as a master transcriptional
   repressor of Autophagy and Lysosome biogenesis.
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Gene
+tags:
+  - Gene
 aliases: [ZNF306, zinc finger protein 306]
 ---
 # ZKSCAN3

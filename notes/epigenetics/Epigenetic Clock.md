@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Epigenetic Clock
 description: An Epigenetic Clock is a biochemical estimator of biological age based on DNA Methylation changes at specific CpG sites that accrue predictably with age.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Scientific Concept
+tags:
+  - Scientific Concept
+aliases: []
 ---
 
 # Epigenetic Clock

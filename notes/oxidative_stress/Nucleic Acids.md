@@ -1,12 +1,15 @@
 ---
-type: entity
 title: Nucleic Acids
 description: Nucleic acids (DNA and RNA) are biopolymers of nucleotide monomers responsible for storage and expression of genetic information. They are major targets of Reactive Oxygen Species, leading to oxidative base modifications, strand breaks, and mutation.
+type: entity
 created: 2026-05-09
 updated: 2026-07-07
-entity_type_1: Biological Molecule
+tags:
+  - oxidative_stress
+  - dna_damage
+  - genetics
+  - Biological Molecule
 aliases: [DNA, RNA]
-tags: [oxidative_stress, dna_damage, genetics]
 ---
 
 # Nucleic Acids

@@ -1,15 +1,18 @@
 ---
-type: entity
 title: Genistein
 description: Genistein is an isoflavone that is described as an angiogenesis inhibitor
   and a phytoestrogen. It belongs to the class of Flavonoids and exhibits significant
   antioxidant activity, contributing to t...
+type: entity
 created: 2026-05-09
 updated: 2026-07-04
-entity_type_1: Chemical Compound
+tags:
+  - oxidative_stress
+  - flavonoid
+  - phytoestrogen
+  - Chemical Compound
 aliases:
   - 4',5,7-trihydroxyisoflavone
-tags: [oxidative_stress, flavonoid, phytoestrogen]
 ---
 # Genistein
 Genistein is an isoflavone that is described as an angiogenesis inhibitor and a phytoestrogen. It belongs to the class of [[Flavonoids]] and exhibits significant antioxidant activity, contributing to the total pool of dietary [[Antioxidants]].

@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Complex I
 description: 'Complex I (NADH:ubiquinone oxidoreductase) is the first and largest enzyme complex of the mitochondrial respiratory chain.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-07
-entity_type_1: Protein
+tags:
+  - Protein
+aliases: []
 ---
 
 # Complex I

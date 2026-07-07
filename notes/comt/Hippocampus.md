@@ -1,11 +1,12 @@
 ---
-type: entity
 title: Hippocampus
 description: 'The Hippocampus is a limbic structure essential for memory consolidation and spatial navigation; it expresses COMT, and COMT overexpression models reveal region-specific effects on cognition.'
+type: entity
 created: 2026-05-25
 updated: 2026-07-07
-entity_type_1: Anatomy
-
+tags:
+  - Anatomy
+aliases: []
 ---
 
 # Hippocampus

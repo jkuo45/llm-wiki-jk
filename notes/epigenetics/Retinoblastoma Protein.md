@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Retinoblastoma Protein
 description: The Retinoblastoma Protein (pRb) is a tumor suppressor that restricts G1/S progression by binding and inhibiting E2F transcription factors.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Protein
+tags:
+  - Protein
+aliases: []
 ---
 
 # Retinoblastoma Protein

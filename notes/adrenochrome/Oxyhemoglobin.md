@@ -1,12 +1,12 @@
 ---
-
-type: entity
 title: Oxyhemoglobin
 description: 'Oxyhemoglobin (HbO₂) is the oxygen-loaded form of Hemoglobin.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Protein
-
+tags:
+  - Protein
+aliases: []
 ---
 
 # Oxyhemoglobin

@@ -1,11 +1,13 @@
 ---
-type: entity
 title: Tumorigenicity
 description: The capacity of a cell, tissue, or agent to form a tumor when introduced
   into a suitable host; a key safety and malignancy attribute.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Scientific Concept
+tags:
+  - Scientific Concept
+aliases: []
 ---
 
 # Tumorigenicity

@@ -1,14 +1,17 @@
 ---
-type: entity
 title: ABCA1
 description: ATP-binding cassette transporter A1 (ABCA1) is a protein which in humans
   is encoded by the ABCA1 gene and is a major regulator of cellular Cholesterol and
   phospholipid homeostasis. It plays a criti...
+type: entity
 created: 2026-05-09
 updated: 2026-07-04
-entity_type_1: Protein
+tags:
+  - oxidative_stress
+  - cholesterol
+  - lipid_metabolism
+  - Protein
 aliases: [ATP-binding cassette transporter A1, ABC-1]
-tags: [oxidative_stress, cholesterol, lipid_metabolism]
 ---
 # ABCA1
 ATP-binding cassette transporter A1 (ABCA1) is a protein which in humans is encoded by the ABCA1 gene and is a major regulator of cellular [[Cholesterol]] and phospholipid homeostasis. It plays a critical role in preventing [[Atherosclerosis]] by mediating the efflux of cholesterol to apolipoproteins. Its expression is regulated by transcription factors such as [[LXRα]] and [[PPARγ]].

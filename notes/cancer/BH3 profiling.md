@@ -1,10 +1,11 @@
 ---
-type: entity
 title: BH3 profiling
 description: Functional assay developed by Anthony Letai that determines a cancer cell's dependence on specific anti-apoptotic Bcl-2 family proteins and predicts sensitivity to BH3-mimetic drugs.
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Analytical Technique
+tags:
+  - Analytical Technique
 aliases: [BH3 profiling assay, mitochondrial priming assay]
 ---
 

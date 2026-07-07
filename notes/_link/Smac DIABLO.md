@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: Smac DIABLO
 description: 'Smac/DIABLO (second mitochondria-derived activator of caspases)
   is a pro-apoptotic mitochondrial protein that promotes Caspase activation by neutralizing
   Inhibitor of Apoptosis Proteins (IAPs)....'
+type: entity
 created: 2026-07-04
 updated: 2026-07-06
-entity_type_1: Protein
+tags:
+  - Protein
 aliases: [DIABLO, Second Mitochondria-Derived Activator of Caspases]
 
 ---

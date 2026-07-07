@@ -1,12 +1,13 @@
 ---
-type: entity
 title: CDC14B
 description: CDC14B (Cell division cycle 14 homolog B) is a highly conserved eukaryotic
   dual-specificity protein phosphatase. It plays an essential role in cell cycle progression,
   particularly during mitosis and the G2/M DNA damage checkpoint, by reversing CDK phosphorylations.
+type: entity
 created: 2026-07-03
 updated: 2026-07-07
-entity_type_1: Protein
+tags:
+  - Protein
 aliases: [CDC14B, Dual Specificity Protein Phosphatase CDC14B]
 sources:
   - PMID:19136623

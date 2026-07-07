@@ -1,10 +1,12 @@
 ---
-type: entity
 title: HFF1
 description: A well-characterized human foreskin fibroblast cell line widely used as feeder layers and somatic sources for reprogramming.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Cell Type
+tags:
+  - Cell Type
+aliases: []
 ---
 
 # HFF1

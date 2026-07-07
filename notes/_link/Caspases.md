@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: Caspases
 description: 'Caspases are a family of cysteine proteases that play essential
   roles in Apoptosis, Inflammation, and Pyroptosis. They are synthesized as inactive
   zymogens (procaspases) and activated by proteo...'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Enzyme
+tags:
+  - Enzyme
 aliases: [Caspase, Cysteine-aspartic proteases]
 
 ---

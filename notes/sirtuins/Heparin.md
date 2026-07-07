@@ -1,16 +1,14 @@
 ---
-
-type: entity
 title: Heparin
 description: 'Heparin is a Glycosaminoglycan Anticoagulant that potentiates Antithrombin
   III (ATIII) activity, leading to rapid inactivation of Thrombin (factor IIa) and
   factor Xa. It is administered intrave...'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Chemical Compound
+tags:
+  - Chemical Compound
 aliases: [Unfractionated Heparin, UFH]
-tags: [sirtuins, anticoagulant, resveratrol]
-
 ---
 
 # Heparin

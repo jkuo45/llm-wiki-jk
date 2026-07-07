@@ -1,11 +1,13 @@
 ---
-type: entity
 title: TFEB
 description: Master regulator of the autophagy-lysosome pathway coordinating lysosomal
   biogenesis and autophagy
+type: entity
 created: 2024-01-01
 updated: 2024-01-01
-entity_type_1: Protein
+tags:
+  - Protein
+aliases: []
 ---
 # TFEB
 [[TFEB]] (Transcription Factor EB) is a master regulator of the autophagy-lysosome pathway. It coordinates the expression of genes involved in lysosomal biogenesis, [[Autophagy]], and lysosomal exocytosis. Overexpression of TFEB has been shown to promote the clearance of [[Neuromelanin]] and protect against neurodegeneration in models of [[Parkinson's Disease]].

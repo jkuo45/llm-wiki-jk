@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Terminal Differentiation
 description: Terminal Differentiation is the irreversible process by which a cell exits the cell cycle and acquires a stable, specialized functional identity.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Biological Process
+tags:
+  - Biological Process
+aliases: []
 ---
 
 # Terminal Differentiation

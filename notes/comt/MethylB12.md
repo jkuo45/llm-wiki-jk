@@ -1,10 +1,11 @@
 ---
-type: entity
 title: MethylB12
 description: MethylB12 (methylcobalamin) is the active methyl-donating form of vitamin B12, essential for homocysteine remethylation and methyl-group supply.
+type: entity
 created: 2026-05-25
 updated: 2026-07-07
-entity_type_1: Chemical Compound
+tags:
+  - Chemical Compound
 aliases: [Methylcobalamin]
 ---
 

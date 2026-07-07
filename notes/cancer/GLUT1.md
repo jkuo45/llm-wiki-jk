@@ -1,10 +1,12 @@
 ---
-type: entity
 title: GLUT1
 description: GLUT1 (Glucose transporter 1) is a uniporter that transports glucose across mammalian plasma membranes; it is frequently overexpressed in cancers to support the Warburg Effect.
+type: entity
 created: 2026-07-06
 updated: 2026-07-07
-entity_type_1: Transporter
+tags:
+  - Transporter
+aliases: []
 ---
 
 # GLUT1

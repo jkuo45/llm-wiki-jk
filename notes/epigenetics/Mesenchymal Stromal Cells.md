@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Mesenchymal Stromal Cells
 description: Mesenchymal Stromal Cells (MSCs) are multipotent, fibroblast-like stromal cells with trilineage differentiation and immunomodulatory capacity.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Cell Type
+tags:
+  - Cell Type
+aliases: []
 ---
 
 # Mesenchymal Stromal Cells

@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Epigenetics
 description: 'Epigenetics refers to the study of heritable changes in gene expression or cellular phenotype that do not involve alterations to the underlying DNA sequence.'
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Scientific Concept
+tags:
+  - Scientific Concept
+aliases: []
 ---
 
 # Epigenetics

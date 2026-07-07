@@ -1,10 +1,12 @@
 ---
-type: entity
 title: CKII
 description: CKII (Casein kinase 2) is a ubiquitous, constitutively active serine/threonine kinase that phosphorylates numerous substrates in cell-cycle progression, signal transduction, and apoptotic regulation, frequently overexpressed in cancer.
+type: entity
 created: 2026-07-06
 updated: 2026-07-07
-entity_type_1: Enzyme
+tags:
+  - Enzyme
+aliases: []
 ---
 
 # CKII

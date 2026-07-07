@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: CDK5
 description: 'CDK5 (Cyclin-dependent kinase 5) is a proline-directed serine/threonine
   kinase that, despite its name, is not primarily involved in cell cycle regulation.
   It is activated by p35 or p39 and play...'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Enzyme
+tags:
+  - Enzyme
 aliases: [Cyclin-dependent kinase 5, Cdk5, Cyclin-dependent-like kinase 5]
 database_ids:
   uniprot: Q00535

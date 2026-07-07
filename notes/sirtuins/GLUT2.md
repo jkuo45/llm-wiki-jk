@@ -1,12 +1,13 @@
 ---
-type: entity
 title: GLUT2
 description: GLUT2 (Glucose Transporter 2, encoded by SLC2A2) is a facilitative glucose
   transporter with low affinity and high capacity for glucose. It is the principal
   glucose transporter in pancreatic β-cells...
+type: entity
 created: 2026-07-04
 updated: 2026-07-07
-entity_type_1: Transporter
+tags:
+  - Transporter
 aliases:
   - SLC2A2
   - Glucose Transporter 2

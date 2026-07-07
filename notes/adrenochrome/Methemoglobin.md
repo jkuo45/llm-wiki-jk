@@ -1,14 +1,14 @@
 ---
-
-type: entity
 title: Methemoglobin
 description: 'Methemoglobin is a form of Hemoglobin in which the iron in the heme
   group is in the Fe³⁺ (ferric) state, not the Fe²⁺ (ferrous) of normal hemoglobin.
   Methemoglobin cannot bind oxygen, which mea...'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Protein
-
+tags:
+  - Protein
+aliases: []
 ---
 
 # Methemoglobin

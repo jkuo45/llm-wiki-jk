@@ -1,10 +1,11 @@
 ---
-type: entity
 title: PML
 description: PML (Promyelocytic Leukemia protein, also known as TRIM19) is a tripartite motif-containing protein that functions as the essential scaffold for PML nuclear bodies (PML-NBs). PML-NBs are dynamic subnuclear structures involved in tumor suppression, DNA damage response, apoptosis, and cellular senescence.
+type: entity
 created: 2026-07-03
 updated: 2026-07-07
-entity_type_1: Protein
+tags:
+  - Protein
 aliases:
   - TRIM19
   - Promyelocytic Leukemia Protein

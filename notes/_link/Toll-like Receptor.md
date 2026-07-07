@@ -1,11 +1,13 @@
 ---
-type: entity
 title: Toll-like Receptor
 description: A class of proteins that play a key role in the innate immune system
   by recognizing structurally conserved molecules derived from microbes.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Receptor
+tags:
+  - Receptor
+aliases: []
 ---
 
 # Toll-like Receptor

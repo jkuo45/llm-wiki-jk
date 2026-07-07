@@ -1,10 +1,11 @@
 ---
-type: entity
 title: SLC38A9
 description: SLC38A9 is a lysosomal sodium-coupled amino acid transporter that functions as an arginine/lysine sensor, signaling via the Ragulator-Rag complex to activate mTORC1 and suppress autophagy.
+type: entity
 created: 2026-07-04
 updated: 2026-07-07
-entity_type_1: Transporter
+tags:
+  - Transporter
 aliases:
   - sodium-coupled amino acid transporter 9
   - SNAT9

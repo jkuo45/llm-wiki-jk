@@ -1,12 +1,14 @@
 ---
-type: entity
 title: Acetylation
 description: Acetylation is a reversible post-translational modification involving
   the transfer of an acetyl group from Acetyl-CoA to a substrate, catalyzed by Histone
   Acetyltransferases (HATs) and removed by H...
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Enzyme
+tags:
+  - Enzyme
+aliases: []
 ---
 # Acetylation
 

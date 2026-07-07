@@ -1,12 +1,13 @@
 ---
-type: entity
 title: SIRT7
 description: SIRT7 (Sirtuin 7) is a nuclear/nucleolar sirtuin classified in phylogenetic
   Class IVb — the same class as SIRT6 (Class IVa). Class IV sirtuins are absent from
   prokaryotes but broadly distributed in...
+type: entity
 created: 2026-07-02
 updated: 2026-07-05
-entity_type_1: Protein
+tags:
+  - Protein
 aliases:
   - Sirtuin 7
   - nucleolar sirtuin

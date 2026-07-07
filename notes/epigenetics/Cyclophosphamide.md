@@ -1,21 +1,20 @@
 ---
-
-type: entity
 title: Cyclophosphamide
 description: Cyclophosphamide is a nitrogen mustard alkylating agent and prodrug used as a chemotherapy medication and immunosuppressant.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Chemical Compound
-aliases:
-  - Cytoxan
-  - CTX
-  - Endoxan
 tags:
   - alkylating agent
   - chemotherapy
   - prodrug
   - immunosuppressant
   - senescence
+  - Chemical Compound
+aliases:
+  - Cytoxan
+  - CTX
+  - Endoxan
 ---
 
 # Cyclophosphamide

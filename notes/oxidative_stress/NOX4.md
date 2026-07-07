@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: NOX4
 description: 'NOX4 (NADPH oxidase 4) is a constitutively active NADPH oxidase
   isoform that primarily produces Hydrogen Peroxide rather than Superoxide Radicals.
   It is broadly expressed in the kidney, vascula...'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Enzyme
+tags:
+  - Enzyme
 aliases: [NADPH oxidase 4, Renox, Kidney oxidase]
 database_ids:
   uniprot: Q9NPH5

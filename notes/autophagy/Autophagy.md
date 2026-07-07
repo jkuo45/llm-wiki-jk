@@ -1,11 +1,12 @@
 ---
-type: entity
 title: Autophagy
 description: Cellular degradation pathway that delivers cytoplasmic material to lysosomes
   for recycling; maintains energy homeostasis and quality control.
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Biological Process
+tags:
+  - Biological Process
 aliases: [Macroautophagy]
 ---
 # Autophagy

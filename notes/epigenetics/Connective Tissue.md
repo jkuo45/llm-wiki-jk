@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Connective Tissue
 description: One of the four basic animal tissue types; supports, connects, and protects other tissues via an extracellular matrix-rich architecture.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Anatomy
+tags:
+  - Anatomy
+aliases: []
 ---
 
 # Connective Tissue

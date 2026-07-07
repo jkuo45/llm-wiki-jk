@@ -1,12 +1,13 @@
 ---
-type: entity
 title: HOXA10
 description: 'HOXA10 (Homeobox A10) is a homeodomain-containing transcription
   factor belonging to the **HOX gene family**, which encodes master regulators of
   **cell-type determination and positional identity...'
+type: entity
 created: 2026-07-04
 updated: 2026-07-07
-entity_type_1: Protein
+tags:
+  - Protein
 aliases: [Homeobox A10]
 
 sources:

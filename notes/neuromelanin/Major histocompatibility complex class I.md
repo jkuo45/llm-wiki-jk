@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Major histocompatibility complex class I
 description: 'Major histocompatibility complex class I (MHC-I) molecules are found on the surface of nearly all nucleated cells.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-07
-entity_type_1: Protein
+tags:
+  - Protein
+aliases: []
 ---
 
 # Major histocompatibility complex class I

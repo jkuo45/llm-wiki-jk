@@ -1,14 +1,14 @@
 ---
-
-type: entity
 title: Ellagibacter isourolithinifaciens
 description: 'Ellagibacter isourolithinifaciens is a human intestinal bacterium
   belonging to the Eggerthellaceae family that is capable of metabolizing Ellagic
   acid. It is specifically characterized by its c...'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Microorganism
-
+tags:
+  - Microorganism
+aliases: []
 ---
 
 # Ellagibacter isourolithinifaciens

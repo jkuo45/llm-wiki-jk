@@ -1,14 +1,14 @@
 ---
-
-type: entity
 title: Oxygen Consumption Rate
 description: 'Oxygen Consumption Rate (OCR) is a key metric used to measure mitochondrial
   respiration and the metabolic activity of cells, often assessed in real-time using
   a Seahorse XF Analyzer.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Analytical Technique
-
+tags:
+  - Analytical Technique
+aliases: []
 ---
 
 # Oxygen Consumption Rate

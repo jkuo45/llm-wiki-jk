@@ -1,12 +1,14 @@
 ---
-type: entity
 title: HUWE1
 description: HECT, UBA and WWE domain-containing protein 1 (HUWE1), also known as
   MULE, ARF-BP1, and LASU1, is an ~482 kDa E3 ubiquitin ligase of the HECT family
   that targets Mcl-1, p53, BRCA1, c-Myc, and histones for ubiquitination.
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Enzyme
+tags:
+  - Enzyme
+aliases: []
 ---
 
 # HUWE1

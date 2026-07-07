@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Hallmarks of Cancer
 description: The Hallmarks of Cancer are the underlying biological capabilities acquired during the multistep development of human tumors, originally proposed by Hanahan and Weinberg.
+type: entity
 created: 2026-07-06
 updated: 2026-07-07
-entity_type_1: Scientific Concept
+tags:
+  - Scientific Concept
+aliases: []
 ---
 
 # Hallmarks of Cancer

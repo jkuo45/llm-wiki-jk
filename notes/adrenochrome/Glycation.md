@@ -1,11 +1,13 @@
 ---
-type: entity
 title: Glycation
 description: Glycation is a spontaneous non-enzymatic reaction of free reducing sugars
   with free amino groups of proteins, DNA, and lipids.
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Chemical Process
+tags:
+  - Chemical Process
+aliases: []
 ---
 # Glycation
 

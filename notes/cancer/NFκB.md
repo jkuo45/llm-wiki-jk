@@ -1,10 +1,12 @@
 ---
-type: entity
 title: NFκB
 description: NFκB is a transcription-factor complex controlling inflammation, survival, and proliferation; constitutively active in many cancers, it drives tumor promotion and therapy resistance.
+type: entity
 created: 2026-07-06
 updated: 2026-07-07
-entity_type_1: Protein
+tags:
+  - Protein
+aliases: []
 ---
 
 # NFκB

@@ -1,12 +1,15 @@
 ---
-type: entity
 title: DNA Methyltransferase
 description: 'DNA methyltransferases (DNMTs) are enzymes responsible for establishing and maintaining DNA methylation patterns.'
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Enzyme
+tags:
+  - epigenetics
+  - enzyme
+  - methylation
+  - Enzyme
 aliases: [DNMT]
-tags: [epigenetics, enzyme, methylation]
 ---
 
 # DNA Methyltransferase

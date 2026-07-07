@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: DISC
 description: The Death-Inducing Signaling Complex (DISC) is a multi-protein assembly
   that forms during the initiation of the Extrinsic Pathway of Apoptosis.
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Enzyme
-
+tags:
+  - Enzyme
+aliases: []
 ---
 
 # DISC

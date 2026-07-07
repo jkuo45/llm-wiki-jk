@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: PEX Genes
 description: 'PEX genes encode the peroxins, a family of proteins required for
   Peroxisome biogenesis, assembly, and function. There are at least 14 known PEX genes
   in humans (PEX1–PEX14), each encoding a per...'
+type: entity
 created: 2026-07-04
 updated: 2026-07-06
-entity_type_1: Gene
+tags:
+  - Gene
 aliases: [Peroxin Genes, Peroxisomal Biogenesis Factor Genes]
 
 ---

@@ -1,10 +1,12 @@
 ---
-type: entity
 title: CaMKII
 description: CaMKII (Calmodulin-dependent protein kinase II) is a multifunctional serine/threonine kinase that phosphorylates Caspase-2 at Ser164, modulating apoptotic commitment in a calcium-dependent manner opposed by the phosphatase PP1.
+type: entity
 created: 2026-07-06
 updated: 2026-07-07
-entity_type_1: Enzyme
+tags:
+  - Enzyme
+aliases: []
 ---
 
 # CaMKII

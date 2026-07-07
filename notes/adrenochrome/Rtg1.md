@@ -1,11 +1,13 @@
 ---
-type: entity
 title: Rtg1
 description: Rtg1 is a basic helix-loop-helix transcription factor in S. cerevisiae
   that, together with Rtg3, coordinates the Retrograde Response to mitochondrial dysfunction.
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Protein
+tags:
+  - Protein
+aliases: []
 ---
 # Rtg1
 

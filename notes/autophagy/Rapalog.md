@@ -1,12 +1,12 @@
 ---
-
-type: entity
 title: Rapalog
 description: 'Rapalogs are derivatives of Rapamycin (also known as sirolimus)
   that act as allosteric inhibitors of mTOR (mTOR).'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Chemical Class
+tags:
+  - Chemical Class
 aliases: [rapamycin analogs]
 
 ---

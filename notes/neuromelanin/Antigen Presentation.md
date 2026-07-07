@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Antigen Presentation
 description: 'Antigen Presentation is a biological process in which cells display fragments of antigens on their surface via MHC molecules to be recognized by T cells.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-07
-entity_type_1: Biological Process
+tags:
+  - Biological Process
+aliases: []
 ---
 
 # Antigen Presentation

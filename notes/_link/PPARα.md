@@ -1,12 +1,14 @@
 ---
-type: entity
 title: PPARα
 description: PPARα (Peroxisome Proliferator-Activated Receptor Alpha) is a nuclear
   receptor transcription factor that regulates Lipid Metabolism, Fatty Acid Oxidation,
   Ketogenesis, and Inflammation. It is activ...
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Receptor
+tags:
+  - Receptor
+aliases: []
 ---
 # PPARα
 

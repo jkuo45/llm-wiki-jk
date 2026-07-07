@@ -1,17 +1,18 @@
 ---
-type: document
 title: Dietary Advanced Glycation End Products and Aging
-source: https://pmc.ncbi.nlm.nih.gov/articles/PMC3257625/
-author:
-- Claudia Luevano-Contreras
-- Karen Chapman-Novakofski
-created: 2026-06-14
 description: Advanced glycation end products (AGEs) are a heterogeneous, complex group
   of compounds that are formed when reducing sugar reacts in a non-enzymatic way with
   amino acids in proteins and other macromolecules. This occurs both exogenously (in
   food) ...
+type: document
+created: 2026-06-14
+source: https://pmc.ncbi.nlm.nih.gov/articles/PMC3257625/
+author:
+- Claudia Luevano-Contreras
+- Karen Chapman-Novakofski
 tags:
   - "clippings"
+aliases: []
 ---
 ## Abstract
 

@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: GAPDH
 description: 'Glyceraldehyde-3-phosphate dehydrogenase (GAPDH) is a glycolytic
   enzyme that catalyzes the conversion of glyceraldehyde-3-phosphate to 1,3-bisphosphoglycerate.
   Beyond metabolism, it has roles i...'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Enzyme
+tags:
+  - Enzyme
 aliases: [Glyceraldehyde-3-phosphate dehydrogenase, G3PDH]
 database_ids:
   uniprot: P04406

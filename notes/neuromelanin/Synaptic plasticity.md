@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Synaptic plasticity
 description: Synaptic plasticity is the activity-dependent strengthening or weakening of synapses; in dopaminergic circuits it is modulated by Neuromelanin-associated Dopamine handling and is impaired in Parkinson's Disease.
+type: entity
 created: 2026-07-04
 updated: 2026-07-07
-entity_type_1: Biological Process
+tags:
+  - Biological Process
+aliases: []
 ---
 
 # Synaptic plasticity

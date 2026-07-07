@@ -1,9 +1,10 @@
 ---
-type: document
 title: Peroxisomes Explained
-created: '2026-07-06'
 description: Overview of peroxisome structure, function, biogenesis, and relation
   to autophagy
+type: document
+created: 2026-07-06
+aliases: []
 ---
 ➜  llm-wiki-jk git:(dev) ollama run gemma3:latest
 >>> explain peroxisomes

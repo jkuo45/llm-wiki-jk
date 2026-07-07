@@ -1,11 +1,13 @@
 ---
-type: entity
 title: Cognition
 description: Cognition refers to the mental action or process of acquiring knowledge
   and understanding through thought, experience, and the senses.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Biological Process
+tags:
+  - Biological Process
+aliases: []
 ---
 # Cognition
 

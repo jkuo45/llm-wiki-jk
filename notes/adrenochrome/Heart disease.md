@@ -1,11 +1,13 @@
 ---
-type: entity
 title: Heart disease
 description: Heart disease refers to various conditions that affect the heart, including
   coronary artery disease, arrhythmias, and congenital heart defects.
+type: entity
 created: 2026-07-04
 updated: 2026-07-06
-entity_type_1: Medical Condition
+tags:
+  - Medical Condition
+aliases: []
 ---
 
 # Heart disease

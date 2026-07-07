@@ -1,10 +1,11 @@
 ---
-type: entity
 title: Oxidation
 description: Oxidation is a concept related to Adrenochrome and catecholamine metabolism.
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: NA
+tags:
+  - NA
 aliases: [Oxidation]
 ---
 # Oxidation

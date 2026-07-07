@@ -1,11 +1,15 @@
 ---
-type: entity
 title: Liposome Encapsulation
 description: A drug-delivery strategy that entraps therapeutic or diagnostic agents within phospholipid bilayer vesicles (liposomes) to improve solubility, stability, targeting, and pharmacokinetics.
+type: entity
 created: 2026-07-07
 updated: 2026-07-07
-entity_type_1: Pharmacological Action
-tags: [drug delivery, nanomedicine, pharmacokinetics]
+tags:
+  - drug delivery
+  - nanomedicine
+  - pharmacokinetics
+  - Pharmacological Action
+aliases: []
 ---
 
 # Liposome Encapsulation

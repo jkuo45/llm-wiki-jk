@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Hepatocellular Carcinoma
 description: Hepatocellular carcinoma (HCC) is the most common type of primary liver cancer and a leading cause of cancer death worldwide.
+type: entity
 created: 2026-07-06
 updated: 2026-07-07
-entity_type_1: Medical Condition
+tags:
+  - Medical Condition
+aliases: []
 ---
 
 # Hepatocellular Carcinoma

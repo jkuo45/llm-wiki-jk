@@ -1,12 +1,12 @@
 ---
-
-type: entity
 title: IGF1
 description: 'IGF1 (Insulin-like Growth Factor 1) is a hormone that plays a central
   role in regulating cell growth, proliferation, and lifespan.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Protein
+tags:
+  - Protein
 aliases: [insulin-like growth factor 1]
 
 ---

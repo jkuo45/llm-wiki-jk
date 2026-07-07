@@ -1,10 +1,12 @@
 ---
-type: entity
 title: RIPK1
 description: RIPK1 (Receptor-interacting serine/threonine-protein kinase 1) is a 76 kDa kinase and death domain-containing protein that serves as a central molecular switch governing cell fate decisions between survival, apoptosis, and necroptosis.
+type: entity
 created: 2026-07-04
 updated: 2026-07-06
-entity_type_1: Enzyme
+tags:
+  - Enzyme
+aliases: []
 ---
 
 # RIPK1

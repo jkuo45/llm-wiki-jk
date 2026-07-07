@@ -1,14 +1,14 @@
 ---
-
-type: entity
 title: Histone Modification
 description: 'Histone Modification refers to the various post-translational modifications
   (PTMs) that occur on the ''tails'' of histone proteins. These modifications are
   a central part of the Epigenetics, dict...'
+type: entity
 created: 2024-01-01
 updated: 2024-01-01
-entity_type_1: Biological Process
-
+tags:
+  - Biological Process
+aliases: []
 ---
 
 # Histone Modification

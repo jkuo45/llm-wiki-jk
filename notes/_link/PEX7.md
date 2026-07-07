@@ -1,12 +1,13 @@
 ---
-type: entity
 title: PEX7
 description: PEX7 encodes the PTS2 receptor, a cytosolic shuttling receptor that recognizes
   and imports peroxisomal matrix proteins bearing the N-terminal peroxisomal targeting
   signal 2 (PTS2) into the Peroxisome.
+type: entity
 created: 2026-07-04
 updated: 2026-07-06
-entity_type_1: Protein
+tags:
+  - Protein
 aliases: [peroxisomal biogenesis factor 7, PTS2 receptor]
 ---
 

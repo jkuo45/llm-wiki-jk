@@ -1,11 +1,13 @@
 ---
-type: entity
 title: Interleukin 1β
 description: Interleukin 1β (IL-1β) is a potent proinflammatory cytokine whose activation
   is regulated by Caspase-1 and the NLRP3 Inflammasome.
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Biological Molecule
+tags:
+  - Biological Molecule
+aliases: []
 ---
 # Interleukin 1β
 

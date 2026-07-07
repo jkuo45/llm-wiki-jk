@@ -1,12 +1,14 @@
 ---
-type: entity
 title: Lifespan
 description: Lifespan is the maximum number of years an individual of a given species
   can humanly live. Interventions like Caloric Restriction have been shown to increase
   lifespan, potentially by reducing Oxida...
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Scientific Concept
+tags:
+  - Scientific Concept
+aliases: []
 ---
 # Lifespan
 

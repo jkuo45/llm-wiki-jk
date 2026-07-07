@@ -1,12 +1,13 @@
 ---
-type: entity
 title: Fatty acid
 description: Fatty acids are carboxylic acids with aliphatic chains (typically 4–28
   carbons) that serve as key components of membrane phospholipids, energy storage
   molecules, and signaling precursors in biological systems.
+type: entity
 created: 2026-07-04
 updated: 2026-07-06
-entity_type_1: Chemical Class
+tags:
+  - Chemical Class
 aliases: [Fatty Acids]
 
 ---

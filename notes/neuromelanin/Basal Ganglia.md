@@ -1,11 +1,13 @@
 ---
-type: entity
 title: Basal Ganglia
 description: The Basal Ganglia are a group of interconnected subcortical nuclei involved
   in motor control, procedural learning, and executive functions.
+type: entity
 created: 2026-07-04
 updated: 2026-07-07
-entity_type_1: Anatomy
+tags:
+  - Anatomy
+aliases: []
 ---
 
 # Basal Ganglia

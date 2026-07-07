@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Nicotine
 description: Nicotine is an alkaloid found in tobacco that binds to synthetic Neuromelanin and is associated epidemiologically with reduced risk of Parkinson's Disease.
+type: entity
 created: 2026-07-04
 updated: 2026-07-07
-entity_type_1: Chemical Compound
+tags:
+  - Chemical Compound
+aliases: []
 ---
 
 # Nicotine

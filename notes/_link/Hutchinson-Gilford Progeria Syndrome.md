@@ -1,14 +1,14 @@
 ---
-
-type: entity
 title: Hutchinson-Gilford Progeria Syndrome
 description: 'Hutchinson-Gilford Progeria Syndrome (HGPS) is an extremely rare,
   fatal genetic condition characterized by an appearance of dramatic, rapid Aging
   beginning in childhood. It serves as a critical...'
+type: entity
 created: 2026-05-31
 updated: 2026-05-31
-entity_type_1: Medical Condition
-
+tags:
+  - Medical Condition
+aliases: []
 ---
 
 # Hutchinson-Gilford Progeria Syndrome

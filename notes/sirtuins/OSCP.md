@@ -1,10 +1,11 @@
 ---
-type: entity
 title: OSCP
 description: 'OSCP (Oligomycin Sensitivity Conferral Protein, encoded by ATP5PO) is a peripheral stalk subunit of mitochondrial F1Fo-ATP synthase (Complex V). It connects the catalytic F1 head to the membrane-embedded Fo rotor and confers sensitivity to the inhibitor oligomycin.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-07
-entity_type_1: Protein
+tags:
+  - Protein
 aliases: [ATP5PO, ATP Synthase Peripheral Stalk Subunit OSCP, Oligomycin Sensitivity Conferral Protein, Oligomycin sensitivity-conferring protein]
 
 sources:

@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Sox2
 description: Sox2 (SRY-box transcription factor 2) is a core pluripotency transcription factor and Yamanaka reprogramming factor.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Protein
+tags:
+  - Protein
+aliases: []
 ---
 
 # Sox2

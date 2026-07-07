@@ -1,11 +1,13 @@
 ---
-type: entity
 title: Gastrulation
 description: A phase in embryonic development during which the single-layered blastula
   is reorganized into the multilayered gastrula and the three germ layers form.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Biological Process
+tags:
+  - Biological Process
+aliases: []
 ---
 
 # Gastrulation

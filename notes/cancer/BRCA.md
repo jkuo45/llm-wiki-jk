@@ -1,10 +1,12 @@
 ---
-type: entity
 title: BRCA
 description: 'BRCA (BReast CAncer gene) refers to BRCA1 and BRCA2 tumor suppressor genes encoding proteins essential for homologous recombination DNA repair; germline mutations predispose to breast, ovarian, and other cancers.'
+type: entity
 created: 2026-07-06
 updated: 2026-07-07
-entity_type_1: Gene
+tags:
+  - Gene
+aliases: []
 ---
 
 # BRCA

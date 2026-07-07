@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Coronary artery constriction
 description: Coronary artery constriction refers to the pathological narrowing of the coronary arteries that supply oxygenated blood to the heart muscle, reducing myocardial blood flow and precipitating ischemia.
+type: entity
 created: 2026-07-04
 updated: 2026-07-06
-entity_type_1: Adverse Effect
+tags:
+  - Adverse Effect
+aliases: []
 ---
 
 # Coronary artery constriction

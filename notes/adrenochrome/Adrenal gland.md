@@ -1,11 +1,13 @@
 ---
-type: entity
 title: Adrenal gland
 description: Adrenal gland is a concept related to Adrenochrome and catecholamine
   metabolism.
+type: entity
 created: 2026-07-04
 updated: 2026-07-06
-entity_type_1: Anatomy
+tags:
+  - Anatomy
+aliases: []
 ---
 
 # Adrenal gland

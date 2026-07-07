@@ -1,12 +1,13 @@
 ---
-type: entity
 title: Dietary Restriction
 description: Dietary Restriction (DR) is a nutritional intervention that reduces total
   food or specific nutrient intake to promote metabolic health, extend lifespan, and
   activate Macroautophagy.
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Biological Process
+tags:
+  - Biological Process
 aliases: [DR]
 ---
 # Dietary Restriction

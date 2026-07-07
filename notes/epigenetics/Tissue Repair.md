@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Tissue Repair
 description: Tissue Repair is the biological process of restoring tissue architecture and function after injury through coordinated inflammation, proliferation, extracellular matrix deposition, and remodeling, often involving stem and progenitor cells.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Biological Process
+tags:
+  - Biological Process
+aliases: []
 ---
 
 # Tissue Repair

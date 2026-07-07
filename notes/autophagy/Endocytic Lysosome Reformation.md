@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: Endocytic Lysosome Reformation
 description: 'Endocytic Lysosome Reformation (ELR) is the process of regenerating
   Lysosomes from endolysosomes, requiring PIKfyve-mediated production of PtdIns(3,5)P2
   and activation of the calcium channel TR...'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Biological Process
+tags:
+  - Biological Process
 aliases: [ELR]
 
 ---

@@ -1,17 +1,18 @@
 ---
-type: document
 title: Cellular Mechanisms and Regulation of Quiescence
-source: https://pmc.ncbi.nlm.nih.gov/articles/PMC7665062/
-author:
-- Océane Marescal
-- Iain M Cheeseman
-created: 2026-06-03
 description: Quiescence is a state of reversible proliferative arrest in which cells
   are not actively dividing, and yet retain the capacity to reenter the cell cycle
   upon receiving an appropriate stimulus. Quiescent cells are remarkably diverse—they
   reside in ...
+type: document
+created: 2026-06-03
+source: https://pmc.ncbi.nlm.nih.gov/articles/PMC7665062/
+author:
+- Océane Marescal
+- Iain M Cheeseman
 tags:
   - "clippings"
+aliases: []
 ---
 
 . Author manuscript; available in PMC: 2021 Nov 9.

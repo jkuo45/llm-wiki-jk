@@ -1,10 +1,12 @@
 ---
-type: entity
 title: E2F
 description: E2F is a family of transcription factors that governs the G1/S transition and DNA replication in the cell cycle.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Protein
+tags:
+  - Protein
+aliases: []
 ---
 
 # E2F

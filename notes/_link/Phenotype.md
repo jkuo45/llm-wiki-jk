@@ -1,14 +1,14 @@
 ---
-
-type: entity
 title: Phenotype
 description: A phenotype is the set of observable characteristics or traits of
   an organism, such as its morphology, development, biochemical or physiological properties,
   behavior, and products of behavior.
+type: entity
 created: 2024-01-01
 updated: 2024-01-01
-entity_type_1: Scientific Concept
-
+tags:
+  - Scientific Concept
+aliases: []
 ---
 
 # Phenotype

@@ -1,19 +1,20 @@
 ---
-type: document
 title: Small molecule compounds that induce cellular senescence
+description: To date, dozens of stress‐induced cellular senescence phenotypes have
+  been reported. These cellular senescence states may differ substantially from each
+  other, as well as from replicative senescence through the presence of specific senescence
+  ...
+type: document
+created: 2026-06-13
 source: https://pmc.ncbi.nlm.nih.gov/articles/PMC6398529/
 author:
 - Nadezhda V Petrova
 - Artem K Velichko
 - Sergey V Razin
 - Omar L Kantidze
-created: 2026-06-13
-description: To date, dozens of stress‐induced cellular senescence phenotypes have
-  been reported. These cellular senescence states may differ substantially from each
-  other, as well as from replicative senescence through the presence of specific senescence
-  ...
 tags:
   - "clippings"
+aliases: []
 ---
 
 . 2016 Sep 14;15(6):999–1017. doi: [10.1111/acel.12518](https://doi.org/10.1111/acel.12518)

@@ -1,12 +1,13 @@
 ---
-type: entity
 title: ACAT1
 description: Acetyl-CoA acetyltransferase 1 (ACAT1) is an enzyme that acetylates TFEB
   at multiple lysine sites (K91, K103, K116, K430) to enhance its nuclear translocation
   and DNA binding activity.
+type: entity
 created: 2026-07-04
 updated: 2026-07-07
-entity_type_1: Enzyme
+tags:
+  - Enzyme
 aliases: [acetyl-CoA acetyltransferase 1]
 ---
 

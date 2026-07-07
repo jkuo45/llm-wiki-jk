@@ -1,11 +1,12 @@
 ---
-type: entity
 title: CDK4/6
 description: Cyclin-dependent kinases 4 and 6 (CDK4/6) are cell cycle regulators that
   also phosphorylate TFEB in the nucleus to promote its CRM1-dependent nuclear export.
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Enzyme
+tags:
+  - Enzyme
 aliases: [CDK4/6, cyclin-dependent kinase 4/6]
 ---
 # CDK4/6

@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Zeb1
 description: Zeb1 (Zinc finger E-box-binding homeobox 1) is a zinc-finger transcription factor that drives Epithelial-to-Mesenchymal Transition and represses epithelial differentiation and pluripotency.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Protein
+tags:
+  - Protein
+aliases: []
 ---
 
 # Zeb1

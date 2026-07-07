@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Honeybee
 description: The European honeybee (Apis mellifera) is a species used medicinally for millennia; its products — honey, propolis, and venom — have documented anticancer properties, chiefly via melittin.
+type: entity
 created: 2026-07-06
 updated: 2026-07-07
-entity_type_1: Model Organism
+tags:
+  - Model Organism
+aliases: []
 ---
 
 # Honeybee

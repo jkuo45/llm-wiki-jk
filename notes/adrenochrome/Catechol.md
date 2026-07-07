@@ -1,22 +1,22 @@
 ---
-type: entity
 title: Catechol
 description: Catechol (pyrocatechol, 1,2-dihydroxybenzene) is an organic ortho-diphenol compound, the parent scaffold of the catecholamine family and a key intermediate in melanin formation and adrenochrome research.
+type: entity
 created: 2026-07-04
 updated: 2026-07-06
-entity_type_1: Chemical Compound
-aliases:
-  - Pyrocatechol
-  - 1,2-Dihydroxybenzene
-  - C6H4(OH)2
-  - o-Diphenol
-  - Catechol
 tags:
   - catechol
   - catecholamine
   - ortho-diphenol
   - redox-cycling
   - melanin
+  - Chemical Compound
+aliases:
+  - Pyrocatechol
+  - 1,2-Dihydroxybenzene
+  - C6H4(OH)2
+  - o-Diphenol
+  - Catechol
 ---
 
 # Catechol

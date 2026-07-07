@@ -1,12 +1,14 @@
 ---
-type: entity
 title: Serum
 description: Serum is the clear, pale-yellow liquid component of blood that remains
   after coagulation, containing proteins, electrolytes, antibodies, antigens, and
   hormones.
+type: entity
 created: 2026-07-04
 updated: 2026-07-06
-entity_type_1: Anatomy
+tags:
+  - Anatomy
+aliases: []
 ---
 
 # Serum

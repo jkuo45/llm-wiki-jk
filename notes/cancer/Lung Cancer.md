@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Lung Cancer
 description: Lung cancer is the leading cause of cancer morbidity and mortality worldwide; Ivermectin inhibits its proliferation and metastasis via YAP1, EGFR, EMT, and HSP27 pathways.
+type: entity
 created: 2026-07-06
 updated: 2026-07-07
-entity_type_1: Medical Condition
+tags:
+  - Medical Condition
+aliases: []
 ---
 
 # Lung Cancer

@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Benzothiazine
 description: 'Benzothiazine is a heterocyclic compound containing a benzene ring fused to a thiazine ring; it is a characteristic structural unit of Pheomelanin and is found in the core of Neuromelanin.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-07
-entity_type_1: Chemical Class
+tags:
+  - Chemical Class
+aliases: []
 ---
 
 # Benzothiazine

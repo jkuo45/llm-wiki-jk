@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: Senescence-Associated Secretory Phenotype
 description: The Senescence-Associated Secretory Phenotype (SASP) is a characteristic
   state of senescent cells where they secrete a complex mix of Cytokines, Chemokine,
   Protease, and growth factors.
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Biological Process
+tags:
+  - Biological Process
 aliases: [SASP]
 
 ---

@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: EpiPen
 description: An EpiPen is a brand of epinephrine auto-injector used for the emergency
   treatment of Anaphylaxis.
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Medical Product
-
+tags:
+  - Medical Product
+aliases: []
 ---
 
 # EpiPen

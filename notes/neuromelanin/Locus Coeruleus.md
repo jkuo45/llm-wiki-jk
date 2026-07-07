@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Locus Coeruleus
 description: The Locus Coeruleus (LC) is a nucleus in the pons of the brainstem involved with physiological responses to stress and panic. It is the principal site for the synthesis of norepinephrine in the brain.
+type: entity
 created: 2026-07-04
 updated: 2026-07-07
-entity_type_1: Anatomy
+tags:
+  - Anatomy
+aliases: []
 ---
 
 # Locus Coeruleus

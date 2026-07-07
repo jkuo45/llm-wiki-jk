@@ -1,12 +1,13 @@
 ---
-type: entity
 title: Tenovins
 description: The Tenovins represent a family of small-molecule compounds, primarily
   comprising Tenovin-1 and its more water-soluble analog Tenovin-6, that function
   as potent inhibitors of class III histone deac...
+type: entity
 created: 2026-07-03
 updated: 2026-07-03
-entity_type_1: Chemical Compound
+tags:
+  - Chemical Compound
 aliases:
   - Tenovins
   - Tenovin-1

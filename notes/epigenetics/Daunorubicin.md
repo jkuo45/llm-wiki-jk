@@ -1,19 +1,19 @@
 ---
-type: entity
 title: Daunorubicin
 description: Daunorubicin is a chemical compound and anthracycline antibiotic used in chemotherapy that induces DNA damage by inhibiting topoisomerase II.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Chemical Compound
-aliases:
-  - Daunomycin
-  - Cerubidine
 tags:
   - anthracycline
   - chemotherapy
   - topoisomerase II inhibitor
   - cardiotoxicity
   - senescence
+  - Chemical Compound
+aliases:
+  - Daunomycin
+  - Cerubidine
 ---
 # Daunorubicin
 

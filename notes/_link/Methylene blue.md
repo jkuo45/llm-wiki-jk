@@ -1,12 +1,14 @@
 ---
-type: entity
 title: Methylene blue
 description: In the Mitohormetic Redox-Relay strategy, Methylene blue serves as an
   "Amplifier" and mitochondrial electron cycler. It acts as an alternative electron
   carrier, bypassing damaged Complex I/III and ...
+type: entity
 created: 2024-01-01
 updated: 2024-01-01
-entity_type_1: Chemical Compound
+tags:
+  - Chemical Compound
+aliases: []
 ---
 # Methylene blue
 [[Methylene blue]] is a medication used as the first-line treatment for symptomatic or high-level acquired [[Methemoglobinemia]]. It acts as a cofactor to enhance the NADPH-methemoglobin reductase pathway, reducing [[Methemoglobin]] back to functional [[Hemoglobin]].

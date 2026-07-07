@@ -1,12 +1,15 @@
 ---
-type: entity
 title: DNA Methylation
 description: 'DNA methylation is a key epigenetic mechanism involving the addition of methyl groups to DNA, typically at CpG sites, to regulate gene expression.'
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Biological Process
+tags:
+  - epigenetics
+  - gene_silencing
+  - methylation
+  - Biological Process
 aliases: []
-tags: [epigenetics, gene_silencing, methylation]
 ---
 
 # DNA Methylation

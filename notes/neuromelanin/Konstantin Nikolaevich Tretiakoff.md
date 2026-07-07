@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Konstantin Nikolaevich Tretiakoff
 description: Konstantin Nikolaevich Tretiakoff (1892–1956) was a Russian-born neuroanatomist who, in 1919, first reported the loss of pigmented neurons in the Substantia Nigra as the cardinal pathologic feature of Parkinson's Disease.
+type: entity
 created: 2026-07-04
 updated: 2026-07-07
-entity_type_1: Person
+tags:
+  - Person
+aliases: []
 ---
 
 # Konstantin Nikolaevich Tretiakoff

@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: CeTOR
 description: 'CeTOR (let-363) is the C. elegans ortholog of mammalian mTORC1.
   It functions in two complexes analogous to mTORC1 and mTORC2, regulating growth,
   metabolism, Autophagy, and lifespan.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Enzyme
+tags:
+  - Enzyme
 aliases: [C. elegans TOR, let-363]
 
 ---

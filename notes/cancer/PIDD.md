@@ -1,10 +1,12 @@
 ---
-type: entity
 title: PIDD
 description: p53-induced death domain protein (PIDD; LRDD) is a component of the PIDDosome complex involved in Caspase-2 activation, p53-dependent apoptosis, and NF-κB signaling.
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Protein
+tags:
+  - Protein
+aliases: []
 ---
 
 # PIDD

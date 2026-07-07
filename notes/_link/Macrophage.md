@@ -1,12 +1,14 @@
 ---
-type: entity
 title: Macrophage
 description: Large mononuclear phagocytes that are key innate immune cells, performing
   phagocytosis, antigen presentation, and cytokine production, with critical links
   to Autophagy and inflammatory regulation.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Cell Type
+tags:
+  - Cell Type
+aliases: []
 ---
 # Macrophage
 [[Macrophages]] are large mononuclear phagocytes derived from yolk sac and fetal liver progenitors (tissue-resident populations) or circulating [[Bone Marrow]]-derived [[Monocytes]] (inflammatory recruits). They are among the most versatile cells of the [[Innate Immune System]], serving as sentinels that phagocytose pathogens, dead cells, and debris, while simultaneously presenting antigens to activate adaptive immune responses. Tissue-resident macrophages adopt specialized identities depending on their anatomical niche: [[Kupffer Cells]] in the liver, [[Microglia]] in the brain, alveolar macrophages in the lung, [[Osteoclasts]] in bone, splenic macrophages in the spleen, and peritoneal macrophages in the peritoneal cavity. These populations maintain tissue homeostasis through continuous surveillance and are often the first responders to infection or injury.

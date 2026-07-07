@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Apitherapy
 description: 'Apitherapy is a branch of alternative medicine using honeybee-derived products (honey, pollen, propolis, royal jelly, and Bee Venom) for therapeutic purposes, including investigated anticancer effects.'
+type: entity
 created: 2026-07-06
 updated: 2026-07-07
-entity_type_1: Medical Treatment
+tags:
+  - Medical Treatment
+aliases: []
 ---
 
 # Apitherapy

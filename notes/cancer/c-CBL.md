@@ -1,10 +1,12 @@
 ---
-type: entity
 title: c-CBL
 description: c-CBL is an E3 ubiquitin ligase and proto-oncogene that negatively regulates receptor tyrosine kinase signaling by targeting activated receptors for ubiquitination and degradation.
+type: entity
 created: 2026-07-06
 updated: 2026-07-07
-entity_type_1: Protein
+tags:
+  - Protein
+aliases: []
 ---
 
 # c-CBL

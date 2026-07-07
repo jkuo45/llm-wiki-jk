@@ -1,10 +1,11 @@
 ---
-type: entity
 title: Creatine
 description: 'Creatine is a guanidino compound synthesized from arginine, glycine, and S-adenosylmethionine that buffers cellular ATP via the phosphocreatine system; its synthesis consumes ~40% of body methyl groups.'
+type: entity
 created: 2026-05-25
 updated: 2026-07-07
-entity_type_1: Chemical Compound
+tags:
+  - Chemical Compound
 aliases: [creatine monohydrate, N-carbamimidoyl-N-methylglycine]
 
 ---

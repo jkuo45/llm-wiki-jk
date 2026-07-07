@@ -1,12 +1,14 @@
 ---
-type: entity
 title: Drug Discovery
 description: Drug Discovery is the multidisciplinary process of identifying and optimizing
   new therapeutics. Induced Pluripotent Stem Cells (iPSCs) and Disease Modeling have
   transformed it by providing human-relevant, patient-specific assay platforms.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Scientific Concept
+tags:
+  - Scientific Concept
+aliases: []
 ---
 
 # Drug Discovery

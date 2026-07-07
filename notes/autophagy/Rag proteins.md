@@ -1,12 +1,13 @@
 ---
-type: entity
 title: Rag proteins
 description: The Rag proteins are a family of small GTPases that form heterodimers
   to recruit mTORC1 to the lysosomal surface in response to amino acids, enabling
   its activation by Rheb.
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Protein
+tags:
+  - Protein
 aliases: [Rag GTPases, RRAGC/D]
 ---
 # Rag proteins

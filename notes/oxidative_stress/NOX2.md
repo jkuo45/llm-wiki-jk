@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: NOX2
 description: 'NOX2 (gp91ᵖʰᵒˣ, NADPH oxidase 2) is the prototypical catalytic subunit
   of the NADPH oxidase family, encoded by the *CYBB* gene. It is the primary source
   of superoxide production in phagocytes d...'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Enzyme
+tags:
+  - Enzyme
 aliases: [gp91phox, CYBB, NADPH oxidase 2, Cytochrome b-245 heavy chain]
 database_ids:
   uniprot: P04839

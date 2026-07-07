@@ -1,14 +1,14 @@
 ---
-
-type: entity
 title: Superoxide
 description: 'Biochemical properties: Superoxide is an endogenous metabolite involved
   in cellular energy metabolism, redox reactions, or biosynthetic pathways. Its cellular
   concentration reflects metabolic f...'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Metabolite
-
+tags:
+  - Metabolite
+aliases: []
 ---
 
 # Superoxide

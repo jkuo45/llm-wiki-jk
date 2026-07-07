@@ -1,12 +1,14 @@
 ---
-type: entity
 title: S Phase
 description: S Phase (Synthesis Phase) is the phase of the Cell Cycle during which
   DNA Replication occurs, producing two copies of the genome. It follows G1 Phase
   and precedes G2 Phase. S Phase is initiated by ...
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Enzyme
+tags:
+  - Enzyme
+aliases: []
 ---
 # S Phase
 

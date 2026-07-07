@@ -1,14 +1,17 @@
 ---
-type: entity
 title: Rheumatoid Arthritis
 description: Rheumatoid arthritis (RA) is a long-term, progressive, and disabling
   autoimmune disease that causes inflammation, swelling, and pain in and around the
   joints and other body organs. The accumulation...
+type: entity
 created: 2026-05-09
 updated: 2026-07-06
-entity_type_1: Medical Condition
+tags:
+  - oxidative_stress
+  - inflammation
+  - autoimmune
+  - Medical Condition
 aliases: [RA]
-tags: [oxidative_stress, inflammation, autoimmune]
 ---
 # Rheumatoid Arthritis
 Rheumatoid arthritis (RA) is a long-term, progressive, and disabling autoimmune disease that causes inflammation, swelling, and pain in and around the joints and other body organs. The accumulation of [[Advanced Glycation End Products|AGEs]] in synovial fluid and tissues is associated with the inflammatory processes in RA.

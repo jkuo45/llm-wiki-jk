@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Pulse oximetry
 description: '- Methemoglobinemia: Causes inaccurate pulse oximetry readings.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Diagnostic Test
+tags:
+  - Diagnostic Test
+aliases: []
 ---
 # Pulse oximetry
 

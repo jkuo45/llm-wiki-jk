@@ -1,11 +1,12 @@
 ---
-type: entity
 title: Cathepsin K
 description: A lysosomal cysteine protease involved in bone resorption and degradation
   of extracellular matrix.
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Enzyme
+tags:
+  - Enzyme
 aliases: [CTSK]
 ---
 # Cathepsin K

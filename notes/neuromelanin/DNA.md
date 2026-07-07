@@ -1,10 +1,12 @@
 ---
-type: entity
 title: DNA
 description: 'DNA (Deoxyribonucleic acid) is the hereditary material in humans and almost all other organisms, which encodes the genetic instructions for life.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-07
-entity_type_1: Biological Molecule
+tags:
+  - Biological Molecule
+aliases: []
 ---
 
 # DNA

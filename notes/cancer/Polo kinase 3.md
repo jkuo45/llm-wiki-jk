@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Polo kinase 3
 description: Polo kinase 3 (Plk3) is the stress-responsive Polo-like kinase that phosphorylates Bcl-xL at Ser49 during cell cycle progression and checkpoints to modulate its anti-apoptotic function. This note is consolidated with PLK3.
+type: entity
 created: 2026-07-06
 updated: 2026-07-07
-entity_type_1: Enzyme
+tags:
+  - Enzyme
+aliases: []
 ---
 
 # Polo kinase 3

@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Tyrosinase-related protein-2
 description: Tyrosinase-related protein-2 (TRP-2), also known as Dopachrome tautomerase, is a melanosomal enzyme catalyzing dopachrome rearrangement in melanin biosynthesis; its upregulation in Parkinson's Disease patient neurons suggests altered Neuromelanin production.
+type: entity
 created: 2026-07-04
 updated: 2026-07-07
-entity_type_1: Enzyme
+tags:
+  - Enzyme
+aliases: []
 ---
 
 # Tyrosinase-related protein-2

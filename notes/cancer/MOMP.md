@@ -1,10 +1,12 @@
 ---
-type: entity
 title: MOMP
 description: Mitochondrial outer membrane permeabilization (MOMP) is the irreversible point-of-no-return in intrinsic apoptosis, releasing cytochrome c and Smac to activate caspases.
+type: entity
 created: 2026-07-06
 updated: 2026-07-07
-entity_type_1: Biological Process
+tags:
+  - Biological Process
+aliases: []
 ---
 
 # MOMP

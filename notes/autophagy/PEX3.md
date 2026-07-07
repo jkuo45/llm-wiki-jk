@@ -1,12 +1,13 @@
 ---
-type: entity
 title: PEX3
 description: PEX3 is a crucial gene that encodes a peroxisomal membrane protein required
   for the correct folding and transport of many other peroxins into the Peroxisome
   membrane. It acts as an essential buildi...
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Protein
+tags:
+  - Protein
 aliases: [peroxisomal biogenesis factor 3]
 ---
 # PEX3

@@ -1,12 +1,15 @@
 ---
-type: entity
 title: DNA Damage Response
 description: 'The DNA Damage Response (DDR) is a complex signaling network that detects and repairs DNA lesions to maintain genomic stability.'
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Biological Process
+tags:
+  - genomic_stability
+  - DNA_repair
+  - epigenetics
+  - Biological Process
 aliases: [DDR]
-tags: [genomic_stability, DNA_repair, epigenetics]
 ---
 
 # DNA Damage Response

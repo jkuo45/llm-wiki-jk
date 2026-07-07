@@ -1,12 +1,14 @@
 ---
-type: entity
 title: Disease Modeling
 description: Disease Modeling uses patient-derived cells (especially Induced Pluripotent
   Stem Cells) and Organoids to recreate human pathology in vitro for mechanistic study
   and Drug Discovery.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Scientific Concept
+tags:
+  - Scientific Concept
+aliases: []
 ---
 
 # Disease Modeling

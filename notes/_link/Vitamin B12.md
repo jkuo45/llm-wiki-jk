@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: Vitamin B12
 description: 'Vitamin B12 (cobalamin) is a water-soluble vitamin essential for
   red blood cell formation, DNA Repair, and neurological function. It is a critical
   cofactor in the Methylation.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Chemical Compound
+tags:
+  - Chemical Compound
 aliases: [Cobalamin, Cyanocobalamin, Methylcobalamin, Adenosylcobalamin, Hydroxocobalamin]
 database_ids:
   mesh: D014805

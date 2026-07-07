@@ -1,12 +1,14 @@
 ---
-type: entity
 title: Atherosclerosis
 description: Atherosclerosis is a disease in which the inside of an artery narrows
   due to the build up of plaque. Oxidative Stress and Lipid Peroxidation are key drivers
   of plaque formation. It often involves E...
+type: entity
 created: 2026-05-29
 updated: 2026-05-29
-entity_type_1: Medical Condition
+tags:
+  - Medical Condition
+aliases: []
 ---
 # Atherosclerosis
 Atherosclerosis is a disease in which the inside of an artery narrows due to the build up of plaque. [[Oxidative Stress]] and [[Lipid Peroxidation]] are key drivers of plaque formation. It often involves [[Endothelial Dysfunction]] and the uptake of lipids via receptors like the [[CD36 Receptor]], while [[ABCA1]] helps in cholesterol efflux.

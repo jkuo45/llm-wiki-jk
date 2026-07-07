@@ -1,6 +1,7 @@
 ---
 type: index
 title: Epigenetics notes
+aliases: []
 description: Index of wiki notes for epigenetics
 created: 2026-07-06
 updated: 2026-07-06

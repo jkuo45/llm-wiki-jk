@@ -1,6 +1,7 @@
 ---
 type: index
 title: Sirtuins
+aliases: []
 description: index of entities and documents in this directory
 created: 2026-07-06
 updated: 2026-07-04

@@ -1,11 +1,13 @@
 ---
-type: entity
 title: Amadori products
 description: Amadori products are stable intermediate compounds formed during the
   early stages of Glycation.
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Chemical Class
+tags:
+  - Chemical Class
+aliases: []
 ---
 # Amadori products
 

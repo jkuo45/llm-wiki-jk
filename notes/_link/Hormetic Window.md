@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: Hormetic Window
 description: The Hormetic Window is the dose range over which a stressor or toxicant
   produces adaptive, beneficial effects rather than damage. It is the quantitative
   boundary separating Hormesis from toxici...
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Scientific Concept
+tags:
+  - Scientific Concept
 aliases: [Hormetic dose-response window, Mitohormetic window, Therapeutic hormetic range]
 
 ---

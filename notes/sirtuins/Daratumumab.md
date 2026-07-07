@@ -1,12 +1,13 @@
 ---
-type: entity
 title: Daratumumab
 description: Daratumumab (brand name Darzalex) is a fully human IgG1κ monoclonal antibody
   (mAb) that specifically targets CD38, a transmembrane glycoprotein highly expressed
   on malignant plasma cells. It was fi...
+type: entity
 created: 2026-07-03
 updated: 2026-07-03
-entity_type_1: Chemical Compound
+tags:
+  - Chemical Compound
 aliases:
   - Daratumumab
   - Darzalex

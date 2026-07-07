@@ -1,14 +1,14 @@
 ---
-
-type: entity
 title: PAK1
 description: 'PAK1 (P21-activated kinase 1) is a member of the PAK family of serine/threonine
   kinases. It plays a multitude of biological functions, including regulating cell
   proliferation, Apoptosis, cell m...'
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Enzyme
-
+tags:
+  - Enzyme
+aliases: []
 ---
 
 # PAK1

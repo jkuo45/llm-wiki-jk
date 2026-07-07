@@ -1,11 +1,13 @@
 ---
-type: entity
 title: Celastrol
 description: Celastrol is a bioactive compound that enhances TFEB-mediated autophagy
   and mitigates Tau pathology, showing potential for Alzheimer's disease therapy.
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Chemical Compound
+tags:
+  - Chemical Compound
+aliases: []
 ---
 # Celastrol
 

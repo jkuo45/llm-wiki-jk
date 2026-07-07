@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Sodium Persulfate
 description: Sodium Persulfate (Na2S2O8) is a strong oxidizing agent and radical initiator used in vitro to oxidize Epinephrine to Adrenochrome, groundwater remediation, and polymerization.
+type: entity
 created: 2026-07-04
 updated: 2026-07-06
-entity_type_1: Chemical Compound
+tags:
+  - Chemical Compound
+aliases: []
 ---
 
 # Sodium Persulfate

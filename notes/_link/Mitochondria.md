@@ -1,12 +1,14 @@
 ---
-type: entity
 title: Mitochondria
 description: Mitochondria are the primary energy-producing organelles in eukaryotic
   cells, which are selectively degraded via Mitophagy to maintain cellular health
   and prevent oxidative stress.
+type: entity
 created: 2026-05-29
 updated: 2026-05-29
-entity_type_1: Anatomy
+tags:
+  - Anatomy
+aliases: []
 ---
 # Mitochondria
 Mitochondria are the primary energy-producing organelles in eukaryotic cells, which are selectively degraded via [[Mitophagy]] to maintain cellular health and prevent oxidative stress.

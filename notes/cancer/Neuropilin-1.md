@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Neuropilin-1
 description: Neuropilin-1 (NRP-1) is a transmembrane co-receptor for VEGF and semaphorins that promotes tumor angiogenesis, vascular permeability, and endocytic uptake of tumor-penetrating peptides.
+type: entity
 created: 2026-07-06
 updated: 2026-07-07
-entity_type_1: Receptor
+tags:
+  - Receptor
+aliases: []
 ---
 
 # Neuropilin-1

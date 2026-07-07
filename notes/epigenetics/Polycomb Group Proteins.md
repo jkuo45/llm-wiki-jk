@@ -1,14 +1,14 @@
 ---
-
-type: entity
 title: Polycomb Group Proteins
 description: 'Polycomb group (PcG) proteins are evolutionarily conserved chromatin
   regulators that maintain transcriptional repression of developmental genes, cell
   cycle regulators, and senescence-associated...'
+type: entity
 created: 2024-01-01
 updated: 2024-07-04
-entity_type_1: Protein
-
+tags:
+  - Protein
+aliases: []
 ---
 
 # Polycomb Group Proteins

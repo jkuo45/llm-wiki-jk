@@ -1,12 +1,15 @@
 ---
-type: entity
 title: Amyloid-beta
 description: Amyloid-beta (Aβ) denotes peptides of 36–43 amino acids that are the main component of the amyloid plaques found in the brains of people with Alzheimer's Disease.
+type: entity
 created: 2026-05-09
 updated: 2026-07-07
-entity_type_1: Protein
+tags:
+  - oxidative_stress
+  - alzheimers
+  - neurodegeneration
+  - Protein
 aliases: [Aβ, beta-amyloid, Aβ peptide]
-tags: [oxidative_stress, alzheimers, neurodegeneration]
 ---
 
 # Amyloid-beta

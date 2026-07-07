@@ -1,14 +1,14 @@
 ---
-
-type: entity
 title: COMT Inhibitors
 description: 'Chemical properties: COMT Inhibitors is a chemical substance with
   defined molecular structure, functional groups, and physicochemical properties that
   determine its biological activity.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Chemical Class
-
+tags:
+  - Chemical Class
+aliases: []
 ---
 
 # COMT Inhibitors

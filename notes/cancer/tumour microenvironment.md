@@ -1,19 +1,20 @@
 ---
 title: Tumour Microenvironment
+description: The complex ecosystem surrounding a tumor, comprising various cell types, signaling molecules, and the extracellular matrix, which plays a critical role in tumor growth, progression, and therapeutic resistance.
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Scientific Concept
-entity_type_2: Anatomical Structure
-description: The complex ecosystem surrounding a tumor, comprising various cell types, signaling molecules, and the extracellular matrix, which plays a critical role in tumor growth, progression, and therapeutic resistance.
 tags:
   - cancer
   - microenvironment
   - tumor biology
   - immunology
+  - Scientific Concept
+source: https://en.wikipedia.org/wiki/Tumor_microenvironment
 aliases:
   - TME
   - Tumor Microenvironment
-source: https://en.wikipedia.org/wiki/Tumor_microenvironment
+entity_type_2: Anatomical Structure
 ---
 
 # Tumour Microenvironment

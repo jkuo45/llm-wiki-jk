@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: Adrenolutin
 description: 'Adrenolutin (3,5,6-trihydroxy-1-methylindole) is a fluorescent metabolite
   and a further oxidation/rearrangement product of Adrenochrome.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Metabolite
-
+tags:
+  - Metabolite
+aliases: []
 ---
 
 # Adrenolutin

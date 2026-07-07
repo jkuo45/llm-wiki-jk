@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Trastuzumab
 description: Trastuzumab is a recombinant monoclonal antibody targeting the HER2 (ERBB2) receptor, a foundational targeted therapy for HER2-positive breast and gastric cancers that blocks HER2 signaling, promotes ADCC, and serves as a delivery vector for anticancer payloads.
+type: entity
 created: 2026-07-06
 updated: 2026-07-07
-entity_type_1: Antibody
+tags:
+  - Antibody
+aliases: []
 ---
 
 # Trastuzumab

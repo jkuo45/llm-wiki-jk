@@ -1,14 +1,14 @@
 ---
-
-type: entity
 title: Fas
 description: 'Fas (also known as CD95, APO-1, or DR2) is a key death receptor
   belonging to the tumor necrosis factor receptor (TNFR) superfamily. It plays a central
   role in the Extrinsic Pathway of Apoptosis.'
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Enzyme
-
+tags:
+  - Enzyme
+aliases: []
 ---
 
 # Fas

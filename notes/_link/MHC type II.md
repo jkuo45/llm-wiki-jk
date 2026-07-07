@@ -1,20 +1,20 @@
 ---
-type: entity
 title: MHC type II
 description: Major histocompatibility complex class II molecules, involved in antigen
   presentation.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Protein
-aliases:
-  - MHC II
-  - HLA-D
-  - HLA class II
 tags:
   - immunology
   - antigen presentation
   - adaptive immunity
   - MHC
+  - Protein
+aliases:
+  - MHC II
+  - HLA-D
+  - HLA class II
 ---
 
 # MHC type II

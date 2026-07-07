@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Norepinephrine
 description: A Catecholamines that functions as both a hormone and a neurotransmitter.
+type: entity
 created: 2026-05-31
 updated: 2026-05-31
-entity_type_1: Chemical Compound
+tags:
+  - Chemical Compound
+aliases: []
 ---
 # Norepinephrine
 A [[Catecholamines|catecholamine]] that functions as both a hormone and a neurotransmitter.

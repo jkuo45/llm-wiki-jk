@@ -1,12 +1,14 @@
 ---
-type: entity
 title: CEBPβ
 description: CEBPβ (CCAAT/enhancer-binding protein beta) is a transcription factor
   belonging to the C/EBP family of basic leucine zipper (bZIP) proteins. It regulates
   genes involved in Inflammation, Metabolism,...
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Receptor
+tags:
+  - Receptor
+aliases: []
 ---
 # CEBPβ
 

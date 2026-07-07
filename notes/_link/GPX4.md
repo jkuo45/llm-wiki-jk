@@ -1,11 +1,12 @@
 ---
-type: entity
 title: GPX4
 description: Selenoprotein that reduces phospholipid hydroperoxides, a key inhibitor
   of ferroptosis.
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Enzyme
+tags:
+  - Enzyme
 aliases: [Glutathione Peroxidase 4, Phospholipid Hydroperoxide Glutathione Peroxidase]
 ---
 # GPX4

@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Ubiquitin
 description: Ubiquitin is a conserved 76-amino-acid regulatory protein that tags substrates for proteasomal degradation or signaling; ubiquitinated inclusions mark Proteostasis failure in Neuromelanin-rich neurons of Parkinson's Disease.
+type: entity
 created: 2026-07-04
 updated: 2026-07-07
-entity_type_1: Protein
+tags:
+  - Protein
+aliases: []
 ---
 
 # Ubiquitin

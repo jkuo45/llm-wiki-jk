@@ -1,10 +1,11 @@
 ---
-type: entity
 title: Berberine
 description: 'Berberine is a quaternary ammonium alkaloid from Berberis and related plants with pleiotropic effects on glucose, lipid, and inflammatory pathways; it lacks a catechol structure and does not inhibit COMT.'
+type: entity
 created: 2026-05-25
 updated: 2026-07-07
-entity_type_1: Chemical Compound
+tags:
+  - Chemical Compound
 aliases: [BBR]
 
 ---

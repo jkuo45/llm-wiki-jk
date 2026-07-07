@@ -1,12 +1,14 @@
 ---
-type: entity
 title: Longevity
 description: Longevity refers to the capacity of an organism to survive beyond the
   average lifespan, often influenced by a combination of genetic, environmental, and
   lifestyle factors.
+type: entity
 created: 2024-01-01
 updated: 2024-01-01
-entity_type_1: Scientific Concept
+tags:
+  - Scientific Concept
+aliases: []
 ---
 # Longevity
 Longevity refers to the capacity of an organism to survive beyond the average lifespan, often influenced by a combination of genetic, environmental, and lifestyle factors.

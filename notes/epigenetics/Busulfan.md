@@ -1,12 +1,16 @@
 ---
-type: entity
 title: Busulfan
 description: Busulfan (1,4-butanediol dimethanesulfonate) is a bifunctional alkylating agent used in conditioning chemotherapy prior to bone marrow transplantation and as a model agent to induce cellular senescence in vitro.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Chemical Compound
+tags:
+  - alkylating agent
+  - chemotherapy
+  - senescence
+  - DNA damage
+  - Chemical Compound
 aliases: [Busulfex, Myleran, Busilvex]
-tags: [alkylating agent, chemotherapy, senescence, DNA damage]
 ---
 
 # Busulfan

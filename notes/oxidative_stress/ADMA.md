@@ -1,10 +1,11 @@
 ---
-type: entity
 title: ADMA
 description: ADMA (Asymmetric dimethylarginine) is an endogenous inhibitor of Nitric Oxide Synthase produced by methylation of arginine residues in proteins by Protein arginine methyltransferases and released during proteolysis.
+type: entity
 created: 2026-07-04
 updated: 2026-07-07
-entity_type_1: Metabolite
+tags:
+  - Metabolite
 aliases: [Asymmetric dimethylarginine, N, N-dimethyl-L-arginine]
 ---
 

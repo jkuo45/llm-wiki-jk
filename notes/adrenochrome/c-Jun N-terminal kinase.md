@@ -1,12 +1,14 @@
 ---
-type: entity
 title: c-Jun N-terminal kinase
 description: c-Jun N-terminal kinase (JNK) is a signaling kinase involved in various
   cellular processes, including the mammalian Retrograde Response and responses to
   Oxidative Stress.
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Enzyme
+tags:
+  - Enzyme
+aliases: []
 ---
 # c-Jun N-terminal kinase
 

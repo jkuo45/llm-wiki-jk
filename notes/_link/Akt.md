@@ -1,14 +1,14 @@
 ---
-
-type: entity
 title: Akt
 description: 'Akt (also known as Protein Kinase B or PKB) is a serine/threonine-specific
   protein kinase that plays a key role in multiple cellular processes such as glucose
   metabolism, apoptosis, cell prolif...'
+type: entity
 created: 2026-05-29
 updated: 2026-05-29
-entity_type_1: Protein
-
+tags:
+  - Protein
+aliases: []
 ---
 
 # Akt

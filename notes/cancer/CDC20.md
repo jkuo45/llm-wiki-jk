@@ -1,13 +1,12 @@
 ---
-type: entity
 title: CDC20
 description: Cell division cycle 20 (CDC20) is a ~55 kDa WD40 repeat protein that serves as the essential co-activator of the APC/C E3 ubiquitin ligase, governing the metaphase-to-anaphase transition and mitotic exit.
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Protein
+tags:
+  - Protein
 aliases: [Cell division cycle 20, p55CDC, Fizzy]
-tags: []
-
 ---
 
 # CDC20

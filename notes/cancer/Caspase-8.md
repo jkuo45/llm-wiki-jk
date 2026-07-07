@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: Caspase-8
 description: 'Caspase-8 is an initiator protease that plays a central role in
   the Extrinsic Pathway of Apoptosis.'
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Enzyme
-
+tags:
+  - Enzyme
+aliases: []
 ---
 
 # Caspase-8

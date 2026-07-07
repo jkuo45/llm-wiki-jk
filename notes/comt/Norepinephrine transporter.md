@@ -1,10 +1,11 @@
 ---
-type: entity
 title: Norepinephrine transporter
 description: The norepinephrine transporter (NET) is a SLC6A2 sodium-dependent symporter that clears norepinephrine and, in the prefrontal cortex, also dopamine.
+type: entity
 created: 2026-05-25
 updated: 2026-07-07
-entity_type_1: Transporter
+tags:
+  - Transporter
 aliases: [NET, SLC6A2]
 ---
 

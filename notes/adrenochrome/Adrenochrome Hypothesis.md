@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: Adrenochrome Hypothesis
 description: The Adrenochrome Hypothesis was a theory proposed in the 1950s by
   Abram Hoffer and Humphry Osmond.
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Scientific Theory
-
+tags:
+  - Scientific Theory
+aliases: []
 ---
 
 # Adrenochrome Hypothesis

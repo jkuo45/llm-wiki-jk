@@ -1,12 +1,14 @@
 ---
-type: entity
 title: NMNAT
 description: NMNAT (Nicotinamide mononucleotide adenylyltransferase) is a family of
   enzymes catalyzing the final step in NAD+ biosynthesis, with three compartment-specific
   mammalian isoforms and a neuroprotective chaperone function.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Enzyme
+tags:
+  - Enzyme
+aliases: []
 ---
 # NMNAT
 

@@ -1,10 +1,12 @@
 ---
-type: entity
 title: ERK
 description: ERK (extracellular signal-regulated kinase), the effector of the RAS-RAF-MEK-ERK MAPK cascade, promotes cell survival and proliferation by phosphorylating pro-apoptotic proteins such as Bim and stabilizing anti-apoptotic Mcl-1.
+type: entity
 created: 2026-07-06
 updated: 2026-07-07
-entity_type_1: Protein
+tags:
+  - Protein
+aliases: []
 ---
 
 # ERK

@@ -1,14 +1,17 @@
 ---
-type: entity
 title: TGF-beta
 description: Transforming growth factor beta (TGF-beta) is a multifunctional cytokine
   that plays a role in cell growth, proliferation, and differentiation. It is a key
   mediator of Fibrosis and is influenced by ...
+type: entity
 created: 2026-05-09
 updated: 2026-07-04
-entity_type_1: Protein
+tags:
+  - oxidative_stress
+  - cytokine
+  - fibrosis
+  - Protein
 aliases: [TGF-beta, transforming growth factor beta]
-tags: [oxidative_stress, cytokine, fibrosis]
 ---
 # TGF-beta
 Transforming growth factor beta (TGF-beta) is a multifunctional cytokine that plays a role in cell growth, proliferation, and differentiation. It is a key mediator of [[Fibrosis]] and is influenced by the cellular level of [[Oxidative Stress]] and chronic [[Inflammation]].

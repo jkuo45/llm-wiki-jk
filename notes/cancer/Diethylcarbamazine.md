@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Diethylcarbamazine
 description: Diethylcarbamazine (DEC) is a piperazine-derived antifilarial drug that also exhibits anti-inflammatory, immunomodulatory, and emerging anticancer activities, including suppression of tumor-promoting inflammation and lymphangiogenesis.
+type: entity
 created: 2026-07-06
 updated: 2026-07-07
-entity_type_1: Medical Product
+tags:
+  - Medical Product
+aliases: []
 ---
 
 # Diethylcarbamazine

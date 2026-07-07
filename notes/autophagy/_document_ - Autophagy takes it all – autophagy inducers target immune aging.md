@@ -1,17 +1,18 @@
 ---
-type: document
 title: Autophagy takes it all – autophagy inducers target immune aging
-source: https://pmc.ncbi.nlm.nih.gov/articles/PMC8822217/
-author:
-- Heidi Zinecker
-- Anna Katharina Simon
-created: 2026-05-14
 description: Autophagy, as the key nutrient recycling pathway, enables eukaryotic
   cells to adapt to surging cellular stress during aging and, thereby, delays age-associated
   deterioration. Autophagic flux declines with age and, in turn, decreases in autophagy
   ...
+type: document
+created: 2026-05-14
+source: https://pmc.ncbi.nlm.nih.gov/articles/PMC8822217/
+author:
+- Heidi Zinecker
+- Anna Katharina Simon
 tags:
   - "clippings"
+aliases: []
 ---
 
 ## ABSTRACT

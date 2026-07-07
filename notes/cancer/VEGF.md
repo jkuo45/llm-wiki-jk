@@ -1,10 +1,12 @@
 ---
-type: entity
 title: VEGF
 description: Vascular endothelial growth factor (VEGF) is a secreted angiogenic cytokine that drives tumor neovascularization by stimulating endothelial proliferation, survival, and permeability via VEGFR signaling; a central anti-angiogenic cancer target.
+type: entity
 created: 2026-07-06
 updated: 2026-07-07
-entity_type_1: Protein
+tags:
+  - Protein
+aliases: []
 ---
 
 # VEGF

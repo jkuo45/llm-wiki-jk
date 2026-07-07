@@ -1,10 +1,12 @@
 ---
-type: entity
 title: SOX gene family
 description: A family of transcription factors sharing an HMG-box DNA-binding domain with pivotal roles in development, stemness, and cell-fate determination.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Gene
+tags:
+  - Gene
+aliases: []
 ---
 
 # SOX gene family

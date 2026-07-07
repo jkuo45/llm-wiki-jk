@@ -1,10 +1,12 @@
 ---
-type: entity
 title: T Cell Receptor
 description: The T Cell Receptor (TCR) is a membrane protein complex on T lymphocytes that recognizes peptide antigens bound to MHC molecules, initiating adaptive immune responses.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Protein
+tags:
+  - Protein
+aliases: []
 ---
 
 # T Cell Receptor

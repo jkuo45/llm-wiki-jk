@@ -1,10 +1,12 @@
 ---
-type: entity
 title: 6-hydroxydopamine
 description: '6-hydroxydopamine (6-OHDA) is a neurotoxin used in research to model Parkinson''s Disease due to its ability to selectively destroy catecholaminergic neurons through the generation of reactive oxygen species.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-07
-entity_type_1: Toxin
+tags:
+  - Toxin
+aliases: []
 ---
 
 # 6-hydroxydopamine

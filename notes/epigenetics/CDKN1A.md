@@ -1,12 +1,15 @@
 ---
-type: entity
 title: CDKN1A
 description: 'CDKN1A (p21) is a cyclin-dependent kinase inhibitor and key downstream effector of p53, mediating cell cycle arrest and senescence.'
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Gene
+tags:
+  - cell_cycle
+  - tumor_suppressor
+  - epigenetics
+  - Gene
 aliases: [p21, WAF1, CIP1]
-tags: [cell_cycle, tumor_suppressor, epigenetics]
 ---
 
 # CDKN1A

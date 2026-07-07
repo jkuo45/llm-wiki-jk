@@ -1,11 +1,13 @@
 ---
-type: entity
 title: TBK1
 description: TANK-binding kinase 1, an enzyme involved in the innate immune response,
   activated by STING and regulated by TFEB.
+type: entity
 created: 2024-01-01
 updated: 2024-01-01
-entity_type_1: Enzyme
+tags:
+  - Enzyme
+aliases: []
 ---
 # TBK1
 TANK-binding kinase 1, an enzyme involved in the innate immune response, activated by [[STING]] and regulated by [[TFEB]].

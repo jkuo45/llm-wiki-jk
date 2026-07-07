@@ -1,10 +1,12 @@
 ---
-type: entity
 title: PP1
 description: Protein phosphatase 1 (PP1) is a ubiquitous serine/threonine protein phosphatase that counteracts kinase signaling, regulating caspase activation, cell cycle, and metabolism; it opposes CaMKII-mediated phosphorylation of Caspase-2.
+type: entity
 created: 2026-07-06
 updated: 2026-07-07
-entity_type_1: Enzyme
+tags:
+  - Enzyme
+aliases: []
 ---
 
 # PP1

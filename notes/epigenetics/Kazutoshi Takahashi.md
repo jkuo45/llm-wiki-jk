@@ -1,13 +1,15 @@
 ---
-type: entity
 title: Kazutoshi Takahashi
 description: Kazutoshi Takahashi is a Japanese scientist known for his work in stem
   cell research. Working in the laboratory of Shinya Yamanaka at Kyoto University,
   he co-discovered that Somatic Cells can be reprogrammed into Induced Pluripotent
   Stem Cells (iPSCs) using defined transcription factors.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Organization
+tags:
+  - Organization
+aliases: []
 ---
 
 # Kazutoshi Takahashi

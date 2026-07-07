@@ -1,10 +1,12 @@
 ---
-type: entity
 title: c-ABL
 description: 'c-ABL (ABL1) is a non-receptor tyrosine kinase that regulates Caspase-9 autocleavage and stress/apoptotic responses, and is oncogenically activated as BCR-ABL in chronic myeloid leukemia.'
+type: entity
 created: 2026-07-06
 updated: 2026-07-07
-entity_type_1: Gene
+tags:
+  - Gene
+aliases: []
 ---
 
 # c-ABL

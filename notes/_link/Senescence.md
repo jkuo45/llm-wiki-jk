@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: Senescence
 description: '1. Permanent Cell-Cycle Arrest: Mediated primarily by the p53/p21
   and p16/RB pathways.'
+type: entity
 created: 2026-05-31
 updated: 2026-05-31
-entity_type_1: Biological Process
-
+tags:
+  - Biological Process
+aliases: []
 ---
 
 # Senescence

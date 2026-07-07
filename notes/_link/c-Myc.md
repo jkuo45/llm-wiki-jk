@@ -1,12 +1,13 @@
 ---
-type: entity
 title: c-Myc
 description: A proto-oncogene and transcription factor (MYC) that regulates cell cycle
   progression, apoptosis, and cellular transformation. In the context of mitochondrial
   stress, c-Myc can influence metabolic ...
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: NA
+tags:
+  - NA
 aliases: [C Myc]
 ---
 # c-Myc

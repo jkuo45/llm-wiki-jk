@@ -1,10 +1,11 @@
 ---
-type: entity
 title: Protein Tyrosine Phosphatase 1B (PTP1B/PTPN1)
 description: Protein Tyrosine Phosphatase 1B (PTP1B/PTPN1) is a 50 kDa non-receptor tyrosine phosphatase that dephosphorylates and inactivates the Insulin Receptor (IR) and Insulin Receptor Substrate (IRS) proteins, serving as a major negative regulator of insulin signaling.
+type: entity
 created: 2026-07-04
 updated: 2026-07-07
-entity_type_1: Protein
+tags:
+  - Protein
 aliases:
   - PTP1B
   - PTPN1

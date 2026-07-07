@@ -1,12 +1,12 @@
 ---
-
-type: entity
 title: Immune Aging
 description: '- Thymic Involution: The shrinking of the thymus, leading to reduced
   production of naïve T Cell.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Medical Condition
+tags:
+  - Medical Condition
 aliases: [immunosenescence]
 
 ---

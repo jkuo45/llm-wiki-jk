@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: Senolytics
 description: 'Senolytics are a class of small molecules that selectively induce
   death in senescent cells.'
+type: entity
 created: 2024-01-01
 updated: 2024-01-01
-entity_type_1: Pharmacological Action
-
+tags:
+  - Pharmacological Action
+aliases: []
 ---
 
 # Senolytics

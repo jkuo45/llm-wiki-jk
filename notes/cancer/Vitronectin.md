@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Vitronectin
 description: Vitronectin is a multifunctional glycoprotein of plasma and the extracellular matrix that mediates cell adhesion, migration, and invasion via αv-family integrins through its RGD motif; implicated in tumor dissemination and angiogenesis.
+type: entity
 created: 2026-07-06
 updated: 2026-07-07
-entity_type_1: Protein
+tags:
+  - Protein
+aliases: []
 ---
 
 # Vitronectin

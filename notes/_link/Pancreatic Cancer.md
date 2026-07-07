@@ -1,12 +1,13 @@
 ---
-type: entity
 title: Pancreatic Cancer
 description: Pancreatic cancer, particularly pancreatic duct adenocarcinoma (PDA),
   involves dysregulated TFEB activity which supports tumor growth by controlling glutamine
   metabolism.
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: NA
+tags:
+  - NA
 aliases: [Pancreatic Cancer]
 ---
 # Pancreatic Cancer

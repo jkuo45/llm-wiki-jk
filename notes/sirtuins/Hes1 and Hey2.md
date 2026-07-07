@@ -1,12 +1,13 @@
 ---
-type: entity
 title: Hes1 and Hey2
 description: 'Hes1 (Hairy and Enhancer of Split 1) and Hey2 (Hairy-related
   Transcription Factor 2, also known as HRT2 or HERP1) are **basic helix-loop-helix
   (bHLH) transcriptional repressors** that funct...'
+type: entity
 created: 2026-07-04
 updated: 2026-07-07
-entity_type_1: Protein
+tags:
+  - Protein
 aliases: [HES1, HEY2, bHLH repressors]
 
 sources:

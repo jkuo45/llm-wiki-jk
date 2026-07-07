@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: ER Stress
 description: 'ER stress is a cellular condition caused by the accumulation of
   misfolded or unfolded proteins in the endoplasmic reticulum lumen, triggering the
   unfolded protein response (UPR). It is intimate...'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Biological Process
+tags:
+  - Biological Process
 aliases: [endoplasmic reticulum stress, unfolded protein response, UPR]
 
 ---

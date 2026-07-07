@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Fibroblast
 description: A Fibroblast is a mesenchymal cell that synthesizes the Extracellular Matrix and collagen, builds tissue stroma, and drives wound healing and fibrosis.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Cell Type
+tags:
+  - Cell Type
+aliases: []
 ---
 
 # Fibroblast

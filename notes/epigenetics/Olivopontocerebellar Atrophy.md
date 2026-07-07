@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Olivopontocerebellar Atrophy
 description: Olivopontocerebellar Atrophy (OPCA) is a spinocerebellar degenerative disorder causing progressive ataxia via cerebellar/pontine/olivary loss.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Medical Condition
+tags:
+  - Medical Condition
+aliases: []
 ---
 
 # Olivopontocerebellar Atrophy

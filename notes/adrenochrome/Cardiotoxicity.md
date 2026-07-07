@@ -1,12 +1,13 @@
 ---
-
-type: entity
 title: Cardiotoxicity
 description: 'Cardiotoxicity refers to the damage to the heart muscle (myocardium)
   caused by exposure to toxins, drugs, or reactive metabolites.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Adverse Effect
+tags:
+  - Adverse Effect
+aliases: []
 relations:
   - predicate: caused_by
 sources: []

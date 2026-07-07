@@ -1,12 +1,13 @@
 ---
-type: entity
 title: Insulin Sensitivity
 description: Insulin Sensitivity refers to the efficiency with which cells (primarily
   muscle, adipose, and liver) respond to Insulin Signaling to uptake glucose from
   the bloodstream. Reduced insulin sensitivity...
+type: entity
 created: 2026-07-04
 updated: 2026-07-07
-entity_type_1: Biological Process
+tags:
+  - Biological Process
 aliases:
   - Insulin sensitization
   - Glucose tolerance

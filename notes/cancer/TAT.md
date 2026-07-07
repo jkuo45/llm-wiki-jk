@@ -1,10 +1,12 @@
 ---
-type: entity
 title: TAT
 description: TAT (Transactivator of transcription) is an HIV-1 regulatory protein; its basic domain serves as a prototypical cell-penetrating peptide used to deliver anticancer cargoes such as engineered melittin into tumor cells.
+type: entity
 created: 2026-07-06
 updated: 2026-07-07
-entity_type_1: Protein
+tags:
+  - Protein
+aliases: []
 ---
 
 # TAT

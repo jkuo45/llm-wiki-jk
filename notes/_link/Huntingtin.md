@@ -1,11 +1,12 @@
 ---
-type: entity
 title: Huntingtin
 description: The protein encoded by the HTT gene, whose mutated form with expanded
   polyglutamine tracts causes Huntington's Disease.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Protein
+tags:
+  - Protein
 aliases:
   - HTT
   - huntingtin

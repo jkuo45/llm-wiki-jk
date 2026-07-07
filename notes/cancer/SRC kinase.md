@@ -1,10 +1,12 @@
 ---
-type: entity
 title: SRC kinase
 description: SRC (proto-oncogene c-Src) is a non-receptor tyrosine kinase, the founding member of the SRC family, that transduces growth-factor and integrin signals and promotes proliferation, survival, invasion, and angiogenesis in cancer.
+type: entity
 created: 2026-07-06
 updated: 2026-07-07
-entity_type_1: Enzyme
+tags:
+  - Enzyme
+aliases: []
 ---
 
 # SRC kinase

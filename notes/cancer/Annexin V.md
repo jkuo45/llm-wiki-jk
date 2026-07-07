@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Annexin V
 description: 'Annexin V is a member of the annexin family of calcium-dependent phospholipid-binding proteins, widely used as a marker for Phosphatidylserine exposure in cells undergoing Apoptosis.'
+type: entity
 created: 2026-07-06
 updated: 2026-07-07
-entity_type_1: Protein
+tags:
+  - Protein
+aliases: []
 ---
 
 # Annexin V

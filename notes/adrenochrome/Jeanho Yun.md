@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Jeanho Yun
 description: South Korean biochemist at Dong-A University; co-author of the seminal 2014 "Mitohormesis" Cell Metabolism paper with Toren Finkel
+type: entity
 created: 2026-07-04
 updated: 2026-07-06
-entity_type_1: Person
+tags:
+  - Person
+aliases: []
 ---
 
 # Jeanho Yun

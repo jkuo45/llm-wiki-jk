@@ -1,11 +1,13 @@
 ---
-type: entity
 title: Ornithine transcarbamylase
 description: Ornithine transcarbamylase (OTC) is a mitochondrial matrix protein whose
   misfolding can trigger the Mitochondrial Unfolded Protein Response.
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Enzyme
+tags:
+  - Enzyme
+aliases: []
 ---
 # Ornithine transcarbamylase
 

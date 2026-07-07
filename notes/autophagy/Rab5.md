@@ -1,10 +1,11 @@
 ---
-type: entity
 title: Rab5
 description: Rab5 is a small GTPase that acts as the master regulator of early endosome fusion, motility, and maturation, handing off to Rab7 and intersecting with autophagic membrane traffic.
+type: entity
 created: 2026-07-04
 updated: 2026-07-07
-entity_type_1: Protein
+tags:
+  - Protein
 aliases:
   - RAB5A
   - early endosome GTPase

@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Bradykinesia
 description: 'Bradykinesia refers to the slowness of movement and is one of the cardinal motor symptoms of Parkinson''s Disease.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-07
-entity_type_1: Symptom
+tags:
+  - Symptom
+aliases: []
 ---
 
 # Bradykinesia

@@ -1,13 +1,14 @@
 ---
-type: entity
 title: David Sinclair
 description: David A. Sinclair is an Australian-American biologist and professor of genetics
   at Harvard Medical School, known for research on aging, sirtuins, NAD+ biology, and
   caloric restriction mimetics. He identified SIRT1 as a mediator of caloric restriction
   and discovered Resveratrol as a STAC.
+type: entity
 created: 2026-07-04
 updated: 2026-07-07
-entity_type_1: Organization
+tags:
+  - Organization
 aliases: [David A. Sinclair, Sinclair]
 ---
 

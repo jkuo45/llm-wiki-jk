@@ -1,10 +1,11 @@
 ---
-type: entity
 title: Bladder Cancer
 description: Bladder cancer is a common malignancy of the urinary tract, with approximately 550,000 new cases worldwide annually. It is the 4th most common cancer in men, with a peak incidence at age 65–70 and a male-to-female ratio of 4:1.
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Medical Condition
+tags:
+  - Medical Condition
 aliases:
   - Urinary bladder carcinoma
   - Urothelial carcinoma of the bladder

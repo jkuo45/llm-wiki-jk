@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: CD8+ T Cell
 description: 'CD8+ T Cells (also known as cytotoxic T lymphocytes) are a subset
   of T Cell that play a critical role in the Adaptive Immune Response by killing infected
   or cancerous cells.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Cell Type
+tags:
+  - Cell Type
 aliases: [cytotoxic T cell]
 
 ---

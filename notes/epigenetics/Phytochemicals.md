@@ -1,12 +1,14 @@
 ---
-type: entity
 title: Phytochemicals
 description: A diverse chemical class of plant-derived bioactive secondary metabolites
   that can modulate epigenetic machinery, redox state, and signaling with effects on
   aging and cancer.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Chemical Class
+tags:
+  - Chemical Class
+aliases: []
 ---
 
 # Phytochemicals

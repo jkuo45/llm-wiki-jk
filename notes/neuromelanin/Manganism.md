@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Manganism
 description: 'Manganism is a neurological disorder caused by chronic exposure to Manganese, characterized by motor symptoms that resemble Parkinson''s Disease but typically involve different pathological mechanisms.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-07
-entity_type_1: Medical Condition
+tags:
+  - Medical Condition
+aliases: []
 ---
 
 # Manganism

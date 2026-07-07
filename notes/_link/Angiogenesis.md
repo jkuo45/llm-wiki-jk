@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: Angiogenesis
 description: 'Angiogenesis is the formation of new blood vessels from pre-existing
   vessels. It is a critical process in Cancer, Wound Healing, and Ischemia-reperfusion
   Injury adaptation.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Biological Process
+tags:
+  - Biological Process
 aliases: [Angiogenesis, Neovascularization]
 
 ---

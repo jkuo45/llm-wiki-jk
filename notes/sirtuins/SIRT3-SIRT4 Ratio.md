@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: SIRT3/SIRT4 Ratio
 description: The SIRT3/SIRT4 Ratio is the quantitative balance between two opposing
   mitochondrial sirtuin activities that together determine the cell's capacity to
   handle superoxide and other mitochondrial ...
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Scientific Concept
+tags:
+  - Scientific Concept
 aliases: [SIRT3/SIRT4 balance, mitochondrial sirtuin ratio, Sirtuin redox dial]
 
 ---

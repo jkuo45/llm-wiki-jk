@@ -1,12 +1,14 @@
 ---
-type: entity
 title: Pluripotency
 description: Pluripotency is the ability of a cell to differentiate into all three germ
   layers (ectoderm, endoderm, mesoderm) but not extra-embryonic tissues; sustained by
   the Oct4-Sox2-Nanog network.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Scientific Concept
+tags:
+  - Scientific Concept
+aliases: []
 ---
 
 # Pluripotency

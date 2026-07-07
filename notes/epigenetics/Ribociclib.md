@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Ribociclib
 description: Ribociclib is an oral, selective cyclin-dependent kinase 4 and 6 (CDK4/6) inhibitor approved for hormone receptor-positive, HER2-negative advanced breast cancer in combination with endocrine therapy.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Chemical Compound
+tags:
+  - Chemical Compound
+aliases: []
 ---
 
 # Ribociclib

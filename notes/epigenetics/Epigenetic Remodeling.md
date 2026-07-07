@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Epigenetic Remodeling
 description: Epigenetic Remodeling is the dynamic reorganization of chromatin and nuclear architecture—via DNA methylation, histone modification, and nucleosome repositioning—to alter gene expression without changing the DNA sequence, central to development, reprogramming, and aging.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Scientific Concept
+tags:
+  - Scientific Concept
+aliases: []
 ---
 
 # Epigenetic Remodeling

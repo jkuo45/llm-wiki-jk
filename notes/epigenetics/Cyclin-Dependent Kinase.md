@@ -1,12 +1,15 @@
 ---
-type: entity
 title: Cyclin-Dependent Kinase
 description: 'Cyclin-dependent kinases (CDKs) are the catalytic subunits of cell cycle regulators, activated by cyclins and restrained by inhibitors.'
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Enzyme
+tags:
+  - cell_cycle
+  - enzyme
+  - epigenetics
+  - Enzyme
 aliases: [CDK]
-tags: [cell_cycle, enzyme, epigenetics]
 ---
 
 # Cyclin-Dependent Kinase

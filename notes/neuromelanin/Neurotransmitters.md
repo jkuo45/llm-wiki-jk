@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Neurotransmitters
 description: 'Neurotransmitters are endogenous chemical messengers that transmit signals across a Synapse from one neuron to another.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-07
-entity_type_1: Biological Molecule
+tags:
+  - Biological Molecule
+aliases: []
 ---
 
 # Neurotransmitters

@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: Vitamin B3
 description: 'Vitamin B3 (niacin) encompasses Nicotinic acid and Nicotinamide
   (niacinamide). It is the precursor to NAD+ and NADP+, making it essential for cellular
   energy metabolism, DNA Repair, and Sirtuin...'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Chemical Compound
+tags:
+  - Chemical Compound
 aliases: [Niacin, Nicotinic acid, Nicotinamide, Niacinamide]
 database_ids:
   mesh: D009525

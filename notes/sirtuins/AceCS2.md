@@ -1,12 +1,13 @@
 ---
-type: entity
 title: AceCS2
 description: AceCS2 (Acetyl-CoA Synthetase 2, mitochondrial; encoded by ACSS1) is a mitochondrial
   matrix enzyme that catalyzes the ATP-dependent conversion of acetate and CoA into acetyl-CoA,
   feeding acetate carbon into the TCA cycle for ATP generation.
+type: entity
 created: 2026-07-03
 updated: 2026-07-07
-entity_type_1: Enzyme
+tags:
+  - Enzyme
 aliases:
   - AceCS2
   - Acetyl-CoA Synthetase 2

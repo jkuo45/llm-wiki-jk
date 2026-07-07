@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: HSF1
 description: 'Overview: HSF1 is a cellular protein with structural, signaling,
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
   and signaling networks that govern cell...'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Protein
+tags:
+  - Protein
 aliases: [Heat Shock Factor 1]
 
 ---

@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Klf4
 description: Klf4 (Krüppel-like factor 4) is a zinc-finger transcription factor regulating proliferation, differentiation, and pluripotency; it is one of the four Yamanaka reprogramming factors.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Protein
+tags:
+  - Protein
+aliases: []
 ---
 
 # Klf4

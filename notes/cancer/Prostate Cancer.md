@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Prostate Cancer
 description: Prostate cancer is a malignant tumor arising from prostate epithelial cells, driven by androgen receptor signaling, and characterized by progression from androgen-dependent to castration-resistant states with metastatic potential.
+type: entity
 created: 2026-07-06
 updated: 2026-07-07
-entity_type_1: Medical Condition
+tags:
+  - Medical Condition
+aliases: []
 ---
 
 # Prostate Cancer

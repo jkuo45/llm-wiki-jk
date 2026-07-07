@@ -1,6 +1,7 @@
 ---
 type: index
 title: Cancer notes
+aliases: []
 description: Index of wiki notes for cancer
 created: 2026-07-06
 updated: 2026-07-06

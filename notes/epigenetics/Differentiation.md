@@ -1,18 +1,18 @@
 ---
-type: entity
 title: Differentiation
 description: The process by which a less specialized cell becomes a more specialized cell type, driven by transcription factor networks and epigenetic remodeling.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Biological Process
-aliases:
-  - Cell differentiation
-  - Cellular differentiation
 tags:
   - development
   - stem cell biology
   - epigenetics
   - cell fate
+  - Biological Process
+aliases:
+  - Cell differentiation
+  - Cellular differentiation
 ---
 # Differentiation
 

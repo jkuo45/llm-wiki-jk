@@ -1,12 +1,14 @@
 ---
-type: entity
 title: Progenitor Cell
 description: A tissue-specific multipotent cell type intermediate between stem cells
   and mature differentiated cells, committed to a lineage but retaining proliferative
   capacity.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Cell Type
+tags:
+  - Cell Type
+aliases: []
 ---
 
 # Progenitor Cell

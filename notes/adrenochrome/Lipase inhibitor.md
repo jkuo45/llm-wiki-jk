@@ -1,12 +1,14 @@
 ---
-type: entity
 title: Lipase inhibitor
 description: A lipase inhibitor is a substance that reduces the activity of lipases,
   enzymes that break down fats. Orlistat is a well-known lipase inhibitor that has
   also been shown to reduce the absorption of ...
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Pharmacological Action
+tags:
+  - Pharmacological Action
+aliases: []
 ---
 # Lipase inhibitor
 

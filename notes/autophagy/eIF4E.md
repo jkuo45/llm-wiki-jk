@@ -1,12 +1,13 @@
 ---
-type: entity
 title: eIF4E
 description: Eukaryotic initiation factor 4E (eIF4E) is a key protein in cap-dependent
   translation that binds the 5' cap of mRNA; its activity is regulated by mTORC1 through
   the phosphorylation of 4E-BP1.
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Protein
+tags:
+  - Protein
 aliases: [eukaryotic initiation factor 4E]
 ---
 # eIF4E

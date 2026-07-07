@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Integrins
 description: Integrins are α/β heterodimeric transmembrane adhesion receptors that mediate cell-ECM and cell-cell adhesion, transduce outside-in and inside-out signaling, and drive Angiogenesis, migration, and Metastasis.
+type: entity
 created: 2026-07-06
 updated: 2026-07-07
-entity_type_1: Receptor
+tags:
+  - Receptor
+aliases: []
 ---
 
 # Integrins

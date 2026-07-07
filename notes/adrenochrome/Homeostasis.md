@@ -1,14 +1,14 @@
 ---
-
-type: entity
 title: Homeostasis
 description: 'Homeostasis is the state of steady internal, physical, and chemical
   conditions maintained by living systems. This is the condition of optimal functioning
   for the organism and includes many vari...'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Biological Process
-
+tags:
+  - Biological Process
+aliases: []
 ---
 
 # Homeostasis

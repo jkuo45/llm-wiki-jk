@@ -1,14 +1,14 @@
 ---
-
-type: entity
 title: Bmi-1
 description: 'Bmi-1 (B lymphoma Mo-MLV insertion region 1 homolog) is a protein
   that serves as a core component of the Polycomb Repressive Complex 1 (PRC1), which
   is involved in gene silencing.'
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Medical Condition
-
+tags:
+  - Medical Condition
+aliases: []
 ---
 
 # Bmi-1

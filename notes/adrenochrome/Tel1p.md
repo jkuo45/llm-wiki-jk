@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Tel1p
 description: Tel1p is the S. cerevisiae ortholog of mammalian ATM, a 322 kDa PIKK family kinase that functions in DNA damage signaling, telomere maintenance, and mediates mitohormetic lifespan extension through mitochondrial ROS sensing.
+type: entity
 created: 2026-07-04
 updated: 2026-07-06
-entity_type_1: Enzyme
+tags:
+  - Enzyme
+aliases: []
 ---
 
 # Tel1p

@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Aneuploidy
 description: The presence of an abnormal number of chromosomes in a cell.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Medical Condition
+tags:
+  - Medical Condition
+aliases: []
 ---
 # Aneuploidy
 

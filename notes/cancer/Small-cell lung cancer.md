@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Small-cell lung cancer
 description: Small-cell lung cancer (SCLC) is a highly aggressive neuroendocrine carcinoma accounting for approximately 15% of lung cancers, strongly associated with tobacco smoking, and characterized by rapid doubling time, early metastatic spread, and initial chemosensitivity followed by relapse.
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Medical Condition
+tags:
+  - Medical Condition
+aliases: []
 ---
 # Small-cell lung cancer
 

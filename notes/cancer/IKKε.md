@@ -1,10 +1,12 @@
 ---
-type: entity
 title: IKKε
 description: IKKε (IκB kinase epsilon) is a non-canonical IKK family kinase that phosphorylates XIAP to trigger its degradation, sensitizing virus-infected and malignant cells to Apoptosis.
+type: entity
 created: 2026-07-06
 updated: 2026-07-07
-entity_type_1: Enzyme
+tags:
+  - Enzyme
+aliases: []
 ---
 
 # IKKε

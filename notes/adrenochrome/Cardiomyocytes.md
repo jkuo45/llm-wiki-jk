@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Cardiomyocytes
 description: Contractile muscle cells of the heart responsible for generating force of cardiac contractions; terminally differentiated myocytes with limited regenerative capacity.
+type: entity
 created: 2026-07-04
 updated: 2026-07-06
-entity_type_1: Cell Type
+tags:
+  - Cell Type
+aliases: []
 ---
 
 # Cardiomyocytes

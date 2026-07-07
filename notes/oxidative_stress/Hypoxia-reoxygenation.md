@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: Hypoxia-reoxygenation
 description: 'Hypoxia-reoxygenation is a cellular stress paradigm in which a period
   of oxygen deprivation (hypoxia/ischemia) is followed by restoration of oxygen supply
   (reoxygenation/reperfusion). Reoxygena...'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Biological Process
+tags:
+  - Biological Process
 aliases: [Reoxygenation injury, Hypoxia-reperfusion]
 
 ---

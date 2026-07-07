@@ -1,11 +1,12 @@
 ---
-type: entity
 title: MALAT1
 description: Metastasis Associated Lung Adenocarcinoma Transcript 1, a long non-coding
   RNA that can fuse with TFEB in translocation-associated Renal Cell Carcinoma.
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Gene
+tags:
+  - Gene
 aliases: [lncRNA, metastasis-associated lung adenocarcinoma transcript 1]
 ---
 # MALAT1

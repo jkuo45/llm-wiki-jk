@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: Doxorubicin
 description: 'Doxorubicin (also known as Adriamycin) is a powerful anthracycline
   chemotherapy drug used to treat various types of cancer, including Breast Cancer,
   bladder cancer, and leukemia.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: NA
+tags:
+  - NA
 aliases: [Doxorubicin]
 
 ---

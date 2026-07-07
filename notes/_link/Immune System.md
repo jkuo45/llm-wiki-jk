@@ -1,22 +1,22 @@
 ---
-type: entity
 title: Immune System
 description: The immune system is a complex network of cells, tissues, and organs
   that work together to defend the body against harmful pathogens and maintain overall
   health.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Biological Process
+tags:
+  - immunology
+  - inflammation
+  - aging
+  - Biological Process
 url:
 source:
 aliases:
   - immunity
   - immune defense
   - host defense system
-tags:
-  - immunology
-  - inflammation
-  - aging
 ---
 
 # Immune System

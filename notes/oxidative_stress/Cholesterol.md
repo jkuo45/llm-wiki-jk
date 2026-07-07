@@ -1,12 +1,15 @@
 ---
-type: entity
 title: Cholesterol
 description: Cholesterol is a type of lipid molecule that is essential for cell membrane structure and as a precursor for steroid hormones, but its oxidation leads to Oxidized LDL and contributes to Atherosclerosis.
+type: entity
 created: 2026-05-09
 updated: 2026-07-07
-entity_type_1: Chemical Compound
+tags:
+  - oxidative_stress
+  - lipid
+  - atherosclerosis
+  - Chemical Compound
 aliases: [Cholesterol]
-tags: [oxidative_stress, lipid, atherosclerosis]
 ---
 
 # Cholesterol

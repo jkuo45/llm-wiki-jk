@@ -1,14 +1,14 @@
 ---
-
-type: entity
 title: HPLC
 description: 'HPLC (High-Performance Liquid Chromatography) is a technique in
   analytical chemistry used to separate, identify, and quantify each component in
   a mixture.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Analytical Technique
-
+tags:
+  - Analytical Technique
+aliases: []
 ---
 
 # HPLC

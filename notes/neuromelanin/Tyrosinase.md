@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Tyrosinase
 description: Tyrosinase (hTyr) is the rate-limiting copper enzyme of melanin biosynthesis; its overexpression in rodent brain recapitulates age-dependent Neuromelanin accumulation and Parkinson's Disease-like pathology, implicating enzymatic melanogenesis in pigment-driven vulnerability.
+type: entity
 created: 2026-07-04
 updated: 2026-07-07
-entity_type_1: Enzyme
+tags:
+  - Enzyme
+aliases: []
 ---
 
 # Tyrosinase

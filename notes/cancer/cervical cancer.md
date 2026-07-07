@@ -1,14 +1,14 @@
 ---
-
-type: entity
 title: Cervical Cancer
 description: 'Cervical cancer is a cancer arising from the cervix. It is due to
   the abnormal growth of cells that have the ability to invade or spread to other
   parts of the body.'
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Medical Condition
-
+tags:
+  - Medical Condition
+aliases: []
 ---
 
 # Cervical Cancer

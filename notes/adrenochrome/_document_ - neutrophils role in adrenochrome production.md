@@ -1,12 +1,13 @@
 ---
-type: document
 title: neutrophils role in adrenochrome production
-source: https://x.com/i/grok?conversation=2058359627398750275
-created: 2026-05-24
 description: Grok is a free AI assistant designed by xAI to maximize truth and objectivity.
   Grok offers real-time search, image generation, trend analysis, and more.
+type: document
+created: 2026-05-24
+source: https://x.com/i/grok?conversation=2058359627398750275
 tags:
   - "clippings"
+aliases: []
 ---
 Neutrophils (polymorphonuclear leukocytes, or PMNs) can catalyze the oxidation of adrenaline (epinephrine) to adrenochrome via reactive oxygen species (ROS) they produce, particularly in inflammatory conditions.
 

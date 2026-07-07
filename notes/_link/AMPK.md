@@ -1,14 +1,14 @@
 ---
-
-type: entity
 title: AMPK
 description: 'AMP-activated protein kinase (AMPK) is a central metabolic sensor
   that plays a critical role in the Aging process by integrating energy status with
   epigenetic regulation. As organisms age, AMPK...'
+type: entity
 created: 2026-05-29
 updated: 2026-05-29
-entity_type_1: Enzyme
-
+tags:
+  - Enzyme
+aliases: []
 ---
 
 # AMPK

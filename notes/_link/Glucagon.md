@@ -1,11 +1,11 @@
 ---
-type: entity
 title: Glucagon
 description: Pancreatic alpha-cell peptide hormone that antagonizes insulin and raises blood glucose via hepatic glycogenolysis and gluconeogenesis.
+type: entity
 created: 2026-07-07
 updated: 2026-07-07
 tags: [Protein, Hormone, Endocrine, Glucose Homeostasis]
-entity_type_1: Protein
+aliases: []
 ---
 
 # Glucagon

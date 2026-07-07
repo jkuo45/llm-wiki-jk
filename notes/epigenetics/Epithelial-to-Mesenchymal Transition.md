@@ -1,12 +1,14 @@
 ---
-type: entity
 title: Epithelial-to-Mesenchymal Transition
 description: In the field of Cellular Reprogramming, the suppression of Epithelial-to-Mesenchymal
   Transition is essential for the generation of Induced Pluripotent Stem Cells (iPSCs)
   from mesenchymal somatic cells.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Biological Process
+tags:
+  - Biological Process
+aliases: []
 ---
 
 # Epithelial-to-Mesenchymal Transition

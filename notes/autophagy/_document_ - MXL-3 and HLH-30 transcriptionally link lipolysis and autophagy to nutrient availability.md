@@ -1,18 +1,19 @@
 ---
-type: document
 title: MXL-3 and HLH-30 transcriptionally link lipolysis and autophagy to nutrient
   availability
-source: https://pmc.ncbi.nlm.nih.gov/articles/PMC3723461/
-author:
-- Eyleen J O’Rourke
-- Gary Ruvkun
-created: 2026-06-03
 description: Fat is stored or mobilized according to food availability. Malfunction
   of the mechanisms that ensure this coordination underlie metabolic diseases in humans.
   In mammals, lysosomal and autophagic function is required for normal fat storage
   and ...
+type: document
+created: 2026-06-03
+source: https://pmc.ncbi.nlm.nih.gov/articles/PMC3723461/
+author:
+- Eyleen J O’Rourke
+- Gary Ruvkun
 tags:
   - "clippings"
+aliases: []
 ---
 
 . Author manuscript; available in PMC: 2013 Dec 1.

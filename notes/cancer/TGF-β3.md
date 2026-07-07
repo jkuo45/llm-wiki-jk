@@ -1,10 +1,12 @@
 ---
-type: entity
 title: TGF-β3
 description: Transforming growth factor beta 3 (TGF-β3) is a cytokine of the TGF-β superfamily involved in development, tissue repair, and immune regulation; it can exert both tumor-suppressive and pro-metastatic roles, and its RGD motif is exploited for tumor-targeted anticancer peptides.
+type: entity
 created: 2026-07-06
 updated: 2026-07-07
-entity_type_1: Protein
+tags:
+  - Protein
+aliases: []
 ---
 
 # TGF-β3

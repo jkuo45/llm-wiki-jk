@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: LAMP1
 description: 'LAMP1 (Lysosomal-Associated Membrane Protein 1) is a major integral
   membrane glycoprotein of the Lysosome, essential for maintaining lysosomal integrity
   and serving as a marker for the organelle.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Protein
+tags:
+  - Protein
 aliases: [lysosomal-associated membrane protein 1]
 
 ---

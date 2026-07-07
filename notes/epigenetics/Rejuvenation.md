@@ -1,12 +1,14 @@
 ---
-type: entity
 title: Rejuvenation
 description: Rejuvenation refers to the reversal of aging phenotypes in cells, tissues,
   or organisms. In stem cell and epigenetic research it is most often pursued through
   Cellular Reprogramming (especially Partial Reprogramming) using Yamanaka Factors.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Scientific Concept
+tags:
+  - Scientific Concept
+aliases: []
 ---
 
 # Rejuvenation

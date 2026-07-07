@@ -1,14 +1,14 @@
 ---
-
-type: entity
 title: Pyruvate Kinase M2
 description: '- Warburg Effect: PKM2 is often overexpressed in Cancer cells. It
   can exist in a low-activity dimeric form or a high-activity tetrameric form. The
   dimeric form allows glycolytic intermediates t...'
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Enzyme
-
+tags:
+  - Enzyme
+aliases: []
 ---
 
 # Pyruvate Kinase M2

@@ -1,10 +1,12 @@
 ---
-type: entity
 title: World Health Organization
 description: The World Health Organization (WHO) is the UN agency for global public health; it coordinates cancer control (WHO cancer programmes) and elimination of infection-linked neglected tropical diseases (onchocerciasis, lymphatic filariasis) with cancer-relevant upstream causes.
+type: entity
 created: 2026-07-06
 updated: 2026-07-07
-entity_type_1: Organization
+tags:
+  - Organization
+aliases: []
 ---
 
 # World Health Organization

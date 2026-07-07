@@ -1,12 +1,13 @@
 ---
-type: entity
 title: Isatuximab
 description: Isatuximab (brand name Sarclisa, formerly SAR650984) is a chimeric IgG1κ
   monoclonal antibody directed against CD38. It was approved by the FDA in March 2020
   for Multiple Myeloma (MM), and by the EM...
+type: entity
 created: 2026-07-03
 updated: 2026-07-03
-entity_type_1: Chemical Compound
+tags:
+  - Chemical Compound
 aliases:
   - Isatuximab
   - Sarclisa

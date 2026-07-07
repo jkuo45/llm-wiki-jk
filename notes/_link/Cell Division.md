@@ -1,12 +1,14 @@
 ---
-type: entity
 title: Cell Division
 description: Cell division is the process by which a parent cell divides into two
   or more daughter cells. In Eukaryotic Cells, it comprises Mitosis (nuclear division)
   and Cytokinesis (cytoplasmic division). Pro...
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Enzyme
+tags:
+  - Enzyme
+aliases: []
 ---
 # Cell Division
 

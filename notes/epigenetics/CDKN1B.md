@@ -1,12 +1,15 @@
 ---
-type: entity
 title: CDKN1B
 description: 'CDKN1B (p27) is a cyclin-dependent kinase inhibitor of the Cip/Kip family that regulates the G1/S transition, quiescence, and differentiation.'
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Gene
+tags:
+  - cell_cycle
+  - tumor_suppressor
+  - epigenetics
+  - Gene
 aliases: [p27, Kip1]
-tags: [cell_cycle, tumor_suppressor, epigenetics]
 ---
 
 # CDKN1B

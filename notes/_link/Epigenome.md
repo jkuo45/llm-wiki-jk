@@ -1,14 +1,14 @@
 ---
-
-type: entity
 title: Epigenome
 description: The Epigenome consists of the chemical compounds and proteins that
   can attach to DNA and direct such actions as turning genes on or off, controlling
   the production of proteins in particular cel...
+type: entity
 created: 2024-01-01
 updated: 2024-01-01
-entity_type_1: Biological Molecule
-
+tags:
+  - Biological Molecule
+aliases: []
 ---
 
 # Epigenome

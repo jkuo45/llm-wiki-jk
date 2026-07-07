@@ -1,10 +1,12 @@
 ---
-type: entity
 title: PAK2
 description: PAK2 (p21-activated kinase 2) is a Rac/Cdc42 effector kinase that both promotes survival and, upon caspase cleavage, executes apoptosis; it phosphorylates Caspase-7 to blunt drug-induced death.
+type: entity
 created: 2026-07-06
 updated: 2026-07-07
-entity_type_1: Enzyme
+tags:
+  - Enzyme
+aliases: []
 ---
 
 # PAK2

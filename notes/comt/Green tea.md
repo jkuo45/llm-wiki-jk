@@ -1,10 +1,11 @@
 ---
-type: entity
 title: Green tea
 description: 'Green tea (Camellia sinensis) is rich in catechins such as EGCG that are COMT substrates; at dietary levels it does not significantly impair COMT, unlike pharmacological catechols.'
+type: entity
 created: 2026-05-25
 updated: 2026-07-07
-entity_type_1: Chemical Compound
+tags:
+  - Chemical Compound
 aliases: [Camellia sinensis, matcha]
 
 ---

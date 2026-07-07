@@ -1,20 +1,20 @@
 ---
-type: entity
 title: CRISPR
 description: A family of DNA sequences in bacteria that form the basis of a genome-editing technology, adapted from bacterial adaptive immune systems.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Scientific Concept
-aliases:
-  - Clustered Regularly Interspaced Short Palindromic Repeats
-  - CRISPR-Cas9
-  - CRISPRa
-  - CRISPRi
 tags:
   - gene editing
   - genome engineering
   - epigenome editing
   - biotechnology
+  - Scientific Concept
+aliases:
+  - Clustered Regularly Interspaced Short Palindromic Repeats
+  - CRISPR-Cas9
+  - CRISPRa
+  - CRISPRi
 ---
 # CRISPR
 

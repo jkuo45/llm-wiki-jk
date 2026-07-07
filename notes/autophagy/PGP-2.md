@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: PGP-2
 description: 'PGP-2 is an ABC (ATP-binding cassette) transporter in C. elegans
   that is essential for the biogenesis of Lysosome-related organelles (LROs), which
   serve as fat storage sites.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Protein
+tags:
+  - Protein
 aliases: [C. elegans lysosomal marker]
 
 ---

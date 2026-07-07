@@ -1,14 +1,14 @@
 ---
-
-type: entity
 title: Methylation
 description: 'Methylation is a fundamental biochemical and epigenetic process
   involving the transfer of a methyl group to a substrate. It is critical for the
   regulation of gene expression, neurotransmitter m...'
+type: entity
 created: 2026-05-31
 updated: 2026-05-31
-entity_type_1: Chemical Process
-
+tags:
+  - Chemical Process
+aliases: []
 ---
 
 # Methylation

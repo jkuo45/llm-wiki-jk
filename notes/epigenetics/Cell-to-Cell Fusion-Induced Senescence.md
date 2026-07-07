@@ -1,12 +1,17 @@
 ---
-type: entity
 title: Cell-to-Cell Fusion-Induced Senescence
 description: Cell-to-Cell Fusion-Induced Senescence is a biological process in which cell fusion generates tetraploid or polyploid cells that enter a stable senescent state via the p53/p21 pathway.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Biological Process
+tags:
+  - senescence
+  - cell fusion
+  - tetraploidy
+  - p53
+  - aging
+  - Biological Process
 aliases: [Fusion-induced senescence, tetraploidy-associated senescence]
-tags: [senescence, cell fusion, tetraploidy, p53, aging]
 ---
 
 # Cell-to-Cell Fusion-Induced Senescence

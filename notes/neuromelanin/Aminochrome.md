@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Aminochrome
 description: 'Aminochrome is an intermediate product in the oxidation of Dopamine that can form neurotoxic oligomers with Alpha-synuclein or polymerize to form Neuromelanin.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-07
-entity_type_1: Chemical Compound
+tags:
+  - Chemical Compound
+aliases: []
 ---
 
 # Aminochrome

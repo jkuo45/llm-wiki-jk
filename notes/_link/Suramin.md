@@ -1,11 +1,12 @@
 ---
-type: entity
 title: Suramin
 description: Suramin is a medication used to treat African sleeping sickness and Onchocerciasis.
   It was one of the few drugs available for onchocerciasis before Ivermectin.
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: NA
+tags:
+  - NA
 aliases: [Suramin]
 ---
 # Suramin

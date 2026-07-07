@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Neurotoxin
 description: 'Neurotoxin is a substance that alters the structure or function of the nervous system, often by inducing neuronal injury or death.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-07
-entity_type_1: Toxin
+tags:
+  - Toxin
+aliases: []
 ---
 
 # Neurotoxin

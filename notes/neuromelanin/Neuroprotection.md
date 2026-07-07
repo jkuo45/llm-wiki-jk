@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Neuroprotection
 description: 'Neuroprotection refers to the mechanisms and strategies used to protect the central nervous system from injury and neurodegeneration.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-07
-entity_type_1: Pharmacological Action
+tags:
+  - Pharmacological Action
+aliases: []
 ---
 
 # Neuroprotection

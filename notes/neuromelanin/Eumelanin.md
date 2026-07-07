@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Eumelanin
 description: Eumelanin is a type of melanin pigment characterized by its dark brown or black color.
+type: entity
 created: 2026-07-04
 updated: 2026-07-07
-entity_type_1: Biological Molecule
+tags:
+  - Biological Molecule
+aliases: []
 ---
 
 # Eumelanin

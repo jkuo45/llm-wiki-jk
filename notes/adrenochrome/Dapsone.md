@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Dapsone
 description: '- Methemoglobinemia: A known side effect of Dapsone.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Chemical Compound
+tags:
+  - Chemical Compound
+aliases: []
 ---
 # Dapsone
 

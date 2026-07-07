@@ -1,18 +1,19 @@
 ---
-type: document
 title: Transcriptomic analysis of mitohormesis associated with lifespan extension
   in Caenorhabditis elegans
+description: bioRxiv - the preprint server for biology, operated by openRxiv, a nonprofit
+  organization dedicated to advancing scientific communication
+type: document
+created: 2026-06-12
 source: https://www.biorxiv.org/content/10.1101/2025.04.15.648933v1.full#sec-37
 author:
 - Juri Kim
 - Naibedya Dutta
 - Gilberto Garcia
 - Ryo Higuchi-Sanabria
-created: 2026-06-12
-description: bioRxiv - the preprint server for biology, operated by openRxiv, a nonprofit
-  organization dedicated to advancing scientific communication
 tags:
   - "clippings"
+aliases: []
 ---
 You can now receive automatic notifications when a preprint is revised, withdrawn, commented on, peer reviewed, or published in a journal. Select the events you would like to follow below and click "Submit". To see all of the preprints you are currently following, please go to the [bioRxiv Alerts Page](https://biorxiv.org/alerts).
 

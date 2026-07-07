@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: Lysosomal Biogenesis
 description: 'Lysosomal biogenesis is the process of synthesizing and assembling
   lysosomal components—including acid hydrolases, membrane proteins (LAMP1, LAMP2,
   V-ATPase subunits), and regulatory proteins—i...'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: NA
+tags:
+  - NA
 aliases: [Lysosomal Biogenesis]
 
 ---

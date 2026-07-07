@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: LKB1
 description: 'LKB1 (Liver Kinase B1), also known as STK11, is a master upstream
   serine/threonine kinase that regulates cellular energy metabolism, cell polarity,
   and tumour suppression. LKB1 phosphorylat...'
+type: entity
 created: 2026-07-04
 updated: 2026-07-05
-entity_type_1: Protein
+tags:
+  - Protein
 aliases: [STK11, Liver Kinase B1, Serine/threonine-protein kinase STK11, Polarization-related gene LKB1]
 database_ids:
   mesh: D057852

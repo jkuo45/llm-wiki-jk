@@ -1,12 +1,13 @@
 ---
-type: entity
 title: Cardiac Hypertrophy
 description: Cardiac Hypertrophy is an adaptive enlargement of cardiomyocytes in response
   to increased workload, neurohumoral stimulation (Angiotensin II, endothelin-1), or
   mechanical stress. Sustained pathological hypertrophy progresses to heart failure.
+type: entity
 created: 2026-07-04
 updated: 2026-07-07
-entity_type_1: Medical Condition
+tags:
+  - Medical Condition
 aliases:
   - Myocardial hypertrophy
   - Ventricular hypertrophy

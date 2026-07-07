@@ -1,12 +1,15 @@
 ---
-type: entity
 title: Malondialdehyde
 description: Malondialdehyde (MDA) is a reactive dialdehyde end-product of Lipid Peroxidation, widely measured as a Biomarker of chronic Oxidative Stress and oxidative damage to lipids, proteins, and DNA.
+type: entity
 created: 2026-05-09
 updated: 2026-07-07
-entity_type_1: Metabolite
+tags:
+  - oxidative_stress
+  - biomarker
+  - lipid_peroxidation
+  - Metabolite
 aliases: [MDA]
-tags: [oxidative_stress, biomarker, lipid_peroxidation]
 ---
 
 # Malondialdehyde

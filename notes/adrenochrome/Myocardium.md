@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Myocardium
 description: The muscular middle layer of the heart wall, composed primarily of cardiomyocytes, responsible for the contractile force that drives circulation.
+type: entity
 created: 2026-07-04
 updated: 2026-07-06
-entity_type_1: Anatomy
+tags:
+  - Anatomy
+aliases: []
 ---
 
 # Myocardium

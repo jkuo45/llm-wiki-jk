@@ -1,13 +1,12 @@
 ---
-type: entity
 title: HIV-1
 description: Human immunodeficiency virus type 1 (HIV-1) is the most common and pathogenic strain of HIV, responsible for the global AIDS pandemic. It is a lentivirus that progressively destroys CD4+ T cells, leading to acquired immunodeficiency syndrome (AIDS).
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Microorganism
+tags:
+  - Microorganism
 aliases: [Human Immunodeficiency Virus Type 1, HIV-1 Group M]
-tags: [retrovirus, lentivirus, AIDS]
-
 ---
 
 # HIV-1

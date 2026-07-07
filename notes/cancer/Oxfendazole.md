@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Oxfendazole
 description: Oxfendazole is a benzimidazole anthelmintic (active metabolite of fenbendazole) that binds tubulin and inhibits microtubule polymerization; repurposed as a microtubule-targeted anticancer agent.
+type: entity
 created: 2026-07-06
 updated: 2026-07-07
-entity_type_1: Chemical Compound
+tags:
+  - Chemical Compound
+aliases: []
 ---
 
 # Oxfendazole

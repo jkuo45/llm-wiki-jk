@@ -1,12 +1,13 @@
 ---
-type: entity
 title: AceCS1
 description: AceCS1 (Acetyl-CoA Synthetase 1, cytoplasmic; encoded by ACSS2) is a cytoplasmic
   enzyme that catalyzes the ATP-dependent conversion of acetate and CoA into acetyl-CoA,
   a precursor for lipogenesis, cholesterol synthesis, and histone acetylation.
+type: entity
 created: 2026-07-03
 updated: 2026-07-07
-entity_type_1: Enzyme
+tags:
+  - Enzyme
 aliases:
   - AceCS1
   - Acetyl-CoA Synthetase 1

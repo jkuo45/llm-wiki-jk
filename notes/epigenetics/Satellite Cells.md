@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Satellite Cells
 description: Satellite Cells are muscle-resident Pax7+ stem cells that repair skeletal muscle and can be rejuvenated by transient Yamanaka factor expression.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Cell Type
+tags:
+  - Cell Type
+aliases: []
 ---
 
 # Satellite Cells

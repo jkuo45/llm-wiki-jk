@@ -1,11 +1,12 @@
 ---
-type: entity
 title: ERK2
 description: Extracellular regulated protein kinase 2 (ERK2) is a kinase that phosphorylates
   TFEB at S142, contributing to its cytosolic retention.
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: NA
+tags:
+  - NA
 aliases: [Erk2]
 ---
 # ERK2

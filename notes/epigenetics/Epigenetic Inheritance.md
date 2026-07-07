@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Epigenetic Inheritance
 description: 'Epigenetic inheritance refers to the transmission of epigenetic information from one generation to the next without altering the DNA sequence.'
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Scientific Concept
+tags:
+  - Scientific Concept
+aliases: []
 ---
 
 # Epigenetic Inheritance

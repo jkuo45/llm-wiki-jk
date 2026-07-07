@@ -1,12 +1,14 @@
 ---
-type: entity
 title: Proteins
 description: Proteins are large biomolecules of amino-acid chains that perform catalytic, structural, and signaling functions. They are major targets of Oxidative Stress, undergoing side-chain oxidation, backbone fragmentation, and carbonylation that disrupt function.
+type: entity
 created: 2026-05-09
 updated: 2026-07-07
-entity_type_1: Biological Molecule
+tags:
+  - oxidative_stress
+  - protein_oxidation
+  - Biological Molecule
 aliases: [Proteins]
-tags: [oxidative_stress, protein_oxidation]
 ---
 
 # Proteins

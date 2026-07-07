@@ -1,11 +1,13 @@
 ---
-type: entity
 title: Adrenal medulla
 description: The inner part of the Adrenal gland that produces Catecholamines, including
   Epinephrine and Norepinephrine.
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Anatomy
+tags:
+  - Anatomy
+aliases: []
 ---
 # Adrenal medulla
 

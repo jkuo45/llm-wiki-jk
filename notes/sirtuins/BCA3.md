@@ -1,12 +1,13 @@
 ---
-type: entity
 title: BCA3 (AKIP1)
 description: BCA3 (Breast Cancer Associated Protein 3, also commonly referred to as
   AKIP1 or A-kinase interacting protein 1) is a small, highly conserved cellular protein
   that plays a key role in intracellular ...
+type: entity
 created: 2026-07-03
 updated: 2026-07-03
-entity_type_1: Protein
+tags:
+  - Protein
 aliases:
   - AKIP1
   - Breast cancer-associated protein 3

@@ -1,11 +1,13 @@
 ---
-type: entity
 title: Tumor-Suppressor Loss-Induced Senescence
 description: A cellular senescence program triggered by the loss or inactivation of
   tumor suppressor genes (e.g., PTEN, RB1, p16), acting as a barrier against tumorigenesis.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Biological Process
+tags:
+  - Biological Process
+aliases: []
 ---
 
 # Tumor-Suppressor Loss-Induced Senescence

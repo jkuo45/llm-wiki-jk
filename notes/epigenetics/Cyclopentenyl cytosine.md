@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Cyclopentenyl cytosine
 description: Cyclopentenyl cytosine (CPEC) is a synthetic cytidine analog and potent inhibitor of CTP synthetase, depleting pyrimidine pools and inducing cellular senescence and apoptosis in cancer and viral-infected cells.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Chemical Compound
+tags:
+  - Chemical Compound
+aliases: []
 ---
 
 # Cyclopentenyl cytosine

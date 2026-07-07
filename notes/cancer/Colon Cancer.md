@@ -1,17 +1,17 @@
 ---
-type: entity
 title: Colon Cancer
 description: Colon cancer is a malignancy of the large intestine (colon), representing a major subset of colorectal cancer. It is the third most common cancer worldwide, with approximately 1.9 million new cases annually.
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Medical Condition
-aliases:
-  - Colorectal Cancer
-  - Colorectal Carcinoma
 tags:
   - cancer
   - gastroenterology
   - oncology
+  - Medical Condition
+aliases:
+  - Colorectal Cancer
+  - Colorectal Carcinoma
 ---
 
 # Colon Cancer

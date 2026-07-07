@@ -1,12 +1,13 @@
 ---
-type: entity
 title: Honokiol
 description: Honokiol (HKL) is a bioactive biphenolic lignan extracted primarily from
   the bark, seed cones, and leaves of Magnolia grandiflora and related Magnolia species.
   It has been used in traditional Chine...
+type: entity
 created: 2026-07-03
 updated: 2026-07-03
-entity_type_1: Chemical Compound
+tags:
+  - Chemical Compound
 aliases:
   - Honokiol
   - HKL

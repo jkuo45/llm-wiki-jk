@@ -1,14 +1,14 @@
 ---
-
-type: entity
 title: Bcl-xL
 description: 'Bcl-xL (B-cell lymphoma-extra large) is a potent anti-apoptotic
   member of the Bcl-2 family. It is a major regulator of the Intrinsic Pathway of
   Apoptosis.'
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Enzyme
-
+tags:
+  - Enzyme
+aliases: []
 ---
 
 # Bcl-xL

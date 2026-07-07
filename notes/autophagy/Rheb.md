@@ -1,10 +1,11 @@
 ---
-type: entity
 title: Rheb
 description: Rheb (Ras homolog enriched in brain) is a small GTPase that directly binds and activates mTORC1 in its GTP-bound state; it is inhibited by the TSC1-TSC2 GAP and thus couples growth-factor and energy signals to autophagy suppression.
+type: entity
 created: 2026-07-04
 updated: 2026-07-07
-entity_type_1: Protein
+tags:
+  - Protein
 aliases:
   - Ras homolog enriched in brain
 ---

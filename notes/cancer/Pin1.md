@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Pin1
 description: Pin1 is a peptidyl-prolyl cis/trans isomerase that binds phosphorylated serine/threonine-proline motifs and isomerizes cis/trans conformations of target proteins, regulating apoptosis, proliferation, and tumorigenesis.
+type: entity
 created: 2026-07-06
 updated: 2026-07-07
-entity_type_1: Enzyme
+tags:
+  - Enzyme
+aliases: []
 ---
 
 # Pin1

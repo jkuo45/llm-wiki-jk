@@ -1,11 +1,12 @@
 ---
-type: entity
 title: Collagen
 description: Collagen is the main structural protein in the extracellular matrix of
   various connective tissues in the body.
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: NA
+tags:
+  - NA
 aliases: [Collagen]
 ---
 # Collagen

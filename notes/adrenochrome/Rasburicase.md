@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Rasburicase
 description: '- Methemoglobinemia: A potential adverse effect of Rasburicase.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Enzyme
+tags:
+  - Enzyme
+aliases: []
 ---
 # Rasburicase
 

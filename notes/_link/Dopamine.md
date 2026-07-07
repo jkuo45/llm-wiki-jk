@@ -1,14 +1,14 @@
 ---
-
-type: entity
 title: Dopamine
 description: 'Dopamine is a critical catecholamine neurotransmitter in the brain
   and peripheral nervous system, playing key roles in reward, motivation, motor control,
   and executive function.'
+type: entity
 created: 2026-05-29
 updated: 2026-05-29
-entity_type_1: Biological Molecule
-
+tags:
+  - Biological Molecule
+aliases: []
 ---
 
 # Dopamine

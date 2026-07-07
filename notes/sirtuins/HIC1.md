@@ -1,12 +1,13 @@
 ---
-type: entity
 title: HIC1
 description: HIC1 (Hypermethylated in Cancer 1) is a sequence-specific zinc-finger
   transcriptional repressor containing an N-terminal POZ/BTB domain. It is a critical
   tumour suppressor gene located in a genomic...
+type: entity
 created: 2026-07-03
 updated: 2026-07-07
-entity_type_1: Protein
+tags:
+  - Protein
 aliases:
   - HIC1
   - Hypermethylated in Cancer 1

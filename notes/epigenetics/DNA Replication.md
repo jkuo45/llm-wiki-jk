@@ -1,12 +1,15 @@
 ---
-type: entity
 title: DNA Replication
 description: 'DNA replication is the biological process of producing two identical replicas of DNA from one original DNA molecule.'
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Biological Process
+tags:
+  - cell_cycle
+  - dna_synthesis
+  - s_phase
+  - Biological Process
 aliases: []
-tags: [cell_cycle, dna_synthesis, s_phase]
 ---
 
 # DNA Replication

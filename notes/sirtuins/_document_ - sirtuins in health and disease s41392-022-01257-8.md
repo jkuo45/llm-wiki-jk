@@ -1,11 +1,12 @@
 ---
-type: document
 title: The sirtuin family in health and disease
-source: s41392-022-01257-8.pdf
 description: Signal Transduction and Targeted Therapy
+type: document
+source: s41392-022-01257-8.pdf
 tags:
   - pdf
   - parsed
+aliases: []
 ---
 
 

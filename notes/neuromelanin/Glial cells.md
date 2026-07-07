@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Glial cells
 description: Glial cells, including astrocytes and microglia, are non-neuronal cells in the central nervous system that provide support and protection for neurons and are involved in the metabolic conversion of toxins like MPTP.
+type: entity
 created: 2026-07-04
 updated: 2026-07-07
-entity_type_1: Cell Type
+tags:
+  - Cell Type
+aliases: []
 ---
 
 # Glial cells

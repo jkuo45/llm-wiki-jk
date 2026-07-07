@@ -1,11 +1,17 @@
 ---
-type: entity
 title: STING
 description: Stimulator of interferon genes, a signaling protein that plays a key
   role in innate immunity by sensing cytosolic DNA.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Protein
+tags:
+  - innate immunity
+  - cGAS-STING pathway
+  - interferon
+  - DNA sensing
+  - autoinflammation
+  - Protein
 aliases:
   - Stimulator of Interferon Genes
   - TMEM173
@@ -13,12 +19,6 @@ aliases:
   - ERIS
   - MPYS
   - NET23
-tags:
-  - innate immunity
-  - cGAS-STING pathway
-  - interferon
-  - DNA sensing
-  - autoinflammation
 ---
 
 # STING

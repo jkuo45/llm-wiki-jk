@@ -1,7 +1,23 @@
 ---
-type: document
 title: Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched
   and triple-negative breast cancer - npj Precision Oncology
+description: Despite decades of study, the molecular mechanisms and selectivity of
+  the biomolecular components of Honeybee (Apis mellifera) venom as anticancer agents
+  remain largely unknown. Here, we demonstrate that honeybee venom and its major component
+  melittin potently induce cell death, particularly in the aggressive triple-negative
+  and HER2-enriched breast cancer subtypes. Honeybee venom and melittin suppress the
+  activation of EGFR and HER2 by interfering with the phosphorylation of these receptors
+  in the plasma membrane of breast carcinoma cells. Mutational studies reveal that
+  a positively charged C-terminal melittin sequence mediates plasma membrane interaction
+  and anticancer activity. Engineering of an RGD motif further enhances targeting
+  of melittin to malignant cells with minimal toxicity to normal cells. Lastly, administration
+  of melittin enhances the effect of docetaxel in suppressing breast tumor growth
+  in an allograft model. Our work unveils a molecular mechanism underpinning the anticancer
+  selectivity of melittin, and outlines treatment strategies to target aggressive
+  breast cancers.
+type: document
+published: 2020-08-31
+created: 2026-05-19
 source: https://www.nature.com/articles/s41698-020-00129-0
 author:
 - Ciara Duffy
@@ -17,24 +33,9 @@ author:
 - K. Swaminathan Iyer
 - Boris Baer
 - Pilar Blancafort
-published: 2020-08-31
-created: 2026-05-19
-description: Despite decades of study, the molecular mechanisms and selectivity of
-  the biomolecular components of Honeybee (Apis mellifera) venom as anticancer agents
-  remain largely unknown. Here, we demonstrate that honeybee venom and its major component
-  melittin potently induce cell death, particularly in the aggressive triple-negative
-  and HER2-enriched breast cancer subtypes. Honeybee venom and melittin suppress the
-  activation of EGFR and HER2 by interfering with the phosphorylation of these receptors
-  in the plasma membrane of breast carcinoma cells. Mutational studies reveal that
-  a positively charged C-terminal melittin sequence mediates plasma membrane interaction
-  and anticancer activity. Engineering of an RGD motif further enhances targeting
-  of melittin to malignant cells with minimal toxicity to normal cells. Lastly, administration
-  of melittin enhances the effect of docetaxel in suppressing breast tumor growth
-  in an allograft model. Our work unveils a molecular mechanism underpinning the anticancer
-  selectivity of melittin, and outlines treatment strategies to target aggressive
-  breast cancers.
 tags:
   - "clippings"
+aliases: []
 ---
 
 ## Abstract

@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Cholangiocarcinoma
 description: Cholangiocarcinoma is a malignant adenocarcinoma arising from the bile duct epithelium (cholangiocytes), encompassing intrahepatic, perihilar, and distal subtypes, with poor prognosis and limited therapeutic options.
+type: entity
 created: 2026-07-06
 updated: 2026-07-07
-entity_type_1: Medical Condition
+tags:
+  - Medical Condition
+aliases: []
 ---
 
 # Cholangiocarcinoma

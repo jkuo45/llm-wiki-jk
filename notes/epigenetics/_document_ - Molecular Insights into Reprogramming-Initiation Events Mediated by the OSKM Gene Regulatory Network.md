@@ -1,7 +1,12 @@
 ---
-type: document
 title: Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM
   Gene Regulatory Network
+description: Somatic cells can be reprogrammed to induced pluripotent stem cells by
+  over-expression of OCT4, SOX2, KLF4 and c-MYC (OSKM). With the aim of unveiling
+  the early mechanisms underlying the induction of pluripotency, we have analyzed
+  transcriptional ...
+type: document
+created: 2026-05-13
 source: https://pmc.ncbi.nlm.nih.gov/articles/PMC3164204/
 author:
 - Nancy Mah
@@ -19,13 +24,9 @@ author:
 - Edda Klipp
 - Miguel A Andrade-Navarro
 - James Adjaye
-created: 2026-05-13
-description: Somatic cells can be reprogrammed to induced pluripotent stem cells by
-  over-expression of OCT4, SOX2, KLF4 and c-MYC (OSKM). With the aim of unveiling
-  the early mechanisms underlying the induction of pluripotency, we have analyzed
-  transcriptional ...
 tags:
   - "clippings"
+aliases: []
 ---
 
 . 2011 Aug 31;6(8):e24351. doi: [10.1371/journal.pone.0024351](https://doi.org/10.1371/journal.pone.0024351)

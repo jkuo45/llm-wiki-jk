@@ -1,14 +1,14 @@
 ---
-
-type: entity
 title: Lipophagy
 description: 'Lipophagy is a form of Selective Autophagy involving the degradation
   of Lipid Droplets within Lysosomes. It is a critical mechanism for mobilizing fat
   stores in response to Nutrient Availability.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Biological Process
-
+tags:
+  - Biological Process
+aliases: []
 ---
 
 # Lipophagy

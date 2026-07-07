@@ -1,14 +1,17 @@
 ---
-type: entity
 title: IL-1b
 description: Interleukin-1 beta (IL-1b) is a cytokine protein that is an important
   mediator of the inflammatory response. Its production is often upregulated during
   chronic Inflammation and is closely linked wi...
+type: entity
 created: 2026-05-09
 updated: 2026-07-04
-entity_type_1: Protein
+tags:
+  - oxidative_stress
+  - cytokine
+  - inflammation
+  - Protein
 aliases: [IL-1b, Interleukin-1 beta, IL1B, catabolin]
-tags: [oxidative_stress, cytokine, inflammation]
 ---
 # IL-1b
 Interleukin-1 beta (IL-1b) is a cytokine protein that is an important mediator of the inflammatory response. Its production is often upregulated during chronic [[Inflammation]] and is closely linked with other pro-inflammatory markers like [[TNF-alpha]] and the activation of the [[NF-kappa B]] pathway.

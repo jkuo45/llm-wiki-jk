@@ -1,14 +1,14 @@
 ---
-
-type: entity
 title: Senolytic Drugs
 description: 'Senolytic Drugs are a pharmacological class of agents that selectively
   eliminate Cellular Senescence. Unlike conventional chemotherapeutics, senolytics
   exploit specific survival pathways that s...'
+type: entity
 created: 2024-01-01
 updated: 2024-07-04
-entity_type_1: Pharmacological Action
-
+tags:
+  - Pharmacological Action
+aliases: []
 ---
 
 # Senolytic Drugs

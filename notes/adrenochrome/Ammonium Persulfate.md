@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Ammonium Persulfate
 description: Ammonium Persulfate is a strong oxidizing agent and free radical initiator used in vitro to oxidize Epinephrine to Adrenochrome.
+type: entity
 created: 2026-07-04
 updated: 2026-07-06
-entity_type_1: Chemical Compound
+tags:
+  - Chemical Compound
+aliases: []
 ---
 
 # Ammonium Persulfate

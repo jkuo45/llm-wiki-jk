@@ -1,12 +1,14 @@
 ---
-type: entity
 title: Cell Cycle
 description: The Cell Cycle is the series of events that take place in a cell leading
   to its division and duplication of its DNA (DNA replication) to produce two daughter
   cells. It is tightly regulated by Cycli...
+type: entity
 created: 2024-01-01
 updated: 2024-01-01
-entity_type_1: Biological Process
+tags:
+  - Biological Process
+aliases: []
 ---
 # Cell Cycle
 The [[Cell Cycle]] is the series of events that take place in a cell leading to its division and duplication of its DNA (DNA replication) to produce two daughter cells. It is tightly regulated by [[Cyclin|cyclins]], [[Cyclin-Dependent Kinase|cyclin-dependent kinases]] ([[CDK|CDKs]]), and [[CDK Inhibitor|CDK inhibitors]].

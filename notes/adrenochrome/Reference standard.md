@@ -1,14 +1,14 @@
 ---
-
-type: entity
 title: Reference standard
 description: A Reference standard (or certified reference material) is a material
   or substance one or more of whose property values are sufficiently homogeneous and
   well established to be used for the calib...
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Laboratory Standard
-
+tags:
+  - Laboratory Standard
+aliases: []
 ---
 
 # Reference standard

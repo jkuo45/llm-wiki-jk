@@ -1,12 +1,13 @@
 ---
-type: entity
 title: PEX19
 description: PEX19 encodes a predominantly cytosolic chaperone and import receptor for
   peroxisomal membrane proteins (PMPs), essential for the insertion of newly synthesized
   PMPs into the Peroxisome membrane during biogenesis and growth.
+type: entity
 created: 2026-07-04
 updated: 2026-07-06
-entity_type_1: Protein
+tags:
+  - Protein
 aliases: [peroxisomal biogenesis factor 19, Pex19p, HK33]
 ---
 

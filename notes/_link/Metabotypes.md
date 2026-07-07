@@ -1,11 +1,11 @@
 ---
-type: entity
 title: Metabotypes
 description: Data-driven subgroups of individuals defined by distinct metabolic response or phenotype profiles derived from multi-omic clustering.
+type: entity
 created: 2026-07-07
 updated: 2026-07-07
 tags: [Scientific Concept, Metabolomics, Precision Medicine]
-entity_type_1: Scientific Concept
+aliases: []
 ---
 
 # Metabotypes

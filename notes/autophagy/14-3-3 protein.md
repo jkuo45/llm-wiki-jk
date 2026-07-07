@@ -1,12 +1,13 @@
 ---
-type: entity
 title: 14-3-3 protein
 description: 14-3-3 proteins are a family of conserved regulatory molecules that bind
   to phosphorylated TFEB (at S211) to retain it in the cytosol, thereby inhibiting
   its nuclear translocation.
+type: entity
 created: 2026-07-04
 updated: 2026-07-07
-entity_type_1: Protein
+tags:
+  - Protein
 aliases: [YWHA, 14-3-3]
 ---
 

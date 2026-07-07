@@ -1,14 +1,17 @@
 ---
-type: entity
 title: Nicotinic acid
 description: Nicotinic acid (NA), also known as niacin, is a form of vitamin B3 and
   a key metabolite in the Preiss-Handler pathway for NAD+ biosynthesis.
+type: entity
 created: 2026-07-04
 updated: 2026-07-06
-entity_type_1: Chemical Compound
+tags:
+  - vitamin
+  - NAD+ precursor
+  - redox cofactor
+  - Chemical Compound
 url: https://pubchem.ncbi.nlm.nih.gov/compound/nicotinic-acid
 aliases: [Niacin, Vitamin B3, Pyridine-3-carboxylic acid]
-tags: [vitamin, NAD+ precursor, redox cofactor]
 ---
 
 # Nicotinic acid

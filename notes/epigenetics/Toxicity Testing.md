@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Toxicity Testing
 description: The assessment of adverse biological effects of compounds, increasingly performed on human-relevant iPSC-derived models for safer, more predictive screening.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Analytical Technique
+tags:
+  - Analytical Technique
+aliases: []
 ---
 
 # Toxicity Testing

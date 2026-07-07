@@ -1,10 +1,11 @@
 ---
-type: entity
 title: MTHFD1
 description: MTHFD1 (methylenetetrahydrofolate dehydrogenase 1) is a trifunctional cytosolic enzyme producing 10-formyl-THF for purine synthesis and contributing to methyl-group flux.
+type: entity
 created: 2026-05-25
 updated: 2026-07-07
-entity_type_1: Enzyme
+tags:
+  - Enzyme
 aliases: [Methylenetetrahydrofolate Dehydrogenase 1]
 ---
 

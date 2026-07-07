@@ -1,10 +1,12 @@
 ---
-type: entity
 title: HSP90β
 description: HSP90β is a cytosolic chaperone protein that acts as an Apaf-1 inhibitor, suppressing Apaf-1 oligomerization and Apoptosome formation in tyrosine kinase-induced leukemias.
+type: entity
 created: 2026-07-06
 updated: 2026-07-07
-entity_type_1: Protein
+tags:
+  - Protein
+aliases: []
 ---
 
 # HSP90β

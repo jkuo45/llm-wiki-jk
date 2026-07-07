@@ -1,12 +1,14 @@
 ---
-type: entity
 title: Lysosomal Localization
 description: Lysosomal localization refers to the recruitment or positioning of proteins
   on the lysosome membrane, which for TFEB is required for its phosphorylation by
   mTORC1 and is regulated by GSK3β.
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Biological Process
+tags:
+  - Biological Process
+aliases: []
 ---
 # Lysosomal Localization
 

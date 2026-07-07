@@ -1,10 +1,11 @@
 ---
-type: entity
 title: Hesperidin
 description: 'Hesperidin is a citrus flavanone glycoside with anti-inflammatory and vasoprotective effects; lacking a catechol structure, it does not inhibit or compete with COMT and is safe in slow COMT.'
+type: entity
 created: 2026-05-25
 updated: 2026-07-07
-entity_type_1: Chemical Compound
+tags:
+  - Chemical Compound
 aliases: [hesperetin-7-O-rutinoside]
 
 ---

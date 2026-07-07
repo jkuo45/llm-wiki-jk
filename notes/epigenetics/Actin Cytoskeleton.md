@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Actin Cytoskeleton
 description: A highly dynamic and organized network of actin filaments providing structural integrity, facilitating cell motility, and mediating intracellular signaling in eukaryotic cells.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Biological Process
+tags:
+  - Biological Process
+aliases: []
 ---
 
 # Actin Cytoskeleton

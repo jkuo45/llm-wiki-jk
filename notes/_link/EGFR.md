@@ -1,12 +1,13 @@
 ---
-type: entity
 title: EGFR
 description: Epidermal growth factor receptor (EGFR) is a transmembrane receptor tyrosine
   kinase that regulates cell proliferation, survival, and differentiation. It is frequently
   overexpressed or mutated in nu...
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Protein
+tags:
+  - Protein
 aliases:
   - Epidermal growth factor receptor
   - ErbB-1

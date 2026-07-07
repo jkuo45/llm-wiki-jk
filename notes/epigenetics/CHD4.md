@@ -1,12 +1,15 @@
 ---
-type: entity
 title: CHD4
 description: 'CHD4 is the Mi-2β ATP-dependent chromatin-remodeling subunit of the NuRD complex, regulating transcription, DNA repair, and genomic stability.'
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Protein
+tags:
+  - chromatin_remodeling
+  - transcription
+  - epigenetics
+  - Protein
 aliases: [Chromodomain Helicase DNA-binding protein 4, Mi-2β]
-tags: [chromatin_remodeling, transcription, epigenetics]
 ---
 
 # CHD4

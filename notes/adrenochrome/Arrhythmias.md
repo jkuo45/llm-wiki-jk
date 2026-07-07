@@ -1,12 +1,15 @@
 ---
-type: entity
 title: Arrhythmias
 description: Cardiac rhythm disorders encompassing tachyarrhythmias, bradyarrhythmias, and irregular rhythms arising from abnormal impulse formation or conduction.
+type: entity
 created: 2026-07-04
 updated: 2026-07-06
-entity_type_1: Medical Condition
+tags:
+  - cardiology
+  - electrophysiology
+  - arrhythmia
+  - Medical Condition
 aliases: [Cardiac arrhythmia, Dysrhythmia, Heart rhythm disorder]
-tags: [cardiology, electrophysiology, arrhythmia]
 ---
 
 # Arrhythmias

@@ -1,14 +1,14 @@
 ---
-
-type: entity
 title: Metformin
 description: 'Metformin is the world''s most widely prescribed medication for
   type 2 Diabetes Mellitus. Beyond its role in controlling blood sugar, metformin
   has gained significant attention in Geroscience as...'
+type: entity
 created: 2026-05-29
 updated: 2026-05-29
-entity_type_1: Chemical Compound
-
+tags:
+  - Chemical Compound
+aliases: []
 ---
 
 # Metformin

@@ -1,12 +1,12 @@
 ---
-
-type: entity
 title: Cardiac arrest
 description: 'Cardiac arrest is a sudden loss of blood flow resulting from the failure of the heart to effectively pump.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-06
-entity_type_1: Medical Condition
-
+tags:
+  - Medical Condition
+aliases: []
 ---
 
 # Cardiac arrest

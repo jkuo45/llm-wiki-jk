@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Hepatocyte
 description: The principal parenchymal cell of the liver, responsible for metabolism, detoxification, protein synthesis, and rapid regenerative response.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Cell Type
+tags:
+  - Cell Type
+aliases: []
 ---
 
 # Hepatocyte

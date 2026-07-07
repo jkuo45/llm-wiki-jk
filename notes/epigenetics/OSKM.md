@@ -1,12 +1,14 @@
 ---
-type: entity
 title: OSKM
 description: OSKM denotes the four core reprogramming transcription factors Oct4, Sox2,
   Klf4, and c-Myc — the original Yamanaka Factors that convert Somatic Cells into
   Induced Pluripotent Stem Cells (iPSCs).
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Scientific Concept
+tags:
+  - Scientific Concept
+aliases: []
 ---
 
 # OSKM

@@ -1,10 +1,12 @@
 ---
-type: entity
 title: L-Tyrosine
 description: L-Tyrosine is a non-essential amino acid that serves as the primary precursor for the synthesis of catecholamines, including Dopamine, norepinephrine, and epinephrine, as well as melanin pigments.
+type: entity
 created: 2026-07-04
 updated: 2026-07-07
-entity_type_1: Chemical Compound
+tags:
+  - Chemical Compound
+aliases: []
 ---
 
 # L-Tyrosine

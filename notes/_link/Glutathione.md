@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Glutathione
 description: Glutathione is a concept related to Adrenochrome and catecholamine metabolism.
+type: entity
 created: 2026-05-29
 updated: 2026-05-29
-entity_type_1: Biological Molecule
+tags:
+  - Biological Molecule
+aliases: []
 ---
 # Glutathione
 Glutathione is a concept related to [[Adrenochrome]] and catecholamine metabolism.

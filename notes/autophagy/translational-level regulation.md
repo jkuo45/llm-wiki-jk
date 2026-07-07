@@ -1,12 +1,14 @@
 ---
-type: entity
 title: translational-level regulation
 description: Translational-level regulation refers to the control of protein synthesis
   from mRNA, such as the regulation of TFEB protein levels by PDCD4, eIF4A, and Spermidine-mediated
   hypusination of eIF5A.
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Biological Process
+tags:
+  - Biological Process
+aliases: []
 ---
 # translational-level regulation
 

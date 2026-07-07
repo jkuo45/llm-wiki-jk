@@ -1,10 +1,12 @@
 ---
-type: entity
 title: SMAD Proteins
 description: 'SMAD Proteins are intracellular signal transducers of the TGF-beta superfamily; receptor-regulated SMADs complex with Co-SMAD to relay TGF-beta signals to target genes controlling quiescence, EMT, and fibrosis.'
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Protein
+tags:
+  - Protein
+aliases: []
 ---
 
 # SMAD Proteins

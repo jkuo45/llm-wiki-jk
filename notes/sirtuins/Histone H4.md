@@ -1,12 +1,13 @@
 ---
-type: entity
 title: Histone H4
 description: Histone H4 is one of the five core histone proteins that form the nucleosome,
   the fundamental repeating unit of chromatin. Acetylation of its N-terminal tail,
   particularly at Lys16 (H4K16ac), is a ...
+type: entity
 created: 2026-07-04
 updated: 2026-07-07
-entity_type_1: Protein
+tags:
+  - Protein
 aliases:
   - H4
   - HIST1H4A

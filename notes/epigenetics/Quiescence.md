@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Quiescence
 description: 'Quiescence is a state of reversible proliferative arrest in which cells exit the Cell Cycle but retain the capacity to reenter it upon appropriate stimuli; central to stem-cell maintenance, tissue repair, and longevity.'
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Biological Process
+tags:
+  - Biological Process
+aliases: []
 ---
 
 # Quiescence

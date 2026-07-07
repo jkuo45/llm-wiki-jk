@@ -1,12 +1,14 @@
 ---
-type: entity
 title: Dicarbonyls
 description: Dicarbonyls are organic compounds containing two carbonyl groups. In
   biology, reactive dicarbonyls like Methylglyoxal and Glyoxal are important intermediates
   in the formation of Advanced Glycation ...
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Chemical Class
+tags:
+  - Chemical Class
+aliases: []
 ---
 # Dicarbonyls
 

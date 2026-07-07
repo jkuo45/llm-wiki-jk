@@ -1,12 +1,14 @@
 ---
-type: entity
 title: SA-beta-gal
 description: Senescence-associated beta-galactosidase, a lysosomal beta-galactosidase
   activity elevated in senescent cells and widely used as a biomarker of cellular
   senescence.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Biomarker
+tags:
+  - Biomarker
+aliases: []
 ---
 
 # SA-beta-gal

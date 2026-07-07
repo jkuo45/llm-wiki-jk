@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Trisomy
 description: 'Trisomy is a type of Aneuploidy in which a specific chromosome is present in three copies instead of the normal two, usually arising from meiotic nondisjunction.'
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Medical Condition
+tags:
+  - Medical Condition
+aliases: []
 ---
 
 # Trisomy

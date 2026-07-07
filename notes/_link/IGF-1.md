@@ -1,14 +1,14 @@
 ---
-
-type: entity
 title: IGF-1
 description: 'IGF1 (Insulin-like Growth Factor 1) is a hormone similar in molecular
   structure to insulin. It plays a central role in childhood growth and continues
   to have anabolic effects in adults. In the ...'
+type: entity
 created: 2024-01-01
 updated: 2024-01-01
-entity_type_1: Protein
-
+tags:
+  - Protein
+aliases: []
 ---
 
 # IGF-1

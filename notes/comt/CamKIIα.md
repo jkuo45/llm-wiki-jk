@@ -1,10 +1,11 @@
 ---
-type: entity
 title: CamKIIα
 description: 'CaMKIIα (Calcium/calmodulin-dependent protein kinase II alpha) is an abundant neuronal serine/threonine kinase essential for synaptic plasticity, LTP, and memory; its promoter drives forebrain-specific transgene expression in COMT models.'
+type: entity
 created: 2026-05-25
 updated: 2026-07-07
-entity_type_1: Protein
+tags:
+  - Protein
 aliases: [CaMKIIα, Calcium/calmodulin-dependent protein kinase II alpha, CAMK2A]
 
 ---

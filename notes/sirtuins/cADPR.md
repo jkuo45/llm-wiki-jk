@@ -1,11 +1,12 @@
 ---
-type: entity
 title: cADPR (Cyclic ADP-ribose)
 description: Cyclic ADP-ribose (cADPR) is a novel cyclic nucleotide second messenger
   synthesized from NAD+ by ADP-ribosyl cyclases, primarily CD38 in mammals.
+type: entity
 created: 2026-07-03
 updated: 2026-07-06
-entity_type_1: Chemical Compound
+tags:
+  - Chemical Compound
 aliases: [cyclic ADP-ribose, cyclic adenosine diphosphate ribose]
 ---
 

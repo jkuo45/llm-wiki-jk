@@ -1,10 +1,11 @@
 ---
-type: entity
 title: Polyunsaturated Fatty Acids
 description: Polyunsaturated fatty acids (PUFAs) are fatty acids with two or more carbon-carbon double bonds. Essential structural components of cell membranes, they are especially susceptible to Lipid Peroxidation and drive Ferroptosis.
+type: entity
 created: 2026-07-04
 updated: 2026-07-07
-entity_type_1: Chemical Class
+tags:
+  - Chemical Class
 aliases: [PUFAs, Polyunsaturated fats]
 ---
 

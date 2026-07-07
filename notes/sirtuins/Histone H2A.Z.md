@@ -1,12 +1,13 @@
 ---
-type: entity
 title: Histone H2A.Z
 description: 'Histone H2A.Z (encoded by H2AFZ) is a highly conserved histone
   H2A variant that replaces canonical H2A in a subset of nucleosomes. It plays specialized
   roles in transcriptional regulation, DN...'
+type: entity
 created: 2026-07-04
 updated: 2026-07-07
-entity_type_1: Protein
+tags:
+  - Protein
 aliases: [H2AFZ, H2A Histone Family Member Z]
 
 sources:

@@ -1,10 +1,11 @@
 ---
-type: entity
 title: Aspirin
 description: 'Aspirin (acetylsalicylic acid) is an irreversible cyclooxygenase inhibitor used for analgesia, antipyresis, anti-inflammation, and antithrombotic prophylaxis; its cardiovascular efficacy is modified by COMT genotype.'
+type: entity
 created: 2026-05-25
 updated: 2026-07-07
-entity_type_1: Chemical Compound
+tags:
+  - Chemical Compound
 aliases: [acetylsalicylic acid, ASA]
 
 ---

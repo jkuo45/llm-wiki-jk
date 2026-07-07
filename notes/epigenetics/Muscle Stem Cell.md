@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Muscle Stem Cell
 description: Muscle Stem Cells (satellite cells) are Pax7+ resident progenitors that repair skeletal muscle and exit quiescence upon injury.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Cell Type
+tags:
+  - Cell Type
+aliases: []
 ---
 
 # Muscle Stem Cell

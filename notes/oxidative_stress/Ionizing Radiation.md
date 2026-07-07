@@ -1,14 +1,17 @@
 ---
-type: entity
 title: Ionizing Radiation
 description: Ionizing radiation is radiation, traveling as particles or electromagnetic
   waves, that carries sufficient energy to detach electrons from atoms or molecules,
   thereby ionizing them. This process lea...
+type: entity
 created: 2026-05-09
 updated: 2026-07-04
-entity_type_1: Scientific Concept
+tags:
+  - oxidative_stress
+  - dna_damage
+  - radiotherapy
+  - Scientific Concept
 aliases: [IR, radiation]
-tags: [oxidative_stress, dna_damage, radiotherapy]
 ---
 # Ionizing Radiation
 Ionizing radiation is radiation, traveling as particles or electromagnetic waves, that carries sufficient energy to detach electrons from atoms or molecules, thereby ionizing them. This process leads to the immediate generation of [[Reactive Oxygen Species]], resulting in extensive [[DNA Damage]] and systemic [[Oxidative Stress]].

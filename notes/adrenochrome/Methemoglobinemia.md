@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: Methemoglobinemia
 description: 'Methemoglobinemia is a condition caused by elevated levels of Methemoglobin
   in the blood.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Medical Condition
-
+tags:
+  - Medical Condition
+aliases: []
 ---
 
 # Methemoglobinemia

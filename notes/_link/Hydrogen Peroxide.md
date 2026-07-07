@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: Hydrogen Peroxide
 description: 'Hydrogen Peroxide ($H_2O_2$) is a non-radical but highly reactive
   oxygen species (ROS). It is a key signaling molecule in cells but can also contribute
   to oxidative damage.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Chemical Compound
+tags:
+  - Chemical Compound
 aliases: [H2O2]
 
 ---

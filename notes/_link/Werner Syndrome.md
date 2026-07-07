@@ -1,14 +1,14 @@
 ---
-
-type: entity
 title: Werner Syndrome
 description: 'Werner Syndrome (WS) is a rare, autosomal recessive progeroid syndrome
   characterized by the appearance of premature Aging. Unlike HGPS, which begins in
   early childhood, Werner Syndrome typicall...'
+type: entity
 created: 2024-01-01
 updated: 2024-01-01
-entity_type_1: Medical Condition
-
+tags:
+  - Medical Condition
+aliases: []
 ---
 
 # Werner Syndrome

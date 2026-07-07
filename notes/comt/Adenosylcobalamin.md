@@ -1,10 +1,11 @@
 ---
-type: entity
 title: Adenosylcobalamin
 description: 'Adenosylcobalamin (also known as dibencozide) is one of the two active coenzyme forms of Vitamin B12, functioning as a cofactor for methylmalonyl-CoA mutase in mitochondrial energy metabolism.'
+type: entity
 created: 2026-05-25
 updated: 2026-07-07
-entity_type_1: Chemical Compound
+tags:
+  - Chemical Compound
 aliases: [dibencozide, AdoCbl]
 
 ---

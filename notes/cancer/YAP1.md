@@ -1,10 +1,12 @@
 ---
-type: entity
 title: YAP1
 description: YAP1 (Yes-associated protein 1) is the major transcriptional co-activator effector of the Hippo pathway; its nuclear accumulation drives proliferation, survival, EMT, and metastasis, and its inhibition is a target of repurposed agents such as ivermectin.
+type: entity
 created: 2026-07-06
 updated: 2026-07-07
-entity_type_1: Protein
+tags:
+  - Protein
+aliases: []
 ---
 
 # YAP1

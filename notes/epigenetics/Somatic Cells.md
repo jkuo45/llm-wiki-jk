@@ -1,12 +1,14 @@
 ---
-type: entity
 title: Somatic Cells
 description: Somatic cells are the differentiated, non-germ body cells of an organism
   (excluding gametes and undifferentiated stem cells). They are the starting material
   for Cellular Reprogramming into Induced Pluripotent Stem Cells.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Cell Type
+tags:
+  - Cell Type
+aliases: []
 ---
 
 # Somatic Cells

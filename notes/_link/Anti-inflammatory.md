@@ -1,12 +1,14 @@
 ---
-type: entity
 title: Anti-inflammatory
 description: Anti-inflammatory refers to substances, interventions, or mechanisms
   that reduce Inflammation. This encompasses pharmacological agents (NSAIDs, Corticosteroids,
   DMARDs, Biologics), dietary compound...
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Enzyme
+tags:
+  - Enzyme
+aliases: []
 ---
 # Anti-inflammatory
 

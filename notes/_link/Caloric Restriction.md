@@ -1,12 +1,13 @@
 ---
-type: entity
 title: Caloric Restriction
 description: Caloric restriction (CR)—reducing calorie intake without malnutrition—is
   the most robust non-genetic intervention known to delay Aging. It exerts its effects
   largely by remodeling the Epigenome, ef...
-created: 02_July_2026 08:57 PM PDT
-updated: 02_July_2026 08:57 PM PDT
-entity_type_1: Scientific Concept
+type: entity
+created: 2026-07-02
+updated: 2026-07-02
+tags:
+  - Scientific Concept
 aliases:
   - Calorie Restriction
   - CR

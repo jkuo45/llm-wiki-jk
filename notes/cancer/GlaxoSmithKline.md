@@ -1,10 +1,12 @@
 ---
-type: entity
 title: GlaxoSmithKline
 description: GlaxoSmithKline (GSK) is a British multinational pharmaceutical company. It donates Albendazole for the global effort to eliminate Lymphatic Filariasis.
+type: entity
 created: 2026-07-06
 updated: 2026-07-07
-entity_type_1: Organization
+tags:
+  - Organization
+aliases: []
 ---
 
 # GlaxoSmithKline

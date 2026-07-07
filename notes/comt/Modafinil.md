@@ -1,10 +1,11 @@
 ---
-type: entity
 title: Modafinil
 description: Modafinil is a wakefulness-promoting psychostimulant used in narcolepsy and off-label as a nootropic, with efficacy modulated by COMT genotype.
+type: entity
 created: 2026-05-25
 updated: 2026-07-07
-entity_type_1: Chemical Compound
+tags:
+  - Chemical Compound
 aliases: [Provigil]
 ---
 

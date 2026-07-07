@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Histone Acetyltransferase
 description: 'Histone Acetyltransferase (HAT) is a class of enzymes that transfer an acetyl group from acetyl-CoA to specific lysine residues on histone tails.'
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Enzyme
+tags:
+  - Enzyme
+aliases: []
 ---
 
 # Histone Acetyltransferase

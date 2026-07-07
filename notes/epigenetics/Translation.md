@@ -1,11 +1,13 @@
 ---
-type: entity
 title: Translation
 description: The biological process in which ribosomes synthesize proteins from messenger
   RNA, the final step of gene expression downstream of transcription.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Biological Process
+tags:
+  - Biological Process
+aliases: []
 ---
 
 # Translation

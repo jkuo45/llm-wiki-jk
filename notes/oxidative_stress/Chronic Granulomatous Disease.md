@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: Chronic Granulomatous Disease
 description: 'Chronic Granulomatous Disease (CGD) is a primary immunodeficiency
   caused by genetic defects in the NADPH Oxidase complex (particularly NOX2/gp91ᵖʰᵒˣ),
   resulting in the inability of Phagocytes t...'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Medical Condition
+tags:
+  - Medical Condition
 aliases: [CGD, Chronic granulomatous disease, Bridges-Good syndrome]
 
 ---

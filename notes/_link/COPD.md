@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: COPD
 description: 'Chronic Obstructive Pulmonary Disease (COPD) is a common chronic
   respiratory disease characterized by persistent respiratory symptoms and progressive
   airflow obstruction. It is the fourth leadi...'
+type: entity
 created: 2026-07-05
 updated: 2026-07-05
-entity_type_1: Medical Condition
+tags:
+  - Medical Condition
 aliases: [Chronic Obstructive Pulmonary Disease, Chronic Obstructive Lung Disease]
 
 ---

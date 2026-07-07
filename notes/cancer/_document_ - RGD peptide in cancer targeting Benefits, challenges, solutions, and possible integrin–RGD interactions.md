@@ -1,7 +1,12 @@
 ---
-type: document
 title: 'RGD peptide in cancer targeting: Benefits, challenges, solutions, and possible
   integrin–RGD interactions'
+description: RGD peptide can be found in cell adhesion and signaling proteins, such
+  as fibronectin, vitronectin, and fibrinogen. RGD peptides' principal function is
+  to facilitate cell adhesion by interacting with integrin receptors on the cell surface.
+  They have ...
+type: document
+created: 2026-05-20
 source: https://pmc.ncbi.nlm.nih.gov/articles/PMC10832341/
 author:
 - Hossein Javid
@@ -10,13 +15,9 @@ author:
 - Ali Esparham
 - Mahboubeh Tajaldini
 - Mehdi Karimi‐Shahri
-created: 2026-05-20
-description: RGD peptide can be found in cell adhesion and signaling proteins, such
-  as fibronectin, vitronectin, and fibrinogen. RGD peptides' principal function is
-  to facilitate cell adhesion by interacting with integrin receptors on the cell surface.
-  They have ...
 tags:
   - "clippings"
+aliases: []
 ---
 
 . 2024 Feb 1;13(2):e6800. doi: [10.1002/cam4.6800](https://doi.org/10.1002/cam4.6800)

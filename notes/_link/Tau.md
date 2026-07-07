@@ -1,14 +1,18 @@
 ---
-type: entity
 title: Tau
 description: Microtubule-associated protein tau (MAPT) is an intrinsically disordered
   neuronal protein whose hyperphosphorylation and aggregation drive neurofibrillary
   tangle formation in Alzheimer's Disease and other tauopathies.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Protein
+tags:
+  - alzheimers
+  - tauopathy
+  - neurodegeneration
+  - microtubule
+  - Protein
 aliases: [MAPT, microtubule-associated protein tau, Tau protein]
-tags: [alzheimers, tauopathy, neurodegeneration, microtubule]
 ---
 
 # Tau

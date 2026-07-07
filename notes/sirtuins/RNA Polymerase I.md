@@ -1,10 +1,11 @@
 ---
-type: entity
 title: RNA Polymerase I
 description: RNA Polymerase I (Pol I) is the eukaryotic enzyme responsible for transcribing ribosomal RNA (rRNA) genes — including 18S, 5.8S, and 28S rRNA — in the nucleolus. Pol I activity is the rate-limiting step for ribosome biogenesis and is tightly coupled to cellular growth and energy status.
+type: entity
 created: 2026-07-04
 updated: 2026-07-07
-entity_type_1: Protein
+tags:
+  - Protein
 aliases:
   - Pol I
   - RNAP I

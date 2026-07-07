@@ -1,17 +1,17 @@
 ---
-type: entity
 title: ASK1
 description: Apoptosis signal-regulating kinase 1 (ASK1), also known as MAP3K5, is a ~155 kDa serine-threonine MAP kinase kinase kinase that activates the JNK and p38 MAPK pathways in response to cellular stresses including ROS, TNF-α, LPS, ER stress, and calcium overload.
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Enzyme
-aliases:
-  - MAP3K5
-  - Apoptosis signal-regulating kinase 1
 tags:
   - MAPK signaling
   - stress response
   - kinase
+  - Enzyme
+aliases:
+  - MAP3K5
+  - Apoptosis signal-regulating kinase 1
 ---
 
 # ASK1

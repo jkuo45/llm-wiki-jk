@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Brugia timori
 description: Brugia timori is a filarial nematode causing Lymphatic Filariasis in eastern Indonesia (Timor), targeted by mass ivermectin/albendazole administration.
+type: entity
 created: 2026-07-06
 updated: 2026-07-07
-entity_type_1: Microorganism
+tags:
+  - Microorganism
+aliases: []
 ---
 
 # Brugia timori

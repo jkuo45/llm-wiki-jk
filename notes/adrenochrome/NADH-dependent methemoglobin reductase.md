@@ -1,10 +1,12 @@
 ---
-type: entity
 title: NADH-dependent methemoglobin reductase
 description: '- Methemoglobin: The substrate reduced by this enzyme.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Enzyme
+tags:
+  - Enzyme
+aliases: []
 ---
 # NADH-dependent methemoglobin reductase
 

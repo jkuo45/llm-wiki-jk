@@ -1,14 +1,14 @@
 ---
-
-type: entity
 title: Urolithin A
 description: 'Urolithin A is a postbiotic metabolite derived from ellagitannins
   (found in pomegranates and nuts) that has been shown to induce mitophagy and improve
   muscle function and longevity in various m...'
+type: entity
 created: 2024-01-01
 updated: 2024-01-01
-entity_type_1: Chemical Compound
-
+tags:
+  - Chemical Compound
+aliases: []
 ---
 
 # Urolithin A

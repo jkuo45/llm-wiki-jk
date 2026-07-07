@@ -1,10 +1,11 @@
 ---
-type: entity
 title: Aphidicolin
 description: Aphidicolin is a tetracyclic diterpene antibiotic that acts as a reversible, competitive inhibitor of DNA polymerase α and δ, widely used to induce replication stress and synchronize the cell cycle at the G1/S border.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Chemical Compound
+tags:
+  - Chemical Compound
 aliases: [Aphidicolin, Aphidicoline]
 ---
 

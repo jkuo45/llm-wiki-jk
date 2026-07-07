@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Embryonic Development
 description: Embryonic Development is the biological process by which a fertilized zygote undergoes cleavage, gastrulation, germ layer specification, and morphogenesis to form a structured embryo, coordinated by epigenetic and transcriptional reprogramming.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Biological Process
+tags:
+  - Biological Process
+aliases: []
 ---
 
 # Embryonic Development

@@ -1,12 +1,12 @@
 ---
-
-type: entity
 title: MYC
 description: 'MYC (c-Myc) is a bHLH-LZ transcription factor that heterodimerizes
   with MAX to regulate cell proliferation, growth, metabolism, and Autophagy.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Gene
+tags:
+  - Gene
 aliases: [c-Myc, MYC proto-oncogene]
 
 ---

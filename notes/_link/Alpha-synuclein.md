@@ -1,11 +1,13 @@
 ---
-type: entity
 title: Alpha-synuclein
 description: A protein that is abundant in the human brain and is linked to Parkinson's
   Disease.
+type: entity
 created: 2024-01-01
 updated: 2024-01-01
-entity_type_1: Protein
+tags:
+  - Protein
+aliases: []
 ---
 # Alpha-synuclein
 A protein that is abundant in the human brain and is linked to [[Parkinson's Disease]].

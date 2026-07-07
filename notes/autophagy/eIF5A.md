@@ -1,12 +1,12 @@
 ---
-
-type: entity
 title: eIF5A
 description: 'eIF5A (Eukaryotic Translation Initiation Factor 5A) is a highly
   conserved translation factor.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Protein
+tags:
+  - Protein
 aliases: [eukaryotic initiation factor 5A]
 
 ---

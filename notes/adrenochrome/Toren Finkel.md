@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Toren Finkel
 description: American MD/PhD scientist and Professor of Medicine at the University of Pittsburgh; director of the Center for Metabolism and Mitochondrial Medicine; former Chief of the Cardiovascular Branch at NHLBI/NIH; leading researcher in mitochondrial biology, aging, and the mitohormesis concept
+type: entity
 created: 2026-07-04
 updated: 2026-07-06
-entity_type_1: Person
+tags:
+  - Person
+aliases: []
 ---
 
 # Toren Finkel

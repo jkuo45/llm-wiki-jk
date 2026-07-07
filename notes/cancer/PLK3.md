@@ -1,10 +1,12 @@
 ---
-type: entity
 title: PLK3
 description: Polo-like kinase 3 (PLK3, also called FN1/Prk) is a stress-responsive Polo-like kinase involved in the DNA damage response, cell cycle checkpoints, and apoptosis by phosphorylating targets including Bcl-xL and p53.
+type: entity
 created: 2026-07-06
 updated: 2026-07-07
-entity_type_1: Enzyme
+tags:
+  - Enzyme
+aliases: []
 ---
 
 # PLK3

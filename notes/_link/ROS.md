@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: ROS
 description: 'Reactive Oxygen Species (ROS) are chemically reactive molecules
   containing oxygen, including Superoxide Radicals, Hydrogen Peroxide, Hydroxyl Radicals,
   and Singlet Oxygen. They serve dual roles...'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Biological Molecule
+tags:
+  - Biological Molecule
 aliases: [Reactive oxygen species, Reactive oxygen intermediates]
 
 ---

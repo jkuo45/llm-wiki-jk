@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: Caenorhabditis elegans
 description: 'Caenorhabditis elegans (C. elegans) is a transparent nematode
   used as a premier model organism in biological research, particularly in genetics,
   developmental biology, and Aging.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Model Organism
+tags:
+  - Model Organism
 aliases: [Caenorhabditis elegans]
 
 ---

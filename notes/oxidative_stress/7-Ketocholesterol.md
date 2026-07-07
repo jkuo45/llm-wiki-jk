@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: 7-Ketocholesterol
 description: '7-Ketocholesterol (7-KC, 7-oxocholesterol) is the most abundant
   non-enzymatic oxysterol formed by ROS-mediated oxidation of Cholesterol at the C7
   position. It is a major component of Lipid Pero...'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Chemical Compound
+tags:
+  - Chemical Compound
 aliases: [7-KC, 7-oxocholesterol, 5-cholesten-3β-ol-7-one]
 
 ---

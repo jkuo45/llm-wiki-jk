@@ -1,10 +1,11 @@
 ---
-type: entity
 title: D2 receptor
 description: 'The D2 receptor (DRD2) is an inhibitory G_i/o-coupled dopamine receptor central to reward, movement, and working memory, and a primary target of antipsychotics; its stimulation depends on COMT-regulated dopamine tone.'
+type: entity
 created: 2026-05-25
 updated: 2026-07-07
-entity_type_1: Receptor
+tags:
+  - Receptor
 aliases: [D2 dopamine receptor, DRD2, Dopamine receptor D2]
 
 ---

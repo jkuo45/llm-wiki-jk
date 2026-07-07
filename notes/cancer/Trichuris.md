@@ -1,13 +1,16 @@
 ---
-type: entity
 title: Trichuris
 description: Trichuris is a genus of parasitic nematodes commonly known as whipworms.
   The species Trichuris trichiura causes Trichuriasis in humans.
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Microorganism
+tags:
+  - Nematode
+  - Helminth
+  - STH
+  - Microorganism
 aliases: [Whipworm]
-tags: [Nematode, Helminth, STH]
 ---
 
 # Trichuris

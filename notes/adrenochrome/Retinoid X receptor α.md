@@ -1,12 +1,14 @@
 ---
-type: entity
 title: Retinoid X receptor α
 description: Retinoid X receptor α (RXRA, NR2B1) is a nuclear receptor that serves as
   the master coordinator of nuclear receptor signaling through obligate heterodimerization
   with multiple partners, and mediates the mammalian mitochondrial retrograde response.
+type: entity
 created: 2026-07-04
 updated: 2026-07-06
-entity_type_1: Receptor
+tags:
+  - Receptor
+aliases: []
 ---
 
 # Retinoid X receptor α

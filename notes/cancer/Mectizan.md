@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Mectizan
 description: Mectizan is the Merck brand name for Ivermectin formulated for human use, especially against Onchocerciasis and lymphatic filariasis; the same molecule is under Cancer repurposing study.
+type: entity
 created: 2026-07-06
 updated: 2026-07-07
-entity_type_1: Medical Product
+tags:
+  - Medical Product
+aliases: []
 ---
 
 # Mectizan

@@ -1,11 +1,15 @@
 ---
-type: entity
 title: Intraperitoneal
 description: Relating to or administered within the peritoneal cavity; a common route for drug delivery and injection in experimental and clinical medicine.
+type: entity
 created: 2026-07-07
 updated: 2026-07-07
-entity_type_1: NA
-tags: [route of administration, pharmacokinetics, injection]
+tags:
+  - route of administration
+  - pharmacokinetics
+  - injection
+  - NA
+aliases: []
 ---
 
 # Intraperitoneal

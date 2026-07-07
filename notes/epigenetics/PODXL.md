@@ -1,13 +1,15 @@
 ---
-type: entity
 title: PODXL
 description: PODXL (Podocalyxin-like protein 1) is an anti-adhesion sialomucin glycoprotein.
   In stem cell biology it is a canonical surface marker of undifferentiated Embryonic
   Stem Cells and Induced Pluripotent Stem Cells, switched on early during Cellular
   Reprogramming.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Protein
+tags:
+  - Protein
+aliases: []
 ---
 
 # PODXL

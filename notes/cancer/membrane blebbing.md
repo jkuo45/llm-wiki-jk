@@ -1,10 +1,12 @@
 ---
-type: entity
 title: membrane blebbing
 description: Membrane blebbing is a hallmark morphological change of the apoptotic execution phase, driven by caspase-mediated cytoskeletal cleavage (e.g., ROCK1) that forces actin-myosin contractions to bulge the plasma membrane.
+type: entity
 created: 2026-07-06
 updated: 2026-07-07
-entity_type_1: Biological Process
+tags:
+  - Biological Process
+aliases: []
 ---
 
 # membrane blebbing

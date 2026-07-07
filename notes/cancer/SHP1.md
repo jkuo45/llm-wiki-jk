@@ -1,10 +1,12 @@
 ---
-type: entity
 title: SHP1
 description: SHP1 (PTPN6) is a Src-homology-2 domain-containing protein tyrosine phosphatase that activates Caspase-8 by dephosphorylating inhibitory tyrosines (Tyr397, Tyr465), a process requiring SHP1 binding to Caspase-8 at Tyr310.
+type: entity
 created: 2026-07-06
 updated: 2026-07-07
-entity_type_1: Enzyme
+tags:
+  - Enzyme
+aliases: []
 ---
 
 # SHP1

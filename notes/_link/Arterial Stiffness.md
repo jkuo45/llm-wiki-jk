@@ -1,12 +1,13 @@
 ---
-type: entity
 title: Arterial Stiffness
 description: Arterial stiffness refers to the loss of elastic compliance in the large
   conduit arteries (primarily the aorta and carotid arteries), resulting in reduced
   ability to buffer the pulsatile output fro...
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Medical Condition
+tags:
+  - Medical Condition
 aliases:
   - Arterial stiffening
   - Vascular stiffness

@@ -1,10 +1,11 @@
 ---
-type: entity
 title: Single-cell Omics
 description: Single-cell omics comprises technologies (scRNA-seq, scATAC-seq, single-cell proteomics) that resolve cellular heterogeneity in autophagy, lysosomal, and metabolic programs across tissues, development, and disease.
+type: entity
 created: 2026-07-04
 updated: 2026-07-07
-entity_type_1: Analytical Technique
+tags:
+  - Analytical Technique
 aliases:
   - single-cell multiomics
   - scRNA-seq

@@ -1,12 +1,12 @@
 ---
-
-type: entity
 title: Caspase-2
 description: 'Caspase-2 is an initiator caspase that is regulated by phosphorylation at Ser308 by CDK1/CYCLIN B1 and at Ser164 by CaMKII (PP1), and at Ser157 by CK2.'
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Enzyme
-
+tags:
+  - Enzyme
+aliases: []
 ---
 
 # Caspase-2

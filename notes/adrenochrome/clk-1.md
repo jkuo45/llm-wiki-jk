@@ -1,14 +1,14 @@
 ---
-
-type: entity
 title: clk-1
 description: 'clk-1 (Clock-1) is a gene in C. elegans that encodes a mitochondrial
   enzyme (a hydroxylase) involved in the biosynthesis of **Ubiquinone** (Coenzyme
   Q).'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Gene
-
+tags:
+  - Gene
+aliases: []
 ---
 
 # clk-1

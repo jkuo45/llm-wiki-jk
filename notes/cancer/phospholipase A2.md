@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Phospholipase A2
 description: Phospholipase A2 (PLA2) is a lipid-modifying enzyme family releasing arachidonic acid and lysophospholipids; secretory PLA2s from venom induce apoptosis, informing anticancer research.
+type: entity
 created: 2026-07-06
 updated: 2026-07-07
-entity_type_1: Enzyme
+tags:
+  - Enzyme
+aliases: []
 ---
 
 # Phospholipase A2

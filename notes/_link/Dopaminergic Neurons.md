@@ -1,14 +1,14 @@
 ---
-
-type: entity
 title: Dopaminergic Neurons
 description: 'Dopaminergic Neurons are the primary source of the neurotransmitter
   Dopamine in the mammalian central nervous system. They play a critical role in the
   control of metabolic processes, executive ...'
+type: entity
 created: 2026-05-29
 updated: 2026-05-29
-entity_type_1: Cell Type
-
+tags:
+  - Cell Type
+aliases: []
 ---
 
 # Dopaminergic Neurons

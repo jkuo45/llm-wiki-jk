@@ -1,12 +1,14 @@
 ---
-type: entity
 title: Electron Transport Chain
 description: The Electron Transport Chain (ETC) is a series of protein complexes in
   the inner Mitochondria membrane that couples electron transfer to proton pumping,
   establishing the Proton Motive Force used by...
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Enzyme
+tags:
+  - Enzyme
+aliases: []
 ---
 # Electron Transport Chain
 

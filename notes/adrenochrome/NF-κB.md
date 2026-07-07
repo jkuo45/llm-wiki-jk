@@ -1,12 +1,14 @@
 ---
-type: entity
 title: NF-κB
 description: Nuclear factor kappa-light-chain-enhancer of activated B cells (NF-κB)
   is a protein complex that controls transcription of DNA, cytokine production, and
   cell survival. It plays a key role in regula...
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Protein
+tags:
+  - Protein
+aliases: []
 ---
 # NF-κB
 

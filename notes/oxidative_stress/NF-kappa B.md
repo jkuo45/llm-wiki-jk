@@ -1,14 +1,17 @@
 ---
-type: entity
 title: NF-kappa B
 description: Nuclear factor-kappa B (NF-κB) is a protein complex that functions as
   a central transcription factor in the regulation of Immunity, Apoptosis, and inflammation.
   It is highly "redox-sensitive."
+type: entity
 created: 2026-05-09
 updated: 2026-07-04
-entity_type_1: Protein
+tags:
+  - oxidative_stress
+  - transcription_factor
+  - inflammation
+  - Protein
 aliases: [NF-kappa B, NFKB, nuclear factor kappa-light-chain-enhancer of activated B cells]
-tags: [oxidative_stress, transcription_factor, inflammation]
 ---
 # NF-kappa B
 

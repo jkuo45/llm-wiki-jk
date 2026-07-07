@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Tissue Engineering
 description: An interdisciplinary field that combines cells, scaffolds, and bioactive signals to construct, repair, or replace functional tissues and organs.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Scientific Concept
+tags:
+  - Scientific Concept
+aliases: []
 ---
 
 # Tissue Engineering

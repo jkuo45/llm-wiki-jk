@@ -1,11 +1,12 @@
 ---
-type: entity
 title: Chelating agents
 description: Substances that form coordinate bonds with metal ions, forming stable ring structures that sequester metals and facilitate their excretion or biological inactivation.
+type: entity
 created: 2026-07-04
 updated: 2026-07-06
-entity_type_1: Pharmacological Action
-
+tags:
+  - Pharmacological Action
+aliases: []
 ---
 
 # Chelating agents

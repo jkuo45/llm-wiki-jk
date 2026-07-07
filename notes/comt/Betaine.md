@@ -1,11 +1,12 @@
 ---
-type: entity
 title: Betaine
 description: Betaine, also known as TMG (Trimethylglycine), is a substance that is
   involved in liver function, cellular reproduction, and the Methylation Cycle.
+type: entity
 created: 2026-05-25
 updated: 2026-07-04
-entity_type_1: Chemical Compound
+tags:
+  - Chemical Compound
 aliases:
   - TMG
   - Trimethylglycine

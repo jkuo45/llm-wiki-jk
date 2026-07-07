@@ -1,12 +1,13 @@
 ---
-type: entity
 title: bHLH-LZ Transcription Factors
 description: Basic helix-loop-helix leucine zipper (bHLH-LZ) transcription factors
   are a superfamily of DNA-binding proteins, including the MiT/TFEB family, that regulate
   gene expression by binding to E-box sequences.
+type: entity
 created: 2026-07-04
 updated: 2026-07-07
-entity_type_1: Gene
+tags:
+  - Gene
 aliases: [basic helix-loop-helix leucine zipper]
 ---
 

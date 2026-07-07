@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Benzimidazole
 description: 'Benzimidazole is a benz fused imidazole heterocycle serving as the scaffold for anthelmintic drugs (albendazole, mebendazole) and investigated as a tubulin-targeting anticancer chemotype.'
+type: entity
 created: 2026-07-06
 updated: 2026-07-07
-entity_type_1: Chemical Class
+tags:
+  - Chemical Class
+aliases: []
 ---
 
 # Benzimidazole

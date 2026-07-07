@@ -1,10 +1,11 @@
 ---
-type: entity
 title: Prefrontal Cortex
 description: The prefrontal cortex is the frontal association cortex governing executive function, working memory, and personality, with dopamine clearance dependent on COMT and NET.
+type: entity
 created: 2026-05-25
 updated: 2026-07-07
-entity_type_1: Anatomy
+tags:
+  - Anatomy
 aliases: [PFC]
 ---
 

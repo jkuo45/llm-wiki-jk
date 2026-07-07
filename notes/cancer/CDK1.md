@@ -1,10 +1,12 @@
 ---
-type: entity
 title: CDK1
 description: CDK1 (Cyclin-dependent kinase 1) is the master mitotic kinase that, in complex with CYCLIN B1, drives G2/M transition and phosphorylates Caspase-2 at Ser308 to suppress apoptosis during mitosis.
+type: entity
 created: 2026-07-06
 updated: 2026-07-07
-entity_type_1: Enzyme
+tags:
+  - Enzyme
+aliases: []
 ---
 
 # CDK1

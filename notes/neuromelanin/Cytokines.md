@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Cytokines
 description: 'Cytokines are small signaling proteins released by cells, especially immune cells such as Microglia and Lymphocytes, that mediate intercellular communication during inflammation and immune responses.'
+type: entity
 created: 2026-07-04
 updated: 2026-07-07
-entity_type_1: Biological Molecule
+tags:
+  - Biological Molecule
+aliases: []
 ---
 
 # Cytokines

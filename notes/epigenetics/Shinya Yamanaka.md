@@ -1,12 +1,14 @@
 ---
-type: entity
 title: Shinya Yamanaka
 description: Shinya Yamanaka (born September 4, 1962) is a Japanese stem cell researcher
   and Nobel laureate, best known for discovering Induced Pluripotent Stem Cells (iPSCs)
   using the Yamanaka Factors.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Organization
+tags:
+  - Organization
+aliases: []
 ---
 
 # Shinya Yamanaka

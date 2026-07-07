@@ -1,16 +1,14 @@
 ---
-
-type: entity
 title: Warfarin
 description: 'Warfarin (brand name Coumadin) is an oral Anticoagulant that inhibits
   vitamin K-dependent clotting factors (II, VII, IX, X). It is widely prescribed for
   prevention of Thromboembolism in conditi...'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Chemical Compound
+tags:
+  - Chemical Compound
 aliases: [Coumadin, Vitamin K Antagonist]
-tags: [sirtuins, anticoagulant, resveratrol]
-
 ---
 
 # Warfarin

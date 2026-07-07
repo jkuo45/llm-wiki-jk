@@ -1,10 +1,11 @@
 ---
-type: entity
 title: PtdIns(4,5)P2
 description: Phosphatidylinositol 4,5-bisphosphate (PtdIns(4,5)P2) is a plasma-membrane-enriched phosphoinositide that regulates endocytosis, autophagosome closure, and autophagic lysosome reformation.
+type: entity
 created: 2026-07-04
 updated: 2026-07-07
-entity_type_1: Biological Molecule
+tags:
+  - Biological Molecule
 aliases:
   - phosphatidylinositol 4,5-bisphosphate
   - PIP2

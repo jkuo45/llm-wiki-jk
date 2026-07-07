@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Vagus Nerve
 description: The Vagus Nerve (cranial nerve X) provides parasympathetic innervation to thoracic and abdominal viscera; its Dorsal Motor Nucleus in the Medulla Oblongata contains neuromelanin-positive neurons that degenerate early in Parkinson's Disease, contributing to gastrointestinal symptoms.
+type: entity
 created: 2026-07-04
 updated: 2026-07-07
-entity_type_1: Anatomy
+tags:
+  - Anatomy
+aliases: []
 ---
 
 # Vagus Nerve

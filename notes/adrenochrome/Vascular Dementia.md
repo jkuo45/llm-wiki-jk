@@ -1,12 +1,14 @@
 ---
-type: entity
 title: Vascular Dementia
 description: Vascular dementia is a general term describing problems with reasoning,
   planning, judgment, memory and other thought processes caused by brain damage from
   impaired blood flow to the brain. It is as...
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Medical Condition
+tags:
+  - Medical Condition
+aliases: []
 ---
 # Vascular Dementia
 

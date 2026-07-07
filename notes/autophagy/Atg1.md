@@ -1,11 +1,12 @@
 ---
-type: entity
 title: Atg1
 description: Atg1 is a conserved serine/threonine kinase that plays a central role
   in the initiation of Autophagy in response to nutrient deprivation.
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Enzyme
+tags:
+  - Enzyme
 aliases: [ULK1, Unc-51-like kinase 1]
 ---
 # Atg1

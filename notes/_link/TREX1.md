@@ -1,20 +1,20 @@
 ---
-type: entity
 title: TREX1
 description: Three prime repair exonuclease 1, a major cytosolic DNase that degrades
   cytosolic DNA to prevent cGAS-STING activation and maintain immune tolerance to self-DNA.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Enzyme
-aliases:
-  - DNase III
-  - Three prime repair exonuclease 1
 tags:
   - exonuclease
   - cGAS-STING
   - autoimmunity
   - interferonopathy
   - DNA repair
+  - Enzyme
+aliases:
+  - DNase III
+  - Three prime repair exonuclease 1
 ---
 
 # TREX1

@@ -1,12 +1,13 @@
 ---
-type: entity
 title: PEX13
 description: PEX13 encodes an integral peroxisomal membrane protein that forms part of
   the docking complex for the PTS1 and PTS2 receptors (PEX5 and PEX7), essential for
   peroxisomal matrix protein import.
+type: entity
 created: 2026-07-04
 updated: 2026-07-06
-entity_type_1: Protein
+tags:
+  - Protein
 aliases: [peroxisomal biogenesis factor 13]
 ---
 

@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Integrin
 description: Integrins are heterodimeric transmembrane receptors mediating cell-ECM adhesion and bidirectional outside-in/inside-out signaling.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Receptor
+tags:
+  - Receptor
+aliases: []
 ---
 
 # Integrin

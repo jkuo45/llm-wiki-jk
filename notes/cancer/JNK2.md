@@ -1,10 +1,12 @@
 ---
-type: entity
 title: JNK2
 description: JNK2 (MAPK9) is a ubiquitously expressed JNK isoform that phosphorylates Bcl-xL at Ser62 during G2 arrest, inactivating this anti-apoptotic protein and sensitizing cells such as cervical cancer cells to death.
+type: entity
 created: 2026-07-06
 updated: 2026-07-07
-entity_type_1: Enzyme
+tags:
+  - Enzyme
+aliases: []
 ---
 
 # JNK2

@@ -1,10 +1,12 @@
 ---
-type: entity
 title: Restriction Point
 description: A checkpoint in late G1 of the animal cell cycle at which the cell becomes committed to DNA replication independent of external growth signals.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Scientific Concept
+tags:
+  - Scientific Concept
+aliases: []
 ---
 
 # Restriction Point

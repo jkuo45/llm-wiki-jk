@@ -1,14 +1,14 @@
 ---
-
-type: entity
 title: Extrinsic Pathway
 description: The Extrinsic Pathway, also known as the death receptor pathway
   of Apoptosis, is initiated by the binding of external ligands to specific cell surface
   receptors.
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Enzyme
-
+tags:
+  - Enzyme
+aliases: []
 ---
 
 # Extrinsic Pathway

@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: Hematopoiesis
 description: 'Hematopoiesis is the process by which blood cells are formed from
   Hematopoietic Stem Cell (HSCs). It occurs primarily in the bone marrow and is regulated
   by Transcription, Epigenome modifiers, ...'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Biological Process
+tags:
+  - Biological Process
 aliases: [Hematopoiesis, Blood cell formation, Hematopoietic development]
 
 ---

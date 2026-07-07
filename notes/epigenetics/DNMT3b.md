@@ -1,10 +1,12 @@
 ---
-type: entity
 title: DNMT3b
 description: 'DNMT3b (DNA Methyltransferase 3 beta) is a de novo methyltransferase that works alongside DNMT3a to establish new DNA Methylation patterns.'
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Enzyme
+tags:
+  - Enzyme
+aliases: []
 ---
 
 # DNMT3b

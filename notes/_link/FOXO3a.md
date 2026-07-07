@@ -1,12 +1,13 @@
 ---
-type: entity
 title: FOXO3a
 description: Forkhead box O3 (FOXO3A) is a transcription factor involved in regulating
   genes related to apoptosis, cell cycle progression, and oxidative stress resistance.
   Deacetylation of FOXO3A by sirtuins li...
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: NA
+tags:
+  - NA
 aliases: [Foxo3A]
 ---
 # FOXO3a

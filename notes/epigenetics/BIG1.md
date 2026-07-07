@@ -1,10 +1,12 @@
 ---
-type: entity
 title: BIG1
 description: B-cell immunoglobulin gene product 1, a protein involved in cell signaling, growth, and potentially neurodegenerative processes.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Protein
+tags:
+  - Protein
+aliases: []
 ---
 
 # BIG1

@@ -1,14 +1,17 @@
 ---
-type: entity
 title: VCAM-1
 description: Vascular cell adhesion protein 1 (VCAM-1) is a protein that mediates
   the adhesion of lymphocytes, monocytes, eosinophils, and basophils to vascular endothelium.
   Its expression is upregulated in res...
+type: entity
 created: 2026-05-09
 updated: 2026-07-04
-entity_type_1: Protein
+tags:
+  - oxidative_stress
+  - adhesion
+  - inflammation
+  - Protein
 aliases: [vascular cell adhesion protein 1, CD106]
-tags: [oxidative_stress, adhesion, inflammation]
 ---
 # VCAM-1
 Vascular cell adhesion protein 1 (VCAM-1) is a protein that mediates the adhesion of lymphocytes, monocytes, eosinophils, and basophils to vascular endothelium. Its expression is upregulated in response to pro-inflammatory stimuli and is a marker for [[Endothelial Dysfunction]] and early [[Atherosclerosis]] linked to chronic [[Inflammation]].

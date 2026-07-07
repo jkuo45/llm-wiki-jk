@@ -1,12 +1,14 @@
 ---
-type: entity
 title: MEK1/2
 description: MEK1 (MAP2K1) and MEK2 (MAP2K2) are dual-specificity kinases that phosphorylate
   and activate ERK1/2 (MAPK3/MAPK1) in the MAPK/ERK pathway. They are activated by
   Raf kinases (BRAF, ARAF, RAF1) and i...
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Enzyme
+tags:
+  - Enzyme
+aliases: []
 ---
 # MEK1/2
 

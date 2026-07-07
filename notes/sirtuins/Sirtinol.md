@@ -1,12 +1,13 @@
 ---
-type: entity
 title: Sirtinol
 description: Sirtinol is a cell-permeable, small-molecule dual inhibitor of SIRT1
   and SIRT2 containing a characteristic $\beta$-naphthol moiety. It was identified
   in yeast-based high-throughput screens and is w...
+type: entity
 created: 2026-07-03
 updated: 2026-07-03
-entity_type_1: Chemical Compound
+tags:
+  - Chemical Compound
 aliases:
   - Sirtinol
 ---

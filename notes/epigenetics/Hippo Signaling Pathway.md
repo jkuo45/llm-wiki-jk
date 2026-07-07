@@ -1,12 +1,14 @@
 ---
-type: entity
 title: Hippo Signaling Pathway
 description: A highly conserved signaling pathway (Salvador-Warts-Hippo) controlling
   organ size through regulation of proliferation, apoptosis, and contact inhibition
   via YAP/TAZ transcriptional coactivators.
+type: entity
 created: 2024-01-01
 updated: 2026-07-06
-entity_type_1: Biological Process
+tags:
+  - Biological Process
+aliases: []
 ---
 
 # Hippo Signaling Pathway

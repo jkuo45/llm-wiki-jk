@@ -1,12 +1,15 @@
 ---
-type: entity
 title: CDKN1C
 description: 'CDKN1C (p57) is a cyclin-dependent kinase inhibitor of the Cip/Kip family, imprinted and essential for embryonic and placental development.'
+type: entity
 created: 2026-07-06
 updated: 2026-07-06
-entity_type_1: Gene
+tags:
+  - development
+  - cell_cycle
+  - epigenetics
+  - Gene
 aliases: [p57, Kip2]
-tags: [development, cell_cycle, epigenetics]
 ---
 
 # CDKN1C

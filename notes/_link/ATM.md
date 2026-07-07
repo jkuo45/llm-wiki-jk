@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: ATM
 description: 'ATM (Ataxia-Telangiectasia Mutated) is a ~350 kDa serine/threonine
   protein kinase belonging to the PI3K-related kinase (PIKK) family. It functions
   as the master initiator of the DNA Damage Resp...'
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: NA
+tags:
+  - NA
 aliases: [Atm]
 
 ---

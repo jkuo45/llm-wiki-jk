@@ -1,13 +1,13 @@
 ---
-
-type: entity
 title: Autolysosome
 description: An Autolysosome is a hybrid organelle formed by the fusion of an
   Autophagosome with a Lysosome, where the sequestered cytoplasmic material is degraded
   by lysosomal hydrolases.
+type: entity
 created: 2026-07-04
 updated: 2026-07-04
-entity_type_1: Scientific Concept
+tags:
+  - Scientific Concept
 aliases: [autophagic lysosome, autolysosomal compartment]
 
 ---

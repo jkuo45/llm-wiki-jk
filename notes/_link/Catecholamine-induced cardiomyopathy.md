@@ -1,11 +1,11 @@
 ---
-type: entity
 title: Catecholamine-induced cardiomyopathy
 description: Myocardial injury and ventricular dysfunction caused by excess catecholamines from stress, pheochromocytoma, or exogenous sympathomimetics.
+type: entity
 created: 2026-07-07
-updated: 2026-07-jk-07
+updated: 2026-07-07
 tags: [Medical Condition, Cardiomyopathy, Catecholamines, Toxicity]
-entity_type_1: Medical Condition
+aliases: []
 ---
 
 # Catecholamine-induced cardiomyopathy
