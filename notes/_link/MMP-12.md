@@ -34,10 +34,10 @@ MMP-12 (Matrix metalloproteinase-12), also known as macrophage metalloelastase (
 
 MMP-12 has broad substrate specificity with particular potency against elastic fibres:
 
-- **Elastin:** MMP-12 is the most efficient MMP for degrading insoluble elastin, the primary structural protein of elastic fibres. This unique capability underlies its central role in pathologies involving elastic tissue destruction.
+- **[[Elastin]]:** MMP-12 is the most efficient MMP for degrading insoluble elastin, the primary structural protein of elastic fibres. This unique capability underlies its central role in pathologies involving elastic tissue destruction.
 - **Other ECM components:** [[Collagen]] IV, [[Fibronectin]], [[Laminin]], proteoglycans, and type I/III collagen (at lower efficiency).
 - **Bioactive molecules:** MMP-12 processes and inactivates ELR+ CXC chemokines ([[CXCL1]], [[CXCL2]], [[CXCL3]], [[CXCL5]], [[IL-8]]) by cleaving at the critical ELR receptor-binding motif. It also inactivates monocyte chemotactic proteins [[CCL2]], CCL7, CCL8, and CCL13, generating CCR antagonists. This chemokine-processing activity is central to its role in inflammation resolution.
-- **Other substrates:** Cleaves [[Plasminogen]] to generate [[Angiostatin]] (an endogenous anti-angiogenic fragment), and can process collagen XVIII to generate endostatin.
+- **Other substrates:** Cleaves [[Plasminogen]] to generate [[Angiostatin]] (an endogenous anti-angiogenic fragment), and can process collagen XVIII to generate [[endostatin]].
 
 > [!important] Unique Elastinolytic Capacity
 > MMP-12 is the only MMP that can effectively degrade insoluble elastin at physiological concentrations, making it the principal elastase in macrophage-mediated tissue remodelling.
