@@ -20,7 +20,7 @@ aliases: []
 4. **Senescence-Associated β-Galactosidase (SA-β-gal)**: Elevated lysosomal enzyme activity.
 5. **Senescence-Associated Heterochromatin Foci (SAHF)**: Dense transcriptionally silent chromatin domains (primarily in human cells).
 6. **Defective Organelles**: Accumulation of damaged mitochondria, endoplasmic reticulum, and lysosomes.
-7. **Resistance to Apoptosis**: Upregulation of anti-apoptotic mechanisms (e.g., Bcl-2 family proteins).
+7. **Resistance to Apoptosis**: Upregulation of anti-apoptotic mechanisms known as senescent cell anti-apoptotic pathways (SCAPs), including [[Bcl-2]] family proteins and survival pathways like [[PI3K]]/[[Akt]].
 ## Epigenetic and Chromatin Remodeling
 *   **[[SAHF]] (Senescence-Associated Heterochromatin Foci)**: Dense, transcriptionally silent domains that sequester and repress pro-proliferation genes.
 *   **Loss of Lamin B1**: Reduction in Lamin B1 leads to the detachment of Lamina-Associated Domains from the nuclear periphery, triggering a global "shuffling" of the genome.

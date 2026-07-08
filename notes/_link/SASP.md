@@ -207,6 +207,25 @@ SASP factors serve as surrogate markers for senescence burden. The SASP Atlas pr
 - Dietary restriction (30% caloric decrease) reduces DNA damage, NF-κB, and SASP levels during renal ageing
 - Exercise training reduces senescent cell burden and SASP levels; specific SASP panel predicts exercise intervention responders
 
+## Interaction with Apoptosis
+
+SASP and [[Apoptosis]] interact in complex, bidirectional ways. [[Senescent Cells]] (which produce SASP) are typically resistant to apoptosis, while SASP factors can promote or inhibit apoptosis in neighboring cells.
+
+### Resistance to Apoptosis
+Senescent cells upregulate senescent cell anti-apoptotic pathways (SCAPs), allowing them to persist and continuously secrete SASP. Key mechanisms include:
+- Upregulation of anti-apoptotic proteins from the [[Bcl-2]] family (e.g., BCL-2, BCL-XL, BCL-W, Mcl-1).
+- Activation of survival pathways (e.g., [[PI3K]]/[[Akt]], [[Unfolded Protein Response|UPR]]).
+- Senescence-associated mitochondrial dysfunction (SAMD).
+
+### Paracrine Effects on Apoptosis
+- **Pro-apoptotic**: Factors like [[IL-6]] and [[TNF-α]] can enhance T-cell apoptosis, impairing immune clearance.
+- **Anti-apoptotic**: SASP can confer apoptosis resistance to some neighboring cells via paracrine signaling.
+
+### Shared Mitochondrial Mechanisms
+Mitochondrial outer membrane permeabilization (MOMP) is a key connector:
+- Sublethal stress (miMOMP) in senescent cells releases [[mtDNA]] → activates [[cGAS-STING Pathway|cGAS-STING]] → drives SASP without full cell death.
+- This creates a "mitochondrial apoptotic stress" state that sustains SASP while the cell resists complete apoptosis.
+
 ## Clinical Relevance
 
 ### Senolytic Combination Therapy
@@ -227,6 +246,9 @@ List of documents that mention this entity
   - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
     - Various stress-induced senescence phenotypes differ from replicative senescence through specific senescence features including SASP composition.
 
+  - [[_document_ - SASP, senescent cells, grok|SASP, senescent cells, grok]]
+    - In-depth explanation of SASP pathways (NF-κB, cGAS-STING, mTOR, p38 MAPK, JAK/STAT) and interaction with apoptosis.
+
 ## Connections
 
 - [[Cellular Senescence]] — the SASP is the effector arm of the senescence program
@@ -240,6 +262,9 @@ List of documents that mention this entity
 - [[Paracrine Senescence]] — SASP induces senescence in neighbouring cells
 - [[Aging]] — SASP accumulation is a hallmark of aging
 - [[Cancer]] — SASP has both anti- and pro-tumorigenic effects
+- [[Apoptosis]] — complex bidirectional interaction; senescent cells resist apoptosis while SASP modulates apoptosis in neighbors
+- [[Senescent Cells]] — the producers of SASP
+- [[Senescent cell anti-apoptotic pathways|SCAPs]] — allow senescent cells to resist apoptosis
 - [[p53]] — restrains pro-inflammatory SASP; stabilizes p53 attenuates SASP
 - [[p16 INK4a|p16]] — regulates a DDR-free SASP profile
 - [[p21 CIP1|p21]] — supports early secretory phenotype (CXCL14, IGFBP3)
@@ -256,6 +281,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[SASP]], [[Senescence]], [[Cellular Senescence]], [[IL-1α]], [[Interleukin 1β|IL-1β]], [[IL-6]], [[IL-8]], [[Interleukin 11|IL-11]], [[Interleukin 33|IL-33]], [[BAFF]], [[CCL2]], [[CCL5]], [[CXCL1]], [[CXCL2]], [[CXCL3]], [[CXCL5]], [[CXCL10]], [[CXCL11]], [[CXCL14]], [[TGFβ]], [[GDF15]], [[HGF]], [[VEGF]], [[MMP1]], [[MMP-3]], [[MMP-9]], [[MMP-12]], [[Ephrin Type A Receptor 2|EPHA2]], [[IFITM3]], [[RAB35]], [[STEAP3]], [[VPS32]], [[NF-κB]], [[ATM]], [[PARP1]], [[IκBζ]], [[CEBPβ|C/EBPβ]], [[Protein Kinase D|PKD]], [[CD36]], [[CD40L]], [[GATA4]], [[p38 MAPK]], [[mTORC1|mTOR]], [[AMPK]], [[JAK]], [[STAT3]], [[cGAS-STING Pathway|cGAS–STING]], [[Toll-like Receptor 2|TLR2]], [[BAX]], [[BAK]], [[METTL3]], [[METTL14]], [[BRD4]], [[CEBPα|C/EBPα]], [[KDM4]], [[EZH2]], [[SIRT1]], [[PTGS2]] (COX2), [[ALOX5]], [[cPLA2]], [[Rapamycin]], [[Metformin]], [[Senolytic Therapy|Senolytics]], [[Senomorphic Therapy]], [[Paracrine Senescence]], [[Inflammaging]], [[PDGFAA]], [[TH17]], [[S100A13]], [[ZFP36L1]], [[MAPKAPK2|MK2]], [[DNASE2]], [[TREX1]], [[TOP1]], [[G3BP1]], [[LINE-1]], [[HRAS]], [[ERK1/2]], [[ZSCAN4]], [[TAK1]], [[IGFBP3]], [[ISG15]], [[BMI1]], [[CXCR2]], [[CXCR3]], [[Caspase 5]], [[Caspase 11]], [[Retinoblastoma Protein|Rb]], [[p53]], [[p16 INK4a|p16]], [[p21 CIP1|p21]], [[Rapamycin]], [[Dasatinib]], [[Quercetin]], [[Nutlin 3a]], [[Resveratrol]], [[Apigenin]]
+- New links added: [[SASP]], [[Senescence]], [[Cellular Senescence]], [[IL-1α]], [[Interleukin 1β|IL-1β]], [[IL-6]], [[IL-8]], [[Interleukin 11|IL-11]], [[Interleukin 33|IL-33]], [[BAFF]], [[CCL2]], [[CCL5]], [[CXCL1]], [[CXCL2]], [[CXCL3]], [[CXCL5]], [[CXCL10]], [[CXCL11]], [[CXCL14]], [[TGFβ]], [[GDF15]], [[HGF]], [[VEGF]], [[MMP1]], [[MMP-3]], [[MMP-9]], [[MMP-12]], [[Ephrin Type A Receptor 2|EPHA2]], [[IFITM3]], [[RAB35]], [[STEAP3]], [[VPS32]], [[NF-κB]], [[ATM]], [[PARP1]], [[IκBζ]], [[CEBPβ|C/EBPβ]], [[Protein Kinase D|PKD]], [[CD36]], [[CD40L]], [[GATA4]], [[p38 MAPK]], [[mTORC1|mTOR]], [[AMPK]], [[JAK]], [[STAT3]], [[cGAS-STING Pathway|cGAS–STING]], [[Toll-like Receptor 2|TLR2]], [[BAX]], [[BAK]], [[METTL3]], [[METTL14]], [[BRD4]], [[CEBPα|C/EBPα]], [[KDM4]], [[EZH2]], [[SIRT1]], [[PTGS2]] (COX2), [[ALOX5]], [[cPLA2]], [[Rapamycin]], [[Metformin]], [[Senolytic Therapy|Senolytics]], [[Senomorphic Therapy]], [[Paracrine Senescence]], [[Inflammaging]], [[PDGFAA]], [[TH17]], [[S100A13]], [[ZFP36L1]], [[MAPKAPK2|MK2]], [[DNASE2]], [[TREX1]], [[TOP1]], [[G3BP1]], [[LINE-1]], [[HRAS]], [[ERK1/2]], [[ZSCAN4]], [[TAK1]], [[IGFBP3]], [[ISG15]], [[BMI1]], [[CXCR2]], [[CXCR3]], [[Caspase 5]], [[Caspase 11]], [[Retinoblastoma Protein|Rb]], [[p53]], [[p16 INK4a|p16]], [[p21 CIP1|p21]], [[Rapamycin]], [[Dasatinib]], [[Quercetin]], [[Nutlin 3a]], [[Resveratrol]], [[Apigenin]], [[Senescent Cells]], [[Apoptosis]], [[Senescent cell anti-apoptotic pathways|SCAPs]], [[mtDNA]], [[Epithelial-to-mesenchymal transition]]
 - Suggested new entity notes to create: [[Senomorphics]], [[Bystander Senescence]], [[cGAS]], [[STING]], [[IFI16]], [[Nuclear factor erythroid 2-related factor 2]], [[SASP Index]]
-- Strong connections to strengthen: [[SASP]] ↔ [[Inflammaging]], [[SASP]] ↔ [[Cellular Senescence]], [[SASP]] ↔ [[NF-κB]], [[SASP]] ↔ [[mTORC1]], [[SASP]] ↔ [[Cancer]], [[SASP]] ↔ [[Senescence]], [[SASP]] ↔ [[Paracrine Senescence]]
+- Strong connections to strengthen: [[SASP]] ↔ [[Inflammaging]], [[SASP]] ↔ [[Cellular Senescence]], [[SASP]] ↔ [[NF-κB]], [[SASP]] ↔ [[mTORC1]], [[SASP]] ↔ [[Cancer]], [[SASP]] ↔ [[Senescence]], [[SASP]] ↔ [[Paracrine Senescence]], [[SASP]] ↔ [[Apoptosis]]
