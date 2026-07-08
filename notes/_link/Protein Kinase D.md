@@ -31,7 +31,7 @@ PKD isoforms are implicated in cancer (proliferation, migration, epithelial–me
 
 ## Documents
 
-- [[The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: PKD is a major sensor of oxidative stress for SASP
+- [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review identifies PKD as a redox-sensitive kinase that translates mitochondrial and genotoxic oxidative stress into SASP output by activating the IKK complex and NF-κB. Once active, PKD drives transcription of IL-6, IL-8, and other factors, positioning it as a node linking the cellular redox milieu to the qualitative profile of the senescent secretome.
 
   - [[_document_ - SASP, senescent cells, grok|SASP, senescent cells, grok]]
     - Describes PKD as a redox sensor feeding NF-κB to modulate SASP.

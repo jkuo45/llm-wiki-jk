@@ -37,8 +37,7 @@ List of documents that mention this entity
   - [[_document_ - SASP, senescent cells, grok|SASP, senescent cells, grok]]
     - Identifies JAK/STAT as a key amplifier of the SASP response.
 
-  - [[The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]
-    - Reviews JAK/STAT as a core SASP-amplifying signaling axis in senescent cells.
+  - [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review reviews JAK/STAT as a core SASP-amplifying axis: senescent cells secrete IL-6, IL-8, and other cytokines that engage gp130/JAK1/2→STAT3 in an autocrine/paracrine loop sustaining inflammatory transcription. Genetic or pharmacological JAK blockade collapses SASP expression, making JAK inhibition (e.g., ruxolitinib) a leading senomorphic strategy.
 
 ## Connections
 

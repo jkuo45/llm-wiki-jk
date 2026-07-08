@@ -38,7 +38,7 @@ Because m6A writers integrate metabolic state (SAM availability) and senescence 
 
 ## Documents
 
-- [[The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: METTL14–METTL3 complex promotes SASP factors
+- [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review describes METTL14 as an epitranscriptomic and chromatin regulator of the SASP: with METTL3 it deposits m6A marks on secretory transcripts and, independently, loops enhancers to SASP promoters bearing NF-κB sites. Depleting METTL14 lowers IL-6/IL-8 and interferon-stimulated SASP components, making the complex a candidate senomorphic target.
 
 ## Connections
 

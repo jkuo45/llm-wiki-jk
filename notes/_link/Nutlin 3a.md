@@ -31,7 +31,7 @@ Clinical derivatives (RG7112, idasanutlin) advanced in trials for MDM2-amplified
 
 ## Documents
 
-- [[The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: Nutlin 3a suppresses SASP through p53 stabilization
+- [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review presents nutlin-3a as an MDM2 antagonist that stabilizes p53 and thereby suppresses the SASP, since p53 antagonizes the NF-κB and C/EBPβ arms driving SASP transcription. This dual action—senescence induction in tumor cells and senomorphic SASP restraint in already-senescent cells—illustrates p53 as a master regulator of both arrest and secretome.
 
 ## Connections
 

@@ -30,7 +30,7 @@ Notch is a validated oncology target (γ-secretase inhibitors and anti-Notch ant
 
 ## Documents
 
-- [[The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: Notch crucial for SASP switch and paracrine senescence
+- [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review casts Notch as a temporal gatekeeper of the SASP that orchestrates the switch from an early TGFβ-rich secretome to a late, highly inflammatory IL-6/IL-8–dominant phase by suppressing C/EBPβ and IL-1α/NF-κB. It is also essential for establishing paracrine senescence, as senescent cells stimulate Notch in neighbors to propagate the arrested, SASP-producing state.
 
 ## Connections
 

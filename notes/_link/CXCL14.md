@@ -39,7 +39,7 @@ CXCL14 (C-X-C motif chemokine ligand 14), also known as BRAK (breast and kidney-
 
 ## Documents
 
-- [[The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: CXCL14 supported by p21 and Rb activation for immunosurveillance
+- [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review describes CXCL14 as a component of the early, p53/p21/Rb-dependent SASP program that acts as an immunosurveillance signal recruiting macrophages, NK cells, and dendritic cells to clear senescent cells. Because its expression depends on p21/Rb activation, CXCL14 is often lost in p53-mutant cancers, removing a surveillance cue and favoring immune evasion.
 
 ## Connections
 

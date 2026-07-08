@@ -40,7 +40,7 @@ CXCL2 (C-X-C motif chemokine ligand 2), also known as GROβ (growth-regulated on
 
 ## Documents
 
-- [[The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: CXCL2 secreted by senescent stellate cells binds CXCR2
+- [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review places CXCL2 in the core ELR+ CXC SASP cluster, secreted by senescent activated stellate cells in liver and pancreas to recruit neutrophils through CXCR2. Its engagement of CXCR2 on neighboring cells feeds forward to reinforce paracrine senescence, sustaining the inflammatory milieu of fibrogenesis.
 
 ## Connections
 

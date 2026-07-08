@@ -36,8 +36,7 @@ List of documents that mention this entity
   - [[_document_ - SASP, senescent cells, grok|SASP, senescent cells, grok]]
     - Notes that reduced CK2 levels in senescent cells promote NF-κB activation.
 
-  - [[The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]
-    - Discusses CK2 decline as a licensing event for NF-κB-dependent SASP.
+  - [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review discusses declining CK2 activity/expression in senescent cells as a licensing event for the SASP: CK2 normally restrains NF-κB by phosphorylating and protecting IκBα and tuning IKK, so its loss promotes IKK/NF-κB activation and SASP gene transcription. CK2 thus behaves as an endogenous senescence suppressor whose downregulation permits the inflammatory program.
 
 ## Connections
 

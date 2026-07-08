@@ -38,7 +38,7 @@ BMI1 (B-cell-specific Moloney murine leukemia virus integration site 1, gene *BM
 
 ## Documents
 
-- [[The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: BMI1 negatively regulates CCL2 through IL-1α
+- [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review describes BMI1 as a Polycomb subunit that both suppresses senescence entry (via INK4a/ARF repression) and tunes SASP composition in senescent mesenchymal stromal cells. It negatively regulates the chemokine CCL2 downstream of IL-1α signaling, thereby shaping the monocyte-recruiting output of the senescent secretome.
 
 ## Connections
 

@@ -33,8 +33,8 @@ MMP-3 is elevated in [[Rheumatoid Arthritis]], osteoarthritis and invasive cance
 
 ## Documents
 
-- [[The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: MMP-3 is a SASP protease
-- [[_document_ - SASP, senescent cells, grok|SASP, senescent cells, grok]]: MMP-3 among SASP matrix metalloproteinases
+- [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review catalogs MMP-3 among the matrix metalloproteinases secreted as part of the SASP, highlighting its role in ECM remodeling and its ability to cleave E-cadherin and drive EMT in neighboring epithelium.
+- [[_document_ - SASP, senescent cells, grok|SASP, senescent cells, grok]]: MMP-3 is listed among the SASP-associated matrix metalloproteinases that senescent cells secrete to remodel the extracellular matrix and propagate inflammatory signaling. Its presence in the SASP contributes to the tissue-dysfunction and invasion-promoting effects of chronic senescence.
 
 ## Connections
 

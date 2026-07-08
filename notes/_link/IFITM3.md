@@ -39,7 +39,7 @@ Its exosomal enrichment makes IFITM3 a non-invasive readout of senescence load a
 
 ## Documents
 
-- [[The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: IFITM3 in exosomes from elderly induces paracrine senescence
+- [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review highlights IFITM3 as an interferon-induced membrane protein enriched in plasma exosomes from elderly individuals that induces paracrine senescence in recipient cells. As a component of the interferon/ISG arm of the SASP, it links viral-exposure history and aging to systemic senescence spread and serves as a non-invasive biomarker of senescence load.
 
 ## Connections
 

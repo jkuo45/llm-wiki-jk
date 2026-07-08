@@ -64,8 +64,7 @@ List of documents that mention this entity
   - [[_document_ - SASP, senescent cells, grok|SASP, senescent cells, grok]]
     - Describes SAMD as a hallmark of senescent cells that drives SASP through mtDNA release.
 
-  - [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]
-    - Frames SAMD, mtDNA release, and cGAS-STING as central SASP-activating mechanisms.
+  - [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review frames SAMD, mtDNA release, and cGAS–STING as central SASP-activating mechanisms, with impaired mitochondria generating ROS and undergoing minority MOMP to leak mtDNA. This mitochondrial stress activates type-I interferon and NF-κB–dependent SASP and links senescence to inflammaging, Lamin B1 loss, and paracrine spread, making SAMD a tractable senomorphic target.
 
 ## Connections
 - [[Senescent Cells]] — SAMD is a hallmark of senescent cells

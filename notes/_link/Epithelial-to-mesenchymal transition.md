@@ -34,7 +34,7 @@ List of documents that mention this entity
 
   - [[_document_ - SASP, senescent cells, grok|SASP, senescent cells, grok]]
     - Mentions EMT as a detrimental effect of chronic SASP in the context of tumor promotion.
-  - [[The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: SASP factors induce EMT
+  - [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review details how SASP factors (TGF-β, IL-6/IL-8, MMPs) secreted by senescent cells induce epithelial-to-mesenchymal transition in neighboring cells, coupling chronic senescence to tumor invasion, stemness, and therapy resistance.
 
 ## Connections
 

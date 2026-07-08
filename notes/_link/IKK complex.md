@@ -36,8 +36,7 @@ List of documents that mention this entity
   - [[_document_ - SASP, senescent cells, grok|SASP, senescent cells, grok]]
     - Describes the IKK complex as the core signaling component that phosphorylates IκB to activate NF-κB.
 
-  - [[The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]
-    - Identifies IKK/NF-κB as a core SASP transcriptional driver.
+  - [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review identifies the IKK complex as the core signaling component that phosphorylates IκB to activate NF-κB, a master transcriptional driver of the SASP. Persistent DDR and cytokine signals keep IKKβ active in senescent cells, sustaining IκBα turnover and nuclear NF-κB that transcribes IL-6, IL-8, chemokines, and MMPs; inhibiting IKKβ suppresses the SASP.
 
 ## Connections
 

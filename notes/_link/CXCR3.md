@@ -37,7 +37,7 @@ CXCR3 (C-X-C chemokine receptor 3), also known as CD183, is a G-protein-coupled 
 
 ## Documents
 
-- [[The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: CXCR3 binds CXCL10 and CXCL11
+- [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review frames CXCR3 as the receptor arm that translates the interferon-rich SASP into immune recruitment, with senescent cells releasing CXCL10/11 that lure NK and T cells for surveillance. It also notes that in therapy-induced senescence CXCR3 ligands from endothelial cells can instead foster a pro-tumor microenvironment, underscoring the SASP's dual nature.
 
 ## Connections
 

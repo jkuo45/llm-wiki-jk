@@ -40,7 +40,7 @@ Senolytic Therapy refers to treatments that selectively eliminate [[Senescent Ce
 
 ## Documents
 
-- [[The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: Senolytic therapy selectively eliminates senescent cells
+- [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review frames senolytic therapy as a strategy that transiently disables SCAPs (e.g., BCL-2/BCL-XL, PI3K/Akt) to selectively push senescent cells into apoptosis while sparing healthy cells. By eliminating the source of the SASP rather than only the secretome, it reduces senescence burden and inflammaging, complementing senomorphic approaches.
 
 ## Connections
 

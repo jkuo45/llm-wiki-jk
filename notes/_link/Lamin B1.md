@@ -50,7 +50,7 @@ LMNB1 negativity combined with other markers ([[p16 INK4a|p16]], [[p21 CIP1|p21]
 
 List of documents that mention this entity
 
-  - [[The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: Lamin B1 loss is a marker of senescent cells.
+  - [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review cites Lamin B1 loss as one of the most conserved, cell-autonomous markers of senescence across replicative, oncogene-induced, and therapy-induced contexts. Its downregulation distorts the nuclear envelope, permits cytosolic DNA accumulation that feeds the cGAS–STING–SASP axis, and co-occurs with SAHF formation, making it a reliable in vivo senescence biomarker.
 
 ## Connections
 - [[Senescence-Associated Heterochromatin Foci|SAHF]]: Lamin B1 loss accompanies SAHF formation

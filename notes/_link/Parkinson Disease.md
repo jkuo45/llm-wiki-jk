@@ -31,7 +31,7 @@ Beyond standard dopaminergic replacement, senolytic and senomorphic approaches a
 
 ## Documents
 
-- [[The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: SASP profile in urinary vesicles distinguishes Parkinson Disease
+- [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review notes that the SASP profile detectable in urinary extracellular vesicles distinguishes older individuals with and without Parkinson disease, supporting circulating senescence signatures as a non-invasive diagnostic readout. Senescent astrocytes and microglia mounting a pro-inflammatory SASP (including IL-6 and IL-1α) are hypothesized to accelerate dopaminergic neuron loss within senescence-associated neurodegeneration.
 
 ## Connections
 

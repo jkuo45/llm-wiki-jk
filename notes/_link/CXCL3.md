@@ -40,7 +40,7 @@ CXCL3 (C-X-C motif chemokine ligand 3), also known as GROγ (growth-regulated on
 
 ## Documents
 
-- [[The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: CXCL3 secreted by senescent stellate cells binds CXCR2
+- [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review includes CXCL3 as the third member of the growth-regulated oncogene (GRO) ELR+ CXC SASP cluster, secreted by senescent activated stellate cells in liver and pancreas to recruit neutrophils via CXCR2. By activating CXCR2 on bystander cells it participates in feed-forward reinforcement of paracrine senescence and fibrosis.
 
 ## Connections
 

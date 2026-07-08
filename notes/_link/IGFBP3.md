@@ -34,7 +34,7 @@ IGFBP3 is transcriptionally induced by p53 after DNA damage and during oncogene-
 
 ## Documents
 
-- [[The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: IGFBP3 is a p53 target gene in SASP
+- [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review categorizes IGFBP3 as a hallmark of the p53-dependent arm of the SASP, induced by p53 after DNA damage and during OIS alongside other p53-arm factors such as PAI-1 and TGFβ. By sequestering IGF-1 it reinforces growth arrest and contributes to immunosurveillance, distinguishing the p53-driven secretome from the NF-κB–driven arm.
 
 ## Connections
 

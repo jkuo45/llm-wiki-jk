@@ -37,8 +37,7 @@ List of documents that mention this entity
   - [[_document_ - SASP, senescent cells, grok|SASP, senescent cells, grok]]
     - Explains how MK2 stabilizes SASP mRNAs by inhibiting RNA-binding proteins like AUF1.
 
-  - [[The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]
-    - Reviews p38–MK2 as a post-transcriptional SASP control node.
+  - [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review reviews the p38–MK2 axis as a post-transcriptional SASP control node: p38-activated MK2 phosphorylates and inhibits ARE-mRNA decay factors such as ZFP36L1/TTP, stabilizing IL-6, IL-8, and CXCL transcripts. MK2 inhibition sharply reduces SASP secretion without reversing the DNA-damage arrest, a hallmark of senomorphic modulation at the mRNA-stability level.
 
 ## Connections
 

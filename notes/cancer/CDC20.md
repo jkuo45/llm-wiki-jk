@@ -55,7 +55,7 @@ CDC20 is an emerging therapeutic target. Pharmacological inhibitors of APC-C-CDC
 List of documents that mention this entity
 
   - [[_document_ - Caspase|Caspase]]
-    - Mcl-1 | | CDK1/CYCLIN B | Thr92 | APC-CCDC20-mediated degradation | | | Mcl-1 | | JNK, [[p38
+    - CDC20-containing APC/C and SCF-FBW7 target Mcl-1 for ubiquitination and degradation during mitotic arrest; CDK1 phosphorylation primes Mcl-1 at Thr92 for CDC20 recognition, directly coupling mitotic kinase activity to apoptotic commitment, while JNK and p38 MAPK pathways modulate this turnover.
 
   - [[_document_ - Evading apoptosis in cancer|Evading apoptosis in cancer]]
     - These studies have shown that in addition to the mechanisms described above, two E3 ligases, APC-C CDC20 (APC-C with CDC20) and SCF Complex FBW7, target Mcl-1 for destruction during mitosis \[ – \].

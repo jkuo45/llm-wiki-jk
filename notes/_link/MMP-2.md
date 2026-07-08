@@ -33,8 +33,8 @@ Plasma MMP-2 serves as a senescence-burden and [[Cardiovascular Disease]] biomar
 
 ## Documents
 
-- [[The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: MMP-2 strongly associated with mortality
-- [[_document_ - SASP, senescent cells, grok|SASP, senescent cells, grok]]: MMP-2 listed among SASP matrix metalloproteinases
+- [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review includes MMP-2 in the mortality-associated SASP panel (with GDF15, RAGE, VEGF, and CCL18) whose circulating levels predict all-cause mortality beyond chronological age. It acts as a secreted gelatinase that remodels the ECM and activates latent TGF-β, amplifying paracrine senescence and fibrosis while serving as a senescence-burden biomarker.
+- [[_document_ - SASP, senescent cells, grok|SASP, senescent cells, grok]]: MMP-2 is catalogued among the matrix metalloproteinase (MMP) family members secreted as part of the SASP, contributing to extracellular-matrix remodeling and the pro-fibrolytic shift of the senescent secretome. Its upregulation in senescent cells supports tissue remodeling and paracrine signaling in the aged microenvironment.
 
 ## Connections
 

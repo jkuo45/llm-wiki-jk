@@ -31,7 +31,7 @@ EPHA2 is amplified, overexpressed or mislocalized in multiple cancers (breast, l
 
 ## Documents
 
-- [[The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: Exosomes from senescent cells promote cancer through EPHA2
+- [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review identifies EPHA2 as a relay by which SASP-derived exosomes drive tumor promotion: exosomes from senescent fibroblasts and epithelial cells activate EPHA2 on recipient cancer cells, stimulating PI3K–AKT/Src–FAK signaling and a more aggressive phenotype. This shows how the SASP, even at a distance, can foster cancer proliferation and metastasis independent of the senescent cell's own arrest.
 
 ## Connections
 

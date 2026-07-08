@@ -34,7 +34,7 @@ Landmark work (Tasdemir et al., 2016, PMID 27693224) showed that BET bromodomain
 
 ## Documents
 
-- [[The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: BRD4 recruited to senescence-activated enhancers in OIS
+- [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review presents BRD4 as a BET-family epigenetic reader recruited to senescence-activated enhancers in oncogene-induced senescence to drive SASP factor expression without perturbing the cell-cycle arrest. BET inhibitors such as JQ1 suppress the OIS-associated SASP (IL-6, IL-8, MCP-1) while preserving the arrest, establishing BRD4 as a selective senomorphic target.
 
 ## Connections
 

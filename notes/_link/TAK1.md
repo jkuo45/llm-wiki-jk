@@ -32,7 +32,7 @@ Because TAK1 controls NF-κB and p38 outputs, it is a candidate target in inflam
 
 ## Documents
 
-- [[The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: TAK1 activates p38 MAPK and mTOR for SASP
+- [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review positions TAK1 as a critical hub linking the DNA-damage response to the SASP, activating both p38 MAPK and mTORC1 signaling in senescent cells. Inhibition of TAK1 markedly suppresses IL-6, IL-8, and other SASP factors without necessarily rescuing the arrest, establishing it as a genuine SASP regulator and senomorphic node.
 
   - [[_document_ - SASP, senescent cells, grok|SASP, senescent cells, grok]]
     - Describes TAK1 as a MAP3K linking DDR to SASP via p38 and mTOR.

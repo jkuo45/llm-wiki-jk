@@ -31,7 +31,7 @@ DNASE2 deficiency in mice causes severe chronic polyarthritis and lethal anemia 
 
 ## Documents
 
-- [[The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: DNASE2 downregulation triggers cGAS–STING in senescence
+- [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review notes that DNASE2, together with TREX1, is transcriptionally downregulated in senescence, so persistent cytosolic chromatin fragments are no longer degraded and instead activate cGAS–STING. This converts benign nuclear damage into chronic type-I interferon and NF-κB signaling, a core senescence-intrinsic engine of the SASP.
 
 ## Connections
 

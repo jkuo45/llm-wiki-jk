@@ -36,8 +36,7 @@ List of documents that mention this entity
   - [[_document_ - SASP, senescent cells, grok|SASP, senescent cells, grok]]
     - Describes IRF3 as a key downstream effector of the cGAS-STING pathway in driving SASP.
 
-  - [[The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]
-    - Reviews cGAS-STING–IRF3 as an interferon arm of the SASP.
+  - [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review describes IRF3 as a key downstream effector of the cGAS–STING arm of the SASP, phosphorylated by TBK1 in response to cytosolic chromatin fragments and micronuclei in senescent cells. Activated IRF3 induces type I interferons and a subset of SASP factors, shaping the immunostimulatory, interferon-rich branch distinct from the NF-κB/IL-6 arm.
 
 ## Connections
 

@@ -41,7 +41,7 @@ CXCL1 (C-X-C motif chemokine ligand 1), also known as GROα (growth-regulated on
 
 ## Documents
 
-- [[The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: CXCL1 secreted by senescent stellate cells binds CXCR2
+- [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review includes CXCL1 among the core ELR+ CXC SASP chemokines, secreted by senescent activated stellate cells in liver and pancreas to recruit neutrophils via CXCR2. By engaging CXCR2 on bystander cells it reinforces paracrine/bystander senescence, acting as a feed-forward amplifier of the senescent phenotype in fibrotic tissue.
 
 ## Connections
 

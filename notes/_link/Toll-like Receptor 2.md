@@ -31,7 +31,7 @@ TLR2 is a therapeutic target in infection, sepsis, and autoimmunity, and TLR2 ag
 
 ## Documents
 
-- [[The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: TLR2 essential for immunity-regulating SASP during OIS
+- [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review identifies TLR2 as an innate-immunity sensor upregulated in senescence that is essential for the immunity-regulating arm of the SASP during oncogene-induced senescence. Its MyD88–IKK–NF-κB signaling cooperates with cGAS–STING–IRF3 to shape an antigen-presentation and immune-recruitment secretome underpinning tumor surveillance and, when chronic, maladaptive inflammation.
 
   - [[_document_ - SASP, senescent cells, grok|SASP, senescent cells, grok]]
     - Describes TLR2 upregulation and its immunity-regulating SASP role.

@@ -31,7 +31,7 @@ Glucocorticoids are among the most prescribed anti-inflammatory drugs (asthma, r
 
 ## Documents
 
-- [[The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: Glucocorticoids block pro-inflammatory SASP
+- [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review classifies glucocorticoids as senomorphic agents that blunt the pro-inflammatory SASP without eliminating senescent cells, acting via the glucocorticoid receptor to transrepress NF-κB and impair IL-1α maturation. They preferentially dampen the IL-1α/NF-κB limb while leaving some growth-factor SASP components intact, highlighting GR as an endogenous modulator of inflammaging.
 
 ## Connections
 

@@ -40,7 +40,7 @@ CXCL10 (C-X-C motif chemokine ligand 10), also known as IP-10 (interferon gamma-
 
 ## Documents
 
-- [[The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: CXCL10 secreted by senescent hepatocytes enhances NK cell activity
+- [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review includes CXCL10 among the interferon-responsive SASP chemokines that bind CXCR3 to recruit NK cells and T cells for immune surveillance of senescent hepatocytes. Upstream of its release lie cGAS–STING and JAK/STAT1, and persistent expression in aged tissue can sustain inflammaging and autoimmune pathology even as it supports acute clearance.
 
 ## Connections
 

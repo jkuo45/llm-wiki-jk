@@ -39,7 +39,7 @@ CXCL11 (C-X-C motif chemokine ligand 11), also known as I-TAC (interferon-induci
 
 ## Documents
 
-- [[The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: CXCL11 secreted by TIS endothelial cells increases breast cancer aggressiveness
+- [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review places CXCL11 in the interferon-responsive SASP branch, noting that TIS endothelial cells secrete it to increase breast cancer aggressiveness via CXCR3-mediated paracrine signaling. Although it recruits Th1/NK cells like its relatives, in the therapy-induced senescence context it exemplifies the SASP's 'dark side,' facilitating recurrence and therapy resistance.
 
 ## Connections
 

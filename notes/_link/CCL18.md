@@ -41,7 +41,7 @@ CCL18 (C-C motif chemokine ligand 18), also known as PARC (pulmonary and activat
 
 ## Documents
 
-- [[The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: CCL18 strongly associated with mortality
+- [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review identifies CCL18 as one of a five-factor SASP panel (with GDF15, RAGE, VEGF, and MMP-2) whose circulating levels strongly predict all-cause mortality independently of chronological age. Rather than acting as a direct inflammatory driver, it serves as a quantitative readout of senescent-cell burden and inflammaging, and is being evaluated as a senolytic trial endpoint.
 
 ## Connections
 

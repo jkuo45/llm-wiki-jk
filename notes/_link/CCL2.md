@@ -41,7 +41,7 @@ CCL2 (C-C motif chemokine ligand 2), also known as MCP-1 (monocyte chemoattracta
 
 ## Documents
 
-- [[The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: CCL2 described as SASP factor regulated by IL-1α/IL-1β
+- [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review describes CCL2 as one of the most conserved SASP chemokines, whose expression is tightly linked to the IL-1α/IL-1β arm of the secretome via NF-κB, AP-1, and C/EBP pathways. It recruits monocytes and macrophages to senescent cells, supporting either immune surveillance and clearance or, when chronic, monocyte infiltration and tissue damage.
 
 ## Connections
 

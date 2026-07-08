@@ -129,14 +129,14 @@ MMP-12 contributes to pathological retinal angiogenesis in oxygen-induced retino
 
 List of documents that mention this entity
 
-  - [[The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: MMP-12 associated with skin ageing as a SASP protease contributing to ECM degradation
+  - [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review associates MMP-12 with skin ageing as a SASP protease secreted by senescent dermal fibroblasts that degrades elastin and other ECM components, driving structural deterioration. It collaborates with MMP-1/3/9 to amplify ECM breakdown and, by disrupting fibroblast–ECM mechanosignalling, propagates the aged phenotype to neighboring cells via TGF-β downregulation.
 
 ## Connections
 
   - [[MMP1]]: Fellow collagenase in the SASP; MMP-12 and MMP-1 cooperate in ECM degradation during skin ageing
   - [[MMP-3]]: Stromelysin-1 activates pro-MMP-12; both are SASP proteases with overlapping substrate profiles
   - [[MMP-9]]: Gelatinase B co-localises with MMP-12 in macrophages; both degrade elastin and are upregulated in inflammatory lung disease
-  - [[Senescence-Associated Secretory Phenotype|SASP]]: MMP-12 is a key SASP protease secreted by senescent fibroblasts, driving age-related ECM deterioration
+  - [[SASP]]: MMP-12 is a key SASP protease secreted by senescent fibroblasts, driving age-related ECM deterioration
   - [[Macrophages]]: Primary cellular source of MMP-12; M2-polarised macrophages are the predominant producers
   - [[Plasmin]]: Activates pro-MMP-12; MMP-12 reciprocally cleaves plasminogen to generate angiostatin
   - [[Extracellular Matrix]]: Primary substrate; MMP-12 degrades elastin, collagen IV, fibronectin, and laminin

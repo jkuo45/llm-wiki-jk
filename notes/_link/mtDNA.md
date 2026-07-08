@@ -50,8 +50,7 @@ List of documents that mention this entity
   - [[_document_ - SASP, senescent cells, grok|SASP, senescent cells, grok]]
     - Explains how mtDNA release via miMOMP activates the cGAS-STING pathway to drive SASP.
 
-  - [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]
-    - Identifies mtDNA release as a key cGAS-STING ligand sustaining the SASP.
+  - [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review identifies mtDNA release as a key cGAS–STING ligand sustaining the SASP: via minority MOMP, senescent cells leak mtDNA into the cytosol where cGAS generates cGAMP to activate STING→TBK1/IRF3 and NF-κB. This cytosolic mtDNA sensing drives type-I interferon and pro-inflammatory SASP components and is a target for senomorphic strategies such as STING inhibitors.
 
 ## Connections
 - [[cGAS-STING Pathway|cGAS-STING]] — Activates the cGAS-STING innate immune sensor

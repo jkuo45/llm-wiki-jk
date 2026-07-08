@@ -38,7 +38,7 @@ Its presence indicates a senescence program skewed toward innate immunity rather
 
 ## Documents
 
-- [[The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: ISG15 induced by p16 overexpression in senescence
+- [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review describes ISG15 as an interferon-pathway SASP factor induced in p16-driven and p53-associated senescence, marking a SASP subset enriched for interferon-stimulated genes. Its ISGylation and secreted cytokine activities reinforce a type-I interferon state that can promote paracrine senescence and immune surveillance of senescent cells.
 
 ## Connections
 

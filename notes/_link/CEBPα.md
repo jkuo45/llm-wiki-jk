@@ -33,7 +33,7 @@ Upon senescence entry, C/EBPα is induced and relocalizes to chromatin, occupyin
 
 ## Documents
 
-- [[The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: C/EBPα binds senescence-activated enhancers to promote SASP
+- [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review describes C/EBPα as a bZIP transcription factor that, with C/EBPβ and NF-κB, occupies senescence-activated enhancers to drive SASP gene expression in replicatively senescent fibroblasts. Its cooperation integrates p38 MAPK phosphorylation with NF-κB to produce the amplified, persistent IL-6/IL-8–rich secretome.
 
 ## Connections
 

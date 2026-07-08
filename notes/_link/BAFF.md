@@ -40,7 +40,7 @@ BAFF (B-cell activating factor), also known as TNFSF13B, BLyS, or TALL-1, is a t
 
 ## Documents
 
-- [[The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: BAFF identified as immunity-modulating cytokine secreted by senescent fibroblasts
+- [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review identifies BAFF as an immunity-modulating TNF-superfamily SASP cytokine secreted by senescent fibroblasts and monocytic leukemia cells that reinforces the secretome by upregulating IL-6. By supporting B-cell survival and maturation through BAFF-R/BCMA/TACI, it links the senescent microenvironment to humoral immunity and age-related autoimmunity.
 
 ## Connections
 

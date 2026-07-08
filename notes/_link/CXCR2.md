@@ -39,7 +39,7 @@ CXCR2 (C-X-C chemokine receptor 2), also known as IL-8RB or CD182, is a G-protei
 
 ## Documents
 
-- [[The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: CXCR2 mediates paracrine functions and reinforces senescence
+- [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review positions CXCR2 as the dominant receptor for the ELR+ CXC SASP chemokines (CXCL1-3/5, IL-8) and a reinforcing node of the senescence program. Senescent cells secrete IL-8/CXCL1-3 that act back through CXCR2 to sustain growth arrest and amplify the SASP, while also driving bystander/paracrine senescence and neutrophil recruitment.
 
 ## Connections
 

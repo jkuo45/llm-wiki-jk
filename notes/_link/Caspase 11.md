@@ -38,7 +38,7 @@ Caspase 11 is the mouse inflammatory (non-canonical) caspase that is the functio
 
 ## Documents
 
-- [[The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: Caspase 11 cleaves IL-1α for SASP regulation
+- [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review notes that caspase 11, the mouse ortholog of human caspase 4/5, contributes to SASP regulation by cleaving IL-1α, which translocates to the nucleus to license NF-κB–dependent SASP transcription. Its gasdermin-D pores also enforce an inflammatory, lytic cell state that overlaps functionally with senescence-associated inflammation.
 
 ## Connections
 

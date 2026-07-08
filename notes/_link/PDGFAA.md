@@ -33,7 +33,7 @@ PDGF-AA binds preferentially the PDGF receptor α ([[PDGFR]]α/CD140a), activati
 
 ## Documents
 
-- [[The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: PDGFAA induces myofibroblast differentiation in wound healing
+- [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review highlights PDGF-AA as a beneficial, context-specific SASP growth factor secreted by senescent fibroblasts at wound edges that induces myofibroblast differentiation via PDGFRα. It supports re-epithelialization and tissue repair, illustrating why acute senescence is required for optimal healing and why indiscriminate senolysis can impair wound closure.
 
 ## Connections
 

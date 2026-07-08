@@ -39,7 +39,7 @@ CXCL12 (C-X-C motif chemokine ligand 12), also known as SDF-1 (stromal cell-deri
 
 ## Documents
 
-- [[The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: CXCL12 and MMPs cooperatively facilitate cancer cell metastasis
+- [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review frames CXCL12 as a homeostatic ELR− SASP chemokine that, together with MMPs, remodels the tumor microenvironment to facilitate cancer metastasis. Senescent stromal and cancer cells release CXCL12 that, shaped by MMP-2/9/12 cleavage, establishes CXCR4+ chemotactic gradients guiding cancer cells to metastatic niches, blurring tissue-repair and pro-metastatic functions.
 
 ## Connections
 

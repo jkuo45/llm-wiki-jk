@@ -33,7 +33,7 @@ ZFP36L1 is a negative regulator of the [[Senescence-Associated Secretory Phenoty
 
 ## Documents
 
-- [[The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: ZFP36L1 inhibited by MK2 to stabilize SASP transcripts
+- [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review describes ZFP36L1 as a TTP-family RNA-binding protein that, under basal conditions, degrades ARE-containing SASP mRNAs to keep cytokine transcripts short-lived. Upon senescence induction, MK2 phosphorylates and inhibits ZFP36L1, stabilizing IL-1α and other SASP transcripts and providing a post-transcriptional control point parallel to NF-κB.
 
 ## Connections
 

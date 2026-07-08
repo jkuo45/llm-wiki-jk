@@ -41,7 +41,7 @@ Circulating senescence-associated miRNAs are candidate biomarkers of [[Inflammag
 
 ## Documents
 
-- [[The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: miRNAs mediate SASP regulation and intercellular communication
+- [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review describes miRNAs as post-transcriptional regulators and intercellular messengers of the SASP, with senescence-altered intracellular repertoires (e.g., miR-34a, let-7, miR-146a/b, miR-21) tuning cytokine output. Packaged into exosomes, they transfer regulatory RNAs to neighboring cells to instigate paracrine senescence, and circulating senescence-associated miRNAs serve as biomarkers of biological age.
 
 ## Connections
 

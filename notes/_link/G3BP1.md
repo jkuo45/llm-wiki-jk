@@ -33,7 +33,7 @@ G3BP1 is required for cytosolic-DNA-driven SASP: loss of G3BP1 attenuates cGAS�
 
 ## Documents
 
-- [[The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: G3BP1 assists cGAS recognition of cytoplasmic DNA
+- [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review identifies G3BP1, the principal stress-granule scaffold, as a cofactor that promotes cGAS oligomerization and stable engagement with cytoplasmic chromatin fragments released by senescent cells. By lowering the activation threshold for cGAS–STING, G3BP1 positions cytoplasmic-DNA sensing as a core upstream trigger of the type-I interferon and NF-κB arms of the SASP.
 
 ## Connections
 

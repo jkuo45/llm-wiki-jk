@@ -32,8 +32,7 @@ Because IκBα degradation is the rate-limiting step for canonical [[NFKB|NF-κB
 
 ## Documents
 
-- [[The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]
-  - Reviews IKK/IκBα–NF-κB as a core transcriptional driver of the SASP.
+  - [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review identifies IKK/IκBα–NF-κB as a core transcriptional driver of the SASP, with IκBα degradation as the rate-limiting step that gates NF-κB nuclear entry in senescent cells. Persistent DDR and cytokine signals keep IKKβ active, driving continuous IκBα turnover and sustained expression of IL-6, IL-8, and other SASP factors.
 
   - [[_document_ - SASP, senescent cells, grok|SASP, senescent cells, grok]]
     - Describes IκBα degradation as the gateway to NF-κB-dependent SASP transcription.

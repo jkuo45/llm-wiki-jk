@@ -31,7 +31,7 @@ FDA-approved for myelofibrosis, polycythemia vera, and steroid-refractory acute 
 
 ## Documents
 
-- [[The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: Ruxolitinib reduces SASP cytokines
+- [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review discusses ruxolitinib as a prototypic senomorphic agent that suppresses the SASP by inhibiting JAK1/2 and blocking STAT3/5 phosphorylation downstream of cytokine receptors. It abrogates secretion of IL-6 and IL-8 and the broader pro-fibrotic secretome without killing senescent cells, illustrating JAK–STAT blockade as a route to dampen inflammaging.
 
 ## Connections
 

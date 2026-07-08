@@ -38,7 +38,7 @@ Caspase 5 is a human inflammatory (non-canonical) caspase, paralogous to [[Caspa
 
 ## Documents
 
-- [[The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: Caspase 5 cleaves IL-1α for SASP regulation
+- [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review notes that caspase 5, part of the non-canonical inflammasome, contributes to SASP regulation by cleaving the alarmin IL-1α, which then transits to the nucleus to license NF-κB–dependent SASP transcription. Through gasdermin-D pores it can also enforce a lytic, inflammatory cell state that overlaps with senescence-associated inflammation.
 
 ## Connections
 

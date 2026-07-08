@@ -35,7 +35,7 @@ TGFβ is secreted as a latent complex and activated in the extracellular space b
 
 ## Documents
 
-- [[The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: TGFβ is a SASP factor in tissue remodelling and paracrine senescence
+- [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review frames TGFβ as an early SASP factor involved in tissue remodelling, paracrine senescence, EMT, and immune suppression, activated extracellularly by integrins and proteases and signaling via SMAD2/3. It notes that TGFβ is later superseded by the NF-κB–driven arm, with the Notch pathway orchestrating the early-to-late SASP switch.
 
 ## Connections
 

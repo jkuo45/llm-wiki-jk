@@ -40,7 +40,7 @@ BAX (BCL-2-associated X protein, gene *BCL2L4*) is a pro-apoptotic effector of t
 
 ## Documents
 
-- [[The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: BAX and BAK macropores allow mitochondrial DNA release during senescence
+- [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review describes BAX (with BAK) as forming mitochondrial macropores whose high-order activity releases intact mtDNA into the cytosol during senescence without triggering death. This sublethal minority MOMP engages cGAS–STING to drive the type-I interferon–biased SASP, converting a death signal into chronic inflammatory signaling sustained by SCAPs.
 
 ## Connections
 

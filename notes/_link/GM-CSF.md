@@ -34,7 +34,7 @@ GM-CSF binds the heterodimeric GM-CSFR, composed of a specific α-chain (CD116) 
 
 ## Documents
 
-- [[The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: GM-CSF measured as biomarker for senolytic therapy
+- [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review lists GM-CSF as a secreted SASP cytokine that recruits and activates myeloid cells and serves as a circulating pharmacodynamic biomarker of senescent-cell burden. Because GM-CSF levels fall after senolytic treatment in clinical studies, it is used to assess therapeutic efficacy alongside other SASP factors such as IL-6 and MMP-9.
 
 ## Connections
 

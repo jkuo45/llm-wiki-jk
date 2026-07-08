@@ -36,7 +36,7 @@ List of documents that mention this entity
 
   - [[_document_ - SASP, senescent cells, grok|SASP, senescent cells, grok]]
     - Describes the TASCC as a specialized signaling hub that couples autophagy to high secretory demand in senescent cells.
-  - [[The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: TASCC sustains SASP via mTOR
+  - [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review highlights TASCC as a senescence-specific signaling hub in which mTORC1 activity and autophagy are spatially coupled on the trans-Golgi to recycle amino acids that fuel cap-dependent translation of SASP mRNAs such as IL-1α. Disrupting the TASCC (e.g., with rapamycin) blunts the chronic inflammatory secretome without reversing the arrest, positioning it as a senomorphic target.
 
 ## Connections
 

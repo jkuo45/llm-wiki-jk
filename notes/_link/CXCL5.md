@@ -40,7 +40,7 @@ CXCL5 (C-X-C motif chemokine ligand 5), also known as ENA-78 (epithelial-derived
 
 ## Documents
 
-- [[The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: CXCL5 secreted by blastocysts from aged oocytes binds CXCR2
+- [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review includes CXCL5 among the ELR+ CXC SASP chemokines that bind CXCR2 to recruit neutrophils, and highlights its secretion by blastocysts derived from aged oocytes as a contributor to reproductive aging. Chronic CXCL5/CXCR2 signaling in aged tissue sustains neutrophil-driven inflammaging and tissue dysfunction.
 
 ## Connections
 

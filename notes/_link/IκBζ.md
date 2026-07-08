@@ -37,7 +37,7 @@ IκBζ (Inhibitor of NF-κB zeta) is a selective co-activator of [[NF-κB]] for 
 
 ## Documents
 
-- [[The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: IκBζ is a selective co-activator of NF-κB for SASP genes
+- [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review highlights IκBζ as a selective co-activator of NF-κB required for expression of the SASP interleukins IL-6 and IL-8. By linking NF-κB signaling to the specific composition of the secretome, it is implicated as a master regulator of the inflammatory SASP arm and a potential target for modulating senescence-associated inflammation.
 
 ## Connections
 

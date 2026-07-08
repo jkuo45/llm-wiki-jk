@@ -39,7 +39,7 @@ CCL5 (C-C motif chemokine ligand 5), also known as RANTES, is a CC chemokine tha
 
 ## Documents
 
-- [[The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: CCL5 contributes to lung cancer progression and impairs follicle development
+- [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review describes CCL5 as a SASP chemokine secreted by therapy-induced senescent cancer cells that activates MYC–cyclin D signaling in neighboring cancer cells to promote non-small-cell lung cancer progression. It also notes CCL5 release by senescent ovarian stromal cells impairs preantral follicle development, linking the SASP to both tumor promotion and reproductive aging.
 
 ## Connections
 

@@ -51,7 +51,7 @@ aliases: [Senolytics, senolytic agents, senolytic drugs]
 
 ## Documents
 
-- [[The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: Senolytics selectively eliminate senescent cells
+- [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review frames senolytics as agents that target SCAPs to selectively push senescent cells into apoptosis while sparing healthy cells, thereby reducing the SASP burden and inflammaging. By eliminating the secreting cell rather than only the secretome, they complement senomorphics and address senescence-driven pathology across aging and disease models.
 
 ## Connections
 

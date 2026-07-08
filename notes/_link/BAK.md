@@ -40,7 +40,7 @@ BAK (BCL-2 antagonist/killer, gene *BAK1*) is a pro-apoptotic effector of the [[
 
 ## Documents
 
-- [[The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: BAK and BAX macropores allow mitochondrial DNA release during senescence
+- [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review describes BAK (with BAX) as forming mitochondrial macropores whose high-order activity releases intact mtDNA into the cytosol during senescence without triggering death. This sublethal minority MOMP engages cGAS–STING to drive the type-I interferon–biased SASP, bridging apoptosis resistance (via SCAPs) to chronic inflammatory signaling.
 
 ## Connections
 

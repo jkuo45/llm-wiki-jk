@@ -37,7 +37,7 @@ Because IL-11 is low in youth and rises with age, it is a tractable [[Senomorphi
 
 ## Documents
 
-- [[The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: IL-11 associated with ageing and pulmonary fibrosis
+- [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review links IL-11 to aging and disease as a senescence-induced, pro-fibrotic SASP factor whose transcription rises with SIRT1 loss and vitamin D deficiency. Signaling through IL-11Rα–gp130–JAK–STAT3, it drives pulmonary and cardiac fibrosis and bone loss, making it a tractable senomorphic/anti-fibrotic target (e.g., anti-IL-11 antibodies).
 
 ## Connections
 

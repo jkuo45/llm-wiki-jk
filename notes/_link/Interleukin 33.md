@@ -35,7 +35,7 @@ IL-33 is constitutively expressed in the nucleus of endothelial and stromal cell
 
 ## Documents
 
-- [[The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: IL-33 secreted by senescent hepatic stellate cells
+- [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review describes IL-33 as an IL-1-family alarmin and IL-1β-dependent SASP factor released by senescent hepatic stellate cells that promotes hepatocellular carcinoma. By activating ST2+ ILC2s and regulatory T cells it reshapes the tumor microenvironment toward immune suppression, linking stress-induced stromal senescence in the liver to epithelial cancer progression.
 
 ## Connections
 

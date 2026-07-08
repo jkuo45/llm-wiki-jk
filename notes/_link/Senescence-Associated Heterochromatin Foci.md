@@ -55,7 +55,7 @@ Because SAHF mark stable, tumor-suppressive arrest, their presence is exploited 
 
 List of documents that mention this entity
 
-  - [[The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: SAHF are distinct chromatin structures in senescent cells.
+  - [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review notes SAHF as distinct, DAPI-dense heterochromatin structures assembled by HIRA/ASF1a/macroH2A that durably silence E2F-driven proliferation genes in senescent human cells. They enforce stable arrest and serve as a widely used morphological senescence biomarker, and their formation overlaps with Lamin B1 loss and the broad epigenetic remodeling of the senescent state.
 
 ## Connections
 - [[Retinoblastoma Protein|Rb]]: Rb mediates SAHF formation and recruitment of HIRA/ASF1a

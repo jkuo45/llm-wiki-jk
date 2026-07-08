@@ -36,7 +36,7 @@ TOP1cc are essential for cGAS–STING activation in senescence:
 
 ## Documents
 
-- [[The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: TOP1cc assist cGAS recognition of cytoplasmic DNA
+- [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review notes that TOP1 trapped cleavage complexes (TOP1cc) on cytoplasmic chromatin fragments license cGAS binding by exposing appropriate DNA topology, cooperating with G3BP1 to activate cGAS–STING. This positions DNA-topology and replication stress as upstream triggers of the SASP, explaining why TOP1-targeted therapy can induce senescence-associated interferon signaling.
 
 ## Connections
 

@@ -31,7 +31,7 @@ IPF is almost invariably fatal within 3–5 years; antifibrotics (pirfenidone, n
 
 ## Documents
 
-- [[The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: IPF associated with SASP leukotrienes and IL-11
+- [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review links IPF to a pro-fibrotic SASP from senescent lung fibroblasts, highlighting IL-11 and leukotrienes as key mediators that drive fibroblast-to-myofibroblast transition and collagen deposition. It notes that SIRT1 downregulation de-represses IL-11 and that senolytic clearance reduces fibrosis, establishing IPF as a leading indication for senotherapeutics.
 
 ## Connections
 
