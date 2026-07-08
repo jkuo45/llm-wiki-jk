@@ -16,7 +16,7 @@ This directory contains notes and research regarding [[Adrenochrome]] and its re
 ## Maintenance
 
 - Last updated: 07_Jul_2026 06:00 PM PDT
-- Total count of entities: 359
+- Total count of entities: 358
 
 | entity                                              |   datetime updated   | entity_type_1          | entity_relevance_score | entity_sentiment_score | justification                                                                                  |
 | :-------------------------------------------------- | :------------------: | :--------------------- | :--------------------: | :--------------------: | :--------------------------------------------------------------------------------------------- |
@@ -48,7 +48,7 @@ This directory contains notes and research regarding [[Adrenochrome]] and its re
 | [[Alzheimer's Disease]]                 | 30_May_2026 12:00 PM | Medical Condition      |           6            |           -1           | Neurodegenerative state potentially linked to aminochrome toxicity.                            |
 |  [[Amadori products]]                                 |      17_Jun_2026       | Chemical Class         |           6            |           -1           | Intermediate in the production of advanced glycation end products.                             |
 | [[Aminochromes]]                                    | 27_May_2026 01:28 PM | Chemical Class         |           9            |           1            | Class of compounds including adrenochrome; positive focus of study.                            |
-| [[Aminoguanidine]]                                  | 07_Jul_2026 01:28 PM | Chemical Compound      |           8            |           1            | Reagent used to stabilize adrenochrome derivatives; positive chemical tool.                    |
+| [[Aminoguanidine]]                                  | 08_Jul_2026 11:28 AM | Chemical Compound      |           8            |           2            | Reagent stabilizing adrenochrome derivatives; also iNOS/AGE inhibitor (shared in notes/_link). |
 | [[Ammonium Persulfate]]                             | 27_May_2026 01:28 PM | Chemical Compound      |           6            |           0            | Common laboratory oxidant; neutral chemical reagent.                                           |
 | [[Amyl nitrite]]                                    | 27_May_2026 01:28 PM | Chemical Compound      |           5            |           -1           | Inducer of methemoglobinemia; negative chemical exposure.                                      |
 | [[Anaphylaxis]]                                     | 27_May_2026 01:28 PM | Medical Condition      |           3            |           -1           | Severe allergic reaction; negative medical condition.                                          |
@@ -216,8 +216,8 @@ This directory contains notes and research regarding [[Adrenochrome]] and its re
 | [[Metformin]]                                       | 14_Jun_2026 12:00 PM | Chemical Compound      |           8            |           1            | Diabetes medication that reduces circulating AGEs and inhibits NF-κB.                          |
 | [[Methemoglobin]]                                   | 27_May_2026 01:28 PM | Protein                |           7            |           -1           | Oxidized hemoglobin; negative biomarker of oxidative stress.                                   |
 | [[Methemoglobinemia]]                               | 27_May_2026 01:28 PM | Medical Condition      |           5            |           -1           | Pathological state of oxidized hemoglobin; negative medical condition.                         |
-| [[Methylene blue]]                                  | 27_May_2026 01:28 PM | Chemical Compound      |           6            |           1            | Treatment for methemoglobinemia; positive medical product.                                     |
-| [[Methylene blue]]                      |     07_Jul_2026      | Chemical Compound      |           9            |           1            | Mitochondrial electron cycler "amplifier" in the MRR strategy.                                 |
+| [[Methylene blue]]                                  | 08_Jul_2026 11:28 AM | Chemical Compound      |          10            |           2            | FDA-approved methemoglobinemia treatment; vasoplegic/neuroprotective/MAO-I uses (shared in notes/_link). |
+| [[Methylene blue]]                      |     08_Jul_2026      | Chemical Compound      |          10            |           2            | Mitochondrial electron cycler "amplifier" in the MRR strategy.                                 |
 | [[Methylglyoxal]]                                   | 14_Jun_2026 12:00 PM | Chemical Compound      |           9            |           1            | Reactive dicarbonyl compound and potent precursor for AGE formation.                           |
 | [[Michael addition]]                                | 27_May_2026 01:28 PM | Chemical Process       |           6            |           0            | Chemical reaction mechanism for adduct formation; neutral process.                             |
 |  [[Mithridates VI]]                                   |      17_Jun_2026       | Person                 |           3            |           0            | Historical figure associated with the concept of mithridatism (hormesis).                      |
