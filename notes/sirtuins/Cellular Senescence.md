@@ -16,16 +16,28 @@ aliases: [Cell senescence, Replicative senescence, Cellular aging]
 
 [[Cellular Senescence]] is a state of permanent cell cycle arrest triggered by various stressors including [[DNA Damage|DNA damage]], [[Oxidative Stress|oxidative stress]], telomere erosion, and oncogene activation. Senescent cells secrete a complex mixture of pro-inflammatory cytokines, chemokines, and matrix metalloproteinases known as the [[Senescence-Associated Secretory Phenotype]] (SASP), which drives [[Inflammation|inflammation]] and tissue dysfunction during [[Aging|aging]]. Once arrested, senescent cells resist apoptosis and can persist for years, accumulating in tissues and acting as a major contributor to age-related disease.
 
+## Types of Senescence
+
+Different types of senescence have been historically named after their inducers:
+
+- **Replicative Senescence**: Cells passaged in culture until they reach irreversible proliferation arrest, driven by telomere shortening
+- **Oncogene-Induced Senescence (OIS)**: Cells overexpressing an oncogene, primarily RAS, RAF, or MYC; produces the highest SASP gene expression
+- **Therapy-Induced Senescence (TIS)**: Cells exposed to high but non-lethal doses of drugs or chemicals; composition depends on whether therapy induces genotoxic stress
+- **Mitochondrial Dysfunction-Induced Senescence (MiDAS)**: Cells undergoing profound mitochondrial perturbations; associated with distinct p53-dependent secretory phenotype
+- **Immunologically Induced Senescence**: Cells exposed to excessive pro-inflammatory factors; unique SASP components associated with WNT signalling
+
+All these states share common marks (p21, p16, SA-β-gal, SASP) but also have unique features that underline the potential for large heterogeneity of senescence phenotypes in vivo.
+
 ## Triggers and Effector Pathways
 
 Senescence is engaged through canonical tumor-suppressor axes:
 
-- **DNA Damage / Telomere Dysfunction**: Persistent lesions activate [[p53]], which induces p21^CIP1^, enforcing arrest.
-- **Oncogene-Induced Senescence**: Hyperactive Ras/RAF or loss of PTEN triggers arrest via p53/p21 and p16^INK4a^/RB.
+- **DNA Damage / Telomere Dysfunction**: Persistent lesions activate [[p53]], which induces [[p21 CIP1|p21]]^CIP1^, enforcing arrest.
+- **Oncogene-Induced Senescence**: Hyperactive Ras/RAF or loss of PTEN triggers arrest via p53/p21 and [[p16 INK4a|p16]]^INK4a^/RB.
 - **Replicative Senescence**: Telomere shortening eventually engages the same effectors.
 - **Mitochondrial/Metabolic Stress**: Elevated [[Reactive Oxygen Species|ROS]] and NAD⁺ decline promote the senescent state.
 
-The p53/p21 and p16/RB pathways are the core regulators of the senescence growth arrest, while the SASP is governed in part by NF-κB and C/EBPβ transcriptional programs.
+The p53/p21 and p16/RB pathways are the core regulators of the senescence growth arrest, while the SASP is governed by NF-κB, C/EBPβ, p38 MAPK, mTOR, and cGAS–STING transcriptional programs.
 
 ## Sirtuin Connections
 

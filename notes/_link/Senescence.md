@@ -14,8 +14,13 @@ aliases: []
 # Senescence
 [[Senescence]], or cellular senescence, is a state of permanent cell cycle arrest that occurs when cells are subjected to various stressors, including [[DNA Damage]], [[Oxidative Stress]], or oncogene activation. It is characterized by a profound and dynamic remodeling of the [[Chromatin]] landscape and [[Epigenetics]] state.
 ## Hallmarks of Senescence
-1. **Permanent Cell-Cycle Arrest**: Mediated primarily by the [[p53]]/p21 and p16/RB pathways.
-2. **[[Senescence-Associated Secretory Phenotype]] (SASP)**: The secretion of pro-inflammatory cytokines, growth factors, and proteases that can alter the tissue microenvironment.
+1. **Permanent Cell-Cycle Arrest**: Mediated primarily by the [[p53]]/[[p21 CIP1|p21]] and [[p16 INK4a|p16]]/[[Retinoblastoma Protein|Rb]] pathways.
+2. **[[Senescence-Associated Secretory Phenotype|SASP]]**: The secretion of pro-inflammatory cytokines, chemokines, growth factors, proteases, bioactive lipids, and extracellular vesicles that can alter the tissue microenvironment.
+3. **Morphological Changes**: Larger cell size, irregular nuclear size, loss of [[Lamin B1]] expression.
+4. **Senescence-Associated β-Galactosidase (SA-β-gal)**: Elevated lysosomal enzyme activity.
+5. **Senescence-Associated Heterochromatin Foci (SAHF)**: Dense transcriptionally silent chromatin domains (primarily in human cells).
+6. **Defective Organelles**: Accumulation of damaged mitochondria, endoplasmic reticulum, and lysosomes.
+7. **Resistance to Apoptosis**: Upregulation of anti-apoptotic mechanisms (e.g., Bcl-2 family proteins).
 ## Epigenetic and Chromatin Remodeling
 *   **[[SAHF]] (Senescence-Associated Heterochromatin Foci)**: Dense, transcriptionally silent domains that sequester and repress pro-proliferation genes.
 *   **Loss of Lamin B1**: Reduction in Lamin B1 leads to the detachment of Lamina-Associated Domains from the nuclear periphery, triggering a global "shuffling" of the genome.
