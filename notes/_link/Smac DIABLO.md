@@ -26,6 +26,8 @@ Smac mimetics (e.g., [[LCL161]], [[Birinapant]], [[Debio 1143]]) are [[Small Mol
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -48,4 +50,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Apoptosis]], [[Caspase-9]], [[Caspase-3]], [[Caspase-7]], [[XIAP]], [[cIAP1]], [[cIAP2]], [[Cytochrome c]], [[Mitochondria]], [[Mitochondrial Intermembrane Space]], [[Cytosol]], [[Omi-HtrA2]], [[Fas Ligand]], [[UV Radiation]], [[Chemotherapy]], [[TNFα]], [[TRAIL]], [[Cancer]], [[Chemoresistance]], [[Small Molecule]]
 - Suggested new entity notes to create: [[IAP-binding motif]], [[AVPI peptide]], [[BIR domain]], [[Smac mimetic]], [[LCL161]], [[Birinapant]], [[Debio 1143]]
-- Strong connections to strengthen: [[Smac-DIABLO]] ↔ [[Apoptosis]], [[Smac-DIABLO]] ↔ [[XIAP]], [[Smac-DIABLO]] ↔ [[Cancer]]
+  - Strong connections to strengthen: Smac-DIABLO ↔ [[Apoptosis]], Smac-DIABLO ↔ XIAP, Smac-DIABLO ↔ Cancer

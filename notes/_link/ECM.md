@@ -19,6 +19,8 @@ The **ECM** (Extracellular Matrix) is a complex network of proteins and carbohyd
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -41,4 +43,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Fibronectin]], [[Vitronectin]], [[Integrins]], [[RGD peptide]], [[Lysosome]]
 - Suggested new entity notes to create: [[Collagen]], [[Laminin]]
-- Strong connections to strengthen: [[ECM]] ↔ [[Integrins]], [[ECM]] ↔ [[Lysosome]]
+  - Strong connections to strengthen: [[ECM]] ↔ Integrins, [[ECM]] ↔ [[Lysosome]]

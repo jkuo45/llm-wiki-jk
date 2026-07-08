@@ -36,6 +36,8 @@ ATM activity declines with age in human tissues, correlating with increased geno
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -59,4 +61,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[ATM]], [[Bid]], [[Phosphorylation]], [[DNA Damage]], [[DNA Damage Response]], [[Senescence]], [[Apoptosis]], [[p53]], [[Cancer]], [[SASP]]
 - Suggested new entity notes to create: [[MRN complex]], [[H2AX]], [[CHK2]], [[ATR]]
-- Strong connections to strengthen: [[ATM]] ↔ [[Bid]], [[ATM]] ↔ [[DNA Damage Response]], [[ATM]] ↔ [[Senescence]]
+  - Strong connections to strengthen: [[ATM]] ↔ Bid, [[ATM]] ↔ DNA Damage Response, [[ATM]] ↔ [[Senescence]]

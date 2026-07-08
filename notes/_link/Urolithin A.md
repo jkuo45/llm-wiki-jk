@@ -29,6 +29,8 @@ Urolithin A's mitophagy-activating mechanism positions it as a complementary age
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -59,4 +61,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Mitohormesis]], [[Autophagy]], [[Mitohormetic Redox-Relay]], [[Carbazochrome]], [[Ellagitannins]], [[Mitophagy]], Pomegranates, Raspberries, Walnuts, Strawberries, [[Ellagic acid]], [[Gordonibacter urolithinfaciens]], [[Skeletal Muscle]], Brain, [[Adipose Tissue]], [[PINK1]], [[Parkin]], [[MFN1]], [[MFN2]], [[VDAC1]], [[LC3]], [[p62]], [[mTORC1]], [[AMPK]], [[ULK1]], [[C. elegans]], [[Mus musculus]], [[Rattus norvegicus]], [[Parkinson's Disease]], [[MPTP]], [[Atherosclerosis]], [[Acylcarnitines]], [[TNFα]], [[Interleukin-6]], [[Sarcopenia]], [[Alzheimer's Disease]], [[Cardiovascular Aging]], [[Adrenochrome]], [[PGC1-α]], [[Dinitrophenol]], [[BAM15]]
 - Suggested new entity notes to create: [[Metabotypes]], [[Gordonibacter urolithinfaciens]], [[Ellagibacter isourolithinifaciens]]
-- Strong connections to strengthen: [[Urolithin A]] ↔ [[Mitohormesis]], [[Urolithin A]] ↔ [[Mitohormetic Redox-Relay]], [[Urolithin A]] ↔ [[Mitophagy]], [[Urolithin A]] ↔ [[AMPK]]
+  - Strong connections to strengthen: Urolithin A ↔ [[Mitohormesis]], Urolithin A ↔ Mitohormetic Redox-Relay, Urolithin A ↔ [[Mitophagy]], Urolithin A ↔ [[AMPK]]

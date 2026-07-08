@@ -17,6 +17,8 @@ aliases: [oxLDL, Oxidized low-density lipoprotein]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -34,4 +36,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Atherosclerosis]], [[Endothelial Dysfunction]], [[CD36 Receptor]], [[Lipid Peroxidation]], [[Myeloperoxidase]], [[Reactive Oxygen Species]]
 - Suggested new entity notes to create: [[Lox-1]], [[Scavenger Receptor]], [[Foam Cells]]
-- Strong connections to strengthen: [[Oxidized LDL]] ↔ [[Atherosclerosis]]
+  - Strong connections to strengthen: Oxidized LDL ↔ [[Atherosclerosis]]

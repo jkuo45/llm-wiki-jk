@@ -17,6 +17,8 @@ In the [[Mitohormetic Redox-Relay]] strategy, Methylene blue serves as an "Ampli
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -42,5 +44,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[Methemoglobinemia]], [[Methemoglobin]], [[Hemoglobin]], [[Mitohormetic Redox-Relay]], [[Carbazochrome]], [[Nicotinamide Riboside]], [[Urolithin A]]
-- Strong connections to strengthen: [[Methylene blue]] ↔ [[Methemoglobinemia]], [[Methylene blue]] ↔ [[Methemoglobin]], [[Methylene blue]] ↔ [[Hemoglobin]], [[Methylene blue]] ↔ [[Mitohormetic Redox-Relay]], [[Methylene blue]] ↔ [[Carbazochrome]], [[Methylene blue]] ↔ [[Nicotinamide Riboside]], [[Methylene blue]] ↔ [[Urolithin A]]
+  - Strong connections to strengthen: Methylene blue ↔ Methemoglobinemia, Methylene blue ↔ Methemoglobin, Methylene blue ↔ Hemoglobin, Methylene blue ↔ Mitohormetic Redox-Relay, Methylene blue ↔ Carbazochrome, Methylene blue ↔ Nicotinamide Riboside, Methylene blue ↔ Urolithin A
 

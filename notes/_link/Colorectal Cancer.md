@@ -27,6 +27,8 @@ Colorectal cancer (CRC) is a common malignant tumor affecting the colon or rectu
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -62,4 +64,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Cancer]], [[Atg4B]], [[Caloric Restriction]], [[Autophagy]]
 - Suggested new entity notes to create: [[Atg4B]], [[Caloric Restriction]]
-- Strong connections to strengthen: [[Colorectal Cancer]] ↔ [[Cancer]], [[Colorectal Cancer]] ↔ [[Atg4B]]
+  - Strong connections to strengthen: Colorectal Cancer ↔ Cancer, Colorectal Cancer ↔ [[Atg4B]]

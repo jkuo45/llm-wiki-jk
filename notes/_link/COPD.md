@@ -22,6 +22,8 @@ aliases: [Chronic Obstructive Pulmonary Disease, Chronic Obstructive Lung Diseas
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -41,5 +43,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[SIRT1]], [[NFκB]], [[FOXO3a]], [[p53]], [[SIRT6]], [[SIRT3]], [[SRT1720]]
-- Strong connections to strengthen: [[COPD]] ↔ [[SIRT1]], [[COPD]] ↔ [[NFκB]], [[COPD]] ↔ [[FOXO3a]], [[COPD]] ↔ [[p53]], [[COPD]] ↔ [[SIRT6]]
+  - Strong connections to strengthen: [[COPD]] ↔ SIRT1, [[COPD]] ↔ NFκB, [[COPD]] ↔ [[FOXO3a]], [[COPD]] ↔ [[p53]], [[COPD]] ↔ SIRT6
 

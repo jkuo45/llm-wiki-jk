@@ -35,6 +35,8 @@ Unlike genetic mutations, epigenetic marks are reversible. This has led to inter
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -51,4 +53,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Cardiovascular Disease]], [[Epigenetics]], [[Aging]], [[DNA Methylation]], [[Epigenetic Clock]], [[PTEN]], [[Histone Modification]], [[Chromatin]], [[Sirtuins]], [[SIRT1]], [[Cellular Senescence]], [[Non-coding RNA]], [[MicroRNA]], [[SASP]], [[Atherosclerosis]], [[HDAC]], [[DNA Methyltransferase]].
 - Suggested new entity notes to create: [[ANRIL]], [[Cardiac Fibrosis]], [[Vascular Smooth Muscle Cells]], [[Endothelial Dysfunction]].
-- Strong connections to strengthen: [[Coronary Heart Disease]] ↔ [[Atherosclerosis]], [[Coronary Heart Disease]] ↔ [[Aging]]
+  - Strong connections to strengthen: Coronary Heart Disease ↔ [[Atherosclerosis]], Coronary Heart Disease ↔ [[Aging]]

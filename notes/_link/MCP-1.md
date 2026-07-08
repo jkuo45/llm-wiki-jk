@@ -24,6 +24,8 @@ aliases: [CCL2, Monocyte Chemoattractant Protein 1]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -37,5 +39,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[MCP-1]]
-- Strong connections to strengthen: [[MCP-1]] ↔ [[MCP-1]]
+  - Strong connections to strengthen: [[MCP-1]] ↔ [[MCP-1]]
 

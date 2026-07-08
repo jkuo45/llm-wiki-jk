@@ -16,6 +16,8 @@ Mitosis is the process of [[Cell Division]] in which a single [[Eukaryotic Cell]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -40,4 +42,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Cell Division]], [[Cell Cycle]], [[Chromosome]]s, [[Centromere]], [[Microtubules]], [[APC C]], [[CDK1]], [[Cyclin B]], [[Taxanes]], [[Vinca Alkaloids]], [[Cancer]]
 - Suggested new entity notes to create: [[Kinetochore]], [[Spindle Assembly Checkpoint]], [[Separase]], [[Cohesin]]
-- Strong connections to strengthen: [[Mitosis]] ↔ [[Cell Cycle]], [[Mitosis]] ↔ [[Cancer]]
+  - Strong connections to strengthen: [[Mitosis]] ↔ Cell Cycle, [[Mitosis]] ↔ Cancer

@@ -30,6 +30,8 @@ Under oxidative stress or DNA damage, FOXO3a is post-translationally regulated b
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -61,4 +63,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[SIRT5]], [[Apoptosis]], [[Autophagy]], [[Intermittent Fasting]], [[Atg]], [[LC3]], [[p62]], [[Atg12]], [[Atg16]], [[Akt]], [[Longevity]], [[Aging]], [[Cellular Homeostasis]], [[Proteotoxicity]], [[SIRT1]], [[FoxO1]]
 - Suggested new entity notes to create: [[Atg]], [[Cellular Homeostasis]], [[Proteotoxicity]], [[GADD45]], [[MnSOD]]
-- Strong connections to strengthen: [[FOXO3a]] ↔ [[SIRT5]], [[FOXO3a]] ↔ [[Apoptosis]], [[FOXO3a]] ↔ [[FoxO1]], [[FOXO3a]] ↔ [[Autophagy]], [[FOXO3a]] ↔ [[SIRT1]]
+  - Strong connections to strengthen: [[FOXO3a]] ↔ SIRT5, [[FOXO3a]] ↔ [[Apoptosis]], [[FOXO3a]] ↔ [[FoxO1]], [[FOXO3a]] ↔ Autophagy, [[FOXO3a]] ↔ SIRT1

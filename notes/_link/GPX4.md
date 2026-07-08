@@ -47,5 +47,5 @@ GPx4 expression is regulated by [[NRF2|NRF2]] through ARE elements, and its acti
 
 ## Linking Summary
 - New links added: [[Ferroptosis]], [[Glutathione]], [[NRF2]], [[Selenium]], [[Peroxynitrite]], [[RSL3]], [[ML162]], [[FINO2]], [[Cancer]], [[Ischemia-reperfusion Injury]], [[Neurodegenerative Diseases]], [[Alzheimer's Disease]], [[Parkinson's Disease]]
-- Strong connections to strengthen: [[GPX4]] ↔ [[Ferroptosis]], [[GPX4]] ↔ [[Glutathione]], [[GPX4]] ↔ [[NRF2]], [[GPX4]] ↔ [[Selenium]], [[GPX4]] ↔ [[Peroxynitrite]]
+  - Strong connections to strengthen: [[GPX4]] ↔ [[Ferroptosis]], [[GPX4]] ↔ [[Glutathione]], [[GPX4]] ↔ [[NRF2]], [[GPX4]] ↔ [[Selenium]], [[GPX4]] ↔ Peroxynitrite
 

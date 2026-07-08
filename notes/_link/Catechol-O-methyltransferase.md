@@ -23,6 +23,8 @@ aliases: [COMT]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -39,5 +41,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[Catechol-O-methyltransferase]]
-- Strong connections to strengthen: [[Catechol-O-methyltransferase]] ↔ [[Catechol-O-methyltransferase]]
+  - Strong connections to strengthen: [[Catechol-O-methyltransferase]] ↔ [[Catechol-O-methyltransferase]]
 

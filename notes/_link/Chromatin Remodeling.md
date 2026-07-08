@@ -29,5 +29,5 @@ aliases: []
 
 ## Linking Summary
 - New links added: [[Chromatin Remodeling]]
-- Strong connections to strengthen: [[Chromatin Remodeling]] ↔ [[Chromatin Remodeling]]
+  - Strong connections to strengthen: Chromatin Remodeling ↔ Chromatin Remodeling
 

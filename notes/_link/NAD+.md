@@ -39,6 +39,8 @@ NAD+ levels decline with age, linked to:
 
 NAD+ is synthesized from [[Vitamin B3]] precursors ([[Nicotinamide]], [[Nicotinic acid]], [[Nicotinamide Riboside|NR]], [[Nicotinamide Mononucleotide|NMN]]) via the [[Preiss-Handler pathway]] and salvage pathway involving [[NAMPT]].
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -96,7 +98,7 @@ NAD+ levels naturally decline with age. This decline is linked to:
 ## Linking Summary
 - New links added: [[SIRT1]], [[Sir2 (yeast)]], [[OAADPr]], [[Caloric Restriction]], [[SIRT4]], [[SIRT6]], [[Resveratrol]]
 - Suggested new entity notes to create: [[NMNAT]], [[PNC1 (yeast)]], [[NAMPT]], [[NAD⁺/NADH Ratio]]
-- Strong connections to strengthen: [[NAD+]] ↔ [[SIRT1]], [[NAD+]] ↔ [[Caloric Restriction]]
+  - Strong connections to strengthen: [[NAD+]] ↔ SIRT1, [[NAD+]] ↔ Caloric Restriction
 - New links added: [[Sirtuins]], [[Caloric Restriction]], [[Vitamin B3]], [[DNA Repair]], [[Resveratrol]], [[Metabolism]], [[Aging]], [[Inflammation]], [[Mitochondria]], [[OAADPr]], [[Nicotinamide]], [[Nicotinic acid]], [[Nicotinamide Riboside]], [[Nicotinamide Mononucleotide]]
 - Suggested new entity notes to create: [[NAMPT]], [[NMNAT]], [[CD38]], [[NAD+/NADH Ratio]], [[Preiss-Handler pathway]]
 - New links added: [[Metabolism]], [[Sirtuins]], [[SIRT1]], [[SIRT6]], [[DNA Repair]], [[Aging]], [[Inflammation]]

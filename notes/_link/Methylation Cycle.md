@@ -17,6 +17,8 @@ The methylation cycle (also known as the one-carbon metabolism cycle) is a bioch
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -40,4 +42,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Methionine]], [[SAMe]], [[Homocysteine]], [[Folate]], [[MTHFR]], [[DNA Methylation]], [[Epigenetics]], [[Glutathione]], [[Aging]], [[Cardiovascular Disease]], [[Neural Tube Defects]], [[Cancer]], [[Neurodegeneration]], [[Transsulfuration Pathway]]
 - Suggested new entity notes to create: [[One-Carbon Metabolism]], [[MS Methionine Synthase]], [[BHMT]]
-- Strong connections to strengthen: [[Methylation Cycle]] ↔ [[SAMe]], [[Methylation Cycle]] ↔ [[MTHFR]]
+  - Strong connections to strengthen: Methylation Cycle ↔ [[SAMe]], Methylation Cycle ↔ [[MTHFR]]

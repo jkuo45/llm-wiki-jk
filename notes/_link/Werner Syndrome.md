@@ -28,6 +28,8 @@ Patients with Werner Syndrome develop many conditions associated with normal agi
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -48,4 +50,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Werner Syndrome]], [[Aging]], [[HGPS]], [[Genomic Instability]], [[DNA Repair]], [[DNA Replication]], [[Diabetes Mellitus]], [[Cardiovascular Disease]], [[Cancer]]
 - Suggested new entity notes to create: [[WRN Protein]], [[Helicase]], [[Adult-Onset Progeria]]
-- Strong connections to strengthen: [[Werner Syndrome]] ↔ [[Aging]], [[Werner Syndrome]] ↔ [[Genomic Instability]]
+  - Strong connections to strengthen: Werner Syndrome ↔ [[Aging]], Werner Syndrome ↔ Genomic Instability

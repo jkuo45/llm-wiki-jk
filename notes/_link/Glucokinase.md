@@ -28,5 +28,5 @@ aliases: [GCK, Hexokinase IV]
 
 ## Linking Summary
 - New links added: [[Glucokinase]]
-- Strong connections to strengthen: [[Glucokinase]] ↔ [[Glucokinase]]
+  - Strong connections to strengthen: [[Glucokinase]] ↔ [[Glucokinase]]
 

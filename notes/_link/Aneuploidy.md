@@ -66,6 +66,8 @@ Approximately 90% of solid tumors and a substantial fraction of hematological ma
 
 Therapeutic exploitation of CIN represents an emerging frontier. Conventional agents including [[Taxanes]] and vinca alkaloids target microtubule dynamics to induce mitotic arrest and cell death in rapidly dividing tumor cells. More selective strategies include inhibitors of Aurora kinase A ([[AURKA]]) and Polo-like kinase 1 ([[PLK1]]), which regulate mitotic progression and whose inhibition preferentially kills cells with elevated CIN. Synthetic lethal approaches — targeting vulnerabilities created by specific aneuploid karyotypes, such as sensitivity to [[p53]] loss or dependence on specific signaling pathways — offer promise for precision oncology in aneuploid cancers.
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -96,4 +98,4 @@ List of documents that mention this entity
 
 - New links added: [[Meiosis]], [[Proteasome]], [[BUB1]], [[BUBR1]], [[AURKA]], [[PLK1]], [[Taxanes]], [[Chromosomal Instability]], [[TP53]]
 - Suggested new entity notes to create: [[Nondisjunction]], [[Mosaic Variegated Aneuploidy]]
-- Strong connections to strengthen: [[Aneuploidy]] ↔ [[Cancer]], [[Aneuploidy]] ↔ [[Chromosomal Instability]], [[Aneuploidy]] ↔ [[TP53]]
+  - Strong connections to strengthen: [[Aneuploidy]] ↔ Cancer, [[Aneuploidy]] ↔ Chromosomal Instability, [[Aneuploidy]] ↔ [[TP53]]

@@ -55,6 +55,8 @@ NRF2 is a master transcription factor regulating antioxidant defense.
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -85,4 +87,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Keap1]], [[Antioxidant Response Element]], [[NF-kappa B]], [[SIRT1]], [[SIRT6]], [[HO-1]], [[NQO1]], [[SKN-1]], [[Sulforaphane]], [[Dimethyl fumarate]], [[Bardoxolone methyl]], [[Chronic Obstructive Pulmonary Disease]], [[Asthma]], [[Multiple Sclerosis]], [[Fenton Reaction]]
 - Suggested new entity notes to create: [[Oltipraz]], [[MAFG]], [[MAFF]], [[CUL3]]
-- Strong connections to strengthen: [[NRF2]] ↔ [[Keap1]], [[NRF2]] ↔ [[Oxidative Stress]], [[NRF2]] ↔ [[NF-kappa B]]
+  - Strong connections to strengthen: [[NRF2]] ↔ Keap1, [[NRF2]] ↔ Oxidative Stress, [[NRF2]] ↔ NF-kappa B

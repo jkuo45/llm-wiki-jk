@@ -24,6 +24,8 @@ aliases: [Yin Yang 1]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -37,5 +39,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[YY1]]
-- Strong connections to strengthen: [[YY1]] ↔ [[YY1]]
+  - Strong connections to strengthen: [[YY1]] ↔ [[YY1]]
 

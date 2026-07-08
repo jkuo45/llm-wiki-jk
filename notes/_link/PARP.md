@@ -28,5 +28,5 @@ aliases: [Poly(ADP-Ribose) Polymerase]
 
 ## Linking Summary
 - New links added: [[PARP]]
-- Strong connections to strengthen: [[PARP]] ↔ [[PARP]]
+  - Strong connections to strengthen: [[PARP]] ↔ [[PARP]]
 

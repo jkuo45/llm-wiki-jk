@@ -28,5 +28,5 @@ aliases: [Encephalon]
 
 ## Linking Summary
 - New links added: [[Brain]]
-- Strong connections to strengthen: [[Brain]] ↔ [[Brain]]
+  - Strong connections to strengthen: [[Brain]] ↔ [[Brain]]
 

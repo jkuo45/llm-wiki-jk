@@ -36,6 +36,8 @@ Anti-TNF biologics — [[Infliximab]] (chimeric monoclonal), [[Adalimumab]] (hum
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -69,4 +71,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Inflammation]], [[NF-kappa B]], [[Apoptosis]], [[IL-1b]], [[Mitochondria]], [[Superoxide Radicals]], [[Respiratory Chain Complex I]], [[HO-1]], [[Glutathione Peroxidase]], [[Catalase]], [[Oxidative Stress]], [[Malondialdehyde]], [[Glutathione]], [[Diabetes Mellitus]], [[Rheumatoid Arthritis]], [[Obesity]], [[SIRT1]], [[SIRT7]]
 - Suggested new entity notes to create: [[Cytokines]], [[Pro-inflammatory response]], [[TNFR1]], [[TRADD]], [[RIPK1]], [[RIPK3]], [[MLKL]], [[Necroptosis]], [[Necrosome]], [[Infliximab]], [[Adalimumab]], [[Etanercept]], [[IRS1]], [[Adiponectin]], [[MnSOD]]
-- Strong connections to strengthen: [[TNF-alpha]] ↔ [[NF-kappa B]], [[TNF-alpha]] ↔ [[Mitochondria]], [[TNF-alpha]] ↔ [[Necroptosis]], [[TNF-alpha]] ↔ [[Rheumatoid Arthritis]], [[TNF-alpha]] ↔ [[SIRT1]], [[TNF-alpha]] ↔ [[SIRT7]]
+  - Strong connections to strengthen: [[TNF-alpha]] ↔ NF-kappa B, [[TNF-alpha]] ↔ [[Mitochondria]], [[TNF-alpha]] ↔ [[Necroptosis]], [[TNF-alpha]] ↔ Rheumatoid Arthritis, [[TNF-alpha]] ↔ SIRT1, [[TNF-alpha]] ↔ SIRT7

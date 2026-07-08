@@ -35,4 +35,4 @@ aliases: [Major depressive disorder, MDD, Clinical depression]
 ## Linking Summary
 - New links added: [[Inflammation]], [[Oxidative Stress]], [[Mitochondria]], [[Exercise]], [[Caloric Restriction]], [[COMT]], [[Serotonin]], [[Dopamine]], [[Norepinephrine]]
 - Suggested new entity notes to create: [[BDNF]], [[HPA Axis]], [[Ketamine]], [[SSRI]]
-- Strong connections to strengthen: [[Depression]] ↔ [[Inflammation]]
+  - Strong connections to strengthen: [[Depression]] ↔ [[Inflammation]]

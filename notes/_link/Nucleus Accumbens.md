@@ -28,5 +28,5 @@ aliases: [NAc]
 
 ## Linking Summary
 - New links added: [[Nucleus Accumbens]]
-- Strong connections to strengthen: [[Nucleus Accumbens]] ↔ [[Nucleus Accumbens]]
+  - Strong connections to strengthen: Nucleus Accumbens ↔ Nucleus Accumbens
 

@@ -28,5 +28,5 @@ aliases: []
 
 ## Linking Summary
 - New links added: [[Lithium]]
-- Strong connections to strengthen: [[Lithium]] ↔ [[Lithium]]
+  - Strong connections to strengthen: [[Lithium]] ↔ [[Lithium]]
 

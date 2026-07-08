@@ -30,6 +30,8 @@ Within the [[SASP-Remodeling Aminochrome Complex]] strategy, Fisetin exploits th
 
 Research indicates that [[Fisetin]] can enhance the plasma levels of other [[Flavonoids|flavonoids]] like [[EGCG]] by inhibiting [[COMT]], potentially increasing the bioavailability of co-administered polyphenols.
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -58,9 +60,9 @@ List of documents that mention this entity
 
 - New links added: [[Flavonoids]], [[COMT]], [[COMT Inhibitors]], [[EGCG]], [[Quercetin]], [[Senescence]], [[Senomorphics]], [[SASP-Remodeling Aminochrome Complex]], [[Adrenochrome]]
 - Suggested new entity notes to create: 
-- Strong connections to strengthen: [[Fisetin]] ↔ [[Senescence]], [[Fisetin]] ↔ [[SASP-Remodeling Aminochrome Complex]], [[Fisetin]] ↔ [[COMT]]
+  - Strong connections to strengthen: [[Fisetin]] ↔ [[Senescence]], [[Fisetin]] ↔ SASP-Remodeling Aminochrome Complex, [[Fisetin]] ↔ COMT
 
 ## Linking Summary
 - New links added: [[Adrenochrome]], [[COMT]], [[COMT Inhibitors]], [[EGCG]], [[Fisetin]], [[Flavonoids]], [[Quercetin]], [[SASP-Remodeling Aminochrome Complex]], [[Senescence]], [[Senomorphics]], [[Rapamycin]], [[GlyNAC]]
 - Suggested new entity notes to create: 
-- Strong connections to strengthen: [[Fisetin]] ↔ [[SASP-Remodeling Aminochrome Complex]], [[Fisetin]] ↔ [[COMT Inhibitors]], [[Fisetin]] ↔ [[Senomorphics]], [[Fisetin]] ↔ [[Rapamycin]], [[Fisetin]] ↔ [[GlyNAC]]
+  - Strong connections to strengthen: [[Fisetin]] ↔ SASP-Remodeling Aminochrome Complex, [[Fisetin]] ↔ COMT Inhibitors, [[Fisetin]] ↔ Senomorphics, [[Fisetin]] ↔ [[Rapamycin]], [[Fisetin]] ↔ GlyNAC

@@ -24,6 +24,8 @@ Sirtuins, particularly [[SIRT1]], are critical sensors of metabolic health. They
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -41,4 +43,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Metabolic Syndromes]], [[Aging]], [[Epigenome]], [[DNA Methylation]], [[Epigenetic Alterations]], [[Heterochromatin]], [[Sirtuins]], [[SIRT1]], [[Diabetes Mellitus]], [[Cardiovascular Disease]]
 - Suggested new entity notes to create: [[Insulin Resistance]], [[Hyperlipidemia]], [[Metabolic Memory]]
-- Strong connections to strengthen: [[Metabolic Syndromes]] ↔ [[Aging]], [[Metabolic Syndromes]] ↔ [[Diabetes Mellitus]]
+  - Strong connections to strengthen: Metabolic Syndromes ↔ [[Aging]], Metabolic Syndromes ↔ Diabetes Mellitus

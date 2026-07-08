@@ -35,4 +35,4 @@ Clinical features include chest pain, dyspnea, and acute heart failure; ECG show
 
 - New links added: [[Catecholamines]], [[Norepinephrine]], [[Cardiomyopathy]], [[Oxidative Stress]], [[Mitochondria]], [[Pheochromocytoma]]
 - Suggested new entity notes to create: [[Takotsubo Cardiomyopathy]], [[Contraction-band Necrosis]]
-- Strong connections to strengthen: [[Catecholamine-induced cardiomyopathy]] ↔ [[Oxidative Stress]]
+  - Strong connections to strengthen: Catecholamine-induced cardiomyopathy ↔ Oxidative Stress

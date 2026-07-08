@@ -28,5 +28,5 @@ aliases: [MTR]
 
 ## Linking Summary
 - New links added: [[Methionine Synthase]]
-- Strong connections to strengthen: [[Methionine Synthase]] ↔ [[Methionine Synthase]]
+  - Strong connections to strengthen: Methionine Synthase ↔ Methionine Synthase
 

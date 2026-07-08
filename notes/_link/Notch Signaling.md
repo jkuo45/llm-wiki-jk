@@ -24,6 +24,8 @@ aliases: [Notch Pathway]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -37,5 +39,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[Notch Signaling]]
-- Strong connections to strengthen: [[Notch Signaling]] ↔ [[Notch Signaling]]
+  - Strong connections to strengthen: Notch Signaling ↔ Notch Signaling
 

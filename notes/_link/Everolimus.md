@@ -24,6 +24,8 @@ aliases: [RAD001, Afinitor]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -37,5 +39,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[Everolimus]]
-- Strong connections to strengthen: [[Everolimus]] ↔ [[Everolimus]]
+  - Strong connections to strengthen: [[Everolimus]] ↔ [[Everolimus]]
 

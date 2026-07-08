@@ -18,6 +18,8 @@ While not strictly required for [[Induced Pluripotent Stem Cells|iPSC]] generati
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -39,4 +41,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Mitohormesis]], [[Transcription Factor]], [[Induced Pluripotent Stem Cells]], [[Oct4]], [[Sox2]], [[Klf4]], [[Cellular Reprogramming]], [[Tumorigenicity]], [[Cancer]], [[OSKM]]
 - Suggested new entity notes to create: [[Tumorigenicity]]
-- Strong connections to strengthen: [[c-Myc]] ↔ [[Cancer]]
+  - Strong connections to strengthen: [[c-Myc]] ↔ Cancer

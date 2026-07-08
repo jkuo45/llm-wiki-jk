@@ -29,5 +29,5 @@ aliases: [DNM1L, Dynamin-Related Protein 1]
 
 ## Linking Summary
 - New links added: [[DRP1]]
-- Strong connections to strengthen: [[DRP1]] ↔ [[DRP1]]
+  - Strong connections to strengthen: [[DRP1]] ↔ [[DRP1]]
 

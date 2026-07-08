@@ -32,4 +32,4 @@ BRCA2 (Breast Cancer Type 2 Susceptibility Protein) is a [[Tumor Suppressor]] pr
 ## Linking Summary
 - New links added: [[BRCA1]], [[RAD51]], [[Homologous Recombination]], [[Double-Strand Breaks]], [[DNA Repair]], [[PALB2]], [[PARP inhibitors]], [[Platinum-based drugs]], [[Breast Cancer]], [[ovarian cancer]], [[Pancreatic Cancer]], [[Prostate Cancer]], [[Melanoma]], [[Tumor Suppressor]]
 - Suggested new entity notes to create: [[Fanconi Anemia Pathway]], [[Synthetic Lethality]]
-- Strong connections to strengthen: [[BRCA2]] ↔ [[BRCA1]], [[BRCA2]] ↔ [[Homologous Recombination]]
+  - Strong connections to strengthen: [[BRCA2]] ↔ BRCA1, [[BRCA2]] ↔ Homologous Recombination

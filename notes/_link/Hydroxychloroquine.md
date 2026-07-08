@@ -29,5 +29,5 @@ aliases: [HCQ, Plaquenil]
 
 ## Linking Summary
 - New links added: [[Hydroxychloroquine]]
-- Strong connections to strengthen: [[Hydroxychloroquine]] ↔ [[Hydroxychloroquine]]
+  - Strong connections to strengthen: [[Hydroxychloroquine]] ↔ [[Hydroxychloroquine]]
 

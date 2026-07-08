@@ -28,5 +28,5 @@ aliases: [Ten-Eleven Translocation Enzymes, TET1/2/3]
 
 ## Linking Summary
 - New links added: [[TET Enzymes]]
-- Strong connections to strengthen: [[TET Enzymes]] ↔ [[TET Enzymes]]
+  - Strong connections to strengthen: TET Enzymes ↔ TET Enzymes
 

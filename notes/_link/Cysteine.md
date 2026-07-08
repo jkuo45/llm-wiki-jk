@@ -66,6 +66,8 @@ Inherited disorders of cysteine metabolism highlight the amino acid's clinical i
 - **Oxidative stress and chronic disease**: Glutathione depletion—driven by cysteine insufficiency—is implicated in the pathogenesis of [[COPD]], pulmonary fibrosis, [[HIV]]/AIDS progression, and neurodegenerative diseases (Alzheimer's, Parkinson's). Aging is associated with declining transsulfuration activity and reduced tissue glutathione.
 - **N-acetylcysteine clinical applications**: NAC remains one of the most versatile amino acid-derived therapeutics: (1) **Acetaminophen overdose**: NAC replenishes glutathione to detoxify the reactive metabolite NAPQI, preventing hepatotoxicity. (2) **Mucolytic**: NAC cleaves disulfide bonds in mucus glycoproteins, reducing viscosity in COPD, cystic fibrosis, and bronchitis. (3) **Psychiatric adjunct**: Emerging evidence supports NAC as adjunctive therapy in obsessive-compulsive disorder, substance use disorders, and schizophrenia, potentially via modulation of glutamatergic neurotransmission and oxidative stress.
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -101,4 +103,4 @@ List of documents that mention this entity
 
 - New links added: [[Glutathione]], [[Homocysteine]], [[Thioredoxin]], [[Endoplasmic Reticulum]], [[Vitamin B6]], [[Vitamin B12]], [[Epigenetics]], [[Apoptosis]], [[Oxidative Stress]], [[Cystic Fibrosis]], [[HIV]]
 - Suggested new entity notes to create: [[N-Acetylcysteine]], [[Cystathionine β-Synthase]], [[Cysteine Dioxygenase]], [[Glutathione S-Transferase]], [[Zinc Finger]]
-- Strong connections to strengthen: [[Cysteine]] ↔ [[Glutathione]], [[Cysteine]] ↔ [[Pheomelanin]], [[Cysteine]] ↔ [[Homocysteine]]
+  - Strong connections to strengthen: [[Cysteine]] ↔ [[Glutathione]], [[Cysteine]] ↔ Pheomelanin, [[Cysteine]] ↔ [[Homocysteine]]

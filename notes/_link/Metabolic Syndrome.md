@@ -24,6 +24,8 @@ aliases: [Syndrome X]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -37,5 +39,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[Metabolic Syndrome]]
-- Strong connections to strengthen: [[Metabolic Syndrome]] ↔ [[Metabolic Syndrome]]
+  - Strong connections to strengthen: Metabolic Syndrome ↔ Metabolic Syndrome
 

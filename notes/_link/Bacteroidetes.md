@@ -26,4 +26,4 @@ Bacteroidetes is a phylum of Gram-negative, non-spore-forming, anaerobic or aero
 ## Linking Summary
 - New links added: [[Gut Microbiome]], [[Firmicutes]]
 - Suggested new entity notes to create: [[Gram-negative Bacteria]]
-- Strong connections to strengthen: [[Bacteroidetes]] ↔ [[Firmicutes]]
+  - Strong connections to strengthen: [[Bacteroidetes]] ↔ [[Firmicutes]]

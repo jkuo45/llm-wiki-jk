@@ -24,6 +24,8 @@ aliases: []
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -47,4 +49,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Quiescence]], Bone Marrow, [[Metabolism]], [[Immune Aging]], [[Autophagy]], [[Atg7]], [[Rapamycin]]
 - Suggested new entity notes to create: [[Mitophagy]], [[Mitochondria]]
-- Strong connections to strengthen: [[Hematopoietic Stem Cell]] ↔ [[Immune System]], [[Hematopoietic Stem Cell]] ↔ [[Immune Aging]]
+  - Strong connections to strengthen: Hematopoietic Stem Cell ↔ Immune System, Hematopoietic Stem Cell ↔ Immune Aging

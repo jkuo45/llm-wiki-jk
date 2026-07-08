@@ -31,6 +31,8 @@ LC3 is conjugated to phosphatidylethanolamine (PE) to form lipidated LC3-II, whi
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -56,4 +58,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Autophagy]], [[p62]], [[Beclin1]], [[Autophagic Flux]], [[Atg8]], [[Autophagosome]], [[Atg7]], [[Atg3]], [[Atg12]], [[Atg5]], [[Atg16]], [[SIRT1]]
 - Suggested new entity notes to create: [[LC3-II]], [[LIR motif]], [[Atg4]]
-- Strong connections to strengthen: [[LC3]] ↔ [[Autophagy]], [[LC3]] ↔ [[Autophagosome]], [[SIRT1]] ↔ [[LC3]]
+  - Strong connections to strengthen: [[LC3]] ↔ Autophagy, [[LC3]] ↔ Autophagosome, SIRT1 ↔ [[LC3]]

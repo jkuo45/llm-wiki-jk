@@ -26,6 +26,8 @@ PKCβ inhibitors ([[Enzastaurin]], [[Ruboxistaurin]]) are being investigated for
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -48,4 +50,4 @@ List of documents that mention this entity
 - [[calcineurin]] — interacts with PKC
 ## Linking Summary
 - New links added: [[TFEB]], [[Autophagy]], [[GSK3β]], [[calcineurin]], [[mTORC1]], [[PMA]], [[B Cell]], [[T Cell]], [[Bcl-2]], [[Phosphorylation]], [[PKCδ]], [[PKCζ]], [[PKCι]]
-- Strong connections to strengthen: [[PKC]] ↔ [[Bcl-2]]
+  - Strong connections to strengthen: [[PKC]] ↔ [[Bcl-2]]

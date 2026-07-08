@@ -37,6 +37,8 @@ Chronic mTOR activation contributes to:
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -91,4 +93,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[mTOR]], [[Autophagy]], [[Aging]], [[Caloric Restriction]], [[AMPK]], [[IGF1]], [[Cancer]], [[Metabolic Syndromes]], [[Neurodegenerative Diseases]], [[mTORC1]], [[mTORC2]]
 - Suggested new entity notes to create: [[Rapamycin]], [[mTORC1]], [[Protein Synthesis]], [[Autophagy]]
-- Strong connections to strengthen: [[mTOR]] ↔ [[Aging]], [[mTOR]] ↔ [[Autophagy]], [[Nutrient Sensing]] ↔ [[mTOR]]
+  - Strong connections to strengthen: [[mTOR]] ↔ [[Aging]], [[mTOR]] ↔ Autophagy, Nutrient Sensing ↔ [[mTOR]]

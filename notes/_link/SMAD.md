@@ -28,5 +28,5 @@ aliases: []
 
 ## Linking Summary
 - New links added: [[SMAD]]
-- Strong connections to strengthen: [[SMAD]] ↔ [[SMAD]]
+  - Strong connections to strengthen: [[SMAD]] ↔ [[SMAD]]
 

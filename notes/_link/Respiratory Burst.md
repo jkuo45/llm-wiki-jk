@@ -31,4 +31,4 @@ The process is driven by the activation of [[NADPH Oxidase]] (NOX), which transf
 ## Linking Summary
 - New links added: [[Reactive Oxygen Species]], [[Superoxide anion]], [[Hydrogen Peroxide]], [[Neutrophils]], [[Superoxide Radicals]], [[NADPH Oxidase]], [[Myeloperoxidase]], [[Hypochlorous Acid]], [[Immunity]], [[Inflammation]], [[Oxidative Stress]]
 - Suggested new entity notes to create: [[NADPH Oxidase]], [[Immunity]]
-- Strong connections to strengthen: [[Respiratory Burst]] ↔ [[Inflammation]], [[Respiratory Burst]] ↔ [[NADPH Oxidase]]
+  - Strong connections to strengthen: Respiratory Burst ↔ [[Inflammation]], Respiratory Burst ↔ NADPH Oxidase

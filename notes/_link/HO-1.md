@@ -31,6 +31,8 @@ In the context of the [[Adrenochrome Pathway]], HO-1 induction represents an ada
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -48,4 +50,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[NRF2]], [[ARE]], [[Sulforaphane]], [[Oxidative Stress]], [[Hypoxia]], [[Antioxidant Response Element]]
 - Suggested new entity notes to create: [[Biliverdin]], [[Bilirubin]], [[Carbon Monoxide]]
-- Strong connections to strengthen: [[HO-1]] ↔ [[NRF2]], [[HO-1]] ↔ [[Oxidative Stress]]
+  - Strong connections to strengthen: [[HO-1]] ↔ [[NRF2]], [[HO-1]] ↔ Oxidative Stress

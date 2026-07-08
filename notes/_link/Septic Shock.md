@@ -28,5 +28,5 @@ aliases: []
 
 ## Linking Summary
 - New links added: [[Septic Shock]]
-- Strong connections to strengthen: [[Septic Shock]] ↔ [[Septic Shock]]
+  - Strong connections to strengthen: Septic Shock ↔ Septic Shock
 

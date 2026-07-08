@@ -15,9 +15,11 @@ The hallmarks of aging are the biochemical changes that occur in all organisms a
 ## Linking Summary
 - New links added: [[Genomic Instability]], [[Telomere Attrition]], [[Epigenetic Alterations]], [[Cellular Senescence]]
 - Suggested new entity notes to create: [[Proteostasis]], [[Mitochondrial Dysfunction]], [[Stem Cell Exhaustion]]
-- Strong connections to strengthen: [[Hallmarks of Aging]] ↔ [[Longevity]]
+  - Strong connections to strengthen: Hallmarks of Aging ↔ [[Longevity]]
 
 #
+
+# 
 
 ## Documents
 

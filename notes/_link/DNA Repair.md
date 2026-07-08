@@ -30,6 +30,8 @@ In the context of [[Oxidative Stress]], the most important repair pathway is [[B
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -53,4 +55,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Oxidative Stress]], [[Base Excision Repair]], [[Reactive Oxygen Species]], [[8-oxo-2'-deoxyguanosine]], [[DNA Damage]], [[Cancer]], [[Nucleic Acids]]
 - Suggested new entity notes to create: [[Base Excision Repair]], [[Nucleotide Excision Repair]]
-- Strong connections to strengthen: [[DNA Repair]] ↔ [[8-oxo-2'-deoxyguanosine]]
+  - Strong connections to strengthen: DNA Repair ↔ 8-oxo-2'-deoxyguanosine

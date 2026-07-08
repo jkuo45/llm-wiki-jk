@@ -29,5 +29,5 @@ aliases: [Acadesine]
 
 ## Linking Summary
 - New links added: [[AICAR]]
-- Strong connections to strengthen: [[AICAR]] ↔ [[AICAR]]
+  - Strong connections to strengthen: [[AICAR]] ↔ [[AICAR]]
 

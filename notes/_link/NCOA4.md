@@ -29,5 +29,5 @@ aliases: [Nuclear Receptor Coactivator 4]
 
 ## Linking Summary
 - New links added: [[NCOA4]]
-- Strong connections to strengthen: [[NCOA4]] ↔ [[NCOA4]]
+  - Strong connections to strengthen: [[NCOA4]] ↔ [[NCOA4]]
 

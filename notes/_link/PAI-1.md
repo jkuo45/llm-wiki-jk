@@ -24,6 +24,8 @@ PAI-1 is secreted by [[Senescent Cells]] and plays a role in:
 ## Clinical Relevance
 Circulating PAI-1 levels are a biomarker of biological age and are elevated in various age-related diseases, including [[Obesity]], [[Type 2 Diabetes Mellitus]], and [[Cardiovascular Disease]].
 
+# 
+
 ## Documents
 
 List of documents that mention this entity

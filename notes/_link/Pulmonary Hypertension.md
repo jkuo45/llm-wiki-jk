@@ -24,6 +24,8 @@ aliases: [PH]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -37,5 +39,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[Pulmonary Hypertension]]
-- Strong connections to strengthen: [[Pulmonary Hypertension]] ↔ [[Pulmonary Hypertension]]
+  - Strong connections to strengthen: Pulmonary Hypertension ↔ Pulmonary Hypertension
 

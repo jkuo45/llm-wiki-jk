@@ -25,4 +25,4 @@ aliases: [Cataracts, Lens opacification]
 ## Linking Summary
 - New links added: [[Oxidative Stress]], [[Aging]], [[UV-induced photoaging]]
 - Suggested new entity notes to create: [[Crystallins]], [[Lens Epithelium]], [[Protein Carbonylation]]
-- Strong connections to strengthen: [[Cataract]] ↔ [[Oxidative Stress]]
+  - Strong connections to strengthen: [[Cataract]] ↔ Oxidative Stress

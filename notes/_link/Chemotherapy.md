@@ -16,6 +16,8 @@ Chemotherapy refers to pharmacological treatment of [[Cancer]] using cytotoxic o
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -42,4 +44,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Cancer]], [[Alkylating Agents]], [[Antimetabolites]], [[Topoisomerase Inhibitors]], [[Cisplatin]], [[Carboplatin]], [[Oxaliplatin]], [[Taxanes]], [[Anthracyclines]], [[Vinca Alkaloids]], [[DNA Damage]], [[Mitosis]], [[DNA Replication]], [[Apoptosis]], [[Immunotherapy]], [[Radiotherapy]], [[Targeted Therapy]], [[Autophagy]], [[Cellular Senescence]]
 - Suggested new entity notes to create: [[Myelosuppression]], [[Peripheral Neuropathy]], [[Chemoresistance]]
-- Strong connections to strengthen: [[Chemotherapy]] ↔ [[Cancer]], [[Chemotherapy]] ↔ [[DNA Damage]]
+  - Strong connections to strengthen: [[Chemotherapy]] ↔ Cancer, [[Chemotherapy]] ↔ [[DNA Damage]]

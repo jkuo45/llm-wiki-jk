@@ -23,6 +23,8 @@ JAK, particularly JAK2, is activated by SASP cytokines like [[IL-6]] in an autoc
 ## Therapeutic Targeting
 JAK inhibitors (e.g., ruxolitinib) are being explored as [[Senomorphic Therapy]] to suppress the detrimental effects of chronic SASP without killing the cells.
 
+# 
+
 ## Documents
 
 List of documents that mention this entity

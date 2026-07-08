@@ -28,5 +28,5 @@ aliases: []
 
 ## Linking Summary
 - New links added: [[Neurodegenerative Disease]]
-- Strong connections to strengthen: [[Neurodegenerative Disease]] ↔ [[Neurodegenerative Disease]]
+  - Strong connections to strengthen: Neurodegenerative Disease ↔ Neurodegenerative Disease
 

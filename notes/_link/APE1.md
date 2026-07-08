@@ -28,5 +28,5 @@ aliases: [APEX1, Apurinic-Apyrimidinic Endonuclease 1]
 
 ## Linking Summary
 - New links added: [[APE1]]
-- Strong connections to strengthen: [[APE1]] ↔ [[APE1]]
+  - Strong connections to strengthen: [[APE1]] ↔ [[APE1]]
 

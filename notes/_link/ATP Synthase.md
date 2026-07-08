@@ -31,4 +31,4 @@ ATP Synthase (Complex V, F1FO-ATPase) is the enzyme that synthesizes [[ATP]] fro
 ## Linking Summary
 - New links added: [[ATP]], [[ADP]], [[Mitochondria]], [[Electron Transport Chain]], [[Proton Motive Force]], [[Complex I]], [[Complex III]], [[Complex IV]], [[Oxidative Phosphorylation]], [[Ischemia-reperfusion Injury]]
 - Suggested new entity notes to create: [[F1FO-ATPase]], [[Oligomycin]], [[Binding Change Mechanism]]
-- Strong connections to strengthen: [[ATP Synthase]] ↔ [[ATP]], [[ATP Synthase]] ↔ [[Electron Transport Chain]]
+  - Strong connections to strengthen: ATP Synthase ↔ [[ATP]], ATP Synthase ↔ Electron Transport Chain

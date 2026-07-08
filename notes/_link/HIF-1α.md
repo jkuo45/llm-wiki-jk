@@ -31,6 +31,8 @@ aliases:
 
 HIF-1α is frequently overexpressed in [[Cancer]] and linked to poor prognosis. It is a therapeutic target in [[Renal Cell Carcinoma]], [[glioblastoma]], and [[Breast Cancer]].
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -56,7 +58,7 @@ Hypoxia-inducible factor 1-alpha (HIF-1α) is a transcription factor that mediat
 
 - New links added: [[SIRT2]], [[SIRT3]]
 - Suggested new entity notes to create: 
-- Strong connections to strengthen: [[HIF-1α]] ↔ [[SIRT3]], [[HIF-1α]] ↔ [[SIRT2]]
+  - Strong connections to strengthen: [[HIF-1α]] ↔ SIRT3, [[HIF-1α]] ↔ SIRT2
 
 ## Sirtuin Regulation of HIF-1α
 
@@ -65,4 +67,4 @@ Hypoxia-inducible factor 1-alpha (HIF-1α) is a transcription factor that mediat
 ## Linking Summary
 - New links added: [[SIRT3]], [[SIRT6]], [[SIRT2]], [[Glycolysis]], [[Warburg Effect]], [[Angiogenesis]], [[VEGF]], [[Cancer]], [[Renal Cell Carcinoma]], [[Breast Cancer]]
 - Suggested new entity notes to create: [[VHL]], [[PHD enzymes]], [[HIF-1β]]
-- Strong connections to strengthen: [[HIF-1α]] ↔ [[SIRT3]], [[HIF-1α]] ↔ [[SIRT6]]
+  - Strong connections to strengthen: [[HIF-1α]] ↔ SIRT3, [[HIF-1α]] ↔ SIRT6

@@ -16,9 +16,11 @@ Short-chain fatty acids (SCFAs) are produced by the gut microbiota through the f
 ## Linking Summary
 - New links added: [[Gut Microbiome]], [[Butyrate]], [[Propionate]], [[Acetate]], [[Metabolome]]
 - Suggested new entity notes to create: [[Fermentation]]
-- Strong connections to strengthen: [[Short-chain Fatty Acids]] ↔ [[Inflammaging]]
+  - Strong connections to strengthen: Short-chain Fatty Acids ↔ [[Inflammaging]]
 
 #
+
+# 
 
 ## Documents
 

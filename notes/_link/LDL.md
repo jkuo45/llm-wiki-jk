@@ -17,6 +17,8 @@ aliases: [Low-density lipoprotein, LDL cholesterol]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -34,4 +36,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Atherosclerosis]], [[Cardiovascular Disease]], [[Oxidized LDL]], [[Cholesterol]]
 - Suggested new entity notes to create: [[VLDL]], [[HDL]], [[ApoB]]
-- Strong connections to strengthen: [[LDL]] ↔ [[Atherosclerosis]]
+  - Strong connections to strengthen: [[LDL]] ↔ [[Atherosclerosis]]

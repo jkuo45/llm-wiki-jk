@@ -55,4 +55,4 @@ Cerebrospinal fluid (CSF) levels of tau phosphorylated at Thr181 (p-tau181), Thr
 ## Linking Summary
 - New links added: [[Oxidative Stress]], [[GSK3]], [[p38 MAPK]], [[Mitochondria]], [[Glutathione]], [[4-Hydroxynonenal]], [[Peroxynitrite]], [[Amyloid Beta]], [[Neurodegeneration]], [[Alzheimer's Disease]], [[N-Acetylcysteine]], [[Methylene blue]]
 - Suggested new entity notes to create: [[Microtubule]], [[Neurofibrillary tangles]], [[GSK3β]], [[CDK5]], [[p25]], [[SIRT1]], [[P300]], [[Fluortaucipir]], [[Tideglusib]], [[VDAC]]
-- Strong connections to strengthen: [[Tau Protein]] ↔ [[Mitochondria]], [[Tau Protein]] ↔ [[Oxidative Stress]], [[Tau Protein]] ↔ [[4-Hydroxynonenal]]
+  - Strong connections to strengthen: Tau Protein ↔ [[Mitochondria]], Tau Protein ↔ Oxidative Stress, Tau Protein ↔ 4-Hydroxynonenal

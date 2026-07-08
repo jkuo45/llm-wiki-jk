@@ -29,5 +29,5 @@ aliases: [Hippo Signaling]
 
 ## Linking Summary
 - New links added: [[Hippo Pathway]]
-- Strong connections to strengthen: [[Hippo Pathway]] ↔ [[Hippo Pathway]]
+  - Strong connections to strengthen: Hippo Pathway ↔ Hippo Pathway
 

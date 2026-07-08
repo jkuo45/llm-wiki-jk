@@ -24,6 +24,8 @@ aliases: [OA, Degenerative Joint Disease]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -40,5 +42,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[Osteoarthritis]]
-- Strong connections to strengthen: [[Osteoarthritis]] ↔ [[Osteoarthritis]]
+  - Strong connections to strengthen: [[Osteoarthritis]] ↔ [[Osteoarthritis]]
 

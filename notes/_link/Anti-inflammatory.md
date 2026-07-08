@@ -16,6 +16,8 @@ Anti-inflammatory refers to substances, interventions, or mechanisms that reduce
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -38,4 +40,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Inflammation]], [[NF-κB]], [[NSAIDs]], [[Corticosteroids]], [[DMARDs]], [[Biologics]], [[Curcumin]], [[Resveratrol]], [[Omega-3 Fatty Acids]], [[Polyphenols]], [[Exercise]], [[Caloric Restriction]], [[Fasting]], [[COX]], [[LOX]], [[Cytokine]], [[Reactive Oxygen Species]], [[Aging]], [[Cardiovascular Disease]], [[Metabolic Syndrome]], [[Neurodegeneration]], [[Cancer]]
 - Suggested new entity notes to create: [[Inflammaging]], [[Low-grade Inflammation]]
-- Strong connections to strengthen: [[Anti-inflammatory]] ↔ [[Inflammation]], [[Anti-inflammatory]] ↔ [[NF-κB]]
+  - Strong connections to strengthen: [[Anti-inflammatory]] ↔ [[Inflammation]], [[Anti-inflammatory]] ↔ NF-κB

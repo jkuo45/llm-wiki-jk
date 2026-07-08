@@ -27,4 +27,4 @@ aliases: [GPx4, Phospholipid hydroperoxide glutathione peroxidase, PHGPx]
 ## Linking Summary
 - New links added: [[Ferroptosis]], [[Glutathione]], [[Lipid Peroxidation]], [[Selenium]]
 - Suggested new entity notes to create: [[GPx1]], [[GPx2]], [[GPx3]]
-- Strong connections to strengthen: [[Glutathione Peroxidase 4]] ↔ [[Ferroptosis]]
+  - Strong connections to strengthen: Glutathione Peroxidase 4 ↔ [[Ferroptosis]]

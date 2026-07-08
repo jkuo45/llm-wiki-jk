@@ -28,4 +28,4 @@ Acetate is a two-carbon short-chain fatty acid and the most abundant SCFA in the
 ## Linking Summary
 - New links added: [[Short-chain Fatty Acids]], [[Gut Microbiome]], [[Metabolism]], [[Acetyl-CoA]]
 - Suggested new entity notes to create: [[Lipid Metabolism]]
-- Strong connections to strengthen: [[Acetate]] ↔ [[Acetylation]]
+  - Strong connections to strengthen: [[Acetate]] ↔ [[Acetylation]]

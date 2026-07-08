@@ -20,6 +20,8 @@ There is a potential interaction between [[MTHFR]] and [[COMT]] genetic variants
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity

@@ -46,4 +46,4 @@ A **biomarker** (biological marker) is a measurable indicator of a biological st
 ## Linking Summary
 - New links added: [[Diagnosis]], [[Prognosis]], [[Medicine]], [[Troponin]], [[Myocardial infarction]], [[HbA1c]], [[Diabetes Mellitus]], [[Breast Cancer]], [[HER2]], [[trastuzumab]], [[BRCA1]], [[BRCA2]], [[PARP inhibitors]], [[LDL Cholesterol]], [[Statins]], [[Blood Pressure]], [[Cardiovascular Disease]], [[Creatinine]], [[Kidney]], [[Epigenetic Clock]], [[Horvath Clock]], [[DNAm PhenoAge]], [[IL-6]], [[CRP]], [[TNFα]], [[SASP]], [[Inflammaging]], [[Biomarkers of Aging]], [[DNA Methylation]], [[Inflammation]], [[Oncotype DX]]
 - Suggested new entity notes to create: [[Diagnostic biomarker]], [[Predictive biomarker]], [[Prognostic biomarker]], [[Surrogate endpoint]], [[Biomarkers of aging]], [[Inflammatory biomarkers]], [[Biomarker validation]]
-- Strong connections to strengthen: [[Biomarker]] ↔ [[Diagnosis]], [[Biomarker]] ↔ [[Epigenetic Clock]], [[Biomarker]] ↔ [[Inflammation]]
+  - Strong connections to strengthen: [[Biomarker]] ↔ Diagnosis, [[Biomarker]] ↔ Epigenetic Clock, [[Biomarker]] ↔ [[Inflammation]]

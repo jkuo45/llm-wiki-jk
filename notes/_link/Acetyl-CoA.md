@@ -28,5 +28,5 @@ aliases: []
 
 ## Linking Summary
 - New links added: [[Histone Acetylation]], [[Autophagy]], [[Sirtuins]]
-- Strong connections to strengthen: [[Acetyl-CoA]] ↔ [[Histone Acetylation]], [[Acetyl-CoA]] ↔ [[Autophagy]], [[Acetyl-CoA]] ↔ [[Sirtuins]]
+  - Strong connections to strengthen: [[Acetyl-CoA]] ↔ Histone Acetylation, [[Acetyl-CoA]] ↔ Autophagy, [[Acetyl-CoA]] ↔ Sirtuins
 

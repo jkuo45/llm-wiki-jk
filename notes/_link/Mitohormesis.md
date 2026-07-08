@@ -77,6 +77,8 @@ The "hormetic window" defines the dose range over which mitochondrial stress is 
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -97,4 +99,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Oxidative Stress]], [[Exercise]], [[Caloric Restriction]], [[Metformin]], [[NRF2]], [[Mitochondria]], [[Hormesis]], [[Mitochondrial Unfolded Protein Response]], [[Retrograde Response]], [[Mitokines]], [[Humanin]], [[Catalase]], [[ATF4]], [[ATF5]], [[CHOP]], [[DELE1]], [[OMA1]], [[OPA1]], [[HRI]], [[Integrated Stress Response]], [[GDF15]], [[PGC1-α]], [[AMPK]], [[SIRT1]], [[SIRT3]], [[PPARγ]], [[ERRalpha]], [[NRF1]], [[SOD2]], [[IDH2]], [[NAD+]], [[NADH]], [[FOXO]], [[FOXO3a]], [[Mitochondrial permeability transition pore]], [[HIF-1α]], [[HO-1]], [[NQO1]], [[Atg]], [[Uncoupling protein]], [[Mitochondrial Dynamics]], [[Peroxiredoxin]], [[Glutathione Peroxidase]], [[PTEN]], [[PTP1B]], [[Akt]], [[JNK]], [[Aquaporins]], [[Rotenone]], [[Antimycin A]], [[Oligomycin]], [[Resveratrol]], [[AICAR]], [[SRT1720]], [[Menadione]], [[Carbazochrome]], [[Hormetic Window]], [[Redox Vaccination]]
 - Suggested new entity notes to create: [[Mitochondrial Uncoupling]], [[ETC Complex I inhibition]], [[Mitohormetic Threshold]]
-- Strong connections to strengthen: [[Mitohormesis]] ↔ [[Exercise]], [[Mitochondria]] ↔ [[Mitohormesis]], [[Mitohormesis]] ↔ [[Hormetic Window]]
+  - Strong connections to strengthen: [[Mitohormesis]] ↔ [[Exercise]], [[Mitochondria]] ↔ [[Mitohormesis]], [[Mitohormesis]] ↔ Hormetic Window

@@ -31,4 +31,4 @@ ARE-regulated genes include [[NQO1]], [[HO-1]], [[GCLM]]/[[GCLC]] (glutathione s
 ## Linking Summary
 - New links added: [[NRF2]], [[Sulforaphane]], [[HO-1]], [[Glutathione]], [[Oxidative Stress]], [[Curcumin]]
 - Suggested new entity notes to create: [[Keap1]], [[NQO1]], [[GCLM]]
-- Strong connections to strengthen: [[ARE]] ↔ [[NRF2]]
+  - Strong connections to strengthen: [[ARE]] ↔ [[NRF2]]

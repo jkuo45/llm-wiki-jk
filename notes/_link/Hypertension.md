@@ -17,6 +17,8 @@ aliases: [High blood pressure, HTN]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -34,4 +36,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Cardiovascular Disease]], [[Stroke]], [[Endothelial Dysfunction]], [[Heart Failure]]
 - Suggested new entity notes to create: [[RAAS]], [[Aldosterone]], [[ACE Inhibitors]]
-- Strong connections to strengthen: [[Hypertension]] ↔ [[Cardiovascular Disease]]
+  - Strong connections to strengthen: [[Hypertension]] ↔ [[Cardiovascular Disease]]

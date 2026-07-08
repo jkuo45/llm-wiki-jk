@@ -28,4 +28,4 @@ Bifidobacterium is a genus of Gram-positive, non-motile, often branched anaerobi
 ## Linking Summary
 - New links added: [[Gut Microbiome]], [[Lactobacillus]], [[Centenarians]]
 - Suggested new entity notes to create: [[Probiotics]]
-- Strong connections to strengthen: [[Bifidobacterium]] ↔ [[Longevity]]
+  - Strong connections to strengthen: [[Bifidobacterium]] ↔ [[Longevity]]

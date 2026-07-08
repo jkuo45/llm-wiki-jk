@@ -24,6 +24,8 @@ Renal cell carcinoma is a fatal malignant tumor of the urinary system derived fr
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -49,4 +51,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[TFE3]], [[TFEB]], [[Cancer]], [[MALAT1]], [[Ivermectin]], [[N-acetyl-L-cysteine]].
 - Suggested new entity notes to create: [[MiT Family Translocation RCC]], [[N-acetyl-L-cysteine]].
-- Strong connections to strengthen: [[Renal Cell Carcinoma]] ↔ [[TFEB]], [[Renal Cell Carcinoma]] ↔ [[Ivermectin]]
+  - Strong connections to strengthen: Renal Cell Carcinoma ↔ [[TFEB]], Renal Cell Carcinoma ↔ Ivermectin

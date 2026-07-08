@@ -29,5 +29,5 @@ aliases: [ABT-263]
 
 ## Linking Summary
 - New links added: [[Navitoclax]]
-- Strong connections to strengthen: [[Navitoclax]] ↔ [[Navitoclax]]
+  - Strong connections to strengthen: [[Navitoclax]] ↔ [[Navitoclax]]
 

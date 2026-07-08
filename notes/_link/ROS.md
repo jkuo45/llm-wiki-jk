@@ -20,9 +20,11 @@ aliases: [Reactive oxygen species, Reactive oxygen intermediates]
 ## Linking Summary
 - New links added: [[Reactive Oxygen Species]], [[Oxidative Stress]], [[Mitohormesis]]
 - Suggested new entity notes to create: [[None]]
-- Strong connections to strengthen: [[ROS]] ↔ [[Reactive Oxygen Species]]
+  - Strong connections to strengthen: [[ROS]] ↔ Reactive Oxygen Species
 
 #
+
+# 
 
 ## Documents
 

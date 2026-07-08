@@ -16,6 +16,8 @@ Centenarians are individuals who have reached the age of 100 years or more, serv
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -35,4 +37,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Successful Aging]], [[Longevity]], [[Aging]], [[Gut Microbiome]]
 - Suggested new entity notes to create: [[Supercentenarians]]
-- Strong connections to strengthen: [[Centenarians]] ↔ [[Longevity]]
+  - Strong connections to strengthen: [[Centenarians]] ↔ [[Longevity]]

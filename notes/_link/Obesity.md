@@ -21,6 +21,8 @@ aliases: [Adiposity]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -38,5 +40,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[Type 2 Diabetes Mellitus]], [[Cardiovascular Disease]], [[Non-alcoholic Fatty Liver Disease]], [[SIRT1]], [[SIRT3]], [[AMPK]], [[PGC1-α]], [[ULK1]], [[SIRT2]], [[SIRT6]], [[HIF-1α]], [[STAT3]], [[miR-146b]]
-- Strong connections to strengthen: [[Obesity]] ↔ [[Type 2 Diabetes Mellitus]], [[Obesity]] ↔ [[Cardiovascular Disease]], [[Obesity]] ↔ [[Non-alcoholic Fatty Liver Disease]], [[Obesity]] ↔ [[SIRT1]], [[Obesity]] ↔ [[SIRT3]]
+  - Strong connections to strengthen: [[Obesity]] ↔ Type 2 Diabetes Mellitus, [[Obesity]] ↔ [[Cardiovascular Disease]], [[Obesity]] ↔ Non-alcoholic Fatty Liver Disease, [[Obesity]] ↔ SIRT1, [[Obesity]] ↔ SIRT3
 

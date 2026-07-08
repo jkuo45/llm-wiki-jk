@@ -24,6 +24,8 @@ aliases: [P-glycoprotein, ABCB1, MDR1]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -37,5 +39,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[P-gp]]
-- Strong connections to strengthen: [[P-gp]] ↔ [[P-gp]]
+  - Strong connections to strengthen: [[P-gp]] ↔ [[P-gp]]
 

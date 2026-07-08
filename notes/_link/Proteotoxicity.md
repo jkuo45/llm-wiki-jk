@@ -24,6 +24,8 @@ aliases: [Proteotoxic Stress]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -37,5 +39,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[Proteotoxicity]]
-- Strong connections to strengthen: [[Proteotoxicity]] ↔ [[Proteotoxicity]]
+  - Strong connections to strengthen: [[Proteotoxicity]] ↔ [[Proteotoxicity]]
 

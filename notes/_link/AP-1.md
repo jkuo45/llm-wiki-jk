@@ -24,6 +24,8 @@ aliases: [Activator Protein 1]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -37,5 +39,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[AP-1]]
-- Strong connections to strengthen: [[AP-1]] ↔ [[AP-1]]
+  - Strong connections to strengthen: [[AP-1]] ↔ [[AP-1]]
 

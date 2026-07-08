@@ -23,6 +23,8 @@ aliases: []
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -36,5 +38,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[Autoimmune Disease]]
-- Strong connections to strengthen: [[Autoimmune Disease]] ↔ [[Autoimmune Disease]]
+  - Strong connections to strengthen: Autoimmune Disease ↔ Autoimmune Disease
 

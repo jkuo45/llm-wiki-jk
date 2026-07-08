@@ -28,6 +28,8 @@ Unlike IL-1α, IL-1β requires processing by the [[NLRP3]] inflammasome and [[Ca
 ## Clinical Relevance
 Elevated IL-1β is a driver of [[Inflammaging]] and is a therapeutic target for various inflammatory and age-related diseases.
 
+# 
+
 ## Documents
 
 List of documents that mention this entity

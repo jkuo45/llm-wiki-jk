@@ -27,6 +27,8 @@ While essential for killing pathogens, the oxidative environment created by neut
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -51,4 +53,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Neutrophils]], [[Adrenochrome]], [[Epinephrine]], [[Oxidation]], [[Inflammation]], [[Reactive Oxygen Species]], [[Superoxide anion]], [[Hydroxyl radical]], [[Myeloperoxidase]], [[Lungs]], [[Oxidative Stress]], [[Hypochlorous Acid]]
 - Suggested new entity notes to create: [[Innate Immune System]], [[Respiratory Burst]]
-- Strong connections to strengthen: [[Neutrophils]] ↔ [[Adrenochrome]], [[Neutrophils]] ↔ [[Hypochlorous Acid]]
+  - Strong connections to strengthen: [[Neutrophils]] ↔ Adrenochrome, [[Neutrophils]] ↔ Hypochlorous Acid

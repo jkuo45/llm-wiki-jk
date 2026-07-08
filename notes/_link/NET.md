@@ -24,6 +24,8 @@ aliases: [Norepinephrine Transporter]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -37,5 +39,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[NET]]
-- Strong connections to strengthen: [[NET]] ↔ [[NET]]
+  - Strong connections to strengthen: [[NET]] ↔ [[NET]]
 

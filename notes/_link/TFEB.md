@@ -31,6 +31,8 @@ aliases: []
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -66,4 +68,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Autophagy]], [[Neuromelanin]], [[Parkinson's Disease]], [[Proteostasis]]., [[Lysosome]], [[CLEAR Element]], [[TFE3]], [[Autophagosome]], [[mTORC1]], [[calcineurin]], [[eIF5A]], [[Spermidine]], [[B Cell]], [[Senescence]], [[SIRT2]], [[SIRT1]]
 - Suggested new entity notes to create: [[Lysosomal Biogenesis]], [[Lysosomal Exocytosis]].
-- Strong connections to strengthen: [[TFEB]] ↔ [[Autophagy]]., [[TFEB]] ↔ [[TFE3]], [[TFEB]] ↔ [[CLEAR Element]], [[TFEB]] ↔ [[SIRT2]], [[TFEB]] ↔ [[SIRT1]]
+  - Strong connections to strengthen: [[TFEB]] ↔ [[Autophagy]]., [[TFEB]] ↔ TFE3, [[TFEB]] ↔ CLEAR Element, [[TFEB]] ↔ SIRT2, [[TFEB]] ↔ SIRT1

@@ -16,6 +16,8 @@ Growth factors are signaling molecules (typically [[Peptide]]s or [[Protein]]s) 
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -42,4 +44,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Cell Proliferation]], [[Differentiation]], [[Survival]], [[Migration]], [[Receptor Tyrosine Kinases]], [[G Protein-Coupled Receptors]], [[EGF]], [[EGFR]], [[FGF]], [[PDGF]], [[VEGF]], [[IGF]], [[IGF1]], [[IGF2]], [[HGF]], [[TGF-β]], [[RAS]], [[RAF]], [[MEK1/2]], [[ERK1/2]], [[PI3K]], [[Akt]], [[mTORC1]], [[JAK]], [[STAT]], [[Cancer]], [[Wound Healing]], [[Regenerative Medicine]]
 - Suggested new entity notes to create: [[Growth Factor Receptor]], [[Ligand-Induced Dimerization]]
-- Strong connections to strengthen: [[Growth Factor]] ↔ [[Cell Proliferation]], [[Growth Factor]] ↔ [[Receptor Tyrosine Kinases]]
+  - Strong connections to strengthen: Growth Factor ↔ Cell Proliferation, Growth Factor ↔ Receptor Tyrosine Kinases

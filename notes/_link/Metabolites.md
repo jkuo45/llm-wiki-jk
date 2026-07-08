@@ -16,6 +16,8 @@ Metabolites are the intermediate products of metabolic reactions catalyzed by va
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -35,4 +37,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Metabolism]], [[Metabolome]], [[Short-chain Fatty Acids]], [[Biomarkers]]
 - Suggested new entity notes to create: [[Enzymes]]
-- Strong connections to strengthen: [[Metabolites]] ↔ [[Metabolome]]
+  - Strong connections to strengthen: [[Metabolites]] ↔ [[Metabolome]]

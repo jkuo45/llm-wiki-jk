@@ -30,5 +30,5 @@ aliases: [TXNRD]
 
 ## Linking Summary
 - New links added: [[Thioredoxin reductase]]
-- Strong connections to strengthen: [[Thioredoxin reductase]] ↔ [[Thioredoxin reductase]]
+  - Strong connections to strengthen: Thioredoxin reductase ↔ Thioredoxin reductase
 

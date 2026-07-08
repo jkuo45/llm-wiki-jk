@@ -29,5 +29,5 @@ aliases: [IKKγ, NF-κB Essential Modulator]
 
 ## Linking Summary
 - New links added: [[NEMO]]
-- Strong connections to strengthen: [[NEMO]] ↔ [[NEMO]]
+  - Strong connections to strengthen: [[NEMO]] ↔ [[NEMO]]
 

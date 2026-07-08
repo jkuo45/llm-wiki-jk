@@ -21,6 +21,8 @@ HIF1A induces [[Autophagy]] under hypoxia through [[BNIP3]] and [[BNIP3L]]/NIX-m
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -40,4 +42,4 @@ List of documents that mention this entity
 - [[BNIP3]] — interacts with HIF1A
 ## Linking Summary
 - New links added: [[Mitohormesis]], [[Hypoxia]], [[Macroautophagy]]
-- Strong connections to strengthen: [[HIF1A]] ↔ [[Hypoxia]]
+  - Strong connections to strengthen: [[HIF1A]] ↔ [[Hypoxia]]

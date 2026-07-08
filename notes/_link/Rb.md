@@ -24,6 +24,8 @@ aliases: [Retinoblastoma Protein]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -37,5 +39,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[Rb]]
-- Strong connections to strengthen: [[Rb]] ↔ [[Rb]]
+  - Strong connections to strengthen: [[Rb]] ↔ [[Rb]]
 

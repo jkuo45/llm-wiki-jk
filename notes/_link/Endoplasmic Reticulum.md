@@ -28,5 +28,5 @@ aliases: [ER]
 
 ## Linking Summary
 - New links added: [[Endoplasmic Reticulum]]
-- Strong connections to strengthen: [[Endoplasmic Reticulum]] ↔ [[Endoplasmic Reticulum]]
+  - Strong connections to strengthen: Endoplasmic Reticulum ↔ Endoplasmic Reticulum
 

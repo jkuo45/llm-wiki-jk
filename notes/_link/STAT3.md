@@ -26,6 +26,8 @@ aliases: []
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -57,4 +59,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[T Cell]], [[Inflammaging]], [[Senescence]], [[Metformin]], [[Autophagy]]
 - Suggested new entity notes to create: [[Inflammaging]]
-- Strong connections to strengthen: [[STAT3]] ↔ [[Metformin]]
+  - Strong connections to strengthen: [[STAT3]] ↔ [[Metformin]]

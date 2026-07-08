@@ -28,6 +28,8 @@ IL-1α creates a positive feedback loop with [[NFKB|NF-κB]], amplifying the inf
 ## Therapeutic Targeting
 Inhibiting IL-1α or its downstream signaling is a strategy for [[Senomorphic Therapy]] to reduce the detrimental effects of chronic SASP.
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -46,4 +48,4 @@ List of documents that mention this entity
 ## Linking Summary
 
   - New links added: [[Senescence-Associated Secretory Phenotype|SASP]], [[NF-κB]], [[mTOR]], [[IL-6]], [[IL-8]], [[Senescent Cells]]
-  - Strong connections to strengthen: [[IL-1α]] ↔ [[SASP]], [[IL-1α]] ↔ [[NF-κB]]
+  - Strong connections to strengthen: [[IL-1α]] ↔ [[SASP]], [[IL-1α]] ↔ NF-κB

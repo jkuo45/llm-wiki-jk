@@ -29,5 +29,5 @@ aliases: [ELAVL1]
 
 ## Linking Summary
 - New links added: [[HuR]]
-- Strong connections to strengthen: [[HuR]] ↔ [[HuR]]
+  - Strong connections to strengthen: [[HuR]] ↔ [[HuR]]
 

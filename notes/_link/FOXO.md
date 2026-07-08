@@ -19,6 +19,8 @@ The FoxO (forkhead box O) family is a group of transcription factors that regula
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -47,4 +49,4 @@ List of documents that mention this entity
 - [[Autophagy]] — cellular self-degradation pathway; clears damaged proteins and organelles
 ## Linking Summary
 - New links added: [[Apoptosis]], [[Autophagy]], [[Atrogin-1]], [[MuRF1]], [[Akt]]
-- Strong connections to strengthen: [[Akt]] ↔ [[FOXO]]
+  - Strong connections to strengthen: [[Akt]] ↔ [[FOXO]]

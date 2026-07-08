@@ -43,6 +43,8 @@ Mitophagy efficiency declines with age, contributing to the accumulation of dysf
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -91,4 +93,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Autophagy]], [[Mitochondria]], [[Quiescence]], [[Reactive Oxygen Species]], [[ROS]], [[PINK1]], [[Parkin]], [[PARL]], [[Mitochondrial calcium uniporter]], [[BNIP3]], [[NIX]], [[FUNDC1]], [[HIF-1α]], [[DRP1]], [[MFN1]], [[MFN2]], [[ATFS-1]], [[ATF4]], [[ATF5]], [[CHOP]], [[Mitochondrial Unfolded Protein Response]], [[Mitochondrial Dynamics]], [[NLRP3 Inflammasome]], [[Parkinson's Disease]], [[Alzheimer's Disease]], [[Urolithin A]], [[Actinonin]], [[Metformin]], [[NAD+]], [[Aging]], [[Longevity]]
 - Suggested new entity notes to create: [[Oxidative Stress]], [[MDV (Mitochondrial-Derived Vesicles)]], [[p62]]
-- Strong connections to strengthen: [[Mitophagy]] ↔ [[Hematopoietic Stem Cell]], [[Mitophagy]] ↔ [[Parkinson's Disease]], [[Mitophagy]] ↔ [[Adrenochrome]], [[Mitophagy]] ↔ [[Aging]]
+  - Strong connections to strengthen: [[Mitophagy]] ↔ Hematopoietic Stem Cell, [[Mitophagy]] ↔ [[Parkinson's Disease]], [[Mitophagy]] ↔ Adrenochrome, [[Mitophagy]] ↔ [[Aging]]

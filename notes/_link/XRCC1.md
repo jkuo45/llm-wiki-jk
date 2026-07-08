@@ -29,5 +29,5 @@ aliases: [X-ray Repair Cross Complementing 1]
 
 ## Linking Summary
 - New links added: [[XRCC1]]
-- Strong connections to strengthen: [[XRCC1]] ↔ [[XRCC1]]
+  - Strong connections to strengthen: [[XRCC1]] ↔ [[XRCC1]]
 

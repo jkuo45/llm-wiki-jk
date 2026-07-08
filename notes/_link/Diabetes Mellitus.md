@@ -26,6 +26,8 @@ Many anti-aging interventions, such as [[Metformin]] and [[Resveratrol]], were o
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -61,4 +63,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Diabetes Mellitus]], [[Aging]], [[Epigenetics]], [[Epigenome]], [[DNA Methylation]], [[Histone Modification]], [[SIRT1]], [[mTOR]], [[Cellular Senescence]], [[Epigenetic Clock]], [[DNAmGrimAge]], [[Metformin]], [[Resveratrol]], [[Metabolic Syndromes]]
 - Suggested new entity notes to create: [[Metabolic Memory]], [[Insulin Resistance]], [[Hyperglycemia]]
-- Strong connections to strengthen: [[Diabetes Mellitus]] ↔ [[Aging]], [[Diabetes Mellitus]] ↔ [[Metformin]]
+  - Strong connections to strengthen: Diabetes Mellitus ↔ [[Aging]], Diabetes Mellitus ↔ [[Metformin]]

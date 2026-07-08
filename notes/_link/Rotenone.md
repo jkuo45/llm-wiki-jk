@@ -28,5 +28,5 @@ aliases: []
 
 ## Linking Summary
 - New links added: [[Rotenone]]
-- Strong connections to strengthen: [[Rotenone]] ↔ [[Rotenone]]
+  - Strong connections to strengthen: [[Rotenone]] ↔ [[Rotenone]]
 

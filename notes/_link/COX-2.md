@@ -23,6 +23,8 @@ aliases: [Cyclooxygenase-2, PTGS2]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -36,5 +38,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[COX-2]]
-- Strong connections to strengthen: [[COX-2]] ↔ [[COX-2]]
+  - Strong connections to strengthen: [[COX-2]] ↔ [[COX-2]]
 

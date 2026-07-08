@@ -28,5 +28,5 @@ aliases: [LOX]
 
 ## Linking Summary
 - New links added: [[Lipoxygenases]]
-- Strong connections to strengthen: [[Lipoxygenases]] ↔ [[Lipoxygenases]]
+  - Strong connections to strengthen: [[Lipoxygenases]] ↔ [[Lipoxygenases]]
 

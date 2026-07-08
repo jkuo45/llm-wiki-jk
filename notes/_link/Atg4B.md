@@ -24,6 +24,8 @@ aliases: [Autophagy-related 4B, Cysteine Protease ATG4B]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -37,5 +39,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[Atg4B]]
-- Strong connections to strengthen: [[Atg4B]] ↔ [[Atg4B]]
+  - Strong connections to strengthen: [[Atg4B]] ↔ [[Atg4B]]
 

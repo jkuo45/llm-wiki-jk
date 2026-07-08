@@ -28,5 +28,5 @@ aliases: []
 
 ## Linking Summary
 - New links added: [[Lactate]]
-- Strong connections to strengthen: [[Lactate]] ↔ [[Lactate]]
+  - Strong connections to strengthen: [[Lactate]] ↔ [[Lactate]]
 

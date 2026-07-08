@@ -29,5 +29,5 @@ aliases: [CREB-binding Protein, CREBBP]
 
 ## Linking Summary
 - New links added: [[CBP]]
-- Strong connections to strengthen: [[CBP]] ↔ [[CBP]]
+  - Strong connections to strengthen: [[CBP]] ↔ [[CBP]]
 

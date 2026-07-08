@@ -29,5 +29,5 @@ aliases: [AA]
 
 ## Linking Summary
 - New links added: [[Arachidonic acid]]
-- Strong connections to strengthen: [[Arachidonic acid]] ↔ [[Arachidonic acid]]
+  - Strong connections to strengthen: Arachidonic acid ↔ Arachidonic acid
 

@@ -25,4 +25,4 @@ Firmicutes is a phylum of bacteria, most of which have a Gram-positive cell wall
 ## Linking Summary
 - New links added: [[Gut Microbiome]], [[Bacteroidetes]]
 - Suggested new entity notes to create: [[Gram-positive Bacteria]]
-- Strong connections to strengthen: [[Firmicutes]] ↔ [[Bacteroidetes]]
+  - Strong connections to strengthen: [[Firmicutes]] ↔ [[Bacteroidetes]]

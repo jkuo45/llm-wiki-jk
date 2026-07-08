@@ -77,4 +77,4 @@ Biallelic PEX14 knockout in mice is embryonic lethal. Conditional knockout in he
 ## Linking Summary
 - New links added: [[PEX13]], [[PEX5]], [[PEX7]], [[PEX1]], [[PEX6]], [[PEX2]], [[PEX10]], [[PEX12]], [[Peroxisome]], [[Pexophagy]], [[Zellweger Spectrum Disorders]], [[Fatty acid]], [[TFEB]], [[AMPK]], [[mTORC1]]
 - Suggested new entity notes to create: [[Peroxisomal Docking Complex]], [[Peroxisomal Membrane Protein]], [[Plasmalogen]]
-- Strong connections to strengthen: [[PEX14]] ↔ [[PEX13]], [[PEX14]] ↔ [[PEX5]], [[PEX14]] ↔ [[Zellweger Spectrum Disorders]]
+  - Strong connections to strengthen: [[PEX14]] ↔ [[PEX13]], [[PEX14]] ↔ [[PEX5]], [[PEX14]] ↔ Zellweger Spectrum Disorders

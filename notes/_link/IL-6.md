@@ -28,6 +28,8 @@ IL-6 signals through the IL-6 receptor (IL-6R) and [[gp130]], activating the [[J
 ## Clinical Relevance
 Elevated IL-6 levels are associated with [[Aging]], [[Inflammaging]], and various age-related diseases, including [[Cardiovascular Disease]], [[Neurodegenerative Disease]], and [[Cancer]].
 
+# 
+
 ## Documents
 
 List of documents that mention this entity

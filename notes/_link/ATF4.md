@@ -36,6 +36,8 @@ ATF4 bridges the unfolded protein response (UPR) to [[Autophagy]] by inducing au
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -59,4 +61,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[PERK]], [[TFE3]], [[Integrated Stress Response]], [[eIF2α]], [[Mitohormesis]], [[MTHFD2]], [[DELE1]], [[HRI]]
 - Suggested new entity notes to create: [[eIF2α]], [[MTHFD2]], [[DELE1]], [[HRI]]
-- Strong connections to strengthen: [[ATF4]] ↔ [[Mitochondrial Stress]]
+  - Strong connections to strengthen: [[ATF4]] ↔ Mitochondrial Stress

@@ -17,6 +17,8 @@ aliases: [Cyclin-dependent kinase 5, Cdk5, Cyclin-dependent-like kinase 5]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -33,4 +35,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Tau Protein]], [[Alzheimer's Disease]], [[Neurodegenerative Diseases]], [[Oxidative Stress]], [[CDK5]], [[Noxa]], [[leukemia]], [[Phosphorylation]]
 - Suggested new entity notes to create: [[p35]], [[p39]]
-- Strong connections to strengthen: [[CDK5]] ↔ [[Tau Protein]], [[CDK5]] ↔ [[Noxa]]
+  - Strong connections to strengthen: [[CDK5]] ↔ Tau Protein, [[CDK5]] ↔ Noxa

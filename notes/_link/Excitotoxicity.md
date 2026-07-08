@@ -28,5 +28,5 @@ aliases: []
 
 ## Linking Summary
 - New links added: [[Excitotoxicity]]
-- Strong connections to strengthen: [[Excitotoxicity]] ↔ [[Excitotoxicity]]
+  - Strong connections to strengthen: [[Excitotoxicity]] ↔ [[Excitotoxicity]]
 

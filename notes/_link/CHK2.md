@@ -31,4 +31,4 @@ CHK2 (Checkpoint Kinase 2, CHEK2) is a [[Serine/Threonine Kinase]] that function
 ## Linking Summary
 - New links added: [[ATM]], [[DNA Damage]], [[p53]], [[CDC25A]], [[CDC25C]], [[BRCA1]], [[E2F1]], [[Cell Cycle]], [[Apoptosis]], [[Double-Strand Breaks]], [[Breast Cancer]], [[Prostate Cancer]], [[Colorectal Cancer]]
 - Suggested new entity notes to create: [[Checkpoint Kinase]], [[CHEK2 1100delC]]
-- Strong connections to strengthen: [[CHK2]] ↔ [[ATM]], [[CHK2]] ↔ [[p53]]
+  - Strong connections to strengthen: [[CHK2]] ↔ [[ATM]], [[CHK2]] ↔ [[p53]]

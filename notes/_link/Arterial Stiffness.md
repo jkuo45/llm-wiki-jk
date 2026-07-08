@@ -77,6 +77,8 @@ Supplementation with the polyamine [[Spermidine|spermidine]] reverses age-associ
 
 The mechanism involves spermidine-induced de-acetylation of [[Histone H3|histone H3]], which activates transcription of autophagy-related genes, thereby improving protein quality control in the vasculature.
 
+# 
+
 ## Documents
 
 List of documents that mention this entity

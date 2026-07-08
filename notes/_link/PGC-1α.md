@@ -74,4 +74,4 @@ PGC-1α integrates [[Caloric Restriction]] signals:
 ## Linking Summary
 - New links added: [[Mitochondrial Biogenesis]], [[NRF1]], [[TFAM]], [[PPARγ]], [[SIRT1]], [[AMPK]], [[Oxidative Stress]], [[SIRT3]], [[Resveratrol]], [[Caloric Restriction]], [[NAD+]]
 - Suggested new entity notes to create: [[PPARGC1A]], [[ERRalpha]], [[PRMT1]], [[Mitochondrial Biogenesis]], [[MPTP]], [[Oxidative Phosphorylation]]
-- Strong connections to strengthen: [[PGC1-α]] ↔ [[Mitochondrial Biogenesis]], [[PGC1-α]] ↔ [[SIRT1]], [[PGC1-α]] ↔ [[Caloric Restriction]], [[PGC1-α]] ↔ [[Neurodegeneration]]
+  - Strong connections to strengthen: PGC1-α ↔ Mitochondrial Biogenesis, PGC1-α ↔ SIRT1, PGC1-α ↔ Caloric Restriction, PGC1-α ↔ [[Neurodegeneration]]

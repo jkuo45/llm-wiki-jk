@@ -35,6 +35,8 @@ The physical folding of chromatin into loops and domains changes with age.
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -60,4 +62,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Heterochromatin]], [[Euchromatin]], [[Aging]], [[Transposable Elements]], [[Genomic Instability]], [[SAHF]], [[Nucleosome]], [[DNA Methylation]], [[Epigenetic Clock]].
 - Suggested new entity notes to create: [[Heterochromatin Loss Model]], [[3D Genome Organization]], [[Histone H3K9me3]], [[Histone H4K16ac]].
-- Strong connections to strengthen: [[Chromatin]] ↔ [[Nucleosome]], [[Chromatin]] ↔ [[Heterochromatin]]
+  - Strong connections to strengthen: [[Chromatin]] ↔ [[Nucleosome]], [[Chromatin]] ↔ [[Heterochromatin]]

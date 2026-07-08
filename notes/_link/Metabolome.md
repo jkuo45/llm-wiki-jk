@@ -28,4 +28,4 @@ The metabolome is the complete set of small-molecule chemicals, such as metaboli
 ## Linking Summary
 - New links added: [[Metabolism]], [[Gut Microbiome]], [[Short-chain Fatty Acids]], [[Biomarkers]]
 - Suggested new entity notes to create: [[Metabolomics]]
-- Strong connections to strengthen: [[Metabolome]] ↔ [[Gut Microbiome]]
+  - Strong connections to strengthen: [[Metabolome]] ↔ Gut Microbiome

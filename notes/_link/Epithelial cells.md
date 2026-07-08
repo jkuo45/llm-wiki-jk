@@ -27,5 +27,5 @@ aliases: []
 
 ## Linking Summary
 - New links added: [[Epithelial cells]]
-- Strong connections to strengthen: [[Epithelial cells]] ↔ [[Epithelial cells]]
+  - Strong connections to strengthen: Epithelial cells ↔ Epithelial cells
 

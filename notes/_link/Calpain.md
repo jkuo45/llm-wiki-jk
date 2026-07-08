@@ -27,5 +27,5 @@ aliases: []
 
 ## Linking Summary
 - New links added: [[Calpain]]
-- Strong connections to strengthen: [[Calpain]] ↔ [[Calpain]]
+  - Strong connections to strengthen: [[Calpain]] ↔ [[Calpain]]
 

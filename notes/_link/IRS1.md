@@ -24,6 +24,8 @@ aliases: [Insulin Receptor Substrate 1]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -37,5 +39,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[IRS1]]
-- Strong connections to strengthen: [[IRS1]] ↔ [[IRS1]]
+  - Strong connections to strengthen: [[IRS1]] ↔ [[IRS1]]
 

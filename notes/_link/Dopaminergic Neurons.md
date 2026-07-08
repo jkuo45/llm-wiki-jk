@@ -29,6 +29,8 @@ aliases: []
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -54,4 +56,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Aminochromes]], [[Dopamine]], [[Dopaminochrome]], [[Induced Neural Stem Cells]], [[Induced Pluripotent Stem Cells]], [[Neurodegenerative Diseases]], [[Neuromelanin]], [[Parkinson's Disease]], [[Ventral Tegmental Area]], [[Substantia Nigra]]
 - Suggested new entity notes to create: [[Dopaminochrome]], [[Ventral Tegmental Area]]
-- Strong connections to strengthen: [[Dopaminergic Neurons]] ↔ [[Parkinson's Disease]], [[Dopaminergic Neurons]] ↔ [[Induced Pluripotent Stem Cells]]
+  - Strong connections to strengthen: Dopaminergic Neurons ↔ [[Parkinson's Disease]], Dopaminergic Neurons ↔ Induced Pluripotent Stem Cells

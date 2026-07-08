@@ -25,4 +25,4 @@ aliases: [Cytochrome c oxidase, COX, Complex IV]
 ## Linking Summary
 - New links added: [[Mitochondria]], [[Oxidative Stress]], [[Neurodegenerative Diseases]], [[ATP]]
 - Suggested new entity notes to create: [[Complex I]], [[Complex II]], [[Complex III]], [[Cytochrome c]]
-- Strong connections to strengthen: [[Complex IV]] ↔ [[Mitochondria]]
+  - Strong connections to strengthen: Complex IV ↔ [[Mitochondria]]

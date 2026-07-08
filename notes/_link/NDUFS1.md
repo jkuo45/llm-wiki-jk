@@ -29,5 +29,5 @@ aliases: [NADH:Ubiquinone Oxidoreductase Core Subunit S1]
 
 ## Linking Summary
 - New links added: [[NDUFS1]]
-- Strong connections to strengthen: [[NDUFS1]] ↔ [[NDUFS1]]
+  - Strong connections to strengthen: [[NDUFS1]] ↔ [[NDUFS1]]
 

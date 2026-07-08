@@ -66,4 +66,4 @@ Sulforaphane has been investigated in clinical trials for [[Asthma]] (restoring 
 ## Linking Summary
 - New links added: [[NRF2]], [[NF-κB]], [[Glutathione]], [[HO-1]], [[AMPK]], [[HDAC]], [[Ferroptosis]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Cancer]], [[Diabetes Mellitus]], [[Asthma]]
 - Suggested new entity notes to create: [[Keap1]], [[GCLM]], [[Glucoraphanin]], [[Myrosinase]]
-- Strong connections to strengthen: [[Sulforaphane]] ↔ [[NRF2]], [[Sulforaphane]] ↔ [[NF-κB]]
+  - Strong connections to strengthen: [[Sulforaphane]] ↔ [[NRF2]], [[Sulforaphane]] ↔ NF-κB

@@ -29,5 +29,5 @@ aliases: [CD40 Ligand, CD154]
 
 ## Linking Summary
 - New links added: [[CD40L]]
-- Strong connections to strengthen: [[CD40L]] ↔ [[CD40L]]
+  - Strong connections to strengthen: [[CD40L]] ↔ [[CD40L]]
 

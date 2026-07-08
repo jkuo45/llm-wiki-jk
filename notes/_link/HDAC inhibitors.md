@@ -30,5 +30,5 @@ aliases: [Histone Deacetylase Inhibitors, HDACi]
 
 ## Linking Summary
 - New links added: [[HDAC inhibitors]]
-- Strong connections to strengthen: [[HDAC inhibitors]] ↔ [[HDAC inhibitors]]
+  - Strong connections to strengthen: HDAC inhibitors ↔ HDAC inhibitors
 

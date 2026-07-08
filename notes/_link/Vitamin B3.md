@@ -33,4 +33,4 @@ Vitamin B3 is the primary substrate for [[NAD+|NAD⁺]] biosynthesis via the [[P
 ## Linking Summary
 - New links added: [[NAD+]], [[SIRT1]], [[DNA Repair]], [[Mitochondria]], [[Methylation]], [[Nicotinic acid]], [[Nicotinamide]], [[Nicotinamide Mononucleotide]], [[Nicotinamide Riboside]]
 - Suggested new entity notes to create: [[Preiss-Handler pathway]], [[NAMPT]], [[NNMT]]
-- Strong connections to strengthen: [[Vitamin B3]] ↔ [[NAD+]], [[Vitamin B3]] ↔ [[SIRT1]]
+  - Strong connections to strengthen: Vitamin B3 ↔ [[NAD+]], Vitamin B3 ↔ SIRT1

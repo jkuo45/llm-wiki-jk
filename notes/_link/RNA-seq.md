@@ -48,4 +48,4 @@ aliases: [RNA Sequencing, Whole Transcriptome Sequencing]
 ## Linking Summary
 - New links added: [[RNA]], [[Gene Expression]], [[Alternative Splicing]], [[RNA Editing]], [[cDNA]], [[Illumina]], [[PacBio]], [[Nanopore]], [[Transcriptomics]], [[Single-Cell RNA-seq]], [[miRNA]], [[siRNA]], [[piRNA]], [[PCR]], [[Poly-A Selection]], [[Ribosomal RNA]]
 - Suggested new entity notes to create: [[Read alignment]], [[Differential expression]], [[DESeq2]], [[Salmon (software)]], [[STAR aligner]], [[featureCounts]], [[scRNA-seq]], [[Long-read sequencing]]
-- Strong connections to strengthen: [[RNA-seq]] ↔ [[Gene Expression]], [[RNA-seq]] ↔ [[Transcriptomics]]
+  - Strong connections to strengthen: [[RNA-seq]] ↔ Gene Expression, [[RNA-seq]] ↔ Transcriptomics

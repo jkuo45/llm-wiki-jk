@@ -38,6 +38,8 @@ Beyond glycemic control, metformin is associated with reduced all-cause mortalit
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -64,4 +66,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Metformin]], [[Diabetes Mellitus]], [[Geroscience]], [[AMPK]], [[Caloric Restriction]], [[mTOR]], [[Autophagy]], [[SASP]], [[Epigenome]], [[Epigenetic Clock]], [[DNAmGrimAge]], [[DNA Methylation]], [[DNMT1]], [[Aging]], [[Autophagy Inducer]], [[Advanced Glycation End Products]], [[NFκB]], [[Diabetes]], [[Mitochondrial Complex I]], [[AMP]], [[ATP]], [[AMP-Activated Protein Kinase]], [[Glycerol-3-Phosphate Dehydrogenase]], [[Fructose-1, 6-Bisphosphatase]], [[Glucagon Signaling]], [[Adenylate Cyclase]], [[mTORC1]], [[Methylglyoxal]], [[Carboxymethyllysine]], [[Hydroimidazolone]], [[NRF2]], [[ARE]], [[Glyoxalase I]], [[RAGE]], [[C. elegans]], [[Mus musculus]], [[Hepatocellular Carcinoma]], [[Alzheimer's Disease]], [[Atherosclerosis]], [[Cellular Senescence]], [[Inflammaging]], [[Targeting Aging with Metformin]], [[Mitohormesis]], [[NADH]], [[NAD+]], [[SIRT1]], [[PGC1-α]], [[FOXO]], [[Superoxide Dismutase 2]], [[Catalase]], [[Glutathione]], [[Vitamin C]], [[Vitamin E]], [[Mitohormetic Redox-Relay]], [[Adrenochrome]], [[Carbazochrome]], [[Lactic Acidosis]], [[Rapamycin]], [[NAD+]], [[Urolithin A]], [[Colorectal Cancer]], [[Breast Cancer]], [[Cardiovascular Disease]], [[Cognitive Decline]], [[Akkermansia muciniphila]]
 - Suggested new entity notes to create: [[TAME Trial]], [[Geroprotectors]], [[Nir Barzilai]], [[Aging]], [[Mitohormetic Redox-Relay]], [[Targeting Aging with Metformin]]
-- Strong connections to strengthen: [[Metformin]] ↔ [[Aging]], [[Metformin]] ↔ [[AMPK]], [[Metformin]] ↔ [[Mitochondrial Complex I]], [[Metformin]] ↔ [[Advanced Glycation End Products]], [[Metformin]] ↔ [[Mitohormesis]]
+  - Strong connections to strengthen: [[Metformin]] ↔ [[Aging]], [[Metformin]] ↔ [[AMPK]], [[Metformin]] ↔ Mitochondrial Complex I, [[Metformin]] ↔ Advanced Glycation End Products, [[Metformin]] ↔ [[Mitohormesis]]

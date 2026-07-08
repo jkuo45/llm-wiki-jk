@@ -16,6 +16,8 @@ Hypoxia is a condition of low oxygen levels in tissues that acts as a stressful 
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -43,4 +45,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Macroautophagy]], [[Cancer]]
 - Suggested new entity notes to create: [[HIF1A]]
-- Strong connections to strengthen: [[Hypoxia]] ↔ [[Autophagosome]]
+  - Strong connections to strengthen: [[Hypoxia]] ↔ Autophagosome

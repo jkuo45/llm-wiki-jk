@@ -28,4 +28,4 @@ aliases: [mtROS, Mitochondrial reactive oxygen species]
 ## Linking Summary
 - New links added: [[Reactive Oxygen Species]], [[Mitochondria]], [[Oxidative Stress]], [[Apoptosis]], [[Mitohormesis]]
 - Suggested new entity notes to create: [[Complex I]], [[Complex III]], [[Superoxide]]
-- Strong connections to strengthen: [[Mitochondrial ROS]] ↔ [[Oxidative Stress]]
+  - Strong connections to strengthen: Mitochondrial ROS ↔ Oxidative Stress

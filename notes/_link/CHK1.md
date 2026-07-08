@@ -29,5 +29,5 @@ aliases: [Checkpoint Kinase 1]
 
 ## Linking Summary
 - New links added: [[CHK1]]
-- Strong connections to strengthen: [[CHK1]] ↔ [[CHK1]]
+  - Strong connections to strengthen: [[CHK1]] ↔ [[CHK1]]
 

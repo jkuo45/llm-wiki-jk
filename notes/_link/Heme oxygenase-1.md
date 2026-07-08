@@ -23,6 +23,8 @@ aliases: [HO-1, HMOX1]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -36,5 +38,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[Heme oxygenase-1]]
-- Strong connections to strengthen: [[Heme oxygenase-1]] ↔ [[Heme oxygenase-1]]
+  - Strong connections to strengthen: Heme oxygenase-1 ↔ Heme oxygenase-1
 

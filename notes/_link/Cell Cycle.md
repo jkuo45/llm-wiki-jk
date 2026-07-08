@@ -19,6 +19,8 @@ The cell cycle is the series of events leading to cell division; cell cycle regu
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -45,4 +47,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Cyclin]], [[Cyclin-Dependent Kinase]], [[CDK]], [[CDK Inhibitor]], [[G0 Phase]], [[G1 Phase]], [[S Phase]], [[Mitosis]], [[CDK4]]/[[CDK6]], [[TFEB]]
 - Suggested new entity notes to create: [[Quiescence]], [[DNA Replication]], [[Cyclin]]
-- Strong connections to strengthen: [[Cell Cycle]] ↔ [[Cancer]], [[Cell Cycle]] ↔ [[DNA Damage]], [[Cell Cycle]] ↔ [[CDK4]]/[[CDK6]]
+  - Strong connections to strengthen: Cell Cycle ↔ Cancer, Cell Cycle ↔ [[DNA Damage]], Cell Cycle ↔ CDK4]]/[[CDK6

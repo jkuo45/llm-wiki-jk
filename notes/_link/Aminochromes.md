@@ -30,6 +30,8 @@ The formation of aminochromes is often a sign of excessive catecholamine oxidati
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -47,4 +49,4 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[Aminochromes]], [[Oxidation]], [[Catecholamines]], [[Adrenochrome]], [[Epinephrine]], [[Dopaminochrome]], [[Dopamine]], [[Neuromelanin]], [[Redox Cycling]], [[Superoxide anion]], [[Oxidative Stress]], [[Cardiotoxicity]]
-- Strong connections to strengthen: [[Aminochromes]] ↔ [[Catecholamines]], [[Aminochromes]] ↔ [[Neuromelanin]]
+  - Strong connections to strengthen: [[Aminochromes]] ↔ [[Catecholamines]], [[Aminochromes]] ↔ Neuromelanin

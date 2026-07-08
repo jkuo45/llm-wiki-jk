@@ -17,6 +17,8 @@ Acetylation is a reversible post-translational modification involving the transf
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -43,4 +45,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Histone]], [[Histone Acetyltransferases]], [[HDAC]], [[Sirtuins]], [[Acetyl-CoA]], [[Chromatin]], [[Gene Expression]], [[p53]], [[NF-κB]], [[STAT3]], [[α-Tubulin]], [[PGC-1α]], [[Epigenetics]], [[Metabolism]], [[Cancer]], [[Neurodegeneration]], [[Metabolic Disease]], [[Aging]]
 - Suggested new entity notes to create: [[H3K9ac]], [[H3K27ac]], [[H4K16ac]], [[Non-histone Acetylation]]
-- Strong connections to strengthen: [[Acetylation]] ↔ [[Histone]], [[Acetylation]] ↔ [[Epigenetics]]
+  - Strong connections to strengthen: [[Acetylation]] ↔ [[Histone]], [[Acetylation]] ↔ Epigenetics

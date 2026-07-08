@@ -24,6 +24,8 @@ aliases: [SAMe]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -37,5 +39,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[S-adenosylmethionine]]
-- Strong connections to strengthen: [[S-adenosylmethionine]] ↔ [[S-adenosylmethionine]]
+  - Strong connections to strengthen: [[S-adenosylmethionine]] ↔ [[S-adenosylmethionine]]
 

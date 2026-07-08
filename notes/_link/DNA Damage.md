@@ -88,6 +88,8 @@ Rare genetic disorders from DDR deficiencies: [[Xeroderma Pigmentosum]] (skin ca
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -132,4 +134,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[DNA]], [[DNA Mutation]], [[Reactive Oxygen Species]], [[Mitochondria]], [[Oxidative Phosphorylation]], [[Hydrolysis]], [[Cytosine]], [[Uracil]], [[Mismatch Repair]], [[Lipid Peroxidation]], [[Malondialdehyde]], [[4-Hydroxynonenal]], [[Alkylation]], [[S-adenosylmethionine]], [[Ultraviolet Radiation]], [[Ionizing Radiation]], [[Cisplatin]], [[Doxorubicin]], [[Etoposide]], [[Cyclophosphamide]], [[Temozolomide]], [[Arsenic]], [[Cadmium]], [[ATM]], [[ATR]], [[DNA-PKcs]], [[CHK1]], [[CHK2]], [[p53]], [[BRCA1]], [[BRCA2]], [[RAD51]], [[H2AX]], [[γ-H2AX]], [[Base Excision Repair]], [[Nucleotide Excision Repair]], [[Non-Homologous End Joining]], [[Homologous Recombination]], [[OGG1]], [[APE1]], [[XRCC1]], [[Ku70]], [[Ku80]], [[MGMT]], [[PARP1]], [[PARP inhibitors]], [[Olaparib]], [[Niraparib]], [[Werner Syndrome]], [[Bloom Syndrome]], [[Ataxia Telangiectasia]], [[Cockayne Syndrome]], [[Xeroderma Pigmentosum]], [[Fanconi Anemia]], [[Lynch Syndrome]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Amyotrophic Lateral Sclerosis]], [[Telomere]], [[Cellular Senescence]], [[Apoptosis]], [[Stem Cell Exhaustion]], [[Cancer]], [[Breast Cancer]], [[ovarian cancer]], [[Colorectal Cancer]], [[Skin Cancer]], [[Oxidative Stress]], [[Aging]]
 - Suggested new entity notes to create: [[Direct Reversal repair]], [[AlkB homolog]], [[MRE11-RAD50-NBS1 complex]], [[Replication stress]], [[Clustered damage]], [[Synthetic lethality]], [[Genomic Instability]], [[Translesion synthesis]], [[Fanconi anemia pathway]]
-- Strong connections to strengthen: [[DNA Damage]] ↔ [[DNA Repair]], [[DNA Damage]] ↔ [[Aging]], [[DNA Damage]] ↔ [[Cancer]], [[DNA Damage]] ↔ [[Cellular Senescence]], [[DNA Damage]] ↔ [[Oxidative Stress]]
+  - Strong connections to strengthen: [[DNA Damage]] ↔ DNA Repair, [[DNA Damage]] ↔ [[Aging]], [[DNA Damage]] ↔ Cancer, [[DNA Damage]] ↔ Cellular Senescence, [[DNA Damage]] ↔ Oxidative Stress

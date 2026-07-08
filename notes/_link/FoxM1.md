@@ -18,6 +18,8 @@ aliases: [Forkhead box protein M1, FOXM1]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -31,5 +33,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[SIRT7]]
-- Strong connections to strengthen: [[FoxM1]] ↔ [[SIRT7]]
+  - Strong connections to strengthen: [[FoxM1]] ↔ SIRT7
 

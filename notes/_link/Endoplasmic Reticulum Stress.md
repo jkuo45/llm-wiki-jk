@@ -23,6 +23,8 @@ aliases: [ER Stress]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -37,4 +39,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Parkinson's Disease]], [[Reactive Oxygen Species]], [[Aminochrome]].
 - Suggested new entity notes to create: [[Unfolded Protein Response]], [[Proteostasis]].
-- Strong connections to strengthen: [[Endoplasmic Reticulum Stress]] ↔ [[Proteostasis]].
+  - Strong connections to strengthen: Endoplasmic Reticulum Stress ↔ [[Proteostasis]].

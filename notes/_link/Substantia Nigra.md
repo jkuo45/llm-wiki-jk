@@ -28,6 +28,8 @@ The SNpc is vital for:
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -58,4 +60,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Adrenochrome]], [[Aminochromes]], [[Bradykinesia]], [[COMT]], [[Catecholamines]], [[Dopamine]], [[Dopaminergic Neurons]], [[Neuromelanin]], [[Nigrostriatal System]], [[Parkinson's Disease]], [[Sirtuins]], [[Substantia Nigra Pars Compacta]], [[Ventral Tegmental Area]]
 - Suggested new entity notes to create: [[Basal Ganglia]], [[Midbrain]], [[GABAergic Neurons]]
-- Strong connections to strengthen: [[Substantia Nigra]] ↔ [[Parkinson's Disease]], [[Substantia Nigra]] ↔ [[Sirtuins]]
+  - Strong connections to strengthen: Substantia Nigra ↔ [[Parkinson's Disease]], Substantia Nigra ↔ Sirtuins

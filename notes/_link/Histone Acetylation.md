@@ -34,5 +34,5 @@ aliases: []
 
 ## Linking Summary
 - New links added: [[Histone Acetyltransferase]], [[Histone Deacetylase]], [[SIRT1]], [[Epigenetics]], [[Chromatin]], [[Histone Modification]]
-- Strong connections to strengthen: [[Histone Acetylation]] ↔ [[Histone Acetyltransferase]], [[Histone Acetylation]] ↔ [[Histone Deacetylase]], [[Histone Acetylation]] ↔ [[SIRT1]], [[Histone Acetylation]] ↔ [[Epigenetics]], [[Histone Acetylation]] ↔ [[Chromatin]]
+  - Strong connections to strengthen: Histone Acetylation ↔ Histone Acetyltransferase, Histone Acetylation ↔ Histone Deacetylase, Histone Acetylation ↔ SIRT1, Histone Acetylation ↔ Epigenetics, Histone Acetylation ↔ [[Chromatin]]
 

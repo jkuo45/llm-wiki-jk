@@ -35,4 +35,4 @@ Metabotypes refine risk stratification beyond body-mass-index or single biomarke
 
 - New links added: [[Metabolome]], [[Metabolic Syndrome]], [[Biomarker]], [[Personalized Medicine]], [[PPARγ]], [[Obesity]]
 - Suggested new entity notes to create: [[NAD+ Metabotype]], [[Endotype]]
-- Strong connections to strengthen: [[Metabotypes]] ↔ [[Personalized Medicine]]
+  - Strong connections to strengthen: [[Metabotypes]] ↔ Personalized Medicine

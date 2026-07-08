@@ -24,6 +24,8 @@ aliases: [Dopamine Transporter]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -37,5 +39,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[DAT]]
-- Strong connections to strengthen: [[DAT]] ↔ [[DAT]]
+  - Strong connections to strengthen: [[DAT]] ↔ [[DAT]]
 

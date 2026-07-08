@@ -24,6 +24,8 @@ aliases: [Harakiri, BCL2 Interacting Protein]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -37,5 +39,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[Hrk]]
-- Strong connections to strengthen: [[Hrk]] ↔ [[Hrk]]
+  - Strong connections to strengthen: [[Hrk]] ↔ [[Hrk]]
 

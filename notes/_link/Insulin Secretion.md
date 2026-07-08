@@ -28,5 +28,5 @@ aliases: []
 
 ## Linking Summary
 - New links added: [[Insulin Secretion]]
-- Strong connections to strengthen: [[Insulin Secretion]] ↔ [[Insulin Secretion]]
+  - Strong connections to strengthen: Insulin Secretion ↔ Insulin Secretion
 

@@ -27,6 +27,8 @@ aliases:
 ## Supplementation
 [[SAMe]] is used as a supplement for mood support, joint health, and liver function. However, individuals with slow [[COMT]] genotypes may be sensitive to [[SAMe]] as it can rapidly influence [[Neurotransmitters]] levels.
 
+# 
+
 ## Documents
 
 List of documents that mention this entity

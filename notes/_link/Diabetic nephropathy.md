@@ -29,5 +29,5 @@ aliases: [Diabetic Kidney Disease]
 
 ## Linking Summary
 - New links added: [[Diabetic nephropathy]]
-- Strong connections to strengthen: [[Diabetic nephropathy]] ↔ [[Diabetic nephropathy]]
+  - Strong connections to strengthen: Diabetic nephropathy ↔ Diabetic nephropathy
 

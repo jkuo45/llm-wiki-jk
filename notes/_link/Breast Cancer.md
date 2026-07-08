@@ -28,6 +28,8 @@ aliases: []
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -69,4 +71,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Akt]], [[Autophagy]], [[Beclin1]], [[BRCA1]], [[CK2]], [[Caloric Restriction]], [[Cancer Stem Cells]], [[HER2]], [[Honeybee venom]], [[Ivermectin]], [[MCF-7]], [[PAK1]], [[SIRT1]], [[melittin]], [[mTOR]], [[Pyroptosis]], [[triple-negative breast cancer]], [[Caspase-7]], [[Puma]], [[Bcl-xL]], [[Mcl-1]], [[HER2-enriched breast cancer]]
 - Suggested new entity notes to create: [[HER2]], [[ER]], [[PR]], [[MCF-7]], [[PAK1]], [[CK2]], [[Pyroptosis]]
-- Strong connections to strengthen: [[Breast Cancer]] ↔ [[Beclin1]], [[Breast Cancer]] ↔ [[BRCA1]], [[Breast Cancer]] ↔ [[Ivermectin]], [[Caspase-7]] ↔ [[Breast Cancer]]
+  - Strong connections to strengthen: Breast Cancer ↔ Beclin1, Breast Cancer ↔ BRCA1, Breast Cancer ↔ Ivermectin, Caspase-7 ↔ Breast Cancer

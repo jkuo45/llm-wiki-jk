@@ -24,6 +24,8 @@ aliases: [Myocardial Fibrosis]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -37,5 +39,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[Cardiac Fibrosis]]
-- Strong connections to strengthen: [[Cardiac Fibrosis]] ↔ [[Cardiac Fibrosis]]
+  - Strong connections to strengthen: Cardiac Fibrosis ↔ Cardiac Fibrosis
 

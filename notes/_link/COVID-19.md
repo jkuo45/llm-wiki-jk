@@ -24,6 +24,8 @@ aliases: [Coronavirus Disease 2019]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -40,5 +42,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[COVID-19]]
-- Strong connections to strengthen: [[COVID-19]] ↔ [[COVID-19]]
+  - Strong connections to strengthen: [[COVID-19]] ↔ [[COVID-19]]
 

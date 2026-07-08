@@ -24,6 +24,8 @@ aliases: [Tuberous Sclerosis Complex, TSC1/TSC2]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -37,5 +39,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[TSC]]
-- Strong connections to strengthen: [[TSC]] ↔ [[TSC]]
+  - Strong connections to strengthen: [[TSC]] ↔ [[TSC]]
 

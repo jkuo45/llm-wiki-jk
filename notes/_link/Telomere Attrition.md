@@ -50,6 +50,8 @@ Beyond monogenic TBDs, short telomeres are epidemiologically associated with inc
 
 Therapeutic strategies targeting telomere attrition include telomerase gene therapy (experimental [[TERT]] AAV delivery, shown to extend lifespan in aged mice without increasing cancer incidence in some studies), telomerase activators such as TA-65 (a cycloastragenol-derived supplement with limited clinical evidence), senolytics ([[Senolytic Drugs|dasatinib]] + [[Quercetin]], navitoclax) that selectively clear senescent cells harboring short telomeres, and anti-telomerase cancer therapies. Imetelstat (GRN163L), a competitive telomerase inhibitor, has progressed through clinical trials for hematologic malignancies including myelodysplastic syndromes and myelofibrosis.
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -94,4 +96,4 @@ List of documents that mention this entity
 
 - New links added: [[Aging]], [[Cellular Senescence]], [[Senescence]], [[SASP]], [[DNA Damage]], [[Genomic Instability]], [[Telomerase]], [[p53]], [[p16]], [[ATM]], [[Apoptosis]], [[Stem Cell Exhaustion]], [[Immunosenescence]], [[Inflammation]], [[Inflammaging]], [[Oxidative Stress]], [[Cardiovascular Disease]], [[Alzheimer's Disease]], [[Senolytics]], [[Hematopoietic Stem Cell]], [[Caloric Restriction]], [[Replicative Senescence]], [[Hallmarks of Aging]], [[TRF1]], [[TRF2]], [[POT1]], [[TIN2]], [[TPP1]], [[RAP1]], [[TERT]], [[TERC]], [[DKC1]], [[53BP1]], [[Ku70]], [[Ku80]], [[BRCA1]]
 - Suggested new entity notes to create: [[Telomere]], [[Shelterin Complex]], [[T-loop]], [[ALT (Alternative Lengthening of Telomeres)]], [[Telomere Biology Disorders]], [[Idiopathic Pulmonary Fibrosis]], [[Dyskeratosis Congenita]], [[Imetelstat]], [[TA-65]]
-- Strong connections to strengthen: [[Telomere Attrition]] ↔ [[Hallmarks of Aging]], [[Telomere Attrition]] ↔ [[Replicative Senescence]], [[Telomere Attrition]] ↔ [[Telomerase]], [[Telomere Attrition]] ↔ [[Cellular Senescence]]
+  - Strong connections to strengthen: Telomere Attrition ↔ Hallmarks of Aging, Telomere Attrition ↔ Replicative Senescence, Telomere Attrition ↔ [[Telomerase]], Telomere Attrition ↔ Cellular Senescence

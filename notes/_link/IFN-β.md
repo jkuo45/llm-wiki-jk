@@ -24,6 +24,8 @@ IFN-β is a primary output of the [[cGAS-STING Pathway|cGAS-STING]] pathway in [
 ## Clinical Relevance
 Persistent IFN-β signaling, driven by cytosolic [[mtDNA]] or chromatin fragments, is a major contributor to sterile [[Inflammaging]].
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -42,4 +44,4 @@ List of documents that mention this entity
 ## Linking Summary
 
   - New links added: [[cGAS-STING Pathway|cGAS-STING]], [[IRF3]], [[Senescent Cells]], [[Senescence-Associated Secretory Phenotype|SASP]], [[Inflammaging]]
-  - Strong connections to strengthen: [[IFN-β]] ↔ [[cGAS-STING Pathway|cGAS-STING]]
+  - Strong connections to strengthen: [[IFN-β]] ↔ cGAS-STING Pathway|cGAS-STING

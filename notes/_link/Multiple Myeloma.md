@@ -44,6 +44,8 @@ A key resistance mechanism to anti-CD38 mAbs is **CD38 downregulation** on myelo
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -65,4 +67,4 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[Mcl-1]], [[leukemia]], [[Lymphoma]], [[CD38]], [[Daratumumab]], [[Isatuximab]], [[Cancer]], [[Tumor Microenvironment]], [[NAD+]]
-- Strong connections to strengthen: [[Mcl-1]] ↔ [[Multiple Myeloma]]
+  - Strong connections to strengthen: Mcl-1 ↔ Multiple Myeloma

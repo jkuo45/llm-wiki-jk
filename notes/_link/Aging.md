@@ -38,6 +38,8 @@ Epigenetic dysregulation is considered one of the **hallmarks of aging**. It act
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -93,4 +95,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Autophagy]], [[Caloric Restriction]], [[Cancer]], [[Cardiovascular Disease]], [[Cellular Senescence]], [[Chromatin]], [[DNA Methylation]], [[Epigenetic Clock]], [[Epigenetics]], [[Epigenome]], [[Euchromatin]], [[Genomic Instability]], [[Geroscience]], [[HDAC]], [[Heterochromatin]], [[Histone Modification]], [[Metabolic Syndromes]], [[MicroRNA]], [[Neurodegenerative Diseases]], [[Non-coding RNA]], [[Senolytics]], [[Cellular Senescence]]., [[Advanced Glycation End Products]], [[Oxidative Stress]], [[Inflammation]], [[Lifespan]]
 - Suggested new entity notes to create: [[Epigenetic Drift]], [[Epigenetic Rejuvenation]], [[Inflammaging]], [[Senescence]], [[Yamanaka Factors]]
-- Strong connections to strengthen: [[Aging]] ↔ [[DNA Methylation]], [[Aging]] ↔ [[Epigenetic Clock]], [[Aging]] ↔ [[Mitochondrial Dysfunction]], [[Advanced Glycation End Products]] ↔ [[Aging]]
+  - Strong connections to strengthen: [[Aging]] ↔ DNA Methylation, [[Aging]] ↔ Epigenetic Clock, [[Aging]] ↔ Mitochondrial Dysfunction, Advanced Glycation End Products ↔ [[Aging]]

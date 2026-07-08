@@ -28,5 +28,5 @@ aliases: [Fat]
 
 ## Linking Summary
 - New links added: [[Adipose Tissue]]
-- Strong connections to strengthen: [[Adipose Tissue]] ↔ [[Adipose Tissue]]
+  - Strong connections to strengthen: Adipose Tissue ↔ Adipose Tissue
 

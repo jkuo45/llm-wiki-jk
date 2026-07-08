@@ -29,5 +29,5 @@ aliases: [Mitofusin 1]
 
 ## Linking Summary
 - New links added: [[MFN1]]
-- Strong connections to strengthen: [[MFN1]] ↔ [[MFN1]]
+  - Strong connections to strengthen: [[MFN1]] ↔ [[MFN1]]
 

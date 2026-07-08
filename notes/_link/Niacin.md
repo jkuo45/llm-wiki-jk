@@ -24,6 +24,8 @@ aliases: [Vitamin B3, Nicotinic Acid]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -37,5 +39,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[Niacin]]
-- Strong connections to strengthen: [[Niacin]] ↔ [[Niacin]]
+  - Strong connections to strengthen: [[Niacin]] ↔ [[Niacin]]
 

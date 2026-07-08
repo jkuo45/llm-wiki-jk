@@ -39,4 +39,4 @@ HtrA2 mutations (e.g., [[HtrA2-G399S]]) are associated with [[Parkinson's Diseas
 ## Linking Summary
 - New links added: [[Mitochondria]], [[Cytosol]], [[Serine Protease]], [[Protease]], [[Apoptosis]], [[XIAP]], [[cIAP1]], [[cIAP2]], [[Caspase]], [[Parkinson's Disease]], [[Neurodegeneration]], [[Mitochondrial Dysfunction]], [[UV Radiation]], [[Staurosporine]], [[Proteostasis]], [[Cancer]]
 - Suggested new entity notes to create: [[IAP-binding motif]], [[Mitochondrial intermembrane space]], [[PDZ domain]], [[HtrA2-G399S]], [[Serine protease HTRA family]]
-- Strong connections to strengthen: [[Omi-HtrA2]] ↔ [[Apoptosis]], [[Omi-HtrA2]] ↔ [[Parkinson's Disease]]
+  - Strong connections to strengthen: Omi-HtrA2 ↔ [[Apoptosis]], Omi-HtrA2 ↔ [[Parkinson's Disease]]

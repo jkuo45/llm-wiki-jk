@@ -34,8 +34,10 @@ Current therapeutic approaches aim to break the cycle of oxidative damage and ne
 - New links added in this revision: [[Hydrogen Peroxide]], [[Ascorbic Acid]], [[Dopamine]], [[Malondialdehyde]], [[Malondialdehyde]], [[PP2A]], [[Dopaminergic Neurons]], [[Monoamine oxidase]], [[Autoxidation]], [[Alpha-synuclein]], [[Proteasome]], [[Neuroinflammation]], [[Macrophage]], [[Peroxynitrite]], [[Nitrative Stress]], [[Lewy Bodies]], [[Fenton Reaction]], [[Unfolded Protein Response]], [[Autophagy]], [[Endoplasmic Reticulum Stress]], [[NADPH Oxidase]], [[Motor Neurons]], [[Toll-like Receptor]], [[Glutathione]], [[NFKB]], [[NRF2]], [[Coenzyme Q10]], [[Mitochondrial ROS]], [[N-Acetylcysteine]], [[Vitamin E]], [[Curcumin]], [[Resveratrol]], [[Caloric Restriction]], [[FOXO]], [[Mitophagy]], [[Exercise]], [[PGC1-α]], [[MitoQ]], [[4-Hydroxynonenal]], [[Iron]], [[TNF-alpha]], [[IL-1b]], [[Apoptosis]], [[MPTP]], [[Rotenone]], [[6-hydroxydopamine]], [[Superoxide Dismutase]]
 - New links added: [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Oxidative Stress]], [[Advanced Glycation End Products]], [[Lipid Peroxidation]], [[Proteins]], [[Mitochondria]], [[Amyloid Beta]], [[Tau Protein]], [[Substantia Nigra]], [[Amyotrophic Lateral Sclerosis]], [[Superoxide Dismutase]]
 - Suggested new entity notes to create: [[Lewy Bodies]], [[MPTP]], [[Rotenone]], [[6-OHDA]], [[EAAT2]], [[A1 Astrocytes]], [[PROOF Trial]], [[Motor neurons]]
-- Strong connections to strengthen: [[Oxidative Stress]] ↔ [[Neurodegeneration]], [[Neurodegeneration]] ↔ [[Oxidative Stress]]
+  - Strong connections to strengthen: Oxidative Stress ↔ [[Neurodegeneration]], [[Neurodegeneration]] ↔ Oxidative Stress
 #
+
+# 
 
 ## Documents
 

@@ -51,4 +51,4 @@ Satellite cell number and function decline with age, contributing to [[Sarcopeni
 ## Linking Summary
 - New links added: [[Muscle Stem Cell]], [[Skeletal Muscle]], [[Basal Lamina]], [[Sarcolemma]], [[Pax7]], [[MyoD]], [[Myogenin]], [[Myf5]], [[Myoblasts]], [[G0 Phase]], [[Muscle Injury]], [[Exercise]], [[HGF]], [[c-Met]], [[Sarcopenia]], [[Cellular Senescence]], [[Autophagy]], [[Mitochondrial Dysfunction]], [[Notch Signaling]], [[Caloric Restriction]], [[Aging]]
 - Suggested new entity notes to create: [[Myogenic regulatory factors]], [[Muscle regeneration]], [[Self-renewal]], [[Satellite cell niche]], [[Quiescence]]
-- Strong connections to strengthen: [[Satellite Cell]] ↔ [[Skeletal Muscle]], [[Satellite Cell]] ↔ [[Sarcopenia]], [[Satellite Cell]] ↔ [[Exercise]]
+  - Strong connections to strengthen: Satellite Cell ↔ Skeletal Muscle, Satellite Cell ↔ Sarcopenia, Satellite Cell ↔ [[Exercise]]

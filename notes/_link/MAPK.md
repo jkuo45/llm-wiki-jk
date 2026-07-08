@@ -30,6 +30,8 @@ MAPK signaling can influence the [[Epigenome]] by phosphorylating histones and r
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -66,4 +68,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[MAPK]], [[Aging]], [[Cellular Senescence]], [[SASP]], [[Epigenome]], [[Histone Modification]], [[PTEN]]
 - Suggested new entity notes to create: [[p38 MAPK]], [[JNK Pathway]], [[ERK Pathway]]
-- Strong connections to strengthen: [[MAPK]] ↔ [[Cellular Senescence]], [[MAPK]] ↔ [[SASP]]
+  - Strong connections to strengthen: [[MAPK]] ↔ Cellular Senescence, [[MAPK]] ↔ [[SASP]]

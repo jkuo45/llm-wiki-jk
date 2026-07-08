@@ -21,6 +21,8 @@ Upon activation by various stimuli (e.g., [[TNF-α]], [[IL-1β]], [[DNA Damage]]
 ## Role in Senescence
 The IKK complex is a key mediator of [[NFKB|NF-κB]] activation in [[Senescent Cells]], driving the expression of pro-inflammatory [[Senescence-Associated Secretory Phenotype|SASP]] factors.
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -38,4 +40,4 @@ List of documents that mention this entity
 ## Linking Summary
 
   - New links added: [[NFKB|NF-κB]], [[IkappaB]], [[Senescent Cells]], [[Senescence-Associated Secretory Phenotype|SASP]]
-  - Strong connections to strengthen: [[IKK complex]] ↔ [[NF-κB]]
+  - Strong connections to strengthen: IKK complex ↔ NF-κB

@@ -24,6 +24,8 @@ aliases: [RHOT1]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -37,5 +39,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[Miro1]]
-- Strong connections to strengthen: [[Miro1]] ↔ [[Miro1]]
+  - Strong connections to strengthen: [[Miro1]] ↔ [[Miro1]]
 

@@ -16,6 +16,8 @@ Cell proliferation is the process by which cells grow and divide to produce daug
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -40,4 +42,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Cell Cycle]], [[Cell Division]], [[Growth Factor]], [[Cyclin]], [[CDK]], [[Rb]], [[E2F]], [[MYC]], [[RAS]], [[PI3K]], [[Akt]], [[mTORC1]], [[Cancer]], [[Oncogene]], [[Tumor Suppressor]], [[Apoptosis]], [[Cellular Senescence]], [[Wound Healing]]
 - Suggested new entity notes to create: [[Growth Factor Signaling]], [[Cyclin-CDK Complex]]
-- Strong connections to strengthen: [[Cell Proliferation]] ↔ [[Cell Cycle]], [[Cell Proliferation]] ↔ [[Cancer]]
+  - Strong connections to strengthen: Cell Proliferation ↔ Cell Cycle, Cell Proliferation ↔ Cancer

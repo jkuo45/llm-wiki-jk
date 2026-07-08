@@ -42,4 +42,4 @@ Bone marrow is the target of [[Bone Marrow Transplantation]] (hematopoietic stem
 ## Linking Summary
 - New links added: [[Hematopoiesis]], [[Hematopoietic Stem Cell]], [[Progenitor Cells]], [[Erythrocytes]], [[Platelets]], [[Granulocytes]], [[Monocytes]], [[Lymphocytes]], [[Stromal Cells]], [[Osteoblasts]], [[Endothelial cells]], [[Bone Marrow Transplantation]], [[leukemia]], [[Lymphoma]], [[Multiple Myeloma]], [[Aplastic Anemia]], [[Chemotherapy]], [[Radiation Therapy]], [[Adipose Tissue]]
 - Suggested new entity notes to create: [[Bone Marrow Microenvironment]], [[Myelosuppression]], [[Hematopoietic niche]], [[Stromal cell]], [[Progenitor Cell]]
-- Strong connections to strengthen: [[Bone Marrow]] ↔ [[Hematopoietic Stem Cell]], [[Bone Marrow]] ↔ [[Hematopoiesis]], [[Bone Marrow]] ↔ [[leukemia]]
+  - Strong connections to strengthen: Bone Marrow ↔ Hematopoietic Stem Cell, Bone Marrow ↔ [[Hematopoiesis]], Bone Marrow ↔ leukemia

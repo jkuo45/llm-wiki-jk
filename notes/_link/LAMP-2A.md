@@ -24,6 +24,8 @@ aliases: [Lysosomal-Associated Membrane Protein 2A]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -37,5 +39,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[LAMP-2A]]
-- Strong connections to strengthen: [[LAMP-2A]] ↔ [[LAMP-2A]]
+  - Strong connections to strengthen: [[LAMP-2A]] ↔ [[LAMP-2A]]
 

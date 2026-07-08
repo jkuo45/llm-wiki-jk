@@ -29,5 +29,5 @@ aliases: [Flavin Adenine Dinucleotide]
 
 ## Linking Summary
 - New links added: [[FAD]]
-- Strong connections to strengthen: [[FAD]] ↔ [[FAD]]
+  - Strong connections to strengthen: [[FAD]] ↔ [[FAD]]
 

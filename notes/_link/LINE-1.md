@@ -28,5 +28,5 @@ aliases: []
 
 ## Linking Summary
 - New links added: [[Transposable Elements]], [[Genomic Instability]], [[SIRT6]]
-- Strong connections to strengthen: [[LINE-1]] ↔ [[Transposable Elements]], [[LINE-1]] ↔ [[Genomic Instability]], [[LINE-1]] ↔ [[SIRT6]]
+  - Strong connections to strengthen: [[LINE-1]] ↔ Transposable Elements, [[LINE-1]] ↔ Genomic Instability, [[LINE-1]] ↔ SIRT6
 

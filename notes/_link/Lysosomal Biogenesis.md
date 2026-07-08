@@ -41,4 +41,4 @@ Impaired lysosomal biogenesis underlies [[Lysosomal Storage Disorders]] ([[Mucop
 ## Linking Summary
 - New links added: [[Lysosome]], [[TFEB]], [[TFE3]], [[MITF]], [[CLEAR Element]], [[mTORC1]], [[Autophagy]], [[Autophagic Flux]], [[TRPML1]], [[Trehalose]], [[Spermidine]], [[TFEB|TFEB]], [[Proteostasis]], [[Neuromelanin]], [[Autophagy]].
 - Suggested new entity notes to create: [[CLEAR Motif]], [[Lysosomal Enzymes]].
-- Strong connections to strengthen: [[Lysosomal Biogenesis]] ↔ [[TFEB|TFEB]].
+  - Strong connections to strengthen: Lysosomal Biogenesis ↔ [[TFEB|TFEB]].

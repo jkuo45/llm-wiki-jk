@@ -30,5 +30,5 @@ aliases: [Inflammatory Cytokines]
 
 ## Linking Summary
 - New links added: [[Pro-inflammatory Cytokines]]
-- Strong connections to strengthen: [[Pro-inflammatory Cytokines]] ↔ [[Pro-inflammatory Cytokines]]
+  - Strong connections to strengthen: Pro-inflammatory Cytokines ↔ Pro-inflammatory Cytokines
 

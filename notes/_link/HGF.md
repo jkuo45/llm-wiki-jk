@@ -24,6 +24,8 @@ aliases: [Hepatocyte Growth Factor]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -37,5 +39,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[HGF]]
-- Strong connections to strengthen: [[HGF]] ↔ [[HGF]]
+  - Strong connections to strengthen: [[HGF]] ↔ [[HGF]]
 

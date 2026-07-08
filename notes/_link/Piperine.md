@@ -28,5 +28,5 @@ aliases: []
 
 ## Linking Summary
 - New links added: [[Piperine]]
-- Strong connections to strengthen: [[Piperine]] ↔ [[Piperine]]
+  - Strong connections to strengthen: [[Piperine]] ↔ [[Piperine]]
 

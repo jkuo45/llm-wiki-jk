@@ -23,6 +23,8 @@ Glutathione (GSH) is a tripeptide (composed of glutamate, cysteine, and glycine)
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -48,4 +50,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Adrenochrome]], [[Glutathione Peroxidase]], [[Alpha-Lipoic Acid]], [[Oxidative Stress]]
 - Suggested new entity notes to create: [[Glutathione Reductase]], [[GSSG]], [[Cysteine]]
-- Strong connections to strengthen: [[Glutathione]] ↔ [[Glutathione Peroxidase]]
+  - Strong connections to strengthen: [[Glutathione]] ↔ Glutathione Peroxidase

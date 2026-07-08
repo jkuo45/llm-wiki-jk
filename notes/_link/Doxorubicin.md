@@ -25,6 +25,8 @@ Resistance to doxorubicin is a common clinical problem, often mediated by the ov
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -48,4 +50,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Breast Cancer]], [[leukemia]], [[Oxidative Stress]], [[Intrinsic Pathway]], [[Apoptosis]], [[Bcl-2]], [[Bmi-1]], [[DNA Damage]], [[Senescence]]
 - Suggested new entity notes to create: [[Bmi-1]]
-- Strong connections to strengthen: [[Doxorubicin]] ↔ [[Bmi-1]], [[Doxorubicin]] <-> [[DNA Damage]]
+  - Strong connections to strengthen: [[Doxorubicin]] ↔ Bmi-1, [[Doxorubicin]] <-> [[DNA Damage]]

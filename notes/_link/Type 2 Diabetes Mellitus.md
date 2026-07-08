@@ -28,6 +28,8 @@ aliases: [T2DM, Type 2 diabetes, Non-insulin-dependent diabetes mellitus, Adult-
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity

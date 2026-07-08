@@ -16,6 +16,8 @@ CDK that regulates G1/S transition and S phase progression in complex with cycli
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -37,4 +39,4 @@ List of documents that mention this entity
 - [[Bak]] — interacts with CDK2
 ## Linking Summary
 - New links added: [[CDK2]], [[Mcl-1]], [[Bim]], [[Noxa]], [[Bak]], [[Phosphorylation]]
-- Strong connections to strengthen: [[CDK2]] ↔ [[Mcl-1]]
+  - Strong connections to strengthen: [[CDK2]] ↔ Mcl-1

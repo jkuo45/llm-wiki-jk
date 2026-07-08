@@ -29,5 +29,5 @@ aliases: [BH4]
 
 ## Linking Summary
 - New links added: [[Tetrahydrobiopterin]]
-- Strong connections to strengthen: [[Tetrahydrobiopterin]] ↔ [[Tetrahydrobiopterin]]
+  - Strong connections to strengthen: [[Tetrahydrobiopterin]] ↔ [[Tetrahydrobiopterin]]
 

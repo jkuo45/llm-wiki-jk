@@ -32,5 +32,5 @@ aliases: []
 
 ## Linking Summary
 - New links added: [[Histone Methyltransferase]], [[Epigenetics]], [[Histone Modification]], [[Heterochromatin]]
-- Strong connections to strengthen: [[Histone Methylation]] ↔ [[Histone Methyltransferase]], [[Histone Methylation]] ↔ [[Epigenetics]], [[Histone Methylation]] ↔ [[Histone Modification]], [[Histone Methylation]] ↔ [[Heterochromatin]]
+  - Strong connections to strengthen: Histone Methylation ↔ Histone Methyltransferase, Histone Methylation ↔ Epigenetics, Histone Methylation ↔ Histone Modification, Histone Methylation ↔ [[Heterochromatin]]
 

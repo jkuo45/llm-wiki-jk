@@ -23,6 +23,8 @@ Stroke involves [[Oxidative Stress]], [[Inflammation]], [[Excitotoxicity]], and 
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -40,4 +42,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Oxidative Stress]], [[Inflammation]], [[Apoptosis]], [[Cardiovascular Disease]], [[Ischemia-reperfusion Injury]], [[Aging]]
 - Suggested new entity notes to create: [[Thrombectomy]], [[tPA]], [[Excitotoxicity]]
-- Strong connections to strengthen: [[Stroke]] ↔ [[Ischemia-reperfusion Injury]]
+  - Strong connections to strengthen: [[Stroke]] ↔ Ischemia-reperfusion Injury

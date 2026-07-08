@@ -17,6 +17,8 @@ aliases: [ApoB, Apolipoprotein B-100]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -33,4 +35,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[LDL]], [[Atherosclerosis]], [[Cardiovascular Disease]]
 - Suggested new entity notes to create: [[LDL Receptor]], [[ApoB-48]], [[ApoE]]
-- Strong connections to strengthen: [[Apolipoprotein B]] ↔ [[LDL]]
+  - Strong connections to strengthen: Apolipoprotein B ↔ [[LDL]]

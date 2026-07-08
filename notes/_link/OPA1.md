@@ -29,5 +29,5 @@ aliases: [Optic Atrophy 1]
 
 ## Linking Summary
 - New links added: [[OPA1]]
-- Strong connections to strengthen: [[OPA1]] ↔ [[OPA1]]
+  - Strong connections to strengthen: [[OPA1]] ↔ [[OPA1]]
 

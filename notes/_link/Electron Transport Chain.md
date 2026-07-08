@@ -17,6 +17,8 @@ The Electron Transport Chain (ETC) is a series of protein complexes in the inner
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -41,4 +43,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Mitochondria]], [[ATP]], [[ATP Synthase]], [[Proton Motive Force]], [[Complex I]], [[Complex II]], [[Complex III]], [[Complex IV]], [[Coenzyme Q10]], [[Cytochrome c]], [[Superoxide]], [[Reactive Oxygen Species]], [[Oxidative Phosphorylation]], [[Mitochondrial Disease]], [[Neurodegeneration]], [[Aging]], [[metabolic disorders]]
 - Suggested new entity notes to create: [[NADH Dehydrogenase Complex I]], [[Succinate Dehydrogenase Complex II]]
-- Strong connections to strengthen: [[Electron Transport Chain]] ↔ [[Mitochondria]], [[Electron Transport Chain]] ↔ [[Reactive Oxygen Species]]
+  - Strong connections to strengthen: Electron Transport Chain ↔ [[Mitochondria]], Electron Transport Chain ↔ Reactive Oxygen Species

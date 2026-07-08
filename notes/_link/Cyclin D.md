@@ -24,6 +24,8 @@ aliases: [CCND]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -37,5 +39,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[Cyclin D]]
-- Strong connections to strengthen: [[Cyclin D]] ↔ [[Cyclin D]]
+  - Strong connections to strengthen: Cyclin D ↔ Cyclin D
 

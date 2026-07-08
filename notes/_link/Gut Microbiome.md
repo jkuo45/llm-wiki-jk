@@ -16,9 +16,11 @@ The gut microbiome consists of trillions of microorganisms, including bacteria, 
 ## Linking Summary
 - New links added: [[Aging]], [[Immune System]], [[Metabolism]], [[Gut-Brain Axis]], [[Short-chain Fatty Acids]]
 - Suggested new entity notes to create: [[Immune System]], [[Gastrointestinal Tract]]
-- Strong connections to strengthen: [[Gut Microbiome]] ↔ [[Aging]]
+  - Strong connections to strengthen: Gut Microbiome ↔ [[Aging]]
 
 #
+
+# 
 
 ## Documents
 

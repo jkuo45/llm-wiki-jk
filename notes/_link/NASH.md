@@ -24,6 +24,8 @@ aliases: [Nonalcoholic Steatohepatitis]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -37,5 +39,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[NASH]]
-- Strong connections to strengthen: [[NASH]] ↔ [[NASH]]
+  - Strong connections to strengthen: [[NASH]] ↔ [[NASH]]
 

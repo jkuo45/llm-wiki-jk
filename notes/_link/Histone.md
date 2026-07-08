@@ -35,4 +35,4 @@ Histones are basic nuclear proteins that package [[DNA]] into [[Nucleosome]]s, t
 ## Linking Summary
 - New links added: [[DNA]], [[Nucleosome]], [[Chromatin]], [[Epigenetics]], [[Histone H3]], [[Histone H4]], [[Histone H2A]], [[Histone H2B]], [[Histone H1]], [[Acetylation]], [[Methylation]], [[Phosphorylation]], [[Ubiquitination]], [[SUMOylation]], [[Gene Expression]], [[DNA Repair]], [[DNA Replication]], [[Chromosome Condensation]], [[HAT]], [[HDAC]], [[Bromodomain]], [[Chromodomain]], [[Cancer]]
 - Suggested new entity notes to create: [[Histone Code]], [[Reader Domain]], [[HMT Histone Methyltransferase]], [[KDM Histone Demethylase]]
-- Strong connections to strengthen: [[Histone]] ↔ [[Nucleosome]], [[Histone]] ↔ [[Epigenetics]]
+  - Strong connections to strengthen: [[Histone]] ↔ [[Nucleosome]], [[Histone]] ↔ Epigenetics

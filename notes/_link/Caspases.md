@@ -18,6 +18,8 @@ aliases: [Caspase, Cysteine-aspartic proteases]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -37,4 +39,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Apoptosis]], [[Inflammation]], [[Pyroptosis]], [[Oxidative Stress]]
 - Suggested new entity notes to create: [[Caspase-3]], [[Caspase-8]], [[Caspase-9]], [[Inflammasome]]
-- Strong connections to strengthen: [[Caspases]] ↔ [[Apoptosis]]
+  - Strong connections to strengthen: [[Caspases]] ↔ [[Apoptosis]]

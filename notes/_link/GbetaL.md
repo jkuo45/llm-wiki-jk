@@ -39,4 +39,4 @@ Unlike [[Raptor]] and [[Rictor]], GβL/mLST8 is constitutively bound to mTOR and
 ## Linking Summary
 - New links added: [[mTOR]], [[mTORC1]], [[mTORC2]], [[Raptor]], [[Rictor]], [[WD40 Repeat]], [[G Proteins]], [[Kinase Domain]], [[Phosphatidic Acid]], [[Growth Factor]]
 - Suggested new entity notes to create: [[β-propeller]], [[mTOR complex assembly]], [[Phosphatidic acid signaling]]
-- Strong connections to strengthen: [[GbetaL]] ↔ [[mTOR]], [[GbetaL]] ↔ [[mTORC1]], [[GbetaL]] ↔ [[mTORC2]]
+  - Strong connections to strengthen: [[GbetaL]] ↔ [[mTOR]], [[GbetaL]] ↔ [[mTORC1]], [[GbetaL]] ↔ mTORC2

@@ -28,5 +28,5 @@ aliases: []
 
 ## Linking Summary
 - New links added: [[Gout]]
-- Strong connections to strengthen: [[Gout]] ↔ [[Gout]]
+  - Strong connections to strengthen: [[Gout]] ↔ [[Gout]]
 

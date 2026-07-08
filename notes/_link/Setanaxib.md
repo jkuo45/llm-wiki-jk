@@ -29,5 +29,5 @@ aliases: [GKT137831]
 
 ## Linking Summary
 - New links added: [[Setanaxib]]
-- Strong connections to strengthen: [[Setanaxib]] ↔ [[Setanaxib]]
+  - Strong connections to strengthen: [[Setanaxib]] ↔ [[Setanaxib]]
 

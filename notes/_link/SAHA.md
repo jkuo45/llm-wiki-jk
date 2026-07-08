@@ -29,5 +29,5 @@ aliases: [Suberoylanilide Hydroxamic Acid, Vorinostat]
 
 ## Linking Summary
 - New links added: [[SAHA]]
-- Strong connections to strengthen: [[SAHA]] ↔ [[SAHA]]
+  - Strong connections to strengthen: [[SAHA]] ↔ [[SAHA]]
 

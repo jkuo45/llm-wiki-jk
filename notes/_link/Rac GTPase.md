@@ -29,5 +29,5 @@ aliases: [Rac]
 
 ## Linking Summary
 - New links added: [[Rac GTPase]]
-- Strong connections to strengthen: [[Rac GTPase]] ↔ [[Rac GTPase]]
+  - Strong connections to strengthen: Rac GTPase ↔ Rac GTPase
 

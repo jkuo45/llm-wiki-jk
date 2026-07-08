@@ -16,6 +16,8 @@ Methyl donors are compounds that provide a labile methyl group (−CH₃) for me
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -36,4 +38,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[SAMe]], [[Methylation Cycle]], [[DNA Methylation]], [[Folate]], [[Homocysteine]], [[Histone]], [[Epigenetics]], [[One-Carbon Metabolism]], [[Betaine]], [[Choline]], [[Methionine]], [[Vitamin B12]], [[Detoxification]], [[Neurotransmitter Synthesis]], [[Phospholipid Metabolism]]
 - Suggested new entity notes to create: [[Methylfolate]], [[Betaine Homocysteine Methyltransferase BHMT]]
-- Strong connections to strengthen: [[Methyl Donor]] ↔ [[SAMe]], [[Methyl Donor]] ↔ [[Methylation Cycle]]
+  - Strong connections to strengthen: Methyl Donor ↔ [[SAMe]], Methyl Donor ↔ Methylation Cycle

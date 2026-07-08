@@ -25,6 +25,8 @@ Huntington's disease (HD) is a neurodegenerative disorder characterized by prote
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -48,4 +50,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[TFEB]], [[PGC1-α]], [[Autophagy]], [[Autophagic Flux]], [[Caloric Restriction]], [[Intermittent Fasting]]
 - Suggested new entity notes to create: [[Neurodegenerative Disease]]
-- Strong connections to strengthen: [[Huntington's Disease]] ↔ [[TFEB]], [[Huntington's Disease]] ↔ [[Neurodegenerative Diseases|Neurodegenerative Disease]], [[Huntington's Disease]] ↔ [[Autophagy]]
+  - Strong connections to strengthen: Huntington's Disease ↔ [[TFEB]], Huntington's Disease ↔ Neurodegenerative Diseases|Neurodegenerative Disease, Huntington's Disease ↔ Autophagy

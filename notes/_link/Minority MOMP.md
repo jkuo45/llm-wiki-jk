@@ -24,6 +24,8 @@ miMOMP is mediated by pro-apoptotic [[Bcl-2]] family proteins like [[BAX]] and [
 ## Role in Senescence
 miMOMP is a critical link between [[Apoptosis]] and [[Cellular Senescence]]. It allows damaged cells to survive and signal their state of stress through the SASP, rather than undergoing programmed cell death.
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -42,4 +44,4 @@ List of documents that mention this entity
 ## Linking Summary
 
   - New links added: [[Apoptosis]], [[Senescence]], [[mtDNA]], [[cGAS-STING Pathway|cGAS-STING]], [[Senescence-Associated Secretory Phenotype|SASP]]
-  - Strong connections to strengthen: [[Minority MOMP]] ↔ [[Senescence]], [[Minority MOMP]] ↔ [[SASP]]
+  - Strong connections to strengthen: Minority MOMP ↔ [[Senescence]], Minority MOMP ↔ [[SASP]]

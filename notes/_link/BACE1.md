@@ -28,5 +28,5 @@ aliases: [Beta-Secretase 1]
 
 ## Linking Summary
 - New links added: [[BACE1]]
-- Strong connections to strengthen: [[BACE1]] ↔ [[BACE1]]
+  - Strong connections to strengthen: [[BACE1]] ↔ [[BACE1]]
 

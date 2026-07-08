@@ -23,6 +23,8 @@ Vitamin B12 is required by [[MTRR]] (methionine synthase reductase) to regenerat
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -42,4 +44,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Methylation]], [[SAMe]], [[COMT]], [[MTRR]], [[Folate]], [[DNA Repair]], [[Homocysteine]], [[MethylB12]], [[Adenosylcobalamin]], [[Hydroxocobalamin]]
 - Suggested new entity notes to create: [[Methionine Synthase]], [[Methylmalonyl-CoA Mutase]], [[Intrinsic Factor]]
-- Strong connections to strengthen: [[Vitamin B12]] ↔ [[Methylation]], [[Vitamin B12]] ↔ [[COMT]]
+  - Strong connections to strengthen: Vitamin B12 ↔ [[Methylation]], Vitamin B12 ↔ COMT

@@ -34,4 +34,4 @@ At pharmacological concentrations, Vitamin C can act as a pro-oxidant via the [[
 ## Linking Summary
 - New links added: [[Ascorbic Acid]], [[Vitamin E]], [[Glutathione]], [[Epinephrine]], [[Reactive Oxygen Species]], [[Singlet Oxygen]], [[Hydroxyl Radicals]], [[Fenton Reaction]], [[Cancer]]
 - Suggested new entity notes to create: [[Dehydroascorbate]], [[SVCT1]], [[SVCT2]]
-- Strong connections to strengthen: [[Vitamin C]] ↔ [[Ascorbic Acid]], [[Vitamin C]] ↔ [[Vitamin E]]
+  - Strong connections to strengthen: Vitamin C ↔ Ascorbic Acid, Vitamin C ↔ Vitamin E

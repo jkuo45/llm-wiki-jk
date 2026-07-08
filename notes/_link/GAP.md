@@ -24,6 +24,8 @@ aliases: [GTPase-Activating Protein]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -37,5 +39,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[GAP]]
-- Strong connections to strengthen: [[GAP]] ↔ [[GAP]]
+  - Strong connections to strengthen: [[GAP]] ↔ [[GAP]]
 

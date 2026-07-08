@@ -44,6 +44,8 @@ Parkinson's disease (PD) is a long-term degenerative disorder of the central ner
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -89,4 +91,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Alpha-synuclein]], [[TFEB]], [[Aging]], [[Autophagic Flux]], [[Autophagy]], [[Bradykinesia]], [[COMT Inhibitors]], [[Disease Modeling]], [[Dopamine]], [[Induced Pluripotent Stem Cells]], [[Intermittent Fasting]], [[Ketogenic Diet]], [[L-DOPA]], [[Levodopa]], [[Lewy Bodies]], [[Mitophagy]], [[Neurodegenerative Diseases]], [[Neuromelanin]], [[Pathogenic Threshold of Neuromelanin]], [[Regenerative Medicine]], [[Substantia Nigra Pars Compacta]], [[L-DOPA]]., [[Levodopa]]., [[Oxidative Stress]], [[Advanced Glycation End Products]], [[Neurodegeneration]]
 - Suggested new entity notes to create: [[Dopamine Neuron]], [[Autophagic Flux]], [[Dopamine Agonists]], [[Dopaminergic Neurons]], [[Dyskinesia]], [[Intermittent Fasting]], [[Ketogenic Diet]], [[Mitophagy]], [[Resting Tremor]], [[Substantia Nigra]], [[Resting Tremor]].
-- Strong connections to strengthen: [[Parkinson's Disease]] ↔ [[TFEB]], [[Parkinson's Disease]] <-> [[Induced Pluripotent Stem Cells]], [[Parkinson's Disease]] ↔ [[Mitophagy]], [[Parkinson's Disease]] ↔ [[Neurodegenerative Disease]], [[Parkinson's Disease]] ↔ [[Substantia Nigra]]., [[Advanced Glycation End Products]] ↔ [[Parkinson's Disease]]
+  - Strong connections to strengthen: [[Parkinson's Disease]] ↔ [[TFEB]], [[Parkinson's Disease]] <-> [[Induced Pluripotent Stem Cells]], [[Parkinson's Disease]] ↔ [[Mitophagy]], [[Parkinson's Disease]] ↔ Neurodegenerative Disease, [[Parkinson's Disease]] ↔ [[Substantia Nigra]]., Advanced Glycation End Products ↔ [[Parkinson's Disease]]

@@ -29,5 +29,5 @@ aliases: [Superoxide Dismutase 1, Cu/Zn-SOD]
 
 ## Linking Summary
 - New links added: [[SOD1]]
-- Strong connections to strengthen: [[SOD1]] ↔ [[SOD1]]
+  - Strong connections to strengthen: [[SOD1]] ↔ [[SOD1]]
 

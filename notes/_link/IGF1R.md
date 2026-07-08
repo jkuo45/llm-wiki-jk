@@ -24,6 +24,8 @@ aliases: [Insulin-like Growth Factor 1 Receptor]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -37,5 +39,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[IGF1R]]
-- Strong connections to strengthen: [[IGF1R]] ↔ [[IGF1R]]
+  - Strong connections to strengthen: [[IGF1R]] ↔ [[IGF1R]]
 

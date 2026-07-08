@@ -16,6 +16,8 @@ TANK-binding kinase 1, an enzyme involved in the innate immune response, activat
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -34,4 +36,4 @@ List of documents that mention this entity
 - [[Colon Cancer]] — associated with TBK1
 ## Linking Summary
 - New links added: [[STING]], [[TFEB]], [[TBK1]], [[XIAP]], [[Colon Cancer]], [[Phosphorylation]], [[Ubiquitination]]
-- Strong connections to strengthen: [[TBK1]] ↔ [[XIAP]]
+  - Strong connections to strengthen: [[TBK1]] ↔ XIAP

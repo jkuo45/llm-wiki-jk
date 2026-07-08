@@ -29,5 +29,5 @@ aliases: [Voltage-Dependent Anion Channel 1]
 
 ## Linking Summary
 - New links added: [[VDAC1]]
-- Strong connections to strengthen: [[VDAC1]] ↔ [[VDAC1]]
+  - Strong connections to strengthen: [[VDAC1]] ↔ [[VDAC1]]
 

@@ -22,6 +22,8 @@ aliases: [Mitochondrial outer membrane permeabilization, MOMP]
 ## Role in Senescence
 MOMP acts as a bridge between [[Apoptosis]] and [[Cellular Senescence]], determining whether a cell dies or becomes senescent and pro-inflammatory.
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -40,4 +42,4 @@ List of documents that mention this entity
 ## Linking Summary
 
   - New links added: [[Apoptosis]], [[Senescence]], [[mtDNA]], [[cGAS-STING Pathway|cGAS-STING]], [[BAX]], [[BAK]]
-  - Strong connections to strengthen: [[Mitochondrial outer membrane permeabilization]] ↔ [[Apoptosis]], [[Mitochondrial outer membrane permeabilization]] ↔ [[Senescence]]
+  - Strong connections to strengthen: Mitochondrial outer membrane permeabilization ↔ [[Apoptosis]], Mitochondrial outer membrane permeabilization ↔ [[Senescence]]

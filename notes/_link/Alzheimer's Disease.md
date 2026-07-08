@@ -55,6 +55,8 @@ Alzheimer's disease is a neurodegenerative disorder where enhancing [[TFEB]]-med
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -93,4 +95,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[TFEB]], [[Celastrol]], [[Epigenetics]], [[DNA Methylation]], [[Histone Modification]], [[Nucleosome]], [[Chromatin]], [[MicroRNA]], [[Aging]], [[Epigenome]], [[Epigenetic Clock]], [[HDAC]], [[DNA Methyltransferase]], [[Biomarkers]], [[Neurodegenerative Diseases]], [[Neuroinflammation]]., [[Induced Pluripotent Stem Cells]], [[Disease Modeling]], [[Rejuvenation]], [[Autophagy]], [[Proteotoxicity]], [[Autophagic Flux]], [[Intermittent Fasting]], [[Caloric Restriction]], [[Neuroinflammation]]
 - Suggested new entity notes to create: [[Tau Pathology]], [[Neuroinflammation]], [[Amyloid Beta]], [[Tau Protein]], [[Synaptic plasticity]]., [[Proteotoxicity]], [[Autophagic Flux]], [[Intermittent Fasting]], [[Caloric Restriction]], [[Synaptic plasticity]]
-- Strong connections to strengthen: [[Alzheimer's Disease]] ↔ [[TFEB]], [[Alzheimer's Disease]] ↔ [[Aging]], [[Alzheimer's Disease]] ↔ [[DNA Methylation]], [[Induced Pluripotent Stem Cells]] ↔ [[Alzheimer's Disease]], [[Alzheimer's Disease]] ↔ [[Neurodegenerative Disease]], [[Alzheimer's Disease]] ↔ [[Autophagy]]
+  - Strong connections to strengthen: Alzheimer's Disease ↔ [[TFEB]], Alzheimer's Disease ↔ [[Aging]], Alzheimer's Disease ↔ DNA Methylation, Induced Pluripotent Stem Cells ↔ Alzheimer's Disease, Alzheimer's Disease ↔ Neurodegenerative Disease, Alzheimer's Disease ↔ Autophagy

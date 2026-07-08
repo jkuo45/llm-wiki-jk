@@ -16,6 +16,8 @@ The centromere is a specialized [[Chromosome]] region where [[Kinetochore]] asse
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -39,4 +41,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Chromosome]], [[Mitosis]], [[Meiosis]], [[Kinetochore]], [[Spindle Microtubules]], [[Histone H3]], [[CENP-A]], [[Heterochromatin]], [[H3K9me3]], [[HP1]], [[DNA Sequence]], [[Aneuploidy]], [[Cancer]], [[Autoimmune Disease]], [[CREST Syndrome]]
 - Suggested new entity notes to create: [[CENP-B]], [[CENP-C]], [[CENP-T]], [[CENP-W]], [[Pericentric Heterochromatin]]
-- Strong connections to strengthen: [[Centromere]] ↔ [[Kinetochore]], [[Centromere]] ↔ [[CENP-A]]
+  - Strong connections to strengthen: [[Centromere]] ↔ Kinetochore, [[Centromere]] ↔ [[CENP-A]]

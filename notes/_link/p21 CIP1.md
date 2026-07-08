@@ -58,6 +58,8 @@ p21 is a classical senescence biomarker, upregulated in:
 - **Biomarker**: p21 expression correlates with senescent cell burden
 - **Senescence induction**: p21 overexpression can induce senescence in various cell types
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -85,4 +87,4 @@ List of documents that mention this entity
 
 - New links added: [[p21 CIP1|p21]], [[CDKN1A]], [[p53]], [[Retinoblastoma Protein|Rb]], [[CXCL14]], [[IGFBP3]], [[Cyclin-Dependent Kinase 2|CDK2]], [[DNA Damage Response]]
 - Suggested new entity notes to create: [[CDK2]], [[G1/S Checkpoint]]
-- Strong connections to strengthen: [[p21 CIP1]] ↔ [[Cellular Senescence]], [[p21 CIP1]] ↔ [[SASP]], [[p21 CIP1]] ↔ [[p53]]
+  - Strong connections to strengthen: p21 CIP1 ↔ Cellular Senescence, p21 CIP1 ↔ [[SASP]], p21 CIP1 ↔ [[p53]]

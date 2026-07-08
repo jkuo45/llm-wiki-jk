@@ -24,6 +24,8 @@ AUF1 is a key negative regulator of the [[Senescence-Associated Secretory Phenot
 ## Significance
 The regulation of AUF1 activity is a critical control point for determining the intensity of the SASP.
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -41,4 +43,4 @@ List of documents that mention this entity
 ## Linking Summary
 
   - New links added: [[MAPKAPK2|MK2]], [[p38 MAPK]], [[Senescence-Associated Secretory Phenotype|SASP]], [[IL-6]], [[IL-8]]
-  - Strong connections to strengthen: [[AUF1]] ↔ [[MAPKAPK2|MK2]]
+  - Strong connections to strengthen: [[AUF1]] ↔ MAPKAPK2|MK2

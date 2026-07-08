@@ -44,6 +44,8 @@ Howitz et al. (2003) identified resveratrol as an activator of mammalian [[SIRT1
 
 Resveratrol lacks a catechol structure and does not compete for [[COMT]], making it a safe anti-inflammatory option for slow COMT individuals.
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -83,7 +85,7 @@ List of documents that mention this entity
 - [[Anti-inflammatory]]: One of the key health benefits of resveratrol.
 - [[Bioavailability]]: Resveratrol studies often focus on its absorption and genetic interactions.
 - Suggested new entity notes to create: [[CR Mimetics]], [[David Sinclair]], [[Polyphenols]]
-- Strong connections to strengthen: [[Resveratrol]] ↔ [[Caloric Restriction]], [[Resveratrol]] ↔ [[SIRT1]]## Additional Content from Topic Directory
+  - Strong connections to strengthen: [[Resveratrol]] ↔ Caloric Restriction, [[Resveratrol]] ↔ [[SIRT1]]## Additional Content from Topic Directory
 
 **Resveratrol** (3,5,4′-trihydroxystilbene) is a **polyphenolic stilbene** found naturally in the skin of grapes, red wine, and a variety of other plants. It is synthesised by plants in response to stress (biotic or abiotic). Resveratrol was identified as a **STAC (sirtuin activating compound)** — the prototypical pharmacological activator of [[SIRT1]] — and has been shown to extend lifespan in diverse organisms and improve metabolic health in mammals.
 
@@ -168,7 +170,7 @@ While resveratrol has shown dramatic results in extending the lifespan of yeast,
 
 - New links added: [[Resveratrol]], [[SIRT1]], [[Aging]], [[Caloric Restriction]], [[Diabetes Mellitus]], [[Metabolic Syndromes]], [[Geroscience]]
 - Suggested new entity notes to create: [[Polyphenols]], [[CR Mimetics]], [[David Sinclair]]
-- Strong connections to strengthen: [[Resveratrol]] ↔ [[SIRT1]], [[Resveratrol]] ↔ [[Caloric Restriction]]
+  - Strong connections to strengthen: [[Resveratrol]] ↔ SIRT1, [[Resveratrol]] ↔ Caloric Restriction
 
 - New links added: [[Anti-inflammatory]], [[COMT]].
 
@@ -179,4 +181,4 @@ While resveratrol has shown dramatic results in extending the lifespan of yeast,
 ## Linking Summary
 - New links added: [[SIRT1]], [[Sir2 (yeast)]], [[Caloric Restriction]], [[PGC-1α]], [[NAD+]], [[SIRT3]]
 - Suggested new entity notes to create: [[STACs]], [[AMPK]], [[Polyphenols]]
-- Strong connections to strengthen: [[Resveratrol]] ↔ [[SIRT1]], [[Resveratrol]] ↔ [[Caloric Restriction]]
+  - Strong connections to strengthen: [[Resveratrol]] ↔ SIRT1, [[Resveratrol]] ↔ Caloric Restriction

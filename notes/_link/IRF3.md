@@ -23,6 +23,8 @@ IRF3 is a key downstream effector of the [[cGAS-STING Pathway|cGAS-STING]] pathw
 ## Clinical Relevance
 The cGAS-STING-IRF3 axis is a major driver of sterile [[Inflammaging]] and age-related inflammatory diseases.
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -41,4 +43,4 @@ List of documents that mention this entity
 ## Linking Summary
 
   - New links added: [[cGAS-STING Pathway|cGAS-STING]], [[TBK1]], [[IFN-β]], [[Senescent Cells]], [[Senescence-Associated Secretory Phenotype|SASP]]
-  - Strong connections to strengthen: [[IRF3]] ↔ [[cGAS-STING Pathway|cGAS-STING]]
+  - Strong connections to strengthen: [[IRF3]] ↔ cGAS-STING Pathway|cGAS-STING

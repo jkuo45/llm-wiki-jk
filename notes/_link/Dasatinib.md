@@ -24,6 +24,8 @@ aliases: [Sprycel, BMS-354825]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -37,5 +39,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[Dasatinib]]
-- Strong connections to strengthen: [[Dasatinib]] ↔ [[Dasatinib]]
+  - Strong connections to strengthen: [[Dasatinib]] ↔ [[Dasatinib]]
 

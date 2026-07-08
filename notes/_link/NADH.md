@@ -30,5 +30,5 @@ aliases: [Nicotinamide Adenine Dinucleotide]
 
 ## Linking Summary
 - New links added: [[NADH]]
-- Strong connections to strengthen: [[NADH]] ↔ [[NADH]]
+  - Strong connections to strengthen: [[NADH]] ↔ [[NADH]]
 

@@ -24,6 +24,8 @@ aliases: [Superoxide Dismutase 2, MnSOD]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -40,5 +42,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[SOD2]]
-- Strong connections to strengthen: [[SOD2]] ↔ [[SOD2]]
+  - Strong connections to strengthen: [[SOD2]] ↔ [[SOD2]]
 

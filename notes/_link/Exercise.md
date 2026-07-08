@@ -28,6 +28,8 @@ aliases: [Physical exercise, Physical activity]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -50,4 +52,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[SIRT1]], [[SIRT3]], [[SIRT6]], [[NAD+]], [[PGC1-α]], [[Mitochondrial Biogenesis]], [[Insulin Sensitivity]], [[BDNF]], [[Neurogenesis]], [[Autophagy]], [[Caloric Restriction]], [[Intermittent Fasting]], [[Mitochondria]], [[Oxidative Phosphorylation]], [[Reactive Oxygen Species]], [[DNA Repair]], [[Cardiovascular Disease]], [[Brain]], [[Longevity]], [[Mitohormesis]], [[NRF2]], [[Superoxide Dismutase]], [[Mitophagy]], [[Aging]], [[Oxidative Stress]]
 - Suggested new entity notes to create: [[BDNF]], [[VO2max]], [[HIIT]]
-- Strong connections to strengthen: [[Exercise]] ↔ [[Mitohormesis]]
+  - Strong connections to strengthen: [[Exercise]] ↔ [[Mitohormesis]]

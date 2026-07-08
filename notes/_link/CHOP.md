@@ -29,5 +29,5 @@ aliases: [DDIT3, GADD153]
 
 ## Linking Summary
 - New links added: [[CHOP]]
-- Strong connections to strengthen: [[CHOP]] ↔ [[CHOP]]
+  - Strong connections to strengthen: [[CHOP]] ↔ [[CHOP]]
 

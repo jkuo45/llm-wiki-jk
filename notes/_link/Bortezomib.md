@@ -29,5 +29,5 @@ aliases: [Velcade, PS-341]
 
 ## Linking Summary
 - New links added: [[Bortezomib]]
-- Strong connections to strengthen: [[Bortezomib]] ↔ [[Bortezomib]]
+  - Strong connections to strengthen: [[Bortezomib]] ↔ [[Bortezomib]]
 

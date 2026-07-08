@@ -28,5 +28,5 @@ aliases: []
 
 ## Linking Summary
 - New links added: [[Tubulin]]
-- Strong connections to strengthen: [[Tubulin]] ↔ [[Tubulin]]
+  - Strong connections to strengthen: [[Tubulin]] ↔ [[Tubulin]]
 

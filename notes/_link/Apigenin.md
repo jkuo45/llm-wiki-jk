@@ -23,6 +23,8 @@ Apigenin suppresses the [[Senescence-Associated Secretory Phenotype|SASP]] by:
 ## Therapeutic Potential
 Apigenin is being studied as a potential [[Senomorphic Therapy]] to mitigate the detrimental effects of chronic SASP in aging and cancer.
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -39,4 +41,4 @@ List of documents that mention this entity
 ## Linking Summary
 
   - New links added: [[Senomorphic Therapy]], [[Senescence-Associated Secretory Phenotype|SASP]], [[NF-κB]]
-  - Strong connections to strengthen: [[Apigenin]] ↔ [[Senomorphic Therapy]]
+  - Strong connections to strengthen: [[Apigenin]] ↔ Senomorphic Therapy

@@ -19,6 +19,8 @@ In the [[Glyco-Oxidative Proteostasis Shield]] strategy, Carnosine serves as a s
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -32,4 +34,4 @@ List of documents that mention this entity
 - [[Spermidine]] — autophagy inducer synergizing with carnosine in the GOPS protocol
 ## Linking Summary
 - New links added: [[Aminoguanidine]], [[Oxidative Stress]], [[Glyco-Oxidative Proteostasis Shield]], [[Adrenochrome monoaminoguanidine]], [[Spermidine]]
-- Strong connections to strengthen: [[Carnosine]] ↔ [[Aminoguanidine]], [[Carnosine]] ↔ [[Glyco-Oxidative Proteostasis Shield]], [[Carnosine]] ↔ [[Adrenochrome monoaminoguanidine]], [[Carnosine]] ↔ [[Spermidine]]
+  - Strong connections to strengthen: [[Carnosine]] ↔ Aminoguanidine, [[Carnosine]] ↔ Glyco-Oxidative Proteostasis Shield, [[Carnosine]] ↔ Adrenochrome monoaminoguanidine, [[Carnosine]] ↔ [[Spermidine]]

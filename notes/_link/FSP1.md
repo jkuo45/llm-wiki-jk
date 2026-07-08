@@ -29,5 +29,5 @@ aliases: [Ferroptosis Suppressor Protein 1, AIFM2]
 
 ## Linking Summary
 - New links added: [[FSP1]]
-- Strong connections to strengthen: [[FSP1]] ↔ [[FSP1]]
+  - Strong connections to strengthen: [[FSP1]] ↔ [[FSP1]]
 

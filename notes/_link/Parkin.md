@@ -29,6 +29,8 @@ Parkin (PRKN) is an E3 ubiquitin ligase recruited by [[PINK1]] to depolarized mi
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -54,4 +56,4 @@ List of documents that mention this entity
 - [[p62]] — interacts with Parkin
 ## Linking Summary
 - New links added: [[PINK1]], [[Mitophagy]], [[TFEB]], [[TFE3]]
-- Strong connections to strengthen: [[Parkin]] ↔ [[PINK1]]
+  - Strong connections to strengthen: [[Parkin]] ↔ [[PINK1]]

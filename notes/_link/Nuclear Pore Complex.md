@@ -23,6 +23,8 @@ aliases: [NPC]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -36,5 +38,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[Nuclear Pore Complex]]
-- Strong connections to strengthen: [[Nuclear Pore Complex]] ↔ [[Nuclear Pore Complex]]
+  - Strong connections to strengthen: Nuclear Pore Complex ↔ Nuclear Pore Complex
 

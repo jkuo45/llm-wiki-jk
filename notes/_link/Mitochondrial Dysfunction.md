@@ -24,6 +24,8 @@ Mitochondrial dysfunction is the failure of mitochondria to maintain homeostasis
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -52,4 +54,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[TFEB]], [[Mitochondria]], [[Mitophagy]], [[Parkinson's Disease]], [[Substantia Nigra]], [[Oxidative Stress]], [[Neuromelanin]], [[MPTP]].
 - Suggested new entity notes to create: [[Mitochondrial Biogenesis]], [[ATP]], [[Complex I]], [[Mitophagy]].
-- Strong connections to strengthen: [[Mitochondrial Dysfunction]] ↔ [[TFEB]], [[Mitochondrial Dysfunction]] ↔ [[Oxidative Stress]].
+  - Strong connections to strengthen: Mitochondrial Dysfunction ↔ [[TFEB]], Mitochondrial Dysfunction ↔ [[Oxidative Stress]].

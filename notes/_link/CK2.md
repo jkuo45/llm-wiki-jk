@@ -21,6 +21,8 @@ Reduced levels of CK2 in [[Senescent Cells]] promote the activation of [[NFKB|NF
 ## Function
 CK2 phosphorylates a wide range of substrates involved in cell cycle control, apoptosis, and signal transduction. Its regulation of the IKK complex and IκB inhibitors makes it an important modulator of inflammatory signaling.
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -37,4 +39,4 @@ List of documents that mention this entity
 ## Linking Summary
 
   - New links added: [[NF-κB]], [[IKK complex]], [[Senescent Cells]]
-  - Strong connections to strengthen: [[CK2]] ↔ [[NF-κB]]
+  - Strong connections to strengthen: [[CK2]] ↔ NF-κB

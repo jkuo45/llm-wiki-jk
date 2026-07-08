@@ -28,5 +28,5 @@ aliases: []
 
 ## Linking Summary
 - New links added: [[Methionine]]
-- Strong connections to strengthen: [[Methionine]] ↔ [[Methionine]]
+  - Strong connections to strengthen: [[Methionine]] ↔ [[Methionine]]
 

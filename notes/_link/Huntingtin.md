@@ -99,6 +99,8 @@ Current pharmacotherapy for HD is limited to symptomatic management:
 
 - **Emerging approaches**: CRISPR-based gene editing to excise the expanded CAG repeat, targeted protein degradation (PROTACs/molecular glues), and neuroprotective strategies addressing downstream pathology (mitochondrial dysfunction, excitotoxicity, [[Autophagy|autophagy]] enhancement) are under preclinical and early clinical investigation.
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -124,4 +126,4 @@ List of documents that mention this entity
 
 - New links added: [[Huntington's Disease]], [[BDNF]], [[Striatum]], [[Autophagy]], [[Proteasome]], [[Transcription]], [[Dopamine]], [[Neurodegeneration]], [[Apoptosis]], [[mTOR]]
 - Suggested new entity notes to create: [[Polyglutamine Diseases]], [[HEAT Repeats]], [[HAP1]], [[Tetrabenazine]], [[Deutetrabenazine]], [[Tominersen]], [[AMT-130]]
-- Strong connections to strengthen: [[Huntington's Disease]] ↔ [[Huntingtin]], [[BDNF]] ↔ [[Huntingtin]], [[Striatum]] ↔ [[Huntingtin]]
+  - Strong connections to strengthen: Huntington's Disease ↔ [[Huntingtin]], BDNF ↔ [[Huntingtin]], [[Striatum]] ↔ [[Huntingtin]]

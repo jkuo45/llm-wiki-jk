@@ -27,6 +27,8 @@ The epigenome is highly responsive to external factors like [[Caloric Restrictio
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -44,4 +46,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Epigenome]], [[DNA Methylation]], [[Histone Modification]], [[Chromatin]], [[Non-coding RNA]], [[Aging]], [[Heterochromatin]], [[Caloric Restriction]], [[Epigenetics]]
 - Suggested new entity notes to create: [[Transcriptional Drift]], [[Epigenomic Landscapes]], [[Epigenetic Inheritance]]
-- Strong connections to strengthen: [[Epigenome]] ↔ [[Aging]], [[Epigenome]] ↔ [[Chromatin]]
+  - Strong connections to strengthen: [[Epigenome]] ↔ [[Aging]], [[Epigenome]] ↔ [[Chromatin]]

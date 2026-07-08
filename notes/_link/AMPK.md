@@ -37,6 +37,8 @@ AMP-activated protein kinase (AMPK) is a key energy sensor that phosphorylates [
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -92,4 +94,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[TFEB]], [[Aging]], [[Sirtuins]], [[SIRT1]], [[Histone Modification]], [[Acetyl-CoA]], [[Histone Deacetylase]], [[HDAC]], [[DNA Methylation]], [[Epigenetic Clock]], [[DNA Methyltransferase]], [[Caloric Restriction]], [[Metformin]], [[Autophagy]], [[Cellular Senescence]], [[SASP]]., [[SASP]]
 - Suggested new entity notes to create: [[Energy Homeostasis]], [[Mitochondrial Dysfunction]], [[Proteostasis]], [[LKB1]], [[PGC1-α]]., [[mTORC1]], [[PGC1-α]]
-- Strong connections to strengthen: [[AMPK]] ↔ [[TFEB]], [[AMPK]] ↔ [[SIRT1]], [[AMPK]] ↔ [[Aging]], [[Caloric Restriction]] ↔ [[AMPK]]
+  - Strong connections to strengthen: [[AMPK]] ↔ [[TFEB]], [[AMPK]] ↔ SIRT1, [[AMPK]] ↔ [[Aging]], Caloric Restriction ↔ [[AMPK]]

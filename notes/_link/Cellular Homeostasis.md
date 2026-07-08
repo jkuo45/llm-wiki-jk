@@ -16,6 +16,8 @@ Cellular homeostasis refers to the dynamic equilibrium maintained by cells throu
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -39,4 +41,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[ATP]], [[Glutathione]], [[NAD+]], [[Proteasome]], [[Autophagy]], [[DNA Repair]], [[Aging]], [[AMPK]], [[mTORC1]], [[SIRT1]], [[NRF2]], [[Metabolic Syndrome]], [[Neurodegeneration]], [[Cancer]]
 - Suggested new entity notes to create: [[Proteostasis]], [[Redox Homeostasis]]
-- Strong connections to strengthen: [[Cellular Homeostasis]] ↔ [[Aging]], [[Cellular Homeostasis]] ↔ [[AMPK]]
+  - Strong connections to strengthen: Cellular Homeostasis ↔ [[Aging]], Cellular Homeostasis ↔ [[AMPK]]

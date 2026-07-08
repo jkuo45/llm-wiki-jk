@@ -39,6 +39,8 @@ Pharmacological interventions targeting inflammation include NSAIDs (COX inhibit
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -84,4 +86,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[TFEB]], [[Advanced Glycation End Products]], [[NFκB]], [[Cytokines]], [[Adrenochrome]], [[Epinephrine]], [[Hydrogen Peroxide]], [[IL-1b]], [[Inflammation]], [[Lungs]], [[Myeloperoxidase]], [[NF-kappa B]], [[Neuromelanin]], [[Neutrophils]], [[Oxidation]], [[Oxidative Stress]], [[Reactive Oxygen Species]], [[Superoxide anion]], [[TNF-alpha]], [[TNFα]], [[IL-6]], [[Interleukin 1β]], [[NLRP3 Inflammasome]], [[Caspase-1]], [[NAD(P)H Oxidase]], [[COMT]], [[MAO]], [[GlyNAC]], [[Glutathione]]
 - Suggested new entity notes to create: [[Cytokines]], [[Immune response]], [[Hypochlorous Acid]]
-- Strong connections to strengthen: [[Inflammation]] ↔ [[TFEB]], [[Advanced Glycation End Products]] ↔ [[Inflammation]], [[Inflammation]] ↔ [[Neutrophils]], [[Inflammation]] ↔ [[TNF-alpha]], [[Inflammation]] ↔ [[Adrenochrome]], [[NLRP3 Inflammasome]] ↔ [[Oxidative Stress]]
+  - Strong connections to strengthen: [[Inflammation]] ↔ [[TFEB]], Advanced Glycation End Products ↔ [[Inflammation]], [[Inflammation]] ↔ [[Neutrophils]], [[Inflammation]] ↔ [[TNF-alpha]], [[Inflammation]] ↔ Adrenochrome, NLRP3 Inflammasome ↔ Oxidative Stress

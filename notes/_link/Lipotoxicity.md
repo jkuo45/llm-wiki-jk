@@ -28,5 +28,5 @@ aliases: []
 
 ## Linking Summary
 - New links added: [[Lipotoxicity]]
-- Strong connections to strengthen: [[Lipotoxicity]] ↔ [[Lipotoxicity]]
+  - Strong connections to strengthen: [[Lipotoxicity]] ↔ [[Lipotoxicity]]
 

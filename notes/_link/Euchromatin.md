@@ -25,6 +25,8 @@ The formation and maintenance of euchromatin are regulated by enzymes like [[His
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -42,4 +44,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Euchromatin]], [[Chromatin]], [[Histone Acetylation]], [[Transcription]], [[Heterochromatin]], [[Aging]], [[SASP]], [[Transposable Elements]], [[Genomic Instability]], [[Histone Acetyltransferase]], [[Histone Deacetylase]]
 - Suggested new entity notes to create: [[Open Chromatin]], [[Chromatin Accessibility]], [[Active Promoters]]
-- Strong connections to strengthen: [[Euchromatin]] ↔ [[Transcription]], [[Euchromatin]] ↔ [[Heterochromatin]]
+  - Strong connections to strengthen: [[Euchromatin]] ↔ [[Transcription]], [[Euchromatin]] ↔ [[Heterochromatin]]

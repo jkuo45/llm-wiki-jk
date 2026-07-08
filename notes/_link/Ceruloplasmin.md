@@ -28,5 +28,5 @@ aliases: []
 
 ## Linking Summary
 - New links added: [[Ceruloplasmin]]
-- Strong connections to strengthen: [[Ceruloplasmin]] ↔ [[Ceruloplasmin]]
+  - Strong connections to strengthen: [[Ceruloplasmin]] ↔ [[Ceruloplasmin]]
 

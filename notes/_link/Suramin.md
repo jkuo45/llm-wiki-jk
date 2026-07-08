@@ -34,6 +34,8 @@ Suramin features multiple highly charged sulfonic acid groups that enable it to 
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -50,4 +52,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Onchocerciasis]], [[Ivermectin]]
 - Suggested new entity notes to create: [[Sleeping sickness]]
-- Strong connections to strengthen: [[Suramin]] ↔ [[Onchocerciasis]]
+  - Strong connections to strengthen: [[Suramin]] ↔ Onchocerciasis

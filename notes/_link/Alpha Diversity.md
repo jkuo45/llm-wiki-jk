@@ -17,6 +17,8 @@ Alpha diversity is a measure of the richness and evenness of species within a si
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -35,4 +37,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Gut Microbiome]], [[Beta Diversity]]
 - Suggested new entity notes to create: [[Species Richness]], [[Species Evenness]]
-- Strong connections to strengthen: [[Alpha Diversity]] ↔ [[Gut Microbiome]]
+  - Strong connections to strengthen: Alpha Diversity ↔ Gut Microbiome

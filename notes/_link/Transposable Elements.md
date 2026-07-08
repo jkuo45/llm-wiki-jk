@@ -33,5 +33,5 @@ aliases: []
 
 ## Linking Summary
 - New links added: [[LINE-1]], [[Alu element]], [[Genomic Instability]], [[Heterochromatin]], [[Epigenetics]]
-- Strong connections to strengthen: [[Transposable Elements]] ↔ [[LINE-1]], [[Transposable Elements]] ↔ [[Alu element]], [[Transposable Elements]] ↔ [[Genomic Instability]], [[Transposable Elements]] ↔ [[Heterochromatin]], [[Transposable Elements]] ↔ [[Epigenetics]]
+  - Strong connections to strengthen: Transposable Elements ↔ [[LINE-1]], Transposable Elements ↔ Alu element, Transposable Elements ↔ Genomic Instability, Transposable Elements ↔ [[Heterochromatin]], Transposable Elements ↔ Epigenetics
 

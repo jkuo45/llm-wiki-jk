@@ -29,5 +29,5 @@ aliases: [POR, CPR]
 
 ## Linking Summary
 - New links added: [[NADPH-cytochrome P450 reductase]]
-- Strong connections to strengthen: [[NADPH-cytochrome P450 reductase]] ↔ [[NADPH-cytochrome P450 reductase]]
+  - Strong connections to strengthen: NADPH-cytochrome P450 reductase ↔ NADPH-cytochrome P450 reductase
 

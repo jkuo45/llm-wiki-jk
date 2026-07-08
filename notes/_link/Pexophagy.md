@@ -28,5 +28,5 @@ aliases: []
 
 ## Linking Summary
 - New links added: [[Pexophagy]]
-- Strong connections to strengthen: [[Pexophagy]] ↔ [[Pexophagy]]
+  - Strong connections to strengthen: [[Pexophagy]] ↔ [[Pexophagy]]
 

@@ -23,6 +23,8 @@ aliases: [OXPHOS, Electron Transport Chain]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -39,4 +41,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[ATP]], [[Mitochondria]], [[Metabolism]], [[Quiescence]]
 - Suggested new entity notes to create: [[Electron Transport Chain]]
-- Strong connections to strengthen: [[Oxidative Phosphorylation]] ↔ [[Glycolysis]]
+  - Strong connections to strengthen: Oxidative Phosphorylation ↔ [[Glycolysis]]

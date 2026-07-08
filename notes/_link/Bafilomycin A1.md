@@ -28,5 +28,5 @@ aliases: []
 
 ## Linking Summary
 - New links added: [[Bafilomycin A1]]
-- Strong connections to strengthen: [[Bafilomycin A1]] ↔ [[Bafilomycin A1]]
+  - Strong connections to strengthen: Bafilomycin A1 ↔ Bafilomycin A1
 

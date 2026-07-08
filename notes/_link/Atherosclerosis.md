@@ -31,6 +31,8 @@ Unlike genetic mutations, epigenetic marks are potentially reversible:
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -62,4 +64,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Aging]], [[Caloric Restriction]], [[Cardiovascular Disease]], [[Cellular Senescence]], [[Clonal Hematopoiesis]], [[DNA Methylation]], [[DNA Methyltransferase]], [[DNAmGrimAge]], [[Epigenetic Clock]], [[Epigenetics]], [[HDAC]], [[Histone Deacetylase]], [[Histone Modification]], [[MicroRNA]], [[Non-coding RNA]], [[Sirtuins]], [[Cellular Senescence]]., [[Advanced Glycation End Products]], [[Arterial Stiffening]], [[Foam Cells]], [[Low-Density Lipoprotein]]
 - Suggested new entity notes to create: [[Clonal Hematopoiesis]], [[Endothelial Dysfunction]], [[Vascular Senescence]], [[Endothelial Dysfunction]].
-- Strong connections to strengthen: [[Atherosclerosis]] ↔ [[Aging]], [[Atherosclerosis]] ↔ [[DNA Methylation]], [[Advanced Glycation End Products]] ↔ [[Atherosclerosis]]
+  - Strong connections to strengthen: [[Atherosclerosis]] ↔ [[Aging]], [[Atherosclerosis]] ↔ DNA Methylation, Advanced Glycation End Products ↔ [[Atherosclerosis]]

@@ -28,5 +28,5 @@ aliases: [Factor IIa]
 
 ## Linking Summary
 - New links added: [[Thrombin]]
-- Strong connections to strengthen: [[Thrombin]] ↔ [[Thrombin]]
+  - Strong connections to strengthen: [[Thrombin]] ↔ [[Thrombin]]
 

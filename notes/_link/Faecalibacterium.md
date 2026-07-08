@@ -17,6 +17,8 @@ Faecalibacterium is a genus of bacteria, with Faecalibacterium prausnitzii being
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -35,4 +37,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Butyrate]], [[Gut Microbiome]], [[Inflammation]]
 - Suggested new entity notes to create: [[Faecalibacterium prausnitzii]]
-- Strong connections to strengthen: [[Faecalibacterium]] ↔ [[Gut Microbiome]]
+  - Strong connections to strengthen: [[Faecalibacterium]] ↔ Gut Microbiome

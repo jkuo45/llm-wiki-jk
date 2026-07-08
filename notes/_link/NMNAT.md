@@ -67,6 +67,8 @@ The chaperone function positions NMNAT2 at the intersection of [[NAD+]] metaboli
 
 NMNAT also interacts with other NAD+-consuming pathways. Activation of [[PARP]] during DNA damage or [[SIRT1]] during metabolic stress accelerates nicotinamide release, increasing demand on the NMNAT-dependent salvage pathway. When NMNAT activity is compromised — as in aging — this creates a metabolic vulnerability where increased [[NAD+]] consumption cannot be adequately compensated by reduced [[NAD+]] synthesis.
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -96,4 +98,4 @@ List of documents that mention this entity
 
 - New links added: [[NAD+]], [[Nicotinamide Mononucleotide]], [[NAMPT]], [[SIRT1]], [[PARP]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Huntington's Disease]], [[Nicotinamide Riboside]], [[Aging]], [[Neurodegeneration]]
 - Suggested new entity notes to create: [[NAD+ Biosynthesis]], [[Wallerian Degeneration]]
-- Strong connections to strengthen: [[NMNAT]] ↔ [[NAD+]], [[NMNAT]] ↔ [[Neuroprotection]]
+  - Strong connections to strengthen: [[NMNAT]] ↔ [[NAD+]], [[NMNAT]] ↔ Neuroprotection

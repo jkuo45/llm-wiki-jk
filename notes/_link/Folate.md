@@ -24,6 +24,8 @@ aliases: [Vitamin B9, Folic Acid]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -37,5 +39,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[Folate]]
-- Strong connections to strengthen: [[Folate]] ↔ [[Folate]]
+  - Strong connections to strengthen: [[Folate]] ↔ [[Folate]]
 

@@ -116,6 +116,8 @@ The therapeutic landscape for Aβ-targeted therapy has undergone a dramatic tran
 
 - **Emerging approaches:** Anti-tau immunotherapies, [[NAD+]] precursors, [[Autophagy]] modulators, and combination therapies targeting both Aβ and tau are under active investigation. Gene therapy approaches using CRISPR-based editing of *APP* and antisense oligonucleotides targeting *APP* mRNA are in preclinical development.
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -167,4 +169,4 @@ List of documents that mention this entity
 - New links added: [[APP]], [[BACE1]], [[Presenilin]], [[Tau Protein]], [[GSK3β]], [[CDK5]], [[Prion Protein|PrPC]], [[NMDA Receptor]], [[Microglia]], [[Astrocytes]], [[Neprilysin]], [[Insulin-Degrading Enzyme|IDE]], [[Reactive Oxygen Species|ROS]], [[Autophagy]], [[TFEB]], [[Cerebral Amyloid Angiopathy]], [[Sleep]], [[Down Syndrome]], [[APOE4]], [[TNF-alpha|TNF-α]], [[IL-1β|IL-1β]], [[TLR2]], [[TLR4]], [[RAGE]], [[Insulin Receptor]], [[IGF-1 Receptor|IGF-1]], [[LAMP2A]], [[Calpain]], [[Caspase-9]], [[Bcl-2]], [[Cholesterol]]
 - Existing links retained: [[Alzheimer's Disease]]
 - Suggested new entity notes to create: [[BACE1]], [[Presenilin]], [[IGF-1 Receptor]], [[mGluR5]], [[EphB2]], [[p75NTR]], [[TREM2]], [[SCARA1]], [[CD36]], [[LRP1]]
-- Strong connections to strengthen: [[Beta-amyloid]] ↔ [[APP]], [[Beta-amyloid]] ↔ [[Alzheimer's Disease]], [[Beta-amyloid]] ↔ [[Tau Protein]], [[Beta-amyloid]] ↔ [[Microglia]]
+  - Strong connections to strengthen: [[Beta-amyloid]] ↔ [[APP]], [[Beta-amyloid]] ↔ Alzheimer's Disease, [[Beta-amyloid]] ↔ Tau Protein, [[Beta-amyloid]] ↔ [[Microglia]]

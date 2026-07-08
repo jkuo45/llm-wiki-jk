@@ -28,5 +28,5 @@ aliases: []
 
 ## Linking Summary
 - New links added: [[Diabetic Neuropathy]]
-- Strong connections to strengthen: [[Diabetic Neuropathy]] ↔ [[Diabetic Neuropathy]]
+  - Strong connections to strengthen: Diabetic Neuropathy ↔ Diabetic Neuropathy
 

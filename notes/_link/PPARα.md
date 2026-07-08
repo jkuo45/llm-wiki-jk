@@ -16,6 +16,8 @@ PPARα (Peroxisome Proliferator-Activated Receptor Alpha) is a nuclear receptor 
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -39,4 +41,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Lipid Metabolism]], [[Fatty acid oxidation]], [[Ketogenesis]], [[Inflammation]], [[Fibrate]], [[Fenofibrate]], [[Gemfibrozil]], [[Fatty Acids]], [[RXR]], [[PPRE]], [[Liver]], [[Kidney]], [[Heart]], [[Skeletal Muscle]], [[Triglycerides]], [[Anti-inflammatory]], [[SIRT1]], [[AMPK]], [[Fasting]]
 - Suggested new entity notes to create: [[PPARγ]], [[PPARδ]], [[Peroxisome Proliferator-Activated Receptor]]
-- Strong connections to strengthen: [[PPARα]] ↔ [[Lipid Metabolism]], [[PPARα]] ↔ [[Fibrate]]
+  - Strong connections to strengthen: [[PPARα]] ↔ Lipid Metabolism, [[PPARα]] ↔ Fibrate

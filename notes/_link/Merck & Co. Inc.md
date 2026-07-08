@@ -16,6 +16,8 @@ Merck & Co., Inc. (known as MSD outside the US and Canada) is an American multin
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -37,4 +39,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Ivermectin]], [[Avermectin]], [[Kitasato Institute]], [[Mectizan Donation Program]]
 - Suggested new entity notes to create: [[Pharmaceutical industry]]
-- Strong connections to strengthen: [[Merck & Co. Inc]] ↔ [[Ivermectin]]
+  - Strong connections to strengthen: Merck & Co. Inc ↔ Ivermectin

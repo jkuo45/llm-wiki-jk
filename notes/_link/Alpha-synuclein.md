@@ -26,6 +26,8 @@ In [[Parkinson's Disease]] and other "synucleinopathies," alpha-synuclein underg
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -53,4 +55,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Parkinson's Disease]], [[TFEB]], [[Dopamine]], [[Lewy Bodies]], [[Neuromelanin]].
 - Suggested new entity notes to create: [[Synucleinopathies]], [[Synaptic Vesicles]].
-- Strong connections to strengthen: [[Alpha-synuclein]] ↔ [[Lewy Bodies]].
+  - Strong connections to strengthen: [[Alpha-synuclein]] ↔ [[Lewy Bodies]].

@@ -26,6 +26,8 @@ Oxidation is both a normal metabolic fate and a pathological liability for catec
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -48,4 +50,4 @@ List of documents that mention this entity
 - [[Myeloperoxidase]] — catalyzes reaction involving Oxidation
 ## Linking Summary
 - New links added: [[Adrenochrome]], [[Quinones]], [[Dopamine]], [[Neuromelanin]], [[Oxidative Stress]], [[Parkinson's Disease]]
-- Strong connections to strengthen: [[Oxidation]] ↔ [[Neuromelanin]]
+  - Strong connections to strengthen: [[Oxidation]] ↔ Neuromelanin

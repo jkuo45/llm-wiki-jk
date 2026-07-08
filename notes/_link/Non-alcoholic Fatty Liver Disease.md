@@ -24,6 +24,8 @@ aliases: [NAFLD]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -37,5 +39,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[Non-alcoholic Fatty Liver Disease]]
-- Strong connections to strengthen: [[Non-alcoholic Fatty Liver Disease]] ↔ [[Non-alcoholic Fatty Liver Disease]]
+  - Strong connections to strengthen: Non-alcoholic Fatty Liver Disease ↔ Non-alcoholic Fatty Liver Disease
 

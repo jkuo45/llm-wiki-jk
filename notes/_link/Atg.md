@@ -17,6 +17,8 @@ Atg (autophagy-related) proteins are a family of evolutionarily conserved protei
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -42,4 +44,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Autophagy]], [[LC3]], [[Atg5]], [[Atg7]], [[Atg12]], [[Beclin1]], [[ULK1]], [[Atg4]], [[Atg16]], [[Vps34]], [[Atg8]], [[p62]], [[mTORC1]], [[AMPK]], [[Neurodegeneration]], [[Cancer]], [[Metabolic Disease]], [[Aging]]
 - Suggested new entity notes to create: [[Atg3]], [[Atg10]], [[Atg14]], [[Atg101]]
-- Strong connections to strengthen: [[Atg]] ↔ [[Autophagy]], [[Atg]] ↔ [[LC3]]
+  - Strong connections to strengthen: [[Atg]] ↔ Autophagy, [[Atg]] ↔ [[LC3]]

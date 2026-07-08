@@ -32,6 +32,8 @@ Spermidine is an endogenous polyamine metabolite that induces [[TFEB]]-driven au
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -63,4 +65,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[TFEB]], [[eIF5A]], [[Spermidine]], [[Autophagy]], [[Histone Acetyltransferase]], [[Aging]], [[Neurodegenerative Diseases]], [[Geroscience]], [[Resveratrol]], [[Polyamine]], [[Autophagy Inducer]], [[Longevity]], [[Adrenochrome monoaminoguanidine]], [[Carnosine]]
 - Suggested new entity notes to create: [[Hypusination]], [[Polyamine]], [[Mitophagy]], [[Wheat Germ]], [[eIF5A]], [[SIRT1]]
-- Strong connections to strengthen: [[Spermidine]] ↔ [[TFEB]], [[Spermidine]] ↔ [[Autophagy]], [[Spermidine]] ↔ [[Aging]], [[Spermidine]] ↔ [[Immune Aging]], [[Spermidine]] ↔ [[Adrenochrome monoaminoguanidine]], [[Spermidine]] ↔ [[Carnosine]]
+  - Strong connections to strengthen: [[Spermidine]] ↔ [[TFEB]], [[Spermidine]] ↔ Autophagy, [[Spermidine]] ↔ [[Aging]], [[Spermidine]] ↔ Immune Aging, [[Spermidine]] ↔ Adrenochrome monoaminoguanidine, [[Spermidine]] ↔ [[Carnosine]]

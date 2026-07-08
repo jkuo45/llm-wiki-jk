@@ -23,6 +23,8 @@ aliases: []
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -39,5 +41,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[Gluconeogenesis]]
-- Strong connections to strengthen: [[Gluconeogenesis]] ↔ [[Gluconeogenesis]]
+  - Strong connections to strengthen: [[Gluconeogenesis]] ↔ [[Gluconeogenesis]]
 

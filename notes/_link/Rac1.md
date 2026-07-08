@@ -24,6 +24,8 @@ aliases: [Ras-related C3 Botulinum Toxin Substrate 1]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -37,5 +39,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[Rac1]]
-- Strong connections to strengthen: [[Rac1]] ↔ [[Rac1]]
+  - Strong connections to strengthen: [[Rac1]] ↔ [[Rac1]]
 

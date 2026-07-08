@@ -87,6 +87,8 @@ Senomorphic therapies are being studied for:
 - **Exercise**: Reduces senescent cell burden and circulating SASP factors
 - **Intermittent fasting**: May reduce p21 expression
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -113,4 +115,4 @@ List of documents that mention this entity
 
 - New links added: [[Senomorphic Therapy]], [[Senolytic Therapy]], [[Rapamycin]], [[Metformin]], [[Nutlin 3a]], [[Ruxolitinib]], [[Resveratrol]], [[Apigenin]], [[NF-κB]], [[p38 MAPK]], [[mTORC1|mTOR]], [[cGAS-STING Pathway|cGAS–STING]], [[JAK]], [[STAT3]], [[p53]]
 - Suggested new entity notes to create: [[Tofacitinib]], [[Zileuton]], [[Colchicine]], [[SB203580]]
-- Strong connections to strengthen: [[Senomorphic Therapy]] ↔ [[SASP]], [[Senomorphic Therapy]] ↔ [[Senolytic Therapy]]
+  - Strong connections to strengthen: Senomorphic Therapy ↔ [[SASP]], Senomorphic Therapy ↔ Senolytic Therapy

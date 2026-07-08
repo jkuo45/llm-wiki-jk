@@ -51,6 +51,8 @@ TREX1 mutations cause cutaneous lupus (acral vasculopathy triggered by cold expo
 
 Current therapeutic approaches include [[JAK Inhibitors]] (e.g., ruxolitinib) that block interferon signaling downstream of [[STING]], corticosteroids with limited efficacy, and investigational gene therapy approaches. Understanding the TREX1–cGAS–[[STING]] axis has opened new avenues for targeting type I interferonopathies, including small molecule inhibitors of [[cGAS-STING|cGAS]] and [[STING]] itself.
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -74,4 +76,4 @@ List of documents that mention this entity
 ## Linking Summary
 
 - New links added: [[STING]], [[cGAS-STING|cGAS]], [[TBK1]], [[Interferon]], [[DNA Repair]], [[ATM]], [[DNA Damage]], [[TFEB]], [[HIV]], [[JAK Inhibitors]]
-- Strong connections to strengthen: [[TREX1]] ↔ [[STING]] ↔ [[cGAS-STING|cGAS]]
+  - Strong connections to strengthen: [[TREX1]] ↔ STING]] ↔ [[cGAS-STING|cGAS

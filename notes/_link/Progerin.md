@@ -32,4 +32,4 @@ The accumulation of progerin leads to:
 ## Linking Summary
 - New links added: [[Lamin A]], [[Hutchinson-Gilford Progeria Syndrome]], [[LMNA Gene]], [[Genomic Instability]], [[Aging]], [[Senescence]], [[SASP]]
 - Suggested new entity notes to create: [[Farnesylation]], [[Cryptic Splice Site]]
-- Strong connections to strengthen: [[Progerin]] ↔ [[Hutchinson-Gilford Progeria Syndrome]], [[Progerin]] ↔ [[Lamin A]]
+  - Strong connections to strengthen: [[Progerin]] ↔ Hutchinson-Gilford Progeria Syndrome, [[Progerin]] ↔ Lamin A

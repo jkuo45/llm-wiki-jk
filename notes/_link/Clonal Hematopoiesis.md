@@ -29,5 +29,5 @@ aliases: [CHIP]
 
 ## Linking Summary
 - New links added: [[Clonal Hematopoiesis]]
-- Strong connections to strengthen: [[Clonal Hematopoiesis]] ↔ [[Clonal Hematopoiesis]]
+  - Strong connections to strengthen: Clonal Hematopoiesis ↔ Clonal Hematopoiesis
 

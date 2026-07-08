@@ -25,4 +25,4 @@ aliases: [LOX, Lipoxygenase, ALOX]
 ## Linking Summary
 - New links added: [[Lipid Peroxidation]], [[Inflammation]], [[Oxidative Stress]], [[Polyunsaturated fatty acids]]
 - Suggested new entity notes to create: [[5-LOX]], [[12-LOX]], [[15-LOX]], [[Leukotrienes]]
-- Strong connections to strengthen: [[Lipoxygenase]] ↔ [[Lipid Peroxidation]]
+  - Strong connections to strengthen: [[Lipoxygenase]] ↔ Lipid Peroxidation

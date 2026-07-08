@@ -20,6 +20,8 @@ In the [[Mitohormetic Redox-Relay]] strategy, NMN serves as a critical NAD+ boos
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -44,4 +46,4 @@ List of documents that mention this entity
 - [[Carbazochrome]] — interacts with Nicotinamide Mononucleotide
 ## Linking Summary
 - New links added: [[NAD+]], [[Mitochondria]], [[Longevity]], [[Mitohormetic Redox-Relay]], [[Carbazochrome]], [[PGC1-α]]
-- Strong connections to strengthen: [[Nicotinamide Mononucleotide]] ↔ [[Nicotinamide Riboside]], [[Nicotinamide Mononucleotide]] ↔ [[Mitohormetic Redox-Relay]]
+  - Strong connections to strengthen: Nicotinamide Mononucleotide ↔ Nicotinamide Riboside, Nicotinamide Mononucleotide ↔ Mitohormetic Redox-Relay

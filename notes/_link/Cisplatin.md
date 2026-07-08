@@ -22,6 +22,8 @@ Cisplatin induces [[Autophagy]] as a resistance mechanism in cancer cells. Autop
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -51,4 +53,4 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[Cancer]], [[Intermittent Fasting]], [[Apoptosis]], [[DNA Damage]], [[Senescence]]
-- Strong connections to strengthen: [[Cisplatin]] ↔ [[DNA Damage]], [[Cisplatin]] <-> [[DNA Damage]]
+  - Strong connections to strengthen: [[Cisplatin]] ↔ [[DNA Damage]], [[Cisplatin]] <-> [[DNA Damage]]

@@ -29,5 +29,5 @@ aliases: [TfR1, CD71, TFRC]
 
 ## Linking Summary
 - New links added: [[Transferrin receptor 1]]
-- Strong connections to strengthen: [[Transferrin receptor 1]] ↔ [[Transferrin receptor 1]]
+  - Strong connections to strengthen: Transferrin receptor 1 ↔ Transferrin receptor 1
 

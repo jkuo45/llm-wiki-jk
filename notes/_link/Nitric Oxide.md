@@ -26,6 +26,8 @@ aliases: []
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -58,4 +60,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Cardiovascular Disease]], [[Methemoglobin]], [[Methemoglobinemia]], [[Peroxynitrite]], [[Superoxide anion]], [[Oxidative Stress]]
 - Suggested new entity notes to create: [[Nitric Oxide Synthase]], [[Endothelial Dysfunction]], [[Nitrative Stress]]
-- Strong connections to strengthen: [[Nitric Oxide]] ↔ [[Peroxynitrite]], [[Nitric Oxide]] ↔ [[Methemoglobin]]
+  - Strong connections to strengthen: Nitric Oxide ↔ Peroxynitrite, Nitric Oxide ↔ Methemoglobin

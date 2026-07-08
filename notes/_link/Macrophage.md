@@ -60,6 +60,8 @@ In **atherosclerosis**, macrophages accumulate oxidized low-density lipoprotein 
 
 **HIV reservoir.** Macrophages serve as long-lived reservoirs for [[HIV]], harboring integrated proviral DNA and producing virus even during antiretroviral therapy, posing a significant barrier to cure strategies.
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -98,4 +100,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Autophagy]], [[TFEB]], [[TFE3]], [[Innate Immune System]], [[Monocyte]], [[Bone Marrow]], [[Inflammation]], [[NLRP3 Inflammasome]], [[p62]], [[Kupffer Cells]], [[Microglia]], [[Osteoclasts]], [[TNF-alpha]], [[IL-1beta]], [[IL-6]], [[CCL2]], [[MHC Class II]], [[Lipopolysaccharide]], [[Atherosclerosis]], [[HIV]], [[CSF1R]], [[Checkpoint Inhibitor]]
 - Suggested new entity notes to create: [[Kupffer Cells]], [[LC3-associated phagocytosis]], [[Efferocytosis]], [[Tumor-Associated Macrophages]], [[Macrophage Activation Syndrome]]
-- Strong connections to strengthen: [[Macrophage]] ↔ [[Autophagy]], [[Macrophage]] ↔ [[Inflammation]], [[Macrophage]] ↔ [[TFEB]], [[Macrophage]] ↔ [[NLRP3 Inflammasome]]
+  - Strong connections to strengthen: [[Macrophage]] ↔ Autophagy, [[Macrophage]] ↔ [[Inflammation]], [[Macrophage]] ↔ [[TFEB]], [[Macrophage]] ↔ NLRP3 Inflammasome

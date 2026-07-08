@@ -43,6 +43,8 @@ The broader designation of acid sphingomyelinase deficiency (ASMD) encompasses b
 
 Olipudase alfa is a recombinant human acid sphingomyelinase approved for the treatment of non-central nervous system manifestations of Niemann-Pick type B. It functions as enzyme replacement therapy, reducing sphingomyelin accumulation in visceral organs and improving pulmonary function. Miglustat, a substrate reduction therapy that inhibits glucosylceramide synthase, has been explored as an adjunct treatment in Niemann-Pick disease to attenuate sphingolipid biosynthesis. Gene therapy approaches targeting *SMPD1* are under investigation for both type A and type B forms.
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -64,4 +66,4 @@ List of documents that mention this entity
 
 - New links added: [[Apoptosis]], [[Alzheimer's Disease]], [[Atherosclerosis]], [[Depression]], [[Sphingolipid]]
 - Suggested new entity notes to create: [[Niemann-Pick Disease]], [[Ceramide]], [[Sphingomyelin]], [[Olipudase alfa]], [[Saposin B]]
-- Strong connections to strengthen: [[Acid Sphingomyelinase]] ↔ [[Lysosome]], [[Acid Sphingomyelinase]] ↔ [[Apoptosis]]
+  - Strong connections to strengthen: Acid Sphingomyelinase ↔ [[Lysosome]], Acid Sphingomyelinase ↔ [[Apoptosis]]

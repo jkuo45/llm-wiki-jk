@@ -24,6 +24,8 @@ aliases: [BCL2 Interacting Protein 3]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -37,5 +39,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[BNIP3]]
-- Strong connections to strengthen: [[BNIP3]] ↔ [[BNIP3]]
+  - Strong connections to strengthen: [[BNIP3]] ↔ [[BNIP3]]
 

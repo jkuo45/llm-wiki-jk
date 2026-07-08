@@ -26,4 +26,4 @@ aliases: [Prx, PRDX, Thioredoxin peroxidase]
 ## Linking Summary
 - New links added: [[Thioredoxin]], [[Glutathione]], [[Oxidative Stress]], [[Hydrogen Peroxide]], [[Peroxynitrite]]
 - Suggested new entity notes to create: [[Prx1]], [[Prx2]], [[Sulfiredoxin]], [[Hyperoxidation]]
-- Strong connections to strengthen: [[Peroxiredoxin]] ↔ [[Thioredoxin]]
+  - Strong connections to strengthen: [[Peroxiredoxin]] ↔ [[Thioredoxin]]

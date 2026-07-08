@@ -24,6 +24,8 @@ aliases: [Death-Associated Protein Kinase]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -37,5 +39,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[DAPK]]
-- Strong connections to strengthen: [[DAPK]] ↔ [[DAPK]]
+  - Strong connections to strengthen: [[DAPK]] ↔ [[DAPK]]
 

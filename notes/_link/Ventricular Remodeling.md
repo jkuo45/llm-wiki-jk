@@ -23,6 +23,8 @@ aliases: []
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -36,5 +38,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[Ventricular Remodeling]]
-- Strong connections to strengthen: [[Ventricular Remodeling]] ↔ [[Ventricular Remodeling]]
+  - Strong connections to strengthen: Ventricular Remodeling ↔ Ventricular Remodeling
 

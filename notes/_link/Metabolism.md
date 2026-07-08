@@ -62,6 +62,8 @@ Metabolic dysfunction underlies many of the most prevalent diseases worldwide. *
 
 **Therapeutic targeting** of metabolic pathways is an active area of pharmacology. [[Metformin]], a first-line therapy for type 2 diabetes, activates AMPK and inhibits hepatic gluconeogenesis. [[Rapamycin]] (sirolimus) inhibits [[mTORC1]], extending lifespan in model organisms and currently under investigation for anti-aging effects. Sirtuin-activating compounds (STACs) such as resveratrol activate SIRT1, though clinical translation remains challenging. NAD⁺ precursors including nicotinamide mononucleotide (NMN) and nicotinamide riboside (NR) aim to restore age-depleted NAD⁺ levels, with promising preclinical and early clinical data.
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -107,4 +109,4 @@ List of documents that mention this entity
 
 - New links added: [[Glycolysis]], [[TCA Cycle]], [[Oxidative Phosphorylation]], [[Fatty Acid Oxidation]], [[Amino Acid]], [[Nucleotide]], [[Catabolism]], [[Anabolism]], [[Insulin]], [[Glucagon]], [[Cortisol]], [[Phosphofructokinase-1]], [[Sirtuins]], [[PGC-1α]], [[HIF-1α]], [[Autophagy]], [[Type 2 Diabetes Mellitus]], [[NAFLD]], [[Cancer]], [[Warburg Effect]], [[Metformin]], [[Rapamycin]], [[NAD+]], [[Glucose]], [[Acetyl-CoA]], [[PI3K]], [[Akt]]
 - Existing links retained: [[Aging]], [[AMPK]], [[mTOR]], [[Metabolome]], [[Obesity]], [[Insulin Resistance]], [[Hypertension]], [[Brain]], [[Heart]], [[Liver]], [[Muscle]], [[Antioxidant]], [[Thyroid Hormones]], [[Electron Transport Chain]], [[Mitochondria]], [[Glutathione]]
-- Strong connections to strengthen: [[Metabolism]] ↔ [[AMPK]], [[Metabolism]] ↔ [[mTORC1]], [[Metabolism]] ↔ [[Sirtuins]], [[Metabolism]] ↔ [[Autophagy]]
+  - Strong connections to strengthen: [[Metabolism]] ↔ [[AMPK]], [[Metabolism]] ↔ [[mTORC1]], [[Metabolism]] ↔ Sirtuins, [[Metabolism]] ↔ Autophagy

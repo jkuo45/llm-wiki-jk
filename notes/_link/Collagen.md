@@ -21,6 +21,8 @@ Collagen provides structural support and elasticity to tissues such as skin, blo
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -37,4 +39,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Aging]], [[Hyperglycemia]], [[Glycation]], [[Advanced Glycation End Products]], [[Extracellular Matrix]], [[ECM]], [[Fibroblast]]
 - Suggested new entity notes to create: [[Extracellular Matrix]], [[Connective Tissue]]
-- Strong connections to strengthen: [[Collagen]] ↔ [[Aging]]
+  - Strong connections to strengthen: [[Collagen]] ↔ [[Aging]]

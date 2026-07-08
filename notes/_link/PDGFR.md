@@ -24,6 +24,8 @@ aliases: [Platelet-Derived Growth Factor Receptor]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -40,5 +42,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[PDGFR]]
-- Strong connections to strengthen: [[PDGFR]] ↔ [[PDGFR]]
+  - Strong connections to strengthen: [[PDGFR]] ↔ [[PDGFR]]
 

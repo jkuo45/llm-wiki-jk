@@ -43,6 +43,8 @@ Mild Cognitive Impairment (MCI) represents a prodromal stage between normal agin
 
 Current pharmacotherapy is palliative. Cholinesterase inhibitors (donepezil, rivastigmine, galantamine) enhance cholinergic transmission and provide modest, temporary symptomatic improvement in attention and memory in [[Alzheimer's Disease]] and Lewy body dementia. [[Memantine]], an uncompetitive [[NMDA receptor]] antagonist, reduces excitotoxic glutamatergic signaling and is used in moderate-to-severe Alzheimer's Disease, often in combination with cholinesterase inhibitors. Disease-modifying therapies targeting amyloid-β (lecanemab, donanemab) have recently shown slowing of cognitive decline in early Alzheimer's Disease. Non-pharmacological interventions—physical exercise (which elevates [[BDNF]]), cognitive training, Mediterranean-style diets, social engagement, and cardiovascular risk management—contribute meaningfully to cognitive resilience and may delay onset or progression of cognitive impairment.
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -77,4 +79,4 @@ List of documents that mention this entity
 
 - New links added: [[Dopamine]], [[Serotonin]], [[BDNF]], [[Prefrontal Cortex]], [[Hippocampus]], [[Cerebellum]], [[Depression]], [[Inflammation]], [[Oxidative Stress]], [[mTORC1]], [[Autophagy]], [[CREB]], [[NMDA receptor]], [[Cognitive Performance]], [[Parkinson's Disease]], [[Alzheimer's Disease]], [[Alpha-synuclein]], [[Tau]], [[Memantine]], [[AMPA receptor]], [[CaMKII]]
 - Suggested new entity notes to create: [[Long-term Potentiation]], [[Default Mode Network]], [[Cholinesterase Inhibitors]], [[Mild Cognitive Impairment]], [[Neuroinflammation]]
-- Strong connections to strengthen: [[Cognition]] ↔ [[Alzheimer's Disease]], [[Cognition]] ↔ [[Prefrontal Cortex]], [[Cognition]] ↔ [[BDNF]]
+  - Strong connections to strengthen: [[Cognition]] ↔ Alzheimer's Disease, [[Cognition]] ↔ Prefrontal Cortex, [[Cognition]] ↔ BDNF

@@ -29,5 +29,5 @@ aliases: [Mitochondrial Unfolded Protein Response]
 
 ## Linking Summary
 - New links added: [[UPRmt]]
-- Strong connections to strengthen: [[UPRmt]] ↔ [[UPRmt]]
+  - Strong connections to strengthen: [[UPRmt]] ↔ [[UPRmt]]
 

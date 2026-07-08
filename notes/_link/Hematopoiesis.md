@@ -25,4 +25,4 @@ aliases: [Hematopoiesis, Blood cell formation, Hematopoietic development]
 ## Linking Summary
 - New links added: [[Hematopoietic Stem Cell]], [[Aging]], [[Stem Cell Exhaustion]], [[Transcription]], [[Epigenome]]
 - Suggested new entity notes to create: [[Myelopoiesis]], [[Lymphopoiesis]], [[Bone Marrow Niche]]
-- Strong connections to strengthen: [[Hematopoiesis]] ↔ [[Hematopoietic Stem Cell]]
+  - Strong connections to strengthen: [[Hematopoiesis]] ↔ Hematopoietic Stem Cell

@@ -36,6 +36,8 @@ An imbalance between ROS production and antioxidant defenses leads to [[Oxidativ
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -58,4 +60,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Adrenochrome]], [[Reactive Oxygen Species]], [[Superoxide Dismutase]], [[Superoxide Radicals]], [[Hydrogen Peroxide]], [[Catalase]], [[Glutathione Peroxidase]], [[Glutathione]], [[Vitamin E]], [[Vitamin C]], [[Coenzyme Q10]], [[Polyphenols]], [[Flavonoids]], [[Lipid Peroxidation]], [[Oxidative Stress]], [[Cancer]], [[Cardiovascular Disease]], [[Neurodegenerative Disease]], [[Mitochondria]]
 - Suggested new entity notes to create: [[Vitamin C]]
-- Strong connections to strengthen: [[Antioxidants]] ↔ [[Oxidative Stress]]
+  - Strong connections to strengthen: [[Antioxidants]] ↔ Oxidative Stress

@@ -30,6 +30,8 @@ COVID-19 ranges from asymptomatic to severe [[Pneumonia]], [[ARDS]], [[Sepsis]],
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -51,4 +53,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[COVID-19]], [[ACE2]], [[Spike Protein]], [[TMPRSS2]], [[Cathepsin L]], [[RNA virus]], [[Coronaviridae]], [[RNA-dependent RNA polymerase]], [[Main protease]], [[Papain-like protease]], [[Envelope]], [[Membrane]], [[Nucleocapsid]], [[Cytosol]], [[NFκB]], [[NLRP3 Inflammasome]], [[Cytokine Storm]], [[Pneumonia]], [[ARDS]], [[Sepsis]], [[Obesity]], [[Diabetes]], [[Hypertension]], [[Immunosuppression]], [[Aging]], [[Vaccine]], [[mRNA vaccine]], [[Long COVID]], [[Cognitive decline]]
 - Suggested new entity notes to create: [[Betacoronavirus]], [[Viral protease inhibitors]], [[Remdesivir]], [[Paxlovid]], [[Molnupiravir]], [[Neutralizing antibody]], [[Omicron variant]], [[Spike mutations]]
-- Strong connections to strengthen: [[SARS-CoV-2]] ↔ [[COVID-19]], [[SARS-CoV-2]] ↔ [[ACE2]], [[SARS-CoV-2]] ↔ [[Aging]]
+  - Strong connections to strengthen: [[SARS-CoV-2]] ↔ [[COVID-19]], [[SARS-CoV-2]] ↔ ACE2, [[SARS-CoV-2]] ↔ [[Aging]]

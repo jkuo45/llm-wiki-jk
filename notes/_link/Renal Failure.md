@@ -24,6 +24,8 @@ aliases: [Kidney Failure]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -40,5 +42,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[Renal Failure]]
-- Strong connections to strengthen: [[Renal Failure]] ↔ [[Renal Failure]]
+  - Strong connections to strengthen: Renal Failure ↔ Renal Failure
 

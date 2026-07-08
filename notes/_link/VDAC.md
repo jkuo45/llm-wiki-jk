@@ -29,5 +29,5 @@ aliases: [Voltage-Dependent Anion Channel, Porin]
 
 ## Linking Summary
 - New links added: [[VDAC]]
-- Strong connections to strengthen: [[VDAC]] ↔ [[VDAC]]
+  - Strong connections to strengthen: [[VDAC]] ↔ [[VDAC]]
 

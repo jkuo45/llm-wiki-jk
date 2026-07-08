@@ -16,6 +16,8 @@ Paraquat is a chemical compound and toxic herbicide that induces cellular oxidat
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -36,4 +38,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Oxidative Stress]], [[Senescence]], [[Parkinson's Disease]], [[MPP+]], [[Mitochondrial Dysfunction]], [[Complex I]], [[Reactive Oxygen Species]].
 - Suggested new entity notes to create: [[Pesticides]], [[Environmental Toxins]].
-- Strong connections to strengthen: [[Paraquat]] <-> [[Oxidative Stress]], [[Paraquat]] ↔ [[Parkinson's Disease]].
+  - Strong connections to strengthen: [[Paraquat]] <-> [[Oxidative Stress]], [[Paraquat]] ↔ [[Parkinson's Disease]].

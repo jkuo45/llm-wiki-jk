@@ -29,5 +29,5 @@ aliases: [PYCARD, Apoptosis-Associated Speck-like Protein]
 
 ## Linking Summary
 - New links added: [[ASC]]
-- Strong connections to strengthen: [[ASC]] ↔ [[ASC]]
+  - Strong connections to strengthen: [[ASC]] ↔ [[ASC]]
 

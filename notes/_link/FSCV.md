@@ -26,6 +26,8 @@ FSCV measures sub-second [[Dopamine]] release in awake, behaving animals (rodent
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -47,4 +49,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Dopamine]], [[Serotonin]], [[Norepinephrine]], [[Adenosine]], [[Neurotransmitter]], [[Carbon-fiber Microelectrode]], [[Cyclic Voltammetry]], [[Microelectrode]], [[Reward System]], [[Addiction]], [[Cocaine]], [[Amphetamine]], [[Motivation]], [[Psychostimulants]]
 - Suggested new entity notes to create: [[Faradaic current]], [[Cyclic voltammogram]], [[Carbon-fiber electrode]], [[Background subtraction]], [[Electrochemical detection]], [[In vivo electrochemistry]]
-- Strong connections to strengthen: [[FSCV]] ↔ [[Dopamine]], [[FSCV]] ↔ [[Addiction]]
+  - Strong connections to strengthen: [[FSCV]] ↔ [[Dopamine]], [[FSCV]] ↔ Addiction

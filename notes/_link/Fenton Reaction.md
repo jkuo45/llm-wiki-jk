@@ -38,4 +38,4 @@ Because of the destructive capacity of the Fenton reaction, cellular iron is str
 ## Linking Summary
 - New links added: [[Iron]], [[Reactive Oxygen Species]], [[Neuromelanin]], [[Oxidative Stress]], [[Parkinson's Disease]], [[Ascorbic Acid]], [[Superoxide Dismutase]], [[Ferritin]], [[Transferrin receptor 1]], [[8-oxo-2'-deoxyguanosine]], [[DNA Damage]], [[NRF2]], [[HO-1]], [[Substantia Nigra]], [[Neurodegeneration]], [[Cancer]], [[Ferroptosis]], [[Lipid Peroxidation]], [[Xanthine Oxidase]], [[Aging]], [[Hydrogen Peroxide]], [[Hydroxyl Radicals]]
 - Suggested new entity notes to create: [[Ferritin]], [[Haber-Weiss Reaction]], [[HO-1]], [[Ferroptosis]], [[Iron Regulatory Protein]], [[Ischemia-reperfusion Injury]], [[Ferrous iron]], [[Free radical chemistry]]
-- Strong connections to strengthen: [[Fenton Reaction]] ↔ [[Iron]], [[Fenton Reaction]] ↔ [[Ferroptosis]], [[Fenton Reaction]] ↔ [[Parkinson's Disease]], [[Fenton Reaction]] ↔ [[Hydroxyl Radicals]]
+  - Strong connections to strengthen: Fenton Reaction ↔ Iron, Fenton Reaction ↔ [[Ferroptosis]], Fenton Reaction ↔ [[Parkinson's Disease]], Fenton Reaction ↔ Hydroxyl Radicals

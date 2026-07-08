@@ -30,6 +30,8 @@ The field relies heavily on accurate [[Biomarkers]] to measure the effectiveness
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -47,4 +49,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Geroscience]], [[Aging]], [[DNA Methylation]], [[Histone Modification]], [[Genomic Instability]], [[Cellular Senescence]], [[Autophagy]], [[Metformin]], [[Resveratrol]], [[Spermidine]], [[Caloric Restriction]], [[Senolytics]], [[Biomarkers]], [[Epigenetic Clock]], [[DNAmGrimAge]]
 - Suggested new entity notes to create: [[Healthspan]], [[Geroprotectors]], [[Hallmarks of Aging]]
-- Strong connections to strengthen: [[Geroscience]] ↔ [[Aging]], [[Geroscience]] ↔ [[Senolytics]]
+  - Strong connections to strengthen: [[Geroscience]] ↔ [[Aging]], [[Geroscience]] ↔ [[Senolytics]]

@@ -24,6 +24,8 @@ aliases: [3-Phosphoinositide-Dependent Protein Kinase 1]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -37,5 +39,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[PDK1]]
-- Strong connections to strengthen: [[PDK1]] ↔ [[PDK1]]
+  - Strong connections to strengthen: [[PDK1]] ↔ [[PDK1]]
 

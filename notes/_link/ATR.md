@@ -29,5 +29,5 @@ aliases: [Ataxia Telangiectasia and Rad3-related]
 
 ## Linking Summary
 - New links added: [[ATR]]
-- Strong connections to strengthen: [[ATR]] ↔ [[ATR]]
+  - Strong connections to strengthen: [[ATR]] ↔ [[ATR]]
 

@@ -25,6 +25,8 @@ SCAPs are the primary targets of [[Senolytics]], drugs that selectively induce [
 - [[Dasatinib]] + [[Quercetin]] (D+Q): Targets multiple SCAPs.
 - [[Navitoclax]]: A BCL-2/BCL-XL inhibitor.
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -43,4 +45,4 @@ List of documents that mention this entity
 ## Linking Summary
 
   - New links added: [[Senescent Cells]], [[Apoptosis]], [[Senolytics]], [[Bcl-2]], [[PI3K]], [[Akt]]
-  - Strong connections to strengthen: [[Senescent cell anti-apoptotic pathways]] ↔ [[Senescent Cells]], [[Senescent cell anti-apoptotic pathways]] ↔ [[Senolytics]]
+  - Strong connections to strengthen: Senescent cell anti-apoptotic pathways ↔ Senescent Cells, Senescent cell anti-apoptotic pathways ↔ [[Senolytics]]

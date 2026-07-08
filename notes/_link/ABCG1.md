@@ -29,5 +29,5 @@ aliases: [ATP-binding Cassette G1]
 
 ## Linking Summary
 - New links added: [[ABCG1]]
-- Strong connections to strengthen: [[ABCG1]] ↔ [[ABCG1]]
+  - Strong connections to strengthen: [[ABCG1]] ↔ [[ABCG1]]
 

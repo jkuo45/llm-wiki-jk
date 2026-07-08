@@ -23,4 +23,4 @@ In longevity protocols like [[GlyNAC]], glycine is combined with N-Acetylcystein
 - [[GlyNAC]] — interacts with Glycine
 ## Linking Summary
 - New links added: [[Glutathione]], [[GlyNAC]], [[Oxidative Stress]]
-- Strong connections to strengthen: [[Glycine]] ↔ [[Glutathione]]
+  - Strong connections to strengthen: [[Glycine]] ↔ [[Glutathione]]

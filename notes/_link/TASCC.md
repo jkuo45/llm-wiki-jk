@@ -23,6 +23,8 @@ The TASCC couples autophagy-derived amino acids to high secretory demand in sene
 ## Significance
 The TASCC represents a metabolic rewiring in senescent cells that links their high [[Autophagy|autophagic]] activity to their pro-inflammatory secretory phenotype.
 
+# 
+
 ## Documents
 
 List of documents that mention this entity

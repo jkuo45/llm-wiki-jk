@@ -53,6 +53,8 @@ Multiple therapeutic strategies target the APP–Aβ axis:
 - **Anti-Aβ monoclonal antibodies**: [[Aducanumab]] (FDA approved 2021, accelerated approval), [[Lecanemab]] (FDA approved 2023, full approval), and [[Donanemab]] (FDA approved 2024) target aggregated Aβ species. Lecanemab and donanemab demonstrated modest but statistically significant slowing of cognitive decline (27–35% reduction in decline over 18 months) in Phase III trials (van Dyck et al., 2023, PMID: 36882058; Sims et al., 2023, PMID: 37310918).
 - **APP-targeting antisense oligonucleotides (ASOs)**: Under preclinical and early clinical investigation to reduce APP expression at the mRNA level.
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -82,4 +84,4 @@ List of documents that mention this entity
 ## Linking Summary
 
 - New links added: [[Amyloid Precursor Protein]], [[Neurons]], [[Golgi Apparatus]], [[Copper]], [[Cholesterol]], [[Cell Adhesion]], [[Neurite Outgrowth]], [[Synaptogenesis]], [[Amyloid Beta Peptide]], [[Beta-Secretase 1]], [[Gamma-Secretase]], [[Lipid Rafts]], [[Clathrin]], [[Long-Term Potentiation]], [[Heparan Sulfate Proteoglycans]], [[Alzheimer's Disease]], [[Presenilin 1]], [[Presenilin 2]], [[Down Syndrome]], [[Amyloid Plaques]], [[ADAM10]], [[Aducanumab]], [[Lecanemab]], [[Donanemab]]
-- Strong connections to strengthen: [[APP]] ↔ [[BACE1]], [[APP]] ↔ [[Gamma-Secretase]], [[APP]] ↔ [[Beta-amyloid]], [[APP]] ↔ [[Alzheimer's Disease]]
+  - Strong connections to strengthen: [[APP]] ↔ [[BACE1]], [[APP]] ↔ Gamma-Secretase, [[APP]] ↔ [[Beta-amyloid]], [[APP]] ↔ Alzheimer's Disease

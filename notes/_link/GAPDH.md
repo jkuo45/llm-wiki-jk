@@ -25,4 +25,4 @@ aliases: [Glyceraldehyde-3-phosphate dehydrogenase, G3PDH]
 ## Linking Summary
 - New links added: [[Glycolysis]], [[Oxidative Stress]], [[Apoptosis]], [[Transcription]]
 - Suggested new entity notes to create: [[S-Glutathionylation]], [[Nuclear GAPDH]]
-- Strong connections to strengthen: [[GAPDH]] ↔ [[Glycolysis]]
+  - Strong connections to strengthen: [[GAPDH]] ↔ [[Glycolysis]]

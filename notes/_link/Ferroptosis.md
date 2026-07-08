@@ -30,6 +30,8 @@ Ferroptosis has been implicated in [[Neurodegeneration|neurodegenerative disease
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -54,5 +56,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[Lipid Peroxidation]], [[GPX4]], [[Glutathione]], [[Fenton Reaction]], [[Ferritin]], [[NCOA4]], [[FSP1]], [[DHODH]], [[System Xc⁻]], [[ACSL4]], [[LPCAT3]], [[NOX]], [[Transferrin receptor 1]], [[HO-1]], [[Malondialdehyde]], [[4-Hydroxynonenal]], [[Deferoxamine]], [[Deferiprone]], [[Vitamin E]], [[Ferrostatin-1]]
-- Strong connections to strengthen: [[Ferroptosis]] ↔ [[Lipid Peroxidation]], [[Ferroptosis]] ↔ [[GPX4]], [[Ferroptosis]] ↔ [[Glutathione]], [[Ferroptosis]] ↔ [[Fenton Reaction]], [[Ferroptosis]] ↔ [[Ferritin]]
+  - Strong connections to strengthen: [[Ferroptosis]] ↔ Lipid Peroxidation, [[Ferroptosis]] ↔ [[GPX4]], [[Ferroptosis]] ↔ [[Glutathione]], [[Ferroptosis]] ↔ Fenton Reaction, [[Ferroptosis]] ↔ Ferritin
 

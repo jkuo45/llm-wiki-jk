@@ -27,6 +27,8 @@ By controlling NMN synthesis and subsequently cellular NAD⁺ levels, NAMPT acts
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -47,4 +49,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[NAD+]], [[Aging]], [[SIRT1]], [[AMPK]], [[Nicotinamide Mononucleotide]], [[NMNAT]], [[PARP1]], [[Toll-like Receptor]], [[Hallmarks of Aging]], [[Diabetes Mellitus]], [[cAMP]]
 - Suggested new entity notes to create: [[Nicotinamide phosphoribosyltransferase]], [[Salvage pathway]], [[FK866]]
-- Strong connections to strengthen: [[NAMPT]] ↔ [[NAD+]], [[NAMPT]] ↔ [[SIRT1]]
+  - Strong connections to strengthen: [[NAMPT]] ↔ [[NAD+]], [[NAMPT]] ↔ SIRT1

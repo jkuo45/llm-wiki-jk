@@ -31,6 +31,8 @@ aliases:
 
 EGFR is a major drug target. Tyrosine kinase inhibitors ([[erlotinib]], [[gefitinib]]) and monoclonal antibodies ([[cetuximab]]) are used clinically.
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -65,4 +67,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[PI3K]], [[Akt]], [[MAPK]], [[Colorectal Cancer]], [[Lung Cancer]], [[triple-negative breast cancer]], [[Cancer]], [[Ivermectin]], [[melittin]]
 - Suggested new entity notes to create: [[erlotinib]], [[Gefitinib]], [[Cetuximab]]
-- Strong connections to strengthen: [[EGFR]] ↔ [[Cancer]], [[EGFR]] ↔ [[PI3K]]
+  - Strong connections to strengthen: [[EGFR]] ↔ Cancer, [[EGFR]] ↔ [[PI3K]]

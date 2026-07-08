@@ -41,5 +41,5 @@ See [[Peroxisomes]].
 
 ## Linking Summary
 - New links added: [[Catalase]], [[Superoxide Dismutase]], [[Aging]], [[Inflammation]], [[Neurodegeneration]]
-- Strong connections to strengthen: [[Peroxisomes]] ↔ [[Catalase]], [[Peroxisomes]] ↔ [[Superoxide Dismutase]], [[Peroxisomes]] ↔ [[Aging]], [[Peroxisomes]] ↔ [[Inflammation]], [[Peroxisomes]] ↔ [[Neurodegeneration]]
+  - Strong connections to strengthen: [[Peroxisomes]] ↔ [[Catalase]], [[Peroxisomes]] ↔ Superoxide Dismutase, [[Peroxisomes]] ↔ [[Aging]], [[Peroxisomes]] ↔ [[Inflammation]], [[Peroxisomes]] ↔ [[Neurodegeneration]]
 

@@ -24,6 +24,8 @@ aliases: [Ribosome Synthesis]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -37,5 +39,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[Ribosome Biogenesis]]
-- Strong connections to strengthen: [[Ribosome Biogenesis]] ↔ [[Ribosome Biogenesis]]
+  - Strong connections to strengthen: Ribosome Biogenesis ↔ Ribosome Biogenesis
 

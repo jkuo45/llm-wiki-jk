@@ -47,6 +47,8 @@ The [[COMT]] [[Val158Met]] [[Polymorphism]] significantly affects dopamine level
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -77,4 +79,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Dopamine]], [[Catecholamines]], [[Oxidation]], [[Dopaminochrome]], [[Adrenochrome]], [[Neuromelanin]], [[Oxidative Stress]], [[Epinephrine]], [[COMT]], [[MAO]], [[Substantia Nigra]], [[Parkinson's Disease]], [[Tyrosine Hydroxylase]], [[L-DOPA]], [[Substantia Nigra Pars Compacta]], [[Vesicular Monoamine Transporter 2]], [[Neuromelanin]]., [[Neurotransmitters]], [[Executive Function]], [[Catechol-O-methyltransferase]], [[Monoamine oxidase]], [[Sirtuins]], [[Dopamine Transporter]], [[DAT]], [[Prefrontal Cortex]], [[Prefrontal Cortex]], [[Norepinephrine transporter]], [[NET]], [[Schizophrenia]], [[Working Memory]], [[Val158Met]], [[Polymorphism]]., [[Polymorphism]]
 - Suggested new entity notes to create: [[Neurotransmitters]], [[Dopaminergic Neurons]], [[Aromatic L-amino acid decarboxylase]], [[Catecholamines]]., [[Catecholamines]]
-- Strong connections to strengthen: [[Dopamine]] ↔ [[Dopaminochrome]], [[Dopamine]] ↔ [[Parkinson's Disease]], [[Dopamine]] ↔ [[Substantia Nigra]].
+  - Strong connections to strengthen: [[Dopamine]] ↔ [[Dopaminochrome]], [[Dopamine]] ↔ [[Parkinson's Disease]], [[Dopamine]] ↔ [[Substantia Nigra]].

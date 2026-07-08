@@ -24,6 +24,8 @@ aliases: [Xtandi, MDV3100]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -37,5 +39,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[Enzalutamide]]
-- Strong connections to strengthen: [[Enzalutamide]] ↔ [[Enzalutamide]]
+  - Strong connections to strengthen: [[Enzalutamide]] ↔ [[Enzalutamide]]
 

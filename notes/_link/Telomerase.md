@@ -23,6 +23,8 @@ aliases: [TERT]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -36,5 +38,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[Telomerase]]
-- Strong connections to strengthen: [[Telomerase]] ↔ [[Telomerase]]
+  - Strong connections to strengthen: [[Telomerase]] ↔ [[Telomerase]]
 

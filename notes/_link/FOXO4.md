@@ -28,6 +28,8 @@ FOXO4 is directly targeted by sirtuin-mediated deacetylation in response to oxid
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -47,4 +49,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Autophagy]], [[FoxO1]], [[FOXO3a]], [[Senescence]], [[SIRT1]], [[DNA Repair]]
 - Suggested new entity notes to create: [[GADD45]], [[Caspase-3]]
-- Strong connections to strengthen: [[FOXO4]] ↔ [[FOXO3a]], [[FOXO4]] ↔ [[Senescence]], [[FOXO4]] ↔ [[SIRT1]]
+  - Strong connections to strengthen: [[FOXO4]] ↔ [[FOXO3a]], [[FOXO4]] ↔ [[Senescence]], [[FOXO4]] ↔ SIRT1

@@ -24,6 +24,8 @@ aliases: [Lipogenesis]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -40,5 +42,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[Lipid Synthesis]]
-- Strong connections to strengthen: [[Lipid Synthesis]] ↔ [[Lipid Synthesis]]
+  - Strong connections to strengthen: Lipid Synthesis ↔ Lipid Synthesis
 

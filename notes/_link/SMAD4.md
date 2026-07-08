@@ -24,6 +24,8 @@ aliases: [Mothers Against Decapentaplegic Homolog 4, DPC4]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -37,5 +39,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[SMAD4]]
-- Strong connections to strengthen: [[SMAD4]] ↔ [[SMAD4]]
+  - Strong connections to strengthen: [[SMAD4]] ↔ [[SMAD4]]
 

@@ -24,6 +24,8 @@ MK2 is a critical regulator of the [[Senescence-Associated Secretory Phenotype|S
 ## Therapeutic Targeting
 Inhibiting the p38 MAPK-MK2 axis is a promising [[Senomorphic Therapy]] strategy to suppress SASP.
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -42,4 +44,4 @@ List of documents that mention this entity
 ## Linking Summary
 
   - New links added: [[p38 MAPK]], [[HSP27]], [[AUF1]], [[Senescence-Associated Secretory Phenotype|SASP]], [[Senomorphic Therapy]]
-  - Strong connections to strengthen: [[MAPKAPK2]] ↔ [[p38 MAPK]], [[MAPKAPK2]] ↔ [[SASP]]
+  - Strong connections to strengthen: [[MAPKAPK2]] ↔ p38 MAPK, [[MAPKAPK2]] ↔ [[SASP]]

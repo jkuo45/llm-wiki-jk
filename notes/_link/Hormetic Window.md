@@ -104,4 +104,4 @@ The **[[Redox Vaccination]]** hypothesis proposes that sub-toxic adrenochrome ex
 ## Linking Summary
 - New links added: [[Hormesis]], [[Mitohormesis]], [[SIRT3]]/[[SIRT4]] ratio, [[MnSOD]], [[Mitohormetic Redox-Relay]], [[Carbazochrome]], [[Methylene blue]], [[Glutathione]], [[Thioredoxin]], [[NRF2]], [[AMPK]], [[PGC1-α]], [[Redox Vaccination]], [[FOXO3a]], [[Caloric Restriction]], [[Exercise]], [[UCP2]], [[DRP1]], [[Peroxiredoxin]], [[Glutathione Peroxidase]], [[Apoptosis]], [[Heart]], [[Brain]], [[Liver]], [[Muscle]], [[NAD+]], [[NMN]], [[NR]], [[Mitophagy]]
 - Suggested new entity notes to create: [[Hormetic Dose-Response Curve]], [[Therapeutic Window Optimization]]
-- Strong connections to strengthen: [[Hormetic Window]] ↔ [[SIRT3]]/[[SIRT4]] ratio, [[Hormetic Window]] ↔ [[Mitohormetic Redox-Relay]]
+  - Strong connections to strengthen: Hormetic Window ↔ [[SIRT3]]/[[SIRT4]] ratio, Hormetic Window ↔ Mitohormetic Redox-Relay

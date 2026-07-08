@@ -29,5 +29,5 @@ aliases: [Activating Transcription Factor 6]
 
 ## Linking Summary
 - New links added: [[ATF6]]
-- Strong connections to strengthen: [[ATF6]] ↔ [[ATF6]]
+  - Strong connections to strengthen: [[ATF6]] ↔ [[ATF6]]
 

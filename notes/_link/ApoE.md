@@ -29,5 +29,5 @@ aliases: [Apolipoprotein E]
 
 ## Linking Summary
 - New links added: [[ApoE]]
-- Strong connections to strengthen: [[ApoE]] ↔ [[ApoE]]
+  - Strong connections to strengthen: [[ApoE]] ↔ [[ApoE]]
 

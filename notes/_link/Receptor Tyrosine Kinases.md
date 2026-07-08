@@ -29,5 +29,5 @@ aliases: [RTKs]
 
 ## Linking Summary
 - New links added: [[Receptor Tyrosine Kinases]]
-- Strong connections to strengthen: [[Receptor Tyrosine Kinases]] ↔ [[Receptor Tyrosine Kinases]]
+  - Strong connections to strengthen: Receptor Tyrosine Kinases ↔ Receptor Tyrosine Kinases
 

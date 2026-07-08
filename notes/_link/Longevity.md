@@ -85,6 +85,8 @@ Longevity is intimately connected to cellular redox state:
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -124,4 +126,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Aging]], [[Genotype]], [[Successful Aging]], [[Centenarians]], [[Advanced Glycation End Products]], [[Lifespan]], [[Carlos López-Otín]], [[DNA Damage]], [[Telomeres]], [[DNA Methylation]], [[Histone Modification]], [[Chromatin Remodeling]], [[Autophagy]], [[Unfolded Protein Response]], [[Proteasome]], [[Mitochondrial Dynamics]], [[Senescent cells]], [[SASP]], [[Stem cells]], [[Inflammaging]], [[Immunosenescence]], [[mTOR]], [[AMPK]], [[Sirtuins]], [[IIS]], [[Rapamycin]], [[Dietary Restriction]], [[Metformin]], [[AICAR]], [[PGC1-α]], [[ULK1]], [[TSC2]], [[FOXO]], [[SIRT1]], [[SIRT3]], [[Nicotinamide Riboside]], [[Nicotinamide Mononucleotide]], [[Mitohormesis]], [[UPRmt]], [[Retrograde Response]], [[Mitokines]], [[isp-1]], [[clk-1]], [[nuo-6]], [[Mitophagy]], [[Urolithin A]], [[Actinonin]], [[S. cerevisiae]], [[C. elegans]], [[Drosophila melanogaster]], [[Mus musculus]], [[Rattus norvegicus]], [[Zebrafish]], [[Caloric Restriction]], [[Intermittent Fasting]], [[Protein restriction]], [[Methionine]], [[Branched-chain amino acids]], [[Time-restricted feeding]], [[Insulin Sensitivity]], [[Cardiovascular function]], [[Cognitive function]], [[HIIT]], [[Endurance training]], [[TAME]], [[Everolimus]], [[Resveratrol]], [[Senolytics]], [[Dasatinib]], [[Quercetin]], [[Reactive Oxygen Species]], [[Glyco-Oxidative Proteostasis Shield]], [[Redox Cycling]], [[Carbazochrome]]
 - Suggested new entity notes to create: [[Lifespan]], [[Redox Robustness]], [[Healthspan]]
-- Strong connections to strengthen: [[Longevity]] ↔ [[Epigenetics]], [[Aging]] ↔ [[Longevity]], [[Mitohormesis]] ↔ [[Longevity]]
+  - Strong connections to strengthen: [[Longevity]] ↔ Epigenetics, [[Aging]] ↔ [[Longevity]], [[Mitohormesis]] ↔ [[Longevity]]

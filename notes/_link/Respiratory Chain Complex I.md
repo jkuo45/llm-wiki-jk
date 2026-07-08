@@ -27,4 +27,4 @@ aliases: [Complex I, NADH:ubiquinone oxidoreductase, NADH dehydrogenase]
 ## Linking Summary
 - New links added: [[Mitochondria]], [[Oxidative Stress]], [[Superoxide Radicals]], [[Complex IV]], [[NADH]]
 - Suggested new entity notes to create: [[Ubiquinone]], [[Rotenone]], [[ETC]]
-- Strong connections to strengthen: [[Respiratory Chain Complex I]] ↔ [[Oxidative Stress]]
+  - Strong connections to strengthen: Respiratory Chain Complex I ↔ Oxidative Stress

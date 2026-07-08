@@ -33,6 +33,8 @@ PINK1 is constitutively imported into mitochondria and cleaved by [[PARL]]; loss
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -65,4 +67,4 @@ List of documents that mention this entity
 - [[Parkinson's Disease]] — neurodegenerative disease; α-synuclein pathology; dopamine loss
 ## Linking Summary
 - New links added: [[Parkin]], [[Mitophagy]]
-- Strong connections to strengthen: [[PINK1]] ↔ [[Parkin]]
+  - Strong connections to strengthen: [[PINK1]] ↔ [[Parkin]]

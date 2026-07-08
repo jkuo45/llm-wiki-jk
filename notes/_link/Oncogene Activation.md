@@ -33,4 +33,4 @@ Oncogene activation refers to the processes by which a [[Proto-Oncogene]] is con
 ## Linking Summary
 - New links added: [[Proto-Oncogene]], [[Oncogene]], [[Cancer]], [[RAS]], [[BRAF]], [[HER2]], [[MYC]], [[BCR-ABL]], [[Gene Amplification]], [[Chromosomal Translocation]], [[Epigenetic]], [[Histone Acetylation]], [[Cell Proliferation]], [[Apoptosis]], [[Angiogenesis]]
 - Suggested new entity notes to create: [[Insertional Mutagenesis]], [[G12V Mutation]], [[V600E Mutation]]
-- Strong connections to strengthen: [[Oncogene Activation]] ↔ [[Oncogene]], [[Oncogene Activation]] ↔ [[Cancer]]
+  - Strong connections to strengthen: [[Oncogene Activation]] ↔ [[Oncogene]], [[Oncogene Activation]] ↔ Cancer

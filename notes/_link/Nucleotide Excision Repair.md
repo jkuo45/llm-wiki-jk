@@ -29,5 +29,5 @@ aliases: [NER]
 
 ## Linking Summary
 - New links added: [[Nucleotide Excision Repair]]
-- Strong connections to strengthen: [[Nucleotide Excision Repair]] ↔ [[Nucleotide Excision Repair]]
+  - Strong connections to strengthen: Nucleotide Excision Repair ↔ Nucleotide Excision Repair
 

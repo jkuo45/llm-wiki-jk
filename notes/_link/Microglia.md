@@ -33,4 +33,4 @@ The release of extracellular [[Neuromelanin]] from dying dopaminergic neurons ac
 ## Linking Summary
 - New links added: [[Parkinson's Disease]], [[Neuromelanin]], [[Microgliosis]], [[Neuronophagia]], [[Cytokines]], [[Reactive Oxygen Species]], [[Neuroinflammation]], [[Substantia Nigra]], [[Neuroinflammation]].
 - Suggested new entity notes to create: [[Macrophage]], [[Reactive Oxygen Species]].
-- Strong connections to strengthen: [[Microglia]] ↔ [[Microgliosis]], [[Microglia]] ↔ [[Neuroinflammation]], [[Microglia]] ↔ [[Microgliosis]].
+  - Strong connections to strengthen: [[Microglia]] ↔ Microgliosis, [[Microglia]] ↔ Neuroinflammation, [[Microglia]] ↔ [[Microgliosis]].

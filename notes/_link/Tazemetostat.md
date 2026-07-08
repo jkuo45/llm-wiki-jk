@@ -29,5 +29,5 @@ aliases: [EPZ-6438, Tazverik]
 
 ## Linking Summary
 - New links added: [[Tazemetostat]]
-- Strong connections to strengthen: [[Tazemetostat]] ↔ [[Tazemetostat]]
+  - Strong connections to strengthen: [[Tazemetostat]] ↔ [[Tazemetostat]]
 

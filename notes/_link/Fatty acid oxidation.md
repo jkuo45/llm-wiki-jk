@@ -24,6 +24,8 @@ aliases: [Beta-Oxidation]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -37,5 +39,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[Fatty acid oxidation]]
-- Strong connections to strengthen: [[Fatty acid oxidation]] ↔ [[Fatty acid oxidation]]
+  - Strong connections to strengthen: Fatty acid oxidation ↔ Fatty acid oxidation
 

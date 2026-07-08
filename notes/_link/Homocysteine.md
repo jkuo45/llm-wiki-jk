@@ -28,5 +28,5 @@ aliases: []
 
 ## Linking Summary
 - New links added: [[Homocysteine]]
-- Strong connections to strengthen: [[Homocysteine]] ↔ [[Homocysteine]]
+  - Strong connections to strengthen: [[Homocysteine]] ↔ [[Homocysteine]]
 

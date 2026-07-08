@@ -29,5 +29,5 @@ A **genotype** is the part of the genetic makeup of a cell, and therefore of any
 
 ## Linking Summary
 - New links added: [[Phenotype]], [[Epigenetics]], [[Genomic Instability]]
-- Strong connections to strengthen: [[Genotype]] ↔ [[Phenotype]], [[Genotype]] ↔ [[Epigenetics]], [[Genotype]] ↔ [[Genomic Instability]]
+  - Strong connections to strengthen: [[Genotype]] ↔ [[Phenotype]], [[Genotype]] ↔ Epigenetics, [[Genotype]] ↔ Genomic Instability
 

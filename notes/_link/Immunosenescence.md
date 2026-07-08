@@ -25,6 +25,8 @@ Immunosenescence refers to the gradual deterioration of the immune system associ
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -45,4 +47,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Aging]], [[Inflammaging]], [[Cancer]], [[Immune System]], [[Immune Aging]], [[T Cell]], [[Senescence]], [[Autophagy Inducer]], [[Rapamycin]], [[Metformin]], [[Spermidine]]
 - Suggested new entity notes to create: [[Autoimmune Disease]], [[Immune Aging]], [[Inflammaging]], [[Autophagy Inducer]]
-- Strong connections to strengthen: [[Immunosenescence]] ↔ [[Inflammaging]], [[Immunosenescence]] ↔ [[Immune Aging]], [[Immunosenescence]] ↔ [[Autophagy Inducer]]
+  - Strong connections to strengthen: [[Immunosenescence]] ↔ [[Inflammaging]], [[Immunosenescence]] ↔ Immune Aging, [[Immunosenescence]] ↔ Autophagy Inducer

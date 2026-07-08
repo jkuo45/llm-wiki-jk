@@ -38,5 +38,5 @@ Statins are first-line therapy for [[Cardiovascular Disease|cardiovascular disea
 
 ## Linking Summary
 - New links added: [[HMG-CoA reductase]], [[Oxidative Stress]], [[NADPH Oxidase]], [[eNOS]], [[Xanthine Oxidase]], [[NRF2]], [[Lipid Peroxidation]], [[Coenzyme Q10]], [[Cardiovascular Disease]]
-- Strong connections to strengthen: [[Statins]] ↔ [[HMG-CoA reductase]], [[Statins]] ↔ [[Oxidative Stress]], [[Statins]] ↔ [[NADPH Oxidase]], [[Statins]] ↔ [[eNOS]], [[Statins]] ↔ [[Xanthine Oxidase]]
+  - Strong connections to strengthen: [[Statins]] ↔ HMG-CoA reductase, [[Statins]] ↔ Oxidative Stress, [[Statins]] ↔ NADPH Oxidase, [[Statins]] ↔ [[eNOS]], [[Statins]] ↔ Xanthine Oxidase
 

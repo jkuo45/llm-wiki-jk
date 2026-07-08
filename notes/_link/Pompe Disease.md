@@ -39,6 +39,8 @@ Diagnosis of Pompe disease relies on several complementary approaches. **Enzyme 
 
 **Substrate Reduction Therapy** aims to reduce glycogen synthesis and is under active investigation. **Gene therapy** using adeno-associated virus (AAV) vectors to deliver functional [[GAA gene]] represents a promising future approach, with several clinical trials underway. **Pharmacological chaperones** such as [[Miglustat]] are being explored as potential ERT adjuncts, stabilizing misfolded GAA variants to improve lysosomal trafficking. Combination strategies, including ERT with chaperone co-administration, are under investigation to overcome the limitations of monotherapy.
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -64,4 +66,4 @@ List of documents that mention this entity
 
 - New links added: [[GAA]], [[GAA gene]], [[Autophagy]], [[Hypertrophic Cardiomyopathy]], [[Glycogen]], [[Myozyme]], [[Miglustat]], [[Endoplasmic Reticulum]], [[Golgi Apparatus]], [[Glycoside Hydrolase]], [[Hypotonia]], [[Macroglossia]], [[Proximal Myopathy]], [[Respiratory Failure]], [[Creatine Kinase]], [[Rituximab]], [[Methotrexate]]
 - Suggested new entity notes to create: [[GAA]], [[GAA gene]], [[Myozyme]]
-- Strong connections to strengthen: [[Pompe Disease]] ↔ [[Lysosomal Storage Diseases]], [[Pompe Disease]] ↔ [[Autophagy]]
+  - Strong connections to strengthen: Pompe Disease ↔ Lysosomal Storage Diseases, Pompe Disease ↔ Autophagy

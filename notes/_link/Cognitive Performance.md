@@ -23,6 +23,8 @@ aliases: [Cognitive Function]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -36,5 +38,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[Cognitive Performance]]
-- Strong connections to strengthen: [[Cognitive Performance]] ↔ [[Cognitive Performance]]
+  - Strong connections to strengthen: Cognitive Performance ↔ Cognitive Performance
 

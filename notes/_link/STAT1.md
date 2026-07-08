@@ -29,5 +29,5 @@ aliases: [Signal Transducer and Activator of Transcription 1]
 
 ## Linking Summary
 - New links added: [[STAT1]]
-- Strong connections to strengthen: [[STAT1]] ↔ [[STAT1]]
+  - Strong connections to strengthen: [[STAT1]] ↔ [[STAT1]]
 

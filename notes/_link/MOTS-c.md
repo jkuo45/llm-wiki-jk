@@ -29,5 +29,5 @@ aliases: [Mitochondrial Open Reading Frame of the 12S rRNA-c]
 
 ## Linking Summary
 - New links added: [[MOTS-c]]
-- Strong connections to strengthen: [[MOTS-c]] ↔ [[MOTS-c]]
+  - Strong connections to strengthen: [[MOTS-c]] ↔ [[MOTS-c]]
 

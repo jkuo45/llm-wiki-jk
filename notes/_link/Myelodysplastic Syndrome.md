@@ -29,5 +29,5 @@ aliases: [MDS]
 
 ## Linking Summary
 - New links added: [[Myelodysplastic Syndrome]]
-- Strong connections to strengthen: [[Myelodysplastic Syndrome]] ↔ [[Myelodysplastic Syndrome]]
+  - Strong connections to strengthen: Myelodysplastic Syndrome ↔ Myelodysplastic Syndrome
 

@@ -30,6 +30,8 @@ Conventional disease-modifying antirheumatic drugs ([[DMARD]]s) target oxidative
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -66,4 +68,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Advanced Glycation End Products]], [[Inflammation]], [[Synovial Fluid]], [[Oxidative Stress]], [[TNF-alpha]], [[Hypoxia]], [[Ischemia-reperfusion Injury]], [[Xanthine Oxidase]], [[Superoxide Radicals]], [[Hydrogen Peroxide]], [[NADPH Oxidase]], [[Neutrophils]], [[Macrophage]], [[Respiratory Burst]], [[p38 MAPK]], [[Myeloperoxidase]], [[Hypochlorous Acid]], [[NF-kappa B]], [[Malondialdehyde]], [[Glutathione]]
 - Suggested new entity notes to create: [[Autoimmune disorder]], [[Joint destruction]], [[Synovial fibroblasts]], [[HIF-1α]], [[NOX4]], [[RANKL]], [[Protein arginine deiminase]], [[Citrullination]], [[Anti-citrullinated protein antibodies]], [[Methotrexate]], [[Auranofin]], [[Thioredoxin reductase]], [[Infliximab]], [[Adalimumab]]
-- Strong connections to strengthen: [[Inflammation]] ↔ [[Rheumatoid Arthritis]], [[Rheumatoid Arthritis]] ↔ [[Inflammation]], [[Rheumatoid Arthritis]] ↔ [[NADPH Oxidase]], [[Rheumatoid Arthritis]] ↔ [[Hypoxia]], [[Rheumatoid Arthritis]] ↔ [[Citrullination]]
+  - Strong connections to strengthen: [[Inflammation]] ↔ Rheumatoid Arthritis, Rheumatoid Arthritis ↔ [[Inflammation]], Rheumatoid Arthritis ↔ NADPH Oxidase, Rheumatoid Arthritis ↔ [[Hypoxia]], Rheumatoid Arthritis ↔ Citrullination

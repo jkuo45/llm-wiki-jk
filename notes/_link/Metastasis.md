@@ -23,6 +23,8 @@ aliases: []
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -42,5 +44,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[Metastasis]]
-- Strong connections to strengthen: [[Metastasis]] ↔ [[Metastasis]]
+  - Strong connections to strengthen: [[Metastasis]] ↔ [[Metastasis]]
 

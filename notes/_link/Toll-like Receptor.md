@@ -80,6 +80,8 @@ Beyond infection, TLR2 and TLR4 contribute to wound healing and tissue repair by
 
 **Therapeutic landscape.** TLR agonists are widely used as vaccine adjuvants: monophosphoryl lipid A (MPL, TLR4) in the HPV and hepatitis B vaccines, CpG 1018 (TLR9) in the Heplisav-B hepatitis B vaccine, and imiquimod (TLR7) as a topical immunomodulator. TLR antagonists remain under investigation for sepsis, autoimmune diseases, and chronic inflammatory conditions.
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -104,4 +106,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[NF-kB]], [[Dendritic Cells]], [[Inflammation]], [[Innate Immune System]], [[CpG DNA]], [[Lipopolysaccharide]], [[Hydroxychloroquine]]
 - Suggested new entity notes to create: [[MyD88]], [[TRIF]], [[IRAK4]], [[TRAF6]], [[TIR Domain]]
-- Strong connections to strengthen: [[Toll-like Receptor]] ↔ [[Dendritic Cells]], [[Toll-like Receptor]] ↔ [[Inflammation]]
+  - Strong connections to strengthen: [[Toll-like Receptor]] ↔ Dendritic Cells, [[Toll-like Receptor]] ↔ [[Inflammation]]

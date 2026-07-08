@@ -23,6 +23,8 @@ aliases: [T Cell]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -39,5 +41,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[T Lymphocyte]]
-- Strong connections to strengthen: [[T Lymphocyte]] ↔ [[T Lymphocyte]]
+  - Strong connections to strengthen: T Lymphocyte ↔ T Lymphocyte
 

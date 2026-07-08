@@ -17,6 +17,8 @@ NMRK1 (Nicotinamide riboside kinase 1), also known as NRK1, is an enzyme that di
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -33,4 +35,4 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[NAD+]], [[Nicotinamide Riboside]], [[Nicotinamide Mononucleotide]]
-- Strong connections to strengthen: [[NMRK1]] ↔ [[Nicotinamide Riboside]]
+  - Strong connections to strengthen: [[NMRK1]] ↔ Nicotinamide Riboside

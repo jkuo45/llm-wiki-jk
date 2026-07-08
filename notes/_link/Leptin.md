@@ -28,5 +28,5 @@ aliases: []
 
 ## Linking Summary
 - New links added: [[Leptin]]
-- Strong connections to strengthen: [[Leptin]] ↔ [[Leptin]]
+  - Strong connections to strengthen: [[Leptin]] ↔ [[Leptin]]
 

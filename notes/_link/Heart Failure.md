@@ -17,6 +17,8 @@ aliases: [HF, Congestive heart failure, CHF]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -34,4 +36,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Cardiovascular Disease]], [[Hypertension]], [[Oxidative Stress]], [[Mitochondria]]
 - Suggested new entity notes to create: [[Ejection Fraction]], [[BNP]], [[Cardiac Remodeling]]
-- Strong connections to strengthen: [[Heart Failure]] ↔ [[Cardiovascular Disease]]
+  - Strong connections to strengthen: Heart Failure ↔ [[Cardiovascular Disease]]

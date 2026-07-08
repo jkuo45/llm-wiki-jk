@@ -20,6 +20,8 @@ Anti-apoptotic protein that localizes to the mitochondrial outer membrane and in
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -45,4 +47,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Bcl-2 family]], [[Apoptosis]], [[leukemia]], [[Prostate Cancer]], [[Oblimersen sodium]], [[ABT-737]], [[ABT-263]], [[Intrinsic Pathway]], [[Bax]], [[Survivin]]
 - Suggested new entity notes to create: [[Bcl-2 family]], [[Oblimersen sodium]], [[ABT-737]], [[ABT-263]], [[Bax]]
-- Strong connections to strengthen: [[Bcl-2]] ↔ [[Bax]]
+  - Strong connections to strengthen: [[Bcl-2]] ↔ Bax

@@ -29,5 +29,5 @@ aliases: []
 
 ## Linking Summary
 - New links added: [[Isoprostanes]]
-- Strong connections to strengthen: [[Isoprostanes]] ↔ [[Isoprostanes]]
+  - Strong connections to strengthen: [[Isoprostanes]] ↔ [[Isoprostanes]]
 

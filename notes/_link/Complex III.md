@@ -29,6 +29,6 @@ Complex III (cytochrome bc1 complex, ubiquinol-cytochrome c oxidoreductase) is t
 
 ## Linking Summary
 - New links added: [[Electron Transport Chain]], [[Mitochondria]], [[Coenzyme Q10]], [[Cytochrome c]], [[Reactive Oxygen Species]], [[Superoxide]], [[Complex I]], [[Complex IV]], [[ATP]]
-- Strong connections to strengthen: [[Complex III]] ↔ [[Electron Transport Chain]]
+  - Strong connections to strengthen: Complex III ↔ Electron Transport Chain
 
 ### Links

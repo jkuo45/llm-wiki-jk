@@ -25,6 +25,8 @@ aliases: [Nicotinamide Adenine Dinucleotide Phosphate]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -38,5 +40,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[NADPH]]
-- Strong connections to strengthen: [[NADPH]] ↔ [[NADPH]]
+  - Strong connections to strengthen: [[NADPH]] ↔ [[NADPH]]
 

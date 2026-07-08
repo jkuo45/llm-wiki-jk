@@ -32,6 +32,8 @@ Like [[NMN]], NR functions as a **universal indirect pan-sirtuin activator** by 
 - **Neuroprotection**: NR crosses the blood-brain barrier and restores neuronal NAD+ pools, offering protection against age-related cognitive decline and neurodegeneration.
 - **Longevity**: Like caloric restriction, NR supplementation extends lifespan in model organisms by activating sirtuin-dependent pathways.
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -59,4 +61,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[NMN]], [[NAD+]], [[Sirtuins]], [[SIRT1]], [[PGC-1α]], [[FOXO3a]], [[NFKB|NF-κB]], [[Caloric Restriction]], [[CD38]]
 - Suggested new entity notes to create: [[NRK1]], [[NRK2]]
-- Strong connections to strengthen: [[Nicotinamide Riboside]] ↔ [[NMN]], [[Nicotinamide Riboside]] ↔ [[NAD+]]
+  - Strong connections to strengthen: Nicotinamide Riboside ↔ [[NMN]], Nicotinamide Riboside ↔ [[NAD+]]

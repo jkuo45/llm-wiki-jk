@@ -72,4 +72,4 @@ Biallelic PEX13 knockout in mice is embryonic lethal; conditional hepatic knocko
 ## Linking Summary
 - New links added: [[PEX14]], [[PEX5]], [[PEX7]], [[PEX1]], [[PEX6]], [[PEX2]], [[PEX10]], [[PEX12]], [[Peroxisome]], [[PEX3]], [[PEX19]], [[Zellweger Spectrum Disorders]], [[Fatty acid]], [[PEX11β]], [[Dynamin-like Protein 1 (DLP1)]]
 - Suggested new entity notes to create: [[Peroxisomal Membrane Protein]], [[Peroxisomal Docking Complex]]
-- Strong connections to strengthen: [[PEX13]] ↔ [[PEX14]], [[PEX13]] ↔ [[PEX5]], [[PEX13]] ↔ [[Zellweger Spectrum Disorders]]
+  - Strong connections to strengthen: [[PEX13]] ↔ [[PEX14]], [[PEX13]] ↔ [[PEX5]], [[PEX13]] ↔ Zellweger Spectrum Disorders

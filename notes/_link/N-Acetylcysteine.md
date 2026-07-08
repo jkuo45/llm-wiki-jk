@@ -23,4 +23,4 @@ NAC is widely used to replenish glutathione stores and is a key component of the
 - [[GlyNAC]] — interacts with N-Acetylcysteine
 ## Linking Summary
 - New links added: [[Glutathione]], [[GlyNAC]], [[Oxidative Stress]]
-- Strong connections to strengthen: [[N-Acetylcysteine]] ↔ [[Glutathione]]
+  - Strong connections to strengthen: [[N-Acetylcysteine]] ↔ [[Glutathione]]

@@ -24,6 +24,8 @@ aliases: [L-DOPA]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -37,5 +39,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[Levodopa]]
-- Strong connections to strengthen: [[Levodopa]] ↔ [[Levodopa]]
+  - Strong connections to strengthen: [[Levodopa]] ↔ [[Levodopa]]
 

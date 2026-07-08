@@ -46,4 +46,4 @@ IκB proteins contain multiple [[Ankyrin Repeat]] domains that bind the [[Nuclea
 ## Linking Summary
 - New links added: [[NFκB]], [[IkappaBalpha]], [[IκBβ]], [[IκBε]], [[IκBζ]], [[BCL-3]], [[p105]], [[p100]], [[p50]], [[p52]], [[p65]], [[Rel]], [[c-Rel]], [[IKKbeta]], [[IKK complex]], [[Ubiquitin]], [[Proteasome]], [[Proteasomal Degradation]], [[Ankyrin Repeat]], [[Nuclear Localization Signal]], [[Cytosol]], [[Nucleus]], [[TNFα]], [[IL-6]], [[Inflammation]], [[Feedback Loop]]
 - Suggested new entity notes to create: [[Canonical NF-κB pathway]], [[Atypical IκB]], [[K48-linked ubiquitination]], [[NF-κB negative feedback]]
-- Strong connections to strengthen: [[IkappaB]] ↔ [[NFκB]], [[IkappaB]] ↔ [[IKKbeta]], [[IkappaB]] ↔ [[Inflammation]]
+  - Strong connections to strengthen: [[IkappaB]] ↔ NFκB, [[IkappaB]] ↔ [[IKKbeta]], [[IkappaB]] ↔ [[Inflammation]]

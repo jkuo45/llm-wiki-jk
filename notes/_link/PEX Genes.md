@@ -43,4 +43,4 @@ Mutations in PEX genes cause [[Zellweger Spectrum Disorders]] (ZSD), a group of 
 ## Linking Summary
 - New links added: [[Peroxisome]], [[PEX5]], [[PEX7]], [[PEX13]], [[PEX14]], [[PEX19]], [[PEX1]], [[PEX2]], [[PEX10]], [[PEX12]], [[PEX11]], [[Fatty acid]], [[Phytanic acid]], [[Zellweger syndrome]], [[Neonatal Adrenoleukodystrophy]], [[Infantile Refsum Disease]], [[Endoplasmic Reticulum]]
 - Suggested new entity notes to create: [[Peroxin]], [[Peroxisomal targeting signal]], [[Zellweger spectrum disorders]], [[PEX1-G843D]]
-- Strong connections to strengthen: [[PEX Genes]] ↔ [[Peroxisome]], [[PEX Genes]] ↔ [[Zellweger syndrome]]
+  - Strong connections to strengthen: PEX Genes ↔ Peroxisome, PEX Genes ↔ Zellweger syndrome

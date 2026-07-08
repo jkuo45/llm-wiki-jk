@@ -19,6 +19,8 @@ Transition metals can catalyze the oxidation of [[Epinephrine]]. By sequestering
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -37,5 +39,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[Glyco-Oxidative Proteostasis Shield]], [[Epinephrine]], [[Adrenochrome]]
-- Strong connections to strengthen: [[EDTA]] ↔ [[Glyco-Oxidative Proteostasis Shield]], [[EDTA]] ↔ [[Epinephrine]], [[EDTA]] ↔ [[Adrenochrome]]
+  - Strong connections to strengthen: [[EDTA]] ↔ Glyco-Oxidative Proteostasis Shield, [[EDTA]] ↔ [[Epinephrine]], [[EDTA]] ↔ Adrenochrome
 

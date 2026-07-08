@@ -23,6 +23,8 @@ aliases: [Golgi Complex]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -36,5 +38,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[Golgi apparatus]]
-- Strong connections to strengthen: [[Golgi apparatus]] ↔ [[Golgi apparatus]]
+  - Strong connections to strengthen: Golgi apparatus ↔ Golgi apparatus
 

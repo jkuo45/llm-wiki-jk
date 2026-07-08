@@ -26,6 +26,8 @@ Epigenetic factors like [[SIRT6]] play a crucial role in maintaining genomic sta
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -46,4 +48,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Genomic Instability]], [[Aging]], [[DNA Damage]], [[Heterochromatin]], [[Transposable Elements]], [[LINE-1]], [[DNA Repair]], [[Cancer]], [[Cellular Senescence]], [[SASP]], [[Werner Syndrome]], [[HGPS]], [[SIRT6]]
 - Suggested new entity notes to create: [[Aneuploidy]], [[Micronuclei]], [[Somatic Mutations]]
-- Strong connections to strengthen: [[Genomic Instability]] ↔ [[Aging]], [[Genomic Instability]] ↔ [[DNA Damage]]
+  - Strong connections to strengthen: Genomic Instability ↔ [[Aging]], Genomic Instability ↔ [[DNA Damage]]

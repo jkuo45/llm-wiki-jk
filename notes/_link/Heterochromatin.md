@@ -27,6 +27,8 @@ Heterochromatin is typically marked by specific [[Histone Modification|histone m
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -47,4 +49,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[HP1]], [[H3K9me3]], [[SAHF]], [[Chromatin]]
 - Suggested new entity notes to create: [[HP1]], [[Chromatin]]
-- Strong connections to strengthen: [[Heterochromatin]] ↔ [[SAHF]]
+  - Strong connections to strengthen: [[Heterochromatin]] ↔ SAHF

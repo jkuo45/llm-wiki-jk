@@ -26,6 +26,8 @@ aliases: []
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -63,4 +65,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Autophagy]], [[IGF1]], [[Akt]], [[mTORC1]], [[Vps34]], [[Beclin1]], [[Atg14]], [[Autophagosome]], [[Target of rapamycin]]
 - Suggested new entity notes to create: [[IGF1]], [[Akt]], [[mTORC1]], [[Vps34]], [[Beclin1]], [[Autophagosome]]
-- Strong connections to strengthen: [[PI3K]] ↔ [[Akt]], [[PI3K]] ↔ [[Vps34]], [[PI3K]] ↔ [[Autophagy]]
+  - Strong connections to strengthen: [[PI3K]] ↔ [[Akt]], [[PI3K]] ↔ Vps34, [[PI3K]] ↔ Autophagy

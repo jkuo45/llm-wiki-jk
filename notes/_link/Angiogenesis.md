@@ -17,6 +17,8 @@ aliases: [Angiogenesis, Neovascularization]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -36,4 +38,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Cancer]], [[HIF-1α]], [[Oxidative Stress]], [[Integrins]], [[RGD peptide]], [[Breast Cancer]], [[glioblastoma]]
 - Suggested new entity notes to create: [[VEGF]], [[VEGFR]], [[Anti-angiogenic therapy]]
-- Strong connections to strengthen: [[Angiogenesis]] ↔ [[Cancer]], [[Angiogenesis]] ↔ [[Integrins]]
+  - Strong connections to strengthen: [[Angiogenesis]] ↔ Cancer, [[Angiogenesis]] ↔ Integrins

@@ -61,6 +61,8 @@ Cellular ATP concentration is typically maintained at 2–10 mM. The [[ATP]]/[[A
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -97,4 +99,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[ADP]], [[AMP]], [[Adenine]], [[Ribose]], [[Glycolysis]], [[Oxidative Phosphorylation]], [[TCA Cycle]], [[Electron Transport Chain]], [[Complex I]], [[Complex II]], [[Complex III]], [[Complex IV]], [[ATP Synthase]], [[Complex V]], [[Mitochondria]], [[Inner Mitochondrial Membrane]], [[Proton Gradient]], [[Chemiosmosis]], [[AMPK]], [[Sarcopenia]], [[Neurodegeneration]], [[Metabolic Syndrome]], [[Exercise]], [[Caloric Restriction]], [[Metformin]], [[Rapamycin]], [[NAD+]], [[V-ATPase]], [[Autophagy]], [[Lysosome]], [[Muscle Contraction]], [[Actin]], [[Myosin]], [[Active Transport]], [[Sodium Potassium ATPase]], [[Ca²⁺ ATPase]], [[Ubiquitin-Proteasome System]], [[cAMP]]
 - Suggested new entity notes to create: [[ΔG°′]], [[Chemiosmosis]], [[Proton motive force]], [[Substrate-level phosphorylation]], [[Phosphocreatine]]
-- Strong connections to strengthen: [[ATP]] ↔ [[Mitochondria]], [[ATP]] ↔ [[AMPK]], [[ATP]] ↔ [[Aging]], [[ATP]] ↔ [[Mitochondrial Dysfunction]]
+  - Strong connections to strengthen: [[ATP]] ↔ [[Mitochondria]], [[ATP]] ↔ [[AMPK]], [[ATP]] ↔ [[Aging]], [[ATP]] ↔ Mitochondrial Dysfunction

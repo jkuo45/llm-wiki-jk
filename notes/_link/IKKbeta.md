@@ -30,6 +30,8 @@ IKKβ is a therapeutic target for [[Inflammatory Diseases]] ([[Rheumatoid Arthri
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -55,4 +57,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[IKK complex]], [[NFκB]], [[IkappaBalpha]], [[IkappaB]], [[NEMO]], [[IKKα]], [[TNFα]], [[Interleukin 1β]], [[LPS]], [[TAK1]], [[MAP3K]], [[RIPK1]], [[TRAF2]], [[TRAF6]], [[MyD88]], [[IRAK]], [[TLR4]], [[Serine/Threonine Kinase]], [[Ubiquitin]], [[Proteasome]], [[Proteasomal Degradation]], [[Inflammation]], [[Rheumatoid Arthritis]], [[Inflammatory Bowel Disease]], [[Psoriasis]], [[Cancer]], [[Chemoresistance]], [[Cytokine]], [[DNA Damage]]
 - Suggested new entity notes to create: [[NEMO-binding domain]], [[IKK complex assembly]], [[Canonical NF-κB pathway]], [[IKKβ inhibitor]], [[TAK1 kinase]]
-- Strong connections to strengthen: [[IKKbeta]] ↔ [[NFκB]], [[IKKbeta]] ↔ [[IkappaBalpha]], [[IKKbeta]] ↔ [[TNFα]], [[IKKbeta]] ↔ [[Inflammation]]
+  - Strong connections to strengthen: [[IKKbeta]] ↔ NFκB, [[IKKbeta]] ↔ [[IkappaBalpha]], [[IKKbeta]] ↔ [[TNFα]], [[IKKbeta]] ↔ [[Inflammation]]

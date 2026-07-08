@@ -27,6 +27,8 @@ In [[Senescent Cells]], mitochondrial dysfunction and miMOMP lead to the accumul
 ## Clinical Relevance
 Cytosolic mtDNA and the resulting [[cGAS-STING Pathway|cGAS-STING]] activation are major drivers of sterile [[Inflammaging]] and age-related diseases.
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -45,4 +47,4 @@ List of documents that mention this entity
 ## Linking Summary
 
   - New links added: [[cGAS-STING Pathway|cGAS-STING]], [[Minority MOMP]], [[Senescence-Associated Secretory Phenotype|SASP]], [[Senescence-associated mitochondrial dysfunction|SAMD]], [[Inflammaging]]
-  - Strong connections to strengthen: [[mtDNA]] ↔ [[cGAS-STING Pathway|cGAS-STING]]
+  - Strong connections to strengthen: [[mtDNA]] ↔ cGAS-STING Pathway|cGAS-STING

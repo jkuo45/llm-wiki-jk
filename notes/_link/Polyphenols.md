@@ -120,6 +120,8 @@ Polyphenols cross the [[Blood-Brain Barrier]] and protect against [[Neurodegener
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -143,4 +145,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Glycation]], [[Advanced Glycation End Products]], [[Flavonoids]], [[Reactive Oxygen Species]], [[Oxidative Stress]], [[Cancer]]
 - Suggested new entity notes to create: [[Phenolic acids]], [[Phenol units]], [[Prooxidant effects]]
-- Strong connections to strengthen: [[Polyphenols]] ↔ [[Antioxidants]], [[Polyphenols]] ↔ [[Flavonoids]]
+  - Strong connections to strengthen: [[Polyphenols]] ↔ [[Antioxidants]], [[Polyphenols]] ↔ [[Flavonoids]]

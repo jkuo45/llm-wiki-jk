@@ -24,6 +24,8 @@ aliases: [Centromere Protein A]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -37,5 +39,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[CENP-A]]
-- Strong connections to strengthen: [[CENP-A]] ↔ [[CENP-A]]
+  - Strong connections to strengthen: [[CENP-A]] ↔ [[CENP-A]]
 

@@ -29,4 +29,4 @@ MiTF (Microphthalmia-associated Transcription Factor, also MITF) is a basic heli
 ## Linking Summary
 - New links added: [[TFEB]], [[TFE3]], [[TFEC]], [[Autophagy]], [[Lysosomal Biogenesis]], [[mTORC1]], [[Melanocyte]], [[Melanoma]], [[Pigmentation]], [[Cell Cycle]], [[Lysosome]]
 - Suggested new entity notes to create: [[CLEAR Element]], [[TFE3]], [[TFEC]]
-- Strong connections to strengthen: [[MITF]] ↔ [[TFEB]], [[MITF]] ↔ [[Autophagy]]
+  - Strong connections to strengthen: MITF ↔ [[TFEB]], MITF ↔ Autophagy

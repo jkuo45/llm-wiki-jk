@@ -53,6 +53,8 @@ LPS contamination in pharmaceutical preparations is a major safety concern. The 
 
 Despite extensive research, therapeutic targeting of the LPS-TLR4 axis has proven challenging. Strategies under investigation include anti-LPS monoclonal antibodies targeting Lipid A, the synthetic TLR4 antagonist eritoran (which binds MD-2 to competitively inhibit LPS binding), LBP inhibitors, and downstream inhibitors of MyD88 or IRAK4. None of these has achieved definitive clinical efficacy in large sepsis trials, underscoring the multifactorial nature of the septic response and the limitations of targeting a single pathogenic mediator.
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -82,4 +84,4 @@ List of documents that mention this entity
 
 - New links added: [[TLR4]], [[LBP]], [[CD14]], [[NF-κB]], [[TNFα]], [[IL-1β]], [[IL-6]], [[NLRP3 Inflammasome]], [[CD163]], [[Gram-Negative Bacteria]], [[Innate Immune System]], [[Sepsis]], [[COX-2]], [[iNOS]], [[IRF3]]
 - Existing links retained: [[Macrophage]], [[TFE3]]
-- Strong connections to strengthen: [[LPS]] ↔ [[TLR4]], [[LPS]] ↔ [[Macrophage]], [[LPS]] ↔ [[Sepsis]]
+  - Strong connections to strengthen: [[LPS]] ↔ TLR4, [[LPS]] ↔ [[Macrophage]], [[LPS]] ↔ [[Sepsis]]

@@ -21,6 +21,8 @@ Rapamycin (also known as Sirolimus) is a potent immunosuppressant and [[Autophag
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -55,4 +57,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Autophagy]], [[Parkinson's Disease]], [[Proteostasis]], [[SASP-Remodeling Aminochrome Complex]], [[Adrenochrome]], [[SASP]], [[mTORC1]], [[Fisetin]], [[GlyNAC]]
 - Suggested new entity notes to create: [[mTOR]], [[Everolimus]]
-- Strong connections to strengthen: [[Rapamycin]] ↔ [[Autophagy]], [[Rapamycin]] ↔ [[SASP-Remodeling Aminochrome Complex]], [[Rapamycin]] ↔ [[Immune Aging]], [[Rapamycin]] ↔ [[Fisetin]], [[Rapamycin]] ↔ [[GlyNAC]]
+  - Strong connections to strengthen: [[Rapamycin]] ↔ Autophagy, [[Rapamycin]] ↔ SASP-Remodeling Aminochrome Complex, [[Rapamycin]] ↔ Immune Aging, [[Rapamycin]] ↔ [[Fisetin]], [[Rapamycin]] ↔ GlyNAC

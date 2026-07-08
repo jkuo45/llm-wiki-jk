@@ -25,6 +25,8 @@ aliases: []
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -38,5 +40,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[Lysosome Biogenesis]]
-- Strong connections to strengthen: [[Lysosome Biogenesis]] ↔ [[Lysosome Biogenesis]]
+  - Strong connections to strengthen: Lysosome Biogenesis ↔ Lysosome Biogenesis
 

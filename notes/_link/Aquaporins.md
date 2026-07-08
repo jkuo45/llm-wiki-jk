@@ -29,5 +29,5 @@ aliases: [AQP]
 
 ## Linking Summary
 - New links added: [[Aquaporins]]
-- Strong connections to strengthen: [[Aquaporins]] ↔ [[Aquaporins]]
+  - Strong connections to strengthen: [[Aquaporins]] ↔ [[Aquaporins]]
 

@@ -24,6 +24,8 @@ aliases: [BER]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -37,5 +39,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[Base Excision Repair]]
-- Strong connections to strengthen: [[Base Excision Repair]] ↔ [[Base Excision Repair]]
+  - Strong connections to strengthen: Base Excision Repair ↔ Base Excision Repair
 

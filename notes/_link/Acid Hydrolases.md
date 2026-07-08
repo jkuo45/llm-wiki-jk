@@ -90,6 +90,8 @@ Deficiency of any single acid hydrolase produces a specific [[Lysosomal Storage 
 - **Gene therapy** — AAV and lentiviral vectors deliver functional gene copies to affected tissues, including CNS-directed delivery via intrathecal or intracerebroventricular injection. Gene therapy trials are underway for Krabbe, metachromatic leukodystrophy, and Pompe diseases.
 - **mRNA therapy** — Emerging approaches deliver messenger RNA encoding the deficient acid hydrolase, enabling patient cells to produce functional enzyme. This strategy bypasses the immunogenicity and half-life limitations of recombinant protein.
 
+# 
+
 ## Documents
 
 List of documents that mention this entity

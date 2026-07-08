@@ -43,4 +43,4 @@ Reactive [[Astrogliosis]] occurs in response to CNS injury, infection, and neuro
 ## Linking Summary
 - New links added: [[Neurons]], [[Glutamate]], [[EAAT1]], [[EAAT2]], [[Lactate]], [[Glucose]], [[GLUT1]], [[Blood-Brain Barrier]], [[Endothelial cells]], [[Tight Junction]], [[Aquaporin-4]], [[AQP4]], [[Glymphatic System]], [[Calcium Signaling]], [[Gap Junctions]], [[Astrogliosis]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Amyotrophic Lateral Sclerosis]], [[Multiple Sclerosis]], [[Aging]], [[Neurodegeneration]]
 - Suggested new entity notes to create: [[Astrocyte-Neuron Lactate Shuttle]], [[Tripartite synapse]], [[EAAT2]], [[Reactive astrogliosis]], [[Glia limitans]]
-- Strong connections to strengthen: [[Astrocytes]] ↔ [[Neurons]], [[Astrocytes]] ↔ [[Blood-Brain Barrier]], [[Astrocytes]] ↔ [[Aging]]
+  - Strong connections to strengthen: [[Astrocytes]] ↔ Neurons, [[Astrocytes]] ↔ Blood-Brain Barrier, [[Astrocytes]] ↔ [[Aging]]

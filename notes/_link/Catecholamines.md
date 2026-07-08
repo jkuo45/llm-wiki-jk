@@ -28,6 +28,8 @@ In response to stress, [[Smoking]], or [[Inflammation]], catecholamine levels ri
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -58,4 +60,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Catecholamines]], [[Dopamine]], [[Epinephrine]], [[COMT]], [[MAO]], [[Aminochromes]], [[Oxidation]], [[Oxidative Stress]], [[Adrenochrome]], [[Dopaminochrome]], [[Neuromelanin]], [[Smoking]], [[Inflammation]], [[Norepinephrine]], [[L-Tyrosine]], [[Parkinson's Disease]].
 - Suggested new entity notes to create: [[Epinephrine]], [[Monoamines]].
-- Strong connections to strengthen: [[Catecholamines]] ↔ [[Aminochromes]], [[Catecholamines]] ↔ [[Dopamine]].
+  - Strong connections to strengthen: [[Catecholamines]] ↔ [[Aminochromes]], [[Catecholamines]] ↔ [[Dopamine]].

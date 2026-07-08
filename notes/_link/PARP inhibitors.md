@@ -29,5 +29,5 @@ aliases: [PARPi]
 
 ## Linking Summary
 - New links added: [[PARP inhibitors]]
-- Strong connections to strengthen: [[PARP inhibitors]] ↔ [[PARP inhibitors]]
+  - Strong connections to strengthen: PARP inhibitors ↔ PARP inhibitors
 

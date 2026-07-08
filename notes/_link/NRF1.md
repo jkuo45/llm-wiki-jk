@@ -29,5 +29,5 @@ aliases: [Nuclear Respiratory Factor 1]
 
 ## Linking Summary
 - New links added: [[NRF1]]
-- Strong connections to strengthen: [[NRF1]] ↔ [[NRF1]]
+  - Strong connections to strengthen: [[NRF1]] ↔ [[NRF1]]
 

@@ -28,5 +28,5 @@ aliases: []
 
 ## Linking Summary
 - New links added: [[Psoriasis]]
-- Strong connections to strengthen: [[Psoriasis]] ↔ [[Psoriasis]]
+  - Strong connections to strengthen: [[Psoriasis]] ↔ [[Psoriasis]]
 

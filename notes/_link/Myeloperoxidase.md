@@ -35,4 +35,4 @@ MPO uses [[Hydrogen Peroxide]] to oxidize halide ions (like chloride) into poten
 ## Linking Summary
 - New links added: [[Myeloperoxidase]], [[Neutrophils]], [[Oxidation]], [[Epinephrine]], [[Adrenochrome]], [[Reactive Oxygen Species]], [[Hydrogen Peroxide]], [[Inflammation]], [[Oxidative Stress]], [[Hypochlorous Acid]]
 - Suggested new entity notes to create: [[Peroxidase]], [[MPO gene]]
-- Strong connections to strengthen: [[Myeloperoxidase]] ↔ [[Neutrophils]], [[Myeloperoxidase]] ↔ [[Hypochlorous Acid]]
+  - Strong connections to strengthen: [[Myeloperoxidase]] ↔ [[Neutrophils]], [[Myeloperoxidase]] ↔ Hypochlorous Acid

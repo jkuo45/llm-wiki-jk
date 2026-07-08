@@ -17,6 +17,8 @@ Amyotrophic Lateral Sclerosis (ALS) is a progressive [[Neurodegenerative Disease
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -37,4 +39,4 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[Neurodegenerative Diseases]], [[Induced Pluripotent Stem Cells]], [[Drug Discovery]], [[Oct4]], [[Klf4]]
-- Strong connections to strengthen: [[Induced Pluripotent Stem Cells]] ↔ [[Amyotrophic Lateral Sclerosis]]
+  - Strong connections to strengthen: Induced Pluripotent Stem Cells ↔ Amyotrophic Lateral Sclerosis

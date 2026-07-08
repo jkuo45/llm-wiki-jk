@@ -29,5 +29,5 @@ aliases: [Receptor-Interacting Serine/Threonine-Protein Kinase 3]
 
 ## Linking Summary
 - New links added: [[RIPK3]]
-- Strong connections to strengthen: [[RIPK3]] ↔ [[RIPK3]]
+  - Strong connections to strengthen: [[RIPK3]] ↔ [[RIPK3]]
 

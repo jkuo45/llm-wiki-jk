@@ -16,6 +16,8 @@ Meiosis is a specialized form of [[Cell Division]] that produces [[Gamete]]s ([[
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -39,4 +41,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Cell Division]], [[Cell Cycle]], [[Gamete]]s, [[Sperm]], [[Egg]], [[Homologous Chromosomes]], [[Sister Chromatids]], [[Genetic Recombination]], [[Cohesin]], [[Aneuploidy]], [[Down Syndrome]]
 - Suggested new entity notes to create: [[Synaptonemal Complex]], [[SPO11]], [[DMC1]], [[REC8]]
-- Strong connections to strengthen: [[Meiosis]] ↔ [[Cell Division]], [[Meiosis]] ↔ [[Genetic Recombination]]
+  - Strong connections to strengthen: [[Meiosis]] ↔ Cell Division, [[Meiosis]] ↔ Genetic Recombination

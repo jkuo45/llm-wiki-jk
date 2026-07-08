@@ -16,6 +16,8 @@ S Phase (Synthesis Phase) is the phase of the [[Cell Cycle]] during which [[DNA 
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -42,4 +44,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Cell Cycle]], [[DNA Replication]], [[G1 Phase]], [[G2 Phase]], [[Cyclin E]], [[CDK2]], [[Rb]], [[E2F]], [[DNA Polymerase]], [[PCNA]], [[Topoisomerase]], [[ATR]], [[CHK1]], [[DNA Damage]]
 - Suggested new entity notes to create: [[Origin Recognition Complex]], [[MCM Helicase]], [[Pre-Replication Complex]]
-- Strong connections to strengthen: [[S Phase]] ↔ [[Cell Cycle]], [[S Phase]] ↔ [[DNA Replication]]
+  - Strong connections to strengthen: S Phase ↔ Cell Cycle, S Phase ↔ DNA Replication

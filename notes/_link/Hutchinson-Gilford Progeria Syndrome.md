@@ -29,6 +29,8 @@ Children with HGPS typically appear healthy at birth but begin to show signs of 
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -48,4 +50,4 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[Rejuvenation]], [[Partial Reprogramming]], [[Yamanaka Factors]], [[OSKM]], [[DNA Damage]]
-- Strong connections to strengthen: [[Partial Reprogramming]] ↔ [[Hutchinson-Gilford Progeria Syndrome]]
+  - Strong connections to strengthen: Partial Reprogramming ↔ Hutchinson-Gilford Progeria Syndrome

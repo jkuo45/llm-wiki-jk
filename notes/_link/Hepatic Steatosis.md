@@ -29,5 +29,5 @@ aliases: [Fatty Liver]
 
 ## Linking Summary
 - New links added: [[Hepatic Steatosis]]
-- Strong connections to strengthen: [[Hepatic Steatosis]] ↔ [[Hepatic Steatosis]]
+  - Strong connections to strengthen: Hepatic Steatosis ↔ Hepatic Steatosis
 

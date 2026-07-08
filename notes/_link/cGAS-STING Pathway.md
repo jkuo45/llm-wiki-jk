@@ -58,6 +58,8 @@ During [[Cellular Senescence]], the cGAS–STING pathway is activated by cytopla
 - **STING inhibitors**: Reduce age-related inflammation and senescent cell accumulation
 - **cGAS inhibitors**: Suppress SASP activation
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -88,4 +90,4 @@ List of documents that mention this entity
 
 - New links added: [[cGAS-STING Pathway|cGAS–STING]], [[NF-κB]], [[IL-6]], [[IL-8]], [[CXCL2]], [[CXCL10]], [[CCL3]], [[CCL5]], [[TNFα]], [[DNASE2]], [[TREX1]], [[BAX]], [[BAK]], [[TOP1]], [[G3BP1]], [[Toll-like Receptor 2|TLR2]], [[LINE-1]], [[TBK1]], [[IRF3]]
 - Suggested new entity notes to create: [[cGAS]], [[STING]], [[IFI16]], [[TBK1]], [[IRF3]]
-- Strong connections to strengthen: [[cGAS-STING Pathway]] ↔ [[SASP]], [[cGAS-STING Pathway]] ↔ [[Inflammaging]], [[cGAS-STING Pathway]] ↔ [[Aging]]
+  - Strong connections to strengthen: cGAS-STING Pathway ↔ [[SASP]], cGAS-STING Pathway ↔ [[Inflammaging]], cGAS-STING Pathway ↔ [[Aging]]

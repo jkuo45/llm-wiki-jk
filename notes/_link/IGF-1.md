@@ -35,4 +35,4 @@ The expression of IGF-1 and its downstream components is subject to epigenetic c
 ## Linking Summary
 - New links added: [[IGF1]], [[Aging]], [[Model Organisms]], [[Caenorhabditis elegans]], [[Drosophila melanogaster]], [[mTOR]], [[Autophagy]], [[AMPK]], [[DNA Methylation]], [[MicroRNA]], [[Caloric Restriction]], [[SIRT1]]
 - Suggested new entity notes to create: [[Somatotropic Axis]], [[Growth Hormone]], [[FOXO Transcription Factors]]
-- Strong connections to strengthen: [[IGF1]] ↔ [[Aging]], [[IGF1]] ↔ [[mTOR]]
+  - Strong connections to strengthen: IGF1 ↔ [[Aging]], IGF1 ↔ [[mTOR]]

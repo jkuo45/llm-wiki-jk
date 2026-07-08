@@ -24,6 +24,8 @@ aliases: [TSA]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -40,5 +42,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[Trichostatin A]]
-- Strong connections to strengthen: [[Trichostatin A]] ↔ [[Trichostatin A]]
+  - Strong connections to strengthen: Trichostatin A ↔ Trichostatin A
 

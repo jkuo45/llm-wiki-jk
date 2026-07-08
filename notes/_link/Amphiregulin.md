@@ -24,6 +24,8 @@ Amphiregulin is secreted by [[Senescent Cells]] and acts in an autocrine and par
 ## Clinical Relevance
 Amphiregulin has been implicated in tissue regeneration but also in the progression of certain cancers where it is overexpressed.
 
+# 
+
 ## Documents
 
 List of documents that mention this entity

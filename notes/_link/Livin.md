@@ -24,6 +24,8 @@ aliases: [BIRC7, ML-IAP]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -37,5 +39,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[Livin]]
-- Strong connections to strengthen: [[Livin]] ↔ [[Livin]]
+  - Strong connections to strengthen: [[Livin]] ↔ [[Livin]]
 

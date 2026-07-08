@@ -28,5 +28,5 @@ aliases: [COX, Prostaglandin-endoperoxide Synthase]
 
 ## Linking Summary
 - New links added: [[Cyclooxygenases]]
-- Strong connections to strengthen: [[Cyclooxygenases]] ↔ [[Cyclooxygenases]]
+  - Strong connections to strengthen: [[Cyclooxygenases]] ↔ [[Cyclooxygenases]]
 

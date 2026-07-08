@@ -25,6 +25,8 @@ aliases: [MAP1LC3B]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -38,5 +40,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[LC3B]]
-- Strong connections to strengthen: [[LC3B]] ↔ [[LC3B]]
+  - Strong connections to strengthen: [[LC3B]] ↔ [[LC3B]]
 

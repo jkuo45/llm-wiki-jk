@@ -25,6 +25,8 @@ Melanoma is an aggressive skin cancer from [[Melanocytes]]s. [[MITF]] amplificat
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -61,4 +63,4 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[Cancer]], [[Autophagy]], [[Intermittent Fasting]]
-- Strong connections to strengthen: [[Melanoma]] ↔ [[Cancer]], [[Melanoma]] ↔ [[Autophagy]]
+  - Strong connections to strengthen: [[Melanoma]] ↔ Cancer, [[Melanoma]] ↔ Autophagy

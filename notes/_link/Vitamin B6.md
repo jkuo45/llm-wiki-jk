@@ -33,4 +33,4 @@ Vitamin B6 deficiency is implicated in [[COMT]] dysfunction, [[Depression]], [[C
 ## Linking Summary
 - New links added: [[Aromatic L-amino acid decarboxylase]], [[COMT]], [[Methylation]], [[Inflammation]], [[Depression]], [[Cardiovascular Disease]], [[Dopamine]], [[Serotonin]], [[Norepinephrine]], [[Homocysteine]]
 - Suggested new entity notes to create: [[Pyridoxal 5'-phosphate]], [[Cystathionine beta-synthase]]
-- Strong connections to strengthen: [[Vitamin B6]] ↔ [[Aromatic L-amino acid decarboxylase]]
+  - Strong connections to strengthen: Vitamin B6 ↔ Aromatic L-amino acid decarboxylase

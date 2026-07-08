@@ -24,6 +24,8 @@ aliases: [Intercellular Adhesion Molecule 1, CD54]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -37,5 +39,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[ICAM-1]]
-- Strong connections to strengthen: [[ICAM-1]] ↔ [[ICAM-1]]
+  - Strong connections to strengthen: [[ICAM-1]] ↔ [[ICAM-1]]
 

@@ -28,5 +28,5 @@ aliases: []
 
 ## Linking Summary
 - New links added: [[Bilirubin]]
-- Strong connections to strengthen: [[Bilirubin]] ↔ [[Bilirubin]]
+  - Strong connections to strengthen: [[Bilirubin]] ↔ [[Bilirubin]]
 

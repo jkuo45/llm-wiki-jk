@@ -29,6 +29,8 @@ Strategies to reduce inflammaging include [[Autophagy Inducer|autophagy inductio
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -55,4 +57,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Aging]], [[Inflammation]], [[Immunosenescence]], [[Cardiovascular Disease]], [[Diabetes Mellitus]], [[Cytokines]], [[IL-6]], [[TNFA]], [[IL-1b]], [[Senescence]], [[Senescence-Associated Secretory Phenotype]], [[Innate Immune System]], [[Atherosclerosis]], [[Type 2 Diabetes Mellitus]], [[Alzheimer's Disease]], [[Osteoarthritis]], [[Autophagy Inducer]], [[Immune System]]
 - Suggested new entity notes to create: [[Systemic Inflammation]], [[Senescence-Associated Secretory Phenotype]], [[Innate Immune System]]
-- Strong connections to strengthen: [[Inflammaging]] ↔ [[Cellular Senescence]], [[Inflammaging]] ↔ [[Aging]], [[Inflammaging]] ↔ [[Senescence]]
+  - Strong connections to strengthen: [[Inflammaging]] ↔ Cellular Senescence, [[Inflammaging]] ↔ [[Aging]], [[Inflammaging]] ↔ [[Senescence]]

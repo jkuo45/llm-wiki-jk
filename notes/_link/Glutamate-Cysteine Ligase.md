@@ -28,5 +28,5 @@ aliases: [GCL, Gamma-Glutamylcysteine Synthetase]
 
 ## Linking Summary
 - New links added: [[Glutamate-Cysteine Ligase]]
-- Strong connections to strengthen: [[Glutamate-Cysteine Ligase]] ↔ [[Glutamate-Cysteine Ligase]]
+  - Strong connections to strengthen: Glutamate-Cysteine Ligase ↔ Glutamate-Cysteine Ligase
 

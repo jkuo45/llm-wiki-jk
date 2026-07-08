@@ -29,5 +29,5 @@ aliases: [Von Hippel-Lindau Tumor Suppressor]
 
 ## Linking Summary
 - New links added: [[VHL]]
-- Strong connections to strengthen: [[VHL]] ↔ [[VHL]]
+  - Strong connections to strengthen: [[VHL]] ↔ [[VHL]]
 

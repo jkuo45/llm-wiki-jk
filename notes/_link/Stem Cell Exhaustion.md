@@ -15,9 +15,11 @@ Stem cell exhaustion is the age-related decline in the number and function of st
 ## Linking Summary
 - New links added: [[Aging]], [[Cellular Senescence]], [[DNA Damage]]
 - Suggested new entity notes to create: [[Regenerative Medicine]], [[Progenitor Cell]]
-- Strong connections to strengthen: [[Stem Cell Exhaustion]] ↔ [[Hallmarks of Aging]]
+  - Strong connections to strengthen: Stem Cell Exhaustion ↔ Hallmarks of Aging
 
 #
+
+# 
 
 ## Documents
 

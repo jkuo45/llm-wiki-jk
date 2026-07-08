@@ -28,5 +28,5 @@ aliases: []
 
 ## Linking Summary
 - New links added: [[Cardiomyopathy]]
-- Strong connections to strengthen: [[Cardiomyopathy]] ↔ [[Cardiomyopathy]]
+  - Strong connections to strengthen: [[Cardiomyopathy]] ↔ [[Cardiomyopathy]]
 

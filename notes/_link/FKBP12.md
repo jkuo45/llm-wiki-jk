@@ -24,6 +24,8 @@ aliases: [FK506 Binding Protein 12kDa]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -37,5 +39,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[FKBP12]]
-- Strong connections to strengthen: [[FKBP12]] ↔ [[FKBP12]]
+  - Strong connections to strengthen: [[FKBP12]] ↔ [[FKBP12]]
 

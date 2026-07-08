@@ -29,5 +29,5 @@ aliases: [Adenosine Monophosphate]
 
 ## Linking Summary
 - New links added: [[AMP]]
-- Strong connections to strengthen: [[AMP]] ↔ [[AMP]]
+  - Strong connections to strengthen: [[AMP]] ↔ [[AMP]]
 

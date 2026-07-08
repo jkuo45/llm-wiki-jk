@@ -37,6 +37,8 @@ VTA dysfunction is implicated in:
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -58,4 +60,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Dopamine]], [[GABA]], [[Glutamate]], [[Substantia Nigra]], [[Reward System]], [[Nucleus Accumbens]], [[Prefrontal Cortex]], [[Mesolimbic Pathway]], [[Mesocortical Pathway]], [[Hippocampus]], [[Amygdala]], [[Addiction]], [[Cocaine]], [[Amphetamine]], [[Opioids]], [[Nicotine]], [[Alcohol]], [[Depression]], [[Schizophrenia]], [[Parkinson's Disease]], [[Executive Function]], [[Anhedonia]]
 - Suggested new entity notes to create: [[Mesolimbic pathway]], [[Mesocortical pathway]], [[Reward prediction error]], [[Phasic dopamine firing]], [[VTA-NAc circuit]]
-- Strong connections to strengthen: [[VTA]] ↔ [[Dopamine]], [[VTA]] ↔ [[Nucleus Accumbens]], [[VTA]] ↔ [[Addiction]]
+  - Strong connections to strengthen: [[VTA]] ↔ [[Dopamine]], [[VTA]] ↔ Nucleus Accumbens, [[VTA]] ↔ Addiction

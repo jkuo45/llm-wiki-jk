@@ -19,6 +19,8 @@ aliases: [Trx, TXN]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -36,4 +38,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Glutathione]], [[Oxidative Stress]], [[Peroxiredoxin]], [[Apoptosis]]
 - Suggested new entity notes to create: [[Thioredoxin reductase]], [[TrxR]], [[ASK1]]
-- Strong connections to strengthen: [[Thioredoxin]] ↔ [[Glutathione]]
+  - Strong connections to strengthen: [[Thioredoxin]] ↔ [[Glutathione]]

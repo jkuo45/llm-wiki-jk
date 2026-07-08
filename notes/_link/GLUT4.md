@@ -29,5 +29,5 @@ aliases: [SLC2A4, Glucose Transporter Type 4]
 
 ## Linking Summary
 - New links added: [[GLUT4]]
-- Strong connections to strengthen: [[GLUT4]] ↔ [[GLUT4]]
+  - Strong connections to strengthen: [[GLUT4]] ↔ [[GLUT4]]
 

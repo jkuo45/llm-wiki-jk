@@ -34,6 +34,8 @@ Senescence is considered a major roadblock during the induction of pluripotency:
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -67,4 +69,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Chromatin]], [[Epigenetics]], [[Senescence-Associated Secretory Phenotype]], [[SAHF]], [[Lamin A]], [[Heterochromatin]], [[Euchromatin]], [[Histone Modification]], [[LINE-1]], [[Histone Variant]], [[Methylation]], [[Aging]], [[Epigenetic Clock]], [[Genomic Instability]], [[Cancer]], [[p53]], [[Cellular Reprogramming]], [[DNA Damage]], [[Fibroblasts]], [[Innate Immunity]], [[OSKM]], [[Reactive Oxygen Species]].
 - Suggested new entity notes to create: [[Lamin B1]], [[cGAS-STING Pathway]], [[p16]], [[p21]].
-- Strong connections to strengthen: [[Senescence]] ↔ [[Aging]], [[Senescence]] ↔ [[Autophagy]]
+  - Strong connections to strengthen: [[Senescence]] ↔ [[Aging]], [[Senescence]] ↔ Autophagy

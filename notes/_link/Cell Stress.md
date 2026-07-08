@@ -24,6 +24,8 @@ aliases: [Cellular Stress]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -37,5 +39,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[Cell Stress]]
-- Strong connections to strengthen: [[Cell Stress]] ↔ [[Cell Stress]]
+  - Strong connections to strengthen: Cell Stress ↔ Cell Stress
 

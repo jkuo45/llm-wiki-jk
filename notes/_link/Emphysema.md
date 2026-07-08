@@ -28,5 +28,5 @@ aliases: []
 
 ## Linking Summary
 - New links added: [[Emphysema]]
-- Strong connections to strengthen: [[Emphysema]] ↔ [[Emphysema]]
+  - Strong connections to strengthen: [[Emphysema]] ↔ [[Emphysema]]
 

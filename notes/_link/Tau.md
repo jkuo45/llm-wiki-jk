@@ -93,6 +93,8 @@ Tau is constitutively released from neurons into the cerebrospinal fluid (CSF) a
 - Active Tau vaccines: AADvac1 (targeting the PHF6* epitope) and ACI-35 (targeting phosphorylated S396/S404) aim to elicit anti-Tau immune responses. AADvac1 completed a Phase II safety trial.
 - Small molecule degraders: PROTACs and molecular glues targeting Tau for proteasomal or lysosomal degradation are in preclinical development.
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -125,4 +127,4 @@ List of documents that mention this entity
 
 - New links added: [[Microtubule]], [[GSK3]], [[CDK5]], [[DYRK1A]], [[Fyn]], [[p38 MAPK]], [[JNK]], [[BDNF]], [[Pick's disease]], [[Progressive supranuclear palsy]], [[Corticobasal degeneration]], [[Chronic traumatic encephalopathy]], [[Neurofibrillary tangles]], [[Actin]], [[Down syndrome]], [[Toll-like receptors]]
 - Suggested new entity notes to create: [[Neurofibrillary tangles]], [[DYRK1A]], [[PLCG1]], [[Grb2]], [[PARP1]], [[TREM2]]
-- Strong connections to strengthen: [[Tau]] ↔ [[Alzheimer's Disease]], [[Tau]] ↔ [[Microtubule]], [[Tau]] ↔ [[GSK3]]
+  - Strong connections to strengthen: [[Tau]] ↔ Alzheimer's Disease, [[Tau]] ↔ Microtubule, [[Tau]] ↔ [[GSK3]]

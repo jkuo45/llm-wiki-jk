@@ -39,6 +39,8 @@ eNOS is highly expressed in endothelial cells lining the vasculature. Its NO pro
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -61,4 +63,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[eNOS]], [[Nitric Oxide]], [[Vasodilation]], [[Mitochondrial Biogenesis]], [[Superoxide]], [[Atherosclerosis]], [[Hypertension]], [[Diabetes]]
 - Suggested new entity notes to create: [[Vasodilation]], [[Nitric Oxide Signaling]]
-- Strong connections to strengthen: [[SIRT1]] ↔ [[eNOS]], [[Resveratrol]] ↔ [[eNOS]]
+  - Strong connections to strengthen: SIRT1 ↔ [[eNOS]], [[Resveratrol]] ↔ [[eNOS]]

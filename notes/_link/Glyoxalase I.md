@@ -28,5 +28,5 @@ aliases: [GLO1]
 
 ## Linking Summary
 - New links added: [[Glyoxalase I]]
-- Strong connections to strengthen: [[Glyoxalase I]] ↔ [[Glyoxalase I]]
+  - Strong connections to strengthen: Glyoxalase I ↔ Glyoxalase I
 

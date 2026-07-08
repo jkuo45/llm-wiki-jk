@@ -21,6 +21,8 @@ Etoposide is frequently used in combination with other agents to enhance its eff
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -40,4 +42,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Apoptosis]], [[leukemia]], [[Caspase-3]], [[Cisplatin]], [[DNA Damage]], [[DNA Damage Response]]
 - Suggested new entity notes to create: [[Cisplatin]]
-- Strong connections to strengthen: [[Etoposide]] ↔ [[Apoptosis]], [[Etoposide]] <-> [[DNA Damage]]
+  - Strong connections to strengthen: [[Etoposide]] ↔ [[Apoptosis]], [[Etoposide]] <-> [[DNA Damage]]

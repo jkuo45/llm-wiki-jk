@@ -67,6 +67,8 @@ The therapeutic armamentarium for LSDs has expanded dramatically over the past t
 
 **Gene Therapy** represents a promising frontier for LSDs. AAV (adeno-associated virus)-mediated gene delivery has shown efficacy in clinical trials for Pompe disease, MPS I, MPS II, and MPS III, with the goal of providing sustained endogenous enzyme production and overcoming the limitations of ERT. Emerging approaches include mRNA therapy (lipid nanoparticle-encapsulated mRNA encoding therapeutic enzyme, enabling periodic intravenous dosing without viral vector risks) and gene editing strategies (CRISPR-based correction of pathogenic mutations in patient-derived cells). Investigational approaches using intrathecal or intracerebroventricular delivery of AAV vectors aim to bypass the blood-brain barrier for treatment of neuronopathic forms.
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -91,4 +93,4 @@ List of documents that mention this entity
 
 - New links added: [[Lysosome]], [[Autophagy]], [[Pompe Disease]], [[Gaucher Disease]], [[Fabry Disease]], [[Cardiomyopathy]], [[Inflammation]], [[Hematopoietic Stem Cell]], [[Lysosomal Biogenesis]]
 - Suggested new entity notes to create: [[Niemann-Pick Disease]], [[Krabbe Disease]], [[Tay-Sachs Disease]], [[Mucopolysaccharidoses]], [[Metachromatic Leukodystrophy]], [[Cystinosis]], [[Enzyme Replacement Therapy]], [[Substrate Reduction Therapy]], [[Pharmacological Chaperone]]
-- Strong connections to strengthen: [[Lysosomal Storage Diseases]] ↔ [[Lysosome]], [[Lysosomal Storage Diseases]] ↔ [[Autophagy]], [[Lysosomal Storage Diseases]] ↔ [[Pompe Disease]]
+  - Strong connections to strengthen: Lysosomal Storage Diseases ↔ [[Lysosome]], Lysosomal Storage Diseases ↔ Autophagy, Lysosomal Storage Diseases ↔ Pompe Disease

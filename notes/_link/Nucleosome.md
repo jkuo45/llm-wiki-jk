@@ -26,6 +26,8 @@ The tails of the histones within the nucleosome are subject to various [[Histone
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -49,4 +51,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Nucleosome]], [[Chromatin]], [[Euchromatin]], [[Transcription]], [[Heterochromatin]], [[Aging]], [[Genomic Instability]], [[Histone Modification]]
 - Suggested new entity notes to create: [[Histone Octamer]], [[Linker DNA]], [[Nucleosome Remodeling]]
-- Strong connections to strengthen: [[Nucleosome]] ↔ [[Chromatin]], [[Nucleosome]] ↔ [[Histone Modification]]
+  - Strong connections to strengthen: [[Nucleosome]] ↔ [[Chromatin]], [[Nucleosome]] ↔ Histone Modification

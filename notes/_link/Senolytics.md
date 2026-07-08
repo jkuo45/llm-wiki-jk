@@ -39,5 +39,5 @@ aliases: []
 
 ## Linking Summary
 - New links added: [[Senescent Cells]], [[Senescent cell anti-apoptotic pathways|SCAPs]], [[Dasatinib]], [[Quercetin]], [[Navitoclax]]
-- Strong connections to strengthen: [[Senolytics]] ↔ [[Senescent Cells]], [[Senolytics]] ↔ [[Aging]], [[Senolytics]] ↔ [[SASP]]
+  - Strong connections to strengthen: [[Senolytics]] ↔ Senescent Cells, [[Senolytics]] ↔ [[Aging]], [[Senolytics]] ↔ [[SASP]]
 

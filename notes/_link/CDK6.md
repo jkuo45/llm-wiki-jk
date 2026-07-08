@@ -24,6 +24,8 @@ aliases: [Cyclin-Dependent Kinase 6]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -43,5 +45,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[CDK6]]
-- Strong connections to strengthen: [[CDK6]] ↔ [[CDK6]]
+  - Strong connections to strengthen: [[CDK6]] ↔ [[CDK6]]
 

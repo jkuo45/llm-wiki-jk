@@ -24,6 +24,8 @@ It serves as a key component of the antioxidant defense system, protecting cells
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -51,4 +53,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Superoxide Radicals]], [[Hydrogen Peroxide]], [[Reactive Oxygen Species]], [[Oxidative Stress]]
 - Suggested new entity notes to create: [[Antioxidant defense system]]
-- Strong connections to strengthen: [[Superoxide Dismutase]] ↔ [[Superoxide Radicals]]
+  - Strong connections to strengthen: Superoxide Dismutase ↔ Superoxide Radicals

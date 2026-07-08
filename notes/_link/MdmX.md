@@ -29,5 +29,5 @@ aliases: [MDM4]
 
 ## Linking Summary
 - New links added: [[MdmX]]
-- Strong connections to strengthen: [[MdmX]] ↔ [[MdmX]]
+  - Strong connections to strengthen: [[MdmX]] ↔ [[MdmX]]
 

@@ -23,6 +23,8 @@ aliases: [Enhancer of Zeste Homolog 2]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -36,5 +38,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[EZH2]]
-- Strong connections to strengthen: [[EZH2]] ↔ [[EZH2]]
+  - Strong connections to strengthen: [[EZH2]] ↔ [[EZH2]]
 

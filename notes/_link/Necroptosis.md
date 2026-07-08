@@ -24,6 +24,8 @@ aliases: [Programmed Necrosis]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -37,5 +39,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[Necroptosis]]
-- Strong connections to strengthen: [[Necroptosis]] ↔ [[Necroptosis]]
+  - Strong connections to strengthen: [[Necroptosis]] ↔ [[Necroptosis]]
 

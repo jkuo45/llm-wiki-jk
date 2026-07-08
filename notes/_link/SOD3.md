@@ -29,5 +29,5 @@ aliases: [Superoxide Dismutase 3, EC-SOD]
 
 ## Linking Summary
 - New links added: [[SOD3]]
-- Strong connections to strengthen: [[SOD3]] ↔ [[SOD3]]
+  - Strong connections to strengthen: [[SOD3]] ↔ [[SOD3]]
 

@@ -19,6 +19,8 @@ The p38 mitogen-activated protein kinases (MAPK) are a class of protein kinases 
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -44,4 +46,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[TFEB]], [[Caspase-3]], [[Caspase-8]], [[Caspase-9]], [[Bim]], [[Apoptosis|Apoptosis]], [[p38 MAPK]], [[Apoptosis]], [[Bax]], [[Phosphorylation]]
 - Suggested new entity notes to create: [[MAPK Signaling]]
-- Strong connections to strengthen: [[p38 MAPK]] ↔ [[TFEB]], [[p38 MAPK]] ↔ [[Caspase-8]], [[p38 MAPK]] ↔ [[Bim]], [[p38 MAPK]] ↔ [[Bax]]
+  - Strong connections to strengthen: p38 MAPK ↔ [[TFEB]], p38 MAPK ↔ Caspase-8, p38 MAPK ↔ Bim, p38 MAPK ↔ Bax

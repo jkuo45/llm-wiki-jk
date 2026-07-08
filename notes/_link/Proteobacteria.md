@@ -29,4 +29,4 @@ Proteobacteria is a major phylum of Gram-negative bacteria, including a wide var
 ## Linking Summary
 - New links added: [[Gut Microbiome]], [[Inflammation]], [[Centenarians]]
 - Suggested new entity notes to create: [[Dysbiosis]], [[Pathogens]]
-- Strong connections to strengthen: [[Proteobacteria]] ↔ [[Inflammaging]]
+  - Strong connections to strengthen: [[Proteobacteria]] ↔ [[Inflammaging]]

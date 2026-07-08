@@ -61,6 +61,8 @@ The [[Glyco-Oxidative Proteostasis Shield]] (GOPS) framework explicitly incorpor
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -88,4 +90,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Hormesis]], [[Mitohormesis]], [[Resveratrol]], [[Quercetin]], [[Sirtuins]], [[NRF2]], [[AMPK]], [[PGC1-α]], [[HGNC]], [[mTORC1]], [[NQO1]], [[HO-1]], [[NFκB]], [[COX-2]], [[p38 MAPK]], [[Epigenetics]], [[Apoptosis]], [[ER Stress]], [[Autophagy]], [[Fatty acid oxidation]], [[FOXO3a]], [[Glutathione]], [[Thioredoxin]], [[HSF1]], [[HSP70]], [[HSP27]], [[Histone Deacetylase]], [[Carbazochrome]], [[Methylene blue]], [[Glyco-Oxidative Proteostasis Shield]], [[Keap1]], [[Sestrin2]], [[Berberine]], [[Epicatechin]], [[Piceatannol]], [[Butein]], [[Hydroxytyrosol]], [[Phytochemicals]]
 - Suggested new entity notes to create: [[Dietary Phytochemicals as Signaling Molecules]], [[Xenohormetic Dosing Protocol]]
-- Strong connections to strengthen: [[Xenohormesis]] ↔ [[Evolutionary Medicine]], [[Xenohormesis]] ↔ [[Glyco-Oxidative Proteostasis Shield]], [[Xenohormesis]] <-> [[Hormesis]]
+  - Strong connections to strengthen: [[Xenohormesis]] ↔ Evolutionary Medicine, [[Xenohormesis]] ↔ Glyco-Oxidative Proteostasis Shield, [[Xenohormesis]] <-> [[Hormesis]]

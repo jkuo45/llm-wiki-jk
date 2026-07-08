@@ -24,6 +24,8 @@ aliases: [Chronic Myelogenous Leukemia, Chronic Myeloid Leukemia]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -37,5 +39,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[CML]]
-- Strong connections to strengthen: [[CML]] ↔ [[CML]]
+  - Strong connections to strengthen: [[CML]] ↔ [[CML]]
 

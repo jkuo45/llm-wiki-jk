@@ -61,6 +61,8 @@ Notably, cells induced to senescence through p16 overactivation do not promote d
 - **Senomorphic modulation**: CDK4/6 inhibitors (palbociclib, ribociclib) induce p16-dependent senescence without NF-κB-driven SASP
 - **Biomarker**: p16 expression levels correlate with senescent cell burden and age-related disease
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -89,4 +91,4 @@ List of documents that mention this entity
 
 - New links added: [[p16 INK4a|p16]], [[CDKN2A]], [[Retinoblastoma Protein|Rb]], [[p21 CIP1|p21]], [[IGFBP3]], [[ISG15]], [[CXCL14]], [[Cyclin-Dependent Kinase 4|CDK4]], [[Cyclin-Dependent Kinase 6|CDK6]], [[E2F]]
 - Suggested new entity notes to create: [[CDK4/6 Inhibitors]], [[Palbociclib]], [[Ribociclib]]
-- Strong connections to strengthen: [[p16 INK4a]] ↔ [[Cellular Senescence]], [[p16 INK4a]] ↔ [[SASP]]
+  - Strong connections to strengthen: p16 INK4a ↔ Cellular Senescence, p16 INK4a ↔ [[SASP]]

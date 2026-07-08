@@ -27,6 +27,8 @@ As we age, the global landscape of histone modifications changes significantly:
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -50,4 +52,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Histone Modification]], [[Epigenetics]], [[Transcription]], [[Histone Acetylation]], [[Chromatin]], [[Euchromatin]], [[Histone Methylation]], [[DNA Damage]], [[Histone Acetyltransferase]], [[Histone Deacetylase]], [[Aging]], [[Genomic Instability]]
 - Suggested new entity notes to create: [[PTMs]], [[Histone Code]], [[Epigenetic Readers]]
-- Strong connections to strengthen: [[Histone Modification]] ↔ [[Epigenetics]], [[Histone Modification]] ↔ [[Chromatin]]
+  - Strong connections to strengthen: Histone Modification ↔ Epigenetics, Histone Modification ↔ [[Chromatin]]

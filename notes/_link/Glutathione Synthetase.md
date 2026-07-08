@@ -29,5 +29,5 @@ aliases: [GSS]
 
 ## Linking Summary
 - New links added: [[Glutathione Synthetase]]
-- Strong connections to strengthen: [[Glutathione Synthetase]] ↔ [[Glutathione Synthetase]]
+  - Strong connections to strengthen: Glutathione Synthetase ↔ Glutathione Synthetase
 

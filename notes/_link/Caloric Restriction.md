@@ -46,11 +46,11 @@ The epigenetic changes induced by CR converge on several critical pathways:
 ## Linking Summary:
 - New links added: [[Aging]], [[Epigenome]], [[DNA Methylation]], [[Cellular Senescence]], [[Histone Modification]], [[Chromatin]], [[Sirtuins]], [[SIRT1]], [[Heterochromatin]], [[HDAC]].
 - Suggested new entity notes to create: [[p16INK4A]], [[NAD+]], [[Telomere]], [[DunedinPACE]].
-- Strong connections to strengthen: [[Caloric Restriction]] ↔ [[Aging]], [[Caloric Restriction]] ↔ [[SIRT1]]
+  - Strong connections to strengthen: Caloric Restriction ↔ [[Aging]], Caloric Restriction ↔ SIRT1
 
 - New links added: [[Longevity]], [[Autophagy]], [[AMPK]], [[Cellular Homeostasis]], [[Cancer]], [[Neurodegenerative Disease]], [[Inflammaging]], [[Autophagic Cell Death]]
 - Suggested new entity notes to create: [[Longevity]], [[AMPK]], [[Cellular Homeostasis]]
-- Strong connections to strengthen: [[Caloric Restriction]] ↔ [[Autophagy]], [[Caloric Restriction]] ↔ [[Longevity]]
+  - Strong connections to strengthen: Caloric Restriction ↔ Autophagy, Caloric Restriction ↔ [[Longevity]]
 
 ## Relationship with Autophagy
 - Caloric restriction is a potent inducer of [[Autophagy]].
@@ -65,6 +65,8 @@ The epigenetic changes induced by CR converge on several critical pathways:
 ## Adaptive vs. Excessive Autophagy
 - Short-term or moderate caloric restriction stimulates **adaptive autophagy**, which is beneficial for cell survival.
 - Prolonged or extreme caloric restriction can lead to **excessive autophagy**, potentially triggering type II [[Autophagic Cell Death]].
+
+# 
 
 ## Documents
 
@@ -100,7 +102,7 @@ List of documents that mention this entity
 - **[[SIRT1]]**: A primary mediator of the beneficial effects of caloric restriction on the epigenome.
 - **[[Cellular Senescence]]**: CR delays the accumulation of senescent cells by maintaining a more stable epigenetic state.
 - New links added: [[AMPK]], [[Aging]], [[Autophagic Cell Death]], [[Autophagy]], [[Cancer]], [[Cellular Homeostasis]], [[Cellular Senescence]], [[Chromatin]], [[DNA Methylation]], [[Epigenome]], [[HDAC]], [[Heterochromatin]], [[Histone Modification]], [[Inflammaging]], [[Longevity]], [[Neurodegenerative Disease]], [[SIRT1]], [[Sirtuins]]
-- Strong connections to strengthen: [[Caloric Restriction]] ↔ [[Aging]], [[Caloric Restriction]] ↔ [[Autophagy]], [[Caloric Restriction]] ↔ [[Longevity]], [[Caloric Restriction]] ↔ [[SIRT1]]
+  - Strong connections to strengthen: Caloric Restriction ↔ [[Aging]], Caloric Restriction ↔ Autophagy, Caloric Restriction ↔ [[Longevity]], Caloric Restriction ↔ SIRT1
 - [[Sir2 (yeast)]] — required for CR-mediated lifespan extension in yeast
 - [[SIRT3]] — upregulated by CR; mediates mitochondrial metabolic adaptations
 - [[SIRT4]] — downregulated by CR (opposite to SIRT1/3); increases GDH activity
@@ -167,6 +169,6 @@ When cells become nutrient-starved, sirtuin-**independent** pathways such as **T
 ## Linking Summary
 - New links added: [[SIRT1]], [[Sir2 (yeast)]], [[SIRT3]], [[SIRT4]], [[NAD+]], [[Resveratrol]], [[PGC-1α]], [[Longevity]]
 - Suggested new entity notes to create: [[TOR (Target of Rapamycin)]], [[Adiponectin]], [[Longevity]]
-- Strong connections to strengthen: [[Caloric Restriction]] ↔ [[SIRT1]], [[Caloric Restriction]] ↔ [[Sir2 (yeast)]], [[Caloric Restriction]] ↔ [[Longevity]]
+  - Strong connections to strengthen: Caloric Restriction ↔ SIRT1, Caloric Restriction ↔ Sir2 (yeast), Caloric Restriction ↔ [[Longevity]]
 - New links added: [[Advanced Glycation End Products]], [[Oxidative Stress]], [[Lifespan]]
 - Suggested new entity notes to create:

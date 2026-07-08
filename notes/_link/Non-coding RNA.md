@@ -29,6 +29,8 @@ The expression of various ncRNAs changes predictably with age:
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -49,4 +51,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Non-coding RNA]], [[Epigenome]], [[Aging]], [[MicroRNA]], [[Histone Methyltransferase]], [[Histone Deacetylase]], [[Epigenetics]], [[Cellular Senescence]], [[SASP]], [[Transposable Elements]]
 - Suggested new entity notes to create: [[lncRNA]], [[circRNA]], [[Xist]]
-- Strong connections to strengthen: [[Non-coding RNA]] ↔ [[Epigenetics]], [[Non-coding RNA]] ↔ [[MicroRNA]]
+  - Strong connections to strengthen: Non-coding RNA ↔ Epigenetics, Non-coding RNA ↔ [[MicroRNA]]

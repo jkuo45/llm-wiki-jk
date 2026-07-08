@@ -24,6 +24,8 @@ aliases: [NLR Family Pyrin Domain Containing 3, Cryopyrin]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -37,5 +39,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[NLRP3]]
-- Strong connections to strengthen: [[NLRP3]] ↔ [[NLRP3]]
+  - Strong connections to strengthen: [[NLRP3]] ↔ [[NLRP3]]
 

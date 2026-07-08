@@ -17,6 +17,8 @@ Akkermansia is a genus of bacteria in the phylum Verrucomicrobia, specifically A
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -37,4 +39,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Verrucomicrobia]], [[Gut Microbiome]], [[Longevity]], [[Centenarians]]
 - Suggested new entity notes to create: [[Akkermansia muciniphila]]
-- Strong connections to strengthen: [[Akkermansia]] ↔ [[Metabolism]]
+  - Strong connections to strengthen: [[Akkermansia]] ↔ [[Metabolism]]

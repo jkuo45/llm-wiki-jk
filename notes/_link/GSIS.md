@@ -29,5 +29,5 @@ aliases: [Glucose-Stimulated Insulin Secretion]
 
 ## Linking Summary
 - New links added: [[GSIS]]
-- Strong connections to strengthen: [[GSIS]] ↔ [[GSIS]]
+  - Strong connections to strengthen: [[GSIS]] ↔ [[GSIS]]
 

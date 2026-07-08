@@ -24,6 +24,8 @@ aliases: [Mothers Against Decapentaplegic Homolog 2]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -37,5 +39,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[SMAD2]]
-- Strong connections to strengthen: [[SMAD2]] ↔ [[SMAD2]]
+  - Strong connections to strengthen: [[SMAD2]] ↔ [[SMAD2]]
 

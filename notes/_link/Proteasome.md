@@ -47,4 +47,4 @@ The [[Proteasome]] is a large multi-catalytic protease complex responsible for t
 ## Linking Summary
 - New links added: [[Ubiquitin Ligase]], [[Mitophagy]], [[Ubiquitin-Proteasome System]], [[Ubiquitin]], [[Parkinson's Disease]], [[Alpha-synuclein]], [[Proteostasis]]
 - Suggested new entity notes to create: [[Ubiquitin]]
-- Strong connections to strengthen: [[Proteasome]] ↔ [[Aging]], [[Proteasome]] ↔ [[Ubiquitin-Proteasome System]]
+  - Strong connections to strengthen: [[Proteasome]] ↔ [[Aging]], [[Proteasome]] ↔ Ubiquitin-Proteasome System

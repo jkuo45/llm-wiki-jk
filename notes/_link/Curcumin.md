@@ -37,6 +37,8 @@ Extends lifespan in _C. elegans_ (via [[DAF-16]]/[[FOXO]]), _Drosophila_ (via [[
 
 Oral bioavailability < 1%. Formulation strategies include liposomal curcumin, Meriva (phospholipid complex), theracurmin, and co-administration with [[Piperine]].
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -95,6 +97,6 @@ In model organisms, curcumin extends lifespan in *[[Caenorhabditis elegans]]* (v
 ## Linking Summary
 - New links added: [[P300]], [[CBP]], [[Histone Acetylation]], [[NF-κB]], [[Senescence]], [[Oxidative Stress]], [[p38 MAPK]], [[FOXO]], [[Piperine]]
 - Suggested new entity notes to create: [[PAINS compounds]], [[Theracurmin]], [[Meriva]]
-- Strong connections to strengthen: [[Curcumin]] ↔ [[P300]], [[Curcumin]] ↔ [[Senescence]]
+  - Strong connections to strengthen: [[Curcumin]] ↔ [[P300]], [[Curcumin]] ↔ [[Senescence]]
 - New links added: [[HAT]], [[NFKB]], [[Senescence]], [[p16INK4A]], [[SASP]], [[Oxidative Stress]]
 - Suggested new entity notes to create: [[p300/CBP]], [[NRF2]], [[Keap1]], [[Piperine]], [[PAINS compounds]]

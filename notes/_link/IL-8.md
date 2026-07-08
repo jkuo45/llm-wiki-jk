@@ -16,6 +16,8 @@ IL-8 (Interleukin-8, CXCL8) is a pro-inflammatory [[Chemokine]] that recruits [[
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -39,4 +41,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Chemokine]], [[Neutrophils]], [[Macrophages]], [[Epithelial cells]], [[Endothelial cells]], [[Fibroblasts]], [[TNFα]], [[IL-1β]], [[NF-κB]], [[Reactive Oxygen Species]], [[CXCR1]], [[CXCR2]], [[Chemotaxis]], [[Angiogenesis]], [[Inflammation]], [[Chronic Inflammation]], [[Cancer]], [[Metastasis]], [[Autoimmune Disease]], [[Psoriasis]], [[Rheumatoid Arthritis]], [[COPD]]
 - Suggested new entity notes to create: [[CXCL8]], [[Neutrophil Degranulation]]
-- Strong connections to strengthen: [[IL-8]] ↔ [[Inflammation]], [[IL-8]] ↔ [[Neutrophils]]
+  - Strong connections to strengthen: [[IL-8]] ↔ [[Inflammation]], [[IL-8]] ↔ [[Neutrophils]]

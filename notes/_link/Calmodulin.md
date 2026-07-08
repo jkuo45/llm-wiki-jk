@@ -29,5 +29,5 @@ aliases: [CaM]
 
 ## Linking Summary
 - New links added: [[Calmodulin]]
-- Strong connections to strengthen: [[Calmodulin]] ↔ [[Calmodulin]]
+  - Strong connections to strengthen: [[Calmodulin]] ↔ [[Calmodulin]]
 

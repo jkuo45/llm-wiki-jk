@@ -84,4 +84,4 @@ No curative treatment exists. Management is supportive and multidisciplinary.
 
 - New links added: [[Neonatal Adrenoleukodystrophy]], [[PEX1]], [[X-linked Adrenoleukodystrophy]], [[Zellweger Syndrome]], [[Infantile Refsum Disease]], [[Peroxisome]], [[Very Long Chain Fatty Acids]], [[Plasmalogen]], [[Phytanic Acid]], [[Hydrocortisone]]
 - Suggested new entity notes to create: [[Metachromatic Leukodystrophy]], [[Krabbe Disease]]
-- Strong connections to strengthen: [[Zellweger Syndrome]] ↔ [[Neonatal Adrenoleukodystrophy]] ↔ [[Infantile Refsum Disease]] (Zellweger Spectrum Disorders)
+  - Strong connections to strengthen: Zellweger Syndrome ↔ [[Neonatal Adrenoleukodystrophy]] ↔ [[Infantile Refsum Disease]] (Zellweger Spectrum Disorders)

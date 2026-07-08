@@ -23,6 +23,8 @@ EMT is a critical process in [[Cancer]] progression and [[Metastasis]]. The [[Se
 
 This SASP-induced EMT can enhance tumor invasiveness and therapy resistance, contributing to the detrimental effects of chronic senescence in the tumor microenvironment.
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -41,4 +43,4 @@ List of documents that mention this entity
 ## Linking Summary
 
   - New links added: [[Senescence-Associated Secretory Phenotype|SASP]], [[Cancer]], [[Metastasis]], [[TGF-β]], [[IL-6]]
-  - Strong connections to strengthen: [[Epithelial-to-mesenchymal transition]] ↔ [[Cancer]], [[Epithelial-to-mesenchymal transition]] ↔ [[SASP]]
+  - Strong connections to strengthen: Epithelial-to-mesenchymal transition ↔ Cancer, Epithelial-to-mesenchymal transition ↔ [[SASP]]

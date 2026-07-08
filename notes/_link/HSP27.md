@@ -24,6 +24,8 @@ HSP27 is part of the [[MAPKAPK2|MK2]]-HSP27 axis that regulates the stability of
 ## Function
 Beyond its role in SASP, HSP27 is involved in stress resistance, actin cytoskeleton remodeling, and inhibition of [[Apoptosis]].
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -41,4 +43,4 @@ List of documents that mention this entity
 ## Linking Summary
 
   - New links added: [[MAPKAPK2|MK2]], [[p38 MAPK]], [[Senescence-Associated Secretory Phenotype|SASP]], [[Apoptosis]]
-  - Strong connections to strengthen: [[HSP27]] ↔ [[MAPKAPK2|MK2]]
+  - Strong connections to strengthen: [[HSP27]] ↔ MAPKAPK2|MK2

@@ -29,5 +29,5 @@ aliases: [Methylenetetrahydrofolate Dehydrogenase 2]
 
 ## Linking Summary
 - New links added: [[MTHFD2]]
-- Strong connections to strengthen: [[MTHFD2]] ↔ [[MTHFD2]]
+  - Strong connections to strengthen: [[MTHFD2]] ↔ [[MTHFD2]]
 

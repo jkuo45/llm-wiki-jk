@@ -51,4 +51,4 @@ At high concentrations (>6 mg/dL), uric acid can act as a pro-oxidant: urate rad
 ## Linking Summary
 - New links added: [[Xanthine Oxidase]], [[Allopurinol]], [[NLRP3 Inflammasome]], [[Peroxynitrite]], [[Fenton Reaction]], [[Gout]], [[Cardiovascular Disease]], [[Neurodegeneration]], [[Parkinson's Disease]], [[Amyotrophic Lateral Sclerosis]], [[Metabolic Syndrome]], [[Tumor Lysis Syndrome]], [[Rasburicase]], [[Singlet Oxygen]], [[Hydroxyl Radicals]], [[Hypochlorous Acid]], [[LDL]]
 - Suggested new entity notes to create: [[Febuxostat]], [[Probenecid]], [[Monosodium Urate]]
-- Strong connections to strengthen: [[Uric Acid]] ↔ [[Gout]], [[Uric Acid]] ↔ [[NLRP3 Inflammasome]], [[Uric Acid]] ↔ [[Xanthine Oxidase]]
+  - Strong connections to strengthen: Uric Acid ↔ [[Gout]], Uric Acid ↔ NLRP3 Inflammasome, Uric Acid ↔ Xanthine Oxidase

@@ -30,4 +30,4 @@ Sodium Potassium ATPase (Na⁺/K⁺-ATPase, Na⁺/K⁺ pump) is a transmembrane 
 ## Linking Summary
 - New links added: [[ATP]], [[Electrochemical Gradient]], [[Plasma Membrane]], [[Membrane Potential]], [[Action Potential]], [[Secondary Active Transport]], [[Cell Volume Regulation]], [[Cardiac Glycosides]], [[Ouabain]], [[Digoxin]], [[Heart Failure]]
 - Suggested new entity notes to create: [[Na⁺ K⁺ ATPase α subunit]], [[Na⁺ K⁺ ATPase β subunit]]
-- Strong connections to strengthen: [[Sodium Potassium ATPase]] ↔ [[ATP]], [[Sodium Potassium ATPase]] ↔ [[Cardiac Glycosides]]
+  - Strong connections to strengthen: Sodium Potassium ATPase ↔ [[ATP]], Sodium Potassium ATPase ↔ Cardiac Glycosides

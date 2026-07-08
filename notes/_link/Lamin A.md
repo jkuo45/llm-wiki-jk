@@ -21,6 +21,8 @@ aliases: []
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -36,5 +38,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[HGPS]], [[Aging]], [[Chromatin]]
-- Strong connections to strengthen: [[Lamin A]] ↔ [[HGPS]], [[Lamin A]] ↔ [[Aging]], [[Lamin A]] ↔ [[Chromatin]]
+  - Strong connections to strengthen: Lamin A ↔ [[HGPS]], Lamin A ↔ [[Aging]], Lamin A ↔ [[Chromatin]]
 

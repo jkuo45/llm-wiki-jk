@@ -21,6 +21,8 @@ Because of its role in survival signaling, overactivity of TRAF2 can contribute 
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -38,4 +40,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[MAVS]], [[TRAF6]], [[Apoptosis]], [[Endoplasmic Reticulum Pathway]], [[Caspase-12]], [[TNFR1]], [[NFκB]]
 - Suggested new entity notes to create: [[Caspase-12]]
-- Strong connections to strengthen: [[TRAF2]] ↔ [[MAVS]], [[TRAF2]] ↔ [[Endoplasmic Reticulum Pathway]]
+  - Strong connections to strengthen: [[TRAF2]] ↔ MAVS, [[TRAF2]] ↔ Endoplasmic Reticulum Pathway

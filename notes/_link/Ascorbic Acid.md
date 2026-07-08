@@ -22,6 +22,8 @@ Ascorbic acid (Vitamin C) is a water-soluble vitamin found in various foods and 
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -55,4 +57,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Cancer]], [[Fenton Reaction]], [[Oxidative Stress]], [[Dopamine]], [[Oxidative Stress]].
 - Suggested new entity notes to create: [[Fenton Reaction]], [[Antioxidants]], [[Glutathione]].
-- Strong connections to strengthen: [[Ascorbic Acid]] ↔ [[Oxidative Stress]], [[Ascorbic Acid]] ↔ [[Dopamine]].
+  - Strong connections to strengthen: Ascorbic Acid ↔ Oxidative Stress, Ascorbic Acid ↔ [[Dopamine]].

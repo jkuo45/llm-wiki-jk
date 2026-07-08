@@ -30,6 +30,8 @@ The **Lysosome** is a membrane-bound organelle containing acidic hydrolases resp
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -67,4 +69,4 @@ List of documents that mention this entity
 - [[Macroautophagy]] — interacts with Lysosome
 ## Linking Summary
 - New links added: [[Autophagy]], [[TFEB]], [[TFE3]], [[CLEAR Element]], [[V-ATPase]], [[Autophagic Lysosome Reformation]], [[Endocytic Lysosome Reformation]], [[Phagocytic Lysosome Reformation]], [[Macroautophagy]], [[Autophagosome]], [[Autolysosome]], [[Microautophagy]], [[Chaperone-Mediated Autophagy]], [[LAMP-2A]], [[Cellular Homeostasis]], [[Aging]], [[Metabolic Disease]], [[Neurodegenerative Diseases|Neurodegenerative Disease]]
-- Strong connections to strengthen: [[Lysosome]] ↔ [[Autophagy]], [[Lysosome]] ↔ [[TFEB]]
+  - Strong connections to strengthen: [[Lysosome]] ↔ Autophagy, [[Lysosome]] ↔ [[TFEB]]

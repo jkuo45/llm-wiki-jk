@@ -30,6 +30,8 @@ It increases heart rate, constricts blood vessels, and dilates air passages, par
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -67,4 +69,4 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[Epinephrine]], [[Adrenochrome]], [[Oxidative Stress]], [[Oxidation]], [[Myeloperoxidase]], [[COMT]], [[MAO]], [[Inflammation]], [[Neutrophils]], [[Smoking]], [[Catecholamines]], [[Lungs]], [[Cardiotoxicity]], [[Neurotransmitters]], [[Catechol-O-methyltransferase]], [[Norepinephrine]]., [[Norepinephrine]]
-- Strong connections to strengthen: [[Epinephrine]] ↔ [[Adrenochrome]]
+  - Strong connections to strengthen: [[Epinephrine]] ↔ Adrenochrome

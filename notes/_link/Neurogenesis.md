@@ -29,4 +29,4 @@ Adult neurogenesis is regulated by [[Exercise]], [[Caloric Restriction]], [[BDNF
 ## Linking Summary
 - New links added: [[Neural Stem Cell]], [[Aging]], [[Cognition]], [[Exercise]], [[Caloric Restriction]], [[Notch Signaling]]
 - Suggested new entity notes to create: [[Progenitor Cell]], [[Hippocampus]], [[Subventricular Zone]]
-- Strong connections to strengthen: [[Neurogenesis]] ↔ [[Cognition]]
+  - Strong connections to strengthen: [[Neurogenesis]] ↔ [[Cognition]]

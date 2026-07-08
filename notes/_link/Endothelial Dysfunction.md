@@ -35,8 +35,10 @@ Restoring endothelial function requires simultaneously enhancing NO bioavailabil
 - New links added in this revision: [[Nitric Oxide Synthase]], [[Tetrahydrobiopterin]], [[Peroxynitrite]], [[NADPH Oxidase]], [[Angiotensin II]], [[TNF-alpha]], [[Xanthine Oxidase]], [[Mitochondria]], [[Hypoxia]], [[ADMA]], [[Flow-Mediated Dilation]], [[von Willebrand Factor]], [[E-Selectin]], [[Melatonin]], [[Caloric Restriction]], [[Flavonoids]], [[Polyphenols]], [[NRF2]], [[Metformin]], [[AMPK]], [[Mitochondrial ROS]], [[Inflammation]], [[Atherosclerosis]], [[Diabetes Mellitus]], [[Antioxidants]], [[sICAM-1]], [[sVCAM-1]]
 - New links added: [[Nitric Oxide]], [[Atherosclerosis]], [[Cardiovascular Disease]], [[Oxidative Stress]], [[Inflammation]], [[Insulin Signaling]], [[Pulse Wave Velocity]], [[Hypertension]], [[Reactive Oxygen Species]]
 - Suggested new entity notes to create: [[DDAH]], [[Sapropterin]], [[Reactive Hyperemia Index]], [[Pleiotropic Effects of Statins]], [[eNOS]], [[VCAM-1]], [[ICAM-1]], [[Flow-Mediated Dilation]], [[Vasodilation]], [[Vasoconstriction]]
-- Strong connections to strengthen: [[Endothelial Dysfunction]] ↔ [[Atherosclerosis]], [[Endothelial Dysfunction]] ↔ [[Nitric Oxide]]
+  - Strong connections to strengthen: Endothelial Dysfunction ↔ [[Atherosclerosis]], Endothelial Dysfunction ↔ Nitric Oxide
 #
+
+# 
 
 ## Documents
 

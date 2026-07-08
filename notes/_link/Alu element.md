@@ -28,5 +28,5 @@ aliases: []
 
 ## Linking Summary
 - New links added: [[Transposable Elements]], [[Genomic Instability]], [[Cellular Senescence]]
-- Strong connections to strengthen: [[Alu element]] ↔ [[Transposable Elements]], [[Alu element]] ↔ [[Genomic Instability]], [[Alu element]] ↔ [[Cellular Senescence]]
+  - Strong connections to strengthen: Alu element ↔ Transposable Elements, Alu element ↔ Genomic Instability, Alu element ↔ Cellular Senescence
 

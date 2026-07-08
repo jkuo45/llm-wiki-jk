@@ -30,6 +30,8 @@ The accumulation of senescent cells with age contributes to aging and age-relate
 - **[[Senolytics]]**: Drugs that selectively induce apoptosis in senescent cells (e.g., [[Dasatinib]] + [[Quercetin]], [[Navitoclax]]).
 - **[[Senomorphic Therapy]]**: Drugs that suppress the SASP without killing the cells (e.g., [[Rapamycin]]).
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -51,4 +53,4 @@ List of documents that mention this entity
 
   - New links added: [[Senescence]], [[Senescence-Associated Secretory Phenotype|SASP]], [[Apoptosis]], [[Aging]], [[Cancer]], [[Senolytics]], [[Senomorphic Therapy]]
   - Suggested new entity notes to create: [[SCAPs]]
-  - Strong connections to strengthen: [[Senescent Cells]] ↔ [[SASP]], [[Senescent Cells]] ↔ [[Aging]]
+  - Strong connections to strengthen: Senescent Cells ↔ [[SASP]], Senescent Cells ↔ [[Aging]]

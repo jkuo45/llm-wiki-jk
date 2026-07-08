@@ -33,4 +33,4 @@ Vitamin D deficiency is associated with increased risk of [[Cardiovascular Disea
 ## Linking Summary
 - New links added: [[Inflammation]], [[Cardiovascular Disease]], [[Neurodegenerative Diseases]], [[Diabetes Mellitus]], [[Asthma]], [[Depression]], [[Immune System]], [[Mitochondria]], [[Oxidative Stress]]
 - Suggested new entity notes to create: [[VDR]], [[Vitamin D Receptor]], [[CYP27B1]], [[CYP24A1]]
-- Strong connections to strengthen: [[Vitamin D]] ↔ [[Inflammation]]
+  - Strong connections to strengthen: Vitamin D ↔ [[Inflammation]]

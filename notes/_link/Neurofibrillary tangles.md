@@ -29,5 +29,5 @@ aliases: [NFTs]
 
 ## Linking Summary
 - New links added: [[Neurofibrillary tangles]]
-- Strong connections to strengthen: [[Neurofibrillary tangles]] ↔ [[Neurofibrillary tangles]]
+  - Strong connections to strengthen: Neurofibrillary tangles ↔ Neurofibrillary tangles
 

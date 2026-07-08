@@ -29,5 +29,5 @@ aliases: [DMF, Tecfidera]
 
 ## Linking Summary
 - New links added: [[Dimethyl fumarate]]
-- Strong connections to strengthen: [[Dimethyl fumarate]] ↔ [[Dimethyl fumarate]]
+  - Strong connections to strengthen: Dimethyl fumarate ↔ Dimethyl fumarate
 

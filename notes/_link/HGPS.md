@@ -24,6 +24,8 @@ aliases: [Hutchinson-Gilford Progeria Syndrome, Progeria]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -37,5 +39,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[HGPS]]
-- Strong connections to strengthen: [[HGPS]] ↔ [[HGPS]]
+  - Strong connections to strengthen: [[HGPS]] ↔ [[HGPS]]
 

@@ -26,6 +26,8 @@ Mitochondria possess their own defense systems, including:
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -67,4 +69,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[ATP]], [[Metabolism]], [[Mitophagy]]
 - Suggested new entity notes to create: [[Oxidative Phosphorylation]]
-- Strong connections to strengthen: [[Mitochondria]] ↔ [[Aging]]
+  - Strong connections to strengthen: [[Mitochondria]] ↔ [[Aging]]

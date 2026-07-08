@@ -24,6 +24,8 @@ aliases: [High Mobility Group Box 1]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -37,5 +39,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[HMGB1]]
-- Strong connections to strengthen: [[HMGB1]] ↔ [[HMGB1]]
+  - Strong connections to strengthen: [[HMGB1]] ↔ [[HMGB1]]
 

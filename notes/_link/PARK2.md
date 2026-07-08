@@ -29,5 +29,5 @@ aliases: [Parkin, PRKN]
 
 ## Linking Summary
 - New links added: [[PARK2]]
-- Strong connections to strengthen: [[PARK2]] ↔ [[PARK2]]
+  - Strong connections to strengthen: [[PARK2]] ↔ [[PARK2]]
 

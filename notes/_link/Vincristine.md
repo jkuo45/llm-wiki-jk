@@ -29,5 +29,5 @@ aliases: [Oncovin]
 
 ## Linking Summary
 - New links added: [[Vincristine]]
-- Strong connections to strengthen: [[Vincristine]] ↔ [[Vincristine]]
+  - Strong connections to strengthen: [[Vincristine]] ↔ [[Vincristine]]
 

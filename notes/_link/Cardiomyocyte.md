@@ -28,5 +28,5 @@ aliases: [Cardiac Myocyte, Heart Muscle Cell]
 
 ## Linking Summary
 - New links added: [[Cardiomyocyte]]
-- Strong connections to strengthen: [[Cardiomyocyte]] ↔ [[Cardiomyocyte]]
+  - Strong connections to strengthen: [[Cardiomyocyte]] ↔ [[Cardiomyocyte]]
 

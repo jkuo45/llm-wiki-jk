@@ -29,5 +29,5 @@ aliases: [Receptor Activator of NF-κB Ligand, TNFSF11]
 
 ## Linking Summary
 - New links added: [[RANKL]]
-- Strong connections to strengthen: [[RANKL]] ↔ [[RANKL]]
+  - Strong connections to strengthen: [[RANKL]] ↔ [[RANKL]]
 

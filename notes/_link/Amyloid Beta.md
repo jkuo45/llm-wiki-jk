@@ -29,5 +29,5 @@ aliases: [Aβ]
 
 ## Linking Summary
 - New links added: [[Amyloid Beta]]
-- Strong connections to strengthen: [[Amyloid Beta]] ↔ [[Amyloid Beta]]
+  - Strong connections to strengthen: Amyloid Beta ↔ Amyloid Beta
 

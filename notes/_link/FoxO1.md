@@ -52,6 +52,8 @@ The _C. elegans_ FOXO orthologue **DAF-16** is required for _sir-2.1_-mediated l
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -83,4 +85,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Autophagy]], [[IGF1]], [[Akt]], [[Caloric Restriction]], [[Intermittent Fasting]], [[Atg]], [[Atg5]], [[Atg8]], [[LC3]], [[ULK1]], [[Gluconeogenesis]], [[SIRT1]], [[p53]], [[DAF-16]], [[FOXO3a]], [[Adiponectin]]
 - Suggested new entity notes to create: [[Atg]], [[DAF-16]], [[FOXO3a]], [[FOXO4]], [[FHL2]], [[NeuroD]], [[MafA]], [[Adiponectin]]
-- Strong connections to strengthen: [[FoxO1]] ↔ [[Akt]], [[FoxO1]] ↔ [[Autophagy]], [[FoxO1]] ↔ [[SIRT1]], [[FoxO1]] ↔ [[Caloric Restriction]]
+  - Strong connections to strengthen: [[FoxO1]] ↔ [[Akt]], [[FoxO1]] ↔ Autophagy, [[FoxO1]] ↔ SIRT1, [[FoxO1]] ↔ Caloric Restriction

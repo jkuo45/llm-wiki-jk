@@ -28,6 +28,8 @@ Phosphatase and tensin homolog (PTEN) is a major tumor suppressor and lipid phos
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -57,4 +59,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[PTEN]], [[mTOR]], [[Autophagy]], [[Aging]], [[Cancer]], [[Cellular Senescence]], [[MAPK]], [[PI3K]], [[Akt|AKT]], [[Cancer|cancer]]
 - Suggested new entity notes to create: [[Tumor Suppressor]], [[PI3K Pathway]], [[Akt Kinase]]
-- Strong connections to strengthen: [[PTEN]] ↔ [[mTOR]], [[PTEN]] ↔ [[Aging]], [[PTEN]] ↔ [[Akt|AKT]]
+  - Strong connections to strengthen: [[PTEN]] ↔ [[mTOR]], [[PTEN]] ↔ [[Aging]], [[PTEN]] ↔ Akt|AKT

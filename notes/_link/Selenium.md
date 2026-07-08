@@ -52,5 +52,5 @@ Major dietary sources include Brazil nuts, seafood, organ meats, eggs, and grain
 
 ## Linking Summary
 - New links added: [[Glutathione Peroxidase]], [[Thioredoxin reductase]], [[Iodothyronine deiodinases]], [[Selenoprotein P]], [[Selenoprotein S]], [[Methionine sulfoxide reductase B1]], [[Keshan disease]], [[Kashin-Beck disease]], [[Cancer Prevention]], [[Inflammatory Diseases]], [[Rheumatoid Arthritis]], [[Asthma]], [[Chronic Obstructive Pulmonary Disease]], [[Neurodegeneration]]
-- Strong connections to strengthen: [[Selenium]] ↔ [[Glutathione Peroxidase]], [[Selenium]] ↔ [[Thioredoxin reductase]], [[Selenium]] ↔ [[Iodothyronine deiodinases]], [[Selenium]] ↔ [[Selenoprotein P]], [[Selenium]] ↔ [[Selenoprotein S]]
+  - Strong connections to strengthen: [[Selenium]] ↔ Glutathione Peroxidase, [[Selenium]] ↔ Thioredoxin reductase, [[Selenium]] ↔ Iodothyronine deiodinases, [[Selenium]] ↔ Selenoprotein P, [[Selenium]] ↔ Selenoprotein S
 

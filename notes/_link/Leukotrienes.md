@@ -28,5 +28,5 @@ aliases: []
 
 ## Linking Summary
 - New links added: [[Leukotrienes]]
-- Strong connections to strengthen: [[Leukotrienes]] ↔ [[Leukotrienes]]
+  - Strong connections to strengthen: [[Leukotrienes]] ↔ [[Leukotrienes]]
 

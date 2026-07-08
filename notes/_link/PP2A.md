@@ -19,6 +19,8 @@ Protein phosphatase 2 (PP2), also known as PP2A, is an enzyme that in humans is 
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -44,4 +46,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[TFEB]], [[Caspase-3]], [[Bax]], [[Phosphorylation]], [[PP2A]]
 - Suggested new entity notes to create: [[Phosphatase]]
-- Strong connections to strengthen: [[PP2A]] ↔ [[TFEB]], [[PP2A]] ↔ [[Caspase-3]], [[PP2A]] ↔ [[Bax]]
+  - Strong connections to strengthen: [[PP2A]] ↔ [[TFEB]], [[PP2A]] ↔ Caspase-3, [[PP2A]] ↔ Bax

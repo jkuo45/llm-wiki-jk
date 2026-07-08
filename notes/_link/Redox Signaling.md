@@ -29,5 +29,5 @@ aliases: []
 
 ## Linking Summary
 - New links added: [[Redox Signaling]]
-- Strong connections to strengthen: [[Redox Signaling]] ↔ [[Redox Signaling]]
+  - Strong connections to strengthen: Redox Signaling ↔ Redox Signaling
 

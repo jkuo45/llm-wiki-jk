@@ -43,4 +43,4 @@ Tn5 transposase preferentially integrates into regions of open [[Chromatin]] (nu
 ## Linking Summary
 - New links added: [[Chromatin]], [[Chromatin Accessibility]], [[Tn5 Transposase]], [[Promoter]], [[Enhancer]], [[Transcription Factor Binding Sites]], [[Nucleosome Positioning]], [[Transcription Factor]], [[Epigenomics]], [[Single-Cell ATAC-seq]], [[Epigenetics]], [[DNA Sequencing]], [[Transposase]]
 - Suggested new entity notes to create: [[Tagmentation]], [[scATAC-seq]], [[Motif footprinting]], [[Gene regulation]], [[Cis-regulatory elements]], [[Open chromatin]]
-- Strong connections to strengthen: [[ATAC-seq]] ↔ [[Chromatin Accessibility]], [[ATAC-seq]] ↔ [[Epigenomics]]
+  - Strong connections to strengthen: [[ATAC-seq]] ↔ Chromatin Accessibility, [[ATAC-seq]] ↔ Epigenomics

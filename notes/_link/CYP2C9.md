@@ -27,5 +27,5 @@ aliases: []
 
 ## Linking Summary
 - New links added: [[CYP2C9]]
-- Strong connections to strengthen: [[CYP2C9]] ↔ [[CYP2C9]]
+  - Strong connections to strengthen: [[CYP2C9]] ↔ [[CYP2C9]]
 

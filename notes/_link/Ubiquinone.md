@@ -29,5 +29,5 @@ aliases: [Coenzyme Q10, CoQ10]
 
 ## Linking Summary
 - New links added: [[Ubiquinone]]
-- Strong connections to strengthen: [[Ubiquinone]] ↔ [[Ubiquinone]]
+  - Strong connections to strengthen: [[Ubiquinone]] ↔ [[Ubiquinone]]
 

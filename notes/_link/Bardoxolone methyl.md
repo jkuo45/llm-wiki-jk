@@ -29,5 +29,5 @@ aliases: [CDDO-Me, RTA 402]
 
 ## Linking Summary
 - New links added: [[Bardoxolone methyl]]
-- Strong connections to strengthen: [[Bardoxolone methyl]] ↔ [[Bardoxolone methyl]]
+  - Strong connections to strengthen: Bardoxolone methyl ↔ Bardoxolone methyl
 

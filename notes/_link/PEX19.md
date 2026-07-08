@@ -74,4 +74,4 @@ Biallelic PEX19 knockout in mice is embryonic lethal at E9.5-E11.5, with no dete
 ## Linking Summary
 - New links added: [[PEX3]], [[Peroxisome]], [[PEX13]], [[PEX14]], [[PEX2]], [[PEX10]], [[PEX12]], [[PEX11β]], [[Endoplasmic Reticulum]], [[Zellweger Spectrum Disorders]], [[Cytosol]], [[Beta-Oxidation]], [[Fatty acid]]
 - Suggested new entity notes to create: [[Peroxisomal Membrane Protein]], [[Peroxin]], [[ABCD1]]
-- Strong connections to strengthen: [[PEX19]] ↔ [[PEX3]], [[PEX19]] ↔ [[Peroxisome]], [[PEX19]] ↔ [[Zellweger Spectrum Disorders]]
+  - Strong connections to strengthen: [[PEX19]] ↔ PEX3, [[PEX19]] ↔ Peroxisome, [[PEX19]] ↔ Zellweger Spectrum Disorders

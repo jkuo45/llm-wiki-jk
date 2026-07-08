@@ -24,6 +24,8 @@ aliases: [Mental Illness]
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -37,5 +39,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[Psychiatric Disorders]]
-- Strong connections to strengthen: [[Psychiatric Disorders]] ↔ [[Psychiatric Disorders]]
+  - Strong connections to strengthen: Psychiatric Disorders ↔ Psychiatric Disorders
 

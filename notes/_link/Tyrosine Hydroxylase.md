@@ -25,6 +25,8 @@ TH catalyzes the conversion of the amino acid [[Tyrosine]] to [[L-DOPA]]. This s
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -43,4 +45,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Catecholamines]], [[Dopamine]], [[Epinephrine]], [[L-DOPA]], [[Neuromelanin]], [[Norepinephrine]], [[Parkinson's Disease]], [[TH]], [[Tyrosine]]
 - Suggested new entity notes to create: [[L-DOPA]], [[Norepinephrine]]
-- Strong connections to strengthen: [[Tyrosine Hydroxylase]] ↔ [[Dopamine]], [[Tyrosine Hydroxylase]] ↔ [[Parkinson's Disease]]
+  - Strong connections to strengthen: Tyrosine Hydroxylase ↔ [[Dopamine]], Tyrosine Hydroxylase ↔ [[Parkinson's Disease]]

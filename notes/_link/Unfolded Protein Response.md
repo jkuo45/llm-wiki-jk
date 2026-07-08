@@ -60,6 +60,8 @@ Viruses such as [[SARS-CoV-2]], [[hepatitis C virus]], and [[influenza]] hijack 
 
 [[Tauroursodeoxycholic Acid]] ([[TUDCA]]) and [[4-Phenylbutyrate]] ([[4-PBA]]) are chemical chaperones that reduce ER stress and improve folding capacity. [[ISRIB]] (Integrated Stress Response Inhibitor) reverses the effects of p-eIF2α, enhancing translation even under PERK activation, and shows promise in cognitive enhancement and neurodegeneration models. [[IRE1 RNase inhibitors]] ([[MKC-8866]], [[STF-083010]]) block XBP1 splicing and RIDD. [[PERK inhibitors]] ([[GSK2606414]]) have been explored but faced toxicity at high doses. [[ATF6 activators]] ([[ceapins]]) and inhibitors are under investigation.
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -84,4 +86,4 @@ List of documents that mention this entity
 
 - New links added: [[IRE1]], [[PERK]], [[ATF6]], [[BiP]], [[GRP78]], [[CHOP]], [[JNK]], [[XBP1]], [[sXBP1]], [[RIDD]], [[TRAF2]], [[ASK1]], [[eIF2α]], [[ATF4]], [[eIF2B]], [[Integrated Stress Response]], [[ISRIB]], [[TUDCA]], [[ERAD]], [[ER proteostasis]], [[Wolcott-Rallison syndrome]], [[Multiple Myeloma]], [[Endoplasmic Reticulum]], [[Golgi apparatus]], [[COPII]], [[S1P]], [[S2P]], [[protein disulfide isomerase]], [[Type 2 Diabetes Mellitus]], [[Non-alcoholic Fatty Liver Disease]], [[Amyotrophic Lateral Sclerosis]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Huntington's Disease]], [[MKC-8866]], [[GSK2606414]], [[4-PBA]], [[ceapins]], [[ManniKind]]
 - Suggested new entity notes to create: [[MKC-8866]], [[ISRIB]], [[CEAPINS]], [[Wolcott-Rallison syndrome]]
-- Strong connections to strengthen: [[Apoptosis]] ↔ [[Unfolded Protein Response]], [[Integrated Stress Response]] ↔ [[Unfolded Protein Response]], [[Autophagy]] ↔ [[Unfolded Protein Response]]
+  - Strong connections to strengthen: [[Apoptosis]] ↔ Unfolded Protein Response, Integrated Stress Response ↔ Unfolded Protein Response, Autophagy ↔ Unfolded Protein Response

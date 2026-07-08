@@ -19,6 +19,8 @@ The [[COMT]] [[Val158Met]] [[SNP]] has been extensively studied in relation to [
 
 #
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -42,4 +44,4 @@ List of documents that mention this entity
 
 ## Linking Summary
 - New links added: [[Adrenochrome]], [[Induced Pluripotent Stem Cells]], [[Neurodegenerative Diseases]], [[COMT]], [[Val158Met]], [[SNP]], [[Dopamine]], [[Prefrontal Cortex]]., [[Prefrontal Cortex]]
-- Strong connections to strengthen: [[Induced Pluripotent Stem Cells]] ↔ [[Schizophrenia]]
+  - Strong connections to strengthen: Induced Pluripotent Stem Cells ↔ [[Schizophrenia]]

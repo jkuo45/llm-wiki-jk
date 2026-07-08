@@ -64,6 +64,8 @@ In established tumours, paracrine senescence from therapy-induced senescent cell
 
 Reducing paracrine senescence is a key goal of both [[Senolytic Therapy|senolytics]] (removing the source cells) and [[Senomorphic Therapy|senomorphics]] (suppressing SASP production). Lifestyle interventions such as dietary restriction and exercise may reduce paracrine senescence by decreasing senescence burden.
 
+# 
+
 ## Documents
 
 List of documents that mention this entity
@@ -90,4 +92,4 @@ List of documents that mention this entity
 
 - New links added: [[Paracrine Senescence]], [[IL-1α]], [[TGFβ]], [[Notch]], [[IFITM3]], [[CCL2]], [[VEGF]], [[Senolytic Therapy|Senolytics]], [[Senomorphic Therapy]]
 - Suggested new entity notes to create: [[CCL20]], [[Bystander Effect]]
-- Strong connections to strengthen: [[Paracrine Senescence]] ↔ [[SASP]], [[Paracrine Senescence]] ↔ [[Cellular Senescence]], [[Paracrine Senescence]] ↔ [[Aging]]
+  - Strong connections to strengthen: [[Paracrine Senescence]] ↔ [[SASP]], [[Paracrine Senescence]] ↔ Cellular Senescence, [[Paracrine Senescence]] ↔ [[Aging]]
