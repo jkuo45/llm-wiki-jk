@@ -1,34 +1,36 @@
 ---
 title: IL-1α
-description: Interleukin-1 alpha is a pro-inflammatory cytokine and a key upstream regulator of the SASP.
+description: Interleukin-1 alpha is a cell-associated pro-inflammatory cytokine and master upstream initiator of the SASP via NF-κB and mTOR-regulated translation.
 type: entity
 created: 2026-07-07
-updated: 2026-07-07
+updated: 2026-07-08
 tags:
-  - biological-molecule
   - cytokine
+  - biological-molecule
   - senescence
   - inflammation
-aliases: [IL-1α, Interleukin-1 alpha]
+  - sasp
+aliases: [IL-1α, Interleukin-1 alpha, IL1A]
 ---
 
 # IL-1α
 
-**Interleukin-1 alpha (IL-1α)** is a potent pro-inflammatory cytokine that serves as a critical upstream regulator of the [[Senescence-Associated Secretory Phenotype|SASP]].
+**Interleukin-1 alpha (IL-1α)** is a potent pro-inflammatory member of the IL-1 family and a critical upstream initiator of the [[Senescence-Associated Secretory Phenotype|SASP]]. Unlike most cytokines, its precursor is biologically active and largely cell-associated.
 
-## Role in SASP Regulation
-IL-1α is often cell-surface associated and plays a master role in SASP induction:
-- It activates [[NFKB|NF-κB]] signaling, leading to the transcription of other SASP factors like [[IL-6]] and [[IL-8]].
-- It is regulated at the translational level by [[mTOR]].
-- Its cleavage by [[Caspase 5]] or [[Caspase 11]] is essential for its SASP regulatory functions.
+## Mechanism of Action & Signaling
 
-## Feedback Loops
-IL-1α creates a positive feedback loop with [[NFKB|NF-κB]], amplifying the inflammatory secretome of [[Senescent Cells]].
+IL-1α is constitutively expressed as a 31-kDa precursor that localizes to the nucleus (where it can regulate transcription) and the plasma membrane; it is released passively during cell damage/necrosis or by calpain-mediated cleavage. Extracellular IL-1α binds IL-1R1 (IL-1 receptor type 1), which recruits IL-1RAcP to activate MyD88, leading to [[NFKB|NF-κB]] and [[MAPK]] activation. Critically, IL-1α acts as the master SASP trigger: it drives transcription of downstream SASP factors such as [[IL-6]] and [[IL-8]]. Its own expression is controlled translationally downstream of [[mTOR]], via RNA-binding proteins (e.g., [[AUF1]], [[ZFP36L1]]) that stabilize SASP mRNAs (Orjalo et al., PMID 19911007; Coppé et al., PMID 18708385). Thus IL-1α couples the DNA-damage response to the inflammatory secretome.
 
-## Therapeutic Targeting
-Inhibiting IL-1α or its downstream signaling is a strategy for [[Senomorphic Therapy]] to reduce the detrimental effects of chronic SASP.
+## Role in Senescence / SASP
 
-# 
+- IL-1α creates a positive feedback loop with [[NFKB|NF-κB]], amplifying the secretome of [[Senescent Cells]].
+- It initiates the cascade that induces IL-6, IL-8, and other NF-κB–dependent SASP components.
+- It promotes [[Paracrine Senescence]] and recruits innate immune cells for surveillance.
+
+## Clinical / Pathological Relevance
+- Elevated IL-1α drives [[Inflammaging]] and chronic inflammatory disease.
+- Inhibiting IL-1α (e.g., canakinumab, anakinra) is a [[Senomorphic Therapy|senomorphic]] strategy to blunt harmful SASP.
+- IL-1α blockade reduced cardiovascular events in the CANTOS trial, illustrating anti-inflammatory benefit.
 
 ## Documents
 
@@ -44,8 +46,9 @@ List of documents that mention this entity
 - [[mTOR]] — Regulates IL-1α translation
 - [[IL-6]] / [[IL-8]] — Upstream activator of these SASP factors
 - [[Senescent Cells]] — Produced by senescent cells
+- [[MAPK]] / [[AUF1]] — Additional IL-1α signaling and regulatory nodes
 
 ## Linking Summary
 
-  - New links added: [[Senescence-Associated Secretory Phenotype|SASP]], [[NF-κB]], [[mTOR]], [[IL-6]], [[IL-8]], [[Senescent Cells]]
-  - Strong connections to strengthen: [[IL-1α]] ↔ [[SASP]], [[IL-1α]] ↔ NF-κB
+  - New links added: [[Senescence-Associated Secretory Phenotype|SASP]], [[NF-κB]], [[mTOR]], [[IL-6]], [[IL-8]], [[Senescent Cells]], [[MAPK]], [[AUF1]], [[ZFP36L1]]
+  - Strong connections to strengthen: [[IL-1α]] ↔ [[Senescence-Associated Secretory Phenotype|SASP]], [[IL-1α]] ↔ [[NF-κB]]

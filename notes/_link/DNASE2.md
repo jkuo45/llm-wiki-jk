@@ -1,40 +1,33 @@
 ---
 title: DNASE2
-description: Deoxyribonuclease 2, a DNA-degrading enzyme whose downregulation triggers cGAS-STING pathway in senescence.
+description: Acid endolysosomal DNase whose downregulation in senescence permits cytosolic DNA accumulation and cGAS-STING activation.
 type: entity
 created: 2026-07-07
-updated: 2026-07-07
+updated: 2026-07-08
 tags:
   - enzyme
-  - dna
+  - dnase
+  - dna-degradation
   - senescence
-  - inflammation
+  - cgas-sting
+aliases: [DNASE2, Deoxyribonuclease II, DNase II]
 ---
 
 # DNASE2
 
-DNASE2 (Deoxyribonuclease 2) is a DNA-degrading enzyme that is downregulated in senescent cells, leading to reduced degradation and accumulation of cytoplasmic DNA, which triggers the [[cGAS-STING Pathway|cGAS–STING]] pathway.
+DNASE2 (deoxyribonuclease II, acid DNase) is an endolysosomal nuclease that degrades DNA within late endosomes/lysosomes. Its downregulation in senescent cells permits accumulation of cytoplasmic chromatin fragments, triggering the [[cGAS-STING Pathway|cGAS–STING]] innate immune pathway.
 
-## Mechanism of Action
+## Mechanism of Action & Signaling
 
-- DNASE2 degrades DNA in endosomes/lysosomes
-- Downregulation of DNASE2 in senescent cells leads to cytoplasmic DNA accumulation
-- Accumulated DNA activates the [[cGAS-STING Pathway|cGAS–STING]] pathway
-- DNASE2 downregulation is a key event in SASP induction
+DNASE2 is the major enzyme clearing DNA from apoptotic bodies and from the cytosol after autophagic or endocytic clearance of chromatin, functioning optimally in the acidic lumen of late endosomes and lysosomes. In healthy cells it prevents accumulation of cytosolic/nuclear DNA fragments. When DNASE2 is lost, DNA is no longer degraded and persists as micronuclei and cytosolic chromatin, which are sensed by cGAS to activate STING, IRF3, and NF-κB.
 
-## Role in Senescence
+## Role in Senescence / SASP
 
-- DNASE2 downregulation is a mechanism for cytoplasmic DNA accumulation
-- This triggers cGAS–STING activation and SASP
-- DNASE2 loss contributes to the interferon response in senescence
+In [[Senescent Cells]], DNASE2 (together with the cytosolic exonuclease [[TREX1]]) is transcriptionally downregulated, so persistent DNA damage no longer resolves. The resulting cytosolic DNA activates the [[cGAS-STING Pathway|cGAS–STING]] pathway, driving a type-I interferon and NF-κB response that is a major engine of the SASP (Dou et al., 2017, PMID 28388416; Gluck et al., 2017). Loss of DNASE2 therefore converts benign nuclear damage into chronic inflammatory signaling — a core senescence-intrinsic mechanism rather than an extrinsic trigger.
 
-## Clinical Relevance
+## Clinical / Pathological Relevance
 
-- DNASE2 is implicated in autoimmune diseases
-- DNASE2 may be a target for modulating SASP
-- DNASE2 deficiency leads to chronic inflammation
-
-# 
+DNASE2 deficiency in mice causes severe chronic polyarthritis and lethal anemia from uncontrolled STING activation. In humans, impaired DNA clearance (DNASE2/TREX1) links cellular senescence to autoimmune and autoinflammatory disease, and restoring nuclease function is a candidate anti-SASP strategy to limit senescence-driven inflammation.
 
 ## Documents
 
@@ -45,8 +38,9 @@ DNASE2 (Deoxyribonuclease 2) is a DNA-degrading enzyme that is downregulated in 
 - [[cGAS-STING Pathway|cGAS–STING]]: DNASE2 downregulation triggers cGAS–STING
 - [[TREX1]]: Both DNASE2 and TREX1 degrade cytoplasmic DNA
 - [[Senescence-Associated Secretory Phenotype|SASP]]: DNASE2 loss promotes SASP
+- [[Senescent Cells]]: DNASE2 is downregulated in senescence
 
 ## Linking Summary
 
-- New links added: [[cGAS-STING Pathway|cGAS–STING]], [[TREX1]], [[Senescence-Associated Secretory Phenotype|SASP]]
-  - Strong connections to strengthen: [[DNASE2]] ↔ cGAS–STING, [[DNASE2]] ↔ cytoplasmic DNA
+- New links added: [[cGAS-STING Pathway|cGAS–STING]], [[TREX1]], [[Senescence-Associated Secretory Phenotype|SASP]], [[Senescent Cells]]
+  - Strong connections to strengthen: [[DNASE2]] ↔ cGAS–STING, [[DNASE2]] ↔ cytoplasmic DNA clearance

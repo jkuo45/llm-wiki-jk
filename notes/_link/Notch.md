@@ -1,39 +1,32 @@
 ---
 title: Notch
-description: Notch signaling pathway, crucial for switching from early to late SASP and establishing paracrine senescence.
+description: Notch signaling pathway that gates the early-to-late SASP switch and establishes paracrine senescence.
 type: entity
 created: 2026-07-07
-updated: 2026-07-07
+updated: 2026-07-08
 tags:
   - signaling-pathway
   - senescence
   - sasp
+  - paracrine
+aliases: [Notch, Notch Signaling]
 ---
 
 # Notch
 
-Notch is a cell signaling pathway that is crucial for the switch from an early (e.g., [[TGFβ]]) to a late (e.g., [[IL-6]] and [[IL-8]]) SASP by suppressing [[CEBPβ|C/EBPβ]]. It is also essential for the establishment of [[Paracrine Senescence|paracrine senescence]].
+Notch is an evolutionarily conserved cell-signaling pathway in which transmembrane Notch receptors (Notch1–4) are cleaved upon ligand (Jagged/Delta-like) engagement, releasing the Notch intracellular domain (NICD) that translocates to the nucleus to regulate transcription with RBPJ/CSL. In senescence, Notch acts as a temporal gatekeeper of the SASP.
 
-## Mechanism of Action
+## Mechanism of Action & Signaling
 
-- Notch signaling suppresses [[CEBPβ|C/EBPβ]]
-- This suppresses [[IL-1α]] and [[NF-κB]] activity
-- Notch mediates the switch from early to late SASP
-- Notch signaling is essential for paracrine senescence
+Upon activation, NICD cooperates with Mastermind and CSL to drive target-gene transcription. In the senescence context, Notch orchestrates the transition from an early SASP (dominated by [[TGFβ]]) to a late, highly inflammatory SASP (dominated by [[IL-6]] and [[IL-8]]) by suppressing [[CEBPβ|C/EBPβ]] and, downstream, [[IL-1α]] and [[NF-κB]] activity (SASP review, PMID 20365073). This positions Notch as a switch that both times the secretome and tempers its most inflammatory phase.
 
-## Role in SASP
+## Role in Senescence / SASP
 
-- Notch is a temporal regulator of SASP
-- It controls the transition between different SASP phases
-- Notch weakens the SASP of secondary senescent cells
+Notch is essential for establishing [[Paracrine Senescence|paracrine senescence]]: senescent cells stimulate Notch signaling in neighboring cells, propagating the arrested, SASP-producing state. Notably, the SASP of these secondary senescent cells is weaker, which may limit runaway spread. Thus Notch both phases the autocrine SASP and governs how senescence transmits through a tissue.
 
-## Clinical Relevance
+## Clinical / Pathological Relevance
 
-- Notch is a therapeutic target in cancer
-- Notch inhibitors are being developed
-- Notch may be a target for modulating SASP in aging
-
-# 
+Notch is a validated oncology target (γ-secretase inhibitors and anti-Notch antibodies). Its role in SASP phasing and paracrine propagation makes Notch modulation a candidate strategy to reshape — rather than simply suppress — the senescence secretome in aging, fibrosis, and cancer.
 
 ## Documents
 
@@ -50,5 +43,5 @@ Notch is a cell signaling pathway that is crucial for the switch from an early (
 
 ## Linking Summary
 
-- New links added: [[CEBPβ|C/EBPβ]], [[TGFβ]], [[IL-6]], [[IL-8]], [[Paracrine Senescence|paracrine senescence]], [[Senescence-Associated Secretory Phenotype|SASP]]
+- New links added: [[CEBPβ|C/EBPβ]], [[TGFβ]], [[IL-6]], [[IL-8]], [[Paracrine Senescence|paracrine senescence]], [[Senescence-Associated Secretory Phenotype|SASP]], [[IL-1α]], [[NF-κB]]
   - Strong connections to strengthen: [[Notch]] ↔ SASP dynamics, [[Notch]] ↔ paracrine senescence

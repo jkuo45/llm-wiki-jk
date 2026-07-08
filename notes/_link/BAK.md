@@ -1,39 +1,42 @@
 ---
 title: BAK
-description: BCL-2 antagonist/killer, a pro-apoptotic protein that forms macropores allowing mitochondrial DNA release during senescence.
+description: BCL-2 antagonist/killer, a pro-apoptotic effector resident in the outer mitochondrial membrane that forms pores with BAX; macropore activity drives mtDNA release and SASP in senescence.
 type: entity
 created: 2026-07-07
-updated: 2026-07-07
+updated: 2026-07-08
 tags:
   - protein
   - apoptosis
   - mitochondria
   - senescence
+  - bcl-2-family
+  - mitochondrial-membrane
+aliases: [BAK, BCL2 antagonist/killer, BAK1]
 ---
 
 # BAK
 
-BAK (BCL-2 antagonist/killer) is a pro-apoptotic member of the BCL-2 protein family that resides in the outer mitochondrial membrane. Along with [[BAX]], BAK forms macropores that can lead to mitochondrial outer membrane permeabilization (MOMP), a critical step in apoptosis and a process implicated in SASP activation during senescence.
+BAK (BCL-2 antagonist/killer, gene *BAK1*) is a pro-apoptotic effector of the [[Bcl-2]] family that resides constitutively in the outer mitochondrial membrane. Along with [[BAX]], BAK forms pores that mediate [[Mitochondrial outer membrane permeabilization|MOMP]], the point of no return in the intrinsic apoptotic pathway and a process now implicated in SASP activation during [[Cellular Senescence]]. Whereas BAX must first translocate to the membrane, BAK is pre-localized and is activated in situ by BH3-only proteins that dislodge it from anti-apoptotic restraint.
 
-## Mechanism of Action
+## Mechanism of Action & Signaling
 
-- BAK is a key effector of the intrinsic apoptotic pathway
-- When activated, BAK oligomerizes and forms pores in the outer mitochondrial membrane
-- In senescent cells, minority MOMP (miMOMP) events allow BAK and [[BAX]] macropores to permit mitochondrial inner membrane herniation into the cytosol
-- This leads to release of mitochondrial DNA, which activates the [[cGAS-STING Pathway|cGAS–STING]] pathway and drives SASP
+- **Activation**: BH3-only proteins (e.g., [[Bim]], [[PUMA]], [[NOXA]], tBID) bind and displace BAK from sequestration by anti-apoptotic [[Bcl-2]] family members (BCL-2, BCL-XL, MCL-1), triggering BAK exposure and oligomerization.
+- **Pore formation**: BAK homooligomers, and BAK–BAX heterooligomers, create lipidic pores. Low-order pores release [[Cytochrome c]]; high-order macropores allow inner-membrane herniation and cytosolic [[mtDNA]] release.
+- **Apoptotic execution**: Cytochrome c release nucleates the [[Apoptosome]], activating [[Caspase-9]] and [[Caspase-3]].
+- **Senescence crosstalk**: Under sublethal stress, minority MOMP (see [[Minority MOMP]]) leaves BAK pore activity that leaks mtDNA without causing death, engaging the [[cGAS-STING Pathway|cGAS–STING]] pathway.
 
 ## Role in Senescence
 
-- BAK-mediated miMOMP is a source of cytoplasmic mitochondrial DNA that triggers interferon signaling
-- The cGAS–STING pathway activated by mitochondrial DNA release promotes [[Inflammaging]] and SASP maintenance
-- BAK and [[BAX]] are essential for this mitochondrial DNA release mechanism
+- BAK-mediated mtDNA release is a proximal trigger of type I interferon–biased SASP via cGAS–STING and [[TBK1]]/IRF signaling.
+- Senescent cells upregulate [[Senescent cell anti-apoptotic pathways|SCAPs]], keeping many BAK pores sub-lethal so a death signal becomes a chronic inflammatory signal.
+- BAK (with BAX) is essential for the mitochondrial DNA release that sustains SASP in several senescence models.
+- BAK thus bridges [[Apoptosis]] and [[Cellular Senescence]].
 
-## Clinical Relevance
+## Clinical / Pathological Relevance
 
-- BAK is a therapeutic target in cancer (pro-apoptotic proteins)
-- Understanding miMOMP in senescence may lead to interventions targeting SASP
-
-# 
+- BAK is a pro-apoptotic oncology target; its inhibitors are BH3 mimetics that neutralize BAK's anti-apoptotic counterparts.
+- Its role in senescent-cell mtDNA leakage informs [[Senolytics]] and anti-SASP strategies interrupting the cGAS–STING loop.
+- Age-related [[Inflammaging]] is partly sustained by BAK-driven chronic mtDNA sensing.
 
 ## Documents
 
@@ -42,11 +45,14 @@ BAK (BCL-2 antagonist/killer) is a pro-apoptotic member of the BCL-2 protein fam
 ## Connections
 
 - [[BAX]]: BAK and BAX cooperate to form mitochondrial macropores
+- [[Bcl-2]]: Anti-apoptotic BCL-2 family members sequester and inhibit BAK
 - [[cGAS-STING Pathway|cGAS–STING]]: BAK-mediated mitochondrial DNA release activates this pathway
+- [[Cytochrome c]]: Released by BAK pores to trigger the apoptosome
 - [[Senescence-Associated Secretory Phenotype|SASP]]: BAK contributes to SASP through mitochondrial DNA release
+- [[Minority MOMP]]: Sublethal BAK pore activity drives senescence without death
 - [[Inflammaging]]: BAK-mediated mitochondrial DNA release drives age-related inflammation
 
 ## Linking Summary
 
-- New links added: [[BAX]], [[cGAS-STING Pathway|cGAS–STING]], [[Senescence-Associated Secretory Phenotype|SASP]], [[Inflammaging]]
-  - Strong connections to strengthen: [[BAK]] ↔ [[BAX]], [[BAK]] ↔ cGAS–STING
+- New links added: [[BAX]], [[Bcl-2]], [[cGAS-STING Pathway|cGAS–STING]], [[Cytochrome c]], [[Apoptosome]], [[Caspase-9]], [[mtDNA]], [[Minority MOMP]], [[Senescence-Associated Secretory Phenotype|SASP]], [[Inflammaging]]
+- Strong connections to strengthen: [[BAK]] ↔ [[BAX]], [[BAK]] ↔ [[cGAS-STING Pathway|cGAS–STING]], [[BAK]] ↔ [[Minority MOMP]]

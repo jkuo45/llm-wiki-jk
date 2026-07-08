@@ -1,39 +1,40 @@
 ---
 title: METTL14
-description: Methyltransferase-like 14, part of the m6A methyltransferase complex that promotes SASP gene expression.
+description: Methyltransferase-like 14, core subunit of the m6A writer complex (with METTL3) that also promotes SASP gene expression via enhancer–promoter looping.
 type: entity
 created: 2026-07-07
-updated: 2026-07-07
+updated: 2026-07-08
 tags:
   - epigenetics
   - enzyme
   - sasp
+  - m6a
+  - epitranscriptomics
+aliases: [METTL14, Methyltransferase-like 14]
 ---
 
 # METTL14
 
-METTL14 (Methyltransferase-like 14) is part of the RNA m6A-methyltransferase complex with [[METTL3]]. This complex promotes the expression of SASP factors by bringing enhancers in close proximity to promoters of SASP genes that contain [[NF-κB]] binding sites, independent of its m6A modification function.
+METTL14 (Methyltransferase-like 14) is the structural core of the RNA N⁶-methyladenosine (m6A) methyltransferase complex, which it forms with the catalytic subunit [[METTL3]] and adaptors WTAP, VIRMA, RBM15/15B. Beyond installing m6A marks, METTL14 promotes SASP gene expression by bringing enhancers into proximity with promoters of SASP genes bearing [[NF-κB]] binding sites — a function separable from its methyltransferase activity.
 
-## Mechanism of Action
+## Mechanism of Action & Signaling
 
-- METTL14 forms a complex with [[METTL3]]
-- The METTL3–METTL14 complex promotes SASP gene expression
-- It brings enhancers close to SASP gene promoters
-- This function is independent of m6A modification
+METTL14 folds into a catalytic-competent heterodimer with METTL3; METTL3 provides the active SAM-binding site while METTL14 stabilizes substrate RNA and shapes motif preference (RRACH). The complex deposits m6A on SASP and cytokine transcripts, which are then recognized by reader proteins (YTHDF1/2, IGF2BP) to modulate stability and translation. Independently, METTL14 acts as a chromatin-associated factor: it is recruited to enhancer elements where it facilitates DNA looping that juxtaposes enhancers with SASP promoters, enabling NF-κB–driven transcription. This "writer-independent" architectural role explains why METTL14 depletion lowers SASP even when global m6A catalysis is partially preserved.
 
-## Role in SASP
+## Role in Senescence / SASP
 
-- METTL14 is part of an epigenetic regulator of SASP
-- It promotes SASP gene expression through enhancer-promoter looping
-- METTL14 may be a target for selective SASP modulation
+METTL14 is an epitranscriptomic and chromatin regulator of the [[Senescence-Associated Secretory Phenotype|SASP]]:
+- The METTL3–METTL14 complex promotes SASP factor expression via m6A marking of secretory transcripts.
+- It brings enhancers close to SASP gene promoters, potentiating NF-κB signaling.
+- Loss of METTL14 (or METTL3) dampens IL-6/IL-8 and interferon-stimulated SASP components.
 
-## Clinical Relevance
+Because m6A writers integrate metabolic state (SAM availability) and senescence signaling, METTL14 links cellular metabolism to SASP output. Targeting the complex (e.g., STM2457, METTL3 inhibitors) is emerging as a senomorphic approach.
 
-- METTL14 is implicated in cancer and development
-- METTL14 may be a target for modulating SASP
-- METTL14 is involved in RNA methylation
+## Clinical / Pathological Relevance
 
-# 
+- METTL14/METTL3 are drivers in acute myeloid leukemia and solid tumors, with clinical METTL3 inhibitors in development.
+- Epitranscriptomic blockade may reduce SASP-associated [[Inflammaging]] and fibrosis.
+- METTL14 mutations are found in cancers and developmental disorders, underscoring context-dependent roles.
 
 ## Documents
 
@@ -48,4 +49,4 @@ METTL14 (Methyltransferase-like 14) is part of the RNA m6A-methyltransferase com
 ## Linking Summary
 
 - New links added: [[METTL3]], [[NF-κB]], [[Senescence-Associated Secretory Phenotype|SASP]]
-  - Strong connections to strengthen: [[METTL14]] ↔ METTL3, [[METTL14]] ↔ SASP regulation
+- Strong connections to strengthen: [[METTL14]] ↔ METTL3, [[METTL14]] ↔ SASP regulation

@@ -1,45 +1,43 @@
 ---
 title: miRNA
-description: MicroRNAs, small non-coding RNAs that mediate SASP regulation and intercellular communication in senescence.
+description: MicroRNAs, ~22-nt non-coding RNAs that post-transcriptionally regulate SASP factors and mediate intercellular senescence communication via exosomes.
 type: entity
 created: 2026-07-07
-updated: 2026-07-07
+updated: 2026-07-08
 tags:
   - rna
   - sasp
   - epigenetics
   - senescence
+  - microrna
+  - epitranscriptomics
+aliases: [miRNA, microRNA, miR]
 ---
 
 # miRNA (MicroRNA)
 
-miRNAs (microRNAs) are small non-coding RNAs that regulate gene expression post-transcriptionally. They are key components of the [[Senescence-Associated Secretory Phenotype|SASP]], mediating both SASP regulation and intercellular communication between senescent cells and their microenvironment.
+miRNAs (microRNAs) are ~22-nucleotide non-coding RNAs that regulate gene expression post-transcriptionally by guiding Argonaute-containing RISC to complementary sites in target mRNAs, repressing translation or inducing decay. They are key components of the [[Senescence-Associated Secretory Phenotype|SASP]], mediating both SASP regulation and intercellular communication between senescent cells and their microenvironment.
 
-## Mechanism of Action
+## Mechanism of Action & Signaling
 
-- miRNAs are small non-coding RNAs (~22 nucleotides)
-- They silence gene expression by binding to target mRNAs
-- miRNAs are secreted by senescent cells in exosomes
-- miRNAs mediate communication between senescent and neighboring cells
+miRNAs are processed from pri-miRNAs by Drosha/DGCR8 in the nucleus and from pre-miRNAs by Dicer in the cytoplasm, then loaded onto Argonaute (AGO) proteins. The miRNA seed region base-pairs with 3' UTR targets, dampening expression of senescence regulators (e.g., [[p16 INK4a]], [[p53]], SASP cytokines). Senescent cells both alter their intracellular miRNA repertoire and package miRNAs into exosomes/ extracellular vesicles, transferring regulatory RNAs to neighboring cells. This paracrine miRNA traffic can instigate [[Paracrine Senescence]] and shape the tissue microenvironment.
 
-## Role in SASP
+## Role in Senescence / SASP
 
-- miRNAs are components of the SASP
-- They regulate SASP factor expression
-- miRNAs mediate paracrine senescence
-- Specific miRNAs:
-  - **miR-34a**: Contributes to SASP (IL-6 secretion) in senescent vascular smooth muscle cells
-  - **miR-125a**: Promotes SASP factors in COPD
-  - **miR-15b**: Inhibits [[SIRT4]]-mediated SASP
-  - **miR-146a/b**: Regulate IL-6 and IL-8 downstream of IL-1α
+miRNAs finely tune senescence establishment and the SASP:
+- **miR-34a**: induced by p53; promotes senescence and SASP (IL-6 secretion) in vascular smooth muscle cells; miR-34a mimics are in oncology trials.
+- **let-7 family**: tumor-suppressive; loss of let-7 reinforces RAS-driven senescence and SASP.
+- **miR-146a/b**: induced downstream of IL-1α/NF-κB; negative-feedback regulators of IL-6 and IL-8, buffering SASP intensity.
+- **miR-21**: broadly upregulated; reinforces senescence and pro-fibrotic SASP via PTEN/SMAD targeting.
+- **miR-125a / miR-15b**: promote or inhibit SASP in COPD and metabolic contexts (miR-15b intersects with [[SIRT4]]).
 
-## Clinical Relevance
+Circulating senescence-associated miRNAs are candidate biomarkers of [[Inflammaging]] and biological age, and anti-miR (antagomir) or mimic strategies offer senomorphic maneuvering.
 
-- miRNAs are potential biomarkers for senescence
-- miRNA-based therapies are being developed
-- miRNAs may be targets for modulating SASP
+## Clinical / Pathological Relevance
 
-# 
+- miRNAs are potential non-invasive biomarkers of senescence burden in aging and disease.
+- miRNA-based therapeutics (e.g., miR-34a mimics, anti-miRs) are in clinical development for cancer and fibrosis.
+- Exosomal miRNAs are being explored as both diagnostics and engineered senomorphic delivery vehicles.
 
 ## Documents
 
@@ -51,8 +49,10 @@ miRNAs (microRNAs) are small non-coding RNAs that regulate gene expression post-
 - [[SIRT4]]: miR-15b inhibits SIRT4-mediated SASP
 - [[Paracrine Senescence|paracrine senescence]]: miRNAs mediate paracrine senescence
 - [[Inflammaging]]: miRNAs contribute to age-related inflammation
+- [[p16 INK4a]]: miRNA target in senescence
+- [[p53]]: miR-34a upstream regulator
 
 ## Linking Summary
 
-- New links added: [[Senescence-Associated Secretory Phenotype|SASP]], [[SIRT4]], [[Paracrine Senescence|paracrine senescence]], [[Inflammaging]]
+- New links added: [[Senescence-Associated Secretory Phenotype|SASP]], [[SIRT4]], [[Paracrine Senescence|paracrine senescence]], [[Inflammaging]], [[p16 INK4a]], [[p53]]
   - Strong connections to strengthen: [[miRNA]] ↔ [[SASP]], [[miRNA]] ↔ intercellular communication

@@ -5,46 +5,53 @@ description: Paracrine senescence is the process by which SASP factors secreted 
   phenotype through tissues.
 type: entity
 created: 2026-07-07
-updated: 2026-07-07
+updated: 2026-07-08
 tags:
   - biological-process
   - senescence
+  - inflammation
+  - intercellular-signaling
 aliases: [Bystander senescence, secondary senescence]
-
 ---
 
 # Paracrine Senescence
 
-**Paracrine senescence** (also called bystander senescence or secondary senescence) is the process by which [[Senescence-Associated Secretory Phenotype|SASP factors]] secreted by senescent cells induce [[Cellular Senescence]] in neighbouring healthy cells, spreading the senescence phenotype through tissues.
+**Paracrine senescence** (also called bystander senescence or secondary senescence) is the process by which [[Senescence-Associated Secretory Phenotype|SASP factors]] secreted by senescent cells induce [[Cellular Senescence]] in neighbouring healthy cells, spreading the senescence phenotype through tissues. It explains why small numbers of senescent cells can drive disproportionate tissue dysfunction and why local senescent-cell burden amplifies with age (Acosta et al., 2013; PMID 23636316; Nelson et al., 2018, PMID 29902437).
 
 ## Mechanism
 
-In [[Oncogene-Induced Senescence|OIS]] cells, SASP components — including [[IL-1α]], [[TGFβ]], [[VEGF]], [[CCL2]], and [[CCL20]] — autocrinally reinforce senescence-associated growth arrest and additionally induce paracrine proliferation arrest by binding to their specific receptors on receiving cells.
+In [[Oncogene-Induced Senescence|OIS]] cells, SASP components — including [[IL-1α]], [[TGFβ]], [[VEGF]], [[CCL2]], and [[CCL20]] — autocrinally reinforce senescence-associated growth arrest and additionally induce paracrine proliferation arrest by binding their specific receptors on receiving cells, activating secondary [[DNA Damage Response|DDR]]-independent arrest pathways.
 
-[[Notch]] signalling is essential for the establishment of paracrine senescence and weakens the SASP produced by secondary senescent cells, thereby preventing the surge of continuous senescence induction.
+[[Notch]] signalling is essential for establishing paracrine senescence and weakens the SASP produced by secondary senescent cells, thereby preventing runaway continuous senescence induction. TGF-β and IGFBP3 from the SASP reinforce arrest in neighbours via Smad and PI3K/Akt suppression.
+
+## Routes of Spread
+
+- **Soluble factors**: Cytokines/chemokines (IL-6, IL-8, CCL2), growth factors, and proteases diffuse to neighbours.
+- **Extracellular vesicles / exosomes**: Cargo including [[IFITM3]] and mitochondrial antigens transmits senescence signals; IFITM3 is enriched in exosomes from plasma of elderly individuals and is a potential ageing biomarker.
+- **Mitochondrial antigen transfer**: Senescent-cell-derived mitochondrial peptides presented by receiving cells can trigger innate immune activation and arrest.
 
 ## Beneficial Roles
 
 ### Cancer Suppression
-In cancer settings, paracrine senescence benefits the suppression of tumour growth by:
+In cancer settings, paracrine senescence benefits tumour-growth suppression by:
 - Reinforcing senescence in premalignant cells
 - Recruiting immune cells to clear senescent cells
 - Limiting expansion of pre-malignant clones
 
 ### Embryonic Development
-Senescence markers (SA-β-gal, p53, p21) are upregulated in developing forelimbs and neural tube, with [[TGFβ]] as a crucial mediator.
+Senescence markers (SA-β-gal, [[p53]], [[p21 CIP1|p21]]) are upregulated in developing forelimbs and neural tube, with [[TGFβ]] as a crucial mediator (Muñoz-Espín et al., 2013; PMID 23552068).
 
 ### Tissue Repair
-Short-term SASP exposure promotes stemness and regenerative capacity in keratinocytes. Transient senescent cell accumulation during wound healing is crucial for proper tissue repair.
+Short-term SASP exposure promotes stemness and regenerative capacity in keratinocytes. Transient senescent-cell accumulation during wound healing is crucial for proper tissue repair.
 
 ## Detrimental Roles
 
 ### Ageing
-Exosomes from senescent cells induce paracrine senescence through [[IFITM3]], which is highly expressed in exosomes from plasma of elderly individuals and is a potential ageing biomarker. Soluble SASP factors secreted by senescent bone marrow adipocytes spread senescence in bones.
+Exosomes from senescent cells induce paracrine senescence through [[IFITM3]]. Soluble SASP factors from senescent bone-marrow adipocytes spread senescence in bone, contributing to osteoporosis and [[Inflammaging]].
 
 ### Disease Propagation
-- Long-term glucocorticoid exposure induces senescence in bone marrow adipose tissue; SASP factors disperse senescence in bone, contributing to bone deterioration
-- In non-healing wounds, persistent paracrine senescence amplifies inflammation and accelerates fibrosis
+- Long-term glucocorticoid exposure induces senescence in bone-marrow adipose tissue; SASP factors disperse senescence in bone.
+- In non-healing wounds, persistent paracrine senescence amplifies inflammation and accelerates fibrosis.
 
 ### Tumour Promotion
 In established tumours, paracrine senescence from therapy-induced senescent cells can promote cancer progression through:
@@ -54,17 +61,18 @@ In established tumours, paracrine senescence from therapy-induced senescent cell
 - Recruitment of immunosuppressive myeloid cells
 
 ## Regulation
-
-- **Notch signalling**: Suppresses C/EBPβ to limit secondary SASP and prevent continuous senescence induction
-- **Senescence inducer type**: Different inducers produce SASP profiles with varying paracrine potency
-- **Cell type**: Fibroblasts produce higher SASP levels due to their secretory machinery
-- **Tissue environment**: Oxygen levels, metabolic rates, and nutrient availability modulate paracrine effects
+- **Notch signalling**: Suppresses C/EBPβ to limit secondary SASP and prevent continuous induction.
+- **Senescent inducer type**: Different inducers produce SASP profiles with varying paracrine potency.
+- **Cell type**: Fibroblasts secrete higher SASP due to their secretory machinery.
+- **Tissue environment**: Oxygen, metabolic rate, and nutrients modulate paracrine effects.
 
 ## Therapeutic Implications
-
 Reducing paracrine senescence is a key goal of both [[Senolytic Therapy|senolytics]] (removing the source cells) and [[Senomorphic Therapy|senomorphics]] (suppressing SASP production). Lifestyle interventions such as dietary restriction and exercise may reduce paracrine senescence by decreasing senescence burden.
 
-# 
+## Clinical / Pathological Relevance
+Paracrine senescence is the mechanistic bridge between a few senescent cells and widespread tissue dysfunction in ageing, fibrosis (IPF, liver, kidney), and therapy side-effects. It motivates combination strategies that both eliminate sources (senolytics) and dampen transmission (senomorphics).
+
+#
 
 ## Documents
 
@@ -74,7 +82,6 @@ List of documents that mention this entity
     - Discusses paracrine senescence mechanisms, beneficial roles in cancer suppression and tissue repair, and detrimental propagation in ageing and disease.
 
 ## Connections
-
 - [[Senescence-Associated Secretory Phenotype|SASP]] — the effector molecules driving paracrine senescence
 - [[Cellular Senescence]] — the state induced in neighbouring cells
 - [[IL-1α]] — primary SASP factor inducing paracrine senescence
@@ -87,9 +94,9 @@ List of documents that mention this entity
 - [[Senomorphic Therapy]] — suppress SASP to reduce paracrine spread
 - [[Aging]] — paracrine senescence contributes to age-related tissue dysfunction
 - [[Cancer]] — paracrine senescence has both suppressive and promoting roles
+- [[Inflammaging]] — chronic low-grade inflammation propagated by paracrine senescence
 
 ## Linking Summary
-
-- New links added: [[Paracrine Senescence]], [[IL-1α]], [[TGFβ]], [[Notch]], [[IFITM3]], [[CCL2]], [[VEGF]], [[Senolytic Therapy|Senolytics]], [[Senomorphic Therapy]]
-- Suggested new entity notes to create: [[CCL20]], [[Bystander Effect]]
-  - Strong connections to strengthen: [[Paracrine Senescence]] ↔ [[SASP]], [[Paracrine Senescence]] ↔ Cellular Senescence, [[Paracrine Senescence]] ↔ [[Aging]]
+- New links added: [[Paracrine Senescence]], [[IL-1α]], [[TGFβ]], [[Notch]], [[IFITM3]], [[CCL2]], [[VEGF]], [[Senolytic Therapy|Senolytics]], [[Senomorphic Therapy]], [[CCL20]], [[DNA Damage Response]], [[Inflammaging]], [[Idiopathic Pulmonary Fibrosis]], [[PI3K]], [[Akt]]
+- Suggested new entity notes to create: [[CCL20]], [[Bystander Effect]], [[Exosomes]]
+  - Strong connections to strengthen: [[Paracrine Senescence]] ↔ [[SASP]], [[Paracrine Senescence]] ↔ Cellular Senescence, [[Paracrine Senescence]] ↔ [[Aging]], [[Paracrine Senescence]] ↔ [[Inflammaging]]

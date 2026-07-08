@@ -1,39 +1,41 @@
 ---
 title: IFITM3
-description: Interferon-induced transmembrane protein 3, a marker in exosomes from elderly individuals that induces paracrine senescence.
+description: Interferon-induced transmembrane protein 3, an antiviral restriction factor enriched in plasma exosomes of elderly individuals that induces paracrine senescence.
 type: entity
 created: 2026-07-07
-updated: 2026-07-07
+updated: 2026-07-08
 tags:
   - protein
   - aging
   - senescence
+  - interferon
+  - exosome
+aliases: [IFITM3, Interferon-induced transmembrane protein 3]
 ---
 
 # IFITM3
 
-IFITM3 (Interferon-induced transmembrane protein 3) is a protein highly expressed in exosomes from the plasma of elderly individuals. It induces [[Paracrine Senescence|paracrine senescence]] and is a potential ageing biomarker.
+IFITM3 (Interferon-induced transmembrane protein 3) is an interferon-inducible membrane protein that restricts enveloped virus fusion. It is highly expressed in plasma exosomes from elderly individuals, where it induces [[Paracrine Senescence|paracrine senescence]] in recipient cells and serves as a potential ageing biomarker.
 
-## Mechanism of Action
+## Mechanism of Action & Signaling
 
-- IFITM3 is highly expressed in exosomes from elderly individuals
-- It induces paracrine senescence in neighboring cells
-- IFITM3 may mediate senescence through exosome transfer
-- IFITM3 is an interferon-induced antiviral protein
+IFITM3 is an endolysisosomal membrane protein (with IFITM1/2) bearing an intracellular N-terminal domain, a C-terminal cytosolic tail, and two transmembrane helices. Induced by type-I/II interferons via ISGF3/JAK–STAT, it blocks viral entry by stiffening cholesterol-rich membranes and impeding fusion. In ageing, IFITM3 is packaged into circulating exosomes/extracellular vesicles; upon uptake by neighboring cells it can trigger senescence programs — plausibly through ISG-signaling reinforcement, membrane perturbation, or transfer of senescence-associated cargo — establishing a systemic, IFN-linked senescence-spreading axis.
 
 ## Role in Aging
 
-- IFITM3 is a potential ageing biomarker
-- It is elevated in exosomes from elderly individuals
-- IFITM3 may contribute to age-related senescence burden
+IFITM3 is a candidate hallmark of the systemic senescent milieu:
 
-## Clinical Relevance
+- Elevated in exosomes from older individuals versus young.
+- Induces paracrine senescence, expanding the senescent cell burden beyond locally damaged tissue.
+- Reflects the interferon/ISG component of the SASP, linking viral-exposure history and ageing.
 
-- IFITM3 is a biomarker for biological age
-- IFITM3 may be a target for reducing age-related senescence
-- IFITM3 is implicated in viral infections and aging
+Its exosomal enrichment makes IFITM3 a non-invasive readout of senescence load and a contributor to age-related [[Inflammaging]] and tissue dysfunction.
 
-# 
+## Clinical / Pathological Relevance
+
+- IFITM3 is a biomarker of biological age and systemic senescence burden (plasma exosome assays).
+- Genetic variants (e.g., rs12252) modulate antiviral restriction and disease severity.
+- Lowering exosomal IFITM3 or blocking its paracrine effects may reduce age-related senescence; it also informs antiviral and vaccine responses in older adults.
 
 ## Documents
 
@@ -43,8 +45,10 @@ IFITM3 (Interferon-induced transmembrane protein 3) is a protein highly expresse
 
 - [[Paracrine Senescence|paracrine senescence]]: IFITM3 induces paracrine senescence
 - [[Senescence-Associated Secretory Phenotype|SASP]]: IFITM3 is elevated in SASP-associated exosomes
+- [[Inflammaging]]: systemic senescence contributor
+- [[ISG15]]: co-induced interferon program
 
 ## Linking Summary
 
-- New links added: [[Paracrine Senescence|paracrine senescence]], [[Senescence-Associated Secretory Phenotype|SASP]]
+- New links added: [[Paracrine Senescence|paracrine senescence]], [[Senescence-Associated Secretory Phenotype|SASP]], [[Inflammaging]], [[ISG15]]
   - Strong connections to strengthen: [[IFITM3]] ↔ ageing biomarker, [[IFITM3]] ↔ paracrine senescence
