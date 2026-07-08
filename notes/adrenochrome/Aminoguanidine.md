@@ -4,10 +4,12 @@ description: Aminoguanidine is a chemical compound with the formula $CH_6N_4$. I
   is used as a reagent to stabilize Adrenochrome by forming Adrenochrome monoaminoguanidine.
 type: entity
 created: 2026-07-04
-updated: 2026-07-07
+updated: 2026-07-08
 tags:
   - chemical-compound
-aliases: []
+  - glycation
+aliases:
+  - Pimagedine
 ---
 # Aminoguanidine
 
@@ -35,6 +37,9 @@ List of documents that mention this entity
   - [[_document_ -  (protocol) GOPS - glyco-oxidative proteostasis|GOPS Protocol]]
     - Aminoguanidine moiety of the hybrid molecule provides AGE inhibition and carbonyl trapping in the glyco-oxidative proteostasis shield strategy.
 
+  - [[_document_ - Aminoguanidine An AGE Product Inhibitor  Antiaging Systems Articles|Aminoguanidine: An AGE Product Inhibitor]]
+    - A review of aminoguanidine (Pimagedine) as the first AGE inhibitor, detailing its prevention of age-related cardiac enlargement, arterial stiffening, and diabetic complications (albuminuria, survival) via carbonyl trapping and cross-link inhibition.
+
 
 ## Connections
 - [[Adrenochrome]]: Stabilized by aminoguanidine to form [[Adrenochrome monoaminoguanidine]].
@@ -42,7 +47,14 @@ List of documents that mention this entity
 - [[Hemostatics]]: The resulting derivative is used as a hemostatic.
 - [[Advanced Glycation End Products]]: Inhibited by aminoguanidine.
 - [[Glycation]]: Prevented by its action as a carbonyl trap.
+- [[Cross-linking]]: Aminoguanidine prevents AGE-induced protein cross-linking of the extracellular matrix.
+- [[Very Low Density Lipoprotein]]: Aminoguanidine reduced VLDL adhesion to vessel walls in animal models.
+- [[Albuminuria]]: Reduced by aminoguanidine in diabetic clinical trials.
+- [[Acetyl-L-Carnitine]]: Cited alongside aminoguanidine as a cross-link-preventing agent.
+- [[Alagebrium]]: ALT-711, a thiazolium cross-link "breaker" developed by the same sponsor as Pimagedine.
+- [[Carnosine]]: A fellow glycation/cross-link inhibitor mentioned with aminoguanidine.
+- [[Atherosclerosis]]: Aminoguanidine improved blood flow in peripheral vascular disease.
 
 ## Linking Summary
-- New links added: [[Advanced Glycation End Products]], [[Glycation]]
-- Strong connections to strengthen: [[Aminoguanidine]] ↔ [[Advanced Glycation End Products]]
+- New links added: [[Advanced Glycation End Products]], [[Glycation]], [[Cross-linking]], [[Very Low Density Lipoprotein]], [[Albuminuria]], [[Acetyl-L-Carnitine]], [[Alagebrium]], [[Carnosine]], [[Atherosclerosis]]
+- Strong connections to strengthen: [[Aminoguanidine]] ↔ [[Advanced Glycation End Products]], [[Aminoguanidine]] ↔ [[Cross-linking]]

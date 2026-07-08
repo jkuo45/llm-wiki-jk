@@ -4,7 +4,7 @@ description: Glycation is a spontaneous non-enzymatic reaction of free reducing 
   with free amino groups of proteins, DNA, and lipids.
 type: entity
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-07-08
 tags:
   - chemical-process
 aliases: []
@@ -41,6 +41,11 @@ AGEs accumulate progressively in long-lived proteins, including [[Collagen]], [[
 ## Updated Links
 
 - Additional new links: [[Lysine]], [[Glucose]], [[Fructose]], [[Ribose]], [[Schiff base]], [[Amadori rearrangement]], [[3-deoxyglucosone]], [[Glyoxal]], [[Methylglyoxal]], [[Nε-carboxymethyllysine]], [[Pentosidine]], [[Crossline]], [[Collagen]], [[Elastin]], [[Lens crystallins]], [[Myelin]], [[Cataract]], [[RAGE]], [[NFκB]], [[Inflammaging]], [[Alagebrium]]
+
+## Documents
+
+- [[_document_ - Aminoguanidine An AGE Product Inhibitor  Antiaging Systems Articles|Aminoguanidine: An AGE Product Inhibitor]]
+  - Popular review framing glycation-driven protein cross-linking as a central aging mechanism and describing aminoguanidine as a carbonyl-trapping glycation inhibitor.
 
 ## Connections
 
