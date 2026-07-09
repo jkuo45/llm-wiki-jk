@@ -13,18 +13,18 @@
   - Contains documents that have not yet been ingested into `notes/`. These are waiting to be processed through the Document Ingestion Workflow.
 - `tasks` directory:
   - Contains task outputs. Default to saving task outputs to this directory.
-- **Heading and sub-heading enumerations**: Use plain descriptive names only (e.g., `### Composition`, `### Mechanism of Action`).
+- **Heading and sub-heading enumeration**: Use plain descriptive names only (e.g., `### Composition`, `### Mechanism of Action`).
 
 ## Document Ingestion Workflow:
 
 **Prerequisites:** Documents with `_document_` prefix.
 
-| Step                          | Action                                                                                                                                                                                                                                                                                                                                       | Output                                                 |
-| ----------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
-| **1. Ingest**                 | **Use `obsidian-markdown` skill** — read the raw document, convert to Obsidian-flavored markdown. Add frontmatter (`type: document`), callouts for key insights, and **mark up all biomedical entities with `[[wiki links]]`** (see Wiki Link Markup Checklist below). Overwrite the `raw/_document_` file in place with the linked version. | Linked markdown file overwriting the raw `_document_`. |
-| **2. Enrich/Create Entities** | Create `.md` in topic dir with OKF frontmatter, wiki links. Make sure to add the following sections: `Documents`, `Connections`, `Linking Summary`. <br>For existing entities: append/merge new content, adapt based on context, update `updated:` date.                                                                                     | New/updated entity notes / enriched existing notes     |
-| **3. Review Stubs & Orphans** | Cross-reference all entities against existing notes (all topics + `_link/`). For stubs: create entity notes for high-frequency/well-defined concepts; normalize composites to canonical entities. Apply Orphan Link Resolution (scan & normalize, resolve true orphans).                                                                     | Resolved stubs, normalized triples                     |
-| **4. Update README**          | Update README.md in that topic.                                                                                                                                                                                                                                                                                                              | Updated README with new entities.                      |
+| Step                          | Action                                                                                                                                                                                                                                                                                                                                                                                                          | Output                                              |
+| ----------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- |
+| **1. Ingest**                 | **Use `obsidian-markdown` skill** — read the raw document, convert to Obsidian-flavored markdown. Add frontmatter (`type: document`), callouts for key insights, and **mark up all biomedical entities with `[[wiki links]]`** (see Wiki Link Markup Checklist below). Overwrite the `raw/_document_` file in place with the linked version. Make sure to keep all original content with supplemental callouts. | Linked markdown file  overwriting the `_document_`. |
+| **2. Enrich/Create Entities** | **Existing entities:** Enrich with information that is document specific. Update `Documents`, `Connections`, `Linking Summary`. <br><br>**New entities:** Create `.md` in topic dir with OKF frontmatter, wiki links. Make sure to add the following sections: `Documents`, `Connections`, `Linking Summary`. <br><br>Both: update date properties in frontmatter.                                              | New/updated entity notes / enriched existing notes  |
+| **3. Review Stubs & Orphans** | Cross-reference all entities against existing notes (all topics + `_link/`). For stubs: create entity notes for high-frequency/well-defined concepts; normalize composites to canonical entities. Apply Orphan Link Resolution (scan & normalize, resolve true orphans).                                                                                                                                        | Resolved stubs, updated links between entities.     |
+| **4. Update README**          | Update README.md in that topic.                                                                                                                                                                                                                                                                                                                                                                                 | Updated README with new entities.                   |
 
 ### Wiki Link Markup Checklist (Step 1)
 
@@ -41,12 +41,13 @@ When marking up wiki links in the ingested document, apply these rules systemati
 - **Use display text when helpful** — `[[Retinoblastoma Protein|Rb]]` keeps readability while linking to the correct note.
 - **Callout key insights** — use `> [!info]`, `> [!tip]`, `> [!important]`, `> [!warning]` to highlight mechanistic details, clinical significance, and key experimental findings.
 - Add dedicated `Documents`,`Connections`, and `Linking Summary` sections listing important bidirectional connections with brief explanations.
-- **Maintain consistency** — only use enumerated headings only if it makes sense (chronological, scale, etc.); otherwise prefer bulleted outline points. Caution when using backslash and pipes in entity note title names, as they may clash with markdown table formats.
+- **Outline format style** — only use enumerated headings only if it makes sense (chronological, scale, etc.); otherwise prefer bulleted outline points. Caution when using backslash and pipes in entity note title names, as they may clash with markdown table formats.
+- **Maintain content consistency** - Ensure that all original content is intact (with wiki links).
 
 > [!note] Reference
 > General wiki link syntax and formatting rules are defined in [[#Linking Format]] below. The checklist above consolidates all linking rules for the ingestion workflow — steps 3–5 should follow the same conventions.
 
-### Enrich/Create entity files (Step 3)
+### Enrich/Create entity (wiki) files (Step 2)
 
 - **Modification:** When modifying existing notes, preserve existing content, but reorganize or rewrite when necessary to improve coherence, accuracy, and flow. Prioritize accuracy and contextual relevance over strict preservation. Always update the `updated:` date in frontmatter.
 - **Content:** Adapt depth, focus, and tone according to the entity type and available scientific literature. For well-studied topics, synthesize multiple high-impact articles, reviews, and meta-analyses. Prioritize recent, high-quality papers (include key PMIDs/DOIs) and clearly distinguish established knowledge from emerging findings.
@@ -121,8 +122,8 @@ tags: [] # Populate with relevant entity_type_1, biomedical tags
 
 ### Output Format (Step 2)
 
-For documents return the FULL updated Markdown content with all new [[links]] inserted.
-For entity notes at the very end, add a section:
+For ingested documents return the FULL updated Markdown content with all new [[links]] inserted.
+For wiki entity notes, add a section as the end:
 
 ```
 
