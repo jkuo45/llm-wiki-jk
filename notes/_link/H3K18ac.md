@@ -2,8 +2,8 @@
 title: H3K18ac
 description: Acetylation of histone H3 at lysine 18, an enhancer/promoter acetyl mark enriched at senescence-activated super-enhancers that helps drive SASP expression.
 type: entity
-created: 2025-07-09
-updated: 2025-07-09
+created: 2026-07-09
+updated: 2026-07-09
 tags:
   - scientific-concept
   - histone-modification

@@ -2,8 +2,8 @@
 title: KAP1
 description: KRAB-associated protein 1 (TRIM28/TIF1β), a transcriptional corepressor mono-ADP-ribosylated by SIRT6 to silence LINE-1 retrotransposons via HP1α in aging and senescence.
 type: entity
-created: 2025-07-09
-updated: 2025-07-09
+created: 2026-07-09
+updated: 2026-07-09
 tags:
   - protein
   - corepressor

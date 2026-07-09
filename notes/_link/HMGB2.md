@@ -2,8 +2,8 @@
 title: HMGB2
 description: High-mobility-group-box chromatin architectural protein that is depleted upon senescence entry and that protects SASP gene loci from repressive heterochromatinization in oncogene-induced senescence.
 type: entity
-created: 2025-07-09
-updated: 2025-07-09
+created: 2026-07-09
+updated: 2026-07-09
 tags:
   - protein
   - chromatin-architecture

@@ -2,8 +2,8 @@
 title: Enhancer-Promoter Looping
 description: Physical chromatin contacts that bring enhancers into proximity with gene promoters, rewired in senescence to drive SASP gene transcription within TADs.
 type: entity
-created: 2025-07-09
-updated: 2025-07-09
+created: 2026-07-09
+updated: 2026-07-09
 tags:
   - scientific-concept
   - 3d-genome

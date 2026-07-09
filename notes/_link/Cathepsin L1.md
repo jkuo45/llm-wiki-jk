@@ -2,8 +2,8 @@
 title: Cathepsin L1
 description: Lysosomal cysteine protease (CTSL) that cleaves the N-terminal tail of histone H3.3, generating the senescence-associated H3.3cs1 fragment linked to SASP and growth arrest.
 type: entity
-created: 2025-07-09
-updated: 2025-07-09
+created: 2026-07-09
+updated: 2026-07-09
 tags:
   - enzyme
   - protease

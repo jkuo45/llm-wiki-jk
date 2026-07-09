@@ -2,8 +2,8 @@
 title: Topologically Associating Domain
 description: Megabase-scale chromosomal domain within which DNA sequences contact each other more frequently than with outside sequences, organizing enhancer-promoter interactions that regulate SASP in senescence.
 type: entity
-created: 2025-07-09
-updated: 2025-07-09
+created: 2026-07-09
+updated: 2026-07-09
 tags:
   - scientific-concept
   - 3d-genome

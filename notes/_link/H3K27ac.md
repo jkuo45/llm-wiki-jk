@@ -2,8 +2,8 @@
 title: H3K27ac
 description: Acetylation of histone H3 at lysine 27, a hallmark active-enhancer mark that is remodeled at TAD scale in senescence and recruits BRD4/CEBPα to drive SASP.
 type: entity
-created: 2025-07-09
-updated: 2025-07-09
+created: 2026-07-09
+updated: 2026-07-09
 tags:
   - scientific-concept
   - histone-modification

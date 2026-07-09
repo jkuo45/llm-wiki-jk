@@ -2,8 +2,8 @@
 title: H3K4me1
 description: Monomethylation of histone H3 at lysine 4, a mark of active and primed enhancers that is enriched at senescence-activated enhancers and super-enhancers driving SASP.
 type: entity
-created: 2025-07-09
-updated: 2025-07-09
+created: 2026-07-09
+updated: 2026-07-09
 tags:
   - scientific-concept
   - histone-modification

@@ -2,8 +2,8 @@
 title: NPAT
 description: Nuclear protein, ataxia-telangiectasia locus (NPAT), a transcription factor coordinating replication-dependent histone gene expression that declines with the histone-biosynthesis drop in senescence.
 type: entity
-created: 2025-07-09
-updated: 2025-07-09
+created: 2026-07-09
+updated: 2026-07-09
 tags:
   - protein
   - transcription-factor

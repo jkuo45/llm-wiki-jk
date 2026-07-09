@@ -2,8 +2,8 @@
 title: DOT1L
 description: Disruptor of telomeric silencing 1-like (KMT4), the sole H3K79 methyltransferase whose inhibition suppresses SASP without releasing the senescence arrest.
 type: entity
-created: 2025-07-09
-updated: 2025-07-09
+created: 2026-07-09
+updated: 2026-07-09
 tags:
   - enzyme
   - epigenetics

@@ -2,8 +2,8 @@
 title: Human Endogenous Retrovirus
 description: HERV, ancient retroviral sequences constituting ~8% of the human genome that are derepressed in senescence by DNA demethylation and heterochromatin decompaction, driving SASP and paracrine senescence spread.
 type: entity
-created: 2025-07-09
-updated: 2025-07-09
+created: 2026-07-09
+updated: 2026-07-09
 tags:
   - virus
   - retrotransposon

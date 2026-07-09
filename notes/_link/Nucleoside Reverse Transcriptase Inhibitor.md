@@ -2,8 +2,8 @@
 title: Nucleoside Reverse Transcriptase Inhibitor
 description: NRTI, a class of antiretroviral drugs that inhibit retroviral reverse transcriptase and are repurposed to suppress LINE-1/HERV-driven inflammaging and SASP in senescence.
 type: entity
-created: 2025-07-09
-updated: 2025-07-09
+created: 2026-07-09
+updated: 2026-07-09
 tags:
   - chemical-compound
   - antiretroviral

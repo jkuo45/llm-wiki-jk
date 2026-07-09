@@ -2,8 +2,8 @@
 title: HMGA1
 description: High-mobility-group AT-hook chromatin architectural protein, downregulated during senescence, that contributes to heterochromatin formation and the senescence-associated growth arrest.
 type: entity
-created: 2025-07-09
-updated: 2025-07-09
+created: 2026-07-09
+updated: 2026-07-09
 tags:
   - protein
   - chromatin-architecture

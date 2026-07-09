@@ -2,8 +2,8 @@
 title: macroH2A
 description: H2A histone variant that accumulates in senescent and aged cells, stabilizing SAHF, reinforcing proliferation arrest, and helping time SASP expression.
 type: entity
-created: 2025-07-09
-updated: 2025-07-09
+created: 2026-07-09
+updated: 2026-07-09
 tags:
   - protein
   - histone-variant

@@ -2,8 +2,8 @@
 title: H4K5ac
 description: Acetylation of histone H4 at lysine 5, an early acetyl mark associated with active enhancers and promoters, enriched at senescence-activated super-enhancers driving SASP.
 type: entity
-created: 2025-07-09
-updated: 2025-07-09
+created: 2026-07-09
+updated: 2026-07-09
 tags:
   - scientific-concept
   - histone-modification

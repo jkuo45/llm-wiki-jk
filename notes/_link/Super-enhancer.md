@@ -2,8 +2,8 @@
 title: Super-enhancer
 description: Large clusters of enhancers that drive high transcription of cell-identity and senescence genes; senescence-activated super-enhancers are enriched in H3K27ac and acetyl marks and direct SASP expression.
 type: entity
-created: 2025-07-09
-updated: 2025-07-09
+created: 2026-07-09
+updated: 2026-07-09
 tags:
   - scientific-concept
   - gene-regulation

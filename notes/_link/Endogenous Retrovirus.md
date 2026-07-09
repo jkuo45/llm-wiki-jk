@@ -2,8 +2,8 @@
 title: Endogenous Retrovirus
 description: Endogenous retroviruses (ERVs), germline-integrated retroviral relics that are epigenetically silenced in youth and derepressed in senescence and aging to drive innate immune inflammation.
 type: entity
-created: 2025-07-09
-updated: 2025-07-09
+created: 2026-07-09
+updated: 2026-07-09
 tags:
   - virus
   - retrotransposon
