@@ -46,7 +46,7 @@ mTOR signaling is a key determinant of SASP magnitude:
 
 ### Redox-Sensitive Transcription Factors
 
-Given that chronic [[Oxidative Stress]] is both a cause and a consequence of cellular senescence, senomorphics targeting [[Redox homeostasis]] are of particular interest:
+Given that chronic [[Oxidative Stress]] is both a cause and a consequence of cellular senescence, senomorphics targeting [[Redox Homeostasis]] are of particular interest:
 - **[[NRF2]] activators**: [[Sulforaphane]], [[Curcumin]], and [[Dimethyl fumarate]] upregulate antioxidant defenses that counteract the pro-oxidant environment of senescent cells.
 - **[[HIF-1α]] modulation**: Senescent cells exhibit [[HIF-1α]] stabilization, which drives SASP factor secretion; the HIF inhibitor [[Acriflavine]] exhibits senomorphic properties.
 - **[[Redox Cycling]] compounds**: Controlled low-level [[Redox Cycling]] by [[Carbazochrome]] and related [[Aminochromes]] may suppress SASP by preconditioning the [[NRF2]]/ARE pathway and maintaining redox balance within a hormetic range.
@@ -77,6 +77,6 @@ Senomorphics hold promise across multiple age-related pathologies:
 The [[SASP-Remodeling Aminochrome Complex]] (SRAC) represents a separate but related approach: whereas senomorphics suppress SASP from existing senescent cells, SRAC compounds are designed to remodel the extracellular proteome to reduce SASP-mediated matrix degradation and inflammation.
 
 ## Linking Summary
-- New links added: [[Senescence]], [[Inflammation]], [[Aminochromes]], [[Senolytics]], [[NFκB]], [[IKK complex]], [[mTORC1]], [[p65]], [[SIRT1]], [[Resveratrol]], [[p38 MAPK]], [[MK2]], [[SB203580]], [[Rapamycin]], [[IL-1α]], [[Metformin]], [[AMPK]], [[NRF2]], [[Sulforaphane]], [[Curcumin]], [[Dimethyl fumarate]], [[HIF-1α]], [[Acriflavine]], [[Carbazochrome]], [[Fisetin]], [[Apigenin]], [[STAT3]], [[Urolithin A]], [[Glucosamine]], [[Endothelial cells]], [[Foam Cells]], [[Chondrocytes]], [[MMP]], [[Astrocytes]], [[Microglia]], [[Lungs]], [[SASP-Remodeling Aminochrome Complex]], [[Redox Cycling]], [[Oxidative Stress]], [[Redox homeostasis]], [[Osteoarthritis]], [[Idiopathic Pulmonary Fibrosis]], [[Chronic Kidney Disease]]
+- New links added: [[Senescence]], [[Inflammation]], [[Aminochromes]], [[Senolytics]], [[NFκB]], [[IKK complex]], [[mTORC1]], [[p65]], [[SIRT1]], [[Resveratrol]], [[p38 MAPK]], [[MK2]], [[SB203580]], [[Rapamycin]], [[IL-1α]], [[Metformin]], [[AMPK]], [[NRF2]], [[Sulforaphane]], [[Curcumin]], [[Dimethyl fumarate]], [[HIF-1α]], [[Acriflavine]], [[Carbazochrome]], [[Fisetin]], [[Apigenin]], [[STAT3]], [[Urolithin A]], [[Glucosamine]], [[Endothelial cells]], [[Foam Cells]], [[Chondrocytes]], [[MMP]], [[Astrocytes]], [[Microglia]], [[Lungs]], [[SASP-Remodeling Aminochrome Complex]], [[Redox Cycling]], [[Oxidative Stress]], [[Redox Homeostasis]], [[Osteoarthritis]], [[Idiopathic Pulmonary Fibrosis]], [[Chronic Kidney Disease]]
 - Suggested new entity notes to create: [[Senostatic]], [[Senosuppression]]
 - Strong connections to strengthen: [[Senomorphics]] ↔ [[Senolytics]], [[Senomorphics]] ↔ [[SASP-Remodeling Aminochrome Complex]]
