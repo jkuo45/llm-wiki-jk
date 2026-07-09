@@ -1,7 +1,6 @@
 ---
 title: USP9X
 description: Ubiquitin specific peptidase 9 X-linked (USP9X) is a deubiquitinating enzyme that stabilizes Mcl-1 and other substrates by removing polyubiquitin chains.
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:

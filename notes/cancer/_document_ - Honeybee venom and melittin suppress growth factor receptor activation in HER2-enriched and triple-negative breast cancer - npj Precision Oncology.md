@@ -15,7 +15,6 @@ description: Despite decades of study, the molecular mechanisms and selectivity 
   in an allograft model. Our work unveils a molecular mechanism underpinning the anticancer
   selectivity of melittin, and outlines treatment strategies to target aggressive
   breast cancers.
-type: document
 published: 2020-08-31
 created: 2026-05-19
 source: https://www.nature.com/articles/s41698-020-00129-0

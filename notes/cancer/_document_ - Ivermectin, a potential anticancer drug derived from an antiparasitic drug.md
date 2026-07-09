@@ -4,7 +4,6 @@ description: Ivermectin has powerful antitumor effects, including the inhibition
   proliferation, metastasis, and angiogenic activity, in a variety of cancer cells.
   This may be related to the regulation of multiple signaling pathways by ivermectin
   through PAK1 ...
-type: document
 created: 2026-05-19
 source: https://pmc.ncbi.nlm.nih.gov/articles/PMC7505114/
 author:

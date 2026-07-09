@@ -3,7 +3,6 @@ title: NMRK2
 description: NMRK2 (Nicotinamide riboside kinase 2), also known as NRK2, is an enzyme
   predominantly expressed in cardiac and skeletal muscle that converts Nicotinamide
   riboside (NR) to Nicotinamide mononucleoti...
-type: entity
 created: 2024-01-01
 updated: 2024-01-01
 tags:

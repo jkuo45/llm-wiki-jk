@@ -3,7 +3,6 @@ title: MAP4K3
 description: Mitogen-activating protein kinase kinase kinase kinase-3 (MAP4K3) is
   a kinase that phosphorylates TFEB at S3, a modification necessary for subsequent
   phosphorylation by mTORC1.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:

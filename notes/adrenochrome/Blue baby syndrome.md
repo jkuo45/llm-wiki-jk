@@ -1,7 +1,6 @@
 ---
 title: Blue baby syndrome
 description: '- Methemoglobinemia: The underlying condition in blue baby syndrome.'
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

@@ -1,7 +1,6 @@
 ---
 title: Neutral Red
 description: Neutral Red is a phenazine (sulfur-to-nitrogen substituted) methylene blue analog; it enhances cellular oxygen consumption but lacks alternative electron-transfer function and shows weak neuroprotection.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

@@ -4,7 +4,6 @@ description: The senescence-associated secretory phenotype (SASP) is a complex
   mixture of cytokines, chemokines, growth factors, matrix metalloproteinases, bioactive
   lipids, extracellular vesicles, and non-coding nucleic acids secreted by senescent
   cells, mediating paracrine and systemic effects on the tissue microenvironment.
-type: entity
 created: 2024-01-01
 updated: 2026-07-07
 tags:

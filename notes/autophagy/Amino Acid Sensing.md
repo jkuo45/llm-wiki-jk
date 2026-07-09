@@ -3,7 +3,6 @@ title: Amino Acid Sensing
 description: Amino acid sensing is the cellular detection of nutrient availability;
   high amino acid levels trigger the Ragulator and Rag GTPases to recruit mTORC1 to
   the lysosome, where it inhibits TFEB.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

@@ -3,7 +3,6 @@ title: Cytosol
 description: The cytosol is the aqueous intracellular fluid that fills the cytoplasmic
   compartment of Eukaryotic Cells, excluding the contents of membrane-bound organelles
   such as the Nucleus, Mitochondria,...
-type: entity
 created: 2026-07-04
 updated: 2026-07-06
 tags:

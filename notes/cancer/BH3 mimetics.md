@@ -1,7 +1,6 @@
 ---
 title: BH3 mimetics
-description: 'BH3 mimetics are small-molecule inhibitors (e.g., ABT-737, navitoclax, venetoclax) that mimic BH3-only proteins to displace pro-apoptotic effectors from anti-apoptotic Bcl-2 family proteins, inducing Apoptosis.'
-type: entity
+description: BH3 mimetics are small-molecule inhibitors (e.g., ABT-737, navitoclax, venetoclax) that mimic BH3-only proteins to displace pro-apoptotic effectors from anti-apoptotic Bcl-2 family proteins, inducing Apoptosis.
 created: 2026-07-06
 updated: 2026-07-07
 tags:

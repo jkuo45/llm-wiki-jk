@@ -1,7 +1,6 @@
 ---
 title: Oncosis
 description: A form of accidental cell death characterized by cell swelling, increased membrane permeability, and eventual lysis, often associated with ischemia and extreme metabolic stress.
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:

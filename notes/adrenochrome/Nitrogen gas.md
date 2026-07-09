@@ -1,8 +1,7 @@
 ---
 title: Nitrogen gas
-description: 'Nitrogen gas (N₂) is an inert gas commonly used in laboratory and
-  industrial settings.'
-type: entity
+description: Nitrogen gas (N₂) is an inert gas commonly used in laboratory and
+  industrial settings.
 created: 2026-07-04
 updated: 2026-07-04
 tags:

@@ -1,7 +1,6 @@
 ---
 title: DYRK1A
 description: DYRK1A (dual-specificity tyrosine-regulated kinase 1A) is a constitutively active kinase that phosphorylates Caspase-9 at an inhibitory site under hyperosmotic stress, suppressing apoptosis and promoting tumor cell survival.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

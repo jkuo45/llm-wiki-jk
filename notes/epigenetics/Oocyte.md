@@ -1,7 +1,6 @@
 ---
 title: Oocyte
 description: The Oocyte is the female gamete that arrests in prophase I for decades and serves as the cytoplasm source for nuclear transfer and reprogramming.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:

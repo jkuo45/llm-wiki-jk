@@ -1,7 +1,6 @@
 ---
 title: TXNIP
 description: TXNIP (Thioredoxin-interacting protein) is a redox-sensitive negative regulator of the Thioredoxin system that links Oxidative Stress to NLRP3 inflammasome activation, IL-1β maturation, and metabolic dysfunction.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:

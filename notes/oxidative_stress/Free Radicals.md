@@ -1,7 +1,6 @@
 ---
 title: Free Radicals
 description: Free radicals are atoms, molecules, or ions that have at least one unpaired valence electron. This unpaired electron makes them highly chemically reactive toward other substances, initiating chain reactions such as Lipid Peroxidation.
-type: entity
 created: 2026-05-09
 updated: 2026-07-07
 tags:

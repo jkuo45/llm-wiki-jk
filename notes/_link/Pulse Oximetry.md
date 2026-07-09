@@ -2,7 +2,6 @@
 title: Pulse Oximetry
 description: Pulse oximetry is non-invasive estimation of oxygen
   saturation; methylene blue artifactually underestimates it.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

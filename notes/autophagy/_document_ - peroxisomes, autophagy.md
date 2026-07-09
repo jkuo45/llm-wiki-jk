@@ -2,7 +2,6 @@
 title: Peroxisomes Explained
 description: Overview of peroxisome structure, function, biogenesis, and relation
   to autophagy
-type: document
 created: 2026-07-06
 aliases: []
 ---

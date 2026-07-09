@@ -1,7 +1,6 @@
 ---
 title: ACE Inhibitors
 description: A class of antihypertensive drugs that block angiotensin-converting enzyme; discussed as conventional agents with anti-aging potential via prevention of multiple age-related diseases.
-type: entity
 created: 2026-07-07
 updated: 2026-07-07
 tags:

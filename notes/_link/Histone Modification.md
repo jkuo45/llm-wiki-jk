@@ -1,9 +1,8 @@
 ---
 title: Histone Modification
-description: 'Histone Modification refers to the various post-translational modifications
+description: Histone Modification refers to the various post-translational modifications
   (PTMs) that occur on the ''tails'' of histone proteins. These modifications are
-  a central part of the Epigenetics, dict...'
-type: entity
+  a central part of the Epigenetics, dict...
 created: 2024-01-01
 updated: 2024-01-01
 tags:

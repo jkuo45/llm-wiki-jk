@@ -1,7 +1,6 @@
 ---
 title: Oblimersen sodium
 description: Oblimersen sodium (Genasense) is a Bcl-2-targeting antisense phosphorothioate oligonucleotide that lowers Bcl-2 to sensitize tumors to chemotherapy; first Bcl-2-targeted agent in trials.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

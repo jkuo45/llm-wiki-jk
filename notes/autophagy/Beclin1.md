@@ -1,9 +1,8 @@
 ---
 title: Beclin1
-description: 'Beclin1 (also known as Atg6 and BECN1) is a key regulatory
+description: Beclin1 (also known as Atg6 and BECN1) is a key regulatory
   protein in the initiation and regulation of Autophagy. It functions as a molecular
-  scaffold that assembles the class III PI3K ...'
-type: entity
+  scaffold that assembles the class III PI3K ...
 created: 2026-07-04
 updated: 2026-07-05
 tags:

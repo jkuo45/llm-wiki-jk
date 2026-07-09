@@ -1,7 +1,6 @@
 ---
 title: Glucocorticoids
 description: Steroid hormones that block pro-inflammatory SASP by impairing IL-1α-mediated NF-κB activity via the glucocorticoid receptor.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

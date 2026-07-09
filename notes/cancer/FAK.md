@@ -1,7 +1,6 @@
 ---
 title: FAK
 description: Focal Adhesion Kinase (FAK) is a cytoplasmic tyrosine kinase that plays a key role in Integrins-mediated signal transduction, regulating cell survival, proliferation, and migration.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

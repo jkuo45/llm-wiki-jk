@@ -1,7 +1,6 @@
 ---
 title: let-7 microRNA
 description: An evolutionary conserved family of tumor-suppressive microRNAs that promote differentiation and limit self-renewal by repressing oncogenic targets.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:

@@ -1,12 +1,12 @@
 ---
-title: "Creatine in Health and Disease"
-source: "https://pmc.ncbi.nlm.nih.gov/articles/PMC7910963/#sec7-nutrients-13-00447"
+title: Creatine in Health and Disease
+source: https://pmc.ncbi.nlm.nih.gov/articles/PMC7910963/#sec7-nutrients-13-00447
 author:
   - "[[Richard B Kreider]]"
   - "[[Jeffery R Stout]]"
 published:
 created: 2026-06-26
-description: "Although creatine has been mostly studied as an ergogenic aid for exercise, training, and sport, several health and potential therapeutic benefits have been reported. This is because creatine plays a critical role in cellular metabolism, ..."
+description: Although creatine has been mostly studied as an ergogenic aid for exercise, training, and sport, several health and potential therapeutic benefits have been reported. This is because creatine plays a critical role in cellular metabolism, ...
 tags:
   - "clippings"
 ---

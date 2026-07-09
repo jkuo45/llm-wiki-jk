@@ -3,7 +3,6 @@ title: Methylation Cycle
 description: The methylation cycle (also known as the one-carbon metabolism cycle)
   is a biochemical pathway that transfers methyl groups for DNA Methylation, Epigenetic
   regulation, neurotransmitter synthesis, a...
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:

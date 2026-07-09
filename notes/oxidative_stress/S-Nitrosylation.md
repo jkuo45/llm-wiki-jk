@@ -1,9 +1,8 @@
 ---
 title: S-Nitrosylation
-description: 'S-Nitrosylation is a reversible post-translational modification
+description: S-Nitrosylation is a reversible post-translational modification
   of cysteine thiols by Nitric Oxide (NO), forming S-nitrosothiols (SNOs). It is the
-  prototypical mechanism of NO-based redox signa...'
-type: entity
+  prototypical mechanism of NO-based redox signa...
 created: 2026-07-04
 updated: 2026-07-04
 tags:

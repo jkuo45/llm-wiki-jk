@@ -3,7 +3,6 @@ title: Nanog
 description: In Cellular Reprogramming, Nanog is a "late" marker of pluripotency and
   a core hub of the Oct4-Sox2-Nanog feedback network essential for stabilizing the
   pluripotent state.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:

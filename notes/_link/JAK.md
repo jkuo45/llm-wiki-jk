@@ -1,7 +1,6 @@
 ---
 title: JAK
 description: Janus kinase is a family of intracellular tyrosine kinases that transduce cytokine signals.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

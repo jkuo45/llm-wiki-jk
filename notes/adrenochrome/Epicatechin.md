@@ -2,7 +2,6 @@
 title: Epicatechin
 description: Epicatechin is a polyphenolic flavonoid found in various plants, such
   as green tea and cocoa, known for its antioxidant and therapeutic properties.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

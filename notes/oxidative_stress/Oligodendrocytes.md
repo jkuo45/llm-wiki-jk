@@ -1,7 +1,6 @@
 ---
 title: Oligodendrocytes
 description: Oligodendrocytes are the myelinating glial cells of the central nervous system, responsible for the myelin sheath enabling saltatory conduction. They are exceptionally vulnerable to Oxidative Stress due to high iron content, low glutathione, and lipid-rich membranes.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:

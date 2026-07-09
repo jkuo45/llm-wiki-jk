@@ -1,9 +1,8 @@
 ---
 title: Lox-1
-description: 'Lox-1 (Lectin-like Oxidized LDL Receptor 1, encoded by OLR1) is
+description: Lox-1 (Lectin-like Oxidized LDL Receptor 1, encoded by OLR1) is
   a scavenger receptor expressed on endothelial cells, smooth muscle cells, and macrophages.
-  It binds, internalizes, and mediates...'
-type: entity
+  It binds, internalizes, and mediates...
 created: 2026-07-04
 updated: 2026-07-07
 tags:

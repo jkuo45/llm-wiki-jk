@@ -1,8 +1,7 @@
 ---
 title: Microautophagy
-description: 'Microautophagy is a type of Autophagy characterized by the direct
-  engulfment of cytoplasmic components by the Lysosome or vacuolar membrane.'
-type: entity
+description: Microautophagy is a type of Autophagy characterized by the direct
+  engulfment of cytoplasmic components by the Lysosome or vacuolar membrane.
 created: 2026-07-04
 updated: 2026-07-04
 tags:

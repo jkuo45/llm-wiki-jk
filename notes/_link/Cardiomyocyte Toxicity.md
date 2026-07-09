@@ -1,9 +1,8 @@
 ---
 title: Cardiomyocyte Toxicity
-description: 'Cardiomyocyte toxicity (cardiotoxicity) refers to damage or dysfunction
+description: Cardiomyocyte toxicity (cardiotoxicity) refers to damage or dysfunction
   of Cardiomyocyte caused by drugs, environmental toxins, or disease states. It is
-  a major dose-limiting Adverse Effect of ...'
-type: entity
+  a major dose-limiting Adverse Effect of ...
 created: 2026-07-04
 updated: 2026-07-06
 tags:

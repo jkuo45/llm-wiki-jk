@@ -1,9 +1,8 @@
 ---
 title: BRCA1
-description: 'BRCA1 (Breast Cancer Gene 1) is a critical tumour suppressor protein
+description: BRCA1 (Breast Cancer Gene 1) is a critical tumour suppressor protein
   involved in DNA double-strand break repair, cell cycle checkpoint control, chromatin
-  remodelling, and regulation of transcri...'
-type: entity
+  remodelling, and regulation of transcri...
 created: 2026-07-04
 updated: 2026-07-05
 tags:

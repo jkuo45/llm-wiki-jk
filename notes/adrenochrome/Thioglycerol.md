@@ -1,8 +1,7 @@
 ---
 title: Thioglycerol
-description: 'Thioglycerol is a chemical compound used in some pharmaceutical
-  formulations.'
-type: entity
+description: Thioglycerol is a chemical compound used in some pharmaceutical
+  formulations.
 created: 2026-07-04
 updated: 2026-07-04
 tags:

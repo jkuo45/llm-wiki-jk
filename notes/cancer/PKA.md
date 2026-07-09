@@ -1,7 +1,6 @@
 ---
 title: PKA
 description: Protein kinase A (PKA, cAMP-dependent protein kinase) is a serine/threonine kinase activated by cAMP that regulates metabolism, gene transcription, and apoptosis by phosphorylating diverse substrates including Caspase-9 and Bim.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

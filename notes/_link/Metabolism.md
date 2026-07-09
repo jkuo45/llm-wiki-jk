@@ -2,7 +2,6 @@
 title: Metabolism
 description: Metabolism is the set of life-sustaining chemical reactions in organisms,
   involving the conversion of food to energy and the building of cellular components.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:

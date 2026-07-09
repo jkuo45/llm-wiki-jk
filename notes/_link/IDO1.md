@@ -1,7 +1,6 @@
 ---
 title: IDO1
 description: Indoleamine 2,3-dioxygenase 1 (IDO1) is a heme-containing enzyme that catalyzes the first and rate-limiting step in the kynurenine pathway of tryptophan catabolism, converting tryptophan to N-formylkynurenine.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

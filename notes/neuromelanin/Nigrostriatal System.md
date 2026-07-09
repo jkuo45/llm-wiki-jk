@@ -1,7 +1,6 @@
 ---
 title: Nigrostriatal System
 description: The Nigrostriatal System is a major dopaminergic pathway connecting the Substantia Nigra Pars Compacta to the dorsal striatum (caudate nucleus and putamen), central to motor control and selectively vulnerable in Parkinson's Disease.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:

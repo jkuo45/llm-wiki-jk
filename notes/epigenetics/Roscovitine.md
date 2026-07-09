@@ -1,7 +1,6 @@
 ---
 title: Roscovitine
 description: Roscovitine (seliciclib) is a purine analog cyclin-dependent kinase inhibitor that blocks CDK2, CDK5, CDK7, and CDK9, inducing cell-cycle arrest and apoptosis, with applications in oncology and neuroprotection.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:

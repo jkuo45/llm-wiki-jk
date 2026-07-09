@@ -3,7 +3,6 @@ title: Cholesterol Metabolism
 description: Cholesterol metabolism involves the pathways for cholesterol synthesis,
   transport, and regulation; enzymes like ACAT1 in these pathways can also regulate
   TFEB activity via acetylation.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

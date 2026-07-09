@@ -1,7 +1,6 @@
 ---
 title: Leukopenia
 description: A reduction in circulating white blood cell count; a mild, reversible cytopenia associated with chronic mTOR inhibition.
-type: entity
 created: 2026-07-07
 updated: 2026-07-07
 tags:

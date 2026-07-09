@@ -1,7 +1,6 @@
 ---
 title: Senolytic Therapy
 description: Therapeutic strategies that selectively eliminate senescent cells by disabling their anti-apoptotic survival pathways, reducing senescence burden and SASP-driven pathology.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

@@ -1,8 +1,7 @@
 ---
 title: Muscular Dystrophies (MD)
-description: 'A group of inherited disorders characterized by progressive skeletal
-  muscle weakness and degeneration due to defects in structural muscle proteins.'
-type: entity
+description: A group of inherited disorders characterized by progressive skeletal
+  muscle weakness and degeneration due to defects in structural muscle proteins.
 created: 2026-07-08
 updated: 2026-07-08
 tags:

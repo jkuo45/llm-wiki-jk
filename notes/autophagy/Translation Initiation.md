@@ -3,7 +3,6 @@ title: Translation Initiation
 description: Translation initiation is the complex process of assembling the ribosome
   at the start codon of an mRNA, involving factors like eIF4A and eIF5A which are
   implicated in TFEB regulation.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

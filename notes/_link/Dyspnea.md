@@ -2,7 +2,6 @@
 title: Dyspnea
 description: Dyspnea is the subjective sensation of breathlessness,
   a presenting symptom of methemoglobinemia and respiratory distress.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

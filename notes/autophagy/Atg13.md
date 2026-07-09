@@ -3,7 +3,6 @@ title: Atg13
 description: Atg13 is a structural protein that forms part of the ULK1 initiation
   complex, playing a key role in the recruitment of other autophagy-related proteins
   to the phagophore.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:

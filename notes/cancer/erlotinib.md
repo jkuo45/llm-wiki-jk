@@ -1,7 +1,6 @@
 ---
 title: erlotinib
 description: Erlotinib (Tarceva) is a small-molecule EGFR tyrosine kinase inhibitor used in non-small-cell lung cancer and pancreatic cancer that blocks proliferation and induces apoptosis, and is combined with Bcl-2 inhibitors to enhance efficacy.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

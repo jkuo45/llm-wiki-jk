@@ -1,7 +1,6 @@
 ---
 title: Manganese Superoxide Dismutase (MnSOD/SOD2)
 description: Manganese Superoxide Dismutase (MnSOD/SOD2) is the primary mitochondrial antioxidant enzyme responsible for dismutating Superoxide (O₂⁻) to hydrogen peroxide (H₂O₂) and oxygen. It is encoded by the SOD2 gene and imported into the mitochondrial matrix.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:

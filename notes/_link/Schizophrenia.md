@@ -2,7 +2,6 @@
 title: Schizophrenia
 description: Schizophrenia is a concept related to Adrenochrome and catecholamine
   metabolism.
-type: entity
 created: 2026-05-29
 updated: 2026-05-29
 tags:

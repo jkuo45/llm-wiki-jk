@@ -1,7 +1,6 @@
 ---
 title: Substantia Nigra Pars Compacta
 description: The Substantia Nigra Pars Compacta (SNpc) is the dorsal tier of the Substantia Nigra containing densely Neuromelanin-pigmented dopaminergic neurons that form the Nigrostriatal System and degenerate in Parkinson's Disease.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:

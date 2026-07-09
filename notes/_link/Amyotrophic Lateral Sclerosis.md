@@ -3,7 +3,6 @@ title: Amyotrophic Lateral Sclerosis
 description: Amyotrophic lateral sclerosis (ALS) is a progressive neurodegenerative
   disease that affects nerve cells in the brain and the spinal cord. Oxidative Stress
   is heavily implicated, particularly throug...
-type: entity
 created: 2026-05-29
 updated: 2026-05-29
 tags:

@@ -3,7 +3,6 @@ title: Cellular Homeostasis
 description: Cellular homeostasis refers to the dynamic equilibrium maintained by
   cells through coordinated regulation of metabolism, signaling, gene expression,
   and organelle function. It encompasses the balan...
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:

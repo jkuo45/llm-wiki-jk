@@ -2,7 +2,6 @@
 title: Dextromethorphan
 description: Dextromethorphan is a cough-suppressant with serotonergic
   (NMDA-antagonist) activity; risky with MAO inhibitors.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

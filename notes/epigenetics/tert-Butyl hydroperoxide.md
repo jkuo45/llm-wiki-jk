@@ -1,7 +1,6 @@
 ---
 title: tert-Butyl hydroperoxide
 description: tert-Butyl hydroperoxide is an organic peroxide and potent oxidant used in research to induce oxidative stress and cellular senescence.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:

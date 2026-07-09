@@ -1,9 +1,8 @@
 ---
 title: Gene Expression
-description: 'Gene Expression is the biological process by which information from
+description: Gene Expression is the biological process by which information from
   a Gene is used to synthesize a functional gene product — typically Proteins via
-  Transcription and Translation, or functional ...'
-type: entity
+  Transcription and Translation, or functional ...
 created: 2024-01-01
 updated: 2024-07-04
 tags:

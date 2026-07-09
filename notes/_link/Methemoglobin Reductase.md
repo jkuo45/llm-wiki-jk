@@ -3,7 +3,6 @@ title: Methemoglobin Reductase
 description: NADH-cytochrome b5 reductase (methemoglobin reductase, cytochrome b5
   reductase) is the enzyme that normally reduces methemoglobin back to hemoglobin;
   methylene blue is reduced by it (via NADPH) to leucomethylene blue.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

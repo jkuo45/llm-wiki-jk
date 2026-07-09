@@ -2,7 +2,6 @@
 title: Pentosidine
 description: Pentosidine is a well-known biomarker and fluorescent cross-link belonging
   to the Advanced Glycation End Products (AGEs) family.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

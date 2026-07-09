@@ -1,9 +1,8 @@
 ---
 title: Guanidinoacetate (GAA)
-description: 'Guanidinoacetate is the immediate biosynthetic precursor of creatine,
+description: Guanidinoacetate is the immediate biosynthetic precursor of creatine,
   formed from arginine and glycine by AGAT and methylated by GAMT; it also serves
-  as a supplemental ergogenic and therapeutic agent.'
-type: entity
+  as a supplemental ergogenic and therapeutic agent.
 created: 2026-07-08
 updated: 2026-07-08
 tags:

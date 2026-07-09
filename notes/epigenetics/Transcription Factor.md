@@ -3,7 +3,6 @@ title: Transcription Factor
 description: A Transcription Factor (TF) is a protein that binds specific DNA
   sequences — typically in promoter or enhancer regions — to regulate Gene Expression.
   TFs are the terminal effectors of signaling...
-type: entity
 created: 2024-01-01
 updated: 2024-07-04
 tags:

@@ -3,7 +3,6 @@ title: Aminoguanidine
 description: Aminoguanidine | CH6N4 | CID 2146 - structure, chemical names, physical
   and chemical properties, classification, patents, literature, biological activities,
   safety/hazards/toxicity information, supplier lists, and more.
-type: document
 created: 2026-05-25
 source: https://pubchem.ncbi.nlm.nih.gov/compound/Aminoguanidine
 author:

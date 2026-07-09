@@ -1,6 +1,6 @@
 ---
-title: "Neuroprotective Actions of Methylene Blue and Its Derivatives"
-source: "https://pmc.ncbi.nlm.nih.gov/articles/PMC3485214/"
+title: Neuroprotective Actions of Methylene Blue and Its Derivatives
+source: https://pmc.ncbi.nlm.nih.gov/articles/PMC3485214/
 author:
   - "Ethan Poteet"
   - "Ali Winters"
@@ -12,8 +12,7 @@ author:
   - "Shao-Hua Yang"
 published: 2012-10-31
 created: 2026-06-26
-type: document
-description: "Structure-activity study of methylene blue (MB) and six phenothiazine-related derivatives in HT-22 hippocampal neurons. MB acts as an alternative mitochondrial electron-transfer carrier that bypasses Complexes I-III, reduces mitochondrial superoxide, and is a regenerable mitochondrial antioxidant; side-chain substitution at the 10-nitrogen destroys this activity."
+description: Structure-activity study of methylene blue (MB) and six phenothiazine-related derivatives in HT-22 hippocampal neurons. MB acts as an alternative mitochondrial electron-transfer carrier that bypasses Complexes I-III, reduces mitochondrial superoxide, and is a regenerable mitochondrial antioxidant; side-chain substitution at the 10-nitrogen destroys this activity.
 tags:
   - clippings
   - methylene-blue

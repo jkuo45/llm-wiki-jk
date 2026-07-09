@@ -1,7 +1,6 @@
 ---
 title: CXCL3
 description: C-X-C motif chemokine ligand 3, an ELR+ SASP chemokine that binds CXCR2 and recruits neutrophils, reinforcing senescence in liver and pancreas.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

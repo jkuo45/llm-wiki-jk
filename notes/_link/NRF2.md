@@ -3,7 +3,6 @@ title: NRF2
 description: NRF2 (Nuclear factor erythroid 2-related factor 2) is a master transcription
   factor that regulates the expression of antioxidant proteins and phase II detoxification
   enzymes that protect against ox...
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

@@ -1,7 +1,6 @@
 ---
 title: Mitochondrial outer membrane permeabilization
 description: The pivotal event in the intrinsic apoptotic pathway where BAX/BAK pores permeabilize the outer mitochondrial membrane; sublethal (minority) MOMP drives senescence.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

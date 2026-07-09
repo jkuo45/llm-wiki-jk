@@ -1,7 +1,6 @@
 ---
 title: G0 Phase
 description: The G0 Phase is a resting, non-cycling state outside the active Cell Cycle; it characterizes cells in Quiescence and is distinct from terminal differentiation or Senescence.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:

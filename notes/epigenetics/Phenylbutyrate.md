@@ -1,7 +1,6 @@
 ---
 title: Phenylbutyrate
 description: 4-Phenylbutyrate (PB) is an FDA-approved aromatic fatty acid used for urea cycle disorders that functions as a class I/IIA HDAC inhibitor, induces Hsp70 expression, reduces ER stress, and has been investigated in ALS, Huntington's disease, and cancer.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:

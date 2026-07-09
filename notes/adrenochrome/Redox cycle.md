@@ -3,7 +3,6 @@ title: Redox cycle
 description: A Redox cycle (reduction-oxidation cycle) is a process in which a
   molecule is repeatedly oxidized and then reduced, often generating Reactive Oxygen
   Species (ROS) in the process.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

@@ -3,7 +3,6 @@ title: LXRα
 description: Liver X receptor alpha (LXRα) is a nuclear receptor that plays a central
   role in the regulation of Cholesterol, fatty acid, and glucose homeostasis. It works
   in conjunction with other receptors lik...
-type: entity
 created: 2026-05-09
 updated: 2026-07-04
 tags:

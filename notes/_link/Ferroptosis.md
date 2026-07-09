@@ -2,7 +2,6 @@
 title: Ferroptosis
 description: Ferroptosis is a non-apoptotic form of regulated cell death driven by
   iron-dependent Lipid Peroxidation.
-type: entity
 created: 2024-01-01
 updated: 2024-01-01
 tags:

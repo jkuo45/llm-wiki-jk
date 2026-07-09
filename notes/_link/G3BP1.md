@@ -1,7 +1,6 @@
 ---
 title: G3BP1
 description: Ras-GAP SH3-domain-binding protein 1, a stress-granule scaffold that assists cGAS recognition of cytoplasmic chromatin fragments to trigger SASP via cGAS–STING.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

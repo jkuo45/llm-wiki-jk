@@ -1,7 +1,6 @@
 ---
 title: H3K9me3
 description: H3K9me3 is the trimethylation of histone H3 at lysine 9, a repressive chromatin mark that nucleates heterochromatin and stable gene silencing.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:

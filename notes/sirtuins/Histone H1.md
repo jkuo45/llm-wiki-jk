@@ -1,9 +1,8 @@
 ---
 title: Histone H1
-description: 'Histone H1 (Linker Histone H1) is a family of basic nuclear proteins
+description: Histone H1 (Linker Histone H1) is a family of basic nuclear proteins
   that bind to linker DNA between nucleosomes, facilitating higher-order chromatin
-  structure and compaction. Unlike core histo...'
-type: entity
+  structure and compaction. Unlike core histo...
 created: 2026-07-04
 updated: 2026-07-07
 tags:

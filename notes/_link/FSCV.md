@@ -1,9 +1,8 @@
 ---
 title: FSCV
-description: 'Fast-scan cyclic voltammetry (FSCV) is an electrochemical technique
+description: Fast-scan cyclic voltammetry (FSCV) is an electrochemical technique
   used to detect rapid changes in Neurotransmitter concentration in real time, typically
-  in living brain tissue. It employs a c...'
-type: entity
+  in living brain tissue. It employs a c...
 created: 2026-07-04
 updated: 2026-07-06
 tags:

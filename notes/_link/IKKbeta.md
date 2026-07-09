@@ -1,9 +1,8 @@
 ---
 title: IKKbeta
-description: 'IKKβ (IκB kinase β) is the primary catalytic subunit of the IKK
+description: IKKβ (IκB kinase β) is the primary catalytic subunit of the IKK
   complex — the signal integrator for NFκB activation. It phosphorylates IkappaBalpha
-  (and other IkappaB proteins) at Ser32/Ser36, ...'
-type: entity
+  (and other IkappaB proteins) at Ser32/Ser36, ...
 created: 2026-07-04
 updated: 2026-07-06
 tags:

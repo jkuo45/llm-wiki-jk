@@ -1,7 +1,6 @@
 ---
 title: Dendritic cells
 description: Professional antigen-presenting cells that activate naive T lymphocytes; their activity is enhanced by low-dose mTOR inhibition, improving vaccine and anti-tumor immunity.
-type: entity
 created: 2026-07-07
 updated: 2026-07-07
 tags:

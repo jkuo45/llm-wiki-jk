@@ -1,9 +1,8 @@
 ---
 title: Geroscience
-description: 'Geroscience is an interdisciplinary field that seeks to understand
+description: Geroscience is an interdisciplinary field that seeks to understand
   the biological relationship between Aging and age-related diseases. The central
-  hypothesis of geroscience is that because agin...'
-type: entity
+  hypothesis of geroscience is that because agin...
 created: 2024-01-01
 updated: 2024-01-01
 tags:

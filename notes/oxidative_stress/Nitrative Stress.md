@@ -3,7 +3,6 @@ title: Nitrative Stress
 description: Nitrative stress is a condition in which the production of Reactive Nitrogen
   Species exceeds the body's ability to neutralize them, leading to damage to proteins,
   lipids, and DNA. A key mediator is...
-type: entity
 created: 2026-05-09
 updated: 2026-07-04
 tags:

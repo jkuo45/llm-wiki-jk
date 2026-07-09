@@ -2,7 +2,6 @@
 title: Polyphenols
 description: Polyphenols are a category of phytochemicals that are naturally found
   in plants.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

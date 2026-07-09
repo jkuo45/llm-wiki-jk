@@ -1,9 +1,8 @@
 ---
 title: Spinal Cord Injury (SCI)
-description: 'Damage to the spinal cord from trauma or ischemia causing loss of motor,
+description: Damage to the spinal cord from trauma or ischemia causing loss of motor,
   sensory, and autonomic function below the lesion; associated with muscle atrophy and
-  neuropathic sequelae.'
-type: entity
+  neuropathic sequelae.
 created: 2026-07-08
 updated: 2026-07-08
 tags:

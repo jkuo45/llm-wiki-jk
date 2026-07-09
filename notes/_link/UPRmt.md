@@ -1,9 +1,8 @@
 ---
 title: UPRmt
-description: 'Definition: UPRmt is a fundamental biological process that maintains
+description: 'Definition: UPRmt is a fundamental biological process that maintains'
   cellular and organismal homeostasis. It involves coordinated molecular events regulated
-  by signaling pathways and environmen...'
-type: entity
+  by signaling pathways and environmen...
 created: 2026-07-04
 updated: 2026-07-04
 tags:

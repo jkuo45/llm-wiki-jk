@@ -1,9 +1,8 @@
 ---
 title: SNARE proteins
-description: 'SNARE proteins (Soluble N-ethylmaleimide-sensitive factor attachment
+description: SNARE proteins (Soluble N-ethylmaleimide-sensitive factor attachment
   protein receptors) are a large family of proteins that mediate membrane fusion between
-  organelles, such as the fusion of Aut...'
-type: entity
+  organelles, such as the fusion of Aut...
 created: 2026-07-04
 updated: 2026-07-04
 tags:

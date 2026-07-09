@@ -3,7 +3,6 @@ title: Pyrraline
 description: Pyrraline is an advanced glycation end product (AGE) formed from the
   reaction between glucose and lysine residues in proteins. It is commonly found in
   heat-processed foods and is absorbed in the in...
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

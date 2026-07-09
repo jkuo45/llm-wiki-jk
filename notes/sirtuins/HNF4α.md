@@ -3,7 +3,6 @@ title: HNF4α
 description: HNF4α (Hepatocyte Nuclear Factor 4 Alpha, encoded by HNF4A) is an orphan
   nuclear receptor and master transcriptional regulator of hepatocyte differentiation,
   liver metabolism, and lipid homeostasis...
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:

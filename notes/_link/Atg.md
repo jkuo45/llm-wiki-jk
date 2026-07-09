@@ -3,7 +3,6 @@ title: Atg
 description: Atg (autophagy-related) proteins are a family of evolutionarily conserved
   proteins that orchestrate the Autophagy pathway, from initiation to autophagosome
   formation, cargo recognition, and lysosom...
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:

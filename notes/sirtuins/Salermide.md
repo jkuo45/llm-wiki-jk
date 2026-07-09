@@ -3,7 +3,6 @@ title: Salermide
 description: Salermide is a potent, cell-permeable synthetic small-molecule sirtuin
   inhibitor containing a $\beta$-naphthol group. Designed and developed through structure-activity
   relationship (SAR) studies of...
-type: entity
 created: 2026-07-03
 updated: 2026-07-03
 tags:

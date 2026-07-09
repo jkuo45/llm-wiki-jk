@@ -1,7 +1,6 @@
 ---
 title: Peroxidation
 description: The oxidative degradation of lipids, or the formation of peroxides.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

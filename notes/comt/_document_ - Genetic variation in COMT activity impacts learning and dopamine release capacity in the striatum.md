@@ -5,7 +5,6 @@ description: A common genetic polymorphism that results in increased activity of
   dopamine regulating enzyme COMT (the COMT Val158 allele) has been found to associate
   with poorer cognitive performance and increased susceptibility to develop psychiatric
   ...
-type: document
 created: 2026-05-12
 source: https://pmc.ncbi.nlm.nih.gov/articles/PMC3966542/
 author:

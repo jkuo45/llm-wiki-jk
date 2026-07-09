@@ -1,7 +1,6 @@
 ---
 title: TRADD
 description: TRADD (TNFR1-associated death domain protein) is an adaptor that nucleates TNF receptor 1 signaling complexes, bifurcating into caspase-8-driven apoptosis or NFκB/ MAPK-mediated survival and inflammation — a pivotal node in cancer cell fate.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

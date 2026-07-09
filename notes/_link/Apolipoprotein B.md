@@ -1,9 +1,8 @@
 ---
 title: Apolipoprotein B
-description: 'Apolipoprotein B (ApoB) is the primary apolipoprotein of LDL and
+description: Apolipoprotein B (ApoB) is the primary apolipoprotein of LDL and
   LDL. It serves as a ligand for the LDL receptor and is essential for lipoprotein
-  assembly and metabolism.'
-type: entity
+  assembly and metabolism.
 created: 2026-07-04
 updated: 2026-07-04
 tags:

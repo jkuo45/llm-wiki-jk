@@ -3,7 +3,6 @@ title: p21 CIP1
 description: p21CIP1 (encoded by CDKN1A) is a cyclin-dependent kinase inhibitor
   that mediates DNA damage-induced cell cycle arrest and supports an early immunosurveillance SASP
   profile.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

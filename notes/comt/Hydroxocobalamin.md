@@ -1,7 +1,6 @@
 ---
 title: Hydroxocobalamin
-description: 'Hydroxocobalamin (HydroxyB12) is a natural, non-methylated form of Vitamin B12 and precursor to the active coenzymes; preferred in slow COMT to avoid methyl overload from methylated B12.'
-type: entity
+description: Hydroxocobalamin (HydroxyB12) is a natural, non-methylated form of Vitamin B12 and precursor to the active coenzymes; preferred in slow COMT to avoid methyl overload from methylated B12.
 created: 2026-05-25
 updated: 2026-07-07
 tags:

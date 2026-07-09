@@ -1,7 +1,6 @@
 ---
 title: CDH2
 description: CDH2 encodes N-cadherin (neuronal cadherin), a 130 kDa calcium-dependent adhesion glycoprotein critical for neural development, cardiomyocyte cohesion, and mesenchymal cell behavior.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:

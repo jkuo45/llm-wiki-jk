@@ -3,7 +3,6 @@ title: MiT Family Translocation RCC
 description: MiT family translocation renal cell carcinoma (RCC) is a subtype of kidney
   cancer driven by chromosomal translocations that lead to the overexpression of MiT/TFEB
   family genes, particularly TFEB.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

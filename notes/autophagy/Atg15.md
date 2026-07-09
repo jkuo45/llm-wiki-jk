@@ -1,8 +1,7 @@
 ---
 title: Atg15
-description: 'Atg15 is an Autophagy protein in yeast (Saccharomyces cerevisiae)
-  with predicted triglyceride-lipase activity.'
-type: entity
+description: Atg15 is an Autophagy protein in yeast (Saccharomyces cerevisiae)
+  with predicted triglyceride-lipase activity.
 created: 2026-07-04
 updated: 2026-07-07
 tags:

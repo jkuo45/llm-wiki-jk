@@ -3,7 +3,6 @@ title: Myocardial infarction
 description: Myocardial infarction, commonly known as a heart attack, occurs when
   blood flow decreases or stops to a part of the heart, causing damage to the heart
   muscle.
-type: entity
 created: 2026-07-04
 updated: 2026-07-06
 tags:

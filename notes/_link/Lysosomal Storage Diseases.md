@@ -2,7 +2,6 @@
 title: Lysosomal Storage Diseases
 description: A group of about 50 rare inherited metabolic disorders that result from
   defects in lysosomal function.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:

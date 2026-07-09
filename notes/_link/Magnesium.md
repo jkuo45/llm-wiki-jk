@@ -1,8 +1,7 @@
 ---
 title: Magnesium
-description: 'Magnesium is an essential mineral involved in over 300 biochemical
-  reactions in the body.'
-type: entity
+description: Magnesium is an essential mineral involved in over 300 biochemical
+  reactions in the body.
 created: 2026-05-29
 updated: 2026-05-29
 tags:

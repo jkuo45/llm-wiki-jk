@@ -2,7 +2,6 @@
 title: Sympathetic nerve endings
 description: The terminals of the sympathetic nervous system where neurotransmitters
   like Norepinephrine are released.
-type: entity
 created: 2026-07-04
 updated: 2026-07-06
 tags:

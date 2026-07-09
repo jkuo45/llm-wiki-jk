@@ -1,7 +1,6 @@
 ---
 title: Strongyloides
 description: Strongyloides is a genus of parasitic nematodes (family Strongyloididae); Strongyloides stercoralis is the principal human pathogen, unique for its free-living and autoinfective life cycles, with oncology relevance through immunosuppression-associated hyperinfection.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

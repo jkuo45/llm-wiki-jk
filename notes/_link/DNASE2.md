@@ -1,7 +1,6 @@
 ---
 title: DNASE2
 description: Acid endolysosomal DNase whose downregulation in senescence permits cytosolic DNA accumulation and cGAS-STING activation.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

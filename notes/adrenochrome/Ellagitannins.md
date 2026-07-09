@@ -1,9 +1,8 @@
 ---
 title: Ellagitannins
-description: 'Ellagitannins are a diverse class of hydrolyzable tannins present
+description: Ellagitannins are a diverse class of hydrolyzable tannins present
   in various dietary fruits and nuts, such as pomegranates, strawberries, walnuts,
-  and almonds. They serve as prebiotic precursor...'
-type: entity
+  and almonds. They serve as prebiotic precursor...
 created: 2026-07-04
 updated: 2026-07-04
 tags:

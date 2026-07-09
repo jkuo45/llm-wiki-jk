@@ -1,5 +1,4 @@
 ---
-type: index
 title: Epigenetics notes
 aliases: []
 description: Index of wiki notes for epigenetics

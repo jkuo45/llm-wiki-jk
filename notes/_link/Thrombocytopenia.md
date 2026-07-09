@@ -1,7 +1,6 @@
 ---
 title: Thrombocytopenia
 description: A hematological condition defined by abnormally low blood platelet counts; a common, usually mild and reversible side effect of chronic mTOR inhibition.
-type: entity
 created: 2026-07-07
 updated: 2026-07-07
 tags:

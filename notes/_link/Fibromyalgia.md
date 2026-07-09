@@ -1,7 +1,6 @@
 ---
 title: Fibromyalgia
-description: "A chronic pain syndrome characterized by widespread musculoskeletal pain, fatigue, sleep disturbances, and cognitive difficulties, with emerging evidence of bioenergetic dysfunction linking it to creatine metabolism."
-type: entity
+description: A chronic pain syndrome characterized by widespread musculoskeletal pain, fatigue, sleep disturbances, and cognitive difficulties, with emerging evidence of bioenergetic dysfunction linking it to creatine metabolism.
 created: 2026-07-08
 updated: 2026-07-08
 tags:

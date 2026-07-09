@@ -1,7 +1,6 @@
 ---
 title: HSP27
 description: Heat shock protein 27 (HSP27/HSPB1) is a small molecular chaperone highly expressed in many cancers, where it promotes survival, drug resistance, and poor prognosis.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

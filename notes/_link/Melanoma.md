@@ -1,8 +1,7 @@
 ---
 title: Melanoma
-description: 'Melanoma is a highly aggressive type of skin Cancer that develops
-  from melanocytes.'
-type: entity
+description: Melanoma is a highly aggressive type of skin Cancer that develops
+  from melanocytes.
 created: 2026-07-04
 updated: 2026-07-04
 tags:

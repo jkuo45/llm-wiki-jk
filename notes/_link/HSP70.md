@@ -3,7 +3,6 @@ title: HSP70
 description: HSP70 (Heat Shock Protein 70 kDa) is a family of highly conserved molecular
   chaperones that assist in Protein Folding, prevent Protein Aggregation, and facilitate
   Proteostasis. Major family members...
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:

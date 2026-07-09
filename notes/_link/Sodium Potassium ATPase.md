@@ -3,7 +3,6 @@ title: Sodium Potassium ATPase
 description: Sodium Potassium ATPase (Na⁺/K⁺-ATPase, Na⁺/K⁺ pump) is a transmembrane
   ion pump that maintains the Electrochemical Gradient across the Plasma Membrane
   by transporting three Na⁺ ions out and two K⁺...
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:

@@ -1,7 +1,6 @@
 ---
 title: Tau Pathology
 description: Tau pathology encompasses hyperphosphorylation, oligomerization, and neuronal accumulation of microtubule-associated protein tau (tauopathy), driving neurodegeneration; autophagy-lysosomal clearance via TFEB is a major therapeutic axis.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:

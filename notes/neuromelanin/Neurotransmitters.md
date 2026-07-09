@@ -1,7 +1,6 @@
 ---
 title: Neurotransmitters
-description: 'Neurotransmitters are endogenous chemical messengers that transmit signals across a Synapse from one neuron to another.'
-type: entity
+description: Neurotransmitters are endogenous chemical messengers that transmit signals across a Synapse from one neuron to another.
 created: 2026-07-04
 updated: 2026-07-07
 tags:

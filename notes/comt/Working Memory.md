@@ -1,9 +1,8 @@
 ---
 title: Working Memory
-description: 'Working Memory is a cognitive system with a limited capacity that
+description: Working Memory is a cognitive system with a limited capacity that
   is responsible for temporarily holding and processing information. it is a core
-  component of Executive Function.'
-type: entity
+  component of Executive Function.
 created: 2026-05-25
 updated: 2026-07-04
 tags:

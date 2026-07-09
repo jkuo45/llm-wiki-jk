@@ -1,7 +1,6 @@
 ---
 title: Chlorpromazine
 description: Chlorpromazine is the first antipsychotic phenothiazine; its position-10 side chain destroys methylene blue-like mitochondrial electron-transfer activity, leaving only weak, pro-oxidative neuroprotection.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

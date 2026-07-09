@@ -3,7 +3,6 @@ title: Cell Membranes
 description: Cell membranes (biological membranes) are phospholipid bilayers that
   define the boundaries of cells and organelles. They are composed primarily of Phospholipids,
   Cholesterol, and Membrane Proteins,...
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:

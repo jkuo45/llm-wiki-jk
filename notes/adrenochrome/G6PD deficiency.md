@@ -1,8 +1,7 @@
 ---
 title: G6PD deficiency
-description: '- Methylene blue: Use is contraindicated or requires caution in G6PD
-  deficient patients.'
-type: entity
+description: '- Methylene blue: Use is contraindicated or requires caution in G6PD'
+  deficient patients.
 created: 2026-07-04
 updated: 2026-07-04
 tags:

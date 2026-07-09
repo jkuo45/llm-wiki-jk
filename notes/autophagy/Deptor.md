@@ -3,7 +3,6 @@ title: Deptor
 description: DEP-domain-containing mTOR-interacting protein (Deptor) is an endogenous
   inhibitor of both mTORC1 and mTORC2 complexes, and its expression is often deregulated
   in Cancer.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

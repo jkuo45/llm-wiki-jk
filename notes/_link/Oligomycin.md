@@ -1,7 +1,6 @@
 ---
 title: Oligomycin
 description: Oligomycin is a macrolide inhibitor of mitochondrial ATP synthase (Complex V) used in Seahorse assays to dissect the oxygen-consumption and glycolytic effects of methylene blue.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

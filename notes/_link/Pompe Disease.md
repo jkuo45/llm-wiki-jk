@@ -2,7 +2,6 @@
 title: Pompe Disease
 description: A genetic disorder caused by the buildup of glycogen in the body's cells,
   also known as Glycogen Storage Disease Type II.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:

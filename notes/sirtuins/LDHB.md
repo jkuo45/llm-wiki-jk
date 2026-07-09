@@ -1,9 +1,8 @@
 ---
 title: LDHB
-description: 'LDHB (Lactate Dehydrogenase B subunit) encodes the heart-type (H)
+description: LDHB (Lactate Dehydrogenase B subunit) encodes the heart-type (H)
   subunit of lactate dehydrogenase (LDH), a tetrameric enzyme that catalyzes the reversible
-  conversion of pyruvate to lactate wit...'
-type: entity
+  conversion of pyruvate to lactate wit...
 created: 2026-07-04
 updated: 2026-07-07
 tags:

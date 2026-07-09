@@ -3,7 +3,6 @@ title: Aging
 description: The relationship between aging and Epigenetics is a central focus
   of modern Geroscience. Epigenetics refers to chemical modifications to DNA and its
   associated proteins that regulate gene expre...
-type: entity
 created: 2026-05-29
 updated: 2026-05-29
 tags:

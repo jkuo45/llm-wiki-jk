@@ -1,7 +1,6 @@
 ---
 title: Senescent Cells
 description: Cells in stable, essentially irreversible cell-cycle arrest triggered by DNA damage, oncogene activation, oxidative stress, or telomere dysfunction, characterized by apoptosis resistance and the SASP.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

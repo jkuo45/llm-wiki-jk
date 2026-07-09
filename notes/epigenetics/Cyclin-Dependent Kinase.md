@@ -1,7 +1,6 @@
 ---
 title: Cyclin-Dependent Kinase
-description: 'Cyclin-dependent kinases (CDKs) are the catalytic subunits of cell cycle regulators, activated by cyclins and restrained by inhibitors.'
-type: entity
+description: Cyclin-dependent kinases (CDKs) are the catalytic subunits of cell cycle regulators, activated by cyclins and restrained by inhibitors.
 created: 2026-07-06
 updated: 2026-07-06
 tags:

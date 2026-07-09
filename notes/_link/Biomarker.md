@@ -3,7 +3,6 @@ title: Biomarker
 description: A biomarker (biological marker) is a measurable indicator of a biological
   state, condition, or process. Biomarkers are used for Diagnosis, Prognosis, Risk
   Stratification, and monitoring Therape...
-type: entity
 created: 2026-07-04
 updated: 2026-07-06
 tags:

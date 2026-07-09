@@ -1,7 +1,6 @@
 ---
 title: Tumour Microenvironment
 description: The complex ecosystem surrounding a tumor, comprising various cell types, signaling molecules, and the extracellular matrix, which plays a critical role in tumor growth, progression, and therapeutic resistance.
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:

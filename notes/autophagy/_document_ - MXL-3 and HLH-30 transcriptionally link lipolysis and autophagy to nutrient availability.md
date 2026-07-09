@@ -5,7 +5,6 @@ description: Fat is stored or mobilized according to food availability. Malfunct
   of the mechanisms that ensure this coordination underlie metabolic diseases in humans.
   In mammals, lysosomal and autophagic function is required for normal fat storage
   and ...
-type: document
 created: 2026-06-03
 source: https://pmc.ncbi.nlm.nih.gov/articles/PMC3723461/
 author:

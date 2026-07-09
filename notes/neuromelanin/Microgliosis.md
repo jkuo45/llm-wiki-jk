@@ -1,7 +1,6 @@
 ---
 title: Microgliosis
 description: In the context of Parkinson's Disease, microgliosis is a key component of the Neuroinflammation observed in the Substantia Nigra.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:

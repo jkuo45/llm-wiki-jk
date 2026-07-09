@@ -1,9 +1,8 @@
 ---
 title: DR5
-description: 'DR5 (Death Receptor 5), also known as TRAIL-R2 or TNFRSF10B, is
+description: DR5 (Death Receptor 5), also known as TRAIL-R2 or TNFRSF10B, is
   a cell surface receptor that initiates the Extrinsic Pathway of Apoptosis when activated
-  by TRAIL.'
-type: entity
+  by TRAIL.
 created: 2026-07-06
 updated: 2026-07-06
 tags:

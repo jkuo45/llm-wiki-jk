@@ -3,7 +3,6 @@ title: Transcriptomic analysis of mitohormesis associated with lifespan extensio
   in Caenorhabditis elegans
 description: bioRxiv - the preprint server for biology, operated by openRxiv, a nonprofit
   organization dedicated to advancing scientific communication
-type: document
 created: 2026-06-12
 source: https://www.biorxiv.org/content/10.1101/2025.04.15.648933v1.full#sec-37
 author:

@@ -3,7 +3,6 @@ title: Phenelzine
 description: Phenelzine is a non-selective irreversible monoamine oxidase
   inhibitor (MAOI) antidepressant; prototype of MAOI mechanism shared
   by methylene blue's MAO-A inhibition.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

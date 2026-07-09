@@ -3,7 +3,6 @@ title: KIF5B
 description: KIF5B (Kinesin Family Member 5B) is a microtubule-based motor protein
   that drives the extension of lysosomal tubules along microtubules during Autophagic
   Lysosome Reformation by interacting with PtdIns(4,5)P2 on autolysosomal membranes.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:

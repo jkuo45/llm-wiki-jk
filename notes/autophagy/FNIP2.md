@@ -2,7 +2,6 @@
 title: FNIP2
 description: Folliculin-interacting protein 2, a partner of Folliculin and FNIP1 involved
   in nutrient sensing and metabolic regulation.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

@@ -1,9 +1,8 @@
 ---
 title: TFE3
-description: 'TFE3 (Transcription Factor E3) is a member of the MiT/TFE family
+description: TFE3 (Transcription Factor E3) is a member of the MiT/TFE family
   of basic helix-loop-helix transcription factors that, along with TFEB, regulates
-  the expression of genes involved in Lysosome bi...'
-type: entity
+  the expression of genes involved in Lysosome bi...
 created: 2026-07-04
 updated: 2026-07-04
 tags:

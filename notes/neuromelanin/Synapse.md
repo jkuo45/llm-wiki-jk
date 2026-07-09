@@ -1,7 +1,6 @@
 ---
 title: Synapse
 description: A Synapse is the specialized junction between neurons where neurotransmitters released from Synaptic Vesicles cross the cleft to activate postsynaptic receptors; dopaminergic synapses of the Nigrostriatal System are central to motor control and degenerate in Parkinson's Disease.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:

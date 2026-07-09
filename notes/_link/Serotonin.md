@@ -1,8 +1,7 @@
 ---
 title: Serotonin
-description: 'Serotonin (5-hydroxytryptamine or 5-HT) is a monoamine Neurotransmitters
-  that plays a key role in regulating mood, sleep, appetite, and digestion.'
-type: entity
+description: Serotonin (5-hydroxytryptamine or 5-HT) is a monoamine Neurotransmitters
+  that plays a key role in regulating mood, sleep, appetite, and digestion.
 created: 2026-05-25
 updated: 2026-05-25
 tags:

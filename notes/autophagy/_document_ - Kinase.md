@@ -2,7 +2,6 @@
 title: TFEB Post-Translational Modification Sites
 description: Comprehensive table of TFEB PTM sites, regulating kinases, and functional
   effects
-type: document
 created: 2026-07-06
 aliases: []
 ---

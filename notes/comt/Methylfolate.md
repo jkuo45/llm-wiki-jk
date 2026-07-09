@@ -1,7 +1,6 @@
 ---
 title: Methylfolate
 description: Methylfolate (L-5-methyltetrahydrofolate) is the active methylated folate that donates methyl groups to homocysteine remethylation and the methylation cycle.
-type: entity
 created: 2026-05-25
 updated: 2026-07-07
 tags:

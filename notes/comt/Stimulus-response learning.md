@@ -1,7 +1,6 @@
 ---
 title: Stimulus-response learning
 description: Stimulus-response learning is habit learning in which a cue automatically elicits a learned action, dependent on striatal dopamine and modulated by COMT.
-type: entity
 created: 2026-05-25
 updated: 2026-07-07
 tags:

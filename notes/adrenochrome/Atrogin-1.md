@@ -1,9 +1,8 @@
 ---
 title: Atrogin-1
-description: 'Atrogin-1 (also known as FBXO32 or F-box protein 32) is a muscle-specific
+description: Atrogin-1 (also known as FBXO32 or F-box protein 32) is a muscle-specific
   E3 ubiquitin ligase that plays a critical role in muscle protein degradation and
-  muscle atrophy. It targets specific my...'
-type: entity
+  muscle atrophy. It targets specific my...
 created: 2026-07-04
 updated: 2026-07-04
 tags:

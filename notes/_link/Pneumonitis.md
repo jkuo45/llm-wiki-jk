@@ -1,7 +1,6 @@
 ---
 title: Pneumonitis
 description: Inflammation of lung parenchyma; a rare but serious noninfectious adverse effect of mTOR inhibitor therapy that mandates drug discontinuation.
-type: entity
 created: 2026-07-07
 updated: 2026-07-07
 tags:

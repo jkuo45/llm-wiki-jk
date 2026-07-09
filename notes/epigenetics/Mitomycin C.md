@@ -1,7 +1,6 @@
 ---
 title: Mitomycin C
 description: Mitomycin C is a potent DNA cross-linking alkylating agent used in chemotherapy to inhibit cell division by causing extensive DNA damage.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:

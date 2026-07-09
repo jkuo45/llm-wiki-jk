@@ -1,7 +1,6 @@
 ---
 title: SLC6A8
-description: "The gene encoding the principal creatine transporter (CT1) on chromosome Xq28; mutations cause creatine transporter deficiency, an X-linked form of cerebral creatine deficiency syndrome associated with intellectual disability, epilepsy, and speech delay."
-type: entity
+description: The gene encoding the principal creatine transporter (CT1) on chromosome Xq28; mutations cause creatine transporter deficiency, an X-linked form of cerebral creatine deficiency syndrome associated with intellectual disability, epilepsy, and speech delay.
 created: 2026-07-08
 updated: 2026-07-08
 tags:

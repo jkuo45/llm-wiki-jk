@@ -2,7 +2,6 @@
 title: NAD+ Salvage Pathway
 description: The primary biosynthetic route for maintaining cellular NAD+ levels, recycling
   nicotinamide back to NAD+ via the rate-limiting enzyme NAMPT.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

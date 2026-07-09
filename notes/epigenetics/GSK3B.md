@@ -3,7 +3,6 @@ title: GSK3B
 description: One mechanism by which GSK3B inhibition promotes reprogramming is by
   preventing the Epithelial-to-Mesenchymal Transition (EMT), maintaining the epithelial-like
   state of pluripotent cells.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:

@@ -3,7 +3,6 @@ title: Microglia
 description: Microglia originate from yolk-sac progenitors during early embryogenesis
   and are maintained throughout life by local self-renewal, independent of circulating
   monocytes.
-type: entity
 created: 2024-01-01
 updated: 2024-01-01
 tags:

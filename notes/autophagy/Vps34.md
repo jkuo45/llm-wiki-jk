@@ -1,9 +1,8 @@
 ---
 title: Vps34
-description: 'Vps34 (Vacuolar Protein Sorting 34), also known as PIK3C3, is a
+description: Vps34 (Vacuolar Protein Sorting 34), also known as PIK3C3, is a
   Class III phosphoinositide 3-kinase (PI3K) that produces Phosphatidylinositol 3-phosphate
-  (PI3P), a key signaling lipid required ...'
-type: entity
+  (PI3P), a key signaling lipid required ...
 created: 2026-07-04
 updated: 2026-07-04
 tags:

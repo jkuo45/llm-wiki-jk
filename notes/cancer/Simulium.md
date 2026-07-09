@@ -1,7 +1,6 @@
 ---
 title: Simulium
 description: Simulium is a genus of blackflies (Diptera, Simuliidae) whose females are the obligate vectors of Onchocerca volvulus, the filarial nematode causing human onchocerciasis (river blindness).
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

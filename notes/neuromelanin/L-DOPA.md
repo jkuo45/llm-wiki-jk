@@ -1,7 +1,6 @@
 ---
 title: L-DOPA
 description: In the brain, L-DOPA is synthesized from the amino acid tyrosine by the enzyme Tyrosine Hydroxylase. It is then converted into Dopamine by the enzyme aromatic L-amino acid decarboxylase.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:

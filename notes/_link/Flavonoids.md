@@ -2,7 +2,6 @@
 title: Flavonoids
 description: Flavonoids are a diverse group of phytonutrients (plant chemicals) found
   in almost all fruits and vegetables.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

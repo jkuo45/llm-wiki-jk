@@ -1,7 +1,6 @@
 ---
 title: Lewy Bodies
 description: The primary component of Lewy bodies is phosphorylated Alpha-synuclein. Other proteins, such as Ubiquitin and p62, are also commonly found within these inclusions, reflecting the cell's failed attempt to degrade the aggregated proteins.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:

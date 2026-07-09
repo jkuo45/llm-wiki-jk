@@ -1,7 +1,6 @@
 ---
 title: Mucositis
 description: Inflammation and ulceration of the mucous membranes (gastrointestinal tract and oral cavity); a dose-limiting adverse effect of mTOR inhibitor therapy, closely related to stomatitis.
-type: entity
 created: 2026-07-07
 updated: 2026-07-07
 tags:

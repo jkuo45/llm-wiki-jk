@@ -1,7 +1,6 @@
 ---
 title: JNK1
-description: 'JNK1 (c-Jun N-terminal kinase 1) is a member of the MAPK family that regulates Apoptosis by phosphorylating members of the Bcl-2 family.'
-type: entity
+description: JNK1 (c-Jun N-terminal kinase 1) is a member of the MAPK family that regulates Apoptosis by phosphorylating members of the Bcl-2 family.
 created: 2026-07-06
 updated: 2026-07-06
 tags:

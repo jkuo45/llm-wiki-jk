@@ -3,7 +3,6 @@ title: Multidrug Resistance
 description: Multidrug Resistance (MDR) is the phenomenon where tumor cells become
   resistant to a wide variety of structurally and functionally unrelated chemotherapy
   drugs. It is a major cause of treatment fai...
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:

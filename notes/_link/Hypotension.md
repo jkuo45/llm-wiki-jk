@@ -2,7 +2,6 @@
 title: Hypotension
 description: Hypotension is abnormally low blood pressure; severe refractory
   hypotension (vasoplegia) is treated with vasopressors and methylene blue.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

@@ -1,7 +1,6 @@
 ---
 title: Gemcitabine
 description: Gemcitabine is a nucleoside analog used as a chemotherapy agent that induces DNA replication stress and apoptosis by inhibiting DNA synthesis and ribonucleotide reductase.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:

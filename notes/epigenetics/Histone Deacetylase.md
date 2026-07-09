@@ -1,7 +1,6 @@
 ---
 title: Histone Deacetylase
-description: 'Histone Deacetylase (HDAC) is a class of enzymes that remove acetyl groups from histone tails, compacting chromatin and repressing transcription.'
-type: entity
+description: Histone Deacetylase (HDAC) is a class of enzymes that remove acetyl groups from histone tails, compacting chromatin and repressing transcription.
 created: 2024-01-01
 updated: 2026-07-06
 tags:

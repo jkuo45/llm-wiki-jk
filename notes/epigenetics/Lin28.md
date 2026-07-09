@@ -2,7 +2,6 @@
 title: Lin28
 description: The interaction between Lin28 and let-7 forms a bistable switch that
   maintains stemness. Terminal uridylases like ZCCHC11 are recruited to degrade pre-let-7.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:

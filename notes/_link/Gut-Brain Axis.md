@@ -3,7 +3,6 @@ title: Gut-Brain Axis
 description: The gut-brain axis is a bidirectional communication network between the
   gastrointestinal tract and the central nervous system, involving neural, hormonal,
   and immunological pathways.
-type: entity
 created: 2024-01-01
 updated: 2024-01-01
 tags:

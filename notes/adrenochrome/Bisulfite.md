@@ -1,8 +1,7 @@
 ---
 title: Bisulfite
-description: 'Bisulfite refers to the bisulfite ion (HSO₃⁻) or compounds containing
-  this ion, such as sodium bisulfite.'
-type: entity
+description: Bisulfite refers to the bisulfite ion (HSO₃⁻) or compounds containing
+  this ion, such as sodium bisulfite.
 created: 2026-07-04
 updated: 2026-07-04
 tags:

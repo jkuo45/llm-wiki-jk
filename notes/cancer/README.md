@@ -1,5 +1,4 @@
 ---
-type: index
 title: Cancer notes
 aliases: []
 description: Index of wiki notes for cancer

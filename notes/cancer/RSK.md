@@ -1,7 +1,6 @@
 ---
 title: RSK
 description: Ribosomal S6 kinase (RSK) is a family of serine/threonine kinases downstream of ERK that promotes cell survival, growth, and proliferation; it inhibits apoptosis by phosphorylating Bim, Apaf-1, and Bad.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

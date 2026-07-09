@@ -1,7 +1,6 @@
 ---
 title: Acetyl-L-Carnitine
 description: Acetyl-L-Carnitine (ALC) is an acetylated derivative of the amino acid L-carnitine that supports mitochondrial fatty-acid oxidation and is investigated as an anti-aging and glycation-countering agent.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

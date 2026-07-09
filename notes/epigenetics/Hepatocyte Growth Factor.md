@@ -1,7 +1,6 @@
 ---
 title: Hepatocyte Growth Factor
 description: Hepatocyte Growth Factor (HGF, scatter factor) is a pleiotropic cytokine and the sole ligand of the c-Met receptor tyrosine kinase.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:

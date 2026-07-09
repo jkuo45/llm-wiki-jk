@@ -1,7 +1,6 @@
 ---
 title: Ragulator
 description: Ragulator (LAMTOR1-5) is a pentameric lysosome-anchored complex that tethers Rag GTPases to the lysosomal surface and acts as a GEF for RagA/B, activating mTORC1 in response to amino acids.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:

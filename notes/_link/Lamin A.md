@@ -1,8 +1,7 @@
 ---
 title: Lamin A
-description: 'Lamin A is a structural protein of the nuclear envelope. Mutations
-  in the LMNA gene cause several progeroid syndromes.'
-type: entity
+description: Lamin A is a structural protein of the nuclear envelope. Mutations
+  in the LMNA gene cause several progeroid syndromes.
 created: 2024-01-01
 updated: 2024-01-01
 tags:

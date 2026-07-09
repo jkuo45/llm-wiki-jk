@@ -1,7 +1,6 @@
 ---
 title: Very Low Density Lipoprotein
 description: Very Low Density Lipoprotein (VLDL) is an endogenous triglyceride-rich lipoprotein assembled in the liver; glycation and AGE modification promote its adhesion to vessel walls and its progression toward atherosclerotic plaque.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

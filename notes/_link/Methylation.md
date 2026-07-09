@@ -1,9 +1,8 @@
 ---
 title: Methylation
-description: 'Methylation is a fundamental biochemical and epigenetic process
+description: Methylation is a fundamental biochemical and epigenetic process
   involving the transfer of a methyl group to a substrate. It is critical for the
-  regulation of gene expression, neurotransmitter m...'
-type: entity
+  regulation of gene expression, neurotransmitter m...
 created: 2026-05-31
 updated: 2026-05-31
 tags:

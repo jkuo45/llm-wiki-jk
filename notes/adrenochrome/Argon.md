@@ -1,7 +1,6 @@
 ---
 title: Argon
-description: 'Argon is a noble gas that is chemically inert.'
-type: entity
+description: Argon is a noble gas that is chemically inert.
 created: 2026-07-04
 updated: 2026-07-04
 tags:

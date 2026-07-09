@@ -1,7 +1,6 @@
 ---
 title: Beta-TrCP
 description: Beta-transducin repeat-containing protein (Beta-TrCP) is an F-box substrate-recognition subunit of the SCF E3 ubiquitin ligase that targets phosphorylated substrates such as Mcl-1, IκBα, and β-catenin for proteasomal degradation.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

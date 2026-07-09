@@ -3,7 +3,6 @@ title: Centromere
 description: The centromere is a specialized Chromosome region where Kinetochore assembles
   and Spindle Microtubules attach during Mitosis and Meiosis. It is defined by the
   presence of the Histone H3 variant CEN...
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:

@@ -2,7 +2,6 @@
 title: LPS
 description: Lipopolysaccharide, a major component of the outer membrane of Gram-negative
   bacteria and a potent inducer of Macrophage activation and TFE3 translocation.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:

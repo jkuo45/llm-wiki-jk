@@ -1,7 +1,6 @@
 ---
 title: GCN2
 description: General control nonderepressible 2 (GCN2) is a serine/threonine kinase that phosphorylates eIF2α in response to amino acid starvation, including tryptophan depletion mediated by IDO1.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

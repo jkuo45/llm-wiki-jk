@@ -3,7 +3,6 @@ title: Paracrine Senescence
 description: Paracrine senescence is the process by which SASP factors secreted by
   senescent cells induce senescence in neighbouring healthy cells, spreading the senescence
   phenotype through tissues.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

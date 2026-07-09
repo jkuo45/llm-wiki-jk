@@ -3,7 +3,6 @@ title: Assay
 description: An Assay is an investigative (analytic) procedure in laboratory medicine,
   pharmacology, environmental biology and molecular biology for qualitatively assessing
   or quantitatively measuring the p...
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

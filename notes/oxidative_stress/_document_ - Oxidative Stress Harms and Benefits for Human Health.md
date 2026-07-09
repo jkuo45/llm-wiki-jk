@@ -4,7 +4,6 @@ description: Oxidative stress is a phenomenon caused by an imbalance between pro
   and accumulation of oxygen reactive species (ROS) in cells and tissues and the ability
   of a biological system to detoxify these reactive products. ROS can play, and in
   fact ...
-type: document
 created: 2026-05-09
 source: https://pmc.ncbi.nlm.nih.gov/articles/PMC5551541/
 author:

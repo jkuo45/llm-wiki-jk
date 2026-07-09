@@ -1,7 +1,6 @@
 ---
 title: Luteolin
 description: Luteolin is a common flavonoid found in many plants, including celery, broccoli, and green peppers, with anti-inflammatory and neuroprotective properties.
-type: entity
 created: 2026-05-25
 updated: 2026-07-07
 tags:

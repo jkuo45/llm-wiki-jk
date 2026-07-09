@@ -3,7 +3,6 @@ title: Onchocerca volvulus
 description: A filarial nematode causing onchocerciasis (river blindness); transmitted
   by blackflies of the genus Simulium; responsible for ~21 million infections globally,
   99% in 31 African countries.
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:

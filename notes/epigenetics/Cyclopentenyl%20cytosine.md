@@ -1,7 +1,6 @@
 ---
 title: Cyclopentenyl cytosine
 description: Cyclopentenyl cytosine is a chemical compound that acts as a nucleoside analog and CTP synthetase inhibitor, capable of inducing cellular senescence.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:

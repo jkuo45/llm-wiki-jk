@@ -1,7 +1,6 @@
 ---
 title: TGFβ
 description: Transforming growth factor beta is an early SASP factor that drives paracrine senescence, EMT, fibrosis, and immune suppression via TGFBR-SMAD2/3 signaling.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

@@ -3,7 +3,6 @@ title: Sarcopenia
 description: Sarcopenia is the progressive and generalized loss of skeletal muscle
   mass and strength. It is a serious problem among older populations and is associated
   with increased Oxidative Stress and Inflam...
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

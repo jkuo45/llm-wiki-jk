@@ -1,7 +1,6 @@
 ---
 title: CYCLIN B1
 description: CYCLIN B1 is the regulatory subunit of the CDK1–Cyclin B1 maturation-promoting factor that drives G2/M progression and, by phosphorylating Caspase-2 at Ser308, inhibits apoptosis during mitosis.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

@@ -3,7 +3,6 @@ title: Antidotum Mithridaticum
 description: Antidotum Mithridaticum, also known as Mithridatium, was a complex potion
   containing numerous poisonous compounds in small doses, used historically to protect
   against lethal assaults through the pr...
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

@@ -1,9 +1,8 @@
 ---
 title: Intermittent Fasting
-description: 'Intermittent Fasting (IF) refers to eating patterns that cycle between
+description: Intermittent Fasting (IF) refers to eating patterns that cycle between
   periods of fasting and eating. It is widely studied for its ability to induce Autophagy
-  and improve metabolic health.'
-type: entity
+  and improve metabolic health.
 created: 2026-07-04
 updated: 2026-07-04
 tags:

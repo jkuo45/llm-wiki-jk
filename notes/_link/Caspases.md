@@ -1,9 +1,8 @@
 ---
 title: Caspases
-description: 'Caspases are a family of cysteine proteases that play essential
+description: Caspases are a family of cysteine proteases that play essential
   roles in Apoptosis, Inflammation, and Pyroptosis. They are synthesized as inactive
-  zymogens (procaspases) and activated by proteo...'
-type: entity
+  zymogens (procaspases) and activated by proteo...
 created: 2026-07-04
 updated: 2026-07-04
 tags:

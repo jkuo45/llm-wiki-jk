@@ -1,9 +1,8 @@
 ---
 title: Emphysema
-description: 'Etiology and pathophysiology: Emphysema is a medical condition characterized
+description: 'Etiology and pathophysiology: Emphysema is a medical condition characterized'
   by specific pathological changes in cellular, tissue, or organ function. Its development
-  involves genetic, environme...'
-type: entity
+  involves genetic, environme...
 created: 2026-07-04
 updated: 2026-07-04
 tags:

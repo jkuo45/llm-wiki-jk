@@ -3,7 +3,6 @@ title: Angiostatin
 description: Endogenous anti-angiogenic protein fragment generated from plasminogen
   by MMPs (especially MMP-12), inhibiting endothelial cell proliferation and tumour
   angiogenesis.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

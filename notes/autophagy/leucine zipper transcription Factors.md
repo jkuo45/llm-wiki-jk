@@ -3,7 +3,6 @@ title: leucine zipper transcription Factors
 description: Leucine zipper transcription factors are a class of DNA-binding proteins,
   including the MiT/TFEB family, characterized by a leucine zipper structural motif
   required for dimerization.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

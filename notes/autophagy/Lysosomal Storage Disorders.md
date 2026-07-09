@@ -3,7 +3,6 @@ title: Lysosomal Storage Disorders
 description: Lysosomal storage disorders (LSDs) are a group of inherited metabolic
   diseases characterized by lysosomal dysfunction; targeting TFEB to enhance lysosomal
   biogenesis is a major therapeutic strategy.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:

@@ -1,7 +1,6 @@
 ---
 title: IFITM3
 description: Interferon-induced transmembrane protein 3, an antiviral restriction factor enriched in plasma exosomes of elderly individuals that induces paracrine senescence.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

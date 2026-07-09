@@ -3,7 +3,6 @@ title: VCAM-1
 description: Vascular cell adhesion protein 1 (VCAM-1) is a protein that mediates
   the adhesion of lymphocytes, monocytes, eosinophils, and basophils to vascular endothelium.
   Its expression is upregulated in res...
-type: entity
 created: 2026-05-09
 updated: 2026-07-04
 tags:

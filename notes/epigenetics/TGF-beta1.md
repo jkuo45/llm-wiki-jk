@@ -1,9 +1,8 @@
 ---
 title: TGF-beta1
-description: 'TGF-beta1 (Transforming growth factor beta 1, TGF-beta1) is a polypeptide
+description: TGF-beta1 (Transforming growth factor beta 1, TGF-beta1) is a polypeptide
   member of the transforming growth factor beta superfamily of cytokines. It is a
-  secreted protein that performs many cel...'
-type: entity
+  secreted protein that performs many cel...
 created: 2024-01-01
 updated: 2026-07-05
 tags:

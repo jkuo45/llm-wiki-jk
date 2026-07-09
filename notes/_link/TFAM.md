@@ -1,7 +1,6 @@
 ---
 title: TFAM
 description: Mitochondrial transcription factor A, a nuclear-encoded regulator of mitochondrial DNA replication, transcription, and nucleoid architecture; induced by mTOR inhibition to support mitochondrial renewal.
-type: entity
 created: 2026-07-07
 updated: 2026-07-07
 tags:

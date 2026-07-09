@@ -1,10 +1,9 @@
 ---
 title: AP4
-description: 'AP4 (Adaptor Protein complex 4) is a vesicle adaptor complex that
+description: AP4 (Adaptor Protein complex 4) is a vesicle adaptor complex that
   facilitates the transport of proteins from the trans-Golgi network to the endosomal
   system and is required for Autophagic Lysosome Reformation by enriching lysosomal
-  membrane proteins.'
-type: entity
+  membrane proteins.
 created: 2026-07-04
 updated: 2026-07-07
 tags:

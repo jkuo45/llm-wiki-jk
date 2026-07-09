@@ -1,8 +1,7 @@
 ---
 title: Adrenochrome sulfonate
-description: 'Adrenochrome sulfonate is a degradation product formed by the reaction
-  of Adrenochrome with Bisulfite antioxidants in the presence of light.'
-type: entity
+description: Adrenochrome sulfonate is a degradation product formed by the reaction
+  of Adrenochrome with Bisulfite antioxidants in the presence of light.
 created: 2026-07-04
 updated: 2026-07-04
 tags:

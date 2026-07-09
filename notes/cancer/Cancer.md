@@ -3,7 +3,6 @@ title: Cancer
 description: Cancer is a large group of diseases characterized by uncontrolled cell
   growth with the potential to invade or spread to other parts of the body. It shares
   a "meta-hallmark" of epigenetic instabilit...
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

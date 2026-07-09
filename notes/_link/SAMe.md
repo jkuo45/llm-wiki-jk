@@ -2,7 +2,6 @@
 title: SAMe
 description: SAMe (S-adenosylmethionine) is a naturally occurring compound that is
   a major Methyl Donor in the body. It is involved in over 100 biochemical reactions.
-type: entity
 created: 2026-05-25
 updated: 2026-07-04
 tags:

@@ -1,7 +1,6 @@
 ---
 title: CCL18
 description: C-C motif chemokine ligand 18 (PARC), a SASP chemokine associated with mortality and used as a senescence biomarker.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

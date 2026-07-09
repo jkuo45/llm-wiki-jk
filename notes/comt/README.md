@@ -1,5 +1,4 @@
 ---
-type: index
 title: Comt notes
 aliases: []
 description: Index of wiki notes for comt

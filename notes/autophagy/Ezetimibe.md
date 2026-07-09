@@ -2,7 +2,6 @@
 title: Ezetimibe
 description: Ezetimibe is a cholesterol-lowering drug that ameliorates steatohepatitis
   via AMPK-mediated activation of TFEB and subsequent autophagy.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

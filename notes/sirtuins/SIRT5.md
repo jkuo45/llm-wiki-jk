@@ -3,7 +3,6 @@ title: SIRT5
 description: SIRT5 (Sirtuin 5) is a mitochondrial sirtuin and the sole mammalian member
   of phylogenetic Class III sirtuins — a class distributed widely in all prokaryotes
   (both bacteria and archaea). This deep ...
-type: entity
 created: 2026-07-02
 updated: 2026-07-05
 tags:

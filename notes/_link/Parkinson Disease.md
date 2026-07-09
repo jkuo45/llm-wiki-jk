@@ -1,7 +1,6 @@
 ---
 title: Parkinson Disease
 description: Neurodegenerative disorder linked to cellular senescence, inflammaging, and a distinguishable circulating SASP signature.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

@@ -3,7 +3,6 @@ title: Xenohormesis
 description: Xenohormesis is a biological hypothesis proposing that animals have evolved
   to sense chemical cues from stressed plants to prepare for worsening environmental
   conditions. For example, plant molecul...
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

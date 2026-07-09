@@ -1,7 +1,6 @@
 ---
 title: Kynurenic Acid
 description: Kynurenic acid (KynA) is a neuroactive metabolite of the kynurenine pathway that acts as an NMDA receptor antagonist, providing neuroprotection that counterbalances the excitotoxic effects of quinolinic acid.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

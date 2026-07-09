@@ -1,9 +1,8 @@
 ---
 title: Nonalcoholic Steatohepatitis
-description: 'Etiology and pathophysiology: Nonalcoholic Steatohepatitis is a
+description: 'Etiology and pathophysiology: Nonalcoholic Steatohepatitis is a'
   medical condition characterized by specific pathological changes in cellular, tissue,
-  or organ function. Its development involves...'
-type: entity
+  or organ function. Its development involves...
 created: 2026-07-04
 updated: 2026-07-04
 tags:

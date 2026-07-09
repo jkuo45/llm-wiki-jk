@@ -3,7 +3,6 @@ title: SIRT6
 description: SIRT6 (Sirtuin 6) is a nuclear, chromatin-associated sirtuin classified
   in phylogenetic Class IVa alongside its nucleolar homolog SIRT7 (Class IVb). As
   a "longevity gene," SIRT6 serves as an essent...
-type: entity
 created: 2026-07-02
 updated: 2026-07-03
 tags:

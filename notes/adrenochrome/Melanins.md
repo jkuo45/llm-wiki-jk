@@ -1,7 +1,6 @@
 ---
 title: Melanins
-description: 'Melanins are a broad group of natural pigments found in most organisms.'
-type: entity
+description: Melanins are a broad group of natural pigments found in most organisms.
 created: 2026-07-04
 updated: 2026-07-04
 tags:

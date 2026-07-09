@@ -4,7 +4,6 @@ description: The CLEAR Element (Coordinated Lysosomal Expression and Regulation)
   is a 10-base pair consensus sequence (5′-GTCACGTGAC-3′) found in the promoter regions
   of many lysosomal and autophagic genes, serving as a binding site for TFEB and TFE3
   to coordinate Lysosome biogenesis.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:

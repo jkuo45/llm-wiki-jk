@@ -1,7 +1,6 @@
 ---
 title: Idiopathic Pulmonary Fibrosis
 description: Progressive age-related lung fibrosis driven by senescent fibroblast accumulation and a pro-fibrotic SASP (IL-11, leukotrienes).
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

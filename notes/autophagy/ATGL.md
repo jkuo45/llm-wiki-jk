@@ -1,8 +1,7 @@
 ---
 title: ATGL
-description: 'ATGL (Adipose Triglyceride Lipase) is a key enzyme involved in cytosolic
-  lipolysis, catalyzing the initial step of triglyceride breakdown in Lipid Droplets.'
-type: entity
+description: ATGL (Adipose Triglyceride Lipase) is a key enzyme involved in cytosolic
+  lipolysis, catalyzing the initial step of triglyceride breakdown in Lipid Droplets.
 created: 2026-07-04
 updated: 2026-07-04
 tags:

@@ -1,9 +1,8 @@
 ---
 title: Adrenochromatization
-description: 'Adrenochromatization refers to the process or state of increasing
+description: Adrenochromatization refers to the process or state of increasing
   systemic or localized levels of Adrenochrome and its reactive intermediates, particularly
-  in the context of controlled experime...'
-type: entity
+  in the context of controlled experime...
 created: 2026-07-04
 updated: 2026-07-04
 tags:

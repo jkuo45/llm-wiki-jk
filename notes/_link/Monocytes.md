@@ -3,7 +3,6 @@ title: Monocytes
 description: Circulating mononuclear leukocytes of the innate immune system that differentiate
   into macrophages and dendritic cells upon tissue infiltration, serving as key effectors
   of inflammation and tissue remodelling.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

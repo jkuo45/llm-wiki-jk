@@ -3,7 +3,6 @@ title: French Paradox
 description: The French Paradox is the epidemiological observation that French
   populations exhibit a relatively low incidence of Cardiovascular Disease and Atherosclerosis
   despite a diet rich in saturated f...
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

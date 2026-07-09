@@ -1,7 +1,6 @@
 ---
 title: Rasburicase
 description: '- Methemoglobinemia: A potential adverse effect of Rasburicase.'
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

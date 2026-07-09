@@ -1,7 +1,6 @@
 ---
 title: SCF Complex
 description: The SCF (Skp1-Cul1-F-box) complex is a multisubunit E3 ubiquitin ligase that targets phosphorylated substrates such as Mcl-1 and Bim for proteasomal degradation, regulating apoptosis and cell-cycle progression.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

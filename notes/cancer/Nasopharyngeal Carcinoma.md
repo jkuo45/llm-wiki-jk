@@ -1,7 +1,6 @@
 ---
 title: Nasopharyngeal Carcinoma
 description: Nasopharyngeal carcinoma (NPC) is an EBV-associated epithelial malignancy of the nasopharynx, prevalent in southern China, with distinct molecular and therapeutic features.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

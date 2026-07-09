@@ -11,7 +11,6 @@ tags:
   - methylene-blue
   - aminoguanidine
   - nitric-oxide-pathway
-type: document
 ---
 
 # Methylene Blue and Aminoguanidine

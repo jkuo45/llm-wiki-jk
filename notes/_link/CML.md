@@ -1,9 +1,8 @@
 ---
 title: CML
-description: 'Etiology and pathophysiology: CML is a medical condition characterized
+description: 'Etiology and pathophysiology: CML is a medical condition characterized'
   by specific pathological changes in cellular, tissue, or organ function. Its development
-  involves genetic, environmental, ...'
-type: entity
+  involves genetic, environmental, ...
 created: 2026-07-04
 updated: 2026-07-04
 tags:

@@ -3,7 +3,6 @@ title: Genistein
 description: Genistein is an isoflavone that is described as an angiogenesis inhibitor
   and a phytoestrogen. It belongs to the class of Flavonoids and exhibits significant
   antioxidant activity, contributing to t...
-type: entity
 created: 2026-05-09
 updated: 2026-07-04
 tags:

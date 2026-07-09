@@ -1,9 +1,8 @@
 ---
 title: SLC-36.1
-description: 'SLC-36.1 is a neutral amino acid transporter (homologue of mammalian
+description: SLC-36.1 is a neutral amino acid transporter (homologue of mammalian
   SLC36A1-4/PAT1-4) that localizes to Lysosomes and cooperates with PIKfyve to regulate
-  Phagocytic Lysosome Reformation.'
-type: entity
+  Phagocytic Lysosome Reformation.
 created: 2026-07-04
 updated: 2026-07-04
 tags:

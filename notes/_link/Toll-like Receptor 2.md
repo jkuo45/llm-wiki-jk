@@ -1,7 +1,6 @@
 ---
 title: Toll-like Receptor 2
 description: TLR2, an innate immunity sensor upregulated in senescent cells that activates an immunity-regulating SASP.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

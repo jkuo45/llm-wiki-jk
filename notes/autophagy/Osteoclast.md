@@ -2,7 +2,6 @@
 title: Osteoclast
 description: A type of bone cell that breaks down bone tissue, whose function involves
   specialized lysosomal secretion regulated by TFEB and MITF.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

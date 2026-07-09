@@ -3,7 +3,6 @@ title: DJ-1
 description: DJ-1 (encoded by the PARK7 gene) is a highly conserved, multifunctional
   protein that acts as a sensor of oxidative stress and protects neurons against
   neurodegeneration.
-type: entity
 created: 2026-07-04
 updated: 2026-07-06
 tags:

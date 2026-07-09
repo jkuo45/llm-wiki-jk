@@ -2,7 +2,6 @@
 title: Adaptive Immune Response
 description: The Adaptive Immune Response is a highly specific immune mechanism
   characterized by memory and the ability to recognize specific antigens.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

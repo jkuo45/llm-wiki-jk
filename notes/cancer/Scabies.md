@@ -1,7 +1,6 @@
 ---
 title: Scabies
 description: Scabies is a contagious skin infestation by the mite Sarcoptes scabiei, characterized by intense itching and a pimple-like rash. It affects over 200 million people worldwide.
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:

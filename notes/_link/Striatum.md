@@ -3,7 +3,6 @@ title: Striatum
 description: The Striatum (also known as the neostriatum or caudate-putamen)
   is a subcortical part of the forebrain and a critical component of the Basal Ganglia.
   It consists of the Caudate Nucleus ...
-type: entity
 created: 2026-07-04
 updated: 2026-07-05
 tags:

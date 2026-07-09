@@ -3,7 +3,6 @@ title: AGK2
 description: AGK2 is a potent, cell-permeable, and selective small-molecule inhibitor
   of SIRT2. It is widely utilized in neurobiology and oncology research to study the
   pathogenic consequences of SIRT2 activity...
-type: entity
 created: 2026-07-03
 updated: 2026-07-03
 tags:

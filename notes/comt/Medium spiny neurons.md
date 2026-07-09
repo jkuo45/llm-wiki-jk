@@ -1,7 +1,6 @@
 ---
 title: Medium spiny neurons
 description: Medium spiny neurons (MSNs) are GABAergic inhibitory cells constituting ~95% of neurons in the striatum and the principal targets of dopaminergic inputs.
-type: entity
 created: 2026-05-25
 updated: 2026-07-07
 tags:

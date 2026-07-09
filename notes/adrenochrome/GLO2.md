@@ -2,7 +2,6 @@
 title: GLO2
 description: GLO2 (Glyoxalase 2, or hydroxyacylglutathione hydrolase) is the second
   enzyme in the cellular Glyoxalase System.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

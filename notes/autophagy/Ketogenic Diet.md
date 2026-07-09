@@ -2,7 +2,6 @@
 title: Ketogenic Diet
 description: A Ketogenic Diet is a high-fat, adequate-protein, low-carbohydrate
   dietary regimen that forces the body to burn fats rather than carbohydrates.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

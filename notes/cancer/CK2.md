@@ -1,7 +1,6 @@
 ---
 title: CK2
 description: CK2 (Casein kinase 2) is a ubiquitous, constitutively active serine/threonine kinase that phosphorylates Caspase-2 at Ser157 and Bid, inhibiting their pro-apoptotic functions and promoting oncogenic survival.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

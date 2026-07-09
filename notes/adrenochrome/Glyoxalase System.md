@@ -2,7 +2,6 @@
 title: Glyoxalase System
 description: The Glyoxalase System is the primary cellular defense pathway against
   dicarbonyl stress and the accumulation of Advanced Glycation End Products (AGEs).
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

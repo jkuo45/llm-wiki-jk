@@ -2,7 +2,6 @@
 title: Torin1
 description: Torin1 is a potent inhibitor of mTORC1 and mTORC2 that induces the nuclear
   translocation of TFEB by blocking its inhibitory phosphorylation.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

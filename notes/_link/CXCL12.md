@@ -1,7 +1,6 @@
 ---
 title: CXCL12
 description: C-X-C motif chemokine ligand 12 (SDF-1), a homeostatic ELR− SASP chemokine that binds CXCR4/CXCR7 and cooperates with MMPs to drive cancer metastasis.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

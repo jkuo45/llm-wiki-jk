@@ -2,7 +2,6 @@
 title: Birt-Hogg-Dube syndrome
 description: A rare genetic disorder characterized by skin tumors, lung cysts, and
   an increased risk of Renal Cell Carcinoma, caused by mutations in Folliculin.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

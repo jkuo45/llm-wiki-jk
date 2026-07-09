@@ -3,7 +3,6 @@ title: RAD51
 description: RAD51 is a recombinase enzyme essential for Homologous Recombination
   (HR) repair of Double-Strand Breaks and DNA Interstrand Crosslinks. It forms helical
   filaments on single-stranded DNA, catalyzin...
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:

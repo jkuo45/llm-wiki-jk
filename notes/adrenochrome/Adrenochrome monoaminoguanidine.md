@@ -3,7 +3,6 @@ title: Adrenochrome monoaminoguanidine
 description: Adrenochrome monoaminoguanidine is a stabilized derivative of Adrenochrome
   formed by the reaction with Aminoguanidine. Like Carbazochrome, it is used as a
   Hemostatics agent.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:

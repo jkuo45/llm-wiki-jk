@@ -1,7 +1,6 @@
 ---
 title: Cyclin
-description: 'Cyclins are regulatory proteins that control the progression of the cell cycle by activating cyclin-dependent kinases.'
-type: entity
+description: Cyclins are regulatory proteins that control the progression of the cell cycle by activating cyclin-dependent kinases.
 created: 2026-07-06
 updated: 2026-07-06
 tags:

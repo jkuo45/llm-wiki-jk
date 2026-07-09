@@ -1,9 +1,8 @@
 ---
 title: Macroautophagy
-description: 'Macroautophagy is the primary and most well-studied type of Autophagy.
+description: Macroautophagy is the primary and most well-studied type of Autophagy.
   It involves the sequestration of cytoplasmic components into double-membrane vesicles
-  called Autophagosome, which then fus...'
-type: entity
+  called Autophagosome, which then fus...
 created: 2026-07-04
 updated: 2026-07-04
 tags:

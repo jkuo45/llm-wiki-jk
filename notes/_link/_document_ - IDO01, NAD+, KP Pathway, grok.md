@@ -1,10 +1,10 @@
 ---
-title: "indoleamine 2,3-dioxygenase "
-source: "https://x.com/i/grok?conversation=2072855166655865290"
+title: indoleamine 2,3-dioxygenase 
+source: https://x.com/i/grok?conversation=2072855166655865290
 author:
 published:
 created: 2026-07-02
-description: "Indoleamine 2,3-dioxygenase 1 (IDO1) is a heme-containing enzyme that catalyzes the first and rate-limiting step in the kynurenine pathway (KP) of tryptophan (Trp) catabolism. It oxidizes L-tryptophan (and some other indoleamine substrates) to N-formylkynurenine in an O₂-dependent reaction. N-formylkynurenine is then rapidly converted to kynurenine (Kyn)."
+description: Indoleamine 2,3-dioxygenase 1 (IDO1) is a heme-containing enzyme that catalyzes the first and rate-limiting step in the kynurenine pathway (KP) of tryptophan (Trp) catabolism. It oxidizes L-tryptophan (and some other indoleamine substrates) to N-formylkynurenine in an O₂-dependent reaction. N-formylkynurenine is then rapidly converted to kynurenine (Kyn).
 tags:
   - "clippings"
 ---

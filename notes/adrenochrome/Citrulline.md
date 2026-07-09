@@ -2,7 +2,6 @@
 title: Citrulline
 description: Citrulline is an amino acid metabolite primarily known for its role in
   the urea cycle and as a precursor for nitric oxide synthesis.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

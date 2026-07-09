@@ -3,7 +3,6 @@ title: Asthma
 description: Asthma is a common long-term inflammatory disease of the airways of the
   lungs. It is characterized by variable and recurring symptoms including reversible
   airflow obstruction and bronchospasm. Oxid...
-type: entity
 created: 2026-05-09
 updated: 2026-07-04
 tags:

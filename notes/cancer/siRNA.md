@@ -1,9 +1,8 @@
 ---
 title: siRNA
-description: 'siRNA (Small interfering RNA), also known as silencing RNA, is a
+description: siRNA (Small interfering RNA), also known as silencing RNA, is a
   class of double-stranded RNA molecules, typically 20-25 base pairs in length, that
-  operate within the RNA interference (RNAi) pa...'
-type: entity
+  operate within the RNA interference (RNAi) pa...
 created: 2026-07-06
 updated: 2026-07-06
 tags:

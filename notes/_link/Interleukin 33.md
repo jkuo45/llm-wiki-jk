@@ -1,7 +1,6 @@
 ---
 title: Interleukin 33
 description: Interleukin-33 is an IL-1-family alarmin and IL-1β-dependent SASP factor secreted by senescent hepatic stellate cells that promotes hepatocellular carcinoma.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

@@ -1,9 +1,8 @@
 ---
 title: EPR spectroscopy
-description: 'Electron paramagnetic resonance (EPR) spectroscopy, also known as
+description: Electron paramagnetic resonance (EPR) spectroscopy, also known as
   electron spin resonance (ESR), is a technique that detects species with unpaired
-  Electron (paramagnetic species), including Fre...'
-type: entity
+  Electron (paramagnetic species), including Fre...
 created: 2026-07-04
 updated: 2026-07-06
 tags:

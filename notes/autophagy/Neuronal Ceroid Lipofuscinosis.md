@@ -2,7 +2,6 @@
 title: Neuronal Ceroid Lipofuscinosis
 description: A group of inherited neurodegenerative disorders known as Batten disease,
   characterized by the accumulation of lipopigments in Lysosome.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

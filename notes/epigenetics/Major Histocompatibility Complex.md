@@ -1,7 +1,6 @@
 ---
 title: Major Histocompatibility Complex
 description: A genomic region encoding cell-surface glycoproteins that present peptide antigens to T cells, determining histocompatibility and immune recognition.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:

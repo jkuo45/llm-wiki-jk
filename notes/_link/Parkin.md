@@ -3,7 +3,6 @@ title: Parkin
 description: An E3 ubiquitin ligase that plays a critical role in Mitophagy. It is
   recruited to damaged mitochondria by PINK1 and labels them for degradation by the
   lysosome.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

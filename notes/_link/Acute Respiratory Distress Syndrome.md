@@ -2,7 +2,6 @@
 title: Acute Respiratory Distress Syndrome
 description: ARDS is acute inflammatory lung injury causing
   hypoxemic respiratory failure; methylene blue has no proven role.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

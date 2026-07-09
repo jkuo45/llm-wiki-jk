@@ -1,7 +1,6 @@
 ---
 title: Cholesterol
 description: Cholesterol is a type of lipid molecule that is essential for cell membrane structure and as a precursor for steroid hormones, but its oxidation leads to Oxidized LDL and contributes to Atherosclerosis.
-type: entity
 created: 2026-05-09
 updated: 2026-07-07
 tags:

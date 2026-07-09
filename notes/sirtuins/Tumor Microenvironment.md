@@ -3,7 +3,6 @@ title: Tumor Microenvironment
 description: The Tumor Microenvironment (TME) refers to the complex, heterogeneous
   cellular and non-cellular milieu surrounding and infiltrating a tumor mass. It profoundly
   influences tumor growth, invasion, me...
-type: entity
 created: 2026-07-03
 updated: 2026-07-03
 tags:

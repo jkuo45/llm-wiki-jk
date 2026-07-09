@@ -3,7 +3,6 @@ title: Transcriptome
 description: A transcriptome is the complete set of RNA transcripts (including mRNA,
   rRNA, tRNA, and non-coding RNA) produced by the genome at a specific time or under
   a specific condition.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

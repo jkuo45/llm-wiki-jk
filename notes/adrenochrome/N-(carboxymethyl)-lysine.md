@@ -2,7 +2,6 @@
 title: N-(carboxymethyl)-lysine
 description: N-(carboxymethyl)-lysine (CML) is a well-characterized and major compound
   within the class of Advanced Glycation End Products (AGEs).
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

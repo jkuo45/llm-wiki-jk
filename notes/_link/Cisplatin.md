@@ -3,7 +3,6 @@ title: Cisplatin
 description: Cisplatin is a platinum-based chemotherapy drug widely used to treat
   various types of Cancer, whose therapeutic efficacy can be enhanced by Intermittent
   Fasting.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

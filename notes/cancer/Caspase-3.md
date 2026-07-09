@@ -1,9 +1,8 @@
 ---
 title: Caspase-3
-description: 'Caspase-3 is a protease enzyme that plays a central role in the
+description: Caspase-3 is a protease enzyme that plays a central role in the
   execution-phase of cell Apoptosis. It is the primary executioner caspase, responsible
-  for cleaving a wide array of cellular subst...'
-type: entity
+  for cleaving a wide array of cellular subst...
 created: 2026-07-04
 updated: 2026-07-05
 tags:

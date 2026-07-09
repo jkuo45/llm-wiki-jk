@@ -1,7 +1,6 @@
 ---
 title: Caspase-6
 description: Caspase-6 is an executioner caspase activated in the terminal phase of apoptosis, best known for cleaving nuclear lamin A to drive nuclear disassembly and chromatin condensation.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

@@ -1,7 +1,6 @@
 ---
 title: MMP-3
 description: Matrix metalloproteinase-3 (stromelysin-1), a SASP protease that remodels the ECM and promotes EMT, tumorigenesis and tissue ageing.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

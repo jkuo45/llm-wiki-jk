@@ -1,7 +1,6 @@
 ---
 title: TNKS2
 description: Tankyrase 2 (TNKS2/PARP5B) is a poly(ADP-ribose) polymerase that PARsylates target proteins including TFEB, regulating their stability and function; it shares redundant roles with TNKS1 in telomere and Wnt signaling.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:

@@ -2,7 +2,6 @@
 title: Hematopoietic Stem Cell
 description: Multipotent stem cells that give rise to all blood cell types through
   haematopoiesis
-type: entity
 created: 2024-01-01
 updated: 2024-01-01
 tags:

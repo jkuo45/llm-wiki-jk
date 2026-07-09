@@ -1,8 +1,7 @@
 ---
 title: EDTA
-description: 'EDTA (Ethylenediaminetetraacetic acid) is a chelating agent used
-  to bind metal ions such as iron and copper.'
-type: entity
+description: EDTA (Ethylenediaminetetraacetic acid) is a chelating agent used
+  to bind metal ions such as iron and copper.
 created: 2024-01-01
 updated: 2024-01-01
 tags:

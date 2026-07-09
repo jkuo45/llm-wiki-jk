@@ -1,7 +1,6 @@
 ---
 title: CD8 T cells
 description: Cytotoxic CD8+ T lymphocytes that mediate pathogen-specific and anti-tumor immunity; their memory subset is increased by mTOR inhibition, improving vaccine responses.
-type: entity
 created: 2026-07-07
 updated: 2026-07-07
 tags:

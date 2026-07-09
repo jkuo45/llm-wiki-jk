@@ -1,7 +1,6 @@
 ---
 title: BMP Signaling Pathway
 description: Bone Morphogenetic Protein (BMP) signaling is a branch of the TGF-β superfamily that regulates bone formation, embryonic patterning, neurodevelopment, and tissue homeostasis through SMAD-dependent and SMAD-independent transduction.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:

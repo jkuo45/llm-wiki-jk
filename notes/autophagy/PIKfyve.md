@@ -1,9 +1,8 @@
 ---
 title: PIKfyve
-description: 'PIKfyve is a phosphoinositide 5-kinase that converts PtdIns3P to
+description: PIKfyve is a phosphoinositide 5-kinase that converts PtdIns3P to
   PtdIns(3,5)P2, playing a critical role in Lysosome biogenesis and reformation by
-  activating TRPML1.'
-type: entity
+  activating TRPML1.
 created: 2026-07-04
 updated: 2026-07-04
 tags:

@@ -1,7 +1,6 @@
 ---
 title: BAFF
 description: B-cell activating factor (TNFSF13B), a TNF-superfamily cytokine secreted by senescent cells that reinforces the SASP and links senescence to adaptive immunity.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

@@ -1,7 +1,6 @@
 ---
 title: FGF21
 description: Fibroblast growth factor 21, an endocrine hormone of the FGF19 subfamily that regulates glucose and lipid metabolism, ketogenesis, and energy expenditure. Induced by mitochondrial stress and acts as a Mitokine.
-type: entity
 created: 2026-07-04
 updated: 2026-07-06
 tags:

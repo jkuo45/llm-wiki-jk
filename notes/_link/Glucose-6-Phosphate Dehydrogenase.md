@@ -3,7 +3,6 @@ title: Glucose-6-Phosphate Dehydrogenase
 description: Glucose-6-phosphate dehydrogenase (G6PD) is the rate-limiting enzyme
   of the pentose phosphate pathway, generating NADPH that regenerates
   reduced glutathione to protect erythrocytes from oxidative stress.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

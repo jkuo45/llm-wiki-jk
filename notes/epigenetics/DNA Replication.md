@@ -1,7 +1,6 @@
 ---
 title: DNA Replication
-description: 'DNA replication is the biological process of producing two identical replicas of DNA from one original DNA molecule.'
-type: entity
+description: DNA replication is the biological process of producing two identical replicas of DNA from one original DNA molecule.
 created: 2026-07-06
 updated: 2026-07-06
 tags:

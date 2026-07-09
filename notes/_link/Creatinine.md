@@ -1,7 +1,6 @@
 ---
 title: Creatinine
-description: "A breakdown product of creatine phosphate in muscle, produced at a relatively constant rate and excreted by the kidneys; serum creatinine is the most widely used clinical biomarker of renal function."
-type: entity
+description: A breakdown product of creatine phosphate in muscle, produced at a relatively constant rate and excreted by the kidneys; serum creatinine is the most widely used clinical biomarker of renal function.
 created: 2026-07-08
 updated: 2026-07-08
 tags:

@@ -1,7 +1,6 @@
 ---
 title: IL-1β
 description: Interleukin-1 beta is a pro-inflammatory cytokine processed by the NLRP3 inflammasome and a master regulator of the SASP.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

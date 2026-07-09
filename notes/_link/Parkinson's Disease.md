@@ -3,7 +3,6 @@ title: Parkinson's Disease
 description: Parkinson's disease is a long-term degenerative disorder of the central
   nervous system that mainly affects the motor system. It is characterized by the
   loss of Dopamine-producing neurons in the Sub...
-type: entity
 created: 2026-05-29
 updated: 2026-05-29
 tags:

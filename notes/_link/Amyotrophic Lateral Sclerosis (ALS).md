@@ -1,9 +1,8 @@
 ---
 title: Amyotrophic Lateral Sclerosis (ALS)
-description: 'A fatal neurodegenerative disease characterized by progressive loss of
+description: A fatal neurodegenerative disease characterized by progressive loss of
   upper and lower motor neurons, leading to muscle atrophy, paralysis, and respiratory
-  failure.'
-type: entity
+  failure.
 created: 2026-07-08
 updated: 2026-07-08
 tags:

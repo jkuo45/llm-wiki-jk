@@ -3,7 +3,6 @@ title: Mitochondrial Electron Transport Chain
 description: The mitochondrial electron transport chain (ETC) is the series of
   protein complexes in the inner mitochondrial membrane that transfers electrons
   to generate the proton gradient driving ATP synthesis.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

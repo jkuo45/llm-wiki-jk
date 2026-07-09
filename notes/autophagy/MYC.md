@@ -1,8 +1,7 @@
 ---
 title: MYC
-description: 'MYC (c-Myc) is a bHLH-LZ transcription factor that heterodimerizes
-  with MAX to regulate cell proliferation, growth, metabolism, and Autophagy.'
-type: entity
+description: MYC (c-Myc) is a bHLH-LZ transcription factor that heterodimerizes
+  with MAX to regulate cell proliferation, growth, metabolism, and Autophagy.
 created: 2026-07-04
 updated: 2026-07-04
 tags:

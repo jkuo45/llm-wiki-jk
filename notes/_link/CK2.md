@@ -1,7 +1,6 @@
 ---
 title: CK2
 description: Casein kinase 2 is a ubiquitous serine/threonine protein kinase that restrains NF-κB and senescence.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

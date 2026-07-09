@@ -1,5 +1,4 @@
 ---
-type: index
 title: Sirtuins
 aliases: []
 description: index of entities and documents in this directory

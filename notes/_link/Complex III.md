@@ -3,7 +3,6 @@ title: Complex III
 description: Complex III (cytochrome bc1 complex, ubiquinol-cytochrome c oxidoreductase)
   is the third complex of the Electron Transport Chain in the inner Mitochondria membrane.
   It catalyzes the transfer of ele...
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:

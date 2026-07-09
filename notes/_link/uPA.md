@@ -1,7 +1,6 @@
 ---
 title: uPA
 description: Urokinase plasminogen activator, a serine protease of the SASP that converts plasminogen to plasmin and drives ECM remodeling and invasion.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

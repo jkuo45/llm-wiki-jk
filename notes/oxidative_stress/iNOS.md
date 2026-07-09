@@ -1,9 +1,8 @@
 ---
 title: iNOS
-description: 'iNOS (Inducible Nitric Oxide Synthase, NOS2) is a calcium-independent
+description: iNOS (Inducible Nitric Oxide Synthase, NOS2) is a calcium-independent
   isoform of Nitric Oxide Synthase that produces high, sustained fluxes of Nitric
-  Oxide (micromolar range) in response to inf...'
-type: entity
+  Oxide (micromolar range) in response to inf...
 created: 2026-07-04
 updated: 2026-07-04
 tags:

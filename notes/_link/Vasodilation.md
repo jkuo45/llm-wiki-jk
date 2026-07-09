@@ -3,7 +3,6 @@ title: Vasodilation
 description: Vasodilation is the widening of blood vessels via smooth-muscle
   relaxation, lowering vascular resistance; excessive vasodilation underlies
   vasoplegic shock.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

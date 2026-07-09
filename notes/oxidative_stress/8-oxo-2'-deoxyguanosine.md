@@ -3,7 +3,6 @@ title: 8-oxo-2'-deoxyguanosine
 description: 8-oxo-2'-deoxyguanosine (8-oxodG) is an oxidized derivative of deoxyguanosine
   and is one of the major products of DNA oxidation. It is a widely used biomarker
   of Oxidative Stress and is frequently ...
-type: entity
 created: 2026-05-09
 updated: 2026-07-04
 tags:

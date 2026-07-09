@@ -1,9 +1,8 @@
 ---
 title: Isourolithin A
-description: 'Isourolithin A is a microbially derived metabolite and isomer of
+description: Isourolithin A is a microbially derived metabolite and isomer of
   Urolithin A produced by gut bacteria (such as Ellagibacter isourolithinifaciens)
-  from dietary Ellagic acid.'
-type: entity
+  from dietary Ellagic acid.
 created: 2026-07-04
 updated: 2026-07-04
 tags:

@@ -1,9 +1,8 @@
 ---
 title: Respiratory Chain Complex I
-description: 'Complex I (NADH:ubiquinone oxidoreductase) is the largest enzyme
+description: Complex I (NADH:ubiquinone oxidoreductase) is the largest enzyme
   of the Mitochondria electron transport chain. It catalyzes the oxidation of NADH
-  and reduction of ubiquinone, pumping protons ac...'
-type: entity
+  and reduction of ubiquinone, pumping protons ac...
 created: 2026-07-04
 updated: 2026-07-04
 tags:

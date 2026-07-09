@@ -3,7 +3,6 @@ title: TGF-beta
 description: Transforming growth factor beta (TGF-beta) is a multifunctional cytokine
   that plays a role in cell growth, proliferation, and differentiation. It is a key
   mediator of Fibrosis and is influenced by ...
-type: entity
 created: 2026-05-09
 updated: 2026-07-04
 tags:

@@ -3,7 +3,6 @@ title: DAF-16
 description: DAF-16 (abnormal dauer formation 16) is a Caenorhabditis elegans Forkhead
   box class O (FOXO) transcription factor homologue. It is a master regulator of longevity,
   dauer larva development, stress resistance, and metabolism in nematodes.
-type: entity
 created: 2026-07-03
 updated: 2026-07-07
 tags:

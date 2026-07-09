@@ -1,7 +1,6 @@
 ---
 title: Phenothiazine
 description: Phenothiazine is the sulfur- and nitrogen-containing tricyclic heterocyclic scaffold that launched modern psychopharmacology and underlies methylene blue's neuroprotective, redox-cycling activity.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

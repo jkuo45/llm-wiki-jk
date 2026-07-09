@@ -2,7 +2,6 @@
 title: G1 Phase
 description: The G1 Phase (Gap 1 phase) is the first gap phase of the Cell Cycle,
   in which cells grow and prepare for DNA synthesis.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:

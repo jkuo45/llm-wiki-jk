@@ -3,7 +3,6 @@ title: ABCA1
 description: ATP-binding cassette transporter A1 (ABCA1) is a protein which in humans
   is encoded by the ABCA1 gene and is a major regulator of cellular Cholesterol and
   phospholipid homeostasis. It plays a criti...
-type: entity
 created: 2026-05-09
 updated: 2026-07-04
 tags:

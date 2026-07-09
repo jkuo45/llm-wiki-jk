@@ -2,7 +2,6 @@
 title: Trichuriasis
 description: Trichuriasis, also known as whipworm infection, is an infection of the
   large intestine caused by the parasitic worm Trichuris trichiura.
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:

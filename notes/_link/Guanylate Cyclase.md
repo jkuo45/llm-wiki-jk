@@ -2,7 +2,6 @@
 title: Guanylate Cyclase
 description: Guanylate cyclase comprises soluble (sGC) and particulate (pGC)
   isoforms that convert GTP to cyclic GMP; sGC is the nitric-oxide receptor.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

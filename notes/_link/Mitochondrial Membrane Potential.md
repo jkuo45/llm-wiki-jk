@@ -1,7 +1,6 @@
 ---
 title: Mitochondrial Membrane Potential
 description: The mitochondrial membrane potential (ΔΨm) is the proton-motive force across the inner mitochondrial membrane; its glutamate-induced collapse is attenuated by methylene blue and neuroprotective phenothiazines.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

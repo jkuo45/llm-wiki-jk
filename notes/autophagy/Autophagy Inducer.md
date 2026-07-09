@@ -3,7 +3,6 @@ title: Autophagy Inducer
 description: An Autophagy Inducer is a substance or intervention that stimulates
   Autophagy, the cellular process of degrading and recycling damaged organelles and
   proteins. Inducing autophagy is a promising...
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

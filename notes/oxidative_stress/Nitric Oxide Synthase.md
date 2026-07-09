@@ -3,7 +3,6 @@ title: Nitric Oxide Synthase
 description: Nitric oxide synthases (NOSs) are a family of enzymes catalyzing the
   production of Nitric Oxide (NO) from L-arginine. They play a vital role in vascular
   tone and neurotransmission, and their dysfun...
-type: entity
 created: 2026-05-09
 updated: 2026-07-04
 tags:

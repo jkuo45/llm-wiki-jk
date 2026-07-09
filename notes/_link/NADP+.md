@@ -3,7 +3,6 @@ title: NADP+
 description: NADP+ is the oxidized cousin of NAD+ that accepts
   electrons to form NADPH, fueling reductive biosynthesis and
   glutathione-dependent antioxidant defense.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

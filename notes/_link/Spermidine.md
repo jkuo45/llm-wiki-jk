@@ -1,9 +1,8 @@
 ---
 title: Spermidine
-description: 'Spermidine is a naturally occurring polyamine that is found in all
+description: Spermidine is a naturally occurring polyamine that is found in all
   living cells. It is recognized as a potent ''geroprotector'' due to its ability
-  to extend the lifespan of various organisms, inc...'
-type: entity
+  to extend the lifespan of various organisms, inc...
 created: 2026-05-29
 updated: 2026-07-07
 tags:

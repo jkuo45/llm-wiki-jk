@@ -2,7 +2,6 @@
 title: TFEB
 description: Master regulator of the autophagy-lysosome pathway coordinating lysosomal
   biogenesis and autophagy
-type: entity
 created: 2024-01-01
 updated: 2024-01-01
 tags:

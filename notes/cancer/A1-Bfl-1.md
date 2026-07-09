@@ -1,7 +1,6 @@
 ---
 title: A1/Bfl-1
-description: 'A1/Bfl-1 (Bcl-2-related protein A1), encoded by the BCL2A1 gene, is an anti-apoptotic member of the Bcl-2 family.'
-type: entity
+description: A1/Bfl-1 (Bcl-2-related protein A1), encoded by the BCL2A1 gene, is an anti-apoptotic member of the Bcl-2 family.
 created: 2026-07-06
 updated: 2026-07-07
 tags:

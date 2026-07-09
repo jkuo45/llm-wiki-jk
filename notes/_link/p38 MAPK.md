@@ -3,7 +3,6 @@ title: p38 MAPK
 description: p38 mitogen-activated protein kinase (p38 MAPK) is a signaling molecule
   that regulates TFEB by phosphorylating it at S211 (inhibitory) or S401 (activating),
   depending on the cellular context.
-type: entity
 created: 2024-01-01
 updated: 2024-01-01
 tags:

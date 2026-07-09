@@ -1,7 +1,6 @@
 ---
 title: Rutin
 description: Rutin is a citrus flavonoid glycoside (quercetin-3-rutinoside) with antioxidant and vascular actions that is metabolized and can inhibit COMT via its catechol moiety.
-type: entity
 created: 2026-05-25
 updated: 2026-07-07
 tags:

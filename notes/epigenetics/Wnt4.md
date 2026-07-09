@@ -1,7 +1,6 @@
 ---
 title: Wnt4
 description: Wnt4 is a secreted Wnt ligand regulating β-catenin-independent and -dependent signaling in kidney, sex determination, and stem-cell quiescence.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:

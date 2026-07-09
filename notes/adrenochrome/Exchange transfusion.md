@@ -1,7 +1,6 @@
 ---
 title: Exchange transfusion
 description: '- Methemoglobinemia: A treatment of last resort for severe cases.'
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

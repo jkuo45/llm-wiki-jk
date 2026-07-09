@@ -1,9 +1,8 @@
 ---
 title: Mitosis
-description: 'Mitosis is the process of Cell Division in which a single Eukaryotic
+description: Mitosis is the process of Cell Division in which a single Eukaryotic
   Cell divides its duplicated Chromosomes into two identical daughter nuclei. It consists
-  of stages: Prophase, Prometaphase, Metap...'
-type: entity
+  of stages: Prophase, Prometaphase, Metap...
 created: 2026-07-06
 updated: 2026-07-06
 tags:

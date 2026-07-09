@@ -1,7 +1,6 @@
 ---
 title: PAK5
 description: PAK5 (PAK7) is a brain-enriched Group II p21-activated kinase that promotes neuronal survival and is upregulated in carcinomas, where it phosphorylates Bad to suppress apoptosis and support growth.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

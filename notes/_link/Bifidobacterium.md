@@ -3,7 +3,6 @@ title: Bifidobacterium
 description: Bifidobacterium is a genus of Gram-positive, non-motile, often branched
   anaerobic bacteria that are common inhabitants of the gastrointestinal tract and
   are often used as probiotics.
-type: entity
 created: 2024-01-01
 updated: 2024-01-01
 tags:

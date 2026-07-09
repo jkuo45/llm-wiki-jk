@@ -1,7 +1,6 @@
 ---
 title: Histone Methyltransferase
-description: 'Histone Methyltransferase (HMT) is a class of enzymes that add methyl groups to lysine or arginine residues on histone proteins.'
-type: entity
+description: Histone Methyltransferase (HMT) is a class of enzymes that add methyl groups to lysine or arginine residues on histone proteins.
 created: 2024-01-01
 updated: 2026-07-06
 tags:

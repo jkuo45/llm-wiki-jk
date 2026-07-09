@@ -3,7 +3,6 @@ title: Embryonic Stem Cells
 description: Embryonic Stem Cells (ESCs) are pluripotent stem cells derived from the
   inner cell mass of a Blastocyst, an early pre-implantation embryo. They self-renew
   indefinitely and can differentiate into all three germ layers.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:

@@ -3,7 +3,6 @@ title: Serotonin Receptor
 description: Serotonin receptors are the GPCR and ligand-gated ion
   channel targets of serotonin; overstimulation underlies serotonin
   syndrome.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

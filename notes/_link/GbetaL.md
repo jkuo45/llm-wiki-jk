@@ -1,9 +1,8 @@
 ---
 title: GbetaL
-description: 'GβL (also known as mLST8) is a core subunit of both mTORC1 and
+description: GβL (also known as mLST8) is a core subunit of both mTORC1 and
   mTORC2 complexes. It binds the mTOR Kinase Domain, stabilizing catalytic activity
-  and promoting complex assembly. GβL belongs ...'
-type: entity
+  and promoting complex assembly. GβL belongs ...
 created: 2026-07-04
 updated: 2026-07-06
 tags:

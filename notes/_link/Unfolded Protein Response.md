@@ -2,7 +2,6 @@
 title: Unfolded Protein Response
 description: A cellular stress response related to the endoplasmic reticulum (ER)
   stress.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:

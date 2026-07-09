@@ -1,7 +1,6 @@
 ---
 title: Epacadostat
 description: Epacadostat (INCB024360) is a selective, orally available inhibitor of IDO1 that was developed for cancer immunotherapy, often combined with checkpoint inhibitors.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

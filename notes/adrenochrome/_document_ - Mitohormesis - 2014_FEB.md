@@ -4,7 +4,6 @@ description: For many years, mitochondria were viewed as semi-autonomous organel
   required only for cellular energetics. This view has been largely supplanted by
   the concept that mitochondria are fully integrated into the cell and that mitochondrial
   stresses ...
-type: document
 created: 2026-06-12
 source: https://pmc.ncbi.nlm.nih.gov/articles/PMC4016106/
 author:

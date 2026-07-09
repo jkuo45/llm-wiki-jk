@@ -1,7 +1,6 @@
 ---
 title: PDE5 Inhibitors
 description: A class of drugs that inhibit phosphodiesterase type 5, used for erectile dysfunction, pulmonary arterial hypertension, and benign prostatic hyperplasia; noted for multi-indication anti-aging potential.
-type: entity
 created: 2026-07-07
 updated: 2026-07-07
 tags:

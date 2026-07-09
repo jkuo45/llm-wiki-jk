@@ -3,7 +3,6 @@ title: Epigenetic Drift
 description: Epigenetic Drift is the stochastic, age-associated accumulation of random
   epigenetic changes (global hypomethylation, promoter hypermethylation) distinct from
   programmed development; basis of epigenetic clocks.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:

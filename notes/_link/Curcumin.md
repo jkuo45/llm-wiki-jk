@@ -3,7 +3,6 @@ title: Curcumin
 description: Curcumin is a polyphenolic compound derived from _Curcuma longa_ (turmeric)
   with pleiotropic biological activities including Histone Acetyltransferase (HAT)
   inhibition, NF-κB suppression, and antio...
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

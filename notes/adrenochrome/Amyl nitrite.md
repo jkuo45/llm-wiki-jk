@@ -1,7 +1,6 @@
 ---
 title: Amyl nitrite
 description: '- Methemoglobinemia: A common result of Amyl nitrite exposure.'
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

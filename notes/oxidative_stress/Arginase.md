@@ -1,9 +1,8 @@
 ---
 title: Arginase
-description: 'Arginase is a manganese-dependent enzyme that hydrolyzes L-arginine
+description: Arginase is a manganese-dependent enzyme that hydrolyzes L-arginine
   to L-ornithine and urea, competing with Nitric Oxide Synthase (NOS) for their common
-  substrate and thereby regulating NO bioa...'
-type: entity
+  substrate and thereby regulating NO bioa...
 created: 2026-07-04
 updated: 2026-07-04
 tags:

@@ -3,7 +3,6 @@ title: TGF-β
 description: Transforming growth factor-beta (TGF-β) is a multifunctional cytokine
   that regulates various cellular processes; its signaling pathway involves SMAD3,
   which can negatively regulate TFEB expression.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

@@ -3,7 +3,6 @@ title: Natural Killer Cells
 description: Innate lymphoid cells with cytotoxic activity against virus-infected and
   tumour cells, regulated by activating and inhibitory receptors that recognise MHC-I
   and stress ligands.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

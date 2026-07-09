@@ -1,9 +1,8 @@
 ---
 title: Epigenetic Alterations
-description: 'Definition: Epigenetic Alterations is a fundamental biological process
+description: 'Definition: Epigenetic Alterations is a fundamental biological process'
   that maintains cellular and organismal homeostasis. It involves coordinated molecular
-  events regulated by signaling pathwa...'
-type: entity
+  events regulated by signaling pathwa...
 created: 2026-07-04
 updated: 2026-07-04
 tags:

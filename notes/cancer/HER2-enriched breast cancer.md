@@ -1,7 +1,6 @@
 ---
 title: HER2-enriched Breast Cancer
 description: HER2-enriched breast cancer is a subtype of Breast Cancer characterized by overexpression of the HER2 (human epidermal growth factor receptor 2) protein.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

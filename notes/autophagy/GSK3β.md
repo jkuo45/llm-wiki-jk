@@ -3,7 +3,6 @@ title: GSK3β
 description: Glycogen synthase kinase 3β (GSK3β) is a kinase that phosphorylates TFEB
   at S134 and S138, which is required for its lysosomal localization and subsequent
   regulation by mTORC1.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

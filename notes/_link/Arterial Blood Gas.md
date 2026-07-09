@@ -3,7 +3,6 @@ title: Arterial Blood Gas
 description: Arterial blood gas (ABG) directly measures blood pH,
   PaO2, PaCO2, and oxygen saturation; used when pulse oximetry
   is unreliable (e.g., during methylene blue infusion).
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

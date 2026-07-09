@@ -1,7 +1,6 @@
 ---
 title: IL-6
 description: Interleukin-6 is a pleiotropic pro-inflammatory cytokine and a hallmark component of the SASP, acting via IL-6R/gp130 and JAK/STAT3.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

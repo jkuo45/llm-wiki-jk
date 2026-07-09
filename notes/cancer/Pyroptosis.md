@@ -3,7 +3,6 @@ title: Pyroptosis
 description: Pyroptosis is a type of inflammatory cell death induced by inflammasomes.
   It is characterized by cell swelling and rupturing, leading to the release of proinflammatory
   cytokines.
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:

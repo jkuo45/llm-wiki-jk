@@ -3,7 +3,6 @@ title: Inflammaging
 description: Inflammaging is a state of chronic, low-grade, systemic inflammation
   that develops with advanced age and is a major risk factor for many age-related
   diseases.
-type: entity
 created: 2026-05-29
 updated: 2026-05-29
 tags:

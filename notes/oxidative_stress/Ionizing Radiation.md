@@ -3,7 +3,6 @@ title: Ionizing Radiation
 description: Ionizing radiation is radiation, traveling as particles or electromagnetic
   waves, that carries sufficient energy to detach electrons from atoms or molecules,
   thereby ionizing them. This process lea...
-type: entity
 created: 2026-05-09
 updated: 2026-07-04
 tags:

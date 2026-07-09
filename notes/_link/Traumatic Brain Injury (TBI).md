@@ -1,9 +1,8 @@
 ---
 title: Traumatic Brain Injury (TBI)
-description: 'An acquired brain injury from external mechanical force causing transient
+description: An acquired brain injury from external mechanical force causing transient
   or prolonged neurological deficits; mild TBI (concussion) is common in sport and
-  military populations.'
-type: entity
+  military populations.
 created: 2026-07-08
 updated: 2026-07-08
 tags:

@@ -1,9 +1,8 @@
 ---
 title: LC-MS
-description: 'LC-MS (Liquid Chromatography-Mass Spectrometry) is an analytical
+description: LC-MS (Liquid Chromatography-Mass Spectrometry) is an analytical
   chemistry technique that combines the physical separation capabilities of liquid
-  chromatography with the mass analysis capabilit...'
-type: entity
+  chromatography with the mass analysis capabilit...
 created: 2026-07-04
 updated: 2026-07-04
 tags:

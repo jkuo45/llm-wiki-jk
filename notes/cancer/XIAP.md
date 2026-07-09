@@ -1,9 +1,8 @@
 ---
 title: XIAP
-description: 'XIAP (X-linked Inhibitor of Apoptosis Protein), also known as BIRC4,
+description: XIAP (X-linked Inhibitor of Apoptosis Protein), also known as BIRC4,
   is considered the most potent member of the Inhibitor of Apoptosis Proteins (IAP)
-  family.'
-type: entity
+  family.
 created: 2026-07-06
 updated: 2026-07-06
 tags:

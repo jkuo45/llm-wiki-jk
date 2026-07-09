@@ -1,5 +1,4 @@
 ---
-type: index
 title: Autophagy notes
 aliases: []
 description: Index of wiki notes for autophagy

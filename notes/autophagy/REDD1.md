@@ -3,7 +3,6 @@ title: REDD1
 description: REDD1 (Regulated in Development and DNA Damage Response 1) is a protein
   that inhibits mTORC1 activity in response to various stressors, including Hypoxia
   and DNA damage.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

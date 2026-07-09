@@ -1,7 +1,6 @@
 ---
 title: Manganese
-description: 'Manganese is a transition metal that can exhibit high binding affinity for Neuromelanin and is associated with a Parkinsonian-like syndrome known as Manganism.'
-type: entity
+description: Manganese is a transition metal that can exhibit high binding affinity for Neuromelanin and is associated with a Parkinsonian-like syndrome known as Manganism.
 created: 2026-07-04
 updated: 2026-07-07
 tags:

@@ -1,8 +1,7 @@
 ---
 title: Foxp3
-description: 'Foxp3 (Forkhead Box P3) is a transcription factor that serves as
-  a master regulator of the regulatory T Cell (Treg) lineage.'
-type: entity
+description: Foxp3 (Forkhead Box P3) is a transcription factor that serves as
+  a master regulator of the regulatory T Cell (Treg) lineage.
 created: 2026-07-04
 updated: 2026-07-04
 tags:

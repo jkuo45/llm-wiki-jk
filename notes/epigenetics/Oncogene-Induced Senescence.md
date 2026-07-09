@@ -1,9 +1,8 @@
 ---
 title: Oncogene-Induced Senescence
-description: 'Oncogene-Induced Senescence (OIS) is a biological process in which
+description: Oncogene-Induced Senescence (OIS) is a biological process in which
   normal cells expressing activated oncogenes enter a state of permanent cell cycle
-  arrest, functioning as an intrinsic tumor-su...'
-type: entity
+  arrest, functioning as an intrinsic tumor-su...
 created: 2024-01-01
 updated: 2024-07-04
 tags:

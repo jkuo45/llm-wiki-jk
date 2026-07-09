@@ -1,9 +1,8 @@
 ---
 title: Starvation
-description: 'Starvation is a state of severe nutrient deficiency that triggers
+description: Starvation is a state of severe nutrient deficiency that triggers
   profound metabolic and cellular adaptations, including the massive activation of
-  Autophagy.'
-type: entity
+  Autophagy.
 created: 2026-07-04
 updated: 2026-07-04
 tags:

@@ -1,9 +1,8 @@
 ---
 title: Sepsis
-description: 'Etiology and pathophysiology: Sepsis is a medical condition characterized
+description: 'Etiology and pathophysiology: Sepsis is a medical condition characterized'
   by specific pathological changes in cellular, tissue, or organ function. Its development
-  involves genetic, environmenta...'
-type: entity
+  involves genetic, environmenta...
 created: 2026-07-04
 updated: 2026-07-04
 tags:

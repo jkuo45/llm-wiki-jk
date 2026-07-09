@@ -1,8 +1,7 @@
 ---
 title: HepG2
-description: 'HepG2 is a human liver carcinoma cell line commonly used as a model
-  for studying human liver metabolism, protein synthesis, and Autophagy.'
-type: entity
+description: HepG2 is a human liver carcinoma cell line commonly used as a model
+  for studying human liver metabolism, protein synthesis, and Autophagy.
 created: 2026-07-04
 updated: 2026-07-04
 tags:

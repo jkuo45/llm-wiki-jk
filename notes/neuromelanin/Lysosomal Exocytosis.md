@@ -1,7 +1,6 @@
 ---
 title: Lysosomal Exocytosis
-description: 'Lysosomal Exocytosis is a process in which lysosomes fuse with the plasma membrane and release their contents into the extracellular space.'
-type: entity
+description: Lysosomal Exocytosis is a process in which lysosomes fuse with the plasma membrane and release their contents into the extracellular space.
 created: 2026-07-04
 updated: 2026-07-07
 tags:

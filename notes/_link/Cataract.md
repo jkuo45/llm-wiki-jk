@@ -1,9 +1,8 @@
 ---
 title: Cataract
-description: 'Cataract is a clouding of the eye lens that leads to decreased vision.
+description: Cataract is a clouding of the eye lens that leads to decreased vision.
   It is driven by Oxidative Stress to lens proteins, protein carbonylation, and aggregation
-  of crystallins.'
-type: entity
+  of crystallins.
 created: 2026-07-04
 updated: 2026-07-04
 tags:

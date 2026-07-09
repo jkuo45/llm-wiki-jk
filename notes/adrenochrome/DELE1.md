@@ -3,7 +3,6 @@ title: DELE1
 description: Death ligand signal enhancer 1, a mitochondrial protein that acts as
   a sensor of mitochondrial stress. Upon stress, DELE1 is cleaved by OMA1 and its
   C-terminal fragment accumulates in the cytosol, ...
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

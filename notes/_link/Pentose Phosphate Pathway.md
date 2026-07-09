@@ -3,7 +3,6 @@ title: Pentose Phosphate Pathway
 description: The pentose phosphate pathway generates NADPH and
   ribose-5-phosphate; its oxidative branch fuels glutathione
   reduction, defending erythrocytes from oxidants.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

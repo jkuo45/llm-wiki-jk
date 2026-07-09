@@ -1,7 +1,6 @@
 ---
 title: Proteostasis
 description: Proteostasis is the network of cellular pathways that maintain protein folding, trafficking, and degradation; its failure contributes to Alpha-synuclein aggregation and the vulnerability of Neuromelanin-rich neurons in Parkinson's Disease.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:

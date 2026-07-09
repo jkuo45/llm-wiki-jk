@@ -2,7 +2,6 @@
 title: 3-deoxyglucosone
 description: 3-deoxyglucosone (3-DG) is a highly reactive dicarbonyl intermediate
   that serves as a potent precursor to Advanced Glycation End Products (AGEs).
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

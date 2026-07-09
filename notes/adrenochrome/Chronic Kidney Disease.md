@@ -3,7 +3,6 @@ title: Chronic Kidney Disease
 description: Chronic kidney disease (CKD) is a type of kidney disease in which there
   is gradual loss of kidney function over a period of months to years. It is both
   a cause and a result of elevated Advanced Gly...
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

@@ -3,7 +3,6 @@ title: SIRT4
 description: SIRT4 (Sirtuin 4) is a mitochondrial sirtuin classified in phylogenetic
   Class II, which includes sirtuins from bacteria, insects, nematodes, mould fungus,
   and protozoans — making SIRT4 and Class II...
-type: entity
 created: 2026-07-02
 updated: 2026-07-05
 tags:

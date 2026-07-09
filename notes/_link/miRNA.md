@@ -1,7 +1,6 @@
 ---
 title: miRNA
 description: MicroRNAs, ~22-nt non-coding RNAs that post-transcriptionally regulate SASP factors and mediate intercellular senescence communication via exosomes.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

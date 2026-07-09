@@ -1,7 +1,6 @@
 ---
 title: TDR
 description: The Special Programme for Research and Training in Tropical Diseases (TDR) is a WHO-coordinated global partnership that fosters research to control/eliminate neglected tropical diseases including onchocerciasis, lymphatic filariasis, and others relevant to cancer-burdened populations.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

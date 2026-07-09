@@ -2,7 +2,6 @@
 title: GPX4
 description: Selenoprotein that reduces phospholipid hydroperoxides, a key inhibitor
   of ferroptosis.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

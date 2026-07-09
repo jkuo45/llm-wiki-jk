@@ -2,7 +2,6 @@
 title: neutrophils role in adrenochrome production
 description: Grok is a free AI assistant designed by xAI to maximize truth and objectivity.
   Grok offers real-time search, image generation, trend analysis, and more.
-type: document
 created: 2026-05-24
 source: https://x.com/i/grok?conversation=2058359627398750275
 tags:

@@ -1,8 +1,7 @@
 ---
 title: Polyamine
-description: 'Polyamines are organic compounds that play essential roles in cell
-  growth, survival, and stress adaptation.'
-type: entity
+description: Polyamines are organic compounds that play essential roles in cell
+  growth, survival, and stress adaptation.
 created: 2026-07-04
 updated: 2026-07-04
 tags:

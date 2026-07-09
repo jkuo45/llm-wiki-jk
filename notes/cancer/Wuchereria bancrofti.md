@@ -1,7 +1,6 @@
 ---
 title: Wuchereria bancrofti
 description: Wuchereria bancrofti is a lymphatic filarial nematode transmitted by mosquitoes that causes lymphatic filariasis (elephantiasis); chronic infection drives inflammation and immunosuppression with indirect cancer-relevant implications.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

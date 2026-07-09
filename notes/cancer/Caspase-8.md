@@ -1,8 +1,7 @@
 ---
 title: Caspase-8
-description: 'Caspase-8 is an initiator protease that plays a central role in
-  the Extrinsic Pathway of Apoptosis.'
-type: entity
+description: Caspase-8 is an initiator protease that plays a central role in
+  the Extrinsic Pathway of Apoptosis.
 created: 2026-07-06
 updated: 2026-07-06
 tags:

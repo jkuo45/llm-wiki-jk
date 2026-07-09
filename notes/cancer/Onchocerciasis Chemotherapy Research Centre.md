@@ -1,7 +1,6 @@
 ---
 title: Onchocerciasis Chemotherapy Research Centre
 description: The OCRC (Ghana) is a clinical research institute studying treatments for onchocerciasis, including ivermectin and macrofilaricidal drug development, with infrastructure relevant to drug repurposing.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

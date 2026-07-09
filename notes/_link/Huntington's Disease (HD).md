@@ -1,9 +1,8 @@
 ---
 title: Huntington's Disease (HD)
-description: 'An autosomal dominant neurodegenerative disorder caused by CAG repeat
+description: An autosomal dominant neurodegenerative disorder caused by CAG repeat
   expansion in HTT, producing mutant huntingtin and progressive motor, cognitive, and
-  psychiatric decline.'
-type: entity
+  psychiatric decline.
 created: 2026-07-08
 updated: 2026-07-08
 tags:

@@ -3,7 +3,6 @@ title: Elastin
 description: Highly elastic structural protein of connective tissue ECM, providing
   resilience and recoil to skin, lungs, arteries, and ligaments; degraded primarily
   by MMP-12.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

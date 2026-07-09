@@ -1,9 +1,8 @@
 ---
 title: 4-Hydroxynonenal
-description: '4-Hydroxynonenal (4-HNE, 4-hydroxy-2-nonenal) is a highly reactive
+description: 4-Hydroxynonenal (4-HNE, 4-hydroxy-2-nonenal) is a highly reactive
   α,β-unsaturated aldehyde generated as a major end-product of n-6 polyunsaturated
-  fatty acid (Lipid Peroxidation), particularly...'
-type: entity
+  fatty acid (Lipid Peroxidation), particularly...
 created: 2026-07-04
 updated: 2026-07-04
 tags:

@@ -3,7 +3,6 @@ title: Diabetes Mellitus
 description: Diabetes Mellitus is a group of metabolic diseases characterized by high
   blood sugar levels (Hyperglycemia) over a prolonged period. Chronic hyperglycemia
   leads to increased production of Reactive ...
-type: entity
 created: 2026-05-29
 updated: 2026-05-29
 tags:

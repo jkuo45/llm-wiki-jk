@@ -1,7 +1,6 @@
 ---
 title: 5-Azacytidine
 description: 5-Azacytidine (5-aza-CR; trade name Vidaza) is a ribose nucleoside analog of cytidine that functions as a dual DNA Methyltransferase (DNMT) inhibitor and RNA incorporation agent.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:

@@ -2,7 +2,6 @@
 title: Drosophila melanogaster
 description: Drosophila melanogaster, the common fruit fly, is a premier Model Organism
   for genetics, development, and aging research, including Polycomb and chromatin regulation.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:

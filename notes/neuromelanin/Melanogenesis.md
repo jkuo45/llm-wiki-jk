@@ -1,7 +1,6 @@
 ---
 title: Melanogenesis
-description: 'Melanogenesis is the complex biosynthetic pathway by which melanin pigments are produced.'
-type: entity
+description: Melanogenesis is the complex biosynthetic pathway by which melanin pigments are produced.
 created: 2026-07-04
 updated: 2026-07-07
 tags:

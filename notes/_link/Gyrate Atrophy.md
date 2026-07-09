@@ -1,7 +1,6 @@
 ---
 title: Gyrate Atrophy
-description: "A progressive chorioretinal degeneration caused by ornithine aminotransferase deficiency, characterized by circular atrophic lesions in the peripheral retina and secondary creatine depletion leading to muscle atrophy."
-type: entity
+description: A progressive chorioretinal degeneration caused by ornithine aminotransferase deficiency, characterized by circular atrophic lesions in the peripheral retina and secondary creatine depletion leading to muscle atrophy.
 created: 2026-07-08
 updated: 2026-07-08
 tags:

@@ -1,7 +1,6 @@
 ---
 title: Quinolinic Acid
 description: Quinolinic acid (QA) is a downstream metabolite of the kynurenine pathway and an NMDA receptor agonist that is neurotoxic at elevated concentrations, also serving as a precursor for NAD+ synthesis.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

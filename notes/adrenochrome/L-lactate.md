@@ -2,7 +2,6 @@
 title: L-lactate
 description: L-lactate is the physiological stereoisomer of lactate generated predominantly
   during anaerobic metabolism and glycolysis.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

@@ -1,7 +1,6 @@
 ---
 title: CXCL1
 description: C-X-C motif chemokine ligand 1, an ELR+ SASP chemokine that binds CXCR2 and recruits neutrophils, amplifying senescence paracrine signaling.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

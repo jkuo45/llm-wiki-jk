@@ -1,7 +1,6 @@
 ---
 title: MPTP
 description: MPTP is lipid-soluble and can cross the blood-brain barrier.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:

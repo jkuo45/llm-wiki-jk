@@ -3,7 +3,6 @@ title: mLST8
 description: Mammalian lethal with Sec13 protein 8 (mLST8), also known as GβL, is
   a core component of both mTORC1 and mTORC2 that is essential for the stability and
   kinase activity of the complexes, particularly mTORC2.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:

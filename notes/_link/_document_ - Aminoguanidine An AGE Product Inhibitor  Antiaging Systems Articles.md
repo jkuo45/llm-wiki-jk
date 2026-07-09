@@ -1,10 +1,9 @@
 ---
-title: "Aminoguanidine: An AGE Product Inhibitor | Antiaging Systems Articles"
-description: "Aminoguanidine is a promising anti-aging therapy that acts as an Advanced Glycation End Product (AGE) inhibitor, preventing the protein cross-linking implicated in aging and diabetic complications."
-type: document
+title: '"Aminoguanidine: An AGE Product Inhibitor | Antiaging Systems Articles"'
+description: '"Aminoguanidine is a promising anti-aging therapy that acts as an Advanced Glycation End Product (AGE) inhibitor, preventing the protein cross-linking implicated in aging and diabetic complications."'
 published: 2020-04-22
 created: 2026-06-27
-source: "https://www.antiaging-systems.com/articles/aminoguanidine-advanced-glycation-end-age-product-inhibitor/"
+source: https://www.antiaging-systems.com/articles/aminoguanidine-advanced-glycation-end-age-product-inhibitor/
 author:
   - "MICANS, MS, PharmB, Philip A"
 tags:

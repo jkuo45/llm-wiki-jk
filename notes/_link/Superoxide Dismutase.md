@@ -1,9 +1,8 @@
 ---
 title: Superoxide Dismutase
-description: 'Superoxide Dismutase (SOD) is an enzyme that alternately catalyzes
+description: Superoxide Dismutase (SOD) is an enzyme that alternately catalyzes
   the dismutation of the Superoxide anion (O₂⁻) radical into ordinary molecular oxygen
-  (O₂) and Hydrogen Peroxide (H₂O₂).'
-type: entity
+  (O₂) and Hydrogen Peroxide (H₂O₂).
 created: 2026-05-29
 updated: 2026-05-29
 tags:

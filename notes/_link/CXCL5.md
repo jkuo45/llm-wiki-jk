@@ -1,7 +1,6 @@
 ---
 title: CXCL5
 description: C-X-C motif chemokine ligand 5 (ENA-78), an ELR+ SASP chemokine that binds CXCR2 and contributes to reproductive aging and neutrophil-driven inflammation.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

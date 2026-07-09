@@ -1,9 +1,8 @@
 ---
 title: Epinephrine
-description: 'Epinephrine, also known as Adrenaline, is a hormone and neurotransmitter
+description: Epinephrine, also known as Adrenaline, is a hormone and neurotransmitter
   involved in the body''s fight-or-flight response. It is produced primarily by the
-  adrenal glands and certain neurons.'
-type: entity
+  adrenal glands and certain neurons.
 created: 2026-05-29
 updated: 2026-05-29
 tags:

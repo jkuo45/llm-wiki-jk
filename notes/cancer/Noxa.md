@@ -1,8 +1,7 @@
 ---
 title: Noxa
-description: 'Noxa (Latin for ''damage'') is a pro-apoptotic BH3-only member of
-  the Bcl-2 family. It is a key mediator of Apoptosis in response to various stresses.'
-type: entity
+description: Noxa (Latin for ''damage'') is a pro-apoptotic BH3-only member of
+  the Bcl-2 family. It is a key mediator of Apoptosis in response to various stresses.
 created: 2026-07-06
 updated: 2026-07-06
 tags:

@@ -1,7 +1,6 @@
 ---
 title: CDH1
 description: CDH1 encodes E-cadherin, a 120 kDa calcium-dependent transmembrane glycoprotein essential for epithelial cell-cell adhesion and a master suppressor of invasion and metastasis.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:

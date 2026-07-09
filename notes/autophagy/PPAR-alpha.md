@@ -3,7 +3,6 @@ title: PPAR-alpha
 description: Peroxisome proliferator-activated receptor alpha, a nuclear receptor
   protein that functions as a transcription factor regulating the expression of genes
   involved in Metabolism.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

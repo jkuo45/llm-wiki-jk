@@ -1,9 +1,8 @@
 ---
 title: Angiotensin II
-description: 'Angiotensin II (Ang II) is a peptide hormone central to the Renin-angiotensin
+description: Angiotensin II (Ang II) is a peptide hormone central to the Renin-angiotensin
   system. It acts as a potent vasoconstrictor, raising blood pressure, and also drives
-  Inflammation, Oxidative Stress...'
-type: entity
+  Inflammation, Oxidative Stress...
 created: 2026-07-04
 updated: 2026-07-04
 tags:

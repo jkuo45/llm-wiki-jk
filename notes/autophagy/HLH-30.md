@@ -1,9 +1,8 @@
 ---
 title: HLH-30
-description: 'HLH-30 (Helix-loop-helix 30) is the C. elegans orthologue of the
+description: HLH-30 (Helix-loop-helix 30) is the C. elegans orthologue of the
   mammalian transcription factor TFEB, serving as a master regulator of Autophagy
-  and Lysosome biogenesis. It plays a key role in ...'
-type: entity
+  and Lysosome biogenesis. It plays a key role in ...
 created: 2026-07-04
 updated: 2026-07-04
 tags:

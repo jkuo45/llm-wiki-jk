@@ -3,7 +3,6 @@ title: Rheumatoid Arthritis
 description: Rheumatoid arthritis (RA) is a long-term, progressive, and disabling
   autoimmune disease that causes inflammation, swelling, and pain in and around the
   joints and other body organs. The accumulation...
-type: entity
 created: 2026-05-09
 updated: 2026-07-06
 tags:

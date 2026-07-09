@@ -1,9 +1,8 @@
 ---
 title: Cervical Cancer
-description: 'Cervical cancer is a cancer arising from the cervix. It is due to
+description: Cervical cancer is a cancer arising from the cervix. It is due to
   the abnormal growth of cells that have the ability to invade or spread to other
-  parts of the body.'
-type: entity
+  parts of the body.
 created: 2026-07-06
 updated: 2026-07-06
 tags:

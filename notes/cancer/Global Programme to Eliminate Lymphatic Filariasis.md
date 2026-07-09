@@ -1,7 +1,6 @@
 ---
 title: Global Programme to Eliminate Lymphatic Filariasis
 description: The Global Programme to Eliminate Lymphatic Filariasis (GPELF) is a World Health Organization initiative aimed at stopping the transmission of Lymphatic Filariasis.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

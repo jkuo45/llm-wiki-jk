@@ -1,7 +1,6 @@
 ---
 title: IL-1α
 description: Interleukin-1 alpha is a cell-associated pro-inflammatory cytokine and master upstream initiator of the SASP via NF-κB and mTOR-regulated translation.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

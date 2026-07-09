@@ -1,7 +1,6 @@
 ---
 title: Kynurenine Pathway
 description: The kynurenine pathway (KP) is the major catabolic route for tryptophan degradation, accounting for ~95% of Trp metabolism outside protein synthesis and serotonin production, ultimately producing NAD+.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

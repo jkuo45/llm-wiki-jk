@@ -3,7 +3,6 @@ title: Long COVID
 description: Long COVID (post-acute sequelae of SARS-CoV-2 infection) is a
   multisystem chronic condition with prominent fatigue, cognitive, and
   autonomic symptoms; mitochondrial dysfunction is a hypothesized driver.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

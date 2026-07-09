@@ -3,7 +3,6 @@ title: p16 INK4a
 description: p16INK4a (encoded by CDKN2A) is a cyclin-dependent kinase inhibitor
   that enforces permanent cell cycle arrest in senescence and regulates a distinct
   DDR-free SASP profile (PASP).
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

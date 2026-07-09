@@ -1,7 +1,6 @@
 ---
 title: Pale Bodies
 description: Pale Bodies are early, poorly defined intracytoplasmic inclusions considered precursor structures to Lewy Bodies in Parkinson's Disease, often found in close association with Neuromelanin.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:

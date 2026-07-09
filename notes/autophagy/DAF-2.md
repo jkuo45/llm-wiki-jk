@@ -1,8 +1,7 @@
 ---
 title: DAF-2
-description: 'DAF-2 is the C. elegans orthologue of the insulin/IGF1 receptor.
-  It is a central regulator of development, metabolism, and Longevity.'
-type: entity
+description: DAF-2 is the C. elegans orthologue of the insulin/IGF1 receptor.
+  It is a central regulator of development, metabolism, and Longevity.
 created: 2026-07-04
 updated: 2026-07-04
 tags:

@@ -1,7 +1,6 @@
 ---
 title: Klotho
 description: An anti-aging transmembrane and secreted protein (hormone) whose deficiency drives premature aging; rapamycin improves function in Klotho-deficient models via stem-cell protection.
-type: entity
 created: 2026-07-07
 updated: 2026-07-07
 tags:

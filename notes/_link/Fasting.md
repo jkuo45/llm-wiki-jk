@@ -3,7 +3,6 @@ title: Fasting
 description: Fasting is the voluntary abstinence from food and caloric beverages for
   a defined period. It induces a metabolic switch from glucose-based to ketone-based
   energy, activates stress-resistance pathwa...
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:

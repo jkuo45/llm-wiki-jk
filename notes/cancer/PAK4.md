@@ -1,7 +1,6 @@
 ---
 title: PAK4
 description: PAK4 is a Group II p21-activated kinase and Rho-family effector that drives proliferation, survival, and invasion in cancer by phosphorylating Bad, Raf, and β-catenin.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

@@ -1,7 +1,6 @@
 ---
 title: Regulatory T cells
 description: A subset of immunosuppressive CD4+ T lymphocytes (Tregs) that maintain self-tolerance and limit autoimmunity and chronic inflammation; expanded by low-dose mTOR inhibition.
-type: entity
 created: 2026-07-07
 updated: 2026-07-07
 tags:

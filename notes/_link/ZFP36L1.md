@@ -1,7 +1,6 @@
 ---
 title: ZFP36L1
 description: Zinc finger protein 36 C3H1-like 1 (TTP-family RNA-binding protein) that degrades AU-rich-element mRNAs; inhibited by MK2 to stabilize SASP transcripts.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

@@ -2,7 +2,6 @@
 title: Endothelial Nitric Oxide Synthase
 description: Endothelial nitric oxide synthase (eNOS, NOS3) is the constitutive
   isoform that produces nitric oxide for normal vascular tone and homeostasis.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

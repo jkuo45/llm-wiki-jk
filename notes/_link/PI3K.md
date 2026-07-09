@@ -1,9 +1,8 @@
 ---
 title: PI3K
-description: 'Phosphoinositide 3-kinase (PI3K) is a family of enzymes involved
+description: Phosphoinositide 3-kinase (PI3K) is a family of enzymes involved
   in cellular functions such as cell growth, proliferation, differentiation, motility,
-  survival, and intracellular trafficking.'
-type: entity
+  survival, and intracellular trafficking.
 created: 2026-05-29
 updated: 2026-05-29
 tags:

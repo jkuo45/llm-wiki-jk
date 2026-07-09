@@ -3,7 +3,6 @@ title: Mitochondrial Superoxide
 description: Mitochondrial superoxide is the primary reactive oxygen species
   generated at the electron transport chain; methylene blue reduces its
   production by bypassing damaged complexes.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

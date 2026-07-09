@@ -1,7 +1,6 @@
 ---
 title: METTL14
 description: Methyltransferase-like 14, core subunit of the m6A writer complex (with METTL3) that also promotes SASP gene expression via enhancer–promoter looping.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

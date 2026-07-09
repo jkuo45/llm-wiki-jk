@@ -1,7 +1,6 @@
 ---
 title: CXCR3
 description: C-X-C chemokine receptor 3, the receptor for ELR− CXC chemokines CXCL9/10/11 that recruits T and NK cells for SASP immune surveillance and can promote cancer.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

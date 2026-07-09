@@ -1,7 +1,6 @@
 ---
 title: Benzocaine
 description: '- Methemoglobinemia: Can be induced by Benzocaine exposure.'
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

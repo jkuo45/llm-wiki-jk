@@ -1,7 +1,6 @@
 ---
 title: Cerebellum
-description: 'The Cerebellum is a hindbrain structure controlling motor coordination, balance, and motor learning; it is largely spared by forebrain-specific COMT-overexpressing transgenes and serves as a control region in COMT research.'
-type: entity
+description: The Cerebellum is a hindbrain structure controlling motor coordination, balance, and motor learning; it is largely spared by forebrain-specific COMT-overexpressing transgenes and serves as a control region in COMT research.
 created: 2026-05-25
 updated: 2026-07-07
 tags:

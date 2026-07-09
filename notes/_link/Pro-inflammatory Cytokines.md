@@ -1,9 +1,8 @@
 ---
 title: Pro-inflammatory Cytokines
-description: 'Overview: Pro-inflammatory Cytokines is a cellular protein with
+description: 'Overview: Pro-inflammatory Cytokines is a cellular protein with'
   structural, signaling, or regulatory functions in eukaryotic cells. It participates
-  in macromolecular complexes and signaling net...'
-type: entity
+  in macromolecular complexes and signaling net...
 created: 2026-07-04
 updated: 2026-07-04
 tags:

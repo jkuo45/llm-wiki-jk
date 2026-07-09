@@ -3,7 +3,6 @@ title: Saccharomyces cerevisiae
 description: Saccharomyces cerevisiae (budding yeast) is a foundational Model Organism
   for eukaryotic biology and aging, where Sir2 and Caloric Restriction were first linked
   to lifespan.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:

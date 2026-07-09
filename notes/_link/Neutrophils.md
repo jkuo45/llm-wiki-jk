@@ -1,9 +1,8 @@
 ---
 title: Neutrophils
-description: 'Neutrophils (also known as polymorphonuclear leukocytes or granulocytes)
+description: Neutrophils (also known as polymorphonuclear leukocytes or granulocytes)
   are the most abundant type of white blood cell and serve as the first line of defense
-  in the innate immune system.'
-type: entity
+  in the innate immune system.
 created: 2026-05-29
 updated: 2026-05-29
 tags:

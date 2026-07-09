@@ -1,9 +1,8 @@
 ---
 title: CENP-A
-description: 'Overview: CENP-A is a cellular protein with structural, signaling,
+description: 'Overview: CENP-A is a cellular protein with structural, signaling,'
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
-  and signaling networks that govern ce...'
-type: entity
+  and signaling networks that govern ce...
 created: 2026-07-04
 updated: 2026-07-04
 tags:

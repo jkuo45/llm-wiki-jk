@@ -1,9 +1,8 @@
 ---
 title: Creatine Transporters (CRTR)
-description: 'Sodium- and chloride-dependent transporters of the SLC6 family (notably
+description: Sodium- and chloride-dependent transporters of the SLC6 family (notably
   SLC6A8) that mediate cellular uptake of creatine across plasma and blood-brain barriers;
-  their deficiency causes cerebral creatine depletion.'
-type: entity
+  their deficiency causes cerebral creatine depletion.
 created: 2026-07-08
 updated: 2026-07-08
 tags:

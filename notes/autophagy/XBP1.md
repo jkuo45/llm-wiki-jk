@@ -3,7 +3,6 @@ title: XBP1
 description: X-box binding protein 1 (XBP1) is a transcription factor that plays a
   crucial role in the unfolded protein response (UPR) and regulates hepatic autophagy
   by activating TFEB.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

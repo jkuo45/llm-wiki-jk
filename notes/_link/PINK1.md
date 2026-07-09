@@ -2,7 +2,6 @@
 title: PINK1
 description: Mitochondrial serine/threonine kinase that recruits Parkin to damaged
   mitochondria to initiate mitophagy.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

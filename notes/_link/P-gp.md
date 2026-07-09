@@ -1,9 +1,8 @@
 ---
 title: P-gp
-description: 'Overview: P-gp is a membrane transport protein that facilitates
+description: 'Overview: P-gp is a membrane transport protein that facilitates'
   the movement of molecules across biological membranes. It mediates substrate translocation
-  through conformational changes driven ...'
-type: entity
+  through conformational changes driven ...
 created: 2026-07-04
 updated: 2026-07-04
 tags:

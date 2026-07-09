@@ -3,7 +3,6 @@ title: PP2A
 description: Protein phosphatase 2A (PP2A) is a serine/threonine phosphatase that
   dephosphorylates TFEB at multiple sites (S109, S114, S122) to promote its nuclear
   translocation.
-type: entity
 created: 2024-01-01
 updated: 2024-01-01
 tags:

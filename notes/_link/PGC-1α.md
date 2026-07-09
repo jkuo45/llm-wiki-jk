@@ -1,9 +1,8 @@
 ---
 title: PGC-1α
-description: 'PGC-1α (PPARGC1A) is a transcriptional coactivator that serves as
+description: PGC-1α (PPARGC1A) is a transcriptional coactivator that serves as
   the master regulator of Mitochondria biogenesis, Oxidative Phosphorylation, and
-  Oxidative Stress defense. It links external sti...'
-type: entity
+  Oxidative Stress defense. It links external sti...
 created: 2024-01-01
 updated: 2024-07-04
 tags:

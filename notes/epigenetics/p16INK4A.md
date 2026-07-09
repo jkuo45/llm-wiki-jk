@@ -1,9 +1,8 @@
 ---
 title: p16INK4A
-description: 'p16INK4a (encoded by the CDKN2A locus) is a cyclin-dependent kinase
+description: p16INK4a (encoded by the CDKN2A locus) is a cyclin-dependent kinase
   inhibitor that functions as a central tumor suppressor and the most widely used
-  biomarker of Cellular Senescence. Its expre...'
-type: entity
+  biomarker of Cellular Senescence. Its expre...
 created: 2024-01-01
 updated: 2024-07-04
 tags:

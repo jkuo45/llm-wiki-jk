@@ -3,7 +3,6 @@ title: Synovial Fluid
 description: Synovial fluid is a viscous fluid found in the cavities of synovial joints.
   In conditions like Rheumatoid Arthritis, the accumulation of Advanced Glycation
   End Products in this fluid contributes to...
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

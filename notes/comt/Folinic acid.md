@@ -1,7 +1,6 @@
 ---
 title: Folinic acid
-description: 'Folinic acid (leucovorin) is a reduced folateform that bypasses MTHFR for initial conversion, supporting the methylation cycle without the abrupt methyl load of methylfolate; useful in slow COMT.'
-type: entity
+description: Folinic acid (leucovorin) is a reduced folateform that bypasses MTHFR for initial conversion, supporting the methylation cycle without the abrupt methyl load of methylfolate; useful in slow COMT.
 created: 2026-05-25
 updated: 2026-07-07
 tags:

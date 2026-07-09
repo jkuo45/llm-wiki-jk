@@ -3,7 +3,6 @@ title: Autophagy Inhibitor
 description: An autophagy inhibitor is a compound that blocks autophagic flux; Eltrombopag
   is a direct inhibitor of TFEB that disrupts its interaction with DNA, preventing
   the induction of autophagy genes.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

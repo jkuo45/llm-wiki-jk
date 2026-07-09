@@ -3,7 +3,6 @@ title: Wound Healing
 description: Wound healing is the process by which the skin, or other body tissue,
   repairs itself after injury. In patients with Diabetes Mellitus, high levels of
   Advanced Glycation End Products can impair woun...
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

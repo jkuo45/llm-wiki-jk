@@ -1,9 +1,8 @@
 ---
 title: SMAD3
-description: 'SMAD3 (Mothers against decapentaplegic homolog 3) is a receptor-regulated
+description: SMAD3 (Mothers against decapentaplegic homolog 3) is a receptor-regulated
   SMAD (R-SMAD) transcription factor that mediates signalling from the TGF-β superfamily.
-  It is centrally involved in cel...'
-type: entity
+  It is centrally involved in cel...
 created: 2026-07-04
 updated: 2026-07-05
 tags:

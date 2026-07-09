@@ -1,7 +1,6 @@
 ---
 title: Oleacein
 description: Oleacein is a secoiridoid phenolic in extra-virgin olive oil with antioxidant and anti-inflammatory actions and dual substrate-inhibitor activity at COMT.
-type: entity
 created: 2026-05-25
 updated: 2026-07-07
 tags:

@@ -1,7 +1,6 @@
 ---
 title: adrenochrome - gemini (intermediates, precursor, hemoglobin)
 description: 4,663 tokens
-type: document
 created: 2026-05-18
 source: https://aistudio.google.com/u/0/prompts/1uncj_9dpu_xQjnCXXWTdqgULljcr96yN
 tags:

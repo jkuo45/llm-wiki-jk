@@ -1,9 +1,8 @@
 ---
 title: Amyloid Beta
-description: 'Overview: Amyloid Beta is a cellular protein with structural, signaling,
+description: 'Overview: Amyloid Beta is a cellular protein with structural, signaling,'
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
-  and signaling networks that gov...'
-type: entity
+  and signaling networks that gov...
 created: 2026-07-04
 updated: 2026-07-04
 tags:

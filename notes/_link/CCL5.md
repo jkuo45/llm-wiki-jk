@@ -1,7 +1,6 @@
 ---
 title: CCL5
 description: C-C motif chemokine ligand 5 (RANTES), a SASP chemokine that binds CCR1/3/5 and promotes cancer progression and reproductive aging.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

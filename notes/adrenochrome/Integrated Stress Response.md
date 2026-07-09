@@ -3,7 +3,6 @@ title: Integrated Stress Response
 description: A common adaptive pathway in eukaryotic cells (ISR) triggered by various
   stressors (ER stress, amino acid starvation, heme deficiency, viral infection).
   It centers on the phosphorylation of EIF2A, ...
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

@@ -3,7 +3,6 @@ title: Nuclear Export
 description: Nuclear export is the process of transporting proteins from the nucleus
   to the cytoplasm; TFEB nuclear export is mediated by CRM1 and promoted by phosphorylation
   at S142 and S138.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:

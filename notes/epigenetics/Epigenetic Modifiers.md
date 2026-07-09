@@ -1,9 +1,8 @@
 ---
 title: Epigenetic Modifiers
-description: 'Epigenetic Modifiers (also termed epidrugs) are a class of compounds
+description: Epigenetic Modifiers (also termed epidrugs) are a class of compounds
   that alter the Epigenome of a cell by inhibiting or activating the enzymes responsible
-  for writing, reading, and erasing epi...'
-type: entity
+  for writing, reading, and erasing epi...
 created: 2024-01-01
 updated: 2024-07-04
 tags:

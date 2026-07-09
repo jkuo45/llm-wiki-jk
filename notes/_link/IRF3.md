@@ -1,7 +1,6 @@
 ---
 title: IRF3
 description: Interferon regulatory factor 3 is a transcription factor that mediates type I interferon and SASP production.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

@@ -1,7 +1,6 @@
 ---
 title: Onchocerciasis
 description: Onchocerciasis (river blindness) is a filarial nematode infection by Onchocerca volvulus transmitted by Simulium blackflies; causes blindness and skin disease, controlled by ivermectin.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

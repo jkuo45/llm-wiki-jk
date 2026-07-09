@@ -1,9 +1,8 @@
 ---
 title: Superoxide anion
-description: 'Superoxide anion (O₂⁻•) is a highly reactive free radical and a
+description: Superoxide anion (O₂⁻•) is a highly reactive free radical and a
   primary type of Reactive Oxygen Species (ROS). It is formed by the one-electron
-  reduction of molecular oxygen.'
-type: entity
+  reduction of molecular oxygen.
 created: 2026-07-04
 updated: 2026-07-04
 tags:

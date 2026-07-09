@@ -1,7 +1,6 @@
 ---
 title: Frontotemporal Dementia
 description: Frontotemporal Dementia (FTD) is a heterogeneous neurodegenerative syndrome affecting frontal/temporal lobes, causing behavioral and language decline.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:

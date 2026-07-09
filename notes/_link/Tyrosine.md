@@ -1,8 +1,7 @@
 ---
 title: Tyrosine
-description: 'Tyrosine is a non-essential amino acid that is the precursor to
-  Catecholamines, including Dopamine, Epinephrine, and Norepinephrine.'
-type: entity
+description: Tyrosine is a non-essential amino acid that is the precursor to
+  Catecholamines, including Dopamine, Epinephrine, and Norepinephrine.
 created: 2026-05-29
 updated: 2026-05-29
 tags:

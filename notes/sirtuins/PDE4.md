@@ -1,7 +1,6 @@
 ---
 title: Phosphodiesterase 4 (PDE4)
 description: Phosphodiesterase 4 (PDE4) is a family of cAMP-specific phosphodiesterases that hydrolyze cAMP to 5'-AMP, terminating cAMP signaling. Four genes (PDE4A–D) encode multiple splice variants expressed widely across tissues.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:

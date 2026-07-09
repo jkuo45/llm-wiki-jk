@@ -1,16 +1,15 @@
 ---
-title: "Rapamycin for longevity: opinion article"
-source: "https://pmc.ncbi.nlm.nih.gov/articles/PMC6814615/"
+title: 'Rapamycin for longevity: opinion article'
+source: https://pmc.ncbi.nlm.nih.gov/articles/PMC6814615/
 author:
   - "Mikhail V Blagosklonny"
 published:
 created: 2026-07-07
-description: "Opinion piece arguing that mTOR inhibitors (rapamycin, everolimus) are proven anti-aging drugs whose real side effects are reversible and rare, and that not using them is more dangerous than using them. Advocates intermittent, personalized low-dose scheduling."
+description: Opinion piece arguing that mTOR inhibitors (rapamycin, everolimus) are proven anti-aging drugs whose real side effects are reversible and rare, and that not using them is more dangerous than using them. Advocates intermittent, personalized low-dose scheduling.
 tags:
   - clippings
   - rapamycin
   - longevity
-type: document
 ---
 
 ## Abstract

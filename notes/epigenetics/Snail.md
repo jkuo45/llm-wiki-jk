@@ -1,7 +1,6 @@
 ---
 title: Snail
 description: Snail (SNAI1) is a zinc-finger transcription factor and a key inducer of the Epithelial-to-Mesenchymal Transition, repressing E-cadherin and epithelial adhesion.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:

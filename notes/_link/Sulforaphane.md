@@ -3,7 +3,6 @@ title: Sulforaphane
 description: Sulforaphane (SFN) is an isothiocyanate compound from cruciferous vegetables
   (broccoli, Brussels sprouts, cabbage) and one of the most potent known dietary activators
   of the NRF2 pathway.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

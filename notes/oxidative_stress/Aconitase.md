@@ -1,9 +1,8 @@
 ---
 title: Aconitase
-description: 'Aconitase (Aconitate hydratase) is an iron-sulfur cluster ([4Fe-4S])-containing
+description: Aconitase (Aconitate hydratase) is an iron-sulfur cluster ([4Fe-4S])-containing
   enzyme that catalyzes the reversible isomerization of citrate to isocitrate in the
-  tricarboxylic acid (TCA) cycle...'
-type: entity
+  tricarboxylic acid (TCA) cycle...
 created: 2026-07-04
 updated: 2026-07-04
 tags:

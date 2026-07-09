@@ -1,7 +1,6 @@
 ---
 title: ISG15
 description: Interferon-stimulated gene 15, an ubiquitin-like ISG induced by p16 overexpression that encodes an interferon-type SASP factor.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

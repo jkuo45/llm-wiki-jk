@@ -1,9 +1,8 @@
 ---
 title: Carnosine
-description: 'Carnosine (beta-alanyl-L-histidine) is a dipeptide found in high
+description: Carnosine (beta-alanyl-L-histidine) is a dipeptide found in high
   concentrations in muscle and brain tissues, known for its antioxidant, pH-buffering,
-  and anti-glycation properties.'
-type: entity
+  and anti-glycation properties.
 created: 2024-01-01
 updated: 2026-07-07
 tags:

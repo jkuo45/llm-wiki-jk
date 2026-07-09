@@ -3,7 +3,6 @@ title: PEX5
 description: PEX5 encodes the PTS1 receptor, a cytosolic shuttling receptor that recognizes
   and transports peroxisomal matrix proteins bearing the C-terminal peroxisomal targeting
   signal 1 (PTS1) to the peroxisomal membrane docking complex.
-type: entity
 created: 2026-07-04
 updated: 2026-07-06
 tags:

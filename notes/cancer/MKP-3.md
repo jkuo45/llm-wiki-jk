@@ -1,7 +1,6 @@
 ---
 title: MKP-3
 description: MKP-3 (DUSP6) is a MAP kinase phosphatase that dephosphorylates and stabilizes Bcl-2, linking MAPK signaling to apoptotic resistance.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

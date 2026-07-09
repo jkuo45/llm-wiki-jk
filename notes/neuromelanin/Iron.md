@@ -1,7 +1,6 @@
 ---
 title: Iron
 description: Iron is an essential metal that plays a vital role in many biological processes, including oxygen transport and enzymatic reactions.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:

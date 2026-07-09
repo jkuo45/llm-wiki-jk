@@ -1,7 +1,6 @@
 ---
 title: Caenorhabditis elegans
 description: A microscopic nematode used as a premier model organism for studying development, genetics, aging, and neurobiology.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:

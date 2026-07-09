@@ -1,8 +1,7 @@
 ---
 title: Acetyl-CoA
-description: 'Acetyl-coenzyme A (Acetyl-CoA) is a central metabolic intermediate
-  that serves as the acetyl group donor for Histone Acetylation.'
-type: entity
+description: Acetyl-coenzyme A (Acetyl-CoA) is a central metabolic intermediate
+  that serves as the acetyl group donor for Histone Acetylation.
 created: 2024-01-01
 updated: 2024-01-01
 tags:

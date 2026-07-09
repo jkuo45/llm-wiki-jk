@@ -3,7 +3,6 @@ title: Methylglyoxal
 description: Methylglyoxal (MG), also called pyruvaldehyde or 2-oxopropanal, is a
   reactive dicarbonyl compound formed as a byproduct of several metabolic pathways,
   including glycolysis. It is a highly potent pr...
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

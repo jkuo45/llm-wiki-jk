@@ -2,7 +2,6 @@
 title: The autophagy enhancer spermidine reverses arterial aging
 description: Arterial aging, characterized by stiffening of large elastic arteries
   and the development of arterial endothelial dysfunction, increases cardiovascula…
-type: document
 created: 2026-06-19
 source: https://www.sciencedirect.com/science/article/abs/pii/S004763741300050X
 author:

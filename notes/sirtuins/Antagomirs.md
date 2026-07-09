@@ -3,7 +3,6 @@ title: Antagomirs
 description: Antagomirs are a class of chemically engineered Oligonucleotide that
   silence endogenous MicroRNA. They are typically single-stranded RNA molecules (21–23
   nucleotides) conjugated with Cholesterol fo...
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:

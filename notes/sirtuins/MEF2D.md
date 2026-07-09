@@ -1,9 +1,8 @@
 ---
 title: MEF2D
-description: 'MEF2D (Myocyte-specific enhancer factor 2D) is a member of the MEF2
+description: MEF2D (Myocyte-specific enhancer factor 2D) is a member of the MEF2
   (MADS-box transcription enhancer factor 2) family of transcription factors. It plays
-  critical roles in skeletal and cardiac m...'
-type: entity
+  critical roles in skeletal and cardiac m...
 created: 2026-07-03
 updated: 2026-07-07
 tags:

@@ -1,7 +1,6 @@
 ---
 title: Potassium Persulfate
 description: Potassium Persulfate is a strong inorganic oxidizing agent used in polymerization, etching, organic synthesis, and in vitro oxidation of epinephrine to adrenochrome.
-type: entity
 created: 2026-07-04
 updated: 2026-07-06
 tags:

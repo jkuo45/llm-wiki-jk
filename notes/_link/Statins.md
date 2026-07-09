@@ -1,9 +1,8 @@
 ---
 title: Statins
-description: 'Statins are a class of lipid-lowering medications that competitively
+description: Statins are a class of lipid-lowering medications that competitively
   inhibit HMG-CoA reductase — the rate-limiting enzyme in the mevalonate pathway —
-  reducing endogenous cholesterol synthesis. ...'
-type: entity
+  reducing endogenous cholesterol synthesis. ...
 created: 2026-07-04
 updated: 2026-07-04
 tags:

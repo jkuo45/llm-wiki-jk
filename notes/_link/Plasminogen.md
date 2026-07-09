@@ -2,7 +2,6 @@
 title: Plasminogen
 description: Inactive zymogen precursor of Plasmin, synthesised in the liver and circulating
   in plasma; converted to active plasmin by tPA and uPA to initiate fibrinolysis.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

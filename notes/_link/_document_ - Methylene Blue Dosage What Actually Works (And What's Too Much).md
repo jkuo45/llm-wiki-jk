@@ -1,17 +1,16 @@
 ---
-title: "Methylene Blue Dosage: What Actually Works (And What's Too Much)"
-source: "https://www.gethealthspan.com/research/article/methylene-blue-dosage-guide?zp_type=article&zp_slug=methylene-blue-dosage-guide"
+title: 'Methylene Blue Dosage: What Actually Works (And What's Too Much)'
+source: https://www.gethealthspan.com/research/article/methylene-blue-dosage-guide?zp_type=article&zp_slug=methylene-blue-dosage-guide
 author:
   - "[[Healthspan Team]]"
 published: 2026-05-25
 created: 2026-06-19
-description: "Methylene blue dosage explained: cognitive, mitochondrial, and mood protocols, oral drops vs. capsules, and where the safety line actually is."
+description: 'Methylene blue dosage explained: cognitive, mitochondrial, and mood protocols, oral drops vs. capsules, and where the safety line actually is.'
 tags:
   - clippings
   - methylene-blue
   - dosing
   - hormesis
-type: document
 ---
 
 # Methylene Blue Dosage: What Actually Works (And What's Too Much)

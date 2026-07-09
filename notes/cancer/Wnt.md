@@ -1,7 +1,6 @@
 ---
 title: Wnt
 description: The Wnt signaling pathway is a conserved network regulating development and tissue homeostasis; dysregulated Wnt/β-catenin signaling drives colorectal, breast, and many other cancers, and is a target of repurposed agents such as ivermectin.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

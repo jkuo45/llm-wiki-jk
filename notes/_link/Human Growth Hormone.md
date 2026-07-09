@@ -1,7 +1,6 @@
 ---
 title: Human Growth Hormone
 description: A pituitary peptide hormone that promotes somatic growth; indirectly activates mTOR and is considered a pro-aging hormone when elevated exogenously.
-type: entity
 created: 2026-07-07
 updated: 2026-07-07
 tags:

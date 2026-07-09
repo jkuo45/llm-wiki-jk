@@ -1,7 +1,6 @@
 ---
 title: Tryptophan
 description: Tryptophan (Trp) is an essential amino acid required for protein synthesis and the precursor for serotonin, melatonin, and NAD+ via the kynurenine pathway.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

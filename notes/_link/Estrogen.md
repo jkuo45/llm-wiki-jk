@@ -1,8 +1,7 @@
 ---
 title: Estrogen
-description: 'Estrogen is a category of sex hormones responsible for the development
-  and regulation of the female reproductive system and secondary sex characteristics.'
-type: entity
+description: Estrogen is a category of sex hormones responsible for the development
+  and regulation of the female reproductive system and secondary sex characteristics.
 created: 2026-05-29
 updated: 2026-05-29
 tags:

@@ -1,7 +1,6 @@
 ---
 title: EMT
 description: Epithelial-mesenchymal transition (EMT) is a cellular program in which epithelial cells lose adhesion and polarity and acquire mesenchymal invasiveness, driving carcinoma invasion, metastasis, and therapy resistance.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

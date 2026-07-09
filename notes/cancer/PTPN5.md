@@ -1,7 +1,6 @@
 ---
 title: PTPN5
 description: PTPN5 (STEP) is a neuron-enriched non-receptor tyrosine phosphatase that regulates MAPK, Fyn, and Pyk2 signaling; aberrant re-expression in tumors connects it to proliferation and survival pathways.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

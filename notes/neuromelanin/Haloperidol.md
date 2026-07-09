@@ -1,7 +1,6 @@
 ---
 title: Haloperidol
 description: Haloperidol is an antipsychotic medication that can be metabolized into the neurotoxin HPP+, potentially contributing to drug-induced Parkinsonism.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:

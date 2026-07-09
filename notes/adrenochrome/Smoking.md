@@ -1,9 +1,8 @@
 ---
 title: Smoking
-description: 'Smoking (including cigarettes, cigars, and wood smoke) is a major
+description: Smoking (including cigarettes, cigars, and wood smoke) is a major
   exogenous source of Oxidative Stress and has a significant impact on Catecholamines
-  metabolism.'
-type: entity
+  metabolism.
 created: 2026-07-04
 updated: 2026-07-04
 tags:

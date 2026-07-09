@@ -1,7 +1,6 @@
 ---
 title: BAK
 description: BCL-2 antagonist/killer, a pro-apoptotic effector resident in the outer mitochondrial membrane that forms pores with BAX; macropore activity drives mtDNA release and SASP in senescence.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

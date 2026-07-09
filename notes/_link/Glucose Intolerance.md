@@ -1,7 +1,6 @@
 ---
 title: Glucose Intolerance
 description: A pre-diabetic state of impaired glucose handling in which blood glucose remains above normal but below the diabetic threshold; a recognized metabolic effect of chronic mTOR inhibition.
-type: entity
 created: 2026-07-07
 updated: 2026-07-07
 tags:

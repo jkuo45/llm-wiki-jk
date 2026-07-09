@@ -1,7 +1,6 @@
 ---
 title: Ornithine Aminotransferase (OAT) Deficiency
-description: "A rare autosomal recessive disorder of the urea cycle and ornithine metabolism caused by mutations in the OAT gene, leading to gyrate atrophy of the choroid and retina with secondary creatine depletion."
-type: entity
+description: A rare autosomal recessive disorder of the urea cycle and ornithine metabolism caused by mutations in the OAT gene, leading to gyrate atrophy of the choroid and retina with secondary creatine depletion.
 created: 2026-07-08
 updated: 2026-07-08
 tags:

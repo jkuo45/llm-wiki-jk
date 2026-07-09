@@ -3,7 +3,6 @@ title: Growth Factor
 description: Growth factors are signaling molecules (typically Peptides or Proteins)
   that stimulate Cell Proliferation, Differentiation, Survival, and Migration by binding
   to Receptor Tyrosine Kinases or G Prot...
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:

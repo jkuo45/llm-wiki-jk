@@ -2,7 +2,6 @@
 title: Rad53p
 description: Rad53p is a yeast protein kinase that, along with Tel1p, senses mitochondrial
   ROS and mediates mitochondria-induced longevity through epigenetic changes.
-type: entity
 created: 2026-07-04
 updated: 2026-07-06
 tags:

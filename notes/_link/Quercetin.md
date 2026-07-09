@@ -1,8 +1,7 @@
 ---
 title: Quercetin
-description: 'Quercetin is a plant Flavonoids found in many fruits, vegetables,
-  and grains. It is commonly used as an Anti-inflammatory and antioxidant supplement.'
-type: entity
+description: Quercetin is a plant Flavonoids found in many fruits, vegetables,
+  and grains. It is commonly used as an Anti-inflammatory and antioxidant supplement.
 created: 2026-05-29
 updated: 2026-05-29
 tags:

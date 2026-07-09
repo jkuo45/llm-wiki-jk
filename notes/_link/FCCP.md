@@ -1,7 +1,6 @@
 ---
 title: FCCP
 description: FCCP (carbonyl cyanide-4-trifluoromethoxy phenylhydrazone) is a mitochondrial uncoupler used to maximally stimulate cellular oxygen consumption in Seahorse bioenergetic assays of methylene blue.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

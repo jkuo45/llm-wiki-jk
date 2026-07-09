@@ -3,7 +3,6 @@ title: Rapamycin
 description: In the SASP-Remodeling Aminochrome Complex strategy, Rapamycin acts as
   a "brake." It ensures that Adrenochrome-induced ROS signals are diverted from pro-inflammatory
   SASP production toward a quiesc...
-type: entity
 created: 2024-01-01
 updated: 2026-07-07
 tags:

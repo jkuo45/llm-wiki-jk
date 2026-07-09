@@ -1,9 +1,8 @@
 ---
 title: Creatine Synthesis Deficiency
-description: 'A group of rare inborn errors of metabolism caused by mutations in enzymes
+description: A group of rare inborn errors of metabolism caused by mutations in enzymes
   or transporters of the creatine biosynthesis/transport pathway (AGAT, GAMT, SLC6A8),
-  resulting in depleted cerebral creatine and a spectrum of neurological impairment.'
-type: entity
+  resulting in depleted cerebral creatine and a spectrum of neurological impairment.
 created: 2026-07-08
 updated: 2026-07-08
 tags:

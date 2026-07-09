@@ -1,9 +1,8 @@
 ---
 title: CDK4 6
-description: 'CDK4 and CDK6 are closely related Cyclin-Dependent Kinases that
+description: CDK4 and CDK6 are closely related Cyclin-Dependent Kinases that
   regulate the G1 Phase-to-S Phase phase transition of the Cell Cycle. They form active
-  complexes with Cyclin D (D1, D2, D3) to...'
-type: entity
+  complexes with Cyclin D (D1, D2, D3) to...
 created: 2026-07-04
 updated: 2026-07-06
 tags:

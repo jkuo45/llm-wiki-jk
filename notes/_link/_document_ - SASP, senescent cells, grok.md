@@ -1,13 +1,12 @@
 ---
-title: "Grok"
-source: "https://x.com/i/grok?conversation=2074626985612181699"
+title: Grok
+source: https://x.com/i/grok?conversation=2074626985612181699
 author:
 published:
 created: 2026-07-07
-description: "Grok is a free AI assistant designed by xAI to maximize truth and objectivity. Grok offers real-time search, image generation, trend analysis, and more."
+description: Grok is a free AI assistant designed by xAI to maximize truth and objectivity. Grok offers real-time search, image generation, trend analysis, and more.
 tags:
   - "clippings"
-type: "document"
 ---
 research **senescence-associated secretory phenotype (SASP)**
 

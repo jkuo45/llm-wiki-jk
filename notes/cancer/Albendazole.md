@@ -1,7 +1,6 @@
 ---
 title: Albendazole
 description: Albendazole is a benzimidazole anthelmintic used to treat a variety of parasitic worm infestations, including Lymphatic Filariasis, and investigated for anticancer repositioning.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

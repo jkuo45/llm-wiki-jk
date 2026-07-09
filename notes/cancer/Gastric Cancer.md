@@ -1,7 +1,6 @@
 ---
 title: Gastric Cancer
 description: Gastric cancer (stomach cancer) is one of the most common malignant tumors worldwide.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

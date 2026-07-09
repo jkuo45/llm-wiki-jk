@@ -1,8 +1,7 @@
 ---
 title: Mass Spectrometry
-description: 'Mass Spectrometry (MS) is an analytical technique that measures
-  the mass-to-charge ratio of ions.'
-type: entity
+description: Mass Spectrometry (MS) is an analytical technique that measures
+  the mass-to-charge ratio of ions.
 created: 2026-07-04
 updated: 2026-07-04
 tags:

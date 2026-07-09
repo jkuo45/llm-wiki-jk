@@ -3,7 +3,6 @@ title: MET gene
 description: The MET proto-oncogene encodes the receptor tyrosine kinase c-Met, the
   receptor for hepatocyte growth factor (HGF), driving invasive growth and implicated
   in cancer.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:

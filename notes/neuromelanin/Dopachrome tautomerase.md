@@ -1,7 +1,6 @@
 ---
 title: Dopachrome tautomerase
-description: 'Dopachrome tautomerase is an alternative name for Tyrosinase-related protein-2 (TRP-2), an enzyme critical for the production of melanin.'
-type: entity
+description: Dopachrome tautomerase is an alternative name for Tyrosinase-related protein-2 (TRP-2), an enzyme critical for the production of melanin.
 created: 2026-07-04
 updated: 2026-07-07
 tags:

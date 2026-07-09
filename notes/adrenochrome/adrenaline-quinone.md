@@ -1,8 +1,7 @@
 ---
 title: adrenaline-quinone
-description: 'Adrenaline-quinone is a highly reactive, electrophilic intermediate
-  formed during the oxidation of Epinephrine.'
-type: entity
+description: Adrenaline-quinone is a highly reactive, electrophilic intermediate
+  formed during the oxidation of Epinephrine.
 created: 2026-07-04
 updated: 2026-07-04
 tags:

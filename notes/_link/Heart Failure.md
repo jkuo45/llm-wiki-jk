@@ -1,9 +1,8 @@
 ---
 title: Heart Failure
-description: 'Heart failure is a complex clinical syndrome where the heart is
+description: Heart failure is a complex clinical syndrome where the heart is
   unable to pump sufficiently to maintain blood flow. It is a common end-stage of
-  Cardiovascular Disease and Hypertension.'
-type: entity
+  Cardiovascular Disease and Hypertension.
 created: 2026-07-04
 updated: 2026-07-04
 tags:

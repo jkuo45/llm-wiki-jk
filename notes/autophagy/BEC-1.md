@@ -1,9 +1,8 @@
 ---
 title: BEC-1
-description: 'BEC-1 is the C. elegans orthologue of the mammalian Beclin1 and
+description: BEC-1 is the C. elegans orthologue of the mammalian Beclin1 and
   yeast Atg6 proteins. It is a key regulator of Autophagy and is part of the Class
-  III Vps34 complex.'
-type: entity
+  III Vps34 complex.
 created: 2026-07-04
 updated: 2026-07-04
 tags:

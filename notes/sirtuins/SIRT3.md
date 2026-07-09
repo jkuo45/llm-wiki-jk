@@ -1,8 +1,7 @@
 ---
 title: SIRT3
-description: 'SIRT3 (Sirtuin 3) is the primary NAD+-dependent deacetylase localized
-  within the Mitochondria.'
-type: entity
+description: SIRT3 (Sirtuin 3) is the primary NAD+-dependent deacetylase localized
+  within the Mitochondria.
 created: 2026-07-04
 updated: 2026-07-04
 tags:

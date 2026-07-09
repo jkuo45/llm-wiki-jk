@@ -3,7 +3,6 @@ title: SAHF
 description: Senescence-Associated Heterochromatin Foci (SAHF) are specialized facultative
   heterochromatin domains in senescent nuclei that silence proliferation genes via H3K9me3
   and macroH2A, enforcing irreversible growth arrest.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:

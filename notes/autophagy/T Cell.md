@@ -1,7 +1,6 @@
 ---
 title: T Cell
 description: T cells are adaptive immune lymphocytes whose development, activation, proliferation, memory formation, and metabolic fitness depend on autophagy for organelle quality control and nutrient recycling.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:

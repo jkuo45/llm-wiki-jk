@@ -1,7 +1,6 @@
 ---
 title: Prilocaine
 description: '- Methemoglobinemia: A potential complication of Prilocaine use.'
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

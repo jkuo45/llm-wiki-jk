@@ -2,7 +2,6 @@
 title: FRAT2
 description: A protein involved in the Wnt signaling pathway, specifically inhibiting
   GSK3B; frequently rearranged in advanced T-cell lymphomas.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:

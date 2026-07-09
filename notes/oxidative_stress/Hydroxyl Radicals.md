@@ -3,7 +3,6 @@ title: Hydroxyl Radicals
 description: Hydroxyl radicals ($\bullet OH$) are the most reactive and destructive
   species among all reactive oxygen species (ROS) in biological systems. They have
   a very short half-life and react instantly wi...
-type: entity
 created: 2026-05-09
 updated: 2026-07-04
 tags:

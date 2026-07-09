@@ -3,7 +3,6 @@ title: Low-Density Lipoprotein
 description: Low-density lipoprotein (LDL) is one of the five major groups of lipoproteins.
   High levels of LDL are associated with an increased risk of Atherosclerosis, especially
   when the particles are modifie...
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

@@ -3,7 +3,6 @@ title: TGF-β Signaling
 description: Transforming growth factor-beta (TGF-β) signaling is a pathway involved
   in regulating many cellular processes; hyperactivation of its transducer SMAD3 can
   inhibit TFEB expression.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

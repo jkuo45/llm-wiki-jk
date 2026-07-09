@@ -4,7 +4,6 @@ description: Methylene blue (methylthioninium chloride) is an FDA-approved first
   treatment for acquired methemoglobinemia and a redox-cycling mitochondrial
   electron carrier with off-label uses in vasoplegic shock, neuroprotection,
   and low-dose cognitive/mitochondrial support.
-type: entity
 created: 2024-01-01
 updated: 2026-07-08
 tags:

@@ -1,7 +1,6 @@
 ---
 title: Ephrin Type A Receptor 2
 description: EPHA2, a receptor tyrosine kinase activated by exosomes from senescent cells to drive cancer proliferation and SASP-mediated tumor promotion.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

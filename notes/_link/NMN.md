@@ -3,7 +3,6 @@ title: NMN (Nicotinamide Mononucleotide)
 description: Nicotinamide Mononucleotide (NMN) is an endogenous nucleotide derived
   from vitamin B3 (niacin) and a direct biosynthetic precursor to NAD+ (nicotinamide
   adenine dinucleotide). NMN serves as a key i...
-type: entity
 created: 2026-07-05
 updated: 2026-07-05
 tags:

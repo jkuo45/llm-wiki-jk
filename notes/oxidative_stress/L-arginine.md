@@ -3,7 +3,6 @@ title: L-arginine
 description: L-arginine is an amino acid that serves as a primary precursor for the
   biosynthesis of Nitric Oxide via the enzyme Nitric Oxide Synthase. Availability
   of L-arginine is a critical factor in maintain...
-type: entity
 created: 2026-05-09
 updated: 2026-07-04
 tags:

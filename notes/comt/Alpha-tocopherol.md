@@ -1,8 +1,7 @@
 ---
 title: Alpha-tocopherol
-description: 'Alpha-tocopherol is the primary form of Vitamin E that is preferentially
-  used by the human body.'
-type: entity
+description: Alpha-tocopherol is the primary form of Vitamin E that is preferentially
+  used by the human body.
 created: 2026-05-25
 updated: 2026-07-04
 tags:

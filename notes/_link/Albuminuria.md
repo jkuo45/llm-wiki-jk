@@ -1,7 +1,6 @@
 ---
 title: Albuminuria
 description: Albuminuria is the presence of excess albumin in the urine, most commonly reflecting glomerular damage and a hallmark of diabetic and hypertensive kidney disease.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

@@ -3,7 +3,6 @@ title: Diamine Oxidase
 description: Diamine oxidase (DAO) is the intestinal enzyme that degrades
   dietary histamine. Aminoguanidine potently inhibits DAO, causing histamine
   intolerance when taken orally.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

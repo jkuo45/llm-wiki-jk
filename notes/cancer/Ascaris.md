@@ -2,7 +2,6 @@
 title: Ascaris
 description: Ascaris is a genus of parasitic nematode worms known as "large roundworms".
   The most common species is Ascaris lumbricoides, which causes Ascariasis in humans.
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:

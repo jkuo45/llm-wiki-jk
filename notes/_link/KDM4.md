@@ -1,7 +1,6 @@
 ---
 title: KDM4
 description: Lysine demethylase 4 family, JmjC histone demethylases that erase H3K9me3/me2 to open chromatin and promote SASP factor expression.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

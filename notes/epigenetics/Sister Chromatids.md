@@ -1,7 +1,6 @@
 ---
 title: Sister Chromatids
-description: 'Sister Chromatids are the two identical copies of a chromosome produced by DNA replication, held together at the centromere by cohesin until segregation at anaphase.'
-type: entity
+description: Sister Chromatids are the two identical copies of a chromosome produced by DNA replication, held together at the centromere by cohesin until segregation at anaphase.
 created: 2024-01-01
 updated: 2026-07-06
 tags:

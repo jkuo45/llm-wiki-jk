@@ -3,7 +3,6 @@ title: Inducible Nitric Oxide Synthase
 description: Inducible nitric oxide synthase (iNOS, NOS2) is the cytokine-induced
   isoform of NOS that produces high-output nitric oxide during inflammation;
   selectively inhibited by aminoguanidine.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

@@ -2,7 +2,6 @@
 title: MITF
 description: Microphthalmia-associated transcription factor, a member of the MiTF
   TFE family involved in melanocyte development and lysosomal regulation.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

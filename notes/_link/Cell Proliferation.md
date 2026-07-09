@@ -3,7 +3,6 @@ title: Cell Proliferation
 description: Cell proliferation is the process by which cells grow and divide to produce
   daughter cells, tightly regulated by Growth Factor signaling, Cell Cycle checkpoints,
   and Cell Division machinery. It is ...
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:

@@ -2,7 +2,6 @@
 title: alpha-1 Antitrypsin
 description: Major circulating serine protease inhibitor that protects tissues (especially
   lungs) from Neutrophil Elastase; deficiency causes emphysema and liver disease.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

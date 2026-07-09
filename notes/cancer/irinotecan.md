@@ -1,7 +1,6 @@
 ---
 title: irinotecan
 description: Irinotecan (Camptosar) is a camptothecin-derived prodrug converted to SN-38, a potent topoisomerase I poison used in Colorectal Cancer and small cell lung cancer.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

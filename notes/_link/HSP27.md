@@ -1,7 +1,6 @@
 ---
 title: HSP27
 description: Small heat-shock protein (HSPB1) chaperone; stabilizes SASP mRNAs via the p38/MK2 axis and marks senescence.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

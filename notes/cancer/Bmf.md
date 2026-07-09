@@ -1,7 +1,6 @@
 ---
 title: Bmf
-description: 'Bmf (Bcl-2-modifying factor) is a BH3-only protein whose pro-apoptotic activity is suppressed by ERK2 phosphorylation at Ser77 and by sequestration at the actin cytoskeleton.'
-type: entity
+description: Bmf (Bcl-2-modifying factor) is a BH3-only protein whose pro-apoptotic activity is suppressed by ERK2 phosphorylation at Ser77 and by sequestration at the actin cytoskeleton.
 created: 2026-07-06
 updated: 2026-07-07
 tags:

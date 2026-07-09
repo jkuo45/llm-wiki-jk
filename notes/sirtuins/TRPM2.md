@@ -1,7 +1,6 @@
 ---
 title: TRPM2
 description: TRPM2 (Transient Receptor Potential Melastatin-Related Channel 2) is a calcium-permeable non-selective cation channel expressed highly in the brain, immune system, and cardiovascular system. It functions as an oxidative stress sensor whose prolonged activation leads to calcium overload and cell death.
-type: entity
 created: 2026-07-03
 updated: 2026-07-07
 tags:

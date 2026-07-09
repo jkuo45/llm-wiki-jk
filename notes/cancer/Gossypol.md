@@ -1,9 +1,8 @@
 ---
 title: Gossypol
-description: 'Gossypol is a natural polyphenolic compound derived from the cotton
+description: Gossypol is a natural polyphenolic compound derived from the cotton
   plant (*Gossypium*). It has been extensively researched for its potent anticancer
-  properties.'
-type: entity
+  properties.
 created: 2026-07-06
 updated: 2026-07-06
 tags:

@@ -3,7 +3,6 @@ title: PARP1
 description: PARP1 (Poly [ADP-ribose] polymerase 1, 116 kDa) is a nuclear zinc-finger
   enzyme that detects DNA strand breaks and catalyzes the transfer of ADP-ribose units
   from NAD+ onto target proteins, forming poly(ADP-ribose) (PAR) chains.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:

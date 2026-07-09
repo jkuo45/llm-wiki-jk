@@ -1,7 +1,6 @@
 ---
 title: FAK Signaling
-description: 'Focal Adhesion Kinase (FAK) signaling is a major integrin-dependent pathway by which cells sense and respond to the physical and biochemical properties of the Extracellular Matrix, controlling adhesion, survival, migration, and proliferation.'
-type: entity
+description: Focal Adhesion Kinase (FAK) signaling is a major integrin-dependent pathway by which cells sense and respond to the physical and biochemical properties of the Extracellular Matrix, controlling adhesion, survival, migration, and proliferation.
 created: 2024-01-01
 updated: 2026-07-06
 tags:

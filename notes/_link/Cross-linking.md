@@ -1,7 +1,6 @@
 ---
 title: Cross-linking
 description: Protein cross-linking is the covalent bridging of adjacent protein molecules — accelerated by glycation and Advanced Glycation End Products — that stiffens the extracellular matrix and is proposed to drive aging and diabetic complications.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

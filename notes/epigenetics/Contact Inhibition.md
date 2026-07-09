@@ -1,7 +1,6 @@
 ---
 title: Contact Inhibition
-description: 'Contact Inhibition is a process of arresting cell growth and migration when cells come into contact with each other, a critical mechanism for maintaining Quiescence and preventing cancer.'
-type: entity
+description: Contact Inhibition is a process of arresting cell growth and migration when cells come into contact with each other, a critical mechanism for maintaining Quiescence and preventing cancer.
 created: 2024-01-01
 updated: 2026-07-06
 tags:

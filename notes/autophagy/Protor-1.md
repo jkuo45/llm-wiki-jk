@@ -3,7 +3,6 @@ title: Protor-1
 description: Protein observed with Rictor-1 (Protor-1) is a component of mTORC2 that
   interacts with Rictor, though its precise physiological function within the complex
   remains to be fully elucidated.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

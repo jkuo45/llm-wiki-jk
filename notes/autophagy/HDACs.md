@@ -3,7 +3,6 @@ title: HDACs
 description: Histone deacetylases (HDACs) are enzymes that remove acetyl groups from
   histones and other proteins; inhibitors of HDACs, such as SAHA, can enhance TFEB
   activity by promoting its acetylation.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

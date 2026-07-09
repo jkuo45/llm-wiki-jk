@@ -1,7 +1,6 @@
 ---
 title: MMP-2
 description: Matrix metalloproteinase-2 (gelatinase A), a zinc-dependent SASP protease and mortality-associated senescence biomarker.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

@@ -2,7 +2,6 @@
 title: Atg1
 description: Atg1 is a conserved serine/threonine kinase that plays a central role
   in the initiation of Autophagy in response to nutrient deprivation.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

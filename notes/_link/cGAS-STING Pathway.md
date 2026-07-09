@@ -3,7 +3,6 @@ title: cGAS-STING Pathway
 description: The cGAS-STING complex is an innate immune sensor that detects cytoplasmic
   DNA and activates inflammatory interferon signalling, playing a crucial role in SASP
   activation and age-related inflammation.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

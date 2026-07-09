@@ -1,7 +1,6 @@
 ---
 title: L-Carnitine
 description: L-Carnitine is the biologically active enantiomer of carnitine, an endogenous quaternary ammonium compound required for shuttling long-chain fatty acids into mitochondria for β-oxidation.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

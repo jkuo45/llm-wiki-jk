@@ -1,7 +1,6 @@
 ---
 title: Mitoxantrone
 description: Mitoxantrone is a synthetic anthraquinonoid and type II topoisomerase inhibitor used in the treatment of certain cancers and multiple sclerosis.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:

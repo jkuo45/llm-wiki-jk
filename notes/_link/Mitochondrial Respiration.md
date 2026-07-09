@@ -3,7 +3,6 @@ title: Mitochondrial Respiration
 description: Mitochondrial respiration is oxygen consumption coupled to
   ATP synthesis by the electron transport chain; methylene blue enhances
   it when complexes are impaired.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

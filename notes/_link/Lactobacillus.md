@@ -3,7 +3,6 @@ title: Lactobacillus
 description: Lactobacillus is a genus of Gram-positive, facultative anaerobic or microaerophilic,
   rod-shaped, non-spore-forming bacteria, known for their role in fermenting carbohydrates
   into lactic acid.
-type: entity
 created: 2024-01-01
 updated: 2024-01-01
 tags:

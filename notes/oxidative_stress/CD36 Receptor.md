@@ -3,7 +3,6 @@ title: CD36 Receptor
 description: CD36 is a member of the class B scavenger receptor family and is involved
   in lipid metabolism and inflammation. It plays a significant role in Atherosclerosis
   by mediating the uptake of Oxidized LD...
-type: entity
 created: 2026-05-09
 updated: 2026-07-04
 tags:

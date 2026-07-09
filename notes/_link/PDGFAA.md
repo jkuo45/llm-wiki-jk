@@ -1,7 +1,6 @@
 ---
 title: PDGFAA
 description: Platelet-derived growth factor AA is a SASP growth factor that induces myofibroblast differentiation and is required for optimal wound healing.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

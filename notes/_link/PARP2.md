@@ -3,7 +3,6 @@ title: PARP2
 description: PARP2 (Poly [ADP-ribose] polymerase 2) is an enzyme related to PARP1
   that also responds to DNA breaks and facilitates DNA repair using NAD+. Increased
   PARP2 activation can lower SIRT1 activity thro...
-type: entity
 created: 2024-01-01
 updated: 2024-01-01
 tags:

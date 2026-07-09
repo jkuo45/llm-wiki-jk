@@ -3,7 +3,6 @@ title: Dietary Restriction
 description: Dietary Restriction (DR) is a nutritional intervention that reduces total
   food or specific nutrient intake to promote metabolic health, extend lifespan, and
   activate Macroautophagy.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

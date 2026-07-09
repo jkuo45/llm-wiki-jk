@@ -3,7 +3,6 @@ title: MiTF
 description: MiTF (Microphthalmia-associated Transcription Factor, also MITF) is a
   basic helix-loop-helix leucine zipper transcription factor that belongs to the MiT/TFE
   family, which includes TFEB, TFE3, and T...
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:

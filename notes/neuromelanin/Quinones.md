@@ -1,7 +1,6 @@
 ---
 title: Quinones
 description: Quinones are reactive electrophilic compounds generated from catecholamine oxidation; they contribute to Oxidative Stress, protein adduct formation, and Neuromelanin biosynthesis in catecholaminergic neurons.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:

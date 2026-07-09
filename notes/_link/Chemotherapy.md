@@ -3,7 +3,6 @@ title: Chemotherapy
 description: Chemotherapy refers to pharmacological treatment of Cancer using cytotoxic
   or cytostatic drugs that target rapidly dividing cells. Major classes include Alkylating
   Agents, Antimetabolites, Topoisom...
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:

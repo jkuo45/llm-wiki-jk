@@ -1,8 +1,7 @@
 ---
 title: Ketogenesis
-description: 'Ketogenesis is the metabolic process by which the liver produces
-  ketone bodies (such as acetoacetate and β-hydroxybutyrate) from fatty acids.'
-type: entity
+description: Ketogenesis is the metabolic process by which the liver produces
+  ketone bodies (such as acetoacetate and β-hydroxybutyrate) from fatty acids.
 created: 2026-07-04
 updated: 2026-07-04
 tags:

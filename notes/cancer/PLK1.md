@@ -1,7 +1,6 @@
 ---
 title: PLK1
 description: Polo-like kinase 1 (PLK1) is a serine/threonine kinase and master regulator of mitosis that controls centrosome maturation, spindle assembly, and cytokinesis, and modulates apoptosis by phosphorylating Bcl-xL at Ser62.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

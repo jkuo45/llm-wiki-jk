@@ -1,8 +1,7 @@
 ---
 title: LGG-1
-description: 'LGG-1 is one of the C. elegans orthologues of the yeast Atg8 and
-  mammalian LC3 proteins. It is a critical component of the autophagosome membrane.'
-type: entity
+description: LGG-1 is one of the C. elegans orthologues of the yeast Atg8 and
+  mammalian LC3 proteins. It is a critical component of the autophagosome membrane.
 created: 2026-07-04
 updated: 2026-07-04
 tags:

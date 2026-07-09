@@ -3,7 +3,6 @@ title: Intrinsic Pathway
 description: The Intrinsic Pathway, also known as the mitochondrial pathway
   of Apoptosis, is initiated by internal cellular stimuli such as genetic damage,
   hypoxia, and oxidative stress.
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:

@@ -3,7 +3,6 @@ title: MMP-9
 description: MMP-9 (Matrix Metalloproteinase 9, Gelatinase B) is a zinc-dependent
   endopeptidase that degrades Extracellular Matrix components including Collagen IV,
   Gelatin, and Elastin. It is produced as a zym...
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:

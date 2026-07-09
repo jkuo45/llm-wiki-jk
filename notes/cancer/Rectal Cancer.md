@@ -1,7 +1,6 @@
 ---
 title: Rectal Cancer
 description: Rectal cancer is cancer that begins in the rectum. It is distinct from colon cancer in anatomy, treatment approach, recurrence patterns, and molecular profile.
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:

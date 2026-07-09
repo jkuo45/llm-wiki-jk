@@ -1,7 +1,6 @@
 ---
 title: Promethazine
 description: Promethazine is a 10-nitrogen-substituted phenothiazine antihistamine/antiemetic; like chlorpromazine it lacks methylene blue-like mitochondrial electron-transfer activity and shows weak neuroprotection.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

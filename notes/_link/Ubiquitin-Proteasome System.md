@@ -3,7 +3,6 @@ title: Ubiquitin-Proteasome System
 description: The ubiquitin-proteasome system (UPS) is the primary pathway for selective
   protein degradation; it regulates TFEB levels via E3 ligases like STUB1 which target
   phosphorylated TFEB.
-type: entity
 created: 2026-07-04
 updated: 2026-07-06
 tags:

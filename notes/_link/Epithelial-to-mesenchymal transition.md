@@ -1,7 +1,6 @@
 ---
 title: Epithelial-to-mesenchymal transition
 description: A developmental/programmable process in which epithelial cells lose polarity and adhesion, acquiring mesenchymal, migratory and invasive traits; inducible by the SASP.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

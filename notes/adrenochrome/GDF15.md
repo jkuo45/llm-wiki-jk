@@ -3,7 +3,6 @@ title: GDF15
 description: Growth differentiation factor 15, a TGF-beta superfamily stress-responsive
   cytokine/mitokine secreted under mitochondrial and senescent stress, increasingly
   recognized as a circulating biomarker of cellular senescence and age-related frailty.
-type: entity
 created: 2026-07-04
 updated: 2026-07-08
 tags:

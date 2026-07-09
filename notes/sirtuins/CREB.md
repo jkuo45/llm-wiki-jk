@@ -3,7 +3,6 @@ title: cAMP Response Element Binding Protein (CREB)
 description: cAMP Response Element Binding Protein (CREB/CREB1) is a 43 kDa basic leucine
   zipper (bZIP) transcription factor that binds cAMP response elements (CRE) in target
   gene promoters. It integrates cAMP, Ca2+/calmodulin, and growth factor signals.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:

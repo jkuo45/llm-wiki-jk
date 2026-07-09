@@ -1,7 +1,6 @@
 ---
 title: PTPN23
 description: PTPN23 (HD-PTP) is a non-receptor protein tyrosine phosphatase and Bro1-domain protein that functions as a tumor suppressor by regulating endosomal trafficking, EGFR degradation, and apoptosis via Bak.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

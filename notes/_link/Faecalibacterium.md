@@ -3,7 +3,6 @@ title: Faecalibacterium
 description: Faecalibacterium is a genus of bacteria, with Faecalibacterium prausnitzii
   being a key species, known for its high production of butyrate and its anti-inflammatory
   effects in the gut.
-type: entity
 created: 2024-01-01
 updated: 2024-01-01
 tags:

@@ -2,7 +2,6 @@
 title: Endoplasmic Reticulum Pathway
 description: The Endoplasmic Reticulum (ER) Pathway is an initiation route for
   Apoptosis that is triggered by ER stress.
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:

@@ -1,8 +1,7 @@
 ---
 title: Transcription
-description: 'Transcription is the first step of gene expression, in which a particular
-  segment of DNA is copied into RNA by the enzyme RNA polymerase.'
-type: entity
+description: Transcription is the first step of gene expression, in which a particular
+  segment of DNA is copied into RNA by the enzyme RNA polymerase.
 created: 2024-01-01
 updated: 2024-01-01
 tags:

@@ -3,7 +3,6 @@ title: BDNF
 description: BDNF (Brain-Derived Neurotrophic Factor) is a member of the Neurotrophin
   family of growth factors that supports neuronal survival, differentiation, synaptic
   plasticity, and neurogenesis. It is critical for learning, memory, and mood regulation.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:

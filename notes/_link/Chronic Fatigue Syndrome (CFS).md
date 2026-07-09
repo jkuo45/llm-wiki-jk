@@ -1,9 +1,8 @@
 ---
 title: Chronic Fatigue Syndrome (CFS)
-description: 'A complex, debilitating disorder (also myalgic encephalomyelitis) defined
+description: A complex, debilitating disorder (also myalgic encephalomyelitis) defined
   by profound fatigue lasting >6 months, post-exertional malaise, and cognitive, sleep,
-  and pain disturbances of unknown etiology.'
-type: entity
+  and pain disturbances of unknown etiology.
 created: 2026-07-08
 updated: 2026-07-08
 tags:

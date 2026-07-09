@@ -1,8 +1,7 @@
 ---
 title: Chaperone-Mediated Autophagy
-description: 'Chaperone-Mediated Autophagy (CMA) is a highly selective type of
-  Autophagy that targets specific proteins for degradation in the Lysosome.'
-type: entity
+description: Chaperone-Mediated Autophagy (CMA) is a highly selective type of
+  Autophagy that targets specific proteins for degradation in the Lysosome.
 created: 2026-07-04
 updated: 2026-07-04
 tags:

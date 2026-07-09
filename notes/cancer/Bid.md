@@ -1,9 +1,8 @@
 ---
 title: Bid
-description: 'Bid (BH3 interacting-domain death agonist) is a pro-apoptotic member
+description: Bid (BH3 interacting-domain death agonist) is a pro-apoptotic member
   of the Bcl-2 family that serves as a critical link between the Extrinsic Pathway
-  and the Intrinsic Pathway of Apoptosis.'
-type: entity
+  and the Intrinsic Pathway of Apoptosis.
 created: 2026-07-06
 updated: 2026-07-06
 tags:

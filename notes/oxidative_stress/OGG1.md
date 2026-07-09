@@ -1,9 +1,8 @@
 ---
 title: OGG1
-description: 'OGG1 (8-oxoguanine DNA glycosylase 1) is a bifunctional glycosylase
+description: OGG1 (8-oxoguanine DNA glycosylase 1) is a bifunctional glycosylase
   that initiates the Base Excision Repair pathway by recognizing and excising 8-oxo-2''-deoxyguanosine
-  (8-oxoG), the most abunda...'
-type: entity
+  (8-oxoG), the most abunda...
 created: 2026-07-04
 updated: 2026-07-04
 tags:

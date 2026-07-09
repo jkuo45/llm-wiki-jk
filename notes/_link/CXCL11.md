@@ -1,7 +1,6 @@
 ---
 title: CXCL11
 description: C-X-C motif chemokine ligand 11 (I-TAC), an IFN-inducible ELR− SASP chemokine that binds CXCR3 and promotes pro-tumorigenic paracrine signaling from senescent endothelial cells.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

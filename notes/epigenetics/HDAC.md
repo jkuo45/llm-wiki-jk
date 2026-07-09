@@ -1,7 +1,6 @@
 ---
 title: HDAC
-description: 'HDAC stands for Histone Deacetylase. These are a class of enzymes that remove acetyl groups from histone lysine residues, allowing chromatin to condense.'
-type: entity
+description: HDAC stands for Histone Deacetylase. These are a class of enzymes that remove acetyl groups from histone lysine residues, allowing chromatin to condense.
 created: 2024-01-01
 updated: 2026-07-06
 tags:

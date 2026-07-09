@@ -1,7 +1,6 @@
 ---
 title: Adrenochrome
 description: '- Formula: C₉H₉NO₃'
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

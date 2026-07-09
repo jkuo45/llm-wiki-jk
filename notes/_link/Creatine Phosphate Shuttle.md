@@ -1,9 +1,8 @@
 ---
 title: Creatine Phosphate Shuttle
-description: 'The creatine phosphate (phosphocreatine/creatine kinase) shuttle is a
+description: The creatine phosphate (phosphocreatine/creatine kinase) shuttle is a
   subcellular energy-transport system that buffers and redistributes ATP from mitochondria
-  to sites of high ATP consumption via phosphocreatine diffusion.'
-type: entity
+  to sites of high ATP consumption via phosphocreatine diffusion.
 created: 2026-07-08
 updated: 2026-07-08
 tags:

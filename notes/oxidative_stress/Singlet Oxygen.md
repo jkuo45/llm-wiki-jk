@@ -3,7 +3,6 @@ title: Singlet Oxygen
 description: Singlet oxygen (¹O₂) is an electronically excited state of molecular
   oxygen. It is a highly reactive non-radical species that specifically targets molecules
   with double bonds.
-type: entity
 created: 2026-05-09
 updated: 2026-07-04
 tags:

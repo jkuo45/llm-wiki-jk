@@ -1,7 +1,6 @@
 ---
 title: Bromodeoxyuridine
 description: Bromodeoxyuridine (BrdU) is a synthetic thymidine analog used extensively as a marker for cell proliferation by incorporating into newly synthesized DNA.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:

@@ -1,9 +1,8 @@
 ---
 title: GLUT-4
-description: 'Glucose transporter type 4 is an insulin-regulated facilitative glucose
+description: Glucose transporter type 4 is an insulin-regulated facilitative glucose
   transporter responsible for insulin- and contraction-stimulated glucose uptake in
-  skeletal and cardiac muscle and adipose tissue.'
-type: entity
+  skeletal and cardiac muscle and adipose tissue.
 created: 2026-07-08
 updated: 2026-07-08
 tags:

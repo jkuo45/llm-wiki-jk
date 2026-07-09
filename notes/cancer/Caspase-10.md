@@ -1,7 +1,6 @@
 ---
 title: Caspase-10
 description: Caspase-10 is an initiator caspase closely related to Caspase-8 that activates the extrinsic apoptotic pathway downstream of death receptors such as Fas, DR4, and DR5.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

@@ -1,7 +1,6 @@
 ---
 title: Teratoma
 description: A Teratoma is a germ-cell tumor containing differentiated tissues from multiple lineages; in stem-cell research it validates pluripotency.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:

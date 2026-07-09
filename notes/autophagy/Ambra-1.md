@@ -2,7 +2,6 @@
 title: Ambra-1
 description: Ambra-1 (Autophagy/beclin-1 regulator 1) is a positive regulator of the
   PI3K that interacts with Beclin1 to promote autophagosome nucleation.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

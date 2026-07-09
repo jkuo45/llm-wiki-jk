@@ -1,8 +1,7 @@
 ---
 title: Alu element
-description: 'Alu elements are the most abundant transposable elements in the
-  human genome, belonging to the SINE (Short Interspersed Nuclear Element) family.'
-type: entity
+description: Alu elements are the most abundant transposable elements in the
+  human genome, belonging to the SINE (Short Interspersed Nuclear Element) family.
 created: 2024-01-01
 updated: 2024-01-01
 tags:

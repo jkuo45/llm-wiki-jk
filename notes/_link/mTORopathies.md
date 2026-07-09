@@ -1,7 +1,6 @@
 ---
 title: mTORopathies
 description: A class of neurological and developmental disorders driven by hyperactivation of the mTOR signaling pathway, including tuberous sclerosis complex, focal cortical dysplasia, and GATOR1-related epilepsies.
-type: entity
 created: 2026-07-07
 updated: 2026-07-07
 tags:

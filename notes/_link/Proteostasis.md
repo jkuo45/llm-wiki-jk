@@ -1,7 +1,6 @@
 ---
 title: Proteostasis
 description: Protein homeostasis—the networked set of pathways that maintain protein folding, quality control, and turnover; declines with age and is restored by mTORC1 inhibition.
-type: entity
 created: 2026-07-07
 updated: 2026-07-07
 tags:

@@ -1,7 +1,6 @@
 ---
 title: Vesicular Monoamine Transporter 2
 description: Vesicular Monoamine Transporter 2 (VMAT2) packages monoamines such as Dopamine into Synaptic Vesicles, limiting cytosolic auto-oxidation to Quinones and Neuromelanin and conferring resistance to neurodegeneration in Parkinson's Disease.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:

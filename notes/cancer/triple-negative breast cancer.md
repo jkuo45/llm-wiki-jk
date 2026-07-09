@@ -1,9 +1,8 @@
 ---
 title: Triple-negative Breast Cancer
-description: 'Triple-negative breast cancer (TNBC) is an aggressive subtype of
+description: Triple-negative breast cancer (TNBC) is an aggressive subtype of
   Breast Cancer characterized by the lack of expression of estrogen receptors (ER),
-  progesterone receptors (PR), and human epiderm...'
-type: entity
+  progesterone receptors (PR), and human epiderm...
 created: 2026-07-06
 updated: 2026-07-06
 tags:

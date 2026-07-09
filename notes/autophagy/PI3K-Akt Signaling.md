@@ -3,7 +3,6 @@ title: PI3K-Akt Signaling
 description: The PI3K-Akt signaling pathway is a key intracellular pathway that regulates
   survival and metabolism; Akt can inhibit TFEB by phosphorylating it at S467, promoting
   cytosolic retention.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

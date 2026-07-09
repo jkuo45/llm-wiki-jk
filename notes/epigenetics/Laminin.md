@@ -1,7 +1,6 @@
 ---
 title: Laminin
 description: A family of high-molecular-weight basement membrane glycoproteins that form networked scaffolds for cell adhesion, polarization, and signaling.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:

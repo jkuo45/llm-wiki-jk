@@ -3,7 +3,6 @@ title: Cardiovascular Disease
 description: Cardiovascular disease (CVD) is a class of diseases that involve the
   heart or blood vessels. Major types include coronary artery disease (e.g., Atherosclerosis),
   which is often preceded by Endothel...
-type: entity
 created: 2026-05-29
 updated: 2026-05-29
 tags:

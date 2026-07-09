@@ -1,9 +1,8 @@
 ---
 title: Val158Met
-description: 'Val158Met (rs4680) is a common functional SNP (Single Nucleotide
+description: Val158Met (rs4680) is a common functional SNP (Single Nucleotide
   Polymorphism) in the COMT gene. It involves a substitution of Valine (Val) for Methionine
-  (Met) at position 158 of the enzyme.'
-type: entity
+  (Met) at position 158 of the enzyme.
 created: 2026-05-25
 updated: 2026-07-04
 tags:

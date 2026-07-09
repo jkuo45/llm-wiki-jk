@@ -1,7 +1,6 @@
 ---
 title: Ruxolitinib
 description: JAK1/2 inhibitor (Jakafi) that reduces SASP cytokines; a senomorphic therapy.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

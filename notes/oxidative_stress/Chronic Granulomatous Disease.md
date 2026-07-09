@@ -1,9 +1,8 @@
 ---
 title: Chronic Granulomatous Disease
-description: 'Chronic Granulomatous Disease (CGD) is a primary immunodeficiency
+description: Chronic Granulomatous Disease (CGD) is a primary immunodeficiency
   caused by genetic defects in the NADPH Oxidase complex (particularly NOX2/gp91ᵖʰᵒˣ),
-  resulting in the inability of Phagocytes t...'
-type: entity
+  resulting in the inability of Phagocytes t...
 created: 2026-07-04
 updated: 2026-07-04
 tags:

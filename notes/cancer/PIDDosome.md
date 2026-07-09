@@ -1,7 +1,6 @@
 ---
 title: PIDDosome
 description: The PIDDosome is a PIDD-RAIDD multiprotein complex that activates Caspase-2 in response to genotoxic stress and mitotic catastrophe, linking DNA damage to apoptosis.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

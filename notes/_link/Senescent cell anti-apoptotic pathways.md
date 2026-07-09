@@ -1,7 +1,6 @@
 ---
 title: Senescent cell anti-apoptotic pathways
 description: A network of pro-survival pathways (BCL-2 family, PI3K/Akt, p53 modulation, UPR) that let senescent cells resist apoptosis and persist, forming the molecular basis for senolysis.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

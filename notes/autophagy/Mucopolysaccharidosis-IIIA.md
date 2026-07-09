@@ -2,7 +2,6 @@
 title: Mucopolysaccharidosis-IIIA
 description: Also known as Sanfilippo syndrome type A, a Lysosomal Storage Diseases
   characterized by the accumulation of heparan sulfate.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

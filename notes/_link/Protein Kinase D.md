@@ -1,7 +1,6 @@
 ---
 title: Protein Kinase D
 description: PKD, a major sensor of oxidative stress that interacts with NF-κB to modulate SASP gene expression.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

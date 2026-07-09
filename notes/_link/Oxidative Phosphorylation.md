@@ -1,9 +1,8 @@
 ---
 title: Oxidative Phosphorylation
-description: 'Definition: Oxidative Phosphorylation is a fundamental biological
+description: 'Definition: Oxidative Phosphorylation is a fundamental biological'
   process that maintains cellular and organismal homeostasis. It involves coordinated
-  molecular events regulated by signaling pat...'
-type: entity
+  molecular events regulated by signaling pat...
 created: 2026-07-04
 updated: 2026-07-06
 tags:

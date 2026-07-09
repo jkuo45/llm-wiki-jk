@@ -1,7 +1,6 @@
 ---
 title: Cathepsins
 description: Cathepsins are proteases primarily located in lysosomes that degrade proteins and recycle amino acids, with diverse roles in antigen processing, bone remodeling, apoptosis, and disease pathogenesis.
-type: entity
 created: 2026-07-04
 updated: 2026-07-06
 tags:

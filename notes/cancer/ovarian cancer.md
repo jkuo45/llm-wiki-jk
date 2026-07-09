@@ -1,7 +1,6 @@
 ---
 title: Ovarian Cancer
 description: Ovarian cancer is a lethal gynecologic malignancy with late presentation and chemoresistance; targeted by ivermectin (PAK1/Akt/mTOR) and melittin (JAK2/STAT3) in preclinical studies.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

@@ -3,7 +3,6 @@ title: S-sulfhydration
 description: S-sulfhydration is a post-translational modification of cysteine residues
   by hydrogen sulfide (H2S); TFEB undergoes S-sulfhydration at C212, which promotes
   its nuclear translocation.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

@@ -1,7 +1,6 @@
 ---
 title: Oxysterols
 description: Oxysterols are oxygenated derivatives of Cholesterol formed enzymatically by cytochrome P450 enzymes (CYP27A1, CYP46A1, CYP7A1) or non-enzymatically by Reactive Oxygen Species, acting as LXR ligands and toxic lipid peroxidation products.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:

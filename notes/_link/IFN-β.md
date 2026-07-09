@@ -1,7 +1,6 @@
 ---
 title: IFN-β
 description: Interferon beta is a type I interferon and a primary output of the cGAS-STING pathway in senescent cells, reinforcing arrest and driving sterile inflammaging.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

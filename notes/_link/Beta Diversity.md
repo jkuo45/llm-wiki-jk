@@ -3,7 +3,6 @@ title: Beta Diversity
 description: Beta diversity is a measure of the difference in species composition
   between different communities or samples, allowing for comparisons across various
   stages of aging or environmental conditions.
-type: entity
 created: 2024-01-01
 updated: 2024-01-01
 tags:

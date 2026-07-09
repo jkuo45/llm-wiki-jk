@@ -1,7 +1,6 @@
 ---
 title: RB1
 description: RB1 is the gene encoding the Retinoblastoma Protein (pRb), a tumor suppressor that gates the G1/S transition by inhibiting E2F and enforcing quiescence.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:

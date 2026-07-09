@@ -3,7 +3,6 @@ title: METTL3
 description: Methyltransferase-like 3 (METTL3) is a major RNA methyltransferase that
   negatively regulates autophagy flux by decreasing the expression of TFEB via m6A
   modification.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

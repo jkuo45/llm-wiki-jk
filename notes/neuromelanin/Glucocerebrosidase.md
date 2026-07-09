@@ -1,7 +1,6 @@
 ---
 title: Glucocerebrosidase
 description: Glucocerebrosidase (GCase) is a lysosomal enzyme responsible for the breakdown of glucosylceramide.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:

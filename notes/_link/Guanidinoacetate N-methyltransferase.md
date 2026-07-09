@@ -1,7 +1,6 @@
 ---
 title: Guanidinoacetate N-methyltransferase
-description: "The enzyme that catalyzes the final step of creatine biosynthesis, methylating guanidinoacetate to form creatine using S-adenosyl methionine as the methyl donor; deficiency causes a treatable form of cerebral creatine deficiency syndrome."
-type: entity
+description: The enzyme that catalyzes the final step of creatine biosynthesis, methylating guanidinoacetate to form creatine using S-adenosyl methionine as the methyl donor; deficiency causes a treatable form of cerebral creatine deficiency syndrome.
 created: 2026-07-08
 updated: 2026-07-08
 tags:

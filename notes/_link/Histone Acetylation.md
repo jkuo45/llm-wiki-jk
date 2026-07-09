@@ -1,9 +1,8 @@
 ---
 title: Histone Acetylation
-description: 'Histone acetylation is a dynamic epigenetic modification where an
+description: Histone acetylation is a dynamic epigenetic modification where an
   acetyl group is added to lysine residues on histone tails, typically leading to
-  a more open chromatin structure and increased g...'
-type: entity
+  a more open chromatin structure and increased g...
 created: 2024-01-01
 updated: 2024-01-01
 tags:

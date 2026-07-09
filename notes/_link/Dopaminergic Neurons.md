@@ -1,9 +1,8 @@
 ---
 title: Dopaminergic Neurons
-description: 'Dopaminergic Neurons are the primary source of the neurotransmitter
+description: Dopaminergic Neurons are the primary source of the neurotransmitter
   Dopamine in the mammalian central nervous system. They play a critical role in the
-  control of metabolic processes, executive ...'
-type: entity
+  control of metabolic processes, executive ...
 created: 2026-05-29
 updated: 2026-05-29
 tags:

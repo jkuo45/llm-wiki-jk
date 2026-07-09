@@ -2,7 +2,6 @@
 title: Mitochondrial Dysfunction
 description: Mitochondrial dysfunction is a central feature of Parkinson's Disease
   and is thought to be both a cause and a consequence of other pathological processes.
-type: entity
 created: 2024-01-01
 updated: 2024-01-01
 tags:

@@ -3,7 +3,6 @@ title: End Stage Renal Disease
 description: End stage renal disease (ESRD) is the final, permanent stage of chronic
   kidney disease, where the kidneys can no longer function on their own. Elevated
   levels of Advanced Glycation End Products, su...
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

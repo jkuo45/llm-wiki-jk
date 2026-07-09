@@ -2,7 +2,6 @@
 title: TIMP2
 description: Soluble tissue inhibitor of metalloproteinases that inhibits multiple MMPs
   and paradoxically facilitates pro-MMP-2 activation at the cell surface via MT1-MMP.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

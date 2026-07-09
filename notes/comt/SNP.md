@@ -1,7 +1,6 @@
 ---
 title: SNP
 description: A single nucleotide polymorphism (SNP) is a single-base genomic variant; common in the population, SNPs underlie pharmacogenetic differences such as COMT Val158Met.
-type: entity
 created: 2026-05-25
 updated: 2026-07-07
 tags:

@@ -1,7 +1,6 @@
 ---
 title: TGF-β Signaling Pathway
 description: Transforming Growth Factor-beta signaling regulates cell proliferation, differentiation, apoptosis, and immune modulation through SMAD2/3/4-dependent and independent mechanisms. Dual role as tumor suppressor early and oncogenic driver late in cancer progression.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:

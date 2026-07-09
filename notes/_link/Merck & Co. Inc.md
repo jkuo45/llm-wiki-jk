@@ -3,7 +3,6 @@ title: Merck & Co. Inc.
 description: Merck & Co., Inc. (known as MSD outside the US and Canada) is an American
   multinational pharmaceutical company. It is one of the largest pharmaceutical companies
   in the world and played a key role ...
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:

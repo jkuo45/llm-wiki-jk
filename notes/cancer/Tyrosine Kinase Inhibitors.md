@@ -1,7 +1,6 @@
 ---
 title: Tyrosine Kinase Inhibitors
 description: Tyrosine kinase inhibitors (TKIs) are targeted anticancer drugs that block ATP binding or substrate docking in tyrosine kinases (e.g., EGFR, HER2, BCR-ABL, VEGFR), halting proliferative and angiogenic signaling in cancer.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

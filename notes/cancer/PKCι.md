@@ -1,7 +1,6 @@
 ---
 title: PKCι
 description: Protein kinase C iota (PKCι) is an atypical PKC isoform and probable oncogene that promotes cell survival, proliferation, and transformation by phosphorylating and inactivating the pro-apoptotic protein Bad and activating NF-κB and Rac1 signaling.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

@@ -1,9 +1,8 @@
 ---
 title: Exercise
-description: 'Exercise is planned, structured physical activity that improves
+description: Exercise is planned, structured physical activity that improves
   or maintains physical fitness. It is one of the most effective interventions for
-  extending healthspan, reducing Oxidative Stress,...'
-type: entity
+  extending healthspan, reducing Oxidative Stress,...
 created: 2026-07-04
 updated: 2026-07-04
 tags:

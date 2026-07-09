@@ -3,7 +3,6 @@ title: HNRNPD
 description: Heterogeneous nuclear ribonucleoprotein D (HNRNPD), also known as AUF1,
   is an RNA-binding protein that can promote the degradation of TFEB pre-mRNA following
   METTL3-mediated m6A modification.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:

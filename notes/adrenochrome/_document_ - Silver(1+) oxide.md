@@ -3,7 +3,6 @@ title: Silver(1+) oxide
 description: Silver(1+) oxide | Ag2H2O | CID 88641 - structure, chemical names, physical
   and chemical properties, classification, patents, literature, biological activities,
   safety/hazards/toxicity information, supplier lists, and more.
-type: document
 created: 2026-05-25
 source: https://pubchem.ncbi.nlm.nih.gov/compound/Silver_1_-oxide
 author:

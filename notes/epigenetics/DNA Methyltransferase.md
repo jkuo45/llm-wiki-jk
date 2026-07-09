@@ -1,7 +1,6 @@
 ---
 title: DNA Methyltransferase
-description: 'DNA methyltransferases (DNMTs) are enzymes responsible for establishing and maintaining DNA methylation patterns.'
-type: entity
+description: DNA methyltransferases (DNMTs) are enzymes responsible for establishing and maintaining DNA methylation patterns.
 created: 2026-07-06
 updated: 2026-07-06
 tags:

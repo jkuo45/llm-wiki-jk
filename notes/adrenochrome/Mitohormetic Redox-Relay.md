@@ -3,7 +3,6 @@ title: Mitohormetic Redox-Relay
 description: The Mitohormetic Redox-Relay (MRR) is a therapeutic strategy designed
   to address mitochondrial dysfunction by using a controlled, low-amplitude oxidative
   pulse to trigger adaptive stress respon...
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:

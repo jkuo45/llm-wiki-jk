@@ -1,7 +1,6 @@
 ---
 title: 2-Chlorophenothiazine
 description: 2-Chlorophenothiazine is a chlorinated phenothiazine nucleus lacking amine side chains; it is a direct mitochondrial ROS scavenger with nanomolar neuroprotection but no alternative electron-transfer or Complex IV-upregulating activity.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

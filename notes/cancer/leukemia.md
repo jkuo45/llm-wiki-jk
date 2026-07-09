@@ -1,7 +1,6 @@
 ---
 title: Leukemia
 description: Leukemia is a group of hematopoietic malignancies arising in bone marrow that produce high numbers of abnormal blood cells; studied with bee-venom components and Ivermectin for selective cytotoxicity.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

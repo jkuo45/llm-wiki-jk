@@ -1,9 +1,8 @@
 ---
 title: Myelin
-description: 'Myelin is a multilamellar lipid-protein sheath that wraps around
+description: Myelin is a multilamellar lipid-protein sheath that wraps around
   axons in the Nervous System, produced by Oligodendrocytes in the central nervous
-  system (CNS) and Schwann Cells in the periphera...'
-type: entity
+  system (CNS) and Schwann Cells in the periphera...
 created: 2026-07-04
 updated: 2026-07-06
 tags:

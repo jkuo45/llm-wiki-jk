@@ -1,9 +1,8 @@
 ---
 title: DNA Damage
-description: 'DNA damage refers to any chemical or physical alteration to the
+description: DNA damage refers to any chemical or physical alteration to the
   structure of DNA that deviates from the canonical Watson-Crick base pairing. Unlike
-  DNA Mutation, which are heritable sequence ch...'
-type: entity
+  DNA Mutation, which are heritable sequence ch...
 created: 2026-07-04
 updated: 2026-07-06
 tags:

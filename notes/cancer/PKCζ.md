@@ -1,7 +1,6 @@
 ---
 title: PKCζ
 description: Protein kinase C zeta (PKCζ) is an atypical, calcium- and DAG-independent PKC isoform that promotes cell survival and proliferation through NF-κB activation and inhibition of pro-apoptotic proteins such as Caspase-9 and Bax.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

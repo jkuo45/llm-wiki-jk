@@ -2,7 +2,6 @@
 title: Folliculin
 description: Folliculin is a tumor suppressor and a guanine nucleotide exchange factor
   (GEF) for Rag proteins that regulates mTORC1 activity and Lysosome positioning.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

@@ -1,7 +1,6 @@
 ---
 title: PKCδ
 description: Protein kinase C delta (PKCδ) is a novel/DAG-regulated PKC isoform that functions as both a pro-apoptotic and proliferative kinase depending on context, phosphorylating Caspase-3 and modulating death receptor and oxidative stress signaling.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

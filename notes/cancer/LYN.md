@@ -1,7 +1,6 @@
 ---
 title: LYN
 description: LYN is a Src-family non-receptor tyrosine kinase that phosphorylates Caspase-8 at Tyr397 and Tyr465 to suppress its pro-apoptotic activity; this suppression is relieved by the phosphatase SHP1.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

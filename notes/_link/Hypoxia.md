@@ -3,7 +3,6 @@ title: Hypoxia
 description: Hypoxia is a condition of low oxygen levels in tissues that acts as a
   stressful stimulus, often triggering Macroautophagy as a survival mechanism in tumor
   cells.
-type: entity
 created: 2026-05-29
 updated: 2026-05-29
 tags:

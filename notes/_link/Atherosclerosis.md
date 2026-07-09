@@ -3,7 +3,6 @@ title: Atherosclerosis
 description: Atherosclerosis is a disease in which the inside of an artery narrows
   due to the build up of plaque. Oxidative Stress and Lipid Peroxidation are key drivers
   of plaque formation. It often involves E...
-type: entity
 created: 2026-05-29
 updated: 2026-05-29
 tags:

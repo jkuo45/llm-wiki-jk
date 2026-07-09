@@ -1,9 +1,8 @@
 ---
 title: Neurodegenerative Diseases
-description: 'Neurodegenerative Diseases are a group of disorders characterized
+description: Neurodegenerative Diseases are a group of disorders characterized
   by the progressive loss of structure or function of neurons, including death of
-  neurons. Aging is the single most significant r...'
-type: entity
+  neurons. Aging is the single most significant r...
 created: 2026-05-29
 updated: 2026-05-29
 tags:

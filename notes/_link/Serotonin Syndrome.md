@@ -3,7 +3,6 @@ title: Serotonin Syndrome
 description: Serotonin syndrome is a potentially life-threatening drug reaction
   caused by excessive serotonergic activity, characterized by autonomic
   instability, altered mental status, and neuromuscular abnormalities.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

@@ -3,7 +3,6 @@ title: ATF4
 description: ATF4 (Activating Transcription Factor 4) is a stress-induced transcription
   factor that serves as a central hub for the Integrated Stress Response (ISR) in
   mammals.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

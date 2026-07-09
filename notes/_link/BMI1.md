@@ -1,7 +1,6 @@
 ---
 title: BMI1
 description: B-cell-specific Moloney murine leukemia virus integration site 1; a Polycomb repressor complex 1 subunit that suppresses senescence and negatively regulates SASP chemokines such as CCL2.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

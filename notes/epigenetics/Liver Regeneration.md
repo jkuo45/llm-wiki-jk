@@ -1,7 +1,6 @@
 ---
 title: Liver Regeneration
-description: 'Liver Regeneration is the process by which the liver replaces lost tissue through proliferation of quiescent hepatocytes and progenitor activation, restoring mass without scarring.'
-type: entity
+description: Liver Regeneration is the process by which the liver replaces lost tissue through proliferation of quiescent hepatocytes and progenitor activation, restoring mass without scarring.
 created: 2024-01-01
 updated: 2026-07-06
 tags:

@@ -1,8 +1,7 @@
 ---
 title: Atg12
-description: 'Atg12 (Autophagy-related 12) is a ubiquitin-like protein essential
-  for the initiation and progression of Autophagy.'
-type: entity
+description: Atg12 (Autophagy-related 12) is a ubiquitin-like protein essential
+  for the initiation and progression of Autophagy.
 created: 2026-07-04
 updated: 2026-07-04
 tags:

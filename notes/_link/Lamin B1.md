@@ -3,7 +3,6 @@ title: Lamin B1
 description: Nuclear lamina protein whose loss is a conserved, cell-autonomous marker
   of senescence, linked to nuclear envelope defects, chromatin reorganization, and
   SAHF formation.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

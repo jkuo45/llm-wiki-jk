@@ -3,7 +3,6 @@ title: Cellular Senescence
 description: Cellular Senescence is a state of permanent cell cycle arrest triggered by
   DNA damage, oxidative stress, telomere erosion, or oncogene activation. Senescent cells
   secrete a pro-inflammatory SASP that drives aging and tissue dysfunction.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:

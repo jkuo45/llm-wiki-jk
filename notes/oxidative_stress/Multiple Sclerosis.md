@@ -3,7 +3,6 @@ title: Multiple Sclerosis
 description: Multiple sclerosis (MS) is a demyelinating disease in which the insulating
   covers of nerve cells in the brain and spinal cord are damaged. Chronic Inflammation
   and Oxidative Stress contribute to th...
-type: entity
 created: 2026-05-09
 updated: 2026-07-04
 tags:

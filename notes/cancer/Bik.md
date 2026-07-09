@@ -1,7 +1,6 @@
 ---
 title: Bik
-description: 'Bik (Bcl-2-interacting killer) is a BH3-only protein whose degradation is promoted by SRC kinase through an ERK-dependent mechanism, suppressing Apoptosis and favoring tumor survival.'
-type: entity
+description: Bik (Bcl-2-interacting killer) is a BH3-only protein whose degradation is promoted by SRC kinase through an ERK-dependent mechanism, suppressing Apoptosis and favoring tumor survival.
 created: 2026-07-06
 updated: 2026-07-07
 tags:

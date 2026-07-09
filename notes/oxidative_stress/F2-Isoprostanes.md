@@ -1,7 +1,6 @@
 ---
 title: F2-Isoprostanes
 description: F2-Isoprostanes (F2-IsoPs) are prostaglandin-like compounds formed non-enzymatically by free radical-mediated Lipid Peroxidation of Arachidonic acid, widely considered the gold-standard biomarker for endogenous Oxidative Stress.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:

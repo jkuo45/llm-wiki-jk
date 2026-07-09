@@ -3,7 +3,6 @@ title: SetA
 description: SetA is an effector protein from Legionella pneumophila that glucosylates
   TFEB at multiple sites, leading to its nuclear enrichment by interfering with 14-3-3
   protein binding.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

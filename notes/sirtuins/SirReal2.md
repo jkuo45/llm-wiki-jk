@@ -1,9 +1,8 @@
 ---
 title: SirReal2
-description: 'SirReal2 is a highly potent, selective, and structurally unique
+description: SirReal2 is a highly potent, selective, and structurally unique
   small-molecule inhibitor of **SIRT2** belonging to the aminothiazole chemical family.
-  It is renowned for acting via a distinct li...'
-type: entity
+  It is renowned for acting via a distinct li...
 created: 2026-07-03
 updated: 2026-07-03
 tags:

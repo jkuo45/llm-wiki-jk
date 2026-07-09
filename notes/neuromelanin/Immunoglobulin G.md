@@ -1,7 +1,6 @@
 ---
 title: Immunoglobulin G
 description: Immunoglobulin G (IgG) is the most common type of antibody found in blood circulation.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:

@@ -1,9 +1,8 @@
 ---
 title: Redox Vaccination
-description: 'Redox Vaccination is the hypothesis that sub-toxic exposure to redox-cycling
+description: Redox Vaccination is the hypothesis that sub-toxic exposure to redox-cycling
   compounds (such as Carbazochrome, a stabilized Adrenochrome derivative) upregulates
-  SIRT3 expression through a retro...'
-type: entity
+  SIRT3 expression through a retro...
 created: 2026-07-06
 updated: 2026-07-06
 tags:

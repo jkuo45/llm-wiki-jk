@@ -3,7 +3,6 @@ title: AGER1
 description: Advanced Glycation End Product Receptor 1 (AGER1) is a cell surface receptor
   involved in the detoxification and counterregulation of Advanced Glycation End Products.
   It facilitates the uptake and d...
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

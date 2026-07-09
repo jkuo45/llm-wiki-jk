@@ -1,7 +1,6 @@
 ---
 title: MAPKAPK2
 description: Mitogen-activated protein kinase-activated protein kinase 2, a key regulator of SASP mRNA stability.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

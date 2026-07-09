@@ -3,7 +3,6 @@ title: Aminoguanidine
 description: Aminoguanidine (Pimagedine) is a carbonyl-trapping inhibitor of
   Advanced Glycation End Products and a selective inducible nitric oxide synthase
   (iNOS) inhibitor, studied for diabetic complications and NO-pathway modulation.
-type: entity
 created: 2026-07-04
 updated: 2026-07-08
 tags:

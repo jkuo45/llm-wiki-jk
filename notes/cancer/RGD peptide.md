@@ -1,7 +1,6 @@
 ---
 title: RGD peptide
 description: The RGD tripeptide motif (Arg-Gly-Asp) is the canonical cell-adhesion sequence recognized by integrins in the extracellular matrix; RGD-based peptides and mimetics are used to block adhesion, angiogenesis, and tumor metastasis.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

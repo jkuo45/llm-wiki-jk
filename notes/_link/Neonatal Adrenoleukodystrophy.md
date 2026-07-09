@@ -1,7 +1,6 @@
 ---
 title: Neonatal Adrenoleukodystrophy
 description: Neonatal Adrenoleukodystrophy (NALD) is an intermediate form of Zellweger Spectrum Disorders (ZSD), a group of autosomal recessive peroxisomal biogenesis disorders resulting from PEX gene mutations.
-type: entity
 created: 2026-07-04
 updated: 2026-07-06
 tags:

@@ -2,7 +2,6 @@
 title: Ifosfamide
 description: Ifosfamide is an alkylating chemotherapy agent whose
   neurotoxicity (encephalopathy) is effectively treated with methylene blue.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

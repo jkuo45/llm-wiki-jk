@@ -1,9 +1,8 @@
 ---
 title: mTORC1
-description: 'mTORC1 (mechanistic target of rapamycin complex 1) is a multi-protein
+description: mTORC1 (mechanistic target of rapamycin complex 1) is a multi-protein
   signaling complex that integrates nutrient, energy, and growth factor signals to
-  coordinate Cell Growth, Protein Synthesis,...'
-type: entity
+  coordinate Cell Growth, Protein Synthesis,...
 created: 2024-01-01
 updated: 2026-07-06
 tags:

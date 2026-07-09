@@ -2,7 +2,6 @@
 title: Bcl-2
 description: Anti-apoptotic protein that localizes to the mitochondrial outer membrane
   and inhibits cytochrome c release.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

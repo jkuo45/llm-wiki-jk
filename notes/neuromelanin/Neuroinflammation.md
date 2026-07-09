@@ -1,7 +1,6 @@
 ---
 title: Neuroinflammation
 description: In Parkinson's Disease, neuroinflammation is a prominent feature and is notably restricted to regions containing Neuromelanin.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:

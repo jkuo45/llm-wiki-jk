@@ -1,7 +1,6 @@
 ---
 title: Oxyhemoglobin
-description: 'Oxyhemoglobin (HbO₂) is the oxygen-loaded form of Hemoglobin.'
-type: entity
+description: Oxyhemoglobin (HbO₂) is the oxygen-loaded form of Hemoglobin.
 created: 2026-07-04
 updated: 2026-07-04
 tags:

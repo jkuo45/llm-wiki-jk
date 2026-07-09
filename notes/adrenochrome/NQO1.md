@@ -1,9 +1,8 @@
 ---
 title: NQO1
-description: 'NQO1 (NAD(P)H:quinone oxidoreductase 1) is a multi-functional antioxidant
+description: NQO1 (NAD(P)H:quinone oxidoreductase 1) is a multi-functional antioxidant
   enzyme that is regulated by NRF2 and protects cells from oxidative stress by catalyzing
-  the two-electron reduction of q...'
-type: entity
+  the two-electron reduction of q...
 created: 2026-07-04
 updated: 2026-07-04
 tags:

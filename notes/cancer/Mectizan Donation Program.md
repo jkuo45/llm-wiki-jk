@@ -1,7 +1,6 @@
 ---
 title: Mectizan Donation Program
 description: The Mectizan Donation Program (MDP) is a public-private partnership managing Merck's donation of Mectizan (ivermectin) for onchocerciasis and lymphatic filariasis control, a landmark in philanthropic drug access.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

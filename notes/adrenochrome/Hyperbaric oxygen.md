@@ -1,7 +1,6 @@
 ---
 title: Hyperbaric oxygen
 description: '- Methemoglobinemia: Used in severe or refractory cases.'
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

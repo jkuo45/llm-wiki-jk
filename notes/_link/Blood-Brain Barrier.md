@@ -3,7 +3,6 @@ title: Blood-Brain Barrier
 description: Selectively permeable neurovascular barrier formed by brain capillary endothelial
   cells, astrocyte end-feet, and pericytes that restricts passage of molecules and
   immune cells from blood to brain.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

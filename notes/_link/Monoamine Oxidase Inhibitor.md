@@ -3,7 +3,6 @@ title: Monoamine Oxidase Inhibitor
 description: Monoamine oxidase inhibitors (MAOIs) block the enzymatic breakdown of
   monoamine neurotransmitters (serotonin, dopamine, norepinephrine), raising
   synaptic levels; methylene blue acts as a potent MAO-A inhibitor.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

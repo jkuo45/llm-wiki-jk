@@ -1,7 +1,6 @@
 ---
 title: Rab7
 description: Rab7 is a late endosome/lysosome small GTPase that regulates autophagosome-lysosome fusion, organelle positioning, and endolysosomal maturation downstream of Rab5.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:

@@ -1,7 +1,6 @@
 ---
 title: Kynurenine
 description: Kynurenine (Kyn) is a central metabolite of the kynurenine pathway produced from tryptophan, acting as an immunosuppressive signaling molecule via AhR activation and as a precursor for downstream metabolites including quinolinic acid and kynurenic acid.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

@@ -1,9 +1,8 @@
 ---
 title: Methylglyoxal (MG)
-description: 'A highly reactive endogenous α-oxoaldehyde byproduct of glycolysis that
+description: A highly reactive endogenous α-oxoaldehyde byproduct of glycolysis that
   glycates proteins (advanced glycation end-products) and, at controlled doses, exhibits
-  selective anticancer cytotoxicity augmented by creatine.'
-type: entity
+  selective anticancer cytotoxicity augmented by creatine.
 created: 2026-07-08
 updated: 2026-07-08
 tags:

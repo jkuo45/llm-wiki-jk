@@ -1,7 +1,6 @@
 ---
 title: UCP2
 description: UCP2 (Uncoupling Protein 2) is a mitochondrial inner membrane transporter protein belonging to the family of mitochondrial uncoupling proteins, which uncouple oxygen consumption from ATP synthesis by facilitating proton leak across the inner mitochondrial membrane.
-type: entity
 created: 2026-07-03
 updated: 2026-07-07
 tags:

@@ -1,7 +1,6 @@
 ---
 title: 3-Hydroxykynurenine
 description: 3-Hydroxykynurenine (3-HK) is a redox-active intermediate of the kynurenine pathway produced from kynurenine by kynurenine 3-monooxygenase, and serves as a precursor for quinolinic acid.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

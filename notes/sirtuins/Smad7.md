@@ -1,7 +1,6 @@
 ---
 title: Smad7
 description: Smad7 (SMAD Family Member 7) is an inhibitory SMAD protein that acts as an antagonist of Transforming Growth Factor-beta (TGF-beta) signaling. It binds physically to the TGF-beta Type I receptor, preventing downstream pathway activation and thereby regulating cell differentiation, tissue fibrosis, and cell death.
-type: entity
 created: 2026-07-03
 updated: 2026-07-07
 tags:

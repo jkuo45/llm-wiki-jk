@@ -3,7 +3,6 @@ title: HLA Haplobank
 description: A repository of induced pluripotent stem cell lines homozygous for common
   HLA haplotypes, enabling HLA-matched, off-the-shelf cell therapies with reduced
   immunogenicity.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:

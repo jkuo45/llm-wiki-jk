@@ -1,7 +1,6 @@
 ---
 title: Senolytics
 description: A class of small molecules and peptides that selectively induce death in senescent cells by targeting senescent cell anti-apoptotic pathways (SCAPs).
-type: entity
 created: 2024-01-01
 updated: 2026-07-08
 tags:

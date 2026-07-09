@@ -3,7 +3,6 @@ title: Ca2+
 description: Ca2+ (calcium ion) is a ubiquitous intracellular second messenger that
   regulates muscle contraction, neurotransmitter release, gene expression, and apoptosis.
   Cytosolic Ca2+ is tightly buffered by pumps, exchangers, and channels.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:

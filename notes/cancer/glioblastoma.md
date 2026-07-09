@@ -1,7 +1,6 @@
 ---
 title: Glioblastoma
-description: 'Glioblastoma (GBM), also known as glioblastoma multiforme, is the most aggressive cancer that begins within the brain.'
-type: entity
+description: Glioblastoma (GBM), also known as glioblastoma multiforme, is the most aggressive cancer that begins within the brain.
 created: 2026-07-06
 updated: 2026-07-07
 tags:

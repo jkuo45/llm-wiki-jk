@@ -1,7 +1,6 @@
 ---
 title: Toluidine Blue O
 description: Toluidine Blue O (TB) is a 3,7-dimethyl phenothiazine dye and the most potent methylene blue analog for neuroprotection, sharing MB's alternative mitochondrial electron-transfer mechanism.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

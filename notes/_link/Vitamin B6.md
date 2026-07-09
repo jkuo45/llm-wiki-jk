@@ -1,9 +1,8 @@
 ---
 title: Vitamin B6
-description: 'Vitamin B6 refers to a group of six interconvertible compounds:
+description: 'Vitamin B6 refers to a group of six interconvertible compounds:'
   pyridoxine, pyridoxal, Pyridoxamine, and their phosphorylated derivatives. The active
-  form, pyridoxal 5''-phosphate (PLP), serves ...'
-type: entity
+  form, pyridoxal 5''-phosphate (PLP), serves ...
 created: 2026-07-04
 updated: 2026-07-04
 tags:

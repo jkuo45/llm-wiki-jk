@@ -1,9 +1,8 @@
 ---
 title: eNOS
-description: 'eNOS (Endothelial Nitric Oxide Synthase, NOS3) is a constitutively
+description: eNOS (Endothelial Nitric Oxide Synthase, NOS3) is a constitutively
   expressed, calcium/calmodulin-dependent isoform of Nitric Oxide Synthase that produces
-  low, pulsatile fluxes of Nitric Oxide c...'
-type: entity
+  low, pulsatile fluxes of Nitric Oxide c...
 created: 2026-07-04
 updated: 2026-07-04
 tags:

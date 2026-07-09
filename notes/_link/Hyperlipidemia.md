@@ -1,7 +1,6 @@
 ---
 title: Hyperlipidemia
 description: A metabolic disorder characterized by elevated concentrations of lipids (cholesterol and/or triglycerides) in the blood, commonly induced by chronic mTOR inhibition with rapamycin.
-type: entity
 created: 2026-07-07
 updated: 2026-07-07
 tags:

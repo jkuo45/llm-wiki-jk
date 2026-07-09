@@ -3,7 +3,6 @@ title: Warburg Effect
 description: The Warburg Effect refers to the observation that Cancer cells, unlike
   most normal cells, prefer to produce energy through a high rate of Glycolysis followed
   by Lactate fermentation in the cytosol,...
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:

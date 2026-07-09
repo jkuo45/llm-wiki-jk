@@ -1,7 +1,6 @@
 ---
 title: DNA
-description: 'DNA (Deoxyribonucleic acid) is the hereditary material in humans and almost all other organisms, which encodes the genetic instructions for life.'
-type: entity
+description: DNA (Deoxyribonucleic acid) is the hereditary material in humans and almost all other organisms, which encodes the genetic instructions for life.
 created: 2026-07-04
 updated: 2026-07-07
 tags:

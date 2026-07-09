@@ -3,7 +3,6 @@ title: SGK1
 description: Serum- and glucocorticoid-induced protein kinase 1 (SGK1) is a member
   of the AGC family of kinases that is activated by mTORC2 and shares functional similarities
   with Akt in regulating cell surviva...
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

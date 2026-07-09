@@ -3,7 +3,6 @@ title: Histamine Intolerance
 description: Histamine intolerance is a condition of histamine excess from impaired
   degradation (often DAO deficiency or inhibition), causing flushing, headache,
   hives, and GI symptoms after histamine-rich foods.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

@@ -3,7 +3,6 @@ title: Soluble Guanylyl Cyclase
 description: Soluble guanylyl cyclase (sGC) is the intracellular receptor for nitric
   oxide; NO activates sGC to produce cGMP, driving vasodilation. Methylene blue
   inhibits sGC downstream of nitric oxide.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

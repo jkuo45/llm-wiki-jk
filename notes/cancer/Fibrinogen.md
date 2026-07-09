@@ -1,7 +1,6 @@
 ---
 title: Fibrinogen
 description: Fibrinogen is a soluble plasma glycoprotein that is converted by thrombin into fibrin during blood clot formation and contains RGD peptide motifs that interact with Integrins like αIIbβ3.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

@@ -3,7 +3,6 @@ title: Seahorse XF Analyzer
 description: The Seahorse XF Analyzer is a specialized laboratory instrument used
   to measure the two major energy-producing pathways of the cell—mitochondrial respiration
   and glycolysis—by simultaneously mo...
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

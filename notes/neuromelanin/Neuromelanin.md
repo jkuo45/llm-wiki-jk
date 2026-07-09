@@ -1,9 +1,8 @@
 ---
 title: Neuromelanin
-description: 'Neuromelanin is a dark pigment found in specific populations of
+description: Neuromelanin is a dark pigment found in specific populations of
   catecholaminergic neurons in the brain, most notably in the substantia nigra and
-  locus coeruleus.'
-type: entity
+  locus coeruleus.
 created: 2026-07-04
 updated: 2026-07-04
 tags:

@@ -1,9 +1,8 @@
 ---
 title: Vitamin D
-description: 'Vitamin D is a group of fat-soluble secosteroids responsible for
+description: Vitamin D is a group of fat-soluble secosteroids responsible for
   increasing intestinal absorption of calcium, magnesium, and phosphate. The two major
-  forms are vitamin D₂ (ergocalciferol) and v...'
-type: entity
+  forms are vitamin D₂ (ergocalciferol) and v...
 created: 2026-07-04
 updated: 2026-07-04
 tags:

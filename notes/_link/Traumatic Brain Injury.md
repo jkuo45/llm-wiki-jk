@@ -2,7 +2,6 @@
 title: Traumatic Brain Injury
 description: Traumatic brain injury (TBI) is mechanical brain damage;
   methylene blue is studied for neuroprotection in TBI.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

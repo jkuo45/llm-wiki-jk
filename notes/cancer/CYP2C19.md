@@ -1,7 +1,6 @@
 ---
 title: CYP2C19
 description: CYP2C19 is a hepatic cytochrome P450 enzyme encoded by CYP2C19 that metabolizes ~10% of clinical drugs, including proton-pump inhibitors, anti-epileptics, antiplatelets, and benzimidazole anthelmintics; its polymorphisms alter efficacy and toxicity.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

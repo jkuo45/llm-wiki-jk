@@ -1,7 +1,6 @@
 ---
 title: APC-C
 description: The Anaphase-Promoting Complex/Cyclosome (APC/C) is a ~1.5 MDa multi-subunit E3 ubiquitin ligase that governs metaphase-to-anaphase transition, mitotic exit, and Mcl-1 degradation during mitotic arrest.
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:

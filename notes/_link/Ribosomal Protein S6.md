@@ -1,7 +1,6 @@
 ---
 title: Ribosomal Protein S6
 description: A component of the 40S ribosomal subunit whose phosphorylation by S6K1 serves as the canonical pharmacodynamic biomarker of mTORC1 activity.
-type: entity
 created: 2026-07-07
 updated: 2026-07-07
 tags:

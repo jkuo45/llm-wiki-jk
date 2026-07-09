@@ -1,7 +1,6 @@
 ---
 title: CEBPα
 description: CCAAT/enhancer-binding protein alpha is a bZIP transcription factor that binds senescence-activated enhancers and cooperates with NF-κB to drive SASP gene expression.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

@@ -1,9 +1,8 @@
 ---
 title: Epstein-Barr virus
-description: 'Epstein-Barr virus (EBV) is a double-stranded DNA virus of the Herpesviridae
+description: Epstein-Barr virus (EBV) is a double-stranded DNA virus of the Herpesviridae
   family (subfamily Gammaherpesvirinae). It infects >90% of the adult human population
-  worldwide and establishes lifel...'
-type: entity
+  worldwide and establishes lifel...
 created: 2026-07-04
 updated: 2026-07-06
 tags:

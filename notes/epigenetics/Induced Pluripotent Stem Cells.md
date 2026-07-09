@@ -1,7 +1,6 @@
 ---
 title: Induced Pluripotent Stem Cells
 description: Induced Pluripotent Stem Cells (iPSCs) are somatic cells reprogrammed to pluripotency by defined factors, avoiding embryo use.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:

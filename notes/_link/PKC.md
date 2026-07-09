@@ -1,9 +1,8 @@
 ---
 title: PKC
-description: 'Protein kinase C (PKC) is a family of serine/threonine kinases classified
+description: Protein kinase C (PKC) is a family of serine/threonine kinases classified
   into conventional (α, βI, βII, γ), novel (δ, ε, η, θ), and atypical (ζ, ι/λ) isoforms.
-  PKC signaling regulates Autophag...'
-type: entity
+  PKC signaling regulates Autophag...
 created: 2026-07-04
 updated: 2026-07-04
 tags:

@@ -1,9 +1,8 @@
 ---
 title: Vitamin B12
-description: 'Vitamin B12 (cobalamin) is a water-soluble vitamin essential for
+description: Vitamin B12 (cobalamin) is a water-soluble vitamin essential for
   red blood cell formation, DNA Repair, and neurological function. It is a critical
-  cofactor in the Methylation.'
-type: entity
+  cofactor in the Methylation.
 created: 2026-07-04
 updated: 2026-07-04
 tags:

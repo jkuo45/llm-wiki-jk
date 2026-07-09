@@ -3,7 +3,6 @@ title: Ivermectin
 description: Ivermectin is a macrolide antiparasitic drug with a 16-membered ring
   that is widely used for the treatment of many parasitic diseases such as river blindness,
   elephantiasis and Scabies. It was deri...
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:

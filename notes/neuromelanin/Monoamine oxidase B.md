@@ -1,7 +1,6 @@
 ---
 title: Monoamine oxidase B
-description: 'Monoamine oxidase B (MAO-B) is an enzyme located in the outer mitochondrial membrane that catalyzes the oxidative deamination of monoamines, including the conversion of MPTP to the neurotoxin MPP+ in Glial cells.'
-type: entity
+description: Monoamine oxidase B (MAO-B) is an enzyme located in the outer mitochondrial membrane that catalyzes the oxidative deamination of monoamines, including the conversion of MPTP to the neurotoxin MPP+ in Glial cells.
 created: 2026-07-04
 updated: 2026-07-07
 tags:

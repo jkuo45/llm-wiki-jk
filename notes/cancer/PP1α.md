@@ -1,7 +1,6 @@
 ---
 title: PP1α
 description: Protein phosphatase 1 alpha (PP1α, PPP1CA) is the catalytic alpha isoform of PP1 that dephosphorylates and activates Caspase-9 by reversing inhibitory phosphorylation at Thr125.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

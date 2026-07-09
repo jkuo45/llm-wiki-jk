@@ -3,7 +3,6 @@ title: Resveratrol
 description: Resveratrol (3,5,4′-trihydroxystilbene) is a polyphenolic stilbene found
   in grapes, red wine, and other plants. It was identified as the prototypical STACs
   (STAC) and has been shown to extend lifes...
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

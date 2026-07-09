@@ -1,7 +1,6 @@
 ---
 title: Bioluminescence Resonance Energy Transfer
-description: 'Bioluminescence resonance energy transfer (BRET) is a non-radiative energy-transfer technique between a luminescent donor enzyme and a fluorescent acceptor, used to monitor protein-protein proximity in live cells.'
-type: entity
+description: Bioluminescence resonance energy transfer (BRET) is a non-radiative energy-transfer technique between a luminescent donor enzyme and a fluorescent acceptor, used to monitor protein-protein proximity in live cells.
 created: 2026-07-06
 updated: 2026-07-07
 tags:

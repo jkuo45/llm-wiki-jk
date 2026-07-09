@@ -1,7 +1,6 @@
 ---
 title: Nutlins
 description: Nutlins are cis-imidazoline MDM2 antagonists that block the MDM2-p53 interaction, stabilizing p53 to induce cell-cycle arrest, senescence, or apoptosis in wild-type p53 tumors.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

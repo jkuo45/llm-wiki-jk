@@ -1,7 +1,6 @@
 ---
 title: CYP2J2
 description: CYP2J2 is a cytochrome P450 enzyme expressed prominently in heart and tumor cells that converts arachidonic acid to epoxyeicosatrienoic acids (EETs) with vasodilatory, anti-inflammatory, and putative anti-tumor properties, and metabolizes benzimidazole anthelmintics.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

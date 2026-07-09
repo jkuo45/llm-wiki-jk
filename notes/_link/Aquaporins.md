@@ -1,9 +1,8 @@
 ---
 title: Aquaporins
-description: 'Overview: Aquaporins is a membrane transport protein that facilitates
+description: 'Overview: Aquaporins is a membrane transport protein that facilitates'
   the movement of molecules across biological membranes. It mediates substrate translocation
-  through conformational changes d...'
-type: entity
+  through conformational changes d...
 created: 2026-07-04
 updated: 2026-07-04
 tags:

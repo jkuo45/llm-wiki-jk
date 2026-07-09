@@ -2,7 +2,6 @@
 title: eIF4A
 description: Eukaryotic initiation factor 4A (eIF4A) is an RNA helicase involved in
   the initiation of translation, whose activity on TFEB mRNA is inhibited by PDCD4.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

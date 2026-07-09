@@ -1,7 +1,6 @@
 ---
 title: IDO2
 description: Indoleamine 2,3-dioxygenase 2 (IDO2) is a less active paralog of IDO1 that catalyzes the same tryptophan-to-N-formylkynurenine reaction but with much lower catalytic efficiency, and may act as a negative regulator of IDO1.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

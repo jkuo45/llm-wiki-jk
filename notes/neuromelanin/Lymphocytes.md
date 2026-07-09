@@ -1,7 +1,6 @@
 ---
 title: Lymphocytes
 description: Lymphocytes are a type of white blood cell in the vertebrate immune system.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:

@@ -1,9 +1,8 @@
 ---
 title: Angiogenesis
-description: 'Angiogenesis is the formation of new blood vessels from pre-existing
+description: Angiogenesis is the formation of new blood vessels from pre-existing
   vessels. It is a critical process in Cancer, Wound Healing, and Ischemia-reperfusion
-  Injury adaptation.'
-type: entity
+  Injury adaptation.
 created: 2026-07-04
 updated: 2026-07-04
 tags:

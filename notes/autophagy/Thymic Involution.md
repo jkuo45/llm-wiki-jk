@@ -1,8 +1,7 @@
 ---
 title: Thymic Involution
-description: 'Thymic Involution is the shrinking of the thymus gland with Aging,
-  which leads to a significant reduction in the output of naïve T Cell.'
-type: entity
+description: Thymic Involution is the shrinking of the thymus gland with Aging,
+  which leads to a significant reduction in the output of naïve T Cell.
 created: 2026-07-04
 updated: 2026-07-04
 tags:

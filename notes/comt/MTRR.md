@@ -1,7 +1,6 @@
 ---
 title: MTRR
 description: MTRR (methionine synthase reductase) is an enzyme that maintains methionine synthase in its active B12-dependent reduced state for homocysteine remethylation.
-type: entity
 created: 2026-05-25
 updated: 2026-07-07
 tags:

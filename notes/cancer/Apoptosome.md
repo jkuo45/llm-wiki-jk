@@ -1,7 +1,6 @@
 ---
 title: Apoptosome
 description: The Apoptosome is a large, wheel-like heptameric multi-protein complex that forms during the Intrinsic Pathway of Apoptosis to activate Caspase-9.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

@@ -1,8 +1,7 @@
 ---
 title: Vitamin E
-description: 'Vitamin E is a group of eight fat-soluble compounds that include
-  four tocopherols and four tocotrienols. It acts as a potent antioxidant.'
-type: entity
+description: Vitamin E is a group of eight fat-soluble compounds that include
+  four tocopherols and four tocotrienols. It acts as a potent antioxidant.
 created: 2026-05-29
 updated: 2026-05-29
 tags:

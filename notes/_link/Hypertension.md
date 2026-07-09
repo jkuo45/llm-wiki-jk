@@ -1,9 +1,8 @@
 ---
 title: Hypertension
-description: 'Hypertension is a chronic medical condition characterized by persistently
+description: Hypertension is a chronic medical condition characterized by persistently
   elevated arterial blood pressure. It is a major risk factor for Cardiovascular Disease,
-  Stroke, Chronic Kidney Disease,...'
-type: entity
+  Stroke, Chronic Kidney Disease,...
 created: 2026-07-04
 updated: 2026-07-04
 tags:

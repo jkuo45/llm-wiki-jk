@@ -1,9 +1,8 @@
 ---
 title: Nicotinamide Mononucleotide
-description: 'Nicotinamide Mononucleotide (NMN) is a direct precursor to NAD+
+description: Nicotinamide Mononucleotide (NMN) is a direct precursor to NAD+
   and a key intermediate in the biosynthesis of NAD+ in cells, used to enhance mitochondrial
-  energy production and support longevit...'
-type: entity
+  energy production and support longevit...
 created: 2024-01-01
 updated: 2024-01-01
 tags:

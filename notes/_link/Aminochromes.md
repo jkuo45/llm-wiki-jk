@@ -1,9 +1,8 @@
 ---
 title: Aminochromes
-description: 'Aminochromes are a class of deep-colored, cyclic indole-quinone
+description: Aminochromes are a class of deep-colored, cyclic indole-quinone
   compounds formed by the Oxidation of Catecholamines. They are key intermediates
-  in the formation of melanins and are associated w...'
-type: entity
+  in the formation of melanins and are associated w...
 created: 2026-07-04
 updated: 2026-07-04
 tags:

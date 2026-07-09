@@ -1,7 +1,6 @@
 ---
 title: Nutlin 3a
 description: MDM2 antagonist that stabilizes p53; a senolytic/senescence-inducing and senomorphic agent.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

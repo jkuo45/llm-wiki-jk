@@ -3,7 +3,6 @@ title: Tissue Plasminogen Activator
 description: Serine protease that converts Plasminogen to Plasmin at fibrin surfaces,
   initiating clot lysis; the primary thrombolytic agent used clinically (alteplase,
   tenecteplase).
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

@@ -1,7 +1,6 @@
 ---
 title: Apigenin
 description: A natural flavone with CDK-inhibitory, p53-stabilizing, and senomorphic/senolytic properties.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

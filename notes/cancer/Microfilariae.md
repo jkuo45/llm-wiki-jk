@@ -1,7 +1,6 @@
 ---
 title: Microfilariae
 description: Microfilariae are the motile larval stage of filarial nematodes (Onchocercidae) released by adult worms into host blood or skin; their clearance by Ivermectin and Diethylcarbamazine defines filariasis treatment success.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

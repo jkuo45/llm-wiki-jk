@@ -1,9 +1,8 @@
 ---
 title: AMPK
-description: 'AMP-activated protein kinase (AMPK) is a central metabolic sensor
+description: AMP-activated protein kinase (AMPK) is a central metabolic sensor
   that plays a critical role in the Aging process by integrating energy status with
-  epigenetic regulation. As organisms age, AMPK...'
-type: entity
+  epigenetic regulation. As organisms age, AMPK...
 created: 2026-05-29
 updated: 2026-05-29
 tags:

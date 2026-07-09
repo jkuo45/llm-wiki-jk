@@ -2,7 +2,6 @@
 title: Transcription factor EB
 description: Transcription factor EB (TFEB) is a master regulator of lysosomal biogenesis
   and autophagy, which can be activated by energetic stress.
-type: entity
 created: 2026-07-04
 updated: 2026-07-06
 tags:

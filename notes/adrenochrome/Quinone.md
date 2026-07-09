@@ -1,9 +1,8 @@
 ---
 title: Quinone
-description: 'Quinones are a class of organic compounds derived from aromatic
+description: Quinones are a class of organic compounds derived from aromatic
   compounds (such as benzene or naphthalene) by conversion of an even number of -CH=
-  groups into -C(=O)- groups, resulting in a ful...'
-type: entity
+  groups into -C(=O)- groups, resulting in a ful...
 created: 2026-07-04
 updated: 2026-07-04
 tags:

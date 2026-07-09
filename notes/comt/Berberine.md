@@ -1,7 +1,6 @@
 ---
 title: Berberine
-description: 'Berberine is a quaternary ammonium alkaloid from Berberis and related plants with pleiotropic effects on glucose, lipid, and inflammatory pathways; it lacks a catechol structure and does not inhibit COMT.'
-type: entity
+description: Berberine is a quaternary ammonium alkaloid from Berberis and related plants with pleiotropic effects on glucose, lipid, and inflammatory pathways; it lacks a catechol structure and does not inhibit COMT.
 created: 2026-05-25
 updated: 2026-07-07
 tags:

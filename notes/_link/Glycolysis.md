@@ -3,7 +3,6 @@ title: Glycolysis
 description: Glycolysis is the metabolic pathway that converts glucose into pyruvate.
   A byproduct of this pathway is the formation of Methylglyoxal, a potent precursor
   for Advanced Glycation End Products.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

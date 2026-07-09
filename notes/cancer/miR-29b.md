@@ -1,7 +1,6 @@
 ---
 title: miR-29b
 description: miR-29b is a tumor-suppressive microRNA that regulates apoptosis, extracellular matrix remodeling, and epigenetic silencing across multiple cancers.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

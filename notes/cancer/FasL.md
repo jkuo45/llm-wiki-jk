@@ -1,8 +1,7 @@
 ---
 title: FasL
-description: 'FasL (Fas ligand), also known as CD178, is a type II transmembrane
-  protein that belongs to the tumor necrosis factor (TNF) family.'
-type: entity
+description: FasL (Fas ligand), also known as CD178, is a type II transmembrane
+  protein that belongs to the tumor necrosis factor (TNF) family.
 created: 2026-07-06
 updated: 2026-07-06
 tags:

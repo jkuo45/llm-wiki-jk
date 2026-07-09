@@ -1,9 +1,8 @@
 ---
 title: Astrocytes
-description: 'Astrocytes are the most abundant glial cell type in the central
+description: Astrocytes are the most abundant glial cell type in the central
   nervous system. They perform essential homeostatic functions including synaptic
-  support, Neurotransmitter recycling, Blood-Brain ...'
-type: entity
+  support, Neurotransmitter recycling, Blood-Brain ...
 created: 2026-07-04
 updated: 2026-07-06
 tags:

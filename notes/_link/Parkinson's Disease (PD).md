@@ -1,9 +1,8 @@
 ---
 title: Parkinson's Disease (PD)
-description: 'A neurodegenerative disorder defined by loss of dopaminergic neurons
+description: A neurodegenerative disorder defined by loss of dopaminergic neurons
   in the substantia nigra, causing resting tremor, rigidity, bradykinesia, and postural
-  instability.'
-type: entity
+  instability.
 created: 2026-07-08
 updated: 2026-07-08
 tags:

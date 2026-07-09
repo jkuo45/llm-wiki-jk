@@ -1,7 +1,6 @@
 ---
 title: Glutamate-gated Cl- channels
 description: Glutamate-gated chloride channels (GluCls) are the primary target of Ivermectin and other avermectins in invertebrates. They are not present in vertebrates, which contributes to the safety profile of these drugs in humans.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

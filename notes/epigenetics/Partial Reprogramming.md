@@ -3,7 +3,6 @@ title: Partial Reprogramming
 description: Partial reprogramming (epigenetic rejuvenation) is a technique that transiently
   expresses Yamanaka Factors (OSKM) to reverse aging-associated epigenetic and functional
   decline without resetting cells to a pluripotent state.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:

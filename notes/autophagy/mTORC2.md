@@ -3,7 +3,6 @@ title: mTORC2
 description: mTOR complex 2 (mTORC2) is a rapamycin-insensitive multi-protein complex
   containing mTOR that regulates cytoskeletal organization, cell survival, and metabolism,
   primarily by phosphorylating Akt at...
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

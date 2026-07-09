@@ -1,7 +1,6 @@
 ---
 title: Anemia
 description: A condition of reduced red blood cell mass or hemoglobin, causing impaired oxygen delivery; a mild, reversible cytopenia associated with chronic mTOR inhibition.
-type: entity
 created: 2026-07-07
 updated: 2026-07-07
 tags:

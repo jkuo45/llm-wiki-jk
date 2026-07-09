@@ -1,7 +1,6 @@
 ---
 title: Caspase 5
 description: Human inflammatory caspase of the non-canonical inflammasome; cleaves gasdermin D to form pyroptotic pores and participates in IL-1α processing relevant to the SASP.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

@@ -1,8 +1,7 @@
 ---
 title: Atg8
-description: 'Atg8 (Autophagy-related 8) is a ubiquitin-like protein that plays
-  a central role in the formation and maturation of Autophagosome during Autophagy.'
-type: entity
+description: Atg8 (Autophagy-related 8) is a ubiquitin-like protein that plays
+  a central role in the formation and maturation of Autophagosome during Autophagy.
 created: 2026-07-04
 updated: 2026-07-04
 tags:

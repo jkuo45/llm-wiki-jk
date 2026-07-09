@@ -1,7 +1,6 @@
 ---
 title: Phosphorylation
 description: Reversible covalent addition of a phosphate group to substrates, most commonly mediated by kinases; the most prevalent post-translational modification regulating nearly every cellular process.
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:

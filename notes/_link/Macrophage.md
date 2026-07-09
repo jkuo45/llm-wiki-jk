@@ -3,7 +3,6 @@ title: Macrophage
 description: Large mononuclear phagocytes that are key innate immune cells, performing
   phagocytosis, antigen presentation, and cytokine production, with critical links
   to Autophagy and inflammatory regulation.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:

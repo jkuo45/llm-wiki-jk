@@ -3,7 +3,6 @@ title: Gut Microbiome
 description: The gut microbiome consists of trillions of microorganisms, including
   bacteria, viruses, and fungi, residing in the gastrointestinal tract, playing a
   crucial role in immune function, metabolism, an...
-type: entity
 created: 2024-01-01
 updated: 2024-01-01
 tags:

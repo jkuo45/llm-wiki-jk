@@ -1,9 +1,8 @@
 ---
 title: 20S Proteasome
-description: 'The 20S Proteasome is a core catalytic particle of the ubiquitin-proteasome
+description: The 20S Proteasome is a core catalytic particle of the ubiquitin-proteasome
   system that degrades oxidized, misfolded, and damaged proteins independently of
-  ubiquitination, serving as a primary ...'
-type: entity
+  ubiquitination, serving as a primary ...
 created: 2026-07-04
 updated: 2026-07-04
 tags:

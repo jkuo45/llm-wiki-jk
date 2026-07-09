@@ -3,7 +3,6 @@ title: Plasmin
 description: A broad-spectrum serine protease generated from plasminogen by plasminogen
   activators (tPA and uPA), central to fibrinolysis, ECM remodelling, and pro-MMP
   activation.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

@@ -1,7 +1,6 @@
 ---
 title: Superoxide Radicals
 description: Superoxide radicals (O2•−) are reactive oxygen species formed by addition of a single electron to molecular oxygen. The primary ROS that triggers formation of Hydrogen Peroxide, Hydroxyl Radicals, and Peroxynitrite.
-type: entity
 created: 2026-05-09
 updated: 2026-07-07
 tags:

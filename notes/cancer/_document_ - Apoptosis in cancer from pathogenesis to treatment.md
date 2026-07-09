@@ -4,7 +4,6 @@ description: Apoptosis is an ordered and orchestrated cellular process that occu
   in physiological and pathological conditions. It is also one of the most studied
   topics among cell biologists. An understanding of the underlying mechanism of apoptosis
   is ...
-type: document
 created: 2026-05-31
 source: https://pmc.ncbi.nlm.nih.gov/articles/PMC3197541/
 author:

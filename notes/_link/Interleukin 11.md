@@ -1,7 +1,6 @@
 ---
 title: Interleukin 11
 description: Interleukin-11 is a senescence-induced gp130/STAT3-driving osteokine and pro-fibrotic SASP factor linked to osteoporosis, pulmonary and cardiac fibrosis.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

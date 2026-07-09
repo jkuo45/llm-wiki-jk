@@ -3,7 +3,6 @@ title: LMNA Gene
 description: The LMNA Gene (Lamin A/C) provides instructions for making several
   proteins called lamins, primarily Lamin A and Lamin C. These proteins are structural
   components of the nuclear lamina, a meshw...
-type: entity
 created: 2024-01-01
 updated: 2024-01-01
 tags:

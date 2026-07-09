@@ -3,7 +3,6 @@ title: Butyrate
 description: Butyrate is a four-carbon short-chain fatty acid produced by gut bacteria,
   known for its anti-inflammatory properties and its role as a primary energy source
   for colonocytes.
-type: entity
 created: 2024-01-01
 updated: 2024-01-01
 tags:

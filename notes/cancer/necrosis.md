@@ -1,9 +1,8 @@
 ---
 title: necrosis
-description: 'Necrosis (from the Greek nekros, ''dead'') is a form of cell death
+description: Necrosis (from the Greek nekros, ''dead'') is a form of cell death
   that is characterized by the loss of membrane integrity and the release of intracellular
-  contents into the surrounding tissue.'
-type: entity
+  contents into the surrounding tissue.
 created: 2026-07-06
 updated: 2026-07-06
 tags:

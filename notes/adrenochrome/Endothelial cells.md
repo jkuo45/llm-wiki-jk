@@ -1,7 +1,6 @@
 ---
 title: Endothelial cells
 description: Cells that line the interior surface of blood vessels and lymphatic vessels, forming a simple squamous epithelium with essential roles in vascular homeostasis.
-type: entity
 created: 2026-07-04
 updated: 2026-07-06
 tags:

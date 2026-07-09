@@ -3,7 +3,6 @@ title: Hypusination
 description: Hypusination is a unique post-translational modification of eIF5A required
   for its activity in translation, which is facilitated by Spermidine to promote the
   synthesis of proteins like TFEB.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

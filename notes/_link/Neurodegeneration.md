@@ -3,7 +3,6 @@ title: Neurodegeneration
 description: Neurodegeneration is the progressive loss of structure or function of
   neurons, including death of neurons. It is a key feature of diseases like Alzheimer's
   Disease and Parkinson's Disease, often li...
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

@@ -1,7 +1,6 @@
 ---
 title: Annexin V
-description: 'Annexin V is a member of the annexin family of calcium-dependent phospholipid-binding proteins, widely used as a marker for Phosphatidylserine exposure in cells undergoing Apoptosis.'
-type: entity
+description: Annexin V is a member of the annexin family of calcium-dependent phospholipid-binding proteins, widely used as a marker for Phosphatidylserine exposure in cells undergoing Apoptosis.
 created: 2026-07-06
 updated: 2026-07-07
 tags:

@@ -1,7 +1,6 @@
 ---
 title: The senescence-associated secretory phenotype and its physiological and pathological implications
 description: Comprehensive review of SASP composition, dynamics, heterogeneity, biological functions, biomarkers, and senomorphic therapy from Nature Reviews Molecular Cell Biology (2024).
-type: document
 published: 2024-03-11
 created: 2026-07-07
 source: https://doi.org/10.1038/s41580-024-00727-x

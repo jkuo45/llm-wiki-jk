@@ -3,7 +3,6 @@ title: Short-chain Fatty Acids
 description: Short-chain fatty acids (SCFAs) are produced by the gut microbiota through
   the fermentation of non-digestible carbohydrates, serving as important signaling
   molecules and energy sources for host cells.
-type: entity
 created: 2024-01-01
 updated: 2024-01-01
 tags:

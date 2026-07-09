@@ -1,8 +1,7 @@
 ---
 title: Bim
-description: 'Bim (Bcl-2-like protein 11) is a potent pro-apoptotic BH3-only member
-  of the Bcl-2 family. It is a major initiator of the Intrinsic Pathway of Apoptosis.'
-type: entity
+description: Bim (Bcl-2-like protein 11) is a potent pro-apoptotic BH3-only member
+  of the Bcl-2 family. It is a major initiator of the Intrinsic Pathway of Apoptosis.
 created: 2026-07-06
 updated: 2026-07-06
 tags:

@@ -1,6 +1,6 @@
 ---
-title: "The Mechanistic Target of Rapamycin (mTOR) Pathway as a Target of Anti-aging Therapies: The Role of Rapamycin and Its Analogs in the Regulation of Cellular Processes and Their Impact on Longevity"
-source: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12766144/"
+title: 'The Mechanistic Target of Rapamycin (mTOR) Pathway as a Target of Anti-aging Therapies: The Role of Rapamycin and Its Analogs in the Regulation of Cellular Processes and Their Impact on Longevity'
+source: https://pmc.ncbi.nlm.nih.gov/articles/PMC12766144/
 author:
   - "Julia Zerdka"
   - "Patryk Brasse"
@@ -13,13 +13,12 @@ author:
   - "Aleksandra Owczarska"
 published:
 created: 2026-07-07
-description: "Narrative review (Cureus, 2025) of the mTOR pathway as an anti-aging target. Covers rapamycin's mechanisms—autophagy, proteostasis, mitochondrial and immune modulation, stem-cell preservation—preclinical longevity, early human trials (PEARL, topical skin, vaccine response), safety, and ongoing Alzheimer's/cardiac/sarcopenia trials."
+description: Narrative review (Cureus, 2025) of the mTOR pathway as an anti-aging target. Covers rapamycin's mechanisms—autophagy, proteostasis, mitochondrial and immune modulation, stem-cell preservation—preclinical longevity, early human trials (PEARL, topical skin, vaccine response), safety, and ongoing Alzheimer's/cardiac/sarcopenia trials.
 tags:
   - clippings
   - rapamycin
   - mtor
   - longevity
-type: document
 ---
 
 . 2025 Dec 5;17(12):e98514. doi: [10.7759/cureus.98514](https://doi.org/10.7759/cureus.98514)

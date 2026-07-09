@@ -1,9 +1,8 @@
 ---
 title: Depression
-description: 'Depression (major depressive disorder) is a common and serious mood
+description: Depression (major depressive disorder) is a common and serious mood
   disorder characterized by persistent sadness, loss of interest, and impaired function.
-  It has complex neurobiological underpi...'
-type: entity
+  It has complex neurobiological underpi...
 created: 2026-07-04
 updated: 2026-07-04
 tags:

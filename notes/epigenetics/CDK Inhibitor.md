@@ -1,7 +1,6 @@
 ---
 title: CDK Inhibitor
 description: A class of molecules, both endogenous and pharmacological, that inhibit cyclin-dependent kinases (CDKs) to regulate or arrest the cell cycle.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:

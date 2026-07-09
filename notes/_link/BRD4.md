@@ -1,7 +1,6 @@
 ---
 title: BRD4
 description: Bromodomain-containing protein 4, an epigenetic reader recruited to senescence-activated enhancers to promote SASP.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

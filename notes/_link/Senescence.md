@@ -1,7 +1,6 @@
 ---
 title: Senescence
-description: 'Permanent cell-cycle arrest induced by diverse stresses, orchestrated by p53/p21 and p16/RB pathways and sustained by the SASP, SAHF, and chromatin remodeling.'
-type: entity
+description: Permanent cell-cycle arrest induced by diverse stresses, orchestrated by p53/p21 and p16/RB pathways and sustained by the SASP, SAHF, and chromatin remodeling.
 created: 2026-05-31
 updated: 2026-07-08
 tags:

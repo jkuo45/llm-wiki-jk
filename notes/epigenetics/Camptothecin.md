@@ -1,7 +1,6 @@
 ---
 title: Camptothecin
 description: Camptothecin is a cytotoxic quinoline alkaloid from Camptotheca acuminata that inhibits topoisomerase I, stabilizing the cleavage complex and generating DNA double-strand breaks via replication fork collision.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:

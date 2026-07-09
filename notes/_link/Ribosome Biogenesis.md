@@ -1,9 +1,8 @@
 ---
 title: Ribosome Biogenesis
-description: 'Definition: Ribosome Biogenesis is a fundamental biological process
+description: 'Definition: Ribosome Biogenesis is a fundamental biological process'
   that maintains cellular and organismal homeostasis. It involves coordinated molecular
-  events regulated by signaling pathways ...'
-type: entity
+  events regulated by signaling pathways ...
 created: 2026-07-04
 updated: 2026-07-04
 tags:

@@ -1,7 +1,6 @@
 ---
 title: CXCL10
 description: C-X-C motif chemokine ligand 10 (IP-10), an IFN-inducible ELR− SASP chemokine that binds CXCR3 and recruits NK cells and T cells for immune surveillance.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

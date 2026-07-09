@@ -3,7 +3,6 @@ title: Orlistat
 description: Orlistat is a lipase inhibitor used as an anti-obesity medication. In
   addition to reducing fat absorption, it has been found to decrease the absorption
   of dietary Advanced Glycation End Products, p...
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

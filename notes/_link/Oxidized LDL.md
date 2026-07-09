@@ -1,9 +1,8 @@
 ---
 title: Oxidized LDL
-description: 'Oxidized LDL (oxLDL) is low-density lipoprotein that has undergone
+description: Oxidized LDL (oxLDL) is low-density lipoprotein that has undergone
   oxidative modification, primarily by Reactive Oxygen Species and Myeloperoxidase.
-  It is a key driver of Atherosclerosis and En...'
-type: entity
+  It is a key driver of Atherosclerosis and En...
 created: 2026-07-04
 updated: 2026-07-04
 tags:

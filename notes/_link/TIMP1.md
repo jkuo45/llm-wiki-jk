@@ -3,7 +3,6 @@ title: TIMP1
 description: Tissue Inhibitor of Metalloproteinases-1, a soluble endogenous inhibitor
   of MMPs (especially MMP-9 and MMP-12) with roles in ECM homeostasis, fibrosis,
   and the SASP.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

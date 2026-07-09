@@ -1,9 +1,8 @@
 ---
 title: ATP
-description: 'Adenosine triphosphate (ATP) is a nucleotide composed of adenine,
+description: Adenosine triphosphate (ATP) is a nucleotide composed of adenine,
   ribose, and three phosphate groups that serves as the universal energy currency
-  of living cells. Hydrolysis of ATP to ADP and P...'
-type: entity
+  of living cells. Hydrolysis of ATP to ADP and P...
 created: 2024-01-01
 updated: 2026-07-06
 tags:

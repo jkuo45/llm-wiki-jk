@@ -1,7 +1,6 @@
 ---
 title: Avermectin
 description: Avermectins are 16-membered macrocyclic lactones produced by Streptomyces avermectinius with potent anthelmintic and insecticidal activity; Ivermectin is the best-known derivative.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

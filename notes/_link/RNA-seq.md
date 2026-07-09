@@ -1,9 +1,8 @@
 ---
 title: RNA-seq
-description: 'RNA-seq (RNA sequencing) is a high-throughput sequencing method
+description: RNA-seq (RNA sequencing) is a high-throughput sequencing method
   that profiles the complete set of RNA transcripts in a biological sample. It quantifies
-  Gene Expression, detects Alternative Spli...'
-type: entity
+  Gene Expression, detects Alternative Spli...
 created: 2026-07-04
 updated: 2026-07-06
 tags:

@@ -3,7 +3,6 @@ title: IL-1b
 description: Interleukin-1 beta (IL-1b) is a cytokine protein that is an important
   mediator of the inflammatory response. Its production is often upregulated during
   chronic Inflammation and is closely linked wi...
-type: entity
 created: 2026-05-09
 updated: 2026-07-04
 tags:

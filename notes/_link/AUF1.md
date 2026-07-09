@@ -1,7 +1,6 @@
 ---
 title: AUF1
 description: AU-rich element RNA-binding protein 1 (hnRNP D), an ARE-mRNA decay factor inactivated by MK2 to stabilize SASP cytokine transcripts.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

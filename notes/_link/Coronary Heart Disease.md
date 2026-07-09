@@ -1,9 +1,8 @@
 ---
 title: Coronary Heart Disease
-description: 'Coronary Heart Disease (CHD), also known as Coronary Artery Disease
+description: Coronary Heart Disease (CHD), also known as Coronary Artery Disease
   (CAD), is a primary manifestation of Cardiovascular Disease. Epigenetics mechanisms
-  serve as a critical bridge between...'
-type: entity
+  serve as a critical bridge between...
 created: 2024-01-01
 updated: 2024-01-01
 tags:

@@ -1,9 +1,8 @@
 ---
 title: Renal Failure
-description: 'Etiology and pathophysiology: Renal Failure is a medical condition
+description: 'Etiology and pathophysiology: Renal Failure is a medical condition'
   characterized by specific pathological changes in cellular, tissue, or organ function.
-  Its development involves genetic, envir...'
-type: entity
+  Its development involves genetic, envir...
 created: 2026-07-04
 updated: 2026-07-04
 tags:

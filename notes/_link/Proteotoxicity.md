@@ -1,9 +1,8 @@
 ---
 title: Proteotoxicity
-description: 'Definition: Proteotoxicity is a fundamental biological process that
+description: 'Definition: Proteotoxicity is a fundamental biological process that'
   maintains cellular and organismal homeostasis. It involves coordinated molecular
-  events regulated by signaling pathways and e...'
-type: entity
+  events regulated by signaling pathways and e...
 created: 2026-07-04
 updated: 2026-07-04
 tags:

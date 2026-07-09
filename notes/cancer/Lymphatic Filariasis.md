@@ -1,7 +1,6 @@
 ---
 title: Lymphatic Filariasis
 description: Lymphatic filariasis (elephantiasis) is a neglected tropical disease caused by filarial nematodes (Wuchereria bancrofti, Brugia spp.) transmitted by mosquitoes, treated with Ivermectin, Diethylcarbamazine, and Albendazole.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

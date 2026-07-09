@@ -1,7 +1,6 @@
 ---
 title: DNA Methylation
-description: 'DNA methylation is a key epigenetic mechanism involving the addition of methyl groups to DNA, typically at CpG sites, to regulate gene expression.'
-type: entity
+description: DNA methylation is a key epigenetic mechanism involving the addition of methyl groups to DNA, typically at CpG sites, to regulate gene expression.
 created: 2026-07-06
 updated: 2026-07-06
 tags:

@@ -1,7 +1,6 @@
 ---
 title: SOCS3
 description: Suppressor of Cytokine Signaling 3 (SOCS3) is a negative-feedback regulator of cytokine signaling that targets IDO1 for ubiquitination and degradation.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

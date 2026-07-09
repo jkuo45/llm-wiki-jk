@@ -1,7 +1,6 @@
 ---
 title: Synaptic Vesicles
 description: Synaptic Vesicles are presynaptic organelles that store and release neurotransmitters such as Dopamine and Norepinephrine; their cycling is regulated by Alpha-synuclein and disrupted in Parkinson's Disease.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:

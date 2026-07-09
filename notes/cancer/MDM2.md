@@ -1,8 +1,7 @@
 ---
 title: MDM2
-description: 'MDM2 (Mouse double minute 2 homolog) is a nuclear phosphoprotein
-  that functions as the primary negative regulator of the p53 tumor suppressor protein.'
-type: entity
+description: MDM2 (Mouse double minute 2 homolog) is a nuclear phosphoprotein
+  that functions as the primary negative regulator of the p53 tumor suppressor protein.
 created: 2026-07-06
 updated: 2026-07-06
 tags:

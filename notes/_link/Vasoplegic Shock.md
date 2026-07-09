@@ -3,7 +3,6 @@ title: Vasoplegic Shock
 description: Vasoplegic shock (vasoplegia) is refractory hypotension from
   pathologic vasodilation, commonly after cardiopulmonary bypass or in
   septic/anaphylactic shock; methylene blue is an off-label rescue therapy.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

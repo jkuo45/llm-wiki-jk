@@ -1,7 +1,6 @@
 ---
 title: ERK1_2
 description: ERK1/2 (Extracellular Signal-Regulated Kinase 1 and 2, p44/p42 MAPK) are the terminal effectors of the RAS-RAF-MEK MAPK cascade, integrating growth-factor signals to control proliferation, survival, differentiation, and apoptosis.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

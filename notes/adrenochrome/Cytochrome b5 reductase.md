@@ -1,7 +1,6 @@
 ---
 title: Cytochrome b5 reductase
 description: '- Methemoglobinemia: Caused by a deficiency in this enzyme.'
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

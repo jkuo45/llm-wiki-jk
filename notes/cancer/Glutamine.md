@@ -1,7 +1,6 @@
 ---
 title: Glutamine
 description: A conditional essential amino acid and the most abundant free amino acid in the body, serving as a critical fuel source for rapidly dividing cells, including immune cells and cancer cells.
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:

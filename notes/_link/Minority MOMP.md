@@ -1,7 +1,6 @@
 ---
 title: Minority MOMP
 description: Sublethal, partial mitochondrial outer membrane permeabilization that releases mtDNA and drives the SASP without committing the cell to apoptosis.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

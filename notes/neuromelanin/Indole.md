@@ -1,7 +1,6 @@
 ---
 title: Indole
 description: Indole is an aromatic heterocyclic organic compound; indole-based subunits, such as 5,6-indolequinone, are key structural components of the Neuromelanin polymer.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:

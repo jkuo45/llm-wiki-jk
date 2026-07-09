@@ -1,7 +1,6 @@
 ---
 title: GM-CSF
 description: Granulocyte-macrophage colony-stimulating factor is a SASP cytokine that recruits and activates myeloid cells and serves as a senolytic-therapy response biomarker.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

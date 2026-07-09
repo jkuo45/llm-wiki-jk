@@ -1,7 +1,6 @@
 ---
 title: Stem Cells
 description: Undifferentiated cells with self-renewal and differentiation capacity; their exhaustion with age is delayed by mTORC1 inhibition via autophagy, reduced inflammation, and growth-factor induction.
-type: entity
 created: 2026-07-07
 updated: 2026-07-07
 tags:

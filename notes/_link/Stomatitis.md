@@ -1,7 +1,6 @@
 ---
 title: Stomatitis
 description: Inflammation and ulceration of the oral mucosa, a frequent and dose-limiting adverse effect of mTOR inhibitor therapy.
-type: entity
 created: 2026-07-07
 updated: 2026-07-07
 tags:

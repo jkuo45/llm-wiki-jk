@@ -1,7 +1,6 @@
 ---
 title: Kitasato Institute
 description: The Kitasato Institute is a Tokyo research organization founded by Kitasato Shibasaburō, renowned for microbiology and for the discovery of avermectins (with Satoshi Ōmura), leading to Ivermectin and the Mectizan Donation Program.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

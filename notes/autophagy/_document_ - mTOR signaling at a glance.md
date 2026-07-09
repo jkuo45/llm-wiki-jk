@@ -3,7 +3,6 @@ title: mTOR signaling at a glance
 description: The mammalian target of rapamycin (mTOR) signaling pathway integrates
   both intracellular and extracellular signals and serves as a central regulator of
   cell metabolism, growth, proliferation and su...
-type: document
 created: 2026-05-29
 source: https://pmc.ncbi.nlm.nih.gov/articles/PMC2758797/
 author:

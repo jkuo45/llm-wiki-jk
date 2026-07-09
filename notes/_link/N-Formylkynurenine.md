@@ -1,7 +1,6 @@
 ---
 title: N-Formylkynurenine
 description: N-Formylkynurenine is the immediate product of IDO1 and TDO activity on tryptophan, which is rapidly deformylated to kynurenine by kynurenine formamidase.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

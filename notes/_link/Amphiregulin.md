@@ -1,7 +1,6 @@
 ---
 title: Amphiregulin
 description: Amphiregulin is an EGFR-binding EGF-family growth factor and SASP component that drives tissue repair and can promote tumor growth.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

@@ -1,8 +1,7 @@
 ---
 title: H-NMR
-description: 'H-NMR (Proton Nuclear Magnetic Resonance) is an analytical technique
-  used to determine the structure of organic molecules.'
-type: entity
+description: H-NMR (Proton Nuclear Magnetic Resonance) is an analytical technique
+  used to determine the structure of organic molecules.
 created: 2026-07-04
 updated: 2026-07-04
 tags:

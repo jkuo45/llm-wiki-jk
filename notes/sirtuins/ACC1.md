@@ -3,7 +3,6 @@ title: ACC1
 description: ACC1 (Acetyl-CoA Carboxylase 1, encoded by ACACA) is the rate-limiting
   enzyme of de novo fatty acid synthesis. It carboxylates acetyl-CoA to malonyl-CoA,
   the two-carbon donor for chain elongation by fatty acid synthase.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:

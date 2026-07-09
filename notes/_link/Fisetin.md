@@ -3,7 +3,6 @@ title: Fisetin
 description: Fisetin is a plant Flavonoids and antioxidant found in many fruits and
   vegetables, such as strawberries and apples. It has been identified as a potent
   senolytic agent, selectively inducing apoptosi...
-type: entity
 created: 2026-05-25
 updated: 2026-07-07
 tags:

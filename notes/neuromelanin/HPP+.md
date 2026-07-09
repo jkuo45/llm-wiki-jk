@@ -1,7 +1,6 @@
 ---
 title: HPP+
 description: HPP+ (4-(4-chlorophenyl)-1-[4-(4-fluorophenyl)-4-oxobutyl]pyridinium) is a toxic pyridinium metabolite of Haloperidol that is structurally similar to MPP+ and may induce neurotoxicity.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:

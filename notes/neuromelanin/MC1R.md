@@ -1,7 +1,6 @@
 ---
 title: MC1R
-description: 'MC1R (Melanocortin 1 Receptor) is a G protein-coupled receptor primarily known for its role in determining skin and hair color.'
-type: entity
+description: MC1R (Melanocortin 1 Receptor) is a G protein-coupled receptor primarily known for its role in determining skin and hair color.
 created: 2026-07-04
 updated: 2026-07-07
 tags:

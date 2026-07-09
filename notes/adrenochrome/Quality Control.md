@@ -1,8 +1,7 @@
 ---
 title: Quality Control
-description: 'Quality Control (QC) is a process by which entities review the quality
-  of all factors involved in production.'
-type: entity
+description: Quality Control (QC) is a process by which entities review the quality
+  of all factors involved in production.
 created: 2026-07-04
 updated: 2026-07-04
 tags:

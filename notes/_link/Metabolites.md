@@ -2,7 +2,6 @@
 title: Metabolites
 description: Metabolites are the intermediate products of metabolic reactions catalyzed
   by various enzymes that naturally occur within cells.
-type: entity
 created: 2024-01-01
 updated: 2024-01-01
 tags:

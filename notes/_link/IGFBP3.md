@@ -1,7 +1,6 @@
 ---
 title: IGFBP3
 description: IGF-binding protein 3 is a direct p53 target gene and p53-arm SASP factor that modulates IGF signaling and supports immunosurveillance of senescent cells.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

@@ -1,7 +1,6 @@
 ---
 title: TransitID
 description: A proximity labeling method developed by Alice Ting's lab for mapping proteome spatial and temporal dynamics by distinguishing proteins transitioning between cellular compartments using orthogonal split-biotin ligases with time-resolved labeling.
-type: entity
 created: 2026-07-04
 updated: 2026-07-06
 tags:

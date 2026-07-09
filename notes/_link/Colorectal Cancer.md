@@ -2,7 +2,6 @@
 title: Colorectal Cancer
 description: Colorectal cancer (CRC) is a common malignant tumor affecting the colon
   or rectum.
-type: entity
 created: 2026-05-29
 updated: 2026-05-29
 tags:

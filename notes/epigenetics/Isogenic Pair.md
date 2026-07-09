@@ -1,7 +1,6 @@
 ---
 title: Isogenic Pair
 description: Two cell lines that are genetically identical except for a single defined locus, enabling controlled attribution of phenotype to genotype.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:

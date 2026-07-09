@@ -3,7 +3,6 @@ title: Sirtuin Activating Compounds (STACs)
 description: Sirtuin Activating Compounds (STACs) are a structurally diverse class
   of small molecules that directly or indirectly enhance the enzymatic activity of
   sirtuins, primarily SIRT1. First identified in...
-type: entity
 created: 2026-07-03
 updated: 2026-07-03
 tags:

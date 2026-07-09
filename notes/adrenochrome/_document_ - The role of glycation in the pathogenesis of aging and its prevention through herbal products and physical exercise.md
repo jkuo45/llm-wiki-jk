@@ -5,7 +5,6 @@ description: Advanced glycation end products (AGEs) are non-enzymatic modificati
   of proteins or lipids after exposure to sugars. In this review, the glycation process
   and AGEs are introduced, and the harmful effects of AGEs in the aging process are
   discussed. ...
-type: document
 created: 2026-06-14
 source: https://pmc.ncbi.nlm.nih.gov/articles/PMC5643203/
 author:

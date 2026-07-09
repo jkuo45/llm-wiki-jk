@@ -1,9 +1,8 @@
 ---
 title: OPA1
-description: 'Overview: OPA1 is a cellular protein with structural, signaling,
+description: 'Overview: OPA1 is a cellular protein with structural, signaling,'
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
-  and signaling networks that govern cell...'
-type: entity
+  and signaling networks that govern cell...
 created: 2026-07-04
 updated: 2026-07-04
 tags:

@@ -1,8 +1,7 @@
 ---
 title: SIRT2
-description: 'SIRT2 (Sirtuin 2) is a member of the sirtuin family of NAD+-dependent
-  deacetylases, primarily localized in the cytosol.'
-type: entity
+description: SIRT2 (Sirtuin 2) is a member of the sirtuin family of NAD+-dependent
+  deacetylases, primarily localized in the cytosol.
 created: 2026-07-04
 updated: 2026-07-04
 tags:

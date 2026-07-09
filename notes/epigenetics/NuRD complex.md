@@ -1,7 +1,6 @@
 ---
 title: NuRD complex
 description: The NuRD (Nucleosome Remodeling and Deacetylase) complex couples ATP-dependent chromatin remodeling with histone deacetylation.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:

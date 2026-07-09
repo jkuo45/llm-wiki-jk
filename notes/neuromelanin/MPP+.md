@@ -1,7 +1,6 @@
 ---
 title: MPP+
-description: 'MPP+ (1-methyl-4-phenylpyridinium) is the active, toxic metabolite of the prodrug MPTP.'
-type: entity
+description: MPP+ (1-methyl-4-phenylpyridinium) is the active, toxic metabolite of the prodrug MPTP.
 created: 2026-07-04
 updated: 2026-07-07
 tags:

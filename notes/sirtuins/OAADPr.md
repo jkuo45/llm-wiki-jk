@@ -3,7 +3,6 @@ title: OAADPr
 description: OAADPr (2′-_O_-acetyl-ADP-ribose) is a unique metabolite generated as
   a by-product of all sirtuin-catalysed NAD⁺-dependent deacetylation reactions. It
   is produced alongside nicotinamide when one mo...
-type: entity
 created: 2026-07-02
 updated: 2026-07-02
 tags:

@@ -1,7 +1,6 @@
 ---
 title: IkappaBalpha
-description: 'IκBα (encoded by NFKBIA) is the prototypical member of the IkappaB family of NFκB inhibitors. It is the primary negative regulator of the canonical NFκB signaling pathway, controlling the activation kinetics and duration of inflammatory and immune responses.'
-type: entity
+description: IκBα (encoded by NFKBIA) is the prototypical member of the IkappaB family of NFκB inhibitors. It is the primary negative regulator of the canonical NFκB signaling pathway, controlling the activation kinetics and duration of inflammatory and immune responses.
 created: 2026-07-04
 updated: 2026-07-08
 tags:

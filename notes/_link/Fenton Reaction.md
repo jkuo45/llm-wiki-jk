@@ -3,7 +3,6 @@ title: Fenton Reaction
 description: The Fenton Reaction is a chemical process in which Iron (Fe²⁺) reduces
   hydrogen peroxide (H₂O₂) to generate the highly reactive hydroxyl radical (•OH),
   a potent Reactive Oxygen Species. In the brai...
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

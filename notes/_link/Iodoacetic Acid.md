@@ -1,7 +1,6 @@
 ---
 title: Iodoacetic Acid
 description: Iodoacetic acid (IAA) is an alkylating glycolytic inhibitor that depletes ATP and elevates mitochondrial ROS, used as a neuronal oxidative-stress insult in methylene blue neuroprotection assays.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

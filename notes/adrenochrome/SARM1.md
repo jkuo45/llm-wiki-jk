@@ -1,7 +1,6 @@
 ---
 title: SARM1
 description: SARM1 (Sterile Alpha and TIR Motif Containing 1) is an ~80 kDa NAD+ glycohydrolase of the Toll/IL-1 receptor (TIR) family that drives Wallerian degeneration upon axonal injury by depleting axonal NAD+.
-type: entity
 created: 2026-07-04
 updated: 2026-07-06
 tags:

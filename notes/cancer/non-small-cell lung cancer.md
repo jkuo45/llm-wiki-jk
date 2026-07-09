@@ -1,7 +1,6 @@
 ---
 title: Non-small-cell Lung Cancer
 description: NSCLC comprises lung adenocarcinomas, squamous cell, and large-cell carcinomas; driven by KRAS/EGFR/ALK alterations, it is a leading cause of cancer death with targeted and immunotherapy options.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

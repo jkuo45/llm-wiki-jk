@@ -1,9 +1,8 @@
 ---
 title: IkappaB
-description: 'IκB (inhibitor of NF-κB) proteins are a family of cytoplasmic inhibitors
+description: IκB (inhibitor of NF-κB) proteins are a family of cytoplasmic inhibitors
   that sequester NFκB transcription factors in the Cytosol, preventing their nuclear
-  translocation. The best-characterized...'
-type: entity
+  translocation. The best-characterized...
 created: 2026-07-04
 updated: 2026-07-06
 tags:

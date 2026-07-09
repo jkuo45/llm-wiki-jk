@@ -1,7 +1,6 @@
 ---
 title: IκBζ
 description: Inhibitor of NF-κB zeta, a selective co-activator of NF-κB for SASP genes like IL-6 and IL-8.
-type: entity
 created: 2026-07-07
 updated: 2026-07-07
 tags:

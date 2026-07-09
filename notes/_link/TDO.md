@@ -1,7 +1,6 @@
 ---
 title: TDO
 description: Tryptophan 2,3-dioxygenase (TDO) is a hepatic heme-containing enzyme that catalyzes the same first step in the kynurenine pathway as IDO1 — converting tryptophan to N-formylkynurenine — and is primarily regulated by tryptophan concentration and glucocorticoids.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

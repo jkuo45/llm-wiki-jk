@@ -1,7 +1,6 @@
 ---
 title: Chronic Obstructive Pulmonary Disease
 description: Chronic Obstructive Pulmonary Disease (COPD) is a progressive inflammatory lung disease characterized by long-term breathing problems and poor airflow. The main symptoms include shortness of breath, cough, and sputum production.
-type: entity
 created: 2026-05-09
 updated: 2026-07-07
 tags:

@@ -1,7 +1,6 @@
 ---
 title: 'Sirtuins in mammals: insights into their biological function'
 description: NIH Public Access Author Manuscript
-type: document
 source: Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i.pdf
 tags:
   - pdf

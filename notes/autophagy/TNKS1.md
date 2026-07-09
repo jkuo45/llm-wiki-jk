@@ -2,7 +2,6 @@
 title: TNKS1
 description: Tankyrase 1 (TNKS1) is a poly(ADP-ribose) polymerase that parsylates
   TFEB, thereby promoting its nuclear translocation and transcriptional activity.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

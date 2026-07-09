@@ -3,7 +3,6 @@ title: MAPK
 description: The MAPK (Mitogen-Activated Protein Kinase) pathway is a series of
   proteins in the cell that communicates a signal from a receptor on the surface of
   the cell to the DNA in the nucleus. It is a ...
-type: entity
 created: 2026-05-29
 updated: 2026-05-29
 tags:

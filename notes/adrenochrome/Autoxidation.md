@@ -1,8 +1,7 @@
 ---
 title: Autoxidation
-description: 'Autoxidation is any oxidation that occurs in open air or in presence
-  of oxygen (and sometimes UV radiation) and forms peroxides and hydroperoxides.'
-type: entity
+description: Autoxidation is any oxidation that occurs in open air or in presence
+  of oxygen (and sometimes UV radiation) and forms peroxides and hydroperoxides.
 created: 2026-07-04
 updated: 2026-07-04
 tags:

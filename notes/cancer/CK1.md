@@ -1,7 +1,6 @@
 ---
 title: CK1
 description: CK1 (Casein kinase 1) is a conserved serine/threonine kinase family that phosphorylates the BH3-only protein Bid to inhibit its cleavage by Caspase-8, dampening mitochondrial apoptotic amplification.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

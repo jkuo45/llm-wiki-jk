@@ -1,7 +1,6 @@
 ---
 title: Model Organisms
-description: 'Model organisms are non-human species used in biomedical research to understand biological processes, such as aging, in a controlled environment.'
-type: entity
+description: Model organisms are non-human species used in biomedical research to understand biological processes, such as aging, in a controlled environment.
 created: 2024-01-01
 updated: 2026-07-06
 tags:

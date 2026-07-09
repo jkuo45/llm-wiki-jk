@@ -1,7 +1,6 @@
 ---
 title: PTPN2
 description: PTPN2 (TC-PTP) is a non-receptor protein tyrosine phosphatase that negatively regulates cytokine and growth factor signaling (JAK2/STAT3, ERK) and dephosphorylates the pro-apoptotic protein Bak, linking it to cancer and immune evasion.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

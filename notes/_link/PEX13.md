@@ -3,7 +3,6 @@ title: PEX13
 description: PEX13 encodes an integral peroxisomal membrane protein that forms part of
   the docking complex for the PTS1 and PTS2 receptors (PEX5 and PEX7), essential for
   peroxisomal matrix protein import.
-type: entity
 created: 2026-07-04
 updated: 2026-07-06
 tags:

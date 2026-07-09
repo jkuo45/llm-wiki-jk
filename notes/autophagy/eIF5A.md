@@ -1,8 +1,7 @@
 ---
 title: eIF5A
-description: 'eIF5A (Eukaryotic Translation Initiation Factor 5A) is a highly
-  conserved translation factor.'
-type: entity
+description: eIF5A (Eukaryotic Translation Initiation Factor 5A) is a highly
+  conserved translation factor.
 created: 2026-07-04
 updated: 2026-07-04
 tags:

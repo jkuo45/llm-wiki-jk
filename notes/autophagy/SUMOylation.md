@@ -1,7 +1,6 @@
 ---
 title: SUMOylation
 description: SUMOylation is a reversible post-translational modification attaching Small Ubiquitin-like Modifier proteins to lysine residues; it regulates autophagy effectors including ULK1, TFEB, and GABARAP, tuning their stability, localization, and activity.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:

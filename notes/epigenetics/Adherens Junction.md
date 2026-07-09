@@ -1,7 +1,6 @@
 ---
 title: Adherens Junction
 description: Specialized cell-cell adhesion complexes that link the membranes of adjacent cells to the actin cytoskeleton, maintaining tissue integrity and mediating critical signaling pathways.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:

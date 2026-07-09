@@ -2,7 +2,6 @@
 title: Stem Cell Research
 description: Stem Cell Research explores cells that self-renew and differentiate; transformed
   by the 2006 discovery of Yamanaka Factors enabling iPSCs from somatic cells.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:

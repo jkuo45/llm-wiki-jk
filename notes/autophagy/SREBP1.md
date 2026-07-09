@@ -3,7 +3,6 @@ title: SREBP1
 description: Sterol regulatory element binding protein 1 (SREBP1) is a master transcription
   factor for lipid and cholesterol homeostasis whose activity is positively regulated
   by mTORC1.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

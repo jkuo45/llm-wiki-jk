@@ -2,7 +2,6 @@
 title: Lymphoma
 description: Lymphoma is a cancer of the lymphatic system, which is part of the body's
   germ-fighting network.
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:

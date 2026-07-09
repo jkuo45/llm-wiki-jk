@@ -1,7 +1,6 @@
 ---
 title: Interferon-gamma
 description: Interferon-gamma (IFNγ) is a pro-inflammatory cytokine that plays a central role in innate and adaptive immunity, potently inducing IDO1 expression and activating macrophages.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

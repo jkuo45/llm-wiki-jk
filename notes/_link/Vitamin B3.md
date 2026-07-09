@@ -1,9 +1,8 @@
 ---
 title: Vitamin B3
-description: 'Vitamin B3 (niacin) encompasses Nicotinic acid and Nicotinamide
+description: Vitamin B3 (niacin) encompasses Nicotinic acid and Nicotinamide
   (niacinamide). It is the precursor to NAD+ and NADP+, making it essential for cellular
-  energy metabolism, DNA Repair, and Sirtuin...'
-type: entity
+  energy metabolism, DNA Repair, and Sirtuin...
 created: 2026-07-04
 updated: 2026-07-04
 tags:

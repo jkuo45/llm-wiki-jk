@@ -3,7 +3,6 @@ title: MMP-12
 description: Matrix metalloproteinase-12, a zinc-dependent endopeptidase primarily secreted
   by macrophages, with major roles in elastin degradation, ECM remodelling, inflammation
   resolution, and SASP-driven tissue ageing.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

@@ -1,7 +1,6 @@
 ---
 title: Glucose Oxidase
 description: Glucose oxidase (GOx) is an enzyme that generates extracellular H2O2 from glucose; its HT-22 neurotoxicity model is a direct oxidative-stress insult that methylene blue cannot protect against.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

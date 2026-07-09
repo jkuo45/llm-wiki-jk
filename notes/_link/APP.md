@@ -2,7 +2,6 @@
 title: APP
 description: Amyloid precursor protein, an integral membrane protein whose proteolysis
   by secretases generates Beta-amyloid.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:

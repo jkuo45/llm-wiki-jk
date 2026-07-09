@@ -1,7 +1,6 @@
 ---
 title: Gnathostomiasis
 description: Gnathostomiasis is a zoonotic helminthic infection caused by larval nematodes of the genus Gnathostoma, most commonly Gnathostoma spinigerum, acquired through ingestion of raw or undercooked freshwater intermediate hosts.
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:

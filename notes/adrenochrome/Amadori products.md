@@ -2,7 +2,6 @@
 title: Amadori products
 description: Amadori products are stable intermediate compounds formed during the
   early stages of Glycation.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

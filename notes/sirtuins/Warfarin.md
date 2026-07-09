@@ -1,9 +1,8 @@
 ---
 title: Warfarin
-description: 'Warfarin (brand name Coumadin) is an oral Anticoagulant that inhibits
+description: Warfarin (brand name Coumadin) is an oral Anticoagulant that inhibits
   vitamin K-dependent clotting factors (II, VII, IX, X). It is widely prescribed for
-  prevention of Thromboembolism in conditi...'
-type: entity
+  prevention of Thromboembolism in conditi...
 created: 2026-07-04
 updated: 2026-07-04
 tags:

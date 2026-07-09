@@ -1,7 +1,6 @@
 ---
 title: BAX
 description: BCL-2-associated X protein, a pro-apoptotic effector of the BCL-2 family that forms pores in the mitochondrial outer membrane; macropore activity drives mtDNA release and SASP in senescence.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

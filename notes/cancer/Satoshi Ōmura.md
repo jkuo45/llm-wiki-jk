@@ -1,7 +1,6 @@
 ---
 title: Satoshi Ōmura
 description: Satoshi Ōmura is a Japanese microbiologist and 2015 Nobel laureate who discovered avermectins (precursors of ivermectin) from Streptomyces, foundational compounds with repurposed anti-cancer investigation.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

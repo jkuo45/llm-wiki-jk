@@ -1,7 +1,6 @@
 ---
 title: CXCR2
 description: C-X-C chemokine receptor 2, the principal receptor for ELR+ CXC chemokines (CXCL1-3/5-8) that mediates neutrophil recruitment and reinforces paracrine senescence.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

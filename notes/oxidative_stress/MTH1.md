@@ -3,7 +3,6 @@ title: MTH1
 description: MTH1 (MutT Homolog 1, NUDT1) is a nucleotide pool sanitization enzyme
   that hydrolyzes oxidized purine nucleoside triphosphates — principally 8-oxo-dGTP
   and 2-OH-dATP — to their monophosphate forms,...
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

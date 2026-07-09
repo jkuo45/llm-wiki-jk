@@ -1,7 +1,6 @@
 ---
 title: CCL2
 description: C-C motif chemokine ligand 2 (MCP-1), a prototypical SASP chemokine that recruits monocytes and macrophages via CCR2.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

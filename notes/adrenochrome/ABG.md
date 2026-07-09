@@ -1,7 +1,6 @@
 ---
 title: ABG
 description: '- Arterial blood gas: The full name of the test.'
-type: entity
 created: 2026-07-04
 updated: 2026-07-06
 tags:

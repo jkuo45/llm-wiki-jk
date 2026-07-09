@@ -3,7 +3,6 @@ title: Phagocytic Lysosome Reformation
 description: Phagocytic Lysosome Reformation (PLR) is the process by which Lysosomes
   are reformed from phagolysosomes after the degradation of phagocytosed contents,
   involving regulators such as PIKfyve, TRPML1, and the amino acid transporter SLC-36.1.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:

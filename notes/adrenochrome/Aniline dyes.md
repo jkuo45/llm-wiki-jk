@@ -1,7 +1,6 @@
 ---
 title: Aniline dyes
 description: '- Methemoglobinemia: Associated with exposure to aniline-based chemicals.'
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

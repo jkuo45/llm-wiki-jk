@@ -1,7 +1,6 @@
 ---
 title: Slug
 description: Slug (SNAI2) is a zinc-finger transcription factor of the Snail family that drives Epithelial-to-Mesenchymal Transition by repressing E-cadherin and epithelial identity.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:

@@ -1,9 +1,8 @@
 ---
 title: Hydroxychloroquine
-description: 'Chemical properties: Hydroxychloroquine is a chemical substance
+description: 'Chemical properties: Hydroxychloroquine is a chemical substance'
   with defined molecular structure, functional groups, and physicochemical properties
-  that determine its biological activity.'
-type: entity
+  that determine its biological activity.
 created: 2026-07-04
 updated: 2026-07-04
 tags:

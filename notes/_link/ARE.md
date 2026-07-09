@@ -1,9 +1,8 @@
 ---
 title: ARE (Antioxidant Response Element)
-description: 'ARE (Antioxidant Response Element) is a cis-acting regulatory element
+description: ARE (Antioxidant Response Element) is a cis-acting regulatory element
   in the promoter regions of over 200 cytoprotective genes. It is the primary DNA
-  sequence through which NRF2 drives the expr...'
-type: entity
+  sequence through which NRF2 drives the expr...
 created: 2026-07-04
 updated: 2026-07-04
 tags:

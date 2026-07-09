@@ -1,9 +1,8 @@
 ---
 title: LIPL-1
-description: 'LIPL-1 is a lysosomal lipase in C. elegans that plays a critical
+description: LIPL-1 is a lysosomal lipase in C. elegans that plays a critical
   role in Lysosomal Lipolysis and Lipophagy. It is a functional orthologue of the
-  human Lysosomal Acid Lipase (LAL).'
-type: entity
+  human Lysosomal Acid Lipase (LAL).
 created: 2026-07-04
 updated: 2026-07-04
 tags:

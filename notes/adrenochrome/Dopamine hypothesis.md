@@ -3,7 +3,6 @@ title: Dopamine hypothesis
 description: The Dopamine hypothesis of Schizophrenia is a model that attributes
   the symptoms of schizophrenia to a disturbed and hyperactive dopaminergic signal
   transduction.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

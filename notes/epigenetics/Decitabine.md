@@ -1,7 +1,6 @@
 ---
 title: Decitabine
 description: Decitabine (5-aza-2''-deoxycytidine; trade name Dacogen) is a deoxyribose nucleoside analog that functions as a potent DNA Methyltransferase (DNMT) inhibitor.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:

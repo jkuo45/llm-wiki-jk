@@ -2,7 +2,6 @@
 title: Cathepsin B
 description: Cathepsin B is a cysteine protease localized to the Lysosome that contributes
   to intracellular proteolysis and cellular protein turnover.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

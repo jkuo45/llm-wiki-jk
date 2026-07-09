@@ -3,7 +3,6 @@ title: Alzheimer's Disease
 description: Alzheimer's disease is a chronic neurodegenerative disease that usually
   starts slowly and gradually worsens over time. Oxidative Stress is considered a
   pivotal factor in its pathogenesis, often inv...
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

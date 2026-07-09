@@ -1,7 +1,6 @@
 ---
 title: Lipid Peroxidation
 description: Lipid peroxidation is the free radical chain reaction in which radicals abstract hydrogen from polyunsaturated fatty acids in Cell Membranes, producing reactive aldehydes such as Malondialdehyde and a hallmark of Oxidative Stress.
-type: entity
 created: 2026-05-09
 updated: 2026-07-07
 tags:

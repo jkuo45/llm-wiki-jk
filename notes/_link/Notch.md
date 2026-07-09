@@ -1,7 +1,6 @@
 ---
 title: Notch
 description: Notch signaling pathway that gates the early-to-late SASP switch and establishes paracrine senescence.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

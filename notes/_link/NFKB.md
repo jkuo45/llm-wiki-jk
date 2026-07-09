@@ -3,7 +3,6 @@ title: NF-κB (Nuclear Factor Kappa B)
 description: NF-κB (Nuclear Factor kappa-light-chain-enhancer of activated B cells)
   is a highly conserved pleiotropic transcription factor family that serves as the
   central orchestrator of inflammatory signalin...
-type: entity
 created: 2026-07-03
 updated: 2026-07-03
 tags:

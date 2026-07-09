@@ -1,7 +1,6 @@
 ---
 title: TAK1
 description: TGFβ-activated kinase 1, a MAP3K that activates p38 MAPK and mTOR signaling to promote SASP.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

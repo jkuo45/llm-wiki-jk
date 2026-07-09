@@ -1,9 +1,8 @@
 ---
 title: Replicative Senescence
-description: 'Replicative Senescence (also termed the Hayflick limit) is the state
+description: Replicative Senescence (also termed the Hayflick limit) is the state
   of irreversible cell cycle arrest that normal somatic cells enter after a finite
-  number of divisions. First described by Leo...'
-type: entity
+  number of divisions. First described by Leo...
 created: 2024-01-01
 updated: 2024-07-04
 tags:

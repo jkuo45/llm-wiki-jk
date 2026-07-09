@@ -1,7 +1,6 @@
 ---
 title: miR-7
 description: miR-7 is a tumor-suppressive microRNA that targets EGFR and the PI3K/Akt axis, suppressing proliferation and promoting apoptosis in multiple carcinomas.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

@@ -2,7 +2,6 @@
 title: Arginine
 description: Arginine (L-arginine) is a basic amino acid involved in protein synthesis,
   urea cycle metabolism, and nitric oxide production.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

@@ -2,7 +2,6 @@
 title: Maillard Reaction
 description: The Maillard Reaction is a non-enzymatic chemical reaction between amino
   acids and reducing sugars that gives browned food its distinctive flavor.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

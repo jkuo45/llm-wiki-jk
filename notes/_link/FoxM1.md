@@ -1,8 +1,7 @@
 ---
 title: FoxM1
-description: 'Forkhead box protein M1 (FoxM1) is a transcription factor involved
-  in cell proliferation, cell cycle progression, and autophagy regulation.'
-type: entity
+description: Forkhead box protein M1 (FoxM1) is a transcription factor involved
+  in cell proliferation, cell cycle progression, and autophagy regulation.
 created: 2026-07-05
 updated: 2026-07-05
 tags:

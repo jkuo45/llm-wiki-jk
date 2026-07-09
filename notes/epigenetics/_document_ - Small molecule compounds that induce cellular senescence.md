@@ -4,7 +4,6 @@ description: To date, dozens of stress‐induced cellular senescence phenotypes 
   been reported. These cellular senescence states may differ substantially from each
   other, as well as from replicative senescence through the presence of specific senescence
   ...
-type: document
 created: 2026-06-13
 source: https://pmc.ncbi.nlm.nih.gov/articles/PMC6398529/
 author:

@@ -1,7 +1,6 @@
 ---
 title: Cohesin
 description: Cohesin is a multi-subunit SMC complex that mediates sister chromatid cohesion, DNA looping for transcriptional regulation, and homologous recombination repair.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:

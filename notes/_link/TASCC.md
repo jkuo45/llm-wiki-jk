@@ -1,7 +1,6 @@
 ---
 title: TASCC
 description: TOR-autophagy spatial coupling compartment, an mTORC1-autophagy signaling hub in senescent cells that couples amino-acid recycling to sustained SASP translation.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

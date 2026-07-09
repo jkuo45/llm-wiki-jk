@@ -1,7 +1,6 @@
 ---
 title: Rheumatoid synovial fluid
 description: The inflammatory exudate found in the joint cavities of individuals with rheumatoid arthritis, characterized by altered volume, cellularity, and biochemical composition.
-type: entity
 created: 2026-07-04
 updated: 2026-07-06
 tags:

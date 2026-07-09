@@ -1,7 +1,6 @@
 ---
 title: Catechols
-description: 'Catechols are ortho-dihydroxyphenyl compounds found across neurotransmitters, hormones, flavonoids, and drugs; they are primary substrates for COMT-mediated O-methylation, a major detoxification and inactivation pathway.'
-type: entity
+description: Catechols are ortho-dihydroxyphenyl compounds found across neurotransmitters, hormones, flavonoids, and drugs; they are primary substrates for COMT-mediated O-methylation, a major detoxification and inactivation pathway.
 created: 2026-05-25
 updated: 2026-07-07
 tags:

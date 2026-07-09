@@ -1,7 +1,6 @@
 ---
 title: JAK2
 description: Janus kinase 2 (JAK2) is a non-receptor tyrosine kinase that transduces cytokine receptor signals through STAT proteins, driving proliferation and survival; its dysregulation features in myeloproliferative neoplasms and solid tumors.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

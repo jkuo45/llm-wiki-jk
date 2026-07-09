@@ -1,7 +1,6 @@
 ---
 title: Alpha-Synuclein Aggregation
-description: 'Alpha-Synuclein Aggregation is the process by which soluble Alpha-synuclein monomers misfold and cluster together to form toxic oligomers and insoluble fibrils.'
-type: entity
+description: Alpha-Synuclein Aggregation is the process by which soluble Alpha-synuclein monomers misfold and cluster together to form toxic oligomers and insoluble fibrils.
 created: 2026-07-04
 updated: 2026-07-07
 tags:

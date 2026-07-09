@@ -1,7 +1,6 @@
 ---
 title: p70S6 kinase
 description: p70S6 kinase (S6K1) is an mTORC1-effector serine/threonine kinase that promotes growth and survival by phosphorylating S6 ribosomal protein and inactivating the pro-apoptotic Bad.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

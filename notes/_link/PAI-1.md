@@ -1,7 +1,6 @@
 ---
 title: PAI-1
 description: Plasminogen activator inhibitor-1 (SERPINE1), a key pro-fibrotic SASP factor and leading plasma senescence biomarker.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

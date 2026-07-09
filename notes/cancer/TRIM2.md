@@ -1,7 +1,6 @@
 ---
 title: TRIM2
 description: TRIM2 (tripartite motif-containing protein 2) is an E3 ubiquitin ligase that promotes ERK-dependent degradation of the pro-apoptotic protein Bim, conferring neuronal and potentially tumor-cell protection from apoptosis.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

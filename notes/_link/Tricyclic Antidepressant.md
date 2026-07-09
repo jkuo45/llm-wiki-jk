@@ -2,7 +2,6 @@
 title: Tricyclic Antidepressant
 description: Tricyclic antidepressants (TCAs) are an older antidepressant
   class with serotonergic and anticholinergic effects; dangerous with MAOIs.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

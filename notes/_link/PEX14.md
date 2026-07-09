@@ -3,7 +3,6 @@ title: PEX14
 description: PEX14 encodes an integral peroxisomal membrane protein that serves as the
   primary docking site for the PTS1 receptor (PEX5) and a critical component of the
   peroxisomal protein import machinery.
-type: entity
 created: 2026-07-04
 updated: 2026-07-06
 tags:

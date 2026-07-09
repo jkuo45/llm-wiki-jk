@@ -1,7 +1,6 @@
 ---
 title: TIMP3
-description: 'TIMP3 (Tissue Inhibitor of Metalloproteinases 3) is an endogenous secreted inhibitor of matrix metalloproteinases (MMPs) and members of the ADAM and ADAMTS families. Among the four TIMP family members, TIMP3 is unique in its tight association with the extracellular matrix (ECM).'
-type: entity
+description: TIMP3 (Tissue Inhibitor of Metalloproteinases 3) is an endogenous secreted inhibitor of matrix metalloproteinases (MMPs) and members of the ADAM and ADAMTS families. Among the four TIMP family members, TIMP3 is unique in its tight association with the extracellular matrix (ECM).
 created: 2026-07-04
 updated: 2026-07-07
 tags:

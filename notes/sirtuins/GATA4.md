@@ -3,7 +3,6 @@ title: GATA Binding Protein 4 (GATA4)
 description: GATA Binding Protein 4 (GATA4) is a zinc finger transcription factor
   belonging to the GATA family that recognizes the GATA motif (WGATAR) in gene promoters.
   It is essential for Cardiac Development,...
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:

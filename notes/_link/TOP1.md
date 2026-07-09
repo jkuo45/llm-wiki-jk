@@ -1,7 +1,6 @@
 ---
 title: TOP1
 description: Topoisomerase 1, whose trapped cleavage complexes (TOP1cc) license cGAS recognition of cytoplasmic chromatin fragments to trigger SASP via cGAS–STING.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

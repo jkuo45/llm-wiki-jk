@@ -2,7 +2,6 @@
 title: Sestrin2
 description: Sestrin2 is an amino acid sensor that inhibits mTORC1 activity by interacting
   with GATOR2 when leucine levels are low.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

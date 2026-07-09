@@ -3,7 +3,6 @@ title: Autophagic Flux
 description: Autophagic flux refers to the complete dynamic process of Autophagy,
   spanning from the formation of the Autophagosome to its fusion with the Lysosome
   and subsequent degradation of cargo.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:

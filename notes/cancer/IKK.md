@@ -1,7 +1,6 @@
 ---
 title: IKK
 description: IKK (IκB kinase) is the regulatory kinase complex of the NFκB pathway that also phosphorylates Bcl-2 family proteins such as Puma and Bad to modulate apoptotic function.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

@@ -1,7 +1,6 @@
 ---
 title: Mitochondria
 description: Double-membrane organelles that generate ATP via oxidative phosphorylation and regulate apoptosis, calcium, and redox signaling; their dysfunction is central to aging and is mitigated by mTOR inhibition.
-type: entity
 created: 2026-07-07
 updated: 2026-07-07
 tags:

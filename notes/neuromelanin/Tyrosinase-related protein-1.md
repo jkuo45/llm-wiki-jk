@@ -1,7 +1,6 @@
 ---
 title: Tyrosinase-related protein-1
 description: Tyrosinase-related protein-1 (TRP-1) is a melanosomal enzyme of the tyrosinase family involved in eumelanin biosynthesis; its putative CNS expression is investigated in relation to Neuromelanin synthesis and Parkinson's Disease.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:

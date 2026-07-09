@@ -1,7 +1,6 @@
 ---
 title: Aryl Hydrocarbon Receptor
 description: The aryl hydrocarbon receptor (AhR) is a ligand-activated transcription factor that senses environmental toxins and endogenous metabolites, including kynurenine, regulating immune responses, xenobiotic metabolism, and cell differentiation.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

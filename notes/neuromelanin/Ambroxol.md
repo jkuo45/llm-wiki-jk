@@ -1,7 +1,6 @@
 ---
 title: Ambroxol
-description: 'Ambroxol is a drug used to treat respiratory diseases involving excessive mucus; it is also a glucocerebrosidase chaperone investigated in Parkinson''s Disease.'
-type: entity
+description: Ambroxol is a drug used to treat respiratory diseases involving excessive mucus; it is also a glucocerebrosidase chaperone investigated in Parkinson''s Disease.
 created: 2026-07-04
 updated: 2026-07-07
 tags:

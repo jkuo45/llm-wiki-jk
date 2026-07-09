@@ -1,8 +1,7 @@
 ---
 title: Melatonin
-description: 'Melatonin is a hormone produced by the pineal gland that regulates
-  the sleep-wake cycle.'
-type: entity
+description: Melatonin is a hormone produced by the pineal gland that regulates
+  the sleep-wake cycle.
 created: 2026-05-29
 updated: 2026-05-29
 tags:

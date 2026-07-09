@@ -1,7 +1,6 @@
 ---
 title: CXCL14
 description: C-X-C motif chemokine ligand 14 (BRAK), a homeostatic chemokine of the early p53/p21/Rb-dependent SASP that recruits myeloid and NK cells for immunosurveillance.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

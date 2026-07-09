@@ -1,18 +1,17 @@
 ---
-title: "Methylene Blue - StatPearls"
-source: "https://www.ncbi.nlm.nih.gov/books/NBK557593/"
+title: Methylene Blue - StatPearls
+source: https://www.ncbi.nlm.nih.gov/books/NBK557593/
 author:
   - "[[Adam Ostrovsky]]"
   - "[[Muriam Afzal]]"
 published: 2026-01-02
 created: 2026-06-27
-description: "Methylene blue is a multifaceted therapeutic agent used across a wide range of clinical settings, with its well-established role being the Food and Drug Administration–approved treatment for acquired methemoglobinemia. The unique redox properties of methylene blue enable the restoration of functional hemoglobin and enhanced oxygen delivery, making it a critical intervention in toxicologic emergencies. Beyond this indication, methylene blue has demonstrated clinical utility in perioperative care, critical illness, and select neurologic and oncologic procedures, underscoring the importance of a thorough understanding of its mechanisms, benefits, and potential risks for clinicians across specialties."
+description: Methylene blue is a multifaceted therapeutic agent used across a wide range of clinical settings, with its well-established role being the Food and Drug Administration–approved treatment for acquired methemoglobinemia. The unique redox properties of methylene blue enable the restoration of functional hemoglobin and enhanced oxygen delivery, making it a critical intervention in toxicologic emergencies. Beyond this indication, methylene blue has demonstrated clinical utility in perioperative care, critical illness, and select neurologic and oncologic procedures, underscoring the importance of a thorough understanding of its mechanisms, benefits, and potential risks for clinicians across specialties.
 tags:
   - clippings
   - methylene-blue
   - methemoglobinemia
   - pharmacology
-type: document
 ---
 
 # Methylene Blue

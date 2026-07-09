@@ -1,7 +1,6 @@
 ---
 title: Adipogenesis
 description: Biological process of differentiation of mesenchymal preadipocytes into lipid-accumulating mature adipocytes.
-type: entity
 created: 2026-07-07
 updated: 2026-07-07
 tags: [biological-process, adipocyte, differentiation, metabolism]

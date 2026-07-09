@@ -1,9 +1,8 @@
 ---
 title: TNFα
-description: 'Tumor necrosis factor alpha (TNFα) is a pleiotropic pro-inflammatory
+description: Tumor necrosis factor alpha (TNFα) is a pleiotropic pro-inflammatory
   cytokine produced primarily by activated Macrophages, T Cells, and Natural Killer
-  Cells. It is a master regulator of the inf...'
-type: entity
+  Cells. It is a master regulator of the inf...
 created: 2026-07-04
 updated: 2026-07-06
 tags:

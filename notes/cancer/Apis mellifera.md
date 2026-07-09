@@ -1,7 +1,6 @@
 ---
 title: Apis mellifera
-description: 'Apis mellifera, the Western honey bee, is the source of Bee Venom and other apitherapy products investigated for anticancer activity.'
-type: entity
+description: Apis mellifera, the Western honey bee, is the source of Bee Venom and other apitherapy products investigated for anticancer activity.
 created: 2026-07-06
 updated: 2026-07-07
 tags:

@@ -1,7 +1,6 @@
 ---
 title: IKK complex
 description: The IκB kinase complex that phosphorylates IκB inhibitors to activate NF-κB signaling.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

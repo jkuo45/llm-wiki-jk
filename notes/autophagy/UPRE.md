@@ -3,7 +3,6 @@ title: UPRE
 description: The Unfolded Protein Response Element (UPRE) is a DNA sequence found
   in the promoters of target genes, including TFEB, where transcription factors like
   XBP1 bind to regulate expression.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

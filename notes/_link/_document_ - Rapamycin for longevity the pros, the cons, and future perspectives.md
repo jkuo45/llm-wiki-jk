@@ -1,17 +1,16 @@
 ---
-title: "Rapamycin for longevity: the pros, the cons, and future perspectives"
-source: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12226543/#B53"
+title: 'Rapamycin for longevity: the pros, the cons, and future perspectives'
+source: https://pmc.ncbi.nlm.nih.gov/articles/PMC12226543/#B53
 author:
   - "Kelley M Roark"
   - "II Philip H Iffland"
 published:
 created: 2026-07-07
-description: "Review summarizing the mTOR pathway, rapamycin's effects on aging and epilepsy, and the translational gaps, pitfalls, and ethical concerns of off-label rapamycin use for longevity. Contrasts robust efficacy in monogenic mTORopathies with inconsistent aging data."
+description: Review summarizing the mTOR pathway, rapamycin's effects on aging and epilepsy, and the translational gaps, pitfalls, and ethical concerns of off-label rapamycin use for longevity. Contrasts robust efficacy in monogenic mTORopathies with inconsistent aging data.
 tags:
   - clippings
   - rapamycin
   - longevity
-type: document
 ---
 
 Front. Aging, 2025 Jun 20;6:1628187. doi: [10.3389/fragi.2025.1628187](https://doi.org/10.3389/fragi.2025.1628187)

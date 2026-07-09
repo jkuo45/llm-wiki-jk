@@ -2,7 +2,6 @@
 title: Serotonin-Norepinephrine Reuptake Inhibitors
 description: Serotonin-norepinephrine reuptake inhibitors (SNRIs) are
   antidepressants raising synaptic serotonin and norepinephrine; dangerous with MAOIs.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

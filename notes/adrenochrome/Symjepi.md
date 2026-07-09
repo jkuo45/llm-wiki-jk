@@ -1,8 +1,7 @@
 ---
 title: Symjepi
-description: 'Symjepi is a pre-filled syringe containing Epinephrine used for
-  the emergency treatment of Anaphylaxis.'
-type: entity
+description: Symjepi is a pre-filled syringe containing Epinephrine used for
+  the emergency treatment of Anaphylaxis.
 created: 2026-07-04
 updated: 2026-07-04
 tags:

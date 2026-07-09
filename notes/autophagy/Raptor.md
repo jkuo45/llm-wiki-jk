@@ -3,7 +3,6 @@ title: Raptor
 description: Regulatory-associated protein of mTOR (Raptor) is an essential component
   of mTORC1 that functions as a scaffold for recruiting substrates and regulating
   the assembly and activity of the complex.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

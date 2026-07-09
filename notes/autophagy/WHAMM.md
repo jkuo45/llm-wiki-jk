@@ -1,7 +1,6 @@
 ---
 title: WHAMM
 description: WHAMM (WASP Homolog Associated with Actin, Membranes, and Microtubules) is a WASP-family nucleation-promoting factor that links Arp2/3 actin assembly to ER/Golgi and autolysosomal membranes, supporting autophagosome formation and autophagic lysosome reformation.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:

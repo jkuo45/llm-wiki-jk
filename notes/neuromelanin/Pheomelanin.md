@@ -1,7 +1,6 @@
 ---
 title: Pheomelanin
 description: Pheomelanin is a sulfur-containing, yellow-to-red melanin pigment that forms the proposed core of Neuromelanin granules and is associated with greater photochemical and redox reactivity than eumelanin.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:

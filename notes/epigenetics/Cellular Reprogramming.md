@@ -3,7 +3,6 @@ title: Cellular Reprogramming
 description: Cellular reprogramming resets a somatic cell's identity by extensive epigenetic
   remodeling, most famously generating iPSCs via Yamanaka Factors; partial reprogramming
   enables rejuvenation.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:

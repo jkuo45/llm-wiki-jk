@@ -2,7 +2,6 @@
 title: Renal Cell Carcinoma
 description: A kidney cancer that originates in the lining of the proximal convoluted
   tubule.
-type: entity
 created: 2024-01-01
 updated: 2024-01-01
 tags:

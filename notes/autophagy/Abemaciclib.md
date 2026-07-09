@@ -2,7 +2,6 @@
 title: Abemaciclib
 description: Abemaciclib (LY2835219) is a CDK4/CDK6 inhibitor that promotes TFEB activity
   by blocking its nuclear export, thereby enhancing lysosomal biogenesis.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

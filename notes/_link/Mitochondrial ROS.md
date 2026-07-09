@@ -1,9 +1,8 @@
 ---
 title: Mitochondrial ROS
-description: 'Mitochondrial ROS (mtROS) are Reactive Oxygen Species generated
+description: Mitochondrial ROS (mtROS) are Reactive Oxygen Species generated
   primarily at Complex I and Complex III of the Mitochondria electron transport chain.
-  They are a major source of cellular Oxidativ...'
-type: entity
+  They are a major source of cellular Oxidativ...
 created: 2026-07-04
 updated: 2026-07-04
 tags:

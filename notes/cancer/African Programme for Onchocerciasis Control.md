@@ -1,7 +1,6 @@
 ---
 title: African Programme for Onchocerciasis Control
 description: The African Programme for Onchocerciasis Control (APOC) was an international programme that aimed to eliminate Onchocerciasis as a public health problem in Africa.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

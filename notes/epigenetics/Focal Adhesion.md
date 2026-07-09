@@ -1,7 +1,6 @@
 ---
 title: Focal Adhesion
-description: 'Focal adhesions are large macromolecular assemblies through which mechanical force and regulatory signals are transmitted between the Extracellular Matrix (ECM) and the cytoskeleton, organizing adhesion, mechanosensing, and migration.'
-type: entity
+description: Focal adhesions are large macromolecular assemblies through which mechanical force and regulatory signals are transmitted between the Extracellular Matrix (ECM) and the cytoskeleton, organizing adhesion, mechanosensing, and migration.
 created: 2024-01-01
 updated: 2026-07-06
 tags:

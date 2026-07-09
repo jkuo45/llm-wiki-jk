@@ -1,7 +1,6 @@
 ---
 title: Docetaxel
 description: Docetaxel is a semisynthetic taxane chemotherapy that stabilizes microtubules, arrests cells in mitosis, and induces apoptosis; it shows synergy with agents like melittin against aggressive breast cancers.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

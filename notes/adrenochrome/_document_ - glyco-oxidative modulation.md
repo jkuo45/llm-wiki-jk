@@ -1,7 +1,6 @@
 ---
 title: Google AI Studio
 description: The fastest path from prompt to production with Gemini
-type: document
 created: 2026-06-12
 source: https://aistudio.google.com/u/0/prompts/1MyzjFK-JfaKQO3zMMs8vsHWtSkuDav5N
 tags:

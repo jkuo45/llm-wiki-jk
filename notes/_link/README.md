@@ -1,5 +1,4 @@
 ---
-type: index
 title: _Link notes
 aliases: []
 description: Index of wiki notes for _link

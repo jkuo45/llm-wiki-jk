@@ -1,7 +1,6 @@
 ---
 title: Cysteine
 description: Cysteine is a semi-essential proteinogenic amino acid with a reactive thiol group, serving as the rate-limiting precursor for glutathione synthesis.
-type: entity
 created: 2026-07-04
 updated: 2026-07-06
 tags:

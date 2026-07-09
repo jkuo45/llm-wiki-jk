@@ -1,7 +1,6 @@
 ---
 title: Medulla Oblongata
 description: The Medulla Oblongata is the lower part of the brainstem that connects the spinal cord to the Pons and midbrain. It houses the Dorsal Motor Nucleus of the Vagus, which contains neuromelanin-pigmented neurons that degenerate early in Parkinson's Disease.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:

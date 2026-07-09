@@ -3,7 +3,6 @@ title: Mitochondrial Biogenesis
 description: Mitochondrial Biogenesis is the process by which cells increase mitochondrial
   mass and copy number, driven by PGC-1α, NRF1, and TFEB transcription factors. It
   is a central adaptive response to Exer...
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:

@@ -2,7 +2,6 @@
 title: FNIP1
 description: Folliculin-interacting protein 1, which works with Folliculin and FNIP2
   to regulate mTORC1 and the intracellular localization of TFE3.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:

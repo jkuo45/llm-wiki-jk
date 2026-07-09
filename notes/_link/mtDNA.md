@@ -2,7 +2,6 @@
 title: mtDNA
 description: Mitochondrial DNA that can be released into the cytosol to activate
   innate immune signaling via cGAS-STING, acting as a DAMP in senescence and aging.
-type: entity
 created: 2026-07-07
 updated: 2026-07-08
 tags:

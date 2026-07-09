@@ -1,7 +1,6 @@
 ---
 title: Redox Potential
 description: Redox potential (E1/2) quantifies a compound's tendency to accept or donate electrons; the negative redox potentials of methylene blue and toluidine blue O correlate with their mitochondrial electron-carrier and oxygen-consumption enhancement.
-type: entity
 created: 2026-07-08
 updated: 2026-07-08
 tags:

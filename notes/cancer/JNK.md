@@ -1,7 +1,6 @@
 ---
 title: JNK
 description: c-Jun N-terminal kinase (JNK) is a stress-activated MAPK that regulates Apoptosis, proliferation, and inflammation by phosphorylating c-Jun, Bim, Mcl-1, and other substrates; its role in cancer is context-dependent.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:

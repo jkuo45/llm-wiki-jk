@@ -3,7 +3,6 @@ title: Lymphocyte
 description: A Lymphocyte is a type of white blood cell of the adaptive immune system
   in jawed vertebrates, comprising T cells, B cells, and natural killer (NK) cells.
   Many reside in Quiescence until activated by antigen.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:

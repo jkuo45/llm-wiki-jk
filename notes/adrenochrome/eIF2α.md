@@ -1,9 +1,8 @@
 ---
 title: eIF2α
-description: 'eIF2α (eukaryotic translation initiation factor 2 subunit alpha)
+description: eIF2α (eukaryotic translation initiation factor 2 subunit alpha)
   is a key regulatory hub of the Integrated Stress Response (ISR). Its phosphorylation
-  at Ser51 by stress-activated kinases attenu...'
-type: entity
+  at Ser51 by stress-activated kinases attenu...
 created: 2026-07-04
 updated: 2026-07-04
 tags:

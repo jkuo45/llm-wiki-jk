@@ -3,7 +3,6 @@ title: cAMP (Cyclic Adenosine Monophosphate)
 description: Cyclic Adenosine Monophosphate (cAMP) is a vital hydrophilic intracellular
   second messenger that plays a central role in transducing extracellular signals
   (such as hormones and neurotransmitters) i...
-type: entity
 created: 2026-07-03
 updated: 2026-07-06
 tags:
