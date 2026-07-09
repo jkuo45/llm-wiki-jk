@@ -91,7 +91,7 @@ List of documents that mention this entity
   - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
     - It does so not by keeping animals in a unhealthy state for a longer time, but by actually retarding age-related deterioration, such as by decreased collagen elasticity, development of insulin resistance, a decline in immune function, neuro-behavioural impai...
 
-  - [[_document_ - Cellular senescence and senescence‐associated secretory phenotype via the cGAS‐STING signaling pathway in cancer|Cellular senescence and SASP via cGAS-STING in cancer]]
+  - [[_document_ - Cellular senescence and senescence‐associated secretory phenotype via the cGAS_STING signaling pathway in cancer|Cellular senescence and SASP via cGAS-STING in cancer]]
     - Reviews the dual role of senescence in cancer: tumor suppression through cell cycle arrest and immune surveillance vs. tumor promotion through chronic SASP-driven inflammation. The cGAS-STING pathway is identified as a key regulator of SASP in the cancer microenvironment, with focus on obesity-associated HCC and KRAS-LKB1 mutant lung cancer.
 
 

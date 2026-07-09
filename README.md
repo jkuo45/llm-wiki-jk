@@ -1,10 +1,12 @@
 # llm-wiki-jk
 
 <!-- GENERATED: summary_table -->
+
 ## Summary Table
+
 | topic                                                                                  | updated     | documents | entities |     words     |     disk     | wiki                                    |
 | :------------------------------------------------------------------------------------- | :---------- | :-------: | :------: | :-----------: | :----------: | :-------------------------------------- |
-| [_link](https://github.com/jkuo45/llm-wiki/tree/dev/notes/_link)                       | 09_JUL_2026 |    17     |   954    |    529,658    |   4.30 MB    | [[notes/_link/README\|link]]            |
+| [\_link](https://github.com/jkuo45/llm-wiki/tree/dev/notes/_link)                      | 09_JUL_2026 |    17     |   954    |    529,658    |   4.30 MB    | [[notes/_link/README\|link]]            |
 | [adrenochrome](https://github.com/jkuo45/llm-wiki/tree/dev/notes/adrenochrome)         | 09_JUL_2026 |    19     |   253    |    189,314    |   1.95 MB    | [[notes/adrenochrome/README\|link]]     |
 | [autophagy](https://github.com/jkuo45/llm-wiki/tree/dev/notes/autophagy)               | 09_JUL_2026 |    11     |   235    |    158,146    |   1.45 MB    | [[notes/autophagy/README\|link]]        |
 | [cancer](https://github.com/jkuo45/llm-wiki/tree/dev/notes/cancer)                     | 09_JUL_2026 |     9     |   261    |    225,313    |   2.11 MB    | [[notes/cancer/README\|link]]           |
@@ -14,6 +16,7 @@
 | [oxidative_stress](https://github.com/jkuo45/llm-wiki/tree/dev/notes/oxidative_stress) | 09_JUL_2026 |     1     |    65    |    69,196     |   0.96 MB    | [[notes/oxidative_stress/README\|link]] |
 | [sirtuins](https://github.com/jkuo45/llm-wiki/tree/dev/notes/sirtuins)                 | 09_JUL_2026 |     7     |   107    |    177,403    |   1.58 MB    | [[notes/sirtuins/README\|link]]         |
 | **subtotal**                                                                           | 09_JUL_2026 |  **78**   | **2189** | **1,641,306** | **18.59 MB** |                                         |
+
 <!-- END GENERATED: summary_table -->
 
 _\*notes directory only_\*
@@ -72,21 +75,18 @@ _\*notes directory only_\*
 
 ---
 
-> [!NOTE]
-> Documents are sorted by date modified
-> 
-> `topic`: `short description` (`date modified`)
- 
-
-Currently Reading
-[[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP - physiological and pathological]]
-
+> [!NOTE] Currently Reading
+> - [SASP - physiological and pathological](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/_document_%20-%20The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications.md) [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|wiki]]
+> - [SASP - epigenetic landscape](https://github.com/jkuo45/llm-wiki/blob/dev/notes/epigenetics/_document_%20-%20The%20role%20of%20the%20dynamic%20epigenetic%20landscape%20in%20senescence_orchestrating%20-%20SASP%20expression.md) [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression|wiki]]
+> - [SASP - cGAS-STING in cancer](https://github.com/jkuo45/llm-wiki/blob/dev/notes/cancer/_document_%20-%20Cellular%20senescence%20and%20senescence_associated%20secretory%20phenotype%20via%20the%20cGAS_STING%20signaling%20pathway%20in%20cancer.md) [[_document_ - Cellular senescence and senescence‐associated secretory phenotype via the cGAS_STING signaling pathway in cancer|wiki]]
+>
 
 <!-- GENERATED: document_list -->
+
 ## Documents (78 total)
 
 - `epigenetics`: [The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression](https://github.com/jkuo45/llm-wiki/blob/dev/notes/epigenetics/_document_%20-%20The%20role%20of%20the%20dynamic%20epigenetic%20landscape%20in%20senescence_orchestrating%20SASP%20expression.md) [[notes/epigenetics/_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md|wiki]] (09_JUL_2026 02:43 PM PDT)
-- `cancer`: [Cellular senescence and senescence‐associated secretory phenotype via the cGAS‐STING signaling pa...](https://github.com/jkuo45/llm-wiki/blob/dev/notes/cancer/_document_%20-%20Cellular%20senescence%20and%20senescence%E2%80%90associated%20secretory%20phenotype%20via%20the%20cGAS%E2%80%90STING%20signaling%20pathway%20in%20cancer.md) [[notes/cancer/_document_ - Cellular senescence and senescence‐associated secretory phenotype via the cGAS‐STING signaling pathway in cancer.md|wiki]] (09_JUL_2026 01:40 PM PDT)
+- `cancer`: [Cellular senescence and senescence‐associated secretory phenotype via the cGAS‐STING signaling pa...](https://github.com/jkuo45/llm-wiki/blob/dev/notes/cancer/_document_%20-%20Cellular%20senescence%20and%20senescence%E2%80%90associated%20secretory%20phenotype%20via%20the%20cGAS%E2%80%90STING%20signaling%20pathway%20in%20cancer.md) [[_document_ - Cellular senescence and senescence‐associated secretory phenotype via the cGAS_STING signaling pathway in cancer|wiki]] (09_JUL_2026 01:40 PM PDT)
 - `sirtuins`: [centenarian_sirt_6 nihpp-rs9997679v1](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/_document_%20-%20centenarian_sirt_6%20nihpp-rs9997679v1.md) [[notes/sirtuins/_document_ - centenarian_sirt_6 nihpp-rs9997679v1.md|wiki]] (09_JUL_2026 01:03 PM PDT)
 - `_link`: [Mitohormesis - 2014_FEB](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/_document_%20-%20Mitohormesis%20-%202014_FEB.md) [[notes/_link/_document_ - Mitohormesis - 2014_FEB.md|wiki]] (09_JUL_2026 03:47 AM PDT)
 - `_link`: [Mitohormesis - 2023_NOV](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/_document_%20-%20Mitohormesis%20-%202023_NOV.md) [[notes/_link/_document_ - Mitohormesis - 2023_NOV.md|wiki]] (09_JUL_2026 03:47 AM PDT)
@@ -101,7 +101,7 @@ Currently Reading
 - `_link`: [Fisetin is a senotherapeutic that extends health and lifespan](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/_document_%20-%20Fisetin%20is%20a%20senotherapeutic%20that%20extends%20health%20and%20lifespan.md) [[notes/_link/_document_ - Fisetin is a senotherapeutic that extends health and lifespan.md|wiki]] (09_JUL_2026 03:04 AM PDT)
 - `_link`: [Fisetin—In Search of Better Bioavailability—From Macro to Nano Modifications A Review](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/_document_%20-%20Fisetin%E2%80%94In%20Search%20of%20Better%20Bioavailability%E2%80%94From%20Macro%20to%20Nano%20Modifications%20A%20Review.md) [[notes/_link/_document_ - Fisetin—In Search of Better Bioavailability—From Macro to Nano Modifications A Review.md|wiki]] (09_JUL_2026 03:04 AM PDT)
 - `adrenochrome`: [Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Know...](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20Pharmacological%20Effects%20of%20Urolithin%20A%20and%20Its%20Role%20in%20Muscle%20Health%20and%20Performance%20Current%20Knowledge%20and%20Prospects.md) [[notes/adrenochrome/_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects.md|wiki]] (08_JUL_2026 10:45 PM PDT)
-- `_link`: [Aminoguanidine An AGE Product Inhibitor  Antiaging Systems Articles](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/_document_%20-%20Aminoguanidine%20An%20AGE%20Product%20Inhibitor%20%20Antiaging%20Systems%20Articles.md) [[notes/_link/_document_ - Aminoguanidine An AGE Product Inhibitor  Antiaging Systems Articles.md|wiki]] (08_JUL_2026 09:35 PM PDT)
+- `_link`: [Aminoguanidine An AGE Product Inhibitor Antiaging Systems Articles](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/_document_%20-%20Aminoguanidine%20An%20AGE%20Product%20Inhibitor%20%20Antiaging%20Systems%20Articles.md) [[notes/_link/_document_ - Aminoguanidine An AGE Product Inhibitor  Antiaging Systems Articles.md|wiki]] (08_JUL_2026 09:35 PM PDT)
 - `_link`: [Creatine in Health and Disease](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/_document_%20-%20Creatine%20in%20Health%20and%20Disease.md) [[notes/_link/_document_ - Creatine in Health and Disease.md|wiki]] (08_JUL_2026 09:35 PM PDT)
 - `_link`: [IDO01, NAD+, KP Pathway, grok](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/_document_%20-%20IDO01%2C%20NAD%2B%2C%20KP%20Pathway%2C%20grok.md) [[notes/_link/_document_ - IDO01, NAD+, KP Pathway, grok.md|wiki]] (08_JUL_2026 09:35 PM PDT)
 - `_link`: [Methylene Blue - StatPearls](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/_document_%20-%20Methylene%20Blue%20-%20StatPearls.md) [[notes/_link/_document_ - Methylene Blue - StatPearls.md|wiki]] (08_JUL_2026 09:35 PM PDT)

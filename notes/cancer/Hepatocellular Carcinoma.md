@@ -62,7 +62,7 @@ The cGAS-STING pathway represents a potential therapeutic target for HCC:
 
 List of documents that mention this entity
 
-  - [[_document_ - Cellular senescence and senescence‐associated secretory phenotype via the cGAS‐STING signaling pathway in cancer|Cellular senescence and SASP via cGAS-STING in cancer]]
+  - [[_document_ - Cellular senescence and senescence‐associated secretory phenotype via the cGAS_STING signaling pathway in cancer|Cellular senescence and SASP via cGAS-STING in cancer]]
     - Reviews the obesity-associated HCC model where senescent HSC produce SASP factors (IL-1β, COX-2/PGE2) via the cGAS-STING pathway, driven by gut microbiota-derived deoxycholic acid. Discusses the dual role of SASP in immune surveillance vs. chronic inflammation-driven tumor promotion.
 
   - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]

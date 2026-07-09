@@ -59,7 +59,7 @@ CCF burden correlates with senescence and [[Inflammaging|age-related inflammatio
 
 List of documents that mention this entity
 
-  - [[_document_ - Cellular senescence and senescence‐associated secretory phenotype via the cGAS‐STING signaling pathway in cancer|Cellular senescence and SASP via cGAS-STING in cancer]]
+  - [[_document_ - Cellular senescence and senescence‐associated secretory phenotype via the cGAS_STING signaling pathway in cancer|Cellular senescence and SASP via cGAS-STING in cancer]]
     - Discusses CCF formation following Lamin B1 downregulation as the source of cytosolic DNA activating cGAS-STING in senescent cells, linking nuclear envelope collapse to SASP-driven inflammation in the cancer microenvironment.
 
   - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]]

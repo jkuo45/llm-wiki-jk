@@ -60,7 +60,7 @@ In senescent HSC, [[Cytoplasmic Chromatin Fragments|cytoplasmic DNA]] accumulate
 
 List of documents that mention this entity
 
-  - [[_document_ - Cellular senescence and senescence‐associated secretory phenotype via the cGAS‐STING signaling pathway in cancer|Cellular senescence and SASP via cGAS-STING in cancer]]
+  - [[_document_ - Cellular senescence and senescence‐associated secretory phenotype via the cGAS_STING signaling pathway in cancer|Cellular senescence and SASP via cGAS-STING in cancer]]
     - Senescent HSC are central to the obesity-associated HCC model described in this review, secreting SASP factors via cGAS-STING signaling in response to gut microbiota-derived deoxycholic acid.
 
 ## Connections

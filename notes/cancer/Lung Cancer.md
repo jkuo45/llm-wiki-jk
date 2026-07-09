@@ -62,7 +62,7 @@ List of documents that mention this entity
   - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
     - downregulated cleaved Caspase-3 levels in Lung Cancer cells. In contrast, several studies have found that SIRT3 has an anti-apoptotic effect.
 
-  - [[_document_ - Cellular senescence and senescence‐associated secretory phenotype via the cGAS‐STING signaling pathway in cancer|Cellular senescence and SASP via cGAS-STING in cancer]]
+  - [[_document_ - Cellular senescence and senescence‐associated secretory phenotype via the cGAS_STING signaling pathway in cancer|Cellular senescence and SASP via cGAS-STING in cancer]]
     - Discusses STING silencing in KRAS-LKB1 mutant lung cancer as an immune evasion mechanism that bypasses SASP-dependent senescence surveillance, preventing response to immune checkpoint blockade.
 
 ## Connections

@@ -52,7 +52,7 @@ The resulting persistent [[DNA Damage]] signaling triggers HSC senescence, chara
 
 List of documents that mention this entity
 
-  - [[_document_ - Cellular senescence and senescence‐associated secretory phenotype via the cGAS‐STING signaling pathway in cancer|Cellular senescence and SASP via cGAS-STING in cancer]]
+  - [[_document_ - Cellular senescence and senescence‐associated secretory phenotype via the cGAS_STING signaling pathway in cancer|Cellular senescence and SASP via cGAS-STING in cancer]]
     - DCA is identified as the gut bacterial metabolite that induces HSC senescence and SASP production in the obesity-associated HCC model, connecting gut dysbiosis to liver cancer through senescence.
 
 ## Connections

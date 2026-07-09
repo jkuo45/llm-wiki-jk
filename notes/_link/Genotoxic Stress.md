@@ -66,7 +66,7 @@ Persistent genotoxic stress is a hallmark of senescent cells. The unresolved DDR
 
 List of documents that mention this entity
 
-  - [[_document_ - Cellular senescence and senescence‐associated secretory phenotype via the cGAS‐STING signaling pathway in cancer|Cellular senescence and SASP via cGAS-STING in cancer]]
+  - [[_document_ - Cellular senescence and senescence‐associated secretory phenotype via the cGAS_STING signaling pathway in cancer|Cellular senescence and SASP via cGAS-STING in cancer]]
     - Genotoxic stress from chemotherapeutic drugs, radiation, and ROS triggers senescence and SASP through persistent DNA damage signaling and cGAS-STING pathway activation in the cancer microenvironment.
 
 ## Connections

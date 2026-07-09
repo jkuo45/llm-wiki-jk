@@ -51,7 +51,7 @@ Altered HMGB2 expression is observed across multiple malignancies, including hep
 ## Documents
 
 - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]] — HMGB2 depletion in RS shifts heterochromatin and raises SASP; in OIS, chromatin-bound HMGB2 protects SASP loci from heterochromatinization and SAHF sequestration.
-- [[_document_ - Cellular senescence and senescence‐associated secretory phenotype via the cGAS‐STING signaling pathway in cancer|Cellular senescence and SASP via cGAS-STING in cancer]] — HMGB2 loss from chromatin in senescent cells is implicated in SASP gene derepression and heterochromatin destabilization.
+- [[_document_ - Cellular senescence and senescence‐associated secretory phenotype via the cGAS_STING signaling pathway in cancer|Cellular senescence and SASP via cGAS-STING in cancer]] — HMGB2 loss from chromatin in senescent cells is implicated in SASP gene derepression and heterochromatin destabilization.
 
 ## Connections
 
