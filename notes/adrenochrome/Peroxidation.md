@@ -1,11 +1,10 @@
 ---
 title: Peroxidation
 description: The oxidative degradation of lipids, or the formation of peroxides.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Chemical Process
+  - chemical-process
 aliases: []
 ---
 # Peroxidation
@@ -13,6 +12,17 @@ aliases: []
 The oxidative degradation of lipids, or the formation of peroxides.
 
 #
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Dietary Advanced Glycation End Products and Aging|Dietary Advanced Glycation End Products and Aging]]
+    - For instance, the Autoxidation of glucose and the Peroxidation of lipids into Dicarbonyls derivatives by an increase in oxidative stress is another pathway described for the formation of AGEs \[\].
+
+  - [[_document_ - neutrophil and erthrocyte|neutrophil and erthrocyte]]
+    - Relevant Scientific Findings - Limited formation/oxidation in blood: Epinephrine can be oxidized to Adrenochrome in blood, and Hemoglobin (abundant in Erythrocytes) can catalyze this Peroxidation/oxidation process.
+
 
 ## Connections
 - [[Hemoglobin]]: Can catalyze the peroxidation/oxidation of [[Epinephrine|adrenaline]] to [[Adrenochrome]] in blood.

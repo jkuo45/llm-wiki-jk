@@ -1,20 +1,14 @@
 ---
 title: GATA5
-description: 'GATA5 (GATA Binding Protein 5) is a member of the GATA family of
+description: GATA5 (GATA Binding Protein 5) is a member of the GATA family of
   zinc-finger transcription factors (GATA1–6) that bind the consensus motif (A/T)GATA(A/G).
-  GATA5 is expressed predominantly in th...'
-type: entity
+  GATA5 is expressed predominantly in th...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [GATA5, GATA Binding Protein 5, GATA transcription factor 5]
-
-sources:
-- Wang 2020
-- Liu 2021
-target: SIRT6
-
+source: Wang 2020, Liu 2021
 ---
 
 
@@ -33,6 +27,14 @@ GATA5 is essential for cardiac morphogenesis and valvulogenesis. It cooperates w
 ## Clinical Relevance
 
 GATA5 is a risk locus for coronary artery disease and bicuspid aortic valve. SIRT6 activation to maintain GATA5 levels represents a strategy to counter endothelial injury and cardiovascular disease progression.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Moreover, SIRT6 induced the expression of GATA binding protein 5 (GATA5) through inhibition of Nkx3.2 transcription by deacetylating histone Histone H3, thereby regulating GATA5-mediated signaling pathways to prevent endothelial injury.
+
 
 ## Connections
 

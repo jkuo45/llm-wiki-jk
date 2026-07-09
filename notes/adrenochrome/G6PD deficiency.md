@@ -1,17 +1,24 @@
 ---
 title: G6PD deficiency
-description: '- Methylene blue: Use is contraindicated or requires caution in G6PD
-  deficient patients.'
-type: entity
+description: '- Methylene blue: Use is contraindicated or requires caution in G6PD'
+  deficient patients.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: []
 ---
 # G6PD deficiency
 
 [[G6PD deficiency]] (Glucose-6-phosphate dehydrogenase deficiency) is a genetic disorder that affects the ability of [[Erythrocytes]] to handle oxidative stress. Individuals with this deficiency are at higher risk of [[Hemolysis]] when exposed to certain triggers, including [[Methylene blue]] and some oxidizing agents.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Methemoglobin and Methemoglobinemia|Methemoglobin and Methemoglobinemia]]
+    - Avoid or use cautiously in G6PD deficiency (risk of Hemolysis). 4.
+
 
 ## Connections
 - [[Methylene blue]]: Use is contraindicated or requires caution in G6PD deficient patients.

@@ -3,11 +3,10 @@ title: Glutamate Dehydrogenase (GDH)
 description: Glutamate Dehydrogenase (GDH) is a mitochondrial enzyme that plays a
   critical role in amino acid metabolism, cellular energy homeostasis, and insulin
   secretion. It catalyzes the reversible oxidativ...
-type: entity
 created: 2026-07-03
 updated: 2026-07-07
 tags:
-  - Enzyme
+  - enzyme
 aliases:
   - GDH
   - Glutamate Dehydrogenase
@@ -41,6 +40,23 @@ In mouse models, deletion of the *Sirt4* gene leads to hyper-activation of GDH i
 ## Neurological Relevance
 
 Given that glutamate is the primary excitatory neurotransmitter in the central nervous system, GDH is crucial in the brain. It regulates synaptic glutamate levels, preventing excitotoxicity. The regulation of GDH by mitochondrial sirtuins like SIRT4 could play a role in modulating synaptic transmission or neuroprotection after ischemic injury. Mutations in *GLUD1* cause hyperinsulinism/hyperammonemia syndrome, illustrating the clinical impact of deregulated GDH.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins (overview, CD38 KO risks, cancer therapies)|sirtuins (overview, CD38 KO risks, cancer therapies)]]
+    - Inhibits Glutamate Dehydrogenase (GDH). Significance: More inhibitory role in Metabolism compared to SIRT3; involved in nutrient sensing.
+
+  - [[_document_ - sirtuins (resveratrol), gemini|sirtuins (resveratrol), gemini]]
+    - It primarily acts to ADP-ribosylate and inhibit Glutamate Dehydrogenase (GDH), opposing SIRT3 by downregulating insulin secretion and amino acid-stimulated metabolism.
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - The enzyme Glutamate Dehydrogenase (GDH) (glutamate dehydrogenase) regulates glutamate and glutamine metabolism, promotes ATP synthesis and enhances insulin secretion.
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - SIRT4 has ADP-ribose transferase activity and can down-regulate Glutamate Dehydrogenase (GDH) activity in β cells, thereby reducing insulin secretion response.
+
 
 ## Connections
 

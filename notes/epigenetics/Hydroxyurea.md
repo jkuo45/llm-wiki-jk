@@ -1,11 +1,10 @@
 ---
 title: Hydroxyurea
 description: Hydroxyurea is a small molecule inhibitor of ribonucleotide reductase used as an antineoplastic and immunosuppressive agent.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: []
 ---
 
@@ -39,6 +38,14 @@ Common side effects of hydroxyurea include:
 - **Gastrointestinal effects**: Nausea, vomiting, and diarrhea.
 - **Dermatological effects**: Skin irritation or rashes.
 - **Long-term use**: Potential for secondary malignancies, though this is less common than with other alkylating agents.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - These chemical compounds can be functionally classified into eight groups: (1) DNA Replication Stress inducers (Aphidicolin, Hydroxyurea, Thymidine, Bromodeoxyuridine, Gemcitabine, Cyclopentenyl cytosine);
+
 
 ## Connections
 

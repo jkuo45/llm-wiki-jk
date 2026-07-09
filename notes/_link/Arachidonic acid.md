@@ -1,13 +1,12 @@
 ---
 title: Arachidonic acid
-description: 'Biochemical properties: Arachidonic acid is an endogenous metabolite
+description: 'Biochemical properties: Arachidonic acid is an endogenous metabolite'
   involved in cellular energy metabolism, redox reactions, or biosynthetic pathways.
-  Its cellular concentration reflects metab...'
-type: entity
+  Its cellular concentration reflects metab...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Metabolite
+  - biological-molecule
 aliases: [AA]
 
 ---
@@ -29,5 +28,5 @@ aliases: [AA]
 
 ## Linking Summary
 - New links added: [[Arachidonic acid]]
-- Strong connections to strengthen: [[Arachidonic acid]] ↔ [[Arachidonic acid]]
+  - Strong connections to strengthen: Arachidonic acid ↔ Arachidonic acid
 

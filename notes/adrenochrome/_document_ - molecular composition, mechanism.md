@@ -2,7 +2,6 @@
 title: Grok
 description: Grok is a free AI assistant designed by xAI to maximize truth and objectivity.
   Grok offers real-time search, image generation, trend analysis, and more.
-type: document
 created: 2026-04-28
 source: https://x.com/i/grok?conversation=2049208684165939646
 tags:

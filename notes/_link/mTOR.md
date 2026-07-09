@@ -1,13 +1,12 @@
 ---
 title: mTOR
-description: 'mTOR (Mechanistic Target of Rapamycin) is a protein kinase that
+description: mTOR (Mechanistic Target of Rapamycin) is a protein kinase that
   serves as a central ''master regulator'' of cellular metabolism. It integrates signals
-  from nutrients, growth factors, and energy s...'
-type: entity
+  from nutrients, growth factors, and energy s...
 created: 2026-05-31
 updated: 2026-05-31
 tags:
-  - Protein
+  - protein
 aliases: []
 ---
 
@@ -37,7 +36,67 @@ Chronic mTOR activation contributes to:
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Autophagy and intermittent fasting the connection for cancer therapy?|Autophagy and intermittent fasting the connection for cancer therapy?]]
+    - Each stage is controlled by different protein complexes regulated by the activation or inactivation of several stress-responsive pathways, such as those involving mTOR (mTOR—nutrient), AMPK (AMPK—energy) and HIF1A (HIFs—stress),.
+
+  - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
+    - The core process of autophagy is instigated by inhibition of mTORC1 (mTORC1) and/or activation of AMPK (AMPK), both of which are canonical inducers of autophagy in response to metabolic stress.
+
+  - [[_document_ - Lysosome biogenesis Regulation and functions|Lysosome biogenesis Regulation and functions]]
+    - PIKfyve, TRPML1, and mechanistic target of rapamycin (mTOR) also regulate phagosome and entotic vacuole shrinkage (Krajcovic et al., 2013; Krishna et al., 2016), which suggests that these factors are generally required for lysosome regeneration. !Figure 2.
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - Keywords: Autophagy, Lysosome, mTOR, TFE3, TFEB, stress INTRODUCTION Lysosome are the primary degradative compartment in all cells. Discovered in the early fifties by Christian De Duve, Lysosome are membrane-bou
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - Atg, autophagy-related protein; mTOR, mammalian target of rapamycin. In this review article, we aimed to highlight the possible effects of prolonged and short-term calorie deprivation on autophagic response and cell homeostasis.
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - The mammalian target of rapamycin (mTOR) signaling pathway integrates both intracellular and extracellular signals and serves as a central regulator of cell metabolism, growth, proliferation and survival.
+
+  - [[_document_ - Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology|Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology]]
+    - The majority of the antineoplastic activity of honeybee venom has been attributed to melittin through inhibition of the PI3K/Akt/mTOR axis in breast cancer , MAPK in melanoma , JAK2/STAT3 in ovarian cancer , and NFκB signaling pathways in lung carcinoma cel...
+
+  - [[_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug|Ivermectin, a potential anticancer drug derived from an antiparasitic drug]]
+    - The mechanism involved the inhibition by IVM of the Akt/mTOR pathway to induce Autophagy and p-21-activated kinase 1(PAK1)was the target of IVM for breast cancer \[\]. Furthermore, Diao’s study showed that IVM could inhibit the proliferation of th
+
+  - [[_document_ - Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks|Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks]]
+    - Shreds of evidence are there to support the fact that miRNAs also influence other aging pathways like mTOR, AMPK, and Sirtuins.
+
+  - [[_document_ - Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network|Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network]]
+    - Genes known to trigger senescence such as mTOR or pro-inflammatory cytokine TNF-alpha were not differentially expressed within the time series.
+
+  - [[_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease|Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease]]
+    - Suggested new entity notes to create: Neuroprotection, mTOR, Glucocerebrosidase, Lysosomal Exocytosis, Antigen Presentation. Strong connections to strengthen: Neuromelanin ↔ Parkinson's Disease, Neuromelanin ↔ Pathogenic Threshold of Neuromelanin.
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Non-coding RNA growth arrest specific 5 inhibits Macroautophagy and forms a negative feedback regulatory loop with the MicroRNA/SIRT1/mTOR pathway. In conclusion, SIRT1 is a key regulator of the autophagic process.
+
+  - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]]
+    - Review lists mTOR among the signaling pathways (with NF-κB, p38 MAPK, JAK–STAT, NOTCH, C/EBPβ, GATA4) that regulate SASP expression, alongside the epigenetic mechanisms orchestrating SASP in senescence.
+
+
+  - [[_document_ - Rapamycin for longevity opinion article|Rapamycin for longevity: opinion article]]
+    - Frames mTOR as the quasi-programmed driver of aging that rapamycin inhibits.
+  - [[_document_ - Rapamycin for longevity the pros, the cons, and future perspectives|Rapamycin for longevity: pros, cons & future perspectives]]
+    - Summarizes the mTOR pathway, its hyperactivation in aging and mTORopathies, and rapamycin's mechanism.
+
+  - [[_document_ - The Mechanistic Target of Rapamycin (mTOR) Pathway as a Target of Anti-aging Therapies The Role of Rapamycin and Its Analogs in the Regulation of Cellular Processes and Their Impact on Longevity|mTOR Pathway as Target of Anti-aging Therapies (Zerdka et al., 2025)]]
+    - Review of mTOR as the central longevity-regulating pathway and rapamycin's mechanisms of action.
+
+  - [[_document_ - biochemical_basis_hormesis_2026.04.20.719646v1.full|The Biochemical Basis of Hormesis]]
+    - Models the full mTOR-PI3K cascade (mTOR ↔ [[mTORC1]]/[[mTORC2]], [[PI3K]], [[Akt]], [[IRS1]], [[S6K1/2]], [[PTEN]], [[PP2A]], [[FKBP12]]) and shows rapamycin hormesis arises from an [[Incoherent Bivalent Motif]] centered on mTORC1.
+
 ## Connections
+- **[[Incoherent Bivalent Motif]]**: the mTORC1-centered network motif generating rapamycin hormesis
+- **[[Biphasic Dose-Response Curve]]**: non-monotonic rapamycin response explained by mTOR topology
+- **[[Saturated Enzymatic Regime]]**: low-K mTORC1→S6K1/2 link that amplifies hormesis
 - **[[Aging]]**: mTOR is a primary hallmark and regulator of the aging process.
 - **[[Autophagy]]**: The process most directly suppressed by mTOR activity.
 - **[[AMPK]]**: The cellular energy sensor that counteracts mTOR.
@@ -46,8 +105,14 @@ Chronic mTOR activation contributes to:
 - [[PI3K]]: Part of the same signaling axis.
 - [[melittin]]: Suppresses mTOR activity.
 - [[Ivermectin]]: Inhibits the mTOR pathway, leading to programmed cell death.
+- [[SASP]]: mTOR promotes SASP protein production
+- [[Epigenetic Alterations]]: mTOR intersects the epigenetic regulation of SASP
+- [[NF-κB]]: mTOR cooperates with NF-κB in SASP regulation
+- [[p38 MAPK]]: p38 MAPK and mTOR converge on SASP
+- [[cGAS-STING Pathway]]: cGAS–STING intersects mTOR SASP signaling
+- [[Senomorphic]]: mTOR inhibitors act as senomorphics suppressing SASP
 
 ## Linking Summary
-- New links added: [[mTOR]], [[Autophagy]], [[Aging]], [[Caloric Restriction]], [[AMPK]], [[IGF1]], [[Cancer]], [[Metabolic Syndromes]], [[Neurodegenerative Diseases]], [[mTORC1]], [[mTORC2]]
+- New links added: [[mTOR]], [[Autophagy]], [[Aging]], [[Caloric Restriction]], [[AMPK]], [[IGF1]], [[Cancer]], [[Metabolic Syndromes]], [[Neurodegenerative Diseases]], [[mTORC1]], [[mTORC2]], [[SASP]], [[Epigenetic Alterations]], [[NF-κB]], [[p38 MAPK]], [[cGAS-STING Pathway]], [[Senomorphic]], [[Incoherent Bivalent Motif]], [[Biphasic Dose-Response Curve]], [[Saturated Enzymatic Regime]], [[S6K1/2]], [[PI3K]], [[Akt]], [[IRS1]], [[PTEN]], [[PP2A]], [[FKBP12]]
 - Suggested new entity notes to create: [[Rapamycin]], [[mTORC1]], [[Protein Synthesis]], [[Autophagy]]
-- Strong connections to strengthen: [[mTOR]] ↔ [[Aging]], [[mTOR]] ↔ [[Autophagy]], [[Nutrient Sensing]] ↔ [[mTOR]]
+  - Strong connections to strengthen: [[mTOR]] ↔ [[Aging]], [[mTOR]] ↔ Autophagy, Nutrient Sensing ↔ [[mTOR]]

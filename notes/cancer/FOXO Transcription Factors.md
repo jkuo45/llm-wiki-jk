@@ -1,11 +1,10 @@
 ---
 title: FOXO Transcription Factors
 description: Forkhead box O (FOXO) transcription factors are a family of proteins that regulate genes involved in cell growth, metabolism, and Apoptosis (e.g., Bim and Puma).
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Protein
+  - protein
 aliases: []
 ---
 
@@ -32,6 +31,14 @@ FOXOs maintain tissue homeostasis, promote stress resistance and longevity, and 
 ## Pathological & Clinical Relevance
 
 In cancer, FOXO activity is frequently suppressed by hyperactive [[PI3K]]/[[Akt]] signaling (common in [[Breast Cancer]], [[Hepatocellular Carcinoma]], and [[Glioblastoma]]), tipping cells toward proliferation and [[Apoptosis]] evasion — core [[Hallmarks of Cancer]]. Loss or cytoplasmic mislocalization of FOXO correlates with poor prognosis and [[Chemotherapy]] resistance. Conversely, FOXO activation can be tumor-suppressive but in some contexts (e.g., [[Glucose]] deprivation) promotes survival. Therapeutic strategies aim to reactivate nuclear FOXO (Akt inhibitors, SIRT1 modulators) or exploit FOXO-dependent apoptosis sensitization. FOXOs also interface with [[Autophagy]] and [[Oxidative Stress]] programs that determine treatment response.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Evading apoptosis in cancer|Evading apoptosis in cancer]]
+    - Various transcription factors have been implicated in _Bim_ expression, including FOXO Transcription Factors \[ – \], RUNX3 \[\], AP-1 \[\], and E2F1 \[\].
+
 
 ## Connections
 

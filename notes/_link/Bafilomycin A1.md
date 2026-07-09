@@ -1,13 +1,12 @@
 ---
 title: Bafilomycin A1
-description: 'Chemical properties: Bafilomycin A1 is a chemical substance with
+description: 'Chemical properties: Bafilomycin A1 is a chemical substance with'
   defined molecular structure, functional groups, and physicochemical properties that
-  determine its biological activity.'
-type: entity
+  determine its biological activity.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: []
 ---
 
@@ -28,5 +27,5 @@ aliases: []
 
 ## Linking Summary
 - New links added: [[Bafilomycin A1]]
-- Strong connections to strengthen: [[Bafilomycin A1]] ↔ [[Bafilomycin A1]]
+  - Strong connections to strengthen: Bafilomycin A1 ↔ Bafilomycin A1
 

@@ -1,11 +1,10 @@
 ---
 title: CaMKII
 description: CaMKII (Calmodulin-dependent protein kinase II) is a multifunctional serine/threonine kinase that phosphorylates Caspase-2 at Ser164, modulating apoptotic commitment in a calcium-dependent manner opposed by the phosphatase PP1.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Enzyme
+  - enzyme
 aliases: []
 ---
 
@@ -28,6 +27,14 @@ CaMKII is indispensable for excitable-cell function, but its overexpression and 
 ## Clinical & Research Relevance
 
 CaMKII inhibitors (e.g., KN-93, tatCN21) are investigated as sensitizers that disable the caspase-2 brake and restore apoptotic competence in resistant malignancies. Because CaMKII cross-talks with [[ERK]] and other survival kinases, combinatorial blockade is being explored. Monitoring CaMKII autophosphorylation (p-Thr286/287) serves as a biomarker of calcium stress in preclinical models, and its interplay with [[Caspase-2]] and [[PP1]] defines a druggable apoptotic regulatory axis.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - Suppressing mitotic cell death | | Caspase-2 | | CaMKII (PP1) | Ser164 | Suppression of activity | Metabolically regulated | | Ca
+
 
 ## Connections
 

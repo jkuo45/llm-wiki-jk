@@ -1,11 +1,10 @@
 ---
 title: Luteolin
 description: Luteolin is a common flavonoid found in many plants, including celery, broccoli, and green peppers, with anti-inflammatory and neuroprotective properties.
-type: entity
 created: 2026-05-25
 updated: 2026-07-07
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: [3',4',5,7-tetrahydroxyflavone]
 ---
 
@@ -32,6 +31,14 @@ Preclinical studies report luteolin improves memory and reduces neuroinflammatio
 ## Clinical and Research Relevance
 
 Luteolin is investigated as a nutraceutical for cognitive health, atopic diseases, and cancer chemoprevention. Its COMT-related interactions suggest caution in individuals with slow [[COMT]] genotypes who are sensitive to methyl-donor or catechol-modulating supplements.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - Quercetin - Fisetin - Luteolin - Rutin - Oleacein (olive oil polyphenol) Again, it isn’t set in stone that everyone with slow COMT will have anxiety or irritability with the above supplements.
+
 
 ## Connections
 

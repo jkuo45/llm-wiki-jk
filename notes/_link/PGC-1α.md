@@ -1,13 +1,12 @@
 ---
 title: PGC-1α
-description: 'PGC-1α (PPARGC1A) is a transcriptional coactivator that serves as
+description: PGC-1α (PPARGC1A) is a transcriptional coactivator that serves as
   the master regulator of Mitochondria biogenesis, Oxidative Phosphorylation, and
-  Oxidative Stress defense. It links external sti...'
-type: entity
+  Oxidative Stress defense. It links external sti...
 created: 2024-01-01
 updated: 2024-07-04
 tags:
-  - Protein
+  - protein
 aliases: [PGC-1a, PPARGC1A, Peroxisome proliferator-activated receptor gamma coactivator 1-alpha]
 
 ---
@@ -74,4 +73,4 @@ PGC-1α integrates [[Caloric Restriction]] signals:
 ## Linking Summary
 - New links added: [[Mitochondrial Biogenesis]], [[NRF1]], [[TFAM]], [[PPARγ]], [[SIRT1]], [[AMPK]], [[Oxidative Stress]], [[SIRT3]], [[Resveratrol]], [[Caloric Restriction]], [[NAD+]]
 - Suggested new entity notes to create: [[PPARGC1A]], [[ERRalpha]], [[PRMT1]], [[Mitochondrial Biogenesis]], [[MPTP]], [[Oxidative Phosphorylation]]
-- Strong connections to strengthen: [[PGC1-α]] ↔ [[Mitochondrial Biogenesis]], [[PGC1-α]] ↔ [[SIRT1]], [[PGC1-α]] ↔ [[Caloric Restriction]], [[PGC1-α]] ↔ [[Neurodegeneration]]
+  - Strong connections to strengthen: PGC1-α ↔ Mitochondrial Biogenesis, PGC1-α ↔ SIRT1, PGC1-α ↔ Caloric Restriction, PGC1-α ↔ [[Neurodegeneration]]

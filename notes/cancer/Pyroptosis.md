@@ -3,11 +3,10 @@ title: Pyroptosis
 description: Pyroptosis is a type of inflammatory cell death induced by inflammasomes.
   It is characterized by cell swelling and rupturing, leading to the release of proinflammatory
   cytokines.
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - Enzyme
+  - enzyme
 aliases: []
 ---
 # Pyroptosis
@@ -24,6 +23,23 @@ Pyroptosis can inhibit tumor growth by inducing cell death and stimulating an in
 
 ## Inducers
 - [[Ivermectin]]: Has been observed to induce characteristic pyroptosis phenomena in breast cancer cells, possibly via the P2X4/P2X7/[[NLRP3]] pathway.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - Despite the protective role of autophagy on injured cells, abnormal or excessive autophagic responses cause several pathological outcomes via the stimulation of programmed cell death such as Apoptosis, Pyroptosis, etc. \[, , , \].
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - Apoptosis, Pyroptosis, and necrosis: mechanistic description of dead and dying eukaryotic cells. Infect Immun.
+
+  - [[_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug|Ivermectin, a potential anticancer drug derived from an antiparasitic drug]]
+    - On the other hand, ivermectin promotes programmed cancer cell death, including Apoptosis, Autophagy and Pyroptosis. Ivermectin induces apoptosis and autophagy is mutually regulated.
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - As an important component of innate immunity, the NLRP3 plays an important role in the body’s immune response and inflammatory cell death (Pyroptosis).
+
 
 ## Connections
 - [[Ivermectin]]: Induces pyroptosis in certain cancer types.

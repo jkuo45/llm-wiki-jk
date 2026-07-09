@@ -1,13 +1,12 @@
 ---
 title: GAP
-description: 'Overview: GAP is a cellular protein with structural, signaling,
+description: 'Overview: GAP is a cellular protein with structural, signaling,'
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
-  and signaling networks that govern cell ...'
-type: entity
+  and signaling networks that govern cell ...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [GTPase-Activating Protein]
 
 ---
@@ -24,10 +23,20 @@ aliases: [GTPase-Activating Protein]
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - TSC1/TSC2 functions as a GTPase-activating protein (GAP) for the small RAS-related GTPase Rheb (Ras homolog enriched in brain).
+
+
 ## Connections
 - [[GAP]] — related entity
 
 ## Linking Summary
 - New links added: [[GAP]]
-- Strong connections to strengthen: [[GAP]] ↔ [[GAP]]
+  - Strong connections to strengthen: [[GAP]] ↔ [[GAP]]
 

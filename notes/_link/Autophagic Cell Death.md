@@ -1,13 +1,12 @@
 ---
 title: Autophagic Cell Death
-description: 'Definition: Autophagic Cell Death is a fundamental biological process
+description: 'Definition: Autophagic Cell Death is a fundamental biological process'
   that maintains cellular and organismal homeostasis. It involves coordinated molecular
-  events regulated by signaling pathway...'
-type: entity
+  events regulated by signaling pathway...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Biological Process
+  - biological-process
   - apoptosis
   - autophagy
 aliases: [Type II Programmed Cell Death]
@@ -26,10 +25,20 @@ aliases: [Type II Programmed Cell Death]
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - However, prolonged calorie restriction with excessive autophagy response is harmful and can stimulate a type II Autophagic Cell Death.
+
+
 ## Connections
 - [[Autophagic Cell Death]] — related entity
 
 ## Linking Summary
 - New links added: [[Autophagic Cell Death]]
-- Strong connections to strengthen: [[Autophagic Cell Death]] ↔ [[Autophagic Cell Death]]
+  - Strong connections to strengthen: Autophagic Cell Death ↔ Autophagic Cell Death
 

@@ -2,11 +2,10 @@
 title: FNIP2
 description: Folliculin-interacting protein 2, a partner of Folliculin and FNIP1 involved
   in nutrient sensing and metabolic regulation.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [folliculin interacting protein 2]
 ---
 # FNIP2
@@ -24,6 +23,14 @@ FNIP2 is ubiquitously expressed with highest levels in heart, skeletal muscle, a
 
 ## Pathology & Clinical Relevance
 Missense mutations in FNIP2 are associated with [[Birt-Hogg-Dube syndrome|Birt-Hogg-Dubé syndrome]]-like phenotypes, including fibrofolliculomas and renal cell carcinoma. FNIP2 dysregulation is implicated in metabolic disorders through aberrant mTORC1 signaling and has been identified as a susceptibility locus in genome-wide association studies for chronic kidney disease.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - Moreover, TFEB and TFE3 induce transcriptional up-regulation of Folliculin and the folliculin interacting proteins FNIP1 and FNIP2, suggesting that these transcription factors not only help cells respond to starvation but prepare them for efficient transiti...
+
 
 ## Connections
 

@@ -1,11 +1,10 @@
 ---
 title: Pheomelanin
 description: Pheomelanin is a sulfur-containing, yellow-to-red melanin pigment that forms the proposed core of Neuromelanin granules and is associated with greater photochemical and redox reactivity than eumelanin.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Biological Molecule
+  - biological-molecule
 aliases: []
 ---
 
@@ -24,6 +23,17 @@ Compared with eumelanin, pheomelanin is less effective at broad-spectrum UV/radi
 ## Relevance to Neurodegeneration
 
 The proportion of pheomelanin versus eumelanin in neuromelanin is not firmly quantified, but the presence of a sulfur-rich core is central to models of pigment toxicity. Pheomelanin's weaker antioxidant capacity and pro-oxidant potential may contribute to the vulnerability of melanized neurons in the [[Substantia Nigra Pars Compacta]] and [[Locus Coeruleus]]. Once a [[Pathogenic Threshold of Neuromelanin]] is exceeded, the reactive pheomelanic core could amplify local damage, promoting [[Alpha-synuclein]] aggregation and [[Mitochondrial Dysfunction]] in [[Parkinson's Disease]]. Epidemiologically, the poorer photoprotection and higher oxidative tone of pheomelanin-rich tissues echo findings that red-haired (pheomelanin-dominant) individuals show distinct melanoma risk profiles, illustrating how pigment composition shapes cellular fate.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease|Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease]]
+    - Melanins (from the Greek word melanos \[“black”\]) are a group of complex, brown‐black pigmented biopolymers that include Eumelanin (the pigment associated with dark hair and skin), Pheomelanin (characteristic of red and blond hair), and Neuromelanin (ie, b...
+
+  - [[_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator|Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator]]
+    - Such antioxidants often take the form of thiols including Cysteine and Glutathione; as such, it is perhaps not surprising that natural NM has Cysteine in its Pheomelanin core, while being surrounded by a Eumelanin component lacking Cysteine.
+
 
 ## Connections
 

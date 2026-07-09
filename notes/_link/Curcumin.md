@@ -3,31 +3,13 @@ title: Curcumin
 description: Curcumin is a polyphenolic compound derived from _Curcuma longa_ (turmeric)
   with pleiotropic biological activities including Histone Acetyltransferase (HAT)
   inhibition, NF-κB suppression, and antio...
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases:
   - Diferuloylmethane
   - Turmeric
-database_ids:
-  chebi: CHEBI:3962
-  mesh: D003474
-  pubchem: 969516
-relations:
-  - predicate: inhibits
-    target: "p300/CBP HAT"
-    sources:
-      - PMID:15192185
-  - predicate: suppresses
-    target: "NF-κB"
-    sources:
-      - PMID:15210812
-  - predicate: induces
-    target: "notes/_link/Senescence"
-    sources:
-      - PMID:24842829
 
 ---
 
@@ -53,6 +35,19 @@ Extends lifespan in _C. elegans_ (via [[DAF-16]]/[[FOXO]]), _Drosophila_ (via [[
 ## Limitations
 
 Oral bioavailability < 1%. Formulation strategies include liposomal curcumin, Meriva (phospholipid complex), theracurmin, and co-administration with [[Piperine]].
+
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - e|5‐aza‐2′‐deoxycytidine]]), Histone Deacetylase (Sodium Butyrate, Trichostatin A, Entinostat, Vorinostat, Panobinostat, Phenylbutyrate, Sodium Valproate), Histone Acetyltransferase (Curcumin, C646), and Histone Methyltransferase (BRD4770); (4) Inhibitors o...
+
+  - [[_document_ - xenohormesis, mitohormesis|xenohormesis, mitohormesis]]
+    - I've pinpointed key compounds like Resveratrol, Quercetin, Curcumin, and EGCG, along with their biochemical targets: Sirtuins, AMPK, and the NRF2 Pathway]]. These targets are critical in the survival response, which aligns with Caloric Restriction.
+
 
 ## Connections
 
@@ -101,6 +96,6 @@ In model organisms, curcumin extends lifespan in *[[Caenorhabditis elegans]]* (v
 ## Linking Summary
 - New links added: [[P300]], [[CBP]], [[Histone Acetylation]], [[NF-κB]], [[Senescence]], [[Oxidative Stress]], [[p38 MAPK]], [[FOXO]], [[Piperine]]
 - Suggested new entity notes to create: [[PAINS compounds]], [[Theracurmin]], [[Meriva]]
-- Strong connections to strengthen: [[Curcumin]] ↔ [[P300]], [[Curcumin]] ↔ [[Senescence]]
+  - Strong connections to strengthen: [[Curcumin]] ↔ [[P300]], [[Curcumin]] ↔ [[Senescence]]
 - New links added: [[HAT]], [[NFKB]], [[Senescence]], [[p16INK4A]], [[SASP]], [[Oxidative Stress]]
 - Suggested new entity notes to create: [[p300/CBP]], [[NRF2]], [[Keap1]], [[Piperine]], [[PAINS compounds]]

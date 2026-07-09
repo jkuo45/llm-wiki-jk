@@ -1,14 +1,13 @@
 ---
 title: Chronic Obstructive Pulmonary Disease
 description: Chronic Obstructive Pulmonary Disease (COPD) is a progressive inflammatory lung disease characterized by long-term breathing problems and poor airflow. The main symptoms include shortness of breath, cough, and sputum production.
-type: entity
 created: 2026-05-09
 updated: 2026-07-07
 tags:
-  - oxidative stress
+  - oxidative-stress
   - inflammation
   - respiratory
-  - Medical Condition
+  - medical-condition
 aliases: [COPD, chronic obstructive lung disease, COLD]
 ---
 
@@ -37,6 +36,14 @@ Oxidative damage markers—[[Malondialdehyde]], [[F2-Isoprostanes]], 4-HNE, and 
 ## Therapeutic Relevance
 
 Inhaled bronchodilators and corticosteroids remain mainstays; the latter are limited by HDAC2 inactivation. [[N-Acetylcysteine]] and other [[Glutathione]]-augmenting mucolytics show modest benefit as antioxidant adjuncts. Smoking cessation and pulmonary rehabilitation reduce oxidant load. Targeting Nox enzymes, restoring HDAC2 activity, and NRF2 activation are investigational strategies.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - Respiratory Disease and Oxidative Stress Several researches pointed out that lung diseases such as Asthma and Chronic Obstructive Pulmonary Disease, determined by systemic and local chronic inflammation, are linked to oxidative stress \[ – \].
+
 
 ## Connections
 

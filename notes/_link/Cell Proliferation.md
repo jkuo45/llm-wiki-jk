@@ -3,11 +3,10 @@ title: Cell Proliferation
 description: Cell proliferation is the process by which cells grow and divide to produce
   daughter cells, tightly regulated by Growth Factor signaling, Cell Cycle checkpoints,
   and Cell Division machinery. It is ...
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - Enzyme
+  - enzyme
 aliases: []
 ---
 # Cell Proliferation
@@ -15,6 +14,16 @@ aliases: []
 Cell proliferation is the process by which cells grow and divide to produce daughter cells, tightly regulated by [[Growth Factor]] signaling, [[Cell Cycle]] checkpoints, and [[Cell Division]] machinery. It is essential for development, tissue homeostasis, and [[Wound Healing]]. Key regulators include [[Cyclin]]/[[CDK]] complexes, [[Rb]], [[E2F]], [[MYC]], [[RAS]], and [[PI3K]]/[[Akt]]/[[mTORC1]] signaling. Dysregulated proliferation is a hallmark of [[Cancer]], driven by [[Oncogene]] activation and [[Tumor Suppressor]] inactivation. [[Cellular Senescence]] and [[Apoptosis]] serve as brakes on uncontrolled proliferation.
 
 #
+
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - mTORC1: a master regulator of cell growth and metabolism mTORC1 positively regulates cell growth and Cell Proliferation by promoting many anabolism, including biosynthesis of proteins, lipids and organelles, and by limiting catabolism such as Autophagy.
+
 
 ## Connections
 - [[Cell Cycle]] — the ordered sequence driving proliferation
@@ -32,4 +41,4 @@ Cell proliferation is the process by which cells grow and divide to produce daug
 ## Linking Summary
 - New links added: [[Cell Cycle]], [[Cell Division]], [[Growth Factor]], [[Cyclin]], [[CDK]], [[Rb]], [[E2F]], [[MYC]], [[RAS]], [[PI3K]], [[Akt]], [[mTORC1]], [[Cancer]], [[Oncogene]], [[Tumor Suppressor]], [[Apoptosis]], [[Cellular Senescence]], [[Wound Healing]]
 - Suggested new entity notes to create: [[Growth Factor Signaling]], [[Cyclin-CDK Complex]]
-- Strong connections to strengthen: [[Cell Proliferation]] ↔ [[Cell Cycle]], [[Cell Proliferation]] ↔ [[Cancer]]
+  - Strong connections to strengthen: Cell Proliferation ↔ Cell Cycle, Cell Proliferation ↔ Cancer

@@ -3,15 +3,12 @@ title: CDC14B
 description: CDC14B (Cell division cycle 14 homolog B) is a highly conserved eukaryotic
   dual-specificity protein phosphatase. It plays an essential role in cell cycle progression,
   particularly during mitosis and the G2/M DNA damage checkpoint, by reversing CDK phosphorylations.
-type: entity
 created: 2026-07-03
 updated: 2026-07-07
 tags:
-  - Protein
+  - protein
 aliases: [CDC14B, Dual Specificity Protein Phosphatase CDC14B]
-sources:
-  - PMID:19136623
-target: SIRT2
+source: PMID:19136623
 ---
 
 # CDC14B
@@ -35,6 +32,14 @@ This CDC14B→SIRT2 axis couples phosphatase-dependent cell-cycle transitions to
 ## Physiological and Pathological Relevance
 
 Beyond mitosis, CDC14B participates in the DNA damage checkpoint, where its release and activity help arrest or repair damaged cells. Dysregulation of CDC14B or its SIRT2 target has implications for genomic stability and cancer: altered SIRT2 levels influence chromosome segregation fidelity, while loss of orderly SIRT2 degradation can disturb microtubule dynamics and promote aneuploidy. The interplay also intersects with other sirtuins ([[Sirtuins|the mammalian sirtuin family]]) in coordinating metabolism and proliferation.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - The phosphatase CDC14B (cell division cycle 14B) regulates SIRT2 phosphorylation, leading to its subsequent ubiquitination and degradation by the 26S proteosome, a process that may promote exit from mitosis.
+
 
 ## Connections
 

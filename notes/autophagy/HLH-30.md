@@ -1,13 +1,12 @@
 ---
 title: HLH-30
-description: 'HLH-30 (Helix-loop-helix 30) is the C. elegans orthologue of the
+description: HLH-30 (Helix-loop-helix 30) is the C. elegans orthologue of the
   mammalian transcription factor TFEB, serving as a master regulator of Autophagy
-  and Lysosome biogenesis. It plays a key role in ...'
-type: entity
+  and Lysosome biogenesis. It plays a key role in ...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Gene
+  - gene
 aliases: [C. elegans TFEB/TFE3 ortholog]
 
 ---
@@ -26,6 +25,17 @@ aliases: [C. elegans TFEB/TFE3 ortholog]
 ## Physiological Importance
 - **Starvation Survival**: HLH-30 is required for the expansion of the lysosomal compartment and mounting an essential metabolic response to survive starvation.
 - **Longevity**: HLH-30 is required for the lifespan extension observed in [[MXL-3]] mutants and other longevity models.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Lysosome biogenesis Regulation and functions|Lysosome biogenesis Regulation and functions]]
+    - elegans, the TFEB homologue HLH-30 promotes lifespan by enhancing lysosomal lipolysis (O’Rourke and Ruvkun, 2013). HLH-30 is required for lifespan extension in C.
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - HLH-30, the ortholog of TFEB and TFE3 in C. elegans, translocates to the nucleus following starvation to up-regulate expression of the lysosomal lipases LIPL-1 and LIPL-3.
+
 
 ## Connections
 

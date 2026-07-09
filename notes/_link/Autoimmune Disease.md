@@ -1,13 +1,12 @@
 ---
 title: Autoimmune Disease
-description: 'Etiology and pathophysiology: Autoimmune Disease is a medical condition
+description: 'Etiology and pathophysiology: Autoimmune Disease is a medical condition'
   characterized by specific pathological changes in cellular, tissue, or organ function.
-  Its development involves genetic, ...'
-type: entity
+  Its development involves genetic, ...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: []
 ---
 
@@ -23,10 +22,20 @@ aliases: []
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - The loss of negative immune regulators that maintain T Cell in a quiescent state makes them overly sensitive to activation signals, which leads to decreased self-tolerance and increased Autoimmune Disease (ElTanbouly et al., 2020; Hwang et al., 2020).
+
+
 ## Connections
 - [[Autoimmune Disease]] — related entity
 
 ## Linking Summary
 - New links added: [[Autoimmune Disease]]
-- Strong connections to strengthen: [[Autoimmune Disease]] ↔ [[Autoimmune Disease]]
+  - Strong connections to strengthen: Autoimmune Disease ↔ Autoimmune Disease
 

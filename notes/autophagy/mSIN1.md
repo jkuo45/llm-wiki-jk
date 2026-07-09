@@ -3,11 +3,10 @@ title: mSIN1
 description: Mammalian stress-activated protein kinase interacting protein (mSIN1)
   is an essential component of mTORC2 that maintains complex integrity and promotes
   its recruitment to the Plasma Membrane via it...
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [MAPKAP1]
 ---
 # mSIN1
@@ -16,6 +15,14 @@ Mammalian stress-activated protein kinase interacting protein (mSIN1) is an esse
 ## Function
 
 mSIN1 (MAPKAP1) is a component of [[mTORC2]] that binds [[Rictor]] and confers substrate specificity toward [[Akt]] and [[SGK1]].
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - mTORC2 mTORC2 comprises six different proteins, several of which are common to mTORC1 and mTORC2: mTOR; Rictor (Rictor); mSIN1; Protor-1 (Protor-1); mLST8; and Deptor.
+
 
 ## Connections
 

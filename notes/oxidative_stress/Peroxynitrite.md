@@ -3,14 +3,13 @@ title: Peroxynitrite
 description: Peroxynitrite (ONOO−) is a powerful oxidant and nitrating agent formed
   by the near-instantaneous reaction between Superoxide Radicals and Nitric Oxide.
   It is a key mediator of nitrative stress.
-type: entity
 created: 2026-05-09
 updated: 2026-07-04
 tags:
-  - oxidative stress
-  - RNS
-  - nitrative stress
-  - Metabolite
+  - oxidative-stress
+  - rns
+  - nitrative-stress
+  - biological-molecule
 aliases: [ONOO−, peroxynitrite anion]
 ---
 # Peroxynitrite
@@ -49,6 +48,14 @@ Peroxynitrite is centrally implicated in diverse pathologies:
 - **[[Inflammation]]**: Inflammatory cytokines ([[TNF-alpha]], [[IL-1b]], [[IFN-γ]]) synergistically upregulate iNOS and NOX2, creating a "perfect storm" for peroxynitrite production in [[Macrophage|macrophages]], [[Microglia]], and [[Neutrophils]].
 
 Therapeutic strategies include low-molecular-weight peroxynitrite decomposition catalysts (e.g., **FeTMPyP**, **FeTPPS** — iron porphyrins that catalytically isomerize ONOO⁻ to NO₃⁻), [[Uric Acid]] (a physiological peroxynitrite scavenger whose levels are dramatically elevated in humans compared to other mammals), [[Selenium]]-based compounds (ebselen — a GPx mimetic), and [[Melatonin]].
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - Once formed, it is involved in several reactions that in turn generate hydrogen peroxide, hydroxyl radical (OH•), Peroxynitrite (ONOO −), Hypochlorous Acid (HOCl), and so on.
+
 
 ## Connections
 - [[Nitric Oxide]]: One of the two primary precursors.

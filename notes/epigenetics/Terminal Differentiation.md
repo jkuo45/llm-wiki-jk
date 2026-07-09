@@ -1,11 +1,10 @@
 ---
 title: Terminal Differentiation
 description: Terminal Differentiation is the irreversible process by which a cell exits the cell cycle and acquires a stable, specialized functional identity.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Biological Process
+  - biological-process
 aliases: []
 ---
 
@@ -34,6 +33,14 @@ Terminal differentiation is distinct from [[Senescence]] (a stress-induced arres
 ## Pathology & Clinical Relevance
 
 Aberrant terminal differentiation underlies poor-prognosis, poorly differentiated tumors and is a target of differentiation therapies (e.g., all-trans retinoic acid in acute promyelocytic leukemia). Understanding the exit from [[Cell Cycle]] and epigenetic commitment informs [[Regenerative Medicine]], [[Tissue Repair]], and the safe use of pluripotent cells, where uncontrolled re-entry into cycle risks [[Tumorigenicity]] (cf. [[Teratoma]] formation).
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - Although quiescent cells display some similarities to other non-dividing cell states, such as Senescence and Terminal Differentiation, quiescence possesses unique characteristics and functions.
+
 
 ## Connections
 

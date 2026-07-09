@@ -1,11 +1,10 @@
 ---
 title: PKCι
 description: Protein kinase C iota (PKCι) is an atypical PKC isoform and probable oncogene that promotes cell survival, proliferation, and transformation by phosphorylating and inactivating the pro-apoptotic protein Bad and activating NF-κB and Rac1 signaling.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Enzyme
+  - enzyme
 aliases: []
 ---
 
@@ -24,6 +23,14 @@ In normal cells, PKCι contributes to cell polarity and mitotic spindle function
 ## Clinical & Research Relevance
 
 PKCι is investigated as a biomarker of aggressive disease and as a therapeutic target. Inhibitors such as aurothiomalate (ATM), CRT0066101, and isoform-selective agents reduce tumor growth and overcome apoptosis resistance in preclinical models. Combining PKCι inhibition with standard [[Chemotherapy]] is a strategy to disable survival signaling in PKCι-driven tumors.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - Bad | | PAK1, PAK4, PAK5, PKA, PKCι, RAF1, RSK | Ser112 | Inactivation | MPNST, Lung Cancer, IL-3 control | | B
+
 
 ## Connections
 

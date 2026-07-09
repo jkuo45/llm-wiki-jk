@@ -1,11 +1,10 @@
 ---
 title: Rutin
 description: Rutin is a citrus flavonoid glycoside (quercetin-3-rutinoside) with antioxidant and vascular actions that is metabolized and can inhibit COMT via its catechol moiety.
-type: entity
 created: 2026-05-25
 updated: 2026-07-07
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: [Quercetin-3-O-rutinoside, Rutoside]
 ---
 
@@ -28,6 +27,14 @@ Like other catechol flavonoids, [[Rutin]] (via its quercetin aglycone) is O-meth
 ## Physiological and Clinical Relevance
 
 Rutin and related flavonoids are studied for venous insufficiency, hemorrhage-prone capillaries, and neuroprotection. Its COMT interaction is a consideration when combining high-dose flavonoid supplements with methyl-donor regimens or COMT-sensitive pharmaceuticals.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - f]( - Quercetin - Fisetin - Luteolin - Rutin - Oleacein (olive oil polyphenol) Again, it isn’t set in stone that everyone with slow COMT will have anxiety or irritability with the above supplements.
+
 
 ## Connections
 

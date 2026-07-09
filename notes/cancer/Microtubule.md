@@ -3,11 +3,10 @@ title: Microtubule
 description: Microtubules are critical for the formation of the mitotic spindle during
   cell division. Because Cancer cells divide rapidly, microtubules are a major target
   for chemotherapy.
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: []
 ---
 # Microtubule
@@ -23,6 +22,14 @@ Drugs that interfere with microtubule dynamics are classified into two groups:
 - **Microtubule-Destabilizing Agents:** (e.g., [[vinca alkaloids]] like [[Vincristine]], and [[Benzimidazole]]s like [[Fenbendazole]], [[Albendazole]], [[Mebendazole]])
 
 [[Fenbendazole]] acts as a moderate microtubule destabilizing agent, binding to tubulin and inhibiting its polymerization, which leads to cell cycle arrest and [[Apoptosis]] in cancer cells.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Oral Fenbendazole for Cancer Therapy in Humans and Animals|Oral Fenbendazole for Cancer Therapy in Humans and Animals]]
+    - Mentioned in this document
+
 
 ## Connections
 - **Structural Component:** [[Tubulin]] (alpha and beta)

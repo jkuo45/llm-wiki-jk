@@ -1,13 +1,12 @@
 ---
 title: SIRT3
-description: 'SIRT3 (Sirtuin 3) is the primary NAD+-dependent deacetylase localized
-  within the Mitochondria.'
-type: entity
+description: SIRT3 (Sirtuin 3) is the primary NAD+-dependent deacetylase localized
+  within the Mitochondria.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Enzyme
-  - NAD+
+  - enzyme
+  - nad+
 aliases: [Sirt3]
 
 ---
@@ -84,6 +83,35 @@ SIRT3 (along with [[SIRT7]]) is highly transcribed in **lymph-node positive brea
 ## Ion Channel Regulation
 
 SIRT3, by producing [[OAADPr]], may regulate the **TRPM2** ion channel alongside [[SIRT2]]. Decreasing SIRT3 expression reduces OAADPr-mediated cell death.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - MRR - mitohormesis|mitohormesis]]
+    - The MRR Synergy: Downstream mitohormetic transcriptional responses (specifically the deacetylation of PGC1-α by SIRT1 and SIRT3) are highly NAD+-dependent. By priming the system with NAD+ precursors like Nicotinamide Riboside (NR) or N
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - One reason may be that the basal metabolism status is carefully controlled by suppressive control checkpoints like SIRT3, PTEN, etc.
+
+  - [[_document_ - The Sirtuin System The Holy Grail of Resveratrol?|The Sirtuin System The Holy Grail of Resveratrol?]]
+    - Beyond SIRT-1, SIRT3 and SIRT7 also appear to be vital for optimal cardiovascular function. In SIRT-3 deficient mouse models, signs of severe cardiac hypertrophy and interstitial fibrosis were present, when a hypertrophic stimulus was given \[\].
+
+  - [[_document_ - sirtuins (overview, CD38 KO risks, cancer therapies)|sirtuins (overview, CD38 KO risks, cancer therapies)]]
+    - Mitochondrial (primarily): SIRT3, SIRT4, SIRT5. Nuclear (Class IV): SIRT6 (chromatin-associated), SIRT7 (nucleolar).
+
+  - [[_document_ - sirtuins (resveratrol), gemini|sirtuins (resveratrol), gemini]]
+    - The most notable progress has been made with SIRT3 and SIRT6, while others present unique structural challenges that favor inhibition rather than activation. SIRT3 Activators (Mitochondrial Deacetylase) SIRT3 is the primary deacetylase inside the mitochondria.
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - NAD+-dependent deacetylase activity _in vitro_ has also been described for numerous other sirtuins, including bacterial CobB, archeabacterial SIR2-AF ( _Archaeoglobus fulgidus_ ) and human SIRT1–SIRT3 and SIRT5 . By the end of 2000, Landry et al.
+
+  - [[_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review|sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review]]
+    - There are a total of seven human sirtuins that have been identified namely, SIRT1, SIRT2, SIRT3, SIRT4, SIRT5, SIRT6 and SIRT7.
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - SIRT3–SIRT5 localize primarily to mitochondria, and have a mitochondrial targeting sequence.[–] Additionally, SIRT6 and SIRT7 are nuclear proteins. Of them, SIRT6 is principally located in the chromatin and SIRT7 is mostly found in the nucleolus.
+
 
 ## Connections
 

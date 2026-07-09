@@ -4,11 +4,10 @@ description: PODXL (Podocalyxin-like protein 1) is an anti-adhesion sialomucin g
   In stem cell biology it is a canonical surface marker of undifferentiated Embryonic
   Stem Cells and Induced Pluripotent Stem Cells, switched on early during Cellular
   Reprogramming.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Protein
+  - protein
 aliases: []
 ---
 
@@ -30,6 +29,14 @@ During the early stages of [[Cellular Reprogramming]] (24–72 hours after induc
 ## Physiological & Pathological Relevance
 
 Outside stem cell research, PODXL dysregulation is implicated in several cancers, where its anti-adhesion and pro-migratory properties promote [[Epithelial-to-Mesenchymal Transition]] (EMT) and metastasis — notably in breast, ovarian, and prostate carcinomas. In the kidney, reduced podocyte PODXL expression contributes to foot-process effacement and proteinuria in glomerular disease. Thus PODXL exemplifies a molecule whose anti-adhesion function is beneficial for stemness yet pathological when misexpressed in epithelia.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network|Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network]]
+    - Five of these genes (HAS3, SLCO4A1, PODXL, PDPN, and F11R) encode proteins that have been identified as cell surface
+
 
 ## Connections
 - [[Podocyte]]: The cell type where PODXL was first characterized and maintains glomerular filtration barrier integrity.

@@ -1,11 +1,10 @@
 ---
 title: Avermectin
 description: Avermectins are 16-membered macrocyclic lactones produced by Streptomyces avermectinius with potent anthelmintic and insecticidal activity; Ivermectin is the best-known derivative.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: []
 ---
 
@@ -32,6 +31,17 @@ Ivermectin, the flagship avermectin, is under active investigation for **antican
 ## History & Development
 
 Avermectin discovery emerged from a systematic screen of soil microbes at the [[Kitasato Institute]] and was developed commercially by [[Merck & Co. Inc]]. The drug donation program underpinned global elimination efforts against onchocerciasis and lymphatic filariasis.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug|Ivermectin, a potential anticancer drug derived from an antiparasitic drug]]
+    - n receptor; ROS, Reactive oxygen species; STAT3, Signal transducer and activator of transcription 3; SID, SIN3-interaction domain; siRNA, small interfering RNA; SOX-2, SRY-box 2; TNBC, Triple-negative breast cancer; YAP1, Yes-associated protein 1 Chemical c...
+
+  - [[_document_ - Ivermectin, ‘Wonder drug’ from Japan the human use perspective|Ivermectin, ‘Wonder drug’ from Japan the human use perspective]]
+    - Discovered in the late-1970s, the pioneering drug Ivermectin, a dihydro derivative of Avermectin—originating solely from a single microorganism isolated at the Kitasato Institute, Tokyo, Japan from Japanese soil—has had an immeasurably beneficial impact in ...
+
 
 ## Connections
 

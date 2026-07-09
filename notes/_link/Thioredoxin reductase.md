@@ -1,14 +1,13 @@
 ---
 title: Thioredoxin reductase
-description: 'Catalytic function: Thioredoxin reductase is an enzyme that catalyzes
-  biochemical reactions essential for cellular metabolism and homeostasis.'
-type: entity
+description: 'Catalytic function: Thioredoxin reductase is an enzyme that catalyzes'
+  biochemical reactions essential for cellular metabolism and homeostasis.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Enzyme
+  - enzyme
   - antioxidant
-  - oxidative stress
+  - oxidative-stress
 aliases: [TXNRD]
 
 ---
@@ -30,5 +29,5 @@ aliases: [TXNRD]
 
 ## Linking Summary
 - New links added: [[Thioredoxin reductase]]
-- Strong connections to strengthen: [[Thioredoxin reductase]] ↔ [[Thioredoxin reductase]]
+  - Strong connections to strengthen: Thioredoxin reductase ↔ Thioredoxin reductase
 

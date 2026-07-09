@@ -3,11 +3,10 @@ title: Lysosomal Localization
 description: Lysosomal localization refers to the recruitment or positioning of proteins
   on the lysosome membrane, which for TFEB is required for its phosphorylation by
   mTORC1 and is regulated by GSK3β.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Biological Process
+  - biological-process
   - autophagy
   - lysosome
 aliases: []
@@ -19,6 +18,14 @@ Lysosomal localization refers to the recruitment or positioning of proteins on t
 ## Determinants
 
 Lysosomal positioning is regulated by [[Rab7]] effectors: [[FYCO1]] (plus-end transport), [[RILP]]-[[ORP1L]] (minus-end). Perinuclear clustering facilitates [[Autophagy]].
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - Suggested new entity notes to create: transcriptional regulation, translational-level regulation, ischemic injury, metabolic disorders, leucine zipper transcription Factors, TGF-β Signaling, Hypusination, Tumor Suppressor, Translation Initiation, MAPK Signa...
+
 
 ## Connections
 

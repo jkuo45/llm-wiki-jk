@@ -1,20 +1,15 @@
 ---
 title: Thioredoxin
-description: 'Thioredoxin (Trx) is a small redox-active protein that serves as
+description: Thioredoxin (Trx) is a small redox-active protein that serves as
   a key antioxidant and cell signaling regulator. It reduces oxidized cysteine residues
-  on proteins via its active site (Cys-Gly-P...'
-type: entity
+  on proteins via its active site (Cys-Gly-P...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
   - antioxidant
-  - oxidative stress
+  - oxidative-stress
 aliases: [Trx, TXN]
-database_ids:
-  mesh: D013845
-  uniprot: P10599
-  hgnc: HGNC:12435
 
 ---
 
@@ -22,6 +17,16 @@ database_ids:
 **Thioredoxin (Trx)** is a small redox-active protein that serves as a key antioxidant and cell signaling regulator. It reduces oxidized cysteine residues on proteins via its active site (Cys-Gly-Pro-Cys).
 
 #
+
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - For example, levels of MnSOD, Thioredoxin1, and Bcl-xL (an anti-apoptotic molecule) are significantly decreased in cardiomyocytes from individuals with advanced Heart Failure.
+
 
 ## Connections
 - [[Glutathione]] — Parallel thiol antioxidant system
@@ -32,4 +37,4 @@ database_ids:
 ## Linking Summary
 - New links added: [[Glutathione]], [[Oxidative Stress]], [[Peroxiredoxin]], [[Apoptosis]]
 - Suggested new entity notes to create: [[Thioredoxin reductase]], [[TrxR]], [[ASK1]]
-- Strong connections to strengthen: [[Thioredoxin]] ↔ [[Glutathione]]
+  - Strong connections to strengthen: [[Thioredoxin]] ↔ [[Glutathione]]

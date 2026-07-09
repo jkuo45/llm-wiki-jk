@@ -1,13 +1,12 @@
 ---
 title: Epinephrine
-description: 'Epinephrine, also known as Adrenaline, is a hormone and neurotransmitter
+description: Epinephrine, also known as Adrenaline, is a hormone and neurotransmitter
   involved in the body''s fight-or-flight response. It is produced primarily by the
-  adrenal glands and certain neurons.'
-type: entity
+  adrenal glands and certain neurons.
 created: 2026-05-29
 updated: 2026-05-29
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: []
 ---
 
@@ -30,6 +29,34 @@ It increases heart rate, constricts blood vessels, and dilates air passages, par
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Adrenochrome Pathway|The Adrenochrome Pathway]]
+    - Since the conversion of Epinephrine to its pink oxidation product Adrenochrome was first observed in 1856 many varied biological activities have been ascribed to this compound. Indeed in the 1930's and 40's this pathway was thought by many to be the major
+
+  - [[_document_ - US4501923A - Process for preparing adrenochrome|US4501923A - Process for preparing adrenochrome]]
+    - Patents These CPCs and their children These exact CPCs Add AND condition Abstract A process is described for preparing Adrenochrome comprising Oxidation Epinephrine or a salt thereof with a Persulfates in an aqueous medium at a pH in the range 4 to 8 in the...
+
+  - [[_document_ - formation, chemical stability|formation, chemical stability]]
+    - My focus is on Adrenochrome as a byproduct of Epinephrine oxidation. I'm noting the topic is well-defined, and is centered around a specific chemical reaction.
+
+  - [[_document_ - intermediates, precursor, hemoglobin|intermediates, precursor, hemoglobin]]
+    - tokens User research Leuco-adrenochrome is a chemical intermediate and a natural byproduct formed during the oxidation of Epinephrine (adrenaline) into Adrenochrome.
+
+  - [[_document_ - neutrophil and erthrocyte|neutrophil and erthrocyte]]
+    - Adrenochrome is primarily produced in the body through the oxidation of Epinephrine, a hormone synthesized and released mainly by the Adrenal medulla.
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - Catechols include Neurotransmitters such as Dopamine, Epinephrine, and Norepinephrine. Other Catechols include Estrogen metabolites as well as drugs and Natural Substances with a catechol structure.
+
+  - [[_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator|Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator]]
+    - What few seem to have suggested to date however is that the accumulation of NM itself could serves as a storage, protection, and re-release mechanism for Dopamine (in the Substantia Nigra) or Epinephrine (in the Locus Coeruleus), possibly acting as a very r...
+
+
 ## Connections
 - [[Adrenochrome]] ↔ Direct oxidative byproduct of Epinephrine.
 - [[Catecholamines]] ↔ Epinephrine belongs to this class of molecules.
@@ -41,4 +68,4 @@ It increases heart rate, constricts blood vessels, and dilates air passages, par
 
 ## Linking Summary
 - New links added: [[Epinephrine]], [[Adrenochrome]], [[Oxidative Stress]], [[Oxidation]], [[Myeloperoxidase]], [[COMT]], [[MAO]], [[Inflammation]], [[Neutrophils]], [[Smoking]], [[Catecholamines]], [[Lungs]], [[Cardiotoxicity]], [[Neurotransmitters]], [[Catechol-O-methyltransferase]], [[Norepinephrine]]., [[Norepinephrine]]
-- Strong connections to strengthen: [[Epinephrine]] ↔ [[Adrenochrome]]
+  - Strong connections to strengthen: [[Epinephrine]] ↔ Adrenochrome

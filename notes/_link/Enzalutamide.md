@@ -1,13 +1,12 @@
 ---
 title: Enzalutamide
-description: 'Chemical properties: Enzalutamide is a chemical substance with defined
+description: 'Chemical properties: Enzalutamide is a chemical substance with defined'
   molecular structure, functional groups, and physicochemical properties that determine
-  its biological activity.'
-type: entity
+  its biological activity.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: [Xtandi, MDV3100]
 
 ---
@@ -24,10 +23,20 @@ aliases: [Xtandi, MDV3100]
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug|Ivermectin, a potential anticancer drug derived from an antiparasitic drug]]
+    - In Nappi's experiment, it was found that IVM could enhance the drug activity of the anti-androgen drug Enzalutamide in the prostate cancer cell line LNCaP and reverse the resistance of the prostate cancer cell line PC3 to docetaxel \[\].
+
+
 ## Connections
 - [[Enzalutamide]] — related entity
 
 ## Linking Summary
 - New links added: [[Enzalutamide]]
-- Strong connections to strengthen: [[Enzalutamide]] ↔ [[Enzalutamide]]
+  - Strong connections to strengthen: [[Enzalutamide]] ↔ [[Enzalutamide]]
 

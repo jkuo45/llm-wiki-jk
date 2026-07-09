@@ -1,11 +1,10 @@
 ---
 title: Bromodeoxyuridine
 description: Bromodeoxyuridine (BrdU) is a synthetic thymidine analog used extensively as a marker for cell proliferation by incorporating into newly synthesized DNA.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases:
   - BrdU
   - 5-Bromo-2'-deoxyuridine
@@ -43,6 +42,14 @@ Despite its widespread use, BrdU has several significant limitations:
 - **False Positives**: Non-specific binding of antibodies can sometimes lead to inaccurate results.
 
 Due to these drawbacks, **[[EdU]] (5-ethynyl-2'-deoxyuridine)** has emerged as a preferred alternative. EdU detection relies on "click chemistry" (copper-catalyzed azide-alkyne cycloaddition), which does not require DNA denaturation. This allows for much better preservation of cellular architecture and enables high-quality multiplexing with other fluorescently labeled antibodies.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - These chemical compounds can be functionally classified into eight groups: (1) DNA Replication Stress inducers (Aphidicolin, Hydroxyurea, Thymidine, Bromodeoxyuridine, Gemcitabine, Cyclopentenyl cytosine); (2) DNA‐damaging agents
+
 
 ## Connections
 

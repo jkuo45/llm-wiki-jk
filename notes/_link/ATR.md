@@ -1,13 +1,12 @@
 ---
 title: ATR
-description: 'Overview: ATR is a cellular protein with structural, signaling,
+description: 'Overview: ATR is a cellular protein with structural, signaling,'
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
-  and signaling networks that govern cell ...'
-type: entity
+  and signaling networks that govern cell ...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [Ataxia Telangiectasia and Rad3-related]
 
 ---
@@ -29,5 +28,5 @@ aliases: [Ataxia Telangiectasia and Rad3-related]
 
 ## Linking Summary
 - New links added: [[ATR]]
-- Strong connections to strengthen: [[ATR]] ↔ [[ATR]]
+  - Strong connections to strengthen: [[ATR]] ↔ [[ATR]]
 

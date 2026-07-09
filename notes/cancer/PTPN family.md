@@ -3,11 +3,10 @@ title: PTPN family
 description: The PTPN family (Protein Tyrosine Phosphatase Non-receptor type)
   includes members such as PTPN2, PTPN5, and PTPN23 that act as phosphatases regulating
   apoptotic regulators. They have been ident...
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - Receptor
+  - receptor
 aliases: []
 ---
 

@@ -3,32 +3,16 @@ title: Arterial Stiffness
 description: Arterial stiffness refers to the loss of elastic compliance in the large
   conduit arteries (primarily the aorta and carotid arteries), resulting in reduced
   ability to buffer the pulsatile output fro...
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Medical Condition
+  - medical-condition
 aliases:
   - Arterial stiffening
   - Vascular stiffness
   - Large elastic artery stiffening
   - Reduced arterial compliance
   - Increased arterial rigidity
-database_ids:
-  mesh: D059350
-relations:
-  - predicate: associated_with
-    target: "notes/_link/Cardiovascular Disease"
-    sources: ["10.1016/j.jacc.2006.07.050"]
-  - predicate: associated_with
-    target: "Endothelial Dysfunction"
-    sources: ["10.1016/j.mad.2013.04.004"]
-  - predicate: treated_by
-    target: "notes/_link/Spermidine"
-    sources: ["10.1016/j.mad.2013.04.004"]
-  - predicate: caused_by
-    target: "notes/_link/Aging"
-    sources: []
 ---
 
 
@@ -91,6 +75,16 @@ Supplementation with the polyamine [[Spermidine|spermidine]] reverses age-associ
 - Enhanced [[Autophagy|autophagy]] in the arterial wall, clearing damaged proteins and organelles
 
 The mechanism involves spermidine-induced de-acetylation of [[Histone H3|histone H3]], which activates transcription of autophagy-related genes, thereby improving protein quality control in the vasculature.
+
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The autophagy enhancer spermidine reverses arterial aging|The autophagy enhancer spermidine reverses arterial aging]]
+    - inical promise) Linking Summary - New links added: Spermidine, Cardiovascular Disease, Nitric Oxide, Caloric Restriction, Rapamycin, Autophagy, Oxidative Stress, Endothelial Dysfunction, Advanced Glycation End Products - Suggested new entity notes to create...
+
 
 ## Connections
 

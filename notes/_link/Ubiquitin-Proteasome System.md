@@ -3,13 +3,12 @@ title: Ubiquitin-Proteasome System
 description: The ubiquitin-proteasome system (UPS) is the primary pathway for selective
   protein degradation; it regulates TFEB levels via E3 ligases like STUB1 which target
   phosphorylated TFEB.
-type: entity
 created: 2026-07-04
 updated: 2026-07-06
 tags:
-  - protein degradation
+  - protein-degradation
   - proteostasis
-  - Biological Process
+  - biological-process
 aliases: [UPS, Ubiquitin Proteasome System]
 ---
 # Ubiquitin-Proteasome System
@@ -30,6 +29,16 @@ UPS dysfunction is a hallmark of [[Parkinson's Disease]] and is closely linked t
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - ic disorders]], leucine zipper transcription Factors, TGF-β Signaling, Hypusination, Tumor Suppressor, Translation Initiation, MAPK Signaling, ERK Signaling, Lysosomal Localization, Nuclear Export, Cell Cycle, Energy Homeostasis, PI3K-Akt Signaling, Amino A...
+
+
 ## Connections
 - [[TFEB]] — master transcription factor for lysosomal biogenesis and autophagy
 - [[STUB1]] — interacts with Ubiquitin-Proteasome System
@@ -42,4 +51,4 @@ UPS dysfunction is a hallmark of [[Parkinson's Disease]] and is closely linked t
 ## Linking Summary
 - New links added: [[TFEB]], [[STUB1]], [[Ubiquitin]], [[Parkinson's Disease]], [[Lewy Bodies]], [[Alpha-synuclein]], [[Neuromelanin]], [[Substantia Nigra]].
 - Suggested new entity notes to create: [[26S Proteasome]], [[Proteasome]], [[p62|p62]].
-- Strong connections to strengthen: [[Ubiquitin-Proteasome System]] ↔ [[STUB1]], [[Ubiquitin-Proteasome System]] ↔ [[Lewy Bodies]].
+  - Strong connections to strengthen: Ubiquitin-Proteasome System ↔ STUB1, Ubiquitin-Proteasome System ↔ [[Lewy Bodies]].

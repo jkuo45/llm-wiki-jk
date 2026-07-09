@@ -1,13 +1,12 @@
 ---
 title: VDAC1
-description: 'Overview: VDAC1 is a cellular protein with structural, signaling,
+description: 'Overview: VDAC1 is a cellular protein with structural, signaling,'
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
-  and signaling networks that govern cel...'
-type: entity
+  and signaling networks that govern cel...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [Voltage-Dependent Anion Channel 1]
 
 ---
@@ -29,5 +28,5 @@ aliases: [Voltage-Dependent Anion Channel 1]
 
 ## Linking Summary
 - New links added: [[VDAC1]]
-- Strong connections to strengthen: [[VDAC1]] ↔ [[VDAC1]]
+  - Strong connections to strengthen: [[VDAC1]] ↔ [[VDAC1]]
 

@@ -3,14 +3,11 @@ title: Striatum
 description: The Striatum (also known as the neostriatum or caudate-putamen)
   is a subcortical part of the forebrain and a critical component of the Basal Ganglia.
   It consists of the Caudate Nucleus ...
-type: entity
 created: 2026-07-04
 updated: 2026-07-05
 tags:
-  - Anatomy
+  - anatomy
 aliases: [Neostriatum, Caudate-Putamen, Striatal complex]
-database_ids:
-  mesh: D003342
 
 ---
 
@@ -55,4 +52,4 @@ Dysfunction in the striatum is linked to a range of neurological and psychiatric
 ## Linking Summary
 - New links added: [[Caudate Nucleus]], [[Putamen]], [[Substantia Nigra Pars Compacta]], [[Nigrostriatal System]], [[Parkinson's Disease]], [[Dopamine]], [[Dopamine Transporter]], [[DAT]], [[COMT]], [[Medium spiny neurons]], [[MSNs]], [[D1 Receptor]], [[D2 receptor]], [[Prefrontal Cortex]], [[Basal Ganglia]], [[Nucleus Accumbens]]
 - Suggested new entity notes to create: [[Cholinergic interneurons]], [[Parvalbumin-positive fast-spiking interneurons]], [[Somatostatin-positive interneurons]]
-- Strong connections to strengthen: [[Striatum]] ↔ [[Nigrostriatal System]], [[Striatum]] ↔ [[Dopamine]], [[Striatum]] ↔ [[Basal Ganglia]]
+  - Strong connections to strengthen: [[Striatum]] ↔ Nigrostriatal System, [[Striatum]] ↔ [[Dopamine]], [[Striatum]] ↔ Basal Ganglia

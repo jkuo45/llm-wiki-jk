@@ -2,11 +2,10 @@
 title: Tumor-Suppressor Loss-Induced Senescence
 description: A cellular senescence program triggered by the loss or inactivation of
   tumor suppressor genes (e.g., PTEN, RB1, p16), acting as a barrier against tumorigenesis.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Biological Process
+  - biological-process
   - senescence
 aliases: []
 ---
@@ -30,6 +29,14 @@ TLS contributes to the clearance of precancerous cells in vivo and shapes tissue
 ## Research Implications
 
 TLS is a useful model for studying checkpoint failure and for testing combinations of tumor-suppressor-pathway-targeted agents with senescence-modulating drugs. It links directly to [[Cancer]] biology, cellular [[Aging]], and the design of interventions that harness natural barriers to transformation.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - Conceptually and mechanistically, OIS is closely related to Tumor-Suppressor Loss-Induced Senescence (Chen et al., ; Di Mitri & Alimonti, ).
+
 
 ## Connections
 

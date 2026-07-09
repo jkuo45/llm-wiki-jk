@@ -1,11 +1,10 @@
 ---
 title: PKCζ
 description: Protein kinase C zeta (PKCζ) is an atypical, calcium- and DAG-independent PKC isoform that promotes cell survival and proliferation through NF-κB activation and inhibition of pro-apoptotic proteins such as Caspase-9 and Bax.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Enzyme
+  - enzyme
 aliases: []
 ---
 
@@ -24,6 +23,14 @@ PKCζ maintains cell polarity, protein synthesis (via mTORC1), and survival sign
 ## Clinical & Research Relevance
 
 PKCζ is pursued as a diagnostic and prognostic marker and as a therapeutic target; small-molecule inhibitors (e.g., aurothiomalate, CRT0066101) and dominant-negative constructs reduce tumor growth and restore apoptosis in preclinical models. Its role in NF-κB survival signaling makes it a combinatorial target with [[Chemotherapy]] to overcome resistance.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - Suppressing mitotic cell death | | Caspase-9 | | PKCζ | Ser144 | Suppression of activity | | | Caspase-9 |
+
 
 ## Connections
 

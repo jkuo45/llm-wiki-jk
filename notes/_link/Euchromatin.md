@@ -1,13 +1,12 @@
 ---
 title: Euchromatin
-description: 'Euchromatin is the lightly packed, transcriptionally active form
+description: Euchromatin is the lightly packed, transcriptionally active form
   of Chromatin. It is characterized by high levels of Histone Acetylation and low
-  levels of DNA methylation, which keep the DNA ac...'
-type: entity
+  levels of DNA methylation, which keep the DNA ac...
 created: 2024-01-01
 updated: 2024-01-01
 tags:
-  - Biological Molecule
+  - biological-molecule
   - epigenetics
 aliases: []
 ---
@@ -25,6 +24,16 @@ The formation and maintenance of euchromatin are regulated by enzymes like [[His
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - In the nucleus a large fraction of SIRT1 is associated with Euchromatin, whereas SIRT6 associates with Heterochromatin and SIRT7 is found in the nucleolus . The sirtuin that resides most prominently in the cytoplasm is SIRT2 .
+
+
 ## Connections
 - **[[Chromatin]]**: The general term for the DNA-protein complex.
 - **[[Heterochromatin]]**: The repressive counterpart to euchromatin.
@@ -34,4 +43,4 @@ The formation and maintenance of euchromatin are regulated by enzymes like [[His
 ## Linking Summary
 - New links added: [[Euchromatin]], [[Chromatin]], [[Histone Acetylation]], [[Transcription]], [[Heterochromatin]], [[Aging]], [[SASP]], [[Transposable Elements]], [[Genomic Instability]], [[Histone Acetyltransferase]], [[Histone Deacetylase]]
 - Suggested new entity notes to create: [[Open Chromatin]], [[Chromatin Accessibility]], [[Active Promoters]]
-- Strong connections to strengthen: [[Euchromatin]] ↔ [[Transcription]], [[Euchromatin]] ↔ [[Heterochromatin]]
+  - Strong connections to strengthen: [[Euchromatin]] ↔ [[Transcription]], [[Euchromatin]] ↔ [[Heterochromatin]]

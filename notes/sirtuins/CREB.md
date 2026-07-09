@@ -3,15 +3,12 @@ title: cAMP Response Element Binding Protein (CREB)
 description: cAMP Response Element Binding Protein (CREB/CREB1) is a 43 kDa basic leucine
   zipper (bZIP) transcription factor that binds cAMP response elements (CRE) in target
   gene promoters. It integrates cAMP, Ca2+/calmodulin, and growth factor signals.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Protein
+  - protein
 aliases: [CREB, CREB1, cAMP Response Element Binding Protein 1]
-sources:
-  - Michan 2007
-target: CREB
+source: Michan 2007
 ---
 
 # cAMP Response Element Binding Protein (CREB)
@@ -40,6 +37,14 @@ The [[cAMP]]→[[PKA]]→CREB axis is central to [[Resveratrol]] action: resvera
 ## Physiological and Pathological Relevance
 
 CREB is essential for long-term memory, synaptic plasticity, circadian rhythms, and metabolic gene regulation. Reduced CREB/BDNF signaling is implicated in [[Depression]] and cognitive decline, whereas excessive CREB activity can promote survival of transformed cells. Its regulation by SIRT1 ties it to [[Longevity]] and metabolic health, making CREB a nodal transcription factor in geroscience.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Functional studies showed that SIRT3 reversed Bnip3 expression and promoted Bnip3-required Mitophagy activity via the ERK-CREB signaling pathway.
+
 
 ## Connections
 

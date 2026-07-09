@@ -1,13 +1,12 @@
 ---
 title: Phagocytes
-description: 'Phagocytes are immune cells that engulf and destroy pathogens, cellular
+description: Phagocytes are immune cells that engulf and destroy pathogens, cellular
   debris, and foreign particles through phagocytosis. Their microbicidal activity
-  depends critically on the Respiratory Bur...'
-type: entity
+  depends critically on the Respiratory Bur...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Cell Type
+  - cell-type
 aliases: [Phagocyte, Phagocytic cells]
 
 ---

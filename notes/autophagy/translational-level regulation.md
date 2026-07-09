@@ -3,11 +3,10 @@ title: translational-level regulation
 description: Translational-level regulation refers to the control of protein synthesis
   from mRNA, such as the regulation of TFEB protein levels by PDCD4, eIF4A, and Spermidine-mediated
   hypusination of eIF5A.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Biological Process
+  - biological-process
 aliases: []
 ---
 # translational-level regulation
@@ -17,6 +16,14 @@ Translational-level regulation refers to the control of protein synthesis from m
 ## Mechanisms
 
 Autophagy is translationally regulated through [[eIF2α]] phosphorylation, [[4E-BP1]]/[[eIF4E]] control, [[PDCD4]]/[[eIF4A]] inhibition, and [[m6A Modification]] of autophagy gene mRNAs.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - Suggested new entity notes to create: transcriptional regulation, translational-level regulation, ischemic injury, metabolic disorders, leucine zi
+
 
 ## Connections
 

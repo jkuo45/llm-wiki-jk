@@ -3,11 +3,10 @@ title: Bifidobacterium
 description: Bifidobacterium is a genus of Gram-positive, non-motile, often branched
   anaerobic bacteria that are common inhabitants of the gastrointestinal tract and
   are often used as probiotics.
-type: entity
 created: 2024-01-01
 updated: 2024-01-01
 tags:
-  - Microorganism
+  - organism
 aliases: []
 ---
 # Bifidobacterium
@@ -28,4 +27,4 @@ Bifidobacterium is a genus of Gram-positive, non-motile, often branched anaerobi
 ## Linking Summary
 - New links added: [[Gut Microbiome]], [[Lactobacillus]], [[Centenarians]]
 - Suggested new entity notes to create: [[Probiotics]]
-- Strong connections to strengthen: [[Bifidobacterium]] ↔ [[Longevity]]
+  - Strong connections to strengthen: [[Bifidobacterium]] ↔ [[Longevity]]

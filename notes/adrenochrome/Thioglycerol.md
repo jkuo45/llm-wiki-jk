@@ -1,12 +1,11 @@
 ---
 title: Thioglycerol
-description: 'Thioglycerol is a chemical compound used in some pharmaceutical
-  formulations.'
-type: entity
+description: Thioglycerol is a chemical compound used in some pharmaceutical
+  formulations.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: []
 ---
 
@@ -16,6 +15,14 @@ aliases: []
 
 ## Application
 It serves as an antioxidant stabilizer, potentially replacing sulfites in newer [[Epinephrine]] formulations to minimize degradation and improve shelf life.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - intermediates, precursor, hemoglobin|intermediates, precursor, hemoglobin]]
+    - Newer formulations explore sulfite-free options like Cysteine or Thioglycerol. patents.google.com - Chelating agents: Reduce metal-catalyzed oxidation.
+
 
 ## Connections
 - [[Antioxidants]]

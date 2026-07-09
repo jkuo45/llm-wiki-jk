@@ -1,12 +1,11 @@
 ---
 title: N-Acetylcysteine
-description: 'N-Acetylcysteine (NAC) is a derivative of the amino acid cysteine
-  and acts as a potent antioxidant and a precursor to Glutathione.'
-type: entity
+description: N-Acetylcysteine (NAC) is a derivative of the amino acid cysteine
+  and acts as a potent antioxidant and a precursor to Glutathione.
 created: 2024-01-01
 updated: 2024-01-01
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: []
 ---
 
@@ -23,4 +22,4 @@ NAC is widely used to replenish glutathione stores and is a key component of the
 - [[GlyNAC]] — interacts with N-Acetylcysteine
 ## Linking Summary
 - New links added: [[Glutathione]], [[GlyNAC]], [[Oxidative Stress]]
-- Strong connections to strengthen: [[N-Acetylcysteine]] ↔ [[Glutathione]]
+  - Strong connections to strengthen: [[N-Acetylcysteine]] ↔ [[Glutathione]]

@@ -3,11 +3,10 @@ title: PP2A
 description: Protein phosphatase 2A (PP2A) is a serine/threonine phosphatase that
   dephosphorylates TFEB at multiple sites (S109, S114, S122) to promote its nuclear
   translocation.
-type: entity
 created: 2024-01-01
 updated: 2024-01-01
 tags:
-  - Enzyme
+  - enzyme
 aliases: []
 ---
 # PP2A
@@ -19,12 +18,36 @@ Protein phosphatase 2 (PP2), also known as PP2A, is an enzyme that in humans is 
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - in HEK293T cells and mouse primary hepatocytes confirmed that protein phosphatase 2 (PP2A), a serine/threonine phosphatase, interacts with TFEB and dephosphorylate it \[\].
+
+  - [[_document_ - Kinase|Kinase]]
+    - ear export | 32622269 | | S122 | Phosphorylation | mTORC1 | Cytoplasmic retention | 21617040 | | S122 | Dephosphorylation | PP2A | Nucleus translocation | 29945972 | | S467 | Phosphorylation | Akt | Cytop
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - The activation of mTORC1 has also been shown to promote Ribosome Biogenesis by stimulating the transcription of ribosomal RNA through a process involving the PP2A and the TIF-IA (TIF-IA) (Mayer et al., 2004).
+
+  - [[_document_ - Caspase|Caspase]]
+    - Caspase-3 | | p38 MAPK (PP2A) | Ser150 | Suppression of activity | | | Caspase-7 |
+
+  - [[_document_ - biochemical_basis_hormesis_2026.04.20.719646v1.full|The Biochemical Basis of Hormesis]]
+    - PP2A is modeled as the main phosphatase counteracting [[mTORC1]] in the activation of [[S6K1/2]]; it balances the mTORC1→S6K1/2 branch of the [[Incoherent Bivalent Motif]] underlying rapamycin hormesis.
+
 ## Connections
+- [[S6K1/2]] — PP2A dephosphorylates/counteracts mTORC1-driven S6K1/2 activation
+- [[mTORC1]] — PP2A opposes mTORC1 in S6K1/2 activation
+- [[Incoherent Bivalent Motif]] — PP2A balances one branch of the mTORC1-centered motif
 - [[Phosphorylation]] — interacts with PP2A
 - [[Caspase-3]] — catalyzes reaction involving PP2A
 - [[Bax]] — interacts with PP2A
 - [[TFEB]] — master transcription factor for lysosomal biogenesis and autophagy
 ## Linking Summary
-- New links added: [[TFEB]], [[Caspase-3]], [[Bax]], [[Phosphorylation]], [[PP2A]]
+- New links added: [[TFEB]], [[Caspase-3]], [[Bax]], [[Phosphorylation]], [[PP2A]], [[S6K1/2]], [[mTORC1]], [[Incoherent Bivalent Motif]]
 - Suggested new entity notes to create: [[Phosphatase]]
-- Strong connections to strengthen: [[PP2A]] ↔ [[TFEB]], [[PP2A]] ↔ [[Caspase-3]], [[PP2A]] ↔ [[Bax]]
+  - Strong connections to strengthen: [[PP2A]] ↔ [[TFEB]], [[PP2A]] ↔ Caspase-3, [[PP2A]] ↔ Bax

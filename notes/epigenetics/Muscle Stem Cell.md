@@ -1,11 +1,10 @@
 ---
 title: Muscle Stem Cell
 description: Muscle Stem Cells (satellite cells) are Pax7+ resident progenitors that repair skeletal muscle and exit quiescence upon injury.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Cell Type
+  - cell-type
 aliases: []
 ---
 
@@ -28,6 +27,14 @@ Satellite cells are indispensable for postnatal muscle growth, hypertrophy, and 
 ## Pathology & Clinical Relevance
 
 Aging ([[Aging]]) impairs satellite cell number, function, and niche communication, contributing to sarcopenia. Transient expression of [[Yamanaka Factors]] in myofibers can rejuvenate the satellite-cell niche and enhance regenerative capacity, a focus of [[Rejuvenation]] research. Satellite-cell dysfunction underlies muscular dystrophies and cachexia; cell-based and gene therapies (e.g., [[CRISPR]]-corrected progenitors) are under investigation. Understanding [[Quiescence]] exit is also relevant to [[Cancer]]-associated myopathies and to [[Tissue Repair]] strategies in [[Regenerative Medicine]].
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - Quiescent cells include tissue-resident adult stem cells, such as Hematopoietic Stem Cell, Muscle Stem Cell, and Neural Stem Cell, as well as differentiated cells, including Fibroblast, Hepatocyte, Lymphocyte, and Oocyte (Bangru et al., 2018; Hwang et al.
+
 
 ## Connections
 

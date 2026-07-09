@@ -1,13 +1,12 @@
 ---
 title: Stress-Induced Premature Senescence
-description: 'Stress-Induced Premature Senescence (SIPS) is a form of Cellular
+description: Stress-Induced Premature Senescence (SIPS) is a form of Cellular
   Senescence triggered acutely by exposure to subcytotoxic stress — including oxidative,
-  genotoxic, and epigenetic stressors — wit...'
-type: entity
+  genotoxic, and epigenetic stressors — wit...
 created: 2024-01-01
 updated: 2024-07-04
 tags:
-  - Biological Process
+  - biological-process
   - senescence
 aliases: []
 ---
@@ -61,6 +60,14 @@ SIPS is the most commonly used in vitro model of senescence because it is rapid 
 ## Limitations
 
 SIPS does not fully recapitulate the chronic, multi-stress nature of in vivo aging. SIPS cells lack the sustained telomere dysfunction signaling of replicative senescence, and their SASP kinetics differ. SIPS models should be validated with independent inducers and compared with replicative or age-matched in vivo senescence.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - Many proliferative cell types can undergo so‐called Stress-Induced Premature Senescence upon exposure to subcytotoxic stresses (UV, γ‐irradiation, Hydrogen Peroxide, hyperoxia, etc.) (Toussaint et al., , ).
+
 
 ## Connections
 

@@ -1,13 +1,12 @@
 ---
 title: Val158Met
-description: 'Val158Met (rs4680) is a common functional SNP (Single Nucleotide
+description: Val158Met (rs4680) is a common functional SNP (Single Nucleotide
   Polymorphism) in the COMT gene. It involves a substitution of Valine (Val) for Methionine
-  (Met) at position 158 of the enzyme.'
-type: entity
+  (Met) at position 158 of the enzyme.
 created: 2026-05-25
 updated: 2026-07-04
 tags:
-  - Gene
+  - gene
 aliases: [rs4680, COMT Val158Met]
 
 ---
@@ -27,6 +26,14 @@ The [[Val158Met]] polymorphism impacts:
 - Sensitivity to [[Methyl Donor]] supplements and [[COMT Inhibitors]].
 - Risk for [[Psychiatric Disorders]] like [[Schizophrenia]].
 - Response to certain medications like [[Modafinil]] and [[Aspirin]].
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - Fast COMT (Val158Met) A common genetic variant, called COMT Val158Met changes the way that the COMT enzyme functions.
+
 
 ## Connections
 - [[COMT]]: The gene where this polymorphism occurs.

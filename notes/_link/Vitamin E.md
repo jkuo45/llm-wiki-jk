@@ -1,12 +1,11 @@
 ---
 title: Vitamin E
-description: 'Vitamin E is a group of eight fat-soluble compounds that include
-  four tocopherols and four tocotrienols. It acts as a potent antioxidant.'
-type: entity
+description: Vitamin E is a group of eight fat-soluble compounds that include
+  four tocopherols and four tocotrienols. It acts as a potent antioxidant.
 created: 2026-05-29
 updated: 2026-05-29
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: []
 ---
 
@@ -26,6 +25,19 @@ Research has shown that [[COMT]] variants can impact the efficacy and safety of 
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - Medication and vitamin interactions with COMT: Vitamin E and COMT: A 10-year follow-up to a trial on Vitamin E (Alpha-tocopherol) supplementation showed that the COMT rs4680 variants impacted the risk of Cancer.
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - Several antioxidants have been exploited in recent years for their actual or supposed beneficial effect against oxidative stress, such as Vitamin E, Flavonoids, and Polyphenols.
+
+
 ## Connections
 - [[Oxidative Stress]]
 - [[Atherosclerosis]]
@@ -37,4 +49,4 @@ Research has shown that [[COMT]] variants can impact the efficacy and safety of 
 ## Linking Summary
 - New links added: [[Oxidative Stress]], [[Atherosclerosis]], [[Asthma]], [[Lipid Peroxidation]], [[Alpha-tocopherol]], [[COMT]], [[Cancer]]., [[Cancer]]
 - Suggested new entity notes to create: [[Tocopherols]], [[Tocotrienols]], [[Cell Membranes]]
-- Strong connections to strengthen: [[Vitamin E]] ↔ [[Lipid Peroxidation]]
+  - Strong connections to strengthen: Vitamin E ↔ Lipid Peroxidation

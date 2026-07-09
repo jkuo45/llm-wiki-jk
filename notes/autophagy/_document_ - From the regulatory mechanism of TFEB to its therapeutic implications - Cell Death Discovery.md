@@ -12,7 +12,6 @@ description: Transcription factor EB (TFEB), known as a major transcriptional re
   diseases, and Inflammation. In this review, we aimed to elucidate the regulatory
   mechanism of TFEB and its applications in several disease models by targeting the
   regulation of TFEB as a treatment strategy.
-type: document
 published: 2024-02-15
 created: 2026-06-03
 source: https://www.nature.com/articles/s41420-024-01850-6

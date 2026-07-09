@@ -3,11 +3,10 @@ title: Autophagic Flux
 description: Autophagic flux refers to the complete dynamic process of Autophagy,
   spanning from the formation of the Autophagosome to its fusion with the Lysosome
   and subsequent degradation of cargo.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Biological Process
+  - biological-process
   - autophagy
 aliases: []
 ---
@@ -27,6 +26,20 @@ Flux is quantitated by comparing autophagic markers with and without lysosomal i
 ## Physiological & Pathological Relevance
 
 Impaired flux — not merely altered autophagosome number — underlies pathology. In [[Neurodegeneration]], defective fusion or lysosomal proteolysis causes toxic aggregate accumulation. In [[Cancer]], flux can be hijacked for survival under hypoxia or chemotherapy. Diminished flux contributes to [[Aging]] and [[Oxidative Stress]] damage, while enhancing flux is a therapeutic goal in proteinopathies and metabolic disease. Drugs such as rapamycin (activating [[mTOR]] inhibition) boost flux, whereas chloroquine blocks it (used in cancer and malaria).
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - Perera et al 2015) greatly expanded these findings and documented the following: an increase in size and number of both Autophagosome and Lysosome; an augmentation of Autophagic Flux; high levels of expression of MiTF TFE family (although somewhat less than...
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - It is thought that the promotion of Autophagic Flux prevents host cells from subsequent injuries by removing damaged organelles and misfolded proteins.
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Deacetylation of Beclin1 lysine residue by SIRT1 impairs Autophagic Flux; thus, Autophagosome fusion with lysosomes is compromised. SIRT1 promotes autophagy of cancer cells by reducing acetylation of LC3.
+
 
 ## Connections
 

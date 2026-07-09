@@ -1,14 +1,13 @@
 ---
 title: DNA Damage Response
-description: 'The DNA Damage Response (DDR) is a complex signaling network that detects and repairs DNA lesions to maintain genomic stability.'
-type: entity
+description: The DNA Damage Response (DDR) is a complex signaling network that detects and repairs DNA lesions to maintain genomic stability.
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - genomic stability
-  - DNA repair
+  - genomic-stability
+  - dna-repair
   - epigenetics
-  - Biological Process
+  - biological-process
 aliases: [DDR]
 ---
 
@@ -36,6 +35,14 @@ The DDR can be broadly divided into several stages: sensing, signal transduction
 Defects in the DDR are a major cause of genomic instability and are strongly associated with cancer predisposition and tumorigenesis. Many cancer-causing mutations occur in genes encoding DDR proteins (e.g., BRCA1/2 in the context of homologous recombination). 
 
 Furthermore, many cancer treatments, such as radiation therapy and certain chemotherapies (e.g., platinum-based agents), specifically work by inducing massive DNA damage. These treatments rely on the fact that many cancer cells have compromised DDR mechanisms, making them unable to repair the damage and thus more susceptible to cell death.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - The distinctive phenotypic changes typical of various types of cellular senescence are cell enlargement and flattening, SA-beta-gal (SA-beta-gal), formation of SAHF (SAHF), persistent DNA Damage Response, and SASP (SASP).
+
 
 ## Connections
 

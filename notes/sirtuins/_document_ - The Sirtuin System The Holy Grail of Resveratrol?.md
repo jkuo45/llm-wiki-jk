@@ -4,7 +4,6 @@ description: The oxidative stress theory has been associated with atherosclerosi
   and has prompted a multitude of studies to evaluate the effects of antioxidants
   on cardiovascular disease prevention. Resveratrol, a relatively new antioxidant
   has gained ...
-type: document
 created: 2026-07-04
 source: https://pmc.ncbi.nlm.nih.gov/articles/PMC3613783/
 author:

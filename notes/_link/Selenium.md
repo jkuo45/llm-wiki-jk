@@ -1,13 +1,12 @@
 ---
 title: Selenium
-description: 'Selenium (Se) is an essential trace element that is incorporated
+description: Selenium (Se) is an essential trace element that is incorporated
   into selenoproteins as the 21st amino acid, selenocysteine (Sec, U), where it confers
-  unique redox properties critical for antio...'
-type: entity
+  unique redox properties critical for antio...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: [Se, Selenium element, Selenocysteine (as component)]
 
 ---
@@ -52,5 +51,5 @@ Major dietary sources include Brazil nuts, seafood, organ meats, eggs, and grain
 
 ## Linking Summary
 - New links added: [[Glutathione Peroxidase]], [[Thioredoxin reductase]], [[Iodothyronine deiodinases]], [[Selenoprotein P]], [[Selenoprotein S]], [[Methionine sulfoxide reductase B1]], [[Keshan disease]], [[Kashin-Beck disease]], [[Cancer Prevention]], [[Inflammatory Diseases]], [[Rheumatoid Arthritis]], [[Asthma]], [[Chronic Obstructive Pulmonary Disease]], [[Neurodegeneration]]
-- Strong connections to strengthen: [[Selenium]] ↔ [[Glutathione Peroxidase]], [[Selenium]] ↔ [[Thioredoxin reductase]], [[Selenium]] ↔ [[Iodothyronine deiodinases]], [[Selenium]] ↔ [[Selenoprotein P]], [[Selenium]] ↔ [[Selenoprotein S]]
+  - Strong connections to strengthen: [[Selenium]] ↔ Glutathione Peroxidase, [[Selenium]] ↔ Thioredoxin reductase, [[Selenium]] ↔ Iodothyronine deiodinases, [[Selenium]] ↔ Selenoprotein P, [[Selenium]] ↔ Selenoprotein S
 

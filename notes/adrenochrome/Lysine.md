@@ -3,16 +3,23 @@ title: Lysine
 description: Lysine is an α-amino acid that is used in the biosynthesis of proteins.
   It is one of the primary amino acids that reacts with reducing sugars in the Maillard
   Reaction to form Advanced Glycation End...
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: []
 ---
 # Lysine
 
 Lysine is an α-amino acid that is used in the biosynthesis of proteins. It is one of the primary amino acids that reacts with reducing sugars in the [[Maillard Reaction]] to form [[Advanced Glycation End Products|AGEs]] like [[Pyrraline]].
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Dietary Advanced Glycation End Products and Aging|Dietary Advanced Glycation End Products and Aging]]
+    - First, Glucose attaches to a free amino acid (mainly Lysine and Arginine) of a protein, lipid or DNA, in a non–enzymatic way to form a Schiff base.
+
 
 ## Connections
 

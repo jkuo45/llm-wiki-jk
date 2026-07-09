@@ -1,12 +1,11 @@
 ---
 title: Selective Autophagy
-description: 'Selective Autophagy is a highly selective, receptor-mediated pathway
-  that targets, degrades, and recycles specific cellular cargo.'
-type: entity
+description: Selective Autophagy is a highly selective, receptor-mediated pathway
+  that targets, degrades, and recycles specific cellular cargo.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Biological Process
+  - biological-process
   - autophagy
 aliases: []
 ---
@@ -26,6 +25,14 @@ aliases: []
 ## Types
 
 Selective autophagy includes [[Mitophagy]], [[Lipophagy]], [[Pexophagy]], [[Reticulophagy]] (ER), [[Nucleophagy]], [[Xenophagy]] (pathogens), and [[Aggrephagy]]. Each uses specific cargo receptors.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
+    - Macroautophagy, generally referred to as autophagy, is mostly a highly selective, receptor-mediated pathway (Selective Autophagy) that targets, degrades and recycles specific cargo.
+
 
 ## Connections
 

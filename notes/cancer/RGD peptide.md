@@ -1,11 +1,10 @@
 ---
 title: RGD peptide
 description: The RGD tripeptide motif (Arg-Gly-Asp) is the canonical cell-adhesion sequence recognized by integrins in the extracellular matrix; RGD-based peptides and mimetics are used to block adhesion, angiogenesis, and tumor metastasis.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Biological Molecule
+  - biological-molecule
 aliases: []
 ---
 
@@ -24,6 +23,14 @@ Physiologically, RGD–integrin interactions govern tissue morphogenesis, wound 
 ## Clinical & Research Relevance
 
 Cilengitide, a cyclic RGD pentapeptide, reached clinical trials (notably glioblastoma) as an integrin antagonist, illustrating the therapeutic concept. iRGD is used to enhance tumor penetration and drug delivery of conjugated payloads. RGD motifs are also exploited in imaging probes for integrin-positive lesions and as components of biomaterials. The peptide remains a foundational element of adhesion and anti-angiogenic research.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - These are peptides which contain the RGD peptide motif. They are pro-apoptotic and have the ability to induce auto-activation of proCaspase-3 directly.
+
 
 ## Connections
 

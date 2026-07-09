@@ -1,11 +1,10 @@
 ---
 title: PP1
 description: Protein phosphatase 1 (PP1) is a ubiquitous serine/threonine protein phosphatase that counteracts kinase signaling, regulating caspase activation, cell cycle, and metabolism; it opposes CaMKII-mediated phosphorylation of Caspase-2.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Enzyme
+  - enzyme
 aliases: []
 ---
 
@@ -24,6 +23,14 @@ PP1 integrates signals from cAMP, calcium, and stress pathways to maintain homeo
 ## Clinical & Research Relevance
 
 PP1 regulatory subunits are biomarkers and therapeutic handles. Inhibitors such as calyculin A and okadaic acid are research tools; targeting specific PP1 holoenzyme complexes offers selectivity absent from catalytic inhibition. Modulating PP1 to control [[Caspase-2]]-dependent death is a conceptual strategy to sensitize tumors to [[Chemotherapy]] and genotoxic stress.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - Suppressing mitotic cell death | | Caspase-2 | | CaMKII (PP1) | Ser164 | Suppression of activity | Metabolically regulated | | Caspase-2
+
 
 ## Connections
 

@@ -2,11 +2,10 @@
 title: High-Throughput Screening
 description: An automated experimental method for assaying large libraries of compounds
   or genetic perturbations rapidly, widely used in drug discovery.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Analytical Technique
+  - analytical-technique
 aliases: []
 ---
 

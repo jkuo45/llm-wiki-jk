@@ -3,11 +3,10 @@ title: PARP1
 description: PARP1 (Poly [ADP-ribose] polymerase 1, 116 kDa) is a nuclear zinc-finger
   enzyme that detects DNA strand breaks and catalyzes the transfer of ADP-ribose units
   from NAD+ onto target proteins, forming poly(ADP-ribose) (PAR) chains.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Enzyme
+  - enzyme
 aliases: [PARP-1, Poly(ADP-ribose) polymerase 1, ARTD1]
 ---
 
@@ -45,6 +44,16 @@ PARP1 hyperactivation is also implicated in ischemia–reperfusion injury. Durin
 
 PARP1 also promotes [[Inflammation]] by facilitating NF-κB-dependent cytokine expression, positioning it as a potential target in chronic inflammatory conditions. PARP inhibitors have demonstrated anti-inflammatory effects in models of arthritis, colitis, and endotoxemia. The interplay between PARP1 and [[SIRT1]] adds another layer of metabolic regulation: because both enzymes consume [[NAD+]], hyperactive PARP1 can suppress SIRT1-dependent deacetylation and metabolic homeostasis, linking DNA damage to metabolic dysfunction. Recent research has also revealed roles for PARP1 in the regulation of gene expression through PARylation of transcription factors, RNA polymerase II, and chromatin-remodeling complexes, expanding its biological significance well beyond classical DNA repair.
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses|Nicotinamide Riboside—The Current State of Research and Therapeutic Uses]]
+    - PARP1 and PARP2 respond to DNA breaks in the nucleus and facilitate the process of DNA repair \[\].
+
+
 ## Connections
 
 - [[PARP2]] — related family member with ~20% catalytic activity, cooperates in DNA repair
@@ -66,4 +75,4 @@ PARP1 also promotes [[Inflammation]] by facilitating NF-κB-dependent cytokine e
 
 - New links added: [[PARP2]], [[NAD+]], [[DNA Repair]], [[BRCA1]], [[XRCC1]], [[ATM]], [[PARP inhibitors]], [[Apoptosis]], [[Chromatin]], [[NF-κB]], [[Inflammation]], [[DNA Damage]], [[Histone Modification]], [[Oxidative Stress]], [[ATP]], [[SIRT1]]
 - Suggested new entity notes to create: [[PARG]], [[Parthanatos]]
-- Strong connections to strengthen: [[PARP1]] ↔ [[DNA Repair]], [[PARP1]] ↔ [[NAD+]], [[PARP1]] ↔ [[PARP inhibitors]], [[PARP1]] ↔ [[BRCA1]]
+  - Strong connections to strengthen: [[PARP1]] ↔ DNA Repair, [[PARP1]] ↔ [[NAD+]], [[PARP1]] ↔ PARP inhibitors, [[PARP1]] ↔ BRCA1

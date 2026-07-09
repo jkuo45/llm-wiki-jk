@@ -4,7 +4,6 @@ description: In recent years, our vision of lysosomes has drastically changed. F
   being considered as mere degradative compartments, they are now recognized as key
   players in many cellular processes. The ability of lysosomes to respond to different
   stimuli ...
-type: document
 created: 2026-06-03
 source: https://pmc.ncbi.nlm.nih.gov/articles/PMC6490169/
 author:

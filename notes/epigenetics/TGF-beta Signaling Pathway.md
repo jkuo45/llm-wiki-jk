@@ -1,11 +1,10 @@
 ---
 title: TGF-β Signaling Pathway
 description: Transforming Growth Factor-beta signaling regulates cell proliferation, differentiation, apoptosis, and immune modulation through SMAD2/3/4-dependent and independent mechanisms. Dual role as tumor suppressor early and oncogenic driver late in cancer progression.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Biological Process
+  - biological-process
 aliases: [TGF-beta Signaling, TGF-β Signaling, Transforming Growth Factor-beta Signaling]
 ---
 
@@ -33,6 +32,14 @@ Chronic TGF-β activation drives pathological fibrosis in liver (cirrhosis), lun
 ## Immune Regulation
 
 TGF-β is a master regulator of immune tolerance. It suppresses Th1/Th2/Th17 differentiation, promotes Treg (FoxP3+) and Th9 development, and inhibits macrophage and dendritic cell activation. Dysregulation contributes to autoimmunity and cancer immune evasion.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network|Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network]]
+    - Mentioned in this document
+
 
 ## Connections
 

@@ -2,11 +2,10 @@
 title: Acetate
 description: Acetate is a two-carbon short-chain fatty acid and the most abundant
   SCFA in the gut, playing a role in lipid metabolism and systemic immune regulation.
-type: entity
 created: 2024-01-01
 updated: 2024-01-01
 tags:
-  - Metabolite
+  - biological-molecule
 aliases: []
 ---
 # Acetate
@@ -28,4 +27,4 @@ Acetate is a two-carbon short-chain fatty acid and the most abundant SCFA in the
 ## Linking Summary
 - New links added: [[Short-chain Fatty Acids]], [[Gut Microbiome]], [[Metabolism]], [[Acetyl-CoA]]
 - Suggested new entity notes to create: [[Lipid Metabolism]]
-- Strong connections to strengthen: [[Acetate]] ↔ [[Acetylation]]
+  - Strong connections to strengthen: [[Acetate]] ↔ [[Acetylation]]

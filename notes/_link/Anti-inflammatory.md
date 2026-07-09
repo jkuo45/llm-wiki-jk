@@ -3,11 +3,10 @@ title: Anti-inflammatory
 description: Anti-inflammatory refers to substances, interventions, or mechanisms
   that reduce Inflammation. This encompasses pharmacological agents (NSAIDs, Corticosteroids,
   DMARDs, Biologics), dietary compound...
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - Enzyme
+  - enzyme
 aliases: []
 ---
 # Anti-inflammatory
@@ -15,6 +14,16 @@ aliases: []
 Anti-inflammatory refers to substances, interventions, or mechanisms that reduce [[Inflammation]]. This encompasses pharmacological agents ([[NSAIDs]], [[Corticosteroids]], [[DMARDs]], [[Biologics]]), dietary compounds ([[Curcumin]], [[Resveratrol]], [[Omega-3 Fatty Acids]], [[Polyphenols]]), and lifestyle interventions ([[Exercise]], [[Caloric Restriction]], [[Fasting]]). Anti-inflammatory mechanisms include inhibition of [[NF-κB]], [[COX]], [[LOX]], [[Cytokine]] signaling, and [[Reactive Oxygen Species]] production. Chronic [[Low-grade Inflammation]] is a hallmark of [[Aging]] and contributes to [[Cardiovascular Disease]], [[Metabolic Syndrome]], [[Neurodegeneration]], and [[Cancer]].
 
 #
+
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - The following are commonly used natural Anti-inflammatory and Mast Cell Inhibitors supplements. These natural Flavonoids contain a catechol structure and are metabolized by COMT.
+
 
 ## Connections
 - [[Inflammation]] — the target process of anti-inflammatory interventions
@@ -30,4 +39,4 @@ Anti-inflammatory refers to substances, interventions, or mechanisms that reduce
 ## Linking Summary
 - New links added: [[Inflammation]], [[NF-κB]], [[NSAIDs]], [[Corticosteroids]], [[DMARDs]], [[Biologics]], [[Curcumin]], [[Resveratrol]], [[Omega-3 Fatty Acids]], [[Polyphenols]], [[Exercise]], [[Caloric Restriction]], [[Fasting]], [[COX]], [[LOX]], [[Cytokine]], [[Reactive Oxygen Species]], [[Aging]], [[Cardiovascular Disease]], [[Metabolic Syndrome]], [[Neurodegeneration]], [[Cancer]]
 - Suggested new entity notes to create: [[Inflammaging]], [[Low-grade Inflammation]]
-- Strong connections to strengthen: [[Anti-inflammatory]] ↔ [[Inflammation]], [[Anti-inflammatory]] ↔ [[NF-κB]]
+  - Strong connections to strengthen: [[Anti-inflammatory]] ↔ [[Inflammation]], [[Anti-inflammatory]] ↔ NF-κB

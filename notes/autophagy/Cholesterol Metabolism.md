@@ -3,11 +3,10 @@ title: Cholesterol Metabolism
 description: Cholesterol metabolism involves the pathways for cholesterol synthesis,
   transport, and regulation; enzymes like ACAT1 in these pathways can also regulate
   TFEB activity via acetylation.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Biological Process
+  - biological-process
 aliases: []
 ---
 # Cholesterol Metabolism
@@ -20,6 +19,14 @@ Cholesterol metabolism involves biosynthesis via the [[Mevalonate Pathway]], upt
 ## Autophagy Connection
 
 [[Autophagy]] delivers cholesterol from lipid droplets to [[Lysosome]]s for hydrolysis by [[Lysosomal Acid Lipase]]. Cholesterol accumulation impairs autophagic flux, while autophagy supports cholesterol efflux.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - ischemic injury]], metabolic disorders, leucine zipper transcription Factors, TGF-β Signaling, Hypusination, Tumor Suppressor, Translation Initiation, MAPK Signaling, ERK Signaling, Lysosomal Localization, Nuclear Export, Cell Cycle, Energy Homeostasis, PI3...
+
 
 ## Connections
 

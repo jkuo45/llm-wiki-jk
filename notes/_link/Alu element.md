@@ -1,12 +1,11 @@
 ---
 title: Alu element
-description: 'Alu elements are the most abundant transposable elements in the
-  human genome, belonging to the SINE (Short Interspersed Nuclear Element) family.'
-type: entity
+description: Alu elements are the most abundant transposable elements in the
+  human genome, belonging to the SINE (Short Interspersed Nuclear Element) family.
 created: 2024-01-01
 updated: 2024-01-01
 tags:
-  - Biological Molecule
+  - biological-molecule
 aliases: []
 ---
 
@@ -28,5 +27,5 @@ aliases: []
 
 ## Linking Summary
 - New links added: [[Transposable Elements]], [[Genomic Instability]], [[Cellular Senescence]]
-- Strong connections to strengthen: [[Alu element]] ↔ [[Transposable Elements]], [[Alu element]] ↔ [[Genomic Instability]], [[Alu element]] ↔ [[Cellular Senescence]]
+  - Strong connections to strengthen: Alu element ↔ Transposable Elements, Alu element ↔ Genomic Instability, Alu element ↔ Cellular Senescence
 

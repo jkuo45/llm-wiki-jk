@@ -3,11 +3,10 @@ title: HSP70
 description: HSP70 (Heat Shock Protein 70 kDa) is a family of highly conserved molecular
   chaperones that assist in Protein Folding, prevent Protein Aggregation, and facilitate
   Proteostasis. Major family members...
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: []
 ---
 # HSP70
@@ -31,4 +30,4 @@ HSP70 (Heat Shock Protein 70 kDa) is a family of highly conserved molecular chap
 ## Linking Summary
 - New links added: [[Hsp90]], [[HSF1]], [[Protein Folding]], [[Proteostasis]], [[ATP]], [[Apoptosis]], [[Cancer]], [[Neurodegeneration]], [[Oxidative Stress]], [[Proteotoxic Stress]], [[Heat Shock]], [[BiP]]
 - Suggested new entity notes to create: [[HSP40]], [[HSC70]], [[HSP72]], [[Mortalin HSPA9]]
-- Strong connections to strengthen: [[HSP70]] ↔ [[Proteostasis]], [[HSP70]] ↔ [[Hsp90]]
+  - Strong connections to strengthen: [[HSP70]] ↔ Proteostasis, [[HSP70]] ↔ [[Hsp90]]

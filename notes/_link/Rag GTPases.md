@@ -1,13 +1,12 @@
 ---
 title: Rag GTPases
-description: 'Overview: Rag GTPases is a cellular protein with structural, signaling,
+description: 'Overview: Rag GTPases is a cellular protein with structural, signaling,'
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
-  and signaling networks that gove...'
-type: entity
+  and signaling networks that gove...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [RagA/B/C/D]
 
 ---
@@ -24,10 +23,20 @@ aliases: [RagA/B/C/D]
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - Ragulator, a pentameric protein complex, interacts with the Rag GTPases and recruits them to the lysosomes \[\]. Rag GTPases heterodimers consisted of Rag A or B linked to Rag C or D \[\].
+
+
 ## Connections
 - [[Rag GTPases]] — related entity
 
 ## Linking Summary
 - New links added: [[Rag GTPases]]
-- Strong connections to strengthen: [[Rag GTPases]] ↔ [[Rag GTPases]]
+  - Strong connections to strengthen: Rag GTPases ↔ Rag GTPases
 

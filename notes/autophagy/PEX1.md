@@ -3,11 +3,10 @@ title: PEX1
 description: PEX1 is a critical gene that encodes a peroxisomal membrane protein (peroxin)
   essential for the assembly and biogenesis of the Peroxisome. It plays a central
   role in the formation of the Peroxisome...
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [peroxisomal biogenesis factor 1]
 ---
 # PEX1

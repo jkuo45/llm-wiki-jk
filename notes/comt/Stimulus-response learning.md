@@ -1,11 +1,10 @@
 ---
 title: Stimulus-response learning
 description: Stimulus-response learning is habit learning in which a cue automatically elicits a learned action, dependent on striatal dopamine and modulated by COMT.
-type: entity
 created: 2026-05-25
 updated: 2026-07-07
 tags:
-  - Biological Process
+  - biological-process
 aliases: [S-R learning, habit learning]
 ---
 
@@ -28,6 +27,14 @@ S-R learning underlies both adaptive expertise and maladaptive habits (addiction
 ## Clinical and Research Relevance
 
 COMT genotype is a candidate moderator of rehabilitation and habit-formation training. Understanding S-R mechanisms informs therapeutic approaches to compulsive and addictive disorders and to motor learning after injury.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum|Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum]]
+    - By performing an extensive battery of behavioral tests, we found that COMT overexpressing mice (COMT-OE mice) exhibit cognitive deficits selectively in the domains that are affected by the COMT Val 158 allele, Stimulus-response learning and Working Memory, ...
+
 
 ## Connections
 

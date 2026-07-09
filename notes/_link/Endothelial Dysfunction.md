@@ -1,13 +1,12 @@
 ---
 title: Endothelial Dysfunction
-description: 'Endothelial dysfunction is a systemic pathological state of the
+description: Endothelial dysfunction is a systemic pathological state of the
   vascular endothelium characterized by reduced bioavailability of Nitric Oxide, impaired
-  vasodilation, increased Inflammation adhe...'
-type: entity
+  vasodilation, increased Inflammation adhe...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: [Endothelial dysfunction, Vascular endothelial dysfunction]
 
 ---
@@ -35,8 +34,21 @@ Restoring endothelial function requires simultaneously enhancing NO bioavailabil
 - New links added in this revision: [[Nitric Oxide Synthase]], [[Tetrahydrobiopterin]], [[Peroxynitrite]], [[NADPH Oxidase]], [[Angiotensin II]], [[TNF-alpha]], [[Xanthine Oxidase]], [[Mitochondria]], [[Hypoxia]], [[ADMA]], [[Flow-Mediated Dilation]], [[von Willebrand Factor]], [[E-Selectin]], [[Melatonin]], [[Caloric Restriction]], [[Flavonoids]], [[Polyphenols]], [[NRF2]], [[Metformin]], [[AMPK]], [[Mitochondrial ROS]], [[Inflammation]], [[Atherosclerosis]], [[Diabetes Mellitus]], [[Antioxidants]], [[sICAM-1]], [[sVCAM-1]]
 - New links added: [[Nitric Oxide]], [[Atherosclerosis]], [[Cardiovascular Disease]], [[Oxidative Stress]], [[Inflammation]], [[Insulin Signaling]], [[Pulse Wave Velocity]], [[Hypertension]], [[Reactive Oxygen Species]]
 - Suggested new entity notes to create: [[DDAH]], [[Sapropterin]], [[Reactive Hyperemia Index]], [[Pleiotropic Effects of Statins]], [[eNOS]], [[VCAM-1]], [[ICAM-1]], [[Flow-Mediated Dilation]], [[Vasodilation]], [[Vasoconstriction]]
-- Strong connections to strengthen: [[Endothelial Dysfunction]] ↔ [[Atherosclerosis]], [[Endothelial Dysfunction]] ↔ [[Nitric Oxide]]
+  - Strong connections to strengthen: Endothelial Dysfunction ↔ [[Atherosclerosis]], Endothelial Dysfunction ↔ Nitric Oxide
 #
+
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The autophagy enhancer spermidine reverses arterial aging|The autophagy enhancer spermidine reverses arterial aging]]
+    - rticle in this issue]( Introduction Aging causes two key changes in arteries that significantly increase the risk of Cardiovascular Disease: stiffening of the large elastic arteries (aorta and carotid arteries) and the development of vascular Endothelial Dy...
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - oenzyme Q10]], Genistein - Suggested new entity notes to create: 8-oxo-2'-deoxyguanosine, Base Excision Repair, PPARγ, LXRα, ABCA1, VCAM-1, TNF-alpha, IL-1b, TGF-beta, Uremia, Proteinuria, Renal Failure, Malondialdehyde, L-arginine, Coenzyme Q10, Genistein,...
+
 
 ## Connections
 - [[Atherosclerosis]] — Endothelial dysfunction initiates plaque formation

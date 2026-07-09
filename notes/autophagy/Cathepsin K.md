@@ -2,11 +2,10 @@
 title: Cathepsin K
 description: A lysosomal cysteine protease involved in bone resorption and degradation
   of extracellular matrix.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Enzyme
+  - enzyme
 aliases: [CTSK]
 ---
 # Cathepsin K
@@ -27,6 +26,14 @@ Loss-of-function mutations in the CTSK gene cause [[Pycnodysostosis]], an autoso
 
 ## Therapeutic Targeting
 Selective cathepsin K inhibitors (e.g., [[Odanacatib]], [[Balicatib]]) were developed for osteoporosis treatment. Odanacatib reached Phase III clinical trials but was discontinued due to increased risk of cardiovascular events (stroke). Off-target effects on cathepsin K expressed in vascular walls and metabolic tissues may underlie these adverse effects.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - MITF also induces expression of particular lysosomal genes critical for Osteoclast function, including CLCN7, OSTM1, ACP5, and Cathepsin K (Hershey & Fisher 2004, Meadows et al 2007, Motyckova et al 2001).
+
 
 ## Connections
 

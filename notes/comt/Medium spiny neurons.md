@@ -1,11 +1,10 @@
 ---
 title: Medium spiny neurons
 description: Medium spiny neurons (MSNs) are GABAergic inhibitory cells constituting ~95% of neurons in the striatum and the principal targets of dopaminergic inputs.
-type: entity
 created: 2026-05-25
 updated: 2026-07-07
 tags:
-  - Cell Type
+  - cell-type
 aliases: [MSNs]
 ---
 
@@ -33,6 +32,14 @@ This D1/D2 segregation is the cellular substrate of basal ganglia control over a
 ## Pathological Relevance
 
 Loss of nigral dopamine (as in [[Parkinson's Disease]]) disrupts the direct/indirect balance, producing the classic motor phenotype. Altered MSN dopamine signaling and COMT activity are also implicated in [[Schizophrenia]] and addiction, where D2-MSN dysfunction contributes to aberrant salience and habit formation.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum|Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum]]
+    - Neuronal cells expressing COMT include pyramidal neurons, cerebellar Purkinje and granular cells, and striatal Medium spiny neurons (MSNs). Nonneuronal cells expressing COMT include microglial cells, intestinal macrophages, and astroglia.
+
 
 ## Connections
 

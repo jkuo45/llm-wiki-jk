@@ -1,11 +1,10 @@
 ---
 title: Manganism
-description: 'Manganism is a neurological disorder caused by chronic exposure to Manganese, characterized by motor symptoms that resemble Parkinson''s Disease but typically involve different pathological mechanisms.'
-type: entity
+description: Manganism is a neurological disorder caused by chronic exposure to Manganese, characterized by motor symptoms that resemble Parkinson''s Disease but typically involve different pathological mechanisms.
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: []
 ---
 
@@ -28,6 +27,14 @@ Crucially, manganism lacks the [[Lewy Bodies]] and alpha-synuclein pathology tha
 ## Diagnosis and Management
 
 Diagnosis rests on exposure history and characteristic T1-hyperintensity of the globus pallidus on [[Magnetic Resonance Imaging]], supported by blood Mn levels. Management is primarily removal from exposure; chelation is of limited benefit once neuronal injury is established. The condition remains a key human model of metal-induced [[Neurotoxin]] injury.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator|Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator]]
+    - Manganism, which exhibits symptoms very similar to Parkinson's Disease (Lucchini et al., 2009), also displays a clearly plausible mechanism in this scenario through replacement of the Iron normally found bound to NM.
+
 
 ## Connections
 

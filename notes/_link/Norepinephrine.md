@@ -1,11 +1,10 @@
 ---
 title: Norepinephrine
 description: A Catecholamines that functions as both a hormone and a neurotransmitter.
-type: entity
 created: 2026-05-31
 updated: 2026-05-31
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: []
 ---
 # Norepinephrine
@@ -20,6 +19,19 @@ In the [[Prefrontal Cortex]], its clearance is also facilitated by the [[Norepin
 It is involved in arousal, attention, and the stress response. It also affects heart rate and blood pressure. In the brain, it is primarily synthesized by neurons in the [[Locus Coeruleus]]. These norepinephrine-producing neurons are highly pigmented with [[Neuromelanin]] and consistently degenerate in [[Parkinson's Disease]].
 
 #
+
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - neutrophil and erthrocyte|neutrophil and erthrocyte]]
+    - en.wikipedia.org - Other tissues: It can form wherever Epinephrine or Norepinephrine is present and oxidized (e.g., Sympathetic nerve endings, Endothelial cells, or inflamed tissues like Rheumatoid synovial fluid).
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - Catechols include Neurotransmitters such as Dopamine, Epinephrine, and Norepinephrine. Other Catechols include Estrogen metabolites as well as drugs and Natural Substances with a catechol structure.
+
 
 ## Connections
 - [[Epinephrine]]: Closely related to norepinephrine in the biosynthetic pathway.

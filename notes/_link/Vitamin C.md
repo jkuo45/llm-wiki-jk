@@ -1,17 +1,13 @@
 ---
 title: Vitamin C
-description: 'Vitamin C (Ascorbic Acid) is a water-soluble vitamin and essential
+description: Vitamin C (Ascorbic Acid) is a water-soluble vitamin and essential
   nutrient with potent antioxidant properties. It serves as a cofactor for numerous
-  enzymatic reactions and is a critical chain-...'
-type: entity
+  enzymatic reactions and is a critical chain-...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: [Ascorbic Acid, L-ascorbic acid]
-database_ids:
-  mesh: D001205
-  chebi: CHEBI:29073
 
 ---
 
@@ -37,4 +33,4 @@ At pharmacological concentrations, Vitamin C can act as a pro-oxidant via the [[
 ## Linking Summary
 - New links added: [[Ascorbic Acid]], [[Vitamin E]], [[Glutathione]], [[Epinephrine]], [[Reactive Oxygen Species]], [[Singlet Oxygen]], [[Hydroxyl Radicals]], [[Fenton Reaction]], [[Cancer]]
 - Suggested new entity notes to create: [[Dehydroascorbate]], [[SVCT1]], [[SVCT2]]
-- Strong connections to strengthen: [[Vitamin C]] ↔ [[Ascorbic Acid]], [[Vitamin C]] ↔ [[Vitamin E]]
+  - Strong connections to strengthen: Vitamin C ↔ Ascorbic Acid, Vitamin C ↔ Vitamin E

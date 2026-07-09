@@ -1,13 +1,12 @@
 ---
 title: MFN2
-description: 'Overview: MFN2 is a cellular protein with structural, signaling,
+description: 'Overview: MFN2 is a cellular protein with structural, signaling,'
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
-  and signaling networks that govern cell...'
-type: entity
+  and signaling networks that govern cell...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [Mitofusin 2]
 
 ---
@@ -24,10 +23,20 @@ aliases: [Mitofusin 2]
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Mitofusins2 (MFN2) is a mitochondrial fusion factor and increasing evidence has shown that it is involved in the regulation of autophagy.
+
+
 ## Connections
 - [[MFN2]] — related entity
 
 ## Linking Summary
 - New links added: [[MFN2]]
-- Strong connections to strengthen: [[MFN2]] ↔ [[MFN2]]
+  - Strong connections to strengthen: [[MFN2]] ↔ [[MFN2]]
 

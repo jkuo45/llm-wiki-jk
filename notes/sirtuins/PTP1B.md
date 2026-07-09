@@ -1,11 +1,10 @@
 ---
 title: Protein Tyrosine Phosphatase 1B (PTP1B/PTPN1)
 description: Protein Tyrosine Phosphatase 1B (PTP1B/PTPN1) is a 50 kDa non-receptor tyrosine phosphatase that dephosphorylates and inactivates the Insulin Receptor (IR) and Insulin Receptor Substrate (IRS) proteins, serving as a major negative regulator of insulin signaling.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Protein
+  - protein
 aliases:
   - PTP1B
   - PTPN1
@@ -32,6 +31,14 @@ PTP1B is a validated therapeutic target for [[Type 2 Diabetes Mellitus]] and [[O
 ## Clinical Relevance
 
 Small-molecule PTP1B inhibitors have been pursued for type 2 diabetes and obesity, though achieving selectivity and oral bioavailability has been challenging. Indirect PTP1B suppression via SIRT1 activation ([[Resveratrol]], [[NAD+]] precursors) offers an alternative route. Given PTP1B's role in both insulin and leptin resistance, its modulation sits at the crossroads of metabolic and [[Aging]] therapeutics.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Additionally, SIRT1 increases insulin sensitivity and lowers blood sugar by downregulating PTP1B, a key negative regulatory protein in the insulin signal transduction pathway.
+
 
 ## Connections
 

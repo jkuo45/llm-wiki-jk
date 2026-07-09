@@ -1,11 +1,10 @@
 ---
 title: Benzimidazole
-description: 'Benzimidazole is a benz fused imidazole heterocycle serving as the scaffold for anthelmintic drugs (albendazole, mebendazole) and investigated as a tubulin-targeting anticancer chemotype.'
-type: entity
+description: Benzimidazole is a benz fused imidazole heterocycle serving as the scaffold for anthelmintic drugs (albendazole, mebendazole) and investigated as a tubulin-targeting anticancer chemotype.
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Chemical Class
+  - chemical-class
 aliases: []
 ---
 
@@ -38,6 +37,14 @@ Preclinical studies report activity against glioblastoma, colorectal, breast, an
 ## Structure–Activity Relationships
 
 Electron-withdrawing substituents at the 2-position and hydrophobic groups at 5/6 enhance tubulin affinity. The carbamate side chain of albendazole/mebendazole is critical for anthelmintic but not strictly required for antitumor activity, enabling chemically tailored derivatives.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Oral Fenbendazole for Cancer Therapy in Humans and Animals|Oral Fenbendazole for Cancer Therapy in Humans and Animals]]
+    - Mentioned in this document
+
 
 ## Connections
 

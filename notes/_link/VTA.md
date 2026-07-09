@@ -3,11 +3,10 @@ title: VTA
 description: The ventral tegmental area (VTA) is a midbrain nucleus located adjacent
   to the Substantia Nigra. It contains Dopamine, GABA, and Glutamate neurons and is
   a core component of the brain's Reward ...
-type: entity
 created: 2026-07-04
 updated: 2026-07-06
 tags:
-  - Anatomy
+  - anatomy
 aliases: [Ventral Tegmental Area]
 
 ---
@@ -37,6 +36,16 @@ VTA dysfunction is implicated in:
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum|Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum]]
+    - By using an in situ hybridization with cellular resolution, we observed transgene expression in the Ventral Tegmental Area (VTA) of the midbrain.
+
+
 ## Connections
 - [[Dopamine]] — primary VTA neurotransmitter; mediates reward and motivation
 - [[Nucleus Accumbens]] — major VTA projection target in the mesolimbic pathway
@@ -50,4 +59,4 @@ VTA dysfunction is implicated in:
 ## Linking Summary
 - New links added: [[Dopamine]], [[GABA]], [[Glutamate]], [[Substantia Nigra]], [[Reward System]], [[Nucleus Accumbens]], [[Prefrontal Cortex]], [[Mesolimbic Pathway]], [[Mesocortical Pathway]], [[Hippocampus]], [[Amygdala]], [[Addiction]], [[Cocaine]], [[Amphetamine]], [[Opioids]], [[Nicotine]], [[Alcohol]], [[Depression]], [[Schizophrenia]], [[Parkinson's Disease]], [[Executive Function]], [[Anhedonia]]
 - Suggested new entity notes to create: [[Mesolimbic pathway]], [[Mesocortical pathway]], [[Reward prediction error]], [[Phasic dopamine firing]], [[VTA-NAc circuit]]
-- Strong connections to strengthen: [[VTA]] ↔ [[Dopamine]], [[VTA]] ↔ [[Nucleus Accumbens]], [[VTA]] ↔ [[Addiction]]
+  - Strong connections to strengthen: [[VTA]] ↔ [[Dopamine]], [[VTA]] ↔ Nucleus Accumbens, [[VTA]] ↔ Addiction

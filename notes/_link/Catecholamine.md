@@ -1,13 +1,12 @@
 ---
 title: Catecholamine
-description: 'Biochemical properties: Catecholamine is an endogenous metabolite
+description: 'Biochemical properties: Catecholamine is an endogenous metabolite'
   involved in cellular energy metabolism, redox reactions, or biosynthetic pathways.
-  Its cellular concentration reflects metaboli...'
-type: entity
+  Its cellular concentration reflects metaboli...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Metabolite
+  - biological-molecule
 aliases: []
 ---
 
@@ -23,10 +22,20 @@ aliases: []
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - intermediates, precursor, hemoglobin|intermediates, precursor, hemoglobin]]
+    - Chemically identified as (S)-1-Methylindoline-3,5,6-triol, it often acts as an unstable, highly reactive Redox intermediate within the body's Catecholamine pathways.Key CharacteristicsMechanism: It is formed from adrenaline-quinone and is subsequently oxidi...
+
+
 ## Connections
 - [[Catecholamine]] — related entity
 
 ## Linking Summary
 - New links added: [[Catecholamine]]
-- Strong connections to strengthen: [[Catecholamine]] ↔ [[Catecholamine]]
+  - Strong connections to strengthen: [[Catecholamine]] ↔ [[Catecholamine]]
 

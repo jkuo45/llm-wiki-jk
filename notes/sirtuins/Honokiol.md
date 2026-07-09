@@ -3,11 +3,10 @@ title: Honokiol
 description: Honokiol (HKL) is a bioactive biphenolic lignan extracted primarily from
   the bark, seed cones, and leaves of Magnolia grandiflora and related Magnolia species.
   It has been used in traditional Chine...
-type: entity
 created: 2026-07-03
 updated: 2026-07-03
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases:
   - Honokiol
   - HKL
@@ -62,6 +61,17 @@ Honokiol is found in *Magnolia* bark:
 - Crude magnolia bark extracts: ~1–5% total biphenols (honokiol + magnolol)
 - Hot-water (tea) extraction is inefficient due to poor water solubility; alcohol or CO₂ extracts are more effective
 - Achieving a therapeutic dose (~200 mg) from tea requires impractically large amounts of raw bark — standardized supplements are the practical route
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins (resveratrol), gemini|sirtuins (resveratrol), gemini]]
+    - Key Compounds - Honokiol (HKL): A natural biphenolic lignan extracted from the bark of Magnolia grandiflora. Dihydromyricetin (DHM): A natural flavonoid found in plants like the Ampelopsis grossedentata (Vine Tea).
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - The natural bisphenol compound Honokiol upregulated the expression of SIRT3 protein in vivo and in vitro, and its protective effect against oxidative stress and mitochondrial dysfunction could be abrogated by SIRT3 shRNA.
+
 
 ## Connections
 

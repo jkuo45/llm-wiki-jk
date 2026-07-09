@@ -1,13 +1,12 @@
 ---
 title: Carbazochrome
-description: 'Carbazochrome is a stabilized semicarbazone derivative of Adrenochrome.
+description: Carbazochrome is a stabilized semicarbazone derivative of Adrenochrome.
   While adrenochrome itself is too unstable for medical use, carbazochrome is used
-  clinically as a hemostatic agent.'
-type: entity
+  clinically as a hemostatic agent.
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-07-07
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: []
 ---
 
@@ -47,6 +46,17 @@ A critical distinction between carbazochrome and its parent [[Adrenochrome]] is 
 ## Role in the [[Mitohormetic Redox-Relay]] Strategy
 
 In the [[Mitohormetic Redox-Relay]] protocol, carbazochrome is deployed at ultralow (nanomolar) concentrations that are orders of magnitude below cytotoxic thresholds. At these concentrations, carbazochrome generates a precisely calibrated burst of superoxide from Complex III of the [[Electron Transport Chain]], detectable as a transient (15–30 minute) increase in the mitochondrial [[NADH]]/NAD⁺ ratio. This signal engages the [[NRF2]]-ARE transcriptional program and the [[SIRT1]]-[[PGC1-α]]-[[PPARδ]] axis, producing a sustained upregulation of mitochondrial biogenesis, antioxidant defenses, and autophagy without triggering cell death or senescence. The advantage over [[Adrenochrome]] is pharmacological stability: carbazochrome's defined chemical structure, consistent purity, and predictable pharmacokinetics make it a superior candidate for dose-controlled hormetic interventions.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - US4501923A - Process for preparing adrenochrome|US4501923A - Process for preparing adrenochrome]]
+    - Adrenochrome is an intermediate for Carbazochrome and Adrenochrome monoaminoguanidine known as Hemostatics. Adrenochrome has been commercially prepared by oxidizing adrenaline or its salts with Potassium ferricyanide in an aqueous medium.
+
+  - [[_document_ - MRR - mitohormesis|mitohormesis]]
+    - Strategy I: The Mitohormetic Redox-Relay (MRR) Primary Target: Mitochondrial Dysfunction & Energy Failure 1.1 Composition Trigger: Carbazochrome (Stabilized Adrenochrome derivative) at sub-micromolar concentrations.
+
 
 ## Connections
 - [[Adrenochrome]] ↔ The parent molecule from which carbazochrome is derived.

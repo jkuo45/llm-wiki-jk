@@ -1,13 +1,12 @@
 ---
 title: Methionine
-description: 'Biochemical properties: Methionine is an endogenous metabolite involved
+description: 'Biochemical properties: Methionine is an endogenous metabolite involved'
   in cellular energy metabolism, redox reactions, or biosynthetic pathways. Its cellular
-  concentration reflects metabolic f...'
-type: entity
+  concentration reflects metabolic f...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Metabolite
+  - biological-molecule
 aliases: []
 ---
 
@@ -28,5 +27,5 @@ aliases: []
 
 ## Linking Summary
 - New links added: [[Methionine]]
-- Strong connections to strengthen: [[Methionine]] ↔ [[Methionine]]
+  - Strong connections to strengthen: [[Methionine]] ↔ [[Methionine]]
 

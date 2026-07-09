@@ -1,13 +1,12 @@
 ---
 title: Renal Failure
-description: 'Etiology and pathophysiology: Renal Failure is a medical condition
+description: 'Etiology and pathophysiology: Renal Failure is a medical condition'
   characterized by specific pathological changes in cellular, tissue, or organ function.
-  Its development involves genetic, envir...'
-type: entity
+  Its development involves genetic, envir...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: [Kidney Failure]
 
 ---
@@ -24,10 +23,23 @@ aliases: [Kidney Failure]
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - Kidney Diseases and Oxidative Stress Oxidative stress is involved in a plethora of diseases affecting renal apparatus such as glomerulo- and tubule-interstitial nephritis, Renal Failure, Proteinuria, and Uremia \[, \].
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Other MicroRNA, such as MicroRNA, have been investigated in a model of Renal Failure model by detecting expression of its target SIRT1 and downstream factors p53/Bax.
+
+
 ## Connections
 - [[Renal Failure]] — related entity
 
 ## Linking Summary
 - New links added: [[Renal Failure]]
-- Strong connections to strengthen: [[Renal Failure]] ↔ [[Renal Failure]]
+  - Strong connections to strengthen: Renal Failure ↔ Renal Failure
 

@@ -1,13 +1,12 @@
 ---
 title: SIR-2.1
-description: 'SIR-2.1 is the C. elegans orthologue of the mammalian SIRT1 sirtuin.
+description: SIR-2.1 is the C. elegans orthologue of the mammalian SIRT1 sirtuin.
   It is an NAD+-dependent histone deacetylase that regulates Longevity and stress
-  resistance.'
-type: entity
+  resistance.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Enzyme
+  - enzyme
 aliases: [C. elegans sirtuin]
 
 ---
@@ -23,6 +22,14 @@ aliases: [C. elegans sirtuin]
 ## Function
 
 SIR-2.1 is the C. elegans ortholog of mammalian [[SIRT1]]. It deacetylates [[DAF-16]]/[[FOXO]] and [[HLH-30]]/[[TFEB]] to promote longevity and [[Autophagy]] during dietary restriction.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - Caenorhabditis elegans carrying a chromosome duplication containing SIR-2.1, the worm sirtuin most similar to yeast Sir2 (yeast) , exhibits up to a 50 % l
+
 
 ## Connections
 

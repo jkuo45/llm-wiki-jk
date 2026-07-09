@@ -3,12 +3,11 @@ title: SIRT5
 description: SIRT5 (Sirtuin 5) is a mitochondrial sirtuin and the sole mammalian member
   of phylogenetic Class III sirtuins — a class distributed widely in all prokaryotes
   (both bacteria and archaea). This deep ...
-type: entity
 created: 2026-07-02
 updated: 2026-07-05
 tags:
-  - Protein
-  - NAD+
+  - protein
+  - nad+
 aliases:
   - Sirtuin 5
   - mitochondrial sirtuin 5
@@ -67,6 +66,29 @@ SIRT5 exhibits context-dependent roles in oncology:
 ## Neurological and Cardiovascular Functions
 
 SIRT5 protects against myocardial ischaemia-reperfusion injury by maintaining mitochondrial integrity and reducing oxidative stress. In the brain, SIRT5 regulates ammonia detoxification and energy metabolism in astrocytes, and its deficiency has been linked to enhanced susceptibility to excitotoxicity.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses|Nicotinamide Riboside—The Current State of Research and Therapeutic Uses]]
+    - SIRT4MitochondriaMitochondrial metabolismInsulin secretion, DNA repair, apoptosis suppressionSIRT5Mitochondria, Cytosol, NucleusMitochondrial metabolismUrea cycle, ketone bo
+
+  - [[_document_ - sirtuins (overview, CD38 KO risks, cancer therapies)|sirtuins (overview, CD38 KO risks, cancer therapies)]]
+    - Mitochondrial (primarily): SIRT3, SIRT4, SIRT5. Nuclear (Class IV): SIRT6 (chromatin-associated), SIRT7 (nucleolar).
+
+  - [[_document_ - sirtuins (resveratrol), gemini|sirtuins (resveratrol), gemini]]
+    - SIRT5 Activators (Mitochondrial Desuccinylase & Demalonylase) SIRT5 is located in the mitochondria but possesses virtually no deacetylase activity.
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - By 1999, Roy Frye had identified five of the human SIR2 homologues, SIRT1–SIRT5, given the name ‘sirtuins’, and found that SIRT2 could act as an ADP-ribosylation using, as a donor, one of the major nicotinamide nucleotides, NAD+ .
+
+  - [[_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review|sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review]]
+    - There are a total of seven human sirtuins that have been identified namely, SIRT1, SIRT2, SIRT3, SIRT4, SIRT5, SIRT6 and SIRT7.
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - SIRT3–SIRT5 localize primarily to mitochondria, and have a mitochondrial targeting sequence.[–] Additionally, SIRT6 and SIRT7 are nuclear proteins. Of them, SIRT6 is principally located in the chromatin and SIRT7 is mostly found in the nucleolus.
+
 
 ## Connections
 

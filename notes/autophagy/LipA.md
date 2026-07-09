@@ -1,12 +1,11 @@
 ---
 title: LipA
-description: 'LipA is the mouse Lysosomal Acid Lipase, the functional orthologue
-  of human Lysosomal Acid Lipase and C. elegans LIPL-1 and LIPL-3.'
-type: entity
+description: LipA is the mouse Lysosomal Acid Lipase, the functional orthologue
+  of human Lysosomal Acid Lipase and C. elegans LIPL-1 and LIPL-3.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Enzyme
+  - enzyme
 aliases: [LAL, lysosomal acid lipase]
 
 ---

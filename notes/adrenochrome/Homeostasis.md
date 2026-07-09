@@ -1,13 +1,12 @@
 ---
 title: Homeostasis
-description: 'Homeostasis is the state of steady internal, physical, and chemical
+description: Homeostasis is the state of steady internal, physical, and chemical
   conditions maintained by living systems. This is the condition of optimal functioning
-  for the organism and includes many vari...'
-type: entity
+  for the organism and includes many vari...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Biological Process
+  - biological-process
 aliases: []
 ---
 
@@ -17,6 +16,14 @@ aliases: []
 
 ## Adrenochrome and Homeostasis
 The presence of detectable [[Adrenochrome]] levels is often considered a marker of "failed homeostasis," indicating that the body's antioxidant systems (like [[Glutathione]]) and cleanup enzymes are unable to manage the oxidation of catecholamines.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - formation, chemical stability|formation, chemical stability]]
+    - Summary You can think of Adrenochrome as a marker of failed Homeostasis. Epinephrine is the signal (the active chemical).
+
 
 ## Connections
 - [[Oxidative Stress]]

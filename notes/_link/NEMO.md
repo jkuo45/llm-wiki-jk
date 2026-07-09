@@ -1,13 +1,12 @@
 ---
 title: NEMO
-description: 'Overview: NEMO is a cellular protein with structural, signaling,
+description: 'Overview: NEMO is a cellular protein with structural, signaling,'
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
-  and signaling networks that govern cell...'
-type: entity
+  and signaling networks that govern cell...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [IKKγ, NF-κB Essential Modulator]
 
 ---
@@ -29,5 +28,5 @@ aliases: [IKKγ, NF-κB Essential Modulator]
 
 ## Linking Summary
 - New links added: [[NEMO]]
-- Strong connections to strengthen: [[NEMO]] ↔ [[NEMO]]
+  - Strong connections to strengthen: [[NEMO]] ↔ [[NEMO]]
 

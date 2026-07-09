@@ -1,13 +1,12 @@
 ---
 title: IGF1R
-description: 'Overview: IGF1R is a cellular protein with structural, signaling,
+description: 'Overview: IGF1R is a cellular protein with structural, signaling,'
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
-  and signaling networks that govern cel...'
-type: entity
+  and signaling networks that govern cel...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [Insulin-like Growth Factor 1 Receptor]
 
 ---
@@ -24,10 +23,20 @@ aliases: [Insulin-like Growth Factor 1 Receptor]
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - Insulin hormone can bind to membrane-associated receptors INSR, and IGF1R, which have tyrosine kinase activity, to trigger signals associated with energy homeostasis \[\].
+
+
 ## Connections
 - [[IGF1R]] — related entity
 
 ## Linking Summary
 - New links added: [[IGF1R]]
-- Strong connections to strengthen: [[IGF1R]] ↔ [[IGF1R]]
+  - Strong connections to strengthen: [[IGF1R]] ↔ [[IGF1R]]
 

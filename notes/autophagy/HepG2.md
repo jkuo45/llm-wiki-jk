@@ -1,12 +1,11 @@
 ---
 title: HepG2
-description: 'HepG2 is a human liver carcinoma cell line commonly used as a model
-  for studying human liver metabolism, protein synthesis, and Autophagy.'
-type: entity
+description: HepG2 is a human liver carcinoma cell line commonly used as a model
+  for studying human liver metabolism, protein synthesis, and Autophagy.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Cell Type
+  - cell-type
 aliases: [hepatocellular carcinoma cell line]
 
 ---
@@ -23,6 +22,14 @@ aliases: [hepatocellular carcinoma cell line]
 ## Cell Line
 
 HepG2 is a human hepatocellular carcinoma cell line widely used for studying [[Autophagy]], lipid metabolism, and drug toxicity.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - Interestingly, it was shown that, in hepatocarcinoma cells (HepG2), p33 , a regulator of the cell cycle and apoptosis, interacts with human SIRT1, thereby inhibiting its ability to deacetylate p53, which negatively regulates transcription of AFP (Figure 5) .
+
 
 ## Connections
 

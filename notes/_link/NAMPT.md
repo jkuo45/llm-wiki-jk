@@ -3,11 +3,10 @@ title: NAMPT
 description: NAMPT (Nicotinamide phosphoribosyltransferase) is a key enzyme in the
   salvage pathway of NAD+ biosynthesis, whose levels decrease significantly in various
   tissues during aging.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Enzyme
+  - enzyme
 aliases: [Nampt]
 ---
 # NAMPT
@@ -27,6 +26,19 @@ By controlling NMN synthesis and subsequently cellular NAD⁺ levels, NAMPT acts
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins (resveratrol), gemini|sirtuins (resveratrol), gemini]]
+    - Increases cAMP Allosteric change | | Activates Epac1 → Ca2+ Release Lowers Km for substrates | | Activates AMPK | | | Upregulates NAMPT → Increases NAD+ | | \ / ` A.
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - SIRT2 is overexpressed in primary acute myeloid leukemia blasts, and SIRT2 activation by NAMPT reduces proliferation and induces Apoptosis in human acute myeloid leukemia, possibly via the Akt/GSK3β/Wnt signaling pathway.
+
+
 ## Connections
 - **[[NAD+]]**: The downstream product and physiological target of NAMPT enzymatic activity.
 - **[[SIRT1]]**: Primary nuclear deacetylase whose activity is highly sensitive to NAMPT-mediated NAD⁺ levels.
@@ -36,4 +48,4 @@ By controlling NMN synthesis and subsequently cellular NAD⁺ levels, NAMPT acts
 ## Linking Summary
 - New links added: [[NAD+]], [[Aging]], [[SIRT1]], [[AMPK]], [[Nicotinamide Mononucleotide]], [[NMNAT]], [[PARP1]], [[Toll-like Receptor]], [[Hallmarks of Aging]], [[Diabetes Mellitus]], [[cAMP]]
 - Suggested new entity notes to create: [[Nicotinamide phosphoribosyltransferase]], [[Salvage pathway]], [[FK866]]
-- Strong connections to strengthen: [[NAMPT]] ↔ [[NAD+]], [[NAMPT]] ↔ [[SIRT1]]
+  - Strong connections to strengthen: [[NAMPT]] ↔ [[NAD+]], [[NAMPT]] ↔ SIRT1

@@ -1,11 +1,10 @@
 ---
 title: Bcl-w
-description: 'Bcl-w (Bcl-2-like protein 2), encoded by the BCL2L2 gene, is an anti-apoptotic member of the Bcl-2 family that sequesters Bax/Bak and supports tumor cell survival.'
-type: entity
+description: Bcl-w (Bcl-2-like protein 2), encoded by the BCL2L2 gene, is an anti-apoptotic member of the Bcl-2 family that sequesters Bax/Bak and supports tumor cell survival.
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Protein
+  - protein
   - apoptosis
 aliases: []
 ---
@@ -31,6 +30,14 @@ Bcl-w is expressed in the nervous system, intestine, and testis, where it protec
 - **Overexpression**: Bcl-w is upregulated in colorectal, gastric, bladder, and some hematological cancers, contributing to survival and [[Chemotherapy]] resistance.
 - **Therapeutic Target**: Broad-spectrum [[BH3 mimetics]] such as [[ABT-737]] and [[ABT-263]] (navitoclax) inhibit Bcl-w. Because Bcl-w shares redundancy with Mcl-1, combinational inhibition is often required for efficacy.
 - **Biomarker**: Elevated BCL2L2 correlates with poor response to apoptosis-targeted agents, informing patient stratification.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - Bcl-2, Bcl-xL, Bcl-w, A1-Bfl-1 and Mcl-1) \[\]. While the anti-apoptotic proteins regulate apoptosis by blocking the mitochondrial release of cytochrome-c, the pro-apoptotic proteins act by promoting such release.
+
 
 ## Connections
 

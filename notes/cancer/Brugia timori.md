@@ -1,11 +1,10 @@
 ---
 title: Brugia timori
 description: Brugia timori is a filarial nematode causing Lymphatic Filariasis in eastern Indonesia (Timor), targeted by mass ivermectin/albendazole administration.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Microorganism
+  - organism
 aliases: []
 ---
 
@@ -27,6 +26,14 @@ Mass drug administration with [[Ivermectin]] (often combined with [[Albendazole]
 - [[Ivermectin]] inhibits [[Wnt/β-catenin]], [[AKT/mTOR]], and [[PAK1]] oncogenic signaling and promotes [[Apoptosis]] in tumors.
 - [[Albendazole]] (a [[Benzimidazole]]) disrupts [[Tubulin]] and the [[Warburg Effect]], with documented antitumor activity.
 Population-scale safety data from filariasis control de-risk these repurposing efforts.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, ‘Wonder drug’ from Japan the human use perspective|Ivermectin, ‘Wonder drug’ from Japan the human use perspective]]
+    - The disease results from infection with filarial worms, Wuchereria bancrofti, Brugia malayi or Brugia timori.
+
 
 ## Connections
 

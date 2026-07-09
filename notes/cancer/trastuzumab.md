@@ -1,11 +1,10 @@
 ---
 title: Trastuzumab
 description: Trastuzumab is a recombinant monoclonal antibody targeting the HER2 (ERBB2) receptor, a foundational targeted therapy for HER2-positive breast and gastric cancers that blocks HER2 signaling, promotes ADCC, and serves as a delivery vector for anticancer payloads.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Antibody
+  - protein
 aliases: []
 ---
 
@@ -28,6 +27,14 @@ Trastuzumab is also exploited as a **targeting vector** for selective drug deliv
 ## Clinical Use
 
 Given alone or with [[Chemotherapy]] (e.g., docetaxel, paclitaxel) and/or pertuzumab, trastuzumab significantly improves survival in early and metastatic HER2-positive disease. Cardiotoxicity (reduced LVEF) is the principal adverse effect, requiring monitoring. Adjuvant trastuzumab has transformed a historically poor-prognosis subtype into a highly treatable one.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology|Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology]]
+    - Previous work has shown that melittin can be targeted to HER2-overexpressing cell lines using immunoliposomes bearing trastuzumab . Here, we demonstrate that melittin alone selectively targets HER2- and EGFR-overexpressing breast cancer cells.
+
 
 ## Connections
 

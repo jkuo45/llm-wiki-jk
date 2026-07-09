@@ -3,26 +3,13 @@ title: Sulforaphane
 description: Sulforaphane (SFN) is an isothiocyanate compound from cruciferous vegetables
   (broccoli, Brussels sprouts, cabbage) and one of the most potent known dietary activators
   of the NRF2 pathway.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases:
   - SFN
   - 1-isothiocyanato-4-(methylsulfinyl)butane
-database_ids:
-  chebi: CHEBI:47807
-  pubchem: 5350
-relations:
-  - predicate: activates
-    target: "NRF2"
-    sources:
-      - PMID:15601911
-  - predicate: inhibits
-    target: "NF-κB"
-    sources:
-      - PMID:18222410
 
 ---
 
@@ -78,4 +65,4 @@ Sulforaphane has been investigated in clinical trials for [[Asthma]] (restoring 
 ## Linking Summary
 - New links added: [[NRF2]], [[NF-κB]], [[Glutathione]], [[HO-1]], [[AMPK]], [[HDAC]], [[Ferroptosis]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Cancer]], [[Diabetes Mellitus]], [[Asthma]]
 - Suggested new entity notes to create: [[Keap1]], [[GCLM]], [[Glucoraphanin]], [[Myrosinase]]
-- Strong connections to strengthen: [[Sulforaphane]] ↔ [[NRF2]], [[Sulforaphane]] ↔ [[NF-κB]]
+  - Strong connections to strengthen: [[Sulforaphane]] ↔ [[NRF2]], [[Sulforaphane]] ↔ NF-κB

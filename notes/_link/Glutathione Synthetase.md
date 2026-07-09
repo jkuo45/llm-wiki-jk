@@ -1,12 +1,11 @@
 ---
 title: Glutathione Synthetase
-description: 'Catalytic function: Glutathione Synthetase is an enzyme that catalyzes
-  biochemical reactions essential for cellular metabolism and homeostasis.'
-type: entity
+description: 'Catalytic function: Glutathione Synthetase is an enzyme that catalyzes'
+  biochemical reactions essential for cellular metabolism and homeostasis.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Enzyme
+  - enzyme
   - antioxidant
 aliases: [GSS]
 
@@ -29,5 +28,5 @@ aliases: [GSS]
 
 ## Linking Summary
 - New links added: [[Glutathione Synthetase]]
-- Strong connections to strengthen: [[Glutathione Synthetase]] ↔ [[Glutathione Synthetase]]
+  - Strong connections to strengthen: Glutathione Synthetase ↔ Glutathione Synthetase
 

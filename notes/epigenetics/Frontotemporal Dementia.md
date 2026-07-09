@@ -1,11 +1,10 @@
 ---
 title: Frontotemporal Dementia
 description: Frontotemporal Dementia (FTD) is a heterogeneous neurodegenerative syndrome affecting frontal/temporal lobes, causing behavioral and language decline.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: []
 ---
 
@@ -24,6 +23,14 @@ bvFTD presents with apathy, compulsive behaviors, hyperorality, and loss of empa
 ## Therapeutic Landscape & Research Relevance
 
 No disease-modifying therapy exists; management is supportive and symptomatic (SSRIs, speech/behavioral therapy). Active programs target tau aggregation, progranulin replacement, and antisense oligonucleotides against *C9orf72* repeat RNA. Patient-derived [[Induced Pluripotent Stem Cells]] (iPSCs) have become central to FTD research: fibroblasts from *MAPT*, *GRN*, or *C9orf72* mutation carriers are reprogrammed to [[Pluripotency]] and differentiated into cortical neurons and [[Neural Stem Cell|neural stem cells]], recapitulating TDP-43 mislocalization, tau pathology, and altered networks *in vitro*. Such models enable target discovery, compound screening, and the study of [[Rejuvenation]] and [[Aging]] effects on [[Neurodegeneration]] without the ethical constraints of fetal tissue. iPSC-based platforms also support the investigation of [[Reprogramming]]-mediated cellular rejuvenation as a potential modifier of disease trajectories.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic|Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic]]
+    - Diseases]], Rejuvenation, Parkinson's Disease, Yamanaka Factors, Embryonic Stem Cells, Fibroblasts, Shinya Yamanaka, Kazutoshi Takahashi, OSKM, Regenerative Medicine, Olivopontocerebellar Atrophy, NuRD complex, CHD4, Schizophrenia, Induced Neural Stem Cells...
+
 
 ## Connections
 

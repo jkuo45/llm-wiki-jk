@@ -4,11 +4,10 @@ description: The CLEAR Element (Coordinated Lysosomal Expression and Regulation)
   is a 10-base pair consensus sequence (5′-GTCACGTGAC-3′) found in the promoter regions
   of many lysosomal and autophagic genes, serving as a binding site for TFEB and TFE3
   to coordinate Lysosome biogenesis.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Scientific Concept
+  - scientific-concept
 aliases: [coordinated lysosomal expression and regulation element]
 ---
 
@@ -27,6 +26,20 @@ Under starvation or lysosomal stress, [[mTORC1]] is inhibited and TFEB/TFE3 are 
 ## Physiological & Pathological Relevance
 
 Enhanced CLEAR activity boosts lysosomal clearance, protecting against [[Neurodegeneration]] and protein aggregation, and is a therapeutic target in lysosomal storage and aging-related decline ([[Aging]]). TFEB/CLEAR activation is being pursued pharmacologically (e.g., via [[mTORC1]] inhibitors or TFEB activators) to treat Alzheimer's and lysosomal diseases. Conversely, dysregulated CLEAR output can support [[Cancer]] cell fitness and [[Oxidative Stress]] resilience. The CLEAR network exemplifies transcriptional coordination of the autophagy–lysosome axis.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - Transcription factor EB (TFEB), known as a major transcriptional regulator of the autophagy-lysosomal pathway, regulates target gene expression by binding to coordinated lysosomal expression and regulation (CLEAR Element) elements.
+
+  - [[_document_ - Lysosome biogenesis Regulation and functions|Lysosome biogenesis Regulation and functions]]
+    - TFEB/TFE3 and coordinated expression and regulation of lysosomal genes In mammalian cells, the promoter regions of many lysosomal and autophagic genes share one or more 10–base pair sequence (5′-GTCACGTGAC-3′), which was named the CLEAR Element (coordinated...
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - This motif, named CLEAR Element, constitutes a type of E-box (CANNTG), recognized by the MiTF TFE family of basic helix-loop-helix (bHLH) transcription factors. It was, therefore, suggested that lysosomal Lysosome is transcriptionally regulated.
+
 
 ## Connections
 

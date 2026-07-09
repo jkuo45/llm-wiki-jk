@@ -3,11 +3,10 @@ title: Shinya Yamanaka
 description: Shinya Yamanaka (born September 4, 1962) is a Japanese stem cell researcher
   and Nobel laureate, best known for discovering Induced Pluripotent Stem Cells (iPSCs)
   using the Yamanaka Factors.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Organization
+  - organization
 aliases: []
 ---
 
@@ -26,6 +25,14 @@ The iPSC discovery transformed [[Stem Cell Research]] by circumventing the ethic
 ## Recognition
 
 Beyond the Nobel Prize, Yamanaka has received the Albert Lasker Basic Medical Research Award (2009), the Millennium Technology Prize, and election to numerous academies. He continues to champion responsible, equitable translation of pluripotent stem cell technology.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic|Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic]]
+    - Shinya Yamanaka and Kazutoshi Takahashi discovered the core transcriptional fact
+
 
 ## Connections
 - [[Induced Pluripotent Stem Cells]]: His defining discovery.

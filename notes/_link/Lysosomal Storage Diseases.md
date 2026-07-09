@@ -2,11 +2,10 @@
 title: Lysosomal Storage Diseases
 description: A group of about 50 rare inherited metabolic disorders that result from
   defects in lysosomal function.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Medical Condition
+  - medical-condition
   - autophagy
   - lysosome
 aliases: []
@@ -67,6 +66,16 @@ The therapeutic armamentarium for LSDs has expanded dramatically over the past t
 
 **Gene Therapy** represents a promising frontier for LSDs. AAV (adeno-associated virus)-mediated gene delivery has shown efficacy in clinical trials for Pompe disease, MPS I, MPS II, and MPS III, with the goal of providing sustained endogenous enzyme production and overcoming the limitations of ERT. Emerging approaches include mRNA therapy (lipid nanoparticle-encapsulated mRNA encoding therapeutic enzyme, enabling periodic intravenous dosing without viral vector risks) and gene editing strategies (CRISPR-based correction of pathogenic mutations in patient-derived cells). Investigational approaches using intrathecal or intracerebroventricular delivery of AAV vectors aim to bypass the blood-brain barrier for treatment of neuronopathic forms.
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - We also describe how Cancer cells make use of TFEB and TFE3 to promote their own survival, and highlight the potential of these transcription factors as therapeutic targets for the treatment of neurological and Lysosomal Storage Diseases.
+
+
 ## Connections
 
 - [[Lysosome]] — the organelle whose dysfunction underlies all LSDs
@@ -83,4 +92,4 @@ The therapeutic armamentarium for LSDs has expanded dramatically over the past t
 
 - New links added: [[Lysosome]], [[Autophagy]], [[Pompe Disease]], [[Gaucher Disease]], [[Fabry Disease]], [[Cardiomyopathy]], [[Inflammation]], [[Hematopoietic Stem Cell]], [[Lysosomal Biogenesis]]
 - Suggested new entity notes to create: [[Niemann-Pick Disease]], [[Krabbe Disease]], [[Tay-Sachs Disease]], [[Mucopolysaccharidoses]], [[Metachromatic Leukodystrophy]], [[Cystinosis]], [[Enzyme Replacement Therapy]], [[Substrate Reduction Therapy]], [[Pharmacological Chaperone]]
-- Strong connections to strengthen: [[Lysosomal Storage Diseases]] ↔ [[Lysosome]], [[Lysosomal Storage Diseases]] ↔ [[Autophagy]], [[Lysosomal Storage Diseases]] ↔ [[Pompe Disease]]
+  - Strong connections to strengthen: Lysosomal Storage Diseases ↔ [[Lysosome]], Lysosomal Storage Diseases ↔ Autophagy, Lysosomal Storage Diseases ↔ Pompe Disease

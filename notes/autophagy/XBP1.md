@@ -3,11 +3,10 @@ title: XBP1
 description: X-box binding protein 1 (XBP1) is a transcription factor that plays a
   crucial role in the unfolded protein response (UPR) and regulates hepatic autophagy
   by activating TFEB.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Gene
+  - gene
 aliases: [X-box binding protein 1]
 ---
 # XBP1
@@ -20,6 +19,14 @@ XBP1 is a bZIP transcription factor in the unfolded protein response (UPR). Its 
 ## Autophagy Connection
 
 XBP1s transcriptionally activates autophagy genes including [[Beclin1]] and [[LC3B]]. XBP1 deficiency impairs autophagy and sensitizes cells to ER stress.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - XBP1, a member of the CEB/P family of transcription factors, binds to UPRE on their target genes. Zhang et al.
+
 
 ## Connections
 

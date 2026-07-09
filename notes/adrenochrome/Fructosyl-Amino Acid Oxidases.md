@@ -3,11 +3,10 @@ title: Fructosyl-Amino Acid Oxidases
 description: Fructosyl-Amino Acid Oxidases (FAOD), commonly referred to as Amadoriases,
   are enzymes found primarily in fungi (e.g., *Aspergillus* species) and bacteria
   that catalyze the deglycation of Amadori p...
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Enzyme
+  - enzyme
 aliases: []
 ---
 # Fructosyl-Amino Acid Oxidases

@@ -3,11 +3,10 @@ title: Pluripotency
 description: Pluripotency is the ability of a cell to differentiate into all three germ
   layers (ectoderm, endoderm, mesoderm) but not extra-embryonic tissues; sustained by
   the Oct4-Sox2-Nanog network.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Scientific Concept
+  - scientific-concept
 aliases: []
 ---
 
@@ -30,6 +29,14 @@ Pluripotent cells are derived from the blastocyst inner cell mass (ESCs) or gene
 ## Relevance to Aging and Reprogramming
 
 Pluripotency erases age-associated epigenetic marks, motivating [[Partial Reprogramming]] and [[Rejuvenation]] strategies that capture youthful reset without full dedifferentiation. Understanding the network also informs [[Cancer]] stemness, where pluripotency genes are re-activated.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network|Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network]]
+    - With the aim of unveiling the early mechanisms underlying the induction of Pluripotency, we have analyzed transcriptional profiles at 24, 48 and 72 hours post-transduction of OSKM into human foreskin Fibroblasts.
+
 
 ## Connections
 

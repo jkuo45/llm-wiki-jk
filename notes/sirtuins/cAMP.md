@@ -3,11 +3,10 @@ title: cAMP (Cyclic Adenosine Monophosphate)
 description: Cyclic Adenosine Monophosphate (cAMP) is a vital hydrophilic intracellular
   second messenger that plays a central role in transducing extracellular signals
   (such as hormones and neurotransmitters) i...
-type: entity
 created: 2026-07-03
 updated: 2026-07-06
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: [cyclic adenosine monophosphate, cyclic AMP, adenosine 3',5'-cyclic monophosphate]
 ---
 
@@ -34,6 +33,17 @@ Compounds like resveratrol indirectly activate SIRT1 by manipulating cAMP degrad
 - **CaMKKβ and AMPK Activation:** The calcium surge activates calmodulin-dependent protein kinase kinase beta (CaMKKβ), which phosphorylates and activates [[AMPK|AMPK]].
 - **NAMPT and NAD⁺ Generation:** Activated AMPK upregulates [[NAMPT]], the rate-limiting enzyme in the NAD⁺ salvage pathway, thereby boosting cellular [[NAD+]] levels.
 - **SIRT1 Hyperactivation:** The increased NAD⁺ fuels SIRT1, resulting in robust deacetylation of target proteins like [[PGC-1α]] and [[FOXO3a]].
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins (resveratrol), gemini|sirtuins (resveratrol), gemini]]
+    - Direct Pathway) (Indirect Pathway) | | Binds SIRT1 NTD Inhibits PDE4 (e.g., Glu230 residue) | | Increases cAMP Allosteric change | | Activates Epac1 → Ca2+ Release Lowers Km for substrat
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - found that SIRT1-dependent cAMP Response Element Binding protein (Creb) deacetylation regulates lipid metabolism.
+
 
 ## Connections
 

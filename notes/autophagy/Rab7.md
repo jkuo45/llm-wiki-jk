@@ -1,11 +1,10 @@
 ---
 title: Rab7
 description: Rab7 is a late endosome/lysosome small GTPase that regulates autophagosome-lysosome fusion, organelle positioning, and endolysosomal maturation downstream of Rab5.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Protein
+  - protein
 aliases:
   - RAB7A
   - late endosome GTPase
@@ -26,6 +25,14 @@ Rab7 is indispensable for the fusion of mature autophagosomes with late endosome
 ## Physiological & Pathological Relevance
 
 Mutations in Rab7 cause Charcot–Marie–Tooth type 2B neuropathy, reflecting its requirement in neuronal degradative traffic. Defective Rab7-mediated fusion contributes to accumulation of protein aggregates in [[Neurodegeneration]] and impairs clearance in [[Aging]]. Conversely, pathogen effectors and oncogenic signals modulate Rab7 to either evade xenophagy or sustain proliferative metabolism in [[Cancer]]. Modulators of Rab7–HOPS interaction are under investigation to restore autophagic clearance.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Lysosome biogenesis Regulation and functions|Lysosome biogenesis Regulation and functions]]
+    - To deliver endosomal proteins to lysosomes, early endosomes undergo conversion to late endosomes, which is marked by switching of the early endosome–specific Rab5 and PtdIns3P to late endosome-specific Rab7 and PtdIns(3,5)P2; Gillooly et al., 2000; Huotari ...
+
 
 ## Connections
 

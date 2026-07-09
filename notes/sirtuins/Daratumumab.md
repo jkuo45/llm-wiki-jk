@@ -3,11 +3,10 @@ title: Daratumumab
 description: Daratumumab (brand name Darzalex) is a fully human IgG1κ monoclonal antibody
   (mAb) that specifically targets CD38, a transmembrane glycoprotein highly expressed
   on malignant plasma cells. It was fi...
-type: entity
 created: 2026-07-03
 updated: 2026-07-03
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases:
   - Daratumumab
   - Darzalex
@@ -49,6 +48,14 @@ Daratumumab is approved across multiple lines of therapy:
 - **Infusion-related reactions**: Common with IV formulation (mitigated by premedication and subcutaneous route).
 - **Neutropenia / thrombocytopenia**: Especially in combination regimens.
 - **CD38 interference with blood bank testing**: Can cause false-positive indirect antiglobulin tests (DAT); requires special blood bank notification.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins (overview, CD38 KO risks, cancer therapies)|sirtuins (overview, CD38 KO risks, cancer therapies)]]
+    - In humans, anti-CD38 monoclonal antibodies (e.g., Daratumumab for Multiple Myeloma) are associated with higher infection rates, including serious ones. This is partly due to depleting CD38+ immune cells or broader immunomodulation.
+
 
 ## Connections
 

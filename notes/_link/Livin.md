@@ -1,13 +1,12 @@
 ---
 title: Livin
-description: 'Overview: Livin is a cellular protein with structural, signaling,
+description: 'Overview: Livin is a cellular protein with structural, signaling,'
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
-  and signaling networks that govern cel...'
-type: entity
+  and signaling networks that govern cel...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [BIRC7, ML-IAP]
 
 ---
@@ -24,10 +23,20 @@ aliases: [BIRC7, ML-IAP]
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - To date eight IAPs have been identified, namely, NAIP (BIRC1), c-IAP1 (BIRC2), c-IAP2 (BIRC3), X-linked IAP (XIAP, BIRC4), Survivin (BIRC5), Apollon (BRUCE, BIRC6), Livin/ML-IAP (BIRC7) and IAP-like protein 2 (BIRC8) \[\].
+
+
 ## Connections
 - [[Livin]] — related entity
 
 ## Linking Summary
 - New links added: [[Livin]]
-- Strong connections to strengthen: [[Livin]] ↔ [[Livin]]
+  - Strong connections to strengthen: [[Livin]] ↔ [[Livin]]
 

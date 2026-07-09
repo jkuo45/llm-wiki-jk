@@ -1,13 +1,12 @@
 ---
 title: MOTS-c
-description: 'Overview: MOTS-c is a cellular protein with structural, signaling,
+description: 'Overview: MOTS-c is a cellular protein with structural, signaling,'
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
-  and signaling networks that govern ce...'
-type: entity
+  and signaling networks that govern ce...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [Mitochondrial Open Reading Frame of the 12S rRNA-c]
 
 ---
@@ -29,5 +28,5 @@ aliases: [Mitochondrial Open Reading Frame of the 12S rRNA-c]
 
 ## Linking Summary
 - New links added: [[MOTS-c]]
-- Strong connections to strengthen: [[MOTS-c]] ↔ [[MOTS-c]]
+  - Strong connections to strengthen: [[MOTS-c]] ↔ [[MOTS-c]]
 

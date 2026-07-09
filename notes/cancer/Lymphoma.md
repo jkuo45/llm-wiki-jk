@@ -2,11 +2,10 @@
 title: Lymphoma
 description: Lymphoma is a cancer of the lymphatic system, which is part of the body's
   germ-fighting network.
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: []
 ---
 # Lymphoma
@@ -46,6 +45,14 @@ The most common B cell NHL subtypes include:
 ### T Cell NHL
 
 T cell NHLs are less common and generally carry a worse prognosis than their B cell counterparts. Major subtypes include anaplastic large cell lymphoma (ALCL, characterized by ALK rearrangements), peripheral T cell lymphoma not otherwise specified (PTCL-NOS), angioimmunoblastic T cell lymphoma (AITL), and cutaneous T cell lymphomas (mycosis fungoides, Sézary syndrome). Treatment typically follows CHOP-like regimens, though outcomes remain suboptimal, and novel agents such as brentuximab vedotin (for ALCL), histone deacetylase inhibitors, and hypomethylating agents are increasingly used.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - Ser61, Ser78 | S phase arrest | Response to DNA damage | | Bim | Loss in leukemia, non-small-cell lung cancer, Lymphoma | ERK | Ser55, Ser65, Ser100 (mouse) | Inactivation | Under control of
+
 
 ## Connections
 

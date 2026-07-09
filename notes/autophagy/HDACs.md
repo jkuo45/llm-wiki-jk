@@ -3,11 +3,10 @@ title: HDACs
 description: Histone deacetylases (HDACs) are enzymes that remove acetyl groups from
   histones and other proteins; inhibitors of HDACs, such as SAHA, can enhance TFEB
   activity by promoting its acetylation.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Enzyme
+  - enzyme
   - epigenetics
 aliases: [histone deacetylases]
 ---
@@ -21,6 +20,14 @@ Histone deacetylases (HDACs) remove acetyl groups from histones and non-histone 
 ## Autophagy Regulation
 
 HDAC inhibitors ([[SAHA]], [[Trichostatin A]]) induce [[Autophagy]] by activating [[TFEB]] and [[FOXO]]. HDAC6 regulates autophagosome-lysosome fusion via [[Cortactin]] deacetylation.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - At present, two enzymes have been found that can acetylate TFEB, including GCN5 \[\] and ACAT1 \[, \], and two enzymes have been found that can deacetylate TFEB, including SIRT1 \[, \] and HDACs \[\].
+
 
 ## Connections
 

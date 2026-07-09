@@ -1,11 +1,10 @@
 ---
 title: Phosphodiesterase 4 (PDE4)
 description: Phosphodiesterase 4 (PDE4) is a family of cAMP-specific phosphodiesterases that hydrolyze cAMP to 5'-AMP, terminating cAMP signaling. Four genes (PDE4A–D) encode multiple splice variants expressed widely across tissues.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Protein
+  - protein
 aliases:
   - PDE4
   - Phosphodiesterase 4
@@ -31,6 +30,14 @@ PDE4 inhibition produces broad anti-inflammatory, cognitive-enhancing, and metab
 ## Clinical and Research Relevance
 
 PDE4 inhibitors such as roflumilast and the topical apremilast are approved for COPD and psoriasis, respectively. Nausea and emesis have limited systemic PDE4 inhibitor use, spurring development of isoform-selective compounds. The discovery that [[Resveratrol]] inhibits PDE4 reframed the polyphenol's mechanism and validated PDE4 as a longevity-relevant target intersecting the sirtuin network.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins (resveratrol), gemini|sirtuins (resveratrol), gemini]]
+    - Direct Pathway) (Indirect Pathway) | | Binds SIRT1 NTD Inhibits PDE4 (e.g.
+
 
 ## Connections
 

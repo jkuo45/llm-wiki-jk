@@ -3,11 +3,10 @@ title: Histone H4
 description: Histone H4 is one of the five core histone proteins that form the nucleosome,
   the fundamental repeating unit of chromatin. Acetylation of its N-terminal tail,
   particularly at Lys16 (H4K16ac), is a ...
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Protein
+  - protein
   - epigenetics
 aliases:
   - H4
@@ -35,6 +34,14 @@ The H4 N-terminal tail harbors multiple lysine residues (K5, K8, K12, K16) subje
 ## Physiological & Pathological Function
 
 H4K16ac dynamics integrate metabolic state (via [[NAD+]]-dependent sirtuins) with chromatin architecture. Deregulated H4 acetylation is observed in cancer, where global H4K16 hypoacetylation is a hallmark of several tumor types, and in [[Aging]], where sirtuin activity declines.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Moreover, SIRT2 is in the cytosol during most phases of cell cycle, while SIRT2 is expressed in nucleus and associates with chromatin and deacetylates the histone Histone H4 during G2/M transition and mitosis.
+
 
 ## Connections
 

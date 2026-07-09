@@ -1,13 +1,12 @@
 ---
 title: NLRP3
-description: 'Overview: NLRP3 is a cellular protein with structural, signaling,
+description: 'Overview: NLRP3 is a cellular protein with structural, signaling,'
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
-  and signaling networks that govern cel...'
-type: entity
+  and signaling networks that govern cel...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [NLR Family Pyrin Domain Containing 3, Cryopyrin]
 
 ---
@@ -24,10 +23,20 @@ aliases: [NLR Family Pyrin Domain Containing 3, Cryopyrin]
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Several studies have also shown an anti-inflammatory effect of SIRT3, which downregulates IL-1b and NLRP3, inhibits inflammasomes and attenuates oxidative stress. SIRT3 KO mice have significantly increased inflammatory cell infiltration.
+
+
 ## Connections
 - [[NLRP3]] — related entity
 
 ## Linking Summary
 - New links added: [[NLRP3]]
-- Strong connections to strengthen: [[NLRP3]] ↔ [[NLRP3]]
+  - Strong connections to strengthen: [[NLRP3]] ↔ [[NLRP3]]
 

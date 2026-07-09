@@ -3,11 +3,10 @@ title: Actinonin
 description: Actinonin is an antibiotic that inhibits mitochondrial translation by
   blocking Peptide deformylase, triggering a nuclear response and potentially acting
   as an anti-cancer agent.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: []
 ---
 # Actinonin

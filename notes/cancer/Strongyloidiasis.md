@@ -1,11 +1,10 @@
 ---
 title: Strongyloidiasis
 description: Strongyloidiasis is a chronic parasitic infection caused by the nematode Strongyloides stercoralis, characterized by autoinfection and life-threatening hyperinfection when hosts are immunosuppressed (e.g., by cancer therapy or corticosteroids).
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: []
 ---
 
@@ -28,6 +27,14 @@ Stool microscopy has poor sensitivity due to intermittent larval output; serolog
 ## Therapeutic Landscape
 
 [[Ivermectin]] is the treatment of choice (superior to [[Albendazole]]) for both acute and prophylactic use; repeated courses may be needed. In disseminated disease, subcutaneous/IV ivermectin plus broad-spectrum antibiotics for bacterial sepsis are employed. Eradication must be documented serologically and parasitologically.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, ‘Wonder drug’ from Japan the human use perspective|Ivermectin, ‘Wonder drug’ from Japan the human use perspective]]
+    - It is used to treat a variety of internal Onchocerca volvulus infections, including Onchocerciasis, Strongyloidiasis, Ascariasis, cutaneous larva migrans, Lymphatic Filariasis, Gnathostomiasis and Trichuriasis, as well as for oral treatment of ectoparasitic...
+
 
 ## Connections
 

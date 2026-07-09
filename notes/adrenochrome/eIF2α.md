@@ -1,13 +1,12 @@
 ---
 title: eIF2α
-description: 'eIF2α (eukaryotic translation initiation factor 2 subunit alpha)
+description: eIF2α (eukaryotic translation initiation factor 2 subunit alpha)
   is a key regulatory hub of the Integrated Stress Response (ISR). Its phosphorylation
-  at Ser51 by stress-activated kinases attenu...'
-type: entity
+  at Ser51 by stress-activated kinases attenu...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [Eukaryotic translation initiation factor 2 subunit alpha, eIF-2α, eIF2 alpha]
 
 ---
@@ -29,6 +28,14 @@ Phosphorylated eIF2α sequesters the guanine nucleotide exchange factor eIF2B, p
 ## Role in Mitochondrial Signaling
 
 In the context of the [[Mitohormetic Redox-Relay]], mitochondrial matrix ROS activates [[OMA1]], which cleaves [[DELE1]]. Cleaved DELE1 translocates to the cytosol and binds [[HRI]], leading to eIF2α phosphorylation and subsequent [[ATF4]] translation. This OMA1-DELE1-HRI-eIF2α-ATF4 axis provides a direct signaling route from mitochondrial dysfunction to the nucleus.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - For example, mutant Satellite Cells unable to phosphorylate eIF2α increase their translation rates and subsequently exit quiescence (Zismanov et al., 2016).
+
 
 ## Connections
 

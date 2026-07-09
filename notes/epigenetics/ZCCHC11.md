@@ -3,11 +3,10 @@ title: ZCCHC11
 description: Zinc finger CCCH-type containing 11 (TUT4), a terminal uridylyltransferase
   that regulates let-7 microRNA biogenesis and Lin28-mediated silencing, impacting
   differentiation and reprogramming.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Protein
+  - protein
 aliases: []
 ---
 
@@ -30,6 +29,14 @@ Beyond let-7, ZCCHC11 uridylates other structured noncoding RNAs (e.g., certain 
 ## Physiological & Pathological Relevance
 
 The Lin28–ZCCHC11–let-7 circuit is a master switch of stemness versus differentiation: high Lin28/low let-7 maintains [[Pluripotency]] and supports the efficiency of the [[Yamanaka Factors]] during [[Induced Pluripotent Stem Cells]] generation, whereas let-7 restoration promotes maturation. Pathologically, Lin28 overexpression and ZCCHC11-dependent let-7 suppression are found in several [[Cancer]]s and are associated with enhanced proliferation, [[Tumorigenicity]], and poor prognosis. ZCCHC11 is therefore a candidate node for modulating differentiation and for anticancer intervention.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network|Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network]]
+    - ZCCHC11 is a terminal uridylase that is recruited to let-7 miRNA by Lin28, leading to uridylation of pre-let-7 and its inactivation , , thereby de-repressing Lin28. We see an up-regulation of ZCCHC11 at 72 h, which could support expression of Lin28.
+
 
 ## Connections
 

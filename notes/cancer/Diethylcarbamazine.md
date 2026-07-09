@@ -1,11 +1,10 @@
 ---
 title: Diethylcarbamazine
 description: Diethylcarbamazine (DEC) is a piperazine-derived antifilarial drug that also exhibits anti-inflammatory, immunomodulatory, and emerging anticancer activities, including suppression of tumor-promoting inflammation and lymphangiogenesis.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Medical Product
+  - medical-product
 aliases: []
 ---
 
@@ -28,6 +27,14 @@ Preclinical studies indicate DEC can suppress tumor-associated lymphangiogenesis
 ## Clinical & Research Relevance
 
 DEC remains a WHO-essential medicine for filariasis, typically given as annual single-dose mass treatment with [[Ivermectin]]/[[Albendazole]]. Its anticancer potential is investigational; research focuses on (1) blocking lymphatic metastasis via VEGF-C inhibition, (2) resolving protumor [[Inflammation]], and (3) combination with immunotherapy. The Mazzotti reaction (severe pruritus, rash, fever) limits onchocerciasis use and must be managed where DEC is deployed.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, ‘Wonder drug’ from Japan the human use perspective|Ivermectin, ‘Wonder drug’ from Japan the human use perspective]]
+    - In 1975, only two drugs were available for the treatment of Onchocerciasis: Diethylcarbamazine and Suramin. The use of both was highly unsatisfactory.
+
 
 ## Connections
 

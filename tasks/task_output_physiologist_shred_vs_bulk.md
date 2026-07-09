@@ -13,21 +13,21 @@ In a bulk, high nutrient availability activates **mTORC1**, promoting protein sy
 
 ### Dietary Recommendations
 *   **Top 5–7 Prioritized Foods / Nutrients / Supplements:**
-    1.  **Magnesium:** Essential cofactor for **COMT**; prevents catecholamine-induced oxidative stress.
-    2.  **Creatine:** Spares **Methyl Groups** (by reducing endogenous synthesis), providing more SAMe for COMT-mediated detoxification.
-    3.  **Hydroxocobalamin / Folinic Acid:** Non-methylated B-vitamins to support the **Methylation Cycle** without causing the "mood swings" associated with rapid catecholamine cycling in slow COMT types.
-    4.  **Resveratrol:** Activates **SIRT1** and protects the **Epigenome** without inhibiting COMT (unlike Quercetin).
-    5.  **Alpha-Lipoic Acid:** Powerful antioxidant that regenerates **Glutathione** to buffer the high ROS from elevated RMR.
-    6.  **Glycine:** Supports collagen synthesis and acts as a buffer for excess methyl groups.
-    7.  **Berberine:** Helps manage blood glucose (AMPK activation) to prevent excessive glycation during high-calorie phases.
+    -     - **Magnesium:** Essential cofactor for **COMT**; prevents catecholamine-induced oxidative stress.
+    -     - **Creatine:** Spares **Methyl Groups** (by reducing endogenous synthesis), providing more SAMe for COMT-mediated detoxification.
+    -     - **Hydroxocobalamin / Folinic Acid:** Non-methylated B-vitamins to support the **Methylation Cycle** without causing the "mood swings" associated with rapid catecholamine cycling in slow COMT types.
+    -     - **Resveratrol:** Activates **SIRT1** and protects the **Epigenome** without inhibiting COMT (unlike Quercetin).
+    -     - **Alpha-Lipoic Acid:** Powerful antioxidant that regenerates **Glutathione** to buffer the high ROS from elevated RMR.
+    -     - **Glycine:** Supports collagen synthesis and acts as a buffer for excess methyl groups.
+    -     - **Berberine:** Helps manage blood glucose (AMPK activation) to prevent excessive glycation during high-calorie phases.
 *   **Foods / Substances to Avoid or Minimize:**
-    1.  **Excessive Caffeine/Stimulants:** Dramatically increases epinephrine, fueling the **Adrenochrome** pathway.
-    2.  **High-Catechol Flavonoids (Quercetin, Fisetin, Luteolin):** Can inhibit **COMT**, leading to catecholamine accumulation and "worrier" symptoms during a bulk.
-    3.  **Industrial Seed Oils:** High Omega-6 content increases the substrate for lipid peroxidation under high oxidative stress.
+    -     - **Excessive Caffeine/Stimulants:** Dramatically increases epinephrine, fueling the **Adrenochrome** pathway.
+    -     - **High-Catechol Flavonoids (Quercetin, Fisetin, Luteolin):** Can inhibit **COMT**, leading to catecholamine accumulation and "worrier" symptoms during a bulk.
+    -     - **Industrial Seed Oils:** High Omega-6 content increases the substrate for lipid peroxidation under high oxidative stress.
 *   **Meal Timing / Macronutrient Strategy:**
-    1.  **Protein-First (Leucine-rich):** To maximize muscle protein synthesis via mTOR.
-    2.  **Carbohydrate Backloading:** Target carbs around training to minimize systemic inflammation and maintain insulin sensitivity.
-    3.  **Polyphenol-Rich Meals:** Include non-catechol polyphenols (berries, dark chocolate) with every high-calorie meal to buffer ROS.
+    -     - **Protein-First (Leucine-rich):** To maximize muscle protein synthesis via mTOR.
+    -     - **Carbohydrate Backloading:** Target carbs around training to minimize systemic inflammation and maintain insulin sensitivity.
+    -     - **Polyphenol-Rich Meals:** Include non-catechol polyphenols (berries, dark chocolate) with every high-calorie meal to buffer ROS.
 
 ### Behavioral Recommendations
 *   **Training Protocol:** High-intensity resistance training (4–5 days/week) to direct nutrients to muscle tissue. Avoid excessive steady-state cardio which can chronically elevate cortisol and catecholamines.
@@ -55,21 +55,21 @@ The shred scenario leverages elevated RMR to drive fat oxidation while maximizin
 
 ### Dietary Recommendations
 *   **Top 5–7 Prioritized Foods / Nutrients / Supplements:**
-    1.  **Spermidine:** Potent **Autophagy Inducer** (found in aged cheese, mushrooms, wheat germ).
-    2.  **EGCG (Green Tea):** Supports fat oxidation and provides antioxidant protection; synergistic with a shred.
-    3.  **S-Adenosylmethionine (SAMe):** Supports **COMT** and **Epigenetic** methylation during the stress of caloric restriction.
-    4.  **Acetyl-L-Carnitine (ALCAR):** Facilitates fatty acid transport into mitochondria and supports brain health.
-    5.  **Omega-3 (EPA/DHA):** Reduces neuro-inflammation and supports cell membrane integrity.
-    6.  **Glutathione (Liposomal):** Direct buffer for **Reactive Oxygen Species** during high fat-oxidation.
-    7.  **Vitamin E (Alpha-tocopherol):** Synergistic with slow COMT types for cancer prevention and ROS buffering.
+    -     - **Spermidine:** Potent **Autophagy Inducer** (found in aged cheese, mushrooms, wheat germ).
+    -     - **EGCG (Green Tea):** Supports fat oxidation and provides antioxidant protection; synergistic with a shred.
+    -     - **S-Adenosylmethionine (SAMe):** Supports **COMT** and **Epigenetic** methylation during the stress of caloric restriction.
+    -     - **Acetyl-L-Carnitine (ALCAR):** Facilitates fatty acid transport into mitochondria and supports brain health.
+    -     - **Omega-3 (EPA/DHA):** Reduces neuro-inflammation and supports cell membrane integrity.
+    -     - **Glutathione (Liposomal):** Direct buffer for **Reactive Oxygen Species** during high fat-oxidation.
+    -     - **Vitamin E (Alpha-tocopherol):** Synergistic with slow COMT types for cancer prevention and ROS buffering.
 *   **Foods / Substances to Avoid or Minimize:**
-    1.  **Alcohol:** Inhibits autophagy and disrupts the **Methylation Cycle**.
-    2.  **Refined Sugars:** Spikes insulin, instantly shutting down the autophagic process.
-    3.  **Artificial Sweeteners:** May disrupt gut microbiome and **Immunometabolism**.
+    -     - **Alcohol:** Inhibits autophagy and disrupts the **Methylation Cycle**.
+    -     - **Refined Sugars:** Spikes insulin, instantly shutting down the autophagic process.
+    -     - **Artificial Sweeteners:** May disrupt gut microbiome and **Immunometabolism**.
 *   **Meal Timing / Macronutrient Strategy:**
-    1.  **Intermittent Fasting (16:8 or 20:4):** Primary tool to drive **Autophagy**.
-    2.  **Protein Sparing Modified Fast (PSMF) elements:** High protein to prevent muscle loss, but low overall calories.
-    3.  **Fasted Training Window:** To maximize the **AMPK** signal.
+    -     - **Intermittent Fasting (16:8 or 20:4):** Primary tool to drive **Autophagy**.
+    -     - **Protein Sparing Modified Fast (PSMF) elements:** High protein to prevent muscle loss, but low overall calories.
+    -     - **Fasted Training Window:** To maximize the **AMPK** signal.
 
 ### Behavioral Recommendations
 *   **Training Protocol:** Fasted "Zone 2" cardio (45-60 mins) to drive fatty acid utilization + Maintenance-level resistance training (3 days/week) to preserve lean mass.
@@ -104,6 +104,6 @@ The shred scenario leverages elevated RMR to drive fat oxidation while maximizin
 *   **Practical Proxy:** **Partial Reprogramming** is best mimicked currently by cyclic **Autophagy Induction** (Fasting/Re-feeding) and **Sirtuin** activation (Resveratrol/NAD+ precursors). These interventions target the "epigenetic clock" safely without the risk of pluripotency-induced tumors (teratomas).
 
 ## Safety & Sustainability
-1.  **Monitor Heart Rate:** High RMR + Stimulants = **Adrenochrome** risk. If resting HR is >10 bpm above baseline, reduce caffeine.
-2.  **Cycle Interventions:** Do not stay in a deep "Shred" (Autophagy-heavy) or "Bulk" (mTOR-heavy) phase for more than 12 weeks to prevent epigenetic drift and metabolic adaptation.
-3.  **Blood Work:** Periodically check **Homocysteine** (Methylation status) and **hs-CRP** (Inflammation/Oxidative stress).
+- **Monitor Heart Rate:** High RMR + Stimulants = **Adrenochrome** risk. If resting HR is >10 bpm above baseline, reduce caffeine.
+- **Cycle Interventions:** Do not stay in a deep "Shred" (Autophagy-heavy) or "Bulk" (mTOR-heavy) phase for more than 12 weeks to prevent epigenetic drift and metabolic adaptation.
+- **Blood Work:** Periodically check **Homocysteine** (Methylation status) and **hs-CRP** (Inflammation/Oxidative stress).

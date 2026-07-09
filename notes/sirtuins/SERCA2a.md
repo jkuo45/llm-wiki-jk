@@ -1,11 +1,10 @@
 ---
 title: SERCA2a
 description: SERCA2a (Sarco/Endoplasmic Reticulum Ca2+-ATPase 2a, encoded by ATP2A2) is a P-type ATPase that pumps Ca2+ from the cytosol into the sarcoplasmic reticulum lumen. It is the dominant SERCA isoform in cardiac muscle and is indispensable for excitation-contraction coupling.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Protein
+  - protein
 aliases:
   - ATP2A2
   - Sarco/Endoplasmic Reticulum Ca2+-ATPase 2a
@@ -32,6 +31,14 @@ Beyond the heart, SERCA2a (and its splice isoform SERCA2b) is expressed in many 
 ## Clinical Relevance
 
 Loss of SERCA2a activity is a hallmark of advanced heart failure. Gene therapy approaches delivering SERCA2a (e.g., AAV1/SERCA2a in the CUPID trials) have been explored clinically, with mixed results but proof-of-concept for enzymatic restoration. The SIRT1–SERCA2a axis provides an additional post-translational node for therapeutic intervention through sirtuin activation, offering a pharmacologic alternative to gene delivery.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Furthermore, reduced level and activity of sarco-endoplasmic reticulum Ca[+] -ATPase (SERCA2a) are major features of Heart Failure, and SIRT1 KO elevated the acetylation of SERCA2a, which in turn leads to SERCA2a dysfunction and cardiac defects in a failing...
+
 
 ## Connections
 

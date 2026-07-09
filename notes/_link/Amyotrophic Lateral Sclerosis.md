@@ -3,11 +3,10 @@ title: Amyotrophic Lateral Sclerosis
 description: Amyotrophic lateral sclerosis (ALS) is a progressive neurodegenerative
   disease that affects nerve cells in the brain and the spinal cord. Oxidative Stress
   is heavily implicated, particularly throug...
-type: entity
 created: 2026-05-29
 updated: 2026-05-29
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: []
 ---
 # Amyotrophic Lateral Sclerosis
@@ -16,6 +15,19 @@ Amyotrophic Lateral Sclerosis (ALS) is a progressive [[Neurodegenerative Disease
 [[Induced Pluripotent Stem Cells]] (iPSCs) derived from ALS patients have been used to create motor neurons for disease modeling and [[Drug Discovery]]. Research has shown that factors like [[Oct4]] and [[Klf4]] can have neuroprotective effects in ALS models.
 
 #
+
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic|Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic]]
+    - Cancer, Neurodegenerative Diseases, Rejuvenation, Parkinson's Disease, Yamanaka Factors, Embryonic Stem Cells, Fibroblasts, Shinya Yamanaka, Kazutoshi Takahashi, OSKM, Regenerative Medicine, Olivopontocerebellar Atrophy, NuRD complex, CHD4, Schizophrenia, I...
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - Neurological Disease and Oxidative Stress Oxidative stress has been linked to several neurological diseases (i.e., Parkinson's Disease, Alzheimer's Disease, Amyotrophic Lateral Sclerosis, Multiple Sclerosis, depression, and memory loss) \[ – \].
+
 
 ## Connections
 - [[Neurodegenerative Diseases]]: ALS is a key example of this class of diseases.
@@ -26,4 +38,4 @@ Amyotrophic Lateral Sclerosis (ALS) is a progressive [[Neurodegenerative Disease
 
 ## Linking Summary
 - New links added: [[Neurodegenerative Diseases]], [[Induced Pluripotent Stem Cells]], [[Drug Discovery]], [[Oct4]], [[Klf4]]
-- Strong connections to strengthen: [[Induced Pluripotent Stem Cells]] ↔ [[Amyotrophic Lateral Sclerosis]]
+  - Strong connections to strengthen: Induced Pluripotent Stem Cells ↔ Amyotrophic Lateral Sclerosis

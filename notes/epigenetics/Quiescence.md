@@ -1,11 +1,10 @@
 ---
 title: Quiescence
-description: 'Quiescence is a state of reversible proliferative arrest in which cells exit the Cell Cycle but retain the capacity to reenter it upon appropriate stimuli; central to stem-cell maintenance, tissue repair, and longevity.'
-type: entity
+description: Quiescence is a state of reversible proliferative arrest in which cells exit the Cell Cycle but retain the capacity to reenter it upon appropriate stimuli; central to stem-cell maintenance, tissue repair, and longevity.
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Biological Process
+  - biological-process
 aliases: []
 ---
 
@@ -28,6 +27,14 @@ Quiescence is *reversible* and lacks the senescence-associated secretory phenoty
 ## Research and Longevity Relevance
 
 Quiescence underlies **[[Partial Reprogramming]]** strategies that reset age-associated changes without complete dedifferentiation. Modulating quiescence (via mTOR, AMPK, IGF-1 signaling) is a longevity lever: deeper, healthier quiescence limits replication damage and maintains regenerative reserve. Therapeutic exploitation includes mobilizing quiescent cells for repair while avoiding oncogenic re-entry.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - PMCID: NIHMSID: NIHMS1635620 Summary Quiescence is a state of reversible proliferative arrest in which cells are not actively dividing, and yet retain the capacity to reenter the Cell Cycle upon receiving an appropriate stimulus.
+
 
 ## Connections
 

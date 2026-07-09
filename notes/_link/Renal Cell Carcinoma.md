@@ -2,11 +2,10 @@
 title: Renal Cell Carcinoma
 description: A kidney cancer that originates in the lining of the proximal convoluted
   tubule.
-type: entity
 created: 2024-01-01
 updated: 2024-01-01
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: []
 ---
 # Renal Cell Carcinoma
@@ -24,6 +23,25 @@ Renal cell carcinoma is a fatal malignant tumor of the urinary system derived fr
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - In contrast, TFEB is hyperactivated and plays a pathogenic role in some cancers, including Birt-Hogg-Dube syndrome (BHD) \[\], TFEB translocation Renal Cell Carcinoma \[, \], and Pancreatic Cancer \[\].
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - Renal cell carcinomas Germline mutations in multiple genes confer susceptibility to Renal Cell Carcinoma (RCC), a heterogeneous group of tumors arising from renal tubular epithelium (reviewed in (Linehan & Ricketts 2013)).
+
+  - [[_document_ - Caspase|Caspase]]
+    - Puma | Loss in Breast Cancer, Hepatocellular Carcinoma, non-small-cell lung cancer, ovarian cancer, Renal Cell Carcinoma | IKK | Ser10 | Ubiquitination and degradation | Under cont
+
+  - [[_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug|Ivermectin, a potential anticancer drug derived from an antiparasitic drug]]
+    - Urinary system cancer Renal Cell Carcinoma is a fatal malignant tumor of the urinary system derived from renal tubular epithelial cells.
+
+
 ## Connections
 - [[Ivermectin]]: Selectively inhibits renal cancer cell proliferation.
 - [[ATP]]: Production is inhibited by ivermectin in renal cancer cells.
@@ -32,4 +50,4 @@ Renal cell carcinoma is a fatal malignant tumor of the urinary system derived fr
 ## Linking Summary
 - New links added: [[TFE3]], [[TFEB]], [[Cancer]], [[MALAT1]], [[Ivermectin]], [[N-acetyl-L-cysteine]].
 - Suggested new entity notes to create: [[MiT Family Translocation RCC]], [[N-acetyl-L-cysteine]].
-- Strong connections to strengthen: [[Renal Cell Carcinoma]] ↔ [[TFEB]], [[Renal Cell Carcinoma]] ↔ [[Ivermectin]]
+  - Strong connections to strengthen: Renal Cell Carcinoma ↔ [[TFEB]], Renal Cell Carcinoma ↔ Ivermectin

@@ -1,14 +1,13 @@
 ---
 title: NADH
-description: 'Biochemical properties: NADH is an endogenous metabolite involved
+description: 'Biochemical properties: NADH is an endogenous metabolite involved'
   in cellular energy metabolism, redox reactions, or biosynthetic pathways. Its cellular
-  concentration reflects metabolic flux an...'
-type: entity
+  concentration reflects metabolic flux an...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Metabolite
-  - NAD+
+  - biological-molecule
+  - nad+
 aliases: [Nicotinamide Adenine Dinucleotide]
 
 ---
@@ -30,5 +29,5 @@ aliases: [Nicotinamide Adenine Dinucleotide]
 
 ## Linking Summary
 - New links added: [[NADH]]
-- Strong connections to strengthen: [[NADH]] ↔ [[NADH]]
+  - Strong connections to strengthen: [[NADH]] ↔ [[NADH]]
 

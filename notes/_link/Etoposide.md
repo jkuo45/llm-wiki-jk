@@ -1,13 +1,12 @@
 ---
 title: Etoposide
-description: 'Etoposide (also known as VP-16) is a chemotherapy medication used
+description: Etoposide (also known as VP-16) is a chemotherapy medication used
   for the treatment of a number of types of cancer, including testicular cancer, lung
-  cancer, Lymphoma, and leukemia.'
-type: entity
+  cancer, Lymphoma, and leukemia.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: [Etoposide]
 
 ---
@@ -21,6 +20,19 @@ Etoposide is frequently used in combination with other agents to enhance its eff
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - For instance, human Caspase-3 gene therapy was used in addition to Etoposide treatment in an AH130 liver tumour model and was found to induce exten
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - s (Aphidicolin, Hydroxyurea, Thymidine, Bromodeoxyuridine, Gemcitabine, Cyclopentenyl cytosine); (2) DNA‐damaging agents, including (2a) DNA Topoisomerase Inhibitors (Doxorubicin, Etoposide, Daunorubicin, Mitoxantrone, Camptothecin), (2b) DNA Cross-linkers (Ci
+
+
 ## Connections
 - [[Apoptosis]]: Induces programmed cell death via DNA damage.
 - [[Caspase-3]]: Its efficacy can be enhanced by restoring caspase-3 expression.
@@ -29,4 +41,4 @@ Etoposide is frequently used in combination with other agents to enhance its eff
 ## Linking Summary
 - New links added: [[Apoptosis]], [[leukemia]], [[Caspase-3]], [[Cisplatin]], [[DNA Damage]], [[DNA Damage Response]]
 - Suggested new entity notes to create: [[Cisplatin]]
-- Strong connections to strengthen: [[Etoposide]] ↔ [[Apoptosis]], [[Etoposide]] <-> [[DNA Damage]]
+  - Strong connections to strengthen: [[Etoposide]] ↔ [[Apoptosis]], [[Etoposide]] <-> [[DNA Damage]]

@@ -3,11 +3,10 @@ title: Fatty acid
 description: Fatty acids are carboxylic acids with aliphatic chains (typically 4–28
   carbons) that serve as key components of membrane phospholipids, energy storage
   molecules, and signaling precursors in biological systems.
-type: entity
 created: 2026-07-04
 updated: 2026-07-06
 tags:
-  - Chemical Class
+  - chemical-class
 aliases: [Fatty Acids]
 
 ---
@@ -58,4 +57,4 @@ Dietary saturated fat elevates [[LDL]] cholesterol and is associated with increa
 ## Linking Summary
 - New links added: [[Peroxisomes]], [[Prostaglandins]], [[Leukotrienes]], [[Cyclooxygenases]], [[Lipoxygenases]], [[DHA]], [[Phospholipids]], [[Adipose Tissue]], [[Inflammation]], [[PPARα]], [[PPARγ]], [[Acetate]], [[Propionate]], [[Butyrate]], [[Gut Microbiome]], [[Histone deacetylase]], [[LDL]], [[Cardiovascular Disease]], [[Lipotoxicity]], [[Insulin Resistance]], [[Type 2 Diabetes Mellitus]], [[Liver]], [[Skeletal Muscle]], [[Non-alcoholic Fatty Liver Disease]], [[NASH]], [[Hepatic Steatosis]], [[Lipid Synthesis]], [[Fatty acid oxidation]], [[Short-chain Fatty Acids]], [[Cell Membranes]], [[Metabolic Syndrome]], [[Statins]]
 - Suggested new entity notes to create: [[Essential Fatty Acids]], [[Eicosanoid]], [[Resolvins]], [[Protectins]], [[Maresins]], [[Lipogenesis]], [[β-oxidation]], [[FASN]], [[GPR41]], [[GPR43]], [[Triglycerides]], [[LXR]], [[FXR]]
-- Strong connections to strengthen: [[Fatty acid]] ↔ [[Lipid Synthesis]], [[Fatty acid]] ↔ [[Short-chain Fatty Acids]], [[Fatty acid]] ↔ [[Lipotoxicity]]
+  - Strong connections to strengthen: Fatty acid ↔ Lipid Synthesis, Fatty acid ↔ Short-chain Fatty Acids, Fatty acid ↔ [[Lipotoxicity]]

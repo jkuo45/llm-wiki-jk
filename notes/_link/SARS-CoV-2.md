@@ -1,13 +1,12 @@
 ---
 title: SARS-CoV-2
-description: 'SARS-CoV‑2 (Severe Acute Respiratory Syndrome Coronavirus 2) is
+description: SARS-CoV‑2 (Severe Acute Respiratory Syndrome Coronavirus 2) is
   a positive-sense single-stranded RNA virus belonging to the Coronaviridae family
-  (genus *Betacoronavirus*). It is the causative a...'
-type: entity
+  (genus *Betacoronavirus*). It is the causative a...
 created: 2026-07-04
 updated: 2026-07-06
 tags:
-  - Microorganism
+  - organism
 aliases: [Severe Acute Respiratory Syndrome Coronavirus 2]
 
 ---
@@ -30,6 +29,16 @@ COVID-19 ranges from asymptomatic to severe [[Pneumonia]], [[ARDS]], [[Sepsis]],
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug|Ivermectin, a potential anticancer drug derived from an antiparasitic drug]]
+    - Recent studies have also pointed out that it has a promising inhibitory effect on the SARS-CoV-2 virus, which has caused a global outbreak in 2020 \[\]. In addition, IVM shows potential for clinical application in Asthma \[\] and neurological diseases \[\].
+
+
 ## Connections
 - [[COVID-19]] — the disease caused by SARS-CoV-2 infection
 - [[ACE2]] — host entry receptor for the viral spike protein
@@ -43,4 +52,4 @@ COVID-19 ranges from asymptomatic to severe [[Pneumonia]], [[ARDS]], [[Sepsis]],
 ## Linking Summary
 - New links added: [[COVID-19]], [[ACE2]], [[Spike Protein]], [[TMPRSS2]], [[Cathepsin L]], [[RNA virus]], [[Coronaviridae]], [[RNA-dependent RNA polymerase]], [[Main protease]], [[Papain-like protease]], [[Envelope]], [[Membrane]], [[Nucleocapsid]], [[Cytosol]], [[NFκB]], [[NLRP3 Inflammasome]], [[Cytokine Storm]], [[Pneumonia]], [[ARDS]], [[Sepsis]], [[Obesity]], [[Diabetes]], [[Hypertension]], [[Immunosuppression]], [[Aging]], [[Vaccine]], [[mRNA vaccine]], [[Long COVID]], [[Cognitive decline]]
 - Suggested new entity notes to create: [[Betacoronavirus]], [[Viral protease inhibitors]], [[Remdesivir]], [[Paxlovid]], [[Molnupiravir]], [[Neutralizing antibody]], [[Omicron variant]], [[Spike mutations]]
-- Strong connections to strengthen: [[SARS-CoV-2]] ↔ [[COVID-19]], [[SARS-CoV-2]] ↔ [[ACE2]], [[SARS-CoV-2]] ↔ [[Aging]]
+  - Strong connections to strengthen: [[SARS-CoV-2]] ↔ [[COVID-19]], [[SARS-CoV-2]] ↔ ACE2, [[SARS-CoV-2]] ↔ [[Aging]]

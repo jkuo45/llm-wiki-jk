@@ -1,12 +1,11 @@
 ---
 title: Racemization
-description: 'Racemization is a chemical process in which one enantiomer of a
-  compound is converted into an equal mixture of both enantiomers (a racemic mixture).'
-type: entity
+description: Racemization is a chemical process in which one enantiomer of a
+  compound is converted into an equal mixture of both enantiomers (a racemic mixture).
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Chemical Process
+  - chemical-process
 aliases: []
 ---
 
@@ -16,6 +15,14 @@ aliases: []
 
 ## Effect on Epinephrine
 Pharmaceutical [[Epinephrine]] is typically the L-isomer. Over time, heat and pH changes can cause racemization to the D-isomer, which is significantly less biologically active, leading to a loss of therapeutic potency.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - intermediates, precursor, hemoglobin|intermediates, precursor, hemoglobin]]
+    - Racemization (L- to D-epinephrine) reduces potency, as the D-isomer is less active. 3.
+
 
 ## Connections
 - [[Epinephrine]]

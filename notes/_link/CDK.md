@@ -1,13 +1,12 @@
 ---
 title: CDK
-description: 'Overview: CDK is a cellular protein with structural, signaling,
+description: 'Overview: CDK is a cellular protein with structural, signaling,'
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
-  and signaling networks that govern cell ...'
-type: entity
+  and signaling networks that govern cell ...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [Cyclin-Dependent Kinase]
 
 ---
@@ -24,10 +23,20 @@ aliases: [Cyclin-Dependent Kinase]
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - Whether a cell enters G0 Phase or proceeds through G1 Phase to continue cycling is dictated by the regulation of several key factors, including Cyclin and Cyclin-Dependent Kinase (CDK), CDK Inhibitor, and the Retinoblastoma Protein (Rb) (Figure 2).
+
+
 ## Connections
 - [[CDK]] — related entity
 
 ## Linking Summary
 - New links added: [[CDK]]
-- Strong connections to strengthen: [[CDK]] ↔ [[CDK]]
+  - Strong connections to strengthen: [[CDK]] ↔ [[CDK]]
 

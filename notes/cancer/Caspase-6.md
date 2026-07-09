@@ -1,11 +1,10 @@
 ---
 title: Caspase-6
 description: Caspase-6 is an executioner caspase activated in the terminal phase of apoptosis, best known for cleaving nuclear lamin A to drive nuclear disassembly and chromatin condensation.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Enzyme
+  - enzyme
   - apoptosis
 aliases: []
 ---
@@ -29,6 +28,17 @@ Caspase-6 is pivotal for the ordered demolition of cells during development and 
 ## Clinical & Research Relevance
 
 Because caspase-6 can execute apoptosis independently of caspase-3, it is a candidate target for overcoming caspase-3-resistant malignancies. Small-molecule caspase-6 activators and peptides that disrupt its inhibitory interactions are under preclinical investigation. Conversely, caspase-6 inhibitors are explored neuroprotectively. Biomarkers of caspase-6 activity (e.g., circulating cleaved cytokeratin-18 fragments) reflect epithelial tumor cell death and are used as pharmacodynamic readouts in early-phase trials.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - Caspase-2, Caspase-3, Caspase-6, Caspase-7,Caspase-8, Caspase-9 and Caspase-10). The second group can be further classified into 1) initiator caspases (e.g.
+
+  - [[_document_ - Caspase|Caspase]]
+    - They are broadly categorized into initiator caspases (e.g., Caspase-2, Caspase-8, Caspase-9, Caspase-10) and executioner caspases (e.g., Caspase-3, Caspase-6, Caspase-7). Table 1.
+
 
 ## Connections
 

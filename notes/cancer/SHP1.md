@@ -1,11 +1,10 @@
 ---
 title: SHP1
 description: SHP1 (PTPN6) is a Src-homology-2 domain-containing protein tyrosine phosphatase that activates Caspase-8 by dephosphorylating inhibitory tyrosines (Tyr397, Tyr465), a process requiring SHP1 binding to Caspase-8 at Tyr310.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Enzyme
+  - enzyme
 aliases: []
 ---
 
@@ -24,6 +23,14 @@ SHP1 restrains hematopoietic and epithelial signaling, maintaining tolerance and
 ## Clinical & Research Relevance
 
 SHP1 promoter methylation is a prognostic/diagnostic biomarker, and demethylating agents can restore SHP1 expression. Targeting the SHP1–Caspase-8 axis is a conceptual route to sensitize tumors to death-receptor ligands and cytotoxic therapy. SHP1 remains a key node linking immune signaling to apoptotic execution.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - Caspase-8 | | ND | Tyr310 (Tyr293) | SHP1 binding required for dephosphorylation | | | Caspase-8 |
+
 
 ## Connections
 

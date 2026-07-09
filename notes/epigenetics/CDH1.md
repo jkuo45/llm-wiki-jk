@@ -1,16 +1,15 @@
 ---
 title: CDH1
 description: CDH1 encodes E-cadherin, a 120 kDa calcium-dependent transmembrane glycoprotein essential for epithelial cell-cell adhesion and a master suppressor of invasion and metastasis.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - cell adhesion
-  - tumor suppressor
-  - Epithelial-Mesenchymal Transition
+  - cell-adhesion
+  - tumor-suppressor
+  - epithelial-mesenchymal-transition
   - methylation
-  - gastric cancer
-  - Gene
+  - gastric-cancer
+  - gene
 aliases: [E-cadherin, CD324, ECAD, uvomorulin]
 ---
 
@@ -37,6 +36,17 @@ Transcriptional repression of CDH1 is a hallmark of [[EMT]]. Key repressors — 
 **Lobular Breast Cancer:** CDH1 inactivation — by mutation, loss of heterozygosity (LOH), or promoter methylation — is nearly pathognomonic for invasive lobular carcinoma (ILC). ILC cells lack E-cadherin and grow as single-file, non-cohesive strands.
 
 **Prognostic & Predictive Value:** Loss of E-cadherin correlates with high grade, advanced stage, lymph node metastasis, and poor prognosis across multiple epithelial cancers. In ovarian and gastric cancers, detection of methylated CDH1 DNA in plasma or peritoneal fluid is under investigation as a liquid biopsy marker.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - In quiescent cells, hypophosphorylated Rb associates with the CDH1-bound APC-C (APC-C CDH1) to target Skp2, a negative regulator of the p27 CDK Inhibitor, for degradation (Binne et al., 2007).
+
+  - [[_document_ - Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network|Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network]]
+    - Further studies have shown that the endpoint of Mesenchymal-to-Epithelial Transition, E-Cadherin (CDH1), is required for establishing cell-cell contacts critical for the iPS phenotype .
+
 
 ## Connections
 

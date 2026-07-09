@@ -1,13 +1,12 @@
 ---
 title: CHOP
-description: 'Overview: CHOP is a cellular protein with structural, signaling,
+description: 'Overview: CHOP is a cellular protein with structural, signaling,'
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
-  and signaling networks that govern cell...'
-type: entity
+  and signaling networks that govern cell...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [DDIT3, GADD153]
 
 ---
@@ -29,5 +28,5 @@ aliases: [DDIT3, GADD153]
 
 ## Linking Summary
 - New links added: [[CHOP]]
-- Strong connections to strengthen: [[CHOP]] ↔ [[CHOP]]
+  - Strong connections to strengthen: [[CHOP]] ↔ [[CHOP]]
 

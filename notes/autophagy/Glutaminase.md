@@ -2,11 +2,10 @@
 title: Glutaminase
 description: Glutaminase is an enzyme that converts glutamine to glutamate; its expression
   is transcriptionally regulated by TFEB in Pancreatic Cancer to support tumor metabolism.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Enzyme
+  - enzyme
 aliases: [GLS]
 ---
 
@@ -25,6 +24,14 @@ Glutaminase converts glutamine to glutamate, which is further transaminated to Î
 ## Physiological & Pathological Relevance
 
 Glutaminolysis is a hallmark of rapidly dividing cancer cells, which depend on glutamine ("glutamine addiction") for survival. In [[Pancreatic Cancer]] and other malignancies, TFEB-mediated glutaminase upregulation supports the metabolic flexibility that underlies therapy resistance. Pharmacological inhibition of glutaminase (e.g., with CB-839 / telaglenastat, BPTES, or JHU083) reduces autophagic flux, lowers Î±-KG, and sensitizes tumor cells to chemotherapy and targeted agents, making GLS a candidate vulnerability in [[Cancer]] metabolism. Conversely, glutaminase-derived glutamate and glutathione tie into [[Oxidative Stress]] buffering, while the ammonia-autophagy axis highlights glutaminase as a bridge between nutrient sensing, [[Autophagy]], and cellular resilience in [[Aging]] and disease.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - found that TFEB controls glutamine metabolism by promoting the transcription of Glutaminase, which meets the biosynthetic needs of cancer cells and supports pancreatic cancer growth. They also found that TFEB knockdown suppressed tumor growth \[\].
+
 
 ## Connections
 

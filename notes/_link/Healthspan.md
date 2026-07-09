@@ -1,13 +1,12 @@
 ---
 title: Healthspan
-description: 'Healthspan refers to the period of life during which an individual
+description: Healthspan refers to the period of life during which an individual
   remains generally healthy and free from serious disease, disability, or functional
-  decline. It is distinguished from Lifespan ...'
-type: entity
+  decline. It is distinguished from Lifespan ...
 created: 2026-07-04
 updated: 2026-07-06
 tags:
-  - Scientific Concept
+  - scientific-concept
 aliases: [Healthy Aging, Health Span, Disability-Free Life Expectancy]
 
 ---
@@ -51,9 +50,18 @@ The [[Compression of Morbidity]] hypothesis (Fries, 1980) posits that extending 
 - [[Frailty]] — healthspan ends when frailty accumulates beyond a threshold
 - [[Biomarkers of Aging]] — molecular measures that track healthspan
 - [[Epigenetic Clock]] — predicts remaining healthspan from DNA methylation patterns
-- [[Quality of Life]] — the ultimate goal of healthspan extension
+ - [[Quality of Life]] — the ultimate goal of healthspan extension
+ - [[Fisetin]] — a flavonol senolytic that extended both healthspan and lifespan in aged mice when started late in life
+
+## Documents
+
+List of documents in the wiki that mention this entity
+
+  - [[_document_ - Fisetin is a senotherapeutic that extends health and lifespan|Fisetin Senotherapeutic & Lifespan]]
+    - Late-life fisetin intervention in aged mice reduced age-related pathology and extended both healthspan and lifespan — the first senolytic shown to do so when started late in life.
 
 ## Linking Summary
 - New links added: [[Lifespan]], [[Aging]], [[Aging Research]], [[Gerontology]], [[Chronic Disease]], [[Cardiovascular Disease]], [[Cancer]], [[Diabetes Mellitus]], [[Neurodegenerative Disease]], [[Mobility]], [[Cognition]], [[Activities of Daily Living]], [[Frailty Index]], [[Biological Age]], [[Epigenetic Clocks]], [[Biomarkers of Aging]], [[Caloric Restriction]], [[Exercise]], [[Muscle Mass]], [[Cardiovascular Function]], [[Rapamycin]], [[Metformin]], [[NAD+]], [[Nicotinamide Mononucleotide]], [[Nicotinamide Riboside]], [[Senolytics]], [[Dasatinib]], [[Quercetin]], [[Intermittent Fasting]], [[Mediterranean Diet]], [[Compression of Morbidity]], [[Quality of Life]]
-- Suggested new entity notes to create: [[Compression of morbidity]], [[Disability-free life expectancy]], [[Healthspan versus lifespan]], [[Geroprotector]], [[Frailty index]]
-- Strong connections to strengthen: [[Healthspan]] ↔ [[Aging]], [[Healthspan]] ↔ [[Caloric Restriction]], [[Healthspan]] ↔ [[Lifespan]]
+ - Suggested new entity notes to create: [[Compression of morbidity]], [[Disability-free life expectancy]], [[Healthspan versus lifespan]], [[Geroprotector]], [[Frailty index]]
+   - Strong connections to strengthen: [[Healthspan]] ↔ [[Aging]], [[Healthspan]] ↔ Caloric Restriction, [[Healthspan]] ↔ Lifespan, [[Healthspan]] ↔ [[Fisetin]]
+ - New links added (ingestion batch, 09 Jul 2026): [[Fisetin]], [[Senolytic]], [[Lifespan]]

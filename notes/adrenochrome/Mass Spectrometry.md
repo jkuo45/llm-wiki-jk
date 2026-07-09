@@ -1,12 +1,11 @@
 ---
 title: Mass Spectrometry
-description: 'Mass Spectrometry (MS) is an analytical technique that measures
-  the mass-to-charge ratio of ions.'
-type: entity
+description: Mass Spectrometry (MS) is an analytical technique that measures
+  the mass-to-charge ratio of ions.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Analytical Technique
+  - analytical-technique
 aliases: []
 ---
 
@@ -16,6 +15,14 @@ aliases: []
 
 ## Application
 In conjunction with liquid chromatography ([[LC-MS]]), it is used to identify and quantify trace amounts of impurities like [[Leuco-adrenochrome]] and [[Adrenochrome]] based on their unique molecular weights and fragmentation patterns.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - intermediates, precursor, hemoglobin|intermediates, precursor, hemoglobin]]
+    - Ensure that when purchasing, you request the Certificate of Analysis (CoA) , which specifies the purity and the method used to verify the molecular structure (usually H-NMR or Mass Spectrometry), as synthetic batches can easily degrade if handled improperly...
+
 
 ## Connections
 - [[LC-MS]]

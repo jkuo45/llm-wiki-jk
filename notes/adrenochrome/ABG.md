@@ -1,11 +1,10 @@
 ---
 title: ABG
 description: '- Arterial blood gas: The full name of the test.'
-type: entity
 created: 2026-07-04
 updated: 2026-07-06
 tags:
-  - Diagnostic Test
+  - diagnostic-test
 aliases: []
 ---
 # ABG
@@ -63,6 +62,14 @@ This capability is critical for the diagnosis of [[Methemoglobinemia]]. In methe
 ## Limitations
 
 ABG is an invasive, painful procedure requiring technical skill ([[Radial artery]] puncture or [[Arterial line]] placement). Complications include hematoma, arterial spasm, thrombosis, pseudoaneurysm, and rarely infection. It provides a single time-point assessment — not continuous monitoring. In hypotensive or vasoconstricted patients, the radial pulse may be impalpable, necessitating [[Femoral artery]] or [[Brachial artery]] access. Alternatives include [[Venous blood gas]] (for pH and PCO₂ trends, not oxygenation), [[Pulse oximetry]] (continuous SpO₂ but unreliable in methemoglobinemia or carbon monoxide poisoning), and [[Transcutaneous monitoring]] (tcPO₂/tcPCO₂) for neonates.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Methemoglobin and Methemoglobinemia|Methemoglobin and Methemoglobinemia]]
+    - Lab: Co-oximetry measuring MetHb percentage; standard ABG and Pulse oximetry have limitations. Genetic testing for congenital forms.
+
 
 ## Connections
 

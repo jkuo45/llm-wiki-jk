@@ -1,13 +1,12 @@
 ---
 title: PIKfyve
-description: 'PIKfyve is a phosphoinositide 5-kinase that converts PtdIns3P to
+description: PIKfyve is a phosphoinositide 5-kinase that converts PtdIns3P to
   PtdIns(3,5)P2, playing a critical role in Lysosome biogenesis and reformation by
-  activating TRPML1.'
-type: entity
+  activating TRPML1.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Enzyme
+  - enzyme
 aliases: [PIP5K3, phosphoinositide kinase]
 
 ---
@@ -24,6 +23,14 @@ PIKfyve produces [[PtdIns(3,5)P2]] from [[PtdIns3P]] at late endosomes and [[Lys
 
 ## Autophagy Connection
 PIKfyve is essential for [[Autophagic Lysosome Reformation]] (ALR), the process that regenerates functional lysosomes from [[Autolysosome]]s after cargo degradation. PIKfyve inhibition causes lysosomal enlargement, blocks autophagic flux, and traps [[LC3]]-positive vesicles. This makes PIKfyve a target for autophagy modulation in cancer and lysosomal storage disorders.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Lysosome biogenesis Regulation and functions|Lysosome biogenesis Regulation and functions]]
+    - Later, it was found that the PtdIns3P 5-kinase PIKfyve and the lysosomal calcium channel TRPML1 are both required for ELR (Treusch et al., 2004; Nicot et al., 2006; Miller et al., 2015; Bissig et al., 2017).
+
 
 ## Connections
 

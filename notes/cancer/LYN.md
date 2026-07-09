@@ -1,11 +1,10 @@
 ---
 title: LYN
 description: LYN is a Src-family non-receptor tyrosine kinase that phosphorylates Caspase-8 at Tyr397 and Tyr465 to suppress its pro-apoptotic activity; this suppression is relieved by the phosphatase SHP1.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Enzyme
+  - enzyme
 aliases: []
 ---
 
@@ -28,6 +27,14 @@ LYN is essential for B-cell development and innate immune cell signaling. Dysreg
 ## Clinical & Research Relevance
 
 SFK inhibitors (e.g., dasatinib, which inhibits LYN among others) can relieve Caspase-8 suppression and sensitize tumors to TRAIL or Fas ligand. Combining SHP1-activating or LYN-inhibiting strategies with death-receptor agonists is an area of investigation for overcoming apoptosis resistance. The LYN–Caspase-8 axis also illustrates how non-Ser/Thr phosphorylation finely tunes executioner proteases.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - Caspase-8 | | SRC kinase, FYN, LYN (SHP1) | Tyr397 (Tyr380) | Suppression of activity | Colon Cancer | | Caspas
+
 
 ## Connections
 

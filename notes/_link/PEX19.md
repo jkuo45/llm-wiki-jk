@@ -3,11 +3,10 @@ title: PEX19
 description: PEX19 encodes a predominantly cytosolic chaperone and import receptor for
   peroxisomal membrane proteins (PMPs), essential for the insertion of newly synthesized
   PMPs into the Peroxisome membrane during biogenesis and growth.
-type: entity
 created: 2026-07-04
 updated: 2026-07-06
 tags:
-  - Protein
+  - protein
 aliases: [peroxisomal biogenesis factor 19, Pex19p, HK33]
 ---
 
@@ -74,4 +73,4 @@ Biallelic PEX19 knockout in mice is embryonic lethal at E9.5-E11.5, with no dete
 ## Linking Summary
 - New links added: [[PEX3]], [[Peroxisome]], [[PEX13]], [[PEX14]], [[PEX2]], [[PEX10]], [[PEX12]], [[PEX11β]], [[Endoplasmic Reticulum]], [[Zellweger Spectrum Disorders]], [[Cytosol]], [[Beta-Oxidation]], [[Fatty acid]]
 - Suggested new entity notes to create: [[Peroxisomal Membrane Protein]], [[Peroxin]], [[ABCD1]]
-- Strong connections to strengthen: [[PEX19]] ↔ [[PEX3]], [[PEX19]] ↔ [[Peroxisome]], [[PEX19]] ↔ [[Zellweger Spectrum Disorders]]
+  - Strong connections to strengthen: [[PEX19]] ↔ PEX3, [[PEX19]] ↔ Peroxisome, [[PEX19]] ↔ Zellweger Spectrum Disorders

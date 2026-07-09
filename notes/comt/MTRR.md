@@ -1,11 +1,10 @@
 ---
 title: MTRR
 description: MTRR (methionine synthase reductase) is an enzyme that maintains methionine synthase in its active B12-dependent reduced state for homocysteine remethylation.
-type: entity
 created: 2026-05-25
 updated: 2026-07-07
 tags:
-  - Enzyme
+  - enzyme
 aliases: [Methionine Synthase Reductase]
 ---
 
@@ -28,6 +27,14 @@ The common MTRR A66G (Ile22Met) polymorphism reduces reductase efficiency and is
 ## Clinical and Research Relevance
 
 MTRR dysfunction contributes to hyperhomocysteinemia, a risk factor for cardiovascular disease and cognitive decline, and to impaired fetal development. In psychiatric contexts, reduced MTRR activity can lower SAMe and worsen COMT-dependent catecholamine dysregulation implicated in [[Schizophrenia]] and mood disorders.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - ion of adenosyl and Hydroxocobalamin 5 Diet and supplements options for Slow COMT: If you have MTHFR variants along with slow COMT, you may be wondering, “What should I do?” Many functional medicine practitioners, health websites, and podcast hosts recommen...
+
 
 ## Connections
 

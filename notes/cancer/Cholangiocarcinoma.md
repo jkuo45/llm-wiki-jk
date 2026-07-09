@@ -1,11 +1,10 @@
 ---
 title: Cholangiocarcinoma
 description: Cholangiocarcinoma is a malignant adenocarcinoma arising from the bile duct epithelium (cholangiocytes), encompassing intrahepatic, perihilar, and distal subtypes, with poor prognosis and limited therapeutic options.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: []
 ---
 
@@ -28,6 +27,17 @@ Tumor cholangiocytes (e.g., the KKU cell lines) display constitutive proliferati
 ## Clinical & Research Relevance
 
 Standard care is surgical resection for localized disease, with systemic [[Chemotherapy]] (gemcitabine/cisplatin) for advanced cases and emerging targeted agents (FGFR2 inhibitors, IDH1 inhibitors) for molecularly defined subsets. Repurposing [[Ivermectin]] alone or with chemotherapy is under investigation to bypass resistance. Biomarkers such as CA19-9 aid monitoring, and liquid biopsy for *FGFR2* or *IDH* alterations guides precision approaches.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - r]], Breast Cancer, Hepatocellular Carcinoma, Melanoma, ovarian cancer, Prostate Cancer, Renal Cell Carcinoma | CDK1, CDK2, JNK1 | Ser64 | Enhances binding to Bim, Noxa, Bak | TRAIL resistance; Cholangiocarcinoma | | Mcl-1 | | CDK1/CYCLIN B | Thr92 | APC-C[
+
+  - [[_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug|Ivermectin, a potential anticancer drug derived from an antiparasitic drug]]
+    - IVM could inhibit the development of hepatocellular carcinoma by blocking YAP1 activity in spontaneous liver cancer Mob1b -/- mice \[\].Cholangiocarcinoma is a malignant tumor that originates in the bile duct inside and outside the liver.
+
 
 ## Connections
 

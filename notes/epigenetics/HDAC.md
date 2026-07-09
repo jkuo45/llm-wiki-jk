@@ -1,11 +1,10 @@
 ---
 title: HDAC
-description: 'HDAC stands for Histone Deacetylase. These are a class of enzymes that remove acetyl groups from histone lysine residues, allowing chromatin to condense.'
-type: entity
+description: HDAC stands for Histone Deacetylase. These are a class of enzymes that remove acetyl groups from histone lysine residues, allowing chromatin to condense.
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Enzyme
+  - enzyme
   - epigenetics
 aliases: []
 ---
@@ -34,6 +33,14 @@ HDACs are essential for development, [[Cell Cycle]] control, [[DNA Damage Respon
 ## Impact on Aging and Disease
 
 As organisms [[Aging|age]], the activity of certain HDACs becomes dysregulated, contributing to "epigenetic drift" and loss of genomic stability. HDAC inhibitors (e.g., vorinostat, romidepsin, [[Sodium Valproate]]) are approved anticancer agents and are under active [[Geroscience]] investigation for restoring youthful gene expression in brain and heart. Conversely, sirtuin activation is a leading longevity strategy.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Tie-Ning Zhang , Huan-Huan Chen , Xue-Fei Yu , Jia-Le Lv , Yu-Yang Liu , Ya-Shu Liu , Gang Zheng , Jun-Qi Zhao , Yi-Fan Wei , Jing-Yi Guo , Fang-Hua Liu , Qing Chang , Yi-Xiao Zhang , Cai-Gang Liu 8 ✉ and Yu-Hong Zhao[✉] Sirtuins (SIRTs) are NAD+-dependent ...
+
 
 ## Connections
 

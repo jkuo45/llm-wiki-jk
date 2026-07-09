@@ -1,11 +1,10 @@
 ---
 title: Cardiomyocytes
 description: Contractile muscle cells of the heart responsible for generating force of cardiac contractions; terminally differentiated myocytes with limited regenerative capacity.
-type: entity
 created: 2026-07-04
 updated: 2026-07-06
 tags:
-  - Cell Type
+  - cell-type
 aliases: []
 ---
 
@@ -70,6 +69,14 @@ Adult mammalian cardiomyocytes are terminally differentiated, exiting the cell c
 - **Induced pluripotent stem cell-derived cardiomyocytes (iPSC-CMs)**: Transplanted as cell sheets or patches in preclinical models, showing electromechanical integration but limited long-term engraftment.
 - **Cell cycle re-entry**: Forced expression of cyclins (Cyclin D2), CDKs, or microRNA manipulation to stimulate proliferation.
 - **Cardiac reprogramming**: Direct conversion of cardiac [[Fibroblasts|fibroblasts]] into induced cardiomyocyte-like cells via transcription factor cocktails (GATA4, MEF2C, TBX5 — GMT factors).
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - neutrophil and erthrocyte|neutrophil and erthrocyte]]
+    - pubmed.ncbi.nlm.nih.gov - Cardiomyocytes: Epinephrine oxidation to Adrenochrome has been observed in isolated rat Cardiomyocytes, linked to potential Cardiotoxicity effects under stress or high Catecholamines levels. pubs.
+
 
 ## Connections
 

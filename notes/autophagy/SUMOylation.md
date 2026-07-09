@@ -1,11 +1,10 @@
 ---
 title: SUMOylation
 description: SUMOylation is a reversible post-translational modification attaching Small Ubiquitin-like Modifier proteins to lysine residues; it regulates autophagy effectors including ULK1, TFEB, and GABARAP, tuning their stability, localization, and activity.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Chemical Process
+  - chemical-process
 aliases:
   - small ubiquitin-like modification
   - SUMO conjugation
@@ -26,6 +25,14 @@ SUMOylation of [[TFEB]] at K316 attenuates its transcriptional activity, dampeni
 ## Physiological & Pathological Relevance
 
 Altered SUMOylation is implicated in [[Neurodegeneration]], where impaired clearance of SUMO-modified aggregates accumulates, and in [[Cancer]], where SUMO pathway enzymes are frequently dysregulated to support proliferation and stress survival. Modulating SENPs or E3 ligases offers a route to tune [[Autophagy]] for therapeutic benefit in proteinopathies and metabolic disease associated with [[Aging]].
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - PTM The activity and subcellular localization of TFEB are mainly regulated by PTM, including Phosphorylation \[\], Acetylation \[\], Ubiquitination \[\], PARsylation \[\], SUMOylation \[\], Glucosylation \[\], Oxidation \[, \] and S-sulfhydration \[\].
+
 
 ## Connections
 

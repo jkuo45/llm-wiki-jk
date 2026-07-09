@@ -1,11 +1,10 @@
 ---
 title: BH3 profiling
 description: Functional assay developed by Anthony Letai that determines a cancer cell's dependence on specific anti-apoptotic Bcl-2 family proteins and predicts sensitivity to BH3-mimetic drugs.
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - Analytical Technique
+  - analytical-technique
 aliases: [BH3 profiling assay, mitochondrial priming assay]
 ---
 
@@ -41,6 +40,14 @@ BH3 profiling has been translated into clinical oncology to guide the use of BH3
 - **Combination therapy**: BH3 profiling is used to rationally combine BH3 mimetics (e.g., venetoclax + [[Mcl-1]] inhibitor) by revealing co-dependencies, and to schedule chemotherapy by measuring changes in priming after initial treatment.
 
 Beyond hematology, BH3 profiling is being evaluated in solid tumors (breast, lung, ovarian) and in the context of targeted therapy resistance (e.g., [[BRAF]] inhibitor-resistant melanoma).
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Evading apoptosis in cancer|Evading apoptosis in cancer]]
+    - Letai and colleagues have developed a functional assay, called BH3 profiling, to gauge the dependency of cancer cells on anti-apoptotic Bcl-2 family proteins. Although the BH3 profiling made a successful breakthrough \[\], is there any ot
+
 
 ## Connections
 

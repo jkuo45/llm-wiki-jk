@@ -2,11 +2,10 @@
 title: Maillard Reaction
 description: The Maillard Reaction is a non-enzymatic chemical reaction between amino
   acids and reducing sugars that gives browned food its distinctive flavor.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Chemical Process
+  - chemical-process
 aliases: []
 ---
 # Maillard Reaction
@@ -40,6 +39,14 @@ Dietary AGEs (dAGEs), pre-formed during high-temperature cooking (grilling, roas
 ## Updated Links
 
 - Additional new links: [[Furfurals]], [[Reductones]], [[3-deoxyglucosone]], [[Glyoxal]], [[Methylglyoxal]], [[2-Acetyl-1-pyrroline]], [[Furaneol]], [[Pyrazines]], [[Cysteine]], [[Thiols]], [[Thiophenes]], [[Proline]], [[Methionine]], Steak, Bread, Coffee, Beer, French fries, [[Collagen]], [[Elastin]], [[Lens crystallins]], [[Cataract]], [[RAGE]], [[NFκB]], [[Vascular inflammation]], [[Gastrointestinal Tract]], [[Oxidative Stress]]
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Dietary Advanced Glycation End Products and Aging|Dietary Advanced Glycation End Products and Aging]]
+    - Keywords: advanced glycation end products, aging, Maillard reaction 1\. Introduction Advanced Glycation End Products (AGEs) are a heterogeneous, complex group of compounds that are formed mainly via the Maillard Reaction.
+
 
 ## Connections
 

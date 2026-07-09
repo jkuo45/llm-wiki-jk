@@ -1,11 +1,10 @@
 ---
 title: Rectal Cancer
 description: Rectal cancer is cancer that begins in the rectum. It is distinct from colon cancer in anatomy, treatment approach, recurrence patterns, and molecular profile.
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: []
 ---
 
@@ -36,6 +35,14 @@ Symptoms include tenesmus (sensation of incomplete evacuation), rectal bleeding,
 ## Molecular Pathology
 
 Rectal cancers harbor a higher frequency of [[APC]] mutations and lower rates of microsatellite instability ([[MSI]]) compared to right-sided colon cancers. [[TP53]] mutations are common, and the [[Wnt signaling pathway]] is nearly universally dysregulated.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - Ser268 | Inhibition | Prostate Cancer | | XIAP | Amplification in cervical cancer, leukemia, Rectal Cancer | Akt | Ser87 | Prevents Ubiquitination/degradation | ovarian canc
+
 
 ## Connections
 

@@ -1,13 +1,12 @@
 ---
 title: CDKN2A
-description: 'Overview: CDKN2A is a cellular protein with structural, signaling,
+description: 'Overview: CDKN2A is a cellular protein with structural, signaling,'
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
-  and signaling networks that govern ce...'
-type: entity
+  and signaling networks that govern ce...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [p16INK4a, p14ARF]
 
 ---
@@ -29,5 +28,5 @@ aliases: [p16INK4a, p14ARF]
 
 ## Linking Summary
 - New links added: [[CDKN2A]]
-- Strong connections to strengthen: [[CDKN2A]] ↔ [[CDKN2A]]
+  - Strong connections to strengthen: [[CDKN2A]] ↔ [[CDKN2A]]
 

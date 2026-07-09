@@ -2,11 +2,10 @@
 title: GATOR2
 description: GATOR2 is a protein complex that negatively regulates GATOR1, thereby
   promoting mTORC1 activation in the presence of amino acids.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Scientific Concept
+  - scientific-concept
 aliases: [GAP activity toward Rags 2]
 ---
 # GATOR2

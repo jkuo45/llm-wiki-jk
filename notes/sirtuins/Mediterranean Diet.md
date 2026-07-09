@@ -3,11 +3,10 @@ title: Mediterranean Diet
 description: The Mediterranean Diet is a dietary pattern based on traditional
   eating habits of populations bordering the Mediterranean Sea, particularly Greece,
   Southern Italy, and Spain. It has been extens...
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Scientific Concept
+  - scientific-concept
 aliases: [MedDiet]
 ---
 
@@ -35,6 +34,14 @@ The **Mediterranean Diet** is a dietary pattern based on traditional eating habi
 - The **PREDIMED** trial (2013) demonstrated that a Mediterranean diet supplemented with extra-virgin olive oil or nuts significantly reduced major cardiovascular events
 - Associated with lower incidence of [[Diabetes Mellitus|type 2 diabetes]], [[Atherosclerosis]], metabolic syndrome, and [[Cancer]]
 - Epidemiological data from the [[French Paradox]] observations helped prompt broader investigation into the diet's health effects
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Sirtuin System The Holy Grail of Resveratrol?|The Sirtuin System The Holy Grail of Resveratrol?]]
+    - These and other such studies were monumental in developing the current concepts of the widely accepted Mediterranean Diet.
+
 
 ## Connections
 

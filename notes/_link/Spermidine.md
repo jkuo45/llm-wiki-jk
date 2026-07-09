@@ -1,13 +1,12 @@
 ---
 title: Spermidine
-description: 'Spermidine is a naturally occurring polyamine that is found in all
+description: Spermidine is a naturally occurring polyamine that is found in all
   living cells. It is recognized as a potent ''geroprotector'' due to its ability
-  to extend the lifespan of various organisms, inc...'
-type: entity
+  to extend the lifespan of various organisms, inc...
 created: 2026-05-29
-updated: 2026-05-29
+updated: 2026-07-07
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: []
 ---
 
@@ -32,13 +31,37 @@ Spermidine is an endogenous polyamine metabolite that induces [[TFEB]]-driven au
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Autophagy and intermittent fasting the connection for cancer therapy?|Autophagy and intermittent fasting the connection for cancer therapy?]]
+    - demonstrated the tumor-suppressive effects of CRM agents, for example, 2-deoxy-glucose, Metformin,, mTOR inhibitors, resveratrol,, hydroxycitrate, Spermidine, and natural compounds such as curcumin, in combination with antitumor treatments in different canc...
+
+  - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
+    - Rejuvenation of immune cells by autophagy-inducing drugs, such as Rapamycin, Metformin and Spermidine, and dietary interventions (DR).
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - Spermidine, an endogenous Polyamine metabolite, was found to involved in hypusination, a post-translational modification of eukaryotic initiation factor 5 A (eIF5A) \[\]. Zhang et al.
+
+  - [[_document_ - The autophagy enhancer spermidine reverses arterial aging|The autophagy enhancer spermidine reverses arterial aging]]
+    - Recently, the polyamine Spermidine has been identified as a potent and specific inducer of autophagy (Eisenberg et al., 2009, Madeo et al., 2010).
+
+  - [[_document_ -  (protocol) GOPS - glyco-oxidative proteostasis|GOPS Protocol]]
+    - Autophagy inducer facilitating clearance of glycated/oxidized proteins in the Glyco-Oxidative Proteostasis Shield.
+
+
 ## Connections
 - **[[Autophagy]]**: The primary cellular process induced by spermidine.
 - **[[Aging]]**: Spermidine levels are a determinant of healthy aging.
 - **[[Geroscience]]**: A major natural compound of interest for extending healthspan.
 - **[[Resveratrol]]**: Another natural compound that interacts with longevity pathways (SIRT1).
+- **[[Adrenochrome monoaminoguanidine]]**: Hybrid molecule in GOPS whose hormetic ER-stress signaling is complemented by spermidine-induced autophagy clearance.
+- **[[Carnosine]]**: Metal chelator co-administered with spermidine in the GOPS protocol to stabilize the proteostatic environment.
 
 ## Linking Summary
-- New links added: [[TFEB]], [[eIF5A]], [[Spermidine]], [[Autophagy]], [[Histone Acetyltransferase]], [[Aging]], [[Neurodegenerative Diseases]], [[Geroscience]], [[Resveratrol]], [[Polyamine]], [[Autophagy Inducer]], [[Longevity]]
+- New links added: [[TFEB]], [[eIF5A]], [[Spermidine]], [[Autophagy]], [[Histone Acetyltransferase]], [[Aging]], [[Neurodegenerative Diseases]], [[Geroscience]], [[Resveratrol]], [[Polyamine]], [[Autophagy Inducer]], [[Longevity]], [[Adrenochrome monoaminoguanidine]], [[Carnosine]]
 - Suggested new entity notes to create: [[Hypusination]], [[Polyamine]], [[Mitophagy]], [[Wheat Germ]], [[eIF5A]], [[SIRT1]]
-- Strong connections to strengthen: [[Spermidine]] ↔ [[TFEB]], [[Spermidine]] ↔ [[Autophagy]], [[Spermidine]] ↔ [[Aging]], [[Spermidine]] ↔ [[Immune Aging]]
+  - Strong connections to strengthen: [[Spermidine]] ↔ [[TFEB]], [[Spermidine]] ↔ Autophagy, [[Spermidine]] ↔ [[Aging]], [[Spermidine]] ↔ Immune Aging, [[Spermidine]] ↔ Adrenochrome monoaminoguanidine, [[Spermidine]] ↔ [[Carnosine]]

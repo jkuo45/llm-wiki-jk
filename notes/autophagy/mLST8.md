@@ -3,11 +3,10 @@ title: mLST8
 description: Mammalian lethal with Sec13 protein 8 (mLST8), also known as GβL, is
   a core component of both mTORC1 and mTORC2 that is essential for the stability and
   kinase activity of the complexes, particularly mTORC2.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Protein
+  - protein
 aliases: [GβL, mTOR-associated protein LST8]
 ---
 
@@ -26,6 +25,14 @@ In [[mTORC1]], mLST8 associates with mTOR, [[Raptor]], and [[PRAS40]]; it stabil
 ## Physiological & Pathological Relevance
 
 Because mTORC1 and mTORC2 govern growth, metabolism, and survival, mLST8 sits at the apex of nutrient and insulin/IGF-1 signaling. mTORC2-AKT output downstream of mLST8 influences [[Cancer]] proliferation, glucose homeostasis, and [[Aging]]-related metabolic decline. Genetic depletion of mLST8 recapitulates the embryonic-lethal "lethal with Sec13" phenotype of its yeast counterpart, underscoring its non-redundant role. Pharmacologically, the dual mTORC1/mTORC2 inhibitor MLN0128 (sapanisertib) and related catalytic-site drugs act within the mLST8-stabilized kinase domain, making the mLST8-mTOR interface indirectly relevant to targeted cancer and senescence interventions that modulate [[Autophagy]] through relief of mTOR repression.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - mTORC1 mTORC1 has five components: mTOR, which is the catalytic subunit of the complex; Raptor (Raptor); mLST8 (mLST8, also known as GβL); PRAS40 (PRAS40); and Deptor (Deptor) (Peterson et al., 2009).
+
 
 ## Connections
 

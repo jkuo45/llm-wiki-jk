@@ -3,11 +3,10 @@ title: Ivermectin
 description: Ivermectin is a macrolide antiparasitic drug with a 16-membered ring
   that is widely used for the treatment of many parasitic diseases such as river blindness,
   elephantiasis and Scabies. It was deri...
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: []
 ---
 # Ivermectin
@@ -27,6 +26,17 @@ Ivermectin has been reported to inhibit the proliferation of several tumor cells
 
 ### Synergistic Effects
 Ivermectin shows synergistic effects when used in combination with other chemotherapy drugs such as [[Cisplatin]], [[docetaxel]], [[paclitaxel]], [[Daunorubicin]], [[cytarabine]], [[erlotinib]], [[Dasatinib]], and [[dabrafenib]].
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug|Ivermectin, a potential anticancer drug derived from an antiparasitic drug]]
+    - sup>b, Jiangyan Li a,d, Qiang Fang a,d,e, PMCID: Graphical abstract Ivermectin has powerful antitumor effects, including the inhibition of proliferation, Metastasis, and angiogenic activity, in a variety of cancer cells.
+
+  - [[_document_ - Ivermectin, ‘Wonder drug’ from Japan the human use perspective|Ivermectin, ‘Wonder drug’ from Japan the human use perspective]]
+    - Discovered in the late-1970s, the pioneering drug Ivermectin, a dihydro derivative of Avermectin—originating solely from a single
+
 
 ## Connections
 - [[PAK1]]: Ivermectin acts as a PAK1 inhibitor in various tumors.

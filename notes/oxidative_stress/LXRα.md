@@ -3,14 +3,13 @@ title: LXRα
 description: Liver X receptor alpha (LXRα) is a nuclear receptor that plays a central
   role in the regulation of Cholesterol, fatty acid, and glucose homeostasis. It works
   in conjunction with other receptors lik...
-type: entity
 created: 2026-05-09
 updated: 2026-07-04
 tags:
-  - oxidative stress
+  - oxidative-stress
   - cholesterol
-  - nuclear receptor
-  - Protein
+  - nuclear-receptor
+  - protein
 aliases: [Liver X receptor alpha, NR1H3, LXRA]
 ---
 # LXRα
@@ -40,6 +39,14 @@ Synthetic LXR agonists (e.g., [[GW3965]], [[T0901317]]) demonstrate potent anti-
 - New links added: [[Oxidative Stress]], [[Cholesterol]], [[Atherosclerosis]], [[ABCA1]], [[IL-1b]], [[TNF-alpha]], [[Macrophage]], [[CD36 Receptor]], [[Oxidized LDL]], [[Lipid Peroxidation]], [[PPARγ]], [[NF-kappa B]], [[Inflammation]], [[PGC1-α]]
 - Suggested new entity notes to create: [[Oxysterols]], [[RXRα]], [[LXR response element]], [[SUMOylation]], [[SREBP-1c]], [[Reverse cholesterol transport]], [[ABCG1]], [[NCoR]], [[GW3965]], [[T0901317]]
 - Strong connections to strengthen: [[LXRα]] ↔ [[Oxidative Stress]], [[LXRα]] ↔ [[Atherosclerosis]], [[LXRα]] ↔ [[NF-kappa B]]
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - This was true in vivo, as well as in vitro on human macrophages and vascular smooth muscle cells \[, \]; vitamin E supplementation was also useful to upregulate PPARγ, LXRα, and ABCA1, in ApoE knockout mice, ameliorating early (but not advanced) atheroscler...
+
 
 ## Connections
 

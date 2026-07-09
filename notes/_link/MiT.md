@@ -3,11 +3,10 @@ title: MiT
 description: MiT (Microphthalmia/TFE family) refers to a family of basic helix-loop-helix
   leucine zipper transcription factors that includes MiTF (MITF), TFEB, TFE3, and
   TFEC. These proteins regulate Lysosomal ...
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: []
 ---
 # MiT
@@ -15,6 +14,16 @@ aliases: []
 MiT (Microphthalmia/TFE family) refers to a family of basic helix-loop-helix leucine zipper transcription factors that includes [[MITF]] (MITF), [[TFEB]], [[TFE3]], and [[TFEC]]. These proteins regulate [[Lysosomal Biogenesis]], [[Autophagy]], [[Pigmentation]], and [[Cell Metabolism]] by binding to CLEAR (Coordinated Lysosomal Expression and Regulation) elements in target gene promoters. MiT family members are regulated by [[mTORC1]]-dependent phosphorylation, which controls their cytoplasmic-nuclear shuttling. Dysregulation of MiT family members is implicated in [[Melanoma]], [[Renal Cell Carcinoma]], [[Pancreatic Cancer]], and [[Lysosomal Storage Disorders]].
 
 #
+
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - TFEB, a member of the microphthalmia (MiT/TFEB family) of leucine zipper transcription factors, has been known as a master regulator for transcription of genes participated in Lysosome Biogenesis and Autophagy \[, \].
+
 
 ## Connections
 - [[MITF]] — founding member of the MiT family
@@ -29,4 +38,4 @@ MiT (Microphthalmia/TFE family) refers to a family of basic helix-loop-helix leu
 ## Linking Summary
 - New links added: [[MITF]], [[TFEB]], [[TFE3]], [[TFEC]], [[Autophagy]], [[Lysosomal Biogenesis]], [[mTORC1]], [[Melanoma]], [[Renal Cell Carcinoma]], [[Pancreatic Cancer]], [[Lysosomal Storage Disorders]]
 - Suggested new entity notes to create: [[CLEAR Element]], [[TFE3]]
-- Strong connections to strengthen: [[MiT]] ↔ [[TFEB]], [[MiT]] ↔ [[Autophagy]]
+  - Strong connections to strengthen: [[MiT]] ↔ [[TFEB]], [[MiT]] ↔ Autophagy

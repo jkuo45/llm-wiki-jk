@@ -1,12 +1,11 @@
 ---
 title: Atg16
-description: 'Atg16 (Autophagy-related 16) is a critical protein in the Autophagy
-  pathway, where it forms a complex essential for LC3 lipidation.'
-type: entity
+description: Atg16 (Autophagy-related 16) is a critical protein in the Autophagy
+  pathway, where it forms a complex essential for LC3 lipidation.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
   - autophagy
 aliases: []
 ---
@@ -27,6 +26,14 @@ aliases: []
 ## Function
 
 Atg16 is the yeast scaffold that complexes with Atg12-Atg5 for [[Atg8]]/LC3 lipidation. Mammalian cells have [[Atg16L1]].
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - With the progression of autophagosome formation, the Atg16-Atg5-Atg12 complex is separated from the autophagosomal membrane, and complete autophagosomes can fuse with lysosomes \[\].
+
 
 ## Connections
 

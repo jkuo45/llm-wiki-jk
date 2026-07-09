@@ -1,13 +1,12 @@
 ---
 title: paclitaxel
-description: 'Paclitaxel (also known as Taxol) is a widely used chemotherapy agent
+description: Paclitaxel (also known as Taxol) is a widely used chemotherapy agent
   belonging to the taxane family. It is used to treat several types of cancer, including
-  ovarian cancer, Breast Cancer, and no...'
-type: entity
+  ovarian cancer, Breast Cancer, and no...
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: []
 ---
 
@@ -20,6 +19,23 @@ Unlike drugs that disrupt [[Microtubule]] assembly, paclitaxel stabilizes microt
 
 ## Clinical Trials
 Paclitaxel is often used in combination with novel agents in clinical trials, such as the BH3 mimetic [[ABT-263]], to overcome resistance in [[leukemia|chronic lymphocytic leukaemia]].
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - span="1" rowspan="1">AbbottBcl-2 family of proteinsSolid tumoursPhase IABT-263(in combination with paclitaxel)AbbottBcl-2 family of proteinsleukemiaPhase IABT-263<td align="
+
+  - [[_document_ - Evading apoptosis in cancer|Evading apoptosis in cancer]]
+    - For this reason, some of microtubule inhibitors that induce mitotic arrest by inhibiting mitotic spindle assembly (e.g., paclitaxel) are clinically used to treat various cancers.
+
+  - [[_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug|Ivermectin, a potential anticancer drug derived from an antiparasitic drug]]
+    - Interestingly, IVM and paclitaxel have a synergistic effect on ovarian cancer, and combined treatment in in vivo experiments almost completely inhibited tumor growth.
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Additionally, SIRT proteins can affect the sensitivity of BC cells to several drugs, including Breast Cancer, paclitaxel and Doxorubicin.
+
 
 ## Connections
 - [[Microtubule]]: The primary target of paclitaxel.

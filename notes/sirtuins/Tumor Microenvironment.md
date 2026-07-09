@@ -3,11 +3,10 @@ title: Tumor Microenvironment
 description: The Tumor Microenvironment (TME) refers to the complex, heterogeneous
   cellular and non-cellular milieu surrounding and infiltrating a tumor mass. It profoundly
   influences tumor growth, invasion, me...
-type: entity
 created: 2026-07-03
 updated: 2026-07-03
 tags:
-  - Biological Process
+  - biological-process
 aliases:
   - Tumor Microenvironment
   - TME
@@ -56,6 +55,14 @@ Anti-CD38 therapies ([[Daratumumab]], [[Isatuximab]]) can reshape the TME by:
 - **Isatuximab + cemiplimab** (anti-PD-1): In trials for advanced solid tumors
 - **Adenosine pathway**: CD73 inhibitors, A2A receptor antagonists
 - **CAR-T cell therapies**: Engineered to resist TME-mediated exhaustion
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins (overview, CD38 KO risks, cancer therapies)|sirtuins (overview, CD38 KO risks, cancer therapies)]]
+    - Cancer context is mixed: Inhibiting CD38 can help in some Tumor Microenvironment (reducing immunosuppression), but CD38 has complex roles; no clear pro-cancer signal in aging mouse studies, but caution is needed.
+
 
 ## Connections
 

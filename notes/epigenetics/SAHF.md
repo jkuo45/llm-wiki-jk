@@ -3,11 +3,10 @@ title: SAHF
 description: Senescence-Associated Heterochromatin Foci (SAHF) are specialized facultative
   heterochromatin domains in senescent nuclei that silence proliferation genes via H3K9me3
   and macroH2A, enforcing irreversible growth arrest.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Biological Molecule
+  - biological-molecule
 aliases: []
 ---
 
@@ -26,6 +25,14 @@ SAHF arise during oncogene-induced and replicative senescence. By condensing E2F
 ## Relationship to Aging
 
 Because senescence accumulates in aged tissues and contributes to [[Aging]] and age-related dysfunction, SAHF are a cellular correlate of organismal decline. They also intersect with [[Epigenetic Drift]]: the global redistribution of heterochromatin (loss at repetitive regions, gain at promoters) mirrors SAHF-type silencing. Unlike programming, SAHF formation is a damage-response epigenetic adaptation.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - The distinctive phenotypic changes typical of various types of cellular senescence are cell enlargement and flattening, SA-beta-gal (SA-beta-gal), formation of SAHF, persistent DNA Damage Response (DNA Damage Response), and SASP (SASP).
+
 
 ## Connections
 

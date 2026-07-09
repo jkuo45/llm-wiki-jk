@@ -1,13 +1,12 @@
 ---
 title: Omi HtrA2
-description: 'Omi/HtrA2 is a mitochondrial serine Protease with dual functions:
+description: 'Omi/HtrA2 is a mitochondrial serine Protease with dual functions:'
   it maintains Mitochondria proteostasis at low concentrations and promotes Apoptosis
-  when released into the Cytosol.'
-type: entity
+  when released into the Cytosol.
 created: 2026-07-04
 updated: 2026-07-06
 tags:
-  - Protein
+  - protein
 aliases: [HtrA2, High Temperature Requirement Protein A2, Serine Protease HTRA2]
 
 ---
@@ -39,4 +38,4 @@ HtrA2 mutations (e.g., [[HtrA2-G399S]]) are associated with [[Parkinson's Diseas
 ## Linking Summary
 - New links added: [[Mitochondria]], [[Cytosol]], [[Serine Protease]], [[Protease]], [[Apoptosis]], [[XIAP]], [[cIAP1]], [[cIAP2]], [[Caspase]], [[Parkinson's Disease]], [[Neurodegeneration]], [[Mitochondrial Dysfunction]], [[UV Radiation]], [[Staurosporine]], [[Proteostasis]], [[Cancer]]
 - Suggested new entity notes to create: [[IAP-binding motif]], [[Mitochondrial intermembrane space]], [[PDZ domain]], [[HtrA2-G399S]], [[Serine protease HTRA family]]
-- Strong connections to strengthen: [[Omi-HtrA2]] ↔ [[Apoptosis]], [[Omi-HtrA2]] ↔ [[Parkinson's Disease]]
+  - Strong connections to strengthen: Omi-HtrA2 ↔ [[Apoptosis]], Omi-HtrA2 ↔ [[Parkinson's Disease]]

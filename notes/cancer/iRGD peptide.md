@@ -1,11 +1,10 @@
 ---
 title: iRGD peptide
 description: iRGD (CRGDKGPDC) is a tumor-penetrating cyclic peptide that binds αv integrins on tumor vessels and, after proteolytic exposure of its CendR motif, engages Neuropilin-1 to drive deep tumor tissue penetration and enhanced drug delivery.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: []
 ---
 

@@ -1,13 +1,12 @@
 ---
 title: SMAD2
-description: 'Overview: SMAD2 is a cellular protein with structural, signaling,
+description: 'Overview: SMAD2 is a cellular protein with structural, signaling,'
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
-  and signaling networks that govern cel...'
-type: entity
+  and signaling networks that govern cel...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [Mothers Against Decapentaplegic Homolog 2]
 
 ---
@@ -24,10 +23,20 @@ aliases: [Mothers Against Decapentaplegic Homolog 2]
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Similarly, enhanced expression and phosphorylation of SIRT7 plays a role in promoting Cardiac Fibrosis via activation of SMAD2 and ERK signaling pathways. However, SIRT7 KO in mice has been reported to result in Cardiac Fibrosis.
+
+
 ## Connections
 - [[SMAD2]] — related entity
 
 ## Linking Summary
 - New links added: [[SMAD2]]
-- Strong connections to strengthen: [[SMAD2]] ↔ [[SMAD2]]
+  - Strong connections to strengthen: [[SMAD2]] ↔ [[SMAD2]]
 

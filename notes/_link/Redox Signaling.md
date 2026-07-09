@@ -1,14 +1,13 @@
 ---
 title: Redox Signaling
-description: 'Definition: Redox Signaling is a fundamental biological process
+description: 'Definition: Redox Signaling is a fundamental biological process'
   that maintains cellular and organismal homeostasis. It involves coordinated molecular
-  events regulated by signaling pathways and ...'
-type: entity
+  events regulated by signaling pathways and ...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Biological Process
-  - oxidative stress
+  - biological-process
+  - oxidative-stress
 aliases: []
 ---
 
@@ -29,5 +28,5 @@ aliases: []
 
 ## Linking Summary
 - New links added: [[Redox Signaling]]
-- Strong connections to strengthen: [[Redox Signaling]] ↔ [[Redox Signaling]]
+  - Strong connections to strengthen: Redox Signaling ↔ Redox Signaling
 

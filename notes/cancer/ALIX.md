@@ -1,11 +1,10 @@
 ---
 title: ALIX
-description: 'ALIX (Programmed cell death 6-interacting protein) is a cytosolic protein involved in endosome biogenesis, multivesicular body formation, and exosomal protein sorting.'
-type: entity
+description: ALIX (Programmed cell death 6-interacting protein) is a cytosolic protein involved in endosome biogenesis, multivesicular body formation, and exosomal protein sorting.
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Protein
+  - protein
 aliases: []
 ---
 
@@ -34,6 +33,14 @@ ALIX is essential for embryonic development, viral budding (e.g., HIV-1), and th
 ## Therapeutic Relevance
 
 Modulating ALIX could either block immune-suppressive exosomes (enhancing checkpoint blockade) or, conversely, promote shedding of oncogenic receptors. Its dual role makes it a nuanced target in [[Cancer Immunotherapy]].
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology|Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology]]
+    - In basal-like breast cancers, the absence of the protein ALIX was shown to correlate with EGFR activation, impairing exosome biogenesis .
+
 
 ## Connections
 

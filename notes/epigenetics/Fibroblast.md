@@ -1,11 +1,10 @@
 ---
 title: Fibroblast
 description: A Fibroblast is a mesenchymal cell that synthesizes the Extracellular Matrix and collagen, builds tissue stroma, and drives wound healing and fibrosis.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Cell Type
+  - cell-type
 aliases: []
 ---
 
@@ -28,6 +27,17 @@ In development and adult life, fibroblasts provide mechanical support, maintain 
 ## Pathological Relevance
 
 Dysregulated fibroblast activation underlies organ fibrosis (liver, lung, kidney, heart, skin), where excessive ECM replaces parenchyma and elevates tissue stiffness, perpetuating a pro-fibrotic loop. Fibroblasts also influence [[Cancer]] by building the tumor stroma, secreting factors that promote invasion and [[Epithelial-to-Mesenchymal Transition]], and suppressing or evading immunity. Fibroblast-targeted therapies (e.g., TGF-β or LOX inhibition) aim to limit pathological scarring.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - Quiescent cells include tissue-resident adult stem cells, such as Hematopoietic Stem Cell, Muscle Stem Cell, and Neural Stem Cell, as well as differentiated cells, including Fibroblast, Hepatocyte, Lymphocyte, and Oocyte (Bangru et al., 2018; Hwang et al., ...
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - It was first described in studies of human Fibroblast that ceased proliferation following an extended cultivation (Hayflick & Moorhead, ; Hayflick, ).
+
 
 ## Connections
 

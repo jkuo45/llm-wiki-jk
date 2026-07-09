@@ -1,11 +1,10 @@
 ---
 title: JNK2
 description: JNK2 (MAPK9) is a ubiquitously expressed JNK isoform that phosphorylates Bcl-xL at Ser62 during G2 arrest, inactivating this anti-apoptotic protein and sensitizing cells such as cervical cancer cells to death.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Enzyme
+  - enzyme
 aliases: []
 ---
 
@@ -28,6 +27,14 @@ JNK2 contributes to stress-induced death and to the elimination of damaged cells
 ## Clinical & Research Relevance
 
 Targeting the Bcl-xL axis is an active oncology strategy (e.g., navitoclax/[[ABT-263]] and BCL-XL-selective inhibitors), and agents that promote JNK2-mediated Bcl-xL phosphorylation may synergize with these drugs. Understanding JNK2's G2-specific action informs scheduling of cytotoxic agents and the design of combination regimens that exploit checkpoint arrest to trigger death.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - ymphoma]] | | Bcl-xL | | CDK1/CYCLIN B1, PLK1, JNK2 | Ser62 | Cell cycle (G2) arrest; Inactivation | cervical cancer | | Bcl-2
+
 
 ## Connections
 

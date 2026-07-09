@@ -1,11 +1,10 @@
 ---
 title: Neuronophagia
 description: In Parkinson's Disease, neuronophagia is a clear indicator of an active and ongoing neurodegenerative process.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Biological Process
+  - biological-process
 aliases: []
 ---
 

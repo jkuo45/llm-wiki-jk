@@ -2,11 +2,10 @@
 title: Leishmaniasis
 description: Leishmaniasis is a disease caused by protozoan parasites of the genus
   Leishmania and spread by the bite of certain types of sandflies.
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: []
 ---
 
@@ -49,6 +48,17 @@ Mucocutaneous leishmaniasis requires prolonged systemic therapy with liposomal a
 ## Prevention
 
 No licensed vaccine exists. Prevention relies on vector control: indoor residual spraying, insecticide-treated bed nets, and environmental management to reduce sandfly breeding sites. In zoonotic VL (Mediterranean, Latin America), reservoir control (e.g., seropositive dogs) is attempted. Early diagnosis and treatment of human cases reduce transmission. Personal protective measures include insect repellent and long-sleeved clothing during peak sandfly activity (dusk to dawn).
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug|Ivermectin, a potential anticancer drug derived from an antiparasitic drug]]
+    - IVM has also shown beneficial effects against other parasitic diseases, such as malaria \[,\], trypanosomiasis \[\], schistosomiasis \[\], trichinosis \[\] and Leishmaniasis \[\]. !Fig.
+
+  - [[_document_ - Ivermectin, ‘Wonder drug’ from Japan the human use perspective|Ivermectin, ‘Wonder drug’ from Japan the human use perspective]]
+    - These include activity against another neglected tropical disease, Leishmaniasis. Of perhaps even greater significance is the evidence that the use of Ivermectin has both direct and indirect beneficial impact on improving community health.
+
 
 ## Connections
 

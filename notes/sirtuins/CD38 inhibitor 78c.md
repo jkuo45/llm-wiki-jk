@@ -3,11 +3,10 @@ title: CD38 Inhibitor 78c
 description: CD38 Inhibitor 78c (also known as compound 78c) is a highly potent, selective,
   and orally bioactive small-molecule inhibitor of the enzymatic activity of CD38
   (specifically its NAD⁺-glycohydrolase ...
-type: entity
 created: 2026-07-03
 updated: 2026-07-06
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: [78c, compound 78c, CD38-IN-78c]
 ---
 
@@ -39,6 +38,14 @@ In preclinical rodent studies, administration of 78c to naturally aged mice yiel
 Despite its therapeutic promise, studies using 78c and genetic CD38 knockouts have highlighted potential trade-offs:
 - **Sex-Specific Adverse Reactions:** In some long-term studies, aged female mice exhibited severe adverse events leading to early euthanasia, suggesting sex-specific hormonal, metabolic, or immunological interactions.
 - **Immune Compromise:** Because CD38 plays a crucial role in immune cell activation and host defense against pathogens, systemic pharmacologic inhibition could potentially raise susceptibility to specific bacterial or viral infections.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins (overview, CD38 KO risks, cancer therapies)|sirtuins (overview, CD38 KO risks, cancer therapies)]]
+    - pmc.ncbi.nlm.nih.gov +1 - Chronic inhibition (especially systemic/small-molecule) might mimic some of this, though enzymatic inhibitors (like CD38 inhibitor 78c) differ from depleting antibodies.
+
 
 ## Connections
 

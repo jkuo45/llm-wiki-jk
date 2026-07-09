@@ -3,14 +3,13 @@ title: L-arginine
 description: L-arginine is an amino acid that serves as a primary precursor for the
   biosynthesis of Nitric Oxide via the enzyme Nitric Oxide Synthase. Availability
   of L-arginine is a critical factor in maintain...
-type: entity
 created: 2026-05-09
 updated: 2026-07-04
 tags:
-  - oxidative stress
-  - nitric oxide
-  - Amino Acid
-  - Chemical Compound
+  - oxidative-stress
+  - nitric-oxide
+  - chemical-compound
+  - chemical-compound
 aliases: [arginine, 2-amino-5-guanidinopentanoic acid]
 ---
 # L-arginine
@@ -68,6 +67,14 @@ However, results are inconsistent. High-dose L-arginine (≥10 g/day) can cause 
 
 **L-Citrulline** supplementation has emerged as an alternative: it is converted to L-arginine via the argininosuccinate pathway with better bioavailability, avoiding arginase-mediated degradation and paradoxically raising plasma arginine more effectively than equimolar arginine.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - Exogenous Antioxidants and Human Health Human body put in place several strategies to counteract the effects of free radicals and oxidative stress, based on enzymatic (e.g., SOD, CAT, and GPx) and nonenzymatic (e.g., Lipoic Acid, Glutathione, L-arginine, an...
+
+
 ## Connections to Oxidative Stress
 
 L-arginine metabolism intersects with [[Oxidative Stress]] at multiple nodes:
@@ -78,6 +85,8 @@ L-arginine metabolism intersects with [[Oxidative Stress]] at multiple nodes:
 - **Arginine delminase** in [[Mycoplasma]] infections depletes local arginine, contributing to host tissue damage
 
 #
+
+
 
 ## Connections
 - [[Nitric Oxide Synthase]]: The enzyme converting L-arginine to NO

@@ -2,11 +2,10 @@
 title: Genotype
 description: A genotype is the part of the genetic makeup of a cell, and therefore
   of any individual, which determines one of its characteristics.
-type: entity
 created: 2024-01-01
 updated: 2024-01-01
 tags:
-  - Scientific Concept
+  - scientific-concept
 aliases: []
 ---
 
@@ -29,5 +28,5 @@ A **genotype** is the part of the genetic makeup of a cell, and therefore of any
 
 ## Linking Summary
 - New links added: [[Phenotype]], [[Epigenetics]], [[Genomic Instability]]
-- Strong connections to strengthen: [[Genotype]] ↔ [[Phenotype]], [[Genotype]] ↔ [[Epigenetics]], [[Genotype]] ↔ [[Genomic Instability]]
+  - Strong connections to strengthen: [[Genotype]] ↔ [[Phenotype]], [[Genotype]] ↔ Epigenetics, [[Genotype]] ↔ Genomic Instability
 

@@ -1,11 +1,10 @@
 ---
 title: Bipolar II Disorder
-description: 'Bipolar II Disorder is a mood disorder defined by recurrent hypomanic and major depressive episodes, with implicated dopaminergic and methylation-pathway contributions involving COMT and MTHFR variants.'
-type: entity
+description: Bipolar II Disorder is a mood disorder defined by recurrent hypomanic and major depressive episodes, with implicated dopaminergic and methylation-pathway contributions involving COMT and MTHFR variants.
 created: 2026-05-25
 updated: 2026-07-07
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: []
 ---
 

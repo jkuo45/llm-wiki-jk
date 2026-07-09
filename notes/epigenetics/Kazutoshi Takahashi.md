@@ -4,11 +4,10 @@ description: Kazutoshi Takahashi is a Japanese scientist known for his work in s
   cell research. Working in the laboratory of Shinya Yamanaka at Kyoto University,
   he co-discovered that Somatic Cells can be reprogrammed into Induced Pluripotent
   Stem Cells (iPSCs) using defined transcription factors.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Organization
+  - organization
 aliases: []
 ---
 
@@ -25,6 +24,14 @@ Takahashi's experimental approach — including the rigorous validation of pluri
 ## Recognition and Legacy
 
 The iPSC discovery was recognized with the 2012 Nobel Prize in Physiology or Medicine, awarded to Yamanaka (shared with [[John Gurdon]] for somatic cell nuclear transfer). Takahashi, as first author of the landmark papers, is widely credited as the co-discoverer of iPSCs. His contributions underpin modern [[Disease Modeling]], [[Drug Discovery]], and [[Regenerative Medicine]], as well as later advances such as [[Partial Reprogramming]] for [[Rejuvenation]]. He continues research on reprogramming mechanisms and the epigenetic basis of pluripotency at Kyoto University.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic|Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic]]
+    - Shinya Yamanaka and Kazutoshi Takahashi discovered the core transcriptional factors required for rep
+
 
 ## Connections
 - [[Shinya Yamanaka]]: His mentor and Nobel-sharing senior investigator; co-developer of iPSC technology.

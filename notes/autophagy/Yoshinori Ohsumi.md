@@ -2,11 +2,10 @@
 title: Yoshinori Ohsumi
 description: Yoshinori Ohsumi is a Japanese cell biologist who was awarded the 2016
   Nobel Prize in Physiology or Medicine for his discoveries of mechanisms for Macroautophagy.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Person
+  - person
 aliases: [Yoshinori Ohsumi]
 ---
 # Yoshinori Ohsumi
@@ -18,6 +17,14 @@ Ohsumi's pioneering work in the 1990s using baker's yeast ([[Saccharomyces cerev
 
 ## Impact & Legacy
 The identification of ATG genes enabled the field to move from descriptive microscopy to mechanistic molecular biology. Ohsumi's work laid the foundation for understanding autophagy's roles in aging, neurodegeneration, cancer, infection, and metabolic disease. His genetic approach in yeast - unbiased mutant screens for autophagy-defective (apg/atg) strains - remains a model for dissecting complex cellular pathways.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Autophagy and intermittent fasting the connection for cancer therapy?|Autophagy and intermittent fasting the connection for cancer therapy?]]
+    - ink using digital object identifier") Under a Creative Commons license Open access KEYWORDS Apoptosis Macroautophagy Intermittent Fasting Cancer Therapy Autophagy: definition and mechanisms The 2016 Nobel Prize in Physiology or Medicine was awarded to Yoshi...
+
 
 ## Connections
 

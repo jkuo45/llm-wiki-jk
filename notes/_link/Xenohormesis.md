@@ -3,11 +3,10 @@ title: Xenohormesis
 description: Xenohormesis is a biological hypothesis proposing that animals have evolved
   to sense chemical cues from stressed plants to prepare for worsening environmental
   conditions. For example, plant molecul...
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Scientific Theory
+  - scientific-theory
   - xenohormesis
 aliases: [Xenohormesis]
 ---
@@ -61,6 +60,16 @@ The [[Glyco-Oxidative Proteostasis Shield]] (GOPS) framework explicitly incorpor
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - xenohormesis, mitohormesis|xenohormesis, mitohormesis]]
+    - The user's prompt is a directive: "research Xenohormesis." The quote, coupled with the initial phrase, provides the subject. Now I am dissecting the prompt and its implications.
+
+
 ## Connections
 - [[Resveratrol]] — polyphenol; SIRT1 activator; hormetic stressor
 - [[Quercetin]] — flavonoid; senolytic; NRF2 activator
@@ -80,4 +89,4 @@ The [[Glyco-Oxidative Proteostasis Shield]] (GOPS) framework explicitly incorpor
 ## Linking Summary
 - New links added: [[Hormesis]], [[Mitohormesis]], [[Resveratrol]], [[Quercetin]], [[Sirtuins]], [[NRF2]], [[AMPK]], [[PGC1-α]], [[HGNC]], [[mTORC1]], [[NQO1]], [[HO-1]], [[NFκB]], [[COX-2]], [[p38 MAPK]], [[Epigenetics]], [[Apoptosis]], [[ER Stress]], [[Autophagy]], [[Fatty acid oxidation]], [[FOXO3a]], [[Glutathione]], [[Thioredoxin]], [[HSF1]], [[HSP70]], [[HSP27]], [[Histone Deacetylase]], [[Carbazochrome]], [[Methylene blue]], [[Glyco-Oxidative Proteostasis Shield]], [[Keap1]], [[Sestrin2]], [[Berberine]], [[Epicatechin]], [[Piceatannol]], [[Butein]], [[Hydroxytyrosol]], [[Phytochemicals]]
 - Suggested new entity notes to create: [[Dietary Phytochemicals as Signaling Molecules]], [[Xenohormetic Dosing Protocol]]
-- Strong connections to strengthen: [[Xenohormesis]] ↔ [[Evolutionary Medicine]], [[Xenohormesis]] ↔ [[Glyco-Oxidative Proteostasis Shield]], [[Xenohormesis]] <-> [[Hormesis]]
+  - Strong connections to strengthen: [[Xenohormesis]] ↔ Evolutionary Medicine, [[Xenohormesis]] ↔ Glyco-Oxidative Proteostasis Shield, [[Xenohormesis]] <-> [[Hormesis]]

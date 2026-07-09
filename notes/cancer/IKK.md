@@ -1,11 +1,10 @@
 ---
 title: IKK
 description: IKK (IκB kinase) is the regulatory kinase complex of the NFκB pathway that also phosphorylates Bcl-2 family proteins such as Puma and Bad to modulate apoptotic function.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Enzyme
+  - enzyme
 aliases: []
 ---
 
@@ -28,6 +27,14 @@ Constitutive IKK/NFκB activation is one of the [[Hallmarks of Cancer]], promoti
 ## Clinical & Research Relevance
 
 IKKβ and the IKK complex are attractive oncology targets. Small-molecule inhibitors (e.g., BMS-345541, TPCA-1, IKK-16) and NEMO-binding peptides have been explored preclinically to sensitize tumors to apoptosis and overcome therapy resistance. Because NFκB also drives [[Inflammatory]] microenvironments that support tumor progression, IKK inhibition is studied in combination with cytotoxic agents and immune-modulating therapies.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - Puma | Loss in Breast Cancer, Hepatocellular Carcinoma, non-small-cell lung cancer, ovarian cancer, Renal Cell Carcinoma | IKK | Ser10 | Ubiquitination and degradation | Under control of IL-3 | | Bad |
+
 
 ## Connections
 

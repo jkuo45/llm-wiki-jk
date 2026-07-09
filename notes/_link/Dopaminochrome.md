@@ -1,13 +1,12 @@
 ---
 title: Dopaminochrome
-description: 'Dopaminochrome is an aminochrome intermediate formed by the Oxidation
+description: Dopaminochrome is an aminochrome intermediate formed by the Oxidation
   of Dopamine. It is the structural and biochemical analog of Adrenochrome in the
-  dopaminergic pathway.'
-type: entity
+  dopaminergic pathway.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: [Dopaminochrome]
 
 ---
@@ -46,4 +45,4 @@ Dopaminochrome polymerization proceeds through a biochemically distinct pathway 
 
 ## Linking Summary
 - New links added: [[Dopaminochrome]], [[Oxidation]], [[Dopamine]], [[Adrenochrome]], [[Reactive Oxygen Species]], [[Oxidative Stress]], [[Neuromelanin]], [[Redox Cycling]], [[Superoxide anion]], [[Catecholamines]], [[Epinephrine]], [[5-S-Cysteinyl-Dopamine]], [[Parkinson's Disease]], [[VMAT2]], [[NMDA Receptor]], [[L-Type Calcium Channel]], [[Parkin]], [[DJ-1]], [[SNCA]], [[1-Methyl-4-phenyl-1, 2, 3, 6-tetrahydropyridine]], [[5, 6-Dihydroxyindole]], 6-Dihydroxyindole-2-Carboxylic Acid]], [[Dopachrome tautomerase]], [[NDUFS1]], [[NDUFS3]], [[Ascorbic Acid]], [[Glutathione]], [[Tyrosinase]], [[Dopamine o-quinone]], [[Aminochromes]], [[Substantia Nigra]]
-- Strong connections to strengthen: [[Dopaminochrome]] ↔ [[Dopamine]], [[Dopaminochrome]] ↔ [[Parkinson's Disease]], [[Dopaminochrome]] ↔ [[Neuromelanin]]
+  - Strong connections to strengthen: [[Dopaminochrome]] ↔ [[Dopamine]], [[Dopaminochrome]] ↔ [[Parkinson's Disease]], [[Dopaminochrome]] ↔ Neuromelanin

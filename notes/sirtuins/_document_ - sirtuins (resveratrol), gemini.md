@@ -2,7 +2,6 @@
 title: Resveratrol in SIRT1 and Other Sirtuin Modulators
 description: Resveratrol role in SIRT1 activation, compounds targeting other sirtuins
   (SIRT2–SIRT7), dietary sources and therapeutic doses
-type: document
 created: 2026-07-02
 source: https://aistudio.google.com/u/0/prompts/1kUJDpdDMR88wWnNR_7kpQlfBdqhbzW7C
 tags:
@@ -10,9 +9,9 @@ tags:
   - clippings
   - sirtuins
   - resveratrol
-  - Resveratrol Sirtuin Activators
-  - SIRT2-SIRT7 Modulators
-  - Dietary Sirtuin Sources
+  - resveratrol-sirtuin-activators
+  - sirt2-sirt7-modulators
+  - dietary-sirtuin-sources
 aliases: []
 ---
 

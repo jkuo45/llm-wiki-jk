@@ -3,14 +3,13 @@ title: Lipids
 description: Lipids are a diverse group of organic compounds that are insoluble in
   water but soluble in organic solvents. They include fats, oils, waxes, and certain
   vitamins. In a biological context, they are ...
-type: entity
 created: 2026-05-09
 updated: 2026-07-04
 tags:
-  - oxidative stress
-  - cell membrane
-  - lipid peroxidation
-  - Metabolite
+  - oxidative-stress
+  - cell-membrane
+  - lipid-peroxidation
+  - biological-molecule
 aliases: [Lipids]
 ---
 # Lipids
@@ -20,6 +19,14 @@ Lipids are a diverse group of organic compounds that are insoluble in water but 
 
 ## Role in Oxidative Stress
 Lipids are highly susceptible to [[Oxidative Stress]], particularly those containing polyunsaturated fatty acids. This process, known as [[Lipid Peroxidation]], involves a free radical chain reaction that leads to the degradation of [[Cell Membranes]] and the formation of toxic by-products like [[Malondialdehyde]] (MDA).
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - When ROS production increases, they start showing harmful effects on important cellular structures like Proteins, Lipids, and Nucleic Acids \[\].
+
 
 ## Connections
 - [[Oxidative Stress]]: Lipids are one of the primary targets of ROS-induced damage.

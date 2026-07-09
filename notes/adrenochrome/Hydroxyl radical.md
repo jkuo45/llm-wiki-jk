@@ -3,11 +3,10 @@ title: Hydroxyl radical
 description: The Hydroxyl radical (•OH) is the most reactive and damaging member
   of the Reactive Oxygen Species (ROS) family. It has an extremely short half-life
   and reacts instantly with almost any biologi...
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Biological Molecule
+  - biological-molecule
 aliases: []
 ---
 

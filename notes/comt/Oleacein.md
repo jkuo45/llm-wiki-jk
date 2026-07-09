@@ -1,11 +1,10 @@
 ---
 title: Oleacein
 description: Oleacein is a secoiridoid phenolic in extra-virgin olive oil with antioxidant and anti-inflammatory actions and dual substrate-inhibitor activity at COMT.
-type: entity
 created: 2026-05-25
 updated: 2026-07-07
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: [3,4-dihydroxyphenylethanol-elenolate dialdehyde]
 ---
 
@@ -28,6 +27,14 @@ Oleacein scavenges free radicals and upregulates antioxidant defenses (Nrf2/HO-1
 ## Physiological and Clinical Relevance
 
 Dietary oleacein is associated with improved endothelial function, reduced blood pressure, and attenuated neuroinflammation. Its COMT-modulating property is relevant to individuals monitoring methyl-donor load or using COMT-inhibiting supplements. Olive oil richness in oleacein is a dietary factor intersecting with catecholamine metabolism and the [[Methylation Cycle]].
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - Quercetin - Fisetin - Luteolin - Rutin - Oleacein (olive oil polyphenol) Again, it isn’t set in stone that everyone with slow COMT will have anxiety or irritability with the above supplements.
+
 
 ## Connections
 

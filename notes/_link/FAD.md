@@ -1,13 +1,12 @@
 ---
 title: FAD
-description: 'Biochemical properties: FAD is an endogenous metabolite involved
+description: 'Biochemical properties: FAD is an endogenous metabolite involved'
   in cellular energy metabolism, redox reactions, or biosynthetic pathways. Its cellular
-  concentration reflects metabolic flux and...'
-type: entity
+  concentration reflects metabolic flux and...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Metabolite
+  - biological-molecule
 aliases: [Flavin Adenine Dinucleotide]
 
 ---
@@ -29,5 +28,5 @@ aliases: [Flavin Adenine Dinucleotide]
 
 ## Linking Summary
 - New links added: [[FAD]]
-- Strong connections to strengthen: [[FAD]] ↔ [[FAD]]
+  - Strong connections to strengthen: [[FAD]] ↔ [[FAD]]
 

@@ -1,19 +1,13 @@
 ---
 title: CPS1 (Carbamoyl Phosphate Synthase 1)
-description: 'Carbamoyl Phosphate Synthase 1 (CPS1) is a mitochondrial enzyme
+description: Carbamoyl Phosphate Synthase 1 (CPS1) is a mitochondrial enzyme
   that catalyzes the first and rate-limiting step of the urea cycle, converting ammonia
-  and bicarbonate into carbamoyl phosphate. A...'
-type: entity
+  and bicarbonate into carbamoyl phosphate. A...
 created: 2026-07-06
 updated: 2026-07-03
 tags:
-  - Enzyme
+  - enzyme
 aliases: [carbamoyl phosphate synthase 1, carbamoyl-phosphate synthase (ammonia), mitochondrial]
-
-predicate: associated_with
-sources:
-- doi:10.1016/j.cell.2011.10.025
-target: SIRT5
 
 ---
 
@@ -37,6 +31,14 @@ In the mitochondria, CPS1 activity is highly regulated by post-translational mod
 
 - **CPS1 Deficiency:** Mutations in the *CPS1* gene cause carbamoyl phosphate synthetase I deficiency, a rare and severe autosomal recessive urea cycle disorder. It presents as hyperammonemia, lethargy, seizures, and developmental delay, and can be fatal if untreated.
 - **Sirtuin Regulation Therapeutics:** Developing SIRT5 activators (such as certain 1,4-dihydropyridine derivatives) represents a promising therapeutic avenue for enhancing urea cycle capacity and boosting ammonia clearance in metabolic diseases or acute liver failure.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins (resveratrol), gemini|sirtuins (resveratrol), gemini]]
+    - Mechanism & Physiological Impact: SIRT5 activation de-succinylated CPS1 (carbamoyl phosphate synthase 1), the rate-limiting enzyme of the urea cycle.
+
 
 ## Connections
 

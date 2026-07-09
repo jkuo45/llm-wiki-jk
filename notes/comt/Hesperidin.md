@@ -1,11 +1,10 @@
 ---
 title: Hesperidin
-description: 'Hesperidin is a citrus flavanone glycoside with anti-inflammatory and vasoprotective effects; lacking a catechol structure, it does not inhibit or compete with COMT and is safe in slow COMT.'
-type: entity
+description: Hesperidin is a citrus flavanone glycoside with anti-inflammatory and vasoprotective effects; lacking a catechol structure, it does not inhibit or compete with COMT and is safe in slow COMT.
 created: 2026-05-25
 updated: 2026-07-07
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: [hesperetin-7-O-rutinoside]
 
 ---
@@ -29,6 +28,14 @@ Because hesperidin does not engage the [[Methylation Cycle]] or consume [[Methyl
 ## Clinical & Research Relevance
 
 Hesperidin (often with diosmin) is used in venous disorders; it is generally well tolerated. Its value in personalized nutrition lies precisely in what it *lacks*—a catechol group—making it a template for selecting methylation-safe phytonutrients. Research continues into its roles in [[Aging]], cognition, and cardiometabolic health.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - Here are some alternative natural Anti-inflammatory supplements that don’t interact with COMT: - Berberine - Resveratrol - Melatonin - Hesperidin Methyl-donor supplements increase COMT reactions: The COMT enzyme needs Methyl groups for its reactions, and in...
+
 
 ## Connections
 

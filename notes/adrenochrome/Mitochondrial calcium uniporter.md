@@ -3,11 +3,10 @@ title: Mitochondrial calcium uniporter
 description: The mitochondrial calcium uniporter (MCU) is a protein complex responsible
   for the uptake of calcium into the mitochondrial matrix, playing a key role in shaping
   cytosolic calcium transients.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Ion Channel
+  - ion-channel
   - mitochondria
 aliases: []
 ---

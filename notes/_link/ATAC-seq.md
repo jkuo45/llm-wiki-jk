@@ -1,13 +1,12 @@
 ---
 title: ATAC-seq
-description: 'ATAC-seq (Assay for Transposase-Accessible Chromatin using sequencing)
+description: ATAC-seq (Assay for Transposase-Accessible Chromatin using sequencing)
   is a method for mapping Chromatin Accessibility genome-wide. It uses hyperactive
-  Tn5 Transposase to simultaneously fragmen...'
-type: entity
+  Tn5 Transposase to simultaneously fragmen...
 created: 2026-07-04
 updated: 2026-07-06
 tags:
-  - Analytical Technique
+  - analytical-technique
 aliases: [Assay for Transposase-Accessible Chromatin, ATAC-sequencing]
 
 ---
@@ -43,4 +42,4 @@ Tn5 transposase preferentially integrates into regions of open [[Chromatin]] (nu
 ## Linking Summary
 - New links added: [[Chromatin]], [[Chromatin Accessibility]], [[Tn5 Transposase]], [[Promoter]], [[Enhancer]], [[Transcription Factor Binding Sites]], [[Nucleosome Positioning]], [[Transcription Factor]], [[Epigenomics]], [[Single-Cell ATAC-seq]], [[Epigenetics]], [[DNA Sequencing]], [[Transposase]]
 - Suggested new entity notes to create: [[Tagmentation]], [[scATAC-seq]], [[Motif footprinting]], [[Gene regulation]], [[Cis-regulatory elements]], [[Open chromatin]]
-- Strong connections to strengthen: [[ATAC-seq]] ↔ [[Chromatin Accessibility]], [[ATAC-seq]] ↔ [[Epigenomics]]
+  - Strong connections to strengthen: [[ATAC-seq]] ↔ Chromatin Accessibility, [[ATAC-seq]] ↔ Epigenomics

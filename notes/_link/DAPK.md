@@ -1,13 +1,12 @@
 ---
 title: DAPK
-description: 'Overview: DAPK is a cellular protein with structural, signaling,
+description: 'Overview: DAPK is a cellular protein with structural, signaling,'
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
-  and signaling networks that govern cell...'
-type: entity
+  and signaling networks that govern cell...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [Death-Associated Protein Kinase]
 
 ---
@@ -24,10 +23,20 @@ aliases: [Death-Associated Protein Kinase]
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - The downregulation of varied proteins (DAPK, PTEN, TSC1, TSC2, and LKB1/STK11) is associated with lysosomal degradation capacity in cancer cells \[\]. Upon exposure to calorie restriction and lack of sufficient ATP, cells try to a
+
+
 ## Connections
 - [[DAPK]] — related entity
 
 ## Linking Summary
 - New links added: [[DAPK]]
-- Strong connections to strengthen: [[DAPK]] ↔ [[DAPK]]
+  - Strong connections to strengthen: [[DAPK]] ↔ [[DAPK]]
 

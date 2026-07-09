@@ -3,11 +3,10 @@ title: Translation Initiation
 description: Translation initiation is the complex process of assembling the ribosome
   at the start codon of an mRNA, involving factors like eIF4A and eIF5A which are
   implicated in TFEB regulation.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Biological Process
+  - biological-process
 aliases: []
 ---
 # Translation Initiation
@@ -17,6 +16,14 @@ Translation initiation is the complex process of assembling the ribosome at the 
 ## Process
 
 Cap-dependent translation involves eIF4F ([[eIF4E]]-[[eIF4A]]-[[eIF4G]]) binding the 5' cap, 43S preinitiation complex recruitment, and scanning to the AUG start codon.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - Suggested new entity notes to create: transcriptional regulation, translational-level regulation, ischemic injury, metabolic disorders, leucine zipper transcription Factors, TGF-β Signaling, Hypusination, Tumor Suppressor, Translation Initiation, MAPK Signa...
+
 
 ## Connections
 

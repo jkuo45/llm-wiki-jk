@@ -1,11 +1,10 @@
 ---
 title: Induced Pluripotent Stem Cells
 description: Induced Pluripotent Stem Cells (iPSCs) are somatic cells reprogrammed to pluripotency by defined factors, avoiding embryo use.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Cell Type
+  - cell-type
 aliases: []
 ---
 
@@ -24,6 +23,17 @@ iPSCs recapitulate the naive and primed pluripotent states and provide an essent
 ## Clinical & Research Relevance
 
 iPSCs have transformed [[Disease Modeling]] for genetic disorders — including [[Frontotemporal Dementia]], [[Olivopontocerebellar Atrophy]], and [[Neurodegeneration]] — by generating isogenic neuronal models from patient fibroblasts. They power [[Drug Discovery]] (toxicity screening, phenotype-based assays), gene-correction strategies, and [[Regenerative Medicine]] applications such as retinal pigment epithelium grafts, cardiomyocyte patches, and dopaminergic neurons in Parkinson's trials. Pluripotency is conventionally validated by the [[Teratoma]] assay (tumor formation in immunodeficient mice containing all three germ layers), a gold-standard readout of differentiation potential. Key limitations are incomplete reprogramming, genomic integration from integrating vectors (mitigated by Sendai viral, episomal, and mRNA/[[CRISPR]]-based methods), and residual [[Tumorigenicity]] risk from undifferentiated cells. iPSCs also serve as a platform for [[Rejuvenation]] research, where transient [[Reprogramming]] can reset age-associated epigenetic clocks without erasing cell identity.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic|Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic]]
+    - transcription factors Oct4, Sox2, Klf4, and c-Myc enable the Cellular Reprogramming of Somatic Cells into Induced Pluripotent Stem Cells.
+
+  - [[_document_ - Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network|Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network]]
+    - gov/-NavarroMA) 1, James Adjaye 2,6, D Hoheisel 7 PMCID: Abstract Somatic Cells can be reprogrammed to Induced Pluripotent Stem Cells by over-expression of Oct4, Sox2, Klf4 and c-Myc (OSKM).
+
 
 ## Connections
 

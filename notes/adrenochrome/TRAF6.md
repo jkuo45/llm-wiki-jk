@@ -3,11 +3,10 @@ title: TRAF6
 description: TRAF6 (TNF receptor-associated factor 6) is a signaling component that,
   along with TRAF2, is recruited by MAVS to activate innate immunity and inflammatory
   pathways.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: []
 ---
 # TRAF6

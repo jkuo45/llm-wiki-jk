@@ -2,11 +2,10 @@
 title: Telomere Attrition
 description: Telomere attrition is the process of telomere shortening that occurs
   with each cell division, eventually leading to cellular senescence or apoptosis.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Biological Process
+  - biological-process
 aliases: [Telomere Shortening]
 ---
 
@@ -50,6 +49,22 @@ Beyond monogenic TBDs, short telomeres are epidemiologically associated with inc
 
 Therapeutic strategies targeting telomere attrition include telomerase gene therapy (experimental [[TERT]] AAV delivery, shown to extend lifespan in aged mice without increasing cancer incidence in some studies), telomerase activators such as TA-65 (a cycloastragenol-derived supplement with limited clinical evidence), senolytics ([[Senolytic Drugs|dasatinib]] + [[Quercetin]], navitoclax) that selectively clear senescent cells harboring short telomeres, and anti-telomerase cancer therapies. Imetelstat (GRN163L), a competitive telomerase inhibitor, has progressed through clinical trials for hematologic malignancies including myelodysplastic syndromes and myelofibrosis.
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Gut Microbiome, Aging, and Longevity A Systematic Review|The Gut Microbiome, Aging, and Longevity A Systematic Review]]
+    - Primary cellular and molecular Hallmarks of Aging include Genomic Instability, Telomere Attrition, Epigenetic Alterations, and loss of Proteostasis, which lead
+
+  - [[_document_ - sirtuins (overview, CD38 KO risks, cancer therapies)|sirtuins (overview, CD38 KO risks, cancer therapies)]]
+    - Key functions: Maintains genomic stability, Telomere Attrition, DNA Repair (base excision repair), regulates glycolysis and lipid Metabolism (represses HIF1A, SREBP1), Inflammation control.
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Subsequently, Sir2 (yeast) has been found to function in transcriptional repression at ribosomal DNA loci, at silent mating-type loci and in Telomere Attrition, and this increasing knowledge has greatly improved exploration of its function.
+
+
 ## Connections
 
 - [[Aging]] — telomere attrition is one of the nine hallmarks of aging
@@ -80,4 +95,4 @@ Therapeutic strategies targeting telomere attrition include telomerase gene ther
 
 - New links added: [[Aging]], [[Cellular Senescence]], [[Senescence]], [[SASP]], [[DNA Damage]], [[Genomic Instability]], [[Telomerase]], [[p53]], [[p16]], [[ATM]], [[Apoptosis]], [[Stem Cell Exhaustion]], [[Immunosenescence]], [[Inflammation]], [[Inflammaging]], [[Oxidative Stress]], [[Cardiovascular Disease]], [[Alzheimer's Disease]], [[Senolytics]], [[Hematopoietic Stem Cell]], [[Caloric Restriction]], [[Replicative Senescence]], [[Hallmarks of Aging]], [[TRF1]], [[TRF2]], [[POT1]], [[TIN2]], [[TPP1]], [[RAP1]], [[TERT]], [[TERC]], [[DKC1]], [[53BP1]], [[Ku70]], [[Ku80]], [[BRCA1]]
 - Suggested new entity notes to create: [[Telomere]], [[Shelterin Complex]], [[T-loop]], [[ALT (Alternative Lengthening of Telomeres)]], [[Telomere Biology Disorders]], [[Idiopathic Pulmonary Fibrosis]], [[Dyskeratosis Congenita]], [[Imetelstat]], [[TA-65]]
-- Strong connections to strengthen: [[Telomere Attrition]] ↔ [[Hallmarks of Aging]], [[Telomere Attrition]] ↔ [[Replicative Senescence]], [[Telomere Attrition]] ↔ [[Telomerase]], [[Telomere Attrition]] ↔ [[Cellular Senescence]]
+  - Strong connections to strengthen: Telomere Attrition ↔ Hallmarks of Aging, Telomere Attrition ↔ Replicative Senescence, Telomere Attrition ↔ [[Telomerase]], Telomere Attrition ↔ Cellular Senescence

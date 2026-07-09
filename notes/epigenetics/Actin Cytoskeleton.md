@@ -1,11 +1,10 @@
 ---
 title: Actin Cytoskeleton
 description: A highly dynamic and organized network of actin filaments providing structural integrity, facilitating cell motility, and mediating intracellular signaling in eukaryotic cells.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Biological Process
+  - biological-process
 aliases: []
 ---
 
@@ -36,6 +35,14 @@ Dysregulation of actin dynamics is a key driver in numerous human diseases:
 - **Neuromuscular and Neurodegenerative Disorders**: Mutations in actin or its associated proteins can lead to a variety of myopathies and neurodegenerative conditions. For example, defects in actin-related proteins (like those in the WASp family) are central to **[[Wiskott-Aldrich Syndrome]]**, a primary immunodeficiency characterized by impaired leukocyte motility.
 - **Viral Exploitation**: Many pathogens, including viruses like influenza and various coronaviruses, hijack the actin cytoskeleton to facilitate their entry into cells, intracellular transport of viral components, and eventual budding from the host cell membrane.
 - **Developmental Malformations**: Since actin-mediated morphogenesis is crucial during embryogenesis (e.g., in neural tube formation and gastrulation), mutations in actin or its regulators can lead to severe congenital defects.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - These studies have suggested that mTORC2 controls the Actin Cytoskeleton by promoting PKCα (PKCα) phosphorylation, phosphorylation of paxillin and its relocalization to Focal Adhesion, and the GTP loading of RhoA and Rac1.
+
 
 ## Connections
 

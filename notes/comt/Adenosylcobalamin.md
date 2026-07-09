@@ -1,11 +1,10 @@
 ---
 title: Adenosylcobalamin
-description: 'Adenosylcobalamin (also known as dibencozide) is one of the two active coenzyme forms of Vitamin B12, functioning as a cofactor for methylmalonyl-CoA mutase in mitochondrial energy metabolism.'
-type: entity
+description: Adenosylcobalamin (also known as dibencozide) is one of the two active coenzyme forms of Vitamin B12, functioning as a cofactor for methylmalonyl-CoA mutase in mitochondrial energy metabolism.
 created: 2026-05-25
 updated: 2026-07-07
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: [dibencozide, AdoCbl]
 
 ---
@@ -25,6 +24,14 @@ Because AdoCbl functions in mitochondria, it is central to cellular energy produ
 ## Use in Slow COMT
 
 For individuals carrying slow [[COMT]] variants (e.g., [[Val158Met]] Met/Met, rs4680 A/A), high-dose methyl-donating supplements can precipitate anxiety, insomnia, or mood instability. [[Adenosylcobalamin]] is therefore often recommended as a non-methylated alternative that supports mitochondrial health and energy production without overloading the methylation system. It complements [[Hydroxocobalamin]], which the body can convert to AdoCbl at its own pace, avoiding the "methyl trap" associated with aggressive [[Methylfolate]] or [[MethylB12]] repletion.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - If you plan to take supplemental Vitamin B12 instead of MethylB12, look for - Adenosylcobalamin (AdenosylB12) - Hydroxocobalamin (HydroxyB12) - A combination
+
 
 ## Connections
 

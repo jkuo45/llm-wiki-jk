@@ -1,13 +1,12 @@
 ---
 title: Urolithins
-description: 'Urolithins are a class of microbially derived metabolites produced
+description: Urolithins are a class of microbially derived metabolites produced
   in the gut from the metabolism of Ellagitannins and Ellagic acid. They exhibit various
-  biological activities, including anti-i...'
-type: entity
+  biological activities, including anti-i...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Chemical Class
+  - chemical-class
 aliases: []
 ---
 

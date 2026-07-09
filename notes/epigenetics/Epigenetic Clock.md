@@ -1,11 +1,10 @@
 ---
 title: Epigenetic Clock
 description: An Epigenetic Clock is a biochemical estimator of biological age based on DNA Methylation changes at specific CpG sites that accrue predictably with age.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Scientific Concept
+  - scientific-concept
   - epigenetics
 aliases: []
 ---
@@ -35,6 +34,17 @@ A striking property is that DNAm age may be partially reversible. The loss of me
 - **Longevity interventions**: Testing whether a treatment actually slows molecular aging.
 - **Disease risk**: Clock acceleration predicts [[Cardiovascular Disease]], [[Cancer]], and [[Neurodegenerative Diseases]] before symptoms.
 - **Forensic and developmental**: Estimating donor age and assessing developmental/epigenetic maturity.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks|Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks]]
+    - in the year 2013 consecutively proposed an Epigenetic Clock for predicting aging.
+
+  - [[_document_ - Epigenetic changes during aging and their reprogramming potential|Epigenetic changes during aging and their reprogramming potential]]
+    - DNA Methylation, Yamanaka Factors, Hutchinson-Gilford Progeria Syndrome, Werner Syndrome - Suggested new entity notes to create: Nucleosome, H3K4me3, HP1, Lamin A, macroH2A, Werner Syndrome - Strong connections to strengthen: Heterochromatin ↔ Epigenetics a...
+
 
 ## Connections
 

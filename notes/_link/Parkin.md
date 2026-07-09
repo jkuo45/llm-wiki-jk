@@ -3,11 +3,10 @@ title: Parkin
 description: An E3 ubiquitin ligase that plays a critical role in Mitophagy. It is
   recruited to damaged mitochondria by PINK1 and labels them for degradation by the
   lysosome.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [Parkin]
 ---
 # Parkin
@@ -29,6 +28,22 @@ Parkin (PRKN) is an E3 ubiquitin ligase recruited by [[PINK1]] to depolarized mi
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects|Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects]]
+    - The regulation of mitochondrial autophagy is mediated by proteins such as PINK1 and Parkin \[,,\].
+
+  - [[_document_ - Lysosome biogenesis Regulation and functions|Lysosome biogenesis Regulation and functions]]
+    - During Mitophagy, translocation of TFEB/TFE3 into the nucleus depends on Parkin and PINK1 but not mTORC1.
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - Under conditions of loss of mitochondrial membrane potential, PINK1 kinase induces recruitment of the cytosolic E3 ligase Parkin to the outer mitochondrial membrane. Parkin-mediated ubiquitination of select outer mitochondrial membrane proteins,
+
+
 ## Connections
 - [[Mitophagy]] — selective autophagy of mitochondria; quality control mechanism
 - [[PINK1]] — initiates mitophagy after mitochondrial depolarization
@@ -40,4 +55,4 @@ Parkin (PRKN) is an E3 ubiquitin ligase recruited by [[PINK1]] to depolarized mi
 - [[p62]] — interacts with Parkin
 ## Linking Summary
 - New links added: [[PINK1]], [[Mitophagy]], [[TFEB]], [[TFE3]]
-- Strong connections to strengthen: [[Parkin]] ↔ [[PINK1]]
+  - Strong connections to strengthen: [[Parkin]] ↔ [[PINK1]]

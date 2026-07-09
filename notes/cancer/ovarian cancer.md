@@ -1,11 +1,10 @@
 ---
 title: Ovarian Cancer
 description: Ovarian cancer is a lethal gynecologic malignancy with late presentation and chemoresistance; targeted by ivermectin (PAK1/Akt/mTOR) and melittin (JAK2/STAT3) in preclinical studies.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: []
 ---
 
@@ -28,6 +27,26 @@ First-line therapy is cytoreductive surgery plus platinum/taxane chemotherapy; m
 ## Repurposing Research: Ivermectin and Melittin
 
 [[Ivermectin]] inhibits proliferation of ovarian cancer lines by inactivating [[PAK1]] and suppresses [[Akt]]/[[mTOR]] signaling; it also acts via a [[KPNB1]]-dependent mechanism and enhances the efficacy of [[Cisplatin]] and [[paclitaxel]]. Separately, [[melittin]] exerts antitumoral effects by inhibiting the [[JAK2]]/[[STAT3]] axis. These natural-product/repurposed agents are studied to overcome resistance and re-sensitize tumors to standard cytotoxic therapy.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - In another study, Devarajan _et al_ observed that caspases-3 mRNA levels in commercially available total RNA samples from Breast Cancer, ovarian cancer, and cervical cancer tumuors were either undetectable (breast and
+
+  - [[_document_ - Caspase|Caspase]]
+    - Activation | | | Puma | Loss in Breast Cancer, Hepatocellular Carcinoma, non-small-cell lung cancer, ovarian cancer, Renal Cell Carcinoma | IKK | Ser10 | Ubiquitination and degradat
+
+  - [[_document_ - Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology|Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology]]
+    - Both honeybee venom and melittin have demonstrated antitumoral effects in Melanoma , non-small-cell lung cancer , glioblastoma , leukemia , ovarian cancer , cervical cancer , and Pancreatic Cancer , with higher cytotoxic potency in cancer cells compared to ...
+
+  - [[_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug|Ivermectin, a potential anticancer drug derived from an antiparasitic drug]]
+    - ovarian cancer is a malignant cancer that lacks early clinical symptoms and has a poor therapeutic response. The 5-year survival rate after diagnosis is approximately 47% \[,\].
+
+  - [[_document_ - Oral Fenbendazole for Cancer Therapy in Humans and Animals|Oral Fenbendazole for Cancer Therapy in Humans and Animals]]
+    - ogle-scholar+Chang+Ryu+Choi+Cho+Choi+Hwang+Choi+Noh+Lee+Won+Han+Lee-cancer+effect+of+Fenbendazole-incorporated+PLGA+nanoparticles+in+ovarian cancer+Gynecol+Oncol) : PubMed
+
 
 ## Connections
 

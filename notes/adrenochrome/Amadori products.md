@@ -2,11 +2,10 @@
 title: Amadori products
 description: Amadori products are stable intermediate compounds formed during the
   early stages of Glycation.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Chemical Class
+  - chemical-class
 aliases: []
 ---
 # Amadori products
@@ -22,6 +21,14 @@ The formation of Amadori products follows the initial creation of an unstable [[
 Because Amadori products represent early-stage glycation intermediates, they are targets for enzymatic reversal before they transition into irreversible AGE crosslinks:
 - **Intracellularly**: The enzyme [[Fructosamine-3-kinase]] (FN3K) phosphorylates fructosamine (Amadori) residues into [[Fructosamine-3-phosphate]], which spontaneously decomposes to regenerate undamaged proteins.
 - **Exogenous/Bacterial**: [[Fructosyl-Amino Acid Oxidases]] (FAOD) oxidize Amadori products to regenerate the original amino acid.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Dietary Advanced Glycation End Products and Aging|Dietary Advanced Glycation End Products and Aging]]
+    - During the second phase, the Schiff base undergoes chemical rearrangement over a period of days and form Amadori products (also known as early glycation products).
+
 
 ## Connections
 

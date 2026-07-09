@@ -1,18 +1,13 @@
 ---
 title: LKB1
-description: 'LKB1 (Liver Kinase B1), also known as STK11, is a master upstream
+description: LKB1 (Liver Kinase B1), also known as STK11, is a master upstream
   serine/threonine kinase that regulates cellular energy metabolism, cell polarity,
-  and tumour suppression. LKB1 phosphorylat...'
-type: entity
+  and tumour suppression. LKB1 phosphorylat...
 created: 2026-07-04
 updated: 2026-07-05
 tags:
-  - Protein
+  - protein
 aliases: [STK11, Liver Kinase B1, Serine/threonine-protein kinase STK11, Polarization-related gene LKB1]
-database_ids:
-  mesh: D057852
-  uniprot: Q15831
-  hgnc: HGNC:11389
 
 ---
 
@@ -58,6 +53,17 @@ LKB1 is a well-characterised tumour suppressor:
 
 - **[[SIRT1]]**: Deacetylates LKB1 at K48, promoting its translocation from the nucleus to the cytoplasm and enhancing AMPK activation. This SIRT1-LKB1-AMPK axis is critical for caloric restriction-mediated metabolic benefits.
 - **[[SIRT3]]**: Deacetylates LKB1 at multiple lysine residues in mitochondria, improving mitochondrial function, reducing ROS production, and activating AMPK during metabolic stress.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - Along with these changes, the AXIN-vacuolar H + ‒ATPase complex regulates the activity of LKB1, resulting in the phosphorylation of AMPK \[\]. To minimize fatty acid synthesis, AMPK recalls acetyl-CoA carboxylases to trigger the oxidation of fatty acids.
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - For example, AMPK can be activated by LKB1, the upstream regulator of AMPK, while activated AMPK reduces oxidative stress injury by promoting insulin sensitivity, Fatty acid oxidation and mitochondrial biosynthesis to generate ATP.
+
 
 ## Connections
 

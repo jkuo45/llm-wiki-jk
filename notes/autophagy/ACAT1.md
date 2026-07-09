@@ -3,11 +3,10 @@ title: ACAT1
 description: Acetyl-CoA acetyltransferase 1 (ACAT1) is an enzyme that acetylates TFEB
   at multiple lysine sites (K91, K103, K116, K430) to enhance its nuclear translocation
   and DNA binding activity.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Enzyme
+  - enzyme
 aliases: [acetyl-CoA acetyltransferase 1]
 ---
 
@@ -26,6 +25,17 @@ Under conditions of increased acetyl-CoA availability (e.g., fatty acid oxidatio
 ## Physiological & Pathological Relevance
 
 Because ACAT1 bridges ketone-body metabolism and autophagic clearance, it has implications for [[Aging]] and [[Neurodegeneration]], where declining TFEB activity impairs proteostasis. Pharmacological promotion of ACAT1-mediated TFEB acetylation is being explored as a strategy to boost lysosomal degradation in proteinopathy models. Conversely, ACAT1's canonical role in cholesterol/mevalonate metabolism links it to [[Cancer]] lipid homeostasis and statin-responsive pathways. ACAT1 deficiency (beta-ketothiolase deficiency) is a rare inborn error of metabolism causing ketoacidotic crises.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - At present, two enzymes have been found that can acetylate TFEB, including GCN5 \[\] and ACAT1 \[, \], and two enzymes have been found that can deacetylate TFEB, including SIRT1 \[, \] and HDACs \[\].
+
+  - [[_document_ - Kinase|Kinase]]
+    - tion | 27617930 | | S109 and S114 | Dephosphorylation | PP2A | Nucleus translocation | 29945972 | | K116 | Acetylation | ACAT1 | Hindering TFEB binding to the DNA | 30059277 | | K116 | Deacetylation |
+
 
 ## Connections
 

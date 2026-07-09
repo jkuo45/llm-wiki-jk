@@ -1,11 +1,10 @@
 ---
 title: Lipofuscin
 description: Lipofuscin is a brownish-yellow, electron-dense pigment composed of lipid-containing residues of lysosomal digestion.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Biological Molecule
+  - biological-molecule
 aliases: []
 ---
 
@@ -26,6 +25,14 @@ The two pigments can coexist in the same aging neurons, and distinguishing them 
 
 ## Clinical and Research Relevance
 Lipofuscin burden reflects cumulative oxidative stress and lysosomal inefficiency. Excessive accumulation (lipofuscinosis) occurs in certain lysosomal storage disorders and in accelerated aging syndromes. In the context of PD, impaired autophagy-lysosomal function—also central to [[Glucocerebrosidase]] deficiency and [[Alpha-synuclein]] clearance—promotes both lipofuscin and Lewy body accumulation, linking the two pigments through a shared failure of [[Proteostasis]]. Lipofuscin autofluorescence is moreover a practical confound in fluorescence imaging of neuromelanin and other labels, requiring spectral unmixing. Therapeutically, enhancing autophagy/lysosomal function to reduce lipofuscin and synuclein aggregates is a shared goal across geroscience and PD research.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease|Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease]]
+    - cholaminergicneuronsinmonkeysintoxicatedwithMPTP-511&doi=\(93\)90349-k&)\] Linking Summary: - New links added: Konstantin Nikolaevich Tretiakoff, Pale Bodies, Immunoglobulin G, Major histocompatibility complex class I, Lipofuscin, Eumelanin, Pheomelanin, L-...
+
 
 ## Connections
 - [[Neuromelanin]]: Distinct brain pigment; often compared/contrasted with lipofuscin.

@@ -1,16 +1,23 @@
 ---
 title: Benzocaine
 description: '- Methemoglobinemia: Can be induced by Benzocaine exposure.'
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: []
 ---
 # Benzocaine
 
 [[Benzocaine]] is a local anesthetic commonly found in over-the-counter topical gels and sprays. It is a known oxidizing agent that can trigger acquired [[Methemoglobinemia]].
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Methemoglobin and Methemoglobinemia|Methemoglobin and Methemoglobinemia]]
+    - Common culprits include: - Medications: Dapsone (very common, especially chronic use), topical/local anesthetics (Benzocaine, Prilocaine, Lidocaine), antimalarials (Chloroquine), Rasburicase, inhaled Nitric Oxide.
+
 
 ## Connections
 - [[Methemoglobinemia]]: Can be induced by Benzocaine exposure.

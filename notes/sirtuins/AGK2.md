@@ -3,11 +3,10 @@ title: AGK2
 description: AGK2 is a potent, cell-permeable, and selective small-molecule inhibitor
   of SIRT2. It is widely utilized in neurobiology and oncology research to study the
   pathogenic consequences of SIRT2 activity...
-type: entity
 created: 2026-07-03
 updated: 2026-07-03
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases:
   - AGK2
   - AGK-2
@@ -51,6 +50,17 @@ AGK2 selectively binds to the catalytic cleft of [[SIRT2]], blocking its deacety
 
 ---
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins (resveratrol), gemini|sirtuins (resveratrol), gemini]]
+    - Instead, SIRT2 inhibitors (e.g., AGK2, AK-7, and SirReal2) are being heavily investigated for neurodegenerative diseases like Parkinson's and Huntington's, where blocking SIRT2 helps rescue microtubule stability and protects neurons from aggregation-induced...
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - demonstrated that the SIRT2 inhibitor AGK2 effectively reduced the levels of phospho-JNK and FOXO3a.
+
+
 ## Connections & Related Entities
 
 - **[[SIRT2]]** — direct molecular target inhibited by AGK2.
@@ -59,6 +69,8 @@ AGK2 selectively binds to the catalytic cleft of [[SIRT2]], blocking its deacety
 - **[[Alzheimer's Disease]]** — neurological context where SIRT2 inhibition shows therapeutic promise.
 
 ---
+
+
 
 ## Connections
 

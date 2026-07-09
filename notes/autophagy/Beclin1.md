@@ -1,18 +1,13 @@
 ---
 title: Beclin1
-description: 'Beclin1 (also known as Atg6 and BECN1) is a key regulatory
+description: Beclin1 (also known as Atg6 and BECN1) is a key regulatory
   protein in the initiation and regulation of Autophagy. It functions as a molecular
-  scaffold that assembles the class III PI3K ...'
-type: entity
+  scaffold that assembles the class III PI3K ...
 created: 2026-07-04
 updated: 2026-07-05
 tags:
-  - Protein
+  - protein
 aliases: [BECN1, ATG6, Coiled-coil myosin-like BCL2-interacting protein]
-database_ids:
-  mesh: D060727
-  uniprot: Q14457
-  hgnc: HGNC:1034
 
 ---
 
@@ -74,6 +69,23 @@ Beclin1 is a well-characterised tumour suppressor:
 - **[[SIRT1]]**: Deacetylates Beclin1 at multiple lysine residues, promoting its interaction with Vps34 and enhancing autophagy. SIRT1-mediated Beclin1 deacetylation is required for starvation-induced autophagy.
 - **[[SIRT2]]**: Regulates Beclin1 activity through deacetylation of FOXO-dependent transcription of autophagy genes.
 - **[[SIRT3]]**: Enhances mitophagy by maintaining mitochondrial NAD⁺ levels and indirectly supporting Beclin1 signalling.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Autophagy and intermittent fasting the connection for cancer therapy?|Autophagy and intermittent fasting the connection for cancer therapy?]]
+    - Regarding initialization, the activation of the ULK1 complex (ULK1/2, Atg13, FIP200 and Atg101) signals for autophagosome nucleation under the control of the PI3K (PI3KIII, Beclin1, Atg14/Barkor, Vps15 and Ambra-1), whose activation induces PIP3 (phosphatid...
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - recently showed that the HIV protein Nef directly binds Beclin1, resulting in mTOR activation, TFEB phosphorylation and cytosolic retention, and consequent Autophagy inhibition (Campbell et al 2015).
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - The first complex is composed of type III PI3K, Vps34, Atg14, Atg6/Beclin1, and Vps15/p150.73, and the second complex is associated with the activity of the serine/threonine kinase Atg1 \[\].
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - For example, SIRT1 deacetylates autophagy-related proteins (such as Beclin1 and LC3) to promote autophagy. Deacetylation of Beclin1 lysine residue by SIRT1 impairs Autophagic Flux; thus, Autophagosome fusion with lysosomes is compromised.
+
 
 ## Connections
 

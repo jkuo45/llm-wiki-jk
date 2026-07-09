@@ -1,11 +1,10 @@
 ---
 title: c-ABL
-description: 'c-ABL (ABL1) is a non-receptor tyrosine kinase that regulates Caspase-9 autocleavage and stress/apoptotic responses, and is oncogenically activated as BCR-ABL in chronic myeloid leukemia.'
-type: entity
+description: c-ABL (ABL1) is a non-receptor tyrosine kinase that regulates Caspase-9 autocleavage and stress/apoptotic responses, and is oncogenically activated as BCR-ABL in chronic myeloid leukemia.
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Gene
+  - gene
 aliases: []
 ---
 
@@ -30,6 +29,14 @@ Beyond apoptosis, c-ABL governs cell adhesion, cytoskeletal remodeling, and oxid
 - **Oncogenesis**: BCR-ABL is constitutively active, proliferative, and anti-apoptotic; its inhibition by imatinib/nilotinib/dasatinib is a paradigm of targeted [[Cancer]] therapy.
 - **Therapeutic Resistance**: ABL kinase-domain mutations confer TKI resistance, necessitating next-generation inhibitors.
 - **Apoptotic Priming**: c-ABL activation by DNA-damaging [[Chemotherapy]] (e.g., genistein, doxorubicin) can sensitize tumors; combining TKIs with [[BH3 mimetics]] is explored to overcome survival signaling.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - Caspase-9 | | c-ABL | Tyr153 | Promoting activation | Promoting DNA damage-induced apoptosis |
+
 
 ## Connections
 

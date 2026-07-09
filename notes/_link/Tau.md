@@ -3,15 +3,14 @@ title: Tau
 description: Microtubule-associated protein tau (MAPT) is an intrinsically disordered
   neuronal protein whose hyperphosphorylation and aggregation drive neurofibrillary
   tangle formation in Alzheimer's Disease and other tauopathies.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Alzheimer's Disease
+  - alzheimer's-disease
   - tauopathy
   - neurodegeneration
   - microtubule
-  - Protein
+  - protein
 aliases: [MAPT, microtubule-associated protein tau, Tau protein]
 ---
 
@@ -93,6 +92,16 @@ Tau is constitutively released from neurons into the cerebrospinal fluid (CSF) a
 - Active Tau vaccines: AADvac1 (targeting the PHF6* epitope) and ACI-35 (targeting phosphorylated S396/S404) aim to elicit anti-Tau immune responses. AADvac1 completed a Phase II safety trial.
 - Small molecule degraders: PROTACs and molecular glues targeting Tau for proteasomal or lysosomal degradation are in preclinical development.
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - Defective lysosomal clearance of both, Beta-amyloid and phosphorylated Tau (p-Tau; the main component of NFTs), underlies the mechanism of their accumulation in AD (Yang et al 2011a) (Polito et al 2014).
+
+
 ## Connections
 
 - [[Alzheimer's Disease]] — neurodegenerative disease; Tau hyperphosphorylation and NFTs are pathological hallmarks
@@ -117,4 +126,4 @@ Tau is constitutively released from neurons into the cerebrospinal fluid (CSF) a
 
 - New links added: [[Microtubule]], [[GSK3]], [[CDK5]], [[DYRK1A]], [[Fyn]], [[p38 MAPK]], [[JNK]], [[BDNF]], [[Pick's disease]], [[Progressive supranuclear palsy]], [[Corticobasal degeneration]], [[Chronic traumatic encephalopathy]], [[Neurofibrillary tangles]], [[Actin]], [[Down syndrome]], [[Toll-like receptors]]
 - Suggested new entity notes to create: [[Neurofibrillary tangles]], [[DYRK1A]], [[PLCG1]], [[Grb2]], [[PARP1]], [[TREM2]]
-- Strong connections to strengthen: [[Tau]] ↔ [[Alzheimer's Disease]], [[Tau]] ↔ [[Microtubule]], [[Tau]] ↔ [[GSK3]]
+  - Strong connections to strengthen: [[Tau]] ↔ Alzheimer's Disease, [[Tau]] ↔ Microtubule, [[Tau]] ↔ [[GSK3]]

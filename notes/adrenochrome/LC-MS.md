@@ -1,13 +1,12 @@
 ---
 title: LC-MS
-description: 'LC-MS (Liquid Chromatography-Mass Spectrometry) is an analytical
+description: LC-MS (Liquid Chromatography-Mass Spectrometry) is an analytical
   chemistry technique that combines the physical separation capabilities of liquid
-  chromatography with the mass analysis capabilit...'
-type: entity
+  chromatography with the mass analysis capabilit...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Analytical Technique
+  - analytical-technique
 aliases: []
 ---
 
@@ -17,6 +16,14 @@ aliases: []
 
 ## Application
 It is used for the highly sensitive and specific identification of catecholamine metabolites and impurities like [[Leuco-adrenochrome]] in complex biological or pharmaceutical samples.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - intermediates, precursor, hemoglobin|intermediates, precursor, hemoglobin]]
+    - By using HPLC (High-Performance Liquid Chromatography) or LC-MS (Liquid Chromatography-Mass Spectrometry), analysts compare the peaks in a commercial Epinephrine sample against the Reference standard to ensure that the medication is pure and safe for clinic...
+
 
 ## Connections
 - [[HPLC]]

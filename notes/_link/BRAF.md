@@ -3,11 +3,10 @@ title: BRAF
 description: BRAF (B-Raf Proto-Oncogene, Serine/Threonine Kinase) is a protein kinase
   in the RAS-RAF-MEK1/2-ERK1/2 (MAPK/ERK pathway) signaling cascade that regulates
   Cell Proliferation, Differentiation, and Su...
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - Enzyme
+  - enzyme
 aliases: []
 ---
 # BRAF
@@ -32,4 +31,4 @@ BRAF (B-Raf Proto-Oncogene, Serine/Threonine Kinase) is a protein kinase in the 
 ## Linking Summary
 - New links added: [[RAS]], [[RAF]], [[MEK1/2]], [[ERK1/2]], [[MAPK/ERK pathway]], [[Cell Proliferation]], [[Differentiation]], [[Survival]], [[Melanoma]], [[Colorectal Cancer]], [[Thyroid Cancer]], [[Non-Small Cell Lung Cancer]], [[Vemurafenib]], [[Dabrafenib]], [[Encorafenib]], [[MEK Inhibitors]], [[Trametinib]], [[Cobimetinib]], [[Binimetinib]]
 - Suggested new entity notes to create: [[BRAF V600E]], [[Paradoxical MAPK Activation]]
-- Strong connections to strengthen: [[BRAF]] ↔ [[MEK1/2]], [[BRAF]] ↔ [[Melanoma]]
+  - Strong connections to strengthen: [[BRAF]] ↔ MEK1/2, [[BRAF]] ↔ [[Melanoma]]

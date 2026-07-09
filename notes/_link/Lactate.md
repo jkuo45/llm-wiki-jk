@@ -1,13 +1,12 @@
 ---
 title: Lactate
-description: 'Biochemical properties: Lactate is an endogenous metabolite involved
+description: 'Biochemical properties: Lactate is an endogenous metabolite involved'
   in cellular energy metabolism, redox reactions, or biosynthetic pathways. Its cellular
-  concentration reflects metabolic flux...'
-type: entity
+  concentration reflects metabolic flux...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Metabolite
+  - biological-molecule
 aliases: []
 ---
 
@@ -28,5 +27,5 @@ aliases: []
 
 ## Linking Summary
 - New links added: [[Lactate]]
-- Strong connections to strengthen: [[Lactate]] ↔ [[Lactate]]
+  - Strong connections to strengthen: [[Lactate]] ↔ [[Lactate]]
 

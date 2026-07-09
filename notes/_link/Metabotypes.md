@@ -1,10 +1,9 @@
 ---
 title: Metabotypes
 description: Data-driven subgroups of individuals defined by distinct metabolic response or phenotype profiles derived from multi-omic clustering.
-type: entity
 created: 2026-07-07
 updated: 2026-07-07
-tags: [Scientific Concept, Metabolomics, Precision Medicine]
+tags: [scientific-concept, metabolomics, precision-medicine]
 aliases: []
 ---
 
@@ -35,4 +34,4 @@ Metabotypes refine risk stratification beyond body-mass-index or single biomarke
 
 - New links added: [[Metabolome]], [[Metabolic Syndrome]], [[Biomarker]], [[Personalized Medicine]], [[PPARγ]], [[Obesity]]
 - Suggested new entity notes to create: [[NAD+ Metabotype]], [[Endotype]]
-- Strong connections to strengthen: [[Metabotypes]] ↔ [[Personalized Medicine]]
+  - Strong connections to strengthen: [[Metabotypes]] ↔ Personalized Medicine

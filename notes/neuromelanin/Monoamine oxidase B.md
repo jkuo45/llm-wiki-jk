@@ -1,11 +1,10 @@
 ---
 title: Monoamine oxidase B
-description: 'Monoamine oxidase B (MAO-B) is an enzyme located in the outer mitochondrial membrane that catalyzes the oxidative deamination of monoamines, including the conversion of MPTP to the neurotoxin MPP+ in Glial cells.'
-type: entity
+description: Monoamine oxidase B (MAO-B) is an enzyme located in the outer mitochondrial membrane that catalyzes the oxidative deamination of monoamines, including the conversion of MPTP to the neurotoxin MPP+ in Glial cells.
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Enzyme
+  - enzyme
 aliases: []
 ---
 
@@ -28,6 +27,14 @@ By generating H₂O₂ during dopamine catabolism, MAO-B contributes to the oxid
 ## Therapeutic Relevance
 
 MAO-B inhibitors are symptomatic and possibly [[Neuroprotection|neuroprotective]] in PD, reducing dopamine breakdown and oxidative stress. They are also chemoprophylactic against MPTP-like envirotoxins (e.g., [[Paraquat]]). Genetically, MAOB variation influences PD risk and treatment response.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator|Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator]]
+    - MPTP (1-methyl-4-phenyl-1,2,3,6-tetrahydropyridine) for example is believed to induce its Parkinsonian-inducing effects after first being converted to methyl-phenyl-pyridinium ion (MPP+) by the enzyme Monoamine oxidase B in nearby Glial cells (Singer et al....
+
 
 ## Connections
 

@@ -1,12 +1,11 @@
 ---
 title: ATG-16.2
-description: 'ATG-16.2 is a C. elegans orthologue of the yeast Atg16 and mammalian
-  Atg16L1 proteins. It is essential for the formation of the Autophagosome.'
-type: entity
+description: ATG-16.2 is a C. elegans orthologue of the yeast Atg16 and mammalian
+  Atg16L1 proteins. It is essential for the formation of the Autophagosome.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
   - autophagy
 aliases: [Atg16-like 2]
 

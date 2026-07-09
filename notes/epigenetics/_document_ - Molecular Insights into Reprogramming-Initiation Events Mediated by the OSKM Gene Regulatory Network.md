@@ -5,7 +5,6 @@ description: Somatic cells can be reprogrammed to induced pluripotent stem cells
   over-expression of OCT4, SOX2, KLF4 and c-MYC (OSKM). With the aim of unveiling
   the early mechanisms underlying the induction of pluripotency, we have analyzed
   transcriptional ...
-type: document
 created: 2026-05-13
 source: https://pmc.ncbi.nlm.nih.gov/articles/PMC3164204/
 author:

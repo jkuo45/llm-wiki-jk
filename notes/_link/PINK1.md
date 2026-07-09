@@ -2,11 +2,10 @@
 title: PINK1
 description: Mitochondrial serine/threonine kinase that recruits Parkin to damaged
   mitochondria to initiate mitophagy.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [PTEN-induced Kinase 1]
 ---
 # PINK1
@@ -33,6 +32,22 @@ PINK1 is constitutively imported into mitochondria and cleaved by [[PARL]]; loss
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects|Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects]]
+    - The regulation of mitochondrial autophagy is mediated by proteins such as PINK1 and Parkin \[,,\].
+
+  - [[_document_ - Lysosome biogenesis Regulation and functions|Lysosome biogenesis Regulation and functions]]
+    - During Mitophagy, translocation of TFEB/TFE3 into the nucleus depends on Parkin and PINK1 but not mTORC1.
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - Under conditions of loss of mitochondrial membrane potential, PINK1 kinase induces recruitment of the cytosolic E3 ligase Parkin to the outer mitochondrial membrane. Parkin-mediated ubiquitination of select outer mitochondrial membrane proteins,
+
+
 ## Connections
 - [[Parkin]] — E3 ubiquitin ligase recruited by PINK1 for mitophagy
 - [[Mitophagy]] — selective autophagy of mitochondria; quality control mechanism
@@ -51,4 +66,4 @@ PINK1 is constitutively imported into mitochondria and cleaved by [[PARL]]; loss
 - [[Parkinson's Disease]] — neurodegenerative disease; α-synuclein pathology; dopamine loss
 ## Linking Summary
 - New links added: [[Parkin]], [[Mitophagy]]
-- Strong connections to strengthen: [[PINK1]] ↔ [[Parkin]]
+  - Strong connections to strengthen: [[PINK1]] ↔ [[Parkin]]

@@ -2,11 +2,10 @@
 title: Brugia malayi
 description: Brugia malayi is a filarial nematode that is one of the three causes
   of Lymphatic Filariasis in humans.
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - Microorganism
+  - organism
 aliases: []
 ---
 # Brugia malayi
@@ -40,6 +39,14 @@ Tropical pulmonary eosinophilia, a hypersensitivity reaction to filarial antigen
 Diagnosis is confirmed by the microscopic detection of sheathed microfilariae in peripheral blood smears, ideally collected at night (10 p.m. to 2 a.m.) to coincide with peak periodicity. [[PCR|Polymerase chain reaction (PCR)]]-based assays and serological tests for filarial antigens provide greater sensitivity.
 
 The cornerstone of treatment is [[Diethylcarbamazine]] (DEC), which rapidly kills both microfilariae and adult worms. Mass drug administration (MDA) programs, coordinated by the World Health Organization, typically use annual single-dose combinations of [[Ivermectin]] plus [[Albendazole]] (in areas co-endemic for onchocerciasis) or DEC plus albendazole to interrupt transmission. Morbidity management focuses on hygiene, limb elevation, compression bandaging, and surgical intervention for advanced elephantiasis or hydrocele.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, ‘Wonder drug’ from Japan the human use perspective|Ivermectin, ‘Wonder drug’ from Japan the human use perspective]]
+    - The disease results from infection with filarial worms, Wuchereria bancrofti, Brugia malayi or Brugia timori.
+
 
 ## Connections
 

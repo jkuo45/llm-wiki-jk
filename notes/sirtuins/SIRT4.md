@@ -3,12 +3,11 @@ title: SIRT4
 description: SIRT4 (Sirtuin 4) is a mitochondrial sirtuin classified in phylogenetic
   Class II, which includes sirtuins from bacteria, insects, nematodes, mould fungus,
   and protozoans — making SIRT4 and Class II...
-type: entity
 created: 2026-07-02
 updated: 2026-07-05
 tags:
-  - Protein
-  - NAD+
+  - protein
+  - nad+
 aliases:
   - Sirtuin 4
   - mitochondrial sirtuin 4
@@ -71,6 +70,29 @@ Since **glutamate is the primary neurotransmitter at excitatory synapses**, SIRT
 ## Evolutionary Context
 
 SIRT4 belongs to **Class II**, one of the most evolutionarily ancient sirtuin classes present across bacteria, insects, nematodes, and protozoans. SIRT4 and [[SIRT5]] are proposed to be among the most ancient mammalian sirtuins.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses|Nicotinamide Riboside—The Current State of Research and Therapeutic Uses]]
+    - ign="center" rowspan="1" colspan="1">Mitochondria, Nucleus, CytosolMitochondrial metabolismATP homeostasis, ROS detoxification, tumor suppression, DNA repair, neuroprotection, apoptosis suppressionSIRT4MitochondriaMitochondrial metabolismInsulin secretion, ...
+
+  - [[_document_ - sirtuins (overview, CD38 KO risks, cancer therapies)|sirtuins (overview, CD38 KO risks, cancer therapies)]]
+    - Mitochondrial (primarily): SIRT3, SIRT4, SIRT5. Nuclear (Class IV): SIRT6 (chromatin-associated), SIRT7 (nucleolar).
+
+  - [[_document_ - sirtuins (resveratrol), gemini|sirtuins (resveratrol), gemini]]
+    - SIRT4 (Mitochondrial Lipoamidase & ADP-Ribosyltransferase) - The Challenge: SIRT4 has incredibly weak deacetylase activity.
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - Recently, however, mono-ADP-ribosyl transferase activity has been found to be the main enzymatic activity of at least two of the mammalian sirtuins, SIRT4 and SIRT6 (Figure 1), as discussed below.
+
+  - [[_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review|sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review]]
+    - There are a total of seven human sirtuins that have been identified namely, SIRT1, SIRT2, SIRT3, SIRT4, SIRT5, SIRT6 and SIRT7.
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - SIRT4 has ADP-ribose transferase activity and can down-regulate Glutamate Dehydrogenase (GDH) activity in β cells, thereby reducing insulin secretion response.
+
 
 ## Connections
 

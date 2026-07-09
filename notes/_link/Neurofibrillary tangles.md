@@ -1,13 +1,12 @@
 ---
 title: Neurofibrillary tangles
-description: 'Etiology and pathophysiology: Neurofibrillary tangles is a medical
+description: 'Etiology and pathophysiology: Neurofibrillary tangles is a medical'
   condition characterized by specific pathological changes in cellular, tissue, or
-  organ function. Its development involves gene...'
-type: entity
+  organ function. Its development involves gene...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: [NFTs]
 
 ---
@@ -29,5 +28,5 @@ aliases: [NFTs]
 
 ## Linking Summary
 - New links added: [[Neurofibrillary tangles]]
-- Strong connections to strengthen: [[Neurofibrillary tangles]] ↔ [[Neurofibrillary tangles]]
+  - Strong connections to strengthen: Neurofibrillary tangles ↔ Neurofibrillary tangles
 

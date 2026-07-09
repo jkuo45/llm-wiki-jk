@@ -1,11 +1,10 @@
 ---
 title: Sodium Valproate
 description: Sodium Valproate (valproate) is a branched-chain fatty acid antiepileptic and mood stabilizer that also inhibits histone deacetylases, modulating chromatin and promoting differentiation, with significant teratogenic risk.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: []
 ---
 
@@ -31,6 +30,14 @@ Therapeutically, valproate controls seizures and stabilizes bipolar mood. Epigen
 ## Clinical and Research Relevance
 
 Valproate is used in epilepsy, bipolar disorder, and migraine prophylaxis, and investigated in oncology (e.g., with histone deacetylation to overcome differentiation blocks) and neurodegeneration. Its teratogenicity has restricted use in women of childbearing potential. As a tool compound, it remains central to studies of [[Histone Modification]]–driven fate changes and combination epigenetic therapy.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - igenetic modifiers]] that inhibit DNA Methyltransferase (Decitabine), Histone Deacetylase (Sodium Butyrate, Trichostatin A, Entinostat, Vorinostat, Panobinostat, Phenylbutyrate, Sodium Valproate), Histone Acetyltransferase (Curcumin, C646), and Histone Methy
+
 
 ## Connections
 

@@ -1,12 +1,11 @@
 ---
 title: Adipose Tissue
-description: 'Overview: Adipose Tissue is a specialized cellular or anatomical
-  structure with defined functions in tissue organization and physiology.'
-type: entity
+description: 'Overview: Adipose Tissue is a specialized cellular or anatomical'
+  structure with defined functions in tissue organization and physiology.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Anatomy
+  - anatomy
 aliases: [Fat]
 
 ---
@@ -28,5 +27,5 @@ aliases: [Fat]
 
 ## Linking Summary
 - New links added: [[Adipose Tissue]]
-- Strong connections to strengthen: [[Adipose Tissue]] ↔ [[Adipose Tissue]]
+  - Strong connections to strengthen: Adipose Tissue ↔ Adipose Tissue
 

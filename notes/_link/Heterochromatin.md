@@ -1,13 +1,12 @@
 ---
 title: Heterochromatin
-description: 'Heterochromatin is a tightly packed form of DNA or condensed Chromatin,
+description: Heterochromatin is a tightly packed form of DNA or condensed Chromatin,
   which is typically transcriptionally inactive. It plays a vital role in maintaining
-  the structure of chromosomes and prot...'
-type: entity
+  the structure of chromosomes and prot...
 created: 2024-01-01
 updated: 2024-01-01
 tags:
-  - Biological Molecule
+  - biological-molecule
   - epigenetics
 aliases: []
 ---
@@ -27,6 +26,19 @@ Heterochromatin is typically marked by specific [[Histone Modification|histone m
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Epigenetic changes during aging and their reprogramming potential|Epigenetic changes during aging and their reprogramming potential]]
+    - Linking Summary: - New links added: Heterochromatin, Nucleosome, CpG Island, SIRT1, H3K9me3, H3K27me3, H3K4me3, HP1,
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - In the nucleus a large fraction of SIRT1 is associated with Euchromatin, whereas SIRT6 associates with Heterochromatin and SIRT7 is found in the nucleolus . The sirtuin that resides most prominently in the cytoplasm is SIRT2 .
+
+
 ## Connections
 - **[[Chromatin]]**: The general complex of DNA and protein.
 - **[[Euchromatin]]**: The open, active counterpart to heterochromatin.
@@ -36,4 +48,4 @@ Heterochromatin is typically marked by specific [[Histone Modification|histone m
 ## Linking Summary
 - New links added: [[HP1]], [[H3K9me3]], [[SAHF]], [[Chromatin]]
 - Suggested new entity notes to create: [[HP1]], [[Chromatin]]
-- Strong connections to strengthen: [[Heterochromatin]] ↔ [[SAHF]]
+  - Strong connections to strengthen: [[Heterochromatin]] ↔ SAHF

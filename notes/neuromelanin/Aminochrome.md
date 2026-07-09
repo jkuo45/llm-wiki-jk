@@ -1,11 +1,10 @@
 ---
 title: Aminochrome
-description: 'Aminochrome is an intermediate product in the oxidation of Dopamine that can form neurotoxic oligomers with Alpha-synuclein or polymerize to form Neuromelanin.'
-type: entity
+description: Aminochrome is an intermediate product in the oxidation of Dopamine that can form neurotoxic oligomers with Alpha-synuclein or polymerize to form Neuromelanin.
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: []
 ---
 
@@ -28,6 +27,14 @@ In healthy melanized neurons, aminochrome is largely channeled into neuromelanin
 ## Pathology & Clinical Relevance
 
 Elevated aminochrome adducts and associated [[Oxidative Stress]] markers are found in PD substantia nigra. Strategies that bolster two-electron quinone reduction (NQO1 inducers) or scavenge aminochrome are proposed neuroprotective approaches. The aminochrome–α-synuclein cross-talk also implicates catecholamine metabolism directly in proteostasis failure.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator|Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator]]
+    - When Dopamine is oxidized to Dopamine o-quinone, Aminochrome and 5,6-indolequinone are formed and typically undergo polymerization to form the dark pigment, Neuromelanin (Munoz et al., 2012).
+
 
 ## Connections
 

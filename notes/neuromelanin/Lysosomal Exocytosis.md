@@ -1,11 +1,10 @@
 ---
 title: Lysosomal Exocytosis
-description: 'Lysosomal Exocytosis is a process in which lysosomes fuse with the plasma membrane and release their contents into the extracellular space.'
-type: entity
+description: Lysosomal Exocytosis is a process in which lysosomes fuse with the plasma membrane and release their contents into the extracellular space.
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Biological Process
+  - biological-process
   - autophagy
   - lysosome
 aliases: []
@@ -26,6 +25,14 @@ In the healthy nervous system, lysosomal exocytosis supports synaptic membrane r
 ## Research Implications
 
 Targeting lysosomal exocytosis offers a complementary approach to [[Autophagy]] induction: whereas autophagy degrades material intracellularly, exocytosis exports it. Because [[Neuromelanin]] resists lysosomal hydrolysis, exocytosis may be the more relevant route for pigment clearance. Biomarkers of exocytic flux (e.g., extracellular lysosomal enzymes) are under investigation as proxies for neuronal [[Lysosomal Dysfunction]].
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease|Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease]]
+    - Suggested new entity notes to create: Neuroprotection, mTOR, Glucocerebrosidase, Lysosomal Exocytosis, Antigen Presentation. Strong connections to strengthen: Neuromelanin ↔ Parkinson's Disease, Neuromelanin ↔ Pathogenic Threshold of Neuromelanin.
+
 
 ## Connections
 

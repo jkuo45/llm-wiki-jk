@@ -1,14 +1,13 @@
 ---
 title: Cyclin
-description: 'Cyclins are regulatory proteins that control the progression of the cell cycle by activating cyclin-dependent kinases.'
-type: entity
+description: Cyclins are regulatory proteins that control the progression of the cell cycle by activating cyclin-dependent kinases.
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - cell cycle
-  - cell division
+  - cell-cycle
+  - cell-division
   - epigenetics
-  - Protein
+  - protein
 aliases: []
 ---
 
@@ -37,6 +36,14 @@ The levels of these cyclins are controlled by a combination of transcriptional r
 The dysregulation of cyclin expression and activity is a hallmark of many [[Cancer]] types. Overexpression of certain cyclins, such as Cyclin D1, can lead to uncontrolled cell proliferation and is a common driver of oncogenesis. Conversely, the loss of cyclin-dependent regulation can also contribute to genomic instability. 
 
 Targeting cyclin-CDK interactions or the activity of specific cyclins is a major area of research in cancer pharmacology, with several CDK inhibitors currently in clinical use or under development.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - is arrest takes place in G0 Phase, a resting phase outside of the cell cycle that occurs prior to S Phase, but is distinct from the G1 Phase observed in cycling cells (Figure 2).
+
 
 ## Connections
 

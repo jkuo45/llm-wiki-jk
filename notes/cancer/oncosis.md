@@ -1,19 +1,17 @@
 ---
 title: Oncosis
 description: A form of accidental cell death characterized by cell swelling, increased membrane permeability, and eventual lysis, often associated with ischemia and extreme metabolic stress.
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - cell death
+  - cell-death
   - pathology
   - ischemia
   - necrosis
-  - Biological Process
+  - biological-process
 source: https://en.wikipedia.org/wiki/Oncosis
 aliases:
   - oncotis
-entity_type_2: Pathological State
 ---
 
 # Oncosis

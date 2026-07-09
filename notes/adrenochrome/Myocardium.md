@@ -1,11 +1,10 @@
 ---
 title: Myocardium
 description: The muscular middle layer of the heart wall, composed primarily of cardiomyocytes, responsible for the contractile force that drives circulation.
-type: entity
 created: 2026-07-04
 updated: 2026-07-06
 tags:
-  - Anatomy
+  - anatomy
 aliases: []
 ---
 
@@ -42,6 +41,14 @@ The myocardium has limited regenerative capacity, and injury follows a stereotyp
 **Ischemia–reperfusion:** Coronary occlusion deprives cardiomyocytes of oxygen and substrates. ATP depletion leads to failure of Na⁺/K⁺-ATPase and Ca²⁺-ATPase pumps, producing intracellular Na⁺ and Ca²⁺ overload, cell swelling, and activation of degradative enzymes. The hallmark histopathological finding is **contraction band necrosis** — hypercontracted sarcomeres forming dense eosinophilic bands. Necrotic cells release damage-associated molecular patterns (DAMPs) that recruit neutrophils within hours, followed by macrophages that clear debris and secrete cytokines ([[IL-6]], [[TNFα]], transforming growth factor β). The inflammatory phase transitions to repair as cardiac fibroblasts deposit collagen, forming a fibrotic scar. While scar formation prevents ventricular rupture, it reduces compliance and creates a substrate for re-entrant arrhythmias. Over weeks to months, the surviving myocardium undergoes remodeling — myocyte hypertrophy, extracellular matrix reorganization, chamber dilation — driving progression to [[Heart Failure|heart failure]].
 
 **Catecholamine-mediated injury:** Sustained catecholamine excess — from pheochromocytoma, emotional stress (takotsubo cardiomyopathy), or exogenous infusion — injures the myocardium through a distinct but overlapping mechanism. β-adrenergic overactivation drives excessive Ca²⁺ influx and ryanodine receptor-mediated sarcoplasmic reticulum Ca²⁺ leak, producing mitochondrial Ca²⁺ overload, opening of the mitochondrial permeability transition pore, and activation of apoptotic cascades. [[Adrenochrome]], an oxidation product of [[Epinephrine]], compounds this injury. Adrenochrome generates [[Reactive Oxygen Species]] via redox cycling, inhibits mitochondrial complexes I and II, and depletes [[Glutathione]]. In animal models, adrenochrome administration produces contraction band necrosis and electrocardiographic abnormalities resembling catecholamine cardiomyopathy. While the quantitative contribution of adrenochrome relative to direct catecholamine effects in human cardiac pathology remains debated, the observation connects oxidative catecholamine biochemistry directly to myocardial tissue damage.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Adrenochrome Pathway|The Adrenochrome Pathway]]
+    - One major mechanism by which Reactive Oxygen Species are produced in vivo is by stimulated Neutrophils, and these cells infiltrate Myocardium following infarction or inflammation. Linking Summary: - New links added: Adrenochrome Pathway, Heart disease, Reacti
+
 
 ## Connections
 

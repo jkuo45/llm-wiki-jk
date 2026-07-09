@@ -1,13 +1,12 @@
 ---
 title: Lysosome Biogenesis
-description: 'Definition: Lysosome Biogenesis is a fundamental biological process
+description: 'Definition: Lysosome Biogenesis is a fundamental biological process'
   that maintains cellular and organismal homeostasis. It involves coordinated molecular
-  events regulated by signaling pathways ...'
-type: entity
+  events regulated by signaling pathways ...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Biological Process
+  - biological-process
   - autophagy
   - lysosome
 aliases: []
@@ -25,10 +24,20 @@ aliases: []
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - TFEB, a member of the microphthalmia (MiT/TFEB family) of leucine zipper transcription factors, has been known as a master regulator for transcription of genes participated in Lysosome Biogenesis and Autophagy \[, \].
+
+
 ## Connections
 - [[Lysosome Biogenesis]] — related entity
 
 ## Linking Summary
 - New links added: [[Lysosome Biogenesis]]
-- Strong connections to strengthen: [[Lysosome Biogenesis]] ↔ [[Lysosome Biogenesis]]
+  - Strong connections to strengthen: Lysosome Biogenesis ↔ Lysosome Biogenesis
 

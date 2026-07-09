@@ -1,11 +1,10 @@
 ---
 title: SNP
 description: A single nucleotide polymorphism (SNP) is a single-base genomic variant; common in the population, SNPs underlie pharmacogenetic differences such as COMT Val158Met.
-type: entity
 created: 2026-05-25
 updated: 2026-07-07
 tags:
-  - Genetic Variant
+  - gene
 aliases: [Single Nucleotide Polymorphism]
 ---
 
@@ -31,6 +30,17 @@ A SNP arises when a single base (A, T, C, or G) at a specific locus differs amon
 ## Clinical and Research Relevance
 
 SNP genotyping enables stratification of patients for methyl-folate/B12 regimens, COMT-aware supplementation, and drug selection. The COMT Val158Met SNP is among the most extensively characterized functional variants linking a single base change to cognition and psychiatric risk.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - Understanding your COMT SNP can help you with deciding which supplements may work best for you. Members will also see their genotype report below, plus additional solutions in the Lifehacks section.
+
+  - [[_document_ - Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum|Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum]]
+    - A single nucleotide polymorphism (SNP) in the human COMT gene (Val 158) increases the thermostability of the enzyme—thereby increasing its level of activity compared to the 158 Met allele.
+
 
 ## Connections
 

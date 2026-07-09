@@ -1,13 +1,12 @@
 ---
 title: ATP
-description: 'Adenosine triphosphate (ATP) is a nucleotide composed of adenine,
+description: Adenosine triphosphate (ATP) is a nucleotide composed of adenine,
   ribose, and three phosphate groups that serves as the universal energy currency
-  of living cells. Hydrolysis of ATP to ADP and P...'
-type: entity
+  of living cells. Hydrolysis of ATP to ADP and P...
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: [Adenosine Triphosphate, adenosine 5'-triphosphate]
 
 ---
@@ -61,6 +60,28 @@ Cellular ATP concentration is typically maintained at 2–10 mM. The [[ATP]]/[[A
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Lysosome biogenesis Regulation and functions|Lysosome biogenesis Regulation and functions]]
+    - Endocytic lysosome reformation (ELR) Earlier work indicated that Endocytic Lysosome Reformation (ELR) is an ATP-dependent process (Bright et al., 2005; Pryor et al., 2000).
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - Autophagy ensures delivery and degradation of cytosolic components within Lysosome, thus preventing accumulation of damaged proteins and organelles and promoting recycling of building blocks, such as fatty acids and amino acids, which are critical for maint...
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - Inhibition of mTORC1 by Rapamycin lowers mitochondrial membrane potential, oxygen consumption and cellular ATP levels, and profoundly alters the mitochondrial phosphoproteome (Schieke et al., 2006).
+
+  - [[_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug|Ivermectin, a potential anticancer drug derived from an antiparasitic drug]]
+    - Under the stimulation of a tumor microenvironment with a high level of adenosine triphosphate (ATP) outside tumor cells, IVM could enhance the P2 × 4/ P2 × 7/Pannexin-1 mediated release of high mobility group box-1 protein (HMGB1) \[\].
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - Cellular ATP concentrations are significantly reduced during quiescence (Ho et al., 2017; Rodgers et al.
+
+
 ## Connections
 - [[Mitochondria]] — primary site of ATP production via oxidative phosphorylation
 - [[Glycolysis]] — anaerobic ATP production in the cytosol
@@ -77,4 +98,4 @@ Cellular ATP concentration is typically maintained at 2–10 mM. The [[ATP]]/[[A
 ## Linking Summary
 - New links added: [[ADP]], [[AMP]], [[Adenine]], [[Ribose]], [[Glycolysis]], [[Oxidative Phosphorylation]], [[TCA Cycle]], [[Electron Transport Chain]], [[Complex I]], [[Complex II]], [[Complex III]], [[Complex IV]], [[ATP Synthase]], [[Complex V]], [[Mitochondria]], [[Inner Mitochondrial Membrane]], [[Proton Gradient]], [[Chemiosmosis]], [[AMPK]], [[Sarcopenia]], [[Neurodegeneration]], [[Metabolic Syndrome]], [[Exercise]], [[Caloric Restriction]], [[Metformin]], [[Rapamycin]], [[NAD+]], [[V-ATPase]], [[Autophagy]], [[Lysosome]], [[Muscle Contraction]], [[Actin]], [[Myosin]], [[Active Transport]], [[Sodium Potassium ATPase]], [[Ca²⁺ ATPase]], [[Ubiquitin-Proteasome System]], [[cAMP]]
 - Suggested new entity notes to create: [[ΔG°′]], [[Chemiosmosis]], [[Proton motive force]], [[Substrate-level phosphorylation]], [[Phosphocreatine]]
-- Strong connections to strengthen: [[ATP]] ↔ [[Mitochondria]], [[ATP]] ↔ [[AMPK]], [[ATP]] ↔ [[Aging]], [[ATP]] ↔ [[Mitochondrial Dysfunction]]
+  - Strong connections to strengthen: [[ATP]] ↔ [[Mitochondria]], [[ATP]] ↔ [[AMPK]], [[ATP]] ↔ [[Aging]], [[ATP]] ↔ Mitochondrial Dysfunction

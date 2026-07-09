@@ -2,14 +2,13 @@
 title: Trichuris
 description: Trichuris is a genus of parasitic nematodes commonly known as whipworms.
   The species Trichuris trichiura causes Trichuriasis in humans.
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - Nematode
-  - Helminth
-  - Soil-Transmitted Helminths
-  - Microorganism
+  - nematode
+  - helminth
+  - soil-transmitted-helminths
+  - organism
 aliases: [Whipworm]
 ---
 
@@ -32,6 +31,14 @@ The life cycle is direct. Unembryonated eggs are shed in feces into soil, where 
 ## Treatment and Control
 
 Standard treatment involves [[Albendazole]] (400 mg single dose) or [[Mebendazole]] (500 mg single dose). [[Ivermectin]] is also effective, particularly in combination therapy for mixed STH infections. Mass drug administration (MDA) programs, improved sanitation, and health education remain the cornerstone of control efforts.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, ‘Wonder drug’ from Japan the human use perspective|Ivermectin, ‘Wonder drug’ from Japan the human use perspective]]
+    - Studies of long-term treatment with Ivermectin to control Onchocerciasis have shown that use of the drug is additionally associated with significant reduction in the prevalence of infection with any soil-transmitted helminth parasites (including Ascaris, Tr...
+
 
 ## Connections
 

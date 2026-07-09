@@ -1,11 +1,10 @@
 ---
 title: Tyrosine Kinase Inhibitors
 description: Tyrosine kinase inhibitors (TKIs) are targeted anticancer drugs that block ATP binding or substrate docking in tyrosine kinases (e.g., EGFR, HER2, BCR-ABL, VEGFR), halting proliferative and angiogenic signaling in cancer.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Pharmacological Action
+  - pharmacological-action
 aliases: []
 ---
 
@@ -32,6 +31,14 @@ Response depends on target dependence; resistance arises via secondary kinase mu
 ## Clinical Relevance and Combination
 
 TKIs are first-line in NSCLC, CML, RCC, HCC, and HER2+ disease, often combined with [[Chemotherapy]], antibodies, or anti-angiogenics. They generally spare bone marrow less than cytotoxic化疗 but carry class-specific toxicities (rash, diarrhea, hypertension, cardiotoxicity). Their role in dampening [[Metastasis]] and invasion (via Src/FAK) extends benefit beyond proliferation control.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Evading apoptosis in cancer|Evading apoptosis in cancer]]
+    - Bim plays an important role in cancer cells when Apoptosis is induced by Tyrosine Kinase Inhibitors \[, \]. Since Akt and ERK are key effectors downstream of oncogenic kinases (e.
+
 
 ## Connections
 

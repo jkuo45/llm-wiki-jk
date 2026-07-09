@@ -1,11 +1,10 @@
 ---
 title: Dopamine o-quinone
 description: Dopamine o-quinone is a highly reactive oxidative product of Dopamine that serves as a precursor in the biosynthetic pathway of Neuromelanin.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: []
 ---
 
@@ -24,6 +23,14 @@ In melanized neurons, the continuous formation and sequestration of DAQ into neu
 
 ## Pathology and Clinical Relevance
 The same chemistry that protects can also injure. DAQ and downstream [[5,6-indolequinone]] are toxic to non-melanized cells, and in vitro studies show DAQ induces apoptosis in dopaminergic neuron models, particularly when glutathione defenses are depleted. The imbalance between dopamine oxidation (driven by [[Tyrosinase]]-like activity and [[Iron]]-mediated Fenton chemistry) and antioxidant buffering is hypothesized to contribute to selective vulnerability in [[Parkinson's Disease]]. Moreover, neuromelanin's propensity to bind and release iron means that its quinone-rich matrix can become a source rather than a sink of [[Oxidative Stress]] as neurons age. DAQ-derived adducts and aminochrome are therefore studied as biomarkers of catecholamine oxidative stress and as contributors to [[Lewy Bodies]] pathology via cross-linking of [[Alpha-synuclein]].
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator|Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator]]
+    - When Dopamine is oxidized to Dopamine o-quinone, Aminochrome and 5,6-indolequinone are formed and typically undergo polymerization to form the dark pigment, Neuromelanin (Munoz et al., 2012).
+
 
 ## Connections
 - [[Dopamine]]: Parent catecholamine whose oxidation yields dopamine o-quinone.

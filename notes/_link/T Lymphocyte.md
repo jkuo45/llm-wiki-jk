@@ -1,12 +1,11 @@
 ---
 title: T Lymphocyte
-description: 'Overview: T Lymphocyte is a specialized cellular or anatomical structure
-  with defined functions in tissue organization and physiology.'
-type: entity
+description: 'Overview: T Lymphocyte is a specialized cellular or anatomical structure'
+  with defined functions in tissue organization and physiology.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Cell Type
+  - cell-type
 aliases: [T Cell]
 
 ---
@@ -23,10 +22,23 @@ aliases: [T Cell]
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - In T Lymphocyte, quiescence and the timely exit from arrest upon binding of a cognate antigen to the T Cell Receptor are essential for mounting an appropriate immune response (Hwang et al., 2020).
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - For example, SIRT1 participates in mediating inflammatory signaling in DCs, consequentially modulating the balance of proinflammatory T helper type 1 cells and anti-inflammatory Foxp3(+) T Lymphocyte.
+
+
 ## Connections
 - [[T Lymphocyte]] — related entity
 
 ## Linking Summary
 - New links added: [[T Lymphocyte]]
-- Strong connections to strengthen: [[T Lymphocyte]] ↔ [[T Lymphocyte]]
+  - Strong connections to strengthen: T Lymphocyte ↔ T Lymphocyte
 

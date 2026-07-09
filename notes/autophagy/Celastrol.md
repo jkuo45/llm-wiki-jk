@@ -2,11 +2,10 @@
 title: Celastrol
 description: Celastrol is a bioactive compound that enhances TFEB-mediated autophagy
   and mitigates Tau pathology, showing potential for Alzheimer's disease therapy.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: []
 ---
 # Celastrol
@@ -19,6 +18,14 @@ Celastrol is a pentacyclic triterpenoid from [[Tripterygium wilfordii]] that act
 ## Longevity Effects
 
 Celastrol extends lifespan in obese mice and improves metabolic health by activating [[AMPK]] and [[SIRT1]]. It acts as a caloric restriction mimetic and has anti-inflammatory activity via [[NFκB]] inhibition.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - bociclib]], Abemaciclib, Torin1, PP2A, AMPK, Akt, Folliculin, MAP4K3, PMA, GCN5, ACAT1, SIRT1, HDACs, STUB1, TNKS1, TNKS2, FACT complex, SetA, Birt-Hogg-Dube syndrome, Renal Cell Carcinoma, MALAT1, Pancreatic Cancer, Glutaminase, Eltrombopag, Trehalose, Cel...
+
 
 ## Connections
 

@@ -1,13 +1,12 @@
 ---
 title: Non-alcoholic Fatty Liver Disease
-description: 'Etiology and pathophysiology: Non-alcoholic Fatty Liver Disease
+description: 'Etiology and pathophysiology: Non-alcoholic Fatty Liver Disease'
   is a medical condition characterized by specific pathological changes in cellular,
-  tissue, or organ function. Its development inv...'
-type: entity
+  tissue, or organ function. Its development inv...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: [NAFLD]
 
 ---
@@ -24,10 +23,20 @@ aliases: [NAFLD]
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Notably, Non-alcoholic Fatty Liver Disease is the most common liver disease, with a worldwide prevalence of 25%. About 2 billion people consume alcohol worldwide and upwards of 75 million are at risk of alcoholassociated liver diseases.
+
+
 ## Connections
 - [[Non-alcoholic Fatty Liver Disease]] — related entity
 
 ## Linking Summary
 - New links added: [[Non-alcoholic Fatty Liver Disease]]
-- Strong connections to strengthen: [[Non-alcoholic Fatty Liver Disease]] ↔ [[Non-alcoholic Fatty Liver Disease]]
+  - Strong connections to strengthen: Non-alcoholic Fatty Liver Disease ↔ Non-alcoholic Fatty Liver Disease
 

@@ -1,15 +1,14 @@
 ---
 title: Mitochondrial ROS
-description: 'Mitochondrial ROS (mtROS) are Reactive Oxygen Species generated
+description: Mitochondrial ROS (mtROS) are Reactive Oxygen Species generated
   primarily at Complex I and Complex III of the Mitochondria electron transport chain.
-  They are a major source of cellular Oxidativ...'
-type: entity
+  They are a major source of cellular Oxidativ...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Biological Molecule
+  - biological-molecule
   - mitochondria
-  - oxidative stress
+  - oxidative-stress
 aliases: [mtROS, Mitochondrial reactive oxygen species]
 
 ---
@@ -28,4 +27,4 @@ aliases: [mtROS, Mitochondrial reactive oxygen species]
 ## Linking Summary
 - New links added: [[Reactive Oxygen Species]], [[Mitochondria]], [[Oxidative Stress]], [[Apoptosis]], [[Mitohormesis]]
 - Suggested new entity notes to create: [[Complex I]], [[Complex III]], [[Superoxide]]
-- Strong connections to strengthen: [[Mitochondrial ROS]] ↔ [[Oxidative Stress]]
+  - Strong connections to strengthen: Mitochondrial ROS ↔ Oxidative Stress

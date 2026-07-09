@@ -4,11 +4,10 @@ description: Androgen receptor (AR, NR3C4) is a steroid hormone-activated nuclea
   transcription factor that mediates the physiological effects of androgens (testosterone
   and dihydrotestosterone). It controls genes essential for male development and prostate
   homeostasis.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Protein
+  - protein
 aliases:
   - AR
   - NR3C4
@@ -35,6 +34,14 @@ In the absence of ligand, AR is sequestered in the cytoplasm bound to heat-shock
 ## Clinical Implications
 
 Androgen signaling remains the dominant therapeutic target in prostate cancer. Anti-androgen therapies (e.g., enzalutamide, abiraterone) blockade the LBD or ligand synthesis and are first-line treatments for advanced disease. Agents that upregulate SIRT1 activity or [[NAD+]] bioavailability may complement these approaches by dampening AR transactivation at the post-translational level, potentially delaying resistance. Conversely, SIRT1's tumor-suppressive versus context-dependent roles must be weighed, as sirtuin activity can be pleiotropic across tissues.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - The disease pathogenesis of Spinal and Bulbar Muscular Atrophy (SBMA) (Kennedy’s disease; an -X-linked neuromuscular disorder) caused by trinucleotide (CAG) repeat expansion in exon 1 of the Androgen receptor (AR) gene, is defined by the loss of normal AR f...
+
 
 ## Connections
 

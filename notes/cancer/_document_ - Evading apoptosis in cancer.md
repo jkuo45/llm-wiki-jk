@@ -4,7 +4,6 @@ description: Carcinogenesis is a mechanistically complex and variable process wi
   a plethora of underlying genetic causes. Cancer development consists of a multitude
   of steps that occur progressively starting with initial driver mutation(s), to tumorigenesis,
   ...
-type: document
 created: 2026-05-31
 source: https://pmc.ncbi.nlm.nih.gov/articles/PMC4091735/
 author:

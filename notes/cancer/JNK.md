@@ -1,11 +1,10 @@
 ---
 title: JNK
 description: c-Jun N-terminal kinase (JNK) is a stress-activated MAPK that regulates Apoptosis, proliferation, and inflammation by phosphorylating c-Jun, Bim, Mcl-1, and other substrates; its role in cancer is context-dependent.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Enzyme
+  - enzyme
 aliases: []
 ---
 
@@ -28,6 +27,20 @@ JNK is a sensor of [[Oxidative Stress]] and genotoxic damage, coupling these ins
 ## Clinical & Research Relevance
 
 JNK isoforms are pursued as targets, though isoform-specific inhibitors (e.g., SP600125, AS601245) have seen limited clinical success because of the pathway's pleiotropy. The therapeutic strategy often focuses on modulating JNK contextually—e.g., combining JNK activation with agents that lower the [[Apoptosis]] threshold, or inhibiting JNK in tumors where it drives invasive signaling.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - Under control of IL-3 | | Bim | | JNK, p38 MAPK | Ser65 (mouse) | Activation | | | Bim |
+
+  - [[_document_ - Evading apoptosis in cancer|Evading apoptosis in cancer]]
+    - An initial study identified GSK3 as the major kinase that phosphorylates this residue; however, a more recent study demonstrated that JNK (c-Jun N terminal kinase) primarily phosphorylates T163; in both cases, T163 Phosphorylation will trigger subsequent Ph...
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - In contrast, p53 can act as an antioxidant factor to suppress oxidative stress by regulating several redox-related proteins, such as MnSOD, Glutathione Peroxidase 1, and Jun N-terminal kinase (JNK).
+
 
 ## Connections
 

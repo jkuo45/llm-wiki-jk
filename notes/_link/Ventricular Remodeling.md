@@ -1,13 +1,12 @@
 ---
 title: Ventricular Remodeling
-description: 'Etiology and pathophysiology: Ventricular Remodeling is a medical
+description: 'Etiology and pathophysiology: Ventricular Remodeling is a medical'
   condition characterized by specific pathological changes in cellular, tissue, or
-  organ function. Its development involves genet...'
-type: entity
+  organ function. Its development involves genet...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: []
 ---
 
@@ -23,10 +22,20 @@ aliases: []
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - Suppression of lysosomal _Lamp2_ increased punctate GFP-LC3 and SQSTM1/p62 such that IF worsens Ventricular Remodeling and Cardiomyocyte Toxicity in _Lamp2_ -/- mice \[\].
+
+
 ## Connections
 - [[Ventricular Remodeling]] — related entity
 
 ## Linking Summary
 - New links added: [[Ventricular Remodeling]]
-- Strong connections to strengthen: [[Ventricular Remodeling]] ↔ [[Ventricular Remodeling]]
+  - Strong connections to strengthen: Ventricular Remodeling ↔ Ventricular Remodeling
 

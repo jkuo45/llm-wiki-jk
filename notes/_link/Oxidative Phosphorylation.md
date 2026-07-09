@@ -1,13 +1,12 @@
 ---
 title: Oxidative Phosphorylation
-description: 'Definition: Oxidative Phosphorylation is a fundamental biological
+description: 'Definition: Oxidative Phosphorylation is a fundamental biological'
   process that maintains cellular and organismal homeostasis. It involves coordinated
-  molecular events regulated by signaling pat...'
-type: entity
+  molecular events regulated by signaling pat...
 created: 2026-07-04
 updated: 2026-07-06
 tags:
-  - Biological Process
+  - biological-process
 aliases: [OXPHOS, Electron Transport Chain]
 
 ---
@@ -23,9 +22,22 @@ aliases: [OXPHOS, Electron Transport Chain]
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - Cellular ATP concentrations are significantly reduced during quiescence (Ho et al., 2017; Rodgers et al., 2014; Zhang et al., 2018), and some quiescent cell types decrease Oxidative Phosphorylation to instead rely on Glycolysis as their primary metabolic pa...
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - The activation of mitochondrial SIRT5 contributes to the promotion of growth and metastasis of HCC cells via glucose metabolism reprogramming from Oxidative Phosphorylation to Glycolysis.
+
+
 ## Connections
 - [[ATP]] — interacts with Oxidative Phosphorylation
 ## Linking Summary
 - New links added: [[ATP]], [[Mitochondria]], [[Metabolism]], [[Quiescence]]
 - Suggested new entity notes to create: [[Electron Transport Chain]]
-- Strong connections to strengthen: [[Oxidative Phosphorylation]] ↔ [[Glycolysis]]
+  - Strong connections to strengthen: Oxidative Phosphorylation ↔ [[Glycolysis]]

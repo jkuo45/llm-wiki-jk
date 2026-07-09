@@ -1,11 +1,10 @@
 ---
 title: Nasopharyngeal Carcinoma
 description: Nasopharyngeal carcinoma (NPC) is an EBV-associated epithelial malignancy of the nasopharynx, prevalent in southern China, with distinct molecular and therapeutic features.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: []
 ---
 
@@ -28,6 +27,14 @@ Radiotherapy is the cornerstone for localized disease, with concurrent chemoradi
 ## Role of Ivermectin
 
 Preclinical studies indicate that [[Ivermectin]] exerts cytotoxic effects against NPC cells and inhibits tumor growth in vivo. Proposed mechanisms include inhibition of [[PAK1]] kinase activity, which attenuates the [[MAPK]] proliferative pathway, and a favorable selective toxicity window that spares normal cells at active doses. These findings position ivermectin as a candidate repurposed agent warranting further validation.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug|Ivermectin, a potential anticancer drug derived from an antiparasitic drug]]
+    - Respiratory system cancer Nasopharyngeal Carcinoma is a malignant tumor derived from epithelial cells of the nasopharyngeal mucosa. The incidence is obviously regional and familial, and Epstein-Barr virus (EBV) infection is closely related \[\].
+
 
 ## Connections
 

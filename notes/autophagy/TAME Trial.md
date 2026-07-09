@@ -2,11 +2,10 @@
 title: TAME Trial
 description: The TAME Trial (Targeting Aging with Metformin) is a ground-breaking
   clinical trial designed to test the geroprotective effects of Metformin.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Scientific Concept
+  - scientific-concept
 aliases: [Targeting Aging with Metformin trial]
 
 ---
@@ -27,6 +26,14 @@ The **TAME Trial** (Targeting Aging with Metformin) is a ground-breaking clinica
 ## Overview
 
 The TAME (Targeting Aging with Metformin) trial is a FDA-approved clinical study testing whether [[Metformin]] delays aging-related multimorbidity. Metformin induces [[Autophagy]] via [[AMPK]].
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
+    - Notably, the results of the Targeting Aging with Metformin (TAME Trial) trial that enrolled 3000 participants (aged between 65 and 79) are expected to be a big leap forward (Justice et al., 2018; Kulkarni et al., 2020).
+
 
 ## Connections
 

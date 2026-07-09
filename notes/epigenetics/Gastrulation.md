@@ -2,11 +2,10 @@
 title: Gastrulation
 description: A phase in embryonic development during which the single-layered blastula
   is reorganized into the multilayered gastrula and the three germ layers form.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Biological Process
+  - biological-process
 aliases: []
 ---
 
@@ -29,6 +28,14 @@ Gastrulation establishes the body axes and the progenitor pools for every subseq
 ## Research Relevance
 
 Because gastrulation is inaccessible in intact human embryos, model systems — human embryonic stem cells, gastruloids, and non-human embryos — are used to dissect its mechanics. Understanding gastrulation EMT and epigenetic priming informs efforts in directed differentiation of [[Progenitor Cell]] populations and in modeling developmental disorders. Aberrant re-activation of gastrulation-like EMT programs is also a feature of [[Cancer]] metastasis, linking developmental and oncogenic biology.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network|Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network]]
+    - The process of Epithelial-to-Mesenchymal Transition is essential for Gastrulation to occur and is driven by TGF-beta, which ultimately inhibits the expression of E-Cadherin, through SMAD signaling.
+
 
 ## Connections
 

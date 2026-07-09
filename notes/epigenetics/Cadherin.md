@@ -1,11 +1,10 @@
 ---
 title: Cadherin
 description: A superfamily of calcium-dependent transmembrane proteins that mediate cell-cell adhesion and play crucial roles in tissue architecture and signaling.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Protein
+  - protein
 aliases: []
 ---
 
@@ -46,6 +45,17 @@ Dysregulation of cadherin-mediated adhesion is a major driver of several patholo
 - **Cancer Metastasis and EMT**: The loss of E-cadherin-mediated adhesion is a hallmark of the **[[Epithelial-to-Mesenchymal Transition]] (EMT)**. During EMT, cells often undergo a "cadherin switch," where E-cadherin is downregulated and N-cadherin is upregulated. This switch facilitates the transition from a stationary epithelial phenotype to a migratory, invasive mesenchymal phenotype, promoting cancer cell dissemination and metastasis.
 - **Developmental Disorders**: Mutations in cadherin genes can lead to severe defects in tissue morphogenesis, affecting organ development and the structural integrity of various tissues.
 - **Tumorigenesis**: Alterations in cadherin signaling can contribute to uncontrolled cell proliferation by disrupting contact inhibition and activating oncogenic pathways.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - For instance, Cadherin-mediated adhesion between stem cells and their niche maintains stem cell quiescence, whereas disruption ... !Figure 3.
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - In Melanoma cells, SIRT1 deacetylates Beclin1 and then accelerates autophagic degradation of the epithelial marker Cadherin, finally promoting EMT.
+
 
 ## Connections
 

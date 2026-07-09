@@ -1,11 +1,10 @@
 ---
 title: Prefrontal Cortex
 description: The prefrontal cortex is the frontal association cortex governing executive function, working memory, and personality, with dopamine clearance dependent on COMT and NET.
-type: entity
 created: 2026-05-25
 updated: 2026-07-07
 tags:
-  - Anatomy
+  - anatomy
 aliases: [PFC]
 ---
 
@@ -36,6 +35,14 @@ Consequently, genetic variation in [[COMT]], especially the [[Val158Met]] polymo
 ## Physiological and Pathological Relevance
 
 PFC dopamine dysregulation is central to [[Schizophrenia]] (hypofrontality, working-memory deficits), [[ADHD]], and age-related cognitive decline ([[Aging]]). Because COMT activity is itself modulated by methyl-donor availability ([[Methylfolate]], [[MethylB12]], [[SAMe]]), PFC function sits at the intersection of genetics and nutrition.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum|Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum]]
+    - In contrast, Dopamine Transporter are both less abundant and located farther from synaptic sites in Prefrontal Cortex neurons, where uptake by the Norepinephrine transporter (NET) and subsequent metabolism by COMT predominates.
+
 
 ## Connections
 

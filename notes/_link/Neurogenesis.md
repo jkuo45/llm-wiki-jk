@@ -1,13 +1,12 @@
 ---
 title: Neurogenesis
-description: 'Neurogenesis is the process by which nervous system cells (neurons)
+description: Neurogenesis is the process by which nervous system cells (neurons)
   are produced from Neural Stem Cell and Progenitor Cell. It occurs during embryonic
-  development and persists in specific adult...'
-type: entity
+  development and persists in specific adult...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Biological Process
+  - biological-process
 aliases: [Neurogenesis, Neural development]
 
 ---
@@ -29,4 +28,4 @@ Adult neurogenesis is regulated by [[Exercise]], [[Caloric Restriction]], [[BDNF
 ## Linking Summary
 - New links added: [[Neural Stem Cell]], [[Aging]], [[Cognition]], [[Exercise]], [[Caloric Restriction]], [[Notch Signaling]]
 - Suggested new entity notes to create: [[Progenitor Cell]], [[Hippocampus]], [[Subventricular Zone]]
-- Strong connections to strengthen: [[Neurogenesis]] ↔ [[Cognition]]
+  - Strong connections to strengthen: [[Neurogenesis]] ↔ [[Cognition]]

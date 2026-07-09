@@ -1,13 +1,12 @@
 ---
 title: Reactive Oxygen Species
-description: 'Reactive Oxygen Species (ROS) are highly reactive molecules containing
+description: Reactive Oxygen Species (ROS) are highly reactive molecules containing
   oxygen, formed as natural byproducts of oxygen metabolism. They play dual roles
-  as signaling molecules and agents of oxida...'
-type: entity
+  as signaling molecules and agents of oxida...
 created: 2026-05-31
 updated: 2026-05-31
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: []
 ---
 
@@ -47,6 +46,55 @@ The use of ROS scavengers (antioxidants like Vitamin C) and hypoxic growth condi
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Adrenochrome Pathway|The Adrenochrome Pathway]]
+    - Campbell, University of Wales College of Medicine SUMMARY Reactive Oxygen Species production by Neutrophils stimulated the oxidation of adrenaline through the Adrenochrome Pathway. The two major catabolites on this pathway were Adrenochrome and Adrenolutin.
+
+  - [[_document_ - formation, chemical stability|formation, chemical stability]]
+    - This means there is so much adrenaline present, or so many Reactive Oxygen Species (ROS) present, that the "cleanup crews" are overwhelmed. The adrenaline is left sitting in the bloodstream/tissues too long, and the chemical "accident" (autoxidation) occurs.
+
+  - [[_document_ - intermediates, precursor, hemoglobin|intermediates, precursor, hemoglobin]]
+    - Leuco-adrenochrome can participate in Redox cycle, and in some biological contexts (e.g., with Polymorphonuclear leukocytes or microsomal systems), it influences Reactive Oxygen Species (ROS) generation.
+
+  - [[_document_ - neutrophil and erthrocyte|neutrophil and erthrocyte]]
+    - It is not stored in large quantities but forms as a metabolite or intermediate, especially under conditions involving Oxidative Stress or Reactive Oxygen Species.
+
+  - [[_document_ - Autophagy and intermittent fasting the connection for cancer therapy?|Autophagy and intermittent fasting the connection for cancer therapy?]]
+    - include decreased blood glucose levels and growth factor signaling and the activation of stress resistance pathways affecting cell growth, energy metabolism, and protection against Reactive Oxygen Species, inflammation and cell death,.
+
+  - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
+    - It enables adaptation to cellular stress, including excessive Reactive Oxygen Species (ROS) production and metabolic stress, such as nutrient starvation.
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - By increasing the glucose contents, intracellular p62 and Reactive Oxygen Species concentrations are increased, and this coincides with the suppression of LC3II/I and the phosphorylated-AMPK/AMPK ratio \[\].
+
+  - [[_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug|Ivermectin, a potential anticancer drug derived from an antiparasitic drug]]
+    - The mechanism was related to the increase in the influx of chloride ions into the cell by IVM, resulting in hyperpolarization of the plasma membrane and induction of Reactive Oxygen Species (ROS) production.
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - Some researchers have proposed that lysosomes act to degrade growth factor receptors and remove mitogenic signaling to maintain cells in a quiescent state (Kobayashi et al., 2019), or perhaps may play a protective role during quiescence through Reactive Oxy...
+
+  - [[_document_ - Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network|Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network]]
+    - Experiments confirmed that upon viral transduction, the immediate response is Innate Immunity, which induces Reactive Oxygen Species, oxidative DNA Damage, p53 activation, Senescence, and Apoptosis, ultimately leading to a reduction in the Cellular Reprogra...
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - Alessandra Bitto 1 PMCID: Abstract Oxidative Stress is a phenomenon caused by an imbalance between production and accumulation of Reactive Oxygen Species in cells and tissues and the ability of a biological system to detoxify these reactive products.
+
+  - [[_document_ - The Sirtuin System The Holy Grail of Resveratrol?|The Sirtuin System The Holy Grail of Resveratrol?]]
+    - These and other studies support the protective effects of Sirtuins on cardiomyocytes via activation of antioxidant encoding genes, thus helping to mitigate the cellular burden of Reactive Oxygen Species \[\].
+
+  - [[_document_ - sirtuins (overview, CD38 KO risks, cancer therapies)|sirtuins (overview, CD38 KO risks, cancer therapies)]]
+    - Key functions: Regulates Mitochondria, fatty acid oxidation, TCA cycle, electron transport chain, Reactive Oxygen Species detoxification (e.g., via Superoxide Dismutase). Protects against Oxidative Stress and maintains mitochondrial integrity.
+
+  - [[_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review|sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review]]
+    - Sirt3 suppresses tumor growth via regulating hypoxia-inducible factor 1α and suppressing Reactive Oxygen Species (Bell et al. ).
+
+
 ## Connections
 - [[Oxidative Stress]] ↔ Condition resulting from an imbalance between ROS production and antioxidant defenses.
 - [[Adrenochrome]] ↔ Formed via ROS-mediated oxidation of adrenaline.
@@ -60,4 +108,4 @@ The use of ROS scavengers (antioxidants like Vitamin C) and hypoxic growth condi
 ## Linking Summary
 - New links added: [[Reactive Oxygen Species]], [[Superoxide anion]], [[Hydrogen Peroxide]], [[Hydroxyl radical]], [[MAO]], [[Adrenochrome]], [[Oxidation]], [[Epinephrine]], [[Redox Cycling]], [[Neutrophils]], [[Myeloperoxidase]], [[Smoking]], [[Oxidative Stress]], [[Inflammation]], [[Aminochromes]], [[Superoxide Radicals]], [[Hydroxyl Radicals]], [[Apoptosis]], [[Immunity]], [[Singlet Oxygen]], [[Cellular Reprogramming]], [[OSKM]], [[DNA Damage]], [[p53]], [[Senescence]], [[Embryonic Stem Cells]], [[Pluripotency]], [[Innate Immunity]]
 - Suggested new entity notes to create: [[Immunity]], [[Signaling Molecules]]
-- Strong connections to strengthen: [[Reactive Oxygen Species]] ↔ [[Oxidative Stress]]
+  - Strong connections to strengthen: Reactive Oxygen Species ↔ Oxidative Stress

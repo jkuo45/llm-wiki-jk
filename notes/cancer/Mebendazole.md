@@ -1,11 +1,10 @@
 ---
 title: Mebendazole
 description: Mebendazole is a benzimidazole anthelmintic broadly repurposed in Cancer for microtubule disruption (tubulin binding) and inhibition of Hedgehog, Wnt, and NFκB pathways, with trials in glioblastoma and solid tumors.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: []
 ---
 

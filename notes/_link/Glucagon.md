@@ -1,10 +1,9 @@
 ---
 title: Glucagon
 description: Pancreatic alpha-cell peptide hormone that antagonizes insulin and raises blood glucose via hepatic glycogenolysis and gluconeogenesis.
-type: entity
 created: 2026-07-07
 updated: 2026-07-07
-tags: [Protein, Hormone, Endocrine, Glucose Homeostasis]
+tags: [protein, hormone, endocrine, glucose-homeostasis]
 aliases: []
 ---
 
@@ -36,4 +35,4 @@ In [[Metabolic Syndrome]] and [[Obesity]], alpha-cell dysfunction and relative g
 
 - New links added: [[Insulin]], [[Glucose]], [[Liver]], [[Metabolic Syndrome]], [[Glucagon-like Peptide-1]], [[Adipose Tissue]], [[Obesity]]
 - Suggested new entity notes to create: [[Glucagon Receptor]], [[Proglucagon]]
-- Strong connections to strengthen: [[Glucagon]] ↔ [[Insulin]]
+  - Strong connections to strengthen: [[Glucagon]] ↔ Insulin

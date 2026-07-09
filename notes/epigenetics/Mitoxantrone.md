@@ -1,11 +1,10 @@
 ---
 title: Mitoxantrone
 description: Mitoxantrone is a synthetic anthraquinonoid and type II topoisomerase inhibitor used in the treatment of certain cancers and multiple sclerosis.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: []
 ---
 
@@ -38,6 +37,14 @@ The use of Mitoxantrone is limited by several significant toxicities:
 - **Myelosuppression**: Like many cytotoxic drugs, Mitoxantrone can cause significant suppression of bone marrow activity, leading to neutropenia, thrombocytopenia, and anemia.
 - **Secondary Malignancies**: Long-term use is associated with an increased risk of developing secondary cancers, such as acute leukemia.
 - **Infertility**: It can cause significant reproductive toxicity in both men and women.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - a]], Thymidine, Bromodeoxyuridine, Gemcitabine, Cyclopentenyl cytosine); (2) DNA‐damaging agents, including (2a) DNA Topoisomerase Inhibitors (Doxorubicin, Etoposide, Daunorubicin, Mitoxantrone, Camptothecin), (2b) DNA Cross-linkers (Cisplatin, Mitomycin C,...
+
 
 ## Connections
 

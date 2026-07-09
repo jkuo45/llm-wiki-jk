@@ -1,17 +1,16 @@
 ---
 title: Basal Lamina
 description: The Basal Lamina is a specialized 50–100 nm thick layer of extracellular matrix secreted by epithelial, endothelial, and mesenchymal cells that provides structural support, filtration, and signaling functions.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - extracellular matrix
+  - extracellular-matrix
   - laminin
-  - collagen IV
+  - collagen-iv
   - filtration
-  - cell adhesion
-  - basement membrane
-  - Anatomy
+  - cell-adhesion
+  - basement-membrane
+  - anatomy
 aliases: [Basal Lamina, Basement Membrane]
 ---
 

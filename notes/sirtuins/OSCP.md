@@ -1,17 +1,12 @@
 ---
 title: OSCP
-description: 'OSCP (Oligomycin Sensitivity Conferral Protein, encoded by ATP5PO) is a peripheral stalk subunit of mitochondrial F1Fo-ATP synthase (Complex V). It connects the catalytic F1 head to the membrane-embedded Fo rotor and confers sensitivity to the inhibitor oligomycin.'
-type: entity
+description: OSCP (Oligomycin Sensitivity Conferral Protein, encoded by ATP5PO) is a peripheral stalk subunit of mitochondrial F1Fo-ATP synthase (Complex V). It connects the catalytic F1 head to the membrane-embedded Fo rotor and confers sensitivity to the inhibitor oligomycin.
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Protein
+  - protein
 aliases: [ATP5PO, ATP Synthase Peripheral Stalk Subunit OSCP, Oligomycin Sensitivity Conferral Protein, Oligomycin sensitivity-conferring protein]
-
-sources:
-- Yang 2021
-- Luo 2022
-target: SIRT3
+source: Yang 2021, Luo 2022
 ---
 
 # OSCP
@@ -33,6 +28,14 @@ Efficient ATP synthase coupling is essential for cellular energy charge and for 
 ## Clinical Relevance
 
 OSCP acetylation increases with age and in metabolic disease, correlating with reduced ATP synthase efficiency and mitochondrial uncoupling. SIRT3 activators ([[Honokiol]], [[NAD+]] precursors) that target OSCP deacetylation could restore mitochondrial energetics in [[Heart Failure|heart failure]], [[Neurodegeneration|neurodegeneration]], and [[Metabolic Syndrome|metabolic syndrome]]. Beyond sirtuin-targeted approaches, modulation of OSCP stability and the peripheral stalk is an active area in mitochondrial medicine.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins (resveratrol), gemini|sirtuins (resveratrol), gemini]]
+    - Mentioned in this document
+
 
 ## Connections
 

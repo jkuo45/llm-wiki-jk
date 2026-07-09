@@ -1,11 +1,10 @@
 ---
 title: Indole
 description: Indole is an aromatic heterocyclic organic compound; indole-based subunits, such as 5,6-indolequinone, are key structural components of the Neuromelanin polymer.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Chemical Class
+  - chemical-class
 aliases: []
 ---
 
@@ -24,6 +23,14 @@ In cutaneous melanin, the indole scaffold is supplied by L-DOPA via the Raper–
 
 ## Physiological and Pathological Relevance
 The indole-rich matrix gives neuromelanin its ability to chelate [[Iron]] and other redox metals and to redox-cycle, functioning as both an antioxidant sink and—when overloaded—a pro-oxidant source in [[Parkinson's Disease]]. Indole quinone adducts can also modify proteins, potentially cross-linking [[Alpha-synuclein]] and contributing to [[Lewy Bodies]] formation. Chemically, targeting or mimicking indole polymerization is relevant to designing neuromelanin imaging agents (e.g., [[Flortaucipir]]) and to understanding pigment-related selective vulnerability of the [[Substantia Nigra]] and [[Locus Coeruleus]].
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator|Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator]]
+    - In the case of such naturally occurring, aromatic organic Catecholamines, the coordination of a lone-pair of electrons from the de-protonated amine nitrogen to NM-chelated Iron combined with potential pi-stacking interactions through NM Indole subunits prov...
+
 
 ## Connections
 - [[Neuromelanin]]: Polymer whose backbone is indole-derived oligomers.

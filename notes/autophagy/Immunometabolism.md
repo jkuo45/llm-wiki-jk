@@ -1,12 +1,11 @@
 ---
 title: Immunometabolism
-description: 'Immunometabolism is an emerging field that explores the close association
-  between metabolic pathways and immune cell function.'
-type: entity
+description: Immunometabolism is an emerging field that explores the close association
+  between metabolic pathways and immune cell function.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Scientific Concept
+  - scientific-concept
 aliases: []
 ---
 
@@ -25,6 +24,14 @@ aliases: []
 ## Definition
 
 Immunometabolism studies how metabolic pathways ([[Autophagy]], [[Glycolysis]], [[OxPhos]]) regulate immune cell function and differentiation.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
+    - Autophagy shapes adaptive immunity Recently, a plethora of studies revealed that Selective Autophagy, in close association with Immunometabolism, is key in modulating immunity and immune cell dynamics (Germic et al., 2019; Metur and Klionsky, 2021).
+
 
 ## Connections
 

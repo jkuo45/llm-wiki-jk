@@ -1,11 +1,10 @@
 ---
 title: Tau Pathology
 description: Tau pathology encompasses hyperphosphorylation, oligomerization, and neuronal accumulation of microtubule-associated protein tau (tauopathy), driving neurodegeneration; autophagy-lysosomal clearance via TFEB is a major therapeutic axis.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Medical Condition
+  - medical-condition
 aliases:
   - tauopathy
   - tau aggregation
@@ -26,6 +25,14 @@ Enhancing TFEB activity transcriptionally upregulates lysosomal enzymes and auto
 ## Physiological & Pathological Relevance
 
 Tau pathology correlates with cognitive decline more tightly than amyloid in several tauopathies, and its spread predicts clinical staging. Boosting autophagic clearance mitigates [[Neurodegeneration]] in preclinical studies, though timing and specificity remain challenges. Targeting the autophagy–TFEB axis offers potential to slow or halt tau propagation in [[Alzheimer's Disease]] and related disorders of [[Aging]].
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - tion]], Tumor Suppressor, Translation Initiation, MAPK Signaling, ERK Signaling, Lysosomal Localization, Nuclear Export, Cell Cycle, Energy Homeostasis, PI3K-Akt Signaling, Amino Acid Sensing, Cholesterol Metabolism, Ubiquitin-Proteasome System, Autophagy I...
+
 
 ## Connections
 

@@ -1,12 +1,11 @@
 ---
 title: EDTA
-description: 'EDTA (Ethylenediaminetetraacetic acid) is a chelating agent used
-  to bind metal ions such as iron and copper.'
-type: entity
+description: EDTA (Ethylenediaminetetraacetic acid) is a chelating agent used
+  to bind metal ions such as iron and copper.
 created: 2024-01-01
 updated: 2024-01-01
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: []
 ---
 
@@ -19,6 +18,19 @@ Transition metals can catalyze the oxidation of [[Epinephrine]]. By sequestering
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - US4501923A - Process for preparing adrenochrome|US4501923A - Process for preparing adrenochrome]]
+    - After active carbon treatment and addition of EDTA the purified product was precipitated by the addition of acetic acid to pH 5.5. The adrenochrome monosemicarbazone was isolated in the conventional manner.
+
+  - [[_document_ - formation, chemical stability|formation, chemical stability]]
+    - The Science: Using a chelating agent (like EDTA) binds these metals, making them inert. Without the metal catalyst, the autoxidation of Epinephrine slows down drastically.
+
+
 ## Connections
 - [[Glyco-Oxidative Proteostasis Shield]] — interacts with
 - [[Epinephrine]] — interacts with
@@ -26,5 +38,5 @@ Transition metals can catalyze the oxidation of [[Epinephrine]]. By sequestering
 
 ## Linking Summary
 - New links added: [[Glyco-Oxidative Proteostasis Shield]], [[Epinephrine]], [[Adrenochrome]]
-- Strong connections to strengthen: [[EDTA]] ↔ [[Glyco-Oxidative Proteostasis Shield]], [[EDTA]] ↔ [[Epinephrine]], [[EDTA]] ↔ [[Adrenochrome]]
+  - Strong connections to strengthen: [[EDTA]] ↔ Glyco-Oxidative Proteostasis Shield, [[EDTA]] ↔ [[Epinephrine]], [[EDTA]] ↔ Adrenochrome
 

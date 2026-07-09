@@ -1,13 +1,12 @@
 ---
 title: Lipid Synthesis
-description: 'Definition: Lipid Synthesis is a fundamental biological process
+description: 'Definition: Lipid Synthesis is a fundamental biological process'
   that maintains cellular and organismal homeostasis. It involves coordinated molecular
-  events regulated by signaling pathways and ...'
-type: entity
+  events regulated by signaling pathways and ...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Biological Process
+  - biological-process
 aliases: [Lipogenesis]
 
 ---
@@ -24,10 +23,23 @@ aliases: [Lipogenesis]
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - Lipid synthesis The role of mTORC1 in regulating Lipid Synthesis, which is required for cell growth and Cell Proliferation, is beginning to be appreciated.
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Moreover, SIRT3 contributes to the reprogramming of fatty acid synthesis by upregulating acetyl-coA carboxylase 1 to promote de novo Lipid Synthesis by SIRT3 deacetylation, thereby promoting the invasion and metastasis of CC cells.
+
+
 ## Connections
 - [[Lipid Synthesis]] — related entity
 
 ## Linking Summary
 - New links added: [[Lipid Synthesis]]
-- Strong connections to strengthen: [[Lipid Synthesis]] ↔ [[Lipid Synthesis]]
+  - Strong connections to strengthen: Lipid Synthesis ↔ Lipid Synthesis
 

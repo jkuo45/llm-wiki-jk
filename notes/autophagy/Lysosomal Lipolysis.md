@@ -1,13 +1,12 @@
 ---
 title: Lysosomal Lipolysis
-description: 'Lysosomal Lipolysis is the breakdown of lipids (triglycerides and
+description: Lysosomal Lipolysis is the breakdown of lipids (triglycerides and
   cholesteryl esters) within the acidic environment of the Lysosome. This process
-  is primarily executed by Lysosomal Acid Lipase ...'
-type: entity
+  is primarily executed by Lysosomal Acid Lipase ...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Biological Process
+  - biological-process
   - autophagy
   - lysosome
 aliases: []

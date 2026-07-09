@@ -1,11 +1,10 @@
 ---
 title: Cilengitide
 description: Cilengitide is a cyclic RGD pentapeptide antagonist of αvβ3 and αvβ5 integrins investigated as an anti-angiogenic agent, notably in glioblastoma, that disrupts endothelial survival and tumor vasculature.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Medical Product
+  - medical-product
 aliases: []
 ---
 

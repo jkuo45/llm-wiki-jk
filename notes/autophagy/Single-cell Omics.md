@@ -1,11 +1,10 @@
 ---
 title: Single-cell Omics
 description: Single-cell omics comprises technologies (scRNA-seq, scATAC-seq, single-cell proteomics) that resolve cellular heterogeneity in autophagy, lysosomal, and metabolic programs across tissues, development, and disease.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Analytical Technique
+  - analytical-technique
 aliases:
   - single-cell multiomics
   - scRNA-seq
@@ -26,6 +25,14 @@ These tools dissect how autophagic activity is distributed across cell types and
 ## Physiological & Pathological Relevance
 
 Single-cell omics has exposed that autophagic heterogeneity underlies resistant clones in [[Cancer]] and focal vulnerability in [[Neurodegeneration]]. It also enables mapping of immune-autophagy cross-talk at single-cell resolution, relevant to [[T Cell]] function. As cost falls, these methods are becoming standard for stratifying patients by autophagic–lysosomal health and for discovering biomarkers of [[Aging]].
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
+    - We examine how cutting-edge technologies, such as Single-cell Omics methods hold the promise to capture the complexity of molecular and cellular phenotypes associated with aging, driving the development of suitable putative Biomarkers and clinical bioassays.
+
 
 ## Connections
 

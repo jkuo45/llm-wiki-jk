@@ -3,11 +3,10 @@ title: Exchange Protein Directly Activated by cAMP 1 (Epac1/RAPGEF3)
 description: Exchange Protein Directly Activated by cAMP 1 (Epac1/RAPGEF3) is a guanine
   nucleotide exchange factor (GEF) for the small GTPase Rap1 and Rap2. Unlike PKA, Epac1
   is activated directly by cAMP binding and links cAMP to Ca2+ and AMPK signaling.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Protein
+  - protein
 aliases:
   - Epac1
   - RAPGEF3
@@ -39,6 +38,14 @@ Epac1 also regulates [[Insulin Secretion]] (via cAMP/Ca²⁺ in pancreatic β-ce
 ## Relationship to Sirtuin Biology
 
 By linking extracellular/hormonal cAMP signals to the AMPK–NAD⁺–SIRT1 network, Epac1 is an upstream conduit through which resveratrol and other PDE4-modulating compounds activate sirtuins. This positions Epac1 as a molecular bridge between cyclic nucleotide second-messenger physiology and the nutrient-sensing sirtuin system central to [[Longevity]] and metabolic health. Inhibitors such as [[Compound C]] (blocking downstream AMPK) are used experimentally to confirm the dependence of Epac1-driven effects on AMPK.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins (resveratrol), gemini|sirtuins (resveratrol), gemini]]
+    - Direct Pathway) (Indirect Pathway) | | Binds SIRT1 NTD Inhibits PDE4 (e.g., Glu230 residue) | | Increases cAMP Allosteric change | | Activates Epac1 → Ca2+ Release Lowers Km for substrates | | Activates AMPK | | | Upregulates NAMPT → Increases NAD+ | | \ / ...
+
 
 ## Connections
 

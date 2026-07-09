@@ -1,13 +1,12 @@
 ---
 title: MuRF1
-description: 'MuRF1 (Muscle RING Finger 1, also known as TRIM63) is a muscle-specific
+description: MuRF1 (Muscle RING Finger 1, also known as TRIM63) is a muscle-specific
   E3 ubiquitin ligase that is upregulated during conditions of muscle wasting and
-  atrophy. It targets sarcomeric proteins f...'
-type: entity
+  atrophy. It targets sarcomeric proteins f...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Enzyme
+  - enzyme
 aliases: []
 ---
 

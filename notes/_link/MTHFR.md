@@ -1,13 +1,12 @@
 ---
 title: MTHFR
-description: 'MTHFR (Methylenetetrahydrofolate Reductase) is a critical enzyme
+description: MTHFR (Methylenetetrahydrofolate Reductase) is a critical enzyme
   in the Methylation Cycle. It is responsible for converting 5,10-methylenetetrahydrofolate
-  to 5-methyltetrahydrofolate, the prima...'
-type: entity
+  to 5-methyltetrahydrofolate, the prima...
 created: 2026-05-29
 updated: 2026-05-29
 tags:
-  - Enzyme
+  - enzyme
 aliases: []
 ---
 
@@ -19,6 +18,16 @@ Common [[SNP|SNPs]] in the [[MTHFR]] gene include C677T and A1298C. These varian
 There is a potential interaction between [[MTHFR]] and [[COMT]] genetic variants. For example, individuals with both slow [[COMT]] and reduced [[MTHFR]] activity may have unique requirements for [[Methyl Donor]] supplementation.
 
 #
+
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - It may also depend on your MTHFR variants or other genes. Thus, take this as a ‘heads-up’ to watch out for mood swings when increasing your consumption of Methyl Donor supplements.
+
 
 ## Connections
 - [[COMT]]: Works downstream in the methylation pathway to metabolize neurotransmitters.

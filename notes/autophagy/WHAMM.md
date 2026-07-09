@@ -1,11 +1,10 @@
 ---
 title: WHAMM
 description: WHAMM (WASP Homolog Associated with Actin, Membranes, and Microtubules) is a WASP-family nucleation-promoting factor that links Arp2/3 actin assembly to ER/Golgi and autolysosomal membranes, supporting autophagosome formation and autophagic lysosome reformation.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Protein
+  - protein
 aliases:
   - WASP homolog-associated protein
   - WHAMM protein
@@ -26,6 +25,14 @@ During ALR, WHAMM-depedent actin assembly on autolysosomes promotes the scission
 ## Physiological & Pathological Relevance
 
 WHAMM's membrane-trafficking functions implicate it in Golgi integrity, ER homeostasis, and neuronal organelle transport, linking its dysfunction to [[Neurodegeneration]] where autolysosomal recycling fails. Because it couples actin forces to autophagic membrane remodeling, WHAMM is a candidate node modulating autophagic capacity during [[Aging]] and in [[Cancer]] cell migration and secretion.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Lysosome biogenesis Regulation and functions|Lysosome biogenesis Regulation and functions]]
+    - WHAMM promotes lysosome tubulation by binding to PtdIns(4,5)P2. The sugar transporter Spinster is also involved in ALR.
+
 
 ## Connections
 

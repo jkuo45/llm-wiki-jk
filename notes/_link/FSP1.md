@@ -1,13 +1,12 @@
 ---
 title: FSP1
-description: 'Overview: FSP1 is a cellular protein with structural, signaling,
+description: 'Overview: FSP1 is a cellular protein with structural, signaling,'
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
-  and signaling networks that govern cell...'
-type: entity
+  and signaling networks that govern cell...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [Ferroptosis Suppressor Protein 1, AIFM2]
 
 ---
@@ -29,5 +28,5 @@ aliases: [Ferroptosis Suppressor Protein 1, AIFM2]
 
 ## Linking Summary
 - New links added: [[FSP1]]
-- Strong connections to strengthen: [[FSP1]] ↔ [[FSP1]]
+  - Strong connections to strengthen: [[FSP1]] ↔ [[FSP1]]
 

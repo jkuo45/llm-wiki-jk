@@ -3,11 +3,10 @@ title: Epigenome
 description: The Epigenome consists of the chemical compounds and proteins that
   can attach to DNA and direct such actions as turning genes on or off, controlling
   the production of proteins in particular cel...
-type: entity
 created: 2024-01-01
 updated: 2024-01-01
 tags:
-  - Biological Molecule
+  - biological-molecule
 aliases: []
 ---
 
@@ -27,6 +26,16 @@ The epigenome is highly responsive to external factors like [[Caloric Restrictio
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks|Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks]]
+    - This review also discussed Epigenome influencing early aging and factors modulating it. Since epigenetic changes are reversible, early identification of epigenetic markers can be a hope for future geriatric medicine.
+
+
 ## Connections
 - **[[Epigenetics]]**: The study of the marks that make up the epigenome.
 - **[[Chromatin]]**: The structural framework of the epigenome.
@@ -36,4 +45,4 @@ The epigenome is highly responsive to external factors like [[Caloric Restrictio
 ## Linking Summary
 - New links added: [[Epigenome]], [[DNA Methylation]], [[Histone Modification]], [[Chromatin]], [[Non-coding RNA]], [[Aging]], [[Heterochromatin]], [[Caloric Restriction]], [[Epigenetics]]
 - Suggested new entity notes to create: [[Transcriptional Drift]], [[Epigenomic Landscapes]], [[Epigenetic Inheritance]]
-- Strong connections to strengthen: [[Epigenome]] ↔ [[Aging]], [[Epigenome]] ↔ [[Chromatin]]
+  - Strong connections to strengthen: [[Epigenome]] ↔ [[Aging]], [[Epigenome]] ↔ [[Chromatin]]

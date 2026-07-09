@@ -1,13 +1,12 @@
 ---
 title: Nutrient Availability
-description: 'Nutrient Availability refers to the presence and concentration of
+description: Nutrient Availability refers to the presence and concentration of
   essential nutrients (e.g., glucose, amino acids, lipids) in the cellular environment,
-  which dictates metabolic priorities and a...'
-type: entity
+  which dictates metabolic priorities and a...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Scientific Concept
+  - scientific-concept
 aliases: []
 ---
 
@@ -27,6 +26,17 @@ aliases: []
 
 ## Physiological Impact
 - Proper sensing and response to nutrient availability are essential for survival during food deprivation and are linked to [[Aging|lifespan]] regulation and [[Metabolic Diseases]].
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - This review discusses the participation of the transcription factors TFEB and TFE3 in the regulation of lysosomal function and Lysosome, and the role of the lysosomal pathway in cellular adaptation to a variety of stress conditions, including Nutrient Avail...
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - When Nutrient Availability is limited, the degradation of organelles and protein complexes through Autophagy provides biological material to sustain anabolism such as protein synthesis and energy production.
+
 
 ## Connections
 

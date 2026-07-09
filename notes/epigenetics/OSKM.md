@@ -3,11 +3,10 @@ title: OSKM
 description: OSKM denotes the four core reprogramming transcription factors Oct4, Sox2,
   Klf4, and c-Myc — the original Yamanaka Factors that convert Somatic Cells into
   Induced Pluripotent Stem Cells (iPSCs).
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Scientific Concept
+  - scientific-concept
 aliases: []
 ---
 
@@ -29,6 +28,17 @@ Transduction of OSKM — typically via retroviral or Sendai viral vectors — tr
 ## Physiological, Pathological & Therapeutic Relevance
 
 OSKM is the foundational tool for iPSC-based [[Disease Modeling]], [[Drug Discovery]], and [[Regenerative Medicine]], and — in transient form — underlies [[Partial Reprogramming]] for [[Rejuvenation]]. c-Myc's oncogenic potential and vector integration risks have driven the development of integration-free methods (episomal, mRNA, protein, and small-molecule-only reprogramming). Understanding OSKM stoichiometry and downstream effectors remains central to improving safety and efficiency.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic|Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic]]
+    - Shinya Yamanaka and Kazutoshi Takahashi discovered the core transcriptional factors required for reprogramming somatic cells to induce pluripotent stem cells, Oct4, Sox2, Klf4, and c-Myc (OSKM) \[\], which became the milestone for designing studies on vario...
+
+  - [[_document_ - Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network|Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network]]
+    - sup>6, D Hoheisel 7 PMCID: Abstract Somatic Cells can be reprogrammed to Induced Pluripotent Stem Cells by over-expression of Oct4, Sox2, Klf4 and c-Myc (OSKM).
+
 
 ## Connections
 - [[Yamanaka Factors]]: The named set of which OSKM is the canonical acronym.

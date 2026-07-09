@@ -1,11 +1,10 @@
 ---
 title: erlotinib
 description: Erlotinib (Tarceva) is a small-molecule EGFR tyrosine kinase inhibitor used in non-small-cell lung cancer and pancreatic cancer that blocks proliferation and induces apoptosis, and is combined with Bcl-2 inhibitors to enhance efficacy.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Medical Product
+  - medical-product
 aliases: []
 ---
 
@@ -32,6 +31,17 @@ EGFR is broadly expressed in epithelia; its dysregulation (mutation, amplificati
 ## Clinical & Research Relevance
 
 Erlotinib is standard first/second-line in *EGFR*-mutant NSCLC and, with gemcitabine, in pancreatic cancer. Current research emphasizes (1) rational combinations with [[BH3 mimetics]]/[[ABT-263]], anti-angiogenics, or immunotherapy; (2) overcoming resistance with next-generation EGFR inhibitors; and (3) biomarker-driven patient selection (EGFR mutation, rash intensity). It remains a reference EGFR-targeted agent informing the broader field of [[Tyrosine Kinase Inhibitors]].
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - owspan="1">Molecule nameSponsorTargetConditionClinical stageABT-263(in combination with erlotinib or irinotecan)AbbottBcl-2 family of proteinsSolid tumoursPhase IABT-26
+
+  - [[_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug|Ivermectin, a potential anticancer drug derived from an antiparasitic drug]]
+    - Nappi's experiment also proved that IVM combined with erlotinib to achieved a synergistic killing effect by regulating EGFR activity and in HCC827 lung cancer cells \[\]. In addition, IVM could reduce the metastasis of lung cancer cells by inhibiting EMT.
+
 
 ## Connections
 

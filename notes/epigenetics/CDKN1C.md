@@ -1,14 +1,13 @@
 ---
 title: CDKN1C
-description: 'CDKN1C (p57) is a cyclin-dependent kinase inhibitor of the Cip/Kip family, imprinted and essential for embryonic and placental development.'
-type: entity
+description: CDKN1C (p57) is a cyclin-dependent kinase inhibitor of the Cip/Kip family, imprinted and essential for embryonic and placental development.
 created: 2026-07-06
 updated: 2026-07-06
 tags:
   - development
-  - cell cycle
+  - cell-cycle
   - epigenetics
-  - Gene
+  - gene
 aliases: [p57, Kip2]
 ---
 
@@ -31,6 +30,14 @@ p57 is a critical brake on proliferation during key developmental windows, parti
 ## Clinical Relevance
 
 Maternally inherited loss-of-function mutations or loss of imprinting (LOI) at *CDKN1C* are the primary cause of **[[Beckwith-Wiedemann Syndrome]]**, an overgrowth disorder with macroglossia, organomegaly, and elevated risk of embryonal tumors (e.g., Wilms tumor). Reduced p57 permits unchecked proliferation, illustrating how imprinting defects produce disease. *CDKN1C* is therefore both a developmental regulator and an epigenetic-disease locus.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - An important mechanism by which cyclin-dependent kinases are regulated is through the expression of CDK Inhibitor, including p21 (CDKN1A), p27 (CDKN1B), and p57 (CDKN1C) (Figure 2).
+
 
 ## Connections
 

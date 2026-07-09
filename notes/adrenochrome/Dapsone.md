@@ -1,16 +1,23 @@
 ---
 title: Dapsone
 description: '- Methemoglobinemia: A known side effect of Dapsone.'
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: []
 ---
 # Dapsone
 
 [[Dapsone]] is an antibiotic and anti-inflammatory medication frequently used to treat leprosy and various skin conditions. It is one of the most common causes of acquired [[Methemoglobinemia]], especially with chronic use.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Methemoglobin and Methemoglobinemia|Methemoglobin and Methemoglobinemia]]
+    - Common culprits include: - Medications: Dapsone (very common, especially chronic use), topical/local anesthetics (Benzocaine, Prilocaine, Lidocaine), antimalarials (Chloroquine), Rasburicase, inhaled Nitric Oxide.
+
 
 ## Connections
 - [[Methemoglobinemia]]: A known side effect of Dapsone.

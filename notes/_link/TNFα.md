@@ -1,13 +1,12 @@
 ---
 title: TNFα
-description: 'Tumor necrosis factor alpha (TNFα) is a pleiotropic pro-inflammatory
+description: Tumor necrosis factor alpha (TNFα) is a pleiotropic pro-inflammatory
   cytokine produced primarily by activated Macrophages, T Cells, and Natural Killer
-  Cells. It is a master regulator of the inf...'
-type: entity
+  Cells. It is a master regulator of the inf...
 created: 2026-07-04
 updated: 2026-07-06
 tags:
-  - Protein
+  - protein
   - inflammation
 aliases: [TNF-α, Tumor Necrosis Factor Alpha, cachectin]
 
@@ -76,6 +75,28 @@ Anti-TNF therapy increases risk of [[Tuberculosis]] reactivation, opportunistic 
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Dietary Advanced Glycation End Products and Aging|Dietary Advanced Glycation End Products and Aging]]
+    - After activation, NF-κB translocates to the nucleus where it will activate the transcription of genes for cytokines, growth factors and adhesive molecules, such as tumor necrosis factor α (TNFα), interleukin 6 (IL-6), well known inflammation promoters, and ...
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - Pro-inflammatory Cytokines, such as TNFα, activate IKKbeta (IKKbeta), which physically interacts with and inactivates TSC1, leading to mTORC1 activation (Lee et al., 2007).
+
+  - [[_document_ - Caspase|Caspase]]
+    - IKK | Ser26 | Inactivation | TNFα resistance | | Bad | | PAK1 | Ser111
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - Deacetylation inhibits the transactivation potential of RelA/p65, which sensitizes human cells to apoptosis in response to TNFα (tumour necrosis factor _α_ ) . A study shows that the breast cancer associated protein, BCA3, when neddylated
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Overexpressed or activated SIRTs, mainly SIRT1–3, can reduce the inflammatory response through anti-inflammatory effects, such as TNFα, a multifunctional proinflammatory cytokine, which is produced by Macrophag
+
+
 ## Connections
 - [[NFκB]] — primary downstream transcription factor activated by TNFα
 - [[TNFR1]] / [[TNFR2]] — TNFα receptors with distinct signaling outcomes
@@ -98,4 +119,4 @@ Anti-TNF therapy increases risk of [[Tuberculosis]] reactivation, opportunistic 
 ## Linking Summary
 - New links added: [[Macrophages]], [[T Cells]], [[Natural Killer Cells]], [[TNFR1]], [[TNFR2]], [[TRADD]], [[RIPK1]], [[TRAF2]], [[IKK complex]], [[IKKα]], [[IKKbeta]], [[NEMO]], [[IkappaBalpha]], [[NFκB]], [[p65]], [[p50]], [[JNK]], [[p38 MAPK]], [[ERK]], [[ASK1]], [[AP-1]], [[Caspase-8]], [[Caspase-3]], [[FADD]], [[RIPK3]], [[Necroptosis]], [[TACE]], [[ADAM17]], [[Interleukin 1β]], [[IL-6]], [[IL-8]], [[COX-2]], [[ICAM-1]], [[VCAM-1]], [[CRP]], [[Acute Phase Response]], [[Cachexia]], [[Sarcopenia]], [[Insulin Resistance]], [[IRS1]], [[Infliximab]], [[Adalimumab]], [[Etanercept]], [[Certolizumab]], [[Golimumab]], [[Rheumatoid Arthritis]], [[Psoriasis]], [[Crohn's Disease]], [[Ulcerative Colitis]], [[Ankylosing Spondylitis]], [[Sepsis]], [[Atherosclerosis]], [[Alzheimer's Disease]], [[Endothelial Dysfunction]], [[Foam Cell]], [[Tuberculosis]], [[Lupus]], [[Demyelinating Disease]], [[SASP]], [[Inflammaging]]
 - Suggested new entity notes to create: [[Type II transmembrane protein]], [[TACE inhibitors]], [[Demyelinating disease]], [[Paradoxical inflammation]], [[TRIF]], [[TLR4]]
-- Strong connections to strengthen: [[TNFα]] ↔ [[NFκB]], [[TNFα]] ↔ [[Inflammation]], [[TNFα]] ↔ [[Apoptosis]], [[TNFα]] ↔ [[Insulin Resistance]], [[TNFα]] ↔ [[SASP]]
+  - Strong connections to strengthen: [[TNFα]] ↔ NFκB, [[TNFα]] ↔ [[Inflammation]], [[TNFα]] ↔ [[Apoptosis]], [[TNFα]] ↔ Insulin Resistance, [[TNFα]] ↔ [[SASP]]

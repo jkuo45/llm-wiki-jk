@@ -2,11 +2,10 @@
 title: Polyphenols
 description: Polyphenols are a category of phytochemicals that are naturally found
   in plants.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Chemical Class
+  - chemical-class
 aliases: [Polyphenols]
 ---
 # Polyphenols
@@ -120,6 +119,16 @@ Polyphenols cross the [[Blood-Brain Barrier]] and protect against [[Neurodegener
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - Several antioxidants have been exploited in recent years for their actual or supposed beneficial effect against oxidative stress, such as Vitamin E, Flavonoids, and Polyphenols.
+
+
 ## Connections
 - [[Flavonoids]]
 - [[Oxidative Stress]]
@@ -135,4 +144,4 @@ Polyphenols cross the [[Blood-Brain Barrier]] and protect against [[Neurodegener
 ## Linking Summary
 - New links added: [[Glycation]], [[Advanced Glycation End Products]], [[Flavonoids]], [[Reactive Oxygen Species]], [[Oxidative Stress]], [[Cancer]]
 - Suggested new entity notes to create: [[Phenolic acids]], [[Phenol units]], [[Prooxidant effects]]
-- Strong connections to strengthen: [[Polyphenols]] ↔ [[Antioxidants]], [[Polyphenols]] ↔ [[Flavonoids]]
+  - Strong connections to strengthen: [[Polyphenols]] ↔ [[Antioxidants]], [[Polyphenols]] ↔ [[Flavonoids]]

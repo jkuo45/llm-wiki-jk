@@ -1,11 +1,10 @@
 ---
 title: Bradykinesia
-description: 'Bradykinesia refers to the slowness of movement and is one of the cardinal motor symptoms of Parkinson''s Disease.'
-type: entity
+description: Bradykinesia refers to the slowness of movement and is one of the cardinal motor symptoms of Parkinson''s Disease.
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Symptom
+  - medical-condition
 aliases: []
 ---
 
@@ -28,6 +27,14 @@ Bradykinesia is one member of the PD motor triad (with rest tremor and rigidity)
 ## Pathology & Clinical Relevance
 
 Bradykinesia is a core diagnostic criterion for PD and a primary treatment target. [[L-DOPA]] and dopamine agonists reliably improve it, whileDeep brain stimulation of the subthalamic nucleus restores circuit facilitation. Quantifying bradykinesia (wearable sensors, UPDRS sub-scores) tracks disease progression and therapy response. Its presence also helps differentiate PD from atypical parkinsonian syndromes, where bradykinesia may be less levodopa-responsive.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease|Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease]]
+    - r=1993-511&doi=\(93\)90349-k&)\] Linking Summary: - New links added: Konstantin Nikolaevich Tretiakoff, Pale Bodies, Immunoglobulin G, Major histocompatibility complex class I, Lipofuscin, Eumelanin, Pheomelanin, L-Tyrosine, TFEB, Ambroxol, p62, Ubiquitin, ...
+
 
 ## Connections
 

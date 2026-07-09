@@ -1,11 +1,10 @@
 ---
 title: Synaptic plasticity
 description: Synaptic plasticity is the activity-dependent strengthening or weakening of synapses; in dopaminergic circuits it is modulated by Neuromelanin-associated Dopamine handling and is impaired in Parkinson's Disease.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Biological Process
+  - biological-process
 aliases: []
 ---
 
@@ -28,6 +27,14 @@ In PD, loss of nigrostriatal terminals flattens dopaminergic modulation, degradi
 ## Research Relevance
 
 Therapeutics aiming to preserve or reinstate physiological synaptic plasticity—rather than simply elevating dopamine—are a frontier in PD research, including glutamatergic modulators, [[Deep Brain Stimulation]], and α-synuclein-targeted agents that protect [[Synaptic Vesicles]] and [[Alpha-synuclein]]-mediated vesicle cycling.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator|Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator]]
+    - One of the strongest proposals for memory in human brains involves Synaptic plasticity, that is, the extensive pattern of connections between the neurons can be altered through strengthening (by repeated stimulation) or weakening (by lack of stimulation) of...
+
 
 ## Connections
 

@@ -1,13 +1,12 @@
 ---
 title: Coronary Heart Disease
-description: 'Coronary Heart Disease (CHD), also known as Coronary Artery Disease
+description: Coronary Heart Disease (CHD), also known as Coronary Artery Disease
   (CAD), is a primary manifestation of Cardiovascular Disease. Epigenetics mechanisms
-  serve as a critical bridge between...'
-type: entity
+  serve as a critical bridge between...
 created: 2024-01-01
 updated: 2024-01-01
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: []
 ---
 
@@ -35,6 +34,16 @@ Unlike genetic mutations, epigenetic marks are reversible. This has led to inter
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks|Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks]]
+    - A longitudinal study in 2019 was done on 11,461 participants and this study concluded the association between blood‐derived DNA methylation with the risk of Coronary Heart Disease across a diverse population and hence methylation status as an informative to...
+
+
 ## Connections
 - **[[Cardiovascular Disease]]**: CHD is a major form of cardiovascular disease.
 - **[[Atherosclerosis]]**: The underlying pathological process of CHD, heavily driven by epigenetic dysregulation.
@@ -43,4 +52,4 @@ Unlike genetic mutations, epigenetic marks are reversible. This has led to inter
 ## Linking Summary
 - New links added: [[Cardiovascular Disease]], [[Epigenetics]], [[Aging]], [[DNA Methylation]], [[Epigenetic Clock]], [[PTEN]], [[Histone Modification]], [[Chromatin]], [[Sirtuins]], [[SIRT1]], [[Cellular Senescence]], [[Non-coding RNA]], [[MicroRNA]], [[SASP]], [[Atherosclerosis]], [[HDAC]], [[DNA Methyltransferase]].
 - Suggested new entity notes to create: [[ANRIL]], [[Cardiac Fibrosis]], [[Vascular Smooth Muscle Cells]], [[Endothelial Dysfunction]].
-- Strong connections to strengthen: [[Coronary Heart Disease]] ↔ [[Atherosclerosis]], [[Coronary Heart Disease]] ↔ [[Aging]]
+  - Strong connections to strengthen: Coronary Heart Disease ↔ [[Atherosclerosis]], Coronary Heart Disease ↔ [[Aging]]

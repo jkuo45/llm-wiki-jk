@@ -1,11 +1,10 @@
 ---
 title: Integrin
 description: Integrins are heterodimeric transmembrane receptors mediating cell-ECM adhesion and bidirectional outside-in/inside-out signaling.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Receptor
+  - receptor
 aliases: []
 ---
 
@@ -33,6 +32,14 @@ Integrins are essential for embryogenesis, tissue morphogenesis, hemostasis (pla
 ## Pathology & Clinical Relevance
 
 Dysregulated integrin expression or activation promotes [[Cancer]] invasion, metastasis, and angiogenesis (αvβ3/αvβ5 targeted by integrin inhibitors such as [[Vedolizumab]]-class agents and cilengitide). Integrins are therapeutic targets in thrombosis (αIIbβ3 antagonists like abciximab) and autoimmunity (α4 integrin blockade by natalizumab). They are also exploited for cell-capture in [[Regenerative Medicine]] and as markers of [[Mesenchymal Stromal Cells]] identity (e.g., α2β1, α5β1). Integrin-linked [[Focal Adhesion]] signaling interacts with chromatin remodelers, tying adhesion to [[Epigenetic Remodeling]] and [[Pluripotency]] state transitions.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - The interaction of cell-surface Integrin with ECM proteins activates signaling to promote cell cycle progression (Dike and Farmer, 1988; Fiore et al., 2018; Schwartz and Assoian, 2001).
+
 
 ## Connections
 

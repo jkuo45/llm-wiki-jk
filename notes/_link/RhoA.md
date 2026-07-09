@@ -1,13 +1,12 @@
 ---
 title: RhoA
-description: 'Overview: RhoA is a cellular protein with structural, signaling,
+description: 'Overview: RhoA is a cellular protein with structural, signaling,'
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
-  and signaling networks that govern cell...'
-type: entity
+  and signaling networks that govern cell...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [Ras Homolog Family Member A]
 
 ---
@@ -24,10 +23,20 @@ aliases: [Ras Homolog Family Member A]
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - These studies have suggested that mTORC2 controls the Actin Cytoskeleton by promoting PKCα (PKCα) phosphorylation, phosphorylation of paxillin and its relocalization to Focal Adhesion, and the GTP loading of RhoA and Rac1.
+
+
 ## Connections
 - [[RhoA]] — related entity
 
 ## Linking Summary
 - New links added: [[RhoA]]
-- Strong connections to strengthen: [[RhoA]] ↔ [[RhoA]]
+  - Strong connections to strengthen: [[RhoA]] ↔ [[RhoA]]
 

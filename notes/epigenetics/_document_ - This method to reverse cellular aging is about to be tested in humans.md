@@ -2,7 +2,6 @@
 title: This method to reverse cellular aging is about to be tested in humans
 description: A burgeoning field is launching its first clinical trial to find out
   whether dialing back cell development can safely refresh aged tissues and organs
-type: document
 published: 2026-04-13
 created: 2026-05-16
 source: https://www.scientificamerican.com/article/this-method-to-reverse-cellular-aging-is-about-to-be-tested-in-humans/

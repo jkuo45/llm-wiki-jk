@@ -3,16 +3,15 @@ title: Onchocerca volvulus
 description: A filarial nematode causing onchocerciasis (river blindness); transmitted
   by blackflies of the genus Simulium; responsible for ~21 million infections globally,
   99% in 31 African countries.
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - Nematode
+  - nematode
   - filaria
   - onchocerciasis
   - parasite
   - vector-borne
-  - Microorganism
+  - organism
 aliases:
   - River Blindness worm
   - Filarial worm
@@ -51,6 +50,14 @@ The clinical spectrum of onchocerciasis is driven primarily by host inflammatory
 **Nodulectomy** (surgical removal of palpable onchocercomata) reduces adult worm burden and is practiced in localized settings.
 
 **Prevention** relies on vector control (larviciding of *Simulium* breeding sites in fast-flowing rivers) and community-directed treatment with ivermectin (CDTI). No vaccine is currently available.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, ‘Wonder drug’ from Japan the human use perspective|Ivermectin, ‘Wonder drug’ from Japan the human use perspective]]
+    - It was the world’s first endectocide, forerunner of a completely new class of antiparasitic agents, potently active against a wide range of internal and external Onchocerca volvulus and arthropods.
+
 
 ## Connections
 

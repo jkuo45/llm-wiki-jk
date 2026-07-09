@@ -1,13 +1,12 @@
 ---
 title: Urolithin A
-description: 'Urolithin A is a postbiotic metabolite derived from ellagitannins
+description: Urolithin A is a postbiotic metabolite derived from ellagitannins
   (found in pomegranates and nuts) that has been shown to induce mitophagy and improve
-  muscle function and longevity in various m...'
-type: entity
+  muscle function and longevity in various m...
 created: 2024-01-01
 updated: 2024-01-01
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: []
 ---
 
@@ -29,6 +28,19 @@ Urolithin A's mitophagy-activating mechanism positions it as a complementary age
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects|Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects]]
+    - Urolithin A, a naturally occurring compound derived from dietary sources, has swiftly emerged as a prominent subject of investigation in the context of muscle health and performance \[,,\].
+
+  - [[_document_ - MRR - mitohormesis|mitohormesis]]
+    - Cleanup: Urolithin A (Mitophagy inducer). 1.2 Mechanism of Action (MOA) Redox Signaling: Carbazochrome induces transient, controlled Redox Cycling, generating a low-amplitude Superoxide anion signal in the mitochondrial matrix.
+
+
 ## Connections
 - [[Mitohormetic Redox-Relay]] — interacts with Urolithin A
 - [[Carbazochrome]] — interacts with Urolithin A
@@ -48,4 +60,4 @@ Urolithin A's mitophagy-activating mechanism positions it as a complementary age
 ## Linking Summary
 - New links added: [[Mitohormesis]], [[Autophagy]], [[Mitohormetic Redox-Relay]], [[Carbazochrome]], [[Ellagitannins]], [[Mitophagy]], Pomegranates, Raspberries, Walnuts, Strawberries, [[Ellagic acid]], [[Gordonibacter urolithinfaciens]], [[Skeletal Muscle]], Brain, [[Adipose Tissue]], [[PINK1]], [[Parkin]], [[MFN1]], [[MFN2]], [[VDAC1]], [[LC3]], [[p62]], [[mTORC1]], [[AMPK]], [[ULK1]], [[C. elegans]], [[Mus musculus]], [[Rattus norvegicus]], [[Parkinson's Disease]], [[MPTP]], [[Atherosclerosis]], [[Acylcarnitines]], [[TNFα]], [[Interleukin-6]], [[Sarcopenia]], [[Alzheimer's Disease]], [[Cardiovascular Aging]], [[Adrenochrome]], [[PGC1-α]], [[Dinitrophenol]], [[BAM15]]
 - Suggested new entity notes to create: [[Metabotypes]], [[Gordonibacter urolithinfaciens]], [[Ellagibacter isourolithinifaciens]]
-- Strong connections to strengthen: [[Urolithin A]] ↔ [[Mitohormesis]], [[Urolithin A]] ↔ [[Mitohormetic Redox-Relay]], [[Urolithin A]] ↔ [[Mitophagy]], [[Urolithin A]] ↔ [[AMPK]]
+  - Strong connections to strengthen: Urolithin A ↔ [[Mitohormesis]], Urolithin A ↔ Mitohormetic Redox-Relay, Urolithin A ↔ [[Mitophagy]], Urolithin A ↔ [[AMPK]]

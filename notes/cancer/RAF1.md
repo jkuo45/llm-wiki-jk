@@ -1,11 +1,10 @@
 ---
 title: RAF1
 description: RAF1 (C-Raf) is a serine/threonine kinase and core component of the MAPK/ERK pathway that transmits growth and survival signals; it phosphorylates and inhibits the pro-apoptotic protein Bad to promote cell survival.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Enzyme
+  - enzyme
 aliases: []
 ---
 
@@ -24,6 +23,14 @@ Physiologically, RAF1 couples mitogenic cues to cell-cycle entry and stress surv
 ## Clinical & Research Relevance
 
 RAF1/MEK/ERK is a major targeted-therapy axis; MEK inhibitors (trametinib) and ERK inhibitors are used or in trials, especially in RAS/BRAF-driven tumors. Understanding RAF1's role in Bad phosphorylation informs why survival signaling must be co-targeted with [[Chemotherapy]] to induce durable apoptosis.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - er]] | | Bad | | PAK1, PAK4, PAK5, PKA, PKCι, RAF1, RSK | Ser112 | Inactivation | MPNST, Lung Cancer, IL-3 control | | Bad |
+
 
 ## Connections
 

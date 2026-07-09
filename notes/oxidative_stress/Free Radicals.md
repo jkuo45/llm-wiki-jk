@@ -1,14 +1,13 @@
 ---
 title: Free Radicals
 description: Free radicals are atoms, molecules, or ions that have at least one unpaired valence electron. This unpaired electron makes them highly chemically reactive toward other substances, initiating chain reactions such as Lipid Peroxidation.
-type: entity
 created: 2026-05-09
 updated: 2026-07-07
 tags:
-  - oxidative stress
-  - ROS
-  - redox biology
-  - Chemical Class
+  - oxidative-stress
+  - ros
+  - redox-biology
+  - chemical-class
 aliases: [radicals, free radical species]
 ---
 
@@ -31,6 +30,14 @@ Uncontrolled radical production damages every biomolecule class. In [[Mitochondr
 ## Therapeutic Targeting
 
 Mitigation strategies include direct scavengers ([[N-Acetylcysteine]] as glutathione precursor, [[Melatonin]], [[EGCG]]), enhancement of endogenous defenses (NRF2/ARE activation by [[Sulforaphane]]), metal chelation ([[EDTA]], deferoxamine), and [[Mitochondria]]-targeted antioxidants (MitoQ, [[Spermidine]]). The hormetic concept of [[Mitohormesis]] posits that low-level radical exposure strengthens resilience via upregulated [[Antioxidants]] and [[DNA Repair]], informing [[Caloric Restriction]] and [[Exercise]] interventions.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - Without the COMT-controlled Methylation reaction, Catecholamines can accumulate and generate Free Radicals, which can damage DNA. Thus, COMT is essential in protecting cells, including brain cells, from Oxidative Stress.
+
 
 ## Connections
 

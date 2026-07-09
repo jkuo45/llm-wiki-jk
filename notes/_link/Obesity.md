@@ -1,13 +1,12 @@
 ---
 title: Obesity
-description: 'Obesity is a complex chronic disease characterized by excessive
+description: Obesity is a complex chronic disease characterized by excessive
   adipose tissue accumulation, affecting over 603.7 million adults globally. Obesity
-  is associated with chronic inflammation and in...'
-type: entity
+  is associated with chronic inflammation and in...
 created: 2026-07-05
 updated: 2026-07-05
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: [Adiposity]
 
 ---
@@ -21,6 +20,16 @@ aliases: [Adiposity]
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - For example, pancreatic SIRT3 deficiency promoted hepatic steatosis by enhancing 5-hydroxytryptamine synthesis in mice with diet-induced Obesity. In addition, roles for SIRT5 and SIRT6 were identified in lipid metabolism.
+
+
 ## Connections
 - [[Type 2 Diabetes Mellitus]] — interacts with
 - [[Cardiovascular Disease]] — interacts with
@@ -30,5 +39,5 @@ aliases: [Adiposity]
 
 ## Linking Summary
 - New links added: [[Type 2 Diabetes Mellitus]], [[Cardiovascular Disease]], [[Non-alcoholic Fatty Liver Disease]], [[SIRT1]], [[SIRT3]], [[AMPK]], [[PGC1-α]], [[ULK1]], [[SIRT2]], [[SIRT6]], [[HIF-1α]], [[STAT3]], [[miR-146b]]
-- Strong connections to strengthen: [[Obesity]] ↔ [[Type 2 Diabetes Mellitus]], [[Obesity]] ↔ [[Cardiovascular Disease]], [[Obesity]] ↔ [[Non-alcoholic Fatty Liver Disease]], [[Obesity]] ↔ [[SIRT1]], [[Obesity]] ↔ [[SIRT3]]
+  - Strong connections to strengthen: [[Obesity]] ↔ Type 2 Diabetes Mellitus, [[Obesity]] ↔ [[Cardiovascular Disease]], [[Obesity]] ↔ Non-alcoholic Fatty Liver Disease, [[Obesity]] ↔ SIRT1, [[Obesity]] ↔ SIRT3
 

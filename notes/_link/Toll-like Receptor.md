@@ -2,11 +2,10 @@
 title: Toll-like Receptor
 description: A class of proteins that play a key role in the innate immune system
   by recognizing structurally conserved molecules derived from microbes.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Receptor
+  - receptor
 aliases: []
 ---
 
@@ -80,6 +79,19 @@ Beyond infection, TLR2 and TLR4 contribute to wound healing and tissue repair by
 
 **Therapeutic landscape.** TLR agonists are widely used as vaccine adjuvants: monophosphoryl lipid A (MPL, TLR4) in the HPV and hepatitis B vaccines, CpG 1018 (TLR9) in the Heplisav-B hepatitis B vaccine, and imiquimod (TLR7) as a topical immunomodulator. TLR antagonists remain under investigation for sepsis, autoimmune diseases, and chronic inflammatory conditions.
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - These include degradation of phagocytosed pathogens, antigen processing and presentation, natural killer (NK) and T-cell cytotoxic granule secretion, and Toll-like Receptor signaling (Colbert et al 2009).
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - SIRT1 exerted anti-inflammatory effects against IL-1b-mediated pro-inflammatory stress through the Toll-like Receptor/SIRT1/NFKB pathway. SIRT1 deficiency increased microvascular inflammation in obese septic mice, whi
+
+
 ## Connections
 - [[Toll-like Receptor]] — related entity
 - [[NF-kB]] — downstream transcription factor activated by TLR signaling
@@ -93,4 +105,4 @@ Beyond infection, TLR2 and TLR4 contribute to wound healing and tissue repair by
 ## Linking Summary
 - New links added: [[NF-kB]], [[Dendritic Cells]], [[Inflammation]], [[Innate Immune System]], [[CpG DNA]], [[Lipopolysaccharide]], [[Hydroxychloroquine]]
 - Suggested new entity notes to create: [[MyD88]], [[TRIF]], [[IRAK4]], [[TRAF6]], [[TIR Domain]]
-- Strong connections to strengthen: [[Toll-like Receptor]] ↔ [[Dendritic Cells]], [[Toll-like Receptor]] ↔ [[Inflammation]]
+  - Strong connections to strengthen: [[Toll-like Receptor]] ↔ Dendritic Cells, [[Toll-like Receptor]] ↔ [[Inflammation]]

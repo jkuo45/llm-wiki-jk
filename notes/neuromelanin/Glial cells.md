@@ -1,11 +1,10 @@
 ---
 title: Glial cells
 description: Glial cells, including astrocytes and microglia, are non-neuronal cells in the central nervous system that provide support and protection for neurons and are involved in the metabolic conversion of toxins like MPTP.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Cell Type
+  - cell-type
 aliases: []
 ---
 
@@ -26,6 +25,14 @@ Under basal conditions glia nurture neuromelanin-containing neurons through meta
 
 ## Pathology and Clinical Relevance
 In PD, chronic microglial activation and astrogliosis are observed in the substantia nigra, often colocalized with [[Neuromelanin]]-laden neurons and [[Lewy Bodies]]. Activated glia release pro-inflammatory mediators (TNF-α, IL-1β, ROS) that may drive the selective vulnerability of pigmented neurons, and impaired glial clearance of alpha-synuclein may perpetuate pathology. Glia are thus both a therapeutic target (anti-inflammatory strategies, MAO-B inhibitors) and a potential delivery vehicle for neuroprotective agents. The interplay between glial metabolism of toxins and neuromelanin neuron loss remains a central theme in experimental parkinsonism models.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator|Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator]]
+    - MPTP (1-methyl-4-phenyl-1,2,3,6-tetrahydropyridine) for example is believed to induce its Parkinsonian-inducing effects after first being converted to methyl-phenyl-pyridinium ion (MPP+) by the enzyme Monoamine oxidase B in nearby Glial cells (Singer et al....
+
 
 ## Connections
 - [[Microglia]]: Resident immune cells driving neuroinflammation in PD.

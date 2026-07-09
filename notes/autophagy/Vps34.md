@@ -1,13 +1,12 @@
 ---
 title: Vps34
-description: 'Vps34 (Vacuolar Protein Sorting 34), also known as PIK3C3, is a
+description: Vps34 (Vacuolar Protein Sorting 34), also known as PIK3C3, is a
   Class III phosphoinositide 3-kinase (PI3K) that produces Phosphatidylinositol 3-phosphate
-  (PI3P), a key signaling lipid required ...'
-type: entity
+  (PI3P), a key signaling lipid required ...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Enzyme
+  - enzyme
 aliases: [PIK3C3, class III PI3K]
 
 ---
@@ -19,6 +18,17 @@ aliases: [PIK3C3, class III PI3K]
 ## Function
 
 Vps34 (PIK3C3) is the class III PI3K that produces [[PtdIns3P]] for autophagosome and endosome function. It forms distinct complexes with [[Atg14]] or [[UVRAG]] for autophagy or endocytosis.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - The first complex is composed of type III PI3K, Vps34, Atg14, Atg6/Beclin1, and Vps15/p150.73, and the second complex is associated with the activity of the serine/threonine kinase Atg1 \[\].
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - Some studies have implicated human Vps34 in nutrient sensing (Nobukuni et al., 2005); however, the precise role of human Vps34 in this process still remains to be established (Juhasz et al., 2008).
+
 
 ## Connections
 

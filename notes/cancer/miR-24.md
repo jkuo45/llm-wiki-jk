@@ -1,11 +1,10 @@
 ---
 title: miR-24
 description: miR-24 is a microRNA that promotes cancer cell survival by repressing XIAP-targeting mechanisms and reducing the Apoptosis threshold; its overexpression is associated with chemoresistance in several malignancies.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Biological Molecule
+  - biological-molecule
 aliases: []
 ---
 

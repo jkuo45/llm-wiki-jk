@@ -1,16 +1,23 @@
 ---
 title: Sodium nitrite
 description: '- Methemoglobinemia: Caused by sodium nitrite toxicity.'
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: []
 ---
 # Sodium nitrite
 
 [[Sodium nitrite]] is an inorganic compound used as a food preservative and in various industrial applications. It is a known cause of acquired [[Methemoglobinemia]] when ingested in large quantities, whether accidentally or intentionally.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Methemoglobin and Methemoglobinemia|Methemoglobin and Methemoglobinemia]]
+    - Chemicals/Nitrates/Nitrites: Amyl nitrite/Isobutyl nitrite ("poppers"), Sodium nitrite (suicide attempts or contaminated food), Aniline dyes, Nitrobenzene.
+
 
 ## Connections
 - [[Methemoglobinemia]]: Caused by sodium nitrite toxicity.

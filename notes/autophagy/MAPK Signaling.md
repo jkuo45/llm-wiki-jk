@@ -3,11 +3,10 @@ title: MAPK Signaling
 description: Mitogen-activated protein kinase (MAPK) signaling pathways communicate
   signals from cell surface receptors to the nucleus; the p38 MAPK pathway is a key
   regulator of TFEB localization.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Scientific Concept
+  - scientific-concept
 aliases: [mitogen-activated protein kinase signaling]
 ---
 
@@ -26,6 +25,14 @@ The major mammalian MAPK modules are ERK1/2 (RAF → MEK1/2 → ERK1/2), p38 MAP
 ## Physiological & Pathological Relevance
 
 MAPK pathways are central to proliferation, differentiation, inflammation, and stress adaptation, and are frequently dysregulated in [[Cancer]] (e.g., mutant RAS/RAF/MEK driving ERK hyperactivation) and in [[Neurodegeneration]], where chronic stress MAPK activation alters autophagic clearance. Pharmacologic MAPK modulators (MEK/ERK and p38 inhibitors) are used experimentally and clinically, and their effects on TFEB/autophagy are important determinants of therapeutic outcome and resistance. In [[Aging]], declining MAPK-autophagy coordination contributes to proteostatic failure. Understanding MAPK-autophagy crosstalk informs strategies to harness TFEB for clearance of toxic aggregates and storage material.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - Suggested new entity notes to create: transcriptional regulation, translational-level regulation, ischemic injury, metabolic disorders, leucine zipper transcription Factors, TGF-β Signaling, Hypusination, Tumor Suppressor, Translation Initiation, MAPK Signa...
+
 
 ## Connections
 

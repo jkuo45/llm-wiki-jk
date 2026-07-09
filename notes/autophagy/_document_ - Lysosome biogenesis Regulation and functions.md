@@ -3,7 +3,6 @@ title: 'Lysosome biogenesis: Regulation and functions'
 description: Yang and Wang review the mechanisms regulating lysosome biogenesis and
   functions during the cellular response to diverse environmental cues and in organismal
   development and aging.
-type: document
 created: 2026-06-02
 source: https://pmc.ncbi.nlm.nih.gov/articles/PMC8105738/
 author:

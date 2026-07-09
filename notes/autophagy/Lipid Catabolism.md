@@ -1,13 +1,12 @@
 ---
 title: Lipid Catabolism
-description: 'Lipid catabolism encompasses the breakdown of lipids via Lipophagy,
+description: Lipid catabolism encompasses the breakdown of lipids via Lipophagy,
   Lysosomal Lipolysis, peroxisomal and mitochondrial Beta-Oxidation, and Ketogenesis.
-  It is a key output of Autophagy during fa...'
-type: entity
+  It is a key output of Autophagy during fa...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Biological Process
+  - biological-process
 aliases: [lipid degradation, fatty acid catabolism]
 
 ---

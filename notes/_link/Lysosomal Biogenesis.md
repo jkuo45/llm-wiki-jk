@@ -1,13 +1,12 @@
 ---
 title: Lysosomal Biogenesis
-description: 'Lysosomal biogenesis is the process of synthesizing and assembling
+description: Lysosomal biogenesis is the process of synthesizing and assembling
   lysosomal components—including acid hydrolases, membrane proteins (LAMP1, LAMP2,
-  V-ATPase subunits), and regulatory proteins—i...'
-type: entity
+  V-ATPase subunits), and regulatory proteins—i...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Biological Process
+  - biological-process
   - autophagy
   - lysosome
 aliases: [Lysosomal Biogenesis]
@@ -41,4 +40,4 @@ Impaired lysosomal biogenesis underlies [[Lysosomal Storage Disorders]] ([[Mucop
 ## Linking Summary
 - New links added: [[Lysosome]], [[TFEB]], [[TFE3]], [[MITF]], [[CLEAR Element]], [[mTORC1]], [[Autophagy]], [[Autophagic Flux]], [[TRPML1]], [[Trehalose]], [[Spermidine]], [[TFEB|TFEB]], [[Proteostasis]], [[Neuromelanin]], [[Autophagy]].
 - Suggested new entity notes to create: [[CLEAR Motif]], [[Lysosomal Enzymes]].
-- Strong connections to strengthen: [[Lysosomal Biogenesis]] ↔ [[TFEB|TFEB]].
+  - Strong connections to strengthen: Lysosomal Biogenesis ↔ [[TFEB|TFEB]].

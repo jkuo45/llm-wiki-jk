@@ -1,11 +1,10 @@
 ---
 title: Creatine
-description: 'Creatine is a guanidino compound synthesized from arginine, glycine, and S-adenosylmethionine that buffers cellular ATP via the phosphocreatine system; its synthesis consumes ~40% of body methyl groups.'
-type: entity
+description: Creatine is a guanidino compound synthesized from arginine, glycine, and S-adenosylmethionine that buffers cellular ATP via the phosphocreatine system; its synthesis consumes ~40% of body methyl groups.
 created: 2026-05-25
 updated: 2026-07-07
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: [creatine monohydrate, N-carbamimidoyl-N-methylglycine]
 
 ---
@@ -29,6 +28,14 @@ Because creatine synthesis is such a major methyl consumer, endogenous demand co
 ## Clinical & Research Relevance
 
 Creatine is ergogenic, potentially neuroprotective, and being studied in depression, traumatic brain injury, and neuromuscular disease. It is generally safe; concerns about renal strain are unsubstantiated at standard doses. Its methylation-sparing property makes it a pragmatic adjunct in personalized protocols for slow [[COMT]]/[[MTHFR]] individuals.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - Creatine to take the strain off the methylation cycle: About 40% of Methyl groups are used in the body to synthesize Creatine. Thus, adding in Creatine (low doses) may help to take the strain off the Methylation Pathways.
+
 
 ## Connections
 

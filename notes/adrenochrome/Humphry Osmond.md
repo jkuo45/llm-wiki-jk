@@ -1,11 +1,10 @@
 ---
 title: Humphry Osmond
-description: British psychiatrist who co-proposed the adrenochrome hypothesis of schizophrenia and coined the term 'psychedelic'
-type: entity
+description: 'British psychiatrist who co-proposed the adrenochrome hypothesis of schizophrenia and coined the term 'psychedelic''
 created: 2026-07-04
 updated: 2026-07-06
 tags:
-  - Person
+  - person
 aliases: []
 ---
 

@@ -3,39 +3,12 @@ title: COMT (Catechol-O-methyltransferase)
 description: COMT (Catechol-O-methyltransferase) is one of the primary enzymes responsible
   for the degradation of Catecholamines, including Dopamine, Norepinephrine, and Epinephrine.
   It is essential for protect...
-type: entity
 created: 2026-05-25
 updated: 2026-07-04
 tags:
-  - Enzyme
+  - enzyme
 aliases:
   - Catechol-O-methyltransferase
-database_ids:
-  uniprot: P21964
-  hgnc: HGNC:2170
-  mesh: D002395
-relations:
-  - predicate: metabolizes
-    target: "notes/_link/Dopamine"
-    sources: []
-  - predicate: metabolizes
-    target: "notes/_link/Epinephrine"
-    sources: []
-  - predicate: metabolizes
-    target: "notes/_link/Norepinephrine"
-    sources: []
-  - predicate: requires
-    target: "notes/_link/SAMe"
-    sources: []
-  - predicate: inhibited_by
-    target: "notes/_link/Quercetin"
-    sources: []
-  - predicate: inhibited_by
-    target: "Fisetin"
-    sources: []
-  - predicate: associated_with
-    target: "Val158Met"
-    sources: []
 ---
 
 
@@ -90,6 +63,20 @@ COMT genotype influences response to numerous substances:
 - [[Aspirin]] cardiovascular protection is effective in slow COMT (A/A) but may increase risk in fast COMT (G/G)
 - [[Vitamin E]] ([[Alpha-tocopherol]]) cancer prevention varies by COMT genotype
 - [[Methyl Donor]] supplements ([[Methylfolate]], [[MethylB12]], [[SAMe]], [[Betaine]]) can cause mood side effects in slow COMT individuals due to rapid neurotransmitter cycling
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - formation, chemical stability|formation, chemical stability]]
+    - I'm focusing on why Adrenochrome isn't the primary product in vivo, and the roles of MAO and COMT. I have to avoid conspiratorial narratives surrounding the topic.
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - The COMT enzyme can be slow or fast, depending on your genes. Some people with slow COMT enzyme function have side effects from Methylated Vitamins (Methylfolate, MethylB12), Methyl Donor supplements, and COMT Inhibitors supplements.
+
+  - [[_document_ - Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum|Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum]]
+    - A common genetic Polymorphism that results in increased activity of the Dopamine regulating enzyme COMT (the COMT Val 158 allele) has been found to associate with poorer Cognitive Performance and increased susceptibility to develop Psychiatric Disorders.
+
 
 ## Connections
 

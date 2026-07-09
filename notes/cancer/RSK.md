@@ -1,11 +1,10 @@
 ---
 title: RSK
 description: Ribosomal S6 kinase (RSK) is a family of serine/threonine kinases downstream of ERK that promotes cell survival, growth, and proliferation; it inhibits apoptosis by phosphorylating Bim, Apaf-1, and Bad.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Enzyme
+  - enzyme
 aliases: []
 ---
 
@@ -24,6 +23,17 @@ Physiologically, RSK couples growth-factor signaling to protein synthesis and su
 ## Clinical & Research Relevance
 
 RSK is a candidate therapeutic target, particularly in RAS/RAF-driven tumors where inhibiting RSK may restore apoptotic priming. Combination of MEK/ERK inhibitors with RSK blockade is studied to prevent compensatory survival signaling. RSK phosphorylation status serves as a pharmacodynamic biomarker of MAPK-pathway output in clinical trials.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - Bim | | ERK, JNK | Ser69 | Ubiquitination/degradation (promotes S93/94/98 by RSK) | non-small-cell lung cancer, leukemia, leukemia | | Bim | | PKA
+
+  - [[_document_ - Evading apoptosis in cancer|Evading apoptosis in cancer]]
+    - Notably, SCF Complex Beta-TrCP -mediated Bim Ubiquitination requires Phosphorylation of the degron sequence containing S93/S94/S98 by RSK (ribosomal S6 kinase), which is promoted by ERK Phosphorylation at S69 \[\] (Table 1).
+
 
 ## Connections
 

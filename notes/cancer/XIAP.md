@@ -1,13 +1,12 @@
 ---
 title: XIAP
-description: 'XIAP (X-linked Inhibitor of Apoptosis Protein), also known as BIRC4,
+description: XIAP (X-linked Inhibitor of Apoptosis Protein), also known as BIRC4,
   is considered the most potent member of the Inhibitor of Apoptosis Proteins (IAP)
-  family.'
-type: entity
+  family.
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - Enzyme
+  - enzyme
 aliases: []
 ---
 
@@ -33,6 +32,20 @@ XIAP levels and activity are regulated by several mechanisms:
 - **Therapeutic Target**: XIAP is an attractive molecular target due to its broad inhibition of apoptotic pathways.
 - **Resistance**: Its upregulation is linked to resistance against various apoptosis-inducing conditions, including radiation and chemotherapy.
 - **Synergy**: Targeting XIAP (e.g., via siRNA or Smac mimetics) can sensitize cancer cells to death receptor ligands like [[TRAIL]].
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - To date eight IAPs have been identified, namely, NAIP (BIRC1), c-IAP1 (BIRC2), c-IAP2 (BIRC3), X-linked IAP (XIAP, BIRC4), Survivin (BIRC5), Apollon (BRUCE, BIRC6), Livin/ML-IAP (BIRC7) and IAP-like protein 2 (BIRC8) \[\].
+
+  - [[_document_ - Caspase|Caspase]]
+    - RSK | Ser268 | Inhibition | Prostate Cancer | | XIAP | Amplification in cervical cancer, leukemia, Rectal Cancer | Akt | Ser87 |
+
+  - [[_document_ - Evading apoptosis in cancer|Evading apoptosis in cancer]]
+    - Smac-DIABLO augments Cytochrome c -induced caspase activation by binding and neutralizing XIAP (X-linked Inhibitor of Apoptosis Proteins), an inhibitor of Caspase-3, Caspase-7, and Caspase-9 (Figure 1).
+
 
 ## Connections
 - [[Inhibitor of Apoptosis Proteins]]: The most potent member of the family.

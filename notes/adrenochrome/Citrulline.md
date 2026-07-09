@@ -2,11 +2,10 @@
 title: Citrulline
 description: Citrulline is an amino acid metabolite primarily known for its role in
   the urea cycle and as a precursor for nitric oxide synthesis.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: []
 ---
 # Citrulline
@@ -16,6 +15,14 @@ Citrulline is an amino acid metabolite primarily known for its role in the urea 
 ## Production via Glucosepane Cleavage
 
 In the context of anti-aging therapeutics, citrulline is released as a chemical byproduct when the stubborn advanced glycation end-product [[Glucosepane]] is cleaved in vitro by [[HemF-like]] enzymes (including the human homolog and bacterial homologs from the microbiome).
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - Nitric Oxide Radical (NO•), which plays some important physiological roles, is synthesized from Arginine-to-Citrulline oxidation by Nitric Oxide Synthase (NOS) \[ – \].
+
 
 ## Connections
 

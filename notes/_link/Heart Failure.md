@@ -1,13 +1,12 @@
 ---
 title: Heart Failure
-description: 'Heart failure is a complex clinical syndrome where the heart is
+description: Heart failure is a complex clinical syndrome where the heart is
   unable to pump sufficiently to maintain blood flow. It is a common end-stage of
-  Cardiovascular Disease and Hypertension.'
-type: entity
+  Cardiovascular Disease and Hypertension.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: [HF, Congestive heart failure, CHF]
 
 ---
@@ -16,6 +15,16 @@ aliases: [HF, Congestive heart failure, CHF]
 **Heart failure** is a complex clinical syndrome where the heart is unable to pump sufficiently to maintain blood flow. It is a common end-stage of [[Cardiovascular Disease]] and [[Hypertension]].
 
 #
+
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Over the past decades, the incidence of CVDs, such as Heart Failure, Atherosclerosis, and Hypertension, has been increasing. CVDs are the major cause of mortality worldwide.
+
 
 ## Connections
 - [[Cardiovascular Disease]] — Major cause of heart failure
@@ -26,4 +35,4 @@ aliases: [HF, Congestive heart failure, CHF]
 ## Linking Summary
 - New links added: [[Cardiovascular Disease]], [[Hypertension]], [[Oxidative Stress]], [[Mitochondria]]
 - Suggested new entity notes to create: [[Ejection Fraction]], [[BNP]], [[Cardiac Remodeling]]
-- Strong connections to strengthen: [[Heart Failure]] ↔ [[Cardiovascular Disease]]
+  - Strong connections to strengthen: Heart Failure ↔ [[Cardiovascular Disease]]

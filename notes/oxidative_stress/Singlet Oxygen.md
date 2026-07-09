@@ -3,14 +3,13 @@ title: Singlet Oxygen
 description: Singlet oxygen (¹O₂) is an electronically excited state of molecular
   oxygen. It is a highly reactive non-radical species that specifically targets molecules
   with double bonds.
-type: entity
 created: 2026-05-09
 updated: 2026-07-04
 tags:
-  - oxidative stress
-  - ROS
+  - oxidative-stress
+  - ros
   - photosensitization
-  - Metabolite
+  - biological-molecule
 aliases: [¹O₂, 1O2]
 ---
 # Singlet Oxygen
@@ -41,6 +40,14 @@ Among amino acids, histidine, tryptophan, methionine, cysteine, and tyrosine are
 The most direct clinical connection involving singlet oxygen is **[[Photodynamic Therapy]]** (PDT), a cancer treatment in which a photosensitizer is administered systemically or locally and activated by light of a specific wavelength within the tumor. The resulting $^1O_2$ generation causes localized tumor cell death via [[Apoptosis]], direct [[necrosis]], and vascular shutdown. Approved photosensitizers include porfimer sodium (Photofrin™), 5-aminolevulinic acid (which induces protoporphyrin IX accumulation), and verteporfin. PDT is effective against [[Cancer|carcinomas]] of the skin, lung, esophagus, and bladder, with the advantage of minimal systemic toxicity due to the requirement for local light activation.
 
 In dermatology, singlet oxygen mediates UV-induced photoaging and photocarcinogenesis. UVA radiation (320–400 nm) penetrates the dermis and generates $^1O_2$ through endogenous photosensitizers (porphyrins, flavins, melanin precursors), inducing matrix metalloproteinase (MMP) expression that degrades [[ECM|extracellular matrix]] [[Collagen]] and [[Elastin]]. This process, termed solar elastosis, manifests clinically as wrinkling, leathery texture, and actinic damage. Endogenous quenchers of $^1O_2$ include [[Vitamin E]] (α-tocopherol) at $k \approx 10^8$ M⁻¹s⁻¹ in lipid phases, [[Beta-carotene]] (a physical quencher, $k \approx 10^{10}$ M⁻¹s⁻¹), and [[Melatonin]]. [[Ascorbic Acid]] (vitamin C) and [[Uric Acid]] also contribute to aqueous-phase $^1O_2$ quenching, though their activities are lower than in lipid environments.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - Superoxide Radicals (O 2 •−), Hydrogen Peroxide (H 2 O 2), Hydroxyl Radicals (•OH), and Singlet Oxygen (1 O 2) are commonly defined reactive oxygen species (ROS); they are generated as metabolic by-products by biological systems \[, \].
+
 
 ## Connections
 - [[Reactive Oxygen Species]]: A member of the ROS family.

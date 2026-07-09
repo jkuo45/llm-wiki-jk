@@ -3,14 +3,13 @@ title: NF-kappa B
 description: Nuclear factor-kappa B (NF-κB) is a protein complex that functions as
   a central transcription factor in the regulation of Immunity, Apoptosis, and inflammation.
   It is highly "redox-sensitive."
-type: entity
 created: 2026-05-09
 updated: 2026-07-04
 tags:
-  - oxidative stress
-  - transcription factor
+  - oxidative-stress
+  - transcription-factor
   - inflammation
-  - Protein
+  - protein
 aliases: [NF-kappa B, NFKB, nuclear factor kappa-light-chain-enhancer of activated B cells]
 ---
 # NF-kappa B
@@ -25,6 +24,14 @@ Nuclear factor-kappa B (NF-κB) is a protein complex that functions as a central
 ## Impact on Oxidative Stress
 - **Feed-Forward Loop:** ROS activate NF-κB, which in turn induces genes that produce more ROS and inflammation, potentially leading to chronic disease states.
 - **Cytoprotection:** Can sometimes induce antioxidant genes (e.g., MnSOD) to protect cells from oxidative stress.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - Oxidants are known to enhance inflammation via the activation of different kinases involving pathways and transcription factors like NF-kappa B and AP-1 \[, \]. 4.5.
+
 
 ## Connections
 - [[Oxidative Stress]]: Acts as a key downstream mediator and amplifier.

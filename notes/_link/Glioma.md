@@ -1,13 +1,12 @@
 ---
 title: Glioma
-description: 'Etiology and pathophysiology: Glioma is a medical condition characterized
+description: 'Etiology and pathophysiology: Glioma is a medical condition characterized'
   by specific pathological changes in cellular, tissue, or organ function. Its development
-  involves genetic, environmenta...'
-type: entity
+  involves genetic, environmenta...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: []
 ---
 
@@ -23,10 +22,20 @@ aliases: []
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Glioma: Glioma is the most common and malignant primary tumor of the central nervous system, with a poor prognosis, especially glioblastoma.
+
+
 ## Connections
 - [[Glioma]] — related entity
 
 ## Linking Summary
 - New links added: [[Glioma]]
-- Strong connections to strengthen: [[Glioma]] ↔ [[Glioma]]
+  - Strong connections to strengthen: [[Glioma]] ↔ [[Glioma]]
 

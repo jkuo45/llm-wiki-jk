@@ -2,11 +2,10 @@
 title: GPX4
 description: Selenoprotein that reduces phospholipid hydroperoxides, a key inhibitor
   of ferroptosis.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Enzyme
+  - enzyme
   - antioxidant
 aliases: [Glutathione Peroxidase 4, Phospholipid Hydroperoxide Glutathione Peroxidase]
 ---
@@ -47,5 +46,5 @@ GPx4 expression is regulated by [[NRF2|NRF2]] through ARE elements, and its acti
 
 ## Linking Summary
 - New links added: [[Ferroptosis]], [[Glutathione]], [[NRF2]], [[Selenium]], [[Peroxynitrite]], [[RSL3]], [[ML162]], [[FINO2]], [[Cancer]], [[Ischemia-reperfusion Injury]], [[Neurodegenerative Diseases]], [[Alzheimer's Disease]], [[Parkinson's Disease]]
-- Strong connections to strengthen: [[GPX4]] ↔ [[Ferroptosis]], [[GPX4]] ↔ [[Glutathione]], [[GPX4]] ↔ [[NRF2]], [[GPX4]] ↔ [[Selenium]], [[GPX4]] ↔ [[Peroxynitrite]]
+  - Strong connections to strengthen: [[GPX4]] ↔ [[Ferroptosis]], [[GPX4]] ↔ [[Glutathione]], [[GPX4]] ↔ [[NRF2]], [[GPX4]] ↔ [[Selenium]], [[GPX4]] ↔ Peroxynitrite
 

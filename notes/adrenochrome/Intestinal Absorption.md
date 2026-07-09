@@ -3,11 +3,10 @@ title: Intestinal Absorption
 description: Intestinal absorption is the process by which the products of digestion
   are taken up from the intestinal lumen into the blood or lymph. Certain Advanced
   Glycation End Products, like Pyrraline, are ...
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Biological Process
+  - biological-process
 aliases: []
 ---
 # Intestinal Absorption

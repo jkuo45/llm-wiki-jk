@@ -2,11 +2,10 @@
 title: Abemaciclib
 description: Abemaciclib (LY2835219) is a CDK4/CDK6 inhibitor that promotes TFEB activity
   by blocking its nuclear export, thereby enhancing lysosomal biogenesis.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: [LY2835219]
 ---
 # Abemaciclib
@@ -19,6 +18,14 @@ Abemaciclib is a CDK4/6 inhibitor with distinct pharmacology from [[Palbociclib]
 ## Autophagy Connection
 
 Abemaciclib induces [[Autophagy]] in cancer cells, and combining it with autophagy inhibition enhances cytotoxicity. It also inhibits [[mTORC1]] through CDK4/6-mediated regulation of [[TSC2]].
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - Two commercial compounds, Palbociclib and Abemaciclib, which specifically inhibit CDK4/CDK6, induce TFEB-dependent lysosomal biogenesis by inhibiting the nuclear export of TFEB in HeLa cells \[\].
+
 
 ## Connections
 

@@ -2,31 +2,14 @@
 title: SAMe
 description: SAMe (S-adenosylmethionine) is a naturally occurring compound that is
   a major Methyl Donor in the body. It is involved in over 100 biochemical reactions.
-type: entity
 created: 2026-05-25
 updated: 2026-07-04
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases:
   - S-adenosylmethionine
   - S-adenosyl-L-methionine
   - AdoMet
-database_ids:
-  chebi: CHEBI:16680
-  mesh: D012536
-relations:
-  - predicate: acts_as
-    target: "Methyl Donor"
-    sources: []
-  - predicate: part_of
-    target: "Methylation Cycle"
-    sources: []
-  - predicate: required_by
-    target: "COMT"
-    sources: []
-  - predicate: required_by
-    target: "notes/_link/Methylation"
-    sources: []
 
 ---
 
@@ -42,6 +25,16 @@ relations:
 
 ## Supplementation
 [[SAMe]] is used as a supplement for mood support, joint health, and liver function. However, individuals with slow [[COMT]] genotypes may be sensitive to [[SAMe]] as it can rapidly influence [[Neurotransmitters]] levels.
+
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - Methyl Donor supplements include: - Methylfolate - Methylcobalamin (MethylB12) - TMG/Betaine - SAMe (S-adenosylmethionine) Without clinical trials on this interaction with Methyl Donor, the need to limit this is something that may be unique to an individual.
+
 
 ## Connections
 - [[COMT]]: Requires SAMe as a cofactor for methylation.

@@ -3,11 +3,10 @@ title: Mrps5
 description: Mitochondrial ribosomal protein S5 (Mrps5) is a candidate gene regulating
   longevity, whose knockdown can trigger the Mitochondrial Unfolded Protein Response
   and extend lifespan.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Gene
+  - gene
 aliases: []
 ---
 # Mrps5

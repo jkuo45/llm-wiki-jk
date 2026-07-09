@@ -3,11 +3,10 @@ title: ATP Synthase
 description: ATP Synthase (Complex V, F1FO-ATPase) is the enzyme that synthesizes
   ATP from ADP and inorganic phosphate using the Proton Motive Force across the inner
   Mitochondria membrane. It consists of two ma...
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - Enzyme
+  - enzyme
 aliases: []
 ---
 # ATP Synthase
@@ -31,4 +30,4 @@ ATP Synthase (Complex V, F1FO-ATPase) is the enzyme that synthesizes [[ATP]] fro
 ## Linking Summary
 - New links added: [[ATP]], [[ADP]], [[Mitochondria]], [[Electron Transport Chain]], [[Proton Motive Force]], [[Complex I]], [[Complex III]], [[Complex IV]], [[Oxidative Phosphorylation]], [[Ischemia-reperfusion Injury]]
 - Suggested new entity notes to create: [[F1FO-ATPase]], [[Oligomycin]], [[Binding Change Mechanism]]
-- Strong connections to strengthen: [[ATP Synthase]] ↔ [[ATP]], [[ATP Synthase]] ↔ [[Electron Transport Chain]]
+  - Strong connections to strengthen: ATP Synthase ↔ [[ATP]], ATP Synthase ↔ Electron Transport Chain

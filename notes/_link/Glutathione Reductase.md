@@ -1,12 +1,11 @@
 ---
 title: Glutathione Reductase
-description: 'Catalytic function: Glutathione Reductase is an enzyme that catalyzes
-  biochemical reactions essential for cellular metabolism and homeostasis.'
-type: entity
+description: 'Catalytic function: Glutathione Reductase is an enzyme that catalyzes'
+  biochemical reactions essential for cellular metabolism and homeostasis.
 created: 2026-07-04
 updated: 2026-07-06
 tags:
-  - Enzyme
+  - enzyme
   - antioxidant
 aliases: [GR, GSR]
 
@@ -32,4 +31,4 @@ The activity of glutathione reductase is essential for maintaining the pool of r
 ## Linking Summary
 - New links added: [[Oxidative Stress]], [[Glycation]], [[Advanced Glycation End Products]]
 - Suggested new entity notes to create: [[GSH]]
-- Strong connections to strengthen: [[Glutathione Reductase]] ↔ [[Oxidative Stress]]
+  - Strong connections to strengthen: Glutathione Reductase ↔ Oxidative Stress

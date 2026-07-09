@@ -1,11 +1,10 @@
 ---
 title: Scabies
 description: Scabies is a contagious skin infestation by the mite Sarcoptes scabiei, characterized by intense itching and a pimple-like rash. It affects over 200 million people worldwide.
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: []
 ---
 
@@ -36,6 +35,17 @@ Clinical diagnosis is based on characteristic distribution and nocturnal pruritu
 **Crusted scabies:** Requires combination therapy with topical [[Permethrin]] (extended to scalp and face) plus oral [[Ivermectin]] on days 1, 2, 8, 9, and 15, along with keratolytic agents (e.g., [[salicylic acid]] or [[lactic acid]]) to remove hyperkeratotic crusts and reduce mite burden.
 
 **Post-scabies itch:** Pruritus may persist for 2–4 weeks after successful treatment due to residual hypersensitivity. Antihistamines and emollients provide symptomatic relief; retreatment is indicated only if active mites are identified.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug|Ivermectin, a potential anticancer drug derived from an antiparasitic drug]]
+    - doramectin(PubChem CID：9832750), moxidectin(PubChem CID：9832912) Keywords: Ivermectin, Cancer, Drug Repositioning Abstract Ivermectin is a macrolide antiparasitic drug with a 16-membered ring that is widely used for the treatment of many parasitic diseases ...
+
+  - [[_document_ - Ivermectin, ‘Wonder drug’ from Japan the human use perspective|Ivermectin, ‘Wonder drug’ from Japan the human use perspective]]
+    - reat a variety of internal Onchocerca volvulus infections, including Onchocerciasis, Strongyloidiasis, Ascariasis, cutaneous larva migrans, Lymphatic Filariasis, Gnathostomiasis and Trichuriasis, as well as for oral treatment of ectoparasitic infections, su...
+
 
 ## Connections
 

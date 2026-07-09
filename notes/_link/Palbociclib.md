@@ -2,11 +2,10 @@
 title: Palbociclib
 description: Palbociclib (PD0332991) is a CDK4/CDK6 inhibitor that induces lysosomal
   biogenesis by inhibiting the nuclear export of TFEB.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: [Palbociclib]
 ---
 # Palbociclib
@@ -43,6 +42,19 @@ Palbociclib (125 mg/day, 21 days on / 7 days off) is standard first-line therapy
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - Two commercial compounds, Palbociclib and Abemaciclib, which specifically inhibit CDK4/CDK6, induce TFEB-dependent lysosomal biogenesis by inhibiting the nuclear export of TFEB in HeLa cells \[\].
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - ne methyltransferases]] (BRD4770); (4) Inhibitors of Telomerase Activity (SYUIQ‐5, BMVC4, Pyridostatin, compound 115405, perylene and indole derivatives, Harmine, BIBR1532, Azidothymidine); (5) CDK Inhibitor (Palbociclib, Roscovitine, Ribociclib); (6) activ...
+
+
 ## Connections
 - [[CDK4]]/[[CDK6]] — interacts with Palbociclib
 - [[TFEB]] — master transcription factor for lysosomal biogenesis and autophagy
@@ -55,4 +67,4 @@ Palbociclib (125 mg/day, 21 days on / 7 days off) is standard first-line therapy
 ## Linking Summary
 - New links added: [[CDK4]]/[[CDK6]], [[TFEB]], [[Senescence]], [[CDK Inhibitor]], [[SA-beta-gal]], [[SASP]], [[RB1]], [[Breast Cancer]]
 - Suggested new entity notes to create: [[Lysosomal Biogenesis]], [[CDK4]], [[CDK6]], [[Ibrance]], [[Therapeutic Senescence]]
-- Strong connections to strengthen: [[Palbociclib]] ↔ [[TFEB]], [[Palbociclib]] ↔ [[Senescence]], [[Palbociclib]] ↔ [[CDK Inhibitor]]
+  - Strong connections to strengthen: [[Palbociclib]] ↔ [[TFEB]], [[Palbociclib]] ↔ [[Senescence]], [[Palbociclib]] ↔ CDK Inhibitor

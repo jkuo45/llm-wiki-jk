@@ -1,12 +1,11 @@
 ---
 title: Dorsal Motor Nucleus of the Vagus
 description: The Dorsal Motor Nucleus of the Vagus (DMV) is a cranial nerve nucleus for the vagus nerve in the medulla that lies on the floor of the fourth ventricle.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Anatomy
-  - HRV
+  - anatomy
+  - hrv
 aliases: []
 ---
 
@@ -25,6 +24,14 @@ Through vagal efferents, the DMV regulates gastric acid secretion, motility, and
 
 ## Pathology and Clinical Relevance
 Degeneration of DMV neurons is strongly associated with the autonomic dysfunction seen in PD, especially gastrointestinal dysmotility and constipation—among the most common and earliest non-motor symptoms. Because the vagus nerve also serves as a potential route for pathological alpha-synuclein propagation from the gut to the brainstem (the "gut-first" or ascending Braak hypothesis), the DMV is central to debates about how [[Alpha-synuclein]] pathology enters the central nervous system. Loss of [[Neuromelanin]]-pigmented DMV neurons thus provides both a staging biomarker for early PD and a therapeutic target for managing autonomic symptoms. Vagal nerve stimulation and severed/transected vagal pathways have also been studied in relation to PD risk, underscoring the nucleus's relevance to disease initiation.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease|Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease]]
+    - Later, other neuromelanin‐containing neurons in different brain regions were also found to consistently degenerate in PD; these include the noradrenergic neurons of the Locus Coeruleus and Dorsal Motor Nucleus of the Vagus, leading to characteristic nonmoto...
+
 
 ## Connections
 - [[Neuromelanin]]: DMV neurons are pigmented and vulnerable to neuromelanin-linked degeneration.

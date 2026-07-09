@@ -2,11 +2,10 @@
 title: Cathepsin D
 description: Cathepsin D is an aspartic lysosomal protease that plays a central role
   in the degradation of intracellular proteins, including those damaged by glycation.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Enzyme
+  - enzyme
 aliases: []
 ---
 # Cathepsin D

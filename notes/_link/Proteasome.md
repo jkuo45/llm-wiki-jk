@@ -1,13 +1,12 @@
 ---
 title: 20S Proteasome
-description: 'The 20S Proteasome is a core catalytic particle of the ubiquitin-proteasome
+description: The 20S Proteasome is a core catalytic particle of the ubiquitin-proteasome
   system that degrades oxidized, misfolded, and damaged proteins independently of
-  ubiquitination, serving as a primary ...'
-type: entity
+  ubiquitination, serving as a primary ...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Biological Molecule
+  - biological-molecule
 aliases: [20S proteasome, Core particle, CP, 20S core particle]
 
 ---
@@ -47,4 +46,4 @@ The [[Proteasome]] is a large multi-catalytic protease complex responsible for t
 ## Linking Summary
 - New links added: [[Ubiquitin Ligase]], [[Mitophagy]], [[Ubiquitin-Proteasome System]], [[Ubiquitin]], [[Parkinson's Disease]], [[Alpha-synuclein]], [[Proteostasis]]
 - Suggested new entity notes to create: [[Ubiquitin]]
-- Strong connections to strengthen: [[Proteasome]] ↔ [[Aging]], [[Proteasome]] ↔ [[Ubiquitin-Proteasome System]]
+  - Strong connections to strengthen: [[Proteasome]] ↔ [[Aging]], [[Proteasome]] ↔ Ubiquitin-Proteasome System

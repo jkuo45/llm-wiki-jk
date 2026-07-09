@@ -1,11 +1,10 @@
 ---
 title: TGF-β3
 description: Transforming growth factor beta 3 (TGF-β3) is a cytokine of the TGF-β superfamily involved in development, tissue repair, and immune regulation; it can exert both tumor-suppressive and pro-metastatic roles, and its RGD motif is exploited for tumor-targeted anticancer peptides.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Protein
+  - protein
 aliases: []
 ---
 
@@ -28,6 +27,14 @@ In the design of tumor-selective lytic peptides, an N-terminal alpha-helical **R
 ## Therapeutic Landscape
 
 TGF-β pathway inhibitors (antisense galunisertib, ligand traps such as fresolimumab, anti-TGFBR antibodies) are in clinical evaluation, largely combined with checkpoint blockade, though success has been limited by the pathway's pleiotropy.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology|Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology]]
+    - To enhance cancer cell selectivity, we generated a bifunctional melittin peptide by engineering an N-terminal alpha-helical RGD peptide motif (RGD1-melittin, derived from TGF-β3, sequence HGRGDLGRLKK), which interacts with αvβ6 and αvβ3 integrins overexpres...
+
 
 ## Connections
 

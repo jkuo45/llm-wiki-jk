@@ -1,13 +1,12 @@
 ---
 title: Rb
-description: 'Overview: Rb is a cellular protein with structural, signaling, or
+description: 'Overview: Rb is a cellular protein with structural, signaling, or'
   regulatory functions in eukaryotic cells. It participates in macromolecular complexes
-  and signaling networks that govern cell b...'
-type: entity
+  and signaling networks that govern cell b...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [Retinoblastoma Protein]
 
 ---
@@ -24,10 +23,20 @@ aliases: [Retinoblastoma Protein]
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - Whether a cell enters G0 Phase or proceeds through G1 Phase to continue cycling is dictated by the regulation of several key factors, including Cyclin and Cyclin-Dependent Kinase (CDK), CDK Inhibitor, and the Retinoblastoma Protein (Rb) (Figure 2).
+
+
 ## Connections
 - [[Rb]] — related entity
 
 ## Linking Summary
 - New links added: [[Rb]]
-- Strong connections to strengthen: [[Rb]] ↔ [[Rb]]
+  - Strong connections to strengthen: [[Rb]] ↔ [[Rb]]
 

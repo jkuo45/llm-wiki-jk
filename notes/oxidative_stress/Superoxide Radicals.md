@@ -1,14 +1,13 @@
 ---
 title: Superoxide Radicals
 description: Superoxide radicals (O2•−) are reactive oxygen species formed by addition of a single electron to molecular oxygen. The primary ROS that triggers formation of Hydrogen Peroxide, Hydroxyl Radicals, and Peroxynitrite.
-type: entity
 created: 2026-05-09
 updated: 2026-07-07
 tags:
-  - oxidative stress
-  - ROS
+  - oxidative-stress
+  - ros
   - mitochondria
-  - Metabolite
+  - biological-molecule
 aliases: [superoxide, O₂•⁻, O2-]
 ---
 
@@ -31,6 +30,14 @@ Superoxide preferentially oxidizes iron–sulfur ([4Fe-4S]) dehydratases such as
 ## Pathological Significance
 
 Superoxide overproduction drives [[Ischemia-reperfusion Injury]] (reoxygenation burst from damaged [[Mitochondria]] and [[Xanthine Oxidase]]). In [[Cardiovascular Disease]], NOX-derived superoxide consumes [[Nitric Oxide]] (an "NO sink"), impairing vasodilation and promoting [[Atherosclerosis]]. In [[Neurodegenerative Diseases]] such as [[Amyotrophic Lateral Sclerosis]], SOD1 mutations cause toxic gain-of-function increasing superoxide and aggregation. Genetic NOX2 defects cause chronic granulomatous disease—recurrent infections from failed [[Respiratory Burst]].
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - Superoxide Radicals (O 2 •−), Hydrogen Peroxide (H 2 O 2), Hydroxyl Radicals (•OH), and Singlet Oxygen (1 O 2) are commonly defined reactive oxygen species (ROS); they are generated as metabolic by-products by biological systems \[, \].
+
 
 ## Connections
 

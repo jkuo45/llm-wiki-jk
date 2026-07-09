@@ -3,11 +3,10 @@ title: Detoxification
 description: Detoxification is the physiological or medicinal removal of toxic substances
   from a living organism. In the context of Advanced Glycation End Products, receptors
   like AGER1 and enzymes like the gly...
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Biological Process
+  - biological-process
 aliases: []
 ---
 # Detoxification

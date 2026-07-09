@@ -1,12 +1,11 @@
 ---
 title: APE1
-description: 'Catalytic function: APE1 is an enzyme that catalyzes biochemical
-  reactions essential for cellular metabolism and homeostasis.'
-type: entity
+description: 'Catalytic function: APE1 is an enzyme that catalyzes biochemical'
+  reactions essential for cellular metabolism and homeostasis.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Enzyme
+  - enzyme
 aliases: [APEX1, Apurinic-Apyrimidinic Endonuclease 1]
 
 ---
@@ -28,5 +27,5 @@ aliases: [APEX1, Apurinic-Apyrimidinic Endonuclease 1]
 
 ## Linking Summary
 - New links added: [[APE1]]
-- Strong connections to strengthen: [[APE1]] ↔ [[APE1]]
+  - Strong connections to strengthen: [[APE1]] ↔ [[APE1]]
 

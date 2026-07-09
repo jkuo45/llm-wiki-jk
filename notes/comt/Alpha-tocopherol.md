@@ -1,12 +1,11 @@
 ---
 title: Alpha-tocopherol
-description: 'Alpha-tocopherol is the primary form of Vitamin E that is preferentially
-  used by the human body.'
-type: entity
+description: Alpha-tocopherol is the primary form of Vitamin E that is preferentially
+  used by the human body.
 created: 2026-05-25
 updated: 2026-07-04
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: []
 ---
 
@@ -21,6 +20,14 @@ The response to [[Alpha-tocopherol]] supplementation is significantly influenced
 - [[Vitamin E]]: For a broader overview of the nutrient and its interaction with COMT variants.
 
 ---
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - Medication and vitamin interactions with COMT: Vitamin E and COMT: A 10-year follow-up to a trial on Vitamin E (Alpha-tocopherol) supplementation showed that the COMT rs4680 variants impacted the risk of Cancer.
+
 
 ## Connections
 

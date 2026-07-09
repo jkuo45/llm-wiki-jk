@@ -1,12 +1,11 @@
 ---
 title: Golgi apparatus
-description: 'Overview: Golgi apparatus is a specialized cellular or anatomical
-  structure with defined functions in tissue organization and physiology.'
-type: entity
+description: 'Overview: Golgi apparatus is a specialized cellular or anatomical'
+  structure with defined functions in tissue organization and physiology.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Anatomy
+  - anatomy
 aliases: [Golgi Complex]
 
 ---
@@ -23,10 +22,20 @@ aliases: [Golgi Complex]
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Lysosome biogenesis Regulation and functions|Lysosome biogenesis Regulation and functions]]
+    - Lysosomal hydrolases are synthesized and modified by linkage with oligosaccharides in the ER and transported to the Golgi apparatus.
+
+
 ## Connections
 - [[Golgi apparatus]] — related entity
 
 ## Linking Summary
 - New links added: [[Golgi apparatus]]
-- Strong connections to strengthen: [[Golgi apparatus]] ↔ [[Golgi apparatus]]
+  - Strong connections to strengthen: Golgi apparatus ↔ Golgi apparatus
 

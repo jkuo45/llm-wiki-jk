@@ -1,13 +1,12 @@
 ---
 title: Histone Modification
-description: 'Histone Modification refers to the various post-translational modifications
+description: Histone Modification refers to the various post-translational modifications
   (PTMs) that occur on the ''tails'' of histone proteins. These modifications are
-  a central part of the Epigenetics, dict...'
-type: entity
+  a central part of the Epigenetics, dict...
 created: 2024-01-01
 updated: 2024-01-01
 tags:
-  - Biological Process
+  - biological-process
   - epigenetics
 aliases: []
 ---
@@ -27,6 +26,22 @@ As we age, the global landscape of histone modifications changes significantly:
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks|Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks]]
+    - A growing number of studies have suggested that alterations occur through three fundamental mechanisms like DNA Methylation, Histone Modification, and production of non‐coding MicroRNA.
+
+  - [[_document_ - sirtuins (overview, CD38 KO risks, cancer therapies)|sirtuins (overview, CD38 KO risks, cancer therapies)]]
+    - Sirtuins Overview Sirtuins (SIRT1–SIRT7) are a family of seven NAD+-dependent enzymes (class III Histone Modification/deacylases) in humans.
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - The different N- and C-terminals of SIRT proteins are fairly variable in length, chemical composition, susceptibility to Histone Modification (typically phosphorylation), and enable them to bind substrates.
+
+
 ## Connections
 - **[[Epigenetics]]**: Histone modification is a primary mechanism of epigenetic regulation.
 - **[[Chromatin]]**: The structure that histone modifications help to organize.
@@ -36,4 +51,4 @@ As we age, the global landscape of histone modifications changes significantly:
 ## Linking Summary
 - New links added: [[Histone Modification]], [[Epigenetics]], [[Transcription]], [[Histone Acetylation]], [[Chromatin]], [[Euchromatin]], [[Histone Methylation]], [[DNA Damage]], [[Histone Acetyltransferase]], [[Histone Deacetylase]], [[Aging]], [[Genomic Instability]]
 - Suggested new entity notes to create: [[PTMs]], [[Histone Code]], [[Epigenetic Readers]]
-- Strong connections to strengthen: [[Histone Modification]] ↔ [[Epigenetics]], [[Histone Modification]] ↔ [[Chromatin]]
+  - Strong connections to strengthen: Histone Modification ↔ Epigenetics, Histone Modification ↔ [[Chromatin]]

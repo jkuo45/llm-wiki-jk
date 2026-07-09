@@ -1,13 +1,12 @@
 ---
 title: Warfarin
-description: 'Warfarin (brand name Coumadin) is an oral Anticoagulant that inhibits
+description: Warfarin (brand name Coumadin) is an oral Anticoagulant that inhibits
   vitamin K-dependent clotting factors (II, VII, IX, X). It is widely prescribed for
-  prevention of Thromboembolism in conditi...'
-type: entity
+  prevention of Thromboembolism in conditi...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: [Coumadin, Vitamin K Antagonist]
 ---
 
@@ -30,6 +29,14 @@ Warfarin inhibits **[[Vitamin K Epoxide Reductase]] (VKORC1)**, blocking the rec
 - [[Resveratrol]] has been shown to inhibit [[Cytochrome P450|platelet aggregation]] independent of Warfarin's mechanism
 - Concurrent use of [[Resveratrol]] with Warfarin may potentiate anticoagulant effects and increase bleeding risk due to both direct anti-platelet effects and CYP-mediated metabolic interactions
 - [[Resveratrol]] inhibits CYP3A4 and CYP2C9, potentially elevating Warfarin concentrations
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Sirtuin System The Holy Grail of Resveratrol?|The Sirtuin System The Holy Grail of Resveratrol?]]
+    - As such, potential for bleeding may occur with concurrent administration of anticoagulants Heparin or Warfarin, and anti-platelet agents Aspirin or Plavix.
+
 
 ## Connections
 

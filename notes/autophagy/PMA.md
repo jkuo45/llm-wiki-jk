@@ -3,11 +3,10 @@ title: PMA
 description: Phorbol 12-myristate 13-acetate (PMA) is a potent activator of protein
   kinase C (PKC) and p38 MAPK that is commonly used to induce monocyte-to-macrophage
   differentiation, a process involving TFEB.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: [phorbol 12-myristate 13-acetate, TPA]
 ---
 
@@ -26,6 +25,14 @@ In hematopoietic models, PMA treatment of THP-1 or U937 monocytic cells induces 
 ## Research & Clinical Relevance
 
 PMA is a widely used experimental reagent to (1) differentiate monocytes for phagocytosis/PLR assays, (2) activate PKC/p38 to study TFEB and autophagy, and (3) model tumor promotion. Its specificity caveat is that PMC/phorbol esters activate multiple PKC isoforms and downstream pathways simultaneously, so effects must be interpreted with isoform-selective inhibitors. Structurally related bryostatin-1 behaves as a PKC modulator with distinct, sometimes antagonistic, biology. Understanding PMA's PKC/p38→TFEB axis informs how pharmacologic kinase activation intersects with autophagic-lysosomal homeostasis in [[Cancer]], [[Aging]], and [[Neurodegeneration]].
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - THP1 monocytes can differentiate into M0 macrophages upon incubation with PMA. During incubation, rapid p38 MAPK activation, increased TFEB-S401 Phosphorylation, and rapid nuclear translocation of TFEB were observed \[\].
+
 
 ## Connections
 

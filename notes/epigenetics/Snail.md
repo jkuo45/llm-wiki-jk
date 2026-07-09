@@ -1,11 +1,10 @@
 ---
 title: Snail
 description: Snail (SNAI1) is a zinc-finger transcription factor and a key inducer of the Epithelial-to-Mesenchymal Transition, repressing E-cadherin and epithelial adhesion.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Protein
+  - protein
 aliases: []
 ---
 
@@ -24,6 +23,14 @@ During development, Snail initiates EMT at gastrulation, enabling mesodermal ing
 ## Pathological Relevance
 
 Snail is markedly upregulated in carcinomas, where it correlates with loss of E-cadherin, EMT, metastasis, chemoresistance, and poor survival. It synergizes with [[Slug]] and [[Zeb1]] to enforce a stem-like, invasive phenotype. Because Snail is centrally placed in EMT networks, it is a candidate therapeutic target, though functional redundancy among EMT factors complicates inhibition.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network|Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network]]
+    - Finally, two independent groups definitively showed that Mesenchymal-to-Epithelial Transition was required for initiating and maintaining the reprogramming of MEF cells, and that OSKM factors played a role in this transition by suppressing Snail (Sox2/Oct4)...
+
 
 ## Connections
 

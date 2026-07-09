@@ -1,12 +1,11 @@
 ---
 title: Epithelial cells
-description: 'Overview: Epithelial cells is a specialized cellular or anatomical
-  structure with defined functions in tissue organization and physiology.'
-type: entity
+description: 'Overview: Epithelial cells is a specialized cellular or anatomical'
+  structure with defined functions in tissue organization and physiology.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Cell Type
+  - cell-type
 aliases: []
 ---
 
@@ -27,5 +26,5 @@ aliases: []
 
 ## Linking Summary
 - New links added: [[Epithelial cells]]
-- Strong connections to strengthen: [[Epithelial cells]] ↔ [[Epithelial cells]]
+  - Strong connections to strengthen: Epithelial cells ↔ Epithelial cells
 

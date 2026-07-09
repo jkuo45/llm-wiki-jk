@@ -1,17 +1,16 @@
 ---
 title: Phenylbutyrate
 description: 4-Phenylbutyrate (PB) is an FDA-approved aromatic fatty acid used for urea cycle disorders that functions as a class I/IIA HDAC inhibitor, induces Hsp70 expression, reduces ER stress, and has been investigated in ALS, Huntington's disease, and cancer.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - HDAC inhibitor
-  - urea cycle disorder
-  - ER stress
-  - protein folding
+  - hdac-inhibitor
+  - urea-cycle-disorder
+  - er-stress
+  - protein-folding
   - neurodegeneration
   - cancer
-  - Chemical Compound
+  - chemical-compound
 aliases: ["4-Phenylbutyrate", "PB", "Phenylbutyric acid", "Buphenyl"]
 ---
 # Phenylbutyrate
@@ -55,6 +54,14 @@ In R6/2 and YAC128 mouse models, PB reduces mutant huntingtin aggregates, improv
 ### Cancer
 
 PB induces cell cycle arrest (p21^CIP1^ upregulation), apoptosis (via BAX/BAK), and differentiation in leukemia, hepatocellular carcinoma, and pancreatic cancer models. It synergizes with DNMT inhibitors (azacitidine) and proteasome inhibitors (bortezomib). Clinical trials in AML and MDS show modest single-agent activity; combination strategies ongoing.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - omide]]); (3) Epigenetic Modifiers that inhibit DNA Methyltransferase (Decitabine), Histone Deacetylase (Sodium Butyrate, Trichostatin A, Entinostat, Vorinostat, Panobinostat, Phenylbutyrate, Sodium Valproate), Histone Acetyltransferase (Curcumin, C646), a
+
 
 ## Connections
 

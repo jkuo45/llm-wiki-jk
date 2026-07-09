@@ -1,11 +1,10 @@
 ---
 title: Decitabine
 description: Decitabine (5-aza-2''-deoxycytidine; trade name Dacogen) is a deoxyribose nucleoside analog that functions as a potent DNA Methyltransferase (DNMT) inhibitor.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: []
 ---
 
@@ -40,6 +39,14 @@ Resistance to decitabine can arise through several cellular adaptations:
 - **Compensatory Methylation**: Upregulation of other methyltransferases, such as [[DNMT3a]] and [[DNMT3b]], to compensate for the loss of DNMT1.
 - **Efflux Mechanisms**: Increased expression of drug efflux pumps, such as [[ABCB1]] (P-glycoprotein).
 - **Genomic Alterations**: Selection for cell populations with pre-existing demethylated genomes or altered DNA repair capacities.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - in C|mitomycin C]], Busulfan, Cyclophosphamide, Diaziquone), and (2c) drugs with complex effects (Actinomycin D, Bleomycin, Temozolomide); (3) Epigenetic Modifiers that inhibit DNA Methyltransferase (Decitabine), Histone Deacetylase (Sodium Butyrate, Tricho...
+
 
 ## Connections
 

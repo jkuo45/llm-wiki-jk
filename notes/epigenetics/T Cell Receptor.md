@@ -1,11 +1,10 @@
 ---
 title: T Cell Receptor
 description: The T Cell Receptor (TCR) is a membrane protein complex on T lymphocytes that recognizes peptide antigens bound to MHC molecules, initiating adaptive immune responses.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Protein
+  - protein
 aliases: []
 ---
 
@@ -24,6 +23,14 @@ The TCR recognizes peptide–MHC complexes via its complementarity-determining r
 ## Biological and Clinical Relevance
 
 TCR specificity defines helper, cytotoxic, regulatory, and memory T-cell functions and is essential for clearing intracellular pathogens and tumors. TCR-engineered T cells (TCR-T therapy) target intracellular tumor antigens; soluble TCR mimics and TCR sequencing are used in diagnostics and immunomonitoring. Defective TCR signaling causes immunodeficiency, while aberrant selection contributes to autoimmunity and to escaping [[Cancer]] immune surveillance.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - In T Lymphocyte, quiescence and the timely exit from arrest upon binding of a cognate antigen to the T Cell Receptor are essential for mounting an appropriate immune response (Hwang et al., 2020).
+
 
 ## Connections
 

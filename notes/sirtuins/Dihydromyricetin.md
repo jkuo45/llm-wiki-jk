@@ -3,11 +3,10 @@ title: Dihydromyricetin
 description: Dihydromyricetin (DHM), also known as Ampelopsin, is a natural flavonoid
   (flavanonol/dihydroflavonol) found at high concentrations in Ampelopsis grossedentata
   (vine tea / rattan tea). It is one of ...
-type: entity
 created: 2026-07-03
 updated: 2026-07-03
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases:
   - Dihydromyricetin
   - DHM
@@ -50,6 +49,14 @@ DHM's key advantage over many sirtuin activators is its **practical dietary achi
 **~300 mg DHM from 1–1.5 g dry vine tea leaves** makes it one of the most feasible SIRT3-activating dietary interventions.
 
 **Bioavailability**: DHM is fairly well absorbed, though like many flavonoids it undergoes some gut metabolism. Bioavailability is enhanced with fat-containing meals.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins (resveratrol), gemini|sirtuins (resveratrol), gemini]]
+    - Dihydromyricetin (DHM): A natural flavonoid found in plants like the Ampelopsis grossedentata (Vine Tea). 1,4-Dihydropyridines (DHPs): Synthetic compounds engineered to allosterically activate mitochondrial sirtuins.
+
 
 ## Connections
 

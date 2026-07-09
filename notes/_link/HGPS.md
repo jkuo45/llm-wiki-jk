@@ -1,13 +1,12 @@
 ---
 title: HGPS
-description: 'Etiology and pathophysiology: HGPS is a medical condition characterized
+description: 'Etiology and pathophysiology: HGPS is a medical condition characterized'
   by specific pathological changes in cellular, tissue, or organ function. Its development
-  involves genetic, environmental,...'
-type: entity
+  involves genetic, environmental,...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: [Hutchinson-Gilford Progeria Syndrome, Progeria]
 
 ---
@@ -24,10 +23,20 @@ aliases: [Hutchinson-Gilford Progeria Syndrome, Progeria]
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks|Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks]]
+    - Increase methylation of lysine residues of H4 protein called H4K20Me3 and it is found to be a lethal cause for HGPS (Hutchinson Gilford Progeria Syndrome).
+
+
 ## Connections
 - [[HGPS]] — related entity
 
 ## Linking Summary
 - New links added: [[HGPS]]
-- Strong connections to strengthen: [[HGPS]] ↔ [[HGPS]]
+  - Strong connections to strengthen: [[HGPS]] ↔ [[HGPS]]
 

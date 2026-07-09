@@ -1,13 +1,12 @@
 ---
 title: CDK4 6
-description: 'CDK4 and CDK6 are closely related Cyclin-Dependent Kinases that
+description: CDK4 and CDK6 are closely related Cyclin-Dependent Kinases that
   regulate the G1 Phase-to-S Phase phase transition of the Cell Cycle. They form active
-  complexes with Cyclin D (D1, D2, D3) to...'
-type: entity
+  complexes with Cyclin D (D1, D2, D3) to...
 created: 2026-07-04
 updated: 2026-07-06
 tags:
-  - Protein
+  - protein
 aliases: [CDK4, CDK6, Cyclin-Dependent Kinase 4, Cyclin-Dependent Kinase 6]
 
 ---
@@ -44,4 +43,4 @@ CDK4/6 is overactive in many cancers via [[Cyclin D amplification]] (breast canc
 ## Linking Summary
 - New links added: [[Cyclin-Dependent Kinases]], [[Cell Cycle]], [[G1 Phase]], [[S Phase]], [[Retinoblastoma Protein]], [[E2F]], [[Cyclin D]], [[Mitogen]], [[RAS]], [[MEK]], [[ERK]], [[p16INK4A]], [[p15INK4b]], [[p18INK4c]], [[p19INK4d]], [[p21Cip1]], [[p27Kip1]], [[Palbociclib]], [[Ribociclib]], [[Abemaciclib]], [[CDK4]]/[[CDK6]] inhibitors, [[Breast Cancer]], HR+/HER2− breast cancer, [[Cellular Senescence]], [[Cell Cycle Arrest]]
 - Suggested new entity notes to create: [[CDK-activating kinase]], [[Retinoblastoma pathway]], [[Cyclin D1 amplification]], [[Mantle cell lymphoma]], [[CDK4/6 inhibitor resistance]]
-- Strong connections to strengthen: [[CDK46]] ↔ [[Cell Cycle]], [[CDK46]] ↔ [[Retinoblastoma Protein]], [[CDK46]] ↔ [[Palbociclib]]
+  - Strong connections to strengthen: CDK46 ↔ Cell Cycle, CDK46 ↔ Retinoblastoma Protein, CDK46 ↔ [[Palbociclib]]

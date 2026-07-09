@@ -1,11 +1,10 @@
 ---
 title: PKCδ
 description: Protein kinase C delta (PKCδ) is a novel/DAG-regulated PKC isoform that functions as both a pro-apoptotic and proliferative kinase depending on context, phosphorylating Caspase-3 and modulating death receptor and oxidative stress signaling.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Enzyme
+  - enzyme
 aliases: []
 ---
 
@@ -24,6 +23,14 @@ PKCδ is a context-dependent regulator: in many epithelial, hematopoietic, and n
 ## Clinical & Research Relevance
 
 PKCδ is a candidate biomarker for apoptotic competence and a target for modulating therapy response. Inhibitors (e.g., rottlerin, though non-specific) and activators are studied to tune apoptotic sensitivity. Its cleavage by [[Caspase-3]] makes PKCδ a useful experimental readout of caspase activation, and its dual role is relevant to designing [[Chemotherapy]] regimens that exploit apoptotic priming.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - TRAIL resistance; Esophageal Cancer, Colon Cancer, glioblastoma | | Caspase-3 | | PKCδ | ND | Enhancement of activity | | | Caspase-3 |
+
 
 ## Connections
 

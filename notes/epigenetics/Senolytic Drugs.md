@@ -1,13 +1,12 @@
 ---
 title: Senolytic Drugs
-description: 'Senolytic Drugs are a pharmacological class of agents that selectively
+description: Senolytic Drugs are a pharmacological class of agents that selectively
   eliminate Cellular Senescence. Unlike conventional chemotherapeutics, senolytics
-  exploit specific survival pathways that s...'
-type: entity
+  exploit specific survival pathways that s...
 created: 2024-01-01
 updated: 2024-07-04
 tags:
-  - Pharmacological Action
+  - pharmacological-action
   - senescence
 aliases: []
 ---
@@ -54,6 +53,14 @@ Senolytics target these survival circuits. For example, [[Navitoclax]] (ABT-263)
 - **Senomorphic agents:** Compounds that suppress the [[SASP]] without killing senescent cells (e.g., [[Metformin]], [[Rapamycin]], [[JAK inhibitors]]).
 - **Next-generation senolytics:** PROTACs targeting BCL-XL for ubiquitination; CAR-T cells specific for senescent cell surface markers (e.g., [[uPAR]], [[DDR1]]).
 - **Combination strategies:** Sequential senolytic + [[Partial Reprogramming|partial reprogramming]] to reset the epigenome after clearing senescent cells.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - Several chemical compounds that specifically target senescent cells have been identified in the last 2 years (so‐called Senolytic Drugs) (Xu et al., 2015b; Zhu et al., 2015a,b). It was shown that clearance of senescent cells by such drugs may alleviate age‐
+
 
 ## Connections
 

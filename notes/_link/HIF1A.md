@@ -3,11 +3,10 @@ title: HIF1A
 description: Hypoxia-inducible factor 1-alpha, a key transcription factor that mediates
   the cellular response to low oxygen levels and certain types of mitochondrial stress.
   It regulates genes involved in glyco...
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [Hif1A]
 ---
 # HIF1A
@@ -21,6 +20,19 @@ HIF1A induces [[Autophagy]] under hypoxia through [[BNIP3]] and [[BNIP3L]]/NIX-m
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Autophagy and intermittent fasting the connection for cancer therapy?|Autophagy and intermittent fasting the connection for cancer therapy?]]
+    - different protein complexes regulated by the activation or inactivation of several stress-responsive pathways, such as those involving mTOR (mTOR—nutrient), AMPK (AMPK—energy) and HIF1A (HIFs—stress),.
+
+  - [[_document_ - sirtuins (overview, CD38 KO risks, cancer therapies)|sirtuins (overview, CD38 KO risks, cancer therapies)]]
+    - Key functions: Maintains genomic stability, Telomere Attrition, DNA Repair (base excision repair), regulates glycolysis and lipid Metabolism (represses HIF1A, SREBP1), Inflammation control.
+
+
 ## Connections
 - [[Hypoxia]] — interacts with HIF1A
 - [[Macroautophagy]] — interacts with HIF1A
@@ -29,4 +41,4 @@ HIF1A induces [[Autophagy]] under hypoxia through [[BNIP3]] and [[BNIP3L]]/NIX-m
 - [[BNIP3]] — interacts with HIF1A
 ## Linking Summary
 - New links added: [[Mitohormesis]], [[Hypoxia]], [[Macroautophagy]]
-- Strong connections to strengthen: [[HIF1A]] ↔ [[Hypoxia]]
+  - Strong connections to strengthen: [[HIF1A]] ↔ [[Hypoxia]]

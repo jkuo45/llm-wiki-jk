@@ -3,11 +3,10 @@ title: Reference standard
 description: A Reference standard (or certified reference material) is a material
   or substance one or more of whose property values are sufficiently homogeneous and
   well established to be used for the calib...
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Laboratory Standard
+  - scientific-concept
 aliases: []
 ---
 
@@ -17,6 +16,14 @@ A **Reference standard** (or certified reference material) is a material or subs
 
 ## Use in Epinephrine Quality Control
 [[Leuco-adrenochrome]] and [[Adrenochrome]] are used as reference standards in [[HPLC]] and [[LC-MS]] assays to identify and quantify impurities in pharmaceutical [[Epinephrine]] products.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - intermediates, precursor, hemoglobin|intermediates, precursor, hemoglobin]]
+    - intermediate within the body's Catecholamine pathways.Key CharacteristicsMechanism: It is formed from adrenaline-quinone and is subsequently oxidized to create Adrenochrome, stimulating oxygen uptake during Autoxidation.Research Use: In the pharmaceutical a...
+
 
 ## Connections
 - [[Quality Control]]

@@ -1,13 +1,12 @@
 ---
 title: ARE (Antioxidant Response Element)
-description: 'ARE (Antioxidant Response Element) is a cis-acting regulatory element
+description: ARE (Antioxidant Response Element) is a cis-acting regulatory element
   in the promoter regions of over 200 cytoprotective genes. It is the primary DNA
-  sequence through which NRF2 drives the expr...'
-type: entity
+  sequence through which NRF2 drives the expr...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Biological Process
+  - biological-process
   - antioxidant
 aliases: [Antioxidant Response Element, EpRE, Electrophile Response Element]
 
@@ -31,4 +30,4 @@ ARE-regulated genes include [[NQO1]], [[HO-1]], [[GCLM]]/[[GCLC]] (glutathione s
 ## Linking Summary
 - New links added: [[NRF2]], [[Sulforaphane]], [[HO-1]], [[Glutathione]], [[Oxidative Stress]], [[Curcumin]]
 - Suggested new entity notes to create: [[Keap1]], [[NQO1]], [[GCLM]]
-- Strong connections to strengthen: [[ARE]] ↔ [[NRF2]]
+  - Strong connections to strengthen: [[ARE]] ↔ [[NRF2]]

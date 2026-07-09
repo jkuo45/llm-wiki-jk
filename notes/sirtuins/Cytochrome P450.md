@@ -1,13 +1,12 @@
 ---
 title: Cytochrome P450
-description: 'Cytochrome P450 (CYP450) is a superfamily of heme-containing Enzyme
+description: Cytochrome P450 (CYP450) is a superfamily of heme-containing Enzyme
   that catalyze the phase I metabolism of endogenous compounds (steroids, fatty acids,
-  vitamins) and xenobiotics (drugs, toxins...'
-type: entity
+  vitamins) and xenobiotics (drugs, toxins...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Enzyme
+  - enzyme
 aliases: [CYP450, CYP]
 ---
 
@@ -37,6 +36,14 @@ CYP450 enzymes are named by family (e.g., CYP1, CYP2, CYP3), subfamily (letter),
 ## Genetic Variability
 
 Polymorphisms in CYP450 genes (e.g., [[CYP2D6]], [[CYP2C9]]) produce extensive inter-individual variation in drug metabolism rates — categorized as poor, intermediate, extensive, or ultrarapid metabolizers.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Sirtuin System The Holy Grail of Resveratrol?|The Sirtuin System The Holy Grail of Resveratrol?]]
+    - Metabolism and pharmacokinetics Studies have postulated the role of detoxifying hepatic enzymes such as, Cytochrome P450, as possessing particular importance in the catabolism of Resveratrol \[\].
+
 
 ## Connections
 

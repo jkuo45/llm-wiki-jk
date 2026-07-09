@@ -1,13 +1,12 @@
 ---
 title: Autophagic Lysosome Reformation
-description: 'Autophagic Lysosome Reformation (ALR) is a mechanism by which functional
+description: Autophagic Lysosome Reformation (ALR) is a mechanism by which functional
   Lysosomes are regenerated from Autolysosomes following the degradation of autophagic
-  cargo, a process regulated by mTOR,...'
-type: entity
+  cargo, a process regulated by mTOR,...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Biological Process
+  - biological-process
   - autophagy
   - lysosome
 aliases: [ALR]
@@ -21,6 +20,14 @@ aliases: [ALR]
 ## Mechanism
 
 ALR regenerates functional [[Lysosome]]s from degradative [[Autolysosome]]s. Tubules extrude from the autolysosome and bud into protolysosomes via clathrin-mediated membrane sorting.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Lysosome biogenesis Regulation and functions|Lysosome biogenesis Regulation and functions]]
+    - Autophagic lysosome reformation (ALR) Lysosome reformation from autolysosomes, also referred to as Autophagic Lysosome Reformation (ALR), was initially identified in starvation-induced Autophagy (Yu et al., 2010).
+
 
 ## Connections
 

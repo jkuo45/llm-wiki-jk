@@ -1,13 +1,12 @@
 ---
 title: Geminin
-description: 'Overview: Geminin is a cellular protein with structural, signaling,
+description: 'Overview: Geminin is a cellular protein with structural, signaling,'
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
-  and signaling networks that govern c...'
-type: entity
+  and signaling networks that govern c...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: []
 ---
 
@@ -23,10 +22,20 @@ aliases: []
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - Geminin acts as a repressor to block MCM loading onto Chromatin (Xouri et al., 2004).
+
+
 ## Connections
 - [[Geminin]] — related entity
 
 ## Linking Summary
 - New links added: [[Geminin]]
-- Strong connections to strengthen: [[Geminin]] ↔ [[Geminin]]
+  - Strong connections to strengthen: [[Geminin]] ↔ [[Geminin]]
 

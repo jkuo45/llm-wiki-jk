@@ -1,16 +1,15 @@
 ---
 title: Cell-to-Cell Fusion-Induced Senescence
 description: Cell-to-Cell Fusion-Induced Senescence is a biological process in which cell fusion generates tetraploid or polyploid cells that enter a stable senescent state via the p53/p21 pathway.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
   - senescence
-  - cell fusion
+  - cell-fusion
   - tetraploidy
   - p53
   - aging
-  - Biological Process
+  - biological-process
 aliases: [Fusion-induced senescence, tetraploidy-associated senescence]
 ---
 
@@ -46,6 +45,14 @@ In heterokaryon fusion experiments — where cells from different lineages or sp
 ## Relevance to Cancer
 
 CFIS may act as an intrinsic tumor suppressor mechanism by eliminating polyploid cells that could otherwise promote aneuploidy and genomic instability. However, some cancer cells evade fusion-induced senescence through loss of p53 or p21, allowing polyploid intermediates to survive and fuel clonal evolution. Tumor cell–tumor cell fusion (homotypic) and tumor cell–macrophage fusion (heterotypic) have been reported in aggressive cancers, generating hybrid cells with enhanced metastatic potential. The relationship between cell fusion, senescence evasion, and cancer progression is an active area of investigation.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - Cell-to-Cell Fusion-Induced Senescence can also be considered a premature senescence subtype (Chuprin et al., ; Burton & Faragher, ). The distinctive phenotypic changes typical of various types of cellular senesce
+
 
 ## Connections
 

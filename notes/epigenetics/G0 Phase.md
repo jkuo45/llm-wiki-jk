@@ -1,11 +1,10 @@
 ---
 title: G0 Phase
 description: The G0 Phase is a resting, non-cycling state outside the active Cell Cycle; it characterizes cells in Quiescence and is distinct from terminal differentiation or Senescence.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Biological Process
+  - biological-process
 aliases: []
 ---
 
@@ -28,6 +27,14 @@ G0 underlies tissue homeostasis, allowing cell numbers to match demand without e
 ## Pathological Relevance
 
 Premature or aberrant G0 exit can drive hyperproliferation and [[Cancer]], whereas failure to arrest (loss of [[RB1]]/pRb) removes the G0 gate. Conversely, therapy-induced quiescence is exploited to manage tumors, and senescence-like permanent arrest is a goal of some treatments. Aging alters G0 dynamics, contributing to stem-cell exhaustion.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - Oocyte in female mammals become arrested at Prophase I of Meiosis, in contrast to other cell types that enter quiescence in G0 Phase (described below).
+
 
 ## Connections
 

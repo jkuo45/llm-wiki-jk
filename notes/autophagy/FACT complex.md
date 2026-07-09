@@ -3,11 +3,10 @@ title: FACT complex
 description: The Facilitates Chromatin Transcription (FACT) complex is a histone chaperone
   that binds to TFEB and TFE3 to facilitate the expression of lysosomal and antioxidant
   genes.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Scientific Concept
+  - scientific-concept
 aliases: [facilitates chromatin transcription complex]
 ---
 # FACT complex
@@ -20,6 +19,14 @@ The FACT complex ([[SSRP1]]/[[SUPT16H]]) is a histone chaperone that facilitates
 ## Autophagy Connection
 
 FACT regulates chromatin accessibility at autophagy gene promoters. FACT inhibition increases [[Autophagy]] by altering the epigenetic landscape.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - also verified in 293 T cells that TFEB was sumoylated at K316, which attenuate its transcriptional activity \[\], Their results further indicated that TFEB SUMOylation inhibits TFEB binding to FACT complex, which is a heterodimeric histone chaperone compose...
+
 
 ## Connections
 

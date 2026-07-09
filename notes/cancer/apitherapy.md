@@ -1,11 +1,10 @@
 ---
 title: Apitherapy
-description: 'Apitherapy is a branch of alternative medicine using honeybee-derived products (honey, pollen, propolis, royal jelly, and Bee Venom) for therapeutic purposes, including investigated anticancer effects.'
-type: entity
+description: Apitherapy is a branch of alternative medicine using honeybee-derived products (honey, pollen, propolis, royal jelly, and Bee Venom) for therapeutic purposes, including investigated anticancer effects.
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Medical Treatment
+  - medical-treatment
 aliases: []
 ---
 
@@ -28,6 +27,14 @@ aliases: []
 ## Safety & Evidence
 
 Clinical evidence remains preliminary; systemic bee venom carries risks of anaphylaxis and cardiotoxicity (melittin lyses membranes broadly). Modern approaches use purified peptides or nanoparticle-encapsulated melittin to improve tumor selectivity. Apitherapy should not replace evidence-based cancer treatment.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology|Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology]]
+    - apitherapy is an emerging field with the potential to impact the economic aspects of cancer research globally, particularly in under-resourced communities. To date, however, studies are yet to fully investigate the molecular mechanism
+
 
 ## Connections
 

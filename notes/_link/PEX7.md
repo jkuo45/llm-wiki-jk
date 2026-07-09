@@ -3,11 +3,10 @@ title: PEX7
 description: PEX7 encodes the PTS2 receptor, a cytosolic shuttling receptor that recognizes
   and imports peroxisomal matrix proteins bearing the N-terminal peroxisomal targeting
   signal 2 (PTS2) into the Peroxisome.
-type: entity
 created: 2026-07-04
 updated: 2026-07-06
 tags:
-  - Protein
+  - protein
 aliases: [peroxisomal biogenesis factor 7, PTS2 receptor]
 ---
 
@@ -72,4 +71,4 @@ PEX7 mutations account for ~5-10% of ZSD cases. Common mutations include the fou
 ## Linking Summary
 - New links added: [[PEX5]], [[PEX13]], [[PEX14]], [[Peroxisome]], [[Beta-Oxidation]], [[Phytanic acid]], [[Fatty acid]], [[Zellweger Spectrum Disorders]], [[Plasmalogen]], [[Signal Peptidase]], [[Cytosol]]
 - Suggested new entity notes to create: [[PTS2]], [[Rhizomelic Chondrodysplasia Punctata]], [[Phytanoyl-CoA Hydroxylase]]
-- Strong connections to strengthen: [[PEX7]] ↔ [[PEX5]], [[PEX7]] ↔ [[Zellweger Spectrum Disorders]], [[PEX7]] ↔ [[Plasmalogen]]
+  - Strong connections to strengthen: [[PEX7]] ↔ [[PEX5]], [[PEX7]] ↔ Zellweger Spectrum Disorders, [[PEX7]] ↔ Plasmalogen

@@ -1,18 +1,14 @@
 ---
 title: Nicotinamide
-description: 'Nicotinamide (NAM), also known as niacinamide, is the amide
+description: Nicotinamide (NAM), also known as niacinamide, is the amide
   form of **vitamin B3** (niacin). It is an essential precursor in the **NAD⁺ salvage
-  pathway** and a critical regulator of sirtuin...'
-type: entity
+  pathway** and a critical regulator of sirtuin...
 created: 2026-07-04
 updated: 2026-07-05
 tags:
-  - Chemical Compound
-  - NAD+
+  - chemical-compound
+  - nad+
 aliases: [NAM, Niacinamide, Vitamin B3, Nicotinic acid amide]
-database_ids:
-  mesh: D009536
-  chebi: CHEBI:17154
 
 ---
 
@@ -56,6 +52,14 @@ Nicotinamide is distinct from other NAD⁺ precursors:
 - **[[Nicotinamide Riboside]] (NR)**: Converted to NAD⁺ via NRK enzymes, bypassing the rate-limiting NAMPT step.
 - **[[Nicotinic acid]] (NA)**: Converted to NAD⁺ via the Preiss-Handler pathway; causes flushing due to GPR109A activation.
 - **[[NMN]]**: The immediate product of NAMPT activity; directly converted to NAD⁺ by NMNAT enzymes.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Of note, the regulation of catalytic activity of SIRTs involves multiple steps: (a) NAD + and acetyl lysine substrates binding; (b) the glycosidic bond cleavage; (c) acetyl transfer; and (d) O-acetyl-ADPR, Nicotinamide, and deacetylated lysine products form...
+
 
 ## Connections
 

@@ -3,11 +3,10 @@ title: Cell Division
 description: Cell division is the process by which a parent cell divides into two
   or more daughter cells. In Eukaryotic Cells, it comprises Mitosis (nuclear division)
   and Cytokinesis (cytoplasmic division). Pro...
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - Enzyme
+  - enzyme
 aliases: []
 ---
 # Cell Division
@@ -32,4 +31,4 @@ Cell division is the process by which a parent cell divides into two or more dau
 ## Linking Summary
 - New links added: [[Cell Cycle]], [[Mitosis]], [[Cytokinesis]], [[Meiosis]], [[Binary Fission]], [[DNA Replication]], [[Chromosome]]s, [[Cyclin]], [[CDK]], [[Rb]], [[E2F]], [[p53]], [[Checkpoint Kinase]]s, [[Cancer]], [[Cell Proliferation]], [[Eukaryotic Cell]], [[Prokaryote]], [[Gamete]]s
 - Suggested new entity notes to create: [[Cytokinesis]], [[Binary Fission]]
-- Strong connections to strengthen: [[Cell Division]] ↔ [[Cell Cycle]], [[Cell Division]] ↔ [[Mitosis]]
+  - Strong connections to strengthen: Cell Division ↔ Cell Cycle, Cell Division ↔ [[Mitosis]]

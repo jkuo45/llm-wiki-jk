@@ -2,11 +2,10 @@
 title: Heart disease
 description: Heart disease refers to various conditions that affect the heart, including
   coronary artery disease, arrhythmias, and congenital heart defects.
-type: entity
 created: 2026-07-04
 updated: 2026-07-06
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: []
 ---
 
@@ -59,6 +58,14 @@ The adrenochrome hypothesis proposes that oxidation products of catecholamines, 
 **Primary prevention** focuses on reducing the lifetime risk of developing clinical heart disease in asymptomatic individuals. Lifestyle interventions include Mediterranean or DASH dietary patterns, ≥150 minutes/week of moderate aerobic activity, smoking cessation, and maintaining a body mass index below 25 kg/m². Pharmacological strategies include statin therapy for dyslipidemia (LDL targets stratified by risk category), antihypertensive agents (target <130/80 mmHg), and low-dose aspirin only in select high-risk patients without bleeding risk (current guidelines recommend against routine aspirin for primary prevention in most older adults).
 
 **Secondary prevention** after a cardiovascular event (e.g., myocardial infarction, revascularization) is more aggressive: high-intensity statins, dual antiplatelet therapy (aspirin plus P2Y12 inhibitor for 6–12 months post-event), β-blockers, ACE inhibitors or ARBs, and mineralocorticoid receptor antagonists in heart failure with reduced ejection fraction. Cardiac rehabilitation programs combining supervised exercise, risk factor management, and psychosocial support significantly reduce mortality.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Adrenochrome Pathway|The Adrenochrome Pathway]]
+    - The Adrenochrome Pathway: ITS POTENTIAL SIGNIFICANCE IN STRESS INDUCED Heart disease Stephanie B. Matthews, Royal Gwent Hospital and Anthony K.
+
 
 ## Connections
 

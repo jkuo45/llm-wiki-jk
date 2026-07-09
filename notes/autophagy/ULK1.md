@@ -1,17 +1,13 @@
 ---
 title: ULK1
-description: 'ULK1 (Unc-51 Like Autophagy Activating Kinase 1) is a serine/threonine
+description: ULK1 (Unc-51 Like Autophagy Activating Kinase 1) is a serine/threonine
   protein kinase that serves as the central initiator of Autophagy in response to
-  nutrient and energy signals. It is the mam...'
-type: entity
+  nutrient and energy signals. It is the mam...
 created: 2026-07-04
 updated: 2026-07-05
 tags:
-  - Enzyme
+  - enzyme
 aliases: [Unc-51-like kinase 1, ATG1, Serine/threonine-protein kinase ULK1]
-database_ids:
-  uniprot: O75385
-  hgnc: HGNC:12558
 
 ---
 
@@ -60,6 +56,23 @@ Once activated, ULK1 phosphorylates numerous substrates that coordinate early au
 - **Cancer**: ULK1 functions as a contextual tumour suppressor by maintaining metabolic homeostasis and genomic stability. ULK1 deletion accelerates tumour growth in KRAS-driven cancers, but ULK1 inhibition may sensitise certain cancers to chemotherapy.
 - **Neurodegeneration**: Impaired ULK1 activity contributes to defective autophagy in Alzheimer's and Parkinson's diseases. ULK1 activation promotes clearance of protein aggregates ([[Tau]], [[α-synuclein]]).
 - **Metabolic Disease**: ULK1 regulates hepatic lipid metabolism and insulin sensitivity. ULK1 deficiency exacerbates steatosis and insulin resistance.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Autophagy and intermittent fasting the connection for cancer therapy?|Autophagy and intermittent fasting the connection for cancer therapy?]]
+    - Regarding initialization, the activation of the ULK1 complex (ULK1/2, Atg13, FIP200 and Atg101) signals for autophagosome nuclea
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - Direct phosphorylation of ULK1 (the ortholog of yeast Atg1) and subsequent activation leads to autophagy induction following metabolic stress \[\].
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - It was recently shown by three independent groups that mTORC1 controls Autophagy through the regulation of a protein complex composed of ULK1, Atg13 (Atg13) and FIP200 (FIP200) (Ganley et al., 2009; Hosokawa et al., 2009; Jung et al., 2009).
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Suppression of SIRT1 enhances acetylation level of ULK1 and induces ROS-dependent autophagy. Therefore, SIRT1 could directly regulate autophagy through deacetylation of autophagic proteins.
+
 
 ## Connections
 

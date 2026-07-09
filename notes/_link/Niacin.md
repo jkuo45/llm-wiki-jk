@@ -1,13 +1,12 @@
 ---
 title: Niacin
-description: 'Biochemical properties: Niacin is an endogenous metabolite involved
+description: 'Biochemical properties: Niacin is an endogenous metabolite involved'
   in cellular energy metabolism, redox reactions, or biosynthetic pathways. Its cellular
-  concentration reflects metabolic flux ...'
-type: entity
+  concentration reflects metabolic flux ...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Metabolite
+  - biological-molecule
 aliases: [Vitamin B3, Nicotinic Acid]
 
 ---
@@ -24,10 +23,20 @@ aliases: [Vitamin B3, Nicotinic Acid]
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - intermediates, precursor, hemoglobin|intermediates, precursor, hemoglobin]]
+    - AA co-founder Bill Wilson (Bill W.) reportedly experimented with leuko-adrenochrome as part of his broader interest in biochemical and spiritual approaches to Alcoholism recovery (alongside LSD and high-dose Niacin).
+
+
 ## Connections
 - [[Niacin]] — related entity
 
 ## Linking Summary
 - New links added: [[Niacin]]
-- Strong connections to strengthen: [[Niacin]] ↔ [[Niacin]]
+  - Strong connections to strengthen: [[Niacin]] ↔ [[Niacin]]
 

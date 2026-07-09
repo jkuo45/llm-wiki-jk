@@ -2,11 +2,10 @@
 title: Unfolded Protein Response
 description: A cellular stress response related to the endoplasmic reticulum (ER)
   stress.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Biological Process
+  - biological-process
 aliases: []
 ---
 
@@ -26,7 +25,7 @@ IRE1 also mediates [[Regulated IRE1-Dependent Decay]] ([[RIDD]]), wherein the RN
 
 [[PERK]] ([[EIF2AK3]]) is a type I ER transmembrane protein whose lumenal domain senses unfolded proteins via BiP dissociation, triggering dimerization and autophosphorylation. Active PERK phosphorylates the α subunit of eukaryotic initiation factor 2 ([[eIF2α]]) at Ser51. Phospho-eIF2α inhibits the guanine nucleotide exchange factor [[eIF2B]], globally attenuating [[cap-dependent translation]] and reducing the influx of nascent polypeptides into the ER. This translational arrest is an immediate (minutes-scale) protective response that lowers ER workload.
 
-Paradoxically, phospho-eIF2α selectively enhances translation of certain mRNAs containing [[upstream open reading frames]] ([[uORFs]]) in their 5′ untranslated regions. The most well-characterized is [[ATF4]] (Activating Transcription Factor 4), a master regulator of the [[Integrated Stress Response]] ([[ISR]]). ATF4 upregulates genes involved in [[amino acid metabolism]] ([[Asns]], [[SLC7A11]]), [[redox homeostasis]] ([[HO-1]], [[SOD2]]), [[autophagy]] ([[ATG5]], [[ATG7]], [[Beclin 1]]), and ER chaperones. However, if ER stress is prolonged, ATF4 drives expression of [[CHOP]] ([[DDIT3]]/[[GADD153]]), a [[pro-apoptotic]] transcription factor. CHOP downregulates [[Bcl-2]], upregulates [[BIM]], and induces [[ERO1α]], leading to [[ER hyper-oxidation]] and [[calcium]] release from the ER, sensitizing mitochondria to [[cytochrome c]] release and [[caspase]] activation. CHOP is a key switch from adaptive to apoptotic UPR and operates in parallel with IRE1-JNK signaling.
+Paradoxically, phospho-eIF2α selectively enhances translation of certain mRNAs containing [[upstream open reading frames]] ([[uORFs]]) in their 5′ untranslated regions. The most well-characterized is [[ATF4]] (Activating Transcription Factor 4), a master regulator of the [[Integrated Stress Response]] ([[ISR]]). ATF4 upregulates genes involved in [[amino acid metabolism]] ([[Asns]], [[SLC7A11]]), [[Redox Homeostasis]] ([[HO-1]], [[SOD2]]), [[autophagy]] ([[ATG5]], [[ATG7]], [[Beclin 1]]), and ER chaperones. However, if ER stress is prolonged, ATF4 drives expression of [[CHOP]] ([[DDIT3]]/[[GADD153]]), a [[pro-apoptotic]] transcription factor. CHOP downregulates [[Bcl-2]], upregulates [[BIM]], and induces [[ERO1α]], leading to [[ER hyper-oxidation]] and [[calcium]] release from the ER, sensitizing mitochondria to [[cytochrome c]] release and [[caspase]] activation. CHOP is a key switch from adaptive to apoptotic UPR and operates in parallel with IRE1-JNK signaling.
 
 ### ATF6 Branch
 
@@ -60,6 +59,16 @@ Viruses such as [[SARS-CoV-2]], [[hepatitis C virus]], and [[influenza]] hijack 
 
 [[Tauroursodeoxycholic Acid]] ([[TUDCA]]) and [[4-Phenylbutyrate]] ([[4-PBA]]) are chemical chaperones that reduce ER stress and improve folding capacity. [[ISRIB]] (Integrated Stress Response Inhibitor) reverses the effects of p-eIF2α, enhancing translation even under PERK activation, and shows promise in cognitive enhancement and neurodegeneration models. [[IRE1 RNase inhibitors]] ([[MKC-8866]], [[STF-083010]]) block XBP1 splicing and RIDD. [[PERK inhibitors]] ([[GSK2606414]]) have been explored but faced toxicity at high doses. [[ATF6 activators]] ([[ceapins]]) and inhibitors are under investigation.
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - ER stress Accumulation of misfolded proteins in the ER is a potent stress signal that induces activation of stress responses, such as the Unfolded Protein Response (UPR) and Autophagy, with the goal of reestablishing cell homeostasis.
+
+
 ## Connections
 
 - [[Unfolded Protein Response]] — related entity
@@ -76,4 +85,4 @@ Viruses such as [[SARS-CoV-2]], [[hepatitis C virus]], and [[influenza]] hijack 
 
 - New links added: [[IRE1]], [[PERK]], [[ATF6]], [[BiP]], [[GRP78]], [[CHOP]], [[JNK]], [[XBP1]], [[sXBP1]], [[RIDD]], [[TRAF2]], [[ASK1]], [[eIF2α]], [[ATF4]], [[eIF2B]], [[Integrated Stress Response]], [[ISRIB]], [[TUDCA]], [[ERAD]], [[ER proteostasis]], [[Wolcott-Rallison syndrome]], [[Multiple Myeloma]], [[Endoplasmic Reticulum]], [[Golgi apparatus]], [[COPII]], [[S1P]], [[S2P]], [[protein disulfide isomerase]], [[Type 2 Diabetes Mellitus]], [[Non-alcoholic Fatty Liver Disease]], [[Amyotrophic Lateral Sclerosis]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Huntington's Disease]], [[MKC-8866]], [[GSK2606414]], [[4-PBA]], [[ceapins]], [[ManniKind]]
 - Suggested new entity notes to create: [[MKC-8866]], [[ISRIB]], [[CEAPINS]], [[Wolcott-Rallison syndrome]]
-- Strong connections to strengthen: [[Apoptosis]] ↔ [[Unfolded Protein Response]], [[Integrated Stress Response]] ↔ [[Unfolded Protein Response]], [[Autophagy]] ↔ [[Unfolded Protein Response]]
+  - Strong connections to strengthen: [[Apoptosis]] ↔ Unfolded Protein Response, Integrated Stress Response ↔ Unfolded Protein Response, Autophagy ↔ Unfolded Protein Response

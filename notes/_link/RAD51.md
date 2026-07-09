@@ -3,11 +3,10 @@ title: RAD51
 description: RAD51 is a recombinase enzyme essential for Homologous Recombination
   (HR) repair of Double-Strand Breaks and DNA Interstrand Crosslinks. It forms helical
   filaments on single-stranded DNA, catalyzin...
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: []
 ---
 # RAD51
@@ -31,4 +30,4 @@ RAD51 is a recombinase enzyme essential for [[Homologous Recombination]] (HR) re
 ## Linking Summary
 - New links added: [[Homologous Recombination]], [[Double-Strand Breaks]], [[DNA]], [[BRCA2]], [[BRCA1]], [[DNA Repair]], [[Cancer]], [[Chemoresistance]], [[Platinum-based drugs]], [[PARP inhibitors]], [[RAD51 Paralogs]]
 - Suggested new entity notes to create: [[RAD51B]], [[RAD51C]], [[RAD51D]], [[XMCC3]], [[RAD51 Filament]]
-- Strong connections to strengthen: [[RAD51]] ↔ [[BRCA2]], [[RAD51]] ↔ [[Homologous Recombination]]
+  - Strong connections to strengthen: [[RAD51]] ↔ [[BRCA2]], [[RAD51]] ↔ Homologous Recombination

@@ -1,12 +1,11 @@
 ---
 title: FADD
-description: 'FADD (Fas-associated via death domain) is a critical adaptor protein
-  that bridges death receptors to initiator caspases in the Extrinsic Pathway of Apoptosis.'
-type: entity
+description: FADD (Fas-associated via death domain) is a critical adaptor protein
+  that bridges death receptors to initiator caspases in the Extrinsic Pathway of Apoptosis.
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - Enzyme
+  - enzyme
 aliases: []
 ---
 
@@ -21,6 +20,14 @@ FADD contains both a death domain (DD) and a death effector domain (DED).
 
 ## Role in Cancer
 Downregulation of FADD is observed in several cancers, such as thyroid and lung carcinomas, contributing to resistance against death receptor-mediated apoptosis.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - These death receptors have an intracellular death domain that recruits adapter proteins such as TRADD and FADD, as well as cysteine proteases like Caspase-8 \[\].
+
 
 ## Connections
 - [[Extrinsic Pathway]]: The essential adaptor for most death receptor signaling.

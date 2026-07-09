@@ -1,13 +1,12 @@
 ---
 title: RANK
-description: 'Overview: RANK is a cellular protein with structural, signaling,
+description: 'Overview: RANK is a cellular protein with structural, signaling,'
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
-  and signaling networks that govern cell...'
-type: entity
+  and signaling networks that govern cell...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [Receptor Activator of NF-κB, TNFRSF11A]
 
 ---
@@ -24,10 +23,20 @@ aliases: [Receptor Activator of NF-κB, TNFRSF11A]
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - In this case, TFE3 activation occurs downstream of the growth factors M-CSF and RANK and requires MAPK-dependent TFE3 phosphorylation (Hershey & Fisher 2004).
+
+
 ## Connections
 - [[RANK]] — related entity
 
 ## Linking Summary
 - New links added: [[RANK]]
-- Strong connections to strengthen: [[RANK]] ↔ [[RANK]]
+  - Strong connections to strengthen: [[RANK]] ↔ [[RANK]]
 

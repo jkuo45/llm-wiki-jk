@@ -1,13 +1,12 @@
 ---
 title: Tubulin
-description: 'Overview: Tubulin is a cellular protein with structural, signaling,
+description: 'Overview: Tubulin is a cellular protein with structural, signaling,'
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
-  and signaling networks that govern c...'
-type: entity
+  and signaling networks that govern c...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: []
 ---
 
@@ -28,5 +27,5 @@ aliases: []
 
 ## Linking Summary
 - New links added: [[Tubulin]]
-- Strong connections to strengthen: [[Tubulin]] ↔ [[Tubulin]]
+  - Strong connections to strengthen: [[Tubulin]] ↔ [[Tubulin]]
 

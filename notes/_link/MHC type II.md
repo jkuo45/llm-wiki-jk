@@ -2,15 +2,14 @@
 title: MHC type II
 description: Major histocompatibility complex class II molecules, involved in antigen
   presentation.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
   - immunology
-  - antigen presentation
-  - adaptive immunity
-  - MHC
-  - Protein
+  - antigen-presentation
+  - adaptive-immunity
+  - mhc
+  - protein
 aliases:
   - MHC II
   - HLA-D
@@ -74,6 +73,16 @@ Homozygous loss-of-function mutations in genes encoding MHC II transactivators (
 
 Many cancers downregulate MHC II expression on tumor cells as an immune evasion strategy, reducing CD4+ T cell recognition and辅助 support for CD8+ cytotoxic T cell responses. Administration of [[Interferon-gamma]] (IFN-γ) or [[Interferon-alpha]] can upregulate MHC II on tumor cells, enhancing their immunogenicity. In the context of [[Checkpoint Inhibitor]] therapy, MHC II expression on tumors is correlated with improved response rates and better prognosis in several cancer types, including [[Melanoma]] and renal cell carcinoma. Understanding the MHC II–peptide–TCR axis continues to inform peptide vaccine design and adoptive T cell therapies targeting CD4+ epitopes.
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - TFEB is activated during Dendritic Cell maturation, leading to increased phagosomal acidification, increased protein degradation, and enhanced antigen presentation by the MHC type II, a process that is critical for initiating the T-cell response to pathogen...
+
+
 ## Connections
 
 - [[Immune System]] — MHC II is a central component of adaptive immunity
@@ -101,4 +110,4 @@ Many cancers downregulate MHC II expression on tumor cells as an immune evasion 
 - New links added: [[HLA-DR]], [[HLA-DQ]], [[HLA-DP]], [[HLA-DM]], [[HLA-DO]], [[CD4]], [[CD74]], [[CD80]], [[CD86]], [[CD28]], [[Dendritic Cells]], [[Macrophages]], [[B Cells]], [[Antigen Presenting Cells]], [[Adaptive Immunity]], [[T Cell Receptor]], [[Citrullination]], [[Rheumatoid Arthritis]], [[Celiac Disease]], [[Type 1 Diabetes Mellitus]], [[Multiple Sclerosis]], [[Interferon-gamma]], [[Cathepsin]], [[Dendritic Cells]], [[Th1]], [[Treg]], [[TGF-beta]], [[IL-12]], [[IL-4]], [[IL-6]], [[IL-23]], [[IgE]], [[Tumor Necrosis Factor-alpha]], [[Allograft Rejection]], [[Checkpoint Inhibitor]], [[Melanoma]]
 - Existing links retained: [[Immune System]], [[TFEB]]
 - Suggested new entity notes to create: [[HLA-DR]], [[HLA-DQ]], [[HLA-DP]], [[HLA-DM]], [[HLA-DO]], [[CD74]], [[Antigen Presenting Cells]], [[Adaptive Immunity]]
-- Strong connections to strengthen: [[MHC type II]] ↔ [[CD4]], [[MHC type II]] ↔ [[Antigen Presenting Cells]], [[MHC type II]] ↔ [[HLA-DR]]
+  - Strong connections to strengthen: MHC type II ↔ CD4, MHC type II ↔ Antigen Presenting Cells, MHC type II ↔ HLA-DR

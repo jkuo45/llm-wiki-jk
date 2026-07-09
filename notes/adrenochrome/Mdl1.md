@@ -1,11 +1,10 @@
 ---
 title: Mdl1
 description: Mdl1 is an ATP-binding cassette (ABC) transporter located in the yeast mitochondrial inner membrane that exports matrix-generated peptide fragments, serving as a key mediator of mitochondrial quality control, the mitochondrial unfolded protein response (UPRmt), and mitohormesis signaling.
-type: entity
 created: 2026-07-04
 updated: 2026-07-06
 tags:
-  - Transporter
+  - transporter
 aliases: []
 ---
 

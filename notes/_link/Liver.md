@@ -1,12 +1,11 @@
 ---
 title: Liver
-description: 'Overview: Liver is a specialized cellular or anatomical structure
-  with defined functions in tissue organization and physiology.'
-type: entity
+description: 'Overview: Liver is a specialized cellular or anatomical structure'
+  with defined functions in tissue organization and physiology.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Anatomy
+  - anatomy
 aliases: [Hepatic]
 
 ---
@@ -23,10 +22,20 @@ aliases: [Hepatic]
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Liver diseases: (1) FLDs The disease spectrum of FLDs, with high-fat/high-calori
+
+
 ## Connections
 - [[Liver]] — related entity
 
 ## Linking Summary
 - New links added: [[Liver]]
-- Strong connections to strengthen: [[Liver]] ↔ [[Liver]]
+  - Strong connections to strengthen: [[Liver]] ↔ [[Liver]]
 

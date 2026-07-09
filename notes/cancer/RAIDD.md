@@ -1,11 +1,10 @@
 ---
 title: RAIDD
 description: RAIDD (RIP-associated protein with a death domain) is an adaptor protein that assembles the PIDDosome by linking PIDD to Caspase-2, initiating DNA damage-induced apoptosis.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Protein
+  - protein
 aliases: []
 ---
 
@@ -24,6 +23,14 @@ The PIDD–RAIDD–Caspase-2 axis functions as a genomic-stress sensor that elim
 ## Clinical & Research Relevance
 
 RAIDD/PIDDosome integrity is a biomarker of apoptotic competence and a determinant of response to DNA-damaging [[Chemotherapy]] and radiation. Strategies that restore PIDDosome assembly or bypass Caspase-2 dependence are explored to overcome resistance. RAIDD remains a key experimental tool for dissecting apical caspase activation.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Evading apoptosis in cancer|Evading apoptosis in cancer]]
+    - Of note, Caspase-2 is activated via formation of the PIDDosome, a complex which consists of the adaptor proteins PIDD (p53-induced death domain protein) and RAIDD (RIP-associated protein with a death domain).
+
 
 ## Connections
 

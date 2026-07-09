@@ -1,13 +1,12 @@
 ---
 title: DNAmGrimAge
-description: 'DNAmGrimAge is a second-generation Epigenetic Clock developed by
+description: DNAmGrimAge is a second-generation Epigenetic Clock developed by
   Steve Horvath and colleagues (2019) that predicts biological age and mortality risk
-  based on DNA Methylation levels at 1,030 CpG...'
-type: entity
+  based on DNA Methylation levels at 1,030 CpG...
 created: 2024-01-01
 updated: 2024-07-04
 tags:
-  - Biomarker
+  - biological-molecule
 aliases: []
 ---
 
@@ -53,6 +52,14 @@ The difference between DNAmGrimAge and chronological age — *GrimAge accelerati
 - Population-specific: Trained primarily on European-ancestry cohorts; performance in non-European populations is less validated.
 - Cross-sectional: Best for cross-sectional age estimation; longitudinal intervention studies are still emerging.
 - Proteomic surrogates: Not direct protein measurements; DNAm surrogates may miss post-translational regulation.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks|Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks]]
+    - The accuracy of prediction of early aging and age‐related diseases by blood‐based epigenetic biomarkers is increasing and the newly developed “next‐generation clock” DNAmGrimAge transcends the “first‐generation clocks”.
+
 
 ## Connections
 

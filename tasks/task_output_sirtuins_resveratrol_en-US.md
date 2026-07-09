@@ -64,12 +64,12 @@ Subsequent structural biology and biochemical studies resolved this, demonstrati
 
 While direct binding occurs, a significant portion of resveratrol's in vivo effects is mediated indirectly by increasing cellular levels of nicotinamide adenine dinucleotide ([NAD+](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/NAD+.md)), the obligate co-substrate for SIRT1 activity.
 
-1. **Phosphodiesterase (PDE) Inhibition:** Resveratrol acts as a competitive inhibitor of cyclic adenosine monophosphate ([cAMP](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/cAMP.md)) phosphodiesterases (specifically **[PDE4](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/PDE4.md)**).
-2. **cAMP Accumulation:** Inhibiting PDE prevents cAMP degradation, leading to an accumulation of intracellular cAMP.
-3. **Calcium Signaling:** High cAMP activates **[Epac1](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/Epac1.md)** (Exchange Protein directly Activated by cAMP), which triggers the release of Calcium (**Ca2+**) from the endoplasmic reticulum into the cytoplasm.
-4. **AMPK Activation:** The surge in cytoplasmic Ca2+ activates **[CaMKKβ](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/CaMKKβ.md)** (calmodulin-dependent protein kinase kinase beta), which phosphorylates and activates **[AMPK](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/AMPK.md)** (AMP-activated protein kinase).
-5. **NAD+ Synthesis:** Activated AMPK increases the expression of **[NAMPT](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/NAMPT.md)** (nicotinamide phosphoribosyltransferase), the rate-limiting enzyme in the [NAD+](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/NAD+.md) salvage pathway.
-6. **SIRT1 Stimulation:** The resulting boost in cellular NAD+ levels fuels SIRT1, dramatically increasing its deacetylase activity.
+- **Phosphodiesterase (PDE) Inhibition:** Resveratrol acts as a competitive inhibitor of cyclic adenosine monophosphate ([cAMP](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/cAMP.md)) phosphodiesterases (specifically **[PDE4](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/PDE4.md)**).
+- **cAMP Accumulation:** Inhibiting PDE prevents cAMP degradation, leading to an accumulation of intracellular cAMP.
+- **Calcium Signaling:** High cAMP activates **[Epac1](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/Epac1.md)** (Exchange Protein directly Activated by cAMP), which triggers the release of Calcium (**Ca2+**) from the endoplasmic reticulum into the cytoplasm.
+- **AMPK Activation:** The surge in cytoplasmic Ca2+ activates **[CaMKKβ](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/CaMKKβ.md)** (calmodulin-dependent protein kinase kinase beta), which phosphorylates and activates **[AMPK](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/AMPK.md)** (AMP-activated protein kinase).
+- **NAD+ Synthesis:** Activated AMPK increases the expression of **[NAMPT](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/NAMPT.md)** (nicotinamide phosphoribosyltransferase), the rate-limiting enzyme in the [NAD+](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/NAD+.md) salvage pathway.
+- **SIRT1 Stimulation:** The resulting boost in cellular NAD+ levels fuels SIRT1, dramatically increasing its deacetylase activity.
 
 ### Downstream Effects of SIRT1 Activation
 
@@ -110,8 +110,8 @@ Despite the robust biochemistry observed in laboratory settings, translating res
 > [!warning] Bioavailability Challenge
 > Resveratrol is highly lipophilic and rapidly absorbed in the human gastrointestinal tract, but it undergoes extensive first-pass metabolism (rapid glucuronidation and sulfation in the gut and liver). Extremely low concentrations of free, active resveratrol reach the systemic circulation and target tissues.
 
-1. **Hormetic (Biphasic) Effects:** Resveratrol often exhibits a biphasic dose-response curve. At low to moderate concentrations, it acts as a mild stressor that triggers beneficial adaptive responses (SIRT1 activation, antioxidant upregulation). However, at very high concentrations, it can induce off-target effects, cell cycle arrest, or pro-oxidant states depending on the cell type.
-2. **Clinical Consistency:** Due to differences in formulation, dosing, and individual metabolic rates, clinical trial results have been inconsistent.
+- **Hormetic (Biphasic) Effects:** Resveratrol often exhibits a biphasic dose-response curve. At low to moderate concentrations, it acts as a mild stressor that triggers beneficial adaptive responses (SIRT1 activation, antioxidant upregulation). However, at very high concentrations, it can induce off-target effects, cell cycle arrest, or pro-oxidant states depending on the cell type.
+- **Clinical Consistency:** Due to differences in formulation, dosing, and individual metabolic rates, clinical trial results have been inconsistent.
 
 ---
 
@@ -316,7 +316,7 @@ The underlying data and mathematical checks for each compound are explained belo
 
 ---
 
-### 1. [Resveratrol](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/Resveratrol.md) ([SIRT1](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/SIRT1.md))
+### [Resveratrol](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/Resveratrol.md) ([SIRT1](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/SIRT1.md))
 *   **Target Dose:** 500 mg
 *   **Red Wine Data:** Systematic reviews and databases (such as *Phenol-Explorer*) show that the average trans-resveratrol concentration in red wine is approximately **1.9 mg per liter** (typically ranging from 0.5 to 4.0 mg/L depending on the grape variety and skin contact time during fermentation).
     *   **Calculation:** 
@@ -332,7 +332,7 @@ The underlying data and mathematical checks for each compound are explained belo
 
 ---
 
-### 2. [Dihydromyricetin](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/Dihydromyricetin.md) / DHM ([SIRT3](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/SIRT3.md))
+### [Dihydromyricetin](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/Dihydromyricetin.md) / DHM ([SIRT3](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/SIRT3.md))
 *   **Target Dose:** 300 mg
 *   **Vine Tea (*Ampelopsis grossedentata*) Data:** Dried leaves of this specific plant are remarkably rich in DHM, frequently testing between **20% and 30% DHM by weight** in dry leaf samples. 
     *   **Calculation (at 20% DHM content):** 
@@ -343,7 +343,7 @@ The underlying data and mathematical checks for each compound are explained belo
 
 ---
 
-### 3. Cyanidin-3-Glucoside / C3G ([SIRT6](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/SIRT6.md))
+### Cyanidin-3-Glucoside / C3G ([SIRT6](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/SIRT6.md))
 *   **Target Dose:** 300 mg
 *   **Blackberry Data:** The *Phenol-Explorer* database lists the mean concentration of cyanidin-3-glucoside in raw blackberries as **138.72 mg per 100 grams FW**, with a recorded minimum of **85.21 mg/100g FW**.
     *   **Calculation (at mean concentration):** 
@@ -360,7 +360,7 @@ The underlying data and mathematical checks for each compound are explained belo
 
 ---
 
-### 4. [Honokiol](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/Honokiol.md) ([SIRT3](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/SIRT3.md)) — *A Solubility Correction*
+### [Honokiol](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/Honokiol.md) ([SIRT3](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/SIRT3.md)) — *A Solubility Correction*
 Upon closer inspection of the physical chemistry, the raw tea estimate for Honokiol requires an important scientific clarification regarding **solubility**:
 
 *   **Target Dose:** 200 mg

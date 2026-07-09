@@ -1,11 +1,10 @@
 ---
 title: 6-hydroxydopamine
-description: '6-hydroxydopamine (6-OHDA) is a neurotoxin used in research to model Parkinson''s Disease due to its ability to selectively destroy catecholaminergic neurons through the generation of reactive oxygen species.'
-type: entity
+description: 6-hydroxydopamine (6-OHDA) is a neurotoxin used in research to model Parkinson''s Disease due to its ability to selectively destroy catecholaminergic neurons through the generation of reactive oxygen species.
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Toxin
+  - chemical-compound
 aliases: []
 ---
 
@@ -28,6 +27,14 @@ The 6-OHDA lesion model has been instrumental in delineating the anatomy of the 
 ## Pathology & Clinical Relevance
 
 As a tool, 6-OHDA has clarified that oxidative stress and mitochondrial impairment are sufficient to kill dopaminergic neurons, supporting the [[Oxidative Stress]] and [[Mitochondrial Dysfunction]] hypotheses of PD. It is also a cautionary reminder that environmental or endogenous catechols with redox-cycling potential could contribute to selective neuronal vulnerability. Comparative work with [[MPTP]] and rotenone has refined understanding of which mitochondrial targets are most critical in parkinsonism.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator|Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator]]
+    - As such, the assortment of chemical precursors of ill-defined proportion which can incorporate in addition to Dopamine and Cysteine during the polymerization cascade could also result in the lack of a consistent, regularly ordered structure, particularly in...
+
 
 ## Connections
 

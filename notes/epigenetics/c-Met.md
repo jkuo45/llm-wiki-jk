@@ -1,11 +1,10 @@
 ---
 title: c-Met
 description: c-Met (MET receptor tyrosine kinase) is the receptor for Hepatocyte Growth Factor, driving cell growth, motility, and invasion.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Receptor
+  - receptor
 aliases: []
 ---
 

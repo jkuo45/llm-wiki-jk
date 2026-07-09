@@ -1,11 +1,10 @@
 ---
 title: Hallmarks of Cancer
 description: The Hallmarks of Cancer are the underlying biological capabilities acquired during the multistep development of human tumors, originally proposed by Hanahan and Weinberg.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Scientific Concept
+  - scientific-concept
 aliases: []
 ---
 
@@ -33,6 +32,14 @@ Two "enabling" traits — genome instability and tumor-promoting inflammation �
 ## Clinical & Research Relevance
 
 Each hallmark suggests therapeutic vulnerabilities: MEK/EGFR inhibitors (proliferative signaling), immune checkpoint blockade (immune evasion), anti-VEGF agents (angiogenesis), glycolysis/[[GLUT1]] blockade (energetics), and apoptosis restoration (BH3 mimetics). Recognizing the hallmarks frames why multi-target approaches — including repurposed drugs such as [[Ivermectin]] that hit several hallmarks at once ([[YAP1]], [[Akt]]/[[mTOR]], [[PAK1]]) — may overcome the redundancy that drives [[Chemotherapy]] resistance.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - The Hallmarks of Cancer. Cell.
+
 
 ## Connections
 

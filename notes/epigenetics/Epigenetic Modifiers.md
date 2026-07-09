@@ -1,13 +1,12 @@
 ---
 title: Epigenetic Modifiers
-description: 'Epigenetic Modifiers (also termed epidrugs) are a class of compounds
+description: Epigenetic Modifiers (also termed epidrugs) are a class of compounds
   that alter the Epigenome of a cell by inhibiting or activating the enzymes responsible
-  for writing, reading, and erasing epi...'
-type: entity
+  for writing, reading, and erasing epi...
 created: 2024-01-01
 updated: 2024-07-04
 tags:
-  - Chemical Compound
+  - chemical-compound
   - epigenetics
 aliases: []
 ---
@@ -59,6 +58,14 @@ Epidrugs operate through a shared paradigm: by blocking the catalytic activity o
 
 - Can epidrugs be targeted to specific genomic loci (e.g., via [[CRISPR]]-dCas9 epigenetic editors) to avoid global toxicity?
 - What is the optimal dosing schedule to achieve epigenetic reprogramming without selecting for resistance?
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - Keywords: Senescence, Cell Stress, DNA Damage, DNA Replication Stress, Epigenetic Modifiers, Aging --- Senescence is a stable arrest of the Cell Cycle and is characterized by complex phenotypic changes.
+
 
 ## Connections
 

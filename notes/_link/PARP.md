@@ -1,12 +1,11 @@
 ---
 title: PARP
-description: 'Catalytic function: PARP is an enzyme that catalyzes biochemical
-  reactions essential for cellular metabolism and homeostasis.'
-type: entity
+description: 'Catalytic function: PARP is an enzyme that catalyzes biochemical'
+  reactions essential for cellular metabolism and homeostasis.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Enzyme
+  - enzyme
 aliases: [Poly(ADP-Ribose) Polymerase]
 
 ---
@@ -28,5 +27,5 @@ aliases: [Poly(ADP-Ribose) Polymerase]
 
 ## Linking Summary
 - New links added: [[PARP]]
-- Strong connections to strengthen: [[PARP]] ↔ [[PARP]]
+  - Strong connections to strengthen: [[PARP]] ↔ [[PARP]]
 

@@ -2,11 +2,10 @@
 title: Advanced Glycation End Products
 description: Advanced Glycation End Products (AGEs) are non-enzymatic modifications
   of proteins or lipids that form after exposure to sugars.
-type: entity
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-07-08
 tags:
-  - Chemical Class
+  - chemical-class
 aliases: []
 ---
 # Advanced Glycation End Products
@@ -58,6 +57,20 @@ Two pharmacological strategies target AGE pathology. **AGE Inhibitors** block fo
 ## Interaction with Catecholamine Oxidation Pathways
 
 A bidirectional relationship exists between AGE formation and [[Adrenochrome]] generation. [[Methylglyoxal]] directly promotes catecholamine oxidation through metal ion chelation and enhanced superoxide production, accelerating adrenochrome formation in cardiac and neural tissues. Conversely, [[Adrenochrome]] and related aminochromes can glycate proteins directly through their o-quinone moieties, forming aminochrome-AGE adducts that activate [[RAGE]] and amplify inflammatory signaling. This convergence of dicarbonyl stress and catecholamine oxidation may represent an underappreciated synergistic mechanism in diabetic cardiomyopathy and neurodegeneration.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Dietary Advanced Glycation End Products and Aging|Dietary Advanced Glycation End Products and Aging]]
+    - Advanced Glycation End Products (AGEs) are a heterogeneous, complex group of compounds that are formed when reducing sugar reacts in a non-enzymatic way with amino acids in proteins and other macromolecules.
+
+  - [[_document_ - The autophagy enhancer spermidine reverses arterial aging|The autophagy enhancer spermidine reverses arterial aging]]
+    - Arterial stiffening results from age-related changes in the arterial wall including increases in collagen deposition, reductions in elastin and cross-linking of these and other structural proteins via formation of Advanced Glycation End Products (O’Rourke a...
+
+  - [[_document_ - Aminoguanidine An AGE Product Inhibitor  Antiaging Systems Articles|Aminoguanidine: An AGE Product Inhibitor]]
+    - Popular review of aminoguanidine (Pimagedine), the first AGE inhibitor, covering its prevention of cardiac enlargement, arterial stiffening, and diabetic complications, plus the AGE-breaker ALT-711.
+
 
 ## Connections
 
@@ -118,8 +131,12 @@ A bidirectional relationship exists between AGE formation and [[Adrenochrome]] g
 - [[Benfotiamine]]: **AGE Inhibitors** block formation at early stages: [[Aminoguanidine]] traps reactive dicarbonyl intermediates (thoug...
 - [[N-Phenacylthiazolium Bromide]]: **AGE Breakers** cleave established crosslinks: [[Alagebrium]] (ALT-711) demonstrates efficacy in reducing vascular s...
 - [[Adrenochrome]]: A bidirectional relationship exists between AGE formation and Adrenochrome generation.
+- [[Cross-linking]]: AGEs form covalent cross-links with structural proteins, the central mechanism of AGE-mediated stiffening.
+- [[Very Low Density Lipoprotein]]: Glycated VLDL adheres to vessel walls, promoting atherosclerosis.
+- [[Albuminuria]]: A clinical sign of AGE-driven diabetic nephropathy, reduced by aminoguanidine.
+- [[Acetyl-L-Carnitine]]: An anti-cross-linking, glycation-countering agent cited with aminoguanidine.
 
 ## Linking Summary
-- New links added: [[Maillard Reaction]], [[Hyperglycemia]], [[Oxidative Stress]], [[Aging]], [[Collagen]], [[Elastic fibers]], [[Catalase]], [[Glutathione Peroxidase]], [[RAGE]], [[Reactive Oxygen Species]], [[Aminoguanidine]], [[Pyridoxamine]], [[Polyphenols]], [[Alagebrium]], [[Epicatechin]], [[Glucosepane]], [[Pentosidine]], [[AGER1]], [[Glyoxalase System]], [[GLO1]], [[GLO2]], [[PARK7]], [[Methylglyoxal]], [[Glyoxal]], [[3-deoxyglucosone]], [[Fructosamine-3-kinase]], [[Amadori products]], [[Fructosyl-Amino Acid Oxidases]], [[Lysosome]], [[Cathepsin D]], [[Cathepsin B]], [[Matrix Metalloproteinases]], [[HemF-like]], [[BluB-like]], [[QueE-like]], [[Carboxymethyllysine]], [[Carboxyethyllysine]], [[Laminin]], [[Fibronectin]], [[Type IV collagen]], [[GAPDH]], [[Aconitase]], [[Low-Density Lipoprotein]], [[Scavenger Receptor]], [[Proteasome]], [[Proteotoxicity]], [[Thiamine]], [[Benfotiamine]], [[Diastolic Dysfunction]], [[Arterial Stiffness]], [[Vascular Permeability]], [[Adrenochrome]]
+- New links added: [[Maillard Reaction]], [[Hyperglycemia]], [[Oxidative Stress]], [[Aging]], [[Collagen]], [[Elastic fibers]], [[Catalase]], [[Glutathione Peroxidase]], [[RAGE]], [[Reactive Oxygen Species]], [[Aminoguanidine]], [[Pyridoxamine]], [[Polyphenols]], [[Alagebrium]], [[Epicatechin]], [[Glucosepane]], [[Pentosidine]], [[AGER1]], [[Glyoxalase System]], [[GLO1]], [[GLO2]], [[PARK7]], [[Methylglyoxal]], [[Glyoxal]], [[3-deoxyglucosone]], [[Fructosamine-3-kinase]], [[Amadori products]], [[Fructosyl-Amino Acid Oxidases]], [[Lysosome]], [[Cathepsin D]], [[Cathepsin B]], [[Matrix Metalloproteinases]], [[HemF-like]], [[BluB-like]], [[QueE-like]], [[Carboxymethyllysine]], [[Carboxyethyllysine]], [[Laminin]], [[Fibronectin]], [[Type IV collagen]], [[GAPDH]], [[Aconitase]], [[Low-Density Lipoprotein]], [[Scavenger Receptor]], [[Proteasome]], [[Proteotoxicity]], [[Thiamine]], [[Benfotiamine]], [[Diastolic Dysfunction]], [[Arterial Stiffness]], [[Vascular Permeability]], [[Adrenochrome]], [[Cross-linking]], [[Very Low Density Lipoprotein]], [[Albuminuria]], [[Acetyl-L-Carnitine]]
 - Suggested new entity notes to create:
 - Strong connections to strengthen: [[Advanced Glycation End Products]] ↔ [[Aging]], [[Methylglyoxal]] ↔ [[Adrenochrome]]

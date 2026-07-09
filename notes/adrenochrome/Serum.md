@@ -3,11 +3,10 @@ title: Serum
 description: Serum is the clear, pale-yellow liquid component of blood that remains
   after coagulation, containing proteins, electrolytes, antibodies, antigens, and
   hormones.
-type: entity
 created: 2026-07-04
 updated: 2026-07-06
 tags:
-  - Anatomy
+  - anatomy
 aliases: []
 ---
 
@@ -94,6 +93,14 @@ Serum drug-level monitoring is essential for drugs with narrow therapeutic indic
 ### Serum vs. Plasma
 
 The choice between serum and [[Plasma]] depends on the analyte. Serum is preferred for serological assays (immunology, virology), chemistry panels, and therapeutic drug monitoring. [[Plasma]] (collected with anticoagulant) is typically used for coagulation studies (PT, aPTT), [[Platelet]] function assays, and tests requiring immediate centrifugation to minimize cellular metabolism (e.g., [[Glucose]], [[Lactate]], [[Ammonia]]). Serum yields slightly higher volumes per unit [[Blood]] but requires clotting time, which may alter labile analytes such as [[Cytokines]] and [[Complement]].
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Adrenochrome Pathway|The Adrenochrome Pathway]]
+    - Oxidase activity was found in Serum from patients following Myocardial infarction which may be of importance in assessing the clinical and pathogenic significance of Reactive Oxygen Species in Heart disease.
+
 
 ## Connections
 

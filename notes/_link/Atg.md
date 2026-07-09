@@ -3,11 +3,10 @@ title: Atg
 description: Atg (autophagy-related) proteins are a family of evolutionarily conserved
   proteins that orchestrate the Autophagy pathway, from initiation to autophagosome
   formation, cargo recognition, and lysosom...
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - Enzyme
+  - enzyme
   - autophagy
 aliases: []
 ---
@@ -16,6 +15,16 @@ aliases: []
 Atg (autophagy-related) proteins are a family of evolutionarily conserved proteins that orchestrate the [[Autophagy]] pathway, from initiation to autophagosome formation, cargo recognition, and lysosomal fusion. Core Atg proteins include the [[ULK1]] complex (initiation), [[Beclin1]]/[[Vps34]] (PI3K complex nucleation), [[Atg12]]-[[Atg5]]-[[Atg16]] conjugation system, [[Atg8]]/[[LC3]] lipidation system, and [[Atg4]] proteases. Atg proteins are regulated by nutrient-sensing kinases [[mTORC1]] and [[AMPK]], and their dysfunction is linked to [[Neurodegeneration]], [[Cancer]], [[Metabolic Disease]], and [[Aging]].
 
 #
+
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - This biological phenomenon depends on the activity of nearly 16 Atgs and 2 distinct ubiquitin-like conjugation systems (Figure 1) \[\]. Two complexes are required to promote the formation of autophagosomes.
+
 
 ## Connections
 - [[Autophagy]] — core pathway executed by Atg proteins
@@ -34,4 +43,4 @@ Atg (autophagy-related) proteins are a family of evolutionarily conserved protei
 ## Linking Summary
 - New links added: [[Autophagy]], [[LC3]], [[Atg5]], [[Atg7]], [[Atg12]], [[Beclin1]], [[ULK1]], [[Atg4]], [[Atg16]], [[Vps34]], [[Atg8]], [[p62]], [[mTORC1]], [[AMPK]], [[Neurodegeneration]], [[Cancer]], [[Metabolic Disease]], [[Aging]]
 - Suggested new entity notes to create: [[Atg3]], [[Atg10]], [[Atg14]], [[Atg101]]
-- Strong connections to strengthen: [[Atg]] ↔ [[Autophagy]], [[Atg]] ↔ [[LC3]]
+  - Strong connections to strengthen: [[Atg]] ↔ Autophagy, [[Atg]] ↔ [[LC3]]

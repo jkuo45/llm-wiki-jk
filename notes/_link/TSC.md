@@ -1,13 +1,12 @@
 ---
 title: TSC
-description: 'Overview: TSC is a cellular protein with structural, signaling,
+description: 'Overview: TSC is a cellular protein with structural, signaling,'
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
-  and signaling networks that govern cell ...'
-type: entity
+  and signaling networks that govern cell ...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [Tuberous Sclerosis Complex, TSC1/TSC2]
 
 ---
@@ -24,10 +23,23 @@ aliases: [Tuberous Sclerosis Complex, TSC1/TSC2]
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - One of the most important sensors involved in the regulation of mTORC1 activity is the TSC, which is a heterodimer that comprises TSC1 (also known as hamartin) and TSC2 (also known as tuberin).
+
+
+  - [[_document_ - Rapamycin for longevity the pros, the cons, and future perspectives|Rapamycin for longevity: pros, cons & future perspectives]]
+    - FDA-approved rapamycin/everolimus for TSC seizures (EXIST-3); prototype for translating mTOR inhibitors to clinic.
+
 ## Connections
 - [[TSC]] — related entity
 
 ## Linking Summary
 - New links added: [[TSC]]
-- Strong connections to strengthen: [[TSC]] ↔ [[TSC]]
+  - Strong connections to strengthen: [[TSC]] ↔ [[TSC]]
 

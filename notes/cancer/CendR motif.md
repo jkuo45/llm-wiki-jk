@@ -1,11 +1,10 @@
 ---
 title: CendR motif
 description: The C-end Rule (CendR) motif is a C-terminal R/K/XXR/K sequence (e.g., in the iRGD peptide) that binds Neuropilin-1, triggering endothelial transcytosis and deep tumor tissue penetration for enhanced drug delivery.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Scientific Concept
+  - scientific-concept
 aliases: []
 ---
 

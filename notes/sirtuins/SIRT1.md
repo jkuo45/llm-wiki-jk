@@ -1,14 +1,13 @@
 ---
 title: SIRT1
-description: 'Sirt1 is a NAD+-dependent class III histone deacetylase (sirtuin)
+description: Sirt1 is a NAD+-dependent class III histone deacetylase (sirtuin)
   and the most extensively characterized member of the Sirtuins family. It links cellular
-  energy status to chromatin regulation, ...'
-type: entity
+  energy status to chromatin regulation, ...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Enzyme
-  - NAD+
+  - enzyme
+  - nad+
 aliases: [Sirt1]
 
 ---
@@ -135,6 +134,47 @@ SIRT1-deficient mice display:
 ## Caloric Restriction and Aging
 
 SIRT1 is a key mediator of [[Caloric Restriction]] benefits in mammals. CR increases SIRT1 levels and activity, and SIRT1 activation by [[Resveratrol]] mimics several physiological effects of CR in rodents. Three SNPs in the human _SIRT1_ gene are associated with systemic energy expenditure.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - MRR - mitohormesis|mitohormesis]]
+    - Pathway Activation: This "oxidative pulse" activates the NRF2/Antioxidant Response Element antioxidant response and stimulates PGC1-α via the SIRT1/AMPK axis (primed by Nicotinamide Riboside/Nicotinamide Mononucleotide).
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - At present, two enzymes have been found that can acetylate TFEB, including GCN5 \[\] and ACAT1 \[, \], and two enzymes have been found that can deacetylate TFEB, including SIRT1 \[, \] and HDACs \[\].
+
+  - [[_document_ - Kinase|Kinase]]
+    - ion | 29945972 | | K116 | Acetylation | ACAT1 | Hindering TFEB binding to the DNA | 30059277 | | K116 | Deacetylation | SIRT1 | Enhancing transcriptional activity | 27209302 | | K91, K103 and K430 | A
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - In vitro analysis indicated that the culture of Breast Cancer and HCT116 cells under calorie restriction conditions led to the upregulation and activation of protein kinase CK2 (isoforms CK2α and CK2β), SIRT1, and phosphorylated AMPK \[\].
+
+  - [[_document_ - Epigenetic changes during aging and their reprogramming potential|Epigenetic changes during aging and their reprogramming potential]]
+    - The first clues that aging is caused by epigenetic changes came from the discovery that a mutation in a yeast gene called silent information regulator, SIR2, extended lifespan by relocalizing the NAD + -dependent SIRT1 histone deacetylase to regions of DNA ...
+
+  - [[_document_ - xenohormesis, mitohormesis|xenohormesis, mitohormesis]]
+    - Target Pathways in Animal Cells: These molecules interact with highly conserved survival and longevity pathways that regulate cellular maintenance over reproduction: - Sirtuins (specifically SIRT1): Enzymes that play a central role in DNA repair, mitochondr...
+
+  - [[_document_ - The Sirtuin System The Holy Grail of Resveratrol?|The Sirtuin System The Holy Grail of Resveratrol?]]
+    - Analysis into recent studies have revealed Resveratrol as a known activator of the protein deacetylase SIRT1 gene, which is thought to mediate anti-proliferative and anti-Inflammation activity due to alteration of gene expression and modulation of numerous ...
+
+  - [[_document_ - sirtuins (overview, CD38 KO risks, cancer therapies)|sirtuins (overview, CD38 KO risks, cancer therapies)]]
+    - Sirtuins Overview Sirtuins (SIRT1–SIRT7) are a family of seven NAD+-dependent enzymes (class III Histone Modification/deacylases) in humans.
+
+  - [[_document_ - sirtuins (resveratrol), gemini|sirtuins (resveratrol), gemini]]
+    - Resveratrol, Sirtuins & Dietary Sources Resveratrol and SIRT1 The interaction between Resveratrol (a natural polyphenolic compound found in grapes, berries, and red wine) and SIRT1 (Sirtuin 1, an NAD+-dependent deacetylase) is one of the most thoroughly res...
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - In this review we describe our current understanding of the biological function of the seven mammalian sirtuins, SIRT1–SIRT7, and we will also discuss their potential as mediators of Caloric Restriction and as pharmacological targets to delay and treat huma...
+
+  - [[_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review|sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review]]
+    - There are a total of seven human sirtuins that have been identified namely, SIRT1, SIRT2, SIRT3, SIRT4, SIRT5, SIRT6 and SIRT7.
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Currently, seven mammalian homologs of yeast Sir2 (yeast) named SIRT1 to SIRT7 have been identified. Increasing evidence has suggested the vital roles of seven members of the SIRT family in health and disease conditions.
+
 
 ## Connections
 - [[Sir2 (yeast)]] — evolutionary ancestor; SIRT1 is the closest mammalian homologue

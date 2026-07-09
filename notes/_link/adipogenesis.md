@@ -1,10 +1,9 @@
 ---
 title: Adipogenesis
 description: Biological process of differentiation of mesenchymal preadipocytes into lipid-accumulating mature adipocytes.
-type: entity
 created: 2026-07-07
 updated: 2026-07-07
-tags: [Biological Process, Adipocyte, Differentiation, Metabolism]
+tags: [biological-process, adipocyte, differentiation, metabolism]
 aliases: []
 ---
 
@@ -22,6 +21,16 @@ Adipogenesis proceeds in two phases. Early commitment is driven by the C/EBPβ a
 
 Impaired adipogenesis ("adipose tissue dysfunction") forces lipid spillover into liver and muscle, promoting ectopic fat deposition and [[Insulin Resistance]], a core feature of [[Metabolic Syndrome]]. Conversely, excessive adipogenesis and hyperplasia drive obesity. Pharmacologic modulation of PPARγ (thiazolidinediones) improves insulin sensitivity by enhancing adipogenesis and lipid buffering. Brown adipogenesis (via PRDM16/PGC-1α) is a target for thermogenic anti-obesity therapy. Understanding adipogenesis informs strategies to expand healthy, metabolically protective fat.
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - tumor formation and Angiogenesis, Insulin Resistance, adipogenesis and T-lymphocyte activation) and is deregulated in human diseases such as Cancer and type 2 diabetes. These observations have attracted broad scientific and clinical interest in mTOR.
+
+
 ## Connections
 
 - [[Adipose Tissue]] - tissue formed and expanded through adipogenesis
@@ -35,4 +44,4 @@ Impaired adipogenesis ("adipose tissue dysfunction") forces lipid spillover into
 
 - New links added: [[Adipose Tissue]], [[PPARγ]], [[Insulin Resistance]], [[Lipid Synthesis]], [[Obesity]], [[Metabolic Syndrome]]
 - Suggested new entity notes to create: [[C/EBPα]], [[Brown Adipogenesis]]
-- Strong connections to strengthen: [[Adipogenesis]] ↔ [[PPARγ]]
+  - Strong connections to strengthen: Adipogenesis ↔ [[PPARγ]]

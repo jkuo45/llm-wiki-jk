@@ -1,11 +1,10 @@
 ---
 title: Lymphatic Filariasis
 description: Lymphatic filariasis (elephantiasis) is a neglected tropical disease caused by filarial nematodes (Wuchereria bancrofti, Brugia spp.) transmitted by mosquitoes, treated with Ivermectin, Diethylcarbamazine, and Albendazole.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: []
 ---
 
@@ -24,6 +23,14 @@ Diagnosis uses nighttime blood smears or antigen tests (e.g., filarial antigen c
 ## Clinical & Research Relevance
 
 Global elimination programs (led by the [[World Health Organization]] and the [[Mectizan Donation Program]] for onchocerciasis/co-endemic filariasis) distribute annual combination antiparasitic therapy: ivermectin plus albendazole, or diethylcarbamazine plus albendazole. Ivermectin paralyzes microfilariae and enhances host clearance; albendazole targets the intestinal microtubules of adult worms. Research focuses on triple-drug regimens (IDA: ivermectin, diethylcarbamazine, albendazole) that accelerate suppression of transmission. While not a cancer, the disease intersects the broader ivermectin oncology narrative through shared pharmacology.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, ‘Wonder drug’ from Japan the human use perspective|Ivermectin, ‘Wonder drug’ from Japan the human use perspective]]
+    - Keywords: Avermectin, Ivermectin, mode of action, Onchocerciasis, Lymphatic Filariasis, drug resistance Introduction There are few drugs that can
+
 
 ## Connections
 

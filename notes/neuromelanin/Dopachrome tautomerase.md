@@ -1,11 +1,10 @@
 ---
 title: Dopachrome tautomerase
-description: 'Dopachrome tautomerase is an alternative name for Tyrosinase-related protein-2 (TRP-2), an enzyme critical for the production of melanin.'
-type: entity
+description: Dopachrome tautomerase is an alternative name for Tyrosinase-related protein-2 (TRP-2), an enzyme critical for the production of melanin.
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Enzyme
+  - enzyme
 aliases: []
 ---
 
@@ -28,6 +27,14 @@ Genetic variation and expression of tyrosinase-family enzymes influence pigmenta
 ## Pathology & Clinical Relevance
 
 DCT/TRP-2 illustrates how the melanogenic toolkit is repurposed in the brain and how pigment biochemistry intersects with neurodegeneration and immunity. It is a useful reference point for comparing cutaneous and neural melanin and for understanding why pigment-cell biology is shared across skin and [[Substantia Nigra Pars Compacta]].
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease|Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease]]
+    - New links added: Konstantin Nikolaevich Tretiakoff, Pale Bodies, Immunoglobulin G, Major histocompatibility complex class I, Lipofuscin, Eumelanin, Pheomelanin, L-Tyrosine, TFEB, Ambroxol, p62, Ubiquitin, Bradykinesia, Iron, Tyrosinase-related protein-1, Ty...
+
 
 ## Connections
 

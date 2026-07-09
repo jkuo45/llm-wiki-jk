@@ -3,11 +3,10 @@ title: Mesenchymal-to-Epithelial Transition
 description: The Mesenchymal-to-Epithelial Transition (MET) is a reversible biological
   process in which cells convert from a mesenchymal to an epithelial phenotype; essential
   for reprogramming fibroblasts into iPSCs.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Biological Process
+  - biological-process
 aliases: []
 ---
 
@@ -28,6 +27,14 @@ MET is a critical, early landmark in the [[Cellular Reprogramming]] of [[Fibrobl
 ## Physiological Relevance
 
 MET operates in embryonic development (e.g., during kidney and lung organogenesis, where migrating mesenchymal condensates epitheliaze) and in adult tissue repair. It counterbalances EMT to maintain tissue architecture.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network|Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network]]
+    - Epithelial-to-Mesenchymal Transition Reversal of Epithelial-to-Mesenchymal Transition, i.e., Mesenchymal-to-Epithelial Transition, also plays a major role in Cellular Reprogramming somatic cells.
+
 
 ## Connections
 

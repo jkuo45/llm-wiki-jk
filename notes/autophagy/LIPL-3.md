@@ -1,13 +1,12 @@
 ---
 title: LIPL-3
-description: 'LIPL-3 is a lysosomal lipase in C. elegans that, along with LIPL-1,
+description: LIPL-3 is a lysosomal lipase in C. elegans that, along with LIPL-1,
   is essential for Lysosomal Lipolysis and the mobilization of fat stores via Lipophagy.
-  It is a functional orthologue of human...'
-type: entity
+  It is a functional orthologue of human...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Enzyme
+  - enzyme
 aliases: [C. elegans lysosomal lipase 3]
 
 ---
@@ -28,6 +27,14 @@ aliases: [C. elegans lysosomal lipase 3]
 ## Function
 
 LIPL-3 is a C. elegans lysosomal lipase involved in [[Lipophagy]] and fat storage mobilization.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - elegans, translocates to the nucleus following starvation to up-regulate expression of the lysosomal lipases LIPL-1 and LIPL-3.
+
 
 ## Connections
 

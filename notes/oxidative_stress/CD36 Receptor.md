@@ -3,14 +3,13 @@ title: CD36 Receptor
 description: CD36 is a member of the class B scavenger receptor family and is involved
   in lipid metabolism and inflammation. It plays a significant role in Atherosclerosis
   by mediating the uptake of Oxidized LD...
-type: entity
 created: 2026-05-09
 updated: 2026-07-04
 tags:
-  - oxidative stress
+  - oxidative-stress
   - atherosclerosis
-  - lipid metabolism
-  - Protein
+  - lipid-metabolism
+  - protein
 aliases: [CD36, scavenger receptor class B member 3, fatty acid translocase, FAT]
 ---
 # CD36 Receptor
@@ -37,6 +36,14 @@ CD36 deficiency in humans is rare but associated with altered lipid metabolism a
 - New links added: [[Macrophage]], [[Apoptosis]], [[Diabetes Mellitus]], [[Metabolic Syndromes]], [[PPARγ]], [[TNF-alpha]], [[IL-1b]], [[TGF-beta]], [[NF-kappa B]], [[Toll-like Receptor]], [[Cardiovascular Disease]], [[p38 MAPK]], [[Oxidized LDL]]
 - Suggested new entity notes to create: [[Foam Cells]], [[Thrombospondin-1]], [[Fyn kinase]], [[Lipotoxicity]], [[Protein kinase C]], [[Soluble CD36]]
 - Strong connections to strengthen: [[CD36 Receptor]] ↔ [[Oxidized LDL]], [[CD36 Receptor]] ↔ [[PPARγ]]
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - Macrophage transition to foam cells is one of the earlier and important steps in atherosclerotic lesion formation; CD36 Receptor is one of the key players involved, being a scavenger receptor responsible for oxidized-LDL (oxLDL) uptake from bloodstream \[, ...
+
 
 ## Connections
 

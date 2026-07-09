@@ -1,13 +1,12 @@
 ---
 title: DNA Replication Stress
-description: 'DNA Replication Stress describes a state of inefficient or stalled
+description: DNA Replication Stress describes a state of inefficient or stalled
   DNA Replication fork progression caused by impediments such as nucleotide depletion,
-  DNA lesions, RNA-DNA hybrids (R-loops), t...'
-type: entity
+  DNA lesions, RNA-DNA hybrids (R-loops), t...
 created: 2024-01-01
 updated: 2024-07-04
 tags:
-  - Scientific Concept
+  - scientific-concept
 aliases: []
 ---
 
@@ -44,6 +43,17 @@ Persistent replication stress is a hallmark of [[Oncogene-Induced Senescence|OIS
 - **ATR inhibition:** [[AZD6738]] (Ceralasertib) and [[VE-822]] exploit baseline replication stress in cancer; synthetic lethality with [[ATM]] loss and [[CCNE1]] amplification.
 - **CHK1 inhibition:** [[Prexasertib]] kills cancer cells with high replication stress.
 - **Protecting normal cells:** [[Roscovitine]] (CDK inhibitor) reduces origin firing and protects against replication stress-induced damage in normal tissues.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - This spontaneous arrest can be attributed to unresolved endogenous DNA Replication Stress inherited from the S Phase of the previous cell cycle (Arora et al., 2017; Barr et al., 2017).
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - Keywords: Senescence, Cell Stress, DNA Damage, DNA Replication Stress, Epigenetic Modifiers, Aging --- Senescence is a stable arrest of the Cell Cycle and is characterized by complex phenotypic changes.
+
 
 ## Connections
 

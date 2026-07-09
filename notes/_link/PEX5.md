@@ -3,11 +3,10 @@ title: PEX5
 description: PEX5 encodes the PTS1 receptor, a cytosolic shuttling receptor that recognizes
   and transports peroxisomal matrix proteins bearing the C-terminal peroxisomal targeting
   signal 1 (PTS1) to the peroxisomal membrane docking complex.
-type: entity
 created: 2026-07-04
 updated: 2026-07-06
 tags:
-  - Protein
+  - protein
 aliases: [peroxisomal biogenesis factor 5, PTS1 receptor]
 ---
 
@@ -74,4 +73,4 @@ Biallelic PEX5 loss in mice is embryonic lethal; conditional knockout in liver c
 ## Linking Summary
 - New links added: [[PEX13]], [[PEX14]], [[PEX2]], [[PEX10]], [[PEX12]], [[PEX1]], [[PEX6]], [[PEX7]], [[Peroxisome]], [[Zellweger Spectrum Disorders]], [[Pexophagy]], [[Beta-Oxidation]], [[Fatty acid]], [[Cytosol]], [[Signal Peptidase]]
 - Suggested new entity notes to create: [[PTS1]], [[Peroxisomal Targeting Signal]]
-- Strong connections to strengthen: [[PEX5]] ↔ [[PEX13]], [[PEX5]] ↔ [[PEX14]], [[PEX5]] ↔ [[Zellweger Spectrum Disorders]]
+  - Strong connections to strengthen: [[PEX5]] ↔ [[PEX13]], [[PEX5]] ↔ [[PEX14]], [[PEX5]] ↔ Zellweger Spectrum Disorders

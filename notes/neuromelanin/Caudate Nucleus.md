@@ -3,11 +3,10 @@ title: Caudate Nucleus
 description: The Caudate Nucleus is one of the two components of the striatum (along
   with the Putamen), forming part of the Basal Ganglia. It receives dopaminergic input
   from the Substantia Nigra Pars Compacta ...
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Anatomy
+  - anatomy
 aliases: []
 ---
 

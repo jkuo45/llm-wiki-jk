@@ -1,19 +1,17 @@
 ---
 title: Glutamine
 description: A conditional essential amino acid and the most abundant free amino acid in the body, serving as a critical fuel source for rapidly dividing cells, including immune cells and cancer cells.
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - Amino Acid
-  - Metabolism
-  - cancer metabolism
-  - fuel source
+  - chemical-compound
+  - metabolism
+  - cancer-metabolism
+  - fuel-source
 source: https://en.wikipedia.org/wiki/Glutamine
 aliases:
   - Gln
   - L-Glutamine
-entity_type_2: Metabolite
 ---
 
 # Glutamine
@@ -51,6 +49,14 @@ In healthy individuals, glutamine is vital for:
 
 - **Critical Illness**: Glutamine supplementation is often used in clinical settings (e.g., for patients with severe burns or trauma) to support immune function and gut health.
 - **Cancer Therapy**: Targeting glutamine metabolism (e.g., using [[Glutaminase]] inhibitors like [[CB-839]]) is an active area of research in [[Oncology]].
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - It was recently shown that leucine, an essential amino acid required for mTORC1 activation, is transported into cells in a Glutamine-dependent fashion (Nicklin et al., 2009). Glutamine, which is imported into cells through SLC1A5 \[solute carrier family
+
 
 ## Connections
 

@@ -1,13 +1,12 @@
 ---
 title: ATM
-description: 'ATM (Ataxia-Telangiectasia Mutated) is a ~350 kDa serine/threonine
+description: ATM (Ataxia-Telangiectasia Mutated) is a ~350 kDa serine/threonine
   protein kinase belonging to the PI3K-related kinase (PIKK) family. It functions
-  as the master initiator of the DNA Damage Resp...'
-type: entity
+  as the master initiator of the DNA Damage Resp...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [Atm]
 
 ---
@@ -36,6 +35,19 @@ ATM activity declines with age in human tissues, correlating with increased geno
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - Bid | | ATM | Ser61, Ser78 | S phase arrest | Response to DNA damage | | Bim | Loss in l
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - cells increases the sensitivity to Cisplatin treatment while SIRT3 promotion reduces Cisplatin resistance in LC by modulating the FOXO3a/Cdc10-dependent transcript 1 protein axis.
+
+
 ## Connections
 - [[Bid]] — interacts with ATM
 - [[PI3K-related kinase]] — signals through ATM
@@ -48,4 +60,4 @@ ATM activity declines with age in human tissues, correlating with increased geno
 ## Linking Summary
 - New links added: [[ATM]], [[Bid]], [[Phosphorylation]], [[DNA Damage]], [[DNA Damage Response]], [[Senescence]], [[Apoptosis]], [[p53]], [[Cancer]], [[SASP]]
 - Suggested new entity notes to create: [[MRN complex]], [[H2AX]], [[CHK2]], [[ATR]]
-- Strong connections to strengthen: [[ATM]] ↔ [[Bid]], [[ATM]] ↔ [[DNA Damage Response]], [[ATM]] ↔ [[Senescence]]
+  - Strong connections to strengthen: [[ATM]] ↔ Bid, [[ATM]] ↔ DNA Damage Response, [[ATM]] ↔ [[Senescence]]

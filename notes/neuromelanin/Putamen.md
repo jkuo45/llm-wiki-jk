@@ -1,11 +1,10 @@
 ---
 title: Putamen
 description: The Putamen is a dorsal striatal nucleus receiving dense dopaminergic input from the Substantia Nigra Pars Compacta via the Nigrostriatal System; its dopamine loss drives the motor symptoms of Parkinson's Disease.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Anatomy
+  - anatomy
 aliases: []
 ---
 

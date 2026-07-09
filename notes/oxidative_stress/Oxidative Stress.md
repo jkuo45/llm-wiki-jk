@@ -3,41 +3,15 @@ title: Oxidative Stress
 description: Oxidative stress is a phenomenon caused by an imbalance between production
   and accumulation of Reactive Oxygen Species (ROS) and the ability of a biological
   system to detoxify them. It plays dual r...
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Scientific Concept
-  - oxidative stress
+  - scientific-concept
+  - oxidative-stress
 aliases:
   - Oxidative stress
   - OS
   - Redox imbalance
-relations:
-  - predicate: associated_with
-    target: "notes/_link/Aging"
-    sources:
-      - PMID:25692012
-  - predicate: associated_with
-    target: "notes/_link/Inflammation"
-    sources:
-      - PMID:23565191
-  - predicate: associated_with
-    target: "notes/_link/Cardiovascular Disease"
-    sources:
-      - PMID:27908976
-  - predicate: associated_with
-    target: "notes/_link/Aging"
-    sources:
-      - PMID:25692012
-  - predicate: associated_with
-    target: "notes/_link/Inflammation"
-    sources:
-      - PMID:23565191
-  - predicate: associated_with
-    target: "notes/_link/Cardiovascular Disease"
-    sources:
-      - PMID:27908976
 
 ---
 
@@ -80,6 +54,50 @@ relations:
 - [[Neurodegenerative Diseases]] — Protein aggregation, mitochondrial dysfunction
 - [[Cancer]] — DNA damage and mutagenesis
 - [[Diabetes Mellitus]] — β-cell dysfunction, insulin resistance
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Dietary Advanced Glycation End Products and Aging|Dietary Advanced Glycation End Products and Aging]]
+    - Alzheimer’s Disease Although a definitive etiology for Alzheimer's Disease is unknown, Oxidative Stress has been identified as a primary risk factor for the disease.
+
+  - [[_document_ - formation, chemical stability|formation, chemical stability]]
+    - The Oxidation (The "Trigger"): Under Oxidative Stress (or in the presence of oxygen in a test tube), the two hydroxyl groups lose hydrogen atoms (or electrons). This transforms the stable Catechol ring into an o-quinone .
+
+  - [[_document_ - intermediates, precursor, hemoglobin|intermediates, precursor, hemoglobin]]
+    - However, the legacy of this research remains significant in the study of how Catecholamine metabolites interact with neurological receptors and Oxidative Stress pathways. 3\.
+
+  - [[_document_ - neutrophil and erthrocyte|neutrophil and erthrocyte]]
+    - It is not stored in large quantities but forms as a metabolite or intermediate, especially under conditions involving Oxidative Stress or Reactive Oxygen Species.
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - TROL OF AUTOPHAGY AND LYSOSOMAL BIOGENESIS Cells must maintain a constitutive basal level of Autophagy in order to preserve homeostasis, but equally important is their ability to effectively upregulate this process in response to different stress conditions...
+
+  - [[_document_ - The autophagy enhancer spermidine reverses arterial aging|The autophagy enhancer spermidine reverses arterial aging]]
+    - Although the mechanisms underlying arterial aging are incompletely understood, the characteristics of age-associated vascular dysfunction are consistent with dysregulated cellular protein homeostasis, i.e., Oxidative Stress and increased molecular damage th...
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - Thus, COMT is essential in protecting cells, including brain cells, from Oxidative Stress. COMT is also important in converting Estrogen metabolites into forms that can easily be excreted by the body.
+
+  - [[_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator|Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator]]
+    - Neuromelanin can reversibly bind and interact with amine containing neurotoxins, e.g., MPTP, to augment their actions in the terminal, eventually leading to the instability and degeneration of melanin-containing neurons due to Oxidative Stress and Mitochond...
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - Domenica Altavilla 2, Alessandra Bitto 1 PMCID: Abstract Oxidative Stress is a phenomenon caused by an imbalance between production and accumulation of Reactive Oxygen Species in cells and tissues and the ability of a biological system to detoxify these rea...
+
+  - [[_document_ - The Sirtuin System The Holy Grail of Resveratrol?|The Sirtuin System The Holy Grail of Resveratrol?]]
+    - The Oxidative Stress theory has been associated with Atherosclerosis and has prompted a multitude of studies to evaluate the effects of Antioxidants on Cardiovascular Disease prevention.
+
+  - [[_document_ - sirtuins (overview, CD38 KO risks, cancer therapies)|sirtuins (overview, CD38 KO risks, cancer therapies)]]
+    - Involved in Oxidative Stress response and Neurodegenerative Diseases (e.g., Parkinson's Disease links). Significance: Dual roles in Cancer (tumor suppressor or promoter depending on context).
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - SIRT1-dependent deacetylation of p53 inhibits its transactivation activity and suppresses Apoptosis in response to Oxidative Stress and DNA Damage . Although the SIRT1/p53 pathway may promote a beneficial effect in different diseases, Chen et al.
+
+  - [[_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review|sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review]]
+    - SIRT1 has a significant role in Oxidative Stress response, increased SIRT1 protein levels counteract the Oxidative Stress and ageing-related decline in levels of NAD + (Kilic et al. ; Bosch-Presegué et al.
+
 
 ## Connections
 - [[Reactive Oxygen Species]] — The primary agents of oxidative stress

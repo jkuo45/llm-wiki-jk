@@ -3,11 +3,10 @@ title: MyoD (Myogenic Differentiation Factor 1)
 description: MyoD (Myogenic Differentiation 1, also known as MYOD1) is a pioneer basic
   helix-loop-helix (bHLH) transcription factor that serves as a master regulator of
   skeletal muscle development (myogenesis)....
-type: entity
 created: 2026-07-03
 updated: 2026-07-03
 tags:
-  - Protein
+  - protein
 aliases:
   - MYOD1
   - Myogenic Differentiation 1
@@ -66,6 +65,14 @@ MyoD does not act alone; it relies on cooperation with the **MEF2 (MADS-box tran
 The SIRT1-MyoD-MEF2D axis ensures that muscle differentiation only occurs under appropriate metabolic and environmental conditions. During periods of calorie restriction or high metabolic stress, elevated nuclear NAD⁺ levels activate SIRT1, keeping MyoD/MEF2D-driven differentiation in abeyance to conserve cellular energy and prevent premature lineage commitment.
 
 ---
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - The acetyltransferases PCAF [p300/cAMP-response-element-binding protein-associated factor] and GCN5 interact with SIRT1 and mediate the formation of a complex with the muscle-specific transcription factor MyoD (myogenic differentiation).
+
 
 ## Connections
 

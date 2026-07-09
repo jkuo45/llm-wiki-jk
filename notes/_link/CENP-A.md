@@ -1,13 +1,12 @@
 ---
 title: CENP-A
-description: 'Overview: CENP-A is a cellular protein with structural, signaling,
+description: 'Overview: CENP-A is a cellular protein with structural, signaling,'
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
-  and signaling networks that govern ce...'
-type: entity
+  and signaling networks that govern ce...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [Centromere Protein A]
 
 ---
@@ -24,10 +23,20 @@ aliases: [Centromere Protein A]
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - The key players in marking this site on each chromosome are specialized Nucleosome containing the Histone Variant, CENP-A.
+
+
 ## Connections
 - [[CENP-A]] — related entity
 
 ## Linking Summary
 - New links added: [[CENP-A]]
-- Strong connections to strengthen: [[CENP-A]] ↔ [[CENP-A]]
+  - Strong connections to strengthen: [[CENP-A]] ↔ [[CENP-A]]
 

@@ -1,11 +1,10 @@
 ---
 title: Allopurinol
 description: Allopurinol is a hypoxanthine analog that inhibits Xanthine Oxidase, used primarily to lower uric acid in Gout and Tumor Lysis Syndrome, and increasingly recognized for its antioxidant and cardiovascular protective properties.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases:
   - 1,5-Dihydro-4H-pyrazolo[3,4-d]pyrimidin-4-one
   - Zyloprim

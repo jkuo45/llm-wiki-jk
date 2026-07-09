@@ -1,13 +1,12 @@
 ---
 title: NDUFS1
-description: 'Overview: NDUFS1 is a cellular protein with structural, signaling,
+description: 'Overview: NDUFS1 is a cellular protein with structural, signaling,'
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
-  and signaling networks that govern ce...'
-type: entity
+  and signaling networks that govern ce...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [NADH:Ubiquinone Oxidoreductase Core Subunit S1]
 
 ---
@@ -29,5 +28,5 @@ aliases: [NADH:Ubiquinone Oxidoreductase Core Subunit S1]
 
 ## Linking Summary
 - New links added: [[NDUFS1]]
-- Strong connections to strengthen: [[NDUFS1]] ↔ [[NDUFS1]]
+  - Strong connections to strengthen: [[NDUFS1]] ↔ [[NDUFS1]]
 

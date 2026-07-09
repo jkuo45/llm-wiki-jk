@@ -1,13 +1,12 @@
 ---
 title: Neurodegenerative Disease
-description: 'Etiology and pathophysiology: Neurodegenerative Disease is a medical
+description: 'Etiology and pathophysiology: Neurodegenerative Disease is a medical'
   condition characterized by specific pathological changes in cellular, tissue, or
-  organ function. Its development involves ge...'
-type: entity
+  organ function. Its development involves ge...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: []
 ---
 
@@ -28,5 +27,5 @@ aliases: []
 
 ## Linking Summary
 - New links added: [[Neurodegenerative Disease]]
-- Strong connections to strengthen: [[Neurodegenerative Disease]] ↔ [[Neurodegenerative Disease]]
+  - Strong connections to strengthen: Neurodegenerative Disease ↔ Neurodegenerative Disease
 

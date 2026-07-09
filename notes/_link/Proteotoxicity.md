@@ -1,13 +1,12 @@
 ---
 title: Proteotoxicity
-description: 'Definition: Proteotoxicity is a fundamental biological process that
+description: 'Definition: Proteotoxicity is a fundamental biological process that'
   maintains cellular and organismal homeostasis. It involves coordinated molecular
-  events regulated by signaling pathways and e...'
-type: entity
+  events regulated by signaling pathways and e...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Biological Process
+  - biological-process
 aliases: [Proteotoxic Stress]
 
 ---
@@ -24,10 +23,20 @@ aliases: [Proteotoxic Stress]
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - With the progression of neurodegenerative disease, the accumulation of misfolded proteins and peptides increases the possibility of Proteotoxicity \[,\].
+
+
 ## Connections
 - [[Proteotoxicity]] — related entity
 
 ## Linking Summary
 - New links added: [[Proteotoxicity]]
-- Strong connections to strengthen: [[Proteotoxicity]] ↔ [[Proteotoxicity]]
+  - Strong connections to strengthen: [[Proteotoxicity]] ↔ [[Proteotoxicity]]
 

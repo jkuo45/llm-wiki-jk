@@ -3,11 +3,10 @@ title: PERO1
 description: PERO1 is a critical lipid sensor protein localized to the endoplasmic
   reticulum (ER) membrane and associated with the Peroxisome Biogenesis Network. It
   acts as a key quality control mechanism durin...
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [peroxisomal lipid sensor]
 ---
 # PERO1

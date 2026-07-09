@@ -3,11 +3,10 @@ title: Fibroblasts
 description: In the history of Stem Cell Research, Fibroblasts are most notable for
   being the first and most widely used somatic cell type for Cellular Reprogramming.
   Shinya Yamanaka's landmark 2006 study used mouse embryonic fibroblasts.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Cell Type
+  - cell-type
 aliases: []
 ---
 
@@ -32,6 +31,17 @@ Because fibroblasts are mesenchymal, they must undergo [[Mesenchymal-to-Epitheli
 ## Pathological Relevance: Fibrosis
 
 Persistent fibroblast activation drives [[Fibrosis]] in organs such as the lung (idiopathic pulmonary fibrosis), liver (cirrhosis), kidney, and heart. Fibroblast-to-myofibroblast transition, often stimulated by TGF-β, is a major therapeutic target.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic|Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic]]
+    - Fibroblasts are the first and most frequent somatic cell type used for iPSCs, and are obtained from a skin biopsy, an invasive procedure, but keratinocyte, urine, and blood cells could also be used with less invasive techniques \[\].
+
+  - [[_document_ - Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network|Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network]]
+    - With the aim of unveiling the early mechanisms underlying the induction of Pluripotency, we have analyzed transcriptional profiles at 24, 48 and 72 hours post-transduction of OSKM into human foreskin Fibroblasts.
+
 
 ## Connections
 

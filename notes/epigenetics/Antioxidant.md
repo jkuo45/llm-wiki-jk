@@ -1,11 +1,10 @@
 ---
 title: Antioxidant
 description: Substances that inhibit oxidation, highly reactive oxygen species (ROS), or other chemical reactions that increase the oxidation potential of a cell or organism.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Chemical Compound
+  - chemical-compound
   - antioxidant
 aliases: []
 ---

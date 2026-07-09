@@ -1,11 +1,10 @@
 ---
 title: PLK3
 description: Polo-like kinase 3 (PLK3, also called FN1/Prk) is a stress-responsive Polo-like kinase involved in the DNA damage response, cell cycle checkpoints, and apoptosis by phosphorylating targets including Bcl-xL and p53.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Enzyme
+  - enzyme
 aliases: []
 ---
 
@@ -24,6 +23,14 @@ Physiologically, PLK3 enforces cell-cycle checkpoints and promotes elimination o
 ## Clinical & Research Relevance
 
 PLK3 is studied as a prognostic marker (low expression often portends poor outcome) and as a therapeutic concept: agents that induce PLK3 or mimic its pro-apoptotic phosphorylation of [[Bcl-xL]] and activation of [[p53]] could augment [[Chemotherapy]] and radiation responses. Distinguishing PLK3's tumor-suppressive role from PLK1's oncogenic role is crucial when designing Polo-kinase-targeted strategies.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - Colon Cancer | | Bcl-xL | Amplification in non-small-cell lung cancer, Pancreatic Cancer, Breast Cancer, ovarian cancer | PLK3 | Ser49 | Cell cycle (G2) arrest | Lymphoma | | Bcl-xL |
+
 
 ## Connections
 

@@ -1,20 +1,19 @@
 ---
 title: Retinal Pigment Epithelium
 description: The retinal pigment epithelium (RPE) is a single layer of pigmented cells between the neurosensory retina and Bruch's membrane, essential for phagocytosis of photoreceptor outer segments, the visual cycle (RPE65), blood-retina barrier function, and ion/fluid homeostasis; dysfunction underlies age-related macular degeneration and is a target for iPSC-RPE cell therapy.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
   - retina
   - phagocytosis
-  - visual cycle
-  - blood-retina barrier
-  - Age-related Macular Degeneration
-  - Induced Pluripotent Stem Cell
-  - cell therapy
-  - RPE65
-  - Bruch's membrane
-  - Anatomy
+  - visual-cycle
+  - blood-retina-barrier
+  - age-related-macular-degeneration
+  - induced-pluripotent-stem-cell
+  - cell-therapy
+  - rpe65
+  - bruch's-membrane
+  - anatomy
 aliases: ["RPE", "Retinal Pigmented Epithelium", "Pigment Epithelium"]
 ---
 # Retinal Pigment Epithelium

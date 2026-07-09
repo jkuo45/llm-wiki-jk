@@ -2,11 +2,10 @@
 title: Neuronal Ceroid Lipofuscinosis
 description: A group of inherited neurodegenerative disorders known as Batten disease,
   characterized by the accumulation of lipopigments in Lysosome.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: [NCL, Batten disease]
 ---
 # Neuronal Ceroid Lipofuscinosis
@@ -25,6 +24,14 @@ Onset ranges from infantile to adult forms. Symptoms include progressive vision 
 ## Therapeutic Landscape
 
 No curative treatment exists. [[TFEB]] activation has emerged as a potential therapeutic strategy, as TFEB overexpression enhances lysosomal exocytosis and reduces storage material in NCL models. Enzyme replacement therapy ([[Brineura]] for CLN2), gene therapy, and small-molecule chaperones are under clinical investigation.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - Overexpression of TFEB stimulated lysosomal exocytosis and promoted cellular clearance in several Lysosomal Storage Diseases cell models: Mucopolysaccharidosis-IIIA (Sanfilippo syndrome); Multiple Sulfatase Deficiency (MSD); Neuronal Ceroid Lipofuscinosis (...
+
 
 ## Connections
 

@@ -1,11 +1,10 @@
 ---
 title: Neonatal Adrenoleukodystrophy
 description: Neonatal Adrenoleukodystrophy (NALD) is an intermediate form of Zellweger Spectrum Disorders (ZSD), a group of autosomal recessive peroxisomal biogenesis disorders resulting from PEX gene mutations.
-type: entity
 created: 2026-07-04
 updated: 2026-07-06
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: [NALD]
 ---
 
@@ -84,4 +83,4 @@ No curative treatment exists. Management is supportive and multidisciplinary.
 
 - New links added: [[Neonatal Adrenoleukodystrophy]], [[PEX1]], [[X-linked Adrenoleukodystrophy]], [[Zellweger Syndrome]], [[Infantile Refsum Disease]], [[Peroxisome]], [[Very Long Chain Fatty Acids]], [[Plasmalogen]], [[Phytanic Acid]], [[Hydrocortisone]]
 - Suggested new entity notes to create: [[Metachromatic Leukodystrophy]], [[Krabbe Disease]]
-- Strong connections to strengthen: [[Zellweger Syndrome]] ↔ [[Neonatal Adrenoleukodystrophy]] ↔ [[Infantile Refsum Disease]] (Zellweger Spectrum Disorders)
+  - Strong connections to strengthen: Zellweger Syndrome ↔ [[Neonatal Adrenoleukodystrophy]] ↔ [[Infantile Refsum Disease]] (Zellweger Spectrum Disorders)

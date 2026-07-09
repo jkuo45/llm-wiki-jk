@@ -2,11 +2,10 @@
 title: Drosophila melanogaster
 description: Drosophila melanogaster, the common fruit fly, is a premier Model Organism
   for genetics, development, and aging research, including Polycomb and chromatin regulation.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Model Organism
+  - organism
 aliases: []
 ---
 
@@ -25,6 +24,17 @@ Landmark contributions include the identification of the [[Polycomb Group Protei
 ## Role in Aging Research
 
 Flies are a leading system for [[Aging]] genetics. Screens established the [[mTOR]] and [[Sirtuin]] pathways, insulin/IGF signaling, and [[Caloric Restriction]] as conserved longevity regulators. Notably, the fly Sirtuin dSir2 links [[Silent Mating-Type Information Regulation]]-like chromatin silencing to lifespan, and PcG-mediated heterochromatin loss is associated with age-related decline.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - Mitf, the only member of the MiTF TFE family in Drosophila melanogaster, is also retained in the cytosol through interactions with 14-3-3.
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - In Drosophila melanogaster , an extra copy of the _Sir2_ gene (Drosophila melanogaster ) expressed ubiquitously causes females and males to live longer by 29 % and 18 % respectively.
+
 
 ## Connections
 

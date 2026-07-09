@@ -1,13 +1,12 @@
 ---
 title: Sepsis
-description: 'Etiology and pathophysiology: Sepsis is a medical condition characterized
+description: 'Etiology and pathophysiology: Sepsis is a medical condition characterized'
   by specific pathological changes in cellular, tissue, or organ function. Its development
-  involves genetic, environmenta...'
-type: entity
+  involves genetic, environmenta...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: []
 ---
 
@@ -23,10 +22,20 @@ aliases: []
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - It is a clinical syndrome associated with respiratory dysfunction and is often a complication of Sepsis. Additionally, ALI can develop into acute respiratory distress syndrome in more serious injuries, which lacks novel and efficient therapies.
+
+
 ## Connections
 - [[Sepsis]] — related entity
 
 ## Linking Summary
 - New links added: [[Sepsis]]
-- Strong connections to strengthen: [[Sepsis]] ↔ [[Sepsis]]
+  - Strong connections to strengthen: [[Sepsis]] ↔ [[Sepsis]]
 

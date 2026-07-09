@@ -1,11 +1,10 @@
 ---
 title: Thymidine
 description: Thymidine is a pyrimidine nucleoside that serves as a critical building block for DNA; in excess, it can induce DNA replication stress and cellular senescence.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: []
 ---
 
@@ -33,6 +32,14 @@ Thymidine is a widely used tool in molecular and cellular biology:
 - **Nucleoside Labeling and Analogs**: Thymidine is the chemical basis for several important analogs used in research, most notably [[Bromodeoxyuridine]] (BrdU), which is used to label proliferating cells.
 - **Inducing Senescence**: In experimental models, exogenous administration of high concentrations of thymidine is a standard method for inducing [[DNA Replication Stress]] and studying the mechanisms of cellular senescence.
 - **Metabolic Studies**: It is used to study the salvage pathway of nucleotide synthesis, where cells recycle pre-formed nucleosides rather than synthesizing them *de novo*.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - These chemical compounds can be functionally classified into eight groups: (1) DNA Replication Stress inducers (Aphidicolin, Hydroxyurea, Thymidine, Bromodeoxyuridine, Gemcitabine, Cyclopentenyl cytosine); (2) DNA‐dama
+
 
 ## Connections
 

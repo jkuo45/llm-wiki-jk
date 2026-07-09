@@ -3,11 +3,10 @@ title: Growth Factor
 description: Growth factors are signaling molecules (typically Peptides or Proteins)
   that stimulate Cell Proliferation, Differentiation, Survival, and Migration by binding
   to Receptor Tyrosine Kinases or G Prot...
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - Enzyme
+  - enzyme
 aliases: []
 ---
 # Growth Factor
@@ -15,6 +14,16 @@ aliases: []
 Growth factors are signaling molecules (typically [[Peptide]]s or [[Protein]]s) that stimulate [[Cell Proliferation]], [[Differentiation]], [[Survival]], and [[Migration]] by binding to [[Receptor Tyrosine Kinases]] or [[G Protein-Coupled Receptors]]. Major growth factor families include [[EGF]] ([[EGFR]]), [[FGF]], [[PDGF]], [[VEGF]], [[IGF]] ([[IGF1]], [[IGF2]]), [[HGF]], and [[TGF-β]]. Growth factor signaling activates cascades including [[RAS]]/[[RAF]]/[[MEK1/2]]/[[ERK1/2]], [[PI3K]]/[[Akt]]/[[mTORC1]], and [[JAK]]/[[STAT]]. Dysregulated growth factor signaling is a hallmark of [[Cancer]], driving uncontrolled proliferation. Growth factors are used therapeutically in [[Wound Healing]] and [[Regenerative Medicine]].
 
 #
+
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - Growth Factor (also known as Mitogen) promote proliferation by inducing signaling cascades that ultimately act to increase Cyclin levels or decrease the abundance of CDK Inhibitor (Aktas et al., 1997).
+
 
 ## Connections
 - [[Cell Proliferation]] — primary effect of growth factor signaling
@@ -34,4 +43,4 @@ Growth factors are signaling molecules (typically [[Peptide]]s or [[Protein]]s) 
 ## Linking Summary
 - New links added: [[Cell Proliferation]], [[Differentiation]], [[Survival]], [[Migration]], [[Receptor Tyrosine Kinases]], [[G Protein-Coupled Receptors]], [[EGF]], [[EGFR]], [[FGF]], [[PDGF]], [[VEGF]], [[IGF]], [[IGF1]], [[IGF2]], [[HGF]], [[TGF-β]], [[RAS]], [[RAF]], [[MEK1/2]], [[ERK1/2]], [[PI3K]], [[Akt]], [[mTORC1]], [[JAK]], [[STAT]], [[Cancer]], [[Wound Healing]], [[Regenerative Medicine]]
 - Suggested new entity notes to create: [[Growth Factor Receptor]], [[Ligand-Induced Dimerization]]
-- Strong connections to strengthen: [[Growth Factor]] ↔ [[Cell Proliferation]], [[Growth Factor]] ↔ [[Receptor Tyrosine Kinases]]
+  - Strong connections to strengthen: Growth Factor ↔ Cell Proliferation, Growth Factor ↔ Receptor Tyrosine Kinases

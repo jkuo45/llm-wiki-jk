@@ -1,11 +1,10 @@
 ---
 title: PKA
 description: Protein kinase A (PKA, cAMP-dependent protein kinase) is a serine/threonine kinase activated by cAMP that regulates metabolism, gene transcription, and apoptosis by phosphorylating diverse substrates including Caspase-9 and Bim.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Enzyme
+  - enzyme
 aliases: []
 ---
 
@@ -24,6 +23,14 @@ PKA promotes cell survival in many contexts by phosphorylating pro-apoptotic Bcl
 ## Clinical & Research Relevance
 
 PKA signaling is targeted indirectly by drugs that modulate cAMP (e.g., phosphodiesterase inhibitors) and by GPCR-directed therapies. Understanding PKA's anti-apoptotic phosphorylation of [[Caspase-9]] and [[Bim]] informs strategies to sensitize tumors to [[Chemotherapy]] and targeted agents. The kinase remains a key research tool, with its regulatory subunit dimer widely used as an affinity reagent for cAMP pull-down assays.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - Caspase-9 | | PKA | Ser99, Ser183, Ser195 | No effects | | | Caspase-9 |
+
 
 ## Connections
 

@@ -1,11 +1,10 @@
 ---
 title: Zeb1
 description: Zeb1 (Zinc finger E-box-binding homeobox 1) is a zinc-finger transcription factor that drives Epithelial-to-Mesenchymal Transition and represses epithelial differentiation and pluripotency.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Protein
+  - protein
 aliases: []
 ---
 
@@ -24,6 +23,14 @@ Zeb1 is required for embryonic EMT (somite, neural-crest, and endothelial-mesenc
 ## Pathological Relevance
 
 Zeb1 is overexpressed in carcinomas, where it correlates with EMT, metastasis, chemoresistance, and poor prognosis, and with immune evasion. It enforces a cancer-stem-cell phenotype and is linked to [[Cancer]] dissemination. Targeting the Zeb1–miR-200 axis or upstream TGF-β/[[SMAD Proteins]] input is explored to reverse EMT, though redundancy with other EMT factors is a challenge.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network|Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network]]
+    - Additionally, BMP Signaling Pathway was shown to contribute to reprogramming of MEF cells by enhancing expression of miRNAs that either promote expression of epithelial-associated genes (Cdh1, Epcam, Ocln) or repress inhibitors of Epithelial-to-Mesenchymal ...
+
 
 ## Connections
 

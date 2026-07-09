@@ -1,11 +1,10 @@
 ---
 title: Lung Cancer
 description: Lung cancer is the leading cause of cancer morbidity and mortality worldwide; Ivermectin inhibits its proliferation and metastasis via YAP1, EGFR, EMT, and HSP27 pathways.
-type: entity
 created: 2026-07-06
-updated: 2026-07-07
+updated: 2026-07-09
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: []
 ---
 
@@ -29,6 +28,43 @@ Preclinical studies show ivermectin inhibits lung cancer cell proliferation and 
 
 These findings position ivermectin as a candidate adjuvant that could potentiate existing targeted drugs and curb metastasis, an area of active [[Drug Repositioning]]. Combination with erlotinib and other TKIs is of particular interest in EGFR-driven NSCLC. Validation in clinical cohorts and formulation for lung-tissue delivery remain research priorities.
 
+## The cGAS-STING-SASP Axis in Lung Cancer
+
+The [[cGAS-STING Pathway|cGAS-STING signaling pathway]] plays a critical role in lung cancer immune surveillance through the [[SASP|senescence-associated secretory phenotype (SASP)]]. In [[KRAS]]-driven lung cancer, co-mutation of *LKB1* (*STK11*) leads to silencing of [[STING]] expression, rendering tumors unable to activate cGAS-STING-dependent SASP and failing to recruit T cells for immune-mediated clearance. Re-expression of LKB1 restores STING expression and sensitizes tumors to [[Immune Checkpoint|immune checkpoint blockade]] therapy (Kitajima et al., 2019, *Cancer Discov* 9:34-45; PMID 30297358).
+
+This mechanism reveals that STING silencing in KRAS-LKB1 mutant lung cancer is an immune evasion strategy that bypasses the SASP-dependent senescence surveillance program, highlighting STING pathway restoration as a potential therapeutic approach for this aggressive lung cancer subtype.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - The exposure of human Lung Cancer to hypoglycemic conditions (2.8 mmol/L) for 24 h reduced clonogenic properties and increased DNA fragmentation after radiation, whereas normal HSF7 fibroblasts exhibited no sensitivity to glucose deprivation \[\].
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - When used together with anticancer drugs XIAP antisense oligonucleotides have been demonstrated to exhibit enhanced chemotherapeutic activity in Lung Cancer cells _in vitro_ and _in vivo_ \[\].
+
+  - [[_document_ - Caspase|Caspase]]
+    - PAK1 | Ser111 | Inactivation | MPNST, Lung Cancer | | Bad | | PAK1, PAK4, PAK5, PKA, PKCι, RAF1, RSK | Ser112 |
+
+  - [[_document_ - Evading apoptosis in cancer|Evading apoptosis in cancer]]
+    - In this regard, a recent study has shown that Puma may be implicated in Apoptosis triggered by FOXO Transcription Factors following inhibition of the PI3K-Akt pathway, while Bim may be primarily under control of the ERK pathway in HER2-positive Breast Cance...
+
+  - [[_document_ - Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology|Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology]]
+    - Beyond breast cancer, tumors overexpressing EGFR include Lung Cancer, glioblastoma, and Colorectal Cancer cancers , and tumors that can overexpress HER2 include Gastric Cancer, ovarian cancer, endometrial cancer, Bladder Cancer, Lung Cancer, Colon Cancer, a...
+
+  - [[_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug|Ivermectin, a potential anticancer drug derived from an antiparasitic drug]]
+    - Prostate Cancer is a malignant tumor derived from prostate epithelial cells, and its morbidity is second only to that of Lung Cancer among men in Western countries \[\].
+
+  - [[_document_ - sirtuins (overview, CD38 KO risks, cancer therapies)|sirtuins (overview, CD38 KO risks, cancer therapies)]]
+    - In tumors: High CD38 can promote cancer cell survival, migration, proliferation (e.g., via cADPR in Lung Cancer models), and immunosuppression (NAD+ depletion, adenosine production, metabolic fitness of suppressive cells).
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - downregulated cleaved Caspase-3 levels in Lung Cancer cells. In contrast, several studies have found that SIRT3 has an anti-apoptotic effect.
+
+  - [[_document_ - Cellular senescence and senescence‐associated secretory phenotype via the cGAS_STING signaling pathway in cancer|Cellular senescence and SASP via cGAS-STING in cancer]]
+    - Discusses STING silencing in KRAS-LKB1 mutant lung cancer as an immune evasion mechanism that bypasses SASP-dependent senescence surveillance, preventing response to immune checkpoint blockade.
+
 ## Connections
 
 - [[Ivermectin]] - Repurposed antiparasitic with antitumor activity in lung cancer.
@@ -39,9 +75,14 @@ These findings position ivermectin as a candidate adjuvant that could potentiate
 - [[HSP27]] - Survival chaperone whose phosphorylation ivermectin blocks.
 - [[Metastasis]] - Dissemination suppressed via multiple ivermectin mechanisms.
 - [[Drug Repositioning]] - Strategy of reusing ivermectin in oncology.
+- [[cGAS-STING Pathway]] - Drives SASP-dependent immune surveillance; silenced in KRAS-LKB1 mutant lung cancer.
+- [[STING]] - Suppressed by LKB1 loss; restoration sensitizes to immune checkpoint blockade.
+- [[SASP]] - The senescence-associated secretory phenotype that mediates immune recruitment.
+- [[KRAS]] - Oncogenic driver; co-mutation with LKB1 silences STING.
+- [[Immune Checkpoint]] - Therapy response depends on STING-SASP axis integrity.
 
 ## Linking Summary
 
-- New links added: [[Lung Cancer]], [[Ivermectin]], [[YAP1]], [[erlotinib]], [[EGFR]], [[EMT]], [[HSP27]], [[Metastasis]], [[Drug Repositioning]], [[Tumor Suppressor Gene]], [[Inflammation]], [[Oxidative Stress]]]
-- Suggested new entity notes to create: [[YAP1]], [[erlotinib]], [[HSP27]], [[NSCLC]]
-- Strong connections to strengthen: [[Lung Cancer]] ↔ [[Ivermectin]], [[Lung Cancer]] ↔ [[EGFR]]
+- New links added: [[Lung Cancer]], [[Ivermectin]], [[YAP1]], [[erlotinib]], [[EGFR]], [[EMT]], [[HSP27]], [[Metastasis]], [[Drug Repositioning]], [[Tumor Suppressor Gene]], [[Inflammation]], [[Oxidative Stress]], [[cGAS-STING Pathway]], [[STING]], [[SASP]], [[KRAS]], [[Immune Checkpoint]]
+- Suggested new entity notes to create: [[YAP1]], [[erlotinib]], [[HSP27]], [[NSCLC]], [[STK11]], [[LKB1]]
+- Strong connections to strengthen: [[Lung Cancer]] ↔ [[Ivermectin]], [[Lung Cancer]] ↔ [[EGFR]], [[Lung Cancer]] ↔ [[cGAS-STING Pathway]], [[Lung Cancer]] ↔ [[STING]], [[KRAS]] ↔ [[LKB1]] ↔ [[STING]]

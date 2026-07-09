@@ -1,11 +1,10 @@
 ---
 title: OCP
 description: The Onchocerciasis Control Programme in West Africa (OCP) was a 1974-2002 WHO-led campaign that controlled river blindness via vector control and mass ivermectin distribution.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Organization
+  - organization
 aliases: []
 ---
 
@@ -24,6 +23,14 @@ Although OCP targeted a parasitic disease, its infrastructure and the donated-dr
 ## Outcomes
 
 The OCP protected tens of millions from blindness and severe morbidity, freed arable land for cultivation, and demonstrated that community-directed treatment with ivermectin is logistically and economically viable. It laid the foundation for the global elimination agenda now coordinated by the WHO.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, ‘Wonder drug’ from Japan the human use perspective|Ivermectin, ‘Wonder drug’ from Japan the human use perspective]]
+    - In 1974, following international recognition of the dramatic consequences of disabling and disfiguring Onchocerciasis in Africa, four United Nations agencies, including the World Bank, launched the OCP.
+
 
 ## Connections
 

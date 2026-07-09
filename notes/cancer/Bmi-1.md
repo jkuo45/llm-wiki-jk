@@ -1,13 +1,12 @@
 ---
 title: Bmi-1
-description: 'Bmi-1 (B lymphoma Mo-MLV insertion region 1 homolog) is a protein
+description: Bmi-1 (B lymphoma Mo-MLV insertion region 1 homolog) is a protein
   that serves as a core component of the Polycomb Repressive Complex 1 (PRC1), which
-  is involved in gene silencing.'
-type: entity
+  is involved in gene silencing.
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: []
 ---
 
@@ -20,6 +19,14 @@ Bmi-1 is a well-known oncogene that is overexpressed in various cancers, includi
 - **Apoptosis Evasion**: Bmi-1 promotes survival by downregulating pro-apoptotic genes and potentially maintaining active [[Akt]] signaling.
 - **Stemness**: It is essential for the self-renewal and maintenance of [[Cancer Stem Cells]].
 - **Chemosensitivity**: Silencing Bmi-1 (e.g., via [[siRNA]]) has been shown to sensitize breast cancer cells to [[Doxorubicin]] by downregulating anti-apoptotic proteins like [[Bcl-2]].
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - On the other hand, Wu _et al_ demonstrated that by silencing Bmi-1 in MCF Breast Cancer cells, the expression of pAkt and Bcl-2 was downregulated, rendering these cells more sensitive to Doxorubicin as evidenced by an increase in apoptotic cells _in vitro_ ...
+
 
 ## Connections
 - [[Cancer Stem Cells]]: Bmi-1 is a key marker and regulator of stemness.

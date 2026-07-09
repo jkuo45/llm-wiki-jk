@@ -1,12 +1,11 @@
 ---
 title: DNA Repair
-description: 'DNA repair refers to the collection of processes by which a cell
-  identifies and corrects damage to the DNA molecules that encode its genome.'
-type: entity
+description: DNA repair refers to the collection of processes by which a cell
+  identifies and corrects damage to the DNA molecules that encode its genome.
 created: 2026-05-29
 updated: 2026-05-29
 tags:
-  - Biological Process
+  - biological-process
 aliases: []
 ---
 
@@ -30,6 +29,22 @@ In the context of [[Oxidative Stress]], the most important repair pathway is [[B
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - Thus, quiescence may be induced by the transmission of replication damage across generations of cells, allowing daughter cells to prepare for DNA Repair and to maintain genomic stability (Arora et al., 2017; Barr et al., 2017). Integrating signals.
+
+  - [[_document_ - sirtuins (overview, CD38 KO risks, cancer therapies)|sirtuins (overview, CD38 KO risks, cancer therapies)]]
+    - They play key roles in Metabolism, Aging, stress response, DNA Repair, Inflammation, gene expression, and cellular homeostasis.
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - The first known sirtuin, Sir2 (yeast) (silent information regulator 2) of Saccharomyces cerevisiae, from which the family derives its name, regulates ribosomal DNA recombination, gene silencing, DNA Repair, chromosomal stability and longevity.
+
+
 ## Connections
 - [[DNA Damage]]: The substrate for repair mechanisms.
 - [[8-oxo-2'-deoxyguanosine]]: A major oxidative lesion repaired by the BER pathway.
@@ -39,4 +54,4 @@ In the context of [[Oxidative Stress]], the most important repair pathway is [[B
 ## Linking Summary
 - New links added: [[Oxidative Stress]], [[Base Excision Repair]], [[Reactive Oxygen Species]], [[8-oxo-2'-deoxyguanosine]], [[DNA Damage]], [[Cancer]], [[Nucleic Acids]]
 - Suggested new entity notes to create: [[Base Excision Repair]], [[Nucleotide Excision Repair]]
-- Strong connections to strengthen: [[DNA Repair]] ↔ [[8-oxo-2'-deoxyguanosine]]
+  - Strong connections to strengthen: DNA Repair ↔ 8-oxo-2'-deoxyguanosine

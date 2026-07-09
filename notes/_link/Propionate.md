@@ -2,11 +2,10 @@
 title: Propionate
 description: Propionate is a three-carbon short-chain fatty acid produced by the gut
   microbiota, involved in gluconeogenesis and the regulation of appetite and inflammation.
-type: entity
 created: 2024-01-01
 updated: 2024-01-01
 tags:
-  - Metabolite
+  - biological-molecule
 aliases: []
 ---
 # Propionate
@@ -27,4 +26,4 @@ Propionate is a three-carbon short-chain fatty acid produced by the gut microbio
 ## Linking Summary
 - New links added: [[Short-chain Fatty Acids]], [[Gut Microbiome]], [[Inflammation]]
 - Suggested new entity notes to create: [[Gluconeogenesis]]
-- Strong connections to strengthen: [[Propionate]] ↔ [[Metabolism]]
+  - Strong connections to strengthen: [[Propionate]] ↔ [[Metabolism]]

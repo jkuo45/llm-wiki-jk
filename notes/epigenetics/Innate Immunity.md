@@ -3,11 +3,10 @@ title: Innate Immunity
 description: Innate Immunity is the non-specific, first-line immune response. In reprogramming,
   viral delivery of OSKM triggers an innate immune response that generates Reactive
   Oxygen Species, DNA Damage, and p53 activation, reducing efficiency.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Biological Process
+  - biological-process
 aliases: []
 ---
 
@@ -32,6 +31,14 @@ Suppressing the innate immune response improves reprogramming yield. Reagents su
 ## Relationship to Adaptive Immunity
 
 Innate immunity primes and instructs [[Adaptive Immunity]] (via [[Lymphocyte|lymphocytes]] and [[Major Histocompatibility Complex]] presentation). Understanding both arms is essential when considering the immunogenicity of iPSC-derived grafts and the clearance of senescent cells in [[Rejuvenation]] strategies.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network|Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network]]
+    - Experiments confirmed that upon viral transduction, the immediate response is Innate Immunity, which induces Reactive Oxygen Species, oxidative DNA Damage, p53 activation, Senescence, and Apoptosis, ultimately leading to a reduction in the Cellular Reprogra...
+
 
 ## Connections
 - [[Cellular Reprogramming]]: Innate immunity acts as a roadblock to efficient reprogramming.

@@ -3,11 +3,10 @@ title: 2-deoxy-D-glucose
 description: 2-deoxy-D-glucose (2DG) is a glucose analog that inhibits glycolysis
   and can trigger a Mitohormesis response, extending lifespan in model organisms like
   *C. elegans*.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: []
 ---
 # 2-deoxy-D-glucose

@@ -1,11 +1,10 @@
 ---
 title: Bmf
-description: 'Bmf (Bcl-2-modifying factor) is a BH3-only protein whose pro-apoptotic activity is suppressed by ERK2 phosphorylation at Ser77 and by sequestration at the actin cytoskeleton.'
-type: entity
+description: Bmf (Bcl-2-modifying factor) is a BH3-only protein whose pro-apoptotic activity is suppressed by ERK2 phosphorylation at Ser77 and by sequestration at the actin cytoskeleton.
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Protein
+  - protein
 aliases: []
 ---
 
@@ -30,6 +29,17 @@ Bmf enforces apoptosis upon loss of attachment (anoikis) and during hematopoieti
 - **Metastatic Suppression**: By killing detached cells, Bmf restrains dissemination; its inactivation by ERK2 aids [[EMT]] and metastasis.
 - **Therapeutic Vulnerability**: MEK/ERK inhibitors stabilize Bmf, restoring anoikis; [[BH3 mimetics]] can bypass the need for Bmf entirely.
 - **Biomarker**: ERK activation status predicts Bmf silencing and apoptotic priming.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - sis]], chromatin condensation, pyknosis, karyorrhexis, membrane blebbing, phosphatidylserine, Common Pathway, Endoplasmic Reticulum Pathway, TNFR1, FasL, TRADD, FADD, DISC, Bcl-Xs, Bik, Hrk, Bcl-w, A1-Bfl-1, AIF, Omi/HtrA2, Caspase-12, TRAF2, Bcl-B/Bcl2L10,...
+
+  - [[_document_ - Caspase|Caspase]]
+    - CDK5 | Ser13 | Inactivation | Metabolically regulated leukemia | | Bmf | | JNK, ERK2 | Ser74 | Activation |
+
 
 ## Connections
 

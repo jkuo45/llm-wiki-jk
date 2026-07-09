@@ -1,12 +1,11 @@
 ---
 title: Glucokinase
-description: 'Catalytic function: Glucokinase is an enzyme that catalyzes biochemical
-  reactions essential for cellular metabolism and homeostasis.'
-type: entity
+description: 'Catalytic function: Glucokinase is an enzyme that catalyzes biochemical'
+  reactions essential for cellular metabolism and homeostasis.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Enzyme
+  - enzyme
 aliases: [GCK, Hexokinase IV]
 
 ---
@@ -28,5 +27,5 @@ aliases: [GCK, Hexokinase IV]
 
 ## Linking Summary
 - New links added: [[Glucokinase]]
-- Strong connections to strengthen: [[Glucokinase]] ↔ [[Glucokinase]]
+  - Strong connections to strengthen: [[Glucokinase]] ↔ [[Glucokinase]]
 

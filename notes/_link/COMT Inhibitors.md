@@ -1,13 +1,12 @@
 ---
 title: COMT Inhibitors
-description: 'Chemical properties: COMT Inhibitors is a chemical substance with
+description: 'Chemical properties: COMT Inhibitors is a chemical substance with'
   defined molecular structure, functional groups, and physicochemical properties that
-  determine its biological activity.'
-type: entity
+  determine its biological activity.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Chemical Class
+  - chemical-class
 aliases: []
 ---
 
@@ -23,10 +22,20 @@ aliases: []
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - Some people with slow COMT enzyme function have side effects from Methylated Vitamins (Methylfolate, MethylB12), Methyl Donor supplements, and COMT Inhibitors supplements.
+
+
 ## Connections
 - [[COMT Inhibitors]] — related entity
 
 ## Linking Summary
 - New links added: [[COMT Inhibitors]]
-- Strong connections to strengthen: [[COMT Inhibitors]] ↔ [[COMT Inhibitors]]
+  - Strong connections to strengthen: COMT Inhibitors ↔ COMT Inhibitors
 

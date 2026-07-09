@@ -3,11 +3,10 @@ title: Amino Acid Sensing
 description: Amino acid sensing is the cellular detection of nutrient availability;
   high amino acid levels trigger the Ragulator and Rag GTPases to recruit mTORC1 to
   the lysosome, where it inhibits TFEB.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Scientific Concept
+  - scientific-concept
 aliases: []
 ---
 # Amino Acid Sensing
@@ -17,6 +16,14 @@ Amino acid sensing is the cellular detection of nutrient availability; high amin
 ## Mechanisms
 
 Amino acid sensing at the lysosome involves the [[V-ATPase]]-[[Ragulator]]-[[Rag]]-[[mTORC1]] axis. [[SLC38A9]] exports arginine, [[Sestrin2]] senses leucine, [[CASTOR1]] senses arginine.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - l-level regulation]], ischemic injury, metabolic disorders, leucine zipper transcription Factors, TGF-β Signaling, Hypusination, Tumor Suppressor, Translation Initiation, MAPK Signaling, ERK Signaling, Lysosomal Localization, Nuclear Export, Cell Cycle, Ene...
+
 
 ## Connections
 

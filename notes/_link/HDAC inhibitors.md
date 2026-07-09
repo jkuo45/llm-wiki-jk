@@ -1,13 +1,12 @@
 ---
 title: HDAC inhibitors
-description: 'Chemical properties: HDAC inhibitors is a chemical substance with
+description: 'Chemical properties: HDAC inhibitors is a chemical substance with'
   defined molecular structure, functional groups, and physicochemical properties that
-  determine its biological activity.'
-type: entity
+  determine its biological activity.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Chemical Class
+  - chemical-class
   - epigenetics
 aliases: [Histone Deacetylase Inhibitors, HDACi]
 
@@ -30,5 +29,5 @@ aliases: [Histone Deacetylase Inhibitors, HDACi]
 
 ## Linking Summary
 - New links added: [[HDAC inhibitors]]
-- Strong connections to strengthen: [[HDAC inhibitors]] ↔ [[HDAC inhibitors]]
+  - Strong connections to strengthen: HDAC inhibitors ↔ HDAC inhibitors
 

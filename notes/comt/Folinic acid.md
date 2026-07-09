@@ -1,11 +1,10 @@
 ---
 title: Folinic acid
-description: 'Folinic acid (leucovorin) is a reduced folateform that bypasses MTHFR for initial conversion, supporting the methylation cycle without the abrupt methyl load of methylfolate; useful in slow COMT.'
-type: entity
+description: Folinic acid (leucovorin) is a reduced folateform that bypasses MTHFR for initial conversion, supporting the methylation cycle without the abrupt methyl load of methylfolate; useful in slow COMT.
 created: 2026-05-25
 updated: 2026-07-07
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: [leucovorin, 5-formyltetrahydrofolate, 5-formyl-THF]
 
 ---
@@ -25,6 +24,14 @@ As a 5-formyl substituted tetrahydrofolate, folinic acid is resistant to the dih
 ## Clinical & Research Relevance
 
 Folinic acid is clinically established as an antidote to folic-acid antagonist toxicity (methotrexate, pyrimethamine) and as adjunctive therapy in cerebral folate deficiency and autism-spectrum protocols. In oncology it "rescues" normal cells from antifolate chemotherapy. For those with slow [[COMT]] or [[MTHFR]] variants pursuing methylation support, folinic acid—complemented by non-methylated B12 forms such as [[Hydroxocobalamin]] or [[Adenosylcobalamin]]—offers a measured approach to the [[Methylation Cycle]] without overstimulation.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - Folinic acid may be another alternative.
+
 
 ## Connections
 

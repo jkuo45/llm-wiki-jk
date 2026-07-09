@@ -1,11 +1,10 @@
 ---
 title: Trim17
 description: TRIM17 (tripartite motif-containing protein 17) is an E3 ubiquitin ligase that ubiquitylates Mcl-1 and other substrates to promote apoptosis; its tumor relevance lies in damping anti-apoptotic proteins that cancers exploit for survival.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Enzyme
+  - enzyme
 aliases: []
 ---
 

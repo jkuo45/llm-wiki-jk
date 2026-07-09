@@ -1,13 +1,12 @@
 ---
 title: Metformin
-description: 'Metformin is the world''s most widely prescribed medication for
+description: Metformin is the world''s most widely prescribed medication for
   type 2 Diabetes Mellitus. Beyond its role in controlling blood sugar, metformin
-  has gained significant attention in Geroscience as...'
-type: entity
+  has gained significant attention in Geroscience as...
 created: 2026-05-29
 updated: 2026-05-29
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: []
 ---
 
@@ -38,6 +37,25 @@ Beyond glycemic control, metformin is associated with reduced all-cause mortalit
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Dietary Advanced Glycation End Products and Aging|Dietary Advanced Glycation End Products and Aging]]
+    - Pharmacological Interventions Several pharmacological agents have been studied as blockers of AGEs crosslinking or as blockers of their actions using cellular, animal and human models: benfotiamine (a B1-like vitamin with higher bioavailability), Metformin,...
+
+  - [[_document_ - Autophagy and intermittent fasting the connection for cancer therapy?|Autophagy and intermittent fasting the connection for cancer therapy?]]
+    - Several studies demonstrated the tumor-suppressive effects of CRM agents, for example, 2-deoxy-glucose, Metformin,, mTOR inhibitors, resveratrol,, hydroxycitrate, Spermidine, and (
+
+  - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
+    - Rejuvenation of immune cells by autophagy-inducing drugs, such as Rapamycin, Metformin and Spermidine, and dietary interventions (DR).
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - In contrast, loss of SIRT2 has been reported to reduce AMPK activation, thereby promoting aging-related and Angiotensin II-induced Cardiac Hypertrophy and blunting Metformin-mediated cardioprotective effects.
+
+
 ## Connections
 - **[[Aging]]**: Metformin is a leading candidate for a human anti-aging intervention.
 - **[[Diabetes Mellitus]]**: The original clinical indication for metformin.
@@ -47,4 +65,4 @@ Beyond glycemic control, metformin is associated with reduced all-cause mortalit
 ## Linking Summary
 - New links added: [[Metformin]], [[Diabetes Mellitus]], [[Geroscience]], [[AMPK]], [[Caloric Restriction]], [[mTOR]], [[Autophagy]], [[SASP]], [[Epigenome]], [[Epigenetic Clock]], [[DNAmGrimAge]], [[DNA Methylation]], [[DNMT1]], [[Aging]], [[Autophagy Inducer]], [[Advanced Glycation End Products]], [[NFκB]], [[Diabetes]], [[Mitochondrial Complex I]], [[AMP]], [[ATP]], [[AMP-Activated Protein Kinase]], [[Glycerol-3-Phosphate Dehydrogenase]], [[Fructose-1, 6-Bisphosphatase]], [[Glucagon Signaling]], [[Adenylate Cyclase]], [[mTORC1]], [[Methylglyoxal]], [[Carboxymethyllysine]], [[Hydroimidazolone]], [[NRF2]], [[ARE]], [[Glyoxalase I]], [[RAGE]], [[C. elegans]], [[Mus musculus]], [[Hepatocellular Carcinoma]], [[Alzheimer's Disease]], [[Atherosclerosis]], [[Cellular Senescence]], [[Inflammaging]], [[Targeting Aging with Metformin]], [[Mitohormesis]], [[NADH]], [[NAD+]], [[SIRT1]], [[PGC1-α]], [[FOXO]], [[Superoxide Dismutase 2]], [[Catalase]], [[Glutathione]], [[Vitamin C]], [[Vitamin E]], [[Mitohormetic Redox-Relay]], [[Adrenochrome]], [[Carbazochrome]], [[Lactic Acidosis]], [[Rapamycin]], [[NAD+]], [[Urolithin A]], [[Colorectal Cancer]], [[Breast Cancer]], [[Cardiovascular Disease]], [[Cognitive Decline]], [[Akkermansia muciniphila]]
 - Suggested new entity notes to create: [[TAME Trial]], [[Geroprotectors]], [[Nir Barzilai]], [[Aging]], [[Mitohormetic Redox-Relay]], [[Targeting Aging with Metformin]]
-- Strong connections to strengthen: [[Metformin]] ↔ [[Aging]], [[Metformin]] ↔ [[AMPK]], [[Metformin]] ↔ [[Mitochondrial Complex I]], [[Metformin]] ↔ [[Advanced Glycation End Products]], [[Metformin]] ↔ [[Mitohormesis]]
+  - Strong connections to strengthen: [[Metformin]] ↔ [[Aging]], [[Metformin]] ↔ [[AMPK]], [[Metformin]] ↔ Mitochondrial Complex I, [[Metformin]] ↔ Advanced Glycation End Products, [[Metformin]] ↔ [[Mitohormesis]]

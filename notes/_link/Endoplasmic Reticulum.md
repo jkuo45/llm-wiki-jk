@@ -1,12 +1,11 @@
 ---
 title: Endoplasmic Reticulum
-description: 'Overview: Endoplasmic Reticulum is a specialized cellular or anatomical
-  structure with defined functions in tissue organization and physiology.'
-type: entity
+description: 'Overview: Endoplasmic Reticulum is a specialized cellular or anatomical'
+  structure with defined functions in tissue organization and physiology.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Anatomy
+  - anatomy
 aliases: [ER]
 
 ---
@@ -28,5 +27,5 @@ aliases: [ER]
 
 ## Linking Summary
 - New links added: [[Endoplasmic Reticulum]]
-- Strong connections to strengthen: [[Endoplasmic Reticulum]] ↔ [[Endoplasmic Reticulum]]
+  - Strong connections to strengthen: Endoplasmic Reticulum ↔ Endoplasmic Reticulum
 

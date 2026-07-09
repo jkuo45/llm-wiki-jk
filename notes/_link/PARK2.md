@@ -1,13 +1,12 @@
 ---
 title: PARK2
-description: 'Overview: PARK2 is a cellular protein with structural, signaling,
+description: 'Overview: PARK2 is a cellular protein with structural, signaling,'
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
-  and signaling networks that govern cel...'
-type: entity
+  and signaling networks that govern cel...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [Parkin, PRKN]
 
 ---
@@ -29,5 +28,5 @@ aliases: [Parkin, PRKN]
 
 ## Linking Summary
 - New links added: [[PARK2]]
-- Strong connections to strengthen: [[PARK2]] ↔ [[PARK2]]
+  - Strong connections to strengthen: [[PARK2]] ↔ [[PARK2]]
 

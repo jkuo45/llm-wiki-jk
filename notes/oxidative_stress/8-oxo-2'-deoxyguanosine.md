@@ -3,14 +3,13 @@ title: 8-oxo-2'-deoxyguanosine
 description: 8-oxo-2'-deoxyguanosine (8-oxodG) is an oxidized derivative of deoxyguanosine
   and is one of the major products of DNA oxidation. It is a widely used biomarker
   of Oxidative Stress and is frequently ...
-type: entity
 created: 2026-05-09
 updated: 2026-07-04
 tags:
-  - oxidative stress
-  - Biomarker
-  - dna damage
-  - Metabolite
+  - oxidative-stress
+  - biological-molecule
+  - dna-damage
+  - biological-molecule
 aliases: [8-oxodG, 8-OHdG, 8-hydroxy-2'-deoxyguanosine]
 ---
 # 8-oxo-2'-deoxyguanosine
@@ -41,6 +40,14 @@ Elevated urinary 8-oxodG has been reported in:
 - **[[Neurodegenerative Diseases]]**: Higher levels in CSF and urine in [[Alzheimer's Disease]] and [[Parkinson's Disease]].
 - **[[Aging]]**: Urinary 8-oxodG increases with age, though the trajectory is modifiable by lifestyle.
 - **[[Lifestyle and Environmental Factors]]**: Smoking, air pollution (PM2.5, polycyclic aromatic hydrocarbons), occupational exposures (asbestos, silica), high-fat diets, and lack of [[Exercise]] are all associated with elevated 8-oxodG. Conversely, [[Caloric Restriction]] and [[Mediterranean Diet]] interventions reduce levels.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - Even DNA is prone to oxidative stress-related lesions, the most representative of which is the 8-oxo-2'-deoxyguanosine formation; this is a particularly pernicious DNA lesion, which can be responsible for both mutagenesis, as pointed out by Nishida et al.
+
 
 ## Connections
 - [[Oxidative Stress]]: 8-oxodG is the most validated biomarker of oxidative DNA damage.

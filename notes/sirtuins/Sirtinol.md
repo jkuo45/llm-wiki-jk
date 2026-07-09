@@ -3,11 +3,10 @@ title: Sirtinol
 description: Sirtinol is a cell-permeable, small-molecule dual inhibitor of SIRT1
   and SIRT2 containing a characteristic $\beta$-naphthol moiety. It was identified
   in yeast-based high-throughput screens and is w...
-type: entity
 created: 2026-07-03
 updated: 2026-07-03
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases:
   - Sirtinol
 ---
@@ -47,6 +46,14 @@ Sirtinol binds to the catalytic core of [[SIRT1]] and [[SIRT2]], preventing the 
 
 ---
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - In this review, we introduce the history and structure of the SIRT protein family, discuss the molecular mechanisms and biological functions of seven members of the SIRT protein family, elaborate on the regulatory roles of SIRTs in human disease, summarize ...
+
+
 ## Connections & Related Entities
 
 - **[[SIRT1]]** & **[[SIRT2]]** — direct sirtuin targets inhibited by sirtinol.
@@ -54,6 +61,8 @@ Sirtinol binds to the catalytic core of [[SIRT1]] and [[SIRT2]], preventing the 
 - **[[Salermide]]** — a potent synthetic analog of sirtinol designed to optimize anticancer efficacy.
 
 ---
+
+
 
 ## Connections
 

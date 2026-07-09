@@ -1,17 +1,13 @@
 ---
 title: Vitamin B12
-description: 'Vitamin B12 (cobalamin) is a water-soluble vitamin essential for
+description: Vitamin B12 (cobalamin) is a water-soluble vitamin essential for
   red blood cell formation, DNA Repair, and neurological function. It is a critical
-  cofactor in the Methylation.'
-type: entity
+  cofactor in the Methylation.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: [Cobalamin, Cyanocobalamin, Methylcobalamin, Adenosylcobalamin, Hydroxocobalamin]
-database_ids:
-  mesh: D014805
-  chebi: CHEBI:18405
 
 ---
 
@@ -26,6 +22,16 @@ Vitamin B12 is required by [[MTRR]] (methionine synthase reductase) to regenerat
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - Which type of Vitamin B12 should you take if you have slow COMT? If you plan to take supplemen
+
+
 ## Connections
 - [[Methylation]] — B12 is essential for the methylation cycle
 - [[MTRR]] — B12 recycling enzyme
@@ -37,4 +43,4 @@ Vitamin B12 is required by [[MTRR]] (methionine synthase reductase) to regenerat
 ## Linking Summary
 - New links added: [[Methylation]], [[SAMe]], [[COMT]], [[MTRR]], [[Folate]], [[DNA Repair]], [[Homocysteine]], [[MethylB12]], [[Adenosylcobalamin]], [[Hydroxocobalamin]]
 - Suggested new entity notes to create: [[Methionine Synthase]], [[Methylmalonyl-CoA Mutase]], [[Intrinsic Factor]]
-- Strong connections to strengthen: [[Vitamin B12]] ↔ [[Methylation]], [[Vitamin B12]] ↔ [[COMT]]
+  - Strong connections to strengthen: Vitamin B12 ↔ [[Methylation]], Vitamin B12 ↔ COMT

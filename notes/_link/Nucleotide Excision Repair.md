@@ -1,13 +1,12 @@
 ---
 title: Nucleotide Excision Repair
-description: 'Definition: Nucleotide Excision Repair is a fundamental biological
+description: 'Definition: Nucleotide Excision Repair is a fundamental biological'
   process that maintains cellular and organismal homeostasis. It involves coordinated
-  molecular events regulated by signaling pa...'
-type: entity
+  molecular events regulated by signaling pa...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Biological Process
+  - biological-process
 aliases: [NER]
 
 ---
@@ -29,5 +28,5 @@ aliases: [NER]
 
 ## Linking Summary
 - New links added: [[Nucleotide Excision Repair]]
-- Strong connections to strengthen: [[Nucleotide Excision Repair]] ↔ [[Nucleotide Excision Repair]]
+  - Strong connections to strengthen: Nucleotide Excision Repair ↔ Nucleotide Excision Repair
 

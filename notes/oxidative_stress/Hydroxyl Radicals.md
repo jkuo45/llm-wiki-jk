@@ -3,14 +3,13 @@ title: Hydroxyl Radicals
 description: Hydroxyl radicals ($\bullet OH$) are the most reactive and destructive
   species among all reactive oxygen species (ROS) in biological systems. They have
   a very short half-life and react instantly wi...
-type: entity
 created: 2026-05-09
 updated: 2026-07-04
 tags:
-  - oxidative stress
-  - ROS
-  - dna damage
-  - Metabolite
+  - oxidative-stress
+  - ros
+  - dna-damage
+  - biological-molecule
 aliases: [•OH, hydroxyl radical, OH radical]
 ---
 # Hydroxyl Radicals
@@ -39,6 +38,14 @@ Hydroxyl radicals attack both the deoxyribose backbone and purine/pyrimidine bas
 
 ## Clinical and Pathological Significance
 Hydroxyl radicals are implicated in the pathogenesis of [[Ischemia-reperfusion Injury]], where reintroduction of O₂ after hypoxia provides [[Hydrogen Peroxide]] that reacts with the elevated pool of cytosolic Fe²⁺ liberated from damaged [[Mitochondria]] and degraded ferritin. In [[Neurodegenerative Diseases]], iron accumulation in the [[Substantia Nigra]] (in [[Parkinson's Disease]]) and in senile plaques (in [[Alzheimer's Disease]]) provides local catalysts for hydroxyl radical generation, contributing to neuronal loss. Chelation therapy with deferoxamine or the more brain-permeable deferiprone is under investigation as a strategy to limit hydroxyl radical-mediated neurotoxicity. In [[Atherosclerosis]], iron deposition within the arterial wall promotes LDL oxidation via hydroxyl radicals, accelerating plaque progression. The extreme reactivity of hydroxyl radicals makes direct scavenging impractical; therapeutic strategies therefore focus on upstream prevention — reducing [[Hydrogen Peroxide]] via [[Catalase]] and [[Glutathione Peroxidase]], sequestering transition metals, and limiting [[Superoxide Radicals]] production at its [[Mitochondria|mitochondrial]] and enzymatic sources.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - Superoxide Radicals (O 2 •−), Hydrogen Peroxide (H 2 O 2), Hydroxyl Radicals (•OH), and Singlet Oxygen (1 O 2) are commonly defined reactive oxygen species (ROS); they are generated as metabolic by-products by biological systems \[, \].
+
 
 ## Connections
 - [[Oxidative Stress]]: The terminal and most harmful mediator of oxidative damage.

@@ -1,13 +1,12 @@
 ---
 title: Hrk
-description: 'Overview: Hrk is a cellular protein with structural, signaling,
+description: 'Overview: Hrk is a cellular protein with structural, signaling,'
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
-  and signaling networks that govern cell ...'
-type: entity
+  and signaling networks that govern cell ...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [Harakiri, BCL2 Interacting Protein]
 
 ---
@@ -24,10 +23,20 @@ aliases: [Harakiri, BCL2 Interacting Protein]
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - Bax, Bak, Bad, Bcl-Xs, Bid, Bik, Bim and Hrk) and the anti-apoptotic proteins (e.g. Bcl-2, Bcl-xL, Bcl-w, A1-Bfl-1 and Mcl-1) \[\].
+
+
 ## Connections
 - [[Hrk]] — related entity
 
 ## Linking Summary
 - New links added: [[Hrk]]
-- Strong connections to strengthen: [[Hrk]] ↔ [[Hrk]]
+  - Strong connections to strengthen: [[Hrk]] ↔ [[Hrk]]
 

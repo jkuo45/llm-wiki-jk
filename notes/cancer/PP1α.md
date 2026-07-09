@@ -1,11 +1,10 @@
 ---
 title: PP1α
 description: Protein phosphatase 1 alpha (PP1α, PPP1CA) is the catalytic alpha isoform of PP1 that dephosphorylates and activates Caspase-9 by reversing inhibitory phosphorylation at Thr125.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Enzyme
+  - enzyme
 aliases: []
 ---
 
@@ -24,6 +23,14 @@ By activating [[Caspase-9]], PP1α promotes the intrinsic (mitochondrial) [[Apop
 ## Clinical & Research Relevance
 
 PP1α is a useful experimental tool for dephosphorylation assays and a conceptual therapeutic node: enhancing PP1α-mediated activation of Caspase-9 could overcome resistance to [[Chemotherapy]]. Small-molecule PP1 inhibitors (okadaic acid, calyculin A) are primarily research reagents due to toxicity, whereas targeting regulatory subunits offers more specific manipulation.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - Caspase-9 | | CDK1, DYRK1A, ERK1_2, p38 MAPK (PP1α) | Thr125 | Suppression of activity | Suppressing mitotic cell death | | Ca
+
 
 ## Connections
 

@@ -4,11 +4,10 @@ description: Somatic Cell Nuclear Transfer (SCNT) is a laboratory technique that
   a viable embryo (or pluripotent cell line) by transferring the nucleus of a somatic
   cell into an enucleated Oocyte, thereby reprogramming the donor genome to a totipotent/pluripotent
   state.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Biological Process
+  - biological-process
 aliases: []
 ---
 
@@ -27,6 +26,17 @@ SCNT provided the first definitive proof that the genome of a terminally differe
 ## Physiological, Pathological & Clinical Relevance
 
 Clinically, SCNT underpins therapeutic cloning concepts and has been used to derive disease-specific ntESCs for [[Disease Modeling]] and [[Drug Discovery]]. It also illuminated why aged, differentiated nuclei can be "rejuvenated" by ooplasmic factors — informing later [[Rejuvenation]] strategies. Limitations include low efficiency, mitochondrial heteroplasmy (oocyte mtDNA persists), and epigenetic memory/aberrant imprinting that can cause placental and developmental abnormalities. These drawbacks, together with ethical concerns over embryo use, motivated the shift toward iPSC-based approaches after [[Kazutoshi Takahashi]] and Yamanaka's 2006/2007 discoveries.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic|Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic]]
+    - a Factors]], Embryonic Stem Cells, Fibroblasts, Shinya Yamanaka, Kazutoshi Takahashi, OSKM, Regenerative Medicine, Olivopontocerebellar Atrophy, NuRD complex, CHD4, Schizophrenia, Induced Neural Stem Cells, Amyotrophic Lateral Sclerosis, Frontotemporal Deme...
+
+  - [[_document_ - Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network|Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network]]
+    - Epigenetic modification Previous studies related to the epigenetic control of reprogrammed cells, either by Somatic Cell Nuclear Transfer or by factor-induced Pluripotency, revealed that global inhibition of DNA methylation activity and inhibition of histon...
+
 
 ## Connections
 - [[Oocyte]]: The enucleated recipient cytoplasm that supplies reprogramming machinery.

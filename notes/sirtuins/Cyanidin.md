@@ -3,11 +3,10 @@ title: Cyanidin
 description: Cyanidin is a natural anthocyanidin (a class of flavonoid pigments) widely
   found in red, blue, and purple berries and fruits. Its glycoside form, cyanidin-3-glucoside
   (C3G), is one of the most prev...
-type: entity
 created: 2026-07-03
 updated: 2026-07-03
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases:
   - Cyanidin
   - Cyanidin-3-glucoside
@@ -48,6 +47,14 @@ Cyanidin/C3G is one of the most realistically achievable SIRT6 activators throug
 | Blueberries | ~25–50 mg/100g | Large quantities required |
 
 **Note**: Raw elderberries require cooking/processing (toxic saponins in raw form); elderberry syrup or extract is safer.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins (resveratrol), gemini|sirtuins (resveratrol), gemini]]
+    - Cyanidin: A natural anthocyanidin (found in red berries) capable of increasing SIRT6 activity by over 50-fold in certain in vitro assays. ` [ UBCS039 / MDL-801 / Cyanidin ] │ ▼ Binds Allosteric Hydrophobic Pocket │ ▼
+
 
 ## Connections
 

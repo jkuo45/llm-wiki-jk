@@ -1,17 +1,13 @@
 ---
 title: iNOS
-description: 'iNOS (Inducible Nitric Oxide Synthase, NOS2) is a calcium-independent
+description: iNOS (Inducible Nitric Oxide Synthase, NOS2) is a calcium-independent
   isoform of Nitric Oxide Synthase that produces high, sustained fluxes of Nitric
-  Oxide (micromolar range) in response to inf...'
-type: entity
+  Oxide (micromolar range) in response to inf...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Enzyme
+  - enzyme
 aliases: [NOS2, Inducible nitric oxide synthase, Macrophage NOS, Ca²⁺-independent NOS]
-database_ids:
-  uniprot: P35228
-  hgnc: HGNC:7873
 
 ---
 
@@ -37,6 +33,14 @@ iNOS is not constitutively expressed; its transcription is induced by pro-inflam
 - **[[Neurodegeneration|Neurodegenerative Diseases]]**: Glial iNOS produces sustained NO bursts that contribute to neuronal injury in [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Amyotrophic Lateral Sclerosis]], and [[Multiple Sclerosis]].
 - **[[Diabetes Mellitus]]**: iNOS upregulation in pancreatic islets and [[Peroxynitrite]] formation damage β-cells.
 - **[[Chronic Inflammatory Diseases]]**: iNOS is elevated in [[Rheumatoid Arthritis]] synovium, inflammatory bowel disease, and [[Asthma]].
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Furthermore, SIRT1 targets the p53/MicroRNA axis to suppress inflammation, cyclooxygenase (COX)-2 and iNOS expression.
+
 
 ## Connections
 

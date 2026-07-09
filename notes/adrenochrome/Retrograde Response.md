@@ -3,11 +3,10 @@ title: Retrograde Response
 description: The retrograde response (or retrograde signaling) is a communication
   pathway from Mitochondria (or other organelles) to the nucleus that alters nuclear
   gene expression in response to changes in the...
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Biological Process
+  - biological-process
 aliases: []
 ---
 # Retrograde Response

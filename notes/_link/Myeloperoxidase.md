@@ -1,13 +1,12 @@
 ---
 title: Myeloperoxidase
-description: 'Myeloperoxidase (MPO) is a heme-containing enzyme primarily found
+description: Myeloperoxidase (MPO) is a heme-containing enzyme primarily found
   in the azurophilic granules of Neutrophils. It plays a critical role in the innate
-  immune system''s ability to kill pathogens.'
-type: entity
+  immune system''s ability to kill pathogens.
 created: 2026-05-29
 updated: 2026-05-29
 tags:
-  - Enzyme
+  - enzyme
 aliases: []
 ---
 
@@ -35,4 +34,4 @@ MPO uses [[Hydrogen Peroxide]] to oxidize halide ions (like chloride) into poten
 ## Linking Summary
 - New links added: [[Myeloperoxidase]], [[Neutrophils]], [[Oxidation]], [[Epinephrine]], [[Adrenochrome]], [[Reactive Oxygen Species]], [[Hydrogen Peroxide]], [[Inflammation]], [[Oxidative Stress]], [[Hypochlorous Acid]]
 - Suggested new entity notes to create: [[Peroxidase]], [[MPO gene]]
-- Strong connections to strengthen: [[Myeloperoxidase]] ↔ [[Neutrophils]], [[Myeloperoxidase]] ↔ [[Hypochlorous Acid]]
+  - Strong connections to strengthen: [[Myeloperoxidase]] ↔ [[Neutrophils]], [[Myeloperoxidase]] ↔ Hypochlorous Acid

@@ -1,11 +1,10 @@
 ---
 title: William C. Campbell
 description: William C. Campbell is an Irish-American parasitologist who, with Satoshi Ōmura, discovered the avermectins (leading to ivermectin), revolutionizing treatment of roundworm infections; awarded the 2015 Nobel Prize in Physiology or Medicine.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Organization
+  - organization
 aliases: []
 ---
 
@@ -24,6 +23,14 @@ Although an antiparasitic, ivermectin has since been found to inhibit multiple o
 ## Recognition
 
 Campbell received numerous honors besides the Nobel, including membership in the National Academy of Sciences. His career exemplifies the translational arc from soil microbe to globally deployed medicine.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, ‘Wonder drug’ from Japan the human use perspective|Ivermectin, ‘Wonder drug’ from Japan the human use perspective]]
+    - Inc scientists, under the direction of William C. Campbell, found that the drug was active against a wide range of parasites of livestock and companion animals.
+
 
 ## Connections
 

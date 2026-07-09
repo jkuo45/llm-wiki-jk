@@ -1,13 +1,12 @@
 ---
 title: Osteoporosis
-description: 'Etiology and pathophysiology: Osteoporosis is a medical condition
+description: 'Etiology and pathophysiology: Osteoporosis is a medical condition'
   characterized by specific pathological changes in cellular, tissue, or organ function.
-  Its development involves genetic, enviro...'
-type: entity
+  Its development involves genetic, enviro...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: []
 ---
 
@@ -23,10 +22,23 @@ aliases: []
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
+    - The shared aetiology of age-associated disorders, such as Atherosclerosis, Cardiovascular Disease, Osteoarthritis, Osteoporosis, Type 2 Diabetes Mellitus, Cancer and Neurodegenerative Diseases is still poorly understood (Nikolich-Žugich, 2018).
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Diseases of the motor system focus on abnormal bone metabolism and diseases resulting from skeletal muscle dysfunction, mainly including Osteoarthritis, Osteoporosis, Aging and skeletal muscle atrophy.
+
+
 ## Connections
 - [[Osteoporosis]] — related entity
 
 ## Linking Summary
 - New links added: [[Osteoporosis]]
-- Strong connections to strengthen: [[Osteoporosis]] ↔ [[Osteoporosis]]
+  - Strong connections to strengthen: [[Osteoporosis]] ↔ [[Osteoporosis]]
 

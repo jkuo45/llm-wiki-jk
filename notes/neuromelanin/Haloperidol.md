@@ -1,11 +1,10 @@
 ---
 title: Haloperidol
 description: Haloperidol is an antipsychotic medication that can be metabolized into the neurotoxin HPP+, potentially contributing to drug-induced Parkinsonism.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: []
 ---
 
@@ -24,6 +23,14 @@ Haloperidol remains valuable clinically, but its dopaminergic blockade produces 
 
 ## Pathology and Research Implications
 The structural kinship between HPP+ and MPP+ makes haloperidol a useful pharmacological tool for modeling selective dopaminergic neurotoxicity, and a cautionary example of how an antipsychotic can engage [[Mitochondrial Dysfunction]] and [[Oxidative Stress]]. Mitigation strategies include using lower-potency or atypical antipsychotics when parkinsonism risk is a concern. Overall, haloperidol illustrates the intersection of receptor pharmacology and metabolic neurotoxicology in catecholaminergic neuron injury.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator|Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator]]
+    - Disruption of NM Function as a Predictor of PD Inducers If membrane bound, granular NM indeed proves to bind Dopamine in a reversible manner, we can predict that any subsequent disruption of this function would result in symptoms of PD, analogous to what is...
+
 
 ## Connections
 - [[HPP+]]: Pyridinium neurotoxic metabolite of haloperidol.

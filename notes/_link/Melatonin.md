@@ -1,12 +1,11 @@
 ---
 title: Melatonin
-description: 'Melatonin is a hormone produced by the pineal gland that regulates
-  the sleep-wake cycle.'
-type: entity
+description: Melatonin is a hormone produced by the pineal gland that regulates
+  the sleep-wake cycle.
 created: 2026-05-29
 updated: 2026-05-29
 tags:
-  - Biological Molecule
+  - biological-molecule
 aliases: []
 ---
 
@@ -18,6 +17,16 @@ aliases: []
 It primarily signals the body that it is time to sleep and acts as a potent antioxidant.
 
 #
+
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - For example, Serotonin is converted into Melatonin through a process that involves adding a methyl group. COMT Variants: Slow COMT vs.
+
 
 ## Connections
 - [[Serotonin]]: The precursor to melatonin.

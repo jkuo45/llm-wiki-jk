@@ -1,14 +1,13 @@
 ---
 title: Arrhythmias
 description: Cardiac rhythm disorders encompassing tachyarrhythmias, bradyarrhythmias, and irregular rhythms arising from abnormal impulse formation or conduction.
-type: entity
 created: 2026-07-04
 updated: 2026-07-06
 tags:
   - cardiology
   - electrophysiology
   - arrhythmia
-  - Medical Condition
+  - medical-condition
 aliases: [Cardiac arrhythmia, Dysrhythmia, Heart rhythm disorder]
 ---
 
@@ -57,6 +56,14 @@ For **[[Ventricular Tachycardia]]** and **[[Ventricular Fibrillation]]**, an [[I
 **Bradyarrhythmias** are treated with [[Pacemaker|permanent pacemaker]] implantation when symptomatic. Indications include [[Sick Sinus Syndrome|sick sinus syndrome]] with symptomatic pauses, third-degree AV block, Mobitz II second-degree block, and certain bradycardia-dependent tachyarrhythmias.
 
 Emerging and adjunctive therapies include [[Cardiac Resynchronization Therapy|cardiac resynchronization therapy]] (CRT) for heart failure patients with wide QRS, [[Surgical Ablation|surgical]] (Maze) ablation for AF during concurrent cardiac surgery, and [[Neuromodulation|neuromodulatory]] approaches such as [[Stellate Ganglion Blockade|stellate ganglion blockade]] for refractory VT.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Adrenochrome Pathway|The Adrenochrome Pathway]]
+    - Indeed in the 1930's and 40's this pathway was thought by many to be the major catabolic route for Epinephrine in vivo: More recently, Adrenochrome has been shown to be Cardiotoxicity, causing Cell necrosis, Arrhythmias and Coronary artery constriction.
+
 
 ## Connections
 

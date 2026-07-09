@@ -1,13 +1,12 @@
 ---
 title: Cardiomyopathy
-description: 'Etiology and pathophysiology: Cardiomyopathy is a medical condition
+description: 'Etiology and pathophysiology: Cardiomyopathy is a medical condition'
   characterized by specific pathological changes in cellular, tissue, or organ function.
-  Its development involves genetic, envi...'
-type: entity
+  Its development involves genetic, envi...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: []
 ---
 
@@ -28,5 +27,5 @@ aliases: []
 
 ## Linking Summary
 - New links added: [[Cardiomyopathy]]
-- Strong connections to strengthen: [[Cardiomyopathy]] ↔ [[Cardiomyopathy]]
+  - Strong connections to strengthen: [[Cardiomyopathy]] ↔ [[Cardiomyopathy]]
 

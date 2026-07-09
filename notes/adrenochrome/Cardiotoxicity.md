@@ -1,17 +1,12 @@
 ---
 title: Cardiotoxicity
-description: 'Cardiotoxicity refers to the damage to the heart muscle (myocardium)
-  caused by exposure to toxins, drugs, or reactive metabolites.'
-type: entity
+description: Cardiotoxicity refers to the damage to the heart muscle (myocardium)
+  caused by exposure to toxins, drugs, or reactive metabolites.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Adverse Effect
+  - medical-condition
 aliases: []
-relations:
-  - predicate: caused_by
-sources: []
-target: Adrenochrome
 
 ---
 
@@ -39,6 +34,20 @@ Beyond general oxidative damage, adrenochrome produces distinct cardiac pathophy
 - **[[Cell necrosis]]:** At sufficiently high local concentrations, adrenochrome triggers direct necrotic cell death in the myocardium via uncontrolled [[Redox Cycling]] and ATP depletion.
 
 These effects position adrenochrome as a mechanistic link between acute catecholamine surge (as occurs in [[Myocardial infarction]] or stress cardiomyopathy) and the resulting cardiac complications.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Adrenochrome Pathway|The Adrenochrome Pathway]]
+    - Indeed in the 1930's and 40's this pathway was thought by many to be the major catabolic route for Epinephrine in vivo: More recently, Adrenochrome has been shown to be Cardiotoxicity, causing Cell necrosis, Arrhythmias and Coronary artery constriction.
+
+  - [[_document_ - intermediates, precursor, hemoglobin|intermediates, precursor, hemoglobin]]
+    - bpspubs.onlinelibrary.wiley.com Adrenochrome itself has been studied for potential Cardiotoxicity and historical (now largely discredited) links to Schizophrenia hypotheses (e.g., by Abram Hoffer and Humphry Osmond).
+
+  - [[_document_ - neutrophil and erthrocyte|neutrophil and erthrocyte]]
+    - pubmed.ncbi.nlm.nih.gov - Cardiomyocytes: Epinephrine oxidation to Adrenochrome has been observed in isolated rat Cardiomyocytes, linked to potential Cardiotoxicity effects under stress or high Catecholamines levels.
+
 
 ## Connections
 - [[Adrenochrome]] ↔ A primary mediator of catecholamine-induced cardiotoxicity.

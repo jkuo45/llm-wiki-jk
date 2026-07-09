@@ -1,13 +1,12 @@
 ---
 title: ICAM-1
-description: 'Overview: ICAM-1 is a cellular protein with structural, signaling,
+description: 'Overview: ICAM-1 is a cellular protein with structural, signaling,'
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
-  and signaling networks that govern ce...'
-type: entity
+  and signaling networks that govern ce...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [Intercellular Adhesion Molecule 1, CD54]
 
 ---
@@ -24,10 +23,20 @@ aliases: [Intercellular Adhesion Molecule 1, CD54]
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - SIRT1 deficiency increased microvascular inflammation in obese septic mice, while Resveratrol treatment decreased leukocyte/platelet adhesion and E-selectin/intercellular adhesion molecule (ICAM-1) expression accompanied by increased SIRT1 expression and im...
+
+
 ## Connections
 - [[ICAM-1]] — related entity
 
 ## Linking Summary
 - New links added: [[ICAM-1]]
-- Strong connections to strengthen: [[ICAM-1]] ↔ [[ICAM-1]]
+  - Strong connections to strengthen: [[ICAM-1]] ↔ [[ICAM-1]]
 

@@ -3,11 +3,10 @@ title: Methylglyoxal
 description: Methylglyoxal (MG), also called pyruvaldehyde or 2-oxopropanal, is a
   reactive dicarbonyl compound formed as a byproduct of several metabolic pathways,
   including glycolysis. It is a highly potent pr...
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: []
 ---
 # Methylglyoxal
@@ -38,6 +37,14 @@ Recent evidence reveals a bidirectional relationship between methylglyoxal and [
 - New links added: [[Advanced Glycation End Products]], [[Glycolysis]], [[Dicarbonyls]], [[Dihydroxyacetone Phosphate]], [[Glyceraldehyde-3-Phosphate]], [[Ketone Body]], [[Cytochrome P450]], [[Threonine Dehydrogenase]], [[Semicarbazide-Sensitive Amine Oxidase]], [[Hydroimidazolone]], [[Carboxyethyllysine]], [[Insulin Receptor Substrate 1]], [[Endothelial Nitric Oxide Synthase]], [[Dicarbonyl Stress]], [[Diabetes Mellitus]], [[Insulin Resistance]], [[Chronic Kidney Disease]], [[Aging]], [[Glyoxalase System]], [[GLO1]], [[GLO2]], [[NRF2]], [[Glutathione]], [[Superoxide Dismutase]], [[Adrenochrome]], [[Epinephrine]], [[Diabetic Cardiomyopathy]], [[Parkinson's Disease]]
 - Suggested new entity notes to create: 
 - Strong connections to strengthen: [[Methylglyoxal]] ↔ [[Advanced Glycation End Products]], [[Methylglyoxal]] ↔ [[Adrenochrome]]
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Dietary Advanced Glycation End Products and Aging|Dietary Advanced Glycation End Products and Aging]]
+    - These dicarbonyl derivatives known as α-oxaldehydes (Glyoxal, Methylglyoxal (MG), and 3-deoxyglucosone) can interact with monoacids and form AGEs.
+
 
 ## Connections
 

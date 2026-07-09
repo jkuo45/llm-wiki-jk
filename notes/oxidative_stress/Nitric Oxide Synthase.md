@@ -3,14 +3,13 @@ title: Nitric Oxide Synthase
 description: Nitric oxide synthases (NOSs) are a family of enzymes catalyzing the
   production of Nitric Oxide (NO) from L-arginine. They play a vital role in vascular
   tone and neurotransmission, and their dysfun...
-type: entity
 created: 2026-05-09
 updated: 2026-07-04
 tags:
-  - oxidative stress
-  - nitric oxide
+  - oxidative-stress
+  - nitric-oxide
   - vasodilation
-  - Enzyme
+  - enzyme
 aliases: [NOS, NO synthase]
 ---
 # Nitric Oxide Synthase
@@ -121,6 +120,14 @@ iNOS-derived NO also exerts immunosuppressive effects by inhibiting [[NFRB|NF-κ
 - [[Parkinson's Disease]]: nNOS and iNOS contribute to dopaminergic neuron loss
 
 #
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - Nitric Oxide Radical (NO•), which plays some important physiological roles, is synthesized from Arginine-to-Citrulline oxidation by Nitric Oxide Synthase (NOS) \[ – \].
+
 
 ## Connections
 - [[NADPH Oxidase]]: Cooperative partner in ROS-RNS crosstalk

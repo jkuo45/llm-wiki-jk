@@ -1,13 +1,12 @@
 ---
 title: Statins
-description: 'Statins are a class of lipid-lowering medications that competitively
+description: Statins are a class of lipid-lowering medications that competitively
   inhibit HMG-CoA reductase — the rate-limiting enzyme in the mevalonate pathway —
-  reducing endogenous cholesterol synthesis. ...'
-type: entity
+  reducing endogenous cholesterol synthesis. ...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: [HMG-CoA reductase inhibitors, HMGCR inhibitors]
 
 ---
@@ -38,5 +37,5 @@ Statins are first-line therapy for [[Cardiovascular Disease|cardiovascular disea
 
 ## Linking Summary
 - New links added: [[HMG-CoA reductase]], [[Oxidative Stress]], [[NADPH Oxidase]], [[eNOS]], [[Xanthine Oxidase]], [[NRF2]], [[Lipid Peroxidation]], [[Coenzyme Q10]], [[Cardiovascular Disease]]
-- Strong connections to strengthen: [[Statins]] ↔ [[HMG-CoA reductase]], [[Statins]] ↔ [[Oxidative Stress]], [[Statins]] ↔ [[NADPH Oxidase]], [[Statins]] ↔ [[eNOS]], [[Statins]] ↔ [[Xanthine Oxidase]]
+  - Strong connections to strengthen: [[Statins]] ↔ HMG-CoA reductase, [[Statins]] ↔ Oxidative Stress, [[Statins]] ↔ NADPH Oxidase, [[Statins]] ↔ [[eNOS]], [[Statins]] ↔ Xanthine Oxidase
 

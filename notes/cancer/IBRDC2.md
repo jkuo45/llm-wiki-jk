@@ -1,11 +1,10 @@
 ---
 title: IBRDC2
 description: IBRDC2 (also known as p53RFP or RNF144B) is an E3 ubiquitin ligase that ubiquitinates Bax on the mitochondrial outer membrane, regulating its stability and apoptotic activation.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Enzyme
+  - enzyme
 aliases: []
 ---
 

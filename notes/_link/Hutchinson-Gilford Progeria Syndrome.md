@@ -1,13 +1,12 @@
 ---
 title: Hutchinson-Gilford Progeria Syndrome
-description: 'Hutchinson-Gilford Progeria Syndrome (HGPS) is an extremely rare,
+description: Hutchinson-Gilford Progeria Syndrome (HGPS) is an extremely rare,
   fatal genetic condition characterized by an appearance of dramatic, rapid Aging
-  beginning in childhood. It serves as a critical...'
-type: entity
+  beginning in childhood. It serves as a critical...
 created: 2026-05-31
 updated: 2026-05-31
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: []
 ---
 
@@ -29,6 +28,19 @@ Children with HGPS typically appear healthy at birth but begin to show signs of 
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic|Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic]]
+    - ya Yamanaka]], Kazutoshi Takahashi, OSKM, Regenerative Medicine, Olivopontocerebellar Atrophy, NuRD complex, CHD4, Schizophrenia, Induced Neural Stem Cells, Amyotrophic Lateral Sclerosis, Frontotemporal Dementia, Alzheimer's Disease, BIG1, Somatic Cell Nucl...
+
+  - [[_document_ - Epigenetic changes during aging and their reprogramming potential|Epigenetic changes during aging and their reprogramming potential]]
+    - senescent human fibroblasts (Scaffidi and Misteli 2006) and fibroblasts from Hutchinson-Gilford Progeria Syndrome (HGPS) and Werner Syndrome progeria patients (Scaffidi and Misteli 2006; Shumaker et al. 2006; Zhang et al.
+
+
 ## Connections
 - [[Aging]]: HGPS is the primary model for "segmented progeria" (accelerated aging).
 - [[Lamin A]]: The protein whose mutation drives the disease.
@@ -37,4 +49,4 @@ Children with HGPS typically appear healthy at birth but begin to show signs of 
 
 ## Linking Summary
 - New links added: [[Rejuvenation]], [[Partial Reprogramming]], [[Yamanaka Factors]], [[OSKM]], [[DNA Damage]]
-- Strong connections to strengthen: [[Partial Reprogramming]] ↔ [[Hutchinson-Gilford Progeria Syndrome]]
+  - Strong connections to strengthen: Partial Reprogramming ↔ Hutchinson-Gilford Progeria Syndrome

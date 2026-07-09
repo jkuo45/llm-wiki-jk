@@ -1,11 +1,10 @@
 ---
 title: PTPN5
 description: PTPN5 (STEP) is a neuron-enriched non-receptor tyrosine phosphatase that regulates MAPK, Fyn, and Pyk2 signaling; aberrant re-expression in tumors connects it to proliferation and survival pathways.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Protein
+  - protein
 aliases: []
 ---
 
@@ -24,6 +23,14 @@ In neurons, STEP maintains signaling homeostasis and is implicated in neurodegen
 ## Clinical & Research Relevance
 
 STEP is primarily a biomarker and therapeutic target in neuroscience, but its shared MAPK regulation makes it a point of cross-talk with cancer signaling networks. Inhibitors and activators of STEP developed for CNS disorders may inform combinatorial strategies where MAPK/ERK output determines response to [[Chemotherapy]] or targeted therapy.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - Required during anoikis | | Bak | | Unidentified (PTPN2, PTPN5, PTPN23) | Tyr108 | Inactivation | Fibrosarcoma, Colon Cancer | | Bak |
+
 
 ## Connections
 

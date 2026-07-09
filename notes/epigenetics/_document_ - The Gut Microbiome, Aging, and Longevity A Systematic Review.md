@@ -4,7 +4,6 @@ description: Aging is determined by complex interactions among genetic and envir
   factors. Increasing evidence suggests that the gut microbiome lies at the core of
   many age-associated changes, including immune system dysregulation and susceptibility
   to ...
-type: document
 created: 2026-05-26
 source: https://pmc.ncbi.nlm.nih.gov/articles/PMC7762384/
 author:

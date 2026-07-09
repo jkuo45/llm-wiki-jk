@@ -2,13 +2,12 @@
 title: Signaling Molecules
 description: Signaling molecules (or chemical messengers) are molecules that transmit
   information between cells or within a single cell to coordinate biological processes.
-type: entity
 created: 2026-05-09
 updated: 2026-07-04
 tags:
-  - oxidative stress
-  - redox signaling
-  - Metabolite
+  - oxidative-stress
+  - redox-signaling
+  - biological-molecule
 aliases: [chemical messengers, second messengers]
 ---
 # Signaling Molecules

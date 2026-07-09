@@ -3,11 +3,10 @@ title: Ubiquitin Ligase
 description: An enzyme (E3 ubiquitin ligase) that recognizes substrate proteins and
   catalyzes transfer of ubiquitin from an E2 enzyme, tagging them for degradation or
   signaling.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Enzyme
+  - enzyme
 aliases: []
 ---
 

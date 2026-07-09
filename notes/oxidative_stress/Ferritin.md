@@ -1,16 +1,13 @@
 ---
 title: Ferritin
-description: 'Ferritin is a conserved multimeric iron storage protein that sequesters
+description: Ferritin is a conserved multimeric iron storage protein that sequesters
   intracellular iron in a bioavailable, non-toxic form, limiting Fenton Reaction chemistry
-  and protecting against Ferroptosis.'
-type: entity
+  and protecting against Ferroptosis.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [FTH1, FTL, Ferritin heavy chain, Ferritin light chain]
-database_ids:
-  uniprot: ['P02794 (FTH1)', 'P02792 (FTL)']
 
 ---
 

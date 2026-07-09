@@ -2,11 +2,10 @@
 title: Regenerative Medicine
 description: The advent of iPSC technology has been a paradigm shift for Regenerative
   Medicine, enabling patient-specific, immunocompatible cell therapies.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Scientific Concept
+  - scientific-concept
 aliases: []
 ---
 
@@ -29,6 +28,17 @@ Regenerative medicine increasingly overlaps with [[Rejuvenation]] biology. [[Par
 ## Clinical and Research Relevance
 
 First-in-human iPSC trials (e.g., subretinal RPE transplantation for macular degeneration) have demonstrated safety, establishing a translational pipeline. Challenges include tumorigenicity from residual undifferentiated cells, manufacturing cost, and genomic stability of long-term cultures.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic|Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic]]
+    - utoshi Takahashi|Takahashi]] discovered the core transcriptional factors required for reprogramming somatic cells to induce pluripotent stem cells, Oct4, Sox2, Klf4, and c-Myc (OSKM) \[\], which became the milestone for designing studies on various diseases...
+
+  - [[_document_ - Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network|Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network]]
+    - Human Embryonic Stem Cells research has been fuelled by the potential of using their Regenerative Medicine in cell replacement therapies. To date, only three clinical trials using Embryonic Stem Cells therapy have been approved by the U.S.
+
 
 ## Connections
 

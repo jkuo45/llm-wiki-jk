@@ -1,13 +1,12 @@
 ---
 title: Mcl-1
-description: 'Mcl-1 (Myeloid cell leukemia 1) is a potent anti-apoptotic member
+description: Mcl-1 (Myeloid cell leukemia 1) is a potent anti-apoptotic member
   of the Bcl-2 family. It plays a critical role in the regulation of Apoptosis and
-  is a major factor in cancer cell survival and ...'
-type: entity
+  is a major factor in cancer cell survival and ...
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - Enzyme
+  - enzyme
 aliases: []
 ---
 
@@ -33,6 +32,20 @@ Mcl-1 stability is tightly controlled by post-translational modifications:
 
 ## Therapeutic Targeting
 Developing selective Mcl-1 inhibitors is a major goal in cancer research. Strategies include small molecule inhibitors and targeting its degradation pathways.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - Bcl-2, Bcl-xL, Bcl-w, A1-Bfl-1 and Mcl-1) \[\]. While the anti-apoptotic proteins regulate apoptosis by blocking the mitochondrial release of cytochrome-c, the pro-apoptotic proteins act by promoting such release.
+
+  - [[_document_ - Caspase|Caspase]]
+    - CDK1/CYCLIN B1 | ND | Inactivation | | | Mcl-1 | Amplification in Lung Cancer, Breast Cancer, Hepatocellular Carcinoma, M
+
+  - [[_document_ - Evading apoptosis in cancer|Evading apoptosis in cancer]]
+    - Bcl-2, Bcl-xL , and Mcl-1 , which contain all four BH domains) counteract this process by sequestering pro-apoptotic family members (Figure 1). Importantly, the interactions between pro- and anti-apoptotic Bcl-2 family prot
+
 
 ## Connections
 - [[Bcl-2 family]]: A key anti-apoptotic member.

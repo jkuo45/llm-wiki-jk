@@ -1,11 +1,10 @@
 ---
 title: Oocyte
 description: The Oocyte is the female gamete that arrests in prophase I for decades and serves as the cytoplasm source for nuclear transfer and reprogramming.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Cell Type
+  - cell-type
 aliases: []
 ---
 
@@ -28,6 +27,14 @@ The oocyte cytoplasm is uniquely endowed with reprogramming factors — includin
 ## Clinical & Research Relevance
 
 Oocyte quality is the rate-limiting factor in assisted reproduction and a central concern in [[Aging]] and fertility medicine. SCNT and oocyte-assisted reprogramming remain important for generating isogenic cells for [[Disease Modeling]] and for probing epigenetic resetting. Preserving oocyte [[Cohesin]] and mitochondrial health is an active therapeutic target for extending reproductive lifespan.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - Quiescent cells include tissue-resident adult stem cells, such as Hematopoietic Stem Cell, Muscle Stem Cell, and Neural Stem Cell, as well as differentiated cells, including Fibroblast, Hepatocyte, Lymphocyte, and Oocyte (Bangru et al., 2018; Hwang et al., ...
+
 
 ## Connections
 

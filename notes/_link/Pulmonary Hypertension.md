@@ -1,13 +1,12 @@
 ---
 title: Pulmonary Hypertension
-description: 'Etiology and pathophysiology: Pulmonary Hypertension is a medical
+description: 'Etiology and pathophysiology: Pulmonary Hypertension is a medical'
   condition characterized by specific pathological changes in cellular, tissue, or
-  organ function. Its development involves genet...'
-type: entity
+  organ function. Its development involves genet...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: [PH]
 
 ---
@@ -24,10 +23,20 @@ aliases: [PH]
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Mechanistically, SIRT1 activation promotes selfrenewal and differentiation of alveolar epithelial cell 2 in lung tissues of Pulmonary Hypertension patients and aged mice. However, the opposite results have been reported for SIRT1 changes in LF.
+
+
 ## Connections
 - [[Pulmonary Hypertension]] — related entity
 
 ## Linking Summary
 - New links added: [[Pulmonary Hypertension]]
-- Strong connections to strengthen: [[Pulmonary Hypertension]] ↔ [[Pulmonary Hypertension]]
+  - Strong connections to strengthen: Pulmonary Hypertension ↔ Pulmonary Hypertension
 

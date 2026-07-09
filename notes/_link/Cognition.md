@@ -2,11 +2,10 @@
 title: Cognition
 description: Cognition refers to the mental action or process of acquiring knowledge
   and understanding through thought, experience, and the senses.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Biological Process
+  - biological-process
 aliases: []
 ---
 # Cognition
@@ -43,6 +42,19 @@ Mild Cognitive Impairment (MCI) represents a prodromal stage between normal agin
 
 Current pharmacotherapy is palliative. Cholinesterase inhibitors (donepezil, rivastigmine, galantamine) enhance cholinergic transmission and provide modest, temporary symptomatic improvement in attention and memory in [[Alzheimer's Disease]] and Lewy body dementia. [[Memantine]], an uncompetitive [[NMDA receptor]] antagonist, reduces excitotoxic glutamatergic signaling and is used in moderate-to-severe Alzheimer's Disease, often in combination with cholinesterase inhibitors. Disease-modifying therapies targeting amyloid-β (lecanemab, donanemab) have recently shown slowing of cognitive decline in early Alzheimer's Disease. Non-pharmacological interventions—physical exercise (which elevates [[BDNF]]), cognitive training, Mediterranean-style diets, social engagement, and cardiovascular risk management—contribute meaningfully to cognitive resilience and may delay onset or progression of cognitive impairment.
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - Dysregulation of quiescence has also been implicated in the Cognition that occurs with age (Kalamakis et al., 2019).
+
+  - [[_document_ - The Gut Microbiome, Aging, and Longevity A Systematic Review|The Gut Microbiome, Aging, and Longevity A Systematic Review]]
+    - Keywords: Centenarians, microbes, metabolites, inflammation, Immunosenescence, Cognition, functional potential, healthy aging 1\.
+
+
 ## Connections
 
 - [[Alzheimer's Disease]] — most common cause of progressive cognitive decline; cognition is the primary clinical endpoint in AD trials
@@ -66,4 +78,4 @@ Current pharmacotherapy is palliative. Cholinesterase inhibitors (donepezil, riv
 
 - New links added: [[Dopamine]], [[Serotonin]], [[BDNF]], [[Prefrontal Cortex]], [[Hippocampus]], [[Cerebellum]], [[Depression]], [[Inflammation]], [[Oxidative Stress]], [[mTORC1]], [[Autophagy]], [[CREB]], [[NMDA receptor]], [[Cognitive Performance]], [[Parkinson's Disease]], [[Alzheimer's Disease]], [[Alpha-synuclein]], [[Tau]], [[Memantine]], [[AMPA receptor]], [[CaMKII]]
 - Suggested new entity notes to create: [[Long-term Potentiation]], [[Default Mode Network]], [[Cholinesterase Inhibitors]], [[Mild Cognitive Impairment]], [[Neuroinflammation]]
-- Strong connections to strengthen: [[Cognition]] ↔ [[Alzheimer's Disease]], [[Cognition]] ↔ [[Prefrontal Cortex]], [[Cognition]] ↔ [[BDNF]]
+  - Strong connections to strengthen: [[Cognition]] ↔ Alzheimer's Disease, [[Cognition]] ↔ Prefrontal Cortex, [[Cognition]] ↔ BDNF

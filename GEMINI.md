@@ -28,7 +28,7 @@
 | Step                             | Action                                                                                                                                                                                                                                                                                   | Output                                             |
 | -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- |
 | **1. Ingest**                    | **Use `obsidian-markdown` skill** — read raw document, convert to Obsidian-flavored markdown with wiki links, callouts, properties, embeds                                                                                                                                               | Structured markdown content for triples/entities   |
-| **2. Extract Triples**           | Append new triples to topic's `_triples_<topic>.json` (normalize entity names to canonical forms)                                                                                                                                                                                        | Updated triples JSON in `notes/<topic>/`           |
+| **2. Extract Triples**           | Append new triples to topic's `_triples_<topic>.json` (normalize entity names to canonical forms). Review for duplicates                                                                                                                                                                 | Updated triples JSON in `notes/<topic>/`           |
 | **3. Regenerate Visualizations** | Run `uv run scripts/visualize_triples.py` on updated JSON → output `.svg`, `.dot`.                                                                                                                                                                                                       | Graph visualizations co-located with triples       |
 | **4. Enrich/Create Entities**    | **Use `research-scientist` agent skill** — for each new entity: create `.md` in topic dir with OKF frontmatter, wiki links, Connections section, Linking Summary. For existing entities: append new content, adapt based on context, update `updated:` date.                             | New/updated entity notes / enriched existing notes |
 | **5. Review Stubs & Orphans**    | cross-reference all triples subjects/objects against existing notes (all topics + `_link/`). For stubs: create entity notes for high-frequency/well-defined concepts; normalize composites to canonical entities. Apply Orphan Link Resolution (scan & normalize, resolve true orphans). | Resolved stubs, normalized triples                 |
@@ -116,9 +116,10 @@ Frontmatter:
 - **Duplicate YAML keys**: No key should appear twice at the same indentation level.
 - **No wiki links in frontmatter**: Frontmatter values must be plain text only. Never use `[[Wiki Link]]` or `[[Link|Display]]` syntax inside YAML fields. Obsidian does not render wiki links in frontmatter, and they leak into non-body context.
 - **Tags casing convention**: `entity_type_1` is NOT stored as a frontmatter field — its value lives only inside the `tags` list. Within `tags`, apply this casing rule:
-  - **Capitalize the `entity_type_1` value** exactly as listed in the `entity_type_1` schema below (e.g. `Protein`, `Chemical Compound`, `Medical Condition`). This is the only Title-case entry and identifies the entity's primary category.
-  - **Lowercase all topical/domain tags** (cross-cutting relevance tags). The standard domain tags are: `oxidative stress`, `antioxidant`, `mitochondria`, `autophagy`, `epigenetics`, `inflammation`, `apoptosis`. Other topical tags (e.g. `glycation`, `senescence`) also use lowercase.
-  - Example: `tags: [Enzyme, antioxidant, mitochondria]` — `Enzyme` is the capitalized type, the rest are lowercase topical tags.
+  - **All tag values must be kebab-case** (lowercase, spaces replaced with hyphens). This applies to both the `entity_type_1` category tag and all topical/domain tags.
+  - For `entity_type_1`, use the kebab-case form of the schema values below (e.g. `enzyme`, `chemical-compound`, `medical-condition`, `organism`).
+  - For topical tags, use kebab-case (e.g. `oxidative-stress`, `antioxidant`, `mitochondria`, `autophagy`, `epigenetics`, `inflammation`, `apoptosis`).
+  - Example: `tags: [enzyme, antioxidant, mitochondria]` — all lowercase and hyphenated where applicable.
 
 ---
 
@@ -157,11 +158,18 @@ tags: [] # Populate with relevant entity_type_1, biomedical tags
 
 ```
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[Document Filename|Document Short Name]]
+    - Short description of how entity is related to document. (~chars)
+
 ## Connections
 
   - Entity Name: Short description
 
-## Linking Summary:
+## Linking Summary
 
   - New links added: [[Entity1]], [[Entity2]], ...
   - Suggested new entity notes to create: [[Missing Concept]]
@@ -260,46 +268,29 @@ To maintain consistency, all entity notes should include an `entity_type_1` fiel
 
 ### entity_type_1 schema:
 
-| entity_type_1                 | entity_description_1                                                 | entity_examples_1                                                         |
-| ----------------------------- | -------------------------------------------------------------------- | ------------------------------------------------------------------------- |
-| **Chemical Compound**         | Specific small molecules and chemical substances.                    | [[Adrenochrome]], [[Epinephrine]], [[Sodium nitrite]], [[Methylene blue]] |
-| **Chemical Class**            | Groups of chemically related substances.                             | [[Catecholamines]], [[Aminochromes]], [[Persulfates]]                     |
-| **Metabolite**                | Endogenous or drug metabolites (can overlap with Chemical Compound). | [[Adrenochrome]] (as epinephrine metabolite), [[6-Hydroxymelatonin]]      |
-| **Enzyme**                    | Specific biological catalysts.                                       | [[MAO]], [[COMT]], [[Myeloperoxidase]], [[Diaphorase]]                    |
-| **Protein**                   | Large biomolecules, structural or functional proteins (non-enzyme).  | [[Hemoglobin]], [[Cytochrome b5 reductase]]                               |
-| **Receptor**                  | Signal-receiving proteins.                                           | [[Adrenergic receptor]], [[D2 receptor]], [[NMDA receptor]]               |
-| **Transporter**               | Membrane proteins that transport molecules.                          | [[VMAT2]], [[SERT]], [[DAT]]                                              |
-| **Ion Channel**               | Proteins forming ion pores.                                          | [[hERG channel]], [[Voltage-gated sodium channel]]                        |
-| **Gene**                      | Specific genes or genomic loci.                                      | [[COMT gene]], [[MAOA]], [[CYP2D6]]                                       |
-| **Genetic Variant**           | Mutations, SNPs, or alleles.                                         | [[COMT Val158Met]], [[rs4680]]                                            |
-| **Biological Molecule**       | Other metabolites, signaling molecules, radicals, etc.               | [[Glutathione]], [[Nitric Oxide]], [[Hydroxyl radical]]                   |
-| **Biomarker**                 | Measurable indicators of biological states.                          | [[Troponin]], [[Methemoglobin level]], [[8-OHdG]]                         |
-| **Antibody**                  | Immunoglobulins or monoclonal antibodies.                            | [[Rituximab]], [[Anti-MPO antibody]]                                      |
-| **Cell Type**                 | Specific types of biological cells.                                  | [[Neutrophils]], [[Erythrocytes]], [[Chromaffin cells]]                   |
-| **Anatomy**                   | Organs, tissues, or physiological structures.                        | [[Adrenal gland]], [[Substantia Nigra]], [[Lungs]]                        |
-| **Microorganism**             | Bacteria, viruses, fungi, parasites.                                 | [[Pseudomonas aeruginosa]], [[SARS-CoV-2]]                                |
-| **Toxin**                     | Naturally occurring or synthetic poisons.                            | [[Cyanide]], [[Botulinum toxin]]                                          |
-| **Medical Condition**         | Diseases, syndromes, or pathological states.                         | [[Methemoglobinemia]], [[Anaphylaxis]], [[Schizophrenia]]                 |
-| **Symptom**                   | Subjective patient-reported experiences.                             | [[Dyspnea]], [[Cyanosis]], [[Hallucinations]]                             |
-| **Clinical Sign**             | Objective observable or measurable findings.                         | [[Tachycardia]], [[Cherry-red skin]]                                      |
-| **Adverse Effect**            | Undesired reactions to exposures or treatments.                      | [[Hypertensive crisis]], [[Serotonin syndrome]]                           |
-| **Biological Process**        | Normal or pathological biological events and pathways.               | [[Inflammation]], [[Respiratory Burst]], [[Homeostasis]]                  |
-| **Chemical Process**          | Specific chemical reactions or mechanisms.                           | [[Oxidation]], [[Michael addition]], [[Autoxidation]]                     |
-| **Pharmacological Action**    | Mechanism or effect of a drug/compound.                              | [[MAO inhibition]], [[Antioxidant]], [[Vasoconstriction]]                 |
-| **Diagnostic Test**           | Procedures or tools for medical diagnosis.                           | [[ABG]], [[Pulse oximetry]], [[Co-oximetry]]                              |
-| **Analytical Technique**      | Scientific methods used for laboratory analysis.                     | [[HPLC]], [[LC-MS]], [[Mass Spectrometry]], [[H-NMR]]                     |
-| **Imaging Technique**         | Medical or scientific imaging methods.                               | [[MRI]], [[PET scan]], [[fMRI]]                                           |
-| **Medical Treatment**         | Interventions, therapies, or procedures.                             | [[Exchange transfusion]], [[Hyperbaric oxygen]]                           |
-| **Surgical Procedure**        | Invasive therapeutic or diagnostic interventions.                    | [[Adrenalectomy]], [[Bronchoscopy]]                                       |
-| **Medical Product**           | Prepared devices or specific pharmaceutical products.                | [[EpiPen]], [[Neffy]], [[Symjepi]]                                        |
-| **Vaccine**                   | Preparations to stimulate immunity.                                  | [[mRNA COVID-19 vaccine]]                                                 |
-| **Scientific Theory**         | Hypotheses or scientific models.                                     | [[Adrenochrome Hypothesis]], [[Dopamine hypothesis]]                      |
-| **Scientific Concept**        | Broad scientific principles or mechanisms.                           | [[Redox Cycling]], [[Oxidative Stress]], [[Electrophile]]                 |
-| **Laboratory Standard**       | Quality control and reference materials.                             | [[Reference standard]], [[Certificate of Analysis]], [[Impurity marker]]  |
-| **Pharmacokinetic Parameter** | Quantitative ADME properties.                                        | [[Half-life]], [[Volume of distribution]], [[Bioavailability]]            |
-| **Model Organism**            | Species or strains used in research.                                 | [[Rattus norvegicus]], [[Zebrafish]], [[Knockout mouse]]                  |
-| Organization                  | Public, private sector organizations                                 | [[Merck & Co. Inc]], [[GlaxoSmithKline]]                                  |
-| Person                        | Individual people (researchers, clinicians, historical figures).     | [[Abram Hoffer]], [[Humphry Osmond]]                                      |
-| Peptide                       | Short chains of amino acids distinct from full proteins/enzymes.     | [[Melittin]], [[Glutathione peptide]]                                     |
-| Amino Acid                    | Individual amino acid residues and derivatives.                      | [[Glutamine]], [[L-Glutamine]]                                            |
-| NA                            | If none of the above                                                 |                                                                           |
+| entity_type_1              | entity_description_1                                                          | entity_examples_1                                                   |
+| -------------------------- | ----------------------------------------------------------------------------- | ------------------------------------------------------------------- |
+| **Chemical Compound**      | Specific small molecules, chemical substances, toxins, peptides, amino acids. | [[Adrenochrome]], [[Epinephrine]], [[Cyanide]], [[Glutamine]]       |
+| **Chemical Class**         | Groups of chemically related substances.                                      | [[Catecholamines]], [[Aminochromes]], [[Persulfates]]               |
+| **Biological Molecule**    | Endogenous metabolites, signaling molecules, radicals, biomarkers.            | [[Glutathione]], [[Nitric Oxide]], [[Adrenochrome]] (as metabolite) |
+| **Enzyme**                 | Specific biological catalysts.                                                | [[MAO]], [[COMT]], [[Myeloperoxidase]], [[Diaphorase]]              |
+| **Protein**                | Large biomolecules, structural/functional proteins, antibodies.               | [[Hemoglobin]], [[Rituximab]], [[Cytochrome b5 reductase]]          |
+| **Receptor**               | Signal-receiving proteins.                                                    | [[Adrenergic receptor]], [[D2 receptor]], [[NMDA receptor]]         |
+| **Transporter**            | Membrane proteins that transport molecules.                                   | [[VMAT2]], [[SERT]], [[DAT]]                                        |
+| **Ion Channel**            | Proteins forming ion pores.                                                   | [[hERG channel]], [[Voltage-gated sodium channel]]                  |
+| **Gene**                   | Specific genes, genomic loci, and genetic variants.                           | [[COMT gene]], [[MAOA]], [[COMT Val158Met]]                         |
+| **Cell Type**              | Specific types of biological cells.                                           | [[Neutrophils]], [[Erythrocytes]], [[Chromaffin cells]]             |
+| **Anatomy**                | Organs, tissues, or physiological structures.                                 | [[Adrenal gland]], [[Substantia Nigra]], [[Lungs]]                  |
+| **Organism**               | Bacteria, viruses, fungi, parasites, and model organisms.                     | [[Pseudomonas aeruginosa]], [[Zebrafish]], [[Knockout mouse]]       |
+| **Medical Condition**      | Diseases, syndromes, symptoms, adverse effects, clinical signs.               | [[Methemoglobinemia]], [[Cyanosis]], [[Serotonin syndrome]]         |
+| **Biological Process**     | Normal or pathological biological events and pathways.                        | [[Inflammation]], [[Respiratory Burst]], [[Apoptosis]]              |
+| **Chemical Process**       | Specific chemical reactions or mechanisms.                                    | [[Oxidation]], [[Michael addition]], [[Autoxidation]]               |
+| **Pharmacological Action** | Mechanism or effect of a drug/compound.                                       | [[MAO inhibition]], [[Antioxidant]], [[Vasoconstriction]]           |
+| **Diagnostic Test**        | Procedures or tools for medical diagnosis.                                    | [[ABG]], [[Pulse oximetry]], [[Co-oximetry]]                        |
+| **Analytical Technique**   | Scientific methods for laboratory analysis and medical imaging.               | [[HPLC]], [[Mass Spectrometry]], [[MRI]]                            |
+| **Medical Treatment**      | Interventions, therapies, and surgical/invasive procedures.                   | [[Exchange transfusion]], [[Hyperbaric oxygen]], [[Adrenalectomy]]  |
+| **Medical Product**        | Prepared devices, vaccines, and pharmaceutical products.                      | [[EpiPen]], [[mRNA COVID-19 vaccine]], [[Neffy]]                    |
+| **Scientific Theory**      | Hypotheses or scientific models.                                              | [[Adrenochrome Hypothesis]], [[Dopamine hypothesis]]                |
+| **Scientific Concept**     | Broad scientific principles, standards, mechanisms.                           | [[Redox Cycling]], [[Oxidative Stress]], [[Reference standard]]     |
+| **Organization**           | Public or private sector organizations.                                       | [[Merck & Co. Inc]], [[GlaxoSmithKline]]                            |
+| **Person**                 | Individual people (researchers, clinicians, historical figures).              | [[Abram Hoffer]], [[Humphry Osmond]]                                |

@@ -4,7 +4,6 @@ description: Advanced glycation end products (AGEs) are a heterogeneous, complex
   of compounds that are formed when reducing sugar reacts in a non-enzymatic way with
   amino acids in proteins and other macromolecules. This occurs both exogenously (in
   food) ...
-type: document
 created: 2026-06-14
 source: https://pmc.ncbi.nlm.nih.gov/articles/PMC3257625/
 author:

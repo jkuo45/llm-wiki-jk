@@ -1,15 +1,14 @@
 ---
 title: Differentiation
 description: The process by which a less specialized cell becomes a more specialized cell type, driven by transcription factor networks and epigenetic remodeling.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
   - development
-  - stem cell biology
+  - stem-cell-biology
   - epigenetics
-  - cell fate
-  - Biological Process
+  - cell-fate
+  - biological-process
 aliases:
   - Cell differentiation
   - Cellular differentiation
@@ -37,6 +36,14 @@ Cellular differentiation proceeds through intermediate states of progressively r
 ## Reversal and Reprogramming
 
 Differentiation is not irreversible in all contexts. Dedifferentiation — the reversion of a differentiated cell to a less specialized state — occurs naturally in mammalian liver and skin regeneration but is otherwise rare. Transdifferentiation (or lineage switching) involves direct conversion of one differentiated cell type to another without passing through a pluripotent intermediate, as demonstrated by the conversion of pancreatic exocrine cells to β-cells through forced expression of *Pdx1*, *Ngn3*, and *Mafa*. Somatic cell reprogramming to induced pluripotent stem cells (iPSCs) via ectopic expression of the Yamanaka factors (OCT4, SOX2, KLF4, c-MYC) resets the epigenome to an embryonic state, demonstrating that differentiation-associated epigenetic marks are reversible.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - Processes, like protein phosphorylation, activation of several transcriptional factors, Apoptosis, Immunity, and Differentiation, are all dependent on a proper ROS production and presence inside cells that need to be kept at a low level \[\].
+
 
 ## Connections
 

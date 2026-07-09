@@ -1,13 +1,12 @@
 ---
 title: Septic Shock
-description: 'Etiology and pathophysiology: Septic Shock is a medical condition
+description: 'Etiology and pathophysiology: Septic Shock is a medical condition'
   characterized by specific pathological changes in cellular, tissue, or organ function.
-  Its development involves genetic, enviro...'
-type: entity
+  Its development involves genetic, enviro...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: []
 ---
 
@@ -28,5 +27,5 @@ aliases: []
 
 ## Linking Summary
 - New links added: [[Septic Shock]]
-- Strong connections to strengthen: [[Septic Shock]] ↔ [[Septic Shock]]
+  - Strong connections to strengthen: Septic Shock ↔ Septic Shock
 

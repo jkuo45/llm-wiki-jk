@@ -1,11 +1,10 @@
 ---
 title: Adrenochrome
 description: '- Formula: C₉H₉NO₃'
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: []
 ---
 
@@ -61,6 +60,32 @@ Beyond cardiotoxicity, adrenochrome formation has been documented in [[Septic Sh
 ## Research Gaps and Future Directions
 
 Critical unresolved questions include the development of sensitive and specific mass spectrometry-based assays for adrenochrome quantification in human plasma, the characterization of its full receptor-independent signaling repertoire (including [[MAP Kinase]] and [[NFκB]] pathway modulation), and the therapeutic potential of pharmacological scavengers such as [[N-Acetylcysteine]] and [[Ascorbic Acid]] in pathologies driven by aminochrome formation. The [[Mitohormetic Redox-Relay]] strategy exploits ultralow-dose adrenochrome to trigger adaptive mitochondrial responses, representing a paradigm shift from viewing adrenochrome solely as a toxin to a potential hormetic agent at sub-cytotoxic concentrations.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Adrenochrome Pathway|The Adrenochrome Pathway]]
+    - The Adrenochrome Pathway: ITS POTENTIAL SIGNIFICANCE IN STRESS INDUCED Heart disease Stephanie B. Matthews, Royal Gwent Hospital and Anthony K.
+
+  - [[_document_ - US4501923A - Process for preparing adrenochrome|US4501923A - Process for preparing adrenochrome]]
+    - Patents These CPCs and their children These exact CPCs Add AND condition Abstract A process is described for preparing Adrenochrome comprising Oxidation Epinephrine or a salt thereof with a Persulfates in an aqueous medium at a pH in the range 4 to 8 in the...
+
+  - [[_document_ - formation, chemical stability|formation, chemical stability]]
+    - OMT (catechol-O-methyltransferase) → metanephrine MAO (monoamine oxidase) → oxidative deamination The adrenochrome route is a side pathway that becomes more prominent under oxidative stress or in specific cellular environments.
+
+  - [[_document_ - intermediates, precursor, hemoglobin|intermediates, precursor, hemoglobin]]
+    - tokens User research Leuco-adrenochrome is a chemical intermediate and a natural byproduct formed during the oxidation of Epinephrine (adrenaline) into Adrenochrome.
+
+  - [[_document_ - MRR - mitohormesis|mitohormesis]]
+    - Strategy I: The Mitohormetic Redox-Relay (MRR) Primary Target: Mitochondrial Dysfunction & Energy Failure 1.1 Composition Trigger: Carbazochrome (Stabilized Adrenochrome derivative) at sub-micromolar concentrations.
+
+  - [[_document_ - neutrophil and erthrocyte|neutrophil and erthrocyte]]
+    - where is Adrenochrome found - type of cells? Adrenochrome is primarily produced in the body through the oxidation of Epinephrine, a hormone synthesized and released mainly by the Adrenal medulla.
+
+  - [[_document_ - neutrophils role in adrenochrome production|neutrophils role in adrenochrome production]]
+    - Modern research focuses more on its cardiovascular and chronic disease implications than on adrenochrome per se. pmc.
+
 
 ## Connections
 - [[Epinephrine]] ↔ Direct precursor via oxidation.

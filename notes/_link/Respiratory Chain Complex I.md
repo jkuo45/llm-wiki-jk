@@ -1,18 +1,14 @@
 ---
 title: Respiratory Chain Complex I
-description: 'Complex I (NADH:ubiquinone oxidoreductase) is the largest enzyme
+description: Complex I (NADH:ubiquinone oxidoreductase) is the largest enzyme
   of the Mitochondria electron transport chain. It catalyzes the oxidation of NADH
-  and reduction of ubiquinone, pumping protons ac...'
-type: entity
+  and reduction of ubiquinone, pumping protons ac...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Enzyme
+  - enzyme
   - mitochondria
 aliases: [Complex I, NADH:ubiquinone oxidoreductase, NADH dehydrogenase]
-database_ids:
-  uniprot: P03886
-  hgnc: HGNC:9865
 
 ---
 
@@ -30,4 +26,4 @@ database_ids:
 ## Linking Summary
 - New links added: [[Mitochondria]], [[Oxidative Stress]], [[Superoxide Radicals]], [[Complex IV]], [[NADH]]
 - Suggested new entity notes to create: [[Ubiquinone]], [[Rotenone]], [[ETC]]
-- Strong connections to strengthen: [[Respiratory Chain Complex I]] ↔ [[Oxidative Stress]]
+  - Strong connections to strengthen: Respiratory Chain Complex I ↔ Oxidative Stress

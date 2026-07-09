@@ -1,11 +1,10 @@
 ---
 title: Ubiquitin
 description: Ubiquitin is a conserved 76-amino-acid regulatory protein that tags substrates for proteasomal degradation or signaling; ubiquitinated inclusions mark Proteostasis failure in Neuromelanin-rich neurons of Parkinson's Disease.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Protein
+  - protein
 aliases: []
 ---
 
@@ -28,6 +27,14 @@ PD-associated gene products converge on ubiquitin-dependent pathways: parkin (an
 ## Research Relevance
 
 Therapeutics aimed at enhancing UPS/autophagy flux, modulating E3 ligases, or preventing α-synuclein ubiquitination are pursued for PD. Ubiquitin signatures in cerebrospinal fluid and imaging of proteostatic stress are exploratory biomarkers.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease|Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease]]
+    - publication_year=1993-511&doi=\(93\)90349-k&)\] Linking Summary: - New links added: Konstantin Nikolaevich Tretiakoff, Pale Bodies, Immunoglobulin G, Major histocompatibility complex class I, Lipofuscin, Eumelanin, Pheomelanin, L-Tyrosine, TFEB, Ambroxol, p...
+
 
 ## Connections
 

@@ -2,7 +2,6 @@
 title: 'Autophagy and intermittent fasting: the connection for cancer therapy?'
 description: Cancer is a leading cause of death worldwide, and its incidence is continually
   increasing. Although anticancer therapy has improved significantly, it …
-type: document
 created: 2026-05-25
 source: https://www.sciencedirect.com/science/article/pii/S1807593222011565?via%3Dihub
 author:

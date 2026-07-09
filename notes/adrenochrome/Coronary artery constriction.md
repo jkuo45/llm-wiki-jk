@@ -1,11 +1,10 @@
 ---
 title: Coronary artery constriction
 description: Coronary artery constriction refers to the pathological narrowing of the coronary arteries that supply oxygenated blood to the heart muscle, reducing myocardial blood flow and precipitating ischemia.
-type: entity
 created: 2026-07-04
 updated: 2026-07-06
 tags:
-  - Adverse Effect
+  - medical-condition
 aliases: []
 ---
 
@@ -57,6 +56,14 @@ Coronary artery constriction underlies several cardiac syndromes:
 This adrenochrome-induced vasoconstriction may contribute to [[Cardiotoxicity]] in high-catecholamine states — including [[Myocardial infarction]], [[Pheochromocytoma]], and [[Stress cardiomyopathy]]. By constricting coronary arteries, adrenochrome could amplify ischemia-reperfusion injury, impair oxygen delivery, and exacerbate [[Oxidative Stress]]. Its pro-oxidant redox cycling further depletes [[Glutathione]], rendering the [[Myocardium]] more vulnerable to ischemic damage.
 
 The clinical significance in humans remains incompletely defined, limited by challenges in measuring local adrenochrome concentrations in the coronary circulation. However, [[Myeloperoxidase]] — which catalyzes adrenochrome formation — is present at sites of coronary inflammation, and adrenochrome has been detected in ischemic cardiac tissue, supporting its role as a locally generated vasoconstrictor and cardiotoxic metabolite.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Adrenochrome Pathway|The Adrenochrome Pathway]]
+    - Indeed in the 1930's and 40's this pathway was thought by many to be the major catabolic route for Epinephrine in vivo: More recently, Adrenochrome has been shown to be Cardiotoxicity, causing Cell necrosis, Arrhythmias and Coronary artery constriction.
+
 
 ## Connections
 

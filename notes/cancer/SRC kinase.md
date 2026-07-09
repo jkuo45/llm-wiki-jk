@@ -1,11 +1,10 @@
 ---
 title: SRC kinase
 description: SRC (proto-oncogene c-Src) is a non-receptor tyrosine kinase, the founding member of the SRC family, that transduces growth-factor and integrin signals and promotes proliferation, survival, invasion, and angiogenesis in cancer.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Enzyme
+  - enzyme
 aliases: []
 ---
 
@@ -28,6 +27,14 @@ Src is overexpressed or hyperactivated in numerous malignancies including colore
 ## Therapeutic Targeting
 
 Several small-molecule [[Tyrosine Kinase Inhibitors]] (e.g., dasatinib, saracatinib, bosutinib) inhibit Src alongside related kinases. Although single-agent activity has been modest, Src inhibition is explored in combination with [[Chemotherapy]], EGFR/HER2 blockers such as [[Trastuzumab]], and anti-angiogenic agents. The caspase-8 phosphorylation axis remains a mechanistic rationale for combining Src inhibition with death-receptor agonists.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - Caspase-8 | | SRC kinase, FYN, LYN (SHP1) | Tyr397 (Tyr380) | Suppression of activity | Colon
+
 
 ## Connections
 

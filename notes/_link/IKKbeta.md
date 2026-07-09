@@ -1,13 +1,12 @@
 ---
 title: IKKbeta
-description: 'IKKβ (IκB kinase β) is the primary catalytic subunit of the IKK
+description: IKKβ (IκB kinase β) is the primary catalytic subunit of the IKK
   complex — the signal integrator for NFκB activation. It phosphorylates IkappaBalpha
-  (and other IkappaB proteins) at Ser32/Ser36, ...'
-type: entity
+  (and other IkappaB proteins) at Ser32/Ser36, ...
 created: 2026-07-04
 updated: 2026-07-06
 tags:
-  - Protein
+  - protein
 aliases: [IκB Kinase Beta, IKBKB, IKK2]
 
 ---
@@ -30,6 +29,16 @@ IKKβ is a therapeutic target for [[Inflammatory Diseases]] ([[Rheumatoid Arthri
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - Pro-inflammatory Cytokines, such as TNFα, activate IKKbeta, which physically interacts with and inactivates TSC1, leading to mTORC1 activation (Lee et al., 2007).
+
+
 ## Connections
 - [[NFκB]] — IKKβ phosphorylates IκBα to activate NF-κB
 - [[IkappaBalpha]] — direct substrate of IKKβ; phosphorylation triggers its degradation
@@ -47,4 +56,4 @@ IKKβ is a therapeutic target for [[Inflammatory Diseases]] ([[Rheumatoid Arthri
 ## Linking Summary
 - New links added: [[IKK complex]], [[NFκB]], [[IkappaBalpha]], [[IkappaB]], [[NEMO]], [[IKKα]], [[TNFα]], [[Interleukin 1β]], [[LPS]], [[TAK1]], [[MAP3K]], [[RIPK1]], [[TRAF2]], [[TRAF6]], [[MyD88]], [[IRAK]], [[TLR4]], [[Serine/Threonine Kinase]], [[Ubiquitin]], [[Proteasome]], [[Proteasomal Degradation]], [[Inflammation]], [[Rheumatoid Arthritis]], [[Inflammatory Bowel Disease]], [[Psoriasis]], [[Cancer]], [[Chemoresistance]], [[Cytokine]], [[DNA Damage]]
 - Suggested new entity notes to create: [[NEMO-binding domain]], [[IKK complex assembly]], [[Canonical NF-κB pathway]], [[IKKβ inhibitor]], [[TAK1 kinase]]
-- Strong connections to strengthen: [[IKKbeta]] ↔ [[NFκB]], [[IKKbeta]] ↔ [[IkappaBalpha]], [[IKKbeta]] ↔ [[TNFα]], [[IKKbeta]] ↔ [[Inflammation]]
+  - Strong connections to strengthen: [[IKKbeta]] ↔ NFκB, [[IKKbeta]] ↔ [[IkappaBalpha]], [[IKKbeta]] ↔ [[TNFα]], [[IKKbeta]] ↔ [[Inflammation]]

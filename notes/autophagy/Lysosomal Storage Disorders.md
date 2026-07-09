@@ -3,11 +3,10 @@ title: Lysosomal Storage Disorders
 description: Lysosomal storage disorders (LSDs) are a group of inherited metabolic
   diseases characterized by lysosomal dysfunction; targeting TFEB to enhance lysosomal
   biogenesis is a major therapeutic strategy.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Medical Condition
+  - medical-condition
   - autophagy
   - lysosome
 aliases: [LSDs]
@@ -28,6 +27,14 @@ LSDs present with variable but frequently progressive neurologic decline, hepato
 ## Therapeutic Landscape
 
 Standard-of-care includes enzyme replacement therapy (ERT), substrate reduction therapy (SRT), chaperone therapy (e.g., migalastat for amenable Gaucher/Fabry mutations), and hematopoietic stem cell transplant. A unifying disease-modifying strategy is pharmacologic activation of [[TFEB]] to enhance lysosomal biogenesis, exocytosis, and clearance of stored material, as well as boosting basal [[Autophagy]] to relieve the secondary autophagic block. Preclinical TFEB activators (e.g., via [[mTORC1]] inhibition or [[Trehalose]]-mimetic small molecules) reduce storage in multiple LSD models. Gene therapy and CRISPR-based correction are emerging for several LSDs. Because lysosomal failure is also central to [[Aging]] and [[Neurodegeneration]], lessons from LSDs inform broader autophagy-lysosome restorative medicine.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - Targeted regulation of TFEB has been victoriously used as a treatment strategy in several disease models such as ischemic injury, Lysosomal Storage Disorders (LSDs), cancer, metabolic disorders, Neurodegenerative Diseases, and Inflammation.
+
 
 ## Connections
 

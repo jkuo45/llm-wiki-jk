@@ -3,11 +3,10 @@ title: Glucosylation
 description: Glucosylation is a modification where glucose is added to proteins; the
   Legionella effector SetA glucosylates TFEB to promote its nuclear localization by
   disrupting its binding to 14-3-3 protein.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Chemical Process
+  - chemical-process
 aliases: []
 ---
 # Glucosylation
@@ -17,6 +16,14 @@ Glucosylation is a modification where glucose is added to proteins; the Legionel
 ## Mechanism
 
 Glucosylation is the transfer of glucose from UDP-glucose to target proteins or lipids. Bacterial effectors like [[SetA]] glucosylate host [[Rab]] GTPases to block [[Autophagy]] during infection.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - PTM The activity and subcellular localization of TFEB are mainly regulated by PTM, including Phosphorylation \[\], Acetylation \[\], Ubiquitination \[\], PARsylation \[\], SUMOylation \[\], Glucosylation \[\], Oxidation \[, \] and S-sulfhydration \[\].
+
 
 ## Connections
 

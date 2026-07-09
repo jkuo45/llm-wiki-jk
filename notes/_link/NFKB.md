@@ -3,41 +3,16 @@ title: NF-κB (Nuclear Factor Kappa B)
 description: NF-κB (Nuclear Factor kappa-light-chain-enhancer of activated B cells)
   is a highly conserved pleiotropic transcription factor family that serves as the
   central orchestrator of inflammatory signalin...
-type: entity
 created: 2026-07-03
 updated: 2026-07-03
 tags:
-  - Protein
+  - protein
 aliases:
   - NF-κB
   - Nuclear Factor kappa B
   - RelA
   - p65
   - NF-kB
-database_ids:
-  uniprot: Q04206
-  hgnc: HGNC:9955
-  mesh: D016328
-relations:
-  - predicate: regulated_by
-    target: "SIRT1"
-    sources:
-      - PMID:15152190
-      - Michan 2007
-  - predicate: regulated_by
-    target: "SIRT2"
-    sources:
-      - PMID:24556264
-      - Sirtuins in Health and Disease 2022
-  - predicate: regulated_by
-    target: "SIRT6"
-    sources:
-      - PMID:22006491
-      - Sirtuins in Health and Disease 2022
-  - predicate: regulated_by
-    target: "SIRT7"
-    sources:
-      - Sirtuins in Health and Disease 2022
 ---
 
 
@@ -108,6 +83,31 @@ NF-κB is a master regulator of the **Senescence-Associated Secretory Phenotype 
 
 ---
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - These include transcription factors that promote Autophagy activation (E2F1, GATA1, and members of the FOXO family), repression (GATA4), and those that have a dual inhibitory/activating function (TP53 and NFKB).
+
+  - [[_document_ - sirtuins (overview, CD38 KO risks, cancer therapies)|sirtuins (overview, CD38 KO risks, cancer therapies)]]
+    - Deacetylates histones (e.g., H3K9, H3K26) and many non-histone proteins (p53, FOXO, NFKB, PGC1-α, etc.).
+
+  - [[_document_ - sirtuins (resveratrol), gemini|sirtuins (resveratrol), gemini]]
+    - NF-κB (Anti-Inflammatory Effects) - Mechanism: SIRT1 deacetylates the p65 subunit of NFKB (Nuclear Factor kappa B). Result: Deacetylation inhibits NF-κB's transcriptional activity, preventing it from binding to DNA.
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - For example, SIRT1 deacetylates RelA/p65, the most prevalent form of NFKB (nuclear factor _κ_ B). Deacetylation inhibits the transactivation potential of RelA/p65, which sensitizes human cells to apoptosis in response to TNFα (tumour necrosis factor _α_ ) .
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - For instance, increased SIRT1 protein expression can reduce acetylation of the NFKB p65 subunit, which results in the suppression of TNFα-induced NFKB transcriptional activation and reduction of TNFα secretion in a SIRT1-dependent manner.
+
+  - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]]
+    - Review identifies NF-κB as the master regulator of SASP, with cytoplasmic chromatin fragment/cGAS–STING signalling and the H3K27ac–AP-1–BRD4 axis converging on NF-κB to drive SASP in senescent cells.
+
+
 ## Connections
 
 - **[[SIRT1]]** — Direct physical interactor and deacetylase of RelA/p65 Lys³¹⁰.
@@ -116,12 +116,22 @@ NF-κB is a master regulator of the **Senescence-Associated Secretory Phenotype 
 - **[[SIRT6]]** — Chromatin-associated repressor deacetylating H3K9ac at NF-κB target promoters.
 - **[[Inflammation]]** — NF-κB is the master transcriptional driver of inflammatory pathology.
 - **[[Apoptosis]]** — NF-κB transcriptional suppression by sirtuins sensitizes cells to TNF-α-induced apoptosis.
+- **[[SASP]]** — NF-κB is the master transcription factor driving SASP expression.
+- **[[Epigenetic Alterations]]** — the epigenetic landscape converges on NF-κB to orchestrate SASP.
+- **[[Cytoplasmic Chromatin Fragments]]** — CCF activates cGAS–STING–NF-κB to induce SASP.
+- **[[cGAS-STING Pathway]]** — upstream of NF-κB SASP activation in senescence.
+- **[[AP-1]]** — pioneer factor that opens enhancers for NF-κB-regulated SASP genes.
+- **[[BRD4]]** — H3K27ac reader at senescence-activated SASP enhancers feeding NF-κB.
+- **[[KDM4]]** — demethylates H3K9 to permit NF-κB access to SASP loci.
+- **[[EZH2]]** — deposits H3K27me3; its inhibition derepresses NF-κB SASP genes.
+- **[[LINE-1]]** — retrotransposon cDNA activates cGAS–STING–NF-κB SASP.
+- **[[IL-6]]** / **[[IL-8]]** / **[[IL-1α]]** — NF-κB-driven SASP cytokines.
 
-- New links added: [[SIRT1]], [[SIRT2]], [[SIRT3]], [[SIRT6]], [[Inflammation]], [[Apoptosis]]
+- New links added: [[SIRT1]], [[SIRT2]], [[SIRT3]], [[SIRT6]], [[Inflammation]], [[Apoptosis]], [[SASP]], [[Epigenetic Alterations]], [[Cytoplasmic Chromatin Fragments]], [[cGAS-STING Pathway]], [[AP-1]], [[BRD4]], [[KDM4]], [[EZH2]], [[LINE-1]], [[IL-6]], [[IL-8]], [[IL-1α]]
 - Suggested new entity notes to create: [[TNFα]], [[MnSOD]], [[IκB]], [[RelA]]
-- Strong connections to strengthen: [[SIRT1]] ↔ [[NFKB]], [[SIRT6]] ↔ [[NFKB]], [[Inflammation]] ↔ [[NFKB]]
+  - Strong connections to strengthen: SIRT1 ↔ [[NFKB]], SIRT6 ↔ [[NFKB]], [[Inflammation]] ↔ [[NFKB]]
 
 ## Linking Summary
-- New links added: [[Apoptosis]], [[Inflammation]], [[IκB]], [[MnSOD]], [[NFKB]], [[RelA]], [[SIRT1]], [[SIRT2]], [[SIRT3]], [[SIRT6]], [[TNFα]]
+- New links added: [[Apoptosis]], [[Inflammation]], [[IκB]], [[MnSOD]], [[NFKB]], [[RelA]], [[SIRT1]], [[SIRT2]], [[SIRT3]], [[SIRT6]], [[TNFα]], [[SASP]], [[Epigenetic Alterations]], [[Cytoplasmic Chromatin Fragments]], [[cGAS-STING Pathway]], [[AP-1]], [[BRD4]], [[KDM4]], [[EZH2]], [[LINE-1]], [[IL-6]], [[IL-8]], [[IL-1α]]
 - Suggested new entity notes to create: [[IκB]], [[RelA]]
-- Strong connections to strengthen: [[NF-κB (Nuclear Factor Kappa B)]] ↔ [[Inflammation]], [[NF-κB (Nuclear Factor Kappa B)]] ↔ [[Apoptosis]], [[NF-κB (Nuclear Factor Kappa B)]] ↔ [[SIRT1]]
+  - Strong connections to strengthen: NF-κB (Nuclear Factor Kappa B) ↔ [[Inflammation]], NF-κB (Nuclear Factor Kappa B) ↔ [[Apoptosis]], NF-κB (Nuclear Factor Kappa B) ↔ SIRT1

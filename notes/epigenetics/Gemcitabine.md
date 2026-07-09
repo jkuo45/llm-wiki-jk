@@ -1,11 +1,10 @@
 ---
 title: Gemcitabine
 description: Gemcitabine is a nucleoside analog used as a chemotherapy agent that induces DNA replication stress and apoptosis by inhibiting DNA synthesis and ribonucleotide reductase.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: []
 ---
 
@@ -42,6 +41,17 @@ Resistance to gemcitabine can emerge through several mechanisms:
 - **Metabolic Alterations**: Decreased activity of [[Deoxycytidine kinase]] (dCK), which is required for activation, or increased activity of cytidine deaminase (CDA), which inactivates the drug.
 - **RNR Overexpression**: Increased levels of [[Ribonucleotide Reductase]] can counteract the drug's inhibitory effect.
 - **Enhanced DNA Repair**: Increased efficiency of DNA repair mechanisms can mitigate the damage caused by gemcitabine.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug|Ivermectin, a potential anticancer drug derived from an antiparasitic drug]]
+    - Surprisingly, Gemcitabine-resistant KKU214 cells showed high sensitivity to IVM, which suggested that IVM shows potential for the treatment of tumors that are resistant to conventional chemotherapy drugs. 2.3.
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - These chemical compounds can be functionally classified into eight groups: (1) DNA Replication Stress inducers (Aphidicolin, Hydroxyurea, Thymidine, Bromodeoxyuridine, Gemcitabine, Cyclopentenyl cytosine); (2) DNA‐damaging agents, including (2a) DN
+
 
 ## Connections
 

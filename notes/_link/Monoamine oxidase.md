@@ -1,12 +1,11 @@
 ---
 title: Monoamine oxidase
-description: 'Monoamine oxidase (also known as MAO) is a family of enzymes
-  that catalyze the oxidation of monoamines.'
-type: entity
+description: Monoamine oxidase (also known as MAO) is a family of enzymes
+  that catalyze the oxidation of monoamines.
 created: 2026-05-29
 updated: 2026-05-29
 tags:
-  - Enzyme
+  - enzyme
 aliases: []
 ---
 
@@ -22,6 +21,16 @@ aliases: []
 Both [[MAO]] and [[COMT]] are involved in the metabolism of catecholamines. While COMT performs methylation, MAO performs oxidative deamination. Together, they ensure the proper clearance and balance of neurotransmitters in the brain.
 
 #
+
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum|Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum]]
+    - In the Sirtuins, the Dopamine Transporter (DAT) is highly abundant and responsible for rapid Dopamine uptake into dopaminergic terminals where it is either packaged into storage vesicles or metabolized by Monoamine oxidase (MAO).
+
 
 ## Connections
 - [[Dopamine]]: One of the primary neurotransmitters metabolized by MAO.

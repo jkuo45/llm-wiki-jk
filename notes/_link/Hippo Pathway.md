@@ -1,13 +1,12 @@
 ---
 title: Hippo Pathway
-description: 'Definition: Hippo Pathway is a fundamental biological process that
+description: 'Definition: Hippo Pathway is a fundamental biological process that'
   maintains cellular and organismal homeostasis. It involves coordinated molecular
-  events regulated by signaling pathways and en...'
-type: entity
+  events regulated by signaling pathways and en...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Biological Process
+  - biological-process
 aliases: [Hippo Signaling]
 
 ---
@@ -29,5 +28,5 @@ aliases: [Hippo Signaling]
 
 ## Linking Summary
 - New links added: [[Hippo Pathway]]
-- Strong connections to strengthen: [[Hippo Pathway]] ↔ [[Hippo Pathway]]
+  - Strong connections to strengthen: Hippo Pathway ↔ Hippo Pathway
 

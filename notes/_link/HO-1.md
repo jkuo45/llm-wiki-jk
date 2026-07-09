@@ -1,18 +1,13 @@
 ---
 title: HO-1
-description: 'Heme oxygenase 1 (HO-1) is a stress-inducible enzyme that catalyzes
+description: Heme oxygenase 1 (HO-1) is a stress-inducible enzyme that catalyzes
   the rate-limiting step in heme degradation, producing biliverdin, carbon monoxide
-  (CO), and ferrous iron (Fe²⁺). It is a key ...'
-type: entity
+  (CO), and ferrous iron (Fe²⁺). It is a key ...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Enzyme
+  - enzyme
 aliases: [Heme oxygenase 1, HMOX1, Hsp32]
-database_ids:
-  mesh: D051060
-  uniprot: P09601
-  hgnc: HGNC:5013
 
 ---
 
@@ -35,6 +30,16 @@ In the context of the [[Adrenochrome Pathway]], HO-1 induction represents an ada
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - MRR - mitohormesis|mitohormesis]]
+    - Verify Downstream Mitohormetic Transcriptional Activation: - Assay: In cell culture, measure nuclear translocation of NRF2 (via immunofluorescence or Western blot) and monitor the expression of downstream targets (HO-1, NQO1, PGC1-α) 4 to 24 hours post-trea...
+
+
 ## Connections
 - [[NRF2]] — Master regulator of HO-1 transcription
 - [[Oxidative Stress]] — Primary inducer
@@ -44,4 +49,4 @@ In the context of the [[Adrenochrome Pathway]], HO-1 induction represents an ada
 ## Linking Summary
 - New links added: [[NRF2]], [[ARE]], [[Sulforaphane]], [[Oxidative Stress]], [[Hypoxia]], [[Antioxidant Response Element]]
 - Suggested new entity notes to create: [[Biliverdin]], [[Bilirubin]], [[Carbon Monoxide]]
-- Strong connections to strengthen: [[HO-1]] ↔ [[NRF2]], [[HO-1]] ↔ [[Oxidative Stress]]
+  - Strong connections to strengthen: [[HO-1]] ↔ [[NRF2]], [[HO-1]] ↔ Oxidative Stress

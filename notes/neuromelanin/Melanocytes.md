@@ -1,11 +1,10 @@
 ---
 title: Melanocytes
-description: 'Melanocytes are pigment-producing cells located in the basal layer of the epidermis and in other tissues.'
-type: entity
+description: Melanocytes are pigment-producing cells located in the basal layer of the epidermis and in other tissues.
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Cell Type
+  - cell-type
 aliases: []
 ---
 

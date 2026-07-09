@@ -1,14 +1,13 @@
 ---
 title: Redox Cycling
-description: 'Redox Cycling is a biochemical process in which a molecule is repeatedly
+description: Redox Cycling is a biochemical process in which a molecule is repeatedly
   reduced and then re-oxidized, often generating Reactive Oxygen Species (ROS) in
-  the process.'
-type: entity
+  the process.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Scientific Concept
-  - oxidative stress
+  - scientific-concept
+  - oxidative-stress
 aliases: []
 ---
 
@@ -28,6 +27,17 @@ Adrenochrome is a potent participant in redox cycling, creating a "vicious cycle
 - **[[Cardiotoxicity]]:** Linked to heart cell damage during stress, infarction, or inflammation where adrenaline levels are high.
 - **Amplification:** Allows a small amount of [[Adrenochrome]] to generate a disproportionately large amount of oxidative stress.
 - **[[Lungs]]:** May exacerbate tissue injury during acute respiratory distress or infection.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - MRR - mitohormesis|mitohormesis]]
+    - Mechanism of Action (MOA) Redox Signaling: Carbazochrome induces transient, controlled Redox Cycling, generating a low-amplitude Superoxide anion signal in the mitochondrial matrix.
+
+  - [[_document_ - neutrophil and erthrocyte|neutrophil and erthrocyte]]
+    - It is unstable and can participate in Redox Cycling, generating more Reactive Oxygen Species.
+
 
 ## Connections
 - [[Adrenochrome]] ↔ The molecule driving this specific redox cycle.

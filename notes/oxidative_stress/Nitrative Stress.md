@@ -3,14 +3,13 @@ title: Nitrative Stress
 description: Nitrative stress is a condition in which the production of Reactive Nitrogen
   Species exceeds the body's ability to neutralize them, leading to damage to proteins,
   lipids, and DNA. A key mediator is...
-type: entity
 created: 2026-05-09
 updated: 2026-07-04
 tags:
-  - oxidative stress
-  - RNS
-  - nitric oxide
-  - Scientific Concept
+  - oxidative-stress
+  - rns
+  - nitric-oxide
+  - scientific-concept
 aliases: [nitrosative stress]
 ---
 # Nitrative Stress
@@ -37,6 +36,14 @@ DNA nitration primarily involves the formation of 8-nitroguanine (8-NO2-G) from 
 ## Therapeutic Strategies
 
 Interventions against nitrative stress target peroxynitrite formation, scavenging, or downstream repair. Small-molecule peroxynitrite decomposition catalysts, such as [[Fe(III)-porphyrin compounds|metalloporphyrins]] (e.g., FeTMPyP, MnTE-2-PyP), accelerate ONOO− isomerization to nitrate, acting as catalytic scavengers. [[Uric Acid|Uric acid]] is a physiological peroxynitrite scavenger (responsible for >50% of plasma ONOO−-scavenging capacity in humans), which may partially explain the evolutionary maintenance of [[Uric Acid|uricase]] inactivation in hominids. [[EGCG]] ([[EGCG]]), [[Melatonin]], and [[Glutathione]] also directly scavenge peroxynitrite. [[N-Acetylcysteine]] (NAC) replenishes [[Glutathione]] levels, indirectly limiting nitrative damage. At the level of [[Nitric Oxide]] production, selective iNOS inhibitors ([[1400W]], [[L-NIL]]) have shown benefit in animal models of sepsis and neuroinflammation, though clinical translation has been limited.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - Suggested new entity notes to create: 8-oxo-2'-deoxyguanosine, Base Excision Repair, PPARγ, LXRα, ABCA1, VCAM-1, TNF-alpha, IL-1b, TGF-beta, Uremia, Proteinuria, Renal Failure, Malondialdehyde, L-arginine, Coenzyme Q10, Genistein, Lipid Peroxidation, Endoth...
+
 
 ## Connections
 - [[Superoxide Dismutase]]: MnSOD is inactivated by tyrosine nitration, a key pathological feedback.

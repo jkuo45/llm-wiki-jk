@@ -1,13 +1,12 @@
 ---
 title: ASC
-description: 'Overview: ASC is a cellular protein with structural, signaling,
+description: 'Overview: ASC is a cellular protein with structural, signaling,'
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
-  and signaling networks that govern cell ...'
-type: entity
+  and signaling networks that govern cell ...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [PYCARD, Apoptosis-Associated Speck-like Protein]
 
 ---
@@ -29,5 +28,5 @@ aliases: [PYCARD, Apoptosis-Associated Speck-like Protein]
 
 ## Linking Summary
 - New links added: [[ASC]]
-- Strong connections to strengthen: [[ASC]] ↔ [[ASC]]
+  - Strong connections to strengthen: [[ASC]] ↔ [[ASC]]
 

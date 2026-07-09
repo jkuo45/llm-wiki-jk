@@ -1,13 +1,12 @@
 ---
 title: Stilbene
-description: 'Stilbenes are a class of Polyphenols organic compounds characterized
+description: Stilbenes are a class of Polyphenols organic compounds characterized
   by a 1,2-diphenylethylene Stilbene (a central ethene bridge connecting two aromatic
-  rings). They exist as both *cis* and *tr...'
-type: entity
+  rings). They exist as both *cis* and *tr...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Chemical Class
+  - chemical-class
 aliases: [Stilbenoids]
 ---
 
@@ -32,6 +31,17 @@ Stilbenes have garnered significant interest for their potential in:
 - [[Cardiovascular Disease]] prevention via [[Nitric Oxide]] production enhancement and [[Endothelial Dysfunction]] protection
 - [[Aging|Anti-aging]] and [[Longevity]] through [[SIRT1]] activation
 - Anti-[[Cancer|neoplastic]] and [[Apoptosis|pro-apoptotic]] activity
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Sirtuin System The Holy Grail of Resveratrol?|The Sirtuin System The Holy Grail of Resveratrol?]]
+    - This polyphenol Stilbene identified in grape skin, is believed to be the main component contributing to the anti-atherosclerotic benefits linked to red wine consumption.
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Several other polyphenols, structurally related to Resveratrol, were also found to activate SIRTs, including the chalcones butein and isoliquiritigenin, the flavones Fisetin and Quercetin, and the stilbene Stilbene.
+
 
 ## Connections
 

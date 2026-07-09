@@ -1,11 +1,10 @@
 ---
 title: Albendazole
 description: Albendazole is a benzimidazole anthelmintic used to treat a variety of parasitic worm infestations, including Lymphatic Filariasis, and investigated for anticancer repositioning.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: []
 ---
 
@@ -35,6 +34,14 @@ Preclinical work positions albendazole, [[Mebendazole]], and [[Fenbendazole]] as
 ## Clinical Relevance
 
 In oncology, albendazole is primarily relevant as a parasitic Infection management tool in immunocompromised or cancer patients (e.g., prevention of cysticercosis in [[Brain Tumor]] or transplant settings) and as a candidate repurposed agent under investigation. Safety is generally good; teratogenicity precludes use in pregnancy.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, ‘Wonder drug’ from Japan the human use perspective|Ivermectin, ‘Wonder drug’ from Japan the human use perspective]]
+    - Several years earlier another drug, Albendazole, produced by SmithKlineBeecham (now GlaxoSmithKline – GlaxoSmithKline) had also been shown to be effective in killing both immature and adult worms.
+
 
 ## Connections
 

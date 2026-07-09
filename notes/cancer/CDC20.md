@@ -1,11 +1,10 @@
 ---
 title: CDC20
 description: Cell division cycle 20 (CDC20) is a ~55 kDa WD40 repeat protein that serves as the essential co-activator of the APC/C E3 ubiquitin ligase, governing the metaphase-to-anaphase transition and mitotic exit.
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - Protein
+  - protein
 aliases: [Cell division cycle 20, p55CDC, Fizzy]
 ---
 
@@ -49,6 +48,17 @@ CDC20 is frequently overexpressed in human cancers, including [[Colon Cancer|col
 Elevated CDC20 drives chromosome instability (CIN) and [[Aneuploidy|aneuploidy]] by partially overriding the SAC, accelerating mitotic progression even in the presence of misattached kinetochores. This permits segregation errors — lagging chromosomes, micronuclei, and merotelic attachments — that fuel intratumor heterogeneity, metastasis, and drug resistance. High CDC20 expression correlates with poor prognosis, advanced tumor stage, and reduced overall survival across diverse cancer types.
 
 CDC20 is an emerging therapeutic target. Pharmacological inhibitors of APC-C-CDC20 include **proTAME** (a prodrug of TAME that competes with D-box-containing substrates for APC/C binding) and **apcin** (which binds CDC20's D-box receptor pocket, blocking substrate recruitment). These agents induce mitotic arrest and [[Apoptosis]] and synergize with [[Microtubule|microtubule]]-targeting agents such as [[paclitaxel]]. However, the narrow therapeutic window imposed by CDC20's essential role in normal cell division remains a significant challenge. Strategies to exploit elevated CDC20 levels in tumors for selective vulnerability — for example, through synthetic lethality with SAC defects — are under active investigation.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - CDC20-containing APC/C and SCF-FBW7 target Mcl-1 for ubiquitination and degradation during mitotic arrest; CDK1 phosphorylation primes Mcl-1 at Thr92 for CDC20 recognition, directly coupling mitotic kinase activity to apoptotic commitment, while JNK and p38 MAPK pathways modulate this turnover.
+
+  - [[_document_ - Evading apoptosis in cancer|Evading apoptosis in cancer]]
+    - These studies have shown that in addition to the mechanisms described above, two E3 ligases, APC-C CDC20 (APC-C with CDC20) and SCF Complex FBW7, target Mcl-1 for destruction during mitosis \[ – \].
+
 
 ## Connections
 

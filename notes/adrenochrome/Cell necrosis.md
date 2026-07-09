@@ -2,13 +2,12 @@
 title: Cell necrosis
 description: Cell necrosis is a form of cell injury which results in the premature
   death of cells in living tissue by autolysis.
-type: entity
 created: 2026-07-04
 updated: 2026-07-06
 tags:
-  - Biological Process
+  - biological-process
   - apoptosis
-  - oxidative stress
+  - oxidative-stress
 aliases: []
 ---
 # Cell necrosis
@@ -90,6 +89,14 @@ This cascade defines **sterile inflammation** — inflammation triggered by cell
 - **[[Cardiotoxicity]]** — Chronic adrenochrome exposure in catecholamine-rich environments (e.g., [[Pheochromocytoma]], [[Septic Shock]], [[Myocardial infarction]]) contributes to the transition from reversible injury to frank [[Cardiomyocyte]] necrosis.
 
 The link between adrenochrome-driven necrosis and [[Adrenochrome Hypothesis]] of neuropsychiatric disorders remains speculative but is supported by observations that necrotic cell debris and DAMP release within the brain parenchyma could perpetuate [[Neuroinflammation]].
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Adrenochrome Pathway|The Adrenochrome Pathway]]
+    - Indeed in the 1930's and 40's this pathway was thought by many to be the major catabolic route for Epinephrine in vivo: More recently, Adrenochrome has been shown to be Cardiotoxicity, causing Cell necrosis, Arrhythmias and Coronary artery constriction.
+
 
 ## Connections
 

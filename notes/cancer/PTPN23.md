@@ -1,11 +1,10 @@
 ---
 title: PTPN23
 description: PTPN23 (HD-PTP) is a non-receptor protein tyrosine phosphatase and Bro1-domain protein that functions as a tumor suppressor by regulating endosomal trafficking, EGFR degradation, and apoptosis via Bak.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Protein
+  - protein
 aliases: []
 ---
 
@@ -24,6 +23,14 @@ By promoting degradation of oncogenic receptor tyrosine kinases and restraining 
 ## Clinical & Research Relevance
 
 PTPN23 expression is investigated as a prognostic marker, with reduced levels associated with aggressive disease. As a tumor suppressor, restoring PTPN23 function or mimicking its downstream effects (enhanced receptor degradation, [[Bak]]-dependent death) is a conceptual therapeutic route, potentially sensitizing tumors to [[Chemotherapy]] and targeted agents.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - red during anoikis | | Bak | | Unidentified (PTPN2, PTPN5, PTPN23) | Tyr108 | Inactivation | Fibrosarcoma, Colon Cancer | | Bak |
+
 
 ## Connections
 

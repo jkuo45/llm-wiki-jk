@@ -2,11 +2,10 @@
 title: DISC
 description: The Death-Inducing Signaling Complex (DISC) is a multi-protein assembly
   that forms during the initiation of the Extrinsic Pathway of Apoptosis.
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - Enzyme
+  - enzyme
 aliases: []
 ---
 
@@ -22,6 +21,17 @@ The DISC forms on the intracellular tails of death receptors (e.g., [[Fas]], [[D
 
 ## Function
 The primary function of the DISC is to facilitate the proximity-induced auto-activation of [[Caspase-8]]. Once activated, caspase-8 is released into the cytoplasm to activate executioner caspases like [[Caspase-3]].
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - Binding of the death ligand to the death receptor results in the formation of a binding site for an adaptor protein and the whole ligand-receptor-adaptor protein complex is known as the DISC \[\].
+
+  - [[_document_ - Evading apoptosis in cancer|Evading apoptosis in cancer]]
+    - In the Extrinsic Pathway, initiator Caspase-8 and Caspase-10 are activated through the formation of a death-inducing signal complex (DISC) in response to engagement of extracellular ligands (e.g. Fas or TNF ) by cell surface receptors (Figure 1).
+
 
 ## Connections
 - [[Extrinsic Pathway]]: The central activation platform for death receptor-mediated apoptosis.

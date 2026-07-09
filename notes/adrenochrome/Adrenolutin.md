@@ -1,12 +1,11 @@
 ---
 title: Adrenolutin
-description: 'Adrenolutin (3,5,6-trihydroxy-1-methylindole) is a fluorescent metabolite
-  and a further oxidation/rearrangement product of Adrenochrome.'
-type: entity
+description: Adrenolutin (3,5,6-trihydroxy-1-methylindole) is a fluorescent metabolite
+  and a further oxidation/rearrangement product of Adrenochrome.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Metabolite
+  - biological-molecule
 aliases: []
 ---
 
@@ -42,6 +41,14 @@ Adrenolutin exhibits biological activities that are distinct from, and generally
 ## Potential as a Biomarker
 
 Adrenolutin may serve as a stable downstream biomarker of catecholamine oxidation. Because adrenolutin does not undergo the redox cycling that rapidly consumes [[Adrenochrome]], its accumulation in biological fluids may more accurately reflect integrated catecholamine oxidation over time. Elevated adrenolutin levels have been reported in plasma and urine of patients with [[Pheochromocytoma]], [[Diabetic Ketoacidosis]], and [[Septic Shock]], contexts where catecholamine turnover and oxidative stress converge. Urinary adrenolutin, normalized to creatinine, correlates positively with 8-isoprostane (a marker of lipid peroxidation) and negatively with plasma [[Ascorbic Acid]] levels, supporting its utility as a marker of systemic oxidative stress. However, lack of standardized reference ranges and validated commercial assays currently limits clinical adoption.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Adrenochrome Pathway|The Adrenochrome Pathway]]
+    - The two major catabolites on this pathway were Adrenochrome and Adrenolutin. A compound with the same retention time as Adrenochrome on HPLC was detected in a biological fluid rich in Neutrophils.
+
 
 ## Connections
 - [[Adrenochrome]] ↔ The direct precursor to adrenolutin.

@@ -1,13 +1,12 @@
 ---
 title: MAX
-description: 'MAX (MYC Associated Factor X) is a basic-helix–loop–helix leucine
+description: MAX (MYC Associated Factor X) is a basic-helix–loop–helix leucine
   zipper (bHLH-Zip) transcription factor that is a mammalian orthologue of the C.
-  elegans MXL-3 protein.'
-type: entity
+  elegans MXL-3 protein.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Gene
+  - gene
 aliases: [MYC-associated factor X]
 
 ---

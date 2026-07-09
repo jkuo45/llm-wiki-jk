@@ -3,11 +3,10 @@ title: Phagocytic Lysosome Reformation
 description: Phagocytic Lysosome Reformation (PLR) is the process by which Lysosomes
   are reformed from phagolysosomes after the degradation of phagocytosed contents,
   involving regulators such as PIKfyve, TRPML1, and the amino acid transporter SLC-36.1.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Biological Process
+  - biological-process
   - autophagy
   - lysosome
 aliases: [PLR]
@@ -28,6 +27,14 @@ PLR is essential for macrophages, neutrophils, and other phagocytes to sustain r
 ## Pathological & Research Implications
 
 Mutations in PLR regulators cause human disease: TRPML1 loss underlies mucolipidosis type IV (a [[Lysosomal Storage Disorders|lysosomal storage disorder]]), and PIKfyve dysfunction causes fleck cornea and pigmented maculopathy. Enhancing PLR/ALR is a strategy to restore lysosomal homeostasis in [[Neurodegeneration]] and storage diseases, while inhibiting reformation can exhaust lysosomes in [[Cancer]] cells to magnify therapy-induced stress. Small molecules such as apilimod (PIKfyve inhibitor) and TRPML1 agonists/antagonists are research tools probing this pathway.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Lysosome biogenesis Regulation and functions|Lysosome biogenesis Regulation and functions]]
+    - In bone marrow–derived macrophages, it was observed that degradation of phagocytosed contents (e.g., erythrocytes) permitted the shrinkage of phagolysosomes concomitant with Phagocytic Lysosome Reformation (PLR) of the tubuloreticular network of lysosomes, ...
+
 
 ## Connections
 

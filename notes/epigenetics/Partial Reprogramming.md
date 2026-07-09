@@ -3,11 +3,10 @@ title: Partial Reprogramming
 description: Partial reprogramming (epigenetic rejuvenation) is a technique that transiently
   expresses Yamanaka Factors (OSKM) to reverse aging-associated epigenetic and functional
   decline without resetting cells to a pluripotent state.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Biological Process
+  - biological-process
 aliases: []
 ---
 
@@ -30,6 +29,14 @@ Partial reprogramming has reversed aging phenotypes in progeroid and normally ag
 ## Clinical & Research Relevance
 
 Translational strategies seek small-molecule mimetics of OSKM downstream effectors, viral/AAV delivery for in vivo cycling, and combination with [[Senolytic Drugs]]. Open questions include durability of the rejuvenated state, safe dosing windows, and whether epigenetic reset erases beneficial adaptive memory.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic|Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic]]
+    - Fibroblasts, Shinya Yamanaka, Kazutoshi Takahashi, OSKM, Regenerative Medicine, Olivopontocerebellar Atrophy, NuRD complex, CHD4, Schizophrenia, Induced Neural Stem Cells, Amyotrophic Lateral Sclerosis, Frontotemporal Dementia, Alzheimer's Disease, BIG1, So...
+
 
 ## Connections
 - [[Cellular Reprogramming]]: The broader process of which partial reprogramming is a time-limited variant.

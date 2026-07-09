@@ -1,13 +1,12 @@
 ---
 title: Bortezomib
-description: 'Chemical properties: Bortezomib is a chemical substance with defined
+description: 'Chemical properties: Bortezomib is a chemical substance with defined'
   molecular structure, functional groups, and physicochemical properties that determine
-  its biological activity.'
-type: entity
+  its biological activity.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: [Velcade, PS-341]
 
 ---
@@ -29,5 +28,5 @@ aliases: [Velcade, PS-341]
 
 ## Linking Summary
 - New links added: [[Bortezomib]]
-- Strong connections to strengthen: [[Bortezomib]] ↔ [[Bortezomib]]
+  - Strong connections to strengthen: [[Bortezomib]] ↔ [[Bortezomib]]
 

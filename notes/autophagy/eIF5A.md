@@ -1,12 +1,11 @@
 ---
 title: eIF5A
-description: 'eIF5A (Eukaryotic Translation Initiation Factor 5A) is a highly
-  conserved translation factor.'
-type: entity
+description: eIF5A (Eukaryotic Translation Initiation Factor 5A) is a highly
+  conserved translation factor.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [eukaryotic initiation factor 5A]
 
 ---
@@ -26,6 +25,17 @@ aliases: [eukaryotic initiation factor 5A]
 ## Function
 
 eIF5A is a translation elongation factor with the unique amino acid [[Hypusination|hypusine]]. It is essential for [[Autophagy]] by promoting translation of [[LC3]] and [[p62]].
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
+    - Interestingly, spermidine can act as a donor for hypusination of the translation factor eIF5A, which is integral to its activation and enables efficient biosynthesis of the autophagy transcription factor TFEB (Zhang et al., 2019).
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - Spermidine, an endogenous Polyamine metabolite, was found to involved in hypusination, a post-translational modification of eukaryotic initiation factor 5 A (eIF5A) \[\]. Zhang et al.
+
 
 ## Connections
 

@@ -1,11 +1,10 @@
 ---
 title: HER2-enriched Breast Cancer
 description: HER2-enriched breast cancer is a subtype of Breast Cancer characterized by overexpression of the HER2 (human epidermal growth factor receptor 2) protein.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: []
 ---
 
@@ -24,6 +23,14 @@ Diagnosis relies on HER2 testing (IHC 3+ or ISH amplification) on biopsy. The su
 ## Therapeutic Landscape
 
 The advent of anti-HER2 therapies transformed prognosis. [[trastuzumab]] (anti-HER2 monoclonal antibody) plus pertuzumab and taxane chemotherapy is standard for metastatic and adjuvant use; antibody–drug conjugates ([[T-DXd]], [[T-DM1]]) deliver cytotoxic payloads to HER2+ cells; [[lapatinib]]/[[neratinib]] are small-molecule [[TKI]]s. Resistance mechanisms include PIK3CA/AKT activation, HER2 sheddase upregulation, and bypass signaling. Preclinically, [[melittin]] suppresses HER2 phosphorylation and induces cell death in this subtype, and [[Ivermectin]] modulates HER2-driven survival pathways, suggesting combinatorial potential.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology|Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology]]
+    - Here, we demonstrate that honeybee venom and its major component melittin potently induce cell death, particularly in the aggressive triple-negative breast cancer and HER2-enriched breast cancer subtypes.
+
 
 ## Connections
 

@@ -1,13 +1,12 @@
 ---
 title: Lysosomal Acid Lipase
-description: 'Lysosomal Acid Lipase (LAL; also known as LipA in mice)
+description: Lysosomal Acid Lipase (LAL; also known as LipA in mice)
   is a critical enzyme that hydrolyzes cholesteryl esters and triglycerides delivered
-  to the Lysosome via Lipophagy or endocytosis.'
-type: entity
+  to the Lysosome via Lipophagy or endocytosis.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Enzyme
+  - enzyme
   - autophagy
   - lysosome
 aliases: [LAL, LIPA]
@@ -32,6 +31,14 @@ aliases: [LAL, LIPA]
 
 ## Orthologues
 - In [[C. elegans]], the functional orthologues are the [[LIPL-1]], [[LIPL-2]], [[LIPL-3]], and [[LIPL-5]] proteins, which are regulated by [[MXL-3]] and [[HLH-30]].
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - Autophagy participates in lipid catabolism by delivering fragments of Lipid Droplet to Lysosome, where the Lysosomal Acid Lipase (LAP) mediates TGs degradation. TFEB contributes to the fasting response not only by up-regulating Autophagy an
+
 
 ## Connections
 

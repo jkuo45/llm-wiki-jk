@@ -3,14 +3,13 @@ title: Asthma
 description: Asthma is a common long-term inflammatory disease of the airways of the
   lungs. It is characterized by variable and recurring symptoms including reversible
   airflow obstruction and bronchospasm. Oxid...
-type: entity
 created: 2026-05-09
 updated: 2026-07-04
 tags:
-  - oxidative stress
+  - oxidative-stress
   - inflammation
   - respiratory
-  - Medical Condition
+  - medical-condition
 aliases: [bronchial asthma]
 ---
 # Asthma
@@ -34,6 +33,20 @@ Oxidative stress in asthma correlates with disease severity, frequency of exacer
 - New links added: [[NADPH Oxidase]], [[Superoxide Radicals]], [[Hydrogen Peroxide]], [[NRF2]], [[Catalase]], [[Superoxide Dismutase]], [[Glutathione Peroxidase]], [[Neutrophils]], [[Myeloperoxidase]], [[Hypochlorous Acid]], [[Glutathione]], [[Malondialdehyde]], [[N-Acetylcysteine]], [[Ascorbic Acid]], [[Flavonoids]]
 - Suggested new entity notes to create: [[Bronchoalveolar lavage fluid]], [[Eosinophil Peroxidase]], [[8-Isoprostane]], [[NRF2]], [[Sulforaphane]], [[Polyphenols]], [[Quercetin]], [[Ozone]]
 - Strong connections to strengthen: [[Asthma]] ↔ [[Glutathione]], [[Asthma]] ↔ [[NADPH Oxidase]]
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug|Ivermectin, a potential anticancer drug derived from an antiparasitic drug]]
+    - In addition, IVM shows potential for clinical application in Asthma \[\] and neurological diseases \[\]. Recently scientists have discovered that IVM has a strong anticancer effect.
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - Respiratory Disease and Oxidative Stress Several researches pointed out that lung diseases such as Asthma and Chronic Obstructive Pulmonary Disease, determined by systemic and local chronic inflammation, are linked to oxidative stress \[ – \].
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - found that forced expression of SIRT6 attenuated EMT by suppressing the TGF-beta1/ SMAD3 protein (Smad)3 pathway and N-terminal kinase (c-Jun) in rat models of Asthma.
+
 
 ## Connections
 

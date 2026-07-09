@@ -64,12 +64,12 @@ tags:
 
 雖然直接結合確實發生，但白藜蘆醇體內作用的大部分是透過提高細胞內菸鹼醯胺腺嘌呤二核苷酸 ([NAD+](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/NAD+.md)) 水平間接介導的，而 NAD+ 是 SIRT1 活性必需的輔基質。
 
-1. **磷酸二酯酶 (PDE) 抑制：** 白藜蘆醇作為環磷酸腺苷 ([cAMP](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/cAMP.md)) 磷酸二酯酶（具體為 **[PDE4](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/PDE4.md)**）的競爭性抑制劑。
-2. **cAMP 累積：** 抑制 PDE 可防止 cAMP 降解，導致細胞內 cAMP 累積。
-3. **鈣訊號傳導：** 高濃度 cAMP 活化 **[Epac1](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/Epac1.md)**（直接被 cAMP 活化的交換蛋白），觸發鈣離子 (Ca2+) 從內質網釋放到細胞質中。
-4. **AMPK 活化：** 細胞質中 Ca2+ 的激增活化 **[CaMKKβ](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/CaMKKβ.md)**（鈣調蛋白依賴性蛋白激酶激酶 beta），進而磷酸化並活化 **[AMPK](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/AMPK.md)**（AMP 活化蛋白激酶）。
-5. **NAD+ 合成：** 活化的 AMPK 增加 **[NAMPT](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/NAMPT.md)**（菸鹼醯胺磷酸核糖轉移酶）的表達，此為 [NAD+](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/NAD+.md) 補救合成途徑的限速酶。
-6. **SIRT1 刺激：** 細胞 NAD+ 水平的提升為 SIRT1 提供底物，顯著增加其去乙醯酶活性。
+- **磷酸二酯酶 (PDE) 抑制：** 白藜蘆醇作為環磷酸腺苷 ([cAMP](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/cAMP.md)) 磷酸二酯酶（具體為 **[PDE4](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/PDE4.md)**）的競爭性抑制劑。
+- **cAMP 累積：** 抑制 PDE 可防止 cAMP 降解，導致細胞內 cAMP 累積。
+- **鈣訊號傳導：** 高濃度 cAMP 活化 **[Epac1](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/Epac1.md)**（直接被 cAMP 活化的交換蛋白），觸發鈣離子 (Ca2+) 從內質網釋放到細胞質中。
+- **AMPK 活化：** 細胞質中 Ca2+ 的激增活化 **[CaMKKβ](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/CaMKKβ.md)**（鈣調蛋白依賴性蛋白激酶激酶 beta），進而磷酸化並活化 **[AMPK](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/AMPK.md)**（AMP 活化蛋白激酶）。
+- **NAD+ 合成：** 活化的 AMPK 增加 **[NAMPT](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/NAMPT.md)**（菸鹼醯胺磷酸核糖轉移酶）的表達，此為 [NAD+](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/NAD+.md) 補救合成途徑的限速酶。
+- **SIRT1 刺激：** 細胞 NAD+ 水平的提升為 SIRT1 提供底物，顯著增加其去乙醯酶活性。
 
 ### SIRT1 活化的下游效應
 
@@ -110,8 +110,8 @@ SIRT1 被白藜蘆醇活化後，會去乙醯化多種下游轉錄因子和輔�
 > [!warning] 生物利用度挑戰
 > 白藜蘆醇具有高度親脂性，可快速被人類胃腸道吸收，但會經歷廣泛的首過代謝（在腸道和肝臟中快速葡萄糖醛酸化和硫酸化）。極低濃度的游離活性白藜蘆醇能到達體循環和目標組織。
 
-1. **毒物興奮效應（雙相性）：** 白藜蘆醇常表現出雙相劑量反應曲線。在低至中等濃度下，它作為輕度壓力源觸發有益的適應性反應（SIRT1 活化、抗氧化酶上調）。然而，在極高濃度下，根據細胞類型不同，可能誘發脫靶效應、細胞週期停滯或促氧化狀態。
-2. **臨床一致性：** 由於配方、劑量和個體代謝速率的差異，臨床試驗結果不一致。
+- **毒物興奮效應（雙相性）：** 白藜蘆醇常表現出雙相劑量反應曲線。在低至中等濃度下，它作為輕度壓力源觸發有益的適應性反應（SIRT1 活化、抗氧化酶上調）。然而，在極高濃度下，根據細胞類型不同，可能誘發脫靶效應、細胞週期停滯或促氧化狀態。
+- **臨床一致性：** 由於配方、劑量和個體代謝速率的差異，臨床試驗結果不一致。
 
 ---
 
@@ -316,7 +316,7 @@ SIRT1 被白藜蘆醇活化後，會去乙醯化多種下游轉錄因子和輔�
 
 ---
 
-### 1. [白藜蘆醇](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/Resveratrol.md) ([SIRT1](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/SIRT1.md))
+### [白藜蘆醇](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/Resveratrol.md) ([SIRT1](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/SIRT1.md))
 *   **目標劑量：** 500 毫克
 *   **紅酒數據：** 系統性綜述和資料庫（如 *Phenol-Explorer*）顯示，紅酒中反式白藜蘆醇的平均濃度約為 **每公升 1.9 毫克**（通常範圍為 0.5 至 4.0 毫克/公升，取決於葡萄品種和發酵過程中的果皮接觸時間）。
     *   **計算：**
@@ -332,7 +332,7 @@ SIRT1 被白藜蘆醇活化後，會去乙醯化多種下游轉錄因子和輔�
 
 ---
 
-### 2. [二氫楊梅素](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/Dihydromyricetin.md) / DHM ([SIRT3](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/SIRT3.md))
+### [二氫楊梅素](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/Dihydromyricetin.md) / DHM ([SIRT3](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/SIRT3.md))
 *   **目標劑量：** 300 毫克
 *   **藤茶 (*Ampelopsis grossedentata*) 數據：** 此特定植物的乾葉富含 DHM，乾葉樣本中 DHM 含量經常檢測在 **重量比 20% 至 30%** 之間。
     *   **計算（以 20% DHM 含量計）：**
@@ -343,7 +343,7 @@ SIRT1 被白藜蘆醇活化後，會去乙醯化多種下游轉錄因子和輔�
 
 ---
 
-### 3. 矢車菊素-3-葡萄糖苷 / C3G ([SIRT6](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/SIRT6.md))
+### 矢車菊素-3-葡萄糖苷 / C3G ([SIRT6](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/SIRT6.md))
 *   **目標劑量：** 300 毫克
 *   **黑莓數據：** *Phenol-Explorer* 資料庫列出黑莓中矢車菊素-3-葡萄糖苷的平均濃度為 **每 100 公克 FW 138.72 毫克**，最低記錄為 **85.21 毫克/100公克 FW**。
     *   **計算（以平均濃度計）：**
@@ -360,7 +360,7 @@ SIRT1 被白藜蘆醇活化後，會去乙醯化多種下游轉錄因子和輔�
 
 ---
 
-### 4. [厚朴酚](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/Honokiol.md) ([SIRT3](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/SIRT3.md)) — *溶解度修正*
+### [厚朴酚](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/Honokiol.md) ([SIRT3](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/SIRT3.md)) — *溶解度修正*
 經更深入的物理化學檢查，厚朴酚的 raw 茶估計需要就**溶解度**進行重要的科學說明：
 
 *   **目標劑量：** 200 毫克

@@ -2,11 +2,10 @@
 title: Trichuriasis
 description: Trichuriasis, also known as whipworm infection, is an infection of the
   large intestine caused by the parasitic worm Trichuris trichiura.
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: []
 ---
 
@@ -37,6 +36,14 @@ First-line treatment includes [[Albendazole]] (400 mg daily for 3 days) or [[Meb
 ## Prevention
 
 Prevention centers on improved sanitation, hygiene education, hand washing, food safety (washing raw vegetables), and access to clean water. School-based mass drug administration (MDA) programs deliver periodic deworming (e.g., albendazole or mebendazole once or twice yearly) in endemic regions, reducing both prevalence and intensity of infection. Water, Sanitation, and Hygiene (WASH) interventions targeting open defecation and soil contamination provide sustainable long-term control.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, ‘Wonder drug’ from Japan the human use perspective|Ivermectin, ‘Wonder drug’ from Japan the human use perspective]]
+    - It is used to treat a variety of internal Onchocerca volvulus infections, including Onchocerciasis, Strongyloidiasis, Ascariasis, cutaneous larva migrans, Lymphatic Filariasis, Gnathostomiasis and Trichuriasis, as well as for oral treatment of ectoparasitic...
+
 
 ## Connections
 

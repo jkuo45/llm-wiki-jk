@@ -1,11 +1,10 @@
 ---
 title: Wnt4
 description: Wnt4 is a secreted Wnt ligand regulating β-catenin-independent and -dependent signaling in kidney, sex determination, and stem-cell quiescence.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Protein
+  - protein
 aliases: []
 ---
 
@@ -33,6 +32,14 @@ During development, Wnt4 is essential for metanephric kidney formation (inductio
 ## Pathology & Clinical Relevance
 
 *WNT4* mutations cause SERKAL syndrome (ovarian, renal, and lung defects) and are implicated in disorders of sex development. Aberrant Wnt4/β-catenin signaling contributes to several [[Cancer]] types (e.g., Wilms tumor, breast, ovarian) by sustaining a stem-like, proliferative state. Because Wnt4 influences quiescence and [[Reprogramming]]-relevant pathways (including [[MYCN]] stabilization and [[Pluripotency]] networks), it is of interest in [[Rejuvenation]] and regenerative strategies that manipulate stem-cell activation. Its niche role also connects to [[Aging]]-related decline in regenerative competence.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - In addition to withholding growth factors, the niche prevents inappropriate proliferation by producing quiescence-inducing soluble factors, including TGF-β1 (Batard et al., 2000; Ducos et al., 2000), Wnt4 (Eliazer et al., 2019), IL-6 cytokines (Sampath et a...
+
 
 ## Connections
 

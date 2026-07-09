@@ -1,13 +1,12 @@
 ---
 title: LC3B
-description: 'Overview: LC3B is a cellular protein with structural, signaling,
+description: 'Overview: LC3B is a cellular protein with structural, signaling,'
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
-  and signaling networks that govern cell...'
-type: entity
+  and signaling networks that govern cell...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
   - autophagy
 aliases: [MAP1LC3B]
 
@@ -25,10 +24,20 @@ aliases: [MAP1LC3B]
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - trophy 1, p53 tumor protein p53, PINK PTEN induced putative kinase, PLIN5 perilipin 5, PTEN phosphatase and tensin homolog, SQSTM1/ p62 sequestosome 1, TFEB transcription factor EB, TUG1 taurine-upregulated gene 1, TyrRS tyrosyl transfer-RNA synthetase, Ube...
+
+
 ## Connections
 - [[LC3B]] — related entity
 
 ## Linking Summary
 - New links added: [[LC3B]]
-- Strong connections to strengthen: [[LC3B]] ↔ [[LC3B]]
+  - Strong connections to strengthen: [[LC3B]] ↔ [[LC3B]]
 

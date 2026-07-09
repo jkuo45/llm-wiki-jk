@@ -1,17 +1,13 @@
 ---
 title: Vitamin B6
-description: 'Vitamin B6 refers to a group of six interconvertible compounds:
+description: 'Vitamin B6 refers to a group of six interconvertible compounds:'
   pyridoxine, pyridoxal, Pyridoxamine, and their phosphorylated derivatives. The active
-  form, pyridoxal 5''-phosphate (PLP), serves ...'
-type: entity
+  form, pyridoxal 5''-phosphate (PLP), serves ...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: [Pyridoxine, Pyridoxal, Pyridoxamine, Pyridoxal 5'-phosphate (PLP)]
-database_ids:
-  mesh: D014803
-  chebi: CHEBI:27306
 
 ---
 
@@ -36,4 +32,4 @@ Vitamin B6 deficiency is implicated in [[COMT]] dysfunction, [[Depression]], [[C
 ## Linking Summary
 - New links added: [[Aromatic L-amino acid decarboxylase]], [[COMT]], [[Methylation]], [[Inflammation]], [[Depression]], [[Cardiovascular Disease]], [[Dopamine]], [[Serotonin]], [[Norepinephrine]], [[Homocysteine]]
 - Suggested new entity notes to create: [[Pyridoxal 5'-phosphate]], [[Cystathionine beta-synthase]]
-- Strong connections to strengthen: [[Vitamin B6]] ↔ [[Aromatic L-amino acid decarboxylase]]
+  - Strong connections to strengthen: Vitamin B6 ↔ Aromatic L-amino acid decarboxylase

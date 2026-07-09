@@ -1,13 +1,12 @@
 ---
 title: Gout
-description: 'Etiology and pathophysiology: Gout is a medical condition characterized
+description: 'Etiology and pathophysiology: Gout is a medical condition characterized'
   by specific pathological changes in cellular, tissue, or organ function. Its development
-  involves genetic, environmental,...'
-type: entity
+  involves genetic, environmental,...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: []
 ---
 
@@ -28,5 +27,5 @@ aliases: []
 
 ## Linking Summary
 - New links added: [[Gout]]
-- Strong connections to strengthen: [[Gout]] ↔ [[Gout]]
+  - Strong connections to strengthen: [[Gout]] ↔ [[Gout]]
 

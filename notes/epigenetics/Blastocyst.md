@@ -1,11 +1,10 @@
 ---
 title: Blastocyst
 description: The blastocyst is a mammalian embryonic stage at 5–6 days post-fertilization consisting of an inner cell mass (ICM), trophectoderm, and a fluid-filled blastocoel cavity, from which embryonic stem cells are derived.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Anatomy
+  - anatomy
 aliases: [Blastocyst, Blastocyst stage]
 ---
 

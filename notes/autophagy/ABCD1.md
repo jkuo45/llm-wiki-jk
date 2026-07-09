@@ -3,11 +3,10 @@ title: ABCD1
 description: ABCD1 is a gene that encodes a critical transporter protein located on
   the membrane of the Peroxisome. Its primary function is to transport very long-chain
   fatty acids (VLCFAs) from the cytosol int...
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [ATP-binding cassette subfamily D member 1]
 ---
 # ABCD1

@@ -1,13 +1,12 @@
 ---
 title: Neuromelanin
-description: 'Neuromelanin is a dark pigment found in specific populations of
+description: Neuromelanin is a dark pigment found in specific populations of
   catecholaminergic neurons in the brain, most notably in the substantia nigra and
-  locus coeruleus.'
-type: entity
+  locus coeruleus.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Biological Molecule
+  - biological-molecule
 aliases: []
 ---
 
@@ -50,6 +49,19 @@ In [[Parkinson's Disease]], the relationship between neuromelanin and neuronal h
 - **Selective Vulnerability:** Neurons containing high levels of NM, such as those in the [[Substantia Nigra Pars Compacta]], are the ones that preferentially degenerate in PD.
 - **Pathogenic Threshold:** Progressive accumulation of NM with age may eventually reach a [[Pathogenic Threshold of Neuromelanin]], where it interferes with cellular proteostasis and lysosomal function.
 - **Neuroinflammation:** The release of NM from dying neurons into the extracellular space triggers [[Microgliosis]] and a chronic inflammatory response, which contributes to further neurodegeneration.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - neutrophil and erthrocyte|neutrophil and erthrocyte]]
+    - pubs.acs.org - Brain (Neuromelanin pathway): Adrenochrome (or related Aminochromes) can form as an intermediate in Neuromelanin synthesis, particularly in Dopaminergic Neurons (e.g., in the Substantia Nigra).
+
+  - [[_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease|Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease]]
+    - Miquel Vila 1,2,3,✉ PMCID: Abstract Neuromelanin, a dark brown intracellular pigment, has long been associated with Parkinson's Disease (PD).
+
+  - [[_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator|Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator]]
+    - Neuromelanin (NM) in the pre-synaptic terminal of Dopamine neurons is emerging as a primary player in the etiology of Neurodegenerative Diseases including PD.
 
 
 ## Connections

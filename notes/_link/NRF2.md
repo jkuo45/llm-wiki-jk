@@ -3,35 +3,12 @@ title: NRF2
 description: NRF2 (Nuclear factor erythroid 2-related factor 2) is a master transcription
   factor that regulates the expression of antioxidant proteins and phase II detoxification
   enzymes that protect against ox...
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Gene
+  - gene
   - antioxidant
 aliases: [Nrf2, Nuclear factor erythroid 2-related factor 2, NF-E2-related factor 2, NFE2L2]
-database_ids:
-  hgnc: HGNC:7782
-  uniprot: Q16236
-relations:
-  - predicate: regulates
-    target: "notes/_link/Glutathione"
-    sources: []
-  - predicate: inhibits
-    target: "NF-kappa B"
-    sources: []
-  - predicate: is activated by
-    target: "SIRT1"
-    sources: []
-  - predicate: is activated by
-    target: "Alpha-Lipoic Acid"
-    sources: []
-  - predicate: is activated by
-    target: "Flavonoids"
-    sources: []
-  - predicate: induces
-    target: "Ferritin"
-    sources: []
 
 ---
 
@@ -77,6 +54,25 @@ NRF2 is a master transcription factor regulating antioxidant defense.
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects|Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects]]
+    - Urolithin A stimulates the NRF2-Antioxidant Response Element signaling pathway, subsequently upregulating the expression of GSTs, thereby enhancing cellular autophagy and mitochondrial quality control \[\].
+
+  - [[_document_ - MRR - mitohormesis|mitohormesis]]
+    - Pathway Activation: This "oxidative pulse" activates the NRF2/Antioxidant Response Element antioxidant response and stimulates PGC1-α via the SIRT1/AMPK axis (primed by Nicotinamide Riboside/Nicotinamide Mononucleotide).
+
+  - [[_document_ - xenohormesis, mitohormesis|xenohormesis, mitohormesis]]
+    - I've pinpointed key compounds like Resveratrol, Quercetin, Curcumin, and EGCG, along with their biochemical targets: Sirtuins, AMPK, and the NRF2 Pathway]]. These targets are critical in the survival response, which aligns with Caloric Restriction.
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - The effect of SIRT1, SIRT 2, and SIRT6 on Nuclear erythroid 2-related factor 2 (NRF2): NRF2 is a leucine transcription factor that plays extremely important roles in antioxidant response element (ARE)-dependent transcriptional regulation of defense genes.
+
+
 ## Connections
 - [[Keap1]] — Cytoplasmic inhibitor that targets NRF2 for degradation under basal conditions
 - [[Antioxidant Response Element]] — DNA binding site for NRF2 target gene activation
@@ -90,4 +86,4 @@ NRF2 is a master transcription factor regulating antioxidant defense.
 ## Linking Summary
 - New links added: [[Keap1]], [[Antioxidant Response Element]], [[NF-kappa B]], [[SIRT1]], [[SIRT6]], [[HO-1]], [[NQO1]], [[SKN-1]], [[Sulforaphane]], [[Dimethyl fumarate]], [[Bardoxolone methyl]], [[Chronic Obstructive Pulmonary Disease]], [[Asthma]], [[Multiple Sclerosis]], [[Fenton Reaction]]
 - Suggested new entity notes to create: [[Oltipraz]], [[MAFG]], [[MAFF]], [[CUL3]]
-- Strong connections to strengthen: [[NRF2]] ↔ [[Keap1]], [[NRF2]] ↔ [[Oxidative Stress]], [[NRF2]] ↔ [[NF-kappa B]]
+  - Strong connections to strengthen: [[NRF2]] ↔ Keap1, [[NRF2]] ↔ Oxidative Stress, [[NRF2]] ↔ NF-kappa B

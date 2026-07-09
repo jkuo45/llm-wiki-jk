@@ -1,17 +1,13 @@
 ---
 title: Vitamin B3
-description: 'Vitamin B3 (niacin) encompasses Nicotinic acid and Nicotinamide
+description: Vitamin B3 (niacin) encompasses Nicotinic acid and Nicotinamide
   (niacinamide). It is the precursor to NAD+ and NADP+, making it essential for cellular
-  energy metabolism, DNA Repair, and Sirtuin...'
-type: entity
+  energy metabolism, DNA Repair, and Sirtuin...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: [Niacin, Nicotinic acid, Nicotinamide, Niacinamide]
-database_ids:
-  mesh: D009525
-  chebi: CHEBI:15940
 
 ---
 
@@ -36,4 +32,4 @@ Vitamin B3 is the primary substrate for [[NAD+|NAD⁺]] biosynthesis via the [[P
 ## Linking Summary
 - New links added: [[NAD+]], [[SIRT1]], [[DNA Repair]], [[Mitochondria]], [[Methylation]], [[Nicotinic acid]], [[Nicotinamide]], [[Nicotinamide Mononucleotide]], [[Nicotinamide Riboside]]
 - Suggested new entity notes to create: [[Preiss-Handler pathway]], [[NAMPT]], [[NNMT]]
-- Strong connections to strengthen: [[Vitamin B3]] ↔ [[NAD+]], [[Vitamin B3]] ↔ [[SIRT1]]
+  - Strong connections to strengthen: Vitamin B3 ↔ [[NAD+]], Vitamin B3 ↔ SIRT1

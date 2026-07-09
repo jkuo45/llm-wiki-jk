@@ -2,11 +2,10 @@
 title: Flavonoids
 description: Flavonoids are a diverse group of phytonutrients (plant chemicals) found
   in almost all fruits and vegetables.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Chemical Class
+  - chemical-class
 aliases: [Flavonoids]
 ---
 # Flavonoids
@@ -77,6 +76,19 @@ Epidemiological studies associate high flavonoid intake with reduced risk of [[C
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - Supplements that inhibit COMT: Certain Flavonoids use COMT for metabolism, and high doses of them can inhibit (slow down) the availability of COMT for breaking down Neurotransmitters.
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - Several antioxidants have been exploited in recent years for their actual or supposed beneficial effect against oxidative stress, such as Vitamin E, Flavonoids, and Polyphenols.
+
+
 ## Connections
 - [[Polyphenols]]
 - [[Oxidative Stress]]
@@ -88,4 +100,4 @@ Epidemiological studies associate high flavonoid intake with reduced risk of [[C
 ## Linking Summary
 - New links added: [[Polyphenols]], [[Quercetin]], [[Genistein]], [[Kaempferol]], [[Glycation]], [[Advanced Glycation End Products]], [[Epicatechin]], [[Oxidative Stress]]
 - Suggested new entity notes to create: [[Methylglyoxal]], [[Metal chelation]], [[Secondary metabolites]]
-- Strong connections to strengthen: [[Flavonoids]] ↔ [[Antioxidants]], [[Flavonoids]] ↔ [[Polyphenols]]
+  - Strong connections to strengthen: [[Flavonoids]] ↔ [[Antioxidants]], [[Flavonoids]] ↔ [[Polyphenols]]

@@ -1,13 +1,12 @@
 ---
 title: Folate
-description: 'Biochemical properties: Folate is an endogenous metabolite involved
+description: 'Biochemical properties: Folate is an endogenous metabolite involved'
   in cellular energy metabolism, redox reactions, or biosynthetic pathways. Its cellular
-  concentration reflects metabolic flux ...'
-type: entity
+  concentration reflects metabolic flux ...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Metabolite
+  - biological-molecule
 aliases: [Vitamin B9, Folic Acid]
 
 ---
@@ -24,10 +23,20 @@ aliases: [Vitamin B9, Folic Acid]
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - Dietary Folate instead of methyl folate supplements: If you have slow COMT, there are a couple of dietary changes that may help you optimize Neurotransmitters function.
+
+
 ## Connections
 - [[Folate]] — related entity
 
 ## Linking Summary
 - New links added: [[Folate]]
-- Strong connections to strengthen: [[Folate]] ↔ [[Folate]]
+  - Strong connections to strengthen: [[Folate]] ↔ [[Folate]]
 

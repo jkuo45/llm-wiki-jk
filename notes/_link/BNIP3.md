@@ -1,13 +1,12 @@
 ---
 title: BNIP3
-description: 'Overview: BNIP3 is a cellular protein with structural, signaling,
+description: 'Overview: BNIP3 is a cellular protein with structural, signaling,'
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
-  and signaling networks that govern cel...'
-type: entity
+  and signaling networks that govern cel...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [BCL2 Interacting Protein 3]
 
 ---
@@ -24,10 +23,20 @@ aliases: [BCL2 Interacting Protein 3]
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - Additionally, PML tumor suppressor and BNIP3 reduce mTORC1 signaling during Hypoxia by disrupting the interaction between mTOR and its positive regulator Rheb (Bernardi et al., 2006; Li et al., 2007).
+
+
 ## Connections
 - [[BNIP3]] — related entity
 
 ## Linking Summary
 - New links added: [[BNIP3]]
-- Strong connections to strengthen: [[BNIP3]] ↔ [[BNIP3]]
+  - Strong connections to strengthen: [[BNIP3]] ↔ [[BNIP3]]
 

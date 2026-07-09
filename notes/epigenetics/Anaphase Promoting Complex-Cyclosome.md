@@ -1,11 +1,10 @@
 ---
 title: Anaphase Promoting Complex-Cyclosome
 description: A large, multi-subunit E3 ubiquitin ligase that serves as a master regulator of the cell cycle, driving transitions from metaphase to anaphase and facilitating mitotic exit.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Enzyme
+  - enzyme
 aliases: []
 ---
 

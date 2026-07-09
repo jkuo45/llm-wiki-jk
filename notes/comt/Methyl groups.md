@@ -1,11 +1,10 @@
 ---
 title: Methyl groups
 description: Methyl groups (-CH3) are one-carbon units transferred in methylation reactions that regulate neurotransmitter metabolism, gene expression, and detoxification.
-type: entity
 created: 2026-05-25
 updated: 2026-07-07
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: [-CH3]
 ---
 
@@ -34,6 +33,14 @@ The activity of [[COMT]] is directly coupled to the availability of [[Methyl gro
 ## Clinical and Research Relevance
 
 Excess methyl-group provision (high-dose methylfolate/B12) in slow-[[COMT]] individuals can over-drive methylation, producing mood lability. Deficient methyl supply impairs COMT clearance, elevating catecholamine burden and oxidative stress. Methyl-group homeostasis is thus a nexus linking nutrition, genetics, and neuropsychiatric risk.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - The methyl in Catechol-O-methyltransferase (COMT) is because COMT uses a Methyl groups in the process of metabolizing Catechols. Methyl groups are used in hundreds of reactions in the body, and adding a methyl group can change one substance into another.
+
 
 ## Connections
 

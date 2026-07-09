@@ -1,11 +1,10 @@
 ---
 title: Norepinephrine transporter
 description: The norepinephrine transporter (NET) is a SLC6A2 sodium-dependent symporter that clears norepinephrine and, in the prefrontal cortex, also dopamine.
-type: entity
 created: 2026-05-25
 updated: 2026-07-07
 tags:
-  - Transporter
+  - transporter
 aliases: [NET, SLC6A2]
 ---
 
@@ -28,6 +27,14 @@ Because both NET and [[COMT]] govern local catechol concentrations, their activi
 ## Clinical and Research Relevance
 
 NET dysfunction is implicated in depression, [[ADHD]], and orthostatic hypotension. NET polymorphisms alter antidepressant response and PFC catecholamine tone. The NET–COMT partnership is a key axis in understanding prefrontal cognition and its genetic modulation.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum|Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum]]
+    - In contrast, Dopamine Transporter are both less abundant and located farther from synaptic sites in Prefrontal Cortex (Prefrontal Cortex) neurons, where uptake by the Norepinephrine transporter (NET) and subsequent metabolism by COMT predominates.
+
 
 ## Connections
 

@@ -1,11 +1,10 @@
 ---
 title: tert-Butyl hydroperoxide
 description: tert-Butyl hydroperoxide is an organic peroxide and potent oxidant used in research to induce oxidative stress and cellular senescence.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: []
 ---
 
@@ -39,6 +38,14 @@ tert-Butyl hydroperoxide is a staple in several research areas:
 - **Models of Oxidative Stress**: Used to study the molecular mechanisms by which cells defend against and respond to oxidative insults.
 - **Senescence Research**: A common method to induce senescence in vitro to study the hallmarks of aging, including [[Replicative Senescence]] and the role of [[Senolytic Drugs]].
 - **Redox Signaling**: Used to investigate how transient increases in ROS act as signaling molecules in pathways like Nrf2 activation.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - lin‐dependent kinases]] (Palbociclib, Roscovitine, Ribociclib); (6) activators of p53 (Nutlin-3a, FL118); (7) activators of Protein Kinase C (TPA/PMA, PEP005, PEP008); and (8) ROS (ROS) inducers (Hydrogen Peroxide, tert-Butyl hydroperoxide, phenyl‐2‐pyridyl...
+
 
 ## Connections
 

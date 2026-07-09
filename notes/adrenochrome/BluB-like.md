@@ -2,11 +2,10 @@
 title: BluB-like
 description: BluB-like (5,6-dimethylbenzimidazole synthase-like) enzymes are a class
   of bacterial biocatalysts capable of degrading the stable crosslink Glucosepane.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Enzyme
+  - enzyme
 aliases: []
 ---
 # BluB-like

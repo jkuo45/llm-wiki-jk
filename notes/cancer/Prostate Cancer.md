@@ -1,11 +1,10 @@
 ---
 title: Prostate Cancer
 description: Prostate cancer is a malignant tumor arising from prostate epithelial cells, driven by androgen receptor signaling, and characterized by progression from androgen-dependent to castration-resistant states with metastatic potential.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: []
 ---
 
@@ -24,6 +23,29 @@ Prostate cancer is often asymptomatic early; presentation may include urinary ob
 ## Therapeutic Landscape
 
 Standard care includes active surveillance for low-risk disease, radical prostatectomy or radiation for localized disease, and androgen deprivation therapy (ADT) for advanced disease. CRPC is treated with next-generation anti-androgens such as [[Enzalutamide]], abiraterone, taxanes such as [[docetaxel]], and PARP inhibitors in DNA-repair-deficient tumors. Notably, [[Ivermectin]] has been explored preclinically to enhance endocrine therapy and overcome resistance—synergizing with [[Enzalutamide]] in LNCaP cells, reversing [[docetaxel]] resistance in PC3 cells, and inhibiting [[HSP27]] phosphorylation associated with resistance and poor prognosis.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - For example, Raffo _et al_ showed that the overexpression of Bcl-2 protected Prostate Cancer cells from apoptosis \[\] while Fulda _et al_ reported Bcl-2 overexpression led to inhibition of TRAIL-induced apoptosis in neuroblastoma, glioblastoma and Breast C...
+
+  - [[_document_ - Caspase|Caspase]]
+    - Akt | Ser196 (Human) | Suppression of activity | Prostate Cancer, Colon Cancer | | Bid | | CK1, CK2 | Thr58, Ser61, Ser64
+
+  - [[_document_ - Evading apoptosis in cancer|Evading apoptosis in cancer]]
+    - Bax is a protein with a short half-life \[, \] and the rapid degradation of Bax protein has been associated with poor clinical outcomes and high tumor grades in chronic lymphocytic leukemia and Prostate Cancer \[\].
+
+  - [[_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug|Ivermectin, a potential anticancer drug derived from an antiparasitic drug]]
+    - Prostate Cancer is a malignant tumor derived from prostate epithelial cells, and its morbidity is second only to that of Lung Cancer among men in Western countries \[\]. In Nappi's experiment, it was found that IVM could enhance the drug activity of
+
+  - [[_document_ - sirtuins (overview, CD38 KO risks, cancer therapies)|sirtuins (overview, CD38 KO risks, cancer therapies)]]
+    - frontiersin.org - Potential in Lung Cancer, glioblastoma, Prostate Cancer, etc., though less mature than in Multiple Myeloma.
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - Implications of FoxO1 in Prostate Cancer will be discussed below .
+
 
 ## Connections
 

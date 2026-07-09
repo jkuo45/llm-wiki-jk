@@ -1,11 +1,10 @@
 ---
 title: IKKε
 description: IKKε (IκB kinase epsilon) is a non-canonical IKK family kinase that phosphorylates XIAP to trigger its degradation, sensitizing virus-infected and malignant cells to Apoptosis.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Enzyme
+  - enzyme
 aliases: []
 ---
 
@@ -28,6 +27,14 @@ IKKε is normally expressed at low levels in resting tissues but is strongly ind
 ## Clinical & Research Relevance
 
 Because IKKε overexpression supports tumor growth and therapy resistance, it is under investigation as a therapeutic target. Selective IKKε/TBK1 inhibitors (e.g., amlexanox, BX795, nedisertib) have shown antitumor activity in IKKε-driven models and can synergize with agents that rely on apoptosis induction. The XIAP-degradation function suggests IKKε activation or mimicry could sensitize resistant tumors to death ligands and cytotoxic [[Chemotherapy]].
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - ovarian cancer | | XIAP | | TBK1, IKKε | Ser430 | Autoubiquitination/degradation | Colon Cancer | Connections - Ap
+
 
 ## Connections
 

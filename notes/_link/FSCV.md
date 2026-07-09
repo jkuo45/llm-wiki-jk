@@ -1,13 +1,12 @@
 ---
 title: FSCV
-description: 'Fast-scan cyclic voltammetry (FSCV) is an electrochemical technique
+description: Fast-scan cyclic voltammetry (FSCV) is an electrochemical technique
   used to detect rapid changes in Neurotransmitter concentration in real time, typically
-  in living brain tissue. It employs a c...'
-type: entity
+  in living brain tissue. It employs a c...
 created: 2026-07-04
 updated: 2026-07-06
 tags:
-  - Analytical Technique
+  - analytical-technique
 aliases: [Fast-Scan Cyclic Voltammetry]
 
 ---
@@ -26,6 +25,16 @@ FSCV measures sub-second [[Dopamine]] release in awake, behaving animals (rodent
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum|Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum]]
+    - Furthermore, we investigated the effects of increased COMT activity on components of the Dopamine system and, using Fast-scan Cyclic Voltammetry (FSCV), we have identified an increase in the capacity to release Dopamine in the Sirtuins, suggesting a novel m...
+
+
 ## Connections
 - [[Dopamine]] — primary analyte detected by FSCV in neuroscience
 - [[Neurotransmitter]] — FSCV detects electroactive neurotransmitters
@@ -39,4 +48,4 @@ FSCV measures sub-second [[Dopamine]] release in awake, behaving animals (rodent
 ## Linking Summary
 - New links added: [[Dopamine]], [[Serotonin]], [[Norepinephrine]], [[Adenosine]], [[Neurotransmitter]], [[Carbon-fiber Microelectrode]], [[Cyclic Voltammetry]], [[Microelectrode]], [[Reward System]], [[Addiction]], [[Cocaine]], [[Amphetamine]], [[Motivation]], [[Psychostimulants]]
 - Suggested new entity notes to create: [[Faradaic current]], [[Cyclic voltammogram]], [[Carbon-fiber electrode]], [[Background subtraction]], [[Electrochemical detection]], [[In vivo electrochemistry]]
-- Strong connections to strengthen: [[FSCV]] ↔ [[Dopamine]], [[FSCV]] ↔ [[Addiction]]
+  - Strong connections to strengthen: [[FSCV]] ↔ [[Dopamine]], [[FSCV]] ↔ Addiction

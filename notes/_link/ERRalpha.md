@@ -1,13 +1,12 @@
 ---
 title: ERRalpha
-description: 'ERRα (estrogen-related receptor alpha, encoded by ESRRA) is an orphan
+description: ERRα (estrogen-related receptor alpha, encoded by ESRRA) is an orphan
   Nuclear Receptor that functions as a master regulator of Mitochondrial Biogenesis,
-  Oxidative Phosphorylation, and Fatty aci...'
-type: entity
+  Oxidative Phosphorylation, and Fatty aci...
 created: 2026-07-04
 updated: 2026-07-06
 tags:
-  - Protein
+  - protein
 aliases: [Estrogen-Related Receptor Alpha, ESRRA, ERR1, NR3B1]
 
 ---
@@ -49,4 +48,4 @@ ERRα drives bioenergetic reprogramming in [[Breast Cancer]] (basal-like and [[T
 ## Linking Summary
 - New links added: [[Nuclear Receptor]], [[Estrogen Receptor]], [[Mitochondrial Biogenesis]], [[Oxidative Phosphorylation]], [[Fatty acid]], [[PGC1-α]], [[PPARγ Coactivator 1β]], [[NRF1]], [[NRF2]], [[TFAM]], [[Electron Transport Chain]], [[NDUFS1]], [[MCAD]], [[LCAD]], [[CPT1b]], [[PDK4]], [[TCA Cycle]], [[PINK1]], [[Mitophagy]], [[NRIP1]], [[Exercise]], [[Caloric Restriction]], [[Cold Exposure]], [[Breast Cancer]], [[Triple-negative]], [[Insulin Sensitivity]], [[Hepatic Gluconeogenesis]], [[Mitochondria]]
 - Suggested new entity notes to create: [[Orphan nuclear receptor]], [[NR3B subfamily]], [[ERRβ]], [[ERRγ]], [[PGC-1 coactivator family]]
-- Strong connections to strengthen: [[ERRalpha]] ↔ [[Mitochondrial Biogenesis]], [[ERRalpha]] ↔ [[PGC1-α]], [[ERRalpha]] ↔ [[Oxidative Phosphorylation]]
+  - Strong connections to strengthen: [[ERRalpha]] ↔ Mitochondrial Biogenesis, [[ERRalpha]] ↔ PGC1-α, [[ERRalpha]] ↔ Oxidative Phosphorylation

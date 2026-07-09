@@ -1,13 +1,12 @@
 ---
 title: HIV
-description: 'Etiology and pathophysiology: HIV is a medical condition characterized
+description: 'Etiology and pathophysiology: HIV is a medical condition characterized'
   by specific pathological changes in cellular, tissue, or organ function. Its development
-  involves genetic, environmental, ...'
-type: entity
+  involves genetic, environmental, ...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: [Human Immunodeficiency Virus]
 
 ---
@@ -24,10 +23,20 @@ aliases: [Human Immunodeficiency Virus]
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - For example, shortly after Macrophage exposure to HIV, TFEB is activated in a process that is dependent on TLR8. This leads to a transient increase in Autophagy that is critical for HIV replication (Campbell & Spector 2013).
+
+
 ## Connections
 - [[HIV]] — related entity
 
 ## Linking Summary
 - New links added: [[HIV]]
-- Strong connections to strengthen: [[HIV]] ↔ [[HIV]]
+  - Strong connections to strengthen: [[HIV]] ↔ [[HIV]]
 

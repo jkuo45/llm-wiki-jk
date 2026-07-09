@@ -1,13 +1,12 @@
 ---
 title: Fas
-description: 'Fas (also known as CD95, APO-1, or DR2) is a key death receptor
+description: Fas (also known as CD95, APO-1, or DR2) is a key death receptor
   belonging to the tumor necrosis factor receptor (TNFR) superfamily. It plays a central
-  role in the Extrinsic Pathway of Apoptosis.'
-type: entity
+  role in the Extrinsic Pathway of Apoptosis.
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - Enzyme
+  - enzyme
 aliases: []
 ---
 
@@ -21,6 +20,17 @@ Binding of the ligand [[FasL]] (Fas ligand) to the Fas receptor induces receptor
 ## Role in Cancer
 - **Downregulation**: Loss of Fas expression or mutations in the *FAS* gene are common mechanisms by which cancer cells (e.g., in [[leukemia]] and [[cervical cancer]]) evade immune-mediated apoptosis.
 - **Resistance**: Reduced membrane expression of Fas is linked to acquired drug resistance in many tumors.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - Although several death receptors have been described, the best known death receptors is the type 1 TNF receptor (TNFR1) and a related protein called Fas (CD95) and their ligands are called TNF and FasL respectively \[\].
+
+  - [[_document_ - Evading apoptosis in cancer|Evading apoptosis in cancer]]
+    - Fas or TNF ) by cell surface receptors (Figure 1). In the Intrinsic Pathway of Apoptosis, MOMP is involved; MOMP triggers the rele
+
 
 ## Connections
 - [[Extrinsic Pathway]]: A primary receptor for death-inducing signals.

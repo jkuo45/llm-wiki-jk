@@ -3,11 +3,10 @@ title: B Cell
 description: B cells are lymphocytes responsible for the production of antibodies
   in the Adaptive Immune Response, requiring Autophagy for long-term survival and
   memory formation.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Cell Type
+  - cell-type
 aliases: [B lymphocyte]
 ---
 
@@ -26,6 +25,20 @@ B cells employ [[Selective Autophagy]] including [[Mitophagy]] to remove depolar
 ## Physiological & Pathological Relevance
 
 Autophagy defects in B cells contribute to immunodeficiency, defective vaccine responses, and [[Aging]]-associated immune senescence ("immune aging"). Conversely, excessive or dysregulated autophagy can support survival of malignant B cells in [[Cancer]] (e.g., B-cell lymphomas, chronic lymphocytic leukemia) under hypoxia and chemotherapy pressure, making autophagy a candidate therapeutic target. B cell autophagy also modulates autoimmunity and inflammatory cytokine production, linking it to [[Oxidative Stress]] and tissue inflammation.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
+    - It is the result of Thymic Involution with reduced T Cell output and reduced B Cell production in the bone marrow, leading to a decrease in peripheral naïve adaptive immune cells.
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - found that TFEB-driven autophagy is induced in B Cell from old mice treated with Spermidine for 6 weeks \[\].
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - For example, in B Cell, the ZFP36L RNA binding protein binds to and subsequently decays target mRNAs that encode cell cycle promoting factors, including several Cyclin and Cyclin-Dependent Kinase (Galloway et al., 2016).
+
 
 ## Connections
 

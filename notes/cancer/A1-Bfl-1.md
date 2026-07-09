@@ -1,11 +1,10 @@
 ---
 title: A1/Bfl-1
-description: 'A1/Bfl-1 (Bcl-2-related protein A1), encoded by the BCL2A1 gene, is an anti-apoptotic member of the Bcl-2 family.'
-type: entity
+description: A1/Bfl-1 (Bcl-2-related protein A1), encoded by the BCL2A1 gene, is an anti-apoptotic member of the Bcl-2 family.
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Protein
+  - protein
 aliases: []
 ---
 
@@ -30,6 +29,17 @@ A1/Bfl-1 is expressed prominently in neutrophils, monocytes, and other leukocyte
 - **Therapy Resistance**: High A1/Bfl-1 expression is associated with resistance to [[Chemotherapy]], radiation, and [[BH3 mimetics]], especially in B-cell malignancies (e.g., chronic lymphocytic leukemia, diffuse large B-cell lymphoma) and in [[Melanoma]]. Because A1/Bfl-1 is only weakly inhibited by navitoclax ([[ABT-263]]) and not by venetoclax ([[ABT-199]]), it is a recognized mediator of "primed-but-resistant" tumors.
 - **Targeted Strategies**: Developing A1/Bfl-1-selective BH3 mimetics (e.g., A-1331852, S63845) is an active area of drug discovery. Combination of MCL-1/A1 inhibitors with BCL-2 or BCL-XL inhibitors can overcome redundancy in the pro-survival network.
 - **Biomarker Potential**: A1/Bfl-1 mRNA levels correlate with NFκB activity and may help stratify patients likely to respond to apoptosis-targeted agents.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - Bcl-2, Bcl-xL, Bcl-w, A1-Bfl-1 and Mcl-1) \[\]. While the anti-apoptotic proteins regulate apoptosis by blocking the mitochondrial release of cytochrome-c, the pro-apoptotic proteins act by promoting such release.
+
+  - [[_document_ - Evading apoptosis in cancer|Evading apoptosis in cancer]]
+    - nti-apoptotic Bcl-2 family proteins are determined with specific binding specificities \[, \]; for instance, Bim interacts with all six anti-apoptotic Bcl-2 family proteins as well as Bax and Bak \[\], whereas Noxa (Phorbol-12-myristate-13-acetate-induced p...
+
 
 ## Connections
 

@@ -1,13 +1,12 @@
 ---
 title: UV-Induced Photoaging
-description: 'UV-induced photoaging is the premature aging of skin caused by chronic
+description: UV-induced photoaging is the premature aging of skin caused by chronic
   exposure to ultraviolet (UV) radiation, primarily UVA (320–400 nm) and UVB (290–320
-  nm), driven largely by ROS-mediated me...'
-type: entity
+  nm), driven largely by ROS-mediated me...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Biological Process
+  - biological-process
 aliases: [Photoaging, Solar aging, Dermatoheliosis]
 
 ---

@@ -1,11 +1,10 @@
 ---
 title: Epigenetics and aging
-description: "Researchers review how random changes and our environment (for example, diet) determines our life span. Keywords: Epigenetics, aging, histones, chromatin"
-type: entity
+description: 'Researchers review how random changes and our environment (for example, diet) determines our life span. Keywords: Epigenetics, aging, histones, chromatin'
 created: 2026-05-13
 updated: 2026-07-06
 tags:
-  - Biological Process
+  - biological-process
   - epigenetics
 aliases: []
 ---
@@ -122,6 +121,14 @@ The reversible nature of epigenetic modifications makes them attractive targets 
 [[Spermidine]], a natural polyamine, promotes longevity by inducing [[Autophagy]], which is a process of cellular self-cleaning that declines with age ([^199]). Spermidine’s effects are linked to the depletion of nucleocytosolic [[Acetyl-CoA]], leading to the deacetylation of autophagy-related proteins ([^201]).
 
 Finally, [[Senolytics]] are an emerging class of drugs that selectively eliminate senescent cells, thereby reducing the burden of [[SASP]] and improving tissue function in aged or diseased models ([^207]). These interventions highlight the potential of targeting the epigenetic and metabolic drivers of aging to extend human health span.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Epigenetic changes during aging and their reprogramming potential|Epigenetic changes during aging and their reprogramming potential]]
+    - H3K4me3, HP1, Lamin A, macroH2A, DNA Methylation, Yamanaka Factors, Hutchinson-Gilford Progeria Syndrome, Werner Syndrome - Suggested new entity notes to create: Nucleosome, H3K4me3, HP1, Lamin A, macroH2A, Werner Syndrome - Strong connections to strengthen...
+
 
 ## Connections
 

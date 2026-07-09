@@ -1,11 +1,10 @@
 ---
 title: Assembloids
 description: Assembloids are 3D culture systems formed by fusing two or more organoids to model interactions between different tissues or cell types in vitro.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Scientific Concept
+  - scientific-concept
 aliases: [Fused organoids, Multi-organoid assembloids]
 ---
 

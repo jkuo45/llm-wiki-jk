@@ -3,11 +3,10 @@ title: MiT/TFE family
 description: The microphthalmia (MiT/TFE) family of transcription factors includes
   TFEB, TFE3, MITF, and TFEC, which regulate autophagy and lysosomal genes by binding
   to CLEAR Elements.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Gene
+  - gene
 aliases: [MiTF/TFE family of bHLH-LZ transcription factors]
 ---
 # MiT/TFE family

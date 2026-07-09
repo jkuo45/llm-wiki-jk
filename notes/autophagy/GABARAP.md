@@ -2,11 +2,10 @@
 title: GABARAP
 description: GABARAP is a member of the Atg8 protein family involved in the later
   stages of Autophagosome maturation and fusion with the Lysosome.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [GABA type A receptor-associated protein]
 ---
 # GABARAP
@@ -19,6 +18,14 @@ GABARAP belongs to the [[Atg8]] protein family along with [[LC3]] and [[GATE-16]
 ## Autophagy Role
 
 GABARAP mediates autophagosome-[[Lysosome]] fusion through interactions with [[LAMP1]] and [[PLEKHM1]]. It also recruits [[GABARAP]]-interacting proteins for selective autophagy cargo recognition.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - In yeast, Atg8 or Atg13 and Atg17 are essential for the kinase activity of Atg1 whereas in mammals, LC3, which is an ortholog of Atg8, can promote the activity of Atg1 along with GATE-16 and GABARAP \[\].
+
 
 ## Connections
 

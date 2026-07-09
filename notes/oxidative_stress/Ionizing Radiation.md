@@ -3,14 +3,13 @@ title: Ionizing Radiation
 description: Ionizing radiation is radiation, traveling as particles or electromagnetic
   waves, that carries sufficient energy to detach electrons from atoms or molecules,
   thereby ionizing them. This process lea...
-type: entity
 created: 2026-05-09
 updated: 2026-07-04
 tags:
-  - oxidative stress
-  - dna damage
+  - oxidative-stress
+  - dna-damage
   - radiotherapy
-  - Scientific Concept
+  - scientific-concept
 aliases: [IR, radiation]
 ---
 # Ionizing Radiation
@@ -37,6 +36,17 @@ Fractionated radiotherapy exploits differential DNA repair capacity between tumo
 - New links added: [[Hydroxyl Radicals]], [[DNA]], [[Proteins]], [[Lipids]], [[DNA Repair]], [[Mitochondria]], [[Superoxide Radicals]], [[TNF-alpha]], [[TGF-beta]], [[Nitric Oxide]], [[ATM]], [[p53]], [[AMPK]], [[Apoptosis]], [[Senescence]], [[SASP]], [[IL-1b]], [[N-Acetylcysteine]], [[Ascorbic Acid]], [[Vitamin E]]
 - Suggested new entity notes to create: [[Water radiolysis]], [[Mitochondrial oxidative amplification]], [[Bystander effect]], [[Amifostine]], [[ATM kinase]], [[CHK2]], [[Clustered DNA damage]], [[Non-homologous end joining]]
 - Strong connections to strengthen: [[Ionizing Radiation]] ↔ [[DNA Damage]], [[Ionizing Radiation]] ↔ [[Mitochondria]], [[Ionizing Radiation]] ↔ [[Hydroxyl Radicals]]
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - The same is basically true for Senescence induced by Cell Stress such as Ionizing Radiation (IR) and UV Radiation (UV Radiation) (Latonen et al., ; Suzuki et al., ).
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - Even nonenzymatic reactions can be responsible for free radical production, that is, when oxygen reacts with organic compounds or when cells are exposed to Ionizing Radiation.
+
 
 ## Connections
 

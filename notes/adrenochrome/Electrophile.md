@@ -1,11 +1,10 @@
 ---
 title: Electrophile
 description: Electrophile is a concept related to Adrenochrome and catecholamine metabolism.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Scientific Concept
+  - scientific-concept
 aliases: []
 ---
 # Electrophile
@@ -38,6 +37,14 @@ This pathway exhibits a **hormetic dose-response**: low-level electrophile expos
 - **[[Redox Cycling]]**: Electrophilic quinones and aminochromes perpetuate oxidative stress by undergoing one-electron reduction to semiquinone radicals, which reduce O₂ to [[Superoxide anion]].
 - **Detoxification**: Enzymes such as [[NQO1]] catalyze two-electron reduction of quinoid electrophiles, bypassing semiquinone formation and facilitating glucuronidation or sulfation.
 - **Therapeutic window**: The hormetic principle suggests that controlled electrophilic signaling — through compounds like [[Carbazochrome]] or [[Methylene blue]] — could be harnessed for preconditioning and cytoprotection, provided the dose is maintained within the adaptive window.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - intermediates, precursor, hemoglobin|intermediates, precursor, hemoglobin]]
+    - adrenaline-quinone: Through oxidation (often Autoxidation at physiological pH or via enzymatic activity), Epinephrine loses electrons to form the highly reactive, Electrophile intermediate, adrenaline-quinone.
+
 
 ## Connections
 

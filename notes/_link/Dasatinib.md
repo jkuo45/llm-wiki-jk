@@ -1,13 +1,12 @@
 ---
 title: Dasatinib
-description: 'Chemical properties: Dasatinib is a chemical substance with defined
+description: 'Chemical properties: Dasatinib is a chemical substance with defined'
   molecular structure, functional groups, and physicochemical properties that determine
-  its biological activity.'
-type: entity
+  its biological activity.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: [Sprycel, BMS-354825]
 
 ---
@@ -24,10 +23,20 @@ aliases: [Sprycel, BMS-354825]
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug|Ivermectin, a potential anticancer drug derived from an antiparasitic drug]]
+    - It was also confirmed that IVM inhibited tumor growth in a dose-dependent manner, and Dasatinib had improved efficacy. 2.5.
+
+
 ## Connections
 - [[Dasatinib]] — related entity
 
 ## Linking Summary
 - New links added: [[Dasatinib]]
-- Strong connections to strengthen: [[Dasatinib]] ↔ [[Dasatinib]]
+  - Strong connections to strengthen: [[Dasatinib]] ↔ [[Dasatinib]]
 

@@ -3,11 +3,10 @@ title: PPAR-alpha
 description: Peroxisome proliferator-activated receptor alpha, a nuclear receptor
   protein that functions as a transcription factor regulating the expression of genes
   involved in Metabolism.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Gene
+  - gene
 aliases: [PPARA]
 ---
 # PPAR-alpha
@@ -23,6 +22,17 @@ PPARα is a master regulator of lipid metabolism, controlling [[Beta-Oxidation]]
 ## Autophagy Connection
 
 PPARα activation promotes hepatic [[Lipophagy]] and [[Autophagic Flux]] during fasting or [[Ketogenic Diet]]. [[PGC1-α]] acts as a PPARα coactivator, linking mitochondrial biogenesis to autophagy regulation.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - nd lysosomal Lysosome, but also by increasing expression of key mediators of the lipid catabolism, including genes implicated in import of fatty acids, beta-oxidation of fatty acids in Mitochondria and peroxisomes, Lysosomal Acid Lipase, and the master regu...
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Notably, SIRT1 might act as a key metabolic/energy sensor, which directly regulates transcriptional activity and/or gene expression of several crucial transcription factors and transcription co-activators that are involved in lipid metabolic homeostasis to ...
+
 
 ## Connections
 

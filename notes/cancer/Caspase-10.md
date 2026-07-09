@@ -1,11 +1,10 @@
 ---
 title: Caspase-10
 description: Caspase-10 is an initiator caspase closely related to Caspase-8 that activates the extrinsic apoptotic pathway downstream of death receptors such as Fas, DR4, and DR5.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Enzyme
+  - enzyme
   - apoptosis
 aliases: []
 ---
@@ -29,6 +28,20 @@ Because death-receptor apoptosis is a key immune-surveillance mechanism that eli
 ## Clinical & Research Relevance
 
 Therapeutic TRAIL receptor agonists and DR4/DR5 antibodies aim to engage the caspase-10/caspase-8 axis in cancer cells, but resistance via DISC defects limits efficacy. Restoring caspase-10 expression or circumventing the extrinsic block with [[BH3 mimetics]] that unleash intrinsic apoptosis is an active strategy. Biomarker studies correlate *CASP10* methylation or mutation with poor response to death-receptor-targeted agents, informing patient selection.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - Caspase-2, Caspase-3, Caspase-6, Caspase-7,Caspase-8, Caspase-9 and Caspase-10). The second group can be further classified into 1) initiator caspases (e.g.
+
+  - [[_document_ - Caspase|Caspase]]
+    - They are broadly categorized into initiator caspases (e.g., Caspase-2, Caspase-8, Caspase-9, Caspase-10) and executioner caspases (e.g., Caspase-3, Caspase-6, Caspase-7). Table 1.
+
+  - [[_document_ - Evading apoptosis in cancer|Evading apoptosis in cancer]]
+    - In response to various apoptotic stimuli, “initiator” Caspases (Caspase-2, Caspase-8, Caspase-9, or Caspase-10) are activated. Initiator Caspases, in turn, cleave and activate the zymogenic forms of “executioner” Caspases (e.g.
+
 
 ## Connections
 

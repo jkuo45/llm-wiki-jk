@@ -1,13 +1,12 @@
 ---
 title: CUT&Tag
-description: 'CUT&Tag (Cleavage Under Targets and Tagmentation) is a method for
+description: CUT&Tag (Cleavage Under Targets and Tagmentation) is a method for
   genome-wide mapping of Histone Modifications, Transcription Factor binding, and
-  Chromatin-associated proteins using an antibody...'
-type: entity
+  Chromatin-associated proteins using an antibody...
 created: 2026-07-04
 updated: 2026-07-06
 tags:
-  - Analytical Technique
+  - analytical-technique
 aliases: [Cleavage Under Targets and Tagmentation, CUT&Tag]
 
 ---
@@ -46,4 +45,4 @@ CUT&Tag requires fewer cells (100–10,000) than [[ChIP-seq]], has lower backgro
 ## Linking Summary
 - New links added: [[Histone Modification]], [[Histone]], [[Chromatin]], [[Tn5 Transposase]], [[Antibody]], [[Protein A]], [[Epigenetic Mark]], [[ChIP-seq]], [[Epigenomics]], [[H3K27ac]], [[H3K4me3]], [[H3K27me3]], [[Transcription Factor]], Single-cell [[CUT&Tag]], [[Ca²⁺]]
 - Suggested new entity notes to create: [[pA-Tn5]], [[pAG-Tn5]], [[Tagmentation]], [[CUT&Tag]] vs [[ChIP-seq]], [[Ultra-low input epigenomics]]
-- Strong connections to strengthen: [[CUT&Tag]] ↔ [[Epigenomics]], [[CUT&Tag]] ↔ [[Histone Modification]]
+  - Strong connections to strengthen: [[CUT&Tag]] ↔ Epigenomics, [[CUT&Tag]] ↔ Histone Modification

@@ -3,11 +3,10 @@ title: Peroxisome Biogenesis Network
 description: The Peroxisome Biogenesis Network (PBN) is a dynamic, interconnected
   pool of precursor peroxisomes primarily residing in the cytosol and closely interacting
   with the endoplasmic reticulum (ER). The...
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Scientific Concept
+  - scientific-concept
 aliases: [PBN]
 ---
 # Peroxisome Biogenesis Network

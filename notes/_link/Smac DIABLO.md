@@ -1,13 +1,12 @@
 ---
 title: Smac DIABLO
-description: 'Smac/DIABLO (second mitochondria-derived activator of caspases)
+description: Smac/DIABLO (second mitochondria-derived activator of caspases)
   is a pro-apoptotic mitochondrial protein that promotes Caspase activation by neutralizing
-  Inhibitor of Apoptosis Proteins (IAPs)....'
-type: entity
+  Inhibitor of Apoptosis Proteins (IAPs)....
 created: 2026-07-04
 updated: 2026-07-06
 tags:
-  - Protein
+  - protein
 aliases: [DIABLO, Second Mitochondria-Derived Activator of Caspases]
 
 ---
@@ -26,6 +25,16 @@ Smac mimetics (e.g., [[LCL161]], [[Birinapant]], [[Debio 1143]]) are [[Small Mol
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - Other apoptotic factors that are released from the mitochondrial intermembrane space into the cytoplasm include AIF, Smac DIABLO, Smac DIABLO and Omi/HtrA2 \[\].
+
+
 ## Connections
 - [[Apoptosis]] — Smac promotes caspase activation by neutralizing IAPs
 - [[XIAP]] — Smac binds XIAP to relieve caspase inhibition
@@ -40,4 +49,4 @@ Smac mimetics (e.g., [[LCL161]], [[Birinapant]], [[Debio 1143]]) are [[Small Mol
 ## Linking Summary
 - New links added: [[Apoptosis]], [[Caspase-9]], [[Caspase-3]], [[Caspase-7]], [[XIAP]], [[cIAP1]], [[cIAP2]], [[Cytochrome c]], [[Mitochondria]], [[Mitochondrial Intermembrane Space]], [[Cytosol]], [[Omi-HtrA2]], [[Fas Ligand]], [[UV Radiation]], [[Chemotherapy]], [[TNFα]], [[TRAIL]], [[Cancer]], [[Chemoresistance]], [[Small Molecule]]
 - Suggested new entity notes to create: [[IAP-binding motif]], [[AVPI peptide]], [[BIR domain]], [[Smac mimetic]], [[LCL161]], [[Birinapant]], [[Debio 1143]]
-- Strong connections to strengthen: [[Smac-DIABLO]] ↔ [[Apoptosis]], [[Smac-DIABLO]] ↔ [[XIAP]], [[Smac-DIABLO]] ↔ [[Cancer]]
+  - Strong connections to strengthen: Smac-DIABLO ↔ [[Apoptosis]], Smac-DIABLO ↔ XIAP, Smac-DIABLO ↔ Cancer

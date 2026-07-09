@@ -1,13 +1,12 @@
 ---
 title: Nonalcoholic Steatohepatitis
-description: 'Etiology and pathophysiology: Nonalcoholic Steatohepatitis is a
+description: 'Etiology and pathophysiology: Nonalcoholic Steatohepatitis is a'
   medical condition characterized by specific pathological changes in cellular, tissue,
-  or organ function. Its development involves...'
-type: entity
+  or organ function. Its development involves...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: [NASH]
 
 ---
@@ -24,10 +23,20 @@ aliases: [NASH]
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - A deficient autophagic response can lead to the progression of several pathologies such as Nonalcoholic Steatohepatitis, viral diseases, and varied carcinomas \[\].
+
+
 ## Connections
 - [[Nonalcoholic Steatohepatitis]] — related entity
 
 ## Linking Summary
 - New links added: [[Nonalcoholic Steatohepatitis]]
-- Strong connections to strengthen: [[Nonalcoholic Steatohepatitis]] ↔ [[Nonalcoholic Steatohepatitis]]
+  - Strong connections to strengthen: Nonalcoholic Steatohepatitis ↔ Nonalcoholic Steatohepatitis
 

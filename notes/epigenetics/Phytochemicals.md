@@ -3,11 +3,10 @@ title: Phytochemicals
 description: A diverse chemical class of plant-derived bioactive secondary metabolites
   that can modulate epigenetic machinery, redox state, and signaling with effects on
   aging and cancer.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Chemical Class
+  - chemical-class
   - xenohormesis
 aliases: []
 ---
@@ -31,6 +30,14 @@ Beyond [[Antioxidant]] scavenging, phytochemicals induce phase-II detoxification
 ## Pathology & Research Relevance
 
 Epidemiological and preclinical evidence links phytochemical-rich diets to reduced [[Cancer]] incidence and improved cardiovascular and cognitive aging, though human interventional data are mixed and dose-dependent. In research, phytochemicals calibrate cellular models, sensitize tumors to chemotherapy, and inform the design of synthetic epigenetic drugs. Their [[Tumorigenicity]]-suppressing properties are studied in chemoprevention, while their impact on [[Induced Pluripotent Stem Cells]] and reprogramming efficiency is an emerging topic.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - xenohormesis, mitohormesis|xenohormesis, mitohormesis]]
+    - I'm noting the early warning function of these Phytochemicals and how that triggers cellular defense mechanisms. I'm highlighting the metabolic pathways activated, like Sirtuins and AMPK, along with the link to Caloric Restriction.
+
 
 ## Connections
 

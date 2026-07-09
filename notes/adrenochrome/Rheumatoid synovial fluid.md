@@ -1,11 +1,10 @@
 ---
 title: Rheumatoid synovial fluid
 description: The inflammatory exudate found in the joint cavities of individuals with rheumatoid arthritis, characterized by altered volume, cellularity, and biochemical composition.
-type: entity
 created: 2026-07-04
 updated: 2026-07-06
 tags:
-  - Anatomy
+  - anatomy
 aliases: []
 ---
 
@@ -59,6 +58,14 @@ Upregulated cyclooxygenase-2 (COX-2) produces prostaglandins (notably PGE₂) th
 The inflamed RA joint provides an ideal biochemical niche for adrenochrome formation. [[Epinephrine]], released locally from sympathetic nerve endings and potentially from infiltrating immune cells, is present in synovial fluid at elevated concentrations during active [[Inflammation]]. In the presence of transition metal ions (Fe²⁺, Cu²⁺) — abundant in the inflamed joint due to microbleeding and cell lysis — epinephrine undergoes metal-catalyzed [[Oxidation]] to form [[Adrenochrome]].
 
 Adrenochrome formation may contribute to a vicious cycle of oxidative stress within the joint: adrenochrome itself participates in [[Redox Cycling]], reducing to a semiquinone radical that reacts with molecular oxygen to regenerate the parent quinone while producing superoxide anion. This amplifies the existing oxidative burden, potentially modifying synovial proteins, depleting [[Glutathione]], and exacerbating tissue damage. Adrenochrome has been detected and studied in RA synovial fluid as a candidate biomarker of oxidative stress, with some reports suggesting that its concentration correlates with disease activity and joint destruction. The adrenochrome pathway thus represents an intersection of catecholamine biology, metal-catalyzed oxidation, and inflammatory tissue injury in RA.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - neutrophil and erthrocyte|neutrophil and erthrocyte]]
+    - en.wikipedia.org - Other tissues: It can form wherever Epinephrine or Norepinephrine is present and oxidized (e.g., Sympathetic nerve endings, Endothelial cells, or inflamed tissues like Rheumatoid synovial fluid).
+
 
 ## Connections
 

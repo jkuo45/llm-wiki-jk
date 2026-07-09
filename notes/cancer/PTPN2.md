@@ -1,11 +1,10 @@
 ---
 title: PTPN2
 description: PTPN2 (TC-PTP) is a non-receptor protein tyrosine phosphatase that negatively regulates cytokine and growth factor signaling (JAK2/STAT3, ERK) and dephosphorylates the pro-apoptotic protein Bak, linking it to cancer and immune evasion.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Protein
+  - protein
 aliases: []
 ---
 
@@ -24,6 +23,14 @@ Physiologically, PTPN2 maintains Signaling homeostasis in hematopoietic and epit
 ## Clinical & Research Relevance
 
 PTPN2 is a candidate biomarker of immune-cold tumors and a therapeutic target. Pharmacologic PTPN2 inhibition (e.g., with MSI-1436/lictrestivint) is being explored to enhance checkpoint-blockade efficacy by unleashing T-cell and tumor-intrinsic death signaling. Its regulation of [[Bak]] and [[Apoptosis]] further positions PTPN2 as a node connecting death signaling to immune surveillance.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - Required during anoikis | | Bak | | Unidentified (PTPN2, PTPN5, PTPN23) | Tyr108 | Inactivation | Fibrosarcoma, Colon Cancer | | B
+
 
 ## Connections
 

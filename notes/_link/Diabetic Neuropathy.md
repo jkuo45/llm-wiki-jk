@@ -1,13 +1,12 @@
 ---
 title: Diabetic Neuropathy
-description: 'Etiology and pathophysiology: Diabetic Neuropathy is a medical condition
+description: 'Etiology and pathophysiology: Diabetic Neuropathy is a medical condition'
   characterized by specific pathological changes in cellular, tissue, or organ function.
-  Its development involves genetic,...'
-type: entity
+  Its development involves genetic,...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: []
 ---
 
@@ -28,5 +27,5 @@ aliases: []
 
 ## Linking Summary
 - New links added: [[Diabetic Neuropathy]]
-- Strong connections to strengthen: [[Diabetic Neuropathy]] ↔ [[Diabetic Neuropathy]]
+  - Strong connections to strengthen: Diabetic Neuropathy ↔ Diabetic Neuropathy
 

@@ -1,11 +1,10 @@
 ---
 title: HIV-1
 description: Human immunodeficiency virus type 1 (HIV-1) is the most common and pathogenic strain of HIV, responsible for the global AIDS pandemic. It is a lentivirus that progressively destroys CD4+ T cells, leading to acquired immunodeficiency syndrome (AIDS).
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - Microorganism
+  - organism
 aliases: [Human Immunodeficiency Virus Type 1, HIV-1 Group M]
 ---
 
@@ -66,6 +65,17 @@ Fixed-dose single-tablet regimens (e.g., Biktarvy [BIC/FTC/TAF], Triumeq [DTG/AB
 - **PrEP** (pre-exposure prophylaxis): daily oral [[Tenofovir]]/emtricitabine (Truvada or Descovy) or long-acting injectable cabotegravir.
 - **PEP** (post-exposure prophylaxis): 28-day course of three-drug ART initiated within 72 hours of potential exposure.
 - Barrier protection (condoms), needle exchange programs, voluntary medical male circumcision, and prevention of mother-to-child transmission (PMTCT) through universal ART during pregnancy and breastfeeding.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology|Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology]]
+    - Similarly, grafting a larger positively charged TAT sequence (transactivator of transcription, derived from HIV-1) in the C-terminus of melittin also restored the activity of DEDE-melittin (peptide TAT-melittin; Supplementary Fig. 3).
+
+  - [[_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug|Ivermectin, a potential anticancer drug derived from an antiparasitic drug]]
+    - IVM can inhibit the replication of flavivirus by targeting the NS3 helicase \[\]; it also blocks the nuclear transport of viral proteins by acting on α/β-mediated nuclear transport and exerts antiviral activity against the HIV-1 and dengue viruses \[\].
+
 
 ## Connections
 

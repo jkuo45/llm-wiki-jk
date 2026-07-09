@@ -1,20 +1,18 @@
 ---
 title: Tumour Microenvironment
 description: The complex ecosystem surrounding a tumor, comprising various cell types, signaling molecules, and the extracellular matrix, which plays a critical role in tumor growth, progression, and therapeutic resistance.
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:
   - cancer
   - microenvironment
-  - tumor biology
+  - tumor-biology
   - immunology
-  - Scientific Concept
+  - scientific-concept
 source: https://en.wikipedia.org/wiki/Tumor_microenvironment
 aliases:
   - TME
   - Tumor Microenvironment
-entity_type_2: Anatomical Structure
 ---
 
 # Tumour Microenvironment
@@ -50,6 +48,14 @@ Targeting the TME is a major focus of modern [[Oncology]]:
 - **Immunotherapy**: Checkpoint inhibitors (e.g., anti-[[PD-1]], anti-[[CTLA-4]]) work by "releasing the brakes" on the immune system, allowing it to attack cancer cells within the TME.
 - **Anti-angiogenic Therapy**: Drugs that inhibit [[VEGF]] or its receptor can starve the tumor of its blood supply.
 - **Stromal Targeting**: Strategies are being developed to target CAFs or reprogram them to a less supportive phenotype.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Oral Fenbendazole for Cancer Therapy in Humans and Animals|Oral Fenbendazole for Cancer Therapy in Humans and Animals]]
+    - Neil+Wilson+Xin+Tantawy+Merryman+Johnson+Williams+Mason+Mason+Beckermann+VanderHeiden+Manning+Rathmell+Rathmell-programmed+nutrient+partitioning+in+the+tumour microenvironment
+
 
 ## Connections
 

@@ -1,13 +1,12 @@
 ---
 title: Aminochromes
-description: 'Aminochromes are a class of deep-colored, cyclic indole-quinone
+description: Aminochromes are a class of deep-colored, cyclic indole-quinone
   compounds formed by the Oxidation of Catecholamines. They are key intermediates
-  in the formation of melanins and are associated w...'
-type: entity
+  in the formation of melanins and are associated w...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Chemical Class
+  - chemical-class
 aliases: [Aminochromes]
 
 ---
@@ -30,6 +29,16 @@ The formation of aminochromes is often a sign of excessive catecholamine oxidati
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - neutrophil and erthrocyte|neutrophil and erthrocyte]]
+    - pubs.acs.org - Brain (Neuromelanin pathway): Adrenochrome (or related Aminochromes) can form as an intermediate in Neuromelanin synthesis, particularly in Dopaminergic Neurons (e.g., in the Substantia Nigra).
+
+
 ## Connections
 - [[Catecholamines]] ↔ The parent molecules from which aminochromes are derived.
 - [[Adrenochrome]] ↔ A prominent member of the aminochrome family.
@@ -39,4 +48,4 @@ The formation of aminochromes is often a sign of excessive catecholamine oxidati
 
 ## Linking Summary
 - New links added: [[Aminochromes]], [[Oxidation]], [[Catecholamines]], [[Adrenochrome]], [[Epinephrine]], [[Dopaminochrome]], [[Dopamine]], [[Neuromelanin]], [[Redox Cycling]], [[Superoxide anion]], [[Oxidative Stress]], [[Cardiotoxicity]]
-- Strong connections to strengthen: [[Aminochromes]] ↔ [[Catecholamines]], [[Aminochromes]] ↔ [[Neuromelanin]]
+  - Strong connections to strengthen: [[Aminochromes]] ↔ [[Catecholamines]], [[Aminochromes]] ↔ Neuromelanin

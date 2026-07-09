@@ -3,11 +3,10 @@ title: Cellular Reprogramming
 description: Cellular reprogramming resets a somatic cell's identity by extensive epigenetic
   remodeling, most famously generating iPSCs via Yamanaka Factors; partial reprogramming
   enables rejuvenation.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Biological Process
+  - biological-process
 aliases: []
 ---
 
@@ -26,6 +25,17 @@ Beyond transcription-factor delivery (retroviral, sendai viral, episomal, mRNA, 
 ## Applications
 
 Reprogramming underpins [[Regenerative Medicine]], [[Disease Modeling]] (patient-specific iPSC lines carrying disease alleles), drug screening, and developmental studies. [[Partial Reprogramming]]—transient, incomplete reset—has emerged as a [[Rejuvenation]] strategy: it restores youthful transcriptomic and epigenetic profiles in aged cells and tissues (e.g., in vivo OSKM expression in mice) without teratoma risk from full dedifferentiation.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic|Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic]]
+    - oJC) 3, Luis Gustavo Celis 3, transcription factors Oct4, Sox2, Klf4, and c-Myc enable the Cellular Reprogramming of Somatic Cells into Induced Pluripotent Stem Cells.
+
+  - [[_document_ - Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network|Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network]]
+    - Experiments confirmed that upon viral transduction, the immediate response is Innate Immunity, which induces Reactive Oxygen Species, oxidative DNA Damage, p53 activation, Senescence, and Apoptosis, ultimately leading to a reduction in the Cellular Reprogra...
+
 
 ## Connections
 

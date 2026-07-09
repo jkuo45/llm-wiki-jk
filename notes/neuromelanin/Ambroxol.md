@@ -1,11 +1,10 @@
 ---
 title: Ambroxol
-description: 'Ambroxol is a drug used to treat respiratory diseases involving excessive mucus; it is also a glucocerebrosidase chaperone investigated in Parkinson''s Disease.'
-type: entity
+description: Ambroxol is a drug used to treat respiratory diseases involving excessive mucus; it is also a glucocerebrosidase chaperone investigated in Parkinson''s Disease.
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: []
 ---
 
@@ -28,6 +27,14 @@ Ambroxol crosses the blood–brain barrier and reaches CNS concentrations releva
 ## Pathology & Clinical Relevance
 
 Ambroxol exemplifies precision-repurposing: a safe, off-patent compound targeting a defined lysosomal defect upstream of α-synuclein pathology. Its study also illuminates the convergence of [[Lysosomal Dysfunction]], [[Autophagy]], and [[Neuromelanin]] neuron vulnerability, and it is frequently paired with GBA1 genotyping in trial stratification.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease|Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease]]
+    - MTHerrero-511&doi=\(93\)90349-k&)\] Linking Summary: - New links added: Konstantin Nikolaevich Tretiakoff, Pale Bodies, Immunoglobulin G, Major histocompatibility complex class I, Lipofuscin, Eumelanin, Pheomelanin, L-Tyrosine, TFEB, Ambroxol, p62, Ubiquiti...
+
 
 ## Connections
 

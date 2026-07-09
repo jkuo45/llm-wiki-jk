@@ -1,12 +1,11 @@
 ---
 title: Glyoxalase I
-description: 'Catalytic function: Glyoxalase I is an enzyme that catalyzes biochemical
-  reactions essential for cellular metabolism and homeostasis.'
-type: entity
+description: 'Catalytic function: Glyoxalase I is an enzyme that catalyzes biochemical'
+  reactions essential for cellular metabolism and homeostasis.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Enzyme
+  - enzyme
 aliases: [GLO1]
 
 ---
@@ -28,5 +27,5 @@ aliases: [GLO1]
 
 ## Linking Summary
 - New links added: [[Glyoxalase I]]
-- Strong connections to strengthen: [[Glyoxalase I]] ↔ [[Glyoxalase I]]
+  - Strong connections to strengthen: Glyoxalase I ↔ Glyoxalase I
 

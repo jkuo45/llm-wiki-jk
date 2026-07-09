@@ -3,11 +3,10 @@ title: GCN5
 description: General control non-repressed protein 5 (GCN5) is an acetyltransferase
   that inhibits TFEB activity by acetylating it at K274 and K279, interfering with
   its dimerization and DNA binding.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Enzyme
+  - enzyme
 aliases: [KAT2A, general control non-repressed protein 5]
 ---
 
@@ -26,6 +25,17 @@ GCN5 acetylates histone H3 at K9, K14, and K18 to open chromatin at metabolic an
 ## Physiological & Pathological Relevance
 
 Because GCN5 restrains TFEB-driven lysosomal and autophagic capacity, its dysregulation is implicated in metabolic disease, [[Aging]] (where acetylation-mediated autophagic decline contributes to senescence), and [[Cancer]], where transcriptional acetylases can either promote or suppress tumor progression depending on context. Small-molecule GCN5/PCAF inhibitors (e.g., CPTH2, MB-3) are researched tools for reactivating TFEB::SIRT1-balanced programs and enhancing [[Autophagy]] as a cytoprotective, anti-aging, and anti-neoplastic strategy. GCN5 thus represents a druggable acetyltransferase node linking nutrient signaling, mitochondrial turnover, and lysosomal homeostasis.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - At present, two enzymes have been found that can acetylate TFEB, including GCN5 \[\] and ACAT1 \[, \], and two enzymes have been found that can deacetylate TFEB, including SIRT1 \[, \] and HDACs \[\].
+
+  - [[_document_ - Kinase|Kinase]]
+    - ptional activity | 27209302 | | K91, K103 and K430 | Acetylation | ACAT1 | Promoting nuclear translocation and binding to DNA | 30059277 | | K274 and K279 | Acetylation | GCN5 | Hindering TFEB binding to the DNA | 31750630 | | – | Ubiquitination | STU
+
 
 ## Connections
 

@@ -1,11 +1,10 @@
 ---
 title: Organoids
 description: Self-organizing three-dimensional culture systems derived from stem cells that recapitulate the architecture and function of native organs.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Scientific Concept
+  - scientific-concept
 aliases: []
 ---
 

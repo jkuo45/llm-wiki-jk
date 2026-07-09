@@ -1,11 +1,10 @@
 ---
-title: 'NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside
-  (NR): Potential Dietary Contribution to Health'
+title: NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside
+  (NR): Potential Dietary Contribution to Health
 description: NAD+ is a vital molecule that takes part as a redox cofactor in several
   metabolic reactions besides being used as a substrate in important cellular signaling
   in regulation pathways for energetic, genotoxic, and infectious stress. In stress
   ...
-type: document
 created: 2026-06-19
 source: https://pmc.ncbi.nlm.nih.gov/articles/PMC10240123/
 author:

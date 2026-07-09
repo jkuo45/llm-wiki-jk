@@ -1,12 +1,11 @@
 ---
 title: DR4
-description: 'DR4 (Death Receptor 4), also known as TRAIL-R1 or TNFRSF10A, is
-  a cell surface receptor that triggers Apoptosis upon binding its ligand, TRAIL.'
-type: entity
+description: DR4 (Death Receptor 4), also known as TRAIL-R1 or TNFRSF10A, is
+  a cell surface receptor that triggers Apoptosis upon binding its ligand, TRAIL.
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - Enzyme
+  - enzyme
 aliases: []
 ---
 
@@ -20,6 +19,14 @@ Binding of [[TRAIL]] to DR4 induces receptor trimerization and the recruitment o
 ## Role in Cancer
 - **Therapeutic Target**: Agonistic antibodies targeting DR4 are being developed to selectively induce apoptosis in cancer cells.
 - **Selectivity**: DR4 is often highly expressed on tumor cells compared to normal cells, making it an attractive target for therapy.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - Other than TNFR1 (also known as DR 1) and Fas (also known as DR2, CD95 or APO-1) mentioned in Section 2.3, examples of death receptors include DR3 (or APO-3), DR4 \[or TNF-related apoptosis inducing ligand receptor 1 (TRAIL-1) or APO-2\], DR5 (or TRAIL-2), ...
+
 
 ## Connections
 - [[Extrinsic Pathway]]: One of the primary receptors initiating this pathway.

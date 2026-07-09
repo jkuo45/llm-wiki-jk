@@ -1,16 +1,13 @@
 ---
 title: mTORC1
-description: 'mTORC1 (mechanistic target of rapamycin complex 1) is a multi-protein
+description: mTORC1 (mechanistic target of rapamycin complex 1) is a multi-protein
   signaling complex that integrates nutrient, energy, and growth factor signals to
-  coordinate Cell Growth, Protein Synthesis,...'
-type: entity
+  coordinate Cell Growth, Protein Synthesis,...
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Protein
+  - protein
 aliases: [mechanistic target of rapamycin complex 1, mTOR Complex 1, mTORC1]
-database_ids:
-  mesh: D058505
 
 ---
 
@@ -109,7 +106,58 @@ mTORC1 hyperactivation is a conserved driver of [[Aging]]. Genetic or pharmacolo
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
+    - The core process of autophagy is instigated by inhibition of mTORC1 and/or activation of AMPK (AMPK), both of which are canonical inducers of autophagy in response to metabolic stress.
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - The mechanistic target of rapamycin complex 1 (mTORC1), an atypical serine/threonine kinase, controls the balance between anabolism and catabolism and responds to various signals, including nutrients \[\].
+
+  - [[_document_ - Kinase|Kinase]]
+    - M on TFEB | References (PMID) | | ----------------------------------- | ----------------- | --------------- | -------------------------------------------------------------------------------------------- | ----------------- | | S211 | Phosphorylation | mTORC...
+
+  - [[_document_ - Lysosome biogenesis Regulation and functions|Lysosome biogenesis Regulation and functions]]
+    - mTORC1 is recruited to lysosomes by a heterodimeric complex consisting of GTP-bound RagA/B and GDP-bound RagC/D, where it is activated by the Rheb GTPase (Angarola and Ferguson, 2019; Kim et al., 2008; Menon et al., 2014; Sancak et al., 2010; Sancak et al.,...
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - Lysosome are also the site of activation of mTORC1, an evolutionary conserved serine/threonine kinase that regulates cell growth and division in response to energy levels, growth signals, and nutrients.
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - In such conditions, the AMPK activity inhibits mTORC1 and protein synthesis to minimize ATP consumption by controlling Anabolic and Catabolic processes \[\].
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - mTOR nucleates at least two distinct multi-protein complexes, mTORC1 and mTORC2 (mTORC2) (reviewed by Guertin and Sabatini, 2007). mTORC1 mTORC1 has five components: mTOR, which is the catalytic subunit of the
+
+  - [[_document_ - Evading apoptosis in cancer|Evading apoptosis in cancer]]
+    - In this regard, it was also shown that _Mcl-1_ mRNA translation could be facilitated by mTORC1 (mammalian target of rapamycin complex 1), a downstream target of PI3K/Akt signaling, in a mouse lymphoma model (Figure 2) \[\].
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - In addition, cell proliferation due to repression of SIRT4 by the mTORC1 pathway has been identified.
+
+
+  - [[_document_ - Rapamycin for longevity opinion article|Rapamycin for longevity: opinion article]]
+    - Notes rapamycin strongly inhibits mTORC1 at any age, driving autophagy and life extension.
+  - [[_document_ - Rapamycin for longevity the pros, the cons, and future perspectives|Rapamycin for longevity: pros, cons & future perspectives]]
+    - Describes mTORC1 as the master kinase inhibited by rapamycin, with phospho-S6 as biomarker.
+
+  - [[_document_ - The Mechanistic Target of Rapamycin (mTOR) Pathway as a Target of Anti-aging Therapies The Role of Rapamycin and Its Analogs in the Regulation of Cellular Processes and Their Impact on Longevity|mTOR Pathway as Target of Anti-aging Therapies (Zerdka et al., 2025)]]
+    - Details mTORC1 inhibition of ULK1 (autophagy), translation/proteostasis, and immune modulation by rapamycin.
+
+  - [[_document_ - biochemical_basis_hormesis_2026.04.20.719646v1.full|The Biochemical Basis of Hormesis]]
+    - Identifies mTORC1 as the *Target* of the [[Incoherent Bivalent Motif]] whose two branches (to [[mTORC2]] via [[PI3K]], and to [[IRS1]] via [[S6K1/2]]) generate rapamycin's [[Biphasic Dose-Response Curve]]; the mTORC1→S6K1/2 link operates in the [[Saturated Enzymatic Regime]].
+
 ## Connections
+- [[Incoherent Bivalent Motif]] — mTORC1 is the central Target node of the rapamycin hormesis motif
+- [[Biphasic Dose-Response Curve]] — rapamycin's non-monotonic efficacy (peak ~1 nM)
+- [[Saturated Enzymatic Regime]] — low-K mTORC1→S6K1/2 backward link amplifies hormesis
+- [[mTORC2]] — Output readout of the mTORC1-centered incoherent bivalent loop
+- [[S6K1/2]] — mediates the saturated backward link (mTORC1→IRS1)
+- [[IRS1]] — node controlled by the backward link
 - [[mTOR]] — catalytic core of mTORC1; directly inhibited by rapamycin-FKBP12
 - [[mTORC2]] — the second mTOR complex; insensitive to acute rapamycin, regulates Akt and cytoskeletal dynamics
 - [[Raptor]] — mTORC1-specific scaffold; required for substrate recruitment
@@ -126,6 +174,6 @@ mTORC1 hyperactivation is a conserved driver of [[Aging]]. Genetic or pharmacolo
 - [[Tuberous Sclerosis]] — monogenic mTORC1 hyperactivation syndrome
 
 ## Linking Summary
-- New links added: [[mTOR]], [[Raptor]], [[mLST8]], [[PRAS40]], [[Deptor]], [[Cell Growth]], [[Protein Synthesis]], [[Lipid Synthesis]], [[Ribosome Biogenesis]], [[Autophagy]], [[Rheb]], [[Rag proteins]], [[AMPK]], [[TSC1]], [[TSC2]], [[S6K1]], [[4E-BP1]], [[TFEB]], [[ULK1]], [[HIF-1α]], [[SREBP-1c]], [[PGC1-α]], [[Cancer]], [[Tuberous Sclerosis Complex]], [[Rapamycin]], [[Everolimus]], [[Caloric Restriction]], [[Aging]], [[Insulin Resistance]], [[Leucine]], [[Ragulator]], [[GATOR1]], [[REDD1]], [[BNIP3]], [[Lipin-1]], [[ATF4]], [[PIK3CA]], [[PTEN]], [[STK11]], [[LKB1]], [[IRS1]], [[T Cell]], [[Immunosuppressants]]
+- New links added: [[mTOR]], [[Raptor]], [[mLST8]], [[PRAS40]], [[Deptor]], [[Cell Growth]], [[Protein Synthesis]], [[Lipid Synthesis]], [[Ribosome Biogenesis]], [[Autophagy]], [[Rheb]], [[Rag proteins]], [[AMPK]], [[TSC1]], [[TSC2]], [[S6K1]], [[4E-BP1]], [[TFEB]], [[ULK1]], [[HIF-1α]], [[SREBP-1c]], [[PGC1-α]], [[Cancer]], [[Tuberous Sclerosis Complex]], [[Rapamycin]], [[Everolimus]], [[Caloric Restriction]], [[Aging]], [[Insulin Resistance]], [[Leucine]], [[Ragulator]], [[GATOR1]], [[REDD1]], [[BNIP3]], [[Lipin-1]], [[ATF4]], [[PIK3CA]], [[PTEN]], [[STK11]], [[LKB1]], [[IRS1]], [[T Cell]], [[Immunosuppressants]], [[Incoherent Bivalent Motif]], [[Biphasic Dose-Response Curve]], [[Saturated Enzymatic Regime]], [[mTORC2]], [[S6K1/2]], [[PI3K]], [[Akt]], [[FKBP12]]
 - Suggested new entity notes to create: [[TOR signaling]], [[Rag GTPase]], [[Akt]], [[PI3K]], [[FKBP12]], [[Rapalogs]], [[Geroprotectors]]
-- Strong connections to strengthen: [[mTORC1]] ↔ [[mTORC2]], [[mTORC1]] ↔ [[Autophagy]], [[mTORC1]] ↔ [[TSC2]], [[mTORC1]] ↔ [[Aging]], [[mTORC1]] ↔ [[Rapamycin]]
+  - Strong connections to strengthen: [[mTORC1]] ↔ mTORC2, [[mTORC1]] ↔ Autophagy, [[mTORC1]] ↔ TSC2, [[mTORC1]] ↔ [[Aging]], [[mTORC1]] ↔ [[Rapamycin]]

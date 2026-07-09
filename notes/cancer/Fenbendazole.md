@@ -1,11 +1,10 @@
 ---
 title: Fenbendazole
 description: 'Fenbendazole exhibits multiple anticancer activities:'
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - Enzyme
+  - enzyme
 aliases: []
 ---
 # Fenbendazole
@@ -30,6 +29,14 @@ Studies have explored its efficacy in several cancer types:
 
 ## Pharmacokinetics and Safety
 In animals, Fenbendazole is metabolized in the liver by enzymes such as [[CYP2J2]] and [[CYP2C19]] into active metabolites like [[Oxfendazole]]. While widely used in veterinary medicine with a high safety profile, its use in humans is not yet FDA-approved for cancer, and concerns regarding [[liver injury]] have been noted in self-administration cases.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Oral Fenbendazole for Cancer Therapy in Humans and Animals|Oral Fenbendazole for Cancer Therapy in Humans and Animals]]
+    - Mentioned in this document
+
 
 ## Connections
 - **Related Drugs:** [[Albendazole]], [[Mebendazole]], [[Oxfendazole]]

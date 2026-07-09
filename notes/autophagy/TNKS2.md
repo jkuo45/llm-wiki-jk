@@ -1,11 +1,10 @@
 ---
 title: TNKS2
 description: Tankyrase 2 (TNKS2/PARP5B) is a poly(ADP-ribose) polymerase that PARsylates target proteins including TFEB, regulating their stability and function; it shares redundant roles with TNKS1 in telomere and Wnt signaling.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Enzyme
+  - enzyme
 aliases:
   - tankyrase 2
   - PARP5B
@@ -26,6 +25,14 @@ PARsylation of TFEB by TNKS2 promotes its destabilization and restricts its tran
 ## Physiological & Pathological Relevance
 
 Beyond autophagy, tankyrases regulate telomere length (via TRF1 PARsylation), Wnt/β-catenin signaling (via axin), and mitotic spindle function; their dysregulation is implicated in [[Cancer]] and metabolic disease. Targeting TNKS2/TNKS1 to stabilize TFEB is being explored to restore autophagic clearance in aging and proteinopathies, though cross-talk with Wnt pathways requires careful therapeutic indexing.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - Tankyrases are a group of PARPs with two isoforms: TNKS1 and TNKS2. Kim et al.
+
 
 ## Connections
 

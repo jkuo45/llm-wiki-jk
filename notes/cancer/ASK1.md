@@ -1,14 +1,13 @@
 ---
 title: ASK1
 description: Apoptosis signal-regulating kinase 1 (ASK1), also known as MAP3K5, is a ~155 kDa serine-threonine MAP kinase kinase kinase that activates the JNK and p38 MAPK pathways in response to cellular stresses including ROS, TNF-α, LPS, ER stress, and calcium overload.
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - MAPK signaling
-  - stress response
+  - mapk-signaling
+  - stress-response
   - kinase
-  - Enzyme
+  - enzyme
 aliases:
   - MAP3K5
   - Apoptosis signal-regulating kinase 1
@@ -48,6 +47,14 @@ ASK1 dysregulation is implicated in a broad spectrum of human diseases.
 **Metabolic and liver disease**: In hepatocytes, [[FGF21]] signals through ASK1 to promote hepatic steatosis and fibrosis. ASK1–p38 signaling downstream of metabolic stress contributes to [[Nonalcoholic Steatohepatitis|NASH]] and insulin resistance, making ASK1 a therapeutic target in metabolic dysfunction.
 
 **Ischemia–reperfusion injury**: In cardiac and cerebral ischemia, ROS produced during reperfusion trigger ASK1 activation, leading to cardiomyocyte and neuronal apoptosis. ASK1-deficient mice show reduced infarct size and improved functional recovery.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - IL-3 control | | Bcl-2 | | ASK1, JNK1 | Thr69, Ser70, Ser87 | Inactivation | | | Bcl-2 |
+
 
 ## Connections
 

@@ -1,13 +1,12 @@
 ---
 title: SMAD4
-description: 'Overview: SMAD4 is a cellular protein with structural, signaling,
+description: 'Overview: SMAD4 is a cellular protein with structural, signaling,'
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
-  and signaling networks that govern cel...'
-type: entity
+  and signaling networks that govern cel...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [Mothers Against Decapentaplegic Homolog 4, DPC4]
 
 ---
@@ -24,10 +23,20 @@ aliases: [Mothers Against Decapentaplegic Homolog 4, DPC4]
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - from in vitro models have shown that SIRT4 upregulation might inhibit high fat diet-induced lipid accumulation, inflammation, and fibrogenesis through the SIRT4/SMAD4 axis. It can also inhibit hepatic stellate cell activation.
+
+
 ## Connections
 - [[SMAD4]] — related entity
 
 ## Linking Summary
 - New links added: [[SMAD4]]
-- Strong connections to strengthen: [[SMAD4]] ↔ [[SMAD4]]
+  - Strong connections to strengthen: [[SMAD4]] ↔ [[SMAD4]]
 

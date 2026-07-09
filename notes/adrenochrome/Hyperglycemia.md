@@ -2,11 +2,10 @@
 title: Hyperglycemia
 description: Hyperglycemia is a medical condition characterized by an abnormally high
   concentration of glucose in the blood.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: []
 ---
 # Hyperglycemia
@@ -22,6 +21,14 @@ Hyperglycemia is a primary driver of pathological [[Glycation]]. Under hyperglyc
 - Acceleration of the [[Aging]] process.
 - Pathogenesis of diabetic complications (e.g., neuropathy, nephropathy, retinopathy).
 - Increased [[Oxidative Stress]] due to glucose autoxidation.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Dietary Advanced Glycation End Products and Aging|Dietary Advanced Glycation End Products and Aging]]
+    - Hyperglycemia increases the glycation process, and is especially apparent in insulin independent tissues such as red blood cells, peripheral nerve tissue cells, endothelial cells, eye lens cells, and kidney cells \[\].
+
 
 ## Connections
 

@@ -1,17 +1,14 @@
 ---
 title: UBCS039
-description: 'UBCS039 is the first synthetic, selective allosteric activator of
+description: UBCS039 is the first synthetic, selective allosteric activator of
   **SIRT6** to be characterized. It is a cell-permeable small molecule that binds
-  the unique elongated hydrophobic pocket of SIRT...'
-type: entity
+  the unique elongated hydrophobic pocket of SIRT...
 created: 2026-07-03
 updated: 2026-07-03
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: [UBCS039]
 
-sources: []
-target: SIRT6
 
 ---
 
@@ -39,6 +36,17 @@ target: SIRT6
 | UBCS039 | Synthetic | Moderate | First specific SIRT6 allosteric activator |
 | [[MDL-801]] | Synthetic | High | More potent; cell-permeable |
 | [[Cyanidin]] | Natural | Very high (50×+ in vitro) | Dietary anthocyanidin |
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins (resveratrol), gemini|sirtuins (resveratrol), gemini]]
+    - Key Compounds - UBCS039: The first synthetic, specific allosteric activator of SIRT6. MDL-800 & MDL-801: Highly potent, cell-permeable synthetic allosteric activators of SIRT6.
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - With regard to SIRT6, a study investigated the effect of proximal tubulespecific SIRT6 KO on Renal Failure-induced kidney tubulointerstitial inflammation and fibrosis which suggested that the SIRT6 activator UBCS039 mitigated Renal Failure-induced kidney tu...
+
 
 ## Connections
 

@@ -1,13 +1,12 @@
 ---
 title: HGF
-description: 'Overview: HGF is a cellular protein with structural, signaling,
+description: 'Overview: HGF is a cellular protein with structural, signaling,'
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
-  and signaling networks that govern cell ...'
-type: entity
+  and signaling networks that govern cell ...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [Hepatocyte Growth Factor]
 
 ---
@@ -24,10 +23,20 @@ aliases: [Hepatocyte Growth Factor]
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - For example, skeletal muscle injury induces the activation and release of Hepatocyte Growth Factor (HGF) from the surrounding Extracellular Matrix (ECM), which primes muscle stem cells for proliferation (Rodgers et al., 2014; Rodgers et al., 2017).
+
+
 ## Connections
 - [[HGF]] — related entity
 
 ## Linking Summary
 - New links added: [[HGF]]
-- Strong connections to strengthen: [[HGF]] ↔ [[HGF]]
+  - Strong connections to strengthen: [[HGF]] ↔ [[HGF]]
 

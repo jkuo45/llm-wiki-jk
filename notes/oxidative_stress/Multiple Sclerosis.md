@@ -3,14 +3,13 @@ title: Multiple Sclerosis
 description: Multiple sclerosis (MS) is a demyelinating disease in which the insulating
   covers of nerve cells in the brain and spinal cord are damaged. Chronic Inflammation
   and Oxidative Stress contribute to th...
-type: entity
 created: 2026-05-09
 updated: 2026-07-04
 tags:
-  - oxidative stress
+  - oxidative-stress
   - neurodegeneration
   - autoimmune
-  - Medical Condition
+  - medical-condition
 aliases: [MS, disseminated sclerosis]
 ---
 # Multiple Sclerosis
@@ -37,6 +36,14 @@ Iron accumulates in the basal ganglia, thalamus, and periventricular white matte
 - New links added: [[Mitochondria]], [[Complex I]], [[Complex IV]], [[Superoxide Radicals]], [[Substantia Nigra]], [[Fenton Reaction]], [[Hydrogen Peroxide]], [[Hydroxyl Radicals]], [[Lipid Peroxidation]], [[4-Hydroxynonenal]], [[Malondialdehyde]], [[Myeloperoxidase]], [[Neutrophils]], [[Hypochlorous Acid]], [[Peroxynitrite]], [[Nitric Oxide]], [[Nitrative Stress]], [[Glutathione]], [[HO-1]], [[Glutathione Peroxidase]], [[N-Acetylcysteine]]
 - Suggested new entity notes to create: [[Oligodendrocytes]], [[Myelin basic protein]], [[Ferroptosis]], [[GPX4]], [[Dimethyl fumarate]], [[NRF2]], [[Keap1]], [[MitoQ]], [[Lipoic acid]], [[Experimental autoimmune encephalomyelitis]], [[3-Nitrotyrosine]]
 - Strong connections to strengthen: [[Multiple Sclerosis]] ↔ [[Mitochondria]], [[Multiple Sclerosis]] ↔ [[Ferroptosis]], [[Multiple Sclerosis]] ↔ [[Glutathione]]
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - Neurological Disease and Oxidative Stress Oxidative stress has been linked to several neurological diseases (i.e., Parkinson's Disease, Alzheimer's Disease, Amyotrophic Lateral Sclerosis, Multiple Sclerosis, depression, and memory loss) \[ – \].
+
 
 ## Connections
 

@@ -1,14 +1,13 @@
 ---
 title: CHD4
-description: 'CHD4 is the Mi-2β ATP-dependent chromatin-remodeling subunit of the NuRD complex, regulating transcription, DNA repair, and genomic stability.'
-type: entity
+description: CHD4 is the Mi-2β ATP-dependent chromatin-remodeling subunit of the NuRD complex, regulating transcription, DNA repair, and genomic stability.
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - chromatin remodeling
+  - chromatin-remodeling
   - transcription
   - epigenetics
-  - Protein
+  - protein
 aliases: [Chromodomain Helicase DNA-binding protein 4, Mi-2β]
 ---
 
@@ -31,6 +30,14 @@ CHD4 is a rapid, early responder to DNA lesions. Following [[DNA Damage]], CHD4 
 ## Physiological & Pathological Function
 
 CHD4 shapes developmental gene programs, maintains stem-cell identity, and safeguards the [[Epigenome]]. Dysregulation of CHD4 and [[NuRD complex|NuRD]] is implicated in many [[Cancer]] types, where mutation or misexpression drives widespread chromatin alterations and inappropriate silencing of tumor suppressors. CHD4 is also linked to neurodevelopmental and neurodegenerative disorders, reflecting the importance of precise chromatin remodeling during brain development.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic|Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic]]
+    - ming]], Somatic Cells, Induced Pluripotent Stem Cells, Cancer, Neurodegenerative Diseases, Rejuvenation, Parkinson's Disease, Yamanaka Factors, Embryonic Stem Cells, Fibroblasts, Shinya Yamanaka, Kazutoshi Takahashi, OSKM, Regenerative Medicine, Olivopontoc...
+
 
 ## Connections
 

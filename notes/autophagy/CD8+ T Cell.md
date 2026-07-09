@@ -1,13 +1,12 @@
 ---
 title: CD8+ T Cell
-description: 'CD8+ T Cells (also known as cytotoxic T lymphocytes) are a subset
+description: CD8+ T Cells (also known as cytotoxic T lymphocytes) are a subset
   of T Cell that play a critical role in the Adaptive Immune Response by killing infected
-  or cancerous cells.'
-type: entity
+  or cancerous cells.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Cell Type
+  - cell-type
 aliases: [cytotoxic T cell]
 
 ---
@@ -24,6 +23,14 @@ aliases: [cytotoxic T cell]
 ## Function
 
 CD8+ T cells kill infected or malignant cells. [[Autophagy]] supports memory CD8+ T cell formation and metabolic fitness.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - It has been shown that reduced calorie intake can make tumor cells susceptible to apoptosis via the stimulation of CD8+ T Cell \[\].
+
 
 ## Connections
 

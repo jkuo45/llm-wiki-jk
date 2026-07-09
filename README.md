@@ -4,17 +4,17 @@
 ## Summary Table
 | topic | updated | documents | entities | words | disk | wiki |
 | :--- | :--- | :---: | :---: | :---: | :---: | :--- |
-| [_link](https://github.com/jkuo45/llm-wiki/tree/dev/notes/_link) | 07_JUL_2026 | 0 | 598 | 208,272 | 1.59 MB | [[notes/_link/README\|link]] |
-| [adrenochrome](https://github.com/jkuo45/llm-wiki/tree/dev/notes/adrenochrome) | 07_JUL_2026 | 23 | 289 | 224,882 | 2.30 MB | [[notes/adrenochrome/README\|link]] |
-| [autophagy](https://github.com/jkuo45/llm-wiki/tree/dev/notes/autophagy) | 07_JUL_2026 | 11 | 236 | 142,152 | 1.34 MB | [[notes/autophagy/README\|link]] |
-| [cancer](https://github.com/jkuo45/llm-wiki/tree/dev/notes/cancer) | 07_JUL_2026 | 8 | 247 | 195,643 | 1.86 MB | [[notes/cancer/README\|link]] |
-| [comt](https://github.com/jkuo45/llm-wiki/tree/dev/notes/comt) | 07_JUL_2026 | 2 | 35 | 18,957 | 0.50 MB | [[notes/comt/README\|link]] |
-| [epigenetics](https://github.com/jkuo45/llm-wiki/tree/dev/notes/epigenetics) | 07_JUL_2026 | 9 | 195 | 192,414 | 4.78 MB | [[notes/epigenetics/README\|link]] |
-| [neuromelanin](https://github.com/jkuo45/llm-wiki/tree/dev/notes/neuromelanin) | 07_JUL_2026 | 2 | 85 | 55,878 | 0.78 MB | [[notes/neuromelanin/README\|link]] |
-| [oxidative_stress](https://github.com/jkuo45/llm-wiki/tree/dev/notes/oxidative_stress) | 07_JUL_2026 | 1 | 65 | 66,621 | 0.94 MB | [[notes/oxidative_stress/README\|link]] |
-| [sirtuins](https://github.com/jkuo45/llm-wiki/tree/dev/notes/sirtuins) | 07_JUL_2026 | 6 | 105 | 166,372 | 1.50 MB | [[notes/sirtuins/README\|link]] |
+| [_link](https://github.com/jkuo45/llm-wiki/tree/dev/notes/_link) | 09_JUL_2026 | 18 | 963 | 544,055 | 4.40 MB | [[notes/_link/README\|link]] |
+| [adrenochrome](https://github.com/jkuo45/llm-wiki/tree/dev/notes/adrenochrome) | 09_JUL_2026 | 19 | 253 | 189,314 | 1.95 MB | [[notes/adrenochrome/README\|link]] |
+| [autophagy](https://github.com/jkuo45/llm-wiki/tree/dev/notes/autophagy) | 09_JUL_2026 | 11 | 235 | 158,146 | 1.45 MB | [[notes/autophagy/README\|link]] |
+| [cancer](https://github.com/jkuo45/llm-wiki/tree/dev/notes/cancer) | 09_JUL_2026 | 9 | 261 | 225,313 | 2.11 MB | [[notes/cancer/README\|link]] |
+| [comt](https://github.com/jkuo45/llm-wiki/tree/dev/notes/comt) | 09_JUL_2026 | 2 | 35 | 21,034 | 0.52 MB | [[notes/comt/README\|link]] |
+| [epigenetics](https://github.com/jkuo45/llm-wiki/tree/dev/notes/epigenetics) | 09_JUL_2026 | 10 | 195 | 212,113 | 4.92 MB | [[notes/epigenetics/README\|link]] |
+| [neuromelanin](https://github.com/jkuo45/llm-wiki/tree/dev/notes/neuromelanin) | 09_JUL_2026 | 2 | 84 | 59,129 | 0.81 MB | [[notes/neuromelanin/README\|link]] |
+| [oxidative_stress](https://github.com/jkuo45/llm-wiki/tree/dev/notes/oxidative_stress) | 09_JUL_2026 | 1 | 65 | 69,196 | 0.96 MB | [[notes/oxidative_stress/README\|link]] |
+| [sirtuins](https://github.com/jkuo45/llm-wiki/tree/dev/notes/sirtuins) | 09_JUL_2026 | 7 | 107 | 177,403 | 1.58 MB | [[notes/sirtuins/README\|link]] |
 | --- | --- | ---: | ---: | ---: | ---: | --- |
-| **subtotal** | 07_JUL_2026 | **62** | **1855** | **1,271,191** | **15.59 MB** | |
+| **subtotal** | 09_JUL_2026 | **79** | **2198** | **1,655,703** | **18.69 MB** | |
 <!-- END GENERATED: summary_table -->
 
 _\*notes directory only_\*
@@ -71,415 +71,94 @@ _\*notes directory only_\*
 - 🛠️ [obsidian agent skills](https://github.com/jkuo45/llm-wiki/blob/dev/raw/_document_%20-%20kepanoobsidian-skills%20Agent%20skills%20for%20Obsidian.%20Teach%20your%20agent%20to%20use%20Obsidian%20CLI%20and%20open%20formats%20including%20Markdown%2C%20Bases%2C%20JSON%20Canvas..md)
 - 📐 [open knowledge spec](https://github.com/jkuo45/llm-wiki/blob/dev/raw/_article%20-%20knowledge-catalogokfSPEC.md%20at%20main.md)
 
-#### triples overview (as of 05_JUL_2026)
-
 ---
 
-> - Mechanistic extraction — what it produces, predicate types, use cases, and what 80–99% means
-> - Co-occurrence extraction — confidence model, scale comparison, design for discovery, and what 20–30% means
-> - Complementary nature — neither is "better", confidence as cohesion metric, no fixed target
-
-| Topic            | High %    | Edges | Predicates | Top predicate                                                                               | Extraction style |
-| ---------------- | --------- | ----- | ---------- | ------------------------------------------------------------------------------------------- | ---------------- |
-| adrenochrome     | **90.6%** | 64    | 37         | `is (9), promotes (4), activates (4), induces (3), causes (3)`                              | mechanistic      |
-| autophagy        | **89.6%** | 154   | 79         | `phosphorylates (19), activates (11), inhibits (10), regulates (8), induces (6)`            | mechanistic      |
-| comt             | **83.5%** | 200   | 89         | `is (29), is_associated_with (11), modulates (7), supports (6), impacts (6)`                | mechanistic      |
-| epigenetics      | **30.3%** | 7338  | 19         | `co_occurs_with (4528), mentions (1803), causes (406), connected_to (322), links_to (90)`   | co-occurrence    |
-| neuromelanin     | **97.7%** | 218   | 25         | `bidirectionally_linked_with (104), is_a (30), causes (18), converts_to (12), binds_to (8)` | mechanistic      |
-| oxidative_stress | **99.2%** | 236   | 127        | `produces (13), causes (13), activates (11), contributes to (9), reduces (7)`               | mechanistic      |
-| sirtuins         | **97.7%** | 305   | 119        | `deacetylates (53), inhibits (30), activates (22), localizes to (10), represses (10)`       | mechanistic      |
-
-> [!Note]
-> Two extraction styles produce the triples above, each serving a different analytical purpose.
-
-> Entity count (summary table) vs. triples nodes/edges: The summary table "entities" column counts all markdown files in `notes/<topic>/` (created during ingestion step 4 for every mentioned concept). The triples "nodes" and "edges" count only entities with extracted relationships. For mechanistic topics (all except epigenetics), nodes ≪ entity notes because extraction captures only direct causal/functional relations (e.g., adrenochrome: 289 notes → 81 nodes, 64 edges). Epigenetics uses co-occurrence extraction yielding more nodes (830) and far more edges (7,338) by linking any co-mentioned entities.
-
-**Mechanistic extraction** (filtered: excludes `has_type` triples) outputs tight knowledge graphs with domain-specific predicates — `deacetylates`, `phosphorylates`, `activates`, `inhibits`, `causes` — each encoding a direct causal or functional relationship. These graphs are small (~150–250 edges) and high precision, best for pathway verification, drug mechanism reasoning, and literature-backed claims. They answer _"what does X directly do to Y?"_ 80–99% in this style indicates a mature, cohesive field where entities routinely co-occur in the same sentence (textbook knowledge).
-
-**Co-occurrence extraction** (epigenetics, 30.3% high confidence) prioritizes recall over precision. Entities are linked when they appear in the same textual context; confidence is determined by textual proximity (same sentence = high, same paragraph = medium, same document = low). With 7,338 edges across 830 nodes — 30–50× larger than any mechanistic topic — and predicates dominated by `co_occurs_with` (4,528) and `mentions` (1,803), this graph captures bibliometric associations rather than causal mechanisms. It is designed for _discovery_: surfacing weak signals and cross-domain connections in fragmented or emerging fields. 20–30% in this style indicates a research frontier where most links are document-level, not yet tightly coupled in the literature.
-
-Neither style is "better" — they are complementary. Mechanistic confirms known pathways; co-occurrence reveals potential connections. Confidence % in co-occurrence acts as a **cohesion metric**: how tightly entities cluster in the literature, not how "correct" the triples are. There is no fixed target — the appropriate range depends on the goal (90%+ for verification, 20–40% for exploration).
-
----
-
-#### adrenochrome triples
-
-**adrenochrome** — 81 nodes · 64 edges · 37 relation types · 90.6% high confidence
-
-| Metric            | Value                                                                                                     |
-| ----------------- | --------------------------------------------------------------------------------------------------------- |
-| Entities (nodes)  | 81                                                                                                        |
-| Triples (edges)   | 64                                                                                                        |
-| Unique predicates | 37                                                                                                        |
-| Confidence high   | 58 (90.6%)                                                                                                |
-| Top subjects      | Adrenochrome (9), Epinephrine (3), Leuco-adrenochrome (3), Adrenochrome Hypothesis (3), Methemoglobin (2) |
-| Top objects       | Epinephrine (4), Adrenochrome (4), Adrenochrome formation (3), Oxidative Stress (2), PGC1α (2)            |
-| Top predicates    | is (9), promotes (4), activates (4), induces (3), causes (3)                                              |
-
-<img src="notes/adrenochrome/_triples_adrenochrome.svg" alt="adrenochrome triples" width="100%">
-
----
-
-#### autophagy triples
-
-**autophagy** — 179 nodes · 154 edges · 79 relation types · 89.6% high confidence
-
-| Metric            | Value                                                                             |
-| ----------------- | --------------------------------------------------------------------------------- |
-| Entities (nodes)  | 179                                                                               |
-| Triples (edges)   | 154                                                                               |
-| Unique predicates | 79                                                                                |
-| Confidence high   | 138 (89.6%)                                                                       |
-| Top subjects      | TFEB (18), mTORC1 (14), Autophagy (8), Spermidine (7), HLH-30 (5)                 |
-| Top objects       | Autophagy (15), mTORC1 (6), TFEB at S211 (5), Intermittent Fasting (3), Aging (3) |
-| Top predicates    | phosphorylates (19), activates (11), inhibits (10), regulates (8), induces (6)    |
-
-<img src="notes/autophagy/_triples_autophagy.svg" alt="autophagy triples" width="100%">
-
----
-
-#### comt triples
-
-**comt** — 228 nodes · 200 edges · 89 relation types · 83.5% high confidence
-
-| Metric            | Value                                                                                                 |
-| ----------------- | ----------------------------------------------------------------------------------------------------- |
-| Entities (nodes)  | 228                                                                                                   |
-| Triples (edges)   | 200                                                                                                   |
-| Unique predicates | 89                                                                                                    |
-| Confidence high   | 167 (83.5%)                                                                                           |
-| Top subjects      | COMT (15), Val158Met (9), D2 receptor (6), Met/Met genotype (6), Val/Val genotype (6)                 |
-| Top objects       | COMT (9), alternative anti-inflammatory for slow COMT (3), PFC (3), catechols (3), working memory (3) |
-| Top predicates    | is (29), is_associated_with (11), modulates (7), supports (6), impacts (6)                            |
-
-<img src="notes/comt/_triples_comt.svg" alt="comt triples" width="100%">
-
----
-
-#### adrenochrome triples
-
-**adrenochrome** — 81 nodes · 64 edges · 37 relation types · 90.6% high confidence
-
-| Metric            | Value                                                                                                     |
-| ----------------- | --------------------------------------------------------------------------------------------------------- |
-| Entities (nodes)  | 81                                                                                                        |
-| Triples (edges)   | 64                                                                                                        |
-| Unique predicates | 37                                                                                                        |
-| Confidence high   | 58 (90.6%)                                                                                                |
-| Top subjects      | Adrenochrome (9), Epinephrine (3), Leuco-adrenochrome (3), Adrenochrome Hypothesis (3), Methemoglobin (2) |
-| Top objects       | Epinephrine (4), Adrenochrome (4), Adrenochrome formation (3), Oxidative Stress (2), PGC1α (2)            |
-| Top predicates    | is (9), promotes (4), activates (4), induces (3), causes (3)                                              |
-
-<img src="notes/adrenochrome/_triples_adrenochrome.svg" alt="adrenochrome triples" width="100%">
-
----
-
-#### autophagy triples
-
-**autophagy** — 179 nodes · 154 edges · 79 relation types · 89.6% high confidence
-
-| Metric            | Value                                                                             |
-| ----------------- | --------------------------------------------------------------------------------- |
-| Entities (nodes)  | 179                                                                               |
-| Triples (edges)   | 154                                                                               |
-| Unique predicates | 79                                                                                |
-| Confidence high   | 138 (89.6%)                                                                       |
-| Top subjects      | TFEB (18), mTORC1 (14), Autophagy (8), Spermidine (7), HLH-30 (5)                 |
-| Top objects       | Autophagy (15), mTORC1 (6), TFEB at S211 (5), Intermittent Fasting (3), Aging (3) |
-| Top predicates    | phosphorylates (19), activates (11), inhibits (10), regulates (8), induces (6)    |
-
-<img src="notes/autophagy/_triples_autophagy.svg" alt="autophagy triples" width="100%">
-
----
-
-#### comt triples
-
-**comt** — 228 nodes · 200 edges · 89 relation types · 83.5% high confidence
-
-| Metric            | Value                                                                                                 |
-| ----------------- | ----------------------------------------------------------------------------------------------------- |
-| Entities (nodes)  | 228                                                                                                   |
-| Triples (edges)   | 200                                                                                                   |
-| Unique predicates | 89                                                                                                    |
-| Confidence high   | 167 (83.5%)                                                                                           |
-| Top subjects      | COMT (15), Val158Met (9), D2 receptor (6), Met/Met genotype (6), Val/Val genotype (6)                 |
-| Top objects       | COMT (9), alternative anti-inflammatory for slow COMT (3), PFC (3), catechols (3), working memory (3) |
-| Top predicates    | is (29), is_associated_with (11), modulates (7), supports (6), impacts (6)                            |
-
-<img src="notes/comt/_triples_comt.svg" alt="comt triples" width="100%">
-
----
-
-#### epigenetics triples
-
-**epigenetics** — 830 nodes · 7338 edges · 19 relation types · 30.3% high confidence
-
-| Metric            | Value                                                                                                                                                                                               |
-| ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Entities (nodes)  | 830                                                                                                                                                                                                 |
-| Triples (edges)   | 7338                                                                                                                                                                                                |
-| Unique predicates | 19                                                                                                                                                                                                  |
-| Confidence high   | 2225 (30.3%)                                                                                                                                                                                        |
-| Top subjects      | Cellular Mechanisms and Regulation of Quiescence (179), Epigenetics and aging (121), Small molecule compounds that induce cellular senescence (112), Induced Pluripotent Stem Cells (96), OSKM (94) |
-| Top objects       | Induced Pluripotent Stem Cells (134), Yamanaka Factors (130), Cancer (123), Cellular Reprogramming (93), Aging (77)                                                                                 |
-| Top predicates    | co_occurs_with (4528), mentions (1803), causes (406), connected_to (322), links_to (90)                                                                                                             |
-
-<img src="notes/epigenetics/_triples_epigenetics.svg" alt="epigenetics triples" width="100%">
-
----
-
-#### neuromelanin triples
-
-**neuromelanin** — 139 nodes · 218 edges · 25 relation types · 97.7% high confidence
-
-| Metric            | Value                                                                                                 |
-| ----------------- | ----------------------------------------------------------------------------------------------------- |
-| Entities (nodes)  | 139                                                                                                   |
-| Triples (edges)   | 218                                                                                                   |
-| Unique predicates | 25                                                                                                    |
-| Confidence high   | 213 (97.7%)                                                                                           |
-| Top subjects      | Neuromelanin (35), Autophagy (8), Parkinson's Disease (8), Dopamine (7), Alpha-Synuclein (4)          |
-| Top objects       | Parkinson's Disease (28), Neuromelanin (25), Dopamine (8), Neuroinflammation (7), Alpha-Synuclein (6) |
-| Top predicates    | bidirectionally_linked_with (104), is_a (30), causes (18), converts_to (12), binds_to (8)             |
-
-<img src="notes/neuromelanin/_triples_neuromelanin.svg" alt="neuromelanin triples" width="100%">
-
----
-
-#### oxidative_stress triples
-
-**oxidative_stress** — 239 nodes · 236 edges · 127 relation types · 99.2% high confidence
-
-| Metric            | Value                                                                                                                              |
-| ----------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| Entities (nodes)  | 239                                                                                                                                |
-| Triples (edges)   | 236                                                                                                                                |
-| Unique predicates | 127                                                                                                                                |
-| Confidence high   | 234 (99.2%)                                                                                                                        |
-| Top subjects      | Peroxynitrite (11), Oxidative Stress (8), Superoxide Radicals (7), Hydroxyl Radicals (6), NADPH Oxidase (6)                        |
-| Top objects       | Lipid Peroxidation (9), Superoxide Radicals (8), notes/\_link/Hydrogen Peroxide (7), NF-kappa B (7), notes/\_link/Nitric Oxide (6) |
-| Top predicates    | produces (13), causes (13), activates (11), contributes to (9), reduces (7)                                                        |
-
-<img src="notes/oxidative_stress/_triples_oxidative_stress.svg" alt="oxidative_stress triples" width="100%">
-
----
-
-#### sirtuins triples
-
-**sirtuins** — 320 nodes · 305 edges · 119 relation types · 97.7% high confidence
-
-| Metric            | Value                                                                               |
-| ----------------- | ----------------------------------------------------------------------------------- |
-| Entities (nodes)  | 320                                                                                 |
-| Triples (edges)   | 305                                                                                 |
-| Unique predicates | 119                                                                                 |
-| Confidence high   | 298 (97.7%)                                                                         |
-| Top subjects      | SIRT1 (65), SIRT6 (25), Resveratrol (25), SIRT3 (19), SIRT2 (14)                    |
-| Top objects       | SIRT1 (8), Mitochondria (6), NFKB (6), SIRT6 (5), AMPK (4)                          |
-| Top predicates    | deacetylates (53), inhibits (30), activates (22), localizes to (10), represses (10) |
-
-<img src="notes/sirtuins/_triples_sirtuins.svg" alt="sirtuins triples" width="100%">
-
-#### adrenochrome triples
-
-**adrenochrome** — 195 nodes · 213 edges · 38 relation types · 97.2% high confidence
-
-| Metric             | Value                                                                                                                                                                                                                   |
-| ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Entities (nodes)   | 195                                                                                                                                                                                                                     |
-| Triples (edges)    | 213                                                                                                                                                                                                                     |
-| Unique predicates  | 38                                                                                                                                                                                                                      |
-| Confidence high    | 207 (97.2%)                                                                                                                                                                                                             |
-| Top subjects       | Adrenochrome (10), Epinephrine (4), Leuco-adrenochrome (4), Adrenochrome Hypothesis (4), Methemoglobin (3)                                                                                                              |
-| Top domain objects | Epinephrine (4), Adrenochrome (4), Adrenochrome formation (3), PGC1α (2), Oxidative Stress (2)                                                                                                                          |
-| Top predicates     | has_type (149), is (9), promotes (4), activates (4), induces (3)                                                                                                                                                        |
-| zh-TW              | 主詞：腎上腺素紅(10)、腎上腺素(4)、白腎上腺素紅(4)、腎上腺素紅假說(4)、變性血紅蛋白(3)；受詞：腎上腺素(4)、腎上腺素紅(4)、腎上腺素紅形成(3)、PGC1α(2)、氧化壓力(2)；謂語：類型為(149)、是(9)、促進(4)、激活(4)、誘導(3) |
-
-<img src="notes/adrenochrome/_triples_adrenochrome.svg" alt="Adrenochrome triples" width="100%">
-
----
-
-#### autophagy triples
-
-**autophagy** — 179 nodes · 154 edges · 79 relation types · 89.6% high confidence
-
-| Metric            | Value                                                                                                                                                                                 |
-| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Entities (nodes)  | 179                                                                                                                                                                                   |
-| Triples (edges)   | 154                                                                                                                                                                                   |
-| Unique predicates | 79                                                                                                                                                                                    |
-| Confidence high   | 138 (89.6%)                                                                                                                                                                           |
-| Top subjects      | TFEB (18), mTORC1 (14), Autophagy (8), Spermidine (7), HLH-30 (5)                                                                                                                     |
-| Top objects       | Autophagy (15), mTORC1 (6), TFEB at S211 (5), Intermittent Fasting (3), Aging (3)                                                                                                     |
-| Top predicates    | phosphorylates (19), activates (11), inhibits (10), regulates (8), induces (6)                                                                                                        |
-| zh-TW             | 主詞：TFEB(18)、mTORC1(14)、自噬(8)、亞精胺(7)、HLH-30(5)；受詞：自噬(15)、mTORC1(6)、S211位點TFEB(5)、間歇性禁食(3)、衰老(3)；謂語：磷酸化(19)、激活(11)、抑制(10)、調控(8)、誘導(6) |
-
-<img src="notes/autophagy/_triples_autophagy.svg" alt="Autophagy triples" width="100%">
-
----
-
-#### comt triples
-
-**comt** — 228 nodes · 200 edges · 89 relation types · 83.5% high confidence
-
-| Metric            | Value                                                                                                                                                                                              |
-| ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Entities (nodes)  | 228                                                                                                                                                                                                |
-| Triples (edges)   | 200                                                                                                                                                                                                |
-| Unique predicates | 89                                                                                                                                                                                                 |
-| Confidence high   | 167 (83.5%)                                                                                                                                                                                        |
-| Top subjects      | COMT (15), Val158Met (9), D2 receptor (6), Met/Met (6), Val/Val (6)                                                                                                                                |
-| Top objects       | COMT (9), alternative anti-inflammatory for slow COMT (3), PFC (3), catechols (3), working memory (3)                                                                                              |
-| Top predicates    | is (29), is_associated_with (11), modulates (7), supports (6), impacts (6)                                                                                                                         |
-| zh-TW             | 主詞：COMT(15)、Val158Met(9)、D2受體(6)、Met/Met(6)、Val/Val(6)；受詞：COMT(9)、慢COMT替代抗炎劑(3)、前額葉皮層(3)、兒茶酚(3)、工作記憶(3)；謂語：是(29)、與...相關(11)、調節(7)、支持(6)、影響(6) |
-
-<img src="notes/comt/_triples_comt.svg" alt="COMT triples" width="100%">
-
----
-
-#### epigenetics triples
-
-**epigenetics** — 830 nodes · 7,338 edges · 19 relation types · 30.3% high confidence
-
-| Metric            | Value                                                                                                                                                                                                                                                                       |
-| ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Entities (nodes)  | 830                                                                                                                                                                                                                                                                         |
-| Triples (edges)   | 7,338                                                                                                                                                                                                                                                                       |
-| Unique predicates | 19                                                                                                                                                                                                                                                                          |
-| Confidence high   | 2,225 (30.3%)                                                                                                                                                                                                                                                               |
-| Top subjects      | Cellular Mechanisms and Regulation of Quiescence (179), Epigenetics and aging (121), Small molecule compounds that induce cellular senescence (112), Induced Pluripotent Stem Cells (96), OSKM (94)                                                                         |
-| Top objects       | Induced Pluripotent Stem Cells (134), Yamanaka Factors (130), Cancer (123), Cellular Reprogramming (93), Aging (77)                                                                                                                                                         |
-| Top predicates    | co_occurs_with (4,528), mentions (1,803), causes (406), connected_to (322), links_to (90)                                                                                                                                                                                   |
-| zh-TW             | 主詞：細胞靜止機制與調控(179)、表觀遺傳學與衰老(121)、誘導細胞衰老的小分子化合物(112)、誘導多能幹細胞(96)、OSKM(94)；受詞：誘導多能幹細胞(134)、山中因子(130)、癌症(123)、細胞重編程(93)、衰老(77)；謂語：與...共現(4,528)、提及(1,803)、導致(406)、連接至(322)、鏈接至(90) |
-
-<img src="notes/epigenetics/_triples_epigenetics.svg" alt="Epigenetics triples" width="100%">
-
----
-
-#### neuromelanin triples
-
-**neuromelanin** — 139 nodes · 218 edges · 25 relation types · 97.7% high confidence
-
-| Metric            | Value                                                                                                                                                                                                                 |
-| ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Entities (nodes)  | 139                                                                                                                                                                                                                   |
-| Triples (edges)   | 218                                                                                                                                                                                                                   |
-| Unique predicates | 25                                                                                                                                                                                                                    |
-| Confidence high   | 213 (97.7%)                                                                                                                                                                                                           |
-| Top subjects      | Neuromelanin (35), Autophagy (8), Parkinson's Disease (8), Dopamine (7), Alpha-Synuclein (4)                                                                                                                          |
-| Top objects       | Parkinson's Disease (28), Neuromelanin (25), Dopamine (8), Neuroinflammation (7), Alpha-Synuclein (6)                                                                                                                 |
-| Top predicates    | bidirectionally_linked_with (104), is_a (30), causes (18), converts_to (12), binds_to (8)                                                                                                                             |
-| zh-TW             | 主詞：神經黑色素(35)、自噬(8)、帕金森病(8)、多巴胺(7)、α-突觸核蛋白(4)；受詞：帕金森病(28)、神經黑色素(25)、多巴胺(8)、神經炎症(7)、α-突觸核蛋白(6)；謂語：雙向關聯(104)、是一種(30)、導致(18)、轉化為(12)、結合至(8) |
-
-<img src="notes/neuromelanin/_triples_neuromelanin.svg" alt="Neuromelanin triples" width="100%">
-
----
-
-#### oxidative_stress triples
-
-**oxidative_stress** — 239 nodes · 236 edges · 127 relation types · 99.2% high confidence
-
-| Metric            | Value                                                                                                                                                                                                         |
-| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Entities (nodes)  | 239                                                                                                                                                                                                           |
-| Triples (edges)   | 236                                                                                                                                                                                                           |
-| Unique predicates | 127                                                                                                                                                                                                           |
-| Confidence high   | 234 (99.2%)                                                                                                                                                                                                   |
-| Top subjects      | Peroxynitrite (11), Oxidative Stress (8), Superoxide Radicals (7), Hydroxyl Radicals (6), NADPH Oxidase (6)                                                                                                   |
-| Top objects       | Lipid Peroxidation (9), Superoxide Radicals (8), Hydrogen Peroxide (7), NF-kappa B (7), Nitric Oxide (6)                                                                                                      |
-| Top predicates    | produces (13), causes (13), activates (11), contributes to (9), reduces (7)                                                                                                                                   |
-| zh-TW             | 主詞：過氧亞硝酸鹽(11)、氧化壓力(8)、超氧自由基(7)、羥自由基(6)、NADPH氧化酶(6)；受詞：脂質過氧化(9)、超氧自由基(8)、過氧化氫(7)、NF-κB(7)、一氧化氮(6)；謂語：產生(13)、導致(13)、激活(11)、促成(9)、減少(7) |
-
-<img src="notes/oxidative_stress/_triples_oxidative_stress.svg" alt="Oxidative Stress triples" width="100%">
-
----
-
-#### sirtuins triples
-
-**sirtuins** — 320 nodes · 305 edges · 119 relation types · 97.7% high confidence
-
-| Metric            | Value                                                                                                                                                                                   |
-| ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Entities (nodes)  | 320                                                                                                                                                                                     |
-| Triples (edges)   | 305                                                                                                                                                                                     |
-| Unique predicates | 119                                                                                                                                                                                     |
-| Confidence high   | 298 (97.7%)                                                                                                                                                                             |
-| Top subjects      | SIRT1 (65), SIRT6 (25), Resveratrol (25), SIRT3 (19), SIRT2 (14)                                                                                                                        |
-| Top objects       | SIRT1 (8), Mitochondria (6), NFKB (6), SIRT6 (5), AMPK (4)                                                                                                                              |
-| Top predicates    | deacetylates (53), inhibits (30), activates (22), localizes to (10), represses (10)                                                                                                     |
-| zh-TW             | 主詞：SIRT1(65)、SIRT6(25)、白藜蘆醇(25)、SIRT3(19)、SIRT2(14)；受詞：SIRT1(8)、線粒體(6)、NFKB(6)、SIRT6(5)、AMPK(4)；謂語：去乙醯化(53)、抑制(30)、激活(22)、定位至(10)、抑制轉錄(10) |
-
-<img src="notes/sirtuins/_triples_sirtuins.svg" alt="Sirtuins triples" width="100%">
-
----
+> [!NOTE] Currently Reading
+> - [SASP - physiological and pathological](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/_document_%20-%20The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications.md) [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|wiki]]
+> - [SASP - epigenetic landscape](https://github.com/jkuo45/llm-wiki/blob/dev/notes/epigenetics/_document_%20-%20The%20role%20of%20the%20dynamic%20epigenetic%20landscape%20in%20senescence_orchestrating%20SASP%20expression.md) [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression|wiki]]
+> - [SASP - cGAS-STING in cancer](https://github.com/jkuo45/llm-wiki/blob/dev/notes/cancer/_document_%20-%20Cellular%20senescence%20and%20senescence%E2%80%90associated%20secretory%20phenotype%20via%20the%20cGAS_STING%20signaling%20pathway%20in%20cancer.md) [[_document_ - Cellular senescence and senescence‐associated secretory phenotype via the cGAS_STING signaling pathway in cancer|wiki]]
+>
 
 <!-- GENERATED: document_list -->
-## Document List
+## Documents (79 total)
 
-| topic | updated | document path | notes | word count |
-| :--- | :--- | :--- | :--- | :---: |
-| adrenochrome | 07_JUL_2026 | [_document_ - Adrenochrome.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20Adrenochrome.md) | [[notes/adrenochrome/_document_ - Adrenochrome.md\|notes]] | 1,077 |
-| adrenochrome | 07_JUL_2026 | [_document_ - Aminoguanidine.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20Aminoguanidine.md) | [[notes/adrenochrome/_document_ - Aminoguanidine.md\|notes]] | 1,877 |
-| adrenochrome | 07_JUL_2026 | [_document_ - Dietary Advanced Glycation End Products and Aging.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20Dietary%20Advanced%20Glycation%20End%20Products%20and%20Aging.md) | [[notes/adrenochrome/_document_ - Dietary Advanced Glycation End Products and Aging.md\|notes]] | 9,409 |
-| adrenochrome | 07_JUL_2026 | [_document_ - Methemoglobin and Methemoglobinemia.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20Methemoglobin%20and%20Methemoglobinemia.md) | [[notes/adrenochrome/_document_ - Methemoglobin and Methemoglobinemia.md\|notes]] | 803 |
-| adrenochrome | 07_JUL_2026 | [_document_ - Mitohormesis - 2014_FEB.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20Mitohormesis%20-%202014_FEB.md) | [[notes/adrenochrome/_document_ - Mitohormesis - 2014_FEB.md\|notes]] | 9,692 |
-| adrenochrome | 07_JUL_2026 | [_document_ - Mitohormesis - 2023_NOV.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20Mitohormesis%20-%202023_NOV.md) | [[notes/adrenochrome/_document_ - Mitohormesis - 2023_NOV.md\|notes]] | 14,279 |
-| adrenochrome | 07_JUL_2026 | [_document_ - Mitohormesis - Transcriptomic analysis of mitohormesis associated with lifespan extension in Caenorhabditis elegans.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20Mitohormesis%20-%20Transcriptomic%20analysis%20of%20mitohormesis%20associated%20with%20lifespan%20extension%20in%20Caenorhabditis%20elegans.md) | [[notes/adrenochrome/_document_ - Mitohormesis - Transcriptomic analysis of mitohormesis associated with lifespan extension in Caenorhabditis elegans.md\|notes]] | 460 |
-| adrenochrome | 07_JUL_2026 | [_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20NAD%2B%E2%80%89Precursors%20Nicotinamide%20Mononucleotide%20%28NMN%29%20and%20Nicotinamide%20Riboside%20%28NR%29%20Potential%20Dietary%20Contribution%20to%20Health.md) | [[notes/adrenochrome/_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md\|notes]] | 14,984 |
-| adrenochrome | 07_JUL_2026 | [_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20Nicotinamide%20Riboside%E2%80%94The%20Current%20State%20of%20Research%20and%20Therapeutic%20Uses.md) | [[notes/adrenochrome/_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md\|notes]] | 14,628 |
-| adrenochrome | 07_JUL_2026 | [_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20Pharmacological%20Effects%20of%20Urolithin%20A%20and%20Its%20Role%20in%20Muscle%20Health%20and%20Performance%20Current%20Knowledge%20and%20Prospects.md) | [[notes/adrenochrome/_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects.md\|notes]] | 9,180 |
-| adrenochrome | 07_JUL_2026 | [_document_ - Silver(1+) oxide.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20Silver%281%2B%29%20oxide.md) | [[notes/adrenochrome/_document_ - Silver(1+) oxide.md\|notes]] | 1,909 |
-| adrenochrome | 07_JUL_2026 | [_document_ - The Adrenochrome Pathway.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20The%20Adrenochrome%20Pathway.md) | [[notes/adrenochrome/_document_ - The Adrenochrome Pathway.md\|notes]] | 375 |
-| adrenochrome | 07_JUL_2026 | [_document_ - The role of glycation in the pathogenesis of aging and its prevention through herbal products and physical exercise.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20The%20role%20of%20glycation%20in%20the%20pathogenesis%20of%20aging%20and%20its%20prevention%20through%20herbal%20products%20and%20physical%20exercise.md) | [[notes/adrenochrome/_document_ - The role of glycation in the pathogenesis of aging and its prevention through herbal products and physical exercise.md\|notes]] | 6,232 |
-| adrenochrome | 07_JUL_2026 | [_document_ - US4501923A - Process for preparing adrenochrome.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20US4501923A%20-%20Process%20for%20preparing%20adrenochrome.md) | [[notes/adrenochrome/_document_ - US4501923A - Process for preparing adrenochrome.md\|notes]] | 2,513 |
-| adrenochrome | 07_JUL_2026 | [_document_ - as senotherapeutic agents.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20as%20senotherapeutic%20agents.md) | [[notes/adrenochrome/_document_ - as senotherapeutic agents.md\|notes]] | 1,669 |
-| adrenochrome | 07_JUL_2026 | [_document_ - formation, chemical stability.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20formation%2C%20chemical%20stability.md) | [[notes/adrenochrome/_document_ - formation, chemical stability.md\|notes]] | 2,175 |
-| adrenochrome | 07_JUL_2026 | [_document_ - glycation, enzymatic removal.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20glycation%2C%20enzymatic%20removal.md) | [[notes/adrenochrome/_document_ - glycation, enzymatic removal.md\|notes]] | 1,348 |
-| adrenochrome | 07_JUL_2026 | [_document_ - glyco-oxidative modulation.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20glyco-oxidative%20modulation.md) | [[notes/adrenochrome/_document_ - glyco-oxidative modulation.md\|notes]] | 1,474 |
-| adrenochrome | 07_JUL_2026 | [_document_ - intermediates, precursor, hemoglobin.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20intermediates%2C%20precursor%2C%20hemoglobin.md) | [[notes/adrenochrome/_document_ - intermediates, precursor, hemoglobin.md\|notes]] | 2,972 |
-| adrenochrome | 07_JUL_2026 | [_document_ - mitohormesis.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20mitohormesis.md) | [[notes/adrenochrome/_document_ - mitohormesis.md\|notes]] | 1,978 |
-| adrenochrome | 07_JUL_2026 | [_document_ - molecular composition, mechanism.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20molecular%20composition%2C%20mechanism.md) | [[notes/adrenochrome/_document_ - molecular composition, mechanism.md\|notes]] | 7,420 |
-| adrenochrome | 07_JUL_2026 | [_document_ - neutrophil and erthrocyte.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20neutrophil%20and%20erthrocyte.md) | [[notes/adrenochrome/_document_ - neutrophil and erthrocyte.md\|notes]] | 783 |
-| adrenochrome | 07_JUL_2026 | [_document_ - neutrophils role in adrenochrome production.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20neutrophils%20role%20in%20adrenochrome%20production.md) | [[notes/adrenochrome/_document_ - neutrophils role in adrenochrome production.md\|notes]] | 1,121 |
-| autophagy | 07_JUL_2026 | [_document_ - Autophagy and intermittent fasting the connection for cancer therapy?.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/autophagy/_document_%20-%20Autophagy%20and%20intermittent%20fasting%20the%20connection%20for%20cancer%20therapy%3F.md) | [[notes/autophagy/_document_ - Autophagy and intermittent fasting the connection for cancer therapy?.md\|notes]] | 2,542 |
-| autophagy | 07_JUL_2026 | [_document_ - Autophagy takes it all – autophagy inducers target immune aging.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/autophagy/_document_%20-%20Autophagy%20takes%20it%20all%20%E2%80%93%20autophagy%20inducers%20target%20immune%20aging.md) | [[notes/autophagy/_document_ - Autophagy takes it all – autophagy inducers target immune aging.md\|notes]] | 3,903 |
-| autophagy | 07_JUL_2026 | [_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/autophagy/_document_%20-%20From%20the%20regulatory%20mechanism%20of%20TFEB%20to%20its%20therapeutic%20implications%20-%20Cell%20Death%20Discovery.md) | [[notes/autophagy/_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery.md\|notes]] | 8,583 |
-| autophagy | 07_JUL_2026 | [_document_ - Kinase.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/autophagy/_document_%20-%20Kinase.md) | [[notes/autophagy/_document_ - Kinase.md\|notes]] | 543 |
-| autophagy | 07_JUL_2026 | [_document_ - Lysosome biogenesis Regulation and functions.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/autophagy/_document_%20-%20Lysosome%20biogenesis%20Regulation%20and%20functions.md) | [[notes/autophagy/_document_ - Lysosome biogenesis Regulation and functions.md\|notes]] | 7,479 |
-| autophagy | 07_JUL_2026 | [_document_ - MXL-3 and HLH-30 transcriptionally link lipolysis and autophagy to nutrient availability.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/autophagy/_document_%20-%20MXL-3%20and%20HLH-30%20transcriptionally%20link%20lipolysis%20and%20autophagy%20to%20nutrient%20availability.md) | [[notes/autophagy/_document_ - MXL-3 and HLH-30 transcriptionally link lipolysis and autophagy to nutrient availability.md\|notes]] | 8,224 |
-| autophagy | 07_JUL_2026 | [_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/autophagy/_document_%20-%20TFEB%20AND%20TFE3%2C%20LINKING%20LYSOSOMES%20TO%20CELLULAR%20ADAPTATION%20TO%20STRESS.md) | [[notes/autophagy/_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS.md\|notes]] | 7,867 |
-| autophagy | 07_JUL_2026 | [_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/autophagy/_document_%20-%20The%20Beneficial%20and%20Adverse%20Effects%20of%20Autophagic%20Response%20to%20Caloric%20Restriction%20and%20Fasting.md) | [[notes/autophagy/_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting.md\|notes]] | 6,057 |
-| autophagy | 07_JUL_2026 | [_document_ - The autophagy enhancer spermidine reverses arterial aging.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/autophagy/_document_%20-%20The%20autophagy%20enhancer%20spermidine%20reverses%20arterial%20aging.md) | [[notes/autophagy/_document_ - The autophagy enhancer spermidine reverses arterial aging.md\|notes]] | 1,545 |
-| autophagy | 07_JUL_2026 | [_document_ - mTOR signaling at a glance.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/autophagy/_document_%20-%20mTOR%20signaling%20at%20a%20glance.md) | [[notes/autophagy/_document_ - mTOR signaling at a glance.md\|notes]] | 6,619 |
-| autophagy | 07_JUL_2026 | [_document_ - peroxisomes, autophagy.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/autophagy/_document_%20-%20peroxisomes%2C%20autophagy.md) | [[notes/autophagy/_document_ - peroxisomes, autophagy.md\|notes]] | 5,504 |
-| cancer | 07_JUL_2026 | [_document_ - Apoptosis in cancer from pathogenesis to treatment.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/cancer/_document_%20-%20Apoptosis%20in%20cancer%20from%20pathogenesis%20to%20treatment.md) | [[notes/cancer/_document_ - Apoptosis in cancer from pathogenesis to treatment.md\|notes]] | 10,370 |
-| cancer | 07_JUL_2026 | [_document_ - Caspase.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/cancer/_document_%20-%20Caspase.md) | [[notes/cancer/_document_ - Caspase.md\|notes]] | 1,247 |
-| cancer | 07_JUL_2026 | [_document_ - Evading apoptosis in cancer.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/cancer/_document_%20-%20Evading%20apoptosis%20in%20cancer.md) | [[notes/cancer/_document_ - Evading apoptosis in cancer.md\|notes]] | 12,364 |
-| cancer | 07_JUL_2026 | [_document_ - Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/cancer/_document_%20-%20Honeybee%20venom%20and%20melittin%20suppress%20growth%20factor%20receptor%20activation%20in%20HER2-enriched%20and%20triple-negative%20breast%20cancer%20-%20npj%20Precision%20Oncology.md) | [[notes/cancer/_document_ - Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology.md\|notes]] | 12,628 |
-| cancer | 07_JUL_2026 | [_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/cancer/_document_%20-%20Ivermectin%2C%20a%20potential%20anticancer%20drug%20derived%20from%20an%20antiparasitic%20drug.md) | [[notes/cancer/_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug.md\|notes]] | 10,578 |
-| cancer | 07_JUL_2026 | [_document_ - Ivermectin, ‘Wonder drug’ from Japan the human use perspective.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/cancer/_document_%20-%20Ivermectin%2C%20%E2%80%98Wonder%20drug%E2%80%99%20from%20Japan%20the%20human%20use%20perspective.md) | [[notes/cancer/_document_ - Ivermectin, ‘Wonder drug’ from Japan the human use perspective.md\|notes]] | 7,487 |
-| cancer | 07_JUL_2026 | [_document_ - Oral Fenbendazole for Cancer Therapy in Humans and Animals.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/cancer/_document_%20-%20Oral%20Fenbendazole%20for%20Cancer%20Therapy%20in%20Humans%20and%20Animals.md) | [[notes/cancer/_document_ - Oral Fenbendazole for Cancer Therapy in Humans and Animals.md\|notes]] | 558 |
-| cancer | 07_JUL_2026 | [_document_ - RGD peptide in cancer targeting Benefits, challenges, solutions, and possible integrin–RGD interactions.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/cancer/_document_%20-%20RGD%20peptide%20in%20cancer%20targeting%20Benefits%2C%20challenges%2C%20solutions%2C%20and%20possible%20integrin%E2%80%93RGD%20interactions.md) | [[notes/cancer/_document_ - RGD peptide in cancer targeting Benefits, challenges, solutions, and possible integrin–RGD interactions.md\|notes]] | 27,414 |
-| comt | 07_JUL_2026 | [_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/comt/_document_%20-%20COMT%20How%20to%20Optimize%20Your%20Supplements%20for%20Your%20COMT%20Genotype.md) | [[notes/comt/_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype.md\|notes]] | 2,308 |
-| comt | 07_JUL_2026 | [_document_ - Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/comt/_document_%20-%20Genetic%20variation%20in%20COMT%20activity%20impacts%20learning%20and%20dopamine%20release%20capacity%20in%20the%20striatum.md) | [[notes/comt/_document_ - Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum.md\|notes]] | 1,855 |
-| epigenetics | 07_JUL_2026 | [_document_ - Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/epigenetics/_document_%20-%20Application%20of%20the%20Yamanaka%20Transcription%20Factors%20Oct4%2C%20Sox2%2C%20Klf4%2C%20and%20c-Myc%20from%20the%20Laboratory%20to%20the%20Clinic.md) | [[notes/epigenetics/_document_ - Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic.md\|notes]] | 7,213 |
-| epigenetics | 07_JUL_2026 | [_document_ - Cellular Mechanisms and Regulation of Quiescence.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/epigenetics/_document_%20-%20Cellular%20Mechanisms%20and%20Regulation%20of%20Quiescence.md) | [[notes/epigenetics/_document_ - Cellular Mechanisms and Regulation of Quiescence.md\|notes]] | 8,007 |
-| epigenetics | 07_JUL_2026 | [_document_ - Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/epigenetics/_document_%20-%20Epigenetic%20alterations%E2%80%94The%20silent%20indicator%20for%20early%20aging%20and%20age%E2%80%90associated%20health%E2%80%90risks.md) | [[notes/epigenetics/_document_ - Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks.md\|notes]] | 4,595 |
-| epigenetics | 07_JUL_2026 | [_document_ - Epigenetic changes during aging and their reprogramming potential.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/epigenetics/_document_%20-%20Epigenetic%20changes%20during%20aging%20and%20their%20reprogramming%20potential.md) | [[notes/epigenetics/_document_ - Epigenetic changes during aging and their reprogramming potential.md\|notes]] | 10,875 |
-| epigenetics | 07_JUL_2026 | [_document_ - Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/epigenetics/_document_%20-%20Molecular%20Insights%20into%20Reprogramming-Initiation%20Events%20Mediated%20by%20the%20OSKM%20Gene%20Regulatory%20Network.md) | [[notes/epigenetics/_document_ - Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network.md\|notes]] | 13,267 |
-| epigenetics | 07_JUL_2026 | [_document_ - Small molecule compounds that induce cellular senescence.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/epigenetics/_document_%20-%20Small%20molecule%20compounds%20that%20induce%20cellular%20senescence.md) | [[notes/epigenetics/_document_ - Small molecule compounds that induce cellular senescence.md\|notes]] | 13,948 |
-| epigenetics | 07_JUL_2026 | [_document_ - The Gut Microbiome, Aging, and Longevity A Systematic Review.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/epigenetics/_document_%20-%20The%20Gut%20Microbiome%2C%20Aging%2C%20and%20Longevity%20A%20Systematic%20Review.md) | [[notes/epigenetics/_document_ - The Gut Microbiome, Aging, and Longevity A Systematic Review.md\|notes]] | 12,843 |
-| epigenetics | 07_JUL_2026 | [_document_ - This method to reverse cellular aging is about to be tested in humans.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/epigenetics/_document_%20-%20This%20method%20to%20reverse%20cellular%20aging%20is%20about%20to%20be%20tested%20in%20humans.md) | [[notes/epigenetics/_document_ - This method to reverse cellular aging is about to be tested in humans.md\|notes]] | 2,349 |
-| epigenetics | 07_JUL_2026 | [_document_ - xenohormesis, mitohormesis.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/epigenetics/_document_%20-%20xenohormesis%2C%20mitohormesis.md) | [[notes/epigenetics/_document_ - xenohormesis, mitohormesis.md\|notes]] | 1,390 |
-| neuromelanin | 07_JUL_2026 | [_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/neuromelanin/_document_%20-%20Neuromelanin%2C%20aging%2C%20and%20neuronal%20vulnerability%20in%20Parkinson%27s%20disease.md) | [[notes/neuromelanin/_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease.md\|notes]] | 9,731 |
-| neuromelanin | 07_JUL_2026 | [_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/neuromelanin/_document_%20-%20Neuromelanin%2C%20one%20of%20the%20most%20overlooked%20molecules%20in%20modern%20medicine%2C%20is%20not%20a%20spectator.md) | [[notes/neuromelanin/_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator.md\|notes]] | 3,775 |
-| oxidative_stress | 07_JUL_2026 | [_document_ - Oxidative Stress Harms and Benefits for Human Health.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/oxidative_stress/_document_%20-%20Oxidative%20Stress%20Harms%20and%20Benefits%20for%20Human%20Health.md) | [[notes/oxidative_stress/_document_ - Oxidative Stress Harms and Benefits for Human Health.md\|notes]] | 9,123 |
-| sirtuins | 07_JUL_2026 | [_document_ - The Sirtuin System The Holy Grail of Resveratrol?.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/_document_%20-%20The%20Sirtuin%20System%20The%20Holy%20Grail%20of%20Resveratrol%3F.md) | [[notes/sirtuins/_document_ - The Sirtuin System The Holy Grail of Resveratrol?.md\|notes]] | 3,869 |
-| sirtuins | 07_JUL_2026 | [_document_ - sirtuins (overview, CD38 KO risks, cancer therapies).md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/_document_%20-%20sirtuins%20%28overview%2C%20CD38%20KO%20risks%2C%20cancer%20therapies%29.md) | [[notes/sirtuins/_document_ - sirtuins (overview, CD38 KO risks, cancer therapies).md\|notes]] | 2,684 |
-| sirtuins | 07_JUL_2026 | [_document_ - sirtuins (resveratrol), gemini.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/_document_%20-%20sirtuins%20%28resveratrol%29%2C%20gemini.md) | [[notes/sirtuins/_document_ - sirtuins (resveratrol), gemini.md\|notes]] | 3,739 |
-| sirtuins | 07_JUL_2026 | [_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/_document_%20-%20sirtuins%20Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i.md) | [[notes/sirtuins/_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i.md\|notes]] | 13,333 |
-| sirtuins | 07_JUL_2026 | [_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/_document_%20-%20sirtuins%20Shedding%20light%20on%20structure%2C%20function%20and%20regulation%20of%20human%20sirtuins%20a%20comprehensive%20review.md) | [[notes/sirtuins/_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md\|notes]] | 11,163 |
-| sirtuins | 07_JUL_2026 | [_document_ - sirtuins in health and disease s41392-022-01257-8.md](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/_document_%20-%20sirtuins%20in%20health%20and%20disease%20s41392-022-01257-8.md) | [[notes/sirtuins/_document_ - sirtuins in health and disease s41392-022-01257-8.md\|notes]] | 74,002 |
+- `_link`: [biochemical_basis_hormesis_2026.04.20.719646v1.full](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/_document_%20-%20biochemical_basis_hormesis_2026.04.20.719646v1.full.md) [[notes/_link/_document_ - biochemical_basis_hormesis_2026.04.20.719646v1.full.md|wiki]] (09_JUL_2026 03:44 PM PDT)
+- `cancer`: [Cellular senescence and senescence‐associated secretory phenotype via the cGAS_STING signaling pa...](https://github.com/jkuo45/llm-wiki/blob/dev/notes/cancer/_document_%20-%20Cellular%20senescence%20and%20senescence%E2%80%90associated%20secretory%20phenotype%20via%20the%20cGAS_STING%20signaling%20pathway%20in%20cancer.md) [[notes/cancer/_document_ - Cellular senescence and senescence‐associated secretory phenotype via the cGAS_STING signaling pathway in cancer.md|wiki]] (09_JUL_2026 03:16 PM PDT)
+- `epigenetics`: [The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression](https://github.com/jkuo45/llm-wiki/blob/dev/notes/epigenetics/_document_%20-%20The%20role%20of%20the%20dynamic%20epigenetic%20landscape%20in%20senescence_orchestrating%20SASP%20expression.md) [[notes/epigenetics/_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md|wiki]] (09_JUL_2026 02:43 PM PDT)
+- `sirtuins`: [centenarian_sirt_6 nihpp-rs9997679v1](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/_document_%20-%20centenarian_sirt_6%20nihpp-rs9997679v1.md) [[notes/sirtuins/_document_ - centenarian_sirt_6 nihpp-rs9997679v1.md|wiki]] (09_JUL_2026 01:03 PM PDT)
+- `_link`: [Mitohormesis - 2014_FEB](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/_document_%20-%20Mitohormesis%20-%202014_FEB.md) [[notes/_link/_document_ - Mitohormesis - 2014_FEB.md|wiki]] (09_JUL_2026 03:47 AM PDT)
+- `_link`: [Mitohormesis - 2023_NOV](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/_document_%20-%20Mitohormesis%20-%202023_NOV.md) [[notes/_link/_document_ - Mitohormesis - 2023_NOV.md|wiki]] (09_JUL_2026 03:47 AM PDT)
+- `adrenochrome`: [Adrenochrome (pubchem)](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20Adrenochrome%20%28pubchem%29.md) [[notes/adrenochrome/_document_ - Adrenochrome (pubchem).md|wiki]] (09_JUL_2026 03:22 AM PDT)
+- `adrenochrome`: [Aminoguanidine (pubchem)](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20Aminoguanidine%20%28pubchem%29.md) [[notes/adrenochrome/_document_ - Aminoguanidine (pubchem).md|wiki]] (09_JUL_2026 03:22 AM PDT)
+- `adrenochrome`: [formation, chemical stability](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20formation%2C%20chemical%20stability.md) [[notes/adrenochrome/_document_ - formation, chemical stability.md|wiki]] (09_JUL_2026 03:22 AM PDT)
+- `adrenochrome`: [glycation, enzymatic removal](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20glycation%2C%20enzymatic%20removal.md) [[notes/adrenochrome/_document_ - glycation, enzymatic removal.md|wiki]] (09_JUL_2026 03:22 AM PDT)
+- `adrenochrome`: [glyco-oxidative modulation](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20glyco-oxidative%20modulation.md) [[notes/adrenochrome/_document_ - glyco-oxidative modulation.md|wiki]] (09_JUL_2026 03:22 AM PDT)
+- `adrenochrome`: [intermediates, precursor, hemoglobin](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20intermediates%2C%20precursor%2C%20hemoglobin.md) [[notes/adrenochrome/_document_ - intermediates, precursor, hemoglobin.md|wiki]] (09_JUL_2026 03:22 AM PDT)
+- `_link`: [Humanin a harbinger of mitochondrial-derived peptides?](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/_document_%20-%20Humanin%20a%20harbinger%20of%20mitochondrial-derived%20peptides%3F.md) [[notes/_link/_document_ - Humanin a harbinger of mitochondrial-derived peptides?.md|wiki]] (09_JUL_2026 03:21 AM PDT)
+- `adrenochrome`: [as senotherapeutic agent](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20as%20senotherapeutic%20agent.md) [[notes/adrenochrome/_document_ - as senotherapeutic agent.md|wiki]] (09_JUL_2026 03:13 AM PDT)
+- `_link`: [Fisetin is a senotherapeutic that extends health and lifespan](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/_document_%20-%20Fisetin%20is%20a%20senotherapeutic%20that%20extends%20health%20and%20lifespan.md) [[notes/_link/_document_ - Fisetin is a senotherapeutic that extends health and lifespan.md|wiki]] (09_JUL_2026 03:04 AM PDT)
+- `_link`: [Fisetin—In Search of Better Bioavailability—From Macro to Nano Modifications A Review](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/_document_%20-%20Fisetin%E2%80%94In%20Search%20of%20Better%20Bioavailability%E2%80%94From%20Macro%20to%20Nano%20Modifications%20A%20Review.md) [[notes/_link/_document_ - Fisetin—In Search of Better Bioavailability—From Macro to Nano Modifications A Review.md|wiki]] (09_JUL_2026 03:04 AM PDT)
+- `adrenochrome`: [Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Know...](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20Pharmacological%20Effects%20of%20Urolithin%20A%20and%20Its%20Role%20in%20Muscle%20Health%20and%20Performance%20Current%20Knowledge%20and%20Prospects.md) [[notes/adrenochrome/_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects.md|wiki]] (08_JUL_2026 10:45 PM PDT)
+- `_link`: [Aminoguanidine An AGE Product Inhibitor  Antiaging Systems Articles](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/_document_%20-%20Aminoguanidine%20An%20AGE%20Product%20Inhibitor%20%20Antiaging%20Systems%20Articles.md) [[notes/_link/_document_ - Aminoguanidine An AGE Product Inhibitor  Antiaging Systems Articles.md|wiki]] (08_JUL_2026 09:35 PM PDT)
+- `_link`: [Creatine in Health and Disease](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/_document_%20-%20Creatine%20in%20Health%20and%20Disease.md) [[notes/_link/_document_ - Creatine in Health and Disease.md|wiki]] (08_JUL_2026 09:35 PM PDT)
+- `_link`: [IDO01, NAD+, KP Pathway, grok](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/_document_%20-%20IDO01%2C%20NAD%2B%2C%20KP%20Pathway%2C%20grok.md) [[notes/_link/_document_ - IDO01, NAD+, KP Pathway, grok.md|wiki]] (08_JUL_2026 09:35 PM PDT)
+- `_link`: [Methylene Blue - StatPearls](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/_document_%20-%20Methylene%20Blue%20-%20StatPearls.md) [[notes/_link/_document_ - Methylene Blue - StatPearls.md|wiki]] (08_JUL_2026 09:35 PM PDT)
+- `_link`: [Methylene Blue Dosage What Actually Works (And What's Too Much)](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/_document_%20-%20Methylene%20Blue%20Dosage%20What%20Actually%20Works%20%28And%20What%27s%20Too%20Much%29.md) [[notes/_link/_document_ - Methylene Blue Dosage What Actually Works (And What's Too Much).md|wiki]] (08_JUL_2026 09:35 PM PDT)
+- `_link`: [Neuroprotective Actions of Methylene Blue and Its Derivatives](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/_document_%20-%20Neuroprotective%20Actions%20of%20Methylene%20Blue%20and%20Its%20Derivatives.md) [[notes/_link/_document_ - Neuroprotective Actions of Methylene Blue and Its Derivatives.md|wiki]] (08_JUL_2026 09:35 PM PDT)
+- `_link`: [Rapamycin for longevity opinion article](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/_document_%20-%20Rapamycin%20for%20longevity%20opinion%20article.md) [[notes/_link/_document_ - Rapamycin for longevity opinion article.md|wiki]] (08_JUL_2026 09:35 PM PDT)
+- `_link`: [Rapamycin for longevity the pros, the cons, and future perspectives](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/_document_%20-%20Rapamycin%20for%20longevity%20the%20pros%2C%20the%20cons%2C%20and%20future%20perspectives.md) [[notes/_link/_document_ - Rapamycin for longevity the pros, the cons, and future perspectives.md|wiki]] (08_JUL_2026 09:35 PM PDT)
+- `_link`: [SASP, senescent cells, grok](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/_document_%20-%20SASP%2C%20senescent%20cells%2C%20grok.md) [[notes/_link/_document_ - SASP, senescent cells, grok.md|wiki]] (08_JUL_2026 09:35 PM PDT)
+- `_link`: [The Mechanistic Target of Rapamycin (mTOR) Pathway as a Target of Anti-aging Therapies The Role o...](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/_document_%20-%20The%20Mechanistic%20Target%20of%20Rapamycin%20%28mTOR%29%20Pathway%20as%20a%20Target%20of%20Anti-aging%20Therapies%20The%20Role%20of%20Rapamycin%20and%20Its%20Analogs%20in%20the%20Regulation%20of%20Cellular%20Processes%20and%20Their%20Impact%20on%20Longevity.md) [[notes/_link/_document_ - The Mechanistic Target of Rapamycin (mTOR) Pathway as a Target of Anti-aging Therapies The Role of Rapamycin and Its Analogs in the Regulation of Cellular Processes and Their Impact on Longevity.md|wiki]] (08_JUL_2026 09:35 PM PDT)
+- `_link`: [The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/_document_%20-%20The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications.md) [[notes/_link/_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications.md|wiki]] (08_JUL_2026 09:35 PM PDT)
+- `_link`: [methylene blue and aminguanidine](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/_document_%20-%20methylene%20blue%20and%20aminguanidine.md) [[notes/_link/_document_ - methylene blue and aminguanidine.md|wiki]] (08_JUL_2026 09:35 PM PDT)
+- `adrenochrome`: [Dietary Advanced Glycation End Products and Aging](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20Dietary%20Advanced%20Glycation%20End%20Products%20and%20Aging.md) [[notes/adrenochrome/_document_ - Dietary Advanced Glycation End Products and Aging.md|wiki]] (08_JUL_2026 09:35 PM PDT)
+- `adrenochrome`: [Methemoglobin and Methemoglobinemia](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20Methemoglobin%20and%20Methemoglobinemia.md) [[notes/adrenochrome/_document_ - Methemoglobin and Methemoglobinemia.md|wiki]] (08_JUL_2026 09:35 PM PDT)
+- `adrenochrome`: [NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietar...](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20NAD%2B%E2%80%89Precursors%20Nicotinamide%20Mononucleotide%20%28NMN%29%20and%20Nicotinamide%20Riboside%20%28NR%29%20Potential%20Dietary%20Contribution%20to%20Health.md) [[notes/adrenochrome/_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health.md|wiki]] (08_JUL_2026 09:35 PM PDT)
+- `adrenochrome`: [Nicotinamide Riboside—The Current State of Research and Therapeutic Uses](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20Nicotinamide%20Riboside%E2%80%94The%20Current%20State%20of%20Research%20and%20Therapeutic%20Uses.md) [[notes/adrenochrome/_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses.md|wiki]] (08_JUL_2026 09:35 PM PDT)
+- `adrenochrome`: [Silver(1+) oxide](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20Silver%281%2B%29%20oxide.md) [[notes/adrenochrome/_document_ - Silver(1+) oxide.md|wiki]] (08_JUL_2026 09:35 PM PDT)
+- `adrenochrome`: [The Adrenochrome Pathway](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20The%20Adrenochrome%20Pathway.md) [[notes/adrenochrome/_document_ - The Adrenochrome Pathway.md|wiki]] (08_JUL_2026 09:35 PM PDT)
+- `adrenochrome`: [The role of glycation in the pathogenesis of aging and its prevention through herbal products and...](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20The%20role%20of%20glycation%20in%20the%20pathogenesis%20of%20aging%20and%20its%20prevention%20through%20herbal%20products%20and%20physical%20exercise.md) [[notes/adrenochrome/_document_ - The role of glycation in the pathogenesis of aging and its prevention through herbal products and physical exercise.md|wiki]] (08_JUL_2026 09:35 PM PDT)
+- `adrenochrome`: [US4501923A - Process for preparing adrenochrome](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20US4501923A%20-%20Process%20for%20preparing%20adrenochrome.md) [[notes/adrenochrome/_document_ - US4501923A - Process for preparing adrenochrome.md|wiki]] (08_JUL_2026 09:35 PM PDT)
+- `adrenochrome`: [molecular composition, mechanism](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20molecular%20composition%2C%20mechanism.md) [[notes/adrenochrome/_document_ - molecular composition, mechanism.md|wiki]] (08_JUL_2026 09:35 PM PDT)
+- `adrenochrome`: [neutrophil and erthrocyte](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20neutrophil%20and%20erthrocyte.md) [[notes/adrenochrome/_document_ - neutrophil and erthrocyte.md|wiki]] (08_JUL_2026 09:35 PM PDT)
+- `adrenochrome`: [neutrophils role in adrenochrome production](https://github.com/jkuo45/llm-wiki/blob/dev/notes/adrenochrome/_document_%20-%20neutrophils%20role%20in%20adrenochrome%20production.md) [[notes/adrenochrome/_document_ - neutrophils role in adrenochrome production.md|wiki]] (08_JUL_2026 09:35 PM PDT)
+- `autophagy`: [Autophagy and intermittent fasting the connection for cancer therapy?](https://github.com/jkuo45/llm-wiki/blob/dev/notes/autophagy/_document_%20-%20Autophagy%20and%20intermittent%20fasting%20the%20connection%20for%20cancer%20therapy%3F.md) [[notes/autophagy/_document_ - Autophagy and intermittent fasting the connection for cancer therapy?.md|wiki]] (08_JUL_2026 09:35 PM PDT)
+- `autophagy`: [Autophagy takes it all – autophagy inducers target immune aging](https://github.com/jkuo45/llm-wiki/blob/dev/notes/autophagy/_document_%20-%20Autophagy%20takes%20it%20all%20%E2%80%93%20autophagy%20inducers%20target%20immune%20aging.md) [[notes/autophagy/_document_ - Autophagy takes it all – autophagy inducers target immune aging.md|wiki]] (08_JUL_2026 09:35 PM PDT)
+- `autophagy`: [From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery](https://github.com/jkuo45/llm-wiki/blob/dev/notes/autophagy/_document_%20-%20From%20the%20regulatory%20mechanism%20of%20TFEB%20to%20its%20therapeutic%20implications%20-%20Cell%20Death%20Discovery.md) [[notes/autophagy/_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery.md|wiki]] (08_JUL_2026 09:35 PM PDT)
+- `autophagy`: [Kinase](https://github.com/jkuo45/llm-wiki/blob/dev/notes/autophagy/_document_%20-%20Kinase.md) [[notes/autophagy/_document_ - Kinase.md|wiki]] (08_JUL_2026 09:35 PM PDT)
+- `autophagy`: [Lysosome biogenesis Regulation and functions](https://github.com/jkuo45/llm-wiki/blob/dev/notes/autophagy/_document_%20-%20Lysosome%20biogenesis%20Regulation%20and%20functions.md) [[notes/autophagy/_document_ - Lysosome biogenesis Regulation and functions.md|wiki]] (08_JUL_2026 09:35 PM PDT)
+- `autophagy`: [MXL-3 and HLH-30 transcriptionally link lipolysis and autophagy to nutrient availability](https://github.com/jkuo45/llm-wiki/blob/dev/notes/autophagy/_document_%20-%20MXL-3%20and%20HLH-30%20transcriptionally%20link%20lipolysis%20and%20autophagy%20to%20nutrient%20availability.md) [[notes/autophagy/_document_ - MXL-3 and HLH-30 transcriptionally link lipolysis and autophagy to nutrient availability.md|wiki]] (08_JUL_2026 09:35 PM PDT)
+- `autophagy`: [TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS](https://github.com/jkuo45/llm-wiki/blob/dev/notes/autophagy/_document_%20-%20TFEB%20AND%20TFE3%2C%20LINKING%20LYSOSOMES%20TO%20CELLULAR%20ADAPTATION%20TO%20STRESS.md) [[notes/autophagy/_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS.md|wiki]] (08_JUL_2026 09:35 PM PDT)
+- `autophagy`: [The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting](https://github.com/jkuo45/llm-wiki/blob/dev/notes/autophagy/_document_%20-%20The%20Beneficial%20and%20Adverse%20Effects%20of%20Autophagic%20Response%20to%20Caloric%20Restriction%20and%20Fasting.md) [[notes/autophagy/_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting.md|wiki]] (08_JUL_2026 09:35 PM PDT)
+- `autophagy`: [The autophagy enhancer spermidine reverses arterial aging](https://github.com/jkuo45/llm-wiki/blob/dev/notes/autophagy/_document_%20-%20The%20autophagy%20enhancer%20spermidine%20reverses%20arterial%20aging.md) [[notes/autophagy/_document_ - The autophagy enhancer spermidine reverses arterial aging.md|wiki]] (08_JUL_2026 09:35 PM PDT)
+- `autophagy`: [mTOR signaling at a glance](https://github.com/jkuo45/llm-wiki/blob/dev/notes/autophagy/_document_%20-%20mTOR%20signaling%20at%20a%20glance.md) [[notes/autophagy/_document_ - mTOR signaling at a glance.md|wiki]] (08_JUL_2026 09:35 PM PDT)
+- `autophagy`: [peroxisomes, autophagy](https://github.com/jkuo45/llm-wiki/blob/dev/notes/autophagy/_document_%20-%20peroxisomes%2C%20autophagy.md) [[notes/autophagy/_document_ - peroxisomes, autophagy.md|wiki]] (08_JUL_2026 09:35 PM PDT)
+- `cancer`: [Apoptosis in cancer from pathogenesis to treatment](https://github.com/jkuo45/llm-wiki/blob/dev/notes/cancer/_document_%20-%20Apoptosis%20in%20cancer%20from%20pathogenesis%20to%20treatment.md) [[notes/cancer/_document_ - Apoptosis in cancer from pathogenesis to treatment.md|wiki]] (08_JUL_2026 09:35 PM PDT)
+- `cancer`: [Caspase](https://github.com/jkuo45/llm-wiki/blob/dev/notes/cancer/_document_%20-%20Caspase.md) [[notes/cancer/_document_ - Caspase.md|wiki]] (08_JUL_2026 09:35 PM PDT)
+- `cancer`: [Evading apoptosis in cancer](https://github.com/jkuo45/llm-wiki/blob/dev/notes/cancer/_document_%20-%20Evading%20apoptosis%20in%20cancer.md) [[notes/cancer/_document_ - Evading apoptosis in cancer.md|wiki]] (08_JUL_2026 09:35 PM PDT)
+- `cancer`: [Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and tripl...](https://github.com/jkuo45/llm-wiki/blob/dev/notes/cancer/_document_%20-%20Honeybee%20venom%20and%20melittin%20suppress%20growth%20factor%20receptor%20activation%20in%20HER2-enriched%20and%20triple-negative%20breast%20cancer%20-%20npj%20Precision%20Oncology.md) [[notes/cancer/_document_ - Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology.md|wiki]] (08_JUL_2026 09:35 PM PDT)
+- `cancer`: [Ivermectin, a potential anticancer drug derived from an antiparasitic drug](https://github.com/jkuo45/llm-wiki/blob/dev/notes/cancer/_document_%20-%20Ivermectin%2C%20a%20potential%20anticancer%20drug%20derived%20from%20an%20antiparasitic%20drug.md) [[notes/cancer/_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug.md|wiki]] (08_JUL_2026 09:35 PM PDT)
+- `cancer`: [Ivermectin, ‘Wonder drug’ from Japan the human use perspective](https://github.com/jkuo45/llm-wiki/blob/dev/notes/cancer/_document_%20-%20Ivermectin%2C%20%E2%80%98Wonder%20drug%E2%80%99%20from%20Japan%20the%20human%20use%20perspective.md) [[notes/cancer/_document_ - Ivermectin, ‘Wonder drug’ from Japan the human use perspective.md|wiki]] (08_JUL_2026 09:35 PM PDT)
+- `cancer`: [Oral Fenbendazole for Cancer Therapy in Humans and Animals](https://github.com/jkuo45/llm-wiki/blob/dev/notes/cancer/_document_%20-%20Oral%20Fenbendazole%20for%20Cancer%20Therapy%20in%20Humans%20and%20Animals.md) [[notes/cancer/_document_ - Oral Fenbendazole for Cancer Therapy in Humans and Animals.md|wiki]] (08_JUL_2026 09:35 PM PDT)
+- `cancer`: [RGD peptide in cancer targeting Benefits, challenges, solutions, and possible integrin–RGD intera...](https://github.com/jkuo45/llm-wiki/blob/dev/notes/cancer/_document_%20-%20RGD%20peptide%20in%20cancer%20targeting%20Benefits%2C%20challenges%2C%20solutions%2C%20and%20possible%20integrin%E2%80%93RGD%20interactions.md) [[notes/cancer/_document_ - RGD peptide in cancer targeting Benefits, challenges, solutions, and possible integrin–RGD interactions.md|wiki]] (08_JUL_2026 09:35 PM PDT)
+- `comt`: [COMT How to Optimize Your Supplements for Your COMT Genotype](https://github.com/jkuo45/llm-wiki/blob/dev/notes/comt/_document_%20-%20COMT%20How%20to%20Optimize%20Your%20Supplements%20for%20Your%20COMT%20Genotype.md) [[notes/comt/_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype.md|wiki]] (08_JUL_2026 09:35 PM PDT)
+- `comt`: [Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum](https://github.com/jkuo45/llm-wiki/blob/dev/notes/comt/_document_%20-%20Genetic%20variation%20in%20COMT%20activity%20impacts%20learning%20and%20dopamine%20release%20capacity%20in%20the%20striatum.md) [[notes/comt/_document_ - Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum.md|wiki]] (08_JUL_2026 09:35 PM PDT)
+- `epigenetics`: [Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory...](https://github.com/jkuo45/llm-wiki/blob/dev/notes/epigenetics/_document_%20-%20Application%20of%20the%20Yamanaka%20Transcription%20Factors%20Oct4%2C%20Sox2%2C%20Klf4%2C%20and%20c-Myc%20from%20the%20Laboratory%20to%20the%20Clinic.md) [[notes/epigenetics/_document_ - Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic.md|wiki]] (08_JUL_2026 09:35 PM PDT)
+- `epigenetics`: [Cellular Mechanisms and Regulation of Quiescence](https://github.com/jkuo45/llm-wiki/blob/dev/notes/epigenetics/_document_%20-%20Cellular%20Mechanisms%20and%20Regulation%20of%20Quiescence.md) [[notes/epigenetics/_document_ - Cellular Mechanisms and Regulation of Quiescence.md|wiki]] (08_JUL_2026 09:35 PM PDT)
+- `epigenetics`: [Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks](https://github.com/jkuo45/llm-wiki/blob/dev/notes/epigenetics/_document_%20-%20Epigenetic%20alterations%E2%80%94The%20silent%20indicator%20for%20early%20aging%20and%20age%E2%80%90associated%20health%E2%80%90risks.md) [[notes/epigenetics/_document_ - Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks.md|wiki]] (08_JUL_2026 09:35 PM PDT)
+- `epigenetics`: [Epigenetic changes during aging and their reprogramming potential](https://github.com/jkuo45/llm-wiki/blob/dev/notes/epigenetics/_document_%20-%20Epigenetic%20changes%20during%20aging%20and%20their%20reprogramming%20potential.md) [[notes/epigenetics/_document_ - Epigenetic changes during aging and their reprogramming potential.md|wiki]] (08_JUL_2026 09:35 PM PDT)
+- `epigenetics`: [Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network](https://github.com/jkuo45/llm-wiki/blob/dev/notes/epigenetics/_document_%20-%20Molecular%20Insights%20into%20Reprogramming-Initiation%20Events%20Mediated%20by%20the%20OSKM%20Gene%20Regulatory%20Network.md) [[notes/epigenetics/_document_ - Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network.md|wiki]] (08_JUL_2026 09:35 PM PDT)
+- `epigenetics`: [Small molecule compounds that induce cellular senescence](https://github.com/jkuo45/llm-wiki/blob/dev/notes/epigenetics/_document_%20-%20Small%20molecule%20compounds%20that%20induce%20cellular%20senescence.md) [[notes/epigenetics/_document_ - Small molecule compounds that induce cellular senescence.md|wiki]] (08_JUL_2026 09:35 PM PDT)
+- `epigenetics`: [The Gut Microbiome, Aging, and Longevity A Systematic Review](https://github.com/jkuo45/llm-wiki/blob/dev/notes/epigenetics/_document_%20-%20The%20Gut%20Microbiome%2C%20Aging%2C%20and%20Longevity%20A%20Systematic%20Review.md) [[notes/epigenetics/_document_ - The Gut Microbiome, Aging, and Longevity A Systematic Review.md|wiki]] (08_JUL_2026 09:35 PM PDT)
+- `epigenetics`: [This method to reverse cellular aging is about to be tested in humans](https://github.com/jkuo45/llm-wiki/blob/dev/notes/epigenetics/_document_%20-%20This%20method%20to%20reverse%20cellular%20aging%20is%20about%20to%20be%20tested%20in%20humans.md) [[notes/epigenetics/_document_ - This method to reverse cellular aging is about to be tested in humans.md|wiki]] (08_JUL_2026 09:35 PM PDT)
+- `epigenetics`: [xenohormesis, mitohormesis](https://github.com/jkuo45/llm-wiki/blob/dev/notes/epigenetics/_document_%20-%20xenohormesis%2C%20mitohormesis.md) [[notes/epigenetics/_document_ - xenohormesis, mitohormesis.md|wiki]] (08_JUL_2026 09:35 PM PDT)
+- `neuromelanin`: [Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease](https://github.com/jkuo45/llm-wiki/blob/dev/notes/neuromelanin/_document_%20-%20Neuromelanin%2C%20aging%2C%20and%20neuronal%20vulnerability%20in%20Parkinson%27s%20disease.md) [[notes/neuromelanin/_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease.md|wiki]] (08_JUL_2026 09:35 PM PDT)
+- `neuromelanin`: [Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator](https://github.com/jkuo45/llm-wiki/blob/dev/notes/neuromelanin/_document_%20-%20Neuromelanin%2C%20one%20of%20the%20most%20overlooked%20molecules%20in%20modern%20medicine%2C%20is%20not%20a%20spectator.md) [[notes/neuromelanin/_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator.md|wiki]] (08_JUL_2026 09:35 PM PDT)
+- `oxidative_stress`: [Oxidative Stress Harms and Benefits for Human Health](https://github.com/jkuo45/llm-wiki/blob/dev/notes/oxidative_stress/_document_%20-%20Oxidative%20Stress%20Harms%20and%20Benefits%20for%20Human%20Health.md) [[notes/oxidative_stress/_document_ - Oxidative Stress Harms and Benefits for Human Health.md|wiki]] (08_JUL_2026 09:35 PM PDT)
+- `sirtuins`: [The Sirtuin System The Holy Grail of Resveratrol?](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/_document_%20-%20The%20Sirtuin%20System%20The%20Holy%20Grail%20of%20Resveratrol%3F.md) [[notes/sirtuins/_document_ - The Sirtuin System The Holy Grail of Resveratrol?.md|wiki]] (08_JUL_2026 09:35 PM PDT)
+- `sirtuins`: [sirtuins (overview, CD38 KO risks, cancer therapies)](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/_document_%20-%20sirtuins%20%28overview%2C%20CD38%20KO%20risks%2C%20cancer%20therapies%29.md) [[notes/sirtuins/_document_ - sirtuins (overview, CD38 KO risks, cancer therapies).md|wiki]] (08_JUL_2026 09:35 PM PDT)
+- `sirtuins`: [sirtuins (resveratrol), gemini](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/_document_%20-%20sirtuins%20%28resveratrol%29%2C%20gemini.md) [[notes/sirtuins/_document_ - sirtuins (resveratrol), gemini.md|wiki]] (08_JUL_2026 09:35 PM PDT)
+- `sirtuins`: [sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/_document_%20-%20sirtuins%20Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i.md) [[notes/sirtuins/_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i.md|wiki]] (08_JUL_2026 09:35 PM PDT)
+- `sirtuins`: [sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive r...](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/_document_%20-%20sirtuins%20Shedding%20light%20on%20structure%2C%20function%20and%20regulation%20of%20human%20sirtuins%20a%20comprehensive%20review.md) [[notes/sirtuins/_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review.md|wiki]] (08_JUL_2026 09:35 PM PDT)
+- `sirtuins`: [sirtuins in health and disease s41392-022-01257-8](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/_document_%20-%20sirtuins%20in%20health%20and%20disease%20s41392-022-01257-8.md) [[notes/sirtuins/_document_ - sirtuins in health and disease s41392-022-01257-8.md|wiki]] (08_JUL_2026 09:35 PM PDT)
 <!-- END GENERATED: document_list -->
-
-#

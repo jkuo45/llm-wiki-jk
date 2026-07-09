@@ -1,13 +1,12 @@
 ---
 title: ABCG1
-description: 'Overview: ABCG1 is a membrane transport protein that facilitates
+description: 'Overview: ABCG1 is a membrane transport protein that facilitates'
   the movement of molecules across biological membranes. It mediates substrate translocation
-  through conformational changes driven...'
-type: entity
+  through conformational changes driven...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Transporter
+  - transporter
 aliases: [ATP-binding Cassette G1]
 
 ---
@@ -29,5 +28,5 @@ aliases: [ATP-binding Cassette G1]
 
 ## Linking Summary
 - New links added: [[ABCG1]]
-- Strong connections to strengthen: [[ABCG1]] ↔ [[ABCG1]]
+  - Strong connections to strengthen: [[ABCG1]] ↔ [[ABCG1]]
 

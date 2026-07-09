@@ -1,12 +1,11 @@
 ---
 title: Ketogenesis
-description: 'Ketogenesis is the metabolic process by which the liver produces
-  ketone bodies (such as acetoacetate and β-hydroxybutyrate) from fatty acids.'
-type: entity
+description: Ketogenesis is the metabolic process by which the liver produces
+  ketone bodies (such as acetoacetate and β-hydroxybutyrate) from fatty acids.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Biological Process
+  - biological-process
 aliases: []
 ---
 
@@ -30,6 +29,14 @@ aliases: []
 ## Process
 
 Ketogenesis produces acetoacetate and β-hydroxybutyrate during fasting. β-Hydroxybutyrate induces [[Autophagy]] by inhibiting HDACs and activating [[FOXO]].
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - Under fasting conditions, the inhibition of mTORC1 (AMP/ATP↑) can lead to the activation of autophagy, promotion of Ketogenesis, and inhibition of glycolysis and glutaminolysis in tumor cells \[\].
+
 
 ## Connections
 

@@ -1,11 +1,10 @@
 ---
 title: GABA
 description: Gamma-aminobutyric acid (GABA) is the chief inhibitory neurotransmitter in the developmentally mature mammalian central nervous system. It was initially thought to be the target of Ivermectin.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Biological Molecule
+  - biological-molecule
 aliases: []
 ---
 
@@ -28,6 +27,14 @@ GABA maintains neuronal excitability balance and modulates neuroendocrine and au
 ## Pathological & Clinical Relevance
 
 GABAergic signaling exerts tumor-modulatory effects. GABA can inhibit proliferation of some carcinomas via GABA_B receptor–mediated suppression of [[cAMP]]/ERK and can influence [[Glioblastoma]] growth, where GABA release by tumor cells shapes the peritumoral excitatory/inhibitory balance and seizure propensity. GABA receptors are being explored as modifiers of the [[Tumor Microenvironment]] and neuro-immune axis. Understanding that ivermectin does not act primarily through GABA in vertebrates clarifies its anticancer mechanism and safety profile.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, ‘Wonder drug’ from Japan the human use perspective|Ivermectin, ‘Wonder drug’ from Japan the human use perspective]]
+    - Mode of action Initially, researchers working on the development of Ivermectin believed that it blocked neurotransmitters, acting on GABA-gated Cl − channels, exhibiting potent disruption at GABA receptors in invertebrates and mammals.
+
 
 ## Connections
 

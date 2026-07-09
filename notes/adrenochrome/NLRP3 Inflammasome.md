@@ -3,11 +3,10 @@ title: NLRP3 Inflammasome
 description: The NLRP3 inflammasome is a multi-protein complex that acts as a sensor
   for a wide range of endogenous and exogenous danger signals, triggering the inflammatory
   response.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
   - inflammation
 aliases: []
 ---

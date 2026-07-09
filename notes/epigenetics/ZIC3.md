@@ -1,11 +1,10 @@
 ---
 title: ZIC3
 description: ZIC3 is a zinc finger transcription factor of the ZIC family that governs left-right axis specification during embryonic development and functions as a downstream effector within the Yamanaka pluripotency network.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Gene
+  - gene
 aliases: []
 ---
 

@@ -1,12 +1,11 @@
 ---
 title: Microautophagy
-description: 'Microautophagy is a type of Autophagy characterized by the direct
-  engulfment of cytoplasmic components by the Lysosome or vacuolar membrane.'
-type: entity
+description: Microautophagy is a type of Autophagy characterized by the direct
+  engulfment of cytoplasmic components by the Lysosome or vacuolar membrane.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Biological Process
+  - biological-process
   - autophagy
 aliases: []
 ---
@@ -27,6 +26,20 @@ aliases: []
 ## Process
 
 Microautophagy involves direct engulfment of cytoplasmic material by the lysosome/vacuole via membrane invagination, independent of [[Autophagosome]] formation.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Autophagy and intermittent fasting the connection for cancer therapy?|Autophagy and intermittent fasting the connection for cancer therapy?]]
+    - Microautophagy involves the direct engulfment of cargo in endosomal/lysosomal membrane invaginations. Chaperone-Mediated Autophagy (CMA) recycles soluble proteins with an exposed (h
+
+  - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
+    - The three types of autophagy can be classified as Macroautophagy, Microautophagy and Chaperone-Mediated Autophagy.
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - To date, 3 different types of autophagy mechanisms, namely Macroautophagy, Microautophagy, and Chaperone-Mediated Autophagy, have been indicated in eukaryotic cells \[\].
+
 
 ## Connections
 

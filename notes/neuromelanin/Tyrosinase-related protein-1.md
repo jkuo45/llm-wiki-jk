@@ -1,11 +1,10 @@
 ---
 title: Tyrosinase-related protein-1
 description: Tyrosinase-related protein-1 (TRP-1) is a melanosomal enzyme of the tyrosinase family involved in eumelanin biosynthesis; its putative CNS expression is investigated in relation to Neuromelanin synthesis and Parkinson's Disease.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Enzyme
+  - enzyme
 aliases: []
 ---
 
@@ -28,6 +27,14 @@ Alterations in melanogenic enzymes have been observed in PD models. For instance
 ## Research Relevance
 
 Defining TRP-1's CNS presence and function could clarify whether neuromelanin is enzymatically templated, inform [[Positron Emission Tomography]]/MRI biomarker interpretation, and reveal targets for modulating pigment toxicity in PD.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease|Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease]]
+    - doi=\(93\)90349-k&)\] Linking Summary: - New links added: Konstantin Nikolaevich Tretiakoff, Pale Bodies, Immunoglobulin G, Major histocompatibility complex class I, Lipofuscin, Eumelanin, Pheomelanin, L-Tyrosine, TFEB, Ambroxol, p62, Ubiquitin, Bradykinesi...
+
 
 ## Connections
 

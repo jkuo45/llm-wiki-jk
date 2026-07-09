@@ -2,14 +2,13 @@
 title: Beta-amyloid
 description: Peptides of 36–43 amino acids that are the main component of the amyloid
   plaques found in the brains of people with Alzheimer's Disease.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Alzheimer's Disease
+  - alzheimer's-disease
   - neurodegeneration
   - amyloid
-  - Peptide
+  - chemical-compound
 aliases:
   - Aβ
   - Amyloid beta
@@ -116,6 +115,19 @@ The therapeutic landscape for Aβ-targeted therapy has undergone a dramatic tran
 
 - **Emerging approaches:** Anti-tau immunotherapies, [[NAD+]] precursors, [[Autophagy]] modulators, and combination therapies targeting both Aβ and tau are under active investigation. Gene therapy approaches using CRISPR-based editing of *APP* and antisense oligonucleotides targeting *APP* mRNA are in preclinical development.
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - It is characterized by abnormal deposition of Beta-amyloid in neuritic plaques and the formation of intraneuronal neurofibrillary tangles (NFTs) (reviewed in (Himmelstein et al 2012)) (Peric & Annaert 2015)).
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - SIRT1 has since been shown to also protect neurons against Beta-amyloid-induced toxicity by inhibiting NFKB signalling in microglia or by downregulating the serine/threonine ROCK1 (Rho kinase) expression in neurons, resulting in induction of _α_ -secretase .
+
+
 ## Connections
 
 - [[Alzheimer's Disease]] — neurodegenerative disease; tau and amyloid-β pathology are its two hallmark features
@@ -156,4 +168,4 @@ The therapeutic landscape for Aβ-targeted therapy has undergone a dramatic tran
 - New links added: [[APP]], [[BACE1]], [[Presenilin]], [[Tau Protein]], [[GSK3β]], [[CDK5]], [[Prion Protein|PrPC]], [[NMDA Receptor]], [[Microglia]], [[Astrocytes]], [[Neprilysin]], [[Insulin-Degrading Enzyme|IDE]], [[Reactive Oxygen Species|ROS]], [[Autophagy]], [[TFEB]], [[Cerebral Amyloid Angiopathy]], [[Sleep]], [[Down Syndrome]], [[APOE4]], [[TNF-alpha|TNF-α]], [[IL-1β|IL-1β]], [[TLR2]], [[TLR4]], [[RAGE]], [[Insulin Receptor]], [[IGF-1 Receptor|IGF-1]], [[LAMP2A]], [[Calpain]], [[Caspase-9]], [[Bcl-2]], [[Cholesterol]]
 - Existing links retained: [[Alzheimer's Disease]]
 - Suggested new entity notes to create: [[BACE1]], [[Presenilin]], [[IGF-1 Receptor]], [[mGluR5]], [[EphB2]], [[p75NTR]], [[TREM2]], [[SCARA1]], [[CD36]], [[LRP1]]
-- Strong connections to strengthen: [[Beta-amyloid]] ↔ [[APP]], [[Beta-amyloid]] ↔ [[Alzheimer's Disease]], [[Beta-amyloid]] ↔ [[Tau Protein]], [[Beta-amyloid]] ↔ [[Microglia]]
+  - Strong connections to strengthen: [[Beta-amyloid]] ↔ [[APP]], [[Beta-amyloid]] ↔ Alzheimer's Disease, [[Beta-amyloid]] ↔ Tau Protein, [[Beta-amyloid]] ↔ [[Microglia]]

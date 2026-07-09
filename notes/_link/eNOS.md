@@ -1,13 +1,12 @@
 ---
 title: eNOS
-description: 'eNOS (Endothelial Nitric Oxide Synthase, NOS3) is a constitutively
+description: eNOS (Endothelial Nitric Oxide Synthase, NOS3) is a constitutively
   expressed, calcium/calmodulin-dependent isoform of Nitric Oxide Synthase that produces
-  low, pulsatile fluxes of Nitric Oxide c...'
-type: entity
+  low, pulsatile fluxes of Nitric Oxide c...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Enzyme
+  - enzyme
 aliases: [Enos]
 
 ---
@@ -39,6 +38,19 @@ eNOS is highly expressed in endothelial cells lining the vasculature. Its NO pro
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Dietary Advanced Glycation End Products and Aging|Dietary Advanced Glycation End Products and Aging]]
+    - Some authors proposed that AGEs reduce NO synthase (eNOS) half-life in the endothelium. For instance, Xu et al.
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Meanwhile, SIRTs target many downstream factors, such as HIF-1α and eNOS, and then participate in regulating oxidative stress. Activation of HIF-1α is associated with oxidative stress and can regulate ROS formation through direct or indirect effects.
+
+
 ## Connections
 - [[SIRT1]] — Deacetylates and activates eNOS, promoting NO production and vasodilation
 - [[Resveratrol]] — Activates SIRT1, which upregulates eNOS expression and activity
@@ -50,4 +62,4 @@ eNOS is highly expressed in endothelial cells lining the vasculature. Its NO pro
 ## Linking Summary
 - New links added: [[eNOS]], [[Nitric Oxide]], [[Vasodilation]], [[Mitochondrial Biogenesis]], [[Superoxide]], [[Atherosclerosis]], [[Hypertension]], [[Diabetes]]
 - Suggested new entity notes to create: [[Vasodilation]], [[Nitric Oxide Signaling]]
-- Strong connections to strengthen: [[SIRT1]] ↔ [[eNOS]], [[Resveratrol]] ↔ [[eNOS]]
+  - Strong connections to strengthen: SIRT1 ↔ [[eNOS]], [[Resveratrol]] ↔ [[eNOS]]

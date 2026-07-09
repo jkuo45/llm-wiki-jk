@@ -3,11 +3,10 @@ title: Neurodegeneration
 description: Neurodegeneration is the progressive loss of structure or function of
   neurons, including death of neurons. It is a key feature of diseases like Alzheimer's
   Disease and Parkinson's Disease, often li...
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Scientific Concept
+  - scientific-concept
 aliases: [Neurodegeneration]
 ---
 # Neurodegeneration
@@ -34,8 +33,18 @@ Current therapeutic approaches aim to break the cycle of oxidative damage and ne
 - New links added in this revision: [[Hydrogen Peroxide]], [[Ascorbic Acid]], [[Dopamine]], [[Malondialdehyde]], [[Malondialdehyde]], [[PP2A]], [[Dopaminergic Neurons]], [[Monoamine oxidase]], [[Autoxidation]], [[Alpha-synuclein]], [[Proteasome]], [[Neuroinflammation]], [[Macrophage]], [[Peroxynitrite]], [[Nitrative Stress]], [[Lewy Bodies]], [[Fenton Reaction]], [[Unfolded Protein Response]], [[Autophagy]], [[Endoplasmic Reticulum Stress]], [[NADPH Oxidase]], [[Motor Neurons]], [[Toll-like Receptor]], [[Glutathione]], [[NFKB]], [[NRF2]], [[Coenzyme Q10]], [[Mitochondrial ROS]], [[N-Acetylcysteine]], [[Vitamin E]], [[Curcumin]], [[Resveratrol]], [[Caloric Restriction]], [[FOXO]], [[Mitophagy]], [[Exercise]], [[PGC1-α]], [[MitoQ]], [[4-Hydroxynonenal]], [[Iron]], [[TNF-alpha]], [[IL-1b]], [[Apoptosis]], [[MPTP]], [[Rotenone]], [[6-hydroxydopamine]], [[Superoxide Dismutase]]
 - New links added: [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Oxidative Stress]], [[Advanced Glycation End Products]], [[Lipid Peroxidation]], [[Proteins]], [[Mitochondria]], [[Amyloid Beta]], [[Tau Protein]], [[Substantia Nigra]], [[Amyotrophic Lateral Sclerosis]], [[Superoxide Dismutase]]
 - Suggested new entity notes to create: [[Lewy Bodies]], [[MPTP]], [[Rotenone]], [[6-OHDA]], [[EAAT2]], [[A1 Astrocytes]], [[PROOF Trial]], [[Motor neurons]]
-- Strong connections to strengthen: [[Oxidative Stress]] ↔ [[Neurodegeneration]], [[Neurodegeneration]] ↔ [[Oxidative Stress]]
+  - Strong connections to strengthen: Oxidative Stress ↔ [[Neurodegeneration]], [[Neurodegeneration]] ↔ Oxidative Stress
 #
+
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review|sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review]]
+    - SIRT1 activation delays Neurodegeneration progression (Gräff et al. ).
+
 
 ## Connections
 - [[Oxidative Stress]]: A primary cause and consequence of neuronal damage.

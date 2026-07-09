@@ -1,11 +1,10 @@
 ---
 title: H3K9me3
 description: H3K9me3 is the trimethylation of histone H3 at lysine 9, a repressive chromatin mark that nucleates heterochromatin and stable gene silencing.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Biological Molecule
+  - biological-molecule
 aliases: []
 ---
 
@@ -28,6 +27,14 @@ With organismal [[Aging]] there is a global reduction in H3K9me3 ("heterochromat
 ## Research and Clinical Relevance
 
 H3K9me3 profiling is a standard epigenetic biomarker for cellular age, pluripotency status, and senescent burden. Modulators of the writers/erasers (e.g., SETDB1 or KDM4 inhibitors) are explored for senescence clearance, transposable-element control, and oncogene silencing. Mislocalized H3K9me3 contributes to position-effect variegation and some developmental disorders.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Epigenetic changes during aging and their reprogramming potential|Epigenetic changes during aging and their reprogramming potential]]
+    - pigenetic change with agingMarkersModel(s)ReferencesReduced global heterochromatinHP1 and H3K9me3 reduced, Lamin A changesC. elegans(Haithcock et al.
+
 
 ## Connections
 

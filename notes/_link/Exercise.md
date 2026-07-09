@@ -1,13 +1,12 @@
 ---
 title: Exercise
-description: 'Exercise is planned, structured physical activity that improves
+description: Exercise is planned, structured physical activity that improves
   or maintains physical fitness. It is one of the most effective interventions for
-  extending healthspan, reducing Oxidative Stress,...'
-type: entity
+  extending healthspan, reducing Oxidative Stress,...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Biological Process
+  - biological-process
 aliases: [Physical exercise, Physical activity]
 
 ---
@@ -28,6 +27,16 @@ aliases: [Physical exercise, Physical activity]
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
+    - Importantly, lifestyle and nutrition, particularly Exercise (He et al., 2012) and Dietary Restriction (Hansen et al., 2018; Scott et al., 2004; Ulgherait et al., 2021) enhance the autophagy pathway.
+
+
 ## Connections
 - [[Mitohormesis]] — Exercise-induced ROS trigger adaptive responses
 - [[Neurogenesis]] — Exercise stimulates adult neurogenesis
@@ -42,4 +51,4 @@ aliases: [Physical exercise, Physical activity]
 ## Linking Summary
 - New links added: [[SIRT1]], [[SIRT3]], [[SIRT6]], [[NAD+]], [[PGC1-α]], [[Mitochondrial Biogenesis]], [[Insulin Sensitivity]], [[BDNF]], [[Neurogenesis]], [[Autophagy]], [[Caloric Restriction]], [[Intermittent Fasting]], [[Mitochondria]], [[Oxidative Phosphorylation]], [[Reactive Oxygen Species]], [[DNA Repair]], [[Cardiovascular Disease]], [[Brain]], [[Longevity]], [[Mitohormesis]], [[NRF2]], [[Superoxide Dismutase]], [[Mitophagy]], [[Aging]], [[Oxidative Stress]]
 - Suggested new entity notes to create: [[BDNF]], [[VO2max]], [[HIIT]]
-- Strong connections to strengthen: [[Exercise]] ↔ [[Mitohormesis]]
+  - Strong connections to strengthen: [[Exercise]] ↔ [[Mitohormesis]]

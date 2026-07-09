@@ -2,14 +2,13 @@
 title: Immunity
 description: Immunity is the capability of multicellular organisms to resist harmful
   microorganisms. It involves both specific and nonspecific components.
-type: entity
 created: 2026-05-09
 updated: 2026-07-04
 tags:
-  - oxidative stress
+  - oxidative-stress
   - immune
-  - ROS
-  - Biological Process
+  - ros
+  - biological-process
 aliases: [immune response, immune system]
 ---
 # Immunity
@@ -22,6 +21,14 @@ Immunity is the capability of multicellular organisms to resist harmful microorg
 
 ## Redox Signaling in Immunity
 Beyond direct pathogen killing, ROS function as [[Signaling Molecules]] that regulate the activation of immune cells and the production of [[Pro-inflammatory Cytokines]] via pathways like [[NF-kappa B]].
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - Processes, like protein phosphorylation, activation of several transcriptional factors, Apoptosis, Immunity, and Differentiation, are all dependent on a proper ROS production and presence inside cells that need to be kept at a low level \[\].
+
 
 ## Connections
 - [[Respiratory Burst]]: The primary mechanism of ROS production for immune defense.

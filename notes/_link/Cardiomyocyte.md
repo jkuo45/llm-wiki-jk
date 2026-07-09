@@ -1,12 +1,11 @@
 ---
 title: Cardiomyocyte
-description: 'Overview: Cardiomyocyte is a specialized cellular or anatomical
-  structure with defined functions in tissue organization and physiology.'
-type: entity
+description: 'Overview: Cardiomyocyte is a specialized cellular or anatomical'
+  structure with defined functions in tissue organization and physiology.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Cell Type
+  - cell-type
 aliases: [Cardiac Myocyte, Heart Muscle Cell]
 
 ---
@@ -28,5 +27,5 @@ aliases: [Cardiac Myocyte, Heart Muscle Cell]
 
 ## Linking Summary
 - New links added: [[Cardiomyocyte]]
-- Strong connections to strengthen: [[Cardiomyocyte]] ↔ [[Cardiomyocyte]]
+  - Strong connections to strengthen: [[Cardiomyocyte]] ↔ [[Cardiomyocyte]]
 

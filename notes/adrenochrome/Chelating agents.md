@@ -1,11 +1,10 @@
 ---
 title: Chelating agents
 description: Substances that form coordinate bonds with metal ions, forming stable ring structures that sequester metals and facilitate their excretion or biological inactivation.
-type: entity
 created: 2026-07-04
 updated: 2026-07-06
 tags:
-  - Pharmacological Action
+  - pharmacological-action
 aliases: []
 ---
 
@@ -46,6 +45,14 @@ The term *chelation* derives from the Greek *chelē*, meaning "claw," reflecting
 ## Relevance to Adrenochrome
 
 Transition metals, particularly Fe²⁺ and Cu⁺, are potent catalysts of catecholamine [[Oxidation]]. In the presence of these metal ions, [[Epinephrine]] is efficiently converted to adrenochrome via the intermediate [[adrenaline-quinone]]. The reaction proceeds through a metal-catalyzed one-electron oxidation mechanism in which the catechol moiety of epinephrine donates electrons to the metal, reducing it while forming the o-quinone species that cyclizes to adrenochrome. This metal-dependent pathway is a major route of adrenochrome formation under physiologically relevant conditions, especially in settings of increased metal availability such as inflammation, hemorrhage, or ischemia-reperfusion injury where [[Iron]] and [[Copper]] are released from storage proteins. Chelating agents that sequester these transition metals therefore slow the rate of catecholamine oxidation and adrenochrome generation. This has implications for conditions characterized by elevated adrenochrome formation, including myocardial ischemia, neuroinflammation, and the [[Adrenochrome Hypothesis]] of schizophrenia. Experimental chelators such as deferoxamine have been shown to attenuate catecholamine autoxidation in vitro, and may serve as tools for probing the role of metal-catalyzed adrenochrome production in disease.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - intermediates, precursor, hemoglobin|intermediates, precursor, hemoglobin]]
+    - patents.google.com - Chelating agents: Reduce metal-catalyzed oxidation. Concentration and Container: Stability varies; higher concentrations can be more stable in some extemporaneous preparations.
+
 
 ## Connections
 

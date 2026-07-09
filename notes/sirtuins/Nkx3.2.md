@@ -1,19 +1,14 @@
 ---
 title: Nkx3.2
-description: 'Nkx3.2 (also known as Bapx1) is a homeobox-containing transcription
+description: Nkx3.2 (also known as Bapx1) is a homeobox-containing transcription
   factor belonging to the NK family of developmental regulators. It plays critical
-  roles in skeletal development, particula...'
-type: entity
+  roles in skeletal development, particula...
 created: 2026-07-05
 updated: 2026-07-07
 tags:
-  - Protein
+  - protein
 aliases: [Nkx3-2, Nkx3.2, Bapx1, NK3 homeobox 2]
-
-sources:
-- s41392-022-01257-8
-target: SIRT6
-
+source: s41392-022-01257-8
 ---
 
 

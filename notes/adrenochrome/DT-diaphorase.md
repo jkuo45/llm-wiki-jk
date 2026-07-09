@@ -1,13 +1,12 @@
 ---
 title: DT-diaphorase
-description: 'DT-diaphorase is an alternative name for NQO1 (NAD(P)H:quinone oxidoreductase
+description: DT-diaphorase is an alternative name for NQO1 (NAD(P)H:quinone oxidoreductase
   1), a flavoprotein that catalyzes the obligatory two-electron reduction of quinones
-  to hydroquinones, thereby bypas...'
-type: entity
+  to hydroquinones, thereby bypas...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Enzyme
+  - enzyme
 aliases: [NAD(P)H:quinone oxidoreductase 1, NQO1, DTD]
 
 ---

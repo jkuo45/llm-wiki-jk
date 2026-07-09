@@ -1,12 +1,11 @@
 ---
 title: SOD1
-description: 'Catalytic function: SOD1 is an enzyme that catalyzes biochemical
-  reactions essential for cellular metabolism and homeostasis.'
-type: entity
+description: 'Catalytic function: SOD1 is an enzyme that catalyzes biochemical'
+  reactions essential for cellular metabolism and homeostasis.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Enzyme
+  - enzyme
   - antioxidant
 aliases: [Superoxide Dismutase 1, Cu/Zn-SOD]
 
@@ -29,5 +28,5 @@ aliases: [Superoxide Dismutase 1, Cu/Zn-SOD]
 
 ## Linking Summary
 - New links added: [[SOD1]]
-- Strong connections to strengthen: [[SOD1]] ↔ [[SOD1]]
+  - Strong connections to strengthen: [[SOD1]] ↔ [[SOD1]]
 

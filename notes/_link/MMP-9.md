@@ -3,11 +3,10 @@ title: MMP-9
 description: MMP-9 (Matrix Metalloproteinase 9, Gelatinase B) is a zinc-dependent
   endopeptidase that degrades Extracellular Matrix components including Collagen IV,
   Gelatin, and Elastin. It is produced as a zym...
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - Enzyme
+  - enzyme
 aliases: []
 ---
 # MMP-9
@@ -31,4 +30,4 @@ MMP-9 (Matrix Metalloproteinase 9, Gelatinase B) is a zinc-dependent endopeptida
 ## Linking Summary
 - New links added: [[Extracellular Matrix]], [[Collagen]], [[Gelatin]], [[Elastin]], [[Plasmin]], [[Proteases]], [[Macrophages]], [[Neutrophils]], [[Endothelial cells]], [[Cancer]], [[Angiogenesis]], [[Inflammation]], [[Wound Healing]], [[Metastasis]], [[TIMP1]], [[Cardiovascular Disease]]
 - Suggested new entity notes to create: [[Gelatinase B]], [[TIMP Family]]
-- Strong connections to strengthen: [[MMP-9]] ↔ [[Extracellular Matrix]], [[MMP-9]] ↔ [[Cancer]]
+  - Strong connections to strengthen: [[MMP-9]] ↔ Extracellular Matrix, [[MMP-9]] ↔ Cancer

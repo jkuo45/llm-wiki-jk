@@ -1,11 +1,10 @@
 ---
 title: TFEC
 description: Transcription Factor EC, a member of the MiTF TFE family.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Gene
+  - gene
 aliases: [transcription factor EC]
 ---
 # TFEC
@@ -23,6 +22,17 @@ TFEC plays a distinct role within the MiTF/TFE family as a potential negative re
 
 ## Pathology & Clinical Relevance
 TFEC is less studied than other MiTF/TFE family members, but its altered expression has been observed in certain cancers and immune disorders. In pancreatic ductal adenocarcinoma, TFEC expression is suppressed, potentially as part of a broader transcriptional reprogramming favoring [[TFEB]]-mediated adaptation. TFEC gene fusions are rare but have been reported in renal cell carcinoma, analogous to [[TFE3]] and [[TFEB]] translocation-driven cancers.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - Except for TFEB, MiT/TFEB family members include transcription factor EC (TFEC), microphthalmia-associated transcription factors (MITF), and transcription factor E3 (TFE3).
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - The MiTF TFE family is composed of four different transcription factors, namely TFEB, TFE3, MITF, and TFEC.
+
 
 ## Connections
 

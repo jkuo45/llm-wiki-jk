@@ -3,14 +3,13 @@ title: IL-1b
 description: Interleukin-1 beta (IL-1b) is a cytokine protein that is an important
   mediator of the inflammatory response. Its production is often upregulated during
   chronic Inflammation and is closely linked wi...
-type: entity
 created: 2026-05-09
 updated: 2026-07-04
 tags:
-  - oxidative stress
+  - oxidative-stress
   - cytokine
   - inflammation
-  - Protein
+  - protein
 aliases: [IL-1b, Interleukin-1 beta, IL1B, catabolin]
 ---
 # IL-1b
@@ -41,6 +40,20 @@ In the central nervous system, IL-1β is produced primarily by [[Microglia]] and
 ## Sirtuin Regulation of IL-1β
 
 [[SIRT1]] deacetylation of [[NFκB]] downregulates pro-inflammatory cytokines including IL-1β. [[SIRT7]] kidney-specific knockout reduces IL-1β and other inflammatory factors.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
+    - In addition, inhibition of mitochondrial complex 1 reduces mitochondrial Reactive Oxygen Species production, oxidative stress and, consequently, senescence, as well as secretion of proinflammatory cytokines, such as IL-6 and IL-1b (Schuiveling et al., 2018;...
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - In this early phase, a predominant role is played by TNF-alpha and IL-1b, as proinflammatory mediators, as well as by NF- κ B as transcriptional factor required to sustain the inflammatory process.
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - SIRT1 exerted anti-inflammatory effects against IL-1b-mediated pro-inflammatory stress through the Toll-like Receptor (Toll-like Receptor)/SIRT1/NFKB pathway. SIRT1 deficiency increased microvascular inflammation in obese septic mice, whi
+
 
 ## Connections
 

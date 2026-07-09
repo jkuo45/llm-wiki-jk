@@ -3,11 +3,10 @@ title: Aldehyde Dehydrogenases
 description: Aldehyde Dehydrogenases (ALDHs) are a family of enzymes that catalyze
   the NAD(P)+-dependent oxidation of endogenous and exogenous aldehydes to their corresponding
   carboxylic acids.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Enzyme
+  - enzyme
 aliases: []
 ---
 # Aldehyde Dehydrogenases

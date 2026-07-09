@@ -1,12 +1,11 @@
 ---
 title: Anaphylaxis
-description: 'Anaphylaxis is a serious, potentially life-threatening allergic
-  reaction that occurs quickly after exposure to an allergen.'
-type: entity
+description: Anaphylaxis is a serious, potentially life-threatening allergic
+  reaction that occurs quickly after exposure to an allergen.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: []
 ---
 
@@ -16,6 +15,14 @@ aliases: []
 
 ## Treatment
 [[Epinephrine]] is the first-line treatment for anaphylaxis. The stability and purity of epinephrine formulations (like [[EpiPen]]) are critical for ensuring efficacy during these emergencies.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - intermediates, precursor, hemoglobin|intermediates, precursor, hemoglobin]]
+    - Impurity marker: Epinephrine is a vital medication (used for Anaphylaxis, Cardiac arrest, etc.).
+
 
 ## Connections
 - [[Epinephrine]]

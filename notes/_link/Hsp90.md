@@ -1,13 +1,12 @@
 ---
 title: Hsp90
-description: 'Overview: Hsp90 is a cellular protein with structural, signaling,
+description: 'Overview: Hsp90 is a cellular protein with structural, signaling,'
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
-  and signaling networks that govern cel...'
-type: entity
+  and signaling networks that govern cel...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [Heat Shock Protein 90, HSP90]
 
 ---
@@ -24,10 +23,20 @@ aliases: [Heat Shock Protein 90, HSP90]
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - Besides, small molecules antagonists of Survivin such as cyclin-dependent kinase inhibitors and Hsp90 inhibitors and gene therapy have also been attempted in targeting Survivin in cancer therapy (reviewed by Pennati _et al_., 2007 \[\]).
+
+
 ## Connections
 - [[Hsp90]] — related entity
 
 ## Linking Summary
 - New links added: [[Hsp90]]
-- Strong connections to strengthen: [[Hsp90]] ↔ [[Hsp90]]
+  - Strong connections to strengthen: [[Hsp90]] ↔ [[Hsp90]]
 

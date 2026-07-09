@@ -1,11 +1,10 @@
 ---
 title: Small-cell lung cancer
 description: Small-cell lung cancer (SCLC) is a highly aggressive neuroendocrine carcinoma accounting for approximately 15% of lung cancers, strongly associated with tobacco smoking, and characterized by rapid doubling time, early metastatic spread, and initial chemosensitivity followed by relapse.
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: []
 ---
 # Small-cell lung cancer
@@ -36,6 +35,14 @@ ES-SCLC is treated with palliative intent. First-line therapy consists of platin
 ## Prognosis
 
 The prognosis for SCLC remains poor. For LS-SCLC, median survival is 20–25 months with a 5-year survival of 20–30%. For ES-SCLC, median survival is 8–12 months with a 5-year survival of approximately 5%. Despite high initial response rates (60–80% in LS-SCLC), nearly all patients eventually relapse with resistant disease. Platinum-resistant relapse (progression within 90 days of completing platinum therapy) carries an especially grim prognosis, with median survival of 3–4 months.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - Akt, PKCζ (PP2A) | Ser184 | Inactivation | Small-cell lung cancer, non-small-cell lung cancer | | Bax | | p38 MAPK | ND | A
+
 
 ## Connections
 

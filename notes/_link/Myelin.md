@@ -1,13 +1,12 @@
 ---
 title: Myelin
-description: 'Myelin is a multilamellar lipid-protein sheath that wraps around
+description: Myelin is a multilamellar lipid-protein sheath that wraps around
   axons in the Nervous System, produced by Oligodendrocytes in the central nervous
-  system (CNS) and Schwann Cells in the periphera...'
-type: entity
+  system (CNS) and Schwann Cells in the periphera...
 created: 2026-07-04
 updated: 2026-07-06
 tags:
-  - Anatomy
+  - anatomy
 aliases: [Myelin Sheath]
 
 ---
@@ -48,4 +47,4 @@ Myelin is ~70-80% [[Lipid]] and ~20-30% [[Protein]] by dry weight. The major lip
 ## Linking Summary
 - New links added: [[Oligodendrocytes]], [[Schwann Cells]], [[Multiple Sclerosis]], [[Myelin Basic Protein]], [[Proteolipid Protein]], [[Cholesterol]], [[Galactocerebroside]], [[Sphingomyelin]], [[Lactate]], [[MCT1]], [[MOG]], [[Guillain-Barré Syndrome]], [[Leukodystrophies]], [[Metachromatic Leukodystrophy]], [[Krabbe Disease]], [[Aging]], [[Cognitive decline]], [[Action Potential]], [[Voltage-gated sodium channels]], [[Nervous System]]
 - Suggested new entity notes to create: [[Saltatory conduction]], [[Node of Ranvier]], [[P0 protein]], [[Myelin-associated glycoprotein]], [[Demyelination]]
-- Strong connections to strengthen: [[Myelin]] ↔ [[Multiple Sclerosis]], [[Myelin]] ↔ [[Oligodendrocytes]], [[Myelin]] ↔ [[Aging]]
+  - Strong connections to strengthen: [[Myelin]] ↔ Multiple Sclerosis, [[Myelin]] ↔ Oligodendrocytes, [[Myelin]] ↔ [[Aging]]

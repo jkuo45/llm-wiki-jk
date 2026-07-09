@@ -1,13 +1,12 @@
 ---
 title: Trichostatin A
-description: 'Chemical properties: Trichostatin A is a chemical substance with
+description: 'Chemical properties: Trichostatin A is a chemical substance with'
   defined molecular structure, functional groups, and physicochemical properties that
-  determine its biological activity.'
-type: entity
+  determine its biological activity.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: [TSA]
 
 ---
@@ -24,10 +23,23 @@ aliases: [TSA]
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - Atg, autophagy-related protein; TSA, Trichostatin A. !FIGURE 3 Studying the effect of SIRT2 on ATG4B deacetylation and autophagy regulation in in vivo conditions.
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - s with complex effects (Actinomycin D, Bleomycin, Temozolomide); (3) Epigenetic Modifiers that inhibit DNA Methyltransferase (Decitabine), Histone Deacetylase (Sodium Butyrate, Trichostatin A, Entinostat, Vorinostat, Panobinostat, Phenylbutyrate, Sodium Val
+
+
 ## Connections
 - [[Trichostatin A]] — related entity
 
 ## Linking Summary
 - New links added: [[Trichostatin A]]
-- Strong connections to strengthen: [[Trichostatin A]] ↔ [[Trichostatin A]]
+  - Strong connections to strengthen: Trichostatin A ↔ Trichostatin A
 

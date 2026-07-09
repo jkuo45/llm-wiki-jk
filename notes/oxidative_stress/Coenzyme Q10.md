@@ -1,13 +1,12 @@
 ---
 title: Coenzyme Q10
-description: 'Coenzyme Q10 (CoQ10), also known as ubiquinone, is a naturally
+description: Coenzyme Q10 (CoQ10), also known as ubiquinone, is a naturally
   occurring coenzyme found in every cell of the human body. It plays a critical role
-  in cellular energy production and acts as a...'
-type: entity
+  in cellular energy production and acts as a...
 created: 2026-05-09
 updated: 2026-07-04
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: [CoQ10, ubiquinone, ubiquinol]
 ---
 
@@ -25,6 +24,14 @@ Due to its essential role in mitochondrial function and antioxidant defense, CoQ
 - **[[Cardiovascular Disease]]**: CoQ10 may improve cardiac function and reduce oxidative damage in patients with heart failure.
 - **[[Neurodegenerative Disease]]**: Studies have explored its neuroprotective effects in [[Parkinson's Disease]] and [[Huntington's Disease]].
 - **Statin-Induced Myopathy**: Some evidence suggests CoQ10 supplementation may alleviate muscle pain associated with statin use, as statins inhibit the synthesis of both cholesterol and CoQ10.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - Exogenous Antioxidants and Human Health Human body put in place several strategies to counteract the effects of free radicals and oxidative stress, based on enzymatic (e.g., SOD, CAT, and GPx) and nonenzymatic (e.g., Lipoic Acid, Glutathione, L-arginine, an...
+
 
 ## Connections
 - **[[Mitochondria]]**: Essential site of CoQ10 action for [[ATP]] production.

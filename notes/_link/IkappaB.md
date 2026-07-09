@@ -1,13 +1,12 @@
 ---
 title: IkappaB
-description: 'IκB (inhibitor of NF-κB) proteins are a family of cytoplasmic inhibitors
+description: IκB (inhibitor of NF-κB) proteins are a family of cytoplasmic inhibitors
   that sequester NFκB transcription factors in the Cytosol, preventing their nuclear
-  translocation. The best-characterized...'
-type: entity
+  translocation. The best-characterized...
 created: 2026-07-04
 updated: 2026-07-06
 tags:
-  - Protein
+  - protein
 aliases: [Inhibitor of NF-κB, NFKBIA, IκBα]
 
 ---
@@ -46,4 +45,4 @@ IκB proteins contain multiple [[Ankyrin Repeat]] domains that bind the [[Nuclea
 ## Linking Summary
 - New links added: [[NFκB]], [[IkappaBalpha]], [[IκBβ]], [[IκBε]], [[IκBζ]], [[BCL-3]], [[p105]], [[p100]], [[p50]], [[p52]], [[p65]], [[Rel]], [[c-Rel]], [[IKKbeta]], [[IKK complex]], [[Ubiquitin]], [[Proteasome]], [[Proteasomal Degradation]], [[Ankyrin Repeat]], [[Nuclear Localization Signal]], [[Cytosol]], [[Nucleus]], [[TNFα]], [[IL-6]], [[Inflammation]], [[Feedback Loop]]
 - Suggested new entity notes to create: [[Canonical NF-κB pathway]], [[Atypical IκB]], [[K48-linked ubiquitination]], [[NF-κB negative feedback]]
-- Strong connections to strengthen: [[IkappaB]] ↔ [[NFκB]], [[IkappaB]] ↔ [[IKKbeta]], [[IkappaB]] ↔ [[Inflammation]]
+  - Strong connections to strengthen: [[IkappaB]] ↔ NFκB, [[IkappaB]] ↔ [[IKKbeta]], [[IkappaB]] ↔ [[Inflammation]]

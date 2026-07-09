@@ -1,12 +1,11 @@
 ---
 title: Nucleus Accumbens
-description: 'Overview: Nucleus Accumbens is a specialized cellular or anatomical
-  structure with defined functions in tissue organization and physiology.'
-type: entity
+description: 'Overview: Nucleus Accumbens is a specialized cellular or anatomical'
+  structure with defined functions in tissue organization and physiology.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Anatomy
+  - anatomy
 aliases: [NAc]
 
 ---
@@ -28,5 +27,5 @@ aliases: [NAc]
 
 ## Linking Summary
 - New links added: [[Nucleus Accumbens]]
-- Strong connections to strengthen: [[Nucleus Accumbens]] ↔ [[Nucleus Accumbens]]
+  - Strong connections to strengthen: Nucleus Accumbens ↔ Nucleus Accumbens
 

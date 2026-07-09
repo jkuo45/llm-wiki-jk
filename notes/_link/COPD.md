@@ -1,13 +1,12 @@
 ---
 title: COPD
-description: 'Chronic Obstructive Pulmonary Disease (COPD) is a common chronic
+description: Chronic Obstructive Pulmonary Disease (COPD) is a common chronic
   respiratory disease characterized by persistent respiratory symptoms and progressive
-  airflow obstruction. It is the fourth leadi...'
-type: entity
+  airflow obstruction. It is the fourth leadi...
 created: 2026-07-05
 updated: 2026-07-05
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: [Chronic Obstructive Pulmonary Disease, Chronic Obstructive Lung Disease]
 
 ---
@@ -22,6 +21,16 @@ aliases: [Chronic Obstructive Pulmonary Disease, Chronic Obstructive Lung Diseas
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Common respiratory diseases, including Asthma, COPD, lung fibrosis (LF), coronavirus disease Signal Transduction and Targeted Therapy (2022) 7:402 The sirtuin family in health and disease Wu et al. 27 ==> picture intentionally omitted <== Fig.
+
+
 ## Connections
 - [[SIRT1]] — NAD+-dependent deacetylase; activates NRF2
 - [[NFκB]] — interacts with
@@ -33,5 +42,5 @@ aliases: [Chronic Obstructive Pulmonary Disease, Chronic Obstructive Lung Diseas
 
 ## Linking Summary
 - New links added: [[SIRT1]], [[NFκB]], [[FOXO3a]], [[p53]], [[SIRT6]], [[SIRT3]], [[SRT1720]]
-- Strong connections to strengthen: [[COPD]] ↔ [[SIRT1]], [[COPD]] ↔ [[NFκB]], [[COPD]] ↔ [[FOXO3a]], [[COPD]] ↔ [[p53]], [[COPD]] ↔ [[SIRT6]]
+  - Strong connections to strengthen: [[COPD]] ↔ SIRT1, [[COPD]] ↔ NFκB, [[COPD]] ↔ [[FOXO3a]], [[COPD]] ↔ [[p53]], [[COPD]] ↔ SIRT6
 

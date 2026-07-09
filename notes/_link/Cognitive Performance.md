@@ -1,12 +1,11 @@
 ---
 title: Cognitive Performance
-description: 'Definition: Cognitive Performance is a scientific concept that describes
-  fundamental principles governing biological or chemical systems.'
-type: entity
+description: 'Definition: Cognitive Performance is a scientific concept that describes'
+  fundamental principles governing biological or chemical systems.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Scientific Concept
+  - scientific-concept
 aliases: [Cognitive Function]
 
 ---
@@ -23,10 +22,20 @@ aliases: [Cognitive Function]
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum|Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum]]
+    - A common genetic Polymorphism that results in increased activity of the Dopamine regulating enzyme COMT (the COMT Val 158 allele) has been found to associate with poorer Cognitive Performance and increased susceptibility to develop Psychiatric Disorders.
+
+
 ## Connections
 - [[Cognitive Performance]] — related entity
 
 ## Linking Summary
 - New links added: [[Cognitive Performance]]
-- Strong connections to strengthen: [[Cognitive Performance]] ↔ [[Cognitive Performance]]
+  - Strong connections to strengthen: Cognitive Performance ↔ Cognitive Performance
 

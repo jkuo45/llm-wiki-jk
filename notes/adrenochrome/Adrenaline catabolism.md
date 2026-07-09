@@ -1,11 +1,10 @@
 ---
 title: Adrenaline catabolism
 description: The metabolic process by which Epinephrine is broken down in the body.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Biological Process
+  - biological-process
 aliases: []
 ---
 # Adrenaline catabolism
@@ -13,6 +12,17 @@ aliases: []
 The metabolic process by which [[Epinephrine|adrenaline]] is broken down in the body.
 
 #
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Adrenochrome Pathway|The Adrenochrome Pathway]]
+    - Linking Summary: - New links added: Adrenochrome Pathway, Heart disease, Reactive Oxygen Species, Neutrophils, Epinephrine, Adrenochrome, Adrenolutin, HPLC, Serum, Myocardial infarction, Cardiotoxicity, Cell necrosis, Arrhythmias, Coronary artery constricti...
+
+  - [[_document_ - neutrophil and erthrocyte|neutrophil and erthrocyte]]
+    - This is described as a major pathway for Adrenaline catabolism in these cells.
+
 
 ## Connections
 - [[Neutrophils]]: Actively oxidize [[Epinephrine|adrenaline]] to [[Adrenochrome]] as a pathway for catabolism.

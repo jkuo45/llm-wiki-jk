@@ -1,13 +1,12 @@
 ---
 title: YY1
-description: 'Overview: YY1 is a cellular protein with structural, signaling,
+description: 'Overview: YY1 is a cellular protein with structural, signaling,'
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
-  and signaling networks that govern cell ...'
-type: entity
+  and signaling networks that govern cell ...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [Yin Yang 1]
 
 ---
@@ -24,10 +23,20 @@ aliases: [Yin Yang 1]
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - Cunningham and colleagues have discovered that mTORC1 controls the transcriptional activity of PGC1-α (PGC1-α), a nuclear cofactor that plays a key role in Mitochondrial Biogenesis and oxidative metabolism, by directly altering its physical interaction with...
+
+
 ## Connections
 - [[YY1]] — related entity
 
 ## Linking Summary
 - New links added: [[YY1]]
-- Strong connections to strengthen: [[YY1]] ↔ [[YY1]]
+  - Strong connections to strengthen: [[YY1]] ↔ [[YY1]]
 

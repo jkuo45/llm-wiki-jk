@@ -3,11 +3,10 @@ title: GATA Binding Protein 4 (GATA4)
 description: GATA Binding Protein 4 (GATA4) is a zinc finger transcription factor
   belonging to the GATA family that recognizes the GATA motif (WGATAR) in gene promoters.
   It is essential for Cardiac Development,...
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Protein
+  - protein
 aliases:
   - GATA4
   - GATA Binding Protein 4
@@ -35,6 +34,14 @@ During embryogenesis GATA4 is required for formation of the primitive heart tube
 ## Clinical & Research Relevance
 
 Dysregulated GATA4 activity contributes to cardiomyopathy, congenital heart defects (loss-of-function variants), and heart failure. The SIRT7–GATA4 axis is a candidate therapeutic target: strategies that preserve or enhance SIRT7 deacetylase activity may limit maladaptive remodeling. [[Resveratrol]] and other sirtuin-modulating compounds may indirectly affect GATA4 acetylation through [[NAD+]]-dependent sirtuin activation, though SIRT7-specific pharmacology remains nascent.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - In addition, SIRT5 prevents age-related Cardiac Hypertrophy, while SIRT7 also ameliorates stressinduced Cardiac Hypertrophy by interacting with and deacetylating GATA4. Interestingly, SIRT4 seems to have an adverse effect on Cardiac Hypertrophy.
+
 
 ## Connections
 

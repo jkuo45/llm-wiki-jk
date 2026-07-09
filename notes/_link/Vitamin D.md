@@ -1,17 +1,13 @@
 ---
 title: Vitamin D
-description: 'Vitamin D is a group of fat-soluble secosteroids responsible for
+description: Vitamin D is a group of fat-soluble secosteroids responsible for
   increasing intestinal absorption of calcium, magnesium, and phosphate. The two major
-  forms are vitamin D₂ (ergocalciferol) and v...'
-type: entity
+  forms are vitamin D₂ (ergocalciferol) and v...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: [Calciferol, Cholecalciferol (D3), Ergocalciferol (D2)]
-database_ids:
-  mesh: D014807
-  chebi: CHEBI:27300
 
 ---
 
@@ -36,4 +32,4 @@ Vitamin D deficiency is associated with increased risk of [[Cardiovascular Disea
 ## Linking Summary
 - New links added: [[Inflammation]], [[Cardiovascular Disease]], [[Neurodegenerative Diseases]], [[Diabetes Mellitus]], [[Asthma]], [[Depression]], [[Immune System]], [[Mitochondria]], [[Oxidative Stress]]
 - Suggested new entity notes to create: [[VDR]], [[Vitamin D Receptor]], [[CYP27B1]], [[CYP24A1]]
-- Strong connections to strengthen: [[Vitamin D]] ↔ [[Inflammation]]
+  - Strong connections to strengthen: Vitamin D ↔ [[Inflammation]]

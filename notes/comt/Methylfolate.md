@@ -1,11 +1,10 @@
 ---
 title: Methylfolate
 description: Methylfolate (L-5-methyltetrahydrofolate) is the active methylated folate that donates methyl groups to homocysteine remethylation and the methylation cycle.
-type: entity
 created: 2026-05-25
 updated: 2026-07-07
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: [L-5-Methyltetrahydrofolate, L-methylfolate]
 ---
 
@@ -28,6 +27,14 @@ Individuals carrying slow [[COMT]] variants ([[Val158Met]] Met/Met) have reduced
 ## Clinical and Research Relevance
 
 5-MTHF is used to lower elevated homocysteine, support pregnancy (neural tube defect prevention), and as adjunctive therapy in depression and schizophrenia where methylation and [[SAMe]] availability are compromised. The [[MTHFR]] C677T polymorphism markedly reduces methylfolate generation, making direct 5-MTHF supplementation the standard intervention.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - Some people with slow COMT enzyme function have side effects from Methylated Vitamins (Methylfolate, MethylB12), Methyl Donor supplements, and COMT Inhibitors supplements.
+
 
 ## Connections
 

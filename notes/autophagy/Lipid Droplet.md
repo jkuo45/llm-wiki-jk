@@ -1,13 +1,12 @@
 ---
 title: Lipid Droplet
-description: 'Lipid Droplets are organelles composed of a neutral lipid core (primarily
+description: Lipid Droplets are organelles composed of a neutral lipid core (primarily
   triglycerides and cholesteryl esters) surrounded by a phospholipid monolayer and
-  associated proteins (e.g., perilipins)...'
-type: entity
+  associated proteins (e.g., perilipins)...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Scientific Concept
+  - scientific-concept
 aliases: []
 ---
 
@@ -26,6 +25,14 @@ aliases: []
 ## Structure
 
 Lipid droplets are lipid storage organelles surrounded by a phospholipid monolayer. They are degraded by [[Lipophagy]] during fasting.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - Cells accumulate fat in the form of triglycerides (TGs) in specialized organelles named Lipid Droplet. Fasting triggers TGs breakdown into fatty acids that are eventually imported into Mitochondria and incorporated into the TCA cycle to produce ATP.
+
 
 ## Connections
 

@@ -1,10 +1,9 @@
 ---
 title: The Adrenochrome Pathway - Its Potential Significance in Stress Induced Heart
   Disease
-description: '24 The Adrenochrome Pathway: ITS POTENTIAL SIGNIFICANCE IN STRESS INDUCED
+description: '24 The Adrenochrome Pathway: ITS POTENTIAL SIGNIFICANCE IN STRESS INDUCED'
   Heart disease Stephanie B. Matthews, Royal Gwent Hospital and Anthony K. Campbell,
-  University of Wales College of Medicine ...'
-type: document
+  University of Wales College of Medicine ...
 created: 2026-07-04
 source: Matthews SB, Campbell AK - Royal Gwent Hospital, University of Wales College
   of Medicine

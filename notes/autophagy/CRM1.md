@@ -3,11 +3,10 @@ title: CRM1
 description: Chromosomal maintenance 1 (CRM1), also known as Exportin-1, is a nuclear
   export receptor that recognizes nuclear export signals (NES) on TFEB to facilitate
   its redistribution to the cytoplasm.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [XPO1, exportin 1]
 ---
 # CRM1
@@ -20,6 +19,14 @@ CRM1 (exportin 1) mediates nuclear export of proteins with leucine-rich nuclear 
 ## Therapeutic Targeting
 
 CRM1 inhibitors ([[Leptomycin B]], [[Selinexor]]/KPT-330) cause nuclear accumulation of [[TFEB]] and induce autophagy. Selinexor is FDA-approved for multiple myeloma.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - CRM1 is a receptor for leucine-rich nuclear export signals \[\]. Starvation induces nuclear translocation through TFEB dephosphorylation \[\].
+
 
 ## Connections
 

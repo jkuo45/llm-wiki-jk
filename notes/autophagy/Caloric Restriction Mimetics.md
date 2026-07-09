@@ -3,12 +3,11 @@ title: Caloric Restriction Mimetics
 description: Caloric Restriction Mimetics (CRMs) are pharmacological compounds that
   mimic the biochemical and functional effects of Caloric Restriction without the
   need for actual food deprivation.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Pharmacological Action
-  - caloric restriction
+  - pharmacological-action
+  - caloric-restriction
 aliases: [CRMs]
 ---
 # Caloric Restriction Mimetics
@@ -21,6 +20,14 @@ CRMs are compounds that mimic the molecular effects of [[Caloric Restriction]] w
 ## Examples
 
 [[Metformin]], [[Rapamycin]], [[Resveratrol]], [[Spermidine]], [[Trehalose]], [[Lithium]], [[Hydroxycitrate]], [[2-DG]]. Many CRMs are [[Autophagy Inducer]]s.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Autophagy and intermittent fasting the connection for cancer therapy?|Autophagy and intermittent fasting the connection for cancer therapy?]]
+    - no results reported | NCT02379585 | | Malignant Neoplasm | Short-term fasting prior to systemic chemotherapy | Active | NCT01175837 | | Malignant Neoplasm | Chemotherapy + fasting | Completed, no results reported | NCT00757094 | Another novel pharmacologica...
+
 
 ## Connections
 

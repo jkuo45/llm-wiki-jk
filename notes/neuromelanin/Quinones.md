@@ -1,11 +1,10 @@
 ---
 title: Quinones
 description: Quinones are reactive electrophilic compounds generated from catecholamine oxidation; they contribute to Oxidative Stress, protein adduct formation, and Neuromelanin biosynthesis in catecholaminergic neurons.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Chemical Class
+  - chemical-class
 aliases: []
 ---
 
@@ -28,6 +27,14 @@ Quinone flux is the chemical engine of neuromelanin biosynthesis, linking dopami
 ## Research Relevance
 
 Quinone scavengers, NQO1 inducers, and glutathione-supporting strategies are explored as neuroprotective approaches. Quantifying catechol-quinone adducts serves as a biomarker of oxidative dopamine catabolism in PD research.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator|Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator]]
+    - Another prevailing hypothesis for NM's protective role in Dopaminergic Neurons lies in the prevention of neurotoxic pathways of Quinones that are formed during Dopamine oxidation.
+
 
 ## Connections
 

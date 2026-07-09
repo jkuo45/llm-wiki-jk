@@ -1,11 +1,10 @@
 ---
 title: Bladder Cancer
 description: Bladder cancer is a common malignancy of the urinary tract, with approximately 550,000 new cases worldwide annually. It is the 4th most common cancer in men, with a peak incidence at age 65–70 and a male-to-female ratio of 4:1.
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - Medical Condition
+  - medical-condition
 aliases:
   - Urinary bladder carcinoma
   - Urothelial carcinoma of the bladder
@@ -62,6 +61,17 @@ First-line treatment for metastatic bladder cancer is **platinum-based chemother
 ### Prognosis
 
 Five-year survival for NMIBC exceeds 85% with appropriate surveillance and treatment. For MIBC treated with cystectomy, 5-year survival is approximately 50% for pT2, 30% for pT3, and 10% for pT4. Metastatic disease has a median overall survival of 12–18 months with modern systemic therapy.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - Ser163 | Prevents degradation | Hepatocellular Carcinoma, Lymphoma | | Apaf-1 | Loss in Melanoma, Colon Cancer, Gastric Cancer, Bladder Cancer; Amplification in glioblastoma | RSK | Ser268 | Inhibition | Pros
+
+  - [[_document_ - Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology|Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology]]
+    - Beyond breast cancer, tumors overexpressing EGFR include Lung Cancer, glioblastoma, and Colorectal Cancer cancers , and tumors that can overexpress HER2 include Gastric Cancer, ovarian cancer, endometrial cancer, Bladder Cancer, Lung Cancer, Colon Cancer, a...
+
 
 ## Connections
 

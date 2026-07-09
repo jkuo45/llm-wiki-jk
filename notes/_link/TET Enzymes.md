@@ -1,12 +1,11 @@
 ---
 title: TET enzymes
-description: 'Catalytic function: TET enzymes is an enzyme that catalyzes biochemical
-  reactions essential for cellular metabolism and homeostasis.'
-type: entity
+description: 'Catalytic function: TET enzymes is an enzyme that catalyzes biochemical'
+  reactions essential for cellular metabolism and homeostasis.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Enzyme
+  - enzyme
 aliases: [Ten-Eleven Translocation Enzymes, TET1/2/3]
 
 ---
@@ -28,5 +27,5 @@ aliases: [Ten-Eleven Translocation Enzymes, TET1/2/3]
 
 ## Linking Summary
 - New links added: [[TET Enzymes]]
-- Strong connections to strengthen: [[TET Enzymes]] ↔ [[TET Enzymes]]
+  - Strong connections to strengthen: TET Enzymes ↔ TET Enzymes
 

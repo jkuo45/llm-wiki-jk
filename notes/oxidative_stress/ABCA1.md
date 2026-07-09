@@ -3,14 +3,13 @@ title: ABCA1
 description: ATP-binding cassette transporter A1 (ABCA1) is a protein which in humans
   is encoded by the ABCA1 gene and is a major regulator of cellular Cholesterol and
   phospholipid homeostasis. It plays a criti...
-type: entity
 created: 2026-05-09
 updated: 2026-07-04
 tags:
-  - oxidative stress
+  - oxidative-stress
   - cholesterol
-  - lipid metabolism
-  - Protein
+  - lipid-metabolism
+  - protein
 aliases: [ATP-binding cassette transporter A1, ABC-1]
 ---
 # ABCA1
@@ -43,6 +42,14 @@ ABCA1 facilitates the efflux of oxidized phospholipids and [[Malondialdehyde]] (
 Mutations in ABCA1 cause **Tangier disease**, characterized by extremely low HDL, accumulation of cholesterol esters in tissues, and increased risk of [[Cardiovascular Disease]]. Conversely, ABCA1 upregulation by pharmacological LXR agonists is a therapeutic strategy, though limited by hepatic steatotic side effects. Antioxidants such as [[Vitamin E]] and [[Glutathione]] precursors preserve ABCA1 function by protecting it from oxidative inactivation.
 
 #
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - This was true in vivo, as well as in vitro on human macrophages and vascular smooth muscle cells \[, \]; vitamin E supplementation was also useful to upregulate PPARγ, LXRα, and ABCA1, in ApoE knockout mice, ameliorating early (but not advanced) atheroscler...
+
 
 ## Connections
 - [[Lipid Peroxidation]]: ABCA1 effluxes oxidized lipids as a detoxification mechanism

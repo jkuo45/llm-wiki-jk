@@ -1,11 +1,10 @@
 ---
 title: YAP1
 description: YAP1 (Yes-associated protein 1) is the major transcriptional co-activator effector of the Hippo pathway; its nuclear accumulation drives proliferation, survival, EMT, and metastasis, and its inhibition is a target of repurposed agents such as ivermectin.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Protein
+  - protein
 aliases: []
 ---
 
@@ -24,6 +23,14 @@ YAP1 is overexpressed or hyperactive in [[Gastric Cancer]], [[Lung Cancer]], liv
 ## Therapeutic Targeting and Ivermectin
 
 Repurposed [[Ivermectin]] inhibits YAP1-mediated oncogenic signaling — suppressing YAP1 expression/activity and thereby blocking proliferation in cancers such as gastric and lung carcinoma. Sensitivity to ivermectin in some models depends on baseline YAP1 levels, suggesting YAP1 status as a biomarker for ivermectin selection. Other strategies include TEAD inhibitors, LATS agonists, and vertical inhibition of upstream PI3K/SRC nodes.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug|Ivermectin, a potential anticancer drug derived from an antiparasitic drug]]
+    - hogen-associated molecular pattern; PARP, poly (ADP- ribose) polymerase; P-gp, P-glycoprotein; PRR, pattern recognition receptor; ROS, Reactive oxygen species; STAT3, Signal transducer and activator of transcription 3; SID, SIN3-interaction domain; siRNA, s...
+
 
 ## Connections
 

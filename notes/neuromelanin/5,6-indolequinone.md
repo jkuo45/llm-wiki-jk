@@ -1,11 +1,10 @@
 ---
 title: 5,6-indolequinone
-description: '5,6-indolequinone is a late-stage intermediate in the polymerization of dopamine-derived quinones into the biopolymer Neuromelanin.'
-type: entity
+description: 5,6-indolequinone is a late-stage intermediate in the polymerization of dopamine-derived quinones into the biopolymer Neuromelanin.
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: []
 ---
 
@@ -28,6 +27,14 @@ By sequestering labile redox-active intermediates such as [[Aminochrome]] and 5,
 ## Pathology & Clinical Relevance
 
 The same electrophilicity that enables polymerization can be deleterious: 5,6-indolequinone and related quinones form adducts with proteins and lipids, and residual unpolymerized quinones contribute to [[Oxidative Stress]]. Aberrant accumulation of indolic quinone intermediates has been proposed to promote [[Alpha-synuclein Aggregation]] and to compromise the protective role of neuromelanin in aging and [[Parkinson's Disease]]. Determining the balance between benign sequestration and toxic adduct formation remains an active area of research into why melanized neurons are selectively vulnerable.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator|Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator]]
+    - When Dopamine is oxidized to Dopamine o-quinone, Aminochrome and 5,6-indolequinone are formed and typically undergo polymerization to form the dark pigment, Neuromelanin (Munoz et al., 2012).
+
 
 ## Connections
 

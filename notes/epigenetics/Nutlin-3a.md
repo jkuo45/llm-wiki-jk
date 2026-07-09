@@ -1,13 +1,12 @@
 ---
 title: Nutlin-3a
-description: 'Nutlin-3a is a potent, selective small-molecule inhibitor of the
+description: Nutlin-3a is a potent, selective small-molecule inhibitor of the
   MDM2-p53 interaction. By displacing p53 from MDM2 (the primary E3 ubiquitin ligase
-  that targets p53 for proteasomal degradation)...'
-type: entity
+  that targets p53 for proteasomal degradation)...
 created: 2024-01-01
 updated: 2024-07-04
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: []
 ---
 
@@ -45,6 +44,14 @@ Nutlin-3a is the most widely used tool for activating wild-type p53 without caus
 - Nutlin-3a is rapidly cleared in vivo (short half-life), limiting preclinical studies.
 - Sustained p53 activation can select for p53-mutant clones.
 - [[MDM4]] can partially compensate for MDM2 inhibition in some cell types.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - YUIQ‐5, BMVC4, Pyridostatin, compound 115405, perylene and indole derivatives, Harmine, BIBR1532, Azidothymidine); (5) CDK Inhibitor (Palbociclib, Roscovitine, Ribociclib); (6) activators of p53 (Nutlin-3a, FL118); (7) activators of Protein Kinase C (TPA/PM...
+
 
 ## Connections
 

@@ -1,13 +1,12 @@
 ---
 title: Melittin
-description: 'Melittin is a positively charged, amphipathic 26-amino-acid peptide
+description: Melittin is a positively charged, amphipathic 26-amino-acid peptide
   that constitutes approximately half of Honeybee venom by dry weight. It is known
-  for its ability to associate with phospholip...'
-type: entity
+  for its ability to associate with phospholip...
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - Enzyme
+  - enzyme
 aliases: []
 ---
 
@@ -27,6 +26,14 @@ Melittin has shown selective cytotoxic effects against several cancer types, par
 - **Membrane Disruption**: Forms ~4.4 nm-diameter transmembrane toroidal pores.
 - **Signaling Inhibition**: Suppresses the phosphorylation and activation of receptor tyrosine kinases such as [[EGFR]] and [[HER2]].
 - **Synergy**: Enhances the effect of chemotherapeutic agents like [[docetaxel]] and [[Cisplatin]].
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology|Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology]]
+    - Here, we demonstrate that honeybee venom and its major component melittin potently induce cell death, particularly in the aggressive triple-negative breast cancer and HER2-enriched breast cancer subtypes.
+
 
 ## Connections
 - [[Honeybee]]: The source of melittin.

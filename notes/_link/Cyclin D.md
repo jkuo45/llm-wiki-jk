@@ -1,13 +1,12 @@
 ---
 title: Cyclin D
-description: 'Overview: Cyclin D is a cellular protein with structural, signaling,
+description: 'Overview: Cyclin D is a cellular protein with structural, signaling,'
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
-  and signaling networks that govern ...'
-type: entity
+  and signaling networks that govern ...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [CCND]
 
 ---
@@ -24,10 +23,20 @@ aliases: [CCND]
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - Cyclin D-CDK4/CDK6 and Cyclin E-CDK2 complexes promote G1 Phase progression (Aktas et al., 1997). Thus, high levels of Cyclin D/E and CDK4/CDK6 increase proliferation by driving passage through G1 Phase.
+
+
 ## Connections
 - [[Cyclin D]] — related entity
 
 ## Linking Summary
 - New links added: [[Cyclin D]]
-- Strong connections to strengthen: [[Cyclin D]] ↔ [[Cyclin D]]
+  - Strong connections to strengthen: Cyclin D ↔ Cyclin D
 

@@ -1,11 +1,10 @@
 ---
 title: Strongyloides
 description: Strongyloides is a genus of parasitic nematodes (family Strongyloididae); Strongyloides stercoralis is the principal human pathogen, unique for its free-living and autoinfective life cycles, with oncology relevance through immunosuppression-associated hyperinfection.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Microorganism
+  - organism
 aliases: []
 ---
 
@@ -24,6 +23,14 @@ The oncology-relevant dimension of *Strongyloides* concerns **iatrogenic immunos
 ## Diagnosis and Treatment
 
 Diagnosis combines stool microscopy (often low-yield due to intermittent shedding), serology, and molecular assays. Treatment relies on [[Ivermectin]] (preferred) or [[Albendazole]], with ivermectin also used for prophylaxis in at-risk immunocompromised patients. Eradication must be confirmed, since autoinfection precludes natural clearance.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, ‘Wonder drug’ from Japan the human use perspective|Ivermectin, ‘Wonder drug’ from Japan the human use perspective]]
+    - Thankfully, despite 30 years of constant worldwide use, there have been no reports of resistance in canine heartworms or among equine Strongyloides parasites. More importantly, despite some 22 years of constant monotherapy in humans, no c
+
 
 ## Connections
 

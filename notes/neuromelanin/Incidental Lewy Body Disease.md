@@ -1,11 +1,10 @@
 ---
 title: Incidental Lewy Body Disease
 description: iLBD is widely considered to represent an early, presymptomatic stage of Parkinson's disease.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: []
 ---
 

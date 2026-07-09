@@ -1,12 +1,11 @@
 ---
 title: Metabolic Reprogramming
-description: '- Aerobic Glycolysis: Also known as the Warburg Effect, where cells
-  prefer Glycolysis even in the presence of oxygen.'
-type: entity
+description: '- Aerobic Glycolysis: Also known as the Warburg Effect, where cells'
+  prefer Glycolysis even in the presence of oxygen.
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - Enzyme
+  - enzyme
 aliases: []
 ---
 
@@ -25,6 +24,14 @@ Metabolic reprogramming creates vulnerabilities that can be targeted:
 - Inhibiting glucose transporters like [[GLUT1]].
 - Targeting glycolytic enzymes like [[Hexokinase 2]] and [[Pyruvate Kinase M2]].
 - Compounds like [[Fenbendazole]] are being studied for their ability to interfere with these metabolic shifts.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Oral Fenbendazole for Cancer Therapy in Humans and Animals|Oral Fenbendazole for Cancer Therapy in Humans and Animals]]
+    - Mentioned in this document
+
 
 ## Connections
 - **Related Processes:** [[Warburg Effect]], [[Glycolysis]], [[Oxidative Stress]], [[Hypoxia]]

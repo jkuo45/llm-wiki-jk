@@ -1,11 +1,10 @@
 ---
 title: Bik
-description: 'Bik (Bcl-2-interacting killer) is a BH3-only protein whose degradation is promoted by SRC kinase through an ERK-dependent mechanism, suppressing Apoptosis and favoring tumor survival.'
-type: entity
+description: Bik (Bcl-2-interacting killer) is a BH3-only protein whose degradation is promoted by SRC kinase through an ERK-dependent mechanism, suppressing Apoptosis and favoring tumor survival.
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Protein
+  - protein
 aliases: []
 ---
 
@@ -30,6 +29,17 @@ Bik is expressed in epithelial tissues and the immune system, where it enforces 
 - **Tumor Suppressor Role**: By initiating apoptosis, Bik constrains oncogenesis; its loss or degradation removes a barrier to [[Cancer]].
 - **Therapeutic Vulnerability**: Restoring Bik (e.g., via MEK/ERK inhibitors that stabilize it, or [[BH3 mimetics]] that bypass it) can re-engage death.
 - **Biomarker**: SRC/ERK activation status may predict Bik abundance and apoptotic priming.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - Bax, Bak, Bad, Bcl-Xs, Bid, Bik, Bim and Hrk) and the anti-apoptotic proteins (e.g. Bcl-2, Bcl-xL, Bcl-w, A1-Bfl-1 and Mcl-1) \[\].
+
+  - [[_document_ - Caspase|Caspase]]
+    - ERK2 | Ser77 | Inactivation | Melanoma | | Bik | | ERK1_2 | Thr124 | Ubiquitination and degradation | Lung Cancer, [[Colon
+
 
 ## Connections
 

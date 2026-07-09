@@ -1,13 +1,12 @@
 ---
 title: NRF1
-description: 'Overview: NRF1 is a cellular protein with structural, signaling,
+description: 'Overview: NRF1 is a cellular protein with structural, signaling,'
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
-  and signaling networks that govern cell...'
-type: entity
+  and signaling networks that govern cell...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [Nuclear Respiratory Factor 1]
 
 ---
@@ -29,5 +28,5 @@ aliases: [Nuclear Respiratory Factor 1]
 
 ## Linking Summary
 - New links added: [[NRF1]]
-- Strong connections to strengthen: [[NRF1]] ↔ [[NRF1]]
+  - Strong connections to strengthen: [[NRF1]] ↔ [[NRF1]]
 

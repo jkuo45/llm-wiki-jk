@@ -1,13 +1,12 @@
 ---
 title: Keap1
-description: 'Keap1 (Kelch-like ECH-associated protein 1) is a redox-sensitive
+description: Keap1 (Kelch-like ECH-associated protein 1) is a redox-sensitive
   protein that functions as a sensor for oxidative stress and regulates the degradation
-  and nuclear translocation of NRF2.'
-type: entity
+  and nuclear translocation of NRF2.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: []
 ---
 
@@ -34,6 +33,17 @@ Electrophile modification of Keap1's sensor cysteines, particularly Cys151, caus
 ## Connection to Adrenochrome and Electrophile Sensing
 
 In the context of the [[Adrenochrome Pathway]], adrenochrome and its redox-cycling products act as [[Electrophile|electrophiles]] that can modify Keap1 sensor cysteines, thereby activating the [[NRF2]] stress response. This Keap1-Nrf2-adrenochrome axis represents a feed-forward adaptive mechanism: electrophilic [[Aminochromes]] induce their own detoxification by upregulating [[NQO1]], [[HO-1]], and glutathione-synthesizing enzymes. Therapeutic targeting of Keap1 with small-molecule electrophiles (e.g., [[Sulforaphane]], [[Dimethyl fumarate]]) is an active strategy to boost endogenous antioxidant defenses in neurodegeneration, [[Diabetes]], [[Chronic Kidney Disease]], and [[Aging]].
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - MRR - mitohormesis|mitohormesis]]
+    - s:// Rather than causing catastrophic lipid peroxidation, this localized pulse is designed to transiently modify Keap1 cysteine residues, allowing NRF2 to translocate to the nucleus and transcr
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - When stimulated, NRF2 dissociates from suppressor protein Keap1 in the nucleus and interacts with AREs to regulate the expression of antioxidant genes, suggesting a close association between NRF2 and oxidative stress.
+
 
 ## Connections
 

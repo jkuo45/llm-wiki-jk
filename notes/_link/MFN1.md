@@ -1,13 +1,12 @@
 ---
 title: MFN1
-description: 'Overview: MFN1 is a cellular protein with structural, signaling,
+description: 'Overview: MFN1 is a cellular protein with structural, signaling,'
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
-  and signaling networks that govern cell...'
-type: entity
+  and signaling networks that govern cell...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [Mitofusin 1]
 
 ---
@@ -29,5 +28,5 @@ aliases: [Mitofusin 1]
 
 ## Linking Summary
 - New links added: [[MFN1]]
-- Strong connections to strengthen: [[MFN1]] ↔ [[MFN1]]
+  - Strong connections to strengthen: [[MFN1]] ↔ [[MFN1]]
 

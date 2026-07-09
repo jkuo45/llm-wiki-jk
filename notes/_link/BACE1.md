@@ -1,12 +1,11 @@
 ---
 title: BACE1
-description: 'Catalytic function: BACE1 is an enzyme that catalyzes biochemical
-  reactions essential for cellular metabolism and homeostasis.'
-type: entity
+description: 'Catalytic function: BACE1 is an enzyme that catalyzes biochemical'
+  reactions essential for cellular metabolism and homeostasis.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Enzyme
+  - enzyme
 aliases: [Beta-Secretase 1]
 
 ---
@@ -28,5 +27,5 @@ aliases: [Beta-Secretase 1]
 
 ## Linking Summary
 - New links added: [[BACE1]]
-- Strong connections to strengthen: [[BACE1]] ↔ [[BACE1]]
+  - Strong connections to strengthen: [[BACE1]] ↔ [[BACE1]]
 

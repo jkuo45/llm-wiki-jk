@@ -1,13 +1,12 @@
 ---
 title: MdmX
-description: 'Overview: MdmX is a cellular protein with structural, signaling,
+description: 'Overview: MdmX is a cellular protein with structural, signaling,'
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
-  and signaling networks that govern cell...'
-type: entity
+  and signaling networks that govern cell...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [MDM4]
 
 ---
@@ -29,5 +28,5 @@ aliases: [MDM4]
 
 ## Linking Summary
 - New links added: [[MdmX]]
-- Strong connections to strengthen: [[MdmX]] ↔ [[MdmX]]
+  - Strong connections to strengthen: [[MdmX]] ↔ [[MdmX]]
 

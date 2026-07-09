@@ -1,12 +1,11 @@
 ---
 title: Nuclear Pore Complex
-description: 'Overview: Nuclear Pore Complex is a specialized cellular or anatomical
-  structure with defined functions in tissue organization and physiology.'
-type: entity
+description: 'Overview: Nuclear Pore Complex is a specialized cellular or anatomical'
+  structure with defined functions in tissue organization and physiology.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Anatomy
+  - anatomy
 aliases: [NPC]
 
 ---
@@ -23,10 +22,20 @@ aliases: [NPC]
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - Cellular structures: Nuclear pore complexes. Nuclear Pore Complex reside in the Nuclear Envelope where they function to regulate the transport of molecules between the cytoplasm and the nucleoplasm.
+
+
 ## Connections
 - [[Nuclear Pore Complex]] — related entity
 
 ## Linking Summary
 - New links added: [[Nuclear Pore Complex]]
-- Strong connections to strengthen: [[Nuclear Pore Complex]] ↔ [[Nuclear Pore Complex]]
+  - Strong connections to strengthen: Nuclear Pore Complex ↔ Nuclear Pore Complex
 

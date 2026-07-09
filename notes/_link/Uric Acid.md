@@ -1,15 +1,16 @@
 ---
 title: Uric Acid
-description: Uric Acid (UA, 2,6,8-trihydroxypurine) is the end-product of purine metabolism
-  in humans, produced by Xanthine Oxidase—mediated oxidation of hypoxanthine and xanthine.
-  It functions as both a major ...
-type: entity
+description: Uric Acid (UA, 2,6,8-trihydroxypurine) is the end-product of purine metabolism in humans, produced by Xanthine Oxidase—mediated oxidation of hypoxanthine and xanthine. It functions as both a major ...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Chemical Compound
-aliases: [UA, Urate, 2,6,8-trihydroxypurine]
-chebi: CHEBI:17790
+  - chemical-compound
+aliases:
+  - UA
+  - Urate
+  - 2
+  - 6
+  - 8-trihydroxypurine
 ---
 
 
@@ -49,4 +50,4 @@ At high concentrations (>6 mg/dL), uric acid can act as a pro-oxidant: urate rad
 ## Linking Summary
 - New links added: [[Xanthine Oxidase]], [[Allopurinol]], [[NLRP3 Inflammasome]], [[Peroxynitrite]], [[Fenton Reaction]], [[Gout]], [[Cardiovascular Disease]], [[Neurodegeneration]], [[Parkinson's Disease]], [[Amyotrophic Lateral Sclerosis]], [[Metabolic Syndrome]], [[Tumor Lysis Syndrome]], [[Rasburicase]], [[Singlet Oxygen]], [[Hydroxyl Radicals]], [[Hypochlorous Acid]], [[LDL]]
 - Suggested new entity notes to create: [[Febuxostat]], [[Probenecid]], [[Monosodium Urate]]
-- Strong connections to strengthen: [[Uric Acid]] ↔ [[Gout]], [[Uric Acid]] ↔ [[NLRP3 Inflammasome]], [[Uric Acid]] ↔ [[Xanthine Oxidase]]
+  - Strong connections to strengthen: Uric Acid ↔ [[Gout]], Uric Acid ↔ NLRP3 Inflammasome, Uric Acid ↔ Xanthine Oxidase

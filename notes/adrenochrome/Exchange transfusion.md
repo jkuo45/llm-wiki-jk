@@ -1,16 +1,23 @@
 ---
 title: Exchange transfusion
 description: '- Methemoglobinemia: A treatment of last resort for severe cases.'
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Medical Treatment
+  - medical-treatment
 aliases: []
 ---
 # Exchange transfusion
 
 [[Exchange transfusion]] is a medical procedure where a patient's blood is replaced with donor blood. It is used as a treatment for severe or refractory cases of [[Methemoglobinemia]] when other treatments like [[Methylene blue]] fail or are contraindicated.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Methemoglobin and Methemoglobinemia|Methemoglobin and Methemoglobinemia]]
+    - Alternatives/adjuncts: Ascorbic Acid (vitamin C), especially if Methylene blue contraindicated; Exchange transfusion or Hyperbaric oxygen in severe/refractory cases. 5.
+
 
 ## Connections
 - [[Methemoglobinemia]]: A treatment of last resort for severe cases.

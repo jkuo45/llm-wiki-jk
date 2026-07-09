@@ -1,11 +1,10 @@
 ---
 title: UBL-5
 description: UBL-5 is a ubiquitin-like protein in C. elegans that is essential for the transcriptional activation of the Mitochondrial Unfolded Protein Response (UPRmt).
-type: entity
 created: 2026-07-04
 updated: 2026-07-06
 tags:
-  - Protein
+  - protein
 aliases: []
 ---
 

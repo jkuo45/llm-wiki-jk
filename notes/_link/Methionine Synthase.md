@@ -1,12 +1,11 @@
 ---
 title: Methionine Synthase
-description: 'Catalytic function: Methionine Synthase is an enzyme that catalyzes
-  biochemical reactions essential for cellular metabolism and homeostasis.'
-type: entity
+description: 'Catalytic function: Methionine Synthase is an enzyme that catalyzes'
+  biochemical reactions essential for cellular metabolism and homeostasis.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Enzyme
+  - enzyme
 aliases: [MTR]
 
 ---
@@ -28,5 +27,5 @@ aliases: [MTR]
 
 ## Linking Summary
 - New links added: [[Methionine Synthase]]
-- Strong connections to strengthen: [[Methionine Synthase]] ↔ [[Methionine Synthase]]
+  - Strong connections to strengthen: Methionine Synthase ↔ Methionine Synthase
 

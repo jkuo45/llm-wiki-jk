@@ -1,11 +1,10 @@
 ---
 title: Magnetic Resonance Imaging
 description: Magnetic Resonance Imaging (MRI) is a non-invasive imaging technology that produces three dimensional detailed anatomical images. Neuromelanin-sensitive MRI is used to visualize the Substantia Nigra and Locus Coeruleus.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Imaging Technique
+  - analytical-technique
 aliases: []
 ---
 

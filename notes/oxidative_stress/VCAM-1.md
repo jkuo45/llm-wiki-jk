@@ -3,14 +3,13 @@ title: VCAM-1
 description: Vascular cell adhesion protein 1 (VCAM-1) is a protein that mediates
   the adhesion of lymphocytes, monocytes, eosinophils, and basophils to vascular endothelium.
   Its expression is upregulated in res...
-type: entity
 created: 2026-05-09
 updated: 2026-07-04
 tags:
-  - oxidative stress
+  - oxidative-stress
   - adhesion
   - inflammation
-  - Protein
+  - protein
 aliases: [vascular cell adhesion protein 1, CD106]
 ---
 # VCAM-1
@@ -45,6 +44,14 @@ In the central nervous system, VCAM-1 is expressed on cerebral [[Endothelial cel
 - New links added: [[Hydrogen Peroxide]], [[p38 MAPK]], [[NADPH Oxidase]], [[NOX4]], [[Oxidized LDL]], [[Cardiovascular Disease]], [[Diabetes Mellitus]], [[Rheumatoid Arthritis]], [[Inflammation]], [[Oxidative Stress]], [[Nitric Oxide]], [[TNF-alpha]], [[IL-1b]], [[Atherosclerosis]], [[Multiple Sclerosis]], [[HO-1]], [[NF-kappa B]], [[Glutathione]], [[Polyphenols]]
 - Suggested new entity notes to create: [[Lox-1]], [[VLA-4 integrin]], [[Natalizumab]], [[ADAM-17]], [[HuR]], [[Rac1]], [[eNOS]], [[Resveratrol]], [[Blood-brain barrier]], [[Encephalitogenic T cells]], [[Shear stress]]
 - Strong connections to strengthen: [[VCAM-1]] ↔ [[NF-kappa B]], [[VCAM-1]] ↔ [[TNF-alpha]], [[VCAM-1]] ↔ [[Multiple Sclerosis]]
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - Each form of vitamin E seems to have different regulatory effects when it comes to recruit leukocytes to allergic inflammation site, which is however strictly dependent on vascular cell adhesion molecule-1 (VCAM-1) \[\].
+
 
 ## Connections
 

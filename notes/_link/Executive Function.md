@@ -1,12 +1,11 @@
 ---
 title: Executive Function
-description: 'Definition: Executive Function is a scientific concept that describes
-  fundamental principles governing biological or chemical systems.'
-type: entity
+description: 'Definition: Executive Function is a scientific concept that describes'
+  fundamental principles governing biological or chemical systems.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Scientific Concept
+  - scientific-concept
 aliases: [Cognitive Control]
 
 ---
@@ -23,10 +22,20 @@ aliases: [Cognitive Control]
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum|Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum]]
+    - In healthy subjects, the Val 158 allele has been found to associate with poorer Cognitive Performance, specifically on tasks involving Executive Function.
+
+
 ## Connections
 - [[Executive Function]] — related entity
 
 ## Linking Summary
 - New links added: [[Executive Function]]
-- Strong connections to strengthen: [[Executive Function]] ↔ [[Executive Function]]
+  - Strong connections to strengthen: Executive Function ↔ Executive Function
 

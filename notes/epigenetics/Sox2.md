@@ -1,11 +1,10 @@
 ---
 title: Sox2
 description: Sox2 (SRY-box transcription factor 2) is a core pluripotency transcription factor and Yamanaka reprogramming factor.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Protein
+  - protein
 aliases: []
 ---
 
@@ -28,6 +27,17 @@ Sox2 is expressed in the developing neural tube, sensory epithelia, and the inne
 ## Pathology & Clinical Relevance
 
 Dysregulated Sox2 contributes to [[Cancer]] stemness and poor prognosis in several malignancies, and Sox2 rearrangements/amplifications occur in squamous cell carcinomas. In regenerative medicine, controlled Sox2 expression underpins safe [[Reprogramming]] and iPSC generation for [[Disease Modeling]] (e.g., [[Frontotemporal Dementia]], [[Olivopontocerebellar Atrophy]]) and [[Rejuvenation]] (transient reprogramming to reset epigenetic age). Sox2 is also a target of [[CRISPR]] and small-molecule approaches to manipulate pluripotency without genomic integration.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic|Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic]]
+    - Luis Gustavo Celis 3, transcription factors Oct4, Sox2, Klf4, and c-Myc enable the Cellular Reprogramming of Somatic Cells into Induced Pluripotent Stem Cells.
+
+  - [[_document_ - Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network|Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network]]
+    - gov/) 2,6, D Hoheisel 7 PMCID: Abstract Somatic Cells can be reprogrammed to Induced Pluripotent Stem Cells by over-expression of Oct4, Sox2, Klf4 and c-Myc (OSKM).
+
 
 ## Connections
 

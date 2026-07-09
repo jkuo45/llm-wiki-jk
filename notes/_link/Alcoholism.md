@@ -1,13 +1,12 @@
 ---
 title: Alcoholism
-description: 'Etiology and pathophysiology: Alcoholism is a medical condition
+description: 'Etiology and pathophysiology: Alcoholism is a medical condition'
   characterized by specific pathological changes in cellular, tissue, or organ function.
-  Its development involves genetic, environm...'
-type: entity
+  Its development involves genetic, environm...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: [Alcohol Use Disorder, AUD]
 
 ---
@@ -24,10 +23,20 @@ aliases: [Alcohol Use Disorder, AUD]
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - intermediates, precursor, hemoglobin|intermediates, precursor, hemoglobin]]
+    - AA co-founder Bill Wilson (Bill W.) reportedly experimented with leuko-adrenochrome as part of his broader interest in biochemical and spiritual approaches to Alcoholism recovery (alongside LSD and high-dose Niacin).
+
+
 ## Connections
 - [[Alcoholism]] — related entity
 
 ## Linking Summary
 - New links added: [[Alcoholism]]
-- Strong connections to strengthen: [[Alcoholism]] ↔ [[Alcoholism]]
+  - Strong connections to strengthen: [[Alcoholism]] ↔ [[Alcoholism]]
 

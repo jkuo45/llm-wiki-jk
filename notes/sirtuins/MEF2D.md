@@ -1,19 +1,14 @@
 ---
 title: MEF2D
-description: 'MEF2D (Myocyte-specific enhancer factor 2D) is a member of the MEF2
+description: MEF2D (Myocyte-specific enhancer factor 2D) is a member of the MEF2
   (MADS-box transcription enhancer factor 2) family of transcription factors. It plays
-  critical roles in skeletal and cardiac m...'
-type: entity
+  critical roles in skeletal and cardiac m...
 created: 2026-07-03
 updated: 2026-07-07
 tags:
-  - Protein
+  - protein
 aliases: [MEF2D, Myocyte-Specific Enhancer Factor 2D]
-
-sources:
-- PMID:16166628
-target: SIRT1
-
+source: PMID:16166628
 ---
 
 
@@ -41,6 +36,14 @@ The activity of MEF2D during myogenesis is tightly regulated by a molecular swit
 ## Physiological & Pathological Implications
 
 This SIRT1–HDAC4–MEF2D switch couples nutrient/energy status to tissue differentiation: under conditions of low [[NAD+]] or high SIRT1 activity, myogenesis is restrained. Conversely, the same axis is hijacked in some carcinomas, where MEF2D translocations drive leukemia. The interplay illustrates how sirtuins gate developmental transcription factors.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - showed that Lys on MEF2D, which when acetylated activates MEF2D and when sumoylated inhibits it, is also a SIRT1 target. In addition, the histone deacetylase HDAC4, which has been shown to have SUMO E
+
 
 ## Connections
 

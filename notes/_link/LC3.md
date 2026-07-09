@@ -1,18 +1,14 @@
 ---
 title: LC3
-description: 'LC3 (Microtubule-associated protein 1A/1B light chain 3B) is a central
+description: LC3 (Microtubule-associated protein 1A/1B light chain 3B) is a central
   protein in the Autophagy pathway. It is the mammalian homologue of yeast Atg8 and
-  serves as the most widely used marker fo...'
-type: entity
+  serves as the most widely used marker fo...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
   - autophagy
 aliases: [Microtubule-associated proteins 1A/1B light chain 3B, MAP1LC3B, Atg8]
-database_ids:
-  uniprot: Q9GZQ8
-  hgnc: HGNC:13352
 
 ---
 
@@ -34,6 +30,25 @@ LC3 is conjugated to phosphatidylethanolamine (PE) to form lipidated LC3-II, whi
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Autophagy and intermittent fasting the connection for cancer therapy?|Autophagy and intermittent fasting the connection for cancer therapy?]]
+    - Subsequently, two ubiquitin-like conjugation systems mediate the recruitment of ATG12–ATG5 and microtubule-associated protein light chain 3 (LC3) proteins to the phagophore, allowing its expansion and closure to form the mature autophagosome.
+
+  - [[_document_ - Lysosome biogenesis Regulation and functions|Lysosome biogenesis Regulation and functions]]
+    - Autophagosome-specific proteins are also involved, including LC3/Atg8, Atg14, and autophagosome-related SNARE proteins (Zhao and Zhang, 2019). Notably, fusion of autophagosomes with endosomes/lysosomes is regulated by nutrients.
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - In yeast, Atg8 or Atg13 and Atg17 are essential for the kinase activity of Atg1 whereas in mammals, LC3, which is an ortholog of Atg8, can promote the activity of Atg1 along with GATE-16 and GABARAP \[\].
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - For example, SIRT1 deacetylates autophagy-related proteins (such as Beclin1 and LC3) to promote autophagy. Deacetylation of Beclin1 lysine residue by SIRT1 impairs Autophagic Flux; thus, Autophagosome fusion with lysosomes is compromised.
+
+
 ## Connections
 - [[Autophagy]] — LC3 is essential for autophagosome formation
 - [[p62]] — LC3-interacting region (LIR) recruits cargo to autophagosomes
@@ -42,4 +57,4 @@ LC3 is conjugated to phosphatidylethanolamine (PE) to form lipidated LC3-II, whi
 ## Linking Summary
 - New links added: [[Autophagy]], [[p62]], [[Beclin1]], [[Autophagic Flux]], [[Atg8]], [[Autophagosome]], [[Atg7]], [[Atg3]], [[Atg12]], [[Atg5]], [[Atg16]], [[SIRT1]]
 - Suggested new entity notes to create: [[LC3-II]], [[LIR motif]], [[Atg4]]
-- Strong connections to strengthen: [[LC3]] ↔ [[Autophagy]], [[LC3]] ↔ [[Autophagosome]], [[SIRT1]] ↔ [[LC3]]
+  - Strong connections to strengthen: [[LC3]] ↔ Autophagy, [[LC3]] ↔ Autophagosome, SIRT1 ↔ [[LC3]]

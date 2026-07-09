@@ -1,13 +1,12 @@
 ---
 title: Pexophagy
-description: 'Definition: Pexophagy is a fundamental biological process that maintains
+description: 'Definition: Pexophagy is a fundamental biological process that maintains'
   cellular and organismal homeostasis. It involves coordinated molecular events regulated
-  by signaling pathways and enviro...'
-type: entity
+  by signaling pathways and enviro...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Biological Process
+  - biological-process
 aliases: []
 ---
 
@@ -28,5 +27,5 @@ aliases: []
 
 ## Linking Summary
 - New links added: [[Pexophagy]]
-- Strong connections to strengthen: [[Pexophagy]] ↔ [[Pexophagy]]
+  - Strong connections to strengthen: [[Pexophagy]] ↔ [[Pexophagy]]
 

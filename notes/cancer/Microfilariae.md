@@ -1,11 +1,10 @@
 ---
 title: Microfilariae
 description: Microfilariae are the motile larval stage of filarial nematodes (Onchocercidae) released by adult worms into host blood or skin; their clearance by Ivermectin and Diethylcarbamazine defines filariasis treatment success.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Cell Type
+  - cell-type
 aliases: []
 ---
 
@@ -24,6 +23,14 @@ In [[Lymphatic Filariasis]] (caused by [[Wuchereria bancrofti]], [[Brugia malayi
 ## Clinical & Research Relevance
 
 Antifilarial therapy targets microfilariae: [[Ivermectin]] (marketed as [[Mectizan]]) rapidly clears skin microfilariae of onchocerciasis by paralyzing and enhancing host clearance, and [[Diethylcarbamazine]] kills circulating microfilariae in lymphatic filariasis. Measuring microfilarial burden (blood smear, skin snip, antigen assays) before and after treatment gauges success of mass-drug-administration programs such as the [[Mectizan Donation Program]]. While not a cancer entity, microfilariae connect to the broader ivermectin pharmacology relevant to [[Drug Repositioning]] in [[Cancer]].
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, ‘Wonder drug’ from Japan the human use perspective|Ivermectin, ‘Wonder drug’ from Japan the human use perspective]]
+    - After mating, female worms can release up to 1000 Microfilariae a day for some 10–14 years. These move through the body, and when they die they cause a variety of conditions, including skin rashes, lesions, intense itching, oedema and skin depigmentation (Fig.
+
 
 ## Connections
 

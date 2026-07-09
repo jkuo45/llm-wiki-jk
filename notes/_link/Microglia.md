@@ -3,11 +3,10 @@ title: Microglia
 description: Microglia originate from yolk-sac progenitors during early embryogenesis
   and are maintained throughout life by local self-renewal, independent of circulating
   monocytes.
-type: entity
 created: 2024-01-01
 updated: 2024-01-01
 tags:
-  - Cell Type
+  - cell-type
 aliases: []
 ---
 # Microglia
@@ -33,4 +32,4 @@ The release of extracellular [[Neuromelanin]] from dying dopaminergic neurons ac
 ## Linking Summary
 - New links added: [[Parkinson's Disease]], [[Neuromelanin]], [[Microgliosis]], [[Neuronophagia]], [[Cytokines]], [[Reactive Oxygen Species]], [[Neuroinflammation]], [[Substantia Nigra]], [[Neuroinflammation]].
 - Suggested new entity notes to create: [[Macrophage]], [[Reactive Oxygen Species]].
-- Strong connections to strengthen: [[Microglia]] ↔ [[Microgliosis]], [[Microglia]] ↔ [[Neuroinflammation]], [[Microglia]] ↔ [[Microgliosis]].
+  - Strong connections to strengthen: [[Microglia]] ↔ Microgliosis, [[Microglia]] ↔ Neuroinflammation, [[Microglia]] ↔ [[Microgliosis]].

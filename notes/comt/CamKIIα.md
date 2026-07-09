@@ -1,11 +1,10 @@
 ---
 title: CamKIIα
-description: 'CaMKIIα (Calcium/calmodulin-dependent protein kinase II alpha) is an abundant neuronal serine/threonine kinase essential for synaptic plasticity, LTP, and memory; its promoter drives forebrain-specific transgene expression in COMT models.'
-type: entity
+description: CaMKIIα (Calcium/calmodulin-dependent protein kinase II alpha) is an abundant neuronal serine/threonine kinase essential for synaptic plasticity, LTP, and memory; its promoter drives forebrain-specific transgene expression in COMT models.
 created: 2026-05-25
 updated: 2026-07-07
 tags:
-  - Protein
+  - protein
 aliases: [CaMKIIα, Calcium/calmodulin-dependent protein kinase II alpha, CAMK2A]
 
 ---
@@ -29,6 +28,14 @@ In transgenic mouse models such as COMT-overexpressing (COMT-OE) mice, the **[[C
 ## Clinical & Research Relevance
 
 CaMKIIα dysregulation is linked to autism, intellectual disability, and schizophrenia-associated *CAMK2A* variants. Its intersection with [[COMT]] in regulating cortical dopamine makes it a useful node for studying how genetic background modifies plasticity and vulnerability to [[Schizophrenia]] and mood disorders.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum|Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum]]
+    - In order to identify the contribution of COMT activity level specifically in neurons restricted primarily to the forebrain, we utilized a promoter from the CamKIIα gene.
+
 
 ## Connections
 

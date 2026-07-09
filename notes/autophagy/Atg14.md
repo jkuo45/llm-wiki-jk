@@ -3,11 +3,10 @@ title: Atg14
 description: Atg14, also known as Atg14L or Barkor, is an essential subunit of the
   Vps34-containing class III PI3K complex I that determines its localization to the
   Autophagosome isolation membrane.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Protein
+  - protein
   - autophagy
 aliases: [ATG14L, Barkor]
 ---
@@ -27,6 +26,17 @@ Following ULK1-complex activation, ULK1 phosphorylates Atg14 (and Beclin 1), sti
 ## Physiological & Pathological Relevance
 
 Atg14 is required for basal and induced [[Autophagy]], mitophagy, and resistance to starvation and intracellular pathogens. Its BATS domain makes it a sensor of membrane curvature relevant to [[Selective Autophagy]]. Dysregulation of Atg14/Beclin 1 complex balance affects [[Cancer]] (where autophagy can suppress or support tumors), [[Neurodegeneration]], and [[Oxidative Stress]] responses. Atg14 also participates in Parkinson's-disease-linked [[Mitophagy]] through PINK1/Parkin pathways, and its phosphorylation is modulated by multiple kinases, making it a convergence point for autophagy therapeutics.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Lysosome biogenesis Regulation and functions|Lysosome biogenesis Regulation and functions]]
+    - Autophagosome-specific proteins are also involved, including LC3/Atg8, Atg14, and autophagosome-related SNARE proteins (Zhao and Zhang, 2019). Notably, fusion of autophagosomes with endosomes/lysosomes is regulated by nutrients.
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - The first complex is composed of type III PI3K, Vps34, Atg14, Atg6/Beclin1, and Vps15/p150.73, and the second complex is associated with the activity of the serine/threonine kinase Atg1 \[\].
+
 
 ## Connections
 

@@ -3,11 +3,10 @@ title: HNRNPD
 description: Heterogeneous nuclear ribonucleoprotein D (HNRNPD), also known as AUF1,
   is an RNA-binding protein that can promote the degradation of TFEB pre-mRNA following
   METTL3-mediated m6A modification.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Protein
+  - protein
 aliases: [AUF1, heterogeneous nuclear ribonucleoprotein D]
 ---
 
@@ -26,6 +25,14 @@ AUF1 binds AREs in target mRNAs and modulates their half-life by recruiting eith
 ## Physiological & Pathological Relevance
 
 AUF1 is a central regulator of mRNA turnover in inflammation, proliferation, and stress responses. Its dysregulation contributes to the age-related decline in autophagy, because reduced stabilization of ULK1/Beclin1 and enhanced TFEB mRNA decay erode the autophagic reserve implicated in [[Aging]] and [[Neurodegeneration]]. In [[Cancer]], AUF1 often acts as an oncogenic promoter of proliferation and metastasis by stabilizing growth-related transcripts, though context-dependent tumor-suppressive roles exist. Because it bridges m6A RNA methylation to [[TFEB]] and core autophagy initiation factors, HNRNPD is an emerging node for interventions aimed at restoring autophagic flux through epitranscriptomic reprogramming.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - Mechanistically, METTL3 identify two m 6 A consensus sequence 5’-RRACU-3’ in the TFEB 3’-UTR and methylates the adenosine, which promotes the association of the RNA-binding protein HNRNPD with TFEB pre-mRNA, leading to rapid degradation of the TFEB pre-mRNA...
+
 
 ## Connections
 

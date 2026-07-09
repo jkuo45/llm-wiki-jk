@@ -1,15 +1,14 @@
 ---
 title: Busulfan
 description: Busulfan (1,4-butanediol dimethanesulfonate) is a bifunctional alkylating agent used in conditioning chemotherapy prior to bone marrow transplantation and as a model agent to induce cellular senescence in vitro.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - alkylating agent
+  - alkylating-agent
   - chemotherapy
   - senescence
-  - DNA damage
-  - Chemical Compound
+  - dna-damage
+  - chemical-compound
 aliases: [Busulfex, Myleran, Busilvex]
 ---
 
@@ -32,6 +31,14 @@ Busulfan is administered orally or intravenously and undergoes extensive hepatic
 ## Research Applications
 
 Busulfan is a standard agent for inducing cellular [[Senescence]] in vitro. Sublethal treatment of fibroblasts, epithelial cells, or mesenchymal stem cells produces a stable senescent phenotype within 48–72 hours, marked by senescence-associated β-galactosidase (SA-β-gal) activity, [[p21]] upregulation, and SASP secretion. This model studies the DNA damage response (DDR), senescence-escape mechanisms, and senolytic screening. Unlike ionizing radiation or etoposide, busulfan produces predominantly cross-link lesions rather than strand breaks, offering a distinct DNA-damage modality for comparative senescence research.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - DNA‐damaging agents, including (2a) DNA Topoisomerase Inhibitors (Doxorubicin, Etoposide, Daunorubicin, Mitoxantrone, Camptothecin), (2b) DNA Cross-linkers (Cisplatin, Mitomycin C, Busulfan, Cyclophosphamide, Diaziquone), and (2c) drugs with complex effects...
+
 
 ## Connections
 

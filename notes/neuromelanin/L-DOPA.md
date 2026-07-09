@@ -1,11 +1,10 @@
 ---
 title: L-DOPA
 description: In the brain, L-DOPA is synthesized from the amino acid tyrosine by the enzyme Tyrosine Hydroxylase. It is then converted into Dopamine by the enzyme aromatic L-amino acid decarboxylase.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: []
 ---
 
@@ -26,6 +25,17 @@ Because L-DOPA is a direct precursor to dopamine and to dopamine quinone, it is 
 
 ## Pathology and Research Relevance
 L-DOPA remains first-line PD therapy, but its limitations motivate continuous-release formulations, duodenal infusions, and adjuncts (MAO-B inhibitors, amantadine). Understanding L-DOPA pharmacokinetics (absorption competition with dietary amino acids, erratic gastric emptying) is essential to managing fluctuations. Its discovery validated the dopaminergic basis of PD anticipated by the nigral pathology described by [[Konstantin Nikolaevich Tretiakoff]], and it remains the benchmark against which neuroprotective and device-based therapies are measured.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease|Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease]]
+    - Melanins derive from a complex biosynthetic pathway initiated with the hydroxylation of L-Tyrosine to L-DOPA. After this common step, l‐dopa serves as a precursor to both melanins and catecholamines, acting along separate pathways.
+
+  - [[_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator|Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator]]
+    - In their experiment, PC-12 cells were exposed to high levels of Dopamine through addition of L-DOPA to the cell culture media, which is rapidly taken up and subsequently converted to Dopamine.
+
 
 ## Connections
 - [[Dopamine]]: Neurotransmitter directly synthesized from L-DOPA.

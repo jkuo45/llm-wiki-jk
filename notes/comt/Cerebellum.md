@@ -1,11 +1,10 @@
 ---
 title: Cerebellum
-description: 'The Cerebellum is a hindbrain structure controlling motor coordination, balance, and motor learning; it is largely spared by forebrain-specific COMT-overexpressing transgenes and serves as a control region in COMT research.'
-type: entity
+description: The Cerebellum is a hindbrain structure controlling motor coordination, balance, and motor learning; it is largely spared by forebrain-specific COMT-overexpressing transgenes and serves as a control region in COMT research.
 created: 2026-05-25
 updated: 2026-07-07
 tags:
-  - Anatomy
+  - anatomy
 aliases: []
 ---
 
@@ -28,6 +27,14 @@ Because motor coordination depends little on the COMT-driven dopamine clearance 
 ## Clinical & Research Relevance
 
 The cerebellum is a model system for studying synaptic plasticity (long-term depression) and, increasingly, for its role in cerebellar cognitive affective syndrome. Its use as a control region in COMT transgenic work illustrates how anatomical promoter specificity enables region-targeted genetic manipulation.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum|Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum]]
+    - As expected, COMT protein level in the Cerebellum was unaffected because the transgene was not expressed in the cerebellum.
+
 
 ## Connections
 

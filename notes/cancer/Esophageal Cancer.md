@@ -1,11 +1,10 @@
 ---
 title: Esophageal Cancer
 description: Esophageal cancer is a malignancy of the esophagus with approximately 600,000 new cases worldwide annually, ranking 9th among all cancers globally. The two main histological types are squamous cell carcinoma (SCC) and adenocarcinoma, which differ markedly in epidemiology, risk factors, and anatomic distribution.
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - Medical Condition
+  - medical-condition
 aliases:
   - Esophageal carcinoma
   - Oesophageal cancer
@@ -50,6 +49,14 @@ Staging relies on **endoscopic ultrasound** (EUS) for T and N staging, combined 
 ## Prognosis
 
 Overall 5-year survival is approximately 20% across all stages. For early-stage tumors amenable to endoscopic resection, survival exceeds 80%. For locally advanced disease treated with multimodality therapy, 5-year survival is 40–60% in patients who achieve a pathologic complete response. Once distant metastases are present, 5-year survival falls below 5%, with median survival of 8–12 months. Poor prognostic factors include nodal involvement, higher T stage, weight loss >10%, and poor performance status.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - CK2 | Ser157 | Suppression of activity | TRAIL resistance; Esophageal Cancer, Colon Cancer, glioblastoma | | Caspase-3 | | PKCδ | ND | Enha
+
 
 ## Connections
 

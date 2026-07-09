@@ -1,13 +1,12 @@
 ---
 title: STAT1
-description: 'Overview: STAT1 is a cellular protein with structural, signaling,
+description: 'Overview: STAT1 is a cellular protein with structural, signaling,'
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
-  and signaling networks that govern cel...'
-type: entity
+  and signaling networks that govern cel...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [Signal Transducer and Activator of Transcription 1]
 
 ---
@@ -29,5 +28,5 @@ aliases: [Signal Transducer and Activator of Transcription 1]
 
 ## Linking Summary
 - New links added: [[STAT1]]
-- Strong connections to strengthen: [[STAT1]] ↔ [[STAT1]]
+  - Strong connections to strengthen: [[STAT1]] ↔ [[STAT1]]
 

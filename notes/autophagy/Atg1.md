@@ -2,11 +2,10 @@
 title: Atg1
 description: Atg1 is a conserved serine/threonine kinase that plays a central role
   in the initiation of Autophagy in response to nutrient deprivation.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Enzyme
+  - enzyme
   - autophagy
 aliases: [ULK1, Unc-51-like kinase 1]
 ---
@@ -20,6 +19,14 @@ Atg1 ([[ULK1]] in mammals) is a serine/threonine kinase that initiates [[Autopha
 ## Regulation
 
 Under nutrient-rich conditions, mTORC1 phosphorylates Atg13, inhibiting Atg1 activity. During starvation, mTORC1 dissociates, unleashing Atg1 kinase activity to nucleate the [[Autophagosome]].
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - The first complex is composed of type III PI3K, Vps34, Atg14, Atg6/Beclin1, and Vps15/p150.73, and the second complex is associated with the activity of the serine/threonine kinase Atg1 \[\].
+
 
 ## Connections
 

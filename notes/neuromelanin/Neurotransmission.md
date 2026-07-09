@@ -1,11 +1,10 @@
 ---
 title: Neurotransmission
-description: 'Neurotransmission is the process by which signaling molecules called neurotransmitters are released by the axon terminal of a neuron and bind to and react with the receptors on the dendrites of another neuron.'
-type: entity
+description: Neurotransmission is the process by which signaling molecules called neurotransmitters are released by the axon terminal of a neuron and bind to and react with the receptors on the dendrites of another neuron.
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Biological Process
+  - biological-process
 aliases: []
 ---
 
@@ -31,6 +30,14 @@ Toxins exploit transmission: [[MPP+]] hijacks the [[Dopamine Transporter]] to en
 ## Research Techniques
 
 Electrophysiology, amperometry, optogenetics, and microdialysis are used to study catecholamine release and uptake, while [[PET scan]] and DAT imaging quantify presynaptic integrity in vivo.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator|Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator]]
+    - The putative ability of pigmented granules to concentrate Catecholamines such as Dopamine from surrounding tissue could supplant some of the function of Vesicular Monoamine Transporter 2, which serve to sequester potentially toxic Dopamine into vesicles for...
+
 
 ## Connections
 

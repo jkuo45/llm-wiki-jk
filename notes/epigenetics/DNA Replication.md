@@ -1,14 +1,13 @@
 ---
 title: DNA Replication
-description: 'DNA replication is the biological process of producing two identical replicas of DNA from one original DNA molecule.'
-type: entity
+description: DNA replication is the biological process of producing two identical replicas of DNA from one original DNA molecule.
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - cell cycle
-  - dna synthesis
-  - s phase
-  - Biological Process
+  - cell-cycle
+  - dna-synthesis
+  - s-phase
+  - biological-process
 aliases: []
 ---
 
@@ -38,6 +37,14 @@ The replication fork moves along the DNA, with the leading strand being synthesi
 Errors in DNA replication can lead to mutations, which are a major source of genetic variation and can also drive oncogenesis. Replication stress, caused by factors such as insufficient nucleotide pools, DNA damage, or physical obstacles on the DNA template, can lead to stalled replication forks, DNA breaks, and widespread genomic instability. 
 
 Many anticancer drugs target the replication machinery or exploit the vulnerabilities caused by replication stress. For example, some drugs inhibit topoisomerases or deplete nucleotide pools, effectively stalling DNA replication in rapidly dividing cancer cells and inducing cell death.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - This spontaneous arrest can be attributed to unresolved endogenous DNA Replication Stress inherited from the S Phase of the previous cell cycle (Arora et al., 2017; Barr et al., 2017).
+
 
 ## Connections
 

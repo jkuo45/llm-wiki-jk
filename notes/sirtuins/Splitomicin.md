@@ -3,11 +3,10 @@ title: Splitomicin
 description: Splitomicin is a small-molecule, cell-permeable sirtuin inhibitor containing
   a $\beta$-naphthol ring structure. Discovered alongside Sirtinol in yeast cell-based
   screens for inhibitors of Silent In...
-type: entity
 created: 2026-07-03
 updated: 2026-07-03
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases:
   - Splitomicin
 ---
@@ -48,6 +47,14 @@ Splitomicin selectively blocks the NAD⁺-dependent deacetylation reaction catal
 
 ---
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - naphthol-containing inhibitors: β-naphthol acts as a key group for several Sirtinol, including Splitomicin, Sirtinol, Salermide, HR-73, and Cambinol. Both Sirtinol and Splitomicin were identified through cell-based screens of more than 1000 compounds in yeast.
+
+
 ## Connections & Related Entities
 
 - **[[SIRT1]]** & **[[SIRT2]]** — target proteins inhibited by splitomicin.
@@ -55,6 +62,8 @@ Splitomicin selectively blocks the NAD⁺-dependent deacetylation reaction catal
 - **[[Cardiovascular Disease]]** — cardiovascular context where splitomicin-mediated sirtuin inhibition is studied.
 
 ---
+
+
 
 ## Connections
 

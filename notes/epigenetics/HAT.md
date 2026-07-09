@@ -3,11 +3,10 @@ title: HAT
 description: HAT (Histone Acetyltransferase) enzymes add acetyl groups to lysine residues
   on histones, opening chromatin and activating transcription; key epigenetic "writers"
   opposed by HDACs.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Enzyme
+  - enzyme
 aliases: []
 ---
 

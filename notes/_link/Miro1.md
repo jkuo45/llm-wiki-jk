@@ -1,13 +1,12 @@
 ---
 title: Miro1
-description: 'Overview: Miro1 is a cellular protein with structural, signaling,
+description: 'Overview: Miro1 is a cellular protein with structural, signaling,'
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
-  and signaling networks that govern cel...'
-type: entity
+  and signaling networks that govern cel...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [RHOT1]
 
 ---
@@ -24,10 +23,20 @@ aliases: [RHOT1]
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - Parkin-mediated ubiquitination of select outer mitochondrial membrane proteins, such as mitofusins and Miro1, initiates the recruitment of key regulators of autophagosome formation, leading to the elimination of impaired Mitochondria (Narendra et al 2012).
+
+
 ## Connections
 - [[Miro1]] — related entity
 
 ## Linking Summary
 - New links added: [[Miro1]]
-- Strong connections to strengthen: [[Miro1]] ↔ [[Miro1]]
+  - Strong connections to strengthen: [[Miro1]] ↔ [[Miro1]]
 

@@ -1,13 +1,12 @@
 ---
 title: FKBP12
-description: 'Overview: FKBP12 is a cellular protein with structural, signaling,
+description: 'Overview: FKBP12 is a cellular protein with structural, signaling,'
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
-  and signaling networks that govern ce...'
-type: entity
+  and signaling networks that govern ce...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [FK506 Binding Protein 12kDa]
 
 ---
@@ -24,10 +23,25 @@ aliases: [FK506 Binding Protein 12kDa]
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - Upon entering the cell, Rapamycin binds to FKBP12 and interacts with the FKBP12-rapamycin binding domain (FRB) of mTOR, thus inhibiting mTORC1 functions (reviewed by Guertin and Sabatini, 2007).
+
+  - [[_document_ - biochemical_basis_hormesis_2026.04.20.719646v1.full|The Biochemical Basis of Hormesis]]
+    - Notes that a more detailed rapamycin model should include [[FKBP12]] (the direct intracellular rapamycin receptor binding the FRB domain of mTOR); the rictor subunit of [[mTORC2]] shields its FRB, making mTORC2 rapamycin-insensitive.
+
 ## Connections
-- [[FKBP12]] — related entity
+- [[Rapamycin]] — binds FKBP12; FKBP12-rapamycin binds the mTOR FRB domain
+- [[mTORC1]] — inhibited via the FKBP12-rapamycin-FRB interface
+- [[mTORC2]] — rictor shields its FRB from FKBP12-rapamycin
+- [[Incoherent Bivalent Motif]] — FKBP12 mediates the rapamycin binding that triggers the mTORC1-centered motif
 
 ## Linking Summary
-- New links added: [[FKBP12]]
-- Strong connections to strengthen: [[FKBP12]] ↔ [[FKBP12]]
+- New links added: [[FKBP12]], [[Rapamycin]], [[mTORC1]], [[mTORC2]], [[Incoherent Bivalent Motif]]
+  - Strong connections to strengthen: [[FKBP12]] ↔ [[Rapamycin]]; [[FKBP12]] ↔ [[mTORC1]]; [[FKBP12]] ↔ [[mTORC2]]
 

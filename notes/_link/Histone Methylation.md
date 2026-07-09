@@ -1,13 +1,12 @@
 ---
 title: Histone Methylation
-description: 'Histone methylation involves the addition of methyl groups to lysine
+description: Histone methylation involves the addition of methyl groups to lysine
   or arginine residues on histone proteins, which can either activate or repress gene
-  expression depending on the specific res...'
-type: entity
+  expression depending on the specific res...
 created: 2024-01-01
 updated: 2024-01-01
 tags:
-  - Biological Process
+  - biological-process
   - epigenetics
 aliases: []
 ---
@@ -32,5 +31,5 @@ aliases: []
 
 ## Linking Summary
 - New links added: [[Histone Methyltransferase]], [[Epigenetics]], [[Histone Modification]], [[Heterochromatin]]
-- Strong connections to strengthen: [[Histone Methylation]] ↔ [[Histone Methyltransferase]], [[Histone Methylation]] ↔ [[Epigenetics]], [[Histone Methylation]] ↔ [[Histone Modification]], [[Histone Methylation]] ↔ [[Heterochromatin]]
+  - Strong connections to strengthen: Histone Methylation ↔ Histone Methyltransferase, Histone Methylation ↔ Epigenetics, Histone Methylation ↔ Histone Modification, Histone Methylation ↔ [[Heterochromatin]]
 

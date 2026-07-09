@@ -2,11 +2,10 @@
 title: Eltrombopag
 description: Eltrombopag (EO) is an FDA-approved drug that acts as a direct inhibitor
   of TFEB by disrupting its interaction with DNA.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: [EO, eltrombopag olamine]
 ---
 # Eltrombopag
@@ -19,6 +18,14 @@ Eltrombopag is a thrombopoietin receptor ([[MPL]]) agonist used for immune throm
 ## Autophagy Connection
 
 Eltrombopag chelates iron and has been shown to induce [[Autophagy]] and [[Ferritinophagy]] in hematopoietic stem cells, potentially contributing to its therapeutic effect in bone marrow failure syndromes.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - A recent study presented the first direct TFEB inhibitor, Eltrombopag, a United States Food and Drug Administration-approved drug for the treatment of thrombocytopenia.
+
 
 ## Connections
 

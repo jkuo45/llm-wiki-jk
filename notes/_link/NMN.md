@@ -3,26 +3,15 @@ title: NMN (Nicotinamide Mononucleotide)
 description: Nicotinamide Mononucleotide (NMN) is an endogenous nucleotide derived
   from vitamin B3 (niacin) and a direct biosynthetic precursor to NAD+ (nicotinamide
   adenine dinucleotide). NMN serves as a key i...
-type: entity
 created: 2026-07-05
 updated: 2026-07-05
 tags:
-  - Metabolite
-  - NAD+
+  - biological-molecule
+  - nad+
 aliases:
   - Nicotinamide Mononucleotide
   - NMN
   - β-NMN
-database_ids:
-  chebi: CHEBI:25378
-  pubchem: 4787763
-relations:
-  - predicate: precursor_of
-    target: "NAD+"
-    sources: []
-  - predicate: activates
-    target: "Sirtuins"
-    sources: []
 ---
 
 
@@ -68,4 +57,4 @@ Dietary NMN is rapidly degraded in the gut by the enzyme CD38 and intestinal alk
 ## Linking Summary
 - New links added: [[NAD+]], [[NAMPT]], [[Nicotinamide Riboside]], [[Sirtuins]], [[SIRT1]], [[Caloric Restriction]], [[CD38]]
 - Suggested new entity notes to create: [[NMNAT]]
-- Strong connections to strengthen: [[NMN]] ↔ [[NAD+]], [[NMN]] ↔ [[Nicotinamide Riboside]]
+  - Strong connections to strengthen: [[NMN]] ↔ [[NAD+]], [[NMN]] ↔ Nicotinamide Riboside

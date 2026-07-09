@@ -1,13 +1,12 @@
 ---
 title: Cardiomyocyte Toxicity
-description: 'Cardiomyocyte toxicity (cardiotoxicity) refers to damage or dysfunction
+description: Cardiomyocyte toxicity (cardiotoxicity) refers to damage or dysfunction
   of Cardiomyocyte caused by drugs, environmental toxins, or disease states. It is
-  a major dose-limiting Adverse Effect of ...'
-type: entity
+  a major dose-limiting Adverse Effect of ...
 created: 2026-07-04
 updated: 2026-07-06
 tags:
-  - Adverse Effect
+  - medical-condition
 aliases: [Cardiotoxicity, Cardiac Toxicity]
 
 ---
@@ -41,6 +40,16 @@ Cardiotoxicity can present as:
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - Suppression of lysosomal _Lamp2_ increased punctate GFP-LC3 and SQSTM1/p62 such that IF worsens Ventricular Remodeling and Cardiomyocyte Toxicity in _Lamp2_ -/- mice \[\].
+
+
 ## Connections
 - [[Cardiomyocyte]] — the target cell type in cardiotoxicity
 - [[Doxorubicin]] — prototypical cardiotoxic chemotherapy agent
@@ -56,4 +65,4 @@ Cardiotoxicity can present as:
 ## Linking Summary
 - New links added: [[Cardiomyocyte]], [[Doxorubicin]], [[Daunorubicin]], [[Anthracyclines]], [[Oxidative Stress]], [[Mitochondrial Complex I]], [[Superoxide]], [[Hydroxyl radical]], [[DNA]], [[Proteins]], [[Lipids]], [[Mitochondrial Dysfunction]], [[Oxidative Phosphorylation]], [[Mitochondrial Permeability Transition Pore]], [[ATP]], [[Apoptosis]], [[Autophagy]], [[Topoisomerase 2β]], [[p53]], [[Calcium]], [[SERCA]], [[Ryanodine Receptor]], [[NLRP3 Inflammasome]], [[Interleukin 1β]], [[Arrhythmia]], [[QT prolongation]], [[Myocarditis]], [[Cardiomyopathy]], [[Heart Failure]], [[Ejection Fraction]], [[Dexrazoxane]], [[Liposomal Doxorubicin]], [[ACE Inhibitors]], [[Beta-Blockers]], [[Statins]], [[Exercise]], [[Chemotherapy]], [[Adverse Effect]]
 - Suggested new entity notes to create: [[Anthracycline cardiotoxicity]], [[Chemotherapy-induced cardiomyopathy]], [[TOP2B]], [[Dexrazoxane mechanism]], [[HFrEF]], [[Liposomal doxorubicin]]
-- Strong connections to strengthen: [[Cardiomyocyte Toxicity]] ↔ [[Doxorubicin]], [[Cardiomyocyte Toxicity]] ↔ [[Heart Failure]], [[Cardiomyocyte Toxicity]] ↔ [[Oxidative Stress]]
+  - Strong connections to strengthen: Cardiomyocyte Toxicity ↔ [[Doxorubicin]], Cardiomyocyte Toxicity ↔ Heart Failure, Cardiomyocyte Toxicity ↔ Oxidative Stress

@@ -3,11 +3,10 @@ title: bHLH-LZ Transcription Factors
 description: Basic helix-loop-helix leucine zipper (bHLH-LZ) transcription factors
   are a superfamily of DNA-binding proteins, including the MiT/TFEB family, that regulate
   gene expression by binding to E-box sequences.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Gene
+  - gene
 aliases: [basic helix-loop-helix leucine zipper]
 ---
 
@@ -28,6 +27,14 @@ Beyond MiT/TFE, Myc (a bHLH-LZ factor) drives glycolytic and biosynthetic progra
 ## Physiological & Pathological Relevance
 
 MiT/TFE factors protect against [[Neurodegeneration]] by boosting proteostasis and are modulated in [[Aging]]. TFEB activation is explored therapeutically in lysosomal storage and proteinopathy disorders. MITF governs melanocyte and osteoclast biology, and TFE3 translocations characterize certain renal carcinomas, linking the family to [[Cancer]]. Myc is among the most frequently deregulated oncogenes, shaping tumor metabolism and autophagic dependence.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - Nuclear Export, Cell Cycle, Energy Homeostasis, PI3K-Akt Signaling, Amino Acid Sensing, Cholesterol Metabolism, Ubiquitin-Proteasome System, Autophagy Inhibitor, Mitochondrial Dysfunction, Tau Pathology, Steatohepatitis, Dopamine Neuron, Glutamine Metabolis...
+
 
 ## Connections
 

@@ -1,13 +1,12 @@
 ---
 title: Werner Syndrome
-description: 'Werner Syndrome (WS) is a rare, autosomal recessive progeroid syndrome
+description: Werner Syndrome (WS) is a rare, autosomal recessive progeroid syndrome
   characterized by the appearance of premature Aging. Unlike HGPS, which begins in
-  early childhood, Werner Syndrome typicall...'
-type: entity
+  early childhood, Werner Syndrome typicall...
 created: 2024-01-01
 updated: 2024-01-01
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: []
 ---
 
@@ -28,6 +27,19 @@ Patients with Werner Syndrome develop many conditions associated with normal agi
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Epigenetic changes during aging and their reprogramming potential|Epigenetic changes during aging and their reprogramming potential]]
+    - senescent human fibroblasts (Scaffidi and Misteli 2006) and fibroblasts from Hutchinson-Gilford Progeria Syndrome (HGPS) and Werner Syndrome progeria patients (Scaffidi and Misteli 2006; Shumaker et al. 2006; Zhang et al.
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - In addition, mutation of the SGS1 gene, a homologue of the premature aging disease gene, Werner Syndrome , led to increased rDNA instability and decreased longevity . Consequently, Kaeberlein et al.
+
+
 ## Connections
 - **[[Aging]]**: Werner Syndrome is a primary model for "adult-onset progeria."
 - **[[Genomic Instability]]**: The core cellular hallmark of Werner Syndrome.
@@ -37,4 +49,4 @@ Patients with Werner Syndrome develop many conditions associated with normal agi
 ## Linking Summary
 - New links added: [[Werner Syndrome]], [[Aging]], [[HGPS]], [[Genomic Instability]], [[DNA Repair]], [[DNA Replication]], [[Diabetes Mellitus]], [[Cardiovascular Disease]], [[Cancer]]
 - Suggested new entity notes to create: [[WRN Protein]], [[Helicase]], [[Adult-Onset Progeria]]
-- Strong connections to strengthen: [[Werner Syndrome]] ↔ [[Aging]], [[Werner Syndrome]] ↔ [[Genomic Instability]]
+  - Strong connections to strengthen: Werner Syndrome ↔ [[Aging]], Werner Syndrome ↔ Genomic Instability

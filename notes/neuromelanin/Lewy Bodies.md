@@ -1,11 +1,10 @@
 ---
 title: Lewy Bodies
 description: The primary component of Lewy bodies is phosphorylated Alpha-synuclein. Other proteins, such as Ubiquitin and p62, are also commonly found within these inclusions, reflecting the cell's failed attempt to degrade the aggregated proteins.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: []
 ---
 
@@ -24,6 +23,14 @@ In dopaminergic neurons, Lewy bodies frequently form adjacent to or enveloping [
 
 ## Diagnostic and Clinical Relevance
 The presence of Lewy bodies in the substantia nigra is a cardinal diagnostic criterion for PD; their cortical distribution distinguishes dementia with Lewy bodies. LB pathology correlates with motor severity, cognitive decline, and non-motor features. Biomarkers under study include alpha-synuclein seed amplification assays in cerebrospinal fluid and skin, and imaging of nigral [[Neuromelanin]] loss. Therapeutic strategies target alpha-synuclein (immunotherapies, antisense oligonucleotides, aggregation inhibitors) and upstream modifiers such as [[Glucocerebrosidase]] activity and [[Lysosomal Dysfunction]]. Lewy bodies thus sit at the center of PD pathophysiology, linking protein misfolding, pigment biology, and selective neuronal vulnerability.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease|Neuromelanin, aging, and neuronal vulnerability in Parkinson's disease]]
+    - Similarly, dopaminergic neurons in the Ventral Tegmental Area, which are largely spared in PD, produce minimal neuromelanin over a lifetime., Classical Lewy Bodies (LB), that is, Alpha-synuclein‐containing intracytoplasmic inclusion
+
 
 ## Connections
 - [[Parkinson's Disease]]: LB are the defining pathology of PD.

@@ -1,13 +1,12 @@
 ---
 title: Redox
-description: 'Definition: Redox is a scientific concept that describes fundamental
-  principles governing biological or chemical systems.'
-type: entity
+description: 'Definition: Redox is a scientific concept that describes fundamental'
+  principles governing biological or chemical systems.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Scientific Concept
-  - oxidative stress
+  - scientific-concept
+  - oxidative-stress
 aliases: [Reduction-Oxidation]
 
 ---
@@ -24,10 +23,20 @@ aliases: [Reduction-Oxidation]
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - intermediates, precursor, hemoglobin|intermediates, precursor, hemoglobin]]
+    - Chemically identified as (S)-1-Methylindoline-3,5,6-triol, it often acts as an unstable, highly reactive Redox intermediate within the body's Catecholamine pathways.Key CharacteristicsMechanism: It is formed from adrenaline-quinone and is subsequently oxidi...
+
+
 ## Connections
 - [[Redox]] — related entity
 
 ## Linking Summary
 - New links added: [[Redox]]
-- Strong connections to strengthen: [[Redox]] ↔ [[Redox]]
+  - Strong connections to strengthen: [[Redox]] ↔ [[Redox]]
 

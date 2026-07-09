@@ -1,11 +1,10 @@
 ---
 title: Slug
 description: Slug (SNAI2) is a zinc-finger transcription factor of the Snail family that drives Epithelial-to-Mesenchymal Transition by repressing E-cadherin and epithelial identity.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Protein
+  - protein
 aliases: []
 ---
 
@@ -24,6 +23,14 @@ During development, Slug controls neural crest delamination and migration, and p
 ## Pathological Relevance
 
 Slug overexpression correlates with EMT, invasion, chemoresistance, and poor prognosis across carcinomas. It cooperates with [[Snail]], [[Zeb1]], and Twist to establish metastatic and cancer-stem-cell phenotypes. Targeting Slug (or its upstream inducers) is pursued to block EMT-driven dissemination, though redundancy among EMT factors complicates single-target inhibition.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network|Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network]]
+    - Additionally, BMP Signaling Pathway was shown to contribute to reprogramming of MEF cells by enhancing expression of miRNAs that either promote expression of epithelial-associated genes (Cdh1, Epcam, Ocln) or repress inhibitors of Epithelial-to-Mesenchymal ...
+
 
 ## Connections
 

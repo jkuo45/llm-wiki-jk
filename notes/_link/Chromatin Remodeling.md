@@ -1,13 +1,12 @@
 ---
 title: Chromatin Remodeling
-description: 'Definition: Chromatin Remodeling is a fundamental biological process
+description: 'Definition: Chromatin Remodeling is a fundamental biological process'
   that maintains cellular and organismal homeostasis. It involves coordinated molecular
-  events regulated by signaling pathways...'
-type: entity
+  events regulated by signaling pathways...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Biological Process
+  - biological-process
   - epigenetics
 aliases: []
 ---
@@ -29,5 +28,5 @@ aliases: []
 
 ## Linking Summary
 - New links added: [[Chromatin Remodeling]]
-- Strong connections to strengthen: [[Chromatin Remodeling]] ↔ [[Chromatin Remodeling]]
+  - Strong connections to strengthen: Chromatin Remodeling ↔ Chromatin Remodeling
 

@@ -1,11 +1,10 @@
 ---
 title: BRCA
-description: 'BRCA (BReast CAncer gene) refers to BRCA1 and BRCA2 tumor suppressor genes encoding proteins essential for homologous recombination DNA repair; germline mutations predispose to breast, ovarian, and other cancers.'
-type: entity
+description: BRCA (BReast CAncer gene) refers to BRCA1 and BRCA2 tumor suppressor genes encoding proteins essential for homologous recombination DNA repair; germline mutations predispose to breast, ovarian, and other cancers.
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Gene
+  - gene
 aliases: []
 ---
 
@@ -33,6 +32,14 @@ HR deficiency (HRD) yields characteristic genomic scars (loss of heterozygosity,
 - **[[PARP inhibitors]]**: Exploit synthetic lethality — inhibiting base-excision repair in HRD cells causes catastrophic DNA damage and death. Approved in BRCA-mutant ovarian, breast, pancreatic, and prostate cancers.
 - **Platinum Chemotherapy**: HRD tumors are sensitive to crosslinking agents.
 - **Research Models**: Murine BRCA-mutant models (e.g., the "B.15" model) test agents such as [[melittin]] for selectivity against HRD tumors.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology|Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology]]
+    - Cell-viability assays of honeybee venom and melittin in murine breast cancer and normal cell lines confirmed enhanced selectivity for aggressive murine tumor cell lines, such as the p53-mutant claudin-low T11 and the BRCA-mutant B.15 (Supplementary Fig. 1).
+
 
 ## Connections
 

@@ -1,11 +1,10 @@
 ---
 title: DNMT3b
-description: 'DNMT3b (DNA Methyltransferase 3 beta) is a de novo methyltransferase that works alongside DNMT3a to establish new DNA Methylation patterns.'
-type: entity
+description: DNMT3b (DNA Methyltransferase 3 beta) is a de novo methyltransferase that works alongside DNMT3a to establish new DNA Methylation patterns.
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Enzyme
+  - enzyme
   - epigenetics
 aliases: []
 ---
@@ -32,6 +31,14 @@ As with other DNMTs, the expression of DNMT3b can be altered during [[Aging]]:
 
 - **[[Cancer]]**: Overexpression of DNMT3b is frequently observed in various cancers, where it contributes to hypermethylation and silencing of tumor suppressor genes, often in concert with [[DNMT1]] and [[DNMT3a]].
 - **Developmental Remnants:** While primarily active during development, its continued or misdirected activity in aging can lead to accumulation of abnormal methylation marks and contributes to [[Epigenetic Remodeling]].
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks|Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks]]
+    - Methylation occurs due to the transfer of a methyl group from SAM (S‐adenosyl methionine) to the 5th carbon of cytosine molecule to form 5‐methylcytosine, by the catalyzing action of three DNA Methyltransferase namely DNMT1, DNMT3a, and DNMT3b.
+
 
 ## Connections
 

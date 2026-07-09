@@ -3,14 +3,13 @@ title: Genistein
 description: Genistein is an isoflavone that is described as an angiogenesis inhibitor
   and a phytoestrogen. It belongs to the class of Flavonoids and exhibits significant
   antioxidant activity, contributing to t...
-type: entity
 created: 2026-05-09
 updated: 2026-07-04
 tags:
-  - oxidative stress
+  - oxidative-stress
   - flavonoid
   - phytoestrogen
-  - Chemical Compound
+  - chemical-compound
 aliases:
   - 4',5,7-trihydroxyisoflavone
 ---
@@ -73,6 +72,14 @@ Genistein induces [[Apoptosis]] in cancer cells through:
 In models of [[Parkinson's Disease]] and [[Alzheimer's Disease]], genistein protects [[Dopaminergic Neurons]] from oxidative injury by upregulating [[Glutathione Peroxidase]] and reducing [[Alpha-synuclein]] aggregation.
 
 #
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - Genistein is a soy isoflavone that is probably the most interesting and well-studied flavonoid compound, due to its broad pharmacological activities.
+
 
 ## Connections
 - [[Flavonoids]]: Genistein as a prototypical isoflavone antioxidant

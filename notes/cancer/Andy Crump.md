@@ -1,11 +1,10 @@
 ---
 title: Andy Crump
 description: Andy Crump is a scientist and science communicator who has worked extensively with Satoshi Ōmura and the Kitasato Institute on the history and impact of Ivermectin.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Organization
+  - organization
 aliases: []
 ---
 
@@ -30,6 +29,14 @@ Thus Crump's chronicling of ivermectin provides essential provenance for its inv
 ## Science Communication
 
 Crump exemplifies the role of clear communication in translating basic microbiology into public health impact — a model relevant to how cancer research findings reach clinicians and patients.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, ‘Wonder drug’ from Japan the human use perspective|Ivermectin, ‘Wonder drug’ from Japan the human use perspective]]
+    - Credit line: World Health Organization/TDR/Andy Crump. In the early-1970s, the disease was endemic in 34 countries: 27 in Africa; 6 in the Americas; and 1 in the Arabian Peninsula.
+
 
 ## Connections
 

@@ -3,11 +3,10 @@ title: Centromere
 description: The centromere is a specialized Chromosome region where Kinetochore assembles
   and Spindle Microtubules attach during Mitosis and Meiosis. It is defined by the
   presence of the Histone H3 variant CEN...
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: []
 ---
 # Centromere
@@ -15,6 +14,16 @@ aliases: []
 The centromere is a specialized [[Chromosome]] region where [[Kinetochore]] assembles and [[Spindle Microtubules]] attach during [[Mitosis]] and [[Meiosis]]. It is defined by the presence of the [[Histone H3]] variant [[CENP-A]] and other constitutive centromere-associated proteins ([[CENP-B]], [[CENP-C]], [[CENP-T]], [[CENP-W]]). Centromeres are epigenetically specified by CENP-A chromatin rather than [[DNA Sequence]] in most eukaryotes. Pericentric [[Heterochromatin]] enriched in [[H3K9me3]] and [[HP1]] flanks the centromere. Centromere dysfunction leads to [[Chromosome Mis-segregation]], [[Aneuploidy]], and [[Cancer]]. [[Centromere Protein]] antibodies are biomarkers in [[Autoimmune Disease]] (anti-centromere antibodies in [[CREST Syndrome]]).
 
 #
+
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - Chromosome segregation is mediated by microtubule attachment to a defined region of the chromosome known as the Centromere (McKinley and Cheeseman, 2016).
+
 
 ## Connections
 - [[Chromosome]] — centromere is a specialized chromosome region
@@ -31,4 +40,4 @@ The centromere is a specialized [[Chromosome]] region where [[Kinetochore]] asse
 ## Linking Summary
 - New links added: [[Chromosome]], [[Mitosis]], [[Meiosis]], [[Kinetochore]], [[Spindle Microtubules]], [[Histone H3]], [[CENP-A]], [[Heterochromatin]], [[H3K9me3]], [[HP1]], [[DNA Sequence]], [[Aneuploidy]], [[Cancer]], [[Autoimmune Disease]], [[CREST Syndrome]]
 - Suggested new entity notes to create: [[CENP-B]], [[CENP-C]], [[CENP-T]], [[CENP-W]], [[Pericentric Heterochromatin]]
-- Strong connections to strengthen: [[Centromere]] ↔ [[Kinetochore]], [[Centromere]] ↔ [[CENP-A]]
+  - Strong connections to strengthen: [[Centromere]] ↔ Kinetochore, [[Centromere]] ↔ [[CENP-A]]

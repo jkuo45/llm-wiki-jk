@@ -1,13 +1,12 @@
 ---
 title: SREBP-1c
-description: 'SREBP-1c (sterol regulatory element-binding protein 1c) is a basic
+description: SREBP-1c (sterol regulatory element-binding protein 1c) is a basic
   helix-loop-helix leucine zipper transcription factor that regulates genes involved
-  in Lipid Synthesis, particularly Fatty acid...'
-type: entity
+  in Lipid Synthesis, particularly Fatty acid...
 created: 2026-07-04
 updated: 2026-07-06
 tags:
-  - Protein
+  - protein
 aliases: [SREBF1, Sterol Regulatory Element-Binding Protein 1c, SREBP-1]
 
 ---
@@ -35,6 +34,16 @@ SREBP-1c hyperactivation contributes to [[Hepatic Steatosis]], [[Insulin Resista
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Moreover, SIRT1, FoxO1, and sterol regulatory element binding protein-1 (SREBP-1c) may act as a pathway and play crucial roles in Apoptosis.
+
+
 ## Connections
 - [[Lipid Synthesis]] — SREBP-1c is the master transcriptional regulator of de novo lipogenesis
 - [[Fatty Acid Synthase]] — key SREBP-1c target; catalyzes palmitate synthesis
@@ -48,4 +57,4 @@ SREBP-1c hyperactivation contributes to [[Hepatic Steatosis]], [[Insulin Resista
 ## Linking Summary
 - New links added: [[Lipid Synthesis]], [[Fatty Acid Synthase]], [[Acetyl-CoA Carboxylase]], [[Stearoyl-CoA Desaturase]], [[ELOVL6]], [[ATP citrate lyase]], [[mTORC1]], [[Insulin]], [[Akt]], [[AMPK]], [[Liver]], [[Adipose Tissue]], [[Endoplasmic Reticulum]], [[Golgi apparatus]], [[SCAP]], [[S1P]], [[S2P]], [[Metformin]], [[Hepatic Steatosis]], [[Insulin Resistance]], [[Metabolic Syndrome]], [[Caloric Restriction]], [[Triglyceride]], [[Fatty acid]]
 - Suggested new entity notes to create: [[SCAP-SREBP complex]], [[Proteolytic activation]], [[De novo lipogenesis]], [[S6K1]], [[SREBP-2]]
-- Strong connections to strengthen: [[SREBP-1c]] ↔ [[Lipid Synthesis]], [[SREBP-1c]] ↔ [[mTORC1]], [[SREBP-1c]] ↔ [[Hepatic Steatosis]]
+  - Strong connections to strengthen: [[SREBP-1c]] ↔ Lipid Synthesis, [[SREBP-1c]] ↔ [[mTORC1]], [[SREBP-1c]] ↔ Hepatic Steatosis

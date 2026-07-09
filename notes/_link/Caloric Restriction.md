@@ -3,52 +3,16 @@ title: Caloric Restriction
 description: Caloric restriction (CR)—reducing calorie intake without malnutrition—is
   the most robust non-genetic intervention known to delay Aging. It exerts its effects
   largely by remodeling the Epigenome, ef...
-type: entity
 created: 2026-07-02
 updated: 2026-07-02
 tags:
-  - Scientific Concept
-  - caloric restriction
+  - scientific-concept
+  - caloric-restriction
 aliases:
   - Calorie Restriction
   - CR
   - dietary restriction
   - calorie restriction
-database_ids:
-  mesh: D004032
-relations:
-  - predicate: activates
-    target: "SIRT1"
-    sources:
-      - PMID:15205477
-  - predicate: requires
-    target: "Sir2 (yeast)"
-    sources:
-      - PMID:11000115
-  - predicate: extends
-    target: "Lifespan"
-    sources:
-      - PMID:MICHAN2007
-  - predicate: upregulates
-    target: "SIRT1"
-    sources:
-      - PMID:MICHAN2007
-  - predicate: upregulates
-    target: "SIRT3"
-    sources:
-      - PMID:15653680
-  - predicate: downregulates
-    target: "SIRT4"
-    sources:
-      - PMID:16959573
-  - predicate: increases
-    target: "NAD+"
-    sources:
-      - PMID:11000115
-  - predicate: mimicked_by
-    target: "Resveratrol"
-    sources:
-      - PMID:15254550
 
 ---
 
@@ -81,11 +45,11 @@ The epigenetic changes induced by CR converge on several critical pathways:
 ## Linking Summary:
 - New links added: [[Aging]], [[Epigenome]], [[DNA Methylation]], [[Cellular Senescence]], [[Histone Modification]], [[Chromatin]], [[Sirtuins]], [[SIRT1]], [[Heterochromatin]], [[HDAC]].
 - Suggested new entity notes to create: [[p16INK4A]], [[NAD+]], [[Telomere]], [[DunedinPACE]].
-- Strong connections to strengthen: [[Caloric Restriction]] ↔ [[Aging]], [[Caloric Restriction]] ↔ [[SIRT1]]
+  - Strong connections to strengthen: Caloric Restriction ↔ [[Aging]], Caloric Restriction ↔ SIRT1
 
 - New links added: [[Longevity]], [[Autophagy]], [[AMPK]], [[Cellular Homeostasis]], [[Cancer]], [[Neurodegenerative Disease]], [[Inflammaging]], [[Autophagic Cell Death]]
 - Suggested new entity notes to create: [[Longevity]], [[AMPK]], [[Cellular Homeostasis]]
-- Strong connections to strengthen: [[Caloric Restriction]] ↔ [[Autophagy]], [[Caloric Restriction]] ↔ [[Longevity]]
+  - Strong connections to strengthen: Caloric Restriction ↔ Autophagy, Caloric Restriction ↔ [[Longevity]]
 
 ## Relationship with Autophagy
 - Caloric restriction is a potent inducer of [[Autophagy]].
@@ -101,12 +65,48 @@ The epigenetic changes induced by CR converge on several critical pathways:
 - Short-term or moderate caloric restriction stimulates **adaptive autophagy**, which is beneficial for cell survival.
 - Prolonged or extreme caloric restriction can lead to **excessive autophagy**, potentially triggering type II [[Autophagic Cell Death]].
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Dietary Advanced Glycation End Products and Aging|Dietary Advanced Glycation End Products and Aging]]
+    - Role of Restriction of Dietary AGEs in Lifespan It has been demonstrated that Caloric Restriction increases lifespan in C. elegans and mice.
+
+  - [[_document_ - Autophagy and intermittent fasting the connection for cancer therapy?|Autophagy and intermittent fasting the connection for cancer therapy?]]
+    - Among the many diet regimens that have been assessed, Caloric Restriction (CR) and Intermittent Fasting are the methods under intense investigation in oncology,,.
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - Accumulated evidence suggests that Intermittent Fasting or Caloric Restriction can lead to the induction of adaptive autophagy and increase Longevity of eukaryotic cells.
+
+  - [[_document_ - The autophagy enhancer spermidine reverses arterial aging|The autophagy enhancer spermidine reverses arterial aging]]
+    - Because many known autophagy inducers have off-target effects (e.g., Rapamycin) or uncertain translational promise (e.g., Caloric Restriction), there is considerable interest in natural food components or “nutraceuticals” that promote autophagy (Galluzzi an...
+
+  - [[_document_ - xenohormesis, mitohormesis|xenohormesis, mitohormesis]]
+    - I'm highlighting the metabolic pathways activated, like Sirtuins and AMPK, along with the link to Caloric Restriction. Synthesizing Findings Objectively I've successfully documented the scientific consensus and criticisms surrounding this topic.
+
+  - [[_document_ - sirtuins (overview, CD38 KO risks, cancer therapies)|sirtuins (overview, CD38 KO risks, cancer therapies)]]
+    - They are implicated in Longevity, Caloric Restriction benefits, and age-related diseases like Diabetes Mellitus, Cancer, Neurodegenerative Diseases, and Cardiovascular Disease.
+
+  - [[_document_ - sirtuins (resveratrol), gemini|sirtuins (resveratrol), gemini]]
+    - Therapeutic Implications The resveratrol-SIRT1 axis has been studied extensively across several broad domains of health: - Metabolic Health: By activating the AMPK/SIRT1/PGC-1α pathway, resveratrol mimics many of the physiological effects of Caloric Restric...
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - Sir2 (yeast) homologues also modulate lifespan in worms and flies, and may underlie the beneficial effects of Caloric Restriction (CR), the only regimen that slows Aging and extends lifespan of most classes of organism, including mammals.
+
+
+  - [[_document_ - Rapamycin for longevity opinion article|Rapamycin for longevity: opinion article]]
+    - Positions rapamycin as a starvation-mimetic; CR and rapamycin effects are additive but CR is less beneficial when started late.
+  - [[_document_ - Rapamycin for longevity the pros, the cons, and future perspectives|Rapamycin for longevity: pros, cons & future perspectives]]
+    - Notes CR as the historical intervention that motivated rapamycin as a CR mimetic.
+
 ## Connections
 - **[[Aging]]**: CR is the gold standard for interventions that extend lifespan and healthspan across species.
 - **[[SIRT1]]**: A primary mediator of the beneficial effects of caloric restriction on the epigenome.
 - **[[Cellular Senescence]]**: CR delays the accumulation of senescent cells by maintaining a more stable epigenetic state.
 - New links added: [[AMPK]], [[Aging]], [[Autophagic Cell Death]], [[Autophagy]], [[Cancer]], [[Cellular Homeostasis]], [[Cellular Senescence]], [[Chromatin]], [[DNA Methylation]], [[Epigenome]], [[HDAC]], [[Heterochromatin]], [[Histone Modification]], [[Inflammaging]], [[Longevity]], [[Neurodegenerative Disease]], [[SIRT1]], [[Sirtuins]]
-- Strong connections to strengthen: [[Caloric Restriction]] ↔ [[Aging]], [[Caloric Restriction]] ↔ [[Autophagy]], [[Caloric Restriction]] ↔ [[Longevity]], [[Caloric Restriction]] ↔ [[SIRT1]]
+  - Strong connections to strengthen: Caloric Restriction ↔ [[Aging]], Caloric Restriction ↔ Autophagy, Caloric Restriction ↔ [[Longevity]], Caloric Restriction ↔ SIRT1
 - [[Sir2 (yeast)]] — required for CR-mediated lifespan extension in yeast
 - [[SIRT3]] — upregulated by CR; mediates mitochondrial metabolic adaptations
 - [[SIRT4]] — downregulated by CR (opposite to SIRT1/3); increases GDH activity
@@ -173,6 +173,6 @@ When cells become nutrient-starved, sirtuin-**independent** pathways such as **T
 ## Linking Summary
 - New links added: [[SIRT1]], [[Sir2 (yeast)]], [[SIRT3]], [[SIRT4]], [[NAD+]], [[Resveratrol]], [[PGC-1α]], [[Longevity]]
 - Suggested new entity notes to create: [[TOR (Target of Rapamycin)]], [[Adiponectin]], [[Longevity]]
-- Strong connections to strengthen: [[Caloric Restriction]] ↔ [[SIRT1]], [[Caloric Restriction]] ↔ [[Sir2 (yeast)]], [[Caloric Restriction]] ↔ [[Longevity]]
+  - Strong connections to strengthen: Caloric Restriction ↔ SIRT1, Caloric Restriction ↔ Sir2 (yeast), Caloric Restriction ↔ [[Longevity]]
 - New links added: [[Advanced Glycation End Products]], [[Oxidative Stress]], [[Lifespan]]
 - Suggested new entity notes to create:

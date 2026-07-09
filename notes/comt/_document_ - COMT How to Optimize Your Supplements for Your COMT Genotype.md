@@ -2,7 +2,6 @@
 title: 'COMT: How to Optimize Your Supplements for Your COMT Genotype'
 description: Some supplements interact with COMT variants to impact the rate at which
   neurotransmitters are broken down. Check your COMT genetic variants.
-type: document
 published: 2023-04-27
 created: 2026-05-11
 source: https://www.geneticlifehacks.com/comt-and-supplement-interactions/

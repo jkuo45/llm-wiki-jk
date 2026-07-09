@@ -2,11 +2,10 @@
 title: Acid Hydrolases
 description: Enzymes that use water to break down macromolecules and are active in
   acidic environments, typical of Lysosome.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Enzyme
+  - enzyme
 aliases: []
 ---
 # Acid Hydrolases
@@ -89,6 +88,16 @@ Deficiency of any single acid hydrolase produces a specific [[Lysosomal Storage 
 - **Pharmacological chaperone therapy (PCT)** — Small molecules stabilize misfolded mutant acid hydrolases in the ER, enhancing trafficking to lysosomes. Miglustat (also used as PCT for Fabry) and lumacaftor (for CFTR, related principle) exemplify this approach.
 - **Gene therapy** — AAV and lentiviral vectors deliver functional gene copies to affected tissues, including CNS-directed delivery via intrathecal or intracerebroventricular injection. Gene therapy trials are underway for Krabbe, metachromatic leukodystrophy, and Pompe diseases.
 - **mRNA therapy** — Emerging approaches deliver messenger RNA encoding the deficient acid hydrolase, enabling patient cells to produce functional enzyme. This strategy bypasses the immunogenicity and half-life limitations of recombinant protein.
+
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - Discovered in the early fifties by Christian De Duve, Lysosome are membrane-bound organelles containing over 50 Acid Hydrolases specialized in breaking-down different macromolecules, including proteins, lipids, carbohydrates, and nucleic acids (De Duve et a...
+
 
 ## Connections
 

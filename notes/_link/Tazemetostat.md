@@ -1,13 +1,12 @@
 ---
 title: Tazemetostat
-description: 'Chemical properties: Tazemetostat is a chemical substance with defined
+description: 'Chemical properties: Tazemetostat is a chemical substance with defined'
   molecular structure, functional groups, and physicochemical properties that determine
-  its biological activity.'
-type: entity
+  its biological activity.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: [EPZ-6438, Tazverik]
 
 ---
@@ -29,5 +28,5 @@ aliases: [EPZ-6438, Tazverik]
 
 ## Linking Summary
 - New links added: [[Tazemetostat]]
-- Strong connections to strengthen: [[Tazemetostat]] ↔ [[Tazemetostat]]
+  - Strong connections to strengthen: [[Tazemetostat]] ↔ [[Tazemetostat]]
 

@@ -1,11 +1,10 @@
 ---
 title: Honeybee
 description: The European honeybee (Apis mellifera) is a species used medicinally for millennia; its products — honey, propolis, and venom — have documented anticancer properties, chiefly via melittin.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Model Organism
+  - organism
 aliases: []
 ---
 
@@ -28,6 +27,14 @@ Honeybees are also important as [[Model Organism]]s for studying immunity, socia
 ## Pathological & Clinical Relevance
 
 Honeybee-derived products are being translated as adjunctive [[Medical Treatment]] and as templates for peptide therapeutics. Melittin-loaded nanoparticles and immunotoxins are in preclinical oncology. Safety (anaphylaxis risk) and delivery remain challenges; nonetheless, honeybee venom exemplifies how natural-product venoms yield cancer-relevant modalities.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology|Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology]]
+    - Despite decades of study, the molecular mechanisms and selectivity of the biomolecular components of Honeybee (Apis mellifera) venom as anticancer agents remain largely unknown.
+
 
 ## Connections
 

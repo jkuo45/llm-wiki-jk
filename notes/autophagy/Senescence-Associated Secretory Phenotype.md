@@ -3,11 +3,10 @@ title: Senescence-Associated Secretory Phenotype
 description: The Senescence-Associated Secretory Phenotype (SASP) is a characteristic
   state of senescent cells where they secrete a complex mix of Cytokines, Chemokine,
   Protease, and growth factors.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Biological Process
+  - biological-process
   - senescence
 aliases: [SASP]
 
@@ -32,6 +31,14 @@ Interventions like [[Rapamycin]] and other [[Autophagy Inducer|autophagy inducer
 ## Definition
 
 SASP involves secretion of pro-inflammatory cytokines, chemokines, and MMPs by senescent cells. [[Autophagy]] suppresses SASP by clearing damaged organelles and limiting inflammasome activation.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
+    - Senescence occurs through stress-induced damage, leading to cell-cycle arrest coupled with a Senescence-Associated Secretory Phenotype (SASP) – a cellular state shown to be beneficial in embryonic development, tissue repair and regeneration (Demaria et al.,...
+
 
 ## Connections
 

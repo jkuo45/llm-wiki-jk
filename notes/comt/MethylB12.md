@@ -1,11 +1,10 @@
 ---
 title: MethylB12
 description: MethylB12 (methylcobalamin) is the active methyl-donating form of vitamin B12, essential for homocysteine remethylation and methyl-group supply.
-type: entity
 created: 2026-05-25
 updated: 2026-07-07
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: [Methylcobalamin]
 ---
 
@@ -32,6 +31,14 @@ For those sensitive to methylated B12, non-methylated forms such as [[Adenosylco
 ## Clinical and Research Relevance
 
 MethylB12 is used therapeutically in B12 deficiency, pernicious anemia, and elevated homocysteine. Genetic testing of [[MTRR]] and [[MTHFR]] helps stratify patients who benefit from methylated versus non-methylated B-vitamin regimens, especially in psychiatric and neurodevelopmental contexts.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - Some people with slow COMT enzyme function have side effects from Methylated Vitamins (Methylfolate, MethylB12), Methyl Donor supplements, and COMT Inhibitors supplements.
+
 
 ## Connections
 

@@ -1,13 +1,12 @@
 ---
 title: Osteoarthritis
-description: 'Etiology and pathophysiology: Osteoarthritis is a medical condition
+description: 'Etiology and pathophysiology: Osteoarthritis is a medical condition'
   characterized by specific pathological changes in cellular, tissue, or organ function.
-  Its development involves genetic, envi...'
-type: entity
+  Its development involves genetic, envi...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: [OA, Degenerative Joint Disease]
 
 ---
@@ -24,10 +23,23 @@ aliases: [OA, Degenerative Joint Disease]
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
+    - The shared aetiology of age-associated disorders, such as Atherosclerosis, Cardiovascular Disease, Osteoarthritis, Osteoporosis, Type 2 Diabetes Mellitus, Cancer and Neurodegenerative Diseases is still poorly understood (Nikolich-Žugich, 2018).
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Additionally, SIRT6 overexpression suppressed NFKB-mediated inflammatory responses in Osteoarthritis development.
+
+
 ## Connections
 - [[Osteoarthritis]] — related entity
 
 ## Linking Summary
 - New links added: [[Osteoarthritis]]
-- Strong connections to strengthen: [[Osteoarthritis]] ↔ [[Osteoarthritis]]
+  - Strong connections to strengthen: [[Osteoarthritis]] ↔ [[Osteoarthritis]]
 

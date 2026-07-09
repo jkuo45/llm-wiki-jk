@@ -1,11 +1,10 @@
 ---
 title: CDK1
 description: CDK1 (Cyclin-dependent kinase 1) is the master mitotic kinase that, in complex with CYCLIN B1, drives G2/M transition and phosphorylates Caspase-2 at Ser308 to suppress apoptosis during mitosis.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Enzyme
+  - enzyme
 aliases: []
 ---
 
@@ -28,6 +27,17 @@ CDK1 is essential for viability and is tightly linked to the [[Hallmarks of Canc
 ## Clinical & Research Relevance
 
 CDK1 is a long-standing oncology target. Although pan-CDK inhibitors (e.g., roscovitine, dinaciclib) have modest selectivity, newer approaches combine CDK4/6 inhibitors with agents that unleash caspase-2. The CDK1–caspase-2 axis explains why mitotic poisons such as [[docetaxel]] and [[paclitaxel]] can be antagonized by checkpoint activation, and why disabling CDK1 under genotoxic stress converts arrest into death. Biomarkers of CDK1/CYCLIN B1 abundance inform prognostic stratification in several carcinomas.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - --------------------------------------------------------------------------------------------------------- | | Caspase-2 | | CDK1/CYCLIN B1 | Ser308 | Suppression of activity | Suppressing mitotic cell dea
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - In addition, CDK1-mediated SIRT3 activation could enhance mitochondrial function and contribute to adaptive radioresistance in Glioma cells. Therefore, SIRTs are potential biomarkers for the prognosis and diagnosis of Glioma and promising therapeutic targets.
+
 
 ## Connections
 

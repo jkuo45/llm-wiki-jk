@@ -1,11 +1,10 @@
 ---
 title: Glutamate-gated Cl- channels
 description: Glutamate-gated chloride channels (GluCls) are the primary target of Ivermectin and other avermectins in invertebrates. They are not present in vertebrates, which contributes to the safety profile of these drugs in humans.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Ion Channel
+  - ion-channel
 aliases: []
 ---
 
@@ -24,6 +23,14 @@ Human cells lack GluCls; instead, inhibitory neurotransmission uses [[GABA]]_A r
 ## Relevance to Cancer Research
 
 The GluCl mechanism is central to understanding ivermectin's safety margin when repurposed as an [[Anticancer]] agent. In mammalian tumors, ivermectin does not act via GluCls; rather, it engages host targets such as [[PAK1]], [[YAP1]], and the [[Akt]]/[[mTOR]] axis, inducing [[Apoptosis]] and [[Autophagy]] and inhibiting [[Angiogenesis]]. Recognizing that GluCls are invertebrate-specific clarifies why ivermectin's anticancer effects in humans arise from mammalian, not parasitic, pathways.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, ‘Wonder drug’ from Japan the human use perspective|Ivermectin, ‘Wonder drug’ from Japan the human use perspective]]
+    - Subsequently, they discovered that it was in fact Glutamate-gated Cl- channels that were the target of Ivermectin and related drugs.
+
 
 ## Connections
 

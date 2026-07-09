@@ -1,13 +1,12 @@
 ---
 title: Manganese Superoxide Dismutase (MnSOD/SOD2)
 description: Manganese Superoxide Dismutase (MnSOD/SOD2) is the primary mitochondrial antioxidant enzyme responsible for dismutating Superoxide (O₂⁻) to hydrogen peroxide (H₂O₂) and oxygen. It is encoded by the SOD2 gene and imported into the mitochondrial matrix.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Protein
+  - protein
   - antioxidant
-  - oxidative stress
+  - oxidative-stress
 aliases:
   - SOD2
   - Manganese Superoxide Dismutase
@@ -41,6 +40,17 @@ MnSOD is a frontline defense against mitochondrial [[Oxidative Stress]]. Loss of
 ## Clinical Relevance
 
 MnSOD polymorphisms (notably the Ala16Val variant) modulate mitochondrial import efficiency and are associated with cancer risk and neurodegenerative phenotypes. Therapeutics that boost SIRT3 activity — [[Honokiol]], [[NAD+]] precursors, [[Resveratrol]] — represent strategies to enhance MnSOD function in ageing and metabolic disease. MnSOD therefore bridges the [[NAD+]]–sirtuin axis to the core oxidative-balance machinery of the cell.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins (resveratrol), gemini|sirtuins (resveratrol), gemini]]
+    - Mentioned in this document
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - SIRT6 also promoted AMPK expression, thus upregulating antioxidant-encoding gene expression of MnSOD and Catalase, thereby suppressing oxidative stress.
+
 
 ## Connections
 

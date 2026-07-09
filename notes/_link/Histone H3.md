@@ -3,11 +3,10 @@ title: Histone H3
 description: Histone H3 is one of the five core histone proteins that form the Nucleosome
   structure in eukaryotic chromatin. Along with Histone H4, Histone H2A, and Histone
   H2B, it packages DNA into structural ...
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
   - epigenetics
 aliases:
   - H3
@@ -15,19 +14,6 @@ aliases:
   - Histone H3.2
   - Histone H3.3
   - H3 histone family
-database_ids:
-  uniprot: P68431
-  hgnc: HGNC:4766
-  mesh: D006653
-relations:
-  - predicate: regulates
-    target: "Autophagy"
-    sources:
-      - 10.1016/j.mad.2013.04.004
-  - predicate: activated_by
-    target: "notes/_link/Spermidine"
-    sources:
-      - 10.1038/ncb1909
 ---
 
 
@@ -95,6 +81,19 @@ Abnormal histone H3 modifications are implicated in:
 - **Neurodegeneration**: Altered H3 acetylation contributes to memory decline and [[Tau|tau]] pathology
 - **Cardiovascular Disease**: H3 modification patterns influence [[Endothelial Dysfunction|endothelial dysfunction]] and [[Arterial Stiffness|arterial stiffening]]
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The autophagy enhancer spermidine reverses arterial aging|The autophagy enhancer spermidine reverses arterial aging]]
+    - Protein homeostasis and aging: the importance of exquisite quality control Ageing Research Reviews 3 (2010) View full text Connections - Spermidine enhances Autophagy via Histone H3 de-acetylation and increased transcription of autophagy-related prote
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - For instance, SIRT6 attenuated NFKB expression by deacetylating histone Histone H3 in the promoters of NFKB target genes, hence decreasing inflammation.
+
+
 ## Connections
 
 - **[[Autophagy]]**: Spermidine-induced H3 de-acetylation activates autophagy gene transcription
@@ -107,4 +106,4 @@ Abnormal histone H3 modifications are implicated in:
 ## Linking Summary
 - New links added: [[Histone H3]], [[Nucleosome]], [[Histone H4]], [[Histone H2A]], [[Histone H2B]], [[Alternative Splicing]], [[LC3]], [[Atg]], [[Epigenetics]], [[Arterial Stiffness]]
 - Suggested new entity notes to create: [[Histone H4]], [[Histone H2A]], [[Histone H2B]], [[Heterochromatin]], [[Euchromatin]], [[Histone Deacetylase]]
-- Strong connections to strengthen: [[Spermidine]] ↔ [[Histone H3]], [[Histone H3]] ↔ [[Autophagy]]
+  - Strong connections to strengthen: [[Spermidine]] ↔ Histone H3, Histone H3 ↔ Autophagy

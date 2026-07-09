@@ -1,12 +1,11 @@
 ---
 title: GlyNAC
-description: 'GlyNAC is a nutritional supplement composition consisting of Glycine
-  and N-Acetylcysteine (NAC), designed to increase intracellular levels of Glutathione.'
-type: entity
+description: GlyNAC is a nutritional supplement composition consisting of Glycine
+  and N-Acetylcysteine (NAC), designed to increase intracellular levels of Glutathione.
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-07-07
 tags:
-  - Medical Product
+  - medical-product
 aliases: []
 ---
 
@@ -15,7 +14,10 @@ aliases: []
 **GlyNAC** is a nutritional supplement composition consisting of Glycine and N-Acetylcysteine (NAC), designed to increase intracellular levels of [[Glutathione]].
 
 ## SASP-Remodeling Aminochrome Complex (SRAC)
-In the [[SASP-Remodeling Aminochrome Complex]] strategy, GlyNAC acts as a metabolic buffer. It provides the necessary precursors to maintain high intracellular [[Glutathione]] levels, preventing [[Adrenochrome]] from crossing the threshold into cytotoxic "vicious" [[Redox Cycling]].
+In the [[SASP-Remodeling Aminochrome Complex]] strategy, GlyNAC acts as a continuous redox buffer across **both phases** of the protocol. During Phase 1, it replenishes glutathione reserves before [[Carbazochrome]] exposure, preventing the hormetic ROS pulse from crossing into cytotoxic "vicious" [[Redox Cycling]]. During Phase 2, it protects healthy tissue from collateral oxidative stress during [[Fisetin]]-induced senescent cell lysis and debris clearance.
+
+> [!important] Continuous Dosing (Protocol Revision, 08 July 2026)
+> GlyNAC is the only SRAC component administered continuously across both Phase 1 (senomorphic priming) and Phase 2 (senolytic strike). Its role shifts from redox priming (Phase 1) to tissue protection (Phase 2).
 
 ## Composition and Rationale
 
@@ -37,12 +39,21 @@ GlyNAC targets multiple interconnected hallmarks of aging: [[Oxidative Stress]],
 
 Several approaches exist to elevate intracellular GSH, each with distinct pharmacokinetics and efficacy. **Oral GSH** is poorly bioavailable (< 5% absorption) and hydrolyzed in the gastrointestinal tract. **Liposomal GSH** improves absorption but is costly. **NAC alone** (600–1200 mg/day) increases GSH by 15–30% but plateaus due to glycine limitation. **S-Adenosylmethionine** (SAMe) and **Whey Protein** provide indirect GSH support. **N-Acetylcysteine Amide** (NACA) has improved membrane permeability but less clinical data. **Sodium Selenite** and **Selenomethionine** support [[Glutathione Peroxidase]] activity but not GSH synthesis directly. GlyNAC distinguishes itself by addressing both amino acid limitations simultaneously, achieving the largest reported GSH increases (30–60%) in human trials among oral interventions. The combination of GlyNAC with [[Carbazochrome]] in the [[Mitohormetic Redox-Relay]] protocol is a theoretical optimization: GlyNAC provides the reductive buffer to prevent aminochrome cytotoxicity while carbazochrome provides the mitohormetic trigger, creating a controlled hormetic pulse with an expanded safety margin.
 
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ -  (protocol)  SRAC - senescent, ligand-conjugated|SRAC Protocol]]
+    - Redox buffer component protecting healthy tissue during senolytic treatment with adrenochrome.
+
 ## Connections
 - [[Glutathione]]: The antioxidant system GlyNAC is designed to support.
 - [[Adrenochrome]]: GlyNAC mitigates potential toxicity of adrenochrome-based therapies.
 - [[SASP-Remodeling Aminochrome Complex]]: Strategy for modulating cellular senescence.
+- [[Fisetin]]: Senolytic agent paired with GlyNAC in SRAC; GlyNAC protects healthy tissue during fisetin-induced senolysis.
+- [[Rapamycin]]: mTOR inhibitor co-administered with GlyNAC in SRAC to suppress SASP during treatment.
 
 ## Linking Summary
-- New links added: [[Glycine]], [[N-Acetylcysteine]], [[Glutathione]], [[Adrenochrome]], [[SASP-Remodeling Aminochrome Complex]], [[Glutamate-Cysteine Ligase]], [[Glutathione Synthetase]], [[γ-Glutamyl Cycle]], [[Reducing Agent]], [[Glycine Receptors]], [[Glycine N-Methyltransferase]], [[Taurine]], [[Coenzyme A]], [[Bile Acids]], [[Mitohormetic Redox-Relay]], [[Leuco-adrenochrome]], [[Redox Cycling]], [[Superoxide anion]], [[F2-Isoprostanes]], [[Protein Carbonyls]], [[ATP]], [[Mitochondrial Membrane Potential]], [[HOMA-IR]], [[TNFα]], [[Interleukin-6]], [[CRP]], [[Type 2 Diabetes Mellitus]], [[Glycemic Control]], [[HbA1c]], [[Endothelial Function]], [[Oxidative Stress]], [[Mitochondrial Dysfunction]], [[Inflammaging]], [[Insulin Resistance]], [[Cellular Senescence]], [[Glyoxalase System]], [[Methylglyoxal]], [[Mitochondrial Biogenesis]], [[Autophagy]], [[NRF2]], [[ARE]], [[S-adenosylmethionine]], [[Whey Protein]], [[N-Acetylcysteine Amide]], [[Sodium Selenite]], [[Selenomethionine]], [[Glutathione Peroxidase]], [[Carbazochrome]]
+- New links added: [[Glycine]], [[N-Acetylcysteine]], [[Glutathione]], [[Adrenochrome]], [[SASP-Remodeling Aminochrome Complex]], [[Glutamate-Cysteine Ligase]], [[Glutathione Synthetase]], [[γ-Glutamyl Cycle]], [[Reducing Agent]], [[Glycine Receptors]], [[Glycine N-Methyltransferase]], [[Taurine]], [[Coenzyme A]], [[Bile Acids]], [[Mitohormetic Redox-Relay]], [[Leuco-adrenochrome]], [[Redox Cycling]], [[Superoxide anion]], [[F2-Isoprostanes]], [[Protein Carbonyls]], [[ATP]], [[Mitochondrial Membrane Potential]], [[HOMA-IR]], [[TNFα]], [[Interleukin-6]], [[CRP]], [[Type 2 Diabetes Mellitus]], [[Glycemic Control]], [[HbA1c]], [[Endothelial Function]], [[Oxidative Stress]], [[Mitochondrial Dysfunction]], [[Inflammaging]], [[Insulin Resistance]], [[Cellular Senescence]], [[Glyoxalase System]], [[Methylglyoxal]], [[Mitochondrial Biogenesis]], [[Autophagy]], [[NRF2]], [[ARE]], [[S-adenosylmethionine]], [[Whey Protein]], [[N-Acetylcysteine Amide]], [[Sodium Selenite]], [[Selenomethionine]], [[Glutathione Peroxidase]], [[Carbazochrome]], [[Fisetin]], [[Rapamycin]]
 - Suggested new entity notes to create: [[Glycine]], [[N-Acetylcysteine]]
-- Strong connections to strengthen: [[GlyNAC]] ↔ [[Glutathione]], [[GlyNAC]] ↔ [[Mitohormetic Redox-Relay]]
+- Strong connections to strengthen: [[GlyNAC]] ↔ [[Glutathione]], [[GlyNAC]] ↔ [[Mitohormetic Redox-Relay]], [[GlyNAC]] ↔ [[Fisetin]], [[GlyNAC]] ↔ [[Rapamycin]]

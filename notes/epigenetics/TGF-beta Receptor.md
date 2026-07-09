@@ -1,11 +1,10 @@
 ---
 title: TGF-beta Receptor
 description: TGF-beta receptors are transmembrane serine/threonine kinase receptors that transduce TGF-beta ligand signals via SMAD proteins, regulating cell growth, differentiation, immune tolerance, and epithelial-to-mesenchymal transition.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Receptor
+  - receptor
 aliases: []
 ---
 

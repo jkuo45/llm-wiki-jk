@@ -1,11 +1,10 @@
 ---
 title: Pons
 description: The Pons is a brainstem region between the Medulla Oblongata and midbrain that houses the Locus Coeruleus, the principal source of central Norepinephrine and a neuromelanin-rich nucleus vulnerable in Parkinson's Disease.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Anatomy
+  - anatomy
 aliases: []
 ---
 

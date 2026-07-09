@@ -1,14 +1,13 @@
 ---
 title: Geroscience
-description: 'Geroscience is an interdisciplinary field that seeks to understand
+description: Geroscience is an interdisciplinary field that seeks to understand
   the biological relationship between Aging and age-related diseases. The central
-  hypothesis of geroscience is that because agin...'
-type: entity
+  hypothesis of geroscience is that because agin...
 created: 2024-01-01
 updated: 2024-01-01
 tags:
-  - Scientific Concept
-  - oxidative stress
+  - scientific-concept
+  - oxidative-stress
 aliases: []
 ---
 
@@ -30,6 +29,16 @@ The field relies heavily on accurate [[Biomarkers]] to measure the effectiveness
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks|Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks]]
+    - To address the rationale and provide geriatric care, the constant target of Geroscience is to identify reliable Biomarkers for aging.
+
+
 ## Connections
 - **[[Aging]]**: The central focus of geroscience research.
 - **[[Biomarkers]]**: Tools used to quantify biological age and the rate of decline.
@@ -39,4 +48,4 @@ The field relies heavily on accurate [[Biomarkers]] to measure the effectiveness
 ## Linking Summary
 - New links added: [[Geroscience]], [[Aging]], [[DNA Methylation]], [[Histone Modification]], [[Genomic Instability]], [[Cellular Senescence]], [[Autophagy]], [[Metformin]], [[Resveratrol]], [[Spermidine]], [[Caloric Restriction]], [[Senolytics]], [[Biomarkers]], [[Epigenetic Clock]], [[DNAmGrimAge]]
 - Suggested new entity notes to create: [[Healthspan]], [[Geroprotectors]], [[Hallmarks of Aging]]
-- Strong connections to strengthen: [[Geroscience]] ↔ [[Aging]], [[Geroscience]] ↔ [[Senolytics]]
+  - Strong connections to strengthen: [[Geroscience]] ↔ [[Aging]], [[Geroscience]] ↔ [[Senolytics]]

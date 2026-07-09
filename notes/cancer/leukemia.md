@@ -1,11 +1,10 @@
 ---
 title: Leukemia
 description: Leukemia is a group of hematopoietic malignancies arising in bone marrow that produce high numbers of abnormal blood cells; studied with bee-venom components and Ivermectin for selective cytotoxicity.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: []
 ---
 
@@ -24,6 +23,29 @@ Both honeybee venom and melittin display cytotoxic potency against leukemia cell
 ## Clinical & Research Relevance
 
 Standard therapy combines cytotoxic nucleosides (cytarabine, daunorubicin) with targeted approaches (tyrosine kinase inhibitors for BCR-ABL, venetoclax for BCL-2). The demonstrations that melittin and ivermectin selectively stress leukemia cells via Akt and chloride/ROS axes provide mechanistic footholds for adjunct strategies and for overcoming resistance. Research continues into delivery (e.g., nanoparticle-encapsulated melittin) to spare normal marrow.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - In the case of leukemia, the malignant cells have an anti-apoptotic phenotype with high levels of anti-apoptotic Bcl-2 and low levels of pro-apoptotic proteins such as Bax _in vivo_.
+
+  - [[_document_ - Caspase|Caspase]]
+    - M]] | Ser61, Ser78 | S phase arrest | Response to DNA damage | | Bim | Loss in leukemia, non-small-cell lung cancer, Lymphoma | ERK | Ser55, Ser65, Ser100 (mou
+
+  - [[_document_ - Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology|Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology]]
+    - Both honeybee venom and melittin have demonstrated antitumoral effects in Melanoma , non-small-cell lung cancer , glioblastoma , leukemia , ovarian cancer , cervical cancer , and Pancreatic Cancer , with higher cytotoxic potency in cancer cells compared to ...
+
+  - [[_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug|Ivermectin, a potential anticancer drug derived from an antiparasitic drug]]
+    - Hematological cancer leukemia is a type of malignant clonal disease caused by abnormal hematopoietic stem cells \[\].
+
+  - [[_document_ - Oral Fenbendazole for Cancer Therapy in Humans and Animals|Oral Fenbendazole for Cancer Therapy in Humans and Animals]]
+    - ooglescholar+KalantarMotamedi+Ejeian+Sabouhi+Bahmani+Nejati+Bhagwat+Ahadi+Tafreshi+Nasr-Esfahani+Bender+Drug Repositioning+and+cheminformatics+approach+for+differentiation+therapy+of+leukemia+cells+Rep) : ↩ : ↩ : ↩ : Cr
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Leukemia: Leukemia is a malignant clonal disease of hematopoietic stem cells, and most leukemias are sporadic and their specific etiology remains elusive. SIRTs participate in the development and therapeutic resistance of leukemia.
+
 
 ## Connections
 

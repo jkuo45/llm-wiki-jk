@@ -3,11 +3,10 @@ title: Cytosol
 description: The cytosol is the aqueous intracellular fluid that fills the cytoplasmic
   compartment of Eukaryotic Cells, excluding the contents of membrane-bound organelles
   such as the Nucleus, Mitochondria,...
-type: entity
 created: 2026-07-04
 updated: 2026-07-06
 tags:
-  - Anatomy
+  - anatomy
 aliases: []
 ---
 
@@ -48,4 +47,4 @@ The cytosol is not a static fluid but a crowded, structured environment (macromo
 ## Linking Summary
 - New links added: [[Eukaryotic Cells]], [[Nucleus]], [[Mitochondria]], [[Endoplasmic Reticulum]], [[Glycolysis]], [[Cytoskeleton]], [[Actin]], [[Microtubules]], [[Intermediate Filaments]], [[ATP]], [[NADH]], [[NADPH]], [[Amino Acids]], [[Ribosomes]], [[Translation]], [[Enzymes]], [[Stress Granules]], [[Processing Bodies]], [[Liquid-Liquid Phase Separation]], [[Fatty acid synthesis]], [[Gluconeogenesis]], [[Pentose Phosphate Pathway]], [[cAMP]], [[IP3]], [[Signal Transduction]]
 - Suggested new entity notes to create: [[Macromolecular Crowding]], [[Cytoplasmic compartment]], [[Cytoplasmic streaming]], [[Phase separation]], [[Second messenger]]
-- Strong connections to strengthen: [[Cytosol]] ↔ [[Glycolysis]], [[Cytosol]] ↔ [[Cytoskeleton]], [[Cytosol]] ↔ [[Protein Synthesis]]
+  - Strong connections to strengthen: [[Cytosol]] ↔ [[Glycolysis]], [[Cytosol]] ↔ Cytoskeleton, [[Cytosol]] ↔ Protein Synthesis

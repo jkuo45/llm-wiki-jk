@@ -1,13 +1,12 @@
 ---
 title: ATF6
-description: 'Overview: ATF6 is a cellular protein with structural, signaling,
+description: 'Overview: ATF6 is a cellular protein with structural, signaling,'
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
-  and signaling networks that govern cell...'
-type: entity
+  and signaling networks that govern cell...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [Activating Transcription Factor 6]
 
 ---
@@ -29,5 +28,5 @@ aliases: [Activating Transcription Factor 6]
 
 ## Linking Summary
 - New links added: [[ATF6]]
-- Strong connections to strengthen: [[ATF6]] ↔ [[ATF6]]
+  - Strong connections to strengthen: [[ATF6]] ↔ [[ATF6]]
 

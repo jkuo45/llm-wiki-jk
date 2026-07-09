@@ -1,13 +1,12 @@
 ---
 title: Rac1
-description: 'Overview: Rac1 is a cellular protein with structural, signaling,
+description: 'Overview: Rac1 is a cellular protein with structural, signaling,'
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
-  and signaling networks that govern cell...'
-type: entity
+  and signaling networks that govern cell...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [Ras-related C3 Botulinum Toxin Substrate 1]
 
 ---
@@ -24,10 +23,20 @@ aliases: [Ras-related C3 Botulinum Toxin Substrate 1]
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - These studies have suggested that mTORC2 controls the Actin Cytoskeleton by promoting PKCα (PKCα) phosphorylation, phosphorylation of paxillin and its relocalization to Focal Adhesion, and the GTP loading of RhoA and Rac1.
+
+
 ## Connections
 - [[Rac1]] — related entity
 
 ## Linking Summary
 - New links added: [[Rac1]]
-- Strong connections to strengthen: [[Rac1]] ↔ [[Rac1]]
+  - Strong connections to strengthen: [[Rac1]] ↔ [[Rac1]]
 

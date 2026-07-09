@@ -1,16 +1,15 @@
 ---
 title: Daunorubicin
 description: Daunorubicin is a chemical compound and anthracycline antibiotic used in chemotherapy that induces DNA damage by inhibiting topoisomerase II.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
   - anthracycline
   - chemotherapy
-  - topoisomerase II inhibitor
+  - topoisomerase-ii-inhibitor
   - cardiotoxicity
   - senescence
-  - Chemical Compound
+  - chemical-compound
 aliases:
   - Daunomycin
   - Cerubidine
@@ -38,6 +37,17 @@ The cumulative dose of daunorubicin correlates with the risk of developing irrev
 ## Senescence Research
 
 Like other DNA-damaging chemotherapeutics, daunorubicin is used experimentally to model chemotherapy-induced senescence. Cultured fibroblasts and cancer cells exposed to daunorubicin develop persistent p53/p21-dependent growth arrest, SA-β-gal positivity, and SASP factor secretion, providing a platform to study the contribution of senescent cells to tumor relapse, treatment resistance, and accelerated aging in cancer survivors.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug|Ivermectin, a potential anticancer drug derived from an antiparasitic drug]]
+    - It was also proven that IVM has a synergistic effect with cytarabine and Daunorubicin on the treatment of leukemia.
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - lin]], Hydroxyurea, Thymidine, Bromodeoxyuridine, Gemcitabine, Cyclopentenyl cytosine); (2) DNA‐damaging agents, including (2a) DNA Topoisomerase Inhibitors (Doxorubicin, Etoposide, Daunorubicin, Mitoxantrone, Camptothecin), (2b) DNA Cross-linkers (Cisplati...
+
 
 ## Connections
 

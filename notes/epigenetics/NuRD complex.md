@@ -1,11 +1,10 @@
 ---
 title: NuRD complex
 description: The NuRD (Nucleosome Remodeling and Deacetylase) complex couples ATP-dependent chromatin remodeling with histone deacetylation.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Protein
+  - protein
 aliases: []
 ---
 
@@ -36,6 +35,14 @@ NuRD is essential for embryogenesis, X-chromosome inactivation, and lineage comm
 ## Pathology & Clinical Relevance
 
 Dysregulated NuRD subunits (notably MTA and [[CHD4]]) are implicated in carcinomas, leukemia, and neurodevelopmental disorders. CHD4 mutations occur in Snijders Blok–Campeau syndrome. Because NuRD bridges chromatin compaction to gene silencing, it is a candidate target for epigenetic therapies and a critical node in understanding how [[Reprogramming]] and cellular rejuvenation reset age-associated [[Epigenetics]]. Its interplay with [[Retinoblastoma Protein]] and [[E2F]] further connects chromatin remodeling to cell-cycle control.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic|Application of the Yamanaka Transcription Factors Oct4, Sox2, Klf4, and c-Myc from the Laboratory to the Clinic]]
+    - Cellular Reprogramming]], Somatic Cells, Induced Pluripotent Stem Cells, Cancer, Neurodegenerative Diseases, Rejuvenation, Parkinson's Disease, Yamanaka Factors, Embryonic Stem Cells, Fibroblasts, Shinya Yamanaka, Kazutoshi Takahashi, OSKM, Regenerative Med...
+
 
 ## Connections
 

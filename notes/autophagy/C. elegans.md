@@ -1,13 +1,12 @@
 ---
 title: Caenorhabditis elegans
-description: 'Caenorhabditis elegans (C. elegans) is a transparent nematode
+description: Caenorhabditis elegans (C. elegans) is a transparent nematode
   used as a premier model organism in biological research, particularly in genetics,
-  developmental biology, and Aging.'
-type: entity
+  developmental biology, and Aging.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Model Organism
+  - organism
 aliases: [Caenorhabditis elegans]
 
 ---
@@ -28,6 +27,20 @@ aliases: [Caenorhabditis elegans]
 ## Model Organism
 
 C. elegans is a powerful model for studying [[Autophagy]] in development, aging, and disease, with conserved pathways and optogenetic tools.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - HLH-30, the ortholog of TFEB and TFE3 in C. elegans, translocates to the nucleus following starvation to up-regulate expression of the lysosomal lipases LIPL-1 and LIPL-3.
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - DNA Repair, DNA Repair, DNA Repair, Chromatin, ADP-ribosylation, ADP-ribosylation, NAD+], OAADPr, OAADPr, Werner Syndrome, Caenorhabditis elegans, C. elegans, SIR-2.
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Sir2 (yeast)’s key role in the molecular mechanism of Senescence in C. elegans was also later demonstrated.
+
 
 ## Connections
 

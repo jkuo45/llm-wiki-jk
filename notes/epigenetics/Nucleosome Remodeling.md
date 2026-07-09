@@ -1,13 +1,12 @@
 ---
 title: Nucleosome Remodeling
-description: 'Nucleosome Remodeling is the ATP-dependent process by which Nucleosome
+description: Nucleosome Remodeling is the ATP-dependent process by which Nucleosome
   — the fundamental unit of Chromatin — are repositioned, evicted, or restructured
-  to regulate DNA accessibility for Transcr...'
-type: entity
+  to regulate DNA accessibility for Transcr...
 created: 2024-01-01
 updated: 2024-07-04
 tags:
-  - Biological Process
+  - biological-process
 aliases: []
 ---
 

@@ -1,11 +1,10 @@
 ---
 title: BMP Signaling Pathway
 description: Bone Morphogenetic Protein (BMP) signaling is a branch of the TGF-β superfamily that regulates bone formation, embryonic patterning, neurodevelopment, and tissue homeostasis through SMAD-dependent and SMAD-independent transduction.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Biological Process
+  - biological-process
 aliases: [BMP Signaling, Bone Morphogenetic Protein Signaling]
 ---
 
@@ -29,6 +28,14 @@ Non-canonical pathways include MAPK/ERK, PI3K/AKT, and p38 MAPK cascades, which 
 ## Clinical and Therapeutic Relevance
 
 Recombinant human BMP2 (rhBMP-2, marketed as **INFUSE Bone Graft**) and BMP7 (OP-1) are FDA-approved for spinal fusion surgery, long-bone non-union repair, and oral-maxillofacial reconstruction. However, supraphysiological doses carry risks of ectopic bone formation, inflammation, and radiculitis. Small molecule BMP inhibitors such as **dorsomorphin** and **LDN-193189** (DMH1) are used experimentally to block aberrant BMP signaling in **[[Fibrodysplasia Ossificans Progressiva]] (FOP)**, a genetic disorder caused by activating mutations in ACVR1 (ALK2). BMP pathway hyperactivation is also implicated in [[Pulmonary Arterial Hypertension]] (BMPR2 mutations) and certain cancers (e.g., colorectal cancer with SMAD4 loss, glioma).
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network|Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network]]
+    - Additionally, BMP Signaling Pathway was shown to contribute to reprogramming of MEF cells by e
+
 
 ## Connections
 

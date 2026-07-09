@@ -1,13 +1,12 @@
 ---
 title: S-adenosylmethionine
-description: 'Biochemical properties: S-adenosylmethionine is an endogenous metabolite
+description: 'Biochemical properties: S-adenosylmethionine is an endogenous metabolite'
   involved in cellular energy metabolism, redox reactions, or biosynthetic pathways.
-  Its cellular concentration reflects m...'
-type: entity
+  Its cellular concentration reflects m...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Metabolite
+  - biological-molecule
 aliases: [SAMe]
 
 ---
@@ -24,10 +23,20 @@ aliases: [SAMe]
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - Methyl Donor supplements include: - Methylfolate - Methylcobalamin (MethylB12) - TMG/Betaine - SAMe (S-adenosylmethionine) Without clinical trials on this interaction with Methyl Donor, the need to limit this is something that may be unique to an individual.
+
+
 ## Connections
 - [[S-adenosylmethionine]] — related entity
 
 ## Linking Summary
 - New links added: [[S-adenosylmethionine]]
-- Strong connections to strengthen: [[S-adenosylmethionine]] ↔ [[S-adenosylmethionine]]
+  - Strong connections to strengthen: [[S-adenosylmethionine]] ↔ [[S-adenosylmethionine]]
 

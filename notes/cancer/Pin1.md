@@ -1,11 +1,10 @@
 ---
 title: Pin1
 description: Pin1 is a peptidyl-prolyl cis/trans isomerase that binds phosphorylated serine/threonine-proline motifs and isomerizes cis/trans conformations of target proteins, regulating apoptosis, proliferation, and tumorigenesis.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Enzyme
+  - enzyme
 aliases: []
 ---
 
@@ -24,6 +23,14 @@ In normal cells, Pin1 helps coordinate the cell cycle and stress responses, incl
 ## Clinical & Research Relevance
 
 Pin1 overexpression correlates with poor prognosis in breast, prostate, lung, and other cancers, and its activity is considered a potential biomarker and therapeutic target. Small-molecule Pin1 inhibitors (e.g., juglone derivatives and all-trans retinoic acid) and peptide-based disruptors of the WW domain are under investigation to restore apoptosis and sensitize tumors to [[Chemotherapy]]. Pin1's role as a convergence point for phosphorylation-driven signaling makes it an attractive, broadly relevant target in oncology.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - Bax | | ERK1_2 | Thr167 | Inactivation via Pin1 interaction | | | Bax | | GSK3,
+
 
 ## Connections
 

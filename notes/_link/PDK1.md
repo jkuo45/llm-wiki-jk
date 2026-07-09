@@ -1,13 +1,12 @@
 ---
 title: PDK1
-description: 'Overview: PDK1 is a cellular protein with structural, signaling,
+description: 'Overview: PDK1 is a cellular protein with structural, signaling,'
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
-  and signaling networks that govern cell...'
-type: entity
+  and signaling networks that govern cell...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [3-Phosphoinositide-Dependent Protein Kinase 1]
 
 ---
@@ -24,10 +23,20 @@ aliases: [3-Phosphoinositide-Dependent Protein Kinase 1]
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - Full activation of Akt requires its phosphorylation at two sites: Ser308, by PDK1, and Ser473, by a kinase that remained unidentified for many years, but was demonstrated to be mTORC2 by our group in 2005 (Sarbassov et al., 2005).
+
+
 ## Connections
 - [[PDK1]] — related entity
 
 ## Linking Summary
 - New links added: [[PDK1]]
-- Strong connections to strengthen: [[PDK1]] ↔ [[PDK1]]
+  - Strong connections to strengthen: [[PDK1]] ↔ [[PDK1]]
 

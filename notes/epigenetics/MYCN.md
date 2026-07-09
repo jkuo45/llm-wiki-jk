@@ -1,11 +1,10 @@
 ---
 title: MYCN
 description: MYCN is a MYC-family oncogene amplified in neuroblastoma that also reinforces WNT-driven pluripotency and reprogramming.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Gene
+  - gene
 aliases: []
 ---
 

@@ -3,11 +3,10 @@ title: Atherosclerosis
 description: Atherosclerosis is a disease in which the inside of an artery narrows
   due to the build up of plaque. Oxidative Stress and Lipid Peroxidation are key drivers
   of plaque formation. It often involves E...
-type: entity
 created: 2026-05-29
 updated: 2026-05-29
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: []
 ---
 # Atherosclerosis
@@ -31,6 +30,31 @@ Unlike genetic mutations, epigenetic marks are potentially reversible:
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Dietary Advanced Glycation End Products and Aging|Dietary Advanced Glycation End Products and Aging]]
+    - Microvascular and macrovascular damage, seen in diabetes, is attributed to the accumulation of AGEs in tissues, but it is also associated with Atherosclerosis, Alzheimer's Disease, End Stage Renal Disease, Rheumatoid Arthritis, Sarcopenia, cataracts, and ot...
+
+  - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
+    - The shared aetiology of age-associated disorders, such as Atherosclerosis, Cardiovascular Disease, Osteoarthritis, Osteoporosis, Type 2 Diabetes Mellitus, Cancer and Neurodegenerative Diseases is still poorly understood (Nikolich-Žugich, 2018).
+
+  - [[_document_ - Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks|Epigenetic alterations—The silent indicator for early aging and age‐associated health‐risks]]
+    - Thus, altered expression of miRNAs can be a valuable marker for early aging and age‐related diseases like specific carcinoma, Atherosclerosis, Alzheimer's, and others.
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - A large body of evidences shows that oxidative stress can be responsible, with different degrees of importance, in the onset and/or progression of several diseases (i.e., cancer, Diabetes Mellitus, metabolic disorders, Atherosclerosis, and Cardiovascular Di...
+
+  - [[_document_ - The Sirtuin System The Holy Grail of Resveratrol?|The Sirtuin System The Holy Grail of Resveratrol?]]
+    - The Oxidative Stress theory has been associated with Atherosclerosis and has prompted a multitude of studies to evaluate the effects of Antioxidants on Cardiovascular Disease prevention.
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Upregulation of SIRT7 protects against the proliferation of vascular smooth muscle cells (VSMCs) in Atherosclerosis. Similarly, SIRT7 deficiency attenuates VSMC proliferation, thus attenuating neointimal formation following vascular injury.
+
+
 ## Connections
 - **[[Cardiovascular Disease]]**: Atherosclerosis is the underlying cause of most cardiovascular diseases.
 - **[[Cellular Senescence]]**: Vascular senescence contributes to plaque vulnerability and arterial stiffness.
@@ -39,4 +63,4 @@ Unlike genetic mutations, epigenetic marks are potentially reversible:
 ## Linking Summary
 - New links added: [[Aging]], [[Caloric Restriction]], [[Cardiovascular Disease]], [[Cellular Senescence]], [[Clonal Hematopoiesis]], [[DNA Methylation]], [[DNA Methyltransferase]], [[DNAmGrimAge]], [[Epigenetic Clock]], [[Epigenetics]], [[HDAC]], [[Histone Deacetylase]], [[Histone Modification]], [[MicroRNA]], [[Non-coding RNA]], [[Sirtuins]], [[Cellular Senescence]]., [[Advanced Glycation End Products]], [[Arterial Stiffening]], [[Foam Cells]], [[Low-Density Lipoprotein]]
 - Suggested new entity notes to create: [[Clonal Hematopoiesis]], [[Endothelial Dysfunction]], [[Vascular Senescence]], [[Endothelial Dysfunction]].
-- Strong connections to strengthen: [[Atherosclerosis]] ↔ [[Aging]], [[Atherosclerosis]] ↔ [[DNA Methylation]], [[Advanced Glycation End Products]] ↔ [[Atherosclerosis]]
+  - Strong connections to strengthen: [[Atherosclerosis]] ↔ [[Aging]], [[Atherosclerosis]] ↔ DNA Methylation, Advanced Glycation End Products ↔ [[Atherosclerosis]]

@@ -2,30 +2,13 @@
 title: Betaine
 description: Betaine, also known as TMG (Trimethylglycine), is a substance that is
   involved in liver function, cellular reproduction, and the Methylation Cycle.
-type: entity
 created: 2026-05-25
 updated: 2026-07-04
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases:
   - TMG
   - Trimethylglycine
-database_ids:
-  chebi: CKB:57417
-  mesh: D001623
-relations:
-  - predicate: acts_as
-    target: "Methyl Donor"
-    sources: []
-  - predicate: part_of
-    target: "Methylation Cycle"
-    sources: []
-  - predicate: supports
-    target: "notes/_link/SAMe"
-    sources: []
-  - predicate: influences
-    target: "COMT"
-    sources: []
 ---
 
 
@@ -42,6 +25,14 @@ relations:
 ## Interaction with COMT
 
 As a [[Methyl Donor]], [[TMG]] supplementation can influence the pool of methyl groups available for [[COMT]]. Individuals with slow [[COMT]] genotypes may experience mood sensitivity when taking high doses of TMG. This is because a sudden influx of methyl groups can cause rapid cycling of neurotransmitter levels.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - Methyl Donor supplements include: - Methylfolate - Methylcobalamin (MethylB12) - TMG/Betaine - SAMe (S-adenosylmethionine) Without clinical trials on this interaction with Methyl Donor, the need to limit this is something that may be unique to an individual.
+
 
 ## Connections
 

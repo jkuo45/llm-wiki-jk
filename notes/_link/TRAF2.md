@@ -2,11 +2,10 @@
 title: TRAF2
 description: TRAF2 (TNF receptor-associated factor 2) is a protein recruited by the
   MAVS complex to activate an innate immune response following viral infection.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [Traf2]
 ---
 # TRAF2
@@ -21,6 +20,16 @@ Because of its role in survival signaling, overactivity of TRAF2 can contribute 
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - When the ER is injured by cellular stresses like hypoxia, free radicals or glucose starvation, there is unfolding of proteins and reduced protein synthesis in the cell, and an adaptor protein known as TRAF2 dissociates from procaspase-12, resulting in the a...
+
+
 ## Connections
 - [[Endoplasmic Reticulum Pathway]]: Regulates caspase activation during ER stress.
 - [[Caspase-12]]: The protease regulated by TRAF2 in the ER pathway.
@@ -30,4 +39,4 @@ Because of its role in survival signaling, overactivity of TRAF2 can contribute 
 ## Linking Summary
 - New links added: [[MAVS]], [[TRAF6]], [[Apoptosis]], [[Endoplasmic Reticulum Pathway]], [[Caspase-12]], [[TNFR1]], [[NFκB]]
 - Suggested new entity notes to create: [[Caspase-12]]
-- Strong connections to strengthen: [[TRAF2]] ↔ [[MAVS]], [[TRAF2]] ↔ [[Endoplasmic Reticulum Pathway]]
+  - Strong connections to strengthen: [[TRAF2]] ↔ MAVS, [[TRAF2]] ↔ Endoplasmic Reticulum Pathway

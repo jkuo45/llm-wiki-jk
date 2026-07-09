@@ -1,17 +1,13 @@
 ---
 title: SMAD3
-description: 'SMAD3 (Mothers against decapentaplegic homolog 3) is a receptor-regulated
+description: SMAD3 (Mothers against decapentaplegic homolog 3) is a receptor-regulated
   SMAD (R-SMAD) transcription factor that mediates signalling from the TGF-β superfamily.
-  It is centrally involved in cel...'
-type: entity
+  It is centrally involved in cel...
 created: 2026-07-04
 updated: 2026-07-05
 tags:
-  - Protein
+  - protein
 aliases: [MADH3, Mothers against decapentaplegic homolog 3, SMAD family member 3]
-database_ids:
-  uniprot: P84022
-  hgnc: HGNC:6769
 
 ---
 
@@ -63,6 +59,17 @@ SMAD3 is essential for the anti-inflammatory and immunosuppressive functions of 
 - **[[SIRT1]]**: Deacetylates and destabilises SMAD7, relieving SMAD7-mediated inhibition of SMAD3 phosphorylation, thereby enhancing TGF-β/SMAD3 signalling in some contexts.
 - **[[SIRT6]]**: Suppresses SMAD3 transcriptional activity by deacetylating H3K9 at SMAD3 target gene promoters, reducing pro-fibrotic gene expression.
 - **[[SIRT7]]**: Deacetylates SMAD3 directly, reducing its transcriptional activity and pro-fibrotic output.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - found that hyperactivated SMAD3 triggers lysosomal depletion by inhibiting the expression of TFEB in human proximal tubular epithelial cell line (HK-2) under diabetic conditions \[\].
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - found that forced expression of SIRT6 attenuated EMT by suppressing the TGF-beta1/ SMAD3 protein (Smad)3 pathway and N-terminal kinase (c-Jun) in rat models of Asthma.
+
 
 ## Connections
 

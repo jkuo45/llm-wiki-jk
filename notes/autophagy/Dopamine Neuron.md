@@ -3,11 +3,10 @@ title: Dopamine Neuron
 description: Dopamine neurons are nerve cells that produce dopamine; their loss is
   a hallmark of Parkinson's disease, and TFEB-mediated autophagy has been shown to
   protect them from Alpha-synuclein toxicity.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Cell Type
+  - cell-type
 aliases: [DA neuron]
 ---
 # Dopamine Neuron
@@ -20,6 +19,14 @@ Dopamine neurons in the [[Substantia Nigra]] pars compacta control movement, mot
 ## Autophagy Role
 
 Basal [[Autophagy]] is essential for dopamine neuron survival. Impairment of autophagy (via [[Atg7]] or [[TFEB]] deletion in mice) causes dopamine neuron degeneration and protein aggregation.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+    - ion Initiation]], MAPK Signaling, ERK Signaling, Lysosomal Localization, Nuclear Export, Cell Cycle, Energy Homeostasis, PI3K-Akt Signaling, Amino Acid Sensing, Cholesterol Metabolism, Ubiquitin-Proteasome System, Autophagy Inhibitor, Mitochondrial Dysfunct...
+
 
 ## Connections
 

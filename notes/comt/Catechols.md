@@ -1,11 +1,10 @@
 ---
 title: Catechols
-description: 'Catechols are ortho-dihydroxyphenyl compounds found across neurotransmitters, hormones, flavonoids, and drugs; they are primary substrates for COMT-mediated O-methylation, a major detoxification and inactivation pathway.'
-type: entity
+description: Catechols are ortho-dihydroxyphenyl compounds found across neurotransmitters, hormones, flavonoids, and drugs; they are primary substrates for COMT-mediated O-methylation, a major detoxification and inactivation pathway.
 created: 2026-05-25
 updated: 2026-07-07
 tags:
-  - Chemical Class
+  - chemical-class
 aliases: [catechol compounds, 1,2-dihydroxybenzene, pyrocatechol]
 
 ---
@@ -30,6 +29,14 @@ The [[COMT]] enzyme transfers a [[Methyl groups|methyl group]] from [[S-Adenosyl
 ## Implications for Slow COMT
 
 In slow [[COMT]] variants, catechol clearance is reduced. Endogenous catecholamines may accumulate, enhancing stress reactivity, while exogenous catechols (e.g., high-dose [[Quercetin]], [[Green tea]] EGCG at pharmacological concentrations) can further inhibit an already sluggish enzyme and add [[Methyl groups]] demand on the [[Methylation Cycle]]. Non-catecholic alternatives such as [[Berberine]] or [[Hesperidin]] are therefore preferred in this population.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - The COMT gene encodes an enzyme called Catechol-O-methyltransferase, which breaks down Catechols. What are catechols — and why do we need to break them down? Catechols include Neurotransmitters such as Dopamine, Epinephrine, and Norepinephrine.
+
 
 ## Connections
 

@@ -1,13 +1,12 @@
 ---
 title: Cardiac Fibrosis
-description: 'Etiology and pathophysiology: Cardiac Fibrosis is a medical condition
+description: 'Etiology and pathophysiology: Cardiac Fibrosis is a medical condition'
   characterized by specific pathological changes in cellular, tissue, or organ function.
-  Its development involves genetic, en...'
-type: entity
+  Its development involves genetic, en...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: [Myocardial Fibrosis]
 
 ---
@@ -24,10 +23,20 @@ aliases: [Myocardial Fibrosis]
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Cardiac fibrosis In Cardiac Fibrosis, TGF-β is a key profibrotic cytokine that exerts profibrotic effects.
+
+
 ## Connections
 - [[Cardiac Fibrosis]] — related entity
 
 ## Linking Summary
 - New links added: [[Cardiac Fibrosis]]
-- Strong connections to strengthen: [[Cardiac Fibrosis]] ↔ [[Cardiac Fibrosis]]
+  - Strong connections to strengthen: Cardiac Fibrosis ↔ Cardiac Fibrosis
 

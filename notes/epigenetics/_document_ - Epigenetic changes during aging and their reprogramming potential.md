@@ -4,7 +4,6 @@ description: The aging process results in significant epigenetic changes at all 
   of chromatin and DNA organization. These include reduced global heterochromatin,
   nucleosome remodeling and loss, changes in histone marks, global DNA hypomethylation
   with CpG ...
-type: document
 created: 2026-06-30
 source: https://pmc.ncbi.nlm.nih.gov/articles/PMC6424622/
 author:

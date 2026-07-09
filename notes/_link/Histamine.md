@@ -1,13 +1,12 @@
 ---
 title: Histamine
-description: 'Biochemical properties: Histamine is an endogenous metabolite involved
+description: 'Biochemical properties: Histamine is an endogenous metabolite involved'
   in cellular energy metabolism, redox reactions, or biosynthetic pathways. Its cellular
-  concentration reflects metabolic fl...'
-type: entity
+  concentration reflects metabolic fl...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Metabolite
+  - biological-molecule
 aliases: []
 ---
 
@@ -23,10 +22,20 @@ aliases: []
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - Furthermore, Histamine levels in plasma following an allergic trigger were reduced in TFE3 knockouts, suggesting that TFE3 is an important mediator of allergic response (Yagil et al 2012).
+
+
 ## Connections
 - [[Histamine]] — related entity
 
 ## Linking Summary
 - New links added: [[Histamine]]
-- Strong connections to strengthen: [[Histamine]] ↔ [[Histamine]]
+  - Strong connections to strengthen: [[Histamine]] ↔ [[Histamine]]
 

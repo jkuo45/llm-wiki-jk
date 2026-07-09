@@ -1,13 +1,12 @@
 ---
 title: Hydroxychloroquine
-description: 'Chemical properties: Hydroxychloroquine is a chemical substance
+description: 'Chemical properties: Hydroxychloroquine is a chemical substance'
   with defined molecular structure, functional groups, and physicochemical properties
-  that determine its biological activity.'
-type: entity
+  that determine its biological activity.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: [HCQ, Plaquenil]
 
 ---
@@ -29,5 +28,5 @@ aliases: [HCQ, Plaquenil]
 
 ## Linking Summary
 - New links added: [[Hydroxychloroquine]]
-- Strong connections to strengthen: [[Hydroxychloroquine]] ↔ [[Hydroxychloroquine]]
+  - Strong connections to strengthen: [[Hydroxychloroquine]] ↔ [[Hydroxychloroquine]]
 

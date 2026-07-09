@@ -1,11 +1,10 @@
 ---
 title: Annexin V
-description: 'Annexin V is a member of the annexin family of calcium-dependent phospholipid-binding proteins, widely used as a marker for Phosphatidylserine exposure in cells undergoing Apoptosis.'
-type: entity
+description: Annexin V is a member of the annexin family of calcium-dependent phospholipid-binding proteins, widely used as a marker for Phosphatidylserine exposure in cells undergoing Apoptosis.
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Protein
+  - protein
 aliases: []
 ---
 
@@ -34,6 +33,14 @@ Endogenous Annexin V participates in anticoagulation (binding PS on activated pl
 ## Cancer Research Relevance
 
 Annexin V assays are indispensable for screening [[Chemotherapy]] agents, [[BH3 mimetics]], and natural products (e.g., [[melittin]], [[Apis mellifera]] venom) for pro-apoptotic activity. Imaging variants (Annexin V-Cy5.5) enable non-invasive detection of therapy-induced apoptosis in tumors, serving as an early pharmacodynamic biomarker.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology|Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology]]
+    - To quantify the apoptotic, necrotic, or dead cell populations after treatment, we performed an Annexin V-FITC Apoptosis Detection Assay.
+
 
 ## Connections
 

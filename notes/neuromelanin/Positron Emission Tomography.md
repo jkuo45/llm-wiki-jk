@@ -1,11 +1,10 @@
 ---
 title: Positron Emission Tomography
 description: Positron Emission Tomography (PET) is a functional molecular imaging technique using radiotracers to quantify metabolism, receptor density, and neurotransmitter systems, including dopaminergic integrity relevant to Neuromelanin-bearing neurons in Parkinson's Disease.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Imaging Technique
+  - analytical-technique
 aliases: []
 ---
 

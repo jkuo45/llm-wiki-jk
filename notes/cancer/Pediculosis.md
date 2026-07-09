@@ -1,11 +1,10 @@
 ---
 title: Pediculosis
 description: Pediculosis is an infestation of the hairy parts of the body or clothing with eggs, larvae, or adults of lice.
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: []
 ---
 
@@ -32,6 +31,14 @@ The hallmark symptom of pediculosis is intense pruritus (itching) driven by a hy
 **Body lice**: Treatment focuses on improving hygiene and laundering clothing and bedding in hot water. In institutional or outbreak settings, 5% permethrin powder can be applied to clothing. Antibiotic therapy is required if secondary infection or louse-borne disease is present (e.g., doxycycline for typhus or trench fever).
 
 **Pubic lice**: Treated with 1% permethrin cream rinse or oral ivermectin 200 µg/kg repeated in 7–10 days. Sexual partners and close household contacts should be treated simultaneously. Clothing and bedding should be washed in hot water.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, ‘Wonder drug’ from Japan the human use perspective|Ivermectin, ‘Wonder drug’ from Japan the human use perspective]]
+    - It is used to treat a variety of internal Onchocerca volvulus infections, including Onchocerciasis, Strongyloidiasis, Ascariasis, cutaneous larva migrans, Lymphatic Filariasis, Gnathostomiasis and Trichuriasis, as well as for oral treatment of ectoparasitic...
+
 
 ## Connections
 

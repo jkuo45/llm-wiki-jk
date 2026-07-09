@@ -1,14 +1,13 @@
 ---
 title: Nucleic Acids
 description: Nucleic acids (DNA and RNA) are biopolymers of nucleotide monomers responsible for storage and expression of genetic information. They are major targets of Reactive Oxygen Species, leading to oxidative base modifications, strand breaks, and mutation.
-type: entity
 created: 2026-05-09
 updated: 2026-07-07
 tags:
-  - oxidative stress
-  - dna damage
+  - oxidative-stress
+  - dna-damage
   - genetics
-  - Biological Molecule
+  - biological-molecule
 aliases: [DNA, RNA]
 ---
 
@@ -31,6 +30,14 @@ Cells counter oxidative DNA damage through multiple pathways: [[Base Excision Re
 ## Disease and Biomarker Relevance
 
 Urinary 8-OHdG is a widely used, non-invasive biomarker of systemic oxidative DNA damage, elevated in [[Cancer]], [[Diabetes Mellitus]], [[Neurodegenerative Diseases]], and [[Aging]]. Mitochondrial 8-oxoG accumulation is implicated in [[Parkinson's Disease]] and [[Alzheimer's Disease]]. Targeting DNA repair pathways and lowering ROS (e.g., with [[N-Acetylcysteine]] or [[MitoQ]]) are strategies to reduce oxidative mutagenesis.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - When ROS production increases, they start showing harmful effects on important cellular structures like Proteins, Lipids, and Nucleic Acids \[\].
+
 
 ## Connections
 

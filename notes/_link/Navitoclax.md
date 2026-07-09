@@ -1,13 +1,12 @@
 ---
 title: Navitoclax
-description: 'Chemical properties: Navitoclax is a chemical substance with defined
+description: 'Chemical properties: Navitoclax is a chemical substance with defined'
   molecular structure, functional groups, and physicochemical properties that determine
-  its biological activity.'
-type: entity
+  its biological activity.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: [ABT-263]
 
 ---
@@ -29,5 +28,5 @@ aliases: [ABT-263]
 
 ## Linking Summary
 - New links added: [[Navitoclax]]
-- Strong connections to strengthen: [[Navitoclax]] ↔ [[Navitoclax]]
+  - Strong connections to strengthen: [[Navitoclax]] ↔ [[Navitoclax]]
 

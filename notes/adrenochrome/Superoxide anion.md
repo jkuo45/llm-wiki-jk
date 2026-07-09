@@ -1,14 +1,13 @@
 ---
 title: Superoxide anion
-description: 'Superoxide anion (O₂⁻•) is a highly reactive free radical and a
+description: Superoxide anion (O₂⁻•) is a highly reactive free radical and a
   primary type of Reactive Oxygen Species (ROS). It is formed by the one-electron
-  reduction of molecular oxygen.'
-type: entity
+  reduction of molecular oxygen.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Biological Molecule
-  - oxidative stress
+  - biological-molecule
+  - oxidative-stress
 aliases: []
 ---
 
@@ -66,6 +65,23 @@ These signaling functions form the mechanistic basis of the [[Mitohormetic Redox
 ## Connection to Catecholamine Oxidation
 
 Superoxide is both a driver and a product of catecholamine oxidation. The reaction between superoxide and [[Epinephrine]] proceeds through a chain mechanism: superoxide abstracts a hydrogen atom from the catechol ring, generating a semiquinone radical that reacts rapidly with molecular oxygen (k ≈ 10⁹ M⁻¹s⁻¹) to form [[Adrenochrome]] and regenerate superoxide. A single superoxide molecule can initiate the oxidation of up to 100 epinephrine molecules before termination, establishing a self-amplifying cascade. This mechanism is the basis for the [[Epinephrine Autoxidation Assay]] used to measure superoxide production in biological samples. The coupling of superoxide generation and catecholamine oxidation has pathophysiological implications for [[Cardiovascular Disease]] (where adrenochrome formation from epinephrine oxidation amplifies myocyte injury), [[Neurodegeneration]] (where dopamine oxidation to [[Dopaminochrome]] in the substantia nigra contributes to [[Parkinson's Disease]]), and [[Septic Shock]] (where neutrophil-derived superoxide drives systemic catecholamine oxidation and vascular dysfunction). Pharmacological interception of this cycle — through superoxide scavenging ([[SOD Mimetics]]), catecholamine stabilization, or [[Glutathione]] supplementation ([[GlyNAC]]) — represents a therapeutic strategy for conditions involving aminochrome-mediated pathology.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - formation, chemical stability|formation, chemical stability]]
+    - Superoxide Dismutase (SOD): This enzyme destroys Superoxide anions ( ) before they have a chance to oxidize Epinephrine.
+
+  - [[_document_ - intermediates, precursor, hemoglobin|intermediates, precursor, hemoglobin]]
+    - I'm focusing on how these quinones interact with Oxyhemoglobin, generating Superoxide anion. I'm examining the role of Leuco-adrenochrome as a reductant, potentially reducing Methemoglobin or participating in ROS production.
+
+  - [[_document_ - MRR - mitohormesis|mitohormesis]]
+    - Mechanism of Action (MOA) Redox Signaling: Carbazochrome induces transient, controlled Redox Cycling, generating a low-amplitude Superoxide anion signal in the mitochondrial matrix.
+
+  - [[_document_ - neutrophil and erthrocyte|neutrophil and erthrocyte]]
+    - sciencedirect.com Key Context Adrenochrome forms via both enzymatic and non-enzymatic oxidation (often involving Superoxide anion). It is unstable and can participate in Redox Cycling, generating more Reactive Oxygen Species.
+
 
 ## Connections
 - [[Reactive Oxygen Species]] ↔ Superoxide is a fundamental member of this class.

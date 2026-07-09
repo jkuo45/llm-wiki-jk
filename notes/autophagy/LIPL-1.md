@@ -1,13 +1,12 @@
 ---
 title: LIPL-1
-description: 'LIPL-1 is a lysosomal lipase in C. elegans that plays a critical
+description: LIPL-1 is a lysosomal lipase in C. elegans that plays a critical
   role in Lysosomal Lipolysis and Lipophagy. It is a functional orthologue of the
-  human Lysosomal Acid Lipase (LAL).'
-type: entity
+  human Lysosomal Acid Lipase (LAL).
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Enzyme
+  - enzyme
 aliases: [C. elegans lysosomal lipase 1]
 
 ---
@@ -28,6 +27,14 @@ aliases: [C. elegans lysosomal lipase 1]
 ## Function
 
 LIPL-1 is a C. elegans lysosomal lipase required for [[Lipophagy]] and lifespan extension by dietary restriction.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - elegans, translocates to the nucleus following starvation to up-regulate expression of the lysosomal lipases LIPL-1 and LIPL-3.
+
 
 ## Connections
 

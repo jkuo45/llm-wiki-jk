@@ -1,11 +1,10 @@
 ---
 title: Beta-TrCP
 description: Beta-transducin repeat-containing protein (Beta-TrCP) is an F-box substrate-recognition subunit of the SCF E3 ubiquitin ligase that targets phosphorylated substrates such as Mcl-1, IκBα, and β-catenin for proteasomal degradation.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Protein
+  - protein
 aliases: []
 ---
 
@@ -32,6 +31,17 @@ aliases: []
 ## Therapeutic Relevance
 
 Because β-TrCP controls Mcl-1 turnover, modulating it offers a route to sensitize tumors to [[BH3 mimetics]] and [[Chemotherapy]]. Small-molecule disruptors of the WD40 phosphodegron interface are under exploration, though the broad substrate roster demands selectivity.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - Bim | | RSK | Ser93, Ser94, Ser98 | SCF ComplexBeta-TrCP-mediated degradation | | | Bim | | JNK
+
+  - [[_document_ - Evading apoptosis in cancer|Evading apoptosis in cancer]]
+    - Phosphorylation of Mcl-1 at T163 followed by Phosphorylation at S155/S159 targets the protein for proteasomal degradation, which is mediated by the E3 ligase SCF Complex Beta-TrCP (Skp, Cullin, F-box containing complex with Beta-TrCP) \[, \].
+
 
 ## Connections
 

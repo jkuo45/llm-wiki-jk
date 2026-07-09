@@ -1,13 +1,12 @@
 ---
 title: Proteins
 description: Proteins are large biomolecules of amino-acid chains that perform catalytic, structural, and signaling functions. They are major targets of Oxidative Stress, undergoing side-chain oxidation, backbone fragmentation, and carbonylation that disrupt function.
-type: entity
 created: 2026-05-09
 updated: 2026-07-07
 tags:
-  - oxidative stress
-  - protein oxidation
-  - Biological Molecule
+  - oxidative-stress
+  - protein-oxidation
+  - biological-molecule
 aliases: [Proteins]
 ---
 
@@ -30,6 +29,14 @@ Cells counteract oxidized proteins through antioxidant enzymes—[[Glutathione P
 ## Disease Relevance
 
 Protein oxidation markers rise in [[Cardiovascular Disease]] (oxLDL-apoB carbonylation), [[Diabetes Mellitus]] (HbA1c and AOPPs), COPD, and neurodegeneration. Interventions lowering oxidative protein damage include [[N-Acetylcysteine]] (GSH repletion), [[Vitamin E]], and NRF2 activators. Mild oxidative modification can also be hormetic, inducing cytoprotective repair pathways.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - When ROS production increases, they start showing harmful effects on important cellular structures like Proteins, Lipids, and Nucleic Acids \[\].
+
 
 ## Connections
 

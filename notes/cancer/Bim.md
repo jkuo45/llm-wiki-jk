@@ -1,12 +1,11 @@
 ---
 title: Bim
-description: 'Bim (Bcl-2-like protein 11) is a potent pro-apoptotic BH3-only member
-  of the Bcl-2 family. It is a major initiator of the Intrinsic Pathway of Apoptosis.'
-type: entity
+description: Bim (Bcl-2-like protein 11) is a potent pro-apoptotic BH3-only member
+  of the Bcl-2 family. It is a major initiator of the Intrinsic Pathway of Apoptosis.
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - Enzyme
+  - enzyme
 aliases: []
 ---
 
@@ -27,6 +26,20 @@ Bim activity and stability are tightly regulated by several signaling pathways:
 
 ## Role in Cancer
 Reduced expression or loss of Bim is associated with tumor progression and resistance to therapy, particularly in lymphoid malignancies.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer from pathogenesis to treatment]]
+    - Bax, Bak, Bad, Bcl-Xs, Bid, Bik, Bim and Hrk) and the anti-apoptotic proteins (e.g. Bcl-2, Bcl-xL, Bcl-w, A1-Bfl-1 and Mcl-1) \[\].
+
+  - [[_document_ - Caspase|Caspase]]
+    - ATM | Ser61, Ser78 | S phase arrest | Response to DNA damage | | Bim | Loss in leukemia, non-small-cell lung cancer, Lymphoma | ERK | Ser55, Ser6
+
+  - [[_document_ - Evading apoptosis in cancer|Evading apoptosis in cancer]]
+    - Bim , Bid , and Bad that share only a single block, BH3 domain, of Bcl-2 family) and multi-BH domain proteins (e.g. Bax and Bak \[Bcl2 antagonist/killer\], which share BH1-BH3 domains).
+
 
 ## Connections
 - [[Bcl-2 family]]: A potent BH3-only initiator.

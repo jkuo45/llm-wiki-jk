@@ -3,14 +3,13 @@ title: Rheumatoid Arthritis
 description: Rheumatoid arthritis (RA) is a long-term, progressive, and disabling
   autoimmune disease that causes inflammation, swelling, and pain in and around the
   joints and other body organs. The accumulation...
-type: entity
 created: 2026-05-09
 updated: 2026-07-06
 tags:
-  - oxidative stress
+  - oxidative-stress
   - inflammation
   - autoimmune
-  - Medical Condition
+  - medical-condition
 aliases: [RA]
 ---
 # Rheumatoid Arthritis
@@ -29,6 +28,25 @@ Conventional disease-modifying antirheumatic drugs ([[DMARD]]s) target oxidative
 
 
 #
+
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Dietary Advanced Glycation End Products and Aging|Dietary Advanced Glycation End Products and Aging]]
+    - Microvascular and macrovascular damage, seen in diabetes, is attributed to the accumulation of AGEs in tissues, but it is also associated with Atherosclerosis, Alzheimer's Disease, End Stage Renal Disease, Rheumatoid Arthritis, Sarcopenia, cataracts, and ot...
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - This is highlighted by the growing use of mTOR inhibitors \Rapamycin and its analogues (Rapalog)\] in pathological settings, including the treatment of solid tumors, organ transplantation, coronary restenosis and Rheumatoid Arthritis.
+
+  - [[_document_ - Oxidative Stress Harms and Benefits for Human Health|Oxidative Stress Harms and Benefits for Human Health]]
+    - Rheumatoid Arthritis and Oxidative Stress Rheumatoid Arthritis is a chronic inflammatory disorder affecting the joints and surrounding tissues, characterized by macrophages and activated T cell infiltration \[, , \].
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Furthermore, SIRT1 promotes the migration of fibroblast-like synoviocytes in Rheumatoid Arthritis, which providing new insight into SIRT1 during RA progression. Mechanistically, SIRT1 is positively regulated by circ0088036 via sponging miR-140−3p.
+
 
 ## Connections
 - [[Advanced Glycation End Products]] — interacts with Rheumatoid Arthritis
@@ -49,4 +67,4 @@ Conventional disease-modifying antirheumatic drugs ([[DMARD]]s) target oxidative
 ## Linking Summary
 - New links added: [[Advanced Glycation End Products]], [[Inflammation]], [[Synovial Fluid]], [[Oxidative Stress]], [[TNF-alpha]], [[Hypoxia]], [[Ischemia-reperfusion Injury]], [[Xanthine Oxidase]], [[Superoxide Radicals]], [[Hydrogen Peroxide]], [[NADPH Oxidase]], [[Neutrophils]], [[Macrophage]], [[Respiratory Burst]], [[p38 MAPK]], [[Myeloperoxidase]], [[Hypochlorous Acid]], [[NF-kappa B]], [[Malondialdehyde]], [[Glutathione]]
 - Suggested new entity notes to create: [[Autoimmune disorder]], [[Joint destruction]], [[Synovial fibroblasts]], [[HIF-1α]], [[NOX4]], [[RANKL]], [[Protein arginine deiminase]], [[Citrullination]], [[Anti-citrullinated protein antibodies]], [[Methotrexate]], [[Auranofin]], [[Thioredoxin reductase]], [[Infliximab]], [[Adalimumab]]
-- Strong connections to strengthen: [[Inflammation]] ↔ [[Rheumatoid Arthritis]], [[Rheumatoid Arthritis]] ↔ [[Inflammation]], [[Rheumatoid Arthritis]] ↔ [[NADPH Oxidase]], [[Rheumatoid Arthritis]] ↔ [[Hypoxia]], [[Rheumatoid Arthritis]] ↔ [[Citrullination]]
+  - Strong connections to strengthen: [[Inflammation]] ↔ Rheumatoid Arthritis, Rheumatoid Arthritis ↔ [[Inflammation]], Rheumatoid Arthritis ↔ NADPH Oxidase, Rheumatoid Arthritis ↔ [[Hypoxia]], Rheumatoid Arthritis ↔ Citrullination

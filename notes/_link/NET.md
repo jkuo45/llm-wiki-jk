@@ -1,13 +1,12 @@
 ---
 title: NET
-description: 'Overview: NET is a membrane transport protein that facilitates the
+description: 'Overview: NET is a membrane transport protein that facilitates the'
   movement of molecules across biological membranes. It mediates substrate translocation
-  through conformational changes driven b...'
-type: entity
+  through conformational changes driven b...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Transporter
+  - transporter
 aliases: [Norepinephrine Transporter]
 
 ---
@@ -24,10 +23,20 @@ aliases: [Norepinephrine Transporter]
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum|Genetic variation in COMT activity impacts learning and dopamine release capacity in the striatum]]
+    - In contrast, Dopamine Transporter are both less abundant and located farther from synaptic sites in Prefrontal Cortex (Prefrontal Cortex) neurons, where uptake by the Norepinephrine transporter (NET) and subsequent metabolism by COMT predominates.
+
+
 ## Connections
 - [[NET]] — related entity
 
 ## Linking Summary
 - New links added: [[NET]]
-- Strong connections to strengthen: [[NET]] ↔ [[NET]]
+  - Strong connections to strengthen: [[NET]] ↔ [[NET]]
 

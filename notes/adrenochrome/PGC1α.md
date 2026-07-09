@@ -3,11 +3,10 @@ title: PGC1α
 description: PGC1α (Peroxisome proliferator-activated receptor gamma coactivator 1-alpha)
   is a transcriptional coactivator that acts as a master regulator of mitochondrial
   biogenesis and energy metabolism.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: []
 ---
 # PGC1α

@@ -1,13 +1,12 @@
 ---
 title: Innate Immune System
-description: 'Definition: Innate Immune System is a fundamental biological process
+description: 'Definition: Innate Immune System is a fundamental biological process'
   that maintains cellular and organismal homeostasis. It involves coordinated molecular
-  events regulated by signaling pathways...'
-type: entity
+  events regulated by signaling pathways...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Biological Process
+  - biological-process
 aliases: [Innate Immunity]
 
 ---
@@ -24,10 +23,20 @@ aliases: [Innate Immunity]
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
+    - Mounting evidence indicates that Mitophagy, which encompasses selective degradation of damaged or excessive mitochondria, is an especially crucial regulator of Innate Immune System function (Gkikas et al., 2018).
+
+
 ## Connections
 - [[Innate Immune System]] — related entity
 
 ## Linking Summary
 - New links added: [[Innate Immune System]]
-- Strong connections to strengthen: [[Innate Immune System]] ↔ [[Innate Immune System]]
+  - Strong connections to strengthen: Innate Immune System ↔ Innate Immune System
 

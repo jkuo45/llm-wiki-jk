@@ -1,14 +1,13 @@
 ---
 title: NADPH
-description: 'Biochemical properties: NADPH is an endogenous metabolite involved
+description: 'Biochemical properties: NADPH is an endogenous metabolite involved'
   in cellular energy metabolism, redox reactions, or biosynthetic pathways. Its cellular
-  concentration reflects metabolic flux a...'
-type: entity
+  concentration reflects metabolic flux a...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Metabolite
-  - NAD+
+  - biological-molecule
+  - nad+
 aliases: [Nicotinamide Adenine Dinucleotide Phosphate]
 
 ---
@@ -25,10 +24,20 @@ aliases: [Nicotinamide Adenine Dinucleotide Phosphate]
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - In addition, SIRT2 deacetylates the K100 residue of glycolytic enzyme phosphoglycerate mutase and facilitates its activation, resulting in enhanced NADPH production and accelerated tumor growth in non-small-cell lung cancer cells.
+
+
 ## Connections
 - [[NADPH]] — related entity
 
 ## Linking Summary
 - New links added: [[NADPH]]
-- Strong connections to strengthen: [[NADPH]] ↔ [[NADPH]]
+  - Strong connections to strengthen: [[NADPH]] ↔ [[NADPH]]
 

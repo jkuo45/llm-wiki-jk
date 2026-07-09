@@ -1,13 +1,12 @@
 ---
 title: Leukotrienes
-description: 'Biochemical properties: Leukotrienes is an endogenous metabolite
+description: 'Biochemical properties: Leukotrienes is an endogenous metabolite'
   involved in cellular energy metabolism, redox reactions, or biosynthetic pathways.
-  Its cellular concentration reflects metabolic...'
-type: entity
+  Its cellular concentration reflects metabolic...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Metabolite
+  - biological-molecule
 aliases: []
 ---
 
@@ -28,5 +27,5 @@ aliases: []
 
 ## Linking Summary
 - New links added: [[Leukotrienes]]
-- Strong connections to strengthen: [[Leukotrienes]] ↔ [[Leukotrienes]]
+  - Strong connections to strengthen: [[Leukotrienes]] ↔ [[Leukotrienes]]
 

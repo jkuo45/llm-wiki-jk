@@ -1,20 +1,14 @@
 ---
 title: Lox-1
-description: 'Lox-1 (Lectin-like Oxidized LDL Receptor 1, encoded by OLR1) is
+description: Lox-1 (Lectin-like Oxidized LDL Receptor 1, encoded by OLR1) is
   a scavenger receptor expressed on endothelial cells, smooth muscle cells, and macrophages.
-  It binds, internalizes, and mediates...'
-type: entity
+  It binds, internalizes, and mediates...
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Receptor
+  - receptor
 aliases: [OLR1, Lectin-like Oxidized LDL Receptor 1, Oxidized LDL receptor 1, LOX1, CLEC8A]
-
-sources:
-- Li 2015
-- Zhang 2017
-target: SIRT1
-
+source: Li 2015, Zhang 2017
 ---
 
 
@@ -38,6 +32,14 @@ Beyond lipid scavenging, Lox-1 mediates endothelial dysfunction, reduces nitric 
 ## Clinical Relevance
 
 Lox-1 expression is upregulated in human atherosclerotic lesions, acute coronary syndromes, and in the setting of [[Metabolic Syndrome|metabolic syndrome]] and [[Diabetes Mellitus|diabetes]]. Serum soluble Lox-1 (sLOX-1) is a biomarker for plaque instability. SIRT1 activators (e.g., [[Resveratrol]], [[SRT1720]]) that suppress Lox-1 have atheroprotective effects in preclinical models, suggesting a vascular-protective facet of sirtuin activation.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - SIRT1 activation reduces Lox-1-mediated foam cell formation via suppression of the NFKB signaling pathway. In contrast, suppression of the SIRT1 signaling pathway by mTOR signaling promotes foam cell formation and inhibits foam cell egress.
+
 
 ## Connections
 

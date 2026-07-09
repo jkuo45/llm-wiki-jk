@@ -1,11 +1,10 @@
 ---
 title: USP9X
 description: Ubiquitin specific peptidase 9 X-linked (USP9X) is a deubiquitinating enzyme that stabilizes Mcl-1 and other substrates by removing polyubiquitin chains.
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - Enzyme
+  - enzyme
 aliases: []
 ---
 
@@ -45,6 +44,17 @@ USP9X is overexpressed in a wide spectrum of malignancies, including acute myelo
 The dependence of many cancers on USP9X-mediated [[Mcl-1]] stabilization creates a therapeutic vulnerability. Pharmacological inhibition of USP9X – using agents such as [[WP1130]] (degrasyn) or EOAI3402143 – synergizes with [[BH3 mimetics]] (e.g., [[Mcl-1]]-selective inhibitors) to restore apoptosis in otherwise resistant cells. USP9X inhibition also sensitizes [[Cancer Stem Cells]] to therapy by reducing stemness-associated survival signaling.
 
 Given its role in stabilizing multiple oncoproteins and its broad overexpression across cancer types, USP9X is an attractive therapeutic target. Ongoing efforts focus on developing selective USP9X inhibitors for use in combination with [[BH3 mimetics]] and other targeted agents.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - GSK3, JNK, p38 MAPK, CKII | Ser155, Ser159, Ser163 | Ubiquitination (TRIM17, SCFβ-TrCP, SCFFBW7); Inhibits USP9X | Breast Cancer, ovarian cancer, non-small-cell lung cancer, leukemia, Lym
+
+  - [[_document_ - Evading apoptosis in cancer|Evading apoptosis in cancer]]
+    - USP9X, reverses Ubiquitination of Mcl-1 \[\]. As opposed to SCF Complex Beta-TrCP and SCF Complex FBW7, the binding of USP9X
+
 
 ## Connections
 

@@ -3,11 +3,10 @@ title: Calcium/Calmodulin-Dependent Protein Kinase Kinase 2 (CaMKKβ/CAMKK2)
 description: Calcium/Calmodulin-Dependent Protein Kinase Kinase 2 (CaMKKβ/CAMKK2)
   is a serine/threonine kinase that phosphorylates and activates downstream kinases
   including AMPK, CaMKI, and CaMKIV. It is exqui...
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases:
   - CaMKKβ
   - CAMKK2
@@ -33,6 +32,14 @@ CaMKKβ is the critical link in the resveratrol signaling cascade: [[Resveratrol
 ## Physiological Functions
 
 CaMKKβ is highly expressed in the [[Brain]], where it regulates [[Appetite]], [[Energy Expenditure]], and [[Neuronal Plasticity]]. In peripheral tissues, it mediates Ca2+-dependent metabolic responses to [[Exercise]] and [[Hormesis]]. Dysregulation of CaMKKβ is implicated in [[Obesity]], [[Type 2 Diabetes]], and [[Cancer]].
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins (resveratrol), gemini|sirtuins (resveratrol), gemini]]
+    - AMPK Activation: The surge in cytoplasmic Ca2+ activates CaMKKβ (calmodulin-dependent protein kinase kinase beta), which phosphorylates and activates AMPK (AMP-activated protein kinase). 5.
+
 
 ## Connections
 

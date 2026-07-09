@@ -1,11 +1,10 @@
 ---
 title: TDR
 description: The Special Programme for Research and Training in Tropical Diseases (TDR) is a WHO-coordinated global partnership that fosters research to control/eliminate neglected tropical diseases including onchocerciasis, lymphatic filariasis, and others relevant to cancer-burdened populations.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Organization
+  - organization
 aliases: []
 ---
 
@@ -24,6 +23,14 @@ Although TDR does not focus on malignancy per se, NTD-endemic regions overlap he
 ## Notable Initiatives
 
 TDR has supported mapping of vector distributions (e.g., [[Simulium]] for onchocerciasis, mosquito vectors for lymphatic filariasis), pharmacovigilance for antiparasitic drugs, and strategies for comorbidity management in co-infected populations. It collaborates with the WHO NTD Roadmap and the Global Programme to Eliminate Lymphatic Filariasis.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, ‘Wonder drug’ from Japan the human use perspective|Ivermectin, ‘Wonder drug’ from Japan the human use perspective]]
+    - Credit line: World Health Organization/TDR/Andy Crump. In the early-1970s, the disease was endemic in 34 countries: 27 in Africa; 6 in the Americas; and 1 in the Arabian Peninsula.
+
 
 ## Connections
 

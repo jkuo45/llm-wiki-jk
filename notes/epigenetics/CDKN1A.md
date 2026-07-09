@@ -1,14 +1,13 @@
 ---
 title: CDKN1A
-description: 'CDKN1A (p21) is a cyclin-dependent kinase inhibitor and key downstream effector of p53, mediating cell cycle arrest and senescence.'
-type: entity
+description: CDKN1A (p21) is a cyclin-dependent kinase inhibitor and key downstream effector of p53, mediating cell cycle arrest and senescence.
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - cell cycle
-  - tumor suppressor
+  - cell-cycle
+  - tumor-suppressor
   - epigenetics
-  - Gene
+  - gene
 aliases: [p21, WAF1, CIP1]
 ---
 
@@ -31,6 +30,20 @@ p21 is central to genome stability and tumor suppression. Because it is a major 
 ## Clinical Relevance
 
 Loss or dysregulation of p21 is frequent in human cancers, promoting genomic instability and uncontrolled proliferation. The p21 pathway is a target for cancer therapeutics (inducing senescence in tumors) and for [[Geroscience]] (modulating senescence in aging tissues). p21, with [[CDKN1B|p27]] and [[CDKN1C|p57]], forms the Cip/Kip CKI axis. The DNA-damage arm additionally intersects with agents such as [[Busulfan]] and [[Aphidicolin]] that trigger p53/p21-dependent arrest.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
+    - Thus, a plethora of blood senescence markers can simultaneously be monitored when utilizing advanced flow cytometry, including Senescence-Associated Beta-Galactosidase (SA β-gal), CDKN1A (p21) and p53 (p53), as well as markers of mitochondrial and lysosomal...
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - An important mechanism by which cyclin-dependent kinases are regulated is through the expression of CDK Inhibitor, including p21 (CDKN1A), p27 (CDKN1B), and p57 (CDKN1C) (Figure 2).
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - This hypothesis is supported by the fact that, in contrast to DNA Damage‐induced Senescence, which depends on CDKN1A CDK Inhibitor, epigenetically induced senescence is mostly dependent on p16INK4A.
+
 
 ## Connections
 

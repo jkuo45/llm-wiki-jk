@@ -1,13 +1,12 @@
 ---
 title: HMGB1
-description: 'Overview: HMGB1 is a cellular protein with structural, signaling,
+description: 'Overview: HMGB1 is a cellular protein with structural, signaling,'
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
-  and signaling networks that govern cel...'
-type: entity
+  and signaling networks that govern cel...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [High Mobility Group Box 1]
 
 ---
@@ -24,10 +23,20 @@ aliases: [High Mobility Group Box 1]
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug|Ivermectin, a potential anticancer drug derived from an antiparasitic drug]]
+    - L-carnitine; CSCs, Cancer Stem Cells; DAMP, Damage-associated molecular pattern; EGFR, Epidermal growth factor receptor; EBV, Epstein-Barr virus; EMT, Epithelial mesenchymal-transition; GABA, Gamma-aminobutyric acid; GSDMD, Gasdermin D; HBV, Hepatitis B vir...
+
+
 ## Connections
 - [[HMGB1]] — related entity
 
 ## Linking Summary
 - New links added: [[HMGB1]]
-- Strong connections to strengthen: [[HMGB1]] ↔ [[HMGB1]]
+  - Strong connections to strengthen: [[HMGB1]] ↔ [[HMGB1]]
 

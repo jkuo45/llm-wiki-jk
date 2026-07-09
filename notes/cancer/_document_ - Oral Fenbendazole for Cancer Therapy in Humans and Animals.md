@@ -17,7 +17,6 @@ description: Fenbendazole is a Benzimidazole anthelmintic agent commonly used to
   experimental studies. Additionally, we evaluated the toxicity profile of fenbendazole
   and discussed possibilities for improving the bioavailability of the drug, enhancing
   its efficacy, and reducing potential toxicity.
-type: document
 created: 2026-05-19
 source: https://ar.iiarjournals.org/content/44/9/3725
 author:

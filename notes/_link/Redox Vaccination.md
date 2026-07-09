@@ -1,14 +1,13 @@
 ---
 title: Redox Vaccination
-description: 'Redox Vaccination is the hypothesis that sub-toxic exposure to redox-cycling
+description: Redox Vaccination is the hypothesis that sub-toxic exposure to redox-cycling
   compounds (such as Carbazochrome, a stabilized Adrenochrome derivative) upregulates
-  SIRT3 expression through a retro...'
-type: entity
+  SIRT3 expression through a retro...
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - Scientific Concept
-  - oxidative stress
+  - scientific-concept
+  - oxidative-stress
 aliases: [Redox preconditioning, Mitohormetic vaccination, ROS-adaptive immunity]
 
 ---
@@ -125,4 +124,4 @@ Redox vaccination shares mechanistic overlap with established preconditioning pa
 ## Linking Summary
 - New links added: [[Mitohormesis]], [[SIRT3]]/[[SIRT4]] ratio, [[MnSOD]], [[SIRT3]], [[SIRT4]], [[Carbazochrome]], [[Adrenochrome]], [[AMPK]], [[PGC1-α]], [[FOXO3a]], [[NRF2]], [[Hormetic Window]], [[Mitohormetic Redox-Relay]], [[Redox Cycling]], [[Ischemic Preconditioning]], [[Mithridatism]], [[Honokiol]], [[Aquaporins]], [[Superoxide anion]], [[Cellular Senescence]], [[DNA Damage]], [[Neurodegeneration]], [[Antidotum Mithridaticum]], [[Mithridates VI]], [[NAC]]
 - Suggested new entity notes to create: [[Redox Memory]], [[Pharmacological Preconditioning]]
-- Strong connections to strengthen: [[Redox Vaccination]] ↔ [[SIRT3]]/[[SIRT4]] ratio, [[Redox Vaccination]] ↔ [[Mitohormetic Redox-Relay]]
+  - Strong connections to strengthen: Redox Vaccination ↔ [[SIRT3]]/[[SIRT4]] ratio, Redox Vaccination ↔ Mitohormetic Redox-Relay

@@ -1,13 +1,12 @@
 ---
 title: DNA Damage
-description: 'DNA damage refers to any chemical or physical alteration to the
+description: DNA damage refers to any chemical or physical alteration to the
   structure of DNA that deviates from the canonical Watson-Crick base pairing. Unlike
-  DNA Mutation, which are heritable sequence ch...'
-type: entity
+  DNA Mutation, which are heritable sequence ch...
 created: 2026-07-04
 updated: 2026-07-06
 tags:
-  - Biological Process
+  - biological-process
 aliases: [DNA lesion, DNA injury, genomic damage]
 
 ---
@@ -88,6 +87,31 @@ Rare genetic disorders from DDR deficiencies: [[Xeroderma Pigmentosum]] (skin ca
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]
+    - For instance, the activation of p53 in response to DNA Damage rapidly activates AMPK through an unknown process, which in turn phosphorylates and thereby activates TSC2 (Feng et al., 2005).
+
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - Contact-dependent interactions, DNA Damage, and certain soluble factors promote quiescence, whereas growth factor signaling and Extracellular Matrix interactions stimulate proliferation. Extracellular signals in vitro.
+
+  - [[_document_ - Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network|Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network]]
+    - Experiments confirmed that upon viral transduction, the immediate response is Innate Immunity, which induces Reactive Oxygen Species, oxidative DNA Damage, p53 activation, Senescence, and Apoptosis, ultimately leading to a reduction in the Cellular Reprogra...
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - Keywords: Senescence, Cell Stress, DNA Damage, DNA Replication Stress, Epigenetic Modifiers, Aging --- Senescence is a stable arrest of the Cell Cycle and is characterized by complex phenotypic changes.
+
+  - [[_document_ - sirtuins (overview, CD38 KO risks, cancer therapies)|sirtuins (overview, CD38 KO risks, cancer therapies)]]
+    - Key functions: Regulates TAFI68 (via RNA Pol I), ribosome biogenesis, DNA Damage repair, chromatin organization. Involved in stress response and Metabolism.
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - SIRT1-dependent deacetylation of p53 inhibits its transactivation activity and suppresses Apoptosis in response to Oxidative Stress and DNA Damage . Although the SIRT1/p53 pathway may promote a beneficial effect in different diseases, Chen et al.
+
+
 ## Connections
 - [[DNA Repair]] — collective pathways that remove and correct DNA damage
 - [[DNA Damage Response]] — signaling network that detects damage and coordinates repair
@@ -109,4 +133,4 @@ Rare genetic disorders from DDR deficiencies: [[Xeroderma Pigmentosum]] (skin ca
 ## Linking Summary
 - New links added: [[DNA]], [[DNA Mutation]], [[Reactive Oxygen Species]], [[Mitochondria]], [[Oxidative Phosphorylation]], [[Hydrolysis]], [[Cytosine]], [[Uracil]], [[Mismatch Repair]], [[Lipid Peroxidation]], [[Malondialdehyde]], [[4-Hydroxynonenal]], [[Alkylation]], [[S-adenosylmethionine]], [[Ultraviolet Radiation]], [[Ionizing Radiation]], [[Cisplatin]], [[Doxorubicin]], [[Etoposide]], [[Cyclophosphamide]], [[Temozolomide]], [[Arsenic]], [[Cadmium]], [[ATM]], [[ATR]], [[DNA-PKcs]], [[CHK1]], [[CHK2]], [[p53]], [[BRCA1]], [[BRCA2]], [[RAD51]], [[H2AX]], [[γ-H2AX]], [[Base Excision Repair]], [[Nucleotide Excision Repair]], [[Non-Homologous End Joining]], [[Homologous Recombination]], [[OGG1]], [[APE1]], [[XRCC1]], [[Ku70]], [[Ku80]], [[MGMT]], [[PARP1]], [[PARP inhibitors]], [[Olaparib]], [[Niraparib]], [[Werner Syndrome]], [[Bloom Syndrome]], [[Ataxia Telangiectasia]], [[Cockayne Syndrome]], [[Xeroderma Pigmentosum]], [[Fanconi Anemia]], [[Lynch Syndrome]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Amyotrophic Lateral Sclerosis]], [[Telomere]], [[Cellular Senescence]], [[Apoptosis]], [[Stem Cell Exhaustion]], [[Cancer]], [[Breast Cancer]], [[ovarian cancer]], [[Colorectal Cancer]], [[Skin Cancer]], [[Oxidative Stress]], [[Aging]]
 - Suggested new entity notes to create: [[Direct Reversal repair]], [[AlkB homolog]], [[MRE11-RAD50-NBS1 complex]], [[Replication stress]], [[Clustered damage]], [[Synthetic lethality]], [[Genomic Instability]], [[Translesion synthesis]], [[Fanconi anemia pathway]]
-- Strong connections to strengthen: [[DNA Damage]] ↔ [[DNA Repair]], [[DNA Damage]] ↔ [[Aging]], [[DNA Damage]] ↔ [[Cancer]], [[DNA Damage]] ↔ [[Cellular Senescence]], [[DNA Damage]] ↔ [[Oxidative Stress]]
+  - Strong connections to strengthen: [[DNA Damage]] ↔ DNA Repair, [[DNA Damage]] ↔ [[Aging]], [[DNA Damage]] ↔ Cancer, [[DNA Damage]] ↔ Cellular Senescence, [[DNA Damage]] ↔ Oxidative Stress

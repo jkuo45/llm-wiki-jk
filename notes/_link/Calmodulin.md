@@ -1,13 +1,12 @@
 ---
 title: Calmodulin
-description: 'Overview: Calmodulin is a cellular protein with structural, signaling,
+description: 'Overview: Calmodulin is a cellular protein with structural, signaling,'
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
-  and signaling networks that gover...'
-type: entity
+  and signaling networks that gover...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [CaM]
 
 ---
@@ -29,5 +28,5 @@ aliases: [CaM]
 
 ## Linking Summary
 - New links added: [[Calmodulin]]
-- Strong connections to strengthen: [[Calmodulin]] ↔ [[Calmodulin]]
+  - Strong connections to strengthen: [[Calmodulin]] ↔ [[Calmodulin]]
 

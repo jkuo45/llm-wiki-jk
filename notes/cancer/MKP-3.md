@@ -1,11 +1,10 @@
 ---
 title: MKP-3
 description: MKP-3 (DUSP6) is a MAP kinase phosphatase that dephosphorylates and stabilizes Bcl-2, linking MAPK signaling to apoptotic resistance.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Enzyme
+  - enzyme
 aliases: []
 ---
 
@@ -28,6 +27,14 @@ Physiologically, MKP-3 tempers mitogenic signaling and protects healthy cells fr
 ## Clinical and Research Relevance
 
 MKP-3/Bcl-2 crosstalk is a potential therapeutic node. Strategies that disrupt the MKP-3–Bcl-2 interaction, or that combine ERK-pathway modulation with [[Bcl-2]] inhibitors, may restore apoptotic competence. MKP-3 expression is also explored as a biomarker of MAPK pathway activity and treatment response.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - Bcl-2 | | ERK1_2 (MKP-3) | Thr56, Thr74, Ser87 | Prevents degradation | | | Bcl-2 |
+
 
 ## Connections
 

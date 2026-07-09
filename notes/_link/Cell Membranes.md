@@ -3,11 +3,10 @@ title: Cell Membranes
 description: Cell membranes (biological membranes) are phospholipid bilayers that
   define the boundaries of cells and organelles. They are composed primarily of Phospholipids,
   Cholesterol, and Membrane Proteins,...
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - Receptor
+  - receptor
 aliases: []
 ---
 # Cell Membranes
@@ -31,4 +30,4 @@ Cell membranes (biological membranes) are phospholipid bilayers that define the 
 ## Linking Summary
 - New links added: [[Phospholipids]], [[Cholesterol]], [[Membrane Proteins]], [[Glycolipids]], [[Glycoproteins]], [[Lipid Rafts]], [[Sphingolipids]], [[Ion Channels]], [[Transporters]], [[Ion Transport]], [[Endocytosis]], [[Exocytosis]], [[Cell Adhesion]], [[Cell Signaling]], [[Lipid Peroxidation]], [[Oxidative Stress]], [[Membrane Potential]], [[Mitochondria]], [[Autophagy]]
 - Suggested new entity notes to create: [[Fluid Mosaic Model]], [[Membrane Fluidity]]
-- Strong connections to strengthen: [[Cell Membranes]] ↔ [[Phospholipids]], [[Cell Membranes]] ↔ [[Lipid Peroxidation]]
+  - Strong connections to strengthen: Cell Membranes ↔ Phospholipids, Cell Membranes ↔ Lipid Peroxidation

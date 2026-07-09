@@ -1,13 +1,12 @@
 ---
 title: VHL
-description: 'Overview: VHL is a cellular protein with structural, signaling,
+description: 'Overview: VHL is a cellular protein with structural, signaling,'
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
-  and signaling networks that govern cell ...'
-type: entity
+  and signaling networks that govern cell ...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [Von Hippel-Lindau Tumor Suppressor]
 
 ---
@@ -29,5 +28,5 @@ aliases: [Von Hippel-Lindau Tumor Suppressor]
 
 ## Linking Summary
 - New links added: [[VHL]]
-- Strong connections to strengthen: [[VHL]] ↔ [[VHL]]
+  - Strong connections to strengthen: [[VHL]] ↔ [[VHL]]
 

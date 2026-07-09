@@ -1,12 +1,11 @@
 ---
 title: CYP2C9
-description: 'Catalytic function: CYP2C9 is an enzyme that catalyzes biochemical
-  reactions essential for cellular metabolism and homeostasis.'
-type: entity
+description: 'Catalytic function: CYP2C9 is an enzyme that catalyzes biochemical'
+  reactions essential for cellular metabolism and homeostasis.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Enzyme
+  - enzyme
 aliases: []
 ---
 
@@ -27,5 +26,5 @@ aliases: []
 
 ## Linking Summary
 - New links added: [[CYP2C9]]
-- Strong connections to strengthen: [[CYP2C9]] ↔ [[CYP2C9]]
+  - Strong connections to strengthen: [[CYP2C9]] ↔ [[CYP2C9]]
 

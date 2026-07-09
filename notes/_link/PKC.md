@@ -1,13 +1,12 @@
 ---
 title: PKC
-description: 'Protein kinase C (PKC) is a family of serine/threonine kinases classified
+description: Protein kinase C (PKC) is a family of serine/threonine kinases classified
   into conventional (α, βI, βII, γ), novel (δ, ε, η, θ), and atypical (ζ, ι/λ) isoforms.
-  PKC signaling regulates Autophag...'
-type: entity
+  PKC signaling regulates Autophag...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Enzyme
+  - enzyme
 aliases: [protein kinase C, PKC family]
 
 ---
@@ -26,6 +25,19 @@ PKCβ inhibitors ([[Enzastaurin]], [[Ruboxistaurin]]) are being investigated for
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Caspase|Caspase]]
+    - TRAIL resistance; Esophageal Cancer, Colon Cancer, glioblastoma | | Caspase-3 | | PKCδ | ND | Enhancement of activity | | | Caspase-3 |
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - In addition, SIRT1 overexpression can ameliorate Cardiac Hypertrophy induced by phenylephrine by inhibiting PKC‐ζ activation. However, some studies have shown the opposite effect.
+
+
 ## Connections
 - [[Autophagy]] — cellular self-degradation pathway; clears damaged proteins and organelles
 - [[PRKCB]] — interacts with PKC
@@ -37,4 +49,4 @@ PKCβ inhibitors ([[Enzastaurin]], [[Ruboxistaurin]]) are being investigated for
 - [[calcineurin]] — interacts with PKC
 ## Linking Summary
 - New links added: [[TFEB]], [[Autophagy]], [[GSK3β]], [[calcineurin]], [[mTORC1]], [[PMA]], [[B Cell]], [[T Cell]], [[Bcl-2]], [[Phosphorylation]], [[PKCδ]], [[PKCζ]], [[PKCι]]
-- Strong connections to strengthen: [[PKC]] ↔ [[Bcl-2]]
+  - Strong connections to strengthen: [[PKC]] ↔ [[Bcl-2]]

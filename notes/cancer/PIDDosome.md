@@ -1,11 +1,10 @@
 ---
 title: PIDDosome
 description: The PIDDosome is a PIDD-RAIDD multiprotein complex that activates Caspase-2 in response to genotoxic stress and mitotic catastrophe, linking DNA damage to apoptosis.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Protein
+  - protein
 aliases: []
 ---
 
@@ -28,6 +27,14 @@ Physiologically, the PIDDosome enforces genomic integrity by eliminating cells w
 ## Clinical and Research Relevance
 
 The PIDDosome–Caspase-2 axis is studied as a determinant of therapeutic response and as a target for restoring apoptotic competence in resistant tumors. Biomarkers of PIDDosome integrity may help stratify patients for genotoxic regimens.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Evading apoptosis in cancer|Evading apoptosis in cancer]]
+    - Of note, Caspase-2 is activated via formation of the PIDDosome, a complex which consists of the adaptor proteins PIDD (p53-induced death domain protein) and RAIDD (RIP-associated protein with a death domain).
+
 
 ## Connections
 

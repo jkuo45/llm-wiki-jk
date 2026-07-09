@@ -1,11 +1,10 @@
 ---
 title: Green tea
-description: 'Green tea (Camellia sinensis) is rich in catechins such as EGCG that are COMT substrates; at dietary levels it does not significantly impair COMT, unlike pharmacological catechols.'
-type: entity
+description: Green tea (Camellia sinensis) is rich in catechins such as EGCG that are COMT substrates; at dietary levels it does not significantly impair COMT, unlike pharmacological catechols.
 created: 2026-05-25
 updated: 2026-07-07
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: [Camellia sinensis, matcha]
 
 ---
@@ -29,6 +28,14 @@ For individuals with slow [[COMT]] variants (e.g., [[Val158Met]] Met/Met), pharm
 ## Clinical & Research Relevance
 
 Green tea extract is studied for weight management, neuroprotection, and [[Aging]]. Its catechins interact with drug-metabolizing enzymes (CYP1A2) and may modestly affect caffeine clearance. The COMT–catechin relationship remains a useful example of how genotype can modify dietary bioactive exposure.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - COMT How to Optimize Your Supplements for Your COMT Genotype|COMT How to Optimize Your Supplements for Your COMT Genotype]]
+    - For example, if you are looking to enhance the beneficial effects of EGCG, research shows that Quercetin or Fisetin supplements along with EGCG (Green tea) increased the bioactive form of EGCG in cells.
+
 
 ## Connections
 

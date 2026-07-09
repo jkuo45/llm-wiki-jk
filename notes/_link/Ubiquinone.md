@@ -1,13 +1,12 @@
 ---
 title: Ubiquinone
-description: 'Biochemical properties: Ubiquinone is an endogenous metabolite involved
+description: 'Biochemical properties: Ubiquinone is an endogenous metabolite involved'
   in cellular energy metabolism, redox reactions, or biosynthetic pathways. Its cellular
-  concentration reflects metabolic f...'
-type: entity
+  concentration reflects metabolic f...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Metabolite
+  - biological-molecule
 aliases: [Coenzyme Q10, CoQ10]
 
 ---
@@ -29,5 +28,5 @@ aliases: [Coenzyme Q10, CoQ10]
 
 ## Linking Summary
 - New links added: [[Ubiquinone]]
-- Strong connections to strengthen: [[Ubiquinone]] ↔ [[Ubiquinone]]
+  - Strong connections to strengthen: [[Ubiquinone]] ↔ [[Ubiquinone]]
 

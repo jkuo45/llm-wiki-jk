@@ -3,14 +3,13 @@ title: Immune System
 description: The immune system is a complex network of cells, tissues, and organs
   that work together to defend the body against harmful pathogens and maintain overall
   health.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
   - immunology
   - inflammation
   - aging
-  - Biological Process
+  - biological-process
 url:
 source:
 aliases:
@@ -75,6 +74,22 @@ Immune dysfunction underlies a vast spectrum of human disease. **Autoimmune dise
 
 **Immunotherapy in aging** is an emerging frontier. Senolytics (e.g., [[Dasatinib]] + [[Quercetin]], [[Navitoclax]]) selectively eliminate senescent cells, reducing SASP-driven [[Inflammation|inflammation]]. [[Rapamycin]] (mTORC1 inhibition) enhances immune function and vaccine responses in the elderly. [[Metformin]] may attenuate inflammaging through AMPK activation and NF-κB suppression. These interventions represent promising strategies for extending healthspan by targeting the immune-aging axis.
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
+    - KEY WORDS: Aging, Autophagy, Autophagy Inducer, Immune System --- Summary: Aging of the immune system drives ineffective immune responses in older people.
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - IMMUNE RESPONSE Numerous studies have demonstrated essential roles for the autophagy-lysosome system in Macrophage and other cells of the Immune System in response to pathogen exposure (Puleston & Simon 2014).
+
+  - [[_document_ - The Gut Microbiome, Aging, and Longevity A Systematic Review|The Gut Microbiome, Aging, and Longevity A Systematic Review]]
+    - The microbiome is a principal factor in determining the Immune System response and its dysregulation may sustain pro-inflammatory states \[\].
+
+
 ## Connections
 
 - [[Immunosenescence]] — age-related decline in immune function
@@ -116,4 +131,4 @@ Immune dysfunction underlies a vast spectrum of human disease. **Autoimmune dise
 
 - New links added: [[Inflammaging]], [[Immunosenescence]], [[NFKB]], [[TNFα]], [[NLRP3]], [[Toll-like Receptor]], [[Pro-inflammatory Cytokines]], [[T Lymphocyte]], [[Neutrophils]], [[Macrophage]], [[Reactive Oxygen Species]], [[SASP]], [[Rapamycin]], [[Metformin]], [[Senolytics]], [[HIV]], [[SARS-CoV-2]], [[Rheumatoid Arthritis]], [[Breast Cancer]], [[Melanoma]], [[Glioma]], [[Multiple Myeloma]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[DNA Damage]], [[Genomic Instability]], [[Autophagy]], [[Apoptosis]], [[Telomere Attrition]], [[p16]], [[Bone Marrow]], [[Hematopoiesis]], [[Aging]]
 - Suggested new entity notes to create: [[Pathogens]], [[Lymphocytes]], [[Dendritic Cells]], [[Natural Killer Cells]], [[Antibodies]], [[Complement System]]
-- Strong connections to strengthen: [[Immune System]] ↔ [[Gut Microbiome]], [[Immune System]] ↔ [[Inflammation]], [[Immune System]] ↔ [[Aging]]
+  - Strong connections to strengthen: Immune System ↔ Gut Microbiome, Immune System ↔ [[Inflammation]], Immune System ↔ [[Aging]]

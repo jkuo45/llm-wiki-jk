@@ -2,11 +2,10 @@
 title: Pompe Disease
 description: A genetic disorder caused by the buildup of glycogen in the body's cells,
   also known as Glycogen Storage Disease Type II.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: []
 ---
 # Pompe Disease
@@ -39,6 +38,16 @@ Diagnosis of Pompe disease relies on several complementary approaches. **Enzyme 
 
 **Substrate Reduction Therapy** aims to reduce glycogen synthesis and is under active investigation. **Gene therapy** using adeno-associated virus (AAV) vectors to deliver functional [[GAA gene]] represents a promising future approach, with several clinical trials underway. **Pharmacological chaperones** such as [[Miglustat]] are being explored as potential ERT adjuncts, stabilizing misfolded GAA variants to improve lysosomal trafficking. Combination strategies, including ERT with chaperone co-administration, are under investigation to overcome the limitations of monotherapy.
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - expression of TFEB stimulated lysosomal exocytosis and promoted cellular clearance in several Lysosomal Storage Diseases cell models: Mucopolysaccharidosis-IIIA (Sanfilippo syndrome); Multiple Sulfatase Deficiency (MSD); Neuronal Ceroid Lipofuscinosis (Batt...
+
+
 ## Connections
 
 - [[Lysosomal Storage Diseases]] — Pompe disease is classified among lysosomal storage disorders
@@ -56,4 +65,4 @@ Diagnosis of Pompe disease relies on several complementary approaches. **Enzyme 
 
 - New links added: [[GAA]], [[GAA gene]], [[Autophagy]], [[Hypertrophic Cardiomyopathy]], [[Glycogen]], [[Myozyme]], [[Miglustat]], [[Endoplasmic Reticulum]], [[Golgi Apparatus]], [[Glycoside Hydrolase]], [[Hypotonia]], [[Macroglossia]], [[Proximal Myopathy]], [[Respiratory Failure]], [[Creatine Kinase]], [[Rituximab]], [[Methotrexate]]
 - Suggested new entity notes to create: [[GAA]], [[GAA gene]], [[Myozyme]]
-- Strong connections to strengthen: [[Pompe Disease]] ↔ [[Lysosomal Storage Diseases]], [[Pompe Disease]] ↔ [[Autophagy]]
+  - Strong connections to strengthen: Pompe Disease ↔ Lysosomal Storage Diseases, Pompe Disease ↔ Autophagy

@@ -2,16 +2,15 @@
 title: STING
 description: Stimulator of interferon genes, a signaling protein that plays a key
   role in innate immunity by sensing cytosolic DNA.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - innate immunity
-  - cGAS-STING pathway
+  - innate-immunity
+  - cgas-sting-pathway
   - interferon
-  - DNA sensing
+  - dna-sensing
   - autoinflammation
-  - Protein
+  - protein
 aliases:
   - Stimulator of Interferon Genes
   - TMEM173
@@ -73,6 +72,16 @@ STING serves multiple protective roles in host defense and homeostasis:
 
 **Autoimmune disease**: Inappropriate STING activation contributes to lupus-like autoimmunity, where self-DNA from apoptotic cells triggers chronic cGAS-STING signaling. Therapeutic strategies under development include STING antagonists (e.g., HCl-560), neutralizing antibodies, and inhibition of upstream cGAS activity.
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - It was proposed that TFEB activation in TREX1-deficient cells causes an expansion of the lysosomal system, resulting in activation of STING, TBK1 and the transcription factors IRF3 and IRF7, and leading to ISGs expression (Hasan et al 2013).
+
+
 ## Connections
 
 - [[Immune System]] — STING is a core component of innate immune DNA sensing
@@ -88,4 +97,4 @@ STING serves multiple protective roles in host defense and homeostasis:
 - New links added: [[TMEM173]], [[TRAF6]], [[LC3]], [[Inflammation]], [[TBK1]]
 - Existing links retained: [[Immune System]], [[TFEB]]
 - Suggested new entity notes to create: [[cGAS]], [[IRF3]], [[2'3'-cGAMP]], [[NF-kB]], [[SAVI]], [[Aicardi-Goutières Syndrome]], [[Type I Interferon]]
-- Strong connections to strengthen: [[STING]] ↔ [[TBK1]], [[STING]] ↔ [[Inflammation]]
+  - Strong connections to strengthen: [[STING]] ↔ [[TBK1]], [[STING]] ↔ [[Inflammation]]

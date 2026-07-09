@@ -1,11 +1,10 @@
 ---
 title: HSP90β
 description: HSP90β is a cytosolic chaperone protein that acts as an Apaf-1 inhibitor, suppressing Apaf-1 oligomerization and Apoptosome formation in tyrosine kinase-induced leukemias.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Protein
+  - protein
 aliases: []
 ---
 
@@ -28,6 +27,14 @@ HSP90β maintains proteostasis under basal and stress conditions, supports signa
 ## Pathological & Clinical Relevance
 
 HSP90β overexpression correlates with aggressive disease and [[Chemotherapy]] resistance across leukemias and solid tumors. HSP90 inhibitors (e.g., geldanamycin derivatives, [[AUY922]], [[ ganetespib]]) destabilize numerous oncogenic clients simultaneously, a compelling but challenging strategy due to heat-shock feedback. Combining HSP90 blockade with agents that engage Apaf-1 (e.g., SMAC mimetics) is a rational synthetic-lethal approach in [[leukemia]] and beyond. Understanding HSP90β–Apaf-1 repression refines why chaperone inhibition is potently pro-apoptotic in malignant cells.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Evading apoptosis in cancer|Evading apoptosis in cancer]]
+    - Leukemic tyrosine kinases, such as BCR-ABL, also inhibit Apaf-1 oligomerization by modulating the Phosphorylation status of the Apaf-1 HSP90β \[\].
+
 
 ## Connections
 

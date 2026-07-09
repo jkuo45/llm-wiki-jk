@@ -1,13 +1,12 @@
 ---
 title: Heparin
-description: 'Heparin is a Glycosaminoglycan Anticoagulant that potentiates Antithrombin
+description: Heparin is a Glycosaminoglycan Anticoagulant that potentiates Antithrombin
   III (ATIII) activity, leading to rapid inactivation of Thrombin (factor IIa) and
-  factor Xa. It is administered intrave...'
-type: entity
+  factor Xa. It is administered intrave...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: [Unfractionated Heparin, UFH]
 ---
 
@@ -30,6 +29,14 @@ Heparin binds to [[Antithrombin III]], inducing a conformational change that acc
 - [[Resveratrol]] has demonstrated [[Platelet aggregation|anti-platelet]] activity in vitro and in vivo
 - Concurrent administration with [[Heparin]] may theoretically increase bleeding risk through additive [[Anticoagulant|anticoagulant]] and anti-platelet effects
 - Both [[Warfarin]] and Heparin drug interaction warnings mention consideration with [[Resveratrol]] supplementation
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The Sirtuin System The Holy Grail of Resveratrol?|The Sirtuin System The Holy Grail of Resveratrol?]]
+    - As such, potential for bleeding may occur with concurrent administration of anticoagulants Heparin or Warfarin, and anti-platelet agents Aspirin or Plavix.
+
 
 ## Connections
 

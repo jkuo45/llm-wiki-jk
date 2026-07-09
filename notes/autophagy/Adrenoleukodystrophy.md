@@ -3,11 +3,10 @@ title: Adrenoleukodystrophy
 description: Adrenoleukodystrophy (ALD) is a severe genetic disorder often caused
   by mutations in the ABCD1 gene, which encodes a transporter responsible for moving
   very long-chain fatty acids (VLCFAs) into the...
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: [ALD]
 ---
 # Adrenoleukodystrophy

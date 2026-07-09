@@ -2,11 +2,10 @@
 title: Ferroptosis
 description: Ferroptosis is a non-apoptotic form of regulated cell death driven by
   iron-dependent Lipid Peroxidation.
-type: entity
 created: 2024-01-01
 updated: 2024-01-01
 tags:
-  - Biological Process
+  - biological-process
 aliases: []
 ---
 # Ferroptosis
@@ -30,6 +29,16 @@ Ferroptosis has been implicated in [[Neurodegeneration|neurodegenerative disease
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Regarding tumor resistance, SIRT6 silencing can overcome VEGF resistance by promoting Ferroptosis. Thus, SIRTs could act as novel biomarkers and therapeutic targets of GC.
+
+
 ## Connections
 - [[Lipid Peroxidation]] — interacts with
 - [[GPX4]] — interacts with
@@ -46,5 +55,5 @@ Ferroptosis has been implicated in [[Neurodegeneration|neurodegenerative disease
 
 ## Linking Summary
 - New links added: [[Lipid Peroxidation]], [[GPX4]], [[Glutathione]], [[Fenton Reaction]], [[Ferritin]], [[NCOA4]], [[FSP1]], [[DHODH]], [[System Xc⁻]], [[ACSL4]], [[LPCAT3]], [[NOX]], [[Transferrin receptor 1]], [[HO-1]], [[Malondialdehyde]], [[4-Hydroxynonenal]], [[Deferoxamine]], [[Deferiprone]], [[Vitamin E]], [[Ferrostatin-1]]
-- Strong connections to strengthen: [[Ferroptosis]] ↔ [[Lipid Peroxidation]], [[Ferroptosis]] ↔ [[GPX4]], [[Ferroptosis]] ↔ [[Glutathione]], [[Ferroptosis]] ↔ [[Fenton Reaction]], [[Ferroptosis]] ↔ [[Ferritin]]
+  - Strong connections to strengthen: [[Ferroptosis]] ↔ Lipid Peroxidation, [[Ferroptosis]] ↔ [[GPX4]], [[Ferroptosis]] ↔ [[Glutathione]], [[Ferroptosis]] ↔ Fenton Reaction, [[Ferroptosis]] ↔ Ferritin
 

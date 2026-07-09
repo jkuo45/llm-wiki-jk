@@ -1,11 +1,10 @@
 ---
 title: Rab5
 description: Rab5 is a small GTPase that acts as the master regulator of early endosome fusion, motility, and maturation, handing off to Rab7 and intersecting with autophagic membrane traffic.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Protein
+  - protein
 aliases:
   - RAB5A
   - early endosome GTPase
@@ -26,6 +25,14 @@ Rab5 promotes homotypic early endosome fusion and recruits the phosphatidylinosi
 ## Pathological & Host-Pathogen Relevance
 
 Rab5 is a frequent target of microbial subversion. The [[Legionella]] effector [[SetA]] glucosylates Rab5 (and Rab22), immobilizing endosomes and blocking autophagosome–lysosome fusion to create a replication-permissive vacuole. Similar strategies are employed by other vacuolar pathogens to evade xenophagy. Overactive Rab5 signaling is also implicated in oncogenic growth and receptor-tyrosine-kinase-driven [[Cancer]] proliferation, linking endocytic trafficking to proliferative signaling.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Lysosome biogenesis Regulation and functions|Lysosome biogenesis Regulation and functions]]
+    - To deliver endosomal proteins to lysosomes, early endosomes undergo conversion to late endosomes, which is marked by switching of the early endosome–specific Rab5 and PtdIns3P to late endosome-specific Rab7 and PtdIns(3,5)P2; Gillooly et al., 2000; Huotari ...
+
 
 ## Connections
 

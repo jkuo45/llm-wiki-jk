@@ -2,11 +2,10 @@
 title: Huntingtin
 description: The protein encoded by the HTT gene, whose mutated form with expanded
   polyglutamine tracts causes Huntington's Disease.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Protein
+  - protein
 aliases:
   - HTT
   - huntingtin
@@ -99,6 +98,16 @@ Current pharmacotherapy for HD is limited to symptomatic management:
 
 - **Emerging approaches**: CRISPR-based gene editing to excise the expanded CAG repeat, targeted protein degradation (PROTACs/molecular glues), and neuroprotective strategies addressing downstream pathology (mitochondrial dysfunction, excitotoxicity, [[Autophagy|autophagy]] enhancement) are under preclinical and early clinical investigation.
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - In Huntington's Disease (HD), an autosomal dominant progressive form of dementia, the expansion of the polyQ tract in the N-terminal region of the Huntingtin protein gives rise to an aberrant misfolded protein that is prone to aggregation and neurotoxicity.
+
+
 ## Connections
 
 - [[Huntington's Disease]] — autosomal dominant neurodegenerative disorder caused by HTT polyQ expansion
@@ -116,4 +125,4 @@ Current pharmacotherapy for HD is limited to symptomatic management:
 
 - New links added: [[Huntington's Disease]], [[BDNF]], [[Striatum]], [[Autophagy]], [[Proteasome]], [[Transcription]], [[Dopamine]], [[Neurodegeneration]], [[Apoptosis]], [[mTOR]]
 - Suggested new entity notes to create: [[Polyglutamine Diseases]], [[HEAT Repeats]], [[HAP1]], [[Tetrabenazine]], [[Deutetrabenazine]], [[Tominersen]], [[AMT-130]]
-- Strong connections to strengthen: [[Huntington's Disease]] ↔ [[Huntingtin]], [[BDNF]] ↔ [[Huntingtin]], [[Striatum]] ↔ [[Huntingtin]]
+  - Strong connections to strengthen: Huntington's Disease ↔ [[Huntingtin]], BDNF ↔ [[Huntingtin]], [[Striatum]] ↔ [[Huntingtin]]

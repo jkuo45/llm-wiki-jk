@@ -3,11 +3,10 @@ title: HUWE1
 description: HECT, UBA and WWE domain-containing protein 1 (HUWE1), also known as
   MULE, ARF-BP1, and LASU1, is an ~482 kDa E3 ubiquitin ligase of the HECT family
   that targets Mcl-1, p53, BRCA1, c-Myc, and histones for ubiquitination.
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - Enzyme
+  - enzyme
 aliases: []
 ---
 
@@ -42,6 +41,14 @@ The role of HUWE1 in cancer is highly context-dependent, reflecting its broad su
 - **Oncogenic functions**: In [[ovarian cancer]], HUWE1 overexpression drives [[c-Myc]] stabilization (via impaired c-Myc degradation) and promotes MYC-dependent tumorigenesis, suggesting a context-specific shift in substrate preference.
 - **Breast cancer**: HUWE1 loss contributes to chromosomal instability, and reduced HUWE1 expression correlates with aggressive disease features.
 - **Therapeutic implications**: In Mcl-1-dependent cancers (e.g., certain leukemias, multiple myeloma), HUWE1 activity is critical for sensitivity to [[BH3 mimetics]] targeting other Bcl-2 family members. Because [[Mcl-1]] confers resistance to [[ABT-263]] (navitoclax) and [[ABT-737]], strategies that enhance HUWE1 activity could synergize with these agents. Conversely, HUWE1 inhibition may be beneficial in cancers where HUWE1 promotes Myc-driven proliferation, highlighting the dual nature of HUWE1 as a therapeutic target.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Evading apoptosis in cancer|Evading apoptosis in cancer]]
+    - A HECT-domain containing E3 ligase, HUWE1 (HUWE1, Mcl-1 ubiquitin ligase E3), also targets Mcl-1 for proteasomal deg
+
 
 ## Connections
 

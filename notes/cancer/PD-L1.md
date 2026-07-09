@@ -1,13 +1,12 @@
 ---
 title: PD-L1
-description: 'Programmed death ligand-1 (PD-L1; also known as CD274 or B7-H1)
+description: Programmed death ligand-1 (PD-L1; also known as CD274 or B7-H1)
   is a protein that plays a major role in suppressing the adaptive arm of the immune
-  system.'
-type: entity
+  system.
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - Medical Condition
+  - medical-condition
 aliases: []
 ---
 
@@ -19,6 +18,14 @@ aliases: []
 - **Immune Evasion**: Many cancer cells express PD-L1 to inhibit the activity of T cells, allowing the tumor to evade the immune response.
 - **Breast Cancer**: PD-L1 expression is high in [[triple-negative breast cancer]] and [[HER2-enriched breast cancer]].
 - **Regulation**: [[melittin]] has been shown to significantly reduce PD-L1 expression in tumors.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology|Honeybee venom and melittin suppress growth factor receptor activation in HER2-enriched and triple-negative breast cancer - npj Precision Oncology]]
+    - The immune-checkpoint protein programmed death ligand-1 (PD-L1) reduces the functionality of activated T cells.
+
 
 ## Connections
 - [[triple-negative breast cancer]]: Subtype with high PD-L1 expression.

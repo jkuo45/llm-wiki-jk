@@ -3,11 +3,10 @@ title: Cardiac Hypertrophy
 description: Cardiac Hypertrophy is an adaptive enlargement of cardiomyocytes in response
   to increased workload, neurohumoral stimulation (Angiotensin II, endothelin-1), or
   mechanical stress. Sustained pathological hypertrophy progresses to heart failure.
-type: entity
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Medical Condition
+  - medical-condition
 aliases:
   - Myocardial hypertrophy
   - Ventricular hypertrophy
@@ -42,6 +41,20 @@ Together, the sirtuin family integrates nutrient sensing (NAD⁺) with cardiomyo
 ## Clinical Relevance
 
 Hypertrophy is a major risk factor for heart failure with reduced or preserved ejection fraction. NAD⁺ precursor supplementation and SIRT1/SIRT3 activation are investigated as cardioprotective strategies to limit maladaptive remodeling. The multiple sirtuin checkpoints make the NAD⁺–sirtuin axis an attractive target for preventing progression from hypertrophy to failure.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Dietary Advanced Glycation End Products and Aging|Dietary Advanced Glycation End Products and Aging]]
+    - A study with long-term (24–30 weeks) administration of Aminoguanidine (an inhibitor of AGE formation) showed prevention of the age-related Cardiac Hypertrophy and arterial stiffness \[\].
+
+  - [[_document_ - sirtuins (resveratrol), gemini|sirtuins (resveratrol), gemini]]
+    - Physiological Impact - Cardioprotection: Honokiol-mediated SIRT3 activation has been shown to reverse Cardiac Hypertrophy and protect heart tissue from doxorubicin-induced cardiotoxicity without blunting the drug's anti-tumor activity in preclinical models.
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - Cardiac hypertrophy and fibrosis: Cardiac hypertrophy is an adaptive and compensatory mechanism for maintaining cardiac output during physiological and pathological stimuli.
+
 
 ## Connections
 

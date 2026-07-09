@@ -3,11 +3,10 @@ title: Pulse Wave Velocity
 description: Pulse wave velocity (PWV) is the speed at which the pressure wave generated
   by left ventricular ejection travels along the arterial tree. It is the gold standard
   clinical measure of Arterial Stiffn...
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Diagnostic Test
+  - diagnostic-test
 aliases:
   - PWV
   - Aortic pulse wave velocity
@@ -15,18 +14,6 @@ aliases:
   - cfPWV
   - Arterial pulse wave velocity
   - Pulse wave speed
-database_ids:
-  mesh: D063846
-relations:
-  - predicate: measures
-    target: "notes/_link/Arterial Stiffness"
-    sources: ["10.1016/j.jacc.2006.07.050"]
-  - predicate: associated_with
-    target: "notes/_link/Cardiovascular Disease"
-    sources: []
-  - predicate: associated_with
-    target: "notes/_link/Aging"
-    sources: []
 ---
 
 
@@ -95,6 +82,16 @@ Elevated PWV reflects:
 PWV is the primary endpoint in studies of [[Aging|vascular aging]] and interventions aimed at reversing [[Arterial Stiffness|arterial stiffness]].
 
 In the seminal study by LaRocca et al. (2013), aortic PWV was approximately 20% greater in old (27–29 months) versus young (4–6 months) mice. Supplementation with [[Spermidine|spermidine]] (3 mM in drinking water for 4 weeks) normalized aortic PWV to young levels, accompanied by reductions in aortic AGE accumulation and collagen I expression.
+
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - The autophagy enhancer spermidine reverses arterial aging|The autophagy enhancer spermidine reverses arterial aging]]
+    - ing Summary - New links added: Spermidine, Cardiovascular Disease, Nitric Oxide, Caloric Restriction, Rapamycin, Autophagy, Oxidative Stress, Endothelial Dysfunction, Advanced Glycation End Products - Suggested new entity notes to create: Histone H3, Polyam...
+
 
 ## Connections
 

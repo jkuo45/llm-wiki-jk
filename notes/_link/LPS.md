@@ -2,11 +2,10 @@
 title: LPS
 description: Lipopolysaccharide, a major component of the outer membrane of Gram-negative
   bacteria and a potent inducer of Macrophage activation and TFE3 translocation.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: []
 ---
 # Lipopolysaccharide (LPS)
@@ -53,6 +52,16 @@ LPS contamination in pharmaceutical preparations is a major safety concern. The 
 
 Despite extensive research, therapeutic targeting of the LPS-TLR4 axis has proven challenging. Strategies under investigation include anti-LPS monoclonal antibodies targeting Lipid A, the synthetic TLR4 antagonist eritoran (which binds MD-2 to competitively inhibit LPS binding), LBP inhibitors, and downstream inhibitors of MyD88 or IRAK4. None of these has achieved definitive clinical efficacy in large sepsis trials, underscoring the multifactorial nature of the septic response and the limitations of targeting a single pathogenic mediator.
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - Similar to Mitochondria and ER stress conditions, TFE3 nuclear translocation is not accompanied by a noticeable reduction in mTORC1 activity in LPS-treated Macrophage, further confirming that TFE3 can be activated in a mTORC1-independent manner (Pastore et ...
+
+
 ## Connections
 
 - [[Macrophage]] — LPS activates macrophages via TLR4, triggering pro-inflammatory cytokine release
@@ -74,4 +83,4 @@ Despite extensive research, therapeutic targeting of the LPS-TLR4 axis has prove
 
 - New links added: [[TLR4]], [[LBP]], [[CD14]], [[NF-κB]], [[TNFα]], [[IL-1β]], [[IL-6]], [[NLRP3 Inflammasome]], [[CD163]], [[Gram-Negative Bacteria]], [[Innate Immune System]], [[Sepsis]], [[COX-2]], [[iNOS]], [[IRF3]]
 - Existing links retained: [[Macrophage]], [[TFE3]]
-- Strong connections to strengthen: [[LPS]] ↔ [[TLR4]], [[LPS]] ↔ [[Macrophage]], [[LPS]] ↔ [[Sepsis]]
+  - Strong connections to strengthen: [[LPS]] ↔ TLR4, [[LPS]] ↔ [[Macrophage]], [[LPS]] ↔ [[Sepsis]]

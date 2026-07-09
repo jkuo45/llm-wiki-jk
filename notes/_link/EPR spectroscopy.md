@@ -1,14 +1,13 @@
 ---
 title: EPR spectroscopy
-description: 'Electron paramagnetic resonance (EPR) spectroscopy, also known as
+description: Electron paramagnetic resonance (EPR) spectroscopy, also known as
   electron spin resonance (ESR), is a technique that detects species with unpaired
-  Electron (paramagnetic species), including Fre...'
-type: entity
+  Electron (paramagnetic species), including Fre...
 created: 2026-07-04
 updated: 2026-07-06
 tags:
-  - Analytical Technique
-  - oxidative stress
+  - analytical-technique
+  - oxidative-stress
 aliases: [Electron Paramagnetic Resonance, ESR, EPR]
 
 ---
@@ -44,4 +43,4 @@ EPR measures the resonant absorption of [[Microwave]] radiation by unpaired elec
 ## Linking Summary
 - New links added: [[Electron]], [[Free Radicals]], [[Reactive Oxygen Species]], [[Magnetic Field]], [[Microwave]], [[Zeeman Effect]], [[Spin Trapping]], [[DMPO]], [[Superoxide]], [[Hydroxyl radical]], [[Mitochondria]], [[ROS]], [[Oxidative Stress]], [[Iron-sulfur clusters]], [[Copper]], [[Manganese]], [[Oxygen]], [[Aging Research]]
 - Suggested new entity notes to create: [[g-factor]], [[Hyperfine coupling]], [[Electron spin]], [[Paramagnetic species]], [[Spin probe]], [[DEPMPO]], [[POBN]], [[Spin label]], [[Oximetry]]
-- Strong connections to strengthen: [[EPR spectroscopy]] ↔ [[Reactive Oxygen Species]], [[EPR spectroscopy]] ↔ [[Free Radicals]]
+  - Strong connections to strengthen: EPR spectroscopy ↔ Reactive Oxygen Species, EPR spectroscopy ↔ Free Radicals

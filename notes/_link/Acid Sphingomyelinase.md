@@ -1,11 +1,10 @@
 ---
 title: Acid Sphingomyelinase
 description: An enzyme that converts sphingomyelin into ceramide, active in the Lysosome.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Enzyme
+  - enzyme
 aliases: []
 ---
 # Acid Sphingomyelinase
@@ -43,6 +42,16 @@ The broader designation of acid sphingomyelinase deficiency (ASMD) encompasses b
 
 Olipudase alfa is a recombinant human acid sphingomyelinase approved for the treatment of non-central nervous system manifestations of Niemann-Pick type B. It functions as enzyme replacement therapy, reducing sphingomyelin accumulation in visceral organs and improving pulmonary function. Miglustat, a substrate reduction therapy that inhibits glucosylceramide synthase, has been explored as an adjunct treatment in Niemann-Pick disease to attenuate sphingolipid biosynthesis. Gene therapy approaches targeting *SMPD1* are under investigation for both type A and type B forms.
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS]]
+    - Disruption of lysosomal Lysosome in AD has been recently linked to the increased levels of lysosomal Acid Sphingomyelinase (ASM) leading to low levels of TFEB and LAMP1 in tissues from AD patients and APP/PS1 (amyloid precursor protein/precenelin-1) mice (L...
+
+
 ## Connections
 
 - [[Lysosome]] — degradative organelle; autophagic flux endpoint; nutrient sensing hub
@@ -56,4 +65,4 @@ Olipudase alfa is a recombinant human acid sphingomyelinase approved for the tre
 
 - New links added: [[Apoptosis]], [[Alzheimer's Disease]], [[Atherosclerosis]], [[Depression]], [[Sphingolipid]]
 - Suggested new entity notes to create: [[Niemann-Pick Disease]], [[Ceramide]], [[Sphingomyelin]], [[Olipudase alfa]], [[Saposin B]]
-- Strong connections to strengthen: [[Acid Sphingomyelinase]] ↔ [[Lysosome]], [[Acid Sphingomyelinase]] ↔ [[Apoptosis]]
+  - Strong connections to strengthen: Acid Sphingomyelinase ↔ [[Lysosome]], Acid Sphingomyelinase ↔ [[Apoptosis]]

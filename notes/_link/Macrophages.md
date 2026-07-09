@@ -1,12 +1,11 @@
 ---
 title: Macrophages
-description: 'Overview: Macrophages is a specialized cellular or anatomical structure
-  with defined functions in tissue organization and physiology.'
-type: entity
+description: 'Overview: Macrophages is a specialized cellular or anatomical structure'
+  with defined functions in tissue organization and physiology.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Cell Type
+  - cell-type
   - inflammation
 aliases: []
 ---
@@ -23,10 +22,20 @@ aliases: []
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - The effect of SIRTs in inflammatory cells: The cells involved in the inflammatory response include inflammatory cells such as Macrophages, mast cells and endothelial cells.
+
+
 ## Connections
 - [[Macrophages]] — related entity
 
 ## Linking Summary
 - New links added: [[Macrophages]]
-- Strong connections to strengthen: [[Macrophages]] ↔ [[Macrophages]]
+  - Strong connections to strengthen: [[Macrophages]] ↔ [[Macrophages]]
 

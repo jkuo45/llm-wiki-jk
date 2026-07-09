@@ -3,12 +3,11 @@ title: NMNAT
 description: NMNAT (Nicotinamide mononucleotide adenylyltransferase) is a family of
   enzymes catalyzing the final step in NAD+ biosynthesis, with three compartment-specific
   mammalian isoforms and a neuroprotective chaperone function.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Enzyme
-  - NAD+
+  - enzyme
+  - nad+
 aliases: []
 ---
 # NMNAT
@@ -67,6 +66,19 @@ The chaperone function positions NMNAT2 at the intersection of [[NAD+]] metaboli
 
 NMNAT also interacts with other NAD+-consuming pathways. Activation of [[PARP]] during DNA damage or [[SIRT1]] during metabolic stress accelerates nicotinamide release, increasing demand on the NMNAT-dependent salvage pathway. When NMNAT activity is compromised — as in aging — this creates a metabolic vulnerability where increased [[NAD+]] consumption cannot be adequately compensated by reduced [[NAD+]] synthesis.
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Nicotinamide Riboside—The Current State of Research and Therapeutic Uses|Nicotinamide Riboside—The Current State of Research and Therapeutic Uses]]
+    - Alternatively, NR can be turned into NAM by purine nucleoside phosphorylase (NP), which is subsequently converted to NAD + via NMN by NMNAT (Figure 1).
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - Most studies of SIRT1 in the brain have focused on its role in neuroprotection, stemming from a discovery by Milbrandt and colleagues that an NAD[+] biosynthetic enzyme, NMNAT (nicotinate mononucleotide adenylyltransferase), is primarily responsible for pro...
+
+
 ## Connections
 
 - [[NAD+]] — the primary product of NMNAT catalysis; NMNAT is the convergent final enzyme in all three NAD+ biosynthetic pathways
@@ -85,4 +97,4 @@ NMNAT also interacts with other NAD+-consuming pathways. Activation of [[PARP]] 
 
 - New links added: [[NAD+]], [[Nicotinamide Mononucleotide]], [[NAMPT]], [[SIRT1]], [[PARP]], [[Alzheimer's Disease]], [[Parkinson's Disease]], [[Huntington's Disease]], [[Nicotinamide Riboside]], [[Aging]], [[Neurodegeneration]]
 - Suggested new entity notes to create: [[NAD+ Biosynthesis]], [[Wallerian Degeneration]]
-- Strong connections to strengthen: [[NMNAT]] ↔ [[NAD+]], [[NMNAT]] ↔ [[Neuroprotection]]
+  - Strong connections to strengthen: [[NMNAT]] ↔ [[NAD+]], [[NMNAT]] ↔ Neuroprotection

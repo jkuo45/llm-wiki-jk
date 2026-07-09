@@ -1,11 +1,10 @@
 ---
 title: MOMP
 description: Mitochondrial outer membrane permeabilization (MOMP) is the irreversible point-of-no-return in intrinsic apoptosis, releasing cytochrome c and Smac to activate caspases.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Biological Process
+  - biological-process
 aliases: []
 ---
 
@@ -28,6 +27,14 @@ The threshold for MOMP integrates diverse stresses: DNA damage (via [[p53]]), [[
 ## Clinical and Research Relevance
 
 MOMP is a major therapeutic target. BH3 mimetics such as venetoclax (targeting Bcl-2) push cells toward MOMP, and agents that activate Bax/Bak or disable Mcl-1 are in development. Quantifying MOMP (e.g., by cytochrome c release or caspase activation assays) informs prognostic and pharmacodynamic assessment.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Evading apoptosis in cancer|Evading apoptosis in cancer]]
+    - In the Intrinsic Pathway of Apoptosis, MOMP is involved; MOMP triggers the release of a group of pro-apoptotic proteins, including Cytochrome c and Smac-DIABLO, from the mitochondrial intermembrane space to the cytoplasm (Figure 1).
+
 
 ## Connections
 

@@ -1,11 +1,10 @@
 ---
 title: DNA
-description: 'DNA (Deoxyribonucleic acid) is the hereditary material in humans and almost all other organisms, which encodes the genetic instructions for life.'
-type: entity
+description: DNA (Deoxyribonucleic acid) is the hereditary material in humans and almost all other organisms, which encodes the genetic instructions for life.
 created: 2026-07-04
 updated: 2026-07-07
 tags:
-  - Biological Molecule
+  - biological-molecule
 aliases: []
 ---
 
@@ -28,6 +27,17 @@ Several genes influence whether and how dopaminergic neurons synthesize and hand
 ## Pathology & Clinical Relevance
 
 Genotyping (SNCA, GBA1, LRRK2, MC1R) refines PD diagnosis, prognosis, and trial stratification, and illuminates the melanoma–PD link (see [[Cutaneous Melanoma]]). Mitochondrial DNA integrity and nuclear repair capacity are emerging therapeutic targets. Thus DNA bridges inherited risk and acquired oxidative damage in pigment-related neurodegeneration.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Dietary Advanced Glycation End Products and Aging|Dietary Advanced Glycation End Products and Aging]]
+    - The Maillard reaction occurs when reducing sugar reacts in a non-enzymatic way with amino acids in proteins, lipids or DNA. This reaction has been studied for years in the food industry because its products add a desirable color and taste to foods.
+
+  - [[_document_ - Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator|Neuromelanin, one of the most overlooked molecules in modern medicine, is not a spectator]]
+    - In addition, catechol polymers are not easily de-polymerized, unlike other macromolecules utilized in biological systems such as polysaccharides, proteins, and DNA which can by analyzed by relatively simple hydrolysis.
+
 
 ## Connections
 

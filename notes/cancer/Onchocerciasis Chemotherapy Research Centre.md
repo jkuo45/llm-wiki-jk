@@ -1,11 +1,10 @@
 ---
 title: Onchocerciasis Chemotherapy Research Centre
 description: The OCRC (Ghana) is a clinical research institute studying treatments for onchocerciasis, including ivermectin and macrofilaricidal drug development, with infrastructure relevant to drug repurposing.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Organization
+  - organization
 aliases: []
 ---
 
@@ -24,6 +23,14 @@ The OCRC generates deep expertise in anthelmintic pharmacology, dose-finding, an
 ## Legacy and Collaboration
 
 Through partnerships with TDR, Merck ([[Mectizan]] donation program), and academic networks, the OCRC has advanced community-based trial methodologies and trained researchers, contributing to the global shift from control toward elimination of onchocerciasis.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, ‘Wonder drug’ from Japan the human use perspective|Ivermectin, ‘Wonder drug’ from Japan the human use perspective]]
+    - TDR was also able to influence the design of study protocols, and support applied research on Onchocerciasis treatment at one of its specialized centres, the Onchocerciasis Chemotherapy Research Centre (Onchocerciasis Chemotherapy Researc
+
 
 ## Connections
 

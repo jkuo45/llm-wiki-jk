@@ -1,13 +1,12 @@
 ---
 title: RANKL
-description: 'Overview: RANKL is a cellular protein with structural, signaling,
+description: 'Overview: RANKL is a cellular protein with structural, signaling,'
   or regulatory functions in eukaryotic cells. It participates in macromolecular complexes
-  and signaling networks that govern cel...'
-type: entity
+  and signaling networks that govern cel...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Protein
+  - protein
 aliases: [Receptor Activator of NF-κB Ligand, TNFSF11]
 
 ---
@@ -29,5 +28,5 @@ aliases: [Receptor Activator of NF-κB Ligand, TNFSF11]
 
 ## Linking Summary
 - New links added: [[RANKL]]
-- Strong connections to strengthen: [[RANKL]] ↔ [[RANKL]]
+  - Strong connections to strengthen: [[RANKL]] ↔ [[RANKL]]
 

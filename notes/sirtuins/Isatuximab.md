@@ -3,11 +3,10 @@ title: Isatuximab
 description: Isatuximab (brand name Sarclisa, formerly SAR650984) is a chimeric IgG1κ
   monoclonal antibody directed against CD38. It was approved by the FDA in March 2020
   for Multiple Myeloma (MM), and by the EM...
-type: entity
 created: 2026-07-03
 updated: 2026-07-03
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases:
   - Isatuximab
   - Sarclisa
@@ -50,6 +49,14 @@ Isatuximab also does **not** bind to the CD38 region required for daratumumab bi
 - Infections: similar risk profile to [[Daratumumab]] — pneumonia, upper respiratory infections; prophylaxis required
 - Hematologic toxicity: neutropenia, thrombocytopenia
 - Interference with blood bank testing (less pronounced vs. daratumumab due to different epitope)
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins (overview, CD38 KO risks, cancer therapies)|sirtuins (overview, CD38 KO risks, cancer therapies)]]
+    - Investigate CD38's involvement in cancer therapy CD38 is a major therapeutic target in Cancer, primarily through monoclonal antibodies (mAbs) like Daratumumab and Isatuximab in Multiple Myeloma (MM), with expanding roles in modulating the Tumor Microenviron...
+
 
 ## Connections
 

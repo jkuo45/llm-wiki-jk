@@ -1,13 +1,12 @@
 ---
 title: Insulin Secretion
-description: 'Definition: Insulin Secretion is a fundamental biological process
+description: 'Definition: Insulin Secretion is a fundamental biological process'
   that maintains cellular and organismal homeostasis. It involves coordinated molecular
-  events regulated by signaling pathways an...'
-type: entity
+  events regulated by signaling pathways an...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Biological Process
+  - biological-process
 aliases: []
 ---
 
@@ -28,5 +27,5 @@ aliases: []
 
 ## Linking Summary
 - New links added: [[Insulin Secretion]]
-- Strong connections to strengthen: [[Insulin Secretion]] ↔ [[Insulin Secretion]]
+  - Strong connections to strengthen: Insulin Secretion ↔ Insulin Secretion
 

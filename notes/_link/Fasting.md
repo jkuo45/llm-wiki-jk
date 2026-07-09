@@ -3,12 +3,11 @@ title: Fasting
 description: Fasting is the voluntary abstinence from food and caloric beverages for
   a defined period. It induces a metabolic switch from glucose-based to ketone-based
   energy, activates stress-resistance pathwa...
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - Medical Condition
-  - caloric restriction
+  - medical-condition
+  - caloric-restriction
 aliases: []
 ---
 # Fasting
@@ -32,4 +31,4 @@ Fasting is the voluntary abstinence from food and caloric beverages for a define
 ## Linking Summary
 - New links added: [[Intermittent Fasting]], [[Autophagy]], [[AMPK]], [[mTORC1]], [[SIRT1]], [[IGF1]], [[Ketone Bodies]], [[Longevity]], [[Mitochondria]], [[Inflammation]], [[Metabolic Health]], [[Neuroprotection]], [[Cancer Prevention]]
 - Suggested new entity notes to create: [[Time-Restricted Feeding]], [[Metabolic Switch]]
-- Strong connections to strengthen: [[Fasting]] ↔ [[Autophagy]], [[Fasting]] ↔ [[AMPK]]
+  - Strong connections to strengthen: [[Fasting]] ↔ Autophagy, [[Fasting]] ↔ [[AMPK]]

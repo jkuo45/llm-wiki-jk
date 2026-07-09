@@ -1,11 +1,10 @@
 ---
 title: Cyclopentenyl cytosine
 description: Cyclopentenyl cytosine (CPEC) is a synthetic cytidine analog and potent inhibitor of CTP synthetase, depleting pyrimidine pools and inducing cellular senescence and apoptosis in cancer and viral-infected cells.
-type: entity
 created: 2024-01-01
 updated: 2026-07-06
 tags:
-  - Chemical Compound
+  - chemical-compound
 aliases: []
 ---
 
@@ -31,6 +30,14 @@ Therapeutic interest centers on tumors with heightened pyrimidine dependence, su
 ## Clinical and Research Relevance
 
 CPEC remains largely preclinical, used mainly as a research probe and in early-phase oncology and virology studies. Because pyrimidine depletion can be rescued by uridine supplementation, combination strategies with other [[Chemotherapy]] agents and with radiotherapy are under investigation. Its selective CTP synthetase inhibition also serves as a chemical biology tool to dissect pyrimidine homeostasis.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
+    - These chemical compounds can be functionally classified into eight groups: (1) DNA Replication Stress inducers (Aphidicolin, Hydroxyurea, Thymidine, Bromodeoxyuridine, Gemcitabine, Cyclopentenyl cytosine); (2) DNA‐damaging agents, including (2a) DNA Topoiso...
+
 
 ## Connections
 

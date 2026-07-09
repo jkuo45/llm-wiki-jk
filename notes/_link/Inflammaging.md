@@ -3,11 +3,10 @@ title: Inflammaging
 description: Inflammaging is a state of chronic, low-grade, systemic inflammation
   that develops with advanced age and is a major risk factor for many age-related
   diseases.
-type: entity
 created: 2026-05-29
 updated: 2026-05-29
 tags:
-  - Biological Process
+  - biological-process
 aliases: []
 ---
 # Inflammaging
@@ -29,6 +28,25 @@ Strategies to reduce inflammaging include [[Autophagy Inducer|autophagy inductio
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
+    - In this Perspective, we specifically focus on the systemic deterioration of immune function with age, which is accompanied by Inflammaging, a chronic state of innate immune activation causing systemic low-grade inflammation (Furman et al., 2019).
+
+  - [[_document_ - The Gut Microbiome, Aging, and Longevity A Systematic Review|The Gut Microbiome, Aging, and Longevity A Systematic Review]]
+    - Age-related changes in pro-inflammatory status result in low-level systemic inflammation (“Inflammaging”) that increases the propensity for chronic diseases and disabilities, including Cardiovascular Disease, cognitive decline, metabolic disease, frailty, a...
+
+  - [[_document_ - sirtuins (overview, CD38 KO risks, cancer therapies)|sirtuins (overview, CD38 KO risks, cancer therapies)]]
+    - This is a trade-off: reducing age-related Inflammaging and NAD+ consumption via CD38 could blunt beneficial acute immune responses. 2.
+
+  - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]]
+    - Review attributes inflammaging to epigenetic derepression of retrotransposable elements (LINE-1, HERV): heterochromatin decompaction and DNA hypomethylation let L1/HERV cDNA activate cGAS–STING, driving SASP-like interferon inflammation.
+
+
 ## Connections
 - [[Aging]] — progressive decline in physiological function; primary risk factor
 - [[Cytokines]] — interacts with Inflammaging
@@ -38,7 +56,18 @@ Strategies to reduce inflammaging include [[Autophagy Inducer|autophagy inductio
 - [[Senescence]] — interacts with Inflammaging
 - [[Senescence-Associated Secretory Phenotype]] — interacts with Inflammaging
 - [[Innate Immune System]] — interacts with Inflammaging
+- [[Epigenetic Alterations]] — epigenetic derepression of retroelements drives inflammaging
+- [[SASP]] — chronic SASP is a major contributor to inflammaging
+- [[LINE-1]] — LINE-1 cDNA activates cGAS–STING–driven inflammaging
+- [[cGAS-STING Pathway]] — cytosolic retroelement DNA triggers inflammaging via cGAS–STING
+- [[Cytoplasmic Chromatin Fragments]] — CCF is another cytosolic DNA source for inflammaging
+- [[DNA Methylation]] — hypomethylation derepresses inflammatory retroelements
+- [[Histone Variant]] — histone dynamics influence retroelement repression
+- [[Senescence-Associated Heterochromatin Foci]] — heterochromatin decompaction releases inflammatory sequences
+- [[NF-κB]] — central effector of inflammaging transcription
+- [[RB1]] — RB1 loss derepresses LINE-1 fueling inflammaging
+- [[SIRT6]] — SIRT6 loss derepresses LINE-1 promoting inflammaging
 ## Linking Summary
-- New links added: [[Aging]], [[Inflammation]], [[Immunosenescence]], [[Cardiovascular Disease]], [[Diabetes Mellitus]], [[Cytokines]], [[IL-6]], [[TNFA]], [[IL-1b]], [[Senescence]], [[Senescence-Associated Secretory Phenotype]], [[Innate Immune System]], [[Atherosclerosis]], [[Type 2 Diabetes Mellitus]], [[Alzheimer's Disease]], [[Osteoarthritis]], [[Autophagy Inducer]], [[Immune System]]
+- New links added: [[Aging]], [[Inflammation]], [[Immunosenescence]], [[Cardiovascular Disease]], [[Diabetes Mellitus]], [[Cytokines]], [[IL-6]], [[TNFA]], [[IL-1b]], [[Senescence]], [[Senescence-Associated Secretory Phenotype]], [[Innate Immune System]], [[Atherosclerosis]], [[Type 2 Diabetes Mellitus]], [[Alzheimer's Disease]], [[Osteoarthritis]], [[Autophagy Inducer]], [[Immune System]], [[Epigenetic Alterations]], [[SASP]], [[LINE-1]], [[cGAS-STING Pathway]], [[Cytoplasmic Chromatin Fragments]], [[DNA Methylation]], [[Histone Variant]], [[Senescence-Associated Heterochromatin Foci]], [[NF-κB]], [[RB1]], [[SIRT6]]
 - Suggested new entity notes to create: [[Systemic Inflammation]], [[Senescence-Associated Secretory Phenotype]], [[Innate Immune System]]
-- Strong connections to strengthen: [[Inflammaging]] ↔ [[Cellular Senescence]], [[Inflammaging]] ↔ [[Aging]], [[Inflammaging]] ↔ [[Senescence]]
+  - Strong connections to strengthen: [[Inflammaging]] ↔ Cellular Senescence, [[Inflammaging]] ↔ [[Aging]], [[Inflammaging]] ↔ [[Senescence]]

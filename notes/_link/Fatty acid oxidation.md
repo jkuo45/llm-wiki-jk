@@ -1,13 +1,12 @@
 ---
 title: Fatty acid oxidation
-description: 'Definition: Fatty acid oxidation is a fundamental biological process
+description: 'Definition: Fatty acid oxidation is a fundamental biological process'
   that maintains cellular and organismal homeostasis. It involves coordinated molecular
-  events regulated by signaling pathways...'
-type: entity
+  events regulated by signaling pathways...
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Biological Process
+  - biological-process
 aliases: [Beta-Oxidation]
 
 ---
@@ -24,10 +23,20 @@ aliases: [Beta-Oxidation]
 
 #
 
+# 
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - For example, AMPK can be activated by LKB1, the upstream regulator of AMPK, while activated AMPK reduces oxidative stress injury by promoting insulin sensitivity, Fatty acid oxidation and mitochondrial biosynthesis to generate ATP.
+
+
 ## Connections
 - [[Fatty acid oxidation]] — related entity
 
 ## Linking Summary
 - New links added: [[Fatty acid oxidation]]
-- Strong connections to strengthen: [[Fatty acid oxidation]] ↔ [[Fatty acid oxidation]]
+  - Strong connections to strengthen: Fatty acid oxidation ↔ Fatty acid oxidation
 

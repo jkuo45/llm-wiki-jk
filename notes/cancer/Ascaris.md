@@ -2,11 +2,10 @@
 title: Ascaris
 description: Ascaris is a genus of parasitic nematode worms known as "large roundworms".
   The most common species is Ascaris lumbricoides, which causes Ascariasis in humans.
-type: entity
 created: 2026-07-06
 updated: 2026-07-06
 tags:
-  - Microorganism
+  - organism
 aliases: []
 ---
 # Ascaris
@@ -31,6 +30,14 @@ The *Ascaris* life cycle is direct and monoxenous (one host). Infective embryona
 - **Nutritional effects** — worms compete for host nutrients and can cause vitamin A and protein deficiency; chronic infection is associated with reduced cognitive development in children.
 
 Treatment is with [[Albendazole]] (400 mg single dose) or [[Ivermectin]]; mebendazole and pyrantel pamoate are alternatives. Mass drug administration programs in endemic regions remain the cornerstone of public health control.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Ivermectin, ‘Wonder drug’ from Japan the human use perspective|Ivermectin, ‘Wonder drug’ from Japan the human use perspective]]
+    - Studies of long-term treatment with Ivermectin to control Onchocerciasis have shown that use of the drug is additionally associated with significant reduction in the prevalence of infection with any soil-transmitted helminth parasites (including Ascaris, Tr...
+
 
 ## Connections
 

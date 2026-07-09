@@ -1,13 +1,12 @@
 ---
 title: nuo-6
-description: 'nuo-6 (NADH-Ubiquinone Oxidoreductase 6) is a gene in C. elegans
+description: nuo-6 (NADH-Ubiquinone Oxidoreductase 6) is a gene in C. elegans
   that encodes a subunit of mitochondrial **Complex I** (NADH dehydrogenase) of the
-  electron transport chain.'
-type: entity
+  electron transport chain.
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Gene
+  - gene
 aliases: []
 ---
 

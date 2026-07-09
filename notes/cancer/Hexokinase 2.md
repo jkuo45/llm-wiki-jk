@@ -1,11 +1,10 @@
 ---
 title: Hexokinase 2
 description: Hexokinase 2 (HK2) is the enzyme that catalyzes the first step of glycolysis; it is highly expressed in cancer cells and is a key node of the Warburg Effect, bound to mitochondria to suppress apoptosis.
-type: entity
 created: 2026-07-06
 updated: 2026-07-07
 tags:
-  - Enzyme
+  - enzyme
 aliases: []
 ---
 

@@ -2,11 +2,10 @@
 title: Adaptive Immune Response
 description: The Adaptive Immune Response is a highly specific immune mechanism
   characterized by memory and the ability to recognize specific antigens.
-type: entity
 created: 2026-07-04
 updated: 2026-07-04
 tags:
-  - Biological Process
+  - biological-process
 aliases: [adaptive immunity]
 
 ---
@@ -27,6 +26,14 @@ The **Adaptive Immune Response** is a highly specific immune mechanism character
 ## Overview
 
 Adaptive immunity involves B and T cell responses. [[Autophagy]] regulates antigen presentation, lymphocyte survival, and immune memory.
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
+    - This has been best studied in T cell immunity, which is key to the Adaptive Immune Response (Goronzy and Weyand, 2019).
+
 
 ## Connections
 

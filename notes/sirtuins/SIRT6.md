@@ -3,12 +3,11 @@ title: SIRT6
 description: SIRT6 (Sirtuin 6) is a nuclear, chromatin-associated sirtuin classified
   in phylogenetic Class IVa alongside its nucleolar homolog SIRT7 (Class IVb). As
   a "longevity gene," SIRT6 serves as an essent...
-type: entity
 created: 2026-07-02
-updated: 2026-07-03
+updated: 2026-07-09
 tags:
-  - Protein
-  - NAD+
+  - protein
+  - nad+
 aliases:
   - Sirtuin 6
   - nuclear sirtuin 6
@@ -94,7 +93,14 @@ Like other sirtuins, SIRT6 acts as a double-edged sword in cancer depending on g
 
 ---
 
-## 6. Sirtuin Modulators targeting SIRT6
+### Centenarian SIRT6 Variants (CentSIRT6)
+Two linked missense variants in SIRT6 — N308K (rs201141490) and A313S (rs183444295) — enriched in [[Centenarians|Ashkenazi Jewish centenarians]] exert multifaceted gain-of-function effects:
+- **Elevated Protein Levels**: Weakened interaction with [[Vimentin]] via the N308K mutation, independent of [[USP10]], leading to increased SIRT6 abundance in both nuclear and cytoplasmic compartments.
+- **Altered Enzymatic Activities**: Reduced deacetylase activity (increased H3K9ac, H3K18ac, H3K27ac) and enhanced mono-[[ADP-ribosylation|ADP-ribosyltransferase (mADPr)]] activity.
+- **Cellular Stress Resistance**: Delayed replicative senescence, resistance to [[Progerin]]-induced stress, preservation of [[DNA Repair]] gene expression, and suppression of [[LINE-1]] derepression.
+- **Translational Potential**: [[AAV]]-mediated delivery of CentSIRT6 or pharmacological activation with [[Fucoidan]]-FV attenuates [[LINE-1]] reactivation in [[Hutchinson-Gilford Progeria Syndrome|HGPS]] fibroblasts.
+
+### Sirtuin Modulators targeting SIRT6
 
 - **[[UBCS039]]** — the first synthetic allosteric SIRT6 activator, targeting its distal hydrophobic pocket.
 - **[[MDL-801]] (and MDL-800)** — potent, selective small-molecule allosteric activators of SIRT6 that downregulate the TGF-$\beta$1/Smad pathway, reducing fibrosis and promoting angiogenesis during wound healing.
@@ -111,11 +117,57 @@ Like other sirtuins, SIRT6 acts as a double-edged sword in cancer depending on g
 - **[[Aging]]** — SIRT6 is a key longevity gene and aging determinant.
 - **[[Base Excision Repair]]** — major DNA repair pathway coordinated by SIRT6.
 - **[[Nkx3.2]]** — homeobox transcription factor; SIRT6 regulates Nkx3.2 expression in chondrogenesis and bone development.
+- **[[Vimentin]]** — interacts with SIRT6's C-terminal IDR; N308K mutation weakens binding, elevating SIRT6 levels.
+- **[[USP10]]** — deubiquitinating enzyme that stabilizes SIRT6; centenarian variant effect is USP10-independent.
+- **[[Fucoidan]]** — SIRT6 activator that mimics centenarian variant effects (elevates SIRT6, enhances mADPr activity).
+- **[[Centenarians]]** — centenarian-enriched SIRT6 variants (N308K/A313S) confer stress resistance.
+- **[[Progerin]]** — centenarian SIRT6 variants protect against progerin-induced senescence.
+- **[[LINE-1]]** — SIRT6 represses LINE1; centenarian variants suppress progerin-induced LINE1 derepression.
+- **[[Hutchinson-Gilford Progeria Syndrome]]** — AAV-CentSIRT6 reduces LINE1 in HGPS fibroblasts.
+- **[[Mesenchymal Stromal Cells]]** — hMSC model used to study centenarian SIRT6 variant effects on senescence.
+- **[[SASP]]** — SIRT6 restraint of LINE-1 curbs cGAS–STING–driven SASP.
+- **[[Epigenetic Alterations]]** — SIRT6 is a chromatin-associated epigenetic regulator of senescence.
+- **[[Cytoplasmic Chromatin Fragments]]** — SIRT6 limits cytosolic DNA sources feeding SASP.
+- **[[cGAS-STING Pathway]]** — SIRT6 repression of retroelements dampens cGAS–STING SASP.
+- **[[Inflammaging]]** — SIRT6 loss promotes inflammaging via LINE-1 derepression.
+- **[[Senescence-Associated Heterochromatin Foci]]** — SIRT6 heterochromatinization intersects SAHF organization.
+- **[[Histone Variant]]** — SIRT6 deacetylates histones at repressed LINE-1 loci.
+- **[[DNA Methylation]]** — cooperates with SIRT6 to silence LINE-1.
+- **[[RB1]]** — co-enriched with SIRT6 at LINE-1 5′UTR to enforce heterochromatin.
+- **[[KAP1]]** — SIRT6 mono-ADP-ribosylates KAP1 to recruit HP1α at LINE-1.
+- **[[HP1alpha]]** — recruited by SIRT6/KAP1 to package LINE-1 into heterochromatin.
 
 ---
 
 ## 8. Linking Summary
 
-- **New Links Added**: [[SIRT7]], [[SIRT4]], [[p53]], [[NFKB]], [[Aging]], [[Base Excision Repair]], [[UBCS039]], [[MDL-801]], [[Cyanidin]], [[HIF-1α]], [[LINE-1]], [[Heterochromatin]], [[NAD+]], [[Sirtuins]], [[Diabetes Mellitus]], [[Inflammation]], [[Nkx3.2]]
-- **Suggested New Notes to Create**: [[Base Excision Repair]], [[LINE-1]], [[PARP1]]
-- **Strong Connections to Strengthen**: [[SIRT6]] ↔ [[Base Excision Repair]], [[SIRT6]] ↔ [[Aging]], [[SIRT6]] ↔ [[MDL-801]]
+- **New Links Added**: [[SIRT7]], [[SIRT4]], [[p53]], [[NFKB]], [[Aging]], [[Base Excision Repair]], [[UBCS039]], [[MDL-801]], [[Cyanidin]], [[HIF-1α]], [[LINE-1]], [[Heterochromatin]], [[NAD+]], [[Sirtuins]], [[Diabetes Mellitus]], [[Inflammation]], [[Nkx3.2]], [[Vimentin]], [[USP10]], [[Fucoidan]], [[Centenarians]], [[Progerin]], [[Hutchinson-Gilford Progeria Syndrome]], [[Mesenchymal Stromal Cells]], [[SASP]], [[Epigenetic Alterations]], [[Cytoplasmic Chromatin Fragments]], [[cGAS-STING Pathway]], [[Inflammaging]], [[Senescence-Associated Heterochromatin Foci]], [[Histone Variant]], [[DNA Methylation]], [[RB1]], [[KAP1]], [[HP1alpha]]
+- **Suggested New Notes to Create**: [[PARP1]]
+- **Strong Connections to Strengthen**: [[SIRT6]] ↔ [[Base Excision Repair]], [[SIRT6]] ↔ [[Aging]], [[SIRT6]] ↔ [[MDL-801]], [[SIRT6]] ↔ [[Vimentin]], [[SIRT6]] ↔ [[Fucoidan]]
+
+## Documents
+
+List of documents that mention this entity
+
+  - [[_document_ - sirtuins (overview, CD38 KO risks, cancer therapies)|sirtuins (overview, CD38 KO risks, cancer therapies)]]
+    - Nuclear (Class IV): SIRT6 (chromatin-associated), SIRT7 (nucleolar). nature.com Localization can vary by cell type, Cell Cycle stage, and conditions.
+
+  - [[_document_ - sirtuins (resveratrol), gemini|sirtuins (resveratrol), gemini]]
+    - The most notable progress has been made with SIRT3 and SIRT6, while others present unique structural challenges that favor inhibition rather than activation. SIRT3 Activators (Mitochondrial Deacetylase) SIRT3 is the primary deacetylase inside the mitochondria.
+
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+    - Recently, however, mono-ADP-ribosyl transferase activity has been found to be the main enzymatic activity of at least two of the mammalian sirtuins, SIRT4 and SIRT6 (Figure 1), as discussed below.
+
+  - [[_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review|sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review]]
+    - There are a total of seven human sirtuins that have been identified namely, SIRT1, SIRT2, SIRT3, SIRT4, SIRT5, SIRT6 and SIRT7.
+
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+    - SIRT3–SIRT5 localize primarily to mitochondria, and have a mitochondrial targeting sequence.[–] Additionally, SIRT6 and SIRT7 are nuclear proteins. Of them, SIRT6 is principally located in the chromatin and SIRT7 is mostly found in the nucleolus.
+
+  - [[_document_ - centenarian_sirt_6 nihpp-rs9997679v1|Centenarian SIRT6 Variants Study]]
+    - Demonstrates that centenarian SIRT6 variants (N308K/A313S) elevate endogenous SIRT6 protein via weakened vimentin interaction, alter enzymatic activities (enhanced mADPr, reduced deacetylase), delay replicative senescence, and protect against progerin-induced stress. AAV-CentSIRT6 and Fucoidan-FV reduce LINE1 in HGPS fibroblasts.
+
+  - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]]
+    - Review notes SIRT6 is enriched at the 5′UTR of LINE-1 loci where it mono-ADP-ribosylates KAP1 to promote HP1α-mediated heterochromatinization; senescence-associated SIRT6 loss derepresses LINE-1, fueling cGAS–STING–driven SASP and inflammaging.
+
+
