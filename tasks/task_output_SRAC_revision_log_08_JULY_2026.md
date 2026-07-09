@@ -49,11 +49,11 @@ GlyNAC is the only component continuous across both phases.
 
 The original protocol specified "Adrenochrome (controlled delivery via targeted nanoparticles)." This raised two unsolved challenges:
 
-1. **No published literature:** No study has combined adrenochrome with nanoparticles for any therapeutic purpose. The SRAC protocol document itself acknowledged: "No published work directly combines adrenochrome with ligand-NPs for senotherapy."
+- **No published literature:** No study has combined adrenochrome with nanoparticles for any therapeutic purpose. The SRAC protocol document itself acknowledged: "No published work directly combines adrenochrome with ligand-NPs for senotherapy."
 
-2. **Adrenochrome instability:** Undergoes rapid autoxidation, polymerizes into melanin-like products, and has a half-life of seconds to minutes in biological systems. No standard pharmaceutical formulation exists.
+- **Adrenochrome instability:** Undergoes rapid autoxidation, polymerizes into melanin-like products, and has a half-life of seconds to minutes in biological systems. No standard pharmaceutical formulation exists.
 
-3. **Nanoparticle targeting markers:** The protocol proposed targeting CD9, B2M, and uPAR on senescent cell surfaces, but these are shared with non-senescent cell types, and the heterogeneity of senescent cell surface markers across tissues complicates universal targeting.
+- **Nanoparticle targeting markers:** The protocol proposed targeting CD9, B2M, and uPAR on senescent cell surfaces, but these are shared with non-senescent cell types, and the heterogeneity of senescent cell surface markers across tissues complicates universal targeting.
 
 ### Resolution
 
@@ -109,11 +109,11 @@ The original protocol specified "Adrenochrome (controlled delivery via targeted 
 
 ## Remaining Research Gaps
 
-1. **AMM dose–response in senescent cells:** No direct evidence that AMM at sub-micromolar doses activates NRF2 or modulates SASP in senescent cell models. Requires in vitro validation.
-2. **Optimal washout duration:** The 1–2 week rapamycin washout is estimated. SASP biomarker tracking (IL-6, CXCL12) could personalize this.
-3. **MB + AMM interaction:** MB's electron-shuttling activity may dampen AMM's hormetic ROS signal below the NRF2 activation threshold. Dose titration required.
-4. **GlyNAC timing relative to AMM:** GSH must be elevated before AMM exposure. The protocol specifies Phase 1 GlyNAC loading but does not define the minimum lead time.
-5. **MB MAO-A inhibition:** Serotonin syndrome risk requires screening concomitant serotonergic medications.
+- **AMM dose–response in senescent cells:** No direct evidence that AMM at sub-micromolar doses activates NRF2 or modulates SASP in senescent cell models. Requires in vitro validation.
+- **Optimal washout duration:** The 1–2 week rapamycin washout is estimated. SASP biomarker tracking (IL-6, CXCL12) could personalize this.
+- **MB + AMM interaction:** MB's electron-shuttling activity may dampen AMM's hormetic ROS signal below the NRF2 activation threshold. Dose titration required.
+- **GlyNAC timing relative to AMM:** GSH must be elevated before AMM exposure. The protocol specifies Phase 1 GlyNAC loading but does not define the minimum lead time.
+- **MB MAO-A inhibition:** Serotonin syndrome risk requires screening concomitant serotonergic medications.
 
 ---
 
@@ -127,13 +127,13 @@ Replaced carbazochrome with **AMM** (adrenochrome monoaminoguanidine) as the mod
 
 From the protocol document (`outline_adrenochrome_protocol_27_JUN_2026-00.md`), two components were identified as nanoparticle alternatives:
 
-1. **AMM** — A pre-stabilized adrenochrome–aminoguanidine complex (used clinically as a hemostatic). Provides:
+- **AMM** — A pre-stabilized adrenochrome–aminoguanidine complex (used clinically as a hemostatic). Provides:
    - **Redox trigger** (adrenochrome moiety): hormetic ROS pulse → NRF2/ARE activation
    - **AGE inhibition** (aminoguanidine moiety): traps reactive dicarbonyls, prevents protein cross-linking
    - **Stability**: no nanoparticle encapsulation needed; defined pharmacokinetics
    - **Dual-strategy synergy**: bridges SRAC with the GOPS (Glyco-Oxidative Proteostasis Shield) strategy
 
-2. **Methylene Blue** — An FDA-approved mitochondrial electron cycler with 72–80% oral bioavailability. Provides:
+- **Methylene Blue** — An FDA-approved mitochondrial electron cycler with 72–80% oral bioavailability. Provides:
    - **Mitochondrial self-targeting**: accumulates in mitochondria via membrane potential, the same organelles where AMM generates the hormetic signal
    - **ROS control**: shuttles electrons from NADH → Cytochrome c, bypassing Complex I/III, preventing runaway ROS amplification
    - **Electron shunting**: sustains ATP production while maintaining the signaling pulse

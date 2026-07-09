@@ -20,7 +20,7 @@ chevron_right
 
 ---
 
-### 1. Overview of the Compounds
+### Overview of the Compounds
 
 - **Aminoguanidine (Pimagedine):** This compound is primarily known as a selective inhibitor of **inducible nitric oxide synthase (iNOS)**, the enzyme responsible for producing high levels of nitric oxide during inflammation[[3](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQFrytDqXpZuA-poI3RVc-RPA3B2FPuiFrsNk_U-1_km_YrDKrJSkWxQ24uDWqjdplZRpuJK-wO4TpKQAg76Y96suDQIjGt6Kxcpvob4omveFGlGyzaGbqxkRuG_139cp5YPfmJ46_ij)][[4](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQGF_KOeT_kruosnegNPYEEF_v_daZwz8X57D4fBWOT7tkK5nDd-HSmYgL-6-Kvtalaz4k25Jgdd5byJNn-MaVKzN1jw1lDd6oyPwzBF4-7rLAm3yRMa6udMnm0JQYKPLoe3Kp3fqxueZd91Nms%3D)]. It is also an inhibitor of diamine oxidase (DAO) and prevents the formation of advanced glycation end-products (AGEs), which are implicated in diabetic complications[[5](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQGlm1rwpW6HTJD2KB7hl9wJyPol1fPflxnik3-TWw4tRhhX7koSAyVxuwkf8Xx41tdT9hhK3IY1AMwqrywDPZEj_XWDDAx-Tg7VmtEnGNzK8NQfZfYo7lKWZ7DCDb8H9fJHSU44hqgS5gWnDc2NeXlcZrrttgUymKsq8iQ%3D)].
     
@@ -29,7 +29,7 @@ chevron_right
 
 ---
 
-### 2. The Biochemical Connection: The Nitric Oxide Pathway
+### The Biochemical Connection: The Nitric Oxide Pathway
 
 The primary reason these two compounds are discussed or compared in medical literature is their influence on the **NO-cGMP (cyclic guanosine monophosphate) pathway**[[2](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQFZdPaisoF7M91iI5yuyQHG0_IA_y62uJO7dNap7g-VT5DVVlpXsV1QjSNtSv-Ilk6_XgLLobh9adDlh29FSO95Afh1i-eIV3DY_RoY3pEXmlL_Df5Iut0a8LbCsK6fIg%3D%3D)][[9](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQHNps7VxodQSaWPF11HkoKd7ckvRgZeNloR8BLLAOfJvp3EBMuXP2765rCt68UV4wRLSbUlYBB6DiVQhOf6iO8yJFF3IWH4chUCR4LaKSy9LD-GYeMr3G29CUv3ADYPTWE-EHdQGtCMcs4JhoAt-emLb2l2gd2sXkQGv14K_dZss0L-K9A%3D)].
 
@@ -60,7 +60,7 @@ codeCode
 
 ---
 
-### 3. Scientific and Clinical Contexts
+### Scientific and Clinical Contexts
 
 Because of these complementary mechanisms, researchers have investigated both compounds in several pathological states:
 
@@ -86,7 +86,7 @@ Severe burns trigger a massive inflammatory response[[3](https://www.google.com/
 
 ---
 
-### 4. Key Differences in Clinical Availability
+### Key Differences in Clinical Availability
 
 While both are highly valued in laboratory research, they have very different statuses in clinical practice:
 
@@ -97,7 +97,7 @@ While both are highly valued in laboratory research, they have very different st
 
 ---
 
-### 5. Safety and Interaction Considerations
+### Safety and Interaction Considerations
 
 If these compounds are being considered in any clinical or supplementary context, several safety factors are highly important:
 
@@ -110,21 +110,21 @@ If these compounds are being considered in any clinical or supplementary context
 
 Sourceshelp
 
-1. [nih.gov](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQFZQL_sLAlYeB-C2LDA88Xcrat0yhLMx1sfV9QFfLa1awwt64Jbmh-dHKMQbDGoBe-eencd3GNnIwSJvY0B75-wGC4ZEyz2aRNAmXc4D4QclBP1atkivNPGXDHuppq3)
-2. [nih.gov](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQFZdPaisoF7M91iI5yuyQHG0_IA_y62uJO7dNap7g-VT5DVVlpXsV1QjSNtSv-Ilk6_XgLLobh9adDlh29FSO95Afh1i-eIV3DY_RoY3pEXmlL_Df5Iut0a8LbCsK6fIg%3D%3D)
-3. [nih.gov](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQFrytDqXpZuA-poI3RVc-RPA3B2FPuiFrsNk_U-1_km_YrDKrJSkWxQ24uDWqjdplZRpuJK-wO4TpKQAg76Y96suDQIjGt6Kxcpvob4omveFGlGyzaGbqxkRuG_139cp5YPfmJ46_ij)
-4. [tandfonline.com](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQGF_KOeT_kruosnegNPYEEF_v_daZwz8X57D4fBWOT7tkK5nDd-HSmYgL-6-Kvtalaz4k25Jgdd5byJNn-MaVKzN1jw1lDd6oyPwzBF4-7rLAm3yRMa6udMnm0JQYKPLoe3Kp3fqxueZd91Nms%3D)
-5. [medchemexpress.com](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQGlm1rwpW6HTJD2KB7hl9wJyPol1fPflxnik3-TWw4tRhhX7koSAyVxuwkf8Xx41tdT9hhK3IY1AMwqrywDPZEj_XWDDAx-Tg7VmtEnGNzK8NQfZfYo7lKWZ7DCDb8H9fJHSU44hqgS5gWnDc2NeXlcZrrttgUymKsq8iQ%3D)
-6. [mdpi.com](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQFvRY5YJeGvLut0lim_B9jqrsb3I3tjQqPIoz_f2Ww1BIcnRUMkn-SUDGnhX5N9jbEOVhhUZpDwtem1pNwJrckPesHAKhijI6H_Z1XZ3yLEWEbtz8ok4d7QTuob7ljo)
-7. [harvard.edu](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQGu7vu69_8DA_-OK49FBdVRyoPBWqDO4UJ6Y8sim97bnGv7RqL8xdQfRyCk83bJLZXec_l1lW6LugO2oSGBAeLjC4inD_be7mPIV-L8KLBW6iosjisEQQJ211sVqUPJACM7mUs3oKeoyVJcMa0tQ9eibV8zlPNrfhJPkL_3uhACBI-O4HCIfhu3RUV5PLCqSpc%3D)
-8. [nih.gov](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQGMx7d6gAcpA9HG68MPFAtkROWgDYy1LtYf2QxRu_bD7PJeug7pMtMkQXRN0eeNJUeJQo0lbXk9KWdMxyFqp0NxITUE1VjW__J6nVeOu1vnbBPt8qBw8LzrJoeiWhU%3D)
-9. [apsf.org](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQHNps7VxodQSaWPF11HkoKd7ckvRgZeNloR8BLLAOfJvp3EBMuXP2765rCt68UV4wRLSbUlYBB6DiVQhOf6iO8yJFF3IWH4chUCR4LaKSy9LD-GYeMr3G29CUv3ADYPTWE-EHdQGtCMcs4JhoAt-emLb2l2gd2sXkQGv14K_dZss0L-K9A%3D)
-10. [nih.gov](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQEKVyIj3yhjdCPZao_92cfTZ6o5VXiJdLo9TJJmmdypUSMGYrdu5pkJU_IHHs4MnGDVZGARj4ZVAB_scSMoJRrlUynp80__g7ozDBxhP5rneVzdCSUAsb8e76wbbnh9_g%3D%3D)
-11. [scispace.com](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQF3DlOKv5mIuaeoNTPk9tnZv2prH9cAwiIzJjx-NoXIUENma2eilkJkTwuI428hmME68kh8-jBS8kOQ4XJH-HPETLCI5wVswOeTLyXbEncB2EO7-RgSowWcSWAI9V69P6inCeJpMTTQ_seagUJgDIJPpspoLyL4YwWty4sqFp8upKDv6hWj67uyRN3TJdA%3D)
-12. [mdpi.com](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQFcyx1DsUV6Ty2gT9NgFm7UQVRM51M9Twi36kqW4DSK3d3nfxFxt_fY8SatcgmX2XT7xmn767F5fbujrkRlMb_SMEaJs8uZicqs0PbMb63UNdiAJYVflyvbFhxB0pU%3D)
-13. [kingspharma.com](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQFDKBn4GGt3PXcCLPmh6kxGofrPn5DPr4xSRSrZTaTTuyAQ9NVzAeHAegmoOa-_NfKcXmVfbsbbojqUveaUE_ImHBxD8viLf2lXq_ccJQPTQFXX8lI_PnlDfSxbCwx9NVrW6kPNEdZMZujg4tuTCCW5mCMGzUxBLhDeN2OldyrtXA9GnYUgWQ%3D%3D)
-14. [webmd.com](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQFwJ7jwA57JQ-mfjPtvQE2LP8N1nQEB0b4B-nV0CKDJtw8W0Wb9ZGWiUdXoPChvakIObEElaxMO84i__2McTSA2NRce9FagBI3Kk0JdmZacWnrudX0DIORqvRcnqlnWybOQDNzf_leP9ULItXdybicsCvO5yZE65SdPvg%3D%3D)
-15. [drugs.com](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQG6YDeoFWyroHSA_9_wuEt2iUHKJxGjNb0LiuzfGL72QmeHVhrpzVxN7iunUJQVggrp3Nx2Or21hnYSMysAowbUtNDd-2vF21WSRLje80iHgGfcDZIZPIeDrTrAaMaKXnmexLAx8F_ow7wqoYwHD0sRZfGIIg-TNxYsx4_-spIunJ36FQzuZrsFgPs-HT6I)
+- [nih.gov](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQFZQL_sLAlYeB-C2LDA88Xcrat0yhLMx1sfV9QFfLa1awwt64Jbmh-dHKMQbDGoBe-eencd3GNnIwSJvY0B75-wGC4ZEyz2aRNAmXc4D4QclBP1atkivNPGXDHuppq3)
+- [nih.gov](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQFZdPaisoF7M91iI5yuyQHG0_IA_y62uJO7dNap7g-VT5DVVlpXsV1QjSNtSv-Ilk6_XgLLobh9adDlh29FSO95Afh1i-eIV3DY_RoY3pEXmlL_Df5Iut0a8LbCsK6fIg%3D%3D)
+- [nih.gov](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQFrytDqXpZuA-poI3RVc-RPA3B2FPuiFrsNk_U-1_km_YrDKrJSkWxQ24uDWqjdplZRpuJK-wO4TpKQAg76Y96suDQIjGt6Kxcpvob4omveFGlGyzaGbqxkRuG_139cp5YPfmJ46_ij)
+- [tandfonline.com](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQGF_KOeT_kruosnegNPYEEF_v_daZwz8X57D4fBWOT7tkK5nDd-HSmYgL-6-Kvtalaz4k25Jgdd5byJNn-MaVKzN1jw1lDd6oyPwzBF4-7rLAm3yRMa6udMnm0JQYKPLoe3Kp3fqxueZd91Nms%3D)
+- [medchemexpress.com](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQGlm1rwpW6HTJD2KB7hl9wJyPol1fPflxnik3-TWw4tRhhX7koSAyVxuwkf8Xx41tdT9hhK3IY1AMwqrywDPZEj_XWDDAx-Tg7VmtEnGNzK8NQfZfYo7lKWZ7DCDb8H9fJHSU44hqgS5gWnDc2NeXlcZrrttgUymKsq8iQ%3D)
+- [mdpi.com](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQFvRY5YJeGvLut0lim_B9jqrsb3I3tjQqPIoz_f2Ww1BIcnRUMkn-SUDGnhX5N9jbEOVhhUZpDwtem1pNwJrckPesHAKhijI6H_Z1XZ3yLEWEbtz8ok4d7QTuob7ljo)
+- [harvard.edu](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQGu7vu69_8DA_-OK49FBdVRyoPBWqDO4UJ6Y8sim97bnGv7RqL8xdQfRyCk83bJLZXec_l1lW6LugO2oSGBAeLjC4inD_be7mPIV-L8KLBW6iosjisEQQJ211sVqUPJACM7mUs3oKeoyVJcMa0tQ9eibV8zlPNrfhJPkL_3uhACBI-O4HCIfhu3RUV5PLCqSpc%3D)
+- [nih.gov](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQGMx7d6gAcpA9HG68MPFAtkROWgDYy1LtYf2QxRu_bD7PJeug7pMtMkQXRN0eeNJUeJQo0lbXk9KWdMxyFqp0NxITUE1VjW__J6nVeOu1vnbBPt8qBw8LzrJoeiWhU%3D)
+- [apsf.org](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQHNps7VxodQSaWPF11HkoKd7ckvRgZeNloR8BLLAOfJvp3EBMuXP2765rCt68UV4wRLSbUlYBB6DiVQhOf6iO8yJFF3IWH4chUCR4LaKSy9LD-GYeMr3G29CUv3ADYPTWE-EHdQGtCMcs4JhoAt-emLb2l2gd2sXkQGv14K_dZss0L-K9A%3D)
+- [nih.gov](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQEKVyIj3yhjdCPZao_92cfTZ6o5VXiJdLo9TJJmmdypUSMGYrdu5pkJU_IHHs4MnGDVZGARj4ZVAB_scSMoJRrlUynp80__g7ozDBxhP5rneVzdCSUAsb8e76wbbnh9_g%3D%3D)
+- [scispace.com](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQF3DlOKv5mIuaeoNTPk9tnZv2prH9cAwiIzJjx-NoXIUENma2eilkJkTwuI428hmME68kh8-jBS8kOQ4XJH-HPETLCI5wVswOeTLyXbEncB2EO7-RgSowWcSWAI9V69P6inCeJpMTTQ_seagUJgDIJPpspoLyL4YwWty4sqFp8upKDv6hWj67uyRN3TJdA%3D)
+- [mdpi.com](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQFcyx1DsUV6Ty2gT9NgFm7UQVRM51M9Twi36kqW4DSK3d3nfxFxt_fY8SatcgmX2XT7xmn767F5fbujrkRlMb_SMEaJs8uZicqs0PbMb63UNdiAJYVflyvbFhxB0pU%3D)
+- [kingspharma.com](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQFDKBn4GGt3PXcCLPmh6kxGofrPn5DPr4xSRSrZTaTTuyAQ9NVzAeHAegmoOa-_NfKcXmVfbsbbojqUveaUE_ImHBxD8viLf2lXq_ccJQPTQFXX8lI_PnlDfSxbCwx9NVrW6kPNEdZMZujg4tuTCCW5mCMGzUxBLhDeN2OldyrtXA9GnYUgWQ%3D%3D)
+- [webmd.com](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQFwJ7jwA57JQ-mfjPtvQE2LP8N1nQEB0b4B-nV0CKDJtw8W0Wb9ZGWiUdXoPChvakIObEElaxMO84i__2McTSA2NRce9FagBI3Kk0JdmZacWnrudX0DIORqvRcnqlnWybOQDNzf_leP9ULItXdybicsCvO5yZE65SdPvg%3D%3D)
+- [drugs.com](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQG6YDeoFWyroHSA_9_wuEt2iUHKJxGjNb0LiuzfGL72QmeHVhrpzVxN7iunUJQVggrp3Nx2Or21hnYSMysAowbUtNDd-2vF21WSRLje80iHgGfcDZIZPIeDrTrAaMaKXnmexLAx8F_ow7wqoYwHD0sRZfGIIg-TNxYsx4_-spIunJ36FQzuZrsFgPs-HT6I)
 
 ##### Google Search Suggestions
 

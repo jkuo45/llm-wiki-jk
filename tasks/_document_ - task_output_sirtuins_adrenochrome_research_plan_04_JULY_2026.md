@@ -43,7 +43,7 @@ The prior report established that [[SIRT3]] activates [[MnSOD]] via deacetylatio
 
 ### Proposed Experimental Design
 
-1. **SIRT3/SIRT4 Isogenic Cell Lines:**
+- **SIRT3/SIRT4 Isogenic Cell Lines:**
    - Generate SIRT3-[[Knockout mouse|KO]], SIRT4-KO, and double-KO primary human [[Cardiomyocytes|cardiomyocytes]] and renal TECs using [[CRISPR|CRISPR/Cas9]].
    - Treat with [[Adrenochrome]] (1 nM–100 μM, 12-point dose curve) and measure:
      - Superoxide burst kinetics (MitoSOX, real-time flow cytometry).
@@ -52,18 +52,18 @@ The prior report established that [[SIRT3]] activates [[MnSOD]] via deacetylatio
      - [[Cell necrosis|Cell viability]] (MTT/LDH release).
    - Determine the EC50 for hormetic [[NRF2|Nrf2]] nuclear translocation (via GFP-Nrf2 reporter) in each genetic background.
 
-2. **SIRT3/SIRT4 Pharmacological Modulation:**
+- **SIRT3/SIRT4 Pharmacological Modulation:**
    - Treat wild-type cells with sub-toxic adrenochrome (the "eustress" concentration identified in Phase I) ± the SIRT3 activator [[Honokiol]], ± the SIRT4-selective inhibitor (novel or repurposed).
    - Measure the fold-change in MnSOD activity and [[Mitochondrial ROS|mitochondrial ROS]] clearance rate.
    - Hypothesis: Honokiol will widen the eustress window by accelerating MnSOD-mediated superoxide dismutation; SIRT4 inhibition will synergize.
 
-3. **[[Angiotensin II|Ang II]] [[Fibrosis]] Model:**
+- **[[Angiotensin II|Ang II]] [[Fibrosis]] Model:**
    - Induce hypertrophy/fibrosis in primary [[Cardiomyocytes|cardiomyocytes]] with [[Angiotensin II|Ang II]] (1 μM, 48 h).
    - Pre-treat with sub-toxic adrenochrome (the identified eustress dose) for 24 h before Ang II challenge.
    - Endpoints: Cell surface area (α-actinin staining), [[Atrial natriuretic peptide|ANP]]/[[BNP]] expression ([[qPCR]]), collagen deposition (hydroxyproline assay).
    - Compare against SIRT3 overexpression and SIRT4-KO controls to determine whether adrenochrome's protective effect is SIRT3-dependent.
 
-4. **Mitochondrial Sirtuin-Redox Flux Modeling:**
+- **Mitochondrial Sirtuin-Redox Flux Modeling:**
    - Develop a kinetic computational model of the adrenochrome redox cycle coupled to MnSOD kinetics, parameterized by experimental data from (1) and (2).
    - Simulate the [[SIRT3-SIRT4 Ratio|SIRT3/SIRT4 ratio]] as a variable to predict the [[Hormetic Window|hormetic window]] across different cell types and ages.
 
@@ -85,19 +85,19 @@ The prior report established that [[SIRT3]] activates [[MnSOD]] via deacetylatio
 
 ### Proposed Experimental Design
 
-1. **SIRT6 Promoter-Reporter Assay:**
+- **SIRT6 Promoter-Reporter Assay:**
    - Generate a SIRT6-[[Luciferase|luciferase]] reporter construct containing the putative ARE sites in the SIRT6 promoter.
    - Transfect into [[HEK293|HEK293T]] cells; treat with adrenochrome (1–100 nM) ± the Nrf2 inhibitor [[ML385]].
    - Measure luminescence at 6, 12, 24 h post-treatment.
    - Confirm Nrf2 [[Chromatin|chromatin]] binding at the SIRT6 locus via [[ChIP-seq|ChIP-qPCR]].
 
-2. **SIRT6 Enzymatic Activity Assay (In Vitro):**
+- **SIRT6 Enzymatic Activity Assay (In Vitro):**
    - Purify recombinant human SIRT6.
    - Pre-incubate with adrenochrome (0.1–10 μM) ± [[DTT]] (to assess redox dependence).
    - Measure deacetylation of H3K9ac peptide substrate using the fluoro-deacetylase assay (NAD+-dependent).
    - Compare to [[MDL-800]] as positive control; assess additivity/synergy via combination index (CI) analysis.
 
-3. **[[DNA Repair|DNA Repair]] Kinetics in Senescent [[Fibroblast|Fibroblasts]]:**
+- **[[DNA Repair|DNA Repair]] Kinetics in Senescent [[Fibroblast|Fibroblasts]]:**
    - Induce [[Cellular Senescence|senescence]] in IMR-90 [[Fibroblast|fibroblasts]] via [[Ionizing Radiation|ionizing radiation]] (10 Gy).
    - Treat cells with vehicle, adrenochrome (10 nM), [[MDL-800]] (10 μM), or combination.
    - Measure:
@@ -106,7 +106,7 @@ The prior report established that [[SIRT3]] activates [[MnSOD]] via deacetylatio
      - SIRT6 [[Chromatin|chromatin]] recruitment (ChIP for SIRT6 at telomeric repeats and [[LINE-1|LINE-1]] elements).
    - Evaluate whether adrenochrome pretreatment accelerates repair kinetics and whether this requires SIRT6 (using SIRT6-KO fibroblasts).
 
-4. **[[Epigenetic Clock]] Measurement:**
+- **[[Epigenetic Clock]] Measurement:**
    - In parallel with the 12-week in vivo [[MDL-800]] study proposed in the original report, add an adrenochrome-only and adrenochrome + MDL-800 arm.
    - Measure Horvath mouse [[Epigenetic Clock|epigenetic clock]] across [[Liver|liver]], [[Heart|heart]], [[Hippocampus|hippocampus]], and [[Kidney|kidney]].
    - Test whether adrenochrome-containing regimens produce greater age-reversal than MDL-800 alone.
@@ -129,7 +129,7 @@ The prior report highlighted the paradox of [[SIRT2]]: it stabilizes [[TFEB]] [[
 
 ### Proposed Experimental Design
 
-1. **Neuron-Specific SIRT2-[[Knockout mouse|KO]] [[Autophagy]] Assays:**
+- **Neuron-Specific SIRT2-[[Knockout mouse|KO]] [[Autophagy]] Assays:**
    - Generate primary cortical [[Neuron|neurons]] from SIRT2-floxed mice transduced with [[AAV|AAV]]-Cre (SIRT2-KO) or AAV-GFP (control).
    - Treat with sub-toxic adrenochrome (1–100 nM, 2 h) ± the [[AMPK]] inhibitor [[Compound C]] (10 μM).
    - Quantify:
@@ -138,13 +138,13 @@ The prior report highlighted the paradox of [[SIRT2]]: it stabilizes [[TFEB]] [[
      - Lysosomal biogenesis ([[LAMP1]], [[Cathepsin B|CTSB]] expression by [[qPCR]]; LysoTracker staining).
    - Also assess α-tubulin acetylation (K40) by Western blot to confirm SIRT2 independence.
 
-2. **[[Proteotoxicity|Proteotoxic]] Stress Clearance:**
+- **[[Proteotoxicity|Proteotoxic]] Stress Clearance:**
    - Transfect [[SH-SY5Y]] neurons with [[Alpha-synuclein|α-synuclein]] pre-formed fibrils (PFFs) or GFP-tagged [[Huntingtin|huntingtin]] exon1 (HTT-Q74).
    - Treat with adrenochrome (10 nM) ± [[Rapamycin]] (100 nM) ± SIRT2 activator (e.g., a stabilized TFEB-binding peptide).
    - Measure aggregate clearance (fluorescent puncta count, filter trap assay) at 24, 48, 72 h.
    - Determine whether adrenochrome adds to or substitutes for SIRT2-mediated autophagic enhancement.
 
-3. **Microglial [[NLRP3 Inflammasome|NLRP3]] Suppression:**
+- **Microglial [[NLRP3 Inflammasome|NLRP3]] Suppression:**
    - Treat primary [[Microglia|microglia]] with [[LPS]] (100 ng/mL, 4 h) to prime NLRP3, then add [[ATP]] (5 mM) + adrenochrome (1–100 nM).
    - Measure:
      - [[Interleukin 1beta|IL-1β]] and [[IL-18]] release ([[ELISA|ELISA]]).
@@ -153,7 +153,7 @@ The prior report highlighted the paradox of [[SIRT2]]: it stabilizes [[TFEB]] [[
      - [[NRF2|Nrf2]] nuclear translocation and [[HO-1]] expression.
    - Compare to [[MCC950]] (canonical NLRP3 inhibitor) and SIRT1/3 overactivation controls.
 
-4. **Co-culture Model (Neuron-[[Astrocytes|Astrocyte]]-[[Microglia]]):**
+- **Co-culture Model (Neuron-[[Astrocytes|Astrocyte]]-[[Microglia]]):**
    - Establish tri-culture of [[Neuron|neurons]], [[Astrocytes|astrocytes]], and [[Microglia|microglia]] from wild-type or SIRT2-KO mice.
    - Induce proteotoxicity with [[Alpha-synuclein|α-synuclein]] PFFs in the neuronal compartment.
    - Treat with adrenochrome; measure neuronal survival ([[MAP2]] staining), synaptic density ([[Synaptophysin|synaptophysin]]), astrocytic GFAP reactivity, and microglial morphology ([[Iba1]], ramification index).
@@ -177,13 +177,13 @@ The prior report identified [[CD38]] as the primary [[NAD+]] sink during [[Aging
 
 ### Proposed Experimental Design
 
-1. **NAD+ Metabolome Flux Analysis:**
+- **NAD+ Metabolome Flux Analysis:**
    - Treat [[HepG2]] [[Hepatocyte|hepatocytes]] with adrenochrome (1–100 nM, 0–24 h).
    - Perform targeted [[LC-MS|LC-MS/MS]] for NAD+, [[NADH]], NADP+, [[NADPH]], [[NMN]], [[Nicotinamide Riboside|NR]], and [[Nicotinamide|nicotinamide]].
    - Also measure [[PARP1]] activity (PAR polymer [[ELISA|ELISA]]) to confirm absence of DNA damage-related NAD+ depletion at hormetic doses.
    - Perform flux analysis using [¹³C]-nicotinamide tracing to quantify NAMPT activity.
 
-2. **CD38 Expression & NADase Activity:**
+- **CD38 Expression & NADase Activity:**
    - Treat [[RAW264.7]] [[Macrophage|macrophages]] with [[LPS]] (100 ng/mL) to upregulate CD38 (mimicking aging-associated [[Inflammation|inflammation]]).
    - Co-treat with adrenochrome (10 nM) ± Nrf2 inhibitor ([[ML385]]) ± anti-CD38 antibody (low-dose [[Daratumumab]], 1 μg/mL).
    - Measure:
@@ -192,7 +192,7 @@ The prior report identified [[CD38]] as the primary [[NAD+]] sink during [[Aging
      - Intracellular NAD+ concentration ([[LC-MS|LC-MS/MS]]).
    - Determine whether adrenochrome suppresses CD38 transcription via Nrf2-mediated repression of [[NFKB|NF-κB]] at the CD38 promoter ([[ChIP-seq|ChIP-qPCR]]).
 
-3. **In Vivo NAD+ Rescue in Aged Mice:**
+- **In Vivo NAD+ Rescue in Aged Mice:**
    - Use 22-month-old [[C57BL/6]] mice.
    - Four arms (n=8/group): (i) vehicle; (ii) adrenochrome (5 μg/kg, i.p., 3×/week); (iii) low-dose [[Daratumumab]] (0.1 mg/kg, i.v., 1×/week); (iv) combination.
    - After 8 weeks, sacrifice and measure:
@@ -201,7 +201,7 @@ The prior report identified [[CD38]] as the primary [[NAD+]] sink during [[Aging
      - [[Mitochondria|Mitochondrial]] respiratory capacity ([[Seahorse XF Analyzer|Seahorse XFe96]] on isolated muscle [[Mitochondria|mitochondria]]).
    - Assess safety: echocardiography, methemoglobin levels, [[Liver|liver]] enzymes.
 
-4. **CD38 Promoter Reporter & Nrf2 [[ChIP-seq]]:**
+- **CD38 Promoter Reporter & Nrf2 [[ChIP-seq]]:**
    - Generate a CD38-[[Luciferase|luciferase]] reporter containing the [[NFKB|NF-κB]] response elements.
    - Co-transfect with constitutive Nrf2-CA (constitutively active) and measure luminescence.
    - Perform ChIP-seq for [[NRF2|Nrf2]] in adrenochrome-treated vs. control [[Macrophage|macrophages]] to identify Nrf2 binding near the CD38 locus.
@@ -224,18 +224,18 @@ The prior report identified [[miR-217]], [[miR-543]], and [[miR-378]] as age-upr
 
 ### Proposed Experimental Design
 
-1. **miRNA Profiling in Senescent Cells:**
+- **miRNA Profiling in Senescent Cells:**
    - Induce [[Cellular Senescence|senescence]] in [[Endothelial cells|HUVECs]] via [[Replicative Senescence|replicative exhaustion]] (PDL > 50) and in primary [[Chondrocytes|chondrocytes]] via [[Interleukin 1beta|IL-1β]] (10 ng/mL, 7 days).
    - Treat with sub-toxic adrenochrome (10 nM, 48 h).
    - Perform small [[RNA-seq]] to quantify changes in [[miR-217]], [[miR-543]], [[miR-378]], and all known age-associated miRs.
    - Validate top hits by [[TaqMan|TaqMan]] [[qPCR]].
 
-2. **Nrf2-[[ChIP-seq|ChIP]] at miR Loci:**
+- **Nrf2-[[ChIP-seq|ChIP]] at miR Loci:**
    - Perform ChIP-[[qPCR]] for [[NRF2|Nrf2]] at the predicted ARE sites within 5 kb upstream of miR-217, miR-543, and miR-378 host genes.
    - Use Nrf2-[[Knockout mouse|KO]] HUVECs ([[CRISPR|CRISPR]]) to confirm requirement.
    - Measure SIRT1 [[Messenger RNA|mRNA]] and protein levels ([[qPCR]] and Western blot) in wild-type vs. Nrf2-KO cells treated with adrenochrome.
 
-3. **NF-κB/[[SASP]] Suppression Assays:**
+- **NF-κB/[[SASP]] Suppression Assays:**
    - In senescent HUVECs and [[Chondrocytes|chondrocytes]], treat with:
      (i) Vehicle; (ii) adrenochrome (10 nM); (iii) [[Locked Nucleic Acid|LNA]]-antagomir pool (50 nM); (iv) combination.
    - Measure:
@@ -245,11 +245,11 @@ The prior report identified [[miR-217]], [[miR-543]], and [[miR-378]] as age-upr
      - [[Senescence-Associated Beta-Galactosidase|Senescence-associated β-galactosidase]] staining.
    - Determine whether combination therapy produces greater SASP suppression than either agent alone.
 
-4. **Endothelial Function (In Vitro):**
+- **Endothelial Function (In Vitro):**
    - Assess [[eNOS]] activity (conversion of [[Arginine|L-arginine]] to [[Citrulline|L-citrulline]]) and [[Nitric Oxide|nitric oxide]] production (DAF-FM fluorescence) in senescent HUVECs treated with adrenochrome ± antagomirs.
    - Evaluate monocyte adhesion assay: visualize THP-1 adhesion to HUVEC monolayers under flow conditions.
 
-5. **In Vivo [[Osteoarthritis]] Model:**
+- **In Vivo [[Osteoarthritis]] Model:**
    - Use 18-month-old [[C57BL/6]] mice with age-associated spontaneous knee OA.
    - Intra-articular injection of: (i) vehicle; (ii) adrenochrome (1 μg); (iii) [[Locked Nucleic Acid|LNA]]-antagomir pool; (iv) combination.
    - Assess OARSI histological score of articular cartilage, SIRT1 expression ([[Immunohistochemistry|IHC]]), and [[Macrophage|macrophage]] polarization ([[CD86]] vs. [[CD206]] IHC) in synovium.
@@ -270,15 +270,15 @@ The prior report identified [[miR-217]], [[miR-543]], and [[miR-378]] as age-upr
 
 ## Safety Considerations & Risk Mitigation
 
-1. **[[Hormetic Window]] Definition:** The single greatest translational risk is exceeding the narrow window between adaptive signaling and cytotoxicity. We will establish the hormetic index (HI = EC50(cytotoxicity) / EC50(Nrf2 activation)) for [[Adrenochrome]] in every cell type used. Any HI < 5 will trigger reformulation to stabilized derivatives ([[Carbazochrome|carbazochrome]], monoaminoguanidine conjugate).
+- **[[Hormetic Window]] Definition:** The single greatest translational risk is exceeding the narrow window between adaptive signaling and cytotoxicity. We will establish the hormetic index (HI = EC50(cytotoxicity) / EC50(Nrf2 activation)) for [[Adrenochrome]] in every cell type used. Any HI < 5 will trigger reformulation to stabilized derivatives ([[Carbazochrome|carbazochrome]], monoaminoguanidine conjugate).
 
-2. **[[Cardiotoxicity]] Surveillance:** All in vivo studies will include serial echocardiography (LVEF, fractional shortening) and serum [[Troponin|troponin I]]. Any significant decline vs. baseline will terminate that arm.
+- **[[Cardiotoxicity]] Surveillance:** All in vivo studies will include serial echocardiography (LVEF, fractional shortening) and serum [[Troponin|troponin I]]. Any significant decline vs. baseline will terminate that arm.
 
-3. **[[Methemoglobin]] Formation:** [[Adrenochrome]] can oxidize [[Hemoglobin|hemoglobin]]. [[Methemoglobin]] levels will be monitored at 1, 4, and 24 h post-dose in murine studies. Co-administration with [[Methylene blue|methylene blue]] (10 μg/kg) is available as rescue.
+- **[[Methemoglobin]] Formation:** [[Adrenochrome]] can oxidize [[Hemoglobin|hemoglobin]]. [[Methemoglobin]] levels will be monitored at 1, 4, and 24 h post-dose in murine studies. Co-administration with [[Methylene blue|methylene blue]] (10 μg/kg) is available as rescue.
 
-4. **[[Polymerization]] Control:** Adrenochrome polymerizes into [[Neuromelanin|neuromelanin]]-like pigments. Stabilized derivatives ([[Carbazochrome|carbazochrome]], [[Bisulfite|bisulfite]] adducts) will be preferred for parenteral administration. For in vivo studies, we will measure plasma and tissue adrenochrome concentration vs. melanin-like pigment formation via [[HPLC|HPLC-UV/VIS]].
+- **[[Polymerization]] Control:** Adrenochrome polymerizes into [[Neuromelanin|neuromelanin]]-like pigments. Stabilized derivatives ([[Carbazochrome|carbazochrome]], [[Bisulfite|bisulfite]] adducts) will be preferred for parenteral administration. For in vivo studies, we will measure plasma and tissue adrenochrome concentration vs. melanin-like pigment formation via [[HPLC|HPLC-UV/VIS]].
 
-5. **Regulatory & Reproducibility:** All key experiments to be performed in at least three independent biological replicates. Cell lines authenticated; mycoplasma-free. Data and code for computational models to be deposited in a public repository.
+- **Regulatory & Reproducibility:** All key experiments to be performed in at least three independent biological replicates. Cell lines authenticated; mycoplasma-free. Data and code for computational models to be deposited in a public repository.
 
 ---
 

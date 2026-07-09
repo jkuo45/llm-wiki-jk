@@ -79,9 +79,9 @@ tags:
 
 ### The Neutrophil Paradox in Aging
 
-1. Neutrophils generate ROS → oxidize epinephrine → amplify oxidative stress
-2. Neutrophils upregulate CD38 → deplete NAD⁺ → impair sirtuin-mediated protective responses
-3. Impaired sirtuins → reduced antioxidant defense → more ROS → more catecholamine oxidation
+- Neutrophils generate ROS → oxidize epinephrine → amplify oxidative stress
+- Neutrophils upregulate CD38 → deplete NAD⁺ → impair sirtuin-mediated protective responses
+- Impaired sirtuins → reduced antioxidant defense → more ROS → more catecholamine oxidation
 
 ---
 

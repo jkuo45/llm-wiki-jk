@@ -6,14 +6,15 @@ published:
 created: 2026-06-19
 description: Grok is a free AI assistant designed by xAI to maximize truth and objectivity. Grok offers real-time search, image generation, trend analysis, and more.
 tags:
-  - "clippings"
+  - clippings
+  - grok
 ---
 > [!warning] Protocol Superseded (08 July 2026)
 > This document describes the **original** SRAC hypothesis using nanoparticle-delivered adrenochrome. The protocol has been revised:
 > - **Adrenochrome → Carbazochrome**: The stabilized derivative replaces adrenochrome, eliminating the need for nanoparticle encapsulation.
 > - **Nanoparticle delivery removed**: Ligand-conjugated nanoparticle targeting has been deprioritized due to zero published literature on adrenochrome NP formulations and unresolved autoxidation stability challenges.
 > - **Sequential dosing**: Rapamycin and fisetin are now administered sequentially (Phase 1 → washout → Phase 2) rather than concurrently, to resolve the senomorphic/senolytic timing conflict.
-> See [[notes/adrenochrome/SASP-Remodeling Aminochrome Complex|SRAC entity note]] and [[tasks/task_output_SRAC_revision_log_08_JULY_2026|revision log]] for the updated protocol.
+> See [[SASP-Remodeling Aminochrome Complex|SRAC entity note]] and [[task_output_SRAC_revision_log_08_JULY_2026|revision log]] for the updated protocol.
 
 This research hypothesis explores a highly compelling, albeit double-edged, area of biogerontology: the potential of **aminochromes** (specifically **adrenochrome**) to act as senotherapeutic agents.By analyzing the biochemical pathways of cellular senescence, redox homeostasis, and aminochrome chemistry, we can evaluate the feasibility, mechanisms, and major challenges of utilizing these compounds as senolytics or senomorphics.**Primary Target:** Cellular Senescence & Inflammaging
 ### Scientific Rationale & Mechanistic Synergy

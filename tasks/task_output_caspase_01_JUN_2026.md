@@ -15,7 +15,7 @@ cell survival.
 
 ---
 
-## 1. Caspase-8 ↔ SHP1 (PTPN6)
+## Caspase-8 ↔ SHP1 (PTPN6)
 
 **The Tyrosine Phosphorylation "Switch"**
 
@@ -25,7 +25,7 @@ cell survival.
 - **The Restorative Role of SHP1**: **[[SHP1]]** (PTPN6) is the phosphatase responsible for removing these inhibitory phosphate groups. Dephosphorylation by SHP1 restores the cell's sensitivity to death ligands (FasL, TRAIL).
 - **Cancer Connection**: Many tumors epigenetically silence _PTPN6_ (SHP1) via promoter hypermethylation to maintain Caspase-8 in its pro-migratory, anti-apoptotic state.
 
-## 2. Caspase-7 ↔ PAK2
+## Caspase-7 ↔ PAK2
 
 **Dual-Layered Inhibition in Breast Cancer**
 
@@ -35,7 +35,7 @@ cell survival.
   - **Ser239**: Located near the active site; phosphorylation sterically hinders substrate binding, neutralizing even "active" molecules.
 - **Cancer Connection**: PAK2 is frequently overexpressed in invasive ductal carcinoma. This axis is a major driver of resistance to DNA-damaging chemotherapeutics (e.g., staurosporine).
 
-## 3. Bax ↔ Pin1
+## Bax ↔ Pin1
 
 **The Isomerase-Mediated Survival Switch**
 
@@ -44,7 +44,7 @@ cell survival.
 - **Biological Outcome**: This mechanism protects cells (notably eosinophils) from apoptosis. Disruption of the ERK-Bax-Pin1 complex or inhibition of Pin1 triggers Bax activation and MOMP.
 - **Context Dependency**: While ERK-mediated Thr167 phosphorylation is pro-survival, the same site can be targeted by JNK or p38 under stress to promote apoptosis, suggesting Pin1 acts as the critical switch for the pro-survival outcome.
 
-## 4. Bak ↔ PTPN Family (PTPN2, PTPN5, PTPN23)
+## Bak ↔ PTPN Family (PTPN2, PTPN5, PTPN23)
 
 **Licensing the "Mitochondrial Killer"**
 
@@ -53,7 +53,7 @@ cell survival.
 - **The K-RAS/ERK Blockade**: In K-RAS mutated cancers (e.g., colon cancer), hyperactive ERK1/2 phosphorylates and **inactivates PTPN5**. This locks Bak in its inactive, phosphorylated state, providing a profound resistance to apoptosis.
 - **Cancer Connection**: Genetic loss or downregulation of PTPN2 and PTPN23 is common in T-cell leukemias and epithelial cancers, raising the threshold for Bak activation.
 
-## 5. XIAP ↔ TBK1 / IKKε
+## XIAP ↔ TBK1 / IKKε
 
 **The RING Domain Autoubiquitination Switch**
 

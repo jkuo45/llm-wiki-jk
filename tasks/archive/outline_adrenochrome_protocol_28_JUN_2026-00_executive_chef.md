@@ -105,10 +105,10 @@
 - Seasoning: garlic, lemon, black pepper, olive oil drizzle
 
 **Recipe:**
-1. Season chicken with garlic powder, salt, cracked black pepper. Sear in cast iron 4 min/side, finish 375°F oven 8 min. Rest 3 min, slice.
-2. Cook brown rice; stir in toasted wheat germ off heat.
-3. Steam broccoli 4–5 min — slightly al dente to preserve sulforaphane.
-4. Assemble bowl: rice base, broccoli, sliced chicken, fan of avocado. Dust nutritional yeast, squeeze lemon, drizzle olive oil.
+- Season chicken with garlic powder, salt, cracked black pepper. Sear in cast iron 4 min/side, finish 375°F oven 8 min. Rest 3 min, slice.
+- Cook brown rice; stir in toasted wheat germ off heat.
+- Steam broccoli 4–5 min — slightly al dente to preserve sulforaphane.
+- Assemble bowl: rice base, broccoli, sliced chicken, fan of avocado. Dust nutritional yeast, squeeze lemon, drizzle olive oil.
 
 **Macros:** ~680 kcal · 58 g protein · 65 g carbs · 22 g fat
 **Protocol Hit:** MRR (tryptophan→NAD+, niacin, avocado NMN), GOPS (carnosine, sulforaphane), SRAC (GlyNAC supplement from AM)
@@ -141,11 +141,11 @@
 - Seasoning: ginger, sesame oil, tamari, green onion
 
 **Recipe:**
-1. Rehydrate shiitake 20 min in warm water; reserve liquid for broth. Slice caps.
-2. High-heat wok: sear beef strips 2–3 min until lightly caramelized. Remove.
-3. Same wok: sauté garlic + ginger 30 sec. Add shiitake, peas, edamame — stir-fry 3 min.
-4. Return beef. Add tamari, splash mushroom soaking liquid. Toss.
-5. Whisk miso into ½ cup warm water; drizzle over assembled noodles. Top with stir-fry, sesame oil, green onion.
+- Rehydrate shiitake 20 min in warm water; reserve liquid for broth. Slice caps.
+- High-heat wok: sear beef strips 2–3 min until lightly caramelized. Remove.
+- Same wok: sauté garlic + ginger 30 sec. Add shiitake, peas, edamame — stir-fry 3 min.
+- Return beef. Add tamari, splash mushroom soaking liquid. Toss.
+- Whisk miso into ½ cup warm water; drizzle over assembled noodles. Top with stir-fry, sesame oil, green onion.
 
 **Macros:** ~720 kcal · 58 g protein · 75 g carbs · 18 g fat
 **Protocol Hit:** GOPS (carnosine, spermidine ~4.7 mg cumulative), MRR (edamame NMN, miso probiotic for urolithin A bioconversion)
@@ -215,10 +215,10 @@
 - Shallots, garlic, white wine (optional), thyme, olive oil
 
 **Recipe:**
-1. Season pork tenderloin with thyme, garlic, salt, pepper. Sear all sides in oven-safe pan 3 min. Press parmesan crust on top. Roast 400°F for 18–20 min to 145°F internal. Rest 5 min, slice medallions.
-2. Warm bone broth; ladle gradually into risotto base (shallot + garlic + arborio, toasted). Stir constantly 20 min; finish with splash of broth for creaminess.
-3. Roast broccoli 425°F 15 min with olive oil and salt until charred edges (maximizes sulforaphane release via mechanical disruption).
-4. Plate: risotto base, broccoli alongside, pork medallions fanned. Shave extra parmesan if desired.
+- Season pork tenderloin with thyme, garlic, salt, pepper. Sear all sides in oven-safe pan 3 min. Press parmesan crust on top. Roast 400°F for 18–20 min to 145°F internal. Rest 5 min, slice medallions.
+- Warm bone broth; ladle gradually into risotto base (shallot + garlic + arborio, toasted). Stir constantly 20 min; finish with splash of broth for creaminess.
+- Roast broccoli 425°F 15 min with olive oil and salt until charred edges (maximizes sulforaphane release via mechanical disruption).
+- Plate: risotto base, broccoli alongside, pork medallions fanned. Shave extra parmesan if desired.
 
 **Macros:** ~780 kcal · 62 g protein · 72 g carbs · 24 g fat
 **Protocol Hit:** GOPS (carnosine 4.2 g from pork, spermidine from parmesan), MRR (sulforaphane mitohormesis, glycine from bone broth), SRAC (GlyNAC glycine synergy)
@@ -249,10 +249,10 @@
 - Garnish: green onion, tamari drizzle, sesame seeds, nori strips
 
 **Recipe:**
-1. Toast bread until golden. Smash avocado with lemon and pinch of salt.
-2. Spread avocado on toast. Spoon natto alongside or atop (don't heat — preserves nattokinase).
-3. Poach eggs in gently simmering water with splash of vinegar, 3–4 min.
-4. Assemble: avocado toast + natto, topped with poached eggs. Drizzle tamari, sesame seeds, green onion.
+- Toast bread until golden. Smash avocado with lemon and pinch of salt.
+- Spread avocado on toast. Spoon natto alongside or atop (don't heat — preserves nattokinase).
+- Poach eggs in gently simmering water with splash of vinegar, 3–4 min.
+- Assemble: avocado toast + natto, topped with poached eggs. Drizzle tamari, sesame seeds, green onion.
 
 **Macros:** ~620 kcal · 34 g protein · 52 g carbs · 28 g fat
 **Protocol Hit:** GOPS (spermidine ~20 mg — highest single-meal dose), MRR (avocado NMN, egg cysteine), SRAC (fermented food microbiome support for urolithin A bioconversion)
@@ -282,11 +282,11 @@
 - 1 tbsp aged parmesan to finish
 
 **Recipe:**
-1. Trim chicken livers, pat dry, season. Sear in hot pan with olive oil 2 min/side — keep slightly pink inside (overcooking destroys nutrients). Remove.
-2. Sauté shallot, garlic in same pan. Add mushrooms, cook 5 min until golden. Deglaze with red wine. Add bone broth, thyme. Simmer 5 min.
-3. Return livers, heat through 1–2 min. Rough chop to desired texture.
-4. Prepare polenta: whisk cornmeal into boiling salted water + bone broth; stir 15 min. Finish with parmesan.
-5. Serve ragù over polenta. Drizzle olive oil. Fresh sage crispy-fried in butter optional.
+- Trim chicken livers, pat dry, season. Sear in hot pan with olive oil 2 min/side — keep slightly pink inside (overcooking destroys nutrients). Remove.
+- Sauté shallot, garlic in same pan. Add mushrooms, cook 5 min until golden. Deglaze with red wine. Add bone broth, thyme. Simmer 5 min.
+- Return livers, heat through 1–2 min. Rough chop to desired texture.
+- Prepare polenta: whisk cornmeal into boiling salted water + bone broth; stir 15 min. Finish with parmesan.
+- Serve ragù over polenta. Drizzle olive oil. Fresh sage crispy-fried in butter optional.
 
 **Macros:** ~580 kcal · 42 g protein · 48 g carbs · 20 g fat
 **Protocol Hit:** GOPS (spermidine ~12 mg cumulative day, parmesan), MRR (tryptophan→NAD+ from liver, bone broth glycine), SRAC (fermented/probiotic microbiome maintenance)
@@ -321,10 +321,10 @@
 - Dressing: tamari, sesame oil, rice vinegar, pomegranate juice
 
 **Recipe:**
-1. Slice salmon sushi-grade raw, or briefly sear 1 min/side to medium-rare (preserves creatine better than fully cooking).
-2. Prepare rice. Assemble bowl: rice base, salmon, edamame, cucumber, avocado.
-3. Sprinkle wheat germ, pickled ginger on top.
-4. Whisk dressing, drizzle generously.
+- Slice salmon sushi-grade raw, or briefly sear 1 min/side to medium-rare (preserves creatine better than fully cooking).
+- Prepare rice. Assemble bowl: rice base, salmon, edamame, cucumber, avocado.
+- Sprinkle wheat germ, pickled ginger on top.
+- Whisk dressing, drizzle generously.
 
 **Macros:** ~720 kcal · 54 g protein · 72 g carbs · 22 g fat
 **Protocol Hit:** MRR (creatine, edamame NMN, urolithin A precursors from pom juice, AMPK from ginger), GOPS (spermidine from wheat germ)
@@ -356,10 +356,10 @@
 - Optional: small boiled potato or crusty sourdough for carbs
 
 **Recipe:**
-1. Crust herring: coat fillets in toasted wheat germ + dill + lemon zest + salt. Pan-fry in olive oil 3–4 min/side until golden.
-2. Pea purée: boil peas 4 min. Blend with garlic, lemon juice, olive oil, salt until silky. Pass through sieve for restaurant texture.
-3. Broccoli: sauté in olive oil + minced garlic 5 min, squeeze lemon.
-4. Plate: swipe pea purée across plate, place herring fillet, broccoli alongside. Garnish with dill.
+- Crust herring: coat fillets in toasted wheat germ + dill + lemon zest + salt. Pan-fry in olive oil 3–4 min/side until golden.
+- Pea purée: boil peas 4 min. Blend with garlic, lemon juice, olive oil, salt until silky. Pass through sieve for restaurant texture.
+- Broccoli: sauté in olive oil + minced garlic 5 min, squeeze lemon.
+- Plate: swipe pea purée across plate, place herring fillet, broccoli alongside. Garnish with dill.
 
 **Macros:** ~680 kcal · 52 g protein · 55 g carbs · 26 g fat
 **Protocol Hit:** MRR (creatine 1.3 g, sulforaphane mitohormesis), GOPS (spermidine ~10 mg this meal alone), SRAC (GlyNAC glycine synergy from dinner)
@@ -472,11 +472,11 @@
 - Garlic, thyme, butter (small amount), apple cider vinegar, tamari for natto dressing
 
 **Recipe:**
-1. Pound pork chop to even thickness. Season, press parmesan crust on fat cap and one side. Sear crust-side down 3 min. Flip, add garlic + thyme. Baste. Roast 400°F to 145°F. Rest 5 min.
-2. Sauté shiitake in butter + garlic until golden.
-3. Grill or char corn.
-4. Natto vinaigrette: mix natto with apple cider vinegar, tamari, sesame oil, pinch of sugar — whisk into loose dressing consistency.
-5. Plate: pork chop, shiitake alongside, corn. Drizzle natto vinaigrette over everything (don't heat natto).
+- Pound pork chop to even thickness. Season, press parmesan crust on fat cap and one side. Sear crust-side down 3 min. Flip, add garlic + thyme. Baste. Roast 400°F to 145°F. Rest 5 min.
+- Sauté shiitake in butter + garlic until golden.
+- Grill or char corn.
+- Natto vinaigrette: mix natto with apple cider vinegar, tamari, sesame oil, pinch of sugar — whisk into loose dressing consistency.
+- Plate: pork chop, shiitake alongside, corn. Drizzle natto vinaigrette over everything (don't heat natto).
 
 **Macros:** ~820 kcal · 72 g protein · 48 g carbs · 32 g fat
 **Protocol Hit:** GOPS (spermidine ~17 mg this meal — highest single-day accumulation; carnosine ~4.2 g), MRR (sulforaphane, fermented food microbiome)
@@ -508,11 +508,11 @@
 - Crusty sourdough (fermented, supports microbiome)
 
 **Recipe:**
-1. Labneh: mix yogurt with minced garlic, lemon, salt. Spread in shallow bowl warmed slightly.
-2. Poach eggs to jammy-yolk perfection (3.5 min). Place over labneh.
-3. Brown butter, add Aleppo pepper + paprika. Drizzle over eggs dramatically.
-4. Wheat germ dukkah: toast wheat germ + walnut pieces + cumin + coriander + sesame in dry pan 3 min. Sprinkle over.
-5. Serve with sourdough for scooping.
+- Labneh: mix yogurt with minced garlic, lemon, salt. Spread in shallow bowl warmed slightly.
+- Poach eggs to jammy-yolk perfection (3.5 min). Place over labneh.
+- Brown butter, add Aleppo pepper + paprika. Drizzle over eggs dramatically.
+- Wheat germ dukkah: toast wheat germ + walnut pieces + cumin + coriander + sesame in dry pan 3 min. Sprinkle over.
+- Serve with sourdough for scooping.
 
 **Macros:** ~590 kcal · 36 g protein · 42 g carbs · 30 g fat
 **Protocol Hit:** GOPS (spermidine ~7 mg, cysteine from garlic/eggs), SRAC (probiotic yogurt for urolithin A bioconversion), MRR (egg choline, walnut polyphenols)
@@ -544,11 +544,11 @@
 - Garlic, ginger, star anise, tamari, green onion, nori, sesame
 
 **Recipe:**
-1. Brown oxtail in oven 400°F 20 min for deep umami. Transfer to pot with water, garlic, ginger, star anise. Slow cook 4–6 hours (or Instant Pot 90 min). Skim fat/foam. Strain broth.
-2. Season broth with tamari, splash mirin. Rich, dark, collagen-rich.
-3. Cook noodles. Sauté shiitake.
-4. Marinate soft-boiled eggs (halved) in tamari + mirin 30 min minimum.
-5. Assemble bowl: noodles, ladle rich broth, oxtail meat (pulled from bone), shiitake, peas, egg halves, nori, green onion, sesame oil.
+- Brown oxtail in oven 400°F 20 min for deep umami. Transfer to pot with water, garlic, ginger, star anise. Slow cook 4–6 hours (or Instant Pot 90 min). Skim fat/foam. Strain broth.
+- Season broth with tamari, splash mirin. Rich, dark, collagen-rich.
+- Cook noodles. Sauté shiitake.
+- Marinate soft-boiled eggs (halved) in tamari + mirin 30 min minimum.
+- Assemble bowl: noodles, ladle rich broth, oxtail meat (pulled from bone), shiitake, peas, egg halves, nori, green onion, sesame oil.
 
 **Macros:** ~680 kcal · 58 g protein · 62 g carbs · 18 g fat
 **Protocol Hit:** SRAC (GlyNAC — glycine ~5+ g from collagen broth), GOPS (spermidine from shiitake, carnosine from beef), MRR (fermented tamari microbiome support)
@@ -574,23 +574,23 @@
 ## Shopping & Prep Tips
 
 ### Weekly Prep (Sunday or Monday, ~2 hrs)
-1. **Bone broth:** Make a large batch of oxtail/shank broth Sunday. Freeze in 1-cup portions. Used across multiple meals.
-2. **Grains:** Cook brown rice, farro, and soba in batches. Refrigerate up to 5 days.
-3. **Wheat germ:** Purchase raw wheat germ (refrigerate after opening — goes rancid quickly). Toast small batches in dry pan.
-4. **Dried shiitake:** Rehydrate only what you need per meal — keeps indefinitely dry.
-5. **Pomegranate juice:** Buy 100% pure, no sugar added. Can use frozen pomegranate arils and press.
-6. **Natto:** Available frozen at Asian grocery stores. Thaw overnight in fridge. Never heat above 50°C.
-7. **Marinated eggs:** Make a batch of 6 tamari-marinated eggs at start of week (Day 7 ramen, Day 2 niçoise).
+- **Bone broth:** Make a large batch of oxtail/shank broth Sunday. Freeze in 1-cup portions. Used across multiple meals.
+- **Grains:** Cook brown rice, farro, and soba in batches. Refrigerate up to 5 days.
+- **Wheat germ:** Purchase raw wheat germ (refrigerate after opening — goes rancid quickly). Toast small batches in dry pan.
+- **Dried shiitake:** Rehydrate only what you need per meal — keeps indefinitely dry.
+- **Pomegranate juice:** Buy 100% pure, no sugar added. Can use frozen pomegranate arils and press.
+- **Natto:** Available frozen at Asian grocery stores. Thaw overnight in fridge. Never heat above 50°C.
+- **Marinated eggs:** Make a batch of 6 tamari-marinated eggs at start of week (Day 7 ramen, Day 2 niçoise).
 
 ### Priority Ingredients (Non-Negotiable Mitohormesis Pillars)
-1. **Wheat germ** (spermidine cornerstone) — Use daily in some form
-2. **Natto** (highest spermidine density) — 2–3x/week
-3. **Strawberries** (fisetin) — Daily if possible
-4. **Pomegranate juice** (urolithin A precursors) — Daily 100–150 mL
-5. **Broccoli** (sulforaphane) — 4–5x/week; cut and rest 40 min before cooking to maximize myrosinase
-6. **Bone broth** (glycine/GlyNAC) — Daily or every other day
-7. **Aged parmesan** (spermidine) — Daily as condiment/crust/garnish
-8. **Wild salmon/herring** (creatine, omega-3) — 3x/week
+- **Wheat germ** (spermidine cornerstone) — Use daily in some form
+- **Natto** (highest spermidine density) — 2–3x/week
+- **Strawberries** (fisetin) — Daily if possible
+- **Pomegranate juice** (urolithin A precursors) — Daily 100–150 mL
+- **Broccoli** (sulforaphane) — 4–5x/week; cut and rest 40 min before cooking to maximize myrosinase
+- **Bone broth** (glycine/GlyNAC) — Daily or every other day
+- **Aged parmesan** (spermidine) — Daily as condiment/crust/garnish
+- **Wild salmon/herring** (creatine, omega-3) — 3x/week
 
 ---
 

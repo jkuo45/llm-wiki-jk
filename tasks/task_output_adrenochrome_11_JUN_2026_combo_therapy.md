@@ -39,10 +39,10 @@ This document outlines novel combination therapies leveraging the redox-cycling 
 
 ### Mechanism of Action
 
-1. **Redox Signaling:** Carbazochrome induces transient, controlled [[Redox Cycling]], generating a low-amplitude superoxide signal in the mitochondrial matrix.
-2. **Pathway Activation:** This "oxidative pulse" activates the **Nrf2/ARE** antioxidant response and stimulates **PGC-1α** via the SIRT1/AMPK axis (primed by NR/NMN).
-3. **Electron Shunting:** Methylene blue acts as an alternative electron carrier, bypassing damaged Complex I/III and reducing runaway ROS generation while maintaining the signaling pulse.
-4. **Selective Mitophagy:** Urolithin A ensures increased mitochondrial turnover results in clearance of dysfunctional organelles.
+- **Redox Signaling:** Carbazochrome induces transient, controlled [[Redox Cycling]], generating a low-amplitude superoxide signal in the mitochondrial matrix.
+- **Pathway Activation:** This "oxidative pulse" activates the **Nrf2/ARE** antioxidant response and stimulates **PGC-1α** via the SIRT1/AMPK axis (primed by NR/NMN).
+- **Electron Shunting:** Methylene blue acts as an alternative electron carrier, bypassing damaged Complex I/III and reducing runaway ROS generation while maintaining the signaling pulse.
+- **Selective Mitophagy:** Urolithin A ensures increased mitochondrial turnover results in clearance of dysfunctional organelles.
 
 ### Expected Outcomes
 
@@ -65,9 +65,9 @@ This document outlines novel combination therapies leveraging the redox-cycling 
 
 ### Mechanism of Action
 
-1. **Phenotypic Reprogramming:** Adrenochrome-induced ROS signals modulate NF-κB and AP-1 transcription factors. With Rapamycin present, signaling is diverted from pro-inflammatory SASP production toward a quiescent-like "senomorphic" state.
-2. **Selective Senolysis:** Fisetin exploits the altered metabolic state of senescent cells (potentially sensitized by adrenochrome-induced stress) to induce apoptosis specifically in high-SASP sub-populations.
-3. **Glutathione Homeostasis:** GlyNAC provides precursors to maintain high intracellular [[Glutathione]] levels, preventing adrenochrome from crossing the threshold into cytotoxic "vicious" [[Redox Cycling]].
+- **Phenotypic Reprogramming:** Adrenochrome-induced ROS signals modulate NF-κB and AP-1 transcription factors. With Rapamycin present, signaling is diverted from pro-inflammatory SASP production toward a quiescent-like "senomorphic" state.
+- **Selective Senolysis:** Fisetin exploits the altered metabolic state of senescent cells (potentially sensitized by adrenochrome-induced stress) to induce apoptosis specifically in high-SASP sub-populations.
+- **Glutathione Homeostasis:** GlyNAC provides precursors to maintain high intracellular [[Glutathione]] levels, preventing adrenochrome from crossing the threshold into cytotoxic "vicious" [[Redox Cycling]].
 
 ### Expected Outcomes
 
@@ -89,10 +89,10 @@ This document outlines novel combination therapies leveraging the redox-cycling 
 
 ###  Mechanism of Action
 
-1. **Dual Inhibition:** The aminoguanidine moiety directly inhibits AGE and DNA cross-link formation.
-2. **Proteostatic Trigger:** The adrenochrome moiety induces a mild ER-stress response (hormesis), upregulating chaperone proteins (HSPs) and priming the autophagy machinery.
-3. **Synergistic Clearance:** Spermidine enhances general macroautophagy, facilitating removal of proteins already damaged by glycation or oxidation.
-4. **Ion Stabilization:** Metal chelation prevents transition-metal-catalyzed autoxidation of adrenaline, providing "kinetic control" over reactive intermediate production.
+- **Dual Inhibition:** The aminoguanidine moiety directly inhibits AGE and DNA cross-link formation.
+- **Proteostatic Trigger:** The adrenochrome moiety induces a mild ER-stress response (hormesis), upregulating chaperone proteins (HSPs) and priming the autophagy machinery.
+- **Synergistic Clearance:** Spermidine enhances general macroautophagy, facilitating removal of proteins already damaged by glycation or oxidation.
+- **Ion Stabilization:** Metal chelation prevents transition-metal-catalyzed autoxidation of adrenaline, providing "kinetic control" over reactive intermediate production.
 
 ### Expected Outcomes
 

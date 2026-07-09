@@ -18,7 +18,7 @@ The format is intentionally minimal: a directory of markdown files with YAML fro
 
 ---
 
-## 1\. Motivation
+## Motivation
 
 The space of knowledge representation for AI agents is evolving quickly, and many incompatible conventions are emerging. OKF takes the position that knowledge is best represented in commonly accessible, established formats that are:
 
@@ -31,10 +31,10 @@ The format is minimally opinionated. It standardizes only the small set of struc
 
 ### Goals
 
-1. Define a universal format that **enrichment agents** can write into.
-2. Inform how **consumption agents** should read and traverse it.
-3. Facilitate **exchange** of knowledge across systems and organizations.
-4. Standardize the small number of **required** fields that must be present for content to be meaningfully consumed.
+- Define a universal format that **enrichment agents** can write into.
+- Inform how **consumption agents** should read and traverse it.
+- Facilitate **exchange** of knowledge across systems and organizations.
+- Standardize the small number of **required** fields that must be present for content to be meaningfully consumed.
 
 ### Non-goals
 
@@ -44,7 +44,7 @@ The format is minimally opinionated. It standardizes only the small set of struc
 
 ---
 
-## 2\. Terminology
+## Terminology
 
 - **Knowledge Bundle** — A self-contained, hierarchical collection of knowledge documents. The unit of distribution.
 - **Concept** — A single unit of knowledge within a bundle. Represented as one markdown document. May describe a tangible asset (a table, an API), an abstract idea (a metric, a business process), or anything in between.
@@ -56,7 +56,7 @@ The format is minimally opinionated. It standardizes only the small set of struc
 
 ---
 
-## 3\. Bundle Structure
+## Bundle Structure
 
 A bundle is a directory tree of markdown files. The directory structure is independent of the domain — producers organize concepts however makes sense for the knowledge being captured.
 
@@ -78,7 +78,7 @@ A bundle MAY be distributed as:
 - A tarball or zip archive of the directory.
 - A subdirectory within a larger repository.
 
-### 3.1 Reserved filenames
+### Reserved filenames
 
 The following filenames have defined meaning at any level of the hierarchy and MUST NOT be used for concept documents:
 
@@ -93,14 +93,14 @@ Tags themselves remain a first-class concept — see the `tags` frontmatter fiel
 
 ---
 
-## 4\. Concept Documents
+## Concept Documents
 
 Every concept is a UTF-8 markdown file. It has two parts:
 
-1. A **YAML frontmatter block**, delimited by `---` on its own line at the start of the file and a closing `---` on its own line.
-2. A **markdown body**, containing free-form content.
+- A **YAML frontmatter block**, delimited by `---` on its own line at the start of the file and a closing `---` on its own line.
+- A **markdown body**, containing free-form content.
 
-### 4.1 Frontmatter
+### Frontmatter
 
 ```
 ---
@@ -129,7 +129,7 @@ timestamp: <ISO 8601 datetime>     # Optional last-modified time
 
 **Extensions:** Producers MAY include any additional keys. Consumers SHOULD preserve unknown keys when round-tripping and SHOULD NOT reject documents with unrecognized fields.
 
-### 4.2 Body
+### Body
 
 The body is standard markdown. Producers SHOULD favor structural markdown — headings, lists, tables, fenced code blocks — over freeform prose, since structure aids both human reading and agent retrieval.
 
@@ -141,7 +141,7 @@ There are no required body sections. The following section headings have **conve
 | `# Examples` | Concrete usage examples, often as fenced code blocks. |
 | `# Citations` | External sources backing claims in the body. See §8. |
 
-### 4.3 Example: a concept bound to a resource
+### Example: a concept bound to a resource
 
 ```
 ---
@@ -171,7 +171,7 @@ Joined with [customers](/tables/customers.md) on \`customer_id\`.
 [1] [BigQuery table schema](https://console.cloud.google.com/bigquery?p=acme&d=sales&t=orders)
 ```
 
-### 4.4 Example: a concept not bound to a resource
+### Example: a concept not bound to a resource
 
 ```
 ---
@@ -189,17 +189,17 @@ its expected SLA. See the [orders table](/tables/orders.md).
 
 # Steps
 
-1. Check the [ingestion job dashboard](https://example.com/dash).
-2. …
+- Check the [ingestion job dashboard](https://example.com/dash).
+- …
 ```
 
 ---
 
-## 5\. Cross-linking
+## Cross-linking
 
 Concepts MAY link to other concepts using standard markdown links. Two forms are supported:
 
-### 5.1 Absolute (bundle-relative) links
+### Absolute (bundle-relative) links
 
 Begin with `/`, interpreted relative to the bundle root.
 
@@ -209,7 +209,7 @@ See the [customers table](/tables/customers.md) for the join key.
 
 This is the **recommended** form because it is stable when documents are moved within their subdirectory.
 
-### 5.2 Relative links
+### Relative links
 
 Standard markdown relative paths.
 
@@ -217,7 +217,7 @@ Standard markdown relative paths.
 See the [neighboring concept](./other.md).
 ```
 
-### 5.3 Link semantics
+### Link semantics
 
 A link from concept A to concept B asserts a *relationship*. The specific kind of relationship (parent/child, references, joins-with, depends-on, etc.) is conveyed by the surrounding prose, not by the link itself. Consumers that build a graph view typically treat all links as directed edges of an untyped relationship.
 
@@ -225,7 +225,7 @@ Consumers MUST tolerate broken links — a link whose target does not exist in t
 
 ---
 
-## 6\. Index Files
+## Index Files
 
 An `index.md` file MAY appear in any directory, including the bundle root. It enumerates the directory's contents to support **progressive disclosure** — letting a human or agent see what is available before opening individual documents.
 
@@ -246,7 +246,7 @@ Entries SHOULD include the description from the linked concept's frontmatter. Pr
 
 ---
 
-## 7\. Log Files (optional)
+## Log Files (optional)
 
 A `log.md` file MAY appear at any level of the hierarchy to record the history of changes to that scope. The format is a flat list of date-grouped entries, newest first:
 
@@ -266,7 +266,7 @@ Date headings MUST use ISO 8601 `YYYY-MM-DD` form. Log entries are prose; the le
 
 ---
 
-## 8\. Citations
+## Citations
 
 When a concept's body makes claims sourced from external material, those sources SHOULD be listed under a `# Citations` heading at the bottom of the document, numbered:
 
@@ -281,13 +281,13 @@ Citation links MAY be absolute URLs, bundle-relative paths, or paths into a `ref
 
 ---
 
-## 9\. Conformance
+## Conformance
 
 A bundle is **conformant** with OKF v0.1 if:
 
-1. Every non-reserved `.md` file in the tree contains a parseable YAML frontmatter block.
-2. Every frontmatter block contains a non-empty `type` field.
-3. Every reserved filename (`index.md`, `log.md`) follows the structure described in §6 and §7 respectively when present.
+- Every non-reserved `.md` file in the tree contains a parseable YAML frontmatter block.
+- Every frontmatter block contains a non-empty `type` field.
+- Every reserved filename (`index.md`, `log.md`) follows the structure described in §6 and §7 respectively when present.
 
 Consumers SHOULD treat all other constraints as soft guidance. In particular, consumers MUST NOT reject a bundle because of:
 
@@ -301,7 +301,7 @@ This permissive consumption model is intentional: OKF is meant to remain useful 
 
 ---
 
-## 10\. Relationship to other formats
+## Relationship to other formats
 
 OKF is intentionally close to several established patterns:
 
@@ -313,7 +313,7 @@ OKF differs primarily in being **specified** — pinning down the small set of r
 
 ---
 
-## 11\. Versioning
+## Versioning
 
 This document specifies OKF version **0.1**. Future revisions will be versioned in the form `<major>.<minor>`:
 

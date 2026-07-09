@@ -13,12 +13,12 @@ Mitohormesis relies on creating a temporary, acute increase in reactive oxygen s
 #### Dietary Recommendations
 
 - **Top 5–7 prioritized foods/nutrients/supplements:**
-  1. **Polyphenol-rich foods (Xenohormetins):** Blueberries, dark chocolate (cacao), green tea (EGCG), and extra virgin olive oil. These plant defense compounds act as mild stressors that activate the Nrf2 and sirtuin pathways.
-  2. **Cruciferous vegetables:** Broccoli sprouts (rich in sulforaphane) for potent Nrf2 activation and upregulation of Phase II detoxification enzymes.
-  3. **Omega-3 Fatty Acids (EPA/DHA):** Wild-caught salmon, sardines, or algae oil to optimize mitochondrial membrane fluidity and reduce systemic baseline inflammation.
-  4. **CoQ10 / Ubiquinol & PQQ:** For optimal electron transport chain function and synergistic stimulation of mitochondrial biogenesis.
-  5. **MCT Oil (Caprylic acid / C8):** Provides a direct, efficient mitochondrial fuel that increases endogenous ketone production, acting as a signaling molecule to promote mitohormesis.
-  6. **NAD+ Precursors (NMN or NR):** Support the NAD+/SIRT1 axis, crucial for mitochondrial health and energy sensing.
+  -   - **Polyphenol-rich foods (Xenohormetins):** Blueberries, dark chocolate (cacao), green tea (EGCG), and extra virgin olive oil. These plant defense compounds act as mild stressors that activate the Nrf2 and sirtuin pathways.
+  -   - **Cruciferous vegetables:** Broccoli sprouts (rich in sulforaphane) for potent Nrf2 activation and upregulation of Phase II detoxification enzymes.
+  -   - **Omega-3 Fatty Acids (EPA/DHA):** Wild-caught salmon, sardines, or algae oil to optimize mitochondrial membrane fluidity and reduce systemic baseline inflammation.
+  -   - **CoQ10 / Ubiquinol & PQQ:** For optimal electron transport chain function and synergistic stimulation of mitochondrial biogenesis.
+  -   - **MCT Oil (Caprylic acid / C8):** Provides a direct, efficient mitochondrial fuel that increases endogenous ketone production, acting as a signaling molecule to promote mitohormesis.
+  -   - **NAD+ Precursors (NMN or NR):** Support the NAD+/SIRT1 axis, crucial for mitochondrial health and energy sensing.
 
 - **Foods/substances to avoid or minimize:**
   - **Refined carbohydrates and sugars:** Cause excess, uncoupled ROS production without the hormetic benefit.

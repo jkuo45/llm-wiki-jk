@@ -6,18 +6,18 @@ Here is a pharmacological and physiological analysis of how these compounds inte
 
 ### Pharmacological Analysis & Interactions
 
-#### 1. The Oxidative Pulse & Mitohormesis (Morning/Fasted)
+#### The Oxidative Pulse & Mitohormesis (Morning/Fasted)
 *   **Target Compounds:** Adrenochrome / Carbazochrome / Aminoguanidine, Methylene Blue.
 *   **Mechanism:** These compounds act as mild pro-oxidants or electron cyclers in the mitochondria. Methylene Blue directly cycles electrons in the electron transport chain (ETC), generating a mild ROS signal. Adrenochrome products can also induce oxidative stress.
 *   **Interaction Warning:** **Do not combine with direct antioxidants** (like GlyNAC or high-dose Carnosine) concurrently. Antioxidants will quench the ROS pulse, completely nullifying the mitohormetic benefit.
 *   **Synergy:** **NAD+ Precursors (NMN/NR)**. Activating mitohormesis requires NAD+ as a cofactor for SIRT proteins (sirtuins), which drive mitochondrial biogenesis (PGC-1α). Taking NMN/NR with or slightly before the oxidative pulse provides the "fuel" for the adaptive response.
 
-#### 2. Autophagy & Senolytics (Morning/Fasted)
+#### Autophagy & Senolytics (Morning/Fasted)
 *   **Target Compounds:** Rapamycin, Spermidine, Fisetin, Urolithin A.
 *   **Mechanism:** Rapamycin inhibits mTOR; Spermidine induces autophagy via EP300 inhibition; Fisetin is a senolytic; Urolithin A induces mitophagy (clearing dysfunctional mitochondria).
 *   **Interactions:** These work best in a low-nutrient state. Combining them with the morning oxidative pulse is highly synergistic, as both pathways (AMPK activation/mTOR inhibition and mitohormesis) represent a cellular "stress and clean-up" mode.
 
-#### 3. Recovery, Antioxidant & Structural Support (Afternoon/Evening)
+#### Recovery, Antioxidant & Structural Support (Afternoon/Evening)
 *   **Target Compounds:** GlyNAC, Carnosine, Creatine, EDTA.
 *   **Mechanism:** GlyNAC replenishes glutathione (the master intracellular antioxidant); Carnosine prevents advanced glycation end-products (AGEs); Creatine buffers mitochondrial ATP.
 *   **Interactions:** These should be introduced *hours after* the oxidative pulse. Once the stress signal has successfully triggered nuclear transcription (e.g., Nrf2 pathway), introducing GlyNAC and Carnosine helps the cell manage the aftermath, reduce collateral damage, and rebuild.

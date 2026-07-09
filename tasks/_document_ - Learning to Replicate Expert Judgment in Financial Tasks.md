@@ -31,17 +31,17 @@ We evaluated models on six information filtering tasks drawn from investors' dai
 
 We measured accuracy — the percentage of documents that were correctly labeled according to our investors. For classification tasks, we also calculated the F1 score.
 
-1. **Financial Article Relevancy** — Given a financial article, classify whether it is relevant to a C-suite investment professional. *Eval metrics:* F1 score, Accuracy
+- **Financial Article Relevancy** — Given a financial article, classify whether it is relevant to a C-suite investment professional. *Eval metrics:* F1 score, Accuracy
 
-2. **Central Bank Document Relevancy** — Given a central bank document, classify whether it signals the direction of future interest rate changes. *Eval metrics:* F1 score, Accuracy
+- **Central Bank Document Relevancy** — Given a central bank document, classify whether it signals the direction of future interest rate changes. *Eval metrics:* F1 score, Accuracy
 
-3. **Generic Document Relevancy** — Given an investor's question and a research document, classify whether the document helps answer it. *Eval metrics:* F1 score, Accuracy
+- **Generic Document Relevancy** — Given an investor's question and a research document, classify whether the document helps answer it. *Eval metrics:* F1 score, Accuracy
 
-4. **Ad Hoc Content Labeling** — Research documents are either recurring (repeated boilerplate) or mixed (boilerplate plus one-off, issue-specific analysis). Classify which, and find the last page of issue-specific content. *Eval metrics:* Accuracy
+- **Ad Hoc Content Labeling** — Research documents are either recurring (repeated boilerplate) or mixed (boilerplate plus one-off, issue-specific analysis). Classify which, and find the last page of issue-specific content. *Eval metrics:* Accuracy
 
-5. **Document Truncation** — Identify where boilerplate content begins in a document. *Eval metrics:* Exact Match Accuracy
+- **Document Truncation** — Identify where boilerplate content begins in a document. *Eval metrics:* Exact Match Accuracy
 
-6. **Email Truncation** — Identify where boilerplate content begins in an email. *Eval metrics:* Exact Match Accuracy
+- **Email Truncation** — Identify where boilerplate content begins in an email. *Eval metrics:* Exact Match Accuracy
 
 These tasks are trivial for investors, but they get stuck when articulating their decision process. Consider the following example of classifying a news article as relevant to an investment professional below:
 
@@ -98,15 +98,15 @@ We began with standard GRPO and importance-sampling loss as a simple, critic-fre
 
 We make the following modifications to our training recipe to push performance farther:
 
-### 1. Interleaved batching
+### Interleaved batching
 
 For our multi-task training recipe, we compared three batching strategies: training each task sequentially, fully mixing tasks within a batch, and interleaving one batch per task in round-robin order. We found interleaving worked best, improving accuracy by 12.1% over fully mixed batches.
 
-### 2. CISPO loss with asymmetric clipping
+### CISPO loss with asymmetric clipping
 
 We used CISPO loss with asymmetric clipping to replace the standard importance-sampling loss. Across the loss functions and clipping schemes we tried, this performed best, improving accuracy by 10.1% over the importance-sampling baseline.
 
-### 3. On-policy distillation with strong teachers
+### On-policy distillation with strong teachers
 
 We train with on-policy distillation (OPD), constructing the advantage as follows:
 

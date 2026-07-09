@@ -44,9 +44,9 @@ While [[SIRT3]] activation has been widely investigated, the opposing interactio
 
 ### Proposed Experimental Design & Methodology
 
-1. **In Vitro Validation:** Treat primary human [[Cardiomyocytes|cardiomyocytes]] and renal tubular epithelial cells (TECs) with [[Angiotensin II|angiotensin II]] to induce hypertrophy/fibrosis. Evaluate the efficacy of combining a SIRT3 direct activator (e.g., **[[Honokiol]]** or **[[Dihydromyricetin]]**) with a novel, selective small-molecule SIRT4 inhibitor (to be designed or screened via high-throughput in silico docking of the GDH/MnSOD-interaction pocket).
-2. **Target Engagement Endpoints:** Measure acetylation levels of MnSOD at K68/K122 via Western blot; measure [[Mitochondrial ROS|mitochondrial ROS]] using MitoSOX; evaluate ATP synthesis and respiratory coupling using [[Seahorse XF Analyzer|Seahorse XFe96]].
-3. **In Vivo Efficacy:** Utilize wild-type and cardiac-specific SIRT4 [[Knockout mouse|KO]] mice subjected to chronic Ang II infusion via osmotic minipumps. Administer [[Honokiol]] in combination with SIRT4 inhibitors. Assess left ventricular hypertrophy via echocardiography, and evaluate collagen deposition via Masson's trichrome staining.
+- **In Vitro Validation:** Treat primary human [[Cardiomyocytes|cardiomyocytes]] and renal tubular epithelial cells (TECs) with [[Angiotensin II|angiotensin II]] to induce hypertrophy/fibrosis. Evaluate the efficacy of combining a SIRT3 direct activator (e.g., **[[Honokiol]]** or **[[Dihydromyricetin]]**) with a novel, selective small-molecule SIRT4 inhibitor (to be designed or screened via high-throughput in silico docking of the GDH/MnSOD-interaction pocket).
+- **Target Engagement Endpoints:** Measure acetylation levels of MnSOD at K68/K122 via Western blot; measure [[Mitochondrial ROS|mitochondrial ROS]] using MitoSOX; evaluate ATP synthesis and respiratory coupling using [[Seahorse XF Analyzer|Seahorse XFe96]].
+- **In Vivo Efficacy:** Utilize wild-type and cardiac-specific SIRT4 [[Knockout mouse|KO]] mice subjected to chronic Ang II infusion via osmotic minipumps. Administer [[Honokiol]] in combination with SIRT4 inhibitors. Assess left ventricular hypertrophy via echocardiography, and evaluate collagen deposition via Masson's trichrome staining.
 
 ---
 
@@ -68,9 +68,9 @@ The systemic effects of long-term pharmacological SIRT6 activation on healthspan
 
 ### Proposed Experimental Design & Methodology
 
-1. **Computational Systems Pharmacology:** Perform virtual high-throughput screening of a 10-million compound library against the MDL-800-binding hydrophobic pocket of SIRT6 to identify novel, sub-micromolar allosteric activators. Use molecular dynamics (MD) simulations to assess conformational stability and target engagement.
-2. **In Vitro [[Cellular Senescence]] Assays:** Induce senescence in human diploid fibroblasts (IMR-90) via [[Replicative Senescence|replicative exhaustion]] or [[Ionizing Radiation|ionizing radiation]]. Treat cells with [[UBCS039]], [[MDL-800]], or novel derivatives. Measure senescent markers ([[Senescence-Associated Beta-Galactosidase|β-galactosidase]], [[p16]], [[p21]]) and the Secretory [[SASP|Senescence-Associated Phenotype (SASP)]] profiling ([[IL-1b|IL-1β]], [[IL-6]], [[TNF-alpha|TNF-α]]). Evaluate [[DNA Repair|DNA double-strand break]] repair kinetics via [[γ-H2AX]] and [[53BP1]] foci clearance.
-3. **In Vivo [[Epigenetic Clock]] Validation:** Administer [[MDL-800]] orally to naturally aged mice (20 months old) for 12 weeks. Measure biological age reversal across multiple tissues using mouse epigenetic clocks (e.g., Horvath clock). Assess cardiac remodeling, muscle strength (grip strength test), and cognitive performance (Morris water maze).
+- **Computational Systems Pharmacology:** Perform virtual high-throughput screening of a 10-million compound library against the MDL-800-binding hydrophobic pocket of SIRT6 to identify novel, sub-micromolar allosteric activators. Use molecular dynamics (MD) simulations to assess conformational stability and target engagement.
+- **In Vitro [[Cellular Senescence]] Assays:** Induce senescence in human diploid fibroblasts (IMR-90) via [[Replicative Senescence|replicative exhaustion]] or [[Ionizing Radiation|ionizing radiation]]. Treat cells with [[UBCS039]], [[MDL-800]], or novel derivatives. Measure senescent markers ([[Senescence-Associated Beta-Galactosidase|β-galactosidase]], [[p16]], [[p21]]) and the Secretory [[SASP|Senescence-Associated Phenotype (SASP)]] profiling ([[IL-1b|IL-1β]], [[IL-6]], [[TNF-alpha|TNF-α]]). Evaluate [[DNA Repair|DNA double-strand break]] repair kinetics via [[γ-H2AX]] and [[53BP1]] foci clearance.
+- **In Vivo [[Epigenetic Clock]] Validation:** Administer [[MDL-800]] orally to naturally aged mice (20 months old) for 12 weeks. Measure biological age reversal across multiple tissues using mouse epigenetic clocks (e.g., Horvath clock). Assess cardiac remodeling, muscle strength (grip strength test), and cognitive performance (Morris water maze).
 
 ---
 
@@ -105,9 +105,9 @@ The dual, tissue-dependent nature of [[SIRT2]] represents a profound biological 
 
 ### Proposed Experimental Design & Methodology
 
-1. **Dual-Compartment In Vitro Modeling:** Establish primary co-cultures of [[Microglia|microglia]], [[Astrocytes|astrocytes]], and [[Neuron|neurons]]. Use [[CRISPR|CRISPR/Cas9]] to selectively knock out SIRT2 in distinct cell types. Induce [[Proteotoxicity|proteotoxic]] stress using pre-formed [[Alpha-synuclein|α-synuclein]] fibrils or [[Amyloid Beta|amyloid-β₁₋₄₂]].
-2. **[[Autophagic Flux]] Characterization:** Quantify TFEB nuclear translocation via [[Immunofluorescence|immunofluorescence]]; measure [[Autophagic Flux|autophagic flux]] using tandem mRFP-GFP-[[LC3]] reporter constructs; perform [[RNA-seq|RNA-Seq]] to monitor the CLEAR (Coordinated Lysosomal Expression and Regulation) gene network.
-3. **[[NLRP3 Inflammasome|Inflammasome]] Activation Assays:** Challenge [[Macrophage|macrophages]] with [[LPS|LPS]] followed by [[ATP|ATP]] or nigericin. Assess NLRP3 inflammasome activation by measuring [[Caspase-1|caspase-1]] cleavage, [[ASC|ASC]] speck formation, and extracellular [[Interleukin 1beta|IL-1β]] and [[IL-18]] release. Evaluate whether cell-permeable SIRT2-stabilizing peptides can enhance TFEB-dependent [[Autophagy|autophagy]] and suppress NLRP3 in macrophages without altering neuronal [[Tubulin|tubulin]] acetylation.
+- **Dual-Compartment In Vitro Modeling:** Establish primary co-cultures of [[Microglia|microglia]], [[Astrocytes|astrocytes]], and [[Neuron|neurons]]. Use [[CRISPR|CRISPR/Cas9]] to selectively knock out SIRT2 in distinct cell types. Induce [[Proteotoxicity|proteotoxic]] stress using pre-formed [[Alpha-synuclein|α-synuclein]] fibrils or [[Amyloid Beta|amyloid-β₁₋₄₂]].
+- **[[Autophagic Flux]] Characterization:** Quantify TFEB nuclear translocation via [[Immunofluorescence|immunofluorescence]]; measure [[Autophagic Flux|autophagic flux]] using tandem mRFP-GFP-[[LC3]] reporter constructs; perform [[RNA-seq|RNA-Seq]] to monitor the CLEAR (Coordinated Lysosomal Expression and Regulation) gene network.
+- **[[NLRP3 Inflammasome|Inflammasome]] Activation Assays:** Challenge [[Macrophage|macrophages]] with [[LPS|LPS]] followed by [[ATP|ATP]] or nigericin. Assess NLRP3 inflammasome activation by measuring [[Caspase-1|caspase-1]] cleavage, [[ASC|ASC]] speck formation, and extracellular [[Interleukin 1beta|IL-1β]] and [[IL-18]] release. Evaluate whether cell-permeable SIRT2-stabilizing peptides can enhance TFEB-dependent [[Autophagy|autophagy]] and suppress NLRP3 in macrophages without altering neuronal [[Tubulin|tubulin]] acetylation.
 
 ---
 
@@ -127,9 +127,9 @@ There is a massive, unexplored opportunity to repurpose clinically approved onco
 
 ### Proposed Experimental Design & Methodology
 
-1. **Dose-Escalation Preclinical Trial:** Administer ultra-low doses of [[Daratumumab]] (1/10th to 1/100th of the standard oncology dose) to naturally aged rodents (22 months old).
-2. **NAD+ Target Engagement Assays:** Quantify [[NAD+|NAD+/NADH]] ratios across multiple tissues (skeletal muscle, brain, liver, kidney) using quantitative [[Mass Spectrometry|mass spectrometry (LC-MS/MS)]]. Measure downstream sirtuin activation markers, such as acetylated [[p53]] (SIRT1 target) and acetylated [[MnSOD]] (SIRT3 target).
-3. **Functional Phenotyping:** Evaluate systemic metabolic parameters, including glucose tolerance (GTT) and [[Insulin Sensitivity|insulin sensitivity]] (ITT). Assess vascular endothelial function via ex vivo wire myography of the thoracic aorta (measuring SIRT1-dependent [[eNOS]] activation and acetylcholine-induced relaxation).
+- **Dose-Escalation Preclinical Trial:** Administer ultra-low doses of [[Daratumumab]] (1/10th to 1/100th of the standard oncology dose) to naturally aged rodents (22 months old).
+- **NAD+ Target Engagement Assays:** Quantify [[NAD+|NAD+/NADH]] ratios across multiple tissues (skeletal muscle, brain, liver, kidney) using quantitative [[Mass Spectrometry|mass spectrometry (LC-MS/MS)]]. Measure downstream sirtuin activation markers, such as acetylated [[p53]] (SIRT1 target) and acetylated [[MnSOD]] (SIRT3 target).
+- **Functional Phenotyping:** Evaluate systemic metabolic parameters, including glucose tolerance (GTT) and [[Insulin Sensitivity|insulin sensitivity]] (ITT). Assess vascular endothelial function via ex vivo wire myography of the thoracic aorta (measuring SIRT1-dependent [[eNOS]] activation and acetylcholine-induced relaxation).
 
 ---
 
@@ -165,9 +165,9 @@ Bypassing direct sirtuin pocket binders by targeting the post-transcriptional re
 
 ### Proposed Experimental Design & Methodology
 
-1. **Antagomir Design & Synthesis:** Design sequence-specific locked nucleic acid (LNA) antagomirs targeting [[miR-217]], [[miR-543]], and [[miR-378]]. Formulate these oligonucleotides inside targeted [[Lipid Nanoparticles|lipid nanoparticles (LNPs)]] conjugated with [[VCAM-1]] antibodies (to target aged, inflamed vascular endothelial cells) or cartilage-targeting peptides.
-2. **In Vitro Articular Cartilage & Endothelial Assays:** Treat senescent [[Endothelial cells|human umbilical vein endothelial cells (HUVECs)]] and primary osteoarthritic [[Chondrocytes|chondrocytes]] with the LNP-antagomirs. Assess the recovery of SIRT1 expression via [[qPCR]] and Western blot. Evaluate the restoration of [[eNOS]] activity and downstream reduction of [[NFKB|NF-κB]]-dependent inflammatory [[Cytokines|cytokines]].
-3. **In Vivo Therapeutic Reversal:** Utilize aged wild-type mice (18 months old). Inject LNP-antagomirs intravenously or intra-articularly (into the knee joint). Assess endothelial-dependent vasodilation, aortic stiffness ([[Pulse Wave Velocity|pulse wave velocity]]), and the severity of [[Osteoarthritis|osteoarthritis]] (OARSI histological scoring).
+- **Antagomir Design & Synthesis:** Design sequence-specific locked nucleic acid (LNA) antagomirs targeting [[miR-217]], [[miR-543]], and [[miR-378]]. Formulate these oligonucleotides inside targeted [[Lipid Nanoparticles|lipid nanoparticles (LNPs)]] conjugated with [[VCAM-1]] antibodies (to target aged, inflamed vascular endothelial cells) or cartilage-targeting peptides.
+- **In Vitro Articular Cartilage & Endothelial Assays:** Treat senescent [[Endothelial cells|human umbilical vein endothelial cells (HUVECs)]] and primary osteoarthritic [[Chondrocytes|chondrocytes]] with the LNP-antagomirs. Assess the recovery of SIRT1 expression via [[qPCR]] and Western blot. Evaluate the restoration of [[eNOS]] activity and downstream reduction of [[NFKB|NF-κB]]-dependent inflammatory [[Cytokines|cytokines]].
+- **In Vivo Therapeutic Reversal:** Utilize aged wild-type mice (18 months old). Inject LNP-antagomirs intravenously or intra-articularly (into the knee joint). Assess endothelial-dependent vasodilation, aortic stiffness ([[Pulse Wave Velocity|pulse wave velocity]]), and the severity of [[Osteoarthritis|osteoarthritis]] (OARSI histological scoring).
 
 ---
 

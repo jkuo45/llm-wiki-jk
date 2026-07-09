@@ -82,7 +82,7 @@ wearable dashboard concept
 
 ---
 
-### 1\. The Timeline View: Acute Stress vs. Chronic Decline
+### The Timeline View: Acute Stress vs. Chronic Decline
 
 This graph illustrates the difference between
 
@@ -124,7 +124,7 @@ HRV (ms)
 
 ---
 
-### 2\. The Wearable Dashboard View (The "Traffic Light" System)
+### The Wearable Dashboard View (The "Traffic Light" System)
 
 If you track your HRV using a spreadsheet, Notion, or your wearable's native app, you want to compare your
 
@@ -186,7 +186,7 @@ Stop all intense stressors immediately. Focus purely on deep sleep, hydration, a
 
 ---
 
-### 3\. How to Set This Up in Your Own Tools
+### How to Set This Up in Your Own Tools
 
 If you want to build this visualization in Excel, Google Sheets, or Apple Health:
 
@@ -244,7 +244,7 @@ comparative code graph
 
 ---
 
-### 1\. The HRV Trajectory Grid
+### The HRV Trajectory Grid
 
 - 🟢
 	**Green Path (Ideal Mitohormesis):**
@@ -271,7 +271,7 @@ HRV Level   | Day 1   Day 2   Day 3   Day 4   Day 5   Day 6   Day 7
 
 ---
 
-### 2\. Side-by-Side Day-by-Day Comparison
+### Side-by-Side Day-by-Day Comparison
 
 Diff
 
@@ -353,7 +353,7 @@ Below is a structured framework that aligns diet, meal timing, and your specific
 
 ---
 
-### 1\. Supplement Timing & Synergy (The "Tools")
+### Supplement Timing & Synergy (The "Tools")
 
 These supplements support the energy production (ATP) and recycling (mitophagy) pathways of your mitochondria, but they must be timed to respect your circadian biology.
 
@@ -430,7 +430,7 @@ These supplements support the energy production (ATP) and recycling (mitophagy) 
 
 ---
 
-### 2\. Macronutrient Strategy (The "Raw Materials")
+### Macronutrient Strategy (The "Raw Materials")
 
 To optimize HRV, you want to foster
 
@@ -473,7 +473,7 @@ When you are focusing on light movement and cellular cleanup.
 
 ---
 
-### 3\. Meal Timing (The "Circadian Guardrails")
+### Meal Timing (The "Circadian Guardrails")
 
 When you eat is often just as important for your HRV as what you eat.
 
@@ -508,7 +508,7 @@ If there is one variable that will instantly improve your overnight HRV, it is s
 ### Example Daily Protocol (Putting It All Together)
 
 - **7:00 AM (Waking):**
-	Hydrate. Take**
+	- 	- Take**
 	NMN/NR/NAD+
 	**on an empty stomach to align with your morning circadian rise\[[
 	3

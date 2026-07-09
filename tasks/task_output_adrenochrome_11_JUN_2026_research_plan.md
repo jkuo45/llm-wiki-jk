@@ -118,10 +118,10 @@ Adrenochrome is traditionally categorized as a toxic metabolic byproduct associa
 
 A multi-phase research program was proposed:
 
-1. **Hormetic Mapping:** Determining the sub-toxic concentration window for adaptive cellular responses.
-2. **Mechanistic Dissection:** Utilizing RNA-seq and proteomics to map Nrf2 and autophagy induction.
-3. **Derivative Optimization:** Benchmarking stabilized aminochromes against established longevity agents (Metformin, Rapamycin).
-4. **In Vivo Validation:** Pilot healthspan studies in _C. elegans_ and murine models.
+- **Hormetic Mapping:** Determining the sub-toxic concentration window for adaptive cellular responses.
+- **Mechanistic Dissection:** Utilizing RNA-seq and proteomics to map Nrf2 and autophagy induction.
+- **Derivative Optimization:** Benchmarking stabilized aminochromes against established longevity agents (Metformin, Rapamycin).
+- **In Vivo Validation:** Pilot healthspan studies in _C. elegans_ and murine models.
 
 ### Workspace Updates
 

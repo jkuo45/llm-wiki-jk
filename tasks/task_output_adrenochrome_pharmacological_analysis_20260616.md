@@ -11,18 +11,18 @@ This report assesses the scientific and clinical feasibility of three novel comb
 
 ---
 
-## 1. Mitohormetic Redox-Relay (MRR)
+## Mitohormetic Redox-Relay (MRR)
 **Primary Target:** Mitochondrial Dysfunction & Energy Failure
 
-### 1.1 Scientific Rationale & Mechanistic Synergy
+### Scientific Rationale & Mechanistic Synergy
 The MRR leverages [[Carbazochrome]] to generate a controlled "oxidative pulse" (low-amplitude superoxide). This pulse acts as a **mitohormetic trigger**, activating the **Nrf2/ARE** axis and **PGC-1α**.
-- **Synergy:** [[notes/adrenochrome/Methylene blue|Methylene blue]] (MB) bypasses Complex I/III defects, preventing the trigger from becoming a "vicious cycle" of runaway ROS. NAD+ precursors (NR/NMN) provide the enzymatic cofactors for SIRT1/AMPK to execute the biogenesis program. Urolithin A ensures high-quality mitophagy of damaged organelles.
+- **Synergy:** [[Methylene blue|Methylene blue]] (MB) bypasses Complex I/III defects, preventing the trigger from becoming a "vicious cycle" of runaway ROS. NAD+ precursors (NR/NMN) provide the enzymatic cofactors for SIRT1/AMPK to execute the biogenesis program. Urolithin A ensures high-quality mitophagy of damaged organelles.
 
-### 1.2 Proposed Combo & Dosing Strategy
+### Proposed Combo & Dosing Strategy
 - **Agents:** Carbazochrome (sub-micromolar), Methylene Blue (0.5–2 mg/kg), NR/NMN (dosed to elevate NAD+ by 2x), Urolithin A (500mg).
 - **Rationale:** Low-dose carbazochrome avoids clinical hemostatic effects, focusing purely on intracellular signaling.
 
-### 1.3 Feasibility Assessment (Score: 7.2/10)
+### Feasibility Assessment (Score: 7.2/10)
 - **Biological Plausibility:** 9/10 (Strong Nrf2/aminochrome link)
 - **Druggability:** 8/10 (Established oral/IV profiles)
 - **Hormetic Window:** 6/10 (Requires tight PK control to avoid apoptosis)
@@ -30,18 +30,18 @@ The MRR leverages [[Carbazochrome]] to generate a controlled "oxidative pulse" (
 
 ---
 
-## 2. SASP-Remodeling Aminochrome Complex (SRAC)
+## SASP-Remodeling Aminochrome Complex (SRAC)
 **Primary Target:** Cellular Senescence & Inflammaging
 
-### 2.1 Scientific Rationale & Mechanistic Synergy
+### Scientific Rationale & Mechanistic Synergy
 SRAC uses [[Adrenochrome]] as a metabolic stressor to sensitize senescent cells (SNCs), which often have "stalled" autophagy and high metabolic demand.
 - **Synergy:** **Rapamycin** (mTORi) decouples the ROS signal from pro-inflammatory SASP production (NF-κB inhibition). **Fisetin** then exploits this "primed/stressed" state to induce selective senolysis. **GlyNAC** serves as the "Redox Buffer," ensuring the global glutathione (GSH) pool protects healthy tissue.
 
-### 2.2 Proposed Combo & Dosing Strategy
+### Proposed Combo & Dosing Strategy
 - **Agents:** Adrenochrome (Nanoparticle delivery), Rapamycin (2mg/weekly), Fisetin (intermittent dosing), GlyNAC (high-dose).
 - **Rationale:** Nanoparticles are critical to prevent systemic autoxidation and target tissue-resident SNCs.
 
-### 2.3 Feasibility Assessment (Score: 6.2/10)
+### Feasibility Assessment (Score: 6.2/10)
 - **Biological Plausibility:** 8/10 (ROS-sensitization is a validated senolytic strategy)
 - **Druggability:** 5/10 (Nanoparticle delivery of aminochromes is complex)
 - **Hormetic Window:** 7/10 (Intermittent senolytic dosing adds safety)
@@ -49,18 +49,18 @@ SRAC uses [[Adrenochrome]] as a metabolic stressor to sensitize senescent cells 
 
 ---
 
-## 3. Glyco-Oxidative Proteostasis Shield (GOPS)
+## Glyco-Oxidative Proteostasis Shield (GOPS)
 **Primary Target:** Protein Aggregation & Advanced Glycation End-products (AGEs)
 
-### 3.1 Scientific Rationale & Mechanistic Synergy
+### Scientific Rationale & Mechanistic Synergy
 The use of **[[Adrenochrome monoaminoguanidine]]** combines AGE-breaking (aminoguanidine) with hormetic ER-stress signaling (aminochrome).
-- **Synergy:** Adrenochrome induces the Unfolded Protein Response (UPR) and chaperone (HSP) expression. **Spermidine** enhances macroautophagic clearance of glycated proteins. [[EDTA]] or [[notes/_link/Carnosine]] prevents transition-metal-catalyzed "Fenton" reactions, effectively "taming" the aminochrome reactivity.
+- **Synergy:** Adrenochrome induces the Unfolded Protein Response (UPR) and chaperone (HSP) expression. **Spermidine** enhances macroautophagic clearance of glycated proteins. [[EDTA]] or [[Carnosine]] prevents transition-metal-catalyzed "Fenton" reactions, effectively "taming" the aminochrome reactivity.
 
-### 3.2 Proposed Combo & Dosing Strategy
+### Proposed Combo & Dosing Strategy
 - **Agents:** Adrenochrome monoaminoguanidine (hybrid), Spermidine (1-5mg), Carnosine (500mg-1g).
 - **Rationale:** Focus on oral, long-term maintenance of the extracellular matrix and proteome.
 
-### 3.3 Feasibility Assessment (Score: 7.2/10)
+### Feasibility Assessment (Score: 7.2/10)
 - **Biological Plausibility:** 7/10 (UPR hormesis is promising)
 - **Druggability:** 6/10 (Requires synthesis of the hybrid molecule)
 - **Hormetic Window:** 8/10 (Protective effects of aminoguanidine widen the window)
@@ -68,14 +68,14 @@ The use of **[[Adrenochrome monoaminoguanidine]]** combines AGE-breaking (aminog
 
 ---
 
-## 4. Research Roadmap & Key Risk Mitigation
+## Research Roadmap & Key Risk Mitigation
 
-### 4.1 Immediate Experiments
-1. **Dose-Response Mapping:** Define the **Hormetic Index (HI)** in Human Dermal Fibroblasts (HDFs) comparing Carbazochrome vs. Adrenochrome monoaminoguanidine.
-2. **Mitophagy Validation:** Quantify mitochondrial turnover (Mito-Keima or Parkin translocation) following MRR treatment.
-3. **Senomorphic Profiling:** Measure SASP reduction (IL-6, IL-1β) in irradiation-induced senescent cells under SRAC conditions.
+### Immediate Experiments
+- **Dose-Response Mapping:** Define the **Hormetic Index (HI)** in Human Dermal Fibroblasts (HDFs) comparing Carbazochrome vs. Adrenochrome monoaminoguanidine.
+- **Mitophagy Validation:** Quantify mitochondrial turnover (Mito-Keima or Parkin translocation) following MRR treatment.
+- **Senomorphic Profiling:** Measure SASP reduction (IL-6, IL-1β) in irradiation-induced senescent cells under SRAC conditions.
 
-### 4.2 Recommended Biomarkers
+### Recommended Biomarkers
 - **Safety:** 8-OHdG (DNA damage), Methemoglobin levels.
 - **Efficacy:** Nuclear TFEB translocation, OCR (Oxygen Consumption Rate), mitochondrial mass (mtDNA/nDNA ratio).
 

@@ -162,10 +162,10 @@ The sirtuin document does not frame [[MnSOD]] activity in terms of a hormetic wi
 
 **Rationale:** If [[Adrenochrome]] (or its stabilized derivative [[Carbazochrome]]) generates superoxide via catalytic [[Redox Cycling|redox cycling]], and if this superoxide is the primary substrate for [[MnSOD]], then:
 
-1. Sub-toxic adrenochrome exposure should **upregulate [[SIRT3]] expression** via a retrograde [[ROS]] → [[AMPK]] → [[PGC-1alpha|PGC-1α]] → SIRT3 feedback loop
-2. SIRT3 induction should **increase MnSOD deacetylation** (measurable by Western blot for acetyl-K68/K122)
-3. The resulting MnSOD activation should **enhance cellular resistance** to subsequent oxidative challenge (a "[[Redox Vaccination|redox vaccination]]" effect)
-4. This protective effect should be **abolished in SIRT3 knockout cells** or **blocked by [[SIRT4]] overexpression**
+- Sub-toxic adrenochrome exposure should **upregulate [[SIRT3]] expression** via a retrograde [[ROS]] → [[AMPK]] → [[PGC-1alpha|PGC-1α]] → SIRT3 feedback loop
+- SIRT3 induction should **increase MnSOD deacetylation** (measurable by Western blot for acetyl-K68/K122)
+- The resulting MnSOD activation should **enhance cellular resistance** to subsequent oxidative challenge (a "[[Redox Vaccination|redox vaccination]]" effect)
+- This protective effect should be **abolished in SIRT3 knockout cells** or **blocked by [[SIRT4]] overexpression**
 
 ### Proposed Experimental Design
 
@@ -211,11 +211,11 @@ Combining adrenochrome [[Redox Cycling|redox cycling]] with:
 
 The [[MnSOD]] reaction in both the [[Sirtuins|sirtuin]] ([[Resveratrol|resveratrol]]) document and the [[Adrenochrome]] pathway is **biochemically identical**: superoxide dismutation to H₂O₂. The two pathways converge mechanistically through:
 
-1. **Shared substrate** ([[Superoxide|superoxide]])
-2. **Shared enzyme** ([[MnSOD]]/[[SOD2]])
-3. **Shared regulators** ([[SIRT3]] activation, [[SIRT4]] inhibition)
-4. **Shared downstream effectors** ([[PGC-1alpha|PGC-1α]], [[AMPK]], [[FOXO3a]], [[NFKB|NF-κB]], [[NRF2]])
-5. **Shared [[Mitohormesis|mitohormetic]] logic** (adaptive [[ROS]] signaling)
+- **Shared substrate** ([[Superoxide|superoxide]])
+- **Shared enzyme** ([[MnSOD]]/[[SOD2]])
+- **Shared regulators** ([[SIRT3]] activation, [[SIRT4]] inhibition)
+- **Shared downstream effectors** ([[PGC-1alpha|PGC-1α]], [[AMPK]], [[FOXO3a]], [[NFKB|NF-κB]], [[NRF2]])
+- **Shared [[Mitohormesis|mitohormetic]] logic** (adaptive [[ROS]] signaling)
 
 The critical difference is the **source and kinetics** of superoxide: constitutive ETC leak (sirtuin context) vs. catalytic [[Redox Cycling|redox cycling]] (adrenochrome context). This difference implies that adrenochrome may be a more potent, but also more dangerous, activator of the SIRT3-MnSOD axis — requiring careful dose-titration to remain within the [[Hormetic Window|hormetic window]].
 
