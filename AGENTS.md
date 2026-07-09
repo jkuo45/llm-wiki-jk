@@ -170,7 +170,7 @@ Maintain link integrity by performing periodic audits:
 
 - **Directory structure clarification**: `notes/_link/` holds cross-topic shared entities (e.g., `Inflammation.md`, `NAD+.md`). Topic directories hold topic-specific entities plus their topic hub file. When an entity is referenced across multiple topics, it lives in `notes/_link/` as the single source of truth; topic directories retain their hub and topic-specific notes only.
 - **Prevention check**: Before creating any new entity in `_link/`, verify a topic-dir hub file with the same name does not already exist.
-- When a new entity is identified as overlapping, merge (append) its content into the `notes/_link/` version and git mv the topic-specific files so that it is centrally linked in `notes/_link/` directory.
+- When a new entity is identified as overlapping, merge (append) its content into the `notes/_link/` version so that it is centrally linked in `notes/_link/` directory.
 - **IMPORTANT: Topic hubs must NEVER be moved to `_link/`.** A "topic hub" is a file whose name matches its parent directory. These always stay in their topic directory as the canonical source.
   - **Protected central topic files that must NEVER be moved to `notes/_link/`:**
     - `notes/adrenochrome/Adrenochrome.md`
@@ -189,7 +189,7 @@ Maintain link integrity by performing periodic audits:
     - `notes/sirtuins/SIRT6.md`
     - `notes/sirtuins/SIRT7.md`
 - If the entity already exists in `notes/_link/` directory, append/merge the wiki entries.
-- Although the entity file may be moved (git mv) to `notes/_link/`, it should still remain on the README.md within that topic.
+- Although the entity file may be moved to `notes/_link/`, it should still remain on the README.md within that topic.
 - Maintain only the consolidated file in `notes/_link/` to ensure a single source of truth.
   - Examples (since they are mentioned across topics in notes):
     - `notes/_link/Inflammation.md`

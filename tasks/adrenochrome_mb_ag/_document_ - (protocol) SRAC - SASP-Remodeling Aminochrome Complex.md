@@ -19,7 +19,7 @@ The **SASP-Remodeling Aminochrome Complex (SRAC)** is a sequential senomorphic-s
 > **Two revisions applied:**
 > 1. **Nanoparticle delivery removed** — replaced with AMM (adrenochrome monoaminoguanidine, a pre-stabilized complex) + Methylene Blue (mitochondrial self-targeting). No physical targeting vehicle needed.
 > 2. **Sequential dosing** — rapamycin and fisetin are administered sequentially, not concurrently, to resolve the senomorphic/senolytic timing conflict.
-> See [[tasks/task_output_SRAC_revision_log_08_JULY_2026|revision log]] for full rationale.
+> See [[task_output_SRAC_revision_log_08_JULY_2026|revision log]] for full rationale.
 
 ## Strategy Components
 - **Modulator:** [[Adrenochrome monoaminoguanidine|AMM]] (stabilized adrenochrome–aminoguanidine complex; sub-micromolar, intermittent oral dosing). Provides redox trigger + AGE inhibition in a single stable molecule.

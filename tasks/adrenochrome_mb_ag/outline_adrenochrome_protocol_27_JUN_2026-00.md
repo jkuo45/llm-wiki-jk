@@ -125,8 +125,3 @@ _Note: Aminoguanidine remains an experimental compound, and oral methylene blue 
 - Because **oral** rapamycin is metabolized by intestinal [[CYP3A4]], consuming it with inhibitors like grapefruit juice can spike blood levels by up to 350%, effectively multiplying the dose. Similarly, taking it with a high-fat meal significantly increases its absorption compared to a fasted state.
 
 ## Implementation
-
-Hourly, daily, monthly assuming IV for 75kgs healthy male. 
-I think the longest is 5 weeks
-How to measure, e.g. mitohormesis, resting metabolic rate
-Additional Components: Creatine, Resveratrol
