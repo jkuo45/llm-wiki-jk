@@ -76,7 +76,7 @@ List of documents that mention this entity
   - [[_document_ - intermediates, precursor, hemoglobin|intermediates, precursor, hemoglobin]]
     - I'm focusing on how these quinones interact with Oxyhemoglobin, generating Superoxide anion. I'm examining the role of Leuco-adrenochrome as a reductant, potentially reducing Methemoglobin or participating in ROS production.
 
-  - [[_document_ - mitohormesis|mitohormesis]]
+  - [[_document_ - MRR - mitohormesis|mitohormesis]]
     - Mechanism of Action (MOA) Redox Signaling: Carbazochrome induces transient, controlled Redox Cycling, generating a low-amplitude Superoxide anion signal in the mitochondrial matrix.
 
   - [[_document_ - neutrophil and erthrocyte|neutrophil and erthrocyte]]

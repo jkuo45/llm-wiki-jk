@@ -54,7 +54,7 @@ List of documents that mention this entity
   - [[_document_ - US4501923A - Process for preparing adrenochrome|US4501923A - Process for preparing adrenochrome]]
     - Adrenochrome is an intermediate for Carbazochrome and Adrenochrome monoaminoguanidine known as Hemostatics. Adrenochrome has been commercially prepared by oxidizing adrenaline or its salts with Potassium ferricyanide in an aqueous medium.
 
-  - [[_document_ - mitohormesis|mitohormesis]]
+  - [[_document_ - MRR - mitohormesis|mitohormesis]]
     - Strategy I: The Mitohormetic Redox-Relay (MRR) Primary Target: Mitochondrial Dysfunction & Energy Failure 1.1 Composition Trigger: Carbazochrome (Stabilized Adrenochrome derivative) at sub-micromolar concentrations.
 
 

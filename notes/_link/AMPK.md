@@ -45,7 +45,7 @@ List of documents that mention this entity
   - [[_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects|Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects]]
     - Research has shown that Urolithin A can activate the adenosine monophosphate-activated protein kinase (AMPK) signaling pathway, which is a pivotal regulator of energy metabolism \[\].
 
-  - [[_document_ - mitohormesis|mitohormesis]]
+  - [[_document_ - MRR - mitohormesis|mitohormesis]]
     - Pathway Activation: This "oxidative pulse" activates the NRF2/Antioxidant Response Element antioxidant response and stimulates PGC1-α via the SIRT1/AMPK axis (primed by Nicotinamide Riboside/Nicotinamide Mononucleotide).
 
   - [[_document_ - Autophagy and intermittent fasting the connection for cancer therapy?|Autophagy and intermittent fasting the connection for cancer therapy?]]

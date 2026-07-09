@@ -88,7 +88,7 @@ SIRT3, by producing [[OAADPr]], may regulate the **TRPM2** ion channel alongside
 
 List of documents that mention this entity
 
-  - [[_document_ - mitohormesis|mitohormesis]]
+  - [[_document_ - MRR - mitohormesis|mitohormesis]]
     - The MRR Synergy: Downstream mitohormetic transcriptional responses (specifically the deacetylation of PGC1-α by SIRT1 and SIRT3) are highly NAD+-dependent. By priming the system with NAD+ precursors like Nicotinamide Riboside (NR) or N
 
   - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]

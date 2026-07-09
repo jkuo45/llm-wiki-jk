@@ -18,7 +18,7 @@ aliases: []
 
 List of documents that mention this entity
 
-  - [[_document_ - mitohormesis|mitohormesis]]
+  - [[_document_ - MRR - mitohormesis|mitohormesis]]
     - Expected Outcomes Increased mitochondrial respiration (Oxygen Consumption Rate) and ATP production. Enhanced cellular resistance to ischemic and oxidative insults.
 
 

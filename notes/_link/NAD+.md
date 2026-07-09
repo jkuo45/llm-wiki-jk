@@ -47,7 +47,7 @@ List of documents that mention this entity
   - [[_document_ - NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health|NAD+ Precursors Nicotinamide Mononucleotide (NMN) and Nicotinamide Riboside (NR) Potential Dietary Contribution to Health]]
     - In stress conditions, NAD+ biosynthesis and levels decrease as well as the activity of consuming enzymes rises.
 
-  - [[_document_ - mitohormesis|mitohormesis]]
+  - [[_document_ - MRR - mitohormesis|mitohormesis]]
     - Fuel: Nicotinamide Riboside (NR) or Nicotinamide Mononucleotide (NAD+ precursors). Cleanup: Urolithin A (Mitophagy inducer).
 
   - [[_document_ - The Sirtuin System The Holy Grail of Resveratrol?|The Sirtuin System The Holy Grail of Resveratrol?]]

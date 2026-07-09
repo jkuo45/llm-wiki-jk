@@ -43,7 +43,7 @@ Impaired [[Mitochondrial Biogenesis]] is a hallmark of [[Type 2 Diabetes Mellitu
 
 List of documents that mention this entity
 
-  - [[_document_ - mitohormesis|mitohormesis]]
+  - [[_document_ - MRR - mitohormesis|mitohormesis]]
     - I'm investigating the synergy with NAD+ pools, with NAD+ precursors being added to ensure sufficient cofactor availability for Mitochondrial Biogenesis.
 
   - [[_document_ - mTOR signaling at a glance|mTOR signaling at a glance]]

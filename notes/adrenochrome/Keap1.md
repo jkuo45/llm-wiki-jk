@@ -38,7 +38,7 @@ In the context of the [[Adrenochrome Pathway]], adrenochrome and its redox-cycli
 
 List of documents that mention this entity
 
-  - [[_document_ - mitohormesis|mitohormesis]]
+  - [[_document_ - MRR - mitohormesis|mitohormesis]]
     - s:// Rather than causing catastrophic lipid peroxidation, this localized pulse is designed to transiently modify Keap1 cysteine residues, allowing NRF2 to translocate to the nucleus and transcr
 
   - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]

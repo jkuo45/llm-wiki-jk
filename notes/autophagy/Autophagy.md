@@ -50,7 +50,7 @@ Aging-associated [[DNA Methylation]] and [[Histone Modification]] repress autoph
 
 List of documents that mention this entity
 
-  - [[_document_ - mitohormesis|mitohormesis]]
+  - [[_document_ - MRR - mitohormesis|mitohormesis]]
     - Lastly, I'll flag conflicting reports suggesting Carbazochrome sulfonic acid can inhibit Autophagy. This therapeutic concept—the Mitohormetic Redox-Relay (MRR) —is a highly structured and biochemically coherent approach to tackling Mitochondrial Dysfunction.
 
   - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]

@@ -32,7 +32,7 @@ Adrenochrome is a potent participant in redox cycling, creating a "vicious cycle
 
 List of documents that mention this entity
 
-  - [[_document_ - mitohormesis|mitohormesis]]
+  - [[_document_ - MRR - mitohormesis|mitohormesis]]
     - Mechanism of Action (MOA) Redox Signaling: Carbazochrome induces transient, controlled Redox Cycling, generating a low-amplitude Superoxide anion signal in the mitochondrial matrix.
 
   - [[_document_ - neutrophil and erthrocyte|neutrophil and erthrocyte]]

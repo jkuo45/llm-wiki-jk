@@ -77,7 +77,7 @@ List of documents that mention this entity
   - [[_document_ - intermediates, precursor, hemoglobin|intermediates, precursor, hemoglobin]]
     - tokens User research Leuco-adrenochrome is a chemical intermediate and a natural byproduct formed during the oxidation of Epinephrine (adrenaline) into Adrenochrome.
 
-  - [[_document_ - mitohormesis|mitohormesis]]
+  - [[_document_ - MRR - mitohormesis|mitohormesis]]
     - Strategy I: The Mitohormetic Redox-Relay (MRR) Primary Target: Mitochondrial Dysfunction & Energy Failure 1.1 Composition Trigger: Carbazochrome (Stabilized Adrenochrome derivative) at sub-micromolar concentrations.
 
   - [[_document_ - neutrophil and erthrocyte|neutrophil and erthrocyte]]

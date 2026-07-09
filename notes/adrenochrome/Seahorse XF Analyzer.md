@@ -18,7 +18,7 @@ The **Seahorse XF Analyzer** is a specialized laboratory instrument used to meas
 
 List of documents that mention this entity
 
-  - [[_document_ - mitohormesis|mitohormesis]]
+  - [[_document_ - MRR - mitohormesis|mitohormesis]]
     - Use a Seahorse XF Analyzer to monitor Oxygen Consumption Rate and Extracellular Acidification Rate. Objective: Identify the specific ratio where MB successfully buffers the bioe
 
 
