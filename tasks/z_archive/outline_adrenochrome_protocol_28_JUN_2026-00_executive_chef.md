@@ -646,5 +646,5 @@ SUN [Recovery] → Collagen/GlyNAC focus, elegant brunch, oxtail ramen
 ---
 
 **References from Protocol:**
-- [[outline_adrenochrome_protocol_27_JUN_2026-00]] — MRR, GOPS, SRAC compound table with food sources
+- [[outline_adrenochrome_mb_ag_protocol_27_JUN_2026-00]] — MRR, GOPS, SRAC compound table with food sources
 - [[Methylene Blue]] (1 mg/kg) and [[Aminoguanidine]] HCl (150–300 mg/day) are excluded from this dietary plan and should be managed separately under clinical guidance.

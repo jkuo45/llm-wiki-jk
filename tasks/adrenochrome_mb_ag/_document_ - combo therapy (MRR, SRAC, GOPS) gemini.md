@@ -2,6 +2,7 @@
 title: outline_adrenochrome_combo_therapy_gemini
 tags:
   - gemini
+description: notes asking gemini about protocol components
 ---
 # Adrenochrome Combination Therapy — Outline (gemini feedback)
 
