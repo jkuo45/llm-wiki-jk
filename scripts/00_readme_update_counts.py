@@ -30,37 +30,6 @@ def get_git_commit_date(filepath, repo_root):
     return None
 
 
-def humanize_datetime(dt):
-    """Convert datetime to human-readable relative time."""
-    now = datetime.now().astimezone()
-    diff = now - dt
-
-    if diff.total_seconds() < 0:
-        return "just now"
-    elif diff.days == 0:
-        seconds = int(diff.total_seconds())
-        if seconds < 60:
-            return "just now"
-        minutes = seconds // 60
-        if minutes < 60:
-            return f"{minutes}m ago"
-        hours = seconds // 3600
-        return f"{hours}h ago"
-    elif diff.days == 1:
-        return "yesterday"
-    elif diff.days < 7:
-        return f"{diff.days}d ago"
-    elif diff.days < 30:
-        weeks = diff.days // 7
-        return f"{weeks}w ago"
-    elif diff.days < 365:
-        months = diff.days // 30
-        return f"{months}mo ago"
-    else:
-        years = diff.days // 365
-        return f"{years}y ago"
-
-
 def format_size(size_bytes):
     """Return a file size string in MB only."""
     return f"{size_bytes / (1024**2):.2f} MB"
@@ -335,9 +304,8 @@ def main():
             display_name = display_name[:97].rstrip() + "..."
         doc_gh = f"https://github.com/jkuo45/llm-wiki/blob/dev/{urllib.parse.quote(d['path'], safe='/')}"
         doc_wiki = f"[[{d['path']}|wiki]]"
-        humanized = humanize_datetime(d["datetime"])
         docs_list.append(
-            f"- `{d['topic']}`: [{display_name}]({doc_gh}) {doc_wiki} ({d['date']} - {humanized})"
+            f"- `{d['topic']}`: [{display_name}]({doc_gh}) {doc_wiki} ({d['date']})"
         )
 
     # Build marker-delimited sections
