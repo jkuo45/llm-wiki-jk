@@ -77,8 +77,8 @@ _\*notes directory only_\*
 
 > [!NOTE] Currently Reading
 > - [SASP - physiological and pathological](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/_document_%20-%20The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications.md) [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|wiki]]
-> - [SASP - epigenetic landscape](https://github.com/jkuo45/llm-wiki/blob/dev/notes/epigenetics/_document_%20-%20The%20role%20of%20the%20dynamic%20epigenetic%20landscape%20in%20senescence_orchestrating%20-%20SASP%20expression.md) [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression|wiki]]
-> - [SASP - cGAS-STING in cancer](https://github.com/jkuo45/llm-wiki/blob/dev/notes/cancer/_document_%20-%20Cellular%20senescence%20and%20senescence_associated%20secretory%20phenotype%20via%20the%20cGAS_STING%20signaling%20pathway%20in%20cancer.md) [[_document_ - Cellular senescence and senescence‐associated secretory phenotype via the cGAS_STING signaling pathway in cancer|wiki]]
+> - [SASP - epigenetic landscape](https://github.com/jkuo45/llm-wiki/blob/dev/notes/epigenetics/_document_%20-%20The%20role%20of%20the%20dynamic%20epigenetic%20landscape%20in%20senescence_orchestrating%20SASP%20expression.md) [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression|wiki]]
+> - [SASP - cGAS-STING in cancer](https://github.com/jkuo45/llm-wiki/blob/dev/notes/cancer/_document_%20-%20Cellular%20senescence%20and%20senescence%E2%80%90associated%20secretory%20phenotype%20via%20the%20cGAS_STING%20signaling%20pathway%20in%20cancer.md) [[_document_ - Cellular senescence and senescence‐associated secretory phenotype via the cGAS_STING signaling pathway in cancer|wiki]]
 >
 
 <!-- GENERATED: document_list -->
