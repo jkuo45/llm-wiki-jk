@@ -3,7 +3,7 @@ title: Sirtuins
 aliases: []
 description: index of entities and documents in this directory
 created: 2026-07-06
-updated: 2026-07-04
+updated: 2026-07-09
 ---
 # Sirtuins
 
@@ -16,6 +16,7 @@ updated: 2026-07-04
 | [[_document_ - sirtuins in health and disease s41392-022-01257-8\|Sirtuins in Health and Disease]]                                                    | Sirtuins in health and disease (2022)                                         |
 | [[_document_ - sirtuins (overview, CD38 KO risks, cancer therapies)\|Sirtuins CD38 KO, Cancer Therapies]]                                             | CD38 KO Risks, Emerging cancer therapies                                      |
 | [[_document_ - sirtuins (resveratrol), gemini\|Sirtuins & Resveratrol]]                                                                               | Sirtuins and resveratrol notes                                                |
+| [[_document_ - centenarian_sirt_6 nihpp-rs9997679v1\|Centenarian SIRT6 Variants Study]]                                                               | Centenarian SIRT6 variants (N308K/A313S) elevate SIRT6 via vimentin, alter enzymatic activities, delay senescence (2026)                     |
 
 ## Entity Notes
 
@@ -60,6 +61,7 @@ updated: 2026-07-04
 | [[UBCS039]] | Chemical Compound | First synthetic SIRT6 allosteric activator; hydrophobic pocket binding; tumor suppressive; liver-protective |
 | [[MDL-801]] | Chemical Compound | Potent synthetic SIRT6 allosteric activator; more potent than parent MDL-800; anti-fibrotic |
 | [[Cyanidin]] | Chemical Compound | Natural anthocyanidin (berries); 50×+ SIRT6 activation in vitro; H3K9/H3K56 deacetylation |
+| [[Fucoidan]] | Chemical Compound | Sulfated polysaccharide; SIRT6 activator that elevates SIRT6 and enhances mADPr activity; mimics centenarian SIRT6 variant effects |
 
 #### Sirtuin Inhibitors
 
