@@ -10,8 +10,8 @@ updated: 2026-07-06
 This directory contains entities that span across multiple topics within the knowledge base. Consolidating these entities here ensures a single source of truth and highlights them as central hubs in the graph view.
 
 ## Maintenance
-- Last updated: 08_JUL_2026 12:00 PM PDT
-- Total count of entities: 158
+- Last updated: 09_JUL_2026 12:00 PM PDT
+- Total count of entities: 172
 
 | entity                                   | datetime updated     | entity_type_1       | related topics                                  |
 | :----------------------------------------------- | :------------------- | :--------------------- | :---------------------------------------------- |
@@ -173,3 +173,16 @@ This directory contains entities that span across multiple topics within the kno
 | [[Ventral Tegmental Area]]                       | 29_May_2026 08:20 AM | Anatomy                | Neuroscience                                    |
 | [[Very Low Density Lipoprotein]]                 | 08_Jul_2026 12:00 PM | Biological Molecule    | Cardiovascular, Lipid                           |
 | [[Vitamin E]]                                    | 29_May_2026 08:20 AM | Chemical Compound      | Antioxidant                                     |
+| [[Bioavailability]]                               | 09_Jul_2026 12:00 PM | Scientific Concept     | Pharmacokinetics, Drug Delivery                 |
+| [[Cyclodextrins]]                                | 09_Jul_2026 12:00 PM | Chemical Class         | Drug Delivery, Excipient                       |
+| [[Fisetin]]                                      | 09_Jul_2026 12:00 PM | Chemical Compound      | Flavonoids, Senolytic, Aging                    |
+| [[Flavonol]]                                     | 09_Jul_2026 12:00 PM | Chemical Class         | Flavonoids, Polyphenols                         |
+| [[Inulin]]                                       | 09_Jul_2026 12:00 PM | Chemical Class         | Prebiotic, Drug Delivery                        |
+| [[Liposomes]]                                    | 09_Jul_2026 12:00 PM | Scientific Concept     | Nanotechnology, Drug Delivery                   |
+| [[Nanoemulsions]]                                | 09_Jul_2026 12:00 PM | Scientific Concept     | Nanotechnology, Drug Delivery                   |
+| [[Nanocrystals]]                                 | 09_Jul_2026 12:00 PM | Scientific Concept     | Nanotechnology, Drug Delivery                   |
+| [[Nanoparticles]]                                | 09_Jul_2026 12:00 PM | Scientific Concept     | Nanotechnology, Drug Delivery                   |
+| [[SNEDDS]]                                       | 09_Jul_2026 12:00 PM | Scientific Concept     | Nanotechnology, Drug Delivery                   |
+| [[Senolytic]]                                    | 09_Jul_2026 12:00 PM | Pharmacological Action | Senescence, Aging                               |
+| [[Senomorphic]]                                  | 09_Jul_2026 12:00 PM | Pharmacological Action | Senescence, Aging                               |
+| [[Solid Lipid Nanoparticles]]                    | 09_Jul_2026 12:00 PM | Scientific Concept     | Nanotechnology, Drug Delivery                   |

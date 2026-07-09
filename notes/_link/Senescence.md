@@ -78,6 +78,9 @@ List of documents that mention this entity
   - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
     - Although quiescent cells display some similarities to other non-dividing cell states, such as Senescence and Terminal Differentiation, quiescence possesses unique characteristics and functions.
 
+  - [[_document_ - Fisetin is a senotherapeutic that extends health and lifespan|Fisetin Senotherapeutic & Lifespan]]
+    - Fisetin, a flavonol, is the most potent flavonoid senolytic in a 10-compound screen and extends health- and lifespan in aged mice by clearing senescent cells.
+
   - [[_document_ - Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network|Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network]]
     - Experiments confirmed that upon viral transduction, the immediate response is Innate Immunity, which induces Reactive Oxygen Species, oxidative DNA Damage, p53 activation, Senescence, and Apoptosis, ultimately leading to a reduction in the Cellular Reprogra...
 

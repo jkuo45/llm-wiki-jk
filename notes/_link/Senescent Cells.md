@@ -55,6 +55,9 @@ List of documents that mention this entity
     - In-depth explanation of SASP pathways and their role in senescent cells.
   - [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review provides a comprehensive synthesis of senescent-cell biology, detailing how arrested cells characterized by SCAPs and SAHF produce the SASP via NF-κB, C/EBPβ, and cGAS–STING. It surveys the physiological and pathological implications of SASP-driven inflammaging across aging, fibrosis, cancer, and neurodegeneration, and discusses senolytic and senomorphic therapeutic strategies.
 
+  - [[_document_ - Fisetin is a senotherapeutic that extends health and lifespan|Fisetin Senotherapeutic & Lifespan]]
+    - Fisetin selectively clears senescent T, NK, progenitor, and endothelial cells (but not macrophages/dendritic cells) in adipose tissue; clearance is cell-type specific and extends lifespan.
+
 ## Connections
 
 - [[Senescence]] — Senescent cells are the primary mediators of the senescent state

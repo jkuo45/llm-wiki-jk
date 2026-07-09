@@ -250,6 +250,9 @@ List of documents that mention this entity
   - [[_document_ - SASP, senescent cells, grok|SASP, senescent cells, grok]]
     - In-depth explanation of SASP pathways (NF-κB, cGAS-STING, mTOR, p38 MAPK, JAK/STAT) and interaction with apoptosis.
 
+  - [[_document_ - Fisetin is a senotherapeutic that extends health and lifespan|Fisetin Senotherapeutic & Lifespan]]
+    - Fisetin suppresses SASP factor expression (IL-6, IL-8, MCP-1) in multiple murine tissues and human adipose explants, contributing to its lifespan extension.
+
 ## Connections
 
 - [[Cellular Senescence]] — the SASP is the effector arm of the senescence program
