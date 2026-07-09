@@ -141,6 +141,14 @@ List of documents that mention this entity
     - In addition, cell proliferation due to repression of SIRT4 by the mTORC1 pathway has been identified.
 
 
+  - [[_document_ - Rapamycin for longevity opinion article|Rapamycin for longevity: opinion article]]
+    - Notes rapamycin strongly inhibits mTORC1 at any age, driving autophagy and life extension.
+  - [[_document_ - Rapamycin for longevity the pros, the cons, and future perspectives|Rapamycin for longevity: pros, cons & future perspectives]]
+    - Describes mTORC1 as the master kinase inhibited by rapamycin, with phospho-S6 as biomarker.
+
+  - [[_document_ - The Mechanistic Target of Rapamycin (mTOR) Pathway as a Target of Anti-aging Therapies The Role of Rapamycin and Its Analogs in the Regulation of Cellular Processes and Their Impact on Longevity|mTOR Pathway as Target of Anti-aging Therapies (Zerdka et al., 2025)]]
+    - Details mTORC1 inhibition of ULK1 (autophagy), translation/proteostasis, and immune modulation by rapamycin.
+
 ## Connections
 - [[mTOR]] — catalytic core of mTORC1; directly inhibited by rapamycin-FKBP12
 - [[mTORC2]] — the second mTOR complex; insensitive to acute rapamycin, regulates Akt and cytoskeletal dynamics

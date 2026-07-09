@@ -80,6 +80,14 @@ List of documents that mention this entity
     - Non-coding RNA growth arrest specific 5 inhibits Macroautophagy and forms a negative feedback regulatory loop with the MicroRNA/SIRT1/mTOR pathway. In conclusion, SIRT1 is a key regulator of the autophagic process.
 
 
+  - [[_document_ - Rapamycin for longevity opinion article|Rapamycin for longevity: opinion article]]
+    - Frames mTOR as the quasi-programmed driver of aging that rapamycin inhibits.
+  - [[_document_ - Rapamycin for longevity the pros, the cons, and future perspectives|Rapamycin for longevity: pros, cons & future perspectives]]
+    - Summarizes the mTOR pathway, its hyperactivation in aging and mTORopathies, and rapamycin's mechanism.
+
+  - [[_document_ - The Mechanistic Target of Rapamycin (mTOR) Pathway as a Target of Anti-aging Therapies The Role of Rapamycin and Its Analogs in the Regulation of Cellular Processes and Their Impact on Longevity|mTOR Pathway as Target of Anti-aging Therapies (Zerdka et al., 2025)]]
+    - Review of mTOR as the central longevity-regulating pathway and rapamycin's mechanisms of action.
+
 ## Connections
 - **[[Aging]]**: mTOR is a primary hallmark and regulator of the aging process.
 - **[[Autophagy]]**: The process most directly suppressed by mTOR activity.

@@ -97,6 +97,11 @@ List of documents that mention this entity
     - Sir2 (yeast) homologues also modulate lifespan in worms and flies, and may underlie the beneficial effects of Caloric Restriction (CR), the only regimen that slows Aging and extends lifespan of most classes of organism, including mammals.
 
 
+  - [[_document_ - Rapamycin for longevity opinion article|Rapamycin for longevity: opinion article]]
+    - Positions rapamycin as a starvation-mimetic; CR and rapamycin effects are additive but CR is less beneficial when started late.
+  - [[_document_ - Rapamycin for longevity the pros, the cons, and future perspectives|Rapamycin for longevity: pros, cons & future perspectives]]
+    - Notes CR as the historical intervention that motivated rapamycin as a CR mimetic.
+
 ## Connections
 - **[[Aging]]**: CR is the gold standard for interventions that extend lifespan and healthspan across species.
 - **[[SIRT1]]**: A primary mediator of the beneficial effects of caloric restriction on the epigenome.

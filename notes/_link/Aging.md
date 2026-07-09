@@ -87,6 +87,14 @@ List of documents that mention this entity
     - Digestive system diseases, including fatty liver diseases (FLDs), liver and intestinal ischemiareperfusion injury (IRI), Aging, pancreas diseases, and inflammatory bowel diseases (IBDs), are the most common clinical diseases.
 
 
+  - [[_document_ - Rapamycin for longevity opinion article|Rapamycin for longevity: opinion article]]
+    - Argues not using anti-aging drugs (rapamycin) is more dangerous than using them; aging is the sum of age-related diseases.
+  - [[_document_ - Rapamycin for longevity the pros, the cons, and future perspectives|Rapamycin for longevity: pros, cons & future perspectives]]
+    - Reviews rapamycin's translational gaps and ethical concerns for off-label longevity use.
+
+  - [[_document_ - The Mechanistic Target of Rapamycin (mTOR) Pathway as a Target of Anti-aging Therapies The Role of Rapamycin and Its Analogs in the Regulation of Cellular Processes and Their Impact on Longevity|mTOR Pathway as Target of Anti-aging Therapies (Zerdka et al., 2025)]]
+    - Review arguing mTOR inhibition slows human aging via autophagy, proteostasis, mitochondrial and immune mechanisms.
+
 ## Connections
 - **[[DNA Methylation]]**: The primary epigenetic mark used to measure biological age.
 - [[Epigenetic Clock]]: Tools developed to quantify the aging process using DNA methylation data.

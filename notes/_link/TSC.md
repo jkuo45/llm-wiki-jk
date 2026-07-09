@@ -34,6 +34,9 @@ List of documents that mention this entity
     - One of the most important sensors involved in the regulation of mTORC1 activity is the TSC, which is a heterodimer that comprises TSC1 (also known as hamartin) and TSC2 (also known as tuberin).
 
 
+  - [[_document_ - Rapamycin for longevity the pros, the cons, and future perspectives|Rapamycin for longevity: pros, cons & future perspectives]]
+    - FDA-approved rapamycin/everolimus for TSC seizures (EXIST-3); prototype for translating mTOR inhibitors to clinic.
+
 ## Connections
 - [[TSC]] — related entity
 

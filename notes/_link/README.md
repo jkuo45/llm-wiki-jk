@@ -12,7 +12,7 @@ This directory contains entities that span across multiple topics within the kno
 
 ## Maintenance
 - Last updated: 08_JUL_2026 12:00 PM PDT
-- Total count of entities: 130
+- Total count of entities: 151
 
 | entity                                   | datetime updated     | entity_type_1       | related topics                                  |
 | :--------------------------------------- | :------------------- | :------------------ | :---------------------------------------------- |
@@ -141,3 +141,24 @@ This directory contains entities that span across multiple topics within the kno
 | [[Albuminuria]]                            | 08_Jul_2026 12:00 PM | Medical Condition   | Nephrology, Diabetes                            |
 | [[Cross-linking]]                          | 08_Jul_2026 12:00 PM | Chemical Process    | Aging, Glycation                                |
 | [[Very Low Density Lipoprotein]]           | 08_Jul_2026 12:00 PM | Biological Molecule | Cardiovascular, Lipid                            |
+| [[ACE Inhibitors]]                         | 08_Jul_2026 12:00 PM | Chemical Class      | Cardiovascular, Longevity, Anti-aging           |
+| [[Glucose Intolerance]]                    | 08_Jul_2026 12:00 PM | Medical Condition   | Metabolic, Diabetes                             |
+| [[Human Growth Hormone]]                   | 08_Jul_2026 12:00 PM | Protein             | Hormone, Longevity, mTOR                        |
+| [[Hyperlipidemia]]                         | 08_Jul_2026 12:00 PM | Medical Condition   | Metabolic, Cardiovascular, Lipid                |
+| [[mTORopathies]]                           | 08_Jul_2026 12:00 PM | Medical Condition   | Neurological, mTOR, Epilepsy                    |
+| [[PDE5 Inhibitors]]                        | 08_Jul_2026 12:00 PM | Chemical Class      | Cardiovascular, Longevity, Anti-aging           |
+| [[Pneumonitis]]                            | 08_Jul_2026 12:00 PM | Medical Condition   | Pulmonary, Adverse Effect                       |
+| [[Ribosomal Protein S6]]                   | 08_Jul_2026 12:00 PM | Protein             | Biomarker, mTOR, Translation                    |
+| [[Stomatitis]]                             | 08_Jul_2026 12:00 PM | Medical Condition   | Adverse Effect, Mucosal                         |
+| [[Thrombocytopenia]]                           | 08_Jul_2026 12:00 PM | Medical Condition   | Hematological, Adverse Effect                   |
+| [[Mucositis]]                                | 08_Jul_2026 12:00 PM | Medical Condition   | Adverse Effect, Mucosal                         |
+| [[Anemia]]                                   | 08_Jul_2026 12:00 PM | Medical Condition   | Hematological, Adverse Effect                   |
+| [[Leukopenia]]                               | 08_Jul_2026 12:00 PM | Medical Condition   | Hematological, Adverse Effect                   |
+| [[Proteostasis]]                             | 08_Jul_2026 12:00 PM | Biological Process  | Aging, Protein Quality                          |
+| [[TFAM]]                                    | 08_Jul_2026 12:00 PM | Protein             | Mitochondrial, Transcription Factor            |
+| [[Regulatory T cells]]                      | 08_Jul_2026 12:00 PM | Cell Type           | Immune, Lymphocyte                              |
+| [[CD8 T cells]]                             | 08_Jul_2026 12:00 PM | Cell Type           | Immune, Lymphocyte                              |
+| [[Dendritic cells]]                         | 08_Jul_2026 12:00 PM | Cell Type           | Immune, Antigen Presentation                    |
+| [[Klotho]]                                  | 08_Jul_2026 12:00 PM | Protein             | Anti-aging, Hormone                             |
+| [[Mitochondria]]                            | 08_Jul_2026 12:00 PM | Anatomy             | Organelle, Mitochondrial                        |
+| [[Stem Cells]]                              | 08_Jul_2026 12:00 PM | Cell Type           | Regeneration, Aging                             |

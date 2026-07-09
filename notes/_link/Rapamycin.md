@@ -46,6 +46,14 @@ List of documents that mention this entity
     - mTOR inhibitor suppressing SASP and decoupling ROS signals from pro-inflammatory SASP production in the SRAC strategy.
 
 
+  - [[_document_ - Rapamycin for longevity opinion article|Rapamycin for longevity: opinion article]]
+    - Opinion piece arguing rapamycin is a proven anti-aging drug whose real side effects are reversible, advocating intermittent personalized dosing.
+  - [[_document_ - Rapamycin for longevity the pros, the cons, and future perspectives|Rapamycin for longevity: pros, cons & future perspectives]]
+    - Review contrasting robust rapamycin efficacy in mTORopathies with inconsistent aging data, plus side effects and off-label ethical concerns.
+
+  - [[_document_ - The Mechanistic Target of Rapamycin (mTOR) Pathway as a Target of Anti-aging Therapies The Role of Rapamycin and Its Analogs in the Regulation of Cellular Processes and Their Impact on Longevity|mTOR Pathway as Target of Anti-aging Therapies (Zerdka et al., 2025)]]
+    - Narrative review of rapamycin mechanisms (autophagy, proteostasis, mitochondria, immunity, stem cells), animal/human data, and safety.
+
 ## Connections
 - [[Autophagy]] — cellular self-degradation pathway; clears damaged proteins and organelles
 - [[Parkinson's Disease]] — neurodegenerative disease; α-synuclein pathology; dopamine loss

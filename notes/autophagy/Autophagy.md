@@ -88,6 +88,9 @@ List of documents that mention this entity
     - v/articles//)\] Linking Summary: - New links added: SIRT1, SIRT2, SIRT3, SIRT4, SIRT5, SIRT6, SIRT7, NAD+, p53, AMPK, HIF-1α, Rossmann fold, PTEN, FOXO3a, Reactive Oxygen Species, Oxidative Stress, Apoptosis, Autophagy, Inflammation, Neurodegeneration, Homo...
 
 
+  - [[_document_ - The Mechanistic Target of Rapamycin (mTOR) Pathway as a Target of Anti-aging Therapies The Role of Rapamycin and Its Analogs in the Regulation of Cellular Processes and Their Impact on Longevity|mTOR Pathway as Target of Anti-aging Therapies (Zerdka et al., 2025)]]
+    - Reviews mTORC1→ULK1 blockade of autophagy and rapamycin's autophagic rejuvenation across models.
+
 ## Connections
 - [[Aging]] — Autophagy declines with age; its induction extends lifespan
 - [[SIRT1]] — Key nutrient sensor linking metabolism to autophagy control
