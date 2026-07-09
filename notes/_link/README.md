@@ -3,7 +3,7 @@ title: _Link notes
 aliases: []
 description: Index of wiki notes for _link
 created: 2026-07-06
-updated: 2026-07-06
+updated: 2026-07-09
 ---
 # Shared Entities (_link)
 
@@ -11,7 +11,7 @@ This directory contains entities that span across multiple topics within the kno
 
 ## Maintenance
 - Last updated: 09_JUL_2026 12:00 PM PDT
-- Total count of entities: 172
+- Total count of entities: 183
 
 | entity                                   | datetime updated     | entity_type_1       | related topics                                  |
 | :----------------------------------------------- | :------------------- | :--------------------- | :---------------------------------------------- |
@@ -23,6 +23,7 @@ This directory contains entities that span across multiple topics within the kno
 | [[Albuminuria]]                                  | 08_Jul_2026 12:00 PM | Medical Condition      | Nephrology, Diabetes                            |
 | [[Alzheimer's Disease]]                          | 29_May_2026 08:20 AM | Medical Condition      | Neurodegeneration, Epigenetics                  |
 | [[Aminoguanidine]]                               | 08_Jul_2026 11:28 AM | Chemical Compound      | Glycation, Nitric Oxide Pathway                 |
+| [[Amyloid Precursor Protein]]                   | 09_Jul_2026 12:00 PM | Protein                | Neurodegeneration, Alzheimers Disease           |
 | [[AMPK]]                                         | 29_May_2026 08:20 AM | Enzyme                 | Metabolism, Longevity                           |
 | [[Amyotrophic Lateral Sclerosis]]                | 29_May_2026 08:20 AM | Medical Condition      | Neurodegeneration                               |
 | [[Anemia]]                                       | 08_Jul_2026 12:00 PM | Medical Condition      | Hematological, Adverse Effect                   |
@@ -33,6 +34,8 @@ This directory contains entities that span across multiple topics within the kno
 | [[Ascorbic Acid]]                                | 29_May_2026 08:20 AM | Chemical Compound      | Nutrition, Oxidative Stress                     |
 | [[Atherosclerosis]]                              | 29_May_2026 08:20 AM | Medical Condition      | Cardiovascular                                  |
 | [[Autophagy]]                                    | 29_May_2026 08:20 AM | Biological Process     | Longevity, Proteostasis                         |
+| [[Bax]]                                           | 09_Jul_2026 12:00 PM | Protein                | Apoptosis, Bcl-2 Family                         |
+| [[Bid]]                                           | 09_Jul_2026 12:00 PM | Protein                | Apoptosis, Bcl-2 Family, BH3-only               |
 | [[Breast Cancer]]                                | 29_May_2026 08:20 AM | Medical Condition      | Cancer                                          |
 | [[Caloric Restriction]]                          | 29_May_2026 08:20 AM | Biological Process     | Longevity                                       |
 | [[Cancer]]                                       | 29_May_2026 08:20 AM | Medical Condition      | Oncology                                        |
@@ -42,7 +45,9 @@ This directory contains entities that span across multiple topics within the kno
 | [[Chlorpromazine]]                               | 08_Jul_2026 12:00 PM | Chemical Compound      | Phenothiazine, Antipsychotic                    |
 | [[Colorectal Cancer]]                            | 29_May_2026 08:20 AM | Medical Condition      | Cancer                                          |
 | [[COMT]]                                         | 31_May_2026 01:00 PM | Enzyme                 | Metabolism, Genetics                            |
+| [[CPEO]]                                         | 09_Jul_2026 12:00 PM | Medical Condition      | Mitochondrial Disorder, Myopathy                |
 | [[Cross-linking]]                                | 08_Jul_2026 12:00 PM | Chemical Process       | Aging, Glycation                                |
+| [[Cytochrome C]]                                 | 09_Jul_2026 12:00 PM | Protein                | Electron Transport, Apoptosis, Retrograde Signaling |
 | [[Cyclic Guanosine Monophosphate]]               | 08_Jul_2026 11:28 AM | Biological Molecule    | Signal Transduction, Nitric Oxide Pathway       |
 | [[Dendritic cells]]                              | 08_Jul_2026 12:00 PM | Cell Type              | Immune, Antigen Presentation                    |
 | [[Dextromethorphan]]                             | 08_Jul_2026 11:28 AM | Medical Product        | Pharmacology, Cough Suppressant                 |
@@ -59,7 +64,9 @@ This directory contains entities that span across multiple topics within the kno
 | [[Epinephrine]]                                  | 29_May_2026 08:20 AM | Chemical Compound      | Hormone, Neurotransmitter                       |
 | [[Estrogen]]                                     | 29_May_2026 08:20 AM | Biological Molecule    | Hormone                                         |
 | [[FCCP]]                                         | 08_Jul_2026 12:00 PM | Chemical Compound      | Mitochondrial Uncoupler, Bioenergetics          |
+| [[FPRL1]]                                        | 09_Jul_2026 12:00 PM | Receptor               | GPCR, Formyl-Peptide Receptor, Neuroprotection  |
 | [[GCN2]]                                         | 08_Jul_2026 12:00 PM | Protein                | Stress Response, Kynurenine Pathway             |
+| [[gp130]]                                        | 09_Jul_2026 12:00 PM | Protein                | Cytokine Receptor, IL-6 Family, Humanin Signaling |
 | [[Glucose Intolerance]]                          | 08_Jul_2026 12:00 PM | Medical Condition      | Metabolic, Diabetes                             |
 | [[Glucose Oxidase]]                              | 08_Jul_2026 12:00 PM | Enzyme                 | Oxidative Stress, Experimental Tool             |
 | [[Glucose-6-Phosphate Dehydrogenase]]            | 08_Jul_2026 11:28 AM | Enzyme                 | Red Blood Cell, Oxidative Stress                |
@@ -92,6 +99,7 @@ This directory contains entities that span across multiple topics within the kno
 | [[Long COVID]]                                   | 08_Jul_2026 11:28 AM | Medical Condition      | Post-viral, Mitochondrial Dysfunction           |
 | [[Magnesium]]                                    | 29_May_2026 08:20 AM | Chemical Compound      | Mineral                                         |
 | [[MAPK]]                                         | 29_May_2026 08:20 AM | Protein                | Signaling                                       |
+| [[MELAS]]                                        | 09_Jul_2026 12:00 PM | Medical Condition      | Mitochondrial Disorder, Neurology               |
 | [[Melatonin]]                                    | 29_May_2026 08:20 AM | Biological Molecule    | Hormone, Sleep                                  |
 | [[Metformin]]                                    | 29_May_2026 08:20 AM | Chemical Compound      | Diabetes, Longevity                             |
 | [[Methemoglobin Reductase]]                      | 08_Jul_2026 11:28 AM | Enzyme                 | Red Blood Cell, Redox                           |
@@ -101,6 +109,7 @@ This directory contains entities that span across multiple topics within the kno
 | [[Mitochondria]]                                 | 08_Jul_2026 12:00 PM | Anatomy                | Organelle, Mitochondrial                        |
 | [[Mitochondrial Electron Transport Chain]]       | 08_Jul_2026 11:28 AM | Biological Process     | Mitochondria, Bioenergetics                     |
 | [[Mitochondrial Membrane Potential]]             | 08_Jul_2026 12:00 PM | Scientific Concept     | Mitochondria, Bioenergetics                     |
+| [[Mitochondrial-Derived Peptide]]               | 09_Jul_2026 12:00 PM | Chemical Compound      | Mitochondrial Signaling, Endocrine, Peptide     |
 | [[Mitochondrial Respiration]]                    | 08_Jul_2026 11:28 AM | Biological Process     | Mitochondria, Bioenergetics                     |
 | [[Mitochondrial Superoxide]]                     | 08_Jul_2026 11:28 AM | Biological Molecule    | Oxidative Stress, Mitochondria                  |
 | [[Monoamine oxidase]]                            | 29_May_2026 08:20 AM | Enzyme                 | Metabolism, Neuroscience                        |
@@ -112,6 +121,7 @@ This directory contains entities that span across multiple topics within the kno
 | [[Myeloperoxidase]]                              | 29_May_2026 08:20 AM | Enzyme                 | Immunology, Oxidative Stress                    |
 | [[N-Formylkynurenine]]                           | 08_Jul_2026 12:00 PM | Chemical Compound      | Kynurenine Pathway                              |
 | [[NADP+]]                                        | 08_Jul_2026 11:28 AM | Biological Molecule    | Cofactor, Redox                                 |
+| [[NUMTs]]                                        | 09_Jul_2026 12:00 PM | Genetics               | Mitochondrial DNA, Nuclear Genome, Evolution    |
 | [[Neurodegenerative Diseases]]                   | 29_May_2026 08:20 AM | Medical Condition      | Neuroscience                                    |
 | [[Neuromelanin]]                                 | 29_May_2026 08:20 AM | Biological Molecule    | Pigment, Neuroscience                           |
 | [[Neutral Red]]                                  | 08_Jul_2026 12:00 PM | Chemical Compound      | Phenazine, Redox                                |
@@ -136,6 +146,7 @@ This directory contains entities that span across multiple topics within the kno
 | [[Quinolinic Acid]]                              | 08_Jul_2026 12:00 PM | Chemical Compound      | Kynurenine Pathway, Neuroscience                |
 | [[Reactive Oxygen Species]]                      | 31_May_2026 12:52 PM | Chemical Class         | Oxidative Stress                                |
 | [[Redox Potential]]                              | 08_Jul_2026 12:00 PM | Scientific Concept     | Redox, Electrochemistry                         |
+| [[Retrograde Signaling]]                        | 09_Jul_2026 12:00 PM | Biological Process     | Mitochondrial Signaling, Cell Communication     |
 | [[Regulatory T cells]]                           | 08_Jul_2026 12:00 PM | Cell Type              | Immune, Lymphocyte                              |
 | [[Respiratory Burst]]                            | 29_May_2026 08:20 AM | Biological Process     | Immunology                                      |
 | [[Resveratrol]]                                  | 29_May_2026 08:20 AM | Chemical Compound      | Polyphenol, Longevity                           |

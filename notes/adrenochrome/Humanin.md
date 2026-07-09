@@ -45,12 +45,29 @@ Humanin functions as both a downstream effector and an upstream regulator of mit
 
 Recombinant humanin and humanin analogs (particularly [[HNG]], the 21-amino acid form with enhanced blood-brain barrier penetration) have entered preclinical development for neurodegenerative and metabolic diseases. [[Intraperitoneal]] administration of HNG reduces infarct volume by 40% in mouse models of [[Ischemia-reperfusion Injury]] in brain and heart. Intranasal HNG improves cognitive function in [[APP]]/[[PS1]] Alzheimer's mouse models and reduces amyloid-β plaque load. In models of [[Type 2 Diabetes Mellitus]], HNG improves insulin sensitivity and glucose tolerance through [[Akt]] activation. Challenges for clinical translation include the short plasma half-life of native humanin (< 30 minutes), limited oral bioavailability (being a peptide), and the need for sustained delivery to maintain circulating levels. Strategies under investigation include [[PEGylation]], [[Albumin Fusion]], [[Liposome Encapsulation]], and small-molecule humanin secretagogues that upregulate endogenous MDP expression without peptide administration. The convergence of humanin biology with the [[Mitohormetic Redox-Relay]] framework suggests that these paradigms could be synergistically combined to enhance resilience against age-related decline.
 
+## Documents
+
+- [[_document_ - Humanin a harbinger of mitochondrial-derived peptides?|Humanin: a harbinger of MDPs]]
+  - Comprehensive review establishing humanin as the prototypical [[Mitochondrial-Derived Peptide]], describing its discovery, receptors (FPRL1, CNTFR/WSX-1/gp130), mechanisms of action (Bax/Bid inhibition, STAT3/ERK signaling), cytoprotective activities, metabolic protection, and role in aging. Published in Trends Endocrinol Metab, 2013.
+
 ## Related Entities
 
 - [[Mitochondria]]
 - [[Mitokines]]
 - [[Alzheimer's Disease]]
 - [[Apoptosis]]
+- [[Mitochondrial-Derived Peptide]]
+- [[Bax]]
+- [[Bid]]
+- [[gp130]]
+- [[FPRL1]]
+- [[Retrograde Signaling]]
+- [[Cytochrome C]]
+- [[IGFBP3]]
+- [[Amyloid Precursor Protein]]
+- [[MELAS]]
+- [[CPEO]]
+- [[NUMTs]]
 
 ## Connections
 
@@ -130,6 +147,6 @@ Recombinant humanin and humanin analogs (particularly [[HNG]], the 21-amino acid
 - [[Apoptosis]]: - [[Mitochondria]] - [[Mitokines]] - [[Alzheimer's Disease]] - Apoptosis
 
 ## Linking Summary
-- New links added: [[Mitochondria]], [[Mitokines]], [[Alzheimer's Disease]], [[Apoptosis]], [[Mitochondrial-Derived Peptide]], [[MOTS-c]], [[12S Ribosomal RNA]], [[16S Ribosomal RNA]], [[Ciliary Neurotrophic Factor Receptor]], [[WSX1]], [[gp130]], [[Janus Kinase 2]], [[STAT3]], [[Bcl-2]], [[Bcl-xL]], [[Survivin]], [[Bax]], [[IGF1R]], [[Phosphatidylinositol 3-Kinase]], [[Akt]], [[Bad]], [[Caspase-9]], [[mTORC1]], [[Glucose Uptake]], [[Insulin Sensitivity]], [[ERK1_2]], [[HSP70]], [[Hsp90]], [[HSF1]], [[Stress Resistance]], [[Insulin Resistance]], [[Cognitive Decline]], [[Frailty Index]], [[Hepatocellular Carcinoma]], [[Lymphoma]], [[Skeletal Muscle]], [[Cognitive Function]], [[Glucose Tolerance]], [[Adiposity]], [[TNFα]], [[C. elegans]], [[DAF-16]], [[FOXO]], [[Mitochondrial Unfolded Protein Response]], [[Mitophagy]], [[SIRT1]], [[AMPK]], [[Mitohormetic Redox-Relay]], [[Adrenochrome]], [[Carbazochrome]], [[HNG]], [[Ischemia-reperfusion Injury]], [[APP]]/[[PS1]], [[Type 2 Diabetes Mellitus]], [[PEGylation]], [[Albumin Fusion]], [[Liposome Encapsulation]]
-- Suggested new entity notes to create: [[Mitochondrially-derived peptides]], [[MOTS-c]], [[Mitokine Response]]
-- Strong connections to strengthen: [[Humanin]] ↔ [[Cytoprotection]], [[Humanin]] ↔ [[Mitohormetic Redox-Relay]], [[Humanin]] ↔ [[Mitochondria]]
+- New links added: [[Mitochondria]], [[Mitokines]], [[Alzheimer's Disease]], [[Apoptosis]], [[Mitochondrial-Derived Peptide]], [[MOTS-c]], [[12S Ribosomal RNA]], [[16S Ribosomal RNA]], [[Ciliary Neurotrophic Factor Receptor]], [[WSX1]], [[gp130]], [[Janus Kinase 2]], [[STAT3]], [[Bcl-2]], [[Bcl-xL]], [[Survivin]], [[Bax]], [[IGF1R]], [[Phosphatidylinositol 3-Kinase]], [[Akt]], [[Bad]], [[Caspase-9]], [[mTORC1]], [[Glucose Uptake]], [[Insulin Sensitivity]], [[ERK1_2]], [[HSP70]], [[Hsp90]], [[HSF1]], [[Stress Resistance]], [[Insulin Resistance]], [[Cognitive Decline]], [[Frailty Index]], [[Hepatocellular Carcinoma]], [[Lymphoma]], [[Skeletal Muscle]], [[Cognitive Function]], [[Glucose Tolerance]], [[Adiposity]], [[TNFα]], [[C. elegans]], [[DAF-16]], [[FOXO]], [[Mitochondrial Unfolded Protein Response]], [[Mitophagy]], [[SIRT1]], [[AMPK]], [[Mitohormetic Redox-Relay]], [[Adrenochrome]], [[Carbazochrome]], [[HNG]], [[Ischemia-reperfusion Injury]], [[APP]]/[[PS1]], [[Type 2 Diabetes Mellitus]], [[PEGylation]], [[Albumin Fusion]], [[Liposome Encapsulation]], [[Bid]], [[FPRL1]], [[Retrograde Signaling]], [[Cytochrome C]], [[IGFBP3]], [[Amyloid Precursor Protein]], [[MELAS]], [[CPEO]], [[NUMTs]]
+- Suggested new entity notes to create: [[Mitochondrially-derived peptides]], [[MOTS-c]], [[Mitokine Response]], [[SHLPs]]
+- Strong connections to strengthen: [[Humanin]] ↔ [[Cytoprotection]], [[Humanin]] ↔ [[Mitohormetic Redox-Relay]], [[Humanin]] ↔ [[Mitochondria]], [[Humanin]] ↔ [[Mitochondrial-Derived Peptide]], [[Humanin]] ↔ [[Retrograde Signaling]]
