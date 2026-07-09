@@ -3,6 +3,7 @@ title: IL-6
 description: Interleukin-6 is a pleiotropic pro-inflammatory cytokine and a hallmark component of the SASP, acting via IL-6R/gp130 and JAK/STAT3.
 created: 2026-07-07
 updated: 2026-07-08
+aliases: [IL-6, Interleukin-6, BSF-2, IL6]
 tags:
   - cytokine
   - biological-molecule
@@ -54,6 +55,26 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-  - New links added: [[Senescence-Associated Secretory Phenotype|SASP]], [[Senescent Cells]], [[Inflammation]], [[Inflammaging]], [[JAK]], [[STAT3]], [[NF-κB]], [[gp130]], [[MAPK]], [[PI3K]], [[Akt]]
+  - New links added: [[Senescence-Associated Secretory Phenotype|SASP]], [[Senescent Cells]], [[Inflammation]], [[Inflammaging]], [[JAK]], [[STAT3]], [[NF-κB]], [[gp130]], [[MAPK]], [[PI3K]], [[Akt]], [[Advanced Glycation End Products]], [[SIRT1]], [[SIRT7]]
   - Suggested new entity notes to create: [[IL-6R]]
   - Strong connections to strengthen: [[IL-6]] ↔ [[Senescence-Associated Secretory Phenotype|SASP]], [[IL-6]] ↔ [[Inflammaging]], [[IL-6]] ↔ [[STAT3]]
+
+## Additional Context (Adrenochrome / AGE / Sirtuin)
+
+IL-6 expression is often upregulated by activation of [[NF-κB]] following [[Advanced Glycation End Products|AGE]]-induced stress. [[SIRT1]] deacetylation of [[NF-κB]] downregulates pro-inflammatory cytokines including IL-6; [[SIRT7]] kidney-specific knockout reduces IL-6 and other inflammatory factors.
+
+### Documents
+
+  - [[_document_ - Dietary Advanced Glycation End Products and Aging|Dietary Advanced Glycation End Products and Aging]]
+    - After activation, NF-κB translocates to the nucleus where it will activate the transcription of genes for cytokines, growth factors and adhesive molecules, such as tumor necrosis factor α (TNFα), interleukin 6 (IL-6), well known inflammation promoters.
+  - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
+    - Inhibition of mitochondrial complex 1 reduces mitochondrial ROS production, oxidative stress and, consequently, senescence, as well as secretion of proinflammatory cytokines, such as IL-6 and IL-1b.
+  - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
+    - The niche prevents inappropriate proliferation by producing quiescence-inducing soluble factors, including IL-6 cytokines.
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease]]
+    - SIRT6 suppressed inflammatory responses and downregulated the expression of inflammatory factors IL-6 and TNFα via the NFKB pathway.
+
+### Connections
+
+  - [[Advanced Glycation End Products]]: IL-6 expression upregulated by NF-κB following AGE-induced stress.
+  - [[SIRT1]] / [[SIRT7]]: Sirtuin regulation of IL-6 expression.

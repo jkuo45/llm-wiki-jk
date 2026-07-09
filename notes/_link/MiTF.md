@@ -27,5 +27,21 @@ MiTF (Microphthalmia-associated Transcription Factor, also MITF) is a basic heli
 
 ## Linking Summary
 - New links added: [[TFEB]], [[TFE3]], [[TFEC]], [[Autophagy]], [[Lysosomal Biogenesis]], [[mTORC1]], [[Melanocyte]], [[Melanoma]], [[Pigmentation]], [[Cell Cycle]], [[Lysosome]]
-- Suggested new entity notes to create: [[CLEAR Element]], [[TFE3]], [[TFEC]]
-  - Strong connections to strengthen: MITF ↔ [[TFEB]], MITF ↔ Autophagy
+  - Suggested new entity notes to create: [[CLEAR Element]], [[TFE3]], [[TFEC]], [[MiTF TFE family]], [[Melanocytes]], [[TYR]], [[TYRP1]], [[DCT]], [[Osteoclast]], [[Mast Cell]], [[Cathepsin K]]
+  - Strong connections to strengthen: MITF ↔ [[TFEB]], MITF ↔ Autophagy, MITF ↔ [[Melanocytes]]
+
+## Additional Context (Autophagy / Lysosomal Biogenesis)
+
+MITF (also spelled MITF) is a bHLH-LZ transcription factor of the [[MiTF TFE family]], recognizing E-box and M-box motifs, with isoforms MITF-M, MITF-A, MITF-H. It is the master regulator of [[Melanocytes]] development and regulates melanogenesis genes ([[TYR]], [[TYRP1]], [[DCT]]), [[Osteoclast]] differentiation, and [[Mast Cell]] function (transcriptionally activating [[Cathepsin K]]). MITF regulates lysosomal biogenesis and [[Autophagy]] via the CLEAR network, interacting with [[TFEB]] and [[TFE3]] and compensating for their loss.
+
+### Documents
+
+  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB]]
+  - [[_document_ - TFEB AND TFE3, LINKING LYSOSOMES TO CELLULAR ADAPTATION TO STRESS|TFEB AND TFE3]]
+
+### Connections
+
+  - [[MiTF TFE family]]: MITF is a member of the MiT/TFE family.
+  - [[Melanocytes]] / [[TYR]] / [[TYRP1]] / [[DCT]]: Melanogenesis regulation.
+  - [[Osteoclast]] / [[Mast Cell]] / [[Cathepsin K]]: Differentiation and function.
+  - [[Autophagy]] / [[TFEB]] / [[TFE3]]: Lysosomal biogenesis via CLEAR network.

@@ -31,5 +31,18 @@ aliases:
 
 ## Linking Summary
 
-- New links added: [[Arterial Blood Gas]], [[Methylene blue]], [[Pulse Oximetry]], [[Co-oximetry]], [[Methemoglobinemia]]
-- Strong connections to strengthen: Arterial Blood Gas ↔ Methylene blue
+- New links added: [[Arterial Blood Gas]], [[Methylene blue]], [[Pulse Oximetry]], [[Co-oximetry]], [[Methemoglobinemia]], [[ABG]], [[Cyanosis]], [[Hypoxia]], [[Methemoglobin]]
+- Strong connections to strengthen: Arterial Blood Gas ↔ Methylene blue, Arterial Blood Gas ↔ [[Methemoglobinemia]], Arterial Blood Gas ↔ [[Co-oximetry]]
+
+## Additional Context (Methemoglobinemia)
+
+In [[Methemoglobinemia]], ABG may show a normal partial pressure of oxygen (PaO₂) despite clinical [[Cyanosis]] and true tissue [[Hypoxia]]. Diagnosis often involves comparing ABG results with [[Co-oximetry]]; pulse oximetry often reads inaccurately (around 85%).
+
+### Documents
+
+  - [[_document_ - Methemoglobin and Methemoglobinemia|Methemoglobin and Methemoglobinemia]]
+
+### Connections
+
+  - [[ABG]]: Common abbreviation for Arterial Blood Gas.
+  - [[Methemoglobinemia]] / [[Methemoglobin]]: Diagnosis context (normal PaO₂ but Cyanosis).

@@ -53,5 +53,21 @@ BAK (BCL-2 antagonist/killer, gene *BAK1*) is a pro-apoptotic effector of the [[
 
 ## Linking Summary
 
-- New links added: [[BAX]], [[Bcl-2]], [[cGAS-STING Pathway|cGAS–STING]], [[Cytochrome c]], [[Apoptosome]], [[Caspase-9]], [[mtDNA]], [[Minority MOMP]], [[Senescence-Associated Secretory Phenotype|SASP]], [[Inflammaging]]
-- Strong connections to strengthen: [[BAK]] ↔ [[BAX]], [[BAK]] ↔ [[cGAS-STING Pathway|cGAS–STING]], [[BAK]] ↔ [[Minority MOMP]]
+  - New links added: [[BAX]], [[Bcl-2]], [[cGAS-STING Pathway|cGAS–STING]], [[Cytochrome c]], [[Apoptosome]], [[Caspase-9]], [[mtDNA]], [[Minority MOMP]], [[Senescence-Associated Secretory Phenotype|SASP]], [[Inflammaging]], [[Bcl-2 family]], [[Intrinsic Pathway]], [[MOMP]], [[Phosphorylation]], [[PTPN5]], [[PTPN2]], [[PTPN23]], [[Colon Cancer]]
+  - Strong connections to strengthen: [[BAK]] ↔ [[BAX]], [[BAK]] ↔ [[cGAS-STING Pathway|cGAS–STING]], [[BAK]] ↔ [[Minority MOMP]]
+
+## Additional Context (Cancer / Regulation)
+
+Bak activity is regulated by phosphorylation: inhibitory phosphorylation at Tyr108 maintains Bak inactive on the mitochondria until dephosphorylated by the [[PTPN family]] (primarily PTPN5/STEP, also PTPN2 and PTPN23); in cancers with hyperactive K-RAS/ERK signaling (e.g., [[Colon Cancer]]), PTPN5 is inactivated, locking Bak in an inhibitory state and promoting drug resistance. Inhibitory phosphorylation at Ser117 can also block the Bak hydrophobic groove.
+
+### Documents
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer]]
+  - [[_document_ - Caspase|Caspase]]
+  - [[_document_ - Evading apoptosis in cancer|Evading apoptosis in cancer]]
+
+### Connections
+
+  - [[Bcl-2 family]]: Core pro-apoptotic effector.
+  - [[Intrinsic Pathway]]: Essential for mitochondrial-mediated apoptosis.
+  - [[Phosphorylation]] / [[PTPN5]]: Regulate Bak activation status.

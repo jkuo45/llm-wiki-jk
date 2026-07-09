@@ -384,3 +384,13 @@ This directory contains notes and research regarding [[Adrenochrome]] and its re
 | [[_document_ -  (protocol) GOPS - glyco-oxidative proteostasis\|GOPS Protocol]] | Glyco-oxidative proteostasis shield combining adrenochrome monoaminoguanidine, spermidine, and metal chelation |
 | [[_document_ -  (protocol) MRR - mitohormesis, MB, NAD\|MRR Protocol]] | Mitohormetic redox-relay using carbazochrome, methylene blue, NAD+ precursors, and urolithin A |
 
+
+## Consolidated to notes/_link/
+
+The following cross-topic entities were promoted to `notes/_link/` as the single source of truth (they remain listed above and wiki links still resolve):
+
+- [[Hemoglobin]], [[Methemoglobin]], [[Methemoglobinemia]], [[Cyanosis]]
+- [[Catechol]], [[Quinone]], [[Glycation]]
+- [[Adrenal gland]], [[Adrenal medulla]], [[Chromaffin cells]]
+- [[Cytochrome b5 reductase]], [[NAD(P)H Oxidase]], [[NADH-dependent methemoglobin reductase]]
+- [[IL-6]], [[Arterial blood gas]] → [[Arterial Blood Gas]], [[Pulse oximetry]] → [[Pulse Oximetry]] — merged into existing `notes/_link/` notes.

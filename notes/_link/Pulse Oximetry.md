@@ -30,5 +30,18 @@ aliases:
 
 ## Linking Summary
 
-- New links added: [[Pulse Oximetry]], [[Methylene blue]], [[Arterial Blood Gas]], [[Co-oximetry]], [[Methemoglobinemia]]
-- Strong connections to strengthen: Pulse Oximetry ↔ Methylene blue
+- New links added: [[Pulse Oximetry]], [[Methylene blue]], [[Arterial Blood Gas]], [[Co-oximetry]], [[Methemoglobinemia]], [[Methemoglobin]], [[Cyanosis]]
+- Strong connections to strengthen: Pulse Oximetry ↔ Methylene blue, Pulse Oximetry ↔ [[Methemoglobinemia]], Pulse Oximetry ↔ [[Methemoglobin]]
+
+## Additional Context (Methemoglobinemia)
+
+In the presence of [[Methemoglobin]], pulse oximeters often read inaccurately (typically hovering around 85%) and fail to reflect true severity of oxygen deprivation. [[Co-oximetry]] is the gold standard when pulse oximetry is unreliable.
+
+### Documents
+
+  - [[_document_ - Methemoglobin and Methemoglobinemia|Methemoglobin and Methemoglobinemia]]
+
+### Connections
+
+  - [[Methemoglobinemia]] / [[Methemoglobin]]: Cause inaccurate readings.
+  - [[Co-oximetry]]: Gold standard alternative.

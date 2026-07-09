@@ -340,3 +340,6 @@ This directory contains notes and research regarding [[Yamanaka Factors]] (OSKM:
 | 25_May_2026 05:23 PM | Protein |  | - | - | Merged from Yamanaka Factors |
 | 28_May_2026 09:05 AM | Biological Molecule |  | - | - | Merged from Yamanaka Factors |
 | 28_May_2026 09:09 AM | Protein |  | - | - | Merged from Yamanaka Factors |
+## Consolidated to notes/_link/
+
+- [[Epithelial-to-Mesenchymal Transition]] — merged into `notes/_link/Epithelial-to-mesenchymal transition.md` (canonical casing).

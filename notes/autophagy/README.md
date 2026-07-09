@@ -209,3 +209,7 @@ This directory contains notes and research regarding [[Autophagy]], its molecula
 | [[Vps34]]                                     | 09_Jun_2026 10:15 AM PDT | Enzyme                   |         10         |      1      | Class III PI3K essential for autophagosome nucleation via PI3P production. |
 | [[Yoshinori Ohsumi]]                          | 09_Jun_2026 10:15 AM PDT | Person                   |         4          |      1      | Nobel laureate who discovered the molecular mechanisms of autophagy in yeast. |
 | [[ZKSCAN3]]                                   | 09_Jun_2026 10:15 AM PDT | Protein                  |         9          |     -1      | Transcriptional repressor of autophagy and lysosomal genes, counteracting TFEB. |
+
+## Consolidated to notes/_link/
+
+- [[MITF]] — merged into `notes/_link/MiTF.md` (canonical casing MiTF).

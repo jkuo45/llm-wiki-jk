@@ -45,5 +45,23 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-  - New links added: [[MAPKAPK2|MK2]], [[p38 MAPK]], [[Senescence-Associated Secretory Phenotype|SASP]], [[Apoptosis]], [[Senescent Cells]], [[IL-6]], [[IL-8]]
-  - Strong connections to strengthen: [[HSP27]] ↔ [[MAPKAPK2|MK2]], [[HSP27]] ↔ SASP mRNA stability
+  - New links added: [[MAPKAPK2|MK2]], [[p38 MAPK]], [[Senescence-Associated Secretory Phenotype|SASP]], [[Apoptosis]], [[Senescent Cells]], [[IL-6]], [[IL-8]], [[Ivermectin]], [[EGFR]], [[HER2]], [[erlotinib]], [[cetuximab]], [[Metastasis]], [[Oxidative Stress]], [[Cytochrome c]], [[ASK1]], [[Glutathione]]
+  - Suggested new entity notes to create: [[MAPKAPK-2]], [[OGX-427]], [[HSPB1]]
+  - Strong connections to strengthen: [[HSP27]] ↔ [[MAPKAPK2|MK2]], [[HSP27]] ↔ SASP mRNA stability, [[HSP27]] ↔ [[Ivermectin]], [[HSP27]] ↔ [[EGFR]]
+
+## Additional Context (Cancer / Chemoresistance)
+
+HSP27 is highly expressed in many cancers, where it promotes survival, drug resistance, and poor prognosis. It suppresses [[Apoptosis]] by inhibiting [[Cytochrome c]]-mediated [[Apoptosome]] assembly, buffering [[Oxidative Stress]] via [[Glutathione]] interactions, stabilizing the actin cytoskeleton to aid [[Metastasis]], and supporting [[Angiogenesis]]. [[Ivermectin]] inhibits HSP27 phosphorylation, sensitizing [[EGFR]]/[[HER2]]-driven tumors (e.g., [[Lung Cancer]], [[Prostate Cancer]]) to anti-EGFR drugs such as [[erlotinib]] and [[cetuximab]].
+
+### Documents
+
+  - [[_document_ - Ivermectin, a potential anticancer drug derived from an antiparasitic drug|Ivermectin, a potential anticancer drug]]
+    - Ivermectin inhibits HSP27 phosphorylation, restoring therapy sensitivity.
+
+### Connections
+
+  - [[Ivermectin]]: Inhibits HSP27 phosphorylation, restoring therapy sensitivity.
+  - [[EGFR]] / [[HER2]]: Targeted-therapy efficacy enhanced by HSP27 inhibition.
+  - [[erlotinib]] / [[cetuximab]]: EGFR agents potentiated by HSP27 inhibition.
+  - [[Oxidative Stress]] / [[Metastasis]] / [[Angiogenesis]]: HSP27-mediated resistance mechanisms.
+  - [[Lung Cancer]] / [[Prostate Cancer]] / [[Breast Cancer]] / [[Ovarian Cancer]] / [[Glioblastoma]]: Tumors where HSP27 marks poor prognosis.

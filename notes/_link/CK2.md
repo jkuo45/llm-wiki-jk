@@ -48,6 +48,26 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-  - New links added: [[IkappaBalpha]], [[p53]]
-  - Suggested new entity notes to create: [[CSNK2A1]], [[WRN]], [[CSNK2B]]
-  - Strong connections to strengthen: [[CK2]] ↔ [[NFKB|NF-κB]], [[CK2]] ↔ [[IKK complex]], [[CK2]] ↔ [[SASP]]
+  - New links added: [[IkappaBalpha]], [[p53]], [[Caspase-2]], [[Bid]], [[Mcl-1]], [[Hallmarks of Cancer]], [[BH3 mimetics]], [[silmitasertib]]
+  - Suggested new entity notes to create: [[CSNK2A1]], [[WRN]], [[CSNK2B]], [[Mcl-1]], [[silmitasertib]]
+  - Strong connections to strengthen: [[CK2]] ↔ [[NFKB|NF-κB]], [[CK2]] ↔ [[IKK complex]], [[CK2]] ↔ [[SASP]], [[CK2]] ↔ [[Caspase-2]], [[CK2]] ↔ [[Bid]]
+
+## Additional Context (Cancer / Apoptosis)
+
+CK2 phosphorylates [[Caspase-2]] at Ser157 and the BH3-only protein [[Bid]], inhibiting their pro-apoptotic functions and thereby reinforcing tumor cell survival. CK2 is overexpressed or hyperactive in cancers of the breast, prostate, colon, lung, and blood, contributing to evasion of cell death — a core [[Hallmarks of Cancer]]. CK2 inhibition reactivates the caspase-2 and Bid apoptotic nodes, and is being paired with TRAIL/[[BH3 mimetics]] to selectively kill tumor cells.
+
+### Documents
+
+  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+    - Calorie restriction upregulates and activates CK2 (isoforms CK2α and CK2β), SIRT1, and phosphorylated AMPK.
+  - [[_document_ - Caspase|Caspase]]
+    - Caspase-2 is phosphorylated by CK2 at Ser157, suppressing activity (TRAIL resistance; Esophageal Cancer).
+
+### Connections
+
+  - [[Caspase-2]]: Phosphorylated at Ser157 by CK2 to block activation.
+  - [[Bid]]: Phosphorylated by CK2 to inhibit caspase-8 cleavage.
+  - [[Caspase-8]]: Cleaves Bid; opposed by CK2.
+  - [[Mcl-1]]: Anti-apoptotic protein stabilized by CK2.
+  - [[Cancer]] / [[Hallmarks of Cancer]]: Context of CK2-driven survival.
+  - [[BH3 mimetics]]: Combinatorial partners with CK2 inhibitors.

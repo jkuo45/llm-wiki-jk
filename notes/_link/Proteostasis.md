@@ -40,6 +40,22 @@ List of documents in the wiki that mention this entity
 
 ## Linking Summary
 
-  - New links added: [[mTORC1]], [[Rapamycin]], [[Autophagy]], [[HSP70]], [[TFAM]], [[SASP]], [[NF-κB]], [[Aging]]
-  - Suggested new entity notes to create: none
-  - Strong connections to strengthen: [[Proteostasis]] ↔ [[mTORC1]], [[Proteostasis]] ↔ [[Autophagy]]
+  - New links added: [[mTORC1]], [[Rapamycin]], [[Autophagy]], [[HSP70]], [[TFAM]], [[SASP]], [[NF-κB]], [[Aging]], [[Neuromelanin]], [[Alpha-synuclein]], [[Ubiquitin-Proteasome System]], [[Ubiquitin]], [[Lewy Bodies]], [[Oxidative Stress]], [[Neuroinflammation]], [[Vesicular Monoamine Transporter 2]]
+  - Suggested new entity notes to create: [[Chaperone-mediated Autophagy]], [[TFEB]], [[Mitophagy]]
+  - Strong connections to strengthen: [[Proteostasis]] ↔ [[mTORC1]], [[Proteostasis]] ↔ [[Autophagy]], [[Proteostasis]] ↔ [[Neuromelanin]]
+
+## Additional Context (Neuromelanin / Neurodegeneration)
+
+In catecholaminergic neurons, proteostasis is intimately linked to [[Neuromelanin]], because pigment accumulation, metal load, and catechol [[Quinones]] together challenge the cell's protein-quality-control capacity. In the [[Substantia Nigra Pars Compacta]], neuromelanin burdens lysosomes and autophagosomes and — through metal-catalyzed [[Oxidative Stress]] — damages chaperones and proteases, a proteostatic collapse that selectively afflicts the most pigmented neurons in [[Parkinson's Disease]]. Chronic [[Neuroinflammation]] further suppresses proteostatic gene expression.
+
+### Documents
+
+  - [[_document_ - The Gut Microbiome, Aging, and Longevity A Systematic Review|The Gut Microbiome, Aging, and Longevity]]
+    - Loss of Proteostasis is a primary Hallmark of Aging.
+
+### Connections
+
+  - [[Neuromelanin]]: Pigment whose load challenges proteostatic capacity.
+  - [[Alpha-synuclein]]: Client protein that aggregates when proteostasis fails ([[Lewy Bodies]], [[Pale Bodies]]).
+  - [[Ubiquitin-Proteasome System]] / [[Ubiquitin]]: Bulk degradation arm.
+  - [[Oxidative Stress]] / [[Neuroinflammation]]: Amplify proteostatic collapse.

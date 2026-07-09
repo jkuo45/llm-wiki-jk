@@ -225,3 +225,10 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[Glutamine]] | 06_July_2026 12:00 PM PDT | Amino Acid | 8 | 0 | Conditional essential amino acid and primary fuel source for rapidly dividing cells, including cancer cells. |
 | [[Oncosis]] | 06_July_2026 12:00 PM PDT | Biological Process | 7 | -1 | Form of accidental cell death characterized by cell swelling and lysis, often associated with ischemia. |
 | [[Tumour Microenvironment]] | 06_July_2026 12:00 PM PDT | Scientific Concept | 9 | 0 | Complex ecosystem surrounding a tumor, critical for its growth, progression, and resistance to therapy. |
+
+## Consolidated to notes/_link/
+
+The following entities were moved to `notes/_link/` as cross-topic shared notes (single source of truth). Wiki links in this topic still resolve to them:
+
+- [[CK2]] — casein kinase 2; merged into `notes/_link/CK2.md`
+- [[HSP27]] — heat shock protein 27; merged into `notes/_link/HSP27.md`

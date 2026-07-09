@@ -47,4 +47,19 @@ List of documents that mention this entity
 ## Linking Summary
 
   - New links added: [[Senescence-Associated Secretory Phenotype|SASP]], [[Cancer]], [[Metastasis]], [[TGF-β]], [[IL-6]], [[IL-8]], [[MMP-2]], [[MMP-3]], [[MMP-9]], [[NF-κB]], [[STAT3]], [[Snail]], [[Zeb1]], [[Fibrosis]], [[Tumor Microenvironment]], [[Wnt]], [[Notch]]
-  - Strong connections to strengthen: Epithelial-to-mesenchymal transition ↔ Cancer, Epithelial-to-mesenchymal transition ↔ [[SASP]], Epithelial-to-mesenchymal transition ↔ [[Metastasis]]
+  - Strong connections to strengthen: Epithelial-to-mesenchymal transition ↔ Cancer, Epithelial-to-mesenchymal transition ↔ [[SASP]], Epithelial-to-mesenchymal transition ↔ [[Metastasis]], Epithelial-to-mesenchymal transition ↔ [[Mesenchymal-to-Epithelial Transition]], Epithelial-to-mesenchymal transition ↔ [[Cellular Reprogramming]]
+
+## Additional Context (Cellular Reprogramming / Development)
+
+EMT is a reversible, biochemically graded transition (cells occupy hybrid E/M states). In [[Cellular Reprogramming]], suppression of EMT is essential for generating [[Induced Pluripotent Stem Cells]] (iPSCs) from mesenchymal somatic cells such as [[Fibroblasts]]; the reverse [[Mesenchymal-to-Epithelial Transition]] (MET) is required to reach [[Pluripotency]]. The [[TGF-beta Signaling Pathway]] is a major roadblock, inhibited (e.g., SB431542) to improve efficiency; the [[Yamanaka Factors]] (OSKM) facilitate MET by repressing [[Snail]] and [[Zeb1]] and suppressing TGF-β receptor expression. Physiologically, EMT enables gastrulation, neural crest delamination, and wound healing.
+
+### Documents
+
+  - [[_document_ - Molecular Insights into Reprogramming-Initiation Events Mediated by the OSKM Gene Regulatory Network|Molecular Insights into Reprogramming-Initiation Events]]
+
+### Connections
+
+  - [[Mesenchymal-to-Epithelial Transition]]: Reverse process; required for reprogramming.
+  - [[TGF-beta Signaling Pathway]] / [[Yamanaka Factors]] / [[Fibroblasts]]: Reprogramming context.
+  - [[Snail]] / [[Slug]] / [[Zeb1]] / [[ZEB2]] / [[TWIST1]] / [[CDH1]] / [[CDH2]] / [[c-Met]]: Core EMT regulators.
+  - [[DNA Methylation]]: Epigenetic plasticity underlying EMT.

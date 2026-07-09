@@ -53,5 +53,25 @@ BAX (BCL-2-associated X protein, gene *BCL2L4*) is a pro-apoptotic effector of t
 
 ## Linking Summary
 
-- New links added: [[BAK]], [[Bcl-2]], [[cGAS-STING Pathway|cGAS–STING]], [[Cytochrome c]], [[Apoptosome]], [[Caspase-9]], [[mtDNA]], [[Minority MOMP]], [[Senescence-Associated Secretory Phenotype|SASP]], [[Inflammaging]]
-- Strong connections to strengthen: [[BAX]] ↔ [[BAK]], [[BAX]] ↔ [[cGAS-STING Pathway|cGAS–STING]], [[BAX]] ↔ [[Minority MOMP]]
+  - New links added: [[BAK]], [[Bcl-2]], [[cGAS-STING Pathway|cGAS–STING]], [[Cytochrome c]], [[Apoptosome]], [[Caspase-9]], [[mtDNA]], [[Minority MOMP]], [[Senescence-Associated Secretory Phenotype|SASP]], [[Inflammaging]], [[Bcl-2 family]], [[Intrinsic Pathway]], [[MOMP]], [[Akt]], [[ERK]], [[JNK]], [[p38 MAPK]], [[GSK3]], [[PKCζ]], [[IBRDC2]], [[Bcl-xL]], [[Phosphorylation]], [[Ubiquitination]], [[Ku70]], [[SIRT1]]
+  - Strong connections to strengthen: [[BAX]] ↔ [[BAK]], [[BAX]] ↔ [[cGAS-STING Pathway|cGAS–STING]], [[BAX]] ↔ [[Minority MOMP]]
+
+## Additional Context (Cancer / Regulation & Sirtuins)
+
+Bax activity is regulated by phosphorylation ([[Akt]] Ser184, [[ERK]] Thr167 with [[Pin1]], [[JNK]]/[[p38 MAPK]], [[GSK3]], [[PKCζ]]) and ubiquitination ([[IBRDC2]]). Mutations in *BAX* are common in colorectal cancers with microsatellite instability; the Bcl-2/Bax ratio determines cell fate. [[SIRT1]] deacetylates [[Ku70]], and deacetylated Ku70 sequesters pro-apoptotic Bax away from mitochondria, suppressing apoptosis.
+
+### Documents
+
+  - [[_document_ - Apoptosis in cancer from pathogenesis to treatment|Apoptosis in cancer]]
+  - [[_document_ - Caspase|Caspase]]
+  - [[_document_ - Evading apoptosis in cancer|Evading apoptosis in cancer]]
+  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan & Sinclair]]
+  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease]]
+
+### Connections
+
+  - [[Bcl-2 family]] / [[Bcl-2]]: Bax is a core pro-apoptotic member; Bcl-2 its antagonist.
+  - [[Intrinsic Pathway]]: Essential for mitochondrial-mediated apoptosis.
+  - [[Bak]]: Synergizes to form mitochondrial pores.
+  - [[Bcl-xL]]: Retrotranslocates Bax from mitochondria.
+  - [[Ku70]] / [[SIRT1]]: Sirtuin regulation of Bax-mediated apoptosis.

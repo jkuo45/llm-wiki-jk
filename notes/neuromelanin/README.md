@@ -132,3 +132,7 @@ This directory contains notes and research regarding [[Neuromelanin]], its biosy
 | [[Vagus Nerve]]                              | 04_Jul_2026 12:00 PM | Anatomy                 |
 | [[Ventral Tegmental Area]]       | 25_May_2026 05:23 PM | Anatomy                 |
 | [[Vesicular Monoamine Transporter 2]]        | 25_May_2026 05:23 PM | Protein                 |
+
+## Consolidated to notes/_link/
+
+- [[Proteostasis]] — merged into `notes/_link/Proteostasis.md` (cross-topic shared note).
