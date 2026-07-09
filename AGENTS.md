@@ -13,6 +13,7 @@
   - Contains documents that have not yet been ingested into `notes/`. These are waiting to be processed through the Document Ingestion Workflow.
 - `tasks` directory:
   - Contains task outputs. Default to saving task outputs to this directory.
+- **Heading and sub-heading enumerations**: Use plain descriptive names only (e.g., `### Composition`, `### Mechanism of Action`).
 
 ## Document Ingestion Workflow:
 
@@ -40,7 +41,7 @@ When marking up wiki links in the ingested document, apply these rules systemati
 - **Use display text when helpful** — `[[Retinoblastoma Protein|Rb]]` keeps readability while linking to the correct note.
 - **Callout key insights** — use `> [!info]`, `> [!tip]`, `> [!important]`, `> [!warning]` to highlight mechanistic details, clinical significance, and key experimental findings.
 - Add dedicated `Documents`,`Connections`, and `Linking Summary` sections listing important bidirectional connections with brief explanations.
-- **Maintain consistency** — use enumerated headings only if it makes sense (chronological, scale, etc.); otherwise prefer bulleted outline points. Caution when using backslash and pipes in entity note title names, as they may clash with markdown table formats.
+- **Maintain consistency** — only use enumerated headings only if it makes sense (chronological, scale, etc.); otherwise prefer bulleted outline points. Caution when using backslash and pipes in entity note title names, as they may clash with markdown table formats.
 
 > [!note] Reference
 > General wiki link syntax and formatting rules are defined in [[#Linking Format]] below. The checklist above consolidates all linking rules for the ingestion workflow — steps 3–5 should follow the same conventions.
