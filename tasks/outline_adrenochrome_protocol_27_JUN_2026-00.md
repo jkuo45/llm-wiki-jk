@@ -16,7 +16,7 @@ _[pimagedine](https://pubmed.ncbi.nlm.nih.gov/14568006/)_
 
 **SRAC (Senescent Cells, lysosomes, SNC's)** - Focuses on the targeted clearance (senolysis) or modulation of senescent cells to reduce the secretion of pro-inflammatory factors (SASP), rejuvenating tissue microenvironments.
 
-**Additional Components**: Creatine, MMP-12
+**Additional Components**: Creatine, Resveratrol
 
 ---
 
@@ -126,6 +126,7 @@ _Note: Aminoguanidine remains an experimental compound, and oral methylene blue 
 
 ## Implementation
 
-Daily, Weekly, Monthly of diet and compounds
+Hourly, daily, monthly assuming IV for 75kgs healthy male. 
+I think the longest is 5 weeks
 How to measure, e.g. mitohormesis, resting metabolic rate
-Creatine, MMP-12 optimized
+Additional Components: Creatine, Resveratrol
