@@ -104,6 +104,9 @@ List of documents that mention this entity
   - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
     - For instance, increased SIRT1 protein expression can reduce acetylation of the NFKB p65 subunit, which results in the suppression of TNFα-induced NFKB transcriptional activation and reduction of TNFα secretion in a SIRT1-dependent manner.
 
+  - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]]
+    - Review identifies NF-κB as the master regulator of SASP, with cytoplasmic chromatin fragment/cGAS–STING signalling and the H3K27ac–AP-1–BRD4 axis converging on NF-κB to drive SASP in senescent cells.
+
 
 ## Connections
 
@@ -113,12 +116,22 @@ List of documents that mention this entity
 - **[[SIRT6]]** — Chromatin-associated repressor deacetylating H3K9ac at NF-κB target promoters.
 - **[[Inflammation]]** — NF-κB is the master transcriptional driver of inflammatory pathology.
 - **[[Apoptosis]]** — NF-κB transcriptional suppression by sirtuins sensitizes cells to TNF-α-induced apoptosis.
+- **[[SASP]]** — NF-κB is the master transcription factor driving SASP expression.
+- **[[Epigenetic Alterations]]** — the epigenetic landscape converges on NF-κB to orchestrate SASP.
+- **[[Cytoplasmic Chromatin Fragments]]** — CCF activates cGAS–STING–NF-κB to induce SASP.
+- **[[cGAS-STING Pathway]]** — upstream of NF-κB SASP activation in senescence.
+- **[[AP-1]]** — pioneer factor that opens enhancers for NF-κB-regulated SASP genes.
+- **[[BRD4]]** — H3K27ac reader at senescence-activated SASP enhancers feeding NF-κB.
+- **[[KDM4]]** — demethylates H3K9 to permit NF-κB access to SASP loci.
+- **[[EZH2]]** — deposits H3K27me3; its inhibition derepresses NF-κB SASP genes.
+- **[[LINE-1]]** — retrotransposon cDNA activates cGAS–STING–NF-κB SASP.
+- **[[IL-6]]** / **[[IL-8]]** / **[[IL-1α]]** — NF-κB-driven SASP cytokines.
 
-- New links added: [[SIRT1]], [[SIRT2]], [[SIRT3]], [[SIRT6]], [[Inflammation]], [[Apoptosis]]
+- New links added: [[SIRT1]], [[SIRT2]], [[SIRT3]], [[SIRT6]], [[Inflammation]], [[Apoptosis]], [[SASP]], [[Epigenetic Alterations]], [[Cytoplasmic Chromatin Fragments]], [[cGAS-STING Pathway]], [[AP-1]], [[BRD4]], [[KDM4]], [[EZH2]], [[LINE-1]], [[IL-6]], [[IL-8]], [[IL-1α]]
 - Suggested new entity notes to create: [[TNFα]], [[MnSOD]], [[IκB]], [[RelA]]
   - Strong connections to strengthen: SIRT1 ↔ [[NFKB]], SIRT6 ↔ [[NFKB]], [[Inflammation]] ↔ [[NFKB]]
 
 ## Linking Summary
-- New links added: [[Apoptosis]], [[Inflammation]], [[IκB]], [[MnSOD]], [[NFKB]], [[RelA]], [[SIRT1]], [[SIRT2]], [[SIRT3]], [[SIRT6]], [[TNFα]]
+- New links added: [[Apoptosis]], [[Inflammation]], [[IκB]], [[MnSOD]], [[NFKB]], [[RelA]], [[SIRT1]], [[SIRT2]], [[SIRT3]], [[SIRT6]], [[TNFα]], [[SASP]], [[Epigenetic Alterations]], [[Cytoplasmic Chromatin Fragments]], [[cGAS-STING Pathway]], [[AP-1]], [[BRD4]], [[KDM4]], [[EZH2]], [[LINE-1]], [[IL-6]], [[IL-8]], [[IL-1α]]
 - Suggested new entity notes to create: [[IκB]], [[RelA]]
   - Strong connections to strengthen: NF-κB (Nuclear Factor Kappa B) ↔ [[Inflammation]], NF-κB (Nuclear Factor Kappa B) ↔ [[Apoptosis]], NF-κB (Nuclear Factor Kappa B) ↔ SIRT1

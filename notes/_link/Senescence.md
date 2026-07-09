@@ -93,6 +93,9 @@ List of documents that mention this entity
   - [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]
     - Comprehensive review framing senescence as a multi-hallmark program with distinct arrest axes and a heterogeneous SASP driving physiological and pathological outcomes.
 
+  - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]]
+    - Review synthesizes how the senescent epigenetic landscape—A/B compartment switching, 3D genome rewiring, histone modifications/variants, histone loss, DNA methylation, and retrotransposon derepression—orchestrates SASP expression, with epigenetic modulators acting as senomorphics.
+
 ## Connections
 - [[Aging]]: The accumulation of senescent cells is a primary driver of tissue aging and age-related diseases.
 - [[Cancer]]: Senescence acts as an initial barrier to cancer but can later promote tumor growth via the SASP.
@@ -102,8 +105,24 @@ List of documents that mention this entity
 - [[Senescence-Associated Secretory Phenotype|SASP]]: The secretory arm that mediates most non-cell-autonomous effects.
 - [[p16 INK4a|p16]]: Core long-term arrest effector and in-vivo senescence biomarker.
 - [[p21 CIP1|p21]]: Early DDR-driven arrest effector.
+- [[Epigenetic Alterations]]: senescent epigenetic reprogramming orchestrates the SASP
+- [[SASP]]: the SASP is the primary non-cell-autonomous output of the senescent epigenome
+- [[Senescence-Associated Heterochromatin Foci]]: SAHF is a product of the senescent epigenetic landscape
+- [[Histone Variant]]: histone variants accumulate and shape senescence
+- [[DNA Methylation]]: methylation dynamics define the senescent transcriptome
+- [[LINE-1]]: retrotransposon derepression drives senescence-associated inflammation
+- [[cGAS-STING Pathway]]: cytosolic DNA from senescence activates cGAS–STING SASP
+- [[Cytoplasmic Chromatin Fragments]]: CCF is an upstream SASP trigger in senescence
+- [[BRD4]]: H3K27ac reader at senescence-activated SASP enhancers
+- [[KDM4]]: H3K9 demethylase promoting SASP in senescence
+- [[EZH2]]: H3K27 methyltransferase restraining SASP
+- [[AP-1]]: pioneer factor opening SASP enhancers in senescence
+- [[NF-κB]]: master regulator of the SASP in senescence
+- [[RB1]]: RB1 decline derepresses LINE-1 in senescence
+- [[SIRT6]]: SIRT6 loss derepresses LINE-1 in senescence
+- [[Inflammaging]]: senescent SASP underlies inflammaging
 
 ## Linking Summary
-- New links added: [[Chromatin]], [[Epigenetics]], [[Senescence-Associated Secretory Phenotype|SASP]], [[SAHF]], [[Lamin B1]], [[Heterochromatin]], [[Histone Modification]], [[LINE-1]], [[Methylation]], [[Aging]], [[Genomic Instability]], [[Cancer]], [[p53]], [[Cellular Reprogramming]], [[DNA Damage]], [[Fibroblasts]], [[Reactive Oxygen Species]], [[Telomere Attrition]], [[p16 INK4a|p16]], [[p21 CIP1|p21]], [[Retinoblastoma Protein|Rb]], [[DNA Damage Response]], [[Oxidative Stress]], [[Inflammaging]], [[Senolytic Therapy]], [[Senomorphic Therapy]], [[Osteoarthritis]], [[Histone H3]], [[E2F]], [[Cyclin-Dependent Kinase 2|CDK2]], [[Cyclin-Dependent Kinase 4|CDK4]], [[Cyclin-Dependent Kinase 6|CDK6]], [[Oncogene-Induced Senescence|OIS]], [[Paracrine Senescence]].
+- New links added: [[Chromatin]], [[Epigenetics]], [[Senescence-Associated Secretory Phenotype|SASP]], [[SAHF]], [[Lamin B1]], [[Heterochromatin]], [[Histone Modification]], [[LINE-1]], [[Methylation]], [[Aging]], [[Genomic Instability]], [[Cancer]], [[p53]], [[Cellular Reprogramming]], [[DNA Damage]], [[Fibroblasts]], [[Reactive Oxygen Species]], [[Telomere Attrition]], [[p16 INK4a|p16]], [[p21 CIP1|p21]], [[Retinoblastoma Protein|Rb]], [[DNA Damage Response]], [[Oxidative Stress]], [[Inflammaging]], [[Senolytic Therapy]], [[Senomorphic Therapy]], [[Osteoarthritis]], [[Histone H3]], [[E2F]], [[Cyclin-Dependent Kinase 2|CDK2]], [[Cyclin-Dependent Kinase 4|CDK4]], [[Cyclin-Dependent Kinase 6|CDK6]], [[Oncogene-Induced Senescence|OIS]], [[Paracrine Senescence]], [[Epigenetic Alterations]], [[SASP]], [[Senescence-Associated Heterochromatin Foci]], [[Histone Variant]], [[DNA Methylation]], [[LINE-1]], [[cGAS-STING Pathway]], [[Cytoplasmic Chromatin Fragments]], [[BRD4]], [[KDM4]], [[EZH2]], [[AP-1]], [[NF-κB]], [[RB1]], [[SIRT6]], [[Inflammaging]].
 - Suggested new entity notes to create: [[Telomere Attrition]], [[cGAS-STING Pathway]], [[Senescence-associated mitochondrial dysfunction|SAMD]].
   - Strong connections to strengthen: [[Senescence]] ↔ [[Aging]], [[Senescence]] ↔ Autophagy, [[Senescence]] ↔ [[SASP]]

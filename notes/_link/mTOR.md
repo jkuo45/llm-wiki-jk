@@ -78,6 +78,9 @@ List of documents that mention this entity
   - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
     - Non-coding RNA growth arrest specific 5 inhibits Macroautophagy and forms a negative feedback regulatory loop with the MicroRNA/SIRT1/mTOR pathway. In conclusion, SIRT1 is a key regulator of the autophagic process.
 
+  - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]]
+    - Review lists mTOR among the signaling pathways (with NF-κB, p38 MAPK, JAK–STAT, NOTCH, C/EBPβ, GATA4) that regulate SASP expression, alongside the epigenetic mechanisms orchestrating SASP in senescence.
+
 
   - [[_document_ - Rapamycin for longevity opinion article|Rapamycin for longevity: opinion article]]
     - Frames mTOR as the quasi-programmed driver of aging that rapamycin inhibits.
@@ -96,8 +99,14 @@ List of documents that mention this entity
 - [[PI3K]]: Part of the same signaling axis.
 - [[melittin]]: Suppresses mTOR activity.
 - [[Ivermectin]]: Inhibits the mTOR pathway, leading to programmed cell death.
+- [[SASP]]: mTOR promotes SASP protein production
+- [[Epigenetic Alterations]]: mTOR intersects the epigenetic regulation of SASP
+- [[NF-κB]]: mTOR cooperates with NF-κB in SASP regulation
+- [[p38 MAPK]]: p38 MAPK and mTOR converge on SASP
+- [[cGAS-STING Pathway]]: cGAS–STING intersects mTOR SASP signaling
+- [[Senomorphic]]: mTOR inhibitors act as senomorphics suppressing SASP
 
 ## Linking Summary
-- New links added: [[mTOR]], [[Autophagy]], [[Aging]], [[Caloric Restriction]], [[AMPK]], [[IGF1]], [[Cancer]], [[Metabolic Syndromes]], [[Neurodegenerative Diseases]], [[mTORC1]], [[mTORC2]]
+- New links added: [[mTOR]], [[Autophagy]], [[Aging]], [[Caloric Restriction]], [[AMPK]], [[IGF1]], [[Cancer]], [[Metabolic Syndromes]], [[Neurodegenerative Diseases]], [[mTORC1]], [[mTORC2]], [[SASP]], [[Epigenetic Alterations]], [[NF-κB]], [[p38 MAPK]], [[cGAS-STING Pathway]], [[Senomorphic]]
 - Suggested new entity notes to create: [[Rapamycin]], [[mTORC1]], [[Protein Synthesis]], [[Autophagy]]
   - Strong connections to strengthen: [[mTOR]] ↔ [[Aging]], [[mTOR]] ↔ Autophagy, Nutrient Sensing ↔ [[mTOR]]

@@ -46,6 +46,8 @@ List of documents that mention this entity
   - [[_document_ - Cellular Mechanisms and Regulation of Quiescence|Cellular Mechanisms and Regulation of Quiescence]]
     - The key players in marking this site on each chromosome are specialized Nucleosome containing the Histone Variant, CENP-A.
 
+  - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]]
+    - Review details how histone variants (H3.3, H2A.J, H2A.X/γ-H2A.X, macroH2A, CENP-A) replace canonical histones in senescent cells, contributing to proliferation arrest, SAHF formation, and SASP expression; BRD4 loss triggers H3.3 clipping that enhances SASP loci accessibility.
 
 ## Connections
 
@@ -80,8 +82,20 @@ List of documents that mention this entity
 - [[iPSCs]]: - **Variant-specific knockouts** in [[mESCs]] or iPSCs to study developmental and aging phenotypes.
 - [[FRAP]]: - **FRAP** and [[FLIP]] to measure nucleosomal variant dynamics.
 - [[FLIP]]: - **[[FRAP]]** and FLIP to measure nucleosomal variant dynamics.
+- [[SASP]]: histone variants (H3.3, H2A.J, macroH2A) contribute to SASP expression
+- [[Epigenetic Alterations]]: variant replacement is a defining feature of the senescent epigenome
+- [[Senescence-Associated Heterochromatin Foci]]: macroH2A and HIRA assemble SAHF
+- [[BRD4]]: BRD4 protects against H3.3 clipping that enhances SASP accessibility
+- [[NF-κB]]: variant dynamics influence NF-κB-driven SASP loci
+- [[AP-1]]: AP-1 opens SASP enhancers in a variant-rich landscape
+- [[KDM4]]: KDM4 demethylates histones whose variant replacement marks senescence
+- [[EZH2]]: EZH2 H3K27me3 organizes variant-containing heterochromatin
+- [[cGAS-STING Pathway]]: histone variant changes accompany retroelement derepression
+- [[LINE-1]]: variant chromatin state influences LINE-1 repression
+- [[DNA Methylation]]: variants and methylation cooperate at repetitive elements
+- [[Cytoplasmic Chromatin Fragments]]: histone variants mark CCF-generating regions
 
 ## Linking Summary
-- New links added: [[Histone Modification]], [[Nucleosome]], [[Aging]], [[Senescence]], [[SAHF]], [[DNA Damage Response]], [[H3.3]], [[macroH2A]], [[H2A.Z]], [[H2A.X]], [[CENP-A]]
+- New links added: [[Histone Modification]], [[Nucleosome]], [[Aging]], [[Senescence]], [[SAHF]], [[DNA Damage Response]], [[H3.3]], [[macroH2A]], [[H2A.Z]], [[H2A.X]], [[CENP-A]], [[SASP]], [[Epigenetic Alterations]], [[Senescence-Associated Heterochromatin Foci]], [[BRD4]], [[NF-κB]], [[AP-1]], [[KDM4]], [[EZH2]], [[cGAS-STING Pathway]], [[LINE-1]], [[DNA Methylation]], [[Cytoplasmic Chromatin Fragments]]
 - Suggested new entity notes to create: [[HIRA]], [[DAXX]], [[ATRX]], [[SWR1]], [[SRCAP]]
 - Strong connections to strengthen: [[Histone Variant]] ↔ [[Nucleosome]], [[Histone Variant]] ↔ [[Senescence]]

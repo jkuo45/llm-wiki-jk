@@ -10,8 +10,8 @@ updated: 2026-07-09
 This directory contains entities that span across multiple topics within the knowledge base. Consolidating these entities here ensures a single source of truth and highlights them as central hubs in the graph view.
 
 ## Maintenance
-- Last updated: 09_JUL_2026 12:00 PM PDT
-- Total count of entities: 183
+- Last updated: 09_Jul_2026 12:00 PM PDT
+- Total count of entities: 228
 
 | entity                                   | datetime updated     | entity_type_1       | related topics                                  |
 | :----------------------------------------------- | :------------------- | :--------------------- | :---------------------------------------------- |
@@ -49,10 +49,12 @@ This directory contains entities that span across multiple topics within the kno
 | [[Cross-linking]]                                | 08_Jul_2026 12:00 PM | Chemical Process       | Aging, Glycation                                |
 | [[Cytochrome C]]                                 | 09_Jul_2026 12:00 PM | Protein                | Electron Transport, Apoptosis, Retrograde Signaling |
 | [[Cyclic Guanosine Monophosphate]]               | 08_Jul_2026 11:28 AM | Biological Molecule    | Signal Transduction, Nitric Oxide Pathway       |
+| [[Cytoplasmic Chromatin Fragments]]              | 09_Jul_2026 01:00 PM | Biological Molecule    | Senescence, Cancer, cGAS-STING                  |
 | [[Dendritic cells]]                              | 08_Jul_2026 12:00 PM | Cell Type              | Immune, Antigen Presentation                    |
 | [[Dextromethorphan]]                             | 08_Jul_2026 11:28 AM | Medical Product        | Pharmacology, Cough Suppressant                 |
 | [[Diabetes Mellitus]]                            | 29_May_2026 08:20 AM | Medical Condition      | Metabolism                                      |
 | [[Diamine Oxidase]]                              | 08_Jul_2026 11:28 AM | Enzyme                 | Histamine, Gut                                  |
+| [[Deoxycholic Acid]]                             | 09_Jul_2026 01:00 PM | Chemical Compound       | Bile Acid, Cancer, Microbiome                   |
 | [[DNA Damage]]                                   | 29_May_2026 08:20 AM | Biological Process     | Genetics, Cancer                                |
 | [[DNA Repair]]                                   | 29_May_2026 08:20 AM | Biological Process     | Genetics, Cancer                                |
 | [[Dopamine]]                                     | 29_May_2026 08:20 AM | Biological Molecule    | Neuroscience                                    |
@@ -67,11 +69,13 @@ This directory contains entities that span across multiple topics within the kno
 | [[FPRL1]]                                        | 09_Jul_2026 12:00 PM | Receptor               | GPCR, Formyl-Peptide Receptor, Neuroprotection  |
 | [[GCN2]]                                         | 08_Jul_2026 12:00 PM | Protein                | Stress Response, Kynurenine Pathway             |
 | [[gp130]]                                        | 09_Jul_2026 12:00 PM | Protein                | Cytokine Receptor, IL-6 Family, Humanin Signaling |
+| [[Genotoxic Stress]]                             | 09_Jul_2026 01:00 PM | Biological Process      | DNA Damage, Senescence, Cancer                  |
 | [[Glucose Intolerance]]                          | 08_Jul_2026 12:00 PM | Medical Condition      | Metabolic, Diabetes                             |
 | [[Glucose Oxidase]]                              | 08_Jul_2026 12:00 PM | Enzyme                 | Oxidative Stress, Experimental Tool             |
 | [[Glucose-6-Phosphate Dehydrogenase]]            | 08_Jul_2026 11:28 AM | Enzyme                 | Red Blood Cell, Oxidative Stress                |
 | [[Glutathione]]                                  | 29_May_2026 08:20 AM | Biological Molecule    | Antioxidant                                     |
 | [[Guanylate Cyclase]]                            | 08_Jul_2026 11:28 AM | Enzyme                 | Signal Transduction, Nitric Oxide Pathway       |
+| [[Hepatic Stellate Cells]]                       | 09_Jul_2026 01:00 PM | Cell Type              | Liver, Fibrosis, Cancer                         |
 | [[Histamine Intolerance]]                        | 08_Jul_2026 11:28 AM | Medical Condition      | Histamine, Food Sensitivity                     |
 | [[Human Growth Hormone]]                         | 08_Jul_2026 12:00 PM | Protein                | Hormone, Longevity, mTOR                        |
 | [[Hutchinson-Gilford Progeria Syndrome]]         | 31_May_2026 06:45 PM | Medical Condition      | Epigenetics, Yamanaka Factors                   |
@@ -155,6 +159,7 @@ This directory contains entities that span across multiple topics within the kno
 | [[Schizophrenia]]                                | 29_May_2026 08:20 AM | Medical Condition      | Psychiatry                                      |
 | [[Selective Serotonin Reuptake Inhibitors]]      | 08_Jul_2026 11:28 AM | Medical Product        | Pharmacology, Psychiatry                        |
 | [[Senescence]]                                   | 31_May_2026 06:45 PM | Biological Process     | Aging, Cancer                                   |
+| [[Senescence Surveillance]]                      | 09_Jul_2026 01:00 PM | Biological Process      | Immune Surveillance, Senescence, Cancer         |
 | [[Serotonin]]                                    | 25_May_2026 05:23 PM | Biological Molecule    | Neurotransmitter                                |
 | [[Serotonin Receptor]]                           | 08_Jul_2026 11:28 AM | Receptor               | Neuroscience, Pharmacology                      |
 | [[Serotonin Syndrome]]                           | 08_Jul_2026 11:28 AM | Medical Condition      | Pharmacology, Toxicology                        |
@@ -197,3 +202,47 @@ This directory contains entities that span across multiple topics within the kno
 | [[Senolytic]]                                    | 09_Jul_2026 12:00 PM | Pharmacological Action | Senescence, Aging                               |
 | [[Senomorphic]]                                  | 09_Jul_2026 12:00 PM | Pharmacological Action | Senescence, Aging                               |
 | [[Solid Lipid Nanoparticles]]                    | 09_Jul_2026 12:00 PM | Scientific Concept     | Nanotechnology, Drug Delivery                   |
+| [[HIRA]]                                          | 09_Jul_2026 12:00 PM PDT | Protein                | Senescence, Chromatin, Histone Chaperone        |
+| [[HMGB2]]                                         | 09_Jul_2026 12:00 PM PDT | Protein                | Senescence, Chromatin Architecture              |
+| [[HMGA1]]                                         | 09_Jul_2026 12:00 PM PDT | Protein                | Senescence, Chromatin Architecture              |
+| [[H3.3]]                                          | 09_Jul_2026 12:00 PM PDT | Protein                | Senescence, Histone Variant, Chromatin          |
+| [[H2A.X]]                                         | 09_Jul_2026 12:00 PM PDT | Protein                | Senescence, DNA Damage, Histone Variant         |
+| [[H2A.J]]                                         | 09_Jul_2026 12:00 PM PDT | Protein                | Senescence, DNA Damage, Histone Variant         |
+| [[macroH2A]]                                      | 09_Jul_2026 12:00 PM PDT | Protein                | Senescence, Histone Variant, Chromatin          |
+| [[PML]]                                           | 09_Jul_2026 12:00 PM PDT | Protein                | Senescence, Tumor Suppressor, Nuclear Body      |
+| [[ASF1a]]                                         | 09_Jul_2026 12:00 PM PDT | Protein                | Senescence, Histone Chaperone, Chromatin        |
+| [[UBN1]]                                          | 09_Jul_2026 12:00 PM PDT | Protein                | Senescence, Histone Chaperone, Chromatin        |
+| [[Topologically Associating Domain]]              | 09_Jul_2026 12:00 PM PDT | Scientific Concept     | Senescence, 3D Genome, Chromatin Architecture   |
+| [[Enhancer-Promoter Looping]]                     | 09_Jul_2026 12:00 PM PDT | Scientific Concept     | Senescence, 3D Genome, Gene Regulation          |
+| [[Super-enhancer]]                                | 09_Jul_2026 12:00 PM PDT | Scientific Concept     | Senescence, Gene Regulation, Chromatin          |
+| [[DNA-SCARS]]                                     | 09_Jul_2026 12:00 PM PDT | Scientific Concept     | Senescence, DNA Damage, Nuclear Structure       |
+| [[Senescence-Associated Distension of Satellites]]| 09_Jul_2026 12:00 PM PDT | Scientific Concept     | Senescence, Chromatin Architecture, Heterochromatin |
+| [[H3K27ac]]                                       | 09_Jul_2026 12:00 PM PDT | Scientific Concept     | Senescence, Histone Marks, Epigenetics          |
+| [[H3K4me3]]                                       | 09_Jul_2026 12:00 PM PDT | Scientific Concept     | Senescence, Histone Marks, Epigenetics          |
+| [[H3K4me1]]                                       | 09_Jul_2026 12:00 PM PDT | Scientific Concept     | Senescence, Histone Marks, Epigenetics          |
+| [[H3K18ac]]                                       | 09_Jul_2026 12:00 PM PDT | Scientific Concept     | Senescence, Histone Marks, Epigenetics          |
+| [[H3K122ac]]                                      | 09_Jul_2026 12:00 PM PDT | Scientific Concept     | Senescence, Histone Marks, Epigenetics          |
+| [[H4K5ac]]                                        | 09_Jul_2026 12:00 PM PDT | Scientific Concept     | Senescence, Histone Marks, Epigenetics          |
+| [[H3K36me3]]                                      | 09_Jul_2026 12:00 PM PDT | Scientific Concept     | Senescence, Histone Marks, Epigenetics          |
+| [[H3K79me2]]                                      | 09_Jul_2026 12:00 PM PDT | Scientific Concept     | Senescence, Histone Marks, Epigenetics          |
+| [[Pioneer Factor]]                                | 09_Jul_2026 12:00 PM PDT | Scientific Concept     | Senescence, Transcription Factor, Gene Regulation |
+| [[METTL3]]                                        | 09_Jul_2026 12:00 PM PDT | Enzyme                 | Senescence, RNA Methylation, Epigenetics        |
+| [[N6-methyladenosine]]                            | 09_Jul_2026 12:00 PM PDT | Biological Molecule    | Senescence, RNA Modification, Epigenetics       |
+| [[MLL1]]                                          | 09_Jul_2026 12:00 PM PDT | Enzyme                 | Senescence, Histone Methyltransferase, Epigenetics |
+| [[JMJD3]]                                         | 09_Jul_2026 12:00 PM PDT | Enzyme                 | Senescence, Histone Demethylase, Epigenetics    |
+| [[SUV39H1]]                                       | 09_Jul_2026 12:00 PM PDT | Enzyme                 | Senescence, Histone Methyltransferase, Epigenetics |
+| [[DOT1L]]                                         | 09_Jul_2026 12:00 PM PDT | Enzyme                 | Senescence, Histone Methyltransferase, Epigenetics |
+| [[HDAC4]]                                         | 09_Jul_2026 12:00 PM PDT | Enzyme                 | Senescence, Histone Deacetylase, Epigenetics    |
+| [[HDAC3]]                                         | 09_Jul_2026 12:00 PM PDT | Enzyme                 | Senescence, Histone Deacetylase, Epigenetics    |
+| [[Cathepsin L1]]                                  | 09_Jul_2026 12:00 PM PDT | Enzyme                 | Senescence, Protease, Histone Processing        |
+| [[NPAT]]                                          | 09_Jul_2026 12:00 PM PDT | Protein                | Senescence, Transcription Factor, Histone Regulation |
+| [[KAP1]]                                          | 09_Jul_2026 12:00 PM PDT | Protein                | Senescence, Corepressor, Retrotransposon        |
+| [[HP1alpha]]                                      | 09_Jul_2026 12:00 PM PDT | Protein                | Senescence, Heterochromatin, Retrotransposon    |
+| [[GATA4]]                                         | 09_Jul_2026 12:00 PM PDT | Protein                | Senescence, Transcription Factor, SASP          |
+| [[c-Jun]]                                         | 09_Jul_2026 12:00 PM PDT | Protein                | Senescence, Transcription Factor, SASP          |
+| [[Condensin]]                                     | 09_Jul_2026 12:00 PM PDT | Protein                | Senescence, Chromatin Architecture, SASP        |
+| [[Human Endogenous Retrovirus]]                   | 09_Jul_2026 12:00 PM PDT | Virus                  | Senescence, Retrotransposon, Inflammaging       |
+| [[Endogenous Retrovirus]]                         | 09_Jul_2026 12:00 PM PDT | Virus                  | Senescence, Retrotransposon, Inflammaging       |
+| [[Nucleoside Reverse Transcriptase Inhibitor]]    | 09_Jul_2026 12:00 PM PDT | Chemical Compound      | Senescence, Antiretroviral, Inflammaging        |
+| [[Therapy-Induced Senescence]]                    | 09_Jul_2026 12:00 PM PDT | Biological Process     | Senescence, DNA Damage, SASP                     |
+| [[Senotherapy]]                                   | 09_Jul_2026 12:00 PM PDT | Therapeutic Strategy   | Senescence, Aging, SASP                         |

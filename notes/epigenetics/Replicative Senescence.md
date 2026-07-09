@@ -54,6 +54,8 @@ List of documents that mention this entity
   - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
     - These cellular senescence states may differ substantially from each other, as well as from Replicative Senescence through the presence of specific senescence features.
 
+  - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]]
+    - Review highlights replicative senescence as the model where epigenetic methylation aging occurs (global hypomethylation, DNMT1 decline) with hypomethylation of SASP genes, alongside B-to-A compartment switching and enhancer remodeling driving SASP.
 
 ## Connections
 
@@ -97,8 +99,22 @@ List of documents that mention this entity
 - [[Navitoclax]]: - **[[Senolytic Drugs]]:** The selective elimination of replicatively senescent cells (e.g., via [[Dasatinib]]+[[Quer...
 - [[Partial Reprogramming]]: - **Partial Reprogramming:** Transient [[OSKM]] expression can erase senescence-associated epigenetic marks and resto...
 - [[OSKM]]: - **[[Partial Reprogramming]]:** Transient OSKM expression can erase senescence-associated epigenetic marks and resto...
+- [[Epigenetic Alterations]]: RS undergoes epigenetic methylation aging and chromatin remodeling orchestrating SASP
+- [[SASP]]: RS SASP driven by compartment switching, enhancer remodeling, and SASP-gene hypomethylation
+- [[Senescence-Associated Heterochromatin Foci]]: SAHF prominent in RS; their disruption reduces SASP
+- [[Histone Variant]]: histone variants accumulate and shape RS SASP
+- [[DNA Methylation]]: RS shows global hypomethylation and SASP-gene hypomethylation
+- [[AP-1]]: pioneer factor opening RS SASP enhancers
+- [[BRD4]]: BET reader recruited to RS SASP enhancers
+- [[EZH2]]: H3K27me3 restraint of RS SASP
+- [[KDM4]]: H3K9 demethylation promotes RS SASP
+- [[NF-κB]]: master regulator of RS SASP
+- [[cGAS-STING Pathway]]: cGAS–STING drives RS SASP
+- [[LINE-1]]: retrotransposon derepression contributes to RS inflammation
+- [[Cytoplasmic Chromatin Fragments]]: CCF activates cGAS–STING in RS
+- [[Inflammaging]]: chronic RS SASP drives inflammaging
 
 ## Linking Summary
-- New links added: [[Senescence]], [[Telomere Attrition]], [[DNA Damage]], [[p53]], [[Apoptosis]], [[SASP]], [[SAHF]], [[SA-beta-gal]], [[Senolytic Drugs]], [[Partial Reprogramming]]
+- New links added: [[Senescence]], [[Telomere Attrition]], [[DNA Damage]], [[p53]], [[Apoptosis]], [[SASP]], [[SAHF]], [[SA-beta-gal]], [[Senolytic Drugs]], [[Partial Reprogramming]], [[Epigenetic Alterations]], [[Senescence-Associated Heterochromatin Foci]], [[Histone Variant]], [[DNA Methylation]], [[AP-1]], [[BRD4]], [[EZH2]], [[KDM4]], [[NF-κB]], [[cGAS-STING Pathway]], [[LINE-1]], [[Cytoplasmic Chromatin Fragments]], [[Inflammaging]]
 - Suggested new entity notes to create: [[Hayflick limit]], [[Shelterin complex]], [[TRF2]], [[Telomerase]]
 - Strong connections to strengthen: [[Replicative Senescence]] ↔ [[Senescence]], [[Replicative Senescence]] ↔ [[Telomere Attrition]]

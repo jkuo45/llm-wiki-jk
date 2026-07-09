@@ -36,13 +36,26 @@ List of documents that mention this entity
   - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
     - In terms of its anti-apoptotic effects, SIRT2 downregulation alone is sufficient to cause Apoptosis, and SIRT2 depletion leads to p53 accumulation causing activation of the p38 MAPK in cancer cell lines such as HeLa, but not in normal cells.
 
+  - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]]
+    - Review places p38 MAPK upstream of the epigenetic SASP program: it induces KDM4 (H3K9 demethylation at SASP loci) and, together with AP-1 and BRD4, drives NF-κB-regulated SASP transcription.
 
 ## Connections
 - [[Apoptosis]] — programmed cell death; eliminates damaged or excess cells
 - [[Bim]] — interacts with p38 MAPK
 - [[Bax]] — interacts with p38 MAPK
 - [[TFEB]] — master transcription factor for lysosomal biogenesis and autophagy
+- [[SASP]] — p38 MAPK activates NF-κB-mediated SASP
+- [[Epigenetic Alterations]] — p38 MAPK drives the epigenetic SASP program
+- [[KDM4]] — p38 MAPK induces KDM4 to open SASP loci
+- [[AP-1]] — p38 MAPK reinforces the AP-1 SASP enhancer program
+- [[BRD4]] — p38 MAPK signaling reinforces BRD4 occupancy at SASP enhancers
+- [[NF-κB]] — p38 MAPK activates NF-κB-driven SASP
+- [[cGAS-STING Pathway]] — intersects p38 MAPK SASP signaling
+- [[EZH2]] — p38 MAPK opposes EZH2-mediated SASP repression
+- [[LINE-1]] — p38 MAPK contributes to retroelement-driven SASP
+- [[DNA Methylation]] — p38 MAPK intersects methylation dynamics at SASP genes
+- [[Senescence-Associated Heterochromatin Foci]] — p38 MAPK acts at SASP loci outside SAHF
 ## Linking Summary
-- New links added: [[TFEB]], [[Caspase-3]], [[Caspase-8]], [[Caspase-9]], [[Bim]], [[Apoptosis|Apoptosis]], [[p38 MAPK]], [[Apoptosis]], [[Bax]], [[Phosphorylation]]
+- New links added: [[TFEB]], [[Caspase-3]], [[Caspase-8]], [[Caspase-9]], [[Bim]], [[Apoptosis|Apoptosis]], [[p38 MAPK]], [[Apoptosis]], [[Bax]], [[Phosphorylation]], [[SASP]], [[Epigenetic Alterations]], [[KDM4]], [[AP-1]], [[BRD4]], [[NF-κB]], [[cGAS-STING Pathway]], [[EZH2]], [[LINE-1]], [[DNA Methylation]], [[Senescence-Associated Heterochromatin Foci]]
 - Suggested new entity notes to create: [[MAPK Signaling]]
   - Strong connections to strengthen: p38 MAPK ↔ [[TFEB]], p38 MAPK ↔ Caspase-8, p38 MAPK ↔ Bim, p38 MAPK ↔ Bax

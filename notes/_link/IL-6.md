@@ -42,6 +42,9 @@ List of documents that mention this entity
   - [[_document_ - SASP, senescent cells, grok|SASP, senescent cells, grok]]
     - Identifies IL-6 as a core, highly conserved marker of the SASP.
 
+  - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]]
+    - Review notes epigenetic regulators converge on the IL-6 locus: loss of H3K9me2/3 (KDM4 up, SUV39H1 down) and reduced H3K27me3 (JMJD3/KDM6B) at IL-6 promoters, plus H3K27ac/BRD4 and AP-1 at enhancers, derepress IL-6 as a core SASP cytokine.
+
 ## Connections
 
 - [[Senescence-Associated Secretory Phenotype|SASP]] — IL-6 is a major SASP component
@@ -52,10 +55,21 @@ List of documents that mention this entity
 - [[NF-κB]] — Transcription of IL-6 is driven by NF-κB
 - [[gp130]] — Signal-transducing receptor subunit for IL-6
 - [[MAPK]] / [[PI3K]] — Additional IL-6 downstream effector pathways
+- [[Epigenetic Alterations]] — IL-6 derepression is orchestrated by the senescent epigenome
+- [[KDM4]] — KDM4-mediated H3K9 loss at the IL-6 promoter promotes expression
+- [[EZH2]] — H3K27me3 at IL-6 is removed upon EZH2 inhibition to derepress SASP
+- [[BRD4]] — H3K27ac reader at IL-6 enhancers driving expression
+- [[AP-1]] — pioneer factor opening the IL-6 enhancer
+- [[Histone Variant]] — histone dynamics at the IL-6 locus
+- [[cGAS-STING Pathway]] — cGAS–STING–NF-κB activates IL-6
+- [[NF-κB]] — master transcription factor for IL-6
+- [[LINE-1]] — retrotransposon derepression feeds IL-6 via cGAS–STING
+- [[DNA Methylation]] — hypomethylation of IL-6-associated SASP genes
+- [[Senescence-Associated Heterochromatin Foci]] — IL-6 loci lie outside SAHF-mediated silencing
 
 ## Linking Summary
 
-  - New links added: [[Senescence-Associated Secretory Phenotype|SASP]], [[Senescent Cells]], [[Inflammation]], [[Inflammaging]], [[JAK]], [[STAT3]], [[NF-κB]], [[gp130]], [[MAPK]], [[PI3K]], [[Akt]], [[Advanced Glycation End Products]], [[SIRT1]], [[SIRT7]]
+  - New links added: [[Senescence-Associated Secretory Phenotype|SASP]], [[Senescent Cells]], [[Inflammation]], [[Inflammaging]], [[JAK]], [[STAT3]], [[NF-κB]], [[gp130]], [[MAPK]], [[PI3K]], [[Akt]], [[Advanced Glycation End Products]], [[SIRT1]], [[SIRT7]], [[Epigenetic Alterations]], [[KDM4]], [[EZH2]], [[BRD4]], [[AP-1]], [[Histone Variant]], [[cGAS-STING Pathway]], [[LINE-1]], [[DNA Methylation]], [[Senescence-Associated Heterochromatin Foci]]
   - Suggested new entity notes to create: [[IL-6R]]
   - Strong connections to strengthen: [[IL-6]] ↔ [[Senescence-Associated Secretory Phenotype|SASP]], [[IL-6]] ↔ [[Inflammaging]], [[IL-6]] ↔ [[STAT3]]
 

@@ -34,14 +34,26 @@ KDM4 enzymes are established epigenetic drivers of the SASP: genetic or pharmaco
 
 - [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review describes KDM4 JmjC demethylases as epigenetic drivers of the SASP that erase repressive H3K9me3 at SASP loci, opening chromatin for NF-κB and BRD4 access. Pharmacological or genetic inhibition lowers IL-6, IL-8, and MMP secretion without abolishing arrest, marking KDM4 as a senomorphic target whose activity links metabolic state to SASP intensity.
 
+  - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]]
+    - Review shows KDM4 protein is increased in senescent cells and erases H3K9me3 at SASP loci, opening chromatin for NF-κB/BRD4 access; KDM4 inhibition suppresses SASP and is a candidate senomorphic.
+
 ## Connections
 
 - [[Senescence-Associated Secretory Phenotype|SASP]]: KDM4 promotes SASP expression
 - [[EZH2]]: KDM4 and EZH2 have opposing effects on histone methylation
 - [[NF-κB]]: gains access to KDM4-opened SASP loci
 - [[p38 MAPK]]: upstream inducer of KDM4 in senescence
+- [[Epigenetic Alterations]]: KDM4 is a key epigenetic driver of the SASP landscape
+- [[Histone Variant]]: KDM4 demethylates histones to expose SASP loci
+- [[cGAS-STING Pathway]]: KDM4 opens chromatin downstream of cGAS–STING–NF-κB
+- [[BRD4]]: KDM4-mediated H3K9 loss permits BRD4 engagement at SASP enhancers
+- [[AP-1]]: AP-1-opening cooperates with KDM4 demethylation at SASP enhancers
+- [[LINE-1]]: retrotransposon derepression feeds the inflammatory SASP KDM4 regulates
+- [[DNA Methylation]]: methylation dynamics intersect KDM4 chromatin opening
+- [[Senescence-Associated Heterochromatin Foci]]: KDM4 contributes to heterochromatin reorganization
+- [[IL-6]] / [[IL-8]]: SASP cytokines released upon KDM4-mediated H3K9 demethylation
 
 ## Linking Summary
 
-- New links added: [[Senescence-Associated Secretory Phenotype|SASP]], [[EZH2]], [[NF-κB]], [[p38 MAPK]]
+- New links added: [[Senescence-Associated Secretory Phenotype|SASP]], [[EZH2]], [[NF-κB]], [[p38 MAPK]], [[Epigenetic Alterations]], [[Histone Variant]], [[cGAS-STING Pathway]], [[BRD4]], [[AP-1]], [[LINE-1]], [[DNA Methylation]], [[Senescence-Associated Heterochromatin Foci]], [[IL-6]], [[IL-8]]
 - Strong connections to strengthen: [[KDM4]] ↔ SASP regulation, [[KDM4]] ↔ epigenetics, [[KDM4]] ↔ heterochromatin

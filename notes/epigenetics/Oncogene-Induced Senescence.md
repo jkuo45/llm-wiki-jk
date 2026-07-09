@@ -48,6 +48,8 @@ List of documents that mention this entity
   - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
     - Oncogene-Induced Senescence represents another complex senescence phenotype that depends on activation and/or overexpression of oncogenes (Serrano et al., ; Bianchi‐Smiraglia & Nikiforov, ).
 
+  - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]]
+    - Review shows OIS undergoes B-to-A compartment switching at SASP genes (condensin-bound), enhancer remodeling at the TAD scale, and HMGB2 protection of SASP loci from SAHF silencing; AP-1/BRD4/EZH2/KDM4 orchestrate the SASP epigenetically.
 
 ## Connections
 
@@ -82,8 +84,21 @@ List of documents that mention this entity
 - [[Navitoclax]]: OIS cells are susceptible to [[Senolytic Drugs]] like Navitoclax ([[Bcl-2]]/[[Bcl-xL]] inhibitor).
 - [[Bcl-2]]: OIS cells are susceptible to [[Senolytic Drugs]] like [[Navitoclax]] (Bcl-2/[[Bcl-xL]] inhibitor).
 - [[Bcl-xL]]: OIS cells are susceptible to [[Senolytic Drugs]] like [[Navitoclax]] ([[Bcl-2]]/Bcl-xL inhibitor).
+- [[Epigenetic Alterations]]: OIS epigenome (compartment switching, enhancer remodeling) orchestrates SASP
+- [[SASP]]: OIS SASP is shaped by AP-1/BRD4/EZH2/KDM4 and 3D genome rewiring
+- [[Senescence-Associated Heterochromatin Foci]]: SAHF prominent in OIS; HMGB2 protects SASP loci from SAHF silencing
+- [[Histone Variant]]: histone variants contribute to OIS SASP expression
+- [[DNA Methylation]]: OIS shows focal hypermethylation of PRC2 targets
+- [[AP-1]]: pioneer factor opening SASP enhancers in OIS
+- [[BRD4]]: BET reader recruited to OIS SASP enhancers
+- [[EZH2]]: H3K27me3 restraint of SASP in OIS
+- [[KDM4]]: H3K9 demethylation promotes OIS SASP
+- [[NF-κB]]: master regulator of OIS SASP
+- [[cGAS-STING Pathway]]: TLR2/cGAS–STING drives OIS SASP
+- [[LINE-1]]: retrotransposon derepression contributes to OIS inflammation
+- [[Cytoplasmic Chromatin Fragments]]: CCF activates cGAS–STING in OIS
 
 ## Linking Summary
-- New links added: [[Senescence]], [[DNA Replication Stress]], [[DNA Damage Response]], [[p53]], [[p16INK4A]], [[SASP]], [[Senolytic Drugs]], [[Cancer]]
+- New links added: [[Senescence]], [[DNA Replication Stress]], [[DNA Damage Response]], [[p53]], [[p16INK4A]], [[SASP]], [[Senolytic Drugs]], [[Cancer]], [[Epigenetic Alterations]], [[Senescence-Associated Heterochromatin Foci]], [[Histone Variant]], [[DNA Methylation]], [[AP-1]], [[BRD4]], [[EZH2]], [[KDM4]], [[NF-κB]], [[cGAS-STING Pathway]], [[LINE-1]], [[Cytoplasmic Chromatin Fragments]]
 - Suggested new entity notes to create: [[BRAF^V600E^]], [[RAS]], [[DNA-SCARS]], [[Premalignancy]]
 - Strong connections to strengthen: [[Oncogene-Induced Senescence]] ↔ [[Cancer]], [[Oncogene-Induced Senescence]] ↔ [[DNA Replication Stress]]

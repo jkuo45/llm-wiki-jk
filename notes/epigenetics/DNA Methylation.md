@@ -51,6 +51,8 @@ List of documents that mention this entity
   - [[_document_ - Epigenetic changes during aging and their reprogramming potential|Epigenetic changes during aging and their reprogramming potential]]
     - dheterochromatinfoci-2358&doi=&)\] Linking Summary: - New links added: Heterochromatin, Nucleosome, CpG Island, SIRT1, H3K9me3, H3K27me3, H3K4me3, HP1, Lamin A, macroH2A, DNA Methylation, Yamanaka Factors, Hutchinson-Gilford Progeria Syndrome, Werner
 
+  - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]]
+    - Review notes DNA methylation dynamics in senescence: replicative senescence shows global hypomethylation (declining DNMT1) with focal hypomethylation of inflammation-associated SASP genes, and age-related demethylation activates HERV/LINE-1 that drive SASP via cGAS–STING.
 
 ## Connections
 
@@ -60,9 +62,25 @@ List of documents that mention this entity
 - [[Cancer]] - Aberrant methylation patterns are a key driver of cancer.
 - [[Gene Silencing]] - One of the primary biological outcomes of DNA methylation.
 - [[CpG Islands]] - The common genomic regions where methylation-mediated silencing occurs.
+- [[Epigenetic Alterations]] - DNA methylation is a pillar of the senescent epigenetic landscape
+- [[SASP]] - hypomethylation of SASP genes permits their expression in senescence
+- [[Senescence]] - RS shows epigenetic methylation aging; OIS/TIS do not
+- [[LINE-1]] - hypomethylation derepresses LINE-1, fueling cGAS–STING SASP
+- [[cGAS-STING Pathway]] - demethylated retroelements activate cGAS–STING SASP
+- [[Cytoplasmic Chromatin Fragments]] - methylation state intersects cytosolic DNA SASP triggers
+- [[Histone Variant]] - histone variants shape methylation-dependent repression
+- [[Senescence-Associated Heterochromatin Foci]] - DNA methylation organizes SAHF
+- [[NF-κB]] - methylation permits NF-κB-driven SASP gene activation
+- [[RB1]] - RB1 cooperates with methylation to silence LINE-1
+- [[SIRT6]] - SIRT6-repressed LINE-1 loci are also methylation-silenced
+- [[KDM4]] - KDM4 demethylation complements DNA hypomethylation at SASP loci
+- [[EZH2]] - H3K27me3 cooperates with DNA methylation to silence SASP/retroelements
+- [[BRD4]] - enhancer hypomethylation aids BRD4 recruitment at SASP enhancers
+- [[AP-1]] - hypomethylation facilitates AP-1 enhancer opening
+- [[Inflammaging]] - retroelement demethylation underlies inflammaging
 
 ## Linking Summary:
 
-- New links added: [[DNA Methyltransferase]], [[Epigenetics]], [[Chromatin Remodeling]], [[Cancer]], [[Gene Silencing]], [[CpG Islands]]
+- New links added: [[DNA Methyltransferase]], [[Epigenetics]], [[Chromatin Remodeling]], [[Cancer]], [[Gene Silencing]], [[CpG Islands]], [[Epigenetic Alterations]], [[SASP]], [[Senescence]], [[LINE-1]], [[cGAS-STING Pathway]], [[Cytoplasmic Chromatin Fragments]], [[Histone Variant]], [[Senescence-Associated Heterochromatin Foci]], [[NF-κB]], [[RB1]], [[SIRT6]], [[KDM4]], [[EZH2]], [[BRD4]], [[AP-1]], [[Inflammaging]]
 - Suggested new entity notes to create: [[Gene Silencing]], [[CpG Islands]]
 - Strong connections to strengthen: [[DNA Methylation]] ↔ [[DNA Methyltransferase]]

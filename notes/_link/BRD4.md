@@ -35,14 +35,26 @@ Landmark work (Tasdemir et al., 2016, PMID 27693224) showed that BET bromodomain
 
 - [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review presents BRD4 as a BET-family epigenetic reader recruited to senescence-activated enhancers in oncogene-induced senescence to drive SASP factor expression without perturbing the cell-cycle arrest. BET inhibitors such as JQ1 suppress the OIS-associated SASP (IL-6, IL-8, MCP-1) while preserving the arrest, establishing BRD4 as a selective senomorphic target.
 
+  - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]]
+    - Review describes BRD4 as a BET-family reader recruited to senescence-activated super-enhancers marked by H3K27ac, where it cooperates with AP-1/C/EBPα to drive NF-κB-regulated SASP; its depletion also triggers H3.3 clipping and SASP.
+
 ## Connections
 
 - [[Senescence-Associated Secretory Phenotype|SASP]]: BRD4 regulates SASP gene expression
 - [[Oncogene-Induced Senescence|OIS]]: BRD4 is recruited to senescence-activated enhancers in OIS
 - [[NF-κB]]: cooperates with BRD4 at SASP enhancers
 - [[p38 MAPK]]: upstream signaling reinforcing BRD4 occupancy
+- [[Epigenetic Alterations]]: BRD4 is an epigenetic reader orchestrating SASP expression
+- [[Histone Variant]]: BRD4 protects against H3.3 clipping and promotes SASP loci accessibility
+- [[AP-1]]: co-binds senescence-activated SASP enhancers with BRD4
+- [[cGAS-STING Pathway]]: upstream of the SASP program BRD4 enforces
+- [[KDM4]]: KDM4 opening of H3K9 permits BRD4 engagement at SASP loci
+- [[EZH2]]: H3K27me3 repression opposes BRD4-driven SASP
+- [[LINE-1]]: retrotransposon derepression feeds the cGAS–STING–BRD4 SASP axis
+- [[DNA Methylation]]: methylation state influences enhancer activation for SASP
+- [[Senescence-Associated Heterochromatin Foci]]: BRD4 acts at SASP enhancers outside SAHF
 
 ## Linking Summary
 
-- New links added: [[Senescence-Associated Secretory Phenotype|SASP]], [[Oncogene-Induced Senescence|OIS]], [[NF-κB]], [[p38 MAPK]], [[CDK9]]
+- New links added: [[Senescence-Associated Secretory Phenotype|SASP]], [[Oncogene-Induced Senescence|OIS]], [[NF-κB]], [[p38 MAPK]], [[CDK9]], [[Epigenetic Alterations]], [[Histone Variant]], [[AP-1]], [[cGAS-STING Pathway]], [[KDM4]], [[EZH2]], [[LINE-1]], [[DNA Methylation]], [[Senescence-Associated Heterochromatin Foci]]
 - Strong connections to strengthen: [[BRD4]] ↔ SASP regulation, [[BRD4]] ↔ OIS, [[BRD4]] ↔ BET inhibitors (senomorphic)

@@ -56,6 +56,9 @@ List of documents that mention this entity
 
   - [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Review 2024]]: The review notes SAHF as distinct, DAPI-dense heterochromatin structures assembled by HIRA/ASF1a/macroH2A that durably silence E2F-driven proliferation genes in senescent human cells. They enforce stable arrest and serve as a widely used morphological senescence biomarker, and their formation overlaps with Lamin B1 loss and the broad epigenetic remodeling of the senescent state.
 
+  - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]]
+    - Review describes SAHF as DAPI-dense heterochromatin organized by H3K9me3/H3K27me3/DNA methylation, whose disruption correlates with reduced SASP expression, though their necessity for SASP is unresolved.
+
 ## Connections
 - [[Retinoblastoma Protein|Rb]]: Rb mediates SAHF formation and recruitment of HIRA/ASF1a
 - [[Lamin B1]]: SAHF formation accompanies Lamin B1 loss
@@ -63,7 +66,13 @@ List of documents that mention this entity
 - [[p16 INK4a|p16]]: p16/Rb axis drives the arrest SAHF reinforce
 - [[Histone]]: macroH2A/HIRA/ASF1a deposition builds SAHF
 - [[Heterochromatin]]: SAHF are compact heterochromatin domains
+- [[Epigenetic Alterations]]: SAHF are a product of the senescent epigenetic landscape
+- [[SASP]]: SAHF disruption correlates with reduced SASP expression
+- [[Histone Variant]]: macroH2A and HIRA assemble SAHF
+- [[DNA Methylation]]: part of the repressive chromatin organizing SAHF
+- [[AP-1]]: pioneer factor that opens SASP enhancers outside SAHF
+- [[Cytoplasmic Chromatin Fragments]]: CCF may emerge from heterochromatinized/SAHF regions
 
 ## Linking Summary
-- New links added: [[Retinoblastoma Protein|Rb]], [[Lamin B1]], [[Cellular Senescence]], [[p16 INK4a|p16]], [[p21 CIP1|p21]], [[Histone]], [[Heterochromatin]], [[E2F]], [[Histone Modification]], [[Oncogene-Induced Senescence|OIS]]
+- New links added: [[Retinoblastoma Protein|Rb]], [[Lamin B1]], [[Cellular Senescence]], [[p16 INK4a|p16]], [[p21 CIP1|p21]], [[Histone]], [[Heterochromatin]], [[E2F]], [[Histone Modification]], [[Oncogene-Induced Senescence|OIS]], [[Epigenetic Alterations]], [[SASP]], [[Histone Variant]], [[DNA Methylation]], [[AP-1]], [[Cytoplasmic Chromatin Fragments]]
   - Strong connections to strengthen: SAHF ↔ [[Rb]], SAHF ↔ [[Cellular Senescence]], SAHF ↔ [[Lamin B1]]

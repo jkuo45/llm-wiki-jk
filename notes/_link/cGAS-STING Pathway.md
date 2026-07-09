@@ -75,6 +75,9 @@ List of documents that mention this entity
   - [[_document_ - SASP, senescent cells, grok|SASP, senescent cells, grok]]
     - Describes mtDNA/cGAS-STING as a central SASP-activating axis in senescence.
 
+  - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]]
+    - Review describes how cytoplasmic chromatin fragments (enriched for heterochromatin marks) and derepressed retrotransposons (LINE-1, HERV) activate cGAS–STING–NF-κB to drive SASP and inflammaging.
+
 ## Connections
 - [[Senescence-Associated Secretory Phenotype|SASP]] — cGAS–STING is a key driver of SASP factor transcription
 - [[NF-κB]] — downstream effector of cGAS–STING signalling
@@ -94,8 +97,15 @@ List of documents that mention this entity
 - [[Senomorphic Therapy]] — NRTIs and olive phenols target cGAS–STING SASP
 - [[mtDNA]] — principal cytosolic DNA ligand in senescence
 - [[TBK1]] / [[IRF3]] / [[STING]] — core signaling components
+- [[Epigenetic Alterations]] — epigenetic derepression of retrotransposons fuels cGAS–STING SASP
+- [[Senescence-Associated Heterochromatin Foci]] — CCF may arise from heterochromatinized regions
+- [[Histone Variant]] — histone dynamics influence CCF generation and SASP
+- [[DNA Methylation]] — hypomethylation of retroelements promotes their derepression
+- [[BRD4]] — H3K27ac reader at SASP enhancers downstream of cGAS–STING
+- [[KDM4]] — opens chromatin at SASP loci downstream of cGAS–STING–NF-κB
+- [[EZH2]] — H3K27me3 deposition restrains SASP at cGAS–STING target genes
 
 ## Linking Summary
-- New links added: [[cGAS-STING Pathway|cGAS–STING]], [[NF-κB]], [[IL-6]], [[IL-8]], [[CXCL2]], [[CXCL10]], [[CCL3]], [[CCL5]], [[TNFα]], [[DNASE2]], [[TREX1]], [[BAX]], [[BAK]], [[TOP1]], [[G3BP1]], [[Toll-like Receptor 2|TLR2]], [[LINE-1]], [[TBK1]], [[IRF3]], [[STING]], [[mtDNA]], [[Minority MOMP]], [[Senescence-associated mitochondrial dysfunction|SAMD]], [[Inflammaging]], [[Paracrine Senescence]], [[p38 MAPK]], [[JAK]], [[STAT3]], [[mTORC1|mTOR]]
+- New links added: [[cGAS-STING Pathway|cGAS–STING]], [[NF-κB]], [[IL-6]], [[IL-8]], [[CXCL2]], [[CXCL10]], [[CCL3]], [[CCL5]], [[TNFα]], [[DNASE2]], [[TREX1]], [[BAX]], [[BAK]], [[TOP1]], [[G3BP1]], [[Toll-like Receptor 2|TLR2]], [[LINE-1]], [[TBK1]], [[IRF3]], [[STING]], [[mtDNA]], [[Minority MOMP]], [[Senescence-associated mitochondrial dysfunction|SAMD]], [[Inflammaging]], [[Paracrine Senescence]], [[p38 MAPK]], [[JAK]], [[STAT3]], [[mTORC1|mTOR]], [[Epigenetic Alterations]], [[Senescence-Associated Heterochromatin Foci]], [[Histone Variant]], [[DNA Methylation]], [[BRD4]], [[KDM4]], [[EZH2]]
 - Suggested new entity notes to create: [[cGAS]], [[IFI16]]
   - Strong connections to strengthen: cGAS-STING Pathway ↔ [[SASP]], cGAS-STING Pathway ↔ [[Inflammaging]], cGAS-STING Pathway ↔ [[Aging]], cGAS-STING ↔ [[mtDNA]]

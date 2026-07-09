@@ -13,8 +13,8 @@ This directory contains notes and research regarding [[Yamanaka Factors]] (OSKM:
 
 ## Maintenance
 
-- Last updated: 07_JUL_2026 12:00 PM PDT
-- Total count of entities: 217
+- Last updated: 09_Jul_2026 12:00 PM PDT
+- Total count of entities: 218
 
 **entity_relevance_score_1 (1-10):** This score measures the centrality of the entity to core epigenetic mechanisms, chromatin regulation, and associated processes like gene expression control, aging, and disease.
 - **10 (Core)**: Essential master regulators, core machinery, or the processes themselves (e.g., [[DNMT1]], [[DNMT3a]], [[TET Enzymes]], [[HDAC1]]/[[HDAC2]], [[Histone H3K27me3]], [[DNA Methylation]], [[Chromatin Remodeling]], [[Epigenetic Clock]]).
@@ -339,7 +339,8 @@ This directory contains notes and research regarding [[Yamanaka Factors]] (OSKM:
 | 28_May_2026 09:06 AM | Protein |  | - | - | Merged from Yamanaka Factors |
 | 25_May_2026 05:23 PM | Protein |  | - | - | Merged from Yamanaka Factors |
 | 28_May_2026 09:05 AM | Biological Molecule |  | - | - | Merged from Yamanaka Factors |
-| 28_May_2026 09:09 AM | Protein |  | - | - | Merged from Yamanaka Factors |
+| 28_May_2026 09:06 AM | Protein |  | - | - | Merged from Yamanaka Factors |
+| [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]] | 09_Jul_2026 12:00 PM PDT | document | 10 | 0 | npj Aging review (Dasgupta et al., 2024) on how the dynamic epigenetic landscape (chromatin compartment switching, 3D genome rewiring, histone marks/variants, DNA methylation, retrotransposon derepression) orchestrates SASP expression in senescence; anchor source for senescence/epigenetics entities. |
 ## Consolidated to notes/_link/
 
 - [[Epithelial-to-Mesenchymal Transition]] — merged into `notes/_link/Epithelial-to-mesenchymal transition.md` (canonical casing).

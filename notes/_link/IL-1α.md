@@ -38,6 +38,9 @@ List of documents that mention this entity
   - [[_document_ - SASP, senescent cells, grok|SASP, senescent cells, grok]]
     - Highlights IL-1α as a master regulator of SASP through its activation of NF-κB.
 
+  - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]]
+    - Review lists IL-1α among the upstream SASP regulators (with DNA damage, C/EBPβ, GATA4, p38 MAPK, mTOR, JAK–STAT, NOTCH) whose outputs are shaped by the epigenetic landscape that orchestrates downstream SASP expression.
+
 ## Connections
 
 - [[Senescence-Associated Secretory Phenotype|SASP]] — Master regulator of SASP induction
@@ -46,8 +49,20 @@ List of documents that mention this entity
 - [[IL-6]] / [[IL-8]] — Upstream activator of these SASP factors
 - [[Senescent Cells]] — Produced by senescent cells
 - [[MAPK]] / [[AUF1]] — Additional IL-1α signaling and regulatory nodes
+- [[Epigenetic Alterations]] — IL-1α's downstream SASP is epigenetically orchestrated
+- [[SASP]] — IL-1α is the master upstream SASP trigger
+- [[NF-κB]] — IL-1α activates NF-κB to drive SASP
+- [[mTOR]] — mTOR regulates IL-1α translation
+- [[cGAS-STING Pathway]] — cGAS–STING can feed IL-1α-led SASP
+- [[LINE-1]] — retrotransposon derepression amplifies IL-1α-driven SASP
+- [[KDM4]] — KDM4 opens SASP loci downstream of IL-1α
+- [[EZH2]] — H3K27me3 restrains IL-1α-driven SASP
+- [[BRD4]] — H3K27ac reader at IL-1α-target SASP enhancers
+- [[AP-1]] — AP-1 cooperates with IL-1α signaling at SASP enhancers
+- [[DNA Methylation]] — methylation dynamics at IL-1α-responsive SASP genes
+- [[Senescence-Associated Heterochromatin Foci]] — SASP loci act outside SAHF-mediated silencing
 
 ## Linking Summary
 
-  - New links added: [[Senescence-Associated Secretory Phenotype|SASP]], [[NF-κB]], [[mTOR]], [[IL-6]], [[IL-8]], [[Senescent Cells]], [[MAPK]], [[AUF1]], [[ZFP36L1]]
+  - New links added: [[Senescence-Associated Secretory Phenotype|SASP]], [[NF-κB]], [[mTOR]], [[IL-6]], [[IL-8]], [[Senescent Cells]], [[MAPK]], [[AUF1]], [[ZFP36L1]], [[Epigenetic Alterations]], [[cGAS-STING Pathway]], [[LINE-1]], [[KDM4]], [[EZH2]], [[BRD4]], [[AP-1]], [[DNA Methylation]], [[Senescence-Associated Heterochromatin Foci]]
   - Strong connections to strengthen: [[IL-1α]] ↔ [[Senescence-Associated Secretory Phenotype|SASP]], [[IL-1α]] ↔ [[NF-κB]]
