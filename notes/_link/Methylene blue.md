@@ -28,7 +28,7 @@ aliases:
 - **Refractory vasoplegic shock:** IV bolus 2 mg/kg over 20–30 min (often off-label, post-cardiopulmonary bypass or septic).
 - **Ifosfamide-induced encephalopathy:** IV 50 mg every 4 h until resolution.
 - **Intraoperative staining:** sentinel lymph node mapping, ureter/parathyroid visualization.
-- **Investigational:** neuroprotection ([[Alzheimer Disease]], [[Parkinson Disease]], [[Traumatic Brain Injury]], [[Ischemic Stroke]]), mood/psychiatric adjunct, low-dose cognitive and [[Mitochondrial Electron Transport Chain]] support.
+- **Investigational:** neuroprotection ([[Alzheimer's Disease]], [[Parkinson Disease]], [[Traumatic Brain Injury]], [[Ischemic Stroke]]), mood/psychiatric adjunct, low-dose cognitive and [[Mitochondrial Electron Transport Chain]] support.
 
 > [!info] Low-dose wellness window
 > Cognitive/mitochondrial/mood protocols target **0.5–4 mg total** per dose (sub-1 mg/kg). Above **7–10 mg** the risk profile shifts; >2 mg/kg can flip redox cycling to pro-oxidant; ≥20 mg/kg causes severe hemolysis.
@@ -49,7 +49,7 @@ Methylene blue is a potent [[Monoamine Oxidase Inhibitor]] (MAO-A), raising syna
 
 ## Safety
 
-- **Serotonin syndrome:** Boxed warning — avoid concomitant [[Selective Serotonin Reuptake Inhibitors]], [[Serotonin-Norepinephrine Reuptake Inhibitors]], [[Monoamine Oxidase Inhibitors]], opioids, [[Dextromethorphan]]; hold serotonergics ≥72 h after last dose.
+- **Serotonin syndrome:** Boxed warning — avoid concomitant [[Selective Serotonin Reuptake Inhibitors]], [[Serotonin-Norepinephrine Reuptake Inhibitors]], [[Monoamine Oxidase Inhibitor|Monoamine Oxidase Inhibitors]], opioids, [[Dextromethorphan]]; hold serotonergics ≥72 h after last dose.
 - **Hemolysis / G6PD deficiency:** contraindicated in [[Glucose-6-Phosphate Dehydrogenase]] deficiency (impaired [[Glutathione]] regeneration → rapid hemolysis). Watch for [[Heinz Bodies]], falling [[Haptoglobin]], rising [[Bilirubin]].
 - **Anaphylaxis:** monitor for [[Angioedema]], [[Urticaria]], [[Bronchospasm]].
 - **Monitoring interference:** falsifies [[Pulse Oximetry]] (use [[Arterial Blood Gas]]/[[Co-oximetry]]); colors urine, confounding dipstick [[Leukocyte Esterase]].
@@ -74,11 +74,14 @@ In the [[Mitohormetic Redox-Relay]] strategy, Methylene blue serves as an "Ampli
   - [[_document_ - Methylene Blue - StatPearls|Methylene Blue - StatPearls]]
     - Comprehensive clinical review: FDA-approved methemoglobinemia treatment plus off-label vasoplegic shock, ifosfamide encephalopathy, neuroprotection; mechanisms (NADPH reductase, mitochondrial shuttle, NOS/sGC inhibition, MAO-A inhibition); dosing, adverse effects, contraindications, toxicity.
 
-  - [[_document_ - methylene blue and aminoguanidine|Methylene Blue & Aminoguanidine]]
+  - [[_document_ - methylene blue and aminguanidine|Methylene Blue & Aminoguanidine]]
     - Contrasts methylene blue (downstream sGC inhibition) with aminoguanidine (upstream iNOS inhibition) on the NO–cGMP vasodilation cascade; oral vs IV pharmacokinetics and safety.
 
   - [[_document_ - Methylene Blue Dosage What Actually Works (And What's Too Much)|Methylene Blue Dosage Guide]]
     - Wellness dosing framework: 0.5–4 mg cognitive/mitochondrial/mood window; hormetic curve; USP-grade only; MAOI/serotonin-syndrome warnings.
+
+  - [[_document_ - Neuroprotective Actions of Methylene Blue and Its Derivatives|Neuroprotective Actions of Methylene Blue and Its Derivatives]]
+    - Structure-activity study in HT-22 neurons: MB acts as an alternative mitochondrial electron-transfer carrier (bypassing Complexes I–III) and a regenerable antioxidant; a free 10-nitrogen and the position-5 sulfur are required. Derivatives [[Toluidine Blue O]], [[Phenothiazine]], [[2-Chlorophenothiazine]], [[Chlorpromazine]], [[Promethazine]], and [[Neutral Red]] are compared.
 
 ## Connections
 
@@ -99,9 +102,16 @@ In the [[Mitohormetic Redox-Relay]] strategy, Methylene blue serves as an "Ampli
 - [[Mitohormetic Redox-Relay]] — interacts with
 - [[Carbazochrome]] — interacts with
 - [[Hormetic Window]] — low-dose benefit, high-dose harm
+- [[Phenothiazine]] — parent scaffold; free 10-N + position-5 sulfur required for MB-like electron-carrier neuroprotection
+- [[Toluidine Blue O]] — 3,7-dimethyl MB analog; most potent derivative, shares the Complex I→cytochrome c shunt
+- [[2-Chlorophenothiazine]] — phenothiazine nucleus; direct ROS scavenger, no electron shunt or Complex IV upregulation
+- [[Chlorpromazine]] — 10-N side-chain phenothiazine; ~1000-fold potency loss, no shunt, pro-oxidative in lysate assay
+- [[Promethazine]] — 10-N side-chain phenothiazine; similar liabilities to chlorpromazine
+- [[Neutral Red]] — phenazine (S5→N) analog; OCR enhancer without electron-carrier function, weak neuroprotection
+- [[Complex IV]] — upregulated by MB (and TB) at low nM via chronic exposure
 
 ## Linking Summary
 
 - New links added: [[Methemoglobin Reductase]], [[NADH]], [[Cytochrome c]], [[Soluble Guanylyl Cyclase]], [[Cyclic Guanosine Monophosphate]], [[Monoamine Oxidase Inhibitor]], [[Vasoplegic Shock]], [[Ifosfamide]], [[Hormetic Window]], [[Serotonin-Norepinephrine Reuptake Inhibitors]], [[Dextromethorphan]], [[Glutathione]], [[Heinz Bodies]], [[Haptoglobin]], [[Bilirubin]], [[Angioedema]], [[Urticaria]], [[Bronchospasm]], [[Co-oximetry]], [[Leukocyte Esterase]], [[Intestinal Atresia]], [[Hyperbilirubinemia]], [[Complex I]], [[Complex III]], [[Mitochondrial Superoxide]], [[Mitochondrial Electron Transport Chain]]
-- Suggested new entity notes: [[Methemoglobin Reductase]], [[Soluble Guanylyl Cyclase]], [[Mitochondrial Superoxide]]
-- Strong connections to strengthen: Methylene blue ↔ Methemoglobinemia, Methylene blue ↔ Mitochondrial Electron Transport Chain, Methylene blue ↔ Monoamine Oxidase Inhibitor, Methylene blue ↔ Vasoplegic Shock
+- Suggested new entity notes: [[Methemoglobin Reductase]], [[Soluble Guanylyl Cyclase]], [[Mitochondrial Superoxide]], [[Toluidine Blue O]], [[Phenothiazine]], [[2-Chlorophenothiazine]], [[Chlorpromazine]], [[Promethazine]], [[Neutral Red]]
+- Strong connections to strengthen: Methylene blue ↔ Methemoglobinemia, Methylene blue ↔ Mitochondrial Electron Transport Chain, Methylene blue ↔ Monoamine Oxidase Inhibitor, Methylene blue ↔ Vasoplegic Shock, Methylene blue ↔ Phenothiazine, Methylene blue ↔ Toluidine Blue O
