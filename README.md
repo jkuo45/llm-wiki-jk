@@ -2,19 +2,18 @@
 
 <!-- GENERATED: summary_table -->
 ## Summary Table
-| topic | updated | documents | entities | words | disk | wiki |
-| :--- | :--- | :---: | :---: | :---: | :---: | :--- |
-| [_link](https://github.com/jkuo45/llm-wiki/tree/dev/notes/_link) | 09_JUL_2026 | 17 | 954 | 529,658 | 4.30 MB | [[notes/_link/README\|link]] |
-| [adrenochrome](https://github.com/jkuo45/llm-wiki/tree/dev/notes/adrenochrome) | 09_JUL_2026 | 19 | 253 | 189,314 | 1.95 MB | [[notes/adrenochrome/README\|link]] |
-| [autophagy](https://github.com/jkuo45/llm-wiki/tree/dev/notes/autophagy) | 09_JUL_2026 | 11 | 235 | 158,146 | 1.45 MB | [[notes/autophagy/README\|link]] |
-| [cancer](https://github.com/jkuo45/llm-wiki/tree/dev/notes/cancer) | 09_JUL_2026 | 9 | 261 | 225,313 | 2.11 MB | [[notes/cancer/README\|link]] |
-| [comt](https://github.com/jkuo45/llm-wiki/tree/dev/notes/comt) | 09_JUL_2026 | 2 | 35 | 21,034 | 0.52 MB | [[notes/comt/README\|link]] |
-| [epigenetics](https://github.com/jkuo45/llm-wiki/tree/dev/notes/epigenetics) | 09_JUL_2026 | 10 | 195 | 212,113 | 4.92 MB | [[notes/epigenetics/README\|link]] |
-| [neuromelanin](https://github.com/jkuo45/llm-wiki/tree/dev/notes/neuromelanin) | 09_JUL_2026 | 2 | 84 | 59,129 | 0.81 MB | [[notes/neuromelanin/README\|link]] |
-| [oxidative_stress](https://github.com/jkuo45/llm-wiki/tree/dev/notes/oxidative_stress) | 09_JUL_2026 | 1 | 65 | 69,196 | 0.96 MB | [[notes/oxidative_stress/README\|link]] |
-| [sirtuins](https://github.com/jkuo45/llm-wiki/tree/dev/notes/sirtuins) | 09_JUL_2026 | 7 | 107 | 177,403 | 1.58 MB | [[notes/sirtuins/README\|link]] |
-| --- | --- | ---: | ---: | ---: | ---: | --- |
-| **subtotal** | 09_JUL_2026 | **78** | **2189** | **1,641,306** | **18.59 MB** | |
+| topic                                                                                  | updated     | documents | entities |     words     |     disk     | wiki                                    |
+| :------------------------------------------------------------------------------------- | :---------- | :-------: | :------: | :-----------: | :----------: | :-------------------------------------- |
+| [_link](https://github.com/jkuo45/llm-wiki/tree/dev/notes/_link)                       | 09_JUL_2026 |    17     |   954    |    529,658    |   4.30 MB    | [[notes/_link/README\|link]]            |
+| [adrenochrome](https://github.com/jkuo45/llm-wiki/tree/dev/notes/adrenochrome)         | 09_JUL_2026 |    19     |   253    |    189,314    |   1.95 MB    | [[notes/adrenochrome/README\|link]]     |
+| [autophagy](https://github.com/jkuo45/llm-wiki/tree/dev/notes/autophagy)               | 09_JUL_2026 |    11     |   235    |    158,146    |   1.45 MB    | [[notes/autophagy/README\|link]]        |
+| [cancer](https://github.com/jkuo45/llm-wiki/tree/dev/notes/cancer)                     | 09_JUL_2026 |     9     |   261    |    225,313    |   2.11 MB    | [[notes/cancer/README\|link]]           |
+| [comt](https://github.com/jkuo45/llm-wiki/tree/dev/notes/comt)                         | 09_JUL_2026 |     2     |    35    |    21,034     |   0.52 MB    | [[notes/comt/README\|link]]             |
+| [epigenetics](https://github.com/jkuo45/llm-wiki/tree/dev/notes/epigenetics)           | 09_JUL_2026 |    10     |   195    |    212,113    |   4.92 MB    | [[notes/epigenetics/README\|link]]      |
+| [neuromelanin](https://github.com/jkuo45/llm-wiki/tree/dev/notes/neuromelanin)         | 09_JUL_2026 |     2     |    84    |    59,129     |   0.81 MB    | [[notes/neuromelanin/README\|link]]     |
+| [oxidative_stress](https://github.com/jkuo45/llm-wiki/tree/dev/notes/oxidative_stress) | 09_JUL_2026 |     1     |    65    |    69,196     |   0.96 MB    | [[notes/oxidative_stress/README\|link]] |
+| [sirtuins](https://github.com/jkuo45/llm-wiki/tree/dev/notes/sirtuins)                 | 09_JUL_2026 |     7     |   107    |    177,403    |   1.58 MB    | [[notes/sirtuins/README\|link]]         |
+| **subtotal**                                                                           | 09_JUL_2026 |  **78**   | **2189** | **1,641,306** | **18.59 MB** |                                         |
 <!-- END GENERATED: summary_table -->
 
 _\*notes directory only_\*
