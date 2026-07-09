@@ -10,7 +10,7 @@ description: "As secondary plant metabolites, polyphenols are abundant in fruits
 tags:
   - "clippings"
 ---
-. 2023 Sep 15;24(18):14158. doi: [10.3390/ijms241814158](https://doi.org/10.3390/ijms241814158)
+e. 2023 Sep 15;24(18):14158. doi: [10.3390/ijms241814158](https://doi.org/10.3390/ijms241814158)
 
 [Joanna Szymczak](https://pubmed.ncbi.nlm.nih.gov/?term=%22Szymczak%20J%22[Author]) <sup>1</sup>, [Judyta Cielecka-Piontek](https://pubmed.ncbi.nlm.nih.gov/?term=%22Cielecka-Piontek%20J%22[Author]) <sup>1,</sup><sup>*</sup>
 

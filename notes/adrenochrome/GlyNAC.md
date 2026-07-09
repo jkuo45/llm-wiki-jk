@@ -14,7 +14,10 @@ aliases: []
 **GlyNAC** is a nutritional supplement composition consisting of Glycine and N-Acetylcysteine (NAC), designed to increase intracellular levels of [[Glutathione]].
 
 ## SASP-Remodeling Aminochrome Complex (SRAC)
-In the [[SASP-Remodeling Aminochrome Complex]] strategy, GlyNAC acts as a metabolic buffer. It provides the necessary precursors to maintain high intracellular [[Glutathione]] levels, preventing [[Adrenochrome]] from crossing the threshold into cytotoxic "vicious" [[Redox Cycling]].
+In the [[SASP-Remodeling Aminochrome Complex]] strategy, GlyNAC acts as a continuous redox buffer across **both phases** of the protocol. During Phase 1, it replenishes glutathione reserves before [[Carbazochrome]] exposure, preventing the hormetic ROS pulse from crossing into cytotoxic "vicious" [[Redox Cycling]]. During Phase 2, it protects healthy tissue from collateral oxidative stress during [[Fisetin]]-induced senescent cell lysis and debris clearance.
+
+> [!important] Continuous Dosing (Protocol Revision, 08 July 2026)
+> GlyNAC is the only SRAC component administered continuously across both Phase 1 (senomorphic priming) and Phase 2 (senolytic strike). Its role shifts from redox priming (Phase 1) to tissue protection (Phase 2).
 
 ## Composition and Rationale
 

@@ -19,7 +19,10 @@ aliases: []
 
 ## Senolytic Activity
 
-Within the [[SASP-Remodeling Aminochrome Complex]] strategy, Fisetin exploits the altered metabolic state of the senescent cell—potentially sensitized by [[Adrenochrome]]-induced stress—to induce selective apoptosis specifically in high-SASP sub-populations.
+Within the [[SASP-Remodeling Aminochrome Complex]] strategy, Fisetin is deployed in **Phase 2** (the senolytic strike phase) after a 1–2 week rapamycin washout. It exploits the sensitized metabolic state of senescent cells — autophagy-primed, SASP-suppressed, redox-stressed by [[Adrenochrome monoaminoguanidine|AMM]] and [[Methylene blue|MB]] — to induce selective apoptosis specifically in high-SASP sub-populations via PI3K/Akt and BCL-2 family inhibition.
+
+> [!important] Sequential Dosing (Protocol Revision, 08 July 2026)
+> Fisetin is no longer co-administered with [[Rapamycin]]. Rapamycin suppresses the pro-survival signaling loops that fisetin targets; concurrent use may shield senescent cells from apoptosis. A 1–2 week washout between rapamycin discontinuation and fisetin pulsing is now specified.
 
 ## Interaction with COMT
 
@@ -52,7 +55,9 @@ List of documents that mention this entity
 - [[Quercetin]]: Often used alongside fisetin for similar antioxidant properties.
 - [[Senescence]]: Fisetin selectively targets senescent cells.
 - [[SASP-Remodeling Aminochrome Complex]]: A therapeutic strategy using fisetin.
-- [[Rapamycin]]: mTOR inhibitor co-administered in SRAC to suppress SASP during fisetin-induced senolysis.
+- [[Rapamycin]]: mTOR inhibitor used in Phase 1 of SRAC; washout before fisetin deployment to restore SASP signaling loops.
+- [[Adrenochrome monoaminoguanidine|AMM]]: Redox modulator + AGE inhibitor priming senescent cells for fisetin-induced apoptosis in SRAC Phase 1.
+- [[Methylene blue|MB]]: Mitochondrial amplifier in SRAC Phase 1; controls runaway ROS from AMM.
 - [[GlyNAC]]: Redox buffer protecting healthy tissue during fisetin treatment in the SRAC protocol.
 
 ---

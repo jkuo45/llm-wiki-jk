@@ -20,6 +20,15 @@ This hybrid molecule is a central component of the [[Glyco-Oxidative Proteostasi
 - **AGE Inhibition:** The aminoguanidine moiety directly inhibits the formation of [[Advanced Glycation End Products]] (AGEs) and DNA cross-links.
 - **Proteostatic Trigger:** The adrenochrome moiety induces a mild ER-stress response ([[Hormesis]]), upregulating chaperone proteins (HSPs) and priming the [[Autophagy]] machinery.
 
+## SASP-Remodeling Aminochrome Complex (SRAC)
+AMM is the **modulator** component of the [[SASP-Remodeling Aminochrome Complex]] strategy, replacing free adrenochrome (which required nanoparticle delivery) and carbazochrome. AMM provides:
+- **Redox trigger** (adrenochrome moiety): hormetic ROS pulse → [[NRF2]]/ARE activation and [[SIRT1]]/[[PGC-1α]] axis stimulation.
+- **AGE inhibition** (aminoguanidine moiety): traps reactive dicarbonyls (methylglyoxal, glyoxal) elevated in senescent cells, providing biochemical selectivity without physical targeting.
+- **Stability:** Pre-formed complex with defined pharmacokinetics; no nanoparticle encapsulation needed.
+
+> [!important] Nanoparticle Replacement
+> AMM replaces the nanoparticle-delivered adrenochrome from the original SRAC protocol. The aminoguanidine moiety provides **biochemical targeting** via carbonyl trapping in senescent cells (which have elevated reactive dicarbonyls), while [[Methylene blue]] provides **mitochondrial self-targeting**. Together, these two mechanisms replace the physical targeting that nanoparticles would have provided.
+
 ## Glyco-Oxidative Modulation
 
 Adrenochrome monoaminoguanidine functions as a **glyco-oxidative modulator** — a hybrid agent that simultaneously targets both glycation and oxidative stress pathways. The aminoguanidine moiety scavenges reactive dicarbonyl species ([[Methylglyoxal]], [[Glyoxal]]), preventing them from forming [[Advanced Glycation End Products]], while the adrenochrome moiety engages the [[Mitohormetic Redox-Relay]] to induce adaptive stress responses.

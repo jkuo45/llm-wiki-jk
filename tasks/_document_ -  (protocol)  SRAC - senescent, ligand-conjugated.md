@@ -8,15 +8,22 @@ description: Grok is a free AI assistant designed by xAI to maximize truth and o
 tags:
   - "clippings"
 ---
+> [!warning] Protocol Superseded (08 July 2026)
+> This document describes the **original** SRAC hypothesis using nanoparticle-delivered adrenochrome. The protocol has been revised:
+> - **Adrenochrome → Carbazochrome**: The stabilized derivative replaces adrenochrome, eliminating the need for nanoparticle encapsulation.
+> - **Nanoparticle delivery removed**: Ligand-conjugated nanoparticle targeting has been deprioritized due to zero published literature on adrenochrome NP formulations and unresolved autoxidation stability challenges.
+> - **Sequential dosing**: Rapamycin and fisetin are now administered sequentially (Phase 1 → washout → Phase 2) rather than concurrently, to resolve the senomorphic/senolytic timing conflict.
+> See [[notes/adrenochrome/SASP-Remodeling Aminochrome Complex|SRAC entity note]] and [[tasks/task_output_SRAC_revision_log_08_JULY_2026|revision log]] for the updated protocol.
+
 This research hypothesis explores a highly compelling, albeit double-edged, area of biogerontology: the potential of **aminochromes** (specifically **adrenochrome**) to act as senotherapeutic agents.By analyzing the biochemical pathways of cellular senescence, redox homeostasis, and aminochrome chemistry, we can evaluate the feasibility, mechanisms, and major challenges of utilizing these compounds as senolytics or senomorphics.**Primary Target:** Cellular Senescence & Inflammaging
-### 2.1 Scientific Rationale & Mechanistic Synergy
+### Scientific Rationale & Mechanistic Synergy
 
 SRAC uses [[Adrenochrome]] as a metabolic stressor to sensitize senescent cells (SNCs), which often have "stalled" autophagy and high metabolic demand.
 - **Synergy:** **Rapamycin** (mTORi) decouples the ROS signal from pro-inflammatory SASP production (NF-κB inhibition). **Fisetin** then exploits this "primed/stressed" state to induce selective senolysis. **GlyNAC** serves as the "Redox Buffer," ensuring the global glutathione (GSH) pool protects healthy tissue.
-### 2.2 Proposed Combo & Dosing Strategy
+### Proposed Combo & Dosing Strategy
 - **Agents:** Adrenochrome (Nanoparticle delivery), Rapamycin (2mg/weekly), Fisetin (intermittent dosing), GlyNAC (high-dose).
 - **Rationale:** Nanoparticles are critical to prevent systemic autoxidation and target tissue-resident SNCs.
-### 2.3 Feasibility Assessment (Score: 6.2/10)
+### Feasibility Assessment (Score: 6.2/10)
 - **Biological Plausibility:** 8/10 (ROS-sensitization is a validated senolytic strategy)
 - **Druggability:** 5/10 (Nanoparticle delivery of aminochromes is complex)
 - **Hormetic Window:** 7/10 (Intermittent senolytic dosing adds safety)

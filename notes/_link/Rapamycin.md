@@ -12,7 +12,10 @@ aliases: []
 # Rapamycin
 [[Rapamycin]] (also known as Sirolimus) is an immunosuppressant drug that acts as a potent inhibitor of the mTOR pathway. By inhibiting mTOR, rapamycin promotes [[Autophagy]]. It has been studied in various models of neurodegeneration, including [[Parkinson's Disease]], for its ability to enhance the clearance of protein aggregates and damaged organelles.
 ## SASP-Remodeling Aminochrome Complex (SRAC)
-In the [[SASP-Remodeling Aminochrome Complex]] strategy, Rapamycin acts as a "brake." It ensures that [[Adrenochrome]]-induced ROS signals are diverted from pro-inflammatory [[SASP]] production toward a quiescent-like "senomorphic" state.
+In the [[SASP-Remodeling Aminochrome Complex]] strategy, Rapamycin acts as a "brake" during **Phase 1 only** (weeks 1–4). It inhibits mTOR-dependent SASP translation (IL-1α, IL-6, IL-8) and ensures that [[Adrenochrome monoaminoguanidine|AMM]]-induced ROS signals are diverted from pro-inflammatory [[SASP]] production toward a quiescent-like "senomorphic" state. Rapamycin is then **washed out for 1–2 weeks** before Phase 2 fisetin, because rapamycin suppresses the pro-survival signaling loops that fisetin targets for selective senolysis.
+
+> [!important] Sequential Dosing (Protocol Revision, 08 July 2026)
+> Rapamycin is discontinued after Phase 1. A 1–2 week washout precedes Phase 2 fisetin treatment. Concurrent rapamycin + fisetin may be antagonistic — rapamycin suppresses the SASP signaling loops that fisetin exploits for selective senolysis.
 ---
 ### Merged from notes/autophagy/Rapamycin.md
 Rapamycin (also known as Sirolimus) is a potent immunosuppressant and [[Autophagy]] inducer that specifically inhibits the [[mTORC1]] complex.
@@ -57,8 +60,10 @@ List of documents that mention this entity
 - [[Autophagy]] — cellular self-degradation pathway; clears damaged proteins and organelles
 - [[Parkinson's Disease]] — neurodegenerative disease; α-synuclein pathology; dopamine loss
 - [[SASP-Remodeling Aminochrome Complex]] — interacts with Rapamycin
+- [[Adrenochrome monoaminoguanidine|AMM]] — redox modulator co-administered with rapamycin in SRAC Phase 1; rapamycin blocks NF-κB arm of AMM's ROS response
+- [[Methylene blue|MB]] — mitochondrial amplifier co-administered with rapamycin in SRAC Phase 1
 - [[Adrenochrome]] — interacts with Rapamycin
-- [[Fisetin]] — senolytic agent paired with rapamycin in the SRAC protocol for selective killing of senescent cells
+- [[Fisetin]] — senolytic agent deployed sequentially after rapamycin washout in the SRAC protocol for selective killing of senescent cells
 - [[GlyNAC]] — redox buffer co-administered in SRAC to protect healthy tissue during treatment
 - [[SASP]] — senescence-associated secretory phenotype; mediates paracrine senescence
 ## Linking Summary

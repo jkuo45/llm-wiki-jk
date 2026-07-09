@@ -59,6 +59,10 @@ Methylene blue is a potent [[Monoamine Oxidase Inhibitor]] (MAO-A), raising syna
 
 In the [[Mitohormetic Redox-Relay]] strategy, Methylene blue serves as an "Amplifier" and mitochondrial electron cycler. It acts as an alternative electron carrier, bypassing damaged Complex I/III and reducing the potential for runaway ROS generation while maintaining the signaling pulse induced by [[Carbazochrome]].
 
+## SASP-Remodeling Aminochrome Complex (SRAC)
+
+In the [[SASP-Remodeling Aminochrome Complex]] strategy, Methylene blue serves as a **mitochondrial amplifier** during Phase 1 (senomorphic priming). Its natural accumulation in mitochondria (membrane potential–driven) provides inherent organellar targeting — replacing the nanoparticle delivery system that was originally proposed for adrenochrome. MB bypasses Complex I/III to shuttle electrons from NADH → Cytochrome c, preventing runaway ROS from [[Adrenochrome monoaminoguanidine|AMM]]'s redox cycling while sustaining ATP production and maintaining the hormetic signal.
+
 ## Documents
 
   - [[_document_ - Methemoglobin and Methemoglobinemia|Methemoglobin and Methemoglobinemia]]
