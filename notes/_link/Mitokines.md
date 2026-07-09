@@ -31,6 +31,14 @@ The concept was proposed following observations in *C. elegans* that tissue-spec
 - [[Mitochondrial Unfolded Protein Response]]
 - [[Cell non-autonomous signaling]]
 
+## Documents
+
+  - [[_document_ - Mitohormesis - 2023_NOV|Mitohormesis 2023 Review]]
+    - Comprehensive discussion of mitokines as cell-non-autonomous signals released by stressed mitochondria. Covers GDF15, FGF21, and MDPs (Humanin, MOTS-c, SHLPs) as key mitokines mediating inter-tissue communication.
+
+  - [[_document_ - Mitohormesis - 2014_FEB|Mitohormesis 2014 Review]]
+    - Introduces the mitokine concept — the idea that mitochondrial stress in one tissue can trigger adaptive responses in distant tissues.
+
 ## Connections
 
 - [[Mitochondrial Unfolded Protein Response]]: Mitokines are soluble factors (peptides or proteins) secreted by cells undergoing mitochondrial stress that can trigg...

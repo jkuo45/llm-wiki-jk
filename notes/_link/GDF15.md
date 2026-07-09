@@ -88,6 +88,8 @@ List of documents that mention this entity
     - GDF15 identified by proteomic analysis (Tanaka et al., 2018; Basisty et al., 2020) as a candidate blood biomarker of immune senescence and cellular aging, alongside [[MMP1]], [[STC1]], and [[SERPIN|SERPINs]].
   - [[_document_ - Mitohormesis - 2023_NOV|Mitohormesis (2023 Review)]]
     - Details GDF15 as an ISR/ATF4-dependent mammalian mitokine induced by muscle mitochondrial perturbation, metformin, and exercise, coupling local mitochondrial stress to systemic metabolic remodeling.
+  - [[_document_ - Mitohormesis - 2014_FEB|Mitohormesis (2014 Review)]]
+    - Provides foundational context on the mitokine concept and the retrograde signaling framework underlying GDF15 biology.
 
 ## Connections
 

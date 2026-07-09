@@ -65,8 +65,10 @@ FGF21 levels are elevated in [[NAFLD]] and [[NASH]] as a compensatory response, 
 
 List of documents that mention this entity
 
-  - [[_document_ - Mitohormesis - 2023_NOV|Mitohormesis - 2023_NOV]]
-    - FGF21 is an additional circulating factor known to be elevated in animal models and human subjects with impaired mitochondrial function– . Like GDF15, its secretion often appears to be downstream of an OMA1-DELE1-ATF4 regulated pathway,.
+  - [[_document_ - Mitohormesis - 2023_NOV|Mitohormesis 2023 Review]]
+    - FGF21 is an additional circulating factor known to be elevated in animal models and human subjects with impaired mitochondrial function. Like GDF15, its secretion often appears to be downstream of an OMA1-DELE1-ATF4 regulated pathway.
+  - [[_document_ - Mitohormesis - 2014_FEB|Mitohormesis 2014 Review]]
+    - Provides early context on FGF21 induction by mitochondrial stress and its role as a mitokine.
 
 
 ## Connections

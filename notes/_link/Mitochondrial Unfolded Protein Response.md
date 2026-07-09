@@ -26,6 +26,14 @@ Activation of the UPRmt has been linked to lifespan extension in several model o
 - Perturbations of the electron transport chain (e.g., [[cco-1]] knockdown).
 - Decline in NAD+ levels, which can be restored to extend longevity in a UPRmt-dependent fashion.
 
+## Documents
+
+  - [[_document_ - Mitohormesis - 2023_NOV|Mitohormesis 2023 Review]]
+    - Discusses UPRmt as a key mitohormetic mechanism alongside the ISR and protein import quality control pathways. Covers ATFS-1-dependent signaling in C. elegans and its intersection with the DELE1-OMA1-HRI axis in mammals.
+
+  - [[_document_ - Mitohormesis - 2014_FEB|Mitohormesis 2014 Review]]
+    - The original mitohormesis concept paper that extensively covers UPRmt as a retrograde stress signaling pathway linking mitochondrial proteotoxicity to nuclear adaptation and lifespan extension.
+
 ## Related Entities
 
 - [[Mitochondria]]

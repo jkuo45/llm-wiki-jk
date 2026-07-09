@@ -47,8 +47,14 @@ Recombinant humanin and humanin analogs (particularly [[HNG]], the 21-amino acid
 
 ## Documents
 
-- [[_document_ - Humanin a harbinger of mitochondrial-derived peptides?|Humanin: a harbinger of MDPs]]
-  - Comprehensive review establishing humanin as the prototypical [[Mitochondrial-Derived Peptide]], describing its discovery, receptors (FPRL1, CNTFR/WSX-1/gp130), mechanisms of action (Bax/Bid inhibition, STAT3/ERK signaling), cytoprotective activities, metabolic protection, and role in aging. Published in Trends Endocrinol Metab, 2013.
+  - [[_document_ - Humanin a harbinger of mitochondrial-derived peptides?|Humanin: a harbinger of MDPs]]
+    - Comprehensive review establishing humanin as the prototypical [[Mitochondrial-Derived Peptide]], describing its discovery, receptors (FPRL1, CNTFR/WSX-1/gp130), mechanisms of action (Bax/Bid inhibition, STAT3/ERK signaling), cytoprotective activities, metabolic protection, and role in aging. Published in Trends Endocrinol Metab, 2013.
+
+  - [[_document_ - Mitohormesis - 2023_NOV|Mitohormesis 2023 Review]]
+    - Discusses humanin as a founding member of the mitochondrial-derived peptide (MDP) family of mitokines, alongside MOTS-c and SHLPs. Covers its cytoprotective, anti-apoptotic, and metabolic regulatory roles in the context of mitohormetic signaling.
+
+  - [[_document_ - Mitohormesis - 2014_FEB|Mitohormesis 2014 Review]]
+    - Provides early context on the mitokine concept and how humanin fits into the paradigm of mitochondrial stress-induced systemic signaling.
 
 ## Related Entities
 
