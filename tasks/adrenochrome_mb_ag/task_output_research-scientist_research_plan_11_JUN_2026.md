@@ -69,6 +69,9 @@ Preliminary data on related [[Aminochromes]] suggest they may modulate the **Sen
 - **SAR Studies:** Modify the N-methyl group and position 3-hydroxyl group to optimize stability and blood-brain barrier (BBB) permeability.
 - **Comparator:** Benchmarking against [[Metformin]], [[Rapamycin]], and Nicotinamide Mononucleotide (NMN).
 
+> [!info] Rapamycin shows a biphasic (hormetic) dose-response
+> Cerrillo, Vidakovic & Míguez (2026, *bioRxiv* 2026.04.20.719646) report that rapamycin produces an inverted-U response — maximal efficacy at ~1 nM, with reduced effect at higher concentrations (up to 50 nM), classically attributed to toxicity yet 100–200 nM is well tolerated *in vitro*. Mechanistically, long-term (>24 h) rapamycin traps mTOR in mTORC1, obstructing mTORC2 assembly; it thus acts as both an indirect activator (via PI3K) and indirect inhibitor of mTORC2 — an incoherent bivalent motif that generates the biphasic curve. Implication for SRAC: rapamycin's effect is concentration- and duration-dependent, favoring intermediate, time-limited (Phase 1 only) exposure over high or continuous dosing.
+
 ### Phase IV: In Vivo Longevity Assays
 
 - **Model 1 (_C. elegans_):** Lifespan and healthspan (locomotion, fluorescence of stress markers) under chronic low-dose adrenochrome administration.

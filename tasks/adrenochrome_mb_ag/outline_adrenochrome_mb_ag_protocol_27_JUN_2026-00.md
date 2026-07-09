@@ -123,3 +123,6 @@ _Note: Aminoguanidine remains an experimental compound, and oral methylene blue 
 #### **The Crucial Issue of Absorption (The Grapefruit/Fat Effect)**
 
 - Because **oral** rapamycin is metabolized by intestinal [[CYP3A4]], consuming it with inhibitors like grapefruit juice can spike blood levels by up to 350%, effectively multiplying the dose. Similarly, taking it with a high-fat meal significantly increases its absorption compared to a fasted state.
+
+> [!info] Rapamycin shows a biphasic (hormetic) dose-response
+> Cerrillo, Vidakovic & Míguez (2026, *bioRxiv* 2026.04.20.719646) report that rapamycin produces an inverted-U response — maximal efficacy at ~1 nM, with reduced effect at higher concentrations (up to 50 nM), classically attributed to toxicity yet 100–200 nM is well tolerated *in vitro*. Mechanistically, long-term (>24 h) rapamycin traps mTOR in mTORC1, obstructing mTORC2 assembly; it thus acts as both an indirect activator (via PI3K) and indirect inhibitor of mTORC2 — an incoherent bivalent motif that generates the biphasic curve. Implication for SRAC: rapamycin's effect is concentration- and duration-dependent, favoring intermediate, time-limited (Phase 1 only) exposure over high or continuous dosing.

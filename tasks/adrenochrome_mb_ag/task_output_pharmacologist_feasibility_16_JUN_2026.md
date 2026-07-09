@@ -41,6 +41,9 @@ SRAC now uses **Methylene Blue** as the controlled metabolic stressor that sensi
 - **Synergy (Phase 1 — senomorphic):** **Rapamycin** (mTORi) decouples the ROS signal from pro-inflammatory SASP production (NF-κB inhibition) and primes autophagy. **Methylene Blue** accumulates in mitochondria via membrane potential, delivers the hormetic H₂O₂ pulse (Nrf2 activation), and prevents runaway ROS via Complex I/III bypass. **GlyNAC** serves as the continuous "Redox Buffer."
 - **Synergy (Phase 2 — senolytic):** **Fisetin** exploits the primed/stressed state to induce selective senolysis after rapamycin washout, avoiding the antagonism of concurrent dosing.
 
+> [!info] Rapamycin shows a biphasic (hormetic) dose-response
+> Cerrillo, Vidakovic & Míguez (2026, *bioRxiv* 2026.04.20.719646) report that rapamycin produces an inverted-U response — maximal efficacy at ~1 nM, with reduced effect at higher concentrations (up to 50 nM), classically attributed to toxicity yet 100–200 nM is well tolerated *in vitro*. Mechanistically, long-term (>24 h) rapamycin traps mTOR in mTORC1, obstructing mTORC2 assembly; it thus acts as both an indirect activator (via PI3K) and indirect inhibitor of mTORC2 — an incoherent bivalent motif that generates the biphasic curve. Implication for SRAC: rapamycin's effect is concentration- and duration-dependent, favoring intermediate, time-limited (Phase 1 only) exposure over high or continuous dosing.
+
 ### Proposed Combo & Dosing Strategy
 - **Agents:** Methylene Blue (0.5–2 mg/day, the sole stressor), Rapamycin (5 mg weekly, Phase 1 only), Fisetin (intermittent pulses, Phase 2 only), GlyNAC (daily, continuous).
 - **Rationale:** MB alone supplies both the hormetic trigger and ROS control, eliminating the need for any aminochrome (adrenochrome/carbazochrome/AMM). Selectivity rests on SNC biochemical vulnerability (GSH differential, SCAP dependence, autophagy priming) plus MB's mitochondrial self-targeting.

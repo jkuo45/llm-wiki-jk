@@ -61,6 +61,9 @@ Synergies claimed:
 	[bcm.edu](https://www.bcm.edu/news/glynac-supplementation-reverses-aging-hallmarks-in-aging-humans)
 The idea is to "prime" SNCs with adrenochrome-induced stress + rapamycin, then hit with fisetin for selective killing, while GlyNAC shields healthy tissue.
 
+> [!info] Rapamycin shows a biphasic (hormetic) dose-response
+> Cerrillo, Vidakovic & Míguez (2026, *bioRxiv* 2026.04.20.719646) report that rapamycin produces an inverted-U response — maximal efficacy at ~1 nM, with reduced effect at higher concentrations (up to 50 nM), classically attributed to toxicity yet 100–200 nM is well tolerated *in vitro*. Mechanistically, long-term (>24 h) rapamycin traps mTOR in mTORC1, obstructing mTORC2 assembly; it thus acts as both an indirect activator (via PI3K) and indirect inhibitor of mTORC2 — an incoherent bivalent motif that generates the biphasic curve. Implication for SRAC: rapamycin's effect is concentration- and duration-dependent, favoring intermediate, time-limited (Phase 1 only) exposure over high or continuous dosing.
+
 Delivery note: Nanoparticle encapsulation for adrenochrome to improve targeting, stability, and reduce systemic oxidation/toxicity. This addresses a major practical issue.
 
 ## Feasibility Assessment (Your Score: 6.2/10)
