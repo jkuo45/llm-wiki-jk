@@ -3,12 +3,10 @@ import glob
 import json
 import os
 import re
+import subprocess
 import urllib.parse
 from collections import Counter
-from datetime import datetime, timedelta
-
-
-import subprocess
+from datetime import datetime
 
 
 def format_number(n):
@@ -323,6 +321,7 @@ def main():
             return datetime.strptime(date_str, "%d_%b_%Y")
         except ValueError:
             return datetime.min
+
     document_data.sort(key=lambda x: x["datetime"], reverse=True)
 
     docs_list = []
@@ -336,8 +335,9 @@ def main():
             display_name = display_name[:97].rstrip() + "..."
         doc_gh = f"https://github.com/jkuo45/llm-wiki/blob/dev/{urllib.parse.quote(d['path'], safe='/')}"
         doc_wiki = f"[[{d['path']}|wiki]]"
+        humanized = humanize_datetime(d["datetime"])
         docs_list.append(
-            f"- `{d['topic']}`: [{display_name}]({doc_gh}) {doc_wiki} ({d['date']})"
+            f"- `{d['topic']}`: [{display_name}]({doc_gh}) {doc_wiki} ({d['date']} - {humanized})"
         )
 
     # Build marker-delimited sections
