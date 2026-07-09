@@ -5,12 +5,62 @@ import os
 import re
 import urllib.parse
 from collections import Counter
-from datetime import datetime
+from datetime import datetime, timedelta
+
+
+import subprocess
 
 
 def format_number(n):
     """Return an integer formatted with thousands separators (e.g. 12,345)."""
     return f"{n:,}"
+
+
+def get_git_commit_date(filepath, repo_root):
+    """Get the last commit date for a file from git history."""
+    try:
+        result = subprocess.run(
+            ["git", "log", "-1", "--format=%aI", "--", filepath],
+            capture_output=True,
+            text=True,
+            cwd=repo_root,
+        )
+        if result.returncode == 0 and result.stdout.strip():
+            return datetime.fromisoformat(result.stdout.strip())
+    except Exception:
+        pass
+    return None
+
+
+def humanize_datetime(dt):
+    """Convert datetime to human-readable relative time."""
+    now = datetime.now().astimezone()
+    diff = now - dt
+
+    if diff.total_seconds() < 0:
+        return "just now"
+    elif diff.days == 0:
+        seconds = int(diff.total_seconds())
+        if seconds < 60:
+            return "just now"
+        minutes = seconds // 60
+        if minutes < 60:
+            return f"{minutes}m ago"
+        hours = seconds // 3600
+        return f"{hours}h ago"
+    elif diff.days == 1:
+        return "yesterday"
+    elif diff.days < 7:
+        return f"{diff.days}d ago"
+    elif diff.days < 30:
+        weeks = diff.days // 7
+        return f"{weeks}w ago"
+    elif diff.days < 365:
+        months = diff.days // 30
+        return f"{months}mo ago"
+    else:
+        years = diff.days // 365
+        return f"{years}y ago"
 
 
 def format_size(size_bytes):
@@ -161,6 +211,17 @@ def main():
         print(f"Notes directory not found: {notes_dir}")
         return
 
+    # Get git repo root
+    try:
+        result = subprocess.run(
+            ["git", "rev-parse", "--show-toplevel"],
+            capture_output=True,
+            text=True,
+        )
+        repo_root = result.stdout.strip() if result.returncode == 0 else os.getcwd()
+    except Exception:
+        repo_root = os.getcwd()
+
     topics = sorted([
         d for d in os.listdir(notes_dir) if os.path.isdir(os.path.join(notes_dir, d))
     ])
@@ -215,14 +276,20 @@ def main():
         })
 
         for doc in sorted(documents):
-            mtime = os.path.getmtime(doc)
-            mtime_str = (
-                datetime.fromtimestamp(mtime).astimezone().strftime("%d_%b_%Y").upper()
-            )
+            # Get commit date from git history, fall back to filesystem mtime
+            git_dt = get_git_commit_date(doc, repo_root)
+            if git_dt:
+                mtime_dt = git_dt.astimezone()
+            else:
+                mtime = os.path.getmtime(doc)
+                mtime_dt = datetime.fromtimestamp(mtime).astimezone()
+            mtime_str = mtime_dt.strftime("%d_%b_%Y %I:%M %p %Z").upper()
+
             word_count = count_words(doc)
             document_data.append({
                 "topic": topic,
                 "date": mtime_str,
+                "datetime": mtime_dt,
                 "path": doc,
                 "words": word_count,
             })
@@ -250,21 +317,34 @@ def main():
         f"| **subtotal** | {max(t['last_updated'] for t in topic_data)} | **{total_docs}** | **{total_entities}** | **{format_number(total_words)}** | **{format_size(total_size)}** | |"
     )
 
-    docs_table = [
-        "| topic | updated | document path | notes | word count |",
-        "| :--- | :--- | :--- | :--- | :---: |",
-    ]
+    # Sort documents by date descending (newest first)
+    def parse_date(date_str):
+        try:
+            return datetime.strptime(date_str, "%d_%b_%Y")
+        except ValueError:
+            return datetime.min
+    document_data.sort(key=lambda x: x["datetime"], reverse=True)
+
+    docs_list = []
     for d in document_data:
         basename = os.path.basename(d["path"])
+        # Create display name by removing _document_ prefix and .md extension
+        display_name = re.sub(r"^_document_\s*-\s*", "", basename)
+        display_name = re.sub(r"\.md$", "", display_name)
+        # Truncate to 100 characters if needed
+        if len(display_name) > 100:
+            display_name = display_name[:97].rstrip() + "..."
         doc_gh = f"https://github.com/jkuo45/llm-wiki/blob/dev/{urllib.parse.quote(d['path'], safe='/')}"
-        doc_obsidian = f"[[{d['path']}\\|notes]]"
-        docs_table.append(
-            f"| {d['topic']} | {d['date']} | [{basename}]({doc_gh}) | {doc_obsidian} | {format_number(d['words'])} |"
+        doc_wiki = f"[[{d['path']}|wiki]]"
+        docs_list.append(
+            f"- `{d['topic']}`: [{display_name}]({doc_gh}) {doc_wiki} ({d['date']})"
         )
 
     # Build marker-delimited sections
     summary_table_content = "## Summary Table\n" + "\n".join(topics_table)
-    doc_list_content = "## Document List\n\n" + "\n".join(docs_table)
+    doc_list_content = f"## Documents ({len(document_data)} total)\n\n" + "\n".join(
+        docs_list
+    )
 
     sections = {
         "summary_table": summary_table_content,
