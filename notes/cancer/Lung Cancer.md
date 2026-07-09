@@ -2,7 +2,7 @@
 title: Lung Cancer
 description: Lung cancer is the leading cause of cancer morbidity and mortality worldwide; Ivermectin inhibits its proliferation and metastasis via YAP1, EGFR, EMT, and HSP27 pathways.
 created: 2026-07-06
-updated: 2026-07-07
+updated: 2026-07-09
 tags:
   - medical-condition
 aliases: []
@@ -27,6 +27,12 @@ Preclinical studies show ivermectin inhibits lung cancer cell proliferation and 
 ## Clinical & Research Relevance
 
 These findings position ivermectin as a candidate adjuvant that could potentiate existing targeted drugs and curb metastasis, an area of active [[Drug Repositioning]]. Combination with erlotinib and other TKIs is of particular interest in EGFR-driven NSCLC. Validation in clinical cohorts and formulation for lung-tissue delivery remain research priorities.
+
+## The cGAS-STING-SASP Axis in Lung Cancer
+
+The [[cGAS-STING Pathway|cGAS-STING signaling pathway]] plays a critical role in lung cancer immune surveillance through the [[SASP|senescence-associated secretory phenotype (SASP)]]. In [[KRAS]]-driven lung cancer, co-mutation of *LKB1* (*STK11*) leads to silencing of [[STING]] expression, rendering tumors unable to activate cGAS-STING-dependent SASP and failing to recruit T cells for immune-mediated clearance. Re-expression of LKB1 restores STING expression and sensitizes tumors to [[Immune Checkpoint|immune checkpoint blockade]] therapy (Kitajima et al., 2019, *Cancer Discov* 9:34-45; PMID 30297358).
+
+This mechanism reveals that STING silencing in KRAS-LKB1 mutant lung cancer is an immune evasion strategy that bypasses the SASP-dependent senescence surveillance program, highlighting STING pathway restoration as a potential therapeutic approach for this aggressive lung cancer subtype.
 
 ## Documents
 
@@ -56,6 +62,8 @@ List of documents that mention this entity
   - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
     - downregulated cleaved Caspase-3 levels in Lung Cancer cells. In contrast, several studies have found that SIRT3 has an anti-apoptotic effect.
 
+  - [[_document_ - Cellular senescence and senescence‐associated secretory phenotype via the cGAS‐STING signaling pathway in cancer|Cellular senescence and SASP via cGAS-STING in cancer]]
+    - Discusses STING silencing in KRAS-LKB1 mutant lung cancer as an immune evasion mechanism that bypasses SASP-dependent senescence surveillance, preventing response to immune checkpoint blockade.
 
 ## Connections
 
@@ -67,9 +75,14 @@ List of documents that mention this entity
 - [[HSP27]] - Survival chaperone whose phosphorylation ivermectin blocks.
 - [[Metastasis]] - Dissemination suppressed via multiple ivermectin mechanisms.
 - [[Drug Repositioning]] - Strategy of reusing ivermectin in oncology.
+- [[cGAS-STING Pathway]] - Drives SASP-dependent immune surveillance; silenced in KRAS-LKB1 mutant lung cancer.
+- [[STING]] - Suppressed by LKB1 loss; restoration sensitizes to immune checkpoint blockade.
+- [[SASP]] - The senescence-associated secretory phenotype that mediates immune recruitment.
+- [[KRAS]] - Oncogenic driver; co-mutation with LKB1 silences STING.
+- [[Immune Checkpoint]] - Therapy response depends on STING-SASP axis integrity.
 
 ## Linking Summary
 
-- New links added: [[Lung Cancer]], [[Ivermectin]], [[YAP1]], [[erlotinib]], [[EGFR]], [[EMT]], [[HSP27]], [[Metastasis]], [[Drug Repositioning]], [[Tumor Suppressor Gene]], [[Inflammation]], [[Oxidative Stress]]]
-- Suggested new entity notes to create: [[YAP1]], [[erlotinib]], [[HSP27]], [[NSCLC]]
-- Strong connections to strengthen: [[Lung Cancer]] ↔ [[Ivermectin]], [[Lung Cancer]] ↔ [[EGFR]]
+- New links added: [[Lung Cancer]], [[Ivermectin]], [[YAP1]], [[erlotinib]], [[EGFR]], [[EMT]], [[HSP27]], [[Metastasis]], [[Drug Repositioning]], [[Tumor Suppressor Gene]], [[Inflammation]], [[Oxidative Stress]], [[cGAS-STING Pathway]], [[STING]], [[SASP]], [[KRAS]], [[Immune Checkpoint]]
+- Suggested new entity notes to create: [[YAP1]], [[erlotinib]], [[HSP27]], [[NSCLC]], [[STK11]], [[LKB1]]
+- Strong connections to strengthen: [[Lung Cancer]] ↔ [[Ivermectin]], [[Lung Cancer]] ↔ [[EGFR]], [[Lung Cancer]] ↔ [[cGAS-STING Pathway]], [[Lung Cancer]] ↔ [[STING]], [[KRAS]] ↔ [[LKB1]] ↔ [[STING]]

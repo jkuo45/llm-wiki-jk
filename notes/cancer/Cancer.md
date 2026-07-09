@@ -4,7 +4,7 @@ description: Cancer is a large group of diseases characterized by uncontrolled c
   growth with the potential to invade or spread to other parts of the body. It shares
   a "meta-hallmark" of epigenetic instabilit...
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-07-09
 tags:
   - medical-condition
 aliases:
@@ -38,6 +38,7 @@ Key hallmarks include sustained proliferative signaling, evasion of growth suppr
 - [[Wnt]]/β-catenin
 - [[JAK2]]/[[STAT3]]
 - [[NF-κB]]
+- [[cGAS-STING Pathway]] — drives SASP factor expression in senescent cells, linking cellular senescence to chronic inflammation in the tumor microenvironment
 - [[Hippo Pathway]] ([[YAP1]])
 
 ## Therapeutics
@@ -90,6 +91,9 @@ List of documents that mention this entity
   - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
     - It does so not by keeping animals in a unhealthy state for a longer time, but by actually retarding age-related deterioration, such as by decreased collagen elasticity, development of insulin resistance, a decline in immune function, neuro-behavioural impai...
 
+  - [[_document_ - Cellular senescence and senescence‐associated secretory phenotype via the cGAS‐STING signaling pathway in cancer|Cellular senescence and SASP via cGAS-STING in cancer]]
+    - Reviews the dual role of senescence in cancer: tumor suppression through cell cycle arrest and immune surveillance vs. tumor promotion through chronic SASP-driven inflammation. The cGAS-STING pathway is identified as a key regulator of SASP in the cancer microenvironment, with focus on obesity-associated HCC and KRAS-LKB1 mutant lung cancer.
+
 
 ## Connections
 - [[Aging]] — Primary risk factor; shared epigenetic mechanisms
@@ -101,6 +105,8 @@ List of documents that mention this entity
 - [[Ascorbic Acid]] (as a potential prooxidant therapy)
 - **[[DNA Methylation]]**: The primary epigenetic mark that is dysregulated in both aging and cancer.
 - **[[Cellular Senescence]]**: A dual-role process that both prevents and promotes cancer depending on the context.
+- **[[SASP]]**: The senescence-associated secretory phenotype mediates the paracrine effects of senescent cells, driving chronic inflammation and tumor promotion in the cancer microenvironment.
+- **[[cGAS-STING Pathway]]**: An innate immune sensor of cytoplasmic DNA that drives SASP factor expression in senescent cells; plays context-dependent roles in cancer (tumor suppression via immune surveillance vs. tumor promotion via chronic inflammation).
 - **[[Genomic Instability]]**: A consequence of epigenetic erosion that facilitates the acquisition of cancer-driving mutations.
 - [[Yamanaka Factors]]: Used in research to reprogram cancer cells.
 - [[c-Myc]]: An oncogenic transcription factor used in cellular reprogramming.
@@ -233,7 +239,7 @@ One of the significant challenges in treatment is [[Multidrug Resistance]], whic
 ## Linking Summary
 - New links added: [[Aging]], [[Oxidative Stress]], [[Autophagy]], [[Apoptosis]], [[PI3K]], [[Akt]], [[mTOR]], [[MAPK]], [[Wnt]], [[NF-κB]], [[Breast Cancer]], [[Colorectal Cancer]], [[Renal Cell Carcinoma]], [[Ivermectin]], [[Fenbendazole]], [[melittin]], [[Drug Repositioning]]
 - Suggested new entity notes to create: [[Metastasis]], [[Tumor Microenvironment]], [[Immunotherapy]], [[Oncogene]], [[Tumor Suppressor]]
-- Strong connections to strengthen: [[Cancer]] ↔ [[Aging]], [[Cancer]] ↔ [[Oxidative Stress]]
+- Strong connections to strengthen: [[Cancer]] ↔ [[Aging]], [[Cancer]] ↔ [[Oxidative Stress]], [[Cancer]] ↔ [[cGAS-STING Pathway]], [[Cancer]] ↔ [[SASP]], [[Cancer]] ↔ [[Cellular Senescence]]
 - New links added: [[8-oxo-2'-deoxyguanosine]], [[Aging]], [[Ascorbic Acid]], [[Autophagy]], [[Cellular Reprogramming]], [[Cellular Senescence]], [[CpG Island]], [[DNA Methylation]], [[DNA Damage]], [[Epigenetic Clock]], [[Epigenetics]], [[Genomic Instability]], [[Heterochromatin]], [[Klf4]], [[LINE-1]], [[Oxidative Stress]], [[Reactive Oxygen Species]], [[SASP]], [[Transposable Elements]], [[Yamanaka Factors]], [[c-Myc]], [[Oncogene Activation]]
 - Suggested new entity notes to create: [[Apoptosis]], [[DNA Damage]], [[Metastasis]], [[Oncogene]], [[Telomerase]], [[Telomere]], [[Tumor Suppressor]], [[Oncogene Activation]]# Cancer
 

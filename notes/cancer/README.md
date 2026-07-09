@@ -3,7 +3,7 @@ title: Cancer notes
 aliases: []
 description: Index of wiki notes for cancer
 created: 2026-07-06
-updated: 2026-07-06
+updated: 2026-07-09
 ---
 # Cancer
 
@@ -23,8 +23,8 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 
 ## Maintenance
 
-- Last updated: 06_July_2026 12:00 PM PDT
-- Total count of entities: 281
+- Last updated: 09_July_2026 01:00 PM PDT
+- Total count of entities: 299
 
 | entity                                                 | datetime updated         | entity_type_1        | entity_relevance_score_1 | entity_sentiment_score_1 | entity_justification_1 |
 | ------------------------------------------------------ | ------------------------ | -------------------- | ------------------------ | ------------------------ | ---------------------- |
@@ -41,6 +41,7 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[Apaf-1]] | 31_May_2026 05:30 PM PDT | Protein | 8 | 0 | Scaffold protein essential for apoptosome formation in the intrinsic pathway. |
 | [[Apis mellifera]] | 19_May_2026 08:16 PM PDT | Organism | 5 | 1 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[apitherapy]] | 19_May_2026 08:16 PM PDT | Medical Treatment | 8 | 1 | Biological or chemical entity contributing to the broader understanding of the topic. |
+| [[ApiTox]] | 09_Jul_2026 01:00 PM PDT | Chemical Compound | 7 | 1 | Standardized honeybee venom preparation; contains melittin and phospholipase A2 with anti-cancer properties. |
 | [[Apoptosis]] | 21_May_2026 06:45 PM PDT | Biological Process | 9 | 1 | Programmed cell death; the primary desired outcome of many anti-cancer interventions. |
 | [[Apoptosome]] | 31_May_2026 05:30 PM PDT | Biological Molecule | 8 | 0 | Multi-protein complex that activates Caspase-9 in the intrinsic pathway. |
 | [[Ascariasis]] | 21_May_2026 06:20 PM PDT | Medical Condition | 6 | -1 | Condition historically associated with the compounds before their repurposing. |
@@ -51,6 +52,7 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[Bcl-2]] | 31_May_2026 05:30 PM PDT | Protein | 10 | 0 | Anti-apoptotic protein and major regulator of cell death; frequently overexpressed in cancer. |
 | [[Bcl-2 family]] | 31_May_2026 05:30 PM PDT | Chemical Class | 9 | 0 | Group of proteins that regulate the intrinsic pathway of apoptosis. |
 | [[Benzimidazole]] | 21_May_2026 06:45 PM PDT | Chemical Class | 9 | 1 | Biological or chemical entity contributing to the broader understanding of the topic. |
+| [[BET inhibitors]] | 09_Jul_2026 01:00 PM PDT | Chemical Class | 8 | 1 | Epigenetic drugs targeting BRD4; suppress SASP transcription and MYC-driven cancers. |
 | [[Bid]] | 31_May_2026 05:30 PM PDT | Protein | 8 | 0 | BH3-only protein that links the extrinsic and intrinsic apoptotic pathways. |
 | [[bioluminescence resonance energy resonance energy transfer]] | 19_May_2026 08:16 PM PDT | Analytical Technique | 6 | 0 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[BRCA]] | 19_May_2026 08:16 PM PDT | Gene | 8 | 0 | Biological or chemical entity contributing to the broader understanding of the topic. |
@@ -63,8 +65,10 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[Caspase-3]] | 19_May_2026 08:16 PM PDT | Enzyme | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
 | [[Caspase-8]] | 31_May_2026 05:30 PM PDT | Enzyme | 9 | 0 | Initiator caspase of the extrinsic apoptotic pathway. |
 | [[Caspase-9]] | 31_May_2026 05:30 PM PDT | Enzyme | 9 | 0 | Initiator caspase of the intrinsic apoptotic pathway. |
+| [[cDNA]] | 09_Jul_2026 01:00 PM PDT | Biological Molecule | 7 | 0 | Cytoplasmic DNA species (CCFs, mtDNA) that activate cGAS-STING in senescence. |
 | [[CendR motif]] | 26_May_2026 05:03 PM PDT | Scientific Concept | 7 | 0 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[cervical cancer]] | 21_May_2026 05:45 PM PDT | Medical Condition | 9 | -1 | High-relevance pathological state targeted by the investigated compounds. |
+| [[cGAMP]] | 09_Jul_2026 01:00 PM PDT | Biological Molecule | 9 | 0 | 2'3'-cyclic GMP-AMP; cGAS product that activates STING to drive SASP in senescent cells. |
 | [[Cholangiocarcinoma]] | 21_May_2026 05:45 PM PDT | Medical Condition | 9 | -1 | High-relevance pathological state targeted by the investigated compounds. |
 | [[Cilengitide]] | 26_May_2026 05:03 PM PDT | Chemical Compound | 8 | 1 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[Cisplatin]] | 19_May_2026 08:16 PM PDT | Chemical Compound | 9 | 1 | Significant therapeutic agent or chemical tool used in cancer research. |
@@ -75,12 +79,14 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[Cytochrome c]] | 31_May_2026 05:30 PM PDT | Protein | 8 | 0 | Mitochondrial protein whose release into the cytosol triggers the intrinsic pathway. |
 | [[CYP2C19]] | 21_May_2026 06:45 PM PDT | Enzyme | 7 | 0 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[CYP2J2]] | 21_May_2026 06:45 PM PDT | Enzyme | 7 | 0 | Biological or chemical entity contributing to the broader understanding of the topic. |
+| [[DAMP]] | 09_Jul_2026 01:00 PM PDT | Biological Molecule | 8 | 0 | Damage-Associated Molecular Patterns; cytosolic DNA and other endogenous danger signals activate cGAS-STING in senescence. |
 | [[Diethylcarbamazine]] | 21_May_2026 06:20 PM PDT | Chemical Compound | 7 | 1 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[docetaxel]] | 19_May_2026 08:16 PM PDT | Chemical Compound | 8 | 1 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[Drug Repositioning]] | 21_May_2026 06:45 PM PDT | Scientific Concept | 10 | 1 | The core strategy of finding new medical uses for existing, approved drugs. |
 | [[ECM]] | 26_May_2026 05:03 PM PDT | Anatomy | 7 | 0 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[EGFR]] | 31_May_2026 05:30 PM PDT | Receptor | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
 | [[EMT]] | 21_May_2026 05:45 PM PDT | Biological Process | 8 | -1 | Important cellular mechanism involved in cancer progression or response to therapy. |
+| [[Exosomes]] | 09_Jul_2026 01:00 PM PDT | Biological Molecule | 8 | 0 | Small extracellular vesicles that mediate SASF factor transfer and cGAS-STING activation between cells. |
 | [[Extrinsic Pathway]] | 31_May_2026 05:30 PM PDT | Biological Process | 9 | 0 | Death receptor-mediated pathway of programmed cell death. |
 | [[FAK]] | 26_May_2026 05:03 PM PDT | Enzyme | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
 | [[Fas]] | 31_May_2026 05:30 PM PDT | Receptor | 8 | 0 | Death receptor that initiates the extrinsic apoptotic pathway upon ligand binding. |
@@ -105,9 +111,11 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[HER2-enriched breast cancer]] | 19_May_2026 08:16 PM PDT | Medical Condition | 9 | -1 | High-relevance pathological state targeted by the investigated compounds. |
 | [[Hexokinase 2]] | 21_May_2026 06:45 PM PDT | Enzyme | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
 | [[HIV-1]] | 19_May_2026 08:16 PM PDT | Organism | 6 | -1 | Related to the original anti-parasitic application of the discussed drugs. |
+| [[HMGB2]] | 09_Jul_2026 01:00 PM PDT | Protein | 7 | 0 | High Mobility Group Box 2; loss from chromatin permits SASP gene expression; extracellularly acts as DAMP. |
 | [[Honeybee]] | 19_May_2026 08:16 PM PDT | Organism | 6 | 1 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[Honeybee venom]] | 19_May_2026 08:16 PM PDT | Chemical Compound | 8 | 1 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[HSP27]] | 21_May_2026 05:45 PM PDT | Protein | 7 | 0 | Biological or chemical entity contributing to the broader understanding of the topic. |
+| [[Immune Checkpoint]] | 09_Jul_2026 01:00 PM PDT | Scientific Concept | 8 | 0 | Inhibitory pathways co-opted by tumors; STING-PD-L1 axis links senescence to immune evasion. |
 | [[Inhibitor of Apoptosis Proteins]] | 31_May_2026 05:30 PM PDT | Chemical Class | 9 | 0 | Family of proteins that serve as endogenous inhibitors of caspases. |
 | [[Integrins]] | 26_May_2026 05:03 PM PDT | Receptor | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
 | [[Intrinsic Pathway]] | 31_May_2026 05:30 PM PDT | Biological Process | 9 | 0 | Mitochondrial-mediated pathway of programmed cell death. |
@@ -116,8 +124,10 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[JAK2]] | 19_May_2026 08:16 PM PDT | Enzyme | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
 | [[Ki-67]] | 19_May_2026 08:16 PM PDT | Scientific Concept | 7 | 0 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[Kitasato Institute]] | 21_May_2026 06:20 PM PDT | Organization | 4 | 1 | Provided historical, scientific, or institutional context for the research. |
+| [[KRAS]] | 09_Jul_2026 01:00 PM PDT | Gene | 9 | -1 | Proto-oncogene; KRAS-LKB1 co-mutation silences STING in lung cancer, enabling immune evasion. |
 | [[Leishmaniasis]] | 21_May_2026 06:20 PM PDT | Medical Condition | 6 | -1 | Condition historically associated with the compounds before their repurposing. |
 | [[leukemia]] | 21_May_2026 05:45 PM PDT | Medical Condition | 9 | -1 | High-relevance pathological state targeted by the investigated compounds. |
+| [[Lipoteichoic Acid]] | 09_Jul_2026 01:00 PM PDT | Biological Molecule | 6 | 0 | Gram-positive bacterial PAMP recognized by TLR2; contextual to innate immune signaling in cancer. |
 | [[Lung Cancer]] | 21_May_2026 05:45 PM PDT | Medical Condition | 9 | -1 | High-relevance pathological state targeted by the investigated compounds. |
 | [[Lymphatic Filariasis]] | 21_May_2026 06:20 PM PDT | Medical Condition | 6 | -1 | Condition historically associated with the compounds before their repurposing. |
 | [[MAPK]] | 31_May_2026 05:30 PM PDT | Enzyme | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
@@ -132,6 +142,8 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[Metabolic Reprogramming]] | 21_May_2026 06:45 PM PDT | Biological Process | 9 | 0 | The alteration of metabolic pathways to support rapid tumor growth and survival. |
 | [[Microfilariae]] | 21_May_2026 06:20 PM PDT | Cell Type | 6 | -1 | Related to the original anti-parasitic application of the discussed drugs. |
 | [[Microtubule]] | 21_May_2026 06:45 PM PDT | Anatomy | 8 | 0 | Structural component of the cytoskeleton and a key target for benzimidazole compounds. |
+| [[MLL1]] | 09_Jul_2026 01:00 PM PDT | Gene | 7 | 0 | Histone methyltransferase (KMT2A); H3K4me3 regulation in development and MLL-rearranged leukemias. |
+| [[MMP]] | 09_Jul_2026 01:00 PM PDT | Enzyme | 8 | 0 | Matrix Metalloproteinases; core SASP components that remodel ECM in senescence-associated cancer. |
 | [[mTOR]] | 31_May_2026 05:30 PM PDT | Protein | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
 | [[Multidrug Resistance]] | 21_May_2026 05:45 PM PDT | Medical Condition | 8 | -1 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[Nasopharyngeal Carcinoma]] | 21_May_2026 05:45 PM PDT | Medical Condition | 9 | -1 | High-relevance pathological state targeted by the investigated compounds. |
@@ -149,6 +161,7 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[Oxidative Stress]] | 21_May_2026 06:45 PM PDT | Scientific Concept | 8 | -1 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[p53]] | 31_May_2026 05:30 PM PDT | Protein | 9 | 1 | Key molecular component of a signaling pathway relevant to cancer biology. |
 | [[PAK1]] | 31_May_2026 05:30 PM PDT | Enzyme | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
+| [[PAMP]] | 09_Jul_2026 01:00 PM PDT | Biological Molecule | 7 | 0 | Pathogen-Associated Molecular Patterns; microbial motifs recognized by PRRs; contrasted with DAMPs in innate immunity. |
 | [[Pancreatic Cancer]] | 19_May_2026 08:16 PM PDT | Medical Condition | 9 | -1 | High-relevance pathological state targeted by the investigated compounds. |
 | [[PD-L1]] | 19_May_2026 08:16 PM PDT | Protein | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
 | [[Pediculosis]] | 21_May_2026 06:20 PM PDT | Medical Condition | 6 | -1 | Condition historically associated with the compounds before their repurposing. |
@@ -156,6 +169,8 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[Pin1]] | 13_Jun_2026 10:30 AM PDT | Enzyme | 8 | 0 | Peptidyl-prolyl cis/trans isomerase that regulates Bax inactivation. |
 | [[PI3K]] | 31_May_2026 05:30 PM PDT | Enzyme | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
 | [[PLK3]] | 13_Jun_2026 10:30 AM PDT | Enzyme | 8 | 0 | Polo-like kinase involved in cell cycle regulation and apoptosis. |
+| [[Propolis]] | 09_Jul_2026 01:00 PM PDT | Chemical Compound | 7 | 1 | Bee resin with flavonoids and CAPE; anti-inflammatory and anti-cancer properties relevant to apitherapy. |
+| [[Prostaglandin E2]] | 09_Jul_2026 01:00 PM PDT | Biological Molecule | 9 | 0 | COX-2-derived lipid mediator; key SASP factor driving immune evasion in obesity-associated HCC. |
 | [[PP1]] | 13_Jun_2026 10:30 AM PDT | Enzyme | 8 | 0 | Protein phosphatase 1 that dephosphorylates Caspase-2 and Caspase-9. |
 | [[PP2A]] | 13_Jun_2026 10:30 AM PDT | Enzyme | 8 | 0 | Protein phosphatase 2A that regulates the phosphorylation state of Caspase-3 and Bax. |
 | [[Prostate Cancer]] | 31_May_2026 05:30 PM PDT | Medical Condition | 9 | -1 | High-relevance pathological state targeted by the investigated compounds. |
@@ -172,6 +187,7 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[Scabies]] | 21_May_2026 06:20 PM PDT | Medical Condition | 6 | -1 | Condition historically associated with the compounds before their repurposing. |
 | [[Simulium]] | 21_May_2026 06:20 PM PDT | Organism | 6 | -1 | Related to the original anti-parasitic application of the discussed drugs. |
 | [[SIRT1]] | 30_May_2026 07:45 PM PDT | Enzyme | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
+| [[SLC19A1]] | 09_Jul_2026 01:00 PM PDT | Transporter | 7 | 0 | Reduced folate carrier; imports extracellular cGAMP to amplify paracrine STING signaling. |
 | [[Smac DIABLO]]/[[Smac DIABLO]] | 31_May_2026 05:30 PM PDT | Protein | 8 | 0 | Mitochondrial protein that neutralizes IAPs to promote apoptosis. |
 | [[STAT3]] | 31_May_2026 05:30 PM PDT | Protein | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
 | [[Strongyloides]] | 21_May_2026 06:20 PM PDT | Organism | 6 | -1 | Related to the original anti-parasitic application of the discussed drugs. |
@@ -183,10 +199,12 @@ This directory contains notes and research regarding [[Cancer]], with a primary 
 | [[TDR]] | 21_May_2026 06:20 PM PDT | Organization | 4 | 1 | Provided historical, scientific, or institutional context for the research. |
 | [[TGF-β3]] | 19_May_2026 08:16 PM PDT | Protein | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
 | [[TRAIL]] | 31_May_2026 12:30 PM PDT | Biological Molecule | 9 | 1 | Cytokine that selectively induces apoptosis in cancer cells. |
+| [[Therapy-Induced Senescence]] | 09_Jul_2026 01:00 PM PDT | Biological Process | 8 | 0 | Senescence triggered by chemotherapeutics/radiation; dual tumor-suppressive and pro-tumorigenic roles. |
 | [[trastuzumab]] | 19_May_2026 08:16 PM PDT | Protein | 9 | 1 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[Trichuriasis]] | 21_May_2026 06:20 PM PDT | Medical Condition | 6 | -1 | Condition historically associated with the compounds before their repurposing. |
 | [[Trichuris]] | 21_May_2026 06:20 PM PDT | Organism | 6 | -1 | Related to the original anti-parasitic application of the discussed drugs. |
 | [[triple-negative breast cancer]] | 21_May_2026 05:45 PM PDT | Medical Condition | 10 | -1 | A highly aggressive cancer subtype and a primary target for the discussed therapies. |
+| [[Tumorigenesis]] | 09_Jul_2026 01:00 PM PDT | Biological Process | 9 | -1 | Multi-step process of neoplastic transformation; senescence acts as both barrier (OIS) and promoter (SASP). |
 | [[VEGF]] | 26_May_2026 05:03 PM PDT | Protein | 8 | 0 | Key molecular component of a signaling pathway relevant to cancer biology. |
 | [[Vitronectin]] | 26_May_2026 05:03 PM PDT | Protein | 7 | 0 | Biological or chemical entity contributing to the broader understanding of the topic. |
 | [[Warburg Effect]] | 21_May_2026 06:45 PM PDT | Scientific Theory | 10 | -1 | The phenomenon of increased glucose uptake and lactic acid fermentation in cancer cells. |

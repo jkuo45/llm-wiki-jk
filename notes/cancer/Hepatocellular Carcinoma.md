@@ -2,7 +2,7 @@
 title: Hepatocellular Carcinoma
 description: Hepatocellular carcinoma (HCC) is the most common type of primary liver cancer and a leading cause of cancer death worldwide.
 created: 2026-07-06
-updated: 2026-07-07
+updated: 2026-07-09
 tags:
   - medical-condition
 aliases: []
@@ -24,9 +24,46 @@ HCC often presents late with abdominal pain, weight loss, ascites, or decompensa
 
 Curative options (resection, ablation, transplantation) apply to early disease. Locoregional therapies (TACE, radioembolization) and systemic therapy dominate advanced HCC: multikinase inhibitors (sorafenib, lenvatinib), anti-[[VEGF]]/anti-PD-L1 combinations (atezolizumab+bevacizumab), and [[Chemotherapy]] for select cases. Preclinically, [[Ivermectin]] inhibits HCC development by blocking [[YAP1]] activity, demonstrated in spontaneous liver-cancer mouse models, suggesting a repurposing strategy that converges on the Hippo pathway. Targeting YAP1/TAZ and downstream metabolic rewiring remains a priority.
 
+## The Senescence-SASP-cGAS-STING Axis in HCC
+
+A growing body of evidence establishes [[Senescence|cellular senescence]] of [[Hepatic Stellate Cells|hepatic stellate cells (HSC)]] as a critical driver of obesity-associated HCC through the [[SASP|senescence-associated secretory phenotype (SASP)]] and the [[cGAS-STING Pathway|cGAS-STING signaling pathway]].
+
+### Gut Microbiota-DCA-Senescence Axis
+
+[[Obesity]] alters the [[Gut Microbiome|gut microbiota]], leading to increased production of [[Deoxycholic Acid|deoxycholic acid (DCA)]], a secondary bile acid metabolite. DCA induces cellular senescence and SASP factor production in HSC, creating a pro-inflammatory microenvironment that promotes HCC development (Yoshimoto et al., 2013, *Nature* 499:97-101; PMID 23803760).
+
+### cGAS-STING Signaling in HSC
+
+In senescent HSC, accumulation of [[Cytoplasmic Chromatin Fragments|cytoplasmic DNA]] activates the cGAS-STING pathway, which drives transcription of SASP factors including [[IL-1β]], [[IL-6]], and [[CXCL1]] via [[NFκB]] and [[IRF3]]. Knocking out the *[[STING]]* gene in mouse models blunted SASP factor production in HSC and significantly attenuated obesity-associated HCC development (Takahashi et al., 2018, *Nat Commun* 9:1249; PMID 29593264).
+
+### COX-2/PGE2 and Immune Suppression
+
+[[COX-2]] expression is significantly upregulated in senescent HSC, leading to overproduction of [[Prostaglandin E2|prostaglandin E2 (PGE2)]]. PGE2 suppresses anti-tumor immunity, enabling immune evasion and HCC progression in the obese mouse model (Loo et al., 2017, *Cancer Discov* 7:522-538; PMID 28202625).
+
+### Dual Role of SASP in HCC
+
+The SASP plays a context-dependent dual role in the liver:
+- **Short-term SASP**: Promotes immune surveillance by recruiting [[Immune System|immune cells]] ([[Natural Killer Cells|NK cells]], [[Macrophages|macrophages]], [[T Lymphocyte|T cells]]) to clear senescent and pre-malignant hepatocytes, preventing tumorigenesis (Kang et al., 2011, *Nature* 479:547-551; PMID 22080947).
+- **Long-term SASP**: Persistent SASP exposure generates chronic [[Inflammation|inflammation]], tissue damage, and a pro-tumorigenic niche that drives HCC development, particularly in the context of obesity where senescent cell clearance is impaired.
+
+### TLR2 and Innate Immune Sensing
+
+[[Toll-like Receptor 2|TLR2]] on HSC recognizes both [[Lipoteichoic Acid|lipoteichoic acid (LTA)]] from gram-positive bacteria (translocated due to obesity-related gut permeability) and [[DAMP|damage-associated molecular patterns (DAMPs)]] such as serum amyloid A. TLR2 signaling through NF-κB induces SASP factor expression, further promoting obesity-associated HCC (Loo et al., 2017, *Cancer Discov* 7:522-538).
+
+### Therapeutic Implications
+
+The cGAS-STING pathway represents a potential therapeutic target for HCC:
+- **STING agonists**: May enhance anti-tumor immunity by stimulating SASP-driven immune surveillance in early disease.
+- **STING inhibitors**: Could reduce chronic SASP-driven inflammation in advanced obesity-associated HCC.
+- **Senolytics** ([[ABT-737]], [[Dasatinib]] + [[Quercetin]], [[BET inhibitors]]): Drugs that selectively eliminate senescent HSC may attenuate SASP production and reduce HCC risk.
+- **Gut microbiota modulation**: Targeting the gut-liver axis to reduce DCA production may prevent HSC senescence and SASP-driven HCC.
+
 ## Documents
 
 List of documents that mention this entity
+
+  - [[_document_ - Cellular senescence and senescence‐associated secretory phenotype via the cGAS‐STING signaling pathway in cancer|Cellular senescence and SASP via cGAS-STING in cancer]]
+    - Reviews the obesity-associated HCC model where senescent HSC produce SASP factors (IL-1β, COX-2/PGE2) via the cGAS-STING pathway, driven by gut microbiota-derived deoxycholic acid. Discusses the dual role of SASP in immune surveillance vs. chronic inflammation-driven tumor promotion.
 
   - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
     - In vitro analyses indicated that the culture of several cancer cells such as HepG2 Hepatocellular Carcinoma] and HuH6-clone5 in serum-free medium for 6 to 24 h increased radiosensitivity via the activation of mTOR and accumulation of ROS \[\].
@@ -51,15 +88,24 @@ List of documents that mention this entity
 
 - [[Ivermectin]]: Inhibits HCC via YAP1 blockade in models.
 - [[YAP1]]: Hippo-pathway oncogene targeted by ivermectin.
-- [[Inflammation]]: Chronic hepatitis drives carcinogenesis.
+- [[Inflammation]]: Chronic hepatitis drives carcinogenesis; SASP-driven chronic inflammation is a key mechanism in obesity-associated HCC.
 - [[Oxidative Stress]]: Contributes to DNA damage in cirrhosis.
 - [[AFP]]: Classical serum biomarker for HCC.
 - [[Angiogenesis]]: VEGF-driven neovessel formation in HCC.
 - [[VEGF]]: Anti-angiogenic therapeutic target.
 - [[Tumor Microenvironment]]: Stromal niche enabling growth.
+- [[Hepatic Stellate Cells]]: Senescent HSC produce SASP factors that drive obesity-associated HCC.
+- [[Senescence]]: HSC senescence is a key initiating event in obesity-associated HCC.
+- [[SASP]]: The secretory phenotype from senescent HSC promotes HCC through IL-1β and COX-2/PGE2.
+- [[cGAS-STING Pathway]]: Drives SASP factor transcription in senescent HSC; STING knockout attenuates HCC.
+- [[Deoxycholic Acid]]: Gut metabolite that induces HSC senescence in obesity.
+- [[Gut Microbiome]]: Obesity-altered microbiota produce DCA, driving the senescence-SASP-HCC axis.
+- [[COX-2]] / [[Prostaglandin E2]]: Mediates immune suppression in obesity-associated HCC.
+- [[Senolytic]]: Potential therapeutic strategy to eliminate senescent HSC and reduce HCC risk.
+- [[Toll-like Receptor 2]]: Innate immune sensor driving SASP in HSC.
 
 ## Linking Summary
 
-- New links added: [[Ivermectin]], [[YAP1]], [[Inflammation]], [[Oxidative Stress]], [[AFP]], [[Angiogenesis]], [[VEGF]], [[Tumor Microenvironment]], [[Wnt]], [[PI3K]], [[Akt]], [[mTOR]], [[TP53]], [[MRI]], [[Circulating tumor DNA]], [[Chemotherapy]]
-- Suggested new entity notes to create: [[TAZ]], [[Aflatoxin B1]], [[BCLC Staging]]
-- Strong connections to strengthen: [[Hepatocellular Carcinoma]] ↔ [[Ivermectin]], [[Hepatocellular Carcinoma]] ↔ [[YAP1]
+- New links added: [[Ivermectin]], [[YAP1]], [[Inflammation]], [[Oxidative Stress]], [[AFP]], [[Angiogenesis]], [[VEGF]], [[Tumor Microenvironment]], [[Wnt]], [[PI3K]], [[Akt]], [[mTOR]], [[TP53]], [[MRI]], [[Circulating tumor DNA]], [[Chemotherapy]], [[Hepatic Stellate Cells]], [[Senescence]], [[SASP]], [[cGAS-STING Pathway]], [[Deoxycholic Acid]], [[Gut Microbiome]], [[COX-2]], [[Prostaglandin E2]], [[Senolytic]], [[Toll-like Receptor 2]], [[STING]], [[IL-1β]], [[Cytoplasmic Chromatin Fragments]], [[NFκB]], [[IRF3]], [[Lipoteichoic Acid]], [[DAMP]], [[Natural Killer Cells]], [[Macrophages]], [[T Lymphocyte]], [[Dasatinib]], [[Quercetin]], [[ABT-737]], [[BET inhibitors]]
+- Suggested new entity notes to create: [[TAZ]], [[Aflatoxin B1]], [[BCLC Staging]], [[Therapy-Induced Senescence]], [[Cytoplasmic Chromatin Fragments]]
+- Strong connections to strengthen: [[Hepatocellular Carcinoma]] ↔ [[Ivermectin]], [[Hepatocellular Carcinoma]] ↔ [[YAP1]], [[Hepatocellular Carcinoma]] ↔ [[Senescence]], [[Hepatocellular Carcinoma]] ↔ [[SASP]], [[Hepatocellular Carcinoma]] ↔ [[cGAS-STING Pathway]], [[Hepatocellular Carcinoma]] ↔ [[Hepatic Stellate Cells]], [[Hepatocellular Carcinoma]] ↔ [[Gut Microbiome]]
