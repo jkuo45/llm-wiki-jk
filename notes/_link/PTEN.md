@@ -48,14 +48,18 @@ List of documents that mention this entity
   - [[_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review|sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review]]
     - As an outcome of cellular stresses, SIRT4 controls PTEN stability via the insulin degrading enzyme (IDE) (Liu et al. ), it also controls ATP homeostasis and uses AMP-activated protein kinase (AMPK) to mediate retrograde signalling (Ho et al.
 
+  - [[_document_ - biochemical_basis_hormesis_2026.04.20.719646v1.full|The Biochemical Basis of Hormesis]]
+    - PTEN is modeled as the main phosphatase that indirectly inactivates [[PI3K]]; its opposition to PI3K shapes one branch of the [[Incoherent Bivalent Motif]] centered on [[mTORC1]] underlying rapamycin hormesis.
 
 ## Connections
-- **[[mTOR]]**: The primary pathway regulated by PTEN.
+- [[Incoherent Bivalent Motif]] — PTEN opposes PI3K, a branch of the mTORC1-centered motif
+- [[mTORC2]] — PTEN indirectly modulates the PI3K→mTORC2 branch
+- [[mTOR]]**: The primary pathway regulated by PTEN.
 - **[[Aging]]**: PTEN is a central player in the balance between cancer prevention and biological decline.
 - **[[Cancer]]**: PTEN is a major tumor suppressor.
 - **[[MAPK]]**: PTEN can also cross-talk with the MAPK pathway to regulate cell survival.
 
 ## Linking Summary
-- New links added: [[PTEN]], [[mTOR]], [[Autophagy]], [[Aging]], [[Cancer]], [[Cellular Senescence]], [[MAPK]], [[PI3K]], [[Akt|AKT]], [[Cancer|cancer]]
+- New links added: [[PTEN]], [[mTOR]], [[Autophagy]], [[Aging]], [[Cancer]], [[Cellular Senescence]], [[MAPK]], [[PI3K]], [[Akt|AKT]], [[Cancer|cancer]], [[Incoherent Bivalent Motif]], [[mTORC2]], [[Biphasic Dose-Response Curve]]
 - Suggested new entity notes to create: [[Tumor Suppressor]], [[PI3K Pathway]], [[Akt Kinase]]
   - Strong connections to strengthen: [[PTEN]] ↔ [[mTOR]], [[PTEN]] ↔ [[Aging]], [[PTEN]] ↔ Akt|AKT

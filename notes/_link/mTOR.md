@@ -90,7 +90,13 @@ List of documents that mention this entity
   - [[_document_ - The Mechanistic Target of Rapamycin (mTOR) Pathway as a Target of Anti-aging Therapies The Role of Rapamycin and Its Analogs in the Regulation of Cellular Processes and Their Impact on Longevity|mTOR Pathway as Target of Anti-aging Therapies (Zerdka et al., 2025)]]
     - Review of mTOR as the central longevity-regulating pathway and rapamycin's mechanisms of action.
 
+  - [[_document_ - biochemical_basis_hormesis_2026.04.20.719646v1.full|The Biochemical Basis of Hormesis]]
+    - Models the full mTOR-PI3K cascade (mTOR ↔ [[mTORC1]]/[[mTORC2]], [[PI3K]], [[Akt]], [[IRS1]], [[S6K1/2]], [[PTEN]], [[PP2A]], [[FKBP12]]) and shows rapamycin hormesis arises from an [[Incoherent Bivalent Motif]] centered on mTORC1.
+
 ## Connections
+- **[[Incoherent Bivalent Motif]]**: the mTORC1-centered network motif generating rapamycin hormesis
+- **[[Biphasic Dose-Response Curve]]**: non-monotonic rapamycin response explained by mTOR topology
+- **[[Saturated Enzymatic Regime]]**: low-K mTORC1→S6K1/2 link that amplifies hormesis
 - **[[Aging]]**: mTOR is a primary hallmark and regulator of the aging process.
 - **[[Autophagy]]**: The process most directly suppressed by mTOR activity.
 - **[[AMPK]]**: The cellular energy sensor that counteracts mTOR.
@@ -107,6 +113,6 @@ List of documents that mention this entity
 - [[Senomorphic]]: mTOR inhibitors act as senomorphics suppressing SASP
 
 ## Linking Summary
-- New links added: [[mTOR]], [[Autophagy]], [[Aging]], [[Caloric Restriction]], [[AMPK]], [[IGF1]], [[Cancer]], [[Metabolic Syndromes]], [[Neurodegenerative Diseases]], [[mTORC1]], [[mTORC2]], [[SASP]], [[Epigenetic Alterations]], [[NF-κB]], [[p38 MAPK]], [[cGAS-STING Pathway]], [[Senomorphic]]
+- New links added: [[mTOR]], [[Autophagy]], [[Aging]], [[Caloric Restriction]], [[AMPK]], [[IGF1]], [[Cancer]], [[Metabolic Syndromes]], [[Neurodegenerative Diseases]], [[mTORC1]], [[mTORC2]], [[SASP]], [[Epigenetic Alterations]], [[NF-κB]], [[p38 MAPK]], [[cGAS-STING Pathway]], [[Senomorphic]], [[Incoherent Bivalent Motif]], [[Biphasic Dose-Response Curve]], [[Saturated Enzymatic Regime]], [[S6K1/2]], [[PI3K]], [[Akt]], [[IRS1]], [[PTEN]], [[PP2A]], [[FKBP12]]
 - Suggested new entity notes to create: [[Rapamycin]], [[mTORC1]], [[Protein Synthesis]], [[Autophagy]]
   - Strong connections to strengthen: [[mTOR]] ↔ [[Aging]], [[mTOR]] ↔ Autophagy, Nutrient Sensing ↔ [[mTOR]]

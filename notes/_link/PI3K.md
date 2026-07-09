@@ -55,13 +55,18 @@ List of documents that mention this entity
   - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
     - Integrin adhesion activates pathways including TGF-β, phosphatidylinositol-4,5-bisphosphate 3-kinase (PI3K)/Akt, and AMPK signaling pathways.
 
+  - [[_document_ - biochemical_basis_hormesis_2026.04.20.719646v1.full|The Biochemical Basis of Hormesis]]
+    - PI3K is a core node of the mTOR-PI3K cascade modeled in the rapamycin-hormesis study; its activation of [[mTORC2]] (and inactivation by [[PTEN]]) forms one branch of the [[Incoherent Bivalent Motif]] centered on [[mTORC1]].
 
 ## Connections
+- [[mTORC2]] — PI3K activates mTORC2, the Output of the rapamycin incoherent bivalent loop
+- [[Incoherent Bivalent Motif]] — PI3K is one branch of the mTORC1-centered motif
+- [[Biphasic Dose-Response Curve]] — PI3K's role in generating rapamycin hormesis
 - [[Akt]]: A major downstream effector of PI3K.
 - [[mTOR]]: A component of the PI3K/Akt signaling axis.
 - [[melittin]]: Shown to inhibit the PI3K/Akt/mTOR axis in breast cancer cells.
 
 ## Linking Summary
-- New links added: [[Autophagy]], [[IGF1]], [[Akt]], [[mTORC1]], [[Vps34]], [[Beclin1]], [[Atg14]], [[Autophagosome]], [[Target of rapamycin]]
+- New links added: [[Autophagy]], [[IGF1]], [[Akt]], [[mTORC1]], [[Vps34]], [[Beclin1]], [[Atg14]], [[Autophagosome]], [[Target of rapamycin]], [[mTORC2]], [[Incoherent Bivalent Motif]], [[Biphasic Dose-Response Curve]], [[PTEN]], [[mTORC1]]
 - Suggested new entity notes to create: [[IGF1]], [[Akt]], [[mTORC1]], [[Vps34]], [[Beclin1]], [[Autophagosome]]
   - Strong connections to strengthen: [[PI3K]] ↔ [[Akt]], [[PI3K]] ↔ Vps34, [[PI3K]] ↔ Autophagy

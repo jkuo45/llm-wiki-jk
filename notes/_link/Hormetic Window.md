@@ -78,11 +78,16 @@ In the **[[Mitohormetic Redox-Relay]]** framework, the hormetic window is explic
 - **Chronic vs. intermittent dosing:** Continuous exposure leads to adaptation and loss of efficacy; intermittent pulses sustain the response.
 - **Inter-individual variability:** Age, comorbidity, and polypharmacy shift individual windows, requiring personalized dosing.
 ## Relationship to [[Redox Vaccination]]
-The **[[Redox Vaccination]]** hypothesis proposes that sub-toxic adrenochrome exposure upregulates SIRT3 via a retrograde ROS→AMPK→PGC1α→SIRT3 cascade, effectively widening the hormetic window for subsequent challenges. This is analogous to ischemic preconditioning or mithridatism — repeated sub-lethal exposures expand the adaptive capacity.
+  The **[[Redox Vaccination]]** hypothesis proposes that sub-toxic adrenochrome exposure upregulates SIRT3 via a retrograde ROS→AMPK→PGC1α→SIRT3 cascade, effectively widening the hormetic window for subsequent challenges. This is analogous to ischemic preconditioning or mithridatism — repeated sub-lethal exposures expand the adaptive capacity.
+
+  - [[_document_ - biochemical_basis_hormesis_2026.04.20.719646v1.full|The Biochemical Basis of Hormesis]]
+    - Provides the network-topology basis ([[Incoherent Bivalent Motif]] + [[Saturated Enzymatic Regime]]) for why a drug's dose-response can be non-monotonic ([[Biphasic Dose-Response Curve]]), defining the window's upper boundary differently from simple toxicity.
 
 #
 
 ## Connections
+- [[Biphasic Dose-Response Curve]] — the non-monotonic curve whose beneficial arm defines the window
+- [[Incoherent Bivalent Motif]] — network origin of the biphasic shape
 - [[Hormesis]] — Parent concept; the hormetic window is its quantitative expression
 - [[Mitohormesis]] — Mitochondrial-specific hormesis; window determines adaptive vs. damaging outcomes
 - [[SIRT3]]/[[SIRT4]] ratio — Primary molecular determinant of mitochondrial hormetic window width
@@ -101,6 +106,6 @@ The **[[Redox Vaccination]]** hypothesis proposes that sub-toxic adrenochrome ex
 - [[Exercise]] — Acute mitohormetic stimulus whose benefits depend on window positioning
 
 ## Linking Summary
-- New links added: [[Hormesis]], [[Mitohormesis]], [[SIRT3]]/[[SIRT4]] ratio, [[MnSOD]], [[Mitohormetic Redox-Relay]], [[Carbazochrome]], [[Methylene blue]], [[Glutathione]], [[Thioredoxin]], [[NRF2]], [[AMPK]], [[PGC1-α]], [[Redox Vaccination]], [[FOXO3a]], [[Caloric Restriction]], [[Exercise]], [[UCP2]], [[DRP1]], [[Peroxiredoxin]], [[Glutathione Peroxidase]], [[Apoptosis]], [[Heart]], [[Brain]], [[Liver]], [[Muscle]], [[NAD+]], [[NMN]], [[NR]], [[Mitophagy]]
+- New links added: [[Hormesis]], [[Mitohormesis]], [[SIRT3]]/[[SIRT4]] ratio, [[MnSOD]], [[Mitohormetic Redox-Relay]], [[Carbazochrome]], [[Methylene blue]], [[Glutathione]], [[Thioredoxin]], [[NRF2]], [[AMPK]], [[PGC1-α]], [[Redox Vaccination]], [[FOXO3a]], [[Caloric Restriction]], [[Exercise]], [[UCP2]], [[DRP1]], [[Peroxiredoxin]], [[Glutathione Peroxidase]], [[Apoptosis]], [[Heart]], [[Brain]], [[Liver]], [[Muscle]], [[NAD+]], [[NMN]], [[NR]], [[Mitophagy]], [[Biphasic Dose-Response Curve]], [[Incoherent Bivalent Motif]], [[Saturated Enzymatic Regime]]
 - Suggested new entity notes to create: [[Hormetic Dose-Response Curve]], [[Therapeutic Window Optimization]]
   - Strong connections to strengthen: Hormetic Window ↔ [[SIRT3]]/[[SIRT4]] ratio, Hormetic Window ↔ Mitohormetic Redox-Relay

@@ -36,13 +36,18 @@ List of documents that mention this entity
   - [[_document_ - Caspase|Caspase]]
     - Caspase-3 | | p38 MAPK (PP2A) | Ser150 | Suppression of activity | | | Caspase-7 |
 
+  - [[_document_ - biochemical_basis_hormesis_2026.04.20.719646v1.full|The Biochemical Basis of Hormesis]]
+    - PP2A is modeled as the main phosphatase counteracting [[mTORC1]] in the activation of [[S6K1/2]]; it balances the mTORC1→S6K1/2 branch of the [[Incoherent Bivalent Motif]] underlying rapamycin hormesis.
 
 ## Connections
+- [[S6K1/2]] — PP2A dephosphorylates/counteracts mTORC1-driven S6K1/2 activation
+- [[mTORC1]] — PP2A opposes mTORC1 in S6K1/2 activation
+- [[Incoherent Bivalent Motif]] — PP2A balances one branch of the mTORC1-centered motif
 - [[Phosphorylation]] — interacts with PP2A
 - [[Caspase-3]] — catalyzes reaction involving PP2A
 - [[Bax]] — interacts with PP2A
 - [[TFEB]] — master transcription factor for lysosomal biogenesis and autophagy
 ## Linking Summary
-- New links added: [[TFEB]], [[Caspase-3]], [[Bax]], [[Phosphorylation]], [[PP2A]]
+- New links added: [[TFEB]], [[Caspase-3]], [[Bax]], [[Phosphorylation]], [[PP2A]], [[S6K1/2]], [[mTORC1]], [[Incoherent Bivalent Motif]]
 - Suggested new entity notes to create: [[Phosphatase]]
   - Strong connections to strengthen: [[PP2A]] ↔ [[TFEB]], [[PP2A]] ↔ Caspase-3, [[PP2A]] ↔ Bax

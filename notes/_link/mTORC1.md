@@ -148,7 +148,16 @@ List of documents that mention this entity
   - [[_document_ - The Mechanistic Target of Rapamycin (mTOR) Pathway as a Target of Anti-aging Therapies The Role of Rapamycin and Its Analogs in the Regulation of Cellular Processes and Their Impact on Longevity|mTOR Pathway as Target of Anti-aging Therapies (Zerdka et al., 2025)]]
     - Details mTORC1 inhibition of ULK1 (autophagy), translation/proteostasis, and immune modulation by rapamycin.
 
+  - [[_document_ - biochemical_basis_hormesis_2026.04.20.719646v1.full|The Biochemical Basis of Hormesis]]
+    - Identifies mTORC1 as the *Target* of the [[Incoherent Bivalent Motif]] whose two branches (to [[mTORC2]] via [[PI3K]], and to [[IRS1]] via [[S6K1/2]]) generate rapamycin's [[Biphasic Dose-Response Curve]]; the mTORC1→S6K1/2 link operates in the [[Saturated Enzymatic Regime]].
+
 ## Connections
+- [[Incoherent Bivalent Motif]] — mTORC1 is the central Target node of the rapamycin hormesis motif
+- [[Biphasic Dose-Response Curve]] — rapamycin's non-monotonic efficacy (peak ~1 nM)
+- [[Saturated Enzymatic Regime]] — low-K mTORC1→S6K1/2 backward link amplifies hormesis
+- [[mTORC2]] — Output readout of the mTORC1-centered incoherent bivalent loop
+- [[S6K1/2]] — mediates the saturated backward link (mTORC1→IRS1)
+- [[IRS1]] — node controlled by the backward link
 - [[mTOR]] — catalytic core of mTORC1; directly inhibited by rapamycin-FKBP12
 - [[mTORC2]] — the second mTOR complex; insensitive to acute rapamycin, regulates Akt and cytoskeletal dynamics
 - [[Raptor]] — mTORC1-specific scaffold; required for substrate recruitment
@@ -165,6 +174,6 @@ List of documents that mention this entity
 - [[Tuberous Sclerosis]] — monogenic mTORC1 hyperactivation syndrome
 
 ## Linking Summary
-- New links added: [[mTOR]], [[Raptor]], [[mLST8]], [[PRAS40]], [[Deptor]], [[Cell Growth]], [[Protein Synthesis]], [[Lipid Synthesis]], [[Ribosome Biogenesis]], [[Autophagy]], [[Rheb]], [[Rag proteins]], [[AMPK]], [[TSC1]], [[TSC2]], [[S6K1]], [[4E-BP1]], [[TFEB]], [[ULK1]], [[HIF-1α]], [[SREBP-1c]], [[PGC1-α]], [[Cancer]], [[Tuberous Sclerosis Complex]], [[Rapamycin]], [[Everolimus]], [[Caloric Restriction]], [[Aging]], [[Insulin Resistance]], [[Leucine]], [[Ragulator]], [[GATOR1]], [[REDD1]], [[BNIP3]], [[Lipin-1]], [[ATF4]], [[PIK3CA]], [[PTEN]], [[STK11]], [[LKB1]], [[IRS1]], [[T Cell]], [[Immunosuppressants]]
+- New links added: [[mTOR]], [[Raptor]], [[mLST8]], [[PRAS40]], [[Deptor]], [[Cell Growth]], [[Protein Synthesis]], [[Lipid Synthesis]], [[Ribosome Biogenesis]], [[Autophagy]], [[Rheb]], [[Rag proteins]], [[AMPK]], [[TSC1]], [[TSC2]], [[S6K1]], [[4E-BP1]], [[TFEB]], [[ULK1]], [[HIF-1α]], [[SREBP-1c]], [[PGC1-α]], [[Cancer]], [[Tuberous Sclerosis Complex]], [[Rapamycin]], [[Everolimus]], [[Caloric Restriction]], [[Aging]], [[Insulin Resistance]], [[Leucine]], [[Ragulator]], [[GATOR1]], [[REDD1]], [[BNIP3]], [[Lipin-1]], [[ATF4]], [[PIK3CA]], [[PTEN]], [[STK11]], [[LKB1]], [[IRS1]], [[T Cell]], [[Immunosuppressants]], [[Incoherent Bivalent Motif]], [[Biphasic Dose-Response Curve]], [[Saturated Enzymatic Regime]], [[mTORC2]], [[S6K1/2]], [[PI3K]], [[Akt]], [[FKBP12]]
 - Suggested new entity notes to create: [[TOR signaling]], [[Rag GTPase]], [[Akt]], [[PI3K]], [[FKBP12]], [[Rapalogs]], [[Geroprotectors]]
   - Strong connections to strengthen: [[mTORC1]] ↔ mTORC2, [[mTORC1]] ↔ Autophagy, [[mTORC1]] ↔ TSC2, [[mTORC1]] ↔ [[Aging]], [[mTORC1]] ↔ [[Rapamycin]]

@@ -70,14 +70,19 @@ List of documents that mention this entity
   - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
     - For example, both SIRT1 and SIRT6 inhibited TNFα-induced inflammation of vascular adventitial fibroblasts through ROS and the Akt signaling pathway.
 
+  - [[_document_ - biochemical_basis_hormesis_2026.04.20.719646v1.full|The Biochemical Basis of Hormesis]]
+    - Akt is a central node of the mTOR-PI3K cascade: PI3K activates [[mTORC2]] via Akt, and Akt forms a positive-feedback loop activating [[IRS1]]; these feed the [[Incoherent Bivalent Motif]] centered on [[mTORC1]] that yields rapamycin hormesis.
 
 ## Connections
+- [[mTORC2]] — Akt is the major mTORC2 substrate (Ser473); mTORC2 drives survival/metabolism
+- [[Incoherent Bivalent Motif]] — Akt participates in the branches of the mTORC1-centered motif
+- [[Biphasic Dose-Response Curve]] — Akt's role in rapamycin hormesis
 - [[PI3K]]: The upstream activator of Akt.
 - [[mTOR]]: A downstream target of Akt.
 - [[melittin]]: Suppresses Akt signaling in various cancer models.
 - [[Ivermectin]]: Inhibits the Akt pathway, often through the degradation of [[PAK1]].
 
 ## Linking Summary
-- New links added: [[TFEB]], [[14-3-3 protein]], [[PI3K]], [[Target of rapamycin]], [[FOXO]], [[IGF1]], [[Autophagy]], [[mTORC1]], [[FoxO1]], [[FOXO3a]], [[Cancer]]
+- New links added: [[TFEB]], [[14-3-3 protein]], [[PI3K]], [[Target of rapamycin]], [[FOXO]], [[IGF1]], [[Autophagy]], [[mTORC1]], [[FoxO1]], [[FOXO3a]], [[Cancer]], [[mTORC2]], [[Incoherent Bivalent Motif]], [[Biphasic Dose-Response Curve]], [[IRS1]]
 - Suggested new entity notes to create: [[PI3K-Akt Signaling]], [[PI3K]], [[IGF1]], [[mTORC1]], [[FoxO1]], [[FOXO3a]]
   - Strong connections to strengthen: [[Akt]] ↔ [[TFEB]], [[Akt]] ↔ Target of rapamycin, [[Akt]] ↔ [[FOXO]], [[Akt]] ↔ [[PI3K]], [[Akt]] ↔ [[mTORC1]], [[Akt]] ↔ Autophagy

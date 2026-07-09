@@ -83,8 +83,15 @@ List of documents that mention this entity
   - [[_document_ - xenohormesis, mitohormesis|xenohormesis, mitohormesis]]
     - Defining Xenohormesis I am now structuring the response, beginning with an introduction to Xenohormesis. I'm focusing on the evolutionary underpinnings and origin of the term, referencing Howitz & Sinclair (2008).
 
+  - [[_document_ - biochemical_basis_hormesis_2026.04.20.719646v1.full|The Biochemical Basis of Hormesis]]
+    - Reframes hormesis as a *network-topology* property: any drug-target embedded in an [[Incoherent Bivalent Motif]] (with a [[Saturated Enzymatic Regime]] backward link) can show a [[Biphasic Dose-Response Curve]], predicting and explaining hormesis rather than treating it as toxicity.
 
 ## Connections
+- [[Incoherent Bivalent Motif]] — the minimal network structure that generates hormesis
+- [[Biphasic Dose-Response Curve]] — the quantitative signature of hormesis
+- [[Saturated Enzymatic Regime]] — kinetic condition maximizing hormesis probability
+- [[IC50]] — the monotonic-curve benchmark hormetic curves lack
+- [[Kinase Inhibitor]] — drug class in which hormesis is frequently observed
 - [[Mitohormesis]] — interacts with Hormesis
 - [[Xenohormesis]] — interacts with Hormesis
 - [[Oxidative Stress]] — imbalance between ROS production and antioxidant capacity
@@ -101,6 +108,6 @@ List of documents that mention this entity
 - [[Hsp90]] — interacts with Hormesis
 - [[Unfolded Protein Response]] — interacts with Hormesis
 ## Linking Summary
-- New links added: [[Mitohormesis]], [[Xenohormesis]], [[Oxidative Stress]], [[Longevity]], [[NRF2]], [[ARE]], [[NQO1]], [[HO-1]], [[Glutathione S-transferase]], [[Catalase]], [[HSF1]], [[HSP70]], [[Hsp90]], [[Unfolded Protein Response]], [[PERK]], [[ATF6]], [[IRE1α]], [[Autophagy]], [[Mitophagy]], [[AMPK]], [[SIRT1]], [[TFEB]], [[DNA Damage Response]], [[ATM]], [[ATR]], [[FOXO]], [[Mitochondrial Biogenesis]], [[Insulin Sensitivity]], [[Resveratrol]], [[Sulforaphane]], [[Curcumin]], [[Epicatechin]], [[Mithridatism]], [[Mithridates VI]], [[Antidotum Mithridaticum]], [[Hormetic Window]]
+- New links added: [[Mitohormesis]], [[Xenohormesis]], [[Oxidative Stress]], [[Longevity]], [[NRF2]], [[ARE]], [[NQO1]], [[HO-1]], [[Glutathione S-transferase]], [[Catalase]], [[HSF1]], [[HSP70]], [[Hsp90]], [[Unfolded Protein Response]], [[PERK]], [[ATF6]], [[IRE1α]], [[Autophagy]], [[Mitophagy]], [[AMPK]], [[SIRT1]], [[TFEB]], [[DNA Damage Response]], [[ATM]], [[ATR]], [[FOXO]], [[Mitochondrial Biogenesis]], [[Insulin Sensitivity]], [[Resveratrol]], [[Sulforaphane]], [[Curcumin]], [[Epicatechin]], [[Mithridatism]], [[Mithridates VI]], [[Antidotum Mithridaticum]], [[Hormetic Window]], [[Incoherent Bivalent Motif]], [[Biphasic Dose-Response Curve]], [[Saturated Enzymatic Regime]], [[IC50]], [[Kinase Inhibitor]]
 - Suggested new entity notes to create: [[Arndt-Schulz Law]], [[Biphasic dose response]], [[Overcompensation Hypothesis]]
   - Strong connections to strengthen: [[Hormesis]] ↔ Evolutionary Biology, [[Hormesis]] ↔ Mithridatism, [[Hormesis]] ↔ Hormetic Window, [[Hormesis]] <-> [[Oxidative Stress]]

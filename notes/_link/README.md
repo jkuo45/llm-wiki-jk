@@ -11,7 +11,7 @@ This directory contains entities that span across multiple topics within the kno
 
 ## Maintenance
 - Last updated: 09_JULY_2026 02:41 PM PDT
-- Total count of entities: 228
+- Total count of entities: 237
 
 | entity                                   | datetime updated     | entity_type_1       | related topics                                  |
 | :----------------------------------------------- | :------------------- | :--------------------- | :---------------------------------------------- |
@@ -35,6 +35,7 @@ This directory contains entities that span across multiple topics within the kno
 | [[Atherosclerosis]]                              | 29_May_2026 08:20 AM | Medical Condition      | Cardiovascular                                  |
 | [[Autophagy]]                                    | 29_May_2026 08:20 AM | Biological Process     | Longevity, Proteostasis                         |
 | [[Bax]]                                           | 09_Jul_2026 12:00 PM | Protein                | Apoptosis, Bcl-2 Family                         |
+| [[Biphasic Dose-Response Curve]]                       | 09_Jul_2026 02:41 PM | Scientific Concept     | Hormesis, Dose-Response, Pharmacology           |
 | [[Bid]]                                           | 09_Jul_2026 12:00 PM | Protein                | Apoptosis, Bcl-2 Family, BH3-only               |
 | [[Breast Cancer]]                                | 29_May_2026 08:20 AM | Medical Condition      | Cancer                                          |
 | [[Caloric Restriction]]                          | 29_May_2026 08:20 AM | Biological Process     | Longevity                                       |
@@ -85,16 +86,18 @@ This directory contains entities that span across multiple topics within the kno
 | [[Hypoxia]]                                      | 29_May_2026 08:20 AM | Scientific Concept     | Physiology                                      |
 | [[Hypoxia]]                                      | 29_May_2026 08:20 AM | Scientific Concept     | Physiology                                      |
 | [[IDO1]]                                         | 08_Jul_2026 12:00 PM | Enzyme                 | Kynurenine Pathway, Immunology                  |
-| [[IDO2]]                                         | 08_Jul_2026 12:00 PM | Enzyme                 | Kynurenine Pathway, Immunology                  |
+| [[IC50]]                                          | 09_Jul_2026 02:41 PM | Scientific Concept     | Pharmacology, Dose-Response                      |
 | [[Ifosfamide]]                                   | 08_Jul_2026 11:28 AM | Chemical Compound      | Chemotherapy, Oncology                          |
 | [[Immunosenescence]]                             | 29_May_2026 08:20 AM | Biological Process     | Immunology, Aging                               |
 | [[Inducible Nitric Oxide Synthase]]              | 08_Jul_2026 11:28 AM | Enzyme                 | Nitric Oxide Pathway, Inflammation              |
+| [[Incoherent Bivalent Motif]]                     | 09_Jul_2026 02:41 PM | Scientific Concept     | Hormesis, Network Motif, Systems Biology        |
 | [[Inflammaging]]                                 | 29_May_2026 08:20 AM | Biological Process     | Immunology, Aging                               |
 | [[Inflammation]]                                 | 29_May_2026 08:20 AM | Biological Process     | Immunology                                      |
 | [[Interferon-gamma]]                             | 08_Jul_2026 12:00 PM | Biological Molecule    | Cytokine, Immunology                            |
 | [[Iodoacetic Acid]]                              | 08_Jul_2026 12:00 PM | Chemical Compound      | Glycolysis Inhibitor, Oxidative Stress          |
 | [[Ischemic Stroke]]                              | 08_Jul_2026 11:28 AM | Medical Condition      | Neurology, Cerebrovascular                      |
 | [[Klotho]]                                       | 08_Jul_2026 12:00 PM | Protein                | Anti-aging, Hormone                             |
+| [[Kinase Inhibitor]]                              | 09_Jul_2026 02:41 PM | Chemical Class         | Pharmacology, Targeted Therapy                   |
 | [[Kynurenic Acid]]                               | 08_Jul_2026 12:00 PM | Chemical Compound      | Kynurenine Pathway, Neuroscience                |
 | [[Kynurenine]]                                   | 08_Jul_2026 12:00 PM | Chemical Compound      | Kynurenine Pathway, Immunology                  |
 | [[Kynurenine Pathway]]                           | 08_Jul_2026 12:00 PM | Biological Process     | Metabolism, Immunology                          |
@@ -106,6 +109,7 @@ This directory contains entities that span across multiple topics within the kno
 | [[MELAS]]                                        | 09_Jul_2026 12:00 PM | Medical Condition      | Mitochondrial Disorder, Neurology               |
 | [[Melatonin]]                                    | 29_May_2026 08:20 AM | Biological Molecule    | Hormone, Sleep                                  |
 | [[Metformin]]                                    | 29_May_2026 08:20 AM | Chemical Compound      | Diabetes, Longevity                             |
+| [[Michaelis-Menten Kinetics]]                       | 09_Jul_2026 02:41 PM | Scientific Concept     | Enzyme Kinetics, Hormesis                       |
 | [[Methemoglobin Reductase]]                      | 08_Jul_2026 11:28 AM | Enzyme                 | Red Blood Cell, Redox                           |
 | [[Methylation]]                                  | 31_May_2026 06:45 PM | Chemical Process       | Epigenetics, Metabolism                         |
 | [[Methylene blue]]                               | 08_Jul_2026 11:28 AM | Chemical Compound      | Pharmacology, Mitochondrial Support             |
@@ -120,6 +124,7 @@ This directory contains entities that span across multiple topics within the kno
 | [[Monoamine Oxidase Inhibitor]]                  | 08_Jul_2026 11:28 AM | Pharmacological Action | Pharmacology, Neuropsychiatry                   |
 | [[MTHFR]]                                        | 29_May_2026 08:20 AM | Enzyme                 | Genetics, Metabolism                            |
 | [[mTOR]]                                         | 31_May_2026 12:52 PM | Protein                | Signaling, Longevity                            |
+| [[mTORC2]]                                        | 09_Jul_2026 02:41 PM | Protein                | Signaling, mTOR, Longevity                      |
 | [[mTORopathies]]                                 | 08_Jul_2026 12:00 PM | Medical Condition      | Neurological, mTOR, Epilepsy                    |
 | [[Mucositis]]                                    | 08_Jul_2026 12:00 PM | Medical Condition      | Adverse Effect, Mucosal                         |
 | [[Myeloperoxidase]]                              | 29_May_2026 08:20 AM | Enzyme                 | Immunology, Oxidative Stress                    |
@@ -153,8 +158,11 @@ This directory contains entities that span across multiple topics within the kno
 | [[Retrograde Signaling]]                        | 09_Jul_2026 12:00 PM | Biological Process     | Mitochondrial Signaling, Cell Communication     |
 | [[Regulatory T cells]]                           | 08_Jul_2026 12:00 PM | Cell Type              | Immune, Lymphocyte                              |
 | [[Respiratory Burst]]                            | 29_May_2026 08:20 AM | Biological Process     | Immunology                                      |
+| [[Rapalogs]]                                       | 09_Jul_2026 02:41 PM | Chemical Class         | mTOR, Immunosuppressant, Geroprotector          |
 | [[Resveratrol]]                                  | 29_May_2026 08:20 AM | Chemical Compound      | Polyphenol, Longevity                           |
 | [[Ribosomal Protein S6]]                         | 08_Jul_2026 12:00 PM | Protein                | Biomarker, mTOR, Translation                    |
+| [[S6K1/2]]                                        | 09_Jul_2026 02:41 PM | Enzyme                 | mTOR, Translation, Hormesis                     |
+| [[Saturated Enzymatic Regime]]                        | 09_Jul_2026 02:41 PM | Scientific Concept     | Enzyme Kinetics, Hormesis                       |
 | [[SAMe]]                                         | 29_May_2026 08:20 AM | Biological Molecule    | Methyl Donor                                    |
 | [[Schizophrenia]]                                | 29_May_2026 08:20 AM | Medical Condition      | Psychiatry                                      |
 | [[Selective Serotonin Reuptake Inhibitors]]      | 08_Jul_2026 11:28 AM | Medical Product        | Pharmacology, Psychiatry                        |
