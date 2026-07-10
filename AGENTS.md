@@ -183,31 +183,9 @@ Maintain link integrity by performing periodic audits:
     - `notes/_link/HIF-1α.md`
     - `notes/_link/NAD+.md`
 
-## Subject Object Relation Triples (on user request):
+## Subject Object Relation Triples
 
-Extract all key factual triples in JSON format:
-[{"subject": "...", "predicate": "...", "object": "...", "context": "brief quote or explanation", "confidence": "high/medium/low"}]
-
-Rules:
-
-- Subjects and objects should be specific entities/concepts (normalize names where possible, e.g., use canonical terms).
-- Predicates should be clear verbs/relations (e.g., "causes", "is a type of", "outperforms").
-- Focus on non-obvious, useful relations. Avoid trivial ones.
-- Resolve coreferences.
-- Each topic contains three files related to triples (.json, .dot, .svg) prefixed with `_triples`.
-  - Example:
-    - `notes/sirtuins/_triples_sirtuins.json`
-    - `notes/oxidative_stress/_triples_oxidative_stress.json`
-- Unless otherwise instructed, the goal is to keep each .json file in sync with ingested documents in that topic.
-
-**Create directed graph analysis**
-
-- In scripts directory, execute visualize triples python script with output.json.
-- Output graphviz in .png, .svg, .dot to the tasks directory.
-- If no output/export name is provided, name the file(s).
-  - `tasks/task_output_[timestamp].svg`
-  - `tasks/task_output_[timestamp].png`
-  - `tasks/task_output_[timestamp].dot`
+See `.agents/skills/kg-triples/SKILL.md` for the triple extraction workflow, JSON format, and graph visualization instructions.
 
 ## Entity Type Schema
 
