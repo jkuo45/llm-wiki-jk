@@ -4,7 +4,7 @@
 ## Summary Table
 | topic | updated | documents | entities | words | disk | wiki |
 | :--- | :--- | :---: | :---: | :---: | :---: | :--- |
-| [_link](https://github.com/jkuo45/llm-wiki/tree/dev/notes/_link) | 09_JUL_2026 | 18 | 963 | 544,055 | 4.40 MB | [[notes/_link/README\|link]] |
+| [_link](https://github.com/jkuo45/llm-wiki/tree/dev/notes/_link) | 09_JUL_2026 | 18 | 972 | 546,929 | 4.42 MB | [[notes/_link/README\|link]] |
 | [adrenochrome](https://github.com/jkuo45/llm-wiki/tree/dev/notes/adrenochrome) | 09_JUL_2026 | 19 | 253 | 189,314 | 1.95 MB | [[notes/adrenochrome/README\|link]] |
 | [autophagy](https://github.com/jkuo45/llm-wiki/tree/dev/notes/autophagy) | 09_JUL_2026 | 11 | 235 | 158,146 | 1.45 MB | [[notes/autophagy/README\|link]] |
 | [cancer](https://github.com/jkuo45/llm-wiki/tree/dev/notes/cancer) | 09_JUL_2026 | 9 | 261 | 225,313 | 2.11 MB | [[notes/cancer/README\|link]] |
@@ -12,9 +12,9 @@
 | [epigenetics](https://github.com/jkuo45/llm-wiki/tree/dev/notes/epigenetics) | 09_JUL_2026 | 10 | 195 | 212,113 | 4.92 MB | [[notes/epigenetics/README\|link]] |
 | [neuromelanin](https://github.com/jkuo45/llm-wiki/tree/dev/notes/neuromelanin) | 09_JUL_2026 | 2 | 84 | 59,129 | 0.81 MB | [[notes/neuromelanin/README\|link]] |
 | [oxidative_stress](https://github.com/jkuo45/llm-wiki/tree/dev/notes/oxidative_stress) | 09_JUL_2026 | 1 | 65 | 69,196 | 0.96 MB | [[notes/oxidative_stress/README\|link]] |
-| [sirtuins](https://github.com/jkuo45/llm-wiki/tree/dev/notes/sirtuins) | 09_JUL_2026 | 7 | 107 | 177,403 | 1.58 MB | [[notes/sirtuins/README\|link]] |
+| [sirtuins](https://github.com/jkuo45/llm-wiki/tree/dev/notes/sirtuins) | 09_JUL_2026 | 8 | 111 | 179,534 | 1.60 MB | [[notes/sirtuins/README\|link]] |
 | --- | --- | ---: | ---: | ---: | ---: | --- |
-| **subtotal** | 09_JUL_2026 | **79** | **2198** | **1,655,703** | **18.69 MB** | |
+| **subtotal** | 09_JUL_2026 | **80** | **2211** | **1,660,708** | **18.73 MB** | |
 <!-- END GENERATED: summary_table -->
 
 _\*notes directory only_\*
@@ -24,7 +24,7 @@ _\*notes directory only_\*
 ## 📝 updates
 
 > [!NOTE] Current
-> NAD+, Sirtuins, raw(Clippings), `task_output`, Expert Judgement in Financial Tasks, etc.
+> NAD+, Sirtuins, `task_output` updates, SASP documents, etc.
 
 ### 📌 notable:
 
@@ -77,12 +77,13 @@ _\*notes directory only_\*
 > - [SASP - physiological and pathological](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/_document_%20-%20The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications.md) [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|wiki]]
 > - [SASP - epigenetic landscape](https://github.com/jkuo45/llm-wiki/blob/dev/notes/epigenetics/_document_%20-%20The%20role%20of%20the%20dynamic%20epigenetic%20landscape%20in%20senescence_orchestrating%20SASP%20expression.md) [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression|wiki]]
 > - [SASP - cGAS-STING in cancer](https://github.com/jkuo45/llm-wiki/blob/dev/notes/cancer/_document_%20-%20Cellular%20senescence%20and%20senescence%E2%80%90associated%20secretory%20phenotype%20via%20the%20cGAS_STING%20signaling%20pathway%20in%20cancer.md) [[_document_ - Cellular senescence and senescence‐associated secretory phenotype via the cGAS_STING signaling pathway in cancer|wiki]]
->
+> - [Sirtuins in Health and Disease](https://github.com/jkuo45/llm-wiki-jk/blob/dev/notes/sirtuins/_document_%20-%20sirtuins%20in%20health%20and%20disease%20s41392-022-01257-8.md) [[_document_ - sirtuins in health and disease s41392-022-01257-8|wiki]]
 
 <!-- GENERATED: document_list -->
-## Documents (79 total)
+## Documents (80 total)
 
-- `_link`: [biochemical_basis_hormesis_2026.04.20.719646v1.full](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/_document_%20-%20biochemical_basis_hormesis_2026.04.20.719646v1.full.md) [[notes/_link/_document_ - biochemical_basis_hormesis_2026.04.20.719646v1.full.md|wiki]] (09_JUL_2026 03:44 PM PDT)
+- `_link`: [biochemical_basis_hormesis_2026.04.20.719646v1.full](https://github.com/jkuo45/llm-wiki/blob/dev/notes/_link/_document_%20-%20biochemical_basis_hormesis_2026.04.20.719646v1.full.md) [[notes/_link/_document_ - biochemical_basis_hormesis_2026.04.20.719646v1.full.md|wiki]] (09_JUL_2026 05:33 PM PDT)
+- `sirtuins`: [relocalization of sirtuins - chromatin modifiers, grok](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/_document_%20-%20relocalization%20of%20sirtuins%20-%20chromatin%20modifiers%2C%20grok.md) [[notes/sirtuins/_document_ - relocalization of sirtuins - chromatin modifiers, grok.md|wiki]] (09_JUL_2026 05:32 PM PDT)
 - `cancer`: [Cellular senescence and senescence‐associated secretory phenotype via the cGAS_STING signaling pa...](https://github.com/jkuo45/llm-wiki/blob/dev/notes/cancer/_document_%20-%20Cellular%20senescence%20and%20senescence%E2%80%90associated%20secretory%20phenotype%20via%20the%20cGAS_STING%20signaling%20pathway%20in%20cancer.md) [[notes/cancer/_document_ - Cellular senescence and senescence‐associated secretory phenotype via the cGAS_STING signaling pathway in cancer.md|wiki]] (09_JUL_2026 03:16 PM PDT)
 - `epigenetics`: [The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression](https://github.com/jkuo45/llm-wiki/blob/dev/notes/epigenetics/_document_%20-%20The%20role%20of%20the%20dynamic%20epigenetic%20landscape%20in%20senescence_orchestrating%20SASP%20expression.md) [[notes/epigenetics/_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression.md|wiki]] (09_JUL_2026 02:43 PM PDT)
 - `sirtuins`: [centenarian_sirt_6 nihpp-rs9997679v1](https://github.com/jkuo45/llm-wiki/blob/dev/notes/sirtuins/_document_%20-%20centenarian_sirt_6%20nihpp-rs9997679v1.md) [[notes/sirtuins/_document_ - centenarian_sirt_6 nihpp-rs9997679v1.md|wiki]] (09_JUL_2026 01:03 PM PDT)
