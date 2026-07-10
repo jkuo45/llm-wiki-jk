@@ -282,3 +282,20 @@ In the [[Mitohormesis]] framework, SIRT1 transduces mitochondrial signals into n
 
 Sirtuin 1 (SIRT1) is an NAD+-dependent deacetylase that promotes [[TFEB]] transcriptional activity and nuclear translocation by deacetylating it, notably at K116.
 
+## Documents
+
+  - [[_document_ - relocalization of sirtuins - chromatin modifiers, grok|The Relocalization of Chromatin Modifiers (RCM) Hypothesis]]
+    - Lists SIRT1 among chromatin modifiers (with SIRT6, HDAC1, PARP1) that relocalize to DNA damage sites during repair, a central mechanism of the RCM framework for epigenetic aging.
+
+## Connections
+
+  - [[Relocalization of Chromatin Modifiers (RCM) Hypothesis]]: SIRT1 relocalization to DSBs is a key RCM mechanism.
+  - [[SIRT6]], [[HDAC1]], [[PARP1]]: Co-relocalizing chromatin modifiers.
+  - [[Double-Strand Break]]: Trigger for SIRT1 recruitment.
+
+## Linking Summary
+
+  - New links added: [[Relocalization of Chromatin Modifiers (RCM) Hypothesis]], [[SIRT6]], [[HDAC1]], [[PARP1]], [[Double-Strand Break]]
+  - Suggested new entity notes to create: [[Relocalization of Chromatin Modifiers (RCM) Hypothesis]]
+  - Strong connections to strengthen: [[SIRT1]] ↔ [[Relocalization of Chromatin Modifiers (RCM) Hypothesis]]
+

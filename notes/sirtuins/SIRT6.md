@@ -142,8 +142,8 @@ Two linked missense variants in SIRT6 — N308K (rs201141490) and A313S (rs18344
 ## 8. Linking Summary
 
 - **New Links Added**: [[SIRT7]], [[SIRT4]], [[p53]], [[NFKB]], [[Aging]], [[Base Excision Repair]], [[UBCS039]], [[MDL-801]], [[Cyanidin]], [[HIF-1α]], [[LINE-1]], [[Heterochromatin]], [[NAD+]], [[Sirtuins]], [[Diabetes Mellitus]], [[Inflammation]], [[Nkx3.2]], [[Vimentin]], [[USP10]], [[Fucoidan]], [[Centenarians]], [[Progerin]], [[Hutchinson-Gilford Progeria Syndrome]], [[Mesenchymal Stromal Cells]], [[SASP]], [[Epigenetic Alterations]], [[Cytoplasmic Chromatin Fragments]], [[cGAS-STING Pathway]], [[Inflammaging]], [[Senescence-Associated Heterochromatin Foci]], [[Histone Variant]], [[DNA Methylation]], [[RB1]], [[KAP1]], [[HP1alpha]]
-- **Suggested New Notes to Create**: [[PARP1]]
-- **Strong Connections to Strengthen**: [[SIRT6]] ↔ [[Base Excision Repair]], [[SIRT6]] ↔ [[Aging]], [[SIRT6]] ↔ [[MDL-801]], [[SIRT6]] ↔ [[Vimentin]], [[SIRT6]] ↔ [[Fucoidan]]
+- **Suggested New Notes to Create**: [[PARP1]], [[Relocalization of Chromatin Modifiers (RCM) Hypothesis]]
+- **Strong Connections to Strengthen**: [[SIRT6]] ↔ [[Base Excision Repair]], [[SIRT6]] ↔ [[Aging]], [[SIRT6]] ↔ [[MDL-801]], [[SIRT6]] ↔ [[Vimentin]], [[SIRT6]] ↔ [[Fucoidan]], [[SIRT6]] ↔ [[Relocalization of Chromatin Modifiers (RCM) Hypothesis]]
 
 ## Documents
 
@@ -169,5 +169,8 @@ List of documents that mention this entity
 
   - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]]
     - Review notes SIRT6 is enriched at the 5′UTR of LINE-1 loci where it mono-ADP-ribosylates KAP1 to promote HP1α-mediated heterochromatinization; senescence-associated SIRT6 loss derepresses LINE-1, fueling cGAS–STING–driven SASP and inflammaging.
+
+  - [[_document_ - relocalization of sirtuins - chromatin modifiers, grok|The Relocalization of Chromatin Modifiers (RCM) Hypothesis]]
+    - Lists SIRT6 among chromatin modifiers (with SIRT1, HDAC1, PARP1) that relocalize to DNA damage sites during repair in the RCM framework; situates RCM within the Information Theory of Aging and the ICE mouse model.
 
 

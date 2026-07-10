@@ -17,6 +17,7 @@ updated: 2026-07-09
 | [[_document_ - sirtuins (overview, CD38 KO risks, cancer therapies)\|Sirtuins CD38 KO, Cancer Therapies]]                                             | CD38 KO Risks, Emerging cancer therapies                                      |
 | [[_document_ - sirtuins (resveratrol), gemini\|Sirtuins & Resveratrol]]                                                                               | Sirtuins and resveratrol notes                                                |
 | [[_document_ - centenarian_sirt_6 nihpp-rs9997679v1\|Centenarian SIRT6 Variants Study]]                                                               | Centenarian SIRT6 variants (N308K/A313S) elevate SIRT6 via vimentin, alter enzymatic activities, delay senescence (2026)                     |
+| [[_document_ - relocalization of sirtuins - chromatin modifiers, grok\|RCM Hypothesis (Grok)]]                                                        | Grok summary of the Relocalization of Chromatin Modifiers (RCM) Hypothesis and the Information Theory of Aging                                |
 
 ## Entity Notes
 
@@ -38,6 +39,22 @@ updated: 2026-07-09
 | Entity | entity_type_1 | Description |
 |--------|--------------|-------------|
 | [[Sir2 (yeast)]] | Protein | Founding sirtuin; yeast *SIR2*; first NAD⁺-dependent deacetylase; longevity regulator |
+
+### Epigenetic Aging & the RCM Hypothesis
+
+| Entity | entity_type_1 | Description |
+|--------|--------------|-------------|
+| [[Relocalization of Chromatin Modifiers (RCM) Hypothesis]] | Scientific Theory | Aging framework: repeated relocalization of chromatin modifiers to DNA repair sites erodes the epigenetic landscape (Sinclair lab) |
+| [[Information Theory of Aging]] | Scientific Theory | Sinclair's framework positing aging as loss of epigenetic "software" rather than mutational "hardware" |
+| [[Chromatin Modifiers]] | Scientific Concept | Proteins (sirtuins, HDACs, PARP1) that maintain chromatin states and relocalize during DNA repair |
+| [[Double-Strand Break]] | Biological Process | DNA lesion that triggers chromatin-modifier recruitment to repair sites in RCM |
+| [[ICE Mouse]] | Organism | Inducible Changes in the Epigenome; I-PpoI–driven mutation-free DSBs demonstrate RCM aging |
+| [[I-PpoI]] | Enzyme | Homing endonuclease used in the ICE mouse to induce targeted, mutation-free DSBs |
+| [[HDAC1]] | Enzyme | Class I histone deacetylase; chromatin modifier that relocalizes during DNA repair |
+| [[Retrotransposon]] | Biological Process | Mobile elements de-repressed when chromatin modifiers fail to reset after repair |
+| [[Antagonistic Pleiotropy]] | Scientific Concept | Evolutionary rationale for RCM as beneficial short-term response, detrimental long-term |
+| [[Epigenetic Landscape]] | Scientific Concept | Ensemble of chromatin states defining cellular identity; proposed to erode with age |
+| [[Mutations]] | Biological Process | Permanent DNA sequence alterations contrasted with reversible epigenetic information loss |
 
 ### Key Metabolites & Cofactors
 
