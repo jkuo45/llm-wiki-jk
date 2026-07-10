@@ -12,6 +12,7 @@ aliases:
   - Sirtuin 6
   - nuclear sirtuin 6
   - SIRT6 ADP-ribosyl transferase
+protected: true
 ---
 
 

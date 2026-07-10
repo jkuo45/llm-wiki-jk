@@ -12,6 +12,7 @@ aliases:
   - Sirtuin 5
   - mitochondrial sirtuin 5
   - SIRT5 deacylase
+protected: true
 ---
 
 

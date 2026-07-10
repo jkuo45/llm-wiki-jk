@@ -12,6 +12,7 @@ aliases:
   - Sirtuin 4
   - mitochondrial sirtuin 4
   - SIRT4 ADP-ribosyl transferase
+protected: true
 ---
 
 

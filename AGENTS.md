@@ -19,12 +19,12 @@
 
 **Prerequisites:** Documents with `_document_` prefix.
 
-| Step                          | Action                                                                                                                                                                                                                                                                                                                                                                                                          | Output                                              |
-| ----------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- |
-| **1. Ingest**                 | **Use `obsidian-markdown` skill** — read the raw document, convert to Obsidian-flavored markdown. Add frontmatter (`type: document`), callouts for key insights, and **mark up all biomedical entities with `[[wiki links]]`** (see Wiki Link Markup Checklist below). Overwrite the `raw/_document_` file in place with the linked version. Make sure to keep all original content with supplemental callouts. | Linked markdown file  overwriting the `_document_`. |
-| **2. Enrich/Create Entities** | **Existing entities:** Enrich with information that is document specific. Update `Documents`, `Connections`, `Linking Summary`. <br><br>**New entities:** Create `.md` in topic dir with OKF frontmatter, wiki links. Make sure to add the following sections: `Documents`, `Connections`, `Linking Summary`. <br><br>Both: update date properties in frontmatter.                                              | New/updated entity notes / enriched existing notes  |
-| **3. Review Stubs & Orphans** | Cross-reference all entities against existing notes (all topics + `_link/`). For stubs: create entity notes for high-frequency/well-defined concepts; normalize composites to canonical entities. Apply Orphan Link Resolution (scan & normalize, resolve true orphans).                                                                                                                                        | Resolved stubs, updated links between entities.     |
-| **4. Update README**          | Update README.md in that topic.                                                                                                                                                                                                                                                                                                                                                                                 | Updated README with new entities.                   |
+| Step                          | Action                                                                                                                                                                                                                                                                                                                                                                                                          | Output                                             |
+| ----------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- |
+| **1. Ingest**                 | **Use `obsidian-markdown` skill** — read the raw document, convert to Obsidian-flavored markdown. Add frontmatter (`type: document`), callouts for key insights, and **mark up all biomedical entities with `[[wiki links]]`** (see Wiki Link Markup Checklist below). Overwrite the `raw/_document_` file in place with the linked version. Make sure to keep all original content with supplemental callouts. | Linked markdown file overwriting the `_document_`. |
+| **2. Enrich/Create Entities** | **Existing entities:** Enrich with information that is document specific. Update `Documents`, `Connections`, `Linking Summary`. <br><br>**New entities:** Create `.md` in topic dir with OKF frontmatter, wiki links. Make sure to add the following sections: `Documents`, `Connections`, `Linking Summary`. <br><br>Both: update date properties in frontmatter.                                              | New/updated entity notes / enriched existing notes |
+| **3. Review Stubs & Orphans** | Cross-reference all entities against existing notes (all topics + `_link/`). For stubs: create entity notes for high-frequency/well-defined concepts; normalize composites to canonical entities. Apply Orphan Link Resolution (scan & normalize, resolve true orphans).                                                                                                                                        | Resolved stubs, updated links between entities.    |
+| **4. Update README**          | Update README.md in that topic.                                                                                                                                                                                                                                                                                                                                                                                 | Updated README with new entities.                  |
 
 ### Wiki Link Markup Checklist (Step 1)
 
@@ -98,6 +98,7 @@ When creating or updating a note, include the following frontmatter block. Refer
 title: # Name of entity, index of topic, name of document, etc.
 description: # Short description (if chat thread, summarize)
 type: entity # [entity | document | index]
+protected: false # [true | false] Prevents relocation to _link/ when true
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
 tags: [] # Populate with entity_type_1, relevant biomedical tags
@@ -142,9 +143,10 @@ List of documents in the wiki that mention this entity
 
 ## Linking Summary
 
-  - New links added: [[Entity1]], [[Entity2]], ...
-  - Suggested new entity notes to create: [[Missing Concept]]
-  - Strong connections to strengthen: [[Note A]] ↔ [[Note B]]
+- New links added: [[Entity1]], [[Entity2]], ...
+- Suggested new entity notes to create: [[Missing Concept]]
+- Strong connections to strengthen:
+    - [[Note A]] ↔ [[Note B]]
 
   - Justification for suggested new entities and strong connections to strengthen.
 
@@ -172,23 +174,7 @@ Maintain link integrity by performing periodic audits:
 - **Directory structure clarification**: `notes/_link/` holds cross-topic shared entities (e.g., `Inflammation.md`, `NAD+.md`). Topic directories hold topic-specific entities plus their topic hub file. When an entity is referenced across multiple topics, it lives in `notes/_link/` as the single source of truth; topic directories retain their hub and topic-specific notes only.
 - **Prevention check**: Before creating any new entity in `_link/`, verify a topic-dir hub file with the same name does not already exist.
 - When a new entity is identified as overlapping, merge (append) its content into the `notes/_link/` version so that it is centrally linked in `notes/_link/` directory.
-- **IMPORTANT: Topic hubs must NEVER be moved to `_link/`.** A "topic hub" is a file whose name matches its parent directory. These always stay in their topic directory as the canonical source.
-  - **Protected central topic files that must NEVER be moved to `notes/_link/`:**
-    - `notes/adrenochrome/Adrenochrome.md`
-    - `notes/autophagy/Autophagy.md`
-    - `notes/cancer/Cancer.md`
-    - `notes/comt/COMT.md`
-    - `notes/epigenetics/Epigenetics.md`
-    - `notes/neuromelanin/Neuromelanin.md`
-    - `notes/oxidative_stress/Oxidative Stress.md`
-    - `notes/sirtuins/Sirtuins.md`
-    - `notes/sirtuins/SIRT1.md`
-    - `notes/sirtuins/SIRT2.md`
-    - `notes/sirtuins/SIRT3.md`
-    - `notes/sirtuins/SIRT4.md`
-    - `notes/sirtuins/SIRT5.md`
-    - `notes/sirtuins/SIRT6.md`
-    - `notes/sirtuins/SIRT7.md`
+- **Protected entities**: Entity files with `protected: true` in their frontmatter must NEVER be moved to `_link/`. This includes all topic hubs (files whose name matches their parent directory) plus any other files explicitly flagged. The frontmatter is the single source of truth — no hardcoded list is maintained.
 - If the entity already exists in `notes/_link/` directory, append/merge the wiki entries.
 - Although the entity file may be moved to `notes/_link/`, it should still remain on the README.md within that topic.
 - Maintain only the consolidated file in `notes/_link/` to ensure a single source of truth.

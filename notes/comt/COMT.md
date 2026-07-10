@@ -9,6 +9,7 @@ tags:
   - enzyme
 aliases:
   - Catechol-O-methyltransferase
+protected: true
 ---
 
 

@@ -12,6 +12,7 @@ aliases:
   - Oxidative stress
   - OS
   - Redox imbalance
+protected: true
 
 ---
 

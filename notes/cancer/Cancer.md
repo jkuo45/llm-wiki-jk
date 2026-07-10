@@ -11,6 +11,7 @@ aliases:
   - Malignancy
   - Tumor
   - Neoplasm
+protected: true
 
 ---
 

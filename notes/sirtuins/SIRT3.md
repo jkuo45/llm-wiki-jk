@@ -8,6 +8,7 @@ tags:
   - enzyme
   - nad+
 aliases: [Sirt3]
+protected: true
 
 ---
 
