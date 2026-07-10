@@ -9,11 +9,9 @@ tags:
   - enzyme
   - nad+
 aliases: [Sirt1]
-
 ---
 
 # SIRT1
-
 
 ## From [[SIRT1]]
 
@@ -139,44 +137,51 @@ SIRT1 is a key mediator of [[Caloric Restriction]] benefits in mammals. CR incre
 
 List of documents that mention this entity
 
-  - [[_document_ - MRR - mitohormesis|mitohormesis]]
-    - Pathway Activation: This "oxidative pulse" activates the NRF2/Antioxidant Response Element antioxidant response and stimulates PGC1-α via the SIRT1/AMPK axis (primed by Nicotinamide Riboside/Nicotinamide Mononucleotide).
+- [[_document_ - MRR - mitohormesis|mitohormesis]]
+  - Pathway Activation: This "oxidative pulse" activates the NRF2/Antioxidant Response Element antioxidant response and stimulates PGC1-α via the SIRT1/AMPK axis (primed by Nicotinamide Riboside/Nicotinamide Mononucleotide).
 
-  - [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
-    - At present, two enzymes have been found that can acetylate TFEB, including GCN5 \[\] and ACAT1 \[, \], and two enzymes have been found that can deacetylate TFEB, including SIRT1 \[, \] and HDACs \[\].
+- [[_document_ - From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery|From the regulatory mechanism of TFEB to its therapeutic implications - Cell Death Discovery]]
+  - At present, two enzymes have been found that can acetylate TFEB, including GCN5 \[\] and ACAT1 \[, \], and two enzymes have been found that can deacetylate TFEB, including SIRT1 \[, \] and HDACs \[\].
 
-  - [[_document_ - Kinase|Kinase]]
-    - ion | 29945972 | | K116 | Acetylation | ACAT1 | Hindering TFEB binding to the DNA | 30059277 | | K116 | Deacetylation | SIRT1 | Enhancing transcriptional activity | 27209302 | | K91, K103 and K430 | A
+- [[_document_ - Kinase|Kinase]]
+  - ion | 29945972 | | K116 | Acetylation | ACAT1 | Hindering TFEB binding to the DNA | 30059277 | | K116 | Deacetylation | SIRT1 | Enhancing transcriptional activity | 27209302 | | K91, K103 and K430 | A
 
-  - [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
-    - In vitro analysis indicated that the culture of Breast Cancer and HCT116 cells under calorie restriction conditions led to the upregulation and activation of protein kinase CK2 (isoforms CK2α and CK2β), SIRT1, and phosphorylated AMPK \[\].
+- [[_document_ - The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting|The Beneficial and Adverse Effects of Autophagic Response to Caloric Restriction and Fasting]]
+  - In vitro analysis indicated that the culture of Breast Cancer and HCT116 cells under calorie restriction conditions led to the upregulation and activation of protein kinase CK2 (isoforms CK2α and CK2β), SIRT1, and phosphorylated AMPK \[\].
 
-  - [[_document_ - Epigenetic changes during aging and their reprogramming potential|Epigenetic changes during aging and their reprogramming potential]]
-    - The first clues that aging is caused by epigenetic changes came from the discovery that a mutation in a yeast gene called silent information regulator, SIR2, extended lifespan by relocalizing the NAD + -dependent SIRT1 histone deacetylase to regions of DNA ...
+- [[_document_ - Epigenetic changes during aging and their reprogramming potential|Epigenetic changes during aging and their reprogramming potential]]
+  - The first clues that aging is caused by epigenetic changes came from the discovery that a mutation in a yeast gene called silent information regulator, SIR2, extended lifespan by relocalizing the NAD + -dependent SIRT1 histone deacetylase to regions of DNA ...
 
-  - [[_document_ - xenohormesis, mitohormesis|xenohormesis, mitohormesis]]
-    - Target Pathways in Animal Cells: These molecules interact with highly conserved survival and longevity pathways that regulate cellular maintenance over reproduction: - Sirtuins (specifically SIRT1): Enzymes that play a central role in DNA repair, mitochondr...
+- [[_document_ - xenohormesis, mitohormesis|xenohormesis, mitohormesis]]
+  - Target Pathways in Animal Cells: These molecules interact with highly conserved survival and longevity pathways that regulate cellular maintenance over reproduction: - Sirtuins (specifically SIRT1): Enzymes that play a central role in DNA repair, mitochondr...
 
-  - [[_document_ - The Sirtuin System The Holy Grail of Resveratrol?|The Sirtuin System The Holy Grail of Resveratrol?]]
-    - Analysis into recent studies have revealed Resveratrol as a known activator of the protein deacetylase SIRT1 gene, which is thought to mediate anti-proliferative and anti-Inflammation activity due to alteration of gene expression and modulation of numerous ...
+- [[_document_ - The Sirtuin System The Holy Grail of Resveratrol?|The Sirtuin System The Holy Grail of Resveratrol?]]
+  - Analysis into recent studies have revealed Resveratrol as a known activator of the protein deacetylase SIRT1 gene, which is thought to mediate anti-proliferative and anti-Inflammation activity due to alteration of gene expression and modulation of numerous ...
 
-  - [[_document_ - sirtuins (overview, CD38 KO risks, cancer therapies)|sirtuins (overview, CD38 KO risks, cancer therapies)]]
-    - Sirtuins Overview Sirtuins (SIRT1–SIRT7) are a family of seven NAD+-dependent enzymes (class III Histone Modification/deacylases) in humans.
+- [[_document_ - sirtuins (overview, CD38 KO risks, cancer therapies)|sirtuins (overview, CD38 KO risks, cancer therapies)]]
+  - Sirtuins Overview Sirtuins (SIRT1–SIRT7) are a family of seven NAD+-dependent enzymes (class III Histone Modification/deacylases) in humans.
 
-  - [[_document_ - sirtuins (resveratrol), gemini|sirtuins (resveratrol), gemini]]
-    - Resveratrol, Sirtuins & Dietary Sources Resveratrol and SIRT1 The interaction between Resveratrol (a natural polyphenolic compound found in grapes, berries, and red wine) and SIRT1 (Sirtuin 1, an NAD+-dependent deacetylase) is one of the most thoroughly res...
+- [[_document_ - sirtuins (resveratrol), gemini|sirtuins (resveratrol), gemini]]
+  - Resveratrol, Sirtuins & Dietary Sources Resveratrol and SIRT1 The interaction between Resveratrol (a natural polyphenolic compound found in grapes, berries, and red wine) and SIRT1 (Sirtuin 1, an NAD+-dependent deacetylase) is one of the most thoroughly res...
 
-  - [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
-    - In this review we describe our current understanding of the biological function of the seven mammalian sirtuins, SIRT1–SIRT7, and we will also discuss their potential as mediators of Caloric Restriction and as pharmacological targets to delay and treat huma...
+- [[_document_ - sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i|sirtuins Michan_S_Sinclair_D_Sirtuins_in_mammals_insights_i]]
+  - In this review we describe our current understanding of the biological function of the seven mammalian sirtuins, SIRT1–SIRT7, and we will also discuss their potential as mediators of Caloric Restriction and as pharmacological targets to delay and treat huma...
 
-  - [[_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review|sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review]]
-    - There are a total of seven human sirtuins that have been identified namely, SIRT1, SIRT2, SIRT3, SIRT4, SIRT5, SIRT6 and SIRT7.
+- [[_document_ - sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review|sirtuins Shedding light on structure, function and regulation of human sirtuins a comprehensive review]]
+  - There are a total of seven human sirtuins that have been identified namely, SIRT1, SIRT2, SIRT3, SIRT4, SIRT5, SIRT6 and SIRT7.
 
-  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
-    - Currently, seven mammalian homologs of yeast Sir2 (yeast) named SIRT1 to SIRT7 have been identified. Increasing evidence has suggested the vital roles of seven members of the SIRT family in health and disease conditions.
-
+- [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
+  - Currently, seven mammalian homologs of yeast Sir2 (yeast) named SIRT1 to SIRT7 have been identified. Increasing evidence has suggested the vital roles of seven members of the SIRT family in health and disease conditions.
 
 ## Connections
+
+- [[Autophagy]] — SIRT1 is a master activator of autophagy via FOXO3a, TFEB, and Atg machinery deacetylation
+- [[mTORC1]] — upstream of SIRT1; mTOR suppresses autophagy and indirectly dampens SIRT1
+- [[NAMPT]] — rate-limiting NAD+ salvage enzyme activated by AMPK, gating SIRT1 activity
+- [[CD38]] — consumes NAD+, opposing SIRT1 activation
+- [[TFEB]] — deacetylated (K116) by SIRT1 to drive the CLEAR autophagic/lysosomal program
+- [[FOXO3a]] — deacetylated by SIRT1 to induce LC3B, BNIP3, GABARAPL1 and antioxidant genes
+- [[Beclin-1]], [[Atg5]], [[Atg7]], [[LC3B]], [[BNIP3]], [[GABARAPL1]] — downstream autophagy effectors
 - [[Sir2 (yeast)]] — evolutionary ancestor; SIRT1 is the closest mammalian homologue
 - [[NAD+]] — obligatory co-substrate for deacetylase activity
 - [[OAADPr]] — unique by-product of SIRT1-catalysed deacetylation
@@ -194,9 +199,8 @@ List of documents that mention this entity
 - Suggested new entity notes to create: [[FOXO3a]], [[FOXO4]], [[Smad7]], [[Ku70]], [[E2F1]], [[p73]], [[HIC1]], [[NMNAT]], [[MEF2D]], [[PML]]
 - Strong connections to strengthen: [[SIRT1]] ↔ [[p53]], [[SIRT1]] ↔ [[PGC1-α]], [[SIRT1]] ↔ [[Caloric Restriction]]
 
-
-
 ## Linking Summary
+
 - New links added: [[Atg5]], [[Atg7]], [[Atg8]], [[LC3]], [[LC3B]], [[BNIP3]], [[GABARAPL1]]
 - Strong connections to strengthen: [[SIRT1]] ↔ [[Autophagy]], [[SIRT1]] ↔ [[TFEB]]
 - New links added: [[HDAC]], [[Epigenetics]], [[NAD+]], [[Sirtuins]], [[p53]], [[FOXO]], [[PGC1-α]], [[NFKB]], [[Resveratrol]], [[Caloric Restriction]], [[Nicotinamide Riboside]], [[Nicotinamide Mononucleotide]]
@@ -205,7 +209,8 @@ List of documents that mention this entity
 - Suggested new entity notes to create:
 - New links added: [[AMPK]], [[Aging]], [[Atg]], [[Autophagy]], [[Caloric Restriction]], [[Cardiovascular Disease]], [[Diabetes Mellitus]], [[Epigenome]], [[FoxO1]], [[FOXO3a]], [[Heterochromatin]], [[Intermittent Fasting]], [[Neurodegenerative Diseases]], [[Resveratrol]], [[SIRT1]], [[Sirtuins]]
 - New links added: [[TFEB]]
-- Suggested new entity notes to create: [[Deacetylation]]## From [[SIRT1]]# SIRT1
+- Suggested new entity notes to create: [[Deacetylation]]
+## From [[SIRT1]]# SIRT1
 
 SIRT1 is a class III [[NAD+]]-dependent histone deacetylase and one of the seven human sirtuins. It is primarily localized in the nucleus (associated with euchromatin) but also functions in the cytoplasm. It plays a critical role in metabolic regulation, anti-aging pathways, oxidative stress response, DNA repair, and the regulation of key proteins such as [[p53]] and [[AMPK]].
 
@@ -254,6 +259,33 @@ Higher levels of SIRT1 activity are generally associated with a longer, healthie
 
 - SIRT1 and [[AMPK]] form a reciprocal regulatory loop, where each can activate the other to promote energy homeostasis and autophagic flux.
 
+## SIRT1 in Autophagy: Upstream & Downstream Signaling
+
+SIRT1 sits at the intersection of nutrient/energy sensing and the autophagic machinery. Its activity is gated by upstream [[NAD+]] availability and stress kinases, and it drives autophagy primarily through deacetylation of transcription factors ([[FOXO3a]], [[TFEB]]) and autophagic core proteins.
+
+### Upstream Regulators (inputs that activate SIRT1)
+
+- **[[NAD+]]/NADH ratio** — SIRT1 strictly requires [[NAD+]] as a co-substrate; any condition raising the NAD+/NADH ratio ([[Caloric Restriction]], [[Intermittent Fasting]], exercise, [[Nicotinamide Mononucleotide|NMN]], [[Nicotinamide Riboside|NR]]) activates SIRT1, while high NADH or [[CD38]]-mediated NAD+ consumption suppresses it.
+- **[[AMPK]]** — under low energy (high AMP/ATP), AMPK phosphorylates and activates [[NAMPT]] (rate-limiting NAD+ salvage enzyme), raising NAD+ → SIRT1; AMPK also directly phosphorylates SIRT1 (Ser27/Thr344) to enhance activity, and SIRT1 reciprocally supports AMPK, forming a feed-forward loop.
+- **mTOR / IGF-1–Insulin–AKT axis** — [[mTORC1]] suppresses autophagy and indirectly dampens SIRT1; growth-factor withdrawal relieves this and favors SIRT1-driven autophagy.
+- **[[FOXO]] factors** — FOXO1/3a are both SIRT1 substrates and partners, forming a feed-forward loop that amplifies autophagy/antioxidant gene expression.
+- **[[p53]]** — cytoplasmic p53 can inhibit SIRT1; SIRT1 deacetylates p53, blunting its tone and relieving repression of autophagy.
+- **Pharmacological / small-molecule activators** — [[Resveratrol]] and STACs ([[SRT1720]]) allosterically activate SIRT1 (though in-vivo mechanisms are debated and may act indirectly via AMPK).
+
+### Downstream Targets in Autophagy (outputs of SIRT1)
+
+- **[[FOXO3a]]** — deacetylation activates FOXO3a → transcription of [[LC3B]], [[BNIP3]], [[GABARAPL1]], [[Atg]] genes and [[Manganese superoxide dismutase|SOD2]] → autophagy, mitophagy, and antioxidant defense.
+- **[[TFEB]]** — SIRT1 deacetylates TFEB (notably at K116), enhancing its nuclear translocation and transcriptional activity to drive the [[Coordinated Lysosomal Expression and Regulation|CLEAR]] autophagic/lysosomal program.
+- **Core autophagy machinery** — SIRT1 promotes expression/activity of [[Atg5]], [[Atg7]], [[Atg8]]/[[LC3]] and [[Beclin-1]], enhancing autophagosome formation and flux.
+- **[[p62/SQSTM1]]** — modulated to support cargo recognition and clearance.
+- **[[PGC1-α]]** — deacetylation activates [[Mitochondrial Biogenesis]]; coupled with mitophagy this enforces mitochondrial quality control.
+- **[[NFKB|NF-κB (RelA/p65)]]** — deacetylation suppresses inflammatory signaling, indirectly favoring autophagic flux.
+- **mTOR crosstalk** — via the TSC/AMPK axis, SIRT1 indirectly opposes [[mTORC1]], sustaining autophagy.
+
+### Integrated Signaling Loop
+
+**Stress / fasting → AMPK↑ + NAMPT↑ → NAD+↑ → SIRT1↑ → deacetylates FOXO3a, TFEB, p53, NF-κB, Atg proteins → autophagy + mitophagy + lysosomal biogenesis + antioxidant defense → cellular homeostasis**, with negative feedback through metabolic recovery and nicotinamide-mediated inhibition of SIRT1.
+
 ## NAD⁺-Dependent Deacetylase Mechanism
 
 SIRT1 catalyzes the cleavage of [[NAD+]] to nicotinamide and [[OAADPr]] (2′-O-acetyl-ADP-ribose) coupled to acetyl-lysine hydrolysis, unlike class I/II HDACs which are NAD⁺-independent. The catalytic reaction proceeds through a conserved sirtuin core domain comprising a Rossmann-fold NAD⁺-binding domain and a zinc-binding module. A key catalytic histidine (His363) positions the acetyl-lysine substrate, while a conserved serine (Ser442) stabilizes the transition state. Nicotinamide, a product of the reaction, acts as a physiological feedback inhibitor, binding the C-pocket of the enzyme and blocking NAD⁺ re-entry at high concentrations. This nicotinamide inhibition links SIRT1 activity to cellular NAD⁺ salvage and biosynthesis, notably via [[NAMPT]] and [[Nicotinamide Riboside]] kinases.
@@ -284,18 +316,23 @@ Sirtuin 1 (SIRT1) is an NAD+-dependent deacetylase that promotes [[TFEB]] transc
 
 ## Documents
 
-  - [[_document_ - relocalization of sirtuins - chromatin modifiers, grok|The Relocalization of Chromatin Modifiers (RCM) Hypothesis]]
-    - Lists SIRT1 among chromatin modifiers (with SIRT6, HDAC1, PARP1) that relocalize to DNA damage sites during repair, a central mechanism of the RCM framework for epigenetic aging.
+- [[_document_ - relocalization of sirtuins - chromatin modifiers, grok|The Relocalization of Chromatin Modifiers (RCM) Hypothesis]]
+  - Lists SIRT1 among chromatin modifiers (with SIRT6, HDAC1, PARP1) that relocalize to DNA damage sites during repair, a central mechanism of the RCM framework for epigenetic aging.
 
 ## Connections
 
-  - [[Relocalization of Chromatin Modifiers (RCM) Hypothesis]]: SIRT1 relocalization to DSBs is a key RCM mechanism.
-  - [[SIRT6]], [[HDAC1]], [[PARP1]]: Co-relocalizing chromatin modifiers.
-  - [[Double-Strand Break]]: Trigger for SIRT1 recruitment.
+- [[Relocalization of Chromatin Modifiers (RCM) Hypothesis]]: SIRT1 relocalization to DSBs is a key RCM mechanism.
+- [[SIRT6]], [[HDAC1]], [[PARP1]]: Co-relocalizing chromatin modifiers.
+- [[Double-Strand Break]]: Trigger for SIRT1 recruitment.
 
 ## Linking Summary
 
-  - New links added: [[Relocalization of Chromatin Modifiers (RCM) Hypothesis]], [[SIRT6]], [[HDAC1]], [[PARP1]], [[Double-Strand Break]]
-  - Suggested new entity notes to create: [[Relocalization of Chromatin Modifiers (RCM) Hypothesis]]
-  - Strong connections to strengthen: [[SIRT1]] ↔ [[Relocalization of Chromatin Modifiers (RCM) Hypothesis]]
+- New links added: [[Relocalization of Chromatin Modifiers (RCM) Hypothesis]], [[SIRT6]], [[HDAC1]], [[PARP1]], [[Double-Strand Break]]
+- Suggested new entity notes to create: [[Relocalization of Chromatin Modifiers (RCM) Hypothesis]]
+- Strong connections to strengthen: [[SIRT1]] ↔ [[Relocalization of Chromatin Modifiers (RCM) Hypothesis]]
 
+## Linking Summary (Autophagy Signaling Pathways)
+
+- New links added: [[Autophagy]], [[mTORC1]], [[NAMPT]], [[CD38]], [[TFEB]], [[FOXO3a]], [[Beclin-1]], [[LC3B]], [[BNIP3]], [[GABARAPL1]], [[AMPK]], [[Caloric Restriction]], [[Intermittent Fasting]]
+- Suggested new entity notes to create: [[Mitophagy]], [[Coordinated Lysosomal Expression and Regulation|CLEAR network]]
+- Strong connections to strengthen: [[SIRT1]] ↔ [[Autophagy]], [[SIRT1]] ↔ [[TFEB]], [[SIRT1]] ↔ [[AMPK]], [[SIRT1]] ↔ [[FOXO3a]]
