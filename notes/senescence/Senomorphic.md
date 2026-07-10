@@ -28,6 +28,11 @@ A **senomorphic** is an intervention that suppresses the harmful secretory and s
 
 Senomorphics commonly target upstream SASP drivers such as [[mTOR]], [[NF-κB|NF-κB]], [[p38 MAPK]], and [[JAK]]/[[STAT3]]. Because they do not require cell clearance, their effect is contingent on continued presence — contrasting with the hit-and-run kinetics of [[Senolytic|senolytics]].
 
+> [!info] Source: [[_document_ - repurposing_apigen_senomorphic.09.09.611999v1.full|Repurposing apigenin for senomorphic effect in antiaging pipelines]]
+> A 2024 screen of a 66-compound natural-product library identified [[Apigenin]] as a lead senomorphic. Apigenin directly binds [[PRDX6|peroxiredoxin 6 (PRDX6)]] at Cys91/Glu210, inhibiting PRDX6's iPLA2 activity; this disrupts the [[PRDX6]]→[[HSPA8]] interaction and blocks HSPA8 crosstalk with [[ATM]] and [[p38 MAPK]], preventing the transition of the [[Acute Stress-Associated Phenotype|ASAP]] into the chronic SASP. The PRDX6-PLA2 inhibitor [[MJ33]] and the HSPA8 inhibitor [[VER155008]] phenocopy this effect. Apigenin is SASP-selective — it leaves the senescence growth arrest and SA-β-Gal intact.
+
+The ASAP→SASP transition is also a target of other senomorphics: [[Rutin]] disrupts ATM–[[HIF-1α]] and ATM–[[TRAF6]] interactions to attenuate the ASAP[29], and the TAK1 inhibitor [[5Z-7-oxozeaenol]] restrains the ATM-TRAF6-TAK1 axis to diminish the SASP[46].
+
 ## Relevance to Fisetin
 
 [[Fisetin]] exhibits both activities: it acts as a [[Senolytic|senolytic]] (clearing senescent cells) and, at lower exposure, can suppress [[SASP|Senescence-Associated Secretory Phenotype]] and [[NF-κB|NF-κB]]/[[IL-6|IL-6]] signaling consistent with a senomorphic effect. Its short elimination half-life (~3.1 h terminal) and durable benefit after dosing point primarily to the senolytic limb.
@@ -39,6 +44,9 @@ Senomorphics commonly target upstream SASP drivers such as [[mTOR]], [[NF-κB|NF
 
   - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]]
     - Review discusses epigenetic modulators—inhibitors of KDM4, DOT1L, BRD4, HMGB2, and NRTIs targeting LINE-1/HERV reverse transcriptase—as senomorphics that suppress SASP without disrupting growth arrest.
+
+  - [[_document_ - repurposing_apigen_senomorphic.09.09.611999v1.full|Repurposing apigenin for senomorphic effect in antiaging pipelines]]
+    - 2024 bioRxiv preprint: apigenin is a natural senomorphic that directly targets PRDX6, suppresses its iPLA2 activity, and disrupts HSPA8 crosstalk with ATM/p38 MAPK to block the ASAP→SASP transition; demonstrates in vivo geroprotection and chemosensitization.
 
 ## Connections
 
@@ -57,6 +65,12 @@ Senomorphics commonly target upstream SASP drivers such as [[mTOR]], [[NF-κB|NF
    - [[cGAS-STING Pathway]]: cGAS–STING is a senomorphic target via retroelement suppression
    - [[DNA Methylation]]: methylation-modulating agents affect SASP
    - [[AP-1]]: AP-1-driven SASP enhancers are senomorphic targets
+   - [[Apigenin]]: natural flavonoid senomorphic that directly targets PRDX6 (Cys91/Glu210) and suppresses SASP via the PRDX6→HSPA8→ATM/p38 axis
+   - [[PRDX6]]: direct apigenin-binding target; iPLA2 inhibition underlies senomorphic effect
+   - [[HSPA8]]: bridge node linking ATM and p38 MAPK whose crosstalk apigenin disrupts
+   - [[Acute Stress-Associated Phenotype]]: ASAP→SASP transition blocked by senomorphics
+   - [[MJ33]] / [[VER155008]]: PRDX6-PLA2 / HSPA8 inhibitors that phenocopy senomorphic SASP suppression
+   - [[Rutin]] / [[5Z-7-oxozeaenol]]: additional ASAP/SASP-transition senomorphics
 
 ## Linking Summary
 

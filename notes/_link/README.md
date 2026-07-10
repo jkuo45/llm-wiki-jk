@@ -11,7 +11,7 @@ This directory contains entities that span across multiple topics within the kno
 
 ## Maintenance
 - Last updated: 10_JULY_2026 12:00 PM PDT
-- Total count of entities: 262
+- Total count of entities: 285
 
 | entity                                   | datetime updated     | entity_type_1       | related topics                                  |
 | :----------------------------------------------- | :------------------- | :--------------------- | :---------------------------------------------- |
@@ -280,3 +280,26 @@ This directory contains entities that span across multiple topics within the kno
 | [[Matrix Metalloproteinase]]                      | 10_JULY_2026 12:00 PM PDT | Enzyme                 | Metastasis, Cancer, Apigenin                    |
 
 | [[Zone 2 Cardio]] | 09_Jul_2026 07:00 PM | Biological Process | Exercise, Aerobic, Mitohormesis |
+| [[5Z-7-oxozeaenol]] | 10_JULY_2026 12:00 PM PDT | Chemical Compound | Senescence, SASP, TAK1, Senomorphic |
+| [[Arachidonic Acid]] | 10_JULY_2026 12:00 PM PDT | Biological Molecule | Inflammation, Phospholipase A2, SASP |
+| [[Bleomycin]] | 10_JULY_2026 12:00 PM PDT | Chemical Compound | Senescence, Chemotherapeutic, Genotoxin |
+| [[Docetaxel]] | 10_JULY_2026 12:00 PM PDT | Chemical Compound | Chemotherapeutic, Chemoresistance, Senescence |
+| [[EREG]] | 10_JULY_2026 12:00 PM PDT | Protein | SASP, Chemoresistance, EGFR-ligand |
+| [[Flavone]] | 10_JULY_2026 12:00 PM PDT | Chemical Class | Flavonoid, Apigenin, Senomorphic |
+| [[HSPA8]] | 10_JULY_2026 12:00 PM PDT | Protein | Chaperone, Senescence, SASP, ATM/p38 |
+| [[IκBα]] | 10_JULY_2026 12:00 PM PDT | Protein | NF-κB, SASP, Signaling |
+| [[IRAK1]] | 10_JULY_2026 12:00 PM PDT | Protein | Signaling, NF-κB, SASP |
+| [[IRAK4]] | 10_JULY_2026 12:00 PM PDT | Protein | Signaling, NF-κB, SASP |
+| [[MJ33]] | 10_JULY_2026 12:00 PM PDT | Chemical Compound | PRDX6 inhibitor, Senomorphic, SASP |
+| [[NAC]] | 10_JULY_2026 12:00 PM PDT | Chemical Compound | Antioxidant, PRDX6, Peroxidase |
+| [[NPM1]] | 10_JULY_2026 12:00 PM PDT | Protein | Chaperone, Senescence, ATM/p38 |
+| [[Phospholipase A2]] | 10_JULY_2026 12:00 PM PDT | Enzyme | Lipase, Inflammation, iPLA2 |
+| [[PRDX6]] | 10_JULY_2026 12:00 PM PDT | Enzyme | Peroxiredoxin, Senomorphic, SASP, Apigenin target |
+| [[Procyanidin C1]] | 10_JULY_2026 12:00 PM PDT | Chemical Compound | Flavonoid, Senolytic, Longevity |
+| [[SB203580]] | 10_JULY_2026 12:00 PM PDT | Chemical Compound | p38 MAPK inhibitor, SASP |
+| [[TNF Signaling]] | 10_JULY_2026 12:00 PM PDT | Pathway | Inflammation, NF-κB, SASP |
+| [[TXNDC5]] | 10_JULY_2026 12:00 PM PDT | Protein | Chaperone, Inflammation, NF-κB |
+| [[VER155008]] | 10_JULY_2026 12:00 PM PDT | Chemical Compound | HSPA8 inhibitor, Senomorphic, SASP |
+| [[WNT16B]] | 10_JULY_2026 12:00 PM PDT | Protein | SASP, Chemoresistance, Wnt |
+| [[Zscan4]] | 10_JULY_2026 12:00 PM PDT | Gene | SASP, Transcription Factor, Feedforward |
+| [[Chemoresistance]] | 10_JULY_2026 12:00 PM PDT | Biological Process | Cancer, Therapy Resistance, SASP |

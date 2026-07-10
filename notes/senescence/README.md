@@ -25,8 +25,8 @@ This directory contains notes and research regarding [[Senescence|cellular senes
 
 ## Maintenance
 
-- Last updated: 09_July_2026 12:00 PM PDT
-- Total count of entities: 18
+- Last updated: 10_July_2026 12:00 PM PDT
+- Total count of entities: 19
 
 | entity                                        |     datetime updated     | entity_type_1            |    relevance_1     | sentiment_1 | justification                                                                               |
 | :-------------------------------------------- | :----------------------: | :----------------------- | :----------------: | :---------: | :------------------------------------------------------------------------------------------ |
@@ -47,4 +47,5 @@ This directory contains notes and research regarding [[Senescence|cellular senes
 | [[Senomorphic]]                               | 09_July_2026 12:00 PM PDT | Pharmacological Action   |         8          |      1      | Suppresses SASP without killing senescent cells. |
 | [[Senomorphic Therapy]]                       | 09_July_2026 12:00 PM PDT | Therapeutic Strategy     |         8          |      1      | Therapies targeting NF-kB, mTOR, JAK-STAT, cGAS-STING to suppress SASP. |
 | [[Senotherapeutic]]                           | 09_July_2026 12:00 PM PDT | Pharmacological Action   |         8          |      1      | Umbrella term for any intervention targeting senescent cells. |
-| [[Senotherapy]]                               | 09_July_2026 12:00 PM PDT | Therapeutic Strategy     |         8          |      1      | Class of interventions mitigating effects of senescence on aging. |
+| [[Senotherapy]]                               | 09_July_2026 12:00 PM PDT | Therapeutic Strategy     |         8         |      1      | Class of interventions mitigating effects of senescence on aging. |
+| [[Acute Stress-Associated Phenotype]]          | 10_July_2026 12:00 PM PDT | Biological Process       |         7         |     -1      | Acute ATM/TRAF6/TAK1 stress response that transitions into the chronic SASP; blocked by apigenin via PRDX6/HSPA8. |

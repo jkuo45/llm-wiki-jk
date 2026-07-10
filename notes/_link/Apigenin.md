@@ -54,6 +54,11 @@ A comprehensive 2017 review ([^1]) catalogs apigenin targets across >18 human ca
 
 Apigenin displays dual senotherapeutic activity. As a [[Senolytic Therapy|senolytic]] it can selectively eliminate senescent cells — an activity shared by several flavonoids (fisetin, quercetin). More consistently, apigenin behaves as a [[Senomorphic Therapy|senomorphic]] agent: it suppresses the [[SASP|Senescence-Associated Secretory Phenotype]] by inhibiting NF-κB–dependent expression of [[IL-6]], [[IL-8]], and other cytokines without killing the cell, making it useful for damping chronic sterile inflammation ([[Inflammaging]]) in aging.
 
+> [!info] Source: [[_document_ - repurposing_apigen_senomorphic.09.09.611999v1.full|Repurposing apigenin for senomorphic effect in antiaging pipelines]]
+> In a 66-compound natural-product screen, apigenin was the lead **senomorphic** hit. Its direct molecular target is [[PRDX6|peroxiredoxin 6 (PRDX6)]]: apigenin binds PRDX6 at **Cys91** and **Glu210** (SPR KD ≈ 0.237 µM), inhibiting PRDX6's **iPLA2** (not peroxidase) activity. This disrupts the [[PRDX6]]→[[HSPA8]] interaction and blocks [[HSPA8]] crosstalk with [[ATM]] and [[p38 MAPK]], preventing transition of the [[Acute Stress-Associated Phenotype|ASAP]] into the chronic SASP. Apigenin leaves the senescence growth arrest and SA-β-Gal intact — it is SASP-selective. In vivo, it reduces mitoxantrone chemoresistance in prostate cancer xenografts and alleviates physical frailty and cognitive decline in whole-body-irradiated (prematurely aged) mice, without hematologic/hepatic/renal toxicity.
+
+The senomorphic effect is organ- and senescence-type-independent (replicative, therapy-induced, oncogene-induced), and is phenocopied by the PRDX6-PLA2 inhibitor [[MJ33]] and the HSPA8 inhibitor [[VER155008]]. Comparator senomorphics in the same study include [[Metformin]] and [[Rapamycin]].
+
 ## Clinical / Pathological Relevance
 
 Epidemiological and case-control studies link higher flavonoid intake (including apigenin) with reduced risk of gastric, colorectal, breast, ovarian, and endometrial cancers. Small human trials show chamomile-extract (apigenin-standardized) benefits for anxiety/depression and reduced colorectal adenoma recurrence with a flavonoid mixture; however, human pharmacokinetic and safety data remain limited, precluding broad clinical use. Its CDK-inhibitory, p53-stabilizing, and epigenetic actions parallel pharmacological agents in clinical development.
@@ -64,6 +69,8 @@ Epidemiological and case-control studies link higher flavonoid intake (including
   - Comprehensive 2017 review of apigenin's chemopreventive/therapeutic anticancer properties, molecular targets across >18 cancers, epidemiological evidence, combination strategies, and pharmacokinetic limitations.
 - [[_document_ - SASP, senescent cells, grok|SASP, senescent cells, grok]]
   - Mentions apigenin as a senomorphic that inhibits NF-κB-dependent SASP.
+- [[_document_ - repurposing_apigen_senomorphic.09.09.611999v1.full|Repurposing apigenin for senomorphic effect in antiaging pipelines]]
+  - 2024 bioRxiv preprint defining PRDX6 as apigenin's direct senomorphic target and the HSPA8/ATM/p38 ASAP→SASP mechanism; in vivo geroprotection and chemosensitization.
 
 ## Connections
 
@@ -79,10 +86,17 @@ Epidemiological and case-control studies link higher flavonoid intake (including
 - [[CK2]] — Inhibited, stabilizing Ikaros
 - [[Histone Deacetylase|HDAC]] — Apigenin is a dual HDAC/DNA-methyltransferase inhibitor
 - [[Chemoprevention|Cancer Chemoprevention]] — Apigenin is a leading dietary chemopreventive
+- [[PRDX6]] — Direct senomorphic target of apigenin (Cys91/Glu210 binding; iPLA2 inhibition)
+- [[HSPA8]] — Crosstalk with ATM/p38 MAPK disrupted by apigenin
+- [[ATM]] / [[p38 MAPK]] — Upstream/downstream kinases whose HSPA8 crosstalk apigenin blocks
+- [[Acute Stress-Associated Phenotype]] — ASAP→SASP transition blocked by apigenin
+- [[Mitoxantrone]] — Chemoresistance overcome by apigenin combination
+- [[MJ33]] / [[VER155008]] — PRDX6-PLA2 / HSPA8 inhibitors phenocopying apigenin
+- [[Metformin]] / [[Rapamycin]] — Comparator senomorphics in the apigenin study
 
 ## Linking Summary
 
-- New links added: [[Flavones]], [[Chamomile]], [[Chrysin]], [[Kaempferol]], [[UDP-glucuronosyltransferase]], [[CDK2]], [[CDK4]], [[CDK6]], [[p21]], [[PI3K]], [[Akt]], [[NF-κB]], [[STAT3]], [[ERK]], [[JNK]], [[Src]], [[CK2]], [[HER2|HER2/neu]], [[HDAC1]], [[HDAC3]], [[HDAC]], [[Fatty Acid Synthase]], [[Matrix Metalloproteinase]], [[MMP-2]], [[MMP-9]], [[VEGF]], [[HIF-1α]], [[IGFBP-3]], [[Gemcitabine]], [[Cisplatin]], [[Doxorubicin]], [[Paclitaxel]], [[Curcumin]], [[TRAIL]], [[Breast Cancer]], [[Prostate Cancer]], [[Colon Cancer]], [[Lung Cancer]], [[Pancreatic Cancer]], [[Gastric Cancer]], [[Liver Cancer]], [[Bladder Cancer]], [[Cervical Cancer]], [[Ovarian Cancer]], [[Skin Cancer]], [[Thyroid Cancer]], [[Neuroblastoma]], [[Leukemia]], [[Lymphoma]], [[Mesothelioma]], [[Osteosarcoma]], [[Cancer Chemoprevention]]
+- New links added: [[Flavones]], [[Chamomile]], [[Chrysin]], [[Kaempferol]], [[UDP-glucuronosyltransferase]], [[CDK2]], [[CDK4]], [[CDK6]], [[p21]], [[PI3K]], [[Akt]], [[NF-κB]], [[STAT3]], [[ERK]], [[JNK]], [[Src]], [[CK2]], [[HER2|HER2/neu]], [[HDAC1]], [[HDAC3]], [[HDAC]], [[Fatty Acid Synthase]], [[Matrix Metalloproteinase]], [[MMP-2]], [[MMP-9]], [[VEGF]], [[HIF-1α]], [[IGFBP-3]], [[Gemcitabine]], [[Cisplatin]], [[Doxorubicin]], [[Paclitaxel]], [[Curcumin]], [[TRAIL]], [[Breast Cancer]], [[Prostate Cancer]], [[Colon Cancer]], [[Lung Cancer]], [[Pancreatic Cancer]], [[Gastric Cancer]], [[Liver Cancer]], [[Bladder Cancer]], [[Cervical Cancer]], [[Ovarian Cancer]], [[Skin Cancer]], [[Thyroid Cancer]], [[Neuroblastoma]], [[Leukemia]], [[Lymphoma]], [[Mesothelioma]], [[Osteosarcoma]], [[Cancer Chemoprevention]], [[PRDX6]], [[HSPA8]], [[Acute Stress-Associated Phenotype]], [[ATM]], [[p38 MAPK]], [[TAK1]], [[MJ33]], [[VER155008]], [[Mitoxantrone]], [[Metformin]], [[Rapamycin]], [[Senomorphic Therapy]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Inflammaging]]
 - Suggested new entity notes: [[Estrogen Receptor]], [[Androgen Receptor]], [[Flavones]], [[Chrysin]], [[Kaempferol]], [[Cancer Chemoprevention]]
 - Strong connections to strengthen: [[Apigenin]] ↔ [[Cancer Chemoprevention]], [[Apigenin]] ↔ CDK/p21/p53 arrest, [[Apigenin]] ↔ [[NF-κB]]/SASP
 
