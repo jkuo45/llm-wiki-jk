@@ -16,7 +16,7 @@ aliases:
 
 # N6-methyladenosine
 
-N6-methyladenosine (m6A) is the most abundant internal post-transcriptional modification of eukaryotic messenger RNA, consisting of a methyl group at the N6 position of adenosine. It is deposited co-transcriptionally by the [[METTL3]]–[[METTL14]] writer complex, removed by FTO and ALKBH5 demethylases, and interpreted by YTH-domain reader proteins. Although best known as a regulator of RNA metabolism, the m6A pathway intersects with the epigenetic landscape that orchestrates [[SASP]] expression in senescence.
+N6-methyladenosine (m6A) is the most abundant internal post-transcriptional modification of eukaryotic messenger RNA, consisting of a methyl group at the N6 position of adenosine. It is deposited co-transcriptionally by the [[METTL3]]–[[METTL14]] writer complex, removed by FTO and ALKBH5 demethylases, and interpreted by YTH-domain reader proteins. Although best known as a regulator of RNA metabolism, the m6A pathway intersects with the epigenetic landscape that orchestrates [[SASP|Senescence-Associated Secretory Phenotype]] expression in senescence.
 
 ## Overview
 
@@ -42,11 +42,11 @@ m6A modulators (METTL3 inhibitors such as STM2457; FTO inhibitors) are pursued i
 
 - [[METTL3]]: catalytic writer of m6A
 - [[METTL14]]: scaffolding partner of METTL3
-- [[SASP]]: m6A writer complex drives SASP enhancer looping
+- [[SASP|Senescence-Associated Secretory Phenotype]]: m6A writer complex drives SASP enhancer looping
 - [[Senomorphic]]: candidate senomorphic axis
 
 ## Linking Summary
 
-- New links added: [[METTL3]], [[METTL14]], [[SASP]], [[Senomorphic]], [[AP-1]], [[HMGB2]]
+- New links added: [[METTL3]], [[METTL14]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Senomorphic]], [[AP-1]], [[HMGB2]]
 - Suggested new entity notes to create: [[METTL14]], [[FTO]], [[ALKBH5]], [[m6A Reader]]
-- Strong connections to strengthen: [[N6-methyladenosine]] ↔ [[METTL3]] (writer complex), [[N6-methyladenosine]] ↔ [[SASP]] (3D-genome rewiring)
+- Strong connections to strengthen: [[N6-methyladenosine]] ↔ [[METTL3]] (writer complex), [[N6-methyladenosine]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]] (3D-genome rewiring)

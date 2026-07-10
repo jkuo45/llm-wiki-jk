@@ -22,7 +22,7 @@ protected: true
 ## Molecular Mechanism
 
 ### SASP-Mediated Immune Recruitment
-Senescent cells secrete [[SASP|SASP factors]] that act as "find-me" and "activate-me" signals for immune cells:
+Senescent cells secrete [[SASP|Senescence-Associated Secretory Phenotype]] that act as "find-me" and "activate-me" signals for immune cells:
 - **Chemokines**: [[CCL2]] (MCP-1), [[CCL5]], [[CXCL1]], [[CXCL10]] — recruit monocytes, macrophages, and [[Natural Killer Cells|NK cells]]
 - **Cytokines**: [[IL-6]], [[IL-1β]], [[TNFα]] — activate immune effector functions
 - **Adhesion molecules**: ICAM-1 — facilitates immune cell adhesion to senescent cells
@@ -68,7 +68,7 @@ List of documents that mention this entity
 
 - [[Senescence]] — Senescence surveillance is the immune clearance arm of the senescence program
 - [[Senescent Cells]] — The targets of immune clearance
-- [[SASP]] — Drives immune recruitment for surveillance
+- [[SASP|Senescence-Associated Secretory Phenotype]] — Drives immune recruitment for surveillance
 - [[cGAS-STING Pathway]] — Type-I interferon output enhances NK and T cell killing
 - [[Natural Killer Cells]] — Primary effectors of senescent cell killing
 - [[Macrophages]] — Phagocytose senescent cells
@@ -81,6 +81,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Senescence Surveillance]], [[Senescence]], [[Senescent Cells]], [[SASP]], [[cGAS-STING Pathway]], [[Natural Killer Cells]], [[Macrophages]], [[T Lymphocyte]], [[Hepatocellular Carcinoma]], [[Aging]], [[Immunosenescence]], [[Inflammaging]], [[Senolytic]], [[CCL2]], [[CCL5]], [[CXCL1]], [[CXCL10]], [[IL-6]], [[IL-1β]], [[TNFα]], [[IFN-β]], [[Interferon]], [[PD-L1]], [[Prostaglandin E2]], [[Oncogene-Induced Senescence]], [[cGAS-STING Pathway]]
+- New links added: [[Senescence Surveillance]], [[Senescence]], [[Senescent Cells]], [[SASP|Senescence-Associated Secretory Phenotype]], [[cGAS-STING Pathway]], [[Natural Killer Cells]], [[Macrophages]], [[T Lymphocyte]], [[Hepatocellular Carcinoma]], [[Aging]], [[Immunosenescence]], [[Inflammaging]], [[Senolytic]], [[CCL2]], [[CCL5]], [[CXCL1]], [[CXCL10]], [[IL-6]], [[IL-1β]], [[TNFα]], [[IFN-β]], [[Interferon]], [[PD-L1]], [[Prostaglandin E2]], [[Oncogene-Induced Senescence]], [[cGAS-STING Pathway]]
 - Suggested new entity notes to create: [[NKG2D]], [[Senescent Cell Antigen]]
-- Strong connections to strengthen: [[Senescence Surveillance]] ↔ [[SASP]], [[Senescence Surveillance]] ↔ [[Natural Killer Cells]], [[Senescence Surveillance]] ↔ [[Cancer]], [[Senescence Surveillance]] ↔ [[Aging]], [[Senescence Surveillance]] ↔ [[cGAS-STING Pathway]]
+- Strong connections to strengthen: [[Senescence Surveillance]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]], [[Senescence Surveillance]] ↔ [[Natural Killer Cells]], [[Senescence Surveillance]] ↔ [[Cancer]], [[Senescence Surveillance]] ↔ [[Aging]], [[Senescence Surveillance]] ↔ [[cGAS-STING Pathway]]

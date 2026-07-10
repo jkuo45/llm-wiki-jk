@@ -22,7 +22,7 @@ ZFP36L1 contains two C3H1 zinc fingers that recognize the consensus ARE (UUAUUUA
 
 ## Role in Senescence / SASP
 
-ZFP36L1 is a negative regulator of the [[Senescence-Associated Secretory Phenotype|SASP]] under basal conditions, keeping cytokine transcripts short-lived. Upon senescence induction, MK2-mediated inactivation removes this brake, stabilizing ARE-containing SASP mRNAs (IL-1α, IL-6, IL-8, GM-CSF). The p38–MK2–ZFP36L1 axis is therefore a central post-transcriptional control point that converts chronic stress signaling into durable SASP output, operating in parallel with the [[NF-κB]] transcriptional module. Overexpression of ZFP36L1 dampens SASP intensity, whereas its loss amplifies secretion — a handle for senomorphic manipulation.
+ZFP36L1 is a negative regulator of the [[SASP|Senescence-Associated Secretory Phenotype]] under basal conditions, keeping cytokine transcripts short-lived. Upon senescence induction, MK2-mediated inactivation removes this brake, stabilizing ARE-containing SASP mRNAs (IL-1α, IL-6, IL-8, GM-CSF). The p38–MK2–ZFP36L1 axis is therefore a central post-transcriptional control point that converts chronic stress signaling into durable SASP output, operating in parallel with the [[NF-κB]] transcriptional module. Overexpression of ZFP36L1 dampens SASP intensity, whereas its loss amplifies secretion — a handle for senomorphic manipulation.
 
 ## Clinical / Pathological Relevance
 
@@ -38,10 +38,10 @@ ZFP36L1 is a negative regulator of the [[Senescence-Associated Secretory Phenoty
 
 - [[MAPKAPK2|MK2]]: MK2 phosphorylates and inhibits ZFP36L1
 - [[IL-1α]]: ZFP36L1 regulates IL-1α mRNA stability
-- [[Senescence-Associated Secretory Phenotype|SASP]]: ZFP36L1 regulates SASP mRNA stability
+- [[SASP|Senescence-Associated Secretory Phenotype]]: ZFP36L1 regulates SASP mRNA stability
 - [[p38 MAPK]]: upstream of MK2 phosphorylation
 
 ## Linking Summary
 
-- New links added: [[MAPKAPK2|MK2]], [[IL-1α]], [[Senescence-Associated Secretory Phenotype|SASP]], [[p38 MAPK]], [[NF-κB]]
+- New links added: [[MAPKAPK2|MK2]], [[IL-1α]], [[SASP|Senescence-Associated Secretory Phenotype]], [[p38 MAPK]], [[NF-κB]]
 - Strong connections to strengthen: [[ZFP36L1]] ↔ MK2, [[ZFP36L1]] ↔ SASP mRNA stability

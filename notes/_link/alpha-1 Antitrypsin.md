@@ -112,13 +112,13 @@ List of documents that mention this entity
   - [[Neutrophils]]: Source of neutrophil elastase; AAT's primary target
   - [[Inflammation]]: AAT is an acute-phase protein; inflammatory cytokines upregulate AAT synthesis
   - [[Liver Disease]]: Polymerised AAT accumulates in hepatocytes, causing neonatal hepatitis, cirrhosis, and hepatocellular carcinoma
-  - [[Senescence-Associated Secretory Phenotype|SASP]]: AAT is part of the protease-antiprotease balance in the SASP microenvironment
+  - [[SASP|Senescence-Associated Secretory Phenotype]]: AAT is part of the protease-antiprotease balance in the SASP microenvironment
   - [[Reactive Oxygen Species]]: Cigarette smoke oxidises AAT, reducing its inhibitory activity; ROS also damage alveolar tissue
   - [[Fibrosis]]: AAT has anti-inflammatory and tissue-protective properties that may modulate fibrotic responses
 
 ## Linking Summary
 
-  - New links added: [[COPD]], [[Emphysema]], [[Elastin]], [[MMP-12]], [[Neutrophils]], [[Inflammation]], [[Liver Disease]], [[Senescence-Associated Secretory Phenotype|SASP]], [[Reactive Oxygen Species]], [[Fibrosis]]
+  - New links added: [[COPD]], [[Emphysema]], [[Elastin]], [[MMP-12]], [[Neutrophils]], [[Inflammation]], [[Liver Disease]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Reactive Oxygen Species]], [[Fibrosis]]
   - Suggested new entity notes to create: [[Neutrophil Elastase]], [[SERPIN Superfamily]], [[Pi Z Allele]], [[AAT Augmentation Therapy]]
   - Strong connections to strengthen: [[alpha-1 Antitrypsin]] ↔ [[Emphysema]], [[alpha-1 Antitrypsin]] ↔ [[COPD]], [[alpha-1 Antitrypsin]] ↔ [[Elastin]], [[alpha-1 Antitrypsin]] ↔ [[Neutrophils]]
   - Justification: AAT is the primary circulating antiprotease and the genetic basis of early-onset emphysema. The protease-antiprotease balance (AAT/NE) is a fundamental concept in pulmonary medicine, and AAT deficiency represents one of the best-characterised genetic diseases of the lung.

@@ -45,10 +45,10 @@ CXCL5 (C-X-C motif chemokine ligand 5), also known as ENA-78 (epithelial-derived
 
 - [[CXCR2]]: CXCL5 binds to CXCR2 receptor
 - [[CXCL1]]: CXCL1 is a related ELR+ CXC SASP chemokine
-- [[Senescence-Associated Secretory Phenotype|SASP]]: CXCL5 is a SASP chemokine
+- [[SASP|Senescence-Associated Secretory Phenotype]]: CXCL5 is a SASP chemokine
 - [[Inflammaging]]: CXCL5 contributes to age-related inflammation
 
 ## Linking Summary
 
-- New links added: [[CXCR2]], [[CXCL1]], [[CXCL2]], [[CXCL3]], [[NF-κB]], [[AP-1]], [[p38 MAPK]], [[Neutrophils]], [[Senescence-Associated Secretory Phenotype|SASP]], [[Inflammaging]]
+- New links added: [[CXCR2]], [[CXCL1]], [[CXCL2]], [[CXCL3]], [[NF-κB]], [[AP-1]], [[p38 MAPK]], [[Neutrophils]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Inflammaging]]
   - Strong connections to strengthen: [[CXCL5]] ↔ [[CXCR2]], [[CXCL5]] ↔ reproductive aging

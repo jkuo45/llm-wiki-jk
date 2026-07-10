@@ -27,7 +27,7 @@ aliases:
 cGAS contains a nucleotidyltransferase domain that, upon DNA engagement, undergoes liquid-phase condensation to efficiently produce 2′3′-cGAMP. This cyclic dinucleotide binds and oligomerizes STING on the endoplasmic reticulum.
 
 ## Mechanism of Action & Signaling
-cGAMP–STING recruitment activates [[TBK1]] and [[IRF3]], driving type I interferon and [[Inflammation]]. It also engages [[NFKB]] for pro-inflammatory cytokines. The pathway is a frontline antiviral defense but, when chronically triggered by self-DNA, promotes [[Senescence]] and the [[SASP]].
+cGAMP–STING recruitment activates [[TBK1]] and [[IRF3]], driving type I interferon and [[Inflammation]]. It also engages [[NFKB]] for pro-inflammatory cytokines. The pathway is a frontline antiviral defense but, when chronically triggered by self-DNA, promotes [[Senescence]] and the [[SASP|Senescence-Associated Secretory Phenotype]].
 
 ## Redox, Senescence & Longevity
 Mitochondrial DNA released during [[Mitochondrial Dysfunction]] or [[Minority MOMP]] can activate cGAS-STING, fueling [[Inflammaging]] and [[Aging]]. Suppression of chronic cGAS signaling is emerging as a senotherapeutic strategy. Balanced pathway tone intersects with [[Immunosenescence]] and redox control, positioning cGAS as a longevity-relevant innate immune checkpoint.
@@ -50,7 +50,7 @@ Mitochondrial DNA released during [[Mitochondrial Dysfunction]] or [[Minority MO
   - [[mtDNA]]: Mitochondrial DNA that can activate cGAS when leaked.
   - [[Inflammation]]: Core downstream response.
   - [[Senescence]]: Chronic activation promotes senescent phenotypes.
-  - [[SASP]]: Senescence secretome driven by cGAS-STING.
+  - [[SASP|Senescence-Associated Secretory Phenotype]]: Senescence secretome driven by cGAS-STING.
   - [[IRF3]]: Transcription factor activated downstream of STING.
 
 ## Linking Summary

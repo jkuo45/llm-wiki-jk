@@ -62,7 +62,7 @@ MMP-12 cleaves [[Plasminogen]] to generate [[Angiostatin]], an endogenous inhibi
 
 ## Role in SASP
 
-MMP-12 is a recognised component of the [[Senescence-Associated Secretory Phenotype|SASP]], particularly relevant to skin ageing and tissue deterioration:
+MMP-12 is a recognised component of the [[SASP|Senescence-Associated Secretory Phenotype]], particularly relevant to skin ageing and tissue deterioration:
 
 - **ECM degradation:** Secreted by senescent dermal fibroblasts, MMP-12 degrades elastin and other ECM components, contributing to the structural deterioration characteristic of aged skin.
 - **Pro-ageing SASP protease:** MMP-12 collaborates with other SASP proteases ([[MMP1]], [[MMP-3]], [[MMP-9]]) to amplify ECM breakdown beyond what any single MMP achieves alone.
@@ -135,7 +135,7 @@ List of documents that mention this entity
   - [[MMP1]]: Fellow collagenase in the SASP; MMP-12 and MMP-1 cooperate in ECM degradation during skin ageing
   - [[MMP-3]]: Stromelysin-1 activates pro-MMP-12; both are SASP proteases with overlapping substrate profiles
   - [[MMP-9]]: Gelatinase B co-localises with MMP-12 in macrophages; both degrade elastin and are upregulated in inflammatory lung disease
-  - [[SASP]]: MMP-12 is a key SASP protease secreted by senescent fibroblasts, driving age-related ECM deterioration
+  - [[SASP|Senescence-Associated Secretory Phenotype]]: MMP-12 is a key SASP protease secreted by senescent fibroblasts, driving age-related ECM deterioration
   - [[Macrophages]]: Primary cellular source of MMP-12; M2-polarised macrophages are the predominant producers
   - [[Plasmin]]: Activates pro-MMP-12; MMP-12 reciprocally cleaves plasminogen to generate angiostatin
   - [[Extracellular Matrix]]: Primary substrate; MMP-12 degrades elastin, collagen IV, fibronectin, and laminin
@@ -159,7 +159,7 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-  - New links added: [[Macrophages]], [[Extracellular Matrix]], [[COPD]], [[Atherosclerosis]], [[Plasmin]], [[MMP-3]], [[Collagen]], [[Fibronectin]], [[Laminin]], [[CXCL1]], [[CXCL2]], [[CXCL3]], [[CXCL5]], [[IL-8]], [[CCL2]], [[Plasminogen]], [[Angiostatin]], [[Monocytes]], [[LPS]], [[TNFα]], [[IL-1β]], [[NF-κB]], [[Reactive Oxygen Species]], [[TIMP1]], [[Neutrophils]], [[Senescence-Associated Secretory Phenotype|SASP]], [[MMP1]], [[MMP-9]], [[Inflammaging]], [[Emphysema]], [[Angiogenesis]], [[Ischemic Stroke]], [[Stroke]]
+  - New links added: [[Macrophages]], [[Extracellular Matrix]], [[COPD]], [[Atherosclerosis]], [[Plasmin]], [[MMP-3]], [[Collagen]], [[Fibronectin]], [[Laminin]], [[CXCL1]], [[CXCL2]], [[CXCL3]], [[CXCL5]], [[IL-8]], [[CCL2]], [[Plasminogen]], [[Angiostatin]], [[Monocytes]], [[LPS]], [[TNFα]], [[IL-1β]], [[NF-κB]], [[Reactive Oxygen Species]], [[TIMP1]], [[Neutrophils]], [[SASP|Senescence-Associated Secretory Phenotype]], [[MMP1]], [[MMP-9]], [[Inflammaging]], [[Emphysema]], [[Angiogenesis]], [[Ischemic Stroke]], [[Stroke]]
   - Suggested new entity notes to create: [[Elastin]], [[Elastokines]], [[Angiostatin]], [[Plasminogen]], [[TIMP2]], [[alpha-1 Antitrypsin]], [[Blood-Brain Barrier]], [[Tissue Plasminogen Activator]]
-  - Strong connections to strengthen: [[MMP-12]] ↔ [[Elastin]], [[MMP-12]] ↔ [[Macrophages]], [[MMP-12]] ↔ [[SASP]], [[MMP-12]] ↔ [[COPD]], [[MMP-12]] ↔ [[Plasmin]]
-  - Justification: MMP-12's elastinolytic capacity is its defining feature and warrants a dedicated [[Elastin]] connection. The [[Macrophages]] link anchors its cellular identity. The [[SASP]] ↔ [[MMP-12]] axis is central to skin ageing biology. [[COPD]]/[[Emphysema]] is the best-validated disease association. The [[Plasmin]] ↔ MMP-12 reciprocal activation loop is central to both fibrinolysis and ECM remodelling.
+  - Strong connections to strengthen: [[MMP-12]] ↔ [[Elastin]], [[MMP-12]] ↔ [[Macrophages]], [[MMP-12]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]], [[MMP-12]] ↔ [[COPD]], [[MMP-12]] ↔ [[Plasmin]]
+  - Justification: MMP-12's elastinolytic capacity is its defining feature and warrants a dedicated [[Elastin]] connection. The [[Macrophages]] link anchors its cellular identity. The [[SASP|Senescence-Associated Secretory Phenotype]] ↔ [[MMP-12]] axis is central to skin ageing biology. [[COPD]]/[[Emphysema]] is the best-validated disease association. The [[Plasmin]] ↔ MMP-12 reciprocal activation loop is central to both fibrinolysis and ECM remodelling.

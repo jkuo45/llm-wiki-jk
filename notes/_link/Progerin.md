@@ -17,7 +17,7 @@ Progerin is produced due to a point mutation in the **[[LMNA Gene]]** that activ
 The accumulation of progerin leads to:
 *   **Nuclear Blebbing**: Structural deformation of the nucleus.
 *   **[[Genomic Instability]]**: Disruption of chromatin organization and DNA repair.
-*   **Accelerated [[Aging]]**: Induction of premature [[Senescence]] and the [[SASP]].
+*   **Accelerated [[Aging]]**: Induction of premature [[Senescence]] and the [[SASP|Senescence-Associated Secretory Phenotype]].
 
 
 #
@@ -38,6 +38,6 @@ The accumulation of progerin leads to:
 - [[Mesenchymal Stromal Cells]] — hMSC model used to study progerin-induced senescence
 
 ## Linking Summary
-- New links added: [[Lamin A]], [[Hutchinson-Gilford Progeria Syndrome]], [[LMNA Gene]], [[Genomic Instability]], [[Aging]], [[Senescence]], [[SASP]], [[SIRT6]], [[LINE-1]], [[Mesenchymal Stromal Cells]]
+- New links added: [[Lamin A]], [[Hutchinson-Gilford Progeria Syndrome]], [[LMNA Gene]], [[Genomic Instability]], [[Aging]], [[Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]], [[SIRT6]], [[LINE-1]], [[Mesenchymal Stromal Cells]]
 - Suggested new entity notes to create: [[Farnesylation]], [[Cryptic Splice Site]]
 - Strong connections to strengthen: [[Progerin]] ↔ Hutchinson-Gilford Progeria Syndrome, [[Progerin]] ↔ Lamin A, [[Progerin]] ↔ SIRT6

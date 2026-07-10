@@ -30,7 +30,7 @@ MLL1 (KMT2A) is a [[histone methyltransferase]] that catalyzes [[H3K4me3|histone
 
 ## Role in Senescence
 
-MLL1 may contribute to [[Senescence]]-associated chromatin changes. The H3K4me3 landscape is remodeled during [[Oncogene-Induced Senescence]], and MLL1 activity at SASP gene loci could influence the [[SASP]] transcriptional program.
+MLL1 may contribute to [[Senescence]]-associated chromatin changes. The H3K4me3 landscape is remodeled during [[Oncogene-Induced Senescence]], and MLL1 activity at SASP gene loci could influence the [[SASP|Senescence-Associated Secretory Phenotype]] transcriptional program.
 
 ---
 

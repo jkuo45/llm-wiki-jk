@@ -44,10 +44,10 @@ List of documents that mention this entity
 - [[IRF3]] — Transcription factor that induces IFN-β
 - [[STING]] / [[TBK1]] — Upstream cGAS-STING signaling
 - [[Senescent Cells]] — Produced by senescent cells
-- [[Senescence-Associated Secretory Phenotype|SASP]] — Contributes to the SASP
+- [[SASP|Senescence-Associated Secretory Phenotype]] — Contributes to the SASP
 - [[mtDNA]] / [[Inflammaging]] — Drives sterile inflammation
 
 ## Linking Summary
 
-  - New links added: [[cGAS-STING Pathway|cGAS-STING]], [[IRF3]], [[STING]], [[TBK1]], [[Senescent Cells]], [[Senescence-Associated Secretory Phenotype|SASP]], [[mtDNA]], [[Inflammaging]], [[ISG15]], [[JAK]]
+  - New links added: [[cGAS-STING Pathway|cGAS-STING]], [[IRF3]], [[STING]], [[TBK1]], [[Senescent Cells]], [[SASP|Senescence-Associated Secretory Phenotype]], [[mtDNA]], [[Inflammaging]], [[ISG15]], [[JAK]]
   - Strong connections to strengthen: [[IFN-β]] ↔ [[cGAS-STING Pathway|cGAS-STING]], [[IFN-β]] ↔ [[Inflammaging]]

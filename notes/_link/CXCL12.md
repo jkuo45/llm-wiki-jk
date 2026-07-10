@@ -47,10 +47,10 @@ CXCL12 (C-X-C motif chemokine ligand 12), also known as SDF-1 (stromal cell-deri
 - [[MMP-12]]: CXCL12 cooperates with MMPs to facilitate metastasis
 - [[MMP-2]]: MMPs release and shape CXCL12 gradients
 - [[HIF-1α]]: HIF-1α induces CXCL12 under hypoxia
-- [[Senescence-Associated Secretory Phenotype|SASP]]: CXCL12 is a pro-tumorigenic SASP factor
+- [[SASP|Senescence-Associated Secretory Phenotype]]: CXCL12 is a pro-tumorigenic SASP factor
 - [[Cancer]]: CXCL12 promotes cancer metastasis
 
 ## Linking Summary
 
-- New links added: [[CXCR4]], [[CXCR7]], [[MMP-12]], [[MMP-2]], [[MMP-9]], [[HIF-1α]], [[Senescence-Associated Secretory Phenotype|SASP]], [[Cancer]], [[Metastasis]]
+- New links added: [[CXCR4]], [[CXCR7]], [[MMP-12]], [[MMP-2]], [[MMP-9]], [[HIF-1α]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Cancer]], [[Metastasis]]
   - Strong connections to strengthen: [[CXCL12]] ↔ MMPs, [[CXCL12]] ↔ [[Metastasis]]

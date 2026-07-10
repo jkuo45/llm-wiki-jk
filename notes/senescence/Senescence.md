@@ -19,7 +19,7 @@ protected: true
 
 # Senescence
 
-[[Senescence]], or cellular senescence, is a state of permanent, proliferation-competent cell-cycle arrest that cells enter when exposed to potentially oncogenic or damaging stresses, including [[DNA Damage]], [[Oxidative Stress]], [[Telomere Attrition|telomere dysfunction]], and oncogene activation. First described by Hayflick and Moorhead as replicative exhaustion of human fibroblasts, senescence is now recognized as a pleiotropic program with physiological roles in tumour suppression, embryonic development, and wound healing, but pathological roles in [[Aging]] and age-related disease through the accumulation of the [[Senescence-Associated Secretory Phenotype|SASP]]. It is characterized by profound and dynamic remodeling of the [[Chromatin]] landscape and [[Epigenetics]] state (Gorgoulis et al., 2019, *Cell* 179:813–827; PMID 30595488; a consensus "Hallmarks of Senescence").
+[[Senescence]], or cellular senescence, is a state of permanent, proliferation-competent cell-cycle arrest that cells enter when exposed to potentially oncogenic or damaging stresses, including [[DNA Damage]], [[Oxidative Stress]], [[Telomere Attrition|telomere dysfunction]], and oncogene activation. First described by Hayflick and Moorhead as replicative exhaustion of human fibroblasts, senescence is now recognized as a pleiotropic program with physiological roles in tumour suppression, embryonic development, and wound healing, but pathological roles in [[Aging]] and age-related disease through the accumulation of the [[SASP|Senescence-Associated Secretory Phenotype]]. It is characterized by profound and dynamic remodeling of the [[Chromatin]] landscape and [[Epigenetics]] state (Gorgoulis et al., 2019, *Cell* 179:813–827; PMID 30595488; a consensus "Hallmarks of Senescence").
 
 ## Types of Senescence
 
@@ -42,7 +42,7 @@ Both axes converge on suppression of [[E2F]] target genes required for S-phase e
 ## Phenotype and Hallmarks
 
 1. **Permanent cell-cycle arrest**: Mediated by the p53/[[p21 CIP1|p21]] and [[p16 INK4a|p16]]/[[Retinoblastoma Protein|Rb]] pathways.
-2. **[[Senescence-Associated Secretory Phenotype|SASP]]**: Secretion of pro-inflammatory cytokines ([[IL-6]], [[IL-8]], [[TNFα]]), chemokines, growth factors, proteases, bioactive lipids, and extracellular vesicles that remodel the tissue microenvironment (Coppé et al., 2008, PMID 18779463; Kuilman & Peeper, 2009, PMID 19239896).
+2. **[[SASP|Senescence-Associated Secretory Phenotype]]**: Secretion of pro-inflammatory cytokines ([[IL-6]], [[IL-8]], [[TNFα]]), chemokines, growth factors, proteases, bioactive lipids, and extracellular vesicles that remodel the tissue microenvironment (Coppé et al., 2008, PMID 18779463; Kuilman & Peeper, 2009, PMID 19239896).
 3. **Morphological changes**: Enlarged, flattened morphology, irregular/megavolume nuclei, and loss of [[Lamin B1]].
 4. **Senescence-associated β-galactosidase (SA-β-gal)**: Elevated lysosomal β-galactosidase activity at pH 6.
 5. **[[Senescence-Associated Heterochromatin Foci|SAHF]]**: DAPI-dense, transcriptionally silent chromatin domains in human senescent cells.
@@ -111,11 +111,11 @@ List of documents that mention this entity
 - [[p53]]: A central mediator of the senescence response.
 - [[Cellular Reprogramming]]: Senescence must be bypassed or suppressed for successful reprogramming.
 - [[Autophagy]]: Often plays a dual role in regulating or being regulated by the senescent state.
-- [[Senescence-Associated Secretory Phenotype|SASP]]: The secretory arm that mediates most non-cell-autonomous effects.
+- [[SASP|Senescence-Associated Secretory Phenotype]]: The secretory arm that mediates most non-cell-autonomous effects.
 - [[p16 INK4a|p16]]: Core long-term arrest effector and in-vivo senescence biomarker.
 - [[p21 CIP1|p21]]: Early DDR-driven arrest effector.
 - [[Epigenetic Alterations]]: senescent epigenetic reprogramming orchestrates the SASP
-- [[SASP]]: the SASP is the primary non-cell-autonomous output of the senescent epigenome
+- [[SASP|Senescence-Associated Secretory Phenotype]]: the SASP is the primary non-cell-autonomous output of the senescent epigenome
 - [[Senescence-Associated Heterochromatin Foci]]: SAHF is a product of the senescent epigenetic landscape
 - [[Histone Variant]]: histone variants accumulate and shape senescence
 - [[DNA Methylation]]: methylation dynamics define the senescent transcriptome
@@ -139,6 +139,6 @@ List of documents that mention this entity
 - [[Senomorphic Therapy]]: suppressing SASP blunts senescence-driven inflammation
 
 ## Linking Summary
-- New links added: [[Chromatin]], [[Epigenetics]], [[Senescence-Associated Secretory Phenotype|SASP]], [[SAHF]], [[Lamin B1]], [[Heterochromatin]], [[Histone Modification]], [[LINE-1]], [[Methylation]], [[Aging]], [[Genomic Instability]], [[Cancer]], [[p53]], [[Cellular Reprogramming]], [[DNA Damage]], [[Fibroblasts]], [[Reactive Oxygen Species]], [[Telomere Attrition]], [[p16 INK4a|p16]], [[p21 CIP1|p21]], [[Retinoblastoma Protein|Rb]], [[DNA Damage Response]], [[Oxidative Stress]], [[Inflammaging]], [[Senolytic Therapy]], [[Senomorphic Therapy]], [[Osteoarthritis]], [[Histone H3]], [[E2F]], [[Cyclin-Dependent Kinase 2|CDK2]], [[Cyclin-Dependent Kinase 4|CDK4]], [[Cyclin-Dependent Kinase 6|CDK6]], [[Oncogene-Induced Senescence|OIS]], [[Paracrine Senescence]], [[Epigenetic Alterations]], [[SASP]], [[Senescence-Associated Heterochromatin Foci]], [[Histone Variant]], [[DNA Methylation]], [[LINE-1]], [[cGAS-STING Pathway]], [[Cytoplasmic Chromatin Fragments]], [[BRD4]], [[KDM4]], [[EZH2]], [[AP-1]], [[NF-κB]], [[RB1]], [[SIRT6]], [[Inflammaging]], [[Replicative Senescence]], [[Stress-Induced Premature Senescence]], [[Oncogene-Induced Senescence]], [[Therapy-Induced Senescence]], [[Immunosenescence]], [[Senolytic Therapy]], [[Senomorphic Therapy]].
+- New links added: [[Chromatin]], [[Epigenetics]], [[SASP|Senescence-Associated Secretory Phenotype]], [[SAHF]], [[Lamin B1]], [[Heterochromatin]], [[Histone Modification]], [[LINE-1]], [[Methylation]], [[Aging]], [[Genomic Instability]], [[Cancer]], [[p53]], [[Cellular Reprogramming]], [[DNA Damage]], [[Fibroblasts]], [[Reactive Oxygen Species]], [[Telomere Attrition]], [[p16 INK4a|p16]], [[p21 CIP1|p21]], [[Retinoblastoma Protein|Rb]], [[DNA Damage Response]], [[Oxidative Stress]], [[Inflammaging]], [[Senolytic Therapy]], [[Senomorphic Therapy]], [[Osteoarthritis]], [[Histone H3]], [[E2F]], [[Cyclin-Dependent Kinase 2|CDK2]], [[Cyclin-Dependent Kinase 4|CDK4]], [[Cyclin-Dependent Kinase 6|CDK6]], [[Oncogene-Induced Senescence|OIS]], [[Paracrine Senescence]], [[Epigenetic Alterations]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Senescence-Associated Heterochromatin Foci]], [[Histone Variant]], [[DNA Methylation]], [[LINE-1]], [[cGAS-STING Pathway]], [[Cytoplasmic Chromatin Fragments]], [[BRD4]], [[KDM4]], [[EZH2]], [[AP-1]], [[NF-κB]], [[RB1]], [[SIRT6]], [[Inflammaging]], [[Replicative Senescence]], [[Stress-Induced Premature Senescence]], [[Oncogene-Induced Senescence]], [[Therapy-Induced Senescence]], [[Immunosenescence]], [[Senolytic Therapy]], [[Senomorphic Therapy]].
 - Suggested new entity notes to create: [[Telomere Attrition]], [[cGAS-STING Pathway]], [[Senescence-associated mitochondrial dysfunction|SAMD]].
-  - Strong connections to strengthen: [[Senescence]] ↔ [[Aging]], [[Senescence]] ↔ Autophagy, [[Senescence]] ↔ [[SASP]], [[Senescence]] ↔ [[Senolytic Therapy]], [[Senescence]] ↔ [[Senomorphic Therapy]]
+  - Strong connections to strengthen: [[Senescence]] ↔ [[Aging]], [[Senescence]] ↔ Autophagy, [[Senescence]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]], [[Senescence]] ↔ [[Senolytic Therapy]], [[Senescence]] ↔ [[Senomorphic Therapy]]

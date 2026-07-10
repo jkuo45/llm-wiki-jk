@@ -15,7 +15,7 @@ aliases:
 
 # HMGB2
 
-HMGB2 (High Mobility Group Box 2) is an abundant, non-histone nuclear protein belonging to the high-mobility-group (HMG) family of chromatin architectural factors. Characterized by two HMG-box DNA-binding domains, HMGB2 binds and sharply bends/loops DNA without sequence specificity, thereby modulating nucleosome positioning and higher-order [[Chromatin Remodeling|chromatin organization]]. In the senescence literature, HMGB2 has a dual, context-dependent role: it is progressively lost as cells enter senescence, yet when chromatin-bound it actively shields [[SASP]] gene loci from the spread of repressive heterochromatin, as summarized in the npj Aging review on the epigenetic landscape of [[Senescence]] (Dasgupta et al., 2024; https://doi.org/10.1038/s41514-024-00172-2).
+HMGB2 (High Mobility Group Box 2) is an abundant, non-histone nuclear protein belonging to the high-mobility-group (HMG) family of chromatin architectural factors. Characterized by two HMG-box DNA-binding domains, HMGB2 binds and sharply bends/loops DNA without sequence specificity, thereby modulating nucleosome positioning and higher-order [[Chromatin Remodeling|chromatin organization]]. In the senescence literature, HMGB2 has a dual, context-dependent role: it is progressively lost as cells enter senescence, yet when chromatin-bound it actively shields [[SASP|Senescence-Associated Secretory Phenotype]] gene loci from the spread of repressive heterochromatin, as summarized in the npj Aging review on the epigenetic landscape of [[Senescence]] (Dasgupta et al., 2024; https://doi.org/10.1038/s41514-024-00172-2).
 
 ## Overview
 
@@ -27,7 +27,7 @@ The two HMG boxes (A and B) confer the ability to recognize and kink distorted D
 
 ## Role in Senescence and SASP
 
-HMGB2 is progressively depleted in senescent cells and aging tissues (Zirkel et al., 2018, PMID 29779939; Aird et al., 2016, PMID 27893459). This depletion triggers a shift between constitutive and facultative [[Heterochromatin|heterochromatin]] and coincides with elevated expression of [[SASP]] genes in replicative senescence. Strikingly, the function of HMGB2 is model-dependent:
+HMGB2 is progressively depleted in senescent cells and aging tissues (Zirkel et al., 2018, PMID 29779939; Aird et al., 2016, PMID 27893459). This depletion triggers a shift between constitutive and facultative [[Heterochromatin|heterochromatin]] and coincides with elevated expression of [[SASP|Senescence-Associated Secretory Phenotype]] genes in replicative senescence. Strikingly, the function of HMGB2 is model-dependent:
 
 - In **replicative senescence (RS)**, HMGB2-loss remodels binding genome-wide but does not directly impact SASP loci (Zirkel et al., 2018).
 - In **oncogene-induced senescence (OIS)**, chromatin-bound HMGB2 binds directly to SASP gene loci, protecting them from the encroachment of repressive heterochromatin and preventing their sequestration into [[Senescence-Associated Heterochromatin Foci|SAHF]], thereby keeping SASP genes accessible and expressed (Aird et al., 2016). Loss of HMGB2 in OIS thus *silences* SASP.
@@ -57,13 +57,13 @@ Altered HMGB2 expression is observed across multiple malignancies, including hep
 
 - [[HMGB1]]: Paralogous HMG-box alarmin/chromatin factor lost in senescence alongside histones.
 - [[Senescence-Associated Heterochromatin Foci]]: HMGB2 prevents SASP loci from being silenced within SAHF in OIS.
-- [[SASP]]: HMGB2 loss in RS elevates SASP; its presence in OIS maintains SASP expression.
+- [[SASP|Senescence-Associated Secretory Phenotype]]: HMGB2 loss in RS elevates SASP; its presence in OIS maintains SASP expression.
 - [[Heterochromatin]]: HMGB2 depletion drives constitutive↔facultative heterochromatin shifts.
 - [[METTL3]]: Co-regulator of senescence-associated 3D genome rewiring.
-- [[SASP]]: Extracellular HMGB2 acts as a DAMP to amplify inflammatory signaling.
+- [[SASP|Senescence-Associated Secretory Phenotype]]: Extracellular HMGB2 acts as a DAMP to amplify inflammatory signaling.
 
 ## Linking Summary
 
-- New links added: [[HMGB1]], [[Heterochromatin]], [[Senescence-Associated Heterochromatin Foci]], [[SASP]], [[METTL3]], [[Topologically Associating Domain]], [[Chromatin Remodeling]], [[Inflammaging]], [[Senomorphic]], [[Senescence]]
+- New links added: [[HMGB1]], [[Heterochromatin]], [[Senescence-Associated Heterochromatin Foci]], [[SASP|Senescence-Associated Secretory Phenotype]], [[METTL3]], [[Topologically Associating Domain]], [[Chromatin Remodeling]], [[Inflammaging]], [[Senomorphic]], [[Senescence]]
 - Suggested new entity notes to create: [[HMGB3]], [[HMGB4]], [[CTCF]]
-- Strong connections to strengthen: [[HMGB2]] ↔ [[Senescence-Associated Heterochromatin Foci]]; [[HMGB2]] ↔ [[SASP]]
+- Strong connections to strengthen: [[HMGB2]] ↔ [[Senescence-Associated Heterochromatin Foci]]; [[HMGB2]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]]

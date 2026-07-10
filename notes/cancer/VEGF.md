@@ -48,7 +48,7 @@ List of documents that mention this entity
 - [[Tyrosine Kinase Inhibitors]]: VEGFR TKIs block VEGF signaling.
 - [[Metastasis]]: VEGF-built vessels enable dissemination.
 - [[Hallmarks of Cancer]]: Angiogenesis is a core cancer hallmark.
-- [[SASP]]: VEGF is a key SASP growth factor; senescent cells secrete VEGF to drive angiogenesis in the tumor microenvironment
+- [[SASP|Senescence-Associated Secretory Phenotype]]: VEGF is a key SASP growth factor; senescent cells secrete VEGF to drive angiogenesis in the tumor microenvironment
 - [[Senescent Cells]]: Senescent fibroblasts secrete VEGF that promotes new blood vessel formation to support tumor growth
 - [[p53]]: p53 restrains VEGF expression; p53 loss amplifies SASP-driven angiogenesis
 - [[NF-κB]]: NF-κB drives VEGF transcription in senescent cells

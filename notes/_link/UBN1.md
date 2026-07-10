@@ -27,7 +27,7 @@ UBN1 bridges HIRA and the H3–H4 dimer, stabilizing the chaperone–histone int
 
 ## Role in Senescence and SAHF
 
-Banumathy et al. (2009, PMID 19103796) demonstrated that human UBN1 is an ortholog of yeast Hpc2p and has an essential role in the HIRA/ASF1a chromatin-remodeling pathway in senescent cells. Depletion of UBN1 phenocopies loss of HIRA/ASF1a: SAHF fail to assemble, and the characteristic heterochromatic reorganization of senescence is impaired. As with the rest of the complex, SAHF disruption correlates with reduced [[SASP]] expression.
+Banumathy et al. (2009, PMID 19103796) demonstrated that human UBN1 is an ortholog of yeast Hpc2p and has an essential role in the HIRA/ASF1a chromatin-remodeling pathway in senescent cells. Depletion of UBN1 phenocopies loss of HIRA/ASF1a: SAHF fail to assemble, and the characteristic heterochromatic reorganization of senescence is impaired. As with the rest of the complex, SAHF disruption correlates with reduced [[SASP|Senescence-Associated Secretory Phenotype]] expression.
 
 ## Mechanistic Details
 
@@ -47,10 +47,10 @@ As part of the HIRA/ASF1a/UBN1 axis, UBN1 is a candidate node for [[Senomorphic|
 - [[ASF1a]]: Upstream H3.3–H4 donor to the complex.
 - [[H3.3]]: Variant deposited by the UBN1-containing complex.
 - [[Senescence-Associated Heterochromatin Foci]]: UBN1 required for SAHF.
-- [[SASP]]: SAHF disruption via UBN1 depletion reduces SASP.
+- [[SASP|Senescence-Associated Secretory Phenotype]]: SAHF disruption via UBN1 depletion reduces SASP.
 
 ## Linking Summary
 
-- New links added: [[HIRA]], [[ASF1a]], [[H3.3]], [[Senescence-Associated Heterochromatin Foci]], [[SASP]], [[KDM4]], [[BRD4]], [[DOT1L]], [[Senomorphic]], [[Histone Variant]], [[Chromatin Remodeling]], [[Senescence]]
+- New links added: [[HIRA]], [[ASF1a]], [[H3.3]], [[Senescence-Associated Heterochromatin Foci]], [[SASP|Senescence-Associated Secretory Phenotype]], [[KDM4]], [[BRD4]], [[DOT1L]], [[Senomorphic]], [[Histone Variant]], [[Chromatin Remodeling]], [[Senescence]]
 - Suggested new entity notes to create: [[UBN2]], [[CABIN1]], [[Hpc2p]]
 - Strong connections to strengthen: [[UBN1]] ↔ [[HIRA]]; [[UBN1]] ↔ [[Senescence-Associated Heterochromatin Foci]]

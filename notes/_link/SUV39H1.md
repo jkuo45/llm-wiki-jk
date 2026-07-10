@@ -54,6 +54,6 @@ Pharmacologic inhibition of H3K9 methylation (e.g., SUV39H1/SETDB1 inhibitors su
 
 ## Linking Summary
 
-- New links added: [[KDM4]], [[H3K9me3]], [[HP1alpha]], [[IL-6]], [[IL-8]], [[SASP]], [[EZH2]], [[JMJD3]], [[Senomorphic]]
+- New links added: [[KDM4]], [[H3K9me3]], [[HP1alpha]], [[IL-6]], [[IL-8]], [[SASP|Senescence-Associated Secretory Phenotype]], [[EZH2]], [[JMJD3]], [[Senomorphic]]
 - Suggested new entity notes to create: [[SETDB1]], [[H3K9me3]], [[SAHF]]
-- Strong connections to strengthen: [[SUV39H1]] ↔ [[KDM4]] (H3K9 antagonism), [[SUV39H1]] ↔ [[SASP]] (heterochromatin licensing)
+- Strong connections to strengthen: [[SUV39H1]] ↔ [[KDM4]] (H3K9 antagonism), [[SUV39H1]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]] (heterochromatin licensing)

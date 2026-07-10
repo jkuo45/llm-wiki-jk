@@ -14,7 +14,7 @@ protected: true
 
 # Cellular Senescence
 
-[[Cellular Senescence]] is a state of permanent cell cycle arrest triggered by various stressors including [[DNA Damage|DNA damage]], [[Oxidative Stress|oxidative stress]], telomere erosion, and oncogene activation. Senescent cells secrete a complex mixture of pro-inflammatory cytokines, chemokines, and matrix metalloproteinases known as the [[Senescence-Associated Secretory Phenotype]] (SASP), which drives [[Inflammation|inflammation]] and tissue dysfunction during [[Aging|aging]]. Once arrested, senescent cells resist apoptosis and can persist for years, accumulating in tissues and acting as a major contributor to age-related disease.
+[[Cellular Senescence]] is a state of permanent cell cycle arrest triggered by various stressors including [[DNA Damage|DNA damage]], [[Oxidative Stress|oxidative stress]], telomere erosion, and oncogene activation. Senescent cells secrete a complex mixture of pro-inflammatory cytokines, chemokines, and matrix metalloproteinases known as the [[SASP|Senescence-Associated Secretory Phenotype]] (SASP), which drives [[Inflammation|inflammation]] and tissue dysfunction during [[Aging|aging]]. Once arrested, senescent cells resist apoptosis and can persist for years, accumulating in tissues and acting as a major contributor to age-related disease.
 
 ## Types of Senescence
 
@@ -85,6 +85,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[SIRT1]], [[SIRT6]], [[SIRT3]], [[SIRT2]], [[FOXO3a]], [[PML]], [[p53]], [[LINE-1]], [[Heterochromatin]], [[Autophagy]], [[Caloric Restriction]], [[Intermittent Fasting]], [[Oxidative Stress]], [[DNA Damage]], [[Reactive Oxygen Species]], [[Aging]], [[Inflammation]], [[Senescence-Associated Secretory Phenotype]], [[Nicotinamide Mononucleotide]], [[Nicotinamide Riboside]]
+- New links added: [[SIRT1]], [[SIRT6]], [[SIRT3]], [[SIRT2]], [[FOXO3a]], [[PML]], [[p53]], [[LINE-1]], [[Heterochromatin]], [[Autophagy]], [[Caloric Restriction]], [[Intermittent Fasting]], [[Oxidative Stress]], [[DNA Damage]], [[Reactive Oxygen Species]], [[Aging]], [[Inflammation]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Nicotinamide Mononucleotide]], [[Nicotinamide Riboside]]
 - Suggested new entity notes to create: [[Senolytics]], [[SASP Regulators]], [[p16INK4a]]
 - Strong connections to strengthen: [[Cellular Senescence]] ↔ [[SIRT1]], [[Cellular Senescence]] ↔ [[SIRT6]]

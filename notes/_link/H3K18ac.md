@@ -15,7 +15,7 @@ aliases:
 
 # H3K18ac
 
-H3K18ac is the acetylation of histone H3 at lysine 18, a mark associated with active enhancers, promoters, and p300-target regions. In senescence, H3K18ac is one of the acetyl marks enriched at senescence-activated [[Super-enhancer|super-enhancers]] that drive [[SASP]] gene expression, as reviewed in the npj Aging survey (Dasgupta et al., 2024; https://doi.org/10.1038/s41514-024-00172-2).
+H3K18ac is the acetylation of histone H3 at lysine 18, a mark associated with active enhancers, promoters, and p300-target regions. In senescence, H3K18ac is one of the acetyl marks enriched at senescence-activated [[Super-enhancer|super-enhancers]] that drive [[SASP|Senescence-Associated Secretory Phenotype]] gene expression, as reviewed in the npj Aging survey (Dasgupta et al., 2024; https://doi.org/10.1038/s41514-024-00172-2).
 
 ## Definition
 
@@ -50,10 +50,10 @@ BET/bromodomain inhibitors that recognize acetyl marks (including H3K18ac) and p
 - [[P300]]: HAT installing H3K18ac.
 - [[BRD4]]: Reader of acetylated SEs.
 - [[AP-1]]: Pioneer factor opening H3K18ac enhancers.
-- [[SASP]]: H3K18ac SE landscape drives SASP.
+- [[SASP|Senescence-Associated Secretory Phenotype]]: H3K18ac SE landscape drives SASP.
 
 ## Linking Summary
 
-- New links added: [[Super-enhancer]], [[H3K27ac]], [[H3K122ac]], [[H4K5ac]], [[H3K4me1]], [[P300]], [[BRD4]], [[AP-1]], [[Enhancer-Promoter Looping]], [[Topologically Associating Domain]], [[SASP]], [[Senomorphic]], [[KDM4]], [[DOT1L]], [[Senescence]]
+- New links added: [[Super-enhancer]], [[H3K27ac]], [[H3K122ac]], [[H4K5ac]], [[H3K4me1]], [[P300]], [[BRD4]], [[AP-1]], [[Enhancer-Promoter Looping]], [[Topologically Associating Domain]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Senomorphic]], [[KDM4]], [[DOT1L]], [[Senescence]]
 - Suggested new entity notes to create: [[CBP]], [[BET Protein]]
 - Strong connections to strengthen: [[H3K18ac]] ↔ [[Super-enhancer]]; [[H3K18ac]] ↔ [[H3K27ac]]

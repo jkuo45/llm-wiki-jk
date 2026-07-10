@@ -15,7 +15,7 @@ aliases: [uPA, urokinase plasminogen activator, urokinase]
 
 # uPA
 
-**Urokinase plasminogen activator (uPA)** is a serine protease that is a component of the [[Senescence-Associated Secretory Phenotype|SASP]]. By converting plasminogen to plasmin at the cell surface, it initiates a proteolytic cascade that remodels the [[Extracellular Matrix]] and promotes cell migration and invasion.
+**Urokinase plasminogen activator (uPA)** is a serine protease that is a component of the [[SASP|Senescence-Associated Secretory Phenotype]]. By converting plasminogen to plasmin at the cell surface, it initiates a proteolytic cascade that remodels the [[Extracellular Matrix]] and promotes cell migration and invasion.
 
 ## Mechanism of Action & Signaling
 
@@ -41,7 +41,7 @@ List of documents that mention this entity
 
 ## Connections
 
-- [[Senescence-Associated Secretory Phenotype|SASP]] — A protease component of SASP
+- [[SASP|Senescence-Associated Secretory Phenotype]] — A protease component of SASP
 - [[Senescent Cells]] — Secreted by senescent cells
 - [[PAI-1]] — Inhibited by PAI-1
 - [[Plasminogen]], [[Plasmin]] — uPA converts plasminogen to plasmin
@@ -50,5 +50,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-  - New links added: [[Senescence-Associated Secretory Phenotype|SASP]], [[Senescent Cells]], [[PAI-1]], [[Plasminogen]], [[Plasmin]], [[MMP-3]], [[MMP-9]], [[Extracellular Matrix]], [[NF-κB]], [[Paracrine Senescence]]
-  - Strong connections to strengthen: [[uPA]] ↔ [[SASP]], [[uPA]] ↔ [[PAI-1]], [[uPA]] ↔ [[Extracellular Matrix]] remodeling
+  - New links added: [[SASP|Senescence-Associated Secretory Phenotype]], [[Senescent Cells]], [[PAI-1]], [[Plasminogen]], [[Plasmin]], [[MMP-3]], [[MMP-9]], [[Extracellular Matrix]], [[NF-κB]], [[Paracrine Senescence]]
+  - Strong connections to strengthen: [[uPA]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]], [[uPA]] ↔ [[PAI-1]], [[uPA]] ↔ [[Extracellular Matrix]] remodeling

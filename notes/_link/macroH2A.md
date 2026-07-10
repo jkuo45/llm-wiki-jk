@@ -16,7 +16,7 @@ aliases:
 
 # macroH2A
 
-macroH2A is an H2A histone variant distinguished by a large, non-histone "macrodomain" inserted into its N-terminal extension. It is the most extensively studied H2A variant in the context of cellular senescence and aging. In senescent and aged cells, macroH2A accumulates and contributes to growth arrest, [[Senescence-Associated Heterochromatin Foci|SAHF]] stability, and the proper timing of [[SASP]] expression, according to the npj Aging review of the senescent epigenetic landscape (Dasgupta et al., 2024; https://doi.org/10.1038/s41514-024-00172-2).
+macroH2A is an H2A histone variant distinguished by a large, non-histone "macrodomain" inserted into its N-terminal extension. It is the most extensively studied H2A variant in the context of cellular senescence and aging. In senescent and aged cells, macroH2A accumulates and contributes to growth arrest, [[Senescence-Associated Heterochromatin Foci|SAHF]] stability, and the proper timing of [[SASP|Senescence-Associated Secretory Phenotype]] expression, according to the npj Aging review of the senescent epigenetic landscape (Dasgupta et al., 2024; https://doi.org/10.1038/s41514-024-00172-2).
 
 ## Overview
 
@@ -31,7 +31,7 @@ The macrodomain confers unique biochemical properties — it can interact with A
 macroH2A increases in senescent cells and in aged mouse and primate tissues (Kreiling et al., 2011, PMID 21331099; Chen & Ruiz, 2015, PMID 26279933). Its senescence roles include:
 
 - **Growth arrest and SAHF:** macroH2A represses proliferation and stabilizes [[Senescence-Associated Heterochromatin Foci|SAHF]], acting together with [[HIRA]]/ASF1a (Zhang et al., 2005, PMID 15680342; Rai et al., 2014, PMID 25401360).
-- **SASP timing:** macroH2A activates a specific subset of senescent genes that drive arrest and induce key [[SASP]] genes (Chen & Ruiz, 2015). However, macroH2A is removed from SASP loci during OIS, indicating it also restrains SASP at certain loci to ensure proper temporal control (Kozlowski & Ladurner, 2015, PMID 26279932). Thus macroH2A both contributes to and helps time SASP expression.
+- **SASP timing:** macroH2A activates a specific subset of senescent genes that drive arrest and induce key [[SASP|Senescence-Associated Secretory Phenotype]] genes (Chen & Ruiz, 2015). However, macroH2A is removed from SASP loci during OIS, indicating it also restrains SASP at certain loci to ensure proper temporal control (Kozlowski & Ladurner, 2015, PMID 26279932). Thus macroH2A both contributes to and helps time SASP expression.
 
 ## Mechanistic Details
 
@@ -49,12 +49,12 @@ Because macroH2A both enforces arrest and tunes SASP, it is a candidate node for
 
 - [[HIRA]]: Co-operates with macroH2A in SAHF formation.
 - [[Senescence-Associated Heterochromatin Foci]]: macroH2A stabilizes SAHF.
-- [[SASP]]: macroH2A induces key SASP genes but is also removed from SASP loci to control timing.
+- [[SASP|Senescence-Associated Secretory Phenotype]]: macroH2A induces key SASP genes but is also removed from SASP loci to control timing.
 - [[H3.3]]: Contrasting H2A/H3 variants in senescence.
 - [[Senescence]]: macroH2A is a senescence/aging marker.
 
 ## Linking Summary
 
-- New links added: [[HIRA]], [[Senescence-Associated Heterochromatin Foci]], [[SASP]], [[H3.3]], [[H2A.J]], [[KDM4]], [[BRD4]], [[DOT1L]], [[Senomorphic]], [[Histone Variant]], [[Senescence]], [[ATM]]
+- New links added: [[HIRA]], [[Senescence-Associated Heterochromatin Foci]], [[SASP|Senescence-Associated Secretory Phenotype]], [[H3.3]], [[H2A.J]], [[KDM4]], [[BRD4]], [[DOT1L]], [[Senomorphic]], [[Histone Variant]], [[Senescence]], [[ATM]]
 - Suggested new entity notes to create: [[macroH2A2]], [[H2AFY2]]
-- Strong connections to strengthen: [[macroH2A]] ↔ [[Senescence-Associated Heterochromatin Foci]]; [[macroH2A]] ↔ [[SASP]]
+- Strong connections to strengthen: [[macroH2A]] ↔ [[Senescence-Associated Heterochromatin Foci]]; [[macroH2A]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]]

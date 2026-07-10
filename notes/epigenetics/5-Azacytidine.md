@@ -24,7 +24,7 @@ The therapeutic efficacy of 5-Azacytidine arises from its ability to interfere w
     - Alteration of [[mRNA]] splicing patterns.
     These RNA-level effects contribute to the overall cytotoxicity and may play a role in its unique epigenetic profile.
 
-3. **Induction of Senescence and DNA Damage**: The incorporation of 5-Azacytidine into DNA can trigger a [[DNA Damage Response]] due to replication fork stalling at the trapped DNMT-DNA adducts. This stress, combined with the re-expression of hypermethylated tumor suppressor genes (such as [[CDKN2B|p15^INK4b^]] and [[CDH1]]), can drive cells into [[Stress-Induced Premature Senescence]]. This senescence is often characterized by the elaboration of a [[SASP]] (Senescence-Associated Secretory Phenotype), including the secretion of pro-inflammatory cytokines like [[IL-6]] and [[IL-8]].
+3. **Induction of Senescence and DNA Damage**: The incorporation of 5-Azacytidine into DNA can trigger a [[DNA Damage Response]] due to replication fork stalling at the trapped DNMT-DNA adducts. This stress, combined with the re-expression of hypermethylated tumor suppressor genes (such as [[CDKN2B|p15^INK4b^]] and [[CDH1]]), can drive cells into [[Stress-Induced Premature Senescence]]. This senescence is often characterized by the elaboration of a [[SASP|Senescence-Associated Secretory Phenotype]] (Senescence-Associated Secretory Phenotype), including the secretion of pro-inflammatory cytokines like [[IL-6]] and [[IL-8]].
 
 ## Clinical Use
 
@@ -60,7 +60,7 @@ Several factors limit the clinical utility and contribute to resistance against 
 - [[DNA Damage Response]] — Triggered by replication fork stalling at adducts.
 - [[CDKN2B]] — A tumor suppressor gene that can be reactivated.
 - [[CDH1]] — A tumor suppressor gene that can be reactivated.
-- [[SASP]] — The secretory profile associated with induced senescence.
+- [[SASP|Senescence-Associated Secretory Phenotype]] — The secretory profile associated with induced senescence.
 - [[IL-6]] — A cytokine released as part of the SASP.
 - [[IL-8]] — A cytokine released as part of the SASP.
 - [[TET2]] — Mutations in this gene can correlate with better response.
@@ -70,6 +70,6 @@ Several factors limit the clinical utility and contribute to resistance against 
 
 ## Linking Summary
 
-- New links added: [[DNA Methylation]], [[RNA]], [[Epigenetic Modifiers]], [[Myelodysplastic Syndrome]], [[Stress-Induced Premature Senescence]], [[Uridine-cytidine kinase]], [[DNA Replication]], [[DNMT1]], [[DNA Demethylation]], [[tRNA]], [[rRNA]], [[mRNA]], [[DNA Damage Response]], [[CDKN2B]], [[CDH1]], [[SASP]], [[IL-6]], [[IL-8]], [[TET2]], [[Decitabine]], [[DNMT3a]], [[DNMT3b]]
+- New links added: [[DNA Methylation]], [[RNA]], [[Epigenetic Modifiers]], [[Myelodysplastic Syndrome]], [[Stress-Induced Premature Senescence]], [[Uridine-cytidine kinase]], [[DNA Replication]], [[DNMT1]], [[DNA Demethylation]], [[tRNA]], [[rRNA]], [[mRNA]], [[DNA Damage Response]], [[CDKN2B]], [[CDH1]], [[SASP|Senescence-Associated Secretory Phenotype]], [[IL-6]], [[IL-8]], [[TET2]], [[Decitabine]], [[DNMT3a]], [[DNMT3b]]
 - Suggested new entity notes to create: [[Cytidine deaminase]], [[MMP3]]
 - Strong connections to strengthen: [[5-Azacytidine]] ↔ [[Decitabine]], [[5-Azacytidine]] ↔ [[DNMT1]]

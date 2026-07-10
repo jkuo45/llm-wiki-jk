@@ -12,7 +12,7 @@ aliases: []
 # Rapamycin
 [[Rapamycin]] (also known as Sirolimus) is an immunosuppressant drug that acts as a potent inhibitor of the mTOR pathway. By inhibiting mTOR, rapamycin promotes [[Autophagy]]. It has been studied in various models of neurodegeneration, including [[Parkinson's Disease]], for its ability to enhance the clearance of protein aggregates and damaged organelles.
 ## SASP-Remodeling Aminochrome Complex (SRAC)
-In the [[SASP-Remodeling Aminochrome Complex]] strategy, Rapamycin acts as a "brake" during **Phase 1 only** (weeks 1–4). It inhibits mTOR-dependent SASP translation (IL-1α, IL-6, IL-8) and ensures that [[Adrenochrome monoaminoguanidine|AMM]]-induced ROS signals are diverted from pro-inflammatory [[SASP]] production toward a quiescent-like "senomorphic" state. Rapamycin is then **washed out for 1–2 weeks** before Phase 2 fisetin, because rapamycin suppresses the pro-survival signaling loops that fisetin targets for selective senolysis.
+In the [[SASP-Remodeling Aminochrome Complex]] strategy, Rapamycin acts as a "brake" during **Phase 1 only** (weeks 1–4). It inhibits mTOR-dependent SASP translation (IL-1α, IL-6, IL-8) and ensures that [[Adrenochrome monoaminoguanidine|AMM]]-induced ROS signals are diverted from pro-inflammatory [[SASP|Senescence-Associated Secretory Phenotype]] production toward a quiescent-like "senomorphic" state. Rapamycin is then **washed out for 1–2 weeks** before Phase 2 fisetin, because rapamycin suppresses the pro-survival signaling loops that fisetin targets for selective senolysis.
 
 > [!important] Sequential Dosing (Protocol Revision, 08 July 2026)
 > Rapamycin is discontinued after Phase 1. A 1–2 week washout precedes Phase 2 fisetin treatment. Concurrent rapamycin + fisetin may be antagonistic — rapamycin suppresses the SASP signaling loops that fisetin exploits for selective senolysis.
@@ -74,8 +74,8 @@ List of documents that mention this entity
 - [[Adrenochrome]] — interacts with Rapamycin
 - [[Fisetin]] — senolytic agent deployed sequentially after rapamycin washout in the SRAC protocol for selective killing of senescent cells
 - [[GlyNAC]] — redox buffer co-administered in SRAC to protect healthy tissue during treatment
-- [[SASP]] — senescence-associated secretory phenotype; mediates paracrine senescence
+- [[SASP|Senescence-Associated Secretory Phenotype]] — senescence-associated secretory phenotype; mediates paracrine senescence
 ## Linking Summary
-- New links added: [[Autophagy]], [[Parkinson's Disease]], [[Proteostasis]], [[SASP-Remodeling Aminochrome Complex]], [[Adrenochrome]], [[SASP]], [[mTORC1]], [[Fisetin]], [[GlyNAC]], [[Incoherent Bivalent Motif]], [[Biphasic Dose-Response Curve]], [[Saturated Enzymatic Regime]], [[mTORC2]], [[SK61_2]], [[IRS1]]
+- New links added: [[Autophagy]], [[Parkinson's Disease]], [[Proteostasis]], [[SASP-Remodeling Aminochrome Complex]], [[Adrenochrome]], [[SASP|Senescence-Associated Secretory Phenotype]], [[mTORC1]], [[Fisetin]], [[GlyNAC]], [[Incoherent Bivalent Motif]], [[Biphasic Dose-Response Curve]], [[Saturated Enzymatic Regime]], [[mTORC2]], [[SK61_2]], [[IRS1]]
 - Suggested new entity notes to create: [[mTOR]], [[Everolimus]]
   - Strong connections to strengthen: [[Rapamycin]] ↔ Autophagy, [[Rapamycin]] ↔ SASP-Remodeling Aminochrome Complex, [[Rapamycin]] ↔ Immune Aging, [[Rapamycin]] ↔ [[Fisetin]], [[Rapamycin]] ↔ GlyNAC

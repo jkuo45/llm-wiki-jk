@@ -17,7 +17,7 @@ aliases:
 
 # H2A.X
 
-H2A.X is an H2A histone variant present in all eukaryotes that is distinguished from canonical H2A by a C-terminal tail containing a conserved Ser–Gln–Glu motif. In response to DNA double-strand breaks (DSBs), the serine (Ser139 in humans) is rapidly phosphorylated to generate γ-H2A.X, which acts as a recruitment platform for DNA repair and damage-signaling proteins. In the context of [[Senescence]], H2A.X/γ-H2A.X is a recognized hallmark of persistent DNA damage and is required for DNA-damage-induced senescence and [[SASP]], as described in the npj Aging review of the senescent epigenetic landscape (Dasgupta et al., 2024; https://doi.org/10.1038/s41514-024-00172-2).
+H2A.X is an H2A histone variant present in all eukaryotes that is distinguished from canonical H2A by a C-terminal tail containing a conserved Ser–Gln–Glu motif. In response to DNA double-strand breaks (DSBs), the serine (Ser139 in humans) is rapidly phosphorylated to generate γ-H2A.X, which acts as a recruitment platform for DNA repair and damage-signaling proteins. In the context of [[Senescence]], H2A.X/γ-H2A.X is a recognized hallmark of persistent DNA damage and is required for DNA-damage-induced senescence and [[SASP|Senescence-Associated Secretory Phenotype]], as described in the npj Aging review of the senescent epigenetic landscape (Dasgupta et al., 2024; https://doi.org/10.1038/s41514-024-00172-2).
 
 ## Overview
 
@@ -55,11 +55,11 @@ Because H2A.X/γ-H2A.X underlies damage-induced SASP, it is both a biomarker of 
 - [[DNA-SCARS]]: Persistent DDR structures where γ-H2A.X accumulates.
 - [[Cytoplasmic Chromatin Fragments]]: γ-H2A.X-enriched chromatin fragments that trigger SASP.
 - [[p53]]: Induced downstream of γ-H2A.X to enforce arrest.
-- [[SASP]]: H2A.X depletion impairs SASP after irradiation.
+- [[SASP|Senescence-Associated Secretory Phenotype]]: H2A.X depletion impairs SASP after irradiation.
 - [[Senescence]]: H2A.X/γ-H2A.X is a senescence hallmark.
 
 ## Linking Summary
 
-- New links added: [[H2A.J]], [[DNA-SCARS]], [[Cytoplasmic Chromatin Fragments]], [[p53]], [[SASP]], [[Senescence]], [[DNA Damage]], [[KDM4]], [[BRD4]], [[DOT1L]], [[Senomorphic]], [[Histone Variant]], [[cGAS-STING Pathway]]
+- New links added: [[H2A.J]], [[DNA-SCARS]], [[Cytoplasmic Chromatin Fragments]], [[p53]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Senescence]], [[DNA Damage]], [[KDM4]], [[BRD4]], [[DOT1L]], [[Senomorphic]], [[Histone Variant]], [[cGAS-STING Pathway]]
 - Suggested new entity notes to create: [[ATM]], [[ATR]], [[MDC1]], [[DNA-PKcs]]
 - Strong connections to strengthen: [[H2A.X]] ↔ [[DNA-SCARS]]; [[H2A.X]] ↔ [[Cytoplasmic Chromatin Fragments]]

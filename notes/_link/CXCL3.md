@@ -15,7 +15,7 @@ aliases:
 
 # CXCL3
 
-CXCL3 (C-X-C motif chemokine ligand 3), also known as GROγ (growth-regulated oncogene gamma) or MIP-2β, is an ELR+ C-X-C chemokine that signals through [[CXCR2]] (and weakly through CXCR1). It is the third member of the growth-regulated oncogene (GRO) cluster with [[CXCL1]] and [[CXCL2]], a neutrophil chemoattractant, and a conserved component of the [[Senescence-Associated Secretory Phenotype|SASP]] (Coppé et al., 2008, PMID 18948995).
+CXCL3 (C-X-C motif chemokine ligand 3), also known as GROγ (growth-regulated oncogene gamma) or MIP-2β, is an ELR+ C-X-C chemokine that signals through [[CXCR2]] (and weakly through CXCR1). It is the third member of the growth-regulated oncogene (GRO) cluster with [[CXCL1]] and [[CXCL2]], a neutrophil chemoattractant, and a conserved component of the [[SASP|Senescence-Associated Secretory Phenotype]] (Coppé et al., 2008, PMID 18948995).
 
 ## Mechanism of Action & Signaling
 
@@ -48,9 +48,9 @@ CXCL3 (C-X-C motif chemokine ligand 3), also known as GROγ (growth-regulated on
 - [[CXCL2]]: CXCL2 is a related SASP chemokine
 - [[NF-κB]]: NF-κB regulates CXCL3 expression
 - [[IL-8]]: IL-8 is a co-induced ELR+ CXC SASP chemokine sharing CXCR2
-- [[Senescence-Associated Secretory Phenotype|SASP]]: CXCL3 is a SASP chemokine
+- [[SASP|Senescence-Associated Secretory Phenotype]]: CXCL3 is a SASP chemokine
 
 ## Linking Summary
 
-- New links added: [[CXCR2]], [[CXCL1]], [[CXCL2]], [[NF-κB]], [[AP-1]], [[CEBPβ|C/EBPβ]], [[p38 MAPK]], [[IL-8]], [[IL-6]], [[Macrophages]], [[Neutrophils]], [[Senescence-Associated Secretory Phenotype|SASP]], [[Inflammaging]]
-  - Strong connections to strengthen: [[CXCL3]] ↔ [[CXCR2]], [[CXCL3]] ↔ [[SASP]]
+- New links added: [[CXCR2]], [[CXCL1]], [[CXCL2]], [[NF-κB]], [[AP-1]], [[CEBPβ|C/EBPβ]], [[p38 MAPK]], [[IL-8]], [[IL-6]], [[Macrophages]], [[Neutrophils]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Inflammaging]]
+  - Strong connections to strengthen: [[CXCL3]] ↔ [[CXCR2]], [[CXCL3]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]]

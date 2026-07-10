@@ -26,7 +26,7 @@ Immune checkpoints are inhibitory receptor-ligand pathways that regulate [[T cel
 
 ## Role in Senescence & STING
 
-[[STING]] activation in the [[Tumor Microenvironment]] can upregulate [[PD-L1]] expression, linking the [[cGAS-STING Pathway]] to immune checkpoint engagement. In [[Lung Cancer]], [[KRAS]]-[[LKB1]] mutant tumors silence STING, leading to reduced type I interferon and PD-L1 expression, which paradoxically reduces T cell infiltration but also diminishes sensitivity to ICI therapy. Senescent cells can upregulate [[PD-L1]] and [[PD-L2]] as part of the [[SASP]], contributing to immune evasion.
+[[STING]] activation in the [[Tumor Microenvironment]] can upregulate [[PD-L1]] expression, linking the [[cGAS-STING Pathway]] to immune checkpoint engagement. In [[Lung Cancer]], [[KRAS]]-[[LKB1]] mutant tumors silence STING, leading to reduced type I interferon and PD-L1 expression, which paradoxically reduces T cell infiltration but also diminishes sensitivity to ICI therapy. Senescent cells can upregulate [[PD-L1]] and [[PD-L2]] as part of the [[SASP|Senescence-Associated Secretory Phenotype]], contributing to immune evasion.
 
 ---
 
@@ -40,7 +40,7 @@ Immune checkpoints are inhibitory receptor-ligand pathways that regulate [[T cel
 - [[PD-1]]/[[PD-L1]]: Dominant checkpoint axis; modulated by STING signaling
 - [[cGAS-STING Pathway]]: STING activation upregulates PD-L1; silencing enables immune evasion
 - [[Lung Cancer]]: KRAS-LKB1 mutant tumors silence STING, reducing checkpoint expression
-- [[SASP]]: Senescent cells upregulate checkpoint ligands as part of SASP
+- [[SASP|Senescence-Associated Secretory Phenotype]]: Senescent cells upregulate checkpoint ligands as part of SASP
 - [[Immune Checkpoint Inhibitors]]: Therapeutic antibodies targeting these pathways
 
 ## Linking Summary

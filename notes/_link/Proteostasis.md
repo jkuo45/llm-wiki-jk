@@ -18,7 +18,7 @@ aliases:
 
 ## mTORC1 and Proteostasis
 
-The [[mTORC1]] pathway controls mRNA translation and, when overactive, accelerates protein synthesis at the expense of accuracy, increasing misfolded/aberrant proteins. Inhibition of mTORC1 by [[Rapamycin]] reduces cap-dependent translation, improves fidelity, and promotes stress-resistant (cap-independent) translation that raises levels of protective proteins such as [[HSP70]] and [[TFAM]]. By limiting translation of pro-inflammatory [[SASP]] factors downstream of [[NF-κB|NF-κB]] and STAT3, rapamycin also lowers late-life cancer risk ([Zerdka et al., 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC12766144/)).
+The [[mTORC1]] pathway controls mRNA translation and, when overactive, accelerates protein synthesis at the expense of accuracy, increasing misfolded/aberrant proteins. Inhibition of mTORC1 by [[Rapamycin]] reduces cap-dependent translation, improves fidelity, and promotes stress-resistant (cap-independent) translation that raises levels of protective proteins such as [[HSP70]] and [[TFAM]]. By limiting translation of pro-inflammatory [[SASP|Senescence-Associated Secretory Phenotype]] factors downstream of [[NF-κB|NF-κB]] and STAT3, rapamycin also lowers late-life cancer risk ([Zerdka et al., 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC12766144/)).
 
 > [!info] Longevity mechanism
 > Rapamycin supports longevity by improving translation quality, reducing toxic protein aggregates, and dampening the pro-inflammatory SASP—core pillars of proteostatic rejuvenation.
@@ -36,11 +36,11 @@ List of documents in the wiki that mention this entity
   - [[Rapamycin]] — pharmacological protector
   - [[Autophagy]] — degradative arm of proteostasis
   - [[HSP70]] / [[TFAM]] — stress-protective proteins upregulated
-  - [[SASP]] — pro-inflammatory output dampened via NF-κB
+  - [[SASP|Senescence-Associated Secretory Phenotype]] — pro-inflammatory output dampened via NF-κB
 
 ## Linking Summary
 
-  - New links added: [[mTORC1]], [[Rapamycin]], [[Autophagy]], [[HSP70]], [[TFAM]], [[SASP]], [[NF-κB]], [[Aging]], [[Neuromelanin]], [[Alpha-synuclein]], [[Ubiquitin-Proteasome System]], [[Ubiquitin]], [[Lewy Bodies]], [[Oxidative Stress]], [[Neuroinflammation]], [[Vesicular Monoamine Transporter 2]]
+  - New links added: [[mTORC1]], [[Rapamycin]], [[Autophagy]], [[HSP70]], [[TFAM]], [[SASP|Senescence-Associated Secretory Phenotype]], [[NF-κB]], [[Aging]], [[Neuromelanin]], [[Alpha-synuclein]], [[Ubiquitin-Proteasome System]], [[Ubiquitin]], [[Lewy Bodies]], [[Oxidative Stress]], [[Neuroinflammation]], [[Vesicular Monoamine Transporter 2]]
   - Suggested new entity notes to create: [[Chaperone-mediated Autophagy]], [[TFEB]], [[Mitophagy]]
   - Strong connections to strengthen: [[Proteostasis]] ↔ [[mTORC1]], [[Proteostasis]] ↔ [[Autophagy]], [[Proteostasis]] ↔ [[Neuromelanin]]
 

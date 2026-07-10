@@ -14,7 +14,7 @@ aliases: [IL-1α, Interleukin-1 alpha, IL1A]
 
 # IL-1α
 
-**Interleukin-1 alpha (IL-1α)** is a potent pro-inflammatory member of the IL-1 family and a critical upstream initiator of the [[Senescence-Associated Secretory Phenotype|SASP]]. Unlike most cytokines, its precursor is biologically active and largely cell-associated.
+**Interleukin-1 alpha (IL-1α)** is a potent pro-inflammatory member of the IL-1 family and a critical upstream initiator of the [[SASP|Senescence-Associated Secretory Phenotype]]. Unlike most cytokines, its precursor is biologically active and largely cell-associated.
 
 ## Mechanism of Action & Signaling
 
@@ -43,14 +43,14 @@ List of documents that mention this entity
 
 ## Connections
 
-- [[Senescence-Associated Secretory Phenotype|SASP]] — Master regulator of SASP induction
+- [[SASP|Senescence-Associated Secretory Phenotype]] — Master regulator of SASP induction
 - [[NF-κB]] — Activates NF-κB signaling to drive SASP
 - [[mTOR]] — Regulates IL-1α translation
 - [[IL-6]] / [[IL-8]] — Upstream activator of these SASP factors
 - [[Senescent Cells]] — Produced by senescent cells
 - [[MAPK]] / [[AUF1]] — Additional IL-1α signaling and regulatory nodes
 - [[Epigenetic Alterations]] — IL-1α's downstream SASP is epigenetically orchestrated
-- [[SASP]] — IL-1α is the master upstream SASP trigger
+- [[SASP|Senescence-Associated Secretory Phenotype]] — IL-1α is the master upstream SASP trigger
 - [[NF-κB]] — IL-1α activates NF-κB to drive SASP
 - [[mTOR]] — mTOR regulates IL-1α translation
 - [[cGAS-STING Pathway]] — cGAS–STING can feed IL-1α-led SASP
@@ -64,5 +64,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-  - New links added: [[Senescence-Associated Secretory Phenotype|SASP]], [[NF-κB]], [[mTOR]], [[IL-6]], [[IL-8]], [[Senescent Cells]], [[MAPK]], [[AUF1]], [[ZFP36L1]], [[Epigenetic Alterations]], [[cGAS-STING Pathway]], [[LINE-1]], [[KDM4]], [[EZH2]], [[BRD4]], [[AP-1]], [[DNA Methylation]], [[Senescence-Associated Heterochromatin Foci]]
-  - Strong connections to strengthen: [[IL-1α]] ↔ [[Senescence-Associated Secretory Phenotype|SASP]], [[IL-1α]] ↔ [[NF-κB]]
+  - New links added: [[SASP|Senescence-Associated Secretory Phenotype]], [[NF-κB]], [[mTOR]], [[IL-6]], [[IL-8]], [[Senescent Cells]], [[MAPK]], [[AUF1]], [[ZFP36L1]], [[Epigenetic Alterations]], [[cGAS-STING Pathway]], [[LINE-1]], [[KDM4]], [[EZH2]], [[BRD4]], [[AP-1]], [[DNA Methylation]], [[Senescence-Associated Heterochromatin Foci]]
+  - Strong connections to strengthen: [[IL-1α]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]], [[IL-1α]] ↔ [[NF-κB]]

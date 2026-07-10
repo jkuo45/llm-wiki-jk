@@ -30,7 +30,7 @@ Like H2A.X, H2A.J carries a C-terminal extension; however, it is phosphorylated 
 H2A.J accumulates in human senescent fibroblasts, in aged human epidermis, and in multiple mouse tissues upon persistent DNA damage (Contrepois et al., 2017, PMID 28368001; Rübe et al., 2021, PMID 33558759). Its senescence functions include:
 
 - **Marking persistent damage:** H2A.J decorates chronic DNA-damage foci and, in radiation-induced senescence, triggers the secretory phenotype (Isermann et al., 2020, PMID 33227801; Abd Al-Razaq et al., 2023, PMID 37093654).
-- **Driving SASP:** H2A.J is enriched at [[SASP]] gene promoters, where it facilitates chromatin-accessibility changes that induce SASP expression (Contrepois et al., 2017). It thus helps convert persistent damage signaling into the inflammatory secretome.
+- **Driving SASP:** H2A.J is enriched at [[SASP|Senescence-Associated Secretory Phenotype]] gene promoters, where it facilitates chromatin-accessibility changes that induce SASP expression (Contrepois et al., 2017). It thus helps convert persistent damage signaling into the inflammatory secretome.
 
 ## Mechanistic Details
 
@@ -47,13 +47,13 @@ H2A.J is a strong candidate biomarker of persistent DNA damage and cellular sene
 ## Connections
 
 - [[H2A.X]]: Related H2A variant marking damage; both contribute to SASP activation.
-- [[SASP]]: H2A.J enrichment at SASP promoters induces secretion.
+- [[SASP|Senescence-Associated Secretory Phenotype]]: H2A.J enrichment at SASP promoters induces secretion.
 - [[DNA-SCARS]]: Persistent damage structures where H2A.J accumulates.
 - [[Cytoplasmic Chromatin Fragments]]: Downstream of damage variants in SASP induction.
 - [[Senescence]]: H2A.J is a senescence marker.
 
 ## Linking Summary
 
-- New links added: [[H2A.X]], [[SASP]], [[DNA-SCARS]], [[Cytoplasmic Chromatin Fragments]], [[Senescence]], [[KDM4]], [[BRD4]], [[Senomorphic]], [[Histone Variant]], [[DNA Damage]]
+- New links added: [[H2A.X]], [[SASP|Senescence-Associated Secretory Phenotype]], [[DNA-SCARS]], [[Cytoplasmic Chromatin Fragments]], [[Senescence]], [[KDM4]], [[BRD4]], [[Senomorphic]], [[Histone Variant]], [[DNA Damage]]
 - Suggested new entity notes to create: [[H2A.Z]], [[H2A.X.Y]]
-- Strong connections to strengthen: [[H2A.J]] ↔ [[SASP]]; [[H2A.J]] ↔ [[DNA-SCARS]]
+- Strong connections to strengthen: [[H2A.J]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]]; [[H2A.J]] ↔ [[DNA-SCARS]]

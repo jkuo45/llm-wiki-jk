@@ -15,7 +15,7 @@ aliases: [miRNA, microRNA, miR]
 
 # miRNA (MicroRNA)
 
-miRNAs (microRNAs) are ~22-nucleotide non-coding RNAs that regulate gene expression post-transcriptionally by guiding Argonaute-containing RISC to complementary sites in target mRNAs, repressing translation or inducing decay. They are key components of the [[Senescence-Associated Secretory Phenotype|SASP]], mediating both SASP regulation and intercellular communication between senescent cells and their microenvironment.
+miRNAs (microRNAs) are ~22-nucleotide non-coding RNAs that regulate gene expression post-transcriptionally by guiding Argonaute-containing RISC to complementary sites in target mRNAs, repressing translation or inducing decay. They are key components of the [[SASP|Senescence-Associated Secretory Phenotype]], mediating both SASP regulation and intercellular communication between senescent cells and their microenvironment.
 
 ## Mechanism of Action & Signaling
 
@@ -44,7 +44,7 @@ Circulating senescence-associated miRNAs are candidate biomarkers of [[Inflammag
 
 ## Connections
 
-- [[Senescence-Associated Secretory Phenotype|SASP]]: miRNAs are SASP components
+- [[SASP|Senescence-Associated Secretory Phenotype]]: miRNAs are SASP components
 - [[SIRT4]]: miR-15b inhibits SIRT4-mediated SASP
 - [[Paracrine Senescence|paracrine senescence]]: miRNAs mediate paracrine senescence
 - [[Inflammaging]]: miRNAs contribute to age-related inflammation
@@ -53,5 +53,5 @@ Circulating senescence-associated miRNAs are candidate biomarkers of [[Inflammag
 
 ## Linking Summary
 
-- New links added: [[Senescence-Associated Secretory Phenotype|SASP]], [[SIRT4]], [[Paracrine Senescence|paracrine senescence]], [[Inflammaging]], [[p16 INK4a]], [[p53]]
-  - Strong connections to strengthen: [[miRNA]] ↔ [[SASP]], [[miRNA]] ↔ intercellular communication
+- New links added: [[SASP|Senescence-Associated Secretory Phenotype]], [[SIRT4]], [[Paracrine Senescence|paracrine senescence]], [[Inflammaging]], [[p16 INK4a]], [[p53]]
+  - Strong connections to strengthen: [[miRNA]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]], [[miRNA]] ↔ intercellular communication

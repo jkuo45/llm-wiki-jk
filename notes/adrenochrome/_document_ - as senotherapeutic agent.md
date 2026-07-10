@@ -36,7 +36,7 @@ The premise that [[Adrenochrome]] could selectively induce [[Apoptosis]] in thes
 
 ### 2. The Senomorphic Hypothesis: SASP Modulation
 
-[[Senomorphics]] suppress the pro-inflammatory transcription of the [[Senescence-Associated Secretory Phenotype]] (SASP) without directly killing the senescent cell, effectively shifting it into a less harmful, quiescent-like state. [[Adrenochrome]] could theoretically exert a senomorphic effect through covalent modification and transcription factor crosstalk:
+[[Senomorphics]] suppress the pro-inflammatory transcription of the [[SASP|Senescence-Associated Secretory Phenotype]] (SASP) without directly killing the senescent cell, effectively shifting it into a less harmful, quiescent-like state. [[Adrenochrome]] could theoretically exert a senomorphic effect through covalent modification and transcription factor crosstalk:
 
 - **Electrophilic Covalent Modification:** [[Aminochromes]] are strong [[Electrophile|electrophiles]] capable of reacting with nucleophilic sulfhydryl (cysteine) groups on cellular proteins via [[Michael addition]]. Key upstream regulators of the SASP — such as [[IKK]] ([[IκB kinase]]) and the [[p65]] subunit of [[NF-κB]] — rely on critical cysteine residues for their activation and DNA-binding capacity. Covalent modification of these residues by low concentrations of [[Adrenochrome]] could permanently inhibit [[NF-κB]] signaling, thereby blunting the transcription of major SASP factors like [[IL-6]] and [[IL-8]].
 
@@ -84,6 +84,6 @@ To explore this hypothesis with scientific rigor, preliminary in vitro models co
 
 ## Linking Summary
 
-  - New links added: [[Senolytics]], [[Senomorphics]], [[Cellular Senescence]], [[Senescence-Associated Secretory Phenotype]], [[Reactive Oxygen Species]], [[NADPH-cytochrome P450 reductase]], [[Superoxide anion]], [[NQO1]], [[GSTM2]], [[DT-diaphorase]], [[Glutathione S-Transferase]], [[IKK]], [[IκB kinase]], [[p65]], [[IL-6]], [[IL-8]], [[Matrix Metalloproteinases]], [[Electrophile]], [[Keap1]], [[Nrf2]], [[Antioxidant Response Element]], [[Parkinson's Disease]], [[α-synuclein]], [[Tubulin]], [[Mitochondrial Dysfunction]], [[Autophagy]], [[Coronary artery constriction]], [[Arrhythmias]], [[Calcium Ions]], [[Fibroblasts]], [[Senescent cell anti-apoptotic pathways]]
+  - New links added: [[Senolytics]], [[Senomorphics]], [[Cellular Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Reactive Oxygen Species]], [[NADPH-cytochrome P450 reductase]], [[Superoxide anion]], [[NQO1]], [[GSTM2]], [[DT-diaphorase]], [[Glutathione S-Transferase]], [[IKK]], [[IκB kinase]], [[p65]], [[IL-6]], [[IL-8]], [[Matrix Metalloproteinases]], [[Electrophile]], [[Keap1]], [[Nrf2]], [[Antioxidant Response Element]], [[Parkinson's Disease]], [[α-synuclein]], [[Tubulin]], [[Mitochondrial Dysfunction]], [[Autophagy]], [[Coronary artery constriction]], [[Arrhythmias]], [[Calcium Ions]], [[Fibroblasts]], [[Senescent cell anti-apoptotic pathways]]
   - Suggested new entity notes to create: [[IKK]], [[IκB kinase]], [[p65]], [[Senescent cell anti-apoptotic pathways]], [[NADPH-cytochrome P450 reductase]], [[GSTM2]], [[GSH]]
   - Strong connections to strengthen: [[Adrenochrome]] ↔ [[Senomorphics]], [[Adrenochrome]] ↔ [[NF-κB]], [[NQO1]] ↔ [[Aminochromes]] (protective role)

@@ -15,7 +15,7 @@ aliases:
 
 # Topologically Associating Domain
 
-A topologically associating domain (TAD) is a contiguous genomic region — typically tens to hundreds of kilobases up to a few megabases — within which DNA sequences physically contact one another far more frequently than with sequences outside the domain. TADs are fundamental units of higher-order chromosome folding and constrain enhancer–promoter communication. In senescence, TAD-scale rewiring of the 3D genome reshapes [[Enhancer-Promoter Looping|enhancer-promoter looping]] to drive [[SASP]] expression, as reviewed in the npj Aging survey of the senescent epigenetic landscape (Dasgupta et al., 2024; https://doi.org/10.1038/s41514-024-00172-2).
+A topologically associating domain (TAD) is a contiguous genomic region — typically tens to hundreds of kilobases up to a few megabases — within which DNA sequences physically contact one another far more frequently than with sequences outside the domain. TADs are fundamental units of higher-order chromosome folding and constrain enhancer–promoter communication. In senescence, TAD-scale rewiring of the 3D genome reshapes [[Enhancer-Promoter Looping|enhancer-promoter looping]] to drive [[SASP|Senescence-Associated Secretory Phenotype]] expression, as reviewed in the npj Aging survey of the senescent epigenetic landscape (Dasgupta et al., 2024; https://doi.org/10.1038/s41514-024-00172-2).
 
 ## Definition
 
@@ -48,10 +48,10 @@ Because TAD rewiring is upstream of SASP, factors that organize TADs (METTL3/14,
 - [[H3K27ac]]: Active-enhancer mark remodeled at TAD scale in senescence.
 - [[HMGB2]]: Boundary/architecture factor shaping TADs.
 - [[METTL3]]: m6A complex that redistributes to promote senescence contacts.
-- [[SASP]]: TAD rewiring drives SASP transcription.
+- [[SASP|Senescence-Associated Secretory Phenotype]]: TAD rewiring drives SASP transcription.
 
 ## Linking Summary
 
-- New links added: [[Enhancer-Promoter Looping]], [[Super-enhancer]], [[H3K27ac]], [[HMGB2]], [[HMGB1]], [[METTL3]], [[SASP]], [[Senomorphic]], [[KDM4]], [[BRD4]], [[DOT1L]], [[Chromatin Remodeling]], [[Senescence]]
+- New links added: [[Enhancer-Promoter Looping]], [[Super-enhancer]], [[H3K27ac]], [[HMGB2]], [[HMGB1]], [[METTL3]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Senomorphic]], [[KDM4]], [[BRD4]], [[DOT1L]], [[Chromatin Remodeling]], [[Senescence]]
 - Suggested new entity notes to create: [[CTCF]], [[Cohesin]], [[Loop Extrusion]]
 - Strong connections to strengthen: [[Topologically Associating Domain]] ↔ [[Enhancer-Promoter Looping]]; [[Topologically Associating Domain]] ↔ [[Super-enhancer]]

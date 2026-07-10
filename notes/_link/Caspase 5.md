@@ -14,7 +14,7 @@ aliases: [Caspase 5, CASP5]
 
 # Caspase 5
 
-Caspase 5 is a human inflammatory (non-canonical) caspase, paralogous to [[Caspase 11]] (mouse) and [[Caspase 4]] (human). It is best known for its role in the non-canonical inflammasome: in response to cytosolic danger signals it oligomerizes and cleaves [[Gasdermin D]], generating plasma-membrane pores that drive [[Pyroptosis]] and release of inflammatory mediators. In the context of senescence, caspase 5 (and its orthologs) also contributes to [[IL-1α]] processing, a regulatory step embedded in the [[Senescence-Associated Secretory Phenotype|SASP]].
+Caspase 5 is a human inflammatory (non-canonical) caspase, paralogous to [[Caspase 11]] (mouse) and [[Caspase 4]] (human). It is best known for its role in the non-canonical inflammasome: in response to cytosolic danger signals it oligomerizes and cleaves [[Gasdermin D]], generating plasma-membrane pores that drive [[Pyroptosis]] and release of inflammatory mediators. In the context of senescence, caspase 5 (and its orthologs) also contributes to [[IL-1α]] processing, a regulatory step embedded in the [[SASP|Senescence-Associated Secretory Phenotype]].
 
 ## Mechanism of Action & Signaling
 
@@ -46,9 +46,9 @@ Caspase 5 is a human inflammatory (non-canonical) caspase, paralogous to [[Caspa
 - [[Caspase 11]]: Mouse ortholog with overlapping non-canonical functions
 - [[Gasdermin D]]: Substrate cleaved by caspase 5 to form pyroptotic pores
 - [[Caspase-1]]: Cooperates with caspase 5 in inflammasome amplification
-- [[Senescence-Associated Secretory Phenotype|SASP]]: Caspase 5 activates SASP through IL-1α
+- [[SASP|Senescence-Associated Secretory Phenotype]]: Caspase 5 activates SASP through IL-1α
 
 ## Linking Summary
 
-- New links added: [[IL-1α]], [[Caspase 4]], [[Caspase 11]], [[Gasdermin D]], [[Caspase-1]], [[Pyroptosis]], [[Senescence-Associated Secretory Phenotype|SASP]]
+- New links added: [[IL-1α]], [[Caspase 4]], [[Caspase 11]], [[Gasdermin D]], [[Caspase-1]], [[Pyroptosis]], [[SASP|Senescence-Associated Secretory Phenotype]]
 - Strong connections to strengthen: Caspase 5 ↔ [[IL-1α]] activation, Caspase 5 ↔ [[Gasdermin D]]

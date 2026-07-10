@@ -15,7 +15,7 @@ protected: true
 
 # Paracrine Senescence
 
-**Paracrine senescence** (also called bystander senescence or secondary senescence) is the process by which [[Senescence-Associated Secretory Phenotype|SASP factors]] secreted by senescent cells induce [[Cellular Senescence]] in neighbouring healthy cells, spreading the senescence phenotype through tissues. It explains why small numbers of senescent cells can drive disproportionate tissue dysfunction and why local senescent-cell burden amplifies with age (Acosta et al., 2013; PMID 23636316; Nelson et al., 2018, PMID 29902437).
+**Paracrine senescence** (also called bystander senescence or secondary senescence) is the process by which [[SASP|Senescence-Associated Secretory Phenotype]] secreted by senescent cells induce [[Cellular Senescence]] in neighbouring healthy cells, spreading the senescence phenotype through tissues. It explains why small numbers of senescent cells can drive disproportionate tissue dysfunction and why local senescent-cell burden amplifies with age (Acosta et al., 2013; PMID 23636316; Nelson et al., 2018, PMID 29902437).
 
 ## Mechanism
 
@@ -84,7 +84,7 @@ List of documents that mention this entity
     - Shows how SASP from senescent fibroblasts promotes paracrine tumor progression: IL-6/IL-8 stimulate epithelial cell proliferation, MMPs enable invasion, VEGF drives angiogenesis, and chemokine gradients recruit immunosuppressive cells. p53 loss amplifies the pro-tumorigenic paracrine effects.
 
 ## Connections
-- [[Senescence-Associated Secretory Phenotype|SASP]] — the effector molecules driving paracrine senescence
+- [[SASP|Senescence-Associated Secretory Phenotype]] — the effector molecules driving paracrine senescence
 - [[Cellular Senescence]] — the state induced in neighbouring cells
 - [[IL-1α]] — primary SASP factor inducing paracrine senescence
 - [[TGFβ]] — SASP factor promoting paracrine senescence in tumour microenvironments
@@ -114,4 +114,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Paracrine Senescence]], [[IL-1α]], [[TGFβ]], [[Notch]], [[IFITM3]], [[CCL2]], [[VEGF]], [[Senolytic Therapy|Senolytics]], [[Senomorphic Therapy]], [[CCL20]], [[DNA Damage Response]], [[Inflammaging]], [[Idiopathic Pulmonary Fibrosis]], [[PI3K]], [[Akt]]
 - Suggested new entity notes to create: [[CCL20]], [[Bystander Effect]], [[Exosomes]]
-  - Strong connections to strengthen: [[Paracrine Senescence]] ↔ [[SASP]], [[Paracrine Senescence]] ↔ Cellular Senescence, [[Paracrine Senescence]] ↔ [[Aging]], [[Paracrine Senescence]] ↔ [[Inflammaging]]
+  - Strong connections to strengthen: [[Paracrine Senescence]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]], [[Paracrine Senescence]] ↔ Cellular Senescence, [[Paracrine Senescence]] ↔ [[Aging]], [[Paracrine Senescence]] ↔ [[Inflammaging]]

@@ -16,7 +16,7 @@ protected: true
 
 # Senescence-Associated Distension of Satellites
 
-Senescence-associated distension of satellites (SADS) is the striking decompaction of constitutive pericentromeric/pericentrosomal satellite heterochromatin that occurs in many senescent cell models independently of [[Senescence-Associated Heterochromatin Foci|SAHF]] formation. Coined by Swanson et al. (2013, PMID 24191035), SADS is an early and consistent feature of senescence that remodels the heterochromatic landscape and generates new contacts between satellite repeats and inflammatory [[SASP]] gene loci. It is reviewed in the npj Aging survey of the senescent epigenetic landscape (Dasgupta et al., 2024; https://doi.org/10.1038/s41514-024-00172-2).
+Senescence-associated distension of satellites (SADS) is the striking decompaction of constitutive pericentromeric/pericentrosomal satellite heterochromatin that occurs in many senescent cell models independently of [[Senescence-Associated Heterochromatin Foci|SAHF]] formation. Coined by Swanson et al. (2013, PMID 24191035), SADS is an early and consistent feature of senescence that remodels the heterochromatic landscape and generates new contacts between satellite repeats and inflammatory [[SASP|Senescence-Associated Secretory Phenotype]] gene loci. It is reviewed in the npj Aging survey of the senescent epigenetic landscape (Dasgupta et al., 2024; https://doi.org/10.1038/s41514-024-00172-2).
 
 ## Definition
 
@@ -45,13 +45,13 @@ Because SADS remodels接触 with SASP loci, it is part of the chromatin substrat
 ## Connections
 
 - [[Senescence-Associated Heterochromatin Foci]]: Distinct facultative heterochromatin structures; SADS is constitutive and SAHF-independent.
-- [[SASP]]: SADS contacts influence SASP loci.
+- [[SASP|Senescence-Associated Secretory Phenotype]]: SADS contacts influence SASP loci.
 - [[CENP-A]]: Centromeric histone displaced during senescence decompaction.
 - [[Heterochromatin]]: SADS is decompaction of constitutive heterochromatin.
 - [[LINE-1]]: Satellite derepression connects to retroelement activation.
 
 ## Linking Summary
 
-- New links added: [[Senescence-Associated Heterochromatin Foci]], [[SASP]], [[CENP-A]], [[Heterochromatin]], [[LINE-1]], [[Human Endogenous Retrovirus]], [[Inflammaging]], [[KDM4]], [[BRD4]], [[Senomorphic]], [[Senescence]]
+- New links added: [[Senescence-Associated Heterochromatin Foci]], [[SASP|Senescence-Associated Secretory Phenotype]], [[CENP-A]], [[Heterochromatin]], [[LINE-1]], [[Human Endogenous Retrovirus]], [[Inflammaging]], [[KDM4]], [[BRD4]], [[Senomorphic]], [[Senescence]]
 - Suggested new entity notes to create: [[Satellite DNA]], [[Satellite II]]
-- Strong connections to strengthen: [[Senescence-Associated Distension of Satellites]] ↔ [[Heterochromatin]]; [[Senescence-Associated Distension of Satellites]] ↔ [[SASP]]
+- Strong connections to strengthen: [[Senescence-Associated Distension of Satellites]] ↔ [[Heterochromatin]]; [[Senescence-Associated Distension of Satellites]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]]

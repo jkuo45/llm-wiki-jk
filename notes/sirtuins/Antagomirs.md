@@ -28,7 +28,7 @@ Antagomirs bind to complementary mature microRNA sequences, forming a duplex tha
 
 Age-associated upregulation of [[miR-217]], [[miR-543]], and [[miR-378]] suppresses [[SIRT1]] translation by binding its 3′-UTR. Antagomirs targeting these miRs:
 - Restore [[SIRT1]] protein levels without requiring direct pharmacological sirtuin activation.
-- Reduce [[p65|RelA/p65]] hyperacetylation, suppressing [[NFKB|NF-κB]]-dependent inflammatory [[SASP|SASP]].
+- Reduce [[p65|RelA/p65]] hyperacetylation, suppressing [[NFKB|NF-κB]]-dependent inflammatory [[SASP|Senescence-Associated Secretory Phenotype]].
 - Provide a highly tissue-specific strategy for [[Epigenetic Alterations|epigenetic]] derepression, avoiding the off-target effects of small-molecule SIRT1 activators like [[Resveratrol]].
 
 ## Advantages Over Small-Molecule Activators
@@ -52,6 +52,6 @@ Age-associated upregulation of [[miR-217]], [[miR-543]], and [[miR-378]] suppres
 - [[NFKB|NF-κB]] — downstream signaling node suppressed by SIRT1 restoration
 
 ## Linking Summary
-- New links added: [[MicroRNA]], [[SIRT1]], [[miR-217]], [[miR-543]], [[miR-378]], [[Locked Nucleic Acid]], [[Lipid Nanoparticles]], [[Senomorphics]], [[NFKB]], [[SASP]], [[p65]], [[Resveratrol]]
+- New links added: [[MicroRNA]], [[SIRT1]], [[miR-217]], [[miR-543]], [[miR-378]], [[Locked Nucleic Acid]], [[Lipid Nanoparticles]], [[Senomorphics]], [[NFKB]], [[SASP|Senescence-Associated Secretory Phenotype]], [[p65]], [[Resveratrol]]
 - Suggested new entity notes to create: None
 - Strong connections to strengthen: [[Antagomirs]] ↔ [[MicroRNA]], [[Antagomirs]] ↔ [[SIRT1]]

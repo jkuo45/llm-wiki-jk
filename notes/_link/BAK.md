@@ -29,7 +29,7 @@ BAK contains BH1–BH3 domains and is held in check by anti-apoptotic partners s
 Activated BAK hetero-oligomerizes with [[BAX]] and additional BAK subunits, permeabilizing the outer membrane and releasing [[Cytochrome C]] and [[Smac DIABLO]]. This initiates the [[Caspases]] cascade and the execution phase of death. The resulting leakage also amplifies [[Reactive Oxygen Species]] and can trigger [[Mitophagy]] via [[Parkin]].
 
 ## Physiology, Redox & Longevity
-BAK-mediated permeabilization intersects with [[Mitochondrial Dysfunction]], senescent-cell survival, and [[Inflammaging]]. Cells that downregulate BAK/BAX resist death and contribute to the [[SASP]] in aging. Senotherapeutics and [[Nicotinamide Riboside]]-associated metabolic remodeling influence these pathways, positioning BAK as a longevity-relevant node linking apoptosis, mitophagy, and redox control.
+BAK-mediated permeabilization intersects with [[Mitochondrial Dysfunction]], senescent-cell survival, and [[Inflammaging]]. Cells that downregulate BAK/BAX resist death and contribute to the [[SASP|Senescence-Associated Secretory Phenotype]] in aging. Senotherapeutics and [[Nicotinamide Riboside]]-associated metabolic remodeling influence these pathways, positioning BAK as a longevity-relevant node linking apoptosis, mitophagy, and redox control.
 
 ## Documents
 

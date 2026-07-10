@@ -15,7 +15,7 @@ aliases:
 
 # CXCR2
 
-CXCR2 (C-X-C chemokine receptor 2), also known as IL-8RB or CD182, is a G-protein-coupled receptor that binds the ELR+ C-X-C chemokines [[CXCL1]], [[CXCL2]], [[CXCL3]], [[CXCL5]], and [[IL-8]] (and CXCL6/7). It is the dominant receptor through which the neutrophil-directed arm of the [[Senescence-Associated Secretory Phenotype|SASP]] acts, and it both mediates and reinforces senescence (Acosta et al., 2013, PMID 23746840).
+CXCR2 (C-X-C chemokine receptor 2), also known as IL-8RB or CD182, is a G-protein-coupled receptor that binds the ELR+ C-X-C chemokines [[CXCL1]], [[CXCL2]], [[CXCL3]], [[CXCL5]], and [[IL-8]] (and CXCL6/7). It is the dominant receptor through which the neutrophil-directed arm of the [[SASP|Senescence-Associated Secretory Phenotype]] acts, and it both mediates and reinforces senescence (Acosta et al., 2013, PMID 23746840).
 
 ## Mechanism of Action & Signaling
 
@@ -50,9 +50,9 @@ CXCR2 (C-X-C chemokine receptor 2), also known as IL-8RB or CD182, is a G-protei
 - [[p38 MAPK]]: CXCR2 signals upstream of p38 MAPK
 - [[CEBPβ|C/EBPβ]]: C/EBPβ regulates CXCR2 expression
 - [[DNA Damage Response|DDR]]: CXCR2 lies downstream of the DDR/p53 in senescence
-- [[Senescence-Associated Secretory Phenotype|SASP]]: CXCR2 mediates SASP functions
+- [[SASP|Senescence-Associated Secretory Phenotype]]: CXCR2 mediates SASP functions
 
 ## Linking Summary
 
-- New links added: [[CXCL1]], [[CXCL2]], [[CXCL3]], [[CXCL5]], [[IL-8]], [[p38 MAPK]], [[CEBPβ|C/EBPβ]], [[NF-κB]], [[DNA Damage Response|DDR]], [[Apoptosis]], [[Senescence-Associated Secretory Phenotype|SASP]], [[Inflammaging]]
+- New links added: [[CXCL1]], [[CXCL2]], [[CXCL3]], [[CXCL5]], [[IL-8]], [[p38 MAPK]], [[CEBPβ|C/EBPβ]], [[NF-κB]], [[DNA Damage Response|DDR]], [[Apoptosis]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Inflammaging]]
   - Strong connections to strengthen: [[CXCR2]] ↔ ELR+ CXC chemokines, [[CXCR2]] ↔ senescence reinforcement

@@ -22,7 +22,7 @@ METTL14 folds into a catalytic-competent heterodimer with METTL3; METTL3 provide
 
 ## Role in Senescence / SASP
 
-METTL14 is an epitranscriptomic and chromatin regulator of the [[Senescence-Associated Secretory Phenotype|SASP]]:
+METTL14 is an epitranscriptomic and chromatin regulator of the [[SASP|Senescence-Associated Secretory Phenotype]]:
 - The METTL3–METTL14 complex promotes SASP factor expression via m6A marking of secretory transcripts.
 - It brings enhancers close to SASP gene promoters, potentiating NF-κB signaling.
 - Loss of METTL14 (or METTL3) dampens IL-6/IL-8 and interferon-stimulated SASP components.
@@ -43,9 +43,9 @@ Because m6A writers integrate metabolic state (SAM availability) and senescence 
 
 - [[METTL3]]: METTL14 forms a complex with METTL3
 - [[NF-κB]]: METTL14 promotes SASP genes with NF-κB binding sites
-- [[Senescence-Associated Secretory Phenotype|SASP]]: METTL14 promotes SASP expression
+- [[SASP|Senescence-Associated Secretory Phenotype]]: METTL14 promotes SASP expression
 
 ## Linking Summary
 
-- New links added: [[METTL3]], [[NF-κB]], [[Senescence-Associated Secretory Phenotype|SASP]]
+- New links added: [[METTL3]], [[NF-κB]], [[SASP|Senescence-Associated Secretory Phenotype]]
 - Strong connections to strengthen: [[METTL14]] ↔ METTL3, [[METTL14]] ↔ SASP regulation

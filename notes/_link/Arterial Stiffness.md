@@ -34,7 +34,7 @@ Arterial stiffness arises from structural and functional changes in the arterial
 
 ### Functional Changes
 - **Endothelial dysfunction**: Reduced [[Nitric Oxide|NO]] bioavailability impairs flow-mediated vasodilation, contributing to increased afterload
-- **Smooth muscle cell stiffening**: Age-related increase in vascular smooth muscle cell intrinsic stiffness, driven by cytoskeletal remodeling and [[SASP|senescence]]-associated secretory phenotype factors
+- **Smooth muscle cell stiffening**: Age-related increase in vascular smooth muscle cell intrinsic stiffness, driven by cytoskeletal remodeling and [[SASP|Senescence-Associated Secretory Phenotype]]-associated secretory phenotype factors
 
 ## Measurement
 

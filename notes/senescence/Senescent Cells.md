@@ -23,7 +23,7 @@ protected: true
 They are characterized by:
 - **Proliferative arrest**: Enforced by the [[p53]]/[[p21 CIP1|p21]] and [[p16 INK4a|p16]]/[[Retinoblastoma Protein|Rb]] pathways (the [[CDKN2A]] locus is central).
 - **Apoptosis resistance**: Upregulation of [[Senescent cell anti-apoptotic pathways|SCAPs]], including [[Bcl-2]] family proteins and [[PI3K]]/[[Akt]] survival signaling.
-- **SASP**: The [[Senescence-Associated Secretory Phenotype|SASP]]—a complex secretion of cytokines ([[IL-6]], [[IL-1α]]), chemokines ([[CCL2]]), growth factors, and proteases (MMPs) that reshape the tissue microenvironment.
+- **SASP**: The [[SASP|Senescence-Associated Secretory Phenotype]]—a complex secretion of cytokines ([[IL-6]], [[IL-1α]]), chemokines ([[CCL2]]), growth factors, and proteases (MMPs) that reshape the tissue microenvironment.
 - **Morphological and metabolic markers**: Enlarged flattened morphology, SA-β-galactosidase activity, senescence-associated heterochromatin foci (SAHF), and mitochondrial dysfunction.
 
 ## Mechanism of Action & Signaling
@@ -68,7 +68,7 @@ List of documents that mention this entity
 ## Connections
 
 - [[Senescence]] — Senescent cells are the primary mediators of the senescent state
-- [[Senescence-Associated Secretory Phenotype|SASP]] — Senescent cells produce the SASP
+- [[SASP|Senescence-Associated Secretory Phenotype]] — Senescent cells produce the SASP
 - [[Senescent cell anti-apoptotic pathways|SCAPs]] — Confer apoptosis resistance
 - [[Apoptosis]] — Senescent cells are resistant to apoptosis via SCAPs
 - [[Minority MOMP]] — Sublethal mitochondrial leak drives their SASP
@@ -95,5 +95,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-  - New links added: [[Senescence]], [[Senescence-Associated Secretory Phenotype|SASP]], [[Senescent cell anti-apoptotic pathways|SCAPs]], [[Apoptosis]], [[Minority MOMP]], [[Aging]], [[Cancer]], [[Senolytics]], [[Senomorphic Therapy]], [[CDKN2A]], [[IL-1α]], [[IL-6]], [[CCL2]], [[mtDNA]]
-  - Strong connections to strengthen: Senescent Cells ↔ [[SASP]], Senescent Cells ↔ [[Senescent cell anti-apoptotic pathways|SCAPs]], Senescent Cells ↔ [[Aging]]
+  - New links added: [[Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Senescent cell anti-apoptotic pathways|SCAPs]], [[Apoptosis]], [[Minority MOMP]], [[Aging]], [[Cancer]], [[Senolytics]], [[Senomorphic Therapy]], [[CDKN2A]], [[IL-1α]], [[IL-6]], [[CCL2]], [[mtDNA]]
+  - Strong connections to strengthen: Senescent Cells ↔ [[SASP|Senescence-Associated Secretory Phenotype]], Senescent Cells ↔ [[Senescent cell anti-apoptotic pathways|SCAPs]], Senescent Cells ↔ [[Aging]]

@@ -95,12 +95,12 @@ The Urokinase Plasminogen Activator Receptor (uPAR, also known as CD87) is a gly
 
 - [[uPA]]: uPAR is the receptor for uPA, localizing its proteolytic activity
 - [[PAI-1]]: PAI-1 inhibits the uPA-uPAR complex
-- [[SASP]]: uPAR expression is induced by SASP signals
+- [[SASP|Senescence-Associated Secretory Phenotype]]: uPAR expression is induced by SASP signals
 - [[Breast Cancer]]: High uPAR correlates with poor prognosis
 - [[Prostate Cancer]]: uPAR promotes prostate cancer invasion
 - [[Plasminogen]]: uPAR localizes plasminogen activation to the cell surface
 
 ## Linking Summary
 
-- New links added: [[uPAR]], [[uPA]], [[PAI-1]], [[SASP]], [[Breast Cancer]], [[Prostate Cancer]], [[Plasminogen]]
-- Strong connections to strengthen: [[uPAR]] ↔ [[uPA]], [[uPAR]] ↔ [[SASP]], [[uPAR]] ↔ [[PAI-1]]
+- New links added: [[uPAR]], [[uPA]], [[PAI-1]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Breast Cancer]], [[Prostate Cancer]], [[Plasminogen]]
+- Strong connections to strengthen: [[uPAR]] ↔ [[uPA]], [[uPAR]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]], [[uPAR]] ↔ [[PAI-1]]

@@ -19,7 +19,7 @@ tags:
 # The Senescence-Associated Secretory Phenotype and Its Physiological and Pathological Implications
 
 > [!abstract] Abstract
-> [[Cellular Senescence]] is a state of terminal growth arrest associated with the upregulation of different cell cycle inhibitors, mainly [[p16 INK4a|p16]] and [[p21 CIP1|p21]], structural and metabolic alterations, chronic [[DNA Damage Response|DNA damage responses]], and a hypersecretory state known as the [[Senescence-Associated Secretory Phenotype|SASP]]. The SASP is the major mediator of the paracrine effects of senescent cells in their tissue microenvironment and of various local and systemic biological functions.
+> [[Cellular Senescence]] is a state of terminal growth arrest associated with the upregulation of different cell cycle inhibitors, mainly [[p16 INK4a|p16]] and [[p21 CIP1|p21]], structural and metabolic alterations, chronic [[DNA Damage Response|DNA damage responses]], and a hypersecretory state known as the [[SASP|Senescence-Associated Secretory Phenotype]]. The SASP is the major mediator of the paracrine effects of senescent cells in their tissue microenvironment and of various local and systemic biological functions.
 
 ## Introduction
 
@@ -41,7 +41,7 @@ A major common feature of senescent cells is the upregulation of cyclin-dependen
 [[DNA Damage Response|DNA damage responses]] (DDR) that cannot be resolved are major inducers of senescence through serine phosphorylation and [[p53]] activation. Senescent cells exhibit priming to undergo apoptosis but survive because of the upregulation of various anti-apoptotic mechanisms. Pharmacological or genetic inhibition of anti-apoptotic proteins is sufficient to trigger apoptosis — a concept exploited for the development of [[Senolytic Therapy|senolytic therapy]].
 
 > [!tip] Key Concept
-> The [[Senescence-Associated Secretory Phenotype|SASP]] includes various molecules — proteins, lipids, extracellular vesicles and non-coding nucleic acids — that participate in mediating various senescence-associated biological functions in health and disease.
+> The [[SASP|Senescence-Associated Secretory Phenotype]] includes various molecules — proteins, lipids, extracellular vesicles and non-coding nucleic acids — that participate in mediating various senescence-associated biological functions in health and disease.
 
 ## Composition of the SASP
 

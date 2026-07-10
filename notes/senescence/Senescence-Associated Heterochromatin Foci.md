@@ -68,12 +68,12 @@ List of documents that mention this entity
 - [[Histone]]: macroH2A/HIRA/ASF1a deposition builds SAHF
 - [[Heterochromatin]]: SAHF are compact heterochromatin domains
 - [[Epigenetic Alterations]]: SAHF are a product of the senescent epigenetic landscape
-- [[SASP]]: SAHF disruption correlates with reduced SASP expression
+- [[SASP|Senescence-Associated Secretory Phenotype]]: SAHF disruption correlates with reduced SASP expression
 - [[Histone Variant]]: macroH2A and HIRA assemble SAHF
 - [[DNA Methylation]]: part of the repressive chromatin organizing SAHF
 - [[AP-1]]: pioneer factor that opens SASP enhancers outside SAHF
 - [[Cytoplasmic Chromatin Fragments]]: CCF may emerge from heterochromatinized/SAHF regions
 
 ## Linking Summary
-- New links added: [[Retinoblastoma Protein|Rb]], [[Lamin B1]], [[Cellular Senescence]], [[p16 INK4a|p16]], [[p21 CIP1|p21]], [[Histone]], [[Heterochromatin]], [[E2F]], [[Histone Modification]], [[Oncogene-Induced Senescence|OIS]], [[Epigenetic Alterations]], [[SASP]], [[Histone Variant]], [[DNA Methylation]], [[AP-1]], [[Cytoplasmic Chromatin Fragments]]
+- New links added: [[Retinoblastoma Protein|Rb]], [[Lamin B1]], [[Cellular Senescence]], [[p16 INK4a|p16]], [[p21 CIP1|p21]], [[Histone]], [[Heterochromatin]], [[E2F]], [[Histone Modification]], [[Oncogene-Induced Senescence|OIS]], [[Epigenetic Alterations]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Histone Variant]], [[DNA Methylation]], [[AP-1]], [[Cytoplasmic Chromatin Fragments]]
   - Strong connections to strengthen: SAHF ↔ [[Rb]], SAHF ↔ [[Cellular Senescence]], SAHF ↔ [[Lamin B1]]

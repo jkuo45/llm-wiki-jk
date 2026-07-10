@@ -14,7 +14,7 @@ aliases: [EPHA2, Ephrin type A receptor 2, ephrin receptor A2, ephrin receptor E
 
 # Ephrin Type A Receptor 2 (EPHA2)
 
-**Ephrin Type A Receptor 2 (EPHA2)** is a receptor tyrosine kinase of the largest family of receptor tyrosine kinases. It is a mediator of the pro-tumorigenic effects of the [[Senescence-Associated Secretory Phenotype|SASP]]: exosomes released by senescent cells activate EPHA2 on neighboring cancer cells, promoting proliferation and invasion.
+**Ephrin Type A Receptor 2 (EPHA2)** is a receptor tyrosine kinase of the largest family of receptor tyrosine kinases. It is a mediator of the pro-tumorigenic effects of the [[SASP|Senescence-Associated Secretory Phenotype]]: exosomes released by senescent cells activate EPHA2 on neighboring cancer cells, promoting proliferation and invasion.
 
 ## Mechanism of Action & Signaling
 
@@ -34,7 +34,7 @@ EPHA2 is amplified, overexpressed or mislocalized in multiple cancers (breast, l
 
 ## Connections
 
-- [[Senescence-Associated Secretory Phenotype|SASP]]: EPHA2 mediates SASP-driven cancer promotion
+- [[SASP|Senescence-Associated Secretory Phenotype]]: EPHA2 mediates SASP-driven cancer promotion
 - [[Cancer]]: EPHA2 promotes cancer cell proliferation
 - [[Epithelial-to-mesenchymal transition|EMT]]: EPHA2 cross-talks with EMT
 - [[PI3K]], [[AKT]], [[FAK]], [[MAPK]], [[TGF-β]]: downstream/associated pathways
@@ -42,5 +42,5 @@ EPHA2 is amplified, overexpressed or mislocalized in multiple cancers (breast, l
 
 ## Linking Summary
 
-- New links added: [[Senescence-Associated Secretory Phenotype|SASP]], [[Cancer]], [[Epithelial-to-mesenchymal transition|EMT]], [[PI3K]], [[AKT]], [[FAK]], [[MAPK]], [[TGF-β]], [[Tumor Microenvironment]], [[Metastasis]]
+- New links added: [[SASP|Senescence-Associated Secretory Phenotype]], [[Cancer]], [[Epithelial-to-mesenchymal transition|EMT]], [[PI3K]], [[AKT]], [[FAK]], [[MAPK]], [[TGF-β]], [[Tumor Microenvironment]], [[Metastasis]]
   - Strong connections to strengthen: EPHA2 ↔ SASP exosomes, EPHA2 ↔ cancer proliferation, EPHA2 ↔ [[Tumor Microenvironment]]

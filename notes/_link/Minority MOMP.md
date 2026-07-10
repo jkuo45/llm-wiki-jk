@@ -51,9 +51,9 @@ List of documents that mention this entity
 - [[mtDNA]] — Releases mtDNA into the cytosol
 - [[cGAS-STING Pathway|cGAS–STING]] — Cytosolic mtDNA activates this pathway
 - [[BAX]] / [[BAK]] — Pro-apoptotic proteins that form miMOMP pores
-- [[Senescence-Associated Secretory Phenotype|SASP]] — Drives SASP production
+- [[SASP|Senescence-Associated Secretory Phenotype]] — Drives SASP production
 
 ## Linking Summary
 
-  - New links added: [[Apoptosis]], [[Senescence]], [[mtDNA]], [[cGAS-STING Pathway|cGAS–STING]], [[BAX]], [[BAK]], [[Mitochondrial outer membrane permeabilization|MOMP]], [[Senescence-Associated Secretory Phenotype|SASP]], [[TBK1]]
-  - Strong connections to strengthen: Minority MOMP ↔ [[Senescence]], Minority MOMP ↔ [[SASP]], Minority MOMP ↔ [[cGAS-STING Pathway|cGAS–STING]]
+  - New links added: [[Apoptosis]], [[Senescence]], [[mtDNA]], [[cGAS-STING Pathway|cGAS–STING]], [[BAX]], [[BAK]], [[Mitochondrial outer membrane permeabilization|MOMP]], [[SASP|Senescence-Associated Secretory Phenotype]], [[TBK1]]
+  - Strong connections to strengthen: Minority MOMP ↔ [[Senescence]], Minority MOMP ↔ [[SASP|Senescence-Associated Secretory Phenotype]], Minority MOMP ↔ [[cGAS-STING Pathway|cGAS–STING]]

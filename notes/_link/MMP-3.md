@@ -16,7 +16,7 @@ aliases: [MMP-3, matrix metalloproteinase-3, stromelysin-1]
 
 # MMP-3
 
-**Matrix metalloproteinase-3 (MMP-3)**, also known as stromelysin-1, is a zinc-dependent endopeptidase secreted as a component of the [[Senescence-Associated Secretory Phenotype|SASP]]. It is a broad-spectrum ECM-degrading enzyme that promotes tissue remodelling, [[Epithelial-to-mesenchymal transition|EMT]] and cancer progression.
+**Matrix metalloproteinase-3 (MMP-3)**, also known as stromelysin-1, is a zinc-dependent endopeptidase secreted as a component of the [[SASP|Senescence-Associated Secretory Phenotype]]. It is a broad-spectrum ECM-degrading enzyme that promotes tissue remodelling, [[Epithelial-to-mesenchymal transition|EMT]] and cancer progression.
 
 ## Mechanism of Action & Signaling
 
@@ -40,12 +40,12 @@ MMP-3 is elevated in [[Rheumatoid Arthritis]], osteoarthritis and invasive cance
 - [[MMP1]]: MMP-3 activates pro-MMP-1 in SASP
 - [[MMP-9]]: MMP-9 is activated by MMP-3
 - [[MMP-12]]: MMP-12 is related to MMP-3 in SASP
-- [[Senescence-Associated Secretory Phenotype|SASP]]: MMP-3 is a SASP protease
+- [[SASP|Senescence-Associated Secretory Phenotype]]: MMP-3 is a SASP protease
 - [[Epithelial-to-mesenchymal transition|EMT]]: MMP-3 induces EMT
 - [[NF-κB]], [[AP-1]]: transcriptional regulators
 - [[Extracellular Matrix]], [[TIMP3]]: substrate and inhibitor
 
 ## Linking Summary
 
-- New links added: [[MMP1]], [[MMP-9]], [[MMP-12]], [[Senescence-Associated Secretory Phenotype|SASP]], [[Epithelial-to-mesenchymal transition|EMT]], [[NF-κB]], [[AP-1]], [[Extracellular Matrix]], [[TIMP3]], [[Collagen]], [[Elastin]], [[TGF-β]], [[Fibroblasts]], [[Tumor Microenvironment]], [[Rheumatoid Arthritis]]
-  - Strong connections to strengthen: [[MMP-3]] ↔ [[SASP]], [[MMP-3]] ↔ cancer progression, [[MMP-3]] ↔ [[Epithelial-to-mesenchymal transition|EMT]]
+- New links added: [[MMP1]], [[MMP-9]], [[MMP-12]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Epithelial-to-mesenchymal transition|EMT]], [[NF-κB]], [[AP-1]], [[Extracellular Matrix]], [[TIMP3]], [[Collagen]], [[Elastin]], [[TGF-β]], [[Fibroblasts]], [[Tumor Microenvironment]], [[Rheumatoid Arthritis]]
+  - Strong connections to strengthen: [[MMP-3]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]], [[MMP-3]] ↔ cancer progression, [[MMP-3]] ↔ [[Epithelial-to-mesenchymal transition|EMT]]

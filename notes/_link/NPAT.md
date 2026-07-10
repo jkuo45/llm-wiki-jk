@@ -48,11 +48,11 @@ Direct modulation of NPAT is not a current senescence therapy, but understanding
 
 - [[Histone]]: NPAT controls replication-dependent histone gene expression
 - [[Histone Variant]]: variants accumulate as NPAT-driven canonical histones fall
-- [[SASP]]: histone loss downstream of NPAT inactivation promotes SASP
+- [[SASP|Senescence-Associated Secretory Phenotype]]: histone loss downstream of NPAT inactivation promotes SASP
 - [[Senescence]]: NPAT disengagement in permanent arrest
 
 ## Linking Summary
 
-- New links added: [[Histone]], [[Histone Variant]], [[SASP]], [[Senescence]], [[Senomorphic]], [[Cyclin E]]
+- New links added: [[Histone]], [[Histone Variant]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Senescence]], [[Senomorphic]], [[Cyclin E]]
 - Suggested new entity notes to create: [[Cyclin E]], [[Histone Locus Body]], [[CDK2]]
-- Strong connections to strengthen: [[NPAT]] ↔ [[Histone]] (biosynthesis control), [[NPAT]] ↔ [[SASP]] (histone-loss axis)
+- Strong connections to strengthen: [[NPAT]] ↔ [[Histone]] (biosynthesis control), [[NPAT]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]] (histone-loss axis)

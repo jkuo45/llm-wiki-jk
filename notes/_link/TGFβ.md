@@ -14,7 +14,7 @@ aliases: [TGFβ, TGF-beta, Transforming growth factor beta, TGF-β]
 
 # TGFβ (Transforming Growth Factor-beta)
 
-**TGFβ (transforming growth factor-beta)** is a multifunctional cytokine that acts as an early [[Senescence-Associated Secretory Phenotype|SASP]] factor involved in tissue remodelling, [[Paracrine Senescence|paracrine senescence]], [[Epithelial-to-mesenchymal transition|EMT]], fibrosis, and immune suppression.
+**TGFβ (transforming growth factor-beta)** is a multifunctional cytokine that acts as an early [[SASP|Senescence-Associated Secretory Phenotype]] factor involved in tissue remodelling, [[Paracrine Senescence|paracrine senescence]], [[Epithelial-to-mesenchymal transition|EMT]], fibrosis, and immune suppression.
 
 ## Mechanism of Action & Signaling
 
@@ -40,12 +40,12 @@ TGFβ is secreted as a latent complex and activated in the extracellular space b
 
 - [[Paracrine Senescence|paracrine senescence]]: TGFβ induces paracrine senescence
 - [[Notch]]: Notch regulates the switch from early (TGFβ) to late SASP
-- [[Senescence-Associated Secretory Phenotype|SASP]]: TGFβ is an early SASP factor
+- [[SASP|Senescence-Associated Secretory Phenotype]]: TGFβ is an early SASP factor
 - [[SMAD2]] / [[SMAD3]]: TGFβ canonical SMAD effectors
 - [[Epithelial-to-mesenchymal transition|EMT]]: TGFβ drives EMT and fibrosis
 - [[Osteoporosis]]: TGFβ impairs bone repair in aging
 
 ## Linking Summary
 
-- New links added: [[Paracrine Senescence|paracrine senescence]], [[Notch]], [[Senescence-Associated Secretory Phenotype|SASP]], [[SMAD2]], [[SMAD3]], [[SMAD4]], [[MAPK]], [[Epithelial-to-mesenchymal transition|EMT]], [[Osteoporosis]]
+- New links added: [[Paracrine Senescence|paracrine senescence]], [[Notch]], [[SASP|Senescence-Associated Secretory Phenotype]], [[SMAD2]], [[SMAD3]], [[SMAD4]], [[MAPK]], [[Epithelial-to-mesenchymal transition|EMT]], [[Osteoporosis]]
   - Strong connections to strengthen: [[TGFβ]] ↔ [[Paracrine Senescence|paracrine senescence]], [[TGFβ]] ↔ early SASP, [[TGFβ]] ↔ [[Epithelial-to-mesenchymal transition|EMT]]

@@ -14,7 +14,7 @@ aliases: [Glucocorticoids, Glucocorticoid, Corticosteroids]
 
 # Glucocorticoids
 
-Glucocorticoids (cortisol, dexamethasone, prednisolone) are adrenal steroid hormones with potent anti-inflammatory effects. They block pro-inflammatory [[Senescence-Associated Secretory Phenotype|SASP]] by impairing [[IL-1α]]-mediated [[NF-κB]] activity via the glucocorticoid receptor, making them a class of [[Senomorphic Therapy|senomorphic]] therapy.
+Glucocorticoids (cortisol, dexamethasone, prednisolone) are adrenal steroid hormones with potent anti-inflammatory effects. They block pro-inflammatory [[SASP|Senescence-Associated Secretory Phenotype]] by impairing [[IL-1α]]-mediated [[NF-κB]] activity via the glucocorticoid receptor, making them a class of [[Senomorphic Therapy|senomorphic]] therapy.
 
 ## Mechanism of Action & Signaling
 
@@ -36,11 +36,11 @@ Glucocorticoids are among the most prescribed anti-inflammatory drugs (asthma, r
 
 - [[IL-1α]]: Glucocorticoids impair IL-1α signaling
 - [[NF-κB]]: Glucocorticoids block NF-κB activity
-- [[Senescence-Associated Secretory Phenotype|SASP]]: Glucocorticoids block pro-inflammatory SASP
+- [[SASP|Senescence-Associated Secretory Phenotype]]: Glucocorticoids block pro-inflammatory SASP
 - [[Senomorphic Therapy|senomorphic therapies]]: Glucocorticoids are senomorphic agents
 - [[Glucocorticoid Receptor]]: Molecular target of glucocorticoids
 
 ## Linking Summary
 
-- New links added: [[IL-1α]], [[NF-κB]], [[Senescence-Associated Secretory Phenotype|SASP]], [[Senomorphic Therapy|senomorphic therapies]], [[Glucocorticoid Receptor]], [[Inflammaging]]
+- New links added: [[IL-1α]], [[NF-κB]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Senomorphic Therapy|senomorphic therapies]], [[Glucocorticoid Receptor]], [[Inflammaging]]
   - Strong connections to strengthen: [[Glucocorticoids]] ↔ SASP inhibition

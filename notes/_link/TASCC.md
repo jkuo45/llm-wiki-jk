@@ -43,10 +43,10 @@ List of documents that mention this entity
 - [[mTORC1]] — active complex on the TASCC
 - [[Autophagy]] — Couples autophagy to SASP production
 - [[IL-1α]] — Promotes translation of IL-1α
-- [[Senescence-Associated Secretory Phenotype|SASP]] — Essential for efficient SASP production
+- [[SASP|Senescence-Associated Secretory Phenotype]] — Essential for efficient SASP production
 - [[Rag GTPases]], [[Rapamycin]], [[ULK1]], [[V-ATPase]], [[4E-BP1]], [[p70S6 kinase|S6K1]], [[Inflammaging]], [[Fibrosis]] — regulators and contexts
 
 ## Linking Summary
 
-  - New links added: [[mTOR]], [[mTORC1]], [[Autophagy]], [[IL-1α]], [[Senescence-Associated Secretory Phenotype|SASP]], [[Rag GTPases]], [[Rapamycin]], [[ULK1]], [[V-ATPase]], [[4E-BP1]], [[p70S6 kinase|S6K1]], [[Inflammaging]], [[Fibrosis]]
-  - Strong connections to strengthen: [[TASCC]] ↔ [[mTOR]], [[TASCC]] ↔ [[SASP]], [[TASCC]] ↔ [[Autophagy]]
+  - New links added: [[mTOR]], [[mTORC1]], [[Autophagy]], [[IL-1α]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Rag GTPases]], [[Rapamycin]], [[ULK1]], [[V-ATPase]], [[4E-BP1]], [[p70S6 kinase|S6K1]], [[Inflammaging]], [[Fibrosis]]
+  - Strong connections to strengthen: [[TASCC]] ↔ [[mTOR]], [[TASCC]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]], [[TASCC]] ↔ [[Autophagy]]

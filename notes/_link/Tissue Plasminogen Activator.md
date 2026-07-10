@@ -45,7 +45,7 @@ tPA initiates fibrinolysis through a well-characterised mechanism:
 
 ## Regulation
 
-- **PAI-1 (Plasminogen Activator Inhibitor-1):** The primary physiological inhibitor of tPA. PAI-1 rapidly inactivates free tPA in plasma, limiting systemic fibrinolysis. PAI-1 is itself a key [[Senescence-Associated Secretory Phenotype|SASP]] factor.
+- **PAI-1 (Plasminogen Activator Inhibitor-1):** The primary physiological inhibitor of tPA. PAI-1 rapidly inactivates free tPA in plasma, limiting systemic fibrinolysis. PAI-1 is itself a key [[SASP|Senescence-Associated Secretory Phenotype]] factor.
 - **PAI-2:** Inhibits tPA less efficiently than PAI-1.
 - **Fibrin:** Serves as both substrate and cofactor that accelerates tPA activity, creating a positive feedback loop at the clot surface.
 - **α2-Antiplasmin:** Rapidly inactivates free plasmin, preventing systemic proteolysis.

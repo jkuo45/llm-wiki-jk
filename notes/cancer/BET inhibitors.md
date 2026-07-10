@@ -14,7 +14,7 @@ source: #
 
 ## Overview
 
-BET (Bromodomain and Extra-Terminal) inhibitors are a class of [[epigenetic]] drugs that target the bromodomains of [[BRD2]], [[BRD3]], [[BRD4]], and [[BRDT]]. These proteins recognize [[acetylated lysine]] residues on [[histone]] tails and regulate [[transcription]] of [[oncogenes]] (e.g., [[MYC]], [[BCL2]]), [[inflammatory]] genes, and [[SASP]] factors.
+BET (Bromodomain and Extra-Terminal) inhibitors are a class of [[epigenetic]] drugs that target the bromodomains of [[BRD2]], [[BRD3]], [[BRD4]], and [[BRDT]]. These proteins recognize [[acetylated lysine]] residues on [[histone]] tails and regulate [[transcription]] of [[oncogenes]] (e.g., [[MYC]], [[BCL2]]), [[inflammatory]] genes, and [[SASP|Senescence-Associated Secretory Phenotype]] factors.
 
 ## Mechanism
 
@@ -25,7 +25,7 @@ BET (Bromodomain and Extra-Terminal) inhibitors are a class of [[epigenetic]] dr
 
 ## Role in Senescence
 
-BET inhibitors can suppress the [[SASP]] by displacing BRD4 from the promoters of SASP genes including [[IL-6]], [[IL-8]], and [[MMP]] family members. This has been proposed as a [[Senomorphic]] strategy to block the harmful effects of SASP without eliminating senescent cells.
+BET inhibitors can suppress the [[SASP|Senescence-Associated Secretory Phenotype]] by displacing BRD4 from the promoters of SASP genes including [[IL-6]], [[IL-8]], and [[MMP]] family members. This has been proposed as a [[Senomorphic]] strategy to block the harmful effects of SASP without eliminating senescent cells.
 
 ## Role in Cancer
 
@@ -42,7 +42,7 @@ BET inhibitors can suppress the [[SASP]] by displacing BRD4 from the promoters o
 
 ## Connections
 
-- [[SASP]]: BET inhibitors suppress SASP gene transcription
+- [[SASP|Senescence-Associated Secretory Phenotype]]: BET inhibitors suppress SASP gene transcription
 - [[Senomorphic]]: Class of drugs that suppress SASP without killing senescent cells
 - [[BRD4]]: Key BET family member targeted by these inhibitors
 - [[MYC]]: Downstream target downregulated by BET inhibition
@@ -53,4 +53,4 @@ BET inhibitors can suppress the [[SASP]] by displacing BRD4 from the promoters o
 
 - New links added: [[BRD2]], [[BRD3]], [[BRD4]], [[BRDT]], [[JQ1]], [[OTX015]], [[ABBV-075]], [[super-enhancer]], [[acetylated lysine]]
 - Suggested new entity notes to create: --none--
-- Strong connections to strengthen: [[BET inhibitors]] ↔ [[SASP]] (senomorphic suppression), [[BET inhibitors]] ↔ [[MYC]] (transcriptional regulation)
+- Strong connections to strengthen: [[BET inhibitors]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]] (senomorphic suppression), [[BET inhibitors]] ↔ [[MYC]] (transcriptional regulation)

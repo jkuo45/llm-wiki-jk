@@ -43,9 +43,9 @@ IκBζ (Inhibitor of NF-κB zeta) is a selective co-activator of [[NF-κB]] for 
 - [[NF-κB]]: IκBζ is a co-activator of NF-κB
 - [[IL-6]]: IκBζ regulates IL-6 expression
 - [[IL-8]]: IκBζ regulates IL-8 expression
-- [[Senescence-Associated Secretory Phenotype|SASP]]: IκBζ is a major SASP regulator
+- [[SASP|Senescence-Associated Secretory Phenotype]]: IκBζ is a major SASP regulator
 
 ## Linking Summary
 
-- New links added: [[NF-κB]], [[IL-6]], [[IL-8]], [[Senescence-Associated Secretory Phenotype|SASP]]
+- New links added: [[NF-κB]], [[IL-6]], [[IL-8]], [[SASP|Senescence-Associated Secretory Phenotype]]
   - Strong connections to strengthen: [[IκBζ]] ↔ NF-κB, [[IκBζ]] ↔ SASP regulation

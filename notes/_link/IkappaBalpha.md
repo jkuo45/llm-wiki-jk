@@ -23,7 +23,7 @@ IκBα contains six [[Ankyrin Repeat]] domains that bind the [[Nuclear Localizat
 
 ## Role in Senescence / SASP
 
-Because IκBα degradation is the rate-limiting step for canonical [[NFKB|NF-κB]] activation, its phosphorylation and turnover sit at the heart of the [[Senescence-Associated Secretory Phenotype|SASP]]. In [[Senescent Cells]], persistent DDR and cytokine signals keep the [[IKK complex]] active, driving continuous IκBα phosphorylation/degradation and sustained nuclear NF-κB — the master transcriptional driver of SASP factors such as [[IL-6]] and [[IL-8]] (Chien et al., 2011, PMID 21876164). Conversely, factors that stabilize IκBα (e.g., inhibition of [[IKKbeta]] or of upstream [[TAK1]], and CK2-mediated protection of IκBα) blunt the SASP. IκBα turnover therefore sets the gain of the NF-κB arm of senescence, and is a key point at which CK2, PKD, TAK1, and IKK converge to license SASP output.
+Because IκBα degradation is the rate-limiting step for canonical [[NFKB|NF-κB]] activation, its phosphorylation and turnover sit at the heart of the [[SASP|Senescence-Associated Secretory Phenotype]]. In [[Senescent Cells]], persistent DDR and cytokine signals keep the [[IKK complex]] active, driving continuous IκBα phosphorylation/degradation and sustained nuclear NF-κB — the master transcriptional driver of SASP factors such as [[IL-6]] and [[IL-8]] (Chien et al., 2011, PMID 21876164). Conversely, factors that stabilize IκBα (e.g., inhibition of [[IKKbeta]] or of upstream [[TAK1]], and CK2-mediated protection of IκBα) blunt the SASP. IκBα turnover therefore sets the gain of the NF-κB arm of senescence, and is a key point at which CK2, PKD, TAK1, and IKK converge to license SASP output.
 
 ## Clinical Relevance
 
@@ -51,9 +51,9 @@ Because IκBα degradation is the rate-limiting step for canonical [[NFKB|NF-κB
 - [[Negative Feedback Loop]] — IκBα is transcriptionally induced by NF-κB
 - [[Hodgkin Lymphoma]] — NFKBIA mutations drive constitutive NF-κB
 - [[glioblastoma]] — NFKBIA deletions are common in this brain cancer
-- [[Senescence-Associated Secretory Phenotype|SASP]] — IκBα turnover gates NF-κB-dependent SASP
+- [[SASP|Senescence-Associated Secretory Phenotype]] — IκBα turnover gates NF-κB-dependent SASP
 
 ## Linking Summary
-- New links added: [[IKK complex]], [[TAK1]], [[NFKB|NF-κB]], [[IL-6]], [[IL-8]], [[Senescence-Associated Secretory Phenotype|SASP]]
+- New links added: [[IKK complex]], [[TAK1]], [[NFKB|NF-κB]], [[IL-6]], [[IL-8]], [[SASP|Senescence-Associated Secretory Phenotype]]
 - Suggested new entity notes to create: [[Canonical NF-κB pathway]], [[NFKBIA mutation]], [[IκBα super-repressor]], [[β-TrCP]], [[SCF E3 ligase]]
-  - Strong connections to strengthen: [[IkappaBalpha]] ↔ NFκB, [[IkappaBalpha]] ↔ [[IKKbeta]], [[IkappaBalpha]] ↔ [[Inflammation]], [[IkappaBalpha]] ↔ [[SASP]]
+  - Strong connections to strengthen: [[IkappaBalpha]] ↔ NFκB, [[IkappaBalpha]] ↔ [[IKKbeta]], [[IkappaBalpha]] ↔ [[Inflammation]], [[IkappaBalpha]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]]

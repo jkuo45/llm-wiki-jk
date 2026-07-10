@@ -61,7 +61,7 @@ List of documents that mention this entity
 - [[Metastasis]] - Bone dissemination defines lethal prostate cancer.
 - [[BRCA1]] / [[BRCA2]] - DNA-repair genes influencing risk and PARP inhibitor use.
 - [[Hallmarks of Cancer]] - Framework for understanding prostate tumor biology.
-- [[SASP]] - Senescent fibroblasts secrete SASP factors (CTGF, amphiregulin, IL-6, IL-8) that promote prostate tumor progression
+- [[SASP|Senescence-Associated Secretory Phenotype]] - Senescent fibroblasts secrete SASP factors (CTGF, amphiregulin, IL-6, IL-8) that promote prostate tumor progression
 - [[Senescent Cells]] - Senescent fibroblasts in the tumor stroma drive prostate cancer through paracrine SASP signaling
 - [[IL-6]] - SASP cytokine; elevated in prostate cancer; promotes tumor cell proliferation through JAK/STAT3
 - [[VEGF]] - SASP growth factor; drives angiogenesis in prostate cancer microenvironment

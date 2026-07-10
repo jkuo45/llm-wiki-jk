@@ -41,7 +41,7 @@ List of documents that mention this entity
 - [[Cancer]] — IL-8 promotes tumor growth and metastasis
 - [[Chronic Inflammation]] — driven in part by IL-8
 - [[Rheumatoid Arthritis]] — IL-8 is a therapeutic target
-- [[SASP]] — IL-8 is a core SASP chemokine
+- [[SASP|Senescence-Associated Secretory Phenotype]] — IL-8 is a core SASP chemokine
 - [[Senescent Cells]] — IL-8 is secreted by senescent cells
 - [[CXCR2]] — IL-8 receptor; mediates chemotaxis of CXCR2+ immune cells and premalignant epithelial cells to the tumor microenvironment
 - [[p53]] — p53 restrains IL-8 expression; p53 loss amplifies SASP-driven cancer promotion
@@ -63,6 +63,6 @@ List of documents that mention this entity
 - [[Histone Variant]] — histone dynamics at the IL-8 locus
 
 ## Linking Summary
-- New links added: [[Chemokine]], [[Neutrophils]], [[Macrophages]], [[Epithelial cells]], [[Endothelial cells]], [[Fibroblasts]], [[TNFα]], [[IL-1β]], [[NF-κB]], [[Reactive Oxygen Species]], [[CXCR1]], [[CXCR2]], [[Chemotaxis]], [[Angiogenesis]], [[Inflammation]], [[Chronic Inflammation]], [[Cancer]], [[Metastasis]], [[Autoimmune Disease]], [[Psoriasis]], [[Rheumatoid Arthritis]], [[COPD]], [[SASP]], [[Epigenetic Alterations]], [[KDM4]], [[EZH2]], [[BRD4]], [[AP-1]], [[cGAS-STING Pathway]], [[LINE-1]], [[DNA Methylation]], [[Senescence-Associated Heterochromatin Foci]], [[Histone Variant]]
+- New links added: [[Chemokine]], [[Neutrophils]], [[Macrophages]], [[Epithelial cells]], [[Endothelial cells]], [[Fibroblasts]], [[TNFα]], [[IL-1β]], [[NF-κB]], [[Reactive Oxygen Species]], [[CXCR1]], [[CXCR2]], [[Chemotaxis]], [[Angiogenesis]], [[Inflammation]], [[Chronic Inflammation]], [[Cancer]], [[Metastasis]], [[Autoimmune Disease]], [[Psoriasis]], [[Rheumatoid Arthritis]], [[COPD]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Epigenetic Alterations]], [[KDM4]], [[EZH2]], [[BRD4]], [[AP-1]], [[cGAS-STING Pathway]], [[LINE-1]], [[DNA Methylation]], [[Senescence-Associated Heterochromatin Foci]], [[Histone Variant]]
 - Suggested new entity notes to create: [[CXCL8]], [[Neutrophil Degranulation]]
   - Strong connections to strengthen: [[IL-8]] ↔ [[Inflammation]], [[IL-8]] ↔ [[Neutrophils]]

@@ -25,7 +25,7 @@ Tumorigenesis (carcinogenesis) is the process by which normal cells acquire gene
 
 ## Role of Senescence
 
-[[Senescence]] acts as a barrier to tumorigenesis by permanently arresting proliferation of pre-malignant cells. This is mediated by [[Oncogene-Induced Senescence]] (OIS), triggered by [[KRAS]] G12V, [[BRAF]] V600E, or other oncogenic insults. However, the [[SASP]] from senescent cells can paradoxically promote tumorigenesis by creating a pro-inflammatory, immunosuppressive microenvironment.
+[[Senescence]] acts as a barrier to tumorigenesis by permanently arresting proliferation of pre-malignant cells. This is mediated by [[Oncogene-Induced Senescence]] (OIS), triggered by [[KRAS]] G12V, [[BRAF]] V600E, or other oncogenic insults. However, the [[SASP|Senescence-Associated Secretory Phenotype]] from senescent cells can paradoxically promote tumorigenesis by creating a pro-inflammatory, immunosuppressive microenvironment.
 
 ---
 
@@ -37,7 +37,7 @@ Tumorigenesis (carcinogenesis) is the process by which normal cells acquire gene
 ## Connections
 
 - [[Senescence]]: Anti-tumorigenic (arrest) and pro-tumorigenic (SASP) roles
-- [[SASP]]: Inflammatory secretome that can promote tumorigenesis
+- [[SASP|Senescence-Associated Secretory Phenotype]]: Inflammatory secretome that can promote tumorigenesis
 - [[Oncogene-Induced Senescence]]: Barrier to tumorigenesis triggered by oncogenic mutations
 - [[Hallmarks of Cancer]]: Framework for understanding tumorigenesis
 - [[Genomic Instability]]: Driving force for tumor progression

@@ -29,7 +29,7 @@ The reactivity of tert-butyl hydroperoxide stems from the weak O-O bond, which u
     - **Lipid Peroxidation**: Destruction of membrane integrity and disruption of signaling pathways.
     - **Mitochondrial Dysfunction**: Oxidative damage to mitochondrial DNA and the electron transport chain, often leading to a further increase in ROS production (a vicious cycle).
 
-4. **Induction of Senescence**: The cumulative effect of oxidative damage—particularly DNA damage and mitochondrial dysfunction—is a major driver of [[Stress-Induced Premature Senescence]]. This involves the activation of the p53/p21 and p16/Rb pathways and the development of a [[SASP]] (Senescence-Associated Secretory Phenotype).
+4. **Induction of Senescence**: The cumulative effect of oxidative damage—particularly DNA damage and mitochondrial dysfunction—is a major driver of [[Stress-Induced Premature Senescence]]. This involves the activation of the p53/p21 and p16/Rb pathways and the development of a [[SASP|Senescence-Associated Secretory Phenotype]] (Senescence-Associated Secretory Phenotype).
 
 ## Research Applications
 

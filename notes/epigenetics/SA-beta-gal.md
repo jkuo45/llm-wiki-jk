@@ -58,5 +58,5 @@ List of documents that mention this entity
 ## Linking Summary
 
 - New links added: [[Replicative Senescence]], [[Cellular Senescence]], [[Aging]], [[Tumor-Suppressor Loss-Induced Senescence]], [[Senolytic Drugs]], [[High-Throughput Screening]], [[Tumorigenicity]], [[Cancer]]
-- Suggested new entity notes to create: [[Senescence-Associated Secretory Phenotype]], [[p16INK4a]], [[SAHF]], [[CDKN1A]], [[Autophagy]]
+- Suggested new entity notes to create: [[SASP|Senescence-Associated Secretory Phenotype]], [[p16INK4a]], [[SAHF]], [[CDKN1A]], [[Autophagy]]
 - Strong connections to strengthen: [[SA-beta-gal]] ↔ [[Cellular Senescence]], [[SA-beta-gal]] ↔ [[Senolytic Drugs]]

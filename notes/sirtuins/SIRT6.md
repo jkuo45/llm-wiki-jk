@@ -126,7 +126,7 @@ Two linked missense variants in SIRT6 — N308K (rs201141490) and A313S (rs18344
 - **[[LINE-1]]** — SIRT6 represses LINE1; centenarian variants suppress progerin-induced LINE1 derepression.
 - **[[Hutchinson-Gilford Progeria Syndrome]]** — AAV-CentSIRT6 reduces LINE1 in HGPS fibroblasts.
 - **[[Mesenchymal Stromal Cells]]** — hMSC model used to study centenarian SIRT6 variant effects on senescence.
-- **[[SASP]]** — SIRT6 restraint of LINE-1 curbs cGAS–STING–driven SASP.
+- **[[SASP|Senescence-Associated Secretory Phenotype]]** — SIRT6 restraint of LINE-1 curbs cGAS–STING–driven SASP.
 - **[[Epigenetic Alterations]]** — SIRT6 is a chromatin-associated epigenetic regulator of senescence.
 - **[[Cytoplasmic Chromatin Fragments]]** — SIRT6 limits cytosolic DNA sources feeding SASP.
 - **[[cGAS-STING Pathway]]** — SIRT6 repression of retroelements dampens cGAS–STING SASP.
@@ -142,7 +142,7 @@ Two linked missense variants in SIRT6 — N308K (rs201141490) and A313S (rs18344
 
 ## 8. Linking Summary
 
-- **New Links Added**: [[SIRT7]], [[SIRT4]], [[p53]], [[NFKB]], [[Aging]], [[Base Excision Repair]], [[UBCS039]], [[MDL-801]], [[Cyanidin]], [[HIF-1α]], [[LINE-1]], [[Heterochromatin]], [[NAD+]], [[Sirtuins]], [[Diabetes Mellitus]], [[Inflammation]], [[Nkx3.2]], [[Vimentin]], [[USP10]], [[Fucoidan]], [[Centenarians]], [[Progerin]], [[Hutchinson-Gilford Progeria Syndrome]], [[Mesenchymal Stromal Cells]], [[SASP]], [[Epigenetic Alterations]], [[Cytoplasmic Chromatin Fragments]], [[cGAS-STING Pathway]], [[Inflammaging]], [[Senescence-Associated Heterochromatin Foci]], [[Histone Variant]], [[DNA Methylation]], [[RB1]], [[KAP1]], [[HP1alpha]]
+- **New Links Added**: [[SIRT7]], [[SIRT4]], [[p53]], [[NFKB]], [[Aging]], [[Base Excision Repair]], [[UBCS039]], [[MDL-801]], [[Cyanidin]], [[HIF-1α]], [[LINE-1]], [[Heterochromatin]], [[NAD+]], [[Sirtuins]], [[Diabetes Mellitus]], [[Inflammation]], [[Nkx3.2]], [[Vimentin]], [[USP10]], [[Fucoidan]], [[Centenarians]], [[Progerin]], [[Hutchinson-Gilford Progeria Syndrome]], [[Mesenchymal Stromal Cells]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Epigenetic Alterations]], [[Cytoplasmic Chromatin Fragments]], [[cGAS-STING Pathway]], [[Inflammaging]], [[Senescence-Associated Heterochromatin Foci]], [[Histone Variant]], [[DNA Methylation]], [[RB1]], [[KAP1]], [[HP1alpha]]
 - **Suggested New Notes to Create**: [[PARP1]], [[Relocalization of Chromatin Modifiers (RCM) Hypothesis]]
 - **Strong Connections to Strengthen**: [[SIRT6]] ↔ [[Base Excision Repair]], [[SIRT6]] ↔ [[Aging]], [[SIRT6]] ↔ [[MDL-801]], [[SIRT6]] ↔ [[Vimentin]], [[SIRT6]] ↔ [[Fucoidan]], [[SIRT6]] ↔ [[Relocalization of Chromatin Modifiers (RCM) Hypothesis]]
 

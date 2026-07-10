@@ -19,7 +19,7 @@ aliases:
 
 ## Overview
 
-Connective Tissue Growth Factor (CTGF, also known as CCN2) is a matricellular protein belonging to the CCN family of secreted proteins. It is a key component of the [[Senescence-Associated Secretory Phenotype|SASP]] and plays important roles in [[Fibrosis|fibrosis]], wound healing, and [[Cancer|tumor progression]].
+Connective Tissue Growth Factor (CTGF, also known as CCN2) is a matricellular protein belonging to the CCN family of secreted proteins. It is a key component of the [[SASP|Senescence-Associated Secretory Phenotype]] and plays important roles in [[Fibrosis|fibrosis]], wound healing, and [[Cancer|tumor progression]].
 
 ## Structure & Domains
 
@@ -89,7 +89,7 @@ Connective Tissue Growth Factor (CTGF, also known as CCN2) is a matricellular pr
 
 ## Connections
 
-- [[SASP]]: CTGF is a major SASP component secreted by senescent cells
+- [[SASP|Senescence-Associated Secretory Phenotype]]: CTGF is a major SASP component secreted by senescent cells
 - [[Fibrosis]]: CTGF is a central mediator of fibrotic tissue remodeling
 - [[Prostate Cancer]]: CTGF from senescent stroma promotes prostate tumor progression
 - [[TGF-β]]: CTGF synergizes with TGF-β to enhance fibrotic responses
@@ -97,5 +97,5 @@ Connective Tissue Growth Factor (CTGF, also known as CCN2) is a matricellular pr
 
 ## Linking Summary
 
-- New links added: [[CTGF]], [[SASP]], [[Fibrosis]], [[Prostate Cancer]], [[TGF-β]], [[Fibroblasts]]
-- Strong connections to strengthen: [[CTGF]] ↔ [[SASP]], [[CTGF]] ↔ [[Fibrosis]], [[CTGF]] ↔ [[Prostate Cancer]]
+- New links added: [[CTGF]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Fibrosis]], [[Prostate Cancer]], [[TGF-β]], [[Fibroblasts]]
+- Strong connections to strengthen: [[CTGF]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]], [[CTGF]] ↔ [[Fibrosis]], [[CTGF]] ↔ [[Prostate Cancer]]

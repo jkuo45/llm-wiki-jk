@@ -70,7 +70,7 @@ List of documents that mention this entity
 - [[TRIM21]] — interacts with TNF-alpha
 - [[p65]] — interacts with TNF-alpha
 - [[NDUFS1]] — interacts with TNF-alpha
-- [[SASP]] — TNF-α is a key SASP cytokine; activates NF-κB in neighboring cells to amplify the SASP inflammatory cascade
+- [[SASP|Senescence-Associated Secretory Phenotype]] — TNF-α is a key SASP cytokine; activates NF-κB in neighboring cells to amplify the SASP inflammatory cascade
 - [[Senescent Cells]] — TNF-α is secreted by senescent cells; promotes paracrine inflammation and cancer progression
 - [[p53]] — p53 restrains TNF-α expression; p53 loss amplifies SASP-driven cancer promotion
 - [[Tumor Microenvironment]] — TNF-α from senescent cells reshapes the tumor microenvironment to support cancer growth

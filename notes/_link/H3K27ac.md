@@ -16,7 +16,7 @@ aliases:
 
 # H3K27ac
 
-H3K27ac is the acetylation of lysine 27 on the N-terminal tail of histone H3. It is one of the most informative chromatin marks for active enhancers and promoters, and in cellular senescence it is the signature mark whose genome-wide remodeling orchestrates [[SASP]] expression, as reviewed in the npj Aging survey (Dasgupta et al., 2024; https://doi.org/10.1038/s41514-024-00172-2).
+H3K27ac is the acetylation of lysine 27 on the N-terminal tail of histone H3. It is one of the most informative chromatin marks for active enhancers and promoters, and in cellular senescence it is the signature mark whose genome-wide remodeling orchestrates [[SASP|Senescence-Associated Secretory Phenotype]] expression, as reviewed in the npj Aging survey (Dasgupta et al., 2024; https://doi.org/10.1038/s41514-024-00172-2).
 
 ## Definition
 
@@ -51,10 +51,10 @@ The H3K27ac–BRD4 axis is directly targetable: BET inhibitors (apabetalone, mol
 - [[Super-enhancer]]: H3K27ac-rich SEs drive SASP.
 - [[P300]]: HAT that writes H3K27ac at SEs.
 - [[HDAC4]]: Reader that buffers the H3K27ac program.
-- [[SASP]]: H3K27ac remodeling drives SASP.
+- [[SASP|Senescence-Associated Secretory Phenotype]]: H3K27ac remodeling drives SASP.
 
 ## Linking Summary
 
-- New links added: [[BRD4]], [[CEBPα]], [[HDAC4]], [[HDAC3]], [[AP-1]], [[Super-enhancer]], [[P300]], [[Enhancer-Promoter Looping]], [[Topologically Associating Domain]], [[H3K18ac]], [[H3K122ac]], [[H4K5ac]], [[H3K4me1]], [[SASP]], [[Senomorphic]], [[KDM4]], [[DOT1L]], [[Senescence]]
+- New links added: [[BRD4]], [[CEBPα]], [[HDAC4]], [[HDAC3]], [[AP-1]], [[Super-enhancer]], [[P300]], [[Enhancer-Promoter Looping]], [[Topologically Associating Domain]], [[H3K18ac]], [[H3K122ac]], [[H4K5ac]], [[H3K4me1]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Senomorphic]], [[KDM4]], [[DOT1L]], [[Senescence]]
 - Suggested new entity notes to create: [[CBP]], [[H3K27me3]]
-- Strong connections to strengthen: [[H3K27ac]] ↔ [[BRD4]]; [[H3K27ac]] ↔ [[SASP]]
+- Strong connections to strengthen: [[H3K27ac]] ↔ [[BRD4]]; [[H3K27ac]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]]

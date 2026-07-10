@@ -18,7 +18,7 @@ protected: true
 
 # Senescence-associated mitochondrial dysfunction
 
-**Senescence-associated mitochondrial dysfunction (SAMD)** refers to the impairment of mitochondrial structure and function that is a hallmark of [[Senescent Cells]]. It is both a downstream consequence of arrest and an active *driver* of the [[Senescence-Associated Secretory Phenotype|SASP]], notably in mitochondrial dysfunction-associated senescence (MiDAS; Wiley et al., 2016, PMID 27716483).
+**Senescence-associated mitochondrial dysfunction (SAMD)** refers to the impairment of mitochondrial structure and function that is a hallmark of [[Senescent Cells]]. It is both a downstream consequence of arrest and an active *driver* of the [[SASP|Senescence-Associated Secretory Phenotype]], notably in mitochondrial dysfunction-associated senescence (MiDAS; Wiley et al., 2016, PMID 27716483).
 
 ## Key Features
 
@@ -71,12 +71,12 @@ List of documents that mention this entity
 - [[Senescent Cells]] — SAMD is a hallmark of senescent cells
 - [[mtDNA]] — Leads to mtDNA release into cytosol
 - [[cGAS-STING Pathway|cGAS-STING]] — mtDNA activates cGAS-STING
-- [[Senescence-Associated Secretory Phenotype|SASP]] — SAMD drives SASP production
+- [[SASP|Senescence-Associated Secretory Phenotype]] — SAMD drives SASP production
 - [[Minority MOMP]] — SAMD involves miMOMP events
 - [[Mitophagy]] — impaired clearance of damaged mitochondria in SAMD
 - [[Reactive Oxygen Species]] — elevated ROS in SAMD
 - [[Bcl-2]] — SCAPs maintain mitochondrial survival
 
 ## Linking Summary
-- New links added: [[Senescent Cells]], [[mtDNA]], [[cGAS-STING Pathway|cGAS-STING]], [[Senescence-Associated Secretory Phenotype|SASP]], [[Minority MOMP]], [[Mitophagy]], [[Reactive Oxygen Species]], [[Bcl-2]], [[BAX]], [[BAK]], [[Oxidative Phosphorylation]], [[Apoptosis]], [[Inflammaging]], [[Lamin B1]], [[Paracrine Senescence]], [[Idiopathic Pulmonary Fibrosis]], [[Metformin]], [[Resveratrol]]
-  - Strong connections to strengthen: [[Senescence-associated mitochondrial dysfunction]] ↔ [[SASP]], SAMD ↔ [[mtDNA]], SAMD ↔ [[cGAS-STING Pathway]]
+- New links added: [[Senescent Cells]], [[mtDNA]], [[cGAS-STING Pathway|cGAS-STING]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Minority MOMP]], [[Mitophagy]], [[Reactive Oxygen Species]], [[Bcl-2]], [[BAX]], [[BAK]], [[Oxidative Phosphorylation]], [[Apoptosis]], [[Inflammaging]], [[Lamin B1]], [[Paracrine Senescence]], [[Idiopathic Pulmonary Fibrosis]], [[Metformin]], [[Resveratrol]]
+  - Strong connections to strengthen: [[Senescence-associated mitochondrial dysfunction]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]], SAMD ↔ [[mtDNA]], SAMD ↔ [[cGAS-STING Pathway]]

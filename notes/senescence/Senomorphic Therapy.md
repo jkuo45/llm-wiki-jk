@@ -18,7 +18,7 @@ protected: true
 
 # Senomorphic Therapy
 
-**Senomorphic therapies** focus on modulating senescence-associated properties — particularly the [[Senescence-Associated Secretory Phenotype|SASP]] — without directly inducing cytotoxicity. This contrasts with [[Senolytic Therapy|senolytics]], which selectively kill senescent cells. Senomorphics are valuable where senescent cells contribute to beneficial tissue structure or where acute clearance is unsafe, and they avoid the "senolytic cliff" of sudden debris release. Conceptually, senomorphics aim to convert a harmful senescent cell into a quiescent, metabolically benign one (Kirkland & Tchkonia, 2020, PMID 32529839).
+**Senomorphic therapies** focus on modulating senescence-associated properties — particularly the [[SASP|Senescence-Associated Secretory Phenotype]] — without directly inducing cytotoxicity. This contrasts with [[Senolytic Therapy|senolytics]], which selectively kill senescent cells. Senomorphics are valuable where senescent cells contribute to beneficial tissue structure or where acute clearance is unsafe, and they avoid the "senolytic cliff" of sudden debris release. Conceptually, senomorphics aim to convert a harmful senescent cell into a quiescent, metabolically benign one (Kirkland & Tchkonia, 2020, PMID 32529839).
 
 ## Mechanism of Action
 
@@ -95,7 +95,7 @@ List of documents that mention this entity
     - Reviews pharmacological SASP inhibition strategies including glucocorticoids, metformin, rapamycin, p38 MAPK inhibitors, and natural compounds as senomorphic interventions.
 
 ## Connections
-- [[Senescence-Associated Secretory Phenotype|SASP]] — the primary target of senomorphic therapy
+- [[SASP|Senescence-Associated Secretory Phenotype]] — the primary target of senomorphic therapy
 - [[Senolytic Therapy|Senolytics]] — complementary approach that kills senescent cells rather than modulating them
 - [[NF-κB]] — master regulator of SASP; targeted by glucocorticoids, metformin, apigenin
 - [[p38 MAPK]] — SASP regulator; targeted by SB203580 and MK2 inhibitors
@@ -113,4 +113,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Senomorphic Therapy]], [[Senolytic Therapy]], [[Rapamycin]], [[Metformin]], [[Nutlin 3a]], [[Ruxolitinib]], [[Resveratrol]], [[Apigenin]], [[NF-κB]], [[p38 MAPK]], [[mTORC1|mTOR]], [[cGAS-STING Pathway|cGAS–STING]], [[JAK]], [[STAT3]], [[p53]], [[AMPK]], [[Sirtuins|SIRT1]], [[cAMP]], [[Inflammation]], [[Inflammaging]], [[Idiopathic Pulmonary Fibrosis]], [[Cardiovascular Disease]], [[Tofacitinib]], [[Zileuton]], [[Colchicine]], [[SB203580]]
 - Suggested new entity notes to create: [[Tofacitinib]], [[Zileuton]], [[SB203580]], [[PDE4]]
-  - Strong connections to strengthen: Senomorphic Therapy ↔ [[SASP]], Senomorphic Therapy ↔ Senolytic Therapy, Senomorphic Therapy ↔ [[Inflammaging]]
+  - Strong connections to strengthen: Senomorphic Therapy ↔ [[SASP|Senescence-Associated Secretory Phenotype]], Senomorphic Therapy ↔ Senolytic Therapy, Senomorphic Therapy ↔ [[Inflammaging]]

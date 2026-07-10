@@ -16,7 +16,7 @@ aliases:
 
 # Super-enhancer
 
-A super-enhancer (SE) is a large cluster of enhancers — often spanning tens of kilobases and containing unusually high density of transcription-factor binding and histone-acetyl marks — that drives exceptionally high, cell-type-specific transcription of genes governing cell identity and stress programs. In senescence, de novo senescence-activated super-enhancers (SA-SEs) form at key locus and are major drivers of the [[SASP]] and the senescence transcription program, as described in the npj Aging review (Dasgupta et al., 2024; https://doi.org/10.1038/s41514-024-00172-2).
+A super-enhancer (SE) is a large cluster of enhancers — often spanning tens of kilobases and containing unusually high density of transcription-factor binding and histone-acetyl marks — that drives exceptionally high, cell-type-specific transcription of genes governing cell identity and stress programs. In senescence, de novo senescence-activated super-enhancers (SA-SEs) form at key locus and are major drivers of the [[SASP|Senescence-Associated Secretory Phenotype]] and the senescence transcription program, as described in the npj Aging review (Dasgupta et al., 2024; https://doi.org/10.1038/s41514-024-00172-2).
 
 ## Definition
 
@@ -53,6 +53,6 @@ BET-family readers (BRD4) and HATs at SEs are tractable [[Senomorphic|senomorphi
 
 ## Linking Summary
 
-- New links added: [[H3K27ac]], [[H3K4me1]], [[H3K18ac]], [[H3K122ac]], [[H4K5ac]], [[AP-1]], [[BRD4]], [[CEBPα]], [[P300]], [[HDAC4]], [[Enhancer-Promoter Looping]], [[Topologically Associating Domain]], [[SASP]], [[Senomorphic]], [[KDM4]], [[DOT1L]], [[Senescence]]
+- New links added: [[H3K27ac]], [[H3K4me1]], [[H3K18ac]], [[H3K122ac]], [[H4K5ac]], [[AP-1]], [[BRD4]], [[CEBPα]], [[P300]], [[HDAC4]], [[Enhancer-Promoter Looping]], [[Topologically Associating Domain]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Senomorphic]], [[KDM4]], [[DOT1L]], [[Senescence]]
 - Suggested new entity notes to create: [[Mediator Complex]], [[Enhancer RNA]]
-- Strong connections to strengthen: [[Super-enhancer]] ↔ [[H3K27ac]]; [[Super-enhancer]] ↔ [[SASP]]
+- Strong connections to strengthen: [[Super-enhancer]] ↔ [[H3K27ac]]; [[Super-enhancer]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]]

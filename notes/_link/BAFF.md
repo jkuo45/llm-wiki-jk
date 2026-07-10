@@ -49,10 +49,10 @@ BAFF (B-cell activating factor), also known as TNFSF13B, BLyS, or TALL-1, is a t
 - [[IL-6]]: BAFF reinforces IL-6 expression in senescent cells
 - [[NF-κB]]: NF-κB mediates BAFF receptor signaling
 - [[Macrophages]]: Macrophages are a major BAFF source
-- [[Senescence-Associated Secretory Phenotype|SASP]]: BAFF is a component of the secretory phenotype
+- [[SASP|Senescence-Associated Secretory Phenotype]]: BAFF is a component of the secretory phenotype
 - [[Inflammaging]]: BAFF contributes to chronic age-related inflammation
 
 ## Linking Summary
 
-- New links added: [[BAFF-R]], [[BCMA]], [[TACI]], [[IL-6]], [[NF-κB]], [[Macrophages]], [[Apoptosis]], [[Senescence-Associated Secretory Phenotype|SASP]], [[Inflammaging]]
-  - Strong connections to strengthen: [[BAFF]] ↔ [[IL-6]], [[BAFF]] ↔ [[SASP]]
+- New links added: [[BAFF-R]], [[BCMA]], [[TACI]], [[IL-6]], [[NF-κB]], [[Macrophages]], [[Apoptosis]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Inflammaging]]
+  - Strong connections to strengthen: [[BAFF]] ↔ [[IL-6]], [[BAFF]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]]

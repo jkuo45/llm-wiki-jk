@@ -14,7 +14,7 @@ aliases: [Hutchinson-Gilford progeria syndrome, HGPS, Progeroid syndrome]
 
 **Progeria** (Hutchinson-Gilford progeria syndrome, HGPS) is a rare genetic disorder caused by a mutation in the [[LMNA Gene]] that produces progerin, a toxic lamin A variant, leading to premature [[Aging|aging]] features including [[Cardiovascular Disease|cardiovascular disease]], [[Osteoporosis|osteoporosis]], and frailty.
 
-In aging research, the *Ercc1*<sup>−/∆</sup> mouse is a well-established progeroid model that accumulates [[Senescent Cells|senescent cells]] and [[Senescence-Associated Secretory Phenotype|SASP]] markers at an accelerated rate. [[Fisetin]] treatment in this model reduced senescence markers and age-related pathology (Yousefzadeh et al., 2018).
+In aging research, the *Ercc1*<sup>−/∆</sup> mouse is a well-established progeroid model that accumulates [[Senescent Cells|senescent cells]] and [[SASP|Senescence-Associated Secretory Phenotype]] markers at an accelerated rate. [[Fisetin]] treatment in this model reduced senescence markers and age-related pathology (Yousefzadeh et al., 2018).
 
 ## Documents
 
@@ -39,4 +39,4 @@ In aging research, the *Ercc1*<sup>−/∆</sup> mouse is a well-established pro
 
 ## Linking Summary
 
-  - New links added: [[Progeria]], [[LMNA Gene]], [[Aging]], [[Cellular Senescence]], [[Senescence-Associated Secretory Phenotype|SASP]], [[Senolytic]], [[Fisetin]], [[Dasatinib]], [[Quercetin]], [[SIRT6]], [[LINE-1]], [[Fucoidan]], [[Progerin]]
+  - New links added: [[Progeria]], [[LMNA Gene]], [[Aging]], [[Cellular Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Senolytic]], [[Fisetin]], [[Dasatinib]], [[Quercetin]], [[SIRT6]], [[LINE-1]], [[Fucoidan]], [[Progerin]]

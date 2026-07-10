@@ -23,7 +23,7 @@ The **tumor microenvironment (TME)** is the complex ecosystem of non-malignant c
 
 ### Cellular Components
 
-- **Cancer-Associated Fibroblasts (CAFs)**: Activated fibroblasts that secrete growth factors, cytokines, and proteases; major contributors to [[SASP|SASP-like]] signaling in the tumor stroma. Senescent fibroblasts with a [[Senescence-Associated Secretory Phenotype|SASP]] are a key source of pro-tumorigenic factors.
+- **Cancer-Associated Fibroblasts (CAFs)**: Activated fibroblasts that secrete growth factors, cytokines, and proteases; major contributors to [[SASP|Senescence-Associated Secretory Phenotype]] signaling in the tumor stroma. Senescent fibroblasts with a [[SASP|Senescence-Associated Secretory Phenotype]] are a key source of pro-tumorigenic factors.
 - **Tumor-Associated Macrophages (TAMs)**: Often polarized toward an M2-like, immunosuppressive phenotype; promote angiogenesis and tissue remodeling.
 - **Myeloid-Derived Suppressor Cells (MDSCs)**: Potently immunosuppressive myeloid cells that inhibit T cell function and promote immune evasion.
 - **Endothelial Cells**: Form tumor vasculature; respond to proangiogenic signals from tumor and stromal cells.
@@ -39,7 +39,7 @@ The **tumor microenvironment (TME)** is the complex ecosystem of non-malignant c
 
 Senescent cells accumulate in the TME, particularly following [[Therapy-Induced Senescence|cancer therapy]], and profoundly alter its composition:
 
-- **Pro-tumorigenic SASP**: [[Senescence-Associated Secretory Phenotype|SASP factors]] (IL-6, IL-8, VEGF, MMPs, GROα) promote cancer cell proliferation, invasion, [[Angiogenesis]], and immune evasion.
+- **Pro-tumorigenic SASP**: [[SASP|Senescence-Associated Secretory Phenotype]] (IL-6, IL-8, VEGF, MMPs, GROα) promote cancer cell proliferation, invasion, [[Angiogenesis]], and immune evasion.
 - **Paracrine senescence**: SASP from therapy-induced senescent cells can induce senescence in neighboring stromal cells, amplifying the pro-tumorigenic niche.
 - **Immune modulation**: SASP factors recruit immunosuppressive cells (MDSCs, TAMs) and impair [[Natural Killer Cells|NK cell]] and T cell function, enabling immune evasion.
 - **ECM remodeling**: SASP proteases degrade and restructure the ECM, facilitating cancer cell migration and [[Metastasis]].
@@ -65,7 +65,7 @@ List of documents that mention this entity
 ## Connections
 
 - [[Cancer]] — The TME is the non-malignant cellular context of tumors
-- [[SASP]] — Major modifier of the TME produced by senescent stromal cells
+- [[SASP|Senescence-Associated Secretory Phenotype]] — Major modifier of the TME produced by senescent stromal cells
 - [[Senescent Cells]] — Accumulate in the TME and alter its properties
 - [[Paracrine Senescence]] — SASP-induced senescence spreads through the TME
 - [[Therapy-Induced Senescence]] — Treatment generates senescent cells in the TME
@@ -82,6 +82,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Tumor Microenvironment]], [[Cancer]], [[SASP]], [[Senescent Cells]], [[Paracrine Senescence]], [[Therapy-Induced Senescence]], [[Senolytic Therapy|Senolytics]], [[Senomorphic Therapy]], [[Angiogenesis]], [[Metastasis]], [[Inflammaging]], [[IL-6]], [[IL-8]], [[VEGF]], [[HGF]], [[bFGF]], [[CCL2]], [[CXCL1]], [[MMP-9]], [[TNFα]], [[Fibroblasts]], [[Macrophages]], [[Endothelial Cells]], [[Natural Killer Cells]], [[Myeloid-Derived Suppressors|MDSCs]], [[tumour microenvironment]]
+- New links added: [[Tumor Microenvironment]], [[Cancer]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Senescent Cells]], [[Paracrine Senescence]], [[Therapy-Induced Senescence]], [[Senolytic Therapy|Senolytics]], [[Senomorphic Therapy]], [[Angiogenesis]], [[Metastasis]], [[Inflammaging]], [[IL-6]], [[IL-8]], [[VEGF]], [[HGF]], [[bFGF]], [[CCL2]], [[CXCL1]], [[MMP-9]], [[TNFα]], [[Fibroblasts]], [[Macrophages]], [[Endothelial Cells]], [[Natural Killer Cells]], [[Myeloid-Derived Suppressors|MDSCs]], [[tumour microenvironment]]
 - Suggested new entity notes to create: [[Cancer-Associated Fibroblasts]], [[Tumor-Associated Macrophages]], [[Immune Evasion]]
-- Strong connections to strengthen: [[Tumor Microenvironment]] ↔ [[SASP]], [[Tumor Microenvironment]] ↔ [[Cancer]], [[Tumor Microenvironment]] ↔ [[Therapy-Induced Senescence]]
+- Strong connections to strengthen: [[Tumor Microenvironment]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]], [[Tumor Microenvironment]] ↔ [[Cancer]], [[Tumor Microenvironment]] ↔ [[Therapy-Induced Senescence]]

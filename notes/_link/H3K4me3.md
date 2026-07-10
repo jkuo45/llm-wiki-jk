@@ -31,7 +31,7 @@ H3K4me3 is deposited by SET1-family methyltransferases (MLL1/KMT2A and paralogs)
 
 A redistribution of H3K27me3 and H3K4me3 strongly impacts gene expression. The two marks co-localize in "mesas" while H3K27me3 is depleted from "canyons" in replicative senescent cells (Chibaya et al., 2023, PMID 37174594). Promoters of actively transcribed genes are enriched in H3K4me3 and H3/H4 acetylation. In senescent genomes, the most notable chromatin transitions occur at enhancers, with promoters only minimally affected (Guan et al., 2020; Martinez-Zamudio et al., 2020). H3.3 clipping upon [[BRD4]] loss is associated with emergence of H3K4me3 at senescence-specific loci, enhancing accessibility (Yang et al., 2023, PMID 36800343).
 
-Functionally, depletion/inhibition of MLL1 reduces [[SASP]] expression — but the overall H3K4me3 reduction at SASP loci is moderate and does not fully track the large drop in SASP transcription. Instead, MLL1 inhibition reduces SASP by preventing activation of the [[DNA Damage Response|DNA-damage response (DDR)]] pathway (Capell et al., 2016, PMID 26853365). Thus H3K4me3 operates partly through DDR licensing rather than direct promoter activation of SASP genes.
+Functionally, depletion/inhibition of MLL1 reduces [[SASP|Senescence-Associated Secretory Phenotype]] expression — but the overall H3K4me3 reduction at SASP loci is moderate and does not fully track the large drop in SASP transcription. Instead, MLL1 inhibition reduces SASP by preventing activation of the [[DNA Damage Response|DNA-damage response (DDR)]] pathway (Capell et al., 2016, PMID 26853365). Thus H3K4me3 operates partly through DDR licensing rather than direct promoter activation of SASP genes.
 
 ## Mechanistic Details
 
@@ -50,11 +50,11 @@ MLL1 is a candidate [[Senomorphic|senomorphic]] node; its inhibition lowers SASP
 - [[MLL1]]: Methyltransferase writer of H3K4me3; MLL1 inhibition lowers SASP.
 - [[H3K27me3]]: Antagonistic repressive mark; mesa/canyon patterning.
 - [[BRD4]]: Loss of BRD4 associates H3K4me3 with H3.3 clipping at senescence loci.
-- [[SASP]]: H3K4me3/MLL1 supports SASP via DDR.
+- [[SASP|Senescence-Associated Secretory Phenotype]]: H3K4me3/MLL1 supports SASP via DDR.
 - [[DNA Damage Response]]: MLL1/H3K4me3 sustains DDR that feeds SASP.
 
 ## Linking Summary
 
-- New links added: [[MLL1]], [[H3K27me3]], [[BRD4]], [[SASP]], [[DNA Damage Response]], [[KDM4]], [[DOT1L]], [[Senomorphic]], [[Senescence]]
+- New links added: [[MLL1]], [[H3K27me3]], [[BRD4]], [[SASP|Senescence-Associated Secretory Phenotype]], [[DNA Damage Response]], [[KDM4]], [[DOT1L]], [[Senomorphic]], [[Senescence]]
 - Suggested new entity notes to create: [[KDM5]], [[SET1 Complex]]
 - Strong connections to strengthen: [[H3K4me3]] ↔ [[MLL1]]; [[H3K4me3]] ↔ [[H3K27me3]]

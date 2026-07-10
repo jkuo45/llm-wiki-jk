@@ -63,7 +63,7 @@ List of documents that mention this entity
 - [[BRAF]] — V600E mutation is the dominant oncogenic driver
 - [[RAS]] — NRAS mutations drive a subset of melanomas
 - [[Senescence]] — OIS in nevi restrains progression; escape drives malignancy
-- [[SASP]] — Senescent melanocytes secrete SASP factors that may stimulate rare premalignant cells
+- [[SASP|Senescence-Associated Secretory Phenotype]] — Senescent melanocytes secrete SASP factors that may stimulate rare premalignant cells
 - [[IL-8]] — SASP chemokine that acts as autocrine growth factor for melanoma cells
 - [[GROα]] — SASP chemokine stimulating melanocyte proliferation
 - [[CXCR2]] — Receptor for GROα and IL-8; upregulated in malignant melanocytes
@@ -78,6 +78,6 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-- New links added: [[Melanoma]], [[BRAF]], [[RAS]], [[Senescence]], [[SASP]], [[IL-8]], [[GROα]], [[CXCR2]], [[p16 INK4a|p16]], [[PD-L1]], [[Metastasis]], [[Immunotherapy]], [[Melanocytes]], [[Angiogenesis]], [[Senescence Surveillance]]
+- New links added: [[Melanoma]], [[BRAF]], [[RAS]], [[Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]], [[IL-8]], [[GROα]], [[CXCR2]], [[p16 INK4a|p16]], [[PD-L1]], [[Metastasis]], [[Immunotherapy]], [[Melanocytes]], [[Angiogenesis]], [[Senescence Surveillance]]
 - Suggested new entity notes to create: [[NRAS]], [[CDKN2A]], [[MAPK Pathway]]
-- Strong connections to strengthen: [[Melanoma]] ↔ [[BRAF]], [[Melanoma]] ↔ [[Senescence]], [[Melanoma]] ↔ [[SASP]]
+- Strong connections to strengthen: [[Melanoma]] ↔ [[BRAF]], [[Melanoma]] ↔ [[Senescence]], [[Melanoma]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]]

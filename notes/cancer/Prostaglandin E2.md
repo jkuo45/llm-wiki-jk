@@ -14,7 +14,7 @@ source: #
 
 ## Overview
 
-Prostaglandin E2 (PGE2) is a bioactive lipid derived from [[arachidonic acid]] via [[cyclooxygenase-2]] (COX-2) and downstream prostaglandin E synthases. It is a major component of the [[SASP]] and exerts pleiotropic effects on inflammation, immune regulation, and [[Cancer]] progression.
+Prostaglandin E2 (PGE2) is a bioactive lipid derived from [[arachidonic acid]] via [[cyclooxygenase-2]] (COX-2) and downstream prostaglandin E synthases. It is a major component of the [[SASP|Senescence-Associated Secretory Phenotype]] and exerts pleiotropic effects on inflammation, immune regulation, and [[Cancer]] progression.
 
 ## Synthesis
 
@@ -25,7 +25,7 @@ Prostaglandin E2 (PGE2) is a bioactive lipid derived from [[arachidonic acid]] v
 
 ## Role in Senescence & SASP
 
-PGE2 is a core [[SASP]] factor secreted by senescent cells. In the context of obesity-associated [[Hepatocellular Carcinoma]], senescent [[Hepatic Stellate Cells|hepatic stellate cells]] (HSCs) produce PGE2 via COX-2 upregulation. PGE2 recruits and activates [[myeloid-derived suppressor cells]] (MDSCs) and polarizes [[macrophages]] toward an immunosuppressive M2 phenotype, creating an immune-evasive niche that promotes HCC development.
+PGE2 is a core [[SASP|Senescence-Associated Secretory Phenotype]] factor secreted by senescent cells. In the context of obesity-associated [[Hepatocellular Carcinoma]], senescent [[Hepatic Stellate Cells|hepatic stellate cells]] (HSCs) produce PGE2 via COX-2 upregulation. PGE2 recruits and activates [[myeloid-derived suppressor cells]] (MDSCs) and polarizes [[macrophages]] toward an immunosuppressive M2 phenotype, creating an immune-evasive niche that promotes HCC development.
 
 ## Role in Cancer
 
@@ -44,7 +44,7 @@ PGE2 is a core [[SASP]] factor secreted by senescent cells. In the context of ob
 
 - [[COX-2]]: Rate-limiting enzyme for PGE2 synthesis
 - [[Hepatic Stellate Cells]]: Senescent HSCs produce PGE2 in obesity-associated HCC
-- [[SASP]]: PGE2 is a key SASP lipid mediator
+- [[SASP|Senescence-Associated Secretory Phenotype]]: PGE2 is a key SASP lipid mediator
 - [[Hepatocellular Carcinoma]]: PGE2 from senescent HSCs promotes HCC immune evasion
 - [[MDSC]]: Recruited by PGE2 to suppress antitumor immunity
 - [[NSAIDs]]: Pharmacological inhibitors of PGE2 synthesis
@@ -53,4 +53,4 @@ PGE2 is a core [[SASP]] factor secreted by senescent cells. In the context of ob
 
 - New links added: [[COX-2]], [[arachidonic acid]], [[phospholipase A2]], [[MDSC]], [[macrophages]], [[regulatory T cell]], [[NSAIDs]], [[celecoxib]]
 - Suggested new entity notes to create: [[cyclooxygenase-2]] (if separate from COX-2 entry)
-- Strong connections to strengthen: [[Prostaglandin E2]] ↔ [[COX-2]] (synthesis), [[Prostaglandin E2]] ↔ [[SASP]] (senescence)
+- Strong connections to strengthen: [[Prostaglandin E2]] ↔ [[COX-2]] (synthesis), [[Prostaglandin E2]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]] (senescence)

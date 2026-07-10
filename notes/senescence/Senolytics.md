@@ -36,7 +36,7 @@ protected: true
 
 ## Role in Senescence
 
-- Senolytics convert a chronic, SASP-producing cell into an eliminated one, reducing the [[Senescence-Associated Secretory Phenotype|SASP]] burden and [[Inflammaging]].
+- Senolytics convert a chronic, SASP-producing cell into an eliminated one, reducing the [[SASP|Senescence-Associated Secretory Phenotype]] burden and [[Inflammaging]].
 - They address the driver (the cell) rather than only the effector (the secretome), complementing [[Senomorphic Therapy]].
 - Selectivity depends on the SCAP composition of the target cell, motivating biomarker-guided, tissue-specific regimens.
 
@@ -49,7 +49,7 @@ protected: true
 
 - [[Cellular Senescence]]
 - [[Aging]]
-- [[SASP]]
+- [[SASP|Senescence-Associated Secretory Phenotype]]
 - [[Senescent cell anti-apoptotic pathways|SCAPs]]
 
 ## Documents
@@ -61,7 +61,7 @@ protected: true
 - [[Cellular Senescence]] — targets
 - [[Senescent Cells]] — clears
 - [[Aging]] — alleviates
-- [[SASP]] — reduces burden
+- [[SASP|Senescence-Associated Secretory Phenotype]] — reduces burden
 - [[Senescent cell anti-apoptotic pathways|SCAPs]] — inhibits
 - [[Dasatinib]] / [[Quercetin]] — D+Q combination
 - [[Navitoclax]] — BCL-2/BCL-XL inhibitor
@@ -69,4 +69,4 @@ protected: true
 ## Linking Summary
 
 - New links added: [[Senescent Cells]], [[Senescent cell anti-apoptotic pathways|SCAPs]], [[Dasatinib]], [[Quercetin]], [[Navitoclax]], [[Fisetin]], [[BAX]], [[BAK]], [[Mitochondrial outer membrane permeabilization|MOMP]], [[Caspase-3]], [[Senomorphic Therapy]]
-- Strong connections to strengthen: [[Senolytics]] ↔ [[Senescent Cells]], [[Senolytics]] ↔ [[Aging]], [[Senolytics]] ↔ [[SASP]], [[Senolytics]] ↔ [[Senescent cell anti-apoptotic pathways|SCAPs]]
+- Strong connections to strengthen: [[Senolytics]] ↔ [[Senescent Cells]], [[Senolytics]] ↔ [[Aging]], [[Senolytics]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]], [[Senolytics]] ↔ [[Senescent cell anti-apoptotic pathways|SCAPs]]

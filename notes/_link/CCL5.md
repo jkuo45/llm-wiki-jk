@@ -46,10 +46,10 @@ CCL5 (C-C motif chemokine ligand 5), also known as RANTES, is a CC chemokine tha
 - [[NF-κB]]: NF-κB regulates CCL5 expression
 - [[Oncogene-Induced Senescence|OIS]]: CCL5 contributes to cancer progression in senescence contexts
 - [[Cancer]]: CCL5 promotes tumor progression
-- [[Senescence-Associated Secretory Phenotype|SASP]]: CCL5 is a SASP chemokine
+- [[SASP|Senescence-Associated Secretory Phenotype]]: CCL5 is a SASP chemokine
 - [[Inflammaging]]: CCL5 contributes to chronic inflammation
 
 ## Linking Summary
 
-- New links added: [[CCR5]], [[NF-κB]], [[AP-1]], [[p38 MAPK]], [[Oncogene-Induced Senescence|OIS]], [[Cancer]], [[Senescence-Associated Secretory Phenotype|SASP]], [[Inflammaging]]
-  - Strong connections to strengthen: [[CCL5]] ↔ [[SASP]], [[CCL5]] ↔ cancer progression
+- New links added: [[CCR5]], [[NF-κB]], [[AP-1]], [[p38 MAPK]], [[Oncogene-Induced Senescence|OIS]], [[Cancer]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Inflammaging]]
+  - Strong connections to strengthen: [[CCL5]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]], [[CCL5]] ↔ cancer progression

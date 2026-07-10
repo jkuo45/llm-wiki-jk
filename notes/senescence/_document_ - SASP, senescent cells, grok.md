@@ -10,7 +10,7 @@ tags:
 ---
 research **senescence-associated secretory phenotype (SASP)**
 
-[[Senescence-Associated Secretory Phenotype|SASP]] refers to the complex, pro-inflammatory secretome produced by [[Senescent Cells]]—cells that have entered a state of stable, irreversible [[Cell Cycle]] arrest in response to stressors like [[DNA Damage]], [[Oncogene Activation]], [[Oxidative Stress]], or [[Telomere Attrition]].
+[[SASP|Senescence-Associated Secretory Phenotype]] refers to the complex, pro-inflammatory secretome produced by [[Senescent Cells]]—cells that have entered a state of stable, irreversible [[Cell Cycle]] arrest in response to stressors like [[DNA Damage]], [[Oncogene Activation]], [[Oxidative Stress]], or [[Telomere Attrition]].
 
 en.wikipedia.org +1
 

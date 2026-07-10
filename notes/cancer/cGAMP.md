@@ -20,11 +20,11 @@ cGAMP (2'3'-cyclic GMP-AMP) is a cyclic dinucleotide synthesized by **[[cGAS]]**
 
 - **Synthesis**: [[cGAS]] catalyzes the formation of 2'3'-cGAMP from ATP and GTP upon binding cytosolic double-stranded DNA.
 - **STING Activation**: cGAMP binds to the STING dimer in the [[Endoplasmic Reticulum|ER]], inducing conformational change and translocation to the [[Golgi Apparatus|Golgi]], where STING oligomerizes and recruits **[[TBK1]]**.
-- **Signaling**: TBK1 phosphorylates **[[IRF3]]**, which dimerizes and translocates to the nucleus to drive transcription of type I interferons and other [[SASP]] components.
+- **Signaling**: TBK1 phosphorylates **[[IRF3]]**, which dimerizes and translocates to the nucleus to drive transcription of type I interferons and other [[SASP|Senescence-Associated Secretory Phenotype]] components.
 
 ## Role in Senescence
 
-In senescent cells, [[Cytoplasmic Chromatin Fragments|cytoplasmic chromatin fragments]] and/or [[mitochondrial DNA]] accumulate in the cytosol, activating [[cGAS]] to produce cGAMP. This drives STING-dependent [[SASP]] expression, linking cellular senescence to immune surveillance.
+In senescent cells, [[Cytoplasmic Chromatin Fragments|cytoplasmic chromatin fragments]] and/or [[mitochondrial DNA]] accumulate in the cytosol, activating [[cGAS]] to produce cGAMP. This drives STING-dependent [[SASP|Senescence-Associated Secretory Phenotype]] expression, linking cellular senescence to immune surveillance.
 
 ## Therapeutic Implications
 
@@ -44,7 +44,7 @@ In senescent cells, [[Cytoplasmic Chromatin Fragments|cytoplasmic chromatin frag
 - [[cGAS]]: Enzyme that synthesizes cGAMP from cytosolic DNA
 - [[STING]]: Direct receptor and downstream effector of cGAMP signaling
 - [[Cytoplasmic Chromatin Fragments]]: Nuclear DNA fragments that trigger cGAS/cGAMP in senescence
-- [[SASP]]: Transcriptional program driven by cGAMP-STING signaling
+- [[SASP|Senescence-Associated Secretory Phenotype]]: Transcriptional program driven by cGAMP-STING signaling
 - [[ENPP1]]: Ectonucleotidase that hydrolyzes extracellular cGAMP
 
 ## Linking Summary

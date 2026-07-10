@@ -16,7 +16,7 @@ aliases: [TIMP-1, Tissue Inhibitor of Metalloproteinases-1, Metalloproteinase In
 
 # TIMP1
 
-**TIMP1** (Tissue Inhibitor of Metalloproteinases-1), also known as metalloproteinase inhibitor 1 or erythroid potentiating activity (EPA), is a soluble secreted protein that inhibits matrix metalloproteinases (MMPs). It is a key regulator of [[Extracellular Matrix|ECM]] homeostasis, a pro-fibrotic effector downstream of TGF-β signalling, and a component of the [[Senescence-Associated Secretory Phenotype|SASP]]. TIMP1 also functions as a plasma protein surrogate in the DNAmGrimAge epigenetic clock, making it a biomarker of biological ageing.
+**TIMP1** (Tissue Inhibitor of Metalloproteinases-1), also known as metalloproteinase inhibitor 1 or erythroid potentiating activity (EPA), is a soluble secreted protein that inhibits matrix metalloproteinases (MMPs). It is a key regulator of [[Extracellular Matrix|ECM]] homeostasis, a pro-fibrotic effector downstream of TGF-β signalling, and a component of the [[SASP|Senescence-Associated Secretory Phenotype]]. TIMP1 also functions as a plasma protein surrogate in the DNAmGrimAge epigenetic clock, making it a biomarker of biological ageing.
 
 ## Structure & Mechanism
 
@@ -45,7 +45,7 @@ TIMP1 is upregulated during wound healing to limit MMP activity and protect newl
 
 ## Role in Senescence / SASP
 
-TIMP1 is a component of the [[Senescence-Associated Secretory Phenotype|SASP]] with complex, context-dependent roles:
+TIMP1 is a component of the [[SASP|Senescence-Associated Secretory Phenotype]] with complex, context-dependent roles:
 
 - **SASP reprogramming:** In prostate cancer senescence models induced by PTEN loss, deletion of TIMP1 reprogrammes the SASP from a tumour-suppressive to a pro-tumorigenic phenotype. This suggests TIMP1 acts as a molecular switch that determines the functional output of the SASP.
 - **Pro-fibrotic SASP:** TIMP1 contributes to the pro-fibrotic arm of the SASP by inhibiting MMP-mediated ECM degradation, favouring net ECM accumulation.
@@ -88,7 +88,7 @@ List of documents that mention this entity
   - [[MMP-12]]: TIMP1 inhibits MMP-12; the MMP-12/TIMP1 balance determines net elastinolytic activity in tissues
   - [[TIMP3]]: Fellow TIMP family member; unlike TIMP1 (soluble), TIMP3 is tethered to the ECM and has broader inhibitory spectrum
   - [[TGF-β]]: Transcriptional inducer of TIMP1 via SMAD3-dependent signalling; positions TIMP1 as a pro-fibrotic effector
-  - [[Senescence-Associated Secretory Phenotype|SASP]]: TIMP1 is a SASP factor that acts as a molecular switch determining SASP functional output
+  - [[SASP|Senescence-Associated Secretory Phenotype]]: TIMP1 is a SASP factor that acts as a molecular switch determining SASP functional output
   - [[Fibrosis]]: TIMP1 promotes net ECM accumulation by inhibiting MMP-mediated degradation
   - [[Extracellular Matrix]]: TIMP1 maintains ECM homeostasis by restraining excessive proteolysis
   - [[Cancer]]: TIMP1 has dual roles—anti-invasive (via MMP inhibition) and pro-tumorigenic (via CD63 signalling)
@@ -97,7 +97,7 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-  - New links added: [[MMP-9]], [[MMP-12]], [[TIMP3]], [[TGF-β]], [[Senescence-Associated Secretory Phenotype|SASP]], [[Fibrosis]], [[Extracellular Matrix]], [[Cancer]], [[DNAmGrimAge]], [[Collagen]]
+  - New links added: [[MMP-9]], [[MMP-12]], [[TIMP3]], [[TGF-β]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Fibrosis]], [[Extracellular Matrix]], [[Cancer]], [[DNAmGrimAge]], [[Collagen]]
   - Suggested new entity notes to create: [[TIMP2]], [[TIMP4]], [[CD63]], [[Erythropoiesis]]
-  - Strong connections to strengthen: [[TIMP1]] ↔ [[MMP-9]], [[TIMP1]] ↔ [[MMP-12]], [[TIMP1]] ↔ [[SASP]], [[TIMP1]] ↔ [[Fibrosis]]
+  - Strong connections to strengthen: [[TIMP1]] ↔ [[MMP-9]], [[TIMP1]] ↔ [[MMP-12]], [[TIMP1]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]], [[TIMP1]] ↔ [[Fibrosis]]
   - Justification: TIMP1 is the primary inhibitor of MMP-9 and a key regulator of MMP-12 activity. Its pro-fibrotic role (via TGF-β/SMAD3) and its function as a SASP molecular switch make it a central node connecting ECM homeostasis, fibrosis, cancer, and ageing.

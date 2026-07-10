@@ -31,7 +31,7 @@ OIS shares features with [[Replicative Senescence]] but also has distinctive hal
 
 1. **Oncogene-induced hyperproliferation phase:** A transient burst of proliferation precedes arrest, unlike the gradual slowdown of replicative senescence.
 2. **[[SAHF]] formation:** Senescence-associated heterochromatin foci are particularly prominent in OIS, especially in [[BRAF^V600E^]]-induced lesions.
-3. **[[SASP]] with distinct signature:** OIS-associated SASP is enriched for [[IL-1]]-dependent cytokines, [[CXCR2]] chemokines, and [[NOTCH]] signaling, which recruit immune cells for senescent cell clearance.
+3. **[[SASP|Senescence-Associated Secretory Phenotype]] with distinct signature:** OIS-associated SASP is enriched for [[IL-1]]-dependent cytokines, [[CXCR2]] chemokines, and [[NOTCH]] signaling, which recruit immune cells for senescent cell clearance.
 4. **Active [[DNA Methylation]] changes:** OIS is accompanied by focal hypermethylation of [[Polycomb Group Proteins|PRC2]] target genes, establishing a cancer-prone epigenetic landscape.
 
 ## Tumor-Suppressive Role and Bypass
@@ -40,7 +40,7 @@ OIS acts as a fail-safe mechanism against malignant transformation. In vivo, OIS
 
 ## Interactions with Senolytics
 
-OIS cells are susceptible to [[Senolytic Drugs]] like [[Navitoclax]] ([[Bcl-2]]/[[Bcl-xL]] inhibitor). However, eliminating OIS cells in premalignant lesions may paradoxically promote tumor growth by removing a cell-autonomous cancer barrier. An open question is whether transient OIS cell clearance can reduce the pro-tumorigenic [[SASP]] without compromising tumor suppression.
+OIS cells are susceptible to [[Senolytic Drugs]] like [[Navitoclax]] ([[Bcl-2]]/[[Bcl-xL]] inhibitor). However, eliminating OIS cells in premalignant lesions may paradoxically promote tumor growth by removing a cell-autonomous cancer barrier. An open question is whether transient OIS cell clearance can reduce the pro-tumorigenic [[SASP|Senescence-Associated Secretory Phenotype]] without compromising tumor suppression.
 
 ## Documents
 
@@ -74,10 +74,10 @@ List of documents that mention this entity
 - [[Replicative Senescence]]: OIS shares features with Replicative Senescence but also has distinctive hallmarks:
 - [[SAHF]]: **SAHF formation:** Senescence-associated heterochromatin foci are particularly prominent in OIS, especially in [[BRA...
 - [[BRAF^V600E^]]: **[[SAHF]] formation:** Senescence-associated heterochromatin foci are particularly prominent in OIS, especially in B...
-- [[SASP]]: **SASP with distinct signature:** OIS-associated SASP is enriched for [[IL-1]]-dependent cytokines, [[CXCR2]] chemoki...
-- [[IL-1]]: **[[SASP]] with distinct signature:** OIS-associated SASP is enriched for IL-1-dependent cytokines, [[CXCR2]] chemoki...
-- [[CXCR2]]: **[[SASP]] with distinct signature:** OIS-associated SASP is enriched for [[IL-1]]-dependent cytokines, CXCR2 chemoki...
-- [[NOTCH]]: **[[SASP]] with distinct signature:** OIS-associated SASP is enriched for [[IL-1]]-dependent cytokines, [[CXCR2]] che...
+- [[SASP|Senescence-Associated Secretory Phenotype]]: **SASP with distinct signature:** OIS-associated SASP is enriched for [[IL-1]]-dependent cytokines, [[CXCR2]] chemoki...
+- [[IL-1]]: **[[SASP|Senescence-Associated Secretory Phenotype]] with distinct signature:** OIS-associated SASP is enriched for IL-1-dependent cytokines, [[CXCR2]] chemoki...
+- [[CXCR2]]: **[[SASP|Senescence-Associated Secretory Phenotype]] with distinct signature:** OIS-associated SASP is enriched for [[IL-1]]-dependent cytokines, CXCR2 chemoki...
+- [[NOTCH]]: **[[SASP|Senescence-Associated Secretory Phenotype]] with distinct signature:** OIS-associated SASP is enriched for [[IL-1]]-dependent cytokines, [[CXCR2]] che...
 - [[DNA Methylation]]: **Active DNA Methylation changes:** OIS is accompanied by focal hypermethylation of [[Polycomb Group Proteins|PRC2]] ...
 - [[PTEN]]: OIS bypass — through loss of [[p53]], [[p16INK4A]], or PTEN; or activation of [[TERT]] — is a prerequisite for progre...
 - [[TERT]]: OIS bypass — through loss of [[p53]], [[p16INK4A]], or [[PTEN]]; or activation of TERT — is a prerequisite for progre...
@@ -86,7 +86,7 @@ List of documents that mention this entity
 - [[Bcl-2]]: OIS cells are susceptible to [[Senolytic Drugs]] like [[Navitoclax]] (Bcl-2/[[Bcl-xL]] inhibitor).
 - [[Bcl-xL]]: OIS cells are susceptible to [[Senolytic Drugs]] like [[Navitoclax]] ([[Bcl-2]]/Bcl-xL inhibitor).
 - [[Epigenetic Alterations]]: OIS epigenome (compartment switching, enhancer remodeling) orchestrates SASP
-- [[SASP]]: OIS SASP is shaped by AP-1/BRD4/EZH2/KDM4 and 3D genome rewiring
+- [[SASP|Senescence-Associated Secretory Phenotype]]: OIS SASP is shaped by AP-1/BRD4/EZH2/KDM4 and 3D genome rewiring
 - [[Senescence-Associated Heterochromatin Foci]]: SAHF prominent in OIS; HMGB2 protects SASP loci from SAHF silencing
 - [[Histone Variant]]: histone variants contribute to OIS SASP expression
 - [[DNA Methylation]]: OIS shows focal hypermethylation of PRC2 targets
@@ -100,6 +100,6 @@ List of documents that mention this entity
 - [[Cytoplasmic Chromatin Fragments]]: CCF activates cGAS–STING in OIS
 
 ## Linking Summary
-- New links added: [[Senescence]], [[DNA Replication Stress]], [[DNA Damage Response]], [[p53]], [[p16INK4A]], [[SASP]], [[Senolytic Drugs]], [[Cancer]], [[Epigenetic Alterations]], [[Senescence-Associated Heterochromatin Foci]], [[Histone Variant]], [[DNA Methylation]], [[AP-1]], [[BRD4]], [[EZH2]], [[KDM4]], [[NF-κB]], [[cGAS-STING Pathway]], [[LINE-1]], [[Cytoplasmic Chromatin Fragments]]
+- New links added: [[Senescence]], [[DNA Replication Stress]], [[DNA Damage Response]], [[p53]], [[p16INK4A]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Senolytic Drugs]], [[Cancer]], [[Epigenetic Alterations]], [[Senescence-Associated Heterochromatin Foci]], [[Histone Variant]], [[DNA Methylation]], [[AP-1]], [[BRD4]], [[EZH2]], [[KDM4]], [[NF-κB]], [[cGAS-STING Pathway]], [[LINE-1]], [[Cytoplasmic Chromatin Fragments]]
 - Suggested new entity notes to create: [[BRAF^V600E^]], [[RAS]], [[DNA-SCARS]], [[Premalignancy]]
 - Strong connections to strengthen: [[Oncogene-Induced Senescence]] ↔ [[Cancer]], [[Oncogene-Induced Senescence]] ↔ [[DNA Replication Stress]]

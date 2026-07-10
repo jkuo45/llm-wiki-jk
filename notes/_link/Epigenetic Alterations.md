@@ -40,7 +40,7 @@ List of documents that mention this entity
 ## Connections
 - [[Epigenetic Alterations]] — related entity
 - [[Senescence]] — epigenetic reprogramming is a hallmark of the senescent state
-- [[SASP]] — the epigenetic landscape orchestrates SASP expression
+- [[SASP|Senescence-Associated Secretory Phenotype]] — the epigenetic landscape orchestrates SASP expression
 - [[Senescence-Associated Heterochromatin Foci]] — SAHF are organized by repressive chromatin marks
 - [[Histone Variant]] — histone variants accumulate and shape the senescent epigenome
 - [[DNA Methylation]] — methylation dynamics regulate the senescent transcriptome and SASP
@@ -49,6 +49,6 @@ List of documents that mention this entity
 - [[cGAS-STING Pathway]] — cytosolic DNA from derepressed retroelements activates SASP
 
 ## Linking Summary
-- New links added: [[Epigenetic Alterations]], [[Senescence]], [[SASP]], [[Senescence-Associated Heterochromatin Foci]], [[Histone Variant]], [[DNA Methylation]], [[LINE-1]], [[BRD4]], [[cGAS-STING Pathway]]
-  - Strong connections to strengthen: Epigenetic Alterations ↔ Epigenetic Alterations, Epigenetic Alterations ↔ [[SASP]], Epigenetic Alterations ↔ [[Senescence]]
+- New links added: [[Epigenetic Alterations]], [[Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Senescence-Associated Heterochromatin Foci]], [[Histone Variant]], [[DNA Methylation]], [[LINE-1]], [[BRD4]], [[cGAS-STING Pathway]]
+  - Strong connections to strengthen: Epigenetic Alterations ↔ Epigenetic Alterations, Epigenetic Alterations ↔ [[SASP|Senescence-Associated Secretory Phenotype]], Epigenetic Alterations ↔ [[Senescence]]
 

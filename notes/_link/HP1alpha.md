@@ -55,6 +55,6 @@ Preserving HP1α-dependent heterochromatin at retrotransposons could be [[Senomo
 
 ## Linking Summary
 
-- New links added: [[KAP1]], [[Sirtuin 6]], [[LINE-1]], [[SUV39H1]], [[cGAS-STING Pathway]], [[Inflammaging]], [[SASP]], [[Nucleoside Reverse Transcriptase Inhibitor]], [[Senomorphic]]
+- New links added: [[KAP1]], [[Sirtuin 6]], [[LINE-1]], [[SUV39H1]], [[cGAS-STING Pathway]], [[Inflammaging]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Nucleoside Reverse Transcriptase Inhibitor]], [[Senomorphic]]
 - Suggested new entity notes to create: [[HP1beta]], [[HP1gamma]], [[SETDB1]]
 - Strong connections to strengthen: [[HP1alpha]] ↔ [[KAP1]] (retrotransposon silencing), [[HP1alpha]] ↔ [[LINE-1]] (inflammaging source)

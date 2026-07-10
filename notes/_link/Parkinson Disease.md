@@ -34,12 +34,12 @@ Beyond standard dopaminergic replacement, senolytic and senomorphic approaches a
 
 ## Connections
 
-- [[Senescence-Associated Secretory Phenotype|SASP]]: SASP profiles distinguish Parkinson Disease patients
+- [[SASP|Senescence-Associated Secretory Phenotype]]: SASP profiles distinguish Parkinson Disease patients
 - [[Inflammaging]]: SASP may contribute to neuroinflammation in Parkinson Disease
 - [[Neuroinflammation]]: SASP drives neuroinflammation in PD
 - [[Alpha-synuclein]]: Aggregates propagate amid senescent glia
 
 ## Linking Summary
 
-- New links added: [[Senescence-Associated Secretory Phenotype|SASP]], [[Inflammaging]], [[Neuroinflammation]], [[Alpha-synuclein]], [[IL-6]], [[IL-1α]]
-  - Strong connections to strengthen: [[Parkinson Disease]] ↔ [[SASP]], [[Parkinson Disease]] ↔ neuroinflammation
+- New links added: [[SASP|Senescence-Associated Secretory Phenotype]], [[Inflammaging]], [[Neuroinflammation]], [[Alpha-synuclein]], [[IL-6]], [[IL-1α]]
+  - Strong connections to strengthen: [[Parkinson Disease]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]], [[Parkinson Disease]] ↔ neuroinflammation

@@ -37,7 +37,7 @@ List of documents that mention this entity
 
 ## Connections
 - [[AP-1]] — related entity
-- [[SASP]] — AP-1 opens enhancers of NF-κB-regulated SASP genes
+- [[SASP|Senescence-Associated Secretory Phenotype]] — AP-1 opens enhancers of NF-κB-regulated SASP genes
 - [[NF-κB]] — AP-1-mediated SASP enhancers drive NF-κB-regulated genes
 - [[BRD4]] — co-binds senescence-activated SASP enhancers with AP-1
 - [[Epigenetic Alterations]] — AP-1 is a pioneer factor reshaping the senescent epigenome
@@ -48,6 +48,6 @@ List of documents that mention this entity
 - [[IL-6]] / [[IL-8]] — SASP cytokines whose enhancers are AP-1 targets
 
 ## Linking Summary
-- New links added: [[AP-1]], [[SASP]], [[NF-κB]], [[BRD4]], [[Epigenetic Alterations]], [[Senescence-Associated Heterochromatin Foci]], [[cGAS-STING Pathway]], [[KDM4]], [[EZH2]], [[IL-6]], [[IL-8]]
-  - Strong connections to strengthen: [[AP-1]] ↔ [[SASP]], [[AP-1]] ↔ [[NF-κB]], [[AP-1]] ↔ [[BRD4]]
+- New links added: [[AP-1]], [[SASP|Senescence-Associated Secretory Phenotype]], [[NF-κB]], [[BRD4]], [[Epigenetic Alterations]], [[Senescence-Associated Heterochromatin Foci]], [[cGAS-STING Pathway]], [[KDM4]], [[EZH2]], [[IL-6]], [[IL-8]]
+  - Strong connections to strengthen: [[AP-1]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]], [[AP-1]] ↔ [[NF-κB]], [[AP-1]] ↔ [[BRD4]]
 

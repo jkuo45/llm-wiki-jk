@@ -15,7 +15,7 @@ aliases:
 
 # CCL2 (MCP-1)
 
-CCL2 (C-C motif chemokine ligand 2), also known as MCP-1 (monocyte chemoattractant protein-1), is a CC chemokine that binds the receptor [[CCR2]] and is the principal recruiter of monocytes and macrophages to sites of inflammation. It is one of the most conserved and well-characterized components of the [[Senescence-Associated Secretory Phenotype|SASP]] (Coppé et al., 2008, PMID 18948995; 2010, PMID 20723158).
+CCL2 (C-C motif chemokine ligand 2), also known as MCP-1 (monocyte chemoattractant protein-1), is a CC chemokine that binds the receptor [[CCR2]] and is the principal recruiter of monocytes and macrophages to sites of inflammation. It is one of the most conserved and well-characterized components of the [[SASP|Senescence-Associated Secretory Phenotype]] (Coppé et al., 2008, PMID 18948995; 2010, PMID 20723158).
 
 ## Mechanism of Action & Signaling
 
@@ -49,10 +49,10 @@ CCL2 (C-C motif chemokine ligand 2), also known as MCP-1 (monocyte chemoattracta
 - [[Interleukin 1β|IL-1β]]: IL-1β regulates CCL2 expression
 - [[BMI1]]: BMI1 negatively regulates CCL2
 - [[Macrophages]]: CCL2 recruits macrophages to senescent cells
-- [[Senescence-Associated Secretory Phenotype|SASP]]: CCL2 is a key SASP chemokine
+- [[SASP|Senescence-Associated Secretory Phenotype]]: CCL2 is a key SASP chemokine
 - [[Inflammaging]]: CCL2 contributes to chronic inflammation
 
 ## Linking Summary
 
-- New links added: [[CCR2]], [[IL-1α]], [[Interleukin 1β|IL-1β]], [[BMI1]], [[NF-κB]], [[AP-1]], [[STAT1]], [[p38 MAPK]], [[Macrophages]], [[Senescence-Associated Secretory Phenotype|SASP]], [[Inflammaging]]
-  - Strong connections to strengthen: [[CCL2]] ↔ [[IL-1α]], [[CCL2]] ↔ [[SASP]]
+- New links added: [[CCR2]], [[IL-1α]], [[Interleukin 1β|IL-1β]], [[BMI1]], [[NF-κB]], [[AP-1]], [[STAT1]], [[p38 MAPK]], [[Macrophages]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Inflammaging]]
+  - Strong connections to strengthen: [[CCL2]] ↔ [[IL-1α]], [[CCL2]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]]

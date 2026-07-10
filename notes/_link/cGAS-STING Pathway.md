@@ -16,7 +16,7 @@ aliases: [cGAS–STING, cyclic GMP-AMP synthase-stimulator of interferon genes, 
 
 # cGAS–STING Pathway
 
-The **cyclic GMP–AMP synthase–stimulator of interferon genes (cGAS–STING)** complex is an innate immune sensor that detects DNA in the cytosol and activates inflammatory interferon signalling. It is a crucial driver of the [[Senescence-Associated Secretory Phenotype|SASP]] and age-associated inflammation (Dougherty et al., 2019/2020, PMID 31624094; Gorgoulis et al., 2019).
+The **cyclic GMP–AMP synthase–stimulator of interferon genes (cGAS–STING)** complex is an innate immune sensor that detects DNA in the cytosol and activates inflammatory interferon signalling. It is a crucial driver of the [[SASP|Senescence-Associated Secretory Phenotype]] and age-associated inflammation (Dougherty et al., 2019/2020, PMID 31624094; Gorgoulis et al., 2019).
 
 ## Mechanism in Senescence
 
@@ -79,7 +79,7 @@ List of documents that mention this entity
     - Review describes how cytoplasmic chromatin fragments (enriched for heterochromatin marks) and derepressed retrotransposons (LINE-1, HERV) activate cGAS–STING–NF-κB to drive SASP and inflammaging.
 
 ## Connections
-- [[Senescence-Associated Secretory Phenotype|SASP]] — cGAS–STING is a key driver of SASP factor transcription
+- [[SASP|Senescence-Associated Secretory Phenotype]] — cGAS–STING is a key driver of SASP factor transcription
 - [[NF-κB]] — downstream effector of cGAS–STING signalling
 - [[IL-6]] — SASP cytokine activated by cGAS–STING
 - [[IL-8]] — SASP chemokine activated by cGAS–STING
@@ -108,4 +108,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[cGAS-STING Pathway|cGAS–STING]], [[NF-κB]], [[IL-6]], [[IL-8]], [[CXCL2]], [[CXCL10]], [[CCL3]], [[CCL5]], [[TNFα]], [[DNASE2]], [[TREX1]], [[BAX]], [[BAK]], [[TOP1]], [[G3BP1]], [[Toll-like Receptor 2|TLR2]], [[LINE-1]], [[TBK1]], [[IRF3]], [[STING]], [[mtDNA]], [[Minority MOMP]], [[Senescence-associated mitochondrial dysfunction|SAMD]], [[Inflammaging]], [[Paracrine Senescence]], [[p38 MAPK]], [[JAK]], [[STAT3]], [[mTORC1|mTOR]], [[Epigenetic Alterations]], [[Senescence-Associated Heterochromatin Foci]], [[Histone Variant]], [[DNA Methylation]], [[BRD4]], [[KDM4]], [[EZH2]]
 - Suggested new entity notes to create: [[cGAS]], [[IFI16]]
-  - Strong connections to strengthen: cGAS-STING Pathway ↔ [[SASP]], cGAS-STING Pathway ↔ [[Inflammaging]], cGAS-STING Pathway ↔ [[Aging]], cGAS-STING ↔ [[mtDNA]]
+  - Strong connections to strengthen: cGAS-STING Pathway ↔ [[SASP|Senescence-Associated Secretory Phenotype]], cGAS-STING Pathway ↔ [[Inflammaging]], cGAS-STING Pathway ↔ [[Aging]], cGAS-STING ↔ [[mtDNA]]

@@ -39,5 +39,5 @@ aliases: []
 ## Linking Summary
 
   - New links added: [[Transposable Elements]], [[Genomic Instability]], [[Cellular Senescence]], [[Gene Expression]], [[Epigenetic Alterations]]
-  - Suggested new entity notes to create: [[SINE]], [[LINE-1]], [[SASP]]
+  - Suggested new entity notes to create: [[SINE]], [[LINE-1]], [[SASP|Senescence-Associated Secretory Phenotype]]
   - Strong connections to strengthen: [[Alu element]] ↔ [[Cellular Senescence]], [[Alu element]] ↔ [[Genomic Instability]]

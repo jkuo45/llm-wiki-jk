@@ -39,9 +39,9 @@ Upon senescence entry, C/EBPα is induced and relocalizes to chromatin, occupyin
 - [[CEBPβ|C/EBPβ]]: C/EBPα is similar to C/EBPβ in SASP regulation
 - [[NF-κB]]: C/EBPα cooperates with NF-κB
 - [[p38 MAPK]]: p38 signaling integrates with C/EBPα at SASP enhancers
-- [[Senescence-Associated Secretory Phenotype|SASP]]: C/EBPα regulates SASP gene expression
+- [[SASP|Senescence-Associated Secretory Phenotype]]: C/EBPα regulates SASP gene expression
 
 ## Linking Summary
 
-- New links added: [[CEBPβ|C/EBPβ]], [[NF-κB]], [[p38 MAPK]], [[p50]], [[Senescence-Associated Secretory Phenotype|SASP]]
-  - Strong connections to strengthen: [[CEBPα]] ↔ [[CEBPβ|C/EBPβ]], [[CEBPα]] ↔ [[Senescence-Associated Secretory Phenotype|SASP]] regulation, [[CEBPα]] ↔ [[NF-κB]]
+- New links added: [[CEBPβ|C/EBPβ]], [[NF-κB]], [[p38 MAPK]], [[p50]], [[SASP|Senescence-Associated Secretory Phenotype]]
+  - Strong connections to strengthen: [[CEBPα]] ↔ [[CEBPβ|C/EBPβ]], [[CEBPα]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]] regulation, [[CEBPα]] ↔ [[NF-κB]]

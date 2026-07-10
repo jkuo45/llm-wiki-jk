@@ -16,7 +16,7 @@ protected: true
 
 # Senomorphic
 
-A **senomorphic** is an intervention that suppresses the harmful secretory and signaling activity of [[Senescence|senescent cells]] — particularly the [[Senescence-Associated Secretory Phenotype|SASP]] — without necessarily eliminating the cells via [[Apoptosis|apoptosis]]. Whereas [[Senolytic|senolytics]] clear senescent cells, senomorphics aim to neutralize their deleterious paracrine effects while leaving the cells in place.
+A **senomorphic** is an intervention that suppresses the harmful secretory and signaling activity of [[Senescence|senescent cells]] — particularly the [[SASP|Senescence-Associated Secretory Phenotype]] — without necessarily eliminating the cells via [[Apoptosis|apoptosis]]. Whereas [[Senolytic|senolytics]] clear senescent cells, senomorphics aim to neutralize their deleterious paracrine effects while leaving the cells in place.
 
 ## Distinguishing from Senolytics
 
@@ -30,7 +30,7 @@ Senomorphics commonly target upstream SASP drivers such as [[mTOR]], [[NF-κB|NF
 
 ## Relevance to Fisetin
 
-[[Fisetin]] exhibits both activities: it acts as a [[Senolytic|senolytic]] (clearing senescent cells) and, at lower exposure, can suppress [[Senescence-Associated Secretory Phenotype|SASP]] and [[NF-κB|NF-κB]]/[[IL-6|IL-6]] signaling consistent with a senomorphic effect. Its short elimination half-life (~3.1 h terminal) and durable benefit after dosing point primarily to the senolytic limb.
+[[Fisetin]] exhibits both activities: it acts as a [[Senolytic|senolytic]] (clearing senescent cells) and, at lower exposure, can suppress [[SASP|Senescence-Associated Secretory Phenotype]] and [[NF-κB|NF-κB]]/[[IL-6|IL-6]] signaling consistent with a senomorphic effect. Its short elimination half-life (~3.1 h terminal) and durable benefit after dosing point primarily to the senolytic limb.
 
 ## Documents
 
@@ -44,11 +44,11 @@ Senomorphics commonly target upstream SASP drivers such as [[mTOR]], [[NF-κB|NF
 
   - [[Senolytic]]: Sister senotherapeutic strategy (cell clearance).
   - [[Senescence]]: The cellular state modulated.
-  - [[Senescence-Associated Secretory Phenotype|SASP]]: Primary target of suppression.
+  - [[SASP|Senescence-Associated Secretory Phenotype]]: Primary target of suppression.
   - [[Fisetin]]: Exhibits both senolytic and senomorphic features.
    - [[mTOR]], [[NF-κB]], [[p38 MAPK]], [[JAK]]/[[STAT3]]: Common senomorphic targets.
    - [[Epigenetic Alterations]]: epigenetic modulators are a major class of senomorphics
-   - [[SASP]]: SASP suppression is the primary senomorphic action
+   - [[SASP|Senescence-Associated Secretory Phenotype]]: SASP suppression is the primary senomorphic action
    - [[BRD4]]: BRD4 inhibitors (BET) are senomorphic SASP suppressors
    - [[KDM4]]: KDM4 inhibitors are candidate senomorphics
    - [[EZH2]]: EZH2 modulation influences SASP
@@ -60,6 +60,6 @@ Senomorphics commonly target upstream SASP drivers such as [[mTOR]], [[NF-κB|NF
 
 ## Linking Summary
 
-  - New links added: [[Senomorphic]], [[Senolytic]], [[Senescence]], [[Senescent Cells]], [[Senescence-Associated Secretory Phenotype]], [[Apoptosis]], [[Fisetin]], [[mTOR]], [[NF-κB]], [[p38 MAPK]], [[JAK]], [[STAT3]], [[IL-6]], [[Epigenetic Alterations]], [[SASP]], [[BRD4]], [[KDM4]], [[EZH2]], [[Histone Variant]], [[LINE-1]], [[cGAS-STING Pathway]], [[DNA Methylation]], [[AP-1]]
+  - New links added: [[Senomorphic]], [[Senolytic]], [[Senescence]], [[Senescent Cells]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Apoptosis]], [[Fisetin]], [[mTOR]], [[NF-κB]], [[p38 MAPK]], [[JAK]], [[STAT3]], [[IL-6]], [[Epigenetic Alterations]], [[SASP|Senescence-Associated Secretory Phenotype]], [[BRD4]], [[KDM4]], [[EZH2]], [[Histone Variant]], [[LINE-1]], [[cGAS-STING Pathway]], [[DNA Methylation]], [[AP-1]]
   - Suggested new entity notes to create: 
-  - Strong connections to strengthen: [[Senomorphic]] ↔ [[Senolytic]], [[Senomorphic]] ↔ [[Senescence-Associated Secretory Phenotype|SASP]], [[Senomorphic]] ↔ [[Fisetin]]
+  - Strong connections to strengthen: [[Senomorphic]] ↔ [[Senolytic]], [[Senomorphic]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]], [[Senomorphic]] ↔ [[Fisetin]]

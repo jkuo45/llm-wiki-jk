@@ -40,10 +40,10 @@ CPEC has demonstrated antiproliferative activity against a range of human cancer
 - [[p21]]
 - [[Antimetabolite]]
 - [[Replication stress]]
-- [[SASP]]
+- [[SASP|Senescence-Associated Secretory Phenotype]]
 
 ## Linking Summary
 
-- New links added: [[Nucleoside analog]], [[DNA synthesis]], [[RNA synthesis]], [[CTP]], [[p53]], [[p21]], [[Antimetabolite]], [[Replication stress]], [[SASP]]
+- New links added: [[Nucleoside analog]], [[DNA synthesis]], [[RNA synthesis]], [[CTP]], [[p53]], [[p21]], [[Antimetabolite]], [[Replication stress]], [[SASP|Senescence-Associated Secretory Phenotype]]
 - Suggested new entity notes to create: [[CTP Synthetase]], [[Uridine-Cytidine Kinase 2]], [[Senescence-Associated β-Galactosidase]]
 - Strong connections to strengthen: [[Cyclopentenyl cytosine]] ↔ [[Senescence]], [[Cyclopentenyl cytosine]] ↔ [[Antimetabolite]]

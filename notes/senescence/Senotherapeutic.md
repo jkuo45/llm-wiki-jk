@@ -21,7 +21,7 @@ protected: true
 
 # Senotherapeutic
 
-A senotherapeutic is any intervention that selectively targets [[Senescence|senescent cells]] to mitigate aging and age-related disease. The term spans two complementary strategies: **senolytics**, which kill senescent cells by exploiting their [[Senescent cell anti-apoptotic pathways|anti-apoptotic dependencies]], and **senomorphics**, which suppress the deleterious [[SASP]] (senescence-associated secretory phenotype) without eliminating the cells.
+A senotherapeutic is any intervention that selectively targets [[Senescence|senescent cells]] to mitigate aging and age-related disease. The term spans two complementary strategies: **senolytics**, which kill senescent cells by exploiting their [[Senescent cell anti-apoptotic pathways|anti-apoptotic dependencies]], and **senomorphics**, which suppress the deleterious [[SASP|Senescence-Associated Secretory Phenotype]] (senescence-associated secretory phenotype) without eliminating the cells.
 
 ## Mechanism of Action
 
@@ -54,7 +54,7 @@ Senolytics are in early human trials for frailty, idiopathic pulmonary fibrosis,
   - [[Senolytics]]: Senescent-cell-killing subclass of senotherapeutics.
   - [[Senomorphic]]: SASP-suppressing subclass of senotherapeutics.
   - [[Senescent Cells]]: The cellular target of these interventions.
-  - [[SASP]]: Secretory phenotype senotherapeutics aim to control.
+  - [[SASP|Senescence-Associated Secretory Phenotype]]: Secretory phenotype senotherapeutics aim to control.
   - [[Aging]]: Process driven partly by senescent-cell accumulation.
   - [[Fisetin]]: Lead natural senolytic compound.
   - [[Dasatinib]]: Kinase inhibitor used in senolytic combinations.
@@ -63,7 +63,7 @@ Senolytics are in early human trials for frailty, idiopathic pulmonary fibrosis,
 
 ## Linking Summary
 
-  - New links added: [[Senolytics]], [[Senomorphic]], [[Senescent Cells]], [[SASP]], [[Aging]], [[Telomere]], [[Inflammaging]], [[Age-Related Diseases]], [[Hallmarks of Aging]], [[Healthspan]], [[Fisetin]], [[Dasatinib]], [[Quercetin]], [[Senescent cell anti-apoptotic pathways]], [[Tissue Plasminogen Activator]]
+  - New links added: [[Senolytics]], [[Senomorphic]], [[Senescent Cells]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Aging]], [[Telomere]], [[Inflammaging]], [[Age-Related Diseases]], [[Hallmarks of Aging]], [[Healthspan]], [[Fisetin]], [[Dasatinib]], [[Quercetin]], [[Senescent cell anti-apoptotic pathways]], [[Tissue Plasminogen Activator]]
   - Suggested new entity notes to create: [[Senolytic Therapy]], [[Senomorphic Therapy]]
-  - Strong connections to strengthen: [[Senotherapeutic]] ↔ [[Senolytics]]; [[Senotherapeutic]] ↔ [[SASP]]
+  - Strong connections to strengthen: [[Senotherapeutic]] ↔ [[Senolytics]]; [[Senotherapeutic]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]]
   - Justification: Senotherapeutic is the umbrella concept for senolytics/senomorphics; linking to senescent cells, SASP, and the aging/senescence cluster embeds it in the vault's geroscience network.

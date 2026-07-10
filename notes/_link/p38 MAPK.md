@@ -44,7 +44,7 @@ List of documents that mention this entity
 - [[Bim]] — interacts with p38 MAPK
 - [[Bax]] — interacts with p38 MAPK
 - [[TFEB]] — master transcription factor for lysosomal biogenesis and autophagy
-- [[SASP]] — p38 MAPK activates NF-κB-mediated SASP
+- [[SASP|Senescence-Associated Secretory Phenotype]] — p38 MAPK activates NF-κB-mediated SASP
 - [[Epigenetic Alterations]] — p38 MAPK drives the epigenetic SASP program
 - [[KDM4]] — p38 MAPK induces KDM4 to open SASP loci
 - [[AP-1]] — p38 MAPK reinforces the AP-1 SASP enhancer program
@@ -56,6 +56,6 @@ List of documents that mention this entity
 - [[DNA Methylation]] — p38 MAPK intersects methylation dynamics at SASP genes
 - [[Senescence-Associated Heterochromatin Foci]] — p38 MAPK acts at SASP loci outside SAHF
 ## Linking Summary
-- New links added: [[TFEB]], [[Caspase-3]], [[Caspase-8]], [[Caspase-9]], [[Bim]], [[Apoptosis|Apoptosis]], [[p38 MAPK]], [[Apoptosis]], [[Bax]], [[Phosphorylation]], [[SASP]], [[Epigenetic Alterations]], [[KDM4]], [[AP-1]], [[BRD4]], [[NF-κB]], [[cGAS-STING Pathway]], [[EZH2]], [[LINE-1]], [[DNA Methylation]], [[Senescence-Associated Heterochromatin Foci]]
+- New links added: [[TFEB]], [[Caspase-3]], [[Caspase-8]], [[Caspase-9]], [[Bim]], [[Apoptosis|Apoptosis]], [[p38 MAPK]], [[Apoptosis]], [[Bax]], [[Phosphorylation]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Epigenetic Alterations]], [[KDM4]], [[AP-1]], [[BRD4]], [[NF-κB]], [[cGAS-STING Pathway]], [[EZH2]], [[LINE-1]], [[DNA Methylation]], [[Senescence-Associated Heterochromatin Foci]]
 - Suggested new entity notes to create: [[MAPK Signaling]]
   - Strong connections to strengthen: p38 MAPK ↔ [[TFEB]], p38 MAPK ↔ Caspase-8, p38 MAPK ↔ Bim, p38 MAPK ↔ Bax

@@ -77,7 +77,7 @@ List of documents that mention this entity
 - [[CDKN1A]] — gene encoding p21^CIP1^
 - [[p16 INK4a|p16]] — cooperates with p21 in senescence and SASP regulation
 - [[Retinoblastoma Protein|Rb]] — mediates p21-dependent immunosurveillance SASP
-- [[Senescence-Associated Secretory Phenotype|SASP]] — p21 supports an early SASP profile
+- [[SASP|Senescence-Associated Secretory Phenotype]] — p21 supports an early SASP profile
 - [[CXCL14]] — p21-dependent SASP factor promoting macrophage recruitment
 - [[IGFBP3]] — p21-dependent SASP component
 - [[Cyclin-Dependent Kinase 2|CDK2]] — primary target of p21 inhibition
@@ -89,4 +89,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[p21 CIP1|p21]], [[CDKN1A]], [[p53]], [[Retinoblastoma Protein|Rb]], [[CXCL14]], [[IGFBP3]], [[Cyclin-Dependent Kinase 2|CDK2]], [[DNA Damage Response]], [[Oncogene-Induced Senescence|OIS]], [[Cyclin-Dependent Kinase 4|CDK4]], [[Cyclin-Dependent Kinase 6|CDK6]], [[E2F]], [[Inflammaging]]
 - Suggested new entity notes to create: [[G1/S Checkpoint]], [[CDK2]]
-  - Strong connections to strengthen: p21 CIP1 ↔ Cellular Senescence, p21 CIP1 ↔ [[SASP]], p21 CIP1 ↔ [[p53]], p21 ↔ [[p16 INK4a|p16]]
+  - Strong connections to strengthen: p21 CIP1 ↔ Cellular Senescence, p21 CIP1 ↔ [[SASP|Senescence-Associated Secretory Phenotype]], p21 CIP1 ↔ [[p53]], p21 ↔ [[p16 INK4a|p16]]

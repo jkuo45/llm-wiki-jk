@@ -17,7 +17,7 @@ aliases:
 
 # Nucleoside Reverse Transcriptase Inhibitor
 
-Nucleoside reverse transcriptase inhibitors (NRTIs) are antiretroviral compounds developed for HIV that act as chain-terminating analogs of natural nucleosides, competitively inhibiting retroviral reverse transcriptase and terminating viral DNA synthesis. In the senescence field, NRTIs are repurposed to block the reverse transcription of LINE-1 ([[LINE-1]]) and human endogenous retrovirus ([[Human Endogenous Retrovirus|HERV]]) cDNA, thereby alleviating the cGAS–STING-mediated interferon inflammation and [[SASP]] that arise from retrotransposon derepression in aging.
+Nucleoside reverse transcriptase inhibitors (NRTIs) are antiretroviral compounds developed for HIV that act as chain-terminating analogs of natural nucleosides, competitively inhibiting retroviral reverse transcriptase and terminating viral DNA synthesis. In the senescence field, NRTIs are repurposed to block the reverse transcription of LINE-1 ([[LINE-1]]) and human endogenous retrovirus ([[Human Endogenous Retrovirus|HERV]]) cDNA, thereby alleviating the cGAS–STING-mediated interferon inflammation and [[SASP|Senescence-Associated Secretory Phenotype]] that arise from retrotransposon derepression in aging.
 
 ## Chemical Properties & Classification
 
@@ -48,6 +48,6 @@ NRTIs offer a uniquely tractable route to dampen senescence-associated inflammat
 
 ## Linking Summary
 
-- New links added: [[LINE-1]], [[Human Endogenous Retrovirus]], [[Endogenous Retrovirus]], [[cGAS-STING Pathway]], [[SASP]], [[Inflammaging]], [[Senomorphic]]
+- New links added: [[LINE-1]], [[Human Endogenous Retrovirus]], [[Endogenous Retrovirus]], [[cGAS-STING Pathway]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Inflammaging]], [[Senomorphic]]
 - Suggested new entity notes to create: [[Emtricitabine]], [[Tenofovir]], [[cGAS-STING Pathway]]
-- Strong connections to strengthen: [[Nucleoside Reverse Transcriptase Inhibitor]] ↔ [[SASP]] (anti-inflammaging), [[Nucleoside Reverse Transcriptase Inhibitor]] ↔ [[Human Endogenous Retrovirus]] (RT blockade)
+- Strong connections to strengthen: [[Nucleoside Reverse Transcriptase Inhibitor]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]] (anti-inflammaging), [[Nucleoside Reverse Transcriptase Inhibitor]] ↔ [[Human Endogenous Retrovirus]] (RT blockade)

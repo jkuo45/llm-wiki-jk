@@ -26,7 +26,7 @@ Curcumin is a selective [[P300]]/[[CBP]] HAT inhibitor (IC50 ~25 µM), blocking 
 
 ## Senescence-Inducing Activity
 
-At 10–40 µM in vitro, curcumin induces [[p16INK4A|p16^INK4a^]]-dependent senescence via oxidative stress, [[p38 MAPK]] activation, and [[SASP]] production.
+At 10–40 µM in vitro, curcumin induces [[p16INK4A|p16^INK4a^]]-dependent senescence via oxidative stress, [[p38 MAPK]] activation, and [[SASP|Senescence-Associated Secretory Phenotype]] production.
 
 ## Anti-Aging Evidence
 
@@ -73,7 +73,7 @@ Curcumin is a selective [[P300]]/[[CBP]] HAT inhibitor (IC50 ~25 µM), blocking 
 
 At 10–40 µM in vitro, curcumin induces [[p16INK4A|p16^INK4a^]]-dependent senescence in human fibroblasts and cancer cells:
 - Increases [[SA-beta-gal]] activity within 3–5 days.
-- Triggers [[SASP]] ([[IL-6]], [[IL-8]], [[MMP1]]).
+- Triggers [[SASP|Senescence-Associated Secretory Phenotype]] ([[IL-6]], [[IL-8]], [[MMP1]]).
 - Generates [[Oxidative Stress|oxidative stress]] through [[copper]]-dependent ROS production.
 - Activates [[p38 MAPK]] signaling, which cooperates with p16^INK4a^ to enforce arrest.
 
@@ -97,5 +97,5 @@ In model organisms, curcumin extends lifespan in *[[Caenorhabditis elegans]]* (v
 - New links added: [[P300]], [[CBP]], [[Histone Acetylation]], [[NF-κB]], [[Senescence]], [[Oxidative Stress]], [[p38 MAPK]], [[FOXO]], [[Piperine]]
 - Suggested new entity notes to create: [[PAINS compounds]], [[Theracurmin]], [[Meriva]]
   - Strong connections to strengthen: [[Curcumin]] ↔ [[P300]], [[Curcumin]] ↔ [[Senescence]]
-- New links added: [[HAT]], [[NFKB]], [[Senescence]], [[p16INK4A]], [[SASP]], [[Oxidative Stress]]
+- New links added: [[HAT]], [[NFKB]], [[Senescence]], [[p16INK4A]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Oxidative Stress]]
 - Suggested new entity notes to create: [[p300/CBP]], [[NRF2]], [[Keap1]], [[Piperine]], [[PAINS compounds]]

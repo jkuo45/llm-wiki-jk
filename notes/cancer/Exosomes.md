@@ -25,7 +25,7 @@ Exosomes are small extracellular vesicles (30-150 nm) of endosomal origin, relea
 
 ## Role in Senescence
 
-Senescent cells secrete exosomes with altered cargo composition (senescence-associated exosomes). These exosomes carry [[SASP]] factors, [[pro-inflammatory cytokines]], [[DNA fragments]], and [[microRNAs]] (e.g., [[miR-146a]], [[miR-21]]) that can:
+Senescent cells secrete exosomes with altered cargo composition (senescence-associated exosomes). These exosomes carry [[SASP|Senescence-Associated Secretory Phenotype]] factors, [[pro-inflammatory cytokines]], [[DNA fragments]], and [[microRNAs]] (e.g., [[miR-146a]], [[miR-21]]) that can:
 - Paracrine spread of senescence to neighboring cells
 - Modulate the [[Tumor Microenvironment]]
 - Transfer [[Cytoplasmic Chromatin Fragments|cytoplasmic chromatin fragments]] that activate [[cGAS-STING Pathway|cGAS-STING]] in recipient cells
@@ -46,7 +46,7 @@ Senescent cells secrete exosomes with altered cargo composition (senescence-asso
 
 ## Connections
 
-- [[SASP]]: Exosomes are a delivery mechanism for SASP factors
+- [[SASP|Senescence-Associated Secretory Phenotype]]: Exosomes are a delivery mechanism for SASP factors
 - [[Cytoplasmic Chromatin Fragments]]: Transferred via exosomes to recipient cells
 - [[cGAS-STING Pathway]]: Exosomal DNA activates cGAS in recipient cells
 - [[Tumor Microenvironment]]: Shaped by exosome-mediated communication
@@ -56,4 +56,4 @@ Senescent cells secrete exosomes with altered cargo composition (senescence-asso
 
 - New links added: [[microRNA]], [[endocytosis]], [[phagocytosis]]
 - Suggested new entity notes to create: [[ESCRT complex]], [[multivesicular bodies]], [[senescence-associated exosomes]]
-- Strong connections to strengthen: [[Exosomes]] ↔ [[SASP]] (senescent cell communication), [[Exosomes]] ↔ [[cGAS-STING Pathway]] (DNA transfer)
+- Strong connections to strengthen: [[Exosomes]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]] (senescent cell communication), [[Exosomes]] ↔ [[cGAS-STING Pathway]] (DNA transfer)

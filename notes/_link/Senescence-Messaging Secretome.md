@@ -18,7 +18,7 @@ aliases:
 
 ## Overview
 
-The Senescence-Messaging Secretome (SMS) is an alternative name for the [[Senescence-Associated Secretory Phenotype|SASP]] that emphasizes its role as a complex intercellular communication network. The term was introduced to highlight that the SASP is not merely a collection of secreted factors, but a sophisticated messaging system through which [[Senescent Cells|senescent cells]] communicate with and modify their surrounding [[Tumor Microenvironment|microenvironment]].
+The Senescence-Messaging Secretome (SMS) is an alternative name for the [[SASP|Senescence-Associated Secretory Phenotype]] that emphasizes its role as a complex intercellular communication network. The term was introduced to highlight that the SASP is not merely a collection of secreted factors, but a sophisticated messaging system through which [[Senescent Cells|senescent cells]] communicate with and modify their surrounding [[Tumor Microenvironment|microenvironment]].
 
 ## Terminology
 
@@ -80,7 +80,7 @@ The SMS concept highlights the dual nature of senescent cell communication:
 
 ## Connections
 
-- [[SASP]]: The SMS is an alternative name for the SASP
+- [[SASP|Senescence-Associated Secretory Phenotype]]: The SMS is an alternative name for the SASP
 - [[Senescent Cells]]: The SMS is secreted by and characterizes senescent cells
 - [[Paracrine Senescence]]: The SMS mediates paracrine senescence effects
 - [[Senescence Surveillance]]: The SMS includes immune-recruiting signals
@@ -88,5 +88,5 @@ The SMS concept highlights the dual nature of senescent cell communication:
 
 ## Linking Summary
 
-- New links added: [[Senescence-Messaging Secretome]], [[SASP]], [[Senescent Cells]], [[Paracrine Senescence]], [[Senescence Surveillance]], [[Inflammaging]]
-- Strong connections to strengthen: [[Senescence-Messaging Secretome]] ↔ [[SASP]], [[Senescence-Messaging Secretome]] ↔ [[Senescent Cells]]
+- New links added: [[Senescence-Messaging Secretome]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Senescent Cells]], [[Paracrine Senescence]], [[Senescence Surveillance]], [[Inflammaging]]
+- Strong connections to strengthen: [[Senescence-Messaging Secretome]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]], [[Senescence-Messaging Secretome]] ↔ [[Senescent Cells]]

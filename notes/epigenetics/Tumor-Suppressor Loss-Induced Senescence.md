@@ -51,5 +51,5 @@ List of documents that mention this entity
 ## Linking Summary
 
 - New links added: [[Tumor Suppressor Gene]], [[Oncogene-Induced Senescence]], [[Senescence]], [[RB1]], [[TP53]], [[Cancer]], [[Oncogene]], [[Tumorigenicity]], [[G1 Phase]], [[Aging]]
-- Suggested new entity notes to create: [[PTEN]], [[p16INK4a]], [[Senescence-Associated Secretory Phenotype]]
+- Suggested new entity notes to create: [[PTEN]], [[p16INK4a]], [[SASP|Senescence-Associated Secretory Phenotype]]
 - Strong connections to strengthen: [[Tumor-Suppressor Loss-Induced Senescence]] ↔ [[Senescence]], [[Tumor-Suppressor Loss-Induced Senescence]] ↔ [[Tumor Suppressor Gene]]

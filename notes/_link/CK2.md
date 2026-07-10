@@ -22,7 +22,7 @@ CK2 phosphorylates a wide range of substrates involved in cell-cycle control, ap
 
 ## Role in Senescence / SASP
 
-Reduced CK2 activity/expression in [[Senescent Cells]] relieves its brake on the [[NFKB|NF-κB]] pathway, thereby promoting IKK/NF-κB activation and contributing to induction of the [[Senescence-Associated Secretory Phenotype|SASP]]. In this sense CK2 behaves as an endogenous senescence suppressor: its decline during senescence permits the inflammatory transcription program to proceed. Conversely, sustained CK2 activity can oppose senescence establishment. CK2 therefore sits as a counter-regulatory node balancing NF-κB output, and its downregulation is one of the biochemical events that licenses the SASP.
+Reduced CK2 activity/expression in [[Senescent Cells]] relieves its brake on the [[NFKB|NF-κB]] pathway, thereby promoting IKK/NF-κB activation and contributing to induction of the [[SASP|Senescence-Associated Secretory Phenotype]]. In this sense CK2 behaves as an endogenous senescence suppressor: its decline during senescence permits the inflammatory transcription program to proceed. Conversely, sustained CK2 activity can oppose senescence establishment. CK2 therefore sits as a counter-regulatory node balancing NF-κB output, and its downregulation is one of the biochemical events that licenses the SASP.
 
 ## Clinical / Pathological Relevance
 
@@ -44,13 +44,13 @@ List of documents that mention this entity
 - [[IKK complex]] — CK2 positively regulates the IKK complex
 - [[p53]] — CK2 phosphorylates and modulates p53
 - [[Senescent Cells]] — CK2 levels are reduced in senescent cells
-- [[Senescence-Associated Secretory Phenotype|SASP]] — CK2 decline licenses SASP
+- [[SASP|Senescence-Associated Secretory Phenotype]] — CK2 decline licenses SASP
 
 ## Linking Summary
 
   - New links added: [[IkappaBalpha]], [[p53]], [[Caspase-2]], [[Bid]], [[Mcl-1]], [[Hallmarks of Cancer]], [[BH3 mimetics]], [[silmitasertib]]
   - Suggested new entity notes to create: [[CSNK2A1]], [[WRN]], [[CSNK2B]], [[Mcl-1]], [[silmitasertib]]
-  - Strong connections to strengthen: [[CK2]] ↔ [[NFKB|NF-κB]], [[CK2]] ↔ [[IKK complex]], [[CK2]] ↔ [[SASP]], [[CK2]] ↔ [[Caspase-2]], [[CK2]] ↔ [[Bid]]
+  - Strong connections to strengthen: [[CK2]] ↔ [[NFKB|NF-κB]], [[CK2]] ↔ [[IKK complex]], [[CK2]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]], [[CK2]] ↔ [[Caspase-2]], [[CK2]] ↔ [[Bid]]
 
 ## Additional Context (Cancer / Apoptosis)
 

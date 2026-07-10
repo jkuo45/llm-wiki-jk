@@ -29,7 +29,7 @@ Senolytic Therapy refers to treatments that selectively eliminate [[Senescent Ce
 
 ## Role in Aging
 
-- Reduces senescence burden and the [[Senescence-Associated Secretory Phenotype|SASP]], ameliorating [[Inflammaging]].
+- Reduces senescence burden and the [[SASP|Senescence-Associated Secretory Phenotype]], ameliorating [[Inflammaging]].
 - Improves health span and function in aged rodents and in models of specific age-related diseases (Childs et al., Nat Rev Drug Discov 2017; PMID 28627678).
 - Complements [[Senomorphic Therapy]], which suppresses the SASP without killing the cell.
 
@@ -52,10 +52,10 @@ Senolytic Therapy refers to treatments that selectively eliminate [[Senescent Ce
 - [[Navitoclax]]: BCL-2/BCL-XL inhibitor used as a senolytic
 - [[Fisetin]]: Natural flavonoid senolytic
 - [[Senescent cell anti-apoptotic pathways|SCAPs]]: The survival networks senolytics disable
-- [[Senescence-Associated Secretory Phenotype|SASP]]: Senolytics reduce SASP by eliminating senescent cells
+- [[SASP|Senescence-Associated Secretory Phenotype]]: Senolytics reduce SASP by eliminating senescent cells
 - [[Senomorphic Therapy|senomorphic therapies]]: Senolytics and senomorphics are complementary approaches
 
 ## Linking Summary
 
-- New links added: [[Dasatinib]], [[Quercetin]], [[Navitoclax]], [[Fisetin]], [[Senescent cell anti-apoptotic pathways|SCAPs]], [[Senescence-Associated Secretory Phenotype|SASP]], [[Senomorphic Therapy|senomorphic therapies]], [[BAX]], [[BAK]], [[Mitochondrial outer membrane permeabilization|MOMP]]
+- New links added: [[Dasatinib]], [[Quercetin]], [[Navitoclax]], [[Fisetin]], [[Senescent cell anti-apoptotic pathways|SCAPs]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Senomorphic Therapy|senomorphic therapies]], [[BAX]], [[BAK]], [[Mitochondrial outer membrane permeabilization|MOMP]]
 - Strong connections to strengthen: Senolytic Therapy ↔ D+Q, Senolytic Therapy ↔ [[Senescent cell anti-apoptotic pathways|SCAPs]], Senolytic Therapy ↔ aging

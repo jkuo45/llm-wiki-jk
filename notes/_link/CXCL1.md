@@ -16,7 +16,7 @@ aliases:
 
 # CXCL1
 
-CXCL1 (C-X-C motif chemokine ligand 1), also known as GROα (growth-regulated oncogene alpha) or NAP-3, is an ELR+ C-X-C chemokine that primarily signals through [[CXCR2]] (and at lower affinity through CXCR1). It is a prototypical neutrophil-recruiting chemokine and a conserved component of the [[Senescence-Associated Secretory Phenotype|SASP]], first characterized in the senescence secretome of human fibroblasts and epithelial cells (Coppé et al., 2008, PMID 18948995; 2010, PMID 20723158).
+CXCL1 (C-X-C motif chemokine ligand 1), also known as GROα (growth-regulated oncogene alpha) or NAP-3, is an ELR+ C-X-C chemokine that primarily signals through [[CXCR2]] (and at lower affinity through CXCR1). It is a prototypical neutrophil-recruiting chemokine and a conserved component of the [[SASP|Senescence-Associated Secretory Phenotype]], first characterized in the senescence secretome of human fibroblasts and epithelial cells (Coppé et al., 2008, PMID 18948995; 2010, PMID 20723158).
 
 ## Mechanism of Action & Signaling
 
@@ -49,9 +49,9 @@ CXCL1 (C-X-C motif chemokine ligand 1), also known as GROα (growth-regulated on
 - [[CXCL3]]: CXCL3 is a related SASP chemokine
 - [[NF-κB]]: NF-κB regulates CXCL1 expression
 - [[IL-8]]: IL-8 is a co-induced ELR+ CXC SASP chemokine sharing CXCR2
-- [[Senescence-Associated Secretory Phenotype|SASP]]: CXCL1 is a SASP chemokine
+- [[SASP|Senescence-Associated Secretory Phenotype]]: CXCL1 is a SASP chemokine
 
 ## Linking Summary
 
-- New links added: [[CXCR2]], [[CXCL2]], [[CXCL3]], [[NF-κB]], [[AP-1]], [[CEBPβ|C/EBPβ]], [[p38 MAPK]], [[IL-6]], [[IL-8]], [[Macrophages]], [[Neutrophils]], [[Senescence-Associated Secretory Phenotype|SASP]], [[Inflammaging]]
-  - Strong connections to strengthen: [[CXCL1]] ↔ [[CXCR2]], [[CXCL1]] ↔ [[SASP]]
+- New links added: [[CXCR2]], [[CXCL2]], [[CXCL3]], [[NF-κB]], [[AP-1]], [[CEBPβ|C/EBPβ]], [[p38 MAPK]], [[IL-6]], [[IL-8]], [[Macrophages]], [[Neutrophils]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Inflammaging]]
+  - Strong connections to strengthen: [[CXCL1]] ↔ [[CXCR2]], [[CXCL1]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]]

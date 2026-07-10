@@ -26,7 +26,7 @@ aliases: [ABT-263]
 ## Applications
 
 > [!info] Senolytic activity
-> Senescent cells resist apoptosis through upregulated **senescent-cell anti-apoptotic pathways (SCAPs)**, notably BCL-xL. By inhibiting BCL-xL, navitoclax selectively kills many [[Senescent Cells]], making it a prototypical [[Senolytics|senolytic]] used to clear [[Cellular Senescence]] and reduce the [[SASP]] in aging and fibrotic disease models. It also shows antitumor activity in lymphoid malignancies.
+> Senescent cells resist apoptosis through upregulated **senescent-cell anti-apoptotic pathways (SCAPs)**, notably BCL-xL. By inhibiting BCL-xL, navitoclax selectively kills many [[Senescent Cells]], making it a prototypical [[Senolytics|senolytic]] used to clear [[Cellular Senescence]] and reduce the [[SASP|Senescence-Associated Secretory Phenotype]] in aging and fibrotic disease models. It also shows antitumor activity in lymphoid malignancies.
 
 > [!warning] Dose-limiting toxicity
 > Because platelets depend on BCL-xL for survival, navitoclax causes on-target **[[Thrombocytopenia]]**, which limits clinical dosing and has motivated development of more selective or targeted senolytics.
@@ -44,10 +44,10 @@ aliases: [ABT-263]
   - [[Senescent Cells]]: Selectively eliminated by BCL-xL inhibition.
   - [[Bcl-2]]: Primary anti-apoptotic target family.
   - [[Apoptosis]]: Reactivated by BH3 mimicry.
-  - [[SASP]]: Reduced by clearing senescent cells.
+  - [[SASP|Senescence-Associated Secretory Phenotype]]: Reduced by clearing senescent cells.
   - [[Thrombocytopenia]]: Dose-limiting on-target toxicity.
 
 ## Linking Summary
 
-  - New links added: [[Bcl-2]], [[BAX]], [[BAK]], [[Apoptosis]], [[Mitochondrial outer membrane permeabilization]], [[Cytochrome C]], [[Senolytics]], [[Senescent Cells]], [[Cellular Senescence]], [[SASP]], [[Thrombocytopenia]]
+  - New links added: [[Bcl-2]], [[BAX]], [[BAK]], [[Apoptosis]], [[Mitochondrial outer membrane permeabilization]], [[Cytochrome C]], [[Senolytics]], [[Senescent Cells]], [[Cellular Senescence]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Thrombocytopenia]]
   - Strong connections to strengthen: Navitoclax ↔ Senolytics; Navitoclax ↔ Bcl-2

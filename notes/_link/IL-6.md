@@ -15,7 +15,7 @@ aliases: [IL-6, Interleukin-6, BSF-2]
 
 # IL-6
 
-**Interleukin-6 (IL-6)** is a pleiotropic pro-inflammatory cytokine and one of the most highly conserved and robustly induced components of the [[Senescence-Associated Secretory Phenotype|SASP]], with central roles in [[Inflammation]], [[Inflammaging]], and numerous age-related diseases.
+**Interleukin-6 (IL-6)** is a pleiotropic pro-inflammatory cytokine and one of the most highly conserved and robustly induced components of the [[SASP|Senescence-Associated Secretory Phenotype]], with central roles in [[Inflammation]], [[Inflammaging]], and numerous age-related diseases.
 
 ## Mechanism of Action & Signaling
 
@@ -50,7 +50,7 @@ List of documents that mention this entity
 
 ## Connections
 
-- [[Senescence-Associated Secretory Phenotype|SASP]] — IL-6 is a major SASP component; the most prominent and robustly induced cytokine
+- [[SASP|Senescence-Associated Secretory Phenotype]] — IL-6 is a major SASP component; the most prominent and robustly induced cytokine
 - [[Senescent Cells]] — Produced by senescent cells across all models of stress-induced and replicative senescence
 - [[Inflammation]] — IL-6 is a pro-inflammatory cytokine
 - [[Inflammaging]] — Contributes to chronic age-related inflammation
@@ -69,9 +69,9 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-  - New links added: [[Senescence-Associated Secretory Phenotype|SASP]], [[Senescent Cells]], [[Inflammation]], [[Inflammaging]], [[JAK]], [[STAT3]], [[NF-κB]], [[gp130]], [[MAPK]], [[PI3K]], [[Akt]], [[Advanced Glycation End Products]], [[SIRT1]], [[SIRT7]], [[Epigenetic Alterations]], [[KDM4]], [[EZH2]], [[BRD4]], [[AP-1]], [[Histone Variant]], [[cGAS-STING Pathway]], [[LINE-1]], [[DNA Methylation]], [[Senescence-Associated Heterochromatin Foci]]
+  - New links added: [[SASP|Senescence-Associated Secretory Phenotype]], [[Senescent Cells]], [[Inflammation]], [[Inflammaging]], [[JAK]], [[STAT3]], [[NF-κB]], [[gp130]], [[MAPK]], [[PI3K]], [[Akt]], [[Advanced Glycation End Products]], [[SIRT1]], [[SIRT7]], [[Epigenetic Alterations]], [[KDM4]], [[EZH2]], [[BRD4]], [[AP-1]], [[Histone Variant]], [[cGAS-STING Pathway]], [[LINE-1]], [[DNA Methylation]], [[Senescence-Associated Heterochromatin Foci]]
   - Suggested new entity notes to create: [[IL-6R]]
-  - Strong connections to strengthen: [[IL-6]] ↔ [[Senescence-Associated Secretory Phenotype|SASP]], [[IL-6]] ↔ [[Inflammaging]], [[IL-6]] ↔ [[STAT3]]
+  - Strong connections to strengthen: [[IL-6]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]], [[IL-6]] ↔ [[Inflammaging]], [[IL-6]] ↔ [[STAT3]]
 
 ## Additional Context (Adrenochrome / AGE / Sirtuin)
 

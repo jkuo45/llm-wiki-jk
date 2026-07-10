@@ -14,11 +14,11 @@ aliases: [IL-1β, Interleukin-1 beta, IL1B]
 
 # IL-1β
 
-**Interleukin-1 beta (IL-1β)** is a potent pro-inflammatory IL-1-family cytokine and a key component and upstream regulator of the [[Senescence-Associated Secretory Phenotype|SASP]].
+**Interleukin-1 beta (IL-1β)** is a potent pro-inflammatory IL-1-family cytokine and a key component and upstream regulator of the [[SASP|Senescence-Associated Secretory Phenotype]].
 
 ## Mechanism of Action & Signaling
 
-IL-1β is transcribed as an inactive 31-kDa precursor (pro-IL-1β) and requires two signals: a priming signal (e.g., [[NFKB|NF-κB]]) induces pro-IL-1β and NLRP3, and a danger signal activates the [[NLRP3]] inflammasome, which recruits ASC and [[Caspase 1]] to cleave pro-IL-1β into the mature 17-kDa secreted form. Mature IL-1β binds IL-1R1/IL-1RAcP to activate MyD88, driving [[NFKB|NF-κB]] and [[MAPK]] and inducing downstream SASP factors ([[IL-6]], [[IL-8]]) together with [[CEBPβ|C/EBPβ]]. Like IL-1α, IL-1β feeds forward to sustain the inflammatory secretome of [[Senescent Cells]].
+IL-1β is transcribed as an inactive 31-kDa precursor (pro-IL-1β) and requires two signals: a priming signal (e.g., [[NFKB|NF-κB]]) induces pro-IL-1β and NLRP3, and a danger signal activates the [[NLRP3]] inflammasome, which recruits ASC and [[Caspase-1]] to cleave pro-IL-1β into the mature 17-kDa secreted form. Mature IL-1β binds IL-1R1/IL-1RAcP to activate MyD88, driving [[NFKB|NF-κB]] and [[MAPK]] and inducing downstream SASP factors ([[IL-6]], [[IL-8]]) together with [[CEBPβ|C/EBPβ]]. Like IL-1α, IL-1β feeds forward to sustain the inflammatory secretome of [[Senescent Cells]].
 
 ## Role in Senescence / SASP
 
@@ -41,7 +41,7 @@ List of documents that mention this entity
 
 ## Connections
 
-- [[Senescence-Associated Secretory Phenotype|SASP]] — A key component and regulator of SASP
+- [[SASP|Senescence-Associated Secretory Phenotype]] — A key component and regulator of SASP
 - [[Senescent Cells]] — Produced by senescent cells
 - [[NF-κB]] — Activates NF-κB signaling
 - [[NLRP3]] — Processed by the NLRP3 inflammasome
@@ -50,5 +50,5 @@ List of documents that mention this entity
 
 ## Linking Summary
 
-  - New links added: [[Senescence-Associated Secretory Phenotype|SASP]], [[Senescent Cells]], [[NF-κB]], [[NLRP3]], [[Caspase 1]], [[CEBPβ|C/EBPβ]], [[MAPK]], [[Inflammaging]]
-  - Strong connections to strengthen: [[IL-1β]] ↔ [[Senescence-Associated Secretory Phenotype|SASP]], [[IL-1β]] ↔ [[Inflammaging]]
+  - New links added: [[SASP|Senescence-Associated Secretory Phenotype]], [[Senescent Cells]], [[NF-κB]], [[NLRP3]], [[Caspase-1]], [[CEBPβ|C/EBPβ]], [[MAPK]], [[Inflammaging]]
+  - Strong connections to strengthen: [[IL-1β]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]], [[IL-1β]] ↔ [[Inflammaging]]

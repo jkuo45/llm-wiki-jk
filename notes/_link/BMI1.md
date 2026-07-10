@@ -14,7 +14,7 @@ aliases: [BMI1, Bmi-1, B-cell-specific Moloney murine leukemia virus integration
 
 # BMI1
 
-BMI1 (B-cell-specific Moloney murine leukemia virus integration site 1, gene *BMI1*) is a core subunit of Polycomb Repressive Complex 1 (PRC1) that maintains gene silencing through [[Ubiquitin]]-mediated histone H2A monoubiquitylation. It is a well-established senescence suppressor: by repressing the [[CDKN2A|INK4a/ARF (p16/p14ARF)]] locus, BMI1 preserves proliferative capacity, and its loss triggers premature [[Cellular Senescence]]. In the SASP context, BMI1 also negatively regulates the chemokine [[CCL2]] through an [[IL-1α]]-mediated mechanism in senescent mesenchymal stromal cells, tuning the inflammatory output of the [[Senescence-Associated Secretory Phenotype|SASP]].
+BMI1 (B-cell-specific Moloney murine leukemia virus integration site 1, gene *BMI1*) is a core subunit of Polycomb Repressive Complex 1 (PRC1) that maintains gene silencing through [[Ubiquitin]]-mediated histone H2A monoubiquitylation. It is a well-established senescence suppressor: by repressing the [[CDKN2A|INK4a/ARF (p16/p14ARF)]] locus, BMI1 preserves proliferative capacity, and its loss triggers premature [[Cellular Senescence]]. In the SASP context, BMI1 also negatively regulates the chemokine [[CCL2]] through an [[IL-1α]]-mediated mechanism in senescent mesenchymal stromal cells, tuning the inflammatory output of the [[SASP|Senescence-Associated Secretory Phenotype]].
 
 ## Mechanism of Action & Signaling
 
@@ -45,10 +45,10 @@ BMI1 (B-cell-specific Moloney murine leukemia virus integration site 1, gene *BM
 - [[IL-1α]]: BMI1 acts through IL-1α to regulate CCL2
 - [[CDKN2A]]: BMI1 represses the INK4a/ARF locus to suppress senescence
 - [[p16 INK4a]]: Direct repression target of BMI1
-- [[Senescence-Associated Secretory Phenotype|SASP]]: BMI1 modulates SASP composition
+- [[SASP|Senescence-Associated Secretory Phenotype]]: BMI1 modulates SASP composition
 - [[EZH2]]: PRC2 partner in Polycomb silencing
 
 ## Linking Summary
 
-- New links added: [[CCL2]], [[IL-1α]], [[Senescence-Associated Secretory Phenotype|SASP]], [[CDKN2A]], [[p16 INK4a]], [[EZH2]], [[Ubiquitin]]
+- New links added: [[CCL2]], [[IL-1α]], [[SASP|Senescence-Associated Secretory Phenotype]], [[CDKN2A]], [[p16 INK4a]], [[EZH2]], [[Ubiquitin]]
 - Strong connections to strengthen: [[BMI1]] ↔ [[CCL2]], [[BMI1]] ↔ [[CDKN2A]], [[BMI1]] ↔ epigenetic regulation

@@ -15,7 +15,7 @@ aliases:
 
 # H4K5ac
 
-H4K5ac is the acetylation of histone H4 at lysine 5, an early-acetylated residue of the H4 N-terminal tail. It is associated with active chromatin and, in senescence, is one of the acetyl marks enriched at senescence-activated [[Super-enhancer|super-enhancers]] that drive [[SASP]] expression, as reviewed in the npj Aging survey (Dasgupta et al., 2024; https://doi.org/10.1038/s41514-024-00172-2).
+H4K5ac is the acetylation of histone H4 at lysine 5, an early-acetylated residue of the H4 N-terminal tail. It is associated with active chromatin and, in senescence, is one of the acetyl marks enriched at senescence-activated [[Super-enhancer|super-enhancers]] that drive [[SASP|Senescence-Associated Secretory Phenotype]] expression, as reviewed in the npj Aging survey (Dasgupta et al., 2024; https://doi.org/10.1038/s41514-024-00172-2).
 
 ## Definition
 
@@ -50,10 +50,10 @@ Because H4K5ac sits within the BET-readable acetyl code at SEs, bromodomain and 
 - [[P300]]: HAT installing H4K5ac.
 - [[BRD4]]: Reader of H4 acetyl marks at SEs.
 - [[AP-1]]: Pioneer factor opening H4K5ac enhancers.
-- [[SASP]]: H4K5ac SE landscape drives SASP.
+- [[SASP|Senescence-Associated Secretory Phenotype]]: H4K5ac SE landscape drives SASP.
 
 ## Linking Summary
 
-- New links added: [[Super-enhancer]], [[H3K27ac]], [[H3K18ac]], [[H3K122ac]], [[H3K4me1]], [[P300]], [[BRD4]], [[AP-1]], [[Enhancer-Promoter Looping]], [[Topologically Associating Domain]], [[SASP]], [[Senomorphic]], [[KDM4]], [[DOT1L]], [[Senescence]]
+- New links added: [[Super-enhancer]], [[H3K27ac]], [[H3K18ac]], [[H3K122ac]], [[H3K4me1]], [[P300]], [[BRD4]], [[AP-1]], [[Enhancer-Promoter Looping]], [[Topologically Associating Domain]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Senomorphic]], [[KDM4]], [[DOT1L]], [[Senescence]]
 - Suggested new entity notes to create: [[TIP60]], [[HBO1]]
 - Strong connections to strengthen: [[H4K5ac]] ↔ [[Super-enhancer]]; [[H4K5ac]] ↔ [[H3K27ac]]

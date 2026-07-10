@@ -36,11 +36,11 @@ IPF is almost invariably fatal within 3–5 years; antifibrotics (pirfenidone, n
 
 - [[Interleukin 11|IL-11]]: IL-11 is associated with pulmonary fibrosis
 - [[SIRT1]]: SIRT1 downregulation activates IL-11 in IPF
-- [[Senescence-Associated Secretory Phenotype|SASP]]: SASP factors drive IPF pathology
+- [[SASP|Senescence-Associated Secretory Phenotype]]: SASP factors drive IPF pathology
 - [[Dasatinib]]: Senolytic component (D+Q) tested in IPF
 - [[Quercetin]]: Senolytic component (D+Q) tested in IPF
 
 ## Linking Summary
 
-- New links added: [[Interleukin 11|IL-11]], [[SIRT1]], [[Senescence-Associated Secretory Phenotype|SASP]], [[Dasatinib]], [[Quercetin]], [[TGFβ]]
-  - Strong connections to strengthen: IPF ↔ [[SASP]], IPF ↔ IL-11, IPF ↔ senolytics
+- New links added: [[Interleukin 11|IL-11]], [[SIRT1]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Dasatinib]], [[Quercetin]], [[TGFβ]]
+  - Strong connections to strengthen: IPF ↔ [[SASP|Senescence-Associated Secretory Phenotype]], IPF ↔ IL-11, IPF ↔ senolytics

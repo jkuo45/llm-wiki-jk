@@ -32,7 +32,7 @@ Discovered through [[C. elegans]] genetics:
 ### [[TOR]] Pathway
 
 The Target of Rapamycin integrates nutrient and growth factor signals:
-- [[mTORC1]] inhibition by [[Rapamycin]] extends murine lifespan, suppresses [[SASP]], and improves [[Autophagy]].
+- [[mTORC1]] inhibition by [[Rapamycin]] extends murine lifespan, suppresses [[SASP|Senescence-Associated Secretory Phenotype]], and improves [[Autophagy]].
 - [[S6K1]] knockout mice exhibit lifespan extension and protection from age-related pathologies.
 - [[Rheb]] and [[TSC1]]/[[TSC2]] regulate mTORC1 activity upstream.
 
@@ -122,7 +122,7 @@ Lifespan extension often correlates with enhanced stress resistance:
 - [[TOR]]: ### TOR Pathway
 - [[mTORC1]]: The Target of Rapamycin integrates nutrient and growth factor signals: - mTORC1 inhibition by [[Rapamycin]] extends m...
 - [[Rapamycin]]: The Target of Rapamycin integrates nutrient and growth factor signals: - [[mTORC1]] inhibition by Rapamycin extends m...
-- [[SASP]]: The Target of Rapamycin integrates nutrient and growth factor signals: - [[mTORC1]] inhibition by [[Rapamycin]] exten...
+- [[SASP|Senescence-Associated Secretory Phenotype]]: The Target of Rapamycin integrates nutrient and growth factor signals: - [[mTORC1]] inhibition by [[Rapamycin]] exten...
 - [[Autophagy]]: The Target of Rapamycin integrates nutrient and growth factor signals: - [[mTORC1]] inhibition by [[Rapamycin]] exten...
 - [[S6K1]]: - S6K1 knockout mice exhibit lifespan extension and protection from age-related pathologies.
 - [[Rheb]]: - Rheb and [[TSC1]]/[[TSC2]] regulate mTORC1 activity upstream.
@@ -185,6 +185,6 @@ Lifespan extension often correlates with enhanced stress resistance:
 - [[Redox Cycling]]: - The [[Glyco-Oxidative Proteostasis Shield]] concept explicitly links proteostasis maintenance — through Redox Cycli...
 
 ## Linking Summary
-- New links added: [[Caloric Restriction]], [[Oxidative Stress]], [[Advanced Glycation End Products]], [[Aging]], [[Healthspan]], [[Metformin]], [[Insulin]]/[[IGF1]] Signaling (IIS), [[DAF-2]], [[DAF-16]], [[FOXO]], [[FOXO3a]], [[IGF1]], [[TOR]], [[mTORC1]], [[Rapamycin]], [[SASP]], [[Autophagy]], [[S6K1]], [[AMPK]], [[AICAR]], [[Adiponectin]], [[Leptin]], [[PGC1-α]], [[ULK1]], [[SIRT1]], [[SIRT6]], [[SIRT3]], [[SOD2]], [[Mitohormesis]], [[isp-1]], [[clk-1]], [[nuo-6]], [[UPRmt]], [[ATFS-1]], [[HAF-1]], [[UBL-5]], [[DVE-1]], [[Mitophagy]], [[Sarcopenia]], [[Neurodegeneration]], [[Retrograde Response]], [[S. cerevisiae]], [[Rtg1]], [[Rtg3]], [[DELE1]], [[HRI]], [[ATF4]], [[Integrated Stress Response]], [[OMA1]], [[OPA1]], [[Mitokines]], [[FGF21]], [[Insulin Sensitivity]], [[GDF15]], [[Humanin]], [[Mitochondrial DNA]], [[Alzheimer's Disease]], [[Stroke]], [[C. elegans]], [[Drosophila melanogaster]], [[Mus musculus]], [[Caloric Restriction]], [[Frailty index]], [[Oxidative Stress]], [[Heat shock]], [[UV radiation]], [[HSP70]], [[Proteasome]], [[NRF2]], [[ARE]], [[Glyco-Oxidative Proteostasis Shield]], [[Redox Cycling]]
+- New links added: [[Caloric Restriction]], [[Oxidative Stress]], [[Advanced Glycation End Products]], [[Aging]], [[Healthspan]], [[Metformin]], [[Insulin]]/[[IGF1]] Signaling (IIS), [[DAF-2]], [[DAF-16]], [[FOXO]], [[FOXO3a]], [[IGF1]], [[TOR]], [[mTORC1]], [[Rapamycin]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Autophagy]], [[S6K1]], [[AMPK]], [[AICAR]], [[Adiponectin]], [[Leptin]], [[PGC1-α]], [[ULK1]], [[SIRT1]], [[SIRT6]], [[SIRT3]], [[SOD2]], [[Mitohormesis]], [[isp-1]], [[clk-1]], [[nuo-6]], [[UPRmt]], [[ATFS-1]], [[HAF-1]], [[UBL-5]], [[DVE-1]], [[Mitophagy]], [[Sarcopenia]], [[Neurodegeneration]], [[Retrograde Response]], [[S. cerevisiae]], [[Rtg1]], [[Rtg3]], [[DELE1]], [[HRI]], [[ATF4]], [[Integrated Stress Response]], [[OMA1]], [[OPA1]], [[Mitokines]], [[FGF21]], [[Insulin Sensitivity]], [[GDF15]], [[Humanin]], [[Mitochondrial DNA]], [[Alzheimer's Disease]], [[Stroke]], [[C. elegans]], [[Drosophila melanogaster]], [[Mus musculus]], [[Caloric Restriction]], [[Frailty index]], [[Oxidative Stress]], [[Heat shock]], [[UV radiation]], [[HSP70]], [[Proteasome]], [[NRF2]], [[ARE]], [[Glyco-Oxidative Proteostasis Shield]], [[Redox Cycling]]
 - Suggested new entity notes to create: [[Biomarkers of Aging]], [[Morbidity Compression]]
 - Strong connections to strengthen: [[Caloric Restriction]] ↔ [[Lifespan]], [[Mitohormesis]] ↔ [[Lifespan]]

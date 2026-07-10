@@ -15,7 +15,7 @@ aliases:
 
 # H3K4me1
 
-H3K4me1 is the monomethylation of lysine 4 on histone H3, the canonical mark of enhancers (both active and "primed"). In senescence, H3K4me1 decorates the de novo activated enhancers and [[Super-enhancer|super-enhancers]] that drive [[SASP]] expression, as noted in the npj Aging review (Dasgupta et al., 2024; https://doi.org/10.1038/s41514-024-00172-2).
+H3K4me1 is the monomethylation of lysine 4 on histone H3, the canonical mark of enhancers (both active and "primed"). In senescence, H3K4me1 decorates the de novo activated enhancers and [[Super-enhancer|super-enhancers]] that drive [[SASP|Senescence-Associated Secretory Phenotype]] expression, as noted in the npj Aging review (Dasgupta et al., 2024; https://doi.org/10.1038/s41514-024-00172-2).
 
 ## Definition
 
@@ -50,10 +50,10 @@ Enhancer-mark readers (BRD4) and writers (p300) at H3K4me1/H3K27ac enhancers are
 - [[AP-1]]: Pioneer factor opening H3K4me1 enhancers.
 - [[BRD4]]: Reader at active enhancers.
 - [[Enhancer-Promoter Looping]]: H3K4me1 enhancers loop to SASP promoters.
-- [[SASP]]: H3K4me1 enhancer landscape drives SASP.
+- [[SASP|Senescence-Associated Secretory Phenotype]]: H3K4me1 enhancer landscape drives SASP.
 
 ## Linking Summary
 
-- New links added: [[H3K27ac]], [[H3K18ac]], [[H3K122ac]], [[H4K5ac]], [[Super-enhancer]], [[AP-1]], [[BRD4]], [[Enhancer-Promoter Looping]], [[Topologically Associating Domain]], [[SASP]], [[Senomorphic]], [[KDM4]], [[DOT1L]], [[Senescence]]
+- New links added: [[H3K27ac]], [[H3K18ac]], [[H3K122ac]], [[H4K5ac]], [[Super-enhancer]], [[AP-1]], [[BRD4]], [[Enhancer-Promoter Looping]], [[Topologically Associating Domain]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Senomorphic]], [[KDM4]], [[DOT1L]], [[Senescence]]
 - Suggested new entity notes to create: [[MLL4]], [[LSD1]]
 - Strong connections to strengthen: [[H3K4me1]] ↔ [[H3K27ac]]; [[H3K4me1]] ↔ [[Super-enhancer]]

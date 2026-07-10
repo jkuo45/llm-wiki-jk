@@ -116,7 +116,7 @@ List of documents that mention this entity
 - **[[SIRT6]]** — Chromatin-associated repressor deacetylating H3K9ac at NF-κB target promoters.
 - **[[Inflammation]]** — NF-κB is the master transcriptional driver of inflammatory pathology.
 - **[[Apoptosis]]** — NF-κB transcriptional suppression by sirtuins sensitizes cells to TNF-α-induced apoptosis.
-- **[[SASP]]** — NF-κB is the master transcription factor driving SASP expression.
+- **[[SASP|Senescence-Associated Secretory Phenotype]]** — NF-κB is the master transcription factor driving SASP expression.
 - **[[Epigenetic Alterations]]** — the epigenetic landscape converges on NF-κB to orchestrate SASP.
 - **[[Cytoplasmic Chromatin Fragments]]** — CCF activates cGAS–STING–NF-κB to induce SASP.
 - **[[cGAS-STING Pathway]]** — upstream of NF-κB SASP activation in senescence.
@@ -127,11 +127,11 @@ List of documents that mention this entity
 - **[[LINE-1]]** — retrotransposon cDNA activates cGAS–STING–NF-κB SASP.
 - **[[IL-6]]** / **[[IL-8]]** / **[[IL-1α]]** — NF-κB-driven SASP cytokines.
 
-- New links added: [[SIRT1]], [[SIRT2]], [[SIRT3]], [[SIRT6]], [[Inflammation]], [[Apoptosis]], [[SASP]], [[Epigenetic Alterations]], [[Cytoplasmic Chromatin Fragments]], [[cGAS-STING Pathway]], [[AP-1]], [[BRD4]], [[KDM4]], [[EZH2]], [[LINE-1]], [[IL-6]], [[IL-8]], [[IL-1α]]
+- New links added: [[SIRT1]], [[SIRT2]], [[SIRT3]], [[SIRT6]], [[Inflammation]], [[Apoptosis]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Epigenetic Alterations]], [[Cytoplasmic Chromatin Fragments]], [[cGAS-STING Pathway]], [[AP-1]], [[BRD4]], [[KDM4]], [[EZH2]], [[LINE-1]], [[IL-6]], [[IL-8]], [[IL-1α]]
 - Suggested new entity notes to create: [[TNFα]], [[MnSOD]], [[IκB]], [[RelA]]
   - Strong connections to strengthen: SIRT1 ↔ [[NFKB]], SIRT6 ↔ [[NFKB]], [[Inflammation]] ↔ [[NFKB]]
 
 ## Linking Summary
-- New links added: [[Apoptosis]], [[Inflammation]], [[IκB]], [[MnSOD]], [[NFKB]], [[RelA]], [[SIRT1]], [[SIRT2]], [[SIRT3]], [[SIRT6]], [[TNFα]], [[SASP]], [[Epigenetic Alterations]], [[Cytoplasmic Chromatin Fragments]], [[cGAS-STING Pathway]], [[AP-1]], [[BRD4]], [[KDM4]], [[EZH2]], [[LINE-1]], [[IL-6]], [[IL-8]], [[IL-1α]]
+- New links added: [[Apoptosis]], [[Inflammation]], [[IκB]], [[MnSOD]], [[NFKB]], [[RelA]], [[SIRT1]], [[SIRT2]], [[SIRT3]], [[SIRT6]], [[TNFα]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Epigenetic Alterations]], [[Cytoplasmic Chromatin Fragments]], [[cGAS-STING Pathway]], [[AP-1]], [[BRD4]], [[KDM4]], [[EZH2]], [[LINE-1]], [[IL-6]], [[IL-8]], [[IL-1α]]
 - Suggested new entity notes to create: [[IκB]], [[RelA]]
   - Strong connections to strengthen: NF-κB (Nuclear Factor Kappa B) ↔ [[Inflammation]], NF-κB (Nuclear Factor Kappa B) ↔ [[Apoptosis]], NF-κB (Nuclear Factor Kappa B) ↔ SIRT1

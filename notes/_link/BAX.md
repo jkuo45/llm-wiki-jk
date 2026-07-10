@@ -29,7 +29,7 @@ BAX shares the conserved Bcl-2 homology (BH1–BH3) domains. Activation is gover
 Activated BAX translocates to mitochondria, where it cooperates with BAK to permeabilize the membrane. This releases [[Cytochrome C]] and [[Smac DIABLO]] into the cytosol, triggering [[Caspases]] and the execution phase of [[Apoptosis]]. The threshold of MOMP is also implicated in Minority MOMP, which can induce survival signaling without immediate death.
 
 ## Physiology, Redox & Longevity
-Beyond classical apoptosis, BAX/BAK-mediated leakage intersects with [[Mitophagy]] and [[Parkin]]-dependent quality control, and with [[Reactive Oxygen Species]] amplification in [[Mitochondrial Dysfunction]]. Senescent cells that evade BAX-dependent death can persist and secrete the [[SASP]], driving [[Inflammaging]]. Compounds such as [[Fisetin]] and [[Urolithin A]] modulate these death/cleanup pathways, making BAX a node connecting apoptosis, mitophagy, and longevity.
+Beyond classical apoptosis, BAX/BAK-mediated leakage intersects with [[Mitophagy]] and [[Parkin]]-dependent quality control, and with [[Reactive Oxygen Species]] amplification in [[Mitochondrial Dysfunction]]. Senescent cells that evade BAX-dependent death can persist and secrete the [[SASP|Senescence-Associated Secretory Phenotype]], driving [[Inflammaging]]. Compounds such as [[Fisetin]] and [[Urolithin A]] modulate these death/cleanup pathways, making BAX a node connecting apoptosis, mitophagy, and longevity.
 
 ## Documents
 

@@ -83,7 +83,7 @@ List of documents that mention this entity
 - [[iPSCs]]: - **Variant-specific knockouts** in [[mESCs]] or iPSCs to study developmental and aging phenotypes.
 - [[FRAP]]: - **FRAP** and [[FLIP]] to measure nucleosomal variant dynamics.
 - [[FLIP]]: - **[[FRAP]]** and FLIP to measure nucleosomal variant dynamics.
-- [[SASP]]: histone variants (H3.3, H2A.J, macroH2A) contribute to SASP expression
+- [[SASP|Senescence-Associated Secretory Phenotype]]: histone variants (H3.3, H2A.J, macroH2A) contribute to SASP expression
 - [[Epigenetic Alterations]]: variant replacement is a defining feature of the senescent epigenome
 - [[Senescence-Associated Heterochromatin Foci]]: macroH2A and HIRA assemble SAHF
 - [[BRD4]]: BRD4 protects against H3.3 clipping that enhances SASP accessibility
@@ -97,6 +97,6 @@ List of documents that mention this entity
 - [[Cytoplasmic Chromatin Fragments]]: histone variants mark CCF-generating regions
 
 ## Linking Summary
-- New links added: [[Histone Modification]], [[Nucleosome]], [[Aging]], [[Senescence]], [[SAHF]], [[DNA Damage Response]], [[H3.3]], [[macroH2A]], [[H2A.Z]], [[H2A.X]], [[CENP-A]], [[SASP]], [[Epigenetic Alterations]], [[Senescence-Associated Heterochromatin Foci]], [[BRD4]], [[NF-κB]], [[AP-1]], [[KDM4]], [[EZH2]], [[cGAS-STING Pathway]], [[LINE-1]], [[DNA Methylation]], [[Cytoplasmic Chromatin Fragments]]
+- New links added: [[Histone Modification]], [[Nucleosome]], [[Aging]], [[Senescence]], [[SAHF]], [[DNA Damage Response]], [[H3.3]], [[macroH2A]], [[H2A.Z]], [[H2A.X]], [[CENP-A]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Epigenetic Alterations]], [[Senescence-Associated Heterochromatin Foci]], [[BRD4]], [[NF-κB]], [[AP-1]], [[KDM4]], [[EZH2]], [[cGAS-STING Pathway]], [[LINE-1]], [[DNA Methylation]], [[Cytoplasmic Chromatin Fragments]]
 - Suggested new entity notes to create: [[HIRA]], [[DAXX]], [[ATRX]], [[SWR1]], [[SRCAP]]
 - Strong connections to strengthen: [[Histone Variant]] ↔ [[Nucleosome]], [[Histone Variant]] ↔ [[Senescence]]

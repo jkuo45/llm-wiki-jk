@@ -64,7 +64,7 @@ List of documents that mention this entity
 - [[Gene Silencing]] - One of the primary biological outcomes of DNA methylation.
 - [[CpG Islands]] - The common genomic regions where methylation-mediated silencing occurs.
 - [[Epigenetic Alterations]] - DNA methylation is a pillar of the senescent epigenetic landscape
-- [[SASP]] - hypomethylation of SASP genes permits their expression in senescence
+- [[SASP|Senescence-Associated Secretory Phenotype]] - hypomethylation of SASP genes permits their expression in senescence
 - [[Senescence]] - RS shows epigenetic methylation aging; OIS/TIS do not
 - [[LINE-1]] - hypomethylation derepresses LINE-1, fueling cGAS–STING SASP
 - [[cGAS-STING Pathway]] - demethylated retroelements activate cGAS–STING SASP
@@ -82,6 +82,6 @@ List of documents that mention this entity
 
 ## Linking Summary:
 
-- New links added: [[DNA Methyltransferase]], [[Epigenetics]], [[Chromatin Remodeling]], [[Cancer]], [[Gene Silencing]], [[CpG Islands]], [[Epigenetic Alterations]], [[SASP]], [[Senescence]], [[LINE-1]], [[cGAS-STING Pathway]], [[Cytoplasmic Chromatin Fragments]], [[Histone Variant]], [[Senescence-Associated Heterochromatin Foci]], [[NF-κB]], [[RB1]], [[SIRT6]], [[KDM4]], [[EZH2]], [[BRD4]], [[AP-1]], [[Inflammaging]]
+- New links added: [[DNA Methyltransferase]], [[Epigenetics]], [[Chromatin Remodeling]], [[Cancer]], [[Gene Silencing]], [[CpG Islands]], [[Epigenetic Alterations]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Senescence]], [[LINE-1]], [[cGAS-STING Pathway]], [[Cytoplasmic Chromatin Fragments]], [[Histone Variant]], [[Senescence-Associated Heterochromatin Foci]], [[NF-κB]], [[RB1]], [[SIRT6]], [[KDM4]], [[EZH2]], [[BRD4]], [[AP-1]], [[Inflammaging]]
 - Suggested new entity notes to create: [[Gene Silencing]], [[CpG Islands]]
 - Strong connections to strengthen: [[DNA Methylation]] ↔ [[DNA Methyltransferase]]

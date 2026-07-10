@@ -44,9 +44,9 @@ CXCR3 (C-X-C chemokine receptor 3), also known as CD183, is a G-protein-coupled 
 - [[CXCL11]]: CXCL11 binds to CXCR3
 - [[STAT1]]: STAT1 drives interferon-inducible CXCR3 ligands
 - [[Cancer]]: CXCR3 mediates both surveillance and cancer promotion
-- [[Senescence-Associated Secretory Phenotype|SASP]]: CXCR3 mediates SASP-related immune functions
+- [[SASP|Senescence-Associated Secretory Phenotype]]: CXCR3 mediates SASP-related immune functions
 
 ## Linking Summary
 
-- New links added: [[CXCL10]], [[CXCL11]], [[STAT1]], [[NF-κB]], [[p38 MAPK]], [[Cancer]], [[Senescence-Associated Secretory Phenotype|SASP]], [[Inflammaging]]
+- New links added: [[CXCL10]], [[CXCL11]], [[STAT1]], [[NF-κB]], [[p38 MAPK]], [[Cancer]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Inflammaging]]
   - Strong connections to strengthen: [[CXCR3]] ↔ CXCL10/CXCL11, [[CXCR3]] ↔ immune recruitment

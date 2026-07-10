@@ -17,7 +17,7 @@ protected: true
 
 # Therapy-Induced Senescence
 
-Therapy-induced senescence (TIS) is a form of cellular senescence provoked by cytotoxic cancer therapies — DNA-damaging chemotherapeutics (e.g., [[Doxorubicin]], [[Etoposide]]), ionizing radiation (typically a single 10 Gy X-ray dose), or other genotoxic stresses — as well as by persistent [[DNA Damage Response|DNA damage response (DDR)]]. TIS is a major in vitro and in vivo model used to study the senescence-associated secretory phenotype ([[SASP]]) and its epigenetic regulation.
+Therapy-induced senescence (TIS) is a form of cellular senescence provoked by cytotoxic cancer therapies — DNA-damaging chemotherapeutics (e.g., [[Doxorubicin]], [[Etoposide]]), ionizing radiation (typically a single 10 Gy X-ray dose), or other genotoxic stresses — as well as by persistent [[DNA Damage Response|DNA damage response (DDR)]]. TIS is a major in vitro and in vivo model used to study the senescence-associated secretory phenotype ([[SASP|Senescence-Associated Secretory Phenotype]]) and its epigenetic regulation.
 
 ## Definition
 
@@ -40,7 +40,7 @@ TIS is clinically double-edged. Senescence induced by chemotherapy/radiation can
 
 ## Connections
 
-- [[SASP]]: secretory phenotype of TIS cells
+- [[SASP|Senescence-Associated Secretory Phenotype]]: secretory phenotype of TIS cells
 - [[DNA-SCARS]]: persistent damage foci driving TIS chromatin changes
 - [[Cytoplasmic Chromatin Fragments]]: cGAS–STING SASP trigger in TIS
 - [[Oncogene-Induced Senescence]]: alternative senescence model
@@ -48,6 +48,6 @@ TIS is clinically double-edged. Senescence induced by chemotherapy/radiation can
 
 ## Linking Summary
 
-- New links added: [[SASP]], [[DNA-SCARS]], [[Cytoplasmic Chromatin Fragments]], [[cGAS-STING Pathway]], [[DNA Damage Response]], [[H3K27ac]], [[MLL1]], [[KDM4]], [[DOT1L]], [[BRD4]], [[HMGB2]], [[Oncogene-Induced Senescence]], [[Replicative Senescence]], [[Senomorphic]]
+- New links added: [[SASP|Senescence-Associated Secretory Phenotype]], [[DNA-SCARS]], [[Cytoplasmic Chromatin Fragments]], [[cGAS-STING Pathway]], [[DNA Damage Response]], [[H3K27ac]], [[MLL1]], [[KDM4]], [[DOT1L]], [[BRD4]], [[HMGB2]], [[Oncogene-Induced Senescence]], [[Replicative Senescence]], [[Senomorphic]]
 - Suggested new entity notes to create: [[DNA-SCARS]], [[Doxorubicin]], [[Etoposide]]
-- Strong connections to strengthen: [[Therapy-Induced Senescence]] ↔ [[SASP]] (TIS secretome), [[Therapy-Induced Senescence]] ↔ [[Senomorphic]] (therapy)
+- Strong connections to strengthen: [[Therapy-Induced Senescence]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]] (TIS secretome), [[Therapy-Induced Senescence]] ↔ [[Senomorphic]] (therapy)

@@ -48,9 +48,9 @@ CCL18 (C-C motif chemokine ligand 18), also known as PARC (pulmonary and activat
 - [[VEGF]]: CCL18 and VEGF are both SASP biomarkers
 - [[MMP-2]]: CCL18 and MMP-2 are both SASP biomarkers
 - [[Macrophages]]: CCL18 is produced by alternatively activated macrophages
-- [[Senescence-Associated Secretory Phenotype|SASP]]: CCL18 is a SASP biomarker
+- [[SASP|Senescence-Associated Secretory Phenotype]]: CCL18 is a SASP biomarker
 
 ## Linking Summary
 
-- New links added: [[GDF15]], [[VEGF]], [[MMP-2]], [[Macrophages]], [[Apoptosis]], [[Senescence-Associated Secretory Phenotype|SASP]], [[Inflammaging]]
+- New links added: [[GDF15]], [[VEGF]], [[MMP-2]], [[Macrophages]], [[Apoptosis]], [[SASP|Senescence-Associated Secretory Phenotype]], [[Inflammaging]]
   - Strong connections to strengthen: [[CCL18]] ↔ SASP biomarkers, [[CCL18]] ↔ mortality

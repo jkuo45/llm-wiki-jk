@@ -41,7 +41,7 @@ Chronic NF-κB activation is a hallmark of inflammaging — the low-grade, steri
 
 ## Connection to SASP
 
-NF-κB is the master transcriptional regulator of the [[Senescence-Associated Secretory Phenotype|SASP]]. In senescent cells, persistent [[DNA Damage|DNA damage]] signaling activates the IKK complex, leading to sustained NF-κB activation and transcription of SASP genes including [[IL-6]], [[IL-8]], [[TNFα]], [[MCP-1]], [[VEGF]], and matrix metalloproteinases. NF-κB-driven SASP expression is restrained by [[p53]], explaining why p53 loss amplifies the pro-tumorigenic effects of senescent cells. The NF-κB-SASP axis represents a key mechanism linking cellular senescence to [[Inflammaging|inflammaging]] and [[Cancer|cancer]] promotion.
+NF-κB is the master transcriptional regulator of the [[SASP|Senescence-Associated Secretory Phenotype]]. In senescent cells, persistent [[DNA Damage|DNA damage]] signaling activates the IKK complex, leading to sustained NF-κB activation and transcription of SASP genes including [[IL-6]], [[IL-8]], [[TNFα]], [[MCP-1]], [[VEGF]], and matrix metalloproteinases. NF-κB-driven SASP expression is restrained by [[p53]], explaining why p53 loss amplifies the pro-tumorigenic effects of senescent cells. The NF-κB-SASP axis represents a key mechanism linking cellular senescence to [[Inflammaging|inflammaging]] and [[Cancer|cancer]] promotion.
 
 ## Documents
 
@@ -94,7 +94,7 @@ NF-κB is the master transcriptional regulator of the [[Senescence-Associated Se
 - [[Insulin Resistance]]: This sustained activation promotes Insulin Resistance, [[Atherosclerosis]], [[Sarcopenia]], neurodegeneration, and fr...
 - [[Atherosclerosis]]: This sustained activation promotes [[Insulin Resistance]], Atherosclerosis, [[Sarcopenia]], neurodegeneration, and fr...
 - [[Sarcopenia]]: This sustained activation promotes [[Insulin Resistance]], [[Atherosclerosis]], Sarcopenia, neurodegeneration, and fr...
-- [[Senescence-Associated Secretory Phenotype|SASP]]: NF-κB is the master transcriptional regulator of the SASP; drives IL-6, IL-8, VEGF, and MMP expression in senescent cells
+- [[SASP|Senescence-Associated Secretory Phenotype]]: NF-κB is the master transcriptional regulator of the SASP; drives IL-6, IL-8, VEGF, and MMP expression in senescent cells
 - [[Senescent Cells]]: NF-κB activation in senescent cells drives SASP gene expression; restrained by p53
 - [[p53]]: p53 restrains NF-κB-mediated SASP activation; p53 loss amplifies SASP and promotes cancer progression
 - [[VEGF]]: NF-κB drives VEGF transcription; SASP-driven angiogenesis promotes tumor growth

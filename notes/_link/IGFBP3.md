@@ -14,7 +14,7 @@ aliases: [IGFBP3, IGF-binding protein 3, IBP3]
 
 # IGFBP3
 
-**IGFBP3 (insulin-like growth factor-binding protein 3)** is the major circulating binding protein for [[IGF-1]] and a direct [[p53]] ([[TP53]]) target gene. It is a hallmark of the p53-dependent arm of the [[Senescence-Associated Secretory Phenotype|SASP]] and contributes to immunosurveillance of senescent cells.
+**IGFBP3 (insulin-like growth factor-binding protein 3)** is the major circulating binding protein for [[IGF-1]] and a direct [[p53]] ([[TP53]]) target gene. It is a hallmark of the p53-dependent arm of the [[SASP|Senescence-Associated Secretory Phenotype]] and contributes to immunosurveillance of senescent cells.
 
 ## Mechanism of Action & Signaling
 
@@ -38,11 +38,11 @@ IGFBP3 is transcriptionally induced by p53 after DNA damage and during oncogene-
 ## Connections
 
 - [[p53]]: IGFBP3 is a p53 target gene
-- [[Senescence-Associated Secretory Phenotype|SASP]]: IGFBP3 is a p53-arm SASP factor
+- [[SASP|Senescence-Associated Secretory Phenotype]]: IGFBP3 is a p53-arm SASP factor
 - [[IGF-1]] / [[IGF1R]]: IGFBP3 binds and sequesters IGFs
 - [[Apoptosis]]: IGFBP3 has IGF-independent pro-apoptotic effects
 
 ## Linking Summary
 
-- New links added: [[p53]], [[TP53]], [[Senescence-Associated Secretory Phenotype|SASP]], [[IGF-1]], [[IGF1R]], [[Apoptosis]]
-  - Strong connections to strengthen: [[IGFBP3]] ↔ [[p53]], [[IGFBP3]] ↔ immunosurveillance, [[IGFBP3]] ↔ [[Senescence-Associated Secretory Phenotype|SASP]]
+- New links added: [[p53]], [[TP53]], [[SASP|Senescence-Associated Secretory Phenotype]], [[IGF-1]], [[IGF1R]], [[Apoptosis]]
+  - Strong connections to strengthen: [[IGFBP3]] ↔ [[p53]], [[IGFBP3]] ↔ immunosurveillance, [[IGFBP3]] ↔ [[SASP|Senescence-Associated Secretory Phenotype]]

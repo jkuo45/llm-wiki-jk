@@ -26,7 +26,7 @@ aliases:
 Dysbiosis increases intestinal permeability, permitting [[Lipopolysaccharide]] translocations ("metabolic endotoxemia") that activate [[TLR4]] and [[NLRP3]]. It also depletes [[Butyrate]]-mediated colonocyte fuel and histone-deacetylase inhibition, weakening barrier and regulatory T-cell tone. Altered bile-acid and tryptophan metabolism further disturb host signaling.
 
 ## Physiology, Redox & Longevity
-Dysbiosis fuels [[Inflammaging]] and [[Immunosenescence]], promotes [[Metabolic Syndrome]] and [[Insulin]] resistance, and amplifies [[Reactive Oxygen Species]] via microbial-derived toxins. It intersects with [[SASP]] expression in [[Senescent Cells]] and with [[Mitochondrial Dysfunction]]. Interventions—[[Caloric Restriction]], [[Urolithin A]], prebiotics, and [[Nicotinamide Riboside]]—reshape the microbiota toward longevity-associated profiles. The [[Gut Microbiome]] itself is responsive to [[Exercise]] and xenohormetic compounds.
+Dysbiosis fuels [[Inflammaging]] and [[Immunosenescence]], promotes [[Metabolic Syndrome]] and [[Insulin]] resistance, and amplifies [[Reactive Oxygen Species]] via microbial-derived toxins. It intersects with [[SASP|Senescence-Associated Secretory Phenotype]] expression in [[Senescent Cells]] and with [[Mitochondrial Dysfunction]]. Interventions—[[Caloric Restriction]], [[Urolithin A]], prebiotics, and [[Nicotinamide Riboside]]—reshape the microbiota toward longevity-associated profiles. The [[Gut Microbiome]] itself is responsive to [[Exercise]] and xenohormetic compounds.
 
 ## Documents
 
