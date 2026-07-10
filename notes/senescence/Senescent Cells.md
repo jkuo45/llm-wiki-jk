@@ -9,7 +9,11 @@ tags:
   - aging
   - apoptosis
   - sasp
-aliases: [Senescent Cells, Cellular Senescence, senescent cell]
+aliases:
+  - Senescent Cells
+  - Cellular Senescence
+  - senescent cell
+protected: true
 ---
 
 # Senescent Cells

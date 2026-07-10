@@ -13,7 +13,7 @@ tags:
 aliases:
   - TIS
   - therapy-induced senescence
----
+protected: true
 
 # Therapy-Induced Senescence
 

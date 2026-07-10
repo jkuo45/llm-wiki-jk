@@ -8,6 +8,7 @@ updated: 2024-07-04
 tags:
   - protein
 aliases: []
+protected: true
 ---
 
 # p16INK4A

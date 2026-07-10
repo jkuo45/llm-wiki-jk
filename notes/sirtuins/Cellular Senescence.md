@@ -9,6 +9,7 @@ tags:
   - biological-process
   - senescence
 aliases: [Cell senescence, Replicative senescence, Cellular aging]
+protected: true
 ---
 
 # Cellular Senescence

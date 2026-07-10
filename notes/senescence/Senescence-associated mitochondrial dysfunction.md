@@ -1,8 +1,6 @@
 ---
 title: Senescence-associated mitochondrial dysfunction
-description: Senescence-associated mitochondrial dysfunction (SAMD) is the metabolic
-  and functional impairment of mitochondria in senescent cells that drives SASP via
-  ROS and mtDNA release.
+description: Senescence-associated mitochondrial dysfunction (SAMD) is the metabolic and functional impairment of mitochondria in senescent cells that drives SASP via ROS and mtDNA release.
 created: 2026-07-07
 updated: 2026-07-08
 tags:
@@ -11,7 +9,11 @@ tags:
   - senescence
   - metabolism
   - oxidative-stress
-aliases: [Senescence-associated mitochondrial dysfunction, SAMD, MiDAS driver]
+aliases:
+  - Senescence-associated mitochondrial dysfunction
+  - SAMD
+  - MiDAS driver
+protected: true
 ---
 
 # Senescence-associated mitochondrial dysfunction

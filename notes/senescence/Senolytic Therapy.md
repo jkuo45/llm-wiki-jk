@@ -9,7 +9,11 @@ tags:
   - senescence
   - pharmacology
   - sasp
-aliases: [Senolytic Therapy, senolysis, senolytic treatment]
+aliases:
+  - Senolytic Therapy
+  - senolysis
+  - senolytic treatment
+protected: true
 ---
 
 # Senolytic Therapy

@@ -11,7 +11,7 @@ tags:
   - inflammation
   - intercellular-signaling
 aliases: [Bystander senescence, secondary senescence]
----
+protected: true
 
 # Paracrine Senescence
 

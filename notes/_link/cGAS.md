@@ -38,7 +38,7 @@ Mitochondrial DNA released during [[Mitochondrial Dysfunction]] or [[Minority MO
     - Details cGAS-STING induction of senescence and SASP in cancer.
   - [[_document_ - SASP, senescent cells, grok|SASP & Senescent Cells]]
     - Frames cGAS as upstream of SASP-driven inflammation.
-  - [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications.md|SASP Implications]]
+  - [[_document_ - The-senescence-associated-secretory-phenotype-and-its-physiological-and-pathological-implications|SASP Implications]]
     - Reviews DNA-sensing pathways in senescence.
   - [[_document_ - Mitohormesis - 2023_NOV|Mitohormesis 2023]]
     - Hormetic context for innate immune/redox signaling.

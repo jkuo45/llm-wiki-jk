@@ -7,7 +7,10 @@ created: 2024-01-01
 updated: 2026-07-06
 tags:
   - biological-molecule
-aliases: []
+aliases:
+  - Senescence-Associated Beta-Galactosidase
+  - SA-β-gal
+protected: true
 ---
 
 # SA-beta-gal
@@ -16,7 +19,7 @@ aliases: []
 
 ## Biochemistry & Detection
 
-SA-β-gal activity localizes to enlarged, vacuolated lysosomes that accumulate in senescent cells. The standard assay fixes cells and incubates them with X-gal at pH 6.0; blue cytoplasmic staining marks positive cells. Flow-cytometric and fluorescence-based variants (e.g., C12FDG substrate) enable quantification. The exact molecular identity of the enzyme responsible remains debated — it is often attributed to GLB1 (lysosomal β-galactosidase) upregulation and/or to increased lysosomal content rather than a unique "senescence enzyme." Notably, SA-β-gal is an activity, not a single protein, and its pH profile distinguishes it from other β-galactosidases.
+SA-β-gal activity localizes to enlarged, vacuolated lysosomes that accumulate in senescent cells. The standard assay fixes cells and incubates them with X-gal at pH 6.0; blue cytoplasmic staining marks positive cells. Flow-cytometric and fluorescence-based variants (e.g., C12FDG substrate) enable quantification, including advanced flow cytometry of human blood samples where SA-β-gal activity reflects lysosomal health and senescent-cell accumulation. The exact molecular identity of the enzyme responsible remains debated — it is often attributed to GLB1 (lysosomal β-galactosidase) upregulation and/or to increased lysosomal content rather than a unique "senescence enzyme." Notably, SA-β-gal is an activity, not a single protein, and its pH profile distinguishes it from other β-galactosidases. SA-β-gal is often monitored alongside other senescence markers such as [[CDKN1A]] (p21) and [[p53|TP53]] (p53), and its activity correlates with [[Autophagy]] status, reflecting increased lysosomal content in senescent cells.
 
 ## Biological Significance
 
@@ -37,6 +40,8 @@ List of documents that mention this entity
   - [[_document_ - Small molecule compounds that induce cellular senescence|Small molecule compounds that induce cellular senescence]]
     - The distinctive phenotypic changes typical of various types of cellular senescence are cell enlargement and flattening, SA-beta-gal, formation of SAHF (SAHF), persistent DNA Damage Response (DNA Damage Response), and SASP (SASP).
 
+  - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
+    - A plethora of blood senescence markers can be monitored simultaneously by advanced flow cytometry, including SA-β-gal, CDKN1A (p21) and p53 (p53), as well as mitochondrial and lysosomal markers.
 
 ## Connections
 
@@ -46,9 +51,12 @@ List of documents that mention this entity
 - [[Tumor-Suppressor Loss-Induced Senescence]] - a senescence trigger
 - [[Senolytic Drugs]] - agents clearing SA-β-gal+ cells
 - [[High-Throughput Screening]] - method used to discover senolytics
+- [[CDKN1A]] - co-monitored senescence marker (p21) alongside SA-β-gal
+- [[p53]] - co-monitored senescence marker (TP53) alongside SA-β-gal
+- [[Autophagy]] - SA-β-gal activity correlates with lysosomal/autophagy status
 
 ## Linking Summary
 
 - New links added: [[Replicative Senescence]], [[Cellular Senescence]], [[Aging]], [[Tumor-Suppressor Loss-Induced Senescence]], [[Senolytic Drugs]], [[High-Throughput Screening]], [[Tumorigenicity]], [[Cancer]]
-- Suggested new entity notes to create: [[Senescence-Associated Secretory Phenotype]], [[p16INK4a]], [[SAHF]]
+- Suggested new entity notes to create: [[Senescence-Associated Secretory Phenotype]], [[p16INK4a]], [[SAHF]], [[CDKN1A]], [[Autophagy]]
 - Strong connections to strengthen: [[SA-beta-gal]] ↔ [[Cellular Senescence]], [[SA-beta-gal]] ↔ [[Senolytic Drugs]]

@@ -12,6 +12,7 @@ tags:
 aliases:
   - Senotherapeutic
   - Senotherapeutics
+protected: true
 ---
 
 # Senotherapy

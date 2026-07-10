@@ -23,7 +23,7 @@ Senescent cells accumulate cytosolic DNA—leaked [[mtDNA]] and chromatin fragme
 ## Role in Senescence / SASP
 
 - IFN-β is a primary readout of cytosolic DNA–cGAS-STING activation in [[Senescent Cells]].
-- It reinforces the senescent state via ISG-mediated arrest and [[Senescence-associated heterochromatin foci|SAHF]] formation.
+- It reinforces the senescent state via ISG-mediated arrest and [[Senescence-Associated Heterochromatin Foci|SAHF]] formation.
 - It coordinates innate immune recognition/clearance of senescent cells, but when chronic, the persistent type I IFN signature drives sterile [[Inflammaging]] and tissue dysfunction.
 
 ## Clinical / Pathological Relevance

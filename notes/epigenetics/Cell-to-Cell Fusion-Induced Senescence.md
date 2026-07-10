@@ -11,6 +11,7 @@ tags:
   - aging
   - biological-process
 aliases: [Fusion-induced senescence, tetraploidy-associated senescence]
+protected: true
 ---
 
 # Cell-to-Cell Fusion-Induced Senescence

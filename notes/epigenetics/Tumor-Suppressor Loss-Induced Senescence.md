@@ -8,6 +8,7 @@ tags:
   - biological-process
   - senescence
 aliases: []
+protected: true
 ---
 
 # Tumor-Suppressor Loss-Induced Senescence

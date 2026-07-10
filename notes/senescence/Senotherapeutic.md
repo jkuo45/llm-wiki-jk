@@ -11,11 +11,12 @@ tags:
   - aging
   - pharmacology
   - senolytics
-url: #
-source: #
+url:
+source:
 aliases:
   - Senotherapeutics
   - Senotherapy
+protected: true
 ---
 
 # Senotherapeutic

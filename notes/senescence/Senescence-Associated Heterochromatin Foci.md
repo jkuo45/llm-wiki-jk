@@ -1,8 +1,6 @@
 ---
 title: Senescence-Associated Heterochromatin Foci
-description: SAHF are DAPI-dense, transcriptionally silent heterochromatin structures
-  assembled by HIRA/ASF1a/macroH2A that enforce stable senescence arrest by repressing
-  E2F-driven proliferation genes.
+description: SAHF are DAPI-dense, transcriptionally silent heterochromatin structures assembled by HIRA/ASF1a/macroH2A that enforce stable senescence arrest by repressing E2F-driven proliferation genes.
 created: 2026-07-07
 updated: 2026-07-08
 tags:
@@ -10,7 +8,10 @@ tags:
   - senescence
   - chromatin
   - cell-cycle
-aliases: [SAHF, Senescence-associated heterochromatin foci]
+aliases:
+  - SAHF
+  - Senescence-associated heterochromatin foci
+protected: true
 ---
 
 # Senescence-Associated Heterochromatin Foci (SAHF)

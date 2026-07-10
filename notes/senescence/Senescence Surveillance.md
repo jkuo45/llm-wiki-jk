@@ -8,7 +8,11 @@ tags:
   - senescence
   - immunity
   - tumor-suppression
-aliases: [senescence surveillance, senescence immunosurveillance, immune clearance of senescent cells]
+aliases:
+  - senescence surveillance
+  - senescence immunosurveillance
+  - immune clearance of senescent cells
+protected: true
 ---
 
 # Senescence Surveillance

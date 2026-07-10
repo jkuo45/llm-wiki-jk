@@ -11,6 +11,7 @@ tags:
   - senescence
 aliases:
   - SADS
+protected: true
 ---
 
 # Senescence-Associated Distension of Satellites

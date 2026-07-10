@@ -9,7 +9,11 @@ tags:
   - apoptosis
   - survival-signaling
   - sasp
-aliases: [Senescent cell anti-apoptotic pathways, SCAPs, SCAP]
+aliases:
+  - Senescent cell anti-apoptotic pathways
+  - SCAPs
+  - SCAP
+protected: true
 ---
 
 # Senescent cell anti-apoptotic pathways

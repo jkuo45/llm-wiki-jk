@@ -9,7 +9,11 @@ tags:
   - apoptosis
   - pharmacology
   - anti-aging
-aliases: [Senolytics, senolytic agents, senolytic drugs]
+aliases:
+  - Senolytics
+  - senolytic agents
+  - senolytic drugs
+protected: true
 ---
 
 # Senolytics

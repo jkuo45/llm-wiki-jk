@@ -12,6 +12,7 @@ tags:
   - inflammaging
   - aging
 aliases: [Senescence-Associated Secretory Phenotype, SASP, senescence-associated secretory phenotype]
+protected: true
 
 ---
 
@@ -199,6 +200,7 @@ SASP factors serve as surrogate markers for senescence burden. The SASP Atlas pr
 - **[[Resveratrol]]**: Inhibits pro-inflammatory SASP cytokines
 - **Apigenin**: Reduces breast cancer aggressiveness by inhibiting NF-κB-dependent SASP
 - **Nucleoside reverse transcriptase inhibitors (NRTIs)**: Lamivudine (3TC) inhibits LINE1 propagation, reducing cGAS–STING–NF-κB SASP
+- **[[Autophagy Inducer|Autophagy inducers]]** (e.g., [[Rapamycin]], [[Metformin]], [[Spermidine]]): Clear damaged organelles and limit inflammasome activation, suppressing SASP and [[Inflammaging]]; [[Autophagy]] itself suppresses SASP by clearing damaged organelles and restraining inflammasome activation.
 
 ### Lifestyle Interventions
 
@@ -256,6 +258,9 @@ List of documents that mention this entity
   - [[_document_ - The role of the dynamic epigenetic landscape in senescence_orchestrating SASP expression]]
     - Review showing that senescent nuclei undergo epigenetic reprogramming (A/B compartment switching, 3D genome rewiring, histone modifications/variants, histone loss, DNA methylation, retrotransposon derepression) that orchestrates SASP expression; epigenetic modulators can act as senomorphics.
 
+  - [[_document_ - Autophagy takes it all – autophagy inducers target immune aging|Autophagy takes it all – autophagy inducers target immune aging]]
+    - Senescence occurs through stress-induced damage, leading to cell-cycle arrest coupled with a SASP — a cellular state beneficial in embryonic development, tissue repair and regeneration; autophagy inducers can target immune aging driven by SASP.
+
 ## Connections
 
 - [[Cellular Senescence]] — the SASP is the effector arm of the senescence program
@@ -292,9 +297,18 @@ List of documents that mention this entity
 - [[Histone Variant]] — histone variants (H3.3, H2A.J, macroH2A) contribute to SASP expression
 - [[PTGS2]] (COX2) — lipid SASP regulator dependent on p53
 - [[Immunosenescence]] — SASP interacts with immune system dysfunction
+- [[Autophagy]] — clears damaged organelles and limits inflammasome activation, suppressing SASP
+- [[Autophagy Inducer]] — autophagy inducers suppress SASP and target immune aging
+- [[Immune System]] — SASP modulates immune cell phenotype and function
+- [[Atherosclerosis]] — chronic SASP promotes atherosclerosis
+- [[TNFA]] — pro-inflammatory SASP cytokine (TNF-α)
+- [[IL-1b]] — SASP interleukin
+- [[Cytokines]] — class of SASP components
+- [[Chemokine]] — class of SASP components
+- [[Protease]] — class of SASP components
 
 ## Linking Summary
 
 - New links added: [[SASP]], [[Senescence]], [[Cellular Senescence]], [[IL-1α]], [[Interleukin 1β|IL-1β]], [[IL-6]], [[IL-8]], [[Interleukin 11|IL-11]], [[Interleukin 33|IL-33]], [[BAFF]], [[CCL2]], [[CCL5]], [[CXCL1]], [[CXCL2]], [[CXCL3]], [[CXCL5]], [[CXCL10]], [[CXCL11]], [[CXCL14]], [[TGFβ]], [[GDF15]], [[HGF]], [[VEGF]], [[MMP1]], [[MMP-3]], [[MMP-9]], [[MMP-12]], [[Ephrin Type A Receptor 2|EPHA2]], [[IFITM3]], [[RAB35]], [[STEAP3]], [[VPS32]], [[NF-κB]], [[ATM]], [[PARP1]], [[IκBζ]], [[CEBPβ|C/EBPβ]], [[Protein Kinase D|PKD]], [[CD36]], [[CD40L]], [[GATA4]], [[p38 MAPK]], [[mTORC1|mTOR]], [[AMPK]], [[JAK]], [[STAT3]], [[cGAS-STING Pathway|cGAS–STING]], [[Toll-like Receptor 2|TLR2]], [[BAX]], [[BAK]], [[METTL3]], [[METTL14]], [[BRD4]], [[CEBPα|C/EBPα]], [[KDM4]], [[EZH2]], [[SIRT1]], [[PTGS2]] (COX2), [[ALOX5]], [[cPLA2]], [[Rapamycin]], [[Metformin]], [[Senolytic Therapy|Senolytics]], [[Senomorphic Therapy]], [[Paracrine Senescence]], [[Inflammaging]], [[PDGFAA]], [[TH17]], [[S100A13]], [[ZFP36L1]], [[MAPKAPK2|MK2]], [[DNASE2]], [[TREX1]], [[TOP1]], [[G3BP1]], [[LINE-1]], [[HRAS]], [[ERK1/2]], [[ZSCAN4]], [[TAK1]], [[IGFBP3]], [[ISG15]], [[BMI1]], [[CXCR2]], [[CXCR3]], [[Caspase 5]], [[Caspase 11]], [[Retinoblastoma Protein|Rb]], [[p53]], [[p16 INK4a|p16]], [[p21 CIP1|p21]], [[Rapamycin]], [[Dasatinib]], [[Quercetin]], [[Nutlin 3a]], [[Resveratrol]], [[Apigenin]], [[Senescent Cells]], [[Apoptosis]], [[Senescent cell anti-apoptotic pathways|SCAPs]], [[mtDNA]], [[Epithelial-to-mesenchymal transition]], [[Epigenetic Alterations]], [[Senescence-Associated Heterochromatin Foci]], [[Cytoplasmic Chromatin Fragments]], [[AP-1]], [[LINE-1]], [[DNA Methylation]], [[Histone Variant]]
-- Suggested new entity notes to create: [[Senomorphics]], [[Bystander Senescence]], [[cGAS]], [[STING]], [[IFI16]], [[Nuclear factor erythroid 2-related factor 2]], [[SASP Index]]
+- Suggested new entity notes to create: [[Senomorphics]], [[Bystander Senescence]], [[cGAS]], [[STING]], [[IFI16]], [[Nuclear factor erythroid 2-related factor 2]], [[SASP Index]], [[Atherosclerosis]], [[Autophagy Inducer]], [[Immune System]], [[TNFA]], [[IL-1b]], [[Cytokines]], [[Chemokine]], [[Protease]]
   - Strong connections to strengthen: [[SASP]] ↔ [[Inflammaging]], [[SASP]] ↔ Cellular Senescence, [[SASP]] ↔ NF-κB, [[SASP]] ↔ [[mTORC1]], [[SASP]] ↔ Cancer, [[SASP]] ↔ [[Senescence]], [[SASP]] ↔ [[Paracrine Senescence]], [[SASP]] ↔ [[Apoptosis]]

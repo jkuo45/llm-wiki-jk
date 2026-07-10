@@ -9,6 +9,7 @@ tags:
   - biological-process
   - senescence
 aliases: []
+protected: true
 ---
 
 # Oncogene-Induced Senescence

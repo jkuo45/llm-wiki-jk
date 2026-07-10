@@ -9,6 +9,7 @@ tags:
   - pharmacological-action
   - senescence
 aliases: []
+protected: true
 ---
 
 # Senolytic Drugs

@@ -9,7 +9,12 @@ tags:
   - cell-cycle
   - aging
   - chromatin
-aliases: [Cellular Senescence, Cellular senescence, Replicative senescence, Stress-induced senescence]
+aliases:
+  - Cellular Senescence
+  - Cellular senescence
+  - Replicative senescence
+  - Stress-induced senescence
+protected: true
 ---
 
 # Senescence
@@ -121,8 +126,15 @@ List of documents that mention this entity
 - [[RB1]]: RB1 decline derepresses LINE-1 in senescence
 - [[SIRT6]]: SIRT6 loss derepresses LINE-1 in senescence
 - [[Inflammaging]]: senescent SASP underlies inflammaging
+- [[Replicative Senescence]]: the canonical Hayflick-limit telomere-driven form
+- [[Stress-Induced Premature Senescence]]: acute subcytotoxic-stress-induced senescence
+- [[Oncogene-Induced Senescence]]: oncogenic activation triggers arrest as tumor suppression
+- [[Therapy-Induced Senescence]]: chemo/radiation-provoked senescence, a major model
+- [[Immunosenescence]]: age-related immune deterioration with senescence-like features
+- [[Senolytic Therapy]]: eliminating senescent cells alleviates senescence-driven dysfunction
+- [[Senomorphic Therapy]]: suppressing SASP blunts senescence-driven inflammation
 
 ## Linking Summary
-- New links added: [[Chromatin]], [[Epigenetics]], [[Senescence-Associated Secretory Phenotype|SASP]], [[SAHF]], [[Lamin B1]], [[Heterochromatin]], [[Histone Modification]], [[LINE-1]], [[Methylation]], [[Aging]], [[Genomic Instability]], [[Cancer]], [[p53]], [[Cellular Reprogramming]], [[DNA Damage]], [[Fibroblasts]], [[Reactive Oxygen Species]], [[Telomere Attrition]], [[p16 INK4a|p16]], [[p21 CIP1|p21]], [[Retinoblastoma Protein|Rb]], [[DNA Damage Response]], [[Oxidative Stress]], [[Inflammaging]], [[Senolytic Therapy]], [[Senomorphic Therapy]], [[Osteoarthritis]], [[Histone H3]], [[E2F]], [[Cyclin-Dependent Kinase 2|CDK2]], [[Cyclin-Dependent Kinase 4|CDK4]], [[Cyclin-Dependent Kinase 6|CDK6]], [[Oncogene-Induced Senescence|OIS]], [[Paracrine Senescence]], [[Epigenetic Alterations]], [[SASP]], [[Senescence-Associated Heterochromatin Foci]], [[Histone Variant]], [[DNA Methylation]], [[LINE-1]], [[cGAS-STING Pathway]], [[Cytoplasmic Chromatin Fragments]], [[BRD4]], [[KDM4]], [[EZH2]], [[AP-1]], [[NF-κB]], [[RB1]], [[SIRT6]], [[Inflammaging]].
+- New links added: [[Chromatin]], [[Epigenetics]], [[Senescence-Associated Secretory Phenotype|SASP]], [[SAHF]], [[Lamin B1]], [[Heterochromatin]], [[Histone Modification]], [[LINE-1]], [[Methylation]], [[Aging]], [[Genomic Instability]], [[Cancer]], [[p53]], [[Cellular Reprogramming]], [[DNA Damage]], [[Fibroblasts]], [[Reactive Oxygen Species]], [[Telomere Attrition]], [[p16 INK4a|p16]], [[p21 CIP1|p21]], [[Retinoblastoma Protein|Rb]], [[DNA Damage Response]], [[Oxidative Stress]], [[Inflammaging]], [[Senolytic Therapy]], [[Senomorphic Therapy]], [[Osteoarthritis]], [[Histone H3]], [[E2F]], [[Cyclin-Dependent Kinase 2|CDK2]], [[Cyclin-Dependent Kinase 4|CDK4]], [[Cyclin-Dependent Kinase 6|CDK6]], [[Oncogene-Induced Senescence|OIS]], [[Paracrine Senescence]], [[Epigenetic Alterations]], [[SASP]], [[Senescence-Associated Heterochromatin Foci]], [[Histone Variant]], [[DNA Methylation]], [[LINE-1]], [[cGAS-STING Pathway]], [[Cytoplasmic Chromatin Fragments]], [[BRD4]], [[KDM4]], [[EZH2]], [[AP-1]], [[NF-κB]], [[RB1]], [[SIRT6]], [[Inflammaging]], [[Replicative Senescence]], [[Stress-Induced Premature Senescence]], [[Oncogene-Induced Senescence]], [[Therapy-Induced Senescence]], [[Immunosenescence]], [[Senolytic Therapy]], [[Senomorphic Therapy]].
 - Suggested new entity notes to create: [[Telomere Attrition]], [[cGAS-STING Pathway]], [[Senescence-associated mitochondrial dysfunction|SAMD]].
-  - Strong connections to strengthen: [[Senescence]] ↔ [[Aging]], [[Senescence]] ↔ Autophagy, [[Senescence]] ↔ [[SASP]]
+  - Strong connections to strengthen: [[Senescence]] ↔ [[Aging]], [[Senescence]] ↔ Autophagy, [[Senescence]] ↔ [[SASP]], [[Senescence]] ↔ [[Senolytic Therapy]], [[Senescence]] ↔ [[Senomorphic Therapy]]

@@ -1,8 +1,6 @@
 ---
 title: Senomorphic Therapy
-description: Senomorphic therapies modulate senescence-associated properties, particularly
-  the SASP, without directly killing senescent cells, targeting NF-κB, p38 MAPK,
-  mTOR, JAK-STAT, cGAS-STING, and other SASP-regulating pathways.
+description: Senomorphic therapies modulate senescence-associated properties, particularly the SASP, without directly killing senescent cells, targeting NF-κB, p38 MAPK, mTOR, JAK-STAT, cGAS-STING, and other SASP-regulating pathways.
 created: 2026-07-07
 updated: 2026-07-08
 tags:
@@ -11,7 +9,11 @@ tags:
   - pharmacology
   - anti-aging
   - inflammation
-aliases: [Senomorphic, SASP inhibitor, Senomorphics]
+aliases:
+  - Senomorphic
+  - SASP inhibitor
+  - Senomorphics
+protected: true
 ---
 
 # Senomorphic Therapy

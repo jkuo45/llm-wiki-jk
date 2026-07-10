@@ -8,7 +8,10 @@ tags:
   - senescence
   - aging
   - senotherapeutic
-aliases: [Senolytics, Senolytic agent]
+aliases:
+  - Senolytics
+  - Senolytic agent
+protected: true
 ---
 
 # Senolytic

@@ -22,7 +22,7 @@ This research hypothesis explores a compelling, albeit double-edged, area of bio
 
 ### 1. The Senolysis Hypothesis: ROS-Driven Selective Apoptosis
 
-[[Cellular Senescence|Senescent cells]] are characterized by a chronically elevated baseline of [[Reactive Oxygen Species]] (ROS) and a state of "apoptotic priming," where they remain alive despite high stress due to the upregulation of [[Senescent Cell Anti-Apoptotic Pathways]] (SCAPs).
+[[Cellular Senescence|Senescent cells]] are characterized by a chronically elevated baseline of [[Reactive Oxygen Species]] (ROS) and a state of "apoptotic priming," where they remain alive despite high stress due to the upregulation of [[Senescent cell anti-apoptotic pathways]] (SCAPs).
 
 The premise that [[Adrenochrome]] could selectively induce [[Apoptosis]] in these cells rests on two main biochemical pillars:
 
@@ -84,6 +84,6 @@ To explore this hypothesis with scientific rigor, preliminary in vitro models co
 
 ## Linking Summary
 
-  - New links added: [[Senolytics]], [[Senomorphics]], [[Cellular Senescence]], [[Senescence-Associated Secretory Phenotype]], [[Reactive Oxygen Species]], [[NADPH-cytochrome P450 reductase]], [[Superoxide anion]], [[NQO1]], [[GSTM2]], [[DT-diaphorase]], [[Glutathione S-Transferase]], [[IKK]], [[IκB kinase]], [[p65]], [[IL-6]], [[IL-8]], [[Matrix Metalloproteinases]], [[Electrophile]], [[Keap1]], [[Nrf2]], [[Antioxidant Response Element]], [[Parkinson's Disease]], [[α-synuclein]], [[Tubulin]], [[Mitochondrial Dysfunction]], [[Autophagy]], [[Coronary artery constriction]], [[Arrhythmias]], [[Calcium Ions]], [[Fibroblasts]], [[Senescent Cell Anti-Apoptotic Pathways]]
-  - Suggested new entity notes to create: [[IKK]], [[IκB kinase]], [[p65]], [[Senescent Cell Anti-Apoptotic Pathways]], [[NADPH-cytochrome P450 reductase]], [[GSTM2]], [[GSH]]
+  - New links added: [[Senolytics]], [[Senomorphics]], [[Cellular Senescence]], [[Senescence-Associated Secretory Phenotype]], [[Reactive Oxygen Species]], [[NADPH-cytochrome P450 reductase]], [[Superoxide anion]], [[NQO1]], [[GSTM2]], [[DT-diaphorase]], [[Glutathione S-Transferase]], [[IKK]], [[IκB kinase]], [[p65]], [[IL-6]], [[IL-8]], [[Matrix Metalloproteinases]], [[Electrophile]], [[Keap1]], [[Nrf2]], [[Antioxidant Response Element]], [[Parkinson's Disease]], [[α-synuclein]], [[Tubulin]], [[Mitochondrial Dysfunction]], [[Autophagy]], [[Coronary artery constriction]], [[Arrhythmias]], [[Calcium Ions]], [[Fibroblasts]], [[Senescent cell anti-apoptotic pathways]]
+  - Suggested new entity notes to create: [[IKK]], [[IκB kinase]], [[p65]], [[Senescent cell anti-apoptotic pathways]], [[NADPH-cytochrome P450 reductase]], [[GSTM2]], [[GSH]]
   - Strong connections to strengthen: [[Adrenochrome]] ↔ [[Senomorphics]], [[Adrenochrome]] ↔ [[NF-κB]], [[NQO1]] ↔ [[Aminochromes]] (protective role)
