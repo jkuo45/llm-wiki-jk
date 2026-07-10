@@ -18,7 +18,7 @@ aliases:
 
 # Sirtuin Activators
 
-[[Sirtuin Activators]] are compounds and interventions that increase the catalytic efficiency or expression of [[Sirtuins]], recapitulating key metabolic benefits of [[Calorie Restriction]] (when noted) without caloric deficit. The best-studied class is the **sirtuin-activating compounds (STACs)** exemplified by [[Resveratrol]].
+[[Sirtuin Activators]] are compounds and interventions that increase the catalytic efficiency or expression of [[Sirtuins]], recapitulating key metabolic benefits of [[Caloric Restriction]] (when noted) without caloric deficit. The best-studied class is the **sirtuin-activating compounds (STACs)** exemplified by [[Resveratrol]].
 
 ## Classes & Mechanisms
 
@@ -65,5 +65,5 @@ List of documents in the wiki that mention this entity
 ## Linking Summary
 
   - New links added: [[Sirtuin Activators]], [[Sirtuins]], [[SIRT1]], [[Resveratrol]], [[Stilbenoid]], [[NAD+]], [[PGC-1α]], [[Metformin]]
-  - Suggested new entity notes to create: [[Pterostilbene]], [[Calorie Restriction]], [[Sirtinol]], [[SRT1720]]
+  - Suggested new entity notes to create: [[Pterostilbene]], [[Caloric Restriction]], [[Sirtinol]], [[SRT1720]]
   - Strong connections to strengthen: [[Sirtuin Activators]] ↔ [[Aging]]; ↔ [[NAD+]]

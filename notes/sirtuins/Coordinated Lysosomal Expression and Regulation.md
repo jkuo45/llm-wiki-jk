@@ -33,7 +33,7 @@ The [[Coordinated Lysosomal Expression and Regulation|CLEAR]] network is a **mas
 - **Cross-talk with mitochondria**: TFEB/CLEAR and PGC-1α are co-regulated under stress, linking [[Mitochondrial Biogenesis]] with lysosomal clearance — a "mitochondria–lysosome axis" of healthspan.
 
 > [!tip] Therapeutic node
-> Pharmacologic TFEB activation (e.g., via mTOR inhibition, [[Calorie Restriction]] when noted, or [[Sirtuin Activators]]) enhances CLEAR and is pursued for proteinopathies and metabolic disease.
+> Pharmacologic TFEB activation (e.g., via mTOR inhibition, [[Caloric Restriction]] when noted, or [[Sirtuin Activators]]) enhances CLEAR and is pursued for proteinopathies and metabolic disease.
 
 ## Physiological Function
 

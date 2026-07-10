@@ -39,4 +39,4 @@ List of documents that mention this entity
 ## Linking Summary
 - New links added: [[Adrenochrome]], [[Catechol]], [[Electrophile]], [[Epinephrine]], [[Glutathione]], [[Leuco-adrenochrome]], [[Michael addition]], [[Oxidative Stress]], [[Quinone]]
 - Suggested new entity notes to create: 
-- Strong connections to strengthen: [[adrenaline-quinone]] ↔ [[Leuco-adrenochrome]], [[adrenaline-quinone]] ↔ [[Oxidative Stress]], [[adrenaline-quinone]] ↔ [[Michael addition]]
+- Strong connections to strengthen: [[Adrenaline-quinone]] ↔ [[Leuco-adrenochrome]], [[Adrenaline-quinone]] ↔ [[Oxidative Stress]], [[Adrenaline-quinone]] ↔ [[Michael addition]]

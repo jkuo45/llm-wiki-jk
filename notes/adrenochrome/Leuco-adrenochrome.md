@@ -21,8 +21,8 @@ aliases: []
 
 ## Formation and Mechanism
 In the [[Catecholamines]] oxidation pathway:
-1. [[Epinephrine]] is oxidized to [[adrenaline-quinone]].
-2. [[adrenaline-quinone]] undergoes internal cyclization to form **Leuco-adrenochrome**.
+1. [[Epinephrine]] is oxidized to [[Adrenaline-quinone]].
+2. [[Adrenaline-quinone]] undergoes internal cyclization to form **Leuco-adrenochrome**.
 3. Leuco-adrenochrome is then further oxidized to [[Adrenochrome]] (the pink/red colored form).
 
 ## Significance
@@ -67,11 +67,11 @@ List of documents that mention this entity
 ## Connections
 - [[Epinephrine]]
 - [[Adrenochrome]]
-* [[adrenaline-quinone]]
+* [[Adrenaline-quinone]]
 - [[Redox cycle]]
 - [[Oxidative Stress]]
 
 ## Linking Summary
 - New links added: [[Epinephrine]], [[Adrenochrome]], [[Catecholamines]], [[Superoxide anion]], [[Impurity marker]], [[Reference standard]], [[Adrenochrome Hypothesis]], [[Redox cycle]], [[Oxidative Stress]], [[Tyrosinase]], [[Ceruloplasmin]], [[Adrenochrome Semiquinone Radical]], [[Peroxynitrite]], [[Ascorbic Acid]], [[Tocopherol]], [[N-Ethylmaleimide]], [[HPLC-ECD]], [[Multiple Reaction Monitoring]], [[N-Acetylcysteine]], [[Glutathione]], [[Lipoid Acid]], [[Carbazochrome]], [[Hydroxyl radical]]
-- Suggested new entity notes to create: [[Adrenochrome Semiquinone Radical]], [[adrenaline-quinone]]
+- Suggested new entity notes to create: [[Adrenochrome Semiquinone Radical]], [[Adrenaline-quinone]]
 - Strong connections to strengthen: [[Leuco-adrenochrome]] ↔ [[Adrenochrome]], [[Leuco-adrenochrome]] ↔ [[Redox Cycling]]

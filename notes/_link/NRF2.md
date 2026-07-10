@@ -1,92 +1,54 @@
 ---
-title: NRF2
-description: NRF2 (Nuclear factor erythroid 2-related factor 2) is a master transcription
-  factor that regulates the expression of antioxidant proteins and phase II detoxification
-  enzymes that protect against ox...
-created: 2026-07-04
-updated: 2026-07-04
+title: Nrf2
+description: Transcription factor (NF-E2-related factor 2) that orchestrates the antioxidant and detoxification response by binding ARE/EpRE elements.
+type: entity
+created: 2026-07-09
+updated: 2026-07-09
 tags:
-  - gene
-  - antioxidant
-aliases: [Nrf2, Nuclear factor erythroid 2-related factor 2, NF-E2-related factor 2, NFE2L2]
-
+  - protein
+  - redox
+  - transcription-factor
+  - oxidative-stress
+url: #
+source: #
+aliases:
+  - NFE2L2
+  - NF-E2-related factor 2
 ---
 
+# Nrf2
 
+Nuclear factor erythroid 2-related factor 2 (Nrf2) is a cap'n'collar basic leucine zipper (CNC-bZIP) transcription factor that serves as the master regulator of cellular antioxidant and detoxification defenses. Under basal conditions Nrf2 is sequestered in the cytosol by its inhibitor [[Keap1]] (Kelch-like ECH-associated protein 1), a substrate adaptor of a Cullin-3 E3 ubiquitin ligase that continuously targets Nrf2 for proteasomal degradation. Electrophilic and oxidative insults modify cysteine residues on [[Keap1]], disrupting the Keap1–Cul3 interaction and stabilizing Nrf2, which then translocates to the nucleus, heterodimerizes with small Maf proteins, and binds antioxidant response elements (ARE/EpRE) in the promoters of target genes.
 
+Nrf2 drives expression of a broad program including glutathione biosynthetic enzymes (GCLC, GSH reductase), thioredoxin and peroxiredoxin systems, heme oxygenase-1 (HO-1), NAD(P)H:quinone oxidoreductase 1 (NQO1), and phase II detoxifying enzymes. It therefore sits at the apex of endogenous protection against [[ROS]] and [[Oxidative Stress]].
 
-# NRF2
+> [!info] Nrf2 is a central effector of mitohormesis and xenohormesis — mild mitochondrial reactive oxygen species or phytochemical exposure triggers a hormetic adaptive response that is largely Nrf2-dependent.
 
-**NRF2 (Nuclear factor erythroid 2-related factor 2)** is a master transcription factor that regulates the expression of antioxidant proteins and phase II detoxification enzymes that protect against oxidative damage triggered by injury, inflammation, and xenobiotic stressors.
-
-## Structure & Regulation
-
-NRF2 belongs to the basic leucine zipper (bZIP) transcription factor family and heterodimerizes with small MAF proteins (MAFF, MAFG, MAFK) to bind antioxidant response elements (AREs) in the promoters of target genes. Under basal conditions, NRF2 is sequestered in the cytoplasm by its inhibitor **KEAP1** (Kelch-like ECH-associated protein 1), which targets NRF2 for ubiquitination and proteasomal degradation via the CUL3/RBX1 E3 ubiquitin ligase complex. KEAP1 contains multiple reactive cysteine residues (Cys151, Cys273, Cys288) that function as redox sensors. Electrophiles, reactive oxygen species (ROS), and xenohormetic compounds modify these cysteines, inducing a conformational change in KEAP1 that prevents NRF2 ubiquitination. Newly synthesized NRF2 then escapes KEAP1-mediated repression, translocates to the nucleus, and activates ARE-driven transcription.
-
-## Target Genes & Functions
-
-NRF2 induces over 200 cytoprotective genes, including:
-- **Antioxidant Enzymes**: [[Superoxide Dismutase|SOD1]], [[Catalase]], [[Glutathione Peroxidase|GPx]], [[Peroxiredoxin]]
-- **Glutathione Synthesis**: Glutamate-cysteine ligase (GCL, both catalytic GCLC and modifier GCLM subunits), Glutathione synthetase (GSS), [[Glutathione|GSH]]
-- **Phase II Detoxification**: [[NQO1]], [[HO-1]] (HMOX1), [[UGT1A1]]
-- **Iron Metabolism**: Ferritin heavy chain (FTH1) — whose ferroxidase activity converts Fe2+ to Fe3+ for safe storage, limiting [[Fenton Reaction]] chemistry
-- **NADPH Regeneration**: [[G6PD]], [[PGD]], [[ME1]], [[IDH1]] — supporting reducing equivalents for antioxidant systems
-- **Thioredoxin System**: [[Thioredoxin]] (TXN), [[Thioredoxin reductase]] (TXNRD1)
-- **Proteasome Subunits**: [[PSMB5]], [[PSMA1]] — enhancing proteasomal degradation of oxidized proteins
-
-## Role in Mitohormesis
-
-NRF2 is a key participant in the hormetic induction of stress resistance. In *C. elegans*, the homolog [[SKN-1]] mediates the longevity benefits associated with mitochondrial oxidant release, and SKN-1 has been shown to directly bind to mitochondria. This mitohormetic pathway links transient mitochondrial ROS production to NRF2-dependent transcriptional upregulation of protective genes, a mechanism conserved across metazoans.
-
-## Sirtuin Regulation
-
-[[SIRT1]] activates NRF2 by modifying KEAP1 structure, leading to NRF2 nuclear translocation and promoting antioxidant gene expression. [[SIRT6]] overexpression in the brain enhances NRF2 signaling and reduces [[Oxidative Stress]].
-
-## Redox Signaling & Cross-talk
-
-NRF2 exhibits mutual antagonism with [[NF-kappa B]]: RelA (p65) competes with NRF2 for the transcriptional coactivator [[CBP]]/[[P300]], and NRF2 activation suppresses NF-κB target genes through multiple mechanisms, including heme oxygenase-1 (HO-1) activity. This cross-talk positions NRF2 as a central node in the switch between pro-inflammatory and anti-inflammatory transcriptional programs.
-
-## Clinical Relevance
-
-NRF2 activation is a therapeutic strategy for conditions characterized by oxidative stress, including [[Chronic Obstructive Pulmonary Disease]], [[Asthma]], [[Neurodegenerative Diseases|neurodegenerative diseases]], [[Cardiovascular Disease]], and [[Diabetes Mellitus]]. Pharmacological NRF2 activators include [[Sulforaphane]] (from broccoli sprouts), [[Dimethyl fumarate]] (Tecfidera, approved for [[Multiple Sclerosis]]), [[Bardoxolone methyl]], and [[Oltipraz]]. Paradoxically, in established [[Cancer|cancers]], constitutive NRF2 activation can confer therapeutic resistance by enhancing detoxification of chemotherapeutic agents and promoting cell survival, a phenomenon termed the "NRF2 paradox."
-
-NRF2 is a master transcription factor regulating antioxidant defense.
-
-#
-
-# 
+Nrf2 intersects with longevity pathways. It is co-activated by many [[Sirtuins]]-modulating interventions and shares downstream effectors with [[Autophagy]], and its activation is a recurrent theme in mitohormetic and senotherapeutic literature. Dysregulation of Nrf2 is implicated in neurodegeneration, inflammation, and cancer chemoresistance, making it a major therapeutic target for redox-based interventions.
 
 ## Documents
 
-List of documents that mention this entity
-
-  - [[_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects|Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects]]
-    - Urolithin A stimulates the NRF2-Antioxidant Response Element signaling pathway, subsequently upregulating the expression of GSTs, thereby enhancing cellular autophagy and mitochondrial quality control \[\].
-
-  - [[_document_ - MRR - mitohormesis|mitohormesis]]
-    - Pathway Activation: This "oxidative pulse" activates the NRF2/Antioxidant Response Element antioxidant response and stimulates PGC1-α via the SIRT1/AMPK axis (primed by Nicotinamide Riboside/Nicotinamide Mononucleotide).
-
+  - [[_document_ - Mitohormesis - 2014_FEB|Mitohormesis 2014]]
+    - Discusses Nrf2 as a core transcriptional effector of mitohormetic adaptation to low-dose mitochondrial stress.
+  - [[_document_ - Mitohormesis - 2023_NOV|Mitohormesis 2023]]
+    - Covers Nrf2-dependent antioxidant programming downstream of mitochondrial retrograde signaling.
   - [[_document_ - xenohormesis, mitohormesis|xenohormesis, mitohormesis]]
-    - I've pinpointed key compounds like Resveratrol, Quercetin, Curcumin, and EGCG, along with their biochemical targets: Sirtuins, AMPK, and the NRF2 Pathway]]. These targets are critical in the survival response, which aligns with Caloric Restriction.
-
-  - [[_document_ - sirtuins in health and disease s41392-022-01257-8|sirtuins in health and disease s41392-022-01257-8]]
-    - The effect of SIRT1, SIRT 2, and SIRT6 on Nuclear erythroid 2-related factor 2 (NRF2): NRF2 is a leucine transcription factor that plays extremely important roles in antioxidant response element (ARE)-dependent transcriptional regulation of defense genes.
-
-
-  - [[_document_ - mitohormesis, heart rate variability|Mitohormesis, HRV & Recovery Tracking]]
-    - Listed as a key stress-response pathway activated by polyphenols (EGCG) and sulforaphane to boost antioxidant defenses during mitohormesis.
+    - Links dietary phytochemicals to Nrf2 activation through xenohormetic pathways.
+  - [[_document_ - as senotherapeutic agent|Senotherapeutic Agent]]
+    - Describes Nrf2 activation as a senotherapeutic and redox-restorative strategy.
+  - [[_document_ - Pharmacological Effects of Urolithin A and Its Role in Muscle Health and Performance Current Knowledge and Prospects|Urolithin A]]
+    - Notes Nrf2 involvement in urolithin A-mediated mitochondrial quality and antioxidant effects.
 
 ## Connections
-- [[Keap1]] — Cytoplasmic inhibitor that targets NRF2 for degradation under basal conditions
-- [[Antioxidant Response Element]] — DNA binding site for NRF2 target gene activation
-- [[NF-kappa B]] — Mutual antagonism; competes for CBP/p300 coactivator
-- [[SIRT1]] — Activates NRF2 by modifying KEAP1 structure
-- [[SIRT6]] — Enhances NRF2 signaling in the brain
-- [[HO-1]] — NRF2 target gene with anti-inflammatory activity
-- [[NQO1]] — Canonical NRF2 target detoxification enzyme
-- [[SKN-1]] — C. elegans NRF2 homolog mediating mitohormetic longevity
+
+  - [[Keap1]]: Cytosolic inhibitor that targets Nrf2 for ubiquitination and degradation until oxidative modification releases it.
+  - [[Oxidative Stress]]: The primary stimulus that activates Nrf2 and the principal phenotype its target genes oppose.
+  - [[ROS]]: Mitochondrial ROS act as retrograde signals that activate Nrf2 during mitohormesis.
+  - [[Mitochondria]]: Source of the reactive oxygen signals and the organelle whose quality Nrf2-protective programs preserve.
+  - [[Autophagy]]: Nrf2 and autophagic programs are co-regulated stress-adaptive responses with overlapping targets.
 
 ## Linking Summary
-- New links added: [[Keap1]], [[Antioxidant Response Element]], [[NF-kappa B]], [[SIRT1]], [[SIRT6]], [[HO-1]], [[NQO1]], [[SKN-1]], [[Sulforaphane]], [[Dimethyl fumarate]], [[Bardoxolone methyl]], [[Chronic Obstructive Pulmonary Disease]], [[Asthma]], [[Multiple Sclerosis]], [[Fenton Reaction]]
-- Suggested new entity notes to create: [[Oltipraz]], [[MAFG]], [[MAFF]], [[CUL3]]
-  - Strong connections to strengthen: [[NRF2]] ↔ Keap1, [[NRF2]] ↔ Oxidative Stress, [[NRF2]] ↔ NF-kappa B
+
+  - New links added: [[Nrf2]], [[Keap1]], [[Mitochondria]], [[Oxidative Stress]], [[ROS]], [[Autophagy]]
+  - Suggested new entity notes to create: [[ARE Element]], [[Heme Oxygenase-1]], [[Small Maf]]
+  - Strong connections to strengthen: [[Nrf2]] ↔ [[Sirtuins]]; [[Nrf2]] ↔ [[Keap1]]
