@@ -10,8 +10,8 @@ updated: 2026-07-09
 This directory contains entities that span across multiple topics within the knowledge base. Consolidating these entities here ensures a single source of truth and highlights them as central hubs in the graph view.
 
 ## Maintenance
-- Last updated: 09_JULY_2026 02:41 PM PDT
-- Total count of entities: 253
+- Last updated: 10_JULY_2026 12:00 PM PDT
+- Total count of entities: 262
 
 | entity                                   | datetime updated     | entity_type_1       | related topics                                  |
 | :----------------------------------------------- | :------------------- | :--------------------- | :---------------------------------------------- |
@@ -269,5 +269,14 @@ This directory contains entities that span across multiple topics within the kno
 | [[Nucleoside Reverse Transcriptase Inhibitor]]    | 09_JULY_2026 02:41 PM PDT | Chemical Compound      | Senescence, Antiretroviral, Inflammaging        |
 | [[Therapy-Induced Senescence]]                    | 09_JULY_2026 02:41 PM PDT | Biological Process     | Senescence, DNA Damage, SASP                     |
 | [[Senotherapy]]                                   | 09_JULY_2026 02:41 PM PDT | Therapeutic Strategy   | Senescence, Aging, SASP                         |
+| [[Androgen Receptor]]                             | 10_JULY_2026 12:00 PM PDT | Receptor               | Prostate Cancer, Signaling, Apigenin            |
+| [[Apigenin]]                                      | 10_JULY_2026 12:00 PM PDT | Chemical Compound      | Cancer, Flavonoid, Chemoprevention, Senomorphic |
+| [[Cancer Chemoprevention]]                        | 10_JULY_2026 12:00 PM PDT | Scientific Concept     | Cancer, Chemoprevention, Flavonoid              |
+| [[Chrysin]]                                       | 10_JULY_2026 12:00 PM PDT | Chemical Compound      | Flavonoid, Cancer, Apigenin                     |
+| [[Estrogen Receptor]]                             | 10_JULY_2026 12:00 PM PDT | Receptor               | Breast Cancer, Signaling, Apigenin             |
+| [[Fatty Acid Synthase]]                           | 10_JULY_2026 12:00 PM PDT | Enzyme                 | Metabolism, Cancer, Apigenin                    |
+| [[Flavones]]                                      | 10_JULY_2026 12:00 PM PDT | Chemical Class         | Flavonoid, Cancer, Apigenin                     |
+| [[Kaempferol]]                                    | 10_JULY_2026 12:00 PM PDT | Chemical Compound      | Flavonoid, Cancer, Apigenin                     |
+| [[Matrix Metalloproteinase]]                      | 10_JULY_2026 12:00 PM PDT | Enzyme                 | Metastasis, Cancer, Apigenin                    |
 
 | [[Zone 2 Cardio]] | 09_Jul_2026 07:00 PM | Biological Process | Exercise, Aerobic, Mitohormesis |
