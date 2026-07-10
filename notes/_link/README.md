@@ -161,7 +161,7 @@ This directory contains entities that span across multiple topics within the kno
 | [[Rapalogs]]                                       | 09_Jul_2026 02:41 PM | Chemical Class         | mTOR, Immunosuppressant, Geroprotector          |
 | [[Resveratrol]]                                  | 29_May_2026 08:20 AM | Chemical Compound      | Polyphenol, Longevity                           |
 | [[Ribosomal Protein S6]]                         | 08_Jul_2026 12:00 PM | Protein                | Biomarker, mTOR, Translation                    |
-| [[S6K1/2]]                                        | 09_Jul_2026 02:41 PM | Enzyme                 | mTOR, Translation, Hormesis                     |
+| [[SK61_2]]                                        | 09_Jul_2026 02:41 PM | Enzyme                 | mTOR, Translation, Hormesis                     |
 | [[Saturated Enzymatic Regime]]                        | 09_Jul_2026 02:41 PM | Scientific Concept     | Enzyme Kinetics, Hormesis                       |
 | [[SAMe]]                                         | 29_May_2026 08:20 AM | Biological Molecule    | Methyl Donor                                    |
 | [[Schizophrenia]]                                | 29_May_2026 08:20 AM | Medical Condition      | Psychiatry                                      |

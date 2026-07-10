@@ -48,7 +48,7 @@ The balance between the two incoherent paths shifts with dose, producing a non-m
 
 ## Rapamycin / mTOR-PI3K Example
 
-The canonical hormetic drug [[Rapamycin]] exhibits an inverted-U response (peak ~1 nM) in long-term treatment. Its target [[mTORC1]] sits in an incoherent bivalent arrangement within the [[mTOR|mTOR]]-[[PI3K]]-[[Akt]] cascade: rapamycin *indirectly activates* [[mTORC2]] (via [[PI3K]]) and *indirectly inhibits* [[mTORC2]] (by trapping [[mTOR|mTOR]] in mTORC1 and blocking mTORC2 assembly). mTORC2 is the Output readout. The backward link (mTORC1 → [[IRS1]] via [[S6K1/2]]) has a low Michaelis-Menten constant, matching the saturated-regime requirement [^1].
+The canonical hormetic drug [[Rapamycin]] exhibits an inverted-U response (peak ~1 nM) in long-term treatment. Its target [[mTORC1]] sits in an incoherent bivalent arrangement within the [[mTOR|mTOR]]-[[PI3K]]-[[Akt]] cascade: rapamycin *indirectly activates* [[mTORC2]] (via [[PI3K]]) and *indirectly inhibits* [[mTORC2]] (by trapping [[mTOR|mTOR]] in mTORC1 and blocking mTORC2 assembly). mTORC2 is the Output readout. The backward link (mTORC1 → [[IRS1]] via [[SK61_2]]) has a low Michaelis-Menten constant, matching the saturated-regime requirement [^1].
 
 ## Relationship to Other Network Motifs
 
@@ -65,12 +65,12 @@ Unlike the well-characterized **feedforward loop** (fold-change detection), **ne
 - [[Biphasic Dose-Response Curve]] — the quantitative signature produced by the motif
 - [[Saturated Enzymatic Regime]] — the kinetic condition that maximizes hormesis within the motif
 - [[Rapamycin]] — canonical hormetic drug explained by an mTORC1-centered motif
-- [[mTORC1]] / [[mTORC2]] / [[mTOR]] / [[PI3K]] / [[Akt]] / [[IRS1]] / [[S6K1/2]] — the proteins constituting the rapamycin example
+- [[mTORC1]] / [[mTORC2]] / [[mTOR]] / [[PI3K]] / [[Akt]] / [[IRS1]] / [[SK61_2]] — the proteins constituting the rapamycin example
 - [[Network Motif]] — broader class of recurrent regulatory topologies
 
 ## Linking Summary
 
-- New links added: [[Hormesis]], [[Biphasic Dose-Response Curve]], [[Saturated Enzymatic Regime]], [[Rapamycin]], [[mTORC1]], [[mTORC2]], [[mTOR]], [[PI3K]], [[Akt]], [[IRS1]], [[S6K1/2]], [[Network Motif]]
+- New links added: [[Hormesis]], [[Biphasic Dose-Response Curve]], [[Saturated Enzymatic Regime]], [[Rapamycin]], [[mTORC1]], [[mTORC2]], [[mTOR]], [[PI3K]], [[Akt]], [[IRS1]], [[SK61_2]], [[Network Motif]]
 - Suggested new entity notes to create: [[Network Motif]], [[Feedforward Loop]], [[Biphasic Dose-Response Curve]], [[Saturated Enzymatic Regime]]
 - Strong connections to strengthen: [[Incoherent Bivalent Motif]] ↔ [[Hormesis]]; [[Incoherent Bivalent Motif]] ↔ [[Rapamycin]]; [[Incoherent Bivalent Motif]] ↔ [[Biphasic Dose-Response Curve]]
 
